@@ -1,0 +1,1704 @@
+{
+  "id": "n4.l34",
+  "level": "N4",
+  "module": "N4 Final Review & Mastery",
+  "number": 34,
+  "title": "N4 Lesson 34: Passive & Potential Synthesis (受身・可能・自然発生の総合展開: 見える・聞こえる・生まれる・読まれる)",
+  "description": "Master distinguishing natural spontaneous sensory perception (見える, 聞こえる) from conscious potential ability (見られる, 聞ける), and integrating spontaneous intransitives (決まる, 伝わる, 生まれる) with passive constructions.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l34.v001",
+      "lessonId": "n4.l34",
+      "ja": "誕生する",
+      "kana": "たんじょうする",
+      "en": "to be born; to come into existence; to emerge",
+      "my": "မွေးဖွားလာသည်/ပေါ်ပေါက်လာသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l34.s001",
+      "kanjiIds": [
+        "n4.l34.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.v002",
+      "lessonId": "n4.l34",
+      "ja": "伝統",
+      "kana": "でんとう",
+      "en": "tradition; convention; heritage",
+      "my": "ရိုးရာဓလေ့/အမွေအနှစ်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l34.s002",
+      "kanjiIds": [
+        "n4.l34.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.v003",
+      "lessonId": "n4.l34",
+      "ja": "表現する",
+      "kana": "ひょうげんする",
+      "en": "to express; to convey emotion or meaning",
+      "my": "ဖော်ပြသည်/သရုပ်ဖော်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l34.s003",
+      "kanjiIds": [
+        "n4.l34.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.v004",
+      "lessonId": "n4.l34",
+      "ja": "出発する",
+      "kana": "しゅっぱつする",
+      "en": "to depart; to set off; to start journey",
+      "my": "ထွက်ခွာသည်/စတင်ခရီးထွက်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l34.s004",
+      "kanjiIds": [
+        "n4.l34.k003"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.v005",
+      "lessonId": "n4.l34",
+      "ja": "伝わる",
+      "kana": "つたわる",
+      "en": "to be transmitted; to be handed down; to spread",
+      "my": "လက်ဆင့်ကမ်းရောက်ရှိသည်/ပျံ့နှံ့သည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n4.l34.s005",
+      "kanjiIds": [
+        "n4.l34.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.v006",
+      "lessonId": "n4.l34",
+      "ja": "聞こえる",
+      "kana": "きこえる",
+      "en": "to be heard; to sound; audible",
+      "my": "ကြားရသည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n4.l34.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.v007",
+      "lessonId": "n4.l34",
+      "ja": "見える",
+      "kana": "みえる",
+      "en": "to be seen; to be visible",
+      "my": "မြင်ရသည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n4.l34.s007",
+      "kanjiIds": [
+        "n4.l34.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.v008",
+      "lessonId": "n4.l34",
+      "ja": "決まる",
+      "kana": "きまる",
+      "en": "to be decided; to be settled",
+      "my": "ဆုံးဖြတ်ပြီးဖြစ်သည်/သတ်မှတ်ပြီးဖြစ်သည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n4.l34.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.v009",
+      "lessonId": "n4.l34",
+      "ja": "始まる",
+      "kana": "はじまる",
+      "en": "to begin; to start (intransitive)",
+      "my": "စတင်သည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n4.l34.s009",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.v010",
+      "lessonId": "n4.l34",
+      "ja": "生まれる",
+      "kana": "うまれる",
+      "en": "to be born; to come into being",
+      "my": "မွေးဖွားသည်/ဖြစ်ပေါ်လာသည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n4.l34.s010",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.v011",
+      "lessonId": "n4.l34",
+      "ja": "届く",
+      "kana": "とどく",
+      "en": "to reach; to arrive (mail, goods)",
+      "my": "ရောက်ရှိသည်/ဆိုက်ရောက်သည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n4.l34.s011",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.v012",
+      "lessonId": "n4.l34",
+      "ja": "落ちる",
+      "kana": "おちる",
+      "en": "to fall; to drop; to fail (exam)",
+      "my": "ကျဆင်းသည်/ပြုတ်ကျသည်/ကျရှုံးသည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n4.l34.s012",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l34.k001",
+      "lessonId": "n4.l34",
+      "char": "誕",
+      "meaning": "nativity; be born; arbitrary",
+      "onyomi": [
+        "タン"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "誕生",
+          "reading": "たんじょう",
+          "meaning": "birth; creation",
+          "preview": false
+        },
+        {
+          "word": "誕生日",
+          "reading": "たんじょうび",
+          "meaning": "birthday",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l34.s001"
+      ],
+      "components": [
+        "言",
+        "延"
+      ],
+      "strokes": 15,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.k002",
+      "lessonId": "n4.l34",
+      "char": "伝",
+      "meaning": "transmit; follow; report; legend",
+      "onyomi": [
+        "デン"
+      ],
+      "kunyomi": [
+        "つた・わる",
+        "つた・える",
+        "つて"
+      ],
+      "exampleVocab": [
+        {
+          "word": "伝統",
+          "reading": "でんとう",
+          "meaning": "tradition",
+          "preview": false
+        },
+        {
+          "word": "伝える",
+          "reading": "つたえる",
+          "meaning": "to convey; report",
+          "preview": false
+        },
+        {
+          "word": "伝わる",
+          "reading": "つたわる",
+          "meaning": "to be handed down",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l34.s001"
+      ],
+      "components": [
+        "亻",
+        "云"
+      ],
+      "strokes": 6,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.k003",
+      "lessonId": "n4.l34",
+      "char": "発",
+      "meaning": "departure; discharge; emit; publish",
+      "onyomi": [
+        "ハツ",
+        "ホツ"
+      ],
+      "kunyomi": [
+        "た・つ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "出発",
+          "reading": "しゅっぱつ",
+          "meaning": "departure",
+          "preview": false
+        },
+        {
+          "word": "発見",
+          "reading": "はっけん",
+          "meaning": "discovery",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l34.s001"
+      ],
+      "components": [
+        "癶",
+        "弓",
+        "殳"
+      ],
+      "strokes": 9,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.k004",
+      "lessonId": "n4.l34",
+      "char": "現",
+      "meaning": "present; existing; actual; appear",
+      "onyomi": [
+        "ゲン"
+      ],
+      "kunyomi": [
+        "あらわ・れる",
+        "あらわ・す"
+      ],
+      "exampleVocab": [
+        {
+          "word": "表現",
+          "reading": "ひょうげん",
+          "meaning": "expression",
+          "preview": false
+        },
+        {
+          "word": "現在",
+          "reading": "げんざい",
+          "meaning": "present; current",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l34.s001"
+      ],
+      "components": [
+        "王",
+        "見"
+      ],
+      "strokes": 11,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l34.g001",
+      "lessonId": "n4.l34",
+      "pattern": "Spontaneous Sensory Occurrence: 見える vs 見られる / 聞こえる vs 聞ける",
+      "meaning": "Natural Spontaneous Perception vs Volitional Potential Ability",
+      "formation": "[Stimulus] が 見える / 聞こえる (Spontaneous: regardless of will, enters senses)\n[Object] が/を 見られる / 聞ける (Potential: if one wills, can see/listen)",
+      "explanation": {
+        "en": "Clear distinction between natural sensory occurrence and intentional potentiality:\n- 見える / 聞こえる: Non-volitional spontaneous occurrence. Sight or sound naturally reaches your eyes/ears without conscious effort (e.g. 窓から富士山が見える = Mt. Fuji can be seen from the window; 鳥の声が聞こえる = Bird voices are audible).\n- 見られる / 聞ける: Potential forms of 見る and 聞く. Means having the physical capability, permission, or circumstance to look/listen by conscious choice (e.g. 新しい映画館でその映画が見られます = You can watch that movie at the new cinema; ラジオで先生の番組が聞けます = You can listen to teacher's program on the radio).",
+        "my": "သဘာဝအလျောက် အလိုအလျောက် အာရုံထဲသို့ ရောက်ရှိလာခြင်း (自然発生) နှင့် မိမိဆန္ဒအရ ပြုလုပ်နိုင်သော စွမ်းဆောင်ရည် (可能形) ၏ ခြားနားချက်:\n- 見える / 聞こえる: ဆန္ဒမပါဘဲ အလိုအလျောက် မျက်စိထဲသို့ မြင်နေရခြင်း၊ နားထဲသို့ ကြားနေရခြင်း (ဥပမာ- ပြတင်းပေါက်မှ ဖူဂျီတောင်ကို မြင်ရသည်၊ ငှက်သံ ကြားရသည်)။\n- 見られる / 聞ける: မိမိစိတ်ဆန္ဒဖြင့် အချိန်ပေး၍ ကြည့်ရှုနိုင်ခြင်း၊ နားဆင်ခွင့်ရရှိခြင်း (ဥပမာ- ရုပ်ရှင်ရုံသစ်တွင် ထိုရုပ်ရှင်ကို ကြည့်ရှုနိုင်သည်)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l34.s006",
+          "note": "Can hear the sound of church bells ringing in the distance."
+        },
+        {
+          "sentenceId": "n4.l34.s007",
+          "note": "Mt. Fuji can be seen clearly across the lake."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use 見られる when a natural landscape simply enters your eyes without effort (❌ 窓から海が見られます → ⭕️ 窓から海が見えます).",
+        "Do not use 聞こえる when choosing to listen to music or classes (❌ インターネットで授業が聞こえます → ⭕️ インターネットで授業が聞けます)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.g002",
+      "lessonId": "n4.l34",
+      "pattern": "Spontaneous Intransitives vs Passive Voice (自然発生動詞と受身文の統合)",
+      "meaning": "Intransitive Natural Emergence vs Passive Voice (Things being decided/transmitted/born)",
+      "formation": "[Entity] が 決まる / 始まる / 生まれる / 伝わる (Natural emergence/outcome)\n[Target] が [People/Agent] に/によって [Verb 受身] (Passive focus on receiver)",
+      "explanation": {
+        "en": "Consolidates intransitive verbs expressing natural outcome or societal change with passive constructions:\n- Spontaneous intransitives (決まる, 伝わる, 生まれる) focus purely on the state change without emphasizing an agent: 会議の日程が決まりました (The schedule was settled).\n- Passive voice (決められた, 伝えられた, 生み出された) highlights that external people or circumstances performed the action upon the entity: その規則は全員の話し合いによって決められた (That rule was decided by everyone's discussion).",
+        "my": "အလိုအလျောက် ဖြစ်ပေါ်ပြောင်းလဲသော ကံလိုကြိယာများ (自動詞) နှင့် ခံရဝါကျများ (受身文) ၏ ပေါင်းစပ်အသုံးပြုပုံ:\n- 決まる၊ 伝わる၊ 生まれる စသည့် အလိုအလျောက်ဖြစ် ကြိယာများသည် ပြုလုပ်သူကို အထူးမပြုဘဲ ဖြစ်ပေါ်လာသော အခြေအနေရလဒ်ကိုသာ အဓိကဖော်ပြသည်။\n- 受身形 (決められた၊ 伝えられた) သည် တစ်စုံတစ်ဦး၏ လုပ်ဆောင်မှုကြောင့် အရာဝတ္ထု သို့မဟုတ် လူပုဂ္ဂိုလ် ခံယူရပုံကို အဓိကထားသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l34.s002",
+          "note": "Traditions that have been handed down through many centuries."
+        },
+        {
+          "sentenceId": "n4.l34.s008",
+          "note": "The new president of the university was decided yesterday."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Be careful with particle assignment: Intransitive spontaneous verbs take が (日程が決まる). Transitive active verbs take を (日程を決める). Passive verbs take が (日程が決められる)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l34.s001",
+      "lessonId": "n4.l34",
+      "ja": "何百万人もの人々に愛される新しい大ヒットキャラクターが誕生しました。",
+      "kana": "なんひゃくまんにんものひとびとにあいされるあたらしいだいヒットキャラクターがたんじょうしました。",
+      "translation": {
+        "en": "A new smash-hit character loved by millions of people came into existence.",
+        "my": "လူသန်းပေါင်းများစွာ၏ ချစ်ခင်မြတ်နိုးမှုကို ခံယူရသော နာမည်ကျော် ဇာတ်ကောင်အသစ်တစ်ခု ပေါ်ပေါက်လာခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l34.v001"
+      ],
+      "grammarIds": [
+        "n4.l34.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.s002",
+      "lessonId": "n4.l34",
+      "ja": "京都には、何百年もの長い歴史の中で代々受け継がれてきた伝統工芸があります。",
+      "kana": "きょうとには、なんびゃくねんものながいれきしのなかでだいだいうけつがれてきたでんとうこうげいがあります。",
+      "translation": {
+        "en": "In Kyoto, there are traditional crafts that have been passed down from generation to generation across hundreds of years of history.",
+        "my": "ကျိုတိုတွင် နှစ်ရာပေါင်းများစွာ ရှည်လျားသော သမိုင်းတစ်လျှောက် မျိုးဆက်အဆက်ဆက် လက်ဆင့်ကမ်းခံယူလာခဲ့သော ရိုးရာလက်မှုပညာများ ရှိပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l34.v002"
+      ],
+      "grammarIds": [
+        "n4.l34.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.s003",
+      "lessonId": "n4.l34",
+      "ja": "自分の思いや感動を豊かな日本語で表現できるようになりたいです。",
+      "kana": "じぶんのおもいやかんどうをゆたかなにほんごでひょうげんできるようになりたいです。",
+      "translation": {
+        "en": "I want to become able to express my thoughts and deep feelings in rich Japanese.",
+        "my": "မိမိ၏ အတွေးအမြင်များနှင့် စိတ်လှုပ်ရှားမှုများကို ကြွယ်ဝသော ဂျပန်ဘာသာဖြင့် ဖော်ပြနိုင်လာလိုပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l34.v003"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.s004",
+      "lessonId": "n4.l34",
+      "ja": "成田空港行きの特急電車は、午前九時ちょうどに一番ホームから出発します。",
+      "kana": "なりたくうこういきのとっきゅうでんしゃは、ごぜんくじちょうどにいちはんホームからしゅっぱつします。",
+      "translation": {
+        "en": "The limited express train bound for Narita Airport departs Platform 1 at exactly 9:00 AM.",
+        "my": "နာရီတာလေဆိပ်သို့ သွားမည့် အထူးအမြန်ရထားသည် နံနက် ၉ နာရီတိတိတွင် ပလက်ဖောင်း ၁ မှ စတင်ထွက်ခွာပါမည်။"
+      },
+      "vocabIds": [
+        "n4.l34.v004"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.s005",
+      "lessonId": "n4.l34",
+      "ja": "真心を込めて書いた手紙のおかげで、私の感謝の気持ちが相手にしっかり伝わりました。",
+      "kana": "まごころをこめてかいたてがみのおかげで、わたしのかんしゃのきもちがあいてにしっくりつたわりました。",
+      "translation": {
+        "en": "Thanks to the letter written with true sincerity, my feelings of gratitude were firmly conveyed to the other party.",
+        "my": "စိတ်ရင်းစေတနာအပြည့်ဖြင့် ရေးသားခဲ့သော စာကြောင့် ကျွန်တော့်၏ ကျေးဇူးတင်သောစိတ်သည် တစ်ဖက်လူထံ ကောင်းစွာ လက်ဆင့်ကမ်းရောက်ရှိခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l34.v005"
+      ],
+      "grammarIds": [
+        "n4.l34.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.s006",
+      "lessonId": "n4.l34",
+      "ja": "静かな朝の住宅街では、遠くの教会の鐘の音がかすかに聞こえます。",
+      "kana": "しずかなあさのじゅうたくがいでは、とおくのきょうかいのかねのおとがかすかにきこえます。",
+      "translation": {
+        "en": "In the quiet morning residential area, the sound of church bells in the distance can be faintly heard.",
+        "my": "တိတ်ဆိတ်သော မနက်ခင်း လူနေရပ်ကွက်တွင် အဝေးဆီမှ ခရစ်ယာန်ဘုရားကျောင်း ခေါင်းလောင်းသံကို သဲ့သဲ့လေး ကြားနေရပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l34.v006"
+      ],
+      "grammarIds": [
+        "n4.l34.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.s007",
+      "lessonId": "n4.l34",
+      "ja": "晴れて空気が澄んでいる日には、ホテルの部屋の窓から雄大な富士山がはっきり見えます。",
+      "kana": "はれてくうきがすんでいるひには、ホテルのへやのまどからゆうだいなふじさんがはっきりみえます。",
+      "translation": {
+        "en": "On clear days when the air is crisp, the magnificent Mt. Fuji can be clearly seen from the hotel room window.",
+        "my": "ရာသီဥတုသာယာပြီး လေထုကြည်လင်သော နေ့များတွင် ဟိုတယ်အခန်းပြတင်းပေါက်မှ ခမ်းနားသော ဖူဂျီတောင်ကို ရှင်းလင်းစွာ မြင်တွေ့ရပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l34.v007"
+      ],
+      "grammarIds": [
+        "n4.l34.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.s008",
+      "lessonId": "n4.l34",
+      "ja": "全員の投票の結果、新しい学生自治会の会長が田中さんに決まりました。",
+      "kana": "ぜんいんのとうひょうのけっか、あたらしいがくせいじちかいのかいちょうがたなかさんにきまりました。",
+      "translation": {
+        "en": "As a result of everyone’s vote, the new student council president was settled on Tanaka.",
+        "my": "အားလုံး၏ မဲပေးရွေးချယ်မှု ရလဒ်အရ ကျောင်းသားသမဂ္ဂ ဥက္ကဋ္ဌအသစ်ကို တာနာကာအဖြစ် ဆုံးဖြတ်သတ်မှတ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l34.v008"
+      ],
+      "grammarIds": [
+        "n4.l34.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.s009",
+      "lessonId": "n4.l34",
+      "ja": "ベルが鳴ると、試験監督の合図とともに日本語能力試験が始まりました。",
+      "kana": "ベルがなると、しけんかんとくのあいずとともににほんごのうりょくしけんがはじまりました。",
+      "translation": {
+        "en": "When the bell rang, the JLPT exam began along with the test proctor’s signal.",
+        "my": "ဘဲလ်သံမြည်လာသောအခါ စာမေးပွဲကြီးကြပ်ရေးမှူး၏ အချက်ပြမှုနှင့်အတူ ဂျပန်ဘာသာအရည်အချင်းစစ် စာမေးပွဲ စတင်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l34.v009"
+      ],
+      "grammarIds": [
+        "n4.l34.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.s010",
+      "lessonId": "n4.l34",
+      "ja": "春になると、暖かい日差しを浴びて新しい緑の若葉が次々と生まれてきます。",
+      "kana": "はるになると、あたたかいひざしをあびてあたらしいみどりのわかばがつぎつぎとうまれてきます。",
+      "translation": {
+        "en": "When spring arrives, bathed in warm sunlight, fresh green young leaves emerge one after another.",
+        "my": "နွေဦးရောက်လာသောအခါ နွေးထွေးသော နေရောင်ခြည်ကို ခံယူပြီး စိမ်းလန်းသော သစ်ရွက်နုလေးများ တစ်ခုပြီးတစ်ခု ဖြစ်ပေါ်ပေါက်ဖွားလာကြသည်။"
+      },
+      "vocabIds": [
+        "n4.l34.v010"
+      ],
+      "grammarIds": [
+        "n4.l34.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.s011",
+      "lessonId": "n4.l34",
+      "ja": "故郷の両親から送ってもらった手作りの特産品が、今日の午前に無事に届きました。",
+      "kana": "ふるさとのりょうしんからおくってもらったてづくりのとくさんひんが、きょうのごぜんにぶじにとどきました。",
+      "translation": {
+        "en": "The handmade local specialty products sent by my parents in my hometown arrived safely this morning.",
+        "my": "ဇာတိမြေရှိ မိဘများထံမှ ပို့ပေးခဲ့သော လက်လုပ်ဒေသထွက်ကုန်များသည် ယနေ့နံနက်တွင် ဘေးကင်းစွာ ရောက်ရှိလာခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l34.v011"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l34.s012",
+      "lessonId": "n4.l34",
+      "ja": "風が強く吹いたせいで、庭の木から熟した甘い柿の実が地面に落ちました。",
+      "kana": "かぜがつよくふいたせいで、にわのきからじゅくしたあまいかきのみがじめんにおちました。",
+      "translation": {
+        "en": "Because the wind blew hard, sweet ripe persimmons fell to the ground from the garden tree.",
+        "my": "လေပြင်းတိုက်ခတ်ခဲ့မှုကြောင့် ခြံထဲရှိ သစ်ပင်မှ မှည့်နေသော ချိုမြိန်သည့် တည်သီးများသည် မြေပြင်ပေါ်သို့ ပြုတ်ကျသွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l34.v012"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l34.r01",
+    "lessonId": "n4.l34",
+    "title": "富士山を望む温泉宿の朝",
+    "level": "N4",
+    "text": "山梨県の河口湖畔にある温泉旅館に泊まった朝、私は普段よりも少し早く目が覚めました。障子を開けて窓の外を眺めると、朝霧の向こうに雄大で優美な富士山の姿がくっきりと見えました。\n\n都会の喧騒から離れたこの静かな湖畔では、湖面を渡る清らかな風の音や、森の鳥たちの澄んださえずりが心地よく聞こえてきます。澄み切った空気を胸いっぱいに吸い込むと、日頃の忙しい生活の中で溜まっていたストレスがすうっと消えていくのを感じました。\n\nこの地域には、昔から富士山を神聖な山として敬い、豊かな自然を守り続けてきた歴史と伝統が今もしっかりと伝わっています。旅館のスタッフによる温かいおもてなしの心にも、そうした先人たちから代々受け継がれてきた伝統の精神が生きています。\n\n朝食を美味しくいただいた後、私たちは次の目的地へ向けて爽やかな気持ちで旅館を出発しました。",
+    "kanaText": "やまなしけんのかわぐちこはんにあるおんせんりょかんにとまったあさ、わたしはふだんよりもすこしはやくめがさめました。しょうじをあけてまどのそとをながめると、あさぎりのむこうにゆうだいでゆうびなふじさんのすがたがくっきりとみえました。\n\nとかいのけんそうからはなれたこのしずかなこはんでは、こめんをわたるきよらかなぜのおとや、もりのとりたちのすんださえずりがここちよくきこえてきます。すみきったくうきをむねいっぱいすいこむと、ひごろのいそがしいせいかつのなかでたまっていたストレスがすうっときえていくのをかんじました。\n\nこのちいきには、むかしからふじさんをしんせいなやまとしてうやまい、ゆたか动作な自然をまもりつづけてきたれきしとでんとうがいまもしっかりとつたわっています。りょかんのスタッフによるあたたかいおもてなしのこころにも、そうしたせんじんたちからだいだいうけつがれてきたでんとうのせいしんがいきています。\n\nちょうしょくをおいしくいただいたあと、わたしたちはつぎのもくてきちへむけてさわやかなきもちでりょかんをしゅっぱつしました。",
+    "translation": "On the morning I stayed at a hot spring inn on the shore of Lake Kawaguchi in Yamanashi, I woke up slightly earlier than usual. Opening the sliding screen and gazing out the window, beyond the morning mist the majestic and elegant figure of Mt. Fuji was clearly visible.\n\nOn this quiet lakeshore separated from city hustle and bustle, the sound of crisp wind crossing the lake surface and clear chirping of forest birds could be heard comfortably. Inhaling the crystal-clear air deeply, I felt the stress accumulated in daily busy life smoothly fade away.\n\nIn this region, the history and tradition of revering Mt. Fuji as a sacred mountain and protecting rich nature have been firmly handed down since ancient times even now. In the warm hospitality of the inn staff, such traditional spirits inherited across generations from ancestors remain alive.\n\nAfter savoring a delicious breakfast, we departed the inn with refreshed spirits toward our next destination.",
+    "questionIds": [
+      "n4.l34.q025",
+      "n4.l34.q026",
+      "n4.l34.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l34.l01",
+    "lessonId": "n4.l34",
+    "title": "新しいアパートの内見と周辺環境",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "不動産屋（松田）",
+      "留学生（チェン）"
+    ],
+    "transcript": "松田：チェンさん、こちらが南向きの明るいお部屋になります。\nチェン：わあ、日当たりが良くて広いですね！ベランダから緑の公園が見えますね。\n松田：はい。天気が良ければ、遠くにスカイツリーの先端も見えますよ。\nチェン：静かで落ち着きますね。道路の車の騒音は聞こえませんか？\n松田：二重窓になっていますから、外の音はほとんど聞こえません。夜もぐっすり眠れますよ。\nチェン：それは安心です。近くにスーパーや駅へのバス停はありますか？\n松田：徒歩三分で駅前行きのバス停があり、十分おきに出発しています。\nチェン：素晴らしいですね！条件がすべて揃っているので、この部屋に決めたいと思います。",
+    "translation": "Matsuda: Chen, this is the south-facing bright room.\nChen: Wow, it gets great sunlight and is spacious! From the veranda, the green park is visible.\nMatsuda: Yes. If the weather is nice, the tip of the Skytree can be seen in the distance too.\nChen: It is quiet and calming. Can traffic noise from the road be heard?\nMatsuda: Because it has double-glazed windows, outside noises can hardly be heard at all. You can sleep soundly at night too.\nChen: That is reassuring. Are there supermarkets or bus stops to the station nearby?\nMatsuda: Within a 3-minute walk there is a bus stop bound for the station, departing every 10 minutes.\nChen: Fantastic! All conditions are met, so I think I want to decide on this room.",
+    "turns": [
+      {
+        "speaker": "松田",
+        "ja": "チェンさん、こちらが南向きの明るいお部屋になります。",
+        "kana": "チェンさん、こちらがみなみむきのあかるいおへやになります。",
+        "en": "Chen, this is the south-facing bright room."
+      },
+      {
+        "speaker": "チェン",
+        "ja": "わあ、日当たりが良くて広いですね！ベランダから緑の公園が見えますね。",
+        "kana": "わあ、ひあたりがよくてひろいですね！ベランダからみどりのこうえんがみえますね。",
+        "en": "Wow, great sunlight and spacious! The green park is visible from the veranda."
+      },
+      {
+        "speaker": "松田",
+        "ja": "はい。天気が良ければ、遠くにスカイツリーの先端も見えますよ。",
+        "kana": "はい。てんきがよければ、とおくにスカイツリーのせんたんもみえますよ。",
+        "en": "Yes. If the weather is good, the tip of the Skytree can be seen in the distance too."
+      },
+      {
+        "speaker": "チェン",
+        "ja": "静かで落ち着きますね。道路の車の騒音は聞こえませんか？",
+        "kana": "しずかでおちつきますね。どうろのくるまのそうおんはきこえませんか？",
+        "en": "It is quiet and calm. Is car noise from the road audible?"
+      },
+      {
+        "speaker": "松田",
+        "ja": "二重窓になっていますから、外の音はほとんど聞こえません。夜もぐっすり眠れますよ。",
+        "kana": "にじゅうまどになっていますから、そとのおとはほとんどきこえません。よるもぐっすりねむれますよ。",
+        "en": "Because it has double-pane windows, outside sounds can hardly be heard at all. You can sleep soundly at night."
+      },
+      {
+        "speaker": "チェン",
+        "ja": "それは安心です。近くにスーパーや駅へのバス停はありますか？",
+        "kana": "それはあんしんです。ちかくにスーパーやえきへのバスていはありますか？",
+        "en": "That is reassuring. Are there supermarkets or bus stops for the station nearby?"
+      },
+      {
+        "speaker": "松田",
+        "ja": "徒歩三分で駅前行きのバス停があり、十分おきに出発しています。",
+        "kana": "とほさんぷんでえきまえいきのバスていがあり、じゅっぷんおきにしゅっぱつしています。",
+        "en": "A 3-minute walk away there is a bus stop bound for the station, departing every 10 minutes."
+      },
+      {
+        "speaker": "チェン",
+        "ja": "素晴らしいですね！条件がすべて揃っているので、この部屋に決めたいと思います。",
+        "kana": "すばらしいですね！じょうけんがすべてそろっているので、このへやにきめたいとおもいます。",
+        "en": "Wonderful! All the conditions are in place, so I would like to decide on this room."
+      }
+    ],
+    "questionIds": [
+      "n4.l34.q028",
+      "n4.l34.q029",
+      "n4.l34.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l34.q001",
+      "lessonId": "n4.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "新しい命や新しい組織・製品が世の中に生まれることを表す言葉はどれですか。",
+      "choices": [
+        "誕生する",
+        "卒業する",
+        "退職する",
+        "帰国する"
+      ],
+      "answer": "誕生する",
+      "acceptedAnswers": [
+        "誕生する"
+      ],
+      "explanation": "誕生する (たんじょうする) means to be born or come into existence.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q002",
+      "lessonId": "n4.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "昔から長い年月をかけて大切に受け継がれてきた文化や習慣を何と言いますか。",
+      "choices": [
+        "伝統",
+        "電報",
+        "伝説",
+        "電柱"
+      ],
+      "answer": "伝統",
+      "acceptedAnswers": [
+        "伝統"
+      ],
+      "explanation": "伝統 (でんとう) means tradition.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q003",
+      "lessonId": "n4.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "言葉や絵や音楽を使って自分の感情や考えを外に表す動詞はどれですか。",
+      "choices": [
+        "表現する",
+        "観察する",
+        "調査する",
+        "検査する"
+      ],
+      "answer": "表現する",
+      "acceptedAnswers": [
+        "表現する"
+      ],
+      "explanation": "表現する (ひょうげんする) means to express or represent.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q004",
+      "lessonId": "n4.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "電車やバスが停留所から次の目的地へ向けて動き始めることを何と言いますか。",
+      "choices": [
+        "出発する",
+        "到着する",
+        "停車する",
+        "故障する"
+      ],
+      "answer": "出発する",
+      "acceptedAnswers": [
+        "出発する"
+      ],
+      "explanation": "出発する (しゅっぱつする) means to depart.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q005",
+      "lessonId": "n4.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "話や噂が人から人へと広がり、相手に届く動詞はどれですか。",
+      "choices": [
+        "伝わる",
+        "落とす",
+        "直す",
+        "隠す"
+      ],
+      "answer": "伝わる",
+      "acceptedAnswers": [
+        "伝わる"
+      ],
+      "explanation": "伝わる (つたわる) means to be transmitted or spread.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q006",
+      "lessonId": "n4.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "何かに向けて意識して聴くのではなく、自然と耳に入ってくる状態を表す動詞はどれですか。",
+      "choices": [
+        "聞こえる",
+        "聞ける",
+        "聞く",
+        "聞かせる"
+      ],
+      "answer": "聞こえる",
+      "acceptedAnswers": [
+        "聞こえる"
+      ],
+      "explanation": "聞こえる means audible spontaneously without conscious effort.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q007",
+      "lessonId": "n4.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "目を開ければ意識しなくても視界に入ってくる状態を表す動詞はどれですか。",
+      "choices": [
+        "見える",
+        "見られる",
+        "見る",
+        "見せる"
+      ],
+      "answer": "見える",
+      "acceptedAnswers": [
+        "見える"
+      ],
+      "explanation": "見える means visible spontaneously.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q008",
+      "lessonId": "n4.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "会議での議論の結果、方針や日程が決定することを表す自動詞はどれですか。",
+      "choices": [
+        "決まる",
+        "決める",
+        "決意する",
+        "決定させる"
+      ],
+      "answer": "決まる",
+      "acceptedAnswers": [
+        "決まる"
+      ],
+      "explanation": "決まる (きまる) is the intransitive verb meaning to be decided/settled.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q009",
+      "lessonId": "n4.l34",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「誕生日」の「誕」の音読みはどれですか。",
+      "choices": [
+        "タン",
+        "セン",
+        "ダン",
+        "カン"
+      ],
+      "answer": "タン",
+      "acceptedAnswers": [
+        "タン"
+      ],
+      "explanation": "誕 has onyomi タン (誕生日 = たんじょうび).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q010",
+      "lessonId": "n4.l34",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「伝統」の正しい読み方はどれですか。",
+      "choices": [
+        "でんとう",
+        "てんとう",
+        "でんどう",
+        "てんづ"
+      ],
+      "answer": "でんとう",
+      "acceptedAnswers": [
+        "でんとう"
+      ],
+      "explanation": "伝統 is read as でんとう.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q011",
+      "lessonId": "n4.l34",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「表現」の正しい読み方を選びなさい。",
+      "choices": [
+        "ひょうげん",
+        "ひょうけん",
+        "ほうげん",
+        "しょうげん"
+      ],
+      "answer": "ひょうげん",
+      "acceptedAnswers": [
+        "ひょうげん"
+      ],
+      "explanation": "表現 is read as ひょうげん.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q012",
+      "lessonId": "n4.l34",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「朝八時に（出発）する」の「発」の音読みはどれですか。",
+      "choices": [
+        "ハツ",
+        "パツ",
+        "バツ",
+        "ホツ"
+      ],
+      "answer": "ハツ",
+      "acceptedAnswers": [
+        "ハツ"
+      ],
+      "explanation": "発 has onyomi ハツ (出発 = しゅっぱつ).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q013",
+      "lessonId": "n4.l34",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「気持ちが（伝わる）」の正しい読み方はどれですか。",
+      "choices": [
+        "つたわる",
+        "ならわる",
+        "てつだう",
+        "ことわる"
+      ],
+      "answer": "つたわる",
+      "acceptedAnswers": [
+        "つたわる"
+      ],
+      "explanation": "伝わる is read as つたわる.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q014",
+      "lessonId": "n4.l34",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「現在」の「現」の音読みはどれですか。",
+      "choices": [
+        "ゲン",
+        "ケン",
+        "ゼン",
+        "カン"
+      ],
+      "answer": "ゲン",
+      "acceptedAnswers": [
+        "ゲン"
+      ],
+      "explanation": "現 has onyomi ゲン (現在 = げんざい).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q015",
+      "lessonId": "n4.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「窓を開けると、遠くに綺麗な海が（　）。」自然発生的に視界に入る動詞はどれですか。",
+      "choices": [
+        "見えます",
+        "見られます",
+        "見ます",
+        "見せます"
+      ],
+      "answer": "見えます",
+      "acceptedAnswers": [
+        "見えます"
+      ],
+      "explanation": "Visible naturally without conscious effort uses 見える (海が見えます).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q016",
+      "lessonId": "n4.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「この映画館では、最新の3D映画が（　）。」意志を持って観覧できる可能動詞はどれですか。",
+      "choices": [
+        "見られます",
+        "見えます",
+        "見ます",
+        "見せています"
+      ],
+      "answer": "見られます",
+      "acceptedAnswers": [
+        "見られます"
+      ],
+      "explanation": "When one can view by visiting the theater, the potential form 見られる is used.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q017",
+      "lessonId": "n4.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「静かにしてください。隣の部屋の物音が（　）。」自然に耳に入ってくる動詞はどれですか。",
+      "choices": [
+        "聞こえます",
+        "聞けます",
+        "聞きます",
+        "聞かせます"
+      ],
+      "answer": "聞こえます",
+      "acceptedAnswers": [
+        "聞こえます"
+      ],
+      "explanation": "Sound naturally reaching the ears takes 聞こえる.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q018",
+      "lessonId": "n4.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「インターネットで日本のアニメの曲がいつでも（　）。」能力や環境による可能動詞はどれですか。",
+      "choices": [
+        "聞けます",
+        "聞こえます",
+        "聞きます",
+        "聞いてあります"
+      ],
+      "answer": "聞けます",
+      "acceptedAnswers": [
+        "聞けます"
+      ],
+      "explanation": "Being able to stream and listen at will uses the potential form 聞ける.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q019",
+      "lessonId": "n4.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「来月の旅行の行き先が京都に（　）。」決定の自然発生を表す自動詞はどれですか。",
+      "choices": [
+        "決まりました",
+        "決めました",
+        "決められました",
+        "決めてあります"
+      ],
+      "answer": "決まりました",
+      "acceptedAnswers": [
+        "決まりました"
+      ],
+      "explanation": "決まりました (intransitive) states that the destination has been settled.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q020",
+      "lessonId": "n4.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「この小説は世界中の多くの読者に（　）。」受身形はどれですか。",
+      "choices": [
+        "読まれています",
+        "読めています",
+        "読ませています",
+        "読み合っています"
+      ],
+      "answer": "読まれています",
+      "acceptedAnswers": [
+        "読まれています"
+      ],
+      "explanation": "Passive form 読まれている indicates that the book is read by readers.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q021",
+      "lessonId": "n4.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「雨が降ったせいで、屋根から雨粒がポタポタと（　）。」自然落下を表す自動詞はどれですか。",
+      "choices": [
+        "落ちています",
+        "落としています",
+        "落とされています",
+        "落ちさせています"
+      ],
+      "answer": "落ちています",
+      "acceptedAnswers": [
+        "落ちています"
+      ],
+      "explanation": "落ちる (intransitive) describes natural falling.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q022",
+      "lessonId": "n4.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の文のうち、文法的に不自然な誤りのある文はどれですか。",
+      "choices": [
+        "窓から富士山が見られます。",
+        "窓から富士山が見えます。",
+        "映画館でその映画が見られます。",
+        "ラジオで音楽が聞こえます。"
+      ],
+      "answer": "窓から富士山が見られます。",
+      "acceptedAnswers": [
+        "窓から富士山が見られます。"
+      ],
+      "explanation": "When viewing landscape naturally from a window, 見えます is required, not 見られます.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q023",
+      "lessonId": "n4.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「彼の誠実な態度から、本気度が私にも（　）。」感情が自然に伝わる動詞はどれですか。",
+      "choices": [
+        "伝わりました",
+        "伝えました",
+        "伝えられました",
+        "伝えています"
+      ],
+      "answer": "伝わりました",
+      "acceptedAnswers": [
+        "伝わりました"
+      ],
+      "explanation": "伝わる (intransitive) means feelings naturally reached/were communicated.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q024",
+      "lessonId": "n4.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「会議は何時から（　）か知っていますか。」自動詞の正しい形はどれですか。",
+      "choices": [
+        "始まる",
+        "始める",
+        "始まられる",
+        "始められる"
+      ],
+      "answer": "始まる",
+      "acceptedAnswers": [
+        "始まる"
+      ],
+      "explanation": "始まる (intransitive) = to start.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q025",
+      "lessonId": "n4.l34",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "朝、障子を開けて窓の外を眺めた時、何が見えましたか。",
+      "choices": [
+        "朝霧の向こうにくっきりと見える雄大な富士山",
+        "湖で泳いでいるたくさんの白鳥",
+        "遠くの高層ビル街の景色",
+        "大雨で荒れている湖面"
+      ],
+      "answer": "朝霧の向こうにくっきりと見える雄大な富士山",
+      "acceptedAnswers": [
+        "朝霧の向こうにくっきりと見える雄大な富士山"
+      ],
+      "explanation": "Passage 1 states: 朝霧の向こうに雄大で優美な富士山の姿がくっきりと見えました。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q026",
+      "lessonId": "n4.l34",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "静かな湖畔で心地よく聞こえてきた音として書かれているものは何ですか。",
+      "choices": [
+        "湖面を渡る風の音や、森の鳥たちの澄んださえずり",
+        "都会の車の激しい騒音",
+        "神社の大きな太鼓の音",
+        "観光客たちの歌声"
+      ],
+      "answer": "湖面を渡る風の音や、森の鳥たちの澄んださえずり",
+      "acceptedAnswers": [
+        "湖面を渡る風の音や、森の鳥たちの澄んださえずり"
+      ],
+      "explanation": "Passage 2 states: 湖面を渡る清らかな風の音や、森の鳥たちの澄んださえずりが心地よく聞こえてきます。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q027",
+      "lessonId": "n4.l34",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "この地域で先人たちから代々受け継がれてきた精神は何に生きていると書かれていますか。",
+      "choices": [
+        "旅館のスタッフによる温かいおもてなしの心",
+        "朝食の特産品の味付け",
+        "湖畔の道路の工事",
+        "電車の運行スケジュール"
+      ],
+      "answer": "旅館のスタッフによる温かいおもてなしの心",
+      "acceptedAnswers": [
+        "旅館のスタッフによる温かいおもてなしの心"
+      ],
+      "explanation": "Passage 3 states: 旅館のスタッフによる温かいおもてなしの心にも、そうした先人たちから代々受け継がれてきた伝統の精神が生きています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q028",
+      "lessonId": "n4.l34",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "アパートのベランダから何が見えますか。",
+      "choices": [
+        "緑の公園（天気が良ければ遠くにスカイツリーの先端）",
+        "湖と雄大な富士山",
+        "電車の車庫",
+        "大きなショッピングモール"
+      ],
+      "answer": "緑の公園（天気が良ければ遠くにスカイツリーの先端）",
+      "acceptedAnswers": [
+        "緑の公園（天気が良ければ遠くにスカイツリーの先端）"
+      ],
+      "explanation": "Chen says: ベランダから緑の公園が見えますね. Matsuda adds: 天気が良ければ、遠くにスカイツリーの先端も見えますよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q029",
+      "lessonId": "n4.l34",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "外の道路の車の音がほとんど聞こえない理由は何ですか。",
+      "choices": [
+        "部屋の窓が二重窓になっているから",
+        "夜間は車が通行禁止になっているから",
+        "道路から部屋が遠く離れているから",
+        "チェンさんが耳栓をしているから"
+      ],
+      "answer": "部屋の窓が二重窓になっているから",
+      "acceptedAnswers": [
+        "部屋の窓が二重窓になっているから"
+      ],
+      "explanation": "Matsuda explains: 二重窓になっていますから、外の音はほとんど聞こえません。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l34.q030",
+      "lessonId": "n4.l34",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "駅前行きのバスはどれくらいの頻度で出発していますか。",
+      "choices": [
+        "十分おき",
+        "三十分おき",
+        "一時間おき",
+        "二分おき"
+      ],
+      "answer": "十分おき",
+      "acceptedAnswers": [
+        "十分おき"
+      ],
+      "explanation": "Matsuda says: 徒歩三分で駅前行きのバス停があり、十分おきに出発しています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l34.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

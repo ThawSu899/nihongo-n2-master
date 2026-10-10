@@ -1,0 +1,6 @@
+{
+  "name": "Nihongo N2 Master",
+  "description": "JLPT-aligned mastery learning operating system taking learners from N5 to N2 with adaptive SRS, curriculum stages, and honest analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

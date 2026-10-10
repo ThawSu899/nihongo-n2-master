@@ -1,0 +1,1512 @@
+{
+  "id": "n5.l02",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 2,
+  "title": "This, That, and Over There (これ・それ・あれ)",
+  "description": "Master Japanese demonstrative pronouns (これ・それ・あれ・どれ) and demonstrative determiners (この・その・あの・どの) to identify everyday classroom and office objects and ask about ownership.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l02.v001",
+      "lessonId": "n5.l02",
+      "ja": "これ",
+      "kana": "これ",
+      "en": "This (near speaker)",
+      "my": "ဒါ (ပြောသူအနီး)",
+      "pos": "pronoun",
+      "exampleSentenceId": "n5.l02.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.v002",
+      "lessonId": "n5.l02",
+      "ja": "それ",
+      "kana": "それ",
+      "en": "That (near listener)",
+      "my": "အဲဒါ (နားထောင်သူအနီး)",
+      "pos": "pronoun",
+      "exampleSentenceId": "n5.l02.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.v003",
+      "lessonId": "n5.l02",
+      "ja": "あれ",
+      "kana": "あれ",
+      "en": "That over there (far from both)",
+      "my": "ဟိုဟာ (နှစ်ဦးစလုံးနှင့်ဝေး)",
+      "pos": "pronoun",
+      "exampleSentenceId": "n5.l02.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.v004",
+      "lessonId": "n5.l02",
+      "ja": "どれ",
+      "kana": "どれ",
+      "en": "Which one",
+      "my": "ဘယ်ဟာ",
+      "pos": "pronoun",
+      "exampleSentenceId": "n5.l02.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.v005",
+      "lessonId": "n5.l02",
+      "ja": "本",
+      "kana": "ほん",
+      "en": "Book",
+      "my": "စာအုပ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l02.s001",
+      "kanjiIds": [
+        "n5.l02.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.v006",
+      "lessonId": "n5.l02",
+      "ja": "辞書",
+      "kana": "じしょ",
+      "en": "Dictionary",
+      "my": "အဘိဓာန်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l02.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.v007",
+      "lessonId": "n5.l02",
+      "ja": "雑誌",
+      "kana": "ざっし",
+      "en": "Magazine",
+      "my": "မဂ္ဂဇင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l02.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.v008",
+      "lessonId": "n5.l02",
+      "ja": "新聞",
+      "kana": "しんぶん",
+      "en": "Newspaper",
+      "my": "သတင်းစာ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l02.s007",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.v009",
+      "lessonId": "n5.l02",
+      "ja": "ノート",
+      "kana": "のーと",
+      "en": "Notebook",
+      "my": "ဗလာစာအုပ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l02.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.v010",
+      "lessonId": "n5.l02",
+      "ja": "時計",
+      "kana": "とけい",
+      "en": "Watch / Clock",
+      "my": "နာရီ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l02.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.v011",
+      "lessonId": "n5.l02",
+      "ja": "傘",
+      "kana": "かさ",
+      "en": "Umbrella",
+      "my": "ထီး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l02.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.v012",
+      "lessonId": "n5.l02",
+      "ja": "鞄",
+      "kana": "かばん",
+      "en": "Bag",
+      "my": "အိတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l02.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l02.k001",
+      "lessonId": "n5.l02",
+      "char": "本",
+      "meaning": "Book, origin",
+      "onyomi": [
+        "ホン"
+      ],
+      "kunyomi": [
+        "もと"
+      ],
+      "exampleVocab": [
+        {
+          "word": "本 (ほん)",
+          "reading": "ほん",
+          "meaning": "Book",
+          "preview": false
+        },
+        {
+          "word": "日本 (にほん)",
+          "reading": "にほん",
+          "meaning": "Japan",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l02.s001"
+      ],
+      "components": [
+        "本"
+      ],
+      "strokes": 5,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.k002",
+      "lessonId": "n5.l02",
+      "char": "日",
+      "meaning": "Day, sun",
+      "onyomi": [
+        "ニチ",
+        "ジツ"
+      ],
+      "kunyomi": [
+        "ひ",
+        "-び"
+      ],
+      "exampleVocab": [
+        {
+          "word": "日曜日 (にちようび)",
+          "reading": "にちようび",
+          "meaning": "Sunday",
+          "preview": false
+        },
+        {
+          "word": "今日 (きょう)",
+          "reading": "きょう",
+          "meaning": "Today",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l02.s002"
+      ],
+      "components": [
+        "日"
+      ],
+      "strokes": 4,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.k003",
+      "lessonId": "n5.l02",
+      "char": "人",
+      "meaning": "Person",
+      "onyomi": [
+        "ジン",
+        "ニン"
+      ],
+      "kunyomi": [
+        "ひと"
+      ],
+      "exampleVocab": [
+        {
+          "word": "日本人 (にほんじん)",
+          "reading": "にほんじん",
+          "meaning": "Japanese person",
+          "preview": false
+        },
+        {
+          "word": "あの人 (あのひと)",
+          "reading": "あのひと",
+          "meaning": "That person",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l02.s003"
+      ],
+      "components": [
+        "人"
+      ],
+      "strokes": 2,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.k004",
+      "lessonId": "n5.l02",
+      "char": "名",
+      "meaning": "Name",
+      "onyomi": [
+        "メイ",
+        "ミョウ"
+      ],
+      "kunyomi": [
+        "な"
+      ],
+      "exampleVocab": [
+        {
+          "word": "名前 (なまえ)",
+          "reading": "なまえ",
+          "meaning": "Name",
+          "preview": false
+        },
+        {
+          "word": "名刺 (めいし)",
+          "reading": "めいし",
+          "meaning": "Business card",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l02.s004"
+      ],
+      "components": [
+        "名"
+      ],
+      "strokes": 6,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l02.g001",
+      "lessonId": "n5.l02",
+      "pattern": "これ / それ / あれ は [Noun] です",
+      "meaning": "This / That / That over there is [Noun]",
+      "formation": "これ/それ/あれ + は + Noun + です",
+      "explanation": {
+        "en": "Used to refer to objects based on distance relative to the speaker and listener: これ (near speaker), それ (near listener), あれ (far from both).",
+        "my": "ပြောသူအနီးအရာဝတ္ထုကို これ၊ နားထောင်သူအနီးကို それ၊ နှစ်ဦးစလုံးနှင့်ဝေးရာကို あれ ဟု သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l02.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l02.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Never attach a noun directly after これ/それ/あれ (e.g. *これ本 is ungrammatical; use この本 instead)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.g002",
+      "lessonId": "n5.l02",
+      "pattern": "この / その / あの [Noun] は [Person] の です",
+      "meaning": "This / That / That [Noun] belongs to [Person]",
+      "formation": "この/その/あの + Noun + は + Person + の + です",
+      "explanation": {
+        "en": "Demonstrative determiners (この, その, あの) MUST be immediately followed by a noun, specifying which item belongs to someone.",
+        "my": "この/その/あの နောက်တွင် နာမ် အမြဲတွဲရသည်။ ပိုင်ဆိုင်မှုကိုဖော်ပြရာတွင် 「〜の です」 (၏ဥစ္စာဖြစ်သည်) ဟု သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l02.s004",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l02.s005",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use この without a noun. 「*これは本」 is correct, but 「*このは本」 is ungrammatical."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l02.s001",
+      "lessonId": "n5.l02",
+      "ja": "これは日本語の本です。",
+      "kana": "これはにほんごのほんです。",
+      "translation": {
+        "en": "This is a Japanese language book.",
+        "my": "ဒါဟာ ဂျပန်စာအုပ် ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l02.v001",
+        "n5.l02.v005"
+      ],
+      "grammarIds": [
+        "n5.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.s002",
+      "lessonId": "n5.l02",
+      "ja": "それは辞書ですか、ノートですか。",
+      "kana": "それはじしょですか、のーとですか。",
+      "translation": {
+        "en": "Is that a dictionary or a notebook?",
+        "my": "အဲဒါ အဘိဓာန်လား၊ ဗလာစာအုပ်လား။"
+      },
+      "vocabIds": [
+        "n5.l02.v002",
+        "n5.l02.v006",
+        "n5.l02.v009"
+      ],
+      "grammarIds": [
+        "n5.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.s003",
+      "lessonId": "n5.l02",
+      "ja": "あれは誰の傘ですか。",
+      "kana": "あれはだれのかさですか。",
+      "translation": {
+        "en": "Whose umbrella is that over there?",
+        "my": "ဟိုဟာ ဘယ်သူ့ထီးလဲ။"
+      },
+      "vocabIds": [
+        "n5.l02.v003",
+        "n5.l02.v011"
+      ],
+      "grammarIds": [
+        "n5.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.s004",
+      "lessonId": "n5.l02",
+      "ja": "この鞄は田中さんのです。",
+      "kana": "このかばんはたなかさんのです。",
+      "translation": {
+        "en": "This bag belongs to Mr. Tanaka.",
+        "my": "ဒီအိတ်က မစ္စတာ တာနာကာ့အိတ် ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l02.v012"
+      ],
+      "grammarIds": [
+        "n5.l02.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.s005",
+      "lessonId": "n5.l02",
+      "ja": "あの時計は高橋さんのです。",
+      "kana": "あのとけいはたかはしさんのです。",
+      "translation": {
+        "en": "That watch over there belongs to Ms. Takahashi.",
+        "my": "ဟိုနာရီက မစ္စ တာကာဟာရှီ့ နာရီ ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l02.v003",
+        "n5.l02.v010"
+      ],
+      "grammarIds": [
+        "n5.l02.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.s006",
+      "lessonId": "n5.l02",
+      "ja": "あなたの雑誌はどれですか。",
+      "kana": "あなたのざっしはどれですか。",
+      "translation": {
+        "en": "Which one is your magazine?",
+        "my": "ခင်ဗျားရဲ့ မဂ္ဂဇင်းက ဘယ်ဟာလဲ။"
+      },
+      "vocabIds": [
+        "n5.l02.v004",
+        "n5.l02.v007"
+      ],
+      "grammarIds": [
+        "n5.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l02.s007",
+      "lessonId": "n5.l02",
+      "ja": "これは新聞です。",
+      "kana": "これはしんぶんです。",
+      "translation": {
+        "en": "This is a newspaper.",
+        "my": "ဒါဟာ သတင်းစာ ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l02.v008"
+      ],
+      "grammarIds": [
+        "n5.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l02.r01",
+    "lessonId": "n5.l02",
+    "title": "This, That, and Over There (これ・それ・あれ) - 読解",
+    "level": "N5",
+    "text": "ここは日本語の教室です。机の上に本と辞書があります。これは私の日本語の教科書です。それは佐藤さんのノートです。あそこに黒い鞄があります。あの鞄は誰のですか。あの鞄は先生のです。",
+    "kanaText": "ここはにほんごのきょうしつです。つくえのうえにほんとじしょがあります。これはわたしのにほんごのきょうかしょです。それはさとうさんののーとです。あそこにくろいかばんがあります。あのかばんはだれのですか。あのかばんはせんせいのです。",
+    "translation": "This is a Japanese language classroom. There are books and dictionaries on the desks. This is my Japanese textbook. That is Sato-san's notebook. There is a black bag over there. Whose bag is that? That bag belongs to the teacher.",
+    "questionIds": [
+      "n5.l02.q021",
+      "n5.l02.q022",
+      "n5.l02.q023",
+      "n5.l02.q024",
+      "n5.l02.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l02.l01",
+    "lessonId": "n5.l02",
+    "title": "This, That, and Over There (これ・それ・あれ) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "A：すみません、それはあなたの傘ですか。\nB：いいえ、違います。私のはあれです。あの青い傘です。\nA：そうですか。では、この黒い傘は誰のですか。\nB：あ、それは田中さんのですよ。",
+    "translation": "A dialogue between two students finding an umbrella in the classroom.",
+    "turns": [
+      {
+        "speaker": "A",
+        "ja": "すみません、それはあなたの傘ですか。",
+        "kana": "すみません、それはあなたのかさですか。",
+        "en": "Excuse me, is that umbrella yours?"
+      },
+      {
+        "speaker": "B",
+        "ja": "いいえ、違います。私のはあれです。あの青い傘です。",
+        "kana": "いいえ、ちがいます。わたしのはあれです。あのあおいかさです。",
+        "en": "No, it isn't. Mine is that one over there. That blue umbrella."
+      },
+      {
+        "speaker": "A",
+        "ja": "そうですか。では、この黒い傘は誰のですか。",
+        "kana": "そうですか。では、このくろいかさはだれのですか。",
+        "en": "I see. Then whose black umbrella is this?"
+      },
+      {
+        "speaker": "B",
+        "ja": "あ、それは田中さんのですよ。",
+        "kana": "あ、それはたなかさんのですよ。",
+        "en": "Ah, that belongs to Tanaka-san."
+      }
+    ],
+    "questionIds": [
+      "n5.l02.q026",
+      "n5.l02.q027",
+      "n5.l02.q028",
+      "n5.l02.q029",
+      "n5.l02.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l02.q001",
+      "lessonId": "n5.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「これ」の意味は何ですか。 (What does 「これ」 mean?)",
+      "choices": [
+        "This (near speaker)",
+        "That (near listener)",
+        "That over there (far from both)",
+        "Which one"
+      ],
+      "answer": "This (near speaker)",
+      "acceptedAnswers": [
+        "This (near speaker)"
+      ],
+      "explanation": "「これ」(これ) means \"This (near speaker)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q002",
+      "lessonId": "n5.l02",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"That (near listener)\" in hiragana:",
+      "answer": "それ",
+      "acceptedAnswers": [
+        "それ",
+        "それ"
+      ],
+      "explanation": "The Japanese word for \"That (near listener)\" is それ (それ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q003",
+      "lessonId": "n5.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「あれ」の意味は何ですか。 (What does 「あれ」 mean?)",
+      "choices": [
+        "Dictionary",
+        "Book",
+        "Which one",
+        "That over there (far from both)"
+      ],
+      "answer": "That over there (far from both)",
+      "acceptedAnswers": [
+        "That over there (far from both)"
+      ],
+      "explanation": "「あれ」(あれ) means \"That over there (far from both)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q004",
+      "lessonId": "n5.l02",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Which one\" in hiragana:",
+      "answer": "どれ",
+      "acceptedAnswers": [
+        "どれ",
+        "どれ"
+      ],
+      "explanation": "The Japanese word for \"Which one\" is どれ (どれ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q005",
+      "lessonId": "n5.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「本」の意味は何ですか。 (What does 「本」 mean?)",
+      "choices": [
+        "Newspaper",
+        "Magazine",
+        "Dictionary",
+        "Book"
+      ],
+      "answer": "Book",
+      "acceptedAnswers": [
+        "Book"
+      ],
+      "explanation": "「本」(ほん) means \"Book\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q006",
+      "lessonId": "n5.l02",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Dictionary\" in hiragana:",
+      "answer": "じしょ",
+      "acceptedAnswers": [
+        "じしょ",
+        "辞書"
+      ],
+      "explanation": "The Japanese word for \"Dictionary\" is 辞書 (じしょ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q007",
+      "lessonId": "n5.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「雑誌」の意味は何ですか。 (What does 「雑誌」 mean?)",
+      "choices": [
+        "Magazine",
+        "Newspaper",
+        "Notebook",
+        "Watch / Clock"
+      ],
+      "answer": "Magazine",
+      "acceptedAnswers": [
+        "Magazine"
+      ],
+      "explanation": "「雑誌」(ざっし) means \"Magazine\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q008",
+      "lessonId": "n5.l02",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Newspaper\" in hiragana:",
+      "answer": "しんぶん",
+      "acceptedAnswers": [
+        "しんぶん",
+        "新聞"
+      ],
+      "explanation": "The Japanese word for \"Newspaper\" is 新聞 (しんぶん).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q009",
+      "lessonId": "n5.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「ノート」の意味は何ですか。 (What does 「ノート」 mean?)",
+      "choices": [
+        "Bag",
+        "Umbrella",
+        "Watch / Clock",
+        "Notebook"
+      ],
+      "answer": "Notebook",
+      "acceptedAnswers": [
+        "Notebook"
+      ],
+      "explanation": "「ノート」(のーと) means \"Notebook\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q010",
+      "lessonId": "n5.l02",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Watch / Clock\" in hiragana:",
+      "answer": "とけい",
+      "acceptedAnswers": [
+        "とけい",
+        "時計"
+      ],
+      "explanation": "The Japanese word for \"Watch / Clock\" is 時計 (とけい).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q011",
+      "lessonId": "n5.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「傘」の意味は何ですか。 (What does 「傘」 mean?)",
+      "choices": [
+        "That (near listener)",
+        "This (near speaker)",
+        "Bag",
+        "Umbrella"
+      ],
+      "answer": "Umbrella",
+      "acceptedAnswers": [
+        "Umbrella"
+      ],
+      "explanation": "「傘」(かさ) means \"Umbrella\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q012",
+      "lessonId": "n5.l02",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Bag\" in hiragana:",
+      "answer": "かばん",
+      "acceptedAnswers": [
+        "かばん",
+        "鞄"
+      ],
+      "explanation": "The Japanese word for \"Bag\" is 鞄 (かばん).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q013",
+      "lessonId": "n5.l02",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「本」の意味は何ですか。 (What is the meaning of kanji 「本」?)",
+      "choices": [
+        "Book, origin",
+        "Day, sun",
+        "Person",
+        "Tree"
+      ],
+      "answer": "Book, origin",
+      "acceptedAnswers": [
+        "Book, origin"
+      ],
+      "explanation": "「本」means \"Book, origin\". Onyomi: ホン, Kunyomi: もと.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q014",
+      "lessonId": "n5.l02",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「本」の読み方はどれですか。 (Which is a correct reading for 「本」?)",
+      "choices": [
+        "もと",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "もと",
+      "acceptedAnswers": [
+        "もと"
+      ],
+      "explanation": "「本」 has the reading 「もと」 (Book, origin).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q015",
+      "lessonId": "n5.l02",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「日」の意味は何ですか。 (What is the meaning of kanji 「日」?)",
+      "choices": [
+        "Day, sun",
+        "Book, origin",
+        "Person",
+        "Tree"
+      ],
+      "answer": "Day, sun",
+      "acceptedAnswers": [
+        "Day, sun"
+      ],
+      "explanation": "「日」means \"Day, sun\". Onyomi: ニチ, ジツ, Kunyomi: ひ, -び.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q016",
+      "lessonId": "n5.l02",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「日」の読み方はどれですか。 (Which is a correct reading for 「日」?)",
+      "choices": [
+        "ひ",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "ひ",
+      "acceptedAnswers": [
+        "ひ"
+      ],
+      "explanation": "「日」 has the reading 「ひ」 (Day, sun).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q017",
+      "lessonId": "n5.l02",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「人」の意味は何ですか。 (What is the meaning of kanji 「人」?)",
+      "choices": [
+        "Person",
+        "Book, origin",
+        "Day, sun",
+        "Tree"
+      ],
+      "answer": "Person",
+      "acceptedAnswers": [
+        "Person"
+      ],
+      "explanation": "「人」means \"Person\". Onyomi: ジン, ニン, Kunyomi: ひと.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q018",
+      "lessonId": "n5.l02",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「人」の読み方はどれですか。 (Which is a correct reading for 「人」?)",
+      "choices": [
+        "ひと",
+        "みず",
+        "ほん"
+      ],
+      "answer": "ひと",
+      "acceptedAnswers": [
+        "ひと"
+      ],
+      "explanation": "「人」 has the reading 「ひと」 (Person).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q019",
+      "lessonId": "n5.l02",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「名」の意味は何ですか。 (What is the meaning of kanji 「名」?)",
+      "choices": [
+        "Name",
+        "Book, origin",
+        "Day, sun",
+        "Tree"
+      ],
+      "answer": "Name",
+      "acceptedAnswers": [
+        "Name"
+      ],
+      "explanation": "「名」means \"Name\". Onyomi: メイ, ミョウ, Kunyomi: な.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q020",
+      "lessonId": "n5.l02",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「名」の読み方はどれですか。 (Which is a correct reading for 「名」?)",
+      "choices": [
+        "な",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "な",
+      "acceptedAnswers": [
+        "な"
+      ],
+      "explanation": "「名」 has the reading 「な」 (Name).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q021",
+      "lessonId": "n5.l02",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "机の上に何がありますか。 (What is on the desks?)",
+      "choices": [
+        "本と辞書",
+        "傘と時計",
+        "新聞と雑誌",
+        "手帳とペン"
+      ],
+      "answer": "本と辞書",
+      "acceptedAnswers": [
+        "本と辞書"
+      ],
+      "explanation": "The text states 「机の上に本と辞書があります」 (There are books and dictionaries on the desk).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q022",
+      "lessonId": "n5.l02",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "これは誰の教科書ですか。 (Whose textbook is this?)",
+      "choices": [
+        "私のです",
+        "佐藤さんのです",
+        "先生のです",
+        "田中さんのです"
+      ],
+      "answer": "私のです",
+      "acceptedAnswers": [
+        "私のです"
+      ],
+      "explanation": "The text states 「これは私の日本語の教科書です」 (This is my Japanese textbook).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q023",
+      "lessonId": "n5.l02",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "佐藤さんの持ち物は何ですか。 (What item belongs to Sato-san?)",
+      "choices": [
+        "ノート",
+        "黒い鞄",
+        "辞書",
+        "傘"
+      ],
+      "answer": "ノート",
+      "acceptedAnswers": [
+        "ノート"
+      ],
+      "explanation": "The passage explicitly says 「それは佐藤さんのノートです」 (That is Sato-san's notebook).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q024",
+      "lessonId": "n5.l02",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "あの黒い鞄は誰のですか。 (Whose bag is that black bag over there?)",
+      "choices": [
+        "先生の鞄",
+        "佐藤さんの鞄",
+        "私の鞄",
+        "田中さんの鞄"
+      ],
+      "answer": "先生の鞄",
+      "acceptedAnswers": [
+        "先生の鞄"
+      ],
+      "explanation": "The text concludes with 「あの鞄は先生のです」 (That bag belongs to the teacher).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q025",
+      "lessonId": "n5.l02",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "この文章の場所はどこですか。 (Where does this passage take place?)",
+      "choices": [
+        "日本語の教室",
+        "駅のホーム",
+        "図書室",
+        "会社の会議室"
+      ],
+      "answer": "日本語の教室",
+      "acceptedAnswers": [
+        "日本語の教室"
+      ],
+      "explanation": "The opening sentence declares 「ここは日本語の教室です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q026",
+      "lessonId": "n5.l02",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "Bさんの傘はどれですか。 (Which umbrella belongs to person B?)",
+      "choices": [
+        "あの青い傘",
+        "この黒い傘",
+        "先生の傘",
+        "白い傘"
+      ],
+      "answer": "あの青い傘",
+      "acceptedAnswers": [
+        "あの青い傘"
+      ],
+      "explanation": "Person B states 「私のはあれです。あの青い傘です」 (Mine is that one over there. That blue umbrella).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q027",
+      "lessonId": "n5.l02",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "この黒い傘は誰のものですか。 (Whose is this black umbrella?)",
+      "choices": [
+        "田中さんの傘",
+        "Bさんの傘",
+        "Aさんの傘",
+        "佐藤さんの傘"
+      ],
+      "answer": "田中さんの傘",
+      "acceptedAnswers": [
+        "田中さんの傘"
+      ],
+      "explanation": "B confirms: 「あ、それは田中さんのですよ」 (Ah, that is Tanaka-san's).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q028",
+      "lessonId": "n5.l02",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "会話の二人は何について話していますか。 (What are the two people discussing?)",
+      "choices": [
+        "傘の持ち主",
+        "辞書の値段",
+        "授業の時間",
+        "宿題の内容"
+      ],
+      "answer": "傘の持ち主",
+      "acceptedAnswers": [
+        "傘の持ち主"
+      ],
+      "explanation": "They are discussing who owns the umbrellas in the room.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q029",
+      "lessonId": "n5.l02",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "Bさんの傘は話し手の近くにありますか。 (Is person B's umbrella near the speakers?)",
+      "choices": [
+        "いいえ、離れたところにあります (あれ)",
+        "はい、手元にあります (これ)",
+        "はい、Aさんの近くにあります",
+        "分かりません"
+      ],
+      "answer": "いいえ、離れたところにあります (あれ)",
+      "acceptedAnswers": [
+        "いいえ、離れたところにあります (あれ)"
+      ],
+      "explanation": "B uses 「あれ」 indicating distance away from both speakers.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l02.q030",
+      "lessonId": "n5.l02",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "Aさんは最初に何と言いましたか。 (What did person A say first?)",
+      "choices": [
+        "すみません、それはあなたの傘ですか。",
+        "こんにちは、本をください。",
+        "これは誰の鞄ですか。",
+        "おはようございます。"
+      ],
+      "answer": "すみません、それはあなたの傘ですか。",
+      "acceptedAnswers": [
+        "すみません、それはあなたの傘ですか。"
+      ],
+      "explanation": "Turn 1 begins: 「すみません、それはあなたの傘ですか。」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l02.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

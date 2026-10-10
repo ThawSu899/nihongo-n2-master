@@ -1,0 +1,1656 @@
+{
+  "id": "n3.l22",
+  "level": "N3",
+  "module": "N3 Nuance & Natural Discourse",
+  "number": 22,
+  "title": "N3 Lesson 22: Tendency (〜がち・〜気味)",
+  "description": "Master upper-intermediate propensity expressions, contrasting subjective behavioral traits and appearance impressions (〜っぽい: prone to... / looks like...) with formal risk assessments and hazard warnings (〜恐れがある: there is a danger/risk that...).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l22.v001",
+      "lessonId": "n3.l22",
+      "ja": "恐怖",
+      "kana": "きょうふ",
+      "en": "fear; terror; dread",
+      "my": "ကြောက်ရွံ့ထိတ်လန့်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [
+        "n3.l22.k001",
+        "n3.l22.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.v002",
+      "lessonId": "n3.l22",
+      "ja": "恐れ",
+      "kana": "おそれ",
+      "en": "fear; risk; danger; apprehension",
+      "my": "စိုးရိမ်ဖွယ်ရာ/အန္တရာယ်ဖြစ်နိုင်ခြေ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l22.s002",
+      "kanjiIds": [
+        "n3.l22.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.v003",
+      "lessonId": "n3.l22",
+      "ja": "積極的",
+      "kana": "せっきょくてき",
+      "en": "positive; proactive; assertive",
+      "my": "တက်ကြွသောအပြုသဘောဆောင်သော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l22.s003",
+      "kanjiIds": [
+        "n3.l22.k003",
+        "n3.l22.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.v004",
+      "lessonId": "n3.l22",
+      "ja": "消極的",
+      "kana": "しょうきょくてき",
+      "en": "passive; reluctant; negative",
+      "my": "မတက်ကြွသော/တွန့်ဆုတ်သော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l22.s004",
+      "kanjiIds": [
+        "n3.l22.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.v005",
+      "lessonId": "n3.l22",
+      "ja": "極端",
+      "kana": "きょくたん",
+      "en": "extreme; radical",
+      "my": "အစွန်းရောက်သော/လွန်ကဲသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l22.s005",
+      "kanjiIds": [
+        "n3.l22.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.v006",
+      "lessonId": "n3.l22",
+      "ja": "蓄積",
+      "kana": "ちくせき",
+      "en": "accumulation; piling up; store",
+      "my": "စုဆောင်းမိခြင်း/စုပုံလာခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l22.s006",
+      "kanjiIds": [
+        "n3.l22.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.v007",
+      "lessonId": "n3.l22",
+      "ja": "怒りっぽい",
+      "kana": "おこりっぽい",
+      "en": "short-tempered; easily angered; irritable",
+      "my": "ဒေါသထွက်လွယ်သော/စိတ်ဆတ်သော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n3.l22.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.v008",
+      "lessonId": "n3.l22",
+      "ja": "飽きっぽい",
+      "kana": "あきっぽい",
+      "en": "easily bored; fickle; lacking perseverance",
+      "my": "ငြီးငွေ့လွယ်သော/ဇွဲမရှိသော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n3.l22.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.v009",
+      "lessonId": "n3.l22",
+      "ja": "安っぽい",
+      "kana": "やすっぽい",
+      "en": "cheap-looking; tawdry; flimsy",
+      "my": "တန်ဖိုးနည်းပုံပေါက်သော/အပေါစားဆန်သော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n3.l22.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.v010",
+      "lessonId": "n3.l22",
+      "ja": "兆候",
+      "kana": "ちょうこう",
+      "en": "sign; indication; symptom; omen",
+      "my": "ရှေ့ပြေးလက္ခဏာ/အရိပ်အယောင်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l22.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.v011",
+      "lessonId": "n3.l22",
+      "ja": "懸念",
+      "kana": "けねん",
+      "en": "concern; anxiety; apprehension",
+      "my": "စိုးရိမ်မကင်းဖြစ်မှု/ပူပန်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l22.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.v012",
+      "lessonId": "n3.l22",
+      "ja": "油断",
+      "kana": "ゆだん",
+      "en": "negligence; carelessness; inattention",
+      "my": "ပေါ့ဆမှု/သတိလက်လွတ်ဖြစ်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l22.s012",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l22.k001",
+      "lessonId": "n3.l22",
+      "char": "恐",
+      "meaning": "fear, dread, awe",
+      "onyomi": [
+        "キョウ"
+      ],
+      "kunyomi": [
+        "おそ・れる",
+        "おそ・ろしい",
+        "こわ・い"
+      ],
+      "exampleVocab": [
+        {
+          "word": "恐怖",
+          "reading": "きょうふ",
+          "meaning": "fear, terror",
+          "preview": false
+        },
+        {
+          "word": "恐れ",
+          "reading": "おそれ",
+          "meaning": "fear, danger",
+          "preview": false
+        },
+        {
+          "word": "恐縮",
+          "reading": "きょうしゅく",
+          "meaning": "feeling obliged/sorry",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l22.s001",
+        "n3.l22.s002"
+      ],
+      "components": [],
+      "strokes": 10,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.k002",
+      "lessonId": "n3.l22",
+      "char": "怖",
+      "meaning": "dreadful, be frightened, scary",
+      "onyomi": [
+        "フ"
+      ],
+      "kunyomi": [
+        "こわ・い",
+        "おじ・ける"
+      ],
+      "exampleVocab": [
+        {
+          "word": "恐怖",
+          "reading": "きょうふ",
+          "meaning": "terror, dread",
+          "preview": false
+        },
+        {
+          "word": "怖い",
+          "reading": "こわい",
+          "meaning": "scary, frightening",
+          "preview": false
+        },
+        {
+          "word": "怖がる",
+          "reading": "こわがる",
+          "meaning": "to be afraid of",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l22.s001"
+      ],
+      "components": [],
+      "strokes": 8,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.k003",
+      "lessonId": "n3.l22",
+      "char": "積",
+      "meaning": "volume, accumulate, pile up, load",
+      "onyomi": [
+        "セキ"
+      ],
+      "kunyomi": [
+        "つ・む",
+        "つ・もる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "積極的",
+          "reading": "せっきょくてき",
+          "meaning": "proactive, positive",
+          "preview": false
+        },
+        {
+          "word": "蓄積",
+          "reading": "ちくせき",
+          "meaning": "accumulation",
+          "preview": false
+        },
+        {
+          "word": "面積",
+          "reading": "めんせき",
+          "meaning": "surface area",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l22.s003",
+        "n3.l22.s006"
+      ],
+      "components": [],
+      "strokes": 16,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.k004",
+      "lessonId": "n3.l22",
+      "char": "極",
+      "meaning": "climax, extreme, poles, culminate",
+      "onyomi": [
+        "キョク",
+        "ゴク"
+      ],
+      "kunyomi": [
+        "きわ・める",
+        "きわ・まる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "積極的",
+          "reading": "せっきょくてき",
+          "meaning": "positive, proactive",
+          "preview": false
+        },
+        {
+          "word": "消極的",
+          "reading": "しょうきょくてき",
+          "meaning": "passive, reluctant",
+          "preview": false
+        },
+        {
+          "word": "極端",
+          "reading": "きょくたん",
+          "meaning": "extreme",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l22.s003",
+        "n3.l22.s004",
+        "n3.l22.s005"
+      ],
+      "components": [],
+      "strokes": 12,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l22.g001",
+      "lessonId": "n3.l22",
+      "pattern": "〜っぽい",
+      "meaning": "prone to ... / feels like ... / looks like ...",
+      "formation": "Verb [Stem Form] + っぽい / Noun + っぽい / い-Adj [drop い] + っぽい",
+      "explanation": {
+        "en": "Describes a noticeable propensity, tendency to easily become something undesirable (e.g. 怒りっぽい: easily angered; 忘れっぽい: forgetful), or that an object or person strongly exhibits the characteristics, color, or impression of a quality (e.g. 安っぽい: looks cheap; 子どもっぽい: childish).",
+        "my": "အလွယ်တကူ ဖြစ်ပေါ်တတ်သော သဘောထား၊ စရိုက် သို့မဟုတ် အသွင်အပြင် (ဒေါသထွက်လွယ်ခြင်း၊ မေ့တတ်ခြင်း၊ ကလေးဆန်ခြင်း၊ အပေါစားဆန်ခြင်း) ကို ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l22.s007",
+          "note": "Easily angered tendency due to chronic lack of sleep"
+        },
+        {
+          "sentenceId": "n3.l22.s009",
+          "note": "Material that appears flimsy and cheap-looking"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse with 〜らしい (which indicates typical, well-suited authentic qualities in a positive sense, whereas 〜っぽい often has an informal or critical nuance)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.g002",
+      "lessonId": "n3.l22",
+      "pattern": "〜恐れがある",
+      "meaning": "there is a fear / risk / danger that ...",
+      "formation": "Verb [Dictionary Form / ない Form] + 恐れがある / Noun + の恐れがある",
+      "explanation": {
+        "en": "A formal expression commonly found in news broadcasts, weather warnings, and medical or business analyses to warn about a serious negative outcome or danger that could potentially occur.",
+        "my": "သတင်းများ၊ ရာသီဥတုကြေညာချက်များနှင့် တရားဝင်စာရွက်စာတမ်းများတွင် ဆိုးရွားသော အန္တရာယ် သို့မဟုတ် မလိုလားအပ်သော အကျိုးဆက် ဖြစ်ပေါ်လာနိုင်ခြေရှိကြောင်း သတိပေးရာတွင် သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l22.s002",
+          "note": "Warning about landslide risks during heavy rainfall"
+        },
+        {
+          "sentenceId": "n3.l22.s011",
+          "note": "Business concern of company data leakage"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l22.g001"
+      ],
+      "commonMistakes": [
+        "Do not use 〜恐れがある for positive or fortunate outcomes (❌ 明日は晴れて成功する恐れがある → ⭕️ 恐れがある is strictly for undesirable dangers)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l22.s001",
+      "lessonId": "n3.l22",
+      "ja": "暗闇の中に潜む未知の危険に対して、誰もが強い恐怖を感じる。",
+      "kana": "くらやみのなかにひそむみちのきけんにたいして、だれもがつよいきょうふをかんじる。",
+      "translation": {
+        "en": "Anyone feels intense fear toward the unknown dangers lurking in the darkness.",
+        "my": "အမှောင်ထဲတွင် ပုန်းအောင်းနေသော မသိနားမလည်သည့် အန္တရာယ်များကို မည်သူမဆို ပြင်းထန်သော ကြောက်ရွံ့မှုကို ခံစားရသည်။"
+      },
+      "vocabIds": [
+        "n3.l22.v001"
+      ],
+      "grammarIds": [
+        "n3.l22.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.s002",
+      "lessonId": "n3.l22",
+      "ja": "大雨が降り続くと、山間部で土砂崩れが発生する恐れがある。",
+      "kana": "おおあめがふりつづくと、さんかんぶでどしゃくずれがはっせいするおそれがある。",
+      "translation": {
+        "en": "If heavy rain continues to fall, there is a risk of landslides occurring in mountainous areas.",
+        "my": "မိုးသည်းထန်စွာ ဆက်လက်ရွာသွန်းပါက တောင်ပေါ်ဒေသများတွင် မြေပြိုမှုဖြစ်ပွားနိုင်သည့် အန္တရာယ်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l22.v002"
+      ],
+      "grammarIds": [
+        "n3.l22.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.s003",
+      "lessonId": "n3.l22",
+      "ja": "会議では受け身にならず、積極的な姿勢で自分の意見を発言すべきだ。",
+      "kana": "かいぎではうけみにならず、せっきょくてきなしせいでじぶんのいけんをはつげんすべきだ。",
+      "translation": {
+        "en": "In meetings, one should not be passive, but voice opinions with a proactive attitude.",
+        "my": "အစည်းအဝေးများတွင် တုံ့ပြန်မှုသက်သက်မဖြစ်စေဘဲ တက်ကြွသော သဘောထားဖြင့် မိမိ၏ထင်မြင်ချက်ကို ထုတ်ဖော်ပြောဆိုသင့်သည်။"
+      },
+      "vocabIds": [
+        "n3.l22.v003"
+      ],
+      "grammarIds": [
+        "n3.l22.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.s004",
+      "lessonId": "n3.l22",
+      "ja": "失敗を過度に恐れるあまり、新しい挑戦に消極的になってしまう。",
+      "kana": "しっぱいをかどにおそれるあまり、あたらしいちょうせんにしょうきょくてきになってしまう。",
+      "translation": {
+        "en": "Fearing failure excessively, one tends to become reluctant toward taking on new challenges.",
+        "my": "ကျရှုံးမှုကို လွန်ကဲစွာ ကြောက်ရွံ့လွန်းသဖြင့် စိန်ခေါ်မှုအသစ်များတွင် တွန့်ဆုတ်မတက်ကြွ ဖြစ်သွားတတ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l22.v004"
+      ],
+      "grammarIds": [
+        "n3.l22.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.s005",
+      "lessonId": "n3.l22",
+      "ja": "短期間で体重を減らそうとして極端な食事制限をするのは危険だ。",
+      "kana": "たんきかんでたいじゅうをへらそうとしてきょくたんなしょくじせいげんをするのはきけんだ。",
+      "translation": {
+        "en": "It is dangerous to enforce extreme dietary restrictions in an attempt to lose weight quickly.",
+        "my": "အချိန်တိုအတွင်း ကိုယ်အလေးချိန်လျှော့ချရန် အစွန်းရောက်သော အစားအသောက်ကန့်သတ်မှု ပြုလုပ်ခြင်းသည် အန္တရာယ်များသည်။"
+      },
+      "vocabIds": [
+        "n3.l22.v005"
+      ],
+      "grammarIds": [
+        "n3.l22.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.s006",
+      "lessonId": "n3.l22",
+      "ja": "長時間の残業が続くと、知らず知らずのうちに疲労が蓄積してしまう。",
+      "kana": "ちょうじかんのざんぎょうがつづくと、しらずしらずのうちにひろうがちくせきしてしまう。",
+      "translation": {
+        "en": "When long hours of overtime continue, fatigue accumulates before one even realizes it.",
+        "my": "အချိန်ပိုအလုပ်ဆင်းချိန်များ ဆက်တိုက်ကြာမြင့်လာပါက မသိမသာ မောပန်းနွမ်းနယ်မှုများ စုပုံလာတတ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l22.v006"
+      ],
+      "grammarIds": [
+        "n3.l22.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.s007",
+      "lessonId": "n3.l22",
+      "ja": "寝不足が続くと誰でも怒りっぽくなり、些細なことで同僚と衝突しがちだ。",
+      "kana": "ねぶそくがつづくとだれでもおこりっぽくなり、ささいなことでどうりょうとしょうとつしがちだ。",
+      "translation": {
+        "en": "When sleep deprivation persists, anyone becomes short-tempered and prone to clash over minor things.",
+        "my": "အိပ်ရေးပျက်မှု ဆက်တိုက်ဖြစ်ပေါ်ပါက မည်သူမဆို ဒေါသထွက်လွယ်လာပြီး သေးငယ်သောအရာများဖြင့် လုပ်ဖော်ကိုင်ဖက်များနှင့် အချင်းများလေ့ရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l22.v007"
+      ],
+      "grammarIds": [
+        "n3.l22.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.s008",
+      "lessonId": "n3.l22",
+      "ja": "彼は熱しやすく飽きっぽい性格で、どんな趣味も三日坊主で終わってしまう。",
+      "kana": "かれはねっしやすくあきっぽいせいかくで、どんなしゅみもみっかぼうずでおわってしまう。",
+      "translation": {
+        "en": "He has an easily bored personality; whatever hobby he takes up fizzles out after three days.",
+        "my": "သူသည် စိတ်အားထက်သန်လွယ်သော်လည်း ငြီးငွေ့လွယ်သော စရိုက်ရှိသဖြင့် မည်သည့်ဝါသနာမဆို သုံးရက်ခန့်ဖြင့် ရပ်တန့်သွားတတ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l22.v008"
+      ],
+      "grammarIds": [
+        "n3.l22.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.s009",
+      "lessonId": "n3.l22",
+      "ja": "値段は手頃だが、プラスチックの質感が少し安っぽい印象を与える。",
+      "kana": "ねだんはてごろだが、プラスチックのしつかんがすこしやすっぱいいんしょうをあたえる。",
+      "translation": {
+        "en": "The price is affordable, but the plastic texture gives a somewhat cheap-looking impression.",
+        "my": "ဈေးနှုန်းမှာ သင့်တင့်သော်လည်း ပလတ်စတစ်သား၏ အရည်အသွေးမှာ အနည်းငယ် အပေါစားဆန်သော အထင်အမြင်ကို ပေးသည်။"
+      },
+      "vocabIds": [
+        "n3.l22.v009"
+      ],
+      "grammarIds": [
+        "n3.l22.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.s010",
+      "lessonId": "n3.l22",
+      "ja": "機械から異音が聞こえたら、それは故障の兆候かもしれない。",
+      "kana": "きかいからいおんがきこえたら、それはこしょうのちょうこうかもしれない。",
+      "translation": {
+        "en": "If strange sounds are heard from the machine, it might be a sign of malfunction.",
+        "my": "စက်ပစ္စည်းမှ ပုံမှန်မဟုတ်သော အသံများ ကြားရပါက ချွတ်ယွင်းပျက်စီးမှု၏ အရိပ်အယောင် ဖြစ်ကောင်းဖြစ်နိုင်သည်။"
+      },
+      "vocabIds": [
+        "n3.l22.v010"
+      ],
+      "grammarIds": [
+        "n3.l22.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.s011",
+      "lessonId": "n3.l22",
+      "ja": "セキュリティ対策を怠ると、顧客情報が外部へ流出する恐れがある。",
+      "kana": "セキュリティたいさくをおこたると、こきゃくじょうほうがいぶへりゅうしゅつするおそれがある。",
+      "translation": {
+        "en": "If security countermeasures are neglected, there is a risk that customer data might leak externally.",
+        "my": "လုံခြုံရေးအစီအမံများကို ပေါ့ဆပါက ဖောက်သည်အချက်အလက်များ အပြင်သို့ ပေါက်ကြားသွားနိုင်သည့် အန္တရာယ်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l22.v011"
+      ],
+      "grammarIds": [
+        "n3.l22.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l22.s012",
+      "lessonId": "n3.l22",
+      "ja": "優勢に試合を進めていても、一瞬の油断が大きな敗因になりかねない。",
+      "kana": "ゆうせいにしあいをすすめていても、いっしゅんのゆだんがおおきなはいいんになりかねない。",
+      "translation": {
+        "en": "Even when leading the match, a single moment of carelessness can easily become the major cause of defeat.",
+        "my": "ပွဲစဉ်တွင် အသာစီးရနေသော်လည်း ခဏတာပေါ့ဆမှုသည် ကြီးမားသော ရှုံးနိမ့်မှုအကြောင်းရင်း ဖြစ်သွားနိုင်သည်။"
+      },
+      "vocabIds": [
+        "n3.l22.v012"
+      ],
+      "grammarIds": [
+        "n3.l22.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l22.r001",
+    "lessonId": "n3.l22",
+    "title": "Psychological Traps and Preventive Mindset in Stress Management",
+    "level": "N3",
+    "text": "多忙を極める現代社会において、知らず知らずのうちにストレスを溜め込んでしまうビジネスパーソンは少なくない。過度の疲労が蓄積すると、普段は温厚な人であっても感情のコントロールが難しくなり、些細なミスに対して怒りっぽくなったり、他人の意見に対して批判的・攻撃的になりがちである。\n\nこうした心理的な変化は、本人が気づかないうちに進行する傾向がある。最初は「少し疲れ気味だな」と軽視していても、十分な休息を取らずに業務を継続すれば、集中力の低下や判断ミスの頻発を招き、やがて深刻な心身の不調に陥る恐れがある。特に責任感の強い人ほど、「自分が頑張らなければならない」と思い込み、限界に達するまで助けを求めない傾向が見られる。\n\n健康を維持するためには、早期に身体や精神の不調の兆候を見逃さない油断のない観察眼が必要である。怒りっぽくなったり物事に飽きっぽくなったりしたときは、心が休息を求めている合図と捉えるべきだ。極端な我慢を美徳とするのではなく、疲労の蓄積を自覚した段階で積極的に休暇を取り、周囲と業務を分担する姿勢こそが、長期的な活躍を支えるのである。",
+    "kanaText": "たぼうをきわめるげんだいしゃかいにおいて、しらずしらずのうちにストレスをためこんでしまうビジネスパーソンはすくなくない。かどのひろうがちくせきすると、ふだんはおんこうなひとであってもかんじょうのコントロールがむずかしくなり、ささいなミスにたいしておこりっぽくなったり、たにんのいけんにたいしてひはんてき・こうげきてきになりがちである。\n\nこうしたしんりてきなへんかは、ほんにんがきづかないうちにしんこうするけいこうがある。さいしょは「すこしつかれぎみだな」とけいししていても、じゅうぶんなきゅうそくをとらずにぎょうむをけいぞくすれば、しゅうちゅうりょくのていかやはんだんミスのひんぱつをまねき、やがてしんこくなしんしんのふちょうにおちいるおそれがある。とくにせきにんかんのつよいひとほど、「じぶんががんばらなければならない」とおもいこみ、げんかいにたっするまですけをもとめないけいこうがみられる。\n\nけんこうをいじするためには、そうきにしんたいやせいしんのふちょうのちょうこうをみのがさないゆだんのないかんさつがんがひつようである。おこりっぽくなったりものごとにあきっぽくなったりしたときは、こころがきゅうそくをもとめているあいずととらえるべきだ。きょくたんながまんをびとくとするのではなく、ひろうのちくせきをじかくしただんかいでせっきょくてきにきゅうかをとリ、しゅういとぎょうむをぶんたんするしせいこそが、ちょうきてきなかつやくをささえるのである。",
+    "translation": "In our busy modern society, many business people accumulate stress without realizing it. When excessive fatigue piles up, even normally gentle individuals find emotional control difficult, becoming easily irritable toward small mistakes. Such psychological shifts tend to advance unnoticed. Although one might initially downplay it as mild tiredness, continuing work without rest risks causing poor concentration and severe health disorders. To maintain health, one must remain alert to early signs of mental and physical fatigue, proactively taking leave rather than viewing extreme endurance as a virtue.",
+    "questionIds": [
+      "n3.l22.q025",
+      "n3.l22.q026",
+      "n3.l22.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l22.d001",
+    "lessonId": "n3.l22",
+    "title": "Project Workload Consultation and Fatigue Accumulation Warning",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "部長：佐々木さん、最近少し顔色がすぐれないようですが、体調はいかがですか。\n佐々木：お気遣いありがとうございます。連日深夜まで新システムの仕様変更に取り組んでおりまして、少し睡眠不足気味です。\n部長：やはりそうでしたか。最近、会議での受け答えも少し怒りっぽくなっているように見受けられましたよ。疲労が蓄積している証拠です。\n佐々木：申し訳ありません。自覚が足りませんでした。納期が迫っているため、焦ってしまっていたようです。\n部長：責任感が強いのは素晴らしいですが、無理を重ねて倒れてしまったら、プロジェクト全体が遅延する恐れがあります。\n佐々木：おっしゃる通りです。チームメンバーへの仕事の割り振りを再検討し、今夜は早めに退勤して休息を取るようにします。",
+    "translation": "Department Manager: Sasaki-san, you seem a bit pale lately. How is your physical condition?\nSasaki: Thank you for your concern. Working late into the night consecutively on system specifications, I am feeling a bit sleep-deprived.\nDepartment Manager: I thought so. Lately in meetings, you appeared a bit short-tempered. That is a clear sign that fatigue is accumulating.\nSasaki: I apologize. I was not self-aware enough. With the deadline approaching, I seemed to have grown impatient.\nDepartment Manager: Your strong sense of responsibility is commendable, but if you overdo it and collapse, there is a risk the entire project will be delayed.\nSasaki: You are completely right. I will re-examine the division of tasks among team members and clock out early tonight to rest.",
+    "turns": [
+      {
+        "speaker": "部長",
+        "ja": "佐々木さん、最近少し顔色がすぐれないようですが、体調はいかがですか。",
+        "kana": "ささきさん、さいきんすこしかおいろがすぐれないようですが、たいちょうはいかがですか。",
+        "en": "Sasaki-san, you look somewhat pale lately; how is your physical condition?"
+      },
+      {
+        "speaker": "佐々木",
+        "ja": "お気遣いありがとうございます。連日深夜まで新システムの仕様変更に取り組んでおりまして、少し睡眠不足気味です。",
+        "kana": "おきづかいありがとうございます。れんじつしんやまでしんシステムのしようへんこうにとりくんでおりまして、すこしすいみんぶそくぎみです。",
+        "en": "Thank you for your concern. Tackling specification changes late into the night daily, I am feeling a bit sleep-deprived."
+      },
+      {
+        "speaker": "部長",
+        "ja": "やはりそうでしたか。最近、会議での受け答えも少し怒りっぽくなっているように見受けられましたよ。疲労が蓄積している証拠です。",
+        "kana": "やはりそうでしたか。さいきん、かいぎでのうけこたえもすこしおこりっぽくなっているようにみうけられましたよ。ひろうがちくせきしているしょうこです。",
+        "en": "I knew it. Lately your responses in meetings also appeared slightly short-tempered. That is evidence of accumulated fatigue."
+      },
+      {
+        "speaker": "佐々木",
+        "ja": "申し訳ありません。自覚が足りませんでした。納期が迫っているため、焦ってしまっていたようです。",
+        "kana": "もうしわけありません。じかくがたりませんでした。のうきがせまっているため、あせってしまっていたようです。",
+        "en": "I apologize. I lacked self-awareness. With the deadline pressing, I seemed to have gotten impatient."
+      },
+      {
+        "speaker": "部長",
+        "ja": "責任感が強いのは素晴らしいですが、無理を重ねて倒れてしまったら、プロジェクト全体が遅延する恐れがあります。",
+        "kana": "せきにんかんがつよいのはすばらしいですが、むりをかさねてたおれてしまったら、プロジェクトぜんたいがちえんするおそれがあります。",
+        "en": "A strong sense of responsibility is great, but if you push too hard and collapse, there is a risk the entire project will be delayed."
+      },
+      {
+        "speaker": "佐々木",
+        "ja": "おっしゃる通りです。チームメンバーへの仕事の割り振りを再検討し、今夜は早めに退勤して休息を取るようにします。",
+        "kana": "おっしゃるとおりです。チームメンバーへのしごとのわりふりをさいけんとうし、こんやははやめにたいきんしてきゅうそくをとるようにします。",
+        "en": "You are completely right. I will re-examine task distribution within the team and leave early tonight to rest."
+      }
+    ],
+    "questionIds": [
+      "n3.l22.q028",
+      "n3.l22.q029",
+      "n3.l22.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l22.q001",
+      "lessonId": "n3.l22",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n高所からの景色に強い「恐怖」を感じた。",
+      "choices": [
+        "きょうふ",
+        "きょうぶ",
+        "きょうほ",
+        "こわふ"
+      ],
+      "answer": "きょうふ",
+      "acceptedAnswers": [
+        "きょうふ"
+      ],
+      "explanation": "「恐怖」は「きょうふ」と読みます。恐ろしく思うこと（fear, terror）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q002",
+      "lessonId": "n3.l22",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n台風による洪水や停電の「恐れ」がある。",
+      "choices": [
+        "おそれ",
+        "こわれ",
+        "きょうれ",
+        "うれい"
+      ],
+      "answer": "おそれ",
+      "acceptedAnswers": [
+        "おそれ"
+      ],
+      "explanation": "「恐れ」は「おそれ」と読みます。よくない事態が起こる危険性（risk, danger）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q003",
+      "lessonId": "n3.l22",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n新しい企画に「積極的」に取り組む。",
+      "choices": [
+        "せっきょくてき",
+        "しょうきょくてき",
+        "せつきょくてき",
+        "さっきょくてき"
+      ],
+      "answer": "せっきょくてき",
+      "acceptedAnswers": [
+        "せっきょくてき"
+      ],
+      "explanation": "「積極的」は「せっきょくてき」と読みます。自発的・前向きに取り組む姿勢を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q004",
+      "lessonId": "n3.l22",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の対義語として最も適切なものを一つ選びなさい。\n彼の「積極的」な発言がチームを勢いづけた。",
+      "choices": [
+        "消極的",
+        "肯定的",
+        "能動的",
+        "意欲的"
+      ],
+      "answer": "消極的",
+      "acceptedAnswers": [
+        "消極的"
+      ],
+      "explanation": "「積極的（せっきょくてき）」の反対語は「消極的（しょうきょくてき）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q005",
+      "lessonId": "n3.l22",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の意味として最も適切なものを一つ選びなさい。\n「極端」な意見に偏らないよう中立の立場を保つ。",
+      "choices": [
+        "普通とかけ離れて一方に偏っていること",
+        "誰にとっても公平で優しいこと",
+        "曖昧でどちらともつかないこと",
+        "古くから伝統的に受け継がれていること"
+      ],
+      "answer": "普通とかけ離れて一方に偏っていること",
+      "acceptedAnswers": [
+        "普通とかけ離れて一方に偏っていること"
+      ],
+      "explanation": "「極端（きょくたん）」は中庸を失い、一方の限界に偏っている状態（extreme）を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q006",
+      "lessonId": "n3.l22",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「長年の研究データの（　）が、今回の新薬開発を可能にした。」",
+      "choices": [
+        "蓄積",
+        "集積",
+        "積載",
+        "沈殿"
+      ],
+      "answer": "蓄積",
+      "acceptedAnswers": [
+        "蓄積"
+      ],
+      "explanation": "「蓄積（ちくせき）」は長期間にわたって蓄え積むことを意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q007",
+      "lessonId": "n3.l22",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の意味として最も適切なものを一つ選びなさい。\n彼は少し「怒りっぽい」ところがある。",
+      "choices": [
+        "些細なことで怒りやすい性質である",
+        "滅多に怒らず穏やかである",
+        "怒っている人の真似が得意である",
+        "人の怒りを静める力がある"
+      ],
+      "answer": "些細なことで怒りやすい性質である",
+      "acceptedAnswers": [
+        "些細なことで怒りやすい性質である"
+      ],
+      "explanation": "「怒りっぽい（おこりっぽい）」はすぐに腹を立てる、怒りやすい傾向を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q008",
+      "lessonId": "n3.l22",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「弟は（　）性格で、新しいおもちゃを買ってもすぐに遊ばなくなる。」",
+      "choices": [
+        "飽きっぽい",
+        "忘れっぽい",
+        "愚痴っぽい",
+        "湿っぽい"
+      ],
+      "answer": "飽きっぽい",
+      "acceptedAnswers": [
+        "飽きっぽい"
+      ],
+      "explanation": "「飽きっぽい（あきっぽい）」は物事にすぐ飽きて長続きしない性質を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q009",
+      "lessonId": "n3.l22",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の意味として最も適切なものを一つ選びなさい。\nデザインは良いが、素材が「安っぽい」。",
+      "choices": [
+        "いかにも値段が安そうに見える",
+        "実際に非常に高価である",
+        "軽くて頑丈である",
+        "使いやすくて便利である"
+      ],
+      "answer": "いかにも値段が安そうに見える",
+      "acceptedAnswers": [
+        "いかにも値段が安そうに見える"
+      ],
+      "explanation": "「安っぽい（やすっぽい）」は品質や見た目が粗悪で安価に見える様子を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q010",
+      "lessonId": "n3.l22",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「春の訪れを告げる（　）があちこちで見られるようになった。」",
+      "choices": [
+        "兆候",
+        "気候",
+        "時候",
+        "徴収"
+      ],
+      "answer": "兆候",
+      "acceptedAnswers": [
+        "兆候"
+      ],
+      "explanation": "「兆候（ちょうこう）」はこれから起こる前触れ・印（sign, indication）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q011",
+      "lessonId": "n3.l22",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「原油価格の高騰により、景気の先行きに対する（　）が高まっている。」",
+      "choices": [
+        "懸念",
+        "執念",
+        "念願",
+        "信念"
+      ],
+      "answer": "懸念",
+      "acceptedAnswers": [
+        "懸念"
+      ],
+      "explanation": "「懸念（けねん）」は気にかかって心配すること、不安（concern, anxiety）を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q012",
+      "lessonId": "n3.l22",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「テストで満点を取ったからといって、（　）して勉強をやめてはならない。」",
+      "choices": [
+        "油断",
+        "決断",
+        "遮断",
+        "中断"
+      ],
+      "answer": "油断",
+      "acceptedAnswers": [
+        "油断"
+      ],
+      "explanation": "「油断（ゆだん）」は気を許して警戒を怠ること（carelessness, negligence）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q013",
+      "lessonId": "n3.l22",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n急な発熱で会社を休むことになり、大変「きょうしゅく」しております。",
+      "choices": [
+        "恐縮",
+        "恭縮",
+        "教縮",
+        "脅縮"
+      ],
+      "answer": "恐縮",
+      "acceptedAnswers": [
+        "恐縮"
+      ],
+      "explanation": "「恐縮（きょうしゅく）」の「きょう」は「恐」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q014",
+      "lessonId": "n3.l22",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n子どもの頃、暗い夜道が「こわ」くて走って帰った。",
+      "choices": [
+        "怖",
+        "恐",
+        "脅",
+        "畏"
+      ],
+      "answer": "怖",
+      "acceptedAnswers": [
+        "怖"
+      ],
+      "explanation": "「怖い（こわい）」は一般に「怖」の字を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q015",
+      "lessonId": "n3.l22",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\nグラウンドの「めんせき」を測定する。",
+      "choices": [
+        "面積",
+        "面績",
+        "面関",
+        "面籍"
+      ],
+      "answer": "面積",
+      "acceptedAnswers": [
+        "面積"
+      ],
+      "explanation": "「面積（めんせき）」の「せき」は「積（つむ・セキ）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q016",
+      "lessonId": "n3.l22",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n地球の「なんきょく」と北極を調査する。",
+      "choices": [
+        "南極",
+        "南局",
+        "南劇",
+        "南曲"
+      ],
+      "answer": "南極",
+      "acceptedAnswers": [
+        "南極"
+      ],
+      "explanation": "「南極（なんきょく）」の「きょく」は「極」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q017",
+      "lessonId": "n3.l22",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「年を取るにつれて、最近どうも忘れ（　）になって困っている。」",
+      "choices": [
+        "っぽく",
+        "がち",
+        "そう",
+        "らしく"
+      ],
+      "answer": "っぽく",
+      "acceptedAnswers": [
+        "っぽく"
+      ],
+      "explanation": "「忘れっぽい」の連用形「忘れっぽく」が適切です。「忘れっぽくなる」で物忘れしやすい傾向を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q018",
+      "lessonId": "n3.l22",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「この水域では、毒を持つクラゲが発生する（　）ので遊泳禁止となっている。」",
+      "choices": [
+        "恐れがある",
+        "おかげがある",
+        "せいがある",
+        "あまりがある"
+      ],
+      "answer": "恐れがある",
+      "acceptedAnswers": [
+        "恐れがある"
+      ],
+      "explanation": "好ましくない危険や事故の発生を公的に警告する文脈では「恐れがある」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q019",
+      "lessonId": "n3.l22",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「彼女はまだ二十代なのに、どこか落ち着いていて大人（　）雰囲気がある。」",
+      "choices": [
+        "っぽい",
+        "がち",
+        "きり",
+        "ばかり"
+      ],
+      "answer": "っぽい",
+      "acceptedAnswers": [
+        "っぽい"
+      ],
+      "explanation": "名詞に接続して「〜の感じを帯びている」を表す「大人っぽい」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q020",
+      "lessonId": "n3.l22",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「火山活動が活発化しており、大規模な噴火が（　）恐れがある。」",
+      "choices": [
+        "起きる",
+        "起きて",
+        "起きた",
+        "起きよう"
+      ],
+      "answer": "起きる",
+      "acceptedAnswers": [
+        "起きる"
+      ],
+      "explanation": "「〜恐れがある」には動詞の辞書形またはない形が接続します。「起きる恐れがある」が正解です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q021",
+      "lessonId": "n3.l22",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜恐れがある」を用いた文として文法的に最も適切なものを一つ選びなさい。",
+      "choices": [
+        "このまま地球温暖化が進めば、海面が上昇する恐れがある。",
+        "一生懸命勉強したから、試験に合格する恐れがある。",
+        "天気が良くなったので、ピクニックが楽しくなる恐れがある。",
+        "新しい事業が成功して、会社が急成長する恐れがある。"
+      ],
+      "answer": "このまま地球温暖化が進めば、海面が上昇する恐れがある。",
+      "acceptedAnswers": [
+        "このまま地球温暖化が進めば、海面が上昇する恐れがある。"
+      ],
+      "explanation": "「〜恐れがある」は危険や被害など好ましくない結果に対してのみ用います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q022",
+      "lessonId": "n3.l22",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「このスープは少し水（　）て、味が薄い。」",
+      "choices": [
+        "っぽく",
+        "らしく",
+        "がちで",
+        "そうに"
+      ],
+      "answer": "っぽく",
+      "acceptedAnswers": [
+        "っぽく"
+      ],
+      "explanation": "「水っぽい（みずっぽい）」は水分が多くて味が薄い、水気を帯びていることを表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q023",
+      "lessonId": "n3.l22",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「インフルエンザの流行期には、集団感染の（　）恐れがあるため外出時はマスクを着用してください。」",
+      "choices": [
+        "の",
+        "な",
+        "に",
+        "で"
+      ],
+      "answer": "の",
+      "acceptedAnswers": [
+        "の"
+      ],
+      "explanation": "名詞に「恐れがある」が接続する場合、「名詞 ＋ の ＋ 恐れがある」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q024",
+      "lessonId": "n3.l22",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の会話文の（　）に入れるのに最も適切なものを一つ選びなさい。\nA：「あの映画、どうだった？」\nB：「うーん、ストーリーが少し子ども（　）て、大人には物足りなかったよ。」",
+      "choices": [
+        "っぽく",
+        "らしく",
+        "がちで",
+        "みたい"
+      ],
+      "answer": "っぽく",
+      "acceptedAnswers": [
+        "っぽく"
+      ],
+      "explanation": "「子どもっぽい」は子どもじみている、幼稚であるというニュアンスを表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q025",
+      "lessonId": "n3.l22",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "過度の疲労が蓄積したときに現れやすい変化として文章に書かれているものはどれか。",
+      "choices": [
+        "感情のコントロールが難しくなり、怒りっぽくなったり批判的になったりすること",
+        "急に歌やダンスが得意になり周囲を楽しませること",
+        "毎朝4時に目が覚めて元気に運動を始めること",
+        "視力が突然良くなりメガネが不要になること"
+      ],
+      "answer": "感情のコントロールが難しくなり、怒りっぽくなったり批判的になったりすること",
+      "acceptedAnswers": [
+        "感情のコントロールが難しくなり、怒りっぽくなったり批判的になったりすること"
+      ],
+      "explanation": "第1段落に「過度の疲労が蓄積すると、普段は温厚な人であっても感情のコントロールが難しくなり、些細なミスに対して怒りっぽくなったり、他人の意見に対して批判的・攻撃的になりがちである」と書かれています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q026",
+      "lessonId": "n3.l22",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "責任感の強い人に見られる傾向として文章で指摘されているものはどれか。",
+      "choices": [
+        "「自分が頑張らなければならない」と思い込み、限界に達するまで助けを求めないこと",
+        "面倒な仕事はすべて後輩に押し付けて自分はすぐに帰ること",
+        "少しでも疲れたらその場で仕事を投げ出して旅行に行くこと",
+        "自分の責任を他人のせいにして平気で嘘をつくこと"
+      ],
+      "answer": "「自分が頑張らなければならない」と思い込み、限界に達するまで助けを求めないこと",
+      "acceptedAnswers": [
+        "「自分が頑張らなければならない」と思い込み、限界に達するまで助けを求めないこと"
+      ],
+      "explanation": "第2段落に「特に責任感の強い人ほど、「自分が頑張らなければならない」と思い込み、限界に達するまで助けを求めない傾向が見られる」と記載されています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q027",
+      "lessonId": "n3.l22",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "健康を長期的に維持し活躍し続けるために筆者が推奨している姿勢はどれか。",
+      "choices": [
+        "極端な我慢を美徳とせず、疲労を自覚した段階で積極的に休暇を取り業務を分担すること",
+        "他人の体調など気にせず自分の利益だけを追求すること",
+        "薬を大量に飲んで徹夜で仕事をやり遂げること",
+        "どのような病気になっても会社に隠して出社し続けること"
+      ],
+      "answer": "極端な我慢を美徳とせず、疲労を自覚した段階で積極的に休暇を取り業務を分担すること",
+      "acceptedAnswers": [
+        "極端な我慢を美徳とせず、疲労を自覚した段階で積極的に休暇を取り業務を分担すること"
+      ],
+      "explanation": "最終段落で「極端な我慢を美徳とするのではなく、疲労の蓄積を自覚した段階で積極的に休暇を取り、周囲と業務を分担する姿勢こそが、長期的な活躍を支えるのである」と明述されています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q028",
+      "lessonId": "n3.l22",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "佐々木さんの最近の体調不良の原因として会話で述べられているものはどれか。",
+      "choices": [
+        "連日深夜まで新システムの仕様変更に取り組んでおり睡眠不足気味だから",
+        "休日に激しいスポーツをして筋肉痛になったから",
+        "風邪をひいて高熱が出ているから",
+        "旅行の計画を立てるのに夢中になっているから"
+      ],
+      "answer": "連日深夜まで新システムの仕様変更に取り組んでおり睡眠不足気味だから",
+      "acceptedAnswers": [
+        "連日深夜まで新システムの仕様変更に取り組んでおり睡眠不足気味だから"
+      ],
+      "explanation": "佐々木さんが「連日深夜まで新システムの仕様変更に取り組んでおりまして、少し睡眠不足気味です」と述べています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q029",
+      "lessonId": "n3.l22",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "部長が指摘した、佐々木さんの疲労蓄積の兆候は何か。",
+      "choices": [
+        "会議での受け答えが少し怒りっぽくなっていること",
+        "会議中に居眠りをしてしまったこと",
+        "取引先の名前を完全に忘れてしまったこと",
+        "ネクタイを上下逆に結んでいたこと"
+      ],
+      "answer": "会議での受け答えが少し怒りっぽくなっていること",
+      "acceptedAnswers": [
+        "会議での受け答えが少し怒りっぽくなっていること"
+      ],
+      "explanation": "部長が「最近、会議での受け答えも少し怒りっぽくなっているように見受けられましたよ。疲労が蓄積している証拠です」と指摘しています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l22.q030",
+      "lessonId": "n3.l22",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "佐々木さんは今夜どのように対処すると部長に伝えたか。",
+      "choices": [
+        "チームメンバーへの仕事の割り振りを再検討し、早めに退勤して休息を取る",
+        "同僚を連れて飲みに行きストレスを発散する",
+        "朝まで徹夜して仕様変更を完成させる",
+        "来月まで有給休暇を取って実家に帰省する"
+      ],
+      "answer": "チームメンバーへの仕事の割り振りを再検討し、早めに退勤して休息を取る",
+      "acceptedAnswers": [
+        "チームメンバーへの仕事の割り振りを再検討し、早めに退勤して休息を取る"
+      ],
+      "explanation": "佐々木さんが「チームメンバーへの仕事の割り振りを再検討し、今夜は早めに退勤して休息を取るようにします」と答えています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

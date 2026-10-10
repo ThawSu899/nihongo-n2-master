@@ -1,0 +1,1591 @@
+{
+  "id": "n5.l17",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 17,
+  "title": "Connecting Actions (て、てから)",
+  "description": "Chain multiple sequential actions chronologically using [V-te], [V-te], express strict procedural prerequisites with [V-te] から, and describe composite qualities with adjectives.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l17.v001",
+      "lessonId": "n5.l17",
+      "ja": "浴びます",
+      "kana": "あびます",
+      "en": "To take (a shower)",
+      "my": "ရေချိုးသည် (ရှာဝါ)",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l17.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.v002",
+      "lessonId": "n5.l17",
+      "ja": "出かけます",
+      "kana": "でかけます",
+      "en": "To go out",
+      "my": "အပြင်ထွက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l17.s007",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.v003",
+      "lessonId": "n5.l17",
+      "ja": "入れます",
+      "kana": "いれます",
+      "en": "To insert / put in",
+      "my": "ထည့်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l17.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.v004",
+      "lessonId": "n5.l17",
+      "ja": "出します",
+      "kana": "だします",
+      "en": "To take out / withdraw money / submit",
+      "my": "ထုတ်သည် / တင်ပြသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l17.s010",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.v005",
+      "lessonId": "n5.l17",
+      "ja": "降ります",
+      "kana": "おります",
+      "en": "To get off (train/bus)",
+      "my": "ဆင်းသည် (ရထား/ကား)",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l17.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.v006",
+      "lessonId": "n5.l17",
+      "ja": "乗り換えます",
+      "kana": "のりかえます",
+      "en": "To transfer / change trains",
+      "my": "လွှဲပြောင်းစီးနင်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l17.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.v007",
+      "lessonId": "n5.l17",
+      "ja": "洗います",
+      "kana": "あらいます",
+      "en": "To wash",
+      "my": "ဆေးကြောသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l17.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.v008",
+      "lessonId": "n5.l17",
+      "ja": "シャワー",
+      "kana": "しゃわー",
+      "en": "Shower",
+      "my": "ရေချိုးခန်း (ရှာဝါ)",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l17.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.v009",
+      "lessonId": "n5.l17",
+      "ja": "お金",
+      "kana": "おかね",
+      "en": "Money",
+      "my": "ပိုက်ဆံ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l17.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.v010",
+      "lessonId": "n5.l17",
+      "ja": "それから",
+      "kana": "それから",
+      "en": "And then / After that",
+      "my": "ပြီးနောက် / ထို့နောက်",
+      "pos": "conjunction",
+      "exampleSentenceId": "n5.l17.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.v011",
+      "lessonId": "n5.l17",
+      "ja": "まず",
+      "kana": "まず",
+      "en": "First of all",
+      "my": "ပထမဦးစွာ",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l17.s008",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.v012",
+      "lessonId": "n5.l17",
+      "ja": "次",
+      "kana": "つぎ",
+      "en": "Next",
+      "my": "နောက်တစ်ခု",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l17.s009",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l17.k001",
+      "lessonId": "n5.l17",
+      "char": "起",
+      "meaning": "Rouse, wake up",
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [
+        "お.きる",
+        "お.こす"
+      ],
+      "exampleVocab": [
+        {
+          "word": "起きます (おきます)",
+          "reading": "おきます",
+          "meaning": "To wake up",
+          "preview": false
+        },
+        {
+          "word": "早起き (はやおき)",
+          "reading": "はやおき",
+          "meaning": "Early rising",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l17.s001"
+      ],
+      "components": [
+        "起"
+      ],
+      "strokes": 10,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.k002",
+      "lessonId": "n5.l17",
+      "char": "寝",
+      "meaning": "Sleep, lie down",
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [
+        "ね.る",
+        "ね.かす"
+      ],
+      "exampleVocab": [
+        {
+          "word": "寝ます (ねます)",
+          "reading": "ねます",
+          "meaning": "To sleep",
+          "preview": false
+        },
+        {
+          "word": "寝室 (しんしつ)",
+          "reading": "しんしつ",
+          "meaning": "Bedroom",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l17.s002"
+      ],
+      "components": [
+        "寝"
+      ],
+      "strokes": 13,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.k003",
+      "lessonId": "n5.l17",
+      "char": "始",
+      "meaning": "Begin, start",
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "はじ.める",
+        "はじ.まる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "始めます (はじめます)",
+          "reading": "はじめます",
+          "meaning": "To begin",
+          "preview": false
+        },
+        {
+          "word": "年始 (ねんし)",
+          "reading": "ねんし",
+          "meaning": "Beginning of year",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l17.s003"
+      ],
+      "components": [
+        "始"
+      ],
+      "strokes": 8,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.k004",
+      "lessonId": "n5.l17",
+      "char": "終",
+      "meaning": "End, finish",
+      "onyomi": [
+        "シュウ"
+      ],
+      "kunyomi": [
+        "お.わる",
+        "お.える"
+      ],
+      "exampleVocab": [
+        {
+          "word": "終わります (おわります)",
+          "reading": "おわります",
+          "meaning": "To finish",
+          "preview": false
+        },
+        {
+          "word": "最終 (さいしゅう)",
+          "reading": "さいしゅう",
+          "meaning": "Final / Last",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l17.s004"
+      ],
+      "components": [
+        "終"
+      ],
+      "strokes": 11,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l17.g001",
+      "lessonId": "n5.l17",
+      "pattern": "[V-te]、[V-te]、それから [Verb]",
+      "meaning": "[Action 1], [Action 2], and then [Action 3]",
+      "formation": "Verb 1 (て-form) + 、 + Verb 2 (て-form) + 、 + Verb 3",
+      "explanation": {
+        "en": "Chains chronological events in sequence. The tense of the sentence is determined exclusively by the final verb.",
+        "my": "လုပ်ဆောင်ချက်များကို အစဉ်လိုက်ဆက်စပ်ဖော်ပြရာတွင် 「Verb 1 て, Verb 2 て」 ဟု ဆက်ရေးသည်။ ဝါကျ၏ ကာလ (အတိတ်/ပစ္စုပ္ပန်) ကို နောက်ဆုံးကြိယာက ဆုံးဖြတ်သည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l17.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l17.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use と to connect verbs (*食べると飲みます is incorrect). Always use the て-form: 食べて、飲みます."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.g002",
+      "lessonId": "n5.l17",
+      "pattern": "[Verb-te] から、[Action 2]",
+      "meaning": "After doing [Verb 1], do [Action 2]",
+      "formation": "Verb 1 (て-form) + から、 + Action 2",
+      "explanation": {
+        "en": "Specifies that Action 2 occurs only AFTER Action 1 has fully concluded: 手を洗ってから、ご飯を食べます (I eat meal after washing my hands).",
+        "my": "ပထမလုပ်ဆောင်ချက် ပြီးမြောက်ပြီးမှ ဒုတိယလုပ်ဆောင်ချက်ကို ပြုလုပ်ကြောင်း 「Verb て + から」 (ပြီးနောက်မှ) ဖြင့် ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l17.s002",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l17.s004",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse [V-te] から (after doing) with [Noun/Clause] から (because/from). The meaning depends on whether it follows the て-form."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l17.s001",
+      "lessonId": "n5.l17",
+      "ja": "朝起きて、シャワーを浴びて、それから朝ご飯を食べます。",
+      "kana": "あさおきて、しゃわーをあびて、それからあさごはんをたべます。",
+      "translation": {
+        "en": "In the morning I wake up, take a shower, and then eat breakfast.",
+        "my": "မနက်နိုးပြီး ရေချိုးတယ်၊ ပြီးနောက် မနက်စာ စားပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l17.v001",
+        "n5.l17.v008",
+        "n5.l17.v010"
+      ],
+      "grammarIds": [
+        "n5.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.s002",
+      "lessonId": "n5.l17",
+      "ja": "銀行へ行ってお金を下ろしてから、買い物に行きます。",
+      "kana": "ぎんこうへいっておかねをおろしてから、かいものにいきます。",
+      "translation": {
+        "en": "After going to the bank and withdrawing money, I will go shopping.",
+        "my": "ဘဏ်သွားပြီး ပိုက်ဆံထုတ်ပြီးနောက်မှ ဈေးဝယ်သွားပါမယ်။"
+      },
+      "vocabIds": [
+        "n5.l17.v004",
+        "n5.l17.v009"
+      ],
+      "grammarIds": [
+        "n5.l17.g001",
+        "n5.l17.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.s003",
+      "lessonId": "n5.l17",
+      "ja": "新宿駅で電車を降りて、地下鉄に乗り換えます。",
+      "kana": "しんじゅくえきででんしゃをおりて、ちかてつにのりかえます。",
+      "translation": {
+        "en": "I get off the train at Shinjuku Station and transfer to the subway.",
+        "my": "ရှင်ဂျုကုဘူတာမှာ ရထားဆင်းပြီး မြေအောက်ရထား လွှဲစီးပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l17.v005",
+        "n5.l17.v006"
+      ],
+      "grammarIds": [
+        "n5.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.s004",
+      "lessonId": "n5.l17",
+      "ja": "手をよく洗ってから、食事をしてください。",
+      "kana": "てをよくあらってから、しょくじをしてください。",
+      "translation": {
+        "en": "Please eat your meal after washing your hands well.",
+        "my": "လက်ကို သေချာဆေးကြောပြီးနောက်မှ အစားစားပါ။"
+      },
+      "vocabIds": [
+        "n5.l17.v007"
+      ],
+      "grammarIds": [
+        "n5.l17.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.s005",
+      "lessonId": "n5.l17",
+      "ja": "ここにカードを入れて、暗証番号を押してください。",
+      "kana": "ここにかーどをいれて、あんしょうばんごうをおしてください。",
+      "translation": {
+        "en": "Please insert your card here and enter your PIN.",
+        "my": "ဒီမှာ ကတ်ထည့်ပြီး လျှို့ဝှက်နံပါတ်ကို နှိပ်ပေးပါ။"
+      },
+      "vocabIds": [
+        "n5.l17.v003"
+      ],
+      "grammarIds": [
+        "n5.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.s006",
+      "lessonId": "n5.l17",
+      "ja": "授業が終わってから、図書館で復習します。",
+      "kana": "じゅぎょうがおわってから、としょかんでふくしゅうします。",
+      "translation": {
+        "en": "After class finishes, I will review at the library.",
+        "my": "အတန်းပြီးနောက်မှ စာကြည့်တိုက်မှာ ပြန်လည်လေ့လာပါမယ်။"
+      },
+      "vocabIds": [
+        "n5.l17.v010"
+      ],
+      "grammarIds": [
+        "n5.l17.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.s007",
+      "lessonId": "n5.l17",
+      "ja": "朝ご飯を食べてから、学校へ出かけます。",
+      "kana": "あさごはんをたべてから、がっこうへでかけます。",
+      "translation": {
+        "en": "After eating breakfast, I leave for school.",
+        "my": "မနက်စာ စားပြီးနောက် ကျောင်းသို့ ထွက်သွားပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l17.v002"
+      ],
+      "grammarIds": [
+        "n5.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.s008",
+      "lessonId": "n5.l17",
+      "ja": "まずお金を入れてから、ボタンを押してください。",
+      "kana": "まずおかねをいれてから、ぼたんをおしてください。",
+      "translation": {
+        "en": "First insert the money, and then press the button.",
+        "my": "ပထမဦးစွာ ပိုက်ဆံထည့်ပြီးနောက် ခလုတ်ကို နှိပ်ပါ။"
+      },
+      "vocabIds": [
+        "n5.l17.v011"
+      ],
+      "grammarIds": [
+        "n5.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.s009",
+      "lessonId": "n5.l17",
+      "ja": "次の交差点を右に曲がって、まっすぐ行ってください。",
+      "kana": "つぎのこうさてんをみぎにまがって、まっすぐいってください。",
+      "translation": {
+        "en": "Turn right at the next intersection, and please go straight.",
+        "my": "နောက်လမ်းဆုံမှာ ညာဘက်ကွေ့ပြီး တည့်တည့်သွားပါ။"
+      },
+      "vocabIds": [
+        "n5.l17.v012"
+      ],
+      "grammarIds": [
+        "n5.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l17.s010",
+      "lessonId": "n5.l17",
+      "ja": "宿題を出してから、家に帰ります。",
+      "kana": "しゅくだいをだしてから、いえにかえります。",
+      "translation": {
+        "en": "After submitting my homework, I will return home.",
+        "my": "အိမ်စာတင်ပြီးနောက် အိမ်ပြန်ပါမယ်။"
+      },
+      "vocabIds": [
+        "n5.l17.v004"
+      ],
+      "grammarIds": [
+        "n5.l17.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l17.r01",
+    "lessonId": "n5.l17",
+    "title": "Connecting Actions (て、てから) - 読解",
+    "level": "N5",
+    "text": "私は毎朝六時半に起きます。まず顔を洗って、歯を磨きます。それから台所へ行って、温かいお茶を飲みます。七時に朝ご飯を食べてから、新聞を読みます。八時にうちを出て、最寄り駅まで歩いて行きます。電車に乗って、学校の駅で降りてから、コンビニでノートを買います。毎朝この順番で生活しています。",
+    "kanaText": "わたしはまいあさろくじはんにおきます。まずかおをあらって、はをみがきます。それからだいどころへいって、あたたかいおちゃをのみます。しちじにあさごはんをたべてから、しんぶんをよみます。はちじにうちをでて、もよりえきまであるいていきます。でんしゃにのって、がっこうのえきでおりてから、こんびにでのーとをかいます。まいあさこのじゅんばんでせいかつしています。",
+    "translation": "Every morning I wake up at 6:30. First, I wash my face and brush my teeth. After that, I go to the kitchen and drink warm tea. After eating breakfast at 7:00, I read the newspaper. At 8:00, I leave home and walk to the nearest station. After boarding the train and getting off at the school station, I buy a notebook at the convenience store. I live by this routine every morning.",
+    "questionIds": [
+      "n5.l17.q021",
+      "n5.l17.q022",
+      "n5.l17.q023",
+      "n5.l17.q024",
+      "n5.l17.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l17.l01",
+    "lessonId": "n5.l17",
+    "title": "Connecting Actions (て、てから) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "客",
+      "行員"
+    ],
+    "transcript": "客：すみません、お金を下ろしたいんですが、どうすればいいですか。\n行員：まず、こちらの機械にキャッシュカードを入れてください。\n客：入れました。次はどうしますか。\n行員：暗証番号を押してから、引き出し金額のボタンを押してください。最後にお金とカードを受け取ってください。",
+    "translation": "A customer asks a bank clerk for the correct sequence to withdraw cash from an ATM.",
+    "turns": [
+      {
+        "speaker": "客",
+        "ja": "すみません、お金を下ろしたいんですが、どうすればいいですか。",
+        "kana": "すみません、おかねをおろしたいんですが、どうすればいいですか。",
+        "en": "Excuse me, I would like to withdraw money. What should I do?"
+      },
+      {
+        "speaker": "行員",
+        "ja": "まず、こちらの機械にキャッシュカードを入れてください。",
+        "kana": "まず、こちらのきかいにきゃっしゅかーどをいれてください。",
+        "en": "First, please insert your cash card into this machine."
+      },
+      {
+        "speaker": "客",
+        "ja": "入れました。次はどうしますか。",
+        "kana": "いれました。つぎはどうしますか。",
+        "en": "I inserted it. What do I do next?"
+      },
+      {
+        "speaker": "行員",
+        "ja": "暗証番号を押してから、引き出し金額のボタンを押してください。最後にお金とカードを受け取ってください。",
+        "kana": "あんしょうばんごうをおしてから、ひきだしきんがくのぼたんをおしてください。さいごにおかねとかーどをうけとってください。",
+        "en": "After entering your PIN, press the withdrawal amount button. Finally, take your cash and card."
+      }
+    ],
+    "questionIds": [
+      "n5.l17.q026",
+      "n5.l17.q027",
+      "n5.l17.q028",
+      "n5.l17.q029",
+      "n5.l17.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l17.q001",
+      "lessonId": "n5.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「浴びます」の意味は何ですか。 (What does 「浴びます」 mean?)",
+      "choices": [
+        "To take (a shower)",
+        "To go out",
+        "To insert / put in",
+        "To take out / withdraw money / submit"
+      ],
+      "answer": "To take (a shower)",
+      "acceptedAnswers": [
+        "To take (a shower)"
+      ],
+      "explanation": "「浴びます」(あびます) means \"To take (a shower)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q002",
+      "lessonId": "n5.l17",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To go out\" in hiragana:",
+      "answer": "でかけます",
+      "acceptedAnswers": [
+        "でかけます",
+        "出かけます"
+      ],
+      "explanation": "The Japanese word for \"To go out\" is 出かけます (でかけます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q003",
+      "lessonId": "n5.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「入れます」の意味は何ですか。 (What does 「入れます」 mean?)",
+      "choices": [
+        "To transfer / change trains",
+        "To get off (train/bus)",
+        "To take out / withdraw money / submit",
+        "To insert / put in"
+      ],
+      "answer": "To insert / put in",
+      "acceptedAnswers": [
+        "To insert / put in"
+      ],
+      "explanation": "「入れます」(いれます) means \"To insert / put in\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q004",
+      "lessonId": "n5.l17",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To take out / withdraw money / submit\" in hiragana:",
+      "answer": "だします",
+      "acceptedAnswers": [
+        "だします",
+        "出します"
+      ],
+      "explanation": "The Japanese word for \"To take out / withdraw money / submit\" is 出します (だします).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q005",
+      "lessonId": "n5.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「降ります」の意味は何ですか。 (What does 「降ります」 mean?)",
+      "choices": [
+        "Shower",
+        "To wash",
+        "To transfer / change trains",
+        "To get off (train/bus)"
+      ],
+      "answer": "To get off (train/bus)",
+      "acceptedAnswers": [
+        "To get off (train/bus)"
+      ],
+      "explanation": "「降ります」(おります) means \"To get off (train/bus)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q006",
+      "lessonId": "n5.l17",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To transfer / change trains\" in hiragana:",
+      "answer": "のりかえます",
+      "acceptedAnswers": [
+        "のりかえます",
+        "乗り換えます"
+      ],
+      "explanation": "The Japanese word for \"To transfer / change trains\" is 乗り換えます (のりかえます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q007",
+      "lessonId": "n5.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「洗います」の意味は何ですか。 (What does 「洗います」 mean?)",
+      "choices": [
+        "To wash",
+        "Shower",
+        "Money",
+        "And then / After that"
+      ],
+      "answer": "To wash",
+      "acceptedAnswers": [
+        "To wash"
+      ],
+      "explanation": "「洗います」(あらいます) means \"To wash\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q008",
+      "lessonId": "n5.l17",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Shower\" in hiragana:",
+      "answer": "しゃわー",
+      "acceptedAnswers": [
+        "しゃわー",
+        "シャワー"
+      ],
+      "explanation": "The Japanese word for \"Shower\" is シャワー (しゃわー).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q009",
+      "lessonId": "n5.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「お金」の意味は何ですか。 (What does 「お金」 mean?)",
+      "choices": [
+        "Next",
+        "First of all",
+        "And then / After that",
+        "Money"
+      ],
+      "answer": "Money",
+      "acceptedAnswers": [
+        "Money"
+      ],
+      "explanation": "「お金」(おかね) means \"Money\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q010",
+      "lessonId": "n5.l17",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"And then / After that\" in hiragana:",
+      "answer": "それから",
+      "acceptedAnswers": [
+        "それから",
+        "それから"
+      ],
+      "explanation": "The Japanese word for \"And then / After that\" is それから (それから).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q011",
+      "lessonId": "n5.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「まず」の意味は何ですか。 (What does 「まず」 mean?)",
+      "choices": [
+        "To go out",
+        "To take (a shower)",
+        "Next",
+        "First of all"
+      ],
+      "answer": "First of all",
+      "acceptedAnswers": [
+        "First of all"
+      ],
+      "explanation": "「まず」(まず) means \"First of all\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q012",
+      "lessonId": "n5.l17",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Next\" in hiragana:",
+      "answer": "つぎ",
+      "acceptedAnswers": [
+        "つぎ",
+        "次"
+      ],
+      "explanation": "The Japanese word for \"Next\" is 次 (つぎ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q013",
+      "lessonId": "n5.l17",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「起」の意味は何ですか。 (What is the meaning of kanji 「起」?)",
+      "choices": [
+        "Rouse, wake up",
+        "Sleep, lie down",
+        "Begin, start",
+        "Tree"
+      ],
+      "answer": "Rouse, wake up",
+      "acceptedAnswers": [
+        "Rouse, wake up"
+      ],
+      "explanation": "「起」means \"Rouse, wake up\". Onyomi: キ, Kunyomi: お.きる, お.こす.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q014",
+      "lessonId": "n5.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「起」の読み方はどれですか。 (Which is a correct reading for 「起」?)",
+      "choices": [
+        "お.きる",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "お.きる",
+      "acceptedAnswers": [
+        "お.きる"
+      ],
+      "explanation": "「起」 has the reading 「お.きる」 (Rouse, wake up).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q015",
+      "lessonId": "n5.l17",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「寝」の意味は何ですか。 (What is the meaning of kanji 「寝」?)",
+      "choices": [
+        "Sleep, lie down",
+        "Rouse, wake up",
+        "Begin, start",
+        "Tree"
+      ],
+      "answer": "Sleep, lie down",
+      "acceptedAnswers": [
+        "Sleep, lie down"
+      ],
+      "explanation": "「寝」means \"Sleep, lie down\". Onyomi: シン, Kunyomi: ね.る, ね.かす.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q016",
+      "lessonId": "n5.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「寝」の読み方はどれですか。 (Which is a correct reading for 「寝」?)",
+      "choices": [
+        "ね.る",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "ね.る",
+      "acceptedAnswers": [
+        "ね.る"
+      ],
+      "explanation": "「寝」 has the reading 「ね.る」 (Sleep, lie down).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q017",
+      "lessonId": "n5.l17",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「始」の意味は何ですか。 (What is the meaning of kanji 「始」?)",
+      "choices": [
+        "Begin, start",
+        "Rouse, wake up",
+        "Sleep, lie down",
+        "Tree"
+      ],
+      "answer": "Begin, start",
+      "acceptedAnswers": [
+        "Begin, start"
+      ],
+      "explanation": "「始」means \"Begin, start\". Onyomi: シ, Kunyomi: はじ.める, はじ.まる.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q018",
+      "lessonId": "n5.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「始」の読み方はどれですか。 (Which is a correct reading for 「始」?)",
+      "choices": [
+        "はじ.める",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "はじ.める",
+      "acceptedAnswers": [
+        "はじ.める"
+      ],
+      "explanation": "「始」 has the reading 「はじ.める」 (Begin, start).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q019",
+      "lessonId": "n5.l17",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「終」の意味は何ですか。 (What is the meaning of kanji 「終」?)",
+      "choices": [
+        "End, finish",
+        "Rouse, wake up",
+        "Sleep, lie down",
+        "Tree"
+      ],
+      "answer": "End, finish",
+      "acceptedAnswers": [
+        "End, finish"
+      ],
+      "explanation": "「終」means \"End, finish\". Onyomi: シュウ, Kunyomi: お.わる, お.える.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q020",
+      "lessonId": "n5.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「終」の読み方はどれですか。 (Which is a correct reading for 「終」?)",
+      "choices": [
+        "お.わる",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "お.わる",
+      "acceptedAnswers": [
+        "お.わる"
+      ],
+      "explanation": "「終」 has the reading 「お.わる」 (End, finish).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q021",
+      "lessonId": "n5.l17",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "起きてから最初に何をしますか。 (What is done first after waking up?)",
+      "choices": [
+        "顔を洗って歯を磨く",
+        "朝ご飯を食べる",
+        "新聞を読む",
+        "お茶を飲む"
+      ],
+      "answer": "顔を洗って歯を磨く",
+      "acceptedAnswers": [
+        "顔を洗って歯を磨く"
+      ],
+      "explanation": "「まず顔を洗って、歯を磨きます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q022",
+      "lessonId": "n5.l17",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "新聞はいつ読みますか。 (When is the newspaper read?)",
+      "choices": [
+        "朝ご飯を食べてから",
+        "起きる前",
+        "電車の中",
+        "学校に着いてから"
+      ],
+      "answer": "朝ご飯を食べてから",
+      "acceptedAnswers": [
+        "朝ご飯を食べてから"
+      ],
+      "explanation": "「七時に朝ご飯を食べてから、新聞を読みます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q023",
+      "lessonId": "n5.l17",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "何時にうちを出ますか。 (What time do they leave home?)",
+      "choices": [
+        "八時",
+        "六時半",
+        "七時",
+        "七時半"
+      ],
+      "answer": "八時",
+      "acceptedAnswers": [
+        "八時"
+      ],
+      "explanation": "「八時にうちを出て...」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q024",
+      "lessonId": "n5.l17",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "コンビニにはいつ行きますか。 (When do they go to the convenience store?)",
+      "choices": [
+        "学校の駅で電車を降りてから",
+        "家を出る前",
+        "夜",
+        "昼休み"
+      ],
+      "answer": "学校の駅で電車を降りてから",
+      "acceptedAnswers": [
+        "学校の駅で電車を降りてから"
+      ],
+      "explanation": "「学校の駅で降りてから、コンビニでノートを買います」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q025",
+      "lessonId": "n5.l17",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "コンビニで何を買いましたか。 (What was bought at the convenience store?)",
+      "choices": [
+        "ノート",
+        "パン",
+        "新聞",
+        "お弁当"
+      ],
+      "answer": "ノート",
+      "acceptedAnswers": [
+        "ノート"
+      ],
+      "explanation": "「コンビニでノートを買います」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q026",
+      "lessonId": "n5.l17",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "客は最初に入れるものは何ですか。 (What does the customer insert first?)",
+      "choices": [
+        "キャッシュカード",
+        "お金",
+        "通帳",
+        "身分証明書"
+      ],
+      "answer": "キャッシュカード",
+      "acceptedAnswers": [
+        "キャッシュカード"
+      ],
+      "explanation": "「まず、こちらの機械にキャッシュカードを入れてください」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q027",
+      "lessonId": "n5.l17",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "金額ボタンを押す前に何をしなければなりませんか。 (What must be done before pressing the amount button?)",
+      "choices": [
+        "暗証番号を押す",
+        "サインをする",
+        "電話をかける",
+        "カードを取り出す"
+      ],
+      "answer": "暗証番号を押す",
+      "acceptedAnswers": [
+        "暗証番号を押す"
+      ],
+      "explanation": "「暗証番号を押してから、引き出し金額のボタンを押してください」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q028",
+      "lessonId": "n5.l17",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "最後にする操作は何ですか。 (What is the final action?)",
+      "choices": [
+        "お金とカードを受け取る",
+        "ボタンをもう一度押す",
+        "レシートだけ取る",
+        "行員を呼ぶ"
+      ],
+      "answer": "お金とカードを受け取る",
+      "acceptedAnswers": [
+        "お金とカードを受け取る"
+      ],
+      "explanation": "「最後にお金とカードを受け取ってください」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q029",
+      "lessonId": "n5.l17",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "客の目的は何ですか。 (What was the customer's objective?)",
+      "choices": [
+        "お金を下ろすこと",
+        "通帳の記帳",
+        "口座の開設",
+        "送金"
+      ],
+      "answer": "お金を下ろすこと",
+      "acceptedAnswers": [
+        "お金を下ろすこと"
+      ],
+      "explanation": "Customer states: 「お金を下ろしたいんですが」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l17.q030",
+      "lessonId": "n5.l17",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "場所はどこですか。 (Where does this take place?)",
+      "choices": [
+        "銀行のATMコーナー",
+        "郵便局の窓口",
+        "コンビニのレジ",
+        "駅の切符売り場"
+      ],
+      "answer": "銀行のATMコーナー",
+      "acceptedAnswers": [
+        "銀行のATMコーナー"
+      ],
+      "explanation": "The interaction involves a bank clerk (行員) and an ATM.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l17.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

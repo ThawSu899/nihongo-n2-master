@@ -1,0 +1,1651 @@
+{
+  "id": "n3.l27",
+  "level": "N3",
+  "module": "N3 Nuance & Natural Discourse",
+  "number": 27,
+  "title": "N3 Lesson 27: Regarding & Concerning (〜について・〜に関して)",
+  "description": "Master high-register topical and locative expressions in formal Japanese policy and discourse, contrasting formal domain and situational locatives (〜において / 〜における: in / at / during formal contexts) with topic specification and subject markers (〜に関して / 〜に関する: regarding / concerning / with respect to).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l27.v001",
+      "lessonId": "n3.l27",
+      "ja": "環境",
+      "kana": "かんきょう",
+      "en": "environment; surroundings; circumstances",
+      "my": "သဘာဝပတ်ဝန်းကျင်/အခြေအနေပတ်ဝန်းကျင်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l27.s001",
+      "kanjiIds": [
+        "n3.l27.k001",
+        "n3.l27.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.v002",
+      "lessonId": "n3.l27",
+      "ja": "循環",
+      "kana": "じゅんかん",
+      "en": "circulation; cycle; rotation",
+      "my": "လည်ပတ်မှု/သံသရာလည်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l27.s002",
+      "kanjiIds": [
+        "n3.l27.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.v003",
+      "lessonId": "n3.l27",
+      "ja": "拡大",
+      "kana": "かくだい",
+      "en": "expansion; magnification; enlargement",
+      "my": "တိုးချဲ့ခြင်း/ကျယ်ပြန့်လာခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l27.s003",
+      "kanjiIds": [
+        "n3.l27.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.v004",
+      "lessonId": "n3.l27",
+      "ja": "縮小",
+      "kana": "しゅくしょう",
+      "en": "reduction; curtailment; downsizing",
+      "my": "လျှော့ချခြင်း/ကျဉ်းမြောင်းစေခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l27.s004",
+      "kanjiIds": [
+        "n3.l27.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.v005",
+      "lessonId": "n3.l27",
+      "ja": "短縮",
+      "kana": "たんしゅく",
+      "en": "shortening; reduction (time/distance)",
+      "my": "အချိန်/အကွာအဝေး တိုတောင်းစေခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l27.s005",
+      "kanjiIds": [
+        "n3.l27.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.v006",
+      "lessonId": "n3.l27",
+      "ja": "分野",
+      "kana": "ぶんや",
+      "en": "field; sphere; realm; branch",
+      "my": "နယ်ပယ်/ကဏ္ဍ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l27.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.v007",
+      "lessonId": "n3.l27",
+      "ja": "段階",
+      "kana": "だんかい",
+      "en": "stage; phase; step; grade",
+      "my": "အဆင့်/ကာလအပိုင်းအခြား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l27.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.v008",
+      "lessonId": "n3.l27",
+      "ja": "指針",
+      "kana": "ししん",
+      "en": "guideline; beacon; guiding principle",
+      "my": "လမ်းညွှန်ချက်/ဦးတည်ချက်မူဝါဒ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l27.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.v009",
+      "lessonId": "n3.l27",
+      "ja": "動向",
+      "kana": "どうこう",
+      "en": "trend; tendency; movement; attitude",
+      "my": "လားရာ/လှုပ်ရှားမှုအခြေအနေ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l27.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.v010",
+      "lessonId": "n3.l27",
+      "ja": "報告",
+      "kana": "ほうこく",
+      "en": "report; briefing; information",
+      "my": "အစီရင်ခံစာ/သတင်းပို့ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l27.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.v011",
+      "lessonId": "n3.l27",
+      "ja": "見解",
+      "kana": "けんかい",
+      "en": "opinion; point of view; perspective",
+      "my": "အမြင်သဘောထား/ရှုထောင့်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l27.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.v012",
+      "lessonId": "n3.l27",
+      "ja": "方針",
+      "kana": "ほうしん",
+      "en": "policy; course; objective; plan",
+      "my": "မူဝါဒ/ချမှတ်ထားသောလမ်းစဉ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l27.s012",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l27.k001",
+      "lessonId": "n3.l27",
+      "char": "環",
+      "meaning": "ring, circle, link, surround",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [
+        "わ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "環境",
+          "reading": "かんきょう",
+          "meaning": "environment",
+          "preview": false
+        },
+        {
+          "word": "循環",
+          "reading": "じゅんかん",
+          "meaning": "circulation, cycle",
+          "preview": false
+        },
+        {
+          "word": "一環",
+          "reading": "いっかん",
+          "meaning": "a part of, a link",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l27.s001",
+        "n3.l27.s002"
+      ],
+      "components": [],
+      "strokes": 17,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.k002",
+      "lessonId": "n3.l27",
+      "char": "境",
+      "meaning": "boundary, border, region, circumstances",
+      "onyomi": [
+        "キョウ",
+        "ケイ"
+      ],
+      "kunyomi": [
+        "さかい"
+      ],
+      "exampleVocab": [
+        {
+          "word": "環境",
+          "reading": "かんきょう",
+          "meaning": "environment",
+          "preview": false
+        },
+        {
+          "word": "国境",
+          "reading": "こっきょう",
+          "meaning": "national border",
+          "preview": false
+        },
+        {
+          "word": "境界",
+          "reading": "きょうかい",
+          "meaning": "boundary, border",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l27.s001"
+      ],
+      "components": [],
+      "strokes": 14,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.k003",
+      "lessonId": "n3.l27",
+      "char": "拡",
+      "meaning": "broaden, extend, expand, enlarge",
+      "onyomi": [
+        "カク"
+      ],
+      "kunyomi": [
+        "ひろ・がる",
+        "ひろ・げる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "拡大",
+          "reading": "かくだい",
+          "meaning": "expansion, magnification",
+          "preview": false
+        },
+        {
+          "word": "拡張",
+          "reading": "かくちょう",
+          "meaning": "extension, expansion",
+          "preview": false
+        },
+        {
+          "word": "軍拡",
+          "reading": "ぐんかく",
+          "meaning": "arms buildup",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l27.s003"
+      ],
+      "components": [],
+      "strokes": 8,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.k004",
+      "lessonId": "n3.l27",
+      "char": "縮",
+      "meaning": "shrink, contract, shrivel, shorten",
+      "onyomi": [
+        "シュク"
+      ],
+      "kunyomi": [
+        "ちぢ・む",
+        "ちぢ・まる",
+        "ちぢ・める"
+      ],
+      "exampleVocab": [
+        {
+          "word": "縮小",
+          "reading": "しゅくしょう",
+          "meaning": "reduction, downsizing",
+          "preview": false
+        },
+        {
+          "word": "短縮",
+          "reading": "たんしゅく",
+          "meaning": "shortening",
+          "preview": false
+        },
+        {
+          "word": "縮尺",
+          "reading": "しゅくしゃく",
+          "meaning": "reduced scale",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l27.s004",
+        "n3.l27.s005"
+      ],
+      "components": [],
+      "strokes": 17,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l27.g001",
+      "lessonId": "n3.l27",
+      "pattern": "〜において / 〜における",
+      "meaning": "at, in, on, during (formal locative / domain marker)",
+      "formation": "Noun + において / Noun + における + Noun",
+      "explanation": {
+        "en": "A high-register formal equivalent of で or に used in official reports, news, academic papers, and ceremonial speeches to indicate the place, domain, field of activity, historical era, or situational context.",
+        "my": "တရားဝင်အစီရင်ခံစာများ၊ သတင်းများနှင့် မိန့်ခွန်းများတွင် နေရာ၊ နယ်ပယ်၊ ကာလ သို့မဟုတ် အခြေအနေကို ဖော်ပြရာတွင် で သို့မဟုတ် に ၏ စာသုံးအဆင့်မြင့်ပုံစံအဖြစ် \"...တွင်/...၌\" ဟု သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l27.s001",
+          "note": "Balancing environmental protection and economic activity in modern society"
+        },
+        {
+          "sentenceId": "n3.l27.s007",
+          "note": "Extending battery life as the biggest challenge at the current development stage"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use in colloquial daily casual conversation (e.g. ❌ 家においてご飯を食べた → ⭕️ 家でご飯を食べた)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.g002",
+      "lessonId": "n3.l27",
+      "pattern": "〜に関して / 〜に関する",
+      "meaning": "regarding ... / concerning ... / in relation to ...",
+      "formation": "Noun + に関して / Noun + に関する + Noun",
+      "explanation": {
+        "en": "A formal equivalent of 〜について used in business, news, and official contexts to specify the topic, issue, problem, or subject matter being discussed, investigated, or reported.",
+        "my": "စီးပွားရေးနှင့် တရားဝင်အခြေအနေများတွင် ဆွေးနွေး၊ စုံစမ်း သို့မဟုတ် အစီရင်ခံသည့် အဓိကအကြောင်းအရာ၊ ပြဿနာကို သတ်မှတ်ဖော်ပြရာတွင် 〜について ထက် ပိုမိုယဉ်ကျေးခန့်ညားသော ပုံစံအဖြစ် \"...နှင့်ပတ်သက်၍/...နှင့်ဆိုင်သော\" ဟု သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l27.s008",
+          "note": "Guidelines concerning compliance"
+        },
+        {
+          "sentenceId": "n3.l27.s010",
+          "note": "Report regarding the survey results"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l27.g001"
+      ],
+      "commonMistakes": [
+        "When modifying a noun directly, must use に関する (❌ 環境に関して問題 → ⭕️ 環境に関する問題)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l27.s001",
+      "lessonId": "n3.l27",
+      "ja": "現代社会において、地球環境の保護と経済活動の両立は最重要の課題である。",
+      "kana": "げんだいしゃかいにおいて、ちきゅうかんきょうのほごとけいざいかつどうのりょうりつはさいじゅうようのかだいである。",
+      "translation": {
+        "en": "In modern society, balancing global environmental protection and economic activity is the most critical challenge.",
+        "my": "မျက်မှောက်ခေတ်လူ့အဖွဲ့အစည်းတွင် ကမ္ဘာ့ပတ်ဝန်းကျင်ထိန်းသိမ်းရေးနှင့် စီးပွားရေးလုပ်ငန်းများ ယှဉ်တွဲဆောင်ရွက်နိုင်မှုသည် အရေးအကြီးဆုံး စိန်ခေါ်မှုဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l27.v001"
+      ],
+      "grammarIds": [
+        "n3.l27.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.s002",
+      "lessonId": "n3.l27",
+      "ja": "資源の再利用を推進し、廃棄物を減らす循環型社会の構築を目指している。",
+      "kana": "しげんのさいりようをついしんし、はいきぶつをへらすじゅんかんがたしゃかいのこうちくをめざしている。",
+      "translation": {
+        "en": "We aim to construct a circular economy society that promotes resource recycling and reduces waste.",
+        "my": "အရင်းအမြစ်များကို ပြန်လည်အသုံးချခြင်းကို အားပေးမြှင့်တင်ပြီး စွန့်ပစ်ပစ္စည်းများကို လျှော့ချသည့် သံသရာလည်လူ့အဖွဲ့အစည်း တည်ဆောက်ရန် ရည်မှန်းထားသည်။"
+      },
+      "vocabIds": [
+        "n3.l27.v002"
+      ],
+      "grammarIds": [
+        "n3.l27.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.s003",
+      "lessonId": "n3.l27",
+      "ja": "海外市場での需要の高まりを受けて、現地生産の規模を拡大する方針を固めた。",
+      "kana": "かいがいしじょうでのじゅようのたかまりをうけて、げんちせいさんのきぼをかくだいするほうしんをかためた。",
+      "translation": {
+        "en": "In response to rising demand in overseas markets, we solidified the policy to expand the scale of local production.",
+        "my": "ပြည်ပဈေးကွက်တွင် လိုအပ်ချက်မြင့်တက်လာမှုကြောင့် ဒေသတွင်းထုတ်လုပ်မှု ပမာဏကို တိုးချဲ့မည့် မူဝါဒကို အတည်ပြုချမှတ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l27.v003",
+        "n3.l27.v012"
+      ],
+      "grammarIds": [
+        "n3.l27.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.s004",
+      "lessonId": "n3.l27",
+      "ja": "不採算部門の業務を縮小し、成長分野への経営資源の集中を図る。",
+      "kana": "ふさいさんぶもんのぎょうむをしゅくしょうし、せいちょうぶんやへのけいえいしげんのしゅうちゅうをはかる。",
+      "translation": {
+        "en": "We will downsize unprofitable operations and concentrate management resources into growth sectors.",
+        "my": "အကျိုးအမြတ်မရသော ဌာနခွဲများ၏ လုပ်ငန်းများကို လျှော့ချပြီး တိုးတက်မှုရှိသော ကဏ္ဍများသို့ စီမံခန့်ခွဲမှုအရင်းအမြစ်များကို စုစည်းသွားမည်ဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l27.v004",
+        "n3.l27.v006"
+      ],
+      "grammarIds": [
+        "n3.l27.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.s005",
+      "lessonId": "n3.l27",
+      "ja": "新しい高速鉄道の開通により、都市間の所要時間が一時間以上短縮された。",
+      "kana": "あたらしいこうそくてつどうのかいつうにより、としかんのしょようじかんがいちじかんいじょうたんしゅくされた。",
+      "translation": {
+        "en": "With the opening of the new bullet train line, travel time between cities was shortened by more than an hour.",
+        "my": "အမြန်ရထားလမ်းသစ် ဖွင့်လှစ်လိုက်ခြင်းဖြင့် မြို့ကြီးများအကြား ခရီးသွားချိန်မှာ တစ်နာရီကျော် တိုတောင်းသွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l27.v005"
+      ],
+      "grammarIds": [
+        "n3.l27.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.s006",
+      "lessonId": "n3.l27",
+      "ja": "人工知能の技術は、医療や製造をはじめとするあらゆる産業分野において活用されている。",
+      "kana": "じんこうちのうのぎじゅつは、いりょうやせいぞうをはじめとするあらゆるさんぎょうぶんやにおいてかつようされている。",
+      "translation": {
+        "en": "Artificial intelligence technologies are utilized across all industrial fields, starting with medicine and manufacturing.",
+        "my": "ဉာဏ်ရည်တုနည်းပညာကို ဆေးဝါးကုသမှုနှင့် ကုန်ထုတ်လုပ်မှု အပါအဝင် ကဏ္ဍစုံစက်မှုလုပ်ငန်းများတွင် အသုံးချနေသည်။"
+      },
+      "vocabIds": [
+        "n3.l27.v006"
+      ],
+      "grammarIds": [
+        "n3.l27.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.s007",
+      "lessonId": "n3.l27",
+      "ja": "現在の開発段階における最大の課題は、バッテリーの持続時間をいかに延ばすかである。",
+      "kana": "げんざいのかいはつだんかいにおけるさいだいのかだいは、バッテリーのじぞくじかんをいかにのばすかである。",
+      "translation": {
+        "en": "The biggest challenge at the current development stage is how to extend battery endurance.",
+        "my": "လက်ရှိ ဖော်ဆောင်ရေးအဆင့်တွင် အကြီးမားဆုံး စိန်ခေါ်မှုမှာ ဘက်ထရီသက်တမ်းကို မည်သို့ကြာရှည်ခံအောင် ပြုလုပ်ရမည်နည်းဟူသည့် အချက်ဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l27.v007"
+      ],
+      "grammarIds": [
+        "n3.l27.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.s008",
+      "lessonId": "n3.l27",
+      "ja": "個人情報の取り扱いに関する新たな指針が、委員会によって策定された。",
+      "kana": "こじんじょうほうのとりあつかいにかんするあらたなししんが、いいんかいによってさくていされた。",
+      "translation": {
+        "en": "New guidelines concerning the handling of personal data were established by the committee.",
+        "my": "ကိုယ်ရေးကိုယ်တာ အချက်အလက်များ ကိုင်တွယ်အသုံးပြုခြင်းနှင့် သက်ဆိုင်သော လမ်းညွှန်ချက်အသစ်များကို ကော်မတီက ရေးဆွဲချမှတ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l27.v008"
+      ],
+      "grammarIds": [
+        "n3.l27.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.s009",
+      "lessonId": "n3.l27",
+      "ja": "世界的な金融市場の動向を注視しつつ、慎重に投資判断を下さなければならない。",
+      "kana": "せかいてきなきんゆうしじょうのどうこうをちゅうししつつ、しんちょうにとうしはんだんをくださなければならない。",
+      "translation": {
+        "en": "While watching global financial market trends closely, we must make investment judgments carefully.",
+        "my": "ကမ္ဘာ့ဘဏ္ဍာရေးဈေးကွက်၏ လားရာများကို စောင့်ကြည့်လေ့လာရင်း ရင်းနှီးမြှုပ်နှံမှုဆိုင်ရာ ဆုံးဖြတ်ချက်များကို သတိထားချမှတ်ရမည်။"
+      },
+      "vocabIds": [
+        "n3.l27.v009"
+      ],
+      "grammarIds": [
+        "n3.l27.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.s010",
+      "lessonId": "n3.l27",
+      "ja": "市民アンケートの調査結果に関して、市長へ詳細な報告が行われた。",
+      "kana": "しみんアンケートのちょうさけっかにかんして、しちょうへしょうさいなほうこくがおこなわれた。",
+      "translation": {
+        "en": "A detailed briefing was made to the mayor regarding the citizen survey results.",
+        "my": "မြို့သူမြို့သားများ၏ စစ်တမ်းရလဒ်နှင့် ပတ်သက်၍ မြို့တော်ဝန်ထံ အသေးစိတ် အစီရင်ခံတင်ပြခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l27.v010"
+      ],
+      "grammarIds": [
+        "n3.l27.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.s011",
+      "lessonId": "n3.l27",
+      "ja": "新法案の施行時期に関しては、専門家の間でも様々な見解が存在している。",
+      "kana": "しんほうあんのしこうじきにかんしては、せんもんかのあいだでもさまざまなけんかいがそんざいしている。",
+      "translation": {
+        "en": "Regarding the enforcement date of the new bill, diverse views exist even among experts.",
+        "my": "ဥပဒေကြမ်းအသစ် စတင်အသက်ဝင်မည့် အချိန်ကာလနှင့် ပတ်သက်၍ ကျွမ်းကျင်သူများအကြားတွင်ပင် မတူကွဲပြားသော အမြင်သဘောထားများ ရှိနေသည်။"
+      },
+      "vocabIds": [
+        "n3.l27.v011"
+      ],
+      "grammarIds": [
+        "n3.l27.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l27.s012",
+      "lessonId": "n3.l27",
+      "ja": "脱炭素化に向けた基本方針に基づき、太陽光発電の導入を推進している。",
+      "kana": "だったんそかにむけたきほんほうしんにもとづき、たいようこうはつでんのどうにゅうをついしんしている。",
+      "translation": {
+        "en": "Based on fundamental policies toward decarbonization, we are promoting the adoption of solar power.",
+        "my": "ကာဗွန်လျှော့ချရေး အခြေခံမူဝါဒအပေါ် အခြေခံ၍ နေရောင်ခြည်စွမ်းအင်သုံး လျှပ်စစ်ဓာတ်အား ထုတ်လုပ်မှုကို အားပေးဖော်ဆောင်နေသည်။"
+      },
+      "vocabIds": [
+        "n3.l27.v012"
+      ],
+      "grammarIds": [
+        "n3.l27.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l27.r001",
+    "lessonId": "n3.l27",
+    "title": "Environmental Policy and Renewable Energy Transition in Urban Planning",
+    "level": "N3",
+    "text": "二十一世紀における都市計画において、地球温暖化防止と持続可能な循環型社会の構築は、世界中の自治体が直面する最重要課題の一つである。従来の都市は大量生産・大量消費・大量廃棄を前提とした経済構造に依存してきたが、気候変動がもたらす自然災害の激甚化を受けて、その抜本的な見直しが迫られている。\n\n近年、世界各国の主要都市においては、温室効果ガスの排出量を実質ゼロにする「脱炭素都市」への転換方針が相次いで打ち出されている。建築物における省エネルギー性能の義務付けや、太陽光・風力といった再生可能エネルギーの導入拡大に関して、市民や企業に対する様々な支援制度が整備されてきた。\n\n都市政策の転換期における課題としては、既存のインフラを刷新するための莫大な財政支出や、産業界との利害調整が挙げられる。しかし、環境配慮を単なるコストとして捉えるのではなく、新産業の創出や生活の質の向上につながる投資と位置づける見解が主流となりつつある。持続可能な未来に向けた長期的な指針を掲げ、市民一人ひとりが日々の生活において環境問題に関心を持ち続けることが何よりも重要である。",
+    "kanaText": "にじゅういっせいきにおけるとしけいかくにおいて、ちきゅうおんだんかぼうしとじぞくかのうなじゅんかんがたしゃかいのこうちくは、せかいじゅうのじちたいがちょくめんするさいじゅうようかだいのひとつである。ぜんらいのとしはたいりょうせいさん・たいりょうしょうひ・たいりょうはいきをぜんていとしたけいざいこうぞうにいぞんしてきたが、きこうへんどうがもたらすしぜんさいがいのげきじんかをつ受けて、そのばっぽんてきなみなおしがせまられている。\n\nきんねん、せかいかっこくのしゅようとしにおいては、おんしつこうかガスのはいしゅつりょうをじっしつゼロにする「だったんそとし」へのてんかんほうしんがあいついでうちだされている。けんちくぶつにおけるしょうエネルギーせいのうのぎむづけや、たいようこう・ふうりょくといったさいせいかのうエネルギーのどうにゅうかくだいにかんして、しみんやきぎょうにたいするさまざまなしえんせいどがせいびされてきた。\n\nとしせいさくのてんかんきにおけるかだいとしては、きぞんのインフラをさっしんするためのばくだいなざいせいししゅつや、さんぎょうかいとのりがいちょうせいが挙げられる。しかし、かんきょうはいりょをたんなるコストとしてとらえるのではなく、しんさんぎょうのそうしゅつやせいかつのしつのこうじょうにつながるとうしといちづけるけんかいがしゅりゅうとなりつつある。じぞくかのうなみらいにむけたちょうきてきなししんをかかげ、しみんひとりひとりがひびのせいかつにおいてかんきょうもんだいにかんしんをもちつづけることがなによりもじゅうようである。",
+    "translation": "In 21st-century urban planning, preventing global warming and building a sustainable circular society are critical challenges facing municipalities worldwide. Traditional cities depended on mass production, consumption, and disposal, but worsening climate disasters have forced fundamental rethinking. Recently, major global cities have announced transition policies toward decarbonized cities. Support programs regarding energy-saving building mandates and renewable energy expansion have been organized for citizens and businesses. Rather than viewing eco-consciousness merely as a financial cost, viewpoints regarding it as an investment driving new industries and quality of life are becoming mainstream.",
+    "questionIds": [
+      "n3.l27.q025",
+      "n3.l27.q026",
+      "n3.l27.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l27.d001",
+    "lessonId": "n3.l27",
+    "title": "Keynote Lecture and Panel Discussion at International Environment Forum",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "司会：本日の国際環境フォーラムにおいて、基調講演を務めていただく環境経済学者の高橋教授をご紹介いたします。\n高橋：ご紹介ありがとうございます。本日は「循環型経済における都市インフラの未来」に関して、欧州の先進事例を交えてお話しいたします。\n司会：先生、日本の自治体における再生可能エネルギーの導入動向に関してはいかがでしょうか。\n高橋：太陽光発電の拡大が進む一方で、送電網の容量不足や天候による発電量の変動に関する課題が顕在化しています。\n司会：今後は蓄電池の設置やエネルギーマネジメント技術の向上が、政策の指針として不可欠になるわけですね。\n高橋：その通りです。行政と民間企業が緊密に連携し、長期的な視点において投資を継続していく必要があります。",
+    "translation": "Moderator: At today’s International Environment Forum, let me introduce Professor Takahashi, an environmental economist delivering our keynote lecture.\nTakahashi: Thank you for the introduction. Today I will discuss the future of urban infrastructure in the circular economy, drawing upon advanced European cases.\nModerator: Professor, what is your view regarding the trends of renewable energy adoption in Japanese municipalities?\nTakahashi: While solar power expansion is advancing, challenges regarding power grid capacity shortages and weather fluctuations have become apparent.\nModerator: So going forward, installing storage batteries and improving energy management technologies will be indispensable as policy guidelines.\nTakahashi: Exactly. Public administration and private enterprise must cooperate closely and continue investments from a long-term perspective.",
+    "turns": [
+      {
+        "speaker": "司会",
+        "ja": "本日の国際環境フォーラムにおいて、基調講演を務めていただく環境経済学者の高橋教授をご紹介いたします。",
+        "kana": "ほんじつのこくさいかんきょうフォーラムにおいて、きちょうこうえんをつとめていただくかんきょうけいざいがくしゃのたかはしきょうじゅをごしょうかいいたします。",
+        "en": "At today’s International Environment Forum, let me introduce Professor Takahashi, delivering the keynote lecture."
+      },
+      {
+        "speaker": "高橋",
+        "ja": "ご紹介ありがとうございます。本日は「循環型経済における都市インフラの未来」に関して、欧州の先進事例を交えてお話しいたします。",
+        "kana": "ごしょうかいありがとうございます。ほんじつは「じゅんかんがたけいざいにおけるとしインフラのみらい」にかんして、おうしゅうのせんしんじれいをまじえておはなしいたします。",
+        "en": "Thank you for the introduction. Today I will speak regarding the future of urban infrastructure in the circular economy."
+      },
+      {
+        "speaker": "司会",
+        "ja": "先生、日本の自治体における再生可能エネルギーの導入動向に関してはいかがでしょうか。",
+        "kana": "せんせい、にほんのじちたいにおけるさいせいかのうエネルギーのどうにゅうどうこうにかんしてはいかがでしょうか。",
+        "en": "Professor, what is your take regarding renewable energy adoption trends in Japanese municipalities?"
+      },
+      {
+        "speaker": "高橋",
+        "ja": "太陽光発電の拡大が進む一方で、送電網の容量不足や天候による発電量の変動に関する課題が顕在化しています。",
+        "kana": "たいようこうはつでんのかくだいがすすむいっぽうで、そうでんもうのようりょうぶそくやてんこうによるはつでんりょうのへんどうにかんするかだいがけんざいかしています。",
+        "en": "While solar adoption expands, issues regarding power grid shortages and weather-based output variations have emerged."
+      },
+      {
+        "speaker": "司会",
+        "ja": "今後は蓄電池の設置やエネルギーマネジメント技術の向上が、政策の指針として不可欠になるわけですね。",
+        "kana": "こんごはちくでんちのせっちやエネルギーマネジメントぎじゅつのこうじょうが、せいさくのししんとしてふかけつになるわけですね。",
+        "en": "So battery installations and energy management tech improvements will become indispensable as policy guidelines."
+      },
+      {
+        "speaker": "高橋",
+        "ja": "その通りです。行政と民間企業が緊密に連携し、長期的な視点において投資を継続していく必要があります。",
+        "kana": "そのとおりです。ぎょうせいとみんかんきぎょうがきんみつにれんけいし、ちょうきてきなしてんにおいてとうしをけいぞくしていくひつようがあります。",
+        "en": "Exactly. Government and private industry must cooperate closely and maintain investments from a long-term perspective."
+      }
+    ],
+    "questionIds": [
+      "n3.l27.q028",
+      "n3.l27.q029",
+      "n3.l27.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l27.q001",
+      "lessonId": "n3.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n良好な自然「環境」を保護する。",
+      "choices": [
+        "かんきょう",
+        "かんきん",
+        "こうきょう",
+        "がんきょう"
+      ],
+      "answer": "かんきょう",
+      "acceptedAnswers": [
+        "かんきょう"
+      ],
+      "explanation": "「環境」は「かんきょう」と読みます。人間や生物を取り巻く外の世界（environment）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q002",
+      "lessonId": "n3.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n血液が体内をスムーズに「循環」する。",
+      "choices": [
+        "じゅんかん",
+        "しゅんかん",
+        "じゅんげん",
+        "ぜんかん"
+      ],
+      "answer": "じゅんかん",
+      "acceptedAnswers": [
+        "じゅんかん"
+      ],
+      "explanation": "「循環」は「じゅんかん」と読みます。めぐり回って元に戻ること（circulation, cycle）を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q003",
+      "lessonId": "n3.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の対義語として最も適切なものを一つ選びなさい。\n事業の規模を「拡大」する。",
+      "choices": [
+        "縮小",
+        "短縮",
+        "圧縮",
+        "狭窄"
+      ],
+      "answer": "縮小",
+      "acceptedAnswers": [
+        "縮小"
+      ],
+      "explanation": "「拡大（かくだい）」の反対語は「縮小（しゅくしょう）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q004",
+      "lessonId": "n3.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n写真のサイズを半分に「縮小」して印刷した。",
+      "choices": [
+        "しゅくしょう",
+        "しゅくそう",
+        "しゅくさ",
+        "じゅくしょう"
+      ],
+      "answer": "しゅくしょう",
+      "acceptedAnswers": [
+        "しゅくしょう"
+      ],
+      "explanation": "「縮小」は「しゅくしょう」と読みます。規模や大きさを縮めて小さくすること（reduction）です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q005",
+      "lessonId": "n3.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「業務手順を見直して、作業にかかる時間を大幅に（　）した。」",
+      "choices": [
+        "短縮",
+        "縮小",
+        "短編",
+        "縮小版"
+      ],
+      "answer": "短縮",
+      "acceptedAnswers": [
+        "短縮"
+      ],
+      "explanation": "時間や距離を縮めて短くすることには「短縮（たんしゅく）」を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q006",
+      "lessonId": "n3.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「彼女はバイオテクノロジーの（　）で世界的な業績を残した。」",
+      "choices": [
+        "分野",
+        "平野",
+        "視野",
+        "原野"
+      ],
+      "answer": "分野",
+      "acceptedAnswers": [
+        "分野"
+      ],
+      "explanation": "「分野（ぶんや）」は学問や事業などの区分された領域（field, sphere）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q007",
+      "lessonId": "n3.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「プロジェクトはまだ企画の初期（　）にすぎない。」",
+      "choices": [
+        "段階",
+        "階層",
+        "階段",
+        "段落"
+      ],
+      "answer": "段階",
+      "acceptedAnswers": [
+        "段階"
+      ],
+      "explanation": "「段階（だんかい）」は物事の進行における区切りの位置・ステップ（stage, phase）を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q008",
+      "lessonId": "n3.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の意味として最も適切なものを一つ選びなさい。\n行動の「指針」を定める。",
+      "choices": [
+        "物事を進める上での指導的な方針・手引き",
+        "時計の長い針",
+        "コンパスの磁石の針",
+        "目的地までの電車の切符"
+      ],
+      "answer": "物事を進める上での指導的な方針・手引き",
+      "acceptedAnswers": [
+        "物事を進める上での指導的な方針・手引き"
+      ],
+      "explanation": "「指針（ししん）」は比ゆ的に判断や行動の手引き・基本方針（guideline）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q009",
+      "lessonId": "n3.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「消費者の好みの（　）を調査して新商品の開発に生かす。」",
+      "choices": [
+        "動向",
+        "傾向",
+        "志向",
+        "方向"
+      ],
+      "answer": "動向",
+      "acceptedAnswers": [
+        "動向"
+      ],
+      "explanation": "「動向（どうこう）」は個人や社会の動き、推移の様子（trend, movement）を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q010",
+      "lessonId": "n3.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「出張の成果について上司に口頭で（　）した。」",
+      "choices": [
+        "報告",
+        "告知",
+        "宣告",
+        "予告"
+      ],
+      "answer": "報告",
+      "acceptedAnswers": [
+        "報告"
+      ],
+      "explanation": "「報告（ほうこく）」は告げ知らせること、特に任務の結果や状況を知らせること（report）です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q011",
+      "lessonId": "n3.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の意味として最も適切なものを一つ選びなさい。\n専門家としての「見解」を述べる。",
+      "choices": [
+        "物事に対する考え方や意見、見識",
+        "単なる個人的な好みの違い",
+        "視力が良くて遠くまで見えること",
+        "法律で定められた絶対の命令"
+      ],
+      "answer": "物事に対する考え方や意見、見識",
+      "acceptedAnswers": [
+        "物事に対する考え方や意見、見識"
+      ],
+      "explanation": "「見解（けんかい）」は物事に対する見方・考え方（opinion, point of view）を指します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q012",
+      "lessonId": "n3.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「政府は景気回復を最優先とする基本（　）を決定した。」",
+      "choices": [
+        "方針",
+        "指針",
+        "方策",
+        "方向性"
+      ],
+      "answer": "方針",
+      "acceptedAnswers": [
+        "方針"
+      ],
+      "explanation": "「方針（ほうしん）」は物事を行う上での目指す方向・計画（policy, objective）を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q013",
+      "lessonId": "n3.l27",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n自然「かんきょう」を保全する。",
+      "choices": [
+        "環境",
+        "環競",
+        "還境",
+        "官境"
+      ],
+      "answer": "環境",
+      "acceptedAnswers": [
+        "環境"
+      ],
+      "explanation": "「環境（かんきょう）」は「環（めぐる）」と「境（さかい）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q014",
+      "lessonId": "n3.l27",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n血液が体内を「じゅんかん」する。",
+      "choices": [
+        "循環",
+        "順環",
+        "巡環",
+        "準環"
+      ],
+      "answer": "循環",
+      "acceptedAnswers": [
+        "循環"
+      ],
+      "explanation": "「循環（じゅんかん）」の「かん」は「環」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q015",
+      "lessonId": "n3.l27",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n道路の幅を「かくちょう」する工事が始まった。",
+      "choices": [
+        "拡張",
+        "拡長",
+        "確張",
+        "獲張"
+      ],
+      "answer": "拡張",
+      "acceptedAnswers": [
+        "拡張"
+      ],
+      "explanation": "「拡張（かくちょう）」の「かく」は「拡」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q016",
+      "lessonId": "n3.l27",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n勤務時間を30分「たんしゅく」する。",
+      "choices": [
+        "短縮",
+        "短宿",
+        "単縮",
+        "端縮"
+      ],
+      "answer": "短縮",
+      "acceptedAnswers": [
+        "短縮"
+      ],
+      "explanation": "「短縮（たんしゅく）」の「しゅく」は「縮（ちぢめる）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q017",
+      "lessonId": "n3.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「第一回の国際会議は、来月東京（　）開催される予定です。」",
+      "choices": [
+        "において",
+        "をつうじて",
+        "をめぐって",
+        "にかぎって"
+      ],
+      "answer": "において",
+      "acceptedAnswers": [
+        "において"
+      ],
+      "explanation": "公式な場所・舞台を表す改まった表現として「東京において」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q018",
+      "lessonId": "n3.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「新しい免税制度（　）ご質問は、税務署窓口までお問い合わせください。」",
+      "choices": [
+        "に関する",
+        "における",
+        "を通じた",
+        "をはじめとする"
+      ],
+      "answer": "に関する",
+      "acceptedAnswers": [
+        "に関する"
+      ],
+      "explanation": "後ろの名詞「ご質問」を修飾して「〜に関するご質問（質問の対象・テーマ）」を表すため「に関する」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q019",
+      "lessonId": "n3.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「経済学の分野（　）優れた研究成果を残した学者に賞が授与された。」",
+      "choices": [
+        "における",
+        "に関する",
+        "を通した",
+        "による"
+      ],
+      "answer": "における",
+      "acceptedAnswers": [
+        "における"
+      ],
+      "explanation": "領域・分野内の位置づけを表して名詞を修飾するため「経済学の分野における研究成果」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q020",
+      "lessonId": "n3.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「今回の不祥事の真相（　）、第三者委員会が調査を開始した。」",
+      "choices": [
+        "に関して",
+        "において",
+        "によって",
+        "につれて"
+      ],
+      "answer": "に関して",
+      "acceptedAnswers": [
+        "に関して"
+      ],
+      "explanation": "調査の対象・テーマ（真相）を示すため「真相に関して」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q021",
+      "lessonId": "n3.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜において」を用いた文として最も自然なものを一つ選びなさい。",
+      "choices": [
+        "入学式は本校体育館において午前10時より挙行いたします。",
+        "私は昨日の夜、ベッドにおいてぐっすり眠った。",
+        "台所において美味しいカレーを作った。",
+        "コンビニにおいて冷たいお茶を買った。"
+      ],
+      "answer": "入学式は本校体育館において午前10時より挙行いたします。",
+      "acceptedAnswers": [
+        "入学式は本校体育館において午前10時より挙行いたします。"
+      ],
+      "explanation": "「〜において」は式典、公的行事、学術報告などの改まった文脈に用いられます。日常的な私的動作には「で」を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q022",
+      "lessonId": "n3.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜に関する / 〜に関して」の使い分けとして正しいものを一つ選びなさい。",
+      "choices": [
+        "環境問題に関する本を読んだ。",
+        "環境問題に関する調査した。",
+        "環境問題に関して本を読んだ。",
+        "環境問題にかんするについて話した。"
+      ],
+      "answer": "環境問題に関する本を読んだ。",
+      "acceptedAnswers": [
+        "環境問題に関する本を読んだ。"
+      ],
+      "explanation": "名詞（本）を直接修飾する場合は連体形「に関する」を用います。動詞にかかる場合は「に関して」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q023",
+      "lessonId": "n3.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の公式通知の（　）に入れるのに最も適切なものを一つ選びなさい。\n「近年のビジネス環境（　）激しい変化に対応するため、組織改編を実施する。」",
+      "choices": [
+        "における",
+        "に関する",
+        "を通じた",
+        "に際した"
+      ],
+      "answer": "における",
+      "acceptedAnswers": [
+        "における"
+      ],
+      "explanation": "ビジネス環境という状況・領域の中での変化を修飾するため「ビジネス環境における激しい変化」が自然です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q024",
+      "lessonId": "n3.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「社長は新製品の発売計画（　）、記者会見で詳しく説明した。」",
+      "choices": [
+        "に関して",
+        "において",
+        "によって",
+        "に決まって"
+      ],
+      "answer": "に関して",
+      "acceptedAnswers": [
+        "に関して"
+      ],
+      "explanation": "説明の対象・テーマを導く「〜に関して」が正解です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q025",
+      "lessonId": "n3.l27",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "従来の都市が依存してきた経済構造として文章で指摘されているものはどれか。",
+      "choices": [
+        "大量生産・大量消費・大量廃棄を前提とした経済構造",
+        "農業のみに特化した完全自給自足の経済構造",
+        "太陽光発電だけを利用する環境調和型の経済構造",
+        "紙幣を使わない完全な物々交換の経済構造"
+      ],
+      "answer": "大量生産・大量消費・大量廃棄を前提とした経済構造",
+      "acceptedAnswers": [
+        "大量生産・大量消費・大量廃棄を前提とした経済構造"
+      ],
+      "explanation": "第1段落に「従来の都市は大量生産・大量消費・大量廃棄を前提とした経済構造に依存してきた」と書かれています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q026",
+      "lessonId": "n3.l27",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "近年の世界各国の主要都市で相次いで打ち出されている転換方針は何か。",
+      "choices": [
+        "温室効果ガスの排出量を実質ゼロにする「脱炭素都市」への転換方針",
+        "すべての市民に自家用車の購入を義務付ける方針",
+        "すべての公園を取り壊して高層ビル群を建設する方針",
+        "外国からの観光客の入国を完全に禁止する方針"
+      ],
+      "answer": "温室効果ガスの排出量を実質ゼロにする「脱炭素都市」への転換方針",
+      "acceptedAnswers": [
+        "温室効果ガスの排出量を実質ゼロにする「脱炭素都市」への転換方針"
+      ],
+      "explanation": "第2段落に「温室効果ガスの排出量を実質ゼロにする「脱炭素都市」への転換方針が相次いで打ち出されている」と明記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q027",
+      "lessonId": "n3.l27",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "環境配慮に対する見解として現在主流となりつつある考え方はどれか。",
+      "choices": [
+        "単なるコストではなく、新産業の創出や生活の質の向上につながる投資と位置づける見解",
+        "経済成長の邪魔になるためできる限り避けるべき無駄遣いであるという見解",
+        "大企業だけが負担すべきであり市民は無関係であるという見解",
+        "数百年後の未来の世代だけが考えればよい問題であるという見解"
+      ],
+      "answer": "単なるコストではなく、新産業の創出や生活の質の向上につながる投資と位置づける見解",
+      "acceptedAnswers": [
+        "単なるコストではなく、新産業の創出や生活の質の向上につながる投資と位置づける見解"
+      ],
+      "explanation": "第3段落に「環境配慮を単なるコストとして捉えるのではなく、新産業の創出や生活の質の向上につながる投資と位置づける見解が主流となりつつある」と明述されています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q028",
+      "lessonId": "n3.l27",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "高橋教授がフォーラムの基調講演で話すテーマは何か。",
+      "choices": [
+        "循環型経済における都市インフラの未来",
+        "外国語の効率的な学習法と留学の準備",
+        "AI技術による自動運転自動車の開発動向",
+        "家庭での電気料金を半分に節約する裏技"
+      ],
+      "answer": "循環型経済における都市インフラの未来",
+      "acceptedAnswers": [
+        "循環型経済における都市インフラの未来"
+      ],
+      "explanation": "高橋教授が「本日は「循環型経済における都市インフラの未来」に関して、欧州の先進事例を交えてお話しいたします」と述べています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q029",
+      "lessonId": "n3.l27",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "日本の自治体で太陽光発電が拡大する一方で顕在化している課題は何か。",
+      "choices": [
+        "送電網の容量不足や天候による発電量の変動",
+        "太陽光パネルが重すぎて屋根が壊れてしまうこと",
+        "市民が全員電気を使わなくなってしまったこと",
+        "太陽の光が強すぎて気温が50度を超えたこと"
+      ],
+      "answer": "送電網の容量不足や天候による発電量の変動",
+      "acceptedAnswers": [
+        "送電網の容量不足や天候による発電量の変動"
+      ],
+      "explanation": "高橋教授が「送電網の容量不足や天候による発電量の変動に関する課題が顕在化しています」と説明しています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l27.q030",
+      "lessonId": "n3.l27",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "今後の政策指針として不可欠であると二人が合意した内容はどれか。",
+      "choices": [
+        "蓄電池の設置やエネルギーマネジメント技術の向上、および官民連携による長期的投資",
+        "太陽光発電を全面的に禁止して石炭火力発電のみに戻すこと",
+        "夜間の電力使用を禁止して午後8時に全市を消灯すること",
+        "海外から電力をすべて輸入して国内の発電所を閉鎖すること"
+      ],
+      "answer": "蓄電池の設置やエネルギーマネジメント技術の向上、および官民連携による長期的投資",
+      "acceptedAnswers": [
+        "蓄電池の設置やエネルギーマネジメント技術の向上、および官民連携による長期的投資"
+      ],
+      "explanation": "司会者の「蓄電池の設置やエネルギーマネジメント技術の向上が、政策の指針として不可欠になるわけですね」に対し、高橋教授が「その通りです。行政と民間企業が緊密に連携し、長期的な視点において投資を継続していく必要があります」と答えています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

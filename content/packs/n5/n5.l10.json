@@ -1,0 +1,1561 @@
+{
+  "id": "n5.l10",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 10,
+  "title": "Existence and Location (います・あります)",
+  "description": "Distinguish between あります (inanimate objects/plants) and います (living beings/animals), describe spatial locations (上・下・前・後ろ・中・隣), and list items with や...など.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l10.v001",
+      "lessonId": "n5.l10",
+      "ja": "あります",
+      "kana": "あります",
+      "en": "To exist / be (inanimate)",
+      "my": "ရှိသည် (သက်မဲ့)",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l10.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.v002",
+      "lessonId": "n5.l10",
+      "ja": "います",
+      "kana": "います",
+      "en": "To exist / be (living beings)",
+      "my": "ရှိသည် (သက်ရှိ)",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l10.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.v003",
+      "lessonId": "n5.l10",
+      "ja": "男の人",
+      "kana": "おとこのひと",
+      "en": "Man",
+      "my": "ယောက်ျား",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l10.s005",
+      "kanjiIds": [
+        "n5.l10.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.v004",
+      "lessonId": "n5.l10",
+      "ja": "女の人",
+      "kana": "おんなのひと",
+      "en": "Woman",
+      "my": "မိန်းမ / အမျိုးသမီး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l10.s004",
+      "kanjiIds": [
+        "n5.l10.k002"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.v005",
+      "lessonId": "n5.l10",
+      "ja": "子供",
+      "kana": "こども",
+      "en": "Child / Children",
+      "my": "ကလေး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l10.s005",
+      "kanjiIds": [
+        "n5.l10.k003"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.v006",
+      "lessonId": "n5.l10",
+      "ja": "犬",
+      "kana": "いぬ",
+      "en": "Dog",
+      "my": "ခွေး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l10.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.v007",
+      "lessonId": "n5.l10",
+      "ja": "猫",
+      "kana": "ねこ",
+      "en": "Cat",
+      "my": "ကြောင်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l10.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.v008",
+      "lessonId": "n5.l10",
+      "ja": "木",
+      "kana": "き",
+      "en": "Tree / Wood",
+      "my": "သစ်ပင်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l10.s002",
+      "kanjiIds": [
+        "n5.l10.k004"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.v009",
+      "lessonId": "n5.l10",
+      "ja": "上",
+      "kana": "うえ",
+      "en": "On / Above / Up",
+      "my": "အပေါ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l10.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.v010",
+      "lessonId": "n5.l10",
+      "ja": "下",
+      "kana": "した",
+      "en": "Under / Below",
+      "my": "အောက်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l10.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.v011",
+      "lessonId": "n5.l10",
+      "ja": "前",
+      "kana": "まえ",
+      "en": "In front of",
+      "my": "အရှေ့",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l10.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.v012",
+      "lessonId": "n5.l10",
+      "ja": "後ろ",
+      "kana": "うしろ",
+      "en": "Behind / Back",
+      "my": "အနောက်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l10.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l10.k001",
+      "lessonId": "n5.l10",
+      "char": "男",
+      "meaning": "Male, man",
+      "onyomi": [
+        "ダン",
+        "ナン"
+      ],
+      "kunyomi": [
+        "おとこ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "男の人 (おとこのひと)",
+          "reading": "おとこのひと",
+          "meaning": "Man",
+          "preview": false
+        },
+        {
+          "word": "男の子 (おとこのこ)",
+          "reading": "おとこのこ",
+          "meaning": "Boy",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l10.s001"
+      ],
+      "components": [
+        "男"
+      ],
+      "strokes": 7,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.k002",
+      "lessonId": "n5.l10",
+      "char": "女",
+      "meaning": "Female, woman",
+      "onyomi": [
+        "ジョ",
+        "ニョ"
+      ],
+      "kunyomi": [
+        "おんな",
+        "め"
+      ],
+      "exampleVocab": [
+        {
+          "word": "女の人 (おんなのひと)",
+          "reading": "おんなのひと",
+          "meaning": "Woman",
+          "preview": false
+        },
+        {
+          "word": "女の子 (おんなのこ)",
+          "reading": "おんなのこ",
+          "meaning": "Girl",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l10.s002"
+      ],
+      "components": [
+        "女"
+      ],
+      "strokes": 3,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.k003",
+      "lessonId": "n5.l10",
+      "char": "子",
+      "meaning": "Child",
+      "onyomi": [
+        "シ",
+        "ス"
+      ],
+      "kunyomi": [
+        "こ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "子供 (こども)",
+          "reading": "こども",
+          "meaning": "Child",
+          "preview": false
+        },
+        {
+          "word": "男の子 (おとこのこ)",
+          "reading": "おとこのこ",
+          "meaning": "Boy",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l10.s003"
+      ],
+      "components": [
+        "子"
+      ],
+      "strokes": 3,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.k004",
+      "lessonId": "n5.l10",
+      "char": "木",
+      "meaning": "Tree, wood",
+      "onyomi": [
+        "モク",
+        "ボク"
+      ],
+      "kunyomi": [
+        "き",
+        "こ-"
+      ],
+      "exampleVocab": [
+        {
+          "word": "木曜日 (もくようび)",
+          "reading": "もくようび",
+          "meaning": "Thursday",
+          "preview": false
+        },
+        {
+          "word": "木 (き)",
+          "reading": "き",
+          "meaning": "Tree",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l10.s004"
+      ],
+      "components": [
+        "木"
+      ],
+      "strokes": 4,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l10.g001",
+      "lessonId": "n5.l10",
+      "pattern": "[Place] に [Thing] が あります / [Person/Animal] が います",
+      "meaning": "There is [Thing/Person] at [Place]",
+      "formation": "Location + に + Item/Living Being + が + あります (inanimate) / います (animate)",
+      "explanation": {
+        "en": "Differentiates living, moving entities (people, dogs, cats take います) from stationary non-living items and plants (books, tables, trees take あります).",
+        "my": "တည်ရှိရာနေရာနောက် 「に」 လိုက်ပြီး၊ သက်မဲ့အတွက် 「あります」၊ သက်ရှိလူနှင့်တိရစ္ဆာန်အတွက် 「います」 ကို ခွဲခြားသုံးရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l10.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l10.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Trees and plants take あります (not います), because they are rooted and non-motile in Japanese grammar."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.g002",
+      "lessonId": "n5.l10",
+      "pattern": "[Noun 1] の [Position] に [Noun 2] が あります/います",
+      "meaning": "[Noun 2] is [Position] of [Noun 1]",
+      "formation": "Reference Noun + の + Position (上/下/前/後ろ/中/隣/間) + に + Target + が + あります/います",
+      "explanation": {
+        "en": "States relative spatial positioning (e.g. 机の上に本があります = There is a book on the desk; 木の下に猫がいます = There is a cat under the tree).",
+        "my": "အရာဝတ္ထုတစ်ခု၏ အနေအထားနေရာ (အပေါ်၊ အောက်၊ အရှေ့၊ အနောက်၊ အထဲ၊ ဘေး) ကို 「Noun 1 の Position に」 ဖြင့် တိကျစွာ ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l10.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l10.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Remember that the reference landmark comes before の: 机の上 (on top of desk), not *上机."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l10.s001",
+      "lessonId": "n5.l10",
+      "ja": "机の上に辞書とノートがあります。",
+      "kana": "つくえのうえにじしょとのーとがあります。",
+      "translation": {
+        "en": "There is a dictionary and a notebook on the desk.",
+        "my": "စားပွဲပေါ်မှာ အဘိဓာန်နဲ့ ဗလာစာအုပ် ရှိပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l10.v001",
+        "n5.l10.v009"
+      ],
+      "grammarIds": [
+        "n5.l10.g001",
+        "n5.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.s002",
+      "lessonId": "n5.l10",
+      "ja": "庭の大きな木の下に白い猫がいます。",
+      "kana": "にわのおおきなきのしたにしろいねこがいます。",
+      "translation": {
+        "en": "There is a white cat under the big tree in the garden.",
+        "my": "ခြံထဲက သစ်ပင်ကြီးအောက်မှာ အဖြူရောင် ကြောင်တစ်ကောင် ရှိနေပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l10.v002",
+        "n5.l10.v007",
+        "n5.l10.v008",
+        "n5.l10.v010"
+      ],
+      "grammarIds": [
+        "n5.l10.g001",
+        "n5.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.s003",
+      "lessonId": "n5.l10",
+      "ja": "教室の中に先生と学生がいます。",
+      "kana": "きょうしつのなかにせんせいとがくせいがいます。",
+      "translation": {
+        "en": "There are a teacher and students inside the classroom.",
+        "my": "စာသင်ခန်းထဲမှာ ဆရာနဲ့ ကျောင်းသားတွေ ရှိပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l10.v002"
+      ],
+      "grammarIds": [
+        "n5.l10.g001",
+        "n5.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.s004",
+      "lessonId": "n5.l10",
+      "ja": "駅の前に交番とコンビニがあります。",
+      "kana": "えきのまえにこうばんとこんびにがあります。",
+      "translation": {
+        "en": "There are a police box and a convenience store in front of the station.",
+        "my": "ဘူတာအရှေ့မှာ ရဲကင်းနဲ့ 24နာရီစတိုးဆိုင် ရှိပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l10.v001",
+        "n5.l10.v011"
+      ],
+      "grammarIds": [
+        "n5.l10.g001",
+        "n5.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.s005",
+      "lessonId": "n5.l10",
+      "ja": "あそこに男の人と女の子がいます。",
+      "kana": "あそこにおとこのひととおんなのこがいます。",
+      "translation": {
+        "en": "There are a man and a girl over there.",
+        "my": "ဟိုမှာ အမျိုးသားတစ်ဦးနဲ့ မိန်းကလေးတစ်ဦး ရှိနေပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l10.v002",
+        "n5.l10.v003",
+        "n5.l10.v005"
+      ],
+      "grammarIds": [
+        "n5.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.s006",
+      "lessonId": "n5.l10",
+      "ja": "鞄の後ろに鍵がありますよ。",
+      "kana": "かばんのうしろにかぎがありますよ。",
+      "translation": {
+        "en": "Your keys are behind the bag!",
+        "my": "အိတ်ရဲ့ အနောက်မှာ သော့ ရှိတယ်နော်။"
+      },
+      "vocabIds": [
+        "n5.l10.v001",
+        "n5.l10.v012"
+      ],
+      "grammarIds": [
+        "n5.l10.g001",
+        "n5.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.s007",
+      "lessonId": "n5.l10",
+      "ja": "これは女の人です。",
+      "kana": "これはおんなのひとです。",
+      "translation": {
+        "en": "This is a woman.",
+        "my": "ဒါဟာ မိန်းမ / အမျိုးသမီး ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l10.v004"
+      ],
+      "grammarIds": [
+        "n5.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l10.s008",
+      "lessonId": "n5.l10",
+      "ja": "これは犬です。",
+      "kana": "これはいぬです。",
+      "translation": {
+        "en": "This is a dog.",
+        "my": "ဒါဟာ ခွေး ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l10.v006"
+      ],
+      "grammarIds": [
+        "n5.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l10.r01",
+    "lessonId": "n5.l10",
+    "title": "Existence and Location (います・あります) - 読解",
+    "level": "N5",
+    "text": "天気がいいですから、町の公園へ散歩に行きました。公園の真ん中に大きな池があります。池の周りに高い木やベンチがあります。ベンチの上に猫が寝ています。木の下で男の子と女の子が犬と遊んでいます。ベンチの近くに男の人がいます。新聞を読んでいます。とても穏やかな公園です。",
+    "kanaText": "てんきがいいですから、まちのこうえんへさんぽにいきました。こうえんのまんなかにおおきないけがあります。いけのまわりにたかいきやべんちがあります。べんちのうえにねこがねています。きのしたでおとこのことおんなのこがいぬとあそんでいます。べんちのちかくにおとこのひとがいます。しんぶんをよんでいます。とてもおだやかなこうえんです。",
+    "translation": "Because the weather was nice, I went for a walk in the town park. In the middle of the park, there is a large pond. Around the pond, there are tall trees and benches. On top of a bench, a cat is sleeping. Under a tree, a boy and a girl are playing with a dog. Near the bench, there is a man. He is reading a newspaper. It is a very peaceful park.",
+    "questionIds": [
+      "n5.l10.q021",
+      "n5.l10.q022",
+      "n5.l10.q023",
+      "n5.l10.q024",
+      "n5.l10.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l10.l01",
+    "lessonId": "n5.l10",
+    "title": "Existence and Location (います・あります) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "ケン",
+      "マナ"
+    ],
+    "transcript": "ケン：マナさん、私の車の鍵を見ませんでしたか。どこにもありません。\nマナ：机の上にはありませんか。\nケン：机の上には本とパソコンしかありません。\nマナ：あ、テレビの後ろを見てください。ほら、棚の下に落ちていますよ！\nケン：あ、ありました！助かりました、ありがとうございます！",
+    "translation": "A roommate helps find car keys and a wallet inside an apartment.",
+    "turns": [
+      {
+        "speaker": "ケン",
+        "ja": "マナさん、私の車の鍵を見ませんでしたか。どこにもありません。",
+        "kana": "まなさん、わたしのくるまのかぎをみませんでしたか。どこにもありません。",
+        "en": "Mana-san, have you seen my car keys? They are nowhere."
+      },
+      {
+        "speaker": "マナ",
+        "ja": "机の上にはありませんか。",
+        "kana": "つくえのうえにはありませんか。",
+        "en": "Aren't they on the desk?"
+      },
+      {
+        "speaker": "ケン",
+        "ja": "机の上には本とパソコンしかありません。",
+        "kana": "つくえのうえにはほんとぱそこんしかありません。",
+        "en": "On the desk there are only books and a computer."
+      },
+      {
+        "speaker": "マナ",
+        "ja": "あ、テレビの後ろを見てください。ほら、棚の下に落ちていますよ！",
+        "kana": "あ、てれびのうしろをみてください。ほら、たなのしたにおちていますよ！",
+        "en": "Ah, look behind the TV. See, they have fallen under the shelf!"
+      },
+      {
+        "speaker": "ケン",
+        "ja": "あ、ありました！助かりました、ありがとうございます！",
+        "kana": "あ、ありました！たすかりました、ありがとうございます！",
+        "en": "Ah, here they are! You saved me, thank you very much!"
+      }
+    ],
+    "questionIds": [
+      "n5.l10.q026",
+      "n5.l10.q027",
+      "n5.l10.q028",
+      "n5.l10.q029",
+      "n5.l10.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l10.q001",
+      "lessonId": "n5.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「あります」の意味は何ですか。 (What does 「あります」 mean?)",
+      "choices": [
+        "To exist / be (inanimate)",
+        "To exist / be (living beings)",
+        "Man",
+        "Woman"
+      ],
+      "answer": "To exist / be (inanimate)",
+      "acceptedAnswers": [
+        "To exist / be (inanimate)"
+      ],
+      "explanation": "「あります」(あります) means \"To exist / be (inanimate)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q002",
+      "lessonId": "n5.l10",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To exist / be (living beings)\" in hiragana:",
+      "answer": "います",
+      "acceptedAnswers": [
+        "います",
+        "います"
+      ],
+      "explanation": "The Japanese word for \"To exist / be (living beings)\" is います (います).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q003",
+      "lessonId": "n5.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「男の人」の意味は何ですか。 (What does 「男の人」 mean?)",
+      "choices": [
+        "Dog",
+        "Child / Children",
+        "Woman",
+        "Man"
+      ],
+      "answer": "Man",
+      "acceptedAnswers": [
+        "Man"
+      ],
+      "explanation": "「男の人」(おとこのひと) means \"Man\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q004",
+      "lessonId": "n5.l10",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Woman\" in hiragana:",
+      "answer": "おんなのひと",
+      "acceptedAnswers": [
+        "おんなのひと",
+        "女の人"
+      ],
+      "explanation": "The Japanese word for \"Woman\" is 女の人 (おんなのひと).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q005",
+      "lessonId": "n5.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「子供」の意味は何ですか。 (What does 「子供」 mean?)",
+      "choices": [
+        "Tree / Wood",
+        "Cat",
+        "Dog",
+        "Child / Children"
+      ],
+      "answer": "Child / Children",
+      "acceptedAnswers": [
+        "Child / Children"
+      ],
+      "explanation": "「子供」(こども) means \"Child / Children\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q006",
+      "lessonId": "n5.l10",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Dog\" in hiragana:",
+      "answer": "いぬ",
+      "acceptedAnswers": [
+        "いぬ",
+        "犬"
+      ],
+      "explanation": "The Japanese word for \"Dog\" is 犬 (いぬ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q007",
+      "lessonId": "n5.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「猫」の意味は何ですか。 (What does 「猫」 mean?)",
+      "choices": [
+        "Cat",
+        "Tree / Wood",
+        "On / Above / Up",
+        "Under / Below"
+      ],
+      "answer": "Cat",
+      "acceptedAnswers": [
+        "Cat"
+      ],
+      "explanation": "「猫」(ねこ) means \"Cat\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q008",
+      "lessonId": "n5.l10",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Tree / Wood\" in hiragana:",
+      "answer": "き",
+      "acceptedAnswers": [
+        "き",
+        "木"
+      ],
+      "explanation": "The Japanese word for \"Tree / Wood\" is 木 (き).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q009",
+      "lessonId": "n5.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「上」の意味は何ですか。 (What does 「上」 mean?)",
+      "choices": [
+        "Behind / Back",
+        "In front of",
+        "Under / Below",
+        "On / Above / Up"
+      ],
+      "answer": "On / Above / Up",
+      "acceptedAnswers": [
+        "On / Above / Up"
+      ],
+      "explanation": "「上」(うえ) means \"On / Above / Up\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q010",
+      "lessonId": "n5.l10",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Under / Below\" in hiragana:",
+      "answer": "した",
+      "acceptedAnswers": [
+        "した",
+        "下"
+      ],
+      "explanation": "The Japanese word for \"Under / Below\" is 下 (した).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q011",
+      "lessonId": "n5.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「前」の意味は何ですか。 (What does 「前」 mean?)",
+      "choices": [
+        "To exist / be (living beings)",
+        "To exist / be (inanimate)",
+        "Behind / Back",
+        "In front of"
+      ],
+      "answer": "In front of",
+      "acceptedAnswers": [
+        "In front of"
+      ],
+      "explanation": "「前」(まえ) means \"In front of\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q012",
+      "lessonId": "n5.l10",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Behind / Back\" in hiragana:",
+      "answer": "うしろ",
+      "acceptedAnswers": [
+        "うしろ",
+        "後ろ"
+      ],
+      "explanation": "The Japanese word for \"Behind / Back\" is 後ろ (うしろ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q013",
+      "lessonId": "n5.l10",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「男」の意味は何ですか。 (What is the meaning of kanji 「男」?)",
+      "choices": [
+        "Male, man",
+        "Female, woman",
+        "Child",
+        "Tree"
+      ],
+      "answer": "Male, man",
+      "acceptedAnswers": [
+        "Male, man"
+      ],
+      "explanation": "「男」means \"Male, man\". Onyomi: ダン, ナン, Kunyomi: おとこ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q014",
+      "lessonId": "n5.l10",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「男」の読み方はどれですか。 (Which is a correct reading for 「男」?)",
+      "choices": [
+        "おとこ",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "おとこ",
+      "acceptedAnswers": [
+        "おとこ"
+      ],
+      "explanation": "「男」 has the reading 「おとこ」 (Male, man).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q015",
+      "lessonId": "n5.l10",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「女」の意味は何ですか。 (What is the meaning of kanji 「女」?)",
+      "choices": [
+        "Female, woman",
+        "Male, man",
+        "Child",
+        "Tree"
+      ],
+      "answer": "Female, woman",
+      "acceptedAnswers": [
+        "Female, woman"
+      ],
+      "explanation": "「女」means \"Female, woman\". Onyomi: ジョ, ニョ, Kunyomi: おんな, め.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q016",
+      "lessonId": "n5.l10",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「女」の読み方はどれですか。 (Which is a correct reading for 「女」?)",
+      "choices": [
+        "おんな",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "おんな",
+      "acceptedAnswers": [
+        "おんな"
+      ],
+      "explanation": "「女」 has the reading 「おんな」 (Female, woman).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q017",
+      "lessonId": "n5.l10",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「子」の意味は何ですか。 (What is the meaning of kanji 「子」?)",
+      "choices": [
+        "Child",
+        "Male, man",
+        "Female, woman",
+        "Tree"
+      ],
+      "answer": "Child",
+      "acceptedAnswers": [
+        "Child"
+      ],
+      "explanation": "「子」means \"Child\". Onyomi: シ, ス, Kunyomi: こ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q018",
+      "lessonId": "n5.l10",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「子」の読み方はどれですか。 (Which is a correct reading for 「子」?)",
+      "choices": [
+        "こ",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "こ",
+      "acceptedAnswers": [
+        "こ"
+      ],
+      "explanation": "「子」 has the reading 「こ」 (Child).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q019",
+      "lessonId": "n5.l10",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「木」の意味は何ですか。 (What is the meaning of kanji 「木」?)",
+      "choices": [
+        "Tree, wood",
+        "Male, man",
+        "Female, woman",
+        "Tree"
+      ],
+      "answer": "Tree, wood",
+      "acceptedAnswers": [
+        "Tree, wood"
+      ],
+      "explanation": "「木」means \"Tree, wood\". Onyomi: モク, ボク, Kunyomi: き, こ-.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q020",
+      "lessonId": "n5.l10",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「木」の読み方はどれですか。 (Which is a correct reading for 「木」?)",
+      "choices": [
+        "き",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "き",
+      "acceptedAnswers": [
+        "き"
+      ],
+      "explanation": "「木」 has the reading 「き」 (Tree, wood).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q021",
+      "lessonId": "n5.l10",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "公園の真ん中に何がありますか。 (What is in the middle of the park?)",
+      "choices": [
+        "大きな池",
+        "高いビル",
+        "子供の遊具",
+        "噴水"
+      ],
+      "answer": "大きな池",
+      "acceptedAnswers": [
+        "大きな池"
+      ],
+      "explanation": "「公園の真ん中に大きな池があります」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q022",
+      "lessonId": "n5.l10",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "ベンチの上に何がいますか。 (What is on the bench?)",
+      "choices": [
+        "寝ている猫",
+        "遊んでいる犬",
+        "小鳥",
+        "本"
+      ],
+      "answer": "寝ている猫",
+      "acceptedAnswers": [
+        "寝ている猫"
+      ],
+      "explanation": "「ベンチの上に猫が寝ています」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q023",
+      "lessonId": "n5.l10",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "木の下で誰が遊んでいますか。 (Who is playing under the tree?)",
+      "choices": [
+        "男の子と女の子と犬",
+        "男の人と猫",
+        "先生と学生",
+        "犬だけ"
+      ],
+      "answer": "男の子と女の子と犬",
+      "acceptedAnswers": [
+        "男の子と女の子と犬"
+      ],
+      "explanation": "「木の下で男の子と女の子が犬と遊んでいます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q024",
+      "lessonId": "n5.l10",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "ベンチの近くにいる男の人は何をしていますか。 (What is the man near the bench doing?)",
+      "choices": [
+        "新聞を読んでいる",
+        "犬と走っている",
+        "寝ている",
+        "池を見ている"
+      ],
+      "answer": "新聞を読んでいる",
+      "acceptedAnswers": [
+        "新聞を読んでいる"
+      ],
+      "explanation": "「ベンチの近くに男の人がいます。新聞を読んでいます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q025",
+      "lessonId": "n5.l10",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "公園の雰囲気はどうですか。 (How is the atmosphere of the park?)",
+      "choices": [
+        "とても穏やかである",
+        "とても騒がしい",
+        "暗くて危険である",
+        "混んでいる"
+      ],
+      "answer": "とても穏やかである",
+      "acceptedAnswers": [
+        "とても穏やかである"
+      ],
+      "explanation": "「とても穏やかな公園です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q026",
+      "lessonId": "n5.l10",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ケンさんは何を探していましたか。 (What was Ken searching for?)",
+      "choices": [
+        "車の鍵",
+        "パソコン",
+        "財布",
+        "本"
+      ],
+      "answer": "車の鍵",
+      "acceptedAnswers": [
+        "車の鍵"
+      ],
+      "explanation": "Ken starts with: 「私の車の鍵を見ませんでしたか」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q027",
+      "lessonId": "n5.l10",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "机の上には何がありましたか。 (What was actually on the desk?)",
+      "choices": [
+        "本とパソコン",
+        "鍵と時計",
+        "テレビ",
+        "猫"
+      ],
+      "answer": "本とパソコン",
+      "acceptedAnswers": [
+        "本とパソコン"
+      ],
+      "explanation": "Ken replies: 「机の上には本とパソコンしかありません」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q028",
+      "lessonId": "n5.l10",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "鍵は最終的にどこで見つかりましたか。 (Where were the keys finally found?)",
+      "choices": [
+        "棚の下 (テレビの後ろ)",
+        "机の引き出しの中",
+        "鞄のポケット",
+        "ベッドの下"
+      ],
+      "answer": "棚の下 (テレビの後ろ)",
+      "acceptedAnswers": [
+        "棚の下 (テレビの後ろ)"
+      ],
+      "explanation": "Mana points out: 「テレビの後ろを見てください。ほら、棚の下に落ちていますよ！」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q029",
+      "lessonId": "n5.l10",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ケンさんは見つかった後、何と言いましたか。 (What did Ken say after finding them?)",
+      "choices": [
+        "ありました！助かりました、ありがとうございます！",
+        "違います、これじゃありません。",
+        "まだ見つかりません。",
+        "もう行きます。"
+      ],
+      "answer": "ありました！助かりました、ありがとうございます！",
+      "acceptedAnswers": [
+        "ありました！助かりました、ありがとうございます！"
+      ],
+      "explanation": "Ken expresses relief and thanks Mana.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l10.q030",
+      "lessonId": "n5.l10",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "二人は誰と誰ですか。 (Who are the two speakers?)",
+      "choices": [
+        "ケンとマナ",
+        "先生と学生",
+        "店員とお客",
+        "警察と運転手"
+      ],
+      "answer": "ケンとマナ",
+      "acceptedAnswers": [
+        "ケンとマナ"
+      ],
+      "explanation": "The dialogue is between Ken and Mana in their room.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l10.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

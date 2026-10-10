@@ -1,0 +1,1596 @@
+{
+  "id": "n5.l20",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 20,
+  "title": "Experience (たことがあります)",
+  "description": "Form the past plain (Ta-form) of verbs, express historical personal experience with [Verb-ta] ことが あります, and list non-exhaustive actions with [V-ta] り、[V-ta] り します.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l20.v001",
+      "lessonId": "n5.l20",
+      "ja": "登ります",
+      "kana": "のぼります",
+      "en": "To climb (a mountain)",
+      "my": "တက်သည် (တောင်)",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l20.s001",
+      "kanjiIds": [
+        "n5.l20.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.v002",
+      "lessonId": "n5.l20",
+      "ja": "泊まります",
+      "kana": "とまります",
+      "en": "To stay (at hotel)",
+      "my": "တည်းခိုသည် (ဟိုတယ်)",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l20.s002",
+      "kanjiIds": [
+        "n5.l20.k002"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.v003",
+      "lessonId": "n5.l20",
+      "ja": "掃除します",
+      "kana": "そうじします",
+      "en": "To clean (a room)",
+      "my": "သန့်ရှင်းရေးလုပ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l20.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.v004",
+      "lessonId": "n5.l20",
+      "ja": "洗濯します",
+      "kana": "せんたくします",
+      "en": "To do laundry",
+      "my": "အဝတ်လျှော်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l20.s010",
+      "kanjiIds": [
+        "n5.l20.k003"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.v005",
+      "lessonId": "n5.l20",
+      "ja": "練習します",
+      "kana": "れんしゅうします",
+      "en": "To practice",
+      "my": "လေ့ကျင့်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l20.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.v006",
+      "lessonId": "n5.l20",
+      "ja": "なります",
+      "kana": "なります",
+      "en": "To become",
+      "my": "ဖြစ်လာသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l20.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.v007",
+      "lessonId": "n5.l20",
+      "ja": "眠い",
+      "kana": "ねむい",
+      "en": "Sleepy",
+      "my": "အိပ်ငိုက်သော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l20.s007",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.v008",
+      "lessonId": "n5.l20",
+      "ja": "強い",
+      "kana": "つよい",
+      "en": "Strong",
+      "my": "သန်မာသော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l20.s008",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.v009",
+      "lessonId": "n5.l20",
+      "ja": "弱い",
+      "kana": "よわい",
+      "en": "Weak",
+      "my": "အားနည်းသော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l20.s009",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.v010",
+      "lessonId": "n5.l20",
+      "ja": "調子",
+      "kana": "ちょうし",
+      "en": "Condition / State of health",
+      "my": "ကျန်းမာရေးအခြေအနေ / အခြေအနေ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l20.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.v011",
+      "lessonId": "n5.l20",
+      "ja": "一度",
+      "kana": "いちど",
+      "en": "Once",
+      "my": "တစ်ကြိမ်",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l20.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.v012",
+      "lessonId": "n5.l20",
+      "ja": "一度も",
+      "kana": "いちども",
+      "en": "Never / Not even once (with neg)",
+      "my": "တစ်ကြိမ်မှ (မ...)",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l20.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l20.k001",
+      "lessonId": "n5.l20",
+      "char": "登",
+      "meaning": "Climb, ascend",
+      "onyomi": [
+        "トウ",
+        "ト"
+      ],
+      "kunyomi": [
+        "のぼ.る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "登ります (のぼります)",
+          "reading": "のぼります",
+          "meaning": "To climb",
+          "preview": false
+        },
+        {
+          "word": "登山 (とざん)",
+          "reading": "とざん",
+          "meaning": "Mountain climbing",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l20.s001"
+      ],
+      "components": [
+        "登"
+      ],
+      "strokes": 12,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.k002",
+      "lessonId": "n5.l20",
+      "char": "泊",
+      "meaning": "Stay overnight",
+      "onyomi": [
+        "ハク"
+      ],
+      "kunyomi": [
+        "と.まる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "泊まります (とまります)",
+          "reading": "とまります",
+          "meaning": "To stay overnight",
+          "preview": false
+        },
+        {
+          "word": "一泊 (いっぱく)",
+          "reading": "いっぱく",
+          "meaning": "One night stay",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l20.s002"
+      ],
+      "components": [
+        "泊"
+      ],
+      "strokes": 8,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.k003",
+      "lessonId": "n5.l20",
+      "char": "洗",
+      "meaning": "Wash, cleanse",
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "あら.う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "洗います (あらいます)",
+          "reading": "あらいます",
+          "meaning": "To wash",
+          "preview": false
+        },
+        {
+          "word": "洗濯 (せんたく)",
+          "reading": "せんたく",
+          "meaning": "Laundry",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l20.s003"
+      ],
+      "components": [
+        "洗"
+      ],
+      "strokes": 9,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.k004",
+      "lessonId": "n5.l20",
+      "char": "濯",
+      "meaning": "Rinse, laundry",
+      "onyomi": [
+        "タク"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "洗濯します (せんたくします)",
+          "reading": "せんたくします",
+          "meaning": "To do laundry",
+          "preview": false
+        },
+        {
+          "word": "洗濯機 (せんたくき)",
+          "reading": "せんたくき",
+          "meaning": "Washing machine",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l20.s004"
+      ],
+      "components": [
+        "濯"
+      ],
+      "strokes": 17,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l20.g001",
+      "lessonId": "n5.l20",
+      "pattern": "[Verb-ta] ことが あります",
+      "meaning": "Have done [Verb] before (Experience)",
+      "formation": "Verb (た-form) + ことが + あります / ありません",
+      "explanation": {
+        "en": "Describes past personal life experience: 富士山に登ったことがあります (I have climbed Mt. Fuji before). Negative: 一度も〜たことがありません (Never done once).",
+        "my": "အတိတ်က အတွေ့အကြုံရှိဖူးခြင်းကို 「ကြိယာ た-form + ことがあります」 (...ဖူးသည်) ဖြင့် ဖော်ပြသည်။ တစ်ကြိမ်မျှမရှိပါက 「一度も〜ありません」 ဖြစ်သည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l20.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l20.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do NOT use for recent routine past events (e.g. for \"I ate lunch an hour ago\", say 食べました, NOT *食べたことがあります)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.g002",
+      "lessonId": "n5.l20",
+      "pattern": "一度も [Verb-ta] ことが ありません",
+      "meaning": "Have never done [Verb] before / Not even once",
+      "formation": "一度も + Verb (た-form) + ことが + ありません",
+      "explanation": {
+        "en": "Emphasizes that one has never had a specific experience even once in their life: 日本へ一度も行ったことがありません (I have never been to Japan even once). Pair with the negative predicate ありません.",
+        "my": "တစ်သက်တွင် တစ်ကြိမ်မျှ မကြုံဖူး/မလုပ်ဖူးကြောင်းကို 「一度も + ကြိယာ た-form + ことが ありません」 (တစ်ကြိမ်မျှ ...မဖူးပါ) ဖြင့် အလေးပေးဖော်ပြသည်။ အငြင်းပုံစံ ありません နှင့် တွဲသုံးရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l20.s004",
+          "note": "Negative experience with illness/condition"
+        },
+        {
+          "sentenceId": "n5.l20.s005",
+          "note": "Negative experience with raw sashimi"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Always pair 一度も with a negative predicate (ありません). Do not use with あります."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l20.s001",
+      "lessonId": "n5.l20",
+      "ja": "日本で富士山に登ったことがあります。",
+      "kana": "にほんでふじさんにのぼったことがあります。",
+      "translation": {
+        "en": "I have climbed Mt. Fuji in Japan before.",
+        "my": "ဂျပန်နိုင်ငံမှာ ဖူဂျီတောင် တက်ဖူးပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l20.v001"
+      ],
+      "grammarIds": [
+        "n5.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.s002",
+      "lessonId": "n5.l20",
+      "ja": "日本の伝統的な温泉旅館に泊まったことがあります。",
+      "kana": "にほんのでんとうてきなおんせんりょかんにとまったことがあります。",
+      "translation": {
+        "en": "I have stayed at a traditional Japanese hot spring inn before.",
+        "my": "ဂျပန်ရိုးရာ ရေပူစမ်းတည်းခိုခန်းမှာ တည်းခိုဖူးပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l20.v002"
+      ],
+      "grammarIds": [
+        "n5.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.s003",
+      "lessonId": "n5.l20",
+      "ja": "休みの日に一人で部屋をきれいに掃除したことがあります。",
+      "kana": "やすみのひにひとりでへやをきれいにそうじしたことがあります。",
+      "translation": {
+        "en": "I have thoroughly cleaned my room by myself on a day off before.",
+        "my": "အားလပ်ရက်မှာ တစ်ယောက်တည်း အခန်းကို သေသေချာချာ သန့်ရှင်းရေးလုပ်ဖူးပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l20.v003"
+      ],
+      "grammarIds": [
+        "n5.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.s004",
+      "lessonId": "n5.l20",
+      "ja": "体の調子が悪くて、一度も山に登ったことがありません。",
+      "kana": "からだのちょうしがわるくて、いちどもやまにのぼったことがありません。",
+      "translation": {
+        "en": "My physical condition was poor, so I have never climbed a mountain even once.",
+        "my": "ကျန်းမာရေးမကောင်းသဖြင့် တောင်ပေါ်သို့ တစ်ကြိမ်မျှ မတက်ဖူးပါ။"
+      },
+      "vocabIds": [
+        "n5.l20.v010",
+        "n5.l20.v012"
+      ],
+      "grammarIds": [
+        "n5.l20.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.s005",
+      "lessonId": "n5.l20",
+      "ja": "生のお刺身を一度も食べたことがありません。",
+      "kana": "なまのおさしみをいちどもたべたことがありません。",
+      "translation": {
+        "en": "I have never eaten raw sashimi even once.",
+        "my": "ငါးစိမ်းလွှာကို တစ်ခါမှ မစားဖူးပါဘူး။"
+      },
+      "vocabIds": [
+        "n5.l20.v011",
+        "n5.l20.v012"
+      ],
+      "grammarIds": [
+        "n5.l20.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.s006",
+      "lessonId": "n5.l20",
+      "ja": "毎日日本語を練習して、だんだん上手になりました。",
+      "kana": "まいにちにほんごをれんしゅうして、だんだんじょうずになりました。",
+      "translation": {
+        "en": "Practicing Japanese every day, I gradually became skillful.",
+        "my": "နေ့တိုင်း ဂျပန်စာလေ့ကျင့်ပြီး တဖြည်းဖြည်း တော်လာခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l20.v005",
+        "n5.l20.v006"
+      ],
+      "grammarIds": [
+        "n5.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.s007",
+      "lessonId": "n5.l20",
+      "ja": "昨夜あまり寝ていませんから、今とても眠いです。",
+      "kana": "ゆうべあまりねていませんから、いまとてもねむいです。",
+      "translation": {
+        "en": "Because I did not sleep much last night, I am very sleepy now.",
+        "my": "မနေ့ညက ကောင်းကောင်းမအိပ်ခဲ့ရသောကြောင့် အခု အရမ်းအိပ်ငိုက်နေပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l20.v007"
+      ],
+      "grammarIds": [
+        "n5.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.s008",
+      "lessonId": "n5.l20",
+      "ja": "田中さんはスポーツが得意で、体がとても強いです。",
+      "kana": "たなかさんはすぽーつがとくいで、からだがとてもつよいです。",
+      "translation": {
+        "en": "Tanaka-san is good at sports and has a very strong body.",
+        "my": "တနခစံသည် အားကစားတော်ပြီး ခန္ဓာကိုယ် အရမ်းသန်မာပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l20.v008"
+      ],
+      "grammarIds": [
+        "n5.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.s009",
+      "lessonId": "n5.l20",
+      "ja": "私はお酒があまり飲めなくて、とても弱いです。",
+      "kana": "わたしはおさけがあまりのめなくて、とてもよわいです。",
+      "translation": {
+        "en": "I cannot drink much alcohol; I get affected very easily.",
+        "my": "ကျွန်တော် အရက် သိပ်မသောက်နိုင်ဘဲ အရမ်းနုပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l20.v009"
+      ],
+      "grammarIds": [
+        "n5.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l20.s010",
+      "lessonId": "n5.l20",
+      "ja": "日本の寮で自分で服を洗濯したことがあります。",
+      "kana": "にほんのりょうでじぶんでふくをせんたくしたことがあります。",
+      "translation": {
+        "en": "I have washed my clothes by myself at a Japanese dormitory before.",
+        "my": "ဂျပန်အဆောင်မှာ ကိုယ်တိုင် အဝတ်လျှော်ဖူးပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l20.v004"
+      ],
+      "grammarIds": [
+        "n5.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l20.r01",
+    "lessonId": "n5.l20",
+    "title": "Experience (たことがあります) - 読解",
+    "level": "N5",
+    "text": "日本に来てから半年が過ぎました。この半年間に色々な体験をしました。春に京都へ行って、満開の桜を見たことがあります。夏には友達と富士山に登ったことがあります。山頂で見た日の出はとても感動的でした。週末はいつも家でテレビを見たり、日本語の単語を練習したりします。まだ歌舞伎を一度も見たことがありませんから、来月見に行きたいです。",
+    "kanaText": "にほんにきてからはんとしがすぎました。このはんとしのあいだにいろいろなたいけんをしました。はるにきょうとへいって、まんかいのさくらをみたことがあります。なつにはともだちとふじさんにのぼったことがあります。さんちょうでみたひのではいちばんかんどうてきでした。しゅうまつはいつもいえでてれびをみたり、にほんごのたんごをれんしゅうしたりします。まだかぶきをいちどもみたことがありませんから、らいげつみにいきたいです。",
+    "translation": "Half a year has passed since I came to Japan. During these six months, I had various experiences. In spring, I went to Kyoto and saw cherry blossoms in full bloom. In summer, I climbed Mt. Fuji with friends. The sunrise viewed from the summit was deeply moving. On weekends, I usually do things like watching TV at home and practicing Japanese vocabulary. I have not seen Kabuki even once yet, so I want to go watch it next month.",
+    "questionIds": [
+      "n5.l20.q021",
+      "n5.l20.q022",
+      "n5.l20.q023",
+      "n5.l20.q024",
+      "n5.l20.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l20.l01",
+    "lessonId": "n5.l20",
+    "title": "Experience (たことがあります) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "エミリー",
+      "グエン"
+    ],
+    "transcript": "エミリー：グエンさん、日本の着物を着たことがありますか。\nグエン：はい、去年京都でお祭りの時に一度着たことがありますよ。\nエミリー：いいですね！お茶の体験はどうですか。\nグエン：お茶の体験は一度もありません。でも、来週体験教室へ行く予定です。エミリーさんは？\nエミリー：私も一度もありませんから、ぜひ一緒に行きたいです！",
+    "translation": "Two foreign residents discuss their experiences wearing kimono and attending tea ceremonies.",
+    "turns": [
+      {
+        "speaker": "エミリー",
+        "ja": "グエンさん、日本の着物を着たことがありますか。",
+        "kana": "えみりー：ぐえんさん、にほんのきものをきたことがありますか。",
+        "en": "Nguyen-san, have you ever worn a Japanese kimono before?"
+      },
+      {
+        "speaker": "グエン",
+        "ja": "はい、去年京都でお祭りの時に一度着たことがありますよ。",
+        "kana": "はい、きょねんきょうとでおまつりのときにいちどきたことがありますよ。",
+        "en": "Yes, I wore one once during a festival in Kyoto last year."
+      },
+      {
+        "speaker": "エミリー",
+        "ja": "いいですね！お茶の体験はどうですか。",
+        "kana": "いいですね！おちゃのたいけんはどうですか。",
+        "en": "How nice! How about a traditional tea ceremony experience?"
+      },
+      {
+        "speaker": "グエン",
+        "ja": "お茶の体験は一度もありません。でも、来週体験教室へ行く予定です。エミリーさんは？",
+        "kana": "おちゃのたいけんはいちどもありません。でも、らいしゅうたいけんきょうしつへいくよていです。えみりーさんは？",
+        "en": "I have never experienced a tea ceremony. But I plan to go to a trial class next week. What about you, Emily-san?"
+      },
+      {
+        "speaker": "エミリー",
+        "ja": "私も一度もありませんから、ぜひ一緒に行きたいです！",
+        "kana": "わたしもいちどもありませんから、ぜひいっしょにいきたいです！",
+        "en": "I haven't either, so I'd love to go together with you!"
+      }
+    ],
+    "questionIds": [
+      "n5.l20.q026",
+      "n5.l20.q027",
+      "n5.l20.q028",
+      "n5.l20.q029",
+      "n5.l20.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l20.q001",
+      "lessonId": "n5.l20",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「登ります」の意味は何ですか。 (What does 「登ります」 mean?)",
+      "choices": [
+        "To climb (a mountain)",
+        "To stay (at hotel)",
+        "To clean (a room)",
+        "To do laundry"
+      ],
+      "answer": "To climb (a mountain)",
+      "acceptedAnswers": [
+        "To climb (a mountain)"
+      ],
+      "explanation": "「登ります」(のぼります) means \"To climb (a mountain)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q002",
+      "lessonId": "n5.l20",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To stay (at hotel)\" in hiragana:",
+      "answer": "とまります",
+      "acceptedAnswers": [
+        "とまります",
+        "泊まります"
+      ],
+      "explanation": "The Japanese word for \"To stay (at hotel)\" is 泊まります (とまります).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q003",
+      "lessonId": "n5.l20",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「掃除します」の意味は何ですか。 (What does 「掃除します」 mean?)",
+      "choices": [
+        "To become",
+        "To practice",
+        "To do laundry",
+        "To clean (a room)"
+      ],
+      "answer": "To clean (a room)",
+      "acceptedAnswers": [
+        "To clean (a room)"
+      ],
+      "explanation": "「掃除します」(そうじします) means \"To clean (a room)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q004",
+      "lessonId": "n5.l20",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To do laundry\" in hiragana:",
+      "answer": "せんたくします",
+      "acceptedAnswers": [
+        "せんたくします",
+        "洗濯します"
+      ],
+      "explanation": "The Japanese word for \"To do laundry\" is 洗濯します (せんたくします).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q005",
+      "lessonId": "n5.l20",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「練習します」の意味は何ですか。 (What does 「練習します」 mean?)",
+      "choices": [
+        "Strong",
+        "Sleepy",
+        "To become",
+        "To practice"
+      ],
+      "answer": "To practice",
+      "acceptedAnswers": [
+        "To practice"
+      ],
+      "explanation": "「練習します」(れんしゅうします) means \"To practice\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q006",
+      "lessonId": "n5.l20",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To become\" in hiragana:",
+      "answer": "なります",
+      "acceptedAnswers": [
+        "なります",
+        "なります"
+      ],
+      "explanation": "The Japanese word for \"To become\" is なります (なります).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q007",
+      "lessonId": "n5.l20",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「眠い」の意味は何ですか。 (What does 「眠い」 mean?)",
+      "choices": [
+        "Sleepy",
+        "Strong",
+        "Weak",
+        "Condition / State of health"
+      ],
+      "answer": "Sleepy",
+      "acceptedAnswers": [
+        "Sleepy"
+      ],
+      "explanation": "「眠い」(ねむい) means \"Sleepy\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q008",
+      "lessonId": "n5.l20",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Strong\" in hiragana:",
+      "answer": "つよい",
+      "acceptedAnswers": [
+        "つよい",
+        "強い"
+      ],
+      "explanation": "The Japanese word for \"Strong\" is 強い (つよい).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q009",
+      "lessonId": "n5.l20",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「弱い」の意味は何ですか。 (What does 「弱い」 mean?)",
+      "choices": [
+        "Never / Not even once (with neg)",
+        "Once",
+        "Condition / State of health",
+        "Weak"
+      ],
+      "answer": "Weak",
+      "acceptedAnswers": [
+        "Weak"
+      ],
+      "explanation": "「弱い」(よわい) means \"Weak\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q010",
+      "lessonId": "n5.l20",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Condition / State of health\" in hiragana:",
+      "answer": "ちょうし",
+      "acceptedAnswers": [
+        "ちょうし",
+        "調子"
+      ],
+      "explanation": "The Japanese word for \"Condition / State of health\" is 調子 (ちょうし).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q011",
+      "lessonId": "n5.l20",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「一度」の意味は何ですか。 (What does 「一度」 mean?)",
+      "choices": [
+        "To stay (at hotel)",
+        "To climb (a mountain)",
+        "Never / Not even once (with neg)",
+        "Once"
+      ],
+      "answer": "Once",
+      "acceptedAnswers": [
+        "Once"
+      ],
+      "explanation": "「一度」(いちど) means \"Once\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q012",
+      "lessonId": "n5.l20",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Never / Not even once (with neg)\" in hiragana:",
+      "answer": "いちども",
+      "acceptedAnswers": [
+        "いちども",
+        "一度も"
+      ],
+      "explanation": "The Japanese word for \"Never / Not even once (with neg)\" is 一度も (いちども).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q013",
+      "lessonId": "n5.l20",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「登」の意味は何ですか。 (What is the meaning of kanji 「登」?)",
+      "choices": [
+        "Climb, ascend",
+        "Stay overnight",
+        "Wash, cleanse",
+        "Tree"
+      ],
+      "answer": "Climb, ascend",
+      "acceptedAnswers": [
+        "Climb, ascend"
+      ],
+      "explanation": "「登」means \"Climb, ascend\". Onyomi: トウ, ト, Kunyomi: のぼ.る.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q014",
+      "lessonId": "n5.l20",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「登」の読み方はどれですか。 (Which is a correct reading for 「登」?)",
+      "choices": [
+        "のぼ.る",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "のぼ.る",
+      "acceptedAnswers": [
+        "のぼ.る"
+      ],
+      "explanation": "「登」 has the reading 「のぼ.る」 (Climb, ascend).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q015",
+      "lessonId": "n5.l20",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「泊」の意味は何ですか。 (What is the meaning of kanji 「泊」?)",
+      "choices": [
+        "Stay overnight",
+        "Climb, ascend",
+        "Wash, cleanse",
+        "Tree"
+      ],
+      "answer": "Stay overnight",
+      "acceptedAnswers": [
+        "Stay overnight"
+      ],
+      "explanation": "「泊」means \"Stay overnight\". Onyomi: ハク, Kunyomi: と.まる.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q016",
+      "lessonId": "n5.l20",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「泊」の読み方はどれですか。 (Which is a correct reading for 「泊」?)",
+      "choices": [
+        "と.まる",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "と.まる",
+      "acceptedAnswers": [
+        "と.まる"
+      ],
+      "explanation": "「泊」 has the reading 「と.まる」 (Stay overnight).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q017",
+      "lessonId": "n5.l20",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「洗」の意味は何ですか。 (What is the meaning of kanji 「洗」?)",
+      "choices": [
+        "Wash, cleanse",
+        "Climb, ascend",
+        "Stay overnight",
+        "Tree"
+      ],
+      "answer": "Wash, cleanse",
+      "acceptedAnswers": [
+        "Wash, cleanse"
+      ],
+      "explanation": "「洗」means \"Wash, cleanse\". Onyomi: セン, Kunyomi: あら.う.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q018",
+      "lessonId": "n5.l20",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「洗」の読み方はどれですか。 (Which is a correct reading for 「洗」?)",
+      "choices": [
+        "あら.う",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "あら.う",
+      "acceptedAnswers": [
+        "あら.う"
+      ],
+      "explanation": "「洗」 has the reading 「あら.う」 (Wash, cleanse).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q019",
+      "lessonId": "n5.l20",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「濯」の意味は何ですか。 (What is the meaning of kanji 「濯」?)",
+      "choices": [
+        "Rinse, laundry",
+        "Climb, ascend",
+        "Stay overnight",
+        "Tree"
+      ],
+      "answer": "Rinse, laundry",
+      "acceptedAnswers": [
+        "Rinse, laundry"
+      ],
+      "explanation": "「濯」means \"Rinse, laundry\". Onyomi: タク, Kunyomi: —.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q020",
+      "lessonId": "n5.l20",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「濯」の読み方はどれですか。 (Which is a correct reading for 「濯」?)",
+      "choices": [
+        "タク",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "タク",
+      "acceptedAnswers": [
+        "タク"
+      ],
+      "explanation": "「濯」 has the reading 「タク」 (Rinse, laundry).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q021",
+      "lessonId": "n5.l20",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者は日本に来てどのくらい経ちましたか。 (How long has it been since coming to Japan?)",
+      "choices": [
+        "半年",
+        "一年",
+        "三か月",
+        "二年"
+      ],
+      "answer": "半年",
+      "acceptedAnswers": [
+        "半年"
+      ],
+      "explanation": "「日本に来てから半年が過ぎました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q022",
+      "lessonId": "n5.l20",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "夏にどんな体験をしましたか。 (What experience did they have in summer?)",
+      "choices": [
+        "友達と富士山に登った",
+        "海で泳いだ",
+        "京都でお寺巡りをした",
+        "北海道へ行った"
+      ],
+      "answer": "友達と富士山に登った",
+      "acceptedAnswers": [
+        "友達と富士山に登った"
+      ],
+      "explanation": "「夏には友達と富士山に登ったことがあります」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q023",
+      "lessonId": "n5.l20",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "普段の週末はどんなことをしますか。 (What do they usually do on weekends?)",
+      "choices": [
+        "テレビを見たり単語を練習したりする",
+        "山登りや旅行に行く",
+        "アルバイトばかりする",
+        "友達と買い物に行く"
+      ],
+      "answer": "テレビを見たり単語を練習したりする",
+      "acceptedAnswers": [
+        "テレビを見たり単語を練習したりする"
+      ],
+      "explanation": "「テレビを見たり、日本語の単語を練習したりします」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q024",
+      "lessonId": "n5.l20",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "まだ経験していないことは何ですか。 (What have they NOT experienced yet?)",
+      "choices": [
+        "歌舞伎を見ること",
+        "富士山に登ること",
+        "京都に行くこと",
+        "桜を見ること"
+      ],
+      "answer": "歌舞伎を見ること",
+      "acceptedAnswers": [
+        "歌舞伎を見ること"
+      ],
+      "explanation": "「まだ歌舞伎を見たことがありませんから...」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q025",
+      "lessonId": "n5.l20",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "富士山の山頂で何を見ましたか。 (What was viewed from the summit of Mt. Fuji?)",
+      "choices": [
+        "日の出",
+        "星空",
+        "雪",
+        "雲海だけ"
+      ],
+      "answer": "日の出",
+      "acceptedAnswers": [
+        "日の出"
+      ],
+      "explanation": "「山頂で見た日の出はとても感動的でした」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q026",
+      "lessonId": "n5.l20",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "グエンさんは着物を着たことがありますか。 (Has Nguyen worn a kimono before?)",
+      "choices": [
+        "はい、去年京都のお祭りで一度着た",
+        "いいえ、一度もない",
+        "毎日着ている",
+        "浴衣だけ着た"
+      ],
+      "answer": "はい、去年京都のお祭りで一度着た",
+      "acceptedAnswers": [
+        "はい、去年京都のお祭りで一度着た"
+      ],
+      "explanation": "「はい、去年京都でお祭りの時に一度着たことがありますよ」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q027",
+      "lessonId": "n5.l20",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "二人はお茶の体験をしたことがありますか。 (Have either of them experienced a tea ceremony?)",
+      "choices": [
+        "二人とも一度もない",
+        "グエンさんだけある",
+        "エミリーさんだけある",
+        "二人とも何度も体験した"
+      ],
+      "answer": "二人とも一度もない",
+      "acceptedAnswers": [
+        "二人とも一度もない"
+      ],
+      "explanation": "Nguyen says 「一度もありません」 and Emily says 「私も一度もありません」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q028",
+      "lessonId": "n5.l20",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "グエンさんは来週何をしますか。 (What does Nguyen plan to do next week?)",
+      "choices": [
+        "お茶の体験教室へ行く",
+        "京都へ旅行する",
+        "着物を買う",
+        "国へ帰る"
+      ],
+      "answer": "お茶の体験教室へ行く",
+      "acceptedAnswers": [
+        "お茶の体験教室へ行く"
+      ],
+      "explanation": "「来週体験教室へ行く予定です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q029",
+      "lessonId": "n5.l20",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "エミリーさんは最後に何と提案しましたか。 (What did Emily propose in the end?)",
+      "choices": [
+        "ぜひ一緒に行きたい",
+        "一人で行ってきて",
+        "来月にしよう",
+        "やめよう"
+      ],
+      "answer": "ぜひ一緒に行きたい",
+      "acceptedAnswers": [
+        "ぜひ一緒に行きたい"
+      ],
+      "explanation": "Emily enthusiastically says: 「ぜひ一緒に行きたいです！」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l20.q030",
+      "lessonId": "n5.l20",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "グエンさんが着物を着た場所はどこでしたか。 (Where did Nguyen wear a kimono?)",
+      "choices": [
+        "京都",
+        "東京",
+        "奈良",
+        "大阪"
+      ],
+      "answer": "京都",
+      "acceptedAnswers": [
+        "京都"
+      ],
+      "explanation": "「去年京都でお祭りの時に」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l20.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

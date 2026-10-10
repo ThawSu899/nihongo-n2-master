@@ -1,0 +1,1710 @@
+{
+  "id": "n4.l17",
+  "level": "N4",
+  "module": "N4 Expressions & Relations",
+  "number": 17,
+  "title": "N4 Lesson 17: Decisions & Plans (〜ことにする・〜ことになる)",
+  "description": "Master personal choices and routines (〜ことにする/〜ことにしている) versus institutional decisions and rules (〜ことになる/〜ことになっている).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l17.v001",
+      "lessonId": "n4.l17",
+      "ja": "決める",
+      "kana": "きめる",
+      "en": "to decide; to choose",
+      "my": "ဆုံးဖြတ်သည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l17.s001",
+      "kanjiIds": [
+        "n4.l17.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.v002",
+      "lessonId": "n4.l17",
+      "ja": "健康",
+      "kana": "けんこう",
+      "en": "health; healthy",
+      "my": "ကျန်းမာရေး/ကျန်းမာသော",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l17.s002",
+      "kanjiIds": [
+        "n4.l17.k002",
+        "n4.l17.k003"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.v003",
+      "lessonId": "n4.l17",
+      "ja": "転勤",
+      "kana": "てんきん",
+      "en": "job transfer; relocation to another branch",
+      "my": "အလုပ်ပြောင်းရွှေ့ခြင်း/ရုံးခွဲပြောင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l17.s003",
+      "kanjiIds": [
+        "n4.l17.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.v004",
+      "lessonId": "n4.l17",
+      "ja": "習慣",
+      "kana": "しゅうかん",
+      "en": "habit; custom",
+      "my": "အလေ့အထ/ဓလေ့ထုံးတမ်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l17.s004",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.v005",
+      "lessonId": "n4.l17",
+      "ja": "法律",
+      "kana": "ほうりつ",
+      "en": "law",
+      "my": "ဥပဒေ",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l17.s005",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.v006",
+      "lessonId": "n4.l17",
+      "ja": "禁煙",
+      "kana": "きんえん",
+      "en": "no smoking; quitting smoking",
+      "my": "ဆေးလိပ်မသောက်ရ/ဆေးလိပ်ဖြတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l17.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.v007",
+      "lessonId": "n4.l17",
+      "ja": "留学する",
+      "kana": "りゅうがくする",
+      "en": "to study abroad",
+      "my": "နိုင်ငံခြားပညာတော်သင်သွားသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l17.s007",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.v008",
+      "lessonId": "n4.l17",
+      "ja": "相談する",
+      "kana": "そうだんする",
+      "en": "to consult; to discuss",
+      "my": "တိုင်ပင်ဆွေးနွေးသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l17.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.v009",
+      "lessonId": "n4.l17",
+      "ja": "給料",
+      "kana": "きゅうりょう",
+      "en": "salary; wages",
+      "my": "လစာ",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l17.s009",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.v010",
+      "lessonId": "n4.l17",
+      "ja": "許可",
+      "kana": "きょか",
+      "en": "permission; approval",
+      "my": "ခွင့်ပြုချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l17.s010",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.v011",
+      "lessonId": "n4.l17",
+      "ja": "方針",
+      "kana": "ほうしん",
+      "en": "policy; course of action",
+      "my": "မူဝါဒ/ဦးတည်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l17.s011",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.v012",
+      "lessonId": "n4.l17",
+      "ja": "貯金する",
+      "kana": "ちょきんする",
+      "en": "to save money",
+      "my": "ငွေစုဆောင်းသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l17.s012",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l17.k001",
+      "lessonId": "n4.l17",
+      "char": "決",
+      "meaning": "decide; fix; settle",
+      "onyomi": [
+        "ケツ"
+      ],
+      "kunyomi": [
+        "き・める",
+        "き・まる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "決める",
+          "reading": "きめる",
+          "meaning": "to decide",
+          "preview": false
+        },
+        {
+          "word": "決して",
+          "reading": "けっして",
+          "meaning": "never; by no means",
+          "preview": false
+        },
+        {
+          "word": "決定",
+          "reading": "けってい",
+          "meaning": "decision",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l17.s001"
+      ],
+      "components": [
+        "氵",
+        "夬"
+      ],
+      "strokes": 7,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.k002",
+      "lessonId": "n4.l17",
+      "char": "健",
+      "meaning": "healthy; sound; vigorous",
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [
+        "すこ・やか"
+      ],
+      "exampleVocab": [
+        {
+          "word": "健康",
+          "reading": "けんこう",
+          "meaning": "health",
+          "preview": false
+        },
+        {
+          "word": "健全",
+          "reading": "けんぜん",
+          "meaning": "sound; healthy",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l17.s001"
+      ],
+      "components": [
+        "亻",
+        "建"
+      ],
+      "strokes": 11,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.k003",
+      "lessonId": "n4.l17",
+      "char": "康",
+      "meaning": "peace; composure; ease",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "健康",
+          "reading": "けんこう",
+          "meaning": "health",
+          "preview": false
+        },
+        {
+          "word": "健康診断",
+          "reading": "けんこうしんだん",
+          "meaning": "health medical checkup",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l17.s001"
+      ],
+      "components": [
+        "广",
+        "隶"
+      ],
+      "strokes": 11,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.k004",
+      "lessonId": "n4.l17",
+      "char": "転",
+      "meaning": "revolve; turn around; change",
+      "onyomi": [
+        "テン"
+      ],
+      "kunyomi": [
+        "ころ・がる",
+        "ころ・ぶ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "転勤",
+          "reading": "てんきん",
+          "meaning": "job transfer",
+          "preview": false
+        },
+        {
+          "word": "運転",
+          "reading": "うんてん",
+          "meaning": "driving",
+          "preview": false
+        },
+        {
+          "word": "自転車",
+          "reading": "じてんしゃ",
+          "meaning": "bicycle",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l17.s001"
+      ],
+      "components": [
+        "車",
+        "云"
+      ],
+      "strokes": 11,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l17.g001",
+      "lessonId": "n4.l17",
+      "pattern": "[Verb Dictionary form / ない form] + ことにする / ことにしている",
+      "meaning": "Personal Decision / Personal Habit or Rule",
+      "formation": "Verb (Dictionary form) + ことにする (食べることにする)\nVerb (ない form) + ことにする (飲まないことにする)\nHabit/Rule: 〜ことにしている (毎日ジョギングすることにしている)",
+      "explanation": {
+        "en": "〜ことにする indicates a personal, conscious decision made by the speaker. 〜ことにしている expresses a personal habit, routine, or code of conduct that the speaker has consciously decided to maintain.",
+        "my": "မိမိကိုယ်တိုင်၏ သန္နိဋ္ဌာန်ဖြင့် ဆုံးဖြတ်ခြင်း (〜ことにする) နှင့် မိမိကိုယ်တိုင် ပြုလုပ်ရန် စည်းမျဉ်းထားရှိသော အလေ့အကျင့် (〜ことにしている) ကို ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l17.s001",
+          "note": "I decided to run every morning for my health."
+        },
+        {
+          "sentenceId": "n4.l17.s004",
+          "note": "I make it a rule to read for thirty minutes before sleeping."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse with ことになる; ことにする expresses YOUR own will, while ことになる expresses an external or institutional decision."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.g002",
+      "lessonId": "n4.l17",
+      "pattern": "[Verb Dictionary form / ない form] + ことになる / ことになっている",
+      "meaning": "External Decision / Established Rule, Law, or Schedule",
+      "formation": "Verb (Dictionary form) + ことになる (転勤することになった)\nVerb (ない form) + ことになる (行かないことになった)\nRule/Schedule: 〜ことになっている (授業中はスマホを使ってはいけないことになっている)",
+      "explanation": {
+        "en": "〜ことになる indicates that a decision was reached by an outside party, company, circumstance, or consensus rather than solely by the speaker. 〜ことになっている describes an established rule, legal regulation, tradition, or official schedule.",
+        "my": "ကုမ္ပဏီ၊ အဖွဲ့အစည်း သို့မဟုတ် ပြင်ပအခြေအနေများကြောင့် ဆုံးဖြတ်ပြီးသားဖြစ်သွားခြင်း (〜ことになる) နှင့် လူမှုစည်းမျဉ်း သို့မဟုတ် ဥပဒေအရ သတ်မှတ်ထားသောအရာ (〜ことになっている) ကို ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l17.s003",
+          "note": "It has been decided that I will transfer to the Osaka branch from next month."
+        },
+        {
+          "sentenceId": "n4.l17.s005",
+          "note": "In Japan, it is an established law that you cannot drink alcohol until you turn 20."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "When your company orders you to transfer to another office, you must use 転勤することになりました (NOT 転勤することにしました unless you voluntarily requested it)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l17.s001",
+      "lessonId": "n4.l17",
+      "ja": "健康のために、毎朝三十分ウォーキングをすることにしました。",
+      "kana": "けんこうのために、まいあささんじゅっぷんウォーキングをすることにしました。",
+      "translation": {
+        "en": "For my health, I decided to walk for thirty minutes every morning.",
+        "my": "ကျန်းမာရေးအတွက် မနက်တိုင်း မိနစ် ၃၀ လမ်းလျှောက်ရန် ကျွန်တော် ဆုံးဖြတ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l17.v001",
+        "n4.l17.v002"
+      ],
+      "grammarIds": [
+        "n4.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.s002",
+      "lessonId": "n4.l17",
+      "ja": "体の調子を整えるため、甘いジュースは飲まないことにしています。",
+      "kana": "からだのちょうしをととのえるため、あまいジュースはのまないことにしています。",
+      "translation": {
+        "en": "To keep my body in shape, I make it a rule not to drink sugary juice.",
+        "my": "ခန္ဓာကိုယ်ကျန်းမာရေးကောင်းမွန်စေရန် အချိုရည်များ မသောက်ရန် စည်းကမ်းထားရှိပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l17.v002"
+      ],
+      "grammarIds": [
+        "n4.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.s003",
+      "lessonId": "n4.l17",
+      "ja": "会社の人事異動で、来月から大阪支社へ転勤することになりました。",
+      "kana": "かいしゃのじんじいどうで、らいげつからおおさかししゃへてんきんすることになりました。",
+      "translation": {
+        "en": "Due to company personnel reshuffling, it has been decided that I will transfer to the Osaka branch from next month.",
+        "my": "ကုမ္ပဏီ၏ ဝန်ထမ်းအပြောင်းအရွှေ့အရ လာမည့်လမှစတင်၍ အိုဆာကာရုံးခွဲသို့ ပြောင်းရွှေ့တာဝန်ထမ်းဆောင်ရမည် ဖြစ်သွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l17.v003"
+      ],
+      "grammarIds": [
+        "n4.l17.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.s004",
+      "lessonId": "n4.l17",
+      "ja": "就寝前の習慣として、寝る前に必ず本を三十ページ読むことにしています。",
+      "kana": "しゅうしんまえのしゅうかんとして、ねるまえにかならずほんをさんじゅっページよむことにしています。",
+      "translation": {
+        "en": "As a pre-bedtime habit, I make it a rule to read thirty pages of a book before sleeping.",
+        "my": "အိပ်ရာမဝင်မီ အလေ့အထတစ်ခုအနေဖြင့် အိပ်ခါနီးတွင် စာအုပ်စာမျက်နှာ ၃၀ အမြဲဖတ်ရန် စည်းကမ်းထားရှိသည်။"
+      },
+      "vocabIds": [
+        "n4.l17.v004"
+      ],
+      "grammarIds": [
+        "n4.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.s005",
+      "lessonId": "n4.l17",
+      "ja": "日本の法律では、二十歳未満はお酒を飲んではいけないことになっています。",
+      "kana": "にほんのほうりつでは、はたちみまんはおさけをのんではいけないことになっています。",
+      "translation": {
+        "en": "Under Japanese law, it is established that persons under 20 must not drink alcohol.",
+        "my": "ဂျပန်နိုင်ငံ ဥပဒေအရ အသက် ၂၀ မပြည့်သေးသူများ အရက်မသောက်ရဟု သတ်မှတ်ထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l17.v005"
+      ],
+      "grammarIds": [
+        "n4.l17.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.s006",
+      "lessonId": "n4.l17",
+      "ja": "医者から注意されたので、今日からきっぱり禁煙することにしました。",
+      "kana": "いしゃからちゅういされたので、きょうからきっぱりきんえんすることにしました။",
+      "translation": {
+        "en": "Because the doctor cautioned me, I decided to quit smoking completely starting today.",
+        "my": "ဆရာဝန်က သတိပေးသောကြောင့် ယနေ့မှစ၍ ဆေးလိပ်ကို လုံးဝဖြတ်ရန် ဆုံးဖြတ်လိုက်သည်။"
+      },
+      "vocabIds": [
+        "n4.l17.v006"
+      ],
+      "grammarIds": [
+        "n4.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.s007",
+      "lessonId": "n4.l17",
+      "ja": "将来のために、大学を卒業したら日本へ留学することにしました。",
+      "kana": "しょうらいのために、だいがくをそつぎょうしたらにほんへりゅうがくすることにしました。",
+      "translation": {
+        "en": "For my future, I decided to study abroad in Japan once I graduate from university.",
+        "my": "အနာဂတ်အတွက် တက္ကသိုလ်ဘွဲ့ရပြီးပါက ဂျပန်နိုင်ငံသို့ ပညာတော်သင်သွားရန် ဆုံးဖြတ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l17.v007"
+      ],
+      "grammarIds": [
+        "n4.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.s008",
+      "lessonId": "n4.l17",
+      "ja": "進路について悩んだ末、両親と先生によく相談することにしました。",
+      "kana": "しんろについてなやんだすえ、りょうしんとせんせいによくだんすることにしました。",
+      "translation": {
+        "en": "After worrying about my future path, I decided to consult thoroughly with my parents and teacher.",
+        "my": "ရှေ့ဆက်ရမည့်လမ်းနှင့်ပတ်သက်၍ စဉ်းစားရခက်ပြီးနောက် မိဘများနှင့် ဆရာထံ သေချာတိုင်ပင်ဆွေးနွေးရန် ဆုံးဖြတ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l17.v008"
+      ],
+      "grammarIds": [
+        "n4.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.s009",
+      "lessonId": "n4.l17",
+      "ja": "この会社では、毎月二十五日に給料が銀行口座に振り込まれることになっています。",
+      "kana": "このかいしゃでは、まいつきにじゅうごにちにきゅうりょうがぎんこうこうざにふりこまれることになっています。",
+      "translation": {
+        "en": "At this company, it is standard that salary is deposited into bank accounts on the 25th of every month.",
+        "my": "ဤကုမ္ပဏီတွင် လစဉ် ၂၅ ရက်နေ့၌ လစာကို ဘဏ်အကောင့်ထဲသို့ လွှဲပြောင်းပေးရန် သတ်မှတ်ထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l17.v009"
+      ],
+      "grammarIds": [
+        "n4.l17.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.s010",
+      "lessonId": "n4.l17",
+      "ja": "ビザの延長許可が出たので、あと一年日本に滞在できることになりました。",
+      "kana": "ビザのえんちょうきょかが出たので、あといちねんにほんにたいざいできることになりました。",
+      "translation": {
+        "en": "Since the visa extension permission was granted, it turned out that I can stay in Japan for one more year.",
+        "my": "ဗီဇာသက်တမ်းတိုးခွင့် ရရှိခဲ့သောကြောင့် ဂျပန်နိုင်ငံတွင် နောက်ထပ်တစ်နှစ် ဆက်လက်နေထိုင်နိုင်မည် ဖြစ်သွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l17.v010"
+      ],
+      "grammarIds": [
+        "n4.l17.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.s011",
+      "lessonId": "n4.l17",
+      "ja": "会社の新方針により、全社員が週に二日リモートワークをすることになりました。",
+      "kana": "かいしゃのしんほうしんにより、ぜんしゃいんがしゅうにふつかリモートワークをすることになりました。",
+      "translation": {
+        "en": "According to the company's new policy, it has been decided that all employees will work remotely two days a week.",
+        "my": "ကုမ္ပဏီ၏ မူဝါဒအသစ်အရ ဝန်ထမ်းအားလုံး တစ်ပတ်လျှင် နှစ်ရက် အဝေးမှ အလုပ်လုပ်ကြရန် ဆုံးဖြတ်ချက်ချမှတ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l17.v011"
+      ],
+      "grammarIds": [
+        "n4.l17.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l17.s012",
+      "lessonId": "n4.l17",
+      "ja": "将来自分の店を開くために、毎月給料の二割を貯金することにしています。",
+      "kana": "しょうらいじぶんのみせをひらくために、まいつききゅうりょうのにわりをちょきんすることにしています。",
+      "translation": {
+        "en": "In order to open my own shop in the future, I make it a rule to save 20% of my salary every month.",
+        "my": "အနာဂတ်တွင် ကိုယ်ပိုင်ဆိုင်ဖွင့်ရန်အတွက် လစဉ် လစာ၏ ၂၀ ရာခိုင်နှုန်းကို စုဆောင်းရန် စည်းကမ်းထားရှိသည်။"
+      },
+      "vocabIds": [
+        "n4.l17.v012"
+      ],
+      "grammarIds": [
+        "n4.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l17.r01",
+    "lessonId": "n4.l17",
+    "title": "新天地での生活と健康への誓い",
+    "level": "N4",
+    "text": "先月、勤めている会社から辞令を受け、十月から福岡支社へ転勤することになりました。入社以来五年間東京で暮らしてきた私にとって、住み慣れた街を離れるのは少し寂しいですが、新しい環境で挑戦できる良い機会だと前向きに捉えています。\n\n福岡での新生活を始めるにあたり、私は生活習慣を根本から見直すことにしました。東京にいた頃は、残業が続くと夜遅くに脂っこい夜食を食べたり、運動不足になったりして健康を崩しがちでした。\n\nそこで、福岡では「毎朝六時に起きて近所の海岸を三十分走ること」と「平日の夕食は自分で野菜中心の自炊をすること」に決めました。また、エレベーターを使わずに会社の階段を使うことにしています。\n\n会社では、毎週水曜日が「ノー残業デー」と決まっており、全員が午後六時までに退社することになっています。自分の時間をしっかり確保して、仕事も健康も両立させながら充実した毎日を送りたいと考えています。",
+    "kanaText": "せんげつ、つとめているかいしゃからじれいをうけ、じゅうがつからふくおかししゃへてんきんすることになりました。にゅうしゃいらいごねんかんとうきょうでくらしてきたわたしにとって、すみなれたまちをはなれるのはすこしさびしいですが、あたらしいかんきょうでちょうせんできるよいきかいだとまえむきにとらえています。\n\nふくおかでのしんせいかつをはじめるにあたり、わたしはせいかつしゅうかんをこんぽんからみなおすことにしました。とうきょうにいたころは、ざんぎょうがつづくとよるおそくにあぶらっこいやしょくをたべたり、うんどうぶそくになったりしてけんこうをくずしがちでした。\n\nそこで、ふくおかでは「まいあさろくじにおきてきんじょのかいがんをさんじゅっぷんはしること」と「へいじつのゆうしょくはじぶんでやさいちゅうしんのじすいをすること」にきめました。また、エレベーターをつかわずにかいしゃのかいだんをつかうことにしています。\n\nかいしゃでは、まいしゅうすいようびが「ノーざんぎょうデー」ときまっており、ぜんいんがごごろくじまでにたいしゃすることになっています。じぶんのじかんをしっかりかくほして、しごともけんこうもりょうりつさせながらじゅうじつしたまいにちをおくりたいとかんがえています。",
+    "translation": "Last month, receiving an official order from my company, it was decided that I will transfer to the Fukuoka branch starting in October. For me, having lived in Tokyo for five years since joining the company, leaving a familiar city is a bit lonely, but I view it positively as a great opportunity to take on new challenges in a fresh environment.\n\nUpon starting my new life in Fukuoka, I decided to fundamentally re-examine my lifestyle habits. Back when I was in Tokyo, when overtime continued, I tended to ruin my health by eating greasy midnight snacks late at night and lacking exercise.\n\nTherefore, in Fukuoka I decided to \"wake up at 6:00 every morning and run along the nearby coast for 30 minutes\" and \"cook my own vegetable-focused meals on weekday evenings.\" Furthermore, I make it a rule to use the company stairs without riding the elevator.\n\nAt the company, every Wednesday is designated as \"No Overtime Day,\" and everyone is scheduled to leave the office by 6:00 PM. Securing my personal time well, I intend to live fulfilling days balancing both work and health.",
+    "questionIds": [
+      "n4.l17.q021",
+      "n4.l17.q022",
+      "n4.l17.q023",
+      "n4.l17.q024",
+      "n4.l17.q025"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l17.l01",
+    "lessonId": "n4.l17",
+    "title": "社内転勤と新しいオフィスの規則",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "小川",
+      "高橋"
+    ],
+    "transcript": "小川：高橋さん、聞いたよ！来月から名古屋支社へ異動することになったんだって？\n高橋：ええ、そうなんです。急な辞令で驚きましたが、名古屋で新しいチームのリーダーを務めることになりました。\n小川：すごいじゃない！おめでとう。名古屋での住まいはもう決めたの？\n高橋：会社が指定した社宅に入ることにしました。駅から歩いて五分なので便利そうです。\n小川：いいね。そういえば、名古屋支社は服装の規則が東京より自由で、毎日私服で勤務していいことになっているらしいよ。\n高橋：へえ、そうなんですか！スーツを着なくてもいいのは楽ですね。健康のために、名古屋では自転車通勤をすることにしようと思っています。\n小川：新天地での生活、楽しそうだね。応援しているよ！",
+    "translation": "Ogawa: Takahashi-san, I heard! Is it true that it was decided you will transfer to the Nagoya branch from next month?\nTakahashi: Yes, that's right. I was surprised by the sudden personnel order, but it turned out that I will serve as leader of a new team in Nagoya.\nOgawa: That's great! Congratulations. Have you already decided on a place to live in Nagoya?\nTakahashi: I decided to move into company housing designated by the firm. It's a 5-minute walk from the station, so it looks convenient.\nOgawa: Nice. Come to think of it, I hear the Nagoya branch has more relaxed clothing rules than Tokyo, and it is established that you can work in casual clothes every day.\nTakahashi: Oh, really! Not having to wear a suit is so comfortable. For my health, I'm thinking of deciding to commute by bicycle in Nagoya.\nOgawa: Life in your new place sounds fun. I'm cheering for you!",
+    "turns": [
+      {
+        "speaker": "小川",
+        "ja": "高橋さん、聞いたよ！来月から名古屋支社へ異動することになったんだって？",
+        "kana": "高橋さん、聞いたよ！来月から名古屋支社へ異動することになったんだって？",
+        "en": ""
+      },
+      {
+        "speaker": "高橋",
+        "ja": "ええ、そうなんです。急な辞令で驚きましたが、名古屋で新しいチームのリーダーを務めることになりました。",
+        "kana": "ええ、そうなんです。急な辞令で驚きましたが、名古屋で新しいチームのリーダーを務めることになりました。",
+        "en": ""
+      },
+      {
+        "speaker": "小川",
+        "ja": "すごいじゃない！おめでとう。名古屋での住まいはもう決めたの？",
+        "kana": "すごいじゃない！おめでとう。名古屋での住まいはもう決めたの？",
+        "en": ""
+      },
+      {
+        "speaker": "高橋",
+        "ja": "会社が指定した社宅に入ることにしました。駅から歩いて五分なので便利そうです。",
+        "kana": "会社が指定した社宅に入ることにしました。駅から歩いて五分なので便利そうです。",
+        "en": ""
+      },
+      {
+        "speaker": "小川",
+        "ja": "いいね。そういえば、名古屋支社は服装の規則が東京より自由で、毎日私服で勤務していいことになっているらしいよ。",
+        "kana": "いいね。そういえば、名古屋支社は服装の規則が東京より自由で、毎日私服で勤務していいことになっているらしいよ。",
+        "en": ""
+      },
+      {
+        "speaker": "高橋",
+        "ja": "へえ、そうなんですか！スーツを着なくてもいいのは楽ですね。健康のために、名古屋では自転車通勤をすることにしようと思っています。",
+        "kana": "へえ、そうなんですか！スーツを着なくてもいいのは楽ですね。健康のために、名古屋では自転車通勤をすることにしようと思っています。",
+        "en": ""
+      },
+      {
+        "speaker": "小川",
+        "ja": "新天地での生活、楽しそうだね。応援しているよ！",
+        "kana": "新天地での生活、楽しそうだね。応援しているよ！",
+        "en": ""
+      }
+    ],
+    "questionIds": [
+      "n4.l17.q026",
+      "n4.l17.q027",
+      "n4.l17.q028",
+      "n4.l17.q029",
+      "n4.l17.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l17.q001",
+      "lessonId": "n4.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "旅行の行き先を家族と話し合って（　　）。",
+      "choices": [
+        "決めた",
+        "転勤した",
+        "習慣にした",
+        "給料をもらった"
+      ],
+      "answer": "決めた",
+      "acceptedAnswers": [
+        "決めた"
+      ],
+      "explanation": "決める (きめる) means to decide.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q002",
+      "lessonId": "n4.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "毎日の食事と適度な運動は、（　　）を維持するために欠かせない。",
+      "choices": [
+        "健康",
+        "法律",
+        "給料",
+        "転勤"
+      ],
+      "answer": "健康",
+      "acceptedAnswers": [
+        "健康"
+      ],
+      "explanation": "健康 (けんこう) means health.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q003",
+      "lessonId": "n4.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "来年の春、北海道の支店へ（　　）を命じられた。",
+      "choices": [
+        "転勤",
+        "留学",
+        "習慣",
+        "禁煙"
+      ],
+      "answer": "転勤",
+      "acceptedAnswers": [
+        "転勤"
+      ],
+      "explanation": "転勤 (てんきん) means job relocation to another branch.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q004",
+      "lessonId": "n4.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "朝起きたらまず一杯の水を飲むのが私の毎日の（　　）です。",
+      "choices": [
+        "習慣",
+        "法律",
+        "許可",
+        "方針"
+      ],
+      "answer": "習慣",
+      "acceptedAnswers": [
+        "習慣"
+      ],
+      "explanation": "習慣 (しゅうかん) means habit / daily routine.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q005",
+      "lessonId": "n4.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "国民は国が定めた（　　）を守らなければならない。",
+      "choices": [
+        "法律",
+        "給料",
+        "貯金",
+        "相談"
+      ],
+      "answer": "法律",
+      "acceptedAnswers": [
+        "法律"
+      ],
+      "explanation": "法律 (ほうりつ) means law.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q006",
+      "lessonId": "n4.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "このビル内はすべて（　　）ですので、タバコはご遠慮ください。",
+      "choices": [
+        "禁煙",
+        "健康",
+        "許可",
+        "習慣"
+      ],
+      "answer": "禁煙",
+      "acceptedAnswers": [
+        "禁煙"
+      ],
+      "explanation": "禁煙 (きんえん) means no smoking.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q007",
+      "lessonId": "n4.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "英語力を高めるため、来年からカナダへ（　　）する予定です。",
+      "choices": [
+        "留学",
+        "転勤",
+        "貯金",
+        "禁煙"
+      ],
+      "answer": "留学",
+      "acceptedAnswers": [
+        "留学"
+      ],
+      "explanation": "留学する (りゅうがくする) means to study abroad.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q008",
+      "lessonId": "n4.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "一人で悩まないで、先輩に（　　）してみたらどうですか。",
+      "choices": [
+        "相談",
+        "転勤",
+        "給料",
+        "方針"
+      ],
+      "answer": "相談",
+      "acceptedAnswers": [
+        "相談"
+      ],
+      "explanation": "相談する (そうだんする) means to consult / seek advice.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q009",
+      "lessonId": "n4.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "初めてのアルバイトの（　　）で、両親にプレゼントを買った。",
+      "choices": [
+        "給料",
+        "法律",
+        "習慣",
+        "方針"
+      ],
+      "answer": "給料",
+      "acceptedAnswers": [
+        "給料"
+      ],
+      "explanation": "給料 (きゅうりょう) means salary / wage.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q010",
+      "lessonId": "n4.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "家を買う頭金にするため、毎月コツコツと（　　）している。",
+      "choices": [
+        "貯金",
+        "転勤",
+        "禁煙",
+        "法律"
+      ],
+      "answer": "貯金",
+      "acceptedAnswers": [
+        "貯金"
+      ],
+      "explanation": "貯金する (ちょきんする) means to save money.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q011",
+      "lessonId": "n4.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「決める」の「決」の訓読みはどれですか。",
+      "choices": [
+        "き・める",
+        "ころ・がる",
+        "すこ・やか",
+        "ま・いる"
+      ],
+      "answer": "き・める",
+      "acceptedAnswers": [
+        "き・める"
+      ],
+      "explanation": "決める is read as きめる.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q012",
+      "lessonId": "n4.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "毎日の【けんこう】管理に気をつけている。漢字表記はどれですか。",
+      "choices": [
+        "健康",
+        "健交",
+        "建康",
+        "健幸"
+      ],
+      "answer": "健康",
+      "acceptedAnswers": [
+        "健康"
+      ],
+      "explanation": "けんこう is written 健康.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.k002",
+        "n4.l17.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q013",
+      "lessonId": "n4.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「転勤」の「転」の音読みはどれですか。",
+      "choices": [
+        "テン",
+        "デン",
+        "ケツ",
+        "ケン"
+      ],
+      "answer": "テン",
+      "acceptedAnswers": [
+        "テン"
+      ],
+      "explanation": "転 is read as テン (転勤 = てんきん, 運転 = うんてん).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q014",
+      "lessonId": "n4.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「決定」の「決」の音読みはどれですか。",
+      "choices": [
+        "ケツ",
+        "テン",
+        "コウ",
+        "カン"
+      ],
+      "answer": "ケツ",
+      "acceptedAnswers": [
+        "ケツ"
+      ],
+      "explanation": "The onyomi of 決 is ケツ (決定 = けってい).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q015",
+      "lessonId": "n4.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "道でつまずいて【ころんだ】。漢字表記はどれですか。",
+      "choices": [
+        "転んだ",
+        "決んだ",
+        "健んだ",
+        "康んだ"
+      ],
+      "answer": "転んだ",
+      "acceptedAnswers": [
+        "転んだ"
+      ],
+      "explanation": "ころんだ (tumbled/fell) is written 転んだ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q016",
+      "lessonId": "n4.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "健康のために、毎朝野菜ジュースを（　　）。",
+      "choices": [
+        "飲むことにしている",
+        "飲むことになっている",
+        "飲むことにさせられた",
+        "飲んだはずだ"
+      ],
+      "answer": "飲むことにしている",
+      "acceptedAnswers": [
+        "飲むことにしている"
+      ],
+      "explanation": "〜ことにしている expresses a self-imposed personal habit / routine.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q017",
+      "lessonId": "n4.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "会社の命令により、来月から神戸支店へ転勤する（　　）。",
+      "choices": [
+        "ことになりました",
+        "ことにしました",
+        "はずでした",
+        "つもりでした"
+      ],
+      "answer": "ことになりました",
+      "acceptedAnswers": [
+        "ことになりました"
+      ],
+      "explanation": "External decision/order from company: 〜ことになりました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q018",
+      "lessonId": "n4.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "この図書館では、本を一度に五冊まで借りられる（　　）。",
+      "choices": [
+        "ことになっている",
+        "ことにしている",
+        "ことにした",
+        "ことかもしれない"
+      ],
+      "answer": "ことになっている",
+      "acceptedAnswers": [
+        "ことになっている"
+      ],
+      "explanation": "Institutional rule/regulation: 〜ことになっている (it is an established rule).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q019",
+      "lessonId": "n4.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "悩んだ結果、今年の夏休みはどこへも（　　）ことにしました。",
+      "choices": [
+        "行かない",
+        "行きます",
+        "行った",
+        "行こう"
+      ],
+      "answer": "行かない",
+      "acceptedAnswers": [
+        "行かない"
+      ],
+      "explanation": "Negative personal decision: ない form + ことにする: 行かないことにしました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q020",
+      "lessonId": "n4.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ことにする」と「〜ことになる」の違いとして正しい説明はどれですか。",
+      "choices": [
+        "「ことにする」は自分の意志による決定、「ことになる」は周囲や組織による決定",
+        "「ことにする」は過去の出来事、「ことになる」は未来の出来事",
+        "「ことにする」は敬語、「ことになる」は普通語",
+        "「ことにする」は不可能、「ことになる」は可能"
+      ],
+      "answer": "「ことにする」は自分の意志による決定、「ことになる」は周囲や組織による決定",
+      "acceptedAnswers": [
+        "「ことにする」は自分の意志による決定、「ことになる」は周囲や組織による決定"
+      ],
+      "explanation": "ことにする denotes personal volitional choice; ことになる denotes decision by circumstance or outside authority.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.g001",
+        "n4.l17.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q021",
+      "lessonId": "n4.l17",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者が福岡へ転勤することになったきっかけは何ですか。",
+      "choices": [
+        "会社から辞令を受けたから",
+        "自分で福岡の会社に転職したから",
+        "東京の物価が高すぎて住めなくなったから",
+        "家族が福岡に住んでいるから"
+      ],
+      "answer": "会社から辞令を受けたから",
+      "acceptedAnswers": [
+        "会社から辞令を受けたから"
+      ],
+      "explanation": "Text: 勤めている会社から辞令を受け、十月から福岡支社へ転勤することになりました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q022",
+      "lessonId": "n4.l17",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "東京にいた頃、筆者は健康面でどのような問題を抱えていましたか。",
+      "choices": [
+        "残業続きで遅くに脂っこい夜食を食べ、運動不足だった",
+        "毎朝走る距離が長すぎて怪我をしていた",
+        "エレベーターに閉じ込められて体調を崩した",
+        "毎日自炊ばかりして栄養が偏っていた"
+      ],
+      "answer": "残業続きで遅くに脂っこい夜食を食べ、運動不足だった",
+      "acceptedAnswers": [
+        "残業続きで遅くに脂っこい夜食を食べ、運動不足だった"
+      ],
+      "explanation": "Text: 残業が続くと夜遅くに脂っこい夜食を食べたり、運動不足になったりして健康を崩しがちでした.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q023",
+      "lessonId": "n4.l17",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者が福岡で新しく始めた運動習慣は何ですか。",
+      "choices": [
+        "毎朝六時に起きて海岸を三十分走ること",
+        "週に三回スポーツジムに通うこと",
+        "毎晩水泳をすること",
+        "テニスクラブに入ること"
+      ],
+      "answer": "毎朝六時に起きて海岸を三十分走ること",
+      "acceptedAnswers": [
+        "毎朝六時に起きて海岸を三十分走ること"
+      ],
+      "explanation": "Text: 毎朝六時に起きて近所の海岸を三十分走ること...に決めました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q024",
+      "lessonId": "n4.l17",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "会社の「ノー残業デー」について、どのような決まりになっていますか。",
+      "choices": [
+        "毎週水曜日は全員が午後六時までに退社することになっている",
+        "金曜日は全員が午後三時に帰っていいことになっている",
+        "残業した人には手当が出ないことになっている",
+        "水曜日は会社に来なくてもいいことになっている"
+      ],
+      "answer": "毎週水曜日は全員が午後六時までに退社することになっている",
+      "acceptedAnswers": [
+        "毎週水曜日は全員が午後六時までに退社することになっている"
+      ],
+      "explanation": "Text: 毎週水曜日が「ノー残業デー」と決まっており、全員が午後六時までに退社することになっています.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q025",
+      "lessonId": "n4.l17",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者の新生活に対する姿勢として最もふさわしいものはどれですか。",
+      "choices": [
+        "新しい環境を好機と捉え、仕事と健康を両立させようと前向きである",
+        "東京を離れることが辛くて毎日落ち込んでいる",
+        "福岡の仕事が厳しそうなので早く東京に戻りたいと思っている",
+        "健康管理は諦めて仕事だけに集中しようとしている"
+      ],
+      "answer": "新しい環境を好機と捉え、仕事と健康を両立させようと前向きである",
+      "acceptedAnswers": [
+        "新しい環境を好機と捉え、仕事と健康を両立させようと前向きである"
+      ],
+      "explanation": "Text concludes: 仕事も健康も両立させながら充実した毎日を送りたいと考えています.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q026",
+      "lessonId": "n4.l17",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "高橋さんは来月からどこで何をすることになりましたか。",
+      "choices": [
+        "名古屋支社で新しいチームのリーダーを務めることになった",
+        "大阪支社で営業担当になることになった",
+        "本社で部長に昇進することになった",
+        "海外支社へ留学することになった"
+      ],
+      "answer": "名古屋支社で新しいチームのリーダーを務めることになった",
+      "acceptedAnswers": [
+        "名古屋支社で新しいチームのリーダーを務めることになった"
+      ],
+      "explanation": "Takahashi says: 名古屋で新しいチームのリーダーを務めることになりました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q027",
+      "lessonId": "n4.l17",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "高橋さんの名古屋での住まいはどうすることにしましたか。",
+      "choices": [
+        "会社が指定した社宅に入ることにした",
+        "自分で新築のアパートを買うことにした",
+        "友人の家に居候することにした",
+        "ホテルに長期滞在することにした"
+      ],
+      "answer": "会社が指定した社宅に入ることにした",
+      "acceptedAnswers": [
+        "会社が指定した社宅に入ることにした"
+      ],
+      "explanation": "Takahashi explains: 会社が指定した社宅に入ることにしました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q028",
+      "lessonId": "n4.l17",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "名古屋支社の服装規則について、小川さんは何と言っていましたか。",
+      "choices": [
+        "毎日私服で勤務していいことになっている",
+        "必ず黒いスーツを着用することになっている",
+        "制服が新しく配られることになっている",
+        "金曜日だけ私服を着ていいことになっている"
+      ],
+      "answer": "毎日私服で勤務していいことになっている",
+      "acceptedAnswers": [
+        "毎日私服で勤務していいことになっている"
+      ],
+      "explanation": "Ogawa says: 毎日私服で勤務していいことになっているらしいよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q029",
+      "lessonId": "n4.l17",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "高橋さんは健康のために名古屋で何をしようと思っていますか。",
+      "choices": [
+        "自転車通勤をすること",
+        "毎日ジムで泳ぐこと",
+        "お弁当を毎日作ること",
+        "朝五時に起きること"
+      ],
+      "answer": "自転車通勤をすること",
+      "acceptedAnswers": [
+        "自転車通勤をすること"
+      ],
+      "explanation": "Takahashi says: 健康のために、名古屋では自転車通勤をすることにしようと思っています.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l17.q030",
+      "lessonId": "n4.l17",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "小川さんは高橋さんの異動に対してどう接していますか。",
+      "choices": [
+        "温かく祝福し、応援している",
+        "寂しがって転勤をやめさせようとしている",
+        "名古屋の悪口を言って怖がらせている",
+        "業務の引き継ぎを拒否している"
+      ],
+      "answer": "温かく祝福し、応援している",
+      "acceptedAnswers": [
+        "温かく祝福し、応援している"
+      ],
+      "explanation": "Ogawa cheerfully encourages him: 「すごいじゃない！おめでとう」「応援しているよ！」.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l17.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

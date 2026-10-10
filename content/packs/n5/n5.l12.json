@@ -1,0 +1,1564 @@
+{
+  "id": "n5.l12",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 12,
+  "title": "Past Tense of Adjectives and Verbs",
+  "description": "Learn regular and irregular past tense forms for verbs (〜ました / 〜ませんでした), i-adjectives (〜かったです / 〜くなかったです), and na-adjectives/nouns (〜でした / 〜ではありませんでした).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l12.v001",
+      "lessonId": "n5.l12",
+      "ja": "昨日",
+      "kana": "きのう",
+      "en": "Yesterday",
+      "my": "မနေ့က",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l12.s001",
+      "kanjiIds": [
+        "n5.l12.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.v002",
+      "lessonId": "n5.l12",
+      "ja": "おととい",
+      "kana": "おととい",
+      "en": "Day before yesterday",
+      "my": "တမြန်နေ့က",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l12.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.v003",
+      "lessonId": "n5.l12",
+      "ja": "先週",
+      "kana": "せんしゅう",
+      "en": "Last week",
+      "my": "ပြီးခဲ့သည့်အပတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l12.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.v004",
+      "lessonId": "n5.l12",
+      "ja": "去年",
+      "kana": "きょねん",
+      "en": "Last year",
+      "my": "မနှစ်က",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l12.s004",
+      "kanjiIds": [
+        "n5.l12.k003"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.v005",
+      "lessonId": "n5.l12",
+      "ja": "暑い",
+      "kana": "あつい",
+      "en": "Hot (weather)",
+      "my": "ပူသော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l12.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.v006",
+      "lessonId": "n5.l12",
+      "ja": "寒い",
+      "kana": "さむい",
+      "en": "Cold (weather)",
+      "my": "အေးသော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l12.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.v007",
+      "lessonId": "n5.l12",
+      "ja": "暇",
+      "kana": "ひま",
+      "en": "Free time / Idle",
+      "my": "အားလပ်သော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n5.l12.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.v008",
+      "lessonId": "n5.l12",
+      "ja": "雨",
+      "kana": "あめ",
+      "en": "Rain",
+      "my": "မိုး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l12.s005",
+      "kanjiIds": [
+        "n5.l12.k004"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.v009",
+      "lessonId": "n5.l12",
+      "ja": "雪",
+      "kana": "ゆき",
+      "en": "Snow",
+      "my": "နှင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l12.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.v010",
+      "lessonId": "n5.l12",
+      "ja": "天気",
+      "kana": "てんき",
+      "en": "Weather",
+      "my": "ရာသီဥတု",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l12.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.v011",
+      "lessonId": "n5.l12",
+      "ja": "祭",
+      "kana": "まつり",
+      "en": "Festival",
+      "my": "ပွဲတော်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l12.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.v012",
+      "lessonId": "n5.l12",
+      "ja": "楽しい",
+      "kana": "たのしい",
+      "en": "Enjoyable / Fun",
+      "my": "ပျော်စရာကောင်းသော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l12.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l12.k001",
+      "lessonId": "n5.l12",
+      "char": "昨",
+      "meaning": "Previous, yesterday",
+      "onyomi": [
+        "サク"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "昨日 (きのう)",
+          "reading": "きのう",
+          "meaning": "Yesterday",
+          "preview": false
+        },
+        {
+          "word": "昨年 (さくねん)",
+          "reading": "さくねん",
+          "meaning": "Last year",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l12.s001"
+      ],
+      "components": [
+        "昨"
+      ],
+      "strokes": 9,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.k002",
+      "lessonId": "n5.l12",
+      "char": "今",
+      "meaning": "Now, present",
+      "onyomi": [
+        "コン",
+        "キン"
+      ],
+      "kunyomi": [
+        "いま"
+      ],
+      "exampleVocab": [
+        {
+          "word": "今週 (こんしゅう)",
+          "reading": "こんしゅう",
+          "meaning": "This week",
+          "preview": false
+        },
+        {
+          "word": "今年 (ことし)",
+          "reading": "ことし",
+          "meaning": "This year",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l12.s002"
+      ],
+      "components": [
+        "今"
+      ],
+      "strokes": 4,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.k003",
+      "lessonId": "n5.l12",
+      "char": "年",
+      "meaning": "Year, counter for years",
+      "onyomi": [
+        "ネン"
+      ],
+      "kunyomi": [
+        "とし"
+      ],
+      "exampleVocab": [
+        {
+          "word": "去年 (きょねん)",
+          "reading": "きょねん",
+          "meaning": "Last year",
+          "preview": false
+        },
+        {
+          "word": "一年 (いちねん)",
+          "reading": "いちねん",
+          "meaning": "One year",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l12.s003"
+      ],
+      "components": [
+        "年"
+      ],
+      "strokes": 6,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.k004",
+      "lessonId": "n5.l12",
+      "char": "雨",
+      "meaning": "Rain",
+      "onyomi": [
+        "ウ"
+      ],
+      "kunyomi": [
+        "あめ",
+        "あま-"
+      ],
+      "exampleVocab": [
+        {
+          "word": "雨 (あめ)",
+          "reading": "あめ",
+          "meaning": "Rain",
+          "preview": false
+        },
+        {
+          "word": "大雨 (おおあめ)",
+          "reading": "おおあめ",
+          "meaning": "Heavy rain",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l12.s004"
+      ],
+      "components": [
+        "雨"
+      ],
+      "strokes": 8,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l12.g001",
+      "lessonId": "n5.l12",
+      "pattern": "[い-Adj] かったです / 〜くなかったです",
+      "meaning": "Was [Adjective] / Was not [Adjective] (Past)",
+      "formation": "Past affirmative: drop い + かったです | Past negative: drop い + くなかったです",
+      "explanation": {
+        "en": "Conjugates i-adjectives into the past tense: 暑い -> 暑かったです (was hot); 寒くない -> 寒くなかったです (was not cold). Irregular: いい -> よかったです / よくなかったです.",
+        "my": "い-နာမဝိသေသန အတိတ်ကာလတွင် နောက်ဆုံး 「い」 ကို ဖြုတ်ပြီး 「かったです」 သို့မဟုတ် 「くなかったです」 ပေါင်းထည့်ရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l12.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l12.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Never say *暑いでした. i-adjectives conjugate internally into かったです."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.g002",
+      "lessonId": "n5.l12",
+      "pattern": "[Noun / な-Adj] でした / 〜ではありませんでした",
+      "meaning": "Was [Noun/Na-Adj] / Was not [Noun/Na-Adj]",
+      "formation": "Noun / な-Adj root + でした / ではありませんでした",
+      "explanation": {
+        "en": "Nouns and na-adjectives use でした for past affirmative and ではありませんでした (or じゃありませんでした) for past negative.",
+        "my": "နာမ်နှင့် な-နာမဝိသေသန အတိတ်ကာလတွင် 「でした」 နှင့် 「ではありませんでした」 သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l12.s003",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l12.s005",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do NOT add かったです to na-adjectives (e.g. *静かかったです is WRONG; use 静かでした)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l12.s001",
+      "lessonId": "n5.l12",
+      "ja": "昨日は天気がとてもよかったです。",
+      "kana": "きのうはてんきがとてもよかったです。",
+      "translation": {
+        "en": "The weather was very good yesterday.",
+        "my": "မနေ့က ရာသီဥတု အရမ်းကောင်းခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l12.v001",
+        "n5.l12.v010"
+      ],
+      "grammarIds": [
+        "n5.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.s002",
+      "lessonId": "n5.l12",
+      "ja": "北海道の冬はとても寒かったです。",
+      "kana": "ほっかいどうのふゆはとてもさむかったです。",
+      "translation": {
+        "en": "Winter in Hokkaido was very cold.",
+        "my": "ဟော့ကိုင်းဒိုးရဲ့ ဆောင်းရာသီက အရမ်းအေးခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l12.v006"
+      ],
+      "grammarIds": [
+        "n5.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.s003",
+      "lessonId": "n5.l12",
+      "ja": "京都のお祭りはとてもにぎやかでした。",
+      "kana": "きょうとおまつりはとてもにぎやかでした。",
+      "translation": {
+        "en": "The festival in Kyoto was very lively.",
+        "my": "ကျိုတိုပွဲတော်က အရမ်းစည်ကားခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l12.v011"
+      ],
+      "grammarIds": [
+        "n5.l12.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.s004",
+      "lessonId": "n5.l12",
+      "ja": "先週の試験はあまり難しくなかったです。",
+      "kana": "せんしゅうのしけんはあまりむずかしくなかったです。",
+      "translation": {
+        "en": "Last week's examination was not very difficult.",
+        "my": "ပြီးခဲ့သည့်အပတ် စာမေးပွဲက သိပ်မခက်ခဲ့ပါဘူး။"
+      },
+      "vocabIds": [
+        "n5.l12.v003"
+      ],
+      "grammarIds": [
+        "n5.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.s005",
+      "lessonId": "n5.l12",
+      "ja": "昨日の午後は雨でした。暇ではありませんでした。",
+      "kana": "きのうのごごはあめでした。ひまではありませんでした。",
+      "translation": {
+        "en": "Yesterday afternoon was rainy. I was not free.",
+        "my": "မနေ့က မွန်းလွဲပိုင်းက မိုးရွာခဲ့ပါတယ်။ အားမနေခဲ့ပါဘူး။"
+      },
+      "vocabIds": [
+        "n5.l12.v007",
+        "n5.l12.v008"
+      ],
+      "grammarIds": [
+        "n5.l12.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.s006",
+      "lessonId": "n5.l12",
+      "ja": "おとといの旅行はとても楽しかったです。",
+      "kana": "おとといのりょこうはとてもたのしかったです。",
+      "translation": {
+        "en": "The trip the day before yesterday was very fun.",
+        "my": "တမြန်နေ့က ခရီးစဉ်က အရမ်းပျော်စရာကောင်းခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l12.v002",
+        "n5.l12.v012"
+      ],
+      "grammarIds": [
+        "n5.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.s007",
+      "lessonId": "n5.l12",
+      "ja": "これは去年です。",
+      "kana": "これはきょねんです。",
+      "translation": {
+        "en": "This is a last year.",
+        "my": "ဒါဟာ မနှစ်က ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l12.v004"
+      ],
+      "grammarIds": [
+        "n5.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.s008",
+      "lessonId": "n5.l12",
+      "ja": "とても暑いです。",
+      "kana": "とてもあついです。",
+      "translation": {
+        "en": "It is very hot (weather).",
+        "my": "အရမ်း ပူသော ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l12.v005"
+      ],
+      "grammarIds": [
+        "n5.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l12.s009",
+      "lessonId": "n5.l12",
+      "ja": "これは雪です。",
+      "kana": "これはゆきです。",
+      "translation": {
+        "en": "This is a snow.",
+        "my": "ဒါဟာ နှင်း ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l12.v009"
+      ],
+      "grammarIds": [
+        "n5.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l12.r01",
+    "lessonId": "n5.l12",
+    "title": "Past Tense of Adjectives and Verbs - 読解",
+    "level": "N5",
+    "text": "昨日は祝日でしたから、学校の休みでした。朝はいい天気でしたが、午後から冷たい雨が降りました。私は友達と映画を見に行きました。映画はとてもおもしろかったです。そのあとレストランでピザを食べました。店は混んでいましたが、料理はおいしかったです。とてもいい一日でした。",
+    "kanaText": "きのうはしゅくじつでしたから、がっこうのやすみでした。あさはいいてんきでしたが、ごごからつめたいあめがふりました。わたしはともだちとえいがをみにいきました。えいがはとてもおもしろかったです。そのあとれすとらんでぴざをたべました。みせはこんでいましたが、りょうりはおいしかったです。とてもいいいちにちでした。",
+    "translation": "Yesterday was a public holiday, so school was closed. In the morning, the weather was fine, but in the afternoon cold rain fell. I went to see a movie with a friend. The movie was very interesting. After that, we ate pizza at a restaurant. The restaurant was crowded, but the food was delicious. It was a very good day.",
+    "questionIds": [
+      "n5.l12.q021",
+      "n5.l12.q022",
+      "n5.l12.q023",
+      "n5.l12.q024",
+      "n5.l12.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l12.l01",
+    "lessonId": "n5.l12",
+    "title": "Past Tense of Adjectives and Verbs - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "松本",
+      "カリナ"
+    ],
+    "transcript": "松本：カリナさん、先週の長野旅行はどうでしたか。\nカリナ：とても楽しかったです！雪がたくさん降って、白くてきれいでした。\n松本：寒くなかったですか。\nカリナ：ええ、とても寒かったです。でも、ホテルの温泉が温かくて気持ちよかったです。",
+    "translation": "Colleagues exchange thoughts on a weekend skiing trip to Nagano.",
+    "turns": [
+      {
+        "speaker": "松本",
+        "ja": "カリナさん、先週の長野旅行はどうでしたか。",
+        "kana": "かりなさん、せんしゅうのながのりょこうはどうでしたか。",
+        "en": "Karina-san, how was your trip to Nagano last week?"
+      },
+      {
+        "speaker": "カリナ",
+        "ja": "とても楽しかったです！雪がたくさん降って、白くてきれいでした。",
+        "kana": "とてもたのしかったです！ゆきがたくさんふって、しろくてきれいでした。",
+        "en": "It was very fun! A lot of snow fell, and it was white and beautiful."
+      },
+      {
+        "speaker": "松本",
+        "ja": "寒くなかったですか。",
+        "kana": "さむくなかったですか。",
+        "en": "Wasn't it cold?"
+      },
+      {
+        "speaker": "カリナ",
+        "ja": "ええ、とても寒かったです。でも、ホテルの温泉が温かくて気持ちよかったです。",
+        "kana": "ええ、とてもさむかったです。でも、ほてるのおんせんがあたたかくてきもちよかったです。",
+        "en": "Yes, it was very cold! But the hotel's hot spring was warm and felt wonderful."
+      }
+    ],
+    "questionIds": [
+      "n5.l12.q026",
+      "n5.l12.q027",
+      "n5.l12.q028",
+      "n5.l12.q029",
+      "n5.l12.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l12.q001",
+      "lessonId": "n5.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「昨日」の意味は何ですか。 (What does 「昨日」 mean?)",
+      "choices": [
+        "Yesterday",
+        "Day before yesterday",
+        "Last week",
+        "Last year"
+      ],
+      "answer": "Yesterday",
+      "acceptedAnswers": [
+        "Yesterday"
+      ],
+      "explanation": "「昨日」(きのう) means \"Yesterday\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q002",
+      "lessonId": "n5.l12",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Day before yesterday\" in hiragana:",
+      "answer": "おととい",
+      "acceptedAnswers": [
+        "おととい",
+        "おととい"
+      ],
+      "explanation": "The Japanese word for \"Day before yesterday\" is おととい (おととい).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q003",
+      "lessonId": "n5.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「先週」の意味は何ですか。 (What does 「先週」 mean?)",
+      "choices": [
+        "Cold (weather)",
+        "Hot (weather)",
+        "Last year",
+        "Last week"
+      ],
+      "answer": "Last week",
+      "acceptedAnswers": [
+        "Last week"
+      ],
+      "explanation": "「先週」(せんしゅう) means \"Last week\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q004",
+      "lessonId": "n5.l12",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Last year\" in hiragana:",
+      "answer": "きょねん",
+      "acceptedAnswers": [
+        "きょねん",
+        "去年"
+      ],
+      "explanation": "The Japanese word for \"Last year\" is 去年 (きょねん).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q005",
+      "lessonId": "n5.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「暑い」の意味は何ですか。 (What does 「暑い」 mean?)",
+      "choices": [
+        "Rain",
+        "Free time / Idle",
+        "Cold (weather)",
+        "Hot (weather)"
+      ],
+      "answer": "Hot (weather)",
+      "acceptedAnswers": [
+        "Hot (weather)"
+      ],
+      "explanation": "「暑い」(あつい) means \"Hot (weather)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q006",
+      "lessonId": "n5.l12",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Cold (weather)\" in hiragana:",
+      "answer": "さむい",
+      "acceptedAnswers": [
+        "さむい",
+        "寒い"
+      ],
+      "explanation": "The Japanese word for \"Cold (weather)\" is 寒い (さむい).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q007",
+      "lessonId": "n5.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「暇」の意味は何ですか。 (What does 「暇」 mean?)",
+      "choices": [
+        "Free time / Idle",
+        "Rain",
+        "Snow",
+        "Weather"
+      ],
+      "answer": "Free time / Idle",
+      "acceptedAnswers": [
+        "Free time / Idle"
+      ],
+      "explanation": "「暇」(ひま) means \"Free time / Idle\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q008",
+      "lessonId": "n5.l12",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Rain\" in hiragana:",
+      "answer": "あめ",
+      "acceptedAnswers": [
+        "あめ",
+        "雨"
+      ],
+      "explanation": "The Japanese word for \"Rain\" is 雨 (あめ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q009",
+      "lessonId": "n5.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「雪」の意味は何ですか。 (What does 「雪」 mean?)",
+      "choices": [
+        "Was enjoyable / fun",
+        "Festival",
+        "Weather",
+        "Snow"
+      ],
+      "answer": "Snow",
+      "acceptedAnswers": [
+        "Snow"
+      ],
+      "explanation": "「雪」(ゆき) means \"Snow\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q010",
+      "lessonId": "n5.l12",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Weather\" in hiragana:",
+      "answer": "てんき",
+      "acceptedAnswers": [
+        "てんき",
+        "天気"
+      ],
+      "explanation": "The Japanese word for \"Weather\" is 天気 (てんき).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q011",
+      "lessonId": "n5.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「祭」の意味は何ですか。 (What does 「祭」 mean?)",
+      "choices": [
+        "Day before yesterday",
+        "Yesterday",
+        "Was enjoyable / fun",
+        "Festival"
+      ],
+      "answer": "Festival",
+      "acceptedAnswers": [
+        "Festival"
+      ],
+      "explanation": "「祭」(まつり) means \"Festival\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q012",
+      "lessonId": "n5.l12",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Enjoyable / Fun\" in hiragana:",
+      "answer": "たのしい",
+      "acceptedAnswers": [
+        "たのしい",
+        "楽しい"
+      ],
+      "explanation": "The Japanese word for \"Enjoyable / Fun\" is 楽しい (たのしい).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q013",
+      "lessonId": "n5.l12",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「昨」の意味は何ですか。 (What is the meaning of kanji 「昨」?)",
+      "choices": [
+        "Previous, yesterday",
+        "Now, present",
+        "Year, counter for years",
+        "Tree"
+      ],
+      "answer": "Previous, yesterday",
+      "acceptedAnswers": [
+        "Previous, yesterday"
+      ],
+      "explanation": "「昨」means \"Previous, yesterday\". Onyomi: サク, Kunyomi: —.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q014",
+      "lessonId": "n5.l12",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「昨」の読み方はどれですか。 (Which is a correct reading for 「昨」?)",
+      "choices": [
+        "サク",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "サク",
+      "acceptedAnswers": [
+        "サク"
+      ],
+      "explanation": "「昨」 has the reading 「サク」 (Previous, yesterday).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q015",
+      "lessonId": "n5.l12",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「今」の意味は何ですか。 (What is the meaning of kanji 「今」?)",
+      "choices": [
+        "Now, present",
+        "Previous, yesterday",
+        "Year, counter for years",
+        "Tree"
+      ],
+      "answer": "Now, present",
+      "acceptedAnswers": [
+        "Now, present"
+      ],
+      "explanation": "「今」means \"Now, present\". Onyomi: コン, キン, Kunyomi: いま.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q016",
+      "lessonId": "n5.l12",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「今」の読み方はどれですか。 (Which is a correct reading for 「今」?)",
+      "choices": [
+        "いま",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "いま",
+      "acceptedAnswers": [
+        "いま"
+      ],
+      "explanation": "「今」 has the reading 「いま」 (Now, present).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q017",
+      "lessonId": "n5.l12",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「年」の意味は何ですか。 (What is the meaning of kanji 「年」?)",
+      "choices": [
+        "Year, counter for years",
+        "Previous, yesterday",
+        "Now, present",
+        "Tree"
+      ],
+      "answer": "Year, counter for years",
+      "acceptedAnswers": [
+        "Year, counter for years"
+      ],
+      "explanation": "「年」means \"Year, counter for years\". Onyomi: ネン, Kunyomi: とし.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q018",
+      "lessonId": "n5.l12",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「年」の読み方はどれですか。 (Which is a correct reading for 「年」?)",
+      "choices": [
+        "とし",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "とし",
+      "acceptedAnswers": [
+        "とし"
+      ],
+      "explanation": "「年」 has the reading 「とし」 (Year, counter for years).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q019",
+      "lessonId": "n5.l12",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「雨」の意味は何ですか。 (What is the meaning of kanji 「雨」?)",
+      "choices": [
+        "Rain",
+        "Previous, yesterday",
+        "Now, present",
+        "Tree"
+      ],
+      "answer": "Rain",
+      "acceptedAnswers": [
+        "Rain"
+      ],
+      "explanation": "「雨」means \"Rain\". Onyomi: ウ, Kunyomi: あめ, あま-.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q020",
+      "lessonId": "n5.l12",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「雨」の読み方はどれですか。 (Which is a correct reading for 「雨」?)",
+      "choices": [
+        "あめ",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "あめ",
+      "acceptedAnswers": [
+        "あめ"
+      ],
+      "explanation": "「雨」 has the reading 「あめ」 (Rain).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q021",
+      "lessonId": "n5.l12",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "昨日はどうして学校が休みでしたか。 (Why was school closed yesterday?)",
+      "choices": [
+        "祝日だったから",
+        "日曜日だったから",
+        "大雨だったから",
+        "先生が出張だったから"
+      ],
+      "answer": "祝日だったから",
+      "acceptedAnswers": [
+        "祝日だったから"
+      ],
+      "explanation": "「昨日は祝日でしたから、学校の休みでした」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q022",
+      "lessonId": "n5.l12",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "午後の天気はどう変化しましたか。 (How did the weather change in the afternoon?)",
+      "choices": [
+        "冷たい雨が降った",
+        "雪が降った",
+        "晴れて暑くなった",
+        "強風が吹いた"
+      ],
+      "answer": "冷たい雨が降った",
+      "acceptedAnswers": [
+        "冷たい雨が降った"
+      ],
+      "explanation": "「午後から冷たい雨が降りました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q023",
+      "lessonId": "n5.l12",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "映画の感想はどうでしたか。 (What was the impression of the movie?)",
+      "choices": [
+        "とてもおもしろかった",
+        "つまらなかった",
+        "難しかった",
+        "怖かった"
+      ],
+      "answer": "とてもおもしろかった",
+      "acceptedAnswers": [
+        "とてもおもしろかった"
+      ],
+      "explanation": "「映画はとてもおもしろかったです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q024",
+      "lessonId": "n5.l12",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "レストランで何を食べましたか。 (What did they eat at the restaurant?)",
+      "choices": [
+        "ピザ",
+        "ラーメン",
+        "魚料理",
+        "寿司"
+      ],
+      "answer": "ピザ",
+      "acceptedAnswers": [
+        "ピザ"
+      ],
+      "explanation": "「そのあとレストランでピザを食べました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q025",
+      "lessonId": "n5.l12",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "レストランの様子はどうでしたか。 (What was the restaurant like?)",
+      "choices": [
+        "混んでいたがおいしかった",
+        "空いていて静かだった",
+        "まずかった",
+        "高すぎた"
+      ],
+      "answer": "混んでいたがおいしかった",
+      "acceptedAnswers": [
+        "混んでいたがおいしかった"
+      ],
+      "explanation": "「店は混んでいましたが、料理はおいしかったです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q026",
+      "lessonId": "n5.l12",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "カリナさんは先週どこへ行きましたか。 (Where did Karina go last week?)",
+      "choices": [
+        "長野",
+        "京都",
+        "北海道",
+        "沖縄"
+      ],
+      "answer": "長野",
+      "acceptedAnswers": [
+        "長野"
+      ],
+      "explanation": "Matsumoto asks: 「先週の長野旅行はどうでしたか」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q027",
+      "lessonId": "n5.l12",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "現地の景色はどうでしたか。 (How was the scenery?)",
+      "choices": [
+        "雪がたくさん降って白くてきれいだった",
+        "紅葉がきれいだった",
+        "雨で暗かった",
+        "暖かかった"
+      ],
+      "answer": "雪がたくさん降って白くてきれいだった",
+      "acceptedAnswers": [
+        "雪がたくさん降って白くてきれいだった"
+      ],
+      "explanation": "「雪がたくさん降って、白くてきれいでした」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q028",
+      "lessonId": "n5.l12",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "気温はどうでしたか。 (How was the temperature?)",
+      "choices": [
+        "とても寒かった",
+        "あまり寒くなかった",
+        "暖かかった",
+        "涼しかった"
+      ],
+      "answer": "とても寒かった",
+      "acceptedAnswers": [
+        "とても寒かった"
+      ],
+      "explanation": "Karina responds: 「ええ、とても寒かったです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q029",
+      "lessonId": "n5.l12",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ホテルで何が気持ちよかったですか。 (What felt good at the hotel?)",
+      "choices": [
+        "温かい温泉",
+        "おいしい食事",
+        "柔らかいベッド",
+        "静かな部屋"
+      ],
+      "answer": "温かい温泉",
+      "acceptedAnswers": [
+        "温かい温泉"
+      ],
+      "explanation": "「ホテルの温泉が温かくて気持ちよかったです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l12.q030",
+      "lessonId": "n5.l12",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "旅行全体の評価はどうでしたか。 (What was the overall verdict?)",
+      "choices": [
+        "とても楽しかった",
+        "疲れただけだった",
+        "二度と行かない",
+        "退屈だった"
+      ],
+      "answer": "とても楽しかった",
+      "acceptedAnswers": [
+        "とても楽しかった"
+      ],
+      "explanation": "Karina states enthusiastically: 「とても楽しかったです！」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l12.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

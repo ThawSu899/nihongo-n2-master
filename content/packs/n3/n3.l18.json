@@ -1,0 +1,1608 @@
+{
+  "id": "n3.l18",
+  "level": "N3",
+  "module": "N3 Nuance & Natural Discourse",
+  "number": 18,
+  "title": "N3 Lesson 18: Degree & Extent (〜ほど・〜くらい)",
+  "description": "Master upper-intermediate degree and comparative expressions in Japanese, focusing on strong preference/hypothetical choices (〜くらいなら / 〜ぐらいなら) and extreme benchmarks of subjective extent (〜ほど…はない / 〜くらい…はない).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l18.v001",
+      "lessonId": "n3.l18",
+      "ja": "退屈",
+      "kana": "たいくつ",
+      "en": "tedium; boredom; dullness",
+      "my": "ပျင်းရိငြီးငွေ့ဖွယ်ကောင်းခြင်း",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l18.s001",
+      "kanjiIds": [
+        "n3.l18.k001",
+        "n3.l18.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.v002",
+      "lessonId": "n3.l18",
+      "ja": "我慢",
+      "kana": "がまん",
+      "en": "patience; endurance; tolerance",
+      "my": "သည်းခံခြင်း/အောင့်အည်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l18.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.v003",
+      "lessonId": "n3.l18",
+      "ja": "快適",
+      "kana": "かいてき",
+      "en": "comfortable; pleasant; agreeable",
+      "my": "သက်တောင့်သက်သာရှိသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l18.s003",
+      "kanjiIds": [
+        "n3.l18.k003",
+        "n3.l18.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.v004",
+      "lessonId": "n3.l18",
+      "ja": "後悔",
+      "kana": "こうかい",
+      "en": "regret; remorse; repentance",
+      "my": "နောင်တရခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l18.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.v005",
+      "lessonId": "n3.l18",
+      "ja": "貴重",
+      "kana": "きちょう",
+      "en": "precious; valuable; priceless",
+      "my": "အဖိုးတန်သော/တန်ဖိုးရှိသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l18.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.v006",
+      "lessonId": "n3.l18",
+      "ja": "屈辱",
+      "kana": "くつじょく",
+      "en": "humiliation; disgrace; indignity",
+      "my": "အရှက်ရခြင်း/သိက္ခာကျဆင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l18.s006",
+      "kanjiIds": [
+        "n3.l18.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.v007",
+      "lessonId": "n3.l18",
+      "ja": "絶景",
+      "kana": "ぜっけい",
+      "en": "superb view; picturesque scenery",
+      "my": "အလွန်လှပသောရှုခင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l18.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.v008",
+      "lessonId": "n3.l18",
+      "ja": "退職",
+      "kana": "たいしょく",
+      "en": "retirement; resigning from office",
+      "my": "အလုပ်မှနုတ်ထွက်ခြင်း/အနားယူခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l18.s008",
+      "kanjiIds": [
+        "n3.l18.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.v009",
+      "lessonId": "n3.l18",
+      "ja": "魅力",
+      "kana": "みりょく",
+      "en": "charm; appeal; fascination",
+      "my": "ဆွဲဆောင်မှု/ညှို့ဓာတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l18.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.v010",
+      "lessonId": "n3.l18",
+      "ja": "妥協",
+      "kana": "だきょう",
+      "en": "compromise; concession",
+      "my": "အလျှော့ပေးစေ့စပ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l18.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.v011",
+      "lessonId": "n3.l18",
+      "ja": "適切",
+      "kana": "てきせつ",
+      "en": "appropriate; pertinent; fitting",
+      "my": "သင့်လျော်လျောက်ပတ်သော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l18.s011",
+      "kanjiIds": [
+        "n3.l18.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.v012",
+      "lessonId": "n3.l18",
+      "ja": "快晴",
+      "kana": "かいせい",
+      "en": "clear weather; cloudless skies",
+      "my": "သာယာကြည်လင်သောရာသီဥတု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l18.s012",
+      "kanjiIds": [
+        "n3.l18.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l18.k001",
+      "lessonId": "n3.l18",
+      "char": "退",
+      "meaning": "retreat, withdraw, retire",
+      "onyomi": [
+        "タイ"
+      ],
+      "kunyomi": [
+        "しりぞ・く",
+        "しりぞ・ける"
+      ],
+      "exampleVocab": [
+        {
+          "word": "退屈",
+          "reading": "たいくつ",
+          "meaning": "boredom, tedium",
+          "preview": false
+        },
+        {
+          "word": "退職",
+          "reading": "たいしょく",
+          "meaning": "retirement, resignation",
+          "preview": false
+        },
+        {
+          "word": "辞退",
+          "reading": "じたい",
+          "meaning": "declining, refusal",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l18.s001"
+      ],
+      "components": [],
+      "strokes": 9,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.k002",
+      "lessonId": "n3.l18",
+      "char": "屈",
+      "meaning": "yield, bend, submit",
+      "onyomi": [
+        "クツ"
+      ],
+      "kunyomi": [
+        "かが・む"
+      ],
+      "exampleVocab": [
+        {
+          "word": "退屈",
+          "reading": "たいくつ",
+          "meaning": "tedium, boredom",
+          "preview": false
+        },
+        {
+          "word": "屈辱",
+          "reading": "くつじょく",
+          "meaning": "humiliation, disgrace",
+          "preview": false
+        },
+        {
+          "word": "不屈",
+          "reading": "ふくつ",
+          "meaning": "indomitable, unyielding",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l18.s001"
+      ],
+      "components": [],
+      "strokes": 8,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.k003",
+      "lessonId": "n3.l18",
+      "char": "快",
+      "meaning": "cheerful, pleasant, agreeable",
+      "onyomi": [
+        "カイ"
+      ],
+      "kunyomi": [
+        "こころよ・い"
+      ],
+      "exampleVocab": [
+        {
+          "word": "快適",
+          "reading": "かいてき",
+          "meaning": "comfortable, pleasant",
+          "preview": false
+        },
+        {
+          "word": "快晴",
+          "reading": "かいせい",
+          "meaning": "fine weather, cloudless sky",
+          "preview": false
+        },
+        {
+          "word": "痛快",
+          "reading": "つうかい",
+          "meaning": "thrilling, delighting",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l18.s003"
+      ],
+      "components": [],
+      "strokes": 7,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.k004",
+      "lessonId": "n3.l18",
+      "char": "適",
+      "meaning": "suitable, fit, proper",
+      "onyomi": [
+        "テキ"
+      ],
+      "kunyomi": [
+        "かな・う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "快適",
+          "reading": "かいてき",
+          "meaning": "comfortable",
+          "preview": false
+        },
+        {
+          "word": "適切",
+          "reading": "てきせつ",
+          "meaning": "appropriate, fitting",
+          "preview": false
+        },
+        {
+          "word": "適当",
+          "reading": "てきとう",
+          "meaning": "suitable, adequate",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l18.s003"
+      ],
+      "components": [],
+      "strokes": 14,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l18.g001",
+      "lessonId": "n3.l18",
+      "pattern": "〜くらいなら / 〜ぐらいなら",
+      "meaning": "rather than...; if it comes to... I would rather",
+      "formation": "[Verb Dictionary form] + くらいなら / ぐらいなら",
+      "explanation": {
+        "en": "Used when the speaker strongly abhors, dislikes, or rejects scenario A so intensely that they would prefer an extreme, drastic, or usually unpleasant alternative B instead.",
+        "my": "အခြေအနေတစ်ခု (က) ကို ပြုလုပ်ရမည့်အစား အခြားအခြေအနေတစ်ခု (ခ) ကို ရွေးချယ်လိုကြောင်း ပြင်းထန်သော ငြင်းဆန်လိုစိတ်ဖြင့် ဖော်ပြသည်။ \"ထိုသို့လုပ်ရမည့်အစား ... သာ လုပ်လိုက်မည်\" ဟု အဓိပ္ပာယ်ရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l18.s002",
+          "note": "Rather than compromising your principles, it is better to frankly express your opinion."
+        },
+        {
+          "sentenceId": "n3.l18.s008",
+          "note": "Rather than enduring unreasonable overtime every single day, I would rather quit the company."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use the past tense before くらいなら (e.g. ❌ 妥協したくらいなら → ⭕️ 妥協するくらいなら)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.g002",
+      "lessonId": "n3.l18",
+      "pattern": "〜ほど…はない / 〜くらい…はない",
+      "meaning": "nothing is as... as; no one is as... as",
+      "formation": "[Noun] + ほど / くらい + [い-Adj / な-Adj な / Verb] + [Noun はない / ものはない / 人はいない]",
+      "explanation": {
+        "en": "Used to express the speaker's subjective conviction that the specified noun is the absolute pinnacle or supreme example of a given quality (e.g., nothing is as precious as health; no place is as relaxing as home).",
+        "my": "ပြောဆိုသူ၏ စိတ်ထဲမှ အခိုင်အမာခံယူချက်ဖြင့် ၎င်းအရာလောက် မည်သည့်အရာမျှ မ...ပါဟု ထိပ်တန်းနှိုင်းယှဉ်ချက်ဖြင့် ဖော်ပြသည်။ (ဥပမာ- မိမိအိမ်လောက် စိတ်အေးချမ်းရသောအရာ မရှိပါ)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l18.s005",
+          "note": "Keenly realizing that nothing is as precious an asset as a healthy body and mind."
+        },
+        {
+          "sentenceId": "n3.l18.s007",
+          "note": "There is no mountain scenery as breathtaking as the view from the summit at dawn."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use ほど…はない for objective mathematical or geographical statistics (e.g. for Mount Everest being the highest mountain, use 一番 or 最も instead of エベレストほど高い山はない, unless conveying personal awe)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l18.s001",
+      "lessonId": "n3.l18",
+      "ja": "退屈な週末を家でただ寝て過ごすくらいなら、一人で遠くへ旅に出たほうがずっといい。",
+      "kana": "たいくつな しゅうまつを いえで ただ ねてすごすくらいなら、ひとりで とおくへ たびに でたほうが ずっといい。",
+      "translation": {
+        "en": "Rather than spending a tedious weekend just sleeping at home, it is far better to embark on a solo journey to a distant place.",
+        "my": "ပျင်းစရာကောင်းသော စနေ၊ တနင်္ဂနွေကို အိမ်မှာ အိပ်ရင်း အချိန်ဖြုန်းနေမည့်အစား တစ်ယောက်တည်း ခရီးဝေးထွက်လိုက်ရတာက အများကြီး ပိုကောင်းသည်။"
+      },
+      "vocabIds": [
+        "n3.l18.v001"
+      ],
+      "grammarIds": [
+        "n3.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.s002",
+      "lessonId": "n3.l18",
+      "ja": "理不尽な要求に対して無意味に我慢するくらいなら、自分の意見を率直に伝えるべきだ。",
+      "kana": "りふじんな ようきゅうに たいして むいみに がまんするくらいなら、じぶんの いけんを そっちょくに つたえるべきだ。",
+      "translation": {
+        "en": "Rather than enduring unreasonable demands meaninglessly, you should frankly communicate your own opinion.",
+        "my": "ယုတ္တိမရှိသော တောင်းဆိုချက်များကို အဓိပ္ပာယ်မရှိ သည်းခံနေမည့်အစား မိမိ၏သဘောထားကို ပွင့်လင်းစွာ ပြောပြသင့်သည်။"
+      },
+      "vocabIds": [
+        "n3.l18.v002"
+      ],
+      "grammarIds": [
+        "n3.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.s003",
+      "lessonId": "n3.l18",
+      "ja": "空調が適切に管理された現代のオフィスほど、仕事に集中しやすい快適な環境はない。",
+      "kana": "くうちょうが てきせつに かんりされた げんだいの おふぃすほど、しごとに しゅうちゅうしやすい かいてきな かんきょうはない。",
+      "translation": {
+        "en": "There is no comfortable environment as easy to concentrate on work in as a modern office with properly managed air conditioning.",
+        "my": "လေအေးပေးစက်စနစ်ကို စနစ်တကျ ထိန်းညှိထားသော ခေတ်မီရုံးခန်းလောက် အလုပ်အာရုံစိုက်ရန် ကောင်းမွန်သက်တောင့်သက်သာရှိသော ပတ်ဝန်းကျင် မရှိပါ။"
+      },
+      "vocabIds": [
+        "n3.l18.v003"
+      ],
+      "grammarIds": [
+        "n3.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.s004",
+      "lessonId": "n3.l18",
+      "ja": "後で挑戦しなかったことを後悔するくらいなら、失敗を恐れずに今すぐ行動を起こそう。",
+      "kana": "あとで ちょうせんしなかった ことを こうかいするくらいなら、しっぱいを おそれずに いますぐ こうどうを おこそう。",
+      "translation": {
+        "en": "Rather than regretting later that you didn't take up the challenge, let's take action right now without fearing failure.",
+        "my": "နောက်မှ မစမ်းသပ်မိခဲ့တာကို နောင်တရနေမည့်အစား ကျရှုံးမှာကို မကြောက်ဘဲ ယခုပင် ချက်ချင်း လက်တွေ့လုပ်ဆောင်ကြပါစို့။"
+      },
+      "vocabIds": [
+        "n3.l18.v004"
+      ],
+      "grammarIds": [
+        "n3.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.s005",
+      "lessonId": "n3.l18",
+      "ja": "多忙な人生において、健康な体と心ほど貴重な財産はないと実感している。",
+      "kana": "たぼうな じんせいに おいて、けんこうな からだと こころほど きちょうな ざいさんはないと じっかんしている。",
+      "translation": {
+        "en": "In a busy life, I keenly realize that nothing is as precious an asset as a healthy body and mind.",
+        "my": "အလုပ်များလှသော ဘဝတွင် ကျန်းမာသော ခန္ဓာကိုယ်နှင့် စိတ်နှလုံးလောက် အဖိုးတန်သော ပိုင်ဆိုင်မှုမရှိဟု အမှန်တကယ် ခံစားရသည်။"
+      },
+      "vocabIds": [
+        "n3.l18.v005"
+      ],
+      "grammarIds": [
+        "n3.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.s006",
+      "lessonId": "n3.l18",
+      "ja": "信念を曲げてまで屈辱に耐えるくらいなら、すべてを失っても堂々と生きていきたい。",
+      "kana": "しんねんを まげてまで くつじょくに たえるくらいなら、すべてを うしなっても どうどうと 生きていきたい。",
+      "translation": {
+        "en": "Rather than enduring humiliation to the point of bending my convictions, I want to live proudly even if I lose everything.",
+        "my": "မိမိယုံကြည်ချက်ကို လျှော့ချကာ အရှက်တကွဲခံရသည်ကို သည်းခံနေမည့်အစား အရာအားလုံး ဆုံးရှုံးရပါစေ ဂုဏ်သိက္ခာရှိစွာ ရှင်သန်လိုသည်။"
+      },
+      "vocabIds": [
+        "n3.l18.v006"
+      ],
+      "grammarIds": [
+        "n3.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.s007",
+      "lessonId": "n3.l18",
+      "ja": "夜明けの富士山の山頂から見下ろす雲海ほど、心を打つ絶景はない。",
+      "kana": "よあけの ふじさんの さんちょうから みおろす うんかいほど、こころを うつ ぜっけいはない。",
+      "translation": {
+        "en": "There is no breathtaking scenery that moves the heart as much as the sea of clouds gazed down from the summit of Mount Fuji at dawn.",
+        "my": "အရုဏ်ဦးအချိန် ဖူဂျီတောင်ထိပ်မှ ငုံ့ကြည့်ရသော တိမ်ပင်လယ်လောက် နှလုံးသားကို ထိမိစေသော လှပသည့်ရှုခင်း မရှိပါ။"
+      },
+      "vocabIds": [
+        "n3.l18.v007"
+      ],
+      "grammarIds": [
+        "n3.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.s008",
+      "lessonId": "n3.l18",
+      "ja": "健康を損なってまでブラック企業で働き続けるくらいなら、早期に退職して再出発を図るべきだ。",
+      "kana": "けんこうを そこなってまで ぶらっくきぎょうで はたらきつづけるくらいなら、そうきに たいしょくして さいしゅっぱつを はかるべきだ。",
+      "translation": {
+        "en": "Rather than continuing to work at an exploitative company to the point of ruining your health, you should retire early and pursue a fresh start.",
+        "my": "ကျန်းမာရေးထိခိုက်သည်အထိ ခေါင်းပုံဖြတ်ကုမ္ပဏီတွင် ဆက်လက်လုပ်ကိုင်နေမည့်အစား စောစီးစွာ နုတ်ထွက်ပြီး အသစ်ပြန်လည်စတင်သင့်သည်။"
+      },
+      "vocabIds": [
+        "n3.l18.v008"
+      ],
+      "grammarIds": [
+        "n3.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.s009",
+      "lessonId": "n3.l18",
+      "ja": "異国の未知なる文化を肌で体験することほど、旅人を惹きつける魅力的な経験はない。",
+      "kana": "いこくの みちなる ぶんかを はだで たいけんすることほど、たびびとを ひきつける みりょくてきな けいけんはない。",
+      "translation": {
+        "en": "There is no appealing experience that attracts travelers as much as experiencing the unknown culture of a foreign land firsthand.",
+        "my": "နိုင်ငံရပ်ခြား၏ မသိသေးသော ယဉ်ကျေးမှုကို ကိုယ်တိုင်ကိုယ်ကျ ထိတွေ့ခံစားရခြင်းလောက် ခရီးသွားများကို ဆွဲဆောင်စေသော အတွေ့အကြုံ မရှိပါ။"
+      },
+      "vocabIds": [
+        "n3.l18.v009"
+      ],
+      "grammarIds": [
+        "n3.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.s010",
+      "lessonId": "n3.l18",
+      "ja": "品質を落としてまで安易に妥協するくらいなら、発売日を延期してでも徹底的に改良したい。",
+      "kana": "ひんしつを おとしてまで あんいに だきょうするくらいなら、はつばいびを えんきしてでも てっていてきに かいりょうしたい。",
+      "translation": {
+        "en": "Rather than casually compromising to the extent of lowering quality, I want to thoroughly refine the product even if postponing the release date.",
+        "my": "အရည်အသွေးကျဆင်းသွားသည်အထိ အလွယ်တကူ အလျှော့ပေးစေ့စပ်မည့်အစား စတင်ရောင်းချမည့်ရက်ကို ရွှေ့ဆိုင်းပြီး သေချာစွာ ပြုပြင်မွမ်းမံလိုသည်။"
+      },
+      "vocabIds": [
+        "n3.l18.v010"
+      ],
+      "grammarIds": [
+        "n3.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.s011",
+      "lessonId": "n3.l18",
+      "ja": "緊急事態において、現場のリーダーによる迅速かつ適切な判断ほど頼もしいものはない。",
+      "kana": "きんきゅうじたいに おいて、げんばの りーだーによる じんそくかつ てきせつな はんだんほど たのもしい ものはない。",
+      "translation": {
+        "en": "In an emergency, nothing is as reliable as a swift and appropriate judgment made by on-site leaders.",
+        "my": "အရေးပေါ်အခြေအနေတွင် လုပ်ငန်းခွင်ခေါင်းဆောင်၏ လျင်မြန်ပြီး သင့်လျော်သော ဆုံးဖြတ်ချက်လောက် အားကိုးထိုက်သောအရာ မရှိပါ။"
+      },
+      "vocabIds": [
+        "n3.l18.v011"
+      ],
+      "grammarIds": [
+        "n3.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l18.s012",
+      "lessonId": "n3.l18",
+      "ja": "抜けるような青空が広がる快晴の日ほど、屋外でスポーツをするのに適した日はない。",
+      "kana": "ぬけるような あおぞらが ひろがる かいせいの ひほど、おくがいで すぽーつを するのに てきした ひはない。",
+      "translation": {
+        "en": "There is no day as suitable for outdoor sports as a cloudless clear day with wide-open blue skies.",
+        "my": "မိုးကုပ်စက်ဝိုင်းအထိ ပြာလွင်နေသော သာယာကြည်လင်သောနေ့လောက် အပြင်ဘက်တွင် အားကစားပြုလုပ်ရန် သင့်တော်သောနေ့ မရှိပါ။"
+      },
+      "vocabIds": [
+        "n3.l18.v012"
+      ],
+      "grammarIds": [
+        "n3.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l18.r01",
+    "lessonId": "n3.l18",
+    "title": "The Realization of True Life Priorities",
+    "level": "N3",
+    "text": "大都市のIT企業で多忙な毎日を送っていた高橋さんは、毎朝の満員電車と深夜まで続く残業に心身ともに疲れ果てていた。毎月の給与は高水準であったものの、平日は睡眠時間を確保するのが精一杯で、週末も疲労回復のために寝て過ごすだけの日々が続いていた。\n\nある日、体調を崩して点滴を受けながら、高橋さんは自分の生き方を見つめ直した。「心身の健康を損なってまで、高い収入のために我慢して働き続けるくらいなら、収入が減ってでも自分の時間を大切にできる環境へ移ったほうがずっと豊かではないか」と強く確信したのである。\n\n数カ月後、高橋さんは思い切って会社を退職し、自然豊かな長野県の山あいの町へ移住した。古い古民家を改装し、自給自足の野菜作りとリモートでの軽作業を始めた生活は、都会の便利さこそないものの、朝の澄んだ空気と静寂に包まれている。\n\n高橋さんは語る。「四季の移ろいを肌で感じ、家族や地域の人々と穏やかな時間を共有することほど、人生においてかけがえのない贅沢はない」。かつて追い求めていた金銭的な成功よりも、日々の心の安らぎこそが何物にも勝る真の豊かさであることに、彼はようやく気付いたのである。",
+    "kanaText": "大都市のIT企業で多忙な毎日を送っていた高橋さんは、毎朝の満員電車と深夜まで続く残業に心身ともに疲れ果てていた。毎月の給与は高水準であったものの、平日は睡眠時間を確保するのが精一杯で、週末も疲労回復のために寝て過ごすだけの日々が続いていた。\n\nある日、体調を崩して点滴を受けながら、高橋さんは自分の生き方を見つめ直した。「心身の健康を損なってまで、高い収入のために我慢して働き続けるくらいなら、収入が減ってでも自分の時間を大切にできる環境へ移ったほうがずっと豊かではないか」と強く確信したのである。\n\n数カ月後、高橋さんは思い切って会社を退職し、自然豊かな長野県の山あいの町へ移住した。古い古民家を改装し、自給自足の野菜作りとリモートでの軽作業を始めた生活は、都会の便利さこそないものの、朝の澄んだ空気と静寂に包まれている。\n\n高橋さんは語る。「四季の移ろいを肌で感じ、家族や地域の人々と穏やかな時間を共有することほど、人生においてかけがえのない贅沢はない」。かつて追い求めていた金銭的な成功よりも、日々の心の安らぎこそが何物にも勝る真の豊かさであることに、彼はようやく気付いたのである。",
+    "translation": "Takahashi-san, who was spending busy days at an IT company in a metropolitan city, was exhausted both physically and mentally from packed commuter trains every morning and overtime lasting late into the night. Although his monthly salary was high, on weekdays he barely secured enough sleep, and weekends were spent merely sleeping to recover from fatigue.\n\nOne day, while receiving an IV drip after his health collapsed, Takahashi-san reexamined his way of living. He felt intensely convinced: \"Rather than enduring work for the sake of high income to the point of ruining my mental and physical health, wouldn't shifting to an environment where I can value my own time, even with a reduced income, be far richer?\"\n\nSeveral months later, Takahashi-san boldly resigned from the company and relocated to a mountainous town in Nagano Prefecture surrounded by rich nature. His new life renovating an old traditional house, growing vegetables self-sufficiently, and doing light remote tasks lacks metropolitan convenience, but is embraced by the clear morning air and tranquility.\n\nTakahashi-san reflects: \"Nothing in life is as irreplaceable a luxury as feeling the shift of the four seasons on one's skin and sharing peaceful time with family and local community members.\" He finally realized that peace of mind each day is true wealth surpassing any financial success he had previously chased.",
+    "questionIds": [
+      "n3.l18.q025",
+      "n3.l18.q026",
+      "n3.l18.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l18.l01",
+    "lessonId": "n3.l18",
+    "title": "Dialogue: Choosing a Travel Destination and Transportation",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "中村：小林さん、来月の連休の旅行、どこに行くか決めましたか。\n小林：北海道の大自然を満喫しに行こうと考えています。ただ、移動手段を飛行機にするか新幹線にするかで悩んでいるんです。\n中村：新幹線だと東京から函館まで4時間以上かかりますよ。\n小林：そうなんですよね。狭い座席で4時間以上も退屈を我慢するくらいなら、多少高くても飛行機で一気に飛んで現地での滞在時間を増やしたほうがずっと有意義ですよね。\n中村：同感です。空港からのアクセスも便利ですしね。ところで、北海道のどこが一番楽しみですか。\n小林：富良野のラベンダー畑です。一面に咲き誇る紫の花景色ほど、日頃のストレスを一瞬で忘れさせてくれる素晴らしい景色はないですからね。\n中村：いいですね！ ぜひ楽しんできてください。",
+    "translation": "Nakamura: Kobayashi-san, have you decided where to go for next month's consecutive holidays?\nKobayashi: I'm thinking of going to Hokkaido to fully enjoy vast nature. However, I'm agonizing over whether to take an airplane or the Shinkansen for transit.\nNakamura: By Shinkansen, it takes over four hours from Tokyo to Hakodate, you know.\nKobayashi: Exactly. Rather than enduring boredom in a narrow seat for over four hours, even if it costs a bit more, flying all at once to increase my stay at the destination is far more meaningful, right?\nNakamura: I completely agree. Access from the airport is convenient too. By the way, what are you looking forward to most in Hokkaido?\nKobayashi: The lavender fields in Furano. There is no wonderful view that lets one forget daily stress in an instant as much as the scenery of purple flowers in full bloom across the landscape.\nNakamura: That sounds wonderful! Please have a great time.",
+    "turns": [],
+    "questionIds": [
+      "n3.l18.q028",
+      "n3.l18.q029",
+      "n3.l18.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l18.q001",
+      "lessonId": "n3.l18",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「雨で外出できず、一日中テレビを見て（　）な時間を過ごした。」",
+      "choices": [
+        "退屈",
+        "適切",
+        "快晴",
+        "快適"
+      ],
+      "answer": "退屈",
+      "acceptedAnswers": [
+        "退屈"
+      ],
+      "explanation": "やることがなくて暇で飽きてしまう様子を「退屈（たいくつ）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q002",
+      "lessonId": "n3.l18",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉の意味として最も適切なものを一つ選びなさい。\n「ホテルのベッドはとても柔らかく、【快適】に眠ることができた。」",
+      "choices": [
+        "心身に不快感がなく心地よいこと",
+        "値段が非常に安いこと",
+        "とても狭くて窮屈なこと",
+        "危険で恐ろしいこと"
+      ],
+      "answer": "心身に不快感がなく心地よいこと",
+      "acceptedAnswers": [
+        "心身に不快感がなく心地よいこと"
+      ],
+      "explanation": "「快適（かいてき）」は気分や体が心地よく爽やかな様子です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q003",
+      "lessonId": "n3.l18",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「祖母から譲り受けた古い懐中時計は、私にとって（　）な宝物だ。」",
+      "choices": [
+        "貴重",
+        "退屈",
+        "屈辱",
+        "過失"
+      ],
+      "answer": "貴重",
+      "acceptedAnswers": [
+        "貴重"
+      ],
+      "explanation": "極めて大切で価値が高い様子を「貴重（きちょう）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q004",
+      "lessonId": "n3.l18",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉に最も近い意味の言葉を一つ選びなさい。\n「あの時もっと勉強しておけばよかったと深く【後悔】している。」",
+      "choices": [
+        "後から悔やむこと",
+        "嬉しくて喜ぶこと",
+        "誇らしく思うこと",
+        "他人に感謝すること"
+      ],
+      "answer": "後から悔やむこと",
+      "acceptedAnswers": [
+        "後から悔やむこと"
+      ],
+      "explanation": "「後悔（こうかい）」は過去の行為について後から悔やむことです。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q005",
+      "lessonId": "n3.l18",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「試合でライバルに大差で惨敗し、人生最大の（　）を味わった。」",
+      "choices": [
+        "屈辱",
+        "絶景",
+        "快晴",
+        "成果"
+      ],
+      "answer": "屈辱",
+      "acceptedAnswers": [
+        "屈辱"
+      ],
+      "explanation": "面目を失い恥ずかしい思いをさせられることを「屈辱（くつじょく）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q006",
+      "lessonId": "n3.l18",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「山頂から見渡す紅葉の山々は、息をのむほどの（　）だった。」",
+      "choices": [
+        "絶景",
+        "退屈",
+        "我慢",
+        "妥協"
+      ],
+      "answer": "絶景",
+      "acceptedAnswers": [
+        "絶景"
+      ],
+      "explanation": "非常に素晴らしい景色のことを「絶景（ぜっけい）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q007",
+      "lessonId": "n3.l18",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉の意味として最も適切なものを一つ選びなさい。\n「両者が互いに歩み寄り、条件を【妥協】して合意に至った。」",
+      "choices": [
+        "互いに譲り合って解決すること",
+        "裁判で争うこと",
+        "契約をすべて破棄すること",
+        "相手を一方的に非難すること"
+      ],
+      "answer": "互いに譲り合って解決すること",
+      "acceptedAnswers": [
+        "互いに譲り合って解決すること"
+      ],
+      "explanation": "「妥協（だきょう）」は対立する双方が互いに譲り合って合意に達することです。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q008",
+      "lessonId": "n3.l18",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「状況に応じて（　）な処置を取るよう指示された。」",
+      "choices": [
+        "適切",
+        "退屈",
+        "屈辱",
+        "後悔"
+      ],
+      "answer": "適切",
+      "acceptedAnswers": [
+        "適切"
+      ],
+      "explanation": "その場の状況によく当てはまってぴったり合っていることを「適切（てきせつ）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q009",
+      "lessonId": "n3.l18",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「一日中何もしないで【退屈】だ。」",
+      "choices": [
+        "たいくつ",
+        "ていくつ",
+        "たいけつ",
+        "ていけつ"
+      ],
+      "answer": "たいくつ",
+      "acceptedAnswers": [
+        "たいくつ"
+      ],
+      "explanation": "「退」はタイ、「屈」はクツと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q010",
+      "lessonId": "n3.l18",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「定年を機に会社を【退職】する。」",
+      "choices": [
+        "たいしょく",
+        "たいしき",
+        "ていしょく",
+        "ていしき"
+      ],
+      "answer": "たいしょく",
+      "acceptedAnswers": [
+        "たいしょく"
+      ],
+      "explanation": "「退」はタイ、「職」はショクと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q011",
+      "lessonId": "n3.l18",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「新幹線の中で【快適】に過ごす。」",
+      "choices": [
+        "かいてき",
+        "かいてっ",
+        "けいてき",
+        "けいてっ"
+      ],
+      "answer": "かいてき",
+      "acceptedAnswers": [
+        "かいてき"
+      ],
+      "explanation": "「快」はカイ、「適」はテキと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q012",
+      "lessonId": "n3.l18",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「相手の失礼な発言に【屈辱】を感じる。」",
+      "choices": [
+        "くつじょく",
+        "くつしょく",
+        "けつじょく",
+        "けつしょく"
+      ],
+      "answer": "くつじょく",
+      "acceptedAnswers": [
+        "くつじょく"
+      ],
+      "explanation": "「屈」はクツ、「辱」はジョクと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q013",
+      "lessonId": "n3.l18",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の言葉を漢字で書くとき、正しいものを一つ選びなさい。\n「雲ひとつない【かいせい】の空。」",
+      "choices": [
+        "快晴",
+        "怪晴",
+        "開晴",
+        "悔晴"
+      ],
+      "answer": "快晴",
+      "acceptedAnswers": [
+        "快晴"
+      ],
+      "explanation": "気持ちよく晴れ渡った空は「快晴」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q014",
+      "lessonId": "n3.l18",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の言葉を漢字で書くとき、正しいものを一つ選びなさい。\n「状況に応じた【てきせつ】な対応。」",
+      "choices": [
+        "適切",
+        "適節",
+        "笛切",
+        "敵切"
+      ],
+      "answer": "適切",
+      "acceptedAnswers": [
+        "適切"
+      ],
+      "explanation": "ふさわしい対応は「適切」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q015",
+      "lessonId": "n3.l18",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「あんな意地悪な人に頭を下げる（　）、仕事を辞めたほうがましだ。」",
+      "choices": [
+        "くらいなら",
+        "ばかりに",
+        "おかげで",
+        "せいで"
+      ],
+      "answer": "くらいなら",
+      "acceptedAnswers": [
+        "くらいなら"
+      ],
+      "explanation": "「頭を下げるくらいなら〜辞めたほうがましだ」で、極めて嫌な選択肢に対する強い拒否を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q016",
+      "lessonId": "n3.l18",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「健康（　）ありがたいものはないと、病気になって初めて痛感した。」",
+      "choices": [
+        "ほど",
+        "ばかり",
+        "せいで",
+        "おかげで"
+      ],
+      "answer": "ほど",
+      "acceptedAnswers": [
+        "ほど"
+      ],
+      "explanation": "「健康ほどありがたいものはない」で、健康こそが最もありがたいという心情的確信を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q017",
+      "lessonId": "n3.l18",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「後で言い訳をして後悔する（　）、今全力でぶつかるべきだ。」",
+      "choices": [
+        "くらいなら",
+        "おかげで",
+        "反面",
+        "最中に"
+      ],
+      "answer": "くらいなら",
+      "acceptedAnswers": [
+        "くらいなら"
+      ],
+      "explanation": "「後悔するくらいなら今全力でぶつかるべきだ」という選択的選好を表すため「くらいなら」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q018",
+      "lessonId": "n3.l18",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「母の手料理（　）心温まる美味しい料理は他にない。」",
+      "choices": [
+        "くらい",
+        "ばかり",
+        "せいで",
+        "わりに"
+      ],
+      "answer": "くらい",
+      "acceptedAnswers": [
+        "くらい"
+      ],
+      "explanation": "「母の手料理くらい〜美味しい料理はない」で、最高峰の比較を表す「くらい（ほど）…はない」构文です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q019",
+      "lessonId": "n3.l18",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な接続の形を選びなさい。\n「不当な条件を（　）くらいなら、契約を断念したほうがよい。」",
+      "choices": [
+        "受け入れる",
+        "受け入れた",
+        "受け入れている",
+        "受け入れよう"
+      ],
+      "answer": "受け入れる",
+      "acceptedAnswers": [
+        "受け入れる"
+      ],
+      "explanation": "「〜くらいなら」の前には動詞の辞書形（原形）が接続します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q020",
+      "lessonId": "n3.l18",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の文のうち、文法的に最も自然な文はどれか。",
+      "choices": [
+        "富士山は日本で一番高い山ほどだ。",
+        "世界で一番深い海ほど太平洋はない。",
+        "苦しい思いをして生き延びるくらいなら、正々堂々と戦いたい。",
+        "きのう食べたラーメンくらいなら美味しい。"
+      ],
+      "answer": "苦しい思いをして生き延びるくらいなら、正々堂々と戦いたい。",
+      "acceptedAnswers": [
+        "苦しい思いをして生き延びるくらいなら、正々堂々と戦いたい。"
+      ],
+      "explanation": "「〜くらいなら〜したい」の自然な選択表現です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q021",
+      "lessonId": "n3.l18",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「試験の前日に眠気と戦って徹夜する（　）、早起きして復習するほうが頭に入る。」",
+      "choices": [
+        "くらいなら",
+        "せいで",
+        "おかげで",
+        "あまり"
+      ],
+      "answer": "くらいなら",
+      "acceptedAnswers": [
+        "くらいなら"
+      ],
+      "explanation": "前者を拒否して後者を選択する表現「徹夜するくらいなら〜」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q022",
+      "lessonId": "n3.l18",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「困難な状況で助けてくれた親友（　）頼もしい存在はいない。」",
+      "choices": [
+        "ほど",
+        "ばかり",
+        "わりに",
+        "せいで"
+      ],
+      "answer": "ほど",
+      "acceptedAnswers": [
+        "ほど"
+      ],
+      "explanation": "「親友ほど頼もしい存在はいない」の最上級否定比較構文です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q023",
+      "lessonId": "n3.l18",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の会話文の（　）に入れるのに最も適切なものを一つ選びなさい。\nA：「満員電車に乗るのが本当にストレスなんだ。」\nB：「満員電車に揺られる（　）、自転車で通ったほうが健康的だよ。」",
+      "choices": [
+        "くらいなら",
+        "おかげで",
+        "最中に",
+        "反面"
+      ],
+      "answer": "くらいなら",
+      "acceptedAnswers": [
+        "くらいなら"
+      ],
+      "explanation": "満員電車を我慢するくらいなら自転車のほうが良いという代替案提示です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q024",
+      "lessonId": "n3.l18",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入る言葉の組み合わせとして最も適切なものを一つ選びなさい。\n「自由を（　）くらいなら、貧しい暮らしに（　）ほうがましだ。」",
+      "choices": [
+        "奪われる / 耐える",
+        "奪われた / 耐える",
+        "奪われる / 耐えた",
+        "奪う / 耐える"
+      ],
+      "answer": "奪われる / 耐える",
+      "acceptedAnswers": [
+        "奪われる / 耐える"
+      ],
+      "explanation": "「自由を奪われる（受身の辞書形）くらいなら、貧しい暮らしに耐える（辞書形）ほうがましだ」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q025",
+      "lessonId": "n3.l18",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "高橋さんが都会での生活を見直すきっかけとなった出来事は何か。",
+      "choices": [
+        "心身の疲労から体調を崩し、点滴を受けたこと",
+        "会社の経営が悪化して給料が半分に減ったこと",
+        "長野県に住む親戚から農業を手伝ってほしいと頼まれたこと",
+        "東京で大きな地震が発生して電車が完全に止まったこと"
+      ],
+      "answer": "心身の疲労から体調を崩し、点滴を受けたこと",
+      "acceptedAnswers": [
+        "心身の疲労から体調を崩し、点滴を受けたこと"
+      ],
+      "explanation": "第2段落に「ある日、体調を崩して点滴を受けながら、高橋さんは自分の生き方を見つめ直した」と明記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q026",
+      "lessonId": "n3.l18",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "高橋さんが移住を決意した際の心情として最も適切なものはどれか。",
+      "choices": [
+        "健康を損なってまで高い収入のために我慢して働くくらいなら、自分の時間を大切にできる環境に移りたいと考えた",
+        "都会のIT企業で出世して社長になるくらいなら、政治家を目指したいと考えた",
+        "家族全員で海外に移住して新しいビジネスを立ち上げたいと考えた",
+        "農業で大儲けして都会に豪邸を建て直したいと考えた"
+      ],
+      "answer": "健康を損なってまで高い収入のために我慢して働くくらいなら、自分の時間を大切にできる環境に移りたいと考えた",
+      "acceptedAnswers": [
+        "健康を損なってまで高い収入のために我慢して働くくらいなら、自分の時間を大切にできる環境に移りたいと考えた"
+      ],
+      "explanation": "第2段落で「心身の健康を損なってまで、高い収入のために我慢して働き続けるくらいなら、収入が減ってでも自分の時間を大切にできる環境へ移ったほうがずっと豊かではないか」と確信したと書かれています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q027",
+      "lessonId": "n3.l18",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "高橋さんが長野県での新しい生活で気付いた「真の豊かさ」とは何か。",
+      "choices": [
+        "四季の移ろいを感じ、家族や地域の人々と穏やかな時間を共有すること",
+        "都会の便利な施設をすべて田舎に再現すること",
+        "誰とも話さずに一日中一人でゲームに没頭すること",
+        "最短時間で億万長者になるための投資を成功させること"
+      ],
+      "answer": "四季の移ろいを感じ、家族や地域の人々と穏やかな時間を共有すること",
+      "acceptedAnswers": [
+        "四季の移ろいを感じ、家族や地域の人々と穏やかな時間を共有すること"
+      ],
+      "explanation": "最終段落で「四季の移ろいを肌で感じ、家族や地域の人々と穏やかな時間を共有することほど、人生においてかけがえのない贅沢はない」「日々の心の安らぎこそが何物にも勝る真の豊かさである」と述べられています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q028",
+      "lessonId": "n3.l18",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "小林さんが移動手段として飛行機を選ぼうとしている理由として適切なものはどれか。",
+      "choices": [
+        "新幹線で4時間以上も退屈を我慢するくらいなら、飛行機で早く着いて現地での滞在時間を増やしたいから",
+        "新幹線のチケットがすでに完売していたから",
+        "飛行機のほうが新幹線よりも料金が大幅に安かったから",
+        "北海道への新幹線が現在工事で運休しているから"
+      ],
+      "answer": "新幹線で4時間以上も退屈を我慢するくらいなら、飛行機で早く着いて現地での滞在時間を増やしたいから",
+      "acceptedAnswers": [
+        "新幹線で4時間以上も退屈を我慢するくらいなら、飛行機で早く着いて現地での滞在時間を増やしたいから"
+      ],
+      "explanation": "小林さんが「狭い座席で4時間以上も退屈を我慢するくらいなら、多少高くても飛行機で一気に飛んで現地での滞在時間を増やしたほうがずっと有意義ですよね」と語っています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q029",
+      "lessonId": "n3.l18",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "小林さんが北海道で最も楽しみにしている場所はどこか。",
+      "choices": [
+        "富良野のラベンダー畑",
+        "函館の夜景",
+        "札幌の時計台",
+        "小樽の運河"
+      ],
+      "answer": "富良野のラベンダー畑",
+      "acceptedAnswers": [
+        "富良野のラベンダー畑"
+      ],
+      "explanation": "小林さんが「富良野のラベンダー畑です」と答えています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l18.q030",
+      "lessonId": "n3.l18",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "小林さんが富良野のラベンダー畑を楽しみにしている理由は何か。",
+      "choices": [
+        "一面に咲く紫の花景色ほど、日頃のストレスを一瞬で忘れさせてくれる素晴らしい景色はないから",
+        "ラベンダーのアイスクリームが世界一有名だから",
+        "友人がそこでラベンダー農家を営んでいるから",
+        "新幹線の終着駅の目の前にあるから"
+      ],
+      "answer": "一面に咲く紫の花景色ほど、日頃のストレスを一瞬で忘れさせてくれる素晴らしい景色はないから",
+      "acceptedAnswers": [
+        "一面に咲く紫の花景色ほど、日頃のストレスを一瞬で忘れさせてくれる素晴らしい景色はないから"
+      ],
+      "explanation": "小林さんが「一面に咲き誇る紫の花景色ほど、日頃のストレスを一瞬で忘れさせてくれる素晴らしい景色はないですからね」と述べています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

@@ -1,0 +1,1599 @@
+{
+  "id": "n5.l09",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 9,
+  "title": "Preferences and Abilities (好き・上手)",
+  "description": "Express personal likes, dislikes, skills, and difficulties using particle が with stative adjectives, and explain reasons with conjunction から.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l09.v001",
+      "lessonId": "n5.l09",
+      "ja": "好き",
+      "kana": "すき",
+      "en": "Like / Fond of",
+      "my": "ကြိုက်နှစ်သက်သော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n5.l09.s001",
+      "kanjiIds": [
+        "n5.l09.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.v002",
+      "lessonId": "n5.l09",
+      "ja": "嫌い",
+      "kana": "きらい",
+      "en": "Dislike / Hate",
+      "my": "မကြိုက်သော / မုန်းသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n5.l09.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.v003",
+      "lessonId": "n5.l09",
+      "ja": "上手",
+      "kana": "じょうず",
+      "en": "Skillful / Good at",
+      "my": "တော်သော / ကျွမ်းကျင်သော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n5.l09.s002",
+      "kanjiIds": [
+        "n5.l09.k002"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.v004",
+      "lessonId": "n5.l09",
+      "ja": "下手",
+      "kana": "へた",
+      "en": "Unskillful / Poor at",
+      "my": "ညံ့သော / မကျွမ်းကျင်သော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n5.l09.s004",
+      "kanjiIds": [
+        "n5.l09.k003"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.v005",
+      "lessonId": "n5.l09",
+      "ja": "料理",
+      "kana": "りょうり",
+      "en": "Cooking / Cuisine",
+      "my": "ဟင်းချက်ခြင်း / အစားအစာ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l09.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.v006",
+      "lessonId": "n5.l09",
+      "ja": "スポーツ",
+      "kana": "すぽーつ",
+      "en": "Sports",
+      "my": "အားကစား",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l09.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.v007",
+      "lessonId": "n5.l09",
+      "ja": "音楽",
+      "kana": "おんがく",
+      "en": "Music",
+      "my": "ဂီတ / သီချင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l09.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.v008",
+      "lessonId": "n5.l09",
+      "ja": "歌",
+      "kana": "うた",
+      "en": "Song",
+      "my": "သီချင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l09.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.v009",
+      "lessonId": "n5.l09",
+      "ja": "絵",
+      "kana": "え",
+      "en": "Picture / Painting",
+      "my": "ပန်းချီ / ပုံ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l09.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.v010",
+      "lessonId": "n5.l09",
+      "ja": "映画",
+      "kana": "えいが",
+      "en": "Movie / Film",
+      "my": "ရုပ်ရှင်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l09.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.v011",
+      "lessonId": "n5.l09",
+      "ja": "どうして",
+      "kana": "どうして",
+      "en": "Why",
+      "my": "ဘာကြောင့်လဲ",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l09.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.v012",
+      "lessonId": "n5.l09",
+      "ja": "から",
+      "kana": "から",
+      "en": "Because / Since",
+      "my": "သောကြောင့် / ဖြစ်သည့်အတွက်",
+      "pos": "particle",
+      "exampleSentenceId": "n5.l09.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l09.k001",
+      "lessonId": "n5.l09",
+      "char": "好",
+      "meaning": "Like, fond",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "す.き",
+        "この.む"
+      ],
+      "exampleVocab": [
+        {
+          "word": "好き (すき)",
+          "reading": "すき",
+          "meaning": "Liked / Favorite",
+          "preview": false
+        },
+        {
+          "word": "大好き (だいすき)",
+          "reading": "だいすき",
+          "meaning": "Love / Greatly liked",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l09.s001"
+      ],
+      "components": [
+        "好"
+      ],
+      "strokes": 6,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.k002",
+      "lessonId": "n5.l09",
+      "char": "上",
+      "meaning": "Above, up, superior",
+      "onyomi": [
+        "ジョウ"
+      ],
+      "kunyomi": [
+        "うえ",
+        "あ.がる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "上手 (じょうず)",
+          "reading": "じょうず",
+          "meaning": "Skillful",
+          "preview": false
+        },
+        {
+          "word": "机の上 (つくえのうえ)",
+          "reading": "つくえのうえ",
+          "meaning": "On the desk",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l09.s002"
+      ],
+      "components": [
+        "上"
+      ],
+      "strokes": 3,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.k003",
+      "lessonId": "n5.l09",
+      "char": "下",
+      "meaning": "Below, down, inferior",
+      "onyomi": [
+        "カ",
+        "ゲ"
+      ],
+      "kunyomi": [
+        "した",
+        "さ.がる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "下手 (へた)",
+          "reading": "へた",
+          "meaning": "Unskillful",
+          "preview": false
+        },
+        {
+          "word": "木の下 (きのした)",
+          "reading": "きのした",
+          "meaning": "Under the tree",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l09.s003"
+      ],
+      "components": [
+        "下"
+      ],
+      "strokes": 3,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.k004",
+      "lessonId": "n5.l09",
+      "char": "中",
+      "meaning": "Inside, middle",
+      "onyomi": [
+        "チュウ"
+      ],
+      "kunyomi": [
+        "なか"
+      ],
+      "exampleVocab": [
+        {
+          "word": "一日中 (いちにちじゅう)",
+          "reading": "いちにちじゅう",
+          "meaning": "All day long",
+          "preview": false
+        },
+        {
+          "word": "部屋の中 (へやのなか)",
+          "reading": "へやのなか",
+          "meaning": "Inside the room",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l09.s004"
+      ],
+      "components": [
+        "中"
+      ],
+      "strokes": 4,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l09.g001",
+      "lessonId": "n5.l09",
+      "pattern": "[Noun] が 好きです / 上手です",
+      "meaning": "Like [Noun] / Good at [Noun]",
+      "formation": "Topic (は) + Object of preference/skill + が + 好き/嫌い/上手/下手 + です",
+      "explanation": {
+        "en": "Unlike English where like/skill take direct objects, in Japanese the target of feeling or capability is marked by particle が because 好き/上手 are stative predicates.",
+        "my": "ကြိုက်နှစ်သက်မှုနှင့် ကျွမ်းကျင်မှုကို ဖော်ပြသည့်အခါ ကံပုဒ်နောက်တွင် 「が」 လိုက်သည်။ (ဥပမာ 日本料理が好きです)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l09.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l09.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do NOT say *日本語を好きです. The target of 好き must be marked with が (日本語が好きです)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.g002",
+      "lessonId": "n5.l09",
+      "pattern": "[Reason sentence] から、[Result sentence]",
+      "meaning": "Because [Reason], [Result]",
+      "formation": "Clause 1 (Reason) + から、 + Clause 2 (Result)",
+      "explanation": {
+        "en": "から attaches to the reason clause. Can also end a sentence to answer どうしてですか (Why?).",
+        "my": "အကြောင်းပြချက်ဝါကျနောက်တွင် 「から」 (သောကြောင့်) ထည့်ပြီး ရလဒ်ဝါကျကို ဆက်ရေးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l09.s003",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l09.s004",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Remember the order: Reason comes BEFORE から. (時間がありませんから、タクシーで行きます = Because I have no time, I will go by taxi)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l09.s001",
+      "lessonId": "n5.l09",
+      "ja": "私は日本料理がとても好きです。",
+      "kana": "わたしはにほんりょうりがとてもすきです。",
+      "translation": {
+        "en": "I like Japanese food very much.",
+        "my": "ကျွန်တော် ဂျပန်ဟင်းလျာကို အရမ်းကြိုက်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l09.v001",
+        "n5.l09.v005"
+      ],
+      "grammarIds": [
+        "n5.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.s002",
+      "lessonId": "n5.l09",
+      "ja": "スミスさんはテニスがとても上手です。",
+      "kana": "すみすさんはてにすがとてもじょうずです。",
+      "translation": {
+        "en": "Smith-san is very good at tennis.",
+        "my": "မစ္စတာ စမစ်က တင်းနစ် အရမ်းတော်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l09.v003",
+        "n5.l09.v006"
+      ],
+      "grammarIds": [
+        "n5.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.s003",
+      "lessonId": "n5.l09",
+      "ja": "忙しいですから、テレビをあまり見ません。",
+      "kana": "いそがしいですから、てれびをあまりみません。",
+      "translation": {
+        "en": "Because I am busy, I do not watch TV much.",
+        "my": "အလုပ်များတဲ့အတွက် တီဗွီ သိပ်မကြည့်ဖြစ်ပါဘူး။"
+      },
+      "vocabIds": [
+        "n5.l09.v012"
+      ],
+      "grammarIds": [
+        "n5.l09.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.s004",
+      "lessonId": "n5.l09",
+      "ja": "どうして昨日学校を休みましたか。熱がありましたから。",
+      "kana": "どうしてきのうがっこうをやすみましたか。ねつがありましたから。",
+      "translation": {
+        "en": "Why were you absent from school yesterday? Because I had a fever.",
+        "my": "ဘာကြောင့် မနေ့က ကျောင်းပျက်ခဲ့တာလဲ။ ဖျားနေခဲ့လို့ပါ။"
+      },
+      "vocabIds": [
+        "n5.l09.v011",
+        "n5.l09.v012"
+      ],
+      "grammarIds": [
+        "n5.l09.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.s005",
+      "lessonId": "n5.l09",
+      "ja": "私は絵を描くことがあまり上手ではありません。",
+      "kana": "わたしはえをかくことがあまりじょうずではありません。",
+      "translation": {
+        "en": "I am not very good at drawing pictures.",
+        "my": "ကျွန်တော် ပန်းချီဆွဲတာ သိပ်မတော်ပါဘူး။"
+      },
+      "vocabIds": [
+        "n5.l09.v003",
+        "n5.l09.v009"
+      ],
+      "grammarIds": [
+        "n5.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.s006",
+      "lessonId": "n5.l09",
+      "ja": "音楽が好きですから、クラシックのコンサートへ行きます。",
+      "kana": "おんがくがすきですから、くらしっくのこんさーとへいきます。",
+      "translation": {
+        "en": "Because I love music, I am going to a classical concert.",
+        "my": "ဂီတကို ကြိုက်နှစ်သက်တဲ့အတွက် ဂန္ထဝင်တေးဂီတဖျော်ဖြေပွဲကို သွားမှာပါ။"
+      },
+      "vocabIds": [
+        "n5.l09.v001",
+        "n5.l09.v007",
+        "n5.l09.v012"
+      ],
+      "grammarIds": [
+        "n5.l09.g001",
+        "n5.l09.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.s007",
+      "lessonId": "n5.l09",
+      "ja": "とても嫌いです。",
+      "kana": "とてもきらいです。",
+      "translation": {
+        "en": "It is very dislike / hate.",
+        "my": "အရမ်း မကြိုက်သော / မုန်းသော ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l09.v002"
+      ],
+      "grammarIds": [
+        "n5.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.s008",
+      "lessonId": "n5.l09",
+      "ja": "とても下手です。",
+      "kana": "とてもへたです。",
+      "translation": {
+        "en": "It is very unskillful / poor at.",
+        "my": "အရမ်း ညံ့သော / မကျွမ်းကျင်သော ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l09.v004"
+      ],
+      "grammarIds": [
+        "n5.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.s009",
+      "lessonId": "n5.l09",
+      "ja": "これは歌です。",
+      "kana": "これはうたです。",
+      "translation": {
+        "en": "This is a song.",
+        "my": "ဒါဟာ သီချင်း ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l09.v008"
+      ],
+      "grammarIds": [
+        "n5.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l09.s010",
+      "lessonId": "n5.l09",
+      "ja": "これは映画です。",
+      "kana": "これはえいがです。",
+      "translation": {
+        "en": "This is a movie / film.",
+        "my": "ဒါဟာ ရုပ်ရှင် ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l09.v010"
+      ],
+      "grammarIds": [
+        "n5.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l09.r01",
+    "lessonId": "n5.l09",
+    "title": "Preferences and Abilities (好き・上手) - 読解",
+    "level": "N5",
+    "text": "私の趣味は料理と日本の映画を見ることです。休みの日はよく自分で日本の料理を作ります。寿司や天ぷらが大好きですから、本を見ながら作ります。歌を歌うことも好きですが、あまり上手ではありませんから、一人で部屋で歌います。日本語のアニメも好きですから、毎日セリフを聞いて勉強します。",
+    "kanaText": "わたしのしゅみはりょうりとにほんのえいがをみることです。やすみのひはよくじぶんでにほんのりょうりをつくります。すしやてんぷらがだいすきですから、ほんをみながらつくります。うたをうたうこともすきですが、あまりじょうずではありませんから、ひとりでへやでうたいます。にほんのあにめもすきですから、まいにちせりふをきいてべんきょうします。",
+    "translation": "My hobbies are cooking and watching Japanese films. On days off, I often cook Japanese dishes myself. Because I love sushi and tempura, I make them while looking at recipe books. I also like singing, but because I am not very good at it, I sing alone in my room. I also love Japanese anime, so I listen to the dialogue every day to study.",
+    "questionIds": [
+      "n5.l09.q021",
+      "n5.l09.q022",
+      "n5.l09.q023",
+      "n5.l09.q024",
+      "n5.l09.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l09.l01",
+    "lessonId": "n5.l09",
+    "title": "Preferences and Abilities (好き・上手) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "タナカ",
+      "ワン"
+    ],
+    "transcript": "タナカ：ワンさん、今日の放課後、カラオケへ行きませんか。\nワン：カラオケですか。うーん、私は歌があまり上手じゃありませんから...。\nタナカ：大丈夫ですよ！私も下手ですから。ただ音楽を聴いて楽しみましょう。\nワン：そうですか。日本の歌を聴くのは大好きですから、行きます！",
+    "translation": "Two classmates discuss singing and music preferences after school.",
+    "turns": [
+      {
+        "speaker": "タナカ",
+        "ja": "ワンさん、今日の放課後、カラオケへ行きませんか。",
+        "kana": "わんさん、きょうのほうかご、からおけへいきませんか。",
+        "en": "Wang-san, won't you go to karaoke after school today?"
+      },
+      {
+        "speaker": "ワン",
+        "ja": "カラオケですか。うーん、私は歌があまり上手じゃありませんから...。",
+        "kana": "からおけですか。うーん、わたしはうたがあまりじょうずじゃありませんから...。",
+        "en": "Karaoke? Well, because I am not very good at singing..."
+      },
+      {
+        "speaker": "タナカ",
+        "ja": "大丈夫ですよ！私も下手ですから。ただ音楽を聴いて楽しみましょう。",
+        "kana": "だいじょうぶですよ！わたしもへたですから。ただおんがくをきいてたのしみましょう。",
+        "en": "Don't worry! I'm poor at it too. Let's just enjoy listening to music."
+      },
+      {
+        "speaker": "ワン",
+        "ja": "そうですか。日本の歌を聴くのは大好きですから、行きます！",
+        "kana": "そうですか。にほんのうたをきくのはだいすきですから、いきます！",
+        "en": "Really? I love listening to Japanese songs, so I will come along!"
+      }
+    ],
+    "questionIds": [
+      "n5.l09.q026",
+      "n5.l09.q027",
+      "n5.l09.q028",
+      "n5.l09.q029",
+      "n5.l09.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l09.q001",
+      "lessonId": "n5.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「好き」の意味は何ですか。 (What does 「好き」 mean?)",
+      "choices": [
+        "Like / Fond of",
+        "Dislike / Hate",
+        "Skillful / Good at",
+        "Unskillful / Poor at"
+      ],
+      "answer": "Like / Fond of",
+      "acceptedAnswers": [
+        "Like / Fond of"
+      ],
+      "explanation": "「好き」(すき) means \"Like / Fond of\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q002",
+      "lessonId": "n5.l09",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Dislike / Hate\" in hiragana:",
+      "answer": "きらい",
+      "acceptedAnswers": [
+        "きらい",
+        "嫌い"
+      ],
+      "explanation": "The Japanese word for \"Dislike / Hate\" is 嫌い (きらい).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q003",
+      "lessonId": "n5.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「上手」の意味は何ですか。 (What does 「上手」 mean?)",
+      "choices": [
+        "Sports",
+        "Cooking / Cuisine",
+        "Unskillful / Poor at",
+        "Skillful / Good at"
+      ],
+      "answer": "Skillful / Good at",
+      "acceptedAnswers": [
+        "Skillful / Good at"
+      ],
+      "explanation": "「上手」(じょうず) means \"Skillful / Good at\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q004",
+      "lessonId": "n5.l09",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Unskillful / Poor at\" in hiragana:",
+      "answer": "へた",
+      "acceptedAnswers": [
+        "へた",
+        "下手"
+      ],
+      "explanation": "The Japanese word for \"Unskillful / Poor at\" is 下手 (へた).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q005",
+      "lessonId": "n5.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「料理」の意味は何ですか。 (What does 「料理」 mean?)",
+      "choices": [
+        "Song",
+        "Music",
+        "Sports",
+        "Cooking / Cuisine"
+      ],
+      "answer": "Cooking / Cuisine",
+      "acceptedAnswers": [
+        "Cooking / Cuisine"
+      ],
+      "explanation": "「料理」(りょうり) means \"Cooking / Cuisine\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q006",
+      "lessonId": "n5.l09",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Sports\" in hiragana:",
+      "answer": "すぽーつ",
+      "acceptedAnswers": [
+        "すぽーつ",
+        "スポーツ"
+      ],
+      "explanation": "The Japanese word for \"Sports\" is スポーツ (すぽーつ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q007",
+      "lessonId": "n5.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「音楽」の意味は何ですか。 (What does 「音楽」 mean?)",
+      "choices": [
+        "Music",
+        "Song",
+        "Picture / Painting",
+        "Movie / Film"
+      ],
+      "answer": "Music",
+      "acceptedAnswers": [
+        "Music"
+      ],
+      "explanation": "「音楽」(おんがく) means \"Music\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q008",
+      "lessonId": "n5.l09",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Song\" in hiragana:",
+      "answer": "うた",
+      "acceptedAnswers": [
+        "うた",
+        "歌"
+      ],
+      "explanation": "The Japanese word for \"Song\" is 歌 (うた).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q009",
+      "lessonId": "n5.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「絵」の意味は何ですか。 (What does 「絵」 mean?)",
+      "choices": [
+        "Because / Since",
+        "Why",
+        "Movie / Film",
+        "Picture / Painting"
+      ],
+      "answer": "Picture / Painting",
+      "acceptedAnswers": [
+        "Picture / Painting"
+      ],
+      "explanation": "「絵」(え) means \"Picture / Painting\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q010",
+      "lessonId": "n5.l09",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Movie / Film\" in hiragana:",
+      "answer": "えいが",
+      "acceptedAnswers": [
+        "えいが",
+        "映画"
+      ],
+      "explanation": "The Japanese word for \"Movie / Film\" is 映画 (えいが).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q011",
+      "lessonId": "n5.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「どうして」の意味は何ですか。 (What does 「どうして」 mean?)",
+      "choices": [
+        "Dislike / Hate",
+        "Like / Fond of",
+        "Because / Since",
+        "Why"
+      ],
+      "answer": "Why",
+      "acceptedAnswers": [
+        "Why"
+      ],
+      "explanation": "「どうして」(どうして) means \"Why\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q012",
+      "lessonId": "n5.l09",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Because / Since\" in hiragana:",
+      "answer": "から",
+      "acceptedAnswers": [
+        "から",
+        "から"
+      ],
+      "explanation": "The Japanese word for \"Because / Since\" is から (から).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q013",
+      "lessonId": "n5.l09",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「好」の意味は何ですか。 (What is the meaning of kanji 「好」?)",
+      "choices": [
+        "Like, fond",
+        "Above, up, superior",
+        "Below, down, inferior",
+        "Tree"
+      ],
+      "answer": "Like, fond",
+      "acceptedAnswers": [
+        "Like, fond"
+      ],
+      "explanation": "「好」means \"Like, fond\". Onyomi: コウ, Kunyomi: す.き, この.む.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q014",
+      "lessonId": "n5.l09",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「好」の読み方はどれですか。 (Which is a correct reading for 「好」?)",
+      "choices": [
+        "す.き",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "す.き",
+      "acceptedAnswers": [
+        "す.き"
+      ],
+      "explanation": "「好」 has the reading 「す.き」 (Like, fond).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q015",
+      "lessonId": "n5.l09",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「上」の意味は何ですか。 (What is the meaning of kanji 「上」?)",
+      "choices": [
+        "Above, up, superior",
+        "Like, fond",
+        "Below, down, inferior",
+        "Tree"
+      ],
+      "answer": "Above, up, superior",
+      "acceptedAnswers": [
+        "Above, up, superior"
+      ],
+      "explanation": "「上」means \"Above, up, superior\". Onyomi: ジョウ, Kunyomi: うえ, あ.がる.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q016",
+      "lessonId": "n5.l09",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「上」の読み方はどれですか。 (Which is a correct reading for 「上」?)",
+      "choices": [
+        "うえ",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "うえ",
+      "acceptedAnswers": [
+        "うえ"
+      ],
+      "explanation": "「上」 has the reading 「うえ」 (Above, up, superior).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q017",
+      "lessonId": "n5.l09",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「下」の意味は何ですか。 (What is the meaning of kanji 「下」?)",
+      "choices": [
+        "Below, down, inferior",
+        "Like, fond",
+        "Above, up, superior",
+        "Tree"
+      ],
+      "answer": "Below, down, inferior",
+      "acceptedAnswers": [
+        "Below, down, inferior"
+      ],
+      "explanation": "「下」means \"Below, down, inferior\". Onyomi: カ, ゲ, Kunyomi: した, さ.がる.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q018",
+      "lessonId": "n5.l09",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「下」の読み方はどれですか。 (Which is a correct reading for 「下」?)",
+      "choices": [
+        "した",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "した",
+      "acceptedAnswers": [
+        "した"
+      ],
+      "explanation": "「下」 has the reading 「した」 (Below, down, inferior).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q019",
+      "lessonId": "n5.l09",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「中」の意味は何ですか。 (What is the meaning of kanji 「中」?)",
+      "choices": [
+        "Inside, middle",
+        "Like, fond",
+        "Above, up, superior",
+        "Tree"
+      ],
+      "answer": "Inside, middle",
+      "acceptedAnswers": [
+        "Inside, middle"
+      ],
+      "explanation": "「中」means \"Inside, middle\". Onyomi: チュウ, Kunyomi: なか.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q020",
+      "lessonId": "n5.l09",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「中」の読み方はどれですか。 (Which is a correct reading for 「中」?)",
+      "choices": [
+        "なか",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "なか",
+      "acceptedAnswers": [
+        "なか"
+      ],
+      "explanation": "「中」 has the reading 「なか」 (Inside, middle).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q021",
+      "lessonId": "n5.l09",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "主人公の趣味は何ですか。 (What are the protagonist's hobbies?)",
+      "choices": [
+        "料理と日本映画の鑑賞",
+        "スポーツと読書",
+        "写真と旅行",
+        "ゲームと絵を描くこと"
+      ],
+      "answer": "料理と日本映画の鑑賞",
+      "acceptedAnswers": [
+        "料理と日本映画の鑑賞"
+      ],
+      "explanation": "「私の趣味は料理と日本の映画を見ることです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q022",
+      "lessonId": "n5.l09",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "大好きな料理は何ですか。 (What dishes are loved most?)",
+      "choices": [
+        "寿司や天ぷら",
+        "カレーとラーメン",
+        "肉料理",
+        "フランス料理"
+      ],
+      "answer": "寿司や天ぷら",
+      "acceptedAnswers": [
+        "寿司や天ぷら"
+      ],
+      "explanation": "「寿司や天ぷらが大好きですから...」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q023",
+      "lessonId": "n5.l09",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "なぜ一人で部屋で歌いますか。 (Why does the protagonist sing alone in their room?)",
+      "choices": [
+        "あまり歌が上手ではないから",
+        "友達がいないから",
+        "部屋が防音だから",
+        "夜遅いから"
+      ],
+      "answer": "あまり歌が上手ではないから",
+      "acceptedAnswers": [
+        "あまり歌が上手ではないから"
+      ],
+      "explanation": "「あまり上手ではありませんから、一人で部屋で歌います」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q024",
+      "lessonId": "n5.l09",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "休みの日に何をしますか。 (What do they do on days off?)",
+      "choices": [
+        "自分で日本料理を作る",
+        "映画館へ行く",
+        "外食する",
+        "一日中寝る"
+      ],
+      "answer": "自分で日本料理を作る",
+      "acceptedAnswers": [
+        "自分で日本料理を作る"
+      ],
+      "explanation": "「休みの日はよく自分で日本の料理を作ります」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q025",
+      "lessonId": "n5.l09",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "アニメをどのように活用していますか。 (How do they use anime?)",
+      "choices": [
+        "セリフを聞いて日本語を勉強する",
+        "絵を描く練習をする",
+        "友達と語り合う",
+        "声優を目指す"
+      ],
+      "answer": "セリフを聞いて日本語を勉強する",
+      "acceptedAnswers": [
+        "セリフを聞いて日本語を勉強する"
+      ],
+      "explanation": "「毎日セリフを聞いて勉強します」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q026",
+      "lessonId": "n5.l09",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "タナカさんはワンさんをどこに誘いましたか。 (Where did Tanaka invite Wang-san?)",
+      "choices": [
+        "カラオケ",
+        "映画館",
+        "喫茶店",
+        "コンサート"
+      ],
+      "answer": "カラオケ",
+      "acceptedAnswers": [
+        "カラオケ"
+      ],
+      "explanation": "Tanaka invites: 「今日の放課後、カラオケへ行きませんか」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q027",
+      "lessonId": "n5.l09",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ワンさんは最初なぜ迷いましたか。 (Why was Wang hesitant at first?)",
+      "choices": [
+        "歌があまり上手ではないから",
+        "お金がないから",
+        "宿題が多いから",
+        "用事があるから"
+      ],
+      "answer": "歌があまり上手ではないから",
+      "acceptedAnswers": [
+        "歌があまり上手ではないから"
+      ],
+      "explanation": "Wang admits: 「私は歌があまり上手じゃありませんから...」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q028",
+      "lessonId": "n5.l09",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "タナカさんは自分の歌について何と言いましたか。 (What did Tanaka say about his own singing?)",
+      "choices": [
+        "自分も下手だから大丈夫",
+        "とても上手だから教える",
+        "歌手になりたい",
+        "プロ並みである"
+      ],
+      "answer": "自分も下手だから大丈夫",
+      "acceptedAnswers": [
+        "自分も下手だから大丈夫"
+      ],
+      "explanation": "Tanaka encourages: 「大丈夫ですよ！私も下手ですから」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q029",
+      "lessonId": "n5.l09",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ワンさんは最終的にどうすることにしましたか。 (What did Wang decide in the end?)",
+      "choices": [
+        "日本の歌を聴くのが大好きだから行く",
+        "断って帰宅した",
+        "図書館へ行った",
+        "来週行くことにした"
+      ],
+      "answer": "日本の歌を聴くのが大好きだから行く",
+      "acceptedAnswers": [
+        "日本の歌を聴くのが大好きだから行く"
+      ],
+      "explanation": "Wang concludes: 「日本の歌を聴くのは大好きですから、行きます！」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l09.q030",
+      "lessonId": "n5.l09",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "いつ行きますか。 (When are they going?)",
+      "choices": [
+        "今日の放課後",
+        "今週末",
+        "明日の昼休み",
+        "日曜日"
+      ],
+      "answer": "今日の放課後",
+      "acceptedAnswers": [
+        "今日の放課後"
+      ],
+      "explanation": "「今日の放課後、カラオケへ行きませんか」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l09.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

@@ -1,0 +1,1588 @@
+{
+  "id": "n4.l04",
+  "level": "N4",
+  "module": "N4 Intermediate Grammar 1",
+  "number": 4,
+  "title": "N4 Lesson 4: Conditional ば-form (仮定形: 行けば・安ければ)",
+  "description": "Master the conditional 〜ば form for logical prerequisites and general truths, and practice proportional changes using the 〜ば〜ほど structure.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l04.v001",
+      "lessonId": "n4.l04",
+      "ja": "便利",
+      "kana": "べんり",
+      "en": "convenient; handy",
+      "my": "အဆင်ပြေသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n4.l04.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.v002",
+      "lessonId": "n4.l04",
+      "ja": "値段",
+      "kana": "ねだん",
+      "en": "price; cost",
+      "my": "စျေးနှုန်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l04.s002",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.v003",
+      "lessonId": "n4.l04",
+      "ja": "給料",
+      "kana": "きゅうりょう",
+      "en": "salary; wages",
+      "my": "လစာ",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l04.s003",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.v004",
+      "lessonId": "n4.l04",
+      "ja": "場所",
+      "kana": "ばしょ",
+      "en": "place; location",
+      "my": "နေရာ/ဌာန",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l04.s004",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.v005",
+      "lessonId": "n4.l04",
+      "ja": "探す",
+      "kana": "さがす",
+      "en": "to search; to look for",
+      "my": "ရှာဖွေသည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l04.s004",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.v006",
+      "lessonId": "n4.l04",
+      "ja": "比べる",
+      "kana": "くらべる",
+      "en": "to compare",
+      "my": "နှိုင်းယှဉ်သည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l04.s005",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.v007",
+      "lessonId": "n4.l04",
+      "ja": "案内所",
+      "kana": "あんないしょ",
+      "en": "information desk; inquiry office",
+      "my": "စုံစမ်းရေးဌာန",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l04.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.v008",
+      "lessonId": "n4.l04",
+      "ja": "質問",
+      "kana": "しつもん",
+      "en": "question; inquiry",
+      "my": "မေးခွန်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l04.s007",
+      "kanjiIds": [
+        "n4.l04.k003",
+        "n4.l04.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.v009",
+      "lessonId": "n4.l04",
+      "ja": "相談",
+      "kana": "そうだん",
+      "en": "consultation; discussion",
+      "my": "တိုင်ပင်ဆွေးနွေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l04.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.v010",
+      "lessonId": "n4.l04",
+      "ja": "詳しい",
+      "kana": "くわしい",
+      "en": "detailed; knowledgeable",
+      "my": "အသေးစိတ်ကျသော/ကျွမ်းကျင်နှံ့စပ်သော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n4.l04.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.v011",
+      "lessonId": "n4.l04",
+      "ja": "練習",
+      "kana": "れんしゅう",
+      "en": "practice; rehearsal",
+      "my": "လေ့ကျင့်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l04.s009",
+      "kanjiIds": [
+        "n4.l04.k001",
+        "n4.l04.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.v012",
+      "lessonId": "n4.l04",
+      "ja": "上手",
+      "kana": "じょうず",
+      "en": "skillful; good at",
+      "my": "တော်သော/ကျွမ်းကျင်သော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n4.l04.s010",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l04.k001",
+      "lessonId": "n4.l04",
+      "char": "練",
+      "meaning": "practice; train; refine",
+      "onyomi": [
+        "レン"
+      ],
+      "kunyomi": [
+        "ね.る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "練習",
+          "reading": "れんしゅう",
+          "meaning": "practice",
+          "preview": false
+        },
+        {
+          "word": "訓練",
+          "reading": "くんれん",
+          "meaning": "training",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l04.s001"
+      ],
+      "components": [],
+      "strokes": 14,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.k002",
+      "lessonId": "n4.l04",
+      "char": "習",
+      "meaning": "learn; custom",
+      "onyomi": [
+        "シュウ"
+      ],
+      "kunyomi": [
+        "なら.う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "練習",
+          "reading": "れんしゅう",
+          "meaning": "practice",
+          "preview": false
+        },
+        {
+          "word": "予習",
+          "reading": "よしゅう",
+          "meaning": "preview of lesson",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l04.s001"
+      ],
+      "components": [],
+      "strokes": 11,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.k003",
+      "lessonId": "n4.l04",
+      "char": "質",
+      "meaning": "quality; matter; substance",
+      "onyomi": [
+        "シツ",
+        "シチ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "質問",
+          "reading": "しつもん",
+          "meaning": "question",
+          "preview": false
+        },
+        {
+          "word": "品質",
+          "reading": "ひんしつ",
+          "meaning": "quality of goods",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l04.s001"
+      ],
+      "components": [],
+      "strokes": 15,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.k004",
+      "lessonId": "n4.l04",
+      "char": "問",
+      "meaning": "question; ask; problem",
+      "onyomi": [
+        "モン"
+      ],
+      "kunyomi": [
+        "と.う",
+        "と.い"
+      ],
+      "exampleVocab": [
+        {
+          "word": "質問",
+          "reading": "しつもん",
+          "meaning": "question",
+          "preview": false
+        },
+        {
+          "word": "問題",
+          "reading": "もんだい",
+          "meaning": "problem/issue",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l04.s001"
+      ],
+      "components": [],
+      "strokes": 11,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l04.g001",
+      "lessonId": "n4.l04",
+      "pattern": "[Verb-ば] / [い-adj 〜ければ] / [な-adj/Noun なら(ば)]",
+      "meaning": "Conditional Form (仮定形: 〜ば)",
+      "formation": "Verbs:\nG1: 行く → 行けば, 飲む → 飲めば\nG2: 食べる → 食べれば, 見る → 見れば\nG3: する → すれば, 来る → くれば\nAdjectives & Nouns:\nい-adj: 安い → 安ければ, いい → よければ\nな-adj / Noun: 暇 → 暇なら(ば), 雨 → 雨なら(ば)",
+      "explanation": {
+        "en": "The ば-conditional expresses a condition necessary for the subsequent clause to happen. Group 1 shifts final -u to -eba (書く→書けば, 行く→行けば). Group 2 replaces る with れば (食べる→食べれば). Group 3: する→すれば, 来る→くれば. For い-adjectives, drop い and add ければ (安い→安ければ, いい→よければ). For な-adjectives and nouns, add なら or ならば (暇なら, 雨なら). Unlike 〜たら, 〜ば focuses on logical premise or hypothetical general conditions.",
+        "my": "နောက်ဆက်တွဲ ဖြစ်ပေါ်လာရန် လိုအပ်သော အခြေအနေ သို့မဟုတ် အကြောင်းတရားကို ဖော်ပြသည်။ အုပ်စု(၁) u အသံမှ eba သို့ပြောင်းသည် (書けば)။ အုပ်စု(၂) る ဖြုတ်၍ れば ပေါင်းသည် (食べれば)။ အုပ်စု(၃) する→すれば၊ くる→くれば ဖြစ်သည်။ い-နာမဝိသေသနတွင် い ဖြုတ်ပြီး ければ (安ければ၊ いい→よければ)။ な-နာမဝိသေသနနှင့် နာမ်တွင် なら/ならば ပေါင်းသည်။ ယေဘုယျဖြစ်ရပ် သို့မဟုတ် သဘာဝနိယာမ အခြေအနေများတွင် ပိုမိုသုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l04.s001",
+          "note": "Example 1"
+        },
+        {
+          "sentenceId": "n4.l04.s002",
+          "note": "Example 2"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Important restriction: If both clauses have the same human subject, the main clause cannot be a request, invitation, or command (e.g. *日本へ行けば、お土産を買ってください is wrong; use 日本へ行ったら instead)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.g002",
+      "lessonId": "n4.l04",
+      "pattern": "[Verb-ば] [Verb-dict] ほど / [い-adj 〜ければ] [い-adj] ほど",
+      "meaning": "Proportional Change (〜ば 〜ほど)",
+      "formation": "[V-ば] + [V-dict] + ほど\n[い-adj 〜ければ] + [い-adj] + ほど\n[な-adj なら] + [な-adj な] + ほど",
+      "explanation": {
+        "en": "Expresses that as the degree of the condition increases, the resultant state changes proportionally (\"the more... the more...\"). Formed by repeating the same verb or adjective in the ば-form followed by its dictionary form + ほど (e.g. 練習すれば練習するほど上手になります = The more you practice, the better you become; 安ければ安いほどいいです = The cheaper it is, the better).",
+        "my": "အခြေအနေတစ်ခု ပိုမိုတိုးပွားလာသည်နှင့်အမျှ ရလဒ်မှာလည်း အချိုးကျ ပြောင်းလဲတိုးတက်လာခြင်းကို ဖော်ပြသည် (\"ပို၍...လေ ပို၍...လေ\")။ ကြိယာ သို့မဟုတ် နာမဝိသေသနကို ば-form ဖြင့်တစ်ကြိမ်၊ မူရင်းပုံစံ + ほど ဖြင့်တစ်ကြိမ် ဆက်တိုက်သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l04.s001",
+          "note": "Example 1"
+        },
+        {
+          "sentenceId": "n4.l04.s002",
+          "note": "Example 2"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Example: 考えれば考えるほど分からなくなる (The more I think, the less I understand)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l04.s001",
+      "lessonId": "n4.l04",
+      "ja": "駅から近ければ近いほど、通勤や買い物が便利になります。",
+      "kana": "えきからちかければちかいほど、つうきんやかいものがべんりになります。",
+      "translation": {
+        "en": "The closer it is to the station, the more convenient commuting and shopping become.",
+        "my": "ဘူတာနှင့် ပိုနီးလေလေ အလုပ်သွားခြင်းနှင့် ဈေးဝယ်ခြင်း ပိုမိုအဆင်ပြေလေလေ ဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n4.l04.v001"
+      ],
+      "grammarIds": [
+        "n4.l04.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.s002",
+      "lessonId": "n4.l04",
+      "ja": "品物の品質が良くて値段が安ければ、大勢の客が買いに来ます。",
+      "kana": "しなもののひんしつがよくてねだんがやすければ、おおぜいのきゃくがかいにきます。",
+      "translation": {
+        "en": "If the goods have good quality and the price is low, many customers will come to buy.",
+        "my": "ကုန်ပစ္စည်း အရည်အသွေးကောင်းပြီး ဈေးနှုန်းချိုသာပါက လူအများအပြား လာရောက်ဝယ်ယူကြမည်။"
+      },
+      "vocabIds": [
+        "n4.l04.v002"
+      ],
+      "grammarIds": [
+        "n4.l04.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.s003",
+      "lessonId": "n4.l04",
+      "ja": "仕事が大変でも、給料が高ければ我慢して続けられます。",
+      "kana": "しごとがたいへんでも、きゅうりょうがたかければがまんしてつづけられます。",
+      "translation": {
+        "en": "Even if the work is hard, if the salary is high, one can endure and continue.",
+        "my": "အလုပ်ပင်ပန်းသော်လည်း လစာကောင်းပါက သည်းခံ၍ ဆက်လက်လုပ်ကိုင်နိုင်သည်။"
+      },
+      "vocabIds": [
+        "n4.l04.v003"
+      ],
+      "grammarIds": [
+        "n4.l04.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.s004",
+      "lessonId": "n4.l04",
+      "ja": "静かで日当たりがいい場所を探せば、気持ちよく勉強できます。",
+      "kana": "しずかでひあたりがいいばしょをさがせば、きもちよくべんきょうできます。",
+      "translation": {
+        "en": "If you look for a quiet place with good sunlight, you can study comfortably.",
+        "my": "တိတ်ဆိတ်ပြီး နေရောင်ခြည်ကောင်းစွာရသော နေရာကို ရှာဖွေပါက စိတ်လက်ပေါ့ပါးစွာ စာလေ့လာနိုင်သည်။"
+      },
+      "vocabIds": [
+        "n4.l04.v004",
+        "n4.l04.v005"
+      ],
+      "grammarIds": [
+        "n4.l04.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.s005",
+      "lessonId": "n4.l04",
+      "ja": "複数の店のサービスや料金を比べれば、どちらがお得かすぐ分かります。",
+      "kana": "ふくすうのみせのサービスやりょうきんをくらべれば、どちらがおとくかすぐわかります。",
+      "translation": {
+        "en": "If you compare services and rates of multiple shops, you will quickly know which is a better deal.",
+        "my": "ဆိုင်များစွာ၏ ဝန်ဆောင်မှုနှင့် ဈေးနှုန်းများကို နှိုင်းယှဉ်ကြည့်ပါက မည်သည့်ဆိုင်က ပိုတန်ကြောင်း ချက်ချင်းသိနိုင်သည်။"
+      },
+      "vocabIds": [
+        "n4.l04.v006"
+      ],
+      "grammarIds": [
+        "n4.l04.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.s006",
+      "lessonId": "n4.l04",
+      "ja": "駅の観光案内所へ行けば、無料の市街地図がもらえますよ。",
+      "kana": "えきのかんこうあんないしょへいけば、むりょうのしがいちずがもらえますよ。",
+      "translation": {
+        "en": "If you go to the station tourist information office, you can get a free city map.",
+        "my": "ဘူတာရှိ ခရီးသွားစုံစမ်းရေးဌာနသို့ သွားပါက အခမဲ့ မြို့တွင်းမြေပုံ ရရှိနိုင်ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l04.v007"
+      ],
+      "grammarIds": [
+        "n4.l04.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.s007",
+      "lessonId": "n4.l04",
+      "ja": "分からない言葉があれば、遠慮せずに先生に質問してください。",
+      "kana": "わからないことばがあれば、えんりょせずにせんせいにしつもんしてください。",
+      "translation": {
+        "en": "If there are words you do not understand, please ask the teacher without hesitation.",
+        "my": "နားမလည်သော စကားလုံးများရှိပါက အားမနာဘဲ ဆရာထံ မေးမြန်းစုံစမ်းပါ။"
+      },
+      "vocabIds": [
+        "n4.l04.v008"
+      ],
+      "grammarIds": [
+        "n4.l04.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.s008",
+      "lessonId": "n4.l04",
+      "ja": "詳しい専門家に相談すれば、きっと良い解決策が見つかるはずです。",
+      "kana": "くわしいせんもんかにそうだんすれば、きっとよいかいけつさくがみつかるはずです。",
+      "translation": {
+        "en": "If you consult a knowledgeable expert, a good solution is sure to be found.",
+        "my": "နှံ့စပ်ကျွမ်းကျင်သော ပညာရှင်နှင့် ဆွေးနွေးတိုင်ပင်ပါက ကောင်းမွန်သော ဖြေရှင်းနည်း သေချာပေါက် တွေ့ရှိရပေမည်။"
+      },
+      "vocabIds": [
+        "n4.l04.v009",
+        "n4.l04.v010"
+      ],
+      "grammarIds": [
+        "n4.l04.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.s009",
+      "lessonId": "n4.l04",
+      "ja": "毎日こつこつ練習すれば、発音も自然と滑らかになります。",
+      "kana": "まいにちこつこつれんしゅうすれば、はつおんもしぜんとなめらかになります。",
+      "translation": {
+        "en": "If you practice steadily every day, your pronunciation will naturally become smooth as well.",
+        "my": "နေ့စဉ် စွဲစွဲမြဲမြဲ လေ့ကျင့်ပါက အသံထွက်မှာလည်း သဘာဝကျစွာ ချောမွေ့လာပါမည်။"
+      },
+      "vocabIds": [
+        "n4.l04.v011"
+      ],
+      "grammarIds": [
+        "n4.l04.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l04.s010",
+      "lessonId": "n4.l04",
+      "ja": "日本語は話せば話すほど上手になりますから、失敗を恐れてはいけません。",
+      "kana": "にほんごははなせばはなすほどじょうずになりますから、しっぱいをおそれてはいけません。",
+      "translation": {
+        "en": "Because you become more skillful at Japanese the more you speak it, you must not fear mistakes.",
+        "my": "ဂျပန်စကားသည် ပိုမိုပြောဆိုလေလေ ပိုမိုတော်လာလေလေ ဖြစ်သဖြင့် အမှားဖြစ်မည်ကို မကြောက်သင့်ပါ။"
+      },
+      "vocabIds": [
+        "n4.l04.v012"
+      ],
+      "grammarIds": [
+        "n4.l04.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l04.r01",
+    "lessonId": "n4.l04",
+    "title": "理想のアパート探しの条件 (Conditions for Finding an Ideal Apartment)",
+    "level": "N4",
+    "text": "日本で留学生や社会人がアパートを探すとき、何を重視すればよいでしょうか。多くの人は家賃、駅からの距離、部屋の広さなどを条件に挙げます。\n\n一般的に、駅から近ければ近いほど通勤や通学には便利ですが、その分家賃も高くなります。家賃が安ければ生活費を節約できますが、駅から歩いて二十分以上かかると、雨の日や夜遅い帰宅のときに大変です。\n\nまた、部屋は広ければ広いほど荷物をたくさん置けて快適ですが、冬は暖房が効きにくく、電気代も高くなりがちです。不動産屋に行ってよく相談すれば、自分の予算や生活スタイルに合った物件を提案してもらえます。焦って決めずに、いくつかの部屋を実際に見学して比べれば、後悔しない部屋探しができるはずです。",
+    "kanaText": "日本で留学生や社会人がアパートを探すとき、何を重視すればよいでしょうか。多くの人は家賃、駅からの距離、部屋の広さなどを条件に挙げます。\n\n一般的に、駅から近ければ近いほど通勤や通学には便利ですが、その分家賃も高くなります。家賃が安ければ生活費を節約できますが、駅から歩いて二十分以上かかると、雨の日や夜遅い帰宅のときに大変です。\n\nまた、部屋は広ければ広いほど荷物をたくさん置けて快適ですが、冬は暖房が効きにくく、電気代も高くなりがちです。不動産屋に行ってよく相談すれば、自分の予算や生活スタイルに合った物件を提案してもらえます。焦って決めずに、いくつかの部屋を実際に見学して比べれば、後悔しない部屋探しができるはずです。",
+    "translation": "When international students and working adults look for an apartment in Japan, what should they prioritize? Many people list conditions such as rent, distance from the station, and room size.\n\nGenerally, the closer it is to the station, the more convenient commuting to work or school becomes, but rent becomes higher accordingly. If rent is cheap, one can save on living expenses, but if it takes over 20 minutes to walk from the station, it is tough on rainy days or when returning late at night.\n\nAlso, the more spacious a room is, the more belongings one can place and the more comfortable it is, but heating takes longer in winter, and electricity bills tend to rise. If you go to a real estate agency and consult carefully, they will propose properties matching your budget and lifestyle. Rather than rushing, if you visit several rooms in person and compare them, you should be able to find a room without regrets.",
+    "questionIds": [
+      "n4.l04.q021",
+      "n4.l04.q022",
+      "n4.l04.q023",
+      "n4.l04.q024",
+      "n4.l04.q025"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l04.l01",
+    "lessonId": "n4.l04",
+    "title": "ノートパソコン選びの相談 (Consulting on Choosing a Laptop)",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "店員：いらっしゃいませ。パソコンをお探しですか。\n客：はい。大学のレポート作成と動画編集に使いたいんですが、どれがいいでしょうか。\n店員：動画編集もなさるなら、性能が高ければ高いほど作業が快適になりますよ。こちらの最新モデルはいかがですか。\n客：性能は良さそうですが、少し値段が高いですね。安ければありがたいんですが。\n店員：それでしたら、型落ちのモデルはいかがでしょうか。これなら性能も十分ですし、値段も二万円ほど安くなりますよ。\n客：軽さについてはどうですか。大学に毎日持って行きたいんですが。\n店員：重さは一キロ程度ですから、軽くて持ち運びにとても便利です。実際に持ってみれば、軽さがよく分かりますよ。\n客：本当だ、軽いですね！これに決めようと思います。",
+    "translation": "Clerk: Welcome. Are you looking for a personal computer?\nCustomer: Yes. I want to use it for writing university reports and video editing; which one would you recommend?\nClerk: If you do video editing too, the higher the performance, the smoother your work will be. How about this latest model?\nCustomer: The performance looks good, but the price is a bit high. If it were cheaper, I would appreciate it.\nClerk: In that case, how about last year's model? With this one, performance is plenty sufficient, and the price is about 20,000 yen cheaper.\nCustomer: What about the weight? I want to carry it to university every day.\nClerk: The weight is about one kilogram, so it is light and very convenient to carry. If you actually try holding it, you will easily see how light it is.\nCustomer: You're right, it really is light! I think I will decide on this one.",
+    "turns": [],
+    "questionIds": [
+      "n4.l04.q026",
+      "n4.l04.q027",
+      "n4.l04.q028",
+      "n4.l04.q029",
+      "n4.l04.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l04.q001",
+      "lessonId": "n4.l04",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "スーパーで野菜の（　）を見て、安かったのでたくさん買った。",
+      "choices": [
+        "値段",
+        "給料",
+        "規則",
+        "道具"
+      ],
+      "answer": "値段",
+      "acceptedAnswers": [
+        "値段"
+      ],
+      "explanation": "The price of an item is 値段 (ねだん).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q002",
+      "lessonId": "n4.l04",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "毎月の（　）の中から、少しずつ貯金をしている。",
+      "choices": [
+        "給料",
+        "値段",
+        "案内",
+        "景色"
+      ],
+      "answer": "給料",
+      "acceptedAnswers": [
+        "給料"
+      ],
+      "explanation": "Monthly salary/wages is 給料 (きゅうりょう).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q003",
+      "lessonId": "n4.l04",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "二つの辞書の使いやすさを（　）てみた。",
+      "choices": [
+        "比べて",
+        "探して",
+        "守って",
+        "直して"
+      ],
+      "answer": "比べて",
+      "acceptedAnswers": [
+        "比べて"
+      ],
+      "explanation": "比べる (くらべる) means to compare.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q004",
+      "lessonId": "n4.l04",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "観光地に着いたら、まず駅前の（　）で地図をもらおう。",
+      "choices": [
+        "案内所",
+        "非常口",
+        "工事現場",
+        "交番"
+      ],
+      "answer": "案内所",
+      "acceptedAnswers": [
+        "案内所"
+      ],
+      "explanation": "Information desk / tourist office is 案内所 (あんないしょ).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q005",
+      "lessonId": "n4.l04",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "その問題についてもっと（　）話を聞かせてください。",
+      "choices": [
+        "詳しく",
+        "上手に",
+        "便利に",
+        "自由に"
+      ],
+      "answer": "詳しく",
+      "acceptedAnswers": [
+        "詳しく"
+      ],
+      "explanation": "Detailed in adverbial form is 詳しく (くわしく).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q006",
+      "lessonId": "n4.l04",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "将来の進路について、担任の先生に（　）した。",
+      "choices": [
+        "相談",
+        "質問",
+        "注意",
+        "案内"
+      ],
+      "answer": "相談",
+      "acceptedAnswers": [
+        "相談"
+      ],
+      "explanation": "Consulting about career/future path is 相談する (そうだんする).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q007",
+      "lessonId": "n4.l04",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「練習」の「練」の音読みはどれですか。",
+      "choices": [
+        "レン",
+        "シュウ",
+        "シツ",
+        "モン"
+      ],
+      "answer": "レン",
+      "acceptedAnswers": [
+        "レン"
+      ],
+      "explanation": "The on-yomi of 練 is レン (as in 練習 れんしゅう).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q008",
+      "lessonId": "n4.l04",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「予習」の「習」の訓読み（漢字一文字の動詞）はどれですか。",
+      "choices": [
+        "なら.う",
+        "ね.る",
+        "と.う",
+        "き.める"
+      ],
+      "answer": "なら.う",
+      "acceptedAnswers": [
+        "なら.う"
+      ],
+      "explanation": "The kun-yomi of 習 is ならう (習う).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q009",
+      "lessonId": "n4.l04",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「しつもん」を漢字で書くとき、正しい表記はどれですか。",
+      "choices": [
+        "質問",
+        "質門",
+        "実問",
+        "実門"
+      ],
+      "answer": "質問",
+      "acceptedAnswers": [
+        "質問"
+      ],
+      "explanation": "Question is written 質問 (しつもん).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.k003",
+        "n4.l04.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q010",
+      "lessonId": "n4.l04",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「問題」の「問」の音読みはどれですか。",
+      "choices": [
+        "モン",
+        "シツ",
+        "ケイ",
+        "シュウ"
+      ],
+      "answer": "モン",
+      "acceptedAnswers": [
+        "モン"
+      ],
+      "explanation": "The on-yomi of 問 is モン (as in 問題 もんだい, 質問 しつもん).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q011",
+      "lessonId": "n4.l04",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "安（　）、この靴を買いたいです。",
+      "choices": [
+        "ければ",
+        "いなら",
+        "くて",
+        "かったら"
+      ],
+      "answer": "ければ",
+      "acceptedAnswers": [
+        "ければ"
+      ],
+      "explanation": "い-adjective conditional ば-form replaces い with ければ: 安い → 安ければ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q012",
+      "lessonId": "n4.l04",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "ボタンを（　）、切符が出てきます。",
+      "choices": [
+        "押せば",
+        "押したら",
+        "押すと",
+        "押すなら"
+      ],
+      "answer": "押せば",
+      "acceptedAnswers": [
+        "押せば"
+      ],
+      "explanation": "Group 1 verb 押す conditional form shifts u to eba: 押せば.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q013",
+      "lessonId": "n4.l04",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "食べる（グループ2）の仮定形（ば形）はどれですか。",
+      "choices": [
+        "食べれば",
+        "食べたら",
+        "食べると",
+        "食えば"
+      ],
+      "answer": "食べれば",
+      "acceptedAnswers": [
+        "食べれば"
+      ],
+      "explanation": "Group 2 verbs replace る with れば: 食べる → 食べれば.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q014",
+      "lessonId": "n4.l04",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「いい」の仮定形（ば形）の正しい形はどれですか。",
+      "choices": [
+        "よければ",
+        "いければ",
+        "いいなら",
+        "よかったら"
+      ],
+      "answer": "よければ",
+      "acceptedAnswers": [
+        "よければ"
+      ],
+      "explanation": "The adjective いい irregular conditional is よければ (from よい).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q015",
+      "lessonId": "n4.l04",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "明日は雨（　）、試合は中止になります。",
+      "choices": [
+        "なら",
+        "ば",
+        "ければ",
+        "だなら"
+      ],
+      "answer": "なら",
+      "acceptedAnswers": [
+        "なら"
+      ],
+      "explanation": "Nouns take なら / ならば in conditional: 雨なら.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q016",
+      "lessonId": "n4.l04",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "読め（　）読むほど、この小説の面白さが分かってくる。",
+      "choices": [
+        "ば",
+        "たら",
+        "と",
+        "なら"
+      ],
+      "answer": "ば",
+      "acceptedAnswers": [
+        "ば"
+      ],
+      "explanation": "Proportional change pattern is 〜ば〜ほど: 読めば読むほど.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q017",
+      "lessonId": "n4.l04",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "荷物は軽（　）軽いほど、持ち運びに便利です。",
+      "choices": [
+        "ければ",
+        "いなら",
+        "くて",
+        "かったら"
+      ],
+      "answer": "ければ",
+      "acceptedAnswers": [
+        "ければ"
+      ],
+      "explanation": "い-adjective with ほど takes 〜ければ 〜ほど: 軽ければ軽いほど.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q018",
+      "lessonId": "n4.l04",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「する」の仮定形（ば形）はどれですか。",
+      "choices": [
+        "すれば",
+        "したら",
+        "するなら",
+        "すれ"
+      ],
+      "answer": "すれば",
+      "acceptedAnswers": [
+        "すれば"
+      ],
+      "explanation": "Group 3 verb する conditional is すれば.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q019",
+      "lessonId": "n4.l04",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "練習（　）練習するほど、テニスが上手になった。",
+      "choices": [
+        "すれば",
+        "したら",
+        "すると",
+        "して"
+      ],
+      "answer": "すれば",
+      "acceptedAnswers": [
+        "すれば"
+      ],
+      "explanation": "Verb 練習する in 〜ば〜ほど is 練習すれば練習するほど.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q020",
+      "lessonId": "n4.l04",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "時間（　）あれば、一緒に美術館へ行きませんか。",
+      "choices": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": "が",
+      "acceptedAnswers": [
+        "が"
+      ],
+      "explanation": "Existence verb ある takes subject が: 時間があれば.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q021",
+      "lessonId": "n4.l04",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "駅から近ければ近いほど、どうなりますか。",
+      "choices": [
+        "通勤には便利だが、家賃が高くなる",
+        "家賃が安くなり、部屋が広くなる",
+        "静かになり、電気代が安くなる",
+        "買い物が不便になる"
+      ],
+      "answer": "通勤には便利だが、家賃が高くなる",
+      "acceptedAnswers": [
+        "通勤には便利だが、家賃が高くなる"
+      ],
+      "explanation": "The text states: 駅から近ければ近いほど通勤や通学には便利ですが、その分家賃も高くなります.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q022",
+      "lessonId": "n4.l04",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "駅から20分以上かかる部屋のデメリットは何ですか。",
+      "choices": [
+        "雨の日や夜遅い帰宅のときに大変であること",
+        "部屋が狭すぎること",
+        "家賃が高すぎること",
+        "スーパーが近くにないこと"
+      ],
+      "answer": "雨の日や夜遅い帰宅のときに大変であること",
+      "acceptedAnswers": [
+        "雨の日や夜遅い帰宅のときに大変であること"
+      ],
+      "explanation": "The text says: 駅から歩いて二十分以上かかると、雨の日や夜遅い帰宅のときに大変です.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q023",
+      "lessonId": "n4.l04",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "部屋が広いことの注意点として、何が挙げられていますか。",
+      "choices": [
+        "冬は暖房が効きにくく、電気代が高くなりがちであること",
+        "荷物を置く場所がないこと",
+        "掃除が全く必要ないこと",
+        "友達を呼べないこと"
+      ],
+      "answer": "冬は暖房が効きにくく、電気代が高くなりがちであること",
+      "acceptedAnswers": [
+        "冬は暖房が効きにくく、電気代が高くなりがちであること"
+      ],
+      "explanation": "The text states: 冬は暖房が効きにくく、電気代も高くなりがちです.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q024",
+      "lessonId": "n4.l04",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "不動産屋に行くことのメリットは何ですか。",
+      "choices": [
+        "予算や生活スタイルに合った物件を提案してもらえること",
+        "無料で家具を全部もらえること",
+        "家賃を半額にしてもらえること",
+        "電車代を払ってもらえること"
+      ],
+      "answer": "予算や生活スタイルに合った物件を提案してもらえること",
+      "acceptedAnswers": [
+        "予算や生活スタイルに合った物件を提案してもらえること"
+      ],
+      "explanation": "The text says: 不動産屋に行ってよく相談すれば、自分の予算や生活スタイルに合った物件を提案してもらえます.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q025",
+      "lessonId": "n4.l04",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "後悔しない部屋探しのコツとして筆者は何を勧めていますか。",
+      "choices": [
+        "焦らずにいくつかの部屋を実際に見学して比べること",
+        "インターネットの写真だけで一番安い部屋を決めること",
+        "駅から一番近い部屋をすぐ契約すること",
+        "友達と同じアパートに必ず住むこと"
+      ],
+      "answer": "焦らずにいくつかの部屋を実際に見学して比べること",
+      "acceptedAnswers": [
+        "焦らずにいくつかの部屋を実際に見学して比べること"
+      ],
+      "explanation": "The final sentence states: 焦って決めずに、いくつかの部屋を実際に見学して比べれば、後悔しない部屋探しができるはずです.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q026",
+      "lessonId": "n4.l04",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "客はパソコンを何のために使いたいと言っていますか。",
+      "choices": [
+        "大学のレポート作成と動画編集",
+        "ゲームのプレイと音楽制作",
+        "プログラミングと写真現像",
+        "ネット通販と映画鑑賞"
+      ],
+      "answer": "大学のレポート作成と動画編集",
+      "acceptedAnswers": [
+        "大学のレポート作成と動画編集"
+      ],
+      "explanation": "Customer says: 大学のレポート作成と動画編集に使いたいんですが.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q027",
+      "lessonId": "n4.l04",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "店員は動画編集についてどうアドバイスしましたか。",
+      "choices": [
+        "性能が高ければ高いほど作業が快適になると言った",
+        "一番安いモデルで十分だと言った",
+        "デスクトップパソコンしか使えないと言った",
+        "動画編集はやめたほうがいいと言った"
+      ],
+      "answer": "性能が高ければ高いほど作業が快適になると言った",
+      "acceptedAnswers": [
+        "性能が高ければ高いほど作業が快適になると言った"
+      ],
+      "explanation": "The clerk says: 性能が高ければ高いほど作業が快適になりますよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q028",
+      "lessonId": "n4.l04",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "店員が次に勧めた「型落ちモデル」の価格はどうでしたか。",
+      "choices": [
+        "最新モデルより二万円ほど安い",
+        "最新モデルと同じ値段",
+        "最新モデルより五万円高い",
+        "無料の割引券がつく"
+      ],
+      "answer": "最新モデルより二万円ほど安い",
+      "acceptedAnswers": [
+        "最新モデルより二万円ほど安い"
+      ],
+      "explanation": "The clerk says: 値段も二万円ほど安くなりますよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q029",
+      "lessonId": "n4.l04",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "パソコンの重さはどのくらいでしたか。",
+      "choices": [
+        "一キロ程度",
+        "五百グラム程度",
+        "三キロ以上",
+        "重くて持ち運べない重さ"
+      ],
+      "answer": "一キロ程度",
+      "acceptedAnswers": [
+        "一キロ程度"
+      ],
+      "explanation": "The clerk explains: 重さは一キロ程度ですから、軽くて持ち運びにとても便利です.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l04.q030",
+      "lessonId": "n4.l04",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "客は実際に持ってみてどう判断しましたか。",
+      "choices": [
+        "本当に軽いと納得して、そのパソコンに決めた",
+        "重すぎると言って買うのをやめた",
+        "別の店に行って比べると言った",
+        "お金が足りないから諦めた"
+      ],
+      "answer": "本当に軽いと納得して、そのパソコンに決めた",
+      "acceptedAnswers": [
+        "本当に軽いと納得して、そのパソコンに決めた"
+      ],
+      "explanation": "Customer confirms: 本当だ、軽いですね！これに決めようと思います.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l04.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

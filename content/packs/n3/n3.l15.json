@@ -1,0 +1,1594 @@
+{
+  "id": "n3.l15",
+  "level": "N3",
+  "module": "N3 Bridging Intermediate",
+  "number": 15,
+  "title": "N3 Lesson 15: In Terms of & From Viewpoint (〜にとって・〜に対して)",
+  "description": "Master perspective and viewpoint expressions in Japanese, contrasting objective observational analysis (〜から見ると) with empathetic positional projection (〜にしたら).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l15.v001",
+      "lessonId": "n3.l15",
+      "ja": "視点",
+      "kana": "してん",
+      "en": "point of view; visual angle; perspective",
+      "my": "ရှုထောင့်/အမြင်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l15.s001",
+      "kanjiIds": [
+        "n3.l15.k001",
+        "n3.l15.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.v002",
+      "lessonId": "n3.l15",
+      "ja": "立場",
+      "kana": "たちば",
+      "en": "standpoint; position; situation",
+      "my": "ရပ်တည်ချက်/အခြေအနေ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l15.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.v003",
+      "lessonId": "n3.l15",
+      "ja": "観察",
+      "kana": "かんさつ",
+      "en": "observation; survey",
+      "my": "စောင့်ကြည့်လေ့လာခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l15.s003",
+      "kanjiIds": [
+        "n3.l15.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.v004",
+      "lessonId": "n3.l15",
+      "ja": "親心",
+      "kana": "おやごころ",
+      "en": "parental affection; parent’s heart",
+      "my": "မိဘမေတ္တာ/မိဘစိတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l15.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.v005",
+      "lessonId": "n3.l15",
+      "ja": "不安",
+      "kana": "ふあん",
+      "en": "anxiety; uneasiness; insecurity",
+      "my": "စိုးရိမ်မကင်းဖြစ်မှု/စိတ်မအေးနိုင်မှု",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l15.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.v006",
+      "lessonId": "n3.l15",
+      "ja": "外部",
+      "kana": "がいぶ",
+      "en": "outside; the exterior; external parties",
+      "my": "အပြင်ဘက်/ပြင်ပအဖွဲ့အစည်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l15.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.v007",
+      "lessonId": "n3.l15",
+      "ja": "評価",
+      "kana": "ひょうか",
+      "en": "valuation; evaluation; assessment",
+      "my": "အကဲဖြတ်ခြင်း/တန်ဖိုးသတ်မှတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l15.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.v008",
+      "lessonId": "n3.l15",
+      "ja": "同僚",
+      "kana": "どうりょう",
+      "en": "coworker; colleague; associate",
+      "my": "လုပ်ဖော်ကိုင်ဖက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l15.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.v009",
+      "lessonId": "n3.l15",
+      "ja": "本人",
+      "kana": "ほんにん",
+      "en": "the person in question; the person themselves",
+      "my": "ကာယကံရှင်/သူကိုယ်တိုင်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l15.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.v010",
+      "lessonId": "n3.l15",
+      "ja": "事情",
+      "kana": "じじょう",
+      "en": "circumstances; consideration; reasons",
+      "my": "အခြေအနေ/အကြောင်းရင်းကိစ္စ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l15.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.v011",
+      "lessonId": "n3.l15",
+      "ja": "配慮",
+      "kana": "はいりょ",
+      "en": "consideration; care; thoughtfulness",
+      "my": "ငဲ့ညှာထောက်ထားမှု/ဂရုစိုက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l15.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.v012",
+      "lessonId": "n3.l15",
+      "ja": "側面",
+      "kana": "そくめん",
+      "en": "side; aspect; flank",
+      "my": "ဘက်ခြမ်း/ရှုထောင့်တစ်ခု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l15.s012",
+      "kanjiIds": [
+        "n3.l15.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l15.k001",
+      "lessonId": "n3.l15",
+      "char": "視",
+      "meaning": "see, look at, inspect",
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "み・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "視点",
+          "reading": "してん",
+          "meaning": "point of view",
+          "preview": false
+        },
+        {
+          "word": "視野",
+          "reading": "しや",
+          "meaning": "field of vision, outlook",
+          "preview": false
+        },
+        {
+          "word": "無視",
+          "reading": "むし",
+          "meaning": "disregarding, ignoring",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l15.s001"
+      ],
+      "components": [],
+      "strokes": 11,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.k002",
+      "lessonId": "n3.l15",
+      "char": "点",
+      "meaning": "spot, point, mark",
+      "onyomi": [
+        "テン"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "要点",
+          "reading": "ようてん",
+          "meaning": "main point, gist",
+          "preview": false
+        },
+        {
+          "word": "交差点",
+          "reading": "こうさてん",
+          "meaning": "intersection",
+          "preview": false
+        },
+        {
+          "word": "欠点",
+          "reading": "けってん",
+          "meaning": "fault, defect",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l15.s001"
+      ],
+      "components": [],
+      "strokes": 9,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.k003",
+      "lessonId": "n3.l15",
+      "char": "側",
+      "meaning": "side, lean, oppose",
+      "onyomi": [
+        "ソク"
+      ],
+      "kunyomi": [
+        "かわ",
+        "がわ",
+        "そば"
+      ],
+      "exampleVocab": [
+        {
+          "word": "側面",
+          "reading": "そくめん",
+          "meaning": "side, aspect",
+          "preview": false
+        },
+        {
+          "word": "両側",
+          "reading": "りょうがわ",
+          "meaning": "both sides",
+          "preview": false
+        },
+        {
+          "word": "側近",
+          "reading": "そっきん",
+          "meaning": "close associate",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l15.s012"
+      ],
+      "components": [],
+      "strokes": 11,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.k004",
+      "lessonId": "n3.l15",
+      "char": "察",
+      "meaning": "guess, presume, judge, inspect",
+      "onyomi": [
+        "サツ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "観察",
+          "reading": "かんさつ",
+          "meaning": "observation",
+          "preview": false
+        },
+        {
+          "word": "警察",
+          "reading": "けいさつ",
+          "meaning": "police",
+          "preview": false
+        },
+        {
+          "word": "診察",
+          "reading": "しんさつ",
+          "meaning": "medical examination",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l15.s003"
+      ],
+      "components": [],
+      "strokes": 14,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l15.g001",
+      "lessonId": "n3.l15",
+      "pattern": "〜から見ると / 〜から見れば / 〜から見て",
+      "meaning": "from the perspective of; judging from the standpoint of",
+      "formation": "[Noun] + から見ると / から見れば / から見て",
+      "explanation": {
+        "en": "Used to present an objective judgment, evaluation, or logical deduction made from a specific standpoint, observation angle, or evidence basis.",
+        "my": "သတ်မှတ်ထားသောအမြင် (သို့) အခြေအနေရှုထောင့်တစ်ခုမှ သုံးသပ်ဝေဖန်ကြည့်ပါက မည်သို့ရှိသည်ကို ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l15.s001",
+          "note": "From the standpoint of foreign tourists, station signage is very easy to understand."
+        },
+        {
+          "sentenceId": "n3.l15.s002",
+          "note": "Judging from an objective observer's standpoint, both sides had faults."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.g002",
+      "lessonId": "n3.l15",
+      "pattern": "〜にしたら / 〜にすれば",
+      "meaning": "from the feelings/position of (someone else); if one were in their shoes",
+      "formation": "[Noun (person / living being)] + にしたら / にすれば",
+      "explanation": {
+        "en": "Used when the speaker empathically steps into another person’s shoes to project their emotional stress, anxiety, or viewpoint (often conveying that for that person, it is a significant issue).",
+        "my": "အခြားသူတစ်ဦး၏ခံစားချက် (သို့) နေရာမှ စာနာနားလည်ကြည့်ပါက သူတို့အဖို့ မည်မျှခံစားရမည်ဖြစ်ကြောင်း ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l15.s004",
+          "note": "From the parents' perspective, the child's independence brings anxiety."
+        },
+        {
+          "sentenceId": "n3.l15.s009",
+          "note": "To the person themselves, it was a deeply serious problem."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l15.s001",
+      "lessonId": "n3.l15",
+      "ja": "外国人観光客の視点から見ると、日本の駅の案内表示は非常に分かりやすい。",
+      "kana": "がいこくじんかんこうきゃくの してんからみると、にほんの えきの あんないひょうじは ひじょうに わかりやすい。",
+      "translation": {
+        "en": "From the perspective of foreign tourists, guidance signs at Japanese stations are very easy to understand.",
+        "my": "နိုင်ငံခြားသားခရီးသွားများ၏ ရှုထောင့်မှကြည့်လျှင် ဂျပန်ဘူတာများ၏ လမ်းညွှန်ဆိုင်းဘုတ်များသည် အလွန်နားလည်လွယ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l15.v001"
+      ],
+      "grammarIds": [
+        "n3.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.s002",
+      "lessonId": "n3.l15",
+      "ja": "中立的な第三者の立場から見れば、今回のトラブルは双方に責任がある。",
+      "kana": "ちゅうりつてきな だいさんしゃの たちばからみれば、こんかいの トラブルは そうほうに せきにんがある。",
+      "translation": {
+        "en": "Judging from the standpoint of a neutral third party, both sides bear responsibility for this trouble.",
+        "my": "ဘက်မလိုက်သော တတိယလူတစ်ဦး၏ ရပ်တည်ချက်မှ ကြည့်ပါက ယခုပြဿနာတွင် နှစ်ဦးနှစ်ဖက်စလုံး၌ တာဝန်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l15.v002"
+      ],
+      "grammarIds": [
+        "n3.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.s003",
+      "lessonId": "n3.l15",
+      "ja": "科学的な観察の結果から見ても、この仮説が正しいことは明らかだ。",
+      "kana": "かがくてきな かんさつの けっかからみても、この かせつが ただしいことは あきらかだ。",
+      "translation": {
+        "en": "Even judging from the results of scientific observation, it is clear that this hypothesis is correct.",
+        "my": "သိပ္ပံနည်းကျ စောင့်ကြည့်လေ့လာမှုရလဒ်များမှ ကြည့်လျှင်ပင် ဤယူဆချက်မှန်ကန်ကြောင်း ထင်ရှားပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l15.v003"
+      ],
+      "grammarIds": [
+        "n3.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.s004",
+      "lessonId": "n3.l15",
+      "ja": "親心にしたら、子どもが遠く離れた土地で一人暮らしをするのは心配なものだ。",
+      "kana": "おやごころにしたら、こどもが とおくはなれた とちで ひとりぐらしを するのは しんぱいなものだ。",
+      "translation": {
+        "en": "From a parent's feelings, it is natural to worry when one's child lives alone in a distant place.",
+        "my": "မိဘမေတ္တာနှင့်ကြည့်လျှင် သားသမီးသည် အဝေးတစ်နေရာတွင် တစ်ယောက်တည်းနေထိုင်ရသည်မှာ စိုးရိမ်စရာပင်ဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l15.v004"
+      ],
+      "grammarIds": [
+        "n3.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.s005",
+      "lessonId": "n3.l15",
+      "ja": "将来への不安を抱える若者たちにすれば、安定した雇用こそが最優先事項だ。",
+      "kana": "しょうらいへの ふあんを かかえる わかものたちにすれば、あんていした こようこそが さいゆうせんじこうだ。",
+      "translation": {
+        "en": "From the viewpoint of youth harboring anxiety about their future, stable employment is indeed the top priority.",
+        "my": "အနာဂတ်အတွက် စိုးရိမ်ပူပန်နေသော လူငယ်များ၏နေရာမှကြည့်လျှင် တည်ငြိမ်သောအလုပ်အကိုင်သည်သာ ထိပ်တန်းဦးစားပေးဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l15.v005"
+      ],
+      "grammarIds": [
+        "n3.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.s006",
+      "lessonId": "n3.l15",
+      "ja": "組織の外部から見ると、社内の慣習が不合理に思えることが多い。",
+      "kana": "そしきの がいぶからみると、しゃないの かんしゅうが ふごうりに おもえることが おおい。",
+      "translation": {
+        "en": "From the outside of the organization, internal customs often appear irrational.",
+        "my": "အဖွဲ့အစည်း၏ အပြင်ဘက်မှ ကြည့်ပါက ကုမ္ပဏီတွင်း ဓလေ့ထုံးတမ်းများသည် ယုတ္တိမရှိဟု ထင်ရတတ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l15.v006"
+      ],
+      "grammarIds": [
+        "n3.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.s007",
+      "lessonId": "n3.l15",
+      "ja": "専門機関による厳格な評価から見て、製品の安全性基準は十分に満たされている。",
+      "kana": "せんもんきかんによる げんかくな ひょうかからみて、せいひんの あんぜんせいきじゅんは じゅうぶんに みたされている。",
+      "translation": {
+        "en": "Judging from the rigorous evaluation by specialized agencies, the product safety standards are fully met.",
+        "my": "ကျွမ်းကျင်သောအဖွဲ့အစည်းများ၏ တင်းကျပ်သောအကဲဖြတ်မှုမှ ကြည့်လျှင် ထုတ်ကုန်၏ ဘေးကင်းရေးစံနှုန်းများကို အပြည့်အဝ ပြည့်မီပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l15.v007"
+      ],
+      "grammarIds": [
+        "n3.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.s008",
+      "lessonId": "n3.l15",
+      "ja": "同僚たちにしたら、急な方針転換に振り回されて戸惑ったに違いない。",
+      "kana": "どうりょうたちにしたら、きゅうな ほうしんてんかんに ふりまわされて とまどったに ちがいない。",
+      "translation": {
+        "en": "From the coworkers' position, they must have been bewildered by being tossed about by the sudden policy shift.",
+        "my": "လုပ်ဖော်ကိုင်ဖက်များ၏နေရာမှ စာနာကြည့်လျှင် ရုတ်တရက်မူဝါဒပြောင်းလဲမှုကြောင့် စိတ်ရှုပ်ထွေးခဲ့ကြမည်မှာ သေချာသည်။"
+      },
+      "vocabIds": [
+        "n3.l15.v008"
+      ],
+      "grammarIds": [
+        "n3.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.s009",
+      "lessonId": "n3.l15",
+      "ja": "周囲には些細な失敗に見えても、本人にしたら立ち直れないほどの挫折だった。",
+      "kana": "しゅういには ささいな しっぱいに みえても、ほんにんにしたら たちなおれないほどの ざせつだった。",
+      "translation": {
+        "en": "Even if it seemed like a trivial mistake to those around, to the person themselves, it was a crushing setback from which they could barely recover.",
+        "my": "ပတ်ဝန်းကျင်အတွက် သာမန်အမှားဟု ထင်ရသော်လည်း ကာယကံရှင်ကိုယ်တိုင်အဖို့မူ ပြန်မထူနိုင်လောက်သော ကျရှုံးမှုကြီး ဖြစ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l15.v009"
+      ],
+      "grammarIds": [
+        "n3.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.s010",
+      "lessonId": "n3.l15",
+      "ja": "家庭の事情を抱える社員の立場にすれば、柔軟な勤務形態の導入はありがたい。",
+      "kana": "かていの じじょうを かかえる しゃいんの たちばにすれば、じゅうなんな きんむけいたいの どうにゅうは ありがたい。",
+      "translation": {
+        "en": "From the position of employees managing family circumstances, the introduction of flexible work styles is appreciated.",
+        "my": "မိသားစုအရေးအခက်အခဲရှိသော ဝန်ထမ်းများ၏ဘက်မှကြည့်လျှင် လိုက်လျောညီထွေရှိသော အလုပ်ချိန်စနစ် ထည့်သွင်းပေးခြင်းသည် အလွန်ကျေးဇူးတင်စရာဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l15.v010"
+      ],
+      "grammarIds": [
+        "n3.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.s011",
+      "lessonId": "n3.l15",
+      "ja": "相手の心理に対する細やかな配慮が、円滑な人間関係を築く鍵となる。",
+      "kana": "あいての しんりに たいする こまやかな はいりょが、えんかつな にんげんかんけいを きずく かぎとなる。",
+      "translation": {
+        "en": "Thoughtful consideration for the other party's psychological state is the key to building harmonious relationships.",
+        "my": "တစ်ဖက်သား၏စိတ်ခံစားချက်ကို သေချာစွာငဲ့ညှာထောက်ထားခြင်းသည် ချောမွေ့သော လူမှုဆက်ဆံရေးကို တည်ဆောက်ရန် သော့ချက်ဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l15.v011"
+      ],
+      "grammarIds": [
+        "n3.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l15.s012",
+      "lessonId": "n3.l15",
+      "ja": "物事には常に複数の側面があり、多角的な視点で捉える必要がある。",
+      "kana": "ものごとには つねに ふくすうの そくめんがあり、たかくてきな してんで とらえる ひつようがある。",
+      "translation": {
+        "en": "Matters always possess multiple sides, and it is necessary to grasp them from versatile perspectives.",
+        "my": "အရာရာတိုင်းတွင် ဘက်ပေါင်းစုံရှိနေတတ်သဖြင့် ရှုထောင့်အမျိုးမျိုးမှ သုံးသပ်နားလည်ရန် လိုအပ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l15.v012"
+      ],
+      "grammarIds": [
+        "n3.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l15.r01",
+    "lessonId": "n3.l15",
+    "title": "Generational Perspectives on Workplace Flexibility",
+    "level": "N3",
+    "text": "近年、情報通信技術の急速な発展に伴い、在宅勤務やフレックスタイム制を導入する企業が急増している。この働き方の変化をめぐる受け止め方は、世代や役職によって大きく異なっている。\n\n長年、対面でのコミュニケーションと職場の連帯感を重視してきたベテラン管理職の視点から見ると、部下が目の前にいない環境では業務の進捗状況を把握しづらく、適切な指導が困難に思えることがある。組織の一体感を維持する観点から見れば、全員が同じオフィスに集まる意義は依然として大きいという主張にも一理ある。\n\nしかし、育児や介護など多忙な家庭の事情を抱える若い社員たちにすれば、通勤時間を節約し、自宅で効率的に働ける柔軟な制度は何物にも代えがたい支援である。本人の立場にしてみれば、オフィスにいなくても成果を正当に評価してもらえることこそが、仕事へのモチベーション向上につながるのである。\n\nどちらか一方の主張だけを正解とするのではなく、経営陣の視点からも現場の社員にしても、双方が納得できる調和のとれた運用ルールを確立することが求められている。",
+    "kanaText": "近年、情報通信技術の急速な発展に伴い、在宅勤務やフレックスタイム制を導入する企業が急増している。この働き方の変化をめぐる受け止め方は、世代や役職によって大きく異なっている。\n\n長年、対面でのコミュニケーションと職場の連帯感を重視してきたベテラン管理職の視点から見ると、部下が目の前にいない環境では業務の進捗状況を把握しづらく、適切な指導が困難に思えることがある。組織の一体感を維持する観点から見れば、全員が同じオフィスに集まる意義は依然として大きいという主張にも一理ある。\n\nしかし、育児や介護など多忙な家庭の事情を抱える若い社員たちにすれば、通勤時間を節約し、自宅で効率的に働ける柔軟な制度は何物にも代えがたい支援である。本人の立場にしてみれば、オフィスにいなくても成果を正当に評価してもらえることこそが、仕事へのモチベーション向上につながるのである。\n\nどちらか一方の主張だけを正解とするのではなく、経営陣の視点からも現場の社員にしても、双方が納得できる調和のとれた運用ルールを確立することが求められている。",
+    "translation": "In recent years, accompanying the rapid development of information and communications technology, companies introducing telework and flextime systems have surged. The reception surrounding this shift in work styles varies considerably across generations and positions.\n\nFrom the perspective of veteran managers who have prioritized face-to-face communication and workplace solidarity for decades, not having subordinates directly in front of them makes tracking work progress difficult and proper mentoring challenging. Judging from the viewpoint of preserving organizational unity, the argument that having everyone gather in the same office remains meaningful carries validity.\n\nHowever, from the position of younger employees juggling busy domestic circumstances such as childcare or elder care, a flexible system that eliminates commute times and enables efficient home-based work is invaluable support. To the individuals themselves, having their outcomes fairly evaluated without physical office presence is what directly enhances motivation.\n\nRather than treating either side's argument as the sole correct answer, establishing harmonious operational rules that satisfy both management's perspective and on-the-ground employees' positions is essential.",
+    "questionIds": [
+      "n3.l15.q025",
+      "n3.l15.q026",
+      "n3.l15.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l15.l01",
+    "lessonId": "n3.l15",
+    "title": "Dialogue: Mentoring a Newly Promoted Team Leader",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "木村：田中さん、新しくチームリーダーに就任した小林さんの様子はどうですか。\n田中：真面目に取り組んでいますが、少し一人で仕事を抱え込みすぎているように見えます。\n木村：そうですね。先輩である私たちの視点から見ると、もっとメンバーに仕事を任せてもよいと思えますね。\n田中：ええ。ただ、入社三年目で急にリーダーを任された小林さんにしてみれば、失敗できないという強い重圧を感じているのでしょう。\n木村：確かに彼の立場にしたら、責任感の強さゆえに全部自分で確認しないと不安なのかもしれませんね。\n田中：はい。彼の気持ちに配慮しながら、頼りやすいサポート体制を整えてあげましょう。",
+    "translation": "Kimura: Tanaka-san, how does Kobayashi-san seem since becoming the new team leader?\nTanaka: He is working very diligently, but it looks like he is shouldering a bit too much work all by himself.\nKimura: I agree. From the perspective of us seniors, we feel he could entrust tasks more to team members.\nTanaka: Yes. However, for Kobayashi-san, who was abruptly assigned leadership in just his third year at the company, he is probably feeling immense pressure that he cannot fail.\nKimura: Indeed, in his shoes, out of a strong sense of responsibility, he might feel anxious unless he checks everything himself.\nTanaka: Right. While showing consideration for his feelings, let's set up a supportive environment where it is easy for him to ask for help.",
+    "turns": [],
+    "questionIds": [
+      "n3.l15.q028",
+      "n3.l15.q029",
+      "n3.l15.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l15.q001",
+      "lessonId": "n3.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「問題を解決するためには、異なる（　）から物事を捉え直すことが有効だ。」",
+      "choices": [
+        "視点",
+        "悲鳴",
+        "延期",
+        "発車"
+      ],
+      "answer": "視点",
+      "acceptedAnswers": [
+        "視点"
+      ],
+      "explanation": "物事を見つめる観点や着眼点を「視点（してん）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q002",
+      "lessonId": "n3.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉の意味として最も適切なものを一つ選びなさい。\n「相手の気持ちに対する細やかな【配慮】が求められる。」",
+      "choices": [
+        "相手を思いやる気配りや心遣い",
+        "冷たい態度をとること",
+        "契約を解約すること",
+        "命令に従わせること"
+      ],
+      "answer": "相手を思いやる気配りや心遣い",
+      "acceptedAnswers": [
+        "相手を思いやる気配りや心遣い"
+      ],
+      "explanation": "「配慮（はいりょ）」は他者や事態に対する温かい心遣いや気配りです。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q003",
+      "lessonId": "n3.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「職場の（　）と協力しながら、大規模なプロジェクトを進めた。」",
+      "choices": [
+        "同僚",
+        "視点",
+        "側面",
+        "開館"
+      ],
+      "answer": "同僚",
+      "acceptedAnswers": [
+        "同僚"
+      ],
+      "explanation": "同じ職場で働く仲間は「同僚（どうりょう）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q004",
+      "lessonId": "n3.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉に最も近い意味の言葉を一つ選びなさい。\n「本人の家庭の【事情】を考慮して配置転換を行った。」",
+      "choices": [
+        "その人を取り巻く事情や理由",
+        "専門的な資格",
+        "趣味の活動",
+        "試験の点数"
+      ],
+      "answer": "その人を取り巻く事情や理由",
+      "acceptedAnswers": [
+        "その人を取り巻く事情や理由"
+      ],
+      "explanation": "「事情（じじょう）」は事態の経過や背後にある家庭・個人の状況です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q005",
+      "lessonId": "n3.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「植物の成長過程を毎日注意深く（　）して記録をつける。」",
+      "choices": [
+        "観察",
+        "辞退",
+        "発車",
+        "妥協"
+      ],
+      "answer": "観察",
+      "acceptedAnswers": [
+        "観察"
+      ],
+      "explanation": "物事の状態や変化を注意深く見守ることは「観察（かんさつ）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q006",
+      "lessonId": "n3.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「苦労をかけて育てた我が子の幸せを願うのが（　）というものだ。」",
+      "choices": [
+        "親心",
+        "外部",
+        "側面",
+        "衝突"
+      ],
+      "answer": "親心",
+      "acceptedAnswers": [
+        "親心"
+      ],
+      "explanation": "子を深く思いやる親の情愛は「親心（おやごころ）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q007",
+      "lessonId": "n3.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉の意味として最も適切なものを一つ選びなさい。\n「第三者委員会による客観的な【評価】を受ける。」",
+      "choices": [
+        "価値や業績を見定めて価値判断すること",
+        "非難して攻撃すること",
+        "金銭を寄付すること",
+        "計画を中止すること"
+      ],
+      "answer": "価値や業績を見定めて価値判断すること",
+      "acceptedAnswers": [
+        "価値や業績を見定めて価値判断すること"
+      ],
+      "explanation": "「評価（ひょうか）」は物の価値や成果を正当に判定することです。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q008",
+      "lessonId": "n3.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「物事の肯定的な面だけでなく、否定的な（　）にも目を向けるべきだ。」",
+      "choices": [
+        "側面",
+        "到着",
+        "開館",
+        "悲鳴"
+      ],
+      "answer": "側面",
+      "acceptedAnswers": [
+        "側面"
+      ],
+      "explanation": "物事の一面や断面を表す言葉は「側面（そくめん）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q009",
+      "lessonId": "n3.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「広い【視野】を持って将来の進路を選ぶ。」",
+      "choices": [
+        "しや",
+        "しじ",
+        "みや",
+        "ししょ"
+      ],
+      "answer": "しや",
+      "acceptedAnswers": [
+        "しや"
+      ],
+      "explanation": "見える範囲や思考の広がりを意味する「視野」は「しや」と読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q010",
+      "lessonId": "n3.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「文章の【要点】を短くまとめなさい。」",
+      "choices": [
+        "ようてん",
+        "かなめてん",
+        "ようてい",
+        "おうてん"
+      ],
+      "answer": "ようてん",
+      "acceptedAnswers": [
+        "ようてん"
+      ],
+      "explanation": "肝要な点を指す「要点」の読みは「ようてん」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q011",
+      "lessonId": "n3.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「道路の【両側】に桜並木が続いている。」",
+      "choices": [
+        "りょうがわ",
+        "りょうそく",
+        "りょうめん",
+        "りょうへん"
+      ],
+      "answer": "りょうがわ",
+      "acceptedAnswers": [
+        "りょうがわ"
+      ],
+      "explanation": "「側」は訓読みで「がわ（かわ）」と読み、「両側（りょうがわ）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q012",
+      "lessonId": "n3.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「病院で医師の【診察】を受ける。」",
+      "choices": [
+        "しんさつ",
+        "みさつ",
+        "しんしょう",
+        "しんさ"
+      ],
+      "answer": "しんさつ",
+      "acceptedAnswers": [
+        "しんさつ"
+      ],
+      "explanation": "医師による診察は「しんさつ」と読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q013",
+      "lessonId": "n3.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の言葉を漢字で書くとき、最も適切なものを一つ選びなさい。\n「危険な兆候を【むし】してはならない。」",
+      "choices": [
+        "無視",
+        "無点",
+        "無側",
+        "無察"
+      ],
+      "answer": "無視",
+      "acceptedAnswers": [
+        "無視"
+      ],
+      "explanation": "みないこと、考慮しないことは「無視」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q014",
+      "lessonId": "n3.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の言葉を漢字で書くとき、最も適切なものを一つ選びなさい。\n「鳥の生態を長期にわたって【かんさつ】する。」",
+      "choices": [
+        "観察",
+        "観視",
+        "観点",
+        "観側"
+      ],
+      "answer": "観察",
+      "acceptedAnswers": [
+        "観察"
+      ],
+      "explanation": "「かんさつ」は「観察」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q015",
+      "lessonId": "n3.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「専門家の立場（　）、この耐震基準には問題がある。」",
+      "choices": [
+        "から見ると",
+        "にしたら",
+        "次第で",
+        "とたんに"
+      ],
+      "answer": "から見ると",
+      "acceptedAnswers": [
+        "から見ると"
+      ],
+      "explanation": "客観的な視点や立場から判断を下す文脈では「〜から見ると」を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q016",
+      "lessonId": "n3.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「毎日残業続きの部下（　）、急な休日出勤の要請は迷惑だろう。」",
+      "choices": [
+        "にしたら",
+        "から見ると",
+        "に際して",
+        "を契機に"
+      ],
+      "answer": "にしたら",
+      "acceptedAnswers": [
+        "にしたら"
+      ],
+      "explanation": "部下の心情や負担を思いやって「部下の立場・感情に立てば」という意味を表すため「〜にしたら」が正解です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q017",
+      "lessonId": "n3.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「経済的な側面（　）、今回の合併は大きな利益をもたらす。」",
+      "choices": [
+        "から見れば",
+        "にすれば",
+        "次第で",
+        "とたんに"
+      ],
+      "answer": "から見れば",
+      "acceptedAnswers": [
+        "から見れば"
+      ],
+      "explanation": "特定の分析的側面からの客観的見解を示すため「〜から見れば」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q018",
+      "lessonId": "n3.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「まだ日本語がおぼつかない留学生（　）、役所の手続きは大変な苦労だ。」",
+      "choices": [
+        "にしてみれば",
+        "から見て",
+        "にあたって",
+        "を契機として"
+      ],
+      "answer": "にしてみれば",
+      "acceptedAnswers": [
+        "にしてみれば"
+      ],
+      "explanation": "留学生の苦労や心境に感情移入して語る文脈なので「〜にしてみれば」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q019",
+      "lessonId": "n3.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "正しい文になるように言葉を並べ替えたとき、【　★　】に入るものを選びなさい。\n「親の立場＿＿＿　＿＿＿　【　★　】　＿＿＿心配は尽きない。」",
+      "choices": [
+        "1: 子どもの",
+        "2: 将来に対する",
+        "3: から見ても",
+        "4: にすれば"
+      ],
+      "answer": "1: 子どもの",
+      "acceptedAnswers": [
+        "1: 子どもの"
+      ],
+      "explanation": "「親の立場 [4: にすれば] [1: 子どもの] [2: 将来に対する] 3: 心配は尽きない」または「親の立場から見ても」。この選択肢では「親の立場 [4: にすれば] / [1: 子どもの] [2: 将来に対する] 心配は尽きない」が自然に成立します。★は1番です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q020",
+      "lessonId": "n3.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「周囲の大人（　）くだらない遊びでも、子どもたちにとっては真剣な冒険だ。」",
+      "choices": [
+        "から見ると",
+        "にしたら",
+        "に際して",
+        "次第に"
+      ],
+      "answer": "から見ると",
+      "acceptedAnswers": [
+        "から見ると"
+      ],
+      "explanation": "大人の目・視点から観察・評価する表現なので「〜から見ると」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q021",
+      "lessonId": "n3.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜から見ると」と「〜にしたら」の使い分けとして最も適切な説明を選びなさい。",
+      "choices": [
+        "「〜から見ると」は客観的な視点や根拠からの判断、「〜にしたら」はその人物の気持ちや立場への共感を表す",
+        "「〜から見ると」は過去のこと、「〜にしたら」は未来のことにしか使えない",
+        "「〜から見ると」は話し手自身の感情にのみ用いる",
+        "両者に意味の違いはなく自由に置き換え可能である"
+      ],
+      "answer": "「〜から見ると」は客観的な視点や根拠からの判断、「〜にしたら」はその人物の気持ちや立場への共感を表す",
+      "acceptedAnswers": [
+        "「〜から見ると」は客観的な視点や根拠からの判断、「〜にしたら」はその人物の気持ちや立場への共感を表す"
+      ],
+      "explanation": "「から見ると」は観察・論理的視点を、「にしたら」はその人の感情・苦衷に身を置いた共感を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q022",
+      "lessonId": "n3.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「これまでの売上データの推移（　）、来期も成長が期待できる。」",
+      "choices": [
+        "から見て",
+        "にしたら",
+        "にあたって",
+        "を契機に"
+      ],
+      "answer": "から見て",
+      "acceptedAnswers": [
+        "から見て"
+      ],
+      "explanation": "データや客観的指標を根拠に判断を下すため「〜から見て」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q023",
+      "lessonId": "n3.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「犬や猫などのペット（　）、人間社会の騒音は耐え難いストレスかもしれない。」",
+      "choices": [
+        "にしたら",
+        "から見て",
+        "に際して",
+        "次第で"
+      ],
+      "answer": "にしたら",
+      "acceptedAnswers": [
+        "にしたら"
+      ],
+      "explanation": "ペットの立場や心理に身を置いて苦痛を推察しているため「〜にしたら」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q024",
+      "lessonId": "n3.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「消費者（　）、商品の価格だけでなく安全性も極めて重要だ。」",
+      "choices": [
+        "から見ても",
+        "に際しても",
+        "とたんにも",
+        "次第にも"
+      ],
+      "answer": "から見ても",
+      "acceptedAnswers": [
+        "から見ても"
+      ],
+      "explanation": "「消費者の立場・視点から見ても」という意味で「〜から見ても」が自然です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q025",
+      "lessonId": "n3.l15",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "ベテラン管理職が在宅勤務に対して懸念を抱く理由は何か。",
+      "choices": [
+        "部下が目の前にいないと進捗把握や適切な指導が困難に思えるから",
+        "在宅勤務用のパソコンの購入費用が高すぎるから",
+        "若い社員がオフィスに来ないと部屋が寒くなるから",
+        "管理職自身の給料が減ってしまうから"
+      ],
+      "answer": "部下が目の前にいないと進捗把握や適切な指導が困難に思えるから",
+      "acceptedAnswers": [
+        "部下が目の前にいないと進捗把握や適切な指導が困難に思えるから"
+      ],
+      "explanation": "第2段落に「部下が目の前にいない環境では業務の進捗状況を把握しづらく、適切な指導が困難に思えることがある」とあります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q026",
+      "lessonId": "n3.l15",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "家庭の事情を抱える若い社員にとって、柔軟な勤務制度の利点は何か。",
+      "choices": [
+        "通勤時間を節約し、自宅で効率的に働けること",
+        "仕事をまったくしなくても給料がもらえること",
+        "オフィスの清掃当番を免除されること",
+        "出張の回数を増やすことができること"
+      ],
+      "answer": "通勤時間を節約し、自宅で効率的に働けること",
+      "acceptedAnswers": [
+        "通勤時間を節約し、自宅で効率的に働けること"
+      ],
+      "explanation": "第3段落に「通勤時間を節約し、自宅で効率的に働ける柔軟な制度は何物にも代えがたい支援である」とあります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q027",
+      "lessonId": "n3.l15",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者が最後に述べている望ましい解決策はどれか。",
+      "choices": [
+        "管理職と現場社員の双方が納得できる調和のとれた運用ルールを確立すること",
+        "在宅勤務制度を直ちに廃止して全員出社に戻すこと",
+        "管理職の意見を一切聞かずに若い社員の希望だけを通すこと",
+        "オフィスをすべて解約して完全リモート企業にすること"
+      ],
+      "answer": "管理職と現場社員の双方が納得できる調和のとれた運用ルールを確立すること",
+      "acceptedAnswers": [
+        "管理職と現場社員の双方が納得できる調和のとれた運用ルールを確立すること"
+      ],
+      "explanation": "最終段落で「経営陣の視点からも現場の社員にしても、双方が納得できる調和のとれた運用ルールを確立することが求められている」と述べられています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q028",
+      "lessonId": "n3.l15",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "木村さんと田中さんは新リーダーの小林さんについてどう見ているか。",
+      "choices": [
+        "真面目だが一人で仕事を抱え込みすぎているように見える",
+        "仕事をサボってばかりでやる気がないように見える",
+        "部下にすべての仕事を押し付けて遊んでいるように見える",
+        "すでにベテランのように完璧に指揮をとっている"
+      ],
+      "answer": "真面目だが一人で仕事を抱え込みすぎているように見える",
+      "acceptedAnswers": [
+        "真面目だが一人で仕事を抱え込みすぎているように見える"
+      ],
+      "explanation": "田中さんが「真面目に取り組んでいますが、少し一人で仕事を抱え込みすぎているように見えます」と語っています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q029",
+      "lessonId": "n3.l15",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "小林さんが仕事を一人で抱え込んでしまう原因として推察されているものはどれか。",
+      "choices": [
+        "入社三年目で急にリーダーになり、失敗できないという強い重圧を感じているから",
+        "メンバーのことが嫌いで信頼していないから",
+        "一人で作業した方が給料が高くなるから",
+        "木村さんから仕事をすべて自分でやるよう命令されたから"
+      ],
+      "answer": "入社三年目で急にリーダーになり、失敗できないという強い重圧を感じているから",
+      "acceptedAnswers": [
+        "入社三年目で急にリーダーになり、失敗できないという強い重圧を感じているから"
+      ],
+      "explanation": "田中さんが「入社三年目で急にリーダーを任された小林さんにしてみれば、失敗できないという強い重圧を感じているのでしょう」と推察しています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l15.q030",
+      "lessonId": "n3.l15",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "二人は小林さんに対して今後どのように接することにしたか。",
+      "choices": [
+        "彼の気持ちに配慮しながら、頼りやすいサポート体制を整える",
+        "リーダーの役職を直ちに取り消す",
+        "もっと厳しく叱って反省させる",
+        "何もしないで放置して様子を見る"
+      ],
+      "answer": "彼の気持ちに配慮しながら、頼りやすいサポート体制を整える",
+      "acceptedAnswers": [
+        "彼の気持ちに配慮しながら、頼りやすいサポート体制を整える"
+      ],
+      "explanation": "田中さんが「彼の気持ちに配慮しながら、頼りやすいサポート体制を整えてあげましょう」と合意しています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

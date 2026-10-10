@@ -1,0 +1,1603 @@
+{
+  "id": "n3.l20",
+  "level": "N3",
+  "module": "N3 Nuance & Natural Discourse",
+  "number": 20,
+  "title": "N3 Lesson 20: Contrast & Concession (〜にもかかわらず・〜わりに)",
+  "description": "Master contrasting nuances in upper-intermediate Japanese discourse, examining two-sided duality (〜反面 / 〜その反面: on the one hand... but on the other hand) and concurrent dual traits or simultaneous changes (〜一方 / 〜一方で: while on one hand... on the other hand).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l20.v001",
+      "lessonId": "n3.l20",
+      "ja": "利便性",
+      "kana": "りべんせい",
+      "en": "convenience; user-friendliness",
+      "my": "အဆင်ပြေလွယ်ကူမှု/အသုံးဝင်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.v002",
+      "lessonId": "n3.l20",
+      "ja": "孤独",
+      "kana": "こどく",
+      "en": "solitude; loneliness; isolation",
+      "my": "အထီးကျန်ဆန်ခြင်း/တစ်ကိုယ်တည်းဖြစ်ခြင်း",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l20.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.v003",
+      "lessonId": "n3.l20",
+      "ja": "過疎化",
+      "kana": "かそか",
+      "en": "depopulation; rural flight",
+      "my": "လူဦးရေလျော့နည်းခြောက်ကပ်လာခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.v004",
+      "lessonId": "n3.l20",
+      "ja": "集中",
+      "kana": "しゅうちゅう",
+      "en": "concentration; convergence; focusing",
+      "my": "စုစည်းမှု/အာရုံစူးစိုက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.v005",
+      "lessonId": "n3.l20",
+      "ja": "依存",
+      "kana": "いぞん",
+      "en": "dependence; reliance",
+      "my": "မှီခိုအားထားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.v006",
+      "lessonId": "n3.l20",
+      "ja": "充実",
+      "kana": "じゅうじつ",
+      "en": "fullness; completion; enrichment",
+      "my": "ပြည့်စုံကြွယ်ဝခြင်း/အဓိပ္ပာယ်ရှိခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s005",
+      "kanjiIds": [
+        "n3.l20.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.v007",
+      "lessonId": "n3.l20",
+      "ja": "両面",
+      "kana": "りょうめん",
+      "en": "both sides; two aspects; two faces",
+      "my": "နှစ်ဖက်စလုံး/မျက်နှာစာနှစ်ဖက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s006",
+      "kanjiIds": [
+        "n3.l20.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.v008",
+      "lessonId": "n3.l20",
+      "ja": "格差",
+      "kana": "かくさ",
+      "en": "disparity; gap; difference",
+      "my": "ကွာဟချက်/မညီမျှမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s007",
+      "kanjiIds": [
+        "n3.l20.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.v009",
+      "lessonId": "n3.l20",
+      "ja": "弊害",
+      "kana": "へいがい",
+      "en": "harmful effect; evil; abuse",
+      "my": "ဆိုးကျိုး/ထိခိုက်နစ်နာမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.v010",
+      "lessonId": "n3.l20",
+      "ja": "享受",
+      "kana": "きょうじゅ",
+      "en": "enjoyment; receipt; benefit from",
+      "my": "ခံစားစံစားခြင်း/လက်ခံရရှိခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.v011",
+      "lessonId": "n3.l20",
+      "ja": "矛盾",
+      "kana": "むじゅん",
+      "en": "contradiction; inconsistency",
+      "my": "ရှေ့နောက်မညီညွတ်ခြင်း/ဆန့်ကျင်ဘက်ဖြစ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s008",
+      "kanjiIds": [
+        "n3.l20.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.v012",
+      "lessonId": "n3.l20",
+      "ja": "共存",
+      "kana": "きょうぞん",
+      "en": "coexistence",
+      "my": "အတူတကွယှဉ်တွဲနေထိုင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s012",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l20.k001",
+      "lessonId": "n3.l20",
+      "char": "充",
+      "meaning": "allot, fill, satisfy, charge",
+      "onyomi": [
+        "ジュウ"
+      ],
+      "kunyomi": [
+        "あ・てる",
+        "み・ちる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "充実",
+          "reading": "じゅうじつ",
+          "meaning": "fullness, enrichment",
+          "preview": false
+        },
+        {
+          "word": "充分",
+          "reading": "じゅうぶん",
+          "meaning": "sufficient, enough",
+          "preview": false
+        },
+        {
+          "word": "充電",
+          "reading": "じゅうでん",
+          "meaning": "charging battery",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l20.s005"
+      ],
+      "components": [],
+      "strokes": 6,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.k002",
+      "lessonId": "n3.l20",
+      "char": "両",
+      "meaning": "both, two, counter for vehicles",
+      "onyomi": [
+        "リョウ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "両面",
+          "reading": "りょうめん",
+          "meaning": "both sides, two aspects",
+          "preview": false
+        },
+        {
+          "word": "両親",
+          "reading": "りょうしん",
+          "meaning": "parents",
+          "preview": false
+        },
+        {
+          "word": "車両",
+          "reading": "しゃりょう",
+          "meaning": "train car, vehicle",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l20.s006"
+      ],
+      "components": [],
+      "strokes": 6,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.k003",
+      "lessonId": "n3.l20",
+      "char": "差",
+      "meaning": "distinction, difference, variation",
+      "onyomi": [
+        "サ"
+      ],
+      "kunyomi": [
+        "さ・す"
+      ],
+      "exampleVocab": [
+        {
+          "word": "格差",
+          "reading": "かくさ",
+          "meaning": "disparity, gap",
+          "preview": false
+        },
+        {
+          "word": "差別",
+          "reading": "さべつ",
+          "meaning": "discrimination",
+          "preview": false
+        },
+        {
+          "word": "誤差",
+          "reading": "ごさ",
+          "meaning": "margin of error",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l20.s007"
+      ],
+      "components": [],
+      "strokes": 10,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.k004",
+      "lessonId": "n3.l20",
+      "char": "盾",
+      "meaning": "shield, defense, pretext",
+      "onyomi": [
+        "ジュン"
+      ],
+      "kunyomi": [
+        "たて"
+      ],
+      "exampleVocab": [
+        {
+          "word": "矛盾",
+          "reading": "むじゅん",
+          "meaning": "contradiction, inconsistency",
+          "preview": false
+        },
+        {
+          "word": "盾",
+          "reading": "たて",
+          "meaning": "shield",
+          "preview": false
+        },
+        {
+          "word": "後ろ盾",
+          "reading": "うしろだて",
+          "meaning": "backer, backing",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l20.s008"
+      ],
+      "components": [],
+      "strokes": 9,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l20.g001",
+      "lessonId": "n3.l20",
+      "pattern": "〜反面 / 〜その反面",
+      "meaning": "on the one hand... but on the other hand; while at the same time",
+      "formation": "[Verb Plain / い-Adj] + 反面\n[な-Adj な / である] + 反面\n[Noun である] + 反面\n文頭: その反面、",
+      "explanation": {
+        "en": "Used when describing the inherently contrasting, contradictory, or opposite qualities existing within a single matter, technological change, or social decision (e.g. convenience versus dependency; freedom versus insecurity).",
+        "my": "အရာဝတ္ထုတစ်ခု၊ ဆုံးဖြတ်ချက် (သို့) နည်းပညာတစ်ခုတည်းတွင် ယှဉ်တွဲတည်ရှိနေသော ဆန့်ကျင်ဘက်မျက်နှာစာနှစ်ခုကို ဖော်ပြသည်။ တစ်ဖက်တွင် ကောင်းကျိုးရှိသော်လည်း အခြားတစ်ဖက်တွင် ဆိုးကျိုးရှိနေခြင်းကို ဖော်ပြရာတွင် သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l20.s001",
+          "note": "While online shopping offers immense convenience, on the other hand it reduces local commerce."
+        },
+        {
+          "sentenceId": "n3.l20.s002",
+          "note": "Living alone offers unrestrained freedom, but on the other hand one often feels solitude."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use 反面 to compare two completely unrelated things or people (e.g. ❌ 田中さんは親切な反面、山田さんは冷たい → ⭕️ 田中さんは親切な一方(で)、山田さんは冷たい)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.g002",
+      "lessonId": "n3.l20",
+      "pattern": "〜一方（で） / 〜その一方で",
+      "meaning": "on one hand... on the other hand; while; at the same time",
+      "formation": "[Verb Plain / い-Adj] + 一方で\n[な-Adj な / である] + 一方で\n[Noun である] + 一方で\n文頭: その一方で、",
+      "explanation": {
+        "en": "Used to present two concurrent states, differing perspectives between two entities, or two diverging trends moving simultaneously (e.g. urban population concentrating while rural regions face depopulation; wages rising for some while disparities widen).",
+        "my": "တစ်ပြိုင်နက်တည်း ဖြစ်ပေါ်နေသော ဆန့်ကျင်ဘက် အခြေအနေနှစ်ခု၊ မတူညီသော ရှုထောင့်နှစ်ခု သို့မဟုတ် လူနှစ်ဦး၏ ကွဲပြားသော လားရာများကို တင်ပြရာတွင် သုံးသည်။ \"...ဖြစ်နေသော်လည်း တစ်ဖက်တွင်မူ...\" ဟု အဓိပ္ပာယ်ရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l20.s003",
+          "note": "While major cities continue to concentrate population, rural towns on the other hand are suffering severe depopulation."
+        },
+        {
+          "sentenceId": "n3.l20.s007",
+          "note": "While economic growth increases the wealthy, on the other hand income disparities are widening year by year."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse with 〜一方だ (which indicates that a continuous change is progressing steadily in one direction without stopping)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l20.s001",
+      "lessonId": "n3.l20",
+      "ja": "ネット通販はいつでも買い物ができて極めて利便性が高い反面、地域の商店街を衰退させる要因にもなっている。",
+      "kana": "ねっとつうはんは いつでも かいものが できて きわめて りべんせいが たかいはんめん、ちいきの しょうてんがいを すいたいさせる よういんにも なっている。",
+      "translation": {
+        "en": "While online shopping allows one to shop anytime and offers extremely high convenience, on the other hand it is also becoming a factor in causing local shopping streets to decline.",
+        "my": "အွန်လိုင်းဈေးဝယ်စနစ်သည် အချိန်မရွေး ဈေးဝယ်နိုင်ပြီး အလွန်အဆင်ပြေလွယ်ကူသော်လည်း အခြားတစ်ဖက်တွင်မူ ဒေသတွင်းဈေးဆိုင်တန်းများ ဆုတ်ယုတ်ကျဆင်းစေသည့် အကြောင်းအရင်း ဖြစ်လာနေသည်။"
+      },
+      "vocabIds": [
+        "n3.l20.v001"
+      ],
+      "grammarIds": [
+        "n3.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.s002",
+      "lessonId": "n3.l20",
+      "ja": "一人暮らしは誰にも干渉されず気楽である反面、病気になったときには強い孤独を感じるものだ。",
+      "kana": "ひとりぐらしは だれにも かんしょうされず きらくであるはんめん、びょうきに なったときには つよい こどくを かんじるものだ。",
+      "translation": {
+        "en": "While living alone is carefree without anyone interfering, on the other hand one naturally feels intense solitude when falling ill.",
+        "my": "တစ်ယောက်တည်းနေထိုင်ခြင်းသည် မည်သူ့နှောင့်ယှက်မှုမှမရှိဘဲ စိတ်ပေါ့ပါးသော်လည်း အခြားတစ်ဖက်တွင် ဖျားနာသည့်အခါ ပြင်းထန်သော အထီးကျန်မှုကို ခံစားရတတ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l20.v002"
+      ],
+      "grammarIds": [
+        "n3.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.s003",
+      "lessonId": "n3.l20",
+      "ja": "首都圏に若者や企業が集中する一方で、地方の農村部では急速な過疎化と高齢化が進んでいる。",
+      "kana": "しゅとけんに わかものや きぎょうが しゅうちゅうする いっぽうで、ちほうの のうそんぶでは きゅうそくな かそかと こうれいかが すすんでいる。",
+      "translation": {
+        "en": "While youth and corporations concentrate in the Tokyo metropolitan area, on the other hand rapid depopulation and aging are progressing in rural agricultural regions.",
+        "my": "မြို့တော်ဒေသတွင် လူငယ်များနှင့် ကုမ္ပဏီများ စုပြုံရောက်ရှိနေသော်လည်း အခြားတစ်ဖက်တွင်မူ နယ်ဒေသများ၌ လူဦးရေလျော့နည်းခြင်းနှင့် သက်ကြီးရွယ်အိုများပြားခြင်းတို့ လျင်မြန်စွာ ဖြစ်ပေါ်နေသည်။"
+      },
+      "vocabIds": [
+        "n3.l20.v003",
+        "n3.l20.v004"
+      ],
+      "grammarIds": [
+        "n3.l20.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.s004",
+      "lessonId": "n3.l20",
+      "ja": "人工知能は業務効率を劇的に高める反面、過度に依存すると人間の思考力を低下させる恐れがある。",
+      "kana": "じんこうちのうは ぎょうむこうりつを げきてきに たかめるはんめん、かどに いぞんすると にんげんの しこうりょくを ていかさせる おそれがある。",
+      "translation": {
+        "en": "While artificial intelligence dramatically boosts work efficiency, on the other hand excessive dependence risks diminishing human thinking capabilities.",
+        "my": "ဉာဏ်ရည်တုနည်းပညာသည် လုပ်ငန်းစွမ်းဆောင်ရည်ကို သိသာစွာတိုးတက်စေသော်လည်း အခြားတစ်ဖက်တွင် အလွန်အကျွံမှီခိုမိပါက လူသားတို့၏ စဉ်းစားတွေးခေါ်နိုင်စွမ်းကို လျော့ကျစေနိုင်သည့် အန္တရာယ်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l20.v005"
+      ],
+      "grammarIds": [
+        "n3.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.s005",
+      "lessonId": "n3.l20",
+      "ja": "仕事が忙しく充実した毎日を送っている一方で、私生活では趣味や運動の時間をほとんど確保できていない。",
+      "kana": "しごとが いそがしく じゅうじつした まいにちを おくっている いっぽうで、しせいかつでは しゅみや うんどうの じかんを ほとんど かくほできていない。",
+      "translation": {
+        "en": "While I spend everyday busy and fulfilled with work, on the other hand in my personal life I can hardly secure any time for hobbies or exercise.",
+        "my": "အလုပ်များပြားပြီး အဓိပ္ပာယ်ရှိသောနေ့ရက်များကို ဖြတ်သန်းနေသော်လည်း တစ်ဖက်တွင်မူ ကိုယ်ပိုင်ဘဝ၌ ဝါသနာနှင့် အားကစားအတွက် အချိန်မရနိုင်သလောက် ဖြစ်နေသည်။"
+      },
+      "vocabIds": [
+        "n3.l20.v006"
+      ],
+      "grammarIds": [
+        "n3.l20.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.s006",
+      "lessonId": "n3.l20",
+      "ja": "物事には常に光と影の両面があり、利点だけでなく生じ得る弊害にも目を向けなければならない。",
+      "kana": "ものごとには つねに ひかりと かげの りょうめんがあり、りてんだけでなく しょうじうる へいがいにもの めを むけなければならない。",
+      "translation": {
+        "en": "Matters always possess both sides of light and shadow, and one must pay attention not only to advantages but also to potential harmful side effects.",
+        "my": "အရာရာတိုင်းတွင် အလင်းနှင့်အမှောင်ဟူသော မျက်နှာစာနှစ်ဖက် အမြဲရှိနေသဖြင့် ကောင်းကျိုးသာမက ဖြစ်ပေါ်လာနိုင်သော ဆိုးကျိုးများကိုပါ မျက်ခြည်မပြတ် စောင့်ကြည့်ရမည်။"
+      },
+      "vocabIds": [
+        "n3.l20.v007",
+        "n3.l20.v009"
+      ],
+      "grammarIds": [
+        "n3.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.s007",
+      "lessonId": "n3.l20",
+      "ja": "経済成長の果実を享受する富裕層が増える一方で、貧困層との所得格差は年々拡大している。",
+      "kana": "けいざいせいちょうの かじつを きょうじゅする ふゆうそうが ふえる いっぽうで、ひんこんそうとの しょとくかくさは ねんねん かくだいしている。",
+      "translation": {
+        "en": "While wealthy classes enjoying the fruits of economic growth are multiplying, on the other hand the income disparity with the impoverished class is widening year after year.",
+        "my": "စီးပွားရေးတိုးတက်မှု၏ အသီးအပွင့်ကို ခံစားစံစားနေသော သူဌေးလူတန်းစားများ များပြားလာသော်လည်း တစ်ဖက်တွင်မူ ဆင်းရဲသားများနှင့် ဝင်ငွေကွာဟချက်သည် နှစ်စဉ်ပိုမိုကြီးထွားလာနေသည်။"
+      },
+      "vocabIds": [
+        "n3.l20.v008",
+        "n3.l20.v010"
+      ],
+      "grammarIds": [
+        "n3.l20.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.s008",
+      "lessonId": "n3.l20",
+      "ja": "彼の言動には明らかな矛盾がある反面、その情熱的な人柄は周囲の人々を引きつけてやまない。",
+      "kana": "かれの げんどうには あきらかな むじゅんがあるはんめん、その じょうねつてきな ひとがらのは しゅういの ひとびとを ひきつけてやまない。",
+      "translation": {
+        "en": "While there are clear contradictions in his words and actions, on the other hand his passionate personality never fails to attract people around him.",
+        "my": "သူ့စကားနှင့် အပြုအမူတွင် ထင်ရှားသော ရှေ့နောက်မညီညွတ်မှုများ ရှိသော်လည်း အခြားတစ်ဖက်တွင်မူ သူ၏ စိတ်အားထက်သန်သော စရိုက်လက္ခဏာသည် ပတ်ဝန်းကျင်မှလူများကို အမြဲဆွဲဆောင်လျက်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l20.v011"
+      ],
+      "grammarIds": [
+        "n3.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.s009",
+      "lessonId": "n3.l20",
+      "ja": "自然環境の保全が叫ばれる一方で、大規模な観光開発による森林伐採が後を絶たない。",
+      "kana": "しぜんかんきょうの ほぜんが さけばれる いっぽうで、だいきぼな かんこうかいはつによる しんりんばっさいが あとをたたない。",
+      "translation": {
+        "en": "While the preservation of the natural environment is clamored for, on the other hand deforestation driven by large-scale tourism development never ceases.",
+        "my": "သဘာဝပတ်ဝန်းကျင် ထိန်းသိမ်းရေးကို အော်ဟစ်တောင်းဆိုနေကြသော်လည်း တစ်ဖက်တွင်မူ အကြီးစား ခရီးသွားလုပ်ငန်း ဖွံ့ဖြိုးရေးအတွက် သစ်တောပြုန်းတီးမှုများ မရပ်မနား ဖြစ်ပေါ်နေသည်။"
+      },
+      "vocabIds": [
+        "n3.l20.v012"
+      ],
+      "grammarIds": [
+        "n3.l20.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.s010",
+      "lessonId": "n3.l20",
+      "ja": "観光客が増えて町が潤う反面、ゴミのポイ捨てや騒音被害といったマナー違反に悩まされている。",
+      "kana": "かんこうきゃくが ふえて まちが うるおうはんめん、ごみの ぽいすてや そうおんひがいといった まなーいはんに なやまされている。",
+      "translation": {
+        "en": "While the influx of tourists enriches the town economically, on the other hand residents are plagued by etiquette breaches such as littering and noise disturbances.",
+        "my": "ခရီးသွားများ များပြားလာသဖြင့် မြို့နယ် စီးပွားရေးကောင်းမွန်လာသော်လည်း အခြားတစ်ဖက်တွင်မူ အမှိုက်ပစ်ခြင်းနှင့် ဆူညံသံဒုက္ခစသော စည်းကမ်းမဲ့မှုများကြောင့် ဒုက္ခရောက်နေကြသည်။"
+      },
+      "vocabIds": [
+        "n3.l20.v001"
+      ],
+      "grammarIds": [
+        "n3.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.s011",
+      "lessonId": "n3.l20",
+      "ja": "最新の医療技術は多くの命を救う反面、高額な治療費が患者の家計に重くのしかかっている。",
+      "kana": "さいしんの いりょうぎじゅつは おおくの いのちを すくうはんめん、こうがくな ちりょうひが かんじゃの かけいに おもく のしかかっている。",
+      "translation": {
+        "en": "While cutting-edge medical technology saves countless lives, on the other hand exorbitant medical expenses weigh heavily on patients' household finances.",
+        "my": "နောက်ဆုံးပေါ် ဆေးဘက်ဆိုင်ရာနည်းပညာသည် အသက်ပေါင်းများစွာကို ကယ်တင်နိုင်သော်လည်း အခြားတစ်ဖက်တွင်မူ ကြီးမားသော ဆေးကုသစရိတ်သည် လူနာများ၏ မိသားစုစီးပွားရေးကို ဖိစီးနေသည်။"
+      },
+      "vocabIds": [
+        "n3.l20.v007"
+      ],
+      "grammarIds": [
+        "n3.l20.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l20.s012",
+      "lessonId": "n3.l20",
+      "ja": "企業が自然との共存という理念を掲げる一方で、実際の生産現場では依然として大量のプラスチックが廃棄されている。",
+      "kana": "きぎょうがしぜんとのきょうぞんというりねんをかかげるいっぽうで、じっさいのせいさんげんばではいぜんとしてたいりょうのプラスチックがはいきされている。",
+      "translation": {
+        "en": "While corporations champion the philosophy of coexistence with nature, on the other hand massive amounts of plastic are still being discarded at actual production sites.",
+        "my": "ကုမ္ပဏီများသည် သဘာဝတရားနှင့် ယှဉ်တွဲတည်ရှိရေး (အတူယှဉ်တွဲနေထိုင်ရေး) မူဝါဒကို ကြွေးကြော်နေသော်လည်း အခြားတစ်ဖက်တွင် လက်တွေ့ထုတ်လုပ်မှုလုပ်ငန်းခွင်၌ ပလတ်စတစ်အမြောက်အမြား စွန့်ပစ်နေဆဲဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l20.v012"
+      ],
+      "grammarIds": [
+        "n3.l20.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l20.r01",
+    "lessonId": "n3.l20",
+    "title": "The Two Faces of the Cashless Society",
+    "level": "N3",
+    "text": "近年、スマートフォン決済やクレジットカードの普及に伴い、現金を使わない「キャッシュレス社会」が世界各地で急速に定着しつつある。財布を持たずにスマートフォン一つで瞬時に買い物が完了する利便性は、消費生活に大きな変革をもたらした。店舗側にとっても、現金の管理や計算ミスに伴うコストを大幅に削減できるという多大な恩恵がある。\n\nしかし、この技術革新は華々しい利便性を誇る反面、見過ごすことのできない新たな社会的課題も浮き彫りにしている。デジタル機器の操作に不慣れな高齢者層が買い物の現場で不便を強いられる「デジタル格差」の深刻化はその典型である。さらに、お金を支払っているという現実感が希薄になる結果、若者を中心に無計画な使いすぎによる経済的困窮に陥る危険性も指摘されている。\n\n都市部で完全なキャッシュレス化が進む一方で、地方の小規模店舗では決済端末の導入費用や手数料の負担が重く、依然として現金決済に頼らざるを得ないのが実情である。このように、社会全体で利便性を享受する人々が増加する一方で、取り残される地域や人々が存在するという構造的な矛盾が生じている。\n\nキャッシュレス化という技術の進化を一方的に賛美または否定するのではなく、利便性と公平性が共存できる調和のとれた社会基盤を構築することが、これからの時代に求められているのである。",
+    "kanaText": "近年、スマートフォン決済やクレジットカードの普及に伴い、現金を使わない「キャッシュレス社会」が世界各地で急速に定着しつつある。財布を持たずにスマートフォン一つで瞬時に買い物が完了する利便性は、消費生活に大きな変革をもたらした。店舗側にとっても、現金の管理や計算ミスに伴うコストを大幅に削減できるという多大な恩恵がある。\n\nしかし、この技術革新は華々しい利便性を誇る反面、見過ごすことのできない新たな社会的課題も浮き彫りにしている。デジタル機器の操作に不慣れな高齢者層が買い物の現場で不便を強いられる「デジタル格差」の深刻化はその典型である。さらに、お金を支払っているという現実感が希薄になる結果、若者を中心に無計画な使いすぎによる経済的困窮に陥る危険性も指摘されている。\n\n都市部で完全なキャッシュレス化が進む一方で、地方の小規模店舗では決済端末の導入費用や手数料の負担が重く、依然として現金決済に頼らざるを得ないのが実情である。このように、社会全体で利便性を享受する人々が増加する一方で、取り残される地域や人々が存在するという構造的な矛盾が生じている。\n\nキャッシュレス化という技術の進化を一方的に賛美または否定するのではなく、利便性と公平性が共存できる調和のとれた社会基盤を構築することが、これからの時代に求められているのである。",
+    "translation": "In recent years, accompanying the spread of smartphone payments and credit cards, a \"cashless society\" where one does not use physical money is rapidly taking root across the world. The convenience of completing purchases instantaneously with just a single smartphone without carrying a wallet has brought a massive transformation to consumer life. For store owners as well, there are tremendous benefits in drastically reducing cash management expenses and calculation error costs.\n\nHowever, while this technological innovation boasts spectacular convenience, on the other hand it brings to the fore new social challenges that cannot be overlooked. The worsening of the \"digital disparity\" where elderly cohorts unaccustomed to operating digital devices are forced to endure inconvenience at shopping venues is a classic example. Furthermore, as the tangible feeling of paying money grows faint, the danger of falling into economic distress through unplanned overspending, especially among the youth, is also being highlighted.\n\nWhile complete cashless integration progresses in metropolitan cities, on the other hand at small rural shops where terminal installation fees and processing fees weigh heavily, relying on cash settlement remains the unavoidable reality. In this way, while people enjoying convenience across society multiply, on the other hand structural contradictions where left-behind regions and people exist are emerging.\n\nRather than one-sidedly praising or condemning technological evolution like cashless systems, constructing a harmonious societal foundation where convenience and equity can coexist is what is required for the upcoming era.",
+    "questionIds": [
+      "n3.l20.q025",
+      "n3.l20.q026",
+      "n3.l20.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l20.l01",
+    "lessonId": "n3.l20",
+    "title": "Dialogue: Remote Work vs Office Attendance Dilemma",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "加藤：鈴木さん、来月から我が社も完全リモートワークから週三日のオフィス出社に切り替わるそうですね。\n鈴木：ええ。在宅勤務は通勤ラッシュのストレスから解放されて効率的な反面、同僚との何気ない雑談や相談が減って少し孤独を感じていましたから、出社も悪くないと思っています。\n加藤：確かにそうですね。自宅だと集中して作業が進む一方で、チーム全体の方向性や微妙なニュアンスを共有するのが難しい場面もありました。\n鈴木：はい。ただ、育児中の社員にとっては、通勤時間がなくなるメリットは非常に大きかったはずです。\n加藤：その通りですね。柔軟な働き方の利点を生かす一方で、出社による対面の絆も深められるよう、両者のバランスをうまく取っていきたいですね。\n鈴木：まったく同感です。来月からの新しい体制を前向きに捉えて頑張りましょう。",
+    "translation": "Kato: Suzuki-san, I heard that starting next month our company is switching from complete remote work to coming into the office three days a week.\nSuzuki: Yes. While working from home frees one from commuter rush stress and is efficient, on the other hand casual chats and consultations with colleagues decreased and I felt a bit lonely, so I think coming to the office isn't bad either.\nKato: That's very true. While at home tasks proceed with deep concentration, on the other hand there were situations where sharing the whole team's direction or subtle nuances proved difficult.\nSuzuki: Right. However, for employees raising children, the merit of eliminating commute times must have been immense.\nKato: Exactly. While taking advantage of the merits of flexible working styles, on the other hand we want to balance both well so that we can also deepen face-to-face bonds through office attendance.\nSuzuki: I completely agree. Let's view next month's new system positively and do our best.",
+    "turns": [],
+    "questionIds": [
+      "n3.l20.q028",
+      "n3.l20.q029",
+      "n3.l20.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l20.q001",
+      "lessonId": "n3.l20",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「駅前に大型商業施設が建設されたことで、住民の生活（　）が向上した。」",
+      "choices": [
+        "利便性",
+        "過疎化",
+        "格差",
+        "矛盾"
+      ],
+      "answer": "利便性",
+      "acceptedAnswers": [
+        "利便性"
+      ],
+      "explanation": "便利で使い勝手がよい度合いや性質を「利便性（りべんせい）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q002",
+      "lessonId": "n3.l20",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉の意味として最も適切なものを一つ選びなさい。\n「都会の中で誰とも話さず、【孤独】な日々を過ごしている。」",
+      "choices": [
+        "仲間や身寄りがなく寂しいこと",
+        "毎日楽しくパーティーをすること",
+        "大金持ちで何不自由ないこと",
+        "仕事に追われて忙しいこと"
+      ],
+      "answer": "仲間や身寄りがなく寂しいこと",
+      "acceptedAnswers": [
+        "仲間や身寄りがなく寂しいこと"
+      ],
+      "explanation": "「孤独（こどく）」は頼る人や仲間がなく一人ぼっちで寂しい様子です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q003",
+      "lessonId": "n3.l20",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「若者の都市流出により、山村地域の（　）が歯止めのかからない状態だ。」",
+      "choices": [
+        "過疎化",
+        "利便性",
+        "充実",
+        "共存"
+      ],
+      "answer": "過疎化",
+      "acceptedAnswers": [
+        "過疎化"
+      ],
+      "explanation": "人口が極端に減って地域社会の活力が衰えることを「過疎化（かそか）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q004",
+      "lessonId": "n3.l20",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉に最も近い意味の言葉を一つ選びなさい。\n「ボランティア活動を通じて【充実】した休暇を過ごすことができた。」",
+      "choices": [
+        "中身が満ち足りて満足なこと",
+        "退屈で暇なこと",
+        "疲労困憊すること",
+        "金銭的に得をすること"
+      ],
+      "answer": "中身が満ち足りて満足なこと",
+      "acceptedAnswers": [
+        "中身が満ち足りて満足なこと"
+      ],
+      "explanation": "「充実（じゅうじつ）」は内容が豊かに満ち足りていることです。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q005",
+      "lessonId": "n3.l20",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「薬には病気を治す効果があるが、副作用という（　）も無視できない。」",
+      "choices": [
+        "弊害",
+        "享受",
+        "充実",
+        "共存"
+      ],
+      "answer": "弊害",
+      "acceptedAnswers": [
+        "弊害"
+      ],
+      "explanation": "他に害を及ぼす好ましくない事柄や悪影響を「弊害（へいがい）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q006",
+      "lessonId": "n3.l20",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「都市部と地方における教育環境の（　）を是正する政策が求められる。」",
+      "choices": [
+        "格差",
+        "両面",
+        "矛盾",
+        "孤独"
+      ],
+      "answer": "格差",
+      "acceptedAnswers": [
+        "格差"
+      ],
+      "explanation": "資格・身分・条件などにおける不平等な開きや差を「格差（かくさ）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q007",
+      "lessonId": "n3.l20",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉の意味として最も適切なものを一つ選びなさい。\n「彼の言っていることと行っていることの間には明らかな【矛盾】がある。」",
+      "choices": [
+        "二つの物事の辻褄が合わないこと",
+        "完全に一致していること",
+        "非常に役に立つこと",
+        "誰にも理解できないこと"
+      ],
+      "answer": "二つの物事の辻褄が合わないこと",
+      "acceptedAnswers": [
+        "二つの物事の辻褄が合わないこと"
+      ],
+      "explanation": "「矛盾（むじゅん）」は二つの事柄の間に食い違いやつじつまの合わない点があることです。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q008",
+      "lessonId": "n3.l20",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「人間社会の発展と自然環境の保護が（　）できる道を模索する。」",
+      "choices": [
+        "共存",
+        "格差",
+        "過疎化",
+        "弊害"
+      ],
+      "answer": "共存",
+      "acceptedAnswers": [
+        "共存"
+      ],
+      "explanation": "二つ以上のものが対立せず同時に生存・存在することを「共存（きょうぞん）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q009",
+      "lessonId": "n3.l20",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「設備の【充実】を図る。」",
+      "choices": [
+        "じゅうじつ",
+        "しゅうじつ",
+        "じゅうしつ",
+        "しゅうしつ"
+      ],
+      "answer": "じゅうじつ",
+      "acceptedAnswers": [
+        "じゅうじつ"
+      ],
+      "explanation": "「充」はジュウ、「実」はジツと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q010",
+      "lessonId": "n3.l20",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「物事の【両面】を観察する。」",
+      "choices": [
+        "りょうめん",
+        "りょうはん",
+        "りょうづら",
+        "りょうべん"
+      ],
+      "answer": "りょうめん",
+      "acceptedAnswers": [
+        "りょうめん"
+      ],
+      "explanation": "「両」はリョウ、「面」はメンと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q011",
+      "lessonId": "n3.l20",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「所得の【格差】が拡大する。」",
+      "choices": [
+        "かくさ",
+        "かっさ",
+        "こうさ",
+        "きゃくさ"
+      ],
+      "answer": "かくさ",
+      "acceptedAnswers": [
+        "かくさ"
+      ],
+      "explanation": "「格」はカク、「差」はサと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q012",
+      "lessonId": "n3.l20",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「理論に【矛盾】が生じる。」",
+      "choices": [
+        "むじゅん",
+        "むどん",
+        "ぼうじゅん",
+        "ぶじゅん"
+      ],
+      "answer": "むじゅん",
+      "acceptedAnswers": [
+        "むじゅん"
+      ],
+      "explanation": "「矛」はム、「盾」はジュンと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q013",
+      "lessonId": "n3.l20",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の言葉を漢字で書くとき、正しいものを一つ選びなさい。\n「スマートフォンのバッテリーを【じゅうでん】する。」",
+      "choices": [
+        "充電",
+        "住電",
+        "重電",
+        "銃電"
+      ],
+      "answer": "充電",
+      "acceptedAnswers": [
+        "充電"
+      ],
+      "explanation": "電気を満たすことは「充電」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q014",
+      "lessonId": "n3.l20",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の言葉を漢字で書くとき、正しいものを一つ選びなさい。\n「列車が四【りょう】編成で到着する。」",
+      "choices": [
+        "両",
+        "良",
+        "量",
+        "領"
+      ],
+      "answer": "両",
+      "acceptedAnswers": [
+        "両"
+      ],
+      "explanation": "電車の車両を数える単位は「両」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q015",
+      "lessonId": "n3.l20",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「この車は燃費が非常に良い（　）、車内が狭くて荷物があまり積めない。」",
+      "choices": [
+        "反面",
+        "おかげで",
+        "せいで",
+        "次第"
+      ],
+      "answer": "反面",
+      "acceptedAnswers": [
+        "反面"
+      ],
+      "explanation": "「燃費が良い」というプラス面に対して「車内が狭い」というマイナス面を対比させているため「反面」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q016",
+      "lessonId": "n3.l20",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「景気が回復していると言われる（　）、中小企業の倒産件数は増えている。」",
+      "choices": [
+        "一方で",
+        "ばかりに",
+        "おかげで",
+        "せいで"
+      ],
+      "answer": "一方で",
+      "acceptedAnswers": [
+        "一方で"
+      ],
+      "explanation": "景気回復という主張と中小企業倒産増加という同時進行の相反する事態を並置するため「一方で」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q017",
+      "lessonId": "n3.l20",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「都会は刺激が多くて楽しい（　）、生活費が高く人間関係が希薄になりがちだ。」",
+      "choices": [
+        "反面",
+        "おかげで",
+        "とおりに",
+        "最中に"
+      ],
+      "answer": "反面",
+      "acceptedAnswers": [
+        "反面"
+      ],
+      "explanation": "同一の対象（都会生活）が持つ長所と短所の二面性を述べるため「反面」を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q018",
+      "lessonId": "n3.l20",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「兄が真面目に勉強に励んでいる（　）、弟は一日中遊んでばかりいる。」",
+      "choices": [
+        "一方で",
+        "反面",
+        "せいで",
+        "おかげで"
+      ],
+      "answer": "一方で",
+      "acceptedAnswers": [
+        "一方で"
+      ],
+      "explanation": "二人の人物（兄と弟）の対照的な行動を同時に並べて対比するため「一方で」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q019",
+      "lessonId": "n3.l20",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な接続の形を選びなさい。\n「フリーランスは自由な時間が多い（　）、収入が不安定になるリスクがある。」",
+      "choices": [
+        "反面",
+        "反面で",
+        "反面に",
+        "反面な"
+      ],
+      "answer": "反面",
+      "acceptedAnswers": [
+        "反面"
+      ],
+      "explanation": "動詞やい形容詞の普通形に直接「反面」が接続します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q020",
+      "lessonId": "n3.l20",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の文のうち、文法的に最も自然な文はどれか。",
+      "choices": [
+        "この薬は効果が抜群である反面、眠気などの副作用が出やすい。",
+        "この薬は効果が抜群である一方だ、眠気などの副作用が出やすい。",
+        "この薬は効果が抜群であるばかりに、眠気などの副作用が出やすい。",
+        "この薬は効果が抜群であるおかげで、眠気などの副作用が出やすい。"
+      ],
+      "answer": "この薬は効果が抜群である反面、眠気などの副作用が出やすい。",
+      "acceptedAnswers": [
+        "この薬は効果が抜群である反面、眠気などの副作用が出やすい。"
+      ],
+      "explanation": "効果（プラス）と副作用（マイナス）を対比させる自然な「〜である反面」の構文です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q021",
+      "lessonId": "n3.l20",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「先進国で食料が大量に廃棄される（　）、飢餓に苦しむ人々が世界中に大勢いる。」",
+      "choices": [
+        "一方で",
+        "せいで",
+        "おかげで",
+        "あまり"
+      ],
+      "answer": "一方で",
+      "acceptedAnswers": [
+        "一方で"
+      ],
+      "explanation": "地球規模での対照的な二つの現実（飽食と飢餓）を並置するため「一方で」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q022",
+      "lessonId": "n3.l20",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのにな形容詞の最も適切な接続を選びなさい。\n「彼は仕事熱心（　）反面、家庭の時間を犠牲にしがちだ。」",
+      "choices": [
+        "な",
+        "に",
+        "で",
+        "の"
+      ],
+      "answer": "な",
+      "acceptedAnswers": [
+        "な"
+      ],
+      "explanation": "な形容詞は「〜な反面」または「〜である反面」の形で接続します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q023",
+      "lessonId": "n3.l20",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の会話文の（　）に入れるのに最も適切なものを一つ選びなさい。\nA：「新しいタブレット、使い心地はどうですか。」\nB：「画面が大きくて見やすい（　）、少し重くて持ち運びに不便ですね。」",
+      "choices": [
+        "反面",
+        "おかげで",
+        "せいで",
+        "ばかりに"
+      ],
+      "answer": "反面",
+      "acceptedAnswers": [
+        "反面"
+      ],
+      "explanation": "画面が見やすいという利点と、重くて不便という欠点の二面性を表すため「反面」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q024",
+      "lessonId": "n3.l20",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入る言葉の組み合わせとして最も適切なものを一つ選びなさい。\n「便利な技術を（　）反面、それに過度に（　）危険性も認識すべきだ。」",
+      "choices": [
+        "享受する / 依存する",
+        "享受した / 依存した",
+        "享受して / 依存して",
+        "享受しよう / 依存しよう"
+      ],
+      "answer": "享受する / 依存する",
+      "acceptedAnswers": [
+        "享受する / 依存する"
+      ],
+      "explanation": "「享受する（辞書形）反面、それに過度に依存する（辞書形）危険性」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q025",
+      "lessonId": "n3.l20",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "キャッシュレス社会の進展がもたらした店舗側のメリットとして文章に書かれているものはどれか。",
+      "choices": [
+        "現金の管理や計算ミスに伴うコストを大幅に削減できること",
+        "すべての商品を半額で仕入れることができること",
+        "店舗の電気代や水道代が無料になること",
+        "アルバイトの店員を一人も雇わずに済むこと"
+      ],
+      "answer": "現金の管理や計算ミスに伴うコストを大幅に削減できること",
+      "acceptedAnswers": [
+        "現金の管理や計算ミスに伴うコストを大幅に削減できること"
+      ],
+      "explanation": "第1段落に「店舗側にとっても、現金の管理や計算ミスに伴うコストを大幅に削減できるという多大な恩恵がある」と明記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q026",
+      "lessonId": "n3.l20",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "キャッシュレス化に伴う懸念点や課題として文章で指摘されていないものはどれか。",
+      "choices": [
+        "現金の偽札が市場に大量に出回ること",
+        "デジタル機器に不慣れな高齢者層が不便を強いられるデジタル格差",
+        "お金を支払う現実感が薄れ、無計画な使いすぎによる経済的困窮のリスク",
+        "地方の小規模店舗における端末導入費用や手数料の重い負担"
+      ],
+      "answer": "現金の偽札が市場に大量に出回ること",
+      "acceptedAnswers": [
+        "現金の偽札が市場に大量に出回ること"
+      ],
+      "explanation": "偽札の流通については文章に全く触れられていません。他の3つは第2段落および第3段落に明確に挙げられています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q027",
+      "lessonId": "n3.l20",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "キャッシュレス技術の進化に対して筆者が主張していることとして最も適切なものはどれか。",
+      "choices": [
+        "一方的に賛美または否定するのではなく、利便性と公平性が共存できる調和のとれた社会基盤を構築すべきだ",
+        "現金を完全に法律で禁止して全国民にスマートフォンを義務付けるべきだ",
+        "デジタル決済は危険すぎるため、直ちに過去の現金決済のみに戻すべきだ",
+        "地方の小規模店舗は採算が合わないためすべて閉鎖すべきだ"
+      ],
+      "answer": "一方的に賛美または否定するのではなく、利便性と公平性が共存できる調和のとれた社会基盤を構築すべきだ",
+      "acceptedAnswers": [
+        "一方的に賛美または否定するのではなく、利便性と公平性が共存できる調和のとれた社会基盤を構築すべきだ"
+      ],
+      "explanation": "最終段落で「キャッシュレス化という技術の進化を一方的に賛美または否定するのではなく、利便性と公平性が共存できる調和のとれた社会基盤を構築することが、これからの時代に求められている」と述べています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q028",
+      "lessonId": "n3.l20",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "鈴木さんが週三日のオフィス出社への切り替えを「悪くない」と考えている理由は何か。",
+      "choices": [
+        "在宅勤務は効率的な反面、同僚との雑談や相談が減って少し孤独を感じていたから",
+        "自宅のインターネット回線が切断されて仕事ができなくなったから",
+        "オフィスの食堂のランチが無料になるから",
+        "通勤電車に乗るのが一番の趣味だから"
+      ],
+      "answer": "在宅勤務は効率的な反面、同僚との雑談や相談が減って少し孤独を感じていたから",
+      "acceptedAnswers": [
+        "在宅勤務は効率的な反面、同僚との雑談や相談が減って少し孤独を感じていたから"
+      ],
+      "explanation": "鈴木さんが「在宅勤務は通勤ラッシュのストレスから解放されて効率的な反面、同僚との何気ない雑談や相談が減って少し孤独を感じていましたから、出社も悪くないと思っています」と述べています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q029",
+      "lessonId": "n3.l20",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "加藤さんが感じていた在宅勤務の難しさとして適切なものはどれか。",
+      "choices": [
+        "チーム全体の方向性や微妙なニュアンスを共有すること",
+        "パソコンの電源を入れること",
+        "取引先の電話番号を調べること",
+        "自宅で静かに集中すること"
+      ],
+      "answer": "チーム全体の方向性や微妙なニュアンスを共有すること",
+      "acceptedAnswers": [
+        "チーム全体の方向性や微妙なニュアンスを共有すること"
+      ],
+      "explanation": "加藤さんが「チーム全体の方向性や微妙なニュアンスを共有するのが難しい場面もありました」と語っています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l20.q030",
+      "lessonId": "n3.l20",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "二人がこれからの新しい働き方について最終的に合意した姿勢はどれか。",
+      "choices": [
+        "柔軟な働き方の利点を生かす一方で、対面による絆も深められるよう両者のバランスをうまく取っていく",
+        "すべてのリモートワークを廃止して毎日全員出社を徹底する",
+        "会社を辞めて完全なフリーランスとして独立する",
+        "同僚との会話を一切やめて個人の仕事だけに集中する"
+      ],
+      "answer": "柔軟な働き方の利点を生かす一方で、対面による絆も深められるよう両者のバランスをうまく取っていく",
+      "acceptedAnswers": [
+        "柔軟な働き方の利点を生かす一方で、対面による絆も深められるよう両者のバランスをうまく取っていく"
+      ],
+      "explanation": "加藤さんが「柔軟な働き方の利点を生かす一方で、出社による対面の絆も深められるよう、両者のバランスをうまく取っていきたいですね」と言い、鈴木さんも「まったく同感です」と同意しています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

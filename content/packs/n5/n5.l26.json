@@ -1,0 +1,1643 @@
+{
+  "id": "n5.l26",
+  "level": "N5",
+  "module": "N5 Communication & Integration",
+  "number": 26,
+  "title": "Time and Directions (〜とき・道案内)",
+  "description": "Master expressing points in time with [Clause] とき (when), and giving clear route directions and natural consequences with [Verb-dictionary] と (この道をまっすぐ行くと、右にあります).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l26.v001",
+      "lessonId": "n5.l26",
+      "ja": "道",
+      "kana": "みち",
+      "en": "Road / Street / Way",
+      "my": "လမ်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l26.s001",
+      "kanjiIds": [
+        "n5.l26.k001"
+      ],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.v002",
+      "lessonId": "n5.l26",
+      "ja": "交差点",
+      "kana": "こうさてん",
+      "en": "Intersection / Crossroads",
+      "my": "လမ်းဆုံ / လမ်းခွ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l26.s002",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.v003",
+      "lessonId": "n5.l26",
+      "ja": "角",
+      "kana": "かど",
+      "en": "Corner",
+      "my": "လမ်းထောင့်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l26.s002",
+      "kanjiIds": [
+        "n5.l26.k004"
+      ],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.v004",
+      "lessonId": "n5.l26",
+      "ja": "信号",
+      "kana": "しんごう",
+      "en": "Traffic light / Signal",
+      "my": "ယာဉ်ထိန်းမီးရောင်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l26.s003",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.v005",
+      "lessonId": "n5.l26",
+      "ja": "右",
+      "kana": "みぎ",
+      "en": "Right",
+      "my": "ညာဘက်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l26.s003",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.v006",
+      "lessonId": "n5.l26",
+      "ja": "左",
+      "kana": "ひだり",
+      "en": "Left",
+      "my": "ဘယ်ဘက်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l26.s004",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.v007",
+      "lessonId": "n5.l26",
+      "ja": "まっすぐ",
+      "kana": "まっすぐ",
+      "en": "Straight ahead",
+      "my": "တည့်တည့်",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l26.s001",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.v008",
+      "lessonId": "n5.l26",
+      "ja": "曲がる",
+      "kana": "まがる",
+      "en": "To turn (plain)",
+      "my": "ကွေ့သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l26.s003",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.v009",
+      "lessonId": "n5.l26",
+      "ja": "渡る",
+      "kana": "わたる",
+      "en": "To cross (a street, bridge)",
+      "my": "ဖြတ်ကူးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l26.s005",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.v010",
+      "lessonId": "n5.l26",
+      "ja": "橋",
+      "kana": "はし",
+      "en": "Bridge",
+      "my": "တံတား",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l26.s005",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.v011",
+      "lessonId": "n5.l26",
+      "ja": "目印",
+      "kana": "めじるし",
+      "en": "Landmark / Signpost",
+      "my": "မှတ်တိုင် / အမှတ်အသား",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l26.s006",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.v012",
+      "lessonId": "n5.l26",
+      "ja": "寂しい",
+      "kana": "さびしい",
+      "en": "Lonely",
+      "my": "အထီးကျန်သော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l26.s007",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l26.k001",
+      "lessonId": "n5.l26",
+      "char": "道",
+      "meaning": "Road, street, path",
+      "onyomi": [
+        "ドウ"
+      ],
+      "kunyomi": [
+        "みち"
+      ],
+      "exampleVocab": [
+        {
+          "word": "道 (みち)",
+          "reading": "みち",
+          "meaning": "Road",
+          "preview": false
+        },
+        {
+          "word": "水道 (すいどう)",
+          "reading": "すいどう",
+          "meaning": "Water supply",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l26.s001"
+      ],
+      "components": [
+        "辶",
+        "首"
+      ],
+      "strokes": 12,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.k002",
+      "lessonId": "n5.l26",
+      "char": "町",
+      "meaning": "Town, quarter",
+      "onyomi": [
+        "チョウ"
+      ],
+      "kunyomi": [
+        "まち"
+      ],
+      "exampleVocab": [
+        {
+          "word": "町 (まち)",
+          "reading": "まち",
+          "meaning": "Town",
+          "preview": false
+        },
+        {
+          "word": "下町 (したまち)",
+          "reading": "したまち",
+          "meaning": "Downtown",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l26.s008"
+      ],
+      "components": [
+        "田",
+        "丁"
+      ],
+      "strokes": 7,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.k003",
+      "lessonId": "n5.l26",
+      "char": "駅",
+      "meaning": "Station",
+      "onyomi": [
+        "エキ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "駅 (えき)",
+          "reading": "えき",
+          "meaning": "Station",
+          "preview": false
+        },
+        {
+          "word": "駅前 (えきまえ)",
+          "reading": "えきまえ",
+          "meaning": "In front of station",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l26.s001"
+      ],
+      "components": [
+        "馬",
+        "尺"
+      ],
+      "strokes": 14,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.k004",
+      "lessonId": "n5.l26",
+      "char": "角",
+      "meaning": "Corner, angle, horn",
+      "onyomi": [
+        "カク"
+      ],
+      "kunyomi": [
+        "かど",
+        "つの"
+      ],
+      "exampleVocab": [
+        {
+          "word": "角 (かど)",
+          "reading": "かど",
+          "meaning": "Corner",
+          "preview": false
+        },
+        {
+          "word": "四角 (しかく)",
+          "reading": "しかく",
+          "meaning": "Square",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l26.s002"
+      ],
+      "components": [
+        "角"
+      ],
+      "strokes": 7,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l26.g001",
+      "lessonId": "n5.l26",
+      "pattern": "[V-dic / V-ta / い-adj / な-adj / N-の] とき",
+      "meaning": "When... / At the time of...",
+      "formation": "Verb Plain / い-adj / な-adj (+ な) / Noun (+ の) + とき",
+      "explanation": {
+        "en": "Indicates the time or occasion when something occurs. V-dict + とき means before or while doing an action (日本へ行くとき、かばんを買いました = I bought a bag before going to Japan). V-ta + とき means after completing the action (日本へ行ったとき、友達に会いました = When I arrived in Japan, I met a friend).",
+        "my": "တစ်ခုခုပြုလုပ်သောအခါ သို့မဟုတ် အခြေအနေတစ်ခုဖြစ်ပေါ်သောအခါ 「〜とき」 (...သောအခါ) ဟု သုံးသည်။ な-adjective တွင် 「な」 လိုက်ပြီး နာမ်တွင် 「の」 လိုက်ရသည် (e.g. 暇なとき, 子供のとき)."
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l26.s007",
+          "note": "Emotional state with とき"
+        },
+        {
+          "sentenceId": "n5.l26.s009",
+          "note": "Action with とき"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not forget な for な-adjectives (暇なとき, NOT *暇とき) and の for nouns (子供のとき, NOT *子供とき)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.g002",
+      "lessonId": "n5.l26",
+      "pattern": "[V-dic] と、〜",
+      "meaning": "When/If [V], naturally [result] (giving directions)",
+      "formation": "Verb (dictionary form) + と、 [Result Clause]",
+      "explanation": {
+        "en": "Expresses an inevitable natural consequence or clear geographical direction: この道をまっすぐ行くと、右に銀行があります (If you go straight down this road, there is a bank on the right). The second clause cannot express speaker's intention, hope, or request.",
+        "my": "သဘာဝဖြစ်စဉ်များ သို့မဟုတ် လမ်းညွှန်ချက်များတွင် 「ကြိယာ Dictionary-form + と」 (...လျှင် ...ဖြစ်သည်) ဟု သုံးသည်။ ဤဝါကျတွင် နောက်ဝါကျ၌ အမိန့် သို့မဟုတ် တောင်းဆိုချက် မသုံးရပါ။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l26.s001",
+          "note": "Street navigation"
+        },
+        {
+          "sentenceId": "n5.l26.s005",
+          "note": "Bridge navigation"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "The main clause following と cannot contain requests like 〜てください (*まっすぐ行くと、右に曲がってください is incorrect; use たら for requests)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l26.s001",
+      "lessonId": "n5.l26",
+      "ja": "駅を出てこの道をまっすぐ行くと、郵便局があります。",
+      "kana": "えきをでてこのみちをまっすぐいくと、ゆうびんきょくがあります。",
+      "translation": {
+        "en": "When you leave the station and go straight down this street, the post office is there.",
+        "my": "ဘူတာကနေထွက်ပြီး ဒီလမ်းအတိုင်း တည့်တည့်သွားရင် စာတိုက်ရှိပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l26.v001",
+        "n5.l26.v007"
+      ],
+      "grammarIds": [
+        "n5.l26.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.s002",
+      "lessonId": "n5.l26",
+      "ja": "次の交差点の角を曲がってください。",
+      "kana": "つぎのこうさてんのかどをまがってください。",
+      "translation": {
+        "en": "Please turn at the corner of the next intersection.",
+        "my": "နောက်လမ်းဆုံရဲ့ လမ်းထောင့်မှာ ကွေ့ပါ။"
+      },
+      "vocabIds": [
+        "n5.l26.v002",
+        "n5.l26.v003"
+      ],
+      "grammarIds": [
+        "n5.l26.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.s003",
+      "lessonId": "n5.l26",
+      "ja": "信号を右に曲がると、スーパーがあります。",
+      "kana": "しんごうをみぎにまがると、すーぱーがあります。",
+      "translation": {
+        "en": "When you turn right at the traffic light, there is a supermarket.",
+        "my": "ယာဉ်ထိန်းမီးရောင်မှာ ညာဘက်ကိုကွေ့ရင် စူပါမားကတ် ရှိပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l26.v004",
+        "n5.l26.v005",
+        "n5.l26.v008"
+      ],
+      "grammarIds": [
+        "n5.l26.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.s004",
+      "lessonId": "n5.l26",
+      "ja": "銀行は交差点を左に曲がったところにあります。",
+      "kana": "ぎんこうはこうさてんをひだりにまがったところにあります。",
+      "translation": {
+        "en": "The bank is at the place where you turned left at the intersection.",
+        "my": "ဘဏ်ဟာ လမ်းဆုံမှာ ဘယ်ဘက်ကိုကွေ့လိုက်တဲ့နေရာမှာ ရှိပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l26.v006"
+      ],
+      "grammarIds": [
+        "n5.l26.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.s005",
+      "lessonId": "n5.l26",
+      "ja": "大きな橋を渡ると、きれいな公園が見えます。",
+      "kana": "おおきなはしをわたると、きれいなこうえんがみえます。",
+      "translation": {
+        "en": "When you cross the big bridge, you can see a beautiful park.",
+        "my": "တံတားကြီးကို ဖြတ်ကူးလိုက်ရင် သာယာလှပတဲ့ ပန်းခြံကို မြင်တွေ့ရပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l26.v009",
+        "n5.l26.v010"
+      ],
+      "grammarIds": [
+        "n5.l26.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.s006",
+      "lessonId": "n5.l26",
+      "ja": "コンビニがよい目印になります。",
+      "kana": "こんびにがよいめじるしになります。",
+      "translation": {
+        "en": "The convenience store serves as a good landmark.",
+        "my": "ကွန်ဗီးနီးယန့်စတိုးဟာ ကောင်းမွန်တဲ့ မှတ်တိုင်အမှတ်အသား ဖြစ်လာပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l26.v011"
+      ],
+      "grammarIds": [
+        "n5.l26.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.s007",
+      "lessonId": "n5.l26",
+      "ja": "寂しいとき、家族に電話をかけます。",
+      "kana": "さびしいとき、かぞくにでんわをかけます。",
+      "translation": {
+        "en": "When I feel lonely, I call my family.",
+        "my": "အထီးကျန်တဲ့အခါ မိသားစုဆီ ဖုန်းဆက်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l26.v012"
+      ],
+      "grammarIds": [
+        "n5.l26.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.s008",
+      "lessonId": "n5.l26",
+      "ja": "この町は夜になるととても静かになります。",
+      "kana": "このまちはよるになるととてもしずかになります。",
+      "translation": {
+        "en": "This town becomes very quiet when night falls.",
+        "my": "ဒီမြို့ကလေးဟာ ညရောက်လာတဲ့အခါ အရမ်းတိတ်ဆိတ်သွားပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l26.v001"
+      ],
+      "grammarIds": [
+        "n5.l26.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.s009",
+      "lessonId": "n5.l26",
+      "ja": "道を渡るとき、右と左をよく見てください。",
+      "kana": "みちをわたるとき、みぎとひだりをよくみてください。",
+      "translation": {
+        "en": "When crossing the street, please look right and left carefully.",
+        "my": "လမ်းဖြတ်ကူးတဲ့အခါ ညာဘက်နဲ့ ဘယ်ဘက်ကို သေချာကြည့်ပါ။"
+      },
+      "vocabIds": [
+        "n5.l26.v005",
+        "n5.l26.v006",
+        "n5.l26.v009"
+      ],
+      "grammarIds": [
+        "n5.l26.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l26.s010",
+      "lessonId": "n5.l26",
+      "ja": "暇なとき、日本のドラマを見ます。",
+      "kana": "ひまなとき、にほんのどらまをみます。",
+      "translation": {
+        "en": "When I am free, I watch Japanese dramas.",
+        "my": "အားလပ်တဲ့အခါ ဂျပန်ဇာတ်လမ်းတွဲတွေ ကြည့်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l26.v001"
+      ],
+      "grammarIds": [
+        "n5.l26.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l26.r01",
+    "lessonId": "n5.l26",
+    "title": "我が家への道案内 (Directions to My House)",
+    "level": "N5",
+    "text": "留学生の皆様へ：今週の土曜日のホームステイを心待ちにしています。駅から我が家までの道順をお知らせします。中央駅の東口を出ると、目の前にバス乗り場があります。バス乗り場を右に見ながら、大通りをまっすぐ五分ほど歩いてください。一つ目の信号のある交差点を渡ると、青い看板のコンビニが見えます。そのコンビニの角を左に曲がってください。細い道を少し進むと、小さな川と白い橋があります。その橋を渡ってすぐ右の二軒目の家が私の家です。玄関の前に大きな桜の木があるのが目印です。道に迷ったときは、いつでも電話してください。",
+    "kanaText": "りゅうがくせいの皆様へ：こんしゅうのどようびのほーむすていをこころまちにしています。えきからわがやまでのみちじゅんをおしらせします。ちゅうおうえきのひがしぐちをでると、めのまえにばすのりばがあります。ばすのりばをみぎにみながら、おおどおりをまっすぐごふんほどあるいてください。ひとつめのしんごうのあるこうさてんをわたると、あおいかんばんのこんびにがみえます。そのこんびなのかどをひだりにまがってください。ほそいみちをすこしすすむと、ちいさなかわとしろいはしがあります。そのはしをわたってすぐみぎのにけんめのいえがわたしのいえです。げんかんのまえにおおきなさくらのきがあるのがめじるしです。みちにまよったときは、いつでもでんわしてください。",
+    "translation": "To the international students: We are eagerly looking forward to the homestay this Saturday. Here are the directions from the station to our house. When you exit the East Exit of Central Station, the bus stop will be right in front of you. Keeping the bus stop on your right, walk straight down the main street for about 5 minutes. When you cross the intersection with the first traffic light, you will see a convenience store with a blue sign. Please turn left at the corner of that convenience store. If you advance a little along the narrow street, there is a small river and a white bridge. Cross that bridge, and the second house on the immediate right is my house. The landmark is a large cherry tree in front of the entrance. When you get lost on the way, please call us anytime.",
+    "questionIds": [
+      "n5.l26.q021",
+      "n5.l26.q022",
+      "n5.l26.q023",
+      "n5.l26.q024",
+      "n5.l26.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l26.l01",
+    "lessonId": "n5.l26",
+    "title": "交番での道案内 (Asking for Directions at the Police Box)",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "旅行者",
+      "警察官"
+    ],
+    "transcript": "旅行者：すみません、この近くに郵便局はありますか。\n警察官：郵便局ですね。この交番を出て、前の大通りをまっすぐ進んでください。\n旅行者：まっすぐですね。\n警察官：ええ、二つ目の信号を右に曲がると、大きな銀行があります。郵便局はその銀行の隣にありますよ。\n旅行者：二つ目の信号を右ですね。歩いて何分くらいですか。\n警察官：歩いて五分くらいですよ。\n旅行者：わかりました。どうもありがとうございました！",
+    "translation": "Traveler: Excuse me, is there a post office near here?\nPolice Officer: The post office, right. Exit this police box and go straight down the main avenue in front.\nTraveler: Straight ahead, got it.\nPolice Officer: Yes, when you turn right at the second traffic light, there is a large bank. The post office is right next to that bank.\nTraveler: Right at the second traffic light. About how many minutes on foot?\nPolice Officer: It's about 5 minutes on foot.\nTraveler: Understood. Thank you very much!",
+    "turns": [
+      {
+        "speaker": "旅行者",
+        "ja": "すみません、この近くに郵便局はありますか。",
+        "kana": "すみません、このちかくにゆうびんきょくはありますか。",
+        "en": "Excuse me, is there a post office near here?"
+      },
+      {
+        "speaker": "警察官",
+        "ja": "郵便局ですね。この交番を出て、前の大通りをまっすぐ進んでください。",
+        "kana": "ゆうびんきょくですね。このこうばんをでて、まえのおおどおりをまっすぐすすんでください。",
+        "en": "The post office, right. Exit this police box and go straight down the main avenue in front."
+      },
+      {
+        "speaker": "旅行者",
+        "ja": "まっすぐですね。",
+        "kana": "まっすぐですね。",
+        "en": "Straight ahead, got it."
+      },
+      {
+        "speaker": "警察官",
+        "ja": "ええ、二つ目の信号を右に曲がると、大きな銀行があります。郵便局はその銀行の隣にありますよ。",
+        "kana": "ええ、ふたつめのしんごうをみぎにまがると、おおきなぎんこうがあります。ゆうびんきょくはそのぎんこうのとなりにありますよ。",
+        "en": "Yes, when you turn right at the second traffic light, there is a large bank. The post office is right next to that bank."
+      },
+      {
+        "speaker": "旅行者",
+        "ja": "二つ目の信号を右ですね。歩いて何分くらいですか。",
+        "kana": "ふたつめのしんごうをみぎですね。あるいてなんぷんくらいですか。",
+        "en": "Right at the second traffic light. About how many minutes on foot?"
+      },
+      {
+        "speaker": "警察官",
+        "ja": "歩いて五分くらいですよ。",
+        "kana": "あるいてごふんくらいですよ。",
+        "en": "It's about 5 minutes on foot."
+      },
+      {
+        "speaker": "旅行者",
+        "ja": "わかりました。どうもありがとうございました！",
+        "kana": "わかりました。どうもありがとうございました！",
+        "en": "Understood. Thank you very much!"
+      }
+    ],
+    "questionIds": [
+      "n5.l26.q026",
+      "n5.l26.q027",
+      "n5.l26.q028",
+      "n5.l26.q029",
+      "n5.l26.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l26.q001",
+      "lessonId": "n5.l26",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「交差点」(こうさてん) mean?",
+      "choices": [
+        "Station",
+        "Intersection",
+        "Corner",
+        "Bridge"
+      ],
+      "answer": "Intersection",
+      "acceptedAnswers": [
+        "Intersection"
+      ],
+      "explanation": "「交差点」(こうさてん) means intersection or crossroads.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q002",
+      "lessonId": "n5.l26",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「角」(かど) mean?",
+      "choices": [
+        "Bridge",
+        "Corner",
+        "Signal",
+        "Street"
+      ],
+      "answer": "Corner",
+      "acceptedAnswers": [
+        "Corner"
+      ],
+      "explanation": "「角」(かど) means corner.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q003",
+      "lessonId": "n5.l26",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What adverb means \"Straight ahead\"?",
+      "choices": [
+        "まっすぐ",
+        "ゆっくり",
+        "だんだん",
+        "たくさん"
+      ],
+      "answer": "まっすぐ",
+      "acceptedAnswers": [
+        "まっすぐ"
+      ],
+      "explanation": "「まっすぐ」 means straight ahead.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q004",
+      "lessonId": "n5.l26",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「渡る」(わたる) mean?",
+      "choices": [
+        "To turn",
+        "To cross",
+        "To stop",
+        "To enter"
+      ],
+      "answer": "To cross",
+      "acceptedAnswers": [
+        "To cross"
+      ],
+      "explanation": "「渡る」(わたる) means to cross (a bridge, road, etc.).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q005",
+      "lessonId": "n5.l26",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「信号」(しんごう) mean?",
+      "choices": [
+        "Traffic light",
+        "Police box",
+        "Post office",
+        "Hospital"
+      ],
+      "answer": "Traffic light",
+      "acceptedAnswers": [
+        "Traffic light"
+      ],
+      "explanation": "「信号」(しんごう) means traffic light.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q006",
+      "lessonId": "n5.l26",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What is 「橋」(はし)?",
+      "choices": [
+        "Chopsticks",
+        "Bridge",
+        "Road",
+        "River"
+      ],
+      "answer": "Bridge",
+      "acceptedAnswers": [
+        "Bridge"
+      ],
+      "explanation": "「橋」(はし) with kanji 橋 means bridge.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q007",
+      "lessonId": "n5.l26",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What is the Kunyomi reading for 「道」?",
+      "choices": [
+        "みち",
+        "ドウ",
+        "まち",
+        "えき"
+      ],
+      "answer": "みち",
+      "acceptedAnswers": [
+        "みち"
+      ],
+      "explanation": "The Kunyomi is みち (road).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q008",
+      "lessonId": "n5.l26",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "Which kanji means \"Town\" (まち)?",
+      "choices": [
+        "町",
+        "道",
+        "駅",
+        "角"
+      ],
+      "answer": "町",
+      "acceptedAnswers": [
+        "町"
+      ],
+      "explanation": "「町」(まち) means town.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q009",
+      "lessonId": "n5.l26",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What is the Onyomi reading of 「駅」?",
+      "choices": [
+        "エキ",
+        "ドウ",
+        "チョウ",
+        "カク"
+      ],
+      "answer": "エキ",
+      "acceptedAnswers": [
+        "エキ"
+      ],
+      "explanation": "The Onyomi for 駅 is エキ (station).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q010",
+      "lessonId": "n5.l26",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "How many strokes does the kanji 「角」 have?",
+      "choices": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": "7",
+      "acceptedAnswers": [
+        "7"
+      ],
+      "explanation": "「角」 has 7 strokes.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q011",
+      "lessonId": "n5.l26",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete: 「この道をまっすぐ＿＿＿、右に銀行があります。」",
+      "choices": [
+        "行くと",
+        "行ってと",
+        "行ったと",
+        "行きますと"
+      ],
+      "answer": "行くと",
+      "acceptedAnswers": [
+        "行くと"
+      ],
+      "explanation": "Verb dictionary form + と: 行くと.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q012",
+      "lessonId": "n5.l26",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "How do you attach 「暇」 (free / not busy) to 「とき」?",
+      "choices": [
+        "暇なとき",
+        "暇のとき",
+        "暇だとき",
+        "暇とき"
+      ],
+      "answer": "暇なとき",
+      "acceptedAnswers": [
+        "暇なとき"
+      ],
+      "explanation": "な-adjectives attach to とき with な: 暇なとき.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q013",
+      "lessonId": "n5.l26",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "How do you attach 「子供」 (child) to 「とき」?",
+      "choices": [
+        "子供のとき",
+        "子供なとき",
+        "子供だとき",
+        "子供とき"
+      ],
+      "answer": "子供のとき",
+      "acceptedAnswers": [
+        "子供のとき"
+      ],
+      "explanation": "Nouns attach to とき with の: 子供のとき.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q014",
+      "lessonId": "n5.l26",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "In 「[V-dic] と、〜」, what CANNOT appear in the main clause?",
+      "choices": [
+        "A request like 〜てください",
+        "A factual state like があります",
+        "A visible consequence like 見えます",
+        "A natural result"
+      ],
+      "answer": "A request like 〜てください",
+      "acceptedAnswers": [
+        "A request like 〜てください"
+      ],
+      "explanation": "The conditional と clause expresses natural consequences and cannot be followed by requests or commands.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q015",
+      "lessonId": "n5.l26",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "What does 「日本へ行くとき、カメラを買いました」 mean?",
+      "choices": [
+        "I bought a camera BEFORE going to Japan",
+        "I bought a camera AFTER arriving in Japan",
+        "I never bought a camera",
+        "I sold a camera in Japan"
+      ],
+      "answer": "I bought a camera BEFORE going to Japan",
+      "acceptedAnswers": [
+        "I bought a camera BEFORE going to Japan"
+      ],
+      "explanation": "V-dict + とき indicates an action taken before or during the process of going.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q016",
+      "lessonId": "n5.l26",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "What does 「日本へ行ったとき、友達に会いました」 mean?",
+      "choices": [
+        "When I had arrived in Japan, I met a friend",
+        "I met a friend before boarding the flight to Japan",
+        "I will not go to Japan",
+        "I met a friend at my home country airport"
+      ],
+      "answer": "When I had arrived in Japan, I met a friend",
+      "acceptedAnswers": [
+        "When I had arrived in Japan, I met a friend"
+      ],
+      "explanation": "V-ta + とき indicates meeting after having arrived in Japan.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q017",
+      "lessonId": "n5.l26",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete: 「信号を右＿＿＿曲がってください。」",
+      "choices": [
+        "に",
+        "を",
+        "で",
+        "から"
+      ],
+      "answer": "に",
+      "acceptedAnswers": [
+        "に"
+      ],
+      "explanation": "Turning in a direction takes the particle に: 右に曲がる.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q018",
+      "lessonId": "n5.l26",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete: 「橋を＿＿＿と、公園があります。」",
+      "choices": [
+        "渡る",
+        "渡って",
+        "渡った",
+        "渡り"
+      ],
+      "answer": "渡る",
+      "acceptedAnswers": [
+        "渡る"
+      ],
+      "explanation": "Use dictionary form 渡る before conditional と.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q019",
+      "lessonId": "n5.l26",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete: 「寂しい＿＿＿、音楽を聞きます。」 (When I feel lonely, I listen to music.)",
+      "choices": [
+        "とき",
+        "ときに",
+        "と",
+        "たら"
+      ],
+      "answer": "とき",
+      "acceptedAnswers": [
+        "とき"
+      ],
+      "explanation": "い-adjective attaches directly to とき: 寂しいとき.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q020",
+      "lessonId": "n5.l26",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "What particle marks the place crossed in 「道を渡る」?",
+      "choices": [
+        "を",
+        "に",
+        "で",
+        "へ"
+      ],
+      "answer": "を",
+      "acceptedAnswers": [
+        "を"
+      ],
+      "explanation": "Verbs of motion passing through a route or crossing an area take を: 道を渡る.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q021",
+      "lessonId": "n5.l26",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "Which station exit should the students take?",
+      "choices": [
+        "West Exit",
+        "East Exit (東口)",
+        "North Exit",
+        "South Exit"
+      ],
+      "answer": "East Exit (東口)",
+      "acceptedAnswers": [
+        "East Exit (東口)"
+      ],
+      "explanation": "The guide says: 中央駅の東口を出ると (Exit the East Exit of Central Station).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q022",
+      "lessonId": "n5.l26",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "How long should students walk down the main street from the station?",
+      "choices": [
+        "About 5 minutes",
+        "About 15 minutes",
+        "About 30 minutes",
+        "1 hour"
+      ],
+      "answer": "About 5 minutes",
+      "acceptedAnswers": [
+        "About 5 minutes"
+      ],
+      "explanation": "The text notes: 大通りをまっすぐ五分ほど歩いてください (walk straight for about 5 minutes).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q023",
+      "lessonId": "n5.l26",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "What direction should they turn at the corner of the convenience store?",
+      "choices": [
+        "Right",
+        "Left",
+        "Turn around",
+        "Go straight"
+      ],
+      "answer": "Left",
+      "acceptedAnswers": [
+        "Left"
+      ],
+      "explanation": "The text specifies: コンビニの角を左に曲がってください (turn left at the corner of the convenience store).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q024",
+      "lessonId": "n5.l26",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "Which house is the host family's house after crossing the white bridge?",
+      "choices": [
+        "The first house on the left",
+        "The second house on the immediate right",
+        "The third house straight ahead",
+        "The house opposite the station"
+      ],
+      "answer": "The second house on the immediate right",
+      "acceptedAnswers": [
+        "The second house on the immediate right"
+      ],
+      "explanation": "The text states: その橋を渡ってすぐ右の二軒目の家が私の家です (the second house on the immediate right).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q025",
+      "lessonId": "n5.l26",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "What landmark is in front of the entrance of the house?",
+      "choices": [
+        "A red mailbox",
+        "A big cherry tree",
+        "A bicycle parking lot",
+        "A large dog house"
+      ],
+      "answer": "A big cherry tree",
+      "acceptedAnswers": [
+        "A big cherry tree"
+      ],
+      "explanation": "The text ends: 玄関の前に大きな桜の木があるのが目印です.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q026",
+      "lessonId": "n5.l26",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "Where does the traveler want to go?",
+      "choices": [
+        "Police box",
+        "Post office (郵便局)",
+        "Station",
+        "Bank"
+      ],
+      "answer": "Post office (郵便局)",
+      "acceptedAnswers": [
+        "Post office (郵便局)"
+      ],
+      "explanation": "The traveler asks: この近くに郵便局はありますか.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q027",
+      "lessonId": "n5.l26",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "At which traffic light should the traveler turn right?",
+      "choices": [
+        "The first traffic light",
+        "The second traffic light (二つ目の信号)",
+        "The third traffic light",
+        "The fourth traffic light"
+      ],
+      "answer": "The second traffic light (二つ目の信号)",
+      "acceptedAnswers": [
+        "The second traffic light (二つ目の信号)"
+      ],
+      "explanation": "The police officer says: 二つ目の信号を右に曲がると (turn right at the second traffic light).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q028",
+      "lessonId": "n5.l26",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "Where is the post office located relative to the large bank?",
+      "choices": [
+        "Opposite the bank",
+        "Inside the bank",
+        "Right next to the large bank (隣)",
+        "Behind the bank"
+      ],
+      "answer": "Right next to the large bank (隣)",
+      "acceptedAnswers": [
+        "Right next to the large bank (隣)"
+      ],
+      "explanation": "The police officer explains: 郵便局はその銀行の隣にありますよ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q029",
+      "lessonId": "n5.l26",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "How many minutes will it take to walk there?",
+      "choices": [
+        "About 2 minutes",
+        "About 5 minutes",
+        "About 10 minutes",
+        "About 20 minutes"
+      ],
+      "answer": "About 5 minutes",
+      "acceptedAnswers": [
+        "About 5 minutes"
+      ],
+      "explanation": "The police officer answers: 歩いて五分くらいですよ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l26.q030",
+      "lessonId": "n5.l26",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "Who gave the directions to the traveler?",
+      "choices": [
+        "A station employee",
+        "A police officer at the police box (警察官)",
+        "A bus driver",
+        "A friend"
+      ],
+      "answer": "A police officer at the police box (警察官)",
+      "acceptedAnswers": [
+        "A police officer at the police box (警察官)"
+      ],
+      "explanation": "The conversation takes place at a police box with a 警察官.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l26.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

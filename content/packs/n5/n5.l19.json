@@ -1,0 +1,1636 @@
+{
+  "id": "n5.l19",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 19,
+  "title": "Ability and Possibility (ことができます)",
+  "description": "Form the dictionary (plain present) form of verbs, express capabilities and possibility with [Verb dict] ことが できます, and articulate personal hobbies with 趣味は [Verb dict] ことです.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l19.v001",
+      "lessonId": "n5.l19",
+      "ja": "弾きます",
+      "kana": "ひきます",
+      "en": "To play (piano/guitar)",
+      "my": "တီးခတ်သည် (စန္ဒရား/ဂစ်တာ)",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l19.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.v002",
+      "lessonId": "n5.l19",
+      "ja": "歌います",
+      "kana": "うたいます",
+      "en": "To sing",
+      "my": "သီဆိုသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l19.s007",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.v003",
+      "lessonId": "n5.l19",
+      "ja": "集めます",
+      "kana": "あつめます",
+      "en": "To collect / gather",
+      "my": "စုဆောင်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l19.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.v004",
+      "lessonId": "n5.l19",
+      "ja": "捨てます",
+      "kana": "すてます",
+      "en": "To throw away / discard",
+      "my": "စွန့်ပစ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l19.s008",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.v005",
+      "lessonId": "n5.l19",
+      "ja": "換えます",
+      "kana": "かえます",
+      "en": "To exchange / change",
+      "my": "လဲလှယ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l19.s009",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.v006",
+      "lessonId": "n5.l19",
+      "ja": "運転します",
+      "kana": "うんてんします",
+      "en": "To drive (a vehicle)",
+      "my": "မောင်းနှင်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l19.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.v007",
+      "lessonId": "n5.l19",
+      "ja": "予約します",
+      "kana": "よやくします",
+      "en": "To reserve / book",
+      "my": "ကြိုတင်စာရင်းသွင်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l19.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.v008",
+      "lessonId": "n5.l19",
+      "ja": "ピアノ",
+      "kana": "ぴあの",
+      "en": "Piano",
+      "my": "စန္ဒရား",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l19.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.v009",
+      "lessonId": "n5.l19",
+      "ja": "漢字",
+      "kana": "かんじ",
+      "en": "Kanji characters",
+      "my": "ခန်ဂျီ စာလုံး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l19.s010",
+      "kanjiIds": [
+        "n5.l19.k004"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.v010",
+      "lessonId": "n5.l19",
+      "ja": "国際",
+      "kana": "こくさい",
+      "en": "International",
+      "my": "နိုင်ငံတကာ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l19.s011",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.v011",
+      "lessonId": "n5.l19",
+      "ja": "現金",
+      "kana": "げんきん",
+      "en": "Cash",
+      "my": "လက်ငင်းငွေသား",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l19.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.v012",
+      "lessonId": "n5.l19",
+      "ja": "特に",
+      "kana": "とくに",
+      "en": "Especially / Particularly",
+      "my": "အထူးသဖြင့်",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l19.s012",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l19.k001",
+      "lessonId": "n5.l19",
+      "char": "話",
+      "meaning": "Talk, speak, story",
+      "onyomi": [
+        "ワ"
+      ],
+      "kunyomi": [
+        "はな.す",
+        "はなし"
+      ],
+      "exampleVocab": [
+        {
+          "word": "話します (はなします)",
+          "reading": "はなします",
+          "meaning": "To speak",
+          "preview": false
+        },
+        {
+          "word": "電話 (でんわ)",
+          "reading": "でんわ",
+          "meaning": "Telephone",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l19.s001"
+      ],
+      "components": [
+        "話"
+      ],
+      "strokes": 13,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.k002",
+      "lessonId": "n5.l19",
+      "char": "語",
+      "meaning": "Word, language",
+      "onyomi": [
+        "ゴ"
+      ],
+      "kunyomi": [
+        "かた.る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "日本語 (にほんご)",
+          "reading": "にほんご",
+          "meaning": "Japanese language",
+          "preview": false
+        },
+        {
+          "word": "英語 (えいご)",
+          "reading": "えいご",
+          "meaning": "English language",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l19.s002"
+      ],
+      "components": [
+        "語"
+      ],
+      "strokes": 14,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.k003",
+      "lessonId": "n5.l19",
+      "char": "読",
+      "meaning": "Read",
+      "onyomi": [
+        "ドク"
+      ],
+      "kunyomi": [
+        "よ.む"
+      ],
+      "exampleVocab": [
+        {
+          "word": "読みます (よみます)",
+          "reading": "よみます",
+          "meaning": "To read",
+          "preview": false
+        },
+        {
+          "word": "読書 (どくしょ)",
+          "reading": "どくしょ",
+          "meaning": "Reading books",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l19.s003"
+      ],
+      "components": [
+        "読"
+      ],
+      "strokes": 14,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.k004",
+      "lessonId": "n5.l19",
+      "char": "字",
+      "meaning": "Character, letter",
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [
+        "あざ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "漢字 (かんじ)",
+          "reading": "かんじ",
+          "meaning": "Kanji characters",
+          "preview": false
+        },
+        {
+          "word": "文字 (もじ)",
+          "reading": "もじ",
+          "meaning": "Letter / Script",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l19.s004"
+      ],
+      "components": [
+        "字"
+      ],
+      "strokes": 6,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l19.g001",
+      "lessonId": "n5.l19",
+      "pattern": "[Verb dict] ことが できます",
+      "meaning": "Can [Verb] / Able to [Verb]",
+      "formation": "Verb (Dictionary form) + ことが + できます / できません",
+      "explanation": {
+        "en": "Nominalizes the verb with こと to express potential capability or circumstantial possibility: 漢字を五百字読むことができます (I can read 500 kanji).",
+        "my": "ပြုလုပ်နိုင်စွမ်း သို့မဟုတ် အခြေအနေအရ ပြုလုပ်ခွင့်ရှိခြင်းကို 「ကြိယာ Dictionary-form + ことができます」 (... နိုင်သည်) ဖြင့် ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l19.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l19.s003",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do NOT attach ことができます to the ます-form (*話しますことができます is ungrammatical; must be 話すことができます)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.g002",
+      "lessonId": "n5.l19",
+      "pattern": "私の趣味は [Verb dict] ことです",
+      "meaning": "My hobby is [Verbing]",
+      "formation": "趣味は + Verb (Dictionary form) + こと + です",
+      "explanation": {
+        "en": "Nominalizes the action so that a verb phrase can serve as the predicate complement describing one's hobby: 私の趣味は写真を撮ることです (My hobby is taking photos).",
+        "my": "မိမိ၏ ဝါသနာကို ဖော်ပြရာတွင် 「〜趣味は [ကြိယာ Dictionary-form] ことです」 (...ခြင်း ဖြစ်သည်) ဟု သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l19.s002",
+          "note": "Basic usage"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do NOT end with just the verb (*趣味は写真を撮ります is wrong). It must be nominalized with ことです."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l19.s001",
+      "lessonId": "n5.l19",
+      "ja": "スミスさんはピアノを弾くことができます。",
+      "kana": "すみすさんはぴあのをひくことができます。",
+      "translation": {
+        "en": "Smith-san can play the piano.",
+        "my": "မစ္စတာ စမစ်က စန္ဒရား တီးခတ်နိုင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l19.v001",
+        "n5.l19.v008"
+      ],
+      "grammarIds": [
+        "n5.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.s002",
+      "lessonId": "n5.l19",
+      "ja": "私の趣味は世界各国の切手を集めることです。",
+      "kana": "わたしのしゅみはせかいかっこくのきってをあつめることです。",
+      "translation": {
+        "en": "My hobby is collecting stamps from around the world.",
+        "my": "ကျွန်တော့်ဝါသနာက ကမ္ဘာအနှံ့က တံဆိပ်ခေါင်းတွေကို စုဆောင်းခြင်း ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l19.v003"
+      ],
+      "grammarIds": [
+        "n5.l19.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.s003",
+      "lessonId": "n5.l19",
+      "ja": "この店ではカードを使うことができません。現金で払ってください。",
+      "kana": "このみせではかーどをつかうことができません。げんきんではらってください。",
+      "translation": {
+        "en": "You cannot use cards at this shop. Please pay with cash.",
+        "my": "ဒီဆိုင်မှာ ကတ် အသုံးပြုလို့ မရပါ။ ငွေသားနဲ့ ပေးချေပါ။"
+      },
+      "vocabIds": [
+        "n5.l19.v011"
+      ],
+      "grammarIds": [
+        "n5.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.s004",
+      "lessonId": "n5.l19",
+      "ja": "インターネットでホテルの部屋を予約することができます。",
+      "kana": "いんたーねっとでほてるのへやをよやくすることができます。",
+      "translation": {
+        "en": "You can reserve a hotel room online.",
+        "my": "အင်တာနက်ကနေ ဟိုတယ်အခန်းကို ကြိုတင်စာရင်းသွင်းနိုင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l19.v007"
+      ],
+      "grammarIds": [
+        "n5.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.s005",
+      "lessonId": "n5.l19",
+      "ja": "あなたは車を運転することができますか。",
+      "kana": "あなたはくるまをうんてんすることができますか。",
+      "translation": {
+        "en": "Can you drive a car?",
+        "my": "မင်း ကားမောင်းနိုင်သလား။"
+      },
+      "vocabIds": [
+        "n5.l19.v006"
+      ],
+      "grammarIds": [
+        "n5.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.s006",
+      "lessonId": "n5.l19",
+      "ja": "日本語で手紙を書くことができます。",
+      "kana": "にほんごでてがみをかくことができます。",
+      "translation": {
+        "en": "I can write letters in Japanese.",
+        "my": "ဂျပန်လို စာရေးနိုင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l19.v009"
+      ],
+      "grammarIds": [
+        "n5.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.s007",
+      "lessonId": "n5.l19",
+      "ja": "カラオケで日本の歌を上手に歌うことができます。",
+      "kana": "からおけでにほんのうたをじょうずにうたうことができます。",
+      "translation": {
+        "en": "I can sing Japanese songs skillfully at karaoke.",
+        "my": "ကာရာအိုကေမှာ ဂျပန်သီချင်းတွေကို ကျွမ်းကျင်စွာ သီဆိုနိုင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l19.v002"
+      ],
+      "grammarIds": [
+        "n5.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.s008",
+      "lessonId": "n5.l19",
+      "ja": "ゴミを捨てる前に、分別してください。",
+      "kana": "ごみをすてるまえに、ぶんべつしてください。",
+      "translation": {
+        "en": "Before throwing away the trash, please sort it.",
+        "my": "အမှိုက်မစွန့်ပစ်မီ သေချာခွဲခြားပေးပါ။"
+      },
+      "vocabIds": [
+        "n5.l19.v004"
+      ],
+      "grammarIds": [
+        "n5.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.s009",
+      "lessonId": "n5.l19",
+      "ja": "空港の銀行でお金を換えることができます。",
+      "kana": "くうこうのぎんこうでおかねをかえることができます。",
+      "translation": {
+        "en": "You can exchange money at the airport bank.",
+        "my": "လေဆိပ်ရှိ ဘဏ်တွင် ငွေလဲလှယ်နိုင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l19.v005"
+      ],
+      "grammarIds": [
+        "n5.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.s010",
+      "lessonId": "n5.l19",
+      "ja": "田中さんは難しい漢字をたくさん読むことができます。",
+      "kana": "たなかさんはむずかしいかんじをたくさんよむことができます。",
+      "translation": {
+        "en": "Tanaka-san can read many difficult kanji characters.",
+        "my": "တာနာကာစန်းက ခက်ခဲတဲ့ ခန်းဂျီးအများအပြားကို ဖတ်နိုင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l19.v009"
+      ],
+      "grammarIds": [
+        "n5.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.s011",
+      "lessonId": "n5.l19",
+      "ja": "ホテルの部屋から国際電話をかけることができます。",
+      "kana": "ほてるのへやからこくさいでんわをかけることができます。",
+      "translation": {
+        "en": "You can make international phone calls from your hotel room.",
+        "my": "ဟိုတယ်အခန်းထဲကနေ နိုင်ငံတကာဖုန်း ခေါ်ဆိုနိုင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l19.v010"
+      ],
+      "grammarIds": [
+        "n5.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l19.s012",
+      "lessonId": "n5.l19",
+      "ja": "外国の料理が好きです。特にタイ料理が好きです。",
+      "kana": "がいこくのりょうりがすきです。とくにたいりょうりがすきです。",
+      "translation": {
+        "en": "I like foreign food. Especially, I like Thai cuisine.",
+        "my": "နိုင်ငံခြား အစားအစာတွေကို ကြိုက်ပါတယ်။ အထူးသဖြင့် ထိုင်းအစားအစာကို ကြိုက်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l19.v012"
+      ],
+      "grammarIds": [
+        "n5.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l19.r01",
+    "lessonId": "n5.l19",
+    "title": "Ability and Possibility (ことができます) - 読解",
+    "level": "N5",
+    "text": "私は子供の時から音楽が大好きです。ピアノとギターを上手に弾くことができます。高校生の時、バンドで歌を歌うこともできました。今、日本のアニメの曲を日本語で歌うことができます。私の趣味は日本の本や漫画を読むことです。まだ難しい漢字を読むことはできませんが、辞書を使いながら毎日少しずつ読むことができます。来年までにN2に合格したいです。",
+    "kanaText": "わたしはこどものときからおんがくがだいすきです。ぴあのとぎたーをじょうずにひくことができます。こうこうせいのとき、ばんどでうたをうたうこともできました。いま、にほんのあにめのきょくをにほんごでうたうことができます。わたしのしゅみはにほんのほんやまんがをよむことです。まだむずかしいかんじをよむことはできませんが、じしょをつかいながらまいにちすこしずつよむことができます。らいねんまでにえぬににごうかくしたいです。",
+    "translation": "I have loved music since childhood. I can play the piano and guitar skillfully. When I was a high school student, I was also able to sing songs in a band. Now, I can sing Japanese anime songs in Japanese. My hobby is reading Japanese books and manga. I cannot read difficult kanji yet, but using a dictionary, I can read little by little every day. I want to pass N2 by next year.",
+    "questionIds": [
+      "n5.l19.q021",
+      "n5.l19.q022",
+      "n5.l19.q023",
+      "n5.l19.q024",
+      "n5.l19.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l19.l01",
+    "lessonId": "n5.l19",
+    "title": "Ability and Possibility (ことができます) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "宿泊客",
+      "フロント"
+    ],
+    "transcript": "宿泊客：すみません、チェックアウトの後で荷物を預けることができますか。\nフロント：はい、夕方六時までフロントで無料でお預かりすることができますよ。\n宿泊客：よかったです！支払いはクレジットカードを使うことができますか。\nフロント：はい、各種クレジットカードや電子マネーをお使いいただけます。",
+    "translation": "A foreign guest asks the hotel receptionist about payment options and luggage storage.",
+    "turns": [
+      {
+        "speaker": "宿泊客",
+        "ja": "すみません、チェックアウトの後で荷物を預けることができますか。",
+        "kana": "すみません、ちぇっくあうとのあとでにもつをあずけることができますか。",
+        "en": "Excuse me, is it possible to leave my luggage after checkout?"
+      },
+      {
+        "speaker": "フロント",
+        "ja": "はい、夕方六時までフロントで無料でお預かりすることができますよ。",
+        "kana": "はい、ゆうがたろくじまでふろんとでむりょうでおあずかりすることができますよ。",
+        "en": "Yes, we can hold it for you for free at the front desk until 6:00 PM."
+      },
+      {
+        "speaker": "宿泊客",
+        "ja": "よかったです！支払いはクレジットカードを使うことができますか。",
+        "kana": "よかったです！しはらいはくれじっとかーどをつかうことができますか。",
+        "en": "That's great! Can I use a credit card for payment?"
+      },
+      {
+        "speaker": "フロント",
+        "ja": "はい、各種クレジットカードや電子マネーをお使いいただけます。",
+        "kana": "はい、かくしゅくれじっとかーどやでんしまねーをおつかいいただけます。",
+        "en": "Yes, various credit cards and electronic money can be used."
+      }
+    ],
+    "questionIds": [
+      "n5.l19.q026",
+      "n5.l19.q027",
+      "n5.l19.q028",
+      "n5.l19.q029",
+      "n5.l19.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l19.q001",
+      "lessonId": "n5.l19",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「弾きます」の意味は何ですか。 (What does 「弾きます」 mean?)",
+      "choices": [
+        "To play (piano/guitar)",
+        "To sing",
+        "To collect / gather",
+        "To throw away / discard"
+      ],
+      "answer": "To play (piano/guitar)",
+      "acceptedAnswers": [
+        "To play (piano/guitar)"
+      ],
+      "explanation": "「弾きます」(ひきます) means \"To play (piano/guitar)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q002",
+      "lessonId": "n5.l19",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To sing\" in hiragana:",
+      "answer": "うたいます",
+      "acceptedAnswers": [
+        "うたいます",
+        "歌います"
+      ],
+      "explanation": "The Japanese word for \"To sing\" is 歌います (うたいます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q003",
+      "lessonId": "n5.l19",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「集めます」の意味は何ですか。 (What does 「集めます」 mean?)",
+      "choices": [
+        "To drive (a vehicle)",
+        "To exchange / change",
+        "To throw away / discard",
+        "To collect / gather"
+      ],
+      "answer": "To collect / gather",
+      "acceptedAnswers": [
+        "To collect / gather"
+      ],
+      "explanation": "「集めます」(あつめます) means \"To collect / gather\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q004",
+      "lessonId": "n5.l19",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To throw away / discard\" in hiragana:",
+      "answer": "すてます",
+      "acceptedAnswers": [
+        "すてます",
+        "捨てます"
+      ],
+      "explanation": "The Japanese word for \"To throw away / discard\" is 捨てます (すてます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q005",
+      "lessonId": "n5.l19",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「換えます」の意味は何ですか。 (What does 「換えます」 mean?)",
+      "choices": [
+        "Piano",
+        "To reserve / book",
+        "To drive (a vehicle)",
+        "To exchange / change"
+      ],
+      "answer": "To exchange / change",
+      "acceptedAnswers": [
+        "To exchange / change"
+      ],
+      "explanation": "「換えます」(かえます) means \"To exchange / change\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q006",
+      "lessonId": "n5.l19",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To drive (a vehicle)\" in hiragana:",
+      "answer": "うんてんします",
+      "acceptedAnswers": [
+        "うんてんします",
+        "運転します"
+      ],
+      "explanation": "The Japanese word for \"To drive (a vehicle)\" is 運転します (うんてんします).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q007",
+      "lessonId": "n5.l19",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「予約します」の意味は何ですか。 (What does 「予約します」 mean?)",
+      "choices": [
+        "To reserve / book",
+        "Piano",
+        "Kanji characters",
+        "International"
+      ],
+      "answer": "To reserve / book",
+      "acceptedAnswers": [
+        "To reserve / book"
+      ],
+      "explanation": "「予約します」(よやくします) means \"To reserve / book\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q008",
+      "lessonId": "n5.l19",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Piano\" in hiragana:",
+      "answer": "ぴあの",
+      "acceptedAnswers": [
+        "ぴあの",
+        "ピアノ"
+      ],
+      "explanation": "The Japanese word for \"Piano\" is ピアノ (ぴあの).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q009",
+      "lessonId": "n5.l19",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「漢字」の意味は何ですか。 (What does 「漢字」 mean?)",
+      "choices": [
+        "Especially / Particularly",
+        "Cash",
+        "International",
+        "Kanji characters"
+      ],
+      "answer": "Kanji characters",
+      "acceptedAnswers": [
+        "Kanji characters"
+      ],
+      "explanation": "「漢字」(かんじ) means \"Kanji characters\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q010",
+      "lessonId": "n5.l19",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"International\" in hiragana:",
+      "answer": "こくさい",
+      "acceptedAnswers": [
+        "こくさい",
+        "国際"
+      ],
+      "explanation": "The Japanese word for \"International\" is 国際 (こくさい).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q011",
+      "lessonId": "n5.l19",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「現金」の意味は何ですか。 (What does 「現金」 mean?)",
+      "choices": [
+        "To sing",
+        "To play (piano/guitar)",
+        "Especially / Particularly",
+        "Cash"
+      ],
+      "answer": "Cash",
+      "acceptedAnswers": [
+        "Cash"
+      ],
+      "explanation": "「現金」(げんきん) means \"Cash\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q012",
+      "lessonId": "n5.l19",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Especially / Particularly\" in hiragana:",
+      "answer": "とくに",
+      "acceptedAnswers": [
+        "とくに",
+        "特に"
+      ],
+      "explanation": "The Japanese word for \"Especially / Particularly\" is 特に (とくに).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q013",
+      "lessonId": "n5.l19",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「話」の意味は何ですか。 (What is the meaning of kanji 「話」?)",
+      "choices": [
+        "Talk, speak, story",
+        "Word, language",
+        "Read",
+        "Tree"
+      ],
+      "answer": "Talk, speak, story",
+      "acceptedAnswers": [
+        "Talk, speak, story"
+      ],
+      "explanation": "「話」means \"Talk, speak, story\". Onyomi: ワ, Kunyomi: はな.す, はなし.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q014",
+      "lessonId": "n5.l19",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「話」の読み方はどれですか。 (Which is a correct reading for 「話」?)",
+      "choices": [
+        "はな.す",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "はな.す",
+      "acceptedAnswers": [
+        "はな.す"
+      ],
+      "explanation": "「話」 has the reading 「はな.す」 (Talk, speak, story).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q015",
+      "lessonId": "n5.l19",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「語」の意味は何ですか。 (What is the meaning of kanji 「語」?)",
+      "choices": [
+        "Word, language",
+        "Talk, speak, story",
+        "Read",
+        "Tree"
+      ],
+      "answer": "Word, language",
+      "acceptedAnswers": [
+        "Word, language"
+      ],
+      "explanation": "「語」means \"Word, language\". Onyomi: ゴ, Kunyomi: かた.る.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q016",
+      "lessonId": "n5.l19",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「語」の読み方はどれですか。 (Which is a correct reading for 「語」?)",
+      "choices": [
+        "かた.る",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "かた.る",
+      "acceptedAnswers": [
+        "かた.る"
+      ],
+      "explanation": "「語」 has the reading 「かた.る」 (Word, language).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q017",
+      "lessonId": "n5.l19",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「読」の意味は何ですか。 (What is the meaning of kanji 「読」?)",
+      "choices": [
+        "Read",
+        "Talk, speak, story",
+        "Word, language",
+        "Tree"
+      ],
+      "answer": "Read",
+      "acceptedAnswers": [
+        "Read"
+      ],
+      "explanation": "「読」means \"Read\". Onyomi: ドク, Kunyomi: よ.む.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q018",
+      "lessonId": "n5.l19",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「読」の読み方はどれですか。 (Which is a correct reading for 「読」?)",
+      "choices": [
+        "よ.む",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "よ.む",
+      "acceptedAnswers": [
+        "よ.む"
+      ],
+      "explanation": "「読」 has the reading 「よ.む」 (Read).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q019",
+      "lessonId": "n5.l19",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「字」の意味は何ですか。 (What is the meaning of kanji 「字」?)",
+      "choices": [
+        "Character, letter",
+        "Talk, speak, story",
+        "Word, language",
+        "Tree"
+      ],
+      "answer": "Character, letter",
+      "acceptedAnswers": [
+        "Character, letter"
+      ],
+      "explanation": "「字」means \"Character, letter\". Onyomi: ジ, Kunyomi: あざ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q020",
+      "lessonId": "n5.l19",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「字」の読み方はどれですか。 (Which is a correct reading for 「字」?)",
+      "choices": [
+        "あざ",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "あざ",
+      "acceptedAnswers": [
+        "あざ"
+      ],
+      "explanation": "「字」 has the reading 「あざ」 (Character, letter).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q021",
+      "lessonId": "n5.l19",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者はどんな楽器を弾くことができますか。 (What instruments can the author play?)",
+      "choices": [
+        "ピアノとギター",
+        "バイオリンとフルート",
+        "ドラムだけ",
+        "何も弾けない"
+      ],
+      "answer": "ピアノとギター",
+      "acceptedAnswers": [
+        "ピアノとギター"
+      ],
+      "explanation": "「ピアノとギターを上手に弾くことができます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q022",
+      "lessonId": "n5.l19",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "現在、日本語で何ができますか。 (What can they currently do in Japanese?)",
+      "choices": [
+        "アニメの曲を日本語で歌うこと",
+        "難しい論文を書くこと",
+        "流暢に演説すること",
+        "同時通訳"
+      ],
+      "answer": "アニメの曲を日本語で歌うこと",
+      "acceptedAnswers": [
+        "アニメの曲を日本語で歌うこと"
+      ],
+      "explanation": "「今、日本のアニメの曲を日本語で歌うことができます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q023",
+      "lessonId": "n5.l19",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者の趣味は何ですか。 (What is the author's hobby?)",
+      "choices": [
+        "日本の本や漫画を読むこと",
+        "切手を集めること",
+        "スポーツをすること",
+        "料理を作ること"
+      ],
+      "answer": "日本の本や漫画を読むこと",
+      "acceptedAnswers": [
+        "日本の本や漫画を読むこと"
+      ],
+      "explanation": "「私の趣味は日本の本や漫画を読むことです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q024",
+      "lessonId": "n5.l19",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "難しい漢字はどうやって読みますか。 (How do they handle difficult kanji?)",
+      "choices": [
+        "辞書を使いながら読む",
+        "読まないで飛ばす",
+        "先生に全部聞く",
+        "諦める"
+      ],
+      "answer": "辞書を使いながら読む",
+      "acceptedAnswers": [
+        "辞書を使いながら読む"
+      ],
+      "explanation": "「辞書を使いながら毎日少しずつ読むことができます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q025",
+      "lessonId": "n5.l19",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "将来の目標は何ですか。 (What is their future goal?)",
+      "choices": [
+        "来年までにN2に合格すること",
+        "プロのピアニストになること",
+        "帰国すること",
+        "漫画家になること"
+      ],
+      "answer": "来年までにN2に合格すること",
+      "acceptedAnswers": [
+        "来年までにN2に合格すること"
+      ],
+      "explanation": "「来年までにN2に合格したいです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q026",
+      "lessonId": "n5.l19",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "チェックアウト後、荷物を預けることができますか。 (Can luggage be stored after checkout?)",
+      "choices": [
+        "はい、夕方六時まで無料で預けることができる",
+        "いいえ、預かりサービスはない",
+        "有料なら預けられる",
+        "朝十時までのみ可"
+      ],
+      "answer": "はい、夕方六時まで無料で預けることができる",
+      "acceptedAnswers": [
+        "はい、夕方六時まで無料で預けることができる"
+      ],
+      "explanation": "「夕方六時までフロントで無料でお預かりすることができますよ」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q027",
+      "lessonId": "n5.l19",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "支払いにクレジットカードは使えますか。 (Can credit cards be used for payment?)",
+      "choices": [
+        "はい、各種カードや電子マネーが使える",
+        "現金のみ",
+        "日本円のみ",
+        "振込だけ"
+      ],
+      "answer": "はい、各種カードや電子マネーが使える",
+      "acceptedAnswers": [
+        "はい、各種カードや電子マネーが使える"
+      ],
+      "explanation": "「はい、各種クレジットカードや電子マネーをお使いいただけます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q028",
+      "lessonId": "n5.l19",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "荷物はいつまで預けられますか。 (Until when can luggage be held?)",
+      "choices": [
+        "夕方六時まで",
+        "夜八時まで",
+        "正午まで",
+        "翌朝まで"
+      ],
+      "answer": "夕方六時まで",
+      "acceptedAnswers": [
+        "夕方六時まで"
+      ],
+      "explanation": "「夕方六時まで」 (Until 6:00 in the evening).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q029",
+      "lessonId": "n5.l19",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "場所はどこですか。 (Where does this conversation take place?)",
+      "choices": [
+        "ホテルのフロント",
+        "駅の改札口",
+        "空港の搭乗口",
+        "デパートの案内所"
+      ],
+      "answer": "ホテルのフロント",
+      "acceptedAnswers": [
+        "ホテルのフロント"
+      ],
+      "explanation": "The conversation takes place at a hotel front desk.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l19.q030",
+      "lessonId": "n5.l19",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "客は何について確認しましたか。 (What two things did the guest confirm?)",
+      "choices": [
+        "荷物の預かりと支払い方法",
+        "朝食の時間と部屋番号",
+        "Wi-Fiとタクシーの予約",
+        "大浴場の場所"
+      ],
+      "answer": "荷物の預かりと支払い方法",
+      "acceptedAnswers": [
+        "荷物の預かりと支払い方法"
+      ],
+      "explanation": "The guest asks about luggage storage and credit card payment capability.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l19.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

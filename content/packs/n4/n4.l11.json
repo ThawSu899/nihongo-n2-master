@@ -1,0 +1,1702 @@
+{
+  "id": "n4.l11",
+  "level": "N4",
+  "module": "N4 Intermediate Grammar 1",
+  "number": 11,
+  "title": "N4 Lesson 11: Passive Form (受け身: 叱られる・褒められる)",
+  "description": "Master direct and indirect suffering passive verb conjugations, agent particle marking (に), and real-world everyday contexts.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l11.v001",
+      "lessonId": "n4.l11",
+      "ja": "褒める",
+      "kana": "ほめる",
+      "en": "to praise; to commend",
+      "my": "ချီးမွမ်းသည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l11.s001",
+      "kanjiIds": [
+        "n4.l11.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.v002",
+      "lessonId": "n4.l11",
+      "ja": "叱る",
+      "kana": "しかる",
+      "en": "to scold; to reprimand",
+      "my": "ဆူပူကြိမ်းမောင်းသည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l11.s002",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.v003",
+      "lessonId": "n4.l11",
+      "ja": "踏む",
+      "kana": "ふむ",
+      "en": "to step on; to tread on",
+      "my": "နင်းမိသည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l11.s003",
+      "kanjiIds": [
+        "n4.l11.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.v004",
+      "lessonId": "n4.l11",
+      "ja": "頼む",
+      "kana": "たのむ",
+      "en": "to ask; to request",
+      "my": "အကူအညီတောင်းသည်/မှာကြားသည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l11.s004",
+      "kanjiIds": [
+        "n4.l11.k003"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.v005",
+      "lessonId": "n4.l11",
+      "ja": "盗む",
+      "kana": "ぬすむ",
+      "en": "to steal",
+      "my": "ခိုးယူသည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l11.s005",
+      "kanjiIds": [
+        "n4.l11.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.v006",
+      "lessonId": "n4.l11",
+      "ja": "誘う",
+      "kana": "さそう",
+      "en": "to invite; to ask out",
+      "my": "ဖိတ်ခေါ်သည်/ခေါ်ဆောင်သည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l11.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.v007",
+      "lessonId": "n4.l11",
+      "ja": "注意する",
+      "kana": "ちゅういする",
+      "en": "to warn; to pay attention",
+      "my": "သတိပေးသည်/သတိထားသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l11.s007",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.v008",
+      "lessonId": "n4.l11",
+      "ja": "壊す",
+      "kana": "こわす",
+      "en": "to break; to destroy",
+      "my": "ဖျက်ဆီးသည်/ချိုးဖျက်သည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l11.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.v009",
+      "lessonId": "n4.l11",
+      "ja": "汚す",
+      "kana": "よごす",
+      "en": "to make dirty; to soil",
+      "my": "ပေရေညစ်ပတ်စေသည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l11.s009",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.v010",
+      "lessonId": "n4.l11",
+      "ja": "発見する",
+      "kana": "はっけんする",
+      "en": "to discover",
+      "my": "ရှာဖွေတွေ့ရှိသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l11.s010",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.v011",
+      "lessonId": "n4.l11",
+      "ja": "展覧会",
+      "kana": "てんらんかい",
+      "en": "exhibition; art show",
+      "my": "ပြပွဲ",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l11.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.v012",
+      "lessonId": "n4.l11",
+      "ja": "満員電車",
+      "kana": "まんいんでんしゃ",
+      "en": "crowded/packed train",
+      "my": "လူပြည့်ကျပ်နေသောရထား",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l11.s012",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l11.k001",
+      "lessonId": "n4.l11",
+      "char": "褒",
+      "meaning": "praise; commend",
+      "onyomi": [
+        "ホウ"
+      ],
+      "kunyomi": [
+        "ほ・める"
+      ],
+      "exampleVocab": [
+        {
+          "word": "褒める",
+          "reading": "ほめる",
+          "meaning": "to praise",
+          "preview": false
+        },
+        {
+          "word": "褒美",
+          "reading": "ほうび",
+          "meaning": "reward; prize",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l11.s001"
+      ],
+      "components": [
+        "衣",
+        "保"
+      ],
+      "strokes": 15,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.k002",
+      "lessonId": "n4.l11",
+      "char": "踏",
+      "meaning": "step on; tread",
+      "onyomi": [
+        "トウ"
+      ],
+      "kunyomi": [
+        "ふ・む",
+        "ふ・まえる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "踏む",
+          "reading": "ふむ",
+          "meaning": "to step on",
+          "preview": false
+        },
+        {
+          "word": "踏切",
+          "reading": "ふみきり",
+          "meaning": "railway crossing",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l11.s001"
+      ],
+      "components": [
+        "足",
+        "沓"
+      ],
+      "strokes": 15,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.k003",
+      "lessonId": "n4.l11",
+      "char": "頼",
+      "meaning": "rely; request; trust",
+      "onyomi": [
+        "ライ"
+      ],
+      "kunyomi": [
+        "たの・む",
+        "たよ・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "頼む",
+          "reading": "たのむ",
+          "meaning": "to request; to ask",
+          "preview": false
+        },
+        {
+          "word": "信頼",
+          "reading": "しんらい",
+          "meaning": "trust; reliance",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l11.s001"
+      ],
+      "components": [
+        "束",
+        "頁"
+      ],
+      "strokes": 16,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.k004",
+      "lessonId": "n4.l11",
+      "char": "盗",
+      "meaning": "steal; rob",
+      "onyomi": [
+        "トウ"
+      ],
+      "kunyomi": [
+        "ぬす・む"
+      ],
+      "exampleVocab": [
+        {
+          "word": "盗む",
+          "reading": "ぬすむ",
+          "meaning": "to steal",
+          "preview": false
+        },
+        {
+          "word": "強盗",
+          "reading": "ごうとう",
+          "meaning": "robber; burglary",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l11.s001"
+      ],
+      "components": [
+        "次",
+        "皿"
+      ],
+      "strokes": 11,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l11.g001",
+      "lessonId": "n4.l11",
+      "pattern": "[Person A] は [Person B] に [Verb 受身形 (〜られる)]",
+      "meaning": "Direct passive (Person A is affected by Person B doing an action)",
+      "formation": "Group 1: u -> a + れる (書く -> 書かれる, 褒める -> 褒められる)\nGroup 2: ru -> られる (食べる -> 食べられる, 褒める -> 褒められる)\nGroup 3: 来る -> こられる, する -> される",
+      "explanation": {
+        "en": "Used when the subject receives an action from someone else. The agent performing the action is marked with に. Often used when the recipient feels pleased, surprised, or troubled by the action.",
+        "my": "ပြုလုပ်ခံရသော Passive Form ဖြစ်သည်။ ပြုလုပ်သူကို「に」ဖြင့် ပြပြီး ခံရသူကို「は/が」ဖြင့် ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l11.s001",
+          "note": "I was praised by the teacher."
+        },
+        {
+          "sentenceId": "n4.l11.s002",
+          "note": "Tanaka was scolded by his mother."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Confusing the agent and receiver markers: the person doing the action takes に, not を.",
+        "Group 1 conjugation mistake: 書かれる (correct) vs 書かされる (this is causative-passive, not direct passive)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.g002",
+      "lessonId": "n4.l11",
+      "pattern": "[Person A] は [Person B] に [Object] を [Verb 受身形 (〜られる)] (迷惑の受け身)",
+      "meaning": "Indirect/Suffering passive (Person A is inconvenienced by Person B doing something to A's property/space)",
+      "formation": "[Victim] は [Agent] に [Possession/Object] を [Verb-受身]",
+      "explanation": {
+        "en": "The suffering passive (迷惑の受け身). The subject experiences trouble, annoyance, or grief because another person did something to their belonging, foot, or personal space.",
+        "my": "စိတ်အနှောင့်အယှက်ဖြစ်ရသော Passive (迷惑の受け身)။ တစ်စုံတစ်ယောက်ကြောင့် မိမိ၏ ပစ္စည်း သို့မဟုတ် ခန္ဓာကိုယ် ထိခိုက်နစ်နာရသောအခါ သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l11.s003",
+          "note": "I had my foot stepped on on the train."
+        },
+        {
+          "sentenceId": "n4.l11.s005",
+          "note": "He had his bicycle stolen."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not mark the body part or object with に; the victim is は, the agent is に, and the object/body part is を.",
+        "Example: 電車で足を踏まれました (My foot was stepped on in the train), NOT 足に踏まれました."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l11.s001",
+      "lessonId": "n4.l11",
+      "ja": "私はテストで百点を取って、先生に褒められました。",
+      "kana": "わたしはテストでひゃくてんをとって、せんせいにほめられました。",
+      "translation": {
+        "en": "I scored one hundred points on the test and was praised by my teacher.",
+        "my": "ကျွန်တော်သည် စာမေးပွဲတွင် အမှတ်တစ်ရာရရှိခဲ့ပြီး ဆရာ၏ ချီးမွမ်းခြင်းကို ခံခဲ့ရသည်။"
+      },
+      "vocabIds": [
+        "n4.l11.v001"
+      ],
+      "grammarIds": [
+        "n4.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.s002",
+      "lessonId": "n4.l11",
+      "ja": "田中君は部屋を片付けなかったので、お母さんに叱られました。",
+      "kana": "たなかくんはへやをかたづけなかったので、おかあさんにしかられました。",
+      "translation": {
+        "en": "Because Tanaka did not clean his room, he was scolded by his mother.",
+        "my": "တနခသည် အခန်းမရှင်းသောကြောင့် မိခင်၏ ဆူပူခြင်းကို ခံခဲ့ရသည်။"
+      },
+      "vocabIds": [
+        "n4.l11.v002"
+      ],
+      "grammarIds": [
+        "n4.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.s003",
+      "lessonId": "n4.l11",
+      "ja": "今朝の満員電車で、隣の人に足を踏まれました。",
+      "kana": "けさのまんいんでんしゃで、となりのひとにあしをふまれました。",
+      "translation": {
+        "en": "On the crowded train this morning, my foot was stepped on by the person next to me.",
+        "my": "ဒီမနက် လူကြပ်သောရထားပေါ်တွင် ဘေးလူ၏ ခြေထောက်နင်းမိခြင်းကို ခံခဲ့ရသည်။"
+      },
+      "vocabIds": [
+        "n4.l11.v003",
+        "n4.l11.v012"
+      ],
+      "grammarIds": [
+        "n4.l11.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.s004",
+      "lessonId": "n4.l11",
+      "ja": "課長に明日の会議の準備を頼まれました。",
+      "kana": "かちょうにあすのかいぎのじゅんびをたのまれました。",
+      "translation": {
+        "en": "I was asked by the section manager to prepare for tomorrow's meeting.",
+        "my": "ဌာနမှူးက မနက်ဖြန်အစည်းအဝေးအတွက် ပြင်ဆင်ရန် ကျွန်တော့်ကို အကူအညီတောင်းခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l11.v004"
+      ],
+      "grammarIds": [
+        "n4.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.s005",
+      "lessonId": "n4.l11",
+      "ja": "駅の駐輪場に止めておいた自転車を泥棒に盗まれました。",
+      "kana": "えきのちゅうりんじょうにとめておいたじてんしゃをどろぼうにぬすまれました。",
+      "translation": {
+        "en": "The bicycle I parked at the station bike lot was stolen by a thief.",
+        "my": "ဘူတာဆိုင်ကယ်/စက်ဘီးရပ်နားရာနေရာတွင် ရပ်ထားခဲ့သော စက်ဘီးကို သူခိုးခိုးယူသွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l11.v005"
+      ],
+      "grammarIds": [
+        "n4.l11.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.s006",
+      "lessonId": "n4.l11",
+      "ja": "週末、友達に美術展覧会へ誘われました。",
+      "kana": "しゅうまつ、ともだちにびじゅつてんらんかいへさそわれました。",
+      "translation": {
+        "en": "Over the weekend, I was invited to an art exhibition by my friend.",
+        "my": "စနေတနင်္ဂနွေတွင် သူငယ်ချင်းက အနုပညာပြပွဲသို့ လာရောက်ရန် ဖိတ်ခေါ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l11.v006",
+        "n4.l11.v011"
+      ],
+      "grammarIds": [
+        "n4.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.s007",
+      "lessonId": "n4.l11",
+      "ja": "夜遅くに大きな声で電話をしていて、アパートの大家さんに注意されました。",
+      "kana": "よるおそくにおおきなこえででんわをしていて、アパートのおおやさんにちゅういされました。",
+      "translation": {
+        "en": "Talking loudly on the phone late at night, I was warned by the apartment landlord.",
+        "my": "ညဉ့်နက်မှ အသံကျယ်ကျယ်ဖြင့် ဖုန်းပြောနေသဖြင့် တိုက်ခန်းအိမ်ရှင်၏ သတိပေးခြင်းကို ခံခဲ့ရသည်။"
+      },
+      "vocabIds": [
+        "n4.l11.v007"
+      ],
+      "grammarIds": [
+        "n4.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.s008",
+      "lessonId": "n4.l11",
+      "ja": "弟に大事にしていたプラモデルを壊されました。",
+      "kana": "おとうとにだいじにしていたプラモデルをこわされました。",
+      "translation": {
+        "en": "My cherished plastic model was broken by my younger brother.",
+        "my": "တန်ဖိုးထားသော ပလတ်စတစ်မော်ဒယ်ရုပ်ကို ညီလေးဖျက်ဆီးပစ်ခြင်းကို ခံခဲ့ရသည်။"
+      },
+      "vocabIds": [
+        "n4.l11.v008"
+      ],
+      "grammarIds": [
+        "n4.l11.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.s009",
+      "lessonId": "n4.l11",
+      "ja": "雨の日に走ってきた車に泥水をはねられて、新しい服を汚されました。",
+      "kana": "あめのひにはしってきたくるまにどろみずをはねられて、あたらしいふくをよごされました。",
+      "translation": {
+        "en": "On a rainy day, muddy water was splashed on me by a passing car, soiling my new clothes.",
+        "my": "မိုးရွာသောနေ့တွင် မောင်းလာသောကားက ရွှံ့ရေများပက်ဖျန်းသွားသဖြင့် အဝတ်သစ်များ ညစ်ပတ်သွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l11.v009"
+      ],
+      "grammarIds": [
+        "n4.l11.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.s010",
+      "lessonId": "n4.l11",
+      "ja": "新しい星が、日本の有名な研究者によって発見されました。",
+      "kana": "あたらしいほしが、にほんのゆうめいなけんきゅうしゃによってはっけんされました。",
+      "translation": {
+        "en": "A new star was discovered by a famous Japanese researcher.",
+        "my": "ကြယ်အသစ်တစ်ခုကို ဂျပန်နိုင်ငံမှ နာမည်ကြီး သုတေသီတစ်ဦးက ရှာဖွေတွေ့ရှိခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l11.v010"
+      ],
+      "grammarIds": [
+        "n4.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.s011",
+      "lessonId": "n4.l11",
+      "ja": "東京駅で道に迷っていたところ、親切な駅員さんに声をかけられました。",
+      "kana": "とうきょうえきでみちにまよっていたところ、しんせつなえきいんさんにこえをかけられました。",
+      "translation": {
+        "en": "While lost at Tokyo Station, I was approached and spoken to by a kind station staff member.",
+        "my": "တိုကျိုဘူတာတွင် လမ်းပျောက်နေစဉ် သဘောကောင်းသော ဘူတာဝန်ထမ်းက လာရောက်နှုတ်ဆက်စကားပြောခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l11.v011"
+      ],
+      "grammarIds": [
+        "n4.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l11.s012",
+      "lessonId": "n4.l11",
+      "ja": "毎朝の満員電車では、後ろから押されたり荷物を引っ張られたりして大変です。",
+      "kana": "まいあさのまんいんでんしゃでは、うしろからおされたりにもつをひっぱられたりしたいへんです。",
+      "translation": {
+        "en": "On the packed train every morning, being pushed from behind and having bags tugged is exhausting.",
+        "my": "မနက်တိုင်း လူကျပ်သောရထားတွင် နောက်မှတွန်းခံရခြင်း၊ အိတ်များဆွဲခံရခြင်းတို့ဖြင့် ပင်ပန်းရသည်။"
+      },
+      "vocabIds": [
+        "n4.l11.v012"
+      ],
+      "grammarIds": [
+        "n4.l11.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l11.r01",
+    "lessonId": "n4.l11",
+    "title": "スピーチ大会と先生の言葉",
+    "level": "N4",
+    "text": "先週、留学生スピーチ大会が開かれました。私は三週間前から毎日一生懸命スピーチの練習を重ねてきました。\n\nしかし、本番の前日は緊張のあまり夜遅くまで眠れず、翌朝は寝坊してしまいました。急いで満員電車に飛び乗ったのですが、車内で隣の人に足を踏まれたり、カバンを強く押されたりして、会場に着く前からすっかり疲れてしまいました。\n\nそれでも、ステージに上がると、練習してきたことを思い出しながら大きな声で発表しました。発表が終わった後、日本語学校の担任の先生から「発音がとても自然で、気持ちがしっかり伝わったよ」と皆の前で褒められました。努力を認めてもらえて、本当に嬉しかったです。\n\nまた、クラスメートたちからも「一番感動したよ」と声をかけられ、一緒にお祝いの食事会に誘われました。朝は大変な思いをしましたが、最後まで諦めずに挑戦して本当に良かったと思います。",
+    "kanaText": "せんしゅう、りゅうがくせいスピーチたいかいがひらかれました。わたしはさんしゅうかんまえからまいにちいっしょうけんめいスピーチのれんしゅうをかさねてきました。\n\nしかし、ほんばんのぜんじつはきんちょうのあまりよるおそくまでねむれず、よくあさはねぼうしてしまいました。いそいでまんいんでんしゃにとびのったのですが、しゃないでとなりのひとにあしをふまれたり、カバンをつよくおされたりして、かいじょうにつくまえからすっかりつかれてしまいました。\n\nそれでも、ステージにあがると、れんしゅうしてきたことをおもい出しながらおおきなこえではっぴょうしました。はっぴょうがおわったあと、にほんごがっこうのたんにんのせんせいから「はつおんがとてもしぜんで、きもちがしっかりつたわったよ」とみなのまえでほめられました。どりょくをみとめてもらえて、ほんとうにうれしかったです。\n\nまた、クラスメートたちからも「いちばんかんどうしたよ」とこえをかけられ、いっしょにおいわいのしょくじかいにさそわれました。あさはたいへんなおもいをしましたが、さいごまであきらめずにちょうせんしてほんとうによかったとおもいます。",
+    "translation": "Last week, an international student speech contest was held. I had been practicing my speech diligently every day for three weeks.\n\nHowever, the night before the actual event, I was so nervous that I could not sleep until late, and overslept the next morning. I hurriedly hopped onto a packed train, but on board my foot was stepped on by the person next to me and my bag was heavily shoved, exhausting me completely before even reaching the venue.\n\nNonetheless, once I stepped onto the stage, I remembered my practice and presented with a loud, confident voice. After the speech concluded, I was praised in front of everyone by my homeroom teacher: \"Your pronunciation was very natural, and your message came through clearly.\" I was truly delighted that my effort was recognized.\n\nFurthermore, my classmates spoke to me, saying \"Yours was the most moving,\" and invited me to a celebration dinner together. Although the morning was rough, I am truly glad I took on the challenge without giving up until the very end.",
+    "questionIds": [
+      "n4.l11.q021",
+      "n4.l11.q022",
+      "n4.l11.q023",
+      "n4.l11.q024",
+      "n4.l11.q025"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l11.l01",
+    "lessonId": "n4.l11",
+    "title": "アルバイト先での出来事",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "店長",
+      "キム"
+    ],
+    "transcript": "店長：キムさん、ちょっといいかな。\nキム：はい、店長、何でしょうか。\n店長：さっきのお客さんから、キムさんの接客がとても丁寧で親切だったと、アンケートで褒められたよ。笑顔が素晴らしかったそうだ。\nキム：本当ですか！ありがとうございます。昨日、別のお客様からメニューの説明がわかりにくいと注意されたばかりだったので、少し心配だったんです。\n店長：そうだったのか。でも誰でも失敗はあるよ。注意されたことを活かして、すぐ直せたのは立派だね。\nキム：はい！実は明日、先輩スタッフの田中さんにもレジの新しい操作を教えてもらうことになっています。\n店長：頼もしいね。これからも頑張ってね。",
+    "translation": "Manager: Kim-san, do you have a moment?\nKim: Yes, Manager, what is it?\nManager: An earlier customer commended your customer service in a survey, saying it was extremely polite and kind. They said your smile was wonderful.\nKim: Really! Thank you very much. Yesterday another customer warned me that my menu explanation was hard to understand, so I was a little worried.\nManager: Is that so? But everyone makes mistakes. It's commendable that you took the feedback to heart and fixed it right away.\nKim: Yes! Actually tomorrow, senior staff member Tanaka-san is also going to teach me new register operations.\nManager: That's reassuring. Keep up the good work!",
+    "turns": [
+      {
+        "speaker": "店長",
+        "ja": "キムさん、ちょっといいかな。",
+        "kana": "キムさん、ちょっといいかな。",
+        "en": ""
+      },
+      {
+        "speaker": "キム",
+        "ja": "はい、店長、何でしょうか。",
+        "kana": "はい、店長、何でしょうか。",
+        "en": ""
+      },
+      {
+        "speaker": "店長",
+        "ja": "さっきのお客さんから、キムさんの接客がとても丁寧で親切だったと、アンケートで褒められたよ。笑顔が素晴らしかったそうだ。",
+        "kana": "さっきのお客さんから、キムさんの接客がとても丁寧で親切だったと、アンケートで褒められたよ。笑顔が素晴らしかったそうだ。",
+        "en": ""
+      },
+      {
+        "speaker": "キム",
+        "ja": "本当ですか！ありがとうございます。昨日、別のお客様からメニューの説明がわかりにくいと注意されたばかりだったので、少し心配だったんです。",
+        "kana": "本当ですか！ありがとうございます。昨日、別のお客様からメニューの説明がわかりにくいと注意されたばかりだったので、少し心配だったんです。",
+        "en": ""
+      },
+      {
+        "speaker": "店長",
+        "ja": "そうだったのか。でも誰でも失敗はあるよ。注意されたことを活かして、すぐ直せたのは立派だね。",
+        "kana": "そうだったのか。でも誰でも失敗はあるよ。注意されたことを活かして、すぐ直せたのは立派だね。",
+        "en": ""
+      },
+      {
+        "speaker": "キム",
+        "ja": "はい！実は明日、先輩スタッフの田中さんにもレジの新しい操作を教えてもらうことになっています。",
+        "kana": "はい！実は明日、先輩スタッフの田中さんにもレジの新しい操作を教えてもらうことになっています。",
+        "en": ""
+      },
+      {
+        "speaker": "店長",
+        "ja": "頼もしいね。これからも頑張ってね。",
+        "kana": "頼もしいね。これからも頑張ってね。",
+        "en": ""
+      }
+    ],
+    "questionIds": [
+      "n4.l11.q026",
+      "n4.l11.q027",
+      "n4.l11.q028",
+      "n4.l11.q029",
+      "n4.l11.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l11.q001",
+      "lessonId": "n4.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "先生は努力した生徒をよく（　　）。",
+      "choices": [
+        "褒めます",
+        "叱ります",
+        "壊します",
+        "盗みます"
+      ],
+      "answer": "褒めます",
+      "acceptedAnswers": [
+        "褒めます"
+      ],
+      "explanation": "褒める (ほめる) means to praise/commend students who made an effort.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q002",
+      "lessonId": "n4.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "嘘をついて、親にひどく（　　）。",
+      "choices": [
+        "叱られました",
+        "褒められました",
+        "頼まれました",
+        "誘われました"
+      ],
+      "answer": "叱られました",
+      "acceptedAnswers": [
+        "叱られました"
+      ],
+      "explanation": "叱る (しかる) in passive 叱られました means \"was scolded by parents for lying.\"",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q003",
+      "lessonId": "n4.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "満員電車で前の人に足を（　　）痛かった。",
+      "choices": [
+        "踏まれて",
+        "褒められて",
+        "叱られて",
+        "直されて"
+      ],
+      "answer": "踏まれて",
+      "acceptedAnswers": [
+        "踏まれて"
+      ],
+      "explanation": "踏む (ふむ) -> 踏まれて means \"having one's foot stepped on.\"",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q004",
+      "lessonId": "n4.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "友達に引っ越しの手伝いを（　　）。",
+      "choices": [
+        "頼まれました",
+        "汚されました",
+        "壊されました",
+        "盗まれました"
+      ],
+      "answer": "頼まれました",
+      "acceptedAnswers": [
+        "頼まれました"
+      ],
+      "explanation": "頼む (たのむ) -> 頼まれました means \"was asked by a friend to help move.\"",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q005",
+      "lessonId": "n4.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "財布を泥棒に（　　）しまって困っています。",
+      "choices": [
+        "盗まれて",
+        "褒められて",
+        "踏まれて",
+        "案内されて"
+      ],
+      "answer": "盗まれて",
+      "acceptedAnswers": [
+        "盗まれて"
+      ],
+      "explanation": "盗む (ぬすむ) -> 盗まれて means having one's wallet stolen by a thief.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q006",
+      "lessonId": "n4.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "休日に先輩から映画に（　　）。",
+      "choices": [
+        "誘われました",
+        "注意されました",
+        "壊されました",
+        "叱られました"
+      ],
+      "answer": "誘われました",
+      "acceptedAnswers": [
+        "誘われました"
+      ],
+      "explanation": "誘う (さそう) -> 誘われました means \"was invited out to a movie by senior.\"",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q007",
+      "lessonId": "n4.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "図書館で大きな声を出して、係の人に（　　）。",
+      "choices": [
+        "注意されました",
+        "褒められました",
+        "盗まれました",
+        "頼まれました"
+      ],
+      "answer": "注意されました",
+      "acceptedAnswers": [
+        "注意されました"
+      ],
+      "explanation": "注意する -> 注意されました means \"was cautioned/warned by the staff.\"",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q008",
+      "lessonId": "n4.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "大切な時計を弟に（　　）ショックでした。",
+      "choices": [
+        "壊されて",
+        "褒められて",
+        "誘われて",
+        "案内されて"
+      ],
+      "answer": "壊されて",
+      "acceptedAnswers": [
+        "壊されて"
+      ],
+      "explanation": "壊す -> 壊されて means having one's precious watch broken by younger brother.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q009",
+      "lessonId": "n4.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "白いシャツをコーヒーで（　　）しまいました。",
+      "choices": [
+        "汚して",
+        "褒めて",
+        "頼んで",
+        "叱って"
+      ],
+      "answer": "汚して",
+      "acceptedAnswers": [
+        "汚して"
+      ],
+      "explanation": "汚す (よごす) means to stain/make dirty.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q010",
+      "lessonId": "n4.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "週末に美術館で開かれている（　　）を見に行きます。",
+      "choices": [
+        "展覧会",
+        "満員電車",
+        "注意",
+        "お礼"
+      ],
+      "answer": "展覧会",
+      "acceptedAnswers": [
+        "展覧会"
+      ],
+      "explanation": "展覧会 (てんらんかい) means exhibition/art show.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q011",
+      "lessonId": "n4.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「褒める」の正しい読み方はどれですか。",
+      "choices": [
+        "ほめる",
+        "しかる",
+        "たのむ",
+        "ふむ"
+      ],
+      "answer": "ほめる",
+      "acceptedAnswers": [
+        "ほめる"
+      ],
+      "explanation": "褒める is read as ほめる (to praise).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q012",
+      "lessonId": "n4.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "電車で足の指を【ふまれた】。漢字表記はどれですか。",
+      "choices": [
+        "踏まれた",
+        "頼まれた",
+        "盗まれた",
+        "褒まれた"
+      ],
+      "answer": "踏まれた",
+      "acceptedAnswers": [
+        "踏まれた"
+      ],
+      "explanation": "ふまれた in kanji is 踏まれた (stepped on).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q013",
+      "lessonId": "n4.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「頼む」の正しい読み方はどれですか。",
+      "choices": [
+        "たのむ",
+        "ぬすむ",
+        "ほめる",
+        "こわす"
+      ],
+      "answer": "たのむ",
+      "acceptedAnswers": [
+        "たのむ"
+      ],
+      "explanation": "頼む is read as たのむ (to request/ask).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q014",
+      "lessonId": "n4.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "泥棒に金を【ぬすまれた】。漢字表記はどれですか。",
+      "choices": [
+        "盗まれた",
+        "踏まれた",
+        "頼まれた",
+        "褒められた"
+      ],
+      "answer": "盗まれた",
+      "acceptedAnswers": [
+        "盗まれた"
+      ],
+      "explanation": "ぬすまれた corresponds to 盗まれた (stolen).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q015",
+      "lessonId": "n4.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「信頼」の「頼」の音読みはどれですか。",
+      "choices": [
+        "ライ",
+        "トウ",
+        "ホウ",
+        "シン"
+      ],
+      "answer": "ライ",
+      "acceptedAnswers": [
+        "ライ"
+      ],
+      "explanation": "信頼 (しんらい) uses the onyomi ライ for 頼.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q016",
+      "lessonId": "n4.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "私はスピーチのあとで、先生（　　）褒められました。",
+      "choices": [
+        "に",
+        "を",
+        "が",
+        "へ"
+      ],
+      "answer": "に",
+      "acceptedAnswers": [
+        "に"
+      ],
+      "explanation": "In passive sentences, the agent who performs the action is marked with に.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q017",
+      "lessonId": "n4.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "動詞「書く」の受身形（受け身）として正しいものはどれですか。",
+      "choices": [
+        "書かれる",
+        "書かせる",
+        "書かされる",
+        "書かたれる"
+      ],
+      "answer": "書かれる",
+      "acceptedAnswers": [
+        "書かれる"
+      ],
+      "explanation": "Group 1 verb 書く changes u to a + れる: 書く -> 書かれる.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q018",
+      "lessonId": "n4.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "電車の中で隣の人（　　）足（　　）踏まれました。",
+      "choices": [
+        "に／を",
+        "を／に",
+        "が／に",
+        "で／が"
+      ],
+      "answer": "に／を",
+      "acceptedAnswers": [
+        "に／を"
+      ],
+      "explanation": "Suffering passive: [Agent] に [Object/Body part] を 踏まれました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q019",
+      "lessonId": "n4.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "不規則動詞「来る（くる）」の受身形はどれですか。",
+      "choices": [
+        "こられる",
+        "きられる",
+        "こさせる",
+        "きさせる"
+      ],
+      "answer": "こられる",
+      "acceptedAnswers": [
+        "こられる"
+      ],
+      "explanation": "The passive of 来る (くる) is 来られる (こられる).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q020",
+      "lessonId": "n4.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "雨に（　　）、服が濡れて風邪を引いてしまいました。",
+      "choices": [
+        "降られて",
+        "降って",
+        "降らせて",
+        "降りられて"
+      ],
+      "answer": "降られて",
+      "acceptedAnswers": [
+        "降られて"
+      ],
+      "explanation": "雨に降られる is a classic suffering passive expression meaning \"caught in the rain.\"",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q021",
+      "lessonId": "n4.l11",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者はスピーチ本番の前夜どうして眠れませんでしたか。",
+      "choices": [
+        "緊張したから",
+        "満員電車に乗っていたから",
+        "先生に叱られたから",
+        "友達とお祝いしていたから"
+      ],
+      "answer": "緊張したから",
+      "acceptedAnswers": [
+        "緊張したから"
+      ],
+      "explanation": "The passage states: 本番の前日は緊張のあまり夜遅くまで眠れず...",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q022",
+      "lessonId": "n4.l11",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者が会場に着く前に疲れてしまった理由は何ですか。",
+      "choices": [
+        "満員電車で足を踏まれたりカバンを押されたりしたから",
+        "スピーチの原稿を電車に忘れてしまったから",
+        "雨に降られて服がびしょ濡れになったから",
+        "駅員さんに道を間違えて案内されたから"
+      ],
+      "answer": "満員電車で足を踏まれたりカバンを押されたりしたから",
+      "acceptedAnswers": [
+        "満員電車で足を踏まれたりカバンを押されたりしたから"
+      ],
+      "explanation": "The text states: 車内で隣の人に足を踏まれたり、カバンを強く押されたりして、会場に着く前からすっかり疲れてしまいました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q023",
+      "lessonId": "n4.l11",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "発表の後、担任の先生は何と言って褒めましたか。",
+      "choices": [
+        "「発音がとても自然で、気持ちがしっかり伝わったよ」",
+        "「スピーチの時間が一番短くて分かりやすかった」",
+        "「緊張せずに最初から最後まで笑っていたね」",
+        "「文法のミスが一つもなくて完璧だったよ」"
+      ],
+      "answer": "「発音がとても自然で、気持ちがしっかり伝わったよ」",
+      "acceptedAnswers": [
+        "「発音がとても自然で、気持ちがしっかり伝わったよ」"
+      ],
+      "explanation": "The text states: 「発音がとても自然で、気持ちがしっかり伝わったよ」と皆の前で褒められました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q024",
+      "lessonId": "n4.l11",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "クラスメートたちは筆者に何をしましたか。",
+      "choices": [
+        "「一番感動した」と声をかけ、お祝いの食事会に誘った",
+        "記念の写真を撮ってプレゼントした",
+        "次のスピーチの練習を手伝ってほしいと頼んだ",
+        "スピーチの改善点をノートに書いて渡した"
+      ],
+      "answer": "「一番感動した」と声をかけ、お祝いの食事会に誘った",
+      "acceptedAnswers": [
+        "「一番感動した」と声をかけ、お祝いの食事会に誘った"
+      ],
+      "explanation": "The text mentions: クラスメートたちからも「一番感動したよ」と声をかけられ、一緒にお祝いの食事会に誘われました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q025",
+      "lessonId": "n4.l11",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "この文章全体の筆者の感想として最も適切なものはどれですか。",
+      "choices": [
+        "朝は大変だったが、諦めずに挑戦して本当に良かった",
+        "満員電車が辛かったので、二度と参加したくない",
+        "努力したのに優勝できず残念だった",
+        "次回はもっと短いスピーチにするつもりだ"
+      ],
+      "answer": "朝は大変だったが、諦めずに挑戦して本当に良かった",
+      "acceptedAnswers": [
+        "朝は大変だったが、諦めずに挑戦して本当に良かった"
+      ],
+      "explanation": "The final sentence says: 朝は大変な思いをしましたが、最後まで諦めずに挑戦して本当に良かったと思います.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q026",
+      "lessonId": "n4.l11",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "キムさんは店長から何と伝えられましたか。",
+      "choices": [
+        "お客さんのアンケートで接客が丁寧だと褒められたこと",
+        "来月からアルバイトの時給が上がること",
+        "新しいシフトを田中さんと代わってほしいこと",
+        "今日はお店を早く閉めること"
+      ],
+      "answer": "お客さんのアンケートで接客が丁寧だと褒められたこと",
+      "acceptedAnswers": [
+        "お客さんのアンケートで接客が丁寧だと褒められたこと"
+      ],
+      "explanation": "The manager states: さっきのお客さんから、キムさんの接客がとても丁寧で親切だったと、アンケートで褒められたよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q027",
+      "lessonId": "n4.l11",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "キムさんが昨日心配していた理由は何ですか。",
+      "choices": [
+        "別のお客さんからメニューの説明がわかりにくいと注意されたから",
+        "レジのお金を数え間違えて叱られたから",
+        "アルバイトに遅刻してしまったから",
+        "注文された料理を落としてしまったから"
+      ],
+      "answer": "別のお客さんからメニューの説明がわかりにくいと注意されたから",
+      "acceptedAnswers": [
+        "別のお客さんからメニューの説明がわかりにくいと注意されたから"
+      ],
+      "explanation": "Kim says: 昨日、別のお客様からメニューの説明がわかりにくいと注意されたばかりだったので、少し心配だったんです.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q028",
+      "lessonId": "n4.l11",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "店長はキムさんの姿勢についてどう言いましたか。",
+      "choices": [
+        "注意されたことを活かしてすぐ直せたのは立派だと評価した",
+        "もっと大きな声で挨拶するよう指示した",
+        "もう接客はせずに皿洗いを担当するように言った",
+        "昨日の失敗について反省文を書くように言った"
+      ],
+      "answer": "注意されたことを活かしてすぐ直せたのは立派だと評価した",
+      "acceptedAnswers": [
+        "注意されたことを活かしてすぐ直せたのは立派だと評価した"
+      ],
+      "explanation": "The manager says: 注意されたことを活かして、すぐ直せたのは立派だね.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q029",
+      "lessonId": "n4.l11",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "キムさんは明日誰に何を教えてもらう予定ですか。",
+      "choices": [
+        "先輩の田中さんにレジの新しい操作を教えてもらう",
+        "店長に新しいメニューの調理法を教えてもらう",
+        "お客さんにアンケートの書き方を教えてもらう",
+        "英語の接客フレーズを教えてもらう"
+      ],
+      "answer": "先輩の田中さんにレジの新しい操作を教えてもらう",
+      "acceptedAnswers": [
+        "先輩の田中さんにレジの新しい操作を教えてもらう"
+      ],
+      "explanation": "Kim says: 先輩スタッフの田中さんにもレジの新しい操作を教えてもらうことになっています.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l11.q030",
+      "lessonId": "n4.l11",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "二人の会話のトーンと関係として最も適切なものはどれですか。",
+      "choices": [
+        "職場の店長が温かくスタッフを励まし、スタッフも前向きに応答している",
+        "店長がスタッフの重大なミスを厳しく追及している",
+        "客が店員に対してクレームを伝えている",
+        "同僚同士が給料の不満を話し合っている"
+      ],
+      "answer": "職場の店長が温かくスタッフを励まし、スタッフも前向きに応答している",
+      "acceptedAnswers": [
+        "職場の店長が温かくスタッフを励まし、スタッフも前向きに応答している"
+      ],
+      "explanation": "The manager warmly praises and encourages Kim, who responds constructively and politely.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l11.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

@@ -1,0 +1,1577 @@
+{
+  "id": "n5.l06",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 6,
+  "title": "Actions with Objects (を・で)",
+  "description": "Learn to construct transitive action sentences with direct object particle を, specify action venues with particle で, and invite friends with 〜ませんか.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l06.v001",
+      "lessonId": "n5.l06",
+      "ja": "食べます",
+      "kana": "たべます",
+      "en": "To eat",
+      "my": "စားသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l06.s001",
+      "kanjiIds": [
+        "n5.l06.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.v002",
+      "lessonId": "n5.l06",
+      "ja": "飲みます",
+      "kana": "のみます",
+      "en": "To drink",
+      "my": "သောက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l06.s001",
+      "kanjiIds": [
+        "n5.l06.k002"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.v003",
+      "lessonId": "n5.l06",
+      "ja": "見ます",
+      "kana": "みます",
+      "en": "To watch / see",
+      "my": "ကြည့်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l06.s003",
+      "kanjiIds": [
+        "n5.l06.k003"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.v004",
+      "lessonId": "n5.l06",
+      "ja": "聞きます",
+      "kana": "ききます",
+      "en": "To listen / hear",
+      "my": "နားထောင်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l06.s005",
+      "kanjiIds": [
+        "n5.l06.k004"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.v005",
+      "lessonId": "n5.l06",
+      "ja": "読みます",
+      "kana": "よみます",
+      "en": "To read",
+      "my": "ဖတ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l06.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.v006",
+      "lessonId": "n5.l06",
+      "ja": "書きます",
+      "kana": "かきます",
+      "en": "To write",
+      "my": "ရေးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l06.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.v007",
+      "lessonId": "n5.l06",
+      "ja": "買います",
+      "kana": "かいます",
+      "en": "To buy",
+      "my": "ဝယ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l06.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.v008",
+      "lessonId": "n5.l06",
+      "ja": "ご飯",
+      "kana": "ごはん",
+      "en": "Meal / Cooked rice",
+      "my": "ထမင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l06.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.v009",
+      "lessonId": "n5.l06",
+      "ja": "パン",
+      "kana": "ぱん",
+      "en": "Bread",
+      "my": "ပေါင်မုန့်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l06.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.v010",
+      "lessonId": "n5.l06",
+      "ja": "水",
+      "kana": "みず",
+      "en": "Water",
+      "my": "ရေ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l06.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.v011",
+      "lessonId": "n5.l06",
+      "ja": "お茶",
+      "kana": "おちゃ",
+      "en": "Green tea / Tea",
+      "my": "လက်ဖက်ရည် / ရေနွေးကြမ်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l06.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.v012",
+      "lessonId": "n5.l06",
+      "ja": "一緒に",
+      "kana": "いっしょに",
+      "en": "Together",
+      "my": "အတူတူ",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l06.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l06.k001",
+      "lessonId": "n5.l06",
+      "char": "食",
+      "meaning": "Eat, food",
+      "onyomi": [
+        "ショク"
+      ],
+      "kunyomi": [
+        "た.べる",
+        "く.う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "食べます (たべます)",
+          "reading": "たべます",
+          "meaning": "To eat",
+          "preview": false
+        },
+        {
+          "word": "食堂 (しょくどう)",
+          "reading": "しょくどう",
+          "meaning": "Cafeteria",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l06.s001"
+      ],
+      "components": [
+        "食"
+      ],
+      "strokes": 9,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.k002",
+      "lessonId": "n5.l06",
+      "char": "飲",
+      "meaning": "Drink",
+      "onyomi": [
+        "イン"
+      ],
+      "kunyomi": [
+        "の.む"
+      ],
+      "exampleVocab": [
+        {
+          "word": "飲みます (のみます)",
+          "reading": "のみます",
+          "meaning": "To drink",
+          "preview": false
+        },
+        {
+          "word": "飲み物 (のみもの)",
+          "reading": "のみもの",
+          "meaning": "Beverage",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l06.s002"
+      ],
+      "components": [
+        "飲"
+      ],
+      "strokes": 12,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.k003",
+      "lessonId": "n5.l06",
+      "char": "見",
+      "meaning": "See, look, watch",
+      "onyomi": [
+        "ケン"
+      ],
+      "kunyomi": [
+        "み.る",
+        "み.せる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "見ます (みます)",
+          "reading": "みます",
+          "meaning": "To watch / see",
+          "preview": false
+        },
+        {
+          "word": "見せます (みせます)",
+          "reading": "みせます",
+          "meaning": "To show",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l06.s003"
+      ],
+      "components": [
+        "見"
+      ],
+      "strokes": 7,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.k004",
+      "lessonId": "n5.l06",
+      "char": "聞",
+      "meaning": "Hear, listen, ask",
+      "onyomi": [
+        "ブン",
+        "モン"
+      ],
+      "kunyomi": [
+        "き.く",
+        "き.こえる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "聞きます (ききます)",
+          "reading": "ききます",
+          "meaning": "To listen / hear",
+          "preview": false
+        },
+        {
+          "word": "新聞 (しんぶん)",
+          "reading": "しんぶん",
+          "meaning": "Newspaper",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l06.s004"
+      ],
+      "components": [
+        "聞"
+      ],
+      "strokes": 14,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l06.g001",
+      "lessonId": "n5.l06",
+      "pattern": "[Noun] を [Verb] します",
+      "meaning": "[Action] [Noun] (Direct Object)",
+      "formation": "Direct Object Noun + を (pronounced \"o\") + Transitive Verb",
+      "explanation": {
+        "en": "The particle を marks the direct object of a transitive action verb. Always written with を in hiragana.",
+        "my": "ကံပုဒ် (တိုက်ရိုက်ခံရသည့်အရာ) နောက်တွင် 「を」 (အသံထွက် \"အို\") လိုက်ရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l06.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l06.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do NOT confuse を with お. The grammatical particle is always written as を."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.g002",
+      "lessonId": "n5.l06",
+      "pattern": "[Place] で [Verb] します",
+      "meaning": "Do [Action] at [Place]",
+      "formation": "Place of Action + で + Action Verb",
+      "explanation": {
+        "en": "The particle で specifies the location where an active event or action takes place (contrasted with に for existence).",
+        "my": "လုပ်ဆောင်မှုပြုလုပ်ရာ နေရာနောက်တွင် 「で」 (မှာ/တွင်) လိုက်သည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l06.s002",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l06.s003",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use で with existence verbs います/あります; use に for stationary existence."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l06.s001",
+      "lessonId": "n5.l06",
+      "ja": "毎朝パンを食べます。そしてコーヒーを飲みます。",
+      "kana": "まいあさぱんをたべます。そしてこーひーをのみます。",
+      "translation": {
+        "en": "Every morning I eat bread. And I drink coffee.",
+        "my": "မနက်တိုင်း ပေါင်မုန့်စားပါတယ်။ ပြီးတော့ ကော်ဖီသောက်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l06.v001",
+        "n5.l06.v002",
+        "n5.l06.v009"
+      ],
+      "grammarIds": [
+        "n5.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.s002",
+      "lessonId": "n5.l06",
+      "ja": "図書館で日本の歴史の本を読みました。",
+      "kana": "としょかんでにほんのれきしのほんをよみました。",
+      "translation": {
+        "en": "I read a book about Japanese history at the library.",
+        "my": "စာကြည့်တိုက်မှာ ဂျပန်သမိုင်းစာအုပ်ကို ဖတ်ခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l06.v005"
+      ],
+      "grammarIds": [
+        "n5.l06.g001",
+        "n5.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.s003",
+      "lessonId": "n5.l06",
+      "ja": "食堂で友達とお昼ご飯を食べます。",
+      "kana": "しょくどうでともだちとおひるごはんをたべます。",
+      "translation": {
+        "en": "I eat lunch with a friend at the cafeteria.",
+        "my": "ထမင်းစားခန်းမှာ သူငယ်ချင်းနဲ့ နေ့လယ်စာ စားပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l06.v001",
+        "n5.l06.v008"
+      ],
+      "grammarIds": [
+        "n5.l06.g001",
+        "n5.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.s004",
+      "lessonId": "n5.l06",
+      "ja": "スーパーで新鮮な魚と野菜を買いました。",
+      "kana": "すーぱーでしんせんなさかなとやさいをかいました。",
+      "translation": {
+        "en": "I bought fresh fish and vegetables at the supermarket.",
+        "my": "စူပါမားကက်မှာ လတ်ဆတ်တဲ့ငါးနဲ့ ဟင်းသီးဟင်းရွက်တွေကို ဝယ်ခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l06.v007"
+      ],
+      "grammarIds": [
+        "n5.l06.g001",
+        "n5.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.s005",
+      "lessonId": "n5.l06",
+      "ja": "部屋で日本の音楽を聞きます。",
+      "kana": "へやでにほんのおんがくをききます。",
+      "translation": {
+        "en": "I listen to Japanese music in my room.",
+        "my": "အခန်းထဲမှာ ဂျပန်ဂီတကို နားထောင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l06.v004"
+      ],
+      "grammarIds": [
+        "n5.l06.g001",
+        "n5.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.s006",
+      "lessonId": "n5.l06",
+      "ja": "一緒に食堂でお茶を飲みませんか。",
+      "kana": "いっしょにしょくどうでおちゃをのみませんか。",
+      "translation": {
+        "en": "Won't you drink tea with me at the cafeteria?",
+        "my": "ထမင်းစားခန်းမှာ အတူတူ လက်ဖက်ရည် သောက်ကြမလား။"
+      },
+      "vocabIds": [
+        "n5.l06.v002",
+        "n5.l06.v011",
+        "n5.l06.v012"
+      ],
+      "grammarIds": [
+        "n5.l06.g001",
+        "n5.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.s007",
+      "lessonId": "n5.l06",
+      "ja": "毎日見ます。",
+      "kana": "まいにちみます。",
+      "translation": {
+        "en": "I to watch / see every day.",
+        "my": "နေ့တိုင်း ကြည့်သည်။"
+      },
+      "vocabIds": [
+        "n5.l06.v003"
+      ],
+      "grammarIds": [
+        "n5.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.s008",
+      "lessonId": "n5.l06",
+      "ja": "毎日書きます。",
+      "kana": "まいにちかきます。",
+      "translation": {
+        "en": "I to write every day.",
+        "my": "နေ့တိုင်း ရေးသည်။"
+      },
+      "vocabIds": [
+        "n5.l06.v006"
+      ],
+      "grammarIds": [
+        "n5.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l06.s009",
+      "lessonId": "n5.l06",
+      "ja": "これは水です。",
+      "kana": "これはみずです。",
+      "translation": {
+        "en": "This is a water.",
+        "my": "ဒါဟာ ရေ ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l06.v010"
+      ],
+      "grammarIds": [
+        "n5.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l06.r01",
+    "lessonId": "n5.l06",
+    "title": "Actions with Objects (を・で) - 読解",
+    "level": "N5",
+    "text": "日曜日の午後、私は町の大きな本屋へ行きました。そこで日本語の新しい雑誌と辞書を買いました。それから近くの喫茶店でコーヒーを飲みながら本を読みました。静かな店で音楽を聞きました。とても楽しい午後でした。",
+    "kanaText": "にちようびのごご、わたしはまちのおおきなほんやへいきました。そこでにほんごのあたらしいざっしとじしょをかいました。それからちかくのきっさてんでこーひーをのみながらほんをよみました。しずかなみせでおんがくをききました。とてもたのしいごごでした。",
+    "translation": "On Sunday afternoon, I went to a large bookstore in town. There, I bought a new Japanese magazine and a dictionary. After that, I drank coffee and read my book at a nearby café. I listened to music in the quiet shop. It was a very pleasant afternoon.",
+    "questionIds": [
+      "n5.l06.q021",
+      "n5.l06.q022",
+      "n5.l06.q023",
+      "n5.l06.q024",
+      "n5.l06.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l06.l01",
+    "lessonId": "n5.l06",
+    "title": "Actions with Objects (を・で) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "山田",
+      "リー"
+    ],
+    "transcript": "山田：リーさん、もう十二時ですね。一緒にお昼ご飯を食べませんか。\nリー：いいですね。どこで食べますか。\n山田：駅の前の定食屋で魚を食べましょう。あそこはとてもおいしいですよ。\nリー：賛成です。すぐに行きましょう。",
+    "translation": "Two colleagues invite each other to have lunch together at a popular cafeteria nearby.",
+    "turns": [
+      {
+        "speaker": "山田",
+        "ja": "リーさん、もう十二時ですね。一緒にお昼ご飯を食べませんか。",
+        "kana": "りーさん、もうじゅうにじですね。いっしょにおひるごはんをたべませんか。",
+        "en": "Lee-san, it is already 12:00. Won't you have lunch with me?"
+      },
+      {
+        "speaker": "リー",
+        "ja": "いいですね。どこで食べますか。",
+        "kana": "いいですね。どこでたべますか。",
+        "en": "Sounds great! Where shall we eat?"
+      },
+      {
+        "speaker": "山田",
+        "ja": "駅の前の定食屋で魚を食べましょう。あそこはとてもおいしいですよ。",
+        "kana": "えきのまえのていしょくやでさかなをたべましょう。あそこはとてもおいしいですよ。",
+        "en": "Let's eat fish at the set meal restaurant in front of the station. The food there is delicious!"
+      },
+      {
+        "speaker": "リー",
+        "ja": "賛成です。すぐに行きましょう。",
+        "kana": "さんせいです。すぐにいきましょう。",
+        "en": "I agree. Let's go right away."
+      }
+    ],
+    "questionIds": [
+      "n5.l06.q026",
+      "n5.l06.q027",
+      "n5.l06.q028",
+      "n5.l06.q029",
+      "n5.l06.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l06.q001",
+      "lessonId": "n5.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「食べます」の意味は何ですか。 (What does 「食べます」 mean?)",
+      "choices": [
+        "To eat",
+        "To drink",
+        "To watch / see",
+        "To listen / hear"
+      ],
+      "answer": "To eat",
+      "acceptedAnswers": [
+        "To eat"
+      ],
+      "explanation": "「食べます」(たべます) means \"To eat\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q002",
+      "lessonId": "n5.l06",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To drink\" in hiragana:",
+      "answer": "のみます",
+      "acceptedAnswers": [
+        "のみます",
+        "飲みます"
+      ],
+      "explanation": "The Japanese word for \"To drink\" is 飲みます (のみます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q003",
+      "lessonId": "n5.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「見ます」の意味は何ですか。 (What does 「見ます」 mean?)",
+      "choices": [
+        "To write",
+        "To read",
+        "To listen / hear",
+        "To watch / see"
+      ],
+      "answer": "To watch / see",
+      "acceptedAnswers": [
+        "To watch / see"
+      ],
+      "explanation": "「見ます」(みます) means \"To watch / see\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q004",
+      "lessonId": "n5.l06",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To listen / hear\" in hiragana:",
+      "answer": "ききます",
+      "acceptedAnswers": [
+        "ききます",
+        "聞きます"
+      ],
+      "explanation": "The Japanese word for \"To listen / hear\" is 聞きます (ききます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q005",
+      "lessonId": "n5.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「読みます」の意味は何ですか。 (What does 「読みます」 mean?)",
+      "choices": [
+        "Meal / Cooked rice",
+        "To buy",
+        "To write",
+        "To read"
+      ],
+      "answer": "To read",
+      "acceptedAnswers": [
+        "To read"
+      ],
+      "explanation": "「読みます」(よみます) means \"To read\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q006",
+      "lessonId": "n5.l06",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To write\" in hiragana:",
+      "answer": "かきます",
+      "acceptedAnswers": [
+        "かきます",
+        "書きます"
+      ],
+      "explanation": "The Japanese word for \"To write\" is 書きます (かきます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q007",
+      "lessonId": "n5.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「買います」の意味は何ですか。 (What does 「買います」 mean?)",
+      "choices": [
+        "To buy",
+        "Meal / Cooked rice",
+        "Bread",
+        "Water"
+      ],
+      "answer": "To buy",
+      "acceptedAnswers": [
+        "To buy"
+      ],
+      "explanation": "「買います」(かいます) means \"To buy\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q008",
+      "lessonId": "n5.l06",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Meal / Cooked rice\" in hiragana:",
+      "answer": "ごはん",
+      "acceptedAnswers": [
+        "ごはん",
+        "ご飯"
+      ],
+      "explanation": "The Japanese word for \"Meal / Cooked rice\" is ご飯 (ごはん).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q009",
+      "lessonId": "n5.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「パン」の意味は何ですか。 (What does 「パン」 mean?)",
+      "choices": [
+        "Together",
+        "Green tea / Tea",
+        "Water",
+        "Bread"
+      ],
+      "answer": "Bread",
+      "acceptedAnswers": [
+        "Bread"
+      ],
+      "explanation": "「パン」(ぱん) means \"Bread\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q010",
+      "lessonId": "n5.l06",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Water\" in hiragana:",
+      "answer": "みず",
+      "acceptedAnswers": [
+        "みず",
+        "水"
+      ],
+      "explanation": "The Japanese word for \"Water\" is 水 (みず).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q011",
+      "lessonId": "n5.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「お茶」の意味は何ですか。 (What does 「お茶」 mean?)",
+      "choices": [
+        "To drink",
+        "To eat",
+        "Together",
+        "Green tea / Tea"
+      ],
+      "answer": "Green tea / Tea",
+      "acceptedAnswers": [
+        "Green tea / Tea"
+      ],
+      "explanation": "「お茶」(おちゃ) means \"Green tea / Tea\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q012",
+      "lessonId": "n5.l06",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Together\" in hiragana:",
+      "answer": "いっしょに",
+      "acceptedAnswers": [
+        "いっしょに",
+        "一緒に"
+      ],
+      "explanation": "The Japanese word for \"Together\" is 一緒に (いっしょに).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q013",
+      "lessonId": "n5.l06",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「食」の意味は何ですか。 (What is the meaning of kanji 「食」?)",
+      "choices": [
+        "Eat, food",
+        "Drink",
+        "See, look, watch",
+        "Tree"
+      ],
+      "answer": "Eat, food",
+      "acceptedAnswers": [
+        "Eat, food"
+      ],
+      "explanation": "「食」means \"Eat, food\". Onyomi: ショク, Kunyomi: た.べる, く.う.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q014",
+      "lessonId": "n5.l06",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「食」の読み方はどれですか。 (Which is a correct reading for 「食」?)",
+      "choices": [
+        "た.べる",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "た.べる",
+      "acceptedAnswers": [
+        "た.べる"
+      ],
+      "explanation": "「食」 has the reading 「た.べる」 (Eat, food).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q015",
+      "lessonId": "n5.l06",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「飲」の意味は何ですか。 (What is the meaning of kanji 「飲」?)",
+      "choices": [
+        "Drink",
+        "Eat, food",
+        "See, look, watch",
+        "Tree"
+      ],
+      "answer": "Drink",
+      "acceptedAnswers": [
+        "Drink"
+      ],
+      "explanation": "「飲」means \"Drink\". Onyomi: イン, Kunyomi: の.む.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q016",
+      "lessonId": "n5.l06",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「飲」の読み方はどれですか。 (Which is a correct reading for 「飲」?)",
+      "choices": [
+        "の.む",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "の.む",
+      "acceptedAnswers": [
+        "の.む"
+      ],
+      "explanation": "「飲」 has the reading 「の.む」 (Drink).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q017",
+      "lessonId": "n5.l06",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「見」の意味は何ですか。 (What is the meaning of kanji 「見」?)",
+      "choices": [
+        "See, look, watch",
+        "Eat, food",
+        "Drink",
+        "Tree"
+      ],
+      "answer": "See, look, watch",
+      "acceptedAnswers": [
+        "See, look, watch"
+      ],
+      "explanation": "「見」means \"See, look, watch\". Onyomi: ケン, Kunyomi: み.る, み.せる.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q018",
+      "lessonId": "n5.l06",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「見」の読み方はどれですか。 (Which is a correct reading for 「見」?)",
+      "choices": [
+        "み.る",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "み.る",
+      "acceptedAnswers": [
+        "み.る"
+      ],
+      "explanation": "「見」 has the reading 「み.る」 (See, look, watch).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q019",
+      "lessonId": "n5.l06",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「聞」の意味は何ですか。 (What is the meaning of kanji 「聞」?)",
+      "choices": [
+        "Hear, listen, ask",
+        "Eat, food",
+        "Drink",
+        "Tree"
+      ],
+      "answer": "Hear, listen, ask",
+      "acceptedAnswers": [
+        "Hear, listen, ask"
+      ],
+      "explanation": "「聞」means \"Hear, listen, ask\". Onyomi: ブン, モン, Kunyomi: き.く, き.こえる.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q020",
+      "lessonId": "n5.l06",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「聞」の読み方はどれですか。 (Which is a correct reading for 「聞」?)",
+      "choices": [
+        "き.く",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "き.く",
+      "acceptedAnswers": [
+        "き.く"
+      ],
+      "explanation": "「聞」 has the reading 「き.く」 (Hear, listen, ask).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q021",
+      "lessonId": "n5.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "本屋で何を買いましたか。 (What did they buy at the bookstore?)",
+      "choices": [
+        "新しい雑誌と辞書",
+        "ペンとノート",
+        "教科書とお弁当",
+        "新聞だけ"
+      ],
+      "answer": "新しい雑誌と辞書",
+      "acceptedAnswers": [
+        "新しい雑誌と辞書"
+      ],
+      "explanation": "「日本語の新しい雑誌と辞書を買いました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q022",
+      "lessonId": "n5.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "どこでコーヒーを飲みましたか。 (Where did they drink coffee?)",
+      "choices": [
+        "近くの喫茶店",
+        "本屋のベンチ",
+        "自分の部屋",
+        "学校の食堂"
+      ],
+      "answer": "近くの喫茶店",
+      "acceptedAnswers": [
+        "近くの喫茶店"
+      ],
+      "explanation": "「それから近くの喫茶店でコーヒーを飲みながら本を読みました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q023",
+      "lessonId": "n5.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "喫茶店で何をしましたか。 (What activities did they do at the café?)",
+      "choices": [
+        "本を読んで音楽を聞いた",
+        "友達と話した",
+        "試験の勉強をした",
+        "手紙を書いた"
+      ],
+      "answer": "本を読んで音楽を聞いた",
+      "acceptedAnswers": [
+        "本を読んで音楽を聞いた"
+      ],
+      "explanation": "They drank coffee, read a book, and listened to music.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q024",
+      "lessonId": "n5.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "この話は何曜日の出来事ですか。 (On what day of the week did this happen?)",
+      "choices": [
+        "日曜日",
+        "土曜日",
+        "金曜日",
+        "月曜日"
+      ],
+      "answer": "日曜日",
+      "acceptedAnswers": [
+        "日曜日"
+      ],
+      "explanation": "The text begins: 「日曜日の午後...」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q025",
+      "lessonId": "n5.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "午後の感想はどうでしたか。 (How was the afternoon described?)",
+      "choices": [
+        "とても楽しかった",
+        "忙しかった",
+        "退屈だった",
+        "疲れた"
+      ],
+      "answer": "とても楽しかった",
+      "acceptedAnswers": [
+        "とても楽しかった"
+      ],
+      "explanation": "「とても楽しい午後でした」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q026",
+      "lessonId": "n5.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "二人はどこでお昼ご飯を食べますか。 (Where will they eat lunch?)",
+      "choices": [
+        "駅の前の定食屋",
+        "会社の食堂",
+        "コンビニのイートイン",
+        "山田さんの家"
+      ],
+      "answer": "駅の前の定食屋",
+      "acceptedAnswers": [
+        "駅の前の定食屋"
+      ],
+      "explanation": "Yamada suggests: 「駅の前の定食屋で魚を食べましょう」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q027",
+      "lessonId": "n5.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "二人は何を食べますか。 (What food are they going to eat?)",
+      "choices": [
+        "魚",
+        "ラーメン",
+        "パンとサラダ",
+        "肉料理"
+      ],
+      "answer": "魚",
+      "acceptedAnswers": [
+        "魚"
+      ],
+      "explanation": "Yamada explicitly says: 「魚を食べましょう」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q028",
+      "lessonId": "n5.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "会話の時間は何時頃ですか。 (Around what time does this conversation happen?)",
+      "choices": [
+        "十二時頃 (昼)",
+        "午前十時",
+        "午後三時",
+        "午後六時"
+      ],
+      "answer": "十二時頃 (昼)",
+      "acceptedAnswers": [
+        "十二時頃 (昼)"
+      ],
+      "explanation": "Yamada starts with: 「もう十二時ですね」 (It is already 12:00).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q029",
+      "lessonId": "n5.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "リーさんは山田さんの誘いにどう答えましたか。 (How did Lee respond to the invitation?)",
+      "choices": [
+        "いいですね、と賛成した",
+        "忙しいと断った",
+        "一人で食べると言った",
+        "お弁当を食べると言った"
+      ],
+      "answer": "いいですね、と賛成した",
+      "acceptedAnswers": [
+        "いいですね、と賛成した"
+      ],
+      "explanation": "Lee gladly accepts: 「いいですね」「賛成です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l06.q030",
+      "lessonId": "n5.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "定食屋について山田さんは何と言いましたか。 (What did Yamada say about the restaurant?)",
+      "choices": [
+        "とてもおいしい",
+        "とても安い",
+        "静かである",
+        "混んでいる"
+      ],
+      "answer": "とてもおいしい",
+      "acceptedAnswers": [
+        "とてもおいしい"
+      ],
+      "explanation": "Yamada praises: 「あそこはとてもおいしいですよ」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l06.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

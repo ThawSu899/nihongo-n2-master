@@ -1,0 +1,1720 @@
+{
+  "id": "n4.l23",
+  "level": "N4",
+  "module": "N4 Expressions & Relations",
+  "number": 23,
+  "title": "N4 Lesson 23: Colloquial Resemblance みたいだ (〜みたいだ・〜みたいに・〜みたいな)",
+  "description": "Master conversational simile and resemblance (〜みたいだ), direct noun connection without の, and register distinction from 〜ようだ.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l23.v001",
+      "lessonId": "n4.l23",
+      "ja": "夢",
+      "kana": "ゆめ",
+      "en": "dream",
+      "my": "အိပ်မက်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l23.s001",
+      "kanjiIds": [
+        "n4.l23.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.v002",
+      "lessonId": "n4.l23",
+      "ja": "踊る",
+      "kana": "おどる",
+      "en": "to dance",
+      "my": "ကခုန်သည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l23.s002",
+      "kanjiIds": [
+        "n4.l23.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.v003",
+      "lessonId": "n4.l23",
+      "ja": "似合う",
+      "kana": "にあう",
+      "en": "to suit; to look good on",
+      "my": "လိုက်ဖက်သည်/တင့်တယ်သည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l23.s003",
+      "kanjiIds": [
+        "n4.l23.k003"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.v004",
+      "lessonId": "n4.l23",
+      "ja": "人形",
+      "kana": "にんぎょう",
+      "en": "doll; puppet",
+      "my": "ရုပ်သေး/အရုပ်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l23.s004",
+      "kanjiIds": [
+        "n4.l23.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.v005",
+      "lessonId": "n4.l23",
+      "ja": "漫画",
+      "kana": "まんが",
+      "en": "manga; comic book",
+      "my": "ကာတွန်း/မန်ဂါ",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l23.s005",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.v006",
+      "lessonId": "n4.l23",
+      "ja": "俳優",
+      "kana": "はいゆう",
+      "en": "actor; actress",
+      "my": "သရုပ်ဆောင်/ရုပ်ရှင်မင်းသား/မင်းသမီး",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l23.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.v007",
+      "lessonId": "n4.l23",
+      "ja": "おもちゃ",
+      "kana": "おもちゃ",
+      "en": "toy",
+      "my": "ကစားစရာအရုပ်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l23.s007",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.v008",
+      "lessonId": "n4.l23",
+      "ja": "嘘",
+      "kana": "うそ",
+      "en": "lie; falsehood; incorrect",
+      "my": "မုသား/လိမ်ညာစကား",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l23.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.v009",
+      "lessonId": "n4.l23",
+      "ja": "冗談",
+      "kana": "じょうだん",
+      "en": "joke; funny remark",
+      "my": "ဟာသ/နောက်ပြောင်စကား",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l23.s009",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.v010",
+      "lessonId": "n4.l23",
+      "ja": "宝物",
+      "kana": "たからもの",
+      "en": "treasure; cherished item",
+      "my": "ဘဏ္ဍာ/တန်ဖိုးရှိသောပစ္စည်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l23.s010",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.v011",
+      "lessonId": "n4.l23",
+      "ja": "本気",
+      "kana": "ほんき",
+      "en": "serious; seriousness; earnest",
+      "my": "အလေးအနက်/အမှန်တကယ်",
+      "pos": "na-adj",
+      "exampleSentenceId": "n4.l23.s011",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.v012",
+      "lessonId": "n4.l23",
+      "ja": "格好",
+      "kana": "かっこう",
+      "en": "appearance; shape; dress",
+      "my": "ဝတ်စားဆင်ယင်မှု/ပုံပန်းသွင်ပြင်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l23.s012",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l23.k001",
+      "lessonId": "n4.l23",
+      "char": "夢",
+      "meaning": "dream; vision",
+      "onyomi": [
+        "ム"
+      ],
+      "kunyomi": [
+        "ゆめ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "夢",
+          "reading": "ゆめ",
+          "meaning": "dream",
+          "preview": false
+        },
+        {
+          "word": "夢中",
+          "reading": "むちゅう",
+          "meaning": "absorbed; infatuated",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l23.s001"
+      ],
+      "components": [
+        "艹",
+        "罒",
+        "冖",
+        "夕"
+      ],
+      "strokes": 13,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.k002",
+      "lessonId": "n4.l23",
+      "char": "踊",
+      "meaning": "dance; leap",
+      "onyomi": [
+        "ヨウ"
+      ],
+      "kunyomi": [
+        "おど・る",
+        "おど・り"
+      ],
+      "exampleVocab": [
+        {
+          "word": "踊る",
+          "reading": "おどる",
+          "meaning": "to dance",
+          "preview": false
+        },
+        {
+          "word": "踊り",
+          "reading": "おどり",
+          "meaning": "dance (noun)",
+          "preview": false
+        },
+        {
+          "word": "日本舞踊",
+          "reading": "にほんぶよう",
+          "meaning": "classical Japanese dance",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l23.s001"
+      ],
+      "components": [
+        "足",
+        "甬"
+      ],
+      "strokes": 14,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.k003",
+      "lessonId": "n4.l23",
+      "char": "似",
+      "meaning": "resemble; imitate; similar",
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [
+        "に・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "似る",
+          "reading": "にる",
+          "meaning": "to resemble",
+          "preview": false
+        },
+        {
+          "word": "似合う",
+          "reading": "にあう",
+          "meaning": "to suit; match",
+          "preview": false
+        },
+        {
+          "word": "類似",
+          "reading": "るいじ",
+          "meaning": "similarity",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l23.s001"
+      ],
+      "components": [
+        "亻",
+        "以"
+      ],
+      "strokes": 7,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.k004",
+      "lessonId": "n4.l23",
+      "char": "形",
+      "meaning": "shape; form; figure",
+      "onyomi": [
+        "ケイ",
+        "ギョウ"
+      ],
+      "kunyomi": [
+        "かたち",
+        "かた"
+      ],
+      "exampleVocab": [
+        {
+          "word": "人形",
+          "reading": "にんぎょう",
+          "meaning": "doll; figure",
+          "preview": false
+        },
+        {
+          "word": "形",
+          "reading": "かたち",
+          "meaning": "shape; form",
+          "preview": false
+        },
+        {
+          "word": "形式",
+          "reading": "けいしき",
+          "meaning": "format; ceremony",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l23.s001"
+      ],
+      "components": [
+        "开",
+        "彡"
+      ],
+      "strokes": 7,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l23.g001",
+      "lessonId": "n4.l23",
+      "pattern": "[Noun / Na-adj stem / Verb plain] + みたいだ (口語の推量)",
+      "meaning": "Colloquial deduction / sensory inference (\"It seems like / looks like / sounds like\")",
+      "formation": "Noun + みたいだ (*no の: 子どもみたいだ, 夢みたいだ)\nNa-adj stem + みたいだ (*no な/だ: 静かみたいだ, 暇みたいだ)\nVerb/i-adj (Plain form) + みたいだ (行くみたいだ, 寒かったみたいだ)",
+      "explanation": {
+        "en": "The colloquial conversational counterpart to 〜ようだ. Expresses an inference or observation in informal spoken Japanese. Unlike 〜ようだ, nouns and na-adjectives attach directly WITHOUT の or な (子どもみたいだ, NOT *子どものみたいだ).",
+        "my": "စကားပြော (口語) တွင် အသုံးများသော「〜ようだ」၏ ပေါ့ပေါ့ပါးပါး စကားပြောပုံစံ ဖြစ်သည်။ နာမ်နှင့် na-adjective များတွင်「の」သို့မဟုတ်「な」မထည့်ဘဲ တိုက်ရိုက်ဆက်ရသည် (ဥပမာ- 子どもみたいだ)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l23.s001",
+          "note": "Winning the championship feels like a dream."
+        },
+        {
+          "sentenceId": "n4.l23.s008",
+          "note": "It seems what Tanaka said was a joke."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not insert の after nouns (*子どものみたい is wrong; say 子どもみたい).",
+        "Remember register: 〜みたいだ is conversational/informal; use 〜ようです in formal interviews or official writing."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.g002",
+      "lessonId": "n4.l23",
+      "pattern": "〜みたいな [Noun] / 〜みたいに [Verb/Adj] (口語の比喩)",
+      "meaning": "Colloquial Simile (\"Like / Resembling / In the manner of...\")",
+      "formation": "[Noun] + みたいな + [Noun] (映画みたいな事件)\n[Noun] + みたいに + [Verb/Adj] (プロみたいに上手に歌う)",
+      "explanation": {
+        "en": "Used in conversational Japanese to make vivid comparisons: 〜みたいな modifies following nouns, while 〜みたいに modifies verbs or adjectives.",
+        "my": "စကားပြောရာတွင် တင်စားနှိုင်းယှဉ်ရာ၌ သုံးသည်။ နာမ်ကို အထူးပြုလျှင်「〜みたいな」၊ ကြိယာ/နာမဝိသေသနကို အထူးပြုလျှင်「〜みたいに」ကို သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l23.s002",
+          "note": "She dances gracefully like a professional dancer."
+        },
+        {
+          "sentenceId": "n4.l23.s005",
+          "note": "This incredible true story is like something from a manga."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use ような in casual slang peer chats, and do not use みたいな in formal academic papers."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l23.s001",
+      "lessonId": "n4.l23",
+      "ja": "憧れの選手に直接サインをもらえて、本当に夢みたいです！",
+      "kana": "あこがれのせんしゅにちょくせつサインをもらえて、ほんとうにゆめみたいです！",
+      "translation": {
+        "en": "Getting an autograph in person from my idol athlete really feels like a dream!",
+        "my": "အားကျရသော အားကစားသမားထံမှ ကိုယ်တိုင်ကိုယ်ကျ လက်မှတ်ရရှိခဲ့သဖြင့် အမှန်ပင် အိပ်မက်တစ်ခုလိုပါပဲ။"
+      },
+      "vocabIds": [
+        "n4.l23.v001"
+      ],
+      "grammarIds": [
+        "n4.l23.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.s002",
+      "lessonId": "n4.l23",
+      "ja": "妹は音楽に合わせて、まるでプロのダンサーみたいに上手に踊ります。",
+      "kana": "いもうとはおんがくにあわせて、まるでプロのダンサーみたいにじょうずにおどります。",
+      "translation": {
+        "en": "My younger sister dances skillfully to the music, just like a professional dancer.",
+        "my": "ညီမလေးသည် သီချင်းနှင့်လိုက်ဖက်ညီစွာ ပရော်ဖက်ရှင်နယ် အကသမားတစ်ဦးကဲ့သို့ ကျွမ်းကျင်စွာ ကခုန်တတ်သည်။"
+      },
+      "vocabIds": [
+        "n4.l23.v002"
+      ],
+      "grammarIds": [
+        "n4.l23.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.s003",
+      "lessonId": "n4.l23",
+      "ja": "その青いジャケット、映画の主人公みたいでとても似合っていますよ。",
+      "kana": "そのあおいジャケット、えいがのしゅじんこうみたいでとてもにあっていますよ。",
+      "translation": {
+        "en": "That blue jacket looks like a movie protagonist and suits you very well.",
+        "my": "ထိုအပြာရောင်ဂျာကင်အင်္ကျီသည် ရုပ်ရှင်ဇာတ်လိုက်တစ်ယောက်လိုဖြစ်ပြီး သင့်နှင့် အလွန်လိုက်ဖက်ပါပေသည်။"
+      },
+      "vocabIds": [
+        "n4.l23.v003"
+      ],
+      "grammarIds": [
+        "n4.l23.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.s004",
+      "lessonId": "n4.l23",
+      "ja": "ショーウインドウのモデルさんは、まるでお人形さんみたいに肌が綺麗ですね。",
+      "kana": "ショーウインドウのモデルさんは、まるでおにんぎょうさんみたいにはだがきれいですね。",
+      "translation": {
+        "en": "The model in the show window has beautiful skin, just like a doll.",
+        "my": "ရှိုးပြတင်းပေါက်ရှိ မော်ဒယ်သည် အရုပ်မလေးလိုပင် အသားအရေ လှပလွန်းလှသည်။"
+      },
+      "vocabIds": [
+        "n4.l23.v004"
+      ],
+      "grammarIds": [
+        "n4.l23.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.s005",
+      "lessonId": "n4.l23",
+      "ja": "今回の信じられない大逆転劇は、まるで漫画みたいな話です。",
+      "kana": "こんかいのしんじられないだいぎゃくてんげきは、まるでまんがみたいなはなしです。",
+      "translation": {
+        "en": "This unbelievable comeback drama is a story just like something from a manga.",
+        "my": "ဤမယုံနိုင်စရာ အလှည့်အပြောင်း ဇာတ်လမ်းသည် ကာတွန်းထဲက ဇာတ်လမ်းတစ်ခုလိုပါပဲ။"
+      },
+      "vocabIds": [
+        "n4.l23.v005"
+      ],
+      "grammarIds": [
+        "n4.l23.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.s006",
+      "lessonId": "n4.l23",
+      "ja": "佐藤君は背が高くてスタイルが良いから、有名な俳優みたいだね。",
+      "kana": "さとうくんはせがたかくてスタイルがよいから、ゆうめいなはいゆうみたいだね。",
+      "translation": {
+        "en": "Sato-kun is tall and has great posture, looking like a famous actor.",
+        "my": "ဆာတိုသည် အရပ်ရှည်ပြီး ကိုယ်ခန္ဓာအချိုးအစားပြေပြစ်သဖြင့် နာမည်ကြီးရုပ်ရှင်မင်းသားတစ်ယောက်လိုပါပဲ။"
+      },
+      "vocabIds": [
+        "n4.l23.v006"
+      ],
+      "grammarIds": [
+        "n4.l23.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.s007",
+      "lessonId": "n4.l23",
+      "ja": "大人なんだから、いつまでも子どもみたいにおもちゃで喧嘩するのはやめなさい。",
+      "kana": "おとななんだから、いつまでもこどもみたいにおもちゃでけんかするのはやめなさい。",
+      "translation": {
+        "en": "Since you're an adult, stop fighting over toys like a child forever.",
+        "my": "လူကြီးဖြစ်နေပြီဖြစ်သောကြောင့် ကလေးလို ကစားစရာအရုပ်လုပြီး အမြဲရန်ဖြစ်နေခြင်းကို ရပ်တန့်ပါ။"
+      },
+      "vocabIds": [
+        "n4.l23.v007"
+      ],
+      "grammarIds": [
+        "n4.l23.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.s008",
+      "lessonId": "n4.l23",
+      "ja": "彼が言っていた話は、全部嘘だったみたいです。",
+      "kana": "かれがいっていたはなしは、ぜんぶうそだったみたいです。",
+      "translation": {
+        "en": "It seems that the story he was telling was all a lie.",
+        "my": "သူပြောခဲ့သော ဇာတ်လမ်းသည် အားလုံး လိမ်ညာစကားများ ဖြစ်ခဲ့ပုံရသည်။"
+      },
+      "vocabIds": [
+        "n4.l23.v008"
+      ],
+      "grammarIds": [
+        "n4.l23.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.s009",
+      "lessonId": "n4.l23",
+      "ja": "怒った顔をしていたけれど、どうやら冗談だったみたいで安心しました。",
+      "kana": "おこったかおをしていたけれど、どうやらじょうだんだったみたいであんしんしました。",
+      "translation": {
+        "en": "He had an angry face, but apparently it seems it was a joke, so I was relieved.",
+        "my": "စိတ်ဆိုးသောမျက်နှာထား ဖြစ်နေသော်လည်း နောက်ပြောင်စကားဖြစ်ပုံရသဖြင့် စိတ်အေးသွားရသည်။"
+      },
+      "vocabIds": [
+        "n4.l23.v009"
+      ],
+      "grammarIds": [
+        "n4.l23.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.s010",
+      "lessonId": "n4.l23",
+      "ja": "祖父からもらった古い懐中時計を、宝物みたいに大切に箱にしまっています。",
+      "kana": "そふからもらったふるいかいちゅうどけいを、たからものみたいにたいせつにはこにしまっています。",
+      "translation": {
+        "en": "The antique pocket watch received from my grandfather is kept carefully in a box like a treasure.",
+        "my": "အဖိုးထံမှ ရရှိခဲ့သော ရှေးဟောင်းအိတ်ဆောင်နာရီကို ရတနာဘဏ္ဍာတစ်ခုကဲ့သို့ အဖိုးတန်စွာ သေတ္တာထဲတွင် သိမ်းဆည်းထားသည်။"
+      },
+      "vocabIds": [
+        "n4.l23.v010"
+      ],
+      "grammarIds": [
+        "n4.l23.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.s011",
+      "lessonId": "n4.l23",
+      "ja": "冗談半分かと思ったら、彼は本気でプロ選手を目指しているみたいだ。",
+      "kana": "じょうだんはんぶんかとおもったら、かれはほんきでプロせんしゅをめざしているみたいだ。",
+      "translation": {
+        "en": "I thought he was half joking, but it seems he is seriously aiming to become a professional athlete.",
+        "my": "နောက်ပြောင်နေသည်ဟု ထင်ခဲ့သော်လည်း သူသည် ပရော်ဖက်ရှင်နယ် အားကစားသမားဖြစ်ရန် အမှန်တကယ် ဦးတည်ကြိုးစားနေပုံရသည်။"
+      },
+      "vocabIds": [
+        "n4.l23.v011"
+      ],
+      "grammarIds": [
+        "n4.l23.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l23.s012",
+      "lessonId": "n4.l23",
+      "ja": "そんな派手な格好をして、まるでこれからパーティーに行くみたいですね。",
+      "kana": "そんなはでなかっこうをして、まるでこれからパーティーにいくみたいですね。",
+      "translation": {
+        "en": "Dressed up so flashily, it looks just as if you're heading out to a party now.",
+        "my": "ထိုကဲ့သို့ ခမ်းနားတောက်ပစွာ ဝတ်ဆင်ထားသဖြင့် ယခုပင် ပါတီပွဲသို့ သွားတော့မည့်ပုံစံ ပေါက်နေပါပေသည်။"
+      },
+      "vocabIds": [
+        "n4.l23.v012"
+      ],
+      "grammarIds": [
+        "n4.l23.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l23.r01",
+    "lessonId": "n4.l23",
+    "title": "秋の学園祭と学生たちの仮装劇",
+    "level": "N4",
+    "text": "先週の土曜日、私の通う日本語学校で秋の学園祭が開催されました。各クラスが工夫を凝らした模擬店や展示を披露する中、私たちのクラスは日本の昔話をテーマにした短い仮装劇を上演することにしました。\n\nクラスメートたちは手作りの衣装を身につけ、まるで本物の舞台俳優みたいに熱心に稽古を重ねてきました。主役を務めたキムさんは、普段は物静かで大人しい性格ですが、舞台の上では堂々と大きな声で演じていて、まるで別人のようでした。\n\n劇の途中で、鬼の役を担当した田中君がセリフを忘れてしまうハプニングがありました。しかし田中君は焦らず、「お腹が空いて言葉が出ないぞ！」とアドリブで返し、客席のみんなを大笑いさせました。観客からは「アドリブも台本の一部みたいで面白かった！」と大好評でした。\n\n練習中は意見が合わず衝突することもありましたが、終わってみるとまるで夢のような楽しい一日でした。みんなで一つの目標に向かって力を合わせる素晴らしさを実感した学園祭でした。",
+    "kanaText": "せんしゅうのどようび、わたしのかよう にほんごがっこうであきの がくえんさいがかいさいされました。かくクラスがくふうをこらしたもぎてんやてんじをひろうするなか、わたしたちのクラスはにほんのむかしばなしをテーマにしたみじかいかそうげきをじょうえんすることにしました。\n\nクラスメートたちはてづくりのいしょうを身につけ、まるでほんもののぶたいはいゆうみたいにねっしんにけいこをかさねてきました。しゅやくをつとめたキムさんは、ふだんはものしずかでおとなしいせいかくですが、ぶたいのうえではどうどうとおおきなこえでえんじていて、まるでべつじんのようでした。\n\nげきのとちゅうで、おにのやくをたんとうしたたなかくんがセリフをわすれてしまうハプニングがありました。しかし たなかくんはあせらず、「おなかがすいてことばがでないぞ！」とアドリブでかえし、きゃくせきのみんなをおおわらいさせました。かんきゃくからは「アドリブもだいほんのいちぶみたいでおもしろかった！」とだいこうひょうでした。\n\nれんしゅうちゅうはいけんがあわずしょうとつすることもありましたが、おわってみるとまるでゆめのようなたのしいいちにちでした。みんなでひとつのもくひょうにむかってちからをあわせるすばらしさをじっかんしたがくえんさいでした。",
+    "translation": "Last Saturday, the autumn school festival was held at the Japanese language school I attend. While each class showcased creative food stalls and exhibits, our class decided to stage a short costume play themed around traditional Japanese folklore.\n\nMy classmates donned handmade costumes and practiced enthusiastically just like genuine stage actors. Kim-san, who played the lead role, is usually quiet and gentle, but on stage he performed confidently with a loud voice, looking just like an entirely different person!\n\nDuring the play, an unexpected mishap occurred when Tanaka-kun, who played the ogre, forgot his lines. However, without panicking, Tanaka-kun improvised: \"I'm so hungry that words won't come out!\", making everyone in the audience burst into laughter. From the spectators, it received great praise: \"Even the improvisation felt like part of the script and was hilarious!\"\n\nAlthough there were times during rehearsals when opinions clashed, once it ended, it was a delightful day just like a dream. It was a school festival where I truly felt the wonder of joining forces toward a single goal.",
+    "questionIds": [
+      "n4.l23.q021",
+      "n4.l23.q022",
+      "n4.l23.q023",
+      "n4.l23.q024",
+      "n4.l23.q025"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l23.l01",
+    "lessonId": "n4.l23",
+    "title": "ショッピングモールでの洋服選び",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "友人（ユミ）",
+      "友人（アン）"
+    ],
+    "transcript": "ユミ：アンちゃん、この赤いワンピース、どう思う？\nアン：わあ、すごく素敵！ユミちゃんに着てみてもらいたいな。\nユミ：本当？ちょっと派手すぎて、モデルさんみたいに見えないかな？\nアン：ううん、全然そんなことないよ！ユミちゃんの明るい雰囲気にぴったり似合っているよ。まるで雑誌の写真みたい。\nユミ：そう言ってくれると嬉しいな。でも、お値段が少し高くて…\nアン：セール期間中だから、レジで二割引きになるみたいだよ。値札にシールが貼ってある！\nユミ：えっ、本当！？それなら予算内におさまりそう！これに決めるね！",
+    "translation": "Yumi: Ann, what do you think of this red one-piece dress?\nAnn: Wow, it's so lovely! I really want you to try it on, Yumi!\nYumi: Really? Isn't it a bit too flashy, looking like I'm trying to be a model?\nAnn: No, not at all! It matches your cheerful vibe perfectly. You look just like a photo in a fashion magazine!\nYumi: Hearing you say that makes me happy. But the price is a little high...\nAnn: Because it's the sale period, it seems it gets 20% off at the cash register! Look, there's a sticker on the price tag!\nYumi: What, really!? If so, it looks like it fits right in my budget! I'll decide on this one!",
+    "turns": [
+      {
+        "speaker": "ユミ",
+        "ja": "アンちゃん、この赤いワンピース、どう思う？",
+        "kana": "アンちゃん、この赤いワンピース、どう思う？",
+        "en": ""
+      },
+      {
+        "speaker": "アン",
+        "ja": "わあ、すごく素敵！ユミちゃんに着てみてもらいたいな。",
+        "kana": "わあ、すごく素敵！ユミちゃんに着てみてもらいたいな。",
+        "en": ""
+      },
+      {
+        "speaker": "ユミ",
+        "ja": "本当？ちょっと派手すぎて、モデルさんみたいに見えないかな？",
+        "kana": "本当？ちょっと派手すぎて、モデルさんみたいに見えないかな？",
+        "en": ""
+      },
+      {
+        "speaker": "アン",
+        "ja": "ううん、全然そんなことないよ！ユミちゃんの明るい雰囲気にぴったり似合っているよ。まるで雑誌の写真みたい。",
+        "kana": "ううん、全然そんなことないよ！ユミちゃんの明るい雰囲気にぴったり似合っているよ。まるで雑誌の写真みたい。",
+        "en": ""
+      },
+      {
+        "speaker": "ユミ",
+        "ja": "そう言ってくれると嬉しいな。でも、お値段が少し高くて…",
+        "kana": "そう言ってくれると嬉しいな。でも、お値段が少し高くて…",
+        "en": ""
+      },
+      {
+        "speaker": "アン",
+        "ja": "セール期間中だから、レジで二割引きになるみたいだよ。値札にシールが貼ってある！",
+        "kana": "セール期間中だから、レジで二割引きになるみたいだよ。値札にシールが貼ってある！",
+        "en": ""
+      },
+      {
+        "speaker": "ユミ",
+        "ja": "えっ、本当！？それなら予算内におさまりそう！これに決めるね！",
+        "kana": "えっ、本当！？それなら予算内におさまりそう！これに決めるね！",
+        "en": ""
+      }
+    ],
+    "questionIds": [
+      "n4.l23.q026",
+      "n4.l23.q027",
+      "n4.l23.q028",
+      "n4.l23.q029",
+      "n4.l23.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l23.q001",
+      "lessonId": "n4.l23",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "昨晩、空を飛ぶ不思議な（　　）を見た。",
+      "choices": [
+        "夢",
+        "人形",
+        "漫画",
+        "俳優"
+      ],
+      "answer": "夢",
+      "acceptedAnswers": [
+        "夢"
+      ],
+      "explanation": "夢 (ゆめ) means dream (夢を見る = to dream).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q002",
+      "lessonId": "n4.l23",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "お祭りの太鼓のリズムに合わせて輪になって（　　）。",
+      "choices": [
+        "踊った",
+        "似合った",
+        "本気になった",
+        "冗談を言った"
+      ],
+      "answer": "踊った",
+      "acceptedAnswers": [
+        "踊った"
+      ],
+      "explanation": "踊る (おどる) means to dance.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q003",
+      "lessonId": "n4.l23",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "新しい眼鏡があなたの顔の形によく（　　）います。",
+      "choices": [
+        "似合って",
+        "踊って",
+        "夢見て",
+        "嘘ついて"
+      ],
+      "answer": "似合って",
+      "acceptedAnswers": [
+        "似合って"
+      ],
+      "explanation": "似合う (にあう) means to suit / look good on.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q004",
+      "lessonId": "n4.l23",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "日本の伝統的な着物を着た綺麗な（　　）を飾った。",
+      "choices": [
+        "人形",
+        "漫画",
+        "俳優",
+        "冗談"
+      ],
+      "answer": "人形",
+      "acceptedAnswers": [
+        "人形"
+      ],
+      "explanation": "人形 (にんぎょう) means doll / figure.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q005",
+      "lessonId": "n4.l23",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "日本の（　　）は世界中で読まれており、人気が高い。",
+      "choices": [
+        "漫画",
+        "人形",
+        "おもちゃ",
+        "冗談"
+      ],
+      "answer": "漫画",
+      "acceptedAnswers": [
+        "漫画"
+      ],
+      "explanation": "漫画 (まんが) means manga / comic.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q006",
+      "lessonId": "n4.l23",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "あの映画で主役を演じた（　　）の演技力は素晴らしい。",
+      "choices": [
+        "俳優",
+        "漫画",
+        "人形",
+        "おもちゃ"
+      ],
+      "answer": "俳優",
+      "acceptedAnswers": [
+        "俳優"
+      ],
+      "explanation": "俳優 (はいゆう) means actor / actress.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q007",
+      "lessonId": "n4.l23",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "子どもたちが床に散らかした（　　）を箱に片付けた。",
+      "choices": [
+        "おもちゃ",
+        "俳優",
+        "漫画",
+        "冗談"
+      ],
+      "answer": "おもちゃ",
+      "acceptedAnswers": [
+        "おもちゃ"
+      ],
+      "explanation": "おもちゃ means toy.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q008",
+      "lessonId": "n4.l23",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "人を傷つけるような（　　）を決して言ってはいけない。",
+      "choices": [
+        "嘘",
+        "宝物",
+        "本気",
+        "格好"
+      ],
+      "answer": "嘘",
+      "acceptedAnswers": [
+        "嘘"
+      ],
+      "explanation": "嘘 (うそ) means lie / falsehood.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q009",
+      "lessonId": "n4.l23",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "山田さんはいつも面白い（　　）を言ってみんなを笑わせる。",
+      "choices": [
+        "冗談",
+        "宝物",
+        "嘘",
+        "格好"
+      ],
+      "answer": "冗談",
+      "acceptedAnswers": [
+        "冗談"
+      ],
+      "explanation": "冗談 (じょうだん) means joke.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q010",
+      "lessonId": "n4.l23",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "彼は（　　）で世界一周旅行を計画しているらしい。",
+      "choices": [
+        "本気",
+        "おもちゃ",
+        "人形",
+        "冗談"
+      ],
+      "answer": "本気",
+      "acceptedAnswers": [
+        "本気"
+      ],
+      "explanation": "本気で (ほんきで) means in earnest / seriously.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q011",
+      "lessonId": "n4.l23",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「夢」の正しい訓読みはどれですか。",
+      "choices": [
+        "ゆめ",
+        "おどり",
+        "にる",
+        "かたち"
+      ],
+      "answer": "ゆめ",
+      "acceptedAnswers": [
+        "ゆめ"
+      ],
+      "explanation": "夢 is read as ゆめ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q012",
+      "lessonId": "n4.l23",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "舞台で華麗に【おどった】。漢字表記はどれですか。",
+      "choices": [
+        "踊った",
+        "夢った",
+        "似った",
+        "形った"
+      ],
+      "answer": "踊った",
+      "acceptedAnswers": [
+        "踊った"
+      ],
+      "explanation": "おどった is written 踊った.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q013",
+      "lessonId": "n4.l23",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「似合う」の「似」の訓読みはどれですか。",
+      "choices": [
+        "に・る",
+        "ゆめ",
+        "おど・る",
+        "かたち"
+      ],
+      "answer": "に・る",
+      "acceptedAnswers": [
+        "に・る"
+      ],
+      "explanation": "The kunyomi of 似 is にる (似合う = にあう).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q014",
+      "lessonId": "n4.l23",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "子どもの【にんぎょう】を買った。漢字表記はどれですか。",
+      "choices": [
+        "人形",
+        "人似",
+        "人夢",
+        "人踊"
+      ],
+      "answer": "人形",
+      "acceptedAnswers": [
+        "人形"
+      ],
+      "explanation": "にんぎょう is written 人形.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q015",
+      "lessonId": "n4.l23",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「夢中」の「夢」の音読みはどれですか。",
+      "choices": [
+        "ム",
+        "ヨウ",
+        "ジ",
+        "ケイ"
+      ],
+      "answer": "ム",
+      "acceptedAnswers": [
+        "ム"
+      ],
+      "explanation": "The onyomi of 夢 is ム (夢中 = むちゅう).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q016",
+      "lessonId": "n4.l23",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "名詞「子ども」に口語の「〜みたいだ」を接続するときの正しい形はどれですか。",
+      "choices": [
+        "子どもみたいだ",
+        "子どものみたいだ",
+        "子どもなみたいだ",
+        "子どもだみたいだ"
+      ],
+      "answer": "子どもみたいだ",
+      "acceptedAnswers": [
+        "子どもみたいだ"
+      ],
+      "explanation": "Unlike ようだ, nouns attach directly to みたいだ without の: 子どもみたいだ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q017",
+      "lessonId": "n4.l23",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「まるで映画の（　　）奇跡的な出来事」のように名詞を修飾する形はどれですか。",
+      "choices": [
+        "みたいな",
+        "みたいに",
+        "みたいだ",
+        "みたいで"
+      ],
+      "answer": "みたいな",
+      "acceptedAnswers": [
+        "みたいな"
+      ],
+      "explanation": "Modifying a noun: 映画みたいな出来事.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q018",
+      "lessonId": "n4.l23",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜みたいだ」と「〜ようだ」の違いとして最も適切なものはどれですか。",
+      "choices": [
+        "「みたいだ」は親しい会話（口語）で使われ、「ようだ」は改まった会話や文章で使われる",
+        "「みたいだ」は過去の推量だけで、「ようだ」は未来だけである",
+        "「みたいだ」は名詞に「の」が必要である",
+        "「みたいだ」は敬語である"
+      ],
+      "answer": "「みたいだ」は親しい会話（口語）で使われ、「ようだ」は改まった会話や文章で使われる",
+      "acceptedAnswers": [
+        "「みたいだ」は親しい会話（口語）で使われ、「ようだ」は改まった会話や文章で使われる"
+      ],
+      "explanation": "〜みたいだ is the colloquial spoken equivalent of the formal/literary 〜ようだ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q019",
+      "lessonId": "n4.l23",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "外が急に暗くなってきた。雨が降る（　　）。",
+      "choices": [
+        "みたいだ",
+        "らしいだ",
+        "そうだだ",
+        "はずな"
+      ],
+      "answer": "みたいだ",
+      "acceptedAnswers": [
+        "みたいだ"
+      ],
+      "explanation": "Verb plain form + みたいだ: 雨が降るみたいだ (looks like it will rain).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q020",
+      "lessonId": "n4.l23",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「彼はまるでプロの（　　）上手に料理を作る。」",
+      "choices": [
+        "みたいに",
+        "みたいな",
+        "みたいだ",
+        "みたいで"
+      ],
+      "answer": "みたいに",
+      "acceptedAnswers": [
+        "みたいに"
+      ],
+      "explanation": "Modifying the verb 作る: プロみたいに上手に作る.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q021",
+      "lessonId": "n4.l23",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者のクラスは秋の学園祭で何を上演することにしましたか。",
+      "choices": [
+        "日本の昔話をテーマにした短い仮装劇",
+        "現代のニュースをテーマにした討論会",
+        "本格的なオーケストラの演奏会",
+        "留学生のスピーチ大会"
+      ],
+      "answer": "日本の昔話をテーマにした短い仮装劇",
+      "acceptedAnswers": [
+        "日本の昔話をテーマにした短い仮装劇"
+      ],
+      "explanation": "Text: 私たちのクラスは日本の昔話をテーマにした短い仮装劇を上演することにしました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q022",
+      "lessonId": "n4.l23",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "主役を務めたキムさんは普段と舞台の上でどう違っていましたか。",
+      "choices": [
+        "普段は物静かだが、舞台では堂々と演じてまるで別人のようだった",
+        "普段は賑やかだが、舞台の上では緊張して声が出なかった",
+        "途中でセリフを忘れて泣き出してしまった",
+        "最初から最後まで舞台裏に隠れていた"
+      ],
+      "answer": "普段は物静かだが、舞台では堂々と演じてまるで別人のようだった",
+      "acceptedAnswers": [
+        "普段は物静かだが、舞台では堂々と演じてまるで別人のようだった"
+      ],
+      "explanation": "Text: 普段は物静かで大人しい性格ですが、舞台の上では堂々と大きな声で演じていて、まるで別人のようでした.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q023",
+      "lessonId": "n4.l23",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "鬼の役を担当した田中君に劇の途中で何が起きましたか。",
+      "choices": [
+        "セリフを忘れてしまった",
+        "衣装が破れてしまった",
+        "ステージから転んで落ちてしまった",
+        "違う劇のセリフを言ってしまった"
+      ],
+      "answer": "セリフを忘れてしまった",
+      "acceptedAnswers": [
+        "セリフを忘れてしまった"
+      ],
+      "explanation": "Text: 鬼の役を担当した田中君がセリフを忘れてしまうハプニングがありました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q024",
+      "lessonId": "n4.l23",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "田中君のアドリブに対する観客の反応はどうでしたか。",
+      "choices": [
+        "「アドリブも台本の一部みたいで面白かった！」と大好評で大笑いした",
+        "誰も笑わず静まり返ってしまった",
+        "劇を途中でやり直すよう求められた",
+        "田中君に対して怒り出した"
+      ],
+      "answer": "「アドリブも台本の一部みたいで面白かった！」と大好評で大笑いした",
+      "acceptedAnswers": [
+        "「アドリブも台本の一部みたいで面白かった！」と大好評で大笑いした"
+      ],
+      "explanation": "Text: 客席のみんなを大笑いさせました. 観客からは「アドリブも台本の一部みたいで面白かった！」と大好評でした.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q025",
+      "lessonId": "n4.l23",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "学園祭を終えて筆者が実感したことは何ですか。",
+      "choices": [
+        "みんなで一つの目標に向かって力を合わせる素晴らしさ",
+        "劇の練習は二度とやりたくないという後悔",
+        "自分には演技の才能がないということ",
+        "来年は模擬店だけを出店したいということ"
+      ],
+      "answer": "みんなで一つの目標に向かって力を合わせる素晴らしさ",
+      "acceptedAnswers": [
+        "みんなで一つの目標に向かって力を合わせる素晴らしさ"
+      ],
+      "explanation": "Text concludes: みんなで一つの目標に向かって力を合わせる素晴らしさを実感した学園祭でした.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q026",
+      "lessonId": "n4.l23",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ユミさんが試着した赤いワンピースについて、ユミさん自身はどう心配していましたか。",
+      "choices": [
+        "ちょっと派手すぎて、モデルさんみたいに見えないか心配だった",
+        "サイズが小さすぎて着られないか心配だった",
+        "色が地味すぎないか心配だった",
+        "洗濯機で洗えないか心配だった"
+      ],
+      "answer": "ちょっと派手すぎて、モデルさんみたいに見えないか心配だった",
+      "acceptedAnswers": [
+        "ちょっと派手すぎて、モデルさんみたいに見えないか心配だった"
+      ],
+      "explanation": "Yumi asks: ちょっと派手すぎて、モデルさんみたいに見えないかな？",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q027",
+      "lessonId": "n4.l23",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "アンちゃんはユミさんの姿について何と褒めましたか。",
+      "choices": [
+        "明るい雰囲気にぴったり似合っていて、まるで雑誌の写真みたいだと褒めた",
+        "お母さんの若い頃にそっくりだと褒めた",
+        "結婚式に着ていくべきだと褒めた",
+        "黒い靴と合わせると最高だと褒めた"
+      ],
+      "answer": "明るい雰囲気にぴったり似合っていて、まるで雑誌の写真みたいだと褒めた",
+      "acceptedAnswers": [
+        "明るい雰囲気にぴったり似合っていて、まるで雑誌の写真みたいだと褒めた"
+      ],
+      "explanation": "Ann says: ユミちゃんの明るい雰囲気にぴったり似合っているよ. まるで雑誌の写真みたい.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q028",
+      "lessonId": "n4.l23",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ユミさんが購入をためらっていた理由は何ですか。",
+      "choices": [
+        "お値段が少し高かったから",
+        "赤色が好きではなかったから",
+        "丈が長すぎたから",
+        "ポケットがなかったから"
+      ],
+      "answer": "お値段が少し高かったから",
+      "acceptedAnswers": [
+        "お値段が少し高かったから"
+      ],
+      "explanation": "Yumi explains: でも、お値段が少し高くて…",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q029",
+      "lessonId": "n4.l23",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "アンちゃんが値札を見て気づいた情報は何ですか。",
+      "choices": [
+        "セール期間中のためレジで二割引きになるシールが貼ってあること",
+        "もう在庫が一着しかないこと",
+        "色違いの青いワンピースがあること",
+        "返品ができないこと"
+      ],
+      "answer": "セール期間中のためレジで二割引きになるシールが貼ってあること",
+      "acceptedAnswers": [
+        "セール期間中のためレジで二割引きになるシールが貼ってあること"
+      ],
+      "explanation": "Ann points out: セール期間中だから、レジで二割引きになるみたいだよ. 値札にシールが貼ってある！",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l23.q030",
+      "lessonId": "n4.l23",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ユミさんは最終的にどうすることにしましたか。",
+      "choices": [
+        "予算内におさまりそうなので、これに決めることにした",
+        "別の店も見に行くことにした",
+        "割引になっても高いので諦めた",
+        "アンちゃんにお金を借りることにした"
+      ],
+      "answer": "予算内におさまりそうなので、これに決めることにした",
+      "acceptedAnswers": [
+        "予算内におさまりそうなので、これに決めることにした"
+      ],
+      "explanation": "Yumi says: それなら予算内におさまりそう！これに決めるね！",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l23.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

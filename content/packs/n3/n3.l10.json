@@ -1,0 +1,1704 @@
+{
+  "id": "n3.l10",
+  "level": "N3",
+  "module": "N3 Bridging Intermediate",
+  "number": 10,
+  "title": "N3 Lesson 10: Natural Consequence & Certainty (必然・当然の帰結: 〜わけだ vs 〜わけがない)",
+  "description": "Master expressing natural logical conclusions with 〜わけだ and emphatic logical impossibilities with 〜わけがない.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l10.v001",
+      "lessonId": "n3.l10",
+      "ja": "結論",
+      "kana": "けつろん",
+      "en": "conclusion; verdict",
+      "my": "နိဂုံး/အဆုံးသတ်ကောက်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l10.s001",
+      "kanjiIds": [
+        "n3.l10.k001",
+        "n3.l10.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.v002",
+      "lessonId": "n3.l10",
+      "ja": "証拠",
+      "kana": "しょうこ",
+      "en": "evidence; proof",
+      "my": "သက်သေအထောက်အထား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l10.s002",
+      "kanjiIds": [
+        "n3.l10.k003",
+        "n3.l10.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.v003",
+      "lessonId": "n3.l10",
+      "ja": "根拠",
+      "kana": "こんきょ",
+      "en": "basis; foundation; grounds; rationale",
+      "my": "အခြေခံအကြောင်းရင်း/ခိုင်လုံသောအထောက်အထား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l10.s003",
+      "kanjiIds": [
+        "n3.l10.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.v004",
+      "lessonId": "n3.l10",
+      "ja": "当然",
+      "kana": "とうぜん",
+      "en": "natural; as a matter of course; rightly; obviously",
+      "my": "ဓမ္မတာ/သဘာဝကျစွာ",
+      "pos": "adv",
+      "exampleSentenceId": "n3.l10.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.v005",
+      "lessonId": "n3.l10",
+      "ja": "事実",
+      "kana": "じじつ",
+      "en": "fact; truth; reality",
+      "my": "အဖြစ်မှန်/အချက်အလက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l10.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.v006",
+      "lessonId": "n3.l10",
+      "ja": "複雑な",
+      "kana": "ふくざつな",
+      "en": "complex; complicated; intricate",
+      "my": "ရှုပ်ထွေးသော",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l10.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.v007",
+      "lessonId": "n3.l10",
+      "ja": "誤解",
+      "kana": "ごかい",
+      "en": "misunderstanding; miscomprehension",
+      "my": "အထင်လွဲမှားမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l10.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.v008",
+      "lessonId": "n3.l10",
+      "ja": "常識",
+      "kana": "じょうしき",
+      "en": "common sense; general knowledge",
+      "my": "အများသုံးအသိတရား/အခြေခံအသိ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l10.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.v009",
+      "lessonId": "n3.l10",
+      "ja": "理由",
+      "kana": "りゆう",
+      "en": "reason; pretext; cause",
+      "my": "အကြောင်းပြချက်/အကြောင်းရင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l10.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.v010",
+      "lessonId": "n3.l10",
+      "ja": "証明する",
+      "kana": "しょうめいする",
+      "en": "to prove; to verify; to testify",
+      "my": "သက်သေပြသည်/အတည်ပြုသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n3.l10.s010",
+      "kanjiIds": [
+        "n3.l10.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.v011",
+      "lessonId": "n3.l10",
+      "ja": "矛盾",
+      "kana": "むじゅん",
+      "en": "contradiction; inconsistency; conflict",
+      "my": "ဆန့်ကျင်ဘက်ဖြစ်မှု/ရှေ့နောက်မညီညွတ်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l10.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.v012",
+      "lessonId": "n3.l10",
+      "ja": "解決する",
+      "kana": "かいけつする",
+      "en": "to settle; to solve; to resolve",
+      "my": "ဖြေရှင်းသည်/ပြေလည်စေသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n3.l10.s012",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l10.k001",
+      "lessonId": "n3.l10",
+      "char": "結",
+      "meaning": "tie; bind; knot; join; conclude",
+      "onyomi": [
+        "ケツ"
+      ],
+      "kunyomi": [
+        "むす・ぶ",
+        "ゆ・わえる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "結論",
+          "reading": "けつろん",
+          "meaning": "conclusion",
+          "preview": true
+        },
+        {
+          "word": "結果",
+          "reading": "けっか",
+          "meaning": "result; outcome",
+          "preview": false
+        },
+        {
+          "word": "結婚",
+          "reading": "けっこん",
+          "meaning": "marriage",
+          "preview": false
+        },
+        {
+          "word": "結ぶ",
+          "reading": "むすぶ",
+          "meaning": "to tie; to connect",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l10.s001"
+      ],
+      "components": [
+        "糸",
+        "吉"
+      ],
+      "strokes": 12,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.k002",
+      "lessonId": "n3.l10",
+      "char": "論",
+      "meaning": "theory; debate; discourse; argument",
+      "onyomi": [
+        "ロン"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "結論",
+          "reading": "けつろん",
+          "meaning": "conclusion",
+          "preview": true
+        },
+        {
+          "word": "論文",
+          "reading": "ろんぶん",
+          "meaning": "thesis; essay; paper",
+          "preview": false
+        },
+        {
+          "word": "議論",
+          "reading": "ぎろん",
+          "meaning": "discussion; debate",
+          "preview": false
+        },
+        {
+          "word": "理論",
+          "reading": "りろん",
+          "meaning": "theory",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l10.s001"
+      ],
+      "components": [
+        "言",
+        "侖"
+      ],
+      "strokes": 15,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.k003",
+      "lessonId": "n3.l10",
+      "char": "証",
+      "meaning": "evidence; proof; certificate; witness",
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "証拠",
+          "reading": "しょうこ",
+          "meaning": "evidence; proof",
+          "preview": true
+        },
+        {
+          "word": "証明",
+          "reading": "しょうめい",
+          "meaning": "proof; certificate",
+          "preview": true
+        },
+        {
+          "word": "保証",
+          "reading": "ほしょう",
+          "meaning": "guarantee; warranty",
+          "preview": false
+        },
+        {
+          "word": "免許証",
+          "reading": "めんきょしょう",
+          "meaning": "license certificate",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l10.s002"
+      ],
+      "components": [
+        "言",
+        "正"
+      ],
+      "strokes": 12,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.k004",
+      "lessonId": "n3.l10",
+      "char": "拠",
+      "meaning": "foothold; based on; grounds; depend on",
+      "onyomi": [
+        "キョ",
+        "コ"
+      ],
+      "kunyomi": [
+        "よ・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "根拠",
+          "reading": "こんきょ",
+          "meaning": "basis; grounds",
+          "preview": true
+        },
+        {
+          "word": "証拠",
+          "reading": "しょうこ",
+          "meaning": "evidence; proof",
+          "preview": true
+        },
+        {
+          "word": "拠点",
+          "reading": "きょてん",
+          "meaning": "base; hub; stronghold",
+          "preview": false
+        },
+        {
+          "word": "準拠",
+          "reading": "じゅんきょ",
+          "meaning": "conforming to; based on",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l10.s003"
+      ],
+      "components": [
+        "扌",
+        "処"
+      ],
+      "strokes": 8,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l10.g001",
+      "lessonId": "n3.l10",
+      "pattern": "〜わけだ",
+      "meaning": "no wonder; it naturally follows that; it means that",
+      "formation": "[Verb plain form] + わけだ\n[い-Adj plain form] + わけだ\n[な-Adj な] + わけだ\n[Noun な / である] + わけだ",
+      "explanation": {
+        "en": "Expresses that a fact, outcome, or realization is natural, inevitable, or logically obvious once the reasons, background causes, or calculations become known (\"No wonder...\", \"So that explains why...\").",
+        "my": "အကြောင်းရင်း သို့မဟုတ် နောက်ခံအခြေအနေကို သိရှိသွားသည့်အခါ ထိုရလဒ်သည် သဘာဝကျကျ ဖြစ်ပေါ်လာရခြင်းဖြစ်သည်ဟု ကျိုးကြောင်းဆီလျော်စွာ သဘောပေါက်နားလည်သွားခြင်းကို ဖော်ပြသည် (\"...ဖြစ်နေတာ သဘာဝကျတာပေါ့/အံ့ဩစရာမရှိဘူး\")။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l10.s004",
+          "note": "No wonder it was so cold"
+        },
+        {
+          "sentenceId": "n3.l10.s008",
+          "note": "Naturally fluent after living in Japan for 10 years"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l10.g002"
+      ],
+      "commonMistakes": [
+        "Do not confuse with 〜わけではない which softens a claim (\"it doesn’t mean that...\").",
+        "な-adjective takes な before わけだ (e.g. 暇なわけだ)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.g002",
+      "lessonId": "n3.l10",
+      "pattern": "〜わけがない",
+      "meaning": "there is no way that; it is impossible that; cannot possibly be",
+      "formation": "[Verb plain form] + わけがない\n[い-Adj plain form] + わけがない\n[な-Adj な] + わけがない\n[Noun の / である] + わけがない",
+      "explanation": {
+        "en": "Emphatically negates the possibility of something occurring or being true, based on clear logical reasoning, evidence, or common sense (\"There is absolutely no reason or way that...\").",
+        "my": "ခိုင်လုံသောအကြောင်းပြချက်၊ သက်သေ သို့မဟုတ် သာမန်အသိတရားအရ ထိုကဲ့သို့ဖြစ်နိုင်ခြေ လုံးဝမရှိပါဟု ပြတ်ပြတ်သားသား အငြင်းပယ်ဖော်ပြသည် (\"...ဖြစ်နိုင်စရာ အကြောင်းလုံးဝမရှိပါ\")။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l10.s002",
+          "note": "Impossible to be guilty without evidence"
+        },
+        {
+          "sentenceId": "n3.l10.s006",
+          "note": "Impossible to finish in one day without preparation"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l10.g001"
+      ],
+      "commonMistakes": [
+        "Noun takes の (or である) before わけがない (e.g. 嘘のわけがない / 嘘であるわけがない).",
+        "This conveys strong logical conviction from speaker; avoid using it carelessly toward a superior."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l10.s001",
+      "lessonId": "n3.l10",
+      "ja": "綿密な調査と分析を重ねた結果、全員が納得できる最終的な結論に至った。",
+      "kana": "めんみつな ちょうさと ぶんせきを かさねた けっか、ぜんいんが なっとく できる さいしゅうてきな けつろんに いたった。",
+      "translation": {
+        "en": "As a result of accumulating thorough investigation and analysis, we reached a final conclusion convincing to all.",
+        "my": "စေ့စပ်သေချာသော စုံစမ်းစစ်ဆေးမှုနှင့် ခွဲခြမ်းစိတ်ဖြာမှုများကို ဆက်တိုက်ပြုလုပ်ခဲ့သည့် အကျိုးဆက်အနေဖြင့် အားလုံးသဘောတူလက်ခံနိုင်သော အဆုံးသတ်ကောက်ချက်သို့ ရောက်ရှိခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l10.v001"
+      ],
+      "grammarIds": [
+        "n3.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.s002",
+      "lessonId": "n3.l10",
+      "ja": "確実な証拠が何一つないのだから、彼が犯人であるわけがない。",
+      "kana": "かくじつな しょうこが なにひとつ ないのだから、かれが はんにんで あるわけがない。",
+      "translation": {
+        "en": "Since there is not a single piece of definitive evidence, there is no way that he is the culprit.",
+        "my": "ခိုင်လုံသော သက်သေအထောက်အထား တစ်စုံတစ်ခုမျှ မရှိသောကြောင့် သူသည် တရားခံဖြစ်နိုင်စရာ အကြောင်းလုံးဝမရှိပါ။"
+      },
+      "vocabIds": [
+        "n3.l10.v002"
+      ],
+      "grammarIds": [
+        "n3.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.s003",
+      "lessonId": "n3.l10",
+      "ja": "客観的な事実や明確な根拠を示さなければ、誰もあなたの主張を信じないだろう。",
+      "kana": "きゃっかんてきな じじつや めいかくな こんきょを しめさなければ、だれも あなたの しゅちょうを しんじないだろう。",
+      "translation": {
+        "en": "Unless you show objective facts and clear grounds, nobody will likely believe your claim.",
+        "my": "ဓမ္မဓိဋ္ဌာန်ကျသော အချက်အလက်များနှင့် ရှင်းလင်းသော အခြေခံအထောက်အထားများကို မပြသနိုင်ပါက မည်သူမျှ သင်၏ပြောဆိုချက်ကို ယုံကြည်မည်မဟုတ်ပါ။"
+      },
+      "vocabIds": [
+        "n3.l10.v003",
+        "n3.l10.v005"
+      ],
+      "grammarIds": [
+        "n3.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.s004",
+      "lessonId": "n3.l10",
+      "ja": "窓の外を見たら一面の雪景色だった。これほど部屋が冷え込んでいるわけだ。",
+      "kana": "まどの そとを みたら いちめんの ゆきげしきだった。これほど へやが ひえこんでいる わけだ。",
+      "translation": {
+        "en": "When I looked outside the window, it was a blanket of snowy scenery. No wonder the room is chilly to this extent.",
+        "my": "ပြတင်းပေါက်အပြင်ဘက်ကို ကြည့်လိုက်သောအခါ ဆီးနှင်းများ တစ်ပြင်လုံးဖုံးလွှမ်းနေသည်။ အခန်းတွင်း ဤမျှလောက် အေးစက်နေရခြင်းမှာ အံ့ဩစရာမရှိတော့ပေ။"
+      },
+      "vocabIds": [
+        "n3.l10.v004"
+      ],
+      "grammarIds": [
+        "n3.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.s005",
+      "lessonId": "n3.l10",
+      "ja": "感情的な意見を排除し、厳然たる事実に基づいて物事を判断するべきだ。",
+      "kana": "かんじょうてきな いけんを はいじょし、げんぜんたる じじつに もとづいて ものごとを はんだん するべきだ。",
+      "translation": {
+        "en": "One should eliminate emotional opinions and judge matters based strictly on indisputable facts.",
+        "my": "စိတ်ခံစားမှုဆိုင်ရာ ထင်မြင်ချက်များကို ဖယ်ထုတ်ပြီး ခိုင်မာသော အချက်အလက်အမှန်များအပေါ် အခြေခံ၍ အရာရာကို ဆုံးဖြတ်သင့်သည်။"
+      },
+      "vocabIds": [
+        "n3.l10.v005"
+      ],
+      "grammarIds": [
+        "n3.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.s006",
+      "lessonId": "n3.l10",
+      "ja": "これほど複雑で膨大な業務を、たった一人で一日で処理できるわけがない。",
+      "kana": "これほど ふくざつで ぼうだいな ぎょうむを、たった ひとりで ついたちで しょり できる わけがない。",
+      "translation": {
+        "en": "There is no way that one could process tasks so complicated and vast alone in a single day.",
+        "my": "ဤမျှလောက် ရှုပ်ထွေးပြီး ကြီးမားလှသော လုပ်ငန်းတာဝန်များကို လူတစ်ဦးတည်းဖြင့် တစ်ရက်တည်း ပြီးစီးအောင် လုပ်ဆောင်နိုင်စရာ အကြောင်းလုံးဝမရှိပါ။"
+      },
+      "vocabIds": [
+        "n3.l10.v006"
+      ],
+      "grammarIds": [
+        "n3.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.s007",
+      "lessonId": "n3.l10",
+      "ja": "お互いの言葉足らずが原因で、深刻な誤解が生じてしまった。",
+      "kana": "おたがいの ことばたらずが げんいんで、しんこくな ごかいが しょうじて しまった。",
+      "translation": {
+        "en": "Due to insufficient explanation from both sides, a serious misunderstanding arose.",
+        "my": "နှစ်ဦးနှစ်ဖက် စကားရှင်းပြမှု မလုံလောက်ခြင်းကြောင့် ဆိုးရွားသော အထင်လွဲမှားမှု ဖြစ်ပေါ်သွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l10.v007"
+      ],
+      "grammarIds": [
+        "n3.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.s008",
+      "lessonId": "n3.l10",
+      "ja": "彼は日本に10年以上住んでいるのだから、日本語が流暢に話せるわけだ。",
+      "kana": "かれは にほんに じゅうねんいじょう すんでいるのだから、にほんごが りゅうちょうに はなせる わけだ。",
+      "translation": {
+        "en": "Since he has lived in Japan for over 10 years, no wonder he can speak Japanese so fluently.",
+        "my": "သူသည် ဂျပန်နိုင်ငံတွင် ၁၀ နှစ်ကျော် နေထိုင်ခဲ့သူဖြစ်သောကြောင့် ဂျပန်စကားကို ကျွမ်းကျင်စွာ ပြောဆိုနိုင်သည်မှာ သဘာဝကျလှသည်။"
+      },
+      "vocabIds": [
+        "n3.l10.v008"
+      ],
+      "grammarIds": [
+        "n3.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.s009",
+      "lessonId": "n3.l10",
+      "ja": "正当な理由もなく約束を破るような人を、心から信頼できるわけがない。",
+      "kana": "せいとうな りゆうも なく やくそくを やぶるような ひとを、こころから しんらい できる わけがない。",
+      "translation": {
+        "en": "There is no way one could genuinely trust someone who breaks promises without any legitimate reason.",
+        "my": "ခိုင်လုံသော အကြောင်းပြချက်မရှိဘဲ ကတိဖျက်တတ်သော လူမျိုးကို နှလုံးသားထဲမှ စစ်မှန်စွာ ယုံကြည်နိုင်စရာ အကြောင်းမရှိပါ။"
+      },
+      "vocabIds": [
+        "n3.l10.v009"
+      ],
+      "grammarIds": [
+        "n3.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.s010",
+      "lessonId": "n3.l10",
+      "ja": "実験データを提示して、自分の学説が正しいことを学術論文で証明した。",
+      "kana": "じっけん でーたを ていじして、じぶんの がくせつが ただしい ことを がくじゅつろんぶんで しょうめいした。",
+      "translation": {
+        "en": "Presenting experimental data, he proved that his theory was correct in an academic thesis.",
+        "my": "လက်တွေ့စမ်းသပ်မှု ဒေတာများကို တင်ပြလျက် မိမိ၏သီအိုရီ မှန်ကန်ကြောင်းကို ပညာရပ်ဆိုင်ရာ စာတမ်းတွင် သက်သေပြခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l10.v010"
+      ],
+      "grammarIds": [
+        "n3.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.s011",
+      "lessonId": "n3.l10",
+      "ja": "彼の言っていることと実際の行動には、明らかな矛盾が見られる。",
+      "kana": "かれの いっている ことと じっさいの こうどうには、めいかくな むじゅんが みられる。",
+      "translation": {
+        "en": "Clear contradiction is observed between what he is saying and his actual actions.",
+        "my": "သူပြောနေသောအရာနှင့် သူ၏လက်တွေ့လုပ်ဆောင်ချက်ကြားတွင် ထင်ရှားသော ရှေ့နောက်မညီညွတ်မှုများကို တွေ့မြင်ရသည်။"
+      },
+      "vocabIds": [
+        "n3.l10.v011"
+      ],
+      "grammarIds": [
+        "n3.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l10.s012",
+      "lessonId": "n3.l10",
+      "ja": "複雑に絡み合った人間関係のトラブルを、話し合いによって円満に解決した。",
+      "kana": "ふくざつに からみあった にんげんかんけいの とらぶるを、はなしあいによって えんまんに かいけつした。",
+      "translation": {
+        "en": "Through discussion, we amicably resolved the intricately entangled human relationship trouble.",
+        "my": "ရှုပ်ထွေးစွာ ရောထွေးနေသော လူမှုဆက်ဆံရေး ပြဿနာများကို တွေ့ဆုံဆွေးနွေးခြင်းအားဖြင့် သာယာချောမွေ့စွာ ဖြေရှင်းနိုင်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l10.v012"
+      ],
+      "grammarIds": [
+        "n3.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l10.r01",
+    "lessonId": "n3.l10",
+    "title": "情報過多社会における論理的思考と根拠の重要性 (Logical Thinking & Importance of Evidence in Information-Dense Society)",
+    "level": "N3",
+    "text": "インターネットやSNSの普及により、私たちは日々膨大な情報に囲まれて暮らしています。しかし、ネット上に流れている情報すべてが真実であるわけではありません。根拠のない噂や偏った主観が、あたかも確定した事実であるかのように拡散されるケースも後を絶ちません。\n\n論理的な思考を持つ人は、「誰が言ったか」ではなく「客観的な証拠やデータに基づいているか」を常に確認します。前提となる事実が間違っていれば、いくら言葉を飾っても導き出される結論が正しくなるわけがないからです。感情的な主張や偏見に流されず、冷静に根拠を精査する姿勢が求められます。\n\n情報発信者の意図や背景を分析し、「なぜその結論に至ったのか」という筋道を理解できたとき、初めて「なるほど、そういうわけか」と納得することができます。批判的な視点を持ちつつ真実を見抜く力を養うことこそが、現代の情報社会を賢く生き抜くための必須の常識なのです。",
+    "kanaText": "いんたーねっとや えすえぬえすの ふきゅうにより、わたしたちは ひび ぼうだいな じょうほうに かこまれて くらしています。しかし、ねっとじょうに ながれている じょうほう すべてが しんじつで あるわけでは ありません。こんきょの ない うわさや かたよった しゅかんが、あたかも かくていした じじつで あるかの ように かくさんされる けーすも あとを たちません。\n\nろんりてきな しこうを もつ ひとは、「だれが いったか」ではなく「きゃっかんてきな しょうこや でーたに もとづいているか」を つねに かくにんします。ぜんていと なる じじつが まちがっていれば、いくら ことばを かざっても みちびきだされる けつろんが ただしく なるわけがないからです。かんじょうてきな しゅちょうや へんけんに ながされず、れいせいに こんきょを せいさする しせいが もとめられます。\n\nじょうほうはっしんしゃの いとや はいけいを ぶんせきし、「なぜ その けつろんに いたったのか」という すじみちを りかいできた とき、はじめて「なるほど、そういう わけか」と なっとくする ことが できます。ひはんてきな してんを もちつつ しんじつを みぬく ちからを やしなう ことこそが、げんだいの じょうほうしゃかいを かしこく いきぬく ための ひっすの じょうしきなのです。",
+    "translation": "With the proliferation of the Internet and SNS, we live daily surrounded by vast information. However, it does not mean that all information flowing online is truth. Cases where unfounded rumors and biased subjectivities are diffused as though they were established facts never cease.\n\nPersons possessing logical thinking always confirm \"whether it is based on objective evidence or data\" rather than \"who said it.\" This is because if the premise fact is mistaken, no matter how much one decorates words, there is no way that the derived conclusion could be correct. A stance of calmly scrutinizing grounds without being swept away by emotional claims or prejudices is required.\n\nWhen one can analyze the sender's intentions and background and comprehend the thread of \"why they arrived at that conclusion,\" for the first time one can be convinced: \"I see, so that's why!\" Cultivating the ability to see through to the truth while maintaining a critical perspective is precisely the indispensable common sense for wisely surviving modern information society.",
+    "questionIds": [
+      "n3.l10.q025",
+      "n3.l10.q026",
+      "n3.l10.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l10.l01",
+    "lessonId": "n3.l10",
+    "title": "プロジェクトの成果分析と売上急増の理由 (Project Outcome Analysis & Reasons for Rapid Sales Surge)",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "課長（渡辺）",
+      "主任（坂本）"
+    ],
+    "transcript": "渡辺：坂本くん、先月発売した新アプリの売上データを見たよ。前年同期比で3倍以上も伸びているね。\n坂本：はい！若者層を中心に口コミが爆発的に広がり、驚異的なダウンロード数を記録しています。\n渡辺：なるほど。事前のユーザー調査を徹底して行い、顧客の不満点を全て改善したんだものね。これだけ評価されるわけだ。\n坂本：ありがとうございます。一部からは「単なる偶然のブームではないか」という声もありましたが、あれだけ綿密にデータを分析したのですから、偶然のわけがありません。\n渡辺：まさにその通りだね。客観的な根拠に基づいた努力は裏切らないという証拠だよ。\n坂本：この成功の要因をさらに分析して、次回のアップデートにも確実に活かしていきたいと思います。",
+    "translation": "Watanabe: Sakamoto-kun, I looked at the sales data of the new application released last month. It has grown by over 3 times compared to the same period last year.\nSakamoto: Yes! Word-of-mouth spread explosively centered on the youth demographic, recording phenomenal downloads.\nWatanabe: I see. You thoroughly conducted preliminary user research and improved all customer dissatisfaction points. No wonder it is appreciated this much!\nSakamoto: Thank you very much. Although some voiced skepticism asking \"isn't it just a coincidental boom?\", since we analyzed data that meticulously, there is no way it is a coincidence.\nWatanabe: Exactly so. It is proof that efforts based on objective grounds never betray.\nSakamoto: I would like to further analyze the factors of this success and definitely leverage them for the next update.",
+    "turns": [],
+    "questionIds": [
+      "n3.l10.q028",
+      "n3.l10.q029",
+      "n3.l10.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l10.q001",
+      "lessonId": "n3.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「結論」の正しい読み方を選んでください。",
+      "choices": [
+        "けつろん",
+        "けつりん",
+        "けちろん",
+        "けつぼん"
+      ],
+      "answer": "けつろん",
+      "acceptedAnswers": [
+        "けつろん"
+      ],
+      "explanation": "「結論」は「けつろん」と読みます。議論や思考の末の最終的判断を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q002",
+      "lessonId": "n3.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な言葉を選んでください。\n「裁判官は提出された決定的な（　　）に基づいて判決を下した。」",
+      "choices": [
+        "証拠",
+        "誤解",
+        "常識",
+        "矛盾"
+      ],
+      "answer": "証拠",
+      "acceptedAnswers": [
+        "証拠"
+      ],
+      "explanation": "事実を証明するための根拠・手がかりを「証拠（しょうこ）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q003",
+      "lessonId": "n3.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「根拠」のミャンマー語の意味として正しいものを選んでください。",
+      "choices": [
+        "အခြေခံအကြောင်းရင်း/ခိုင်လုံသောအထောက်အထား",
+        "အဆုံးသတ်ကောက်ချက်",
+        "အထင်လွဲမှားမှု",
+        "အများသုံးအသိတရား"
+      ],
+      "answer": "အခြေခံအကြောင်းရင်း/ခိုင်လုံသောအထောက်အထား",
+      "acceptedAnswers": [
+        "အခြေခံအကြောင်းရင်း/ခိုင်လုံသောအထောက်အထား"
+      ],
+      "explanation": "「根拠（こんきょ）」はミャンマー語で အခြေခံအကြောင်းရင်း/ခိုင်လုံသောအထောက်အထား (basis, grounds) を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q004",
+      "lessonId": "n3.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「当然」の意味として最も適切な説明を選んでください。",
+      "choices": [
+        "道理から考えて当たり前であること・そうあるべきこと",
+        "突然予期せぬ事故が起きること",
+        "誰も信じられないような奇跡が起こること",
+        "他人の意見に無理やり従うこと"
+      ],
+      "answer": "道理から考えて当たり前であること・そうあるべきこと",
+      "acceptedAnswers": [
+        "道理から考えて当たり前であること・そうあるべきこと"
+      ],
+      "explanation": "「当然（とうぜん）」は、道理からみてそうなるのが当たり前であることを表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q005",
+      "lessonId": "n3.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な言葉を選んでください。\n「噂話に惑わされず、ありのままの（　　）を見極めることが肝要だ。」",
+      "choices": [
+        "事実",
+        "誤解",
+        "矛盾",
+        "結論"
+      ],
+      "answer": "事実",
+      "acceptedAnswers": [
+        "事実"
+      ],
+      "explanation": "実際に起こったありのままの真実を「事実（じじつ）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q006",
+      "lessonId": "n3.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「誤解」の正しい読み方を選んでください。",
+      "choices": [
+        "ごかい",
+        "ごげ",
+        "ごかいけつ",
+        "ぎょかい"
+      ],
+      "answer": "ごかい",
+      "acceptedAnswers": [
+        "ごかい"
+      ],
+      "explanation": "「誤解」は「ごかい」と読みます。意味や意図を取り違えることを指します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q007",
+      "lessonId": "n3.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な言葉を選んでください。\n「公の場で大声を出すのは、社会人としての（　　）に欠ける行為だ。」",
+      "choices": [
+        "常識",
+        "証拠",
+        "根拠",
+        "結論"
+      ],
+      "answer": "常識",
+      "acceptedAnswers": [
+        "常識"
+      ],
+      "explanation": "社会一般で広く認められている分別や知識を「常識（じょうしき）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q008",
+      "lessonId": "n3.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「矛盾」の使い方として最も自然なものを選んでください。",
+      "choices": [
+        "彼の話は前半と後半で内容が矛盾している。",
+        "明日までに矛盾を完成させて提出する。",
+        "矛盾を飲んだら風邪がすっかり治った。",
+        "電車の矛盾が混雑していて乗れなかった。"
+      ],
+      "answer": "彼の話は前半と後半で内容が矛盾している。",
+      "acceptedAnswers": [
+        "彼の話は前半と後半で内容が矛盾している。"
+      ],
+      "explanation": "「矛盾（むじゅん）する」は、二つの事柄のつじつまが合わず食い違っていることを表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q009",
+      "lessonId": "n3.l10",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の読み方を選んでください。\n「靴のひもをしっかりと<u>結</u>ぶ。」",
+      "choices": [
+        "むす",
+        "ゆわ",
+        "つな",
+        "たば"
+      ],
+      "answer": "むす",
+      "acceptedAnswers": [
+        "むす"
+      ],
+      "explanation": "「結ぶ」は訓読みで「むすぶ」と読みます。音読みは「ケツ」（結婚、結論など）です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q010",
+      "lessonId": "n3.l10",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「論」という漢字の部首として正しいものを選んでください。",
+      "choices": [
+        "言（ごんべん）",
+        "人（ひと・にんべん）",
+        "車（くるまへん）",
+        "心（こころ）"
+      ],
+      "answer": "言（ごんべん）",
+      "acceptedAnswers": [
+        "言（ごんべん）"
+      ],
+      "explanation": "「論」の部首は「言（ごんべん）」で、言葉による議論や言説を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q011",
+      "lessonId": "n3.l10",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の読み方を選んでください。\n「身分を<u>証</u>明できる書類を持参してください。」",
+      "choices": [
+        "しょう",
+        "じょう",
+        "そう",
+        "ちょう"
+      ],
+      "answer": "しょう",
+      "acceptedAnswers": [
+        "しょう"
+      ],
+      "explanation": "「証明」は「しょうめい」と読みます。「証」の音読みは「ショウ」です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q012",
+      "lessonId": "n3.l10",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「拠」という漢字の総画数として正しいものを選んでください。",
+      "choices": [
+        "8画",
+        "7画",
+        "9画",
+        "10画"
+      ],
+      "answer": "8画",
+      "acceptedAnswers": [
+        "8画"
+      ],
+      "explanation": "「拠」は扌（3画）＋ 処（5画）で、合計8画です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q013",
+      "lessonId": "n3.l10",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「議論（ぎろん）」の漢字表記として正しいものを選んでください。",
+      "choices": [
+        "議論",
+        "義論",
+        "議輪",
+        "儀輪"
+      ],
+      "answer": "議論",
+      "acceptedAnswers": [
+        "議論"
+      ],
+      "explanation": "互いの意見を述べ合って論じ合うことは「議論（ぎろん）」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q014",
+      "lessonId": "n3.l10",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「保証（ほしょう）」の「証」の部首として正しいものを選んでください。",
+      "choices": [
+        "言（ごんべん）",
+        "止（とめる）",
+        "正（ただしい）",
+        "亻（にんべん）"
+      ],
+      "answer": "言（ごんべん）",
+      "acceptedAnswers": [
+        "言（ごんべん）"
+      ],
+      "explanation": "「証」の部首は偏（へん）である「言（ごんべん）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q015",
+      "lessonId": "n3.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な文法形式を選んでください。\n「昨日からエアコンが故障しているそうだ。部屋の中が蒸し風呂のように暑い（　　）。」",
+      "choices": [
+        "わけだ",
+        "わけがない",
+        "がちだ",
+        "気味だ"
+      ],
+      "answer": "わけだ",
+      "acceptedAnswers": [
+        "わけだ"
+      ],
+      "explanation": "エアコン故障という理由を知り、「だからこんなに暑いのか！（当然の帰結・納得）」と理解しているため「わけだ」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q016",
+      "lessonId": "n3.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な文法形式を選んでください。\n「彼は真面目で嘘をつかない人だから、約束を破る（　　）。」",
+      "choices": [
+        "わけがない",
+        "わけだ",
+        "限りに",
+        "つつある"
+      ],
+      "answer": "わけがない",
+      "acceptedAnswers": [
+        "わけがない"
+      ],
+      "explanation": "彼の真面目な性格という確たる根拠から、「約束を破るはずがない（強い論理的否定）」と確信しているため「わけがない」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q017",
+      "lessonId": "n3.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜わけだ」の用法として最も適切な説明を選んでください。",
+      "choices": [
+        "理由や背景を知って、結果として生じている事態が当然だと論理的に納得・理解する表現。",
+        "過去の自分の軽率な行動を激しく後悔して謝罪する表現。",
+        "相手の提案を全面的に否定して拒絶する表現。",
+        "将来の予測が全く立たずに困惑していることを表す表現。"
+      ],
+      "answer": "理由や背景を知って、結果として生じている事態が当然だと論理的に納得・理解する表現。",
+      "acceptedAnswers": [
+        "理由や背景を知って、結果として生じている事態が当然だと論理的に納得・理解する表現。"
+      ],
+      "explanation": "「〜わけだ」は、「なるほど、そういう理由だからこの結果になるのも当然だ」と因果関係を論理的に納得する表現です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q018",
+      "lessonId": "n3.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な接続形式を選んでください。\n「彼女は毎晩遅くまで猛勉強していたのだから、試験に（　　）わけだ。」",
+      "choices": [
+        "合格した",
+        "合格して",
+        "合格しよう",
+        "合格するなら"
+      ],
+      "answer": "合格した",
+      "acceptedAnswers": [
+        "合格した"
+      ],
+      "explanation": "普通形過去形「合格した」＋「わけだ」で、「合格したのも当然だ（納得）」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q019",
+      "lessonId": "n3.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "名詞に「わけがない」が接続するときの正しい形を選んでください。",
+      "choices": [
+        "嘘のわけがない",
+        "嘘なわけがない",
+        "嘘だわけがない",
+        "嘘にわけがない"
+      ],
+      "answer": "嘘のわけがない",
+      "acceptedAnswers": [
+        "嘘のわけがない"
+      ],
+      "explanation": "名詞に接続する場合は「名詞 ＋ の（または である） ＋ わけがない」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q020",
+      "lessonId": "n3.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な助詞・接続を選んでください。\n「普段から全く練習していないのだから、上手に（　　）わけがない。」",
+      "choices": [
+        "できる",
+        "できて",
+        "できたら",
+        "できよう"
+      ],
+      "answer": "できる",
+      "acceptedAnswers": [
+        "できる"
+      ],
+      "explanation": "動詞可能形辞書形「できる」＋「わけがない」で、「上手にできるはずがない」という意味になります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q021",
+      "lessonId": "n3.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜わけではない」と「〜わけがない」の違いとして正しい説明を選んでください。",
+      "choices": [
+        "「〜わけではない」は部分否定（必ずしも〜とは限らない）を表し、「〜わけがない」は強い全否定（絶対にあり得ない）を表す。",
+        "「〜わけではない」は強い全否定を表し、「〜わけがない」は肯定を表す。",
+        "両者は全く同じ意味で使い分けの基準はない。",
+        "「〜わけではない」は過去にのみ使い、「〜わけがない」は未来にのみ使う。"
+      ],
+      "answer": "「〜わけではない」は部分否定（必ずしも〜とは限らない）を表し、「〜わけがない」は強い全否定（絶対にあり得ない）を表す。",
+      "acceptedAnswers": [
+        "「〜わけではない」は部分否定（必ずしも〜とは限らない）を表し、「〜わけがない」は強い全否定（絶対にあり得ない）を表す。"
+      ],
+      "explanation": "「嫌いなわけではない（必ずしも嫌いというわけではない）」＝部分否定、「嫌いなわけがない（嫌いなはずが絶対にない）」＝強い全否定です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q022",
+      "lessonId": "n3.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "な形容詞に「わけだ」が接続するときの正しい形を選んでください。\n「これほど安い給料では、誰も応募に（　　）わけだ。」",
+      "choices": [
+        "来ない",
+        "来なかったら",
+        "来て",
+        "来よう"
+      ],
+      "answer": "来ない",
+      "acceptedAnswers": [
+        "来ない"
+      ],
+      "explanation": "動詞ない形「来ない」＋「わけだ」で、「誰も応募に来ないのも無理はない（当然だ）」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q023",
+      "lessonId": "n3.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「一日中何も食べずに歩き回っていたのだから、お腹が（　　）わけだ。」",
+      "choices": [
+        "空く",
+        "空いた",
+        "空いて",
+        "空こう"
+      ],
+      "answer": "空く",
+      "acceptedAnswers": [
+        "空く"
+      ],
+      "explanation": "動詞辞書形「空く」＋「わけだ」で、「お腹が空くのも当然だ」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q024",
+      "lessonId": "n3.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「そんな高価な指輪を、学生が簡単に（　　）わけがない。」",
+      "choices": [
+        "買える",
+        "買って",
+        "買ったら",
+        "買おう"
+      ],
+      "answer": "買える",
+      "acceptedAnswers": [
+        "買える"
+      ],
+      "explanation": "「買えるわけがない（買えるはずが絶対にない）」と論理的に強く否定します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q025",
+      "lessonId": "n3.l10",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "本文によると、論理的な思考を持つ人が情報を判断する際に常に確認することは何ですか。",
+      "choices": [
+        "誰が言ったかではなく、客観的な証拠やデータに基づいているかどうか。",
+        "SNSでどれだけ多くの人にリツイートされているかどうか。",
+        "発言者が有名なインフルエンサーであるかどうか。",
+        "自分が読んでいて楽しい気持ちになれるかどうか。"
+      ],
+      "answer": "誰が言ったかではなく、客観的な証拠やデータに基づいているかどうか。",
+      "acceptedAnswers": [
+        "誰が言ったかではなく、客観的な証拠やデータに基づいているかどうか。"
+      ],
+      "explanation": "第2段落に「論理的な思考を持つ人は、『誰が言ったか』ではなく『客観的な証拠やデータに基づいているか』を常に確認します」と明記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q026",
+      "lessonId": "n3.l10",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "本文で「導き出される結論が正しくなるわけがない」理由として挙げられているのは何ですか。",
+      "choices": [
+        "前提となる事実が間違っていれば、いくら言葉を飾っても正しくはならないから。",
+        "インターネットの情報はすべて嘘で固められているから。",
+        "コンピューターが故障して計算ミスをするから。",
+        "読者の読解力が不足しているから。"
+      ],
+      "answer": "前提となる事実が間違っていれば、いくら言葉を飾っても正しくはならないから。",
+      "acceptedAnswers": [
+        "前提となる事実が間違っていれば、いくら言葉を飾っても正しくはならないから。"
+      ],
+      "explanation": "第2段落に「前提となる事実が間違っていれば、いくら言葉を飾っても導き出される結論が正しくなるわけがないからです」と記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q027",
+      "lessonId": "n3.l10",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者が述べる、現代の情報社会を賢く生き抜くための「必須の常識」とは何ですか。",
+      "choices": [
+        "批判的な視点を持ちつつ、真実を見抜く力を養うこと。",
+        "インターネットの利用を完全にやめて生活すること。",
+        "流れてくる情報をすべて無条件に信じること。",
+        "自分だけの思い込みをネット上に毎日投稿すること。"
+      ],
+      "answer": "批判的な視点を持ちつつ、真実を見抜く力を養うこと。",
+      "acceptedAnswers": [
+        "批判的な視点を持ちつつ、真実を見抜く力を養うこと。"
+      ],
+      "explanation": "最終文に「批判的な視点を持ちつつ真実を見抜く力を養うことこそが、現代の情報社会を賢く生き抜くための必須の常識なのです」とあります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q028",
+      "lessonId": "n3.l10",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "新アプリの売上データについて、渡辺課長は何と述べていますか。",
+      "choices": [
+        "前年同期比で3倍以上も伸びている。",
+        "前年より半分以下に落ち込んでいる。",
+        "全く売れておらず赤字になっている。",
+        "データが消失して分析できない。"
+      ],
+      "answer": "前年同期比で3倍以上も伸びている。",
+      "acceptedAnswers": [
+        "前年同期比で3倍以上も伸びている。"
+      ],
+      "explanation": "渡辺課長は「先月発売した新アプリの売上データを見たよ。前年同期比で3倍以上も伸びているね」と評価しています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q029",
+      "lessonId": "n3.l10",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "渡辺課長が「これだけ評価されるわけだ」と納得した理由はどれですか。",
+      "choices": [
+        "事前のユーザー調査を徹底して行い、顧客の不満点を全て改善したから。",
+        "テレビCMに莫大な広告宣伝費を投じたから。",
+        "アプリを完全に無料で配り続けたから。",
+        "競合他社がすべて倒産したから。"
+      ],
+      "answer": "事前のユーザー調査を徹底して行い、顧客の不満点を全て改善したから。",
+      "acceptedAnswers": [
+        "事前のユーザー調査を徹底して行い、顧客の不満点を全て改善したから。"
+      ],
+      "explanation": "渡辺課長は「事前のユーザー調査を徹底して行い、顧客の不満点を全て改善したんだものね。これだけ評価されるわけだ」と述べています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l10.q030",
+      "lessonId": "n3.l10",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "「単なる偶然のブームではないか」という声に対して、坂本主任は何と主張しましたか。",
+      "choices": [
+        "あれだけ綿密にデータを分析したのだから、偶然のわけがない。",
+        "確かに運が良かっただけの偶然だと思う。",
+        "神様のお祈りが通じた結果だ。",
+        "来月には売上がゼロになるかもしれない。"
+      ],
+      "answer": "あれだけ綿密にデータを分析したのだから、偶然のわけがない。",
+      "acceptedAnswers": [
+        "あれだけ綿密にデータを分析したのだから、偶然のわけがない。"
+      ],
+      "explanation": "坂本主任は「あれだけ綿密にデータを分析したのですから、偶然のわけがありません」と胸を張って答えています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l10.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

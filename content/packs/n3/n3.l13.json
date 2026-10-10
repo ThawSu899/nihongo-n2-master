@@ -1,0 +1,1594 @@
+{
+  "id": "n3.l13",
+  "level": "N3",
+  "module": "N3 Bridging Intermediate",
+  "number": 13,
+  "title": "N3 Lesson 13: N3 Formal Announcements & Long Passages",
+  "description": "Master formal public notices, municipal announcements, and expository prose, focusing on commencement points (〜に際して / 〜にあたって) and catalytic events (〜を契機に / 〜をきっかけに).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l13.v001",
+      "lessonId": "n3.l13",
+      "ja": "開催",
+      "kana": "かいさい",
+      "en": "holding (a meeting, exhibition, event); hosting",
+      "my": "ကျင်းပခြင်း/ပြုလုပ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l13.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.v002",
+      "lessonId": "n3.l13",
+      "ja": "案内",
+      "kana": "あんない",
+      "en": "guidance; notice; invitation; information",
+      "my": "လမ်းညွှန်ချက်/အသိပေးချက်/ဖိတ်ခေါ်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l13.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.v003",
+      "lessonId": "n3.l13",
+      "ja": "契機",
+      "kana": "けいき",
+      "en": "opportunity; chance; turning point; impetus",
+      "my": "အခွင့်အရေး/အချိုးအကွေ့/အစပျိုးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l13.s003",
+      "kanjiIds": [
+        "n3.l13.k002",
+        "n3.l13.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.v004",
+      "lessonId": "n3.l13",
+      "ja": "導入",
+      "kana": "どうにゅう",
+      "en": "introduction; installation; bringing in (systems, technology)",
+      "my": "စတင်မိတ်ဆက်အသုံးပြုခြင်း/ထည့်သွင်းအသုံးချခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l13.s004",
+      "kanjiIds": [
+        "n3.l13.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.v005",
+      "lessonId": "n3.l13",
+      "ja": "施設",
+      "kana": "しせつ",
+      "en": "institution; establishment; facility",
+      "my": "အဆောက်အအုံ/ဌာန/အသုံးအဆောင်အဖွဲ့အစည်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l13.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.v006",
+      "lessonId": "n3.l13",
+      "ja": "利用",
+      "kana": "りよう",
+      "en": "use; utilization; application",
+      "my": "အသုံးပြုခြင်း/အကျိုးရှိစွာသုံးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l13.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.v007",
+      "lessonId": "n3.l13",
+      "ja": "記念",
+      "kana": "きねん",
+      "en": "commemoration; memory; anniversary",
+      "my": "အထိမ်းအမှတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l13.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.v008",
+      "lessonId": "n3.l13",
+      "ja": "開館",
+      "kana": "かいかん",
+      "en": "opening of a hall, museum, or library",
+      "my": "ပြတိုက်/စာကြည့်တိုက်/ခန်းမ ဖွင့်လှစ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l13.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.v009",
+      "lessonId": "n3.l13",
+      "ja": "注意事項",
+      "kana": "ちゅういじこう",
+      "en": "cautions; points to note; guidelines",
+      "my": "သတိပြုရန်အချက်များ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l13.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.v010",
+      "lessonId": "n3.l13",
+      "ja": "手続き",
+      "kana": "てつづき",
+      "en": "procedure; formalities; process",
+      "my": "လုပ်ထုံးလုပ်နည်း/စာရွက်စာတမ်းလုပ်ငန်းစဉ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l13.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.v011",
+      "lessonId": "n3.l13",
+      "ja": "実施",
+      "kana": "じっし",
+      "en": "enforcement; implementation; carrying out",
+      "my": "အကောင်အထည်ဖော်ခြင်း/လက်တွေ့ကျင့်သုံးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l13.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.v012",
+      "lessonId": "n3.l13",
+      "ja": "変更",
+      "kana": "へんこう",
+      "en": "change; modification; alteration",
+      "my": "ပြောင်းလဲခြင်း/ပြင်ဆင်သတ်မှတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l13.s012",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l13.k001",
+      "lessonId": "n3.l13",
+      "char": "際",
+      "meaning": "occasion, time, edge, border",
+      "onyomi": [
+        "サイ"
+      ],
+      "kunyomi": [
+        "きわ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "実際",
+          "reading": "じっさい",
+          "meaning": "practical, actual",
+          "preview": false
+        },
+        {
+          "word": "国際",
+          "reading": "こくさい",
+          "meaning": "international",
+          "preview": false
+        },
+        {
+          "word": "交際",
+          "reading": "こうさい",
+          "meaning": "association, dating",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l13.s001"
+      ],
+      "components": [],
+      "strokes": 14,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.k002",
+      "lessonId": "n3.l13",
+      "char": "契",
+      "meaning": "pledge, promise, contract",
+      "onyomi": [
+        "ケイ"
+      ],
+      "kunyomi": [
+        "ちぎ・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "契約",
+          "reading": "けいやく",
+          "meaning": "contract, agreement",
+          "preview": false
+        },
+        {
+          "word": "契機",
+          "reading": "けいき",
+          "meaning": "opportunity, turning point",
+          "preview": false
+        },
+        {
+          "word": "契る",
+          "reading": "ちぎる",
+          "meaning": "to pledge, to vow",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l13.s003"
+      ],
+      "components": [],
+      "strokes": 9,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.k003",
+      "lessonId": "n3.l13",
+      "char": "機",
+      "meaning": "machine, opportunity, aircraft",
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [
+        "はた"
+      ],
+      "exampleVocab": [
+        {
+          "word": "機会",
+          "reading": "きかい",
+          "meaning": "chance, opportunity",
+          "preview": false
+        },
+        {
+          "word": "機能",
+          "reading": "きのう",
+          "meaning": "function, feature",
+          "preview": false
+        },
+        {
+          "word": "危機",
+          "reading": "きき",
+          "meaning": "crisis, pinch",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l13.s003"
+      ],
+      "components": [],
+      "strokes": 16,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.k004",
+      "lessonId": "n3.l13",
+      "char": "導",
+      "meaning": "guide, lead, conduct",
+      "onyomi": [
+        "ドウ"
+      ],
+      "kunyomi": [
+        "みちび・く"
+      ],
+      "exampleVocab": [
+        {
+          "word": "導入",
+          "reading": "どうにゅう",
+          "meaning": "introduction, bringing in",
+          "preview": false
+        },
+        {
+          "word": "指導",
+          "reading": "しどう",
+          "meaning": "guidance, coaching",
+          "preview": false
+        },
+        {
+          "word": "導く",
+          "reading": "みちびく",
+          "meaning": "to guide, to lead",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l13.s004"
+      ],
+      "components": [],
+      "strokes": 15,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l13.g001",
+      "lessonId": "n3.l13",
+      "pattern": "〜に際して / 〜にあたって",
+      "meaning": "on the occasion of; at the time of formal commencement; prior to",
+      "formation": "[Noun] / [Verb dictionary form] + に際して / にあたって",
+      "explanation": {
+        "en": "A highly formal expression used in speeches, announcements, contracts, and ceremonies to indicate preparations or instructions at the critical threshold of a significant new event or milestone.",
+        "my": "အရေးကြီးသောအခမ်းအနား (သို့) စာချုပ်စတင်ချိန်တွင် လမ်းညွှန်ချက်၊ ကြိုတင်ပြင်ဆင်မှုများကို ဖော်ပြရာ၌ အလွန်ယဉ်ကျေးတရားဝင်သော စကားလုံးအဖြစ် သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l13.s001",
+          "note": "Guidelines for participants upon opening the international forum."
+        },
+        {
+          "sentenceId": "n3.l13.s002",
+          "note": "Notice of cautions on the occasion of facility usage."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.g002",
+      "lessonId": "n3.l13",
+      "pattern": "〜を契機に / 〜をきっかけに",
+      "meaning": "taking the opportunity of; triggered by; as a turning point",
+      "formation": "[Noun] + を契機に / をきっかけに",
+      "explanation": {
+        "en": "Expresses that a specific past event, celebration, or historical crisis served as the direct catalyst or motivation for substantial subsequent transformation or development.",
+        "my": "အတိတ်ကအဖြစ်အပျက်တစ်ခုခုကို အစပျိုးအခွင့်အလမ်းအဖြစ်ယူ၍ အပြောင်းအလဲသစ်တစ်ခုခုကို စတင်ဆောင်ရွက်ခဲ့ကြောင်း ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l13.s003",
+          "note": "Taking the anniversary as a turning point, new digital tools were adopted."
+        },
+        {
+          "sentenceId": "n3.l13.s004",
+          "note": "Taking the introduction of the automated checkout system as a turning point to speed up book loans."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l13.s001",
+      "lessonId": "n3.l13",
+      "ja": "国際フォーラムの開催に際して、世界各国から著名な専門家が集まった。",
+      "kana": "こくさいフォーラムの かいさいにさいして、せかいかっこくから ちょめいな せんもんかが あつまった。",
+      "translation": {
+        "en": "On the occasion of holding the international forum, renowned experts gathered from around the world.",
+        "my": "နိုင်ငံတကာဖိုရမ်ကျင်းပချိန်တွင် ကမ္ဘာတစ်ဝန်းမှ ထင်ရှားသောပညာရှင်များ စုဝေးခဲ့ကြသည်။"
+      },
+      "vocabIds": [
+        "n3.l13.v001"
+      ],
+      "grammarIds": [
+        "n3.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.s002",
+      "lessonId": "n3.l13",
+      "ja": "新施設のご利用にあたって、係員から利用規約のご案内を差し上げます。",
+      "kana": "しんしせつの ごりようにあたって、かかりいんから りようきやくの ごあんないを さしあげます。",
+      "translation": {
+        "en": "Prior to utilizing the new facility, our staff will provide guidance on terms of use.",
+        "my": "အဆောက်အအုံသစ်ကို စတင်အသုံးမပြုမီ တာဝန်ရှိသူမှ အသုံးပြုမှုစည်းမျဉ်းများကို လမ်းညွှန်ရှင်းပြပါမည်။"
+      },
+      "vocabIds": [
+        "n3.l13.v002"
+      ],
+      "grammarIds": [
+        "n3.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.s003",
+      "lessonId": "n3.l13",
+      "ja": "市制施行五十周年を契機に、市役所のデジタル化プロジェクトが始まった。",
+      "kana": "しせいしこう ごじゅっしゅうねんを けいきに、しやくしょの デジタルか プロジェクトが はじまった。",
+      "translation": {
+        "en": "Taking the 50th anniversary of municipal administration as an impetus, the city hall digitalization project began.",
+        "my": "မြို့နယ်တည်ထောင်မှု နှစ် ၅၀ ပြည့် အထိမ်းအမှတ်ကို အခွင့်ကောင်းယူ၍ မြို့တော်ခန်းမ ဒီဂျစ်တယ်စနစ်ကူးပြောင်းရေးစီမံကိန်း စတင်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l13.v003"
+      ],
+      "grammarIds": [
+        "n3.l13.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.s004",
+      "lessonId": "n3.l13",
+      "ja": "最新の自動貸出システムの導入を契機に、図書の貸出手続きが大幅に迅速化した。",
+      "kana": "さいしんの じどうかしだしシステムの どうにゅうを けいきに、としょの かしだしてつづきが おおはばに じんそく化した。",
+      "translation": {
+        "en": "Taking the introduction of the latest automated checkout system as a turning point, book loan procedures sped up significantly.",
+        "my": "နောက်ဆုံးပေါ် အလိုအလျောက်စာအုပ်ငှားစနစ်ကို ထည့်သွင်းမိတ်ဆက်ခြင်းကို အလှည့်အပြောင်းအခွင့်အလမ်းအဖြစ် အသုံးချပြီး စာအုပ်ငှားရမ်းမှုလုပ်ငန်းစဉ်များ သိသိသာသာ မြန်ဆန်လာခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l13.v004"
+      ],
+      "grammarIds": [
+        "n3.l13.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.s005",
+      "lessonId": "n3.l13",
+      "ja": "本館は市民の生涯学習を支えるための総合文化施設として設立されました。",
+      "kana": "ほんかんは しみんの しょうがいがくしゅうを ささえるための そうごうぶんかしせつとして せつりつされました。",
+      "translation": {
+        "en": "This center was established as an integrated cultural facility to support lifelong learning for citizens.",
+        "my": "ဤခန်းမသည် မြို့သူမြို့သားများ၏ တစ်သက်တာသင်ယူမှုကို အထောက်အကူပြုရန် ဘက်စုံယဉ်ကျေးမှုဌာနတစ်ခုအဖြစ် တည်ထောင်ခဲ့ခြင်းဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l13.v005"
+      ],
+      "grammarIds": [
+        "n3.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.s006",
+      "lessonId": "n3.l13",
+      "ja": "休日に公共の図書館を利用する市民の数が年々増加している。",
+      "kana": "きゅうじつに こうきょうの としょかんを りようする しみんの かずが ねんねん ぞうかしている。",
+      "translation": {
+        "en": "The number of citizens using the public library on holidays is increasing year by year.",
+        "my": "အားလပ်ရက်များတွင် အများပြည်သူဆိုင်ရာ စာကြည့်တိုက်ကို အသုံးပြုသော နိုင်ငံသားအရေအတွက်မှာ တစ်နှစ်ထက်တစ်နှစ် တိုးပွားလာနေသည်။"
+      },
+      "vocabIds": [
+        "n3.l13.v006"
+      ],
+      "grammarIds": [
+        "n3.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.s007",
+      "lessonId": "n3.l13",
+      "ja": "新美術館の開館を記念して、特別展覧会が開催されることになった。",
+      "kana": "しんびじゅつかんの かいかんを きねんして、とくべつてんらんかいが かいさいされる ことになった。",
+      "translation": {
+        "en": "In commemoration of the new art museum's opening, a special exhibition was organized.",
+        "my": "အနုပညာပြတိုက်အသစ် ဖွင့်လှစ်ခြင်းအထိမ်းအမှတ်အဖြစ် အထူးပြပွဲတစ်ခု ကျင်းပရန် သတ်မှတ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l13.v007"
+      ],
+      "grammarIds": [
+        "n3.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.s008",
+      "lessonId": "n3.l13",
+      "ja": "来週土曜日の午前九時より、新市民ホールの開館式が行われます。",
+      "kana": "らいしゅう どようびの ごぜんくじより、しんしみんホールの かいかんしきが おこなわれます。",
+      "translation": {
+        "en": "From 9:00 AM next Saturday, the opening ceremony of the new civic hall will be held.",
+        "my": "လာမည့်စနေနေ့ နံနက် ၉ နာရီမှစတင်၍ မြို့သူမြို့သားခန်းမသစ် ဖွင့်ပွဲအခမ်းအနားကို ကျင်းပမည်ဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l13.v008"
+      ],
+      "grammarIds": [
+        "n3.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.s009",
+      "lessonId": "n3.l13",
+      "ja": "館内では他の方のご迷惑にならないよう、注意事項を必ずお守りください。",
+      "kana": "かんないでは ほかのかたの ごめいわくに ならないよう、ちゅういじこうを かならず おまもりください。",
+      "translation": {
+        "en": "Please be sure to observe the guidelines so as not to cause trouble for other visitors in the building.",
+        "my": "ခန်းမအတွင်း အခြားသူများအား အနှောင့်အယှက်မဖြစ်စေရန် သတိပြုရန်အချက်များကို မဖြစ်မနေ လိုက်နာပေးကြပါရန်။"
+      },
+      "vocabIds": [
+        "n3.l13.v009"
+      ],
+      "grammarIds": [
+        "n3.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.s010",
+      "lessonId": "n3.l13",
+      "ja": "貸出カードの発行には、身分証明書による本人確認の手続きが必要です。",
+      "kana": "かしだしカードの はっこうには、みぶんしょうめいしょによる ほんにんかくにんの てつづきが ひつようです。",
+      "translation": {
+        "en": "For the issuance of a loan card, identification procedure with an ID card is required.",
+        "my": "စာအုပ်ငှားကတ်ထုတ်ယူရန်အတွက် မှတ်ပုံတင်ဖြင့် မိမိကိုယ်တိုင်ဖြစ်ကြောင်း အတည်ပြုသည့်လုပ်ငန်းစဉ် လိုအပ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l13.v010"
+      ],
+      "grammarIds": [
+        "n3.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.s011",
+      "lessonId": "n3.l13",
+      "ja": "来月一日より、新しい分別回収ルールが市内全域で実施される。",
+      "kana": "らいげつ ついたちより、あたらしい ぶんべつかいしゅうルールが しないぜんいきで じっしされる。",
+      "translation": {
+        "en": "From the first of next month, new waste-sorting rules will be implemented across the entire city.",
+        "my": "လာမည့်လ ၁ ရက်နေ့မှစ၍ အမှိုက်ခွဲခြားစွန့်ပစ်မှု စည်းမျဉ်းအသစ်ကို မြို့နယ်အနှံ့ စတင်အကောင်အထည်ဖော်မည်ဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l13.v011"
+      ],
+      "grammarIds": [
+        "n3.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l13.s012",
+      "lessonId": "n3.l13",
+      "ja": "天候の急変に伴い、屋外プログラムの実施場所を一部変更いたしました。",
+      "kana": "てんこうの きゅうへんにともない、おくがいプログラムの じっしばしょを いちぶ へんこういたしました。",
+      "translation": {
+        "en": "Due to sudden weather changes, we have partially altered the location of the outdoor program.",
+        "my": "ရာသီဥတု ရုတ်တရက်ပြောင်းလဲမှုကြောင့် ပြင်ပအစီအစဉ်ပြုလုပ်မည့်နေရာကို အနည်းငယ် ပြင်ဆင်ပြောင်းလဲခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l13.v012"
+      ],
+      "grammarIds": [
+        "n3.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l13.r01",
+    "lessonId": "n3.l13",
+    "title": "Official Municipal Notice: Digital Library Transformation",
+    "level": "N3",
+    "text": "市民の皆様へ：中央図書館のリニューアルオープン及び新サービスのご案内\n\n平素より市立中央図書館をご利用いただき、厚く御礼申し上げます。\nこのたび当館では、市制施行五十周年を契機に、施設の大規模な改修工事を進めてまいりました。最新のIT技術の導入にあたって、市民の皆様がより快適に読書や調査研究を行えるよう、全館に無料Wi-Fi及び電子書籍閲覧端末を完備いたしました。\n\n新装開館に際して、図書の自動貸出機及び夜間返却ポストを新たに設置いたしました。これにより、窓口の混雑時にも待ち時間なくスムーズにお手続きいただけます。なお、リニューアルに伴い開館時間が変更され、平日は午後八時まで延長されることになりました。\n\n新施設のご利用に際しては、館内の静粛を保ち、指定場所以外での飲食や通話を控えるなど、掲示されている注意事項を厳守していただきますようお願いいたします。市民の知的交流拠点として、皆様の温かいご理解とご協力をお願い申し上げます。",
+    "kanaText": "市民の皆様へ：中央図書館のリニューアルオープン及び新サービスのご案内\n\n平素より市立中央図書館をご利用いただき、厚く御礼申し上げます。\nこのたび当館では、市制施行五十周年を契機に、施設の大規模な改修工事を進めてまいりました。最新のIT技術の導入にあたって、市民の皆様がより快適に読書や調査研究を行えるよう、全館に無料Wi-Fi及び電子書籍閲覧端末を完備いたしました。\n\n新装開館に際して、図書の自動貸出機及び夜間返却ポストを新たに設置いたしました。これにより、窓口の混雑時にも待ち時間なくスムーズにお手続きいただけます。なお、リニューアルに伴い開館時間が変更され、平日は午後八時まで延長されることになりました。\n\n新施設のご利用に際しては、館内の静粛を保ち、指定場所以外での飲食や通話を控えるなど、掲示されている注意事項を厳守していただきますようお願いいたします。市民の知的交流拠点として、皆様の温かいご理解とご協力をお願い申し上げます。",
+    "translation": "To all citizens: Notice of Central Library Renewal Opening and New Services\n\nThank you very much for your continuous patronage of the Municipal Central Library.\nTaking the 50th anniversary of municipal administration as an impetus, our library has undertaken large-scale facility renovations. Prior to introducing cutting-edge IT technology, we equipped the entire facility with free Wi-Fi and digital book reading terminals so that citizens can conduct reading and research more comfortably.\n\nOn the occasion of our renovated opening, we installed new automated book checkout kiosks and night-return book drop boxes. This enables visitors to complete procedures smoothly without waiting even during peak front-desk hours. Furthermore, opening hours have been adjusted, extending to 8:00 PM on weekdays.\n\nUpon utilizing the new facility, please strictly adhere to posted guidelines, such as maintaining quiet within the library and refraining from eating, drinking, or phone calls outside designated areas. As a hub for intellectual exchange among citizens, we appreciate your kind understanding and cooperation.",
+    "questionIds": [
+      "n3.l13.q025",
+      "n3.l13.q026",
+      "n3.l13.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l13.l01",
+    "lessonId": "n3.l13",
+    "title": "Dialogue: Orientation for Museum Volunteers",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "館長：ボランティアの皆様、本日は新市民美術館の研修会にご参加いただきありがとうございます。\n案内係：館長、来週の一般開館に際して、館内の案内ルートで特に注意すべき点はございますか。\n館長：はい。リニューアルオープンを契機に、スマートフォン用の音声ガイドアプリを導入しました。来館者の多くがアプリを利用される見込みです。\n案内係：なるほど。操作方法が分からない方からご質問を受ける機会が増えそうですね。\n館長：その通りです。受付での手続き方法や注意事項を丁寧に案内し、皆様が安心して展示を楽しめるようサポートをお願いします。",
+    "translation": "Director: Dear volunteers, thank you very much for participating in today's training session for the new civic art museum.\nDocent: Director, on the occasion of the public opening next week, are there any particular points we should pay attention to along the tour route?\nDirector: Yes. Taking the renewal opening as an impetus, we introduced an audio guide smartphone app. We anticipate that many visitors will use this app.\nDocent: I see. It seems there will be more opportunities to receive questions from visitors who do not know how to operate it.\nDirector: Exactly. Please kindly guide visitors on reception procedures and precautions, and support them so everyone can enjoy the exhibits with peace of mind.",
+    "turns": [],
+    "questionIds": [
+      "n3.l13.q028",
+      "n3.l13.q029",
+      "n3.l13.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l13.q001",
+      "lessonId": "n3.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「新しい会計システムの（　）によって、業務効率が劇的に向上した。」",
+      "choices": [
+        "導入",
+        "開館",
+        "辞退",
+        "妥協"
+      ],
+      "answer": "導入",
+      "acceptedAnswers": [
+        "導入"
+      ],
+      "explanation": "技術やシステムを新しく取り入れて使い始めることは「導入（どうにゅう）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q002",
+      "lessonId": "n3.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉の意味として最も適切なものを一つ選びなさい。\n「創立十周年を【記念】して、社史を編纂した。」",
+      "choices": [
+        "特別な出来事を思い起こして祝うこと",
+        "過去の失敗を非難すること",
+        "将来の危険を避けること",
+        "予定を延期すること"
+      ],
+      "answer": "特別な出来事を思い起こして祝うこと",
+      "acceptedAnswers": [
+        "特別な出来事を思い起こして祝うこと"
+      ],
+      "explanation": "「記念（きねん）」は意義ある出来事を心にとどめ、後々の思い出や祝典とすることです。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q003",
+      "lessonId": "n3.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「病院や図書館などの公共（　）では、マナーを守ることが大切だ。」",
+      "choices": [
+        "施設",
+        "瞬間",
+        "悲鳴",
+        "契機"
+      ],
+      "answer": "施設",
+      "acceptedAnswers": [
+        "施設"
+      ],
+      "explanation": "特定の目的のために設けられた建物や設備を「施設（しせつ）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q004",
+      "lessonId": "n3.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉に最も近い意味の言葉を一つ選びなさい。\n「入学【手続き】を期日までに完了させてください。」",
+      "choices": [
+        "事務的な手順・手続き",
+        "試験問題の解答",
+        "友人との相談",
+        "通学の経路"
+      ],
+      "answer": "事務的な手順・手続き",
+      "acceptedAnswers": [
+        "事務的な手順・手続き"
+      ],
+      "explanation": "「手続き（てつづき）」は物事を行うための決められた手順や事務処理を指します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q005",
+      "lessonId": "n3.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「法律の改正に伴い、新しい制度が全国で（　）された。」",
+      "choices": [
+        "実施",
+        "開館",
+        "到着",
+        "辞退"
+      ],
+      "answer": "実施",
+      "acceptedAnswers": [
+        "実施"
+      ],
+      "explanation": "法律や計画などを実際に実行に移すことは「実施（じっし）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q006",
+      "lessonId": "n3.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉の意味として最も適切なものを一つ選びなさい。\n「展示品を守るための【注意事項】をよく確認してください。」",
+      "choices": [
+        "あらかじめ心に留めて守るべき事柄",
+        "作品の価格一覧",
+        "作者の経歴",
+        "お土産の案内"
+      ],
+      "answer": "あらかじめ心に留めて守るべき事柄",
+      "acceptedAnswers": [
+        "あらかじめ心に留めて守るべき事柄"
+      ],
+      "explanation": "「注意事項（ちゅういじこう）」は安全やマナーのために気をつけるべき点です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q007",
+      "lessonId": "n3.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「市民ホールが完成し、来月いよいよ（　）を迎える。」",
+      "choices": [
+        "開館",
+        "発車",
+        "衝突",
+        "延期"
+      ],
+      "answer": "開館",
+      "acceptedAnswers": [
+        "開館"
+      ],
+      "explanation": "博物館・ホール・図書館などが新しく開くことを「開館（かいかん）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q008",
+      "lessonId": "n3.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「急な事情により、予定していた出発時間を（　）した。」",
+      "choices": [
+        "変更",
+        "完了",
+        "判明",
+        "導入"
+      ],
+      "answer": "変更",
+      "acceptedAnswers": [
+        "変更"
+      ],
+      "explanation": "予定や内容を変えることは「変更（へんこう）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q009",
+      "lessonId": "n3.l13",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「【実際】に現場を訪れて調査を行った。」",
+      "choices": [
+        "じっさい",
+        "じつざい",
+        "じさい",
+        "じっきわ"
+      ],
+      "answer": "じっさい",
+      "acceptedAnswers": [
+        "じっさい"
+      ],
+      "explanation": "「実際」は「じっさい」と読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q010",
+      "lessonId": "n3.l13",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「新しいマンションの【契約】を結んだ。」",
+      "choices": [
+        "けいやく",
+        "けつやく",
+        "かいやく",
+        "きやく"
+      ],
+      "answer": "けいやく",
+      "acceptedAnswers": [
+        "けいやく"
+      ],
+      "explanation": "取り決めを交わす「契約」は「けいやく」と読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q011",
+      "lessonId": "n3.l13",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「絶好の【機会】を逃してはならない。」",
+      "choices": [
+        "きかい",
+        "きがい",
+        "ぎかい",
+        "けいかい"
+      ],
+      "answer": "きかい",
+      "acceptedAnswers": [
+        "きかい"
+      ],
+      "explanation": "チャンスを表す「機会」の読みは「きかい」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q012",
+      "lessonId": "n3.l13",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「先生の丁寧な【指導】のおかげで上達した。」",
+      "choices": [
+        "しどう",
+        "じどう",
+        "ちどう",
+        "しとう"
+      ],
+      "answer": "しどう",
+      "acceptedAnswers": [
+        "しどう"
+      ],
+      "explanation": "教え導く「指導」は「しどう」と読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q013",
+      "lessonId": "n3.l13",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の言葉を漢字で書くとき、最も適切なものを一つ選びなさい。\n「留学を【けいき】に視野が大きく広がった。」",
+      "choices": [
+        "契機",
+        "契約",
+        "機会",
+        "景気"
+      ],
+      "answer": "契機",
+      "acceptedAnswers": [
+        "契機"
+      ],
+      "explanation": "きっかけや転換点を意味する「けいき」は「契機」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q014",
+      "lessonId": "n3.l13",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の言葉を漢字で書くとき、最も適切なものを一つ選びなさい。\n「生徒たちを正しい方向へ【みちびく】。」",
+      "choices": [
+        "導く",
+        "際く",
+        "契く",
+        "機く"
+      ],
+      "answer": "導く",
+      "acceptedAnswers": [
+        "導く"
+      ],
+      "explanation": "案内する、リードする意味の「みちびく」は「導く」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q015",
+      "lessonId": "n3.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「新工場の稼働（　）、安全祈願の式典が執り行われた。」",
+      "choices": [
+        "に際して",
+        "を契機に",
+        "次第で",
+        "とたんに"
+      ],
+      "answer": "に際して",
+      "acceptedAnswers": [
+        "に際して"
+      ],
+      "explanation": "重大な事業や行事を開始するにあたっての改まった表現として「〜に際して」を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q016",
+      "lessonId": "n3.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「海外転勤（　）、英会話の学習を本格的に始めた。」",
+      "choices": [
+        "を契機に",
+        "に際して",
+        "次第に",
+        "たとたん"
+      ],
+      "answer": "を契機に",
+      "acceptedAnswers": [
+        "を契機に"
+      ],
+      "explanation": "ある出来事をきっかけ・転機として新しい行動を始めたことを表すため「〜を契機に」が最適です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q017",
+      "lessonId": "n3.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「ご契約の（　）、こちらの利用規約を必ずお読みください。」",
+      "choices": [
+        "にあたって",
+        "をきっかけに",
+        "次第で",
+        "たとたんに"
+      ],
+      "answer": "にあたって",
+      "acceptedAnswers": [
+        "にあたって"
+      ],
+      "explanation": "大切な手続きや行動の開始前に注意や準備を促す硬い表現は「〜にあたって」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q018",
+      "lessonId": "n3.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「病気で入院したこと（　）、健康管理の大切さを痛感した。」",
+      "choices": [
+        "を契機として",
+        "に際して",
+        "次第で",
+        "とたんに"
+      ],
+      "answer": "を契機として",
+      "acceptedAnswers": [
+        "を契機として"
+      ],
+      "explanation": "入院をきっかけとして意識が変化したことを表す「〜を契機として」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q019",
+      "lessonId": "n3.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "正しい文になるように言葉を並べ替えたとき、【　★　】に入るものを選びなさい。\n「新生活の＿＿＿　＿＿＿　【　★　】　＿＿＿お祝い申し上げます。」",
+      "choices": [
+        "1: スタートに",
+        "2: あたって",
+        "3: 皆様の",
+        "4: ご活躍を"
+      ],
+      "answer": "3: 皆様の",
+      "acceptedAnswers": [
+        "3: 皆様の"
+      ],
+      "explanation": "正しい並び順は「新生活の [1: スタートに] [2: あたって] [3: 皆様の] [4: ご活躍を] お祝い申し上げます。」となります。★は3番です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q020",
+      "lessonId": "n3.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「オリンピックの開催（　）、街の交通インフラが急速に整備された。」",
+      "choices": [
+        "を契機に",
+        "に際して",
+        "次第",
+        "とたんに"
+      ],
+      "answer": "を契機に",
+      "acceptedAnswers": [
+        "を契機に"
+      ],
+      "explanation": "オリンピック開催という大イベントを契機（きっかけ）にしてインフラ整備が進んだことを表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q021",
+      "lessonId": "n3.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「試験の開始（　）、机の上の持ち物をご確認ください。」",
+      "choices": [
+        "に際して",
+        "をきっかけに",
+        "次第で",
+        "とたんに"
+      ],
+      "answer": "に際して",
+      "acceptedAnswers": [
+        "に際して"
+      ],
+      "explanation": "試験開始直前の公式な案内として「〜に際して」が最も適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q022",
+      "lessonId": "n3.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜に際して」と「〜を契機に」のニュアンスの違いとして最も適切なものを選びなさい。",
+      "choices": [
+        "「〜に際して」はある重大な出来事を行う時に、「〜を契機に」はある出来事を転換点・動機として何かが起こる時に用いる",
+        "「〜に際して」は過去の失敗だけを表し、「〜を契機に」は将来の希望だけを表す",
+        "「〜に際して」は日常会話専用で、「〜を契機に」は公文書専用である",
+        "両者に意味や使い方の違いは全くない"
+      ],
+      "answer": "「〜に際して」はある重大な出来事を行う時に、「〜を契機に」はある出来事を転換点・動機として何かが起こる時に用いる",
+      "acceptedAnswers": [
+        "「〜に際して」はある重大な出来事を行う時に、「〜を契機に」はある出来事を転換点・動機として何かが起こる時に用いる"
+      ],
+      "explanation": "「に際して」は改まった機会を迎える場面での準備・注意事項を、「を契機に」はある事件や機会が契機となって変化するプロセスを示します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q023",
+      "lessonId": "n3.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「引越し（　）、不要な家具をすべて処分することにした。」",
+      "choices": [
+        "を契機に",
+        "次第に",
+        "たとたんに",
+        "ながら"
+      ],
+      "answer": "を契機に",
+      "acceptedAnswers": [
+        "を契機に"
+      ],
+      "explanation": "引越しという転機を動機として家具処分を決めたため「〜を契機に」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q024",
+      "lessonId": "n3.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「面接を（　）にあたって、身だしなみを整えておくことが基本だ。」",
+      "choices": [
+        "受ける",
+        "受けた",
+        "受け",
+        "受けそう"
+      ],
+      "answer": "受ける",
+      "acceptedAnswers": [
+        "受ける"
+      ],
+      "explanation": "「〜にあたって」は動詞辞書形に接続します（受ける＋にあたって）。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q025",
+      "lessonId": "n3.l13",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "中央図書館が大規模な改修工事を進めたきっかけは何か。",
+      "choices": [
+        "市制施行五十周年を迎えたこと",
+        "古い本がすべて水害で破損したこと",
+        "市民から苦情が殺到したこと",
+        "別の場所へ移転することが決定したこと"
+      ],
+      "answer": "市制施行五十周年を迎えたこと",
+      "acceptedAnswers": [
+        "市制施行五十周年を迎えたこと"
+      ],
+      "explanation": "第2段落冒頭に「市制施行五十周年を契機に、施設の大規模な改修工事を進めてまいりました」とあります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q026",
+      "lessonId": "n3.l13",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "自動貸出機と夜間返却ポストを導入したことで、どのようなメリットがあるか。",
+      "choices": [
+        "窓口の混雑時にも待ち時間なくスムーズに手続きができる",
+        "すべての本を無料で自宅へ郵送してもらえる",
+        "図書館カードを持っていなくても本を借りられる",
+        "本を返却しなくても延滞料金が発生しない"
+      ],
+      "answer": "窓口の混雑時にも待ち時間なくスムーズに手続きができる",
+      "acceptedAnswers": [
+        "窓口の混雑時にも待ち時間なくスムーズに手続きができる"
+      ],
+      "explanation": "第3段落に「窓口の混雑時にも待ち時間なくスムーズにお手続きいただけます」と明記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q027",
+      "lessonId": "n3.l13",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "新施設を利用する市民へのお願いとして述べられていることは何か。",
+      "choices": [
+        "館内の静粛を保ち、指定場所以外での飲食や通話を控えること",
+        "平日は午後六時までに必ず退館すること",
+        "電子書籍端末を自宅に持ち帰って保管すること",
+        "図書の貸出数を一人一冊までに制限すること"
+      ],
+      "answer": "館内の静粛を保ち、指定場所以外での飲食や通話を控えること",
+      "acceptedAnswers": [
+        "館内の静粛を保ち、指定場所以外での飲食や通話を控えること"
+      ],
+      "explanation": "第4段落に「館内の静粛を保ち、指定場所以外での飲食や通話を控えるなど、掲示されている注意事項を厳守していただきますよう」とあります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q028",
+      "lessonId": "n3.l13",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "美術館のリニューアルオープンを契機に新しく導入されたものは何か。",
+      "choices": [
+        "スマートフォン用の音声ガイドアプリ",
+        "展示室内の自動運転カート",
+        "カフェの無料ドリンクサービス",
+        "紙のパンフレットの増刷"
+      ],
+      "answer": "スマートフォン用の音声ガイドアプリ",
+      "acceptedAnswers": [
+        "スマートフォン用の音声ガイドアプリ"
+      ],
+      "explanation": "館長が「リニューアルオープンを契機に、スマートフォン用の音声ガイドアプリを導入しました」と発言しています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q029",
+      "lessonId": "n3.l13",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "案内係はボランティア活動中にどのような機会が増えると予想しているか。",
+      "choices": [
+        "アプリの操作方法が分からない来館者から質問を受ける機会",
+        "外国人観光客から通訳を頼まれる機会",
+        "館長と一緒に展示作品を解説する機会",
+        "美術品の修復作業を手伝う機会"
+      ],
+      "answer": "アプリの操作方法が分からない来館者から質問を受ける機会",
+      "acceptedAnswers": [
+        "アプリの操作方法が分からない来館者から質問を受ける機会"
+      ],
+      "explanation": "案内係が「操作方法が分からない方からご質問を受ける機会が増えそうですね」と述べています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l13.q030",
+      "lessonId": "n3.l13",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "館長がボランティアの皆様に最も期待しているサポートは何か。",
+      "choices": [
+        "手続きや注意事項を丁寧に案内し、来館者が安心して楽しめるよう支えること",
+        "チケットの売上目標を達成すること",
+        "展示室の清掃を一人で行うこと",
+        "閉館後の警備を担当すること"
+      ],
+      "answer": "手続きや注意事項を丁寧に案内し、来館者が安心して楽しめるよう支えること",
+      "acceptedAnswers": [
+        "手続きや注意事項を丁寧に案内し、来館者が安心して楽しめるよう支えること"
+      ],
+      "explanation": "館長が「受付での手続き方法や注意事項を丁寧に案内し、皆様が安心して展示を楽しめるようサポートをお願いします」と締めくくっています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

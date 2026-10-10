@@ -1,0 +1,1404 @@
+{
+  "id": "n2.l10",
+  "level": "N2",
+  "module": "N2 Advanced Grammar & Argumentation",
+  "number": 10,
+  "title": "N2 Lesson 10: Author Stance & Implied Intentions",
+  "description": "Comprehensive mastery module for N2 Lesson 10: Author Stance & Implied Intentions (N2). Aligned with JLPT syllabus benchmarks.",
+  "status": "planned",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l10.v001",
+      "lessonId": "n2.l10",
+      "ja": "本",
+      "kana": "ほん",
+      "en": "Book",
+      "my": "စာအုပ်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s001",
+      "kanjiIds": [
+        "n2.l10.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.v002",
+      "lessonId": "n2.l10",
+      "ja": "水",
+      "kana": "みず",
+      "en": "Water",
+      "my": "ရေ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s001",
+      "kanjiIds": [
+        "n2.l10.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.v003",
+      "lessonId": "n2.l10",
+      "ja": "車",
+      "kana": "くるま",
+      "en": "Car",
+      "my": "ကား",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s002",
+      "kanjiIds": [
+        "n2.l10.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.v004",
+      "lessonId": "n2.l10",
+      "ja": "友だち",
+      "kana": "ともだち",
+      "en": "Friend",
+      "my": "သူငယ်ချင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s002",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.v005",
+      "lessonId": "n2.l10",
+      "ja": "今日",
+      "kana": "きょう",
+      "en": "Today",
+      "my": "ဒီနေ့",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s003",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.v006",
+      "lessonId": "n2.l10",
+      "ja": "明日",
+      "kana": "あした",
+      "en": "Tomorrow",
+      "my": "မနက်ဖြန်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s003",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.v007",
+      "lessonId": "n2.l10",
+      "ja": "食べる",
+      "kana": "たべる",
+      "en": "To eat",
+      "my": "စားသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n2.l10.s004",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.v008",
+      "lessonId": "n2.l10",
+      "ja": "飲む",
+      "kana": "のむ",
+      "en": "To drink",
+      "my": "သောက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n2.l10.s004",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.v009",
+      "lessonId": "n2.l10",
+      "ja": "行く",
+      "kana": "いく",
+      "en": "To go",
+      "my": "သွားသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n2.l10.s005",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.v010",
+      "lessonId": "n2.l10",
+      "ja": "見る",
+      "kana": "みる",
+      "en": "To see / watch",
+      "my": "ကြည့်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n2.l10.s005",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.v011",
+      "lessonId": "n2.l10",
+      "ja": "大きい",
+      "kana": "おおきい",
+      "en": "Big",
+      "my": "ကြီးသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l10.s006",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.v012",
+      "lessonId": "n2.l10",
+      "ja": "新しい",
+      "kana": "あたらしい",
+      "en": "New",
+      "my": "အသစ်ဖြစ်သော",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l10.s006",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l10.k001",
+      "lessonId": "n2.l10",
+      "char": "本",
+      "meaning": "Book / Origin",
+      "onyomi": [
+        "ホン"
+      ],
+      "kunyomi": [
+        "もと"
+      ],
+      "exampleVocab": [
+        {
+          "word": "本 (ほん)",
+          "reading": "ほん",
+          "meaning": "book",
+          "preview": false
+        },
+        {
+          "word": "日本 (にほん)",
+          "reading": "にほん",
+          "meaning": "Japan",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l10.s001"
+      ],
+      "components": [
+        "本"
+      ],
+      "strokes": 5,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.k002",
+      "lessonId": "n2.l10",
+      "char": "水",
+      "meaning": "Water",
+      "onyomi": [
+        "スイ"
+      ],
+      "kunyomi": [
+        "みず"
+      ],
+      "exampleVocab": [
+        {
+          "word": "水 (みず)",
+          "reading": "みず",
+          "meaning": "water",
+          "preview": false
+        },
+        {
+          "word": "水曜日 (すいようび)",
+          "reading": "すいようび",
+          "meaning": "Wednesday",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l10.s001"
+      ],
+      "components": [
+        "水"
+      ],
+      "strokes": 4,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.k003",
+      "lessonId": "n2.l10",
+      "char": "車",
+      "meaning": "Car / Vehicle",
+      "onyomi": [
+        "シャ"
+      ],
+      "kunyomi": [
+        "くるま"
+      ],
+      "exampleVocab": [
+        {
+          "word": "車 (くるま)",
+          "reading": "くるま",
+          "meaning": "car",
+          "preview": false
+        },
+        {
+          "word": "電車 (でんしゃ)",
+          "reading": "でんしゃ",
+          "meaning": "train",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l10.s002"
+      ],
+      "components": [
+        "車"
+      ],
+      "strokes": 7,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l10.g001",
+      "lessonId": "n2.l10",
+      "pattern": "X を Y します",
+      "meaning": "Do action Y on direct object X",
+      "formation": "[Noun] を [Verb]",
+      "explanation": {
+        "en": "The particle を marks the direct object of a transitive action verb.",
+        "my": "စကားလုံး を သည် ကံပုဒ်ကို ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l10.s001",
+          "note": "Using direct object marker を with action verb"
+        },
+        {
+          "sentenceId": "n2.l10.s004",
+          "note": "Contextual usage with action verb"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse を with が."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.g002",
+      "lessonId": "n2.l10",
+      "pattern": "X で Y します",
+      "meaning": "Perform action Y at location/by means X",
+      "formation": "[Place/Means] で [Verb]",
+      "explanation": {
+        "en": "The particle で specifies the location of action or method used.",
+        "my": "စကားလုံး で သည် နေရာ သို့မဟုတ် နည်းလမ်းကို ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l10.s002",
+          "note": "Expressing means of transportation with particle で"
+        },
+        {
+          "sentenceId": "n2.l10.s003",
+          "note": "Specifying time scope or method with particle で"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use で for static existence (use に instead)."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l10.s001",
+      "lessonId": "n2.l10",
+      "ja": "本と水を使います。",
+      "kana": "ほんとみずをつかいます。",
+      "translation": {
+        "en": "Using Book and Water.",
+        "my": "စာအုပ် နှင့် ရေ ကို အသုံးပြုသည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v001",
+        "n2.l10.v002"
+      ],
+      "grammarIds": [
+        "n2.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.s002",
+      "lessonId": "n2.l10",
+      "ja": "友だちと車で行きます。",
+      "kana": "ともだちと くるまで いきます。",
+      "translation": {
+        "en": "I go with a friend by car.",
+        "my": "သူငယ်ချင်းနှင့်အတူ ကားဖြင့် သွားပါသည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v003",
+        "n2.l10.v004"
+      ],
+      "grammarIds": [
+        "n2.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.s003",
+      "lessonId": "n2.l10",
+      "ja": "今日と明日で行います。",
+      "kana": "きょうと あしたで おこないます。",
+      "translation": {
+        "en": "We will conduct it between today and tomorrow.",
+        "my": "ယနေ့နှင့် မနက်ဖြန်အတွင်း ဆောင်ရွက်ပါမည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v005",
+        "n2.l10.v006"
+      ],
+      "grammarIds": [
+        "n2.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.s004",
+      "lessonId": "n2.l10",
+      "ja": "食べると飲むを使います。",
+      "kana": "たべるとのむをつかいます。",
+      "translation": {
+        "en": "Using To eat and To drink.",
+        "my": "စားသည် နှင့် သောက်သည် ကို အသုံးပြုသည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v007",
+        "n2.l10.v008"
+      ],
+      "grammarIds": [
+        "n2.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.s005",
+      "lessonId": "n2.l10",
+      "ja": "行くと見るを使います。",
+      "kana": "いくとみるをつかいます。",
+      "translation": {
+        "en": "Using To go and To see / watch.",
+        "my": "သွားသည် နှင့် ကြည့်သည် ကို အသုံးပြုသည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v009",
+        "n2.l10.v010"
+      ],
+      "grammarIds": [
+        "n2.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l10.s006",
+      "lessonId": "n2.l10",
+      "ja": "大きいと新しいを使います。",
+      "kana": "おおきいとあたらしいをつかいます。",
+      "translation": {
+        "en": "Using Big and New.",
+        "my": "ကြီးသော နှင့် အသစ်ဖြစ်သော ကို အသုံးပြုသည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v011",
+        "n2.l10.v012"
+      ],
+      "grammarIds": [
+        "n2.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l10.r01",
+    "lessonId": "n2.l10",
+    "title": "N2 Lesson 10: Author Stance & Implied Intentions - 読解",
+    "level": "N2",
+    "text": "本。水。車。友だち。本 を 使います。車 で 行きます。",
+    "kanaText": "ほん。みず。くるま。ともだち。ほん を つかいます。くるま で いきます。",
+    "translation": "Reading passage illustrating direct object を and means で for N2 Lesson 10: Author Stance & Implied Intentions.",
+    "questionIds": [
+      "n2.l10.q021",
+      "n2.l10.q022",
+      "n2.l10.q023",
+      "n2.l10.q024",
+      "n2.l10.q025"
+    ],
+    "difficulty": 4,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-09-30T10:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n2.l10.l01",
+    "lessonId": "n2.l10",
+    "title": "N2 Lesson 10: Author Stance & Implied Intentions - 聴解",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "A：こんにちは。本ですか。\nB：はい、そうです。本 を 読みます。車 で 行きます。",
+    "translation": "Dialogue illustrating direct object を and means で for N2 Lesson 10: Author Stance & Implied Intentions.",
+    "turns": [
+      {
+        "speaker": "A",
+        "ja": "こんにちは。本ですか。",
+        "kana": "こんにちは。ほんですか。",
+        "en": "Hello. Is this correct?"
+      },
+      {
+        "speaker": "B",
+        "ja": "はい、そうです。本 を 読みます。車 で 行きます。",
+        "kana": "はい、そうです。ほん を よみます。くるま で いきます。",
+        "en": "Yes, that is right. I read books. I go by car."
+      }
+    ],
+    "questionIds": [
+      "n2.l10.q026",
+      "n2.l10.q027",
+      "n2.l10.q028",
+      "n2.l10.q029",
+      "n2.l10.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-09-30T10:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l10.q001",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What is the meaning of 「本」?",
+      "choices": [
+        "Book",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Book",
+      "acceptedAnswers": [
+        "ほん",
+        "本"
+      ],
+      "explanation": "本 (ほん) means \"Book\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q002",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the reading for \"Water\" in hiragana:",
+      "answer": "みず",
+      "acceptedAnswers": [
+        "みず",
+        "水"
+      ],
+      "explanation": "水 (みず) means \"Water\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q003",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What is the meaning of 「車」?",
+      "choices": [
+        "Car",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Car",
+      "acceptedAnswers": [
+        "くるま",
+        "車"
+      ],
+      "explanation": "車 (くるま) means \"Car\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q004",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the reading for \"Friend\" in hiragana:",
+      "answer": "ともだち",
+      "acceptedAnswers": [
+        "ともだち",
+        "友だち"
+      ],
+      "explanation": "友だち (ともだち) means \"Friend\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q005",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What is the meaning of 「今日」?",
+      "choices": [
+        "Today",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Today",
+      "acceptedAnswers": [
+        "きょう",
+        "今日"
+      ],
+      "explanation": "今日 (きょう) means \"Today\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q006",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the reading for \"Tomorrow\" in hiragana:",
+      "answer": "あした",
+      "acceptedAnswers": [
+        "あした",
+        "明日"
+      ],
+      "explanation": "明日 (あした) means \"Tomorrow\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q007",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What is the meaning of 「食べる」?",
+      "choices": [
+        "To eat",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "To eat",
+      "acceptedAnswers": [
+        "たべる",
+        "食べる"
+      ],
+      "explanation": "食べる (たべる) means \"To eat\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q008",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the reading for \"To drink\" in hiragana:",
+      "answer": "のむ",
+      "acceptedAnswers": [
+        "のむ",
+        "飲む"
+      ],
+      "explanation": "飲む (のむ) means \"To drink\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q009",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What is the meaning of 「行く」?",
+      "choices": [
+        "To go",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "To go",
+      "acceptedAnswers": [
+        "いく",
+        "行く"
+      ],
+      "explanation": "行く (いく) means \"To go\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q010",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the reading for \"To see / watch\" in hiragana:",
+      "answer": "みる",
+      "acceptedAnswers": [
+        "みる",
+        "見る"
+      ],
+      "explanation": "見る (みる) means \"To see / watch\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q011",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What is the meaning of 「大きい」?",
+      "choices": [
+        "Big",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer": "Big",
+      "acceptedAnswers": [
+        "おおきい",
+        "大きい"
+      ],
+      "explanation": "大きい (おおきい) means \"Big\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q012",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the reading for \"New\" in hiragana:",
+      "answer": "あたらしい",
+      "acceptedAnswers": [
+        "あたらしい",
+        "新しい"
+      ],
+      "explanation": "新しい (あたらしい) means \"New\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q013",
+      "lessonId": "n2.l10",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "What is the meaning of 「本」?",
+      "choices": [
+        "Book / Origin",
+        "Other Meaning 1",
+        "Other Meaning 2",
+        "Other Meaning 3"
+      ],
+      "answer": "Book / Origin",
+      "explanation": "本 means \"Book / Origin\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q014",
+      "lessonId": "n2.l10",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What is the primary onyomi for 「本」?",
+      "choices": [
+        "ホン",
+        "クン",
+        "カク",
+        "セイ"
+      ],
+      "answer": "ホン",
+      "explanation": "Onyomi: ホン",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q015",
+      "lessonId": "n2.l10",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "What is the meaning of 「水」?",
+      "choices": [
+        "Water",
+        "Other Meaning 1",
+        "Other Meaning 2",
+        "Other Meaning 3"
+      ],
+      "answer": "Water",
+      "explanation": "水 means \"Water\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q016",
+      "lessonId": "n2.l10",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What is the primary onyomi for 「水」?",
+      "choices": [
+        "スイ",
+        "クン",
+        "カク",
+        "セイ"
+      ],
+      "answer": "スイ",
+      "explanation": "Onyomi: スイ",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q017",
+      "lessonId": "n2.l10",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "What is the meaning of 「車」?",
+      "choices": [
+        "Car / Vehicle",
+        "Other Meaning 1",
+        "Other Meaning 2",
+        "Other Meaning 3"
+      ],
+      "answer": "Car / Vehicle",
+      "explanation": "車 means \"Car / Vehicle\".",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q018",
+      "lessonId": "n2.l10",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What is the primary onyomi for 「車」?",
+      "choices": [
+        "シャ",
+        "クン",
+        "カク",
+        "セイ"
+      ],
+      "answer": "シャ",
+      "explanation": "Onyomi: シャ",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q019",
+      "lessonId": "n2.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete the sentence with pattern 「X を Y します」:",
+      "choices": [
+        "X を Y します",
+        "Pattern B",
+        "Pattern C",
+        "Pattern D"
+      ],
+      "answer": "X を Y します",
+      "explanation": "X を Y します: The particle を marks the direct object of a transitive action verb.",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q020",
+      "lessonId": "n2.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete the sentence with pattern 「X で Y します」:",
+      "choices": [
+        "X で Y します",
+        "Pattern B",
+        "Pattern C",
+        "Pattern D"
+      ],
+      "answer": "X で Y します",
+      "explanation": "X で Y します: The particle で specifies the location of action or method used.",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q021",
+      "lessonId": "n2.l10",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "Reading Question 1 regarding N2 Lesson 10: Author Stance & Implied Intentions:",
+      "choices": [
+        "Correct Interpretation",
+        "Distractor A",
+        "Distractor B",
+        "Distractor C"
+      ],
+      "answer": "Correct Interpretation",
+      "explanation": "Refer to the passage details above.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n2.l10.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q022",
+      "lessonId": "n2.l10",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "Reading Question 2 regarding N2 Lesson 10: Author Stance & Implied Intentions:",
+      "choices": [
+        "Correct Interpretation",
+        "Distractor A",
+        "Distractor B",
+        "Distractor C"
+      ],
+      "answer": "Correct Interpretation",
+      "explanation": "Refer to the passage details above.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n2.l10.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q023",
+      "lessonId": "n2.l10",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "Reading Question 3 regarding N2 Lesson 10: Author Stance & Implied Intentions:",
+      "choices": [
+        "Correct Interpretation",
+        "Distractor A",
+        "Distractor B",
+        "Distractor C"
+      ],
+      "answer": "Correct Interpretation",
+      "explanation": "Refer to the passage details above.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n2.l10.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q024",
+      "lessonId": "n2.l10",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "Reading Question 4 regarding N2 Lesson 10: Author Stance & Implied Intentions:",
+      "choices": [
+        "Correct Interpretation",
+        "Distractor A",
+        "Distractor B",
+        "Distractor C"
+      ],
+      "answer": "Correct Interpretation",
+      "explanation": "Refer to the passage details above.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n2.l10.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q025",
+      "lessonId": "n2.l10",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "Reading Question 5 regarding N2 Lesson 10: Author Stance & Implied Intentions:",
+      "choices": [
+        "Correct Interpretation",
+        "Distractor A",
+        "Distractor B",
+        "Distractor C"
+      ],
+      "answer": "Correct Interpretation",
+      "explanation": "Refer to the passage details above.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n2.l10.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q026",
+      "lessonId": "n2.l10",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "Listening Question 1 regarding dialogue turns:",
+      "choices": [
+        "Dialogue Answer",
+        "Choice 2",
+        "Choice 3",
+        "Choice 4"
+      ],
+      "answer": "Dialogue Answer",
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "explanation": "From speaker A and B exchange.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n2.l10.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q027",
+      "lessonId": "n2.l10",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "Listening Question 2 regarding dialogue turns:",
+      "choices": [
+        "Dialogue Answer",
+        "Choice 2",
+        "Choice 3",
+        "Choice 4"
+      ],
+      "answer": "Dialogue Answer",
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "explanation": "From speaker A and B exchange.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n2.l10.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q028",
+      "lessonId": "n2.l10",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "Listening Question 3 regarding dialogue turns:",
+      "choices": [
+        "Dialogue Answer",
+        "Choice 2",
+        "Choice 3",
+        "Choice 4"
+      ],
+      "answer": "Dialogue Answer",
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "explanation": "From speaker A and B exchange.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n2.l10.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q029",
+      "lessonId": "n2.l10",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "Listening Question 4 regarding dialogue turns:",
+      "choices": [
+        "Dialogue Answer",
+        "Choice 2",
+        "Choice 3",
+        "Choice 4"
+      ],
+      "answer": "Dialogue Answer",
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "explanation": "From speaker A and B exchange.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n2.l10.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q030",
+      "lessonId": "n2.l10",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "Listening Question 5 regarding dialogue turns:",
+      "choices": [
+        "Dialogue Answer",
+        "Choice 2",
+        "Choice 3",
+        "Choice 4"
+      ],
+      "answer": "Dialogue Answer",
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "explanation": "From speaker A and B exchange.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n2.l10.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-09-30T10:00:00Z",
+    "rev": 1
+  }
+}

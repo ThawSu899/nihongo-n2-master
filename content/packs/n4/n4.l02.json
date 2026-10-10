@@ -1,0 +1,1589 @@
+{
+  "id": "n4.l02",
+  "level": "N4",
+  "module": "N4 Intermediate Grammar 1",
+  "number": 2,
+  "title": "N4 Lesson 2: Volitional Form (意向形: 行こう・食べよう / 〜つもり・〜予定)",
+  "description": "Master the volitional form for casual invitations and resolutions, expressing personal intentions with 〜つもり and external schedules with 〜予定.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l02.v001",
+      "lessonId": "n4.l02",
+      "ja": "将来",
+      "kana": "しょうらい",
+      "en": "future (usually near or personal future)",
+      "my": "အနာဂတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l02.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.v002",
+      "lessonId": "n4.l02",
+      "ja": "夢",
+      "kana": "ゆめ",
+      "en": "dream",
+      "my": "အိပ်မက်/ရည်မှန်းချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l02.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.v003",
+      "lessonId": "n4.l02",
+      "ja": "計画",
+      "kana": "けいかく",
+      "en": "plan; project",
+      "my": "အစီအစဉ်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l02.s002",
+      "kanjiIds": [
+        "n4.l02.k001",
+        "n4.l02.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.v004",
+      "lessonId": "n4.l02",
+      "ja": "留学",
+      "kana": "りゅうがく",
+      "en": "study abroad",
+      "my": "နိုင်ငံခြားပညာသင်သွားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l02.s003",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.v005",
+      "lessonId": "n4.l02",
+      "ja": "案内",
+      "kana": "あんない",
+      "en": "guidance; showing around",
+      "my": "လမ်းပြလမ်းညွှန်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l02.s004",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.v006",
+      "lessonId": "n4.l02",
+      "ja": "経験",
+      "kana": "けいけん",
+      "en": "experience",
+      "my": "အတွေ့အကြုံ",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l02.s005",
+      "kanjiIds": [
+        "n4.l02.k003",
+        "n4.l02.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.v007",
+      "lessonId": "n4.l02",
+      "ja": "決める",
+      "kana": "きめる",
+      "en": "to decide",
+      "my": "ဆုံးဖြတ်သည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l02.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.v008",
+      "lessonId": "n4.l02",
+      "ja": "続ける",
+      "kana": "つづける",
+      "en": "to continue; to keep on",
+      "my": "ဆက်လက်လုပ်ဆောင်သည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l02.s007",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.v009",
+      "lessonId": "n4.l02",
+      "ja": "準備",
+      "kana": "じゅんび",
+      "en": "preparation",
+      "my": "ကြိုတင်ပြင်ဆင်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l02.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.v010",
+      "lessonId": "n4.l02",
+      "ja": "専門",
+      "kana": "せんもん",
+      "en": "specialty; field of study",
+      "my": "အထူးပြုဘာသာရပ်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l02.s009",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.v011",
+      "lessonId": "n4.l02",
+      "ja": "研究",
+      "kana": "けんきゅう",
+      "en": "research; study",
+      "my": "သုတေသန",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l02.s009",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.v012",
+      "lessonId": "n4.l02",
+      "ja": "始める",
+      "kana": "はじめる",
+      "en": "to start; to begin",
+      "my": "စတင်သည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l02.s010",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l02.k001",
+      "lessonId": "n4.l02",
+      "char": "計",
+      "meaning": "plan; measure",
+      "onyomi": [
+        "ケイ"
+      ],
+      "kunyomi": [
+        "はか.る",
+        "はか.らう"
+      ],
+      "exampleVocab": [
+        {
+          "word": "計画",
+          "reading": "けいかく",
+          "meaning": "plan",
+          "preview": false
+        },
+        {
+          "word": "時計",
+          "reading": "とけい",
+          "meaning": "clock/watch",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l02.s001"
+      ],
+      "components": [],
+      "strokes": 9,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.k002",
+      "lessonId": "n4.l02",
+      "char": "画",
+      "meaning": "picture; stroke; plan",
+      "onyomi": [
+        "ガ",
+        "カク"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "計画",
+          "reading": "けいかく",
+          "meaning": "plan",
+          "preview": false
+        },
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "meaning": "movie",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l02.s001"
+      ],
+      "components": [],
+      "strokes": 8,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.k003",
+      "lessonId": "n4.l02",
+      "char": "経",
+      "meaning": "pass through; manage; experience",
+      "onyomi": [
+        "ケイ",
+        "キョウ"
+      ],
+      "kunyomi": [
+        "へ.る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "経験",
+          "reading": "けいけん",
+          "meaning": "experience",
+          "preview": false
+        },
+        {
+          "word": "経済",
+          "reading": "けいざい",
+          "meaning": "economy",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l02.s001"
+      ],
+      "components": [],
+      "strokes": 11,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.k004",
+      "lessonId": "n4.l02",
+      "char": "験",
+      "meaning": "test; examine; experiment",
+      "onyomi": [
+        "ケン",
+        "ゲン"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "経験",
+          "reading": "けいけん",
+          "meaning": "experience",
+          "preview": false
+        },
+        {
+          "word": "試験",
+          "reading": "しけん",
+          "meaning": "examination",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l02.s001"
+      ],
+      "components": [],
+      "strokes": 18,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l02.g001",
+      "lessonId": "n4.l02",
+      "pattern": "[Verb Volitional Form] と 思っています",
+      "meaning": "Volitional Form + と思っています (Expressing Long-held Intention)",
+      "formation": "G1: 書く → 書こう, 買う → 買おう\nG2: 食べる → 食べよう, 見る → 見よう\nG3: する → しよう, 来る → こよう\nPattern: [Volitional Form] と 思っています",
+      "explanation": {
+        "en": "The volitional form expresses the speaker’s intention or suggestion (informal equivalent of 〜ましょう). Group 1 shifts u-row to o-row + う (行く→行こう, 読む→読もう). Group 2 adds よう to stem (食べる→食べよう). Group 3: する→しよう, 来る→こよう. When followed by と思っています, it expresses a decision made previously that the speaker continues to intend.",
+        "my": "ပြောဆိုသူ၏ ရည်ရွယ်ချက် သို့မဟုတ် တိုက်တွန်းချက်ကို ဖော်ပြသည်။ ပေါ့ပေါ့ပါးပါး စကားပြောတွင် 〜ましょう နှင့် အဓိပ္ပာယ်တူသည်။ အုပ်စု(၁) သည် u မှ o သို့ပြောင်းပြီး う ပေါင်းသည်။ အုပ်စု(၂) သည် အမြစ်တွင် よう ပေါင်းသည်။ အုပ်စု(၃) တွင် する→しよう နှင့် くる→こよう ဖြစ်သည်။ 「〜と思っています」 ကို ပေါင်းစပ်လျှင် ယခင်ကတည်းက စဉ်းစားဆုံးဖြတ်ထားသော ရည်ရွယ်ချက်ကို ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l02.s001",
+          "note": "Example 1"
+        },
+        {
+          "sentenceId": "n4.l02.s002",
+          "note": "Example 2"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Contrast: [Volitional] と思います indicates a decision formed on the spot (I think I will...), whereas [Volitional] と思っています shows an ongoing intention formed prior to the conversation."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.g002",
+      "lessonId": "n4.l02",
+      "pattern": "[Verb Dict / Verb-nai] つもりです / [Verb Dict / Noun の] 予定です",
+      "meaning": "Intention and Schedule (〜つもりです vs 〜予定です)",
+      "formation": "[V-dict / V-nai] + つもりです\n[V-dict] + 予定です / [Noun] + の予定です",
+      "explanation": {
+        "en": "〜つもりです expresses a strong personal intention (e.g. 日本で働くつもりです = I intend to work in Japan). Its negative is 〜ないつもりです or 〜つもりはありません. In contrast, 〜予定です expresses an objective schedule or official itinerary decided by external arrangements or consensus (e.g. 来週出張する予定です = I am scheduled on a business trip next week).",
+        "my": "「〜つもりです」 သည် မိမိ၏ ခိုင်မာသော ကိုယ်ပိုင်ရည်ရွယ်ချက်ကို ဖော်ပြသည်။ (ဥပမာ- ဂျပန်မှာ အလုပ်လုပ်ဖို့ ရည်ရွယ်ထားပါတယ်)။ 「〜予定です」 မှာမူ အဖွဲ့အစည်း သို့မဟုတ် ပြင်ပအစီအစဉ်အရ သတ်မှတ်ပြီးဖြစ်သော တရားဝင်အချိန်ဇယား/အစီအစဉ်ကို ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l02.s001",
+          "note": "Example 1"
+        },
+        {
+          "sentenceId": "n4.l02.s002",
+          "note": "Example 2"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use つもりです when asking a superior about their plans; use ご予定ですか instead to be polite."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l02.s001",
+      "lessonId": "n4.l02",
+      "ja": "将来の夢をかなえるために、一生懸命日本語を勉強しています。",
+      "kana": "しょうらいのゆめをかなえるために、いっしょうけんめいにほんごをべんきょうしています。",
+      "translation": {
+        "en": "In order to fulfill my future dream, I am studying Japanese with all my might.",
+        "my": "အနာဂတ်အိပ်မက်ကို အကောင်အထည်ဖော်ရန် ဂျပန်စာကို အစွမ်းကုန် ကြိုးစားသင်ယူနေပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l02.v001",
+        "n4.l02.v002"
+      ],
+      "grammarIds": [
+        "n4.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.s002",
+      "lessonId": "n4.l02",
+      "ja": "夏休みの旅行の計画を友達と一緒に立てようと思っています。",
+      "kana": "なつやすみのりょこうのけいかくをともだちといっしょにたてようとおもっています。",
+      "translation": {
+        "en": "I am thinking of making summer vacation travel plans together with a friend.",
+        "my": "နွေရာသီကျောင်းပိတ်ရက် ခရီးသွားအစီအစဉ်ကို သူငယ်ချင်းနှင့်အတူ ရေးဆွဲရန် စဉ်းစားထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l02.v003"
+      ],
+      "grammarIds": [
+        "n4.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.s003",
+      "lessonId": "n4.l02",
+      "ja": "大学を卒業したら、日本の大学院へ留学するつもりです。",
+      "kana": "だいがくをそつぎょうしたら、にほんのだいがくいんへりゅうがくするつもりです。",
+      "translation": {
+        "en": "When I graduate from university, I intend to study abroad at a graduate school in Japan.",
+        "my": "တက္ကသိုလ်ဘွဲ့ရပြီးပါက ဂျပန်နိုင်ငံရှိ မဟာဘွဲ့လွန်တက္ကသိုလ်သို့ ပညာသင်သွားရန် ရည်ရွယ်ထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l02.v004"
+      ],
+      "grammarIds": [
+        "n4.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.s004",
+      "lessonId": "n4.l02",
+      "ja": "日本からお客様が来たら、京都の古いお寺を案内しようと考えています。",
+      "kana": "にほんからおきゃくさまがきたら、きょうとのふるいおてらをあんないしようとかんがえています。",
+      "translation": {
+        "en": "If guests come from Japan, I plan to guide them around Kyoto's ancient temples.",
+        "my": "ဂျပန်မှ ဧည့်သည်များ ရောက်လာလျှင် ကျိုတိုမြို့ရှိ ရှေးဟောင်းဘုရားကျောင်းများသို့ လမ်းညွှန်ပြသရန် စဉ်းစားထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l02.v005"
+      ],
+      "grammarIds": [
+        "n4.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.s005",
+      "lessonId": "n4.l02",
+      "ja": "若いときの海外でのボランティア活動は、とてもいい経験になりました。",
+      "kana": "わかいときのかいがいでのボランティアかつどうは、とてもいいけいけんになりました。",
+      "translation": {
+        "en": "Doing overseas volunteer work when I was young became a very good experience.",
+        "my": "ငယ်ရွယ်စဉ် ပြည်ပတွင် စေတနာ့ဝန်ထမ်းလုပ်ကိုင်ခဲ့ခြင်းသည် အလွန်ကောင်းမွန်သော အတွေ့အကြုံဖြစ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l02.v006"
+      ],
+      "grammarIds": [
+        "n4.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.s006",
+      "lessonId": "n4.l02",
+      "ja": "進路について両親とよく話し合って、来週までに決めるつもりです。",
+      "kana": "しんろについてりょうしんとよくはなしあって、らいしゅうまでにきめるつもりです。",
+      "translation": {
+        "en": "I intend to discuss my future path thoroughly with my parents and decide by next week.",
+        "my": "ရှေ့ဆက်ရမည့် လမ်းကြောင်းအကြောင်း မိဘများနှင့် သေချာဆွေးနွေးပြီး လာမည့်အပတ်အရောက် ဆုံးဖြတ်ရန် ရည်ရွယ်ထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l02.v007"
+      ],
+      "grammarIds": [
+        "n4.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.s007",
+      "lessonId": "n4.l02",
+      "ja": "忙しくても、毎朝30分ジョギングを続けるつもりです。",
+      "kana": "いそがしくても、まいあささんじゅっぷんジョギングをつづけるつもりです。",
+      "translation": {
+        "en": "Even if I am busy, I intend to continue jogging for 30 minutes every morning.",
+        "my": "အလုပ်များနေသော်လည်း နေ့စဉ်နံနက်တိုင်း မိနစ် ၃၀ ဖြည်းဖြည်းပြေးခြင်းကို ဆက်လက်လုပ်ဆောင်ရန် ရည်ရွယ်ထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l02.v008"
+      ],
+      "grammarIds": [
+        "n4.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.s008",
+      "lessonId": "n4.l02",
+      "ja": "試験に合格するために、今夜からしっかり準備を始めようと思います。",
+      "kana": "しけんにごうかくするために、こんやからしっかりじゅんびをはじめようとおもいます。",
+      "translation": {
+        "en": "In order to pass the exam, I think I will start preparing solidly from tonight.",
+        "my": "စာမေးပွဲအောင်မြင်ရန်အတွက် ယနေ့ညမှစ၍ သေချာစွာ ကြိုတင်ပြင်ဆင်မှုများ စတင်ရန် စဉ်းစားထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l02.v009",
+        "n4.l02.v012"
+      ],
+      "grammarIds": [
+        "n4.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.s009",
+      "lessonId": "n4.l02",
+      "ja": "大学院では環境問題の専門分野について深く研究する予定です。",
+      "kana": "だいがくいんではかんきょうもんだいのせんもんぶんやについてふかくけんきゅうするよていです。",
+      "translation": {
+        "en": "At graduate school, I am scheduled to deeply research the specialized field of environmental issues.",
+        "my": "ဘွဲ့လွန်တက္ကသိုလ်တွင် သဘာဝပတ်ဝန်းကျင်ဆိုင်ရာ အထူးပြုနယ်ပယ်အကြောင်း နက်ရှိုင်းစွာ သုတေသနပြုလုပ်ရန် အစီအစဉ်ရှိပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l02.v010",
+        "n4.l02.v011"
+      ],
+      "grammarIds": [
+        "n4.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l02.s010",
+      "lessonId": "n4.l02",
+      "ja": "来月から新しいプログラミングの講座を始める予定です。",
+      "kana": "らいげつからあたらしいプログラミングのこうざをはじめるよていです。",
+      "translation": {
+        "en": "I am scheduled to start a new programming course from next month.",
+        "my": "လာမည့်လမှစတင်၍ ပရိုဂရမ်းမင်းသင်တန်းအသစ် စတင်တက်ရောက်ရန် အစီအစဉ်ရှိပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l02.v012"
+      ],
+      "grammarIds": [
+        "n4.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l02.r01",
+    "lessonId": "n4.l02",
+    "title": "私の将来の夢と日本留学の計画 (My Future Dream and Study Abroad Plan)",
+    "level": "N4",
+    "text": "私は子供のころから日本の建築やデザインに強い関心を持っていました。高校生のときに日本の木造建築についての本を読んで、将来日本で本物の建築技術を学びたいという夢を持つようになりました。\n\nその夢を実現するために、大学を卒業したあと、日本の大学院へ留学しようと思っています。来年の四月に入学する予定なので、今は毎日四時間以上日本語を勉強しています。今年の十二月には日本語能力試験のN2を受けるつもりです。合格できれば、専門の研究について日本の先生方とよりスムーズに議論できるようになると思います。\n\nもちろん、外国で一人で暮らすことには不安もありますが、色々な困難を乗り越えて立派な経験にしたいです。将来は自分の国と日本をつなぐ建築家になろうと心に決めています。",
+    "kanaText": "私は子供のころから日本の建築やデザインに強い関心を持っていました。高校生のときに日本の木造建築についての本を読んで、将来日本で本物の建築技術を学びたいという夢を持つようになりました。\n\nその夢を実現するために、大学を卒業したあと、日本の大学院へ留学しようと思っています。来年の四月に入学する予定なので、今は毎日四時間以上日本語を勉強しています。今年の十二月には日本語能力試験のN2を受けるつもりです。合格できれば、専門の研究について日本の先生方とよりスムーズに議論できるようになると思います。\n\nもちろん、外国で一人で暮らすことには不安もありますが、色々な困難を乗り越えて立派な経験にしたいです。将来は自分の国と日本をつなぐ建築家になろうと心に決めています。",
+    "translation": "Since childhood, I have had a strong interest in Japanese architecture and design. When I was in high school, reading a book about traditional Japanese wooden architecture inspired my dream of learning authentic building techniques in Japan in the future.\n\nTo make that dream come true, after graduating from university, I am thinking of studying abroad at a Japanese graduate school. Since I am scheduled to enter next April, I am currently studying Japanese for more than four hours every day. In December of this year, I intend to take the JLPT N2. If I pass, I believe I will be able to discuss specialized research more smoothly with Japanese professors.\n\nOf course, living alone in a foreign country causes some anxiety, but I want to overcome various hardships and turn them into valuable experiences. I am firmly determined to become an architect who bridges my home country and Japan in the future.",
+    "questionIds": [
+      "n4.l02.q021",
+      "n4.l02.q022",
+      "n4.l02.q023",
+      "n4.l02.q024",
+      "n4.l02.q025"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l02.l01",
+    "lessonId": "n4.l02",
+    "title": "卒業後の進路相談 (Discussing Post-Graduation Career Plans)",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "佐藤：アウンさん、もうすぐ大学も卒業ですね。卒業後はどうするつもりですか。\nアウン：はい、私は国へ帰らずに、日本のIT企業に就職しようと思っています。\n佐藤：へえ、素晴らしいですね！もう就職活動は始めているんですか。\nアウン：ええ、先月からインターンシップに参加しています。来週の金曜日に最終面接を受ける予定です。\n佐藤：そうなんですか。面接、うまくいくといいですね。\nアウン：ありがとうございます。将来は日本でシステムエンジニアとして十分な経験を積んで、いつか自分の会社を作ろうと考えています。\n佐藤：立派な計画ですね！応援していますよ。今週末は面接の準備で忙しいですか。\nアウン：はい、土曜日は日本語の先生に模擬面接を手伝ってもらう予定です。",
+    "translation": "Sato: Aung, you are graduating from university soon, right? What do you intend to do after graduation?\nAung: Yes, without returning home, I am thinking of getting a job at an IT company in Japan.\nSato: Wow, that is wonderful! Have you already started job hunting?\nAung: Yes, I have been participating in an internship since last month. I am scheduled to have my final interview next Friday.\nSato: Is that so? I hope your interview goes well.\nAung: Thank you very much. In the future, I plan to gain sufficient experience as a system engineer in Japan and eventually start my own company.\nSato: That is an admirable plan! I am cheering for you. Are you busy preparing for the interview this weekend?\nAung: Yes, on Saturday I am scheduled to have my Japanese teacher help me with a mock interview.",
+    "turns": [],
+    "questionIds": [
+      "n4.l02.q026",
+      "n4.l02.q027",
+      "n4.l02.q028",
+      "n4.l02.q029",
+      "n4.l02.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l02.q001",
+      "lessonId": "n4.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "自分の（　）の仕事をどうするか、じっくり考えたい。",
+      "choices": [
+        "将来",
+        "昨日",
+        "過去",
+        "去年"
+      ],
+      "answer": "将来",
+      "acceptedAnswers": [
+        "将来"
+      ],
+      "explanation": "将来 (しょうらい) means personal or near future.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q002",
+      "lessonId": "n4.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "旅行の（　）を細かくノートに書き留めた。",
+      "choices": [
+        "計画",
+        "経験",
+        "専門",
+        "道具"
+      ],
+      "answer": "計画",
+      "acceptedAnswers": [
+        "計画"
+      ],
+      "explanation": "A travel itinerary or plan is 旅行の計画 (りょこうのけいかく).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q003",
+      "lessonId": "n4.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "大学院では自分の（　）分野の研究に専念したい。",
+      "choices": [
+        "専門",
+        "計画",
+        "案内",
+        "景色"
+      ],
+      "answer": "専門",
+      "acceptedAnswers": [
+        "専門"
+      ],
+      "explanation": "専門 (せんもん) means specialized field / major.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q004",
+      "lessonId": "n4.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "海外で一人で生活したことは、とても貴重な（　）になった。",
+      "choices": [
+        "経験",
+        "給料",
+        "規則",
+        "案内"
+      ],
+      "answer": "経験",
+      "acceptedAnswers": [
+        "経験"
+      ],
+      "explanation": "経験 (けいけん) means experience.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q005",
+      "lessonId": "n4.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "明日の会議の（　）はもう終わりましたか。",
+      "choices": [
+        "準備",
+        "将来",
+        "夢",
+        "波"
+      ],
+      "answer": "準備",
+      "acceptedAnswers": [
+        "準備"
+      ],
+      "explanation": "Meeting preparation is 会議の準備 (かいぎのじゅんび).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q006",
+      "lessonId": "n4.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "途中でやめないで、最後まで（　）ことが大切です。",
+      "choices": [
+        "続ける",
+        "決める",
+        "直す",
+        "始める"
+      ],
+      "answer": "続ける",
+      "acceptedAnswers": [
+        "続ける"
+      ],
+      "explanation": "続ける (つづける) means to persist / continue doing without quitting.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q007",
+      "lessonId": "n4.l02",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「計画」の「計」の音読みはどれですか。",
+      "choices": [
+        "ケイ",
+        "ケン",
+        "ガ",
+        "カク"
+      ],
+      "answer": "ケイ",
+      "acceptedAnswers": [
+        "ケイ"
+      ],
+      "explanation": "The on-yomi of 計 is ケイ (as in 計画 けいかく).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q008",
+      "lessonId": "n4.l02",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「映画」の「画」の正しい読み方はどれですか。",
+      "choices": [
+        "が",
+        "けい",
+        "けん",
+        "かく"
+      ],
+      "answer": "が",
+      "acceptedAnswers": [
+        "が"
+      ],
+      "explanation": "映画 is read えいが.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q009",
+      "lessonId": "n4.l02",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「けいけん」を漢字で書くとき、正しい表記はどれですか。",
+      "choices": [
+        "経験",
+        "計験",
+        "経検",
+        "計検"
+      ],
+      "answer": "経験",
+      "acceptedAnswers": [
+        "経験"
+      ],
+      "explanation": "Experience is written 経験.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.k003",
+        "n4.l02.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q010",
+      "lessonId": "n4.l02",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「試験」の「験」と同じ漢字を使う言葉はどれですか。",
+      "choices": [
+        "経験",
+        "経済",
+        "案内",
+        "時計"
+      ],
+      "answer": "経験",
+      "acceptedAnswers": [
+        "経験"
+      ],
+      "explanation": "Both 試験 and 経験 share the kanji 験 (けん).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q011",
+      "lessonId": "n4.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "週末は友達と映画を見に（　）と思っています。",
+      "choices": [
+        "行こう",
+        "行く",
+        "行った",
+        "行けば"
+      ],
+      "answer": "行こう",
+      "acceptedAnswers": [
+        "行こう"
+      ],
+      "explanation": "With と思っています, use the volitional form: 行く → 行こう.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q012",
+      "lessonId": "n4.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "少し疲れたから、あそこのカフェで少し（　）か。",
+      "choices": [
+        "休もう",
+        "休む",
+        "休んだ",
+        "休まない"
+      ],
+      "answer": "休もう",
+      "acceptedAnswers": [
+        "休もう"
+      ],
+      "explanation": "Volitional form 休もう represents casual proposal / let's rest.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q013",
+      "lessonId": "n4.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "食べる（グループ2）の意向形はどれですか。",
+      "choices": [
+        "食べよう",
+        "食べろう",
+        "食べう",
+        "食べとお"
+      ],
+      "answer": "食べよう",
+      "acceptedAnswers": [
+        "食べよう"
+      ],
+      "explanation": "Group 2 verbs form volitional by replacing る with よう: 食べる → 食べよう.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q014",
+      "lessonId": "n4.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "する（グループ3）の意向形はどれですか。",
+      "choices": [
+        "しよう",
+        "すよう",
+        "さよう",
+        "しろ"
+      ],
+      "answer": "しよう",
+      "acceptedAnswers": [
+        "しよう"
+      ],
+      "explanation": "Group 3 する volitional form is irregular: しよう.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q015",
+      "lessonId": "n4.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "来年の夏休みに国へ（　）つもりです。",
+      "choices": [
+        "帰る",
+        "帰ろう",
+        "帰り",
+        "帰った"
+      ],
+      "answer": "帰る",
+      "acceptedAnswers": [
+        "帰る"
+      ],
+      "explanation": "〜つもりです takes the dictionary form (or ない form) of the verb: 帰るつもりです.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q016",
+      "lessonId": "n4.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "健康のために、もうタバコは（　）つもりです。",
+      "choices": [
+        "吸わない",
+        "吸う",
+        "吸おう",
+        "吸った"
+      ],
+      "answer": "吸わない",
+      "acceptedAnswers": [
+        "吸わない"
+      ],
+      "explanation": "Negative intention uses [Verb-nai] つもりです: 吸わないつもりです.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q017",
+      "lessonId": "n4.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "飛行機は明日の午後3時に成田空港に（　）予定です。",
+      "choices": [
+        "着く",
+        "着こう",
+        "着いて",
+        "着いた"
+      ],
+      "answer": "着く",
+      "acceptedAnswers": [
+        "着く"
+      ],
+      "explanation": "〜予定です takes the dictionary form: 着く予定です.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q018",
+      "lessonId": "n4.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "明日は午後から社内会議の（　）です。",
+      "choices": [
+        "予定",
+        "つもり",
+        "意向",
+        "希望"
+      ],
+      "answer": "予定",
+      "acceptedAnswers": [
+        "予定"
+      ],
+      "explanation": "With a noun like 社内会議, use [Noun] の予定です.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q019",
+      "lessonId": "n4.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "以前からずっと留学（　）と思っています。",
+      "choices": [
+        "しよう",
+        "する",
+        "した",
+        "すれば"
+      ],
+      "answer": "しよう",
+      "acceptedAnswers": [
+        "しよう"
+      ],
+      "explanation": "Ongoing intention uses [Volitional] と思っています: 留学しようと思っています.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q020",
+      "lessonId": "n4.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「来る」の意向形はどれですか。",
+      "choices": [
+        "こよう",
+        "きよう",
+        "くよう",
+        "これる"
+      ],
+      "answer": "こよう",
+      "acceptedAnswers": [
+        "こよう"
+      ],
+      "explanation": "The irregular verb 来る (くる) forms volitional as こよう (来よう).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q021",
+      "lessonId": "n4.l02",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者は高校生のときに何を読んで日本に関心を持ちましたか。",
+      "choices": [
+        "日本の木造建築についての本",
+        "日本の漫画やアニメ",
+        "旅行ガイドブック",
+        "料理のレシピ本"
+      ],
+      "answer": "日本の木造建築についての本",
+      "acceptedAnswers": [
+        "日本の木造建築についての本"
+      ],
+      "explanation": "The text states: 高校生のときに日本の木造建築についての本を読んで...",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q022",
+      "lessonId": "n4.l02",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者は大学を卒業したあと、何をするつもりですか。",
+      "choices": [
+        "日本の大学院へ留学する",
+        "すぐに会社を立ち上げる",
+        "母国の高校で働く",
+        "世界一周旅行に出かける"
+      ],
+      "answer": "日本の大学院へ留学する",
+      "acceptedAnswers": [
+        "日本の大学院へ留学する"
+      ],
+      "explanation": "The text says: 大学を卒業したあと、日本の大学院へ留学しようと思っています.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q023",
+      "lessonId": "n4.l02",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "大学院に入学するのはいつの予定ですか。",
+      "choices": [
+        "来年の四月",
+        "今年の十二月",
+        "今月の末",
+        "再来年の秋"
+      ],
+      "answer": "来年の四月",
+      "acceptedAnswers": [
+        "来年の四月"
+      ],
+      "explanation": "The text states: 来年の四月に入学する予定なので...",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q024",
+      "lessonId": "n4.l02",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者は今年の十二月に何を受けるつもりですか。",
+      "choices": [
+        "日本語能力試験のN2",
+        "大学院の入学試験",
+        "運転免許の試験",
+        "英語のTOEFL試験"
+      ],
+      "answer": "日本語能力試験のN2",
+      "acceptedAnswers": [
+        "日本語能力試験のN2"
+      ],
+      "explanation": "The text states: 今年の十二月には日本語能力試験のN2を受けるつもりです.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q025",
+      "lessonId": "n4.l02",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者の将来の夢は何ですか。",
+      "choices": [
+        "自分の国と日本をつなぐ建築家になること",
+        "日本で日本語の先生になること",
+        "大きなIT企業を経営すること",
+        "木造のホテルを建てること"
+      ],
+      "answer": "自分の国と日本をつなぐ建築家になること",
+      "acceptedAnswers": [
+        "自分の国と日本をつなぐ建築家になること"
+      ],
+      "explanation": "The final sentence states: 将来は自分の国と日本をつなぐ建築家になろうと心に決めています.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q026",
+      "lessonId": "n4.l02",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "アウンさんは大学卒業後、どうするつもりだと言っていますか。",
+      "choices": [
+        "日本のIT企業に就職する",
+        "母国へ帰って就職する",
+        "大学院に進学する",
+        "アルバイトを続ける"
+      ],
+      "answer": "日本のIT企業に就職する",
+      "acceptedAnswers": [
+        "日本のIT企業に就職する"
+      ],
+      "explanation": "Aung replies: 国へ帰らずに、日本のIT企業に就職しようと思っています.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q027",
+      "lessonId": "n4.l02",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "アウンさんの最終面接はいつ行われる予定ですか。",
+      "choices": [
+        "来週の金曜日",
+        "今週の土曜日",
+        "来月の初め",
+        "明日の午後"
+      ],
+      "answer": "来週の金曜日",
+      "acceptedAnswers": [
+        "来週の金曜日"
+      ],
+      "explanation": "Aung says: 来週の金曜日に最終面接を受ける予定です.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q028",
+      "lessonId": "n4.l02",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "アウンさんは将来何をしようと考えていますか。",
+      "choices": [
+        "自分の会社を作ること",
+        "大学でプログラミングを教えること",
+        "母国の公務員になること",
+        "旅行会社を開くこと"
+      ],
+      "answer": "自分の会社を作ること",
+      "acceptedAnswers": [
+        "自分の会社を作ること"
+      ],
+      "explanation": "Aung says: いつか自分の会社を作ろうと考えています.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q029",
+      "lessonId": "n4.l02",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "アウンさんは今週の土曜日に何をする予定ですか。",
+      "choices": [
+        "先生に模擬面接を手伝ってもらう",
+        "友達と旅行に行く",
+        "アルバイトの面接に行く",
+        "新しいパソコンを買いに行く"
+      ],
+      "answer": "先生に模擬面接を手伝ってもらう",
+      "acceptedAnswers": [
+        "先生に模擬面接を手伝ってもらう"
+      ],
+      "explanation": "Aung states: 土曜日は日本語の先生に模擬面接を手伝ってもらう予定です.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l02.q030",
+      "lessonId": "n4.l02",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "佐藤さんはアウンさんの計画を聞いてどう言いましたか。",
+      "choices": [
+        "立派な計画だと応援した",
+        "危険だからやめたほうがいいと言った",
+        "母国に帰るべきだと反対した",
+        "面接を延期するように勧めた"
+      ],
+      "answer": "立派な計画だと応援した",
+      "acceptedAnswers": [
+        "立派な計画だと応援した"
+      ],
+      "explanation": "Sato responds: 立派な計画ですね！応援していますよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l02.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

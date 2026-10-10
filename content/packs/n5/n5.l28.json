@@ -1,0 +1,1642 @@
+{
+  "id": "n5.l28",
+  "level": "N5",
+  "module": "N5 Communication & Integration",
+  "number": 28,
+  "title": "Advice and Suggestions (〜たほうがいい・〜ませんか)",
+  "description": "Master giving constructive advice with [Verb-ta] ほうがいいです (you should) and [Verb-nai] ほうがいいです (you had better not), and making polite invitations and suggestions with 〜ませんか and 〜ましょう.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l28.v001",
+      "lessonId": "n5.l28",
+      "ja": "体",
+      "kana": "からだ",
+      "en": "Body / Health",
+      "my": "ခန္ဓာကိုယ် / ကျန်းမာရေး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l28.s001",
+      "kanjiIds": [
+        "n5.l28.k001"
+      ],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.v002",
+      "lessonId": "n5.l28",
+      "ja": "頭",
+      "kana": "あたま",
+      "en": "Head",
+      "my": "ဦးခေါင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l28.s002",
+      "kanjiIds": [
+        "n5.l28.k002"
+      ],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.v003",
+      "lessonId": "n5.l28",
+      "ja": "お腹",
+      "kana": "おなか",
+      "en": "Stomach / Belly",
+      "my": "ဗိုက်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l28.s003",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.v004",
+      "lessonId": "n5.l28",
+      "ja": "歯",
+      "kana": "は",
+      "en": "Tooth / Teeth",
+      "my": "သွား",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l28.s002",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.v005",
+      "lessonId": "n5.l28",
+      "ja": "病気",
+      "kana": "びょうき",
+      "en": "Illness / Sickness",
+      "my": "ရောဂါ / နေမကောင်းဖြစ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l28.s004",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.v006",
+      "lessonId": "n5.l28",
+      "ja": "風邪",
+      "kana": "かぜ",
+      "en": "Cold / Influenza",
+      "my": "အအေးမိခြင်း / နှာစေးချောင်းဆိုး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l28.s004",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.v007",
+      "lessonId": "n5.l28",
+      "ja": "医者",
+      "kana": "いしゃ",
+      "en": "Doctor / Physician",
+      "my": "ဆရာဝန်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l28.s005",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.v008",
+      "lessonId": "n5.l28",
+      "ja": "無理をする",
+      "kana": "むりをする",
+      "en": "To overwork / overstrain oneself",
+      "my": "အတင်းအကြပ် အပင်ပန်းခံသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l28.s006",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.v009",
+      "lessonId": "n5.l28",
+      "ja": "休む",
+      "kana": "やすむ",
+      "en": "To rest / take a day off",
+      "my": "အနားယူသည် / အနားပေးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l28.s006",
+      "kanjiIds": [
+        "n5.l28.k004"
+      ],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.v010",
+      "lessonId": "n5.l28",
+      "ja": "早く",
+      "kana": "はやく",
+      "en": "Early / Quickly",
+      "my": "စောစော / မြန်မြန်",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l28.s007",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.v011",
+      "lessonId": "n5.l28",
+      "ja": "お大事に",
+      "kana": "おだいじに",
+      "en": "Take care of yourself / Get well soon",
+      "my": "ဂရုစိုက်ပါ / ကျန်းမာပါစေ",
+      "pos": "expression",
+      "exampleSentenceId": "n5.l28.s008",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.v012",
+      "lessonId": "n5.l28",
+      "ja": "一緒",
+      "kana": "いっしょ",
+      "en": "Together",
+      "my": "အတူတူ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l28.s009",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l28.k001",
+      "lessonId": "n5.l28",
+      "char": "体",
+      "meaning": "Body, substance",
+      "onyomi": [
+        "タイ",
+        "テイ"
+      ],
+      "kunyomi": [
+        "からだ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "体 (からだ)",
+          "reading": "からだ",
+          "meaning": "Body",
+          "preview": false
+        },
+        {
+          "word": "体重 (たいじゅう)",
+          "reading": "たいじゅう",
+          "meaning": "Body weight",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l28.s001"
+      ],
+      "components": [
+        "亻",
+        "本"
+      ],
+      "strokes": 7,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.k002",
+      "lessonId": "n5.l28",
+      "char": "頭",
+      "meaning": "Head, counter for large animals",
+      "onyomi": [
+        "トウ",
+        "ズ"
+      ],
+      "kunyomi": [
+        "あたま",
+        "かしら"
+      ],
+      "exampleVocab": [
+        {
+          "word": "頭 (あたま)",
+          "reading": "あたま",
+          "meaning": "Head",
+          "preview": false
+        },
+        {
+          "word": "頭痛 (ずつう)",
+          "reading": "ずつう",
+          "meaning": "Headache",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l28.s002"
+      ],
+      "components": [
+        "豆",
+        "頁"
+      ],
+      "strokes": 16,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.k003",
+      "lessonId": "n5.l28",
+      "char": "薬",
+      "meaning": "Medicine, chemical",
+      "onyomi": [
+        "ヤク"
+      ],
+      "kunyomi": [
+        "くすり"
+      ],
+      "exampleVocab": [
+        {
+          "word": "薬 (くすり)",
+          "reading": "くすり",
+          "meaning": "Medicine",
+          "preview": false
+        },
+        {
+          "word": "薬局 (やっきょく)",
+          "reading": "やっきょく",
+          "meaning": "Pharmacy",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l28.s005"
+      ],
+      "components": [
+        "艹",
+        "楽"
+      ],
+      "strokes": 16,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.k004",
+      "lessonId": "n5.l28",
+      "char": "休",
+      "meaning": "Rest, day off, retire",
+      "onyomi": [
+        "キュウ"
+      ],
+      "kunyomi": [
+        "やす.む",
+        "やす.まる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "休む (やすむ)",
+          "reading": "やすむ",
+          "meaning": "To rest",
+          "preview": false
+        },
+        {
+          "word": "休日 (きゅうじつ)",
+          "reading": "きゅうじつ",
+          "meaning": "Holiday",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l28.s006"
+      ],
+      "components": [
+        "亻",
+        "木"
+      ],
+      "strokes": 6,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l28.g001",
+      "lessonId": "n5.l28",
+      "pattern": "[V-ta] ほうがいいです / [V-nai] ほうがいいです",
+      "meaning": "It is better to [V] / You should [V] (Giving advice)",
+      "formation": "Verb (た-form) + ほうがいいです / Verb (ない-form) + ほうがいいです",
+      "explanation": {
+        "en": "Used when giving specific advice or recommendations to someone. Affirmative advice uses the past plain form (た-form): 病院へ行ったほうがいいです (You had better go to the hospital). Negative advice uses the negative plain form (ない-form): お酒を飲まないほうがいいです (You had better not drink alcohol).",
+        "my": "တစ်ဖက်သားအား အကြံဉာဏ်ပေးရာတွင် 「ကြိယာ た-form + ほうがいいです」 (...လုပ်တာ ပိုကောင်းပါတယ်) နှင့် 「ကြိယာ ない-form + ほうがいいです」 (...မလုပ်တာ ပိုကောင်းပါတယ်) ဟု သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l28.s005",
+          "note": "Affirmative advice"
+        },
+        {
+          "sentenceId": "n5.l28.s006",
+          "note": "Negative advice"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "For affirmative advice, use た-form (行ったほうがいい), NOT dictionary form (*行くほうがいい is less natural for specific personal advice). For negative advice, use ない-form (行かないほうがいい), NOT *行かなかったほうがいい."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.g002",
+      "lessonId": "n5.l28",
+      "pattern": "[V-masu-stem] ませんか / ましょう",
+      "meaning": "Won't you [V]? / Let's [V]",
+      "formation": "Verb stem + ませんか (invitation) / Verb stem + ましょう (enthusiastic proposal)",
+      "explanation": {
+        "en": "〜ませんか politely invites the listener by giving them room to decline: 一緒にお茶を飲みませんか (Won't you have tea with me?). 〜ましょう proposes an action enthusiastically or responds affirmatively to an invitation: ええ、飲みましょう (Yes, let's drink!).",
+        "my": "「〜ませんか」 သည် တစ်ဖက်သားကို ယဉ်ကျေးစွာ ဖိတ်ခေါ်ခြင်း (...မလုပ်ဘူးလား) ဖြစ်ပြီး၊ 「〜ましょう」 သည် တက်ကြွစွာ တိုက်တွန်းခြင်း သို့မဟုတ် ဖိတ်ခေါ်မှုကို လက်ခံခြင်း (...လုပ်ကြစို့) ဖြစ်သည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l28.s009",
+          "note": "Polite invitation"
+        },
+        {
+          "sentenceId": "n5.l28.s010",
+          "note": "Mutual proposal"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use 〜ましょう to a superior when proposing something that requires their effort or permission; use 〜ませんか instead to remain polite."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l28.s001",
+      "lessonId": "n5.l28",
+      "ja": "毎朝ジョギングをして、体を大切にしています。",
+      "kana": "まいあさじょぎんぐをして、からだをたいせつにしています。",
+      "translation": {
+        "en": "I jog every morning and take good care of my body.",
+        "my": "မနက်တိုင်း အပြေးလေ့ကျင့်ပြီး ခန္ဓာကိုယ်ကို ဂရုစိုက်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l28.v001"
+      ],
+      "grammarIds": [
+        "n5.l28.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.s002",
+      "lessonId": "n5.l28",
+      "ja": "朝から頭や歯が痛くて、集中できません。",
+      "kana": "あさからあたまやはがいたくて、しゅうちゅうできません。",
+      "translation": {
+        "en": "My head and tooth have been hurting since morning and I cannot concentrate.",
+        "my": "မနက်ကတည်းက ခေါင်းနဲ့ သွားကိုက်နေလို့ အာရုံမစိုက်နိုင်ပါဘူး။"
+      },
+      "vocabIds": [
+        "n5.l28.v002",
+        "n5.l28.v004"
+      ],
+      "grammarIds": [
+        "n5.l28.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.s003",
+      "lessonId": "n5.l28",
+      "ja": "冷たいものを飲みすぎて、お腹が痛くなりました。",
+      "kana": "つめたいものをのみすぎて、おなかがいたくなりました。",
+      "translation": {
+        "en": "I drank too many cold things and my stomach started hurting.",
+        "my": "အအေးတွေ အလွန်အကျွံသောက်မိလို့ ဗိုက်အောင့်လာခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l28.v003",
+        "n5.l28.v004"
+      ],
+      "grammarIds": [
+        "n5.l28.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.s004",
+      "lessonId": "n5.l28",
+      "ja": "風邪の病気で熱が三十八度ありますから、病院へ行ったほうがいいです。",
+      "kana": "かぜのびょうきでねつがさんじゅうはちどありますから、びょういんへいったほうがいいです。",
+      "translation": {
+        "en": "Because you are sick with a cold and have a fever of 38 degrees, you had better go to the hospital.",
+        "my": "အအေးမိဖျားနာပြီး အဖျား ၃၈ ဒီဂရီရှိနေတာမို့ ဆေးရုံသွားတာ ပိုကောင်းပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l28.v005",
+        "n5.l28.v006"
+      ],
+      "grammarIds": [
+        "n5.l28.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.s005",
+      "lessonId": "n5.l28",
+      "ja": "病院へ行って、医者に診てもらったほうがいいですよ。",
+      "kana": "びょういんへいって、いしゃにみてもらったほうがいいですよ。",
+      "translation": {
+        "en": "You had better go to the hospital and see a doctor.",
+        "my": "ဆေးရုံသွားပြီး ဆရာဝန်နဲ့ ပြသတာ ပိုကောင်းပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l28.v007"
+      ],
+      "grammarIds": [
+        "n5.l28.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.s006",
+      "lessonId": "n5.l28",
+      "ja": "今日は無理をしないで、家でゆっくり休んだほうがいいです。",
+      "kana": "きょうはむりをしないで、いえでゆっくりやすんだほうがいいです。",
+      "translation": {
+        "en": "You should not overwork yourself today and had better rest comfortably at home.",
+        "my": "ဒီနေ့ အတင်းအပင်ပန်းမခံဘဲ အိမ်မှာ သက်တောင့်သက်သာ အနားယူတာ ပိုကောင်းပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l28.v008",
+        "n5.l28.v009"
+      ],
+      "grammarIds": [
+        "n5.l28.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.s007",
+      "lessonId": "n5.l28",
+      "ja": "今夜は温かいお風呂に入って、早く寝たほうがいいですよ。",
+      "kana": "こんやはあたたかいおふろにはいって、はやくねたほうがいいですよ。",
+      "translation": {
+        "en": "You had better take a warm bath and go to sleep early tonight.",
+        "my": "ဒီည ရေနွေးနွေးချိုးပြီး စောစောအိပ်တာ ပိုကောင်းပါလိမ့်မယ်။"
+      },
+      "vocabIds": [
+        "n5.l28.v010"
+      ],
+      "grammarIds": [
+        "n5.l28.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.s008",
+      "lessonId": "n5.l28",
+      "ja": "どうぞお大事にしてください。",
+      "kana": "どうぞおだいじにしてください。",
+      "translation": {
+        "en": "Please take care of yourself.",
+        "my": "ကျေးဇူးပြု၍ ဂရုစိုက်ပါခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n5.l28.v011"
+      ],
+      "grammarIds": [
+        "n5.l28.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.s009",
+      "lessonId": "n5.l28",
+      "ja": "放課後、一緒にカフェへお茶を飲みに行きませんか。",
+      "kana": "ほうかご、いっしょにかふぇへおちゃをのみにいきませんか。",
+      "translation": {
+        "en": "After school, won't you go to a cafe to have tea together?",
+        "my": "ကျောင်းဆင်းပြီးနောက် ကော်ဖီဆိုင်မှာ အတူတူ လက်ဖက်ရည်သွားသောက်မလား။"
+      },
+      "vocabIds": [
+        "n5.l28.v012"
+      ],
+      "grammarIds": [
+        "n5.l28.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l28.s010",
+      "lessonId": "n5.l28",
+      "ja": "ええ、行きましょう！楽しみにしています。",
+      "kana": "ええ、いきましょう！たのしみにしています。",
+      "translation": {
+        "en": "Yes, let's go! I'm looking forward to it.",
+        "my": "ဟုတ်ကဲ့၊ သွားကြစို့။ မျှော်လင့်နေပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l28.v012"
+      ],
+      "grammarIds": [
+        "n5.l28.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l28.r01",
+    "lessonId": "n5.l28",
+    "title": "先輩からの助言メール (Advice Email from a Senior Student)",
+    "level": "N5",
+    "text": "リーさんへ：\n今日、授業を休んだと聞きました。昨日から高い熱が出て、頭やお腹も痛いそうですね。試験が近いので焦る気持ちはよく分かりますが、今は勉強より体を治すことが一番大切です。無理をして学校に来ないほうがいいですよ。まず、近くの内科のクリニックへ行って、お医者さんに診てもらったほうがいいです。そして、処方された薬をきちんと飲んで、温かいおかゆを食べて、早く布団に入って寝てください。水分をたくさん取ったほうがいいです。授業のノートは私が取っておきますから、試験の心配はしないでください。どうぞお大事に。\n先輩のケンより",
+    "kanaText": "りーさんへ：\nきょう、じゅぎょうをやすんだとききました。きのうからたかいねつがでて、あたまやおなかもいたいそうですね。しけんがちかいのであせるきもちはよくわかりますが、いまはべんきょうよりからだをなおすことがいちばんたいせつです。むりをしてがっこうにこないほうがいいですよ。まず、ちかくのないかのくりにっくへいって、おいしゃさんにみてもらったほうがいいです。そして、しょほうされたくすりをきちんとのんで、あたたかいおかゆをたべて、はやくふとんにはいってねてください。すいぶんをやすみたくさんとったほうがいいです。じゅぎょうののーとはわたしがとっておきますから、しけんのしんぱいはしないでください。どうぞおだいじに。\nせんぱいのけんより",
+    "translation": "To Lee:\nI heard that you took off from class today. I understand you have had a high fever since yesterday and your head and stomach hurt too. I understand you feel anxious because the exams are near, but right now taking care of your body is most important, more than studying. You had better not overstrain yourself to come to school. First, you had better go to a nearby internal medicine clinic and have a doctor examine you. Then, take the prescribed medicine properly, eat warm rice porridge, and get into bed early to sleep. You had better drink plenty of fluids. I will take class notes for you, so please do not worry about the exam. Please take good care of yourself.\nFrom Senior Ken",
+    "questionIds": [
+      "n5.l28.q021",
+      "n5.l28.q022",
+      "n5.l28.q023",
+      "n5.l28.q024",
+      "n5.l28.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l28.l01",
+    "lessonId": "n5.l28",
+    "title": "職場でのお見舞い (Caring for a Colleague at Work)",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "佐藤",
+      "ケン"
+    ],
+    "transcript": "佐藤：ケンさん、さっきから咳が出て顔色が良くないですよ。大丈夫ですか。\nケン：実は昨日から熱があって、頭も痛いんです。\n佐藤：それは大変ですね！無理をして仕事を続けないほうがいいですよ。午後は早退して、病院へ行ったほうがいいと思います。\nケン：でも、今日の会議の資料がまだ終わっていないんです。\n佐藤：資料の作成は私が手伝いますから、心配しないでください。早く帰って休んだほうがいいですよ。\nケン：佐藤さん、本当にありがとうございます。お言葉に甘えて、病院へ行くことにします。",
+    "translation": "Sato: Ken, you have been coughing and looking pale for a while now. Are you okay?\nKen: Actually, I've had a fever since yesterday and my head hurts too.\nSato: That's terrible! You had better not push yourself to keep working. I think you should leave early this afternoon and go to a hospital.\nKen: But I haven't finished the materials for today's meeting yet.\nSato: I will help with creating the materials, so please don't worry. You had better go home early and rest.\nKen: Sato, thank you so very much. Taking you up on your kindness, I will go to the hospital.",
+    "turns": [
+      {
+        "speaker": "佐藤",
+        "ja": "ケンさん、さっきから咳が出て顔色が良くないですよ。大丈夫ですか。",
+        "kana": "けんさん、さっきからせきがでてかおいろがよくないですよ。だいじょうぶですか。",
+        "en": "Ken, you have been coughing and looking pale for a while now. Are you okay?"
+      },
+      {
+        "speaker": "ケン",
+        "ja": "実は昨日から熱があって、頭も痛いんです。",
+        "kana": "じつはきのうからねつがあって、あたまもいたいんです。",
+        "en": "Actually, I've had a fever since yesterday and my head hurts too."
+      },
+      {
+        "speaker": "佐藤",
+        "ja": "それは大変ですね！無理をして仕事を続けないほうがいいですよ。午後は早退して、病院へ行ったほうがいいと思います。",
+        "kana": "それはたいへんですね！むりをしてしごとをつづけないほうがいいですよ。ごごはそうたいして、びょういんへいったほうがいいとおもいます。",
+        "en": "That's terrible! You had better not push yourself to keep working. I think you should leave early this afternoon and go to a hospital."
+      },
+      {
+        "speaker": "ケン",
+        "ja": "でも、今日の会議の資料がまだ終わっていないんです。",
+        "kana": "でも、きょうのかいぎのしりょうがまだおわっていないんです。",
+        "en": "But I haven't finished the materials for today's meeting yet."
+      },
+      {
+        "speaker": "佐藤",
+        "ja": "資料の作成は私が手伝いますから、心配しないでください。早く帰って休んだほうがいいですよ。",
+        "kana": "しりょうのさくせいはわたしがてつだいますから、しんぱいしないでください。はやくかえってやすんだほうがいいですよ。",
+        "en": "I will help with creating the materials, so please don't worry. You had better go home early and rest."
+      },
+      {
+        "speaker": "ケン",
+        "ja": "佐藤さん、本当にありがとうございます。お言葉に甘えて、病院へ行くことにします。",
+        "kana": "さとうさん、ほんとうにありがとうございます。おことばにあまえて、びょういんへいくことにします。",
+        "en": "Sato, thank you so very much. Taking you up on your kindness, I will go to the hospital."
+      }
+    ],
+    "questionIds": [
+      "n5.l28.q026",
+      "n5.l28.q027",
+      "n5.l28.q028",
+      "n5.l28.q029",
+      "n5.l28.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l28.q001",
+      "lessonId": "n5.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「熱」(ねつ) mean?",
+      "choices": [
+        "Cough",
+        "Fever / Temperature",
+        "Headache",
+        "Stomach ache"
+      ],
+      "answer": "Fever / Temperature",
+      "acceptedAnswers": [
+        "Fever / Temperature"
+      ],
+      "explanation": "「熱」(ねつ) means fever or temperature.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q002",
+      "lessonId": "n5.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「お腹」(おなか) mean?",
+      "choices": [
+        "Head",
+        "Leg",
+        "Stomach / Belly",
+        "Throat"
+      ],
+      "answer": "Stomach / Belly",
+      "acceptedAnswers": [
+        "Stomach / Belly"
+      ],
+      "explanation": "「お腹」(おなか) means stomach or belly.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q003",
+      "lessonId": "n5.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「無理をする」(むりをする) mean?",
+      "choices": [
+        "To rest at home",
+        "To overstrain / overwork oneself",
+        "To drink water",
+        "To exercise moderately"
+      ],
+      "answer": "To overstrain / overwork oneself",
+      "acceptedAnswers": [
+        "To overstrain / overwork oneself"
+      ],
+      "explanation": "「無理をする」(むりをする) means to push oneself beyond healthy limits.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q004",
+      "lessonId": "n5.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What is the kind Japanese phrase said to a sick person: \"Take care / Get well soon\"?",
+      "choices": [
+        "お大事に",
+        "いってらっしゃい",
+        "いただきます",
+        "ごちそうさま"
+      ],
+      "answer": "お大事に",
+      "acceptedAnswers": [
+        "お大事に"
+      ],
+      "explanation": "「お大事に」(おだいじに) is said to someone who is ill or injured.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q005",
+      "lessonId": "n5.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「風邪をひく」(かぜをひく) mean?",
+      "choices": [
+        "To blow wind",
+        "To catch a cold",
+        "To take medicine",
+        "To rest"
+      ],
+      "answer": "To catch a cold",
+      "acceptedAnswers": [
+        "To catch a cold"
+      ],
+      "explanation": "「風邪をひく」 means to catch a cold.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q006",
+      "lessonId": "n5.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What is the Japanese word for \"Medicine\"?",
+      "choices": [
+        "お茶",
+        "水",
+        "薬 (くすり)",
+        "ご飯"
+      ],
+      "answer": "薬 (くすり)",
+      "acceptedAnswers": [
+        "薬 (くすり)"
+      ],
+      "explanation": "「薬」(くすり) means medicine.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q007",
+      "lessonId": "n5.l28",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What is the Kunyomi reading for 「体」?",
+      "choices": [
+        "からだ",
+        "タイ",
+        "あたま",
+        "て"
+      ],
+      "answer": "からだ",
+      "acceptedAnswers": [
+        "からだ"
+      ],
+      "explanation": "The Kunyomi is からだ (body).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.k008",
+      "lessonId": "n5.l28",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "Which kanji means \"Head\" (あたま)?",
+      "choices": [
+        "体",
+        "頭",
+        "目",
+        "手"
+      ],
+      "answer": "頭",
+      "acceptedAnswers": [
+        "頭"
+      ],
+      "explanation": "「頭」(あたま) means head.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q009",
+      "lessonId": "n5.l28",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "How many strokes does the kanji 「休」 (やすむ) have?",
+      "choices": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": "6",
+      "acceptedAnswers": [
+        "6"
+      ],
+      "explanation": "「休」 has 6 strokes (person 亻 resting against tree 木).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q010",
+      "lessonId": "n5.l28",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What is the Onyomi reading for 「薬」 in 「薬局」(やっきょく)?",
+      "choices": [
+        "ヤク",
+        "くすり",
+        "ラク",
+        "タイ"
+      ],
+      "answer": "ヤク",
+      "acceptedAnswers": [
+        "ヤク"
+      ],
+      "explanation": "The Onyomi for 薬 is ヤク.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q011",
+      "lessonId": "n5.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "How do you say \"You should go to the hospital\" using 「〜たほうがいい」?",
+      "choices": [
+        "病院へ行ったほうがいいです",
+        "病院へ行くほうがいいです",
+        "病院へ行かないほうがいいです",
+        "病院へ行ってほうがいいです"
+      ],
+      "answer": "病院へ行ったほうがいいです",
+      "acceptedAnswers": [
+        "病院へ行ったほうがいいです"
+      ],
+      "explanation": "Use the past plain (た-form) for affirmative advice: 行ったほうがいいです.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q012",
+      "lessonId": "n5.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "How do you say \"You had better NOT drink cold water\"?",
+      "choices": [
+        "冷たい水を飲まないほうがいいです",
+        "冷たい水を飲まなかったほうがいいです",
+        "冷たい水を飲むないほうがいいです",
+        "冷たい水を飲まなくてほうがいいです"
+      ],
+      "answer": "冷たい水を飲まないほうがいいです",
+      "acceptedAnswers": [
+        "冷たい水を飲まないほうがいいです"
+      ],
+      "explanation": "Use the negative plain (ない-form) for negative advice: 飲まないほうがいいです.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q013",
+      "lessonId": "n5.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "How do you politely invite someone to drink coffee together?",
+      "choices": [
+        "一緒にコーヒーを飲みませんか",
+        "一緒にコーヒーを飲みましょう",
+        "一緒にコーヒーを飲んだほうがいいです",
+        "一緒にコーヒーを飲むな"
+      ],
+      "answer": "一緒にコーヒーを飲みませんか",
+      "acceptedAnswers": [
+        "一緒にコーヒーを飲みませんか"
+      ],
+      "explanation": "〜ませんか invites politely, giving the other person space to accept or decline.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q014",
+      "lessonId": "n5.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "How do you enthusiastically agree to an invitation: \"Yes, let's go!\"?",
+      "choices": [
+        "ええ、行きましょう！",
+        "ええ、行きませんか！",
+        "ええ、行ったほうがいいです！",
+        "ええ、行くでしょう！"
+      ],
+      "answer": "ええ、行きましょう！",
+      "acceptedAnswers": [
+        "ええ、行きましょう！"
+      ],
+      "explanation": "〜ましょう is used to accept an invitation enthusiastically: 行きましょう！",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q015",
+      "lessonId": "n5.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete: 「早く＿＿＿ほうがいいですよ。」 (You had better sleep early.)",
+      "choices": [
+        "寝た",
+        "寝る",
+        "寝て",
+        "寝ない"
+      ],
+      "answer": "寝た",
+      "acceptedAnswers": [
+        "寝た"
+      ],
+      "explanation": "Verb た-form 寝た + ほうがいいですよ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q016",
+      "lessonId": "n5.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete: 「タバコは＿＿＿ほうがいいです。」 (It is better not to smoke.)",
+      "choices": [
+        "吸わない",
+        "吸った",
+        "吸わないで",
+        "吸わなかった"
+      ],
+      "answer": "吸わない",
+      "acceptedAnswers": [
+        "吸わない"
+      ],
+      "explanation": "Negative advice uses ない-form: 吸わないほうがいいです.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q017",
+      "lessonId": "n5.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Why is た-form used in 「〜たほうがいいです」 rather than dictionary form?",
+      "choices": [
+        "It presents the advice as an established, chosen course of action",
+        "It happened in the past",
+        "It is an order",
+        "It is required by polite nouns"
+      ],
+      "answer": "It presents the advice as an established, chosen course of action",
+      "acceptedAnswers": [
+        "It presents the advice as an established, chosen course of action"
+      ],
+      "explanation": "The た-form conceives the suggested action as already chosen and realized, conveying stronger personal recommendation.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q018",
+      "lessonId": "n5.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete: 「少し＿＿＿ましょう。」 (Let's rest a little.)",
+      "choices": [
+        "休み",
+        "休んで",
+        "休んだ",
+        "休む"
+      ],
+      "answer": "休み",
+      "acceptedAnswers": [
+        "休み"
+      ],
+      "explanation": "Attach ましょう to the verb masu-stem: 休みましょう.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q019",
+      "lessonId": "n5.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "How do you say \"You had better take medicine\"?",
+      "choices": [
+        "薬を飲んだほうがいいです",
+        "薬を飲むほうがいいです",
+        "薬を飲んでほうがいいです",
+        "薬を飲まないほうがいいです"
+      ],
+      "answer": "薬を飲んだほうがいいです",
+      "acceptedAnswers": [
+        "薬を飲んだほうがいいです"
+      ],
+      "explanation": "飲んだ + ほうがいいです: 薬を飲んだほうがいいです.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q020",
+      "lessonId": "n5.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "What particle is used with 「一緒に」 (together)?",
+      "choices": [
+        "と (e.g. 友達と一緒に)",
+        "を",
+        "で",
+        "に"
+      ],
+      "answer": "と (e.g. 友達と一緒に)",
+      "acceptedAnswers": [
+        "と (e.g. 友達と一緒に)"
+      ],
+      "explanation": "The companion is marked with と: [Person] と 一緒に.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q021",
+      "lessonId": "n5.l28",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "Why did Lee miss class according to Ken's email?",
+      "choices": [
+        "He woke up late",
+        "He had a high fever and headache/stomachache",
+        "He traveled to Kyoto",
+        "He had a job interview"
+      ],
+      "answer": "He had a high fever and headache/stomachache",
+      "acceptedAnswers": [
+        "He had a high fever and headache/stomachache"
+      ],
+      "explanation": "Ken notes: 昨日から高い熱が出て、頭やお腹も痛いそうですね.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q022",
+      "lessonId": "n5.l28",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "What does Ken say is the most important thing right now?",
+      "choices": [
+        "Studying for the exam",
+        "Curing his body / recovering health",
+        "Doing homework",
+        "Taking exams early"
+      ],
+      "answer": "Curing his body / recovering health",
+      "acceptedAnswers": [
+        "Curing his body / recovering health"
+      ],
+      "explanation": "Ken writes: 今は勉強より体を治すことが一番大切です (recovering health is most important).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q023",
+      "lessonId": "n5.l28",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "What medical advice does Ken give Lee first?",
+      "choices": [
+        "Buy medicine online",
+        "Go to a nearby internal medicine clinic and see a doctor",
+        "Wait for three days",
+        "Go for a run"
+      ],
+      "answer": "Go to a nearby internal medicine clinic and see a doctor",
+      "acceptedAnswers": [
+        "Go to a nearby internal medicine clinic and see a doctor"
+      ],
+      "explanation": "Ken advises: 近くの内科のクリニックへ行って、お医者さんに診てもらったほうがいいです.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q024",
+      "lessonId": "n5.l28",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "What food does Ken suggest eating?",
+      "choices": [
+        "Spicy ramen",
+        "Warm rice porridge (おかゆ)",
+        "Pizza",
+        "Sashimi"
+      ],
+      "answer": "Warm rice porridge (おかゆ)",
+      "acceptedAnswers": [
+        "Warm rice porridge (おかゆ)"
+      ],
+      "explanation": "Ken suggests: 温かいおかゆを食べて (eat warm porridge).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q025",
+      "lessonId": "n5.l28",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "What will Ken do to help Lee with his studies?",
+      "choices": [
+        "Take the test for him",
+        "Take class notes for him",
+        "Call the teacher to cancel school",
+        "Give him money"
+      ],
+      "answer": "Take class notes for him",
+      "acceptedAnswers": [
+        "Take class notes for him"
+      ],
+      "explanation": "Ken promises: 授業のノートは私が取っておきますから (I will take class notes for you).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q026",
+      "lessonId": "n5.l28",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What symptoms does Ken have at work?",
+      "choices": [
+        "Coughing, fever since yesterday, headache",
+        "Broken leg",
+        "Toothache",
+        "Back pain"
+      ],
+      "answer": "Coughing, fever since yesterday, headache",
+      "acceptedAnswers": [
+        "Coughing, fever since yesterday, headache"
+      ],
+      "explanation": "Sato notices coughing and Ken mentions: 昨日から熱があって、頭も痛いんです.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q027",
+      "lessonId": "n5.l28",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What does Sato advise Ken to do in the afternoon?",
+      "choices": [
+        "Work overtime",
+        "Leave early and go to a hospital",
+        "Attend all meetings",
+        "Drink coffee"
+      ],
+      "answer": "Leave early and go to a hospital",
+      "acceptedAnswers": [
+        "Leave early and go to a hospital"
+      ],
+      "explanation": "Sato says: 午後は早退して、病院へ行ったほうがいいと思います.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q028",
+      "lessonId": "n5.l28",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "Why was Ken hesitant to leave work early?",
+      "choices": [
+        "He didn't want to lose money",
+        "The materials for today's meeting were not finished yet",
+        "His boss was angry",
+        "He had no umbrella"
+      ],
+      "answer": "The materials for today's meeting were not finished yet",
+      "acceptedAnswers": [
+        "The materials for today's meeting were not finished yet"
+      ],
+      "explanation": "Ken says: 今日の会議の資料がまだ終わっていないんです.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q029",
+      "lessonId": "n5.l28",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "How does Sato help Ken solve his work problem?",
+      "choices": [
+        "Sato will cancel the meeting",
+        "Sato will help create the materials",
+        "Sato will report him",
+        "Sato will leave too"
+      ],
+      "answer": "Sato will help create the materials",
+      "acceptedAnswers": [
+        "Sato will help create the materials"
+      ],
+      "explanation": "Sato offers: 資料の作成は私が手伝いますから、心配しないでください.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l28.q030",
+      "lessonId": "n5.l28",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What does Ken decide to do at the end?",
+      "choices": [
+        "Keep working all night",
+        "Accept Sato's offer and go to the hospital",
+        "Go to a karaoke box",
+        "Refuse Sato's help"
+      ],
+      "answer": "Accept Sato's offer and go to the hospital",
+      "acceptedAnswers": [
+        "Accept Sato's offer and go to the hospital"
+      ],
+      "explanation": "Ken concludes: お言葉に甘えて、病院へ行くことにします (Taking you up on your kindness, I will go to the hospital).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l28.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

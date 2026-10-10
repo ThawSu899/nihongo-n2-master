@@ -1,0 +1,1643 @@
+{
+  "id": "n5.l30",
+  "level": "N5",
+  "module": "N5 Communication & Integration",
+  "number": 30,
+  "title": "N5 Comprehensive Review and Integration (総まとめ & Can-do)",
+  "description": "Consolidate the entire JLPT N5 curriculum: integrate the four fundamental verb conjugations (Dictionary, Te, Nai, Ta forms), master particle discrimination in authentic contexts, and verify comprehensive N5 Can-do communicative competencies.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l30.v001",
+      "lessonId": "n5.l30",
+      "ja": "全部",
+      "kana": "ぜんぶ",
+      "en": "All / Everything",
+      "my": "အားလုံး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l30.s001",
+      "kanjiIds": [
+        "n5.l30.k001",
+        "n5.l30.k002"
+      ],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.v002",
+      "lessonId": "n5.l30",
+      "ja": "勉強",
+      "kana": "べんきょう",
+      "en": "Study",
+      "my": "စာလေ့လာခြင်း / စာကျက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l30.s002",
+      "kanjiIds": [
+        "n5.l30.k003",
+        "n5.l30.k004"
+      ],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.v003",
+      "lessonId": "n5.l30",
+      "ja": "テスト",
+      "kana": "てすと",
+      "en": "Test / Exam",
+      "my": "စာမေးပွဲ / စစ်ဆေးမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l30.s003",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.v004",
+      "lessonId": "n5.l30",
+      "ja": "復習",
+      "kana": "ふくしゅう",
+      "en": "Review / Revision",
+      "my": "စာပြန်လည်လေ့ကျင့်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l30.s003",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.v005",
+      "lessonId": "n5.l30",
+      "ja": "問題",
+      "kana": "もんだい",
+      "en": "Problem / Question on test",
+      "my": "မေးခွန်း / ပြဿနာ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l30.s004",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.v006",
+      "lessonId": "n5.l30",
+      "ja": "答え",
+      "kana": "こたえ",
+      "en": "Answer",
+      "my": "အဖြေ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l30.s004",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.v007",
+      "lessonId": "n5.l30",
+      "ja": "会話",
+      "kana": "かいわ",
+      "en": "Conversation / Dialogue",
+      "my": "စကားပြောဆိုမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l30.s005",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.v008",
+      "lessonId": "n5.l30",
+      "ja": "意味",
+      "kana": "いみ",
+      "en": "Meaning / Sense",
+      "my": "အဓိပ္ပာယ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l30.s006",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.v009",
+      "lessonId": "n5.l30",
+      "ja": "質問",
+      "kana": "しつもん",
+      "en": "Question / Inquiry",
+      "my": "မေးခွန်း / မေးမြန်းချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l30.s007",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.v010",
+      "lessonId": "n5.l30",
+      "ja": "大切",
+      "kana": "たいせつ",
+      "en": "Important / Precious",
+      "my": "အရေးကြီးသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n5.l30.s008",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.v011",
+      "lessonId": "n5.l30",
+      "ja": "合格",
+      "kana": "ごうかく",
+      "en": "Passing an examination",
+      "my": "စာမေးပွဲအောင်မြင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l30.s009",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.v012",
+      "lessonId": "n5.l30",
+      "ja": "これからも",
+      "kana": "これからも",
+      "en": "From now on / In the future as well",
+      "my": "နောင်အနာဂတ်တွင်လည်း",
+      "pos": "expression",
+      "exampleSentenceId": "n5.l30.s010",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l30.k001",
+      "lessonId": "n5.l30",
+      "char": "全",
+      "meaning": "Whole, entire, all",
+      "onyomi": [
+        "ゼン"
+      ],
+      "kunyomi": [
+        "まった.く",
+        "すべ.て"
+      ],
+      "exampleVocab": [
+        {
+          "word": "全部 (ぜんぶ)",
+          "reading": "ぜんぶ",
+          "meaning": "All / Everything",
+          "preview": false
+        },
+        {
+          "word": "安全 (あんぜん)",
+          "reading": "あんぜん",
+          "meaning": "Safe",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l30.s001"
+      ],
+      "components": [
+        "人",
+        "王"
+      ],
+      "strokes": 6,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.k002",
+      "lessonId": "n5.l30",
+      "char": "部",
+      "meaning": "Section, department, part",
+      "onyomi": [
+        "ブ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "全部 (ぜんぶ)",
+          "reading": "ぜんぶ",
+          "meaning": "All / Everything",
+          "preview": false
+        },
+        {
+          "word": "部長 (ぶちょう)",
+          "reading": "ぶちょう",
+          "meaning": "Department manager",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l30.s001"
+      ],
+      "components": [
+        "立",
+        "口",
+        "阝"
+      ],
+      "strokes": 11,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.k003",
+      "lessonId": "n5.l30",
+      "char": "勉",
+      "meaning": "Exertion, diligence",
+      "onyomi": [
+        "ベン"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "勉強 (べんきょう)",
+          "reading": "べんきょう",
+          "meaning": "Study",
+          "preview": false
+        },
+        {
+          "word": "勤勉 (きんべん)",
+          "reading": "きんべん",
+          "meaning": "Diligent",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l30.s002"
+      ],
+      "components": [
+        "免",
+        "力"
+      ],
+      "strokes": 10,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.k004",
+      "lessonId": "n5.l30",
+      "char": "強",
+      "meaning": "Strong, powerful",
+      "onyomi": [
+        "キョウ",
+        "ゴウ"
+      ],
+      "kunyomi": [
+        "つよ.い"
+      ],
+      "exampleVocab": [
+        {
+          "word": "勉強 (べんきょう)",
+          "reading": "べんきょう",
+          "meaning": "Study",
+          "preview": false
+        },
+        {
+          "word": "強い (つよい)",
+          "reading": "つよい",
+          "meaning": "Strong",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l30.s002"
+      ],
+      "components": [
+        "弓",
+        "ム",
+        "虫"
+      ],
+      "strokes": 11,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l30.g001",
+      "lessonId": "n5.l30",
+      "pattern": "Verb Form Integration (て形・ない形・た形・辞書形)",
+      "meaning": "Mastery and systematic synthesis of the 4 core verb conjugations",
+      "formation": "Dictionary Form (食べる) / て-form (食べて) / ない-form (食べない) / た-form (食べた)",
+      "explanation": {
+        "en": "The 4 fundamental verb forms unlocked all N5 grammar patterns:\n1. て-form: Requests (〜てください), Continuous (〜ています), Permission (〜てもいい), Connecting (〜てから).\n2. ない-form: Negative request (〜ないでください), Obligation (〜なければなりません).\n3. た-form: Experience (〜たことがある), Non-exhaustive listing (〜たり〜たり), Advice (〜たほうがいい), Conditional (〜たら).\n4. Dictionary form: Ability (〜ことができる), Hobby (〜ことです), Before (〜前に), Natural condition (〜と).",
+        "my": "ဂျပန်ဘာသာ အခြေခံ ကြိယာ ၄ မျိုး (Dictionary-form, て-form, ない-form, た-form) သည် N5 သဒ္ဒါပုံစံအားလုံး၏ အဓိက မဏ္ဍိုင်ဖြစ်သည်။ ၎င်းတို့ကို စနစ်တကျ ပြန်လည်ပေါင်းစပ်လေ့ကျင့်သည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l30.s001",
+          "note": "Conjugation review"
+        },
+        {
+          "sentenceId": "n5.l30.s004",
+          "note": "Multiple forms in context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay special attention to Group 1 consonant-stem verbs (e.g. 書く → 書いて/書かない/書いた; 泳ぐ → 泳いで/泳がない/泳いだ; 待つ → 待って/待たない/待った)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.g002",
+      "lessonId": "n5.l30",
+      "pattern": "Particle Discrimination (は・が・を・に・で・へ・と・から・まで・より)",
+      "meaning": "Comprehensive discrimination of JLPT N5 particles in context",
+      "formation": "Noun + Particle [は / が / を / に / で / へ / と / から / まで / より]",
+      "explanation": {
+        "en": "Accurately distinguish the core N5 particle roles:\n- は: Topic / Contrast\n- が: Subject of clause / Natural phenomenon / Sensation (好き、上手、分かる)\n- を: Direct object of transitive verbs / Route of motion (公園を散歩する)\n- に: Specific time / Destination / Static location of existence (部屋にいる) / Target of contact\n- で: Means / Tool / Location of active action\n- へ: Direction of motion\n- と: Companion (with) / Quotation / Mutual comparison\n- から・まで: Starting and ending points in space or time\n- より: Standard of comparison (A より B のほうが〜).",
+        "my": "ဂျပန်ဘာသာ ဝိဘတ်များဖြစ်သော 「は၊ が၊ を၊ に၊ で၊ へ၊ と၊ から၊ まで၊ より」 တို့၏ သုံးစွဲပုံကွဲပြားချက်များကို စနစ်တကျ ခွဲခြားအသုံးပြုခြင်း ဖြစ်သည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l30.s005",
+          "note": "Conversation particles"
+        },
+        {
+          "sentenceId": "n5.l30.s007",
+          "note": "Target and object particles"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse に and で (に is for static existence あります/います; で is for active actions 勉強します/食べます). Do not confuse は and が inside relative clauses (always use が inside noun-modifying clauses)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l30.s001",
+      "lessonId": "n5.l30",
+      "ja": "N5の文法と漢字を全部復習しました。",
+      "kana": "えぬごのぶんぽうとかんじをぜんぶふくしゅうしました。",
+      "translation": {
+        "en": "I reviewed all the grammar and kanji of N5.",
+        "my": "N5 ရဲ့ သဒ္ဒါနဲ့ ကန်ဂျီအားလုံးကို ပြန်လည်လေ့ကျင့်ခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l30.v001",
+        "n5.l30.v004"
+      ],
+      "grammarIds": [
+        "n5.l30.g001",
+        "n5.l30.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.s002",
+      "lessonId": "n5.l30",
+      "ja": "毎日三時間日本語を勉強しています。",
+      "kana": "まいにちさんじかんにほんごをべんきょうしています。",
+      "translation": {
+        "en": "I study Japanese for three hours every day.",
+        "my": "နေ့တိုင်း ဂျပန်စာကို ၃ နာရီ စာကျက်နေပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l30.v002"
+      ],
+      "grammarIds": [
+        "n5.l30.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.s003",
+      "lessonId": "n5.l30",
+      "ja": "テストの前に、大切な単語をしっかり復習してください。",
+      "kana": "てすとのまえに、たいせつなたんごをしっかりふくしゅうしてください。",
+      "translation": {
+        "en": "Before the test, please review the important vocabulary thoroughly.",
+        "my": "စာမေးပွဲမတိုင်ခင် အရေးကြီးတဲ့ ဝေါဟာရတွေကို သေချာ ပြန်လည်လေ့ကျင့်ပါ။"
+      },
+      "vocabIds": [
+        "n5.l30.v003",
+        "n5.l30.v004",
+        "n5.l30.v010"
+      ],
+      "grammarIds": [
+        "n5.l30.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.s004",
+      "lessonId": "n5.l30",
+      "ja": "テストの問題をよく読んで、正しい答えを選びました。",
+      "kana": "てす大的のもんだいをよくよんで、ただしいこたえをえらびました。",
+      "translation": {
+        "en": "I read the test questions carefully and chose the correct answers.",
+        "my": "စာမေးပွဲမေးခွန်းတွေကို သေချာဖတ်ပြီး မှန်ကန်တဲ့ အဖြေတွေကို ရွေးချယ်ခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l30.v005",
+        "n5.l30.v006"
+      ],
+      "grammarIds": [
+        "n5.l30.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.s005",
+      "lessonId": "n5.l30",
+      "ja": "先生やクラスメイトと日本語で楽しく会話ができるようになりました。",
+      "kana": "せんせいやくらすめいとにほんごでたのしくかいわができるようになりました。",
+      "translation": {
+        "en": "I have become able to converse enjoyably in Japanese with my teacher and classmates.",
+        "my": "ဆရာမနဲ့ အတန်းဖော်တွေနဲ့ ဂျပန်လို ပျော်ရွှင်စွာ စကားပြောဆိုနိုင်လာခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l30.v007"
+      ],
+      "grammarIds": [
+        "n5.l30.g001",
+        "n5.l30.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.s006",
+      "lessonId": "n5.l30",
+      "ja": "辞書でこのことわざの意味を調べました。",
+      "kana": "じしょでこのことわざのいみをしらべました。",
+      "translation": {
+        "en": "I checked the meaning of this proverb in the dictionary.",
+        "my": "အဘိဓာန်ထဲမှာ ဒီစကားပုံရဲ့ အဓိပ္ပာယ်ကို ရှာဖွေကြည့်ခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l30.v008"
+      ],
+      "grammarIds": [
+        "n5.l30.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.s007",
+      "lessonId": "n5.l30",
+      "ja": "分からないところがあれば、先生に質問してください。",
+      "kana": "わからないところがあれば、せんせいにしつもんしてください。",
+      "translation": {
+        "en": "If there are points you don't understand, please ask the teacher a question.",
+        "my": "နားမလည်တဲ့ နေရာရှိပါက ဆရာ့အား မေးခွန်းမေးပါ။"
+      },
+      "vocabIds": [
+        "n5.l30.v009"
+      ],
+      "grammarIds": [
+        "n5.l30.g001",
+        "n5.l30.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.s008",
+      "lessonId": "n5.l30",
+      "ja": "健康は何よりも一番大切です。",
+      "kana": "けんこうはなによりもいちばんたいせつです。",
+      "translation": {
+        "en": "Health is more important than anything else.",
+        "my": "ကျန်းမာရေးဟာ အရာအားလုံးထက် အရေးကြီးဆုံး ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l30.v010"
+      ],
+      "grammarIds": [
+        "n5.l30.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.s009",
+      "lessonId": "n5.l30",
+      "ja": "一生懸命勉強したから、きっと試験に合格するでしょう。",
+      "kana": "いっしょうけんめいべんきょうしたから、きっとしけんにごうかくするでしょう。",
+      "translation": {
+        "en": "Because I studied with all my might, I will surely pass the exam.",
+        "my": "ကြိုးကြိုးစားစား စာကျက်ခဲ့တာမို့ စာမေးပွဲ အောင်မြင်မှာ သေချာပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l30.v011"
+      ],
+      "grammarIds": [
+        "n5.l30.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l30.s010",
+      "lessonId": "n5.l30",
+      "ja": "これからも日本の文化と日本語を楽しく学び続けたいです。",
+      "kana": "これからもにほんのぶんかにほんごをたのしくまなびつづけたいです。",
+      "translation": {
+        "en": "From now on as well, I want to continue learning Japanese culture and language enjoyably.",
+        "my": "နောင်အနာဂတ်မှာလည်း ဂျပန်ယဉ်ကျေးမှုနဲ့ ဂျပန်စာကို ပျော်ရွှင်စွာ ဆက်လက်လေ့လာချင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l30.v012"
+      ],
+      "grammarIds": [
+        "n5.l30.g001",
+        "n5.l30.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l30.r01",
+    "lessonId": "n5.l30",
+    "title": "半年間の日本語学習を振り返って (Reflecting on 6 Months of Japanese Studies)",
+    "level": "N5",
+    "text": "日本に来てから、あっという間に半年が過ぎました。最初はひらがなとカタカナを読むことさえ難しくて、駅の看板や切符の買い方も分かりませんでした。しかし、毎日日本語学校で勉強して、教科書の三十課まで全部終わることができました。動詞のて形やた形、ない形のルールを覚えるのは大変でしたが、今では友達と日常の会話ができるようになりました。日本の習慣や季節の行事についてもたくさん学びました。来月はいよいよJLPT N5の試験を受けます。これからも諦めないで復習を続けて、来年はN4に挑戦したいです。",
+    "kanaText": "にほんにきてから、あっという間にはんとしがすぎました。さいしょはひらがなとかたかなをよむことさえむずかしくて、えきのかんばんやきっぷのかいかたもわかりませんでした。しかし、まいにちにほんごがっこうでべんきょうして、きょうかしょのさんじゅっかまでぜんぶおわることができました。どうしのてけいやたけい、ないけいのるーるをおぼえるのはたいへんでしたが、いまではともだちとにちじょうのかいわができるようになりました。にほんのしゅうかんやきせつのぎょうじについてもたくさんまなびました。らいげつはいよいよえぬごのしけんをうけます。これからもあきらめないでふくしゅうをつづけて、らいねんはえぬよんにちょうせんしたいです。",
+    "translation": "Since coming to Japan, half a year has flown by in the blink of an eye. In the beginning, even reading Hiragana and Katakana was difficult, and I didn't understand station signs or how to buy tickets. However, by studying at Japanese language school every day, I was able to complete all 30 lessons of the textbook. Remembering the rules of verb Te-form, Ta-form, and Nai-form was tough, but now I have become able to have everyday conversations with friends. I also learned a lot about Japanese customs and seasonal events. Next month, I will finally take the JLPT N5 exam. From now on as well, I will not give up and will continue reviewing, and next year I want to challenge N4.",
+    "questionIds": [
+      "n5.l30.q021",
+      "n5.l30.q022",
+      "n5.l30.q023",
+      "n5.l30.q024",
+      "n5.l30.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l30.l01",
+    "lessonId": "n5.l30",
+    "title": "N5修了とこれからの目標 (N5 Completion and Future Goals)",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "先生",
+      "リン"
+    ],
+    "transcript": "先生：リンさん、三十課までの勉強が全部終わりましたね。おめでとうございます。\nリン：先生、熱心に教えてくださって、本当にありがとうございました！\n先生：リンさんは漢字も文法も本当によく頑張りましたね。今の日本語の力はどう感じますか。\nリン：買い物や道案内、電車の利用など、生活に必要な会話は一人でできるようになりました。\n先生：素晴らしいですね！N5の試験もきっと合格するでしょう。次はN4ですね。\nリン：はい！これからも毎日コツコツ復習して、次はN4の合格を目指します！",
+    "translation": "Teacher: Lin, you have completed all the studies up through Lesson 30. Congratulations!\nLin: Teacher, thank you so very much for teaching me so enthusiastically!\nTeacher: Lin, you truly worked hard on both kanji and grammar. How do you feel about your current Japanese proficiency?\nLin: For shopping, directions, taking trains, and other daily life necessities, I have become able to manage conversations by myself.\nTeacher: That's wonderful! You will surely pass the N5 exam too. Next is N4, right?\nLin: Yes! From now on as well, I will review steadily every day, and next I will aim to pass N4!",
+    "turns": [
+      {
+        "speaker": "先生",
+        "ja": "リンさん、三十課までの勉強が全部終わりましたね。おめでとうございます。",
+        "kana": "りんさん、さんじゅっかまでのべんきょうがぜんぶおわりましたね。おめでとうございます。",
+        "en": "Lin, you have completed all the studies up through Lesson 30. Congratulations!"
+      },
+      {
+        "speaker": "リン",
+        "ja": "先生、熱心に教えてくださって、本当にありがとうございました！",
+        "kana": "せんせい、ねっしんにおしえてくださって、ほんとうにありがとうございました！",
+        "en": "Teacher, thank you so very much for teaching me so enthusiastically!"
+      },
+      {
+        "speaker": "先生",
+        "ja": "リンさんは漢字も文法も本当によく頑張りましたね。今の日本語の力はどう感じますか。",
+        "kana": "りんさんはかんじもぶんぽうもほんとうによくがんばりましたね。いまのにほんごのちからはどうかんじますか。",
+        "en": "Lin, you truly worked hard on both kanji and grammar. How do you feel about your current Japanese proficiency?"
+      },
+      {
+        "speaker": "リン",
+        "ja": "買い物や道案内、電車の利用など、生活に必要な会話は一人でできるようになりました。",
+        "kana": "かいものやみちあんない、でんしゃのりようなど、せいかつにひつようなかいわはひとりでできるようになりました。",
+        "en": "For shopping, directions, taking trains, and other daily life necessities, I have become able to manage conversations by myself."
+      },
+      {
+        "speaker": "先生",
+        "ja": "素晴らしいですね！N5の試験もきっと合格するでしょう。次はN4ですね。",
+        "kana": "すばらしいですね！えぬごのしけんもきっとごうかくするでしょう。つぎはえぬよんですね。",
+        "en": "That's wonderful! You will surely pass the N5 exam too. Next is N4, right?"
+      },
+      {
+        "speaker": "リン",
+        "ja": "はい！これからも毎日コツコツ復習して、次はN4の合格を目指します！",
+        "kana": "はい！これからもまいにちこつこつふくしゅうして、つぎはえぬよんのごうかくをめざします！",
+        "en": "Yes! From now on as well, I will review steadily every day, and next I will aim to pass N4!"
+      }
+    ],
+    "questionIds": [
+      "n5.l30.q026",
+      "n5.l30.q027",
+      "n5.l30.q028",
+      "n5.l30.q029",
+      "n5.l30.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l30.q001",
+      "lessonId": "n5.l30",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「全部」(ぜんぶ) mean?",
+      "choices": [
+        "A part / Some",
+        "All / Everything",
+        "A little",
+        "Nothing"
+      ],
+      "answer": "All / Everything",
+      "acceptedAnswers": [
+        "All / Everything"
+      ],
+      "explanation": "「全部」(ぜんぶ) means all or everything.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q002",
+      "lessonId": "n5.l30",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What is the Japanese word for \"Review / Revision\"?",
+      "choices": [
+        "予習 (よしゅう)",
+        "復習 (ふくしゅう)",
+        "練習 (れんしゅう)",
+        "勉強 (べんきょう)"
+      ],
+      "answer": "復習 (ふくしゅう)",
+      "acceptedAnswers": [
+        "復習 (ふくしゅう)"
+      ],
+      "explanation": "「復習」(ふくしゅう) means review or revision of learned material.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q003",
+      "lessonId": "n5.l30",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「合格」(ごうかく) mean?",
+      "choices": [
+        "Failing an exam",
+        "Passing an examination",
+        "Taking an exam",
+        "Cheating on a test"
+      ],
+      "answer": "Passing an examination",
+      "acceptedAnswers": [
+        "Passing an examination"
+      ],
+      "explanation": "「合格」(ごうかく) means passing an exam or test.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q004",
+      "lessonId": "n5.l30",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「意味」(いみ) mean?",
+      "choices": [
+        "Sound",
+        "Meaning / Sense",
+        "Taste",
+        "Question"
+      ],
+      "answer": "Meaning / Sense",
+      "acceptedAnswers": [
+        "Meaning / Sense"
+      ],
+      "explanation": "「意味」(いみ) means meaning or significance.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q005",
+      "lessonId": "n5.l30",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「会話」(かいわ) mean?",
+      "choices": [
+        "Writing",
+        "Reading",
+        "Conversation / Dialogue",
+        "Listening test"
+      ],
+      "answer": "Conversation / Dialogue",
+      "acceptedAnswers": [
+        "Conversation / Dialogue"
+      ],
+      "explanation": "「会話」(かいわ) means conversation.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q006",
+      "lessonId": "n5.l30",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「これからも」 mean?",
+      "choices": [
+        "Until yesterday",
+        "From now on / In the future as well",
+        "Never again",
+        "Suddenly"
+      ],
+      "answer": "From now on / In the future as well",
+      "acceptedAnswers": [
+        "From now on / In the future as well"
+      ],
+      "explanation": "「これからも」 means from now on into the future.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q007",
+      "lessonId": "n5.l30",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What is the Onyomi reading of 「全」 in 「全部」?",
+      "choices": [
+        "ゼン",
+        "すべ.て",
+        "ハン",
+        "ブ"
+      ],
+      "answer": "ゼン",
+      "acceptedAnswers": [
+        "ゼン"
+      ],
+      "explanation": "The Onyomi for 全 is ゼン (e.g. 全部 ぜんぶ, 安全 あんぜん).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q008",
+      "lessonId": "n5.l30",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "How many strokes does the kanji 「部」 have?",
+      "choices": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "answer": "11",
+      "acceptedAnswers": [
+        "11"
+      ],
+      "explanation": "「部」 has 11 strokes.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q009",
+      "lessonId": "n5.l30",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What kanji compound represents \"Study\" (べんきょう)?",
+      "choices": [
+        "勉強",
+        "勤勉",
+        "練習",
+        "復習"
+      ],
+      "answer": "勉強",
+      "acceptedAnswers": [
+        "勉強"
+      ],
+      "explanation": "「勉強」(べんきょう) combines 勉 and 強.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.k003",
+        "n5.l30.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q010",
+      "lessonId": "n5.l30",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What is the Kunyomi reading for 「強」?",
+      "choices": [
+        "つよ.い",
+        "キョウ",
+        "ゴウ",
+        "こわ.い"
+      ],
+      "answer": "つよ.い",
+      "acceptedAnswers": [
+        "つよ.い"
+      ],
+      "explanation": "The Kunyomi for 強 is つよい (strong).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q011",
+      "lessonId": "n5.l30",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Which verb form is used for polite negative requests with 「〜でください」?",
+      "choices": [
+        "Nai-form (ない形)",
+        "Te-form (て形)",
+        "Ta-form (た形)",
+        "Dictionary form (辞書形)"
+      ],
+      "answer": "Nai-form (ない形)",
+      "acceptedAnswers": [
+        "Nai-form (ない形)"
+      ],
+      "explanation": "Negative requests use Verb ない-form + でください (e.g. 忘れないでください).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q012",
+      "lessonId": "n5.l30",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Which verb form is used to express personal experience with 「〜ことがある」?",
+      "choices": [
+        "Ta-form (た形)",
+        "Te-form (て形)",
+        "Nai-form (ない形)",
+        "Masu-stem"
+      ],
+      "answer": "Ta-form (た形)",
+      "acceptedAnswers": [
+        "Ta-form (た形)"
+      ],
+      "explanation": "Experience is formed with Verb た-form + ことがある (e.g. 登ったことがある).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q013",
+      "lessonId": "n5.l30",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Which verb form is used to express ability with 「〜ことができる」?",
+      "choices": [
+        "Dictionary form (辞書形)",
+        "Te-form (て形)",
+        "Ta-form (た形)",
+        "Nai-form (ない形)"
+      ],
+      "answer": "Dictionary form (辞書形)",
+      "acceptedAnswers": [
+        "Dictionary form (辞書形)"
+      ],
+      "explanation": "Ability is expressed with Verb dictionary form + ことができる (e.g. 泳ぐことができる).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q014",
+      "lessonId": "n5.l30",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct particle for active action location: 「図書館＿＿＿勉強します。」",
+      "choices": [
+        "で",
+        "に",
+        "へ",
+        "を"
+      ],
+      "answer": "で",
+      "acceptedAnswers": [
+        "で"
+      ],
+      "explanation": "The location where an active action takes place is marked by で: 図書館で勉強する.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q015",
+      "lessonId": "n5.l30",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct particle for static existence: 「部屋に猫が＿＿＿。」",
+      "choices": [
+        "います",
+        "あります",
+        "します",
+        "でます"
+      ],
+      "answer": "います",
+      "acceptedAnswers": [
+        "います"
+      ],
+      "explanation": "Animate beings (animals, people) use います for existence: 猫がいます.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q016",
+      "lessonId": "n5.l30",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct particle for the object of skill/ability: 「私は日本語＿＿＿分かります。」",
+      "choices": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": "が",
+      "acceptedAnswers": [
+        "が"
+      ],
+      "explanation": "Potential abilities and comprehension verbs (分かる, できる, 上手) take が for their target.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q017",
+      "lessonId": "n5.l30",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct particle inside a noun-modifying clause: 「父＿＿＿買った車」",
+      "choices": [
+        "が",
+        "は",
+        "を",
+        "に"
+      ],
+      "answer": "が",
+      "acceptedAnswers": [
+        "が"
+      ],
+      "explanation": "Inside a relative clause modifying a noun, the subject is marked with が: 父が買った車.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q018",
+      "lessonId": "n5.l30",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete the comparison: 「バス＿＿＿電車のほうが速いです。」",
+      "choices": [
+        "より",
+        "から",
+        "まで",
+        "ほど"
+      ],
+      "answer": "より",
+      "acceptedAnswers": [
+        "より"
+      ],
+      "explanation": "Standard of comparison takes より: A より B のほうが (B is faster than A).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q019",
+      "lessonId": "n5.l30",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Which verb form connects multiple actions sequentially with 「〜て、〜」?",
+      "choices": [
+        "Te-form (て形)",
+        "Dictionary form",
+        "Nai-form",
+        "Ta-form"
+      ],
+      "answer": "Te-form (て形)",
+      "acceptedAnswers": [
+        "Te-form (て形)"
+      ],
+      "explanation": "The て-form connects sequential verb actions: 起きて、顔を洗って、朝ごはんを食べた.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q020",
+      "lessonId": "n5.l30",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete: 「駅＿＿＿歩いて十分かかります。」 (It takes 10 minutes on foot FROM the station.)",
+      "choices": [
+        "から",
+        "まで",
+        "に",
+        "へ"
+      ],
+      "answer": "から",
+      "acceptedAnswers": [
+        "から"
+      ],
+      "explanation": "Starting point in space takes から: 駅から.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q021",
+      "lessonId": "n5.l30",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "How long has passed since the author came to Japan?",
+      "choices": [
+        "One month",
+        "Three months",
+        "Half a year (半年)",
+        "Two years"
+      ],
+      "answer": "Half a year (半年)",
+      "acceptedAnswers": [
+        "Half a year (半年)"
+      ],
+      "explanation": "The passage opens: 日本に来てから、あっという間に半年が過ぎました (half a year has passed).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q022",
+      "lessonId": "n5.l30",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "What was difficult for the author in the very beginning?",
+      "choices": [
+        "Even reading Hiragana and Katakana, understanding station signs, and buying tickets",
+        "Finding food in Tokyo",
+        "Sleeping at night",
+        "Speaking English"
+      ],
+      "answer": "Even reading Hiragana and Katakana, understanding station signs, and buying tickets",
+      "acceptedAnswers": [
+        "Even reading Hiragana and Katakana, understanding station signs, and buying tickets"
+      ],
+      "explanation": "The text states: 最初はひらがなとカタカナを読むことさえ難しくて、駅の看板や切符の買い方も分かりませんでした.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q023",
+      "lessonId": "n5.l30",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "How many lessons of the textbook did the author complete?",
+      "choices": [
+        "10 lessons",
+        "20 lessons",
+        "All 30 lessons (三十課まで全部)",
+        "50 lessons"
+      ],
+      "answer": "All 30 lessons (三十課まで全部)",
+      "acceptedAnswers": [
+        "All 30 lessons (三十課まで全部)"
+      ],
+      "explanation": "The text notes: 教科書の三十課まで全部終わることができました.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q024",
+      "lessonId": "n5.l30",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "What exam will the author take next month?",
+      "choices": [
+        "JLPT N1",
+        "JLPT N3",
+        "JLPT N5",
+        "University entrance exam"
+      ],
+      "answer": "JLPT N5",
+      "acceptedAnswers": [
+        "JLPT N5"
+      ],
+      "explanation": "The text states: 来月はいよいよJLPT N5の試験を受けます.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q025",
+      "lessonId": "n5.l30",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "What is the author's goal for next year?",
+      "choices": [
+        "Return to home country",
+        "Stop studying Japanese",
+        "Challenge JLPT N4",
+        "Work as a doctor"
+      ],
+      "answer": "Challenge JLPT N4",
+      "acceptedAnswers": [
+        "Challenge JLPT N4"
+      ],
+      "explanation": "The passage concludes: 来年はN4に挑戦したいです (want to challenge N4 next year).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q026",
+      "lessonId": "n5.l30",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What milestone did Lin complete?",
+      "choices": [
+        "All studies up through Lesson 30",
+        "Passed the N1 exam",
+        "Graduated from university",
+        "Found a job"
+      ],
+      "answer": "All studies up through Lesson 30",
+      "acceptedAnswers": [
+        "All studies up through Lesson 30"
+      ],
+      "explanation": "The teacher congratulates: 三十課までの勉強が全部終わりましたね.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q027",
+      "lessonId": "n5.l30",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What does Lin feel able to do independently now?",
+      "choices": [
+        "Necessary daily life conversations like shopping, asking directions, and taking trains",
+        "Write academic research papers",
+        "Negotiate international business contracts",
+        "Drive a bus in Tokyo"
+      ],
+      "answer": "Necessary daily life conversations like shopping, asking directions, and taking trains",
+      "acceptedAnswers": [
+        "Necessary daily life conversations like shopping, asking directions, and taking trains"
+      ],
+      "explanation": "Lin explains: 買い物や道案内、電車の利用など、生活に必要な会話は一人でできるようになりました.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q028",
+      "lessonId": "n5.l30",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What two areas does the teacher praise Lin for working hard on?",
+      "choices": [
+        "Kanji and grammar (漢字も文法も)",
+        "Pronunciation and sports",
+        "Math and science",
+        "Cooking and cleaning"
+      ],
+      "answer": "Kanji and grammar (漢字も文法も)",
+      "acceptedAnswers": [
+        "Kanji and grammar (漢字も文法も)"
+      ],
+      "explanation": "The teacher says: リンさんは漢字も文法も本当によく頑張りましたね.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q029",
+      "lessonId": "n5.l30",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What does the teacher predict about Lin's N5 exam result?",
+      "choices": [
+        "He will fail",
+        "He will surely pass (きっと合格するでしょう)",
+        "It will be cancelled",
+        "He shouldn't take it"
+      ],
+      "answer": "He will surely pass (きっと合格するでしょう)",
+      "acceptedAnswers": [
+        "He will surely pass (きっと合格するでしょう)"
+      ],
+      "explanation": "The teacher states: N5の試験もきっと合格するでしょう.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l30.q030",
+      "lessonId": "n5.l30",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What is Lin's next learning objective?",
+      "choices": [
+        "Aiming to pass N4",
+        "Studying French",
+        "Resting for a whole year",
+        "Moving to another city"
+      ],
+      "answer": "Aiming to pass N4",
+      "acceptedAnswers": [
+        "Aiming to pass N4"
+      ],
+      "explanation": "Lin concludes: 次はN4の合格を目指します！ (Next I aim to pass N4!).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l30.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

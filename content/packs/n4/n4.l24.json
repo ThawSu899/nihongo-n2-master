@@ -1,0 +1,1695 @@
+{
+  "id": "n4.l24",
+  "level": "N4",
+  "module": "N4 Expressions & Relations",
+  "number": 24,
+  "title": "N4 Lesson 24: Purpose & Target (目的: 〜ために vs 〜ように)",
+  "description": "Master the distinction between intentional purpose (〜ために) and state/potential target conditions (〜ように), avoiding common learner confusion with verb types.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l24.v001",
+      "lessonId": "n4.l24",
+      "ja": "入学する",
+      "kana": "にゅうがくする",
+      "en": "to enter school; to enroll; to matriculate",
+      "my": "ကျောင်းဝင်သည်/တက္ကသိုလ်ဝင်ခွင့်ရသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l24.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-06T00:00:00Z",
+        "rev": 3
+      }
+    },
+    {
+      "id": "n4.l24.v002",
+      "lessonId": "n4.l24",
+      "ja": "留学生",
+      "kana": "りゅうがくせい",
+      "en": "international student; study abroad student",
+      "my": "နိုင်ငံခြားပညာသင်ကျောင်းသား",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l24.s002",
+      "kanjiIds": [
+        "n4.l24.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.v003",
+      "lessonId": "n4.l24",
+      "ja": "目標",
+      "kana": "もくひょう",
+      "en": "target; goal; objective",
+      "my": "ပန်းတိုင်/ရည်မှန်းချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l24.s003",
+      "kanjiIds": [
+        "n4.l24.k003"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.v004",
+      "lessonId": "n4.l24",
+      "ja": "努力",
+      "kana": "どりょく",
+      "en": "great effort; endeavor; hard work",
+      "my": "ကြိုးစားအားထုတ်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l24.s004",
+      "kanjiIds": [
+        "n4.l24.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.v005",
+      "lessonId": "n4.l24",
+      "ja": "努力する",
+      "kana": "どりょくする",
+      "en": "to make an effort; to strive",
+      "my": "ကြိုးစားအားထုတ်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l24.s005",
+      "kanjiIds": [
+        "n4.l24.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.v006",
+      "lessonId": "n4.l24",
+      "ja": "達する",
+      "kana": "たっする",
+      "en": "to reach; to attain; to get to",
+      "my": "ရောက်ရှိသည်/ပြည့်မီသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l24.s006",
+      "kanjiIds": [
+        "n4.l24.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.v007",
+      "lessonId": "n4.l24",
+      "ja": "合格する",
+      "kana": "ごうかくする",
+      "en": "to pass an exam; to succeed in a test",
+      "my": "စာမေးပွဲအောင်မြင်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l24.s005",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.v008",
+      "lessonId": "n4.l24",
+      "ja": "目的",
+      "kana": "もくてき",
+      "en": "purpose; goal; intention",
+      "my": "ရည်ရွယ်ချက်/ဦးတည်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l24.s007",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.v009",
+      "lessonId": "n4.l24",
+      "ja": "貯金する",
+      "kana": "ちょきんする",
+      "en": "to save money; to deposit savings",
+      "my": "ငွေစုဆောင်းသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l24.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.v010",
+      "lessonId": "n4.l24",
+      "ja": "メモする",
+      "kana": "めもする",
+      "en": "to take notes; to jot down a memo",
+      "my": "မှတ်စုရေးမှတ်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l24.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.v011",
+      "lessonId": "n4.l24",
+      "ja": "将来",
+      "kana": "しょうらい",
+      "en": "future (near or personal future)",
+      "my": "အနာဂတ်/နောင်ရေး",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l24.s011",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.v012",
+      "lessonId": "n4.l24",
+      "ja": "叶う",
+      "kana": "かなう",
+      "en": "to come true (dream, wish); to be fulfilled",
+      "my": "အကောင်အထည်ပေါ်သည်/ပြည့်စုံသည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n4.l24.s012",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l24.k001",
+      "lessonId": "n4.l24",
+      "char": "留",
+      "meaning": "detain; stay; fasten",
+      "onyomi": [
+        "リュウ",
+        "ル"
+      ],
+      "kunyomi": [
+        "と・まる",
+        "と・める"
+      ],
+      "exampleVocab": [
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "meaning": "studying abroad",
+          "preview": false
+        },
+        {
+          "word": "留守",
+          "reading": "るす",
+          "meaning": "absence from home",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l24.s001"
+      ],
+      "components": [
+        "卯",
+        "田"
+      ],
+      "strokes": 10,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.k002",
+      "lessonId": "n4.l24",
+      "char": "努",
+      "meaning": "toil; diligent effort; exert",
+      "onyomi": [
+        "ド"
+      ],
+      "kunyomi": [
+        "つと・める"
+      ],
+      "exampleVocab": [
+        {
+          "word": "努力",
+          "reading": "どりょく",
+          "meaning": "effort",
+          "preview": false
+        },
+        {
+          "word": "努力家",
+          "reading": "どりょくか",
+          "meaning": "hard worker",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l24.s001"
+      ],
+      "components": [
+        "奴",
+        "力"
+      ],
+      "strokes": 7,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.k003",
+      "lessonId": "n4.l24",
+      "char": "標",
+      "meaning": "signpost; mark; target",
+      "onyomi": [
+        "ヒョウ"
+      ],
+      "kunyomi": [
+        "しるし"
+      ],
+      "exampleVocab": [
+        {
+          "word": "目標",
+          "reading": "もくひょう",
+          "meaning": "target; goal",
+          "preview": false
+        },
+        {
+          "word": "標準",
+          "reading": "ひょうじゅん",
+          "meaning": "standard",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l24.s001"
+      ],
+      "components": [
+        "木",
+        "票"
+      ],
+      "strokes": 15,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.k004",
+      "lessonId": "n4.l24",
+      "char": "達",
+      "meaning": "accomplish; reach; arrive",
+      "onyomi": [
+        "タツ"
+      ],
+      "kunyomi": [
+        "たち"
+      ],
+      "exampleVocab": [
+        {
+          "word": "達成",
+          "reading": "たっせい",
+          "meaning": "achievement",
+          "preview": false
+        },
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "meaning": "friend",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l24.s001"
+      ],
+      "components": [
+        "辶",
+        "幸"
+      ],
+      "strokes": 12,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l24.g001",
+      "lessonId": "n4.l24",
+      "pattern": "[Verb (Dictionary form) / Noun + の] + ために",
+      "meaning": "In order to / For the purpose of / For the sake of (Intentional purpose)",
+      "formation": "Verb (辞書形) + ために\nNoun + の + ために",
+      "explanation": {
+        "en": "Expresses a conscious, volitional purpose or goal. The verb preceding ために must be an intentional action controllable by the will of the speaker (意志動詞). Crucially, the grammatical subject of the purpose clause and the main action clause must be the exact same person. E.g.: 日本へ留学するために、毎晩日本語を勉強しています (I study Japanese every night in order to study abroad in Japan). Contrast with 〜ように, which takes non-volitional verbs or potential verbs.",
+        "my": "ရည်ရွယ်ချက်ရှိရှိ ဆန္ဒဖြင့် ပြုလုပ်သော အကြောင်းရင်း သို့မဟုတ် ပန်းတိုင်ကို ဖော်ပြသည်။ ために ရှေ့ရှိ ကြိယာသည် မိမိကိုယ်တိုင် ထိန်းချုပ်လုပ်ဆောင်နိုင်သော ကြိယာ (意志動詞) ဖြစ်ရမည်။ ထို့အပြင် ဝါကျနှစ်ခုလုံး၏ ပြုလုပ်သူ (subject) သည် တစ်ဦးတည်း ဖြစ်ရမည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l24.s001",
+          "note": "Studying Japanese daily in order to study abroad in Japan."
+        },
+        {
+          "sentenceId": "n4.l24.s003",
+          "note": "Making detailed monthly plans in order to achieve this year’s goal."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use potential verbs or negative verbs before ために to express a target state (❌ 忘れないために → ⭕️ 忘れないように; ❌ 話せるために → ⭕️ 話せるように). If the action cannot be directly controlled or represents a natural result, use 〜ように.",
+        "Do not use ために when the two clauses have different subjects (❌ 息子が大学に合格するために、私が学費を払う → ⭕️ 息子が合格できるように、私が学費を払う)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.g002",
+      "lessonId": "n4.l24",
+      "pattern": "[Verb (Potential / Non-volitional / Negative ない-form)] + ように",
+      "meaning": "So that / In such a way that (State change, ability, or avoidance)",
+      "formation": "Verb (可能形 / 無意志動詞 / ない形) + ように",
+      "explanation": {
+        "en": "Expresses an objective target condition, state change, or prevention of a negative outcome (so that X can happen / so that X will not happen). The verb preceding ように is non-volitional (無意志動詞 like 見える, 聞こえる, 届く, 治る), potential (話せる, 合格できる), or negative (忘れない, 風邪を引かない). It can also connect actions where the subject of clause A and clause B are different. E.g.: 後ろの人にも聞こえるように、大きな声で話してください (Please speak loudly so that people in the back can hear).",
+        "my": "ရည်မှန်းထားသော အခြေအနေတစ်ခု ရောက်ရှိနိုင်စေရန် သို့မဟုတ် မလိုလားအပ်သော အခြေအနေတစ်ခု မဖြစ်ပေါ်စေရန်အတွက် ရည်ရွယ်ချက်ကို ဖော်ပြသည်။ ように ရှေ့တွင် အလိုအလျောက်ဖြစ်သောကြိယာများ (無意志動詞)၊ စွမ်းဆောင်နိုင်မှုကြိယာ (可能動詞) သို့မဟုတ် အငြင်းသဘော (ない形) ကို အသုံးပြုရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l24.s002",
+          "note": "Opened consultation counter so international students can live with peace of mind."
+        },
+        {
+          "sentenceId": "n4.l24.s008",
+          "note": "Taking notes so that important content will not be forgotten."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use direct volitional action verbs with ように when the subject intentionally acts (❌ 家を買うように貯金する → ⭕️ 家を買うために貯金する / ⭕️ 家が買えるように貯金する using potential form)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l24.s001",
+      "lessonId": "n4.l24",
+      "ja": "将来日本の大学に入学するために、毎日四時間日本語を勉強しています。",
+      "kana": "しょうらいにほんのだいがくににゅうがくするために、まいにちよじかんにほんごをべんきょうしています。",
+      "translation": {
+        "en": "In order to enroll at a Japanese university in the future, I study Japanese for four hours every day.",
+        "my": "အနာဂတ်တွင် ဂျပန်တက္ကသိုလ်သို့ ဝင်ခွင့်ရရှိရန်အတွက် နေ့စဉ် ဂျပန်စာကို ၄ နာရီ လေ့လာနေပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l24.v001",
+        "n4.l24.v011"
+      ],
+      "grammarIds": [
+        "n4.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.s002",
+      "lessonId": "n4.l24",
+      "ja": "留学生のみなさんが安心して生活できるように、市役所で相談窓口を開いています。",
+      "kana": "りゅうがくせいのみなさんがあんしんしてせいかつできるように、しやくしょでそうだんまどぐちをひらいています。",
+      "translation": {
+        "en": "The city hall opened a consultation counter so that international students can live with peace of mind.",
+        "my": "နိုင်ငံခြားပညာသင်ကျောင်းသားများ စိတ်အေးချမ်းသာစွာ နေထိုင်နိုင်စေရန်အတွက် မြို့တော်ခန်းမတွင် ဆွေးနွေးတိုင်ပင်ရေးကောင်တာ ဖွင့်လှစ်ထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l24.v002"
+      ],
+      "grammarIds": [
+        "n4.l24.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.s003",
+      "lessonId": "n4.l24",
+      "ja": "今年の目標を達成するために、毎月の計画を細かく立てることにしました。",
+      "kana": "ことしのもくひょうをたっせいするために、まいつきのけいかくをこまかくたてることにしました。",
+      "translation": {
+        "en": "In order to achieve this year’s goal, I decided to set detailed monthly plans.",
+        "my": "ယခုနှစ် ရည်မှန်းချက်ကို အောင်မြင်ရန်အတွက် လစဉ်အစီအစဉ်ကို အသေးစိတ်ရေးဆွဲရန် ဆုံးဖြတ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l24.v003",
+        "n4.l24.v006"
+      ],
+      "grammarIds": [
+        "n4.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.s004",
+      "lessonId": "n4.l24",
+      "ja": "どんなに大変でも、夢を叶えるための努力を惜しんではいけません。",
+      "kana": "どんなにたいへんでも、ゆめをかなえるためのどりょくをおしんではいけません。",
+      "translation": {
+        "en": "No matter how tough it is, you must not spare effort to make your dream come true.",
+        "my": "မည်မျှပင် ခက်ခဲပါစေ အိပ်မက်ပြည့်စုံရန်အတွက် ကြိုးစားအားထုတ်မှုကို မနှမြောသင့်ပါ။"
+      },
+      "vocabIds": [
+        "n4.l24.v004",
+        "n4.l24.v012"
+      ],
+      "grammarIds": [
+        "n4.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.s005",
+      "lessonId": "n4.l24",
+      "ja": "日本語能力試験N4に合格できるように、毎日単語と文法を復習しています。",
+      "kana": "にほんごのうりょくしけんエヌよんにごうかくできるように、まいにちたんごとぶんぽうをふくしゅうしています。",
+      "translation": {
+        "en": "I review vocabulary and grammar daily so that I can pass the JLPT N4 exam.",
+        "my": "JLPT N4 စာမေးပွဲ အောင်မြင်နိုင်စေရန်အတွက် နေ့စဉ် ဝေါဟာရနှင့် သဒ္ဒါကို ပြန်လှန်လေ့ကျင့်နေပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l24.v005",
+        "n4.l24.v007"
+      ],
+      "grammarIds": [
+        "n4.l24.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.s006",
+      "lessonId": "n4.l24",
+      "ja": "目標の貯金額に達するように、外食を減らして自炊することに努めています。",
+      "kana": "もくひょうのちょきんがくにたっするように、がいしょくをへらしてじすいすることにつとめています。",
+      "translation": {
+        "en": "I strive to cook at home and reduce eating out so that I can reach my savings target.",
+        "my": "ရည်မှန်းထားသော စုဆောင်းငွေပမာဏသို့ ရောက်ရှိနိုင်စေရန် အပြင်ထွက်စားခြင်းကို လျှော့ပြီး ကိုယ်တိုင်ချက်ပြုတ်စားသောက်ရန် ကြိုးစားနေပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l24.v003",
+        "n4.l24.v006",
+        "n4.l24.v009"
+      ],
+      "grammarIds": [
+        "n4.l24.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.s007",
+      "lessonId": "n4.l24",
+      "ja": "家族のために新しい家を買う目的で、毎月真面目に貯金しています。",
+      "kana": "かぞくのためにあたらしいいえをかうもくてきで、まいつきまじめにちょきんしています。",
+      "translation": {
+        "en": "For the purpose of buying a new house for my family, I am diligently saving money every month.",
+        "my": "မိသားစုအတွက် အိမ်အသစ်ဝယ်ရန် ရည်ရွယ်ချက်ဖြင့် လစဉ် သစ္စာရှိစွာ ငွေစုဆောင်းနေပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l24.v008",
+        "n4.l24.v009"
+      ],
+      "grammarIds": [
+        "n4.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.s008",
+      "lessonId": "n4.l24",
+      "ja": "会議の内容を忘れないように、大切な発言は必ずノートにメモしてください。",
+      "kana": "かいぎのないようをわすれないように、たいせつなはつげんはかならずノートにメモしてください。",
+      "translation": {
+        "en": "Please be sure to memo down important remarks in your notebook so that you will not forget the meeting content.",
+        "my": "အစည်းအဝေးအကြောင်းအရာကို မမေ့စေရန်အတွက် အရေးကြီးသော ပြောကြားချက်များကို ဗလာစာအုပ်တွင် သေချာ မှတ်စုရေးမှတ်ပါ။"
+      },
+      "vocabIds": [
+        "n4.l24.v010"
+      ],
+      "grammarIds": [
+        "n4.l24.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.s009",
+      "lessonId": "n4.l24",
+      "ja": "旅行の費用を払うために、夏休みのあいだアルバイトを二つ掛け持ちしました。",
+      "kana": "りょこうのひようをはらうために、なつやすみのあいだアルバイトをふたつかけもちしました。",
+      "translation": {
+        "en": "In order to pay for the travel expenses, I worked two part-time jobs simultaneously during the summer vacation.",
+        "my": "ခရီးစရိတ် ပေးချေရန်အတွက် နွေရာသီကျောင်းပိတ်ရက်အတွင်း အချိန်ပိုင်းအလုပ် နှစ်ခု တွဲလုပ်ခဲ့သည်။"
+      },
+      "vocabIds": [],
+      "grammarIds": [
+        "n4.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.s010",
+      "lessonId": "n4.l24",
+      "ja": "後ろの席の学生にもスライドがよく見えるように、文字を大きく印刷しました。",
+      "kana": "うしろのせきのがくせいにもスライドがよくみえるように、もじをおおきくいんさつしました。",
+      "translation": {
+        "en": "I printed the letters in large size so that the students in the back seats could clearly see the slides.",
+        "my": "နောက်တန်းခုံမှ ကျောင်းသားများပါ စလိုက်ကို ကောင်းစွာ မြင်နိုင်စေရန်အတွက် စာလုံးများကို ကြီးကြီး ပုံနှိပ်ခဲ့ပါသည်။"
+      },
+      "vocabIds": [],
+      "grammarIds": [
+        "n4.l24.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.s011",
+      "lessonId": "n4.l24",
+      "ja": "将来自分の会社を作るために、ビジネスの知識と実務経験を積んでいます。",
+      "kana": "しょうらいじぶんのかいしゃをつくるために、ビジネスのちしきとじつむけいけんをつんでいます。",
+      "translation": {
+        "en": "In order to create my own company in the future, I am accumulating business knowledge and practical experience.",
+        "my": "အနာဂတ်တွင် ကိုယ်ပိုင်ကုမ္ပဏီ တည်ထောင်ရန်အတွက် စီးပွားရေးအသိပညာနှင့် လက်တွေ့လုပ်ငန်းအတွေ့အကြုံများကို စုဆောင်းနေပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l24.v011"
+      ],
+      "grammarIds": [
+        "n4.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l24.s012",
+      "lessonId": "n4.l24",
+      "ja": "子どもの頃からの夢が叶うように、最後まで諦めずに挑戦を続けます。",
+      "kana": "こどものころからのゆめがかなうように、さいごまであきらめずにおうせんをつづけます。",
+      "translation": {
+        "en": "I will continue challenging myself without giving up until the very end so that my childhood dream will come true.",
+        "my": "ကလေးဘဝကတည်းက အိပ်မက် အကောင်အထည်ပေါ်စေရန်အတွက် နောက်ဆုံးအချိန်ထိ အရှုံးမပေးဘဲ ဆက်လက် ကြိုးစားစိန်ခေါ်သွားပါမည်။"
+      },
+      "vocabIds": [
+        "n4.l24.v012"
+      ],
+      "grammarIds": [
+        "n4.l24.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l24.r01",
+    "lessonId": "n4.l24",
+    "title": "夢の実現に向けた学習ノート",
+    "level": "N4",
+    "text": "留学生のタンさんは、将来日本の医療機器メーカーに就職するという明確な目標を持っています。その夢を叶えるために、毎朝六時に起きて単語を暗記し、夜は日本語の専門用語をまとめたノートを復習しています。\n\n外国人である自分が正確に専門用語を話せるように、タンさんはスマートフォンの録音機能を使って発音を練習することにしました。また、先生や同僚からの助言を聞き逃さないように、いつでもメモ帳をポケットに入れて持ち歩いています。\n\n「知識を深めるために読書することはもちろん大切ですが、相手に自分の考えが正しく伝わるように話す工夫も欠かせません」とタンさんは語ります。自分の目標に達するように、彼は毎日小さな努力を積み重ねています。",
+    "kanaText": "りゅうがくせいのタンさんは、しょうらいにほんのいりょうききメーカーにしゅうしょくするというめいかくなもくひょうをもっています。そのゆめをかなえるために、まいあさろくじにおきてたんごをあんきし、よるはにほんごのせんもんようごをまとめたノートをふくしゅうしています。\n\nがいこくじんであるじぶんがせいかくにせんもんようごをはなせるように、タンさんはスマートフォンのろくおんきのうをつかってはつおんをれんしゅうすることにしました。また、せんせいやどうりょうからのじょげんをききのがさないように、いつでもメモちょうをポケットにいれてもちあるいています。\n\n「ちしきをふかめるためにどくしょすることはもちろんたいせつですが、あいてにじぶんのかんがえがただしくつたわるようにはなすくふうもかかせません」とタンさんはかたります。じぶんのもくひょうにたっするように、かれはまいにちちいさなどりょくをつみかさねています。",
+    "translation": "International student Tun has a clear goal to get a job at a Japanese medical equipment manufacturer in the future. In order to fulfill that dream, he wakes up at 6:00 every morning to memorize vocabulary, and in the evening reviews notes summarizing specialized Japanese terminology.\n\nSo that he, being a foreigner, can accurately speak specialized terminology, Tun decided to practice pronunciation using his smartphone’s recording function. In addition, so that he won’t miss advice from his teachers or colleagues, he always keeps a notepad in his pocket.\n\n\"Reading books to deepen knowledge is of course important, but making effort to speak so that one's ideas are transmitted accurately to others is also indispensable,\" Tun says. So that he can reach his goal, he accumulates small efforts every single day.",
+    "questionIds": [
+      "n4.l24.q025",
+      "n4.l24.q026",
+      "n4.l24.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l24.l01",
+    "lessonId": "n4.l24",
+    "title": "日本語スピーチコンテストの準備",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "川口先生",
+      "リー"
+    ],
+    "transcript": "川口先生：リーさん、来週のスピーチコンテストの原稿、よく書けていますね。\nリー：ありがとうございます。聴衆のみなさんに私の思いが伝わるように、何度も直しました。\n川口先生：発音の強弱も大切ですよ。会場の一番後ろの人にもはっきり聞こえるように、少し顎を上げて話すといいですね。\nリー：はい、先生。途中で詰まったり忘れたりしないように、自宅でも毎日鏡の前で声を出して練習しています。\n川口先生：素晴らしい心がけです。コンテストで最優秀賞を取るために、あと三日しっかり練習を仕上げましょう。\nリー：はい！応援してくださる方々の期待に応えられるように、最後まで全力を尽くします。",
+    "translation": "Teacher Kawaguchi: Lee, your manuscript for next week's speech contest is written very well.\nLee: Thank you. I revised it many times so that my feelings would reach the audience.\nTeacher Kawaguchi: Dynamics in pronunciation are important too. It would be good to lift your chin slightly so that people at the very back of the hall can hear clearly.\nLee: Yes, teacher. I practice speaking out loud in front of the mirror every day at home so that I won't get stuck or forget midway.\nTeacher Kawaguchi: That is a wonderful attitude. In order to take the first prize in the contest, let's polish up your practice well over the remaining three days.\nLee: Yes! I will do my best until the end so that I can live up to the expectations of everyone supporting me.",
+    "turns": [
+      {
+        "speaker": "川口先生",
+        "ja": "リーさん、来週のスピーチコンテストの原稿、よく書けていますね。",
+        "kana": "リーさん、らいしゅうのスピーチコンテストのげんこう、よくかけていますね。",
+        "en": "Lee, your manuscript for next week’s speech contest is written very well."
+      },
+      {
+        "speaker": "リー",
+        "ja": "ありがとうございます。聴衆のみなさんに私の思いが伝わるように、何度も直しました。",
+        "kana": "ありがとうございます。ちょうしゅうのみなさんにわたしのおもいがつたわるように、なんどもなおしました。",
+        "en": "Thank you. I revised it many times so that my thoughts would reach the audience."
+      },
+      {
+        "speaker": "川口先生",
+        "ja": "発音の強弱も大切ですよ。会場の一番後ろの人にもはっきり聞こえるように、少し顎を上げて話すといいですね。",
+        "kana": "はつおんのきょうじゃくもたいせつですよ。かいじょうのいちばんうしろのひとにもはっきりきこえるように、すこしあごをあげてはなすといいですね。",
+        "en": "Dynamics of pronunciation are also important. It would be good to lift your chin slightly so that people at the very back of the hall can hear clearly."
+      },
+      {
+        "speaker": "リー",
+        "ja": "はい、先生。途中で詰まったり忘れたりしないように、自宅でも毎日鏡の前で声を出して練習しています。",
+        "kana": "はい、せんせい。とちゅうでつまったりわすれたりしないように、じたくでもまいにちかがみのまえでこえをだしてれんしゅうしています。",
+        "en": "Yes, teacher. I practice speaking out loud in front of the mirror every day at home so that I won’t get stuck or forget midway."
+      },
+      {
+        "speaker": "川口先生",
+        "ja": "素晴らしい心がけです。コンテストで最優秀賞を取るために、あと三日しっかり練習を仕上げましょう。",
+        "kana": "すばらしいこころがけです。コンテストでさいゆうしゅうしょうをとるために、あとみっかしっかりれんしゅうをしあげましょう。",
+        "en": "That is a wonderful attitude. In order to win the first prize in the contest, let’s polish up your practice over the remaining three days."
+      },
+      {
+        "speaker": "リー",
+        "ja": "はい！応援してくださる方々の期待に応えられるように、最後まで全力を尽くします。",
+        "kana": "はい！おうえんしてくださるかたがたのきたいにこたえられるように、さいごまでぜんりょくをつくします。",
+        "en": "Yes! I will do my absolute best until the end so that I can live up to the expectations of everyone supporting me."
+      }
+    ],
+    "questionIds": [
+      "n4.l24.q028",
+      "n4.l24.q029",
+      "n4.l24.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l24.q001",
+      "lessonId": "n4.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "試験に合格して、大学や学校に入って学び始めることを何と言いますか。",
+      "choices": [
+        "入学する",
+        "旅行する",
+        "引越しする",
+        "散歩する"
+      ],
+      "answer": "入学する",
+      "acceptedAnswers": [
+        "入学する"
+      ],
+      "explanation": "入学する (にゅうがくする) means to enter / enroll in a school or university.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q002",
+      "lessonId": "n4.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "試験に受かることを表す適切な言葉を選びなさい。",
+      "choices": [
+        "合格する",
+        "失敗する",
+        "遅刻する",
+        "欠席する"
+      ],
+      "answer": "合格する",
+      "acceptedAnswers": [
+        "合格する"
+      ],
+      "explanation": "合格する means to pass an examination.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q003",
+      "lessonId": "n4.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "自分の目指している的や水準を指す言葉は何ですか。",
+      "choices": [
+        "目標",
+        "景色",
+        "道具",
+        "都合"
+      ],
+      "answer": "目標",
+      "acceptedAnswers": [
+        "目標"
+      ],
+      "explanation": "目標 (もくひょう) means goal or target.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q004",
+      "lessonId": "n4.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「一生懸命に力を尽くして励むこと」を表す名詞はどれですか。",
+      "choices": [
+        "努力",
+        "遠慮",
+        "冗談",
+        "反対"
+      ],
+      "answer": "努力",
+      "acceptedAnswers": [
+        "努力"
+      ],
+      "explanation": "努力 (どりょく) means great effort or hard work.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q005",
+      "lessonId": "n4.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "銀行や貯金箱にお金をためることを何と言いますか。",
+      "choices": [
+        "貯金する",
+        "借金する",
+        "両替する",
+        "集金する"
+      ],
+      "answer": "貯金する",
+      "acceptedAnswers": [
+        "貯金する"
+      ],
+      "explanation": "貯金する (ちょきんする) means to save money.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q006",
+      "lessonId": "n4.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "忘れないように手帳に小さく書き留めることを表す外来語動詞はどれですか。",
+      "choices": [
+        "メモする",
+        "コピーする",
+        "スキャンする",
+        "キャンセルする"
+      ],
+      "answer": "メモする",
+      "acceptedAnswers": [
+        "メモする"
+      ],
+      "explanation": "メモする means to take a note / memo down.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q007",
+      "lessonId": "n4.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "長年の願いや夢が現実になることを表す動詞はどれですか。",
+      "choices": [
+        "叶う",
+        "折れる",
+        "滑る",
+        "腐る"
+      ],
+      "answer": "叶う",
+      "acceptedAnswers": [
+        "叶う"
+      ],
+      "explanation": "叶う (かなう) means to be fulfilled or come true.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q008",
+      "lessonId": "n4.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "これから来る先の時代や個人の行く先を何と言いますか。",
+      "choices": [
+        "将来",
+        "過去",
+        "去年",
+        "一昨日"
+      ],
+      "answer": "将来",
+      "acceptedAnswers": [
+        "将来"
+      ],
+      "explanation": "将来 (しょうらい) means the future.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q009",
+      "lessonId": "n4.l24",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「留」の正しい読み方はどれですか。「外国へ（　）学する」",
+      "choices": [
+        "りゅう",
+        "きゅう",
+        "しゅう",
+        "じゅう"
+      ],
+      "answer": "りゅう",
+      "acceptedAnswers": [
+        "りゅう"
+      ],
+      "explanation": "留学 is read as りゅうがく.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q010",
+      "lessonId": "n4.l24",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「努力」の正しい読み方を選びなさい。",
+      "choices": [
+        "どりょく",
+        "とりょく",
+        "とうりょく",
+        "どうりき"
+      ],
+      "answer": "どりょく",
+      "acceptedAnswers": [
+        "どりょく"
+      ],
+      "explanation": "努力 is read as どりょく.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q011",
+      "lessonId": "n4.l24",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「目標」の正しい読み方を選びなさい。",
+      "choices": [
+        "もくひょう",
+        "めひょう",
+        "もくしょう",
+        "ぼくひょう"
+      ],
+      "answer": "もくひょう",
+      "acceptedAnswers": [
+        "もくひょう"
+      ],
+      "explanation": "目標 is read as もくひょう.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q012",
+      "lessonId": "n4.l24",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「目的の場所に（達する）」の正しい読み方はどれですか。",
+      "choices": [
+        "たっする",
+        "だっする",
+        "てっする",
+        "かっする"
+      ],
+      "answer": "たっする",
+      "acceptedAnswers": [
+        "たっする"
+      ],
+      "explanation": "達する is read as たっする.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q013",
+      "lessonId": "n4.l24",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「留守」の正しい読み方を選びなさい。",
+      "choices": [
+        "るす",
+        "りゅうしゅ",
+        "とどす",
+        "とめもり"
+      ],
+      "answer": "るす",
+      "acceptedAnswers": [
+        "るす"
+      ],
+      "explanation": "留守 is read as るす.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q014",
+      "lessonId": "n4.l24",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「友達」の「達」の訓読み（送り仮名を含む）はどれですか。",
+      "choices": [
+        "たち",
+        "かつ",
+        "もち",
+        "みち"
+      ],
+      "answer": "たち",
+      "acceptedAnswers": [
+        "たち"
+      ],
+      "explanation": "達 has the kunyomi たち (e.g. 友達, 私達).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q015",
+      "lessonId": "n4.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "自分の店を開く（　）、一生懸命働いてお金を貯めています。",
+      "choices": [
+        "ために",
+        "ように",
+        "そうに",
+        "らしく"
+      ],
+      "answer": "ために",
+      "acceptedAnswers": [
+        "ために"
+      ],
+      "explanation": "開く is a conscious volitional action controlled by the same subject. Use ために for purposeful action.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q016",
+      "lessonId": "n4.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "風邪を引かない（　）、手洗いとうがいを徹底してください。",
+      "choices": [
+        "ように",
+        "ために",
+        "はずで",
+        "ことに"
+      ],
+      "answer": "ように",
+      "acceptedAnswers": [
+        "ように"
+      ],
+      "explanation": "Negative forms (〜ない) expressing avoidance of an unwanted state take ように, not ために.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q017",
+      "lessonId": "n4.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "字が小さくて見えにくいので、よく（　）ように大きく書いてください。",
+      "choices": [
+        "見える",
+        "見る",
+        "見させる",
+        "見られるために"
+      ],
+      "answer": "見える",
+      "acceptedAnswers": [
+        "見える"
+      ],
+      "explanation": "〜ように connects with non-volitional/potential verbs like 見える.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q018",
+      "lessonId": "n4.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "大学院の入学試験に合格できる（　）、夜遅くまで論文を読んでいます。",
+      "choices": [
+        "ように",
+        "ために",
+        "はずで",
+        "みたいに"
+      ],
+      "answer": "ように",
+      "acceptedAnswers": [
+        "ように"
+      ],
+      "explanation": "Potential verbs like 合格できる express an ability/target state, which requires ように (not ために).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q019",
+      "lessonId": "n4.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "健康（　）、毎朝三十分のウォーキングを続けています。",
+      "choices": [
+        "のために",
+        "のように",
+        "のらしい",
+        "のはずで"
+      ],
+      "answer": "のために",
+      "acceptedAnswers": [
+        "のために"
+      ],
+      "explanation": "Noun + のために expresses \"for the sake of / for the purpose of [Noun]\".",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q020",
+      "lessonId": "n4.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "赤ちゃんが起きて泣かない（　）、静かにドアを閉めました。",
+      "choices": [
+        "ように",
+        "ために",
+        "ことに",
+        "はずで"
+      ],
+      "answer": "ように",
+      "acceptedAnswers": [
+        "ように"
+      ],
+      "explanation": "When the subject of the purpose clause (赤ちゃん) is different from the main actor (私), ように must be used.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q021",
+      "lessonId": "n4.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「車を買う（　）お金を借りる」の空欄に最も適切なものはどれですか。",
+      "choices": [
+        "ために",
+        "ように",
+        "そうに",
+        "らしく"
+      ],
+      "answer": "ために",
+      "acceptedAnswers": [
+        "ために"
+      ],
+      "explanation": "車を買う is an intentional purchase (volitional verb) performed by the same subject. Use ために.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q022",
+      "lessonId": "n4.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の文のうち、文法的に不自然な誤りのある文はどれですか。",
+      "choices": [
+        "日本語が上手に話せるために、毎日ラジオを聞いています。",
+        "日本語が上手に話せるように、毎日ラジオを聞いています。",
+        "日本語を上手に話すために、毎日練習しています。",
+        "大切な約束を忘れないように、カレンダーに印をつけました。"
+      ],
+      "answer": "日本語が上手に話せるために、毎日ラジオを聞いています。",
+      "acceptedAnswers": [
+        "日本語が上手に話せるために、毎日ラジオを聞いています。"
+      ],
+      "explanation": "Potential verb 話せる cannot take ために; it must take ように (話せるように).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.g001",
+        "n4.l24.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q023",
+      "lessonId": "n4.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「早く風邪が（　）ように、薬を飲んで温かくして寝ます。」",
+      "choices": [
+        "治る",
+        "治すために",
+        "治りたい",
+        "治らないために"
+      ],
+      "answer": "治る",
+      "acceptedAnswers": [
+        "治る"
+      ],
+      "explanation": "治る is an intransitive non-volitional verb denoting recovery of health; connects directly to ように.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q024",
+      "lessonId": "n4.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「家族（　）幸せのために、一生懸命働きます。」の助詞は何ですか。",
+      "choices": [
+        "の",
+        "に",
+        "で",
+        "を"
+      ],
+      "answer": "の",
+      "acceptedAnswers": [
+        "の"
+      ],
+      "explanation": "家族の幸せ (Noun + の + Noun) + のために.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q025",
+      "lessonId": "n4.l24",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "タンさんが毎朝六時に起きている一番の目的は何ですか。",
+      "choices": [
+        "日本の医療機器メーカーに就職する夢を叶えるため",
+        "新しいスマートフォンの使い方を調べるため",
+        "先生の代わりに授業の準備をするため",
+        "毎朝走って体力をつけるため"
+      ],
+      "answer": "日本の医療機器メーカーに就職する夢を叶えるため",
+      "acceptedAnswers": [
+        "日本の医療機器メーカーに就職する夢を叶えるため"
+      ],
+      "explanation": "The reading states he wants to work at a Japanese medical equipment company and studies early to achieve this dream.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q026",
+      "lessonId": "n4.l24",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "タンさんが録音機能を使って発音を練習している目的は何ですか。",
+      "choices": [
+        "外国人である自分が正確に専門用語を話せるようにするため",
+        "留学生の友達に自分の歌を聞かせるため",
+        "先生の声を保存して後で楽しむため",
+        "スマートフォンの録音時間をテストするため"
+      ],
+      "answer": "外国人である自分が正確に専門用語を話せるようにするため",
+      "acceptedAnswers": [
+        "外国人である自分が正確に専門用語を話せるようにするため"
+      ],
+      "explanation": "Passage 2 states: 外国人である自分が正確に専門用語を話せるように、タンさんはスマートフォンの録音機能を使って発音を練習することにしました。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q027",
+      "lessonId": "n4.l24",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "タンさんの考えとして文章の内容と合っているものはどれですか。",
+      "choices": [
+        "読書だけでなく、相手に考えが正しく伝わる話し方の工夫も欠かせない",
+        "読書さえすれば会話の練習はまったく必要ない",
+        "メモ帳を持つよりスマートフォンに頼るべきである",
+        "目標に達するためには睡眠時間を削るのが唯一の方法である"
+      ],
+      "answer": "読書だけでなく、相手に考えが正しく伝わる話し方の工夫も欠かせない",
+      "acceptedAnswers": [
+        "読書だけでなく、相手に考えが正しく伝わる話し方の工夫も欠かせない"
+      ],
+      "explanation": "Passage 3 explicitly quotes him: 知識を深めるために読書することはもちろん大切ですが、相手に自分の考えが正しく伝わるように話す工夫も欠かせません.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q028",
+      "lessonId": "n4.l24",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "リーさんは原稿を何度も書き直した理由として何を挙げていますか。",
+      "choices": [
+        "聴衆に自分の思いが伝わるようにするため",
+        "川口先生に叱られないようにするため",
+        "文字数を減らして早く終わらせるため",
+        "英語に翻訳しやすくするため"
+      ],
+      "answer": "聴衆に自分の思いが伝わるようにするため",
+      "acceptedAnswers": [
+        "聴衆に自分の思いが伝わるようにするため"
+      ],
+      "explanation": "Lee says: 聴衆のみなさんに私の思いが伝わるように、何度も直しました。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q029",
+      "lessonId": "n4.l24",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "川口先生はなぜ少し顎を上げて話すようアドバイスしましたか。",
+      "choices": [
+        "一番後ろの席の人にもはっきり聞こえるようにするため",
+        "背が高く見えるようにするため",
+        "天井の照明を見るようにするため",
+        "原稿を読まないようにするため"
+      ],
+      "answer": "一番後ろの席の人にもはっきり聞こえるようにするため",
+      "acceptedAnswers": [
+        "一番後ろの席の人にもはっきり聞こえるようにするため"
+      ],
+      "explanation": "The teacher explains: 会場の一番後ろの人にもはっきり聞こえるように、少し顎を上げて話すといいですね。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l24.q030",
+      "lessonId": "n4.l24",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "リーさんは自宅で鏡の前で何のために声を出して練習していますか。",
+      "choices": [
+        "途中で詰まったり忘れたりしないようにするため",
+        "鏡の汚れをチェックするため",
+        "先生のモノマネをするため",
+        "自分の表情を写真に撮るため"
+      ],
+      "answer": "途中で詰まったり忘れたりしないようにするため",
+      "acceptedAnswers": [
+        "途中で詰まったり忘れたりしないようにするため"
+      ],
+      "explanation": "Lee says: 途中で詰まったり忘れたりしないように、自宅でも毎日鏡の前で声を出して練習しています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l24.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

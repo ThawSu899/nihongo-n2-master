@@ -1,0 +1,1608 @@
+{
+  "id": "n4.l06",
+  "level": "N4",
+  "module": "N4 Intermediate Grammar 1",
+  "number": 6,
+  "title": "N4 Lesson 6: Transitive vs Intransitive Verbs (自動詞・他動詞)",
+  "description": "Master paired transitive and intransitive verbs (開ける/開く, 消す/消える, 落とす/落ちる) and express continuous visible states using [自動詞-te] います.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l06.v001",
+      "lessonId": "n4.l06",
+      "ja": "開く",
+      "kana": "あく",
+      "en": "to open; to become open (intransitive)",
+      "my": "ပွင့်သည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l06.s001",
+      "kanjiIds": [
+        "n4.l06.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.v002",
+      "lessonId": "n4.l06",
+      "ja": "開ける",
+      "kana": "あける",
+      "en": "to open (something) (transitive)",
+      "my": "ဖွင့်သည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l06.s001",
+      "kanjiIds": [
+        "n4.l06.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.v003",
+      "lessonId": "n4.l06",
+      "ja": "閉まる",
+      "kana": "しまる",
+      "en": "to close; to shut (intransitive)",
+      "my": "ပိတ်သည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l06.s002",
+      "kanjiIds": [
+        "n4.l06.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.v004",
+      "lessonId": "n4.l06",
+      "ja": "閉める",
+      "kana": "しめる",
+      "en": "to close (something) (transitive)",
+      "my": "ပိတ်သည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l06.s002",
+      "kanjiIds": [
+        "n4.l06.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.v005",
+      "lessonId": "n4.l06",
+      "ja": "つく",
+      "kana": "つく",
+      "en": "to turn on; to be lit (intransitive)",
+      "my": "မီးလင်းသည်/ပွင့်သည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l06.s003",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.v006",
+      "lessonId": "n4.l06",
+      "ja": "つける",
+      "kana": "つける",
+      "en": "to turn on (light, switch) (transitive)",
+      "my": "မီးဖွင့်သည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l06.s003",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.v007",
+      "lessonId": "n4.l06",
+      "ja": "消える",
+      "kana": "きえる",
+      "en": "to go out; to be extinguished (intransitive)",
+      "my": "မီးငြိမ်းသည်/ပျောက်ကွယ်သည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l06.s004",
+      "kanjiIds": [
+        "n4.l06.k003"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.v008",
+      "lessonId": "n4.l06",
+      "ja": "消す",
+      "kana": "けす",
+      "en": "to turn off; to extinguish (transitive)",
+      "my": "မီးပိတ်သည်/ဖျက်သည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l06.s004",
+      "kanjiIds": [
+        "n4.l06.k003"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.v009",
+      "lessonId": "n4.l06",
+      "ja": "割れる",
+      "kana": "われる",
+      "en": "to break; to crack; to smash (intransitive)",
+      "my": "ကွဲအက်သည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l06.s005",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.v010",
+      "lessonId": "n4.l06",
+      "ja": "割る",
+      "kana": "わる",
+      "en": "to break (glass, eggs) (transitive)",
+      "my": "ခွဲသည်/ချိုးဖဲ့သည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l06.s005",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.v011",
+      "lessonId": "n4.l06",
+      "ja": "汚れる",
+      "kana": "よごれる",
+      "en": "to become dirty (intransitive)",
+      "my": "ပေကျံညစ်ပတ်သည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l06.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.v012",
+      "lessonId": "n4.l06",
+      "ja": "落とす",
+      "kana": "おとす",
+      "en": "to drop; to lose (transitive)",
+      "my": "ပြုတ်ကျစေသည်/ကျပျောက်သည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l06.s007",
+      "kanjiIds": [
+        "n4.l06.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l06.k001",
+      "lessonId": "n4.l06",
+      "char": "開",
+      "meaning": "open; blossom",
+      "onyomi": [
+        "カイ"
+      ],
+      "kunyomi": [
+        "あ.く",
+        "あ.ける",
+        "ひら.く"
+      ],
+      "exampleVocab": [
+        {
+          "word": "開く",
+          "reading": "あく",
+          "meaning": "to open (intr)",
+          "preview": false
+        },
+        {
+          "word": "開店",
+          "reading": "かいてん",
+          "meaning": "opening a store",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l06.s001"
+      ],
+      "components": [],
+      "strokes": 12,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.k002",
+      "lessonId": "n4.l06",
+      "char": "閉",
+      "meaning": "close; shut",
+      "onyomi": [
+        "ヘイ"
+      ],
+      "kunyomi": [
+        "し.まる",
+        "し.める",
+        "と.じる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "閉まる",
+          "reading": "しまる",
+          "meaning": "to close (intr)",
+          "preview": false
+        },
+        {
+          "word": "閉店",
+          "reading": "へいてん",
+          "meaning": "closing a shop",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l06.s001"
+      ],
+      "components": [],
+      "strokes": 11,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.k003",
+      "lessonId": "n4.l06",
+      "char": "消",
+      "meaning": "extinguish; turn off; vanish",
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "き.える",
+        "け.す"
+      ],
+      "exampleVocab": [
+        {
+          "word": "消える",
+          "reading": "きえる",
+          "meaning": "to go out (intr)",
+          "preview": false
+        },
+        {
+          "word": "消しゴム",
+          "reading": "けしゴム",
+          "meaning": "eraser",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l06.s001"
+      ],
+      "components": [],
+      "strokes": 10,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.k004",
+      "lessonId": "n4.l06",
+      "char": "落",
+      "meaning": "fall; drop; fail",
+      "onyomi": [
+        "ラク"
+      ],
+      "kunyomi": [
+        "お.ちる",
+        "お.とす"
+      ],
+      "exampleVocab": [
+        {
+          "word": "落とす",
+          "reading": "おとす",
+          "meaning": "to drop (tr)",
+          "preview": false
+        },
+        {
+          "word": "落ちる",
+          "reading": "おちる",
+          "meaning": "to fall (intr)",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l06.s001"
+      ],
+      "components": [],
+      "strokes": 12,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l06.g001",
+      "lessonId": "n4.l06",
+      "pattern": "[Noun] を 他動詞 (開ける / つける) vs [Noun] が 自動詞 (開く / つく)",
+      "meaning": "Transitive vs Intransitive Verbs (他動詞 vs 自動詞)",
+      "formation": "Pairs:\n開ける (tr) / 開く (intr)\n閉める (tr) / 閉まる (intr)\nつける (tr) / つく (intr)\n消す (tr) / 消える (intr)\n割る (tr) / 割れる (intr)\n落とす (tr) / 落ちる (intr)",
+      "explanation": {
+        "en": "Transitive verbs (他動詞) describe an intentional human action exerted on a direct object, marked with を (e.g. ドアを開けます = I open the door). Intransitive verbs (自動詞) describe an event or state change happening on its own without focusing on an agent, with the subject marked with が (e.g. ドアが開きます = The door opens). Learning these pairs in parallel is essential for natural N4 Japanese.",
+        "my": "ကံလိုကြိယာ (他動詞) သည် လူတစ်ဦးဦးက ရည်ရွယ်ချက်ရှိရှိ ပြုလုပ်သောအပြုအမူဖြစ်ပြီး ကံပုဒ်တွင် ကို (を) တွဲသည် (ドアを開ける)။ ကံမလိုကြိယာ (自動詞) သည် ပြုလုပ်သူကို အဓိကမထားဘဲ အရာဝတ္ထုအလိုအလျောက် ဖြစ်ပေါ်ပြောင်းလဲခြင်းဖြစ်ပြီး ဂ (が) တွဲသည် (ドアが開く)။ တွဲဖက်စကားလုံးများကို အတူယှဉ်တွဲ မှတ်သားရမည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l06.s001",
+          "note": "Example 1"
+        },
+        {
+          "sentenceId": "n4.l06.s002",
+          "note": "Example 2"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Memory tip: Transitive usually involves human volition with を; intransitive describes natural motion or mechanical status with が."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.g002",
+      "lessonId": "n4.l06",
+      "pattern": "[Noun] が [Intransitive Verb-te] います",
+      "meaning": "Resultant State of Intransitive Verbs ([自動詞-te] います)",
+      "formation": "[Noun] が + [自動詞 て-form] + います\n(開いています, 閉まっています, ついています, 消えています, 壊れています)",
+      "explanation": {
+        "en": "When an intransitive change-of-state verb is put in the -te います form, it describes the visible resultant state that remains after an action took place. For example, 窓が開いています means \"The window is open\" (the state of being open continues), not that someone is currently opening it. 電気がついています means \"The light is on\".",
+        "my": "အခြေအနေပြောင်းလဲမှုပြ ကံမလိုကြိယာကို 「〜ています」 ပုံစံပြောင်းလိုက်သောအခါ ဖြစ်ရပ်ပြီးဆုံးသွားပြီးနောက် ဆက်လက်ကျန်ရှိနေသော လက်ရှိမျက်မြင်အခြေအနေကို ဖော်ပြသည် (ဥပမာ- 窓が開いています = ပြတင်းပေါက် ပွင့်နေပါသည်၊ 電気がついています = မီးလင်းနေပါသည်)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l06.s001",
+          "note": "Example 1"
+        },
+        {
+          "sentenceId": "n4.l06.s002",
+          "note": "Example 2"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Contrast: 窓を開けています (Transitive: Someone is in the middle of opening the window) vs 窓が開いています (Intransitive: The window is currently open)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l06.s001",
+      "lessonId": "n4.l06",
+      "ja": "風が強くて窓が開いたので、立ち上がって窓を閉めました。",
+      "kana": "かぜがつよくてまどがあいたので、たちあがってまどをしめました。",
+      "translation": {
+        "en": "Because the window opened due to strong wind, I stood up and closed the window.",
+        "my": "လေပြင်းတိုက်ခတ်သဖြင့် ပြတင်းပေါက် ပွင့်သွားသောကြောင့် ထပြီး ပြတင်းပေါက်ကို ပိတ်လိုက်ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l06.v001",
+        "n4.l06.v002",
+        "n4.l06.v004"
+      ],
+      "grammarIds": [
+        "n4.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.s002",
+      "lessonId": "n4.l06",
+      "ja": "スーパーの自動ドアが閉まっていたので、入り口でしばらく待ちました。",
+      "kana": "スーパーのじどうドアがしまっていたので、いりぐちでしばらくまちました。",
+      "translation": {
+        "en": "Because the automatic door of the supermarket was closed, I waited at the entrance for a while.",
+        "my": "စူပါမားကတ်၏ အလိုအလျောက်တံခါး ပိတ်နေသောကြောင့် ဝင်ပေါက်တွင် ခေတ္တစောင့်ဆိုင်းခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l06.v003",
+        "n4.l06.v004"
+      ],
+      "grammarIds": [
+        "n4.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.s003",
+      "lessonId": "n4.l06",
+      "ja": "暗くなったので部屋の電気をつけたら、エアコンのスイッチもつきました。",
+      "kana": "くらくなったのでへやのでんきをつけたら、エアコンのスイッチもつきました。",
+      "translation": {
+        "en": "When I turned on the room lights because it grew dark, the air conditioner switch also turned on.",
+        "my": "မှောင်လာသဖြင့် အခန်းမီးဖွင့်လိုက်သောအခါ အဲယားကွန်းခလုတ်လည်း ပွင့်သွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l06.v005",
+        "n4.l06.v006"
+      ],
+      "grammarIds": [
+        "n4.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.s004",
+      "lessonId": "n4.l06",
+      "ja": "帰宅する前にエアコンの電源を消すと、ランプの明かりが静かに消えました。",
+      "kana": "きたくするまえにエアコンのでんげんをけすと、ランプのあかりがしずかにきえました。",
+      "translation": {
+        "en": "When I turned off the air conditioner power before going home, the lamp light silently went out.",
+        "my": "အိမ်မပြန်မီ အဲယားကွန်းပါဝါကို ပိတ်လိုက်သောအခါ မီးသီးအလင်းရောင် ငြိမ်သက်စွာ ငြိမ်းသွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l06.v007",
+        "n4.l06.v008"
+      ],
+      "grammarIds": [
+        "n4.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.s005",
+      "lessonId": "n4.l06",
+      "ja": "床にガラスのコップを落として割ってしまい、破片が粉々に割れました。",
+      "kana": "ゆかにガラスのコップをおとしてわってしまい、はへんがこなごなにわれました。",
+      "translation": {
+        "en": "I accidentally dropped and broke a glass cup on the floor, and fragments cracked into tiny pieces.",
+        "my": "ကြမ်းပြင်ပေါ်သို့ ဖန်ခွက်ပြုတ်ကျခွဲမိပြီး အစိတ်စိတ်အမြွှာမြွှာ ကွဲအက်သွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l06.v009",
+        "n4.l06.v010",
+        "n4.l06.v012"
+      ],
+      "grammarIds": [
+        "n4.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.s006",
+      "lessonId": "n4.l06",
+      "ja": "雨の日に泥道を歩いたせいで、白いスニーカーがひどく汚れてしまいました。",
+      "kana": "あめのひにどろみちをあるいたせいで、しろいスニーカーがひどくよごれてしまいました。",
+      "translation": {
+        "en": "Because I walked on a muddy road on a rainy day, my white sneakers got terribly dirty.",
+        "my": "မိုးရွာသောနေ့တွင် ရွှံ့လမ်းကို လျှောက်ခဲ့မိသောကြောင့် အဖြူရောင်စနီကာဖိနပ် ဆိုးရွားစွာ ပေကျံသွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l06.v011"
+      ],
+      "grammarIds": [
+        "n4.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.s007",
+      "lessonId": "n4.l06",
+      "ja": "ポケットから大切な定期券を落とさないように、しっかりカバンにしまいました。",
+      "kana": "ポケットからたいせつなていきけんをおとさないように、しっかりカバンにしまいました。",
+      "translation": {
+        "en": "So as not to drop my precious commuter pass from my pocket, I stored it firmly in my bag.",
+        "my": "အိတ်ကပ်ထဲမှ အရေးကြီးသော ရထားလစဉ်ကတ် မပြုတ်ကျစေရန် အိတ်ထဲသို့ သေချာစွာ ထည့်သိမ်းခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l06.v012"
+      ],
+      "grammarIds": [
+        "n4.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.s008",
+      "lessonId": "n4.l06",
+      "ja": "会議室のドアが開いていますから、誰か中にいるか確認してください。",
+      "kana": "かいぎしつのドアがあいていますから、だれかなかにいるかかくにんしてください。",
+      "translation": {
+        "en": "The meeting room door is open, so please check if anyone is inside.",
+        "my": "အစည်းအဝေးခန်းတံခါး ပွင့်နေသောကြောင့် အတွင်းတွင် လူရှိမရှိ စစ်ဆေးပေးပါ။"
+      },
+      "vocabIds": [
+        "n4.l06.v001"
+      ],
+      "grammarIds": [
+        "n4.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.s009",
+      "lessonId": "n4.l06",
+      "ja": "誰もいない教室の電気がついているので、消しておきましょう。",
+      "kana": "だれもいないきょうしつのでんきがついているので、けしておきましょう。",
+      "translation": {
+        "en": "The lights are on in the empty classroom, so let's turn them off.",
+        "my": "လူမရှိသော စာသင်ခန်းထဲတွင် မီးလင်းနေသောကြောင့် ပိတ်ထားကြစို့။"
+      },
+      "vocabIds": [
+        "n4.l06.v005",
+        "n4.l06.v008"
+      ],
+      "grammarIds": [
+        "n4.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l06.s010",
+      "lessonId": "n4.l06",
+      "ja": "カバンのポケットが開いていて、中から財布が落ちそうになっていますよ。",
+      "kana": "カバンのポケットがあいていて、なかからさいふがおちそうになっていますよ。",
+      "translation": {
+        "en": "Your bag pocket is open, and the wallet looks about to drop out from inside.",
+        "my": "လွယ်အိတ်အိတ်ကပ် ပွင့်နေပြီး အတွင်းမှ ပိုက်ဆံအိတ် ပြုတ်ကျတော့မလို ဖြစ်နေပါသည်နော်။"
+      },
+      "vocabIds": [
+        "n4.l06.v001"
+      ],
+      "grammarIds": [
+        "n4.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l06.r01",
+    "lessonId": "n4.l06",
+    "title": "オフィスの退勤チェックと戸締まりルール (Office Closing Checklist and Lockup Rules)",
+    "level": "N4",
+    "text": "会社の仕事を終えて最後にオフィスを出る社員は、防犯と省エネのためにいくつかの大切な確認をしなければなりません。\n\nまず、部屋の窓が全部きちんと閉まっているか確かめます。風で窓が開いて雨が吹き込むと、机の上の大切な書類が濡れて汚れてしまいます。次に、エアコンの電源が切れているか、パソコンの画面が消えているかを確認します。電気がついたままだと無駄な電力を消費しますし、火災の原因にもなりかねません。\n\n給湯室では水道の蛇口がしっかり閉まっているか、ゴミ箱の周りに汚れた紙くずが落ちていないかも点検します。最後に誰もいないことを確かめたら、オフィスの照明をすべて消して、ドアの鍵をかけて施錠を確認します。一人ひとりがルールを守ることで、安心で安全な職場環境が保たれています。",
+    "kanaText": "会社の仕事を終えて最後にオフィスを出る社員は、防犯と省エネのためにいくつかの大切な確認をしなければなりません。\n\nまず、部屋の窓が全部きちんと閉まっているか確かめます。風で窓が開いて雨が吹き込むと、机の上の大切な書類が濡れて汚れてしまいます。次に、エアコンの電源が切れているか、パソコンの画面が消えているかを確認します。電気がついたままだと無駄な電力を消費しますし、火災の原因にもなりかねません。\n\n給湯室では水道の蛇口がしっかり閉まっているか、ゴミ箱の周りに汚れた紙くずが落ちていないかも点検します。最後に誰もいないことを確かめたら、オフィスの照明をすべて消して、ドアの鍵をかけて施錠を確認します。一人ひとりがルールを守ることで、安心で安全な職場環境が保たれています。",
+    "translation": "The employee who leaves the office last after finishing work must make several important checks for crime prevention and energy conservation.\n\nFirst, make sure that all the room windows are closed tightly. If a window opens in the wind and rain blows in, important documents on desks will get wet and dirty. Next, check whether the air conditioner power is turned off and computer screens are off. If lights stay on, wasteful electricity is consumed, and it could even lead to fire.\n\nIn the kitchenette, check whether the water faucet is tightly shut and that dirty paper scraps have not dropped around the trash can. Finally, after confirming that no one is left inside, turn off all office lighting, lock the door, and verify that it is locked. By each person following rules, a safe and secure workplace environment is maintained.",
+    "questionIds": [
+      "n4.l06.q021",
+      "n4.l06.q022",
+      "n4.l06.q023",
+      "n4.l06.q024",
+      "n4.l06.q025"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l06.l01",
+    "lessonId": "n4.l06",
+    "title": "電車内での落とし物の注意 (Noticing a Dropped Item on the Train)",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "乗客A：あのう、すみません！\n乗客B：はい？私ですか。\n乗客A：リュックサックの外側のポケットが大きく開いていますよ。\n乗客B：えっ、本当ですか！全然気づきませんでした。\n乗客A：ええ、さっき電車が揺れたときに、足元に黒い手帳が落ちましたよ。ほら、あそこの座席の下に落ちています。\n乗客B：あっ、本当だ！会社の大切なスケジュール帳です。落ちて汚れたら大変でした。\n乗客A：拾って差し上げますね。はい、どうぞ。壊れたり汚れたりしていませんよ。\n乗客B：わざわざ教えてくださって、本当にありがとうございました！ファスナーをしっかり閉めておきます。",
+    "translation": "Passenger A: Excuse me!\nPassenger B: Yes? Me?\nPassenger A: The outer pocket of your backpack is wide open.\nPassenger B: What, really? I didn't notice at all!\nPassenger A: Yes, when the train shook earlier, a black notebook fell to the floor. Look, it is lying under that seat over there.\nPassenger B: Ah, you're right! It's my company's important schedule notebook. If it had fallen and gotten dirty, it would have been a disaster.\nPassenger A: I will pick it up for you. Here you go. It isn't broken or dirty.\nPassenger B: Thank you so much for going out of your way to let me know! I will keep the zipper firmly closed.",
+    "turns": [],
+    "questionIds": [
+      "n4.l06.q026",
+      "n4.l06.q027",
+      "n4.l06.q028",
+      "n4.l06.q029",
+      "n4.l06.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l06.q001",
+      "lessonId": "n4.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "暑いので、窓を（　）て風を通しましょう。",
+      "choices": [
+        "開け",
+        "開い",
+        "閉まり",
+        "閉め"
+      ],
+      "answer": "開け",
+      "acceptedAnswers": [
+        "開け"
+      ],
+      "explanation": "Transitive action \"to open the window\" is 窓を開ける (まどをあける).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q002",
+      "lessonId": "n4.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "夜十時になると、デパートの玄関が（　）ます。",
+      "choices": [
+        "閉まり",
+        "閉め",
+        "開け",
+        "消し"
+      ],
+      "answer": "閉まり",
+      "acceptedAnswers": [
+        "閉まり"
+      ],
+      "explanation": "Intransitive \"the door closes\" is 閉まる (しまる).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q003",
+      "lessonId": "n4.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "部屋が暗いから、明かりを（　）てください。",
+      "choices": [
+        "つけて",
+        "ついて",
+        "消えて",
+        "落ちて"
+      ],
+      "answer": "つけて",
+      "acceptedAnswers": [
+        "つけて"
+      ],
+      "explanation": "Transitive \"to turn on the light\" is 電気/明かりをつける.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q004",
+      "lessonId": "n4.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "朝になると、街灯の明かりが自然に（　）た。",
+      "choices": [
+        "消え",
+        "消し",
+        "割れ",
+        "落ち"
+      ],
+      "answer": "消え",
+      "acceptedAnswers": [
+        "消え"
+      ],
+      "explanation": "Intransitive \"lights go out / extinguish\" is 消える (きえる).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q005",
+      "lessonId": "n4.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "お皿を洗うときに手を滑らせて、お皿を（　）てしまった。",
+      "choices": [
+        "割っ",
+        "割れ",
+        "消し",
+        "落とし"
+      ],
+      "answer": "割っ",
+      "acceptedAnswers": [
+        "割っ"
+      ],
+      "explanation": "Transitive action \"to break a plate\" is 割る (わってしまう).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q006",
+      "lessonId": "n4.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "走っている最中に、ポケットから小銭を（　）てしまった。",
+      "choices": [
+        "落とし",
+        "落ち",
+        "消し",
+        "開け"
+      ],
+      "answer": "落とし",
+      "acceptedAnswers": [
+        "落とし"
+      ],
+      "explanation": "Transitive \"to drop coins\" is 小銭を落とす (おとす).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q007",
+      "lessonId": "n4.l06",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「開店」の「開」の音読みはどれですか。",
+      "choices": [
+        "カイ",
+        "ヘイ",
+        "ショウ",
+        "ラク"
+      ],
+      "answer": "カイ",
+      "acceptedAnswers": [
+        "カイ"
+      ],
+      "explanation": "The on-yomi of 開 is カイ (as in 開店 かいてん, 開始 かいし).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q008",
+      "lessonId": "n4.l06",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「へいてん」を漢字で書くとき、正しい表記はどれですか。",
+      "choices": [
+        "閉店",
+        "閉点",
+        "開点",
+        "開閉"
+      ],
+      "answer": "閉店",
+      "acceptedAnswers": [
+        "閉店"
+      ],
+      "explanation": "Shop closing is written 閉店 (へいてん).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q009",
+      "lessonId": "n4.l06",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「消える」の下線部（消）の訓読みはどれですか。",
+      "choices": [
+        "き",
+        "け",
+        "お",
+        "わ"
+      ],
+      "answer": "き",
+      "acceptedAnswers": [
+        "き"
+      ],
+      "explanation": "消える is read きえる (kun-yomi き).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q010",
+      "lessonId": "n4.l06",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「落とし物」の「落」の正しい読み方はどれですか。",
+      "choices": [
+        "お",
+        "らく",
+        "へい",
+        "かい"
+      ],
+      "answer": "お",
+      "acceptedAnswers": [
+        "お"
+      ],
+      "explanation": "落とし物 is read おとしもの (kun-yomi お).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q011",
+      "lessonId": "n4.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "ドア（　）開いています。",
+      "choices": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": "が",
+      "acceptedAnswers": [
+        "が"
+      ],
+      "explanation": "Intransitive verb 開く in resultant state takes subject が: ドアが開いています.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.g001",
+        "n4.l06.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q012",
+      "lessonId": "n4.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "寒いですから、ドア（　）閉めてください。",
+      "choices": [
+        "を",
+        "が",
+        "に",
+        "で"
+      ],
+      "answer": "を",
+      "acceptedAnswers": [
+        "を"
+      ],
+      "explanation": "Transitive action with 閉める marks the object with を: ドアを閉めてください.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q013",
+      "lessonId": "n4.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "教室の電気（　）消えています。",
+      "choices": [
+        "が",
+        "を",
+        "に",
+        "へ"
+      ],
+      "answer": "が",
+      "acceptedAnswers": [
+        "が"
+      ],
+      "explanation": "Intransitive 消える takes subject が: 電気が消えています.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q014",
+      "lessonId": "n4.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "出かける前に、部屋の電気（　）消してください。",
+      "choices": [
+        "を",
+        "が",
+        "に",
+        "で"
+      ],
+      "answer": "を",
+      "acceptedAnswers": [
+        "を"
+      ],
+      "explanation": "Transitive verb 消す takes object marked with を: 電気を消してください.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q015",
+      "lessonId": "n4.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "あっ、お気に入りのコップが（　）います！",
+      "choices": [
+        "割れて",
+        "割って",
+        "落として",
+        "消して"
+      ],
+      "answer": "割れて",
+      "acceptedAnswers": [
+        "割れて"
+      ],
+      "explanation": "Intransitive 割れる in resultant state is 割れています (is broken).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q016",
+      "lessonId": "n4.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "道にお金が（　）いますよ。",
+      "choices": [
+        "落ちて",
+        "落として",
+        "消えて",
+        "閉まって"
+      ],
+      "answer": "落ちて",
+      "acceptedAnswers": [
+        "落ちて"
+      ],
+      "explanation": "Intransitive 落ちる in resultant state is 落ちています (has fallen / is lying on the ground).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q017",
+      "lessonId": "n4.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "エアコンのスイッチが（　）いますから、涼しいですね。",
+      "choices": [
+        "ついて",
+        "つけて",
+        "消して",
+        "開けて"
+      ],
+      "answer": "ついて",
+      "acceptedAnswers": [
+        "ついて"
+      ],
+      "explanation": "Intransitive つく resultant state is ついています (is on).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q018",
+      "lessonId": "n4.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "服が泥で（　）いるので、着替えます。",
+      "choices": [
+        "汚れて",
+        "汚して",
+        "落として",
+        "閉めて"
+      ],
+      "answer": "汚れて",
+      "acceptedAnswers": [
+        "汚れて"
+      ],
+      "explanation": "Intransitive 汚れる in resultant state is 汚れている (is dirty).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q019",
+      "lessonId": "n4.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "他動詞と自動詞の組み合わせとして、正しいものはどれですか。",
+      "choices": [
+        "開ける（他）／ 開く（自）",
+        "開く（他）／ 開ける（自）",
+        "消える（他）／ 消す（自）",
+        "落ちる（他）／ 落とす（自）"
+      ],
+      "answer": "開ける（他）／ 開く（自）",
+      "acceptedAnswers": [
+        "開ける（他）／ 開く（自）"
+      ],
+      "explanation": "開ける is transitive (他動詞) and 開く is intransitive (自動詞).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q020",
+      "lessonId": "n4.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「窓が開いています」の文の意味として適切なものはどれですか。",
+      "choices": [
+        "窓が開いた状態が続いている",
+        "今誰かが窓を開けている最中である",
+        "これから窓を開ける予定である",
+        "窓を開けてはいけない"
+      ],
+      "answer": "窓が開いた状態が続いている",
+      "acceptedAnswers": [
+        "窓が開いた状態が続いている"
+      ],
+      "explanation": "[自動詞-te] います describes the visible continuing state resulting from an event.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q021",
+      "lessonId": "n4.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "オフィスを最後に出る社員は、何のために確認をしなければなりませんか。",
+      "choices": [
+        "防犯と省エネのため",
+        "残業代をもらうため",
+        "掃除を全部終わらせるため",
+        "新しいパソコンを買うため"
+      ],
+      "answer": "防犯と省エネのため",
+      "acceptedAnswers": [
+        "防犯と省エネのため"
+      ],
+      "explanation": "The text says: 防犯と省エネのためにいくつかの大切な確認をしなければなりません.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q022",
+      "lessonId": "n4.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "窓が開いたまま雨が吹き込むと、どうなってしまいますか。",
+      "choices": [
+        "机の上の大切な書類が濡れて汚れてしまう",
+        "部屋の電気が消えてしまう",
+        "エアコンが壊れてしまう",
+        "鍵がかからなくなってしまう"
+      ],
+      "answer": "机の上の大切な書類が濡れて汚れてしまう",
+      "acceptedAnswers": [
+        "机の上の大切な書類が濡れて汚れてしまう"
+      ],
+      "explanation": "The text states: 机の上の大切な書類が濡れて汚れてしまいます.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q023",
+      "lessonId": "n4.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "電気がついたままだと、どのような問題がありますか。",
+      "choices": [
+        "無駄な電力を消費し、火災の原因にもなりかねない",
+        "泥棒がすぐに入ってくる",
+        "窓ガラスが割れてしまう",
+        "給湯室の水が止まらなくなる"
+      ],
+      "answer": "無駄な電力を消費し、火災の原因にもなりかねない",
+      "acceptedAnswers": [
+        "無駄な電力を消費し、火災の原因にもなりかねない"
+      ],
+      "explanation": "The text says: 電気がついたままだと無駄な電力を消費しますし、火災の原因にもなりかねません.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q024",
+      "lessonId": "n4.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "給湯室で確認すべきこととして、何が挙げられていますか。",
+      "choices": [
+        "水道の蛇口がしっかり閉まっているか",
+        "冷蔵庫にお茶があるか",
+        "お湯が沸いているか",
+        "コーヒーカップが洗ってあるか"
+      ],
+      "answer": "水道の蛇口がしっかり閉まっているか",
+      "acceptedAnswers": [
+        "水道の蛇口がしっかり閉まっているか"
+      ],
+      "explanation": "The text states: 給湯室では水道の蛇口がしっかり閉まっているか... 点検します.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q025",
+      "lessonId": "n4.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "誰もいないことを確かめたあと、最後に何をしますか。",
+      "choices": [
+        "照明を消して、ドアの鍵をかけて施錠を確認する",
+        "窓を全部開けて換気する",
+        "パソコンの電源をつける",
+        "会社の警備員に電話をかける"
+      ],
+      "answer": "照明を消して、ドアの鍵をかけて施錠を確認する",
+      "acceptedAnswers": [
+        "照明を消して、ドアの鍵をかけて施錠を確認する"
+      ],
+      "explanation": "The text states: オフィスの照明をすべて消して、ドアの鍵をかけて施錠を確認します.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q026",
+      "lessonId": "n4.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "乗客Aは乗客Bに何と声をかけましたか。",
+      "choices": [
+        "リュックサックの外側のポケットが大きく開いている",
+        "電車のドアが閉まりそうである",
+        "切符を落としたようである",
+        "靴紐が解けている"
+      ],
+      "answer": "リュックサックの外側のポケットが大きく開いている",
+      "acceptedAnswers": [
+        "リュックサックの外側のポケットが大きく開いている"
+      ],
+      "explanation": "Passenger A says: リュックサックの外側のポケットが大きく開いていますよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q027",
+      "lessonId": "n4.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "電車の床に何が落ちていましたか。",
+      "choices": [
+        "黒い手帳",
+        "財布",
+        "スマートフォン",
+        "傘"
+      ],
+      "answer": "黒い手帳",
+      "acceptedAnswers": [
+        "黒い手帳"
+      ],
+      "explanation": "Passenger A says: 足元に黒い手帳が落ちましたよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q028",
+      "lessonId": "n4.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "落ちた物は乗客Bにとってどのような物でしたか。",
+      "choices": [
+        "会社の大切なスケジュール帳",
+        "友達から借りた漫画本",
+        "電車の時刻表",
+        "誰かの忘れ物"
+      ],
+      "answer": "会社の大切なスケジュール帳",
+      "acceptedAnswers": [
+        "会社の大切なスケジュール帳"
+      ],
+      "explanation": "Passenger B says: 会社の大切なスケジュール帳です.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q029",
+      "lessonId": "n4.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "拾ってもらった手帳の状態はどうでしたか。",
+      "choices": [
+        "壊れたり汚れたりしていなかった",
+        "水で濡れて汚れていた",
+        "表紙が破れていた",
+        "中身がなくなっていた"
+      ],
+      "answer": "壊れたり汚れたりしていなかった",
+      "acceptedAnswers": [
+        "壊れたり汚れたりしていなかった"
+      ],
+      "explanation": "Passenger A says: 壊れたり汚れたりしていませんよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l06.q030",
+      "lessonId": "n4.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "乗客Bは最後にどうすると言いましたか。",
+      "choices": [
+        "ファスナーをしっかり閉めておく",
+        "リュックサックを前に抱える",
+        "次の駅で降りる",
+        "手帳をポケットに入れる"
+      ],
+      "answer": "ファスナーをしっかり閉めておく",
+      "acceptedAnswers": [
+        "ファスナーをしっかり閉めておく"
+      ],
+      "explanation": "Passenger B concludes: ファスナーをしっかり閉めておきます.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l06.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

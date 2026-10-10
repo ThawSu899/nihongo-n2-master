@@ -1,0 +1,1637 @@
+{
+  "id": "n3.l28",
+  "level": "N3",
+  "module": "N3 Nuance & Natural Discourse",
+  "number": 28,
+  "title": "N3 Lesson 28: In Terms of & From Viewpoint (〜にとって・〜に対して)",
+  "description": "Master upper-intermediate expressions of rational basis and adaptive proportion, contrasting authoritative grounding (〜に基づいて / 〜に基づき: based upon objective criteria, law, or data) with flexible contextual adaptation (〜に応じて / 〜に応じた: in accordance with / corresponding to circumstances or abilities).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l28.v001",
+      "lessonId": "n3.l28",
+      "ja": "基準",
+      "kana": "きじゅん",
+      "en": "standard; criterion; benchmark",
+      "my": "စံနှုန်း/သတ်မှတ်စံ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l28.s001",
+      "kanjiIds": [
+        "n3.l28.k001",
+        "n3.l28.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.v002",
+      "lessonId": "n3.l28",
+      "ja": "基本",
+      "kana": "きほん",
+      "en": "foundation; basis; standard; basic",
+      "my": "အခြေခံ/အခြေခံသဘောတရား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l28.s002",
+      "kanjiIds": [
+        "n3.l28.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.v003",
+      "lessonId": "n3.l28",
+      "ja": "模範",
+      "kana": "もはん",
+      "en": "model; exemplar; pattern",
+      "my": "စံပြ/အတုယူဖွယ်စံနမူနာ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l28.s003",
+      "kanjiIds": [
+        "n3.l28.k003",
+        "n3.l28.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.v004",
+      "lessonId": "n3.l28",
+      "ja": "規模",
+      "kana": "きぼ",
+      "en": "scale; scope; magnitude",
+      "my": "အတိုင်းအတာ/အရွယ်အစားပမာဏ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l28.s004",
+      "kanjiIds": [
+        "n3.l28.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.v005",
+      "lessonId": "n3.l28",
+      "ja": "実態",
+      "kana": "じったい",
+      "en": "actual conditions; real status; reality",
+      "my": "လက်တွေ့အခြေအနေမှန်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l28.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.v006",
+      "lessonId": "n3.l28",
+      "ja": "要望",
+      "kana": "ようぼう",
+      "en": "demand; request; desire",
+      "my": "တောင်းဆိုချက်/ဆန္ဒပြုချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l28.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.v007",
+      "lessonId": "n3.l28",
+      "ja": "能力",
+      "kana": "のうりょく",
+      "en": "ability; capability; capacity",
+      "my": "စွမ်းရည်/လုပ်ကိုင်နိုင်စွမ်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l28.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.v008",
+      "lessonId": "n3.l28",
+      "ja": "柔軟",
+      "kana": "じゅうなん",
+      "en": "flexible; pliant; supple; adaptable",
+      "my": "ပျော့ပျောင်းလျော့ရဲသော/အလိုက်သင့်ပြောင်းလဲနိုင်သော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l28.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.v009",
+      "lessonId": "n3.l28",
+      "ja": "客観的",
+      "kana": "きゃっかんてき",
+      "en": "objective; impartial",
+      "my": "ဓမ္မဓိဋ္ဌာန်ကျသော/ဘက်လိုက်မှုကင်းသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l28.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.v010",
+      "lessonId": "n3.l28",
+      "ja": "統計",
+      "kana": "とうけい",
+      "en": "statistics",
+      "my": "စာရင်းအင်းဆိုင်ရာအချက်အလက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l28.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.v011",
+      "lessonId": "n3.l28",
+      "ja": "適切",
+      "kana": "てきせつ",
+      "en": "appropriate; suitable; fitting; proper",
+      "my": "သင့်လျော်လျောက်ပတ်သော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l28.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.v012",
+      "lessonId": "n3.l28",
+      "ja": "待遇",
+      "kana": "たいぐう",
+      "en": "treatment; working conditions; compensation",
+      "my": "ဆက်ဆံမှု/လုပ်ခလစာနှင့်ခံစားခွင့်များ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l28.s012",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l28.k001",
+      "lessonId": "n3.l28",
+      "char": "基",
+      "meaning": "fundamentals, radical, counter for machines, foundation",
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [
+        "もと",
+        "もとい"
+      ],
+      "exampleVocab": [
+        {
+          "word": "基本",
+          "reading": "きほん",
+          "meaning": "basis, foundation",
+          "preview": false
+        },
+        {
+          "word": "基準",
+          "reading": "きじゅん",
+          "meaning": "standard, criterion",
+          "preview": false
+        },
+        {
+          "word": "基礎",
+          "reading": "きそ",
+          "meaning": "foundation, groundwork",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l28.s001",
+        "n3.l28.s002"
+      ],
+      "components": [],
+      "strokes": 11,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.k002",
+      "lessonId": "n3.l28",
+      "char": "準",
+      "meaning": "semi-, associate, conform, imitate",
+      "onyomi": [
+        "ジュン"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "基準",
+          "reading": "きじゅん",
+          "meaning": "standard, benchmark",
+          "preview": false
+        },
+        {
+          "word": "準備",
+          "reading": "じゅんび",
+          "meaning": "preparation",
+          "preview": false
+        },
+        {
+          "word": "水準",
+          "reading": "すいじゅん",
+          "meaning": "level, standard",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l28.s001"
+      ],
+      "components": [],
+      "strokes": 13,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.k003",
+      "lessonId": "n3.l28",
+      "char": "模",
+      "meaning": "imitate, copy, mock, model",
+      "onyomi": [
+        "モ",
+        "ボ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "模範",
+          "reading": "もはん",
+          "meaning": "model, exemplar",
+          "preview": false
+        },
+        {
+          "word": "規模",
+          "reading": "きぼ",
+          "meaning": "scale, scope",
+          "preview": false
+        },
+        {
+          "word": "模様",
+          "reading": "もよう",
+          "meaning": "pattern, appearance",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l28.s003",
+        "n3.l28.s004"
+      ],
+      "components": [],
+      "strokes": 14,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.k004",
+      "lessonId": "n3.l28",
+      "char": "範",
+      "meaning": "pattern, example, model",
+      "onyomi": [
+        "ハン"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "模範",
+          "reading": "もはん",
+          "meaning": "model, pattern",
+          "preview": false
+        },
+        {
+          "word": "範囲",
+          "reading": "はんい",
+          "meaning": "range, scope",
+          "preview": false
+        },
+        {
+          "word": "規範",
+          "reading": "きはん",
+          "meaning": "norm, criterion",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l28.s003"
+      ],
+      "components": [],
+      "strokes": 15,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l28.g001",
+      "lessonId": "n3.l28",
+      "pattern": "〜に基づいて / 〜に基づき / 〜に基づく",
+      "meaning": "based on ... / grounded upon ... / on the basis of ...",
+      "formation": "Noun + に基づいて / に基づき / に基づく + Noun",
+      "explanation": {
+        "en": "Indicates that an action, decision, evaluation, policy, or legal judgment is firmly grounded upon a specific factual basis, objective data, scientific law, or official principle. The basis serves as the foundational authority.",
+        "my": "တိကျသော အချက်အလက်၊ စာရင်းအင်း၊ စည်းမျဉ်း သို့မဟုတ် ဥပဒေအပေါ် အခြေခံ၍ ဆုံးဖြတ်ချက်၊ မူဝါဒ သို့မဟုတ် စီရင်ချက် ချမှတ်ဆောင်ရွက်ခြင်းကို ဖော်ပြသည်။ \"...အပေါ် အခြေခံ၍\" ဟု အဓိပ္ပာယ်ရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l28.s001",
+          "note": "Evaluation based on objective standards"
+        },
+        {
+          "sentenceId": "n3.l28.s010",
+          "note": "Policy formulation grounded in statistical data"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse with 〜をもとに（して） (which often refers to raw materials or artistic inspiration, e.g. 事実をもとに映画を作る, whereas に基づいて refers to authoritative rules, laws, or data)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.g002",
+      "lessonId": "n3.l28",
+      "pattern": "〜に応じて / 〜に応じた",
+      "meaning": "in accordance with ... / depending on ... / in response to ...",
+      "formation": "Noun + に応じて / Noun + に応じた + Noun",
+      "explanation": {
+        "en": "Expresses that an action, treatment, rate, or plan changes flexibly to match differing individual circumstances, abilities, ages, weather conditions, or customer demands.",
+        "my": "တစ်ဦးချင်းစီ၏ အခြေအနေ၊ စွမ်းရည်၊ အသက်အရွယ် သို့မဟုတ် ဝယ်ယူသူ၏ တောင်းဆိုချက်နှင့် လိုက်လျောညီထွေဖြစ်အောင် အလိုက်သင့် လိုက်လျောပြောင်းလဲ ပြုမူဆောင်ရွက်ခြင်းကို ဖော်ပြသည်။ \"...နှင့်အညီ/...ပေါ်မူတည်၍\" ဟု အဓိပ္ပာယ်ရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l28.s006",
+          "note": "Flexible services tailored to customer demands"
+        },
+        {
+          "sentenceId": "n3.l28.s007",
+          "note": "Allocating tasks according to individual employee capabilities"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l28.g001"
+      ],
+      "commonMistakes": [
+        "Do not confuse with 〜にこたえて (which means responding to expectations/wishes with gratitude or effort, e.g. 期待にこたえて). 〜に応じて focuses on matching conditions and proportions."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l28.s001",
+      "lessonId": "n3.l28",
+      "ja": "客観的な評価基準に基づいて、全社員の業績を公平に査定する。",
+      "kana": "きゃっかんてきなひょうかきじゅんにもとづいて、ぜんしゃいんのぎょうせきをこうへいにさていする。",
+      "translation": {
+        "en": "Based on objective evaluation standards, we fairly assess the performance of all employees.",
+        "my": "ဓမ္မဓိဋ္ဌာန်ကျသော အကဲဖြတ်စံနှုန်းများအပေါ် အခြေခံ၍ ဝန်ထမ်းအားလုံး၏ လုပ်ငန်းစွမ်းဆောင်ရည်ကို တရားမျှတစွာ စစ်ဆေးအကဲဖြတ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l28.v001",
+        "n3.l28.v009"
+      ],
+      "grammarIds": [
+        "n3.l28.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.s002",
+      "lessonId": "n3.l28",
+      "ja": "業務の基本をしっかりと身につけた上で、応用的な課題に取り組むべきだ。",
+      "kana": "ぎょうむのきほんをしっかりところみにつけたうえで、おうようてきなかだいにとりくむべきだ。",
+      "translation": {
+        "en": "After firmly acquiring the basics of work, one should tackle applied challenges.",
+        "my": "လုပ်ငန်း၏ အခြေခံသဘောတရားများကို သေချာစွာ တတ်မြောက်ပြီးမှသာ အဆင့်မြင့်လက်တွေ့စိန်ခေါ်မှုများကို ဆက်လက်လုပ်ဆောင်သင့်သည်။"
+      },
+      "vocabIds": [
+        "n3.l28.v002"
+      ],
+      "grammarIds": [
+        "n3.l28.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.s003",
+      "lessonId": "n3.l28",
+      "ja": "彼は常に礼儀正しく誠実で、新入社員にとって模範となる先輩社員だ。",
+      "kana": "かれはつねにれいぎただしくせいじつで、しんにゅうしゃいんにとってもはんとなるせんぱいしゃいんだ。",
+      "translation": {
+        "en": "He is always courteous and sincere, serving as an exemplary senior colleague for new employees.",
+        "my": "သူသည် အမြဲတမ်း ယဉ်ကျေးသိမ်မွေ့ပြီး စိတ်ရင်းမှန်ရှိသဖြင့် ဝန်ထမ်းသစ်များအတွက် အတုယူဖွယ် စံနမူနာပြ စီနီယာဝန်ထမ်းတစ်ဦးဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l28.v003"
+      ],
+      "grammarIds": [
+        "n3.l28.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.s004",
+      "lessonId": "n3.l28",
+      "ja": "事業の規模に応じて、適切な情報セキュリティ対策を講じる必要がある。",
+      "kana": "じぎょうのきぼにおうじて、てきせつなじょうほうセキュリティたいさくをこうじるひつようがある。",
+      "translation": {
+        "en": "Depending on the scale of business, it is necessary to implement appropriate information security measures.",
+        "my": "စီးပွားရေးလုပ်ငန်း၏ အတိုင်းအတာအရွယ်အစားနှင့်အညီ သင့်လျော်သော သတင်းအချက်အလက် လုံခြုံရေးအစီအမံများကို ချမှတ်ဆောင်ရွက်ရန် လိုအပ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l28.v004",
+        "n3.l28.v011"
+      ],
+      "grammarIds": [
+        "n3.l28.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.s005",
+      "lessonId": "n3.l28",
+      "ja": "現場の実態を正確に把握しなければ、有効な解決策を打ち出すことはできない。",
+      "kana": "げんばのじったいをせいかくにはあくしなければ、ゆうこうなかいけつさくをうちだすことはできない。",
+      "translation": {
+        "en": "Unless we accurately grasp the actual conditions on the ground, we cannot propose effective solutions.",
+        "my": "မြေပြင်ရှိ လက်တွေ့အခြေအနေမှန်ကို တိကျစွာ သဘောမပေါက်ပါက ထိရောက်သော ဖြေရှင်းနည်းများကို ဖော်ထုတ်နိုင်မည် မဟုတ်ပါ။"
+      },
+      "vocabIds": [
+        "n3.l28.v005"
+      ],
+      "grammarIds": [
+        "n3.l28.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.s006",
+      "lessonId": "n3.l28",
+      "ja": "お客様の個別の要望に応じて、製品の仕様を柔軟にカスタマイズする。",
+      "kana": "おきゃくさまのこべつのようぼうにおうじて、せいひんのしようをじゅうなんにカスタマイズする。",
+      "translation": {
+        "en": "In accordance with each customer’s individual requests, we flexibly customize product specifications.",
+        "my": "ဖောက်သည်တစ်ဦးချင်းစီ၏ သီးခြားတောင်းဆိုချက်များနှင့်အညီ ကုန်ပစ္စည်း၏ သတ်မှတ်ချက်များကို အလိုက်သင့် ပြင်ဆင်ပေးသည်။"
+      },
+      "vocabIds": [
+        "n3.l28.v006",
+        "n3.l28.v008"
+      ],
+      "grammarIds": [
+        "n3.l28.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.s007",
+      "lessonId": "n3.l28",
+      "ja": "個々の社員の能力や経験に応じた研修プログラムを提供している。",
+      "kana": "ここへのしゃいんののうりょくやけいけんにおうじたけんしゅうプログラムをついきょうしている。",
+      "translation": {
+        "en": "We provide training programs matching the abilities and experiences of individual employees.",
+        "my": "ဝန်ထမ်းတစ်ဦးချင်းစီ၏ စွမ်းရည်နှင့် အတွေ့အကြုံများနှင့် လိုက်လျောညီထွေရှိသော သင်တန်းအစီအစဉ်များကို ပေးအပ်လျက်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l28.v007"
+      ],
+      "grammarIds": [
+        "n3.l28.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.s008",
+      "lessonId": "n3.l28",
+      "ja": "固定観念にとらわれず、状況の変化に応じて柔軟に対応する姿勢が求められる。",
+      "kana": "こていかんねんにとらわれず、じょうきょうのへんかにおうじてじゅうなんにたいおうするしせいがもとめられる。",
+      "translation": {
+        "en": "Without being bound by stereotypes, an attitude to adapt flexibly according to situational changes is required.",
+        "my": "အမြင်ဟောင်းများတွင် ပိတ်မိမနေဘဲ အခြေအနေပြောင်းလဲမှုများနှင့်အညီ အလိုက်သင့် ပြောင်းလဲတုံ့ပြန်နိုင်သော သဘောထားကို လိုအပ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l28.v008"
+      ],
+      "grammarIds": [
+        "n3.l28.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.s009",
+      "lessonId": "n3.l28",
+      "ja": "個人の主観的な感情を排除し、客観的な事実に基づいて判断を下さなければならない。",
+      "kana": "こじんのしゅかんてきなかんじょうをはいじょし、きゃっかんてきなじじつにもとづいてはんだんをくださなければならない。",
+      "translation": {
+        "en": "We must eliminate personal subjective feelings and make judgments based on objective facts.",
+        "my": "တစ်ကိုယ်ရေ စိတ်ခံစားမှုများကို ဖယ်ထုတ်ပြီး ဓမ္မဓိဋ္ဌာန်ကျသော အချက်အလက်များအပေါ် အခြေခံ၍ ဆုံးဖြတ်ချက် ချမှတ်ရမည်။"
+      },
+      "vocabIds": [
+        "n3.l28.v009"
+      ],
+      "grammarIds": [
+        "n3.l28.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.s010",
+      "lessonId": "n3.l28",
+      "ja": "過去十年間の人口統計に基づいて、将来の学校建設計画を立案した。",
+      "kana": "かこじゅうねんかんのじんこうとうけいにもとづいて、しょうらいのがっこうけんせつけいかくをりつあんした。",
+      "translation": {
+        "en": "Based on demographic statistics of the past decade, we drafted future school construction plans.",
+        "my": "လွန်ခဲ့သော ၁၀ နှစ်တာ လူဦးရေစာရင်းအင်း အချက်အလက်များအပေါ် အခြေခံ၍ အနာဂတ် ကျောင်းဆောက်လုပ်ရေး စီမံကိန်းကို ရေးဆွဲခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l28.v010"
+      ],
+      "grammarIds": [
+        "n3.l28.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.s011",
+      "lessonId": "n3.l28",
+      "ja": "利用者の年齢や身体状況に応じて、適切に食事のメニューを調整している。",
+      "kana": "りようしゃのねんれいやしんたいじょうきょうにおうじて、てきせつにしょくじのメニューをちょうせいしている。",
+      "translation": {
+        "en": "In accordance with users’ ages and physical conditions, we appropriately adjust the meal menu.",
+        "my": "သုံးစွဲသူများ၏ အသက်အရွယ်နှင့် ခန္ဓာကိုယ်အခြေအနေများနှင့်အညီ အစားအသောက်မီနူးကို သင့်လျော်စွာ ချိန်ညှိပေးနေသည်။"
+      },
+      "vocabIds": [
+        "n3.l28.v011"
+      ],
+      "grammarIds": [
+        "n3.l28.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l28.s012",
+      "lessonId": "n3.l28",
+      "ja": "成果を上げた社員には、能力と貢献度に応じた公正な待遇が与えられるべきだ。",
+      "kana": "せいかをあげたしゃいんには、のうりょくとこうけんどにおうじたこうせいなたいぐうがあたえられるべきだ。",
+      "translation": {
+        "en": "Employees who achieved results should be granted fair compensation corresponding to their ability and contribution.",
+        "my": "ရလဒ်ကောင်းများ ထုတ်ဆောင်နိုင်ခဲ့သော ဝန်ထမ်းများအား စွမ်းရည်နှင့် စွမ်းဆောင်မှုပမာဏနှင့်အညီ တရားမျှတသော ခံစားခွင့်များ ပေးအပ်သင့်သည်။"
+      },
+      "vocabIds": [
+        "n3.l28.v012"
+      ],
+      "grammarIds": [
+        "n3.l28.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l28.r001",
+    "lessonId": "n3.l28",
+    "title": "Modern Wage System Reform: Performance vs Seniority Based on Data",
+    "level": "N3",
+    "text": "日本企業の雇用慣行において、長らく勤続年数や年齢を重視する年功序列制度が一般的であった。しかし、少子高齢化の進展や市場競争の激化に伴い、従来の評価制度を見直し、客観的な実績と成果に基づく能力主義への転換を図る企業が急速に増加している。\n\n新しい人事評価制度においては、職務内容と果たすべき責任を明確に定義し、客観的なデータに基づいて公正に評価を行うことが基本とされる。年齢や社歴にとらわれることなく、個々の社員が発揮した能力や実際の成果に応じて、昇進や給与などの待遇が決定される仕組みである。これにより、意欲ある若手社員のモチベーション向上や、優秀な専門人材の獲得が期待されている。\n\n一方で、過度な成果主義は社員間の過剰な競争を招き、チームワークを損なう恐れもある。そのため、単に数字上の短期的な売上だけでなく、後輩の育成や業務改善への貢献など、多様な側面を評価基準に組み込む柔軟な工夫が求められている。社員一人ひとりの生活環境やキャリア志向に応じた働き方を支援しつつ、納得感の高い評価制度を構築することが、持続的な企業価値の向上につながるのである。",
+    "kanaText": "にほんきぎょうのこようかんこうにおいて、ながらくきんぞくねんすうやねんれいをじゅうしするねんこうじょれつせいどがいっぱんてきであった。しかし、しょうしこうれいかのしんてんやしじょうきょうそうのげきかにともない、ぜんらいのひょうかせいどをみなおし、きゃっかんてきなじっせきとせいかにもとづくのうりょくしゅぎへのてんかんをはかるきぎょうがきゅうそくにぞうかしている。\n\nあたらしいじんじひょうかせいどにおいては、しょくむないようとはたすべきせきにんをめいかくにていぎし、きゃっかんてきなデータにもとづいてこうへいにひょうかをおこなうことがきほんとされる。ねんれいやしゃれきにとらわれることなく、ここへのしゃいんがはっきしたのうりょくやじっさいのせいかにおうじて、しょうしんやきゅうよなどのたいぐうがけっていされるしくみである。これにより、いよくあるわかてしゃいんのモチベーションこうじょうや、ゆうしゅうなせんもんじんざいのかくとくがきめられている。\n\nいっぽうで、かどなせいかしゅぎはしゃいんかんのかじょうなきょうそうをまねき、チームワークをそこなうおそれもある。そのため、たんにすうじじょうのたんきてきなうりあげだけでなく、こうはいのいくせいやぎょうむかいぜんへのこうけんなど、たようなそくめんをひょうかきじゅんにくみこむじゅうななくふうがもとめられている。しゃいんひとりひとりのせいかつかんきょうやキャリアしこうにおうじたはたらきかたをしえんしつつ、なっとくかんのたかいひょうかせいどをこうちくすることが、じぞくてきなきぎょうかちのこうじょうにつながるのである。",
+    "translation": "In Japanese employment practices, the seniority wage system valuing age and years of service was standard for decades. However, with demographic aging and intensifying market competition, companies transitioning to merit-based systems grounded in objective performance data have increased rapidly. Under new HR evaluation systems, duties and responsibilities are clearly defined, evaluating employees fairly based on objective data regardless of age. Compensation and promotions are determined corresponding to abilities and actual results. Yet, excessive performance pressure risks undermining teamwork. Thus, flexible systems incorporating diverse criteria like mentoring and operational improvements are essential.",
+    "questionIds": [
+      "n3.l28.q025",
+      "n3.l28.q026",
+      "n3.l28.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l28.d001",
+    "lessonId": "n3.l28",
+    "title": "Selecting Personalized Training Programs Matching Employee Needs and Skills",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "人事部長：高橋さん、全社アンケートの結果に基づき、今年度の社員研修プログラムを見直すことになりました。\n高橋：はい。アンケートでは、従来の全員一律の集合研修に対して、現在の自分の職務やスキルレベルに合っていないという意見が多く見られました。\n人事部長：その通りです。ですから、今後は社員の経験年数や職種に応じた、選択制の研修体系へと移行すべきだと考えています。\n高橋：素晴らしいですね。新入社員向けの基本マナーから、中堅社員のリーダーシップ講座、ベテラン向けの専門技術研修まで、習熟度に応じて自由に選択できるようにするのですね。\n人事部長：ええ。さらに、本人のキャリア志向や要望に応じて、オンライン講座を自分のペースで受講できる仕組みも整えましょう。",
+    "translation": "HR Director: Takahashi-san, based on our company-wide survey results, we have decided to review this year’s employee training programs.\nTakahashi: Yes. In the survey, many noted that traditional one-size-fits-all collective training did not match their current duties or skill levels.\nHR Director: Exactly. Therefore, moving forward, we should transition to an elective training framework corresponding to employees’ years of experience and job roles.\nTakahashi: That is wonderful. From basic etiquette for new recruits to leadership for mid-level staff and specialized tech training for seniors, employees can choose freely according to proficiency.\nHR Director: Yes. Furthermore, corresponding to individual career aspirations and requests, let’s establish a system where they can take online courses at their own pace.",
+    "turns": [
+      {
+        "speaker": "人事部長",
+        "ja": "高橋さん、全社アンケートの結果に基づき、今年度の社員研修プログラムを見直すことになりました。",
+        "kana": "じんじぶちょう：たかはしさん、ぜんしゃアンケートのけっかにもとづき、こんねんどのしゃいんけんしゅうプログラムをみなおすことになりました。",
+        "en": "Takahashi-san, based on company-wide survey results, we will review this year’s training programs."
+      },
+      {
+        "speaker": "高橋",
+        "ja": "はい。アンケートでは、従来の全員一律の集合研修に対して、現在の自分の職務やスキルレベルに合っていないという意見が多く見られました。",
+        "kana": "はい。アンケートでは、ぜんらいのぜんいんいちりつのしゅうごうけんしゅうにたいして、げんざいのじぶんのしょくむやスキルレベルにあっていないといういけんがおおくみられました。",
+        "en": "Yes. In the survey, many noted that uniform group training did not fit their duties or skill levels."
+      },
+      {
+        "speaker": "人事部長",
+        "ja": "その通りです。ですから、今後は社員の経験年数や職種に応じた、選択制の研修体系へと移行すべきだと考えています。",
+        "kana": "そのとおりです。ですから、こんごはしゃいんのけいけんねんすうやしょくしゅにおうじた、せんたくせいのけんしゅうたいけいへといこうすべきだとかんがえています。",
+        "en": "Exactly. Hence, we should transition to elective training frameworks tailored to experience and roles."
+      },
+      {
+        "speaker": "高橋",
+        "ja": "素晴らしいですね。新入社員向けの基本マナーから、中堅社員のリーダーシップ講座、ベテラン向けの専門技術研修まで、習熟度に応じて自由に選択できるようにするのですね。",
+        "kana": "すばらしいですね。しんにゅうしゃいんむけのきほんマナーから、ちゅうけんしゃいんのリーダーシップこうざ、ベテランむけのせんもんぎじゅつけんしゅうまで、しゅうじゅくどにおうじてじゆうにせんたくできるようにするのですね。",
+        "en": "Wonderful. From basic etiquette for newcomers to leadership and specialized tech, choosing freely according to proficiency."
+      },
+      {
+        "speaker": "人事部長",
+        "ja": "ええ。さらに、本人のキャリア志向や要望に応じて、オンライン講座を自分のペースで受講できる仕組みも整えましょう。",
+        "kana": "ええ。さらに、ほんにんのキャリアしこうやようぼうにおうじて、オンラインこうざをじぶんのペースでじゅこうできるしくみもととのえましょう。",
+        "en": "Yes. Furthermore, tailored to career goals and requests, let’s enable self-paced online course enrollment."
+      }
+    ],
+    "questionIds": [
+      "n3.l28.q028",
+      "n3.l28.q029",
+      "n3.l28.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l28.q001",
+      "lessonId": "n3.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n製品の安全「基準」を満たしているか検査する。",
+      "choices": [
+        "きじゅん",
+        "きじょう",
+        "きしゅん",
+        "ぎじゅん"
+      ],
+      "answer": "きじゅん",
+      "acceptedAnswers": [
+        "きじゅん"
+      ],
+      "explanation": "「基準」は「きじゅん」と読みます。物事の比較や判断の根拠となる標準（standard, benchmark）を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q002",
+      "lessonId": "n3.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n文法と語彙の「基本」を復習する。",
+      "choices": [
+        "きほん",
+        "きぼん",
+        "きげん",
+        "もとほん"
+      ],
+      "answer": "きほん",
+      "acceptedAnswers": [
+        "きほん"
+      ],
+      "explanation": "「基本」は「きほん」と読みます。物事を成り立たせる土台・根本（basis, foundation）です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q003",
+      "lessonId": "n3.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n「もはん」的な回答を作成した。",
+      "choices": [
+        "模範",
+        "模反",
+        "謨範",
+        "模販"
+      ],
+      "answer": "模範",
+      "acceptedAnswers": [
+        "模範"
+      ],
+      "explanation": "「模範（もはん）」は手本・規範（model, exemplar）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q004",
+      "lessonId": "n3.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n大規模な都市再開発工事の「きぼ」を調査する。",
+      "choices": [
+        "規模",
+        "規模型",
+        "基模",
+        "規法"
+      ],
+      "answer": "規模",
+      "acceptedAnswers": [
+        "規模"
+      ],
+      "explanation": "「規模（きぼ）」は物事の構造や仕組みの大きさ（scale, scope）を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q005",
+      "lessonId": "n3.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「アンケートを実施して、若者の生活の（　）を調査した。」",
+      "choices": [
+        "実態",
+        "生態",
+        "状態",
+        "形態"
+      ],
+      "answer": "実態",
+      "acceptedAnswers": [
+        "実態"
+      ],
+      "explanation": "「実態（じったい）」は本当のありさま、現実の状態（actual conditions, reality）を指します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q006",
+      "lessonId": "n3.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「市民の強い（　）に応えて、新しい図書館が開館した。」",
+      "choices": [
+        "要望",
+        "切望",
+        "願望",
+        "志望"
+      ],
+      "answer": "要望",
+      "acceptedAnswers": [
+        "要望"
+      ],
+      "explanation": "「要望（ようぼう）」は物事の実現を強く求めること（request, demand）を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q007",
+      "lessonId": "n3.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「どんな困難にも立ち向かえる強い（　）を身につける。」",
+      "choices": [
+        "能力",
+        "学力",
+        "腕力",
+        "重力"
+      ],
+      "answer": "能力",
+      "acceptedAnswers": [
+        "能力"
+      ],
+      "explanation": "「能力（のうりょく）」は物事を成し遂げることができる力（ability, capability）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q008",
+      "lessonId": "n3.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の意味として最も適切なものを一つ選びなさい。\n状況に応じて「柔軟」に対応する。",
+      "choices": [
+        "一つの考えに固執せず状況に合わせてしなやかに変化できること",
+        "体が非常に柔らかく体操が得意なこと",
+        "何を言われても一切妥協しないこと",
+        "すべての決定を他人に丸投げすること"
+      ],
+      "answer": "一つの考えに固執せず状況に合わせてしなやかに変化できること",
+      "acceptedAnswers": [
+        "一つの考えに固執せず状況に合わせてしなやかに変化できること"
+      ],
+      "explanation": "「柔軟（じゅうなん）」は固定観念にとらわれず融通がきく様子（flexible, adaptable）を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q009",
+      "lessonId": "n3.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の対義語として最も適切なものを一つ選びなさい。\n「客観的」なデータをもとに考察する。",
+      "choices": [
+        "主観的",
+        "直感的",
+        "感情的",
+        "盲目的"
+      ],
+      "answer": "主観的",
+      "acceptedAnswers": [
+        "主観的"
+      ],
+      "explanation": "「客観的（きゃっかんてき）」の対義語は「主観的（しゅかんてき）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q010",
+      "lessonId": "n3.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「政府の労働力（　）によると、完全失業率は低下傾向にある。」",
+      "choices": [
+        "統計",
+        "推計",
+        "集計",
+        "会計"
+      ],
+      "answer": "統計",
+      "acceptedAnswers": [
+        "統計"
+      ],
+      "explanation": "「統計（とうけい）」は集団現象を数値で表した調査結果（statistics）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q011",
+      "lessonId": "n3.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「その場に最も（　）な言葉を選んで挨拶した。」",
+      "choices": [
+        "適切",
+        "適当",
+        "適性",
+        "適応"
+      ],
+      "answer": "適切",
+      "acceptedAnswers": [
+        "適切"
+      ],
+      "explanation": "「適切（てきせつ）」はその場面や目的にぴったり合っている様子（appropriate, proper）を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q012",
+      "lessonId": "n3.l28",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「非正規社員と正社員の不合理な（　）の格差を解消する。」",
+      "choices": [
+        "待遇",
+        "境遇",
+        "優遇",
+        "冷遇"
+      ],
+      "answer": "待遇",
+      "acceptedAnswers": [
+        "待遇"
+      ],
+      "explanation": "「待遇（たいぐう）」は労働条件や給与などの扱い（treatment, compensation）を指します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q013",
+      "lessonId": "n3.l28",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n学問の「きそ」を学ぶ。",
+      "choices": [
+        "基礎",
+        "期礎",
+        "規礎",
+        "季礎"
+      ],
+      "answer": "基礎",
+      "acceptedAnswers": [
+        "基礎"
+      ],
+      "explanation": "「基礎（きそ）」の「き」は「基（もと）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q014",
+      "lessonId": "n3.l28",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n世界最高「すいじゅん」の技術を開発した。",
+      "choices": [
+        "水準",
+        "水巡",
+        "水純",
+        "水順"
+      ],
+      "answer": "水準",
+      "acceptedAnswers": [
+        "水準"
+      ],
+      "explanation": "「水準（すいじゅん）」の「じゅん」は「準」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q015",
+      "lessonId": "n3.l28",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n着物の美しい「もよう」に見とれた。",
+      "choices": [
+        "模様",
+        "摸様",
+        "模樣",
+        "茂様"
+      ],
+      "answer": "模様",
+      "acceptedAnswers": [
+        "模様"
+      ],
+      "explanation": "「模様（もよう）」の「も」は「模」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q016",
+      "lessonId": "n3.l28",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n試験の出題「はんい」を確認する。",
+      "choices": [
+        "範囲",
+        "範異",
+        "犯囲",
+        "反囲"
+      ],
+      "answer": "範囲",
+      "acceptedAnswers": [
+        "範囲"
+      ],
+      "explanation": "「範囲（はんい）」の「はん」は「範」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q017",
+      "lessonId": "n3.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「科学的な実験データ（　）、新しい仮説の正しさが証明された。」",
+      "choices": [
+        "に基づいて",
+        "に応じて",
+        "を通じて",
+        "をめぐって"
+      ],
+      "answer": "に基づいて",
+      "acceptedAnswers": [
+        "に基づいて"
+      ],
+      "explanation": "証明の根拠・拠り所（データ）を示すため「に基づいて」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q018",
+      "lessonId": "n3.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「入場料は、年齢や身分（　）それぞれ異なります。」",
+      "choices": [
+        "に応じて",
+        "に基づいて",
+        "を反面に",
+        "に決まって"
+      ],
+      "answer": "に応じて",
+      "acceptedAnswers": [
+        "に応じて"
+      ],
+      "explanation": "年齢などの条件に合わせて料金が比例・変動することを表すため「に応じて」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q019",
+      "lessonId": "n3.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な接続を選びなさい。\n「法律（　）基づく適正な手続きを経て処分が決定された。」",
+      "choices": [
+        "に",
+        "で",
+        "を",
+        "と"
+      ],
+      "answer": "に",
+      "acceptedAnswers": [
+        "に"
+      ],
+      "explanation": "名詞修飾の形は「名詞 ＋ に ＋ 基づく ＋ 名詞」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q020",
+      "lessonId": "n3.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「当ホテルでは、お客様のご予算（　）お部屋のプランをご用意しております。」",
+      "choices": [
+        "に応じた",
+        "に基づいた",
+        "を通した",
+        "を限った"
+      ],
+      "answer": "に応じた",
+      "acceptedAnswers": [
+        "に応じた"
+      ],
+      "explanation": "予算という条件に合わせて用意されるプランを修飾するため「に応じた」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q021",
+      "lessonId": "n3.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜に基づいて」を用いた文として最も自然なものを一つ選びなさい。",
+      "choices": [
+        "確かな証拠に基づいて、裁判官は無罪の判決を下した。",
+        "私は自分の勘に基づいて、宝くじの番号を選んだ。",
+        "昨日の天気予報に基づいて、今朝パンを食べた。",
+        "足の疲れに基づいて、靴下を履き替えた。"
+      ],
+      "answer": "確かな証拠に基づいて、裁判官は無罪の判決を下した。",
+      "acceptedAnswers": [
+        "確かな証拠に基づいて、裁判官は無罪の判決を下した。"
+      ],
+      "explanation": "「〜に基づいて」は客観的・公式な証拠や基準、法令などの確固たる根拠に用います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q022",
+      "lessonId": "n3.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「季節の移り変わり（　）、木々の葉の色が緑から黄色へと変化していく。」",
+      "choices": [
+        "に応じて",
+        "に基づいて",
+        "を契機に",
+        "に決まって"
+      ],
+      "answer": "に応じて",
+      "acceptedAnswers": [
+        "に応じて"
+      ],
+      "explanation": "季節の変化に対応して葉の色が変わるという対応関係を表すため「に応じて」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q023",
+      "lessonId": "n3.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「アンケートの回収結果（　）報告書を作成する。」",
+      "choices": [
+        "に基づき",
+        "に応じ",
+        "を通り",
+        "をめぐり"
+      ],
+      "answer": "に基づき",
+      "acceptedAnswers": [
+        "に基づき"
+      ],
+      "explanation": "改まった文語表現として「〜に基づき（＝に基づいて）」が用いられます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q024",
+      "lessonId": "n3.l28",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入る言葉の組み合わせとして最も適切なものを一つ選びなさい。\n「個人の（　）に応じて、最適な学習カリキュラムを（　）する。」",
+      "choices": [
+        "進度 / 提案",
+        "進行 / 評価",
+        "統計 / 報告",
+        "基準 / 順守"
+      ],
+      "answer": "進度 / 提案",
+      "acceptedAnswers": [
+        "進度 / 提案"
+      ],
+      "explanation": "「個人の進度（学習の進み具合）に応じて、最適な学習カリキュラムを提案する」が文脈に最も合致します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q025",
+      "lessonId": "n3.l28",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "日本企業が従来の年功序列制度から能力主義への転換を図っている背景として書かれているものはどれか。",
+      "choices": [
+        "少子高齢化の進展や市場競争の激化",
+        "海外からの輸入製品が完全に途絶えたこと",
+        "政府がすべての給与を法律で一律に決定するようになったこと",
+        "すべての若手社員が働くことを拒否したこと"
+      ],
+      "answer": "少子高齢化の進展や市場競争の激化",
+      "acceptedAnswers": [
+        "少子高齢化の進展や市場競争の激化"
+      ],
+      "explanation": "第1段落に「少子高齢化の進展や市場競争の激化に伴い、従来の評価制度を見直し、客観的な実績と成果に基づく能力主義への転換を図る企業が急速に増加している」と書かれています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q026",
+      "lessonId": "n3.l28",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "新しい人事評価制度の基本とされている考え方はどれか。",
+      "choices": [
+        "職務内容と責任を明確にし、客観的なデータに基づいて公平に評価を行うこと",
+        "社長の個人的な好みや直感だけで給与を決めること",
+        "一番年配の社員に最も高い給与を自動的に与えること",
+        "くじ引きで昇進する社員を毎年選ぶこと"
+      ],
+      "answer": "職務内容と責任を明確にし、客観的なデータに基づいて公平に評価を行うこと",
+      "acceptedAnswers": [
+        "職務内容と責任を明確にし、客観的なデータに基づいて公平に評価を行うこと"
+      ],
+      "explanation": "第2段落に「職務内容と果たすべき責任を明確に定義し、客観的なデータに基づいて公正に評価を行うことが基本とされる」と記載されています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q027",
+      "lessonId": "n3.l28",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "成果主義を導入する際に注意すべき点として筆者が指摘しているものはどれか。",
+      "choices": [
+        "過度な競争がチームワークを損なう恐れがあるため、育成や業務改善への貢献も評価基準に組み込むこと",
+        "数字上の売上だけを100%の基準にして他の要素はすべて無視すること",
+        "チームワークを重視するために個人の業績評価を完全に廃止すること",
+        "若手社員にだけ過酷なノルマを課すこと"
+      ],
+      "answer": "過度な競争がチームワークを損なう恐れがあるため、育成や業務改善への貢献も評価基準に組み込むこと",
+      "acceptedAnswers": [
+        "過度な競争がチームワークを損なう恐れがあるため、育成や業務改善への貢献も評価基準に組み込むこと"
+      ],
+      "explanation": "第3段落で「単に数字上の短期的な売上だけでなく、後輩の育成や業務改善への貢献など、多様な側面を評価基準に組み込む柔軟な工夫が求められている」と述べています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q028",
+      "lessonId": "n3.l28",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "人事部が社員研修プログラムを見直すきっかけとなった根拠は何か。",
+      "choices": [
+        "全社アンケートの回収結果",
+        "外部コンサルタントからの突然の電話",
+        "社長が夢の中で見たアイデア",
+        "新聞に掲載された他社の広告"
+      ],
+      "answer": "全社アンケートの回収結果",
+      "acceptedAnswers": [
+        "全社アンケートの回収結果"
+      ],
+      "explanation": "人事部長が「全社アンケートの結果に基づき、今年度の社員研修プログラムを見直すことになりました」と伝えています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q029",
+      "lessonId": "n3.l28",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "従来の全員一律の集合研修に対して、社員からどのような不満が挙がっていたか。",
+      "choices": [
+        "現在の自分の職務やスキルレベルに合っていないこと",
+        "研修会場のエアコンが効きすぎて寒かったこと",
+        "研修のテキストが重すぎて持ち運べなかったこと",
+        "研修の時間が短すぎて何も学べなかったこと"
+      ],
+      "answer": "現在の自分の職務やスキルレベルに合っていないこと",
+      "acceptedAnswers": [
+        "現在の自分の職務やスキルレベルに合っていないこと"
+      ],
+      "explanation": "高橋さんが「従来の全員一律の集合研修に対して、現在の自分の職務やスキルレベルに合っていないという意見が多く見られました」と述べています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l28.q030",
+      "lessonId": "n3.l28",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "新しく導入される研修体系の大きな特徴として二人が合意した内容はどれか。",
+      "choices": [
+        "経験年数や職種、習熟度に応じた選択制とし、個人のペースで受講できるオンライン講座も整備する",
+        "全社員に毎週末の強制合宿研修を義務付ける",
+        "新入社員以外の研修をすべて廃止して経費を削減する",
+        "テストで満点を取れなかった社員の給与を減額する"
+      ],
+      "answer": "経験年数や職種、習熟度に応じた選択制とし、個人のペースで受講できるオンライン講座も整備する",
+      "acceptedAnswers": [
+        "経験年数や職種、習熟度に応じた選択制とし、個人のペースで受講できるオンライン講座も整備する"
+      ],
+      "explanation": "人事部長が「社員の経験年数や職種に応じた、選択制の研修体系へと移行すべき」「オンライン講座を自分のペースで受講できる仕組みも整えましょう」と説明しています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

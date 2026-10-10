@@ -1,0 +1,1616 @@
+{
+  "id": "n5.l14",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 14,
+  "title": "Desires and Wants (ほしい・〜たい)",
+  "description": "Express desires for objects with [Noun] が ほしいです, articulate ambitions to perform actions with [Verb stem] たいです, and state purpose of movement with [Place] へ [Verb stem] に 行きます.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l14.v001",
+      "lessonId": "n5.l14",
+      "ja": "ほしい",
+      "kana": "ほしい",
+      "en": "Want (an object)",
+      "my": "လိုချင်သော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l14.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.v002",
+      "lessonId": "n5.l14",
+      "ja": "買い物",
+      "kana": "かいもの",
+      "en": "Shopping",
+      "my": "ဈေးဝယ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l14.s003",
+      "kanjiIds": [
+        "n5.l14.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.v003",
+      "lessonId": "n5.l14",
+      "ja": "遊びます",
+      "kana": "あそびます",
+      "en": "To play / enjoy leisure",
+      "my": "ကစားသည် / အလည်သွားသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l14.s007",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.v004",
+      "lessonId": "n5.l14",
+      "ja": "泳ぎます",
+      "kana": "およぎます",
+      "en": "To swim",
+      "my": "ရေကူးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l14.s008",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.v005",
+      "lessonId": "n5.l14",
+      "ja": "迎えます",
+      "kana": "むかえます",
+      "en": "To welcome / meet / greet",
+      "my": "ကြိုဆိုသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l14.s009",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.v006",
+      "lessonId": "n5.l14",
+      "ja": "疲れます",
+      "kana": "つかれます",
+      "en": "To get tired",
+      "my": "မောပန်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l14.s010",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.v007",
+      "lessonId": "n5.l14",
+      "ja": "散歩します",
+      "kana": "さんぽします",
+      "en": "To take a walk",
+      "my": "လမ်းလျှောက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l14.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.v008",
+      "lessonId": "n5.l14",
+      "ja": "旅行します",
+      "kana": "りょこうします",
+      "en": "To travel",
+      "my": "ခရီးသွားသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l14.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.v009",
+      "lessonId": "n5.l14",
+      "ja": "お腹がすきました",
+      "kana": "おなかがすきました",
+      "en": "I am hungry",
+      "my": "ဗိုက်ဆာသည်",
+      "pos": "expression",
+      "exampleSentenceId": "n5.l14.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.v010",
+      "lessonId": "n5.l14",
+      "ja": "のどが渇きました",
+      "kana": "のどがかわきました",
+      "en": "I am thirsty",
+      "my": "ရေဆာသည်",
+      "pos": "expression",
+      "exampleSentenceId": "n5.l14.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.v011",
+      "lessonId": "n5.l14",
+      "ja": "スキー",
+      "kana": "すきー",
+      "en": "Skiing",
+      "my": "စကိတ်စီးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l14.s011",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.v012",
+      "lessonId": "n5.l14",
+      "ja": "週末",
+      "kana": "しゅうまつ",
+      "en": "Weekend",
+      "my": "သီတင်းပတ်ကုန်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l14.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l14.k001",
+      "lessonId": "n5.l14",
+      "char": "買",
+      "meaning": "Buy",
+      "onyomi": [
+        "バイ"
+      ],
+      "kunyomi": [
+        "か.う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "買います (かいます)",
+          "reading": "かいます",
+          "meaning": "To buy",
+          "preview": false
+        },
+        {
+          "word": "買い物 (かいもの)",
+          "reading": "かいもの",
+          "meaning": "Shopping",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l14.s001"
+      ],
+      "components": [
+        "買"
+      ],
+      "strokes": 12,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.k002",
+      "lessonId": "n5.l14",
+      "char": "物",
+      "meaning": "Thing, object",
+      "onyomi": [
+        "ブツ",
+        "モツ"
+      ],
+      "kunyomi": [
+        "もの"
+      ],
+      "exampleVocab": [
+        {
+          "word": "食べ物 (たべもの)",
+          "reading": "たべもの",
+          "meaning": "Food",
+          "preview": false
+        },
+        {
+          "word": "飲み物 (のみもの)",
+          "reading": "のみもの",
+          "meaning": "Drink",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l14.s002"
+      ],
+      "components": [
+        "物"
+      ],
+      "strokes": 8,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.k003",
+      "lessonId": "n5.l14",
+      "char": "待",
+      "meaning": "Wait",
+      "onyomi": [
+        "タイ"
+      ],
+      "kunyomi": [
+        "ま.つ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "待ちます (まちます)",
+          "reading": "まちます",
+          "meaning": "To wait",
+          "preview": false
+        },
+        {
+          "word": "招待 (しょうたい)",
+          "reading": "しょうたい",
+          "meaning": "Invitation",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l14.s003"
+      ],
+      "components": [
+        "待"
+      ],
+      "strokes": 9,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.k004",
+      "lessonId": "n5.l14",
+      "char": "出",
+      "meaning": "Exit, leave, go out",
+      "onyomi": [
+        "シュツ"
+      ],
+      "kunyomi": [
+        "で.る",
+        "だ.す"
+      ],
+      "exampleVocab": [
+        {
+          "word": "出ます (でます)",
+          "reading": "でます",
+          "meaning": "To leave / exit",
+          "preview": false
+        },
+        {
+          "word": "出口 (でぐち)",
+          "reading": "でぐち",
+          "meaning": "Exit",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l14.s004"
+      ],
+      "components": [
+        "出"
+      ],
+      "strokes": 5,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l14.g001",
+      "lessonId": "n5.l14",
+      "pattern": "[Noun] が ほしいです / [Verb stem] たいです",
+      "meaning": "I want [Noun] / I want to [Verb]",
+      "formation": "Desire for item: Noun + が + ほしいです  |  Desire to do: Verb-stem (masu-drop) + たいです",
+      "explanation": {
+        "en": "ほしいです expresses wanting to possess an entity; 〜たいです expresses wanting to perform an action. Both conjugate as i-adjectives (たくないです). Only used for 1st person or direct questions to 2nd person.",
+        "my": "အရာဝတ္ထု လိုချင်ပါက 「Noun が ほしいです」၊ ပြုလုပ်လိုပါက 「Verb-stem たいです」 ကို သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l14.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l14.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do NOT use ほしいです or 〜たいです directly to describe a 3rd person's desire (e.g. *田中さんは本がほしいです is unnatural; use たがっています for 3rd party)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.g002",
+      "lessonId": "n5.l14",
+      "pattern": "[Place] へ [Verb stem / Noun] に 行きます / 来ます",
+      "meaning": "Go / Come to [Place] to [Purpose]",
+      "formation": "Place + へ + Verb stem / Action Noun + に + 行きます/来ます/帰ります",
+      "explanation": {
+        "en": "The particle に after a verb stem or action noun indicates the explicit purpose of motion.",
+        "my": "နေရာဌာနသို့ တစ်စုံတစ်ခုပြုလုပ်ရန် သွားခြင်း၊ လာခြင်း ရည်ရွယ်ချက်ကို 「〜へ〜に行きます」 (ပြုလုပ်ရန် သွားသည်) ဖြင့် ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l14.s002",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l14.s003",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Remember to drop ます from the verb: 買いに行きます (correct), NOT *買いますに行きます."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l14.s001",
+      "lessonId": "n5.l14",
+      "ja": "私は新しいパソコンがほしいです。",
+      "kana": "わたしはあたらしいぱそこんがほしいです。",
+      "translation": {
+        "en": "I want a new computer.",
+        "my": "ကျွန်တော် ကွန်ပျူတာအသစ်တစ်လုံး လိုချင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l14.v001"
+      ],
+      "grammarIds": [
+        "n5.l14.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.s002",
+      "lessonId": "n5.l14",
+      "ja": "今年の夏休みに日本へ旅行に行きたいです。",
+      "kana": "ことしのなつやすみににほんへりょこうにいきたいです。",
+      "translation": {
+        "en": "I want to go to Japan on a trip during this year's summer vacation.",
+        "my": "ဒီနှစ် နွေရာသီကျောင်းပိတ်ရက်မှာ ဂျပန်ကို ခရီးသွားချင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l14.v008"
+      ],
+      "grammarIds": [
+        "n5.l14.g001",
+        "n5.l14.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.s003",
+      "lessonId": "n5.l14",
+      "ja": "週末、デパートへ買い物に行きます。",
+      "kana": "しゅうまつ、でぱーとへかいものにいきます。",
+      "translation": {
+        "en": "On weekends, I go to the department store for shopping.",
+        "my": "သီတင်းပတ်ကုန်မှာ ကုန်တိုက်ကို ဈေးဝယ်သွားပါမယ်။"
+      },
+      "vocabIds": [
+        "n5.l14.v002",
+        "n5.l14.v012"
+      ],
+      "grammarIds": [
+        "n5.l14.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.s004",
+      "lessonId": "n5.l14",
+      "ja": "お腹がすきましたから、何かおいしいものを食べたいです。",
+      "kana": "おなかがすきましたから、なにかおいしいものをたべたいです。",
+      "translation": {
+        "en": "Because I am hungry, I want to eat something delicious.",
+        "my": "ဗိုက်ဆာနေတဲ့အတွက် အရသာရှိတာ တစ်ခုခု စားချင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l14.v009"
+      ],
+      "grammarIds": [
+        "n5.l14.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.s005",
+      "lessonId": "n5.l14",
+      "ja": "のどが渇きましたから、冷たいジュースを飲みたいです。",
+      "kana": "のどがかわきましたから、つめたいじゅーすをのみたいです。",
+      "translation": {
+        "en": "Because I am thirsty, I want to drink cold juice.",
+        "my": "ရေဆာနေတဲ့အတွက် အအေးဖျော်ရည် သောက်ချင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l14.v010"
+      ],
+      "grammarIds": [
+        "n5.l14.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.s006",
+      "lessonId": "n5.l14",
+      "ja": "週末は公園へ散歩に行きませんか。",
+      "kana": "しゅうまつはこうえんへさんぽにいきませんか。",
+      "translation": {
+        "en": "Won't you go to the park for a walk this weekend?",
+        "my": "သီတင်းပတ်ကုန်မှာ ပန်းခြံထဲ လမ်းလျှောက်သွားကြမလား။"
+      },
+      "vocabIds": [
+        "n5.l14.v007",
+        "n5.l14.v012"
+      ],
+      "grammarIds": [
+        "n5.l14.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.s007",
+      "lessonId": "n5.l14",
+      "ja": "明日は友達の家に遊びに行きます。",
+      "kana": "あしたはともだちのいえにあそびにいきます。",
+      "translation": {
+        "en": "Tomorrow, I am going to my friend's house to hang out.",
+        "my": "မနက်ဖြန် သူငယ်ချင်းရဲ့အိမ်ကို အလည်သွားပါမယ်။"
+      },
+      "vocabIds": [
+        "n5.l14.v003"
+      ],
+      "grammarIds": [
+        "n5.l14.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.s008",
+      "lessonId": "n5.l14",
+      "ja": "暑いですから、市民プールへ泳ぎに行きたいです。",
+      "kana": "あついですから、しみんぷーるへおよぎにいきたいです。",
+      "translation": {
+        "en": "Because it is hot, I want to go to the city pool to swim.",
+        "my": "ပူတဲ့အတွက် မြို့တော်ရေကူးကန်ကို ရေကူးသွားချင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l14.v004"
+      ],
+      "grammarIds": [
+        "n5.l14.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.s009",
+      "lessonId": "n5.l14",
+      "ja": "午後、駅へ友達を迎えに行きます。",
+      "kana": "ごご、えきへともだちをむかえにいきます。",
+      "translation": {
+        "en": "In the afternoon, I will go to the station to meet my friend.",
+        "my": "နေ့လယ်မှာ ဘူတာကို သူငယ်ချင်းကို ကြိုဖို့ သွားပါမယ်။"
+      },
+      "vocabIds": [
+        "n5.l14.v005"
+      ],
+      "grammarIds": [
+        "n5.l14.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.s010",
+      "lessonId": "n5.l14",
+      "ja": "今日はたくさん歩いて、少し疲れました。",
+      "kana": "きょうはたくさんあるいて、すこしつかれました。",
+      "translation": {
+        "en": "I walked a lot today and got a little tired.",
+        "my": "ဒီနေ့ အများကြီး လမ်းလျှောက်ခဲ့လို့ နည်းနည်း မောပန်းခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l14.v006"
+      ],
+      "grammarIds": [
+        "n5.l14.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l14.s011",
+      "lessonId": "n5.l14",
+      "ja": "冬休みに長野へスキーに行きたいです。",
+      "kana": "ふゆやすみにながのへすきーにいきたいです。",
+      "translation": {
+        "en": "I want to go skiing in Nagano during winter break.",
+        "my": "ဆောင်းရာသီပိတ်ရက်မှာ နာဂါနိုကို စကိတ်စီးသွားချင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l14.v011"
+      ],
+      "grammarIds": [
+        "n5.l14.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l14.r01",
+    "lessonId": "n5.l14",
+    "title": "Desires and Wants (ほしい・〜たい) - 読解",
+    "level": "N5",
+    "text": "私は今、東京の日本語学校で勉強しています。将来、日本の会社で働きたいです。ですから、毎日一生懸命勉強しています。次の週末、友達と一緒に秋葉原へ行きます。新しい電子辞書を買いに行きたいですからです。勉強が終わったら、温泉へ旅行に行ってゆっくり休みたいです。",
+    "kanaText": "わたしはいま、とうきょうのにほんごがっこうでべんきょうしています。しょうらい、にほんのかいしゃではたらきたいです。ですから、まいにちいっしょうけんめいべんきょうしています。つぎのしゅうまつ、ともだちといっしょにあきはばらへいきます。あたらしいでんしじしょをかいにいきたいですからです。べんきょうがおわったら、おんせんへりょこうにいってゆっくりやすみたいです。",
+    "translation": "I am currently studying at a Japanese language school in Tokyo. In the future, I want to work at a Japanese company. Therefore, I study hard every day. Next weekend, I am going to Akihabara with a friend. This is because I want to buy a new electronic dictionary. When my studies finish, I want to travel to a hot spring and relax.",
+    "questionIds": [
+      "n5.l14.q021",
+      "n5.l14.q022",
+      "n5.l14.q023",
+      "n5.l14.q024",
+      "n5.l14.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l14.l01",
+    "lessonId": "n5.l14",
+    "title": "Desires and Wants (ほしい・〜たい) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "キム",
+      "マイク"
+    ],
+    "transcript": "キム：マイクさん、土曜日は何をしたいですか。\nマイク：日本のラーメンをまだ食べたことがありませんから、おいしいラーメンを食べに行きたいです。\nキム：いいですね！新宿に有名でおいしい店がありますよ。その後、買い物に行きませんか。\nマイク：賛成です！新しい靴がほしいですから、一緒に行きましょう。",
+    "translation": "Two international students discuss plans for Saturday lunch and shopping.",
+    "turns": [
+      {
+        "speaker": "キム",
+        "ja": "マイクさん、土曜日は何をしたいですか。",
+        "kana": "まいくさん、どようびはなにをしたいですか。",
+        "en": "Mike-san, what do you want to do on Saturday?"
+      },
+      {
+        "speaker": "マイク",
+        "ja": "日本のラーメンをまだ食べたことがありませんから、おいしいラーメンを食べに行きたいです。",
+        "kana": "にほんのらーめんをまだたべたことがありませんから、おいしいらーめんをたべにいきたいです。",
+        "en": "Because I haven't eaten Japanese ramen yet, I want to go eat delicious ramen!"
+      },
+      {
+        "speaker": "キム",
+        "ja": "いいですね！新宿に有名でおいしい店がありますよ。その後、買い物に行きませんか。",
+        "kana": "いいですね！しんじゅくにゆうめいでおいしいみせがありますよ。そのあと、かいものにいきませんか。",
+        "en": "Sounds great! There is a famous and delicious shop in Shinjuku. Shall we go shopping after that?"
+      },
+      {
+        "speaker": "マイク",
+        "ja": "賛成です！新しい靴がほしいですから、一緒に行きましょう。",
+        "kana": "さんせいです！あたらしいくつがほしいですから、いっしょにいきましょう。",
+        "en": "Agreed! Because I want new shoes, let's go together."
+      }
+    ],
+    "questionIds": [
+      "n5.l14.q026",
+      "n5.l14.q027",
+      "n5.l14.q028",
+      "n5.l14.q029",
+      "n5.l14.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l14.q001",
+      "lessonId": "n5.l14",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「ほしい」の意味は何ですか。 (What does 「ほしい」 mean?)",
+      "choices": [
+        "Want (an object)",
+        "Shopping",
+        "To play / enjoy leisure",
+        "To swim"
+      ],
+      "answer": "Want (an object)",
+      "acceptedAnswers": [
+        "Want (an object)"
+      ],
+      "explanation": "「ほしい」(ほしい) means \"Want (an object)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q002",
+      "lessonId": "n5.l14",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Shopping\" in hiragana:",
+      "answer": "かいもの",
+      "acceptedAnswers": [
+        "かいもの",
+        "買い物"
+      ],
+      "explanation": "The Japanese word for \"Shopping\" is 買い物 (かいもの).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q003",
+      "lessonId": "n5.l14",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「遊びます」の意味は何ですか。 (What does 「遊びます」 mean?)",
+      "choices": [
+        "To get tired",
+        "To welcome / meet / greet",
+        "To swim",
+        "To play / enjoy leisure"
+      ],
+      "answer": "To play / enjoy leisure",
+      "acceptedAnswers": [
+        "To play / enjoy leisure"
+      ],
+      "explanation": "「遊びます」(あそびます) means \"To play / enjoy leisure\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q004",
+      "lessonId": "n5.l14",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To swim\" in hiragana:",
+      "answer": "およぎます",
+      "acceptedAnswers": [
+        "およぎます",
+        "泳ぎます"
+      ],
+      "explanation": "The Japanese word for \"To swim\" is 泳ぎます (およぎます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q005",
+      "lessonId": "n5.l14",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「迎えます」の意味は何ですか。 (What does 「迎えます」 mean?)",
+      "choices": [
+        "To travel",
+        "To take a walk",
+        "To get tired",
+        "To welcome / meet / greet"
+      ],
+      "answer": "To welcome / meet / greet",
+      "acceptedAnswers": [
+        "To welcome / meet / greet"
+      ],
+      "explanation": "「迎えます」(むかえます) means \"To welcome / meet / greet\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q006",
+      "lessonId": "n5.l14",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To get tired\" in hiragana:",
+      "answer": "つかれます",
+      "acceptedAnswers": [
+        "つかれます",
+        "疲れます"
+      ],
+      "explanation": "The Japanese word for \"To get tired\" is 疲れます (つかれます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q007",
+      "lessonId": "n5.l14",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「散歩します」の意味は何ですか。 (What does 「散歩します」 mean?)",
+      "choices": [
+        "To take a walk",
+        "To travel",
+        "I am hungry",
+        "I am thirsty"
+      ],
+      "answer": "To take a walk",
+      "acceptedAnswers": [
+        "To take a walk"
+      ],
+      "explanation": "「散歩します」(さんぽします) means \"To take a walk\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q008",
+      "lessonId": "n5.l14",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To travel\" in hiragana:",
+      "answer": "りょこうします",
+      "acceptedAnswers": [
+        "りょこうします",
+        "旅行します"
+      ],
+      "explanation": "The Japanese word for \"To travel\" is 旅行します (りょこうします).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q009",
+      "lessonId": "n5.l14",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「お腹がすきました」の意味は何ですか。 (What does 「お腹がすきました」 mean?)",
+      "choices": [
+        "Weekend",
+        "Skiing",
+        "I am thirsty",
+        "I am hungry"
+      ],
+      "answer": "I am hungry",
+      "acceptedAnswers": [
+        "I am hungry"
+      ],
+      "explanation": "「お腹がすきました」(おなかがすきました) means \"I am hungry\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q010",
+      "lessonId": "n5.l14",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"I am thirsty\" in hiragana:",
+      "answer": "のどがかわきました",
+      "acceptedAnswers": [
+        "のどがかわきました",
+        "のどが渇きました"
+      ],
+      "explanation": "The Japanese word for \"I am thirsty\" is のどが渇きました (のどがかわきました).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q011",
+      "lessonId": "n5.l14",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「スキー」の意味は何ですか。 (What does 「スキー」 mean?)",
+      "choices": [
+        "Shopping",
+        "Want (an object)",
+        "Weekend",
+        "Skiing"
+      ],
+      "answer": "Skiing",
+      "acceptedAnswers": [
+        "Skiing"
+      ],
+      "explanation": "「スキー」(すきー) means \"Skiing\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q012",
+      "lessonId": "n5.l14",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Weekend\" in hiragana:",
+      "answer": "しゅうまつ",
+      "acceptedAnswers": [
+        "しゅうまつ",
+        "週末"
+      ],
+      "explanation": "The Japanese word for \"Weekend\" is 週末 (しゅうまつ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q013",
+      "lessonId": "n5.l14",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「買」の意味は何ですか。 (What is the meaning of kanji 「買」?)",
+      "choices": [
+        "Buy",
+        "Thing, object",
+        "Wait",
+        "Tree"
+      ],
+      "answer": "Buy",
+      "acceptedAnswers": [
+        "Buy"
+      ],
+      "explanation": "「買」means \"Buy\". Onyomi: バイ, Kunyomi: か.う.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q014",
+      "lessonId": "n5.l14",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「買」の読み方はどれですか。 (Which is a correct reading for 「買」?)",
+      "choices": [
+        "か.う",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "か.う",
+      "acceptedAnswers": [
+        "か.う"
+      ],
+      "explanation": "「買」 has the reading 「か.う」 (Buy).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q015",
+      "lessonId": "n5.l14",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「物」の意味は何ですか。 (What is the meaning of kanji 「物」?)",
+      "choices": [
+        "Thing, object",
+        "Buy",
+        "Wait",
+        "Tree"
+      ],
+      "answer": "Thing, object",
+      "acceptedAnswers": [
+        "Thing, object"
+      ],
+      "explanation": "「物」means \"Thing, object\". Onyomi: ブツ, モツ, Kunyomi: もの.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q016",
+      "lessonId": "n5.l14",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「物」の読み方はどれですか。 (Which is a correct reading for 「物」?)",
+      "choices": [
+        "もの",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "もの",
+      "acceptedAnswers": [
+        "もの"
+      ],
+      "explanation": "「物」 has the reading 「もの」 (Thing, object).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q017",
+      "lessonId": "n5.l14",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「待」の意味は何ですか。 (What is the meaning of kanji 「待」?)",
+      "choices": [
+        "Wait",
+        "Buy",
+        "Thing, object",
+        "Tree"
+      ],
+      "answer": "Wait",
+      "acceptedAnswers": [
+        "Wait"
+      ],
+      "explanation": "「待」means \"Wait\". Onyomi: タイ, Kunyomi: ま.つ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q018",
+      "lessonId": "n5.l14",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「待」の読み方はどれですか。 (Which is a correct reading for 「待」?)",
+      "choices": [
+        "ま.つ",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "ま.つ",
+      "acceptedAnswers": [
+        "ま.つ"
+      ],
+      "explanation": "「待」 has the reading 「ま.つ」 (Wait).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q019",
+      "lessonId": "n5.l14",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「出」の意味は何ですか。 (What is the meaning of kanji 「出」?)",
+      "choices": [
+        "Exit, leave, go out",
+        "Buy",
+        "Thing, object",
+        "Tree"
+      ],
+      "answer": "Exit, leave, go out",
+      "acceptedAnswers": [
+        "Exit, leave, go out"
+      ],
+      "explanation": "「出」means \"Exit, leave, go out\". Onyomi: シュツ, Kunyomi: で.る, だ.す.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q020",
+      "lessonId": "n5.l14",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「出」の読み方はどれですか。 (Which is a correct reading for 「出」?)",
+      "choices": [
+        "で.る",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "で.る",
+      "acceptedAnswers": [
+        "で.る"
+      ],
+      "explanation": "「出」 has the reading 「で.る」 (Exit, leave, go out).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q021",
+      "lessonId": "n5.l14",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "主人公は将来何をしたいですか。 (What does the author want to do in the future?)",
+      "choices": [
+        "日本の会社で働きたい",
+        "国へすぐに帰りたい",
+        "大学の先生になりたい",
+        "ずっと旅行したい"
+      ],
+      "answer": "日本の会社で働きたい",
+      "acceptedAnswers": [
+        "日本の会社で働きたい"
+      ],
+      "explanation": "「将来、日本の会社で働きたいです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q022",
+      "lessonId": "n5.l14",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "週末はどこへ行きますか。 (Where are they going on the weekend?)",
+      "choices": [
+        "秋葉原",
+        "京都",
+        "温泉",
+        "東京駅"
+      ],
+      "answer": "秋葉原",
+      "acceptedAnswers": [
+        "秋葉原"
+      ],
+      "explanation": "「次の週末、友達と一緒に秋葉原へ行きます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q023",
+      "lessonId": "n5.l14",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "秋葉原へ行く目的は何ですか。 (What is the purpose of going to Akihabara?)",
+      "choices": [
+        "新しい電子辞書を買うため",
+        "アニメグッズを見るため",
+        "友達に会うため",
+        "パソコンを直すため"
+      ],
+      "answer": "新しい電子辞書を買うため",
+      "acceptedAnswers": [
+        "新しい電子辞書を買うため"
+      ],
+      "explanation": "「新しい電子辞書を買いに行きたいですからです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q024",
+      "lessonId": "n5.l14",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "勉強が終わった後、何をしたいですか。 (What do they want to do after study concludes?)",
+      "choices": [
+        "温泉へ旅行に行って休みたい",
+        "買い物に行きたい",
+        "アルバイトを始めたい",
+        "運動したい"
+      ],
+      "answer": "温泉へ旅行に行って休みたい",
+      "acceptedAnswers": [
+        "温泉へ旅行に行って休みたい"
+      ],
+      "explanation": "「温泉へ旅行に行ってゆっくり休みたいです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q025",
+      "lessonId": "n5.l14",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "現在はどこで勉強していますか。 (Where are they currently studying?)",
+      "choices": [
+        "東京の日本語学校",
+        "京都の大学",
+        "自国の高校",
+        "専門学校"
+      ],
+      "answer": "東京の日本語学校",
+      "acceptedAnswers": [
+        "東京の日本語学校"
+      ],
+      "explanation": "「私は今、東京の日本語学校で勉強しています」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q026",
+      "lessonId": "n5.l14",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "マイクさんは土曜日に何を食べに行きたいですか。 (What does Mike want to go eat?)",
+      "choices": [
+        "日本のラーメン",
+        "寿司",
+        "カレー",
+        "ピザ"
+      ],
+      "answer": "日本のラーメン",
+      "acceptedAnswers": [
+        "日本のラーメン"
+      ],
+      "explanation": "Mike says: 「おいしいラーメンを食べに行きたいです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q027",
+      "lessonId": "n5.l14",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "なぜラーメンを食べたいのですか。 (Why does Mike want to eat ramen?)",
+      "choices": [
+        "まだ一度も食べたことがないから",
+        "一番好きだから",
+        "安いから",
+        "友達に勧められたから"
+      ],
+      "answer": "まだ一度も食べたことがないから",
+      "acceptedAnswers": [
+        "まだ一度も食べたことがないから"
+      ],
+      "explanation": "Mike explains: 「日本のラーメンをまだ食べたことがありませんから」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q028",
+      "lessonId": "n5.l14",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "キムさんはどこの店を提案しましたか。 (Where is the shop Kim suggested?)",
+      "choices": [
+        "新宿の有名なラーメン屋",
+        "渋谷の定食屋",
+        "秋葉原のカフェ",
+        "池袋のレストラン"
+      ],
+      "answer": "新宿の有名なラーメン屋",
+      "acceptedAnswers": [
+        "新宿の有名なラーメン屋"
+      ],
+      "explanation": "Kim says: 「新宿に有名でおいしい店がありますよ」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q029",
+      "lessonId": "n5.l14",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "マイクさんは何を欲しがっていますか。 (What does Mike want to buy?)",
+      "choices": [
+        "新しい靴",
+        "新しい鞄",
+        "電子辞書",
+        "服"
+      ],
+      "answer": "新しい靴",
+      "acceptedAnswers": [
+        "新しい靴"
+      ],
+      "explanation": "Mike states: 「新しい靴がほしいですから」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l14.q030",
+      "lessonId": "n5.l14",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "二人はいつ一緒に出かけますか。 (When are they going out together?)",
+      "choices": [
+        "土曜日",
+        "日曜日",
+        "金曜日の夜",
+        "来週"
+      ],
+      "answer": "土曜日",
+      "acceptedAnswers": [
+        "土曜日"
+      ],
+      "explanation": "The conversation plans specifically for Saturday (土曜日).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l14.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

@@ -1,0 +1,1622 @@
+{
+  "id": "n5.l08",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 8,
+  "title": "Adjectives: Describing Things (い形容詞・な形容詞)",
+  "description": "Master i-adjectives and na-adjectives in affirmative, negative, and noun-modifying forms to describe people, places, weather, and everyday items.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l08.v001",
+      "lessonId": "n5.l08",
+      "ja": "大きい",
+      "kana": "おおきい",
+      "en": "Big / Large",
+      "my": "ကြီးမားသော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l08.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.v002",
+      "lessonId": "n5.l08",
+      "ja": "小さい",
+      "kana": "ちいさい",
+      "en": "Small / Little",
+      "my": "သေးငယ်သော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l08.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.v003",
+      "lessonId": "n5.l08",
+      "ja": "新しい",
+      "kana": "あたらしい",
+      "en": "New",
+      "my": "သစ်လွင်သော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l08.s003",
+      "kanjiIds": [
+        "n5.l08.k003"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.v004",
+      "lessonId": "n5.l08",
+      "ja": "古い",
+      "kana": "ふるい",
+      "en": "Old (objects)",
+      "my": "ဟောင်းနွမ်းသော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l08.s003",
+      "kanjiIds": [
+        "n5.l08.k004"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.v005",
+      "lessonId": "n5.l08",
+      "ja": "いい",
+      "kana": "いい",
+      "en": "Good / Nice",
+      "my": "ကောင်းသော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l08.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.v006",
+      "lessonId": "n5.l08",
+      "ja": "悪い",
+      "kana": "わるい",
+      "en": "Bad",
+      "my": "ဆိုးသော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l08.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.v007",
+      "lessonId": "n5.l08",
+      "ja": "高い",
+      "kana": "たかい",
+      "en": "High / Expensive",
+      "my": "မြင့်သော / ဈေးကြီးသော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l08.s001",
+      "kanjiIds": [
+        "n5.l08.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.v008",
+      "lessonId": "n5.l08",
+      "ja": "安い",
+      "kana": "やすい",
+      "en": "Inexpensive / Cheap",
+      "my": "ဈေးချိုသော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l08.s002",
+      "kanjiIds": [
+        "n5.l08.k002"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.v009",
+      "lessonId": "n5.l08",
+      "ja": "静か",
+      "kana": "しずか",
+      "en": "Quiet",
+      "my": "တိတ်ဆိတ်သော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n5.l08.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.v010",
+      "lessonId": "n5.l08",
+      "ja": "にぎやか",
+      "kana": "にぎやか",
+      "en": "Lively / Bustling",
+      "my": "စည်ကားသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n5.l08.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.v011",
+      "lessonId": "n5.l08",
+      "ja": "有名",
+      "kana": "ゆうめい",
+      "en": "Famous",
+      "my": "ကျော်ကြားသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n5.l08.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.v012",
+      "lessonId": "n5.l08",
+      "ja": "親切",
+      "kana": "しんせつ",
+      "en": "Kind / Helpful",
+      "my": "ကြင်နာဖော်ရွေသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n5.l08.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l08.k001",
+      "lessonId": "n5.l08",
+      "char": "高",
+      "meaning": "Tall, high, expensive",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "たか.い",
+        "たか"
+      ],
+      "exampleVocab": [
+        {
+          "word": "高い (たかい)",
+          "reading": "たかい",
+          "meaning": "Expensive / Tall",
+          "preview": false
+        },
+        {
+          "word": "高校 (こうこう)",
+          "reading": "こうこう",
+          "meaning": "High school",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l08.s001"
+      ],
+      "components": [
+        "高"
+      ],
+      "strokes": 10,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.k002",
+      "lessonId": "n5.l08",
+      "char": "安",
+      "meaning": "Cheap, peaceful, safe",
+      "onyomi": [
+        "アン"
+      ],
+      "kunyomi": [
+        "やす.い"
+      ],
+      "exampleVocab": [
+        {
+          "word": "安い (やすい)",
+          "reading": "やすい",
+          "meaning": "Cheap / Inexpensive",
+          "preview": false
+        },
+        {
+          "word": "安心 (あんしん)",
+          "reading": "あんしん",
+          "meaning": "Peace of mind",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l08.s002"
+      ],
+      "components": [
+        "安"
+      ],
+      "strokes": 6,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.k003",
+      "lessonId": "n5.l08",
+      "char": "新",
+      "meaning": "New",
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [
+        "あたら.しい",
+        "あら.た"
+      ],
+      "exampleVocab": [
+        {
+          "word": "新しい (あたらしい)",
+          "reading": "あたらしい",
+          "meaning": "New",
+          "preview": false
+        },
+        {
+          "word": "新聞 (しんぶん)",
+          "reading": "しんぶん",
+          "meaning": "Newspaper",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l08.s003"
+      ],
+      "components": [
+        "新"
+      ],
+      "strokes": 13,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.k004",
+      "lessonId": "n5.l08",
+      "char": "古",
+      "meaning": "Old (for objects)",
+      "onyomi": [
+        "コ"
+      ],
+      "kunyomi": [
+        "ふる.い"
+      ],
+      "exampleVocab": [
+        {
+          "word": "古い (ふるい)",
+          "reading": "ふるい",
+          "meaning": "Old",
+          "preview": false
+        },
+        {
+          "word": "中古 (ちゅうこ)",
+          "reading": "ちゅうこ",
+          "meaning": "Secondhand",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l08.s004"
+      ],
+      "components": [
+        "古"
+      ],
+      "strokes": 5,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l08.g001",
+      "lessonId": "n5.l08",
+      "pattern": "[Noun] は [い-Adj] です / 〜くないです",
+      "meaning": "[Noun] is [Adjective] / is not [Adjective]",
+      "formation": "Affirmative: い-Adj + です  |  Negative: drop い + くないです",
+      "explanation": {
+        "en": "i-adjectives end with ~い. For negatives, drop the final ~い and append ~くないです (e.g. 高い -> 高くないです). Irregular: いい -> よくないです.",
+        "my": "い-နာမဝိသေသန ငြင်းပယ်ဝါကျတွင် နောက်ဆုံး 「い」 ကို ဖြုတ်ပြီး 「くないです」 ပေါင်းထည့်ရသည်။ (ဥပမာ - いい -> よくないです)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l08.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l08.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Never say *いくないです. For いい (good), the negative is always よくないです."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.g002",
+      "lessonId": "n5.l08",
+      "pattern": "[Noun] は [な-Adj] です / ではありません",
+      "meaning": "[Noun] is [Na-Adjective] / is not [Na-Adjective]",
+      "formation": "Predicate: な-Adj root + です / ではありません  |  Modifying Noun: な-Adj + な + Noun",
+      "explanation": {
+        "en": "na-adjectives drop な when used as predicates (静かです), but require な when modifying nouns directly (静かな部屋).",
+        "my": "な-နာမဝိသေသနသည် ဝါကျအဆုံးတွင် 「〜です」 တွဲပြီး၊ နာမ်ရှေ့တွင် အထူးပြုပါက 「〜な Noun」 (ဥပမာ 静かな部屋) ဖြစ်သည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l08.s003",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l08.s004",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do NOT say *静かですな部屋. The modifying form is simply 静かな部屋."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l08.s001",
+      "lessonId": "n5.l08",
+      "ja": "日本の物価は高いですが、とても便利です。",
+      "kana": "にほんのぶっかはたかいですが、とてもべんりです。",
+      "translation": {
+        "en": "Prices in Japan are high, but it is very convenient.",
+        "my": "ဂျပန်နိုင်ငံရဲ့ ကုန်ဈေးနှုန်းက ကြီးပေမဲ့ အရမ်းအဆင်ပြေပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l08.v007"
+      ],
+      "grammarIds": [
+        "n5.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.s002",
+      "lessonId": "n5.l08",
+      "ja": "この辞書はあまり高くありません。安いです。",
+      "kana": "このじしょはあまりたかくありません。やすいです。",
+      "translation": {
+        "en": "This dictionary is not very expensive. It is cheap.",
+        "my": "ဒီအဘိဓာန်က သိပ်ဈေးမကြီးပါဘူး။ ဈေးသက်သာပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l08.v007",
+        "n5.l08.v008"
+      ],
+      "grammarIds": [
+        "n5.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.s003",
+      "lessonId": "n5.l08",
+      "ja": "京都は古くて有名な町です。",
+      "kana": "きょうとはふるくてゆうめいなまちです。",
+      "translation": {
+        "en": "Kyoto is an old and famous town.",
+        "my": "ကျိုတိုဟာ ရှေးကျပြီး နာမည်ကျော်ကြားတဲ့ မြို့တစ်မြို့ ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l08.v004",
+        "n5.l08.v011"
+      ],
+      "grammarIds": [
+        "n5.l08.g001",
+        "n5.l08.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.s004",
+      "lessonId": "n5.l08",
+      "ja": "私の町は静かですが、不便ではありません。",
+      "kana": "わたしのまちはしずかですが、ふべんではありません。",
+      "translation": {
+        "en": "My town is quiet, but it is not inconvenient.",
+        "my": "ကျွန်တော့်မြို့လေးက တိတ်ဆိတ်ပေမဲ့ သွားရေးလာရေး အဆင်မပြေတာမျိုး မရှိပါဘူး။"
+      },
+      "vocabIds": [
+        "n5.l08.v009"
+      ],
+      "grammarIds": [
+        "n5.l08.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.s005",
+      "lessonId": "n5.l08",
+      "ja": "先生はとても親切な人です。",
+      "kana": "せんせいはとてもしんせつなひとです。",
+      "translation": {
+        "en": "The teacher is a very kind person.",
+        "my": "ဆရာက အရမ်းဖော်ရွေကြင်နာတဲ့ လူတစ်ယောက် ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l08.v012"
+      ],
+      "grammarIds": [
+        "n5.l08.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.s006",
+      "lessonId": "n5.l08",
+      "ja": "昨日の天気はあまりよくなかったです。",
+      "kana": "きのうのてんきはあまりよくなかったです。",
+      "translation": {
+        "en": "The weather yesterday was not very good.",
+        "my": "မနေ့က ရာသီဥတု သိပ်မကောင်းခဲ့ပါဘူး။"
+      },
+      "vocabIds": [
+        "n5.l08.v005"
+      ],
+      "grammarIds": [
+        "n5.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.s007",
+      "lessonId": "n5.l08",
+      "ja": "とても大きいです。",
+      "kana": "とてもおおきいです。",
+      "translation": {
+        "en": "It is very big / large.",
+        "my": "အရမ်း ကြီးမားသော ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l08.v001"
+      ],
+      "grammarIds": [
+        "n5.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.s008",
+      "lessonId": "n5.l08",
+      "ja": "とても小さいです。",
+      "kana": "とてもちいさいです。",
+      "translation": {
+        "en": "It is very small / little.",
+        "my": "အရမ်း သေးငယ်သော ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l08.v002"
+      ],
+      "grammarIds": [
+        "n5.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.s009",
+      "lessonId": "n5.l08",
+      "ja": "とても新しいです。",
+      "kana": "とてもあたらしいです。",
+      "translation": {
+        "en": "It is very new.",
+        "my": "အရမ်း သစ်လွင်သော ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l08.v003"
+      ],
+      "grammarIds": [
+        "n5.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.s010",
+      "lessonId": "n5.l08",
+      "ja": "とても悪いです。",
+      "kana": "とてもわるいです。",
+      "translation": {
+        "en": "It is very bad.",
+        "my": "အရမ်း ဆိုးသော ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l08.v006"
+      ],
+      "grammarIds": [
+        "n5.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l08.s011",
+      "lessonId": "n5.l08",
+      "ja": "とてもにぎやかです。",
+      "kana": "とてもにぎやかです。",
+      "translation": {
+        "en": "It is very lively / bustling.",
+        "my": "အရမ်း စည်ကားသော ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l08.v010"
+      ],
+      "grammarIds": [
+        "n5.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l08.r01",
+    "lessonId": "n5.l08",
+    "title": "Adjectives: Describing Things (い形容詞・な形容詞) - 読解",
+    "level": "N5",
+    "text": "先週、新しいアパートに引っ越しました。部屋はあまり広くないですが、とてもきれいです。駅の近くですから、毎日の通学がとても便利です。アパートの隣に静かな公園があります。スーパーも近くにあって、買い物が楽です。家賃は少し高いですが、いい部屋です。",
+    "kanaText": "せんしゅう、あたらしいあぱーとにひっこしました。へやはあまりひろくないですが、とてもきれいです。えきのちかくですから、まいにちのつうがくがとてもべんりです。あぱーとのとなりにしずかなこうえんがあります。すーぱーもちかくにあって、かいものがらくです。やちんはすこしたかいですが、いいへやです。",
+    "translation": "Last week, I moved into a new apartment. The room is not very spacious, but it is very clean. Because it is near the station, commuting to school every day is very convenient. There is a quiet park next to the apartment. A supermarket is also nearby, so shopping is easy. The rent is a bit expensive, but it is a nice room.",
+    "questionIds": [
+      "n5.l08.q021",
+      "n5.l08.q022",
+      "n5.l08.q023",
+      "n5.l08.q024",
+      "n5.l08.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l08.l01",
+    "lessonId": "n5.l08",
+    "title": "Adjectives: Describing Things (い形容詞・な形容詞) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "鈴木",
+      "アリ"
+    ],
+    "transcript": "鈴木：アリさん、先週の奈良旅行はどうでしたか。\nアリ：とても楽しかったです！古いお寺がたくさんあって、静かな町でした。\n鈴木：鹿には会いましたか。奈良の鹿は有名ですね。\nアリ：はい、公園でたくさん見ました。とてもかわいかったです！",
+    "translation": "Two friends talk about a weekend sightseeing trip to Nara.",
+    "turns": [
+      {
+        "speaker": "鈴木",
+        "ja": "アリさん、先週の奈良旅行はどうでしたか。",
+        "kana": "ありさん、せんしゅうのならりょこうはどうでしたか。",
+        "en": "Ali-san, how was your trip to Nara last week?"
+      },
+      {
+        "speaker": "アリ",
+        "ja": "とても楽しかったです！古いお寺がたくさんあって、静かな町でした。",
+        "kana": "とてもたのしかったです！ふるいおてらがたくさんあって、しずかなまちでした。",
+        "en": "It was very enjoyable! There were many old temples, and it was a quiet town."
+      },
+      {
+        "speaker": "鈴木",
+        "ja": "鹿には会いましたか。奈良の鹿は有名ですね。",
+        "kana": "しかにはあいましたか。ならのしかはゆうめいですね。",
+        "en": "Did you see the deer? The deer of Nara are famous, aren't they?"
+      },
+      {
+        "speaker": "アリ",
+        "ja": "はい、公園でたくさん見ました。とてもかわいかったです！",
+        "kana": "はい、こうえんでたくさんみました。とてもかわいかったです！",
+        "en": "Yes, I saw many in the park. They were very cute!"
+      }
+    ],
+    "questionIds": [
+      "n5.l08.q026",
+      "n5.l08.q027",
+      "n5.l08.q028",
+      "n5.l08.q029",
+      "n5.l08.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l08.q001",
+      "lessonId": "n5.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「大きい」の意味は何ですか。 (What does 「大きい」 mean?)",
+      "choices": [
+        "Big / Large",
+        "Small / Little",
+        "New",
+        "Old (objects)"
+      ],
+      "answer": "Big / Large",
+      "acceptedAnswers": [
+        "Big / Large"
+      ],
+      "explanation": "「大きい」(おおきい) means \"Big / Large\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q002",
+      "lessonId": "n5.l08",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Small / Little\" in hiragana:",
+      "answer": "ちいさい",
+      "acceptedAnswers": [
+        "ちいさい",
+        "小さい"
+      ],
+      "explanation": "The Japanese word for \"Small / Little\" is 小さい (ちいさい).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q003",
+      "lessonId": "n5.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「新しい」の意味は何ですか。 (What does 「新しい」 mean?)",
+      "choices": [
+        "Bad",
+        "Good / Nice",
+        "Old (objects)",
+        "New"
+      ],
+      "answer": "New",
+      "acceptedAnswers": [
+        "New"
+      ],
+      "explanation": "「新しい」(あたらしい) means \"New\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q004",
+      "lessonId": "n5.l08",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Old (objects)\" in hiragana:",
+      "answer": "ふるい",
+      "acceptedAnswers": [
+        "ふるい",
+        "古い"
+      ],
+      "explanation": "The Japanese word for \"Old (objects)\" is 古い (ふるい).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q005",
+      "lessonId": "n5.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「いい」の意味は何ですか。 (What does 「いい」 mean?)",
+      "choices": [
+        "Inexpensive / Cheap",
+        "High / Expensive",
+        "Bad",
+        "Good / Nice"
+      ],
+      "answer": "Good / Nice",
+      "acceptedAnswers": [
+        "Good / Nice"
+      ],
+      "explanation": "「いい」(いい) means \"Good / Nice\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q006",
+      "lessonId": "n5.l08",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Bad\" in hiragana:",
+      "answer": "わるい",
+      "acceptedAnswers": [
+        "わるい",
+        "悪い"
+      ],
+      "explanation": "The Japanese word for \"Bad\" is 悪い (わるい).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q007",
+      "lessonId": "n5.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「高い」の意味は何ですか。 (What does 「高い」 mean?)",
+      "choices": [
+        "High / Expensive",
+        "Inexpensive / Cheap",
+        "Quiet",
+        "Lively / Bustling"
+      ],
+      "answer": "High / Expensive",
+      "acceptedAnswers": [
+        "High / Expensive"
+      ],
+      "explanation": "「高い」(たかい) means \"High / Expensive\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q008",
+      "lessonId": "n5.l08",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Inexpensive / Cheap\" in hiragana:",
+      "answer": "やすい",
+      "acceptedAnswers": [
+        "やすい",
+        "安い"
+      ],
+      "explanation": "The Japanese word for \"Inexpensive / Cheap\" is 安い (やすい).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q009",
+      "lessonId": "n5.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「静か」の意味は何ですか。 (What does 「静か」 mean?)",
+      "choices": [
+        "Kind / Helpful",
+        "Famous",
+        "Lively / Bustling",
+        "Quiet"
+      ],
+      "answer": "Quiet",
+      "acceptedAnswers": [
+        "Quiet"
+      ],
+      "explanation": "「静か」(しずか) means \"Quiet\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q010",
+      "lessonId": "n5.l08",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Lively / Bustling\" in hiragana:",
+      "answer": "にぎやか",
+      "acceptedAnswers": [
+        "にぎやか",
+        "にぎやか"
+      ],
+      "explanation": "The Japanese word for \"Lively / Bustling\" is にぎやか (にぎやか).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q011",
+      "lessonId": "n5.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「有名」の意味は何ですか。 (What does 「有名」 mean?)",
+      "choices": [
+        "Small / Little",
+        "Big / Large",
+        "Kind / Helpful",
+        "Famous"
+      ],
+      "answer": "Famous",
+      "acceptedAnswers": [
+        "Famous"
+      ],
+      "explanation": "「有名」(ゆうめい) means \"Famous\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q012",
+      "lessonId": "n5.l08",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Kind / Helpful\" in hiragana:",
+      "answer": "しんせつ",
+      "acceptedAnswers": [
+        "しんせつ",
+        "親切"
+      ],
+      "explanation": "The Japanese word for \"Kind / Helpful\" is 親切 (しんせつ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q013",
+      "lessonId": "n5.l08",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「高」の意味は何ですか。 (What is the meaning of kanji 「高」?)",
+      "choices": [
+        "Tall, high, expensive",
+        "Cheap, peaceful, safe",
+        "New",
+        "Tree"
+      ],
+      "answer": "Tall, high, expensive",
+      "acceptedAnswers": [
+        "Tall, high, expensive"
+      ],
+      "explanation": "「高」means \"Tall, high, expensive\". Onyomi: コウ, Kunyomi: たか.い, たか.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q014",
+      "lessonId": "n5.l08",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「高」の読み方はどれですか。 (Which is a correct reading for 「高」?)",
+      "choices": [
+        "たか.い",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "たか.い",
+      "acceptedAnswers": [
+        "たか.い"
+      ],
+      "explanation": "「高」 has the reading 「たか.い」 (Tall, high, expensive).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q015",
+      "lessonId": "n5.l08",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「安」の意味は何ですか。 (What is the meaning of kanji 「安」?)",
+      "choices": [
+        "Cheap, peaceful, safe",
+        "Tall, high, expensive",
+        "New",
+        "Tree"
+      ],
+      "answer": "Cheap, peaceful, safe",
+      "acceptedAnswers": [
+        "Cheap, peaceful, safe"
+      ],
+      "explanation": "「安」means \"Cheap, peaceful, safe\". Onyomi: アン, Kunyomi: やす.い.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q016",
+      "lessonId": "n5.l08",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「安」の読み方はどれですか。 (Which is a correct reading for 「安」?)",
+      "choices": [
+        "やす.い",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "やす.い",
+      "acceptedAnswers": [
+        "やす.い"
+      ],
+      "explanation": "「安」 has the reading 「やす.い」 (Cheap, peaceful, safe).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q017",
+      "lessonId": "n5.l08",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「新」の意味は何ですか。 (What is the meaning of kanji 「新」?)",
+      "choices": [
+        "New",
+        "Tall, high, expensive",
+        "Cheap, peaceful, safe",
+        "Tree"
+      ],
+      "answer": "New",
+      "acceptedAnswers": [
+        "New"
+      ],
+      "explanation": "「新」means \"New\". Onyomi: シン, Kunyomi: あたら.しい, あら.た.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q018",
+      "lessonId": "n5.l08",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「新」の読み方はどれですか。 (Which is a correct reading for 「新」?)",
+      "choices": [
+        "あたら.しい",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "あたら.しい",
+      "acceptedAnswers": [
+        "あたら.しい"
+      ],
+      "explanation": "「新」 has the reading 「あたら.しい」 (New).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q019",
+      "lessonId": "n5.l08",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「古」の意味は何ですか。 (What is the meaning of kanji 「古」?)",
+      "choices": [
+        "Old (for objects)",
+        "Tall, high, expensive",
+        "Cheap, peaceful, safe",
+        "Tree"
+      ],
+      "answer": "Old (for objects)",
+      "acceptedAnswers": [
+        "Old (for objects)"
+      ],
+      "explanation": "「古」means \"Old (for objects)\". Onyomi: コ, Kunyomi: ふる.い.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q020",
+      "lessonId": "n5.l08",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「古」の読み方はどれですか。 (Which is a correct reading for 「古」?)",
+      "choices": [
+        "ふる.い",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "ふる.い",
+      "acceptedAnswers": [
+        "ふる.い"
+      ],
+      "explanation": "「古」 has the reading 「ふる.い」 (Old (for objects)).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q021",
+      "lessonId": "n5.l08",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "部屋の広さはどうですか。 (How is the room's size described?)",
+      "choices": [
+        "あまり広くない",
+        "とても広い",
+        "狭すぎる",
+        "普通"
+      ],
+      "answer": "あまり広くない",
+      "acceptedAnswers": [
+        "あまり広くない"
+      ],
+      "explanation": "「部屋はあまり広くないですが...」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q022",
+      "lessonId": "n5.l08",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "なぜ通学が便利ですか。 (Why is the commute convenient?)",
+      "choices": [
+        "駅の近くだから",
+        "学校の隣だから",
+        "バスがあるから",
+        "友達と一緒だから"
+      ],
+      "answer": "駅の近くだから",
+      "acceptedAnswers": [
+        "駅の近くだから"
+      ],
+      "explanation": "「駅の近くですから、毎日の通学がとても便利です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q023",
+      "lessonId": "n5.l08",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "アパートの隣に何がありますか。 (What is next to the apartment?)",
+      "choices": [
+        "静かな公園",
+        "大きなスーパー",
+        "学校",
+        "駅の改札"
+      ],
+      "answer": "静かな公園",
+      "acceptedAnswers": [
+        "静かな公園"
+      ],
+      "explanation": "「アパートの隣に静かな公園があります」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q024",
+      "lessonId": "n5.l08",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "家賃についての感想はどうですか。 (What does the author think about the rent?)",
+      "choices": [
+        "少し高い",
+        "とても安い",
+        "無料である",
+        "高すぎる"
+      ],
+      "answer": "少し高い",
+      "acceptedAnswers": [
+        "少し高い"
+      ],
+      "explanation": "「家賃は少し高いですが、いい部屋です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q025",
+      "lessonId": "n5.l08",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "買い物環境はどうですか。 (How is the shopping situation?)",
+      "choices": [
+        "スーパーが近くにあって楽",
+        "遠くて不便",
+        "店が全くない",
+        "高い"
+      ],
+      "answer": "スーパーが近くにあって楽",
+      "acceptedAnswers": [
+        "スーパーが近くにあって楽"
+      ],
+      "explanation": "「スーパーも近くにあって、買い物が楽です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q026",
+      "lessonId": "n5.l08",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "アリさんはどこへ旅行に行きましたか。 (Where did Ali-san travel?)",
+      "choices": [
+        "奈良",
+        "京都",
+        "東京",
+        "大阪"
+      ],
+      "answer": "奈良",
+      "acceptedAnswers": [
+        "奈良"
+      ],
+      "explanation": "Suzuki asks: 「先週の奈良旅行はどうでしたか」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q027",
+      "lessonId": "n5.l08",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "奈良の町はどんな町でしたか。 (How was Nara described?)",
+      "choices": [
+        "古いお寺がたくさんある静かな町",
+        "近代的なにぎやかな町",
+        "物価がとても高い町",
+        "海に近い町"
+      ],
+      "answer": "古いお寺がたくさんある静かな町",
+      "acceptedAnswers": [
+        "古いお寺がたくさんある静かな町"
+      ],
+      "explanation": "Ali states: 「古いお寺がたくさんあって、静かな町でした」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q028",
+      "lessonId": "n5.l08",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "公園で何を見ましたか。 (What did Ali-san see in the park?)",
+      "choices": [
+        "たくさんの鹿",
+        "大きなお祭り",
+        "新しいお寺",
+        "桜の花"
+      ],
+      "answer": "たくさんの鹿",
+      "acceptedAnswers": [
+        "たくさんの鹿"
+      ],
+      "explanation": "Ali says: 「はい、公園でたくさん見ました (鹿)」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q029",
+      "lessonId": "n5.l08",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "アリさんは鹿について何と言いましたか。 (What did Ali-san think of the deer?)",
+      "choices": [
+        "とてもかわいかった",
+        "怖かった",
+        "うるさかった",
+        "大きかった"
+      ],
+      "answer": "とてもかわいかった",
+      "acceptedAnswers": [
+        "とてもかわいかった"
+      ],
+      "explanation": "「とてもかわいかったです！」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l08.q030",
+      "lessonId": "n5.l08",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "旅行全体の感想はどうでしたか。 (What was the overall impression of the trip?)",
+      "choices": [
+        "とても楽しかった",
+        "疲れた",
+        "退屈だった",
+        "寒かった"
+      ],
+      "answer": "とても楽しかった",
+      "acceptedAnswers": [
+        "とても楽しかった"
+      ],
+      "explanation": "Ali began with: 「とても楽しかったです！」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l08.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

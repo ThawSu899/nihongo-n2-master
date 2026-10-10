@@ -1,0 +1,1704 @@
+{
+  "id": "n3.l08",
+  "level": "N3",
+  "module": "N3 Bridging Intermediate",
+  "number": 8,
+  "title": "N3 Lesson 8: Simultaneity & Time Flow (同時進行・時間的前後: 〜つつ vs 〜最中に)",
+  "description": "Master expressing literary concurrent progress or psychological concession with 〜つつ and sudden dynamic interruptions with 〜最中に / 〜最中だ.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l08.v001",
+      "lessonId": "n3.l08",
+      "ja": "進行",
+      "kana": "しんこう",
+      "en": "progress; advance; moving forward",
+      "my": "တိုးတက်ဖြစ်ထွန်းမှု/ရှေ့သို့ချီတက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l08.s001",
+      "kanjiIds": [
+        "n3.l08.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.v002",
+      "lessonId": "n3.l08",
+      "ja": "途中",
+      "kana": "とちゅう",
+      "en": "on the way; en route; midway; in the middle of",
+      "my": "လမ်းခုလတ်/တစ်ဝက်တစ်ပျက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l08.s002",
+      "kanjiIds": [
+        "n3.l08.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.v003",
+      "lessonId": "n3.l08",
+      "ja": "中断",
+      "kana": "ちゅうだん",
+      "en": "interruption; suspension; break; halt",
+      "my": "ယာယီရပ်ဆိုင်းခြင်း/ပြတ်တောက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l08.s003",
+      "kanjiIds": [
+        "n3.l08.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.v004",
+      "lessonId": "n3.l08",
+      "ja": "緊急",
+      "kana": "きんきゅう",
+      "en": "emergency; urgent; pressing",
+      "my": "အရေးပေါ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l08.s004",
+      "kanjiIds": [
+        "n3.l08.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.v005",
+      "lessonId": "n3.l08",
+      "ja": "会議",
+      "kana": "かいぎ",
+      "en": "meeting; conference",
+      "my": "အစည်းအဝေး",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l08.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.v006",
+      "lessonId": "n3.l08",
+      "ja": "着工",
+      "kana": "ちゃっこう",
+      "en": "start of construction; breaking ground",
+      "my": "စတင်ဆောက်လုပ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l08.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.v007",
+      "lessonId": "n3.l08",
+      "ja": "改善",
+      "kana": "かいぜん",
+      "en": "improvement; betterment; Kaizen",
+      "my": "တိုးတက်ကောင်းမွန်အောင် ပြုပြင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l08.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.v008",
+      "lessonId": "n3.l08",
+      "ja": "反省",
+      "kana": "はんせい",
+      "en": "reflection; reconsideration; remorse",
+      "my": "ကိုယ်တိုင်ပြန်လည်ဆင်ခြင်သုံးသပ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l08.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.v009",
+      "lessonId": "n3.l08",
+      "ja": "停電",
+      "kana": "ていでん",
+      "en": "blackout; power outage",
+      "my": "လျှပ်စစ်မီးပျက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l08.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.v010",
+      "lessonId": "n3.l08",
+      "ja": "講義",
+      "kana": "こうぎ",
+      "en": "lecture",
+      "my": "တက္ကသိုလ်ပို့ချချက်/သင်ကြားပို့ချမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l08.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.v011",
+      "lessonId": "n3.l08",
+      "ja": "意識",
+      "kana": "いしき",
+      "en": "consciousness; awareness; sense",
+      "my": "သတိ/အသိစိတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l08.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.v012",
+      "lessonId": "n3.l08",
+      "ja": "集中する",
+      "kana": "しゅうちゅうする",
+      "en": "to concentrate; to focus",
+      "my": "အာရုံစူးစိုက်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n3.l08.s012",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l08.k001",
+      "lessonId": "n3.l08",
+      "char": "進",
+      "meaning": "advance; proceed; progress",
+      "onyomi": [
+        "シン"
+      ],
+      "kunyomi": [
+        "すす・む",
+        "すす・める"
+      ],
+      "exampleVocab": [
+        {
+          "word": "進行",
+          "reading": "しんこう",
+          "meaning": "progress; advance",
+          "preview": true
+        },
+        {
+          "word": "進歩",
+          "reading": "しんぽ",
+          "meaning": "progress; development",
+          "preview": false
+        },
+        {
+          "word": "進路",
+          "reading": "しんろ",
+          "meaning": "career path; course",
+          "preview": false
+        },
+        {
+          "word": "前進",
+          "reading": "ぜんしん",
+          "meaning": "advance; moving forward",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l08.s001"
+      ],
+      "components": [
+        "辶",
+        "隹"
+      ],
+      "strokes": 11,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.k002",
+      "lessonId": "n3.l08",
+      "char": "途",
+      "meaning": "route; way; road",
+      "onyomi": [
+        "ト"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "途中",
+          "reading": "とちゅう",
+          "meaning": "on the way; midway",
+          "preview": true
+        },
+        {
+          "word": "中途",
+          "reading": "ちゅうと",
+          "meaning": "midway; unfinished",
+          "preview": false
+        },
+        {
+          "word": "用途",
+          "reading": "ようと",
+          "meaning": "use; purpose",
+          "preview": false
+        },
+        {
+          "word": "前途",
+          "reading": "ぜんと",
+          "meaning": "future prospects; outlook",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l08.s002"
+      ],
+      "components": [
+        "辶",
+        "余"
+      ],
+      "strokes": 10,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.k003",
+      "lessonId": "n3.l08",
+      "char": "断",
+      "meaning": "sever; cut off; refuse; judge; resolve",
+      "onyomi": [
+        "ダン"
+      ],
+      "kunyomi": [
+        "ことわ・る",
+        "た・つ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "中断",
+          "reading": "ちゅうだん",
+          "meaning": "interruption; break",
+          "preview": true
+        },
+        {
+          "word": "判断",
+          "reading": "はんだん",
+          "meaning": "judgment; decision",
+          "preview": false
+        },
+        {
+          "word": "断る",
+          "reading": "ことわる",
+          "meaning": "to refuse; to decline",
+          "preview": false
+        },
+        {
+          "word": "決断",
+          "reading": "けつだん",
+          "meaning": "decision; resolve",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l08.s003"
+      ],
+      "components": [
+        "米",
+        "斤"
+      ],
+      "strokes": 11,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.k004",
+      "lessonId": "n3.l08",
+      "char": "急",
+      "meaning": "hurry; emergency; sudden; steep",
+      "onyomi": [
+        "キュウ"
+      ],
+      "kunyomi": [
+        "いそ・ぐ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "緊急",
+          "reading": "きんきゅう",
+          "meaning": "emergency; urgent",
+          "preview": true
+        },
+        {
+          "word": "急激",
+          "reading": "きゅうげき",
+          "meaning": "sudden; rapid; drastic",
+          "preview": false
+        },
+        {
+          "word": "急ぐ",
+          "reading": "いそぐ",
+          "meaning": "to hurry; to hasten",
+          "preview": false
+        },
+        {
+          "word": "急変",
+          "reading": "きゅうへん",
+          "meaning": "sudden turn of events",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l08.s004"
+      ],
+      "components": [
+        "⺈",
+        "彐",
+        "心"
+      ],
+      "strokes": 9,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l08.g001",
+      "lessonId": "n3.l08",
+      "pattern": "〜つつ / 〜つつも",
+      "meaning": "while doing; although; even while acknowledging",
+      "formation": "[Verb ます-stem] + つつ\n[Verb ます-stem] + つつも",
+      "explanation": {
+        "en": "A formal and literary pattern with two primary usages:\n1. Simultaneous Action: Performing two long-term or ongoing actions concurrently (e.g. 将来を考えつつ準備する = Preparing while pondering the future).\n2. Psychological Concession (〜つつも): Acting or being in a state despite holding contradictory inner feelings, regrets, or awareness (e.g. 体に悪いと知りつつも食べてしまう = Eating it even while knowing it is bad for health).",
+        "my": "တရားဝင်စာဆန်သော အသုံးအနှုန်းဖြစ်ပြီး အဓိပ္ပာယ် ၂ မျိုးရှိသည်:\n၁။ တစ်ပြိုင်နက်လုပ်ဆောင်ခြင်း: ရေရှည် သို့မဟုတ် ဆက်တိုက်ဖြစ်ပျက်နေသော လုပ်ဆောင်ချက်နှစ်ခုကို တပြိုင်နက် ပြုလုပ်ခြင်း (〜ながら ထက် ပိုမိုစာဆန်သည်)။\n၂။ စိတ်ပိုင်းဆိုင်ရာ ဆန့်ကျင်ဘက်ဝန်ခံချက် (〜つつも): မိမိစိတ်ထဲတွင် မကောင်းမှန်းသိနေလျက်နှင့် ဆန့်ကျင်ဘက် ပြုမူမိခြင်း။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l08.s001",
+          "note": "Balancing work while pursuing study"
+        },
+        {
+          "sentenceId": "n3.l08.s008",
+          "note": "Reflecting on mistakes while continuing forward"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l08.g002"
+      ],
+      "commonMistakes": [
+        "Do not use つつ for brief momentary bodily actions like eating while walking (use ながら instead for everyday instantaneous actions).",
+        "Verb must be in ます-stem without ます (❌ 食べますつつ → ⭕️ 食べつつ)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.g002",
+      "lessonId": "n3.l08",
+      "pattern": "〜最中に / 〜最中だ",
+      "meaning": "right in the middle of; at the peak of",
+      "formation": "[Verb ている] + 最中に\n[Noun の] + 最中に",
+      "explanation": {
+        "en": "Indicates that right in the middle of an action or event when focus/activity is at its height, an unexpected event suddenly occurs and interrupts the flow. Often followed by surprise or inconvenience.",
+        "my": "လုပ်ဆောင်ချက်တစ်ခု သို့မဟုတ် အဖြစ်အပျက်တစ်ခု အပြည့်အဝ လုပ်ဆောင်နေဆဲ အထွတ်အထိပ်အချိန်တွင် မထင်မှတ်ထားသော အဖြစ်အပျက်တစ်ခု ရုတ်တရက် ဝင်ရောက်နှောင့်ယှက် ပေါ်ပေါက်လာခြင်းကို ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l08.s005",
+          "note": "Emergency call right during meeting"
+        },
+        {
+          "sentenceId": "n3.l08.s009",
+          "note": "Power outage right in the middle of creating important documents"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l08.g001"
+      ],
+      "commonMistakes": [
+        "The interrupting event in the main clause must be sudden and brief, not another long-term ongoing state.",
+        "Cannot be used with state verbs that lack dynamic progression (❌ 知っている最中に)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l08.s001",
+      "lessonId": "n3.l08",
+      "ja": "会社でフルタイムの仕事を続けつつ、夜間大学院に通って研究を進めている。",
+      "kana": "かいしゃで ふるたいむの しごとを つづけつつ、やかんだいがくいんに かよって けんきゅうを すすめている。",
+      "translation": {
+        "en": "While continuing full-time work at the company, I attend evening graduate school and advance my research.",
+        "my": "ကုမ္ပဏီတွင် အချိန်ပြည့်အလုပ်ကို ဆက်လက်လုပ်ကိုင်ရင်း ညပိုင်းဘွဲ့လွန်ကျောင်း တက်ရောက်ကာ သုတေသနကို ဆောင်ရွက်လျက်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l08.v001"
+      ],
+      "grammarIds": [
+        "n3.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.s002",
+      "lessonId": "n3.l08",
+      "ja": "目的地へ向かう途中で激しい雷雨に見舞われ、近くのカフェに避難した。",
+      "kana": "もくてきちへ むかう とちゅうで はげしい らいうに みまわれ、ちかくの かふぇに ひなんした。",
+      "translation": {
+        "en": "On the way heading toward our destination, we were hit by severe thunderstorm and evacuated into a nearby cafe.",
+        "my": "ဦးတည်ရာဆီသို့ သွားနေသည့် လမ်းခုလတ်တွင် ပြင်းထန်သော မိုးကြိုးမုန်တိုင်းဒဏ် ခံရသဖြင့် အနီးရှိ ကဖေးဆိုင်သို့ ခိုလှုံခဲ့ရသည်။"
+      },
+      "vocabIds": [
+        "n3.l08.v002"
+      ],
+      "grammarIds": [
+        "n3.l08.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.s003",
+      "lessonId": "n3.l08",
+      "ja": "機材の突然の故障により、生放送の収録が一時的に中断された。",
+      "kana": "きざいの とつぜんの こしょうにより、なまほうそうの しゅうろくが いちじてきに ちゅうだんされた。",
+      "translation": {
+        "en": "Due to sudden equipment breakdown, the live broadcast recording was temporarily interrupted.",
+        "my": "စက်ပစ္စည်း ရုတ်တရက် ပျက်စီးသွားခြင်းကြောင့် တိုက်ရိုက်ထုတ်လွှင့်မှု အသံသွင်းခြင်းမှာ ယာယီရပ်ဆိုင်းသွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l08.v003"
+      ],
+      "grammarIds": [
+        "n3.l08.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.s004",
+      "lessonId": "n3.l08",
+      "ja": "緊急の事態が発生したため、休日にもかかわらず全社員が招集された。",
+      "kana": "きんきゅうの じたいが はっせいした ため、きゅうじつにも かかわらず ぜんしゃいんが しょうしゅうされた。",
+      "translation": {
+        "en": "Because an emergency arose, all employees were summoned despite it being a holiday.",
+        "my": "အရေးပေါ်အခြေအနေ ဖြစ်ပေါ်လာသောကြောင့် အားလပ်ရက်ဖြစ်လင့်ကစား ဝန်ထမ်းအားလုံး ဆင့်ခေါ်ခြင်းခံခဲ့ရသည်။"
+      },
+      "vocabIds": [
+        "n3.l08.v004"
+      ],
+      "grammarIds": [
+        "n3.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.s005",
+      "lessonId": "n3.l08",
+      "ja": "重要な経営会議を行っている最中に、担当者のスマートフォンが突然鳴り響いた。",
+      "kana": "じゅうような けいえいかいぎを おこなっている さいちゅうに、たんとうしゃの すまーとふぉんが とつぜん なりひびいた。",
+      "translation": {
+        "en": "Right in the middle of conducting an important management meeting, the person in charge’s smartphone suddenly rang out loudly.",
+        "my": "အရေးကြီးသော စီမံခန့်ခွဲမှုအစည်းအဝေး ပြုလုပ်နေဆဲအချိန်တွင် တာဝန်ခံ၏ စမတ်ဖုန်းသည် ရုတ်တရက် ကျယ်လောင်စွာ မြည်လာခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l08.v005"
+      ],
+      "grammarIds": [
+        "n3.l08.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.s006",
+      "lessonId": "n3.l08",
+      "ja": "地域の安全性を確認しつつ、新しい橋の建設工事を着工した。",
+      "kana": "ちいきの あんぜんせいを かくにんしつつ、あたらしい はしの けんせつこうじを ちゃっこうした。",
+      "translation": {
+        "en": "While confirming community safety, we broke ground on construction of the new bridge.",
+        "my": "ဒေသတွင်း ဘေးကင်းလုံခြုံမှုကို စစ်ဆေးအတည်ပြုရင်း တံတားသစ် တည်ဆောက်ရေးလုပ်ငန်းကို စတင်ဆောက်လုပ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l08.v006"
+      ],
+      "grammarIds": [
+        "n3.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.s007",
+      "lessonId": "n3.l08",
+      "ja": "利用者の率直な意見を聞きつつ、サービスの改善を地道に積み重ねている。",
+      "kana": "りようしゃの そっちょくな いけんを ききつつ、さーびすの かいぜんを じみちに つみかさねている。",
+      "translation": {
+        "en": "While listening to users’ frank feedback, we are steadily accumulating service improvements.",
+        "my": "အသုံးပြုသူများ၏ ပွင့်လင်းသော ထင်မြင်ချက်များကို နားထောင်ရင်း ဝန်ဆောင်မှု တိုးတက်ကောင်းမွန်ရေးကို တစိုက်မတ်မတ် စုဆောင်းဆောင်ရွက်လျက်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l08.v007"
+      ],
+      "grammarIds": [
+        "n3.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.s008",
+      "lessonId": "n3.l08",
+      "ja": "過去の失敗を深く反省しつつも、次の挑戦に向けて前を向いて歩き出さなければならない。",
+      "kana": "かこの しっぱいを ふかく はんせいしつつも、つぎの ちょうせんに むけて まえを むいて あるきださなければ ならない。",
+      "translation": {
+        "en": "Even while deeply reflecting on past mistakes, one must face forward and step out toward the next challenge.",
+        "my": "အတိတ်က အမှားများကို အလေးအနက် ပြန်လည်ဆင်ခြင်သုံးသပ်နေသော်လည်း နောက်ထပ်စိန်ခေါ်မှုအတွက် ရှေ့သို့မျက်နှာမူ၍ ဆက်လက်လျှောက်လှမ်းရပါမည်။"
+      },
+      "vocabIds": [
+        "n3.l08.v008"
+      ],
+      "grammarIds": [
+        "n3.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.s009",
+      "lessonId": "n3.l08",
+      "ja": "パソコンで大切な書類を作成している最中に停電が起き、保存前のデータが消えてしまった。",
+      "kana": "ぱそこんで たいせつな しょるいを さくせいしている さいちゅうに ていでんが おき、ほぞんまえの でーたが きえて しまった。",
+      "translation": {
+        "en": "Right in the middle of creating an important document on the computer, a blackout occurred and unsaved data vanished.",
+        "my": "ကွန်ပျူတာဖြင့် အရေးကြီးသော စာရွက်စာတမ်း ပြုစုနေဆဲအချိန်တွင် မီးပျက်သွားသဖြင့် မသိမ်းဆည်းရသေးသော ဒေတာများ ပျောက်ကွယ်သွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l08.v009"
+      ],
+      "grammarIds": [
+        "n3.l08.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.s010",
+      "lessonId": "n3.l08",
+      "ja": "教授が熱心に講義をしている最中に、教室のドアを激しく叩く音が聞こえた。",
+      "kana": "きょうじゅが ねっしんに こうぎを している さいちゅうに、きょうしつの どあを はげしく たたく おとが きこえた。",
+      "translation": {
+        "en": "Right in the middle of the professor delivering an enthusiastic lecture, the sound of someone violently knocking on the classroom door was heard.",
+        "my": "ပါမောက္ခက စိတ်အားထက်သန်စွာ စာပို့ချနေဆဲအချိန်တွင် စာသင်ခန်းတံခါးကို ပြင်းထန်စွာ ခေါက်သံ ကြားလိုက်ရသည်။"
+      },
+      "vocabIds": [
+        "n3.l08.v010"
+      ],
+      "grammarIds": [
+        "n3.l08.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.s011",
+      "lessonId": "n3.l08",
+      "ja": "常に環境保護を意識しつつ、日々のゴミの分別を徹底して行っている。",
+      "kana": "つねに かんきょうほごを いしきしつつ、ひびの ごみの ぶんべつを てっていして おこなっている。",
+      "translation": {
+        "en": "While constantly maintaining awareness of environmental conservation, I thoroughly carry out daily waste sorting.",
+        "my": "ပတ်ဝန်းကျင်ထိန်းသိမ်းရေးကို အမြဲတစေ သတိပြုလျက် နေ့စဉ်အမှိုက်ခွဲခြားစွန့်ပစ်ခြင်းကို စနစ်တကျ ပြုလုပ်လျက်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l08.v011"
+      ],
+      "grammarIds": [
+        "n3.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l08.s012",
+      "lessonId": "n3.l08",
+      "ja": "静かな図書館で試験勉強に集中している最中に、外で激しい工事の音が響き始めた。",
+      "kana": "しずかな としょかんで しけんべんきょうに しゅうちゅうしている さいちゅうに、そとで はげしい こうじの おとが ひびきはじめた。",
+      "translation": {
+        "en": "Right in the middle of concentrating on exam study in the quiet library, the loud sound of construction outside began echoing.",
+        "my": "တိတ်ဆိတ်သော စာကြည့်တိုက်ထဲတွင် စာမေးပွဲအတွက် အာရုံစိုက်လေ့လာနေဆဲအချိန်တွင် အပြင်ဘက်မှ ပြင်းထန်သော ဆောက်လုပ်ရေးလုပ်ငန်းခွင်အသံ စတင်ပဲ့တင်ထပ်လာခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l08.v012"
+      ],
+      "grammarIds": [
+        "n3.l08.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l08.r01",
+    "lessonId": "n3.l08",
+    "title": "伝統工芸の継承と現代的革新 (Inheritance & Modern Innovation of Traditional Crafts)",
+    "level": "N3",
+    "text": "何世代にもわたって受け継がれてきた伝統工芸の世界において、職人たちは伝統的な技法を大切に守りつつ、現代の生活様式に適合した新たな製品の開発に日々挑戦しています。古い手法に固執するだけでは時代の変化から取り残され、逆に目新しさばかりを追えば伝統の本質が失われてしまうというジレンマに直面しているのです。\n\nある著名な陶芸家は、「先人への敬意を胸に抱きつつも、現代人の感性に響く器を作りたい」と語ります。土の温もりや釉薬の奥深さといった本質を維持しつつ、現代の食卓に似合う軽やかで洗練されたデザインを追求しているのです。\n\nしかし、創作活動の道は決して平坦ではありません。ろくろを回して渾身の作品を成形している最中に、わずかな力加減の狂いで形が崩れてしまうことも日常茶飯事です。一瞬の油断も許されない集中力の中で、失敗を反省しつつ試行錯誤を繰り返すことで、人の心を揺さぶる名作が生み出されるのです。",
+    "kanaText": "なんせだいにも わたって うけつがれてきた でんとうこうげいの せかいに おいて、しょくにんたちは でんとうてきな ぎほうを たいせつに まもりつつ、げんだいの せいかつようしきに てきごうした あらたな せいひんの かいはつに ひび ちょうせんしています。ふるい しゅほうに こしつする だけでは じだいの へんかから とりのこされ、ぎゃくに めあたらしさばかりを おえば でんとうの ほんしつが うしなわれて しまうという じれんまに ちょくめんしているのです。\n\nある ちょめいな とうげいかは、「せんじんへの けいいを むねに いだきつつも、げんだいじんの かんせいに ひびく うつわを つくりたい」と かたります。つちの ぬくもりや ゆうやくの おくふかさといった ほんしつを いじしつつ、げんだいの しょくたくに にあう かろやかで せんれんされた でざいんを ついきゅうしているのです。\n\nしかし、そうさくかつどうの みちは けっして へいたんでは ありません。ろくろを まわして こんしんの さくひんを せいけいしている さいちゅうに、わずかな ちからかげんの くるいで かたちが くずれて しまう ことも にちじょうさはんじです。いっしゅんの ゆだんも ゆるされない しゅうちゅうりょくの なかで、しっぱいを はんせいしつつ しこうさくごを くりかえす ことで、ひとの こころを ゆさぶる めいさくが うみだされるのです。",
+    "translation": "In the realm of traditional crafts inherited across numerous generations, artisans challenge themselves daily to develop new products suited to contemporary lifestyles while cherishing and protecting traditional techniques. They face the dilemma where merely clinging to antiquated methods leaves them behind epochal shifts, yet conversely chasing only novelty risks losing the essence of tradition.\n\nA renowned ceramic artist states: \"Even while harboring reverence for our predecessors in my heart, I want to create vessels that resonate with modern sensibilities.\" While maintaining essentials such as the warmth of clay and the depth of glazes, he pursues light and refined designs befitting contemporary dining tables.\n\nHowever, the path of creative endeavor is by no means smooth. Right in the middle of shaping a magnum opus while turning the potter's wheel, forms collapsing due to a slight error in pressure are everyday occurrences. Amid concentration where not even a moment of negligence is permitted, by repeating trial and error while reflecting upon failures, masterpieces that move human hearts are born.",
+    "questionIds": [
+      "n3.l08.q025",
+      "n3.l08.q026",
+      "n3.l08.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l08.l01",
+    "lessonId": "n3.l08",
+    "title": "オンラインプレゼンテーション中のハプニング (Happenings During an Online Presentation)",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "同僚A（森田）",
+      "同僚B（野村）"
+    ],
+    "transcript": "森田：野村さん、今日の午前中のオンライン事業説明会、大変だったね。\n野村：本当に焦ったよ。画面を共有してスライドの説明をしている最中に、突然Wi-Fiの接続が切れてしまったんだから。\n森田：ちょうど海外のクライアントが質問を投げかけている最中だったから、一瞬空気が凍りついたよね。\n野村：うん。でも森田さんがすぐにスマートフォンからチャットでトラブルを伝えつつ、臨機応変に間をつないでくれたから助かったよ。\n森田：予備のネットワーク回線を用意しておいて本当に良かったよ。復旧を待ちつつ、質問の意図を整理できたしね。\n野村：今回のトラブルを反省しつつ、次回からは有線LANケーブルを必ず接続して本番に臨むことにするよ。",
+    "translation": "Morita: Nomura-san, the online business briefing this morning was quite an ordeal, wasn't it?\nNomura: I panicked truly! Because right in the middle of sharing the screen and explaining slides, the Wi-Fi connection suddenly cut out.\nMorita: It was right in the middle of an overseas client asking a question, so the atmosphere froze for an instant.\nNomura: Yeah. But you saved me, Morita-san, by swiftly informing them of the trouble via chat from your smartphone while flexibly filling the gap.\nMorita: I'm really glad we had prepared a backup network connection. While awaiting restoration, we were able to organize the intent of the questions too.\nNomura: While reflecting upon this trouble, I will make sure to connect a wired LAN cable and face the real session next time.",
+    "turns": [],
+    "questionIds": [
+      "n3.l08.q028",
+      "n3.l08.q029",
+      "n3.l08.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l08.q001",
+      "lessonId": "n3.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「進行」の正しい読み方を選んでください。",
+      "choices": [
+        "しんこう",
+        "しんごう",
+        "じんこう",
+        "すいこう"
+      ],
+      "answer": "しんこう",
+      "acceptedAnswers": [
+        "しんこう"
+      ],
+      "explanation": "「進行」は「しんこう」と読みます。物事が前へ進むこと、はかどることを表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q002",
+      "lessonId": "n3.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な言葉を選んでください。\n「学校へ行く（　　）で、偶然幼なじみに会った。」",
+      "choices": [
+        "途中",
+        "進行",
+        "緊急",
+        "停電"
+      ],
+      "answer": "途中",
+      "acceptedAnswers": [
+        "途中"
+      ],
+      "explanation": "「途中（とちゅう）」は、ある場所へ向かう道の間・ものごとのなかばを意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q003",
+      "lessonId": "n3.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「中断」のミャンマー語の意味として最も適切なものを選んでください。",
+      "choices": [
+        "ယာယီရပ်ဆိုင်းခြင်း/ပြတ်တောက်ခြင်း",
+        "လမ်းခုလတ်",
+        "တိုးတက်ဖြစ်ထွန်းမှု",
+        "အရေးပေါ်"
+      ],
+      "answer": "ယာယီရပ်ဆိုင်းခြင်း/ပြတ်တောက်ခြင်း",
+      "acceptedAnswers": [
+        "ယာယီရပ်ဆိုင်းခြင်း/ပြတ်တောက်ခြင်း"
+      ],
+      "explanation": "「中断（ちゅうだん）」はミャンマー語で ယာယီရပ်ဆိုင်းခြင်း/ပြတ်တောက်ခြင်း (interruption, suspension, break) を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q004",
+      "lessonId": "n3.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な言葉を選んでください。\n「（　　）のサイレンが鳴り響き、救急車が通り過ぎていった。」",
+      "choices": [
+        "緊急",
+        "反省",
+        "進行",
+        "講義"
+      ],
+      "answer": "緊急",
+      "acceptedAnswers": [
+        "緊急"
+      ],
+      "explanation": "「緊急（きんきゅう）」は事態が重大で急を要することを表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q005",
+      "lessonId": "n3.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「着工」の意味として最も適切な説明を選んでください。",
+      "choices": [
+        "土木や建築などの工事を始めること",
+        "完成した建物を引き渡すこと",
+        "工事の計画を中止すること",
+        "建物の修理を完了すること"
+      ],
+      "answer": "土木や建築などの工事を始めること",
+      "acceptedAnswers": [
+        "土木や建築などの工事を始めること"
+      ],
+      "explanation": "「着工（ちゃっこう）」は、工事を始める（工事に着手する）ことを意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q006",
+      "lessonId": "n3.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「改善」の対義語（反対語）として最も適切なものを選んでください。",
+      "choices": [
+        "悪化",
+        "停電",
+        "進行",
+        "集中"
+      ],
+      "answer": "悪化",
+      "acceptedAnswers": [
+        "悪化"
+      ],
+      "explanation": "「改善（かいぜん：良くなること）」の反対語は「悪化（あっか：悪くなること）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q007",
+      "lessonId": "n3.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な言葉を選んでください。\n「雷が落ちて地域全体が（　　）し、街灯も消えて真っ暗になった。」",
+      "choices": [
+        "停電",
+        "中断",
+        "講義",
+        "反省"
+      ],
+      "answer": "停電",
+      "acceptedAnswers": [
+        "停電"
+      ],
+      "explanation": "電気が止まることを「停電（ていでん）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q008",
+      "lessonId": "n3.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「意識」の使い方として最も自然なものを選んでください。",
+      "choices": [
+        "健康を維持するために、普段から歩くことを意識している。",
+        "意識をスーパーで買って帰った。",
+        "部屋の意識を掃除して綺麗にした。",
+        "昨日は意識が降って道が滑りやすかった。"
+      ],
+      "answer": "健康を維持するために、普段から歩くことを意識している。",
+      "acceptedAnswers": [
+        "健康を維持するために、普段から歩くことを意識している。"
+      ],
+      "explanation": "「意識する」は、心にとどめて気を配る・自覚するという意味で使用します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q009",
+      "lessonId": "n3.l08",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の読み方を選んでください。\n「科学技術が目覚ましく<u>進</u>歩した。」",
+      "choices": [
+        "しん",
+        "じん",
+        "すい",
+        "せん"
+      ],
+      "answer": "しん",
+      "acceptedAnswers": [
+        "しん"
+      ],
+      "explanation": "「進歩」は「しんぽ」と読みます。音読みは「シン」です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q010",
+      "lessonId": "n3.l08",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の読み方を選んでください。\n「計画を<u>中途</u>半端なまま終わらせてはいけない。」",
+      "choices": [
+        "ちゅうと",
+        "ちゅうど",
+        "ちゅうず",
+        "ちゅうろ"
+      ],
+      "answer": "ちゅうと",
+      "acceptedAnswers": [
+        "ちゅうと"
+      ],
+      "explanation": "「中途」は「ちゅうと」と読みます。「中途半端（ちゅうとはんぱ）」などで用いられます。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q011",
+      "lessonId": "n3.l08",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の読み方を選んでください。\n「無理な頼みはきっぱりと<u>断</u>るべきだ。」",
+      "choices": [
+        "ことわ",
+        "さだ",
+        "やぶ",
+        "へだ"
+      ],
+      "answer": "ことわ",
+      "acceptedAnswers": [
+        "ことわ"
+      ],
+      "explanation": "「断る」は訓読みで「ことわる」と読みます。辞退する・拒絶する意味です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q012",
+      "lessonId": "n3.l08",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「急」の漢字の部首として正しいものを選んでください。",
+      "choices": [
+        "心（こころ・したごころ）",
+        "刀（かたな）",
+        "日（ひ）",
+        "走（そうにょう）"
+      ],
+      "answer": "心（こころ・したごころ）",
+      "acceptedAnswers": [
+        "心（こころ・したごころ）"
+      ],
+      "explanation": "「急」の部首は下部にある「心（こころ）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q013",
+      "lessonId": "n3.l08",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「決断（けつだん）」の漢字表記として正しいものを選んでください。",
+      "choices": [
+        "決断",
+        "決段",
+        "決談",
+        "決旦"
+      ],
+      "answer": "決断",
+      "acceptedAnswers": [
+        "決断"
+      ],
+      "explanation": "意思を決定することを表す言葉は「決断（けつだん）」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q014",
+      "lessonId": "n3.l08",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「進」の総画数として正しいものを選んでください。",
+      "choices": [
+        "11画",
+        "10画",
+        "12画",
+        "9画"
+      ],
+      "answer": "11画",
+      "acceptedAnswers": [
+        "11画"
+      ],
+      "explanation": "「進」は辶（3画または4画表記基準）＋ 隹（8画）で、常用漢字表の標準総画数は11画です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q015",
+      "lessonId": "n3.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な文法形式を選んでください。\n「将来の進路について悩み（　　）、毎日一生懸命勉強している。」",
+      "choices": [
+        "つつ",
+        "最中に",
+        "限りに",
+        "ばかりに"
+      ],
+      "answer": "つつ",
+      "acceptedAnswers": [
+        "つつ"
+      ],
+      "explanation": "悩みながらも同時に勉強を続けているという心理的・長期的な並行進行を表すため、「動詞ます形語幹 ＋ つつ」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q016",
+      "lessonId": "n3.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な表現を選んでください。\n「食事をしている（　　）、宅急便の配達員がインターホンを鳴らした。」",
+      "choices": [
+        "最中に",
+        "つつ",
+        "わりに",
+        "に限る"
+      ],
+      "answer": "最中に",
+      "acceptedAnswers": [
+        "最中に"
+      ],
+      "explanation": "食事をしている進行中のまさにその瞬間に、不意に配達員が訪れるという割り込みの発生を表すため「最中に」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q017",
+      "lessonId": "n3.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜つつも」のニュアンスとして最も適切な説明を選んでください。",
+      "choices": [
+        "心の中では矛盾や後ろめたさを自覚していながらも、それに反する行動を取る。",
+        "過去の出来事を他人のせいにして激しく非難する。",
+        "将来の夢が絶対に実現しないと諦め切っている。",
+        "相手の命令に従って機械的に作業を行う。"
+      ],
+      "answer": "心の中では矛盾や後ろめたさを自覚していながらも、それに反する行動を取る。",
+      "acceptedAnswers": [
+        "心の中では矛盾や後ろめたさを自覚していながらも、それに反する行動を取る。"
+      ],
+      "explanation": "「〜つつも」は「体に悪いと知りつつも食べてしまう」のように、心理的矛盾・葛藤を抱えながらその行為をしてしまう逆接的意味合いを持ちます。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q018",
+      "lessonId": "n3.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な接続形式を選んでください。\n「危険だと（　　）つつも、好奇心に負けて近寄ってしまった。」",
+      "choices": [
+        "知り",
+        "知る",
+        "知って",
+        "知った"
+      ],
+      "answer": "知り",
+      "acceptedAnswers": [
+        "知り"
+      ],
+      "explanation": "「〜つつ（も）」の前には動詞のます形語幹が接続します（知ります → 知り）。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q019",
+      "lessonId": "n3.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な語を選んでください。\n「スピーチの（　　）にマイクの電池が切れて声が届かなくなった。」",
+      "choices": [
+        "最中",
+        "つつ",
+        "わり",
+        "かぎり"
+      ],
+      "answer": "最中",
+      "acceptedAnswers": [
+        "最中"
+      ],
+      "explanation": "「名詞 ＋ の最中に」の接続です。「スピーチの最中に」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q020",
+      "lessonId": "n3.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ながら」と「〜つつ」の違いについて正しい説明を選んでください。",
+      "choices": [
+        "「〜つつ」は「〜ながら」より改まった書き言葉・硬い表現で、長期的・抽象的な並行動作や心理的葛藤にも多用される。",
+        "「〜つつ」は日常会話でのみ使われ、文章語では絶対に使われない。",
+        "「〜つつ」は過去のことには一切使えない。",
+        "文法的な差も文体の硬さも全く存在しない。"
+      ],
+      "answer": "「〜つつ」は「〜ながら」より改まった書き言葉・硬い表現で、長期的・抽象的な並行動作や心理的葛藤にも多用される。",
+      "acceptedAnswers": [
+        "「〜つつ」は「〜ながら」より改まった書き言葉・硬い表現で、長期的・抽象的な並行動作や心理的葛藤にも多用される。"
+      ],
+      "explanation": "「〜つつ」は改まった硬い文体で、長期的な両立や「〜知りつつも」のような内省的表現に適しています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q021",
+      "lessonId": "n3.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も自然な動詞の形を選んでください。\n「夜遅くに電話を（　　）最中に、突然母が部屋に入ってきた。」",
+      "choices": [
+        "かけている",
+        "かけた",
+        "かける",
+        "かけよう"
+      ],
+      "answer": "かけている",
+      "acceptedAnswers": [
+        "かけている"
+      ],
+      "explanation": "「〜最中に」の直前は動詞の「ている形」が接続します。「電話をかけている最中に」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q022",
+      "lessonId": "n3.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の文のうち、文法的に誤っているものを選んでください。",
+      "choices": [
+        "歩きつつアイスクリームを食べた。",
+        "体調を気にかけつつ、激しいトレーニングをやり遂げた。",
+        "試験の最中に携帯電話が鳴った。",
+        "試合を行っている最中に雨が激しくなった。"
+      ],
+      "answer": "歩きつつアイスクリームを食べた。",
+      "acceptedAnswers": [
+        "歩きつつアイスクリームを食べた。"
+      ],
+      "explanation": "「歩きながらアイスを食べる」のような日常的な身体的動作には「〜ながら」を用いるのが自然であり、「〜つつ」を使うと不自然に大げさで不適切になります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q023",
+      "lessonId": "n3.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「環境に配慮（　　）、新しい技術の開発を進める。」",
+      "choices": [
+        "しつつ",
+        "最中に",
+        "わりに",
+        "に限って"
+      ],
+      "answer": "しつつ",
+      "acceptedAnswers": [
+        "しつつ"
+      ],
+      "explanation": "「配慮しつつ（配慮しながら）」と、方針を念頭に置きながら長期的に進行させる表現です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q024",
+      "lessonId": "n3.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「大事なテストの（　　）に激しい腹痛に襲われた。」",
+      "choices": [
+        "最中",
+        "つつ",
+        "かぎり",
+        "ばかり"
+      ],
+      "answer": "最中",
+      "acceptedAnswers": [
+        "最中"
+      ],
+      "explanation": "「名詞＋の最中に」で、テストが進行しているまっただ中に、という文脈になります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q025",
+      "lessonId": "n3.l08",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "本文によると、伝統工芸の職人たちが直面しているジレンマとは何ですか。",
+      "choices": [
+        "古い手法に固執すると時代から取り残され、目新しさばかり追うと伝統の本質が失われること。",
+        "原材料の粘土が枯渇して器が作れなくなっていること。",
+        "若者の弟子が多すぎて教える時間が足りないこと。",
+        "美術館が古い工芸品の展示を拒否していること。"
+      ],
+      "answer": "古い手法に固執すると時代から取り残され、目新しさばかり追うと伝統の本質が失われること。",
+      "acceptedAnswers": [
+        "古い手法に固執すると時代から取り残され、目新しさばかり追うと伝統の本質が失われること。"
+      ],
+      "explanation": "第1段落に「古い手法に固執するだけでは時代の変化から取り残され、逆に目新しさばかりを追えば伝統の本質が失われてしまうというジレンマに直面している」と記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q026",
+      "lessonId": "n3.l08",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "ある著名な陶芸家が追求しているデザインとして正しいものはどれですか。",
+      "choices": [
+        "土の温もりや釉薬の奥深さを維持しつつ、現代の食卓に似合う軽やかで洗練されたデザイン。",
+        "重くて持ち運べない巨大な王室専用の壺のデザイン。",
+        "プラスチック素材だけを使って大量生産できるデザイン。",
+        "過去の作品を一切変えずに完全にそのまま複製したデザイン。"
+      ],
+      "answer": "土の温もりや釉薬の奥深さを維持しつつ、現代の食卓に似合う軽やかで洗練されたデザイン。",
+      "acceptedAnswers": [
+        "土の温もりや釉薬の奥深さを維持しつつ、現代の食卓に似合う軽やかで洗練されたデザイン。"
+      ],
+      "explanation": "第2段落に「土の温もりや釉薬の奥深さといった本質を維持しつつ、現代の食卓に似合う軽やかで洗練されたデザインを追求している」とあります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q027",
+      "lessonId": "n3.l08",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "本文で、人の心を揺さぶる名作が生み出されるために不可欠なこととして述べられているのは何ですか。",
+      "choices": [
+        "一瞬の油断も許されない集中力の中で、失敗を反省しつつ試行錯誤を繰り返すこと。",
+        "失敗した作品を高額で観光客に売りさばくこと。",
+        "機械による全自動の成形ラインを導入すること。",
+        "先人の作品を見ないようにして独自性を保つこと。"
+      ],
+      "answer": "一瞬の油断も許されない集中力の中で、失敗を反省しつつ試行錯誤を繰り返すこと。",
+      "acceptedAnswers": [
+        "一瞬の油断も許されない集中力の中で、失敗を反省しつつ試行錯誤を繰り返すこと。"
+      ],
+      "explanation": "最終文に「一瞬の油断も許されない集中力の中で、失敗を反省しつつ試行錯誤を繰り返すことで、人の心を揺さぶる名作が生み出されるのです」と述べられています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q028",
+      "lessonId": "n3.l08",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "野村さんがオンライン説明会でパニックになった原因は何ですか。",
+      "choices": [
+        "画面を共有してスライドを説明している最中に、突然Wi-Fiが切れてしまったから。",
+        "発表用のスライドのデータが最初から全て消えていたから。",
+        "説明会の日時を一日間違えて遅刻したから。",
+        "パソコンから煙が出て画面が割れてしまったから。"
+      ],
+      "answer": "画面を共有してスライドを説明している最中に、突然Wi-Fiが切れてしまったから。",
+      "acceptedAnswers": [
+        "画面を共有してスライドを説明している最中に、突然Wi-Fiが切れてしまったから。"
+      ],
+      "explanation": "野村は「画面を共有してスライドの説明をしている最中に、突然Wi-Fiの接続が切れてしまったんだから」と話しています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q029",
+      "lessonId": "n3.l08",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "トラブル発生時、森田さんはどのように対処しましたか。",
+      "choices": [
+        "スマホのチャットで状況を伝えつつ、臨機応変に間をつないだ。",
+        "何も言わずに説明会を一方的に終了させた。",
+        "野村さんを大声で叱責した。",
+        "社外に出てカフェへ移動した。"
+      ],
+      "answer": "スマホのチャットで状況を伝えつつ、臨機応変に間をつないだ。",
+      "acceptedAnswers": [
+        "スマホのチャットで状況を伝えつつ、臨機応変に間をつないだ。"
+      ],
+      "explanation": "野村は「森田さんがすぐにスマートフォンからチャットでトラブルを伝えつつ、臨機応変に間をつないでくれたから助かったよ」と感謝しています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l08.q030",
+      "lessonId": "n3.l08",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "野村さんは今回のトラブルを反省して、次回どうすることにしましたか。",
+      "choices": [
+        "必ず有線LANケーブルを接続して本番に臨むことにした。",
+        "オンラインでの説明会を二度と引き受けないことにした。",
+        "スライド資料の作成をやめることにした。",
+        "パソコンの代わりに紙の書類を郵送することにした。"
+      ],
+      "answer": "必ず有線LANケーブルを接続して本番に臨むことにした。",
+      "acceptedAnswers": [
+        "必ず有線LANケーブルを接続して本番に臨むことにした。"
+      ],
+      "explanation": "野村は「今回のトラブルを反省しつつ、次回からは有線LANケーブルを必ず接続して本番に臨むことにするよ」と宣言しています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l08.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

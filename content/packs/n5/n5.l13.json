@@ -1,0 +1,1591 @@
+{
+  "id": "n5.l13",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 13,
+  "title": "Comparisons (より・のほうが)",
+  "description": "Make comparisons between two items with [A] は [B] より [Adj] です, choose between alternatives with どちらが, and express superlatives with [Group] の中で 〜が 一番.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l13.v001",
+      "lessonId": "n5.l13",
+      "ja": "より",
+      "kana": "より",
+      "en": "Than (comparison)",
+      "my": "ထက် (နှိုင်းယှဉ်ချက်)",
+      "pos": "particle",
+      "exampleSentenceId": "n5.l13.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.v002",
+      "lessonId": "n5.l13",
+      "ja": "ほう",
+      "kana": "ほう",
+      "en": "Side / Alternative (〜のほうが)",
+      "my": "ဘက်က (ပို၍)",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l13.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.v003",
+      "lessonId": "n5.l13",
+      "ja": "どちら",
+      "kana": "どちら",
+      "en": "Which of two",
+      "my": "ဘယ်ဟာ / ဘယ်ဘက် (နှစ်ခုအနက်)",
+      "pos": "pronoun",
+      "exampleSentenceId": "n5.l13.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.v004",
+      "lessonId": "n5.l13",
+      "ja": "どちらも",
+      "kana": "どちらも",
+      "en": "Both (neither in negative)",
+      "my": "နှစ်ခုစလုံး",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l13.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.v005",
+      "lessonId": "n5.l13",
+      "ja": "一番",
+      "kana": "いちばん",
+      "en": "The most / Number one",
+      "my": "အ...ဆုံး / နံပါတ်တစ်",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l13.s003",
+      "kanjiIds": [
+        "n5.l13.k004"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.v006",
+      "lessonId": "n5.l13",
+      "ja": "ずっと",
+      "kana": "ずっと",
+      "en": "By far / Much more",
+      "my": "အများကြီးပို၍",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l13.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.v007",
+      "lessonId": "n5.l13",
+      "ja": "季節",
+      "kana": "きせつ",
+      "en": "Season",
+      "my": "ရာသီ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l13.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.v008",
+      "lessonId": "n5.l13",
+      "ja": "春",
+      "kana": "はる",
+      "en": "Spring",
+      "my": "နွေဦးရာသီ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l13.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.v009",
+      "lessonId": "n5.l13",
+      "ja": "夏",
+      "kana": "なつ",
+      "en": "Summer",
+      "my": "နွေရာသီ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l13.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.v010",
+      "lessonId": "n5.l13",
+      "ja": "秋",
+      "kana": "あき",
+      "en": "Autumn / Fall",
+      "my": "ဆောင်းဦးရာသီ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l13.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.v011",
+      "lessonId": "n5.l13",
+      "ja": "冬",
+      "kana": "ふゆ",
+      "en": "Winter",
+      "my": "ဆောင်းရာသီ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l13.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.v012",
+      "lessonId": "n5.l13",
+      "ja": "速い",
+      "kana": "はやい",
+      "en": "Fast / Quick",
+      "my": "မြန်သော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l13.s006",
+      "kanjiIds": [
+        "n5.l13.k003"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l13.k001",
+      "lessonId": "n5.l13",
+      "char": "近",
+      "meaning": "Near, close",
+      "onyomi": [
+        "キン"
+      ],
+      "kunyomi": [
+        "ちか.い"
+      ],
+      "exampleVocab": [
+        {
+          "word": "近い (ちかい)",
+          "reading": "ちかい",
+          "meaning": "Near / Close",
+          "preview": false
+        },
+        {
+          "word": "近所 (きんじょ)",
+          "reading": "きんじょ",
+          "meaning": "Neighborhood",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l13.s001"
+      ],
+      "components": [
+        "近"
+      ],
+      "strokes": 7,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.k002",
+      "lessonId": "n5.l13",
+      "char": "遠",
+      "meaning": "Far, distant",
+      "onyomi": [
+        "エン",
+        "オン"
+      ],
+      "kunyomi": [
+        "とお.い"
+      ],
+      "exampleVocab": [
+        {
+          "word": "遠い (とおい)",
+          "reading": "とおい",
+          "meaning": "Far / Distant",
+          "preview": false
+        },
+        {
+          "word": "遠足 (えんそく)",
+          "reading": "えんそく",
+          "meaning": "Excursion",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l13.s002"
+      ],
+      "components": [
+        "遠"
+      ],
+      "strokes": 13,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.k003",
+      "lessonId": "n5.l13",
+      "char": "速",
+      "meaning": "Fast, quick",
+      "onyomi": [
+        "ソク"
+      ],
+      "kunyomi": [
+        "はや.い",
+        "すみ.やか"
+      ],
+      "exampleVocab": [
+        {
+          "word": "速い (はやい)",
+          "reading": "はやい",
+          "meaning": "Fast / Rapid",
+          "preview": false
+        },
+        {
+          "word": "速度 (そくど)",
+          "reading": "そくど",
+          "meaning": "Speed",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l13.s003"
+      ],
+      "components": [
+        "速"
+      ],
+      "strokes": 10,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.k004",
+      "lessonId": "n5.l13",
+      "char": "番",
+      "meaning": "Number, turn in order",
+      "onyomi": [
+        "バン"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "一番 (いちばん)",
+          "reading": "いちばん",
+          "meaning": "Number one / Most",
+          "preview": false
+        },
+        {
+          "word": "交番 (こうばん)",
+          "reading": "こうばん",
+          "meaning": "Police box",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l13.s004"
+      ],
+      "components": [
+        "番"
+      ],
+      "strokes": 12,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l13.g001",
+      "lessonId": "n5.l13",
+      "pattern": "[A] は [B] より [Adj] です",
+      "meaning": "[A] is more [Adjective] than [B]",
+      "formation": "Item A + は + Item B + より + Adjective + です",
+      "explanation": {
+        "en": "Compares two entities. Item A has a higher degree of the quality than Item B: 新幹線はバスより速いです (The bullet train is faster than a bus).",
+        "my": "A သည် B ထက် ပို၍ [နာမဝိသေသန] ဖြစ်သည်ဟု နှိုင်းယှဉ်ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l13.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l13.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse the order: the one possessing more of the adjective comes before は."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.g002",
+      "lessonId": "n5.l13",
+      "pattern": "[Category] の中で [Item] が 一番 [Adj] です",
+      "meaning": "Among [Category], [Item] is the most [Adjective]",
+      "formation": "Category (1年 / 家族 / スポーツ) + の中で + 何/誰/どこ + が 一番 + Adj + ですか",
+      "explanation": {
+        "en": "Expresses superlatives within a group of three or more: 一年の中で春が一番好きです (Among all seasons in the year, I like spring the most).",
+        "my": "အစုအဖွဲ့တစ်ခုအတွင်း အသာလွန်ဆုံးအရာကို 「〜の中で〜が一番...」 ဖြင့် သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l13.s003",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l13.s005",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "When asking questions, use 何 (what), 誰 (who), どこ (where), or いつ (when) based on category, not どちら (which of two)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l13.s001",
+      "lessonId": "n5.l13",
+      "ja": "新幹線は飛行機より安いです。",
+      "kana": "しんかんせんはひこうきよりやすいです。",
+      "translation": {
+        "en": "The bullet train is cheaper than an airplane.",
+        "my": "ကျည်ဆံရထားက လေယာဉ်ထက် ဈေးသက်သာပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l13.v001"
+      ],
+      "grammarIds": [
+        "n5.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.s002",
+      "lessonId": "n5.l13",
+      "ja": "肉と魚とどちらが好きですか。魚のほうが好きです。",
+      "kana": "にくとさかなとどちらがすきですか。さかなのほうがすきです。",
+      "translation": {
+        "en": "Between meat and fish, which do you prefer? I prefer fish.",
+        "my": "အသားနဲ့ ငါးမှာ ဘယ်ဟာကို ပိုကြိုက်လဲ။ ငါးဘက်ကို ပိုကြိုက်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l13.v002",
+        "n5.l13.v003"
+      ],
+      "grammarIds": [
+        "n5.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.s003",
+      "lessonId": "n5.l13",
+      "ja": "一年の中で春が一番好きです。桜がきれいですから。",
+      "kana": "いちねんのなかではるがいちばんすきです。さくらがきれいですから。",
+      "translation": {
+        "en": "Among the whole year, I like spring the most because cherry blossoms are beautiful.",
+        "my": "တစ်နှစ်ပတ်လုံးမှာ နွေဦးရာသီကို အကြိုက်ဆုံးပါ၊ ချယ်ရီပန်းတွေ လှပလို့ပါ။"
+      },
+      "vocabIds": [
+        "n5.l13.v005",
+        "n5.l13.v008"
+      ],
+      "grammarIds": [
+        "n5.l13.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.s004",
+      "lessonId": "n5.l13",
+      "ja": "この店はあの店よりずっと広いです。",
+      "kana": "このみせはあのみせよりずっとひろいです。",
+      "translation": {
+        "en": "This shop is much more spacious than that shop.",
+        "my": "ဒီဆိုင်က ဟိုဆိုင်ထက် အများကြီး ပိုကျယ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l13.v001",
+        "n5.l13.v006"
+      ],
+      "grammarIds": [
+        "n5.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.s005",
+      "lessonId": "n5.l13",
+      "ja": "スポーツの中でサッカーが一番おもしろいです。",
+      "kana": "すぽーつのなかでさっかーがいちばんおもしろいです。",
+      "translation": {
+        "en": "Among all sports, soccer is the most interesting.",
+        "my": "အားကစားတွေထဲမှာ ဘောလုံးကစားနည်းက အစိတ်ဝင်စားဆုံး ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l13.v005"
+      ],
+      "grammarIds": [
+        "n5.l13.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.s006",
+      "lessonId": "n5.l13",
+      "ja": "電車と地下鉄とどちらが速いですか。どちらも同じくらいです。",
+      "kana": "でんしゃとちかてつとどちらがはやいですか。どちらもおなじくらいです。",
+      "translation": {
+        "en": "Which is faster, the train or the subway? Both are about the same.",
+        "my": "ရထားနဲ့ မြေအောက်ရထား ဘယ်ဟာက ပိုမြန်လဲ။ နှစ်ခုစလုံး အတူတူလောက်ပါပဲ။"
+      },
+      "vocabIds": [
+        "n5.l13.v003",
+        "n5.l13.v004",
+        "n5.l13.v012"
+      ],
+      "grammarIds": [
+        "n5.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.s007",
+      "lessonId": "n5.l13",
+      "ja": "これは季節です。",
+      "kana": "これはきせつです。",
+      "translation": {
+        "en": "This is a season.",
+        "my": "ဒါဟာ ရာသီ ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l13.v007"
+      ],
+      "grammarIds": [
+        "n5.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.s008",
+      "lessonId": "n5.l13",
+      "ja": "これは夏です。",
+      "kana": "これはなつです。",
+      "translation": {
+        "en": "This is a summer.",
+        "my": "ဒါဟာ နွေရာသီ ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l13.v009"
+      ],
+      "grammarIds": [
+        "n5.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.s009",
+      "lessonId": "n5.l13",
+      "ja": "これは秋です。",
+      "kana": "これはあきです。",
+      "translation": {
+        "en": "This is a autumn / fall.",
+        "my": "ဒါဟာ ဆောင်းဦးရာသီ ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l13.v010"
+      ],
+      "grammarIds": [
+        "n5.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l13.s010",
+      "lessonId": "n5.l13",
+      "ja": "これは冬です。",
+      "kana": "これはふゆです。",
+      "translation": {
+        "en": "This is a winter.",
+        "my": "ဒါဟာ ဆောင်းရာသီ ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l13.v011"
+      ],
+      "grammarIds": [
+        "n5.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l13.r01",
+    "lessonId": "n5.l13",
+    "title": "Comparisons (より・のほうが) - 読解",
+    "level": "N5",
+    "text": "日本には春、夏、秋、冬の四つの季節があります。夏はとても暑くて雨が多いですが、海や花火大会が楽しいです。冬は寒くて雪が降ります。私は一年の中で秋が一番好きです。紅葉が山を赤く染めて、とても美しいです。涼しいですから、散歩や旅行にも最適です。",
+    "kanaText": "にほんにははる、なつ、あき、ふゆのよっつのきせつがあります。なつはとてもあつくてあめがおおいですが、うみやはなびたいかいがたのしいです。ふゆはさむくてゆきがふります。わたしはいちねんのなかであきがいちばんすきです。こうようがやまをあかくそめて、とてもうつくしいです。すずしいですから、さんぽやりょこうにもさいてきです。",
+    "translation": "In Japan, there are four seasons: spring, summer, autumn, and winter. Summer is very hot and rainy, but the ocean and fireworks displays are fun. Winter is cold and snow falls. Among the whole year, I like autumn the best. The autumn foliage dyes the mountains red and is very beautiful. Because it is cool, it is also ideal for walking and traveling.",
+    "questionIds": [
+      "n5.l13.q021",
+      "n5.l13.q022",
+      "n5.l13.q023",
+      "n5.l13.q024",
+      "n5.l13.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l13.l01",
+    "lessonId": "n5.l13",
+    "title": "Comparisons (より・のほうが) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "佐藤",
+      "田中"
+    ],
+    "transcript": "佐藤：田中さん、来月広島へ行きますね。新幹線と飛行機と、どちらで行きますか。\n田中：新幹線のほうがいいですね。飛行機のほうが速いですが、空港まで遠いですから。\n佐藤：確かに新幹線のほうが東京駅から乗れて便利ですね。値段はどうですか。\n田中：値段はだいたい同じくらいですよ。だから新幹線にします。",
+    "translation": "Two friends compare traveling to Hiroshima by bullet train versus airplane.",
+    "turns": [
+      {
+        "speaker": "佐藤",
+        "ja": "田中さん、来月広島へ行きますね。新幹線と飛行機と、どちらで行きますか。",
+        "kana": "たなかさん、らいげつひろしまへいきますね。しんかんせんとひこうきと、どちらでいきますか。",
+        "en": "Tanaka-san, you are going to Hiroshima next month. Will you go by Shinkansen or airplane?"
+      },
+      {
+        "speaker": "田中",
+        "ja": "新幹線のほうがいいですね。飛行機のほうが速いですが、空港まで遠いですから。",
+        "kana": "しんかんせんのほうがいいですね。ひこうきのほうがはやいですが、くうこうまでとおいですから。",
+        "en": "The Shinkansen is better. An airplane is faster, but the airport is far."
+      },
+      {
+        "speaker": "佐藤",
+        "ja": "確かに新幹線のほうが東京駅から乗れて便利ですね。値段はどうですか。",
+        "kana": "たしかにしんかんせんのほうがとうきょうえきからのれてべんりですね。ねだんはどうですか。",
+        "en": "Indeed, the Shinkansen is convenient since you can board right from Tokyo Station. What about the price?"
+      },
+      {
+        "speaker": "田中",
+        "ja": "値段はだいたい同じくらいですよ。だから新幹線にします。",
+        "kana": "ねだんはだいたいおなじくらいですよ。だからしんかんせんにします。",
+        "en": "The prices are about the same. So I will take the Shinkansen."
+      }
+    ],
+    "questionIds": [
+      "n5.l13.q026",
+      "n5.l13.q027",
+      "n5.l13.q028",
+      "n5.l13.q029",
+      "n5.l13.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l13.q001",
+      "lessonId": "n5.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「より」の意味は何ですか。 (What does 「より」 mean?)",
+      "choices": [
+        "Than (comparison)",
+        "Side / Alternative (〜のほうが)",
+        "Which of two",
+        "Both (neither in negative)"
+      ],
+      "answer": "Than (comparison)",
+      "acceptedAnswers": [
+        "Than (comparison)"
+      ],
+      "explanation": "「より」(より) means \"Than (comparison)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q002",
+      "lessonId": "n5.l13",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Side / Alternative (〜のほうが)\" in hiragana:",
+      "answer": "ほう",
+      "acceptedAnswers": [
+        "ほう",
+        "ほう"
+      ],
+      "explanation": "The Japanese word for \"Side / Alternative (〜のほうが)\" is ほう (ほう).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q003",
+      "lessonId": "n5.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「どちら」の意味は何ですか。 (What does 「どちら」 mean?)",
+      "choices": [
+        "By far / Much more",
+        "The most / Number one",
+        "Both (neither in negative)",
+        "Which of two"
+      ],
+      "answer": "Which of two",
+      "acceptedAnswers": [
+        "Which of two"
+      ],
+      "explanation": "「どちら」(どちら) means \"Which of two\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q004",
+      "lessonId": "n5.l13",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Both (neither in negative)\" in hiragana:",
+      "answer": "どちらも",
+      "acceptedAnswers": [
+        "どちらも",
+        "どちらも"
+      ],
+      "explanation": "The Japanese word for \"Both (neither in negative)\" is どちらも (どちらも).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q005",
+      "lessonId": "n5.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「一番」の意味は何ですか。 (What does 「一番」 mean?)",
+      "choices": [
+        "Spring",
+        "Season",
+        "By far / Much more",
+        "The most / Number one"
+      ],
+      "answer": "The most / Number one",
+      "acceptedAnswers": [
+        "The most / Number one"
+      ],
+      "explanation": "「一番」(いちばん) means \"The most / Number one\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q006",
+      "lessonId": "n5.l13",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"By far / Much more\" in hiragana:",
+      "answer": "ずっと",
+      "acceptedAnswers": [
+        "ずっと",
+        "ずっと"
+      ],
+      "explanation": "The Japanese word for \"By far / Much more\" is ずっと (ずっと).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q007",
+      "lessonId": "n5.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「季節」の意味は何ですか。 (What does 「季節」 mean?)",
+      "choices": [
+        "Season",
+        "Spring",
+        "Summer",
+        "Autumn / Fall"
+      ],
+      "answer": "Season",
+      "acceptedAnswers": [
+        "Season"
+      ],
+      "explanation": "「季節」(きせつ) means \"Season\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q008",
+      "lessonId": "n5.l13",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Spring\" in hiragana:",
+      "answer": "はる",
+      "acceptedAnswers": [
+        "はる",
+        "春"
+      ],
+      "explanation": "The Japanese word for \"Spring\" is 春 (はる).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q009",
+      "lessonId": "n5.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「夏」の意味は何ですか。 (What does 「夏」 mean?)",
+      "choices": [
+        "Fast / Quick",
+        "Winter",
+        "Autumn / Fall",
+        "Summer"
+      ],
+      "answer": "Summer",
+      "acceptedAnswers": [
+        "Summer"
+      ],
+      "explanation": "「夏」(なつ) means \"Summer\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q010",
+      "lessonId": "n5.l13",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Autumn / Fall\" in hiragana:",
+      "answer": "あき",
+      "acceptedAnswers": [
+        "あき",
+        "秋"
+      ],
+      "explanation": "The Japanese word for \"Autumn / Fall\" is 秋 (あき).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q011",
+      "lessonId": "n5.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「冬」の意味は何ですか。 (What does 「冬」 mean?)",
+      "choices": [
+        "Side / Alternative (〜のほうが)",
+        "Than (comparison)",
+        "Fast / Quick",
+        "Winter"
+      ],
+      "answer": "Winter",
+      "acceptedAnswers": [
+        "Winter"
+      ],
+      "explanation": "「冬」(ふゆ) means \"Winter\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q012",
+      "lessonId": "n5.l13",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Fast / Quick\" in hiragana:",
+      "answer": "はやい",
+      "acceptedAnswers": [
+        "はやい",
+        "速い"
+      ],
+      "explanation": "The Japanese word for \"Fast / Quick\" is 速い (はやい).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q013",
+      "lessonId": "n5.l13",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「近」の意味は何ですか。 (What is the meaning of kanji 「近」?)",
+      "choices": [
+        "Near, close",
+        "Far, distant",
+        "Fast, quick",
+        "Tree"
+      ],
+      "answer": "Near, close",
+      "acceptedAnswers": [
+        "Near, close"
+      ],
+      "explanation": "「近」means \"Near, close\". Onyomi: キン, Kunyomi: ちか.い.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q014",
+      "lessonId": "n5.l13",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「近」の読み方はどれですか。 (Which is a correct reading for 「近」?)",
+      "choices": [
+        "ちか.い",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "ちか.い",
+      "acceptedAnswers": [
+        "ちか.い"
+      ],
+      "explanation": "「近」 has the reading 「ちか.い」 (Near, close).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q015",
+      "lessonId": "n5.l13",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「遠」の意味は何ですか。 (What is the meaning of kanji 「遠」?)",
+      "choices": [
+        "Far, distant",
+        "Near, close",
+        "Fast, quick",
+        "Tree"
+      ],
+      "answer": "Far, distant",
+      "acceptedAnswers": [
+        "Far, distant"
+      ],
+      "explanation": "「遠」means \"Far, distant\". Onyomi: エン, オン, Kunyomi: とお.い.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q016",
+      "lessonId": "n5.l13",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「遠」の読み方はどれですか。 (Which is a correct reading for 「遠」?)",
+      "choices": [
+        "とお.い",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "とお.い",
+      "acceptedAnswers": [
+        "とお.い"
+      ],
+      "explanation": "「遠」 has the reading 「とお.い」 (Far, distant).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q017",
+      "lessonId": "n5.l13",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「速」の意味は何ですか。 (What is the meaning of kanji 「速」?)",
+      "choices": [
+        "Fast, quick",
+        "Near, close",
+        "Far, distant",
+        "Tree"
+      ],
+      "answer": "Fast, quick",
+      "acceptedAnswers": [
+        "Fast, quick"
+      ],
+      "explanation": "「速」means \"Fast, quick\". Onyomi: ソク, Kunyomi: はや.い, すみ.やか.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q018",
+      "lessonId": "n5.l13",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「速」の読み方はどれですか。 (Which is a correct reading for 「速」?)",
+      "choices": [
+        "はや.い",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "はや.い",
+      "acceptedAnswers": [
+        "はや.い"
+      ],
+      "explanation": "「速」 has the reading 「はや.い」 (Fast, quick).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q019",
+      "lessonId": "n5.l13",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「番」の意味は何ですか。 (What is the meaning of kanji 「番」?)",
+      "choices": [
+        "Number, turn in order",
+        "Near, close",
+        "Far, distant",
+        "Tree"
+      ],
+      "answer": "Number, turn in order",
+      "acceptedAnswers": [
+        "Number, turn in order"
+      ],
+      "explanation": "「番」means \"Number, turn in order\". Onyomi: バン, Kunyomi: —.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q020",
+      "lessonId": "n5.l13",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「番」の読み方はどれですか。 (Which is a correct reading for 「番」?)",
+      "choices": [
+        "バン",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "バン",
+      "acceptedAnswers": [
+        "バン"
+      ],
+      "explanation": "「番」 has the reading 「バン」 (Number, turn in order).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q021",
+      "lessonId": "n5.l13",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者はどの季節が一番好きですか。 (Which season does the author like the most?)",
+      "choices": [
+        "秋",
+        "春",
+        "夏",
+        "冬"
+      ],
+      "answer": "秋",
+      "acceptedAnswers": [
+        "秋"
+      ],
+      "explanation": "「私は一年の中で秋が一番好きです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q022",
+      "lessonId": "n5.l13",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "秋が好きな理由は何ですか。 (Why does the author like autumn?)",
+      "choices": [
+        "紅葉が美しくて涼しいから",
+        "海に行けるから",
+        "雪で遊べるから",
+        "桜が咲くから"
+      ],
+      "answer": "紅葉が美しくて涼しいから",
+      "acceptedAnswers": [
+        "紅葉が美しくて涼しいから"
+      ],
+      "explanation": "The text highlights the red foliage and pleasant cool weather for walks.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q023",
+      "lessonId": "n5.l13",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "夏にはどんな楽しみがありますか。 (What fun activities happen in summer?)",
+      "choices": [
+        "海や花火大会",
+        "スキーや温泉",
+        "お花見",
+        "雪まつり"
+      ],
+      "answer": "海や花火大会",
+      "acceptedAnswers": [
+        "海や花火大会"
+      ],
+      "explanation": "「海や花火大会が楽しいです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q024",
+      "lessonId": "n5.l13",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "冬の気候はどうですか。 (How is winter described?)",
+      "choices": [
+        "寒くて雪が降る",
+        "暖かくて雨が多い",
+        "涼しくて快適",
+        "蒸し暑い"
+      ],
+      "answer": "寒くて雪が降る",
+      "acceptedAnswers": [
+        "寒くて雪が降る"
+      ],
+      "explanation": "「冬は寒くて雪が降ります」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q025",
+      "lessonId": "n5.l13",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "日本には季節がいくつありますか。 (How many seasons are there in Japan?)",
+      "choices": [
+        "四つ (四季)",
+        "二つ (乾季と雨季)",
+        "三つ",
+        "一つだけ"
+      ],
+      "answer": "四つ (四季)",
+      "acceptedAnswers": [
+        "四つ (四季)"
+      ],
+      "explanation": "「春、夏、秋、冬の四つの季節があります」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q026",
+      "lessonId": "n5.l13",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "田中さんはどちらの乗り物を選びましたか。 (Which transport did Tanaka choose?)",
+      "choices": [
+        "新幹線",
+        "飛行機",
+        "夜行バス",
+        "レンタカー"
+      ],
+      "answer": "新幹線",
+      "acceptedAnswers": [
+        "新幹線"
+      ],
+      "explanation": "Tanaka decides: 「新幹線のほうがいいですね」「新幹線にします」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q027",
+      "lessonId": "n5.l13",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "飛行機を選ばなかった理由は何ですか。 (Why didn't Tanaka choose the airplane?)",
+      "choices": [
+        "空港まで遠いから",
+        "値段が高すぎるから",
+        "怖いから",
+        "時間がかかりすぎるから"
+      ],
+      "answer": "空港まで遠いから",
+      "acceptedAnswers": [
+        "空港まで遠いから"
+      ],
+      "explanation": "Tanaka explains: 「空港まで遠いですから」 (Because the airport is far).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q028",
+      "lessonId": "n5.l13",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "新幹線の長所は何ですか。 (What advantage of the Shinkansen was mentioned?)",
+      "choices": [
+        "東京駅から直接乗れて便利",
+        "飛行機よりずっと安い",
+        "一番速い",
+        "車内が広い"
+      ],
+      "answer": "東京駅から直接乗れて便利",
+      "acceptedAnswers": [
+        "東京駅から直接乗れて便利"
+      ],
+      "explanation": "Sato agrees: 「東京駅から乗れて便利ですね」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q029",
+      "lessonId": "n5.l13",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "値段の差はどうでしたか。 (How did the prices compare?)",
+      "choices": [
+        "だいたい同じくらい",
+        "新幹線が半額",
+        "飛行機がずっと安い",
+        "無料"
+      ],
+      "answer": "だいたい同じくらい",
+      "acceptedAnswers": [
+        "だいたい同じくらい"
+      ],
+      "explanation": "Tanaka notes: 「値段はだいたい同じくらいですよ」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l13.q030",
+      "lessonId": "n5.l13",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "二人はどこへ行く予定について話していますか。 (Where is the planned trip to?)",
+      "choices": [
+        "広島",
+        "大阪",
+        "福岡",
+        "名古屋"
+      ],
+      "answer": "広島",
+      "acceptedAnswers": [
+        "広島"
+      ],
+      "explanation": "Sato begins with: 「来月広島へ行きますね」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l13.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

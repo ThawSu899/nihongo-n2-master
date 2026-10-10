@@ -1,0 +1,1544 @@
+{
+  "id": "n5.l04",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 4,
+  "title": "Time, Dates, and Schedules (何時・何日)",
+  "description": "Learn to ask and tell the time (~時, ~分), express time ranges with 〜から〜まで, identify days of the week, and coordinate daily study schedules.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l04.v001",
+      "lessonId": "n5.l04",
+      "ja": "今",
+      "kana": "いま",
+      "en": "Now",
+      "my": "အခု",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l04.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.v002",
+      "lessonId": "n5.l04",
+      "ja": "何時",
+      "kana": "なんじ",
+      "en": "What time",
+      "my": "ဘယ်အချိန် / ဘယ်နှစ်နာရီ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l04.s002",
+      "kanjiIds": [
+        "n5.l04.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.v003",
+      "lessonId": "n5.l04",
+      "ja": "何分",
+      "kana": "なんぷん",
+      "en": "What minute",
+      "my": "ဘယ်နှစ်မိနစ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l04.s007",
+      "kanjiIds": [
+        "n5.l04.k002"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.v004",
+      "lessonId": "n5.l04",
+      "ja": "半",
+      "kana": "はん",
+      "en": "Half (e.g. 9:30)",
+      "my": "ခွဲ (ကိုးနာရီခွဲ)",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l04.s001",
+      "kanjiIds": [
+        "n5.l04.k003"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.v005",
+      "lessonId": "n5.l04",
+      "ja": "午前",
+      "kana": "ごぜん",
+      "en": "A.M. / Morning",
+      "my": "မနက်ပိုင်း (AM)",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l04.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.v006",
+      "lessonId": "n5.l04",
+      "ja": "午後",
+      "kana": "ごご",
+      "en": "P.M. / Afternoon",
+      "my": "ညနေပိုင်း (PM)",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l04.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.v007",
+      "lessonId": "n5.l04",
+      "ja": "朝",
+      "kana": "あさ",
+      "en": "Morning",
+      "my": "မနက်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l04.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.v008",
+      "lessonId": "n5.l04",
+      "ja": "昼",
+      "kana": "ひる",
+      "en": "Noon / Daytime",
+      "my": "နေ့လယ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l04.s008",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.v009",
+      "lessonId": "n5.l04",
+      "ja": "晩",
+      "kana": "ばん",
+      "en": "Evening / Night",
+      "my": "ညနေ / ည",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l04.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.v010",
+      "lessonId": "n5.l04",
+      "ja": "月曜日",
+      "kana": "げつようび",
+      "en": "Monday",
+      "my": "တနင်္လာနေ့",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l04.s005",
+      "kanjiIds": [
+        "n5.l04.k004"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.v011",
+      "lessonId": "n5.l04",
+      "ja": "休み",
+      "kana": "やすみ",
+      "en": "Rest / Day off",
+      "my": "နားရက် / ပိတ်ရက်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l04.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.v012",
+      "lessonId": "n5.l04",
+      "ja": "試験",
+      "kana": "しけん",
+      "en": "Exam / Test",
+      "my": "စာမေးပွဲ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l04.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l04.k001",
+      "lessonId": "n5.l04",
+      "char": "時",
+      "meaning": "Time, hour",
+      "onyomi": [
+        "ジ"
+      ],
+      "kunyomi": [
+        "とき"
+      ],
+      "exampleVocab": [
+        {
+          "word": "時間 (じかん)",
+          "reading": "じかん",
+          "meaning": "Time",
+          "preview": false
+        },
+        {
+          "word": "何時 (なんじ)",
+          "reading": "なんじ",
+          "meaning": "What time",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l04.s001"
+      ],
+      "components": [
+        "時"
+      ],
+      "strokes": 10,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.k002",
+      "lessonId": "n5.l04",
+      "char": "分",
+      "meaning": "Minute, divide",
+      "onyomi": [
+        "フン",
+        "ブン"
+      ],
+      "kunyomi": [
+        "わ.ける",
+        "わ.かる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "五分 (ごふん)",
+          "reading": "ごふん",
+          "meaning": "5 minutes",
+          "preview": false
+        },
+        {
+          "word": "半分 (はんぶん)",
+          "reading": "はんぶん",
+          "meaning": "Half",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l04.s002"
+      ],
+      "components": [
+        "分"
+      ],
+      "strokes": 4,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.k003",
+      "lessonId": "n5.l04",
+      "char": "半",
+      "meaning": "Half",
+      "onyomi": [
+        "ハン"
+      ],
+      "kunyomi": [
+        "なか.ば"
+      ],
+      "exampleVocab": [
+        {
+          "word": "九時半 (くじはん)",
+          "reading": "くじはん",
+          "meaning": "9:30",
+          "preview": false
+        },
+        {
+          "word": "半年 (はんとし)",
+          "reading": "はんとし",
+          "meaning": "Half a year",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l04.s003"
+      ],
+      "components": [
+        "半"
+      ],
+      "strokes": 5,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.k004",
+      "lessonId": "n5.l04",
+      "char": "月",
+      "meaning": "Month, moon",
+      "onyomi": [
+        "ゲツ",
+        "ガツ"
+      ],
+      "kunyomi": [
+        "つき"
+      ],
+      "exampleVocab": [
+        {
+          "word": "月曜日 (げつようび)",
+          "reading": "げつようび",
+          "meaning": "Monday",
+          "preview": false
+        },
+        {
+          "word": "一月 (いちがつ)",
+          "reading": "いちがつ",
+          "meaning": "January",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l04.s004"
+      ],
+      "components": [
+        "月"
+      ],
+      "strokes": 4,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l04.g001",
+      "lessonId": "n5.l04",
+      "pattern": "今 [Time] です",
+      "meaning": "It is [Time] right now",
+      "formation": "今 + Hour (時) + Minute (分) + です",
+      "explanation": {
+        "en": "Tells the current time. Pay attention to phonetic changes: 4時 (よじ, NOT しじ), 9時 (くじ, NOT きゅうじ), and minutes (1分 いっぷん, 3分 さんぷん, 6分 ろっぷん).",
+        "my": "လတ်တလောအချိန်ကို ဖော်ပြသည်။ ၄ နာရီကို 「よじ」၊ ၉ နာရီကို 「くじ」 ဟု အသံပြောင်းလဲထွက်ရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l04.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l04.s004",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do NOT say *しじ for 4:00 or *きゅうじ for 9:00. Always say よじ and くじ."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.g002",
+      "lessonId": "n5.l04",
+      "pattern": "[Time/Day] から [Time/Day] まで",
+      "meaning": "From [Time/Day] to [Time/Day]",
+      "formation": "Start Time/Day + から + End Time/Day + まで",
+      "explanation": {
+        "en": "Expresses starting and ending boundaries of a schedule, office hours, or study block.",
+        "my": "အချိန် သို့မဟုတ် နေ့ရက်၏ စတင်ချိန်နှင့် ပြီးဆုံးချိန်ကို 「〜から〜まで」 (မှ... အထိ) ဟု သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l04.s002",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l04.s003",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "から and まで can be used independently (e.g. 9時から働きます = I work from 9:00)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l04.s001",
+      "lessonId": "n5.l04",
+      "ja": "今、午前九時半です。",
+      "kana": "いま、ごぜんくじはんです。",
+      "translation": {
+        "en": "It is 9:30 AM right now.",
+        "my": "အခု မနက် ကိုးနာရီခွဲ ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l04.v001",
+        "n5.l04.v004",
+        "n5.l04.v005"
+      ],
+      "grammarIds": [
+        "n5.l04.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.s002",
+      "lessonId": "n5.l04",
+      "ja": "日本語の授業は何時から何時までですか。",
+      "kana": "にほんごのじゅぎょうはなんじからなんじまでですか。",
+      "translation": {
+        "en": "From what time to what time is the Japanese class?",
+        "my": "ဂျပန်စာအတန်းက ဘယ်အချိန်ကနေ ဘယ်အချိန်အထိလဲ။"
+      },
+      "vocabIds": [
+        "n5.l04.v002"
+      ],
+      "grammarIds": [
+        "n5.l04.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.s003",
+      "lessonId": "n5.l04",
+      "ja": "授業は午前九時から午後三時までです。",
+      "kana": "じゅぎょうはごぜんくじからごごさんじまでです。",
+      "translation": {
+        "en": "The class is from 9:00 AM to 3:00 PM.",
+        "my": "အတန်းက မနက် ၉ နာရီကနေ ညနေ ၃ နာရီအထိ ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l04.v005",
+        "n5.l04.v006"
+      ],
+      "grammarIds": [
+        "n5.l04.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.s004",
+      "lessonId": "n5.l04",
+      "ja": "銀行の休みは土曜日と日曜日です。",
+      "kana": "ぎんこうのやすみはどようびとにちようびです。",
+      "translation": {
+        "en": "The bank's days off are Saturday and Sunday.",
+        "my": "ဘဏ်ပိတ်ရက်က စနေနဲ့ တနင်္ဂနွေ ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l04.v011"
+      ],
+      "grammarIds": [
+        "n5.l04.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.s005",
+      "lessonId": "n5.l04",
+      "ja": "試験は月曜日の朝十時からです。",
+      "kana": "しけんはげつようびのあさじゅうじからです。",
+      "translation": {
+        "en": "The examination starts at 10:00 AM on Monday.",
+        "my": "စာမေးပွဲက တနင်္လာနေ့ မနက် ၁၀ နာရီကနေ စတင်ပါမယ်။"
+      },
+      "vocabIds": [
+        "n5.l04.v007",
+        "n5.l04.v010",
+        "n5.l04.v012"
+      ],
+      "grammarIds": [
+        "n5.l04.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.s006",
+      "lessonId": "n5.l04",
+      "ja": "毎晩、八時から十一時まで日本語を勉強します。",
+      "kana": "まいばん、はちじからじゅういちじまでにほんごをべんきょうします。",
+      "translation": {
+        "en": "Every night, I study Japanese from 8:00 to 11:00.",
+        "my": "ညတိုင်း ၈ နာရီကနေ ၁၁ နာရီအထိ ဂျပန်စာ လေ့လာပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l04.v009"
+      ],
+      "grammarIds": [
+        "n5.l04.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.s007",
+      "lessonId": "n5.l04",
+      "ja": "これは何分です。",
+      "kana": "これはなんぷんです。",
+      "translation": {
+        "en": "This is a what minute.",
+        "my": "ဒါဟာ ဘယ်နှစ်မိနစ် ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l04.v003"
+      ],
+      "grammarIds": [
+        "n5.l04.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l04.s008",
+      "lessonId": "n5.l04",
+      "ja": "これは昼です。",
+      "kana": "これはひるです。",
+      "translation": {
+        "en": "This is a noon / daytime.",
+        "my": "ဒါဟာ နေ့လယ် ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l04.v008"
+      ],
+      "grammarIds": [
+        "n5.l04.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l04.r01",
+    "lessonId": "n5.l04",
+    "title": "Time, Dates, and Schedules (何時・何日) - 読解",
+    "level": "N5",
+    "text": "私は毎日六時に起きます。朝ご飯は七時です。学校は午前九時から始まります。授業は午後三時までです。月曜日から金曜日まで毎日勉強します。土曜日と日曜日は学校の休みです。毎晩八時から十時まで日本語を復習します。",
+    "kanaText": "わたしはまいにちろくじにおきます。あさごはんはしちじです。がっこうはごぜんくじからはじまります。じゅぎょうはごごさんじまでです。げつようびからきんようびまでまいにちべんきょうします。どようびとにちようびはがっこうのやすみです。まいばんはちじからじゅうじまでにほんごをふくしゅうします。",
+    "translation": "I wake up at 6:00 every day. Breakfast is at 7:00. School starts at 9:00 AM. Classes run until 3:00 PM. I study every day from Monday through Friday. Saturday and Sunday are school days off. Every night, I review Japanese from 8:00 to 10:00.",
+    "questionIds": [
+      "n5.l04.q021",
+      "n5.l04.q022",
+      "n5.l04.q023",
+      "n5.l04.q024",
+      "n5.l04.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l04.l01",
+    "lessonId": "n5.l04",
+    "title": "Time, Dates, and Schedules (何時・何日) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "利用者",
+      "職員"
+    ],
+    "transcript": "利用者：すみません、こちらの図書館は何時から何時までですか。\n職員：平日は午前九時から午後八時までです。\n利用者：土曜日はどうですか。\n職員：土曜日は午前九時から午後五時までです。日曜日は休みです。",
+    "translation": "A learner asks a librarian about the library's opening hours and weekend schedule.",
+    "turns": [
+      {
+        "speaker": "利用者",
+        "ja": "すみません、こちらの図書館は何時から何時までですか。",
+        "kana": "すみません、こちらのとしょかんはなんじからなんじまでですか。",
+        "en": "Excuse me, what are the library's hours from opening to closing?"
+      },
+      {
+        "speaker": "職員",
+        "ja": "平日は午前九時から午後八時までです。",
+        "kana": "へいじつはごぜんくじからごごはちじまでです。",
+        "en": "On weekdays, it is open from 9:00 AM to 8:00 PM."
+      },
+      {
+        "speaker": "利用者",
+        "ja": "土曜日はどうですか。",
+        "kana": "どようびはどうですか。",
+        "en": "How about Saturdays?"
+      },
+      {
+        "speaker": "職員",
+        "ja": "土曜日は午前九時から午後五時までです。日曜日は休みです。",
+        "kana": "どようびはごぜんくじからごごごじまでです。にちようびはやすみです。",
+        "en": "On Saturdays, it is open from 9:00 AM to 5:00 PM. We are closed on Sundays."
+      }
+    ],
+    "questionIds": [
+      "n5.l04.q026",
+      "n5.l04.q027",
+      "n5.l04.q028",
+      "n5.l04.q029",
+      "n5.l04.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l04.q001",
+      "lessonId": "n5.l04",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「今」の意味は何ですか。 (What does 「今」 mean?)",
+      "choices": [
+        "Now",
+        "What time",
+        "What minute",
+        "Half (e.g. 9:30)"
+      ],
+      "answer": "Now",
+      "acceptedAnswers": [
+        "Now"
+      ],
+      "explanation": "「今」(いま) means \"Now\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q002",
+      "lessonId": "n5.l04",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"What time\" in hiragana:",
+      "answer": "なんじ",
+      "acceptedAnswers": [
+        "なんじ",
+        "何時"
+      ],
+      "explanation": "The Japanese word for \"What time\" is 何時 (なんじ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q003",
+      "lessonId": "n5.l04",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「何分」の意味は何ですか。 (What does 「何分」 mean?)",
+      "choices": [
+        "P.M. / Afternoon",
+        "A.M. / Morning",
+        "Half (e.g. 9:30)",
+        "What minute"
+      ],
+      "answer": "What minute",
+      "acceptedAnswers": [
+        "What minute"
+      ],
+      "explanation": "「何分」(なんぷん) means \"What minute\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q004",
+      "lessonId": "n5.l04",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Half (e.g. 9:30)\" in hiragana:",
+      "answer": "はん",
+      "acceptedAnswers": [
+        "はん",
+        "半"
+      ],
+      "explanation": "The Japanese word for \"Half (e.g. 9:30)\" is 半 (はん).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q005",
+      "lessonId": "n5.l04",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「午前」の意味は何ですか。 (What does 「午前」 mean?)",
+      "choices": [
+        "Noon / Daytime",
+        "Morning",
+        "P.M. / Afternoon",
+        "A.M. / Morning"
+      ],
+      "answer": "A.M. / Morning",
+      "acceptedAnswers": [
+        "A.M. / Morning"
+      ],
+      "explanation": "「午前」(ごぜん) means \"A.M. / Morning\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q006",
+      "lessonId": "n5.l04",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"P.M. / Afternoon\" in hiragana:",
+      "answer": "ごご",
+      "acceptedAnswers": [
+        "ごご",
+        "午後"
+      ],
+      "explanation": "The Japanese word for \"P.M. / Afternoon\" is 午後 (ごご).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q007",
+      "lessonId": "n5.l04",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「朝」の意味は何ですか。 (What does 「朝」 mean?)",
+      "choices": [
+        "Morning",
+        "Noon / Daytime",
+        "Evening / Night",
+        "Monday"
+      ],
+      "answer": "Morning",
+      "acceptedAnswers": [
+        "Morning"
+      ],
+      "explanation": "「朝」(あさ) means \"Morning\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q008",
+      "lessonId": "n5.l04",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Noon / Daytime\" in hiragana:",
+      "answer": "ひる",
+      "acceptedAnswers": [
+        "ひる",
+        "昼"
+      ],
+      "explanation": "The Japanese word for \"Noon / Daytime\" is 昼 (ひる).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q009",
+      "lessonId": "n5.l04",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「晩」の意味は何ですか。 (What does 「晩」 mean?)",
+      "choices": [
+        "Exam / Test",
+        "Rest / Day off",
+        "Monday",
+        "Evening / Night"
+      ],
+      "answer": "Evening / Night",
+      "acceptedAnswers": [
+        "Evening / Night"
+      ],
+      "explanation": "「晩」(ばん) means \"Evening / Night\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q010",
+      "lessonId": "n5.l04",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Monday\" in hiragana:",
+      "answer": "げつようび",
+      "acceptedAnswers": [
+        "げつようび",
+        "月曜日"
+      ],
+      "explanation": "The Japanese word for \"Monday\" is 月曜日 (げつようび).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q011",
+      "lessonId": "n5.l04",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「休み」の意味は何ですか。 (What does 「休み」 mean?)",
+      "choices": [
+        "What time",
+        "Now",
+        "Exam / Test",
+        "Rest / Day off"
+      ],
+      "answer": "Rest / Day off",
+      "acceptedAnswers": [
+        "Rest / Day off"
+      ],
+      "explanation": "「休み」(やすみ) means \"Rest / Day off\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q012",
+      "lessonId": "n5.l04",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Exam / Test\" in hiragana:",
+      "answer": "しけん",
+      "acceptedAnswers": [
+        "しけん",
+        "試験"
+      ],
+      "explanation": "The Japanese word for \"Exam / Test\" is 試験 (しけん).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q013",
+      "lessonId": "n5.l04",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「時」の意味は何ですか。 (What is the meaning of kanji 「時」?)",
+      "choices": [
+        "Time, hour",
+        "Minute, divide",
+        "Half",
+        "Tree"
+      ],
+      "answer": "Time, hour",
+      "acceptedAnswers": [
+        "Time, hour"
+      ],
+      "explanation": "「時」means \"Time, hour\". Onyomi: ジ, Kunyomi: とき.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q014",
+      "lessonId": "n5.l04",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「時」の読み方はどれですか。 (Which is a correct reading for 「時」?)",
+      "choices": [
+        "とき",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "とき",
+      "acceptedAnswers": [
+        "とき"
+      ],
+      "explanation": "「時」 has the reading 「とき」 (Time, hour).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q015",
+      "lessonId": "n5.l04",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「分」の意味は何ですか。 (What is the meaning of kanji 「分」?)",
+      "choices": [
+        "Minute, divide",
+        "Time, hour",
+        "Half",
+        "Tree"
+      ],
+      "answer": "Minute, divide",
+      "acceptedAnswers": [
+        "Minute, divide"
+      ],
+      "explanation": "「分」means \"Minute, divide\". Onyomi: フン, ブン, Kunyomi: わ.ける, わ.かる.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q016",
+      "lessonId": "n5.l04",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「分」の読み方はどれですか。 (Which is a correct reading for 「分」?)",
+      "choices": [
+        "わ.ける",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "わ.ける",
+      "acceptedAnswers": [
+        "わ.ける"
+      ],
+      "explanation": "「分」 has the reading 「わ.ける」 (Minute, divide).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q017",
+      "lessonId": "n5.l04",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「半」の意味は何ですか。 (What is the meaning of kanji 「半」?)",
+      "choices": [
+        "Half",
+        "Time, hour",
+        "Minute, divide",
+        "Tree"
+      ],
+      "answer": "Half",
+      "acceptedAnswers": [
+        "Half"
+      ],
+      "explanation": "「半」means \"Half\". Onyomi: ハン, Kunyomi: なか.ば.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q018",
+      "lessonId": "n5.l04",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「半」の読み方はどれですか。 (Which is a correct reading for 「半」?)",
+      "choices": [
+        "なか.ば",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "なか.ば",
+      "acceptedAnswers": [
+        "なか.ば"
+      ],
+      "explanation": "「半」 has the reading 「なか.ば」 (Half).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q019",
+      "lessonId": "n5.l04",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「月」の意味は何ですか。 (What is the meaning of kanji 「月」?)",
+      "choices": [
+        "Month, moon",
+        "Time, hour",
+        "Minute, divide",
+        "Tree"
+      ],
+      "answer": "Month, moon",
+      "acceptedAnswers": [
+        "Month, moon"
+      ],
+      "explanation": "「月」means \"Month, moon\". Onyomi: ゲツ, ガツ, Kunyomi: つき.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q020",
+      "lessonId": "n5.l04",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「月」の読み方はどれですか。 (Which is a correct reading for 「月」?)",
+      "choices": [
+        "つき",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "つき",
+      "acceptedAnswers": [
+        "つき"
+      ],
+      "explanation": "「月」 has the reading 「つき」 (Month, moon).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q021",
+      "lessonId": "n5.l04",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "学校は何時から何時までですか。 (From what time to what time is school?)",
+      "choices": [
+        "午前九時から午後三時まで",
+        "午前八時から午後五時まで",
+        "午前七時から午後三時まで",
+        "午前十時から午後四時まで"
+      ],
+      "answer": "午前九時から午後三時まで",
+      "acceptedAnswers": [
+        "午前九時から午後三時まで"
+      ],
+      "explanation": "「学校は午前九時から始まります。授業は午後三時までです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q022",
+      "lessonId": "n5.l04",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "学校の休みは何曜日ですか。 (Which days are days off?)",
+      "choices": [
+        "土曜日と日曜日",
+        "月曜日と火曜日",
+        "日曜日だけ",
+        "水曜日と金曜日"
+      ],
+      "answer": "土曜日と日曜日",
+      "acceptedAnswers": [
+        "土曜日と日曜日"
+      ],
+      "explanation": "The passage explicitly says: 「土曜日と日曜日は学校の休みです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q023",
+      "lessonId": "n5.l04",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "毎晩何時間勉強しますか。 (How many hours of study each evening?)",
+      "choices": [
+        "二時間 (八時から十時まで)",
+        "一時間 (七時から八時まで)",
+        "三時間 (八時から十一時まで)",
+        "勉強しない"
+      ],
+      "answer": "二時間 (八時から十時まで)",
+      "acceptedAnswers": [
+        "二時間 (八時から十時まで)"
+      ],
+      "explanation": "From 8:00 to 10:00 (八時から十時まで) equals 2 hours.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q024",
+      "lessonId": "n5.l04",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "朝ご飯は何時ですか。 (What time is breakfast?)",
+      "choices": [
+        "七時",
+        "六時",
+        "八時",
+        "九時"
+      ],
+      "answer": "七時",
+      "acceptedAnswers": [
+        "七時"
+      ],
+      "explanation": "The text states: 「朝ご飯は七時です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q025",
+      "lessonId": "n5.l04",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "この人は何時に起きますか。 (What time does this person get up?)",
+      "choices": [
+        "六時",
+        "五時半",
+        "七時",
+        "六時半"
+      ],
+      "answer": "六時",
+      "acceptedAnswers": [
+        "六時"
+      ],
+      "explanation": "The opening says: 「私は毎日六時に起きます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q026",
+      "lessonId": "n5.l04",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "平日の開館時間は何時までですか。 (Until what time is the library open on weekdays?)",
+      "choices": [
+        "午後八時まで",
+        "午後五時まで",
+        "午後六時まで",
+        "午後九時まで"
+      ],
+      "answer": "午後八時まで",
+      "acceptedAnswers": [
+        "午後八時まで"
+      ],
+      "explanation": "The librarian says: 「平日は午前九時から午後八時までです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q027",
+      "lessonId": "n5.l04",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "土曜日の閉館時間は何時ですか。 (What time does the library close on Saturdays?)",
+      "choices": [
+        "午後五時",
+        "午後八時",
+        "午後三時",
+        "閉館している"
+      ],
+      "answer": "午後五時",
+      "acceptedAnswers": [
+        "午後五時"
+      ],
+      "explanation": "「土曜日は午前九時から午後五時までです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q028",
+      "lessonId": "n5.l04",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "図書館の休館日は何曜日ですか。 (Which day is the library closed?)",
+      "choices": [
+        "日曜日",
+        "月曜日",
+        "土曜日",
+        "祝日のみ"
+      ],
+      "answer": "日曜日",
+      "acceptedAnswers": [
+        "日曜日"
+      ],
+      "explanation": "The staff explicitly remarks: 「日曜日は休みです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q029",
+      "lessonId": "n5.l04",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "利用者は何について質問しましたか。 (What did the visitor inquire about?)",
+      "choices": [
+        "開館時間と休館日",
+        "本の借り方",
+        "自習室の予約",
+        "パソコンの使い方"
+      ],
+      "answer": "開館時間と休館日",
+      "acceptedAnswers": [
+        "開館時間と休館日"
+      ],
+      "explanation": "The visitor asks about the schedule and opening hours.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l04.q030",
+      "lessonId": "n5.l04",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "土曜日の開始時間は何時ですか。 (What time does the library open on Saturday?)",
+      "choices": [
+        "午前九時",
+        "午前十時",
+        "午後一時",
+        "午前八時半"
+      ],
+      "answer": "午前九時",
+      "acceptedAnswers": [
+        "午前九時"
+      ],
+      "explanation": "Saturday opens at 9:00 AM (午前九時).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l04.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

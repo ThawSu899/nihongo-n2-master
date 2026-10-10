@@ -1,0 +1,1595 @@
+{
+  "id": "n5.l11",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 11,
+  "title": "Counting and Quantities (つ・人・本)",
+  "description": "Master Japanese counter suffixes (ひとつ・ふたつ, 〜人, 〜本, 〜枚, 〜台), express frequency with [Period] に [Times], and ask for quantities with いくつ and どのくらい.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l11.v001",
+      "lessonId": "n5.l11",
+      "ja": "一つ",
+      "kana": "ひとつ",
+      "en": "One thing",
+      "my": "တစ်ခု",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [
+        "n5.l11.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.v002",
+      "lessonId": "n5.l11",
+      "ja": "二つ",
+      "kana": "ふたつ",
+      "en": "Two things",
+      "my": "နှစ်ခု",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s002",
+      "kanjiIds": [
+        "n5.l11.k002"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.v003",
+      "lessonId": "n5.l11",
+      "ja": "三つ",
+      "kana": "みっつ",
+      "en": "Three things",
+      "my": "သုံးခု",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [
+        "n5.l11.k003"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.v004",
+      "lessonId": "n5.l11",
+      "ja": "一人",
+      "kana": "ひとり",
+      "en": "One person / Alone",
+      "my": "တစ်ယောက်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s002",
+      "kanjiIds": [
+        "n5.l11.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.v005",
+      "lessonId": "n5.l11",
+      "ja": "二人",
+      "kana": "ふたり",
+      "en": "Two people",
+      "my": "နှစ်ယောက်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s005",
+      "kanjiIds": [
+        "n5.l11.k002"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.v006",
+      "lessonId": "n5.l11",
+      "ja": "りんご",
+      "kana": "りんご",
+      "en": "Apple",
+      "my": "ပန်းသီး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.v007",
+      "lessonId": "n5.l11",
+      "ja": "みかん",
+      "kana": "みかん",
+      "en": "Mandarin orange",
+      "my": "လိမ္မော်သီး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.v008",
+      "lessonId": "n5.l11",
+      "ja": "切手",
+      "kana": "きって",
+      "en": "Postage stamp",
+      "my": "တံဆိပ်ခေါင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.v009",
+      "lessonId": "n5.l11",
+      "ja": "はがき",
+      "kana": "はがき",
+      "en": "Postcard",
+      "my": "ပို့စကတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.v010",
+      "lessonId": "n5.l11",
+      "ja": "どのくらい",
+      "kana": "どのくらい",
+      "en": "How long / How much",
+      "my": "ဘယ်လောက်ကြာကြာ / ဘယ်လောက်လဲ",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l11.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.v011",
+      "lessonId": "n5.l11",
+      "ja": "全部で",
+      "kana": "ぜんぶで",
+      "en": "In total / All together",
+      "my": "အားလုံးပေါင်း",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l11.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.v012",
+      "lessonId": "n5.l11",
+      "ja": "時間",
+      "kana": "じかん",
+      "en": "Hours (duration)",
+      "my": "နာရီ (ကြာချိန်)",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l11.k001",
+      "lessonId": "n5.l11",
+      "char": "一",
+      "meaning": "One",
+      "onyomi": [
+        "イチ",
+        "イツ"
+      ],
+      "kunyomi": [
+        "ひと-",
+        "ひと.つ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "一つ (ひとつ)",
+          "reading": "ひとつ",
+          "meaning": "One thing",
+          "preview": false
+        },
+        {
+          "word": "一人 (ひとり)",
+          "reading": "ひとり",
+          "meaning": "One person",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l11.s001"
+      ],
+      "components": [
+        "一"
+      ],
+      "strokes": 1,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.k002",
+      "lessonId": "n5.l11",
+      "char": "二",
+      "meaning": "Two",
+      "onyomi": [
+        "ニ",
+        "ジ"
+      ],
+      "kunyomi": [
+        "ふた-",
+        "ふた.つ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "二つ (ふたつ)",
+          "reading": "ふたつ",
+          "meaning": "Two things",
+          "preview": false
+        },
+        {
+          "word": "二人 (ふたり)",
+          "reading": "ふたり",
+          "meaning": "Two people",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l11.s002"
+      ],
+      "components": [
+        "二"
+      ],
+      "strokes": 2,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.k003",
+      "lessonId": "n5.l11",
+      "char": "三",
+      "meaning": "Three",
+      "onyomi": [
+        "サン"
+      ],
+      "kunyomi": [
+        "み-",
+        "みっ.つ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "三つ (みっつ)",
+          "reading": "みっつ",
+          "meaning": "Three things",
+          "preview": false
+        },
+        {
+          "word": "三人 (さんにん)",
+          "reading": "さんにん",
+          "meaning": "Three people",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l11.s003"
+      ],
+      "components": [
+        "三"
+      ],
+      "strokes": 3,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.k004",
+      "lessonId": "n5.l11",
+      "char": "円",
+      "meaning": "Yen, circle",
+      "onyomi": [
+        "エン"
+      ],
+      "kunyomi": [
+        "まる.い"
+      ],
+      "exampleVocab": [
+        {
+          "word": "百円 (ひゃくえん)",
+          "reading": "ひゃくえん",
+          "meaning": "100 Yen",
+          "preview": false
+        },
+        {
+          "word": "千円 (せんえん)",
+          "reading": "せんえん",
+          "meaning": "1000 Yen",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l11.s004"
+      ],
+      "components": [
+        "円"
+      ],
+      "strokes": 4,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l11.g001",
+      "lessonId": "n5.l11",
+      "pattern": "[Noun] を [Quantity] 買います / 食べます",
+      "meaning": "[Verb] [Quantity] of [Noun]",
+      "formation": "Noun + を + Number/Counter + Verb",
+      "explanation": {
+        "en": "In Japanese, counters generally follow the particle を directly, before the verb: りんごを二つ買いました (I bought two apples).",
+        "my": "ဂျပန်ဘာသာတွင် အရေအတွက်ပြသင်္ချာစကားလုံးသည် ကံပုဒ်အက္ခရာ 「を」 ၏နောက်၊ ကြိယာ၏ရှေ့တွင် တိုက်ရိုက်လိုက်လေ့ရှိသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l11.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l11.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do NOT attach を after the counter. Say 「りんごを二つください」, NOT *「りんご二つをください」 in standard beginner grammar."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.g002",
+      "lessonId": "n5.l11",
+      "pattern": "[Period] に [Times] [Verb]",
+      "meaning": "[Times] per [Period]",
+      "formation": "Time Period (1週間 / 1か月) + に + Number of times (1回 / 2回) + Verb",
+      "explanation": {
+        "en": "The particle に indicates the base time unit for frequency: 1か月に2回映画を見ます (I watch movies twice a month).",
+        "my": "ကာလအပိုင်းအခြားတစ်ခုအတွင်း အကြိမ်အရေအတွက်ကိုဖော်ပြရာတွင် 「〜に〜回」 (တစ်လတွင်... ကြိမ်) ဟု သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l11.s004",
+          "note": "Basic usage"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not omit に. 「1週間に3回」 is correct; 「*1週間3回」 lacks the rate particle."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l11.s001",
+      "lessonId": "n5.l11",
+      "ja": "りんごを三つとみかんを五つ買いました。",
+      "kana": "りんごをみっつとみかんをいつつかいました。",
+      "translation": {
+        "en": "I bought three apples and five mandarin oranges.",
+        "my": "ပန်းသီး သုံးလုံးနဲ့ လိမ္မော်သီး ငါးလုံး ဝယ်ခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l11.v003",
+        "n5.l11.v006",
+        "n5.l11.v007"
+      ],
+      "grammarIds": [
+        "n5.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.s002",
+      "lessonId": "n5.l11",
+      "ja": "教室に学生が八人います。",
+      "kana": "きょうしつにがくせいがはちにんいます。",
+      "translation": {
+        "en": "There are eight students in the classroom.",
+        "my": "စာသင်ခန်းထဲမှာ ကျောင်းသား ရှစ်ယောက် ရှိပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l11.v004"
+      ],
+      "grammarIds": [
+        "n5.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.s003",
+      "lessonId": "n5.l11",
+      "ja": "郵便局で八十四円の切手を五枚買いました。",
+      "kana": "ゆうびんきょくではちじゅうよんえんのきってをごまいかいました。",
+      "translation": {
+        "en": "I bought five 84-yen stamps at the post office.",
+        "my": "စာတိုက်မှာ ၈၄ ယန်းတန် တံဆိပ်ခေါင်း ငါးပြား ဝယ်ခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l11.v008"
+      ],
+      "grammarIds": [
+        "n5.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.s004",
+      "lessonId": "n5.l11",
+      "ja": "一か月に二回、国へ電話をかけます。",
+      "kana": "いっかげつににかい、くにへでんわをかけます。",
+      "translation": {
+        "en": "I call my home country twice a month.",
+        "my": "တစ်လမှာ နှစ်ကြိမ် မိခင်နိုင်ငံထံ ဖုန်းခေါ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l11.v012"
+      ],
+      "grammarIds": [
+        "n5.l11.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.s005",
+      "lessonId": "n5.l11",
+      "ja": "東京から大阪まで新幹線で二時間半かかります。",
+      "kana": "とうきょうからおおさかまでしんかんせんでにじかんはんかかります。",
+      "translation": {
+        "en": "It takes two and a half hours from Tokyo to Osaka by Shinkansen.",
+        "my": "တိုကျိုကနေ အိုဆာကာအထိ ကျည်ဆံရထားနဲ့ နှစ်နာရီခွဲ ကြာပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l11.v010",
+        "n5.l11.v012"
+      ],
+      "grammarIds": [
+        "n5.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.s006",
+      "lessonId": "n5.l11",
+      "ja": "これらを全部で千五百円です。",
+      "kana": "これらをぜんぶでせんごひゃくえんです。",
+      "translation": {
+        "en": "All together, these cost 1,500 yen.",
+        "my": "ဒီဟာတွေ အားလုံးပေါင်း ၁,၅၀၀ ယန်း ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l11.v011"
+      ],
+      "grammarIds": [
+        "n5.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.s007",
+      "lessonId": "n5.l11",
+      "ja": "これは一つです。",
+      "kana": "これはひとつです。",
+      "translation": {
+        "en": "This is a one thing.",
+        "my": "ဒါဟာ တစ်ခု ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l11.v001"
+      ],
+      "grammarIds": [
+        "n5.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.s008",
+      "lessonId": "n5.l11",
+      "ja": "これは二つです。",
+      "kana": "これはふたつです。",
+      "translation": {
+        "en": "This is a two things.",
+        "my": "ဒါဟာ နှစ်ခု ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l11.v002"
+      ],
+      "grammarIds": [
+        "n5.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.s009",
+      "lessonId": "n5.l11",
+      "ja": "これは二人です。",
+      "kana": "これはふたりです。",
+      "translation": {
+        "en": "This is a two people.",
+        "my": "ဒါဟာ နှစ်ယောက် ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l11.v005"
+      ],
+      "grammarIds": [
+        "n5.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l11.s010",
+      "lessonId": "n5.l11",
+      "ja": "これははがきです。",
+      "kana": "これははがきです。",
+      "translation": {
+        "en": "This is a postcard.",
+        "my": "ဒါဟာ ပို့စကတ် ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l11.v009"
+      ],
+      "grammarIds": [
+        "n5.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l11.r01",
+    "lessonId": "n5.l11",
+    "title": "Counting and Quantities (つ・人・本) - 読解",
+    "level": "N5",
+    "text": "今日、駅の前のスーパーへ買い物に行きました。果物売り場で大きなりんごを三つとみかんを一袋買いました。みかんは袋の中に六つ入っていました。それからパンを二つと牛乳を一本買いました。全部で千二百円でした。安かったです。レジの人はとても親切でした。",
+    "kanaText": "きょう、えきのまえのすーぱーへかいものにいきました。くだものうりばでおおきなりんごをみっつとみかんをひとふくろかいました。みかんはふくろのなかにむっつはいっていました。それからぱんをふたつとぎゅうにゅうをいっぽんかいました。ぜんぶでせんにひゃくえんでした。やすかったです。れじのひとはとてもしんせつでした。",
+    "translation": "Today, I went shopping at the supermarket in front of the station. At the fruit section, I bought three big apples and one bag of mandarin oranges. There were six oranges inside the bag. After that, I bought two loaves of bread and one carton of milk. In total it was 1,200 yen. It was cheap. The cashier was very kind.",
+    "questionIds": [
+      "n5.l11.q021",
+      "n5.l11.q022",
+      "n5.l11.q023",
+      "n5.l11.q024",
+      "n5.l11.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l11.l01",
+    "lessonId": "n5.l11",
+    "title": "Counting and Quantities (つ・人・本) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "客",
+      "局員"
+    ],
+    "transcript": "客：すみません、このはがきをアメリカへ送りたいです。いくらですか。\n局員：エアメールですね。百円切手を二枚貼ってください。二百円です。\n客：アメリカまでどのくらいかかりますか。\n局員：だいたい一週間から十日くらいかかりますよ。",
+    "translation": "A customer buys postcard stamps and inquires about airmail delivery times.",
+    "turns": [
+      {
+        "speaker": "客",
+        "ja": "すみません、このはがきをアメリカへ送りたいです。いくらですか。",
+        "kana": "すみません、このはがきをあめりかへおくりたいです。いくらですか。",
+        "en": "Excuse me, I would like to send this postcard to America. How much is it?"
+      },
+      {
+        "speaker": "局員",
+        "ja": "エアメールですね。百円切手を二枚貼ってください。二百円です。",
+        "kana": "えあめーるですね。ひゃくえんきってをにまいはってください。にひゃくえんです。",
+        "en": "Airmail, right? Please attach two 100-yen stamps. That will be 200 yen."
+      },
+      {
+        "speaker": "客",
+        "ja": "アメリカまでどのくらいかかりますか。",
+        "kana": "あめりかまでどのくらいかかりますか。",
+        "en": "About how long does it take to reach America?"
+      },
+      {
+        "speaker": "局員",
+        "ja": "だいたい一週間から十日くらいかかりますよ。",
+        "kana": "だいたいいっしゅうかんからとおかくらいかかりますよ。",
+        "en": "It takes about one week to ten days."
+      }
+    ],
+    "questionIds": [
+      "n5.l11.q026",
+      "n5.l11.q027",
+      "n5.l11.q028",
+      "n5.l11.q029",
+      "n5.l11.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l11.q001",
+      "lessonId": "n5.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「一つ」の意味は何ですか。 (What does 「一つ」 mean?)",
+      "choices": [
+        "One thing",
+        "Two things",
+        "Three things",
+        "One person / Alone"
+      ],
+      "answer": "One thing",
+      "acceptedAnswers": [
+        "One thing"
+      ],
+      "explanation": "「一つ」(ひとつ) means \"One thing\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q002",
+      "lessonId": "n5.l11",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Two things\" in hiragana:",
+      "answer": "ふたつ",
+      "acceptedAnswers": [
+        "ふたつ",
+        "二つ"
+      ],
+      "explanation": "The Japanese word for \"Two things\" is 二つ (ふたつ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q003",
+      "lessonId": "n5.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「三つ」の意味は何ですか。 (What does 「三つ」 mean?)",
+      "choices": [
+        "Apple",
+        "Two people",
+        "One person / Alone",
+        "Three things"
+      ],
+      "answer": "Three things",
+      "acceptedAnswers": [
+        "Three things"
+      ],
+      "explanation": "「三つ」(みっつ) means \"Three things\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q004",
+      "lessonId": "n5.l11",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"One person / Alone\" in hiragana:",
+      "answer": "ひとり",
+      "acceptedAnswers": [
+        "ひとり",
+        "一人"
+      ],
+      "explanation": "The Japanese word for \"One person / Alone\" is 一人 (ひとり).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q005",
+      "lessonId": "n5.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「二人」の意味は何ですか。 (What does 「二人」 mean?)",
+      "choices": [
+        "Postage stamp",
+        "Mandarin orange",
+        "Apple",
+        "Two people"
+      ],
+      "answer": "Two people",
+      "acceptedAnswers": [
+        "Two people"
+      ],
+      "explanation": "「二人」(ふたり) means \"Two people\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q006",
+      "lessonId": "n5.l11",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Apple\" in hiragana:",
+      "answer": "りんご",
+      "acceptedAnswers": [
+        "りんご",
+        "りんご"
+      ],
+      "explanation": "The Japanese word for \"Apple\" is りんご (りんご).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q007",
+      "lessonId": "n5.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「みかん」の意味は何ですか。 (What does 「みかん」 mean?)",
+      "choices": [
+        "Mandarin orange",
+        "Postage stamp",
+        "Postcard",
+        "How long / How much"
+      ],
+      "answer": "Mandarin orange",
+      "acceptedAnswers": [
+        "Mandarin orange"
+      ],
+      "explanation": "「みかん」(みかん) means \"Mandarin orange\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q008",
+      "lessonId": "n5.l11",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Postage stamp\" in hiragana:",
+      "answer": "きって",
+      "acceptedAnswers": [
+        "きって",
+        "切手"
+      ],
+      "explanation": "The Japanese word for \"Postage stamp\" is 切手 (きって).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q009",
+      "lessonId": "n5.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「はがき」の意味は何ですか。 (What does 「はがき」 mean?)",
+      "choices": [
+        "Hours (duration)",
+        "In total / All together",
+        "How long / How much",
+        "Postcard"
+      ],
+      "answer": "Postcard",
+      "acceptedAnswers": [
+        "Postcard"
+      ],
+      "explanation": "「はがき」(はがき) means \"Postcard\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q010",
+      "lessonId": "n5.l11",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"How long / How much\" in hiragana:",
+      "answer": "どのくらい",
+      "acceptedAnswers": [
+        "どのくらい",
+        "どのくらい"
+      ],
+      "explanation": "The Japanese word for \"How long / How much\" is どのくらい (どのくらい).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q011",
+      "lessonId": "n5.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「全部で」の意味は何ですか。 (What does 「全部で」 mean?)",
+      "choices": [
+        "Two things",
+        "One thing",
+        "Hours (duration)",
+        "In total / All together"
+      ],
+      "answer": "In total / All together",
+      "acceptedAnswers": [
+        "In total / All together"
+      ],
+      "explanation": "「全部で」(ぜんぶで) means \"In total / All together\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q012",
+      "lessonId": "n5.l11",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Hours (duration)\" in hiragana:",
+      "answer": "じかん",
+      "acceptedAnswers": [
+        "じかん",
+        "時間"
+      ],
+      "explanation": "The Japanese word for \"Hours (duration)\" is 時間 (じかん).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q013",
+      "lessonId": "n5.l11",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「一」の意味は何ですか。 (What is the meaning of kanji 「一」?)",
+      "choices": [
+        "One",
+        "Two",
+        "Three",
+        "Tree"
+      ],
+      "answer": "One",
+      "acceptedAnswers": [
+        "One"
+      ],
+      "explanation": "「一」means \"One\". Onyomi: イチ, イツ, Kunyomi: ひと-, ひと.つ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q014",
+      "lessonId": "n5.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「一」の読み方はどれですか。 (Which is a correct reading for 「一」?)",
+      "choices": [
+        "ひと",
+        "みず",
+        "ほん"
+      ],
+      "answer": "ひと",
+      "acceptedAnswers": [
+        "ひと"
+      ],
+      "explanation": "「一」 has the reading 「ひと」 (One).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q015",
+      "lessonId": "n5.l11",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「二」の意味は何ですか。 (What is the meaning of kanji 「二」?)",
+      "choices": [
+        "Two",
+        "One",
+        "Three",
+        "Tree"
+      ],
+      "answer": "Two",
+      "acceptedAnswers": [
+        "Two"
+      ],
+      "explanation": "「二」means \"Two\". Onyomi: ニ, ジ, Kunyomi: ふた-, ふた.つ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q016",
+      "lessonId": "n5.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「二」の読み方はどれですか。 (Which is a correct reading for 「二」?)",
+      "choices": [
+        "ふた",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "ふた",
+      "acceptedAnswers": [
+        "ふた"
+      ],
+      "explanation": "「二」 has the reading 「ふた」 (Two).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q017",
+      "lessonId": "n5.l11",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「三」の意味は何ですか。 (What is the meaning of kanji 「三」?)",
+      "choices": [
+        "Three",
+        "One",
+        "Two",
+        "Tree"
+      ],
+      "answer": "Three",
+      "acceptedAnswers": [
+        "Three"
+      ],
+      "explanation": "「三」means \"Three\". Onyomi: サン, Kunyomi: み-, みっ.つ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q018",
+      "lessonId": "n5.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「三」の読み方はどれですか。 (Which is a correct reading for 「三」?)",
+      "choices": [
+        "み",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "み",
+      "acceptedAnswers": [
+        "み"
+      ],
+      "explanation": "「三」 has the reading 「み」 (Three).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q019",
+      "lessonId": "n5.l11",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「円」の意味は何ですか。 (What is the meaning of kanji 「円」?)",
+      "choices": [
+        "Yen, circle",
+        "One",
+        "Two",
+        "Tree"
+      ],
+      "answer": "Yen, circle",
+      "acceptedAnswers": [
+        "Yen, circle"
+      ],
+      "explanation": "「円」means \"Yen, circle\". Onyomi: エン, Kunyomi: まる.い.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q020",
+      "lessonId": "n5.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「円」の読み方はどれですか。 (Which is a correct reading for 「円」?)",
+      "choices": [
+        "まる.い",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "まる.い",
+      "acceptedAnswers": [
+        "まる.い"
+      ],
+      "explanation": "「円」 has the reading 「まる.い」 (Yen, circle).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q021",
+      "lessonId": "n5.l11",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "りんごをいくつ買いましたか。 (How many apples were purchased?)",
+      "choices": [
+        "三つ",
+        "二つ",
+        "六つ",
+        "一つ"
+      ],
+      "answer": "三つ",
+      "acceptedAnswers": [
+        "三つ"
+      ],
+      "explanation": "「大きなりんごを三つ...買いました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q022",
+      "lessonId": "n5.l11",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "みかんは一袋に何個入っていましたか。 (How many oranges were inside the bag?)",
+      "choices": [
+        "六つ",
+        "三つ",
+        "五つ",
+        "八つ"
+      ],
+      "answer": "六つ",
+      "acceptedAnswers": [
+        "六つ"
+      ],
+      "explanation": "「みかんは袋の中に六つ入っていました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q023",
+      "lessonId": "n5.l11",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "パンと牛乳はそれぞれいくつ買いましたか。 (How much bread and milk were bought?)",
+      "choices": [
+        "パン二つと牛乳一本",
+        "パン一つと牛乳二本",
+        "パン三つと牛乳一本",
+        "パンだけ"
+      ],
+      "answer": "パン二つと牛乳一本",
+      "acceptedAnswers": [
+        "パン二つと牛乳一本"
+      ],
+      "explanation": "「パンを二つと牛乳を一本買いました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q024",
+      "lessonId": "n5.l11",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "全部でいくらでしたか。 (How much was the total bill?)",
+      "choices": [
+        "千二百円",
+        "千五百円",
+        "千円",
+        "二千円"
+      ],
+      "answer": "千二百円",
+      "acceptedAnswers": [
+        "千二百円"
+      ],
+      "explanation": "「全部で千二百円でした」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q025",
+      "lessonId": "n5.l11",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "買い物についての感想はどうでしたか。 (What was the author's impression?)",
+      "choices": [
+        "安くて親切だった",
+        "高くて混んでいた",
+        "店が狭かった",
+        "遠かった"
+      ],
+      "answer": "安くて親切だった",
+      "acceptedAnswers": [
+        "安くて親切だった"
+      ],
+      "explanation": "「安かったです。レジの人はとても親切でした」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q026",
+      "lessonId": "n5.l11",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "客は何を送りたいですか。 (What does the customer want to send?)",
+      "choices": [
+        "アメリカへの絵はがき",
+        "重い荷物",
+        "手紙とプレゼント",
+        "本"
+      ],
+      "answer": "アメリカへの絵はがき",
+      "acceptedAnswers": [
+        "アメリカへの絵はがき"
+      ],
+      "explanation": "「このはがきをアメリカへ送りたいです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q027",
+      "lessonId": "n5.l11",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "切手はいくら分必要ですか。 (How much postage is required?)",
+      "choices": [
+        "二百円 (百円切手二枚)",
+        "百円 (一枚)",
+        "八十四円",
+        "五百円"
+      ],
+      "answer": "二百円 (百円切手二枚)",
+      "acceptedAnswers": [
+        "二百円 (百円切手二枚)"
+      ],
+      "explanation": "「百円切手を二枚貼ってください。二百円です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q028",
+      "lessonId": "n5.l11",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "アメリカまでどのくらいかかりますか。 (How long does delivery take?)",
+      "choices": [
+        "一週間から十日くらい",
+        "二日",
+        "三週間",
+        "一か月"
+      ],
+      "answer": "一週間から十日くらい",
+      "acceptedAnswers": [
+        "一週間から十日くらい"
+      ],
+      "explanation": "「だいたい一週間から十日くらいかかりますよ」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q029",
+      "lessonId": "n5.l11",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "どこでの会話ですか。 (Where does this conversation take place?)",
+      "choices": [
+        "郵便局",
+        "銀行",
+        "コンビニ",
+        "駅の窓口"
+      ],
+      "answer": "郵便局",
+      "acceptedAnswers": [
+        "郵便局"
+      ],
+      "explanation": "The conversation takes place at the post office with a postal clerk.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l11.q030",
+      "lessonId": "n5.l11",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "郵便の種類は何ですか。 (What kind of postal service is used?)",
+      "choices": [
+        "エアメール (航空便)",
+        "船便",
+        "速達",
+        "書留"
+      ],
+      "answer": "エアメール (航空便)",
+      "acceptedAnswers": [
+        "エアメール (航空便)"
+      ],
+      "explanation": "The clerk confirms: 「エアメールですね」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l11.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

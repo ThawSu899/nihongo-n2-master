@@ -1,0 +1,1706 @@
+{
+  "id": "n4.l32",
+  "level": "N4",
+  "module": "N4 Final Review & Mastery",
+  "number": 32,
+  "title": "N4 Lesson 32: Nominalization: 〜の vs 〜こと (名詞化の使い分け: 見るの・知ること・趣味は〜こと)",
+  "description": "Master nominalizing verbs using 〜の (sensory perception, direct physical actions, concrete scenes) versus 〜こと (abstract definitions, speech/mental predicates, fixed grammar patterns), eliminating persistent learner errors.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l32.v001",
+      "lessonId": "n4.l32",
+      "ja": "趣味",
+      "kana": "しゅみ",
+      "en": "hobby; pastime; interest",
+      "my": "ဝါသနာ/စိတ်ဝင်စားမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l32.s001",
+      "kanjiIds": [
+        "n4.l32.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.v002",
+      "lessonId": "n4.l32",
+      "ja": "描く",
+      "kana": "えがく",
+      "en": "to draw; to paint; to depict",
+      "my": "ပုံဆွဲသည်/သရုပ်ဖော်သည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n4.l32.s002",
+      "kanjiIds": [
+        "n4.l32.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.v003",
+      "lessonId": "n4.l32",
+      "ja": "感じる",
+      "kana": "かんじる",
+      "en": "to feel; to sense; to perceive",
+      "my": "ခံစားရသည်/သတိထားမိသည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n4.l32.s003",
+      "kanjiIds": [
+        "n4.l32.k003"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.v004",
+      "lessonId": "n4.l32",
+      "ja": "覚える",
+      "kana": "おぼえる",
+      "en": "to memorize; to remember; to master",
+      "my": "အလွတ်ကျက်သည်/မှတ်မိသည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n4.l32.s004",
+      "kanjiIds": [
+        "n4.l32.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.v005",
+      "lessonId": "n4.l32",
+      "ja": "感動する",
+      "kana": "かんどうする",
+      "en": "to be deeply moved; to be emotionally touched",
+      "my": "စိတ်လှုပ်ရှားထိခိုက်သည်/ရင်ထဲထိသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l32.s005",
+      "kanjiIds": [
+        "n4.l32.k003"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.v006",
+      "lessonId": "n4.l32",
+      "ja": "感謝する",
+      "kana": "かんしゃする",
+      "en": "to thank; to feel grateful",
+      "my": "ကျေးဇူးတင်သည်/ကျေးဇူးတင်ရှိသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l32.s006",
+      "kanjiIds": [
+        "n4.l32.k003"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.v007",
+      "lessonId": "n4.l32",
+      "ja": "気づく",
+      "kana": "きづく",
+      "en": "to notice; to become aware of; to perceive",
+      "my": "သတိပြုမိသည်/ရိပ်မိသည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n4.l32.s007",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.v008",
+      "lessonId": "n4.l32",
+      "ja": "発見する",
+      "kana": "はっけんする",
+      "en": "to discover; to find out",
+      "my": "ရှာဖွေတွေ့ရှိသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l32.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.v009",
+      "lessonId": "n4.l32",
+      "ja": "忘れる",
+      "kana": "わすれる",
+      "en": "to forget; to leave behind",
+      "my": "မေ့လျော့သည်/မေ့ကျန်ခဲ့သည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n4.l32.s009",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.v010",
+      "lessonId": "n4.l32",
+      "ja": "止める",
+      "kana": "とめる",
+      "en": "to stop (car, machine); to halt",
+      "my": "ရပ်တန့်သည်/ရပ်ထားသည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n4.l32.s010",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.v011",
+      "lessonId": "n4.l32",
+      "ja": "手伝う",
+      "kana": "てつだう",
+      "en": "to help; to assist; to lend a hand",
+      "my": "ကူညီသည်/လက်ကူလက်သန်းလုပ်ပေးသည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n4.l32.s011",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.v012",
+      "lessonId": "n4.l32",
+      "ja": "伝える",
+      "kana": "つたえる",
+      "en": "to convey; to communicate; to transmit",
+      "my": "ပြောပြသည်/လက်ဆင့်ကမ်းအသိပေးသည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n4.l32.s012",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l32.k001",
+      "lessonId": "n4.l32",
+      "char": "趣",
+      "meaning": "gist; charm; interest; taste",
+      "onyomi": [
+        "シュ"
+      ],
+      "kunyomi": [
+        "おもむき"
+      ],
+      "exampleVocab": [
+        {
+          "word": "趣味",
+          "reading": "しゅみ",
+          "meaning": "hobby; interest",
+          "preview": false
+        },
+        {
+          "word": "趣向",
+          "reading": "しゅこう",
+          "meaning": "plan; idea; device",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l32.s001"
+      ],
+      "components": [
+        "走",
+        "取"
+      ],
+      "strokes": 15,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.k002",
+      "lessonId": "n4.l32",
+      "char": "描",
+      "meaning": "sketch; compose; depict; draw",
+      "onyomi": [
+        "ビョウ"
+      ],
+      "kunyomi": [
+        "えが・く",
+        "か・く"
+      ],
+      "exampleVocab": [
+        {
+          "word": "描く",
+          "reading": "えがく",
+          "meaning": "to draw; to depict",
+          "preview": false
+        },
+        {
+          "word": "描写",
+          "reading": "びょうしゃ",
+          "meaning": "depiction; description",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l32.s001"
+      ],
+      "components": [
+        "扌",
+        "苗"
+      ],
+      "strokes": 11,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.k003",
+      "lessonId": "n4.l32",
+      "char": "感",
+      "meaning": "emotion; feeling; sensation",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [
+        "かん・じる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "感じる",
+          "reading": "かんじる",
+          "meaning": "to feel; to sense",
+          "preview": false
+        },
+        {
+          "word": "感動",
+          "reading": "かんどう",
+          "meaning": "deep emotion",
+          "preview": false
+        },
+        {
+          "word": "感謝",
+          "reading": "かんしゃ",
+          "meaning": "gratitude; thanks",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l32.s001"
+      ],
+      "components": [
+        "咸",
+        "心"
+      ],
+      "strokes": 13,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.k004",
+      "lessonId": "n4.l32",
+      "char": "覚",
+      "meaning": "memorize; learn; awake",
+      "onyomi": [
+        "カク"
+      ],
+      "kunyomi": [
+        "おぼ・える",
+        "さ・ます",
+        "さ・める"
+      ],
+      "exampleVocab": [
+        {
+          "word": "覚える",
+          "reading": "おぼえる",
+          "meaning": "to memorize; learn",
+          "preview": false
+        },
+        {
+          "word": "感覚",
+          "reading": "かんかく",
+          "meaning": "sense; sensation",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l32.s001"
+      ],
+      "components": [
+        "爻",
+        "冂",
+        "見"
+      ],
+      "strokes": 12,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l32.g001",
+      "lessonId": "n4.l32",
+      "pattern": "Nominalization: [Verb Plain form] + の",
+      "meaning": "Nominalizing with の (Sensory perception, direct action, concrete scenes)",
+      "formation": "Verb (Plain form) + の (見るの, 泣くの, 走るの)",
+      "explanation": {
+        "en": "Turns a verb into a noun clause representing a concrete, sensory, or real-time event. Essential environments for 〜の:\n1. Sensory perception verbs (知覚動詞): 見る, 聞こえる, 見える, 感じる (e.g. 星が輝いているのが見えます; 赤ちゃんが泣いているのが聞こえる).\n2. Direct physical interaction and intervention: 手伝う, 待つ, 止める, 見かける (e.g. 彼が荷物を運ぶのを手伝った; 車を止めるのを手伝う).\n3. Expressing instantaneous scenes: 〜のを忘れた (I forgot to bring my wallet).",
+        "my": "ကြိယာကို နာမ်အဖြစ် ပြောင်းလဲရာတွင် အာရုံခံစားမှုကြိယာများ (မြင်ရသည်၊ ကြားရသည်၊ ခံစားရသည်) နှင့် လက်တွေ့မျက်မြင်ဖြစ်ရပ်များ၊ တိုက်ရိုက်လုပ်ဆောင်ချက်များ (ကူညီသည်၊ စောင့်သည်၊ တားဆီးသည်) နောက်တွင် 「〜の」ကို အသုံးပြုရမည်။ (ဥပမာ- ကလေးငိုနေသည်ကို ကြားရသည်၊ သူပစ္စည်းသယ်သည်ကို ကူညီခဲ့သည်)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l32.s003",
+          "note": "I felt the room shaking slightly during the earthquake."
+        },
+        {
+          "sentenceId": "n4.l32.s011",
+          "note": "I helped my grandmother carry her heavy shopping bag."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use こと with sensory perception verbs (❌ 星が輝くことが見える → ⭕️ 星が輝くのが見える).",
+        "Do not use こと with direct physical assistance (❌ 荷物を運ぶことを手伝った → ⭕️ 荷物を運ぶのを手伝った)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.g002",
+      "lessonId": "n4.l32",
+      "pattern": "Nominalization: [Verb Plain form] + こと",
+      "meaning": "Nominalizing with こと (Abstract concepts, speech/thought, definition sentences with です)",
+      "formation": "Verb (Plain form) + こと (話すこと, 伝えること, 考えること)",
+      "explanation": {
+        "en": "Turns a verb into a noun clause representing an abstract idea, concept, decision, or statement. Essential environments for 〜こと:\n1. Sentences defining a topic ending with です (私の夢/趣味は〜ことです, e.g. 私の趣味は油絵を描くことです; ❌ 描くのです).\n2. Verbs of speech, thought, and mental communication: 伝える, 話す, 約束する, 考える (e.g. 明日早く集合することを伝えてください).\n3. Fixed N4 grammar structures: 〜ことができる (potential), 〜ことがある (experience), 〜ことにする (decision), 〜ことになる (establishment).",
+        "my": "စိတ်ပိုင်းဆိုင်ရာ အတွေးအခေါ်များ၊ သဘောတရားများ၊ ပြောဆိုဆက်သွယ်မှုကြိယာများ (ပြောပြသည်၊ ကတိပေးသည်၊ တွေးတောသည်) နှင့် ဝါကျအဆုံးတွင် 「〜ことです」ဖြင့် အဓိပ္ပာယ်ဖွင့်ဆိုသည့်အခါ 「〜こと」ကို သုံးရမည်။ (ဥပမာ- ကျွန်တော့်ဝါသနာမှာ ပန်းချီဆွဲခြင်း ဖြစ်သည်)။ ထို့အပြင် 〜ことができる၊ 〜ことがある စသည့် သဒ္ဒါပုံသေများတွင်လည်း こと ကိုသာ သုံးရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l32.s001",
+          "note": "My hobby is drawing landscape watercolors on weekends."
+        },
+        {
+          "sentenceId": "n4.l32.s012",
+          "note": "Please convey to the department manager that tomorrow’s meeting starts at 10."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Never say *私の趣味は〜のです (❌ 私の趣味は映画を見るのです → ⭕️ 私の趣味は映画を見ることです). Definitional predicates with です require こと.",
+        "Never substitute の in fixed grammar patterns like *〜のがある or *〜のができる (❌ 泳ぐのができる → ⭕️ 泳ぐことができる)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l32.s001",
+      "lessonId": "n4.l32",
+      "ja": "私の休日の趣味は、公園の美しい風景をスケッチブックに描くことです。",
+      "kana": "わたしのきゅうじつのしゅみは、こうえんのうつくしいふうけいをスケッチブックにえがくことです。",
+      "translation": {
+        "en": "My weekend hobby is drawing beautiful park landscapes in a sketchbook.",
+        "my": "ကျွန်တော့်၏ အားလပ်ရက်ဝါသနာမှာ ပန်းခြံ၏ လှပသောရှုခင်းများကို စကက်ခ်ျစာအုပ်တွင် ပုံဆွဲခြင်း ဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l32.v001",
+        "n4.l32.v002"
+      ],
+      "grammarIds": [
+        "n4.l32.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.s002",
+      "lessonId": "n4.l32",
+      "ja": "美術館で画家が繊細な筆遣いで絵を描くのを、じっと見つめていました。",
+      "kana": "びじゅつかんでがかかぜんさいなふでづかいでえをえがくのを、じっとみつめていました。",
+      "translation": {
+        "en": "I was intently watching the painter drawing a picture with delicate brushstrokes at the museum.",
+        "my": "ပြတိုက်တွင် ပန်းချီဆရာက နုနယ်သော စုတ်ချက်များဖြင့် ပန်းချီဆွဲနေသည်ကို ကျွန်တော် စိုက်ကြည့်နေခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l32.v002"
+      ],
+      "grammarIds": [
+        "n4.l32.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.s003",
+      "lessonId": "n4.l32",
+      "ja": "深夜の地震の際、部屋の机や本棚が小刻みに揺れるのを感じました。",
+      "kana": "しんやのじしんのさい、へやのつくえやほんだながこきざみにゆれるのをかんじました。",
+      "translation": {
+        "en": "During the midnight earthquake, I felt the desk and bookshelf in the room shaking slightly.",
+        "my": "ညသန်းခေါင် ငလျင်လှုပ်ခတ်စဉ် အခန်းတွင်းရှိ စာကြည့်စားပွဲနှင့် စာအုပ်စင်များ တဆတ်ဆတ် တုန်ခါနေသည်ကို ခံစားသိရှိခဲ့ရသည်။"
+      },
+      "vocabIds": [
+        "n4.l32.v003"
+      ],
+      "grammarIds": [
+        "n4.l32.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.s004",
+      "lessonId": "n4.l32",
+      "ja": "毎日新しい漢字を五つずつ覚えることは、語彙力を伸ばすために不可欠です。",
+      "kana": "まいにちあたらしいかんじをごつずつおぼえることは、ごいりょくをのばすためにふかけつです。",
+      "translation": {
+        "en": "Memorizing five new kanji every day is indispensable for expanding vocabulary.",
+        "my": "နေ့စဉ် ခန်းဂျီးအသစ် ၅ လုံးစီ အလွတ်ကျက်မှတ်ခြင်းသည် ဝေါဟာရစွမ်းရည် တိုးတက်စေရန်အတွက် မရှိမဖြစ် လိုအပ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l32.v004"
+      ],
+      "grammarIds": [
+        "n4.l32.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.s005",
+      "lessonId": "n4.l32",
+      "ja": "オーケストラの素晴らしい演奏をホールで直接聴いて、深く感動しました。",
+      "kana": "オーケストラのすばらしいえんそうをホールでちょくせつきいて、ふかくかんどうしました。",
+      "translation": {
+        "en": "Listening directly to the orchestra’s magnificent performance in the hall, I was deeply moved.",
+        "my": "ခန်းမထဲတွင် သံစုံတီးဝိုင်း၏ အံ့သြဖွယ် ဖျော်ဖြေမှုကို တိုက်ရိုက်နားဆင်ရပြီးနောက် အလွန်ပင် ရင်ထဲထိခိုက်လှုပ်ရှားခဲ့ရသည်။"
+      },
+      "vocabIds": [
+        "n4.l32.v005"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.s006",
+      "lessonId": "n4.l32",
+      "ja": "困った時に親切に手を差し伸べてくれた友人たちに、心から感謝しています。",
+      "kana": "こまったときにしんせつにてをさしのべてくれたゆうじんたちに、こころからかんしゃしています。",
+      "translation": {
+        "en": "I am sincerely grateful to my friends who kindly extended a helping hand when I was in trouble.",
+        "my": "အခက်အခဲကြုံစဉ် ကြင်နာစွာ ကူညီလက်ကမ်းပေးခဲ့ကြသော သူငယ်ချင်းများအား နှလုံးသားထဲမှ အထူးကျေးဇူးတင်ရှိပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l32.v006"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.s007",
+      "lessonId": "n4.l32",
+      "ja": "電車を降りた後で、網棚の上に傘を忘れてきたことに気づきました。",
+      "kana": "でんしゃをおりたあとで、あみだなのうえにかさをわすれてきたことにきづきました。",
+      "translation": {
+        "en": "After getting off the train, I realized that I had forgotten my umbrella on the luggage rack.",
+        "my": "ရထားပေါ်မှ ဆင်းပြီးနောက် အထက်ပစ္စည်းတင်စင်ပေါ်တွင် ထီးမေ့ကျန်ခဲ့သည့်အဖြစ်ကို သတိပြုမိခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l32.v007",
+        "n4.l32.v009"
+      ],
+      "grammarIds": [
+        "n4.l32.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.s008",
+      "lessonId": "n4.l32",
+      "ja": "古い本棚を整理している時に、昔撮った懐かしい家族写真を発見しました。",
+      "kana": "ふるいほんだなをせいりしているときに、むか撮ったなつかしいかぞくしゃしんをはっけんしました。",
+      "translation": {
+        "en": "While tidying up the old bookshelf, I discovered nostalgic family photos taken long ago.",
+        "my": "စာအုပ်စင်ဟောင်းကို သန့်ရှင်းရေးလုပ်နေစဉ် ယခင်က ရိုက်ကူးခဲ့သော လွမ်းမောဖွယ် မိသားစုဓာတ်ပုံများကို ရှာဖွေတွေ့ရှိခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l32.v008"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.s009",
+      "lessonId": "n4.l32",
+      "ja": "朝急いで家を出たため、玄関の鍵をかけるのをすっかり忘れてしまいました。",
+      "kana": "あさいそいでいえをでたため、げんかんのかぎをかけるのをすっかりわすれてしまいました。",
+      "translation": {
+        "en": "Because I left the house in a hurry this morning, I completely forgot to lock the entrance door.",
+        "my": "မနက်က အိမ်မှ အလောတကြီး ထွက်လာခဲ့သဖြင့် ဝင်ပေါက်တံခါးသော့ခတ်ရန် လုံးဝ မေ့လျော့သွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l32.v009"
+      ],
+      "grammarIds": [
+        "n4.l32.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.s010",
+      "lessonId": "n4.l32",
+      "ja": "狭い道路でバスがスムーズに曲がれるように、警備員が一般車を止めるのを手伝いました。",
+      "kana": "せまいどうろでバスがスムーズにまがれるように、けいびいんがいっぱんしゃをとめるのをてつだいました。",
+      "translation": {
+        "en": "So that the bus could turn smoothly on the narrow road, the guard helped to stop regular cars.",
+        "my": "ကျဉ်းမြောင်းသော လမ်းတွင် ဘတ်စ်ကား ချောမွေ့စွာ ကွေ့နိုင်စေရန်အတွက် လုံခြုံရေးဝန်ထမ်းသည် သာမန်ကားများကို ရပ်တန့်ပေးရာတွင် ကူညီပေးခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l32.v010",
+        "n4.l32.v011"
+      ],
+      "grammarIds": [
+        "n4.l32.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.s011",
+      "lessonId": "n4.l32",
+      "ja": "階段で重いスーツケースを運んでいるお年寄りを見て、運ぶのを手伝いました。",
+      "kana": "かいだんでおもいスーツケースをはこんでいるおとしよりをみて、はこぶのをてつだいました。",
+      "translation": {
+        "en": "Seeing an elderly person carrying a heavy suitcase on the stairs, I helped carry it.",
+        "my": "လှေကားတွင် လေးလံသော ခရီးဆောင်သေတ္တာကို သယ်ဆောင်နေသည့် သက်ကြီးရွယ်အိုတစ်ဦးကို တွေ့မြင်၍ သယ်ပေးရာတွင် ကူညီခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l32.v011"
+      ],
+      "grammarIds": [
+        "n4.l32.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l32.s012",
+      "lessonId": "n4.l32",
+      "ja": "明日の講義が休講になることを、まだ知らない同級生たちに急いで伝えました。",
+      "kana": "あすのこうぎがきゅうこうになることを、まだしらないどうきゅうせいたちに急いでつたえました。",
+      "translation": {
+        "en": "I hurriedly conveyed to classmates who didn’t know yet that tomorrow’s lecture was canceled.",
+        "my": "မနက်ဖြန် သင်ကြားပို့ချမှု ပျက်ကွက်မည်ဟူသော အကြောင်းအရာကို မသိရှိသေးသော အတန်းဖော်များထံ အမြန် လက်ဆင့်ကမ်း အကြောင်းကြားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l32.v012"
+      ],
+      "grammarIds": [
+        "n4.l32.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l32.r01",
+    "lessonId": "n4.l32",
+    "title": "水彩画を描く楽しさと心のゆとり",
+    "level": "N4",
+    "text": "留学生のマリアさんの趣味は、休日に近くの植物園へ出かけて四季折々の花や風景を水彩画で描くことです。彼女にとって、絵を描く時間は日頃の勉強の疲れを忘れ、心を静かに落ち着かせる大切なひとときです。\n\n絵を描き始めた頃は、遠くの山や木々が風に揺れているのを正確に描写することがなかなかできませんでした。しかし、先輩の画家が優しく手本を描くのを何度も見つめ、熱心に練習を重ねるうちに、少しずつ光と影を捉えられるようになりました。\n\n「私の夢は、日本で一年間生活した思い出を一冊の絵日記にまとめることです」とマリアさんは微笑みます。周囲の自然をじっくり観察することを通して、彼女は日本の四季の繊細な美しさを肌で感じることができるようになったと語っています。",
+    "kanaText": "りゅうがくせいのマリアさんのしゅみは、きゅうじつにちかくのしょくぶつえんへでかけてしきおりおりのはなやふうけいをすいさいがでえがくことです。かのじょにとって、えをえがくじかんはひごろのべんきょうのつかれをわすれ、こころをしずかにおちつかせるたいせつなひとときです。\n\nえをえがきはじめたころは、とおくのやまやきぎがかぜにゆれているのをせいかくにびょうしゃすることがなかなかできませんでした。しかし、せんぱいのがかがやさしくてほんをえがくのをなんどもみつめ、ねっしんにれんしゅうをかさねるうちに、すこしずつひかりとかげをとらえられるようになりました。\n\n「わたしのゆめは、にほんでいちねんかんせいかつしたおもいでをいっさつのえにっきにまとめることです」とマリアさんはほほえみます。しゅういのしぜんをじっくりかんさつすることをつうして、かのじょはにほんのしきのぜんさいなうつくしさをはだでかんじることができるようになったとかたっています。",
+    "translation": "International student Maria's hobby is visiting a nearby botanical garden on holidays and painting seasonal flowers and scenery in watercolors. For her, time spent painting pictures is an invaluable moment to forget the fatigue of daily studies and quietly calm her heart.\n\nWhen she first started painting, she couldn't easily depict accurately the distant mountains and trees swaying in the wind. However, by watching senior painters gently sketch models many times and practicing enthusiastically, she gradually became able to capture light and shadow.\n\n\"My dream is to compile the memories of living in Japan for one year into a single illustrated diary,\" Maria smiles. Through observing surrounding nature thoroughly, she says she has become able to directly feel the delicate beauty of Japan's four seasons.",
+    "questionIds": [
+      "n4.l32.q025",
+      "n4.l32.q026",
+      "n4.l32.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l32.l01",
+    "lessonId": "n4.l32",
+    "title": "週末の趣味と料理教室の話題",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "後輩（高橋）",
+      "先輩（吉岡）"
+    ],
+    "transcript": "高橋：吉岡先輩、最近お弁当がとても豪華ですね！自炊を始めたんですか？\n吉岡：うん。私の今の趣味は、週末に新しい和食のレシピに挑戦することなんだ。\n高橋：へえ、素敵ですね！料理を習うのは楽しいですか？\n吉岡：すごく楽しいよ。先生が包丁をリズミカルに動かして野菜を切るのを見ているだけでも勉強になるんだ。\n高橋：確かにプロの技を見るのは面白いですよね。\n吉岡：昨日、出汁の取り方を覚えたことを家族に伝えたら、今度作ってほしいって喜んでくれたよ。\n高橋：美味しそうですね。今度先輩が料理を作るのを、私もぜひ食べてみたいです！",
+    "translation": "Takahashi: Yoshioka-senpai, your boxed bento lunches have been very deluxe lately! Did you start cooking at home?\nYoshioka: Yeah. My current hobby is challenging new Japanese food recipes on weekends.\nTakahashi: Wow, that's wonderful! Is learning cooking fun?\nYoshioka: Very fun. Even just watching the teacher rhythmically move the kitchen knife and cut vegetables is educational.\nTakahashi: Truly, watching professional techniques is fascinating.\nYoshioka: Yesterday, when I conveyed to my family that I learned how to prepare dashi broth, they were delighted and asked me to cook it next time.\nTakahashi: Sounds delicious! Next time you make dishes, I definitely want to try eating them too!",
+    "turns": [
+      {
+        "speaker": "高橋",
+        "ja": "吉岡先輩、最近お弁当がとても豪華ですね！自炊を始めたんですか？",
+        "kana": "よしおかせんぱい、さいきんおべんとうがとてもごうかですね！じすいをはじめたんですか？",
+        "en": "Yoshioka-senpai, your bento lunch has been very deluxe lately! Did you start cooking for yourself?"
+      },
+      {
+        "speaker": "吉岡",
+        "ja": "うん。私の今の趣味は、週末に新しい和食のレシピに挑戦することなんだ。",
+        "kana": "うん。わたしのいまのしゅみは、しゅうまつにあたらしいわしょくのレシピにちょうせんすることなんだ。",
+        "en": "Yeah. My current hobby right now is challenging new Japanese cuisine recipes on weekends."
+      },
+      {
+        "speaker": "高橋",
+        "ja": "へえ、素敵ですね！料理を習うのは楽しいですか？",
+        "kana": "へえ、すてきですね！りょうりをならうのはたのしいですか？",
+        "en": "Wow, that’s great! Is learning cooking fun?"
+      },
+      {
+        "speaker": "吉岡",
+        "ja": "すごく楽しいよ。先生が包丁をリズミカルに動かして野菜を切るのを見ているだけでも勉強になるんだ。",
+        "kana": "すごくたのしいよ。せんせいがほうちょうをリズミカルにうごかしてやさいをきるのをみているだけでもべんきょうになるんだ。",
+        "en": "Very fun. Even just watching the teacher move the knife rhythmically and cut vegetables is educational."
+      },
+      {
+        "speaker": "高橋",
+        "ja": "確かにプロの技を見るのは面白いですよね。",
+        "kana": "たしかにプロのわざをみるのはおもしろいですよね。",
+        "en": "Indeed, watching professional skills is fascinating."
+      },
+      {
+        "speaker": "吉岡",
+        "ja": "昨日、出汁の取り方を覚えたことを家族に伝えたら、今度作ってほしいって喜んでくれたよ。",
+        "kana": "きのう、だしのとりかたをおぼえたことをかぞくにつたえたら、こんどつくってほしいってよろこんでくれたよ。",
+        "en": "Yesterday when I conveyed to my family that I learned how to make dashi soup stock, they were delighted and said they want me to cook it next time."
+      },
+      {
+        "speaker": "高橋",
+        "ja": "美味しそうですね。今度先輩が料理を作るのを、私もぜひ食べてみたいです！",
+        "kana": "おいしそうですね。こんどせんぱいがりょうりをつくるのを、わたしもぜひたべてみたいです！",
+        "en": "That sounds delicious. Next time you cook dishes, I definitely want to try eating them too!"
+      }
+    ],
+    "questionIds": [
+      "n4.l32.q028",
+      "n4.l32.q029",
+      "n4.l32.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l32.q001",
+      "lessonId": "n4.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "仕事ではなく、休日に楽しむ個人的な活動を何と言いますか。",
+      "choices": [
+        "趣味",
+        "勤務",
+        "宿題",
+        "残業"
+      ],
+      "answer": "趣味",
+      "acceptedAnswers": [
+        "趣味"
+      ],
+      "explanation": "趣味 (しゅみ) means hobby.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q002",
+      "lessonId": "n4.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "鉛筆や絵の具を使って紙に絵をかき表す動詞はどれですか。",
+      "choices": [
+        "描く",
+        "破る",
+        "燃やす",
+        "折る"
+      ],
+      "answer": "描く",
+      "acceptedAnswers": [
+        "描く"
+      ],
+      "explanation": "描く (えがく / かく) means to draw or paint.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q003",
+      "lessonId": "n4.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "五感や心で物事を受け取って知覚する動詞はどれですか。",
+      "choices": [
+        "感じる",
+        "信じる",
+        "命じる",
+        "混じる"
+      ],
+      "answer": "感じる",
+      "acceptedAnswers": [
+        "感じる"
+      ],
+      "explanation": "感じる (かんじる) means to feel or perceive.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q004",
+      "lessonId": "n4.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "頭の中に知識や漢字を記憶として留める動詞はどれですか。",
+      "choices": [
+        "覚える",
+        "忘れる",
+        "消える",
+        "倒れる"
+      ],
+      "answer": "覚える",
+      "acceptedAnswers": [
+        "覚える"
+      ],
+      "explanation": "覚える (おぼえる) means to memorize or learn.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q005",
+      "lessonId": "n4.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "素晴らしい芸術や優しさに触れて、心が強く揺り動かされることを何と言いますか。",
+      "choices": [
+        "感動する",
+        "退屈する",
+        "激怒する",
+        "混乱する"
+      ],
+      "answer": "感動する",
+      "acceptedAnswers": [
+        "感動する"
+      ],
+      "explanation": "感動する (かんどうする) means to be deeply moved.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q006",
+      "lessonId": "n4.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "他人の好意や親切に対して「ありがとう」の気持ちを持つことを何と言いますか。",
+      "choices": [
+        "感謝する",
+        "抗議する",
+        "拒絶する",
+        "自慢する"
+      ],
+      "answer": "感謝する",
+      "acceptedAnswers": [
+        "感謝する"
+      ],
+      "explanation": "感謝する (かんしゃする) means to feel grateful / thank.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q007",
+      "lessonId": "n4.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "今まで見落としていたミスや変化をはっきりと認識することを表す動詞はどれですか。",
+      "choices": [
+        "気づく",
+        "近づく",
+        "基づく",
+        "うなずく"
+      ],
+      "answer": "気づく",
+      "acceptedAnswers": [
+        "気づく"
+      ],
+      "explanation": "気づく (きづく) means to notice or become aware of.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q008",
+      "lessonId": "n4.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "困っている人の仕事や作業を一緒に手助けする動詞はどれですか。",
+      "choices": [
+        "手伝う",
+        "争う",
+        "奪う",
+        "壊す"
+      ],
+      "answer": "手伝う",
+      "acceptedAnswers": [
+        "手伝う"
+      ],
+      "explanation": "手伝う (てつだう) means to help or assist.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q009",
+      "lessonId": "n4.l32",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「趣味」の正しい読み方はどれですか。",
+      "choices": [
+        "しゅみ",
+        "しゅうみ",
+        "そうみ",
+        "すいみ"
+      ],
+      "answer": "しゅみ",
+      "acceptedAnswers": [
+        "しゅみ"
+      ],
+      "explanation": "趣味 is read as しゅみ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q010",
+      "lessonId": "n4.l32",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「絵を（描く）」の正しい読み方はどれですか。",
+      "choices": [
+        "えがく",
+        "みがく",
+        "あおぐ",
+        "つなぐ"
+      ],
+      "answer": "えがく",
+      "acceptedAnswers": [
+        "えがく"
+      ],
+      "explanation": "描く is read as えがく (or かく).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q011",
+      "lessonId": "n4.l32",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「寒さを（感じる）」の正しい読み方はどれですか。",
+      "choices": [
+        "かんじる",
+        "しんじる",
+        "つうじる",
+        "めんじる"
+      ],
+      "answer": "かんじる",
+      "acceptedAnswers": [
+        "かんじる"
+      ],
+      "explanation": "感じる is read as かんじる.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q012",
+      "lessonId": "n4.l32",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「単語を（覚える）」の正しい読み方を選びなさい。",
+      "choices": [
+        "おぼえる",
+        "かんがえる",
+        "かぞえる",
+        "こたえる"
+      ],
+      "answer": "おぼえる",
+      "acceptedAnswers": [
+        "おぼえる"
+      ],
+      "explanation": "覚える is read as おぼえる.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q013",
+      "lessonId": "n4.l32",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「感謝」の「感」の音読みはどれですか。",
+      "choices": [
+        "カン",
+        "ゲン",
+        "ゼン",
+        "ケン"
+      ],
+      "answer": "カン",
+      "acceptedAnswers": [
+        "カン"
+      ],
+      "explanation": "感 has onyomi カン (e.g. 感謝, 感動, 感覚).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q014",
+      "lessonId": "n4.l32",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「描」の部首（へん）は何ですか。",
+      "choices": [
+        "てへん（扌）",
+        "きへん（木）",
+        "くさかんむり（艹）",
+        "ごんべん（言）"
+      ],
+      "answer": "てへん（扌）",
+      "acceptedAnswers": [
+        "てへん（扌）"
+      ],
+      "explanation": "描 has the radical 扌 (てへん), representing hands.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q015",
+      "lessonId": "n4.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「私の夢は、いつか日本で自分の会社を作る（　）です。」定義文の述語として正しい名詞化はどれですか。",
+      "choices": [
+        "こと",
+        "の",
+        "もの",
+        "ところ"
+      ],
+      "answer": "こと",
+      "acceptedAnswers": [
+        "こと"
+      ],
+      "explanation": "Definitional predicates ending in です (\"My dream/hobby is...\") require こと (作ることです).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q016",
+      "lessonId": "n4.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「隣の部屋で赤ちゃんが激しく泣いている（　）が聞こえます。」知覚動詞（聞こえる）に接続する名詞化はどれですか。",
+      "choices": [
+        "の",
+        "こと",
+        "もの",
+        "はず"
+      ],
+      "answer": "の",
+      "acceptedAnswers": [
+        "の"
+      ],
+      "explanation": "Sensory perception verbs (聞こえる, 見える, 感じる) require の (泣いているのが聞こえる).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q017",
+      "lessonId": "n4.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「彼が重い荷物を運ぶ（　）を手伝いました。」直接的な身体的援助に接続する名詞化はどれですか。",
+      "choices": [
+        "の",
+        "こと",
+        "もの",
+        "わけ"
+      ],
+      "answer": "の",
+      "acceptedAnswers": [
+        "の"
+      ],
+      "explanation": "Direct physical actions and assistance with 手伝う require の (運ぶのを手伝う).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q018",
+      "lessonId": "n4.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「来週の試験が延期になった（　）を、先生に伝えました。」伝達・思考動詞（伝える）に接続する名詞化はどれですか。",
+      "choices": [
+        "こと",
+        "の",
+        "もの",
+        "ところ"
+      ],
+      "answer": "こと",
+      "acceptedAnswers": [
+        "こと"
+      ],
+      "explanation": "Mental information, facts, and communication verbs (伝える, 話す, 考える) require こと (延期になったことを伝える).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q019",
+      "lessonId": "n4.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の文のうち、文法的に誤りのあるものはどれですか。",
+      "choices": [
+        "私の趣味は映画を見るのです。",
+        "私の趣味は映画を見ることです。",
+        "彼が走っているのが見えます。",
+        "田中さんは泳ぐことができます。"
+      ],
+      "answer": "私の趣味は映画を見るのです。",
+      "acceptedAnswers": [
+        "私の趣味は映画を見るのです。"
+      ],
+      "explanation": "趣味は〜ことです is required. 趣味は〜のです is ungrammatical in Japanese.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.g001",
+        "n4.l32.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q020",
+      "lessonId": "n4.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「夜空に星がたくさん光っている（　）が見えます。」",
+      "choices": [
+        "の",
+        "こと",
+        "もの",
+        "ところ"
+      ],
+      "answer": "の",
+      "acceptedAnswers": [
+        "の"
+      ],
+      "explanation": "見える is a sensory perception verb, which takes の.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q021",
+      "lessonId": "n4.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「朝出かけるとき、財布を持ってくる（　）を忘れてしまった。」",
+      "choices": [
+        "の",
+        "こと",
+        "もの",
+        "はず"
+      ],
+      "answer": "の",
+      "acceptedAnswers": [
+        "の"
+      ],
+      "explanation": "〜のを忘れる is the natural pattern for forgetting concrete real-time actions.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q022",
+      "lessonId": "n4.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「日本語で自分の意見をはっきり述べる（　）は、とても難しい。」主語節（抽象的行為）として適切な名詞化はどれですか。",
+      "choices": [
+        "こと",
+        "の",
+        "もの",
+        "わけ"
+      ],
+      "answer": "こと",
+      "acceptedAnswers": [
+        "こと"
+      ],
+      "explanation": "General abstract acts as topics or predicates (\"Stating opinions is difficult\") naturally take こと (or の in casual contexts, but こと for abstract concepts).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q023",
+      "lessonId": "n4.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「駅前のカフェで彼が誰かと話している（　）を見かけました。」",
+      "choices": [
+        "の",
+        "こと",
+        "もの",
+        "わけ"
+      ],
+      "answer": "の",
+      "acceptedAnswers": [
+        "の"
+      ],
+      "explanation": "見かける (to spot/glimpse) is a sensory verb taking の.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q024",
+      "lessonId": "n4.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "固定表現「〜ができる」「〜がある」「〜にする」で必ず使われる名詞化形式はどれですか。",
+      "choices": [
+        "こと",
+        "の",
+        "もの",
+        "ところ"
+      ],
+      "answer": "こと",
+      "acceptedAnswers": [
+        "こと"
+      ],
+      "explanation": "〜ことができる, 〜ことがある, 〜ことにする are fixed idiomatic grammar structures requiring こと.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q025",
+      "lessonId": "n4.l32",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "マリアさんの休日の趣味は何ですか。",
+      "choices": [
+        "植物園で花や風景を水彩画で描くこと",
+        "部屋でテレビを見ながら料理を作ること",
+        "ギターを弾きながら歌を歌うこと",
+        "山登りをして写真を撮ること"
+      ],
+      "answer": "植物園で花や風景を水彩画で描くこと",
+      "acceptedAnswers": [
+        "植物園で花や風景を水彩画で描くこと"
+      ],
+      "explanation": "Passage 1 states: マリアさんの趣味は、休日に近くの植物園へ出かけて四季折々の花や風景を水彩画で描くことです。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q026",
+      "lessonId": "n4.l32",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "マリアさんが絵の上達のためにしたことは何ですか。",
+      "choices": [
+        "先輩の画家が手本を描くのを何度も見つめて熱心に練習した",
+        "高価な絵の具をたくさん購入した",
+        "絵画教室の先生に代わりに描いてもらった",
+        "インターネットで他人の絵をコピーした"
+      ],
+      "answer": "先輩の画家が手本を描くのを何度も見つめて熱心に練習した",
+      "acceptedAnswers": [
+        "先輩の画家が手本を描くのを何度も見つめて熱心に練習した"
+      ],
+      "explanation": "Passage 2 states: 先輩の画家が優しく手本を描くのを何度も見つめ、熱心に練習を重ねるうちに...",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q027",
+      "lessonId": "n4.l32",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "マリアさんのこれからの夢として書かれていることは何ですか。",
+      "choices": [
+        "日本で生活した思い出を一冊の絵日記にまとめること",
+        "プロの画家になってフランスへ留学すること",
+        "植物園で働くこと",
+        "新しい絵の具の開発会社を作ること"
+      ],
+      "answer": "日本で生活した思い出を一冊の絵日記にまとめること",
+      "acceptedAnswers": [
+        "日本で生活した思い出を一冊の絵日記にまとめること"
+      ],
+      "explanation": "Passage 3 quotes Maria: 私の夢は、日本で一年間生活した思い出を一冊の絵日記にまとめることです。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q028",
+      "lessonId": "n4.l32",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "吉岡先輩の今の休日の趣味は何ですか。",
+      "choices": [
+        "週末に新しい和食のレシピに挑戦すること",
+        "絵画教室で水彩画を描くこと",
+        "一人でレストランを食べ歩くこと",
+        "お弁当箱を集めること"
+      ],
+      "answer": "週末に新しい和食のレシピに挑戦すること",
+      "acceptedAnswers": [
+        "週末に新しい和食のレシピに挑戦すること"
+      ],
+      "explanation": "Yoshioka says: 私の今の趣味は、週末に新しい和食のレシピに挑戦することなんだ。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q029",
+      "lessonId": "n4.l32",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "吉岡先輩が料理教室で「勉強になる」と言っているのはどんな場面ですか。",
+      "choices": [
+        "先生が包丁をリズミカルに動かして野菜を切るのを見ている時",
+        "料理の歴史についての長い講義を聞いている時",
+        "後片付けを一人で素早く終わらせた時",
+        "完成した料理の写真を撮影している時"
+      ],
+      "answer": "先生が包丁をリズミカルに動かして野菜を切るのを見ている時",
+      "acceptedAnswers": [
+        "先生が包丁をリズミカルに動かして野菜を切るのを見ている時"
+      ],
+      "explanation": "Yoshioka explains: 先生が包丁をリズミカルに動かして野菜を切るのを見ているだけでも勉強になるんだ。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l32.q030",
+      "lessonId": "n4.l32",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "吉岡先輩が家族に伝えた内容は何ですか。",
+      "choices": [
+        "出汁の取り方を覚えたこと",
+        "新しい包丁を買ったこと",
+        "料理教室の学費が高かったこと",
+        "来月から自炊をやめること"
+      ],
+      "answer": "出汁の取り方を覚えたこと",
+      "acceptedAnswers": [
+        "出汁の取り方を覚えたこと"
+      ],
+      "explanation": "Yoshioka says: 昨日、出汁の取り方を覚えたことを家族に伝えたら...",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l32.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

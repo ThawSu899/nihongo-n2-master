@@ -1,0 +1,1588 @@
+{
+  "id": "n5.l03",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 3,
+  "title": "Places and Locations (ここ・そこ・あそこ)",
+  "description": "Learn locational demonstratives (ここ・そこ・あそこ・どこ), state where people and facilities are located, and ask polite questions with こちら・そちら・あちら.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l03.v001",
+      "lessonId": "n5.l03",
+      "ja": "ここ",
+      "kana": "ここ",
+      "en": "Here (near speaker)",
+      "my": "ဒီနေရာ",
+      "pos": "pronoun",
+      "exampleSentenceId": "n5.l03.s007",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.v002",
+      "lessonId": "n5.l03",
+      "ja": "そこ",
+      "kana": "そこ",
+      "en": "There (near listener)",
+      "my": "အဲဒီနေရာ",
+      "pos": "pronoun",
+      "exampleSentenceId": "n5.l03.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.v003",
+      "lessonId": "n5.l03",
+      "ja": "あそこ",
+      "kana": "あそこ",
+      "en": "Over there (far from both)",
+      "my": "ဟိုနေရာ",
+      "pos": "pronoun",
+      "exampleSentenceId": "n5.l03.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.v004",
+      "lessonId": "n5.l03",
+      "ja": "どこ",
+      "kana": "どこ",
+      "en": "Where",
+      "my": "ဘယ်နေရာ",
+      "pos": "pronoun",
+      "exampleSentenceId": "n5.l03.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.v005",
+      "lessonId": "n5.l03",
+      "ja": "教室",
+      "kana": "きょうしつ",
+      "en": "Classroom",
+      "my": "စာသင်ခန်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l03.s008",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.v006",
+      "lessonId": "n5.l03",
+      "ja": "食堂",
+      "kana": "しょくどう",
+      "en": "Cafeteria / Dining hall",
+      "my": "ထမင်းစားခန်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l03.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.v007",
+      "lessonId": "n5.l03",
+      "ja": "事務所",
+      "kana": "じむしょ",
+      "en": "Office",
+      "my": "ရုံးခန်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l03.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.v008",
+      "lessonId": "n5.l03",
+      "ja": "受付",
+      "kana": "うけつけ",
+      "en": "Reception desk",
+      "my": "ဧည့်ကြိုကောင်တာ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l03.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.v009",
+      "lessonId": "n5.l03",
+      "ja": "ロビー",
+      "kana": "ろびー",
+      "en": "Lobby",
+      "my": "ဧည့်ခန်းမဆောင်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l03.s009",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.v010",
+      "lessonId": "n5.l03",
+      "ja": "トイレ",
+      "kana": "といれ",
+      "en": "Restroom / Toilet",
+      "my": "အိမ်သာ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l03.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.v011",
+      "lessonId": "n5.l03",
+      "ja": "学校",
+      "kana": "がっこう",
+      "en": "School",
+      "my": "ကျောင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l03.s010",
+      "kanjiIds": [
+        "n5.l03.k003"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.v012",
+      "lessonId": "n5.l03",
+      "ja": "大学",
+      "kana": "だいがく",
+      "en": "University",
+      "my": "တက္ကသိုလ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l03.s006",
+      "kanjiIds": [
+        "n5.l03.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l03.k001",
+      "lessonId": "n5.l03",
+      "char": "大",
+      "meaning": "Big, large",
+      "onyomi": [
+        "ダイ",
+        "タイ"
+      ],
+      "kunyomi": [
+        "おお-",
+        "おお.きい"
+      ],
+      "exampleVocab": [
+        {
+          "word": "大学 (だいがく)",
+          "reading": "だいがく",
+          "meaning": "University",
+          "preview": false
+        },
+        {
+          "word": "大人 (おとな)",
+          "reading": "おとな",
+          "meaning": "Adult",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l03.s001"
+      ],
+      "components": [
+        "大"
+      ],
+      "strokes": 3,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.k002",
+      "lessonId": "n5.l03",
+      "char": "学",
+      "meaning": "Study, learn",
+      "onyomi": [
+        "ガク"
+      ],
+      "kunyomi": [
+        "まな.ぶ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "学生 (がくせい)",
+          "reading": "がくせい",
+          "meaning": "Student",
+          "preview": false
+        },
+        {
+          "word": "学校 (がっこう)",
+          "reading": "がっこう",
+          "meaning": "School",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l03.s002"
+      ],
+      "components": [
+        "学"
+      ],
+      "strokes": 8,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.k003",
+      "lessonId": "n5.l03",
+      "char": "校",
+      "meaning": "School, exam",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "学校 (がっこう)",
+          "reading": "がっこう",
+          "meaning": "School",
+          "preview": false
+        },
+        {
+          "word": "高校 (こうこう)",
+          "reading": "こうこう",
+          "meaning": "High school",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l03.s003"
+      ],
+      "components": [
+        "校"
+      ],
+      "strokes": 10,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.k004",
+      "lessonId": "n5.l03",
+      "char": "先",
+      "meaning": "Previous, ahead",
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "さき"
+      ],
+      "exampleVocab": [
+        {
+          "word": "先生 (せんせい)",
+          "reading": "せんせい",
+          "meaning": "Teacher",
+          "preview": false
+        },
+        {
+          "word": "先週 (せんしゅう)",
+          "reading": "せんしゅう",
+          "meaning": "Last week",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l03.s004"
+      ],
+      "components": [
+        "先"
+      ],
+      "strokes": 6,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l03.g001",
+      "lessonId": "n5.l03",
+      "pattern": "[Noun] は [Place] です",
+      "meaning": "[Noun] is at [Place]",
+      "formation": "Noun + は + Place (ここ/そこ/あそこ) + です",
+      "explanation": {
+        "en": "States the location of a person, object, or facility.",
+        "my": "လူ၊ ပစ္စည်း သို့မဟုတ် နေရာဌာန တည်ရှိရာကို ဖော်ပြရာတွင် သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l03.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l03.s003",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse どこ (where) with どれ (which one). Use どこ to ask for physical location."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.g002",
+      "lessonId": "n5.l03",
+      "pattern": "[Noun] は どこですか",
+      "meaning": "Where is [Noun]?",
+      "formation": "Noun + は + どこ / どちら + ですか",
+      "explanation": {
+        "en": "Used to ask the location of an office, room, or item. どちら is the polite equivalent of どこ.",
+        "my": "နေရာကို မေးမြန်းရာတွင် 「〜は どこですか」 သို့မဟုတ် ပိုမိုယဉ်ကျေးစွာ 「〜は どちらですか」 ဟု သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l03.s002",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l03.s006",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Remember that polite conversations (reception, department stores) prefer どちら/こちら/そちら/あちら over どこ/ここ/そこ/あそこ."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l03.s001",
+      "lessonId": "n5.l03",
+      "ja": "受付はあそこです。",
+      "kana": "うけつけはあそこです。",
+      "translation": {
+        "en": "The reception desk is over there.",
+        "my": "ဧည့်ကြိုကောင်တာက ဟိုမှာပါ။"
+      },
+      "vocabIds": [
+        "n5.l03.v003",
+        "n5.l03.v008"
+      ],
+      "grammarIds": [
+        "n5.l03.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.s002",
+      "lessonId": "n5.l03",
+      "ja": "トイレはどこですか。",
+      "kana": "といれはどこですか。",
+      "translation": {
+        "en": "Where is the restroom?",
+        "my": "အိမ်သာ ဘယ်မှာလဲ ခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n5.l03.v004",
+        "n5.l03.v010"
+      ],
+      "grammarIds": [
+        "n5.l03.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.s003",
+      "lessonId": "n5.l03",
+      "ja": "食堂は地下一階です。",
+      "kana": "しょくどう打はちかいっかいです。",
+      "translation": {
+        "en": "The cafeteria is in the first basement floor.",
+        "my": "ထမင်းစားခန်းက မြေအောက်ထပ်မှာပါ။"
+      },
+      "vocabIds": [
+        "n5.l03.v006"
+      ],
+      "grammarIds": [
+        "n5.l03.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.s004",
+      "lessonId": "n5.l03",
+      "ja": "事務所は二階です。",
+      "kana": "じむしょはにかいです。",
+      "translation": {
+        "en": "The office is on the second floor.",
+        "my": "ရုံးခန်းက ဒုတိယထပ်မှာပါ။"
+      },
+      "vocabIds": [
+        "n5.l03.v007"
+      ],
+      "grammarIds": [
+        "n5.l03.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.s005",
+      "lessonId": "n5.l03",
+      "ja": "先生の部屋はそこです。",
+      "kana": "せんせいのへやはそこです。",
+      "translation": {
+        "en": "The teacher's room is there (near listener).",
+        "my": "ဆရာ့အခန်းက အဲဒီမှာပါ။"
+      },
+      "vocabIds": [
+        "n5.l03.v002"
+      ],
+      "grammarIds": [
+        "n5.l03.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.s006",
+      "lessonId": "n5.l03",
+      "ja": "大学の図書館はどちらですか。",
+      "kana": "だいがくのとしょかんはどちらですか。",
+      "translation": {
+        "en": "Which way is the university library?",
+        "my": "တက္ကသိုလ်စာကြည့်တိုက်က ဘယ်ဘက်မှာပါလဲ။"
+      },
+      "vocabIds": [
+        "n5.l03.v012"
+      ],
+      "grammarIds": [
+        "n5.l03.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.s007",
+      "lessonId": "n5.l03",
+      "ja": "これはここです。",
+      "kana": "これはここです。",
+      "translation": {
+        "en": "This is a here (near speaker).",
+        "my": "ဒါဟာ ဒီနေရာ ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l03.v001"
+      ],
+      "grammarIds": [
+        "n5.l03.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.s008",
+      "lessonId": "n5.l03",
+      "ja": "これは教室です。",
+      "kana": "これはきょうしつです。",
+      "translation": {
+        "en": "This is a classroom.",
+        "my": "ဒါဟာ စာသင်ခန်း ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l03.v005"
+      ],
+      "grammarIds": [
+        "n5.l03.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.s009",
+      "lessonId": "n5.l03",
+      "ja": "これはロビーです。",
+      "kana": "これはろびーです。",
+      "translation": {
+        "en": "This is a lobby.",
+        "my": "ဒါဟာ ဧည့်ခန်းမဆောင် ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l03.v009"
+      ],
+      "grammarIds": [
+        "n5.l03.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l03.s010",
+      "lessonId": "n5.l03",
+      "ja": "これは学校です。",
+      "kana": "これはがっこうです。",
+      "translation": {
+        "en": "This is a school.",
+        "my": "ဒါဟာ ကျောင်း ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l03.v011"
+      ],
+      "grammarIds": [
+        "n5.l03.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l03.r01",
+    "lessonId": "n5.l03",
+    "title": "Places and Locations (ここ・そこ・あそこ) - 読解",
+    "level": "N5",
+    "text": "ここはさくら日本語学校です。一階に受付とロビーがあります。事務所も一階です。二階に教室と先生の部屋があります。三階に図書館とコンピュータ室があります。食堂は地下一階です。トイレは各階にあります。",
+    "kanaText": "ここはさくらにほんごがっこうです。いっかいにうけつけとろびーがあります。じむしょもいっかいです。にかいにきょうしつとせんせいのへやがあります。さんかいにとしょかんとこんぴゅーたしつがあります。しょくどうはちかいっかいです。といれはかくかいにあります。",
+    "translation": "This is Sakura Japanese Language School. There is a reception desk and a lobby on the first floor. The office is also on the first floor. On the second floor are classrooms and the teachers' room. On the third floor are the library and computer room. The cafeteria is on the basement level. Restrooms are located on every floor.",
+    "questionIds": [
+      "n5.l03.q021",
+      "n5.l03.q022",
+      "n5.l03.q023",
+      "n5.l03.q024",
+      "n5.l03.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l03.l01",
+    "lessonId": "n5.l03",
+    "title": "Places and Locations (ここ・そこ・あそこ) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "学生",
+      "受付"
+    ],
+    "transcript": "学生：すみません、田中先生の研究室はどちらですか。\n受付：田中先生の研究室は四階の４０２号室です。エレベーターはあちらです。\n学生：ありがとうございます。あと、トイレはどこですか。\n受付：トイレはエレベーターの右側にございます。",
+    "translation": "A student visiting an office building asks the receptionist where the meeting room and restroom are.",
+    "turns": [
+      {
+        "speaker": "学生",
+        "ja": "すみません、田中先生の研究室はどちらですか。",
+        "kana": "すみません、たなかせんせいのけんきゅうしつはどちらですか。",
+        "en": "Excuse me, which way is Professor Tanaka's office?"
+      },
+      {
+        "speaker": "受付",
+        "ja": "田中先生の研究室は四階の４０２号室です。エレベーターはあちらです。",
+        "kana": "たなかせんせいのけんきゅうしつはよんかいのよんまるにごうしつです。えれべーたーはあちらです。",
+        "en": "Professor Tanaka's office is room 402 on the 4th floor. The elevator is over that way."
+      },
+      {
+        "speaker": "学生",
+        "ja": "ありがとうございます。あと、トイレはどこですか。",
+        "kana": "ありがとうございます。あと、といれはどこですか。",
+        "en": "Thank you very much. Also, where is the restroom?"
+      },
+      {
+        "speaker": "受付",
+        "ja": "トイレはエレベーターの右側にございます。",
+        "kana": "といれはえれべーたーのみぎがわにございます。",
+        "en": "The restroom is on the right side of the elevator."
+      }
+    ],
+    "questionIds": [
+      "n5.l03.q026",
+      "n5.l03.q027",
+      "n5.l03.q028",
+      "n5.l03.q029",
+      "n5.l03.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l03.q001",
+      "lessonId": "n5.l03",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「ここ」の意味は何ですか。 (What does 「ここ」 mean?)",
+      "choices": [
+        "Here (near speaker)",
+        "There (near listener)",
+        "Over there (far from both)",
+        "Where"
+      ],
+      "answer": "Here (near speaker)",
+      "acceptedAnswers": [
+        "Here (near speaker)"
+      ],
+      "explanation": "「ここ」(ここ) means \"Here (near speaker)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q002",
+      "lessonId": "n5.l03",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"There (near listener)\" in hiragana:",
+      "answer": "そこ",
+      "acceptedAnswers": [
+        "そこ",
+        "そこ"
+      ],
+      "explanation": "The Japanese word for \"There (near listener)\" is そこ (そこ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q003",
+      "lessonId": "n5.l03",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「あそこ」の意味は何ですか。 (What does 「あそこ」 mean?)",
+      "choices": [
+        "Cafeteria / Dining hall",
+        "Classroom",
+        "Where",
+        "Over there (far from both)"
+      ],
+      "answer": "Over there (far from both)",
+      "acceptedAnswers": [
+        "Over there (far from both)"
+      ],
+      "explanation": "「あそこ」(あそこ) means \"Over there (far from both)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q004",
+      "lessonId": "n5.l03",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Where\" in hiragana:",
+      "answer": "どこ",
+      "acceptedAnswers": [
+        "どこ",
+        "どこ"
+      ],
+      "explanation": "The Japanese word for \"Where\" is どこ (どこ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q005",
+      "lessonId": "n5.l03",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「教室」の意味は何ですか。 (What does 「教室」 mean?)",
+      "choices": [
+        "Reception desk",
+        "Office",
+        "Cafeteria / Dining hall",
+        "Classroom"
+      ],
+      "answer": "Classroom",
+      "acceptedAnswers": [
+        "Classroom"
+      ],
+      "explanation": "「教室」(きょうしつ) means \"Classroom\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q006",
+      "lessonId": "n5.l03",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Cafeteria / Dining hall\" in hiragana:",
+      "answer": "しょくどう",
+      "acceptedAnswers": [
+        "しょくどう",
+        "食堂"
+      ],
+      "explanation": "The Japanese word for \"Cafeteria / Dining hall\" is 食堂 (しょくどう).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q007",
+      "lessonId": "n5.l03",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「事務所」の意味は何ですか。 (What does 「事務所」 mean?)",
+      "choices": [
+        "Office",
+        "Reception desk",
+        "Lobby",
+        "Restroom / Toilet"
+      ],
+      "answer": "Office",
+      "acceptedAnswers": [
+        "Office"
+      ],
+      "explanation": "「事務所」(じむしょ) means \"Office\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q008",
+      "lessonId": "n5.l03",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Reception desk\" in hiragana:",
+      "answer": "うけつけ",
+      "acceptedAnswers": [
+        "うけつけ",
+        "受付"
+      ],
+      "explanation": "The Japanese word for \"Reception desk\" is 受付 (うけつけ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q009",
+      "lessonId": "n5.l03",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「ロビー」の意味は何ですか。 (What does 「ロビー」 mean?)",
+      "choices": [
+        "University",
+        "School",
+        "Restroom / Toilet",
+        "Lobby"
+      ],
+      "answer": "Lobby",
+      "acceptedAnswers": [
+        "Lobby"
+      ],
+      "explanation": "「ロビー」(ろびー) means \"Lobby\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q010",
+      "lessonId": "n5.l03",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Restroom / Toilet\" in hiragana:",
+      "answer": "といれ",
+      "acceptedAnswers": [
+        "といれ",
+        "トイレ"
+      ],
+      "explanation": "The Japanese word for \"Restroom / Toilet\" is トイレ (といれ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q011",
+      "lessonId": "n5.l03",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「学校」の意味は何ですか。 (What does 「学校」 mean?)",
+      "choices": [
+        "There (near listener)",
+        "Here (near speaker)",
+        "University",
+        "School"
+      ],
+      "answer": "School",
+      "acceptedAnswers": [
+        "School"
+      ],
+      "explanation": "「学校」(がっこう) means \"School\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q012",
+      "lessonId": "n5.l03",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"University\" in hiragana:",
+      "answer": "だいがく",
+      "acceptedAnswers": [
+        "だいがく",
+        "大学"
+      ],
+      "explanation": "The Japanese word for \"University\" is 大学 (だいがく).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q013",
+      "lessonId": "n5.l03",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「大」の意味は何ですか。 (What is the meaning of kanji 「大」?)",
+      "choices": [
+        "Big, large",
+        "Study, learn",
+        "School, exam",
+        "Tree"
+      ],
+      "answer": "Big, large",
+      "acceptedAnswers": [
+        "Big, large"
+      ],
+      "explanation": "「大」means \"Big, large\". Onyomi: ダイ, タイ, Kunyomi: おお-, おお.きい.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q014",
+      "lessonId": "n5.l03",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「大」の読み方はどれですか。 (Which is a correct reading for 「大」?)",
+      "choices": [
+        "おお",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "おお",
+      "acceptedAnswers": [
+        "おお"
+      ],
+      "explanation": "「大」 has the reading 「おお」 (Big, large).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q015",
+      "lessonId": "n5.l03",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「学」の意味は何ですか。 (What is the meaning of kanji 「学」?)",
+      "choices": [
+        "Study, learn",
+        "Big, large",
+        "School, exam",
+        "Tree"
+      ],
+      "answer": "Study, learn",
+      "acceptedAnswers": [
+        "Study, learn"
+      ],
+      "explanation": "「学」means \"Study, learn\". Onyomi: ガク, Kunyomi: まな.ぶ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q016",
+      "lessonId": "n5.l03",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「学」の読み方はどれですか。 (Which is a correct reading for 「学」?)",
+      "choices": [
+        "まな.ぶ",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "まな.ぶ",
+      "acceptedAnswers": [
+        "まな.ぶ"
+      ],
+      "explanation": "「学」 has the reading 「まな.ぶ」 (Study, learn).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q017",
+      "lessonId": "n5.l03",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「校」の意味は何ですか。 (What is the meaning of kanji 「校」?)",
+      "choices": [
+        "School, exam",
+        "Big, large",
+        "Study, learn",
+        "Tree"
+      ],
+      "answer": "School, exam",
+      "acceptedAnswers": [
+        "School, exam"
+      ],
+      "explanation": "「校」means \"School, exam\". Onyomi: コウ, Kunyomi: —.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q018",
+      "lessonId": "n5.l03",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「校」の読み方はどれですか。 (Which is a correct reading for 「校」?)",
+      "choices": [
+        "コウ",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "コウ",
+      "acceptedAnswers": [
+        "コウ"
+      ],
+      "explanation": "「校」 has the reading 「コウ」 (School, exam).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q019",
+      "lessonId": "n5.l03",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「先」の意味は何ですか。 (What is the meaning of kanji 「先」?)",
+      "choices": [
+        "Previous, ahead",
+        "Big, large",
+        "Study, learn",
+        "Tree"
+      ],
+      "answer": "Previous, ahead",
+      "acceptedAnswers": [
+        "Previous, ahead"
+      ],
+      "explanation": "「先」means \"Previous, ahead\". Onyomi: セン, Kunyomi: さき.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q020",
+      "lessonId": "n5.l03",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「先」の読み方はどれですか。 (Which is a correct reading for 「先」?)",
+      "choices": [
+        "さき",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "さき",
+      "acceptedAnswers": [
+        "さき"
+      ],
+      "explanation": "「先」 has the reading 「さき」 (Previous, ahead).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q021",
+      "lessonId": "n5.l03",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "事務所は何階にありますか。 (Which floor is the office on?)",
+      "choices": [
+        "一階",
+        "二階",
+        "三階",
+        "地下一階"
+      ],
+      "answer": "一階",
+      "acceptedAnswers": [
+        "一階"
+      ],
+      "explanation": "The guide states: 「事務所も一階です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q022",
+      "lessonId": "n5.l03",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "食堂はどこですか。 (Where is the cafeteria?)",
+      "choices": [
+        "地下一階",
+        "一階",
+        "二階",
+        "三階"
+      ],
+      "answer": "地下一階",
+      "acceptedAnswers": [
+        "地下一階"
+      ],
+      "explanation": "The text specifies 「食堂は地下一階です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q023",
+      "lessonId": "n5.l03",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "二階にある施設は何ですか。 (What facilities are on the second floor?)",
+      "choices": [
+        "教室と先生の部屋",
+        "受付とロビー",
+        "図書館と食堂",
+        "コンピュータ室のみ"
+      ],
+      "answer": "教室と先生の部屋",
+      "acceptedAnswers": [
+        "教室と先生の部屋"
+      ],
+      "explanation": "The text says 「二階に教室と先生の部屋があります」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q024",
+      "lessonId": "n5.l03",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "トイレはどこにありますか。 (Where are the restrooms located?)",
+      "choices": [
+        "各階にある",
+        "一階にのみある",
+        "地下一階だけ",
+        "三階の奥"
+      ],
+      "answer": "各階にある",
+      "acceptedAnswers": [
+        "各階にある"
+      ],
+      "explanation": "「トイレは各階にあります」 means restrooms are available on every floor.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q025",
+      "lessonId": "n5.l03",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "図書館は何階ですか。 (Which floor has the library?)",
+      "choices": [
+        "三階",
+        "二階",
+        "一階",
+        "屋上"
+      ],
+      "answer": "三階",
+      "acceptedAnswers": [
+        "三階"
+      ],
+      "explanation": "「三階に図書館とコンピュータ室があります」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q026",
+      "lessonId": "n5.l03",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "田中先生の研究室は何階ですか。 (Which floor is Professor Tanaka's office?)",
+      "choices": [
+        "四階 (402号室)",
+        "二階 (204号室)",
+        "三階 (301号室)",
+        "一階の受付横"
+      ],
+      "answer": "四階 (402号室)",
+      "acceptedAnswers": [
+        "四階 (402号室)"
+      ],
+      "explanation": "The receptionist answers: 「田中先生の研究室は四階の４０２号室です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q027",
+      "lessonId": "n5.l03",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "トイレはどこにありますか。 (Where is the restroom?)",
+      "choices": [
+        "エレベーターの右側",
+        "四階の研究室の中",
+        "受付のすぐ後ろ",
+        "地下一階"
+      ],
+      "answer": "エレベーターの右側",
+      "acceptedAnswers": [
+        "エレベーターの右側"
+      ],
+      "explanation": "The receptionist clarifies: 「トイレはエレベーターの右側にございます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q028",
+      "lessonId": "n5.l03",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "案内をした人は誰ですか。 (Who gave the directions?)",
+      "choices": [
+        "受付の人",
+        "田中先生",
+        "清掃員",
+        "別の学生"
+      ],
+      "answer": "受付の人",
+      "acceptedAnswers": [
+        "受付の人"
+      ],
+      "explanation": "The conversation takes place at the reception desk with the receptionist.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q029",
+      "lessonId": "n5.l03",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "エレベーターの場所を示すとき、受付の人は何と言いましたか。 (What word did the receptionist use for the elevator location?)",
+      "choices": [
+        "あちら",
+        "ここ",
+        "そこ",
+        "どれ"
+      ],
+      "answer": "あちら",
+      "acceptedAnswers": [
+        "あちら"
+      ],
+      "explanation": "The receptionist politely says: 「エレベーターはあちらです」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l03.q030",
+      "lessonId": "n5.l03",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "学生は何を聞きましたか。 (What did the student ask about?)",
+      "choices": [
+        "研究室とトイレの場所",
+        "教科書の値段",
+        "授業の開始時間",
+        "電車の乗り場"
+      ],
+      "answer": "研究室とトイレの場所",
+      "acceptedAnswers": [
+        "研究室とトイレの場所"
+      ],
+      "explanation": "The student asks for Tanaka-sensei's office and then the restroom.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l03.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

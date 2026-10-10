@@ -1,0 +1,2613 @@
+[
+  {
+    "id": "n5.l01",
+    "level": "N5",
+    "module": "N5 Foundation 1",
+    "number": 1,
+    "title": "Greetings & Self Introduction",
+    "grammarTopics": [
+      "X は Y です",
+      "X は Y ですか",
+      "X の Y"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l02",
+    "level": "N5",
+    "module": "N5 Foundation 1",
+    "number": 2,
+    "title": "This, That, and Over There (これ・それ・あれ)",
+    "grammarTopics": [
+      "これ / それ / あれ は [Noun] です",
+      "この / その / あの [Noun] は [Person] の です"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l03",
+    "level": "N5",
+    "module": "N5 Foundation 1",
+    "number": 3,
+    "title": "Places and Locations (ここ・そこ・あそこ)",
+    "grammarTopics": [
+      "[Noun] は [Place] です",
+      "[Noun] は どこですか"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l04",
+    "level": "N5",
+    "module": "N5 Foundation 1",
+    "number": 4,
+    "title": "Time, Dates, and Schedules (何時・何日)",
+    "grammarTopics": [
+      "今 [Time] です",
+      "[Time/Day] から [Time/Day] まで"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l05",
+    "level": "N5",
+    "module": "N5 Foundation 1",
+    "number": 5,
+    "title": "Daily Routine & Motion Verbs (行きます・来ます)",
+    "grammarTopics": [
+      "[Place] へ 行きます / 来ます / 帰ります",
+      "[Transport] で 行きます"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l06",
+    "level": "N5",
+    "module": "N5 Foundation 1",
+    "number": 6,
+    "title": "Actions with Objects (を・で)",
+    "grammarTopics": [
+      "[Noun] を [Verb] します",
+      "[Place] で [Verb] します"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l07",
+    "level": "N5",
+    "module": "N5 Foundation 1",
+    "number": 7,
+    "title": "Giving and Receiving Tools (あげます・もらいます)",
+    "grammarTopics": [
+      "[Tool / Language] で [Action]",
+      "[Person] に [Item] を あげます / もらいます"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l08",
+    "level": "N5",
+    "module": "N5 Foundation 1",
+    "number": 8,
+    "title": "Adjectives: Describing Things (い形容詞・な形容詞)",
+    "grammarTopics": [
+      "[Noun] は [い-Adj] です / 〜くないです",
+      "[Noun] は [な-Adj] です / ではありません"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l09",
+    "level": "N5",
+    "module": "N5 Foundation 1",
+    "number": 9,
+    "title": "Preferences and Abilities (好き・上手)",
+    "grammarTopics": [
+      "[Noun] が 好きです / 上手です",
+      "[Reason sentence] から、[Result sentence]"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l10",
+    "level": "N5",
+    "module": "N5 Foundation 1",
+    "number": 10,
+    "title": "Existence and Location (います・あります)",
+    "grammarTopics": [
+      "[Place] に [Thing] が あります / [Person/Animal] が います",
+      "[Noun 1] の [Position] に [Noun 2] が あります/います"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l11",
+    "level": "N5",
+    "module": "N5 Core Conjugations",
+    "number": 11,
+    "title": "Counting and Quantities (つ・人・本)",
+    "grammarTopics": [
+      "[Noun] を [Quantity] 買います / 食べます",
+      "[Period] に [Times] [Verb]"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l12",
+    "level": "N5",
+    "module": "N5 Core Conjugations",
+    "number": 12,
+    "title": "Past Tense of Adjectives and Verbs",
+    "grammarTopics": [
+      "[い-Adj] かったです / 〜くなかったです",
+      "[Noun / な-Adj] でした / 〜ではありませんでした"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l13",
+    "level": "N5",
+    "module": "N5 Core Conjugations",
+    "number": 13,
+    "title": "Comparisons (より・のほうが)",
+    "grammarTopics": [
+      "[A] は [B] より [Adj] です",
+      "[Category] の中で [Item] が 一番 [Adj] です"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l14",
+    "level": "N5",
+    "module": "N5 Core Conjugations",
+    "number": 14,
+    "title": "Desires and Wants (ほしい・〜たい)",
+    "grammarTopics": [
+      "[Noun] が ほしいです / [Verb stem] たいです",
+      "[Place] へ [Verb stem / Noun] に 行きます / 来ます"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l15",
+    "level": "N5",
+    "module": "N5 Core Conjugations",
+    "number": 15,
+    "title": "The Te-form: Requests and Continuous (てください・ています)",
+    "grammarTopics": [
+      "[Verb-te] ください",
+      "[Verb-te] います"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l16",
+    "level": "N5",
+    "module": "N5 Core Conjugations",
+    "number": 16,
+    "title": "Permission and Prohibition (てもいい・てはいけません)",
+    "grammarTopics": [
+      "[Verb-te] も いいですか",
+      "[Verb-te] は いけません"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l17",
+    "level": "N5",
+    "module": "N5 Core Conjugations",
+    "number": 17,
+    "title": "Connecting Actions (て、てから)",
+    "grammarTopics": [
+      "[V-te]、[V-te]、それから [Verb]",
+      "[Verb-te] から、[Action 2]"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l18",
+    "level": "N5",
+    "module": "N5 Core Conjugations",
+    "number": 18,
+    "title": "The Nai-form: Obligations (ないでください・なければなりません)",
+    "grammarTopics": [
+      "[Verb-nai] でください",
+      "[Verb-nai] なければなりません"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l19",
+    "level": "N5",
+    "module": "N5 Core Conjugations",
+    "number": 19,
+    "title": "Ability and Possibility (ことができます)",
+    "grammarTopics": [
+      "[Verb dict] ことが できます",
+      "私の趣味は [Verb dict] ことです"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l20",
+    "level": "N5",
+    "module": "N5 Core Conjugations",
+    "number": 20,
+    "title": "Experience (たことがあります)",
+    "grammarTopics": [
+      "[Verb-ta] ことが あります",
+      "一度も [Verb-ta] ことが ありません"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l21",
+    "level": "N5",
+    "module": "N5 Communication & Integration",
+    "number": 21,
+    "title": "Becoming and Listing (〜くなる・〜になる・〜たり〜たり)",
+    "grammarTopics": [
+      "い-adj (〜く) / な-adj・Noun (〜に) + なります",
+      "[V1-ta] り、[V2-ta] り します"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l22",
+    "level": "N5",
+    "module": "N5 Communication & Integration",
+    "number": 22,
+    "title": "Informal Plain Form (普通形: 書く・書かない・書いた)",
+    "grammarTopics": [
+      "Plain Present Form (普通形 現在: 書く・書かない・高い・暇だ)",
+      "Plain Past Form (普通形 過去: 書いた・書かなかった・高かった・暇だった)"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l23",
+    "level": "N5",
+    "module": "N5 Communication & Integration",
+    "number": 23,
+    "title": "Opinions and Thoughts (〜と思います)",
+    "grammarTopics": [
+      "[Plain Form] と 思います",
+      "〜について どう 思いますか"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l24",
+    "level": "N5",
+    "module": "N5 Communication & Integration",
+    "number": 24,
+    "title": "Quotations and Confirmation (〜と言いました・〜でしょう)",
+    "grammarTopics": [
+      "[Plain Form / Quote] と 言いました",
+      "[Plain Form] でしょう / だろう"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l25",
+    "level": "N5",
+    "module": "N5 Communication & Integration",
+    "number": 25,
+    "title": "Noun-Modifying Clauses (連体修飾節)",
+    "grammarTopics": [
+      "[Clause: Verb Plain Form] + Noun",
+      "これは [Clause] Noun です"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l26",
+    "level": "N5",
+    "module": "N5 Communication & Integration",
+    "number": 26,
+    "title": "Time and Directions (〜とき・道案内)",
+    "grammarTopics": [
+      "[V-dic / V-ta / い-adj / な-adj / N-の] とき",
+      "[V-dic] と、〜"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l27",
+    "level": "N5",
+    "module": "N5 Communication & Integration",
+    "number": 27,
+    "title": "Conditions: If and When (〜たら・〜ても)",
+    "grammarTopics": [
+      "[V-ta / A-katta / N-datta] ら、〜",
+      "[V-te / A-kute / N-demo] も、〜"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l28",
+    "level": "N5",
+    "module": "N5 Communication & Integration",
+    "number": 28,
+    "title": "Advice and Suggestions (〜たほうがいい・〜ませんか)",
+    "grammarTopics": [
+      "[V-ta] ほうがいいです / [V-nai] ほうがいいです",
+      "[V-masu-stem] ませんか / ましょう"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l29",
+    "level": "N5",
+    "module": "N5 Communication & Integration",
+    "number": 29,
+    "title": "Reasons and Explanations (〜から・〜ので・〜んです)",
+    "grammarTopics": [
+      "[Clause] から vs [Clause] ので",
+      "[Plain Form] んです (の です)"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n5.l30",
+    "level": "N5",
+    "module": "N5 Communication & Integration",
+    "number": 30,
+    "title": "N5 Comprehensive Review and Integration (総まとめ & Can-do)",
+    "grammarTopics": [
+      "Verb Form Integration (て形・ない形・た形・辞書形)",
+      "Particle Discrimination (は・が・を・に・で・へ・と・から・まで・より)"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l01",
+    "level": "N4",
+    "module": "N4 Intermediate Grammar 1",
+    "number": 1,
+    "title": "N4 Lesson 1: Potential Form (可能形: 読める・話せる / 見える・聞こえる)",
+    "grammarTopics": [
+      "[Verb Potential Form] (が 話せる / が 読める)",
+      "〜が 見える / 〜が 聞こえる"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l02",
+    "level": "N4",
+    "module": "N4 Intermediate Grammar 1",
+    "number": 2,
+    "title": "N4 Lesson 2: Volitional Form (意向形: 行こう・食べよう / 〜つもり・〜予定)",
+    "grammarTopics": [
+      "[Verb Volitional Form] と 思っています",
+      "[Verb Dict / Verb-nai] つもりです / [Verb Dict / Noun の] 予定です"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l03",
+    "level": "N4",
+    "module": "N4 Intermediate Grammar 1",
+    "number": 3,
+    "title": "N4 Lesson 3: Imperative & Prohibitive (命令形・禁止形: 読め・読むな)",
+    "grammarTopics": [
+      "命令形 (走れ / 止めろ) / 禁止形 ([Verb-dict] な)",
+      "「〜」と 書いて あります / 「〜」は ... という 意味 です"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l04",
+    "level": "N4",
+    "module": "N4 Intermediate Grammar 1",
+    "number": 4,
+    "title": "N4 Lesson 4: Conditional ば-form (仮定形: 行けば・安ければ)",
+    "grammarTopics": [
+      "[Verb-ば] / [い-adj 〜ければ] / [な-adj/Noun なら(ば)]",
+      "[Verb-ば] [Verb-dict] ほど / [い-adj 〜ければ] [い-adj] ほど"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l05",
+    "level": "N4",
+    "module": "N4 Intermediate Grammar 1",
+    "number": 5,
+    "title": "N4 Lesson 5: Conditional なら & Advice (〜なら・〜たら contrast)",
+    "grammarTopics": [
+      "[Noun / Plain Form] なら、〜",
+      "〜たら / 〜ば / 〜と / 〜なら"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l06",
+    "level": "N4",
+    "module": "N4 Intermediate Grammar 1",
+    "number": 6,
+    "title": "N4 Lesson 6: Transitive vs Intransitive Verbs (自動詞・他動詞)",
+    "grammarTopics": [
+      "[Noun] を 他動詞 (開ける / つける) vs [Noun] が 自動詞 (開く / つく)",
+      "[Noun] が [Intransitive Verb-te] います"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l07",
+    "level": "N4",
+    "module": "N4 Intermediate Grammar 1",
+    "number": 7,
+    "title": "N4 Lesson 7: State Continuance (〜てある vs 〜ている)",
+    "grammarTopics": [
+      "[Noun] が [Transitive Verb-te] あります",
+      "もう [Transitive Verb-te] あります"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l08",
+    "level": "N4",
+    "module": "N4 Intermediate Grammar 1",
+    "number": 8,
+    "title": "N4 Lesson 8: Preparation & Completion (〜ておく・〜てしまう)",
+    "grammarTopics": [
+      "[Verb-te] おきます",
+      "[Verb-te] しまいました / [Verb-te] しまいます"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l09",
+    "level": "N4",
+    "module": "N4 Intermediate Grammar 1",
+    "number": 9,
+    "title": "N4 Lesson 9: Hearsay そうだ vs Appearance そうだ",
+    "grammarTopics": [
+      "[Verb stem / Adj stem] そうです",
+      "[Plain Form] そうです"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l10",
+    "level": "N4",
+    "module": "N4 Intermediate Grammar 1",
+    "number": 10,
+    "title": "N4 Lesson 10: Giving & Receiving (あげる・くれる・もらう)",
+    "grammarTopics": [
+      "[A] は [B] に [物] を あげる / くれる / もらう",
+      "[Verb-te] あげる / [Verb-te] くれる / [Verb-te] もらう"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l11",
+    "level": "N4",
+    "module": "N4 Intermediate Grammar 1",
+    "number": 11,
+    "title": "N4 Lesson 11: Passive Form (受け身: 叱られる・褒められる)",
+    "grammarTopics": [
+      "[Person A] は [Person B] に [Verb 受身形 (〜られる)]",
+      "[Person A] は [Person B] に [Object] を [Verb 受身形 (〜られる)] (迷惑の受け身)"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l12",
+    "level": "N4",
+    "module": "N4 Intermediate Grammar 1",
+    "number": 12,
+    "title": "N4 Lesson 12: Causative Form (使役: 読ませる・食べさせる)",
+    "grammarTopics": [
+      "[Causer] は [Causee] に [Object] を [Verb 使役形 (〜せる/〜させる)]",
+      "[Causer] は [Causee] を [Verb 使役形 (〜せる/〜させる)]"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l13",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 13,
+    "title": "N4 Lesson 13: Causative-Passive Form (使役受け身: 待たされる・行かされる)",
+    "grammarTopics": [
+      "[Subject] は [Agent] に [Verb 使役受身形 (〜させられる / 〜される)]",
+      "[Event/Situation] で [Verb 使役受身形 (〜させられた / 考えさせられた)]"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l14",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 14,
+    "title": "N4 Lesson 14: Respectful Keigo (尊敬語: いらっしゃる・召し上がる・お〜になる)",
+    "grammarTopics": [
+      "[Honorific Verb: いらっしゃる・召し上がる・おっしゃる・なさる・ご覧になる]",
+      "お + [Verb ます-stem] + になる / お + [Verb ます-stem] + ください"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l15",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 15,
+    "title": "N4 Lesson 15: Humble Keigo (謙譲語: 参る・申す・いたす・お〜する)",
+    "grammarTopics": [
+      "[Humble Verb: 参る・申す・いたす・拝見する・いただく・存じている]",
+      "お + [Verb ます-stem] + する / ご + [Noun] + する"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l16",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 16,
+    "title": "N4 Lesson 16: Conjecture & Expectation (〜かもしれない・〜はずだ)",
+    "grammarTopics": [
+      "[Plain form] + かもしれない",
+      "[Plain form] + はずだ / はずがない"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l17",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 17,
+    "title": "N4 Lesson 17: Decisions & Plans (〜ことにする・〜ことになる)",
+    "grammarTopics": [
+      "[Verb Dictionary form / ない form] + ことにする / ことにしている",
+      "[Verb Dictionary form / ない form] + ことになる / ことになっている"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l18",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 18,
+    "title": "N4 Lesson 18: Excess & Ease (〜すぎる・〜やすい・〜にくい)",
+    "grammarTopics": [
+      "[Verb ます-stem / i-adj stem / na-adj stem] + すぎる",
+      "[Verb ます-stem] + やすい / にくい"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l19",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 19,
+    "title": "N4 Lesson 19: Change of State (〜ようになる・〜なくなる)",
+    "grammarTopics": [
+      "[Verb Dictionary form (Potential / Intransitive)] + ようになる",
+      "[Verb ない-form] (drop い) + くなる (〜なくなる)"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l20",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 20,
+    "title": "N4 Lesson 20: N4 Reading Comprehension Strategies",
+    "grammarTopics": [
+      "[指示語・接続詞による文脈把握: しかし・そのため・それに・これ/それ]",
+      "[Plain form] + のではないか / 〜必要がある"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l21",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 21,
+    "title": "N4 Lesson 21: Hearsay & Conjectural らしい (〜らしい: 噂・客観的根拠)",
+    "grammarTopics": [
+      "[Plain form / Noun / Na-adj stem] + らしい",
+      "[Noun] + らしい"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l22",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 22,
+    "title": "N4 Lesson 22: Sensory & Visual Inference ようだ (〜ようだ・〜ような・〜ように)",
+    "grammarTopics": [
+      "[Plain form / Nounの / Na-adjな] + ようだ (推量・状況判断)",
+      "まるで + [Nounの / Plain form] + ような [Noun] / ように [Verb/Adj] (比喩・例示)"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l23",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 23,
+    "title": "N4 Lesson 23: Colloquial Resemblance みたいだ (〜みたいだ・〜みたいに・〜みたいな)",
+    "grammarTopics": [
+      "[Noun / Na-adj stem / Verb plain] + みたいだ (口語の推量)",
+      "〜みたいな [Noun] / 〜みたいに [Verb/Adj] (口語の比喩)"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l24",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 24,
+    "title": "N4 Lesson 24: Purpose & Target (目的: 〜ために vs 〜ように)",
+    "grammarTopics": [
+      "[Verb (Dictionary form) / Noun + の] + ために",
+      "[Verb (Potential / Non-volitional / Negative ない-form)] + ように"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l25",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 25,
+    "title": "N4 Lesson 25: Conditional Topic & Advice (仮定・話題提示: 〜なら vs 〜たら・〜ば・〜と)",
+    "grammarTopics": [
+      "[Noun / Plain form] + なら",
+      "Conditional Comparison: 〜なら vs 〜たら vs 〜ば vs 〜と"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l26",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 26,
+    "title": "N4 Lesson 26: Obligation & Prohibition (義務・規則: 〜なければならない・〜てはいけない)",
+    "grammarTopics": [
+      "[Verb ない-form: 〜なければならない / 〜ないといけない]",
+      "[Verb て-form] + はいけない / はだめだ"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l27",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 27,
+    "title": "N4 Lesson 27: Permission & Non-Necessity (許可・不必要: 〜てもいい・〜なくてもいい)",
+    "grammarTopics": [
+      "[Verb て-form] + もいい / もかまわない",
+      "[Verb ない-form minus い] + くてもいい / くてもかまわない"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l28",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 28,
+    "title": "N4 Lesson 28: Experience & Simultaneous Action (経験・並行動作: 〜たことがある・〜ながら)",
+    "grammarTopics": [
+      "[Verb た-form] + ことがある / ことがない",
+      "[Verb ます-stem] + ながら"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l29",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 29,
+    "title": "N4 Lesson 29: Requests & Politeness Registers (依頼表現と敬意レベル: 〜てください・〜てくれませんか・〜ていただけませんか)",
+    "grammarTopics": [
+      "Request Hierarchy: 〜てください vs 〜てくれませんか vs 〜ていただけませんか",
+      "[Verb ない-form] + でください (〜ないでください)"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l30",
+    "level": "N4",
+    "module": "N4 Expressions & Relations",
+    "number": 30,
+    "title": "N4 Lesson 30: Conversational Fluency & Discourse Markers (会話の接続表現・つなぎ言葉: ところで・それに・それで・実は・やっぱり)",
+    "grammarTopics": [
+      "Conversational Transitions: ところで・それに・それで・実は",
+      "やっぱり / やはり (Confirmation of intuition & expectation)"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l31",
+    "level": "N4",
+    "module": "N4 Final Review & Mastery",
+    "number": 31,
+    "title": "N4 Lesson 31: Indirect Questions & Embedded Interrogatives (複文・間接疑問: 〜かどうか・疑問詞〜か)",
+    "grammarTopics": [
+      "[Plain form / Noun / Na-adj stem (*no だ)] + かどうか",
+      "[Interrogative (何/誰/どこ/いつ/どう)] + [Plain form (*no だ)] + か"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l32",
+    "level": "N4",
+    "module": "N4 Final Review & Mastery",
+    "number": 32,
+    "title": "N4 Lesson 32: Nominalization: 〜の vs 〜こと (名詞化の使い分け: 見るの・知ること・趣味は〜こと)",
+    "grammarTopics": [
+      "Nominalization: [Verb Plain form] + の",
+      "Nominalization: [Verb Plain form] + こと"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l33",
+    "level": "N4",
+    "module": "N4 Final Review & Mastery",
+    "number": 33,
+    "title": "N4 Lesson 33: Giving & Receiving Assistance (授受動詞・恩恵表現: 〜てあげる・〜てくれる・〜てもらう)",
+    "grammarTopics": [
+      "[Verb て-form] + あげる vs くれる",
+      "[Verb て-form] + もらう"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l34",
+    "level": "N4",
+    "module": "N4 Final Review & Mastery",
+    "number": 34,
+    "title": "N4 Lesson 34: Passive & Potential Synthesis (受身・可能・自然発生の総合展開: 見える・聞こえる・生まれる・読まれる)",
+    "grammarTopics": [
+      "Spontaneous Sensory Occurrence: 見える vs 見られる / 聞こえる vs 聞ける",
+      "Spontaneous Intransitives vs Passive Voice (自然発生動詞と受身文の統合)"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l35",
+    "level": "N4",
+    "module": "N4 Final Review & Mastery",
+    "number": 35,
+    "title": "N4 Lesson 35: Temporal Stages & Psychological Aspect (時・局面の表現: 〜ところだ vs 〜たばかり)",
+    "grammarTopics": [
+      "[Verb Dictionary / ている / た-form] + ところだ",
+      "[Verb た-form] + ばかりだ / ばかりの + [Noun]"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n4.l36",
+    "level": "N4",
+    "module": "N4 Final Review & Mastery",
+    "number": 36,
+    "title": "N4 Lesson 36: N4 Comprehensive Synthesis & Review (N4総合演習・重要文法識別とN3への橋渡し)",
+    "grammarTopics": [
+      "N4 Core Grammar Discrimination Matrix (類似文法の精密識別)",
+      "Complex Sentence Integration: Giving/Receiving, Nominalization & Embedded Questions"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l01",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 1,
+    "title": "N3 Lesson 1: Regarding & Concerning (対象と関連: 〜について vs 〜に関して)",
+    "grammarTopics": [
+      "〜について",
+      "〜に関して"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l02",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 2,
+    "title": "N3 Lesson 2: Standpoint & Attitude (観点・対象: 〜にとって vs 〜に対して)",
+    "grammarTopics": [
+      "〜にとって",
+      "〜に対して"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l03",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 3,
+    "title": "N3 Lesson 3: Aim & Habitual Effort (目的・努力目標: 〜ようにする vs 〜ようになる)",
+    "grammarTopics": [
+      "〜ようにする",
+      "〜ようになる"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l04",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 4,
+    "title": "N3 Lesson 4: Cause & Means (原因・手段: 〜によって vs 〜による)",
+    "grammarTopics": [
+      "〜によって",
+      "〜による"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l05",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 5,
+    "title": "N3 Lesson 5: Degree & Comparison (程度・比較: 〜ほど vs 〜くらい)",
+    "grammarTopics": [
+      "〜ほど",
+      "〜くらい"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l06",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 6,
+    "title": "N3 Lesson 6: Limit & Exclusivity (限定・最善: 〜に限る vs 〜ばかり)",
+    "grammarTopics": [
+      "〜に限る",
+      "〜ばかり / 〜てばかりいる"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l07",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 7,
+    "title": "N3 Lesson 7: Contrast & Concession (逆接・対比: 〜にもかかわらず vs 〜わりに)",
+    "grammarTopics": [
+      "〜にもかかわらず",
+      "〜わりに（は）"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l08",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 8,
+    "title": "N3 Lesson 8: Simultaneity & Time Flow (同時進行・時間的前後: 〜つつ vs 〜最中に)",
+    "grammarTopics": [
+      "〜つつ / 〜つつも",
+      "〜最中に / 〜最中だ"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l09",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 9,
+    "title": "N3 Lesson 9: Tendency & Feeling (傾向・状態の気配: 〜がち vs 〜気味)",
+    "grammarTopics": [
+      "〜がち",
+      "〜気味"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l10",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 10,
+    "title": "N3 Lesson 10: Natural Consequence & Certainty (必然・当然の帰結: 〜わけだ vs 〜わけがない)",
+    "grammarTopics": [
+      "〜わけだ",
+      "〜わけがない"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l11",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 11,
+    "title": "N3 Lesson 11: Obligation & Inevitability (〜ざるを得ない)",
+    "grammarTopics": [
+      "〜ざるを得ない",
+      "〜わけにはいかない"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l12",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 12,
+    "title": "N3 Lesson 12: Time Sequence (〜次第・〜とたん)",
+    "grammarTopics": [
+      "〜次第",
+      "〜たとたん（に）"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l13",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 13,
+    "title": "N3 Lesson 13: N3 Formal Announcements & Long Passages",
+    "grammarTopics": [
+      "〜に際して / 〜にあたって",
+      "〜を契機に / 〜をきっかけに"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l14",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 14,
+    "title": "N3 Lesson 14: Regarding & Concerning (〜について・〜に関して)",
+    "grammarTopics": [
+      "〜をめぐって / 〜をめぐるN",
+      "〜にかけては"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l15",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 15,
+    "title": "N3 Lesson 15: In Terms of & From Viewpoint (〜にとって・〜に対して)",
+    "grammarTopics": [
+      "〜から見ると / 〜から見れば / 〜から見て",
+      "〜にしたら / 〜にすれば"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l16",
+    "level": "N3",
+    "module": "N3 Bridging Intermediate",
+    "number": 16,
+    "title": "N3 Lesson 16: Purpose & Intent (〜ために・〜ように)",
+    "grammarTopics": [
+      "〜ようとする / 〜ようとしない",
+      "〜ように（頼む・祈る・言う）"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l17",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 17,
+    "title": "N3 Lesson 17: Cause & Result (〜せいで・〜おかげで)",
+    "grammarTopics": [
+      "〜せいで / 〜せいか / 〜せいだ",
+      "〜おかげで / 〜おかげだ"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l18",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 18,
+    "title": "N3 Lesson 18: Degree & Extent (〜ほど・〜くらい)",
+    "grammarTopics": [
+      "〜くらいなら / 〜ぐらいなら",
+      "〜ほど…はない / 〜くらい…はない"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l19",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 19,
+    "title": "N3 Lesson 19: Limit & Exclusivity (〜に限る・〜ばかり)",
+    "grammarTopics": [
+      "〜に限らず",
+      "〜しかない / 〜ほかない"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l20",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 20,
+    "title": "N3 Lesson 20: Contrast & Concession (〜にもかかわらず・〜わりに)",
+    "grammarTopics": [
+      "〜反面 / 〜その反面",
+      "〜一方（で） / 〜その一方で"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l21",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 21,
+    "title": "N3 Lesson 21: Simultaneity (〜つつ・〜最中に)",
+    "grammarTopics": [
+      "〜つつ（も）",
+      "〜ついでに"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l22",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 22,
+    "title": "N3 Lesson 22: Tendency (〜がち・〜気味)",
+    "grammarTopics": [
+      "〜っぽい",
+      "〜恐れがある"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l23",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 23,
+    "title": "N3 Lesson 23: Natural Consequence (〜わけだ・〜わけがない)",
+    "grammarTopics": [
+      "〜というわけではない / 〜わけではない",
+      "〜に決まっている"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l24",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 24,
+    "title": "N3 Lesson 24: Obligation & Inevitability (〜ざるを得ない)",
+    "grammarTopics": [
+      "〜べきだ / 〜べきではない",
+      "〜ないわけにはいかない"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l25",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 25,
+    "title": "N3 Lesson 25: Time Sequence (〜次第・〜とたん)",
+    "grammarTopics": [
+      "〜たびに",
+      "〜て以来"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l26",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 26,
+    "title": "N3 Lesson 26: N3 Formal Announcements & Long Passages",
+    "grammarTopics": [
+      "〜を通じて / 〜を通して",
+      "〜をはじめ（として） / 〜をはじめとする"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l27",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 27,
+    "title": "N3 Lesson 27: Regarding & Concerning (〜について・〜に関して)",
+    "grammarTopics": [
+      "〜において / 〜における",
+      "〜に関して / 〜に関する"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l28",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 28,
+    "title": "N3 Lesson 28: In Terms of & From Viewpoint (〜にとって・〜に対して)",
+    "grammarTopics": [
+      "〜に基づいて / 〜に基づき / 〜に基づく",
+      "〜に応じて / 〜に応じた"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l29",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 29,
+    "title": "N3 Lesson 29: Purpose & Intent (〜ために・〜ように)",
+    "grammarTopics": [
+      "〜向け / 〜向き",
+      "〜ようにする / 〜ようにしている"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l30",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 30,
+    "title": "N3 Lesson 30: Cause & Result (〜せいで・〜おかげで)",
+    "grammarTopics": [
+      "〜によって / 〜による",
+      "〜ことから"
+    ],
+    "targetKanjiCount": 4,
+    "targetVocabCount": 12,
+    "status": "published",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l31",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 31,
+    "title": "N3 Lesson 31: Degree & Extent (〜ほど・〜くらい)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l32",
+    "level": "N3",
+    "module": "N3 Nuance & Natural Discourse",
+    "number": 32,
+    "title": "N3 Lesson 32: Limit & Exclusivity (〜に限る・〜ばかり)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l33",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 33,
+    "title": "N3 Lesson 33: Contrast & Concession (〜にもかかわらず・〜わりに)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l34",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 34,
+    "title": "N3 Lesson 34: Simultaneity (〜つつ・〜最中に)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l35",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 35,
+    "title": "N3 Lesson 35: Tendency (〜がち・〜気味)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l36",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 36,
+    "title": "N3 Lesson 36: Natural Consequence (〜わけだ・〜わけがない)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l37",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 37,
+    "title": "N3 Lesson 37: Obligation & Inevitability (〜ざるを得ない)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l38",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 38,
+    "title": "N3 Lesson 38: Time Sequence (〜次第・〜とたん)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l39",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 39,
+    "title": "N3 Lesson 39: N3 Formal Announcements & Long Passages",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l40",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 40,
+    "title": "N3 Lesson 40: Regarding & Concerning (〜について・〜に関して)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l41",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 41,
+    "title": "N3 Lesson 41: In Terms of & From Viewpoint (〜にとって・〜に対して)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l42",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 42,
+    "title": "N3 Lesson 42: Purpose & Intent (〜ために・〜ように)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l43",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 43,
+    "title": "N3 Lesson 43: Cause & Result (〜せいで・〜おかげで)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l44",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 44,
+    "title": "N3 Lesson 44: Degree & Extent (〜ほど・〜くらい)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l45",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 45,
+    "title": "N3 Lesson 45: Limit & Exclusivity (〜に限る・〜ばかり)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l46",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 46,
+    "title": "N3 Lesson 46: Contrast & Concession (〜にもかかわらず・〜わりに)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l47",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 47,
+    "title": "N3 Lesson 47: Simultaneity (〜つつ・〜最中に)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n3.l48",
+    "level": "N3",
+    "module": "N3 Formal & Expository",
+    "number": 48,
+    "title": "N3 Lesson 48: Tendency (〜がち・〜気味)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l01",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 1,
+    "title": "N2 Lesson 1: Emphatic Contrast (〜どころか・〜に対して)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l02",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 2,
+    "title": "N2 Lesson 2: Extreme Concession (〜たとえ〜ても・〜にあたって)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l03",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 3,
+    "title": "N2 Lesson 3: Professional Directives (〜べからず・〜を皮切りに)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l04",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 4,
+    "title": "N2 Lesson 4: Perspective & Subjective Judgment (〜から見ると・〜を踏まえて)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l05",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 5,
+    "title": "N2 Lesson 5: Causation & Consequence (〜あまり・〜結果)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l06",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 6,
+    "title": "N2 Lesson 6: Inevitability & Logical Reasoning (〜に相違ない・〜にほかならない)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l07",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 7,
+    "title": "N2 Lesson 7: Formal Written Disconnects (〜ぬきで・〜を契機に)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l08",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 8,
+    "title": "N2 Lesson 8: Editorial & Column Nuances (〜に伴って・〜に沿って)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l09",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 9,
+    "title": "N2 Lesson 9: Abstract Societal Analysis",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l10",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 10,
+    "title": "N2 Lesson 10: Author Stance & Implied Intentions",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l11",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 11,
+    "title": "N2 Lesson 11: Lecture-Style Multi-Speaker Discourse",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l12",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 12,
+    "title": "N2 Lesson 12: Emphatic Contrast (〜どころか・〜に対して)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l13",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 13,
+    "title": "N2 Lesson 13: Extreme Concession (〜たとえ〜ても・〜にあたって)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l14",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 14,
+    "title": "N2 Lesson 14: Professional Directives (〜べからず・〜を皮切りに)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l15",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 15,
+    "title": "N2 Lesson 15: Perspective & Subjective Judgment (〜から見ると・〜を踏まえて)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l16",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 16,
+    "title": "N2 Lesson 16: Causation & Consequence (〜あまり・〜結果)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l17",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 17,
+    "title": "N2 Lesson 17: Inevitability & Logical Reasoning (〜に相違ない・〜にほかならない)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l18",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 18,
+    "title": "N2 Lesson 18: Formal Written Disconnects (〜ぬきで・〜を契機に)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l19",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 19,
+    "title": "N2 Lesson 19: Editorial & Column Nuances (〜に伴って・〜に沿って)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l20",
+    "level": "N2",
+    "module": "N2 Advanced Grammar & Argumentation",
+    "number": 20,
+    "title": "N2 Lesson 20: Abstract Societal Analysis",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l21",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 21,
+    "title": "N2 Lesson 21: Author Stance & Implied Intentions",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l22",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 22,
+    "title": "N2 Lesson 22: Lecture-Style Multi-Speaker Discourse",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l23",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 23,
+    "title": "N2 Lesson 23: Emphatic Contrast (〜どころか・〜に対して)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l24",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 24,
+    "title": "N2 Lesson 24: Extreme Concession (〜たとえ〜ても・〜にあたって)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l25",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 25,
+    "title": "N2 Lesson 25: Professional Directives (〜べからず・〜を皮切りに)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l26",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 26,
+    "title": "N2 Lesson 26: Perspective & Subjective Judgment (〜から見ると・〜を踏まえて)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l27",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 27,
+    "title": "N2 Lesson 27: Causation & Consequence (〜あまり・〜結果)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l28",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 28,
+    "title": "N2 Lesson 28: Inevitability & Logical Reasoning (〜に相違ない・〜にほかならない)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l29",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 29,
+    "title": "N2 Lesson 29: Formal Written Disconnects (〜ぬきで・〜を契機に)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l30",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 30,
+    "title": "N2 Lesson 30: Editorial & Column Nuances (〜に伴って・〜に沿って)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l31",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 31,
+    "title": "N2 Lesson 31: Abstract Societal Analysis",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l32",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 32,
+    "title": "N2 Lesson 32: Author Stance & Implied Intentions",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l33",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 33,
+    "title": "N2 Lesson 33: Lecture-Style Multi-Speaker Discourse",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l34",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 34,
+    "title": "N2 Lesson 34: Emphatic Contrast (〜どころか・〜に対して)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l35",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 35,
+    "title": "N2 Lesson 35: Extreme Concession (〜たとえ〜ても・〜にあたって)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l36",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 36,
+    "title": "N2 Lesson 36: Professional Directives (〜べからず・〜を皮切りに)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l37",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 37,
+    "title": "N2 Lesson 37: Perspective & Subjective Judgment (〜から見ると・〜を踏まえて)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l38",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 38,
+    "title": "N2 Lesson 38: Causation & Consequence (〜あまり・〜結果)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l39",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 39,
+    "title": "N2 Lesson 39: Inevitability & Logical Reasoning (〜に相違ない・〜にほかならない)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l40",
+    "level": "N2",
+    "module": "N2 Editorial & Socio-Cultural",
+    "number": 40,
+    "title": "N2 Lesson 40: Formal Written Disconnects (〜ぬきで・〜を契機に)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l41",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 41,
+    "title": "N2 Lesson 41: Editorial & Column Nuances (〜に伴って・〜に沿って)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l42",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 42,
+    "title": "N2 Lesson 42: Abstract Societal Analysis",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l43",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 43,
+    "title": "N2 Lesson 43: Author Stance & Implied Intentions",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l44",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 44,
+    "title": "N2 Lesson 44: Lecture-Style Multi-Speaker Discourse",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l45",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 45,
+    "title": "N2 Lesson 45: Emphatic Contrast (〜どころか・〜に対して)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l46",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 46,
+    "title": "N2 Lesson 46: Extreme Concession (〜たとえ〜ても・〜にあたって)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l47",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 47,
+    "title": "N2 Lesson 47: Professional Directives (〜べからず・〜を皮切りに)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l48",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 48,
+    "title": "N2 Lesson 48: Perspective & Subjective Judgment (〜から見ると・〜を踏まえて)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l49",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 49,
+    "title": "N2 Lesson 49: Causation & Consequence (〜あまり・〜結果)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l50",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 50,
+    "title": "N2 Lesson 50: Inevitability & Logical Reasoning (〜に相違ない・〜にほかならない)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l51",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 51,
+    "title": "N2 Lesson 51: Formal Written Disconnects (〜ぬきで・〜を契機に)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l52",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 52,
+    "title": "N2 Lesson 52: Editorial & Column Nuances (〜に伴って・〜に沿って)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l53",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 53,
+    "title": "N2 Lesson 53: Abstract Societal Analysis",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l54",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 54,
+    "title": "N2 Lesson 54: Author Stance & Implied Intentions",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l55",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 55,
+    "title": "N2 Lesson 55: Lecture-Style Multi-Speaker Discourse",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l56",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 56,
+    "title": "N2 Lesson 56: Emphatic Contrast (〜どころか・〜に対して)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l57",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 57,
+    "title": "N2 Lesson 57: Extreme Concession (〜たとえ〜ても・〜にあたって)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l58",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 58,
+    "title": "N2 Lesson 58: Professional Directives (〜べからず・〜を皮切りに)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l59",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 59,
+    "title": "N2 Lesson 59: Perspective & Subjective Judgment (〜から見ると・〜を踏まえて)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  },
+  {
+    "id": "n2.l60",
+    "level": "N2",
+    "module": "N2 Mastery & Professional Japanese",
+    "number": 60,
+    "title": "N2 Lesson 60: Causation & Consequence (〜あまり・〜結果)",
+    "grammarTopics": [
+      "X を Y します",
+      "X で Y します"
+    ],
+    "targetKanjiCount": 3,
+    "targetVocabCount": 12,
+    "status": "planned",
+    "reviewStatus": "ai-authored"
+  }
+]

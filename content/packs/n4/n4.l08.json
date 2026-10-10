@@ -1,0 +1,1585 @@
+{
+  "id": "n4.l08",
+  "level": "N4",
+  "module": "N4 Intermediate Grammar 1",
+  "number": 8,
+  "title": "N4 Lesson 8: Preparation & Completion (〜ておく・〜てしまう)",
+  "description": "Master preparation for future use ([Verb-te] おきます) and express complete action or irreversible regret ([Verb-te] しまいました).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l08.v001",
+      "lessonId": "n4.l08",
+      "ja": "準備",
+      "kana": "じゅんび",
+      "en": "preparation",
+      "my": "ကြိုတင်ပြင်ဆင်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l08.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.v002",
+      "lessonId": "n4.l08",
+      "ja": "確認",
+      "kana": "かくにん",
+      "en": "confirmation; checking",
+      "my": "အတည်ပြုစစ်ဆေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l08.s002",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.v003",
+      "lessonId": "n4.l08",
+      "ja": "宿題",
+      "kana": "しゅくだい",
+      "en": "homework",
+      "my": "အိမ်စာ",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l08.s003",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.v004",
+      "lessonId": "n4.l08",
+      "ja": "財布",
+      "kana": "さいふ",
+      "en": "wallet; purse",
+      "my": "ပိုက်ဆံအိတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l08.s004",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.v005",
+      "lessonId": "n4.l08",
+      "ja": "忘れる",
+      "kana": "わすれる",
+      "en": "to forget; to leave behind",
+      "my": "မေ့လျော့သည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l08.s004",
+      "kanjiIds": [
+        "n4.l08.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.v006",
+      "lessonId": "n4.l08",
+      "ja": "なくす",
+      "kana": "なくす",
+      "en": "to lose (something)",
+      "my": "ပျောက်ဆုံးစေသည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l08.s005",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.v007",
+      "lessonId": "n4.l08",
+      "ja": "片づける",
+      "kana": "かたづける",
+      "en": "to tidy up; to clean away",
+      "my": "သန့်ရှင်းသပ်ရပ်အောင်လုပ်သည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l08.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.v008",
+      "lessonId": "n4.l08",
+      "ja": "そのまま",
+      "kana": "そのまま",
+      "en": "as it is; unchanged",
+      "my": "ဒီအတိုင်း/မူလအတိုင်း",
+      "pos": "adverb",
+      "exampleSentenceId": "n4.l08.s007",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.v009",
+      "lessonId": "n4.l08",
+      "ja": "連絡",
+      "kana": "れんらく",
+      "en": "contact; communication",
+      "my": "ဆက်သွယ်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l08.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.v010",
+      "lessonId": "n4.l08",
+      "ja": "大事",
+      "kana": "だいじ",
+      "en": "important; valuable; serious",
+      "my": "အရေးကြီးသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n4.l08.s009",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-06T00:00:00Z",
+        "rev": 3
+      }
+    },
+    {
+      "id": "n4.l08.v011",
+      "lessonId": "n4.l08",
+      "ja": "資料",
+      "kana": "しりょう",
+      "en": "documents; data; materials",
+      "my": "စာရွက်စာတမ်း/အချက်အလက်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l08.s009",
+      "kanjiIds": [
+        "n4.l08.k003",
+        "n4.l08.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.v012",
+      "lessonId": "n4.l08",
+      "ja": "集める",
+      "kana": "あつめる",
+      "en": "to collect; to gather (transitive)",
+      "my": "စုဆောင်းသည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l08.s010",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l08.k001",
+      "lessonId": "n4.l08",
+      "char": "忘",
+      "meaning": "forget",
+      "onyomi": [
+        "ボウ"
+      ],
+      "kunyomi": [
+        "わす.れる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "忘れる",
+          "reading": "わすれる",
+          "meaning": "to forget",
+          "preview": false
+        },
+        {
+          "word": "忘れ物",
+          "reading": "わすれもの",
+          "meaning": "lost/forgotten item",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l08.s001"
+      ],
+      "components": [],
+      "strokes": 7,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.k002",
+      "lessonId": "n4.l08",
+      "char": "配",
+      "meaning": "distribute; worry; deliver",
+      "onyomi": [
+        "ハイ"
+      ],
+      "kunyomi": [
+        "くば.る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "心配",
+          "reading": "しんぱい",
+          "meaning": "worry",
+          "preview": false
+        },
+        {
+          "word": "配る",
+          "reading": "くばる",
+          "meaning": "to distribute",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l08.s001"
+      ],
+      "components": [],
+      "strokes": 10,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.k003",
+      "lessonId": "n4.l08",
+      "char": "資",
+      "meaning": "assets; resources; capital; data",
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "資料",
+          "reading": "しりょう",
+          "meaning": "materials/documents",
+          "preview": false
+        },
+        {
+          "word": "資源",
+          "reading": "しげん",
+          "meaning": "natural resources",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l08.s001"
+      ],
+      "components": [],
+      "strokes": 13,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.k004",
+      "lessonId": "n4.l08",
+      "char": "料",
+      "meaning": "fee; materials; ingredients",
+      "onyomi": [
+        "リョウ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "資料",
+          "reading": "しりょう",
+          "meaning": "materials/data",
+          "preview": false
+        },
+        {
+          "word": "料理",
+          "reading": "りょうり",
+          "meaning": "cooking/cuisine",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l08.s001"
+      ],
+      "components": [],
+      "strokes": 10,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l08.g001",
+      "lessonId": "n4.l08",
+      "pattern": "[Verb-te] おきます",
+      "meaning": "Action in Advance / Leaving as-is ([Verb-te] おきます)",
+      "formation": "[Verb て-form] + おきます / おいてください\nCasual contraction: 〜ておく → 〜とく (書いておく → 書いとく)",
+      "explanation": {
+        "en": "1. Doing an action in advance before a specific event (e.g. 旅行の前に切符を買っておきます = I will buy tickets in advance before the trip).\n2. Taking temporary measures for the next use (e.g. 使ったら元の場所に戻しておいてください = After using, please put it back in its original place for next time).\n3. Leaving a state unchanged as-is (e.g. まだ使いますから、電気をつけたままにしておいてください = I am still using it, so please leave the light on as-is).\nIn casual speech, 〜ておく contracts to 〜とく (買っとく, しとく).",
+        "my": "၁။ အစီအစဉ်တစ်ခု မစတင်မီ ကြိုတင်လုပ်ဆောင်ထားခြင်း (ခရီးမသွားမီ လက်မှတ်ကြိုဝယ်ထားမည်)။\n၂။ နောက်တစ်ကြိမ် အသုံးပြုရန် အဆင်သင့်ဖြစ်စေရန် လုပ်ဆောင်ထားခြင်း။\n၃။ လက်ရှိအခြေအနေအတိုင်း မပြောင်းလဲဘဲ ဆက်ထားရှိခြင်း (မီးဖွင့်ထားပါ)။\nပေါ့ပေါ့ပါးပါး စကားပြောတွင် 「〜ておく」 ကို 「〜とく」 ဟု အသံကျုံ့သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l08.s001",
+          "note": "Example 1"
+        },
+        {
+          "sentenceId": "n4.l08.s002",
+          "note": "Example 2"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse with [他動詞-te] あります. 〜ておきます is an action verb (I will do in advance); 〜てあります is a resultant state (It is already done)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.g002",
+      "lessonId": "n4.l08",
+      "pattern": "[Verb-te] しまいました / [Verb-te] しまいます",
+      "meaning": "Complete Action / Irreversible Regret ([Verb-te] しまいました)",
+      "formation": "[Verb て-form] + しまいました / しまう\nCasual: 〜てしまう → 〜ちゃう / 〜でしまう → 〜じゃう",
+      "explanation": {
+        "en": "1. Completion of an entire action to the very end (e.g. 難しい本を全部読んでしまいました = I completely finished reading the difficult book).\n2. Unintentional mistake or regrettable event with irreversible consequences (e.g. 電車の中に傘を忘れてしまいました = I accidentally left my umbrella on the train).\nIn casual speech, 〜てしまう contracts to 〜ちゃう (忘れちゃった) and 〜でしまう to 〜じゃう (飲んじゃった).",
+        "my": "၁။ လုပ်ဆောင်ချက်တစ်ခုလုံးကို အစအဆုံး အပြီးသတ် လုပ်ဆောင်ပြီးစီးခြင်း (စာအုပ်တစ်အုပ်လုံး ဖတ်ပြီးသွားပြီ)။\n၂။ မရည်ရွယ်ဘဲ မှားယွင်းပြုလုပ်မိခြင်း သို့မဟုတ် စိတ်မကောင်းဖွယ်/နောင်တရဖွယ် ဖြစ်ပျက်သွားခြင်း (ရထားပေါ်တွင် ထီးမေ့ကျန်ခဲ့မိသည်)။\nစကားပြောတွင် 「〜ちゃう」「〜じゃう」 ဟု အသံကျုံ့သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l08.s001",
+          "note": "Example 1"
+        },
+        {
+          "sentenceId": "n4.l08.s002",
+          "note": "Example 2"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "When expressing regret, Japanese learners often forget to use 〜てしまいました, resulting in cold/matter-of-fact statements. Adding しまいました conveys emotional regret naturally."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l08.s001",
+      "lessonId": "n4.l08",
+      "ja": "出張の前に、新幹線の切符とホテルの予約を済ませておきます。",
+      "kana": "しゅっちょうのまえに、しんかんせんのきっぷとホテルのよやくをすませておきます。",
+      "translation": {
+        "en": "Before the business trip, I will finish booking Shinkansen tickets and hotel in advance.",
+        "my": "အလုပ်ကိစ္စခရီးမထွက်မီ ကျည်ဆံရထားလက်မှတ်နှင့် ဟိုတယ်ဘွတ်ကင်ကို ကြိုတင်လုပ်ထားပါမည်။"
+      },
+      "vocabIds": [
+        "n4.l08.v001"
+      ],
+      "grammarIds": [
+        "n4.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.s002",
+      "lessonId": "n4.l08",
+      "ja": "テストの提出時間を忘れないように、手帳にしっかり確認しておきました。",
+      "kana": "テストのていしゅつじかんをわすれないように、てちょうにしっかりかくにんしておきました。",
+      "translation": {
+        "en": "So as not to forget the test submission time, I checked and noted it firmly in my notebook in advance.",
+        "my": "စာမေးပွဲတင်ရမည့်အချိန် မမေ့စေရန် လက်စွဲစာအုပ်တွင် သေချာစွာ စစ်ဆေးမှတ်သားထားခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l08.v002",
+        "n4.l08.v005"
+      ],
+      "grammarIds": [
+        "n4.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.s003",
+      "lessonId": "n4.l08",
+      "ja": "週末に遊びに行きたいので、金曜日の夜までに宿題を全部やってしまいました。",
+      "kana": "しゅうまつにあそびにいきたいので、きんようびのよるまでにしゅくだいをぜんぶやってしまいました。",
+      "translation": {
+        "en": "Because I want to go out on the weekend, I completely finished all my homework by Friday night.",
+        "my": "စနေတနင်္ဂနွေတွင် လျှောက်လည်လိုသောကြောင့် သောကြာနေ့ညအရောက် အိမ်စာအားလုံးကို အပြီးလုပ်လိုက်ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l08.v003"
+      ],
+      "grammarIds": [
+        "n4.l08.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.s004",
+      "lessonId": "n4.l08",
+      "ja": "急いで家を出たせいで、机の上に財布を忘れてきてしまいました。",
+      "kana": "いそいでいえをでたせいで、つくえのうえにさいふをわすれてきてしまいました。",
+      "translation": {
+        "en": "Because I hurried out of the house, I accidentally left my wallet behind on the desk.",
+        "my": "အိမ်မှ အလျင်စလို ထွက်လာမိသောကြောင့် စားပွဲပေါ်တွင် ပိုက်ဆံအိတ် မေ့ကျန်ခဲ့မိပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l08.v004",
+        "n4.l08.v005"
+      ],
+      "grammarIds": [
+        "n4.l08.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.s005",
+      "lessonId": "n4.l08",
+      "ja": "駅で大事な定期券をなくしてしまって、駅員さんに届いていないか尋ねました。",
+      "kana": "えきでだいじなていきけんをなくしてしまって、えきいんさんにとどいていないかたずねました。",
+      "translation": {
+        "en": "I accidentally lost my important commuter pass at the station and asked the station staff if it had been turned in.",
+        "my": "ဘူတာတွင် အရေးကြီးသော ရထားလစဉ်ကတ် ပျောက်ဆုံးသွားမိသဖြင့် ဘူတာဝန်ထမ်းထံ ရောက်မရောက် မေးမြန်းခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l08.v006",
+        "n4.l08.v010"
+      ],
+      "grammarIds": [
+        "n4.l08.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.s006",
+      "lessonId": "n4.l08",
+      "ja": "料理が終わったら、調味料や鍋をきれいに片づけておいてください。",
+      "kana": "りょうりがおわったら、ちょうみりょうやなべをきれいにかたづけておいてください。",
+      "translation": {
+        "en": "When cooking is finished, please tidy away seasonings and pots neatly in advance.",
+        "my": "ဟင်းချက်ပြီးပါက ဟင်းခတ်အမွှေးအကြိုင်များနှင့် အိုးများကို သပ်ရပ်စွာ ရှင်းလင်းသိမ်းဆည်းထားပေးပါ။"
+      },
+      "vocabIds": [
+        "n4.l08.v007"
+      ],
+      "grammarIds": [
+        "n4.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.s007",
+      "lessonId": "n4.l08",
+      "ja": "次の授業でもこの教室を使いますから、机や椅子はそのままにしておいてください。",
+      "kana": "つぎのじゅぎょうでもこのきょうしつをつかいますから、つくえやいすはそのままにしておいてください。",
+      "translation": {
+        "en": "Because we will use this classroom in the next period too, please leave the desks and chairs as they are.",
+        "my": "နောက်ထပ်အတန်းချိန်တွင်လည်း ဤစာသင်ခန်းကို သုံးမည်ဖြစ်သဖြင့် စားပွဲနှင့် ကုလားထိုင်များကို မူလအတိုင်း ထားရှိပေးပါ။"
+      },
+      "vocabIds": [
+        "n4.l08.v008"
+      ],
+      "grammarIds": [
+        "n4.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.s008",
+      "lessonId": "n4.l08",
+      "ja": "予定の変更があったら、できるだけ早く電話で連絡しておきますね。",
+      "kana": "よていのへんこうがあったら、できるだけはやいでんわでれんらくしておきますね。",
+      "translation": {
+        "en": "If there are any changes to the schedule, I will contact you by telephone as early as possible in advance.",
+        "my": "အစီအစဉ် အပြောင်းအလဲရှိပါက တတ်နိုင်သမျှစောစော ဖုန်းဖြင့် ကြိုတင်ဆက်သွယ်ထားပါမည်နော်။"
+      },
+      "vocabIds": [
+        "n4.l08.v009"
+      ],
+      "grammarIds": [
+        "n4.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.s009",
+      "lessonId": "n4.l08",
+      "ja": "会議で使う大事な資料を印刷して、ホチキスで留めておきました。",
+      "kana": "かいぎでつかうだいじなしりょうをいんさつして、ホチキスでとめておきました。",
+      "translation": {
+        "en": "I printed the important materials to be used in the meeting and stapled them together in advance.",
+        "my": "အစည်းအဝေးတွင် အသုံးပြုမည့် အရေးကြီးစာရွက်စာတမ်းများကို ပရင့်ထုတ်၍ စတေပလာဖြင့် ကြိုတင်တွဲထားခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l08.v010",
+        "n4.l08.v011"
+      ],
+      "grammarIds": [
+        "n4.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l08.s010",
+      "lessonId": "n4.l08",
+      "ja": "レポートを書く前に、図書館で必要な統計データをたくさん集めておきました。",
+      "kana": "レポートをかくまえに、としょかんでひつようなとうけいデータをたくさんあつめておきました。",
+      "translation": {
+        "en": "Before writing the report, I collected plenty of necessary statistical data at the library in advance.",
+        "my": "အစီရင်ခံစာ မရေးမီ စာကြည့်တိုက်တွင် လိုအပ်သော စာရင်းအင်းအချက်အလက်များကို ကြိုတင်စုဆောင်းထားခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l08.v012"
+      ],
+      "grammarIds": [
+        "n4.l08.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l08.r01",
+    "lessonId": "n4.l08",
+    "title": "初めての海外出張の失敗と準備の教訓 (Lessons from Mistakes on My First Overseas Business Trip)",
+    "level": "N4",
+    "text": "入社二年目の春、私は初めて一人でシンガポールへ海外出張することになりました。出発の一週間前から、商談で使う英語のプレゼンテーション資料を集めて印刷しておきました。また、現地の顧客に渡す日本のお土産も事前に買ってスーツケースに入れておきました。\n\n準備は万全だと思っていたのですが、出発当日の朝に大きな失敗をしてしまいました。空港行きの電車の中でスマートフォンを確認しようとしたところ、自宅の玄関にパスポートを忘れてきてしまったことに気づいたのです。幸い、飛行機の出発時刻の三時間前に空港に着く予定で早めに出ていたため、急いでタクシーで家に戻ってパスポートを取り、何とか出発便に間に合いました。\n\nこの経験から、出発直前には持ち物リストをもう一度指さし確認しておくことの大切さを痛感しました。事前にしっかり準備しておくだけでなく、出かける最後の瞬間まで油断しないことが大切です。",
+    "kanaText": "入社二年目の春、私は初めて一人でシンガポールへ海外出張することになりました。出発の一週間前から、商談で使う英語のプレゼンテーション資料を集めて印刷しておきました。また、現地の顧客に渡す日本のお土産も事前に買ってスーツケースに入れておきました。\n\n準備は万全だと思っていたのですが、出発当日の朝に大きな失敗をしてしまいました。空港行きの電車の中でスマートフォンを確認しようとしたところ、自宅の玄関にパスポートを忘れてきてしまったことに気づいたのです。幸い、飛行機の出発時刻の三時間前に空港に着く予定で早めに出ていたため、急いでタクシーで家に戻ってパスポートを取り、何とか出発便に間に合いました。\n\nこの経験から、出発直前には持ち物リストをもう一度指さし確認しておくことの大切さを痛感しました。事前にしっかり準備しておくだけでなく、出かける最後の瞬間まで油断しないことが大切です。",
+    "translation": "In the spring of my second year at the company, I was assigned to go on my first solo overseas business trip to Singapore. From a week before departure, I collected and printed English presentation materials to be used in business negotiations in advance. I also bought Japanese souvenirs for local clients beforehand and placed them in my suitcase.\n\nI thought preparations were thorough, but on the morning of departure day, I made a huge mistake. When I tried to check my smartphone on the train heading to the airport, I realized that I had accidentally forgotten my passport at home in the entranceway! Fortunately, because I had left early with plans to arrive at the airport three hours before departure time, I hurried back home by taxi to retrieve the passport and managed to catch the flight in time.\n\nFrom this experience, I deeply felt the importance of pointing and confirming the checklist once more right before departure. It is essential not only to prepare solidly in advance, but also not to let down one's guard until the very last moment of departure.",
+    "questionIds": [
+      "n4.l08.q021",
+      "n4.l08.q022",
+      "n4.l08.q023",
+      "n4.l08.q024",
+      "n4.l08.q025"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l08.l01",
+    "lessonId": "n4.l08",
+    "title": "プレゼン前のUSB忘れと準備 (Forgetting USB Drive Before Presentation)",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "先輩：中村さん、今日の午後二時からのプレゼンの準備はもう終わった？\n中村：はい、発表用のスライド資料は昨日全部作ってしまいました。\n先輩：資料のコピーはもう取ってある？\n中村：あっ！まだ印刷していませんでした。会議室の人数分、すぐにコピーしておきます。\n先輩：うん、お願いね。それから、発表用のデータを入れたUSBメモリは持っている？\n中村：えっ、嘘でしょう…！机のパソコンに挿したまま、会社に置いてきてしまいました！\n先輩：ええっ、本当？大丈夫、クラウドサーバーにバックアップデータを保存しておいたから、そこからダウンロードできるよ。\n中村：本当ですか！先輩が保存しておいてくださって助かりました。本当にありがとうございます！",
+    "translation": "Senpai: Nakamura, have you finished preparing for today's 2 PM presentation?\nNakamura: Yes, I finished making all the slide materials yesterday.\nSenpai: Have copies of the handouts already been made?\nNakamura: Ah! I hadn't printed them yet. I will make copies right away for the number of meeting room attendees.\nSenpai: Yes, please. And do you have the USB flash drive with the presentation files?\nNakamura: What, no way...! I accidentally left it behind at the company, plugged into the desk computer!\nSenpai: What, really? Don't worry, I saved a backup copy on the cloud server in advance, so we can download it from there.\nNakamura: Really! What a relief that you saved it in advance, Senpai. Thank you so much!",
+    "turns": [],
+    "questionIds": [
+      "n4.l08.q026",
+      "n4.l08.q027",
+      "n4.l08.q028",
+      "n4.l08.q029",
+      "n4.l08.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l08.q001",
+      "lessonId": "n4.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "試験の前日までに、必要な筆記用具を（　）した。",
+      "choices": [
+        "準備",
+        "確認",
+        "相談",
+        "案内"
+      ],
+      "answer": "準備",
+      "acceptedAnswers": [
+        "準備"
+      ],
+      "explanation": "Preparation is 準備 (じゅんび).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q002",
+      "lessonId": "n4.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "飛行機の出発時間をチケットでもう一度（　）した。",
+      "choices": [
+        "確認",
+        "準備",
+        "経験",
+        "計画"
+      ],
+      "answer": "確認",
+      "acceptedAnswers": [
+        "確認"
+      ],
+      "explanation": "Confirmation / verification is 確認 (かくにん).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q003",
+      "lessonId": "n4.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "買い物でお金を払おうとしたら、（　）を家に忘れてきたことに気づいた。",
+      "choices": [
+        "財布",
+        "宿題",
+        "資料",
+        "ゴミ箱"
+      ],
+      "answer": "財布",
+      "acceptedAnswers": [
+        "財布"
+      ],
+      "explanation": "Wallet is 財布 (さいふ).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q004",
+      "lessonId": "n4.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "鍵をどこかに（　）てしまって、家に入れない。",
+      "choices": [
+        "なくし",
+        "落とし",
+        "忘れて",
+        "消して"
+      ],
+      "answer": "なくし",
+      "acceptedAnswers": [
+        "なくし"
+      ],
+      "explanation": "To lose an item is なくす (なくしてしまう).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q005",
+      "lessonId": "n4.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "散らかった部屋をきれいに（　）てから客を迎えた。",
+      "choices": [
+        "片づけ",
+        "並べ",
+        "飾っ",
+        "植え"
+      ],
+      "answer": "片づけ",
+      "acceptedAnswers": [
+        "片づけ"
+      ],
+      "explanation": "Tidying up a room is 片づける (かたづける).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q006",
+      "lessonId": "n4.l08",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "発表に必要な統計（　）をインターネットで集めた。",
+      "choices": [
+        "資料",
+        "給料",
+        "規則",
+        "道具"
+      ],
+      "answer": "資料",
+      "acceptedAnswers": [
+        "資料"
+      ],
+      "explanation": "Data / reference materials is 資料 (しりょう).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q007",
+      "lessonId": "n4.l08",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「忘れる」の下線部（忘）の訓読みはどれですか。",
+      "choices": [
+        "わす",
+        "ぼう",
+        "おと",
+        "しん"
+      ],
+      "answer": "わす",
+      "acceptedAnswers": [
+        "わす"
+      ],
+      "explanation": "忘れる is read わすれる (kun-yomi わす).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q008",
+      "lessonId": "n4.l08",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「心配」の「配」の音読みはどれですか。",
+      "choices": [
+        "ハイ",
+        "パイ",
+        "シ",
+        "ボウ"
+      ],
+      "answer": "ハイ",
+      "acceptedAnswers": [
+        "ハイ"
+      ],
+      "explanation": "The on-yomi of 配 is ハイ (in 心配 it rendaku-shifts to ぱい).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q009",
+      "lessonId": "n4.l08",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「しりょう」を漢字で書くとき、正しい表記はどれですか。",
+      "choices": [
+        "資料",
+        "資科",
+        "使料",
+        "紙料"
+      ],
+      "answer": "資料",
+      "acceptedAnswers": [
+        "資料"
+      ],
+      "explanation": "Documents/materials is written 資料 (しりょう).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.k003",
+        "n4.l08.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q010",
+      "lessonId": "n4.l08",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「料理」の「料」と同じ漢字を含む言葉はどれですか。",
+      "choices": [
+        "資料",
+        "給料",
+        "無料",
+        "すべて正しい"
+      ],
+      "answer": "すべて正しい",
+      "acceptedAnswers": [
+        "すべて正しい"
+      ],
+      "explanation": "資料, 給料, and 無料 all contain the kanji 料 (リョウ).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q011",
+      "lessonId": "n4.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "旅行の前に、ガイドブックを読んで（　）。",
+      "choices": [
+        "おきます",
+        "あります",
+        "います",
+        "しまいます"
+      ],
+      "answer": "おきます",
+      "acceptedAnswers": [
+        "おきます"
+      ],
+      "explanation": "Doing an action in advance before an event is [Verb-te] おきます.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q012",
+      "lessonId": "n4.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "ハサミを使ったら、元の引き出しに（　）おいてください。",
+      "choices": [
+        "戻して",
+        "戻る",
+        "戻した",
+        "戻せば"
+      ],
+      "answer": "戻して",
+      "acceptedAnswers": [
+        "戻して"
+      ],
+      "explanation": "Returning something for the next use is 戻しておいてください.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q013",
+      "lessonId": "n4.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "まだ使いますから、電気は消さずに（　）おいてください。",
+      "choices": [
+        "つけて",
+        "つく",
+        "ついた",
+        "つければ"
+      ],
+      "answer": "つけて",
+      "acceptedAnswers": [
+        "つけて"
+      ],
+      "explanation": "Leaving something in a state intentionally uses つけておいてください.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q014",
+      "lessonId": "n4.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "電車の中に傘を忘れて（　）ました。",
+      "choices": [
+        "しまい",
+        "おき",
+        "あり",
+        "み"
+      ],
+      "answer": "しまい",
+      "acceptedAnswers": [
+        "しまい"
+      ],
+      "explanation": "Regrettable mistake uses [Verb-te] しまいました: 忘れてしまいました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q015",
+      "lessonId": "n4.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "美味しかったので、ケーキを全部食べて（　）ました。",
+      "choices": [
+        "しまい",
+        "おき",
+        "あり",
+        "み"
+      ],
+      "answer": "しまい",
+      "acceptedAnswers": [
+        "しまい"
+      ],
+      "explanation": "Complete consumption to the end is 食べてしまいました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q016",
+      "lessonId": "n4.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "話し言葉で「買っておく」を短く言うとどうなりますか。",
+      "choices": [
+        "買っとく",
+        "買っちゃう",
+        "買っちゃった",
+        "買っておいた"
+      ],
+      "answer": "買っとく",
+      "acceptedAnswers": [
+        "買っとく"
+      ],
+      "explanation": "〜ておく contracts to 〜とく (買っておく → 買っとく).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q017",
+      "lessonId": "n4.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "話し言葉で「忘れてしまった」を短く言うとどうなりますか。",
+      "choices": [
+        "忘れちゃった",
+        "忘れといた",
+        "忘れた",
+        "忘れちゃ"
+      ],
+      "answer": "忘れちゃった",
+      "acceptedAnswers": [
+        "忘れちゃった"
+      ],
+      "explanation": "〜てしまった contracts to 〜ちゃった (忘れてしまった → 忘れちゃった).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q018",
+      "lessonId": "n4.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "会議の前に資料をコピー（　）おきました。",
+      "choices": [
+        "して",
+        "する",
+        "した",
+        "すれば"
+      ],
+      "answer": "して",
+      "acceptedAnswers": [
+        "して"
+      ],
+      "explanation": "Verb-te form of コピーする is コピーして (コピーしておきました).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q019",
+      "lessonId": "n4.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "大切な書類をゴミ箱に捨てて（　）ました！",
+      "choices": [
+        "しまい",
+        "おき",
+        "あり",
+        "み"
+      ],
+      "answer": "しまい",
+      "acceptedAnswers": [
+        "しまい"
+      ],
+      "explanation": "Regrettable accidental disposal: 捨ててしまいました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q020",
+      "lessonId": "n4.l08",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ておきます」と「〜てあります」の違いとして正しいものはどれですか。",
+      "choices": [
+        "「〜ておきます」は準備の動作、「〜てあります」は準備が完了した状態を表す",
+        "「〜ておきます」は過去形、「〜てあります」は未来形",
+        "両方に意味の違いはない",
+        "「〜ておきます」は後悔を表す"
+      ],
+      "answer": "「〜ておきます」は準備の動作、「〜てあります」は準備が完了した状態を表す",
+      "acceptedAnswers": [
+        "「〜ておきます」は準備の動作、「〜てあります」は準備が完了した状態を表す"
+      ],
+      "explanation": "〜ておく is an advance action; 〜てある is the existing resultant state.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q021",
+      "lessonId": "n4.l08",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者はどこへ海外出張することになりましたか。",
+      "choices": [
+        "シンガポール",
+        "アメリカ",
+        "タイ",
+        "イギリス"
+      ],
+      "answer": "シンガポール",
+      "acceptedAnswers": [
+        "シンガポール"
+      ],
+      "explanation": "The text states: 初めて一人でシンガポールへ海外出張することになりました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q022",
+      "lessonId": "n4.l08",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者は出発の一週間前からどんな準備をしておきましたか。",
+      "choices": [
+        "英語のプレゼン資料を集めて印刷し、お土産をスーツケースに入れておいた",
+        "現地のホテルをキャンセルしておいた",
+        "新しいスマートフォンを買っておいた",
+        "会社を休む準備をしておいた"
+      ],
+      "answer": "英語のプレゼン資料を集めて印刷し、お土産をスーツケースに入れておいた",
+      "acceptedAnswers": [
+        "英語のプレゼン資料を集めて印刷し、お土産をスーツケースに入れておいた"
+      ],
+      "explanation": "The text says: 英語のプレゼンテーション資料を集めて印刷しておきました... お土産も事前に買ってスーツケースに入れておきました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q023",
+      "lessonId": "n4.l08",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "出発当日の朝、電車の中で筆者はどんな失敗に気づきましたか。",
+      "choices": [
+        "自宅の玄関にパスポートを忘れてきてしまったこと",
+        "飛行機のチケットをなくしてしまったこと",
+        "スーツケースを家に置いてきてしまったこと",
+        "財布を落としてしまったこと"
+      ],
+      "answer": "自宅の玄関にパスポートを忘れてきてしまったこと",
+      "acceptedAnswers": [
+        "自宅の玄関にパスポートを忘れてきてしまったこと"
+      ],
+      "explanation": "The text states: 自宅の玄関にパスポートを忘れてきてしまったことに気づいたのです.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q024",
+      "lessonId": "n4.l08",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "なぜ筆者は出発便に間に合うことができましたか。",
+      "choices": [
+        "出発の3時間前に着く予定で早めに出ていたため",
+        "飛行機が半日遅延したため",
+        "家族が空港までパスポートを届けてくれたため",
+        "パスポートなしで搭乗できたため"
+      ],
+      "answer": "出発の3時間前に着く予定で早めに出ていたため",
+      "acceptedAnswers": [
+        "出発の3時間前に着く予定で早めに出ていたため"
+      ],
+      "explanation": "The text states: 飛行機の出発時刻の三時間前に空港に着く予定で早めに出ていたため...",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q025",
+      "lessonId": "n4.l08",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者はこの経験からどんな教訓を得ましたか。",
+      "choices": [
+        "出発直前に持ち物リストを再確認し、最後の瞬間まで油断しないこと",
+        "海外出張には一人で行かないこと",
+        "タクシーを使ってはいけないこと",
+        "パスポートは常にカバンに入れっぱなしにすること"
+      ],
+      "answer": "出発直前に持ち物リストを再確認し、最後の瞬間まで油断しないこと",
+      "acceptedAnswers": [
+        "出発直前に持ち物リストを再確認し、最後の瞬間まで油断しないこと"
+      ],
+      "explanation": "The final paragraph states: 出発直前には持ち物リストをもう一度指さし確認しておくことの大切さを痛感しました... 出かける最後の瞬間まで油断しないことが大切です.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q026",
+      "lessonId": "n4.l08",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "中村さんはスライド資料をいつ作成し終わりましたか。",
+      "choices": [
+        "昨日全部作ってしまった",
+        "今日の朝作った",
+        "まだ作っていない",
+        "先週作った"
+      ],
+      "answer": "昨日全部作ってしまった",
+      "acceptedAnswers": [
+        "昨日全部作ってしまった"
+      ],
+      "explanation": "Nakamura says: はい、発表用のスライド資料は昨日全部作ってしまいました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q027",
+      "lessonId": "n4.l08",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "先輩に言われて中村さんがすぐに準備することにしたものは何ですか。",
+      "choices": [
+        "資料のコピーを人数分印刷すること",
+        "新しいスライドを作ること",
+        "お茶を用意すること",
+        "プロジェクターを運ぶこと"
+      ],
+      "answer": "資料のコピーを人数分印刷すること",
+      "acceptedAnswers": [
+        "資料のコピーを人数分印刷すること"
+      ],
+      "explanation": "Nakamura says: 会議室の人数分、すぐにコピーしておきます.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q028",
+      "lessonId": "n4.l08",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "中村さんはUSBメモリをどうしてしまいましたか。",
+      "choices": [
+        "机のパソコンに挿したまま会社に置いてきてしまった",
+        "電車の中に落としてしまった",
+        "ゴミ箱に捨ててしまった",
+        "友達に貸してしまった"
+      ],
+      "answer": "机のパソコンに挿したまま会社に置いてきてしまった",
+      "acceptedAnswers": [
+        "机のパソコンに挿したまま会社に置いてきてしまった"
+      ],
+      "explanation": "Nakamura admits: 机のパソコンに挿したまま、会社に置いてきてしまいました！",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q029",
+      "lessonId": "n4.l08",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "USBがなくても大丈夫だったのはなぜですか。",
+      "choices": [
+        "先輩がクラウドサーバーにバックアップを保存しておいたから",
+        "発表が中止になったから",
+        "スライドなしで話すことになったから",
+        "中村さんが別のUSBを持っていたから"
+      ],
+      "answer": "先輩がクラウドサーバーにバックアップを保存しておいたから",
+      "acceptedAnswers": [
+        "先輩がクラウドサーバーにバックアップを保存しておいたから"
+      ],
+      "explanation": "Senpai explains: クラウドサーバーにバックアップデータを保存しておいたから、そこからダウンロードできるよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l08.q030",
+      "lessonId": "n4.l08",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "会話の最後に中村さんは先輩にどう言いましたか。",
+      "choices": [
+        "保存しておいてくださって助かったとお礼を言った",
+        "会社にUSBを取りに戻ると言った",
+        "発表を代わってほしいと頼んだ",
+        "別の日に延期したいと言った"
+      ],
+      "answer": "保存しておいてくださって助かったとお礼を言った",
+      "acceptedAnswers": [
+        "保存しておいてくださって助かったとお礼を言った"
+      ],
+      "explanation": "Nakamura says: 先輩が保存しておいてくださって助かりました。本当にありがとうございます！",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l08.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

@@ -1,0 +1,1716 @@
+{
+  "id": "n3.l02",
+  "level": "N3",
+  "module": "N3 Bridging Intermediate",
+  "number": 2,
+  "title": "N3 Lesson 2: Standpoint & Attitude (観点・対象: 〜にとって vs 〜に対して)",
+  "description": "Master contrasting evaluative viewpoints with 〜にとって (from the standpoint of, value judgments) and directed attitudes or comparisons with 〜に対して (toward an interlocutor or contrasting opposing facts).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l02.v001",
+      "lessonId": "n3.l02",
+      "ja": "対象",
+      "kana": "たいしょう",
+      "en": "target; subject; object (of research, policy)",
+      "my": "ပစ်မှတ်/ဦးတည်ချက်/သုတေသနပြုခံ အရာ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l02.s001",
+      "kanjiIds": [
+        "n3.l02.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.v002",
+      "lessonId": "n3.l02",
+      "ja": "態度",
+      "kana": "たいど",
+      "en": "attitude; stance; manner; behavior",
+      "my": "သဘောထား/အပြုအမူ/ဟန်ပန်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l02.s002",
+      "kanjiIds": [
+        "n3.l02.k001",
+        "n3.l02.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.v003",
+      "lessonId": "n3.l02",
+      "ja": "相手",
+      "kana": "あいて",
+      "en": "companion; partner; opponent; interlocutor",
+      "my": "တစ်ဖက်လူ/လက်တွဲဖော်/ပြိုင်ဘက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l02.s003",
+      "kanjiIds": [
+        "n3.l02.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.v004",
+      "lessonId": "n3.l02",
+      "ja": "反対する",
+      "kana": "はんたいする",
+      "en": "to oppose; to object; to be against",
+      "my": "ကန့်ကွက်သည်/ဆန့်ကျင်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n3.l02.s004",
+      "kanjiIds": [
+        "n3.l02.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.v005",
+      "lessonId": "n3.l02",
+      "ja": "対応する",
+      "kana": "たいおうする",
+      "en": "to cope; to respond; to handle; to deal with",
+      "my": "တုံ့ပြန်ဆောင်ရွက်သည်/ကိုင်တွယ်ဖြေရှင်းသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n3.l02.s005",
+      "kanjiIds": [
+        "n3.l02.k001",
+        "n3.l02.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.v006",
+      "lessonId": "n3.l02",
+      "ja": "価値",
+      "kana": "かち",
+      "en": "value; worth; merit",
+      "my": "တန်ဖိုး/အဖိုးတန်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l02.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.v007",
+      "lessonId": "n3.l02",
+      "ja": "責任",
+      "kana": "せきにん",
+      "en": "responsibility; duty; liability",
+      "my": "တာဝန်/တာဝန်ယူမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l02.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.v008",
+      "lessonId": "n3.l02",
+      "ja": "厳しい",
+      "kana": "きびしい",
+      "en": "strict; severe; stern; harsh",
+      "my": "တင်းကျပ်သော/ပြင်းထန်သော",
+      "pos": "adj-i",
+      "exampleSentenceId": "n3.l02.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.v009",
+      "lessonId": "n3.l02",
+      "ja": "親切な",
+      "kana": "しんせつな",
+      "en": "kind; gentle; caring",
+      "my": "ကြင်နာသော/ဖော်ရွေသော",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l02.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.v010",
+      "lessonId": "n3.l02",
+      "ja": "丁寧な",
+      "kana": "ていねいな",
+      "en": "polite; courteous; conscientious",
+      "my": "ယဉ်ကျေးသိုက်မြိုက်သော/သေချာဂရုစိုက်သော",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l02.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.v011",
+      "lessonId": "n3.l02",
+      "ja": "期待する",
+      "kana": "きたいする",
+      "en": "to expect; to look forward to; to anticipate",
+      "my": "မျှော်လင့်သည်/အားထားသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n3.l02.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.v012",
+      "lessonId": "n3.l02",
+      "ja": "理解する",
+      "kana": "りかいする",
+      "en": "to understand; to comprehend; to grasp",
+      "my": "နားလည်သဘောပေါက်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n3.l02.s012",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l02.k001",
+      "lessonId": "n3.l02",
+      "char": "対",
+      "meaning": "opposite; against; toward; pair; compare",
+      "onyomi": [
+        "タイ",
+        "ツイ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "対象",
+          "reading": "たいしょう",
+          "meaning": "target/subject",
+          "preview": false
+        },
+        {
+          "word": "反対",
+          "reading": "はんたい",
+          "meaning": "opposition/reverse",
+          "preview": false
+        },
+        {
+          "word": "対話",
+          "reading": "たいわ",
+          "meaning": "dialogue",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l02.s001"
+      ],
+      "components": [
+        "文",
+        "寸"
+      ],
+      "strokes": 7,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.k002",
+      "lessonId": "n3.l02",
+      "char": "応",
+      "meaning": "respond; answer; accept; adapt",
+      "onyomi": [
+        "オウ"
+      ],
+      "kunyomi": [
+        "こた・える"
+      ],
+      "exampleVocab": [
+        {
+          "word": "対応",
+          "reading": "たいおう",
+          "meaning": "response/handling",
+          "preview": false
+        },
+        {
+          "word": "応援",
+          "reading": "おうえん",
+          "meaning": "cheering/support",
+          "preview": false
+        },
+        {
+          "word": "応用",
+          "reading": "おうよう",
+          "meaning": "practical application",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l02.s005"
+      ],
+      "components": [
+        "广",
+        "心"
+      ],
+      "strokes": 7,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.k003",
+      "lessonId": "n3.l02",
+      "char": "側",
+      "meaning": "side; lean; flank; proximity",
+      "onyomi": [
+        "ソク"
+      ],
+      "kunyomi": [
+        "かわ",
+        "そば"
+      ],
+      "exampleVocab": [
+        {
+          "word": "右側",
+          "reading": "みぎがわ",
+          "meaning": "right side",
+          "preview": false
+        },
+        {
+          "word": "外側",
+          "reading": "そとがわ",
+          "meaning": "outside",
+          "preview": false
+        },
+        {
+          "word": "両側",
+          "reading": "りょうがわ",
+          "meaning": "both sides",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l02.s004"
+      ],
+      "components": [
+        "亻",
+        "則"
+      ],
+      "strokes": 11,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.k004",
+      "lessonId": "n3.l02",
+      "char": "態",
+      "meaning": "attitude; condition; appearance; stance",
+      "onyomi": [
+        "タイ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "態度",
+          "reading": "たいど",
+          "meaning": "attitude/manner",
+          "preview": false
+        },
+        {
+          "word": "状態",
+          "reading": "じょうたい",
+          "meaning": "condition/state",
+          "preview": false
+        },
+        {
+          "word": "事態",
+          "reading": "じたい",
+          "meaning": "situation/state of affairs",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l02.s002"
+      ],
+      "components": [
+        "能",
+        "心"
+      ],
+      "strokes": 14,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l02.g001",
+      "lessonId": "n3.l02",
+      "pattern": "〜にとって",
+      "meaning": "for; to; from the standpoint of (evaluating importance, difficulty, or feelings)",
+      "formation": "[Noun] + にとって / にとっては / にとっても\n[Noun] + にとっての + [Noun] (noun modification)",
+      "explanation": {
+        "en": "Used when viewing something from the standpoint, perspective, or position of a specific person or group:\n- The following predicate expresses an evaluation, judgment, sentiment, or status (e.g., 大切だ, 難しい, 必要だ, 嬉しい).\n- It CANNOT be followed by actions expressing physical behavior directed toward someone (use に対する/に対して for directed actions).\n- When modifying a noun, use [Noun 1 + にとっての + Noun 2], as in 「留学生にとっての悩み」 (Troubles from the standpoint of international students).",
+        "my": "လူပုဂ္ဂိုလ် သို့မဟုတ် အဖွဲ့အစည်းတစ်ခု၏ ရပ်တည်ချက်၊ ရှုထောင့်မှ ကြည့်ရှုအကဲဖြတ်ရာတွင် သုံးသည်:\n- နောက်ဆက်စကားတွင် တန်ဖိုးဖြတ်ချက်၊ အကဲဖြတ်မှု၊ အရေးပါမှု သို့မဟုတ် ခံစားချက်များ လိုက်ပါလေ့ရှိသည် (ဥပမာ- အရေးကြီးသည်၊ ခက်ခဲသည်၊ လိုအပ်သည်)။\n- တစ်စုံတစ်ဦးထံသို့ ဦးတည်လှုပ်ရှားသော ကာယကံမြောက် ပြုမူဆောင်ရွက်ချက်များတွင် မသုံးနိုင်ပါ (ထိုအခါ に対して ကို သုံးရသည်)။\n- နာမ်ကို အထူးပြုသည့်အခါ [Noun 1 + にとっての + Noun 2] ပုံစံဖြင့် သုံးသည် (ဥပမာ- နိုင်ငံခြားကျောင်းသားများအတွက် အခက်အခဲ)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l02.s006",
+          "note": "Evaluating what is valuable from one's perspective."
+        },
+        {
+          "sentenceId": "n3.l02.s008",
+          "note": "Evaluating how strict conditions are for beginners."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use にとって for directed interactive actions (❌ お客様にとって頭を下げる → ⭕️ お客様に対して頭を下げる).",
+        "Do not confuse にとって (subjective evaluation) with として (social role or formal capacity)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.g002",
+      "lessonId": "n3.l02",
+      "pattern": "〜に対して",
+      "meaning": "toward; to; in contrast to (target of action/attitude OR comparison of opposites)",
+      "formation": "[Noun] + に対して / に対しても / に対する + [Noun]\n[Sentence Plain form / Na-adj な/である / Noun である] + のに対して (contrast)",
+      "explanation": {
+        "en": "Has two distinct intermediate functions:\n1. Target of Action or Attitude: Expresses actions, speech, manners, or feelings directed toward a person or group (e.g., 目上の人に対して丁寧な言葉を使う = Use polite words toward superiors).\n2. Direct Contrast: Contrasts two clearly opposing facts or subjects (e.g., 兄が活発なのに対して、弟は物静かだ = In contrast to the elder brother being active, the younger brother is quiet).\n- When modifying a noun, use [Noun 1 + に対する + Noun 2].",
+        "my": "အဓိက အသုံးပြုပုံ ၂ မျိုး ရှိသည်:\n၁။ သဘောထား/ဆက်ဆံပုံ၏ ဦးတည်ချက်: တစ်စုံတစ်ဦးအပေါ် ပြုမူသော အမူအရာ၊ အပြောအဆို သို့မဟုတ် သဘောထားကို ဖော်ပြသည် (ဥပမာ- လူကြီးသူမများအပေါ် ယဉ်ကျေးစွာ ပြောဆိုသည်)။\n၂။ ဖြောင့်ဖြောင့်ကြီး ဆန့်ကျင်ဘက်ဖြစ်မှု: အကြောင်းအရာနှစ်ခု၏ ဆန့်ကျင်ဘက်ကွာခြားချက်ကို နှိုင်းယှဉ်ဖော်ပြသည် (ဥပမာ- အစ်ကိုက တက်ကြွလှုပ်ရှားသော်လည်း ညီဖြစ်သူမှာ အေးအေးဆေးဆေး နေတတ်သည်)။\n- နာမ်ကို အထူးပြုသည့်အခါ [Noun 1 + に対する + Noun 2] ပုံစံဖြင့် သုံးရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l02.s002",
+          "note": "Attitude displayed toward customers."
+        },
+        {
+          "sentenceId": "n3.l02.s005",
+          "note": "Handling inquiries directed from users."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not say に対答する or に対しての (use に対する when modifying a noun: ❌ お客様に対しての態度 → ⭕️ お客様に対する態度).",
+        "Do not use にとって when describing manners directed at someone (❌ 先輩にとって失礼な態度 → ⭕️ 先輩に対して失礼な態度)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l02.s001",
+      "lessonId": "n3.l02",
+      "ja": "今回のアンケートは、日本語を学ぶ留学生を対象として実施されました。",
+      "kana": "こんかいの あんけーとは、にほんごを まなぶ りゅうがくせいを たいしょうとして じっし されました。",
+      "translation": {
+        "en": "This questionnaire was conducted targeting international students studying Japanese.",
+        "my": "ယခုတစ်ကြိမ် မေးခွန်းလွှာစစ်တမ်းကို ဂျပန်စာလေ့လာနေသော နိုင်ငံခြားကျောင်းသားများကို ပစ်မှတ်ထား၍ ကောက်ယူခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l02.v001"
+      ],
+      "grammarIds": [
+        "n3.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.s002",
+      "lessonId": "n3.l02",
+      "ja": "店員はお客様に対して、いつも礼儀正しく誠実な態度で接するべきです。",
+      "kana": "てんいんは おきゃくさまに たいして、いつも れいぎただしく せいじつな たいどで 接するべきです。",
+      "translation": {
+        "en": "Store clerks should always interact with customers with a courteous and sincere attitude.",
+        "my": "ဆိုင်ဝန်ထမ်းများသည် ဖောက်သည်များအပေါ် အမြဲတစေ ယဉ်ကျေးသိမ်မွေ့ပြီး ရိုးသားသော သဘောထားဖြင့် ဆက်ဆံသင့်ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l02.v002"
+      ],
+      "grammarIds": [
+        "n3.l02.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.s003",
+      "lessonId": "n3.l02",
+      "ja": "交渉の席では、相手の意見を尊重しながら対話を進めることが肝心です。",
+      "kana": "こうしょうの せきでは、あいての いけんを そんちょうしながら たいわを すすめる ことが かんじんです。",
+      "translation": {
+        "en": "At the negotiation table, it is essential to proceed with dialogue while respecting the other party's opinions.",
+        "my": "ညှိနှိုင်းဆွေးနွေးပွဲများတွင် တစ်ဖက်လူ၏ သဘောထားကို လေးစားရင်း ဆွေးနွေးပြောဆိုမှုကို ရှေ့ဆက်ရန် အလွန်အရေးကြီးပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l02.v003"
+      ],
+      "grammarIds": [
+        "n3.l02.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.s004",
+      "lessonId": "n3.l02",
+      "ja": "提案された新プロジェクトに対して、反対する側の意見にも真剣に耳を傾けるべきです。",
+      "kana": "ていあん された しんぷろじぇくとに たいして、はんたいする がわの いけんにも しんけんに みみを かたむける べきです。",
+      "translation": {
+        "en": "Toward the proposed new project, we should also earnestly listen to the opinions of the opposing side.",
+        "my": "အဆိုပြုတင်ပြလာသော ပရောဂျက်အသစ်နှင့် ပတ်သက်၍ ကန့်ကွက်သည့်ဘက်မှ သဘောထားအမြင်များကိုလည်း အလေးအနက်ထား နားထောင်သင့်ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l02.v004"
+      ],
+      "grammarIds": [
+        "n3.l02.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.s005",
+      "lessonId": "n3.l02",
+      "ja": "突然のシステム障害に対して、技術担当者が迅速に対応しました。",
+      "kana": "とつぜんの しすてむ しょうがいに たいして、ぎじゅつ たんとうしゃが じんそくに たいおうしました。",
+      "translation": {
+        "en": "In response to the sudden system failure, the technical team handled the issue swiftly.",
+        "my": "ရုတ်တရက် ဖြစ်ပွားခဲ့သော စနစ်ချွတ်ယွင်းမှုအပေါ် နည်းပညာတာဝန်ခံက လျင်မြန်စွာ ကိုင်တွယ်ဖြေရှင်းခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l02.v005"
+      ],
+      "grammarIds": [
+        "n3.l02.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.s006",
+      "lessonId": "n3.l02",
+      "ja": "健康はお金では買えないものであり、誰にとってもかけがえのない価値があります。",
+      "kana": "けんこうは おかねでは かえない ものであり、だれに とっても かけがえのない かちが あります。",
+      "translation": {
+        "en": "Health is something money cannot buy, holding irreplaceable value for anyone.",
+        "my": "ကျန်းမာရေးသည် ငွေဖြင့်ဝယ်၍မရသောအရာဖြစ်ပြီး မည်သူ့အတွက်မဆို အစားထိုးမရနိုင်သော တန်ဖိုးရှိပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l02.v006"
+      ],
+      "grammarIds": [
+        "n3.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.s007",
+      "lessonId": "n3.l02",
+      "ja": "リーダーにとって最も重い責任は、チーム全員の安全を確保することです。",
+      "kana": "りーだーに とって もっとも おもい せきにんは、ちーむ ぜんいんの あんぜんを かくほする ことです。",
+      "translation": {
+        "en": "For a leader, the heaviest responsibility is ensuring the safety of all team members.",
+        "my": "ခေါင်းဆောင်တစ်ဦးအတွက် အလေးလေးနက်ဆုံး တာဝန်မှာ အဖွဲ့ဝင်အားလုံး၏ ဘေးကင်းလုံခြုံမှုကို အာမခံပေးခြင်း ဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l02.v007"
+      ],
+      "grammarIds": [
+        "n3.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.s008",
+      "lessonId": "n3.l02",
+      "ja": "初心者にとって、このプログラミング試験の合格基準はかなり厳しいです。",
+      "kana": "しょしんしゃに とって、この ぷろぐらみんぐ しけんの ごうかく きじゅんは かなり きびしいです。",
+      "translation": {
+        "en": "For beginners, the passing criteria for this programming exam are quite severe.",
+        "my": "စတင်လေ့လာသူများအတွက် ဤပရိုဂရမ်းမင်းစာမေးပွဲ၏ အောင်မှတ်သတ်မှတ်ချက်မှာ အတော်အတန် တင်းကျပ်လှပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l02.v008"
+      ],
+      "grammarIds": [
+        "n3.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.s009",
+      "lessonId": "n3.l02",
+      "ja": "困っている旅行者に対して、駅のスタッフがとても親切に道案内をしてくれました。",
+      "kana": "こまっている りょこうしゃに たいして、えきの すたっふが とても しんせつに みちあんないを してくれました。",
+      "translation": {
+        "en": "Toward the troubled traveler, the station staff guided the way very kindly.",
+        "my": "အခက်ကြုံနေရသော ခရီးသွားအပေါ် ဘူတာရုံဝန်ထမ်းက အလွန်ကြင်နာစွာ လမ်းညွှန်ပေးခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l02.v009"
+      ],
+      "grammarIds": [
+        "n3.l02.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.s010",
+      "lessonId": "n3.l02",
+      "ja": "年配の方々に対しては、より丁寧な言葉遣いでわかりやすく説明するよう心がけています。",
+      "kana": "ねんぱいの かたがたに たいしては、より ていねいな ことばづかいで わかりやすく せつめいするよう こころがけています。",
+      "translation": {
+        "en": "Toward elderly people, I make conscious efforts to explain clearly using more polite wording.",
+        "my": "သက်ကြီးရွယ်အိုများအပေါ် ပိုမိုယဉ်ကျေးသောအသုံးအနှုန်းဖြင့် နားလည်လွယ်အောင် ရှင်းပြရန် အမြဲအလေးထားပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l02.v010"
+      ],
+      "grammarIds": [
+        "n3.l02.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.s011",
+      "lessonId": "n3.l02",
+      "ja": "親の過度な期待は、時に子供にとって重いプレッシャーになることがあります。",
+      "kana": "おやの かどな きたいは、ときに こどもに とって おもい ぷれっしゃーに なる ことが あります。",
+      "translation": {
+        "en": "Excessive parental expectations can sometimes become a heavy pressure for children.",
+        "my": "မိဘများ၏ အလွန်အကျွံ မျှော်လင့်ချက်သည် တစ်ခါတစ်ရံ ကလေးများအတွက် ကြီးမားသောဖိအားတစ်ခု ဖြစ်လာတတ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l02.v011"
+      ],
+      "grammarIds": [
+        "n3.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l02.s012",
+      "lessonId": "n3.l02",
+      "ja": "相手の文化的背景を正しく理解することは、国際交流において極めて重要です。",
+      "kana": "あいての ぶんかてき はいけいを ただしく りかいする ことは、こくさい こうりゅうに おいて きわめて じゅうようです。",
+      "translation": {
+        "en": "Understanding the other party's cultural background correctly is crucial in international exchange.",
+        "my": "တစ်ဖက်လူ၏ ယဉ်ကျေးမှုနောက်ခံကို မှန်ကန်စွာ နားလည်သဘောပေါက်ခြင်းသည် နိုင်ငံတကာဆက်ဆံရေးတွင် အလွန်အရေးပါပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l02.v003",
+        "n3.l02.v012"
+      ],
+      "grammarIds": [
+        "n3.l02.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l02.r01",
+    "lessonId": "n3.l02",
+    "title": "多文化共生社会におけるコミュニケーションのあり方 (Communication in a Multicultural Coexistence Society)",
+    "level": "N3",
+    "text": "日本に暮らす外国人の増加に伴い、地域社会における「多文化共生」の推進が重要な課題となっています。国籍や母語が異なる人々が共に暮らす社会において、お互いの立場や考え方を尊重することは欠かせません。\n\n日本語を母語としない人々にとって、市役所の公式文書や防災パンフレットに並ぶ複雑な漢字や専門用語を理解することは、非常に困難です。日常の生活手続きにおいて言葉の壁に直面することは、彼らにとって大きな孤立感や不安の原因となります。\n\nこのような課題に対して、全国の自治体では「やさしい日本語」を用いた情報提供を積極的に進めています。これは単に外国人のためだけでなく、高齢者や子供にとっても分かりやすいという大きな利点を持っています。住民一人ひとりが相手の視点に立ち、親切な態度で向き合う姿勢こそが、誰もが安心して暮らせる地域づくりにつながるのです。",
+    "kanaText": "にほんに くらす がいこくじんの ぞうかに ともない、ちいきしゃかいに おける「たぶんかきょうせい」の すいしんが じゅうような かだいと なっています。こくせきや ぼごが ことなる ひとびとが ともに くらす しゃかいに おいて、おたがいの たちばや かんがえかたを そんちょうする ことは かかせません。\n\nにほんごを ぼごとは しない ひとびとに とって、しやくしょの こうしきぶんしょや ぼうさいぱんふれっとに ならぶ ふくざつな かんじや せんもんようごを りかいする ことは、ひじょうに こんなんです。にちじょうの せいかつてつづきに おいて ことばのかべに ちょくめんする ことは、かれらに とって おおきな こりつかんや ふあんの げんいんと なります。\n\nこのような かだいに たいして、ぜんこくの じちたいでは「やさしいにほんご」を もちいた じょうほうていきょうを せっきょくてきに すすめています。これは たんに がいこくじんの ためだけでなく、こうれいしゃや こどもに とっても わかりやすいという おおきな りてんを もっています。じゅうみん ひとりひとりが あいての してんに たち、しんせつな たいどで むきあう しせいこそが、だれもが あんしんして くらせる ちいきづくりに つながるのです。",
+    "translation": "With the increase of foreign residents living in Japan, promoting \"multicultural coexistence\" in local communities has become a vital task. In a society where people of differing nationalities and native languages live together, respecting each other's positions and ways of thinking is indispensable.\n\nFor individuals whose native tongue is not Japanese, comprehending the complex kanji and technical terminology lined up in official city hall documents and disaster prevention pamphlets is exceptionally difficult. Confronting language barriers during everyday life procedures becomes a major cause of isolation and anxiety for them.\n\nToward such challenges, local municipalities nationwide are proactively promoting information provision using \"Plain Japanese\" (Yasashii Nihongo). This holds the significant merit of being easy to understand not only for foreigners, but also for elderly individuals and children. The stance of every resident placing themselves in the other person's perspective and facing them with a kind attitude leads directly to creating communities where everyone can live with peace of mind.",
+    "questionIds": [
+      "n3.l02.q025",
+      "n3.l02.q026",
+      "n3.l02.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l02.l01",
+    "lessonId": "n3.l02",
+    "title": "新入社員への接客マナー指導 (Customer Service Guidance for New Hires)",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "指導員（山下）",
+      "新入社員（パク）"
+    ],
+    "transcript": "山下：パクさん、昨日のカウンターでの接客、とても一生懸命でしたね。\nパク：ありがとうございます。ただ、日本のお客様に対して適切な敬語が使えているかどうか、まだ自信がありません。\n山下：言葉遣いも大切ですが、何よりも相手の話を熱心に聞く姿勢が伝わっていましたよ。お客様に対する誠実な態度は、言葉以上に安心感を与えます。\nパク：そう言っていただけると嬉しいです。外国人である私にとって、日本のビジネス習慣にはまだ慣れない点が多いですが、早く一人前になりたいです。\n山下：焦る必要はありませんよ。分からないことがあれば、遠慮なく周りの先輩に相談してくださいね。\nパク：はい！お客様にとっても同僚にとっても信頼される社員になれるよう、これからも努力します。",
+    "translation": "Yamashita: Park-san, yesterday's customer service at the front counter was very dedicated.\nPark: Thank you very much. However, I still lack confidence regarding whether I am using appropriate honorifics toward Japanese customers.\nYamashita: Wording is important, but more than anything, your posture of listening earnestly to the other person came across clearly. A sincere attitude toward customers imparts a sense of security even more than words.\nPark: Hearing you say that makes me happy. For me as a foreigner, there are still many points in Japanese business customs I am not used to, but I want to become fully competent soon.\nYamashita: There is no need to rush. If there are things you don't understand, please don't hesitate to consult senior colleagues around you.\nPark: Yes! I will continue striving to become an employee trusted both by customers and by colleagues.",
+    "turns": [
+      {
+        "speaker": "山下",
+        "ja": "パクさん、昨日のカウンターでの接客、とても一生懸命でしたね。",
+        "kana": "ぱくさん、きのうの かうんたーでの せっきゃく、とても いっしょうけんめい でしたね。",
+        "en": "Park-san, yesterday's customer service at the front counter was very dedicated."
+      },
+      {
+        "speaker": "パク",
+        "ja": "ありがとうございます。ただ、日本のお客様に対して適切な敬語が使えているかどうか、まだ自信がありません。",
+        "kana": "ありがとうございます。ただ、にほんの おきゃくさまに たいして てきせつな けいごが つかえているかどうか、まだ じしんが ありません。",
+        "en": "Thank you very much. However, I still lack confidence regarding whether I am using appropriate honorifics toward Japanese customers."
+      },
+      {
+        "speaker": "山下",
+        "ja": "言葉遣いも大切ですが、何よりも相手の話を熱心に聞く姿勢が伝わっていましたよ。お客様に対する誠実な態度は、言葉以上に安心感を与えます。",
+        "kana": "ことばづかいも たいせつですが、なによりも あいての はなしを ねっしんに きく しせいが つたわっていましたよ。おきゃくさまに たいする せいじつな たいどは、ことば いじょうに あんしんかんを あたえます。",
+        "en": "Wording is important, but more than anything, your posture of listening earnestly to the other person came across clearly. A sincere attitude toward customers imparts a sense of security even more than words."
+      },
+      {
+        "speaker": "パク",
+        "ja": "そう言っていただけると嬉しいです。外国人である私にとって、日本のビジネス習慣にはまだ慣れない点が多いですが、早く一人前になりたいです。",
+        "kana": "そう いっていただけると うれしいです。がいこくじんである わたしに とって、にほんの びじねすしゅうかんには まだ なれない てんが おおいですが、はやく いちにんまえに なりたいです。",
+        "en": "Hearing you say that makes me happy. For me as a foreigner, there are still many points in Japanese business customs I am not used to, but I want to become fully competent soon."
+      },
+      {
+        "speaker": "山下",
+        "ja": "焦る必要はありませんよ。分からないことがあれば、遠慮なく周りの先輩に相談してくださいね。",
+        "kana": "あせる ひつようは ありませんよ。わからない ことが あれば、えんりょなく まわりの せんぱいに そうだんして くださいね。",
+        "en": "There is no need to rush. If there are things you don't understand, please don't hesitate to consult senior colleagues around you."
+      },
+      {
+        "speaker": "パク",
+        "ja": "はい！お客様にとっても同僚にとっても信頼される社員になれるよう、これからも努力します。",
+        "kana": "はい！おきゃくさまに とっても どうりょうに とっても しんらいされる しゃいんに なれるよう、これからも どりょくします。",
+        "en": "Yes! I will continue striving to become an employee trusted both by customers and by colleagues."
+      }
+    ],
+    "questionIds": [
+      "n3.l02.q028",
+      "n3.l02.q029",
+      "n3.l02.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l02.q001",
+      "lessonId": "n3.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "働きかけや調査の目当てとなる人や事柄を何と言いますか。",
+      "choices": [
+        "対象",
+        "気象",
+        "印象",
+        "現象"
+      ],
+      "answer": "対象",
+      "acceptedAnswers": [
+        "対象"
+      ],
+      "explanation": "「対象（たいしょう）」は行為や調査の目標・相手となる人やものを指します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q002",
+      "lessonId": "n3.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "人や事柄に対する心の構えや、身の振る舞い・様子を表す言葉はどれですか。",
+      "choices": [
+        "態度",
+        "制度",
+        "速度",
+        "温度"
+      ],
+      "answer": "態度",
+      "acceptedAnswers": [
+        "態度"
+      ],
+      "explanation": "「態度（たいど）」は人や物事に対する姿勢や身のこなしを表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q003",
+      "lessonId": "n3.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "会話や勝負を共に行う相手方の人物を指す名詞はどれですか。",
+      "choices": [
+        "相手",
+        "右手",
+        "勝手",
+        "助手"
+      ],
+      "answer": "相手",
+      "acceptedAnswers": [
+        "相手"
+      ],
+      "explanation": "「相手（あいて）」は行動を共にする対象や交渉・勝負の敵手を指します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q004",
+      "lessonId": "n3.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "相手の意見や提案に同意せず、対抗する動詞はどれですか。",
+      "choices": [
+        "反対する",
+        "賛成する",
+        "決定する",
+        "注目する"
+      ],
+      "answer": "反対する",
+      "acceptedAnswers": [
+        "反対する"
+      ],
+      "explanation": "「反対する（はんたいする）」は意見や行動に逆らい同意しないことです。対義語は「賛成する」です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q005",
+      "lessonId": "n3.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "状況や相手の出方に応じて適切に処理する動詞はどれですか。",
+      "choices": [
+        "対応する",
+        "応援する",
+        "応用する",
+        "反応する"
+      ],
+      "answer": "対応する",
+      "acceptedAnswers": [
+        "対応する"
+      ],
+      "explanation": "「対応する（たいおうする）」は相手や事態に合わせてふさわしい処置をとることです。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q006",
+      "lessonId": "n3.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "物事の持つ値打ちや有用性を表す名詞はどれですか。",
+      "choices": [
+        "価値",
+        "値段",
+        "定価",
+        "物価"
+      ],
+      "answer": "価値",
+      "acceptedAnswers": [
+        "価値"
+      ],
+      "explanation": "「価値（かち）」は物事が持っている値打ちや重要性を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q007",
+      "lessonId": "n3.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "自分が引き受けた任務や結果について負うべき義務を何と言いますか。",
+      "choices": [
+        "責任",
+        "担任",
+        "任務",
+        "信頼"
+      ],
+      "answer": "責任",
+      "acceptedAnswers": [
+        "責任"
+      ],
+      "explanation": "「責任（せきにん）」は引き受けて果たさなければならない任務や義務です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q008",
+      "lessonId": "n3.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "妥協を許さず、規則や指導が極めて厳密な様子を表す形容詞はどれですか。",
+      "choices": [
+        "厳しい",
+        "激しい",
+        "悔しい",
+        "苦しい"
+      ],
+      "answer": "厳しい",
+      "acceptedAnswers": [
+        "厳しい"
+      ],
+      "explanation": "「厳しい（きびしい）」は規律や要求が厳密で甘さがない様子を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q009",
+      "lessonId": "n3.l02",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「反対」の「対」の音読みとして正しいものはどれですか。",
+      "choices": [
+        "タイ",
+        "ツイ",
+        "トウ",
+        "ショウ"
+      ],
+      "answer": "タイ",
+      "acceptedAnswers": [
+        "タイ"
+      ],
+      "explanation": "「対」の主要な音読みはタイです（反対、対象、対立）。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q010",
+      "lessonId": "n3.l02",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「対」の総画数として正しいものはどれですか。",
+      "choices": [
+        "7画",
+        "6画",
+        "8画",
+        "9画"
+      ],
+      "answer": "7画",
+      "acceptedAnswers": [
+        "7画"
+      ],
+      "explanation": "「対」は「文（4画）」＋「寸（3画）」で計7画です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q011",
+      "lessonId": "n3.l02",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「対応」の「応」の音読みとして正しいものはどれですか。",
+      "choices": [
+        "オウ",
+        "ヨウ",
+        "コウ",
+        "ショウ"
+      ],
+      "answer": "オウ",
+      "acceptedAnswers": [
+        "オウ"
+      ],
+      "explanation": "「応」の音読みはオウです（対応、応援、応用）。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q012",
+      "lessonId": "n3.l02",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「右側」の「側」の訓読み（送り仮名を含む）として正しいものはどれですか。",
+      "choices": [
+        "がわ",
+        "そば",
+        "かわ",
+        "よこ"
+      ],
+      "answer": "がわ",
+      "acceptedAnswers": [
+        "がわ"
+      ],
+      "explanation": "「右側（みぎがわ）」のように「がわ / かわ」と訓読します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q013",
+      "lessonId": "n3.l02",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「態度」の「態」の音読みとして正しいものはどれですか。",
+      "choices": [
+        "タイ",
+        "ダイ",
+        "テイ",
+        "トウ"
+      ],
+      "answer": "タイ",
+      "acceptedAnswers": [
+        "タイ"
+      ],
+      "explanation": "「態」の音読みはタイです（態度、状態、事態）。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q014",
+      "lessonId": "n3.l02",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「態」の部首として正しいものはどれですか。",
+      "choices": [
+        "心（したごころ）",
+        "月（にくづき）",
+        "匕（ひ）",
+        "广（まだれ）"
+      ],
+      "answer": "心（したごころ）",
+      "acceptedAnswers": [
+        "心（したごころ）"
+      ],
+      "explanation": "「態」の部首は下部の「心（したごころ）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q015",
+      "lessonId": "n3.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「健康は何よりも大切であり、人間（　）一番の財産だ。」立場からの価値評価を表す助詞表現はどれですか。",
+      "choices": [
+        "にとって",
+        "に対して",
+        "について",
+        "によって"
+      ],
+      "answer": "にとって",
+      "acceptedAnswers": [
+        "にとって"
+      ],
+      "explanation": "「〜にとって」は立場や観点から見て重要さや価値を評価する場合に用います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q016",
+      "lessonId": "n3.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「先生（　）失礼な言葉遣いをしてはいけません。」相手に向ける態度はどれですか。",
+      "choices": [
+        "に対して",
+        "にとって",
+        "について",
+        "として"
+      ],
+      "answer": "に対して",
+      "acceptedAnswers": [
+        "に対して"
+      ],
+      "explanation": "相手に向けられる態度や行動には「〜に対して」を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q017",
+      "lessonId": "n3.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜にとって」の後に続く述語として適切なものはどれですか。",
+      "choices": [
+        "大切だ / 難しい / 必要だ などの評価や判断",
+        "お辞儀をする / 手紙を送る などの直接的動作",
+        "質問をする / 挨拶をする などの働きかけ",
+        "走る / 泳ぐ などの純粋な運動動詞"
+      ],
+      "answer": "大切だ / 難しい / 必要だ などの評価や判断",
+      "acceptedAnswers": [
+        "大切だ / 難しい / 必要だ などの評価や判断"
+      ],
+      "explanation": "「〜にとって」の後ろにはその立場からの評価・判断・感情（大切だ、困難だ等）が来ます。動作の相手には使えません。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q018",
+      "lessonId": "n3.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「兄が社交的なの（　）、弟は一人で読書するのが好きだ。」対比を表す表現はどれですか。",
+      "choices": [
+        "に対して",
+        "にとって",
+        "について",
+        "によって"
+      ],
+      "answer": "に対して",
+      "acceptedAnswers": [
+        "に対して"
+      ],
+      "explanation": "二つの対照的な事実を対比させる場合、「〜に対して」を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q019",
+      "lessonId": "n3.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「子供（　）遊びは、単なる楽しみではなく学びの場でもある。」立場からの見解を表すものはどれですか。",
+      "choices": [
+        "にとって",
+        "に対して",
+        "によって",
+        "として"
+      ],
+      "answer": "にとって",
+      "acceptedAnswers": [
+        "にとって"
+      ],
+      "explanation": "子供という立場から見てどのような意味を持つかを述べるため、「〜にとって」が正解です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q020",
+      "lessonId": "n3.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「お客様（　）態度は常に丁寧でなければならない。」名詞（態度）を修飾する適切な形はどれですか。",
+      "choices": [
+        "に対する",
+        "に対しての",
+        "にとっての",
+        "についての"
+      ],
+      "answer": "に対する",
+      "acceptedAnswers": [
+        "に対する"
+      ],
+      "explanation": "名詞を修飾するときは「〜に対する＋名詞」の形を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q021",
+      "lessonId": "n3.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「若者（　）の悩みについてアンケートを行った。」「若者の立場における悩み」を表す修飾形はどれですか。",
+      "choices": [
+        "にとって",
+        "にとっての",
+        "に対する",
+        "について"
+      ],
+      "answer": "にとっての",
+      "acceptedAnswers": [
+        "にとっての"
+      ],
+      "explanation": "「若者の立場からの」という意味で名詞（悩み）を修飾する場合は「〜にとっての」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q022",
+      "lessonId": "n3.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次のうち、文法的に誤っているものはどれですか。",
+      "choices": [
+        "社長にとって深く頭を下げて挨拶した。",
+        "社長に対して深く頭を下げて挨拶した。",
+        "社員にとって健康は一番大切だ。",
+        "顧客に対するサービスの向上を図る。"
+      ],
+      "answer": "社長にとって深く頭を下げて挨拶した。",
+      "acceptedAnswers": [
+        "社長にとって深く頭を下げて挨拶した。"
+      ],
+      "explanation": "挨拶するという直接の動作の対象に「にとって」は使えず、「に対して」でなければなりません。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.g001",
+        "n3.l02.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q023",
+      "lessonId": "n3.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「都市部で人口が増加しているの（　）、地方では過疎化が進んでいる。」",
+      "choices": [
+        "に対して",
+        "にとって",
+        "について",
+        "によって"
+      ],
+      "answer": "に対して",
+      "acceptedAnswers": [
+        "に対して"
+      ],
+      "explanation": "都市部と地方の対照的な現象を比較対比させているため「〜に対して」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q024",
+      "lessonId": "n3.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「私（　）日本での留学生活は、かけがえのない宝物です。」",
+      "choices": [
+        "にとって",
+        "に対して",
+        "について",
+        "として"
+      ],
+      "answer": "にとって",
+      "acceptedAnswers": [
+        "にとって"
+      ],
+      "explanation": "「私」という主体の評価・感情を表すため「にとって」が適しています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q025",
+      "lessonId": "n3.l02",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "日本語を母語としない人々にとって、市役所の文書のどのような点が困難ですか。",
+      "choices": [
+        "複雑な漢字や専門用語が多く並んでいる点。",
+        "文字が薄くて読めない点。",
+        "写真やイラストが多すぎる点。",
+        "紙のサイズが大きすぎる点。"
+      ],
+      "answer": "複雑な漢字や専門用語が多く並んでいる点。",
+      "acceptedAnswers": [
+        "複雑な漢字や専門用語が多く並んでいる点。"
+      ],
+      "explanation": "本文第2段落に「複雑な漢字や専門用語を理解することは、非常に困難です」と述べられています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q026",
+      "lessonId": "n3.l02",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "「やさしい日本語」による情報提供には、どのような利点がありますか。",
+      "choices": [
+        "外国人だけでなく、高齢者や子供にとっても分かりやすい点。",
+        "印刷の費用が無料になる点。",
+        "英語の通訳者を雇わなくてもよい点。",
+        "すべての手続きを自動で行ってくれる点。"
+      ],
+      "answer": "外国人だけでなく、高齢者や子供にとっても分かりやすい点。",
+      "acceptedAnswers": [
+        "外国人だけでなく、高齢者や子供にとっても分かりやすい点。"
+      ],
+      "explanation": "「これは単に外国人のためだけでなく、高齢者や子供にとっても分かりやすいという大きな利点を持っています」と明記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q027",
+      "lessonId": "n3.l02",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "誰もが安心して暮らせる地域社会を作るために、住民一人ひとりに求められている姿勢は何ですか。",
+      "choices": [
+        "相手の視点に立ち、親切な態度で向き合う姿勢。",
+        "自分に関係のない人とは会話しない姿勢。",
+        "すべての外国人に英語で話しかける姿勢。",
+        "役所の指示を待つだけで何もしない姿勢。"
+      ],
+      "answer": "相手の視点に立ち、親切な態度で向き合う姿勢。",
+      "acceptedAnswers": [
+        "相手の視点に立ち、親切な態度で向き合う姿勢。"
+      ],
+      "explanation": "末尾に「住民一人ひとりが相手の視点に立ち、親切な態度で向き合う姿勢こそが、誰もが安心して暮らせる地域づくりにつながるのです」とあります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q028",
+      "lessonId": "n3.l02",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "山下指導員はパクさんの接客について、どのような点を評価しましたか。",
+      "choices": [
+        "相手の話を熱心に聞く誠実な態度が安心感を与えていた点。",
+        "誰よりも完璧な敬語を使えていた点。",
+        "カウンターの片付けを素早く行った点。",
+        "商品の売上を一番多く伸ばした点。"
+      ],
+      "answer": "相手の話を熱心に聞く誠実な態度が安心感を与えていた点。",
+      "acceptedAnswers": [
+        "相手の話を熱心に聞く誠実な態度が安心感を与えていた点。"
+      ],
+      "explanation": "山下さんは「お客様に対する誠実な態度は、言葉以上に安心感を与えます」と評価しています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q029",
+      "lessonId": "n3.l02",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "パクさんは外国人である自分にとって、どのような点に難しさを感じていますか。",
+      "choices": [
+        "日本のビジネス習慣にまだ慣れていない点。",
+        "出勤時間が早すぎること。",
+        "同僚と日本語で雑談すること。",
+        "重い荷物を運ぶこと。"
+      ],
+      "answer": "日本のビジネス習慣にまだ慣れていない点。",
+      "acceptedAnswers": [
+        "日本のビジネス習慣にまだ慣れていない点。"
+      ],
+      "explanation": "パクさんは「外国人である私にとって、日本のビジネス習慣にはまだ慣れない点が多いですが」と話しています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l02.q030",
+      "lessonId": "n3.l02",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "パクさんは今後どのような社員になりたいと目標を述べていますか。",
+      "choices": [
+        "お客様にとっても同僚にとっても信頼される社員。",
+        "早く昇進して店長になる社員。",
+        "海外支社へ転勤する社員。",
+        "定時で誰よりも早く帰宅する社員。"
+      ],
+      "answer": "お客様にとっても同僚にとっても信頼される社員。",
+      "acceptedAnswers": [
+        "お客様にとっても同僚にとっても信頼される社員。"
+      ],
+      "explanation": "パクさんは「お客様にとっても同僚にとっても信頼される社員になれるよう、これからも努力します」と結んでいます。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l02.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

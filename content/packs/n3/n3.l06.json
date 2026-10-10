@@ -1,0 +1,1703 @@
+{
+  "id": "n3.l06",
+  "level": "N3",
+  "module": "N3 Bridging Intermediate",
+  "number": 6,
+  "title": "N3 Lesson 6: Limit & Exclusivity (限定・最善: 〜に限る vs 〜ばかり)",
+  "description": "Master expressing supreme recommendations with 〜に限る and excessive exclusivity or repetitive actions with 〜ばかり / 〜てばかりいる.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l06.v001",
+      "lessonId": "n3.l06",
+      "ja": "選択",
+      "kana": "せんたく",
+      "en": "selection; choice; option",
+      "my": "ရွေးချယ်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l06.s001",
+      "kanjiIds": [
+        "n3.l06.k002",
+        "n3.l06.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.v002",
+      "lessonId": "n3.l06",
+      "ja": "日常",
+      "kana": "にちじょう",
+      "en": "everyday life; daily routine; ordinary days",
+      "my": "နေ့စဉ်ပုံမှန်ဘဝ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l06.s002",
+      "kanjiIds": [
+        "n3.l06.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.v003",
+      "lessonId": "n3.l06",
+      "ja": "独特",
+      "kana": "どくとく",
+      "en": "unique; peculiar; distinctive",
+      "my": "သီးသန့်ထူးခြားသော/တစ်မူထူးခြားသော",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l06.s003",
+      "kanjiIds": [
+        "n3.l06.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.v004",
+      "lessonId": "n3.l06",
+      "ja": "贅沢",
+      "kana": "ぜいたく",
+      "en": "luxury; extravagance",
+      "my": "ဇိမ်ခံမှု/ဖြုန်းတီးမှု",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l06.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.v005",
+      "lessonId": "n3.l06",
+      "ja": "文句",
+      "kana": "もんく",
+      "en": "complaint; grumble; objection",
+      "my": "မကျေနပ်ချက်/အပြစ်တင်စကား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l06.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.v006",
+      "lessonId": "n3.l06",
+      "ja": "偏る",
+      "kana": "かたよる",
+      "en": "to be biased; to lean; to be one-sided",
+      "my": "ဘက်လိုက်သည်/တစ်ဖက်စောင်းနင်းဖြစ်သည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n3.l06.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.v007",
+      "lessonId": "n3.l06",
+      "ja": "我慢",
+      "kana": "がまん",
+      "en": "patience; endurance; self-control",
+      "my": "သည်းခံခြင်း/အောင့်အည်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l06.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.v008",
+      "lessonId": "n3.l06",
+      "ja": "栄養",
+      "kana": "えいよう",
+      "en": "nutrition; nourishment",
+      "my": "အာဟာရ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l06.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.v009",
+      "lessonId": "n3.l06",
+      "ja": "睡眠",
+      "kana": "すいみん",
+      "en": "sleep",
+      "my": "အိပ်စက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l06.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.v010",
+      "lessonId": "n3.l06",
+      "ja": "お風呂",
+      "kana": "おふろ",
+      "en": "bath; hot bath",
+      "my": "ရေချိုးကန်/ရေချိုးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l06.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.v011",
+      "lessonId": "n3.l06",
+      "ja": "疲労",
+      "kana": "ひろう",
+      "en": "fatigue; exhaustion; weariness",
+      "my": "မောပန်းနွမ်းနယ်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l06.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.v012",
+      "lessonId": "n3.l06",
+      "ja": "回復",
+      "kana": "かいふく",
+      "en": "recovery; restoration; recuperation",
+      "my": "ပြန်လည်ကောင်းမွန်လာခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l06.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l06.k001",
+      "lessonId": "n3.l06",
+      "char": "常",
+      "meaning": "usual; ordinary; always; constant",
+      "onyomi": [
+        "ジョウ"
+      ],
+      "kunyomi": [
+        "つね",
+        "とこ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "日常",
+          "reading": "にちじょう",
+          "meaning": "everyday life; daily routine",
+          "preview": true
+        },
+        {
+          "word": "常に",
+          "reading": "つねに",
+          "meaning": "always; constantly",
+          "preview": false
+        },
+        {
+          "word": "非常",
+          "reading": "ひじょう",
+          "meaning": "emergency; extraordinary",
+          "preview": false
+        },
+        {
+          "word": "常識",
+          "reading": "じょうしき",
+          "meaning": "common sense",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l06.s002"
+      ],
+      "components": [
+        "⺌",
+        "冖",
+        "口",
+        "巾"
+      ],
+      "strokes": 11,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.k002",
+      "lessonId": "n3.l06",
+      "char": "選",
+      "meaning": "choose; select; elect; pick out",
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "えら・ぶ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "選択",
+          "reading": "せんたく",
+          "meaning": "selection; choice; option",
+          "preview": true
+        },
+        {
+          "word": "選ぶ",
+          "reading": "えらぶ",
+          "meaning": "to choose; to select",
+          "preview": false
+        },
+        {
+          "word": "選挙",
+          "reading": "せんきょ",
+          "meaning": "election",
+          "preview": false
+        },
+        {
+          "word": "選手",
+          "reading": "せんしゅ",
+          "meaning": "athlete; team player",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l06.s008"
+      ],
+      "components": [
+        "辶",
+        "己",
+        "己",
+        "共"
+      ],
+      "strokes": 15,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.k003",
+      "lessonId": "n3.l06",
+      "char": "択",
+      "meaning": "choose; select; pick",
+      "onyomi": [
+        "タク"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "選択",
+          "reading": "せんたく",
+          "meaning": "selection; choice",
+          "preview": true
+        },
+        {
+          "word": "採択",
+          "reading": "さいたく",
+          "meaning": "adoption; selection",
+          "preview": false
+        },
+        {
+          "word": "二者択一",
+          "reading": "にしゃたくいつ",
+          "meaning": "choosing between two alternatives",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l06.s008"
+      ],
+      "components": [
+        "扌",
+        "尺"
+      ],
+      "strokes": 7,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.k004",
+      "lessonId": "n3.l06",
+      "char": "独",
+      "meaning": "single; alone; independent; distinct",
+      "onyomi": [
+        "ドク"
+      ],
+      "kunyomi": [
+        "ひと・り"
+      ],
+      "exampleVocab": [
+        {
+          "word": "独特",
+          "reading": "どくとく",
+          "meaning": "unique; distinctive",
+          "preview": true
+        },
+        {
+          "word": "独立",
+          "reading": "どくりつ",
+          "meaning": "independence",
+          "preview": false
+        },
+        {
+          "word": "単独",
+          "reading": "たんどく",
+          "meaning": "sole; single; independent",
+          "preview": false
+        },
+        {
+          "word": "独身",
+          "reading": "どくしん",
+          "meaning": "single; unmarried",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l06.s003"
+      ],
+      "components": [
+        "犭",
+        "虫"
+      ],
+      "strokes": 9,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l06.g001",
+      "lessonId": "n3.l06",
+      "pattern": "〜に限る",
+      "meaning": "is the best; nothing beats; the best choice is",
+      "formation": "[Noun] + に限る\n[Verb dictionary form] + に限る\n[Verb ない-form] + に限る",
+      "explanation": {
+        "en": "Expresses the speaker’s subjective conviction or opinion that a particular method, action, or choice is supreme and unquestionable in a given situation. It cannot be used for objective facts or universal truths.",
+        "my": "အခြေအနေတစ်ခုတွင် သတ်မှတ်ထားသောအရာ သို့မဟုတ် နည်းလမ်းသည် အကောင်းဆုံးဖြစ်သည်ဟု ပြောသူ၏ ကိုယ်ပိုင်ခံယူချက်ဖြင့် အကြံပြုပြောဆိုရာတွင် သုံးပါသည်။ ဓမ္မဓိဋ္ဌာန်ကျသော အချက်အလက်များတွင် မသုံးပါ။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l06.s001",
+          "note": "Best option in summer"
+        },
+        {
+          "sentenceId": "n3.l06.s007",
+          "note": "Best remedy at the onset of a cold"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l06.g002"
+      ],
+      "commonMistakes": [
+        "Do not confuse with 〜に限って which indicates an unfortunate coincidence or exceptional case.",
+        "Remember that 〜に限る represents the speaker’s personal recommendation, not a rule imposed on others."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.g002",
+      "lessonId": "n3.l06",
+      "pattern": "〜ばかり / 〜てばかりいる",
+      "meaning": "only; nothing but; doing nothing but",
+      "formation": "[Noun] + ばかり\n[Verb て-form] + ばかりいる",
+      "explanation": {
+        "en": "Indicates that something happens exclusively, or that an action is repeated continually to an excessive degree. When used with 〜てばかりいる, it frequently expresses speaker dissatisfaction, criticism, or regret about an unhealthy habit.",
+        "my": "အရာတစ်ခုတည်းကိုသာ သီးသန့်ပြုလုပ်နေခြင်း သို့မဟုတ် အလွန်အကျွံ အကြိမ်ကြိမ် လုပ်ဆောင်နေခြင်းကို ဖော်ပြသည်။ 〜てばかりいる ဖြင့် တွဲသုံးသောအခါ ပြောသူ၏ မကျေနပ်မှု သို့မဟုတ် အပြစ်တင်သည့် သဘောသက်ရောက်လေ့ရှိသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l06.s005",
+          "note": "Doing nothing but complaining"
+        },
+        {
+          "sentenceId": "n3.l06.s006",
+          "note": "Eating only nutritionally unbalanced food"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l06.g001"
+      ],
+      "commonMistakes": [
+        "Do not confuse with 〜たばかり which means \"just did recently\" (e.g. 食べたばかり vs 食べてばかり).",
+        "Using 〜ばかりいる with positive actions can sound sarcastic unless modified contextually."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l06.s001",
+      "lessonId": "n3.l06",
+      "ja": "夏の暑い日には、冷たいスイカを食べるに限ります。",
+      "kana": "なつの あつい ひには、つめたい すいかを たべるに かぎります。",
+      "translation": {
+        "en": "On a scorching summer day, nothing beats eating chilled watermelon.",
+        "my": "နွေရာသီ ပူပြင်းသောနေ့များတွင် အေးစက်သော ဖရဲသီးစားခြင်းသည် အကောင်းဆုံးဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l06.v001"
+      ],
+      "grammarIds": [
+        "n3.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.s002",
+      "lessonId": "n3.l06",
+      "ja": "忙しい日常を忘れて、週末は静かな山の中で温泉に入るに限る。",
+      "kana": "いそがしい にちじょうを わすれて、しゅうまつは しずかな やまの なかで おんせんに はいるに かぎる。",
+      "translation": {
+        "en": "Forgetting busy daily life and soaking in a hot spring in the quiet mountains on weekends is the best choice.",
+        "my": "အလုပ်များသော နေ့စဉ်ဘဝကို မေ့လျော့ပြီး စနေတနင်္ဂနွေတွင် တိတ်ဆိတ်သော တောင်ပေါ်ရေပူစမ်း စိမ်ခြင်းသည် အကောင်းဆုံးဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l06.v002"
+      ],
+      "grammarIds": [
+        "n3.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.s003",
+      "lessonId": "n3.l06",
+      "ja": "あの作家は独特な文体を持っており、読者を飽きさせない。",
+      "kana": "あの さっかは どくとくな ぶんたいを もっており、どくしゃを あきさせない。",
+      "translation": {
+        "en": "That author possesses a unique literary style and never bores the readers.",
+        "my": "ထိုစာရေးဆရာသည် သီးသန့်ထူးခြားသော အရေးအသားရှိပြီး စာဖတ်သူကို ငြီးငွေ့မသွားစေပါ။"
+      },
+      "vocabIds": [
+        "n3.l06.v003"
+      ],
+      "grammarIds": [
+        "n3.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.s004",
+      "lessonId": "n3.l06",
+      "ja": "たまには高級ホテルに泊まって、贅沢な時間を過ごすのも悪くない。",
+      "kana": "たまには こうきゅう ほてるに とまって、ぜいたくな じかんを すごすのも わるくない。",
+      "translation": {
+        "en": "Occasionally staying at a luxury hotel and spending extravagant time is not bad either.",
+        "my": "တစ်ခါတရံ အဆင့်မြင့်ဟိုတယ်တွင် တည်းခိုပြီး ဇိမ်ခံအချိန် ဖြတ်သန်းခြင်းသည်လည်း မဆိုးလှပါ။"
+      },
+      "vocabIds": [
+        "n3.l06.v004"
+      ],
+      "grammarIds": [
+        "n3.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.s005",
+      "lessonId": "n3.l06",
+      "ja": "彼は自分で何も行動を起こさないで、不満や文句ばかり言っている。",
+      "kana": "かれは じぶんで なにも こうどうを おこさないで、ふまんや もんくばかり いっている。",
+      "translation": {
+        "en": "Without taking any action himself, he does nothing but voice dissatisfaction and complaints.",
+        "my": "သူသည် ကိုယ်တိုင် မည်သည့်လုပ်ဆောင်ချက်မှ မလုပ်ဘဲ မကျေနပ်ချက်နှင့် အပြစ်တင်စကားများကိုသာ အမြဲပြောနေပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l06.v005"
+      ],
+      "grammarIds": [
+        "n3.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.s006",
+      "lessonId": "n3.l06",
+      "ja": "偏った栄養のものばかり食べていると、いつか体を壊してしまいますよ。",
+      "kana": "かたよった えいようの ものばかり たべていると、いつか からだを こわして しまいますよ。",
+      "translation": {
+        "en": "If you eat nothing but nutritionally unbalanced foods, you will ruin your health sooner or later.",
+        "my": "မျှတမှုမရှိသော အာဟာရပါသည့် အစားအစာများကိုသာ စားနေပါက တစ်ချိန်ချိန်တွင် ကျန်းမာရေး ထိခိုက်သွားပါလိမ့်မည်။"
+      },
+      "vocabIds": [
+        "n3.l06.v006",
+        "n3.l06.v008"
+      ],
+      "grammarIds": [
+        "n3.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.s007",
+      "lessonId": "n3.l06",
+      "ja": "風邪の引き始めには、無理をせずに暖かくして寝るに限る。",
+      "kana": "かぜの ひきはじめには、むりを せずに あたたかくして ねるに かぎる。",
+      "translation": {
+        "en": "At the onset of a cold, the best thing to do is keep warm and sleep without pushing yourself.",
+        "my": "အအေးမိစအချိန်တွင် အတင်းအကျပ်မလုပ်ဘဲ နွေးထွေးစွာ အိပ်စက်အနားယူခြင်းသည် အကောင်းဆုံးဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l06.v007"
+      ],
+      "grammarIds": [
+        "n3.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.s008",
+      "lessonId": "n3.l06",
+      "ja": "忙しい朝でも、健康のために栄養バランスの良い食事を選択するに限る。",
+      "kana": "いそがしい あさでも、けんこうの ために えいよう ばらんすの よい しょくじを せんたくするに かぎる。",
+      "translation": {
+        "en": "Even on busy mornings, choosing a nutritionally well-balanced meal for the sake of health is by far the best.",
+        "my": "အလုပ်များသောအလုပ်ချိန် မနက်ခင်းများတွင်ပင် ကျန်းမာရေးအတွက် အာဟာရမျှတသော အစားအစာကို ရွေးချယ်ခြင်းက အကောင်းဆုံးဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l06.v008"
+      ],
+      "grammarIds": [
+        "n3.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.s009",
+      "lessonId": "n3.l06",
+      "ja": "休みの日に部屋でゲームばかりして過ごすのは、時間がもったいない。",
+      "kana": "やすみの ひに へやで げーむばかり して すごすのは、じかんが もったいない。",
+      "translation": {
+        "en": "Doing nothing but playing video games in the room on days off is a waste of time.",
+        "my": "အားလပ်ရက်တွင် အခန်းထဲ၌ ဂိမ်းကစားခြင်းသာ အမြဲလုပ်ပြီး အချိန်ကုန်ဆုံးခြင်းမှာ နှမြောစရာကောင်းလှသည်။"
+      },
+      "vocabIds": [
+        "n3.l06.v009"
+      ],
+      "grammarIds": [
+        "n3.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.s010",
+      "lessonId": "n3.l06",
+      "ja": "一日の疲労をすっきりと解消するには、温かいお風呂にゆっくり浸かるに限る。",
+      "kana": "いちにちの ひろうを すっきりと かいしょうするには、あたたかい おふろに ゆっくり つかるに かぎる。",
+      "translation": {
+        "en": "To cleanly resolve the day’s fatigue, leisurely soaking in a warm bath is the best remedy.",
+        "my": "တစ်နေ့တာ မောပန်းနွမ်းနယ်မှုကို လန်းဆန်းစွာ ဖြေဖျောက်ရန် နွေးထွေးသော ရေချိုးကန်ထဲ ဖြည်းဖြည်းချင်း စိမ်ခြင်းသည် အကောင်းဆုံးဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l06.v010",
+        "n3.l06.v011"
+      ],
+      "grammarIds": [
+        "n3.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.s011",
+      "lessonId": "n3.l06",
+      "ja": "激しい運動の後は、水分を補給して疲労の回復に努めなければならない。",
+      "kana": "はげしい うんどうの あとは、すいぶんを ほきゅうして ひろうの かいふくに つとめなければ ならない。",
+      "translation": {
+        "en": "After strenuous exercise, one must replenish fluids and strive for fatigue recovery.",
+        "my": "ပြင်းထန်သော လေ့ကျင့်ခန်းလုပ်ပြီးနောက် ရေဓာတ်ဖြည့်တင်းပြီး မောပန်းမှု ပြန်လည်ကောင်းမွန်လာစေရန် ကြိုးစားရပါမည်။"
+      },
+      "vocabIds": [
+        "n3.l06.v011",
+        "n3.l06.v012"
+      ],
+      "grammarIds": [
+        "n3.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l06.s012",
+      "lessonId": "n3.l06",
+      "ja": "弟は叱られても反省せず、好きなテレビを見てばかりいる。",
+      "kana": "おとうとは しかられても はんせいせず、すきな てれびを みてばかりいる。",
+      "translation": {
+        "en": "Even when scolded, my younger brother shows no remorse and does nothing but watch his favorite TV shows.",
+        "my": "ညီငယ်သည် အဆူခံရသော်လည်း နောင်တမရဘဲ သူကြိုက်သော တီဗီကိုသာ အမြဲတစေ ကြည့်နေပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l06.v012"
+      ],
+      "grammarIds": [
+        "n3.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l06.r01",
+    "lessonId": "n3.l06",
+    "title": "現代人のライフスタイルと休養の知恵 (Modern Lifestyle & The Wisdom of Rest)",
+    "level": "N3",
+    "text": "日々の仕事や学業に追われる現代社会において、休日の過ごし方は人それぞれです。しかし、疲れ果てた休日に部屋に閉じこもり、スマートフォンを眺めてばかりいる人は少なくありません。画面を見続けて目が疲れ、かえって疲労が蓄積してしまうこともあります。\n\n真の健康と気力を取り戻すためには、心身を積極的に休める工夫が欠かせません。例えば、天気の良い週末には近くの緑豊かな公園を散歩するに限ります。太陽の光を浴びて軽く体を動かすことで、偏りがちな日常のストレスから自然と解放されるのです。\n\nまた、食事に関しても、手軽だからとインスタント食品ばかり食べるのではなく、栄養バランスの整った温かい食事を自炊するのが一番です。そして夜はぬるめのお風呂に浸かり、十分な睡眠を取るに限ります。自分の心身と向き合う時間こそが、明日への活力をもたらしてくれるのです。",
+    "kanaText": "ひびの しごとや がくぎょうに おわれる げんだいしゃかいに おいて、きゅうじつの すごしかたは ひとそれぞれです。しかし、つかれはてた きゅうじつに へやに とじこもり、すまーとふぉんを ながめてばかりいる ひとは すくなくありません。がめんを みつづけて めが つかれ、かえって ひろうが ちくせきして しまう ことも あります。\n\nしんの けんこうと きりょくを とりもどす ためには、しんしんを せいきょくてきに やすめる くふうが かかせません。たとえば、てんきの よい しゅうまつには ちかくの みどりゆたかな こうえんを さんぽするに かぎります。たいようの ひかりを あびて かるく からだを うごかす ことで、かたよりがちな にちじょうの すとれすから しぜんと かいほうされるのです。\n\nまた、しょくじに かんしても、てがるだからと いんすたんと しょくひんばかり たべるのではなく、えいよう ばらんすの ととのった あたたかい しょくじを じすいするのが いちばんです。そして よるは ぬるめの おふろに つかり、じゅうぶんな すいみんを とるに かぎります。じぶんの しんしんと むきあう じかんこそが、あすへの かつりょくを もたらしてくれるのです。",
+    "translation": "In modern society chased by everyday work and studies, the ways of spending days off vary per person. However, people who shut themselves in rooms on exhausted days off and do nothing but gaze at smartphones are not few. Constantly looking at screens tires the eyes, and conversely fatigue may accumulate.\n\nTo restore true health and vitality, ingenuity to rest mind and body proactively is indispensable. For instance, on fine weekends, nothing beats taking a walk in a nearby lush green park. By bathing in sunlight and moving the body lightly, one is naturally freed from everyday stresses that tend to be biased.\n\nMoreover, regarding meals, rather than eating only instant food because it is handy, cooking warm meals with balanced nutrition for oneself is best. And at night, nothing beats soaking in a lukewarm bath and getting ample sleep. Time spent confronting one's own body and mind is precisely what brings vitality for tomorrow.",
+    "questionIds": [
+      "n3.l06.q025",
+      "n3.l06.q026",
+      "n3.l06.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l06.l01",
+    "lessonId": "n3.l06",
+    "title": "休日の過ごし方とリフレッシュ法 (How to Spend Days Off & Refresh)",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "同僚A（高橋）",
+      "同僚B（佐藤）"
+    ],
+    "transcript": "高橋：佐藤さん、最近なんだか疲れた顔をしているね。週末はゆっくり休めた？\n佐藤：それがね、休みの日も家でベッドに寝転がって、スマートフォンで動画を見てばかりいたんだ。結局、月曜日になっても疲れが全然取れなくて。\n高橋：動画を見続けていると、目が冴えてしまって睡眠の質も落ちるからね。疲れているときこそ、思い切って外の空気を吸いに行くに限るよ。\n佐藤：高橋さんは休みの日はどうやって過ごしているの？\n高橋：僕は近所の銭湯に行って、熱いお風呂に入ってからサウナで汗を流すんだ。疲れを一気に吹き飛ばすには、やっぱり大きなお風呂に入るに限るよ！\n佐藤：なるほどね。部屋に閉じこもって文句ばかり言っていないで、今週末は銭湯に行ってみるよ。",
+    "translation": "Takahashi: Sato-san, you look somewhat tired lately. Were you able to rest comfortably over the weekend?\nSato: Well, even on days off, I did nothing but lie down in bed at home watching videos on my smartphone. In the end, even when Monday arrived, my fatigue hadn't lifted at all.\nTakahashi: If you keep watching videos, your eyes get stimulated and sleep quality drops. It is precisely when you are tired that nothing beats venturing outside to breathe fresh air.\nSato: How do you spend your days off, Takahashi-san?\nTakahashi: I go to a local public bathhouse, soak in a hot bath, and then sweat in the sauna. To blow away fatigue in one go, nothing beats entering a spacious bath!\nSato: I see. Instead of shutting myself in my room and doing nothing but complaining, I'll try visiting a public bathhouse this weekend.",
+    "turns": [],
+    "questionIds": [
+      "n3.l06.q028",
+      "n3.l06.q029",
+      "n3.l06.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l06.q001",
+      "lessonId": "n3.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「選択」の正しい読み方を選んでください。",
+      "choices": [
+        "せんたく",
+        "せんちゃく",
+        "せんだく",
+        "しょうたく"
+      ],
+      "answer": "せんたく",
+      "acceptedAnswers": [
+        "せんたく"
+      ],
+      "explanation": "「選択」は「せんたく」と読みます。物事の中から選ぶことを意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q002",
+      "lessonId": "n3.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な言葉を選んでください。\n「仕事のストレスから離れ、平穏な（　　）を取り戻したい。」",
+      "choices": [
+        "日常",
+        "常識",
+        "非常",
+        "日常茶飯"
+      ],
+      "answer": "日常",
+      "acceptedAnswers": [
+        "日常"
+      ],
+      "explanation": "「日常（にちじょう）」は普段の毎日の生活を表し、文脈に最も合致します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q003",
+      "lessonId": "n3.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「独特」の意味として最も適切なものを選んでください。",
+      "choices": [
+        "他にはない、そのものだけが持つ特別な性質",
+        "誰でも持っている平凡な特徴",
+        "一時的に発生する突発的な現象",
+        "多くの人が反対する危険な考え"
+      ],
+      "answer": "他にはない、そのものだけが持つ特別な性質",
+      "acceptedAnswers": [
+        "他にはない、そのものだけが持つ特別な性質"
+      ],
+      "explanation": "「独特（どくとく）」は、他と異なってそのものだけが持っている特有の性質を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q004",
+      "lessonId": "n3.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な言葉を選んでください。\n「学生の身分で毎晩高級料理を食べるのは、（　　）すぎる。」",
+      "choices": [
+        "贅沢",
+        "栄養",
+        "我慢",
+        "偏り"
+      ],
+      "answer": "贅沢",
+      "acceptedAnswers": [
+        "贅沢"
+      ],
+      "explanation": "「贅沢（ぜいたく）」は必要以上の金や物をかけて楽しむこと・分に過ぎたおごりを意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q005",
+      "lessonId": "n3.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「文句」の用法として最も自然なものを選んでください。",
+      "choices": [
+        "彼はサービスが悪いと店員に文句を言った。",
+        "明日の天気が文句になるように祈る。",
+        "この机は文句が広いので使いやすい。",
+        "文句を速く走らせて駅に向かった。"
+      ],
+      "answer": "彼はサービスが悪いと店員に文句を言った。",
+      "acceptedAnswers": [
+        "彼はサービスが悪いと店員に文句を言った。"
+      ],
+      "explanation": "「文句（もんく）を言う」で、不満や苦情を述べるという意味になります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q006",
+      "lessonId": "n3.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「偏る」の正しい読み方を選んでください。",
+      "choices": [
+        "かたよる",
+        "へんよる",
+        "かたむく",
+        "へんずる"
+      ],
+      "answer": "かたよる",
+      "acceptedAnswers": [
+        "かたよる"
+      ],
+      "explanation": "「偏る」は「かたよる」と読みます。一方だけに傾く・アンバランスになることを意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q007",
+      "lessonId": "n3.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「我慢」のミャンマー語の意味として正しいものを選んでください。",
+      "choices": [
+        "သည်းခံခြင်း/အောင့်အည်းခြင်း",
+        "ရွေးချယ်မှု",
+        "ဇိမ်ခံမှု",
+        "မကျေနပ်ချက်"
+      ],
+      "answer": "သည်းခံခြင်း/အောင့်အည်းခြင်း",
+      "acceptedAnswers": [
+        "သည်းခံခြင်း/အောင့်အည်းခြင်း"
+      ],
+      "explanation": "「我慢（がまん）」はミャンマー語で သည်းခံခြင်း/အောင့်အည်းခြင်း (endurance, patience, self-control) を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q008",
+      "lessonId": "n3.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な言葉を選んでください。\n「激しい運動の後は、ストレッチをして（　　）の回復を促す。」",
+      "choices": [
+        "疲労",
+        "文句",
+        "睡眠",
+        "選択"
+      ],
+      "answer": "疲労",
+      "acceptedAnswers": [
+        "疲労"
+      ],
+      "explanation": "「疲労（ひろう）の回復」で、疲れた体を元に戻すという意味のコロケーションになります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.v011",
+        "n3.l06.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q009",
+      "lessonId": "n3.l06",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の読み方を選んでください。\n「彼は<u>常</u>に笑顔を絶やさない。」",
+      "choices": [
+        "つね",
+        "なみ",
+        "とこ",
+        "いつも"
+      ],
+      "answer": "つね",
+      "acceptedAnswers": [
+        "つね"
+      ],
+      "explanation": "「常に」は訓読みで「つねに」と読みます。「いつも」と同じ意味です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q010",
+      "lessonId": "n3.l06",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の読み方を選んでください。\n「国民による投票で大統領を<u>選</u>ぶ。」",
+      "choices": [
+        "えら",
+        "なら",
+        "よろこ",
+        "はこ"
+      ],
+      "answer": "えら",
+      "acceptedAnswers": [
+        "えら"
+      ],
+      "explanation": "「選ぶ」は「えらぶ」と読みます。音読みは「セン」（選挙、選手など）です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q011",
+      "lessonId": "n3.l06",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「採択」の「択」の音読みを選んでください。",
+      "choices": [
+        "タク",
+        "シャク",
+        "チャク",
+        "ダク"
+      ],
+      "answer": "タク",
+      "acceptedAnswers": [
+        "タク"
+      ],
+      "explanation": "「択」の音読みは「タク」です。「選択（せんたく）」「採択（さいたく）」などの熟語があります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q012",
+      "lessonId": "n3.l06",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「独」という漢字の組み合わせ・部首として正しいものを選んでください。",
+      "choices": [
+        "犭（けものへん）",
+        "亻（にんべん）",
+        "氵（さんずい）",
+        "木（きへん）"
+      ],
+      "answer": "犭（けものへん）",
+      "acceptedAnswers": [
+        "犭（けものへん）"
+      ],
+      "explanation": "「独」の部首は「犭（けものへん）」で、右側に「虫」が組み合わさっています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q013",
+      "lessonId": "n3.l06",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「日常」の漢字の画数の合計として正しいものを選んでください。（日: 4画、常: 11画）",
+      "choices": [
+        "15画",
+        "14画",
+        "16画",
+        "13画"
+      ],
+      "answer": "15画",
+      "acceptedAnswers": [
+        "15画"
+      ],
+      "explanation": "日（4画）＋ 常（11画）＝ 合計15画となります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q014",
+      "lessonId": "n3.l06",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「単独（たんどく）」の漢字表記として正しいものを選んでください。",
+      "choices": [
+        "単独",
+        "単得",
+        "単特",
+        "単篤"
+      ],
+      "answer": "単独",
+      "acceptedAnswers": [
+        "単独"
+      ],
+      "explanation": "ただ一人・単身を表す言葉は「単独（たんどく）」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q015",
+      "lessonId": "n3.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な文法形式を選んでください。\n「疲れたときは、余計なことを考えずにゆっくり（　　）に限る。」",
+      "choices": [
+        "寝る",
+        "寝た",
+        "寝て",
+        "寝よう"
+      ],
+      "answer": "寝る",
+      "acceptedAnswers": [
+        "寝る"
+      ],
+      "explanation": "「〜に限る」の前には動詞の辞書形または「ない形」、名詞が接続します。したがって「寝るに限る」が正解です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q016",
+      "lessonId": "n3.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な文法形式を選んでください。\n「弟は部屋でゲームを（　　）ばかりいて、勉強を全くしない。」",
+      "choices": [
+        "して",
+        "する",
+        "した",
+        "しよう"
+      ],
+      "answer": "して",
+      "acceptedAnswers": [
+        "して"
+      ],
+      "explanation": "動作を繰り返してそればかりしている状態を批判的に表すには「動詞て形＋ばかりいる」を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q017",
+      "lessonId": "n3.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜に限る」のニュアンスとして最も適切な説明を選んでください。",
+      "choices": [
+        "話し手が「それが一番良い方法だ」と主観的に確信して推奨する表現。",
+        "規則や法律で絶対にそれ以外が禁止されている客観的義務を表す表現。",
+        "過去に一度だけ行った行動を悔やんで反省する表現。",
+        "相手に対して強制的に命令して行動させる表現。"
+      ],
+      "answer": "話し手が「それが一番良い方法だ」と主観的に確信して推奨する表現。",
+      "acceptedAnswers": [
+        "話し手が「それが一番良い方法だ」と主観的に確信して推奨する表現。"
+      ],
+      "explanation": "「〜に限る」は、話し手の主観的な判断・意見として「〜が最も良い」と主張する文型です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q018",
+      "lessonId": "n3.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な言葉を選んでください。\n「暑い夏の運動の後には、冷たい麦茶（　　）に限る。」",
+      "choices": [
+        "を飲む",
+        "が飲む",
+        "で飲む",
+        "と飲む"
+      ],
+      "answer": "を飲む",
+      "acceptedAnswers": [
+        "を飲む"
+      ],
+      "explanation": "動詞辞書形「飲む」＋「に限る」となります。「冷たい麦茶を飲むに限る」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q019",
+      "lessonId": "n3.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の文の（　　）に入る適切な助詞・形式を選んでください。\n「肉（　　）食べていないで、野菜もちゃんと食べなさい。」",
+      "choices": [
+        "ばかり",
+        "ほど",
+        "くらい",
+        "にとって"
+      ],
+      "answer": "ばかり",
+      "acceptedAnswers": [
+        "ばかり"
+      ],
+      "explanation": "名詞＋ばかりで「〜だけを偏って」という意味を表します。「肉ばかり食べていないで」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q020",
+      "lessonId": "n3.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜たばかり」と「〜てばかりいる」の違いとして正しいものを選んでください。",
+      "choices": [
+        "「〜たばかり」は完了直後（〜したばかり）を表し、「〜てばかりいる」は同じ行為の過剰な反復を表す。",
+        "「〜たばかり」は不満を表し、「〜てばかりいる」は完了直後を表す。",
+        "「〜たばかり」は未来の希望を表し、「〜てばかりいる」は過去の事実を表す。",
+        "どちらも全く同じ意味で、文法的な違いはない。"
+      ],
+      "answer": "「〜たばかり」は完了直後（〜したばかり）を表し、「〜てばかりいる」は同じ行為の過剰な反復を表す。",
+      "acceptedAnswers": [
+        "「〜たばかり」は完了直後（〜したばかり）を表し、「〜てばかりいる」は同じ行為の過剰な反復を表す。"
+      ],
+      "explanation": "「食べたばかり」は「食べた直後」を意味し、「食べてばかりいる」は「常に食べている（不満・非難）」を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q021",
+      "lessonId": "n3.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も自然な表現を選んでください。\n「風邪を早く治したいなら、温かいスープを飲んで無理を（　　）に限る。」",
+      "choices": [
+        "しない",
+        "する",
+        "した",
+        "させない"
+      ],
+      "answer": "しない",
+      "acceptedAnswers": [
+        "しない"
+      ],
+      "explanation": "否定形「動詞ない形＋に限る」で「〜しないのが一番だ」という意味になります。「無理をしないに限る」が正解です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q022",
+      "lessonId": "n3.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の文のうち、文法的に最も不自然なものを選んでください。",
+      "choices": [
+        "試験の前日に漫画を読んでばかりいてはいけません。",
+        "冬の寒い夜は温かい鍋を食べるに限る。",
+        "この法律は全国民が守るに限る。",
+        "休日は好きな音楽を聴くに限る。"
+      ],
+      "answer": "この法律は全国民が守るに限る。",
+      "acceptedAnswers": [
+        "この法律は全国民が守るに限る。"
+      ],
+      "explanation": "「〜に限る」は個人の主観的なお勧め・最善の選択を表すため、客観的な法律の義務付けには使用できません（「守らなければならない」などを使うべきです）。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q023",
+      "lessonId": "n3.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も自然な表現を選んでください。\n「愚痴や弱音を（　　）ばかりいないで、前を向いて歩き出そう。」",
+      "choices": [
+        "吐いて",
+        "吐く",
+        "吐いた",
+        "吐き"
+      ],
+      "answer": "吐いて",
+      "acceptedAnswers": [
+        "吐いて"
+      ],
+      "explanation": "「愚痴や弱音を吐いてばかりいないで」のように、動詞て形に接続します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q024",
+      "lessonId": "n3.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「日本の伝統文化を肌で体験したいなら、京都を（　　）に限る。」",
+      "choices": [
+        "訪れる",
+        "訪れた",
+        "訪れて",
+        "訪れよう"
+      ],
+      "answer": "訪れる",
+      "acceptedAnswers": [
+        "訪れる"
+      ],
+      "explanation": "動詞辞書形＋に限る で「訪れるに限る（訪れるのが一番だ）」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q025",
+      "lessonId": "n3.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "本文によると、休日に部屋でスマートフォンを見てばかりいると、どうなると述べられていますか。",
+      "choices": [
+        "画面を見続けて目が疲れ、かえって疲労が蓄積してしまう。",
+        "仕事の効率が劇的に上がり、月曜日が待ち遠しくなる。",
+        "知人からの連絡が途絶えて孤立してしまう。",
+        "スマートフォンの故障の原因になる。"
+      ],
+      "answer": "画面を見続けて目が疲れ、かえって疲労が蓄積してしまう。",
+      "acceptedAnswers": [
+        "画面を見続けて目が疲れ、かえって疲労が蓄積してしまう。"
+      ],
+      "explanation": "第1段落に「画面を見続けて目が疲れ、かえって疲労が蓄積してしまうこともあります」と明記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q026",
+      "lessonId": "n3.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "本文で、天気の良い週末のリフレッシュ法として「一番良い」と勧められていることは何ですか。",
+      "choices": [
+        "近くの緑豊かな公園を散歩すること。",
+        "最新の映画館で一日中映画を見ること。",
+        "高級レストランで高価な食事をすること。",
+        "部屋のカーテンを閉めて夕方まで眠り続けること。"
+      ],
+      "answer": "近くの緑豊かな公園を散歩すること。",
+      "acceptedAnswers": [
+        "近くの緑豊かな公園を散歩すること。"
+      ],
+      "explanation": "第2段落に「天気の良い週末には近くの緑豊かな公園を散歩するに限ります」と述べられています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q027",
+      "lessonId": "n3.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者が述べる、現代人にとって「明日への活力をもたらすもの」とは何ですか。",
+      "choices": [
+        "自分の心身とじっくり向き合う時間。",
+        "休日返上で仕事をやり切ること。",
+        "インスタント食品を素早く食べること。",
+        "高価な贅沢品を買い集めること。"
+      ],
+      "answer": "自分の心身とじっくり向き合う時間。",
+      "acceptedAnswers": [
+        "自分の心身とじっくり向き合う時間。"
+      ],
+      "explanation": "最終文に「自分の心身と向き合う時間こそが、明日への活力をもたらしてくれるのです」とあります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q028",
+      "lessonId": "n3.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "佐藤さんは週末をどのように過ごしていましたか。",
+      "choices": [
+        "家でベッドに寝転がってスマートフォンで動画を見てばかりいた。",
+        "朝から晩まで銭湯とサウナに通っていた。",
+        "会社のオフィスに出て残業をこなしていた。",
+        "友達と遠くの山へハイキングに出かけていた。"
+      ],
+      "answer": "家でベッドに寝転がってスマートフォンで動画を見てばかりいた。",
+      "acceptedAnswers": [
+        "家でベッドに寝転がってスマートフォンで動画を見てばかりいた。"
+      ],
+      "explanation": "佐藤は「休みの日も家でベッドに寝転がって、スマートフォンで動画を見てばかりいたんだ」と述べています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q029",
+      "lessonId": "n3.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "高橋さんは休日に疲れを吹き飛ばすために何をするのが一番だと勧めていますか。",
+      "choices": [
+        "銭湯に行って大きなお風呂に入り、サウナで汗を流すこと。",
+        "ベッドから一歩も出ずにひたすら眠ること。",
+        "栄養ドリンクを大量に飲むこと。",
+        "週末にまとめて買い物を済ませること。"
+      ],
+      "answer": "銭湯に行って大きなお風呂に入り、サウナで汗を流すこと。",
+      "acceptedAnswers": [
+        "銭湯に行って大きなお風呂に入り、サウナで汗を流すこと。"
+      ],
+      "explanation": "高橋は「僕は近所の銭湯に行って、熱いお風呂に入ってからサウナで汗を流すんだ。疲れを一気に吹き飛ばすには、やっぱり大きなお風呂に入るに限るよ！」と勧めています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l06.q030",
+      "lessonId": "n3.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "高橋さんのアドバイスを聞いた後、佐藤さんは今週末どうすることにしましたか。",
+      "choices": [
+        "文句ばかり言わずに銭湯に行ってみることにした。",
+        "新しいスマートフォンを買いに行くことにした。",
+        "家で別の動画アプリを探すことにした。",
+        "休日出勤を申請することにした。"
+      ],
+      "answer": "文句ばかり言わずに銭湯に行ってみることにした。",
+      "acceptedAnswers": [
+        "文句ばかり言わずに銭湯に行ってみることにした。"
+      ],
+      "explanation": "佐藤は「部屋に閉じこもって文句ばかり言っていないで、今週末は銭湯に行ってみるよ」と述べています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l06.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

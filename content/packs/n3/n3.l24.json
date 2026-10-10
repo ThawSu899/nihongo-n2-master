@@ -1,0 +1,1647 @@
+{
+  "id": "n3.l24",
+  "level": "N3",
+  "module": "N3 Nuance & Natural Discourse",
+  "number": 24,
+  "title": "N3 Lesson 24: Obligation & Inevitability (〜ざるを得ない)",
+  "description": "Master upper-intermediate expressions of social obligation and inevitable responsibility, contrasting ethical standards of duty (〜べきだ / 〜べきではない: should / should not do as moral duty) with inescapable external necessity (〜ないわけにはいかない: cannot help but do / must do).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l24.v001",
+      "lessonId": "n3.l24",
+      "ja": "制度",
+      "kana": "せいど",
+      "en": "system; institution; system of rules",
+      "my": "စနစ်/အဖွဲ့အစည်းဆိုင်ရာစနစ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l24.s001",
+      "kanjiIds": [
+        "n3.l24.k001",
+        "n3.l24.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.v002",
+      "lessonId": "n3.l24",
+      "ja": "制限",
+      "kana": "せいげん",
+      "en": "restriction; limitation; limit",
+      "my": "ကန့်သတ်ချက်/စည်းကမ်းသတ်မှတ်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l24.s002",
+      "kanjiIds": [
+        "n3.l24.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.v003",
+      "lessonId": "n3.l24",
+      "ja": "法律",
+      "kana": "ほうりつ",
+      "en": "law; statute; legislation",
+      "my": "ဥပဒေ/တရားဥပဒေ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l24.s003",
+      "kanjiIds": [
+        "n3.l24.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.v004",
+      "lessonId": "n3.l24",
+      "ja": "違法",
+      "kana": "いほう",
+      "en": "illegal; unlawful; illicit",
+      "my": "တရားမဝင်သော/ဥပဒေနှင့်မညီသော",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l24.s004",
+      "kanjiIds": [
+        "n3.l24.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.v005",
+      "lessonId": "n3.l24",
+      "ja": "補足",
+      "kana": "ほそく",
+      "en": "supplement; addition; complement",
+      "my": "ဖြည့်စွက်ချက်/ထပ်ဆောင်းရှင်းလင်းချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l24.s005",
+      "kanjiIds": [
+        "n3.l24.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.v006",
+      "lessonId": "n3.l24",
+      "ja": "義務",
+      "kana": "ぎむ",
+      "en": "duty; obligation; responsibility",
+      "my": "တာဝန်/ဝတ္တရား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l24.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.v007",
+      "lessonId": "n3.l24",
+      "ja": "権利",
+      "kana": "けんり",
+      "en": "right; privilege",
+      "my": "ရပိုင်ခွင့်/အခွင့်အရေး",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l24.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.v008",
+      "lessonId": "n3.l24",
+      "ja": "順守",
+      "kana": "じゅんしゅ",
+      "en": "compliance; adherence; observance",
+      "my": "လိုက်နာစောင့်ထိန်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l24.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.v009",
+      "lessonId": "n3.l24",
+      "ja": "謝罪",
+      "kana": "しゃざい",
+      "en": "apology; expression of regret",
+      "my": "တောင်းပန်ခြင်း/ဝန်ချတောင်းပန်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l24.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.v010",
+      "lessonId": "n3.l24",
+      "ja": "配慮",
+      "kana": "はいりょ",
+      "en": "consideration; concern; forethought",
+      "my": "ငဲ့ညှာထောက်ထားမှု/အလေးထားစဉ်းစားပေးမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l24.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.v011",
+      "lessonId": "n3.l24",
+      "ja": "違反",
+      "kana": "いはん",
+      "en": "violation; breach; infringement",
+      "my": "ချိုးဖောက်ခြင်း/စည်းကမ်းဖောက်ဖျက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l24.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.v012",
+      "lessonId": "n3.l24",
+      "ja": "制約",
+      "kana": "せいやく",
+      "en": "constraint; condition; limitation",
+      "my": "ကန့်သတ်ထိန်းချုပ်မှု/စည်းနှောင်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l24.s012",
+      "kanjiIds": [
+        "n3.l24.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l24.k001",
+      "lessonId": "n3.l24",
+      "char": "制",
+      "meaning": "system, control, rule, regulate",
+      "onyomi": [
+        "セイ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "制度",
+          "reading": "せいど",
+          "meaning": "system, institution",
+          "preview": false
+        },
+        {
+          "word": "制限",
+          "reading": "せいげん",
+          "meaning": "restriction, limit",
+          "preview": false
+        },
+        {
+          "word": "制作",
+          "reading": "せいさく",
+          "meaning": "production, work",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l24.s001",
+        "n3.l24.s002",
+        "n3.l24.s012"
+      ],
+      "components": [],
+      "strokes": 8,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.k002",
+      "lessonId": "n3.l24",
+      "char": "度",
+      "meaning": "degrees, occurrence, measure, attitude",
+      "onyomi": [
+        "ド",
+        "ト",
+        "タク"
+      ],
+      "kunyomi": [
+        "たび",
+        "た・い"
+      ],
+      "exampleVocab": [
+        {
+          "word": "制度",
+          "reading": "せいど",
+          "meaning": "system, institution",
+          "preview": false
+        },
+        {
+          "word": "態度",
+          "reading": "たいど",
+          "meaning": "attitude, manner",
+          "preview": false
+        },
+        {
+          "word": "程度",
+          "reading": "ていど",
+          "meaning": "degree, extent",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l24.s001"
+      ],
+      "components": [],
+      "strokes": 9,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.k003",
+      "lessonId": "n3.l24",
+      "char": "法",
+      "meaning": "method, law, rule, principle",
+      "onyomi": [
+        "ホウ",
+        "ハッ",
+        "ホッ"
+      ],
+      "kunyomi": [
+        "のり"
+      ],
+      "exampleVocab": [
+        {
+          "word": "法律",
+          "reading": "ほうりつ",
+          "meaning": "law, legislation",
+          "preview": false
+        },
+        {
+          "word": "違法",
+          "reading": "いほう",
+          "meaning": "illegal",
+          "preview": false
+        },
+        {
+          "word": "方法",
+          "reading": "ほうほう",
+          "meaning": "method, way",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l24.s003",
+        "n3.l24.s004"
+      ],
+      "components": [],
+      "strokes": 8,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.k004",
+      "lessonId": "n3.l24",
+      "char": "補",
+      "meaning": "supplement, supply, compensate, assist",
+      "onyomi": [
+        "ホ"
+      ],
+      "kunyomi": [
+        "おぎな・う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "補足",
+          "reading": "ほそく",
+          "meaning": "supplement, addition",
+          "preview": false
+        },
+        {
+          "word": "補償",
+          "reading": "ほしょう",
+          "meaning": "compensation",
+          "preview": false
+        },
+        {
+          "word": "補う",
+          "reading": "おぎなう",
+          "meaning": "to make up for, compensate",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l24.s005"
+      ],
+      "components": [],
+      "strokes": 12,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l24.g001",
+      "lessonId": "n3.l24",
+      "pattern": "〜べきだ / 〜べきではない",
+      "meaning": "should ... / must ... (as moral/social duty); should not ...",
+      "formation": "Verb [Dictionary Form] + べきだ / べきではない (Note: する → すべきだ / するべきだ)",
+      "explanation": {
+        "en": "Expresses that doing or not doing something is a natural social, moral, or professional duty and common-sense standard. It reflects objective ethical principles rather than immediate legal compulsion. Often used in giving principled advice or expressing civic responsibility.",
+        "my": "လူမှုကျင့်ဝတ်၊ မူဘောင် သို့မဟုတ် အများသဘောအရ \"ထိုသို့ပြုလုပ်သင့်သည်/မပြုလုပ်သင့်ပါ\" ဟု စာရိတ္တနှင့် တာဝန်ဝတ္တရားဆိုင်ရာ အကြံပြုချက်၊ ဆုံးမချက်အဖြစ် ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l24.s003",
+          "note": "Citizens should observe the laws established by society"
+        },
+        {
+          "sentenceId": "n3.l24.s008",
+          "note": "Business corporations must strictly comply with regulations"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use 〜べきだ to give direct orders to superiors (e.g. ❌ 部長は早く帰るべきです → ⭕️ 部長、お疲れ様です。お早くお休みください).",
+        "For する, both すべきだ and するべきだ are accepted, but すべきだ is standard in formal writing."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.g002",
+      "lessonId": "n3.l24",
+      "pattern": "〜ないわけにはいかない",
+      "meaning": "cannot help but ... / cannot avoid doing ... / must do ...",
+      "formation": "Verb [ない Form] + わけにはいかない (e.g. 行かないわけにはいかない / しないわけにはいかない)",
+      "explanation": {
+        "en": "Indicates that although one may personally wish to avoid an action, social duty, moral obligation, or inescapable circumstances make it impossible not to do it (\"I have no choice but to do it out of social responsibility\").",
+        "my": "မိမိ၏ ပုဂ္ဂိုလ်ရေးဆန္ဒအရ ရှောင်လွှဲလိုသော်လည်း လူမှုဝတ္တရား၊ အခြေအနေနှင့် တာဝန်အရ \"မလုပ်ဘဲမနေနိုင်ပါ/မဖြစ်မနေလုပ်ရမည်\" ဟု ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l24.s006",
+          "note": "Cannot avoid paying taxes as a civic duty"
+        },
+        {
+          "sentenceId": "n3.l24.s009",
+          "note": "Cannot help but offer a sincere apology for causing trouble"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l24.g001"
+      ],
+      "commonMistakes": [
+        "Do not confuse with 〜わけにはいかない (which means \"cannot do X due to moral prohibition\": 嘘をつくわけにはいかない). Double negative 〜ないわけにはいかない means \"cannot NOT do X\" = \"must do X\"."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l24.s001",
+      "lessonId": "n3.l24",
+      "ja": "社会の公正さを維持するために、福祉制度の改革を進めるべきだ。",
+      "kana": "しゃかいのこうせいさをいじするために、ふくしせいどのかいかくをすすめるべきだ。",
+      "translation": {
+        "en": "In order to maintain social fairness, we should advance the reform of the welfare system.",
+        "my": "လူမှုတရားမျှတမှုကို ထိန်းသိမ်းရန် လူမှုဖူလုံရေးစနစ် ပြုပြင်ပြောင်းလဲမှုကို ရှေ့ရှုဆောင်ရွက်သင့်သည်။"
+      },
+      "vocabIds": [
+        "n3.l24.v001"
+      ],
+      "grammarIds": [
+        "n3.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.s002",
+      "lessonId": "n3.l24",
+      "ja": "未成年者の安全を守るため、深夜の外出には一定の制限を設けるべきだ。",
+      "kana": "みせいねんしゃのあんぜんをまもるため、しんやのがいしゅつにはいっていのせいげんをもうけるべきだ。",
+      "translation": {
+        "en": "To protect the safety of minors, certain restrictions should be established on late-night outings.",
+        "my": "အရွယ်မရောက်သေးသူများ၏ လုံခြုံရေးကို ကာကွယ်ရန် ညဉ့်နက်ပိုင်း အပြင်ထွက်ခြင်းအပေါ် သတ်မှတ်ကန့်သတ်ချက်များ ထားရှိသင့်သည်။"
+      },
+      "vocabIds": [
+        "n3.l24.v002"
+      ],
+      "grammarIds": [
+        "n3.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.s003",
+      "lessonId": "n3.l24",
+      "ja": "社会の一員として、定められた法律を順守すべきである。",
+      "kana": "しゃかいのいちいんとして、さだめられたほうりつをじゅんしゅすべきである。",
+      "translation": {
+        "en": "As a member of society, one should abide by the established laws.",
+        "my": "လူ့အဖွဲ့အစည်း၏ အဖွဲ့ဝင်တစ်ဦးအနေဖြင့် သတ်မှတ်ထားသော တရားဥပဒေများကို လိုက်နာစောင့်ထိန်းသင့်သည်။"
+      },
+      "vocabIds": [
+        "n3.l24.v003",
+        "n3.l24.v008"
+      ],
+      "grammarIds": [
+        "n3.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.s004",
+      "lessonId": "n3.l24",
+      "ja": "利益を優先するあまり、違法な手段を用いて業務を行うべきではない。",
+      "kana": "りえきをゆうせんするあまり、いほうなしゅだんをもちいてぎょうむをおこなうべきではない。",
+      "translation": {
+        "en": "Driven excessively by profit, one should not conduct business using illegal means.",
+        "my": "အမြတ်အစွန်းကို ဦးစားပေးလွန်းသဖြင့် တရားမဝင်သော နည်းလမ်းများကို အသုံးပြု၍ လုပ်ငန်းမလုပ်ဆောင်သင့်ပါ။"
+      },
+      "vocabIds": [
+        "n3.l24.v004"
+      ],
+      "grammarIds": [
+        "n3.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.s005",
+      "lessonId": "n3.l24",
+      "ja": "発表の要点をより深く理解してもらうため、資料に補足の説明を加えた。",
+      "kana": "はっぴょうのようてんをよりふかくりかいしてもらうため、しりょうにほそくのせつめいをくわえた。",
+      "translation": {
+        "en": "To ensure a deeper understanding of the presentation points, I added supplementary explanations to the document.",
+        "my": "တင်ပြချက်၏ အဓိကအချက်များကို ပိုမိုနားလည်စေရန် စာရွက်စာတမ်းတွင် ထပ်ဆောင်းရှင်းလင်းချက်များ ထည့်သွင်းခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l24.v005"
+      ],
+      "grammarIds": [
+        "n3.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.s006",
+      "lessonId": "n3.l24",
+      "ja": "国民として納税の義務がある以上、税金を納めないわけにはいかない。",
+      "kana": "こくみんとしてのうぜいのぎむがあるいじょう、ぜいきんをおさめないわけにはいかない。",
+      "translation": {
+        "en": "As long as one has the duty of paying taxes as a citizen, one cannot avoid paying taxes.",
+        "my": "နိုင်ငံသားတစ်ဦးအနေဖြင့် အခွန်ပေးဆောင်ရန် တာဝန်ရှိသည်ဖြစ်ရာ အခွန်မဆောင်ဘဲ မနေနိုင်ပါ။"
+      },
+      "vocabIds": [
+        "n3.l24.v006"
+      ],
+      "grammarIds": [
+        "n3.l24.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.s007",
+      "lessonId": "n3.l24",
+      "ja": "労働者には適切な休暇を取得し心身を休める権利がある。",
+      "kana": "ろうどうしゃにはてきせつなきゅうかをしゅとくししんしんをやすめるけんりがある。",
+      "translation": {
+        "en": "Workers have the right to take appropriate vacations and rest their minds and bodies.",
+        "my": "အလုပ်သမားများတွင် သင့်လျော်သော အားလပ်ရက်ရယူပြီး ကိုယ်စိတ်နှစ်ပါး အနားယူခွင့်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l24.v007"
+      ],
+      "grammarIds": [
+        "n3.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.s008",
+      "lessonId": "n3.l24",
+      "ja": "企業の社会的責任を果たすため、環境基準を厳格に順守すべきだ。",
+      "kana": "きぎょうのしゃかいてきせきにんをはたすため、かんきょうきじゅんをげんかくにじゅんしゅすべきだ。",
+      "translation": {
+        "en": "To fulfill corporate social responsibility, companies should strictly comply with environmental standards.",
+        "my": "ကုမ္ပဏီ၏ လူမှုရေးတာဝန်ကို ကျေပွန်ရန် သဘာဝပတ်ဝန်းကျင်ဆိုင်ရာ စံနှုန်းများကို တိကျစွာ လိုက်နာစောင့်ထိန်းသင့်သည်။"
+      },
+      "vocabIds": [
+        "n3.l24.v008"
+      ],
+      "grammarIds": [
+        "n3.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.s009",
+      "lessonId": "n3.l24",
+      "ja": "こちらの不手際で多大な迷惑をかけたのだから、直接訪問して謝罪しないわけにはいかない。",
+      "kana": "こちらのふてぎわでただいなめいわくをかけたのだから、ちょくせつほうもんしてしゃざいしないわけにはいかない。",
+      "translation": {
+        "en": "Since our blunder caused immense inconvenience, we cannot avoid visiting directly to apologize.",
+        "my": "မိမိတို့ဘက်မှ အမှားအယွင်းကြောင့် ကြီးမားသောအနှောင့်အယှက်ဖြစ်စေခဲ့သဖြင့် ကိုယ်တိုင်သွားရောက်၍ ဝန်ချတောင်းပန်ခြင်း မပြုဘဲ မနေနိုင်ပါ။"
+      },
+      "vocabIds": [
+        "n3.l24.v009"
+      ],
+      "grammarIds": [
+        "n3.l24.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.s010",
+      "lessonId": "n3.l24",
+      "ja": "公共の場では周囲の人々への配慮を欠かさないようにすべきだ。",
+      "kana": "こうきょうのばではしゅういのひとびとへのはいりょをかかさないようにすべきだ。",
+      "translation": {
+        "en": "In public spaces, one should ensure not to neglect consideration for people around.",
+        "my": "အများပြည်သူဆိုင်ရာနေရာများတွင် ပတ်ဝန်းကျင်ရှိလူများအပေါ် ငဲ့ညှာထောက်ထားမှုကို မပျက်မကွက် ရှိသင့်သည်။"
+      },
+      "vocabIds": [
+        "n3.l24.v010"
+      ],
+      "grammarIds": [
+        "n3.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.s011",
+      "lessonId": "n3.l24",
+      "ja": "重大な交通規則違反を犯した以上、相応の処分を受けないわけにはいかない。",
+      "kana": "じゅうだいなこうつうきそくいはんをおかしたいじょう、そうおうのしょぶんをうけないわけにはいかない。",
+      "translation": {
+        "en": "Having committed a serious traffic violation, one cannot escape receiving corresponding penalties.",
+        "my": "ကြီးမားသော ယာဉ်စည်းကမ်းဖောက်ဖျက်မှုကို ကျူးလွန်ခဲ့သည့်အတွက် သင့်လျော်သော အရေးယူအပြစ်ပေးမှုကို မခံယူဘဲ မနေနိုင်ပါ။"
+      },
+      "vocabIds": [
+        "n3.l24.v011"
+      ],
+      "grammarIds": [
+        "n3.l24.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l24.s012",
+      "lessonId": "n3.l24",
+      "ja": "時間と予算の制約がある中でも、最善の成果を追求すべきだ。",
+      "kana": "じかんとよさんのせいやくがあるなかでも、さいぜんのせいかをついきゅうすべきだ。",
+      "translation": {
+        "en": "Even amid constraints of time and budget, one should pursue the best possible results.",
+        "my": "အချိန်နှင့် ဘတ်ဂျက်ကန့်သတ်ချက်များ ရှိနေသည့်ကြားမှပင် အကောင်းဆုံးရလဒ်ကို ကြိုးပမ်းရယူသင့်သည်။"
+      },
+      "vocabIds": [
+        "n3.l24.v012"
+      ],
+      "grammarIds": [
+        "n3.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l24.r001",
+    "lessonId": "n3.l24",
+    "title": "Corporate Ethics and Social Responsibility in Modern Business",
+    "level": "N3",
+    "text": "近代社会において、企業活動は単なる利益の追求にとどまらず、社会的な公正さや倫理観を重んじる姿勢が不可欠となっている。法令順守（コンプライアンス）は、企業が存続するための最低限の責務であり、いかなる理由があろうとも違法行為に手を染めるべきではない。\n\n製品の欠陥や不正な取引など、企業活動に伴って社会に損害を与えた場合、経営陣は事実関係を迅速かつ正確に公表し、誠心誠意の謝罪を尽くさないわけにはいかない。情報を隠蔽して問題を先送りにしようとすれば、結果的に社会的な信用を失墜させ、再起不能の事態に追い込まれるに決まっているからである。\n\nさらに、現代の企業は単に法律を守るだけでなく、地球環境の保護や多様な人材への配慮など、より高い社会的規範に応えるべきである。短期的な経済的制約があったとしても、将来世代に対する倫理的義務を果たし続けることこそが、持続可能な発展を支える礎となるのである。",
+    "kanaText": "きんだいしゃかいにおいて、きぎょうかつどうはたんなるりえきのついきゅうにとどまらず、しゃかいてきなこうせいさやりんりかんをおもんじるしせいがふかけつとなっている。ほうれいじゅんしゅ（コンプライアンス）は、きぎょうがそんぞくするためのさいていげんのせきむであり、いかなるりゆうがあろうともいほうこういにてをそめるべきではない。\n\nせいひんのけっかんやふせいなとりひきなど、きぎょうかつどうにともなってしゃかいにそんがいをあたえたばあい、けいえいじんはじじつかんけいをじんそくかつせいかくにこうひょうし、せいしんせいいのしゃざいをつくさないわけにはいかない。じょうほうをいんぺいしてもんだいをさきおくりにしようとすれば、けっかてきにしゃかいてきなしんようをしっついさせ、さいきふのうのじたいにおいこまれるにきまっているからである。\n\nさらに、げんだいのきぎょうはたんにほうりつをまもるだけでなく、ちきゅうかんきょうのほごやたようなじんざいへのはいりょなど、よりたかいしゃかいてききはんにおたえるべきである。たんきてきなけいざいてきせいやくがあったとしても、しょうらいせだいにたいするりんりてきぎむをはたしつづけることこそが、じぞくかのうなはってんをささえるいしずえとなるのである。",
+    "translation": "In modern society, corporate activities must not merely pursue profit, but prioritize fairness and ethics. Legal compliance is the bare minimum duty for corporate survival; companies should never engage in illegal conduct regardless of the reason. If defective products cause social harm, management cannot avoid promptly disclosing facts and offering a heartfelt apology. Furthermore, companies should uphold higher social norms such as environmental protection and consideration for diverse talents, fulfilling moral obligations for future generations.",
+    "questionIds": [
+      "n3.l24.q025",
+      "n3.l24.q026",
+      "n3.l24.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l24.d001",
+    "lessonId": "n3.l24",
+    "title": "Handling an Urgent Client Complaint and Protocol Adherence",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "課長：松本さん、先ほどA社から納品した部品の規格が異なっていたと連絡が入りました。至急対応してください。\n松本：申し訳ありません。出荷前の検査で手違いがあったようです。直ちに正しい部品を再送する手配をいたします。\n課長：それだけでは不十分です。A社の工場ラインが一時停止したそうですから、担当者として直接訪問して謝罪しないわけにはいきません。\n松本：承知いたしました。すぐに伺って謝罪し、原因究明の報告書を提出いたします。\n課長：誠意ある態度を示すべきです。また、再発防止のために社内の検査制度を直ちに再点検してください。",
+    "translation": "Section Manager: Matsumoto-san, we just got word from Company A that delivered component specifications were incorrect. Please respond immediately.\nMatsumoto: I am so sorry. There seems to have been an error during pre-shipment inspection. I will immediately arrange to resend correct parts.\nSection Manager: That alone is not enough. Company A’s factory line was temporarily halted, so as the person in charge, you cannot avoid visiting in person to apologize.\nMatsumoto: Understood. I will visit right away to apologize and submit a cause investigation report.\nSection Manager: You should demonstrate a sincere attitude. Also, please review the internal inspection system immediately to prevent recurrence.",
+    "turns": [
+      {
+        "speaker": "課長",
+        "ja": "松本さん、先ほどA社から納品した部品の規格が異なっていたと連絡が入りました。至急対応してください。",
+        "kana": "まつもとさん、さきほどAしゃからのうひんしたぶひんのきかくがことなっていたとれんらくがはいりました。しきゅうたいおうしてください。",
+        "en": "Matsumoto-san, Company A just contacted us saying the specs of delivered parts were incorrect. Handle this urgently."
+      },
+      {
+        "speaker": "松本",
+        "ja": "申し訳ありません。出荷前の検査で手違いがあったようです。直ちに正しい部品を再送する手配をいたします。",
+        "kana": "もうしわけありません。しゅっかまえのけんさでてちがいがあったようです。ただちにただしいぶひんをさいそうするてはいをいたします。",
+        "en": "I apologize. There seems to have been a mistake during pre-shipment inspection. I will immediately arrange to resend the correct parts."
+      },
+      {
+        "speaker": "課長",
+        "ja": "それだけでは不十分です。A社の工場ラインが一時停止したそうですから、担当者として直接訪問して謝罪しないわけにはいきません。",
+        "kana": "それだけではふじゅうぶんです。Aしゃのこうじょうラインがいちじていししたそうですから、たんとうしゃとしてちょくせつほうもんしてしゃざいしないわけにはいきません。",
+        "en": "That alone is not enough. Their factory line was halted temporarily, so as the person in charge, you cannot avoid visiting in person to apologize."
+      },
+      {
+        "speaker": "松本",
+        "ja": "承知いたしました。すぐに伺って謝罪し、原因究明の報告書を提出いたします。",
+        "kana": "しょうちいたしました。すぐにうかがってしゃざいし、げんいんきゅうめいのほうこくしょをついしゅついたします。",
+        "en": "Understood. I will visit immediately to apologize and submit an investigation report."
+      },
+      {
+        "speaker": "課長",
+        "ja": "誠意ある態度を示すべきです。また、再発防止のために社内の検査制度を直ちに再点検してください。",
+        "kana": "せいいあるたいどをしめすべきです。また、さいはつぼうしのためにしゃないのけんさせいどをただちにさいてんけんしてください。",
+        "en": "You should display a sincere attitude. Also, review the internal inspection system immediately to prevent recurrence."
+      }
+    ],
+    "questionIds": [
+      "n3.l24.q028",
+      "n3.l24.q029",
+      "n3.l24.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l24.q001",
+      "lessonId": "n3.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n新しい年金「制度」について説明を受ける。",
+      "choices": [
+        "せいど",
+        "せいと",
+        "じょうど",
+        "さいど"
+      ],
+      "answer": "せいど",
+      "acceptedAnswers": [
+        "せいど"
+      ],
+      "explanation": "「制度」は「せいど」と読みます。社会的な仕組みや決まり（system, institution）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q002",
+      "lessonId": "n3.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n利用時間には一定の「制限」がある。",
+      "choices": [
+        "せいげん",
+        "さいげん",
+        "しょうげん",
+        "じょうげん"
+      ],
+      "answer": "せいげん",
+      "acceptedAnswers": [
+        "せいげん"
+      ],
+      "explanation": "「制限」は「せいげん」と読みます。限度や枠を設けて抑えること（restriction）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q003",
+      "lessonId": "n3.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n憲法と「法律」に基づいて裁判が行われる。",
+      "choices": [
+        "ほうりつ",
+        "ほうりち",
+        "ほうりき",
+        "ほおりつ"
+      ],
+      "answer": "ほうりつ",
+      "acceptedAnswers": [
+        "ほうりつ"
+      ],
+      "explanation": "「法律」は「ほうりつ」と読みます。国会で制定される法規範（law）です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q004",
+      "lessonId": "n3.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n許可なく他人の著作物を販売するのは「違法」だ。",
+      "choices": [
+        "いほう",
+        "ちほう",
+        "いぽう",
+        "いほうほう"
+      ],
+      "answer": "いほう",
+      "acceptedAnswers": [
+        "いほう"
+      ],
+      "explanation": "「違法」は「いほう」と読みます。法律に違反していること（illegal, unlawful）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q005",
+      "lessonId": "n3.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の読み方として最も適切なものを一つ選びなさい。\n説明に足りない点があれば「補足」してください。",
+      "choices": [
+        "ほそく",
+        "ふそく",
+        "ほぞく",
+        "ほうそく"
+      ],
+      "answer": "ほそく",
+      "acceptedAnswers": [
+        "ほそく"
+      ],
+      "explanation": "「補足」は「ほそく」と読みます。不十分な部分を補い足すこと（supplement）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q006",
+      "lessonId": "n3.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「教育を受けることは子どもの権利であり、親にとっては（　）でもある。」",
+      "choices": [
+        "義務",
+        "職務",
+        "任務",
+        "債務"
+      ],
+      "answer": "義務",
+      "acceptedAnswers": [
+        "義務"
+      ],
+      "explanation": "「権利」の対義語として、果たさなければならない責任を表す「義務（ぎむ）」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q007",
+      "lessonId": "n3.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「何人も不当に自由を奪われない（　）を有している。」",
+      "choices": [
+        "権利",
+        "利害",
+        "利益",
+        "利権"
+      ],
+      "answer": "権利",
+      "acceptedAnswers": [
+        "権利"
+      ],
+      "explanation": "「権利（けんり）」はある行為を正当に行うことができる資格や権能（right, privilege）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q008",
+      "lessonId": "n3.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の意味として最も適切なものを一つ選びなさい。\n交通規則を「順守」する。",
+      "choices": [
+        "規則や法律に従って正しく守ること",
+        "古い規則をすべて廃止すること",
+        "規則を破った人を厳しく罰すること",
+        "新しい規則を自分で勝手に作ること"
+      ],
+      "answer": "規則や法律に従って正しく守ること",
+      "acceptedAnswers": [
+        "規則や法律に従って正しく守ること"
+      ],
+      "explanation": "「順守（じゅんしゅ）」は言いつけや法律・道理に従って守ることを意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q009",
+      "lessonId": "n3.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「事故の被害者に対して、会社を代表して深く（　）した。」",
+      "choices": [
+        "謝罪",
+        "感謝",
+        "謝礼",
+        "謝絶"
+      ],
+      "answer": "謝罪",
+      "acceptedAnswers": [
+        "謝罪"
+      ],
+      "explanation": "「謝罪（しゃざい）」は罪や過ちを詫びて謝ること（apology）を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q010",
+      "lessonId": "n3.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「高齢者や障がいのある方々への細やかな（　）が求められている。」",
+      "choices": [
+        "配慮",
+        "考慮",
+        "苦慮",
+        "思慮"
+      ],
+      "answer": "配慮",
+      "acceptedAnswers": [
+        "配慮"
+      ],
+      "explanation": "「配慮（はいりょ）」は良い結果になるよう心をくばること、思いやり（consideration）を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q011",
+      "lessonId": "n3.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の意味として最も適切なものを一つ選びなさい。\n契約条件の「違反」が発覚した。",
+      "choices": [
+        "ルールや取り決めに背くこと",
+        "ルールを忠実に守り続けること",
+        "条件を再交渉して変更すること",
+        "契約期間が満了すること"
+      ],
+      "answer": "ルールや取り決めに背くこと",
+      "acceptedAnswers": [
+        "ルールや取り決めに背くこと"
+      ],
+      "explanation": "「違反（いはん）」は規則・法律・約束などに従わないで背くこと（violation）です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q012",
+      "lessonId": "n3.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「予算や納期の（　）がある中で、最大限の工夫を凝らして制作した。」",
+      "choices": [
+        "制約",
+        "拘束",
+        "条約",
+        "密約"
+      ],
+      "answer": "制約",
+      "acceptedAnswers": [
+        "制約"
+      ],
+      "explanation": "「制約（せいやく）」は自由な活動を制限する条件や枠（constraint, limitation）を指します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q013",
+      "lessonId": "n3.l24",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n会社の「せいど」を改革する。",
+      "choices": [
+        "制度",
+        "制土",
+        "製度",
+        "勢度"
+      ],
+      "answer": "制度",
+      "acceptedAnswers": [
+        "制度"
+      ],
+      "explanation": "「制度（せいど）」は「制（コントロールする）」と「度（のり・基準）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q014",
+      "lessonId": "n3.l24",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n面接での受け答えや「たいど」を重視する。",
+      "choices": [
+        "態度",
+        "体度",
+        "体土",
+        "態土"
+      ],
+      "answer": "態度",
+      "acceptedAnswers": [
+        "態度"
+      ],
+      "explanation": "「態度（たいど）」の「ど」は「度」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q015",
+      "lessonId": "n3.l24",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n「ほうほう」を工夫して作業を効率化する。",
+      "choices": [
+        "方法",
+        "方向",
+        "法方",
+        "方邦"
+      ],
+      "answer": "方法",
+      "acceptedAnswers": [
+        "方法"
+      ],
+      "explanation": "「方法（ほうほう）」は「方」と「法」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q016",
+      "lessonId": "n3.l24",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の正しい表記を一つ選びなさい。\n不足している栄養をサプリメントで「おぎな」う。",
+      "choices": [
+        "補",
+        "補う",
+        "捕",
+        "輔"
+      ],
+      "answer": "補",
+      "acceptedAnswers": [
+        "補"
+      ],
+      "explanation": "「補う（おぎなう）」の漢字は「補」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q017",
+      "lessonId": "n3.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「借りたお金は、約束の期日までにきちんと（　）べきだ。」",
+      "choices": [
+        "返すべきだ",
+        "返すはずだ",
+        "返したほうがよい",
+        "返すわけだ"
+      ],
+      "answer": "返すべきだ",
+      "acceptedAnswers": [
+        "返すべきだ"
+      ],
+      "explanation": "約束した義務・道義的責務として当然果たすべきことを述べるため「返すべきだ」が正解です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q018",
+      "lessonId": "n3.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「親友の結婚式に招待されたのだから、（　）わけにはいかない。」",
+      "choices": [
+        "出席しない",
+        "出席する",
+        "出席した",
+        "出席しよう"
+      ],
+      "answer": "出席しない",
+      "acceptedAnswers": [
+        "出席しない"
+      ],
+      "explanation": "二重否定「〜ないわけにはいかない」で「出席しないわけにはいかない（どうしても出席しなければならない）」を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q019",
+      "lessonId": "n3.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「学生時代は、学業に専念（　）べきだ。」",
+      "choices": [
+        "す",
+        "し",
+        "さ",
+        "せ"
+      ],
+      "answer": "す",
+      "acceptedAnswers": [
+        "す"
+      ],
+      "explanation": "動詞「する」に「べきだ」が接続する場合、標準的な文語調では「すべきだ」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q020",
+      "lessonId": "n3.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「他人のプライバシーを面白半分でSNSに書き込む（　）ではない。」",
+      "choices": [
+        "べき",
+        "はず",
+        "もの",
+        "こと"
+      ],
+      "answer": "べき",
+      "acceptedAnswers": [
+        "べき"
+      ],
+      "explanation": "道義的・社会的にやってはならない禁止を表すため「べきではない」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q021",
+      "lessonId": "n3.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜べきだ」の使い方として最も自然なものを一つ選びなさい。",
+      "choices": [
+        "若者は失敗を恐れずに様々な経験に挑戦すべきだ。",
+        "明日は晴れるべきだ。",
+        "私は今すぐトイレに行くべきだ。",
+        "猫は魚を食べるべきだ。"
+      ],
+      "answer": "若者は失敗を恐れずに様々な経験に挑戦すべきだ。",
+      "acceptedAnswers": [
+        "若者は失敗を恐れずに様々な経験に挑戦すべきだ。"
+      ],
+      "explanation": "「べきだ」は人間の道義的・社会的当為を表すため、自然現象や生理的現象には用いません。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q022",
+      "lessonId": "n3.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ないわけにはいかない」を用いた文として最も適切なものを一つ選びなさい。",
+      "choices": [
+        "お世話になった先生が病気で入院されたと聞いて、お見舞いに行かないわけにはいかない。",
+        "雨が降っているので、傘を差さないわけにはいかない。",
+        "眠いので、昼寝をしないわけにはいかない。",
+        "美味しいケーキがあったので、全部食べないわけにはいかない。"
+      ],
+      "answer": "お世話になった先生が病気で入院されたと聞いて、お見舞いに行かないわけにはいかない。",
+      "acceptedAnswers": [
+        "お世話になった先生が病気で入院されたと聞いて、お見舞いに行かないわけにはいかない。"
+      ],
+      "explanation": "恩義や社会的義理により「行かないわけにはいかない（行かないのは道理に合わない）」という文脈で用います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q023",
+      "lessonId": "n3.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「会議で発言を求められた以上、自分の意見を（　）わけにはいかない。」",
+      "choices": [
+        "言わない",
+        "言う",
+        "言った",
+        "言おう"
+      ],
+      "answer": "言わない",
+      "acceptedAnswers": [
+        "言わない"
+      ],
+      "explanation": "「言わないわけにはいかない」で「義務として言わざるを得ない」を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q024",
+      "lessonId": "n3.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「大人として、自分の行動には最後まで責任を（　）べきだ。」",
+      "choices": [
+        "持つ",
+        "持って",
+        "持った",
+        "持とう"
+      ],
+      "answer": "持つ",
+      "acceptedAnswers": [
+        "持つ"
+      ],
+      "explanation": "動詞の辞書形「持つ」＋「べきだ」で「持つべきだ」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q025",
+      "lessonId": "n3.l24",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "企業が存続するための最低限の責務として文章で述べられているものはどれか。",
+      "choices": [
+        "法令順守（コンプライアンス）を徹底し、違法行為に手を染めないこと",
+        "ライバル企業をすべて買収して市場を独占すること",
+        "従業員の給料を半額にカットして利益率を最大化すること",
+        "海外にすべての工場を移転して税金を逃れること"
+      ],
+      "answer": "法令順守（コンプライアンス）を徹底し、違法行為に手を染めないこと",
+      "acceptedAnswers": [
+        "法令順守（コンプライアンス）を徹底し、違法行為に手を染めないこと"
+      ],
+      "explanation": "第1段落に「法令順守（コンプライアンス）は、企業が存続するための最低限の責務であり、いかなる理由があろうとも違法行為に手を染めるべきではない」と明記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q026",
+      "lessonId": "n3.l24",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "製品の欠陥などで社会に損害を与えた場合、経営陣が取るべき対応として文章に書かれているものはどれか。",
+      "choices": [
+        "事実関係を迅速かつ正確に公表し、誠心誠意の謝罪を尽くすこと",
+        "証拠書類をすべてシュレッダーで破棄して隠蔽すること",
+        "担当の一般社員一人だけにすべての責任を押し付けて解雇すること",
+        "マスコミの取材をすべて拒否して沈黙を守ること"
+      ],
+      "answer": "事実関係を迅速かつ正確に公表し、誠心誠意の謝罪を尽くすこと",
+      "acceptedAnswers": [
+        "事実関係を迅速かつ正確に公表し、誠心誠意の謝罪を尽くすこと"
+      ],
+      "explanation": "第2段落に「事実関係を迅速かつ正確に公表し、誠心誠意の謝罪を尽くさないわけにはいかない」と述べられています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q027",
+      "lessonId": "n3.l24",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "現代の企業が持続可能な発展を支える礎として果たすべきこととして筆者が主張しているものはどれか。",
+      "choices": [
+        "地球環境の保護や多様な人材への配慮など、将来世代に対する倫理的義務を果たし続けること",
+        "法律の抜け穴を探して税金を一円も払わないようにすること",
+        "短期的な利益だけを追求して環境対策の予算を全額削ること",
+        "自社の利益にならない社会貢献活動はすべて即座に廃止すること"
+      ],
+      "answer": "地球環境の保護や多様な人材への配慮など、将来世代に対する倫理的義務を果たし続けること",
+      "acceptedAnswers": [
+        "地球環境の保護や多様な人材への配慮など、将来世代に対する倫理的義務を果たし続けること"
+      ],
+      "explanation": "最終段落で「将来世代に対する倫理的義務を果たし続けることこそが、持続可能な発展を支える礎となるのである」と結論付けています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q028",
+      "lessonId": "n3.l24",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "A社から連絡が入ったトラブルの内容として会話で説明されているものはどれか。",
+      "choices": [
+        "納品した部品の規格が異なっていたこと",
+        "部品の代金が期日までに振り込まれていなかったこと",
+        "配送トラックが事故で横転したこと",
+        "契約書が別の会社に誤送されていたこと"
+      ],
+      "answer": "納品した部品の規格が異なっていたこと",
+      "acceptedAnswers": [
+        "納品した部品の規格が異なっていたこと"
+      ],
+      "explanation": "課長が「先ほどA社から納品した部品の規格が異なっていたと連絡が入りました」と伝えています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q029",
+      "lessonId": "n3.l24",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "課長が、部品の再送だけでなく直接訪問して謝罪すべきだと判断した理由は何か。",
+      "choices": [
+        "A社の工場ラインが一時停止するほどの事態になったから",
+        "松本さんが最近外出していなかったから",
+        "A社から高級なお土産が届いていたから",
+        "新しい契約の営業をする絶好の機会だから"
+      ],
+      "answer": "A社の工場ラインが一時停止するほどの事態になったから",
+      "acceptedAnswers": [
+        "A社の工場ラインが一時停止するほどの事態になったから"
+      ],
+      "explanation": "課長が「A社の工場ラインが一時停止したそうですから、担当者として直接訪問して謝罪しないわけにはいきません」と説明しています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l24.q030",
+      "lessonId": "n3.l24",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "課長が再発防止のために松本さんに指示したことは何か。",
+      "choices": [
+        "社内の検査制度を直ちに再点検すること",
+        "出荷前の検査を廃止してスピードを上げること",
+        "A社との取引を今月末で打ち切ること",
+        "検査員を全員新しいアルバイトに交代させること"
+      ],
+      "answer": "社内の検査制度を直ちに再点検すること",
+      "acceptedAnswers": [
+        "社内の検査制度を直ちに再点検すること"
+      ],
+      "explanation": "課長が「再発防止のために社内の検査制度を直ちに再点検してください」と指示しています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

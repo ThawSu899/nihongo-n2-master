@@ -1,0 +1,1695 @@
+{
+  "id": "n4.l33",
+  "level": "N4",
+  "module": "N4 Final Review & Mastery",
+  "number": 33,
+  "title": "N4 Lesson 33: Giving & Receiving Assistance (授受動詞・恩恵表現: 〜てあげる・〜てくれる・〜てもらう)",
+  "description": "Master giving and receiving favors of action (〜てあげる, 〜てくれる, 〜てもらう), strictly controlling directional perspectives, beneficiary gratitude, particle assignments, and respectful avoidance of condescending speech.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l33.v001",
+      "lessonId": "n4.l33",
+      "ja": "貸す",
+      "kana": "かす",
+      "en": "to lend; to loan",
+      "my": "ငှားရမ်းပေးသည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [
+        "n4.l33.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.v002",
+      "lessonId": "n4.l33",
+      "ja": "借りる",
+      "kana": "かりる",
+      "en": "to borrow; to rent",
+      "my": "ငှားရမ်းယူသည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n4.l33.s002",
+      "kanjiIds": [
+        "n4.l33.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.v003",
+      "lessonId": "n4.l33",
+      "ja": "恩恵",
+      "kana": "おんけい",
+      "en": "grace; favor; blessing; benefit",
+      "my": "ကျေးဇူးတရား/အကျိုးကျေးဇူး",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s003",
+      "kanjiIds": [
+        "n4.l33.k003",
+        "n4.l33.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.v004",
+      "lessonId": "n4.l33",
+      "ja": "修理する",
+      "kana": "しゅうりする",
+      "en": "to repair; to fix",
+      "my": "ပြုပြင်သည်/ပြင်ဆင်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l33.s004",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.v005",
+      "lessonId": "n4.l33",
+      "ja": "届ける",
+      "kana": "とどける",
+      "en": "to deliver; to send; to report",
+      "my": "ပို့ဆောင်ပေးသည်/အကြောင်းကြားသည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n4.l33.s005",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.v006",
+      "lessonId": "n4.l33",
+      "ja": "送る",
+      "kana": "おくる",
+      "en": "to send; to see someone off; to drive someone home",
+      "my": "ပို့သည်/လိုက်ပို့သည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n4.l33.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.v007",
+      "lessonId": "n4.l33",
+      "ja": "教える",
+      "kana": "おしえる",
+      "en": "to teach; to tell; to inform",
+      "my": "သင်ကြားပြသသည်/ပြောပြသည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n4.l33.s007",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.v008",
+      "lessonId": "n4.l33",
+      "ja": "喜ぶ",
+      "kana": "よろこぶ",
+      "en": "to rejoice; to be glad; to be pleased",
+      "my": "ဝမ်းသာသည်/ပျော်ရွှင်သည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n4.l33.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.v009",
+      "lessonId": "n4.l33",
+      "ja": "感謝",
+      "kana": "かんしゃ",
+      "en": "gratitude; thanks; appreciation",
+      "my": "ကျေးဇူးတင်ရှိမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s009",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.v010",
+      "lessonId": "n4.l33",
+      "ja": "親切",
+      "kana": "しんせつ",
+      "en": "kind; gentle; considerate",
+      "my": "ကြင်နာသဘောကောင်းသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n4.l33.s010",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.v011",
+      "lessonId": "n4.l33",
+      "ja": "迷惑",
+      "kana": "めいわく",
+      "en": "trouble; bother; nuisance",
+      "my": "အနှောင့်အယှက်/ဒုက္ခပေးမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s011",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.v012",
+      "lessonId": "n4.l33",
+      "ja": "助ける",
+      "kana": "たすける",
+      "en": "to help; to assist; to rescue",
+      "my": "ကူညီကယ်ဆယ်သည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n4.l33.s012",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l33.k001",
+      "lessonId": "n4.l33",
+      "char": "貸",
+      "meaning": "lend; loan; rent out",
+      "onyomi": [
+        "タイ"
+      ],
+      "kunyomi": [
+        "か・す"
+      ],
+      "exampleVocab": [
+        {
+          "word": "貸す",
+          "reading": "かす",
+          "meaning": "to lend",
+          "preview": false
+        },
+        {
+          "word": "貸出",
+          "reading": "かしだし",
+          "meaning": "lending; loaning",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l33.s001"
+      ],
+      "components": [
+        "代",
+        "貝"
+      ],
+      "strokes": 12,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.k002",
+      "lessonId": "n4.l33",
+      "char": "借",
+      "meaning": "borrow; rent",
+      "onyomi": [
+        "シャク"
+      ],
+      "kunyomi": [
+        "か・りる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "借りる",
+          "reading": "かりる",
+          "meaning": "to borrow",
+          "preview": false
+        },
+        {
+          "word": "借金",
+          "reading": "しゃっきん",
+          "meaning": "debt; loan",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l33.s001"
+      ],
+      "components": [
+        "亻",
+        "昔"
+      ],
+      "strokes": 10,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.k003",
+      "lessonId": "n4.l33",
+      "char": "恩",
+      "meaning": "grace; kindness; blessing; favor",
+      "onyomi": [
+        "オン"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "恩恵",
+          "reading": "おんけい",
+          "meaning": "grace; benefit",
+          "preview": false
+        },
+        {
+          "word": "恩人",
+          "reading": "おんじん",
+          "meaning": "benefactor",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l33.s001"
+      ],
+      "components": [
+        "因",
+        "心"
+      ],
+      "strokes": 10,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.k004",
+      "lessonId": "n4.l33",
+      "char": "恵",
+      "meaning": "favor; blessing; grace; wisdom",
+      "onyomi": [
+        "ケイ",
+        "エ"
+      ],
+      "kunyomi": [
+        "めぐ・む",
+        "めぐ・み"
+      ],
+      "exampleVocab": [
+        {
+          "word": "恩恵",
+          "reading": "おんけい",
+          "meaning": "grace; benefit",
+          "preview": false
+        },
+        {
+          "word": "知恵",
+          "reading": "ちえ",
+          "meaning": "wisdom; wit",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l33.s001"
+      ],
+      "components": [
+        "十",
+        "心"
+      ],
+      "strokes": 10,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l33.g001",
+      "lessonId": "n4.l33",
+      "pattern": "[Verb て-form] + あげる vs くれる",
+      "meaning": "Giving Action Favor (〜てあげる: outward favor / 〜てくれる: inward favor to me)",
+      "formation": "[Giver (私)] は [Receiver] に [Verb て]あげる\n[Giver] が [Receiver (私/私の身内)] に [Verb て]くれる",
+      "explanation": {
+        "en": "Describes performing an action as a helpful favor:\n- 〜てあげる: The speaker (or someone on the speaker’s side) does something beneficial for another person (私は妹に日本語を教えてあげた). CAUTION: Directly saying 〜てあげる to a superior sounds arrogant (\"I will do you a favor\"); to offer help politely to superiors, say 〜ましょうか or お〜しましょうか instead.\n- 〜てくれる: Another person voluntarily does a favor for the speaker or the speaker's in-group (田中さんが私に傘を貸してくれた). The focus is on gratitude toward the giver.",
+        "my": "တစ်ဖက်သားအတွက် အကျိုးပြုလုပ်ဆောင်ပေးခြင်း သို့မဟုတ် တစ်ဖက်လူက မိမိအတွက် ကူညီလုပ်ဆောင်ပေးခြင်း:\n- 〜てあげる: မိမိက တစ်ဖက်လူအတွက် စေတနာဖြင့် ကူညီလုပ်ဆောင်ပေးသည်။ (လူကြီးများအား မိမိကိုယ်တိုင် ပြောရာတွင် မောက်မာသော အသံမပေါက်စေရန် 「〜ましょうか」ကိုသာ သုံးရမည်)။\n- 〜てくれる: တစ်ဖက်လူက မိမိ (သို့မဟုတ် မိမိ၏ မိသားစု/အသိုက်အဝန်း) အတွက် စေတနာဖြင့် ကူညီပေးသည်။ ကူညီသူ၏ စေတနာအပေါ် ကျေးဇူးတင်မှုကို အဓိကထားသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l33.s001",
+          "note": "I lent my umbrella to a friend who was in trouble in the rain."
+        },
+        {
+          "sentenceId": "n4.l33.s002",
+          "note": "A kind senior kindly guided me around the station transfer."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not say 〜てあげる directly to superiors or teachers (❌ 先生、荷物を持ってあげます → ⭕️ 先生、お持ちしましょうか).",
+        "The subject of 〜てくれる must always be the giver, and the recipient must be the speaker or in-group (❌ 私は友達に教えてくれた → ⭕️ 友達が私に教えてくれた)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.g002",
+      "lessonId": "n4.l33",
+      "pattern": "[Verb て-form] + もらう",
+      "meaning": "Receiving Action Favor (〜てもらう: having someone do something for me)",
+      "formation": "[Receiver (私)] は [Giver/Agent] に [Verb て]もらう\nPolite humble: 〜ていただく (先生に直していただいた)",
+      "explanation": {
+        "en": "The speaker (or receiver) is the grammatical subject who receives a beneficial action performed by someone else upon request or initiative. The person who performs the action is marked with the particle に (e.g. 私は先生に作文を直してもらいました = I had the teacher correct my essay).\nContrast: 先生が直してくれた (Teacher kindly corrected it) vs 私は先生に直してもらった (I received the teacher's correction).",
+        "my": "မိမိ (လက်ခံသူ) သည် ပြုလုပ်သူထံမှ အကျိုးပြုလုပ်ဆောင်ချက်ကို ရရှိခြင်း (အကူအညီတောင်းခံ၍ဖြစ်စေ၊ စေတနာအရဖြစ်စေ ရယူခြင်း) ကို ဖော်ပြသည်။ ပြုလုပ်သူနောက်တွင် 「に」ကို သုံးသည်။ (ဥပမာ- ကျွန်တော်သည် ဆရာ့ထံမှ စာစီစာကုံးကို ပြင်ဆင်စစ်ဆေးပေးခြင်း ခံယူခဲ့သည်)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l33.s004",
+          "note": "I had the technician repair my broken computer."
+        },
+        {
+          "sentenceId": "n4.l33.s007",
+          "note": "I had my classmate teach me difficult grammar."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "The benefactor takes particle に, never を or で (❌ 先生を直してもらった → ⭕️ 先生に直してもらった).",
+        "Distinguish perspective: In 〜てくれる, the giver is the subject (先生が). In 〜てもらう, the receiver is the subject (私は)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l33.s001",
+      "lessonId": "n4.l33",
+      "ja": "雨で傘がなくて困っていた友人に、私の予備の折りたたみ傘を貸してあげました。",
+      "kana": "あめでかさがなくてこまっていたゆうじんに、わたしのよびのおりたたみかさをかしてあげました。",
+      "translation": {
+        "en": "I lent my spare folding umbrella to a friend who was in trouble without an umbrella in the rain.",
+        "my": "မိုးထဲတွင် ထီးမပါသဖြင့် အခက်ကြုံနေသော သူငယ်ချင်းအား ကျွန်တော့်၏ အပိုခေါက်ထီးကို ငှားပေးခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l33.v001"
+      ],
+      "grammarIds": [
+        "n4.l33.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.s002",
+      "lessonId": "n4.l33",
+      "ja": "休んだ授業のノートを親切な友人に借りて、大切な要点を教えてもらいました。",
+      "kana": "やすんだじゅぎょうのノートをしんせつなゆうじんにかりて、たいせつなようてんをおしえてもらいました。",
+      "translation": {
+        "en": "I borrowed notes of the class I missed from a kind friend, and had them teach me the important points.",
+        "my": "ကျောင်းပျက်ခဲ့သော အတန်း၏ စာအုပ်ကို ကြင်နာသော သူငယ်ချင်းထံမှ ငှားရမ်းပြီး အရေးကြီးသော အချက်များကို သင်ကြားပြသပေးခြင်း ခံယူခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l33.v002",
+        "n4.l33.v007",
+        "n4.l33.v010"
+      ],
+      "grammarIds": [
+        "n4.l33.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.s003",
+      "lessonId": "n4.l33",
+      "ja": "現代社会において、私たちは科学技術の進歩から数多くの恩恵を受けています。",
+      "kana": "げんだいしゃかいにおいて、わたしたちはかがくぎじゅつのしんぽからかずおおくのおんけいをうけています。",
+      "translation": {
+        "en": "In modern society, we receive numerous benefits from the advancement of science and technology.",
+        "my": "မျက်မှောက်ခေတ် လူ့အဖွဲ့အစည်းတွင် ကျွန်ုပ်တို့သည် သိပ္ပံနှင့် နည်းပညာ တိုးတက်မှုများမှ များပြားလှသော အကျိုးကျေးဇူးများကို ခံစားရရှိနေကြပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l33.v003"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.s004",
+      "lessonId": "n4.l33",
+      "ja": "動かなくなったパソコンを、電気屋の専門スタッフに頼んで修理してもらいました。",
+      "kana": "うごかなくなったパソコンを、でんきやのせんもんスタッフにたのんでしゅうりしてもらいました。",
+      "translation": {
+        "en": "I asked the appliance store’s technical staff and had my broken computer repaired.",
+        "my": "အလုပ်မလုပ်တော့သော ကွန်ပျူတာကို လျှပ်စစ်ပစ္စည်းဆိုင်မှ ကျွမ်းကျင်ဝန်ထမ်းအား အကူအညီတောင်း၍ ပြင်ဆင်ခိုင်းခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l33.v004"
+      ],
+      "grammarIds": [
+        "n4.l33.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.s005",
+      "lessonId": "n4.l33",
+      "ja": "宅配便の配達員が、重いダンボール箱を玄関の中まで丁寧に届けてくれました。",
+      "kana": "たくはいびんのはいたついんが、おもいダンボールばこをげんかんのなかまでていねいにとどけてくれました。",
+      "translation": {
+        "en": "The courier delivery person politely delivered the heavy cardboard box right into the entrance hall for me.",
+        "my": "အမြန်ချောပို့ ပို့ဆောင်ရေးသမားသည် လေးလံသော စက္ကူဂျပ်ဖာကို ဝင်ပေါက်ခန်းမအတွင်းအထိ သေချာစွာ ပို့ဆောင်ပေးခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l33.v005"
+      ],
+      "grammarIds": [
+        "n4.l33.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.s006",
+      "lessonId": "n4.l33",
+      "ja": "夜遅くなったので、同僚が車で私をアパートの前まで送ってくれました。",
+      "kana": "よるおそくなったので、どうりょうがくるまでわたしをアパートのまえまでおくってくれました。",
+      "translation": {
+        "en": "Because it became late at night, my colleague kindly drove me in their car to the front of my apartment.",
+        "my": "ညဉ့်နက်သွားသဖြင့် လုပ်ဖော်ကိုင်ဖက်က ကားဖြင့် တိုက်ခန်းရှေ့အထိ လိုက်ပို့ပေးခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l33.v006"
+      ],
+      "grammarIds": [
+        "n4.l33.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.s007",
+      "lessonId": "n4.l33",
+      "ja": "日本語の複雑な文法について、放課後にクラスメートに分かりやすく教えてもらいました。",
+      "kana": "にほんごのふくざつなぶんぽうについて、ほうかごにクラスメートにわかりやすくおしえてもらいました。",
+      "translation": {
+        "en": "Regarding complicated Japanese grammar, I had my classmate teach me clearly after school.",
+        "my": "ရှုပ်ထွေးသော ဂျပန်သဒ္ဒါနှင့် ပတ်သက်၍ ကျောင်းဆင်းချိန်တွင် အတန်းဖော်ထံမှ ရှင်းလင်းလွယ်ကူစွာ သင်ကြားပြသပေးခြင်းကို ခံယူခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l33.v007"
+      ],
+      "grammarIds": [
+        "n4.l33.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.s008",
+      "lessonId": "n4.l33",
+      "ja": "母の誕生日に花束をプレゼントしてあげたら、涙を浮かべて喜んでくれました。",
+      "kana": "ははのたんじょうびにはなたばをプレゼントしてあげたら、なみだをうかべてよろこんでくれました。",
+      "translation": {
+        "en": "When I gave a flower bouquet as a present for my mother’s birthday, she was so pleased that tears welled up.",
+        "my": "မိခင်၏ မွေးနေ့တွင် ပန်းစည်းလက်ဆောင် ပေးခဲ့ရာ မျက်ရည်ဝဲသည်အထိ ဝမ်းသာပီတိ ဖြစ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l33.v008"
+      ],
+      "grammarIds": [
+        "n4.l33.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.s009",
+      "lessonId": "n4.l33",
+      "ja": "いつも支えてくれる家族への感謝の気持ちを込めて、手紙を書いて送りました。",
+      "kana": "いつもささえてくれるかぞくへのかんしゃのきもちをこめて、てがみをかいておくりました。",
+      "translation": {
+        "en": "With feelings of gratitude toward my family who always supports me, I wrote and sent a letter.",
+        "my": "အမြဲတမ်း ပံ့ပိုးကူညီပေးနေသော မိသားစုအပေါ် ကျေးဇူးတင်သောစိတ်ကို ထည့်သွင်း၍ စာရေးသားပေးပို့ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l33.v006",
+        "n4.l33.v009"
+      ],
+      "grammarIds": [
+        "n4.l33.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.s010",
+      "lessonId": "n4.l33",
+      "ja": "道に迷った時に親切な通りすがりの人に助けてもらい、無事に目的地に着けました。",
+      "kana": "みちにまよったときにしんせつなとおりすがりのひとにたすけてもらい、ぶじにもくてきちにつけました。",
+      "translation": {
+        "en": "When I was lost, I had a kind passerby help me and safely reached my destination.",
+        "my": "လမ်းပျောက်စဉ် ကြင်နာသော လမ်းသွားလမ်းလာတစ်ဦး၏ ကူညီမှုကို ရယူခဲ့ပြီး လိုရာခရီးသို့ ဘေးကင်းစွာ ရောက်ရှိခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l33.v010",
+        "n4.l33.v012"
+      ],
+      "grammarIds": [
+        "n4.l33.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.s011",
+      "lessonId": "n4.l33",
+      "ja": "夜間に大音量で音楽を流すと、近所迷惑になってしまうのでやめましょう。",
+      "kana": "やかんにだいおんりょうでおんがくをながすと、きんじょめいわくになってしまうのでやめましょう。",
+      "translation": {
+        "en": "Playing music at high volume at night causes neighborhood nuisance, so let’s refrain.",
+        "my": "ညအချိန်တွင် သီချင်းကို အသံကျယ်ကျယ် ဖွင့်ပါက အိမ်နီးနားချင်းများအတွက် အနှောင့်အယှက် ဖြစ်စေသဖြင့် ရှောင်ကြဉ်ကြပါစို့။"
+      },
+      "vocabIds": [
+        "n4.l33.v011"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l33.s012",
+      "lessonId": "n4.l33",
+      "ja": "怪我をして動けない小鳥を見つけたので、獣医さんに連れて行って助けてあげました。",
+      "kana": "けがをしてうごけないことりをみつけたので、じゅういさんにつれていってたすけてあげました。",
+      "translation": {
+        "en": "Finding an injured small bird unable to move, I took it to a veterinarian and saved it.",
+        "my": "ဒဏ်ရာရပြီး မလှုပ်ရှားနိုင်သော ငှက်ကလေးကို တွေ့ရှိ၍ တိရစ္ဆာန်ဆေးကုဆရာဝန်ထံ ခေါ်ဆောင်ကာ ကယ်တင်ပေးခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l33.v012"
+      ],
+      "grammarIds": [
+        "n4.l33.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l33.r01",
+    "lessonId": "n4.l33",
+    "title": "日本での支え合いと恩返しの心",
+    "level": "N4",
+    "text": "留学生のソンさんが日本へやって来て最初の一ヶ月間は、言葉も習慣も違い、毎日が戸惑いの連続でした。スーパーでの買い物や市役所での住民登録など、生活の基本的な手続きさえ一人では満足にできませんでした。\n\nそんな時、同じアパートの隣に住む高齢のご夫婦が、生活のルールを一つずつ優しく教えてくれました。ゴミの正しい分別方法を教えてくれたり、風邪で寝込んだ時には温かいおかゆを作って届けてくれたりしました。ソンさんはその深い親切に心から感謝し、いつか恩返しをしたいと思っていました。\n\nある日、隣のおじいさんが庭の伸び放題になった植木を剪定しようとして苦労しているのを見かけました。ソンさんは「いつもお世話になっているので、庭の手入れを手伝ってあげたい」と申し出ました。重い枝を運んだり庭の落ち葉を掃いたりするのを手伝ってあげると、ご夫婦は顔をほころばせて大変喜んでくれました。\n\n「人と人とがお互いに助け合い、感謝を行動で返すことの尊さを、日本での生活を通して深く学びました」とソンさんは語っています。",
+    "kanaText": "りゅうがくせいのソンさんがにほんへやってきてさいしょのいっかげつかんは、ことばもしゅうかんもちがい、まいにちがとまどいのれんぞくでした。スーパーでのかいものやしやくしょでのじゅうみんとうろくなど、せいかつのきほんてきなてつづきさえひとりではまんぞくにできませんでした。\n\nそんなとき、おなじアパートのとなりにすむこうれいのごふうふが、せいかつのルールをひとつずつやさしくおしえてくれました。ゴミのただしいぶんべつほうほうをおしえてくれたり、かぜでねこんだときにはあたたかいおかゆをつくってとどけてくれたりしました。ソンさんはそのふかいしんせつにこころからかんしゃし、いつかおんがえしをしたいとおもっていました。\n\nあるひ、となりのおじいさんがにわののびほうだいになったうえきをせんていしようとしてくろうしているのをみかけました。ソンさんは「いつもおせわになっているので、にわのていれをてつだってあげたい」ともうしでました。おもいえだをはこんだりにわのおちばをはいたりするのをてつだってあげると、ごふうふはかおをほころばせてたいへんよろこんでくれました。\n\n「ひととひととがおたがいにたすけあい、かんしゃをこうどうでかえすことのとうとさを、にほんでのせいかつをつうしてふかくまなびました」とソンさんはかたっています。",
+    "translation": "During the first month after international student Son came to Japan, with different language and customs, every day was a continuous series of bewilderment. Even basic daily procedures, such as shopping at supermarkets or resident registration at city hall, could not be completed satisfactorily alone.\n\nAt such a time, an elderly married couple living next door in the same apartment kindly taught him daily living rules one by one. They taught him the correct garbage sorting methods, and when he was sick in bed with a cold, they cooked warm porridge and delivered it to him. Son sincerely appreciated this deep kindness and wished to return the favor someday.\n\nOne day, he spotted the grandfather next door struggling while trying to prune garden trees that had grown wildly. Son offered, \"Since you always take care of me, I want to help with the garden maintenance.\" When he helped carry heavy branches and sweep fallen leaves in the garden, the couple smiled warmly and were overjoyed.\n\n\"Through living in Japan, I deeply learned the preciousness of people helping each other and returning gratitude through action,\" Son reflects.",
+    "questionIds": [
+      "n4.l33.q025",
+      "n4.l33.q026",
+      "n4.l33.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l33.l01",
+    "lessonId": "n4.l33",
+    "title": "引っ越しの手伝いと感謝の食事",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "後輩（パク）",
+      "先輩（井上）"
+    ],
+    "transcript": "パク：井上先輩、昨日は引っ越しを手伝ってくださって、本当にありがとうございました！\n井上：いやいや、重い洗濯機や冷蔵庫を運ぶのは一人じゃ無理だからね。無事に片付いてよかったよ。\nパク：先輩に車を出してもらったおかげで、引っ越し業者に頼まずに安く済みました。すごく助かりました。\n井上：お互い様だよ。僕が去年引っ越した時も、サークルの後輩たちにたくさん手伝ってもらったからね。\nパク：先輩、お礼に今夜美味しい韓国料理をご馳走させてください！私が腕を振るって作ってあげます。\n井上：えっ、本当かい？パクさんの手作り本場チヂミ、ずっと食べてみたかったんだ。ご馳走になるよ！\nパク：はい！腕によりをかけて作りますね！",
+    "translation": "Park: Inoue-senpai, thank you so very much for helping me with my moving yesterday!\nInoue: Not at all! Carrying heavy washing machines and refrigerators is impossible alone. I'm glad it got tidied up safely.\nPark: Thanks to having you drive your car, I managed cheaply without hiring moving contractors. It helped me immensely.\nInoue: We help each other out. When I moved last year, I also had club juniors help me a lot.\nPark: Senpai, as thanks, please let me treat you to delicious Korean food tonight! I will do my best and cook it for you.\nInoue: Oh, really? I had always wanted to try eating your homemade authentic chijimi pancake. I will gladly accept!\nPark: Yes! I will put my heart into making it!",
+    "turns": [
+      {
+        "speaker": "パク",
+        "ja": "井上先輩、昨日は引っ越しを手伝ってくださって、本当にありがとうございました！",
+        "kana": "いのうえせんぱい、きのうはひっこしをてつだってくださって、ほんとうにありがとうございました！",
+        "en": "Inoue-senpai, thank you so very much for helping me with moving yesterday!"
+      },
+      {
+        "speaker": "井上",
+        "ja": "いやいや、重い洗濯機や冷蔵庫を運ぶのは一人じゃ無理だからね。無事に片付いてよかったよ。",
+        "kana": "いやいや、おもいせんたくきやりょうぞうこをはこぶのわひとりじゃむりだからね。ぶじにかたづいてよかったよ。",
+        "en": "No, no, carrying a heavy washing machine and refrigerator is impossible for one person. I am glad it got settled safely."
+      },
+      {
+        "speaker": "パク",
+        "ja": "先輩に車を出してもらったおかげで、引っ越し業者に頼まずに安く済みました。すごく助かりました。",
+        "kana": "せんぱいにくるまをだしてもらったおかげで、ひっこしぎょうしゃにたのまずにやすくすみました。すごくたすかりました。",
+        "en": "Thanks to having you provide your car, it finished cheaply without asking moving contractors. It helped me greatly."
+      },
+      {
+        "speaker": "井上",
+        "ja": "お互い様だよ。僕が去年引っ越した時も、サークルの後輩たちにたくさん手伝ってもらったからね。",
+        "kana": "おたがいさまだよ。ぼくがきょねんひっこしたときも、サークルのこうはいたちにたくさんてつだってもらったからね。",
+        "en": "We help each other out. When I moved last year, I also had club juniors help me a lot."
+      },
+      {
+        "speaker": "パク",
+        "ja": "先輩、お礼に今夜美味しい韓国料理をご馳走させてください！私が腕を振るって作ってあげます。",
+        "kana": "せんぱい、おれいにこんやおいしいかんこくりょうりをごちそうさせてください！わたしがうでをふるってつくってあげます。",
+        "en": "Senpai, as a thank-you please let me treat you to delicious Korean food tonight! I will cook it for you with my best skills."
+      },
+      {
+        "speaker": "井上",
+        "ja": "えっ、本当かい？パクさんの手作り本場チヂミ、ずっと食べてみたかったんだ。ご馳走になるよ！",
+        "kana": "えっ、ほんとうかい？パクさんのてづくりほんばチヂミ、ずっとたべてみたかったんだ。ごちそうになるよ！",
+        "en": "Oh, really? I have wanted to try your homemade authentic chijimi for a long time. I accept your treat!"
+      },
+      {
+        "speaker": "パク",
+        "ja": "はい！腕によりをかけて作りますね！",
+        "kana": "はい！うでによりをかけてつくりますね！",
+        "en": "Yes! I will put everything into cooking it!"
+      }
+    ],
+    "questionIds": [
+      "n4.l33.q028",
+      "n4.l33.q029",
+      "n4.l33.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l33.q001",
+      "lessonId": "n4.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "自分の持ち物を一時的に他人に使わせることを表す動詞はどれですか。",
+      "choices": [
+        "貸す",
+        "借りる",
+        "捨てる",
+        "隠す"
+      ],
+      "answer": "貸す",
+      "acceptedAnswers": [
+        "貸す"
+      ],
+      "explanation": "貸す (かす) means to lend.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q002",
+      "lessonId": "n4.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "他人の持ち物を一時的に使わせてもらうことを表す動詞はどれですか。",
+      "choices": [
+        "借りる",
+        "貸す",
+        "盗む",
+        "壊す"
+      ],
+      "answer": "借りる",
+      "acceptedAnswers": [
+        "借りる"
+      ],
+      "explanation": "借りる (かりる) means to borrow.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q003",
+      "lessonId": "n4.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "壊れた時計や機械を元通りに修復する動詞はどれですか。",
+      "choices": [
+        "修理する",
+        "倒す",
+        "減らす",
+        "冷ます"
+      ],
+      "answer": "修理する",
+      "acceptedAnswers": [
+        "修理する"
+      ],
+      "explanation": "修理する (しゅうりする) means to repair or fix.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q004",
+      "lessonId": "n4.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "荷物や手紙を相手の場所まで運んで渡すことを何と言いますか。",
+      "choices": [
+        "届ける",
+        "奪う",
+        "拒絶する",
+        "散歩する"
+      ],
+      "answer": "届ける",
+      "acceptedAnswers": [
+        "届ける"
+      ],
+      "explanation": "届ける (とどける) means to deliver.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q005",
+      "lessonId": "n4.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "相手の親切や好意に対して抱く「ありがたい」という気持ちを何と言いますか。",
+      "choices": [
+        "感謝",
+        "迷惑",
+        "怒り",
+        "後悔"
+      ],
+      "answer": "感謝",
+      "acceptedAnswers": [
+        "感謝"
+      ],
+      "explanation": "感謝 (かんしゃ) means gratitude.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q006",
+      "lessonId": "n4.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "他人に対して思いやりがあり、よく世話をしてくれる性質を表すナ形容詞はどれですか。",
+      "choices": [
+        "親切",
+        "新鮮",
+        "頑固",
+        "退屈"
+      ],
+      "answer": "親切",
+      "acceptedAnswers": [
+        "親切"
+      ],
+      "explanation": "親切 (しんせつ) means kind and considerate.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q007",
+      "lessonId": "n4.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "他人に負担や不快感を与えて困らせることを何と言いますか。",
+      "choices": [
+        "迷惑",
+        "親切",
+        "恩恵",
+        "感激"
+      ],
+      "answer": "迷惑",
+      "acceptedAnswers": [
+        "迷惑"
+      ],
+      "explanation": "迷惑 (めいわく) means trouble or nuisance.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q008",
+      "lessonId": "n4.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "良い知らせやプレゼントを受け取って満足し、笑顔になる動詞はどれですか。",
+      "choices": [
+        "喜ぶ",
+        "悔やむ",
+        "恨む",
+        "憎む"
+      ],
+      "answer": "喜ぶ",
+      "acceptedAnswers": [
+        "喜ぶ"
+      ],
+      "explanation": "喜ぶ (よろこぶ) means to rejoice or be pleased.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q009",
+      "lessonId": "n4.l33",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「お金を（貸す）」の正しい読み方はどれですか。",
+      "choices": [
+        "かす",
+        "かりる",
+        "だす",
+        "もどす"
+      ],
+      "answer": "かす",
+      "acceptedAnswers": [
+        "かす"
+      ],
+      "explanation": "貸す is read as かす.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q010",
+      "lessonId": "n4.l33",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「本を（借りる）」の正しい読み方はどれですか。",
+      "choices": [
+        "かりる",
+        "かす",
+        "おりる",
+        "たりる"
+      ],
+      "answer": "かりる",
+      "acceptedAnswers": [
+        "かりる"
+      ],
+      "explanation": "借りる is read as かりる.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q011",
+      "lessonId": "n4.l33",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「恩恵」の正しい読み方を選びなさい。",
+      "choices": [
+        "おんけい",
+        "おんえ",
+        "おんえい",
+        "あんけい"
+      ],
+      "answer": "おんけい",
+      "acceptedAnswers": [
+        "おんけい"
+      ],
+      "explanation": "恩恵 is read as おんけい.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.k003",
+        "n4.l33.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q012",
+      "lessonId": "n4.l33",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「貸出」の「貸」の音読みはどれですか。",
+      "choices": [
+        "タイ",
+        "ダイ",
+        "テイ",
+        "カイ"
+      ],
+      "answer": "タイ",
+      "acceptedAnswers": [
+        "タイ"
+      ],
+      "explanation": "貸 has onyomi タイ (e.g. 賃貸, 貸借).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q013",
+      "lessonId": "n4.l33",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「借金」の「借」の音読みはどれですか。",
+      "choices": [
+        "シャク",
+        "サク",
+        "セキ",
+        "シュク"
+      ],
+      "answer": "シャク",
+      "acceptedAnswers": [
+        "シャク"
+      ],
+      "explanation": "借 has onyomi シャク (借金 = しゃっきん).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q014",
+      "lessonId": "n4.l33",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「知恵」の「恵」の音読みはどれですか。",
+      "choices": [
+        "エ",
+        "ケイ",
+        "カイ",
+        "エイ"
+      ],
+      "answer": "エ",
+      "acceptedAnswers": [
+        "エ"
+      ],
+      "explanation": "恵 is read as エ in 知恵 (ちえ).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q015",
+      "lessonId": "n4.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「田中さんが私に傘を貸して（　）。」他者が私に好意をしてくれた時の動詞はどれですか。",
+      "choices": [
+        "くれた",
+        "あげた",
+        "もらった",
+        "やった"
+      ],
+      "answer": "くれた",
+      "acceptedAnswers": [
+        "くれた"
+      ],
+      "explanation": "When someone else does a favor for the speaker, 〜てくれる is used.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q016",
+      "lessonId": "n4.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「私は先生（　）日本語の作文を直してもらいました。」恩恵の動作主を表す助詞はどれですか。",
+      "choices": [
+        "に",
+        "を",
+        "で",
+        "へ"
+      ],
+      "answer": "に",
+      "acceptedAnswers": [
+        "に"
+      ],
+      "explanation": "In [私 は Agent に 〜てもらう], the person who does the favor is marked with に.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q017",
+      "lessonId": "n4.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「妹の誕生日にケーキを作って（　）。」私が他者に好意をする時の動詞はどれですか。",
+      "choices": [
+        "あげた",
+        "くれた",
+        "もらった",
+        "いただいた"
+      ],
+      "answer": "あげた",
+      "acceptedAnswers": [
+        "あげた"
+      ],
+      "explanation": "When the speaker performs a favor for someone else, 〜てあげる is used.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q018",
+      "lessonId": "n4.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "目上の先生に対して荷物を持つことを申し出る時、最も適切な表現はどれですか。",
+      "choices": [
+        "先生、お持ちしましょうか。",
+        "先生、持ってあげます。",
+        "先生、持ってくれますか。",
+        "先生、持ってやりましょうか。"
+      ],
+      "answer": "先生、お持ちしましょうか。",
+      "acceptedAnswers": [
+        "先生、お持ちしましょうか。"
+      ],
+      "explanation": "〜てあげる should never be used directly toward superiors because it sounds patronizing. Use お〜しましょうか instead.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q019",
+      "lessonId": "n4.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「友達（　）駅まで車で送ってくれた。」動作主（恩恵の提供者）を表す助詞はどれですか。",
+      "choices": [
+        "が",
+        "に",
+        "を",
+        "で"
+      ],
+      "answer": "が",
+      "acceptedAnswers": [
+        "が"
+      ],
+      "explanation": "In 〜てくれる, the giver of the favor is the subject and takes が (友達が送ってくれた).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q020",
+      "lessonId": "n4.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「私は兄にパソコンの使い方を教えて（　）。」私が兄から教わったことを表す形はどれですか。",
+      "choices": [
+        "もらった",
+        "あげた",
+        "くれた",
+        "やった"
+      ],
+      "answer": "もらった",
+      "acceptedAnswers": [
+        "もらった"
+      ],
+      "explanation": "「私は兄に〜てもらった」 indicates the speaker received the instruction from the older brother.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q021",
+      "lessonId": "n4.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の文のうち、文法的に誤りのあるものはどれですか。",
+      "choices": [
+        "私は友達に宿題を教えてくれました。",
+        "友達が私に宿題を教えてくれました。",
+        "私は友達に宿題を教えてもらいました。",
+        "私は友達に宿題を教えてあげました。"
+      ],
+      "answer": "私は友達に宿題を教えてくれました。",
+      "acceptedAnswers": [
+        "私は友達に宿題を教えてくれました。"
+      ],
+      "explanation": "〜てくれる requires the giver to be the subject (友達が私に), not 私は.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q022",
+      "lessonId": "n4.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「山田さんが私の部屋を掃除してくれた」と同じ意味を表す「〜てもらう」の文はどれですか。",
+      "choices": [
+        "私は山田さんに部屋を掃除してもらった。",
+        "山田さんは私に部屋を掃除してもらった。",
+        "私は山田さんに部屋を掃除してあげた。",
+        "山田さんは私に部屋を掃除してくれた。"
+      ],
+      "answer": "私は山田さんに部屋を掃除してもらった。",
+      "acceptedAnswers": [
+        "私は山田さんに部屋を掃除してもらった。"
+      ],
+      "explanation": "山田さんが私にしてくれた $\\Leftrightarrow$ 私は山田さんにしてもらった.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.g001",
+        "n4.l33.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q023",
+      "lessonId": "n4.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「雨が降ってきたので、母が駅まで車で迎えに来て（　）。」",
+      "choices": [
+        "くれた",
+        "あげた",
+        "もらった",
+        "やった"
+      ],
+      "answer": "くれた",
+      "acceptedAnswers": [
+        "くれた"
+      ],
+      "explanation": "母が (giver subject) $\to$ 来てくれた.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q024",
+      "lessonId": "n4.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「写真屋さんに家族写真を綺麗に撮って（　）。」",
+      "choices": [
+        "もらった",
+        "あげた",
+        "くれた",
+        "やった"
+      ],
+      "answer": "もらった",
+      "acceptedAnswers": [
+        "もらった"
+      ],
+      "explanation": "写真屋さんに (Agent に) $\to$ 撮ってもらった.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q025",
+      "lessonId": "n4.l33",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "ソンさんが日本に来て最初の頃、隣の老夫婦はどのような親切をしてくれましたか。",
+      "choices": [
+        "ゴミの分別方法を教えたり、風邪の時にお粥を作って届けてくれたりした",
+        "家賃を代わりに支払ってくれた",
+        "母国への飛行機のチケットを買ってくれた",
+        "庭の木をすべて切ってくれた"
+      ],
+      "answer": "ゴミの分別方法を教えたり、風邪の時にお粥を作って届けてくれたりした",
+      "acceptedAnswers": [
+        "ゴミの分別方法を教えたり、風邪の時にお粥を作って届けてくれたりした"
+      ],
+      "explanation": "Passage 2 states: ゴミの正しい分別方法を教えてくれたり、風邪で寝込んだ時には温かいおかゆを作って届けてくれたりしました。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q026",
+      "lessonId": "n4.l33",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "ソンさんはおじいさんにどのような恩返しをしましたか。",
+      "choices": [
+        "庭の植木の枝を運んだり落ち葉を掃いたりする手入れを手伝ってあげた",
+        "高級な和菓子をデパートで買ってプレゼントした",
+        "おじいさんに母国の料理を毎日ご馳走した",
+        "新しいアパートを探して引っ越しを手伝った"
+      ],
+      "answer": "庭の植木の枝を運んだり落ち葉を掃いたりする手入れを手伝ってあげた",
+      "acceptedAnswers": [
+        "庭の植木の枝を運んだり落ち葉を掃いたりする手入れを手伝ってあげた"
+      ],
+      "explanation": "Passage 3 explains: 重い枝を運んだり庭の落ち葉を掃いたりするのを手伝ってあげると、ご夫婦は大変喜んでくれました。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q027",
+      "lessonId": "n4.l33",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "ソンさんがこの経験を通して日本生活で深く学んだことは何ですか。",
+      "choices": [
+        "人と人とがお互いに助け合い、感謝を行動で返すことの尊さ",
+        "植木の剪定の専門的な技術",
+        "市役所の手続きを早く終わらせる方法",
+        "一人で何でも解決することの大切さ"
+      ],
+      "answer": "人と人とがお互いに助け合い、感謝を行動で返すことの尊さ",
+      "acceptedAnswers": [
+        "人と人とがお互いに助け合い、感謝を行動で返すことの尊さ"
+      ],
+      "explanation": "Passage 4 quotes Son: 人と人とがお互いに助け合い、感謝を行動で返すことの尊さを、日本での生活を通して深く学びました。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q028",
+      "lessonId": "n4.l33",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "パクさんが井上先輩に感謝している理由は何ですか。",
+      "choices": [
+        "昨日の引っ越しで車を出して荷物運びを手伝ってくれたから",
+        "韓国旅行のガイドをしてくれたから",
+        "洗濯機と冷蔵庫をタダでくれたから",
+        "引っ越し業者を紹介してくれたから"
+      ],
+      "answer": "昨日の引っ越しで車を出して荷物運びを手伝ってくれたから",
+      "acceptedAnswers": [
+        "昨日の引っ越しで車を出して荷物運びを手伝ってくれたから"
+      ],
+      "explanation": "Park says: 昨日は引っ越しを手伝ってくださって、本当にありがとうございました！ 先輩に車を出してもらったおかげで...",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q029",
+      "lessonId": "n4.l33",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "井上先輩が引っ越しを手伝ってくれた背景には、どんな過去の経験がありましたか。",
+      "choices": [
+        "自分が去年引っ越した時にも、サークルの後輩たちに手伝ってもらった経験があった",
+        "昔引っ越し業者でアルバイトをしていた経験があった",
+        "パクさんに以前お金を借りていた",
+        "トラックの運転免許を持っていた"
+      ],
+      "answer": "自分が去年引っ越した時にも、サークルの後輩たちに手伝ってもらった経験があった",
+      "acceptedAnswers": [
+        "自分が去年引っ越した時にも、サークルの後輩たちに手伝ってもらった経験があった"
+      ],
+      "explanation": "Inoue explains: 僕が去年引っ越した時も、サークルの後輩たちにたくさん手伝ってもらったからね。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l33.q030",
+      "lessonId": "n4.l33",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "パクさんは井上先輩へのお礼として今夜何をすることにしましたか。",
+      "choices": [
+        "美味しい手作りの韓国料理をご馳走すること",
+        "引っ越しのアルバイト代を支払うこと",
+        "車を洗車してあげること",
+        "韓国のお土産をプレゼントすること"
+      ],
+      "answer": "美味しい手作りの韓国料理をご馳走すること",
+      "acceptedAnswers": [
+        "美味しい手作りの韓国料理をご馳走すること"
+      ],
+      "explanation": "Park offers: お礼に今夜美味しい韓国料理をご馳走させてください！ 私が腕を振るって作ってあげます。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l33.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

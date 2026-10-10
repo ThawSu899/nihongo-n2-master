@@ -1,0 +1,1602 @@
+{
+  "id": "n5.l05",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 5,
+  "title": "Daily Routine & Motion Verbs (行きます・来ます)",
+  "description": "Master directional motion verbs (行きます・来ます・帰ります) with direction particle へ and transportation particle で to describe daily commutes, travel, and routines.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l05.v001",
+      "lessonId": "n5.l05",
+      "ja": "行きます",
+      "kana": "いきます",
+      "en": "To go",
+      "my": "သွားသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l05.s001",
+      "kanjiIds": [
+        "n5.l05.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.v002",
+      "lessonId": "n5.l05",
+      "ja": "来ます",
+      "kana": "きます",
+      "en": "To come",
+      "my": "လာသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l05.s005",
+      "kanjiIds": [
+        "n5.l05.k002"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.v003",
+      "lessonId": "n5.l05",
+      "ja": "帰ります",
+      "kana": "かえります",
+      "en": "To return home",
+      "my": "ပြန်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l05.s002",
+      "kanjiIds": [
+        "n5.l05.k003"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.v004",
+      "lessonId": "n5.l05",
+      "ja": "駅",
+      "kana": "えき",
+      "en": "Train station",
+      "my": "ဘူတာရုံ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l05.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.v005",
+      "lessonId": "n5.l05",
+      "ja": "家",
+      "kana": "うち",
+      "en": "Home / House",
+      "my": "အိမ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l05.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.v006",
+      "lessonId": "n5.l05",
+      "ja": "電車",
+      "kana": "でんしゃ",
+      "en": "Train",
+      "my": "ရထား",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l05.s001",
+      "kanjiIds": [
+        "n5.l05.k004"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.v007",
+      "lessonId": "n5.l05",
+      "ja": "地下鉄",
+      "kana": "ちかてつ",
+      "en": "Subway",
+      "my": "မြေအောက်ရထား",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l05.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.v008",
+      "lessonId": "n5.l05",
+      "ja": "バス",
+      "kana": "ばす",
+      "en": "Bus",
+      "my": "ဘတ်စ်ကား",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l05.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.v009",
+      "lessonId": "n5.l05",
+      "ja": "自転車",
+      "kana": "じてんしゃ",
+      "en": "Bicycle",
+      "my": "စက်ဘီး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l05.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.v010",
+      "lessonId": "n5.l05",
+      "ja": "歩いて",
+      "kana": "あるいて",
+      "en": "On foot / Walking",
+      "my": "ခြေလျင်ဖြင့်",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l05.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.v011",
+      "lessonId": "n5.l05",
+      "ja": "友達",
+      "kana": "ともだち",
+      "en": "Friend",
+      "my": "သူငယ်ချင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l05.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.v012",
+      "lessonId": "n5.l05",
+      "ja": "一人で",
+      "kana": "ひとりで",
+      "en": "Alone / By oneself",
+      "my": "တစ်ယောက်တည်း",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l05.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l05.k001",
+      "lessonId": "n5.l05",
+      "char": "行",
+      "meaning": "Go, conduct",
+      "onyomi": [
+        "コウ",
+        "ギョウ"
+      ],
+      "kunyomi": [
+        "い.く",
+        "ゆ.く",
+        "おこな.う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "行きます (いきます)",
+          "reading": "いきます",
+          "meaning": "To go",
+          "preview": false
+        },
+        {
+          "word": "銀行 (ぎんこう)",
+          "reading": "ぎんこう",
+          "meaning": "Bank",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l05.s001"
+      ],
+      "components": [
+        "行"
+      ],
+      "strokes": 6,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.k002",
+      "lessonId": "n5.l05",
+      "char": "来",
+      "meaning": "Come, next",
+      "onyomi": [
+        "ライ"
+      ],
+      "kunyomi": [
+        "く.る",
+        "きた.る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "来ます (きます)",
+          "reading": "きます",
+          "meaning": "To come",
+          "preview": false
+        },
+        {
+          "word": "来週 (らいしゅう)",
+          "reading": "らいしゅう",
+          "meaning": "Next week",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l05.s002"
+      ],
+      "components": [
+        "来"
+      ],
+      "strokes": 7,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.k003",
+      "lessonId": "n5.l05",
+      "char": "帰",
+      "meaning": "Return, go home",
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [
+        "かえ.る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "帰ります (かえります)",
+          "reading": "かえります",
+          "meaning": "To return home",
+          "preview": false
+        },
+        {
+          "word": "帰国 (きこく)",
+          "reading": "きこく",
+          "meaning": "Return to country",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l05.s003"
+      ],
+      "components": [
+        "帰"
+      ],
+      "strokes": 10,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.k004",
+      "lessonId": "n5.l05",
+      "char": "車",
+      "meaning": "Car, vehicle",
+      "onyomi": [
+        "シャ"
+      ],
+      "kunyomi": [
+        "くるま"
+      ],
+      "exampleVocab": [
+        {
+          "word": "電車 (でんしゃ)",
+          "reading": "でんしゃ",
+          "meaning": "Train",
+          "preview": false
+        },
+        {
+          "word": "車 (くるま)",
+          "reading": "くるま",
+          "meaning": "Car",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l05.s004"
+      ],
+      "components": [
+        "車"
+      ],
+      "strokes": 7,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l05.g001",
+      "lessonId": "n5.l05",
+      "pattern": "[Place] へ 行きます / 来ます / 帰ります",
+      "meaning": "Go / Come / Return to [Place]",
+      "formation": "Place + へ (pronounced \"e\") + 行きます/来ます/帰ります",
+      "explanation": {
+        "en": "The particle へ marks the directional destination of motion verbs. Pronounced \"e\", not \"he\".",
+        "my": "သွားရာ၊ လာရာ၊ ပြန်ရာ ဦးတည်ချက်နေရာကို 「へ」 (အသံထွက် \"အဲ\") ဖြင့် ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l05.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l05.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Writing particle へ as え is a common beginner error. Always write the hiragana letter へ."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.g002",
+      "lessonId": "n5.l05",
+      "pattern": "[Transport] で 行きます",
+      "meaning": "Go by [Means of Transportation]",
+      "formation": "Vehicle + で + Motion Verb",
+      "explanation": {
+        "en": "The particle で specifies the method or vehicle used for travel. Exception: 歩いて (on foot) does not take で.",
+        "my": "စီးနင်းသွားလာသော ယာဉ်နောက်တွင် 「で」 (ဖြင့်) လိုက်သည်။ 「歩いて」 (လမ်းလျှောက်) နောက်တွင် 「で」 မလိုက်ပါ။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l05.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l05.s005",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do NOT say *歩いてで行きます. Simply say 歩いて行きます."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l05.s001",
+      "lessonId": "n5.l05",
+      "ja": "毎朝、電車で学校へ行きます。",
+      "kana": "まいあさ、でんしゃでがっこうへいきます。",
+      "translation": {
+        "en": "Every morning, I go to school by train.",
+        "my": "မနက်တိုင်း ရထားနဲ့ ကျောင်းကို သွားပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l05.v001",
+        "n5.l05.v006"
+      ],
+      "grammarIds": [
+        "n5.l05.g001",
+        "n5.l05.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.s002",
+      "lessonId": "n5.l05",
+      "ja": "午後六時にうちへ帰ります。",
+      "kana": "ごごろくじにうちへかえります。",
+      "translation": {
+        "en": "I return home at 6:00 PM.",
+        "my": "ညနေ ၆ နာရီမှာ အိမ်ကို ပြန်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l05.v003",
+        "n5.l05.v005"
+      ],
+      "grammarIds": [
+        "n5.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.s003",
+      "lessonId": "n5.l05",
+      "ja": "駅から学校まで歩いて行きます。",
+      "kana": "えきからがっこうまであるいていきます。",
+      "translation": {
+        "en": "I walk on foot from the station to the school.",
+        "my": "ဘူတာကနေ ကျောင်းအထိ လမ်းလျှောက်သွားပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l05.v001",
+        "n5.l05.v004",
+        "n5.l05.v010"
+      ],
+      "grammarIds": [
+        "n5.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.s004",
+      "lessonId": "n5.l05",
+      "ja": "日曜日に友達と京都へ行きました。",
+      "kana": "にちようびにともだちときょうとへいきました。",
+      "translation": {
+        "en": "I went to Kyoto with a friend on Sunday.",
+        "my": "တနင်္ဂနွေနေ့မှာ သူငယ်ချင်းနဲ့ ကျိုတိုကို သွားခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l05.v001",
+        "n5.l05.v011"
+      ],
+      "grammarIds": [
+        "n5.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.s005",
+      "lessonId": "n5.l05",
+      "ja": "何で東京駅へ来ましたか。",
+      "kana": "なんでとうきょうえきへきましたか。",
+      "translation": {
+        "en": "By what means did you come to Tokyo Station?",
+        "my": "တိုကျိုဘူတာကို ဘာနဲ့ လာခဲ့သလဲ။"
+      },
+      "vocabIds": [
+        "n5.l05.v002",
+        "n5.l05.v004"
+      ],
+      "grammarIds": [
+        "n5.l05.g001",
+        "n5.l05.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.s006",
+      "lessonId": "n5.l05",
+      "ja": "昨日はどこへも行きませんでした。",
+      "kana": "きのうはどこへもいきませんでした。",
+      "translation": {
+        "en": "Yesterday, I did not go anywhere.",
+        "my": "မနေ့က ဘယ်ကိုမှ မသွားခဲ့ပါဘူး။"
+      },
+      "vocabIds": [
+        "n5.l05.v001"
+      ],
+      "grammarIds": [
+        "n5.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.s007",
+      "lessonId": "n5.l05",
+      "ja": "これは地下鉄です。",
+      "kana": "これはちかてつです。",
+      "translation": {
+        "en": "This is a subway.",
+        "my": "ဒါဟာ မြေအောက်ရထား ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l05.v007"
+      ],
+      "grammarIds": [
+        "n5.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.s008",
+      "lessonId": "n5.l05",
+      "ja": "これはバスです。",
+      "kana": "これはばすです。",
+      "translation": {
+        "en": "This is a bus.",
+        "my": "ဒါဟာ ဘတ်စ်ကား ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l05.v008"
+      ],
+      "grammarIds": [
+        "n5.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.s009",
+      "lessonId": "n5.l05",
+      "ja": "これは自転車です。",
+      "kana": "これはじてんしゃです。",
+      "translation": {
+        "en": "This is a bicycle.",
+        "my": "ဒါဟာ စက်ဘီး ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l05.v009"
+      ],
+      "grammarIds": [
+        "n5.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l05.s010",
+      "lessonId": "n5.l05",
+      "ja": "これは一人でです。",
+      "kana": "これはひとりでです。",
+      "translation": {
+        "en": "This is a alone / by oneself.",
+        "my": "ဒါဟာ တစ်ယောက်တည်း ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l05.v012"
+      ],
+      "grammarIds": [
+        "n5.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l05.r01",
+    "lessonId": "n5.l05",
+    "title": "Daily Routine & Motion Verbs (行きます・来ます) - 読解",
+    "level": "N5",
+    "text": "私は毎朝七時にうちを出ます。うちから駅まで自転車で行きます。駅から学校の最寄り駅まで地下鉄で二十分かかります。そこから学校まで歩いて行きます。学校は八時半に着きます。毎日友達のキムさんと一緒に通学します。",
+    "kanaText": "わたしはまいあさしちじにうちをでます。うちからえきまでじてんしゃでいきます。えきからがっこうのもよりえくまでちかてつでにじゅっぷんかかります。そこからがっこうまであるいていきます。がっこうははちはんにつきます。まいにちともだちのきむさんといっしょにつうがくします。",
+    "translation": "Every morning, I leave home at 7:00. I go from home to the station by bicycle. From the station to the nearest school station takes 20 minutes by subway. From there, I walk to school. I arrive at school at 8:30. I commute every day together with my friend Kim-san.",
+    "questionIds": [
+      "n5.l05.q021",
+      "n5.l05.q022",
+      "n5.l05.q023",
+      "n5.l05.q024",
+      "n5.l05.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l05.l01",
+    "lessonId": "n5.l05",
+    "title": "Daily Routine & Motion Verbs (行きます・来ます) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "ケン",
+      "ミラー"
+    ],
+    "transcript": "ケン：ミラーさん、今度の日曜日はどこへ行きますか。\nミラー：友達と新幹線で京都へ行きます。ケンさんは？\nケン：私はどこへも行きません。家で本を読みます。\nミラー：そうですか。京都のお土産を買ってきますね。",
+    "translation": "Two friends talk about where they are going over the upcoming weekend.",
+    "turns": [
+      {
+        "speaker": "ケン",
+        "ja": "ミラーさん、今度の日曜日はどこへ行きますか。",
+        "kana": "みらーさん、こんどのにちようびはどこへいきますか。",
+        "en": "Miller-san, where are you going this Sunday?"
+      },
+      {
+        "speaker": "ミラー",
+        "ja": "友達と新幹線で京都へ行きます。ケンさんは？",
+        "kana": "ともだちとしんかんせんできょうとへいきます。けんさんは？",
+        "en": "I am going to Kyoto by Shinkansen with a friend. What about you, Ken-san?"
+      },
+      {
+        "speaker": "ケン",
+        "ja": "私はどこへも行きません。家で本を読みます。",
+        "kana": "わたしはどこへもいきません。うちでほんをよみます。",
+        "en": "I am not going anywhere. I will read books at home."
+      },
+      {
+        "speaker": "ミラー",
+        "ja": "そうですか。京都のお土産を買ってきますね。",
+        "kana": "そうですか。きょうとのおみやげをかってきますね。",
+        "en": "I see. I will buy you a souvenir from Kyoto!"
+      }
+    ],
+    "questionIds": [
+      "n5.l05.q026",
+      "n5.l05.q027",
+      "n5.l05.q028",
+      "n5.l05.q029",
+      "n5.l05.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l05.q001",
+      "lessonId": "n5.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「行きます」の意味は何ですか。 (What does 「行きます」 mean?)",
+      "choices": [
+        "To go",
+        "To come",
+        "To return home",
+        "Train station"
+      ],
+      "answer": "To go",
+      "acceptedAnswers": [
+        "To go"
+      ],
+      "explanation": "「行きます」(いきます) means \"To go\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q002",
+      "lessonId": "n5.l05",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To come\" in hiragana:",
+      "answer": "きます",
+      "acceptedAnswers": [
+        "きます",
+        "来ます"
+      ],
+      "explanation": "The Japanese word for \"To come\" is 来ます (きます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q003",
+      "lessonId": "n5.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「帰ります」の意味は何ですか。 (What does 「帰ります」 mean?)",
+      "choices": [
+        "Train",
+        "Home / House",
+        "Train station",
+        "To return home"
+      ],
+      "answer": "To return home",
+      "acceptedAnswers": [
+        "To return home"
+      ],
+      "explanation": "「帰ります」(かえります) means \"To return home\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q004",
+      "lessonId": "n5.l05",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Train station\" in hiragana:",
+      "answer": "えき",
+      "acceptedAnswers": [
+        "えき",
+        "駅"
+      ],
+      "explanation": "The Japanese word for \"Train station\" is 駅 (えき).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q005",
+      "lessonId": "n5.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「家」の意味は何ですか。 (What does 「家」 mean?)",
+      "choices": [
+        "Bus",
+        "Subway",
+        "Train",
+        "Home / House"
+      ],
+      "answer": "Home / House",
+      "acceptedAnswers": [
+        "Home / House"
+      ],
+      "explanation": "「家」(うち) means \"Home / House\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q006",
+      "lessonId": "n5.l05",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Train\" in hiragana:",
+      "answer": "でんしゃ",
+      "acceptedAnswers": [
+        "でんしゃ",
+        "電車"
+      ],
+      "explanation": "The Japanese word for \"Train\" is 電車 (でんしゃ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q007",
+      "lessonId": "n5.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「地下鉄」の意味は何ですか。 (What does 「地下鉄」 mean?)",
+      "choices": [
+        "Subway",
+        "Bus",
+        "Bicycle",
+        "On foot / Walking"
+      ],
+      "answer": "Subway",
+      "acceptedAnswers": [
+        "Subway"
+      ],
+      "explanation": "「地下鉄」(ちかてつ) means \"Subway\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q008",
+      "lessonId": "n5.l05",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Bus\" in hiragana:",
+      "answer": "ばす",
+      "acceptedAnswers": [
+        "ばす",
+        "バス"
+      ],
+      "explanation": "The Japanese word for \"Bus\" is バス (ばす).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q009",
+      "lessonId": "n5.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「自転車」の意味は何ですか。 (What does 「自転車」 mean?)",
+      "choices": [
+        "Alone / By oneself",
+        "Friend",
+        "On foot / Walking",
+        "Bicycle"
+      ],
+      "answer": "Bicycle",
+      "acceptedAnswers": [
+        "Bicycle"
+      ],
+      "explanation": "「自転車」(じてんしゃ) means \"Bicycle\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q010",
+      "lessonId": "n5.l05",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"On foot / Walking\" in hiragana:",
+      "answer": "あるいて",
+      "acceptedAnswers": [
+        "あるいて",
+        "歩いて"
+      ],
+      "explanation": "The Japanese word for \"On foot / Walking\" is 歩いて (あるいて).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q011",
+      "lessonId": "n5.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「友達」の意味は何ですか。 (What does 「友達」 mean?)",
+      "choices": [
+        "To come",
+        "To go",
+        "Alone / By oneself",
+        "Friend"
+      ],
+      "answer": "Friend",
+      "acceptedAnswers": [
+        "Friend"
+      ],
+      "explanation": "「友達」(ともだち) means \"Friend\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q012",
+      "lessonId": "n5.l05",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Alone / By oneself\" in hiragana:",
+      "answer": "ひとりで",
+      "acceptedAnswers": [
+        "ひとりで",
+        "一人で"
+      ],
+      "explanation": "The Japanese word for \"Alone / By oneself\" is 一人で (ひとりで).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q013",
+      "lessonId": "n5.l05",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「行」の意味は何ですか。 (What is the meaning of kanji 「行」?)",
+      "choices": [
+        "Go, conduct",
+        "Come, next",
+        "Return, go home",
+        "Tree"
+      ],
+      "answer": "Go, conduct",
+      "acceptedAnswers": [
+        "Go, conduct"
+      ],
+      "explanation": "「行」means \"Go, conduct\". Onyomi: コウ, ギョウ, Kunyomi: い.く, ゆ.く, おこな.う.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q014",
+      "lessonId": "n5.l05",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「行」の読み方はどれですか。 (Which is a correct reading for 「行」?)",
+      "choices": [
+        "い.く",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "い.く",
+      "acceptedAnswers": [
+        "い.く"
+      ],
+      "explanation": "「行」 has the reading 「い.く」 (Go, conduct).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q015",
+      "lessonId": "n5.l05",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「来」の意味は何ですか。 (What is the meaning of kanji 「来」?)",
+      "choices": [
+        "Come, next",
+        "Go, conduct",
+        "Return, go home",
+        "Tree"
+      ],
+      "answer": "Come, next",
+      "acceptedAnswers": [
+        "Come, next"
+      ],
+      "explanation": "「来」means \"Come, next\". Onyomi: ライ, Kunyomi: く.る, きた.る.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q016",
+      "lessonId": "n5.l05",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「来」の読み方はどれですか。 (Which is a correct reading for 「来」?)",
+      "choices": [
+        "く.る",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "く.る",
+      "acceptedAnswers": [
+        "く.る"
+      ],
+      "explanation": "「来」 has the reading 「く.る」 (Come, next).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q017",
+      "lessonId": "n5.l05",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「帰」の意味は何ですか。 (What is the meaning of kanji 「帰」?)",
+      "choices": [
+        "Return, go home",
+        "Go, conduct",
+        "Come, next",
+        "Tree"
+      ],
+      "answer": "Return, go home",
+      "acceptedAnswers": [
+        "Return, go home"
+      ],
+      "explanation": "「帰」means \"Return, go home\". Onyomi: キ, Kunyomi: かえ.る.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q018",
+      "lessonId": "n5.l05",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「帰」の読み方はどれですか。 (Which is a correct reading for 「帰」?)",
+      "choices": [
+        "かえ.る",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "かえ.る",
+      "acceptedAnswers": [
+        "かえ.る"
+      ],
+      "explanation": "「帰」 has the reading 「かえ.る」 (Return, go home).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q019",
+      "lessonId": "n5.l05",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「車」の意味は何ですか。 (What is the meaning of kanji 「車」?)",
+      "choices": [
+        "Car, vehicle",
+        "Go, conduct",
+        "Come, next",
+        "Tree"
+      ],
+      "answer": "Car, vehicle",
+      "acceptedAnswers": [
+        "Car, vehicle"
+      ],
+      "explanation": "「車」means \"Car, vehicle\". Onyomi: シャ, Kunyomi: くるま.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q020",
+      "lessonId": "n5.l05",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「車」の読み方はどれですか。 (Which is a correct reading for 「車」?)",
+      "choices": [
+        "くるま",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "くるま",
+      "acceptedAnswers": [
+        "くるま"
+      ],
+      "explanation": "「車」 has the reading 「くるま」 (Car, vehicle).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q021",
+      "lessonId": "n5.l05",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "うちから駅まで何で行きますか。 (How does this person go from home to the station?)",
+      "choices": [
+        "自転車",
+        "バス",
+        "電車",
+        "歩いて"
+      ],
+      "answer": "自転車",
+      "acceptedAnswers": [
+        "自転車"
+      ],
+      "explanation": "The text states: 「うちから駅まで自転車で行きます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q022",
+      "lessonId": "n5.l05",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "駅から最寄り駅まで何分かかりますか。 (How many minutes does the subway ride take?)",
+      "choices": [
+        "二十分",
+        "十分",
+        "三十分",
+        "十五分"
+      ],
+      "answer": "二十分",
+      "acceptedAnswers": [
+        "二十分"
+      ],
+      "explanation": "「地下鉄で二十分かかります」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q023",
+      "lessonId": "n5.l05",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "学校には何時に着きますか。 (What time does the student arrive at school?)",
+      "choices": [
+        "八時半",
+        "七時",
+        "八時",
+        "九時"
+      ],
+      "answer": "八時半",
+      "acceptedAnswers": [
+        "八時半"
+      ],
+      "explanation": "「学校は八時半に着きます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q024",
+      "lessonId": "n5.l05",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "誰と一緒に通学しますか。 (With whom does this student commute?)",
+      "choices": [
+        "友達のキムさん",
+        "一人で",
+        "家族と",
+        "先生と"
+      ],
+      "answer": "友達のキムさん",
+      "acceptedAnswers": [
+        "友達のキムさん"
+      ],
+      "explanation": "「毎日友達のキムさんと一緒に通学します」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q025",
+      "lessonId": "n5.l05",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "最寄り駅から学校まではどのように移動しますか。 (How do they travel from the nearest station to school?)",
+      "choices": [
+        "歩いて行く",
+        "タクシーで行く",
+        "バスで行く",
+        "自転車で行く"
+      ],
+      "answer": "歩いて行く",
+      "acceptedAnswers": [
+        "歩いて行く"
+      ],
+      "explanation": "「そこから学校まで歩いて行きます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q026",
+      "lessonId": "n5.l05",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ミラーさんは日曜日にどこへ行きますか。 (Where is Miller-san going on Sunday?)",
+      "choices": [
+        "京都",
+        "東京駅",
+        "どこへも行かない",
+        "大阪"
+      ],
+      "answer": "京都",
+      "acceptedAnswers": [
+        "京都"
+      ],
+      "explanation": "Miller-san says: 「友達と新幹線で京都へ行きます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q027",
+      "lessonId": "n5.l05",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ミラーさんは何で京都へ行きますか。 (By what transport is Miller-san going?)",
+      "choices": [
+        "新幹線",
+        "夜行バス",
+        "飛行機",
+        "車"
+      ],
+      "answer": "新幹線",
+      "acceptedAnswers": [
+        "新幹線"
+      ],
+      "explanation": "Miller-san specifies 「新幹線で」 (by bullet train).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q028",
+      "lessonId": "n5.l05",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ケンさんは日曜日に何をしますか。 (What will Ken-san do on Sunday?)",
+      "choices": [
+        "家で本を読む",
+        "京都へ旅行する",
+        "友達と映画を見る",
+        "学校で勉強する"
+      ],
+      "answer": "家で本を読む",
+      "acceptedAnswers": [
+        "家で本を読む"
+      ],
+      "explanation": "Ken-san says: 「私はどこへも行きません。家で本を読みます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q029",
+      "lessonId": "n5.l05",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ミラーさんはケンさんに何と言いましたか。 (What did Miller-san promise Ken-san?)",
+      "choices": [
+        "京都のお土産を買ってくる",
+        "一緒に京都へ行こう",
+        "写真を送る",
+        "電話をする"
+      ],
+      "answer": "京都のお土産を買ってくる",
+      "acceptedAnswers": [
+        "京都のお土産を買ってくる"
+      ],
+      "explanation": "「京都のお土産を買ってきますね」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l05.q030",
+      "lessonId": "n5.l05",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ミラーさんは誰と行きますか。 (With whom is Miller-san traveling?)",
+      "choices": [
+        "友達と",
+        "一人で",
+        "ケンさんと",
+        "家族と"
+      ],
+      "answer": "友達と",
+      "acceptedAnswers": [
+        "友達と"
+      ],
+      "explanation": "Miller-san says: 「友達と新幹線で京都へ行きます」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l05.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

@@ -1,0 +1,1675 @@
+{
+  "id": "n5.l15",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 15,
+  "title": "The Te-form: Requests and Continuous (てください・ています)",
+  "description": "Construct the vital Japanese Te-form across Group 1, Group 2, and Group 3 verbs. Make polite requests with [V-te] ください and express ongoing actions with [V-te] います.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l15.v001",
+      "lessonId": "n5.l15",
+      "ja": "立ちます",
+      "kana": "たちます",
+      "en": "To stand up",
+      "my": "မတ်တပ်ရပ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l15.s007",
+      "kanjiIds": [
+        "n5.l15.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.v002",
+      "lessonId": "n5.l15",
+      "ja": "座ります",
+      "kana": "すわります",
+      "en": "To sit down",
+      "my": "ထိုင်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l15.s011",
+      "kanjiIds": [
+        "n5.l15.k002"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.v003",
+      "lessonId": "n5.l15",
+      "ja": "使います",
+      "kana": "つかいます",
+      "en": "To use",
+      "my": "အသုံးပြုသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l15.s012",
+      "kanjiIds": [
+        "n5.l15.k003"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.v004",
+      "lessonId": "n5.l15",
+      "ja": "急ぎます",
+      "kana": "いそぎます",
+      "en": "To hurry",
+      "my": "အလျင်လိုသည် / အမြန်လုပ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l15.s006",
+      "kanjiIds": [
+        "n5.l15.k004"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.v005",
+      "lessonId": "n5.l15",
+      "ja": "開けます",
+      "kana": "あけます",
+      "en": "To open (door/window)",
+      "my": "ဖွင့်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l15.s008",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.v006",
+      "lessonId": "n5.l15",
+      "ja": "閉めます",
+      "kana": "しめます",
+      "en": "To close / shut",
+      "my": "ပိတ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l15.s013",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.v007",
+      "lessonId": "n5.l15",
+      "ja": "つけます",
+      "kana": "つけます",
+      "en": "To turn on (lights/AC)",
+      "my": "မီးဖွင့်သည် / စက်ဖွင့်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l15.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.v008",
+      "lessonId": "n5.l15",
+      "ja": "消します",
+      "kana": "けします",
+      "en": "To turn off / extinguish",
+      "my": "မီးပိတ်သည် / ဖျက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l15.s009",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.v009",
+      "lessonId": "n5.l15",
+      "ja": "手伝います",
+      "kana": "てつだいます",
+      "en": "To help / assist",
+      "my": "ကူညီသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l15.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.v010",
+      "lessonId": "n5.l15",
+      "ja": "呼びます",
+      "kana": "よびます",
+      "en": "To call (taxi/person)",
+      "my": "ခေါ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l15.s010",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.v011",
+      "lessonId": "n5.l15",
+      "ja": "エアコン",
+      "kana": "えあこん",
+      "en": "Air conditioner",
+      "my": "အဲကွန်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l15.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.v012",
+      "lessonId": "n5.l15",
+      "ja": "ちょっと",
+      "kana": "ちょっと",
+      "en": "A little bit / Just a moment",
+      "my": "ခဏလောက် / နည်းနည်း",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l15.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l15.k001",
+      "lessonId": "n5.l15",
+      "char": "立",
+      "meaning": "Stand, rise",
+      "onyomi": [
+        "リツ"
+      ],
+      "kunyomi": [
+        "た.つ",
+        "た.てる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "立ちます (たちます)",
+          "reading": "たちます",
+          "meaning": "To stand",
+          "preview": false
+        },
+        {
+          "word": "国立 (こくりつ)",
+          "reading": "こくりつ",
+          "meaning": "National",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l15.s001"
+      ],
+      "components": [
+        "立"
+      ],
+      "strokes": 5,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.k002",
+      "lessonId": "n5.l15",
+      "char": "座",
+      "meaning": "Sit, seat",
+      "onyomi": [
+        "ザ"
+      ],
+      "kunyomi": [
+        "すわ.る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "座ります (すわります)",
+          "reading": "すわります",
+          "meaning": "To sit",
+          "preview": false
+        },
+        {
+          "word": "座席 (ざせき)",
+          "reading": "ざせき",
+          "meaning": "Seat",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l15.s002"
+      ],
+      "components": [
+        "座"
+      ],
+      "strokes": 10,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.k003",
+      "lessonId": "n5.l15",
+      "char": "使",
+      "meaning": "Use, envoy",
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "つか.う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "使います (つかいます)",
+          "reading": "つかいます",
+          "meaning": "To use",
+          "preview": false
+        },
+        {
+          "word": "使い方 (つかいかた)",
+          "reading": "つかいかた",
+          "meaning": "How to use",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l15.s003"
+      ],
+      "components": [
+        "使"
+      ],
+      "strokes": 8,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.k004",
+      "lessonId": "n5.l15",
+      "char": "急",
+      "meaning": "Hurry, urgent, steep",
+      "onyomi": [
+        "キュウ"
+      ],
+      "kunyomi": [
+        "いそ.ぐ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "急ぎます (いそぎます)",
+          "reading": "いそぎます",
+          "meaning": "To hurry",
+          "preview": false
+        },
+        {
+          "word": "急行 (きゅうこう)",
+          "reading": "きゅうこう",
+          "meaning": "Express train",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l15.s004"
+      ],
+      "components": [
+        "急"
+      ],
+      "strokes": 9,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l15.g001",
+      "lessonId": "n5.l15",
+      "pattern": "[Verb-te] ください",
+      "meaning": "Please [Verb]",
+      "formation": "Verb (て-form) + ください",
+      "explanation": {
+        "en": "Used to politely request someone to perform an action: ちょっと待ってください (Please wait a moment); 名前を書いてください (Please write your name).",
+        "my": "ယဉ်ကျေးစွာ မေတ္တာရပ်ခံတောင်းဆိုရာတွင် 「ကြိယာ て-form + ください」 (ကျေးဇူးပြု၍... ပါ) ဟု သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l15.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l15.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do NOT attach ください to the dictionary form or ます-stem (*待つください is ungrammatical; must be 待ってください)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.g002",
+      "lessonId": "n5.l15",
+      "pattern": "[Verb-te] います",
+      "meaning": "Is [Verbing] (Current Continuous Action)",
+      "formation": "Verb (て-form) + います",
+      "explanation": {
+        "en": "Indicates an ongoing action in progress at the current moment: 今日本語を勉強しています (I am studying Japanese right now).",
+        "my": "လက်ရှိဖြစ်ပျက်နေဆဲ လုပ်ဆောင်ချက်ကို 「ကြိယာ て-form + います」 (...နေသည်) ဖြင့် ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l15.s003",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l15.s004",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse with present habitual: 勉強します (I study) vs 勉強しています (I am currently studying)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l15.s001",
+      "lessonId": "n5.l15",
+      "ja": "すみませんが、ちょっと手伝ってください。",
+      "kana": "すみませんが、ちょっとてつだってください。",
+      "translation": {
+        "en": "Excuse me, but please help me for a moment.",
+        "my": "အားနာပေမဲ့ ခဏလောက် ကူညီပေးပါခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n5.l15.v009",
+        "n5.l15.v012"
+      ],
+      "grammarIds": [
+        "n5.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.s002",
+      "lessonId": "n5.l15",
+      "ja": "部屋が暑いですから、エアコンをつけてください。",
+      "kana": "へやがあついですから、えあこんをつけてください。",
+      "translation": {
+        "en": "Because the room is hot, please turn on the air conditioner.",
+        "my": "အခန်းပူနေတဲ့အတွက် အဲကွန်း ဖွင့်ပေးပါ။"
+      },
+      "vocabIds": [
+        "n5.l15.v007",
+        "n5.l15.v011"
+      ],
+      "grammarIds": [
+        "n5.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.s003",
+      "lessonId": "n5.l15",
+      "ja": "田中さんは今、電話で話しています。",
+      "kana": "たなかさんはいま、でんわではなしています。",
+      "translation": {
+        "en": "Tanaka-san is talking on the phone right now.",
+        "my": "တာနာကာစန်းက အခု ဖုန်းပြောနေပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l15.v003"
+      ],
+      "grammarIds": [
+        "n5.l15.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.s004",
+      "lessonId": "n5.l15",
+      "ja": "雨が降っていますから、傘を持って行ってください。",
+      "kana": "あめがふっていますから、かさをもってあっていってください。",
+      "translation": {
+        "en": "Because it is raining, please take an umbrella with you.",
+        "my": "မိုးရွာနေတဲ့အတွက် ထီးယူသွားပါ။"
+      },
+      "vocabIds": [
+        "n5.l15.v006"
+      ],
+      "grammarIds": [
+        "n5.l15.g001",
+        "n5.l15.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.s005",
+      "lessonId": "n5.l15",
+      "ja": "ここに名前と住所を書いてください。",
+      "kana": "ここになまえとじゅうしょをかいてください。",
+      "translation": {
+        "en": "Please write your name and address here.",
+        "my": "ဒီမှာ နာမည်နဲ့ လိပ်စာကို ရေးပေးပါ။"
+      },
+      "vocabIds": [
+        "n5.l15.v002"
+      ],
+      "grammarIds": [
+        "n5.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.s006",
+      "lessonId": "n5.l15",
+      "ja": "時間がありませんから、急いでください。",
+      "kana": "じかんがありませんから、いそいでください。",
+      "translation": {
+        "en": "Because there is no time, please hurry!",
+        "my": "အချိန်မရှိတော့တဲ့အတွက် မြန်မြန်လုပ်ပေးပါ။"
+      },
+      "vocabIds": [
+        "n5.l15.v004"
+      ],
+      "grammarIds": [
+        "n5.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.s007",
+      "lessonId": "n5.l15",
+      "ja": "危ないですから、電車の中で立たないでください。",
+      "kana": "あぶないですから、でんしゃのなかでたたないでください。",
+      "translation": {
+        "en": "Because it is dangerous, please do not stand up in the train.",
+        "my": "အန္တရာယ်ရှိတဲ့အတွက် ရထားထဲမှာ မတ်တပ်မရပ်ပါနဲ့။"
+      },
+      "vocabIds": [
+        "n5.l15.v001"
+      ],
+      "grammarIds": [
+        "n5.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.s008",
+      "lessonId": "n5.l15",
+      "ja": "部屋が少し暑いですから、窓を開けてください。",
+      "kana": "へやがすこしあついですから、まどをあけてください。",
+      "translation": {
+        "en": "Because the room is a little hot, please open the window.",
+        "my": "အခန်း နည်းနည်း ပူနေတဲ့အတွက် ပြတင်းပေါက် ဖွင့်ပေးပါ။"
+      },
+      "vocabIds": [
+        "n5.l15.v005"
+      ],
+      "grammarIds": [
+        "n5.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.s009",
+      "lessonId": "n5.l15",
+      "ja": "部屋を出るときは、電気を消してください。",
+      "kana": "へやをでるときは、でんきをけしてください。",
+      "translation": {
+        "en": "When leaving the room, please turn off the lights.",
+        "my": "အခန်းထဲက ထွက်တဲ့အခါ မီးပိတ်ပေးပါ။"
+      },
+      "vocabIds": [
+        "n5.l15.v008"
+      ],
+      "grammarIds": [
+        "n5.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.s010",
+      "lessonId": "n5.l15",
+      "ja": "荷物が多いですから、タクシーを呼んでください。",
+      "kana": "にもつがおおいですから、たくしーをよんでください。",
+      "translation": {
+        "en": "Because there is a lot of luggage, please call a taxi.",
+        "my": "ပစ္စည်းတွေ များနေတဲ့အတွက် တက္ကစီ ခေါ်ပေးပါ။"
+      },
+      "vocabIds": [
+        "n5.l15.v010"
+      ],
+      "grammarIds": [
+        "n5.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.s011",
+      "lessonId": "n5.l15",
+      "ja": "どうぞ、あそこの椅子に座ってください。",
+      "kana": "どうぞ、あそこのいすにすわってください。",
+      "translation": {
+        "en": "Please sit down on that chair over there.",
+        "my": "ဟိုဘက်က ကုလားထိုင်မှာ ထိုင်ပေးပါ။"
+      },
+      "vocabIds": [
+        "n5.l15.v002"
+      ],
+      "grammarIds": [
+        "n5.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.s012",
+      "lessonId": "n5.l15",
+      "ja": "どうぞ、私のペンを使ってください。",
+      "kana": "どうぞ、わたしのぺんをつかってください。",
+      "translation": {
+        "en": "Please use my pen.",
+        "my": "ကျွန်တော့်ဘောပင်ကို သုံးပေးပါ။"
+      },
+      "vocabIds": [
+        "n5.l15.v003"
+      ],
+      "grammarIds": [
+        "n5.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l15.s013",
+      "lessonId": "n5.l15",
+      "ja": "外が寒いですから、ドアを閉めてください。",
+      "kana": "そとがさむいですから、どあをしめてください。",
+      "translation": {
+        "en": "Because it is cold outside, please close the door.",
+        "my": "အပြင်မှာ အေးနေတဲ့အတွက် တံခါး ပိတ်ပေးပါ။"
+      },
+      "vocabIds": [
+        "n5.l15.v006"
+      ],
+      "grammarIds": [
+        "n5.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l15.r01",
+    "lessonId": "n5.l15",
+    "title": "The Te-form: Requests and Continuous (てください・ています) - 読解",
+    "level": "N5",
+    "text": "外は強い雨が降っています。風も吹いています。先生が教室に入ってきました。「皆さん、窓を閉めてください。雨が入っていますよ。」と先生が言いました。学生のワンさんが窓を閉めました。それから先生は「電気が暗いですから、電気をつけてください」と言いました。教室が明るくなって、みんなで日本語の授業を始めました。",
+    "kanaText": "そとはつよいあめがふっています。かぜもふいています。せんせいがきょうしつにはいってきました。「みなさん、まどをしめてください。あめがはいっていますよ。」とせんせいがいいました。がくせいのわんさんがまどをしめました。それからせんせいは「でんきがくらいですから、でんきをつけてください」といいました。きょうしつがあかるくなって、みんなでにほんごのじゅぎょうを风はじめました。",
+    "translation": "Heavy rain is falling outside. The wind is also blowing. The teacher entered the classroom. \"Everyone, please close the windows. Rain is coming in,\" said the teacher. The student Wang closed the window. After that, the teacher said, \"Because the lights are dim, please turn on the lights.\" The classroom became bright, and everyone started the Japanese lesson together.",
+    "questionIds": [
+      "n5.l15.q021",
+      "n5.l15.q022",
+      "n5.l15.q023",
+      "n5.l15.q024",
+      "n5.l15.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l15.l01",
+    "lessonId": "n5.l15",
+    "title": "The Te-form: Requests and Continuous (てください・ています) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "ケン",
+      "アン"
+    ],
+    "transcript": "ケン：アンさん、この荷物は重いですね。ちょっと手伝ってください。\nアン：はい、いいですよ。どこへ運びましょうか。\nケン：あそこの机の上に置いてください。それから、ドアを開けておいてください。\nアン：分かりました。よいしょ...置きましたよ。ドアも開けました！",
+    "translation": "Two friends carry heavy boxes while moving furniture.",
+    "turns": [
+      {
+        "speaker": "ケン",
+        "ja": "アンさん、この荷物は重いですね。ちょっと手伝ってください。",
+        "kana": "あんさん、このにもつはおもいですね。ちょっとてつだってください。",
+        "en": "Ann-san, this package is heavy. Please help me for a moment!"
+      },
+      {
+        "speaker": "アン",
+        "ja": "はい、いいですよ。どこへ運びましょうか。",
+        "kana": "はい、いいですよ。どこへはこびましょうか。",
+        "en": "Yes, sure! Where shall we carry it?"
+      },
+      {
+        "speaker": "ケン",
+        "ja": "あそこの机の上に置いてください。それから、ドアを開けておいてください。",
+        "kana": "あそこのつくえのうえにおいてください。それから、どあをあけておいてください。",
+        "en": "Please put it on top of that desk over there. And then, please leave the door open."
+      },
+      {
+        "speaker": "アン",
+        "ja": "分かりました。よいしょ...置きましたよ。ドアも開けました！",
+        "kana": "わかりました。よいしょ...おきましたよ。どあもあけました！",
+        "en": "Understood. Heave-ho... I placed it! I also opened the door."
+      }
+    ],
+    "questionIds": [
+      "n5.l15.q026",
+      "n5.l15.q027",
+      "n5.l15.q028",
+      "n5.l15.q029",
+      "n5.l15.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l15.q001",
+      "lessonId": "n5.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「立ちます」の意味は何ですか。 (What does 「立ちます」 mean?)",
+      "choices": [
+        "To stand up",
+        "To sit down",
+        "To use",
+        "To hurry"
+      ],
+      "answer": "To stand up",
+      "acceptedAnswers": [
+        "To stand up"
+      ],
+      "explanation": "「立ちます」(たちます) means \"To stand up\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q002",
+      "lessonId": "n5.l15",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To sit down\" in hiragana:",
+      "answer": "すわります",
+      "acceptedAnswers": [
+        "すわります",
+        "座ります"
+      ],
+      "explanation": "The Japanese word for \"To sit down\" is 座ります (すわります).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q003",
+      "lessonId": "n5.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「使います」の意味は何ですか。 (What does 「使います」 mean?)",
+      "choices": [
+        "To close / shut",
+        "To open (door/window)",
+        "To hurry",
+        "To use"
+      ],
+      "answer": "To use",
+      "acceptedAnswers": [
+        "To use"
+      ],
+      "explanation": "「使います」(つかいます) means \"To use\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q004",
+      "lessonId": "n5.l15",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To hurry\" in hiragana:",
+      "answer": "いそぎます",
+      "acceptedAnswers": [
+        "いそぎます",
+        "急ぎます"
+      ],
+      "explanation": "The Japanese word for \"To hurry\" is 急ぎます (いそぎます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q005",
+      "lessonId": "n5.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「開けます」の意味は何ですか。 (What does 「開けます」 mean?)",
+      "choices": [
+        "To turn off / extinguish",
+        "To turn on (lights/AC)",
+        "To close / shut",
+        "To open (door/window)"
+      ],
+      "answer": "To open (door/window)",
+      "acceptedAnswers": [
+        "To open (door/window)"
+      ],
+      "explanation": "「開けます」(あけます) means \"To open (door/window)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q006",
+      "lessonId": "n5.l15",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To close / shut\" in hiragana:",
+      "answer": "しめます",
+      "acceptedAnswers": [
+        "しめます",
+        "閉めます"
+      ],
+      "explanation": "The Japanese word for \"To close / shut\" is 閉めます (しめます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q007",
+      "lessonId": "n5.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「つけます」の意味は何ですか。 (What does 「つけます」 mean?)",
+      "choices": [
+        "To turn on (lights/AC)",
+        "To turn off / extinguish",
+        "To help / assist",
+        "To call (taxi/person)"
+      ],
+      "answer": "To turn on (lights/AC)",
+      "acceptedAnswers": [
+        "To turn on (lights/AC)"
+      ],
+      "explanation": "「つけます」(つけます) means \"To turn on (lights/AC)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q008",
+      "lessonId": "n5.l15",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To turn off / extinguish\" in hiragana:",
+      "answer": "けします",
+      "acceptedAnswers": [
+        "けします",
+        "消します"
+      ],
+      "explanation": "The Japanese word for \"To turn off / extinguish\" is 消します (けします).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q009",
+      "lessonId": "n5.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「手伝います」の意味は何ですか。 (What does 「手伝います」 mean?)",
+      "choices": [
+        "A little bit / Just a moment",
+        "Air conditioner",
+        "To call (taxi/person)",
+        "To help / assist"
+      ],
+      "answer": "To help / assist",
+      "acceptedAnswers": [
+        "To help / assist"
+      ],
+      "explanation": "「手伝います」(てつだいます) means \"To help / assist\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q010",
+      "lessonId": "n5.l15",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To call (taxi/person)\" in hiragana:",
+      "answer": "よびます",
+      "acceptedAnswers": [
+        "よびます",
+        "呼びます"
+      ],
+      "explanation": "The Japanese word for \"To call (taxi/person)\" is 呼びます (よびます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q011",
+      "lessonId": "n5.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「エアコン」の意味は何ですか。 (What does 「エアコン」 mean?)",
+      "choices": [
+        "To sit down",
+        "To stand up",
+        "A little bit / Just a moment",
+        "Air conditioner"
+      ],
+      "answer": "Air conditioner",
+      "acceptedAnswers": [
+        "Air conditioner"
+      ],
+      "explanation": "「エアコン」(えあこん) means \"Air conditioner\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q012",
+      "lessonId": "n5.l15",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"A little bit / Just a moment\" in hiragana:",
+      "answer": "ちょっと",
+      "acceptedAnswers": [
+        "ちょっと",
+        "ちょっと"
+      ],
+      "explanation": "The Japanese word for \"A little bit / Just a moment\" is ちょっと (ちょっと).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q013",
+      "lessonId": "n5.l15",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「立」の意味は何ですか。 (What is the meaning of kanji 「立」?)",
+      "choices": [
+        "Stand, rise",
+        "Sit, seat",
+        "Use, envoy",
+        "Tree"
+      ],
+      "answer": "Stand, rise",
+      "acceptedAnswers": [
+        "Stand, rise"
+      ],
+      "explanation": "「立」means \"Stand, rise\". Onyomi: リツ, Kunyomi: た.つ, た.てる.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q014",
+      "lessonId": "n5.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「立」の読み方はどれですか。 (Which is a correct reading for 「立」?)",
+      "choices": [
+        "た.つ",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "た.つ",
+      "acceptedAnswers": [
+        "た.つ"
+      ],
+      "explanation": "「立」 has the reading 「た.つ」 (Stand, rise).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q015",
+      "lessonId": "n5.l15",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「座」の意味は何ですか。 (What is the meaning of kanji 「座」?)",
+      "choices": [
+        "Sit, seat",
+        "Stand, rise",
+        "Use, envoy",
+        "Tree"
+      ],
+      "answer": "Sit, seat",
+      "acceptedAnswers": [
+        "Sit, seat"
+      ],
+      "explanation": "「座」means \"Sit, seat\". Onyomi: ザ, Kunyomi: すわ.る.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q016",
+      "lessonId": "n5.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「座」の読み方はどれですか。 (Which is a correct reading for 「座」?)",
+      "choices": [
+        "すわ.る",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "すわ.る",
+      "acceptedAnswers": [
+        "すわ.る"
+      ],
+      "explanation": "「座」 has the reading 「すわ.る」 (Sit, seat).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q017",
+      "lessonId": "n5.l15",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「使」の意味は何ですか。 (What is the meaning of kanji 「使」?)",
+      "choices": [
+        "Use, envoy",
+        "Stand, rise",
+        "Sit, seat",
+        "Tree"
+      ],
+      "answer": "Use, envoy",
+      "acceptedAnswers": [
+        "Use, envoy"
+      ],
+      "explanation": "「使」means \"Use, envoy\". Onyomi: シ, Kunyomi: つか.う.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q018",
+      "lessonId": "n5.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「使」の読み方はどれですか。 (Which is a correct reading for 「使」?)",
+      "choices": [
+        "つか.う",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "つか.う",
+      "acceptedAnswers": [
+        "つか.う"
+      ],
+      "explanation": "「使」 has the reading 「つか.う」 (Use, envoy).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q019",
+      "lessonId": "n5.l15",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「急」の意味は何ですか。 (What is the meaning of kanji 「急」?)",
+      "choices": [
+        "Hurry, urgent, steep",
+        "Stand, rise",
+        "Sit, seat",
+        "Tree"
+      ],
+      "answer": "Hurry, urgent, steep",
+      "acceptedAnswers": [
+        "Hurry, urgent, steep"
+      ],
+      "explanation": "「急」means \"Hurry, urgent, steep\". Onyomi: キュウ, Kunyomi: いそ.ぐ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q020",
+      "lessonId": "n5.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「急」の読み方はどれですか。 (Which is a correct reading for 「急」?)",
+      "choices": [
+        "いそ.ぐ",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "いそ.ぐ",
+      "acceptedAnswers": [
+        "いそ.ぐ"
+      ],
+      "explanation": "「急」 has the reading 「いそ.ぐ」 (Hurry, urgent, steep).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q021",
+      "lessonId": "n5.l15",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "外の天気はどうでしたか。 (How was the weather outside?)",
+      "choices": [
+        "強い雨と風が吹いている",
+        "晴れて暖かい",
+        "雪が降っている",
+        "穏やかな曇り"
+      ],
+      "answer": "強い雨と風が吹いている",
+      "acceptedAnswers": [
+        "強い雨と風が吹いている"
+      ],
+      "explanation": "「外は強い雨が降っています。風も吹いています」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q022",
+      "lessonId": "n5.l15",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "先生は最初に何をお願いしましたか。 (What did the teacher first ask everyone to do?)",
+      "choices": [
+        "窓を閉めること",
+        "電気をつけること",
+        "教科書を開くこと",
+        "宿題を出すこと"
+      ],
+      "answer": "窓を閉めること",
+      "acceptedAnswers": [
+        "窓を閉めること"
+      ],
+      "explanation": "「皆さん、窓を閉めてください」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q023",
+      "lessonId": "n5.l15",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "誰が窓を閉めましたか。 (Who closed the window?)",
+      "choices": [
+        "学生のワンさん",
+        "先生",
+        "田中さん",
+        "誰も閉めなかった"
+      ],
+      "answer": "学生のワンさん",
+      "acceptedAnswers": [
+        "学生のワンさん"
+      ],
+      "explanation": "「学生のワンさんが窓を閉めました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q024",
+      "lessonId": "n5.l15",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "どうして電気をつけましたか。 (Why did they turn on the lights?)",
+      "choices": [
+        "部屋が暗かったから",
+        "夜になったから",
+        "暑かったから",
+        "先生が好きだから"
+      ],
+      "answer": "部屋が暗かったから",
+      "acceptedAnswers": [
+        "部屋が暗かったから"
+      ],
+      "explanation": "「電気が暗いですから、電気をつけてください」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q025",
+      "lessonId": "n5.l15",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "その後、みんなで何を始めましたか。 (What did everyone start after that?)",
+      "choices": [
+        "日本語の授業",
+        "テスト",
+        "お昼ご飯",
+        "掃除"
+      ],
+      "answer": "日本語の授業",
+      "acceptedAnswers": [
+        "日本語の授業"
+      ],
+      "explanation": "「みんなで日本語の授業を始めました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q026",
+      "lessonId": "n5.l15",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ケンさんはアンさんに何を頼みましたか。 (What did Ken ask Ann to do?)",
+      "choices": [
+        "荷物運びの手伝い",
+        "掃除",
+        "買い出し",
+        "料理"
+      ],
+      "answer": "荷物運びの手伝い",
+      "acceptedAnswers": [
+        "荷物運びの手伝い"
+      ],
+      "explanation": "Ken requests: 「この荷物は重いですね。ちょっと手伝ってください」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q027",
+      "lessonId": "n5.l15",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "荷物はどこに置きましたか。 (Where was the luggage placed?)",
+      "choices": [
+        "机の上",
+        "床の上",
+        "棚の中",
+        "外の車"
+      ],
+      "answer": "机の上",
+      "acceptedAnswers": [
+        "机の上"
+      ],
+      "explanation": "「あそこの机の上に置いてください」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q028",
+      "lessonId": "n5.l15",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "荷物を置いた後、アンさんは何を開けましたか。 (What did Ann open after placing the box?)",
+      "choices": [
+        "ドア",
+        "窓",
+        "箱",
+        "カーテン"
+      ],
+      "answer": "ドア",
+      "acceptedAnswers": [
+        "ドア"
+      ],
+      "explanation": "「ドアも開けました！」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q029",
+      "lessonId": "n5.l15",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "荷物はどんな重さでしたか。 (How heavy was the luggage?)",
+      "choices": [
+        "重かった",
+        "軽かった",
+        "普通だった",
+        "空っぽだった"
+      ],
+      "answer": "重かった",
+      "acceptedAnswers": [
+        "重かった"
+      ],
+      "explanation": "Ken notes: 「この荷物は重いですね」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l15.q030",
+      "lessonId": "n5.l15",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "アンさんの返事の態度はどうでしたか。 (How was Ann's response?)",
+      "choices": [
+        "快く手伝った",
+        "断った",
+        "文句を言った",
+        "無視した"
+      ],
+      "answer": "快く手伝った",
+      "acceptedAnswers": [
+        "快く手伝った"
+      ],
+      "explanation": "Ann agrees immediately: 「はい、いいですよ」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l15.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

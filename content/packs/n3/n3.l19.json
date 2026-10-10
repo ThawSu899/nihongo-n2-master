@@ -1,0 +1,1606 @@
+{
+  "id": "n3.l19",
+  "level": "N3",
+  "module": "N3 Nuance & Natural Discourse",
+  "number": 19,
+  "title": "N3 Lesson 19: Limit & Exclusivity (〜に限る・〜ばかり)",
+  "description": "Master nuanced Japanese expressions of limitation, exclusivity, and supreme preference, exploring non-limitation expansions (〜に限らず: not only... but widely) and inevitable singular alternatives (〜しかない / 〜ほかない: have no other choice but to).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l19.v001",
+      "lessonId": "n3.l19",
+      "ja": "限界",
+      "kana": "げんかい",
+      "en": "limit; boundary; margin",
+      "my": "အကန့်အသတ်/အတိုင်းအတာ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l19.s001",
+      "kanjiIds": [
+        "n3.l19.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.v002",
+      "lessonId": "n3.l19",
+      "ja": "世代",
+      "kana": "せだい",
+      "en": "generation; age group",
+      "my": "မျိုးဆက်/အသက်အရွယ်အပိုင်းအခြား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l19.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.v003",
+      "lessonId": "n3.l19",
+      "ja": "覚悟",
+      "kana": "かくご",
+      "en": "readiness; mental preparation; resolution",
+      "my": "ရင်ဆိုင်ရန်ကြိုတင်စိတ်ပိုင်းဖြတ်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l19.s003",
+      "kanjiIds": [
+        "n3.l19.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.v004",
+      "lessonId": "n3.l19",
+      "ja": "普及",
+      "kana": "ふきゅう",
+      "en": "spread; diffusion; popularization",
+      "my": "ပျံ့နှံ့ခေတ်စားလာခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l19.s004",
+      "kanjiIds": [
+        "n3.l19.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.v005",
+      "lessonId": "n3.l19",
+      "ja": "唯一",
+      "kana": "ゆいいつ",
+      "en": "only; sole; unique",
+      "my": "တစ်ခုတည်းသော/တစ်မျိုးတည်းသော",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l19.s005",
+      "kanjiIds": [
+        "n3.l19.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.v006",
+      "lessonId": "n3.l19",
+      "ja": "国籍",
+      "kana": "こくせき",
+      "en": "nationality; citizenship",
+      "my": "နိုင်ငံသားဖြစ်မှု/နိုင်ငံသားမှတ်ပုံတင်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l19.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.v007",
+      "lessonId": "n3.l19",
+      "ja": "突破",
+      "kana": "とっぱ",
+      "en": "breakthrough; breaking through; surmounting",
+      "my": "ထိုးဖောက်ကျော်လွှားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l19.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.v008",
+      "lessonId": "n3.l19",
+      "ja": "断念",
+      "kana": "だんねん",
+      "en": "abandoning; giving up (a hope or plan)",
+      "my": "စွန့်လွှတ်လက်လျှော့လိုက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l19.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.v009",
+      "lessonId": "n3.l19",
+      "ja": "伝統",
+      "kana": "でんとう",
+      "en": "tradition; convention; heritage",
+      "my": "ရိုးရာဓလေ့ထုံးတမ်း/အမွေအနှစ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l19.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.v010",
+      "lessonId": "n3.l19",
+      "ja": "境界",
+      "kana": "きょうかい",
+      "en": "boundary; border; demarcation",
+      "my": "နယ်နိမိတ်/နယ်ခြားစည်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l19.s010",
+      "kanjiIds": [
+        "n3.l19.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.v011",
+      "lessonId": "n3.l19",
+      "ja": "納得",
+      "kana": "なっとく",
+      "en": "consent; understanding; being convinced",
+      "my": "နားလည်သဘောပေါက်လက်ခံခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l19.s011",
+      "kanjiIds": [
+        "n3.l19.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.v012",
+      "lessonId": "n3.l19",
+      "ja": "普遍",
+      "kana": "ふへん",
+      "en": "universal; omnipresent; ubiquitous",
+      "my": "နေရာတကာနှံ့စပ်သော/ယေဘုယျကျသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l19.s012",
+      "kanjiIds": [
+        "n3.l19.k003"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l19.k001",
+      "lessonId": "n3.l19",
+      "char": "界",
+      "meaning": "world, boundary, realm",
+      "onyomi": [
+        "カイ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "限界",
+          "reading": "げんかい",
+          "meaning": "limit, boundary",
+          "preview": false
+        },
+        {
+          "word": "世界",
+          "reading": "せかい",
+          "meaning": "world",
+          "preview": false
+        },
+        {
+          "word": "境界",
+          "reading": "きょうかい",
+          "meaning": "boundary, border",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l19.s001"
+      ],
+      "components": [],
+      "strokes": 9,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.k002",
+      "lessonId": "n3.l19",
+      "char": "悟",
+      "meaning": "perceive, realize, enlightenment",
+      "onyomi": [
+        "ゴ"
+      ],
+      "kunyomi": [
+        "さと・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "覚悟",
+          "reading": "かくご",
+          "meaning": "readiness, mental preparation",
+          "preview": false
+        },
+        {
+          "word": "悟る",
+          "reading": "さとる",
+          "meaning": "to realize, to discern",
+          "preview": false
+        },
+        {
+          "word": "大悟",
+          "reading": "たいご",
+          "meaning": "great enlightenment",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l19.s003"
+      ],
+      "components": [],
+      "strokes": 10,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.k003",
+      "lessonId": "n3.l19",
+      "char": "普",
+      "meaning": "universal, general, widespread",
+      "onyomi": [
+        "フ"
+      ],
+      "kunyomi": [
+        "あまね・く"
+      ],
+      "exampleVocab": [
+        {
+          "word": "普及",
+          "reading": "ふきゅう",
+          "meaning": "diffusion, popularization",
+          "preview": false
+        },
+        {
+          "word": "普通",
+          "reading": "ふつう",
+          "meaning": "normal, ordinary",
+          "preview": false
+        },
+        {
+          "word": "普遍的",
+          "reading": "ふへんてき",
+          "meaning": "universal",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l19.s004"
+      ],
+      "components": [],
+      "strokes": 12,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.k004",
+      "lessonId": "n3.l19",
+      "char": "唯",
+      "meaning": "sole, only, simply",
+      "onyomi": [
+        "ユイ",
+        "イ"
+      ],
+      "kunyomi": [
+        "ただ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "唯一",
+          "reading": "ゆいいつ",
+          "meaning": "only, sole",
+          "preview": false
+        },
+        {
+          "word": "唯物論",
+          "reading": "ゆいぶつろん",
+          "meaning": "materialism",
+          "preview": false
+        },
+        {
+          "word": "唯々諾々",
+          "reading": "いいだくだく",
+          "meaning": "readily yielding, submissive",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l19.s005"
+      ],
+      "components": [],
+      "strokes": 11,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l19.g001",
+      "lessonId": "n3.l19",
+      "pattern": "〜に限らず",
+      "meaning": "not limited to... but also; not only... but widely",
+      "formation": "[Noun] + に限らず",
+      "explanation": {
+        "en": "Used to state that a certain characteristic, trend, or condition is not restricted solely to the specified noun category, but extends broadly to a much wider scope, other generations, or global communities.",
+        "my": "ဖော်ပြထားသော အရာ (သို့) အုပ်စုတစ်ခုတည်းတွင်သာ ကန့်သတ်မနေဘဲ အခြားသော နယ်ပယ်၊ မျိုးဆက် သို့မဟုတ် ကမ္ဘာအနှံ့ ကျယ်ပြန့်စွာ သက်ရောက်မှုရှိကြောင်း ဖော်ပြသည်။ \"၎င်းတွင်သာမက ... အထိပါ\" ဟု အဓိပ္ပာယ်ရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l19.s002",
+          "note": "Aging society issues concern not only the youth generation, but the whole society."
+        },
+        {
+          "sentenceId": "n3.l19.s006",
+          "note": "This volunteer organization involves diverse nationalities, not limited to Japanese people."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse with 〜に限る (which expresses that X is the supreme best choice). 〜に限らず explicitly denies the limitation."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.g002",
+      "lessonId": "n3.l19",
+      "pattern": "〜しかない / 〜ほかない",
+      "meaning": "have no choice but to...; can only; nothing left to do except",
+      "formation": "[Verb Dictionary form] + しかない / ほかない / よりほかない",
+      "explanation": {
+        "en": "Used when under unavoidable circumstances or complete lack of alternatives, the speaker has no other conceivable option but to take the action denoted by the verb. Conveys a sense of resolution or yielding to reality.",
+        "my": "အခြားရွေးချယ်စရာ လုံးဝမရှိသော မလွှဲမရှောင်သာသည့် အခြေအနေတွင် အဆိုပါလုပ်ဆောင်ချက်တစ်ခုတည်းကိုသာ မဖြစ်မနေ လုပ်ဆောင်ရတော့မည်ဖြစ်ကြောင်း ဖော်ပြသည်။ \"...ရုံမှတစ်ပါး အခြားမရှိတော့ပါ\" ဟု အဓိပ္ပာယ်ရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l19.s003",
+          "note": "Having come this far, we have no choice but to advance with firm resolve."
+        },
+        {
+          "sentenceId": "n3.l19.s008",
+          "note": "With the climbing route blocked by bad weather, there is no choice but to abandon reaching the summit."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use the past tense before しかない (e.g. ❌ 諦めたしかない → ⭕️ 諦めるしかない)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l19.s001",
+      "lessonId": "n3.l19",
+      "ja": "体力の限界を感じたときは、無理をせずに休息を取るほかない。",
+      "kana": "たいりょくの げんかいを かんじたときは、むりを せずに きゅうそくを とるほかない。",
+      "translation": {
+        "en": "When feeling the limits of your physical stamina, you have no choice but to rest without overextending yourself.",
+        "my": "ခန္ဓာကိုယ်အင်အား၏ အကန့်အသတ်ကို ခံစားရသည့်အခါ အတင်းအကျပ်မလုပ်ဘဲ အနားယူရုံမှတစ်ပါး အခြားမရှိပါ။"
+      },
+      "vocabIds": [
+        "n3.l19.v001"
+      ],
+      "grammarIds": [
+        "n3.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.s002",
+      "lessonId": "n3.l19",
+      "ja": "少子高齢化の問題は若者世代に限らず、社会全体で真剣に向き合うべき重要課題だ。",
+      "kana": "しょうしこうれいかの もんだいは わかものせだいに かぎらず、しゃかいぜんたいで しんけんに むきあうべき じゅうようかだいだ。",
+      "translation": {
+        "en": "The issue of the declining birthrate and aging population is an important challenge that not only the youth generation but the whole society must face seriously.",
+        "my": "ကလေးမွေးဖွားနှုန်းကျဆင်းပြီး သက်ကြီးရွယ်အိုများပြားလာသောပြဿနာသည် လူငယ်မျိုးဆက်တွင်သာမက လူ့အဖွဲ့အစည်းတစ်ခုလုံးက အလေးအနက် ရင်ဆိုင်ရမည့် အရေးကြီးသောကိစ္စဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l19.v002"
+      ],
+      "grammarIds": [
+        "n3.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.s003",
+      "lessonId": "n3.l19",
+      "ja": "困難なプロジェクトを引き受けた以上、最後までやり抜く覚悟を決めて突き進むしかない。",
+      "kana": "こんなんな ぷろじぇくとを ひきうけた いじょう、さいごまで やりぬく かくごを きめて つきすすむしかない。",
+      "translation": {
+        "en": "Now that I have taken on a difficult project, I have no choice but to forge ahead with the resolve to see it through to the end.",
+        "my": "ခက်ခဲသော စီမံကိန်းကို လက်ခံထားပြီးသည့်နောက် အဆုံးအထိ ပြီးမြောက်အောင်လုပ်မည်ဟူသော စိတ်ပိုင်းဖြတ်မှုဖြင့် ရှေ့သို့ဆက်လက်ချီတက်ရုံသာ ရှိတော့သည်။"
+      },
+      "vocabIds": [
+        "n3.l19.v003"
+      ],
+      "grammarIds": [
+        "n3.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.s004",
+      "lessonId": "n3.l19",
+      "ja": "スマートフォンは先進国に限らず、世界中のあらゆる地域に急速に普及している。",
+      "kana": "すまーとふぉんは せんしんこくに かぎらず、せかいじゅうの あらゆる ちいきに きゅうそくに ふきゅうしている。",
+      "translation": {
+        "en": "Smartphones are rapidly spreading not limited to developed countries, but across all regions around the world.",
+        "my": "စမတ်ဖုန်းများသည် ဖွံ့ဖြိုးပြီးနိုင်ငံများတွင်သာမက ကမ္ဘာတစ်ဝှမ်းရှိ ဒေသအားလုံးတွင် လျင်မြန်စွာ ပျံ့နှံ့ခေတ်စားလာနေသည်။"
+      },
+      "vocabIds": [
+        "n3.l19.v004"
+      ],
+      "grammarIds": [
+        "n3.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.s005",
+      "lessonId": "n3.l19",
+      "ja": "信頼を回復するためには、誠実な態度で謝罪を重ねる唯一の方法を実践するしかない。",
+      "kana": "しんらいを かいふくする ためには、せいじつな たいどで しゃざいを かさねる ゆいいつの ほうほうを じっせんするしかない。",
+      "translation": {
+        "en": "To restore trust, there is no choice but to practice the sole method of apologizing repeatedly with a sincere attitude.",
+        "my": "ယုံကြည်မှုကို ပြန်လည်ရရှိရန်အတွက် ရိုးသားသောစိတ်ထားဖြင့် အကြိမ်ကြိမ်တောင်းပန်ခြင်းဟူသော တစ်ခုတည်းသောနည်းလမ်းကို လက်တွေ့ကျင့်သုံးရုံသာ ရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l19.v005"
+      ],
+      "grammarIds": [
+        "n3.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.s006",
+      "lessonId": "n3.l19",
+      "ja": "このボランティア団体は日本人に限らず、多様な国籍の人々が共に協力して活動している。",
+      "kana": "この ぼらんてぃあだんたいは にほんじんに かぎらず、たような こくせきの ひとびとが ともに きょうりょくして かつどうしている。",
+      "translation": {
+        "en": "This volunteer organization has people of diverse nationalities working together in cooperation, not limited to Japanese nationals.",
+        "my": "ဤစေတနာ့ဝန်ထမ်းအဖွဲ့အစည်းသည် ဂျပန်လူမျိုးများတွင်သာမက မတူကွဲပြားသော နိုင်ငံသားများ စုပေါင်းလက်တွဲ၍ လှုပ်ရှားဆောင်ရွက်နေကြသည်။"
+      },
+      "vocabIds": [
+        "n3.l19.v006"
+      ],
+      "grammarIds": [
+        "n3.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.s007",
+      "lessonId": "n3.l19",
+      "ja": "厳しい予選を突破するためには、これまでの練習量を信じて全力を尽くすしかない。",
+      "kana": "きびしい よせんを とっぱする ためには、これまでの れんしゅうりょうを しんじて ぜんりょくを つくすしかない。",
+      "translation": {
+        "en": "In order to break through the rigorous qualifiers, there is no choice but to trust our accumulated practice and do our utmost.",
+        "my": "ခက်ခဲသော လက်ရည်စစ်ပွဲကို အောင်မြင်စွာကျော်လွှားနိုင်ရန် ယခုအထိ လေ့ကျင့်ခဲ့သည့်ပမာဏကို ယုံကြည်ပြီး အစွမ်းကုန်ကြိုးစားရုံသာ ရှိတော့သည်။"
+      },
+      "vocabIds": [
+        "n3.l19.v007"
+      ],
+      "grammarIds": [
+        "n3.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.s008",
+      "lessonId": "n3.l19",
+      "ja": "悪天候で登山ルートが封鎖された以上、今回は山頂を目指すのを断念するほかない。",
+      "kana": "あくてんこうで とざんるーとが ふうさされた いじょう、こんかいは さんちょうを めざすのを だんねんするほかない。",
+      "translation": {
+        "en": "Now that the climbing route is blocked by foul weather, we have no choice but to abandon aiming for the summit this time.",
+        "my": "ဆိုးရွားသောရာသီဥတုကြောင့် တောင်တက်လမ်းပိတ်သွားပြီးဖြစ်သည့်အတွက် ယခုတစ်ကြိမ် တောင်ထိပ်တက်ရန်ကြိုးပမ်းမှုကို စွန့်လွှတ်လိုက်ရုံသာ ရှိတော့သည်။"
+      },
+      "vocabIds": [
+        "n3.l19.v008"
+      ],
+      "grammarIds": [
+        "n3.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.s009",
+      "lessonId": "n3.l19",
+      "ja": "古くから受け継がれてきた伝統芸能の価値は、年配者に限らず若い世代の間でも再評価されている。",
+      "kana": "ふるくから うけつがれてきた でんとうげいのうの かちは、ねんぱいしゃに かぎらず わかい せだいの あいだでも さいひょうかされている。",
+      "translation": {
+        "en": "The value of traditional performing arts passed down since ancient times is being reevaluated not only among seniors but also among younger generations.",
+        "my": "ရှေးယခင်ကတည်းက လက်ဆင့်ကမ်းလာသော ရိုးရာအနုပညာ၏တန်ဖိုးကို သက်ကြီးရွယ်အိုများတွင်သာမက လူငယ်မျိုးဆက်များကြားတွင်လည်း ပြန်လည်အသိအမှတ်ပြုလာကြသည်။"
+      },
+      "vocabIds": [
+        "n3.l19.v009"
+      ],
+      "grammarIds": [
+        "n3.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.s010",
+      "lessonId": "n3.l19",
+      "ja": "国境という境界に限らず、あらゆる文化の違いを乗り越えて人々が友情を育んでいる。",
+      "kana": "こっきょうという きょうかいに かぎらず、あらゆる ぶんかの ちがいを のりこえて ひとびとが ゆうじょうを はぐくんでいる。",
+      "translation": {
+        "en": "Not limited to the boundaries called national borders, people are overcoming differences in all cultures to nurture friendships.",
+        "my": "နိုင်ငံနယ်နိမိတ်ဟူသော နယ်ခြားစည်းတွင်သာမက ယဉ်ကျေးမှုကွဲပြားမှုအားလုံးကို ကျော်လွှားကာ လူအများသည် ချစ်ကြည်ရင်းနှီးမှုကို တည်ဆောက်နေကြသည်။"
+      },
+      "vocabIds": [
+        "n3.l19.v010"
+      ],
+      "grammarIds": [
+        "n3.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.s011",
+      "lessonId": "n3.l19",
+      "ja": "これほど明確な証拠を提示された以上、相手の主張に納得して同意するしかない。",
+      "kana": "これほど めいかくな しょうこを ていじされた いじょう、あいての しゅちょうに なっとくして どういするしかない。",
+      "translation": {
+        "en": "Now that such unambiguous evidence has been presented, we have no choice but to accept and consent to the other party's claim.",
+        "my": "ဤမျှလောက် ထင်ရှားသော သက်သေအထောက်အထားကို တင်ပြလာသည့်အတွက် တစ်ဖက်သား၏ ပြောဆိုချက်ကို လက်ခံသဘောတူရုံသာ ရှိတော့သည်။"
+      },
+      "vocabIds": [
+        "n3.l19.v011"
+      ],
+      "grammarIds": [
+        "n3.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l19.s012",
+      "lessonId": "n3.l19",
+      "ja": "平和を望む心は特定の一国に限らず、すべての人類に共通する普遍的な願いである。",
+      "kana": "へいわを のぞむ こころは とくていの いっこくに かぎらず、すべての じんるいに きょうつうする ふへんてきな ねがいである。",
+      "translation": {
+        "en": "The heart wishing for peace is not limited to a specific single nation, but is a universal desire shared by all humanity.",
+        "my": "ငြိမ်းချမ်းရေးကို လိုလားသော စိတ်နှလုံးသည် သတ်မှတ်ထားသော နိုင်ငံတစ်နိုင်ငံတွင်သာမက လူသားအားလုံးနှင့် သက်ဆိုင်သည့် ယေဘုယျဆန္ဒတစ်ခု ဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l19.v012"
+      ],
+      "grammarIds": [
+        "n3.l19.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l19.r01",
+    "lessonId": "n3.l19",
+    "title": "The Universal Appeal and Spread of Traditional Bento Culture",
+    "level": "N3",
+    "text": "日本の伝統的な食文化の一つである「お弁当」は、近年世界各国で大きな注目を集めている。彩り豊かで栄養バランスに優れたお弁当の魅力は、いまや日本国内の家庭や職場に限らず、欧米やアジア諸国の人々の間でも広く知られるようになった。\n\nかつて海外では、昼食といえばサンドイッチや簡素なファストフードで済ませる人が多かった。しかし、健康意識の高まりや環境保護への関心が広がるにつれて、自作のお弁当箱を持参して健康的で経済的な食事を楽しむライフスタイルが急速に普及し始めている。お弁当作りの楽しみは主婦層に限らず、ビジネスパーソンや学生など世代や性別を超えて広がっている。\n\n異国の食習慣に合わせるために、伝統的な日本料理のレシピに固執するのではなく、各国の食材や味付けを取り入れた柔軟なお弁当が作られている。アレルギーや宗教上の食事制限を抱える人々にとっても、中身を自分で完全にコントロールできるお弁当は、外食への不安を解消する唯一の手段となり得る。\n\n食材の制約がある場合でも、手に入る食材の中で工夫を凝らして美味しいお弁当を作るほかない。このような工夫の精神こそが、国境や文化の壁を越えて世界中の人々を惹きつけてやまないお弁当の真の魅力なのである。",
+    "kanaText": "日本の伝統的な食文化の一つである「お弁当」は、近年世界各国で大きな注目を集めている。彩り豊かで栄養バランスに優れたお弁当の魅力は、いまや日本国内の家庭や職場に限らず、欧米やアジア諸国の人々の間でも広く知られるようになった。\n\nかつて海外では、昼食といえばサンドイッチや簡素なファストフードで済ませる人が多かった。しかし、健康意識の高まりや環境保護への関心が広がるにつれて、自作のお弁当箱を持参して健康的で経済的な食事を楽しむライフスタイルが急速に普及し始めている。お弁当作りの楽しみは主婦層に限らず、ビジネスパーソンや学生など世代や性別を超えて広がっている。\n\n異国の食習慣に合わせるために、伝統的な日本料理のレシピに固執するのではなく、各国の食材や味付けを取り入れた柔軟なお弁当が作られている。アレルギーや宗教上の食事制限を抱える人々にとっても、中身を自分で完全にコントロールできるお弁当は、外食への不安を解消する唯一の手段となり得る。\n\n食材の制約がある場合でも、手に入る食材の中で工夫を凝らして美味しいお弁当を作るほかない。このような工夫の精神こそが、国境や文化の壁を越えて世界中の人々を惹きつけてやまないお弁当の真の魅力なのである。",
+    "translation": "Japanese traditional \"Bento\" (boxed lunch) culture has been garnering immense attention worldwide in recent years. The appeal of bento, rich in colors and nutritionally balanced, is now widely recognized not only in households and workplaces within Japan, but broadly among people across Western and Asian nations.\n\nPreviously abroad, many people made do with sandwiches or simple fast food for lunch. However, with rising health consciousness and growing interest in environmental protection, the lifestyle of bringing one's own bento box to enjoy healthy, economical meals has begun spreading rapidly. The joy of preparing bento is not limited to homemakers, but extends across generations and genders to businesspeople and students.\n\nTo match foreign dietary customs, rather than stubbornly clinging to traditional Japanese recipes, flexible bento incorporating local ingredients and flavorings are being created. Even for individuals juggling allergies or religious dietary restrictions, bento—where one can completely control the ingredients oneself—can serve as the sole reliable method for eliminating anxieties about dining out.\n\nEven when ingredient constraints exist, one has no choice but to devise creative ways to make delicious bento with available ingredients. This very spirit of ingenuity is the true charm of bento that continues to captivate people across borders and cultural barriers without end.",
+    "questionIds": [
+      "n3.l19.q025",
+      "n3.l19.q026",
+      "n3.l19.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l19.l01",
+    "lessonId": "n3.l19",
+    "title": "Dialogue: Coping with Flight Cancellation and Schedule Decisions",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "松本：高橋さん、大変なことになりました。大型台風の接近で、今夜私たちが乗る予定だった福岡行きの飛行機が全便欠航になってしまいました。\n高橋：本当ですか！ 明日の朝十時から大事なクライアントとの新支店開設ミーティングがあるのに。\n松本：新幹線も今夜の便は全席満席ですし、明日の朝一番の列車も運行が不透明だそうです。\n高橋：うーん、飛行機が飛ばない以上、明日の早朝の新幹線の自由席に並ぶか、今すぐオンラインでの開催に切り替えてもらうようお願いするしかないですね。\n松本：そうですね。先方の担当者に限らず、相手の役員の方々も交通機関の乱れは十分ご存知のはずです。\n高橋：ええ。無理をして移動でトラブルに巻き込まれるくらいなら、誠心誠意事情を説明してオンライン面談を打診するほかないでしょう。今すぐ電話をかけてみます。",
+    "translation": "Matsumoto: Takahashi-san, we have a serious situation. Due to the approaching massive typhoon, all flights to Fukuoka that we were scheduled to take tonight have been canceled.\nTakahashi: Are you serious! Even though we have a crucial meeting with a client tomorrow morning at 10 AM regarding the new branch opening.\nMatsumoto: The Shinkansen is completely booked for tonight as well, and whether tomorrow's first morning train will operate is uncertain.\nTakahashi: Hmm, since airplanes aren't flying, we have no choice but to either line up for unreserved seats on the early morning Shinkansen tomorrow or ask them right now to switch to an online meeting.\nMatsumoto: That's right. Not only our contact person, but the executives on their side must be well aware of the transit disruption.\nTakahashi: Indeed. Rather than pushing ourselves and getting entangled in transit trouble, we have no choice but to explain the circumstances in all sincerity and propose an online interview. I will place a call right now.",
+    "turns": [],
+    "questionIds": [
+      "n3.l19.q028",
+      "n3.l19.q029",
+      "n3.l19.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l19.q001",
+      "lessonId": "n3.l19",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「連日の猛練習により、体力が（　）に近づいている。」",
+      "choices": [
+        "限界",
+        "普及",
+        "唯一",
+        "国籍"
+      ],
+      "answer": "限界",
+      "acceptedAnswers": [
+        "限界"
+      ],
+      "explanation": "これ以上は耐えられないという極限の境目を「限界（げんかい）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q002",
+      "lessonId": "n3.l19",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉の意味として最も適切なものを一つ選びなさい。\n「厳しい挑戦に臨むにあたり、強い【覚悟】を決めた。」",
+      "choices": [
+        "困難や危険を予想して心構えをすること",
+        "相手を油断させること",
+        "すぐに諦めて逃げ出すこと",
+        "契約書にサインすること"
+      ],
+      "answer": "困難や危険を予想して心構えをすること",
+      "acceptedAnswers": [
+        "困難や危険を予想して心構えをすること"
+      ],
+      "explanation": "「覚悟（かくご）」は困難や不利な事態に備えて心をあらかじめ決めることです。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q003",
+      "lessonId": "n3.l19",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「インターネットの（　）によって、遠隔地との通信が格段に便利になった。」",
+      "choices": [
+        "普及",
+        "断念",
+        "限界",
+        "唯一"
+      ],
+      "answer": "普及",
+      "acceptedAnswers": [
+        "普及"
+      ],
+      "explanation": "広く社会に行き渡ることを「普及（ふきゅう）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q004",
+      "lessonId": "n3.l19",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉に最も近い意味の言葉を一つ選びなさい。\n「これが彼にとって【唯一】の救いとなった。」",
+      "choices": [
+        "ただ一つだけの",
+        "最も高価な",
+        "非常に危険な",
+        "一時的な"
+      ],
+      "answer": "ただ一つだけの",
+      "acceptedAnswers": [
+        "ただ一つだけの"
+      ],
+      "explanation": "「唯一（ゆいいつ）」はそれ以外にはない、ただ一つだけのことです。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q005",
+      "lessonId": "n3.l19",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「若者（　）だけでなく、高齢者の意見も広く集約する必要がある。」",
+      "choices": [
+        "世代",
+        "突破",
+        "伝統",
+        "境界"
+      ],
+      "answer": "世代",
+      "acceptedAnswers": [
+        "世代"
+      ],
+      "explanation": "ほぼ同じ時期に生まれ育った年齢層を「世代（せだい）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q006",
+      "lessonId": "n3.l19",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「資金不足のため、新しい工場の建設計画を（　）した。」",
+      "choices": [
+        "断念",
+        "普及",
+        "納得",
+        "限界"
+      ],
+      "answer": "断念",
+      "acceptedAnswers": [
+        "断念"
+      ],
+      "explanation": "見込みがないとして計画や希望を諦めることを「断念（だんねん）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q007",
+      "lessonId": "n3.l19",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉の意味として最も適切なものを一つ選びなさい。\n「何代にもわたって受け継がれてきた【伝統】工芸を守る。」",
+      "choices": [
+        "昔から伝えられてきた風習や技術",
+        "新しく開発された機械",
+        "外国から輸入された流行",
+        "法律で禁止された行事"
+      ],
+      "answer": "昔から伝えられてきた風習や技術",
+      "acceptedAnswers": [
+        "昔から伝えられてきた風習や技術"
+      ],
+      "explanation": "「伝統（でんとう）」は古くから伝わり受け継がれてきた精神や様式・技術です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q008",
+      "lessonId": "n3.l19",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「説明を重ねた結果、双方が（　）のいく合意点を見出すことができた。」",
+      "choices": [
+        "納得",
+        "覚悟",
+        "唯一",
+        "境界"
+      ],
+      "answer": "納得",
+      "acceptedAnswers": [
+        "納得"
+      ],
+      "explanation": "他人の考えや行動を理解しもっともだと認めることを「納得（なっとく）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q009",
+      "lessonId": "n3.l19",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「自分の体力の【限界】を知る。」",
+      "choices": [
+        "げんかい",
+        "げんがい",
+        "がんかい",
+        "がんがい"
+      ],
+      "answer": "げんかい",
+      "acceptedAnswers": [
+        "げんかい"
+      ],
+      "explanation": "「限」はゲン、「界」はカイと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q010",
+      "lessonId": "n3.l19",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「失敗を乗り越える【覚悟】を決める。」",
+      "choices": [
+        "かくご",
+        "かくこ",
+        "がくご",
+        "がくこ"
+      ],
+      "answer": "かくご",
+      "acceptedAnswers": [
+        "かくご"
+      ],
+      "explanation": "「覚」はカク、「悟」はゴと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q011",
+      "lessonId": "n3.l19",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「新技術が全国に急速に【普及】する。」",
+      "choices": [
+        "ふきゅう",
+        "ふきゅ",
+        "ほきゅう",
+        "ほきゅ"
+      ],
+      "answer": "ふきゅう",
+      "acceptedAnswers": [
+        "ふきゅう"
+      ],
+      "explanation": "「普」はフ、「及」はキュウと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q012",
+      "lessonId": "n3.l19",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「これが【唯一】の解決策だ。」",
+      "choices": [
+        "ゆいいつ",
+        "ゆういつ",
+        "ゆいつ",
+        "ゆいち"
+      ],
+      "answer": "ゆいいつ",
+      "acceptedAnswers": [
+        "ゆいいつ"
+      ],
+      "explanation": "「唯」はユイ、「一」はイツと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q013",
+      "lessonId": "n3.l19",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の言葉を漢字で書くとき、正しいものを一つ選びなさい。\n「土地の【きょうかい】を確定する。」",
+      "choices": [
+        "境界",
+        "境解",
+        "驚界",
+        "競界"
+      ],
+      "answer": "境界",
+      "acceptedAnswers": [
+        "境界"
+      ],
+      "explanation": "土地や領域のさかいめは「境界」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q014",
+      "lessonId": "n3.l19",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の言葉を漢字で書くとき、正しいものを一つ選びなさい。\n「世間一般の【ふつう】の感覚。」",
+      "choices": [
+        "普通",
+        "普道",
+        "普過",
+        "布通"
+      ],
+      "answer": "普通",
+      "acceptedAnswers": [
+        "普通"
+      ],
+      "explanation": "ありふれて一般的であることは「普通」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q015",
+      "lessonId": "n3.l19",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「このアニメは子どもに（　）、大人たちの間でも熱狂的な人気を集めている。」",
+      "choices": [
+        "限らず",
+        "関して",
+        "ついて",
+        "向けて"
+      ],
+      "answer": "限らず",
+      "acceptedAnswers": [
+        "限らず"
+      ],
+      "explanation": "子どもだけでなく大人にも広く及んでいることを表すため「〜に限らず」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q016",
+      "lessonId": "n3.l19",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「財布を落として一円も持っていないので、家まで歩いて帰る（　）。」",
+      "choices": [
+        "しかない",
+        "ばかりだ",
+        "せいで",
+        "おかげだ"
+      ],
+      "answer": "しかない",
+      "acceptedAnswers": [
+        "しかない"
+      ],
+      "explanation": "他に選択肢がなく歩いて帰るよりほかない状況を表すため「〜しかない」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q017",
+      "lessonId": "n3.l19",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「スマートフォンの普及は都市部に（　）、山間部の農村にまで広がっている。」",
+      "choices": [
+        "限らず",
+        "対して",
+        "めぐって",
+        "沿って"
+      ],
+      "answer": "限らず",
+      "acceptedAnswers": [
+        "限らず"
+      ],
+      "explanation": "都市部に限定されず農村部にも広がっているという非限定の拡張を表すため「〜に限らず」を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q018",
+      "lessonId": "n3.l19",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「真相が解明されない以上、捜査の進展をじっと待つ（　）。」",
+      "choices": [
+        "ほかない",
+        "わけがない",
+        "せいで",
+        "わりに"
+      ],
+      "answer": "ほかない",
+      "acceptedAnswers": [
+        "ほかない"
+      ],
+      "explanation": "待つ以外にできることがないという唯一の選択肢を表すため「〜ほかない」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q019",
+      "lessonId": "n3.l19",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な接続の形を選びなさい。\n「これほど事態が悪化したからには、潔く責任を（　）しかない。」",
+      "choices": [
+        "取る",
+        "取った",
+        "取っている",
+        "取ろう"
+      ],
+      "answer": "取る",
+      "acceptedAnswers": [
+        "取る"
+      ],
+      "explanation": "「〜しかない」の前には動詞の辞書形が接続します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q020",
+      "lessonId": "n3.l19",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の文のうち、文法的に最も自然な文はどれか。",
+      "choices": [
+        "週末の温泉旅行は、東京に限らず最高だ。",
+        "疲れたときは温かい風呂に入るに限らずだ。",
+        "桜の美しさは日本人に限らず、世界中の人々を魅了している。",
+        "このレストランは平日だけに限らず休みだ。"
+      ],
+      "answer": "桜の美しさは日本人に限らず、世界中の人々を魅了している。",
+      "acceptedAnswers": [
+        "桜の美しさは日本人に限らず、世界中の人々を魅了している。"
+      ],
+      "explanation": "「日本人に限らず、世界中の人々を魅了している」という自然な非限定拡張構文です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q021",
+      "lessonId": "n3.l19",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「車のエンジンが故障して動かないので、レッカー車を呼ぶ（　）。」",
+      "choices": [
+        "よりほかない",
+        "ばかりに",
+        "おかげで",
+        "せいだ"
+      ],
+      "answer": "よりほかない",
+      "acceptedAnswers": [
+        "よりほかない"
+      ],
+      "explanation": "車が動かないためレッカー車を呼ぶ以外に方法がないことを表す「〜よりほかない」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q022",
+      "lessonId": "n3.l19",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「平日に（　）、休日も休まず営業しているスーパーはありがたい。」",
+      "choices": [
+        "限らず",
+        "おいて",
+        "対して",
+        "通して"
+      ],
+      "answer": "限らず",
+      "acceptedAnswers": [
+        "限らず"
+      ],
+      "explanation": "平日に限定されず休日も営業していることを表すため「限らず」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q023",
+      "lessonId": "n3.l19",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の会話文の（　）に入れるのに最も適切なものを一つ選びなさい。\nA：「締め切りまであと一時間しかないのに、まだ半分しか終わっていません！」\nB：「慌てても仕方がない。今ある作業に集中する（　）よ。」",
+      "choices": [
+        "しかない",
+        "せいで",
+        "おかげで",
+        "わりに"
+      ],
+      "answer": "しかない",
+      "acceptedAnswers": [
+        "しかない"
+      ],
+      "explanation": "焦っても始まらないため作業に集中する以外に道はないと促す「〜しかない」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q024",
+      "lessonId": "n3.l19",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入る言葉の組み合わせとして最も適切なものを一つ選びなさい。\n「この映画の感動は、若者（　）高齢者（　）深く心に染み渡る。」",
+      "choices": [
+        "に限らず / にも",
+        "に対して / にも",
+        "にとって / でも",
+        "をめぐって / でも"
+      ],
+      "answer": "に限らず / にも",
+      "acceptedAnswers": [
+        "に限らず / にも"
+      ],
+      "explanation": "「若者に限らず高齢者にも」となり、「〜に限らず〜も」の相関構文を形成します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q025",
+      "lessonId": "n3.l19",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "お弁当の魅力が海外で急速に普及し始めた背景として文章で挙げられているものはどれか。",
+      "choices": [
+        "健康意識の高まりや環境保護への関心の広がり",
+        "日本政府が海外でお弁当を無料配布したこと",
+        "海外のレストランがすべて閉鎖されたこと",
+        "サンドイッチのパンの価格が高騰したこと"
+      ],
+      "answer": "健康意識の高まりや環境保護への関心の広がり",
+      "acceptedAnswers": [
+        "健康意識の高まりや環境保護への関心の広がり"
+      ],
+      "explanation": "第2段落に「健康意識の高まりや環境保護への関心が広がるにつれて、自作のお弁当箱を持参して健康的で経済的な食事を楽しむライフスタイルが急速に普及し始めている」とあります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q026",
+      "lessonId": "n3.l19",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "アレルギーや宗教的制限を持つ人々にとって、お弁当が役立つ理由として正しいものはどれか。",
+      "choices": [
+        "中身を自分で完全にコントロールできるため、外食の不安を解消できる唯一の手段となり得るから",
+        "お弁当箱が特別な殺菌作用を持っているから",
+        "伝統的な日本料理はアレルギーを治す効果があるから",
+        "外国の食材を使わずに済むから"
+      ],
+      "answer": "中身を自分で完全にコントロールできるため、外食の不安を解消できる唯一の手段となり得るから",
+      "acceptedAnswers": [
+        "中身を自分で完全にコントロールできるため、外食の不安を解消できる唯一の手段となり得るから"
+      ],
+      "explanation": "第3段落に「アレルギーや宗教上の食事制限を抱える人々にとっても、中身を自分で完全にコントロールできるお弁当は、外食への不安を解消する唯一の手段となり得る」と述べられています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q027",
+      "lessonId": "n3.l19",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者が述べる「お弁当の真の魅力」とは何か。",
+      "choices": [
+        "食材の制約があっても手に入る食材の中で工夫を凝らして美味しい食事を作る精神",
+        "高価な漆器のお弁当箱を使って格式高く食事をすること",
+        "一切の外国風味付けを排除して古代日本の味覚を完璧に守ること",
+        "誰よりも早く昼食を済ませて仕事に戻ること"
+      ],
+      "answer": "食材の制約があっても手に入る食材の中で工夫を凝らして美味しい食事を作る精神",
+      "acceptedAnswers": [
+        "食材の制約があっても手に入る食材の中で工夫を凝らして美味しい食事を作る精神"
+      ],
+      "explanation": "最終段落で「食材の制約がある場合でも、手に入る食材の中で工夫を凝らして美味しいお弁当を作るほかない。このような工夫の精神こそが、国境や文化の壁を越えて世界中の人々を惹きつけてやまないお弁当の真の魅力なのである」と結論付けています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q028",
+      "lessonId": "n3.l19",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "松本さんと高橋さんが乗る予定だった飛行機はどうなったか。",
+      "choices": [
+        "大型台風の接近により今夜の便が全便欠航になった",
+        "出発時刻が翌日の夜に変更された",
+        "目的地が福岡から大阪に変更された",
+        "通常通り運航することが確認された"
+      ],
+      "answer": "大型台風の接近により今夜の便が全便欠航になった",
+      "acceptedAnswers": [
+        "大型台風の接近により今夜の便が全便欠航になった"
+      ],
+      "explanation": "松本さんが「大型台風の接近で、今夜私たちが乗る予定だった福岡行きの飛行機が全便欠航になってしまいました」と伝えています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q029",
+      "lessonId": "n3.l19",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "高橋さんが提案した当面の現実的な対応策はどれか。",
+      "choices": [
+        "事情を誠実に説明して、明日のミーティングをオンライン開催に切り替えてもらうようお願いする",
+        "会社に無断でミーティングを完全にキャンセルする",
+        "今すぐタクシーをチャーターして福岡へ向かう",
+        "福岡行きの船のチケットを探して港へ向かう"
+      ],
+      "answer": "事情を誠実に説明して、明日のミーティングをオンライン開催に切り替えてもらうようお願いする",
+      "acceptedAnswers": [
+        "事情を誠実に説明して、明日のミーティングをオンライン開催に切り替えてもらうようお願いする"
+      ],
+      "explanation": "高橋さんが「誠心誠意事情を説明してオンライン面談を打診するほかないでしょう」と判断しています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l19.q030",
+      "lessonId": "n3.l19",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "二人がオンラインへの切り替えを打診しやすいと考えた理由として適切なものはどれか。",
+      "choices": [
+        "相手の担当者に限らず役員の方々も交通機関の乱れを十分知っているはずだから",
+        "相手の会社も台風でオフィスが停電しているから",
+        "明日のミーティングがもともと不要な内容だったから",
+        "相手の会社がオンライン会議用の専用スタジオを持っているから"
+      ],
+      "answer": "相手の担当者に限らず役員の方々も交通機関の乱れを十分知っているはずだから",
+      "acceptedAnswers": [
+        "相手の担当者に限らず役員の方々も交通機関の乱れを十分知っているはずだから"
+      ],
+      "explanation": "松本さんが「先方の担当者に限らず、相手の役員の方々も交通機関の乱れは十分ご存知のはずです」と言っています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

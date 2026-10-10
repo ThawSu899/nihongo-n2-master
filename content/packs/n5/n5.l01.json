@@ -1,0 +1,1829 @@
+{
+  "id": "n5.l01",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 1,
+  "title": "Greetings & Self Introduction",
+  "description": "Master essential Japanese greetings, learn how to introduce yourself, and understand the foundational X は Y です sentence pattern.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-09-30T10:00:00Z",
+    "rev": 1
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l01.v001",
+      "lessonId": "n5.l01",
+      "ja": "おはようございます",
+      "kana": "おはようございます",
+      "en": "Good morning (polite)",
+      "my": "မင်္ဂလာနံနက်ခင်းပါ (ယဉ်ကျေးသော)",
+      "pos": "expression",
+      "exampleSentenceId": "n5.l01.s007",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.v002",
+      "lessonId": "n5.l01",
+      "ja": "こんにちは",
+      "kana": "こんにちは",
+      "en": "Hello / Good afternoon",
+      "my": "မင်္ဂလာပါ (နေ့လယ်ခင်း)",
+      "pos": "expression",
+      "exampleSentenceId": "n5.l01.s008",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.v003",
+      "lessonId": "n5.l01",
+      "ja": "こんばんは",
+      "kana": "こんばんは",
+      "en": "Good evening",
+      "my": "မင်္ဂလာညနေခင်းပါ",
+      "pos": "expression",
+      "exampleSentenceId": "n5.l01.s009",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.v004",
+      "lessonId": "n5.l01",
+      "ja": "ありがとうございます",
+      "kana": "ありがとうございます",
+      "en": "Thank you very much (polite)",
+      "my": "ကျေးဇူးတင်ပါတယ် (ယဉ်ကျေးသော)",
+      "pos": "expression",
+      "exampleSentenceId": "n5.l01.s010",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.v005",
+      "lessonId": "n5.l01",
+      "ja": "すみません",
+      "kana": "すみません",
+      "en": "Excuse me / I am sorry",
+      "my": "ခွင့်လွှတ်ပါ / တောင်းပန်ပါတယ်",
+      "pos": "expression",
+      "exampleSentenceId": "n5.l01.s011",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.v006",
+      "lessonId": "n5.l01",
+      "ja": "はじめまして",
+      "kana": "はじめまして",
+      "en": "Nice to meet you (first meeting)",
+      "my": "တွေ့ရတာ ဝမ်းသာပါတယ် (ပထမဆုံးတွေ့ဆုံခြင်း)",
+      "pos": "expression",
+      "exampleSentenceId": "n5.l01.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.v007",
+      "lessonId": "n5.l01",
+      "ja": "よろしくおねがいします",
+      "kana": "よろしくおねがいします",
+      "en": "Please treat me well / Pleased to meet you",
+      "my": "ကောင်းမွန်စွာ ဆက်ဆံပေးပါရန် မေတ္တာရပ်ခံပါသည်",
+      "pos": "expression",
+      "exampleSentenceId": "n5.l01.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.v008",
+      "lessonId": "n5.l01",
+      "ja": "わたし",
+      "kana": "わたし",
+      "en": "I / me",
+      "my": "ကျွန်တော် / ကျွန်မ",
+      "pos": "pronoun",
+      "exampleSentenceId": "n5.l01.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.v009",
+      "lessonId": "n5.l01",
+      "ja": "がくせい",
+      "kana": "がくせい",
+      "en": "Student",
+      "my": "ကျောင်းသား / ကျောင်းသူ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l01.s001",
+      "kanjiIds": [
+        "n5.l01.k001",
+        "n5.l01.k002"
+      ],
+      "level": "N5",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.v010",
+      "lessonId": "n5.l01",
+      "ja": "せんせい",
+      "kana": "せんせい",
+      "en": "Teacher / Professor",
+      "my": "ဆရာ / ဆရာမ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l01.s002",
+      "kanjiIds": [
+        "n5.l01.k003",
+        "n5.l01.k002"
+      ],
+      "level": "N5",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.v011",
+      "lessonId": "n5.l01",
+      "ja": "にほんじん",
+      "kana": "にほんじん",
+      "en": "Japanese person",
+      "my": "ဂျပန်လူမျိုး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l01.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.v012",
+      "lessonId": "n5.l01",
+      "ja": "なまえ",
+      "kana": "なまえ",
+      "en": "Name",
+      "my": "နာမည်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l01.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l01.k001",
+      "lessonId": "n5.l01",
+      "char": "学",
+      "meaning": "Study / Learning / School",
+      "onyomi": [
+        "ガク"
+      ],
+      "kunyomi": [
+        "まな・ぶ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "学生 (がくせい)",
+          "reading": "がくせい",
+          "meaning": "student",
+          "preview": false
+        },
+        {
+          "word": "大学 (だいがく)",
+          "reading": "だいがく",
+          "meaning": "university",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l01.s001",
+        "n5.l01.s011"
+      ],
+      "components": [
+        "ツ (crown)",
+        "子 (child)"
+      ],
+      "strokes": 8,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.k002",
+      "lessonId": "n5.l01",
+      "char": "生",
+      "meaning": "Life / Birth / Living",
+      "onyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "kunyomi": [
+        "い・きる",
+        "う・まれる",
+        "なま"
+      ],
+      "exampleVocab": [
+        {
+          "word": "学生 (がくせい)",
+          "reading": "がくせい",
+          "meaning": "student",
+          "preview": false
+        },
+        {
+          "word": "先生 (せんせい)",
+          "reading": "せんせい",
+          "meaning": "teacher",
+          "preview": false
+        },
+        {
+          "word": "誕生日 (たんじょうび)",
+          "reading": "たんじょうび",
+          "meaning": "birthday",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l01.s001",
+        "n5.l01.s002"
+      ],
+      "components": [
+        "生 (radical 100)"
+      ],
+      "strokes": 5,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.k003",
+      "lessonId": "n5.l01",
+      "char": "先",
+      "meaning": "Before / Ahead / Previous",
+      "onyomi": [
+        "セン"
+      ],
+      "kunyomi": [
+        "さき"
+      ],
+      "exampleVocab": [
+        {
+          "word": "先生 (せんせい)",
+          "reading": "せんせい",
+          "meaning": "teacher",
+          "preview": false
+        },
+        {
+          "word": "先月 (せんげつ)",
+          "reading": "せんげつ",
+          "meaning": "last month",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l01.s002",
+        "n5.l01.s007"
+      ],
+      "components": [
+        "𠂉 (person)",
+        "儿 (legs)"
+      ],
+      "strokes": 6,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l01.g001",
+      "lessonId": "n5.l01",
+      "pattern": "X は Y です",
+      "meaning": "X is Y (Identification / Affirmative sentence)",
+      "formation": "[Noun X] は [Noun Y] です",
+      "explanation": {
+        "en": "The particle は (pronounced \"wa\") marks the topic of the sentence. です acts as the polite copula (\"is / am / are\").",
+        "my": "စကားလုံး は (ဝ ဟုအသံထွက်သည်) သည် ဝါကျ၏အဓိကအကြောင်းအရာကိုပြသည်။ です သည် ယဉ်ကျေးသောကြိယာဖြစ်ပြီး \"ဖြစ်သည်\" ဟုအဓိပ္ပာယ်ရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l01.s001",
+          "note": "わたしの自己紹介 (Self introduction)"
+        },
+        {
+          "sentenceId": "n5.l01.s002",
+          "note": "他者の紹介 (Introducing another person)"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Writing は as わ (even though pronounced \"wa\", write particle は).",
+        "Forgetting です at the end of polite statements."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.g002",
+      "lessonId": "n5.l01",
+      "pattern": "X は Y ですか",
+      "meaning": "Is X Y? (Question sentence)",
+      "formation": "[Noun X] は [Noun Y] ですか",
+      "explanation": {
+        "en": "Adding the question particle か to the end of です turns the sentence into a question. Japanese does not require word order inversion or a question mark in formal writing.",
+        "my": "ဝါကျအဆုံးတွင် အမေးစကားလုံး か ကိုထည့်လိုက်ပါက မေးခွန်းဝါကျဖြစ်လာသည်။ ဂျပန်ဘာသာတွင် စကားလုံးအထားအသို ပြောင်းလဲရန်မလိုပါ။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l01.s003",
+          "note": "国籍を尋ねる (Asking nationality)"
+        },
+        {
+          "sentenceId": "n5.l01.s011",
+          "note": "身分を尋ねる (Asking profession)"
+        }
+      ],
+      "similarGrammarIds": [
+        "n5.l01.g001"
+      ],
+      "commonMistakes": [
+        "Adding English question marks inside Japanese text unnecessarily.",
+        "Dropping the particle は when asking about someone."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.g003",
+      "lessonId": "n5.l01",
+      "pattern": "X の Y",
+      "meaning": "X's Y / Y of X (Noun modifier / Possession)",
+      "formation": "[Noun X] の [Noun Y]",
+      "explanation": {
+        "en": "The particle の links two nouns together. Noun X modifies Noun Y, indicating possession, affiliation, or origin.",
+        "my": "စကားလုံး の သည် နာမ်နှစ်ခုကို ဆက်စပ်ပေးသည်။ နာမ် X သည် နာမ် Y ၏ ပိုင်ဆိုင်မှု သို့မဟုတ် သက်ဆိုင်မှုကို ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l01.s005",
+          "note": "わたしのなまえ (My name)"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Reversing the order: saying Y の X instead of X の Y."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l01.s001",
+      "lessonId": "n5.l01",
+      "ja": "わたしはがくせいです。",
+      "kana": "わたしはがくせいです。",
+      "translation": {
+        "en": "I am a student.",
+        "my": "ကျွန်တော်သည် ကျောင်းသားဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n5.l01.v008",
+        "n5.l01.v009"
+      ],
+      "grammarIds": [
+        "n5.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.s002",
+      "lessonId": "n5.l01",
+      "ja": "たなかさんはせんせいです。",
+      "kana": "たなかさんはせんせいです。",
+      "translation": {
+        "en": "Mr. Tanaka is a teacher.",
+        "my": "ဦးတနခသည် ဆရာဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n5.l01.v010"
+      ],
+      "grammarIds": [
+        "n5.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.s003",
+      "lessonId": "n5.l01",
+      "ja": "たなかさんはにほんじんですか。",
+      "kana": "たなかさんはにほんじんですか。",
+      "translation": {
+        "en": "Is Mr. Tanaka Japanese?",
+        "my": "ဦးတနခသည် ဂျပန်လူမျိုးလား။"
+      },
+      "vocabIds": [
+        "n5.l01.v011"
+      ],
+      "grammarIds": [
+        "n5.l01.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.s004",
+      "lessonId": "n5.l01",
+      "ja": "はい、にほんじんです。",
+      "kana": "はい、にほんじんです。",
+      "translation": {
+        "en": "Yes, he is Japanese.",
+        "my": "ဟုတ်ကဲ့၊ ဂျပန်လူမျိုးဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n5.l01.v011"
+      ],
+      "grammarIds": [
+        "n5.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.s005",
+      "lessonId": "n5.l01",
+      "ja": "わたしのなまえはケンです。",
+      "kana": "わたしのなまえはケンです。",
+      "translation": {
+        "en": "My name is Ken.",
+        "my": "ကျွန်တော့်နာမည်က ကင်(Ken) ဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n5.l01.v008",
+        "n5.l01.v012"
+      ],
+      "grammarIds": [
+        "n5.l01.g001",
+        "n5.l01.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.s006",
+      "lessonId": "n5.l01",
+      "ja": "はじめまして。よろしくおねがいします。",
+      "kana": "はじめまして。よろしくおねがいします。",
+      "translation": {
+        "en": "Nice to meet you. Pleased to make your acquaintance.",
+        "my": "တွေ့ရတာ ဝမ်းသာပါတယ်။ ခင်မင်စွာ ဆက်ဆံပေးပါ။"
+      },
+      "vocabIds": [
+        "n5.l01.v006",
+        "n5.l01.v007"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.s007",
+      "lessonId": "n5.l01",
+      "ja": "せんせい、おはようございます。",
+      "kana": "せんせい、おはようございます。",
+      "translation": {
+        "en": "Teacher, good morning.",
+        "my": "ဆရာ၊ မင်္ဂလာနံနက်ခင်းပါ။"
+      },
+      "vocabIds": [
+        "n5.l01.v001",
+        "n5.l01.v010"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.s008",
+      "lessonId": "n5.l01",
+      "ja": "みなさん、こんにちは。",
+      "kana": "みなさん、こんにちは。",
+      "translation": {
+        "en": "Hello everyone.",
+        "my": "အားလုံးပဲ မင်္ဂလာပါ။"
+      },
+      "vocabIds": [
+        "n5.l01.v002"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.s009",
+      "lessonId": "n5.l01",
+      "ja": "たなかさん、こんばんは。",
+      "kana": "たなかさん、こんばんは。",
+      "translation": {
+        "en": "Good evening, Mr. Tanaka.",
+        "my": "ဦးတနခ၊ မင်္ဂလာညနေခင်းပါ။"
+      },
+      "vocabIds": [
+        "n5.l01.v003"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.s010",
+      "lessonId": "n5.l01",
+      "ja": "せんせい、ありがとうございます。",
+      "kana": "せんせい、ありがとうございます。",
+      "translation": {
+        "en": "Thank you very much, Teacher.",
+        "my": "ဆရာ၊ ကျေးဇူးအများကြီးတင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l01.v004",
+        "n5.l01.v010"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n5.l01.s011",
+      "lessonId": "n5.l01",
+      "ja": "すみません、がくせいですか。",
+      "kana": "すみません、がくせいですか。",
+      "translation": {
+        "en": "Excuse me, are you a student?",
+        "my": "ခွင့်လွှတ်ပါ၊ ကျောင်းသားလားခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n5.l01.v005",
+        "n5.l01.v009"
+      ],
+      "grammarIds": [
+        "n5.l01.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-09-30T10:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l01.r01",
+    "lessonId": "n5.l01",
+    "title": "ケンの自己紹介 (Ken's Self Introduction)",
+    "level": "N5",
+    "text": "はじめまして。わたしの なまえは ケンです。わたしは がくせいです。たなかさんは せんせいです。たなかさんは にほんじんです。よろしく おねがいします。",
+    "kanaText": "はじめまして。わたしの なまえは ケンです。わたしは がくせいです。たなかさんは せんせいです。たなかさんは にほんじんです。よろしく おねがいします。",
+    "translation": "Nice to meet you. My name is Ken. I am a student. Mr. Tanaka is a teacher. Mr. Tanaka is Japanese. Pleased to make your acquaintance.",
+    "questionIds": [
+      "n5.l01.q027",
+      "n5.l01.q028",
+      "n5.l01.q029",
+      "n5.l01.q030",
+      "n5.l01.q031"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-09-30T10:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n5.l01.l01",
+    "lessonId": "n5.l01",
+    "title": "教室での挨拶 (Greeting in the Classroom)",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "ケン",
+      "たなか先生"
+    ],
+    "transcript": "ケン：せんせい、おはようございます。\nたなか先生：おはようございます、ケンさん。\nケン：すみません、たなかさんはにほんじんですか。\nたなか先生：はい、にほんじんです。ケンさんはがくせいですか。\nケン：はい、がくせいです。よろしくおねがいします。\nたなか先生：よろしくおねがいします。",
+    "translation": "Ken: Teacher, good morning.\nTanaka-sensei: Good morning, Ken.\nKen: Excuse me, are you Japanese?\nTanaka-sensei: Yes, I am Japanese. Ken, are you a student?\nKen: Yes, I am a student. Pleased to work with you.\nTanaka-sensei: Pleased to work with you.",
+    "turns": [
+      {
+        "speaker": "ケン",
+        "ja": "せんせい、おはようございます。",
+        "kana": "せんせい、おはようございます。",
+        "en": "Teacher, good morning."
+      },
+      {
+        "speaker": "たなか先生",
+        "ja": "おはようございます、ケンさん。",
+        "kana": "おはようございます、ケンさん。",
+        "en": "Good morning, Ken."
+      },
+      {
+        "speaker": "ケン",
+        "ja": "すみません、たなかさんはにほんじんですか。",
+        "kana": "すみません、たなかさんはにほんじんですか。",
+        "en": "Excuse me, are you Japanese?"
+      },
+      {
+        "speaker": "たなか先生",
+        "ja": "はい、にほんじんです。ケンさんはがくせいですか。",
+        "kana": "はい、にほんじんです。ケンさんはがくせいですか。",
+        "en": "Yes, I am Japanese. Are you a student?"
+      },
+      {
+        "speaker": "ケン",
+        "ja": "はい、がくせいです。よろしくおねがいします。",
+        "kana": "はい、がくせいです。よろしくおねがいします。",
+        "en": "Yes, I am a student. Pleased to meet you."
+      },
+      {
+        "speaker": "たなか先生",
+        "ja": "よろしくおねがいします。",
+        "kana": "よろしくおねがいします。",
+        "en": "Pleased to meet you."
+      }
+    ],
+    "questionIds": [
+      "n5.l01.q032",
+      "n5.l01.q033",
+      "n5.l01.q034",
+      "n5.l01.q035",
+      "n5.l01.q036"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-09-30T10:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l01.q001",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「おはようございます」 mean?",
+      "choices": [
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Thank you"
+      ],
+      "answer": "Good morning",
+      "explanation": "「おはようございます」 is the polite Japanese morning greeting.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q002",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What is the daytime greeting \"Hello\" in Japanese?",
+      "choices": [
+        "こんにちは",
+        "こんばんは",
+        "すみません",
+        "はじめまして"
+      ],
+      "answer": "こんにちは",
+      "explanation": "「こんにちは」 is used from late morning until late afternoon.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q003",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "Which expression means \"Thank you very much\"?",
+      "choices": [
+        "ありがとうございます",
+        "すみません",
+        "はじめまして",
+        "こんばんは"
+      ],
+      "answer": "ありがとうございます",
+      "explanation": "「ありがとうございます」 expresses gratitude politely.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q004",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "Which expression is used to say \"Excuse me\" or \"I am sorry\"?",
+      "choices": [
+        "すみません",
+        "こんにちは",
+        "わたし",
+        "なまえ"
+      ],
+      "answer": "すみません",
+      "explanation": "「すみません」 is used for getting attention, apologizing, or thanking lightly.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q005",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "When meeting someone for the first time, you say:",
+      "choices": [
+        "はじめまして",
+        "こんばんは",
+        "がくせい",
+        "にほんじん"
+      ],
+      "answer": "はじめまして",
+      "explanation": "「はじめまして」 comes from 始めて (for the first time).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q006",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What is the meaning of 「がくせい」?",
+      "choices": [
+        "Student",
+        "Teacher",
+        "Japanese person",
+        "Name"
+      ],
+      "answer": "Student",
+      "explanation": "がくせい (学生) means student.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q007",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What is the meaning of 「せんせい」?",
+      "choices": [
+        "Teacher",
+        "Student",
+        "Doctor",
+        "Friend"
+      ],
+      "answer": "Teacher",
+      "explanation": "せんせい (先生) means teacher or professor.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q008",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「にほんじん」 mean?",
+      "choices": [
+        "Japanese person",
+        "Japanese language",
+        "Student",
+        "Japan"
+      ],
+      "answer": "Japanese person",
+      "explanation": "にほん (Japan) + じん (person) = Japanese person.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q009",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「なまえ」 mean?",
+      "choices": [
+        "Name",
+        "Student",
+        "Book",
+        "Teacher"
+      ],
+      "answer": "Name",
+      "explanation": "なまえ (名前) means name.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q010",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese word for \"I / me\" in hiragana:",
+      "answer": "わたし",
+      "acceptedAnswers": [
+        "わたし",
+        "私"
+      ],
+      "explanation": "わたし means I or me.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q011",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese word for \"Student\" in hiragana:",
+      "answer": "がくせい",
+      "acceptedAnswers": [
+        "がくせい",
+        "学生"
+      ],
+      "explanation": "がくせい is spelled が・く・せ・い.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n5.l01.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q012",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese word for \"Teacher\" in hiragana:",
+      "answer": "せんせい",
+      "acceptedAnswers": [
+        "せんせい",
+        "先生"
+      ],
+      "explanation": "せんせい is spelled せ・ん・せ・い.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n5.l01.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q013",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese word for \"Name\" in hiragana:",
+      "answer": "なまえ",
+      "acceptedAnswers": [
+        "なまえ",
+        "名前"
+      ],
+      "explanation": "なまえ is spelled な・ま・え.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q014",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "Which greeting is used in the evening?",
+      "choices": [
+        "こんばんは",
+        "おはようございます",
+        "こんにちは",
+        "はじめまして"
+      ],
+      "answer": "こんばんは",
+      "explanation": "「こんばんは」 is used when greeting in the evening.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q015",
+      "lessonId": "n5.l01",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the phrase for \"Nice to meet you (for the first time)\" in hiragana:",
+      "answer": "はじめまして",
+      "acceptedAnswers": [
+        "はじめまして"
+      ],
+      "explanation": "はじめまして is used during initial introductions.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n5.l01.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q016",
+      "lessonId": "n5.l01",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What is the reading of 「学」 in 「学生」?",
+      "choices": [
+        "がく",
+        "せい",
+        "せん",
+        "まな"
+      ],
+      "answer": "がく",
+      "explanation": "In the compound word 学生, 学 is read as がく (onyomi).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q017",
+      "lessonId": "n5.l01",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "What is the core meaning of the kanji 「学」?",
+      "choices": [
+        "Study / Learning",
+        "Life / Birth",
+        "Before / Ahead",
+        "Person"
+      ],
+      "answer": "Study / Learning",
+      "explanation": "学 represents study, learning, or school.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q018",
+      "lessonId": "n5.l01",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What is the reading of 「生」 in 「先生」?",
+      "choices": [
+        "せい",
+        "しょう",
+        "なま",
+        "い"
+      ],
+      "answer": "せい",
+      "explanation": "In 先生 (せんせい), 生 is read as せい.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q019",
+      "lessonId": "n5.l01",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "What is the core meaning of the kanji 「生」?",
+      "choices": [
+        "Life / Birth",
+        "Study",
+        "Ahead / Previous",
+        "Book"
+      ],
+      "answer": "Life / Birth",
+      "explanation": "生 signifies life, birth, or living.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q020",
+      "lessonId": "n5.l01",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What is the reading of 「先」 in 「先生」?",
+      "choices": [
+        "せん",
+        "さき",
+        "がく",
+        "せい"
+      ],
+      "answer": "せん",
+      "explanation": "In 先生 (せんせい), 先 is read as せん.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q021",
+      "lessonId": "n5.l01",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "What is the core meaning of the kanji 「先」?",
+      "choices": [
+        "Before / Ahead",
+        "School",
+        "Child",
+        "Water"
+      ],
+      "answer": "Before / Ahead",
+      "explanation": "先 means previous, ahead, or born before (as in 先生).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q022",
+      "lessonId": "n5.l01",
+      "skill": "kanji",
+      "type": "typed_recall",
+      "prompt": "Type the reading of the kanji compound 「学生」 in hiragana:",
+      "answer": "がくせい",
+      "acceptedAnswers": [
+        "がくせい"
+      ],
+      "explanation": "学生 is read がくせい.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n5.l01.k001",
+        "n5.l01.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q023",
+      "lessonId": "n5.l01",
+      "skill": "kanji",
+      "type": "typed_recall",
+      "prompt": "Type the reading of the kanji compound 「先生」 in hiragana:",
+      "answer": "せんせい",
+      "acceptedAnswers": [
+        "せんせい"
+      ],
+      "explanation": "先生 is read せんせい.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n5.l01.k003",
+        "n5.l01.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q024",
+      "lessonId": "n5.l01",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "Which kanji combination means \"Teacher\"?",
+      "choices": [
+        "先生",
+        "学生",
+        "大学",
+        "先月"
+      ],
+      "answer": "先生",
+      "explanation": "先生 literally means \"born before\" -> teacher/mentor.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.k003",
+        "n5.l01.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q025",
+      "lessonId": "n5.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete the sentence: 「わたし ____ がくせいです。」",
+      "choices": [
+        "は",
+        "の",
+        "か",
+        "に"
+      ],
+      "answer": "は",
+      "explanation": "The topic particle は marks 「わたし」 as the topic.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q026",
+      "lessonId": "n5.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Which particle turns 「たなかさんは せんせいです」 into a question?",
+      "choices": [
+        "か",
+        "は",
+        "の",
+        "よ"
+      ],
+      "answer": "か",
+      "explanation": "Adding か at the end creates a polite question: ですか。",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q037",
+      "lessonId": "n5.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "How do you say \"My name\" in Japanese?",
+      "choices": [
+        "わたしの なまえ",
+        "わたしは なまえ",
+        "なまえの わたし",
+        "わたしが なまえ"
+      ],
+      "answer": "わたしの なまえ",
+      "explanation": "The particle の shows possession: [Owner] の [Item].",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q038",
+      "lessonId": "n5.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct particle: 「たなかさん ____ せんせいです。」",
+      "choices": [
+        "は",
+        "の",
+        "か",
+        "を"
+      ],
+      "answer": "は",
+      "explanation": "Topic particle は is required after Tanaka-san.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q039",
+      "lessonId": "n5.l01",
+      "skill": "grammar",
+      "type": "typed_recall",
+      "prompt": "Complete the question by typing the missing particle: 「がくせい です____。」",
+      "answer": "か",
+      "acceptedAnswers": [
+        "か"
+      ],
+      "explanation": "か is the question particle.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q040",
+      "lessonId": "n5.l01",
+      "skill": "grammar",
+      "type": "reorder",
+      "prompt": "Rearrange the blocks to say \"I am a student\": [がくせい / わたし / です / は]",
+      "choices": [
+        "わたし は がくせい です",
+        "がくせい は わたし です",
+        "わたし です がくせい は"
+      ],
+      "answer": "わたし は がくせい です",
+      "explanation": "Subject/Topic (わたし) + は + Predicate (がくせい) + です.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n5.l01.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q041",
+      "lessonId": "n5.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "What is the role of 「です」 in 「わたしはがくせいです」?",
+      "choices": [
+        "Polite copula (\"am / is / are\")",
+        "Question marker",
+        "Topic marker",
+        "Object marker"
+      ],
+      "answer": "Polite copula (\"am / is / are\")",
+      "explanation": "です is the polite copula affirming the state of being.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q042",
+      "lessonId": "n5.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Which sentence correctly means \"Are you a student?\"",
+      "choices": [
+        "がくせいですか。",
+        "がくせいですね。",
+        "がくせいでした。",
+        "がくせいでの。"
+      ],
+      "answer": "がくせいですか。",
+      "explanation": "Noun + ですか asks if the person is that noun.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q043",
+      "lessonId": "n5.l01",
+      "skill": "grammar",
+      "type": "typed_recall",
+      "prompt": "Type the particle that connects two nouns (e.g. わたし ____ なまえ):",
+      "answer": "の",
+      "acceptedAnswers": [
+        "の"
+      ],
+      "explanation": "Particle の links modifying noun to head noun.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q027",
+      "lessonId": "n5.l01",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "According to the passage, what is the speaker's name?",
+      "choices": [
+        "Ken (ケン)",
+        "Tanaka (たなか)",
+        "Sensei",
+        "Nihonjin"
+      ],
+      "answer": "Ken (ケン)",
+      "explanation": "The text states: 「わたしの なまえは ケンです。」",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q028",
+      "lessonId": "n5.l01",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "What is Ken's occupation?",
+      "choices": [
+        "Student (がくせい)",
+        "Teacher (せんせい)",
+        "Engineer",
+        "Doctor"
+      ],
+      "answer": "Student (がくせい)",
+      "explanation": "The text states: 「わたしは がくせいです。」",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q029",
+      "lessonId": "n5.l01",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "Who is Mr. Tanaka?",
+      "choices": [
+        "The teacher (せんせい)",
+        "A fellow student",
+        "Ken's friend",
+        "A tourist"
+      ],
+      "answer": "The teacher (せんせい)",
+      "explanation": "The text states: 「たなかさんは せんせいです。」",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q030",
+      "lessonId": "n5.l01",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "What is Mr. Tanaka's nationality?",
+      "choices": [
+        "Japanese (にほんじん)",
+        "American",
+        "Canadian",
+        "Not specified"
+      ],
+      "answer": "Japanese (にほんじん)",
+      "explanation": "The text states: 「たなかさんは にほんじんです。」",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q031",
+      "lessonId": "n5.l01",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "How does Ken conclude his self-introduction?",
+      "choices": [
+        "よろしく おねがいします",
+        "おはようございます",
+        "こんばんは",
+        "ありがとうございます"
+      ],
+      "answer": "よろしく おねがいします",
+      "explanation": "Ken ends with: 「よろしく おねがいします。」",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q032",
+      "lessonId": "n5.l01",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What greeting did Ken use when speaking to Tanaka-sensei?",
+      "choices": [
+        "おはようございます",
+        "こんにちは",
+        "こんばんは",
+        "さようなら"
+      ],
+      "answer": "おはようございます",
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "explanation": "Ken greets his teacher in the morning: 「せんせい、おはようございます。」",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q033",
+      "lessonId": "n5.l01",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What word did Ken say before asking his question to be polite?",
+      "choices": [
+        "すみません",
+        "はじめまして",
+        "よろしく",
+        "どうも"
+      ],
+      "answer": "すみません",
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "explanation": "Ken politely begins with: 「すみません、たなかさんはにほんじんですか。」",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q034",
+      "lessonId": "n5.l01",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "How did Tanaka-sensei answer when asked if he is Japanese?",
+      "choices": [
+        "はい、にほんじんです。",
+        "いいえ、にほんじんではありません。",
+        "わかりません。",
+        "いいえ。"
+      ],
+      "answer": "はい、にほんじんです。",
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "explanation": "Tanaka-sensei replies: 「はい、にほんじんです。」",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q035",
+      "lessonId": "n5.l01",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What does Tanaka-sensei ask Ken?",
+      "choices": [
+        "ケンさんはがくせいですか。",
+        "ケンさんはせんせいですか。",
+        "ケンさんはにほんじんですか。",
+        "なまえはなんですか。"
+      ],
+      "answer": "ケンさんはがくせいですか。",
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "explanation": "Tanaka-sensei asks: 「ケンさんはがくせいですか。」",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l01.q036",
+      "lessonId": "n5.l01",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What was Ken's response about being a student?",
+      "choices": [
+        "はい、がくせいです。",
+        "いいえ、せんせいです。",
+        "いいえ、違います。",
+        "がくせいではありません。"
+      ],
+      "answer": "はい、がくせいです。",
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "explanation": "Ken confirms: 「はい、がくせいです。」",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l01.l01"
+      ],
+      "generated": false
+    }
+  ]
+}

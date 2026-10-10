@@ -1,0 +1,1640 @@
+{
+  "id": "n5.l07",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 7,
+  "title": "Giving and Receiving Tools (あげます・もらいます)",
+  "description": "Express tools and media using particle で (means/language), communicate giving and receiving gifts with あげます and もらいます, and express completion with もう〜ました.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l07.v001",
+      "lessonId": "n5.l07",
+      "ja": "切ります",
+      "kana": "きります",
+      "en": "To cut",
+      "my": "ဖြတ်သည် / လှီးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l07.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.v002",
+      "lessonId": "n5.l07",
+      "ja": "送ります",
+      "kana": "おくります",
+      "en": "To send",
+      "my": "ပို့သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l07.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.v003",
+      "lessonId": "n5.l07",
+      "ja": "あげます",
+      "kana": "あげます",
+      "en": "To give",
+      "my": "ပေးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l07.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.v004",
+      "lessonId": "n5.l07",
+      "ja": "もらいます",
+      "kana": "もらいます",
+      "en": "To receive",
+      "my": "ရရှိသည် / လက်ခံရရှိသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l07.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.v005",
+      "lessonId": "n5.l07",
+      "ja": "貸します",
+      "kana": "かします",
+      "en": "To lend",
+      "my": "ငှားပေးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l07.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.v006",
+      "lessonId": "n5.l07",
+      "ja": "借ります",
+      "kana": "かります",
+      "en": "To borrow",
+      "my": "ငှားရမ်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l07.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.v007",
+      "lessonId": "n5.l07",
+      "ja": "教えます",
+      "kana": "おしえます",
+      "en": "To teach / inform",
+      "my": "သင်ပြသည် / ပြောပြသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l07.s006",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.v008",
+      "lessonId": "n5.l07",
+      "ja": "習います",
+      "kana": "ならいます",
+      "en": "To learn",
+      "my": "သင်ယူသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l07.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.v009",
+      "lessonId": "n5.l07",
+      "ja": "手紙",
+      "kana": "てがみ",
+      "en": "Letter",
+      "my": "စာ (ပေးစာ)",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l07.s002",
+      "kanjiIds": [
+        "n5.l07.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.v010",
+      "lessonId": "n5.l07",
+      "ja": "プレゼント",
+      "kana": "ぷれぜんと",
+      "en": "Present / Gift",
+      "my": "လက်ဆောင်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l07.s004",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.v011",
+      "lessonId": "n5.l07",
+      "ja": "箸",
+      "kana": "はし",
+      "en": "Chopsticks",
+      "my": "တူ (ထမင်းစားတူ)",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l07.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.v012",
+      "lessonId": "n5.l07",
+      "ja": "もう",
+      "kana": "もう",
+      "en": "Already",
+      "my": "ပြီးပြီ / ရောက်ပြီ",
+      "pos": "adverb",
+      "exampleSentenceId": "n5.l07.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l07.k001",
+      "lessonId": "n5.l07",
+      "char": "手",
+      "meaning": "Hand",
+      "onyomi": [
+        "シュ"
+      ],
+      "kunyomi": [
+        "て"
+      ],
+      "exampleVocab": [
+        {
+          "word": "手紙 (てがみ)",
+          "reading": "てがみ",
+          "meaning": "Letter",
+          "preview": false
+        },
+        {
+          "word": "上手 (じょうず)",
+          "reading": "じょうず",
+          "meaning": "Skillful",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l07.s001"
+      ],
+      "components": [
+        "手"
+      ],
+      "strokes": 4,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.k002",
+      "lessonId": "n5.l07",
+      "char": "紙",
+      "meaning": "Paper",
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "かみ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "手紙 (てがみ)",
+          "reading": "てがみ",
+          "meaning": "Letter",
+          "preview": false
+        },
+        {
+          "word": "折り紙 (おりがみ)",
+          "reading": "おりがみ",
+          "meaning": "Origami",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l07.s002"
+      ],
+      "components": [
+        "紙"
+      ],
+      "strokes": 10,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.k003",
+      "lessonId": "n5.l07",
+      "char": "友",
+      "meaning": "Friend",
+      "onyomi": [
+        "ユウ"
+      ],
+      "kunyomi": [
+        "とも"
+      ],
+      "exampleVocab": [
+        {
+          "word": "友達 (ともだち)",
+          "reading": "ともだち",
+          "meaning": "Friend",
+          "preview": false
+        },
+        {
+          "word": "友人 (ゆうじん)",
+          "reading": "ゆうじん",
+          "meaning": "Friend (formal)",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l07.s003"
+      ],
+      "components": [
+        "友"
+      ],
+      "strokes": 4,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.k004",
+      "lessonId": "n5.l07",
+      "char": "父",
+      "meaning": "Father",
+      "onyomi": [
+        "フ"
+      ],
+      "kunyomi": [
+        "ちち",
+        "とう"
+      ],
+      "exampleVocab": [
+        {
+          "word": "父 (ちち)",
+          "reading": "ちち",
+          "meaning": "My father",
+          "preview": false
+        },
+        {
+          "word": "お父さん (おとうさん)",
+          "reading": "おとうさん",
+          "meaning": "Father (polite)",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l07.s004"
+      ],
+      "components": [
+        "父"
+      ],
+      "strokes": 4,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l07.g001",
+      "lessonId": "n5.l07",
+      "pattern": "[Tool / Language] で [Action]",
+      "meaning": "By means of [Tool] / In [Language]",
+      "formation": "Tool / Language + で + Action Verb",
+      "explanation": {
+        "en": "The particle で specifies the instrument, tool, or medium used to complete an action (e.g. はしで食べます = eat with chopsticks; 日本語で書きます = write in Japanese).",
+        "my": "ကိရိယာတန်ဆာပလာ သို့မဟုတ် ဘာသာစကားဖြင့် ပြုလုပ်ကြောင်းဖော်ပြရာတွင် 「で」 လိုက်သည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l07.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l07.s002",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse tool で with location で. Both use particle で, but tool で marks instruments."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.g002",
+      "lessonId": "n5.l07",
+      "pattern": "[Person] に [Item] を あげます / もらいます",
+      "meaning": "Give [Item] to [Person] / Receive [Item] from [Person]",
+      "formation": "Receiver + に + Item + を + あげます  /  Giver + に/から + Item + を + もらいます",
+      "explanation": {
+        "en": "Marks giving and receiving transactions. Giver gives to receiver (に あげます); receiver receives from giver (に/から もらいます).",
+        "my": "ပေးကမ်းခြင်းတွင် လက်ခံသူနောက် 「に」၊ ရရှိခြင်းတွင် ပေးသူနောက် 「に / から」 လိုက်သည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l07.s002",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l07.s003",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Never use あげます when someone gives something to YOU. Use もらいます or くれます instead."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l07.s001",
+      "lessonId": "n5.l07",
+      "ja": "箸でご飯を食べます。",
+      "kana": "はしでごはんをたべます。",
+      "translation": {
+        "en": "I eat rice with chopsticks.",
+        "my": "တူနဲ့ ထမင်းစားပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l07.v011"
+      ],
+      "grammarIds": [
+        "n5.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.s002",
+      "lessonId": "n5.l07",
+      "ja": "日本語で家族に手紙を書きました。",
+      "kana": "にほんごでかぞくにてがみをかきました。",
+      "translation": {
+        "en": "I wrote a letter to my family in Japanese.",
+        "my": "ဂျပန်လို မိသားစုထံသို့ စာရေးခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l07.v009"
+      ],
+      "grammarIds": [
+        "n5.l07.g001",
+        "n5.l07.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.s003",
+      "lessonId": "n5.l07",
+      "ja": "母の日に花をあげました。",
+      "kana": "ははのひにはなをあげました。",
+      "translation": {
+        "en": "I gave flowers to my mother on Mother's Day.",
+        "my": "အမေများနေ့မှာ အမေ့ကို ပန်းပေးခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l07.v003"
+      ],
+      "grammarIds": [
+        "n5.l07.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.s004",
+      "lessonId": "n5.l07",
+      "ja": "誕生日に父から時計をもらいました。",
+      "kana": "たんじょうびにちちからとけいをもらいました。",
+      "translation": {
+        "en": "I received a watch from my father on my birthday.",
+        "my": "မွေးနေ့မှာ ဖခင်ဆီကနေ နာရီလက်ဆောင် ရရှိခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l07.v004"
+      ],
+      "grammarIds": [
+        "n5.l07.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.s005",
+      "lessonId": "n5.l07",
+      "ja": "もう宿題をしましたか。はい、もうしました。",
+      "kana": "もうしゅくだいをしましたか。はい、もうしました。",
+      "translation": {
+        "en": "Have you already done your homework? Yes, I have already done it.",
+        "my": "အိမ်စာ လုပ်ပြီးပြီလား။ ဟုတ်ကဲ့၊ လုပ်ပြီးပါပြီ။"
+      },
+      "vocabIds": [
+        "n5.l07.v012"
+      ],
+      "grammarIds": [
+        "n5.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.s006",
+      "lessonId": "n5.l07",
+      "ja": "木村さんに英語を教えます。",
+      "kana": "きむらさんにえいごをおしえます。",
+      "translation": {
+        "en": "I teach English to Kimura-san.",
+        "my": "ခီမူရာစန်းကို အင်္ဂလိပ်စာ သင်ပြပေးပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l07.v007"
+      ],
+      "grammarIds": [
+        "n5.l07.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.s007",
+      "lessonId": "n5.l07",
+      "ja": "毎日切ります。",
+      "kana": "まいにちきります。",
+      "translation": {
+        "en": "I to cut every day.",
+        "my": "နေ့တိုင်း ဖြတ်သည် / လှီးသည်။"
+      },
+      "vocabIds": [
+        "n5.l07.v001"
+      ],
+      "grammarIds": [
+        "n5.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.s008",
+      "lessonId": "n5.l07",
+      "ja": "毎日送ります。",
+      "kana": "まいにちおくります。",
+      "translation": {
+        "en": "I to send every day.",
+        "my": "နေ့တိုင်း ပို့သည်။"
+      },
+      "vocabIds": [
+        "n5.l07.v002"
+      ],
+      "grammarIds": [
+        "n5.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.s009",
+      "lessonId": "n5.l07",
+      "ja": "毎日貸します。",
+      "kana": "まいにちかします。",
+      "translation": {
+        "en": "I to lend every day.",
+        "my": "နေ့တိုင်း ငှားပေးသည်။"
+      },
+      "vocabIds": [
+        "n5.l07.v005"
+      ],
+      "grammarIds": [
+        "n5.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.s010",
+      "lessonId": "n5.l07",
+      "ja": "毎日借ります。",
+      "kana": "まいにちかります。",
+      "translation": {
+        "en": "I to borrow every day.",
+        "my": "နေ့တိုင်း ငှားရမ်းသည်။"
+      },
+      "vocabIds": [
+        "n5.l07.v006"
+      ],
+      "grammarIds": [
+        "n5.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.s011",
+      "lessonId": "n5.l07",
+      "ja": "毎日習います。",
+      "kana": "まいにちならいます。",
+      "translation": {
+        "en": "I to learn every day.",
+        "my": "နေ့တိုင်း သင်ယူသည်။"
+      },
+      "vocabIds": [
+        "n5.l07.v008"
+      ],
+      "grammarIds": [
+        "n5.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l07.s012",
+      "lessonId": "n5.l07",
+      "ja": "これはプレゼントです。",
+      "kana": "これはぷれぜんとです。",
+      "translation": {
+        "en": "This is a present / gift.",
+        "my": "ဒါဟာ လက်ဆောင် ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l07.v010"
+      ],
+      "grammarIds": [
+        "n5.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l07.r01",
+    "lessonId": "n5.l07",
+    "title": "Giving and Receiving Tools (あげます・もらいます) - 読解",
+    "level": "N5",
+    "text": "昨日は私の二十歳の誕生日でした。友達のリンさんがうちに遊びに来ました。リンさんは私にきれいなペンをくれました。そして、私はリンさんにお茶と手作りのケーキをあげました。父と母からもプレゼントをもらいました。スマートフォンで家族に「ありがとう」のメッセージを送りました。とても嬉しい一日でした。",
+    "kanaText": "きのうはわたしのはたちのたんじょうびでした。ともだちのりんさんがうちに spoonful にあそびにきました。りんさんはわたしにきれいなぺんをくれました。そして、わたしはりんさんにおちゃとてづくりのけーきをあげました。ちちとははからもぷれぜんとをもらいました。すまーとふぉんでかぞくに「ありがとう」のめっせーじをおくりました。とてもうれしいいちにちでした。",
+    "translation": "Yesterday was my 20th birthday. My friend Lin-san came over to my house. Lin-san gave me a beautiful pen. And I gave Lin-san tea and homemade cake. I also received presents from my father and mother. I sent a \"thank you\" message to my family using my smartphone. It was a very joyful day.",
+    "questionIds": [
+      "n5.l07.q021",
+      "n5.l07.q022",
+      "n5.l07.q023",
+      "n5.l07.q024",
+      "n5.l07.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l07.l01",
+    "lessonId": "n5.l07",
+    "title": "Giving and Receiving Tools (あげます・もらいます) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "小林",
+      "マイク"
+    ],
+    "transcript": "小林：マイクさん、来週は佐藤さんの送別会ですね。もうプレゼントを買いましたか。\nマイク：いいえ、まだです。何がいいでしょうか。\n小林：佐藤さんは本が大好きですから、素敵なブックカバーをあげませんか。\nマイク：それは素晴らしいアイデアですね！明日、デパートで買いましょう。",
+    "translation": "Two colleagues discuss what present to give Sato-san for her farewell party.",
+    "turns": [
+      {
+        "speaker": "小林",
+        "ja": "マイクさん、来週は佐藤さんの送別会ですね。もうプレゼントを買いましたか。",
+        "kana": "こばやし：まいくさん、らいしゅうはさとうさんのそうべつかいですね。もうぷれぜんとをかいましたか。",
+        "en": "Mike-san, next week is Sato-san's farewell party. Have you bought a present already?"
+      },
+      {
+        "speaker": "マイク",
+        "ja": "いいえ、まだです。何がいいでしょうか。",
+        "kana": "いいえ、まだです。なにがいいでしょうか。",
+        "en": "No, not yet. What would be good?"
+      },
+      {
+        "speaker": "小林",
+        "ja": "佐藤さんは本が大好きですから、素敵なブックカバーをあげませんか。",
+        "kana": "さとうさんはほんがだいすきですから、すてきなぶっくかばーをあげませんか。",
+        "en": "Sato-san loves books, so why don't we give her a nice book cover?"
+      },
+      {
+        "speaker": "マイク",
+        "ja": "それは素晴らしいアイデアですね！明日、デパートで買いましょう。",
+        "kana": "それはすばらしいあいでぃあですね！あした、でぱーとでかいましょう。",
+        "en": "That is a wonderful idea! Let's buy it at the department store tomorrow."
+      }
+    ],
+    "questionIds": [
+      "n5.l07.q026",
+      "n5.l07.q027",
+      "n5.l07.q028",
+      "n5.l07.q029",
+      "n5.l07.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l07.q001",
+      "lessonId": "n5.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「切ります」の意味は何ですか。 (What does 「切ります」 mean?)",
+      "choices": [
+        "To cut",
+        "To send",
+        "To give",
+        "To receive"
+      ],
+      "answer": "To cut",
+      "acceptedAnswers": [
+        "To cut"
+      ],
+      "explanation": "「切ります」(きります) means \"To cut\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q002",
+      "lessonId": "n5.l07",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To send\" in hiragana:",
+      "answer": "おくります",
+      "acceptedAnswers": [
+        "おくります",
+        "送ります"
+      ],
+      "explanation": "The Japanese word for \"To send\" is 送ります (おくります).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q003",
+      "lessonId": "n5.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「あげます」の意味は何ですか。 (What does 「あげます」 mean?)",
+      "choices": [
+        "To borrow",
+        "To lend",
+        "To receive",
+        "To give"
+      ],
+      "answer": "To give",
+      "acceptedAnswers": [
+        "To give"
+      ],
+      "explanation": "「あげます」(あげます) means \"To give\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q004",
+      "lessonId": "n5.l07",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To receive\" in hiragana:",
+      "answer": "もらいます",
+      "acceptedAnswers": [
+        "もらいます",
+        "もらいます"
+      ],
+      "explanation": "The Japanese word for \"To receive\" is もらいます (もらいます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q005",
+      "lessonId": "n5.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「貸します」の意味は何ですか。 (What does 「貸します」 mean?)",
+      "choices": [
+        "To learn",
+        "To teach / inform",
+        "To borrow",
+        "To lend"
+      ],
+      "answer": "To lend",
+      "acceptedAnswers": [
+        "To lend"
+      ],
+      "explanation": "「貸します」(かします) means \"To lend\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q006",
+      "lessonId": "n5.l07",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To borrow\" in hiragana:",
+      "answer": "かります",
+      "acceptedAnswers": [
+        "かります",
+        "借ります"
+      ],
+      "explanation": "The Japanese word for \"To borrow\" is 借ります (かります).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q007",
+      "lessonId": "n5.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「教えます」の意味は何ですか。 (What does 「教えます」 mean?)",
+      "choices": [
+        "To teach / inform",
+        "To learn",
+        "Letter",
+        "Present / Gift"
+      ],
+      "answer": "To teach / inform",
+      "acceptedAnswers": [
+        "To teach / inform"
+      ],
+      "explanation": "「教えます」(おしえます) means \"To teach / inform\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q008",
+      "lessonId": "n5.l07",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To learn\" in hiragana:",
+      "answer": "ならいます",
+      "acceptedAnswers": [
+        "ならいます",
+        "習います"
+      ],
+      "explanation": "The Japanese word for \"To learn\" is 習います (ならいます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q009",
+      "lessonId": "n5.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「手紙」の意味は何ですか。 (What does 「手紙」 mean?)",
+      "choices": [
+        "Already",
+        "Chopsticks",
+        "Present / Gift",
+        "Letter"
+      ],
+      "answer": "Letter",
+      "acceptedAnswers": [
+        "Letter"
+      ],
+      "explanation": "「手紙」(てがみ) means \"Letter\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q010",
+      "lessonId": "n5.l07",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Present / Gift\" in hiragana:",
+      "answer": "ぷれぜんと",
+      "acceptedAnswers": [
+        "ぷれぜんと",
+        "プレゼント"
+      ],
+      "explanation": "The Japanese word for \"Present / Gift\" is プレゼント (ぷれぜんと).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q011",
+      "lessonId": "n5.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「箸」の意味は何ですか。 (What does 「箸」 mean?)",
+      "choices": [
+        "To send",
+        "To cut",
+        "Already",
+        "Chopsticks"
+      ],
+      "answer": "Chopsticks",
+      "acceptedAnswers": [
+        "Chopsticks"
+      ],
+      "explanation": "「箸」(はし) means \"Chopsticks\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q012",
+      "lessonId": "n5.l07",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Already\" in hiragana:",
+      "answer": "もう",
+      "acceptedAnswers": [
+        "もう",
+        "もう"
+      ],
+      "explanation": "The Japanese word for \"Already\" is もう (もう).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q013",
+      "lessonId": "n5.l07",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「手」の意味は何ですか。 (What is the meaning of kanji 「手」?)",
+      "choices": [
+        "Hand",
+        "Paper",
+        "Friend",
+        "Tree"
+      ],
+      "answer": "Hand",
+      "acceptedAnswers": [
+        "Hand"
+      ],
+      "explanation": "「手」means \"Hand\". Onyomi: シュ, Kunyomi: て.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q014",
+      "lessonId": "n5.l07",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「手」の読み方はどれですか。 (Which is a correct reading for 「手」?)",
+      "choices": [
+        "て",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "て",
+      "acceptedAnswers": [
+        "て"
+      ],
+      "explanation": "「手」 has the reading 「て」 (Hand).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q015",
+      "lessonId": "n5.l07",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「紙」の意味は何ですか。 (What is the meaning of kanji 「紙」?)",
+      "choices": [
+        "Paper",
+        "Hand",
+        "Friend",
+        "Tree"
+      ],
+      "answer": "Paper",
+      "acceptedAnswers": [
+        "Paper"
+      ],
+      "explanation": "「紙」means \"Paper\". Onyomi: シ, Kunyomi: かみ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q016",
+      "lessonId": "n5.l07",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「紙」の読み方はどれですか。 (Which is a correct reading for 「紙」?)",
+      "choices": [
+        "かみ",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "かみ",
+      "acceptedAnswers": [
+        "かみ"
+      ],
+      "explanation": "「紙」 has the reading 「かみ」 (Paper).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q017",
+      "lessonId": "n5.l07",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「友」の意味は何ですか。 (What is the meaning of kanji 「友」?)",
+      "choices": [
+        "Friend",
+        "Hand",
+        "Paper",
+        "Tree"
+      ],
+      "answer": "Friend",
+      "acceptedAnswers": [
+        "Friend"
+      ],
+      "explanation": "「友」means \"Friend\". Onyomi: ユウ, Kunyomi: とも.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q018",
+      "lessonId": "n5.l07",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「友」の読み方はどれですか。 (Which is a correct reading for 「友」?)",
+      "choices": [
+        "とも",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "とも",
+      "acceptedAnswers": [
+        "とも"
+      ],
+      "explanation": "「友」 has the reading 「とも」 (Friend).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q019",
+      "lessonId": "n5.l07",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「父」の意味は何ですか。 (What is the meaning of kanji 「父」?)",
+      "choices": [
+        "Father",
+        "Hand",
+        "Paper",
+        "Tree"
+      ],
+      "answer": "Father",
+      "acceptedAnswers": [
+        "Father"
+      ],
+      "explanation": "「父」means \"Father\". Onyomi: フ, Kunyomi: ちち, とう.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q020",
+      "lessonId": "n5.l07",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「父」の読み方はどれですか。 (Which is a correct reading for 「父」?)",
+      "choices": [
+        "ちち",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "ちち",
+      "acceptedAnswers": [
+        "ちち"
+      ],
+      "explanation": "「父」 has the reading 「ちち」 (Father).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q021",
+      "lessonId": "n5.l07",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "リンさんは何を持ってきましたか。 (What gift did Lin-san give?)",
+      "choices": [
+        "きれいなペン",
+        "手作りのケーキ",
+        "お茶",
+        "スマートフォン"
+      ],
+      "answer": "きれいなペン",
+      "acceptedAnswers": [
+        "きれいなペン"
+      ],
+      "explanation": "「リンさんは私にきれいなペンをくれました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q022",
+      "lessonId": "n5.l07",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "主人公はリンさんに何をあげましたか。 (What did the protagonist give to Lin-san?)",
+      "choices": [
+        "お茶と手作りのケーキ",
+        "きれいなペン",
+        "花束",
+        "本"
+      ],
+      "answer": "お茶と手作りのケーキ",
+      "acceptedAnswers": [
+        "お茶と手作りのケーキ"
+      ],
+      "explanation": "「私はリンさんにお茶と手作りのケーキをあげました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q023",
+      "lessonId": "n5.l07",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "家族にはどのようにメッセージを送りましたか。 (How was the message sent to family?)",
+      "choices": [
+        "スマートフォンで",
+        "手紙で",
+        "電話で",
+        "直接会って"
+      ],
+      "answer": "スマートフォンで",
+      "acceptedAnswers": [
+        "スマートフォンで"
+      ],
+      "explanation": "「スマートフォンで家族に「ありがとう」のメッセージを送りました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q024",
+      "lessonId": "n5.l07",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "何歳のお祝いでしたか。 (How old was the birthday celebrant?)",
+      "choices": [
+        "二十歳 (はたち)",
+        "十九歳",
+        "二十一歳",
+        "十八歳"
+      ],
+      "answer": "二十歳 (はたち)",
+      "acceptedAnswers": [
+        "二十歳 (はたち)"
+      ],
+      "explanation": "「昨日は私の二十歳の誕生日でした」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q025",
+      "lessonId": "n5.l07",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "この日はどんな一日でしたか。 (What kind of day was it?)",
+      "choices": [
+        "とても嬉しい一日",
+        "疲れた一日",
+        "悲しい一日",
+        "退屈な一日"
+      ],
+      "answer": "とても嬉しい一日",
+      "acceptedAnswers": [
+        "とても嬉しい一日"
+      ],
+      "explanation": "「とても嬉しい一日でした」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q026",
+      "lessonId": "n5.l07",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "二人は佐藤さんに何をあげますか。 (What will they give to Sato-san?)",
+      "choices": [
+        "素敵なブックカバー",
+        "花束",
+        "時計",
+        "辞書"
+      ],
+      "answer": "素敵なブックカバー",
+      "acceptedAnswers": [
+        "素敵なブックカバー"
+      ],
+      "explanation": "Kobayashi suggests giving a nice book cover (素敵なブックカバー).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q027",
+      "lessonId": "n5.l07",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "なぜブックカバーを選びましたか。 (Why did they choose a book cover?)",
+      "choices": [
+        "佐藤さんが本を大好きだから",
+        "安かったから",
+        "佐藤さんから頼まれたから",
+        "店員に勧められたから"
+      ],
+      "answer": "佐藤さんが本を大好きだから",
+      "acceptedAnswers": [
+        "佐藤さんが本を大好きだから"
+      ],
+      "explanation": "Kobayashi explains: 「佐藤さんは本が大好きですから」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q028",
+      "lessonId": "n5.l07",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "プレゼントはもう買いましたか。 (Has the present already been purchased?)",
+      "choices": [
+        "いいえ、明日デパートで買う",
+        "はい、もう買った",
+        "ネットで注文した",
+        "買わないことにした"
+      ],
+      "answer": "いいえ、明日デパートで買う",
+      "acceptedAnswers": [
+        "いいえ、明日デパートで買う"
+      ],
+      "explanation": "Mike answers 「いいえ、まだです」 and they decide to buy it tomorrow.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q029",
+      "lessonId": "n5.l07",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "来週は何がありますか。 (What event takes place next week?)",
+      "choices": [
+        "佐藤さんの送別会",
+        "マイクさんの誕生日",
+        "小林さんの歓迎会",
+        "会社の試験"
+      ],
+      "answer": "佐藤さんの送別会",
+      "acceptedAnswers": [
+        "佐藤さんの送別会"
+      ],
+      "explanation": "「来週は佐藤さんの送別会ですね」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l07.q030",
+      "lessonId": "n5.l07",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "二人はどこでプレゼントを買いますか。 (Where will they purchase the gift?)",
+      "choices": [
+        "デパート",
+        "駅の売店",
+        "本屋",
+        "コンビニ"
+      ],
+      "answer": "デパート",
+      "acceptedAnswers": [
+        "デパート"
+      ],
+      "explanation": "Mike suggests: 「明日、デパートで買いましょう」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l07.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

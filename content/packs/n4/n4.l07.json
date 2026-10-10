@@ -1,0 +1,1600 @@
+{
+  "id": "n4.l07",
+  "level": "N4",
+  "module": "N4 Intermediate Grammar 1",
+  "number": 7,
+  "title": "N4 Lesson 7: State Continuance (〜てある vs 〜ている)",
+  "description": "Master the intentional resultant state [他動詞-te] あります, contrasting deliberate arrangements with natural continuous states ([自動詞-te] います).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l07.v001",
+      "lessonId": "n4.l07",
+      "ja": "貼る",
+      "kana": "はる",
+      "en": "to paste; to stick; to affix",
+      "my": "ကပ်သည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l07.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.v002",
+      "lessonId": "n4.l07",
+      "ja": "掛ける",
+      "kana": "かける",
+      "en": "to hang (coat, picture, calendar)",
+      "my": "ချိတ်ဆွဲသည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l07.s002",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.v003",
+      "lessonId": "n4.l07",
+      "ja": "飾る",
+      "kana": "かざる",
+      "en": "to decorate; to display",
+      "my": "အလှဆင်သည်/ခင်းကျင်းပြသသည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l07.s003",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.v004",
+      "lessonId": "n4.l07",
+      "ja": "並べる",
+      "kana": "ならべる",
+      "en": "to line up; to arrange (transitive)",
+      "my": "စီစဉ်ထားသိုသည်/တန်းစီသည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l07.s004",
+      "kanjiIds": [
+        "n4.l07.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.v005",
+      "lessonId": "n4.l07",
+      "ja": "植える",
+      "kana": "うえる",
+      "en": "to plant; to sow",
+      "my": "စိုက်ပျိုးသည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l07.s005",
+      "kanjiIds": [
+        "n4.l07.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.v006",
+      "lessonId": "n4.l07",
+      "ja": "戻す",
+      "kana": "もどす",
+      "en": "to return (something); to put back",
+      "my": "မူလနေရာ ပြန်ထားသည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l07.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.v007",
+      "lessonId": "n4.l07",
+      "ja": "片づける",
+      "kana": "かたづける",
+      "en": "to tidy up; to put in order",
+      "my": "သိမ်းဆည်းသပ်ရပ်အောင်လုပ်သည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l07.s007",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.v008",
+      "lessonId": "n4.l07",
+      "ja": "決まる",
+      "kana": "きまる",
+      "en": "to be decided; to be settled (intransitive)",
+      "my": "ဆုံးဖြတ်ပြီးဖြစ်သည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l07.s008",
+      "kanjiIds": [
+        "n4.l07.k003"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.v009",
+      "lessonId": "n4.l07",
+      "ja": "連絡",
+      "kana": "れんらく",
+      "en": "contact; communication",
+      "my": "ဆက်သွယ်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l07.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.v010",
+      "lessonId": "n4.l07",
+      "ja": "予定表",
+      "kana": "よていひょう",
+      "en": "schedule; itinerary table",
+      "my": "အချိန်ဇယား/အစီအစဉ်ဇယား",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l07.s009",
+      "kanjiIds": [
+        "n4.l07.k003",
+        "n4.l07.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.v011",
+      "lessonId": "n4.l07",
+      "ja": "引き出し",
+      "kana": "ひきだし",
+      "en": "drawer",
+      "my": "အံဆွဲ",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l07.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.v012",
+      "lessonId": "n4.l07",
+      "ja": "ゴミ箱",
+      "kana": "ごみばこ",
+      "en": "trash can; wastebasket",
+      "my": "အမှိုက်ပုံး",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l07.s010",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l07.k001",
+      "lessonId": "n4.l07",
+      "char": "並",
+      "meaning": "line up; row; arrange",
+      "onyomi": [
+        "ヘイ"
+      ],
+      "kunyomi": [
+        "なら.ぶ",
+        "なら.べる",
+        "なみ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "並べる",
+          "reading": "ならべる",
+          "meaning": "to line up (tr)",
+          "preview": false
+        },
+        {
+          "word": "並ぶ",
+          "reading": "ならぶ",
+          "meaning": "to stand in line (intr)",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l07.s001"
+      ],
+      "components": [],
+      "strokes": 8,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.k002",
+      "lessonId": "n4.l07",
+      "char": "植",
+      "meaning": "plant",
+      "onyomi": [
+        "ショク"
+      ],
+      "kunyomi": [
+        "う.える",
+        "う.わる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "植える",
+          "reading": "うえる",
+          "meaning": "to plant",
+          "preview": false
+        },
+        {
+          "word": "植物",
+          "reading": "しょくぶつ",
+          "meaning": "plant/vegetation",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l07.s001"
+      ],
+      "components": [],
+      "strokes": 12,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.k003",
+      "lessonId": "n4.l07",
+      "char": "定",
+      "meaning": "fix; determine; settle",
+      "onyomi": [
+        "テイ",
+        "ジョウ"
+      ],
+      "kunyomi": [
+        "さだ.める",
+        "さだ.まる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "予定",
+          "reading": "よてい",
+          "meaning": "schedule/plan",
+          "preview": false
+        },
+        {
+          "word": "定休日",
+          "reading": "ていきゅうび",
+          "meaning": "regular day off",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l07.s001"
+      ],
+      "components": [],
+      "strokes": 8,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.k004",
+      "lessonId": "n4.l07",
+      "char": "表",
+      "meaning": "table; surface; express",
+      "onyomi": [
+        "ヒョウ"
+      ],
+      "kunyomi": [
+        "おもて",
+        "あらわ.す",
+        "あらわ.れる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "予定表",
+          "reading": "よていひょう",
+          "meaning": "schedule sheet",
+          "preview": false
+        },
+        {
+          "word": "表",
+          "reading": "おもて",
+          "meaning": "front/surface",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l07.s001"
+      ],
+      "components": [],
+      "strokes": 8,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l07.g001",
+      "lessonId": "n4.l07",
+      "pattern": "[Noun] が [Transitive Verb-te] あります",
+      "meaning": "Intentional Resultant State ([他動詞-te] あります)",
+      "formation": "[Noun] が + [他動詞 て-form] + あります\n(書いてあります, 貼ってあります, 置いてあります, 並べてあります, 飾ってあります)",
+      "explanation": {
+        "en": "Expresses that someone intentionally performed an action on an object for a specific purpose, and the resulting state remains visible. The original object of the transitive verb is marked with が (e.g. カレンダーが壁に掛けてあります = A calendar is hung on the wall [someone hung it for convenience]).",
+        "my": "လူတစ်ဦးဦးက ရည်ရွယ်ချက်တစ်ခုခုဖြင့် လုပ်ဆောင်ထားပြီး ထိုအခြေအနေ ဆက်လက်ကျန်ရှိနေကြောင်း ဖော်ပြသည်။ ကံလိုကြိယာ (他動詞) ကို て-form ပြောင်းပြီး あります ပေါင်းစပ်သည်။ ကံပုဒ်တွင် ကို (を) မဟုတ်ဘဲ ဂ (が) တွဲသည် (ဥပမာ- 壁にカレンダーが掛けてあります = နံရံတွင် ပြက္ခဒိန် ချိတ်ဆွဲထားပါသည်)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l07.s001",
+          "note": "Example 1"
+        },
+        {
+          "sentenceId": "n4.l07.s002",
+          "note": "Example 2"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Contrast: 窓が開いています (Intransitive: The window is open, no human agent implied) vs 窓が開けてあります (Transitive: The window has been opened and left that way intentionally, e.g. for fresh air)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.g002",
+      "lessonId": "n4.l07",
+      "pattern": "もう [Transitive Verb-te] あります",
+      "meaning": "Preparation Done Ahead of Time (もう [他動詞-te] あります)",
+      "formation": "もう + [他動詞 て-form] + あります",
+      "explanation": {
+        "en": "Often used in response to questions about preparations (e.g. 「ホテルの予約はもうしましたか」「はい、もう予約してあります」 = \"Have you made hotel reservations?\" \"Yes, it is already booked\"). It confirms that preparations are in place.",
+        "my": "ပြင်ဆင်မှုများနှင့် ပတ်သက်၍ မေးမြန်းရာတွင် \"ကြိုတင်လုပ်ဆောင်ထားပြီးဖြစ်ပါသည်\" ဟု ဖြေဆိုရာတွင် အဓိကသုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l07.s001",
+          "note": "Example 1"
+        },
+        {
+          "sentenceId": "n4.l07.s002",
+          "note": "Example 2"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Common mistake: Do not confuse with [他動詞-te] おきます (will do in advance). [〜てあります] means the preparation is ALREADY completed and standing."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l07.s001",
+      "lessonId": "n4.l07",
+      "ja": "オフィスの掲示板に、今月の避難訓練の案内が貼ってあります。",
+      "kana": "オフィスのけいじばんに、こんげつのひなんくんれんのあんないがはってあります。",
+      "translation": {
+        "en": "A notice about this month's evacuation drill is posted on the office bulletin board.",
+        "my": "ရုံး၏ အသိပေးဘုတ်တွင် ယခုလ မီးဘေးလွတ်ရာတိမ်းရှောင်ရေး လေ့ကျင့်မှု အသိပေးစာ ကပ်ထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l07.v001",
+        "n4.l07.v009"
+      ],
+      "grammarIds": [
+        "n4.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.s002",
+      "lessonId": "n4.l07",
+      "ja": "会議室の白い壁に、来年のカレンダーが掛けてあります。",
+      "kana": "かいぎしつのしろいかべに、らいねんのカレンダーがかけてあります。",
+      "translation": {
+        "en": "On the white wall of the meeting room, next year's calendar is hung.",
+        "my": "အစည်းအဝေးခန်း၏ အဖြူရောင်နံရံတွင် လာမည့်နှစ်အတွက် ပြက္ခဒိန်တစ်ခု ချိတ်ဆွဲထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l07.v002"
+      ],
+      "grammarIds": [
+        "n4.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.s003",
+      "lessonId": "n4.l07",
+      "ja": "受付のテーブルの上に、きれいな季節の花が飾ってあります。",
+      "kana": "うけつけのテーブルのうえに、きれいなきせつのはながかざってあります。",
+      "translation": {
+        "en": "On the reception table, beautiful seasonal flowers are displayed.",
+        "my": "ဧည့်ကြိုကောင်တာ စားပွဲပေါ်တွင် လှပသော ရာသီပန်းများ အလှဆင်ထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l07.v003"
+      ],
+      "grammarIds": [
+        "n4.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.s004",
+      "lessonId": "n4.l07",
+      "ja": "セミナーの参加者のために、椅子と机がきれいに並べてあります。",
+      "kana": "セミナーのさんかしゃのために、いすとつくえがきれいにならべてあります。",
+      "translation": {
+        "en": "Chairs and desks are neatly arranged for seminar participants.",
+        "my": "ဆွေးနွေးပွဲတက်ရောက်သူများအတွက် ကုလားထိုင်နှင့် စားပွဲများကို သပ်ရပ်စွာ စီတန်းထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l07.v004"
+      ],
+      "grammarIds": [
+        "n4.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.s005",
+      "lessonId": "n4.l07",
+      "ja": "公園の花壇には、春に咲くチューリップの球根が植えてあります。",
+      "kana": "こうえんのかだんには、はるにさくチューリップのきゅうこんがうえてあります。",
+      "translation": {
+        "en": "In the park flowerbeds, tulip bulbs that bloom in spring are planted.",
+        "my": "ပန်းခြံပန်းခင်းတွင် နွေဦး၌ပွင့်မည့် တူးလစ်ပန်းဥများကို စိုက်ပျိုးထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l07.v005"
+      ],
+      "grammarIds": [
+        "n4.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.s006",
+      "lessonId": "n4.l07",
+      "ja": "使ったハサミやペンは、元の引き出しの中に戻してあります。",
+      "kana": "つかったハサミやペンは、もとのひきだしのなかにもどしてあります。",
+      "translation": {
+        "en": "The scissors and pens that were used have been put back into their original drawer.",
+        "my": "အသုံးပြုခဲ့သော ကတ်ကြေးနှင့် ဘောပင်များကို မူလအံဆွဲထဲသို့ ပြန်လည်ထည့်ထားပြီးဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l07.v006",
+        "n4.l07.v011"
+      ],
+      "grammarIds": [
+        "n4.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.s007",
+      "lessonId": "n4.l07",
+      "ja": "散らかっていた本や書類は、本棚にきちんと片づけてあります。",
+      "kana": "ちらかっていたほんやしょるいは、ほんだなにきちんとかたづけてあります。",
+      "translation": {
+        "en": "The books and documents that were scattered have been tidied neatly onto the bookshelf.",
+        "my": "ပြန့်ကျဲနေသော စာအုပ်များနှင့် စာရွက်စာတမ်းများကို စာအုပ်စင်ပေါ်တွင် သပ်ရပ်စွာ ရှင်းလင်းထားပြီးဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l07.v007"
+      ],
+      "grammarIds": [
+        "n4.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.s008",
+      "lessonId": "n4.l07",
+      "ja": "次の出張の日程が決まりましたら、すぐにお客様に連絡してあります。",
+      "kana": "つぎのしゅっちょうのにっていがきまりましたら、すぐにおきゃくさまにれんらくしてあります。",
+      "translation": {
+        "en": "When the next business trip itinerary was decided, our clients were immediately contacted.",
+        "my": "နောက်ထပ် ခရီးစဉ်ရက် သတ်မှတ်ပြီးပါက ဧည့်သည်ထံသို့ ချက်ချင်း ဆက်သွယ်ထားပြီးဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l07.v008",
+        "n4.l07.v009"
+      ],
+      "grammarIds": [
+        "n4.l07.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.s009",
+      "lessonId": "n4.l07",
+      "ja": "ホワイトボードの右側に、今週のプロジェクトの予定表が貼ってあります。",
+      "kana": "ホワイトボードのみぎがわに、こんしゅうのプロジェクトのよていひょうがはってあります。",
+      "translation": {
+        "en": "On the right side of the whiteboard, this week's project schedule sheet is posted.",
+        "my": "ဝှိုက်ဘုတ်၏ ညာဘက်ခြမ်းတွင် ယခုအပတ် စီမံကိန်းအစီအစဉ်ဇယားကို ကပ်ထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l07.v001",
+        "n4.l07.v010"
+      ],
+      "grammarIds": [
+        "n4.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l07.s010",
+      "lessonId": "n4.l07",
+      "ja": "部屋の隅に大きなゴミ箱が置いてありますから、ゴミはそこに捨ててください。",
+      "kana": "へやのすみにおおきなごみばこがおいてありますから、ゴミはそこにすててください。",
+      "translation": {
+        "en": "A large trash can is placed in the corner of the room, so please throw trash there.",
+        "my": "အခန်းထောင့်တွင် အမှိုက်ပုံးကြီးတစ်ခု ထားရှိထားပါသဖြင့် အမှိုက်ကို ထိုနေရာတွင် စွန့်ပစ်ပါ။"
+      },
+      "vocabIds": [
+        "n4.l07.v012"
+      ],
+      "grammarIds": [
+        "n4.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l07.r01",
+    "lessonId": "n4.l07",
+    "title": "国際セミナー会場の準備完了報告 (International Seminar Hall Readiness Report)",
+    "level": "N4",
+    "text": "明日開催されるアジア国際交流セミナーに向けて、大会議室の準備がすべて完了しました。\n\nまず、演壇の正面には大きな横断幕が掲げてあり、参加者全員が見やすいようにプロジェクターのスクリーンも下ろしてあります。机の上には各国の代表者の名札と資料のファイルがきちんと並べてあります。また、会場の入り口付近には受付の案内板が立ててあり、全体の進行予定表が大きく貼ってあります。\n\n参加者の休憩時間のために、部屋の奥のテーブルには温かいお茶やコーヒーのカップが用意してあります。花瓶には季節の新鮮な花が美しく飾ってあり、心地よい雰囲気で会議を迎えられます。すべての機器のテストもすでに済ませてありますから、明日は時間通りに開会できる予定です。",
+    "kanaText": "明日開催されるアジア国際交流セミナーに向けて、大会議室の準備がすべて完了しました。\n\nまず、演壇の正面には大きな横断幕が掲げてあり、参加者全員が見やすいようにプロジェクターのスクリーンも下ろしてあります。机の上には各国の代表者の名札と資料のファイルがきちんと並べてあります。また、会場の入り口付近には受付の案内板が立ててあり、全体の進行予定表が大きく貼ってあります。\n\n参加者の休憩時間のために、部屋の奥のテーブルには温かいお茶やコーヒーのカップが用意してあります。花瓶には季節の新鮮な花が美しく飾ってあり、心地よい雰囲気で会議を迎えられます。すべての機器のテストもすでに済ませてありますから、明日は時間通りに開会できる予定です。",
+    "translation": "Preparations in the large conference hall have all been completed for the Asia International Exchange Seminar being held tomorrow.\n\nFirst, a large banner is hung across the front of the podium, and the projector screen has been lowered so that all participants can view it easily. On the desks, nameplates of representatives from various countries and document files are neatly arranged. In addition, an information board for the reception desk is set up near the entrance, and the overall progression schedule sheet is posted largely.\n\nFor participants' break time, cups for hot tea and coffee are prepared on the table in the back of the room. In the flower vase, fresh seasonal flowers are beautifully decorated, welcoming the conference with a pleasant atmosphere. All equipment tests have already been completed as well, so the opening ceremony is scheduled to begin right on time tomorrow.",
+    "questionIds": [
+      "n4.l07.q021",
+      "n4.l07.q022",
+      "n4.l07.q023",
+      "n4.l07.q024",
+      "n4.l07.q025"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l07.l01",
+    "lessonId": "n4.l07",
+    "title": "歓迎パーティー前の準備確認 (Checking Preparations Before the Welcome Party)",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "木村：スミスさん、今夜の新入生歓迎パーティーの準備はどうなっていますか。\nスミス：はい、大体終わりましたよ。看板はもう教室の黒板に貼ってあります。\n木村：そうですか。飲み物や食べ物は届きましたか。\nスミス：はい、ジュースやお茶は冷やすために、もう冷蔵庫に入れてあります。紙コップとお皿もテーブルの上に並べてありますよ。\n木村：素晴らしいですね。音楽はどうしますか。\nスミス：CDプレーヤーを準備して、スピーカーにつないでありますから、スイッチを押せばすぐ流れます。\n木村：ありがとう！名札は作ってありますか。\nスミス：はい、留学生の名札も全員分書いてありますから、受付に置いておきますね。",
+    "translation": "Kimura: Smith, how are preparations coming along for the freshman welcome party tonight?\nSmith: Yes, they are almost finished. The banner sign is already posted on the classroom blackboard.\nKimura: I see. Have the food and drinks arrived?\nSmith: Yes, juice and tea are already placed in the refrigerator to chill. Paper cups and plates are also arranged on the table.\nKimura: Wonderful. What about the music?\nSmith: I prepared the CD player and it is connected to speakers, so it will play as soon as we press the switch.\nKimura: Thank you! Are the name tags made?\nSmith: Yes, name tags for all international students are written as well, so I will place them at the reception desk.",
+    "turns": [],
+    "questionIds": [
+      "n4.l07.q026",
+      "n4.l07.q027",
+      "n4.l07.q028",
+      "n4.l07.q029",
+      "n4.l07.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l07.q001",
+      "lessonId": "n4.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "壁にポスターを（　）ときは、壁を傷つけないように注意してください。",
+      "choices": [
+        "貼る",
+        "掛ける",
+        "植える",
+        "戻す"
+      ],
+      "answer": "貼る",
+      "acceptedAnswers": [
+        "貼る"
+      ],
+      "explanation": "Pasting/sticking a poster on a wall is ポスターを貼る (はる).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q002",
+      "lessonId": "n4.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "玄関の壁に家族の写真が（　）てあります。",
+      "choices": [
+        "掛け",
+        "貼り",
+        "植え",
+        "並べ"
+      ],
+      "answer": "掛け",
+      "acceptedAnswers": [
+        "掛け"
+      ],
+      "explanation": "Hanging a framed picture on a wall is 写真を掛ける (掛けてある).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q003",
+      "lessonId": "n4.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "机の上に本や書類を順番に（　）てください。",
+      "choices": [
+        "並べて",
+        "戻して",
+        "貼って",
+        "植えて"
+      ],
+      "answer": "並べて",
+      "acceptedAnswers": [
+        "並べて"
+      ],
+      "explanation": "Lining up / arranging in order is 並べる (ならべる).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q004",
+      "lessonId": "n4.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "使った辞書は元の本棚の場所に（　）てください。",
+      "choices": [
+        "戻して",
+        "飾って",
+        "落として",
+        "閉めて"
+      ],
+      "answer": "戻して",
+      "acceptedAnswers": [
+        "戻して"
+      ],
+      "explanation": "Returning something to its original place is 戻す (もどす).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q005",
+      "lessonId": "n4.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "旅行の集合時間や持ち物は、配られた（　）に書いてあります。",
+      "choices": [
+        "予定表",
+        "ゴミ箱",
+        "引き出し",
+        "道具"
+      ],
+      "answer": "予定表",
+      "acceptedAnswers": [
+        "予定表"
+      ],
+      "explanation": "Schedule sheet / itinerary table is 予定表 (よていひょう).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q006",
+      "lessonId": "n4.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "飲み終わった空き缶は、分別して（　）に捨ててください。",
+      "choices": [
+        "ゴミ箱",
+        "引き出し",
+        "予定表",
+        "掲示板"
+      ],
+      "answer": "ゴミ箱",
+      "acceptedAnswers": [
+        "ゴミ箱"
+      ],
+      "explanation": "Trash can is ゴミ箱 (ごみばこ).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q007",
+      "lessonId": "n4.l07",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「並べる」の下線部（並）の訓読みはどれですか。",
+      "choices": [
+        "なら",
+        "へい",
+        "う",
+        "さだ"
+      ],
+      "answer": "なら",
+      "acceptedAnswers": [
+        "なら"
+      ],
+      "explanation": "並べる is read ならべる (kun-yomi なら).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q008",
+      "lessonId": "n4.l07",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「植物」の「植」の音読みはどれですか。",
+      "choices": [
+        "ショク",
+        "ヘイ",
+        "テイ",
+        "ヒョウ"
+      ],
+      "answer": "ショク",
+      "acceptedAnswers": [
+        "ショク"
+      ],
+      "explanation": "The on-yomi of 植 is ショク (as in 植物 しょくぶつ).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q009",
+      "lessonId": "n4.l07",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「予定」の「定」と同じ漢字を含む言葉はどれですか。",
+      "choices": [
+        "定休日",
+        "案内所",
+        "経験",
+        "質問"
+      ],
+      "answer": "定休日",
+      "acceptedAnswers": [
+        "定休日"
+      ],
+      "explanation": "Both 予定 and 定休日 share the kanji 定 (テイ).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q010",
+      "lessonId": "n4.l07",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「よていひょう」を漢字で書くとき、正しい表記はどれですか。",
+      "choices": [
+        "予定表",
+        "予訂表",
+        "定予表",
+        "予定標"
+      ],
+      "answer": "予定表",
+      "acceptedAnswers": [
+        "予定表"
+      ],
+      "explanation": "Schedule sheet is written 予定表 (よていひょう).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.k003",
+        "n4.l07.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q011",
+      "lessonId": "n4.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "壁にカレンダー（　）掛けてあります。",
+      "choices": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": "が",
+      "acceptedAnswers": [
+        "が"
+      ],
+      "explanation": "In [他動詞-te] あります resultant state sentences, the entity is marked with が.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q012",
+      "lessonId": "n4.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "ホテルの予約はもう（　）ありますから、ご安心ください。",
+      "choices": [
+        "して",
+        "する",
+        "した",
+        "すれば"
+      ],
+      "answer": "して",
+      "acceptedAnswers": [
+        "して"
+      ],
+      "explanation": "Preparations completed in advance use もう [他動詞-te] あります: 予約してあります.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q013",
+      "lessonId": "n4.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "黒板に連絡事項が（　）あります。",
+      "choices": [
+        "書いて",
+        "書かれて",
+        "書いてい",
+        "書く"
+      ],
+      "answer": "書いて",
+      "acceptedAnswers": [
+        "書いて"
+      ],
+      "explanation": "Transitive verb 書く in resultant state is 書いてあります.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q014",
+      "lessonId": "n4.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "机の上にきれいな花が（　）あります。",
+      "choices": [
+        "飾って",
+        "飾られ",
+        "飾る",
+        "飾り"
+      ],
+      "answer": "飾って",
+      "acceptedAnswers": [
+        "飾って"
+      ],
+      "explanation": "Transitive verb 飾る with あります is 飾ってあります.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q015",
+      "lessonId": "n4.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「窓が開いています」と「窓が開けてあります」の違いとして正しいものはどれですか。",
+      "choices": [
+        "「開けてあります」は誰かが換気などの目的で意図的に開けた状態を表す",
+        "「開いています」は誰かがわざと開けた状態を表す",
+        "両方とも同じ意味で違いはない",
+        "「開けてあります」は現在進行中の動作を表す"
+      ],
+      "answer": "「開けてあります」は誰かが換気などの目的で意図的に開けた状態を表す",
+      "acceptedAnswers": [
+        "「開けてあります」は誰かが換気などの目的で意図的に開けた状態を表す"
+      ],
+      "explanation": "〜てある implies an intentional human action done for a purpose.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q016",
+      "lessonId": "n4.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "明日の会議の資料はもう（　）あります。",
+      "choices": [
+        "コピーして",
+        "コピーする",
+        "コピーした",
+        "コピーされた"
+      ],
+      "answer": "コピーして",
+      "acceptedAnswers": [
+        "コピーして"
+      ],
+      "explanation": "Completed advance preparation: もうコピーしてあります.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q017",
+      "lessonId": "n4.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "冷蔵庫にビールが（　）ありますから、自由に飲んでください。",
+      "choices": [
+        "冷やして",
+        "冷えて",
+        "冷やす",
+        "冷える"
+      ],
+      "answer": "冷やして",
+      "acceptedAnswers": [
+        "冷やして"
+      ],
+      "explanation": "Transitive verb 冷やす (to chill) with あります is 冷やしてあります.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q018",
+      "lessonId": "n4.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "チケットはもう（　）ありますか。",
+      "choices": [
+        "買って",
+        "買う",
+        "買った",
+        "買えば"
+      ],
+      "answer": "買って",
+      "acceptedAnswers": [
+        "買って"
+      ],
+      "explanation": "Asking if tickets have been bought in advance is もう買ってありますか.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q019",
+      "lessonId": "n4.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "庭に新しい木が（　）あります。",
+      "choices": [
+        "植えて",
+        "植えられて",
+        "植える",
+        "植え"
+      ],
+      "answer": "植えて",
+      "acceptedAnswers": [
+        "植えて"
+      ],
+      "explanation": "Transitive 植える with あります is 植えてあります.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q020",
+      "lessonId": "n4.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "名前（　）書いてある書類を提出してください。",
+      "choices": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": "が",
+      "acceptedAnswers": [
+        "が"
+      ],
+      "explanation": "Noun phrase modifier with てある marks noun with が: 名前が書いてある書類.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q021",
+      "lessonId": "n4.l07",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "明日何が開催されますか。",
+      "choices": [
+        "アジア国際交流セミナー",
+        "新入社員歓迎会",
+        "高校の卒業式",
+        "日本語能力試験"
+      ],
+      "answer": "アジア国際交流セミナー",
+      "acceptedAnswers": [
+        "アジア国際交流セミナー"
+      ],
+      "explanation": "The text states: 明日開催されるアジア国際交流セミナーに向けて...",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q022",
+      "lessonId": "n4.l07",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "演壇の正面には何が掲げてありますか。",
+      "choices": [
+        "大きな横断幕",
+        "時計",
+        "絵画",
+        "鏡"
+      ],
+      "answer": "大きな横断幕",
+      "acceptedAnswers": [
+        "大きな横断幕"
+      ],
+      "explanation": "The text says: 演壇の正面には大きな横断幕が掲げてあり...",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q023",
+      "lessonId": "n4.l07",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "机の上に何が並べてありますか。",
+      "choices": [
+        "各国の代表者の名札と資料のファイル",
+        "お弁当とお茶のペットボトル",
+        "パソコンとキーボード",
+        "ペンとノートだけ"
+      ],
+      "answer": "各国の代表者の名札と資料のファイル",
+      "acceptedAnswers": [
+        "各国の代表者の名札と資料のファイル"
+      ],
+      "explanation": "The text states: 机の上には各国の代表者の名札と資料のファイルがきちんと並べてあります.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q024",
+      "lessonId": "n4.l07",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "参加者の休憩時間のために、何が用意してありますか。",
+      "choices": [
+        "温かいお茶やコーヒーのカップ",
+        "冷たいビールとワイン",
+        "ケーキと果物",
+        "お菓子のお土産"
+      ],
+      "answer": "温かいお茶やコーヒーのカップ",
+      "acceptedAnswers": [
+        "温かいお茶やコーヒーのカップ"
+      ],
+      "explanation": "The text states: 部屋の奥のテーブルには温かいお茶やコーヒーのカップが用意してあります.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q025",
+      "lessonId": "n4.l07",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "明日の開会について、文章はどう締めくくられていますか。",
+      "choices": [
+        "機器のテストも済んでおり、時間通りに開会できる予定である",
+        "準備が遅れており、開会時間が遅れる予定である",
+        "天候が悪いため、セミナーは中止になる",
+        "来週に延期される予定である"
+      ],
+      "answer": "機器のテストも済んでおり、時間通りに開会できる予定である",
+      "acceptedAnswers": [
+        "機器のテストも済んでおり、時間通りに開会できる予定である"
+      ],
+      "explanation": "The final sentence states: すべての機器のテストもすでに済ませてありますから、明日は時間通りに開会できる予定です.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q026",
+      "lessonId": "n4.l07",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "看板はどこに貼ってありますか。",
+      "choices": [
+        "教室の黒板",
+        "教室のドア",
+        "廊下の壁",
+        "建物の入り口"
+      ],
+      "answer": "教室の黒板",
+      "acceptedAnswers": [
+        "教室の黒板"
+      ],
+      "explanation": "Smith says: 看板はもう教室の黒板に貼ってあります.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q028",
+      "lessonId": "n4.l07",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "飲み物はどうしてありますか。",
+      "choices": [
+        "冷やすために冷蔵庫に入れてある",
+        "テーブルの上に並べてある",
+        "まだ買いに行っていない",
+        "温めてポットに入れてある"
+      ],
+      "answer": "冷やすために冷蔵庫に入れてある",
+      "acceptedAnswers": [
+        "冷やすために冷蔵庫に入れてある"
+      ],
+      "explanation": "Smith states: ジュースやお茶は冷やすために、もう冷蔵庫に入れてあります.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q027",
+      "lessonId": "n4.l07",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "テーブルの上には何が並べてありますか。",
+      "choices": [
+        "紙コップとお皿",
+        "花瓶とお花",
+        "パソコンと本",
+        "食べ物とお菓子"
+      ],
+      "answer": "紙コップとお皿",
+      "acceptedAnswers": [
+        "紙コップとお皿"
+      ],
+      "explanation": "Smith says: 紙コップとお皿もテーブルの上に並べてありますよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q029",
+      "lessonId": "n4.l07",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "音楽はどうすればすぐ流れますか。",
+      "choices": [
+        "スイッチを押せばすぐ流れる",
+        "先生に電話すれば流れる",
+        "パソコンを立ち上げれば流れる",
+        "CDを買いに行かなければならない"
+      ],
+      "answer": "スイッチを押せばすぐ流れる",
+      "acceptedAnswers": [
+        "スイッチを押せばすぐ流れる"
+      ],
+      "explanation": "Smith explains: スイッチを押せばすぐ流れます.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l07.q030",
+      "lessonId": "n4.l07",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "留学生の名札はどこに置く予定ですか。",
+      "choices": [
+        "受付",
+        "黒板の前",
+        "各自の机",
+        "先生の部屋"
+      ],
+      "answer": "受付",
+      "acceptedAnswers": [
+        "受付"
+      ],
+      "explanation": "Smith says: 全員分書いてありますから、受付に置いておきますね.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l07.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

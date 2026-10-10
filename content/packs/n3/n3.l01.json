@@ -1,0 +1,1718 @@
+{
+  "id": "n3.l01",
+  "level": "N3",
+  "module": "N3 Bridging Intermediate",
+  "number": 1,
+  "title": "N3 Lesson 1: Regarding & Concerning (対象と関連: 〜について vs 〜に関して)",
+  "description": "Master designating topics and scopes with 〜について (broadly used for discussion and thought) and 〜に関して (formal, objective, and relating to broader fields).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l01.v001",
+      "lessonId": "n3.l01",
+      "ja": "調査",
+      "kana": "ちょうさ",
+      "en": "investigation; survey; inquiry",
+      "my": "စုံစမ်းစစ်ဆေးမှု/စစ်တမ်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l01.s001",
+      "kanjiIds": [
+        "n3.l01.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.v002",
+      "lessonId": "n3.l01",
+      "ja": "報告する",
+      "kana": "ほうこくする",
+      "en": "to report; to brief; to inform",
+      "my": "အစီရင်ခံသည်/သတင်းပို့သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n3.l01.s002",
+      "kanjiIds": [
+        "n3.l01.k003",
+        "n3.l01.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.v003",
+      "lessonId": "n3.l01",
+      "ja": "資料",
+      "kana": "しりょう",
+      "en": "materials; data; handouts; documents",
+      "my": "စာရွက်စာတမ်း/အချက်အလက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l01.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.v004",
+      "lessonId": "n3.l01",
+      "ja": "内容",
+      "kana": "ないよう",
+      "en": "contents; substance; details",
+      "my": "ပါဝင်သောအကြောင်းအရာ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l01.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.v005",
+      "lessonId": "n3.l01",
+      "ja": "結果",
+      "kana": "けっか",
+      "en": "result; consequence; outcome",
+      "my": "ရလဒ်/အကျိုးဆက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l01.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.v006",
+      "lessonId": "n3.l01",
+      "ja": "意見",
+      "kana": "いけん",
+      "en": "opinion; view; comment",
+      "my": "ထင်မြင်ယူဆချက်/သဘောထား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l01.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.v007",
+      "lessonId": "n3.l01",
+      "ja": "詳しい",
+      "kana": "くわしい",
+      "en": "detailed; well-informed; familiar with",
+      "my": "အသေးစိတ်ကျသော/ကျွမ်းကျင်နှံ့စပ်သော",
+      "pos": "adj-i",
+      "exampleSentenceId": "n3.l01.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.v008",
+      "lessonId": "n3.l01",
+      "ja": "調べる",
+      "kana": "しらべる",
+      "en": "to investigate; to examine; to search",
+      "my": "ရှာဖွေစစ်ဆေးသည်/စုံစမ်းသည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n3.l01.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.v009",
+      "lessonId": "n3.l01",
+      "ja": "発表する",
+      "kana": "はっぴょうする",
+      "en": "to announce; to present; to publish",
+      "my": "ကြေညာသည်/တင်ပြသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n3.l01.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.v010",
+      "lessonId": "n3.l01",
+      "ja": "担当する",
+      "kana": "たんとうする",
+      "en": "to be in charge of; to take responsibility for",
+      "my": "တာဝန်ယူဆောင်ရွက်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n3.l01.s010",
+      "kanjiIds": [
+        "n3.l01.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.v011",
+      "lessonId": "n3.l01",
+      "ja": "提出する",
+      "kana": "ていしゅつする",
+      "en": "to submit; to hand in; to present",
+      "my": "တင်သွင်းသည်/ပေးအပ်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n3.l01.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.v012",
+      "lessonId": "n3.l01",
+      "ja": "まとめる",
+      "kana": "まとめる",
+      "en": "to summarize; to organize; to put together",
+      "my": "စုစည်းသည်/အနှစ်ချုပ်သည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n3.l01.s012",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l01.k001",
+      "lessonId": "n3.l01",
+      "char": "関",
+      "meaning": "connection; relation; involve; barrier",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [
+        "かか・わる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "関係",
+          "reading": "かんけい",
+          "meaning": "relationship/connection",
+          "preview": false
+        },
+        {
+          "word": "関心",
+          "reading": "かんしん",
+          "meaning": "interest/concern",
+          "preview": false
+        },
+        {
+          "word": "玄関",
+          "reading": "げんかん",
+          "meaning": "entrance hall",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l01.s003"
+      ],
+      "components": [
+        "門",
+        "关"
+      ],
+      "strokes": 14,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.k002",
+      "lessonId": "n3.l01",
+      "char": "係",
+      "meaning": "person in charge; duty; connection",
+      "onyomi": [
+        "ケイ"
+      ],
+      "kunyomi": [
+        "かか・る",
+        "かかり"
+      ],
+      "exampleVocab": [
+        {
+          "word": "係員",
+          "reading": "かかりいん",
+          "meaning": "clerk/official in charge",
+          "preview": false
+        },
+        {
+          "word": "関係",
+          "reading": "かんけい",
+          "meaning": "relation/relationship",
+          "preview": false
+        },
+        {
+          "word": "係長",
+          "reading": "かかりちょう",
+          "meaning": "chief clerk/unit head",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l01.s003"
+      ],
+      "components": [
+        "亻",
+        "系"
+      ],
+      "strokes": 9,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.k003",
+      "lessonId": "n3.l01",
+      "char": "報",
+      "meaning": "report; news; reward; tell",
+      "onyomi": [
+        "ホウ"
+      ],
+      "kunyomi": [
+        "むく・いる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "報告",
+          "reading": "ほうこく",
+          "meaning": "report/briefing",
+          "preview": false
+        },
+        {
+          "word": "情報",
+          "reading": "じょうほう",
+          "meaning": "information/intelligence",
+          "preview": false
+        },
+        {
+          "word": "天気予報",
+          "reading": "てんきよほう",
+          "meaning": "weather forecast",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l01.s002"
+      ],
+      "components": [
+        "幸",
+        "卩"
+      ],
+      "strokes": 12,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.k004",
+      "lessonId": "n3.l01",
+      "char": "告",
+      "meaning": "announce; inform; tell; declare",
+      "onyomi": [
+        "コク"
+      ],
+      "kunyomi": [
+        "つ・げる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "報告",
+          "reading": "ほうこく",
+          "meaning": "report/debriefing",
+          "preview": false
+        },
+        {
+          "word": "広告",
+          "reading": "こうこく",
+          "meaning": "advertisement",
+          "preview": false
+        },
+        {
+          "word": "予告",
+          "reading": "よこく",
+          "meaning": "advance notice/preview",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l01.s002"
+      ],
+      "components": [
+        "牛",
+        "口"
+      ],
+      "strokes": 7,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l01.g001",
+      "lessonId": "n3.l01",
+      "pattern": "〜について",
+      "meaning": "about; regarding; concerning (general topic of thought, speech, or investigation)",
+      "formation": "[Noun] + について\n[Noun] + についての + [Noun] (noun modification)",
+      "explanation": {
+        "en": "Used when designating an object or topic of thought, discussion, research, or writing (e.g., 話す, 考える, 調べる, 書く):\n- General and widespread across daily conversation, academic lectures, and workplace discussions.\n- When modifying a following noun directly, use the pattern [Noun 1 + についての + Noun 2], as in 「日本の伝統文化についての本」 (A book about Japanese traditional culture).",
+        "my": "တွေးတောခြင်း၊ ပြောဆိုဆွေးနွေးခြင်း၊ သုတေသနပြုခြင်း သို့မဟုတ် ရေးသားခြင်းတို့၏ အဓိကအကြောင်းအရာ/ခေါင်းစဉ်ကို ဖော်ပြရာတွင် အသုံးပြုသည်:\n- နေ့စဉ်စကားပြော၊ ကျောင်းသင်ခန်းစာများနှင့် လုပ်ငန်းခွင်များတွင် အသုံးများသည်။\n- နောက်ရှိ နာမ်ကို တိုက်ရိုက်အထူးပြုလိုသည့်အခါ [Noun 1 + についての + Noun 2] ပုံစံဖြင့် သုံးရသည် (ဥပမာ- ဂျပန်ရိုးရာယဉ်ကျေးမှုနှင့်ပတ်သက်သော စာအုပ်)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l01.s001",
+          "note": "Investigating about changes in youth's working styles."
+        },
+        {
+          "sentenceId": "n3.l01.s006",
+          "note": "Exchanging opinions about new internal company rules."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use について to mark direct physical interaction or impact (❌ ドアについて押す → ⭕️ ドアを押す).",
+        "When modifying a noun, do not drop の (❌ 環境問題についてレポート → ⭕️ 環境問題についてのレポート)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.g002",
+      "lessonId": "n3.l01",
+      "pattern": "〜に関して",
+      "meaning": "concerning; with respect to; in relation to (formal, broader scope than について)",
+      "formation": "[Noun] + に関して / に関しては / に関しても\n[Noun] + に関する + [Noun] (noun modification)",
+      "explanation": {
+        "en": "Indicates relation or bearing on a matter. More formal, literary, and objective than 〜について:\n- Frequently employed in news broadcasts, academic theses, business contracts, and official public statements.\n- Covers not just the central topic itself, but related surrounding matters and perimeter issues.\n- When modifying a noun directly, use [Noun 1 + に関する + Noun 2] (NOT に関しての), as in 「地球温暖化に関する調査結果」 (Survey results concerning global warming).",
+        "my": "ကိစ္စရပ်တစ်ခုနှင့် ဆက်စပ်ပတ်သက်မှုကို ဖော်ပြပြီး 〜について ထက် ပိုမိုယဉ်ကျေးခန့်ညားကာ စာဆန်သည်:\n- သတင်းထုတ်ပြန်ချက်များ၊ စာတမ်းများ၊ လုပ်ငန်းဆိုင်ရာ စာချုပ်များနှင့် တရားဝင်ကြေညာချက်များတွင် အဓိကသုံးသည်။\n- အဓိကအချက်သာမက ၎င်းနှင့်ဆက်နွှယ်နေသော ပတ်ဝန်းကျင်ကိစ္စရပ်များကိုပါ ခြုံငုံမိစေသည်။\n- နောက်ရှိ နာမ်ကို အထူးပြုသည့်အခါ [Noun 1 + に関する + Noun 2] ပုံစံကို သုံးရသည် (に関する ကို သုံးပြီး に関しての မသုံးရပါ)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l01.s002",
+          "note": "Reporting concerning the safety inspection results."
+        },
+        {
+          "sentenceId": "n3.l01.s005",
+          "note": "Survey results concerning energy consumption."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not say に関しての when modifying a noun (❌ 事件に関しての報告 → ⭕️ 事件に関する報告).",
+        "Avoid using に関して in very casual, intimate conversations between close friends where について is natural."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l01.s001",
+      "lessonId": "n3.l01",
+      "ja": "日本の若者の働き方の変化について、アンケート調査を行いました。",
+      "kana": "にほんの わかものの はたらきかたの へんかに ついて、あんけーと ちょうさを おこないました。",
+      "translation": {
+        "en": "We conducted a questionnaire survey about changes in Japanese youth's working styles.",
+        "my": "ဂျပန်လူငယ်များ၏ အလုပ်လုပ်ကိုင်ပုံ ပြောင်းလဲမှုနှင့်ပတ်သက်၍ မေးခွန်းလွှာစစ်တမ်းတစ်ခု ပြုလုပ်ခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l01.v001"
+      ],
+      "grammarIds": [
+        "n3.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.s002",
+      "lessonId": "n3.l01",
+      "ja": "工場の安全点検の結果に関して、来週の会議で詳しく報告します。",
+      "kana": "こうじょうの あんぜん てんけんの けっかに かんして、らいしゅうの かいぎで くわしく ほうこくします。",
+      "translation": {
+        "en": "Regarding the results of the factory safety inspection, I will report in detail at next week's meeting.",
+        "my": "စက်ရုံ၏ ဘေးအန္တရာယ်ကင်းရှင်းရေး စစ်ဆေးမှုရလဒ်များနှင့်စပ်လျဉ်း၍ လာမည့်အပတ် အစည်းအဝေးတွင် အသေးစိတ် အစီရင်ခံပါမည်။"
+      },
+      "vocabIds": [
+        "n3.l01.v002",
+        "n3.l01.v005",
+        "n3.l01.v007"
+      ],
+      "grammarIds": [
+        "n3.l01.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.s003",
+      "lessonId": "n3.l01",
+      "ja": "新製品の販売計画に関する重要資料を、関係者全員に配りました。",
+      "kana": "しんせいひんの はんばい けいかくに かんする じゅうよう しりょうを、かんけいしゃ ぜんいんに くばりました。",
+      "translation": {
+        "en": "I distributed important materials concerning the new product sales plan to all stakeholders.",
+        "my": "ထုတ်ကုန်အသစ် ရောင်းချရေးအစီအစဉ်နှင့် သက်ဆိုင်သော အရေးကြီးစာရွက်စာတမ်းများကို သက်ဆိုင်သူအားလုံးထံ ဝေငှခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l01.v003"
+      ],
+      "grammarIds": [
+        "n3.l01.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.s004",
+      "lessonId": "n3.l01",
+      "ja": "契約書の内容について何かご質問がございましたら、いつでもお尋ねください。",
+      "kana": "けいやくしょの ないように ついて なにか ごしつもんが ございましたら、いつでも おたずねください。",
+      "translation": {
+        "en": "If you have any questions regarding the contents of the contract, please feel free to ask at any time.",
+        "my": "စာချုပ်ပါ အကြောင်းအရာနှင့်ပတ်သက်၍ မေးမြန်းလိုသည်များရှိပါက အချိန်မရွေး မေးမြန်းနိုင်ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l01.v004"
+      ],
+      "grammarIds": [
+        "n3.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.s005",
+      "lessonId": "n3.l01",
+      "ja": "環境問題に関する最新の調査結果が、専門誌に掲載されました。",
+      "kana": "かんきょう もんだいに かんする さいしんの ちょうさ けっかが、せんもんしに けいさいされました。",
+      "translation": {
+        "en": "The latest survey results concerning environmental issues were published in a specialized journal.",
+        "my": "သဘာဝပတ်ဝန်းကျင်ပြဿနာများနှင့် သက်ဆိုင်သော နောက်ဆုံးရ စစ်တမ်းရလဒ်များကို အထူးပြုဂျာနယ်တွင် ဖော်ပြခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l01.v001",
+        "n3.l01.v005"
+      ],
+      "grammarIds": [
+        "n3.l01.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.s006",
+      "lessonId": "n3.l01",
+      "ja": "新しい社内ルールについて、社員の間で活発に意見が交わされました。",
+      "kana": "あたらしい しゃない るーるに ついて、しゃいんの あいだで かっぱつに いけんが かわされました。",
+      "translation": {
+        "en": "Regarding the new company rules, opinions were actively exchanged among employees.",
+        "my": "ကုမ္ပဏီတွင်း စည်းမျဉ်းအသစ်နှင့်ပတ်သက်၍ ဝန်ထမ်းများအကြား တက်ကြွစွာ သဘောထားများ ဖလှယ်ခဲ့ကြပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l01.v006"
+      ],
+      "grammarIds": [
+        "n3.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.s007",
+      "lessonId": "n3.l01",
+      "ja": "その事件についての詳しい情報は、まだ公表されていません。",
+      "kana": "その じけんに ついての くわしい じょうほうは、まだ こうひょう されていません。",
+      "translation": {
+        "en": "Detailed information regarding that incident has not yet been announced publicly.",
+        "my": "ထိုဖြစ်ရပ်နှင့်ပတ်သက်သော အသေးစိတ် အချက်အလက်များကို လူသိရှင်ကြား ထုတ်ပြန်ခြင်း မရှိသေးပါ။"
+      },
+      "vocabIds": [
+        "n3.l01.v007"
+      ],
+      "grammarIds": [
+        "n3.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.s008",
+      "lessonId": "n3.l01",
+      "ja": "海外市場の動向についてインターネットで詳しく調べました。",
+      "kana": "かいがい しじょうの どうこうに ついて いんたーねっとで くわしく しらべました。",
+      "translation": {
+        "en": "I investigated in detail on the internet about the trends of overseas markets.",
+        "my": "နိုင်ငံရပ်ခြား ဈေးကွက်အခြေအနေနှင့်ပတ်သက်၍ အင်တာနက်တွင် အသေးစိတ် ရှာဖွေစစ်ဆေးခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l01.v007",
+        "n3.l01.v008"
+      ],
+      "grammarIds": [
+        "n3.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.s009",
+      "lessonId": "n3.l01",
+      "ja": "研究発表会で、伝統工芸の保存に関する独自の提言を発表しました。",
+      "kana": "けんきゅう はっぴょうかいで、でんとう こうげいの ほぞんに かんする どくじの ていげんを はっぴょうしました。",
+      "translation": {
+        "en": "At the research presentation meeting, I presented an original proposal concerning the preservation of traditional crafts.",
+        "my": "သုတေသနရှင်းလင်းပွဲတွင် ရိုးရာလက်မှုပညာ ထိန်းသိမ်းရေးနှင့် သက်ဆိုင်သော ကိုယ်ပိုင်အကြံပြုချက်ကို တင်ပြခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l01.v009"
+      ],
+      "grammarIds": [
+        "n3.l01.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.s010",
+      "lessonId": "n3.l01",
+      "ja": "広報を担当する係員が、マスコミへの取材対応について説明しました。",
+      "kana": "こうほうを たんとうする かかりいんが、ますこみへの しゅざい たいおうに ついて せつめいしました。",
+      "translation": {
+        "en": "The clerk in charge of public relations explained about media interview handling.",
+        "my": "ပြန်ကြားရေးတာဝန်ခံ ဝန်ထမ်းက မီဒီယာတွေ့ဆုံမေးမြန်းမှု ဖြေကြားပုံနှင့်ပတ်သက်၍ ရှင်းပြခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l01.v010"
+      ],
+      "grammarIds": [
+        "n3.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.s011",
+      "lessonId": "n3.l01",
+      "ja": "締め切りまでに、実験データに関する最終レポートを提出してください。",
+      "kana": "しめきりまでに、じっけん でーたに かんする さいしゅう れぽーとを ていしゅつして ください。",
+      "translation": {
+        "en": "Please submit the final report concerning the experimental data by the deadline.",
+        "my": "နောက်ဆုံးရက်မတိုင်မီ စမ်းသပ်ချက် အချက်အလက်များနှင့် သက်ဆိုင်သော နောက်ဆုံးအစီရင်ခံစာကို တင်သွင်းပါ။"
+      },
+      "vocabIds": [
+        "n3.l01.v011"
+      ],
+      "grammarIds": [
+        "n3.l01.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l01.s012",
+      "lessonId": "n3.l01",
+      "ja": "複数の論文の内容を比較して、要点をわかりやすくまとめました。",
+      "kana": "ふくすうの ろんぶんの ないようを ひかくして、ようてんを わかりやすく まとめました。",
+      "translation": {
+        "en": "I compared the contents of multiple papers and compiled the main points clearly.",
+        "my": "စာတမ်းအများအပြား၏ အကြောင်းအရာများကို နှိုင်းယှဉ်၍ အဓိကအချက်များကို နားလည်လွယ်အောင် စုစည်းခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l01.v004",
+        "n3.l01.v012"
+      ],
+      "grammarIds": [
+        "n3.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l01.r01",
+    "lessonId": "n3.l01",
+    "title": "現代社会における消費者の意識調査 (Consumer Awareness Survey in Modern Society)",
+    "level": "N3",
+    "text": "近年の急激な物価上昇や生活様式の変化に伴い、人々の消費行動には大きな変化が見られます。今回、当研究所では全国の20代から60代の男女1,000名を対象に、日常生活の支出についての詳細な調査を行いました。\n\n調査の結果、食費や光熱費などの基本的生活費に関しては、約8割の人が「節約を意識している」と回答しました。特に食品の購入に関しては、安さだけでなく品質や産地を重視する傾向が強まっています。一方で、自己投資や趣味に関する支出については、「必要なものにはお金を惜しまない」という前向きな意見も多く見られました。\n\n消費者の意識に関するこの調査報告は、今後の商品開発やサービス展開を検討する上で極めて重要な資料となります。変化の激しい市場環境において、消費者が本当に求めている価値について深く考察し続けることが求められています。",
+    "kanaText": "きんねんの きゅうげきな ぶっかじょうしょうや せいかつようしきの へんかに ともない、ひとびとの しょうひこうどうには おおきな へんかが みられます。こんかい、とうけんきゅうじょでは ぜんこくの にじゅうだいから ろくじゅうだいの だんじょ せんめいを たいしょうに、にちじょうせいかつの ししゅつに ついての しょうさいな ちょうさを おこないました。\n\nちょうさの けっか、しょくひや こうねつひなどの きほんてき せいかつひに かんしては、やく はちわりの ひとが「せつやくを いしきしている」と かいとうしました。とくに しょくひんの こうにゅうに かんしては、やすさだけでなく ひんしつや さんちを じゅうしする けいこうが つよまっています。いっぽうで、じことうしや しゅみに かんする ししゅつに ついては、「ひつような ものには おかねを おしまない」という まえむきな いけんも おおく みられました。\n\nしょうひしゃの いしきに かんする この ちょうさほうこくは、こんごの しょうひんかいはつや さーびすてんかいを けんとうする うえで きわめて じゅうような しりょうと なります。へんかの はげしい しじょうかんきょうにおいて、しょうひしゃが ほんとうに もとめている かちに ついて ふかく こうさつしつづける ことが もとめられています。",
+    "translation": "With rapid price inflation and lifestyle transformations in recent years, significant changes are evident in people's consumer behavior. In this study, our research institute conducted a detailed survey regarding everyday living expenditures, targeting 1,000 men and women in their 20s to 60s nationwide.\n\nAs a result of the survey, concerning basic living expenses such as food and utilities, approximately 80% responded that they are conscious of saving. Concerning food purchases in particular, there is a growing tendency to prioritize not only low price but also quality and origin. On the other hand, regarding expenditures on self-investment and hobbies, many positive opinions were seen stating that they do not hesitate to spend money on what is truly necessary.\n\nThis survey report concerning consumer awareness serves as extremely vital reference material when considering future product development and service rollouts. In a rapidly changing market environment, businesses are called upon to continue reflecting deeply upon the genuine value consumers seek.",
+    "questionIds": [
+      "n3.l01.q025",
+      "n3.l01.q026",
+      "n3.l01.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l01.l01",
+    "lessonId": "n3.l01",
+    "title": "企画書の進捗と改善提案 (Proposal Progress & Improvement Suggestions)",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "課長 (Section Manager)",
+      "佐々木 (Sasaki)"
+    ],
+    "transcript": "課長：佐々木さん、来月の新商品発表会に関する準備の進捗はどうですか。\n佐々木：はい、課長。会場の手配に関してはすでに完了しております。現在は当日配布する資料の内容について、デザイン担当者と最終確認を行っているところです。\n課長：そうか。今回の新商品の機能について、お客様から問い合わせが多く寄せられていると聞いたが、その点についての説明は分かりやすくなっているかな。\n佐々木：はい。前回のアンケート調査でいただいたお客様のご意見についてもしっかり反映させ、図や写真を用いて分かりやすくまとめました。\n課長：素晴らしいね。では、完成した資料に関して、明日の午前中までに一度見せてもらえますか。\n佐々木：承知いたしました。明日の10時までに提出いたします。",
+    "translation": "Section Manager: Sasaki-san, how is the progress of preparations concerning next month's new product announcement event?\nSasaki: Yes, Manager. Concerning the venue arrangement, it is already complete. Currently, regarding the contents of the handouts to distribute on the day, I am conducting the final check with the design lead.\nSection Manager: I see. Regarding the functions of this new product, I heard that many inquiries have arrived from customers. Is the explanation on that point made easy to understand?\nSasaki: Yes. Regarding the customer opinions received in the previous survey, we have firmly reflected them and compiled them clearly using diagrams and photographs.\nSection Manager: Excellent. Then, concerning the completed materials, could you let me see them once by tomorrow morning?\nSasaki: Understood. I will submit them by 10 AM tomorrow.",
+    "turns": [
+      {
+        "speaker": "課長",
+        "ja": "佐々木さん、来月の新商品発表会に関する準備の進捗はどうですか。",
+        "kana": "ささきさん、らいげつの しんしょうひん はっぴょうかいに かんする じゅんびの しんちょくは どうですか。",
+        "en": "Sasaki-san, how is the progress of preparations concerning next month's new product announcement event?"
+      },
+      {
+        "speaker": "佐々木",
+        "ja": "はい、課長。会場の手配に関してはすでに完了しております。現在は当日配布する資料の内容について、デザイン担当者と最終確認を行っているところです。",
+        "kana": "はい、かちょう。かいじょうの てはいに かんしては すでに かんりょうして おります。げんざいは とうじつ はいふする しりょうの ないように ついて、でざいん たんとうしゃと さいしゅう かくにんを おこなっている ところです。",
+        "en": "Yes, Manager. Concerning the venue arrangement, it is already complete. Currently, regarding the contents of the handouts to distribute on the day, I am conducting the final check with the design lead."
+      },
+      {
+        "speaker": "課長",
+        "ja": "そうか。今回の新商品の機能について、お客様から問い合わせが多く寄せられていると聞いたが、その点についての説明は分かりやすくなっているかな。",
+        "kana": "そうか。こんかいの しんしょうひんの きのうに ついて、おきゃくさまから といあわせが おおく よせられていると きいたが、その てんに ついての せつめいは わかりやすくなって いるかな。",
+        "en": "I see. Regarding the functions of this new product, I heard that many inquiries have arrived from customers. Is the explanation on that point made easy to understand?"
+      },
+      {
+        "speaker": "佐々木",
+        "ja": "はい。前回のアンケート調査でいただいたお客様のご意見についてもしっかり反映させ、図や写真を用いて分かりやすくまとめました。",
+        "kana": "はい。ぜんかいの あんけーと ちょうさで いただいた おきゃくさまの ごいけんに ついても しっかり はんえいさせ、ずや しゃしんを もちいて わかりやすく まとめました。",
+        "en": "Yes. Regarding the customer opinions received in the previous survey, we have firmly reflected them and compiled them clearly using diagrams and photographs."
+      },
+      {
+        "speaker": "課長",
+        "ja": "素晴らしいね。では、完成した資料に関して、明日の午前中までに一度見せてもらえますか。",
+        "kana": "すばらしいね。では、かんせいした しりょうに かんして、あすの ごぜんちゅうまでに いちど みせて もらえますか。",
+        "en": "Excellent. Then, concerning the completed materials, could you let me see them once by tomorrow morning?"
+      },
+      {
+        "speaker": "佐々木",
+        "ja": "承知いたしました。明日の10時までに提出いたします。",
+        "kana": "しょうち いたしました。あすの じゅうじまでに ていしゅつ いたします。",
+        "en": "Understood. I will submit them by 10 AM tomorrow."
+      }
+    ],
+    "questionIds": [
+      "n3.l01.q028",
+      "n3.l01.q029",
+      "n3.l01.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l01.q001",
+      "lessonId": "n3.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "実態や事実を明らかにするために詳しく調べることを何と言いますか。",
+      "choices": [
+        "調査",
+        "実験",
+        "見学",
+        "見物"
+      ],
+      "answer": "調査",
+      "acceptedAnswers": [
+        "調査"
+      ],
+      "explanation": "「調査（ちょうさ）」は物事の実態を詳しく調べることを表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q002",
+      "lessonId": "n3.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "上司や関係者に仕事の進み具合や結果を告げる動詞はどれですか。",
+      "choices": [
+        "報告する",
+        "約束する",
+        "注文する",
+        "案内する"
+      ],
+      "answer": "報告する",
+      "acceptedAnswers": [
+        "報告する"
+      ],
+      "explanation": "「報告する（ほうこくする）」は任務の結果や進捗を伝えることを意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q003",
+      "lessonId": "n3.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "会議や研究の判断材料となる文書やデータを何と言いますか。",
+      "choices": [
+        "資料",
+        "料金",
+        "給料",
+        "材料"
+      ],
+      "answer": "資料",
+      "acceptedAnswers": [
+        "資料"
+      ],
+      "explanation": "「資料（しりょう）」は研究や会議の判断材料となる書類やデータを指します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q004",
+      "lessonId": "n3.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文章や話の中に含まれている中身のことを何と言いますか。",
+      "choices": [
+        "内容",
+        "内側",
+        "容器",
+        "定員"
+      ],
+      "answer": "内容",
+      "acceptedAnswers": [
+        "内容"
+      ],
+      "explanation": "「内容（ないよう）」は物事や文章に含まれる中身や事柄のことです。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q005",
+      "lessonId": "n3.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "物事の結末や行動によって生じた状態を表す言葉はどれですか。",
+      "choices": [
+        "結果",
+        "原因",
+        "目的",
+        "予定"
+      ],
+      "answer": "結果",
+      "acceptedAnswers": [
+        "結果"
+      ],
+      "explanation": "「結果（けっか）」はある行為や出来事の末に生じた状態を表します。対義語は「原因」です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q006",
+      "lessonId": "n3.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "ある事柄について自分が考えている思いや主張を何と言いますか。",
+      "choices": [
+        "意見",
+        "意地",
+        "気持",
+        "意識"
+      ],
+      "answer": "意見",
+      "acceptedAnswers": [
+        "意見"
+      ],
+      "explanation": "「意見（いけん）」はある事柄に対する自分の考えや主張を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q007",
+      "lessonId": "n3.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "ある特定の仕事や役割を受け持って責任を果たすことを何と言いますか。",
+      "choices": [
+        "担当する",
+        "負担する",
+        "適当する",
+        "応援する"
+      ],
+      "answer": "担当する",
+      "acceptedAnswers": [
+        "担当する"
+      ],
+      "explanation": "「担当する（たんとうする）」はある役目を引き受けて責任を持つことです。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q008",
+      "lessonId": "n3.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "散らばっている情報や要点を一つに整理してまとめる動詞はどれですか。",
+      "choices": [
+        "まとめる",
+        "あつめる",
+        "ならべる",
+        "たしかめる"
+      ],
+      "answer": "まとめる",
+      "acceptedAnswers": [
+        "まとめる"
+      ],
+      "explanation": "「まとめる」はバラバラの要素を整理して一つに整えることを意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q009",
+      "lessonId": "n3.l01",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「関係」の「関」の音読みとして正しいものはどれですか。",
+      "choices": [
+        "カン",
+        "ケン",
+        "ゲン",
+        "セン"
+      ],
+      "answer": "カン",
+      "acceptedAnswers": [
+        "カン"
+      ],
+      "explanation": "「関」の音読みはカンです（関係、関心、玄関）。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q010",
+      "lessonId": "n3.l01",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「関」の総画数として正しいものはどれですか。",
+      "choices": [
+        "14画",
+        "13画",
+        "15画",
+        "12画"
+      ],
+      "answer": "14画",
+      "acceptedAnswers": [
+        "14画"
+      ],
+      "explanation": "「関」は門がまえ（8画）＋关（6画）で計14画です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q011",
+      "lessonId": "n3.l01",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「係員」の「係」の正しい読み方はどれですか。",
+      "choices": [
+        "かかりいん",
+        "けいいん",
+        "かんいん",
+        "かかりびと"
+      ],
+      "answer": "かかりいん",
+      "acceptedAnswers": [
+        "かかりいん"
+      ],
+      "explanation": "「係員」は「かかりいん」と読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q012",
+      "lessonId": "n3.l01",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「報告」の「報」の音読みとして正しいものはどれですか。",
+      "choices": [
+        "ホウ",
+        "コウ",
+        "ボウ",
+        "トウ"
+      ],
+      "answer": "ホウ",
+      "acceptedAnswers": [
+        "ホウ"
+      ],
+      "explanation": "「報」の音読みはホウです（報告、情報、予報）。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q013",
+      "lessonId": "n3.l01",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「広告」の「告」の音読みとして正しいものはどれですか。",
+      "choices": [
+        "コク",
+        "カク",
+        "キョク",
+        "ショク"
+      ],
+      "answer": "コク",
+      "acceptedAnswers": [
+        "コク"
+      ],
+      "explanation": "「告」の音読みはコクです（広告、報告、予告）。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q014",
+      "lessonId": "n3.l01",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「係」の部首として正しいものはどれですか。",
+      "choices": [
+        "亻（にんべん）",
+        "糸（いとへん）",
+        "門（もんがまえ）",
+        "口（くち）"
+      ],
+      "answer": "亻（にんべん）",
+      "acceptedAnswers": [
+        "亻（にんべん）"
+      ],
+      "explanation": "「係」の部首は「亻（にんべん）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q015",
+      "lessonId": "n3.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「日本の歴史（　）本を何冊か読みました。」空欄に入る最も適切なものはどれですか。",
+      "choices": [
+        "についての",
+        "について",
+        "にとって",
+        "に対して"
+      ],
+      "answer": "についての",
+      "acceptedAnswers": [
+        "についての"
+      ],
+      "explanation": "名詞（本）を修飾する場合は「名詞＋についての＋名詞」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q016",
+      "lessonId": "n3.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「環境保護（　）法律が新しく制定された。」名詞（法律）を修飾する適切な表現はどれですか。",
+      "choices": [
+        "に関する",
+        "に関しての",
+        "によって",
+        "について"
+      ],
+      "answer": "に関する",
+      "acceptedAnswers": [
+        "に関する"
+      ],
+      "explanation": "「〜に関して」が名詞を修飾するときは「〜に関する＋名詞」の形を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q017",
+      "lessonId": "n3.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜について」と「〜に関して」の違いとして最も適切な説明はどれですか。",
+      "choices": [
+        "「〜に関して」のほうが改まった硬い表現で、より広い関連事項まで含む。",
+        "「〜について」は公の文書や契約書にのみ使われる。",
+        "「〜に関して」は名詞を修飾するとき「〜に関しての」となる。",
+        "意味の違いは全くなく、完全に同じ場面で使われる。"
+      ],
+      "answer": "「〜に関して」のほうが改まった硬い表現で、より広い関連事項まで含む。",
+      "acceptedAnswers": [
+        "「〜に関して」のほうが改まった硬い表現で、より広い関連事項まで含む。"
+      ],
+      "explanation": "「〜に関して」は公式な発表や論文などで好まれるフォーマルな表現で、周辺の関連事柄まで広く含みます。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.g001",
+        "n3.l01.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q018",
+      "lessonId": "n3.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「来年度の予算（　）、役員会で慎重に検討された。」文脈に合う適切な助詞表現はどれですか。",
+      "choices": [
+        "に関して",
+        "についてに",
+        "にとって",
+        "として"
+      ],
+      "answer": "に関して",
+      "acceptedAnswers": [
+        "に関して"
+      ],
+      "explanation": "公式な審議や検討の対象を表す文脈では「〜に関して」が自然です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q019",
+      "lessonId": "n3.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「大学院での研究テーマ（　）発表を行った。」",
+      "choices": [
+        "について",
+        "によって",
+        "に対して",
+        "にとって"
+      ],
+      "answer": "について",
+      "acceptedAnswers": [
+        "について"
+      ],
+      "explanation": "発表や考察のテーマ・対象を表す場合は「〜について」が適しています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q020",
+      "lessonId": "n3.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次のうち、文法的に誤っている文はどれですか。",
+      "choices": [
+        "事故の原因に関しての調査が行われた。",
+        "事故の原因に関する調査が行われた。",
+        "事故の原因についての調査が行われた。",
+        "事故の原因について調査が行われた。"
+      ],
+      "answer": "事故の原因に関しての調査が行われた。",
+      "acceptedAnswers": [
+        "事故の原因に関しての調査が行われた。"
+      ],
+      "explanation": "「〜に関して」が名詞を修飾するときは「〜に関する＋名詞」となり、「〜に関しての」とは言いません。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q021",
+      "lessonId": "n3.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「この問題（　）は、専門家の間でも意見が分かれている。」強調して取り立てる表現はどれですか。",
+      "choices": [
+        "に関しては",
+        "に関する",
+        "についてな",
+        "によっても"
+      ],
+      "answer": "に関しては",
+      "acceptedAnswers": [
+        "に関しては"
+      ],
+      "explanation": "主題として取り立てて強調する場合は「〜に関しては / 〜については」を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q022",
+      "lessonId": "n3.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "親しい友人との会話で最も自然な表現はどれですか。",
+      "choices": [
+        "昨日のサッカーの試合についてどう思う？",
+        "昨日のサッカーの試合に関してどう思う？",
+        "昨日のサッカーの試合に関するどう思う？",
+        "昨日のサッカーの試合によってどう思う？"
+      ],
+      "answer": "昨日のサッカーの試合についてどう思う？",
+      "acceptedAnswers": [
+        "昨日のサッカーの試合についてどう思う？"
+      ],
+      "explanation": "日常の親しい会話では、硬い「〜に関して」よりも「〜について」が圧倒的に自然です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q023",
+      "lessonId": "n3.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「新しい教育方針（　）父母会で説明がありました。」",
+      "choices": [
+        "について",
+        "によって",
+        "にくらべて",
+        "にたいして"
+      ],
+      "answer": "について",
+      "acceptedAnswers": [
+        "について"
+      ],
+      "explanation": "説明の対象を表す「〜について」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q024",
+      "lessonId": "n3.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「個人情報の保護（　）規定を厳格に適用します。」名詞（規定）を修飾する形はどれですか。",
+      "choices": [
+        "に関する",
+        "に関して",
+        "について",
+        "に対して"
+      ],
+      "answer": "に関する",
+      "acceptedAnswers": [
+        "に関する"
+      ],
+      "explanation": "「個人情報の保護」＋「に関する」＋「規定」と名詞修飾します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q025",
+      "lessonId": "n3.l01",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "調査結果によると、食費や光熱費などの基本的生活費についてどのような傾向が見られますか。",
+      "choices": [
+        "約8割の人が節約を意識していると答えた。",
+        "多くの人が全く節約を気にしていない。",
+        "生活費が以前より安くなったと喜んでいる。",
+        "半分以上の人が生活費の調査を拒否した。"
+      ],
+      "answer": "約8割の人が節約を意識していると答えた。",
+      "acceptedAnswers": [
+        "約8割の人が節約を意識していると答えた。"
+      ],
+      "explanation": "本文第2段落に「基本的生活費に関しては、約8割の人が『節約を意識している』と回答しました」と明記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q026",
+      "lessonId": "n3.l01",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "食品の購入に関して、消費者はどのような点を重視していますか。",
+      "choices": [
+        "安さだけでなく、品質や産地も重視している。",
+        "安ければ品質はどうでもよいと考えている。",
+        "外国産のものしか買わないようにしている。",
+        "食品は買わずにすべて外食で済ませている。"
+      ],
+      "answer": "安さだけでなく、品質や産地も重視している。",
+      "acceptedAnswers": [
+        "安さだけでなく、品質や産地も重視している。"
+      ],
+      "explanation": "「安さだけでなく品質や産地を重視する傾向が強まっています」と述べられています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q027",
+      "lessonId": "n3.l01",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "自己投資や趣味に関する支出について、どのような意見が多く見られましたか。",
+      "choices": [
+        "自分に必要なものにはお金を惜しまないという意見。",
+        "趣味の支出は一切やめるべきだという意見。",
+        "すべての支出を半分に減らすべきだという意見。",
+        "家族に相談せず高額な車を買うという意見。"
+      ],
+      "answer": "自分に必要なものにはお金を惜しまないという意見。",
+      "acceptedAnswers": [
+        "自分に必要なものにはお金を惜しまないという意見。"
+      ],
+      "explanation": "「自己投資や趣味に関する支出については、『必要なものにはお金を惜しまない』という前向きな意見も多く見られました」とあります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q028",
+      "lessonId": "n3.l01",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "佐々木さんは発表会の準備に関して、何がすでに完了したと報告していますか。",
+      "choices": [
+        "会場の手配",
+        "当日の資料の印刷",
+        "新商品の開発",
+        "お客様への招待状の送付"
+      ],
+      "answer": "会場の手配",
+      "acceptedAnswers": [
+        "会場の手配"
+      ],
+      "explanation": "佐々木さんは「会場の手配に関してはすでに完了しております」と答えています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q029",
+      "lessonId": "n3.l01",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "配布資料の作成において、佐々木さんはどのような工夫をしましたか。",
+      "choices": [
+        "前回のアンケートのご意見を反映させ、図や写真を用いてまとめた。",
+        "文字だけをたくさん詰め込んで詳細に説明した。",
+        "過去の資料をそのままコピーして使った。",
+        "デザインの担当者にすべて任せて自分は何もしなかった。"
+      ],
+      "answer": "前回のアンケートのご意見を反映させ、図や写真を用いてまとめた。",
+      "acceptedAnswers": [
+        "前回のアンケートのご意見を反映させ、図や写真を用いてまとめた。"
+      ],
+      "explanation": "佐々木さんは「前回のアンケート調査でいただいたお客様のご意見についてもしっかり反映させ、図や写真を用いて分かりやすくまとめました」と言っています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l01.q030",
+      "lessonId": "n3.l01",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "課長は完成した資料に関して、いつまでに見せるよう求めていますか。",
+      "choices": [
+        "明日の午前中まで（佐々木さんは10時までと約束）",
+        "今日の夕方5時まで",
+        "来週の発表会当日の朝",
+        "今すぐその場で"
+      ],
+      "answer": "明日の午前中まで（佐々木さんは10時までと約束）",
+      "acceptedAnswers": [
+        "明日の午前中まで（佐々木さんは10時までと約束）"
+      ],
+      "explanation": "課長が「明日の午前中までに一度見せてもらえますか」と求め、佐々木さんが「明日の10時までに提出いたします」と応じています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l01.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

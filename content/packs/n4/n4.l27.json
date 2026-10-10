@@ -1,0 +1,1695 @@
+{
+  "id": "n4.l27",
+  "level": "N4",
+  "module": "N4 Expressions & Relations",
+  "number": 27,
+  "title": "N4 Lesson 27: Permission & Non-Necessity (許可・不必要: 〜てもいい・〜なくてもいい)",
+  "description": "Master giving and asking for permission (〜てもいい, 〜ても構わない) and stating lack of obligation (〜なくてもいい), carefully distinguishing permission from strict prohibition.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l27.v001",
+      "lessonId": "n4.l27",
+      "ja": "許可",
+      "kana": "きょか",
+      "en": "permission; approval; permit",
+      "my": "ခွင့်ပြုချက်/ခွင့်ပြုမိန့်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l27.s001",
+      "kanjiIds": [
+        "n4.l27.k001",
+        "n4.l27.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.v002",
+      "lessonId": "n4.l27",
+      "ja": "許可する",
+      "kana": "きょかする",
+      "en": "to permit; to allow; to authorize",
+      "my": "ခွင့်ပြုသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l27.s002",
+      "kanjiIds": [
+        "n4.l27.k001",
+        "n4.l27.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.v003",
+      "lessonId": "n4.l27",
+      "ja": "許す",
+      "kana": "ゆるす",
+      "en": "to forgive; to allow; to exempt",
+      "my": "ခွင့်လွှတ်သည်/ခွင့်ပြုသည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n4.l27.s003",
+      "kanjiIds": [
+        "n4.l27.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.v004",
+      "lessonId": "n4.l27",
+      "ja": "構わない",
+      "kana": "かまわない",
+      "en": "does not matter; no objection; fine",
+      "my": "ကိစ္စမရှိပါ/ရပါသည်",
+      "pos": "i-adj",
+      "exampleSentenceId": "n4.l27.s004",
+      "kanjiIds": [
+        "n4.l27.k003"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.v005",
+      "lessonId": "n4.l27",
+      "ja": "済む",
+      "kana": "すむ",
+      "en": "to finish; to be settled; to suffice without",
+      "my": "ပြီးမြောက်သည်/ပြီးစီးသည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n4.l27.s005",
+      "kanjiIds": [
+        "n4.l27.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.v006",
+      "lessonId": "n4.l27",
+      "ja": "免許証",
+      "kana": "めんきょしょう",
+      "en": "license; license certificate",
+      "my": "လိုင်စင်လက်မှတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l27.s006",
+      "kanjiIds": [
+        "n4.l27.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.v007",
+      "lessonId": "n4.l27",
+      "ja": "無料",
+      "kana": "むりょう",
+      "en": "free of charge; gratis",
+      "my": "အခမဲ့",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l27.s007",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.v008",
+      "lessonId": "n4.l27",
+      "ja": "遠慮する",
+      "kana": "えんりょする",
+      "en": "to refrain; to hold back; to decline politely",
+      "my": "အားနာသည်/ရှောင်ကြဉ်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l27.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.v009",
+      "lessonId": "n4.l27",
+      "ja": "自由",
+      "kana": "じゆう",
+      "en": "freedom; liberty",
+      "my": "လွတ်လပ်မှု",
+      "pos": "na-adj",
+      "exampleSentenceId": "n4.l27.s009",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.v010",
+      "lessonId": "n4.l27",
+      "ja": "自由に",
+      "kana": "じゆうに",
+      "en": "freely; without restriction",
+      "my": "လွတ်လပ်စွာ",
+      "pos": "adverb",
+      "exampleSentenceId": "n4.l27.s010",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.v011",
+      "lessonId": "n4.l27",
+      "ja": "返却する",
+      "kana": "へんきゃくする",
+      "en": "to return; to give back (borrowed book, items)",
+      "my": "ပြန်လည်အပ်နှံသည်/ပြန်ပေးသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l27.s011",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.v012",
+      "lessonId": "n4.l27",
+      "ja": "貸出",
+      "kana": "かしだし",
+      "en": "lending; loaning; checkout",
+      "my": "ငှားရမ်းထုတ်ပေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l27.s012",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l27.k001",
+      "lessonId": "n4.l27",
+      "char": "許",
+      "meaning": "permit; approve; forgive",
+      "onyomi": [
+        "キョ"
+      ],
+      "kunyomi": [
+        "ゆる・す",
+        "もと"
+      ],
+      "exampleVocab": [
+        {
+          "word": "許可",
+          "reading": "きょか",
+          "meaning": "permission",
+          "preview": false
+        },
+        {
+          "word": "免許",
+          "reading": "めんきょ",
+          "meaning": "license",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l27.s001"
+      ],
+      "components": [
+        "言",
+        "午"
+      ],
+      "strokes": 11,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.k002",
+      "lessonId": "n4.l27",
+      "char": "可",
+      "meaning": "passable; approve; possibility",
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "許可",
+          "reading": "きょか",
+          "meaning": "permission",
+          "preview": false
+        },
+        {
+          "word": "可能",
+          "reading": "かのう",
+          "meaning": "possible; feasible",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l27.s001"
+      ],
+      "components": [
+        "丁",
+        "口"
+      ],
+      "strokes": 5,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.k003",
+      "lessonId": "n4.l27",
+      "char": "構",
+      "meaning": "posture; build; mind; care about",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "かま・う",
+        "かま・える"
+      ],
+      "exampleVocab": [
+        {
+          "word": "構わない",
+          "reading": "かまわない",
+          "meaning": "no problem; fine",
+          "preview": false
+        },
+        {
+          "word": "結構",
+          "reading": "けっこう",
+          "meaning": "splendid; fine",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l27.s001"
+      ],
+      "components": [
+        "木",
+        "冓"
+      ],
+      "strokes": 14,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.k004",
+      "lessonId": "n4.l27",
+      "char": "済",
+      "meaning": "settle; finish; relieve",
+      "onyomi": [
+        "サイ",
+        "セイ"
+      ],
+      "kunyomi": [
+        "す・む",
+        "す・ます"
+      ],
+      "exampleVocab": [
+        {
+          "word": "済む",
+          "reading": "すむ",
+          "meaning": "to finish; to be settled",
+          "preview": false
+        },
+        {
+          "word": "経済",
+          "reading": "けいざい",
+          "meaning": "economy",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l27.s001"
+      ],
+      "components": [
+        "氵",
+        "斉"
+      ],
+      "strokes": 11,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l27.g001",
+      "lessonId": "n4.l27",
+      "pattern": "[Verb て-form] + もいい / もかまわない",
+      "meaning": "May / Can / It is okay to (Giving and asking permission)",
+      "formation": "Verb (て形) + もいいです / もかまいません\nQuestion: 〜てもいいですか / 〜てもかまいませんか",
+      "explanation": {
+        "en": "Used to ask for or give permission to do something (\"You may do X / Is it alright if I do X?\"). 〜てもかまいません is slightly more formal and means \"I have no objection / it causes no problem.\" In casual conversation, friends drop です: ここに座ってもいい？",
+        "my": "ခွင့်ပြုချက်တောင်းခံခြင်း သို့မဟုတ် ခွင့်ပြုပေးခြင်း ပြုလုပ်ရာတွင် သုံးသည်။ ကြိယာ て形 နောက်တွင် 「もいいです / もかまいません」ကို ဆက်သည်။ စကားပြောတွင် 「〜てもいい？」ဟု အလွတ်သဘော သုံးနိုင်သည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l27.s001",
+          "note": "May I take photos in this museum?"
+        },
+        {
+          "sentenceId": "n4.l27.s004",
+          "note": "If you have finished your work, you may go home early."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse permission (〜てもいい) with obligation (〜なければならない) or prohibition (〜てはいけない).",
+        "When replying affirmatively to permission questions, saying 「どうぞ」 or 「いいですよ」 is more natural than repeating the whole verb phrase."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.g002",
+      "lessonId": "n4.l27",
+      "pattern": "[Verb ない-form minus い] + くてもいい / くてもかまわない",
+      "meaning": "Do not have to / Need not (Non-necessity / Lack of obligation)",
+      "formation": "Verb (ない形 minus い) + くてもいいです / くてもかまいません (行く → 行かなくてもいい)",
+      "explanation": {
+        "en": "Expresses that an action is not required or obligatory (\"You do not have to do X / It is fine not to do X\"). Crucially, it does NOT mean prohibition — you are free to do it if you want, but it is not required.",
+        "my": "လုပ်ဆောင်ရန် မလိုအပ်ခြင်း (မလုပ်ဘဲနေလည်း ကိစ္စမရှိခြင်း) ကို ဖော်ပြသည်။ ကြိယာ ない形 မှ 「い」ကိုဖြုတ်ပြီး 「くてもいいです / くてもかまいません」ကို ဆက်သည်။ တားမြစ်ချက် (〜てはいけない) မဟုတ်ဘဲ ပြုလုပ်ရန် တာဝန်မရှိကြောင်း ညွှန်ပြခြင်း ဖြစ်သည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l27.s005",
+          "note": "Tomorrow is a holiday, so you do not have to wake up early."
+        },
+        {
+          "sentenceId": "n4.l27.s007",
+          "note": "Admission is free, so you do not have to buy a ticket."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "CRITICAL: Never confuse 〜なくてもいい (lack of obligation: \"you don't have to come tomorrow\") with 〜てはいけない (prohibition: \"you must not come tomorrow\").",
+        "Formation check: negative stem + くてもいい (書かない → 書かなくてもいい, not 書かないてもいい)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l27.s001",
+      "lessonId": "n4.l27",
+      "ja": "先生の許可をもらったので、教室でスマートフォンの辞書を使ってもいいです。",
+      "kana": "せんせいのきょかをもらったので、きょうしつでスマートフォンのじしょをつかってもいいです。",
+      "translation": {
+        "en": "Since I received the teacher’s permission, I may use a smartphone dictionary in the classroom.",
+        "my": "ဆရာ့ထံမှ ခွင့်ပြုချက် ရရှိထားသဖြင့် စာသင်ခန်းထဲတွင် စမတ်ဖုန်း အဘိဓာန်ကို အသုံးပြုနိုင်သည်။"
+      },
+      "vocabIds": [
+        "n4.l27.v001"
+      ],
+      "grammarIds": [
+        "n4.l27.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.s002",
+      "lessonId": "n4.l27",
+      "ja": "美術館では、フラッシュを使わなければ展示品の写真を撮影することを許可しています。",
+      "kana": "びじゅつかんでは、フラッシュをつかわなければてんじひんのしゃしんをさつえいすることをきょかしています。",
+      "translation": {
+        "en": "In the art museum, taking photos of exhibits is permitted as long as you do not use flash.",
+        "my": "အနုပညာပြတိုက်တွင် ဖလက်ရှ်မီး မသုံးပါက ပြသထားသော ပစ္စည်းများကို ဓာတ်ပုံရိုက်ခွင့် ပြုထားပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l27.v002"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.s003",
+      "lessonId": "n4.l27",
+      "ja": "彼は素直に謝罪したので、部長も今回だけはミスを許してくれました。",
+      "kana": "かれはすなおにしゃざいしたので、ぶちょうもこんかいだけはミスをゆるしてくれました。",
+      "translation": {
+        "en": "Because he apologized honestly, the general manager also forgave his mistake just this once.",
+        "my": "သူသည် ရိုးသားစွာ တောင်းပန်ခဲ့သောကြောင့် ဌာနမှူးသည်လည်း ယခုတစ်ကြိမ်သာ အမှားကို ခွင့်လွှတ်ပေးခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l27.v003"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.s004",
+      "lessonId": "n4.l27",
+      "ja": "今日の業務がすべて終わったなら、定時前に退勤しても構いませんよ。",
+      "kana": "きょうのぎょうむがすべておわったなら、ていじまえにたいきんしてもかまいませんよ。",
+      "translation": {
+        "en": "If today’s tasks are all finished, you may leave the office before regular closing time.",
+        "my": "ယနေ့ လုပ်ငန်းဆောင်တာများ အားလုံး ပြီးစီးသွားပါက ပုံမှန်အလုပ်ဆင်းချိန်မတိုင်မီ ပြန်လည်း ကိစ္စမရှိပါဘူး။"
+      },
+      "vocabIds": [
+        "n4.l27.v004"
+      ],
+      "grammarIds": [
+        "n4.l27.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.s005",
+      "lessonId": "n4.l27",
+      "ja": "明日は大学が祝日で休みですから、朝早く起きなくてもいいです。",
+      "kana": "あしたはだいがくがしゅくじつでやすみですから、あさはやくおきなくてもいいです。",
+      "translation": {
+        "en": "Because tomorrow the university is closed for a national holiday, you do not have to wake up early.",
+        "my": "မနက်ဖြန် တက္ကသိုလ်သည် အစိုးရရုံးပိတ်ရက်ဖြစ်၍ မနက်စောစော မထလည်း ရပါသည်။"
+      },
+      "vocabIds": [],
+      "grammarIds": [
+        "n4.l27.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.s006",
+      "lessonId": "n4.l27",
+      "ja": "身分証明書として運転免許証を提示すれば、住民票を提出しなくても済みます。",
+      "kana": "みぶんしょうめいしょとしてうんてんめんきょしょうをていじすれば、じゅうみんひょうをていしゅつしなくてもすみます。",
+      "translation": {
+        "en": "If you present your driver’s license as ID, you can get by without having to submit a resident certificate.",
+        "my": "သက်သေခံကတ်ပြားအဖြစ် ယာဉ်မောင်းလိုင်စင်ကို ပြသပါက သန်းခေါင်စာရင်းကို တင်ပြရန် မလိုဘဲ ပြီးမြောက်သွားပါမည်။"
+      },
+      "vocabIds": [
+        "n4.l27.v005",
+        "n4.l27.v006"
+      ],
+      "grammarIds": [
+        "n4.l27.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.s007",
+      "lessonId": "n4.l27",
+      "ja": "この公園の野外コンサートは入場無料なので、チケットを買わなくてもいいですよ。",
+      "kana": "このこうえんのやがいコンサートはにゅうじょうむりょうなので、チケットをかわなくてもいいですよ。",
+      "translation": {
+        "en": "Because this park’s open-air concert has free admission, you do not have to buy a ticket.",
+        "my": "ဤပန်းခြံ၏ ပြင်ပဂီတဖျော်ဖြေပွဲသည် ဝင်ကြေးအခမဲ့ဖြစ်သောကြောင့် လက်မှတ်ဝယ်ရန် မလိုပါ။"
+      },
+      "vocabIds": [
+        "n4.l27.v007"
+      ],
+      "grammarIds": [
+        "n4.l27.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.s008",
+      "lessonId": "n4.l27",
+      "ja": "お茶のおかわりはいかがですか。どうぞ遠慮なさらないでくださいね。",
+      "kana": "おちゃのおかわりはいかがですか。どうぞえんりょなさらないでくださいね。",
+      "translation": {
+        "en": "How about another cup of tea? Please do not hesitate at all.",
+        "my": "လက်ဖက်ရည် နောက်တစ်ခွက် သောက်ဦးမလားခင်ဗျာ။ ကျေးဇူးပြု၍ လုံးဝ အားမနာပါနှင့်နော်။"
+      },
+      "vocabIds": [
+        "n4.l27.v008"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.s009",
+      "lessonId": "n4.l27",
+      "ja": "学生会館のラウンジでは、自習や休憩を自由に行って構いません。",
+      "kana": "がくせいかいかんのラウンジでは、じしゅうやきゅうけいをじゆうにおこなってかまいません。",
+      "translation": {
+        "en": "In the student hall lounge, you may freely do self-study or take breaks without objection.",
+        "my": "ကျောင်းသားခန်းမ အနားယူဆောင်တွင် ကိုယ်ပိုင်စာလေ့လာခြင်းနှင့် အနားယူခြင်းများကို လွတ်လပ်စွာ ပြုလုပ်နိုင်သည်။"
+      },
+      "vocabIds": [
+        "n4.l27.v009",
+        "n4.l27.v010"
+      ],
+      "grammarIds": [
+        "n4.l27.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.s010",
+      "lessonId": "n4.l27",
+      "ja": "質問がある方は、手を挙げて自由に発言していただいて結構です。",
+      "kana": "しつもんがあるかたは、てをあげてじゆうにはつげんしていただいてけっこうです。",
+      "translation": {
+        "en": "Those who have questions may raise their hands and speak freely.",
+        "my": "မေးခွန်းရှိသူများသည် လက်ထောင်ပြီး လွတ်လပ်စွာ ပြောကြားနိုင်ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l27.v010"
+      ],
+      "grammarIds": [
+        "n4.l27.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.s011",
+      "lessonId": "n4.l27",
+      "ja": "図書館の本は、返却ポストを使えば窓口に並ばなくても返却できます。",
+      "kana": "としょかんのほんは、へんきゃくポストをつかえばまどぐちにならばなくてもへんきゃくできます。",
+      "translation": {
+        "en": "If you use the return drop box, you can return library books without having to line up at the counter.",
+        "my": "စာအုပ်ပြန်အပ်သေတ္တာကို အသုံးပြုပါက ကောင်တာတွင် တန်းစီစရာမလိုဘဲ စာကြည့်တိုက်စာအုပ်များကို ပြန်အပ်နိုင်ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l27.v011"
+      ],
+      "grammarIds": [
+        "n4.l27.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l27.s012",
+      "lessonId": "n4.l27",
+      "ja": "一度に五冊まで本の貸出を受けることができます。",
+      "kana": "いちどにごさつまでほんのかしだしをうけることができます。",
+      "translation": {
+        "en": "You can receive checkout of up to five books at one time.",
+        "my": "တစ်ကြိမ်လျှင် စာအုပ် ၅ အုပ်အထိ ငှားရမ်းခွင့် ရရှိနိုင်ပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l27.v012"
+      ],
+      "grammarIds": [],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l27.r01",
+    "lessonId": "n4.l27",
+    "title": "市立図書館の便利な利用案内",
+    "level": "N4",
+    "text": "中央市立図書館では、市民のみなさまが快適に読書や学習に専念できるように、様々なサービスを提供しています。\n\nまず、閲覧席での学習についてです。一階と二階の読書スペースでは、個人のノートパソコンやタブレットを自由に持ち込んで利用しても構いません。ただし、動画を見る際は必ずイヤホンを装着しなければならず、音を出してはいけません。\n\n本の貸出については、貸出カードをお持ちであれば一度に十冊まで二週間借りることができます。借りたい本が貸出中の場合は、館内の端末や公式ウェブサイトから無料で予約してもいいです。\n\nまた、本を返すためにわざわざ開館時間中に来館しなくても構いません。正面入口の横に設置されている二十四時間対応の「返却ポスト」に投函すれば、カウンターに並ばなくても本を返却できます。ただし、CDやDVDなどの視聴覚資料は壊れやすいため、ポストに入れてはいけません。",
+    "kanaText": "ちゅうおうしりつとしょかんでは、しみんのみなさまがかいてきにどくしょやがくしゅうにせんねんできるように、さまざまなサービスをていきょうしています。\n\nまず、えつらんせきでのがくしゅうについてです。いっかいとにかいのどくしょスペースでは、こじんのノートパソコンやタブレットをじゆうにもちこんでりようしてもかまいません。ただし、どうがをみるさいはかならずイヤホンをそうちゃくしなければならず、おとをだしてはいけません。\n\nほんのかしだしについては、かしだしカードをおもちであればいちどにじゅっさつまでにしゅうかんかりることができます。かりたいほんがかしだいちゅうのばあいは、かんないのたんまつやこうしきウェブサイトからむりょうでよやくしてもいいです。\n\nまた、ほんをかえすためにわざわざかいかんじかんちゅうにらいかんしなくてもかまいません。しょうめんいりぐちのよこにせっちされているにじゅうよじかんたいおうの「へんきゃくポスト」にとうかんすれば、カウンターにならばなくてもほんをへんきゃくできます。ただし、シーディーやディーブイディーなどのしちょうかくしりょうはこわれやすいため、ポストにいれてはいけません。",
+    "translation": "The Central Municipal Library provides various services so that citizens can comfortably devote themselves to reading and study.\n\nFirst, regarding study at the reading seats: In the reading spaces on the 1st and 2nd floors, you may freely bring in and use personal laptops or tablets. However, when watching videos you must wear earphones and must not make noise.\n\nRegarding book checkout: If you possess a library card, you can borrow up to ten books for two weeks at a time. If the book you want is checked out, you may reserve it for free from the terminal in the library or the official website.\n\nFurthermore, you do not have to come during opening hours just to return books. If you drop them into the 24-hour return box installed beside the main entrance, you can return books without having to line up at the counter. However, audiovisual materials like CDs and DVDs are fragile, so you must not put them into the drop box.",
+    "questionIds": [
+      "n4.l27.q025",
+      "n4.l27.q026",
+      "n4.l27.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l27.l01",
+    "lessonId": "n4.l27",
+    "title": "社内研修会での確認",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "後輩社員（中村）",
+      "先輩社員（小林）"
+    ],
+    "transcript": "中村：小林先輩、明日の新入社員研修について質問してもよろしいでしょうか？\n小林：うん、何でも聞いて。\n中村：研修の資料は、全員分印刷して会議室へ持参しなければなりませんか？\n小林：いや、明日はタブレットで共有サーバーの資料を見るから、印刷しなくてもいいよ。紙を節約することになっているんだ。\n中村：わかりました。それと、研修中に質問がある時はどうすればいいですか？\n小林：講師の先生が話している途中でも、手を挙げて自由に質問して構わないよ。むしろ積極的に発言したほうが喜ばれるよ。\n中村：安心しました。メモ用のノートだけ持って参加します！",
+    "translation": "Nakamura: Kobayashi-senpai, may I ask a question regarding tomorrow's new employee training?\nKobayashi: Sure, ask anything.\nNakamura: Must I print the training handouts for everyone and bring them to the conference room?\nKobayashi: No, tomorrow we will view the materials on the shared server via tablets, so you don't have to print them. We're supposed to save paper.\nNakamura: Understood. Also, what should I do if I have questions during training?\nKobayashi: Even midway through the lecturer's speech, you may raise your hand and ask freely. Rather, participating actively will be appreciated.\nNakamura: I am relieved. I will participate just bringing a notebook for memos!",
+    "turns": [
+      {
+        "speaker": "中村",
+        "ja": "小林先輩、明日の新入社員研修について質問してもよろしいでしょうか？",
+        "kana": "こばやしせんぱい、あすのしんにゅうしゃいんけんしゅうについてしつもんしてもよろしいでしょうか？",
+        "en": "Kobayashi-senpai, may I ask a question regarding tomorrow’s new employee training?"
+      },
+      {
+        "speaker": "小林",
+        "ja": "うん、何でも聞いて。",
+        "kana": "うん、なんでもきいて。",
+        "en": "Sure, ask anything."
+      },
+      {
+        "speaker": "中村",
+        "ja": "研修の資料は、全員分印刷して会議室へ持参しなければなりませんか？",
+        "kana": "けんしゅうのしりょうは、ぜんいんぶんいんさつしてかいぎしつへじさんしなければなりませんか？",
+        "en": "Must I print the training handouts for everyone and bring them to the conference room?"
+      },
+      {
+        "speaker": "小林",
+        "ja": "いや、明日はタブレットで共有サーバーの資料を見るから、印刷しなくてもいいよ。紙を節約することになっているんだ。",
+        "kana": "いや、あしたはタブレットできょうゆうサーバーのしりょうをみるから、いんさつしなくてもいいよ。かみをせつやくすることになっているんだ。",
+        "en": "No, tomorrow we will view materials on the shared server via tablets, so you do not have to print them. We are supposed to save paper."
+      },
+      {
+        "speaker": "中村",
+        "ja": "わかりました。それと、研修中に質問がある時はどうすればいいですか？",
+        "kana": "わかりました。それと、けんしゅうちゅうにしつもんがあるときはどうすればいいですか？",
+        "en": "Understood. Also, what should I do if I have questions during the training?"
+      },
+      {
+        "speaker": "小林",
+        "ja": "講師の先生が話している途中でも、手を挙げて自由に質問して構わないよ。むしろ積極的に発言したほうが喜ばれるよ。",
+        "kana": "こうしのせんせいがはなしているとちゅうでも、てをあげてじゆうにしつもんしてかまわないよ。むしろせっきょくてきにはつげんしたほうがよろこばれるよ。",
+        "en": "Even while the lecturer is speaking, you may raise your hand and ask freely without objection. Rather, being proactive is appreciated."
+      },
+      {
+        "speaker": "中村",
+        "ja": "安心しました。メモ用のノートだけ持って参加します！",
+        "kana": "あんしんしました。メモようのノートだけもってさんかします！",
+        "en": "I am relieved. I will participate just bringing a notebook for memos!"
+      }
+    ],
+    "questionIds": [
+      "n4.l27.q028",
+      "n4.l27.q029",
+      "n4.l27.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l27.q001",
+      "lessonId": "n4.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "公式に行動してよいと認められることを表す名詞はどれですか。",
+      "choices": [
+        "許可",
+        "禁止",
+        "解約",
+        "追放"
+      ],
+      "answer": "許可",
+      "acceptedAnswers": [
+        "許可"
+      ],
+      "explanation": "許可 (きょか) means permission or authorization.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q002",
+      "lessonId": "n4.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "過失や失敗を責めずに寛大に受け入れる動詞はどれですか。",
+      "choices": [
+        "許す",
+        "殴る",
+        "怒る",
+        "奪う"
+      ],
+      "answer": "許す",
+      "acceptedAnswers": [
+        "許す"
+      ],
+      "explanation": "許す (ゆるす) means to forgive or allow.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q003",
+      "lessonId": "n4.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「差し支えない、問題ない」という意味のイ形容詞表現はどれですか。",
+      "choices": [
+        "構わない",
+        "つまらない",
+        "もったいない",
+        "だらしない"
+      ],
+      "answer": "構わない",
+      "acceptedAnswers": [
+        "構わない"
+      ],
+      "explanation": "構わない (かまわない) means it doesn't matter / no problem.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q004",
+      "lessonId": "n4.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "お金を払う必要がなくタダであることを何と言いますか。",
+      "choices": [
+        "無料",
+        "有料",
+        "割高",
+        "集金"
+      ],
+      "answer": "無料",
+      "acceptedAnswers": [
+        "無料"
+      ],
+      "explanation": "無料 (むりょう) means free of charge.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q005",
+      "lessonId": "n4.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "他人に気兼ねして控えめに振る舞うことを何と言いますか。",
+      "choices": [
+        "遠慮する",
+        "自慢する",
+        "興奮する",
+        "無視する"
+      ],
+      "answer": "遠慮する",
+      "acceptedAnswers": [
+        "遠慮する"
+      ],
+      "explanation": "遠慮する (えんりょする) means to refrain or hold back out of modesty.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q006",
+      "lessonId": "n4.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "制限や束縛がなく、自分の思い通りに行動できる状態を何と言いますか。",
+      "choices": [
+        "自由",
+        "危険",
+        "不便",
+        "複雑"
+      ],
+      "answer": "自由",
+      "acceptedAnswers": [
+        "自由"
+      ],
+      "explanation": "自由 (じゆう) means freedom / liberty.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q007",
+      "lessonId": "n4.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "借りていた本や品物を元の持ち主に返すことを何と言いますか。",
+      "choices": [
+        "返却する",
+        "購入する",
+        "配達する",
+        "展示する"
+      ],
+      "answer": "返却する",
+      "acceptedAnswers": [
+        "返却する"
+      ],
+      "explanation": "返却する (へんきゃくする) means to return borrowed items.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q008",
+      "lessonId": "n4.l27",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "図書館などが利用者に本を貸し出す手続きを何と言いますか。",
+      "choices": [
+        "貸出",
+        "売却",
+        "寄付",
+        "処分"
+      ],
+      "answer": "貸出",
+      "acceptedAnswers": [
+        "貸出"
+      ],
+      "explanation": "貸出 (かしだし) means lending / book checkout.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q009",
+      "lessonId": "n4.l27",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「許可」の正しい読み方はどれですか。",
+      "choices": [
+        "きょか",
+        "こか",
+        "きょけ",
+        "しょか"
+      ],
+      "answer": "きょか",
+      "acceptedAnswers": [
+        "きょか"
+      ],
+      "explanation": "許可 is read as きょか.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.k001",
+        "n4.l27.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q010",
+      "lessonId": "n4.l27",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「相手の過ちを（許す）」の正しい読み方はどれですか。",
+      "choices": [
+        "ゆるす",
+        "はなす",
+        "おとす",
+        "かわす"
+      ],
+      "answer": "ゆるす",
+      "acceptedAnswers": [
+        "ゆるす"
+      ],
+      "explanation": "許す is read as ゆるす.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q011",
+      "lessonId": "n4.l27",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「運転免許証」の「免許」の読み方はどれですか。",
+      "choices": [
+        "めんきょ",
+        "めんこ",
+        "べんきょ",
+        "めんけ"
+      ],
+      "answer": "めんきょ",
+      "acceptedAnswers": [
+        "めんきょ"
+      ],
+      "explanation": "免許 is read as めんきょ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q012",
+      "lessonId": "n4.l27",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「これでも（構わない）」の「構」の訓読みはどれですか。",
+      "choices": [
+        "かま",
+        "さし",
+        "こころ",
+        "つか"
+      ],
+      "answer": "かま",
+      "acceptedAnswers": [
+        "かま"
+      ],
+      "explanation": "構う has kunyomi かま・う (構わない = かまわない).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q013",
+      "lessonId": "n4.l27",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「手続きが（済む）」の正しい読み方はどれですか。",
+      "choices": [
+        "すむ",
+        "やむ",
+        "とむ",
+        "ふむ"
+      ],
+      "answer": "すむ",
+      "acceptedAnswers": [
+        "すむ"
+      ],
+      "explanation": "済む is read as すむ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q014",
+      "lessonId": "n4.l27",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「可能」の「可」の音読みはどれですか。",
+      "choices": [
+        "カ",
+        "コ",
+        "キ",
+        "ケ"
+      ],
+      "answer": "カ",
+      "acceptedAnswers": [
+        "カ"
+      ],
+      "explanation": "可 has onyomi カ (e.g. 可能, 許可, 不可).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q015",
+      "lessonId": "n4.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「すみません、この席に座っ（　）いいですか。」許可を求める形はどれですか。",
+      "choices": [
+        "ても",
+        "たら",
+        "ては",
+        "てもない"
+      ],
+      "answer": "ても",
+      "acceptedAnswers": [
+        "ても"
+      ],
+      "explanation": "座ってもいいですか is the polite formula to ask permission (\"May I sit here?\").",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q016",
+      "lessonId": "n4.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "明日は休日ですから、朝早く学校へ来（　）。不必要を表す文型を選びなさい。",
+      "choices": [
+        "なくてもいいです",
+        "てはいけません",
+        "なければなりません",
+        "るかもしれません"
+      ],
+      "answer": "なくてもいいです",
+      "acceptedAnswers": [
+        "なくてもいいです"
+      ],
+      "explanation": "来なくてもいいです expresses lack of obligation: \"you do not have to come\".",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q020",
+      "lessonId": "n4.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「急が（　）いいですよ。まだ時間に余裕がありますから。」",
+      "choices": [
+        "なくても",
+        "ないでも",
+        "なくては",
+        "ないなら"
+      ],
+      "answer": "なくても",
+      "acceptedAnswers": [
+        "なくても"
+      ],
+      "explanation": "急ぐ becomes 急がない $\to$ 急がなくてもいいです (you don't have to hurry).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q018",
+      "lessonId": "n4.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「ここで写真を撮っ（　）かまいませんか。」「はい、どうぞ。」",
+      "choices": [
+        "ても",
+        "ては",
+        "たら",
+        "と"
+      ],
+      "answer": "ても",
+      "acceptedAnswers": [
+        "ても"
+      ],
+      "explanation": "〜てもかまいませんか is a formal polite formula asking permission.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q019",
+      "lessonId": "n4.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「傘を持っていかなくてもいい」の意味として正しいものはどれですか。",
+      "choices": [
+        "傘を持っていく必要がない（持っていっても自由）",
+        "傘を持っていくことが禁止されている",
+        "必ず傘を持っていかなければならない",
+        "傘を持っていくと雨が降る"
+      ],
+      "answer": "傘を持っていく必要がない（持っていっても自由）",
+      "acceptedAnswers": [
+        "傘を持っていく必要がない（持っていっても自由）"
+      ],
+      "explanation": "〜なくてもいい denotes non-necessity, not prohibition. You are free to take it, but don't have to.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q017",
+      "lessonId": "n4.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「食べない」を「〜なくてもいい」に接続した正しい形はどれですか。",
+      "choices": [
+        "食べなくてもいい",
+        "食べないてもいい",
+        "食べなくでもいい",
+        "食べないでもいい"
+      ],
+      "answer": "食べなくてもいい",
+      "acceptedAnswers": [
+        "食べなくてもいい"
+      ],
+      "explanation": "Negative ない drops い and adds くてもいい (食べなくてもいい).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q021",
+      "lessonId": "n4.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「体調が悪いなら、無理をして来（　）構いませんよ。」",
+      "choices": [
+        "なくても",
+        "ては",
+        "なければ",
+        "たら"
+      ],
+      "answer": "なくても",
+      "acceptedAnswers": [
+        "なくても"
+      ],
+      "explanation": "〜なくても構いません expresses permission not to do something (\"it's fine if you don't come\").",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q022",
+      "lessonId": "n4.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の対話の返答として最も自然なものはどれですか。「窓を開けてもいいですか。」",
+      "choices": [
+        "ええ、どうぞ。",
+        "いいえ、開けてください。",
+        "はい、開けてはいけません。",
+        "ええ、開けなければなりません。"
+      ],
+      "answer": "ええ、どうぞ。",
+      "acceptedAnswers": [
+        "ええ、どうぞ。"
+      ],
+      "explanation": "When granting permission to 〜てもいいですか, the natural polite response is ええ、どうぞ or いいですよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q023",
+      "lessonId": "n4.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「する」を「〜なくてもいい」に接続した形はどれですか。",
+      "choices": [
+        "しなくてもいい",
+        "すなくてもいい",
+        "さなくてもいい",
+        "しないてもいい"
+      ],
+      "answer": "しなくてもいい",
+      "acceptedAnswers": [
+        "しなくてもいい"
+      ],
+      "explanation": "する becomes しない $\to$ しなくてもいい.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q024",
+      "lessonId": "n4.l27",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「会議の資料を全部（読まなくてもいい）と言われました。」この文が表す意味はどれですか。",
+      "choices": [
+        "全部読む義務はない（必要な部分だけでよい）",
+        "資料を絶対に読んではいけない",
+        "全部読まなければならない",
+        "資料を読むことができない"
+      ],
+      "answer": "全部読む義務はない（必要な部分だけでよい）",
+      "acceptedAnswers": [
+        "全部読む義務はない（必要な部分だけでよい）"
+      ],
+      "explanation": "読まなくてもいい means there is no obligation to read everything.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q025",
+      "lessonId": "n4.l27",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "市立図書館の閲覧席での利用ルールとして正しいものはどれですか。",
+      "choices": [
+        "パソコンやタブレットの持ち込みは自由だが、動画を見る時はイヤホンを使う必要がある",
+        "個人のパソコンや電子機器を持ち込むことは一切禁止されている",
+        "パソコンで動画を見る際もスピーカーから音を出してもよい",
+        "一階の読書スペースでは自習してはいけない"
+      ],
+      "answer": "パソコンやタブレットの持ち込みは自由だが、動画を見る時はイヤホンを使う必要がある",
+      "acceptedAnswers": [
+        "パソコンやタブレットの持ち込みは自由だが、動画を見る時はイヤホンを使う必要がある"
+      ],
+      "explanation": "Passage 2 states: ノートパソコンやタブレットを自由に持ち込んで利用しても構いません。ただし、動画を見る際は必ずイヤホンを装着しなければならず、音を出してはいけません。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q026",
+      "lessonId": "n4.l27",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "借りたい本が貸出中の場合、利用者はどうすることができますか。",
+      "choices": [
+        "端末やウェブサイトから無料で予約してもよい",
+        "借りている人の家へ直接取りに行かなければならない",
+        "追加料金を支払わなければならない",
+        "その本を借りることを諦めなければならない"
+      ],
+      "answer": "端末やウェブサイトから無料で予約してもよい",
+      "acceptedAnswers": [
+        "端末やウェブサイトから無料で予約してもよい"
+      ],
+      "explanation": "Passage 3 states: 借りたい本が貸出中の場合は、館内の端末や公式ウェブサイトから無料で予約してもいいです。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q027",
+      "lessonId": "n4.l27",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "二十四時間対応の「返却ポスト」に入れてはいけないものは何ですか。",
+      "choices": [
+        "CDやDVDなどの視聴覚資料",
+        "二週間以上借りた本",
+        "ウェブサイトで予約した本",
+        "十冊以上の本"
+      ],
+      "answer": "CDやDVDなどの視聴覚資料",
+      "acceptedAnswers": [
+        "CDやDVDなどの視聴覚資料"
+      ],
+      "explanation": "Passage 4 explicitly warns: ただし、CDやDVDなどの視聴覚資料は壊れやすいため、ポストに入れてはいけません。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q028",
+      "lessonId": "n4.l27",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "小林先輩によると、研修資料を印刷しなくてもよい理由は何ですか。",
+      "choices": [
+        "タブレットで共有サーバーの資料を見るから",
+        "研修が急に中止になったから",
+        "講師の先生が全員分持ってきてくれるから",
+        "資料を読む必要がないから"
+      ],
+      "answer": "タブレットで共有サーバーの資料を見るから",
+      "acceptedAnswers": [
+        "タブレットで共有サーバーの資料を見るから"
+      ],
+      "explanation": "Kobayashi says: 明日はタブレットで共有サーバーの資料を見るから、印刷しなくてもいいよ。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q029",
+      "lessonId": "n4.l27",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "研修中に質問がある時、どうしてもよいと小林先輩は言いましたか。",
+      "choices": [
+        "講師が話している途中でも、手を挙げて自由に質問して構わない",
+        "研修がすべて終わるまで絶対に質問してはいけない",
+        "質問はすべてメールで送らなければならない",
+        "先輩を通して質問しなければならない"
+      ],
+      "answer": "講師が話している途中でも、手を挙げて自由に質問して構わない",
+      "acceptedAnswers": [
+        "講師が話している途中でも、手を挙げて自由に質問して構わない"
+      ],
+      "explanation": "Kobayashi explains: 講師の先生が話している途中でも、手を挙げて自由に質問して構わないよ。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l27.q030",
+      "lessonId": "n4.l27",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "中村さんは最終的に研修に何だけを持っていくことにしましたか。",
+      "choices": [
+        "メモ用のノート",
+        "全員分の印刷資料",
+        "録音レコーダー",
+        "重い専門書"
+      ],
+      "answer": "メモ用のノート",
+      "acceptedAnswers": [
+        "メモ用のノート"
+      ],
+      "explanation": "Nakamura concludes: メモ用のノートだけ持って参加します！",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l27.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

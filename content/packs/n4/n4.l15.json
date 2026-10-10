@@ -1,0 +1,1718 @@
+{
+  "id": "n4.l15",
+  "level": "N4",
+  "module": "N4 Expressions & Relations",
+  "number": 15,
+  "title": "N4 Lesson 15: Humble Keigo (謙譲語: 参る・申す・いたす・お〜する)",
+  "description": "Master humble language (謙譲語), dedicated humble verbs, productive formulas (お〜する/ご〜する), and in-group/out-group business telephone etiquette.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l15.v001",
+      "lessonId": "n4.l15",
+      "ja": "参る",
+      "kana": "まいる",
+      "en": "to go; to come (humble)",
+      "my": "သွားသည်/လာသည် (နှိမ့်ချစကား)",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l15.s001",
+      "kanjiIds": [
+        "n4.l15.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.v002",
+      "lessonId": "n4.l15",
+      "ja": "申す",
+      "kana": "もうす",
+      "en": "to say; to be called (humble)",
+      "my": "ပြောဆိုသည်/အမည်တွင်သည် (နှိမ့်ချစကား)",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l15.s002",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.v003",
+      "lessonId": "n4.l15",
+      "ja": "いたす",
+      "kana": "いたす",
+      "en": "to do (humble form of する)",
+      "my": "ပြုလုပ်သည် (နှိမ့်ချစကား)",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l15.s003",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.v004",
+      "lessonId": "n4.l15",
+      "ja": "拝見する",
+      "kana": "はいけんする",
+      "en": "to look at; to see (humble)",
+      "my": "ကြည့်ရှုသည် (နှိမ့်ချစကား)",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l15.s004",
+      "kanjiIds": [
+        "n4.l15.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.v005",
+      "lessonId": "n4.l15",
+      "ja": "伺う",
+      "kana": "うかがう",
+      "en": "to visit; to ask; to hear (humble)",
+      "my": "သွားရောက်လည်ပတ်သည်/မေးမြန်းသည် (နှိမ့်ချစကား)",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l15.s005",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.v006",
+      "lessonId": "n4.l15",
+      "ja": "承知する",
+      "kana": "しょうちする",
+      "en": "to consent; to understand; to know (formal/humble)",
+      "my": "သိရှိလက်ခံသည်/နားလည်ပါသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l15.s006",
+      "kanjiIds": [
+        "n4.l15.k003",
+        "n4.l15.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.v007",
+      "lessonId": "n4.l15",
+      "ja": "お目にかかる",
+      "kana": "おめにかかる",
+      "en": "to meet (someone of higher status, humble)",
+      "my": "တွေ့ဆုံသည် (နှိမ့်ချစကား)",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l15.s007",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.v008",
+      "lessonId": "n4.l15",
+      "ja": "ご説明する",
+      "kana": "ごせつめいする",
+      "en": "to explain (humble/polite)",
+      "my": "ရှင်းပြသည် (နှိမ့်ချစကား)",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l15.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.v009",
+      "lessonId": "n4.l15",
+      "ja": "報告する",
+      "kana": "ほうこくする",
+      "en": "to report",
+      "my": "အစီရင်ခံတင်ပြသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l15.s009",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.v010",
+      "lessonId": "n4.l15",
+      "ja": "お持ちする",
+      "kana": "おもちする",
+      "en": "to carry; to hold (humble)",
+      "my": "ကိုင်ဆောင်ပေးသည်/သယ်ယူပေးသည် (နှိမ့်ချစကား)",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l15.s010",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.v011",
+      "lessonId": "n4.l15",
+      "ja": "席を外す",
+      "kana": "せきをはずす",
+      "en": "to step away from one's desk",
+      "my": "နေရာမှ ခေတ္တထွက်သွားသည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l15.s011",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.v012",
+      "lessonId": "n4.l15",
+      "ja": "折り返し",
+      "kana": "おりかえし",
+      "en": "by return (call back, reply immediately)",
+      "my": "ချက်ချင်းပြန်လည် (ဖုန်းပြန်ခေါ်ခြင်း စသည်)",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l15.s012",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l15.k001",
+      "lessonId": "n4.l15",
+      "char": "参",
+      "meaning": "visit; go; participate; humble go/come",
+      "onyomi": [
+        "サン"
+      ],
+      "kunyomi": [
+        "まい・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "参る",
+          "reading": "まいる",
+          "meaning": "to go/come (humble)",
+          "preview": false
+        },
+        {
+          "word": "参加",
+          "reading": "さんか",
+          "meaning": "participation",
+          "preview": false
+        },
+        {
+          "word": "参考",
+          "reading": "さんこう",
+          "meaning": "reference",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l15.s001"
+      ],
+      "components": [
+        "厶",
+        "大",
+        "彡"
+      ],
+      "strokes": 8,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.k002",
+      "lessonId": "n4.l15",
+      "char": "拝",
+      "meaning": "worship; adore; look at (humble)",
+      "onyomi": [
+        "ハイ"
+      ],
+      "kunyomi": [
+        "おが・む"
+      ],
+      "exampleVocab": [
+        {
+          "word": "拝見する",
+          "reading": "はいけんする",
+          "meaning": "to look at (humble)",
+          "preview": false
+        },
+        {
+          "word": "参拝",
+          "reading": "さんぱい",
+          "meaning": "shrine/temple visit",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l15.s001"
+      ],
+      "components": [
+        "扌",
+        "手"
+      ],
+      "strokes": 8,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.k003",
+      "lessonId": "n4.l15",
+      "char": "承",
+      "meaning": "acquiesce; hear; receive; consent",
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "うけたまわ・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "承知",
+          "reading": "しょうち",
+          "meaning": "consent; understanding",
+          "preview": false
+        },
+        {
+          "word": "承認",
+          "reading": "しょうにん",
+          "meaning": "approval; authorization",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l15.s001"
+      ],
+      "components": [
+        "乙",
+        "水"
+      ],
+      "strokes": 8,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.k004",
+      "lessonId": "n4.l15",
+      "char": "知",
+      "meaning": "know; wisdom",
+      "onyomi": [
+        "チ"
+      ],
+      "kunyomi": [
+        "し・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "承知",
+          "reading": "しょうち",
+          "meaning": "consent; knowledge",
+          "preview": false
+        },
+        {
+          "word": "知る",
+          "reading": "しる",
+          "meaning": "to know",
+          "preview": false
+        },
+        {
+          "word": "知識",
+          "reading": "ちしき",
+          "meaning": "knowledge",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l15.s001"
+      ],
+      "components": [
+        "矢",
+        "口"
+      ],
+      "strokes": 8,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l15.g001",
+      "lessonId": "n4.l15",
+      "pattern": "[Humble Verb: 参る・申す・いたす・拝見する・いただく・存じている]",
+      "meaning": "Dedicated Humble Verbs (謙譲語: humbling one's own actions or in-group members)",
+      "formation": "行く/来る -> 参る (まいる)\n言う -> 申す (もうす) / 申し上げる\nする -> いたす\n見る -> 拝見する (はいけんする)\n食べる/飲む/もらう -> いただく\n知っている -> 存じております / 存じません\n会う -> お目にかかる",
+      "explanation": {
+        "en": "Humble verbs (謙譲語) lower the speaker's own actions (or the actions of one's company colleagues/family) in order to elevate the status of the person being addressed or the person benefiting from the action.",
+        "my": "စကားပြောသူ မိမိကိုယ်တိုင်၏ လုပ်ဆောင်ချက် သို့မဟုတ် မိမိအဖွဲ့အစည်း (ကုမ္ပဏီ၊ မိသားစု) ၏ လုပ်ဆောင်ချက်ကို နှိမ့်ချပြောဆိုခြင်းဖြင့် တစ်ဖက်သားကို လေးစားမှုပြသော နှိမ့်ချစကား (謙譲語) ဖြစ်သည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l15.s001",
+          "note": "I have arrived from Tokyo."
+        },
+        {
+          "sentenceId": "n4.l15.s004",
+          "note": "I have looked at the project proposal."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Never use 謙譲語 to describe the listener or customer's actions (e.g. *社長が参りました is incorrect; say いらっしゃいました).",
+        "When speaking to an outside client about your boss, treat your boss as in-group (ウチ) and use humble speech: 「部長の鈴木はただいま席を外しております。」 (Do NOT use 部長様 or いらっしゃいます)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.g002",
+      "lessonId": "n4.l15",
+      "pattern": "お + [Verb ます-stem] + する / ご + [Noun] + する",
+      "meaning": "General Humble Formula (lowering an action performed by the speaker for someone respected)",
+      "formation": "お + [Verb ます-stem] + します/いたします (e.g. お持ちします, お送りします, お調べします)\nご + [Sino-Japanese Noun] + します/いたします (e.g. ご案内いたします, ご説明いたします, ご連絡いたします)",
+      "explanation": {
+        "en": "Standard productive formula to lower one's own action towards a respected person. Always implies that the action is directed towards or benefits the counterparty.",
+        "my": "မိမိပြုလုပ်သော လုပ်ဆောင်ချက်သည် တစ်ဖက်လူအတွက် ရည်ရွယ်သည့်အခါ အသုံးပြုသော ပုံမှန်နှိမ့်ချစကားပုံစံ ဖြစ်သည်။ お + ကြိယာ ます ဖြုတ် + します/いたします သို့မဟုတ် ご + နာမ် + します/いたします ကို သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l15.s008",
+          "note": "I will explain the details of the contract."
+        },
+        {
+          "sentenceId": "n4.l15.s010",
+          "note": "Allow me to carry your heavy luggage."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use this formula for actions that have no connection to another person (e.g. *毎朝パンをお食べします is incorrect).",
+        "For the humble form, never add になる (that would create respectful 尊敬語 instead)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l15.s001",
+      "lessonId": "n4.l15",
+      "ja": "東京本社から参りました、営業部の田中と申します。",
+      "kana": "とうきょうほんしゃからまいりました、えいぎょうぶのたなかともうします。",
+      "translation": {
+        "en": "I have come from the Tokyo headquarters; my name is Tanaka from the Sales Department.",
+        "my": "တိုကျိုပင်မရုံးချုပ်မှ လာရောက်ပါသည်၊ အရောင်းဌာနမှ တာနာကာဟု ခေါ်ဆိုပါသည်ခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n4.l15.v001",
+        "n4.l15.v002"
+      ],
+      "grammarIds": [
+        "n4.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.s002",
+      "lessonId": "n4.l15",
+      "ja": "私から皆様に本日のスケジュールについて一言申し上げます。",
+      "kana": "わたしからみなさまにほんじつのスケジュールについてひとこともうしあげます。",
+      "translation": {
+        "en": "Allow me to say a few words to everyone regarding today's schedule.",
+        "my": "ယနေ့ အစီအစဉ်နှင့်ပတ်သက်၍ လူကြီးမင်းများအား ကျွန်တော့်ဘက်မှ စကားအနည်းငယ် တင်ပြပြောဆိုခွင့်ပြုပါခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n4.l15.v002"
+      ],
+      "grammarIds": [
+        "n4.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.s003",
+      "lessonId": "n4.l15",
+      "ja": "ご指示いただいた通りに、資料の修正を完了いたしました。",
+      "kana": "ごしじいただいたとおりに、しりょうのしゅうせいをかんりょういたしました。",
+      "translation": {
+        "en": "Exactly as instructed, I have completed the revisions of the document.",
+        "my": "ညွှန်ကြားတော်မူသည့်အတိုင်း စာရွက်စာတမ်းများ ပြင်ဆင်ခြင်းကို ပြီးစီးအောင် ဆောင်ရွက်ခဲ့ပါသည်ခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n4.l15.v003"
+      ],
+      "grammarIds": [
+        "n4.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.s004",
+      "lessonId": "n4.l15",
+      "ja": "昨日メールでお送りいただいた企画書を拝見いたしました。",
+      "kana": "きのうメールでおおくりいただいたきかくしょをはいけんいたしました。",
+      "translation": {
+        "en": "I had the honor of looking at the proposal you sent by email yesterday.",
+        "my": "မနေ့က အီးမေးလ်ဖြင့် ပို့ပေးခဲ့သော စီမံချက်အဆိုပြုလွှာကို ကြည့်ရှုစစ်ဆေးပြီးဖြစ်ပါသည်ခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n4.l15.v004"
+      ],
+      "grammarIds": [
+        "n4.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.s005",
+      "lessonId": "n4.l15",
+      "ja": "明日の午後二時に貴社のオフィスへ伺ってもよろしいでしょうか。",
+      "kana": "あすのごごにじにきしゃのオフィスへうかがってもよろしいでしょうか。",
+      "translation": {
+        "en": "May I visit your company's office tomorrow at 2:00 PM?",
+        "my": "မနက်ဖြန် မွန်းလွဲ ၂ နာရီတွင် လူကြီးမင်းတို့၏ ရုံးခန်းသို့ လာရောက်တွေ့ဆုံခွင့်ပြုပါမည်လားခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n4.l15.v005"
+      ],
+      "grammarIds": [
+        "n4.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.s006",
+      "lessonId": "n4.l15",
+      "ja": "日程変更の件、かしこまりました。確かに承知いたしました。",
+      "kana": "にっていへんこうのけん、かしこまりました。たしかにしょうちいたしました。",
+      "translation": {
+        "en": "Regarding the schedule change, certainly. I have fully acknowledged it.",
+        "my": "ရက်စွဲပြောင်းလဲမည့်ကိစ္စကို ကောင်းစွာ သဘောပေါက်နားလည်ပါသည်ခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n4.l15.v006"
+      ],
+      "grammarIds": [
+        "n4.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.s007",
+      "lessonId": "n4.l15",
+      "ja": "本日先生に直接お目にかかることができ、大変光栄でございます。",
+      "kana": "ほんじつせんせいにちょくせつおめにかかることができ、たいへんこうえいでございます。",
+      "translation": {
+        "en": "It is a tremendous honor to be able to meet you directly in person today, Professor.",
+        "my": "ယနေ့ ဆရာကြီးနှင့် ကိုယ်တိုင်ကိုယ်ကျ လူချင်းတွေ့ဆုံခွင့်ရသည့်အတွက် အလွန်ပင် ဂုဏ်ယူဝမ်းမြောက်မိပါသည်ခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n4.l15.v007"
+      ],
+      "grammarIds": [
+        "n4.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.s008",
+      "lessonId": "n4.l15",
+      "ja": "新しい契約内容について、私から詳しくご説明いたします。",
+      "kana": "あたらしいけいやくないようについて、わたしからくわしくごせつめいいいたします。",
+      "translation": {
+        "en": "Allow me to explain the details of the new contract.",
+        "my": "စာချုပ်ပါ အချက်အလက်သစ်များနှင့်ပတ်သက်၍ ကျွန်တော့်ဘက်မှ အသေးစိတ် ရှင်းလင်းတင်ပြပါမည်ခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n4.l15.v008"
+      ],
+      "grammarIds": [
+        "n4.l15.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.s009",
+      "lessonId": "n4.l15",
+      "ja": "現場の調査結果がまとまり次第、部長にご報告いたします。",
+      "kana": "げんばのちょうさけっかがまとまりしだい、ぶちょうにごほうこくいたします。",
+      "translation": {
+        "en": "As soon as the on-site survey results are compiled, I will report them to the department manager.",
+        "my": "ကွင်းဆင်းစစ်ဆေးမှုရလဒ်များ ပြုစုပြီးသည်နှင့်တစ်ပြိုင်နက် ဌာနမှူးထံ အစီရင်ခံတင်ပြပါမည်။"
+      },
+      "vocabIds": [
+        "n4.l15.v009"
+      ],
+      "grammarIds": [
+        "n4.l15.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.s010",
+      "lessonId": "n4.l15",
+      "ja": "重そうなお荷物ですね。改札口まで私がお持ちいたしましょうか。",
+      "kana": "おもそうなおにもつですね。かいさつぐちまでわたしがおもちいたしましょうか。",
+      "translation": {
+        "en": "That luggage looks heavy. Shall I carry it for you to the ticket gate?",
+        "my": "လေးပုံရသောအိတ်များ ဖြစ်ပါသည်ခင်ဗျာ။ လက်မှတ်ဖြတ်ဂိတ်အထိ ကျွန်တော် သယ်ယူပေးပါရစေလားခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n4.l15.v010"
+      ],
+      "grammarIds": [
+        "n4.l15.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.s011",
+      "lessonId": "n4.l15",
+      "ja": "申し訳ございません。担当の山田はただいま席を外しております。",
+      "kana": "もうしわけございません。たんとうのやまだはただいませきをはずしております。",
+      "translation": {
+        "en": "I am very sorry. Yamada, the person in charge, has currently stepped away from his desk.",
+        "my": "တောင်းပန်ပါသည်ခင်ဗျာ။ တာဝန်ခံ ယာမာဒါသည် ယခုအခါ နေရာမှ ခေတ္တ ထွက်သွားပါသည်ခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n4.l15.v011"
+      ],
+      "grammarIds": [
+        "n4.l15.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l15.s012",
+      "lessonId": "n4.l15",
+      "ja": "山田が戻りましたら、至急そちらへ折り返しお電話を差し上げます。",
+      "kana": "やまだがもどりましたら、しきゅうそちらへおりかえしおでんわをさしあげます。",
+      "translation": {
+        "en": "As soon as Yamada returns, he will call you back immediately.",
+        "my": "ယာမာဒါ ပြန်လည်ရောက်ရှိပါက လူကြီးမင်းထံ အရေးပေါ် ချက်ချင်း ဖုန်းပြန်လည်ဆက်သွယ်ပေးပါမည်ခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n4.l15.v012"
+      ],
+      "grammarIds": [
+        "n4.l15.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l15.r01",
+    "lessonId": "n4.l15",
+    "title": "ビジネス電話と「ウチ・ソト」の敬語ルール",
+    "level": "N4",
+    "text": "日本のビジネスマナーにおいて、最も間違いやすいのが電話対応での敬語の使い方です。日本語には「ウチ（自分の家族や自社の人間）」と「ソト（社外の人や顧客）」を明確に分ける文化があります。\n\n例えば、社外の取引先から「佐藤部長はいらっしゃいますか」と電話がかかってきたとします。このとき、自分の会社の上司であっても、社外の人に対して話すときは「ウチの人間」として謙譲語を使わなければなりません。\n\nそのため、「佐藤部長はいらっしゃいません」と尊敬語を使うのは誤りです。正しくは、敬称の「部長」を省いて呼び捨てにし、「申し訳ございません。部長の佐藤はただいま席を外しております」と答えます。\n\nこのように、相手が誰であるかによって自分の行動だけでなく、身内の人間の行動もへりくだって表現するのが謙譲語の大きな特徴です。この内外の区別を身につけることが、信頼される社会人への第一歩となります。",
+    "kanaText": "にほんのビジネスマナーにおいて、もっともまちがいやすいのがでんわたいおうでのけいごのつかいかたです。にほんごには「ウチ（じぶんのかぞくやじしゃのにんげん）」と「ソト（しゃがいのひとやこきゃく）」をめいかくにわけるぶんかがあります。\n\nたとえば、しゃがいのとりひきさきから「さとうぶちょうはいらっしゃいますか」とでんわがかかってきたとします。このとき、じぶんのかいしゃのじょうしであっても、しゃがいのひとにたいしてはなすときは「ウチのにんげん」としてけんじょうごをつかわなければなりません。\n\nそのため、「さとうぶちょうはいらっしゃいません」とそんけいごをつかうのはあやまりです。ただしくは、けいしょうの「ぶちょう」をはぶいてよびすてにし、「もうしわけございません。ぶちょうのさとうはただいませきをはずしております」とこたえます。\n\nこのように、あいてがだれであるかによってじぶんのこうどうだけでなく、みうちのにんげんのこうどうもへりくだってひょうげんするのがけんじょうごのおおきなとくちょうです。このないがいのくべつをみにつけることが、しんらいされるしゃかいじんへのいっぽとなります。",
+    "translation": "In Japanese business etiquette, the easiest mistake to make is using keigo during telephone correspondence. In Japanese culture, there is a clear distinction between \"Uchi\" (one's own family or company members) and \"Soto\" (outsiders and customers).\n\nFor example, suppose a client calls and asks: \"Is Director Sato there?\" At this time, even though Sato is your superior within your company, when speaking to someone outside the company, you must treat him as an \"in-group person\" and use humble speech (kenjougo).\n\nTherefore, responding with respectful speech: \"Sato-bucho is not here (irasshaimasen)\" is a mistake. The correct response is to omit the title suffix \"bucho\" to refer to him simply as Sato, and answer: \"I am terribly sorry. Our director, Sato, has currently stepped away from his desk (seki o hazushite orimasu).\"\n\nIn this manner, lowering not only your own actions but also the actions of your in-group members depending on who the listener is represents the fundamental characteristic of humble keigo. Acquiring this distinction between inside and outside is the first step toward becoming a trusted professional.",
+    "questionIds": [
+      "n4.l15.q021",
+      "n4.l15.q022",
+      "n4.l15.q023",
+      "n4.l15.q024",
+      "n4.l15.q025"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l15.l01",
+    "lessonId": "n4.l15",
+    "title": "取引先への訪問アポイントと電話応対",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "営業の小林",
+      "取引先アシスタント"
+    ],
+    "transcript": "取引先アシスタント：お電話ありがとうございます。大和産業でございます。\n営業の小林：いつも大変お世話になっております。私、さくら商事営業部の小林と申します。\n取引先アシスタント：さくら商事の小林様ですね。いつもお世話になっております。\n営業の小林：恐れ入ります。営業企画の木村課長はいらっしゃいますでしょうか。\n取引先アシスタント：申し訳ございません。木村はただいま他の会議に出ておりまして、三時半頃に戻る予定でございます。\n営業の小林：承知いたしました。では、三時半過ぎに私から改めてお電話を差し上げます。\n取引先アシスタント：かしこまりました。木村にその旨申し伝えておきます。\n営業の小林：よろしくお願い申し上げます。失礼いたします。",
+    "translation": "Client Assistant: Thank you for calling. This is Yamato Industries.\nKobayashi (Sales): We are always very grateful for your patronage. My name is Kobayashi from the Sales Department at Sakura Trading.\nClient Assistant: Mr. Kobayashi of Sakura Trading, hello. Thank you for your continued partnership.\nKobayashi (Sales): Pardon me. Is Section Chief Kimura of Sales Planning available?\nClient Assistant: I am very sorry. Kimura is currently attending another meeting and is scheduled to return around 3:30.\nKobayashi (Sales): Understood. In that case, I will call back again myself after 3:30.\nClient Assistant: Certainly. I will convey that message to Kimura.\nKobayashi (Sales): Thank you very much. Goodbye.",
+    "turns": [
+      {
+        "speaker": "取引先アシスタント",
+        "ja": "お電話ありがとうございます。大和産業でございます。",
+        "kana": "お電話ありがとうございます。大和産業でございます。",
+        "en": ""
+      },
+      {
+        "speaker": "営業の小林",
+        "ja": "いつも大変お世話になっております。私、さくら商事営業部の小林と申します。",
+        "kana": "いつも大変お世話になっております。私、さくら商事営業部の小林と申します。",
+        "en": ""
+      },
+      {
+        "speaker": "取引先アシスタント",
+        "ja": "さくら商事の小林様ですね。いつもお世話になっております。",
+        "kana": "さくら商事の小林様ですね。いつもお世話になっております。",
+        "en": ""
+      },
+      {
+        "speaker": "営業の小林",
+        "ja": "恐れ入ります。営業企画の木村課長はいらっしゃいますでしょうか。",
+        "kana": "恐れ入ります。営業企画の木村課長はいらっしゃいますでしょうか。",
+        "en": ""
+      },
+      {
+        "speaker": "取引先アシスタント",
+        "ja": "申し訳ございません。木村はただいま他の会議に出ておりまして、三時半頃に戻る予定でございます。",
+        "kana": "申し訳ございません。木村はただいま他の会議に出ておりまして、三時半頃に戻る予定でございます。",
+        "en": ""
+      },
+      {
+        "speaker": "営業の小林",
+        "ja": "承知いたしました。では、三時半過ぎに私から改めてお電話を差し上げます。",
+        "kana": "承知いたしました。では、三時半過ぎに私から改めてお電話を差し上げます。",
+        "en": ""
+      },
+      {
+        "speaker": "取引先アシスタント",
+        "ja": "かしこまりました。木村にその旨申し伝えておきます。",
+        "kana": "かしこまりました。木村にその旨申し伝えておきます。",
+        "en": ""
+      },
+      {
+        "speaker": "営業の小林",
+        "ja": "よろしくお願い申し上げます。失礼いたします。",
+        "kana": "よろしくお願い申し上げます。失礼いたします。",
+        "en": ""
+      }
+    ],
+    "questionIds": [
+      "n4.l15.q026",
+      "n4.l15.q027",
+      "n4.l15.q028",
+      "n4.l15.q029",
+      "n4.l15.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l15.q001",
+      "lessonId": "n4.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "京都の支社から本社へ（　　）ました。",
+      "choices": [
+        "参り",
+        "いらっしゃい",
+        "召し上がり",
+        "おっしゃい"
+      ],
+      "answer": "参り",
+      "acceptedAnswers": [
+        "参り"
+      ],
+      "explanation": "参る (まいる) is the humble form of 行く/来る used for one's own movement.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q002",
+      "lessonId": "n4.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "私、新入社員の鈴木と（　　）。",
+      "choices": [
+        "申します",
+        "おっしゃいます",
+        "参ります",
+        "なさいます"
+      ],
+      "answer": "申します",
+      "acceptedAnswers": [
+        "申します"
+      ],
+      "explanation": "申す (もうす) is the humble form of 言う/名乗る: 〜と申します (My name is...).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q003",
+      "lessonId": "n4.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "私がその仕事を担当（　　）。",
+      "choices": [
+        "いたします",
+        "なさいます",
+        "いらっしゃいます",
+        "おっしゃいます"
+      ],
+      "answer": "いたします",
+      "acceptedAnswers": [
+        "いたします"
+      ],
+      "explanation": "いたす is the humble form of する.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q004",
+      "lessonId": "n4.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "いただいたメールを（　　）しました。",
+      "choices": [
+        "拝見",
+        "ご覧",
+        "お目",
+        "ご存じ"
+      ],
+      "answer": "拝見",
+      "acceptedAnswers": [
+        "拝見"
+      ],
+      "explanation": "拝見する (はいけんする) is the humble form of 見る.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q005",
+      "lessonId": "n4.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "明日、先生の研究室へ（　　）てもよろしいですか。",
+      "choices": [
+        "伺っ",
+        "いらっしゃっ",
+        "参らされ",
+        "ご覧になっ"
+      ],
+      "answer": "伺っ",
+      "acceptedAnswers": [
+        "伺っ"
+      ],
+      "explanation": "伺う (うかがう) is the humble form for visiting / asking.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q006",
+      "lessonId": "n4.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "お客様からのご要望の件、確かに（　　）いたしました。",
+      "choices": [
+        "承知",
+        "拝見",
+        "参る",
+        "遠慮"
+      ],
+      "answer": "承知",
+      "acceptedAnswers": [
+        "承知"
+      ],
+      "explanation": "承知する (しょうちする) means to acknowledge/consent courteously.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q007",
+      "lessonId": "n4.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "有名な作家の先生に直接（　　）ことができて感激した。",
+      "choices": [
+        "お目にかかる",
+        "ご覧になる",
+        "いらっしゃる",
+        "おっしゃる"
+      ],
+      "answer": "お目にかかる",
+      "acceptedAnswers": [
+        "お目にかかる"
+      ],
+      "explanation": "お目にかかる is the humble expression for meeting someone respected.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q008",
+      "lessonId": "n4.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "商品の使い方について、担当者からご（　　）いたします。",
+      "choices": [
+        "説明",
+        "連絡",
+        "案内",
+        "承知"
+      ],
+      "answer": "説明",
+      "acceptedAnswers": [
+        "説明"
+      ],
+      "explanation": "ご説明いたします means \"allow me to explain.\"",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q009",
+      "lessonId": "n4.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "調査が完了したら、すぐに結果を（　　）してください。",
+      "choices": [
+        "報告",
+        "承知",
+        "遠慮",
+        "我慢"
+      ],
+      "answer": "報告",
+      "acceptedAnswers": [
+        "報告"
+      ],
+      "explanation": "報告する (ほうこくする) means to report findings.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q010",
+      "lessonId": "n4.l15",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "担当者が不在ですので、戻り次第（　　）お電話させます。",
+      "choices": [
+        "折り返し",
+        "席を外して",
+        "承知して",
+        "拝見して"
+      ],
+      "answer": "折り返し",
+      "acceptedAnswers": [
+        "折り返し"
+      ],
+      "explanation": "折り返し (おりかえし) means by return / calling back immediately.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q011",
+      "lessonId": "n4.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「参る」の正しい訓読みはどれですか。",
+      "choices": [
+        "まい・る",
+        "うかが・う",
+        "もう・す",
+        "はい・る"
+      ],
+      "answer": "まい・る",
+      "acceptedAnswers": [
+        "まい・る"
+      ],
+      "explanation": "参る is read as まいる.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q012",
+      "lessonId": "n4.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "お手紙を【はいけん】いたしました。漢字表記はどれですか。",
+      "choices": [
+        "拝見",
+        "拝検",
+        "参見",
+        "承見"
+      ],
+      "answer": "拝見",
+      "acceptedAnswers": [
+        "拝見"
+      ],
+      "explanation": "はいけん is written 拝見.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q013",
+      "lessonId": "n4.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「承知」の「承」の音読みはどれですか。",
+      "choices": [
+        "ショウ",
+        "ジョウ",
+        "チ",
+        "ハイ"
+      ],
+      "answer": "ショウ",
+      "acceptedAnswers": [
+        "ショウ"
+      ],
+      "explanation": "The onyomi of 承 is ショウ (承知 = しょうち).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q014",
+      "lessonId": "n4.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「知識」の「知」の音読みはどれですか。",
+      "choices": [
+        "チ",
+        "シ",
+        "ショウ",
+        "ジ"
+      ],
+      "answer": "チ",
+      "acceptedAnswers": [
+        "チ"
+      ],
+      "explanation": "The onyomi of 知 is チ (知識 = ちしき).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q015",
+      "lessonId": "n4.l15",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "神社に【さんぱい】した。漢字表記はどれですか。",
+      "choices": [
+        "参拝",
+        "参加",
+        "拝見",
+        "承知"
+      ],
+      "answer": "参拝",
+      "acceptedAnswers": [
+        "参拝"
+      ],
+      "explanation": "さんぱい (visiting a shrine/temple) is written 参拝.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.k001",
+        "n4.l15.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q016",
+      "lessonId": "n4.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「見る」の謙譲語として正しいものはどれですか。",
+      "choices": [
+        "拝見する",
+        "ご覧になる",
+        "見られる",
+        "見させる"
+      ],
+      "answer": "拝見する",
+      "acceptedAnswers": [
+        "拝見する"
+      ],
+      "explanation": "拝見する is the humble form of 見る (ご覧になる is respectful).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q017",
+      "lessonId": "n4.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「荷物が重そうですね。私が駅までお（　　）しましょう。」",
+      "choices": [
+        "持ち",
+        "持って",
+        "持たれ",
+        "持たせ"
+      ],
+      "answer": "持ち",
+      "acceptedAnswers": [
+        "持ち"
+      ],
+      "explanation": "General humble pattern: お + ます-stem + する: お持ちしましょう.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q018",
+      "lessonId": "n4.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "社外のお客様から「田中社長はいらっしゃいますか」と聞かれたときの正しい返答はどれですか。",
+      "choices": [
+        "「田中はただいま席を外しております。」",
+        "「田中社長はいらっしゃいません。」",
+        "「田中社長様はお出かけになりました。」",
+        "「田中様は参りました。」"
+      ],
+      "answer": "「田中はただいま席を外しております。」",
+      "acceptedAnswers": [
+        "「田中はただいま席を外しております。」"
+      ],
+      "explanation": "When speaking to outside clients, in-group superiors are referred to without honorific titles and with humble verb forms: 田中は席を外しております.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q019",
+      "lessonId": "n4.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「食べる」「飲む」「もらう」の謙譲語はどれですか。",
+      "choices": [
+        "いただく",
+        "召し上がる",
+        "おっしゃる",
+        "いらっしゃる"
+      ],
+      "answer": "いただく",
+      "acceptedAnswers": [
+        "いただく"
+      ],
+      "explanation": "いただく is the humble verb for 食べる, 飲む, and もらう.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q020",
+      "lessonId": "n4.l15",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「明日、新製品のサンプルをお手元にお（　　）いたします。」",
+      "choices": [
+        "届け",
+        "届けて",
+        "届き",
+        "届ける"
+      ],
+      "answer": "届け",
+      "acceptedAnswers": [
+        "届け"
+      ],
+      "explanation": "Humble: お + ます-stem + いたします: お届けいたします.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q021",
+      "lessonId": "n4.l15",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "日本のビジネスマナーにおいて、特に電話対応で間違いやすいのは何ですか。",
+      "choices": [
+        "敬語の使い方（尊敬語と謙譲語の使い分け）",
+        "電話の保留ボタンの押し方",
+        "メモ帳の文字の綺麗さ",
+        "電話を切るスピード"
+      ],
+      "answer": "敬語の使い方（尊敬語と謙譲語の使い分け）",
+      "acceptedAnswers": [
+        "敬語の使い方（尊敬語と謙譲語の使い分け）"
+      ],
+      "explanation": "Text: 最も間違いやすいのが電話対応での敬語の使い方です.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q022",
+      "lessonId": "n4.l15",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "日本の文化における「ウチ」と「ソト」の分け方として正しいものはどれですか。",
+      "choices": [
+        "「ウチ」は自分の家族や自社の人、「ソト」は社外の人や顧客",
+        "「ウチ」はお客様、「ソト」は自分の会社の上司",
+        "「ウチ」は先輩、「ソト」は後輩",
+        "「ウチ」は男性社員、「ソト」は女性社員"
+      ],
+      "answer": "「ウチ」は自分の家族や自社の人、「ソト」は社外の人や顧客",
+      "acceptedAnswers": [
+        "「ウチ」は自分の家族や自社の人、「ソト」は社外の人や顧客"
+      ],
+      "explanation": "Text: 「ウチ（自分の家族や自社の人間）」と「ソト（社外の人や顧客）」を明確に分ける文化があります.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q023",
+      "lessonId": "n4.l15",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "社外の人に対して自分の会社の上司について話すとき、どう表現すべきですか。",
+      "choices": [
+        "敬称の役職を省き、身内の人間として謙譲語を使う",
+        "社内の上司なので最も敬意の高い尊敬語を使う",
+        "「様」をつけて丁寧に呼ぶ",
+        "英語を使って社外の人に説明する"
+      ],
+      "answer": "敬称の役職を省き、身内の人間として謙譲語を使う",
+      "acceptedAnswers": [
+        "敬称の役職を省き、身内の人間として謙譲語を使う"
+      ],
+      "explanation": "Text: 敬称の「部長」を省いて呼び捨てにし、「申し訳ございません。部長の佐藤はただいま席を外しております」と答えます.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q024",
+      "lessonId": "n4.l15",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "社外の人に対して「佐藤部長はいらっしゃいません」と答えるのが誤りである理由は何ですか。",
+      "choices": [
+        "社外の人に対して身内の上司に尊敬語を使ってしまっているから",
+        "佐藤部長が本当に席にいるから",
+        "敬語が丁寧すぎるから",
+        "英語の表現と一致しないから"
+      ],
+      "answer": "社外の人に対して身内の上司に尊敬語を使ってしまっているから",
+      "acceptedAnswers": [
+        "社外の人に対して身内の上司に尊敬語を使ってしまっているから"
+      ],
+      "explanation": "Using 尊敬語 (いらっしゃいません) elevates the in-group member in front of an outside client, which breaks the Uchi/Soto humbling rule.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q025",
+      "lessonId": "n4.l15",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "謙譲語の大きな特徴として文章で述べられているのはどれですか。",
+      "choices": [
+        "相手によって自分の行動だけでなく、身内の人間の行動もへりくだって表現すること",
+        "外国人の前でのみ使う特別な言葉であること",
+        "メールだけで使い、電話では使わないこと",
+        "相手の行動を最高度に持ち上げること"
+      ],
+      "answer": "相手によって自分の行動だけでなく、身内の人間の行動もへりくだって表現すること",
+      "acceptedAnswers": [
+        "相手によって自分の行動だけでなく、身内の人間の行動もへりくだって表現すること"
+      ],
+      "explanation": "Text: 相手が誰であるかによって自分の行動だけでなく、身内の人間の行動もへりくだって表現するのが謙譲語の大きな特徴です.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q026",
+      "lessonId": "n4.l15",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "電話をかけた小林さんはどの会社の誰ですか。",
+      "choices": [
+        "さくら商事営業部の小林",
+        "大和産業の木村課長",
+        "さくら商事の受付スタッフ",
+        "大和産業の小林社長"
+      ],
+      "answer": "さくら商事営業部の小林",
+      "acceptedAnswers": [
+        "さくら商事営業部の小林"
+      ],
+      "explanation": "Kobayashi introduces himself: 私、さくら商事営業部の小林と申します.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q027",
+      "lessonId": "n4.l15",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "小林さんは誰と話したがっていましたか。",
+      "choices": [
+        "営業企画の木村課長",
+        "大和産業の社長",
+        "受付アシスタント",
+        "さくら商事の部長"
+      ],
+      "answer": "営業企画の木村課長",
+      "acceptedAnswers": [
+        "営業企画の木村課長"
+      ],
+      "explanation": "Kobayashi asks: 営業企画の木村課長はいらっしゃいますでしょうか.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q028",
+      "lessonId": "n4.l15",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "木村課長は現在どうしていますか。",
+      "choices": [
+        "他の会議に出ており、三時半頃に戻る予定",
+        "出張に出ており、今週はずっと不在",
+        "すでに退職している",
+        "昼食に出かけている"
+      ],
+      "answer": "他の会議に出ており、三時半頃に戻る予定",
+      "acceptedAnswers": [
+        "他の会議に出ており、三時半頃に戻る予定"
+      ],
+      "explanation": "Assistant explains: 木村はただいま他の会議に出ておりまして、三時半頃に戻る予定でございます.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q029",
+      "lessonId": "n4.l15",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "小林さんはその後どうすることにしましたか。",
+      "choices": [
+        "三時半過ぎに自分から改めて電話をかけ直すことにした",
+        "木村課長の携帯電話に直接かけることにした",
+        "今すぐ大和産業のオフィスに行くことにした",
+        "用件をキャンセルすることにした"
+      ],
+      "answer": "三時半過ぎに自分から改めて電話をかけ直すことにした",
+      "acceptedAnswers": [
+        "三時半過ぎに自分から改めて電話をかけ直すことにした"
+      ],
+      "explanation": "Kobayashi says: では、三時半過ぎに私から改めてお電話を差し上げます.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l15.q030",
+      "lessonId": "n4.l15",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "取引先アシスタントが木村課長について「木村は」と呼び捨てにした理由は何ですか。",
+      "choices": [
+        "社外の小林さんに対して、自社の上司（身内）をへりくだって呼ぶビジネスマナーだから",
+        "木村課長が年下だから",
+        "木村課長と仲が悪いから",
+        "相手の名前を忘れてしまったから"
+      ],
+      "answer": "社外の小林さんに対して、自社の上司（身内）をへりくだって呼ぶビジネスマナーだから",
+      "acceptedAnswers": [
+        "社外の小林さんに対して、自社の上司（身内）をへりくだって呼ぶビジネスマナーだから"
+      ],
+      "explanation": "In Japanese business communication, company members are treated as \"Uchi\" in front of external clients and referred to without honorifics.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l15.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

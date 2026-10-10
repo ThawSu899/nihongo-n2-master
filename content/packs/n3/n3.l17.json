@@ -1,0 +1,1601 @@
+{
+  "id": "n3.l17",
+  "level": "N3",
+  "module": "N3 Nuance & Natural Discourse",
+  "number": 17,
+  "title": "N3 Lesson 17: Cause & Result (〜せいで・〜おかげで)",
+  "description": "Master nuanced causal expressions in Japanese, contrasting subjective blame or negative consequences (〜せいで / 〜せいか) with gratitude and favorable outcomes (〜おかげで / 〜おかげだ).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l17.v001",
+      "lessonId": "n3.l17",
+      "ja": "天候",
+      "kana": "てんこう",
+      "en": "weather; climate conditions",
+      "my": "ရာသီဥတုအခြေအနေ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l17.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.v002",
+      "lessonId": "n3.l17",
+      "ja": "影響",
+      "kana": "えいきょう",
+      "en": "influence; effect; impact",
+      "my": "လွှမ်းမိုးမှု/အကျိုးသက်ရောက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l17.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.v003",
+      "lessonId": "n3.l17",
+      "ja": "支援",
+      "kana": "しえん",
+      "en": "support; backing; aid",
+      "my": "ထောက်ပံ့ကူညီမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l17.s003",
+      "kanjiIds": [
+        "n3.l17.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.v004",
+      "lessonId": "n3.l17",
+      "ja": "原因",
+      "kana": "げんいん",
+      "en": "cause; origin; factor",
+      "my": "အကြောင်းရင်း/ဇာစ်မြစ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l17.s004",
+      "kanjiIds": [
+        "n3.l17.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.v005",
+      "lessonId": "n3.l17",
+      "ja": "被害",
+      "kana": "ひがい",
+      "en": "damage; harm; casualty",
+      "my": "ထိခိုက်ပျက်စီးမှု/ဘေးဒုက္ခ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l17.s005",
+      "kanjiIds": [
+        "n3.l17.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.v006",
+      "lessonId": "n3.l17",
+      "ja": "回復",
+      "kana": "かいふく",
+      "en": "recovery; restoration; recuperation",
+      "my": "ပြန်လည်ကောင်းမွန်လာခြင်း/သက်သာခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l17.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.v007",
+      "lessonId": "n3.l17",
+      "ja": "渋滞",
+      "kana": "じゅうたい",
+      "en": "traffic congestion; gridlock",
+      "my": "ယာဉ်ကြောပိတ်ဆို့မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l17.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.v008",
+      "lessonId": "n3.l17",
+      "ja": "指導",
+      "kana": "しどう",
+      "en": "guidance; coaching; mentoring",
+      "my": "လမ်းညွှန်သင်ပြမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l17.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.v009",
+      "lessonId": "n3.l17",
+      "ja": "体調",
+      "kana": "たいちょう",
+      "en": "physical condition; health condition",
+      "my": "ကိုယ်ခန္ဓာကျန်းမာရေးအခြေအနေ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l17.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.v010",
+      "lessonId": "n3.l17",
+      "ja": "幸い",
+      "kana": "さいわい",
+      "en": "fortunately; luckily; happiness",
+      "my": "ကံကောင်းထောက်မစွာ/ဝမ်းသာစရာ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l17.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.v011",
+      "lessonId": "n3.l17",
+      "ja": "過失",
+      "kana": "かしつ",
+      "en": "negligence; fault; error",
+      "my": "ပေါ့ဆမှု/အမှားအယွင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l17.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.v012",
+      "lessonId": "n3.l17",
+      "ja": "成果",
+      "kana": "せいか",
+      "en": "fruit (of effort); outcome; results",
+      "my": "အောင်မြင်မှုရလဒ်/အသီးအပွင့်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l17.s012",
+      "kanjiIds": [
+        "n3.l17.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l17.k001",
+      "lessonId": "n3.l17",
+      "char": "因",
+      "meaning": "cause, factor, depend on",
+      "onyomi": [
+        "イン"
+      ],
+      "kunyomi": [
+        "よ・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "原因",
+          "reading": "げんいん",
+          "meaning": "cause, origin",
+          "preview": false
+        },
+        {
+          "word": "要因",
+          "reading": "よういん",
+          "meaning": "main factor",
+          "preview": false
+        },
+        {
+          "word": "死因",
+          "reading": "しいん",
+          "meaning": "cause of death",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l17.s007"
+      ],
+      "components": [],
+      "strokes": 6,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.k002",
+      "lessonId": "n3.l17",
+      "char": "果",
+      "meaning": "fruit, reward, carry out, result",
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [
+        "は・たす",
+        "は・てる",
+        "くだもの"
+      ],
+      "exampleVocab": [
+        {
+          "word": "結果",
+          "reading": "けっか",
+          "meaning": "result, consequence",
+          "preview": false
+        },
+        {
+          "word": "成果",
+          "reading": "せいか",
+          "meaning": "fruit of labor, accomplishment",
+          "preview": false
+        },
+        {
+          "word": "果物",
+          "reading": "くだもの",
+          "meaning": "fruit",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l17.s012"
+      ],
+      "components": [],
+      "strokes": 8,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.k003",
+      "lessonId": "n3.l17",
+      "char": "害",
+      "meaning": "harm, injury, damage",
+      "onyomi": [
+        "ガイ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "被害",
+          "reading": "ひがい",
+          "meaning": "damage, harm",
+          "preview": false
+        },
+        {
+          "word": "損害",
+          "reading": "そんがい",
+          "meaning": "financial loss, damage",
+          "preview": false
+        },
+        {
+          "word": "公害",
+          "reading": "こうがい",
+          "meaning": "pollution, public nuisance",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l17.s005"
+      ],
+      "components": [],
+      "strokes": 10,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.k004",
+      "lessonId": "n3.l17",
+      "char": "援",
+      "meaning": "help, aid, assist",
+      "onyomi": [
+        "エン"
+      ],
+      "kunyomi": [
+        "たす・ける"
+      ],
+      "exampleVocab": [
+        {
+          "word": "支援",
+          "reading": "しえん",
+          "meaning": "support, backing",
+          "preview": false
+        },
+        {
+          "word": "応援",
+          "reading": "おうえん",
+          "meaning": "cheering, support",
+          "preview": false
+        },
+        {
+          "word": "救援",
+          "reading": "きゅうえん",
+          "meaning": "relief, rescue",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l17.s003"
+      ],
+      "components": [],
+      "strokes": 12,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l17.g001",
+      "lessonId": "n3.l17",
+      "pattern": "〜せいで / 〜せいか / 〜せいだ",
+      "meaning": "because of; due to (negative outcome / blame); perhaps because of",
+      "formation": "[Verb Plain / い-Adj] + せいで\n[な-Adj な] + せいで\n[Noun の] + せいで\n文末: 〜のせいだ\n不確実な原因: 〜せいか (perhaps on account of)",
+      "explanation": {
+        "en": "Used when attributing an undesirable, frustrating, or unfortunate result to a specific person, factor, or circumstance. It assigns blame or dissatisfaction. When followed by か (〜せいか), it indicates a tentative suspicion about the cause.",
+        "my": "မကောင်းသောရလဒ်၊ ထိခိုက်နစ်နာမှု (သို့) စိတ်ပျက်ဖွယ်ကိစ္စတစ်ခုသည် မည်သည့်အကြောင်းရင်း (သို့) မည်သူ့ကြောင့် ဖြစ်ရသည်ကို အပြစ်တင်ဖော်ပြရာတွင် သုံးသည်။「〜せいか」သည် အကြောင်းရင်းကို မသေချာဘဲ ရိပ်မိရုံဖော်ပြခြင်း ဖြစ်သည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l17.s001",
+          "note": "The soccer match was postponed because of sudden bad weather."
+        },
+        {
+          "sentenceId": "n3.l17.s004",
+          "note": "Perhaps because of working late last night, I have a headache today."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use 〜せいで for positive or successful outcomes; use 〜おかげで instead (e.g. ❌ 教えてくれたせいで合格した → ⭕️ 教えてくれたおかげで合格した)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.g002",
+      "lessonId": "n3.l17",
+      "pattern": "〜おかげで / 〜おかげだ",
+      "meaning": "thanks to; owing to (positive/favorable result)",
+      "formation": "[Verb Plain / い-Adj] + おかげで\n[な-Adj な] + おかげで\n[Noun の] + おかげで\n文末: 〜のおかげだ",
+      "explanation": {
+        "en": "Used when expressing gratitude or acknowledging that a beneficial, fortunate, or successful outcome was made possible by a specific person, assistance, or favorable condition.",
+        "my": "တစ်ဦးတစ်ယောက်၏ ကူညီထောက်ပံ့မှု (သို့) ကောင်းမွန်သောအခြေအနေတစ်ခုကြောင့် ဝမ်းသာစရာကောင်းသော ရလဒ်ကောင်းရရှိခဲ့ကြောင်း ကျေးဇူးတင်စကားဖြင့် ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l17.s003",
+          "note": "Thanks to the warm support of local residents, volunteer activities proceeded smoothly."
+        },
+        {
+          "sentenceId": "n3.l17.s008",
+          "note": "Thanks to the teacher's enthusiastic guidance, I was able to overcome difficult Japanese grammar."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use 〜おかげで for genuine disasters or annoying troubles; use 〜せいで instead (e.g. ❌ 大雨のおかげで電車が止まった → ⭕️ 大雨のせいで電車が止まった)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l17.s001",
+      "lessonId": "n3.l17",
+      "ja": "急な悪天候のせいで、楽しみにしていたサッカーの試合が延期になってしまった。",
+      "kana": "きゅうな あくてんこうのせいで、たのしみに していた さっかーの しあいが えんきに なってしまった。",
+      "translation": {
+        "en": "Because of sudden bad weather, the soccer match we had been looking forward to got postponed.",
+        "my": "ရုတ်တရက် ရာသီဥတုဆိုးရွားသွားသည့်အတွက် စောင့်မျှော်နေသော ဘောလုံးပွဲစဉ် ရွှေ့ဆိုင်းသွားခဲ့ရသည်။"
+      },
+      "vocabIds": [
+        "n3.l17.v001"
+      ],
+      "grammarIds": [
+        "n3.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.s002",
+      "lessonId": "n3.l17",
+      "ja": "台風の影響のせいで、全国の物流ネットワークに大幅な遅延が生じている。",
+      "kana": "たいふうの えいきょうのせいで、ぜんこくの ぶつりゅう ねっとわーくに おおはばな ちえんが しょうじている。",
+      "translation": {
+        "en": "Due to the impact of the typhoon, significant delays have occurred in logistics networks nationwide.",
+        "my": "တိုင်ဖွန်းမုန်တိုင်း၏ ရိုက်ခတ်မှုကြောင့် တစ်နိုင်ငံလုံး ကုန်စည်ပို့ဆောင်ရေးစနစ်တွင် ကြီးမားသော နှောင့်နှေးမှုများ ဖြစ်ပေါ်နေသည်။"
+      },
+      "vocabIds": [
+        "n3.l17.v002"
+      ],
+      "grammarIds": [
+        "n3.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.s003",
+      "lessonId": "n3.l17",
+      "ja": "地域住民の温かい支援のおかげで、被災地でのボランティア活動を順調に進められた。",
+      "kana": "ちいきじゅうみんの あたたかい しえんのおかげで、ひさいちでの ぼらんてぃあかつどうを じゅんちょうに すすめられた။",
+      "translation": {
+        "en": "Thanks to the warm support of local residents, volunteer activities in the disaster-struck area proceeded smoothly.",
+        "my": "ဒေသခံပြည်သူများ၏ နွေးထွေးသော ကူညီထောက်ပံ့မှုကြောင့် ဘေးသင့်ဒေသတွင် စေတနာ့ဝန်ထမ်းလုပ်ငန်းများကို အဆင်ပြေချောမွေ့စွာ ဆောင်ရွက်နိုင်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l17.v003"
+      ],
+      "grammarIds": [
+        "n3.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.s004",
+      "lessonId": "n3.l17",
+      "ja": "昨夜遅くまでパソコンの画面を見つめていたせいか、朝から頭痛が治まらない。",
+      "kana": "さくや おそくまで ぱそこんの がめんを みつめていたせいか、あさから ずつうが おさまらない。",
+      "translation": {
+        "en": "Perhaps because I was staring at a computer screen late last night, my headache hasn't subsided since morning.",
+        "my": "မနေ့ညက အချိန်လွန်သည်အထိ ကွန်ပျူတာမျက်နှာပြင်ကို စိုက်ကြည့်နေမိသောကြောင့်လားမသိ မနက်ကတည်းက ခေါင်းကိုက်တာ မပျောက်နိုင်သေးပေ။"
+      },
+      "vocabIds": [
+        "n3.l17.v004"
+      ],
+      "grammarIds": [
+        "n3.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.s005",
+      "lessonId": "n3.l17",
+      "ja": "頑丈な堤防が整備されていたおかげで、記録的な大雨でも洪水被害を防ぐことができた。",
+      "kana": "がんじょうな ていぼうが せいびされていた おかげで、きろくてきな おおあめでも こうずいひがいを ふせぐことが できた。",
+      "translation": {
+        "en": "Thanks to solid embankments being in place, flood damage could be prevented even in record-setting torrential rain.",
+        "my": "ခိုင်ခံ့သော မြစ်ကမ်းပါးတာတမံများ တည်ဆောက်ထားသည့်အတွက် စံချိန်တင် မိုးသည်းထန်စွာရွာသွန်းသော်လည်း ရေကြီးရေလျှံမှုဘေးကို တားဆီးနိုင်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l17.v005"
+      ],
+      "grammarIds": [
+        "n3.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.s006",
+      "lessonId": "n3.l17",
+      "ja": "新薬を規則正しく服用したおかげで、重い肺炎から奇跡的に回復することができた。",
+      "kana": "しんやくを きそくただしく ふくようした おかげで、おもい はいえんから きせきてきに かいふくすることが できた。",
+      "translation": {
+        "en": "Thanks to taking the new medication regularly, I was able to miraculously recover from severe pneumonia.",
+        "my": "ဆေးဝါးအသစ်ကို စနစ်တကျ မှီဝဲခဲ့သည့်အတွက်ကြောင့် ပြင်းထန်သော အဆုတ်အအေးမိရောဂါမှ အံ့ဩဖွယ်ရာ ပြန်လည်သက်သာကောင်းမွန်လာခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l17.v006"
+      ],
+      "grammarIds": [
+        "n3.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.s007",
+      "lessonId": "n3.l17",
+      "ja": "高速道路で起きた事故が原因の渋滞のせいで、大事な取引先との商談に三十分も遅刻してしまった。",
+      "kana": "こうそくどうろで おきた じこが げんいんの じゅうたいの せいで、だいじな とりひきさきとの しょうだんに さんじゅっぷんも ちこくしてしまった。",
+      "translation": {
+        "en": "Due to the traffic congestion caused by an accident that occurred on the highway, I was 30 minutes late for the business meeting with an important client.",
+        "my": "အဝေးပြေးလမ်းပေါ်တွင် ဖြစ်ပွားခဲ့သော ယာဉ်မတော်တဆမှုကြောင့် ဖြစ်ပေါ်လာသည့် ယာဉ်ကြောပိတ်ဆို့မှုကြောင့် အရေးကြီးသော ဖောက်သည်နှင့် စီးပွားရေးဆွေးနွေးပွဲသို့ မိနစ် ၃၀ ခန့် နောက်ကျသွားခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l17.v007"
+      ],
+      "grammarIds": [
+        "n3.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.s008",
+      "lessonId": "n3.l17",
+      "ja": "熱心な先生の熱心な指導のおかげで、苦手だった日本語の文法を克服することができた。",
+      "kana": "ねっしんな せんせいの ねっしんな しどうの おかげで、にがてだった にほんごの ぶんぽうを こくふくすることが できた。",
+      "translation": {
+        "en": "Thanks to the dedicated teacher's enthusiastic guidance, I was able to overcome Japanese grammar, which I had struggled with.",
+        "my": "စိတ်အားထက်သန်သော ဆရာမ၏ လမ်းညွှန်သင်ပြမှုကြောင့် အားနည်းခဲ့သော ဂျပန်သဒ္ဒါကို ကျော်လွှားနိုင်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l17.v008"
+      ],
+      "grammarIds": [
+        "n3.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.s009",
+      "lessonId": "n3.l17",
+      "ja": "連日の厳しい寒さのせいか、少し体調を崩して微熱が続いている。",
+      "kana": "れんじつの きびしい さむさのせいか、すこし たいちょうを くずして びねつが つづいている。",
+      "translation": {
+        "en": "Perhaps because of the consecutive days of intense cold, my health has deteriorated a bit and a slight fever persists.",
+        "my": "ဆက်တိုက် အေးခဲလွန်းသော ရာသီဥတုကြောင့်လားမသိ ကျန်းမာရေးအနည်းငယ်ချို့ယွင်းပြီး ငွေ့ငွေ့ဖျားနေသည်မှာ ဆက်တိုက်ဖြစ်နေသည်။"
+      },
+      "vocabIds": [
+        "n3.l17.v009"
+      ],
+      "grammarIds": [
+        "n3.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.s010",
+      "lessonId": "n3.l17",
+      "ja": "シートベルトを着用していたおかげで、幸いにも大きな怪我をせずに済んだ。",
+      "kana": "しーとべるとを ちゃくようしていた おかげで、さいわいにも おおきな けがを せずにすんだ。",
+      "translation": {
+        "en": "Thanks to wearing a seatbelt, fortunately I managed without any serious injuries.",
+        "my": "ထိုင်ခုံခါးပတ် ပတ်ထားသည့်အတွက်ကြောင့် ကံကောင်းထောက်မစွာ ကြီးမားသော ဒဏ်ရာအနာတရမရဘဲ သက်သာခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l17.v010"
+      ],
+      "grammarIds": [
+        "n3.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.s011",
+      "lessonId": "n3.l17",
+      "ja": "担当者の確認不足という重大な過失のせいで、顧客情報が一時的に閲覧可能な状態になった。",
+      "kana": "たんとうしゃの かくにんぶそくという じゅうだいな かしつのせいで、こきゃくじょうほうが いちじてきに えつらんかのうな じょうたいになった。",
+      "translation": {
+        "en": "Due to the grave negligence of insufficient verification by the person in charge, customer information became temporarily viewable.",
+        "my": "တာဝန်ခံ၏ စစ်ဆေးမှုအားနည်းခြင်းဟူသော ကြီးမားသည့် ပေါ့ဆမှုကြောင့် ဖောက်သည်အချက်အလက်များသည် ယာယီအားဖြင့် ဝင်ရောက်ကြည့်ရှုနိုင်သောအခြေအနေသို့ ရောက်ရှိသွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l17.v011"
+      ],
+      "grammarIds": [
+        "n3.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l17.s012",
+      "lessonId": "n3.l17",
+      "ja": "チーム全員が一致団結して努力を重ねたおかげで、素晴らしい研究成果を残すことができた。",
+      "kana": "ちーむぜんいんが いっちだんけつして どりょくを かさねた おかげで、すばらしい けんきゅうせいかを のこすことが できた。",
+      "translation": {
+        "en": "Thanks to the entire team uniting and redoubling their efforts, we were able to leave behind outstanding research results.",
+        "my": "အသင်းသားအားလုံး ညီညွတ်စွာ ကြိုးပမ်းအားထုတ်ခဲ့သည့်အတွက်ကြောင့် အလွန်ကောင်းမွန်သော သုတေသနရလဒ်များကို ချန်ထားနိုင်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l17.v012"
+      ],
+      "grammarIds": [
+        "n3.l17.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l17.r01",
+    "lessonId": "n3.l17",
+    "title": "Community Agriculture Resurgence After the Heavy Rains",
+    "level": "N3",
+    "text": "今年の夏、西日本を襲った集中豪雨のせいで、私たちの町が誇る有機野菜の農園は深刻な泥水の浸水被害に見舞われた。収穫期を目前に控えていたトマトやナス畑の大半が泥に埋まり、長年丹精込めて育ててきた農家の人々は深い失意に暮れていた。天候の急変という自然の猛威のせいで、一年間の努力が一瞬にして無駄になりかけたのである。\n\nしかし、この窮状を救ったのは全国からの温かい善意だった。SNSを通じて状況を知ったボランティアが毎週末駆けつけてくれたおかげで、泥の掻き出し作業は予想以上の速さで進展した。さらに、近隣自治体からの資材提供や農協の技術支援のおかげで、土壌の消毒と苗の再植え付けを早期に完了することができた。\n\n支援に駆けつけてくれた人々の支えのおかげで、秋には無事に一部の野菜を収穫することができた。自然災害のせいで大きな痛手を負ったものの、人と人との絆の温かさを再認識できたことは、町にとって何物にも代えがたい貴重な財産となったのである。",
+    "kanaText": "今年の夏、西日本を襲った集中豪雨のせいで、私たちの町が誇る有機野菜の農園は深刻な泥水の浸水被害に見舞われた。収穫期を目前に控えていたトマトやナス畑の大半が泥に埋まり、長年丹精込めて育ててきた農家の人々は深い失意に暮れていた。天候の急変という自然の猛威のせいで、一年間の努力が一瞬にして無駄になりかけたのである。\n\nしかし、この窮状を救ったのは全国からの温かい善意だった。SNSを通じて状況を知ったボランティアが毎週末駆けつけてくれたおかげで、泥の掻き出し作業は予想以上の速さで進展した。さらに、近隣自治体からの資材提供や農協の技術支援のおかげで、土壌の消毒と苗の再植え付けを早期に完了することができた。\n\n支援に駆けつけてくれた人々の支えのおかげで、秋には無事に一部の野菜を収穫することができた。自然災害のせいで大きな痛手を負ったものの、人と人との絆の温かさを再認識できたことは、町にとって何物にも代えがたい貴重な財産となったのである。",
+    "translation": "This summer, because of localized torrential rains striking western Japan, our town's prideful organic vegetable farm suffered severe muddy flood damage. Most of the tomato and eggplant fields just before harvest were buried in mud, leaving farmers who had poured devotion into their crops for years in deep despair. Because of nature's fury in the sudden weather shift, a year's worth of efforts was on the verge of being wasted in an instant.\n\nHowever, what saved this dire predicament was warm goodwill from across the country. Thanks to volunteers who learned of the situation via social media rushing over every weekend, mud clearance operations progressed at a pace beyond expectations. Furthermore, thanks to materials supplied by neighboring municipalities and technical guidance from agricultural cooperatives, soil disinfection and replanting of seedlings were completed early.\n\nThanks to the support of people who rushed to assist, we were safely able to harvest a portion of our vegetables in autumn. Although we suffered a heavy blow because of a natural disaster, reconfirming the warmth of human ties became an irreplaceable, precious asset for the town.",
+    "questionIds": [
+      "n3.l17.q025",
+      "n3.l17.q026",
+      "n3.l17.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l17.l01",
+    "lessonId": "n3.l17",
+    "title": "Dialogue: Presentation Debrief and Overcoming Morning Delays",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "山田：佐藤さん、午後の新商品プレゼンテーション、大成功でしたね！\n佐藤：ありがとうございます。実は今朝、信号トラブルによる電車の遅延のせいで、会場への到着が開始十分前になってしまって、本当に焦ったんですよ。\n山田：それは大変でしたね。あの雨のせいで他の路線も乱れていたみたいですしね。\n佐藤：ええ。でも、前日のうちに山田先輩が資料をクラウドに共有してくださっていたおかげで、移動中にスマートフォンで最終確認ができました。\n山田：事前の準備が役立って良かったです。クライアントからの質問にも的確に答えていましたよ。\n佐藤：山田先輩に模擬練習で厳しく指導していただいたおかげです。本当に感謝しています。",
+    "translation": "Yamada: Sato-san, this afternoon's new product presentation was a huge success!\nSato: Thank you very much! Actually, this morning, because of a train delay due to signal trouble, I arrived at the venue just 10 minutes before the start, so I was really panicking.\nYamada: That must have been tough. It seems other train lines were also disrupted because of that rain.\nSato: Yes. But thanks to you, Yamada-senpai, sharing the handouts on the cloud the day before, I was able to do the final check on my smartphone while on the move.\nYamada: I'm glad advance preparation proved useful. You also answered the client's questions very accurately.\nSato: That is all thanks to your strict mentoring during our mock rehearsals, Yamada-senpai. I am truly grateful.",
+    "turns": [],
+    "questionIds": [
+      "n3.l17.q028",
+      "n3.l17.q029",
+      "n3.l17.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l17.q001",
+      "lessonId": "n3.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「（　）の急激な悪化により、登山ツアーは途中で中止された。」",
+      "choices": [
+        "天候",
+        "果物",
+        "成果",
+        "過失"
+      ],
+      "answer": "天候",
+      "acceptedAnswers": [
+        "天候"
+      ],
+      "explanation": "雨や風など空模様の状態を「天候（てんこう）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q002",
+      "lessonId": "n3.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉の意味として最も適切なものを一つ選びなさい。\n「被災地の住民に対して、迅速な【支援】が届けられた。」",
+      "choices": [
+        "助けや援助を行うこと",
+        "厳しい罰を与えること",
+        "契約を破棄すること",
+        "仕事を休むこと"
+      ],
+      "answer": "助けや援助を行うこと",
+      "acceptedAnswers": [
+        "助けや援助を行うこと"
+      ],
+      "explanation": "「支援（しえん）」は困っている人を助けたり支えたりすることです。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q003",
+      "lessonId": "n3.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「長年の地道な努力が実を結び、素晴らしい研究（　）をあげた。」",
+      "choices": [
+        "成果",
+        "天候",
+        "被害",
+        "渋滞"
+      ],
+      "answer": "成果",
+      "acceptedAnswers": [
+        "成果"
+      ],
+      "explanation": "成し遂げた良い結果や実績を「成果（せいか）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q004",
+      "lessonId": "n3.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉に最も近い意味の言葉を一つ選びなさい。\n「今回の事故はドライバーの不注意な【過失】によるものだ。」",
+      "choices": [
+        "誤りや手落ち",
+        "素晴らしい技術",
+        "計画的な行動",
+        "幸運な偶然"
+      ],
+      "answer": "誤りや手落ち",
+      "acceptedAnswers": [
+        "誤りや手落ち"
+      ],
+      "explanation": "「過失（かしつ）」は不注意による過ちや手落ちのことです。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q005",
+      "lessonId": "n3.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「事故の影響で高速道路が激しく（　）している。」",
+      "choices": [
+        "渋滞",
+        "回復",
+        "指導",
+        "幸い"
+      ],
+      "answer": "渋滞",
+      "acceptedAnswers": [
+        "渋滞"
+      ],
+      "explanation": "車が滞って進まない交通の混雑状態を「渋滞（じゅうたい）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q006",
+      "lessonId": "n3.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉の意味として最も適切なものを一つ選びなさい。\n「十分な休養を取ったおかげで、体力が完全に【回復】した。」",
+      "choices": [
+        "元の健康な状態に戻ること",
+        "さらに悪化すること",
+        "新しく始めること",
+        "途中で止めること"
+      ],
+      "answer": "元の健康な状態に戻ること",
+      "acceptedAnswers": [
+        "元の健康な状態に戻ること"
+      ],
+      "explanation": "「回復（かいふく）」は悪くなった状態が元の良い状態に戻ることです。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q007",
+      "lessonId": "n3.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「火災の（　）を調査したところ、タバコの不始末であることが判明した。」",
+      "choices": [
+        "原因",
+        "成果",
+        "幸い",
+        "指導"
+      ],
+      "answer": "原因",
+      "acceptedAnswers": [
+        "原因"
+      ],
+      "explanation": "ある事柄を引き起こすもとになった事象を「原因（げんいん）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q008",
+      "lessonId": "n3.l17",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「地震による家屋の倒壊（　）が広範囲にわたって確認された。」",
+      "choices": [
+        "被害",
+        "成果",
+        "回復",
+        "指導"
+      ],
+      "answer": "被害",
+      "acceptedAnswers": [
+        "被害"
+      ],
+      "explanation": "災害や事故などによって受ける損害を「被害（ひがい）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q009",
+      "lessonId": "n3.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「事故の【原因】を詳しく究明する。」",
+      "choices": [
+        "げんいん",
+        "げんおん",
+        "がんいん",
+        "がんおん"
+      ],
+      "answer": "げんいん",
+      "acceptedAnswers": [
+        "げんいん"
+      ],
+      "explanation": "「原」はゲン、「因」はインと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q010",
+      "lessonId": "n3.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「努力が実を結び、素晴らしい【成果】を収めた。」",
+      "choices": [
+        "せいか",
+        "しょうか",
+        "せいご",
+        "じょうか"
+      ],
+      "answer": "せいか",
+      "acceptedAnswers": [
+        "せいか"
+      ],
+      "explanation": "「成」はセイ、「果」はカと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q011",
+      "lessonId": "n3.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「台風による農作物の【被害】が深刻だ。」",
+      "choices": [
+        "ひがい",
+        "ひげ",
+        "びがい",
+        "はいがい"
+      ],
+      "answer": "ひがい",
+      "acceptedAnswers": [
+        "ひがい"
+      ],
+      "explanation": "「被」はヒ、「害」はガイと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q012",
+      "lessonId": "n3.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「発展途上国への医療【支援】を続ける。」",
+      "choices": [
+        "しえん",
+        "じえん",
+        "しあん",
+        "じあん"
+      ],
+      "answer": "しえん",
+      "acceptedAnswers": [
+        "しえん"
+      ],
+      "explanation": "「支」はシ、「援」はエンと読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q013",
+      "lessonId": "n3.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の言葉を漢字で書くとき、正しいものを一つ選びなさい。\n「試合の【けっか】を速報で確認する。」",
+      "choices": [
+        "結果",
+        "結課",
+        "結科",
+        "結過"
+      ],
+      "answer": "結果",
+      "acceptedAnswers": [
+        "結果"
+      ],
+      "explanation": "物事の結末や実りは「結果」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q014",
+      "lessonId": "n3.l17",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の言葉を漢字で書くとき、正しいものを一つ選びなさい。\n「スタンドから熱心な【おうえん】を送る。」",
+      "choices": [
+        "応援",
+        "応演",
+        "押援",
+        "往援"
+      ],
+      "answer": "応援",
+      "acceptedAnswers": [
+        "応援"
+      ],
+      "explanation": "助け励ますことは「応援」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q015",
+      "lessonId": "n3.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「今朝の濃霧の（　）、飛行機の出発が二時間も遅れてしまった。」",
+      "choices": [
+        "せいで",
+        "おかげで",
+        "かわりに",
+        "とおりに"
+      ],
+      "answer": "せいで",
+      "acceptedAnswers": [
+        "せいで"
+      ],
+      "explanation": "濃霧によって出発が遅れたという不都合な結果・不満を表すため「せいで」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q016",
+      "lessonId": "n3.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「親身になって相談に乗ってくれた友人のお（　）、前向きな気持ちになれた。」",
+      "choices": [
+        "かげで",
+        "せいで",
+        "わりに",
+        "うちに"
+      ],
+      "answer": "かげで",
+      "acceptedAnswers": [
+        "かげで"
+      ],
+      "explanation": "友人のおかげで前向きになれたという感謝や好ましい結果を表すため「おかげで」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q017",
+      "lessonId": "n3.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「エアコンをつけたまま寝てしまった（　）、喉が痛くて声が出ない。」",
+      "choices": [
+        "せいで",
+        "おかげで",
+        "反面",
+        "次第"
+      ],
+      "answer": "せいで",
+      "acceptedAnswers": [
+        "せいで"
+      ],
+      "explanation": "喉を痛めたという悪結果の原因として非難・後悔を込めて述べるため「せいで」を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q018",
+      "lessonId": "n3.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「毎日コツコツと単語を覚えた（　）、読解のスピードが大幅に上がった。」",
+      "choices": [
+        "おかげで",
+        "せいで",
+        "くせに",
+        "最中に"
+      ],
+      "answer": "おかげで",
+      "acceptedAnswers": [
+        "おかげで"
+      ],
+      "explanation": "読解速度が上がったという努力による望ましい成果を表すため「おかげで」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q019",
+      "lessonId": "n3.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「歳の（　）か、最近小さな文字を読むのが少し疲れるようになってきた。」",
+      "choices": [
+        "せい",
+        "おかげ",
+        "わけ",
+        "はず"
+      ],
+      "answer": "せい",
+      "acceptedAnswers": [
+        "せい"
+      ],
+      "explanation": "老化というマイナスの要因を不確定に疑う表現は「歳のせいか」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q020",
+      "lessonId": "n3.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "（　）に入れるのに最も適切なものを一つ選びなさい。\n「優秀なスタッフが手伝ってくれた（　）、イベントの準備が予定より早く終わった。」",
+      "choices": [
+        "おかげで",
+        "せいで",
+        "わりに",
+        "反面"
+      ],
+      "answer": "おかげで",
+      "acceptedAnswers": [
+        "おかげで"
+      ],
+      "explanation": "スタッフの支援によって準備が早く終わったという感謝の意を示すため「おかげで」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q021",
+      "lessonId": "n3.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の文のうち、文法的に最も自然な文はどれか。",
+      "choices": [
+        "台風が直撃したおかげで、多くの家屋が浸水被害を受けた。",
+        "台風が直撃したせいで、多くの家屋が浸水被害を受けた。",
+        "台風が直撃したわりに、多くの家屋が浸水被害を受けた。",
+        "台風が直撃したばかりに、多くの家屋が浸水被害を受けた。"
+      ],
+      "answer": "台風が直撃したせいで、多くの家屋が浸水被害を受けた。",
+      "acceptedAnswers": [
+        "台風が直撃したせいで、多くの家屋が浸水被害を受けた。"
+      ],
+      "explanation": "浸水被害という災難・損害に対して「おかげで」を使うことは不自然であり、「せいで」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q022",
+      "lessonId": "n3.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な接続の形を選びなさい。\n「担当者が（　）せいで、契約手続きに余計な時間がかかってしまった。」",
+      "choices": [
+        "不慣れな",
+        "不慣れに",
+        "不慣れだ",
+        "不慣れでの"
+      ],
+      "answer": "不慣れな",
+      "acceptedAnswers": [
+        "不慣れな"
+      ],
+      "explanation": "な形容詞は「〜なせいで」の形で接続します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q023",
+      "lessonId": "n3.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の文の（　）に入る最も適切な組み合わせを一つ選びなさい。\n「彼の（　）なアドバイスの（　）、危機を無事に乗り越えることができた。」",
+      "choices": [
+        "的確 / おかげで",
+        "的確 / せいで",
+        "的確に / おかげで",
+        "的確な / おかげで"
+      ],
+      "answer": "的確な / おかげで",
+      "acceptedAnswers": [
+        "的確な / おかげで"
+      ],
+      "explanation": "「的確なアドバイスのおかげで」となり、名詞「アドバイス」の前は「な」、後ろは好結果のため「おかげで」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q024",
+      "lessonId": "n3.l17",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の会話文の（　）に入れるのに最も適切なものを一つ選びなさい。\nA：「今日、コンペで優勝できたよ！」\nB：「おめでとう！ 毎日猛練習を重ねた（　）だね。」",
+      "choices": [
+        "成果のおかげ",
+        "過失のせい",
+        "原因のせい",
+        "天候のおかげ"
+      ],
+      "answer": "成果のおかげ",
+      "acceptedAnswers": [
+        "成果のおかげ"
+      ],
+      "explanation": "優勝という素晴らしい成果を祝福し、日頃の練習の賜物であることを示すため「成果のおかげ（努力のおかげ）」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q025",
+      "lessonId": "n3.l17",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "農園が深刻な被害に見舞われた直接の原因は何か。",
+      "choices": [
+        "夏に西日本を襲った集中豪雨による泥水の浸水",
+        "害虫の大量発生による作物の病気",
+        "農家の人手不足と高齢化の進行",
+        "近隣の工場から排出された有害物質"
+      ],
+      "answer": "夏に西日本を襲った集中豪雨による泥水の浸水",
+      "acceptedAnswers": [
+        "夏に西日本を襲った集中豪雨による泥水の浸水"
+      ],
+      "explanation": "第1段落に「今年の夏、西日本を襲った集中豪雨のせいで、私たちの町が誇る有機野菜の農園は深刻な泥水の浸水被害に見舞われた」と明記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q026",
+      "lessonId": "n3.l17",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "泥の掻き出し作業が予想以上に速く進展した理由として正しいものはどれか。",
+      "choices": [
+        "SNSで状況を知った全国からのボランティアが毎週末駆けつけてくれたおかげ",
+        "高価な最新式の泥除去ロボットを町が購入したから",
+        "強い日差しによって泥が一晩で乾燥したから",
+        "農林水産省が専属の作業員を百人派遣してくれたから"
+      ],
+      "answer": "SNSで状況を知った全国からのボランティアが毎週末駆けつけてくれたおかげ",
+      "acceptedAnswers": [
+        "SNSで状況を知った全国からのボランティアが毎週末駆けつけてくれたおかげ"
+      ],
+      "explanation": "第2段落に「SNSを通じて状況を知ったボランティアが毎週末駆けつけてくれたおかげで、泥の掻き出し作業は予想以上の速さで進展した」と述べられています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q027",
+      "lessonId": "n3.l17",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "この文章全体で筆者が最も伝えたいことは何か。",
+      "choices": [
+        "自然災害の被害を受けたが、人々の温かい支えと絆を再確認できたことが貴重な財産となった",
+        "有機野菜の栽培は天候に左右されやすいため、温室栽培に切り替えるべきだ",
+        "ボランティアに頼る復旧作業は限界があるため、自治体が全額補償すべきだ",
+        "台風が多発する夏には野菜を植えるのをやめるべきである"
+      ],
+      "answer": "自然災害の被害を受けたが、人々の温かい支えと絆を再確認できたことが貴重な財産となった",
+      "acceptedAnswers": [
+        "自然災害の被害を受けたが、人々の温かい支えと絆を再確認できたことが貴重な財産となった"
+      ],
+      "explanation": "最終段落で「自然災害のせいで大きな痛手を負ったものの、人と人との絆の温かさを再認識できたことは、町にとって何物にも代えがたい貴重な財産となった」と結論付けています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q028",
+      "lessonId": "n3.l17",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "佐藤さんが今朝会場への到着がギリギリになって焦った原因は何か。",
+      "choices": [
+        "信号トラブルによる電車の遅延のせい",
+        "プレゼン資料を自宅に置き忘れて取りに帰ったせい",
+        "朝寝坊して目覚まし時計が鳴らなかったせい",
+        "会場の場所を間違えて別のビルに行ってしまったせい"
+      ],
+      "answer": "信号トラブルによる電車の遅延のせい",
+      "acceptedAnswers": [
+        "信号トラブルによる電車の遅延のせい"
+      ],
+      "explanation": "佐藤さんが「今朝、信号トラブルによる電車の遅延のせいで、会場への到着が開始十分前になってしまって、本当に焦ったんですよ」と述べています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q029",
+      "lessonId": "n3.l17",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "佐藤さんが移動中に最終確認をすることができたのはなぜか。",
+      "choices": [
+        "山田先輩が前日のうちに資料をクラウドに共有してくれていたおかげ",
+        "電車の中に専門のプリンターが設置されていたから",
+        "クライアントが電話で事前に内容を教えてくれたから",
+        "佐藤さんが原稿を一言一句暗記していたから"
+      ],
+      "answer": "山田先輩が前日のうちに資料をクラウドに共有してくれていたおかげ",
+      "acceptedAnswers": [
+        "山田先輩が前日のうちに資料をクラウドに共有してくれていたおかげ"
+      ],
+      "explanation": "佐藤さんが「前日のうちに山田先輩が資料をクラウドに共有してくださっていたおかげで、移動中にスマートフォンで最終確認ができました」と感謝しています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l17.q030",
+      "lessonId": "n3.l17",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "佐藤さんがクライアントからの質問に的確に答えられた理由として挙げられているものはどれか。",
+      "choices": [
+        "山田先輩に模擬練習で厳しく指導してもらったおかげ",
+        "質問の内容が予想より簡単だったから",
+        "会場にいた別の同僚が代わりに答えてくれたから",
+        "クライアントが質問を途中でやめたから"
+      ],
+      "answer": "山田先輩に模擬練習で厳しく指導してもらったおかげ",
+      "acceptedAnswers": [
+        "山田先輩に模擬練習で厳しく指導してもらったおかげ"
+      ],
+      "explanation": "佐藤さんが「山田先輩に模擬練習で厳しく指導していただいたおかげです」と述べています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

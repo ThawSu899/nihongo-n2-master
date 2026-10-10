@@ -1,0 +1,1671 @@
+{
+  "id": "n5.l16",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 16,
+  "title": "Permission and Prohibition (てもいい・てはいけません)",
+  "description": "Ask for and grant permission using [Verb-te] も いいですか, articulate strict rules and prohibitions using [Verb-te] は いけません, and express current residence/status with 知っています and 住んでいます.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l16.v001",
+      "lessonId": "n5.l16",
+      "ja": "置きます",
+      "kana": "おきます",
+      "en": "To put / place",
+      "my": "ထားသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l16.s007",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.v002",
+      "lessonId": "n5.l16",
+      "ja": "作ります",
+      "kana": "つくります",
+      "en": "To make / produce",
+      "my": "ပြုလုပ်သည် / ဖန်တီးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l16.s008",
+      "kanjiIds": [
+        "n5.l16.k004"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.v003",
+      "lessonId": "n5.l16",
+      "ja": "売ります",
+      "kana": "うります",
+      "en": "To sell",
+      "my": "ရောင်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l16.s009",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.v004",
+      "lessonId": "n5.l16",
+      "ja": "知っています",
+      "kana": "しっています",
+      "en": "To know (state)",
+      "my": "သိထားသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l16.s004",
+      "kanjiIds": [
+        "n5.l16.k003"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.v005",
+      "lessonId": "n5.l16",
+      "ja": "住んでいます",
+      "kana": "すんでいます",
+      "en": "To live / reside",
+      "my": "နေထိုင်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l16.s003",
+      "kanjiIds": [
+        "n5.l16.k001"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.v006",
+      "lessonId": "n5.l16",
+      "ja": "研究します",
+      "kana": "けんきゅうします",
+      "en": "To research",
+      "my": "သုတေသနပြုသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l16.s010",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.v007",
+      "lessonId": "n5.l16",
+      "ja": "資料",
+      "kana": "しりょう",
+      "en": "Materials / Documents",
+      "my": "စာရွက်စာတမ်း / အချက်အလက်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.v008",
+      "lessonId": "n5.l16",
+      "ja": "カタログ",
+      "kana": "かたろぐ",
+      "en": "Catalogue",
+      "my": "ကတ်တလောက်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.v009",
+      "lessonId": "n5.l16",
+      "ja": "時刻表",
+      "kana": "じこくひょう",
+      "en": "Timetable",
+      "my": "အချိန်ဇယား",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s011",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.v010",
+      "lessonId": "n5.l16",
+      "ja": "服",
+      "kana": "ふく",
+      "en": "Clothes",
+      "my": "အဝတ်အစား",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s012",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.v011",
+      "lessonId": "n5.l16",
+      "ja": "独身",
+      "kana": "どくしん",
+      "en": "Single / Unmarried",
+      "my": "လူလွတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s013",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.v012",
+      "lessonId": "n5.l16",
+      "ja": "いけません",
+      "kana": "いけません",
+      "en": "Must not / Not allowed",
+      "my": "မပြုလုပ်ရ / မရပါ",
+      "pos": "expression",
+      "exampleSentenceId": "n5.l16.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l16.k001",
+      "lessonId": "n5.l16",
+      "char": "住",
+      "meaning": "Dwell, live, reside",
+      "onyomi": [
+        "ジュウ"
+      ],
+      "kunyomi": [
+        "す.む",
+        "す.まう"
+      ],
+      "exampleVocab": [
+        {
+          "word": "住んでいます (すんでいます)",
+          "reading": "すんでいます",
+          "meaning": "Living in",
+          "preview": false
+        },
+        {
+          "word": "住所 (じゅうしょ)",
+          "reading": "じゅうしょ",
+          "meaning": "Address",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l16.s001"
+      ],
+      "components": [
+        "住"
+      ],
+      "strokes": 7,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.k002",
+      "lessonId": "n5.l16",
+      "char": "所",
+      "meaning": "Place",
+      "onyomi": [
+        "ショ"
+      ],
+      "kunyomi": [
+        "ところ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "場所 (ばしょ)",
+          "reading": "ばしょ",
+          "meaning": "Place / Location",
+          "preview": false
+        },
+        {
+          "word": "事務所 (じむしょ)",
+          "reading": "じむしょ",
+          "meaning": "Office",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l16.s002"
+      ],
+      "components": [
+        "所"
+      ],
+      "strokes": 8,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.k003",
+      "lessonId": "n5.l16",
+      "char": "知",
+      "meaning": "Know, wisdom",
+      "onyomi": [
+        "チ"
+      ],
+      "kunyomi": [
+        "し.る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "知ります (しります)",
+          "reading": "しります",
+          "meaning": "To know",
+          "preview": false
+        },
+        {
+          "word": "知りません (しりません)",
+          "reading": "しりません",
+          "meaning": "Do not know",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l16.s003"
+      ],
+      "components": [
+        "知"
+      ],
+      "strokes": 8,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.k004",
+      "lessonId": "n5.l16",
+      "char": "作",
+      "meaning": "Make, produce",
+      "onyomi": [
+        "サク",
+        "サ"
+      ],
+      "kunyomi": [
+        "つく.る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "作ります (つくります)",
+          "reading": "つくります",
+          "meaning": "To make / build",
+          "preview": false
+        },
+        {
+          "word": "作文 (さくぶん)",
+          "reading": "さくぶん",
+          "meaning": "Essay",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l16.s004"
+      ],
+      "components": [
+        "作"
+      ],
+      "strokes": 7,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l16.g001",
+      "lessonId": "n5.l16",
+      "pattern": "[Verb-te] も いいですか",
+      "meaning": "May I [Verb]? (Permission)",
+      "formation": "Verb (て-form) + も + いいですか",
+      "explanation": {
+        "en": "Used to ask for permission: 写真を撮ってもいいですか (May I take a photo?). Affirmative answer: ええ、いいですよ (Yes, you may).",
+        "my": "ခွင့်ပြုချက်တောင်းခံရာတွင် 「ကြိယာ て-form + もいいですか」 (ပြုလုပ်ခွင့်ရှိပါသလား) ဟု သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l16.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l16.s003",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do NOT say *撮るもいいですか. The verb must be in its て-form."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.g002",
+      "lessonId": "n5.l16",
+      "pattern": "[Verb-te] は いけません",
+      "meaning": "Must not [Verb] (Prohibition)",
+      "formation": "Verb (て-form) + は (pronounced \"wa\") + いけません",
+      "explanation": {
+        "en": "Expresses strong rules or prohibitions: ここに車を止めてはいけません (You must not park your car here).",
+        "my": "စည်းကမ်းတားမြစ်ချက်ကို ဖော်ပြရာတွင် 「ကြိယာ て-form + はいけません」 (မပြုလုပ်ရ) ဟု သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l16.s002",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l16.s006",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Writing particle は as わ is an error. Always write hiragana は."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l16.s001",
+      "lessonId": "n5.l16",
+      "ja": "この資料を見てもいいですか。ええ、どうぞ。",
+      "kana": "このしりょうをみてもいいですか。ええ、どうぞ。",
+      "translation": {
+        "en": "May I look at these materials? Yes, please go ahead.",
+        "my": "ဒီစာရွက်စာတမ်းကို ကြည့်ခွင့်ရှိပါသလား။ ဟုတ်ကဲ့၊ ကြည့်ပါခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n5.l16.v007"
+      ],
+      "grammarIds": [
+        "n5.l16.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.s002",
+      "lessonId": "n5.l16",
+      "ja": "ここで写真を撮ってはいけません。",
+      "kana": "ここでしゃしんをとってはいけません。",
+      "translation": {
+        "en": "You must not take photographs here.",
+        "my": "ဒီနေရာမှာ ဓာတ်ပုံမရိုက်ရပါ။"
+      },
+      "vocabIds": [
+        "n5.l16.v012"
+      ],
+      "grammarIds": [
+        "n5.l16.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.s003",
+      "lessonId": "n5.l16",
+      "ja": "私は東京の世田谷に住んでいます。",
+      "kana": "わたしはとうきょうのせたがやにすんでいます。",
+      "translation": {
+        "en": "I live in Setagaya, Tokyo.",
+        "my": "ကျွန်တော် တိုကျိုမြို့၊ ဆေတာဂါယာမှာ နေထိုင်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l16.v005"
+      ],
+      "grammarIds": [
+        "n5.l16.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.s004",
+      "lessonId": "n5.l16",
+      "ja": "田中さんの電話番号を知っていますか。いいえ、知りません。",
+      "kana": "たなかさんのでんわばんごうをしっていますか。いいえ、しりません。",
+      "translation": {
+        "en": "Do you know Tanaka-san's phone number? No, I do not.",
+        "my": "တာနာကာစန်းရဲ့ ဖုန်းနံပါတ်ကို သိပါသလား။ မသိပါဘူးခင်ဗျာ။"
+      },
+      "vocabIds": [
+        "n5.l16.v004"
+      ],
+      "grammarIds": [
+        "n5.l16.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.s005",
+      "lessonId": "n5.l16",
+      "ja": "このカタログをもらってもいいですか。",
+      "kana": "このかたるぐをもらってもいいですか。",
+      "translation": {
+        "en": "May I take this catalogue?",
+        "my": "ဒီကတ်တလောက်ကို ယူသွားခွင့်ရှိပါသလား။"
+      },
+      "vocabIds": [
+        "n5.l16.v008"
+      ],
+      "grammarIds": [
+        "n5.l16.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.s006",
+      "lessonId": "n5.l16",
+      "ja": "テストの時、辞書を使ってはいけません。",
+      "kana": "てすとのとき、じしょをつかってはいけません。",
+      "translation": {
+        "en": "You must not use dictionaries during the test.",
+        "my": "စာမေးပွဲဖြေဆိုချိန်တွင် အဘိဓာန် အသုံးမပြုရပါ။"
+      },
+      "vocabIds": [
+        "n5.l16.v012"
+      ],
+      "grammarIds": [
+        "n5.l16.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.s007",
+      "lessonId": "n5.l16",
+      "ja": "荷物はここに置いてもいいですか。",
+      "kana": "にもつはここにおいてもいいですか。",
+      "translation": {
+        "en": "May I put my luggage here?",
+        "my": "အထုပ်အပိုးများကို ဒီနေရာမှာ ထားလို့ရပါသလား။"
+      },
+      "vocabIds": [
+        "n5.l16.v001"
+      ],
+      "grammarIds": [
+        "n5.l16.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.s008",
+      "lessonId": "n5.l16",
+      "ja": "教室で料理を作ってはいけません。",
+      "kana": "きょうしつでりょうりをつくってはいけません。",
+      "translation": {
+        "en": "You must not cook in the classroom.",
+        "my": "စာသင်ခန်းထဲတွင် ဟင်းမချက်ရပါ။"
+      },
+      "vocabIds": [
+        "n5.l16.v002"
+      ],
+      "grammarIds": [
+        "n5.l16.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.s009",
+      "lessonId": "n5.l16",
+      "ja": "この店で古い本を売っています。",
+      "kana": "このみせでふるいほんをうっています。",
+      "translation": {
+        "en": "They sell old books at this shop.",
+        "my": "ဒီဆိုင်မှာ စာအုပ်ဟောင်းများကို ရောင်းချနေပါသည်။"
+      },
+      "vocabIds": [
+        "n5.l16.v003"
+      ],
+      "grammarIds": [
+        "n5.l16.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.s010",
+      "lessonId": "n5.l16",
+      "ja": "研究所で日本の経済を研究しています。",
+      "kana": "けんきゅうじょでにほんのけいざいをけんきゅうしています。",
+      "translation": {
+        "en": "I am researching the Japanese economy at the research institute.",
+        "my": "သုတေသနဌာနတွင် ဂျပန်စီးပွားရေးကို သုတေသနပြုနေပါသည်။"
+      },
+      "vocabIds": [
+        "n5.l16.v006"
+      ],
+      "grammarIds": [
+        "n5.l16.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.s011",
+      "lessonId": "n5.l16",
+      "ja": "駅で電車の時刻表をもらってもいいですか。",
+      "kana": "えきででんしゃのじこくひょうをもらってもいいですか。",
+      "translation": {
+        "en": "May I get a train timetable at the station?",
+        "my": "ဘူတာရုံတွင် ရထားအချိန်ဇယားကို ယူလို့ရပါသလား။"
+      },
+      "vocabIds": [
+        "n5.l16.v009"
+      ],
+      "grammarIds": [
+        "n5.l16.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.s012",
+      "lessonId": "n5.l16",
+      "ja": "店で新しい服を買ってもいいですか。",
+      "kana": "みせであたらしいふくをかってもいいですか。",
+      "translation": {
+        "en": "May I buy new clothes at the shop?",
+        "my": "ဆိုင်တွင် အဝတ်အစားသစ်များ ဝယ်လို့ရပါသလား။"
+      },
+      "vocabIds": [
+        "n5.l16.v010"
+      ],
+      "grammarIds": [
+        "n5.l16.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l16.s013",
+      "lessonId": "n5.l16",
+      "ja": "木村さんはまだ結婚していなくて、独身です。",
+      "kana": "きむらさんはまだけっこんしていなくて、どくしんです。",
+      "translation": {
+        "en": "Kimura-san is not married yet; she is single.",
+        "my": "ခိမုရစံသည် အိမ်ထောင်မပြုရသေးဘဲ လူလွတ်တစ်ဦး ဖြစ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n5.l16.v011"
+      ],
+      "grammarIds": [
+        "n5.l16.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l16.r01",
+    "lessonId": "n5.l16",
+    "title": "Permission and Prohibition (てもいい・てはいけません) - 読解",
+    "level": "N5",
+    "text": "昨日、市内の有名な美術館へ行きました。美術館の受付でカタログをもらいました。美術館の中には世界各国の美しい絵や彫刻がたくさんありました。しかし、館内ではルールを守らなければなりません。フラッシュをつけて写真を撮ってはいけません。大きな声で話してはいけません。静かに鑑賞することはとても大切です。",
+    "kanaText": "きのう、しないのゆうめいなびじゅつかんへいきました。びじゅつかんのうけつけでかたるぐをもらいました。びじゅつかんのなかにはせかいかっこくのうつくしいえやちょうこくがたくさんありました。しかし、かんないではるーるをまもらなければなりません。ふらっしゅをつけてしゃしんをとってはいけません。おおきなこえではなしてはいけません。しずかにかんしょうすることはとてもたいせつです。",
+    "translation": "Yesterday, I went to a famous art museum in the city. At the reception desk, I received a catalogue. Inside the museum, there were many beautiful paintings and sculptures from around the world. However, one must observe the rules inside the building. You must not take photos with flash. You must not speak in loud voices. Appreciating the art quietly is very important.",
+    "questionIds": [
+      "n5.l16.q021",
+      "n5.l16.q022",
+      "n5.l16.q023",
+      "n5.l16.q024",
+      "n5.l16.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l16.l01",
+    "lessonId": "n5.l16",
+    "title": "Permission and Prohibition (てもいい・てはいけません) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "学生",
+      "司書"
+    ],
+    "transcript": "学生：すみません、こちらの席でパソコンを使ってもいいですか。\n司書：ええ、どうぞ。電源も自由に使ってください。\n学生：ありがとうございます。あと、お茶を飲んでもいいですか。\n司書：ペットボトルなど蓋がある飲み物は大丈夫ですが、食べ物は食べてはいけません。",
+    "translation": "A student asks a librarian for permission to use a laptop and drink water.",
+    "turns": [
+      {
+        "speaker": "学生",
+        "ja": "すみません、こちらの席でパソコンを使ってもいいですか。",
+        "kana": "すみません、こちらのせきでぱそこんをつかってもいいですか。",
+        "en": "Excuse me, may I use a laptop at this desk?"
+      },
+      {
+        "speaker": "司書",
+        "ja": "ええ、どうぞ。電源も自由に使ってください。",
+        "kana": "ええ、どうぞ。でんげんもじゆうにつかってください。",
+        "en": "Yes, please go ahead. Feel free to use the electrical power outlets too."
+      },
+      {
+        "speaker": "学生",
+        "ja": "ありがとうございます。あと、お茶を飲んでもいいですか。",
+        "kana": "ありがとうございます。あと、おちゃをのんでもいいですか。",
+        "en": "Thank you very much. Also, may I drink tea?"
+      },
+      {
+        "speaker": "司書",
+        "ja": "ペットボトルなど蓋がある飲み物は大丈夫ですが、食べ物は食べてはいけません。",
+        "kana": "ぺっとぼとるなどふたがあるのみものはだいじょうぶですが、たべものはたべてはいけません。",
+        "en": "Drinks with lids such as plastic bottles are fine, but you must not eat food."
+      }
+    ],
+    "questionIds": [
+      "n5.l16.q026",
+      "n5.l16.q027",
+      "n5.l16.q028",
+      "n5.l16.q029",
+      "n5.l16.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l16.q001",
+      "lessonId": "n5.l16",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「置きます」の意味は何ですか。 (What does 「置きます」 mean?)",
+      "choices": [
+        "To put / place",
+        "To make / produce",
+        "To sell",
+        "To know (state)"
+      ],
+      "answer": "To put / place",
+      "acceptedAnswers": [
+        "To put / place"
+      ],
+      "explanation": "「置きます」(おきます) means \"To put / place\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q002",
+      "lessonId": "n5.l16",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To make / produce\" in hiragana:",
+      "answer": "つくります",
+      "acceptedAnswers": [
+        "つくります",
+        "作ります"
+      ],
+      "explanation": "The Japanese word for \"To make / produce\" is 作ります (つくります).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q003",
+      "lessonId": "n5.l16",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「売ります」の意味は何ですか。 (What does 「売ります」 mean?)",
+      "choices": [
+        "To research",
+        "To live / reside",
+        "To know (state)",
+        "To sell"
+      ],
+      "answer": "To sell",
+      "acceptedAnswers": [
+        "To sell"
+      ],
+      "explanation": "「売ります」(うります) means \"To sell\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q004",
+      "lessonId": "n5.l16",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To know (state)\" in hiragana:",
+      "answer": "しっています",
+      "acceptedAnswers": [
+        "しっています",
+        "知っています"
+      ],
+      "explanation": "The Japanese word for \"To know (state)\" is 知っています (しっています).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q005",
+      "lessonId": "n5.l16",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「住んでいます」の意味は何ですか。 (What does 「住んでいます」 mean?)",
+      "choices": [
+        "Catalogue",
+        "Materials / Documents",
+        "To research",
+        "To live / reside"
+      ],
+      "answer": "To live / reside",
+      "acceptedAnswers": [
+        "To live / reside"
+      ],
+      "explanation": "「住んでいます」(すんでいます) means \"To live / reside\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q006",
+      "lessonId": "n5.l16",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To research\" in hiragana:",
+      "answer": "けんきゅうします",
+      "acceptedAnswers": [
+        "けんきゅうします",
+        "研究します"
+      ],
+      "explanation": "The Japanese word for \"To research\" is 研究します (けんきゅうします).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q007",
+      "lessonId": "n5.l16",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「資料」の意味は何ですか。 (What does 「資料」 mean?)",
+      "choices": [
+        "Materials / Documents",
+        "Catalogue",
+        "Timetable",
+        "Clothes"
+      ],
+      "answer": "Materials / Documents",
+      "acceptedAnswers": [
+        "Materials / Documents"
+      ],
+      "explanation": "「資料」(しりょう) means \"Materials / Documents\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q008",
+      "lessonId": "n5.l16",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Catalogue\" in hiragana:",
+      "answer": "かたろぐ",
+      "acceptedAnswers": [
+        "かたろぐ",
+        "カタログ"
+      ],
+      "explanation": "The Japanese word for \"Catalogue\" is カタログ (かたろぐ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q009",
+      "lessonId": "n5.l16",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「時刻表」の意味は何ですか。 (What does 「時刻表」 mean?)",
+      "choices": [
+        "Must not / Not allowed",
+        "Single / Unmarried",
+        "Clothes",
+        "Timetable"
+      ],
+      "answer": "Timetable",
+      "acceptedAnswers": [
+        "Timetable"
+      ],
+      "explanation": "「時刻表」(じこくひょう) means \"Timetable\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q010",
+      "lessonId": "n5.l16",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Clothes\" in hiragana:",
+      "answer": "ふく",
+      "acceptedAnswers": [
+        "ふく",
+        "服"
+      ],
+      "explanation": "The Japanese word for \"Clothes\" is 服 (ふく).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q011",
+      "lessonId": "n5.l16",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「独身」の意味は何ですか。 (What does 「独身」 mean?)",
+      "choices": [
+        "To make / produce",
+        "To put / place",
+        "Must not / Not allowed",
+        "Single / Unmarried"
+      ],
+      "answer": "Single / Unmarried",
+      "acceptedAnswers": [
+        "Single / Unmarried"
+      ],
+      "explanation": "「独身」(どくしん) means \"Single / Unmarried\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q012",
+      "lessonId": "n5.l16",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Must not / Not allowed\" in hiragana:",
+      "answer": "いけません",
+      "acceptedAnswers": [
+        "いけません",
+        "いけません"
+      ],
+      "explanation": "The Japanese word for \"Must not / Not allowed\" is いけません (いけません).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q013",
+      "lessonId": "n5.l16",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「住」の意味は何ですか。 (What is the meaning of kanji 「住」?)",
+      "choices": [
+        "Dwell, live, reside",
+        "Place",
+        "Know, wisdom",
+        "Tree"
+      ],
+      "answer": "Dwell, live, reside",
+      "acceptedAnswers": [
+        "Dwell, live, reside"
+      ],
+      "explanation": "「住」means \"Dwell, live, reside\". Onyomi: ジュウ, Kunyomi: す.む, す.まう.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q014",
+      "lessonId": "n5.l16",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「住」の読み方はどれですか。 (Which is a correct reading for 「住」?)",
+      "choices": [
+        "す.む",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "す.む",
+      "acceptedAnswers": [
+        "す.む"
+      ],
+      "explanation": "「住」 has the reading 「す.む」 (Dwell, live, reside).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q015",
+      "lessonId": "n5.l16",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「所」の意味は何ですか。 (What is the meaning of kanji 「所」?)",
+      "choices": [
+        "Place",
+        "Dwell, live, reside",
+        "Know, wisdom",
+        "Tree"
+      ],
+      "answer": "Place",
+      "acceptedAnswers": [
+        "Place"
+      ],
+      "explanation": "「所」means \"Place\". Onyomi: ショ, Kunyomi: ところ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q016",
+      "lessonId": "n5.l16",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「所」の読み方はどれですか。 (Which is a correct reading for 「所」?)",
+      "choices": [
+        "ところ",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "ところ",
+      "acceptedAnswers": [
+        "ところ"
+      ],
+      "explanation": "「所」 has the reading 「ところ」 (Place).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q017",
+      "lessonId": "n5.l16",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「知」の意味は何ですか。 (What is the meaning of kanji 「知」?)",
+      "choices": [
+        "Know, wisdom",
+        "Dwell, live, reside",
+        "Place",
+        "Tree"
+      ],
+      "answer": "Know, wisdom",
+      "acceptedAnswers": [
+        "Know, wisdom"
+      ],
+      "explanation": "「知」means \"Know, wisdom\". Onyomi: チ, Kunyomi: し.る.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q018",
+      "lessonId": "n5.l16",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「知」の読み方はどれですか。 (Which is a correct reading for 「知」?)",
+      "choices": [
+        "し.る",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "し.る",
+      "acceptedAnswers": [
+        "し.る"
+      ],
+      "explanation": "「知」 has the reading 「し.る」 (Know, wisdom).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q019",
+      "lessonId": "n5.l16",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「作」の意味は何ですか。 (What is the meaning of kanji 「作」?)",
+      "choices": [
+        "Make, produce",
+        "Dwell, live, reside",
+        "Place",
+        "Tree"
+      ],
+      "answer": "Make, produce",
+      "acceptedAnswers": [
+        "Make, produce"
+      ],
+      "explanation": "「作」means \"Make, produce\". Onyomi: サク, サ, Kunyomi: つく.る.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q020",
+      "lessonId": "n5.l16",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「作」の読み方はどれですか。 (Which is a correct reading for 「作」?)",
+      "choices": [
+        "つく.る",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "つく.る",
+      "acceptedAnswers": [
+        "つく.る"
+      ],
+      "explanation": "「作」 has the reading 「つく.る」 (Make, produce).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q021",
+      "lessonId": "n5.l16",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "受付で何をもらいましたか。 (What did they receive at reception?)",
+      "choices": [
+        "カタログ",
+        "絵葉書",
+        "チケット",
+        "傘"
+      ],
+      "answer": "カタログ",
+      "acceptedAnswers": [
+        "カタログ"
+      ],
+      "explanation": "「美術館の受付でカタログをもらいました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q022",
+      "lessonId": "n5.l16",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "美術館内で禁止されている行為は何ですか。 (What actions are prohibited inside?)",
+      "choices": [
+        "フラッシュ撮影と大声での会話",
+        "メモを取ること",
+        "靴を履くこと",
+        "歩くこと"
+      ],
+      "answer": "フラッシュ撮影と大声での会話",
+      "acceptedAnswers": [
+        "フラッシュ撮影と大声での会話"
+      ],
+      "explanation": "「フラッシュをつけて写真を撮ってはいけません。大きな声で話してはいけません」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q023",
+      "lessonId": "n5.l16",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "美術館には何が展示されていましたか。 (What was exhibited?)",
+      "choices": [
+        "各国の美しい絵や彫刻",
+        "古い本",
+        "現代の車",
+        "服"
+      ],
+      "answer": "各国の美しい絵や彫刻",
+      "acceptedAnswers": [
+        "各国の美しい絵や彫刻"
+      ],
+      "explanation": "「世界各国の美しい絵や彫刻がたくさんありました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q024",
+      "lessonId": "n5.l16",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "鑑賞する際、何が大切だと述べられていますか。 (What is stated as important when viewing art?)",
+      "choices": [
+        "静かに鑑賞すること",
+        "早く見終わること",
+        "写真を多く撮ること",
+        "先生と話すこと"
+      ],
+      "answer": "静かに鑑賞すること",
+      "acceptedAnswers": [
+        "静かに鑑賞すること"
+      ],
+      "explanation": "「静かに鑑賞することはとても大切です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q025",
+      "lessonId": "n5.l16",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "いつ美術館へ行きましたか。 (When did the visit take place?)",
+      "choices": [
+        "昨日",
+        "先週",
+        "先月",
+        "今日"
+      ],
+      "answer": "昨日",
+      "acceptedAnswers": [
+        "昨日"
+      ],
+      "explanation": "Opening word: 「昨日、市内の有名な美術館へ行きました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q026",
+      "lessonId": "n5.l16",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "席でパソコンを使ってもいいですか。 (Is laptop use permitted?)",
+      "choices": [
+        "はい、自由に使ってよい (電源も使用可)",
+        "いいえ、禁止されている",
+        "有料である",
+        "許可が必要"
+      ],
+      "answer": "はい、自由に使ってよい (電源も使用可)",
+      "acceptedAnswers": [
+        "はい、自由に使ってよい (電源も使用可)"
+      ],
+      "explanation": "The librarian grants permission: 「ええ、どうぞ。電源も自由に使ってください」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q027",
+      "lessonId": "n5.l16",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "飲み物についての規則はどうですか。 (What is the rule on drinks?)",
+      "choices": [
+        "蓋があるペットボトルなどは飲んでもよい",
+        "一切禁止",
+        "温かい飲み物のみ可",
+        "ジュースだけ禁止"
+      ],
+      "answer": "蓋があるペットボトルなどは飲んでもよい",
+      "acceptedAnswers": [
+        "蓋があるペットボトルなどは飲んでもよい"
+      ],
+      "explanation": "「ペットボトルなど蓋がある飲み物は大丈夫です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q028",
+      "lessonId": "n5.l16",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "禁止されていることは何ですか。 (What is strictly prohibited?)",
+      "choices": [
+        "食べ物を食べること",
+        "パソコンを使うこと",
+        "本を読むこと",
+        "座ること"
+      ],
+      "answer": "食べ物を食べること",
+      "acceptedAnswers": [
+        "食べ物を食べること"
+      ],
+      "explanation": "「食べ物は食べてはいけません」 (You must not eat food).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q029",
+      "lessonId": "n5.l16",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "学生はどこで職員に質問しましたか。 (Where does this take place?)",
+      "choices": [
+        "図書館",
+        "美術館",
+        "病院",
+        "教室"
+      ],
+      "answer": "図書館",
+      "acceptedAnswers": [
+        "図書館"
+      ],
+      "explanation": "The context is a library reading room with a librarian (司書).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l16.q030",
+      "lessonId": "n5.l16",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "学生が最初に尋ねたことは何ですか。 (What did the student inquire about first?)",
+      "choices": [
+        "パソコンの使用許可",
+        "本の返却",
+        "席の予約",
+        "Wi-Fiのパスワード"
+      ],
+      "answer": "パソコンの使用許可",
+      "acceptedAnswers": [
+        "パソコンの使用許可"
+      ],
+      "explanation": "「こちらの席でパソコンを使ってもいいですか」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l16.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

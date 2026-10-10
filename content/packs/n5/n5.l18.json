@@ -1,0 +1,1654 @@
+{
+  "id": "n5.l18",
+  "level": "N5",
+  "module": "N5 Foundation 1",
+  "number": 18,
+  "title": "The Nai-form: Obligations (ないでください・なければなりません)",
+  "description": "Conjugate verbs into the Nai-form, make negative polite requests with [V-nai] でください, express mandatory obligations with [V-nai] なければなりません, and express unnecessity with [V-nai] なくてもいいです.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l18.v001",
+      "lessonId": "n5.l18",
+      "ja": "痛い",
+      "kana": "いたい",
+      "en": "Painful / Hurt",
+      "my": "နာကျင်သော",
+      "pos": "i-adj",
+      "exampleSentenceId": "n5.l18.s007",
+      "kanjiIds": [
+        "n5.l18.k003"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.v002",
+      "lessonId": "n5.l18",
+      "ja": "薬",
+      "kana": "くすり",
+      "en": "Medicine",
+      "my": "ဆေး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l18.s002",
+      "kanjiIds": [
+        "n5.l18.k004"
+      ],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.v003",
+      "lessonId": "n5.l18",
+      "ja": "熱",
+      "kana": "ねつ",
+      "en": "Fever / Heat",
+      "my": "အဖျား / အပူချိန်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l18.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.v004",
+      "lessonId": "n5.l18",
+      "ja": "病院",
+      "kana": "びょういん",
+      "en": "Hospital / Clinic",
+      "my": "ဆေးရုံ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l18.s002",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.v005",
+      "lessonId": "n5.l18",
+      "ja": "保険証",
+      "kana": "ほけんしょう",
+      "en": "Health insurance card",
+      "my": "ကျန်းမာရေးအာမခံကတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l18.s008",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.v006",
+      "lessonId": "n5.l18",
+      "ja": "心配します",
+      "kana": "しんぱいします",
+      "en": "To worry",
+      "my": "စိုးရိမ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l18.s012",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.v007",
+      "lessonId": "n5.l18",
+      "ja": "脱ぎます",
+      "kana": "ぬぎます",
+      "en": "To take off (shoes/clothes)",
+      "my": "ချွတ်သည် (အဝတ်/ဖိနပ်)",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l18.s005",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.v008",
+      "lessonId": "n5.l18",
+      "ja": "払います",
+      "kana": "はらいます",
+      "en": "To pay",
+      "my": "ငွေပေးချေသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l18.s009",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.v009",
+      "lessonId": "n5.l18",
+      "ja": "忘れます",
+      "kana": "わすれます",
+      "en": "To forget",
+      "my": "မေ့လျော့သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l18.s010",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.v010",
+      "lessonId": "n5.l18",
+      "ja": "なくします",
+      "kana": "なくします",
+      "en": "To lose (an item)",
+      "my": "ပျောက်ဆုံးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l18.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.v011",
+      "lessonId": "n5.l18",
+      "ja": "残業します",
+      "kana": "ざんぎょうします",
+      "en": "To work overtime",
+      "my": "အချိန်ပိုလုပ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l18.s011",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.v012",
+      "lessonId": "n5.l18",
+      "ja": "パスポート",
+      "kana": "ぱすぽーと",
+      "en": "Passport",
+      "my": "နိုင်ငံကူးလက်မှတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l18.s003",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l18.k001",
+      "lessonId": "n5.l18",
+      "char": "体",
+      "meaning": "Body, substance",
+      "onyomi": [
+        "タイ",
+        "テイ"
+      ],
+      "kunyomi": [
+        "からだ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "体 (からだ)",
+          "reading": "からだ",
+          "meaning": "Body",
+          "preview": false
+        },
+        {
+          "word": "体力 (たいりょく)",
+          "reading": "たいりょく",
+          "meaning": "Physical strength",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l18.s001"
+      ],
+      "components": [
+        "体"
+      ],
+      "strokes": 7,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.k002",
+      "lessonId": "n5.l18",
+      "char": "頭",
+      "meaning": "Head, top",
+      "onyomi": [
+        "トウ",
+        "ズ"
+      ],
+      "kunyomi": [
+        "あたま",
+        "かしら"
+      ],
+      "exampleVocab": [
+        {
+          "word": "頭 (あたま)",
+          "reading": "あたま",
+          "meaning": "Head",
+          "preview": false
+        },
+        {
+          "word": "頭痛 (ずつう)",
+          "reading": "ずつう",
+          "meaning": "Headache",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l18.s002"
+      ],
+      "components": [
+        "頭"
+      ],
+      "strokes": 16,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.k003",
+      "lessonId": "n5.l18",
+      "char": "痛",
+      "meaning": "Pain, hurt, ache",
+      "onyomi": [
+        "ツウ"
+      ],
+      "kunyomi": [
+        "いた.い",
+        "いた.む"
+      ],
+      "exampleVocab": [
+        {
+          "word": "痛い (いたい)",
+          "reading": "いたい",
+          "meaning": "Painful / Sore",
+          "preview": false
+        },
+        {
+          "word": "頭痛 (ずつう)",
+          "reading": "ずつう",
+          "meaning": "Headache",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l18.s003"
+      ],
+      "components": [
+        "痛"
+      ],
+      "strokes": 12,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.k004",
+      "lessonId": "n5.l18",
+      "char": "薬",
+      "meaning": "Medicine, chemical",
+      "onyomi": [
+        "ヤク"
+      ],
+      "kunyomi": [
+        "くすり"
+      ],
+      "exampleVocab": [
+        {
+          "word": "薬 (くすり)",
+          "reading": "くすり",
+          "meaning": "Medicine",
+          "preview": false
+        },
+        {
+          "word": "目薬 (めぐすり)",
+          "reading": "めぐすり",
+          "meaning": "Eye drops",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l18.s004"
+      ],
+      "components": [
+        "薬"
+      ],
+      "strokes": 16,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l18.g001",
+      "lessonId": "n5.l18",
+      "pattern": "[Verb-nai] でください",
+      "meaning": "Please do not [Verb]",
+      "formation": "Verb (ない-form) + でください",
+      "explanation": {
+        "en": "Politely requests someone to refrain from an action: 心配しないでください (Please do not worry); ここで写真を撮らないでください (Please do not take photos here).",
+        "my": "ယဉ်ကျေးစွာ မပြုလုပ်ရန် မေတ္တာရပ်ခံရာတွင် 「ကြိယာ ない-form + でください」 (မ... ပါနှင့်) ဟု သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l18.s001",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l18.s003",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do NOT say *撮るないでください or *撮らないてください. The form is strictly [ない-form] + で + ください."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.g002",
+      "lessonId": "n5.l18",
+      "pattern": "[Verb-nai] なければなりません",
+      "meaning": "Must [Verb] / Have to [Verb]",
+      "formation": "Verb (drop final い of ない-form) + ければなりません",
+      "explanation": {
+        "en": "Expresses mandatory obligation, necessity, or duty regardless of speaker's personal preference: 薬を飲まなければなりません (I must take medicine).",
+        "my": "မဖြစ်မနေ ပြုလုပ်ရမည့် တာဝန်ဝတ္တရားကို 「ကြိယာ ない-form အဆုံး い ဖြုတ် + ければなりません」 (ပြုလုပ်ရမည်) ဖြင့် ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l18.s002",
+          "note": "Basic usage"
+        },
+        {
+          "sentenceId": "n5.l18.s004",
+          "note": "Conversational context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Notice the double negative structure (if you don't do it, it won't do). Do not omit ければ."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l18.s001",
+      "lessonId": "n5.l18",
+      "ja": "熱がありますから、無理をしないでください。",
+      "kana": "ねつがありますから、むりをしないでください。",
+      "translation": {
+        "en": "Because you have a fever, please do not push yourself.",
+        "my": "ဖျားနေတဲ့အတွက် အတင်းအကျပ် အပင်ပန်းမခံပါနဲ့။"
+      },
+      "vocabIds": [
+        "n5.l18.v003",
+        "n5.l18.v006"
+      ],
+      "grammarIds": [
+        "n5.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.s002",
+      "lessonId": "n5.l18",
+      "ja": "今日、病院へ行って薬をもらわなければなりません。",
+      "kana": "きょう、びょういんへいってくすりをもらわなければなりません。",
+      "translation": {
+        "en": "Today I must go to the hospital and get medicine.",
+        "my": "ဒီနေ့ ဆေးရုံသွားပြီး ဆေးယူရပါမယ်။"
+      },
+      "vocabIds": [
+        "n5.l18.v002",
+        "n5.l18.v004"
+      ],
+      "grammarIds": [
+        "n5.l18.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.s003",
+      "lessonId": "n5.l18",
+      "ja": "パスポートは大切ですから、なくさないでください。",
+      "kana": "ぱすぽーとはたいせつですから、なくさないでください。",
+      "translation": {
+        "en": "Your passport is important, so please do not lose it.",
+        "my": "ပတ်စပို့က အရေးကြီးတဲ့အတွက် မပျောက်ဆုံးပါစေနဲ့။"
+      },
+      "vocabIds": [
+        "n5.l18.v010",
+        "n5.l18.v012"
+      ],
+      "grammarIds": [
+        "n5.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.s004",
+      "lessonId": "n5.l18",
+      "ja": "明日までにレポートを出さなければなりません。",
+      "kana": "あしたまでにれぽーとをださなければなりません。",
+      "translation": {
+        "en": "I must submit the report by tomorrow.",
+        "my": "မနက်ဖြန် အပြီး အစီရင်ခံစာ တင်ပြရပါမယ်။"
+      },
+      "vocabIds": [
+        "n5.l18.v012"
+      ],
+      "grammarIds": [
+        "n5.l18.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.s005",
+      "lessonId": "n5.l18",
+      "ja": "靴を脱いで、スリッパを履いてください。",
+      "kana": "くつをぬいで、すりっぱをはいてください。",
+      "translation": {
+        "en": "Please take off your shoes and put on slippers.",
+        "my": "ဖိနပ်ချွတ်ပြီး ညှပ်ဖိနပ် စီးပေးပါ။"
+      },
+      "vocabIds": [
+        "n5.l18.v007"
+      ],
+      "grammarIds": [
+        "n5.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.s006",
+      "lessonId": "n5.l18",
+      "ja": "明日は休みですから、早く起きなくてもいいです。",
+      "kana": "あしたはやすみですから、はやくおきなくてもいいです。",
+      "translation": {
+        "en": "Because tomorrow is a day off, you don't have to wake up early.",
+        "my": "မနက်ဖြန် အားလပ်ရက်ဖြစ်တဲ့အတွက် စောစောမထလည်း ရပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l18.v012"
+      ],
+      "grammarIds": [
+        "n5.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.s007",
+      "lessonId": "n5.l18",
+      "ja": "朝から頭がとても痛いですから、病院へ行かなければなりません。",
+      "kana": "あさからあたまがとてもいたいですから、びょういんへいかなければなりません。",
+      "translation": {
+        "en": "Because my head hurts very much since morning, I must go to the hospital.",
+        "my": "မနက်ကတည်းက ခေါင်းအရမ်းကိုက်နေတဲ့အတွက် ဆေးရုံသွားရပါမယ်။"
+      },
+      "vocabIds": [
+        "n5.l18.v001",
+        "n5.l18.v004"
+      ],
+      "grammarIds": [
+        "n5.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.s008",
+      "lessonId": "n5.l18",
+      "ja": "病院へ行くとき、健康保険証を持っていかなければなりません。",
+      "kana": "びょういんへいくとき、けんこうほけんしょうをもっていかなければなりません。",
+      "translation": {
+        "en": "When going to the hospital, you must bring your health insurance card.",
+        "my": "ဆေးရုံသွားတဲ့အခါ ကျန်းမာရေးအာမခံကတ် ယူဆောင်သွားရပါမယ်။"
+      },
+      "vocabIds": [
+        "n5.l18.v005"
+      ],
+      "grammarIds": [
+        "n5.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.s009",
+      "lessonId": "n5.l18",
+      "ja": "今週中に授業料を払わなければなりません。",
+      "kana": "こんしゅうちゅうにじゅぎょうりょうをはらわなければなりません。",
+      "translation": {
+        "en": "I must pay the tuition fee by the end of this week.",
+        "my": "ဒီအပတ်အတွင်း သင်တန်းကြေး ပေးချေရပါမယ်။"
+      },
+      "vocabIds": [
+        "n5.l18.v008"
+      ],
+      "grammarIds": [
+        "n5.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.s010",
+      "lessonId": "n5.l18",
+      "ja": "大事な会議の時間を忘れないでください。",
+      "kana": "だいじなかいぎのじかんをわすれないでください。",
+      "translation": {
+        "en": "Please do not forget the time of the important meeting.",
+        "my": "အရေးကြီးတဲ့ အစည်းအဝေးအချိန်ကို မမေ့ပါနဲ့။"
+      },
+      "vocabIds": [
+        "n5.l18.v009"
+      ],
+      "grammarIds": [
+        "n5.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.s011",
+      "lessonId": "n5.l18",
+      "ja": "明日は休みですから、今日は残業しなくてもいいです。",
+      "kana": "あしたはやすみですから、きょうはざんぎょうしなくてもいいです。",
+      "translation": {
+        "en": "Because tomorrow is a holiday, you do not have to work overtime today.",
+        "my": "မနက်ဖြန် အားလပ်ရက်ဖြစ်တဲ့အတွက် ဒီနေ့ အချိန်ပိုဆင်းစရာ မလိုပါဘူး။"
+      },
+      "vocabIds": [
+        "n5.l18.v011"
+      ],
+      "grammarIds": [
+        "n5.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l18.s012",
+      "lessonId": "n5.l18",
+      "ja": "薬を飲んで寝ますから、心配しないでください。",
+      "kana": "くすりをのんでねますから、しんぱいしないでください。",
+      "translation": {
+        "en": "I will take medicine and sleep, so please do not worry.",
+        "my": "ဆေးသောက်ပြီး အိပ်မှာဖြစ်တဲ့အတွက် စိတ်မပူပါနဲ့။"
+      },
+      "vocabIds": [
+        "n5.l18.v006"
+      ],
+      "grammarIds": [
+        "n5.l18.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l18.r01",
+    "lessonId": "n5.l18",
+    "title": "The Nai-form: Obligations (ないでください・なければなりません) - 読解",
+    "level": "N5",
+    "text": "昨日から頭が痛くて、熱が三十八度あります。朝、近くの病院へ行きました。受付で保険証を出して、問診票に症状を書きました。お医者さんは「風邪ですね。二日間お風呂に入らないでください。温かいおかゆを食べて、薬を毎食後飲まなければなりません。そして今日は仕事に行かないで、ゆっくり休んでください。」と言いました。お医者さんの言った通りに薬を飲んで寝ました。",
+    "kanaText": "きのうからあたまがいたくて、ねつがさんじゅうはちどあります。あさ、ちかくのびょういんへいきました。うけつけでほけんしょうをだして、もんしんひょうにしょうじょうをかきました。おいしゃさんは「かぜですね。ふつかかんおふろにはいらないでください。あたたかいおかゆをたべて、くすりをまいしょくごのまなければなりません。そしてきょうはしごとにいかないで、ゆっくりやすんでください。」といいました。おいしゃさんのいったとおりにくすりをのんでねました。",
+    "translation": "Since yesterday my head hurts, and I have a fever of 38 degrees. In the morning, I went to a nearby clinic. At the reception desk, I presented my health insurance card and wrote my symptoms on the medical questionnaire. The doctor said, \"It is a cold. Please do not take a bath for two days. You must eat warm porridge and take this medicine after every meal. And please do not go to work today; rest well.\" Following the doctor's words, I took my medicine and slept.",
+    "questionIds": [
+      "n5.l18.q021",
+      "n5.l18.q022",
+      "n5.l18.q023",
+      "n5.l18.q024",
+      "n5.l18.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l18.l01",
+    "lessonId": "n5.l18",
+    "title": "The Nai-form: Obligations (ないでください・なければなりません) - 聴解",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "薬剤師",
+      "山田"
+    ],
+    "transcript": "薬剤師：山田さん、お薬の準備ができました。こちらへどうぞ。\n山田：はい、よろしくお願いします。\n薬剤師：この白い薬は熱を下げる薬です。一日三回、毎食後必ず飲んでください。空腹の時には飲まないでください。\n山田：分かりました。眠くなりますか。\n薬剤師：少し眠くなりますから、車の運転は絶対にしないでください。",
+    "translation": "A pharmacist explains dosage instructions and precautions to a patient.",
+    "turns": [
+      {
+        "speaker": "薬剤師",
+        "ja": "山田さん、お薬の準備ができました。こちらへどうぞ。",
+        "kana": "やまざきし：やまださん、おくすりのじゅんびができました。こちらへどうぞ。",
+        "en": "Yamada-san, your medicine is ready. Please step over here."
+      },
+      {
+        "speaker": "山田",
+        "ja": "はい、よろしくお願いします。",
+        "kana": "はい、よろしくおねがいします。",
+        "en": "Yes, thank you."
+      },
+      {
+        "speaker": "薬剤師",
+        "ja": "この白い薬は熱を下げる薬です。一日三回、毎食後必ず飲んでください。空腹の時には飲まないでください。",
+        "kana": "このしろいくすりはねつをさげるくすりです。いちにちさんかい、まいしょくごかならずのんでください。くうふくのときにはのまないでください。",
+        "en": "This white tablet lowers fever. Please be sure to take it three times a day after meals. Do not take it on an empty stomach."
+      },
+      {
+        "speaker": "山田",
+        "ja": "分かりました。眠くなりますか。",
+        "kana": "わかりました。ねむくなりますか。",
+        "en": "Understood. Does it make one sleepy?"
+      },
+      {
+        "speaker": "薬剤師",
+        "ja": "少し眠くなりますから、車の運転は絶対にしないでください。",
+        "kana": "すこしねむくなりますから、くるまのうんてんはぜったいにしないでください。",
+        "en": "It makes you a little sleepy, so you must absolutely not drive a car."
+      }
+    ],
+    "questionIds": [
+      "n5.l18.q026",
+      "n5.l18.q027",
+      "n5.l18.q028",
+      "n5.l18.q029",
+      "n5.l18.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l18.q001",
+      "lessonId": "n5.l18",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「痛い」の意味は何ですか。 (What does 「痛い」 mean?)",
+      "choices": [
+        "Painful / Hurt",
+        "Medicine",
+        "Fever / Heat",
+        "Hospital / Clinic"
+      ],
+      "answer": "Painful / Hurt",
+      "acceptedAnswers": [
+        "Painful / Hurt"
+      ],
+      "explanation": "「痛い」(いたい) means \"Painful / Hurt\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q002",
+      "lessonId": "n5.l18",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Medicine\" in hiragana:",
+      "answer": "くすり",
+      "acceptedAnswers": [
+        "くすり",
+        "薬"
+      ],
+      "explanation": "The Japanese word for \"Medicine\" is 薬 (くすり).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q003",
+      "lessonId": "n5.l18",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「熱」の意味は何ですか。 (What does 「熱」 mean?)",
+      "choices": [
+        "To worry",
+        "Health insurance card",
+        "Hospital / Clinic",
+        "Fever / Heat"
+      ],
+      "answer": "Fever / Heat",
+      "acceptedAnswers": [
+        "Fever / Heat"
+      ],
+      "explanation": "「熱」(ねつ) means \"Fever / Heat\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q004",
+      "lessonId": "n5.l18",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Hospital / Clinic\" in hiragana:",
+      "answer": "びょういん",
+      "acceptedAnswers": [
+        "びょういん",
+        "病院"
+      ],
+      "explanation": "The Japanese word for \"Hospital / Clinic\" is 病院 (びょういん).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q005",
+      "lessonId": "n5.l18",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「保険証」の意味は何ですか。 (What does 「保険証」 mean?)",
+      "choices": [
+        "To pay",
+        "To take off (shoes/clothes)",
+        "To worry",
+        "Health insurance card"
+      ],
+      "answer": "Health insurance card",
+      "acceptedAnswers": [
+        "Health insurance card"
+      ],
+      "explanation": "「保険証」(ほけんしょう) means \"Health insurance card\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q006",
+      "lessonId": "n5.l18",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To worry\" in hiragana:",
+      "answer": "しんぱいします",
+      "acceptedAnswers": [
+        "しんぱいします",
+        "心配します"
+      ],
+      "explanation": "The Japanese word for \"To worry\" is 心配します (しんぱいします).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q007",
+      "lessonId": "n5.l18",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「脱ぎます」の意味は何ですか。 (What does 「脱ぎます」 mean?)",
+      "choices": [
+        "To take off (shoes/clothes)",
+        "To pay",
+        "To forget",
+        "To lose (an item)"
+      ],
+      "answer": "To take off (shoes/clothes)",
+      "acceptedAnswers": [
+        "To take off (shoes/clothes)"
+      ],
+      "explanation": "「脱ぎます」(ぬぎます) means \"To take off (shoes/clothes)\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q008",
+      "lessonId": "n5.l18",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To pay\" in hiragana:",
+      "answer": "はらいます",
+      "acceptedAnswers": [
+        "はらいます",
+        "払います"
+      ],
+      "explanation": "The Japanese word for \"To pay\" is 払います (はらいます).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q009",
+      "lessonId": "n5.l18",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「忘れます」の意味は何ですか。 (What does 「忘れます」 mean?)",
+      "choices": [
+        "Important / Precious",
+        "To work overtime",
+        "To lose (an item)",
+        "To forget"
+      ],
+      "answer": "To forget",
+      "acceptedAnswers": [
+        "To forget"
+      ],
+      "explanation": "「忘れます」(わすれます) means \"To forget\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q010",
+      "lessonId": "n5.l18",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"To lose (an item)\" in hiragana:",
+      "answer": "なくします",
+      "acceptedAnswers": [
+        "なくします",
+        "なくします"
+      ],
+      "explanation": "The Japanese word for \"To lose (an item)\" is なくします (なくします).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q011",
+      "lessonId": "n5.l18",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「残業します」の意味は何ですか。 (What does 「残業します」 mean?)",
+      "choices": [
+        "Medicine",
+        "Painful / Hurt",
+        "Important / Precious",
+        "To work overtime"
+      ],
+      "answer": "To work overtime",
+      "acceptedAnswers": [
+        "To work overtime"
+      ],
+      "explanation": "「残業します」(ざんぎょうします) means \"To work overtime\".",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q012",
+      "lessonId": "n5.l18",
+      "skill": "vocab",
+      "type": "typed_recall",
+      "prompt": "Type the Japanese reading for \"Important / Precious\" in hiragana:",
+      "answer": "たいせつ",
+      "acceptedAnswers": [
+        "たいせつ",
+        "大切"
+      ],
+      "explanation": "The Japanese word for \"Important / Precious\" is 大切 (たいせつ).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q013",
+      "lessonId": "n5.l18",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「体」の意味は何ですか。 (What is the meaning of kanji 「体」?)",
+      "choices": [
+        "Body, substance",
+        "Head, top",
+        "Pain, hurt, ache",
+        "Tree"
+      ],
+      "answer": "Body, substance",
+      "acceptedAnswers": [
+        "Body, substance"
+      ],
+      "explanation": "「体」means \"Body, substance\". Onyomi: タイ, テイ, Kunyomi: からだ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q014",
+      "lessonId": "n5.l18",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「体」の読み方はどれですか。 (Which is a correct reading for 「体」?)",
+      "choices": [
+        "からだ",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "からだ",
+      "acceptedAnswers": [
+        "からだ"
+      ],
+      "explanation": "「体」 has the reading 「からだ」 (Body, substance).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q015",
+      "lessonId": "n5.l18",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「頭」の意味は何ですか。 (What is the meaning of kanji 「頭」?)",
+      "choices": [
+        "Head, top",
+        "Body, substance",
+        "Pain, hurt, ache",
+        "Tree"
+      ],
+      "answer": "Head, top",
+      "acceptedAnswers": [
+        "Head, top"
+      ],
+      "explanation": "「頭」means \"Head, top\". Onyomi: トウ, ズ, Kunyomi: あたま, かしら.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q016",
+      "lessonId": "n5.l18",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「頭」の読み方はどれですか。 (Which is a correct reading for 「頭」?)",
+      "choices": [
+        "あたま",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "あたま",
+      "acceptedAnswers": [
+        "あたま"
+      ],
+      "explanation": "「頭」 has the reading 「あたま」 (Head, top).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q017",
+      "lessonId": "n5.l18",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「痛」の意味は何ですか。 (What is the meaning of kanji 「痛」?)",
+      "choices": [
+        "Pain, hurt, ache",
+        "Body, substance",
+        "Head, top",
+        "Tree"
+      ],
+      "answer": "Pain, hurt, ache",
+      "acceptedAnswers": [
+        "Pain, hurt, ache"
+      ],
+      "explanation": "「痛」means \"Pain, hurt, ache\". Onyomi: ツウ, Kunyomi: いた.い, いた.む.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q018",
+      "lessonId": "n5.l18",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「痛」の読み方はどれですか。 (Which is a correct reading for 「痛」?)",
+      "choices": [
+        "いた.い",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "いた.い",
+      "acceptedAnswers": [
+        "いた.い"
+      ],
+      "explanation": "「痛」 has the reading 「いた.い」 (Pain, hurt, ache).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q019",
+      "lessonId": "n5.l18",
+      "skill": "kanji",
+      "type": "kanji_meaning",
+      "prompt": "漢字「薬」の意味は何ですか。 (What is the meaning of kanji 「薬」?)",
+      "choices": [
+        "Medicine, chemical",
+        "Body, substance",
+        "Head, top",
+        "Tree"
+      ],
+      "answer": "Medicine, chemical",
+      "acceptedAnswers": [
+        "Medicine, chemical"
+      ],
+      "explanation": "「薬」means \"Medicine, chemical\". Onyomi: ヤク, Kunyomi: くすり.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q020",
+      "lessonId": "n5.l18",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「薬」の読み方はどれですか。 (Which is a correct reading for 「薬」?)",
+      "choices": [
+        "くすり",
+        "みず",
+        "ほん",
+        "ひと"
+      ],
+      "answer": "くすり",
+      "acceptedAnswers": [
+        "くすり"
+      ],
+      "explanation": "「薬」 has the reading 「くすり」 (Medicine, chemical).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q021",
+      "lessonId": "n5.l18",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "患者はどんな症状がありましたか。 (What symptoms did the patient have?)",
+      "choices": [
+        "頭痛と三十八度の高熱",
+        "お腹の痛みと吐き気",
+        "足の怪我",
+        "咳だけ"
+      ],
+      "answer": "頭痛と三十八度の高熱",
+      "acceptedAnswers": [
+        "頭痛と三十八度の高熱"
+      ],
+      "explanation": "「昨日から頭が痛くて、熱が三十八度あります」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q022",
+      "lessonId": "n5.l18",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "受付で何を提示しましたか。 (What was presented at reception?)",
+      "choices": [
+        "保険証",
+        "パスポート",
+        "クレジットカード",
+        "診察券だけ"
+      ],
+      "answer": "保険証",
+      "acceptedAnswers": [
+        "保険証"
+      ],
+      "explanation": "「受付で保険証を出して...」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q023",
+      "lessonId": "n5.l18",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "お医者さんが禁止したことは何ですか。 (What did the doctor advise against doing?)",
+      "choices": [
+        "二日間お風呂に入ることと仕事に行くこと",
+        "水を飲むこと",
+        "寝ること",
+        "薬を飲むこと"
+      ],
+      "answer": "二日間お風呂に入ることと仕事に行くこと",
+      "acceptedAnswers": [
+        "二日間お風呂に入ることと仕事に行くこと"
+      ],
+      "explanation": "「二日間お風呂に入らないでください」「仕事に行かないで」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q024",
+      "lessonId": "n5.l18",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "薬はいつ飲まなければなりませんか。 (When must the medicine be taken?)",
+      "choices": [
+        "毎食後",
+        "寝る前だけ",
+        "朝一番",
+        "熱がある時だけ"
+      ],
+      "answer": "毎食後",
+      "acceptedAnswers": [
+        "毎食後"
+      ],
+      "explanation": "「薬を毎食後飲まなければなりません」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q025",
+      "lessonId": "n5.l18",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "病院から帰った後、どうしましたか。 (What did the patient do after returning home?)",
+      "choices": [
+        "薬を飲んで寝た",
+        "仕事をした",
+        "外食に行った",
+        "お風呂に入った"
+      ],
+      "answer": "薬を飲んで寝た",
+      "acceptedAnswers": [
+        "薬を飲んで寝た"
+      ],
+      "explanation": "「お医者さんの言った通りに薬を飲んで寝ました」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q026",
+      "lessonId": "n5.l18",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "白い薬は何の薬ですか。 (What does the white tablet do?)",
+      "choices": [
+        "熱を下げる薬 (解熱剤)",
+        "胃の薬",
+        "ビタミン剤",
+        "目薬"
+      ],
+      "answer": "熱を下げる薬 (解熱剤)",
+      "acceptedAnswers": [
+        "熱を下げる薬 (解熱剤)"
+      ],
+      "explanation": "「この白い薬は熱を下げる薬です」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q027",
+      "lessonId": "n5.l18",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "薬は一日何回飲みますか。 (How many times a day should it be taken?)",
+      "choices": [
+        "一日三回 (毎食後)",
+        "一日一回",
+        "一日二回",
+        "四時間ごと"
+      ],
+      "answer": "一日三回 (毎食後)",
+      "acceptedAnswers": [
+        "一日三回 (毎食後)"
+      ],
+      "explanation": "「一日三回、毎食後必ず飲んでください」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q028",
+      "lessonId": "n5.l18",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "薬剤師が特に禁止した時間帯は何ですか。 (When is taking the pill forbidden?)",
+      "choices": [
+        "空腹の時",
+        "食後すぐ",
+        "寝る前",
+        "朝"
+      ],
+      "answer": "空腹の時",
+      "acceptedAnswers": [
+        "空腹の時"
+      ],
+      "explanation": "「空腹の時には飲まないでください」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q029",
+      "lessonId": "n5.l18",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "薬の副作用として注意されたことは何ですか。 (What side effect caution was given?)",
+      "choices": [
+        "少し眠くなるため車の運転をしてはいけない",
+        "喉が渇く",
+        "お腹が痛くなる",
+        "頭痛がする"
+      ],
+      "answer": "少し眠くなるため車の運転をしてはいけない",
+      "acceptedAnswers": [
+        "少し眠くなるため車の運転をしてはいけない"
+      ],
+      "explanation": "「少し眠くなりますから、車の運転は絶対にしないでください」.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l18.q030",
+      "lessonId": "n5.l18",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "場所はどこですか。 (Where does this take place?)",
+      "choices": [
+        "薬局のカウンター",
+        "病院の待合室",
+        "自宅の玄関",
+        "スーパーのレジ"
+      ],
+      "answer": "薬局のカウンター",
+      "acceptedAnswers": [
+        "薬局のカウンター"
+      ],
+      "explanation": "The conversation is between a patient and a pharmacist (薬剤師).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l18.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

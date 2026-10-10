@@ -1,0 +1,1700 @@
+{
+  "id": "n4.l12",
+  "level": "N4",
+  "module": "N4 Intermediate Grammar 1",
+  "number": 12,
+  "title": "N4 Lesson 12: Causative Form (使役: 読ませる・食べさせる)",
+  "description": "Master transitive and intransitive causative verbs, causee particle markings (に vs を), and permission vs compulsion nuances.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l12.v001",
+      "lessonId": "n4.l12",
+      "ja": "泣く",
+      "kana": "なく",
+      "en": "to cry; to weep",
+      "my": "ငိုသည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l12.s001",
+      "kanjiIds": [
+        "n4.l12.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.v002",
+      "lessonId": "n4.l12",
+      "ja": "笑う",
+      "kana": "わらう",
+      "en": "to laugh; to smile",
+      "my": "ရယ်သည်/ပြုံးသည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l12.s002",
+      "kanjiIds": [
+        "n4.l12.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.v003",
+      "lessonId": "n4.l12",
+      "ja": "運ぶ",
+      "kana": "はこぶ",
+      "en": "to carry; to transport",
+      "my": "သယ်ယူပို့ဆောင်သည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l12.s003",
+      "kanjiIds": [
+        "n4.l12.k003"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.v004",
+      "lessonId": "n4.l12",
+      "ja": "責任",
+      "kana": "せきにん",
+      "en": "responsibility; duty",
+      "my": "တာဝန်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l12.s004",
+      "kanjiIds": [
+        "n4.l12.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.v005",
+      "lessonId": "n4.l12",
+      "ja": "自由",
+      "kana": "じゆう",
+      "en": "freedom; liberty",
+      "my": "လွတ်လပ်မှု",
+      "pos": "na-adj",
+      "exampleSentenceId": "n4.l12.s005",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.v006",
+      "lessonId": "n4.l12",
+      "ja": "遠慮する",
+      "kana": "えんりょする",
+      "en": "to hold back; to refrain",
+      "my": "အားနာသည်/တွန့်ဆုတ်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l12.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.v007",
+      "lessonId": "n4.l12",
+      "ja": "経験",
+      "kana": "けいけん",
+      "en": "experience",
+      "my": "အတွေ့အကြုံ",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l12.s007",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.v008",
+      "lessonId": "n4.l12",
+      "ja": "参加する",
+      "kana": "さんかする",
+      "en": "to participate; to join",
+      "my": "ပါဝင်တက်ရောက်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l12.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.v009",
+      "lessonId": "n4.l12",
+      "ja": "休憩",
+      "kana": "きゅうけい",
+      "en": "break; rest; recess",
+      "my": "အနားယူခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l12.s009",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.v010",
+      "lessonId": "n4.l12",
+      "ja": "担当する",
+      "kana": "たんとうする",
+      "en": "to take charge of; to be in charge",
+      "my": "တာဝန်ယူဆောင်ရွက်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l12.s010",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.v011",
+      "lessonId": "n4.l12",
+      "ja": "片付ける",
+      "kana": "かたづける",
+      "en": "to tidy up; to clean up",
+      "my": "သိမ်းဆည်းသန့်ရှင်းသည်",
+      "pos": "verb-ru",
+      "exampleSentenceId": "n4.l12.s011",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.v012",
+      "lessonId": "n4.l12",
+      "ja": "発表する",
+      "kana": "はっぴょうする",
+      "en": "to announce; to present",
+      "my": "တင်ပြကြေညာသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n4.l12.s012",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l12.k001",
+      "lessonId": "n4.l12",
+      "char": "泣",
+      "meaning": "cry; weep",
+      "onyomi": [
+        "キュウ"
+      ],
+      "kunyomi": [
+        "な・く"
+      ],
+      "exampleVocab": [
+        {
+          "word": "泣く",
+          "reading": "なく",
+          "meaning": "to cry",
+          "preview": false
+        },
+        {
+          "word": "泣き声",
+          "reading": "なきごえ",
+          "meaning": "crying voice",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l12.s001"
+      ],
+      "components": [
+        "氵",
+        "立"
+      ],
+      "strokes": 8,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.k002",
+      "lessonId": "n4.l12",
+      "char": "笑",
+      "meaning": "laugh; smile",
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "わら・う",
+        "え・む"
+      ],
+      "exampleVocab": [
+        {
+          "word": "笑う",
+          "reading": "わらう",
+          "meaning": "to laugh",
+          "preview": false
+        },
+        {
+          "word": "笑顔",
+          "reading": "えがお",
+          "meaning": "smiling face",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l12.s001"
+      ],
+      "components": [
+        "竹",
+        "夭"
+      ],
+      "strokes": 10,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.k003",
+      "lessonId": "n4.l12",
+      "char": "運",
+      "meaning": "carry; transport; luck",
+      "onyomi": [
+        "ウン"
+      ],
+      "kunyomi": [
+        "はこ・ぶ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "運ぶ",
+          "reading": "はこぶ",
+          "meaning": "to carry",
+          "preview": false
+        },
+        {
+          "word": "運転",
+          "reading": "うんてん",
+          "meaning": "driving",
+          "preview": false
+        },
+        {
+          "word": "運動",
+          "reading": "うんどう",
+          "meaning": "exercise",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l12.s001"
+      ],
+      "components": [
+        "辶",
+        "軍"
+      ],
+      "strokes": 12,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.k004",
+      "lessonId": "n4.l12",
+      "char": "責",
+      "meaning": "blame; responsibility; duty",
+      "onyomi": [
+        "セキ"
+      ],
+      "kunyomi": [
+        "せ・める"
+      ],
+      "exampleVocab": [
+        {
+          "word": "責任",
+          "reading": "せきにん",
+          "meaning": "responsibility",
+          "preview": false
+        },
+        {
+          "word": "責める",
+          "reading": "せめる",
+          "meaning": "to blame; to reproach",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l12.s001"
+      ],
+      "components": [
+        "龶",
+        "貝"
+      ],
+      "strokes": 11,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l12.g001",
+      "lessonId": "n4.l12",
+      "pattern": "[Causer] は [Causee] に [Object] を [Verb 使役形 (〜せる/〜させる)]",
+      "meaning": "Transitive Causative (making or letting someone do an action on an object)",
+      "formation": "Group 1: u -> a + せる (読む -> 読ませる, 書く -> 書かせる)\nGroup 2: ru -> させる (食べる -> 食べさせる, 調べる -> 調べさせる)\nGroup 3: 来る -> こさせる, する -> させる",
+      "explanation": {
+        "en": "With transitive verbs (verbs taking を), the person instructed/permitted to do the action (the causee) is marked with に, and the direct object takes を. This avoids two を particles in one clause.",
+        "my": "ကံပုဒ် (Object) ပါရှိသော ကံလိုကြိယာများတွင် ပြုလုပ်ခိုင်းခံရသူကို「に」ဖြင့် ပြပြီး ကံပုဒ်ကို「を」ဖြင့် ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l12.s001",
+          "note": "The teacher made the students write an essay."
+        },
+        {
+          "sentenceId": "n4.l12.s003",
+          "note": "The supervisor had Tanaka carry the heavy luggage."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use double を (*先生は学生を作文を書かせた is incorrect; use 学生に).",
+        "Remember that Group 1 verbs change to a-row: 読ませる, NOT 読まさせる."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.g002",
+      "lessonId": "n4.l12",
+      "pattern": "[Causer] は [Causee] を [Verb 使役形 (〜せる/〜させる)]",
+      "meaning": "Intransitive Causative (making or allowing someone to perform an intransitive motion or emotion)",
+      "formation": "[Causer] は [Causee] を [自動詞 使役形] (走らせる・行かせる・泣かせる・笑わせる)",
+      "explanation": {
+        "en": "With intransitive verbs (verbs without a direct object like 行く, 走る, 泣く, 笑う), the causee is marked with を. If emotional, it means causing someone to feel that emotion (泣かせる = make cry, 笑わせる = make laugh).",
+        "my": "ကံမလိုကြိယာများ (Intransitive verbs) တွင် ပြုလုပ်စေသူက ပြုလုပ်သူကို「を」ဖြင့် ပြသည်။ ဥပမာ- ကလေးကို ငိုစေသည် (子供を泣かせる)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l12.s002",
+          "note": "His funny joke made everyone laugh."
+        },
+        {
+          "sentenceId": "n4.l12.s005",
+          "note": "The mother lets her children play freely outside."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not mark the causee with に for intransitive emotional verbs: 弟を泣かせた (correct), not 弟に泣かせた.",
+        "To express polite permission (\"please allow me to do\"), use 〜させてください / 〜させていただけますか."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l12.s001",
+      "lessonId": "n4.l12",
+      "ja": "先生は日本語の授業で、学生たちに作文を書かせました。",
+      "kana": "せんせいはにほんごのじゅぎょうで、がくせいたちにさくぶんをかかせました。",
+      "translation": {
+        "en": "The teacher made the students write an essay in the Japanese class.",
+        "my": "ဂျပန်စာအတန်းတွင် ဆရာသည် ကျောင်းသားများကို စာစီစာကုံး ရေးခိုင်းခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l12.v001"
+      ],
+      "grammarIds": [
+        "n4.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.s002",
+      "lessonId": "n4.l12",
+      "ja": "山田さんの面白い冗談は、クラスのみんなを笑わせました。",
+      "kana": "やまださんのおもしろいじょうだんは、クラスのみんなをわらわせました。",
+      "translation": {
+        "en": "Yamada's funny joke made everyone in the class laugh.",
+        "my": "ယာမာဒါ၏ ရယ်စရာဟာသက အတန်းထဲမှ လူတိုင်းကို ရယ်မောစေခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l12.v002"
+      ],
+      "grammarIds": [
+        "n4.l12.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.s003",
+      "lessonId": "n4.l12",
+      "ja": "先輩は後輩の田中君に重いダンボール箱を運ばせました。",
+      "kana": "せんぱいはこうはいのたなかくんにオモいだんぼーるばこをはこばせました。",
+      "translation": {
+        "en": "The senior made his junior, Tanaka, carry the heavy cardboard boxes.",
+        "my": "စီနီယာသည် ဂျူနီယာတာနာကာကို လေးလံသော ကတ်ထူပုံးများကို သယ်ခိုင်းခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l12.v003"
+      ],
+      "grammarIds": [
+        "n4.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.s004",
+      "lessonId": "n4.l12",
+      "ja": "部長は新入社員に責任あるプロジェクトを担当させました。",
+      "kana": "ぶちょうはしんにゅうしゃいんにせきにんあるプロジェクトをたんとうさせました。",
+      "translation": {
+        "en": "The department manager had the new employees take charge of a responsible project.",
+        "my": "ဌာနမှူးသည် ဝန်ထမ်းသစ်များအား တာဝန်ရှိသော စီမံကိန်းကို တာဝန်ယူဆောင်ရွက်စေခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l12.v004",
+        "n4.l12.v010"
+      ],
+      "grammarIds": [
+        "n4.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.s005",
+      "lessonId": "n4.l12",
+      "ja": "両親は休日に子供たちを公園で自由に遊ばせました。",
+      "kana": "りょうしんはきゅうじつにこどもたちをこうえんでじゆうにあそばせました。",
+      "translation": {
+        "en": "On the holiday, the parents let their children play freely in the park.",
+        "my": "အားလပ်ရက်တွင် မိဘများသည် ကလေးများအား ပန်းခြံထဲတွင် လွတ်လပ်စွာ ဆော့ကစားစေခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l12.v005"
+      ],
+      "grammarIds": [
+        "n4.l12.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.s006",
+      "lessonId": "n4.l12",
+      "ja": "体調が悪いときは遠慮しないで、少し休ませてください。",
+      "kana": "たいちょうがわるいときはえんりょしないで、すこしやすませてください。",
+      "translation": {
+        "en": "When not feeling well, please do not hesitate; please allow me to rest a little.",
+        "my": "နေမကောင်းဖြစ်ပါက အားမနာပါနှင့်၊ ကျွန်တော့်ကို အနည်းငယ် အနားယူခွင့်ပြုပါ။"
+      },
+      "vocabIds": [
+        "n4.l12.v006"
+      ],
+      "grammarIds": [
+        "n4.l12.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.s007",
+      "lessonId": "n4.l12",
+      "ja": "若い社員には失敗を恐れず、色々な経験をさせることが大切です。",
+      "kana": "わかいしゃいんにはしっぱいをおそれず、いろいろなけいけんをさせることがたいせつです。",
+      "translation": {
+        "en": "It is important to let young employees experience various things without fearing failure.",
+        "my": "ငယ်ရွယ်သော ဝန်ထမ်းများအား အမှားလုပ်မိမည်ကို မကြောက်ဘဲ အမျိုးမျိုးသော အတွေ့အကြုံများ ရရှိစေရန် အရေးကြီးပါသည်။"
+      },
+      "vocabIds": [
+        "n4.l12.v007"
+      ],
+      "grammarIds": [
+        "n4.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.s008",
+      "lessonId": "n4.l12",
+      "ja": "先生は希望する学生全員をボランティア活動に参加させました。",
+      "kana": "せんせいはきぼうするがくせいぜんいんをボランティアかつどうにさんかさせました。",
+      "translation": {
+        "en": "The teacher allowed all students who wished to do so to participate in volunteer activities.",
+        "my": "ဆရာသည် ဆန္ဒရှိသော ကျောင်းသားအားလုံးကို ပရဟိတလုပ်ငန်းများတွင် ပါဝင်တက်ရောက်ခွင့်ပြုခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l12.v008"
+      ],
+      "grammarIds": [
+        "n4.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.s009",
+      "lessonId": "n4.l12",
+      "ja": "監督は激しい練習の合間に、選手たちを十分休憩させました。",
+      "kana": "かんとくははげしいれんしゅうのあいまに、せんしゅたちをじゅうぶんきゅうけいさせました。",
+      "translation": {
+        "en": "Between intense practices, the coach gave the athletes sufficient rest.",
+        "my": "နည်းပြသည် ပြင်းထန်သော လေ့ကျင့်မှုများကြားတွင် အားကစားသမားများအား လုံလောက်စွာ အနားယူစေခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l12.v009"
+      ],
+      "grammarIds": [
+        "n4.l12.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.s010",
+      "lessonId": "n4.l12",
+      "ja": "店長は新しく入ったアルバイトに皿洗いを担当させました。",
+      "kana": "てんちょうはあたらしくはいったアルバイトにさらあらいをたんとうさせました。",
+      "translation": {
+        "en": "The store manager assigned dishwashing duties to the newly joined part-time worker.",
+        "my": "ဆိုင်မန်နေဂျာသည် အသစ်ဝင်လာသော အချိန်ပိုင်းဝန်ထမ်းကို ပန်းကန်ဆေးခြင်း တာဝန်ယူစေခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l12.v010"
+      ],
+      "grammarIds": [
+        "n4.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.s011",
+      "lessonId": "n4.l12",
+      "ja": "母親は遊び終わった子供に散らかったおもちゃを片付けさせました。",
+      "kana": "ははおやはあそびおわったこどもにちらかったおもちゃをかたづけさせました。",
+      "translation": {
+        "en": "The mother made her child tidy up the scattered toys after finishing playing.",
+        "my": "မိခင်သည် ဆော့ကစားပြီးသော ကလေးအား ပြန့်ကျဲနေသော အရုပ်များကို သိမ်းဆည်းစေခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l12.v011"
+      ],
+      "grammarIds": [
+        "n4.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l12.s012",
+      "lessonId": "n4.l12",
+      "ja": "セミナーの最後に、講師は各グループの代表者に結果を発表させました。",
+      "kana": "セミナーのさいごに、こうしはかくグループのだいひょうしゃにけっかをはっぴょうさせました。",
+      "translation": {
+        "en": "At the end of the seminar, the lecturer had the representative of each group present their findings.",
+        "my": "ဆွေးနွေးပွဲအပြီးတွင် နည်းပြသည် အဖွဲ့အသီးသီး၏ ကိုယ်စားလှယ်များအား ရလဒ်များကို တင်ပြကြေညာစေခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l12.v012"
+      ],
+      "grammarIds": [
+        "n4.l12.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l12.r01",
+    "lessonId": "n4.l12",
+    "title": "職場で若手を育てる指導法",
+    "level": "N4",
+    "text": "私の会社では、毎年春に新しい社員が入社してきます。指導を担当する先輩社員は、新入社員に早く仕事を覚えてもらうために様々な工夫をしています。\n\n以前は、先輩がすべての仕事を決め、細かい手順まで新人に指示して同じ通りに作業を行わせていました。しかし、その方法では新人が自分で考えて行動する力を伸ばすことができませんでした。\n\nそこで、今年から指導方針を変えました。簡単な挨拶や電話応対を覚えさせた後は、小さなプロジェクトの企画を新入社員に自由に考えさせるようにしたのです。もちろん、失敗したときは先輩が責任を持ち、途中で困ったときは遠慮なく質問させます。\n\n自分の考えで行動させた結果、新入社員たちは生き生きと働き始めました。先日行われた社内発表会では、新人が堂々とアイデアを発表し、役員たちを驚かせました。若手には責任ある仕事を任せて経験させることが、一番の成長につながると実感しています。",
+    "kanaText": "わたしのかいしゃでは、まいとしはるにあたらしいしゃいんがにゅうしゃしてきます。しどうをたんとうするせんぱいしゃいんは、しんにゅうしゃいんにはやくしごとをおぼえてもらうためにさまざまなくふうをしています。\n\nいぜんは、せんぱいがすべてのしごとをきめ、こまかいてじゅんまでしんじんにしじしておなじとおりにさぎょうをおこなわせていました。しかし、そのほうほうではしんじんがじぶんでかんがえてこうどうするちからをのばすことができませんでした。\n\nそこで、ことしからしどうほうしんをかえました。かんたんなあいさつやでんわおうたいをおぼえさせたあとは、ちいさなプロジェクトのきかくをしんにゅうしゃいんにじゆうにかんがえさせるようにしたのです。もちろん、しっぱいしたときはせんぱいがせきにんをもち、とちゅうでこまったときはえんりょなくしつもんさせます。\n\nじぶんのかんがえでこうどうさせたけっか、しんにゅうしゃいんたちはいきいきとはたらきはじめました。ぜんじつおこなわれたしゃないはっぴょうかいでは、しんじんがどうどうとアイデアをはっぴょうし、やくいんたちをおどろかせました。わかてにはせきにんあるしごとをまかせてけいけんさせることが、いちばんのせいちょうにつながるとじっかんしています。",
+    "translation": "In my company, new employees join every spring. Senior employees in charge of mentoring make various adjustments so new recruits can quickly master their jobs.\n\nPreviously, seniors decided every task and dictated detailed procedures to freshmen, making them execute everything identically. However, that method failed to develop the rookies' ability to think and act independently.\n\nTherefore, starting this year, the mentoring policy was changed. After having them learn basic greetings and telephone etiquette, we had new employees think up plans for small projects freely. Of course, if they make a mistake, seniors take responsibility, and when stuck, they are told not to hesitate to ask questions.\n\nAs a result of letting them act on their own thoughts, the newcomers began working vigorously. At the recent internal presentation, the newcomers presented their ideas with confidence, surprising company executives. I truly realize that entrusting responsible tasks to young staff and letting them gain experience leads to the greatest growth.",
+    "questionIds": [
+      "n4.l12.q021",
+      "n4.l12.q022",
+      "n4.l12.q023",
+      "n4.l12.q024",
+      "n4.l12.q025"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l12.l01",
+    "lessonId": "n4.l12",
+    "title": "新人研修の担当と任せ方",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "課長",
+      "佐藤"
+    ],
+    "transcript": "課長：佐藤さん、来週からの新入社員研修の準備はどう進んでいるかな。\n佐藤：はい、課長。研修の基本スケジュールは完成しました。今年は講義を聞かせるだけでなく、新人に実際の模擬商談を体験させようと考えています。\n課長：それはいいね。座学だけより実践させた方が理解が深まるよ。\n佐藤：はい。ただ、最初から難しい交渉をさせると新人が自信をなくしてしまうかもしれないので、最初は簡単な挨拶と製品紹介から担当させます。\n課長：うん、段階を踏んでやらせるのは賛成だ。失敗しても責めずに、なぜうまくいかなかったか自分で考えさせることが大切だよ。\n佐藤：承知いたしました。新人が遠慮なく質問できる雰囲気を作って研修を進めます。",
+    "translation": "Section Manager: Sato-san, how is preparation for next week's new employee training progressing?\nSato: Yes, Section Manager. The basic training schedule is complete. This year, rather than just having them listen to lectures, I am planning to have the newcomers experience actual simulated business negotiations.\nSection Manager: That's great. Letting them practice in reality deepens understanding much more than classroom lectures alone.\nSato: Yes. However, if we make them handle difficult negotiations from the start, they might lose confidence, so I will have them take charge of simple greetings and product introductions first.\nSection Manager: Yes, I agree with having them do it in stages. Even if they fail, don't blame them; it's important to make them reflect on why things didn't go well.\nSato: Understood. I will foster an atmosphere where newcomers can ask questions without hesitation.",
+    "turns": [
+      {
+        "speaker": "課長",
+        "ja": "佐藤さん、来週からの新入社員研修の準備はどう進んでいるかな。",
+        "kana": "佐藤さん、来週からの新入社員研修の準備はどう進んでいるかな。",
+        "en": ""
+      },
+      {
+        "speaker": "佐藤",
+        "ja": "はい、課長。研修の基本スケジュールは完成しました。今年は講義を聞かせるだけでなく、新人に実際の模擬商談を体験させようと考えています。",
+        "kana": "はい、課長。研修の基本スケジュールは完成しました。今年は講義を聞かせるだけでなく、新人に実際の模擬商談を体験させようと考えています。",
+        "en": ""
+      },
+      {
+        "speaker": "課長",
+        "ja": "それはいいね。座学だけより実践させた方が理解が深まるよ。",
+        "kana": "それはいいね。座学だけより実践させた方が理解が深まるよ。",
+        "en": ""
+      },
+      {
+        "speaker": "佐藤",
+        "ja": "はい。ただ、最初から難しい交渉をさせると新人が自信をなくしてしまうかもしれないので、最初は簡単な挨拶と製品紹介から担当させます。",
+        "kana": "はい。ただ、最初から難しい交渉をさせると新人が自信をなくしてしまうかもしれないので、最初は簡単な挨拶と製品紹介から担当させます。",
+        "en": ""
+      },
+      {
+        "speaker": "課長",
+        "ja": "うん、段階を踏んでやらせるのは賛成だ。失敗しても責めずに、なぜうまくいかなかったか自分で考えさせることが大切だよ。",
+        "kana": "うん、段階を踏んでやらせるのは賛成だ。失敗しても責めずに、なぜうまくいかなかったか自分で考えさせることが大切だよ。",
+        "en": ""
+      },
+      {
+        "speaker": "佐藤",
+        "ja": "承知いたしました。新人が遠慮なく質問できる雰囲気を作って研修を進めます。",
+        "kana": "承知いたしました。新人が遠慮なく質問できる雰囲気を作って研修を進めます。",
+        "en": ""
+      }
+    ],
+    "questionIds": [
+      "n4.l12.q026",
+      "n4.l12.q027",
+      "n4.l12.q028",
+      "n4.l12.q029",
+      "n4.l12.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l12.q001",
+      "lessonId": "n4.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "悲しい映画を見て、思わず（　　）しまった。",
+      "choices": [
+        "泣いて",
+        "笑って",
+        "運んで",
+        "片付けて"
+      ],
+      "answer": "泣いて",
+      "acceptedAnswers": [
+        "泣いて"
+      ],
+      "explanation": "泣く (なく) means to cry/weep.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q002",
+      "lessonId": "n4.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "友達の面白い顔を見て、大声で（　　）。",
+      "choices": [
+        "笑った",
+        "泣いた",
+        "運んだ",
+        "叱った"
+      ],
+      "answer": "笑った",
+      "acceptedAnswers": [
+        "笑った"
+      ],
+      "explanation": "笑う (わらう) means to laugh.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q003",
+      "lessonId": "n4.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "引っ越しのトラックに重い荷物を（　　）。",
+      "choices": [
+        "運んだ",
+        "泣いた",
+        "笑った",
+        "遠慮した"
+      ],
+      "answer": "運んだ",
+      "acceptedAnswers": [
+        "運んだ"
+      ],
+      "explanation": "運ぶ (はこぶ) means to carry/transport items.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q004",
+      "lessonId": "n4.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "リーダーとして、最後までチームの（　　）を持つべきだ。",
+      "choices": [
+        "責任",
+        "遠慮",
+        "休憩",
+        "自由"
+      ],
+      "answer": "責任",
+      "acceptedAnswers": [
+        "責任"
+      ],
+      "explanation": "責任 (せきにん) means responsibility.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q005",
+      "lessonId": "n4.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "休みの日は時間に縛られず、（　　）に過ごしたい。",
+      "choices": [
+        "自由",
+        "責任",
+        "経験",
+        "休憩"
+      ],
+      "answer": "自由",
+      "acceptedAnswers": [
+        "自由"
+      ],
+      "explanation": "自由 (じゆう) means freedom / freely.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q006",
+      "lessonId": "n4.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "おかわりがたくさんありますから、（　　）しないで食べてください。",
+      "choices": [
+        "遠慮",
+        "責任",
+        "担当",
+        "発表"
+      ],
+      "answer": "遠慮",
+      "acceptedAnswers": [
+        "遠慮"
+      ],
+      "explanation": "遠慮する (えんりょする) means to hold back / hesitate.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q007",
+      "lessonId": "n4.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "留学生活で多くの貴重な（　　）を積むことができた。",
+      "choices": [
+        "経験",
+        "遠慮",
+        "休憩",
+        "自由"
+      ],
+      "answer": "経験",
+      "acceptedAnswers": [
+        "経験"
+      ],
+      "explanation": "経験 (けいけん) means experience.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q008",
+      "lessonId": "n4.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "来週の環境保護ボランティアにぜひ（　　）したいです。",
+      "choices": [
+        "参加",
+        "遠慮",
+        "休憩",
+        "片付け"
+      ],
+      "answer": "参加",
+      "acceptedAnswers": [
+        "参加"
+      ],
+      "explanation": "参加する (さんかする) means to participate.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q009",
+      "lessonId": "n4.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "長時間の運転のあとは、少し（　　）を取ったほうがいい。",
+      "choices": [
+        "休憩",
+        "責任",
+        "自由",
+        "経験"
+      ],
+      "answer": "休憩",
+      "acceptedAnswers": [
+        "休憩"
+      ],
+      "explanation": "休憩 (きゅうけい) means rest / break.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q010",
+      "lessonId": "n4.l12",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "今回のプロジェクトの会計を私が（　　）することになりました。",
+      "choices": [
+        "担当",
+        "休憩",
+        "遠慮",
+        "参加"
+      ],
+      "answer": "担当",
+      "acceptedAnswers": [
+        "担当"
+      ],
+      "explanation": "担当する (たんとうする) means to be in charge of.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q011",
+      "lessonId": "n4.l12",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「泣く」の正しい読み方はどれですか。",
+      "choices": [
+        "なく",
+        "わらう",
+        "はこぶ",
+        "せめる"
+      ],
+      "answer": "なく",
+      "acceptedAnswers": [
+        "なく"
+      ],
+      "explanation": "泣く is read as なく (to cry).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q012",
+      "lessonId": "n4.l12",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "面白い話を聞いてみんなで【わらった】。漢字表記はどれですか。",
+      "choices": [
+        "笑った",
+        "泣いた",
+        "運んだ",
+        "責めた"
+      ],
+      "answer": "笑った",
+      "acceptedAnswers": [
+        "笑った"
+      ],
+      "explanation": "わらった in kanji is 笑った (laughed).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q013",
+      "lessonId": "n4.l12",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「運ぶ」の正しい訓読みはどれですか。",
+      "choices": [
+        "はこ・ぶ",
+        "な・く",
+        "わら・う",
+        "せ・める"
+      ],
+      "answer": "はこ・ぶ",
+      "acceptedAnswers": [
+        "はこ・ぶ"
+      ],
+      "explanation": "運ぶ is read as はこぶ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q014",
+      "lessonId": "n4.l12",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "自分の失敗を他人の【せいに】してはいけない。漢字表記はどれですか。",
+      "choices": [
+        "せい（責）",
+        "運",
+        "笑",
+        "泣"
+      ],
+      "answer": "せい（責）",
+      "acceptedAnswers": [
+        "せい（責）"
+      ],
+      "explanation": "責 corresponds to responsibility/blame.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q015",
+      "lessonId": "n4.l12",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「責任」の「責」の音読みはどれですか。",
+      "choices": [
+        "セキ",
+        "ウン",
+        "ショウ",
+        "キュウ"
+      ],
+      "answer": "セキ",
+      "acceptedAnswers": [
+        "セキ"
+      ],
+      "explanation": "The onyomi for 責 is セキ (責任 = せきにん).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q016",
+      "lessonId": "n4.l12",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "先生は生徒たち（　　）教室の掃除（　　）させました。",
+      "choices": [
+        "に／を",
+        "を／に",
+        "で／が",
+        "に／に"
+      ],
+      "answer": "に／を",
+      "acceptedAnswers": [
+        "に／を"
+      ],
+      "explanation": "Transitive causative: [Causer] は [Causee] に [Object] を [Verb使役]. Double-o is avoided by marking causee with に.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q017",
+      "lessonId": "n4.l12",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "五段動詞「読む」の使役形として正しいものはどれですか。",
+      "choices": [
+        "読ませる",
+        "読まさせる",
+        "読みさせる",
+        "読まれる"
+      ],
+      "answer": "読ませる",
+      "acceptedAnswers": [
+        "読ませる"
+      ],
+      "explanation": "Group 1 u-verbs change u to a + せる: 読む -> 読ませる (not 読まさせる).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q018",
+      "lessonId": "n4.l12",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "兄は冗談を言って、妹（　　）笑わせました。",
+      "choices": [
+        "を",
+        "に",
+        "で",
+        "から"
+      ],
+      "answer": "を",
+      "acceptedAnswers": [
+        "を"
+      ],
+      "explanation": "Intransitive emotional causative: 妹を笑わせる (made his sister laugh). The causee takes を.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q019",
+      "lessonId": "n4.l12",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "不規則動詞「来る（くる）」の使役形はどれですか。",
+      "choices": [
+        "こさせる",
+        "きさせる",
+        "こられる",
+        "こらせる"
+      ],
+      "answer": "こさせる",
+      "acceptedAnswers": [
+        "こさせる"
+      ],
+      "explanation": "The causative of 来る is 来させる (こさせる).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q020",
+      "lessonId": "n4.l12",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "体調が悪いので、今日は早く帰ら（　　）いただけませんか。",
+      "choices": [
+        "せて",
+        "れて",
+        "されて",
+        "し"
+      ],
+      "answer": "せて",
+      "acceptedAnswers": [
+        "せて"
+      ],
+      "explanation": "Polite request to be permitted to do something: 帰らせていただけませんか (Could you please let me go home?).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q021",
+      "lessonId": "n4.l12",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "以前の指導方法で生じていた問題点は何ですか。",
+      "choices": [
+        "新人が自分で考えて行動する力を伸ばせなかったこと",
+        "新人が挨拶や電話応対を覚えられなかったこと",
+        "先輩社員の残業時間が大幅に増えてしまったこと",
+        "新入社員が全員すぐに辞めてしまったこと"
+      ],
+      "answer": "新人が自分で考えて行動する力を伸ばせなかったこと",
+      "acceptedAnswers": [
+        "新人が自分で考えて行動する力を伸ばせなかったこと"
+      ],
+      "explanation": "The second paragraph explains: その方法では新人が自分で考えて行動する力を伸ばすことができませんでした.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q022",
+      "lessonId": "n4.l12",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "今年から新入社員に対してどのような新しい指導方針をとりましたか。",
+      "choices": [
+        "小さなプロジェクトの企画を自由に考えさせるようにした",
+        "すべての業務を先輩が一人で行うようにした",
+        "電話応対や挨拶の練習だけを一年間続けさせた",
+        "失敗した新入社員には厳しく反省文を書かせた"
+      ],
+      "answer": "小さなプロジェクトの企画を自由に考えさせるようにした",
+      "acceptedAnswers": [
+        "小さなプロジェクトの企画を自由に考えさせるようにした"
+      ],
+      "explanation": "The text states: 小さなプロジェクトの企画を新入社員に自由に考えさせるようにしたのです.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q023",
+      "lessonId": "n4.l12",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "新入社員が失敗したとき、先輩社員はどうしますか。",
+      "choices": [
+        "先輩社員が責任を持つ",
+        "新人に罰金を払わせる",
+        "役員に報告して新人を叱らせる",
+        "プロジェクトをすぐに中止させる"
+      ],
+      "answer": "先輩社員が責任を持つ",
+      "acceptedAnswers": [
+        "先輩社員が責任を持つ"
+      ],
+      "explanation": "The passage explicitly says: 失敗したときは先輩が責任を持ち...",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q024",
+      "lessonId": "n4.l12",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "社内発表会で役員たちを驚かせた出来事は何ですか。",
+      "choices": [
+        "新人が堂々と自分のアイデアを発表したこと",
+        "先輩社員が新人の代わりにスピーチをしたこと",
+        "発表会の資料がすべて紛失してしまったこと",
+        "新人が一人も会場に来なかったこと"
+      ],
+      "answer": "新人が堂々と自分のアイデアを発表したこと",
+      "acceptedAnswers": [
+        "新人が堂々と自分のアイデアを発表したこと"
+      ],
+      "explanation": "The text states: 新人が堂々とアイデアを発表し、役員たちを驚かせました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q025",
+      "lessonId": "n4.l12",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者が若手育成において一番成長につながると実感していることは何ですか。",
+      "choices": [
+        "責任ある仕事を任せて経験させること",
+        "マニュアル通りに完璧に作業を行わせること",
+        "毎日遅くまで残業を続けさせること",
+        "厳しい試験を何度も受けさせること"
+      ],
+      "answer": "責任ある仕事を任せて経験させること",
+      "acceptedAnswers": [
+        "責任ある仕事を任せて経験させること"
+      ],
+      "explanation": "The closing sentence concludes: 若手には責任ある仕事を任せて経験させることが、一番の成長につながると実感しています.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q026",
+      "lessonId": "n4.l12",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "佐藤さんは新入社員研修で新しく何をさせようと考えていますか。",
+      "choices": [
+        "実際の模擬商談を体験させること",
+        "長時間の筆記試験を受けさせること",
+        "会社のマニュアルを丸暗記させること",
+        "一日中電話応対だけをさせること"
+      ],
+      "answer": "実際の模擬商談を体験させること",
+      "acceptedAnswers": [
+        "実際の模擬商談を体験させること"
+      ],
+      "explanation": "Sato says: 今年は講義を聞かせるだけでなく、新人に実際の模擬商談を体験させようと考えています.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q027",
+      "lessonId": "n4.l12",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "課長は佐藤さんの提案についてどう言っていますか。",
+      "choices": [
+        "座学だけより実践させた方が理解が深まると賛成した",
+        "模擬商談は危険なのでやめるべきだと反対した",
+        "もっと難しい交渉を最初からさせるべきだと言った",
+        "研修の期間を半分に短縮するよう求めた"
+      ],
+      "answer": "座学だけより実践させた方が理解が深まると賛成した",
+      "acceptedAnswers": [
+        "座学だけより実践させた方が理解が深まると賛成した"
+      ],
+      "explanation": "The manager says: それはいいね。座学だけより実践させた方が理解が深まるよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q028",
+      "lessonId": "n4.l12",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "佐藤さんが最初は簡単な挨拶と製品紹介から担当させる理由は何ですか。",
+      "choices": [
+        "最初から難しい交渉をさせると新人が自信を失うかもしれないから",
+        "佐藤さん自身が商談の経験がないから",
+        "製品の資料がまだ届いていないから",
+        "時間が足りないから"
+      ],
+      "answer": "最初から難しい交渉をさせると新人が自信を失うかもしれないから",
+      "acceptedAnswers": [
+        "最初から難しい交渉をさせると新人が自信を失うかもしれないから"
+      ],
+      "explanation": "Sato explains: 最初から難しい交渉をさせると新人が自信をなくしてしまうかもしれないので...",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q029",
+      "lessonId": "n4.l12",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "新人が失敗したとき、課長は何が大切だと言っていますか。",
+      "choices": [
+        "責めずに、なぜうまくいかなかったか自分で考えさせること",
+        "すぐに他の部署に異動させること",
+        "先輩社員に新人の給料を弁償させること",
+        "失敗した理由を全員の前で大声で言わせること"
+      ],
+      "answer": "責めずに、なぜうまくいかなかったか自分で考えさせること",
+      "acceptedAnswers": [
+        "責めずに、なぜうまくいかなかったか自分で考えさせること"
+      ],
+      "explanation": "Manager says: 失敗しても責めずに、なぜうまくいかなかったか自分で考えさせることが大切だよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l12.q030",
+      "lessonId": "n4.l12",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "佐藤さんは最後に研修をどのような雰囲気で進めると答えましたか。",
+      "choices": [
+        "新人が遠慮なく質問できる雰囲気",
+        "一切私語を許さない厳しい雰囲気",
+        "休憩を取らずに集中し続ける雰囲気",
+        "指導員がすべて指示する雰囲気"
+      ],
+      "answer": "新人が遠慮なく質問できる雰囲気",
+      "acceptedAnswers": [
+        "新人が遠慮なく質問できる雰囲気"
+      ],
+      "explanation": "Sato responds: 新人が遠慮なく質問できる雰囲気を作って研修を進めます.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l12.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

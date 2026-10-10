@@ -1,0 +1,1598 @@
+{
+  "id": "n4.l01",
+  "level": "N4",
+  "module": "N4 Intermediate Grammar 1",
+  "number": 1,
+  "title": "N4 Lesson 1: Potential Form (可能形: 読める・話せる / 見える・聞こえる)",
+  "description": "Master the Japanese potential form for abilities and permissions, contrasting intentional ability with spontaneous perception (見える vs 見られる, 聞こえる vs 聞ける).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n4.l01.v001",
+      "lessonId": "n4.l01",
+      "ja": "直す",
+      "kana": "なおす",
+      "en": "to fix; to repair",
+      "my": "ပြင်ဆင်သည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l01.s001",
+      "kanjiIds": [
+        "n4.l01.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.v002",
+      "lessonId": "n4.l01",
+      "ja": "直る",
+      "kana": "なおる",
+      "en": "to be fixed; to get cured",
+      "my": "သက်သာပျောက်ကင်းသည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l01.s002",
+      "kanjiIds": [
+        "n4.l01.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.v003",
+      "lessonId": "n4.l01",
+      "ja": "声",
+      "kana": "こえ",
+      "en": "voice",
+      "my": "အသံ (လူ/တိရစ္ဆာန်)",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l01.s003",
+      "kanjiIds": [
+        "n4.l01.k001"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.v004",
+      "lessonId": "n4.l01",
+      "ja": "音",
+      "kana": "おと",
+      "en": "sound; noise",
+      "my": "အသံ (ပစ္စည်း/သဘာဝ)",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l01.s004",
+      "kanjiIds": [
+        "n4.l01.k002"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.v005",
+      "lessonId": "n4.l01",
+      "ja": "景色",
+      "kana": "けしき",
+      "en": "scenery; view",
+      "my": "ရှုခင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l01.s005",
+      "kanjiIds": [
+        "n4.l01.k003",
+        "n4.l01.k004"
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.v006",
+      "lessonId": "n4.l01",
+      "ja": "波",
+      "kana": "なみ",
+      "en": "wave",
+      "my": "လှိုင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l01.s006",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.v007",
+      "lessonId": "n4.l01",
+      "ja": "はっきり",
+      "kana": "はっきり",
+      "en": "clearly; distinctly",
+      "my": "ရှင်းလင်းစွာ",
+      "pos": "adverb",
+      "exampleSentenceId": "n4.l01.s005",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.v008",
+      "lessonId": "n4.l01",
+      "ja": "鳥",
+      "kana": "とり",
+      "en": "bird",
+      "my": "ငှက်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l01.s007",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.v009",
+      "lessonId": "n4.l01",
+      "ja": "空港",
+      "kana": "くうこう",
+      "en": "airport",
+      "my": "လေဆိပ်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l01.s008",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.v010",
+      "lessonId": "n4.l01",
+      "ja": "建つ",
+      "kana": "たつ",
+      "en": "to be built; to be erected",
+      "my": "တည်ဆောက်ပြီးစီးသည်",
+      "pos": "verb-u",
+      "exampleSentenceId": "n4.l01.s009",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.v011",
+      "lessonId": "n4.l01",
+      "ja": "道具",
+      "kana": "どうぐ",
+      "en": "tool; instrument",
+      "my": "ကိရိယာ/တန်ဆာပလာ",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l01.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.v012",
+      "lessonId": "n4.l01",
+      "ja": "自由に",
+      "kana": "じゆうに",
+      "en": "freely",
+      "my": "လွတ်လပ်စွာ",
+      "pos": "adverb",
+      "exampleSentenceId": "n4.l01.s010",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n4.l01.k001",
+      "lessonId": "n4.l01",
+      "char": "声",
+      "meaning": "voice",
+      "onyomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "kunyomi": [
+        "こえ",
+        "こわ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "声",
+          "reading": "こえ",
+          "meaning": "voice",
+          "preview": false
+        },
+        {
+          "word": "大声",
+          "reading": "おおごえ",
+          "meaning": "loud voice",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l01.s001"
+      ],
+      "components": [],
+      "strokes": 7,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.k002",
+      "lessonId": "n4.l01",
+      "char": "音",
+      "meaning": "sound; noise",
+      "onyomi": [
+        "オン",
+        "イン"
+      ],
+      "kunyomi": [
+        "おと",
+        "ね"
+      ],
+      "exampleVocab": [
+        {
+          "word": "音",
+          "reading": "おと",
+          "meaning": "sound",
+          "preview": false
+        },
+        {
+          "word": "音楽",
+          "reading": "おんがく",
+          "meaning": "music",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l01.s001"
+      ],
+      "components": [],
+      "strokes": 9,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.k003",
+      "lessonId": "n4.l01",
+      "char": "景",
+      "meaning": "scenery; view",
+      "onyomi": [
+        "ケイ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "景色",
+          "reading": "けしき",
+          "meaning": "scenery",
+          "preview": false
+        },
+        {
+          "word": "風景",
+          "reading": "ふうけい",
+          "meaning": "landscape",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l01.s001"
+      ],
+      "components": [],
+      "strokes": 12,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.k004",
+      "lessonId": "n4.l01",
+      "char": "色",
+      "meaning": "color",
+      "onyomi": [
+        "ショク",
+        "シキ"
+      ],
+      "kunyomi": [
+        "いろ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "色",
+          "reading": "いろ",
+          "meaning": "color",
+          "preview": false
+        },
+        {
+          "word": "景色",
+          "reading": "けしき",
+          "meaning": "scenery",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n4.l01.s001"
+      ],
+      "components": [],
+      "strokes": 6,
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n4.l01.g001",
+      "lessonId": "n4.l01",
+      "pattern": "[Verb Potential Form] (が 話せる / が 読める)",
+      "meaning": "Potential Form (可能形: 書ける・食べられる・できる)",
+      "formation": "G1: 書く → 書ける, 泳ぐ → 泳げる, 話す → 話せる\nG2: 食べる → 食べられる, 見る → 見られる\nG3: する → できる, 来る → こられる",
+      "explanation": {
+        "en": "The potential form indicates that a subject has the ability to perform an action or that circumstances allow it. In potential clauses, the direct object is usually marked with が instead of を (e.g. 日本語が話せます). Group 1 verbs shift u-row to e-row + る (書く→書ける). Group 2 verbs drop る and add られる (食べる→食べられる). Group 3 verbs are irregular: する→できる, 来る→こられる.",
+        "my": "လုပ်ဆောင်နိုင်စွမ်း သို့မဟုတ် အခြေအနေအရ လုပ်နိုင်ခြင်းကို ဖော်ပြသည်။ ပုံမှန်အားဖြင့် ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို အသုံးပြုသည်။ အုပ်စု(၁) သည် u အသံမှ e အသံပြောင်းပြီး る ပေါင်းသည်။ အုပ်စု(၂) သည် る ဖြုတ်ပြီး られる ပေါင်းသည်။ အုပ်စု(၃) တွင် する→できる နှင့် くる→こられる ဖြစ်သည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l01.s001",
+          "note": "Example 1"
+        },
+        {
+          "sentenceId": "n4.l01.s002",
+          "note": "Example 2"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Watch out: in conversational Japanese, Group 2 often drops ら (ら抜き言葉: 食べれる, 見れる), but standard written tests require られる. The particle を sometimes appears with transitive actions, but が is standard in JLPT N4."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.g002",
+      "lessonId": "n4.l01",
+      "pattern": "〜が 見える / 〜が 聞こえる",
+      "meaning": "Spontaneous Perception vs Intended Ability (見える vs 見られる / 聞こえる vs 聞ける)",
+      "formation": "[Noun] が 見える / 見えない\n[Noun] が 聞こえる / 聞こえない",
+      "explanation": {
+        "en": "見える (can be seen) and 聞こえる (can be heard) express spontaneous natural perception without the speaker’s effort (e.g., sound or scenery enters eyes or ears naturally). In contrast, 見られる and 聞ける express intentional ability or permission to view/listen (e.g., being able to watch a movie because you have time or tickets).",
+        "my": "見える နှင့် 聞こえる သည် အားထုတ်မှုမပါဘဲ သဘာဝအလျောက် မျက်စိထဲမြင်ရခြင်း သို့မဟုတ် နားထဲကြားရခြင်းကို ဖော်ပြသည်။ 見られる နှင့် 聞ける မှာမူ အချိန်ရှိခြင်း သို့မဟုတ် ခွင့်ပြုချက်ရှိ၍ ရည်ရွယ်ချက်ရှိရှိ ကြည့်ရှုနိုင်ခြင်း သို့မဟုတ် နားထောင်နိုင်ခြင်းကို ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n4.l01.s001",
+          "note": "Example 1"
+        },
+        {
+          "sentenceId": "n4.l01.s002",
+          "note": "Example 2"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Common mistake: Do not use を with 見える or 聞こえる. Always use が: 窓から富士山が見えます (Correct) / 窓から富士山を見えます (Incorrect)."
+      ],
+      "level": "N4",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n4.l01.s001",
+      "lessonId": "n4.l01",
+      "ja": "適切な道具があれば、自分で自転車を直すことができます。",
+      "kana": "てきせつなどうぐがあれば、じぶんでじてんしゃをなおすことができます。",
+      "translation": {
+        "en": "If you have the appropriate tools, you can repair the bicycle by yourself.",
+        "my": "သင့်တော်သော ကိရိယာရှိလျှင် စက်ဘီးကို ကိုယ်တိုင် ပြင်ဆင်နိုင်သည်။"
+      },
+      "vocabIds": [
+        "n4.l01.v001",
+        "n4.l01.v011"
+      ],
+      "grammarIds": [
+        "n4.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.s002",
+      "lessonId": "n4.l01",
+      "ja": "パソコンの故障はもう直りましたから、使えますよ。",
+      "kana": "パソコンのこしょうはもうなおりましたから、つかえますよ。",
+      "translation": {
+        "en": "The computer trouble has already been fixed, so you can use it.",
+        "my": "ကွန်ပျူတာ ချွတ်ယွင်းချက် ပြင်ပြီးပြီဖြစ်၍ သုံးနိုင်ပါပြီ။"
+      },
+      "vocabIds": [
+        "n4.l01.v002"
+      ],
+      "grammarIds": [
+        "n4.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.s003",
+      "lessonId": "n4.l01",
+      "ja": "隣の部屋から楽しそうな人の声が聞こえます。",
+      "kana": "となりのへやからたのしそうなひとのこえがきこえます。",
+      "translation": {
+        "en": "I can hear joyful voices of people coming from the next room.",
+        "my": "ဘေးအခန်းမှ ပျော်ရွှင်နေသော လူများ၏အသံကို ကြားရသည်။"
+      },
+      "vocabIds": [
+        "n4.l01.v003"
+      ],
+      "grammarIds": [
+        "n4.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.s004",
+      "lessonId": "n4.l01",
+      "ja": "夜になると、虫の音が静かに聞こえてきます。",
+      "kana": "よるになると、むしのおとがしずかにきこえてきます。",
+      "translation": {
+        "en": "When night falls, the sound of insects can be heard quietly.",
+        "my": "ညရောက်လာသောအခါ ပိုးကောင်လေးများ၏ အသံကို တိတ်ဆိတ်စွာ ကြားရသည်။"
+      },
+      "vocabIds": [
+        "n4.l01.v004"
+      ],
+      "grammarIds": [
+        "n4.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.s005",
+      "lessonId": "n4.l01",
+      "ja": "天気がいい日は、ベランダから富士山の景色がはっきり見えます。",
+      "kana": "てんきがいいひは、ベランダからふじさんのけしきがはっきりみえます。",
+      "translation": {
+        "en": "On clear days, the scenery of Mt. Fuji can be seen clearly from the balcony.",
+        "my": "ရာသီဥတုသာယာသောနေ့များတွင် ဝရန်တာမှ ဖူဂျီတောင်ရှုခင်းကို ရှင်းလင်းစွာ မြင်တွေ့ရသည်။"
+      },
+      "vocabIds": [
+        "n4.l01.v005",
+        "n4.l01.v007"
+      ],
+      "grammarIds": [
+        "n4.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.s006",
+      "lessonId": "n4.l01",
+      "ja": "海岸の近くを歩いていると、静かな波の音が聞こえます。",
+      "kana": "かいがんのちかくをあるいていると、しずかななみのおとがきこえます。",
+      "translation": {
+        "en": "When walking near the shore, you can hear the gentle sound of waves.",
+        "my": "ကမ်းခြေအနီး လမ်းလျှောက်နေစဉ် ငြိမ်သက်သော လှိုင်းသံကို ကြားရသည်။"
+      },
+      "vocabIds": [
+        "n4.l01.v004",
+        "n4.l01.v006"
+      ],
+      "grammarIds": [
+        "n4.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.s007",
+      "lessonId": "n4.l01",
+      "ja": "森の中に入ると、いろいろな鳥の美しい鳴き声が聞こえます。",
+      "kana": "もりのなかにはいると、いろいろなとりのうつくしいなきごえがきこえます。",
+      "translation": {
+        "en": "Upon entering the forest, you can hear the beautiful singing voices of various birds.",
+        "my": "တောအုပ်ထဲသို့ ဝင်ရောက်သွားသောအခါ အမျိုးမျိုးသော ငှက်တို့၏ သာယာသောအသံကို ကြားရသည်။"
+      },
+      "vocabIds": [
+        "n4.l01.v003",
+        "n4.l01.v008"
+      ],
+      "grammarIds": [
+        "n4.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.s008",
+      "lessonId": "n4.l01",
+      "ja": "新しい電車が開通して、駅から空港まで30分で行けるようになりました。",
+      "kana": "あたらしいでんしゃがかいつうして、えきからくうこうまでさんじゅっぷんでいけるようになりました。",
+      "translation": {
+        "en": "With the new train line open, one can now get from the station to the airport in 30 minutes.",
+        "my": "ရထားလိုင်းအသစ်ဖွင့်လှစ်လိုက်သဖြင့် ဘူတာမှ လေဆိပ်သို့ မိနစ် ၃၀ ဖြင့် သွားနိုင်လာပြီဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n4.l01.v009"
+      ],
+      "grammarIds": [
+        "n4.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.s009",
+      "lessonId": "n4.l01",
+      "ja": "駅の前に大きな新しいショッピングセンターが建ちました。",
+      "kana": "えきのまえにおおきなあたらしいショッピングセンターがたちました。",
+      "translation": {
+        "en": "A big new shopping center was built in front of the station.",
+        "my": "ဘူတာရှေ့တွင် ကြီးမားသော ဈေးဝယ်စင်တာအသစ်တစ်ခု တည်ဆောက်ပြီးစီးခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n4.l01.v010"
+      ],
+      "grammarIds": [
+        "n4.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n4.l01.s010",
+      "lessonId": "n4.l01",
+      "ja": "図書館のパソコンを使えば、インターネットで自由に資料が探せます。",
+      "kana": "としょかんのパソコンをつかえば、インターネットでじゆうにしりょうがさがせます。",
+      "translation": {
+        "en": "If you use the library computers, you can freely search for reference materials on the internet.",
+        "my": "စာကြည့်တိုက် ကွန်ပျူတာကို အသုံးပြုလျှင် အင်တာနက်တွင် အချက်အလက်များကို လွတ်လပ်စွာ ရှာဖွေနိုင်သည်။"
+      },
+      "vocabIds": [
+        "n4.l01.v012"
+      ],
+      "grammarIds": [
+        "n4.l01.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n4.l01.r01",
+    "lessonId": "n4.l01",
+    "title": "海が見える新しい町での暮らし (Life in a New Seaside Town)",
+    "level": "N4",
+    "text": "先月、海の近くの新しいマンションに引っ越しました。この町は自然が豊かで、とても静かな環境です。部屋のベランダに出ると、青い海と美しい景色がはっきり見えます。朝早く窓を開けると、心地よい波の音や鳥の声が聞こえて、毎日とても気持ちよく起きられます。\n\nまた、生活も思ったより便利です。先週、駅の近くに大きなスーパーが建ちました。そこでは新鮮な魚や野菜が安く買えますし、日用品や生活の道具も何でもそろいます。町の中には広い公園もあって、週末には住民が自由に散歩を楽しめます。\n\n以前住んでいた都会ではビルばかりで空が狭く感じられましたが、ここでは広い海と山が見渡せます。日本語学校の友達を部屋に招待して、この素晴らしい景色を見せてあげたいと思っています。",
+    "kanaText": "先月、海の近くの新しいマンションに引っ越しました。この町は自然が豊かで、とても静かな環境です。部屋のベランダに出ると、青い海と美しい景色がはっきり見えます。朝早く窓を開けると、心地よい波の音や鳥の声が聞こえて、毎日とても気持ちよく起きられます。\n\nまた、生活も思ったより便利です。先週、駅の近くに大きなスーパーが建ちました。そこでは新鮮な魚や野菜が安く買えますし、日用品や生活の道具も何でもそろいます。町の中には広い公園もあって、週末には住民が自由に散歩を楽しめます。\n\n以前住んでいた都会ではビルばかりで空が狭く感じられましたが、ここでは広い海と山が見渡せます。日本語学校の友達を部屋に招待して、この素晴らしい景色を見せてあげたいと思っています。",
+    "translation": "Last month, I moved into a new apartment near the sea. This town is rich in nature and has a very peaceful environment. When I step out onto the room balcony, the blue ocean and beautiful scenery can be seen clearly. Opening the window early in the morning, the pleasant sound of waves and birds' voices can be heard, allowing me to wake up feeling refreshed every day.\n\nDaily life is also more convenient than expected. Last week, a large supermarket was built near the station. Fresh fish and vegetables can be bought cheaply there, and everyday goods and tools are readily available. There is also a spacious park in town where residents can freely enjoy strolls on weekends.\n\nIn the city where I lived previously, there were only tall buildings and the sky felt narrow, but here one can look out over the wide sea and mountains. I would like to invite my Japanese language school friends over to show them this wonderful view.",
+    "questionIds": [
+      "n4.l01.q021",
+      "n4.l01.q022",
+      "n4.l01.q023",
+      "n4.l01.q024",
+      "n4.l01.q025"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n4.l01.l01",
+    "lessonId": "n4.l01",
+    "title": "ホテル予約と富士山の眺望 (Hotel Reservation and Mt. Fuji View)",
+    "level": "N4",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "受付：はい、富士見ホテルでございます。\nスミス：すみません、来週の土曜日に一泊で予約したいんですが、部屋は空いていますか。\n受付：はい、禁煙のツインルームでしたら、まだご用意できますよ。\nスミス：その部屋から富士山は見えますか。海側の部屋でしょうか。\n受付：はい、天気がよければ、お部屋のベランダから富士山の雄大な景色がはっきり見えますよ。\nスミス：素晴らしいですね！それから、ホテルの中でWi-Fiは自由に使えますか。\n受付：はい、館内のどこでも無料で自由にご利用いただけます。\nスミス：わかりました。外国人の友達も一緒なんですが、英語が話せるスタッフはいらっしゃいますか。\n受付：はい、フロントには英語や中国語が話せるスタッフが24時間おりますので、ご安心ください。\nスミス：安心しました。それでは、その部屋で予約をお願いします。",
+    "translation": "Front Desk: Hello, this is Fujimi Hotel.\nSmith: Excuse me, I would like to book a one-night stay for next Saturday. Do you have any rooms available?\nFront Desk: Yes, if a non-smoking twin room is suitable, we still have availability.\nSmith: Can Mt. Fuji be seen from that room? Is it on the ocean side?\nFront Desk: Yes, if the weather is good, the magnificent view of Mt. Fuji can be seen clearly from the balcony.\nSmith: Wonderful! Also, can we use Wi-Fi freely in the hotel?\nFront Desk: Yes, free Wi-Fi is available anywhere in the building.\nSmith: I see. My foreign friend is also accompanying me; is there staff who can speak English?\nFront Desk: Yes, we have staff at the front desk 24 hours a day who can speak English and Chinese, so please rest assured.\nSmith: That is reassuring. In that case, please reserve that room for me.",
+    "turns": [],
+    "questionIds": [
+      "n4.l01.q026",
+      "n4.l01.q027",
+      "n4.l01.q028",
+      "n4.l01.q029",
+      "n4.l01.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n4.l01.q001",
+      "lessonId": "n4.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "壊れた時計を時計屋に持って行って、（　）てもらいました。",
+      "choices": [
+        "直して",
+        "折って",
+        "割って",
+        "落として"
+      ],
+      "answer": "直して",
+      "acceptedAnswers": [
+        "直して"
+      ],
+      "explanation": "To have a broken item repaired is 直してもらう.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q002",
+      "lessonId": "n4.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "海岸を散歩していると、ざざーんと静かな（　）の音が聞こえた。",
+      "choices": [
+        "波",
+        "風邪",
+        "火",
+        "雲"
+      ],
+      "answer": "波",
+      "acceptedAnswers": [
+        "波"
+      ],
+      "explanation": "The sound of waves on a coast is 波の音 (なみのおと).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q003",
+      "lessonId": "n4.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "霧が晴れて、遠くの山が（　）見えるようになった。",
+      "choices": [
+        "はっきり",
+        "うっかり",
+        "すっかり",
+        "ぎっしり"
+      ],
+      "answer": "はっきり",
+      "acceptedAnswers": [
+        "はっきり"
+      ],
+      "explanation": "はっきり means \"clearly / distinctly\".",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q004",
+      "lessonId": "n4.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "日曜大工に必要なのこぎりや金づちなどの（　）を箱にしまった。",
+      "choices": [
+        "道具",
+        "案内",
+        "景色",
+        "専門"
+      ],
+      "answer": "道具",
+      "acceptedAnswers": [
+        "道具"
+      ],
+      "explanation": "道具 (どうぐ) means tools or implements.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q005",
+      "lessonId": "n4.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "駅の南側に、新しい高層マンションが（　）ました。",
+      "choices": [
+        "建ち",
+        "立ち",
+        "着き",
+        "鳴き"
+      ],
+      "answer": "建ち",
+      "acceptedAnswers": [
+        "建ち"
+      ],
+      "explanation": "建つ (たつ) means for a building/apartment to be constructed.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q006",
+      "lessonId": "n4.l01",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "休み時間は誰でもピアノを（　）弾くことができます。",
+      "choices": [
+        "自由に",
+        "親切に",
+        "複雑に",
+        "不便に"
+      ],
+      "answer": "自由に",
+      "acceptedAnswers": [
+        "自由に"
+      ],
+      "explanation": "自由に (じゆうに) means \"freely / at liberty\".",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q007",
+      "lessonId": "n4.l01",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「大声」の正しい読み方を選んでください。",
+      "choices": [
+        "おおごえ",
+        "たいせい",
+        "おおおと",
+        "だいおん"
+      ],
+      "answer": "おおごえ",
+      "acceptedAnswers": [
+        "おおごえ"
+      ],
+      "explanation": "大声 is read おおごえ (loud voice).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q008",
+      "lessonId": "n4.l01",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「音楽」の「音」の正しい音読みを選んでください。",
+      "choices": [
+        "オン",
+        "ケイ",
+        "シン",
+        "カン"
+      ],
+      "answer": "オン",
+      "acceptedAnswers": [
+        "オン"
+      ],
+      "explanation": "The on-yomi of 音 in 音楽 (おんがく) is オン.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q009",
+      "lessonId": "n4.l01",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「けしき」を漢字で書くとき、正しい組み合わせはどれですか。",
+      "choices": [
+        "景色",
+        "気色",
+        "景食",
+        "計色"
+      ],
+      "answer": "景色",
+      "acceptedAnswers": [
+        "景色"
+      ],
+      "explanation": "Scenery (けしき) is written with 景色.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.k003",
+        "n4.l01.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q010",
+      "lessonId": "n4.l01",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「いろいろな色の花が咲いている」の下線部（色）の読み方は何ですか。",
+      "choices": [
+        "いろ",
+        "しき",
+        "しょく",
+        "おと"
+      ],
+      "answer": "いろ",
+      "acceptedAnswers": [
+        "いろ"
+      ],
+      "explanation": "色 as a standalone noun for color is read いろ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q011",
+      "lessonId": "n4.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "私は漢字が少し（　）。",
+      "choices": [
+        "読めます",
+        "読みます",
+        "読みますか",
+        "読まれます"
+      ],
+      "answer": "読めます",
+      "acceptedAnswers": [
+        "読めます"
+      ],
+      "explanation": "Group 1 verb 読む potential form is 読める (polite: 読めます).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q012",
+      "lessonId": "n4.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "辛い料理（　）食べられますか。",
+      "choices": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": "が",
+      "acceptedAnswers": [
+        "が"
+      ],
+      "explanation": "In potential form sentences, the object is standardly marked with が in JLPT N4.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q013",
+      "lessonId": "n4.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "明日のパーティーには、（　）来られますか。",
+      "choices": [
+        "一人で",
+        "一人を",
+        "一人が",
+        "一人の"
+      ],
+      "answer": "一人で",
+      "acceptedAnswers": [
+        "一人で"
+      ],
+      "explanation": "一人で means \"by yourself / alone\". 来る in potential is こられる.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q014",
+      "lessonId": "n4.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "窓を開けると、鳥の鳴き声（　）聞こえてきます。",
+      "choices": [
+        "が",
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": "が",
+      "acceptedAnswers": [
+        "が"
+      ],
+      "explanation": "聞こえる indicates spontaneous sound, marking the sound with が.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q015",
+      "lessonId": "n4.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "今日は雲が多いので、山がよく（　）。",
+      "choices": [
+        "見えません",
+        "見られません",
+        "見ません",
+        "見せません"
+      ],
+      "answer": "見えません",
+      "acceptedAnswers": [
+        "見えません"
+      ],
+      "explanation": "Because clouds block natural visibility, use 見えません (cannot be seen spontaneously).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q016",
+      "lessonId": "n4.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "忙しくて時間がなかったので、昨日のテレビ番組は（　）。",
+      "choices": [
+        "見られませんでした",
+        "見えませんでした",
+        "見ませんでした",
+        "見せませんでした"
+      ],
+      "answer": "見られませんでした",
+      "acceptedAnswers": [
+        "見られませんでした"
+      ],
+      "explanation": "Being unable to watch due to lack of time/circumstances uses 見られない (potential), not 見えない.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q017",
+      "lessonId": "n4.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "この図書館では、だれでも本を10冊まで（　）。",
+      "choices": [
+        "借りられます",
+        "借れます",
+        "借りれます",
+        "借りさせます"
+      ],
+      "answer": "借りられます",
+      "acceptedAnswers": [
+        "借りられます"
+      ],
+      "explanation": "Group 2 verb 借りる in standard potential is 借りられる (借りられます).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q018",
+      "lessonId": "n4.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "後ろの席の人、「私の声が（　）か」。",
+      "choices": [
+        "聞こえます",
+        "聞けます",
+        "聞きます",
+        "聞かせます"
+      ],
+      "answer": "聞こえます",
+      "acceptedAnswers": [
+        "聞こえます"
+      ],
+      "explanation": "Asking an audience if one's voice can be heard is 声が聞こえますか.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q019",
+      "lessonId": "n4.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "車を持っていなくても、電車でどこへでも（　）。",
+      "choices": [
+        "行けます",
+        "行きます",
+        "行かせます",
+        "行かれます"
+      ],
+      "answer": "行けます",
+      "acceptedAnswers": [
+        "行けます"
+      ],
+      "explanation": "Group 1 行く shifts to 行ける (行けます) in potential form.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q020",
+      "lessonId": "n4.l01",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "日本語でメールを書くことが（　）ようになりました。",
+      "choices": [
+        "できる",
+        "する",
+        "なる",
+        "させる"
+      ],
+      "answer": "できる",
+      "acceptedAnswers": [
+        "できる"
+      ],
+      "explanation": "Verb する becomes できる in potential form (できるようになる).",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q021",
+      "lessonId": "n4.l01",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者は先月どこに引っ越しましたか。",
+      "choices": [
+        "海の近くの新しいマンション",
+        "都会の中心部",
+        "山の上の古い一軒家",
+        "駅の中のホテル"
+      ],
+      "answer": "海の近くの新しいマンション",
+      "acceptedAnswers": [
+        "海の近くの新しいマンション"
+      ],
+      "explanation": "The passage explicitly states: 先月、海の近くの新しいマンションに引っ越しました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q022",
+      "lessonId": "n4.l01",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "部屋のベランダに出ると何が見えますか。",
+      "choices": [
+        "青い海と美しい景色",
+        "高いビルと狭い空",
+        "大きな飛行機と空港",
+        "古い工場"
+      ],
+      "answer": "青い海と美しい景色",
+      "acceptedAnswers": [
+        "青い海と美しい景色"
+      ],
+      "explanation": "The text states: 部屋のベランダに出ると、青い海と美しい景色がはっきり見えます.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q023",
+      "lessonId": "n4.l01",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "朝早く窓を開けると、どんな音が聞こえますか。",
+      "choices": [
+        "波の音や鳥の声",
+        "電車の大きな音",
+        "工事のうるさい音",
+        "車の走る音"
+      ],
+      "answer": "波の音や鳥の声",
+      "acceptedAnswers": [
+        "波の音や鳥の声"
+      ],
+      "explanation": "The text says: 心地よい波の音や鳥の声が聞こえて、毎日とても気持ちよく起きられます.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q024",
+      "lessonId": "n4.l01",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "駅の近くに新しく何が建ちましたか。",
+      "choices": [
+        "大きなスーパー",
+        "日本語学校",
+        "映画館",
+        "病院"
+      ],
+      "answer": "大きなスーパー",
+      "acceptedAnswers": [
+        "大きなスーパー"
+      ],
+      "explanation": "The text states: 先週、駅の近くに大きなスーパーが建ちました.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q025",
+      "lessonId": "n4.l01",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者は今後何をしたいと思っていますか。",
+      "choices": [
+        "日本語学校の友達を招待して景色を見せること",
+        "以前住んでいた都会に戻ること",
+        "新しい車を買って山へドライブすること",
+        "スーパーでアルバイトを始めること"
+      ],
+      "answer": "日本語学校の友達を招待して景色を見せること",
+      "acceptedAnswers": [
+        "日本語学校の友達を招待して景色を見せること"
+      ],
+      "explanation": "The final sentence says: 日本語学校の友達を部屋に招待して、この素晴らしい景色を見せてあげたいと思っています.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q026",
+      "lessonId": "n4.l01",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "スミスさんはいつの宿泊を予約したいと言っていますか。",
+      "choices": [
+        "来週の土曜日",
+        "今週の日曜日",
+        "来月の第一土曜日",
+        "明日の夜"
+      ],
+      "answer": "来週の土曜日",
+      "acceptedAnswers": [
+        "来週の土曜日"
+      ],
+      "explanation": "Smith says: 来週の土曜日に一泊で予約したいんですが.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q027",
+      "lessonId": "n4.l01",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "案内された部屋から何が見えますか。",
+      "choices": [
+        "富士山の景色",
+        "東京タワー",
+        "遊園地",
+        "スキー場"
+      ],
+      "answer": "富士山の景色",
+      "acceptedAnswers": [
+        "富士山の景色"
+      ],
+      "explanation": "The staff replies: 天気がよければ、お部屋のベランダから富士山の雄大な景色がはっきり見えますよ.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q028",
+      "lessonId": "n4.l01",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "ホテル内のWi-Fi利用について、正しい説明はどれですか。",
+      "choices": [
+        "館内のどこでも無料で自由に使える",
+        "ロビーでのみ有料で使える",
+        "部屋の中だけ使える",
+        "事前の申し込みが必要である"
+      ],
+      "answer": "館内のどこでも無料で自由に使える",
+      "acceptedAnswers": [
+        "館内のどこでも無料で自由に使える"
+      ],
+      "explanation": "The receptionist says: 館内のどこでも無料で自由にご利用いただけます.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q029",
+      "lessonId": "n4.l01",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "フロントの外国語対応について、どのような説明がありましたか。",
+      "choices": [
+        "英語や中国語が話せるスタッフが24時間いる",
+        "昼間だけ英語が話せるスタッフがいる",
+        "英語の翻訳機だけ貸し出している",
+        "外国語が話せるスタッフはいない"
+      ],
+      "answer": "英語や中国語が話せるスタッフが24時間いる",
+      "acceptedAnswers": [
+        "英語や中国語が話せるスタッフが24時間いる"
+      ],
+      "explanation": "The receptionist states: フロントには英語や中国語が話せるスタッフが24時間おります.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n4.l01.q030",
+      "lessonId": "n4.l01",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "会話の最後にスミスさんはどうしましたか。",
+      "choices": [
+        "その部屋で予約をお願いした",
+        "予約を断って別のホテルを探した",
+        "友達に電話で相談することにした",
+        "来月に予約を変更した"
+      ],
+      "answer": "その部屋で予約をお願いした",
+      "acceptedAnswers": [
+        "その部屋で予約をお願いした"
+      ],
+      "explanation": "Smith concludes: それでは、その部屋で予約をお願いします.",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n4.l01.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

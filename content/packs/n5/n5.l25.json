@@ -1,0 +1,1639 @@
+{
+  "id": "n5.l25",
+  "level": "N5",
+  "module": "N5 Communication & Integration",
+  "number": 25,
+  "title": "Noun-Modifying Clauses (連体修飾節)",
+  "description": "Master modifying nouns with verb clauses in plain form ([Verb Plain] + Noun), marking the subject inside the relative clause with が (母が作った料理), and identifying people and objects with descriptive clauses.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n5.l25.v001",
+      "lessonId": "n5.l25",
+      "ja": "買う",
+      "kana": "かう",
+      "en": "To buy",
+      "my": "ဝယ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l25.s001",
+      "kanjiIds": [
+        "n5.l25.k001"
+      ],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.v002",
+      "lessonId": "n5.l25",
+      "ja": "売る",
+      "kana": "うる",
+      "en": "To sell",
+      "my": "ရောင်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l25.s002",
+      "kanjiIds": [
+        "n5.l25.k002"
+      ],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.v003",
+      "lessonId": "n5.l25",
+      "ja": "作る",
+      "kana": "つくる",
+      "en": "To make / produce",
+      "my": "ပြုလုပ်သည် / ချက်ပြုတ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l25.s003",
+      "kanjiIds": [
+        "n5.l25.k003"
+      ],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.v004",
+      "lessonId": "n5.l25",
+      "ja": "着る",
+      "kana": "きる",
+      "en": "To wear (shirts, coats, tops)",
+      "my": "ဝတ်ဆင်သည် (အင်္ကျီ)",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l25.s004",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.v005",
+      "lessonId": "n5.l25",
+      "ja": "眼鏡",
+      "kana": "めがね",
+      "en": "Glasses",
+      "my": "မျက်မှန်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l25.s005",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.v006",
+      "lessonId": "n5.l25",
+      "ja": "帽子",
+      "kana": "ぼうし",
+      "en": "Hat / Cap",
+      "my": "ဦးထုပ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l25.s005",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.v007",
+      "lessonId": "n5.l25",
+      "ja": "写真",
+      "kana": "しゃしん",
+      "en": "Photograph",
+      "my": "ဓာတ်ပုံ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l25.s006",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.v008",
+      "lessonId": "n5.l25",
+      "ja": "お菓子",
+      "kana": "おかし",
+      "en": "Sweets / Snacks",
+      "my": "မုန့်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l25.s003",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.v009",
+      "lessonId": "n5.l25",
+      "ja": "ケーキ",
+      "kana": "けーき",
+      "en": "Cake",
+      "my": "ကိတ်မုန့်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l25.s007",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.v010",
+      "lessonId": "n5.l25",
+      "ja": "箱",
+      "kana": "はこ",
+      "en": "Box",
+      "my": "သေတ္တာ / ဘူး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l25.s008",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.v011",
+      "lessonId": "n5.l25",
+      "ja": "場所",
+      "kana": "ばしょ",
+      "en": "Place / Location",
+      "my": "နေရာ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l25.s009",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.v012",
+      "lessonId": "n5.l25",
+      "ja": "人",
+      "kana": "ひと",
+      "en": "Person",
+      "my": "လူ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l25.s004",
+      "kanjiIds": [],
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n5.l25.k001",
+      "lessonId": "n5.l25",
+      "char": "買",
+      "meaning": "Buy",
+      "onyomi": [
+        "バイ"
+      ],
+      "kunyomi": [
+        "か.う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "買う (かう)",
+          "reading": "かう",
+          "meaning": "To buy",
+          "preview": false
+        },
+        {
+          "word": "買い物 (かいもの)",
+          "reading": "かいもの",
+          "meaning": "Shopping",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l25.s001"
+      ],
+      "components": [
+        "罒",
+        "貝"
+      ],
+      "strokes": 12,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.k002",
+      "lessonId": "n5.l25",
+      "char": "売",
+      "meaning": "Sell",
+      "onyomi": [
+        "バイ"
+      ],
+      "kunyomi": [
+        "う.る",
+        "う.れる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "売る (うる)",
+          "reading": "うる",
+          "meaning": "To sell",
+          "preview": false
+        },
+        {
+          "word": "売店 (ばいてん)",
+          "reading": "ばいてん",
+          "meaning": "Kiosk / Stand",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l25.s002"
+      ],
+      "components": [
+        "士",
+        "冖",
+        "儿"
+      ],
+      "strokes": 7,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.k003",
+      "lessonId": "n5.l25",
+      "char": "作",
+      "meaning": "Make, build, produce",
+      "onyomi": [
+        "サク",
+        "サ"
+      ],
+      "kunyomi": [
+        "つく.る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "作る (つくる)",
+          "reading": "つくる",
+          "meaning": "To make",
+          "preview": false
+        },
+        {
+          "word": "作文 (さくぶん)",
+          "reading": "さくぶん",
+          "meaning": "Essay / Composition",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l25.s003"
+      ],
+      "components": [
+        "亻",
+        "乍"
+      ],
+      "strokes": 7,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.k004",
+      "lessonId": "n5.l25",
+      "char": "物",
+      "meaning": "Thing, object, matter",
+      "onyomi": [
+        "ブツ",
+        "モツ"
+      ],
+      "kunyomi": [
+        "もの"
+      ],
+      "exampleVocab": [
+        {
+          "word": "食べ物 (たべもの)",
+          "reading": "たべもの",
+          "meaning": "Food",
+          "preview": false
+        },
+        {
+          "word": "買い物 (かいもの)",
+          "reading": "かいもの",
+          "meaning": "Shopping",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n5.l25.s001",
+        "n5.l25.s008"
+      ],
+      "components": [
+        "牜",
+        "勿"
+      ],
+      "strokes": 8,
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n5.l25.g001",
+      "lessonId": "n5.l25",
+      "pattern": "[Clause: Verb Plain Form] + Noun",
+      "meaning": "Noun modified by a relative clause",
+      "formation": "Verb Plain Form (Dict / ない / た / なかった) + Noun",
+      "explanation": {
+        "en": "In Japanese, relative clauses always come BEFORE the noun they modify, with no relative pronoun (who, which, that). Inside the modifying clause, the subject is marked with が instead of は: 母が作った料理 (The dish that my mother made).",
+        "my": "နာမ်တစ်ခုကို ကြိယာဝါကျဖြင့် အထူးပြုရာတွင် 「ကြိယာ ရိုးရိုးပုံစံ (Plain form) + နာမ်」 ဖြစ်ပြီး နာမ်၏ အရှေ့တွင် ထားရသည်။ ဝါကျတွင်း ကတ္တားကို 「は」 အစား 「が」 ဖြင့် ပြရသည် (e.g. 母が作った料理 - အမေချက်ထားသော ဟင်းလျာ)."
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l25.s001",
+          "note": "Modified object"
+        },
+        {
+          "sentenceId": "n5.l25.s003",
+          "note": "Subject marked with が inside clause"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use は for the subject inside the modifying clause (*母は作った料理 is incorrect; use 母が作った料理). Do not put polite form before the noun (*買いました本 is incorrect; say 買った本)."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.g002",
+      "lessonId": "n5.l25",
+      "pattern": "これは [Clause] Noun です",
+      "meaning": "This is the [Noun] that [Clause]...",
+      "formation": "これは / あれは / あの方は + [Verb Plain] + Noun + です",
+      "explanation": {
+        "en": "Used to identify people or objects using a descriptive modifying clause: これは私が昨日買った本です (This is the book that I bought yesterday), あそこにいる人は田中さんです (The person who is over there is Tanaka).",
+        "my": "ပစ္စည်း သို့မဟုတ် လူတစ်ဦးကို အထူးပြုဝါကျဖြင့် ရှင်းလင်းဖော်ပြရာတွင် 「これは [Clause] Noun です」 (ဒါဟာ ...လုပ်ထားသော နာမ်ဖြစ်သည်) ဟု သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n5.l25.s004",
+          "note": "Identifying person"
+        },
+        {
+          "sentenceId": "n5.l25.s007",
+          "note": "Identifying cake"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Never place words like \"who\" or \"which\" in Japanese; Japanese attaches the clause directly to the noun."
+      ],
+      "difficulty": 1,
+      "level": "N5",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n5.l25.s001",
+      "lessonId": "n5.l25",
+      "ja": "昨日デパートで買った本はとても面白かった。",
+      "kana": "きのうでぱーとでかったほんはとてもおもしろかった。",
+      "translation": {
+        "en": "The book I bought at the department store yesterday was very interesting.",
+        "my": "မနေ့က ကုန်တိုက်မှာ ဝယ်ခဲ့တဲ့ စာအုပ်ဟာ အရမ်းစိတ်ဝင်စားစရာကောင်းခဲ့တယ်။"
+      },
+      "vocabIds": [
+        "n5.l25.v001"
+      ],
+      "grammarIds": [
+        "n5.l25.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.s002",
+      "lessonId": "n5.l25",
+      "ja": "駅前でパンを売る店に入りました。",
+      "kana": "えきまえでぱんをうるみせにはいりました。",
+      "translation": {
+        "en": "I entered the shop that sells bread in front of the station.",
+        "my": "ဘူတာရှေ့က ပေါင်မုန့်ရောင်းတဲ့ ဆိုင်ထဲ ဝင်ခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l25.v002"
+      ],
+      "grammarIds": [
+        "n5.l25.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.s003",
+      "lessonId": "n5.l25",
+      "ja": "母が作るお菓子は世界で一番美味しいです。",
+      "kana": "ははがつくるおかしはせかいでいちばんおいしいです。",
+      "translation": {
+        "en": "The sweets that my mother makes are the most delicious in the world.",
+        "my": "အမေလုပ်တဲ့ မုန့်က ကမ္ဘာပေါ်မှာ အရသာအရှိဆုံး ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l25.v003",
+        "n5.l25.v008"
+      ],
+      "grammarIds": [
+        "n5.l25.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.s004",
+      "lessonId": "n5.l25",
+      "ja": "あの青いシャツを着ている人は誰ですか。",
+      "kana": "あのあおいしゃつをきているひとはだれですか。",
+      "translation": {
+        "en": "Who is that person wearing the blue shirt?",
+        "my": "ဟို ရှပ်အင်္ကျီအပြာရောင် ဝတ်ထားတဲ့သူက ဘယ်သူလဲ။"
+      },
+      "vocabIds": [
+        "n5.l25.v004",
+        "n5.l25.v012"
+      ],
+      "grammarIds": [
+        "n5.l25.g001",
+        "n5.l25.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.s005",
+      "lessonId": "n5.l25",
+      "ja": "眼鏡をかけて黒い帽子をかぶっている人は木村先生です。",
+      "kana": "めがねをかけてくろいぼうしをかぶっているひとはきむらせんせいです。",
+      "translation": {
+        "en": "The person wearing glasses and a black hat is Teacher Kimura.",
+        "my": "မျက်မှန်တပ်ပြီး ဦးထုပ်အနက်ရောင် ဆောင်းထားတဲ့သူက ဆရာကီမူရာ ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l25.v005",
+        "n5.l25.v006"
+      ],
+      "grammarIds": [
+        "n5.l25.g001",
+        "n5.l25.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.s006",
+      "lessonId": "n5.l25",
+      "ja": "これは京都で撮った写真です。",
+      "kana": "これはきょうと治疗でとったしゃしんです。",
+      "translation": {
+        "en": "This is the photograph that I took in Kyoto.",
+        "my": "ဒါဟာ ကျိုတိုမှာ ရိုက်ခဲ့တဲ့ ဓာတ်ပုံ ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l25.v007"
+      ],
+      "grammarIds": [
+        "n5.l25.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.s007",
+      "lessonId": "n5.l25",
+      "ja": "これは友達が私の誕生日に作ってくれたケーキです。",
+      "kana": "これはともだちがわたしのたんじょうびにつくってくれたけーきです。",
+      "translation": {
+        "en": "This is the cake that my friend made for my birthday.",
+        "my": "ဒါဟာ ကျွန်တော့်မွေးနေ့အတွက် သူငယ်ချင်းက လုပ်ပေးခဲ့တဲ့ ကိတ်မုန့် ဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l25.v009"
+      ],
+      "grammarIds": [
+        "n5.l25.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.s008",
+      "lessonId": "n5.l25",
+      "ja": "昨日父からもらった箱を開けました。",
+      "kana": "きのうちちからもらったはこをあけました。",
+      "translation": {
+        "en": "I opened the box that I received from my father yesterday.",
+        "my": "မနေ့က အဖေ့ဆီကရတဲ့ ဘူးကို ဖွင့်ခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l25.v010"
+      ],
+      "grammarIds": [
+        "n5.l25.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.s009",
+      "lessonId": "n5.l25",
+      "ja": "ここは去年友達と初めて会った場所です。",
+      "kana": "ここはきょねんともだちとはじめてあったばしょです。",
+      "translation": {
+        "en": "This is the place where I first met my friend last year.",
+        "my": "ဒီနေရာဟာ မနှစ်က သူငယ်ချင်းနဲ့ ပထမဆုံးတွေ့ခဲ့တဲ့ နေရာဖြစ်ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l25.v011"
+      ],
+      "grammarIds": [
+        "n5.l25.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n5.l25.s010",
+      "lessonId": "n5.l25",
+      "ja": "私が読みたい本は図書館にありました。",
+      "kana": "わたしがよみたいほんはとしょかんにありました。",
+      "translation": {
+        "en": "The book that I want to read was at the library.",
+        "my": "ကျွန်တော်ဖတ်ချင်တဲ့ စာအုပ်ဟာ စာကြည့်တိုက်မှာ ရှိနေခဲ့ပါတယ်။"
+      },
+      "vocabIds": [
+        "n5.l25.v001"
+      ],
+      "grammarIds": [
+        "n5.l25.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-01T00:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n5.l25.r01",
+    "lessonId": "n5.l25",
+    "title": "思い出の写真アルバム (Memories Photo Album)",
+    "level": "N5",
+    "text": "私の部屋の机の上には、日本に来てから撮った写真のアルバムがあります。一枚目の写真は、去年京都で買った伝統的な着物を着ている私です。とても綺麗で気に入っています。二枚目は、先月の誕生日に友達が作ってくれたチョコレートケーキの写真です。上にイチゴがたくさん乗っていて、本当に美味しかったです。三枚目は、日本語学校でいつも親切に教えてくれる木村先生と一緒に撮った写真です。先生が着ている青いセーターは、奥さんが編んだものだと言っていました。このアルバムは、私が日本で過ごした大切な時間を思い出させてくれる宝物です。",
+    "kanaText": "わたしのへやのつくえのうえには、にほんにきてからとったしゃしんのあるばむがあります。いちまいめのしゃしんは、きょねんきょうとでかったでんとうてきなきものをきているわたしです。とてもきれいで気にいっています。にまいめは、せんげつのたんじょうびにともだちがつくるてくれたちょこれーとけーきのしゃしんです。うえにいちごがたくさん乗っていて、ほんとうにおいしかったです。さんまいめは、にほんごがっこうでいつもしんせつにおしえてくれるきむらせんせいといっしょにとったしゃしんです。せんせいがきているあおいせーたーは、おくさんがあんだものだといっていました。このあるばむは、わたしがにほんですごしたたいせつなじかんをおもいださせてくれるたからものです。",
+    "translation": "On the desk in my room, there is an album of photographs that I took since coming to Japan. The first photograph is of me wearing the traditional kimono that I bought in Kyoto last year. It is very beautiful and I like it a lot. The second one is a photo of the chocolate cake that my friends made for my birthday last month. It had many strawberries on top and was really delicious. The third one is a photo taken together with Teacher Kimura, who always kindly teaches us at Japanese school. The blue sweater that the teacher is wearing was knitted by his wife, he told us. This album is a treasure that makes me remember the precious time I spent in Japan.",
+    "questionIds": [
+      "n5.l25.q021",
+      "n5.l25.q022",
+      "n5.l25.q023",
+      "n5.l25.q024",
+      "n5.l25.q025"
+    ],
+    "difficulty": 1,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n5.l25.l01",
+    "lessonId": "n5.l25",
+    "title": "パーティーでの紹介 (Introductions at the Party)",
+    "level": "N5",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "アンナ",
+      "ケン"
+    ],
+    "transcript": "アンナ：ケンさん、あそこで眼鏡をかけている人は誰ですか。\nケン：ああ、あの窓の近くでジュースを飲んでいる人？あの人は先週アメリカから来た留学生のトムさんだよ。\nアンナ：そうなんですか。じゃあ、トムさんの隣で黒い帽子をかぶっている人は？\nケン：あの人は私のクラスメイトのさくらさんだよ。さくらさんが持っているケーキは、さくらさんが自分で作ったんだよ。\nアンナ：すごいですね！私も後でお話してみたいです。",
+    "translation": "Anna: Ken, who is that person wearing glasses over there?\nKen: Oh, the person drinking juice near the window? That person is Tom, an international student who came from America last week.\nAnna: Is that so? Then, who is the person wearing the black hat next to Tom?\nKen: That is my classmate Sakura. The cake that Sakura is holding was made by Sakura herself.\nAnna: That's amazing! I want to try talking to them later too.",
+    "turns": [
+      {
+        "speaker": "アンナ",
+        "ja": "ケンさん、あそこで眼鏡をかけている人は誰ですか。",
+        "kana": "けんさん、あそこでめがねをかけているひとはだれですか。",
+        "en": "Ken, who is that person wearing glasses over there?"
+      },
+      {
+        "speaker": "ケン",
+        "ja": "ああ、あの窓の近くでジュースを飲んでいる人？あの人は先週アメリカから来た留学生のトムさんだよ。",
+        "kana": "ああ、あのまどのちかくでじゅーすをのんでいるひと？あのひとはせんしゅうあめりかからきたりゅうがくせいのとむさんだよ。",
+        "en": "Oh, the person drinking juice near the window? That person is Tom, an international student who came from America last week."
+      },
+      {
+        "speaker": "アンナ",
+        "ja": "そうなんですか。じゃあ、トムさんの隣で黒い帽子をかぶっている人は？",
+        "kana": "そうなんですか。じゃあ、とむさんのとなりでくろいぼうしをかぶっているひとは？",
+        "en": "Is that so? Then, who is the person wearing the black hat next to Tom?"
+      },
+      {
+        "speaker": "ケン",
+        "ja": "あの人は私のクラスメイトのさくらさんだよ。さくらさんが持っているケーキは、さくらさんが自分で作ったんだよ。",
+        "kana": "あのひとはわたしのくらすめいとのさくらさんだよ。さくらさんがもっているけーきは、さくらさんがじぶんでつくったんだよ。",
+        "en": "That is my classmate Sakura. The cake that Sakura is holding was made by Sakura herself."
+      },
+      {
+        "speaker": "アンナ",
+        "ja": "すごいですね！私も後でお話してみたいです。",
+        "kana": "すごいですね！わたしもあとでおはなしてみたいです。",
+        "en": "That's amazing! I want to try talking to them later too."
+      }
+    ],
+    "questionIds": [
+      "n5.l25.q026",
+      "n5.l25.q027",
+      "n5.l25.q028",
+      "n5.l25.q029",
+      "n5.l25.q030"
+    ],
+    "difficulty": 1,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (Native Review)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-01T00:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n5.l25.q001",
+      "lessonId": "n5.l25",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「買う」(かう) mean?",
+      "choices": [
+        "To sell",
+        "To buy",
+        "To make",
+        "To wear"
+      ],
+      "answer": "To buy",
+      "acceptedAnswers": [
+        "To buy"
+      ],
+      "explanation": "「買う」(かう) means to buy.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q002",
+      "lessonId": "n5.l25",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What verb means \"To wear\" for shirts or coats?",
+      "choices": [
+        "着る (きる)",
+        "履く (はく)",
+        "かぶる",
+        "かける"
+      ],
+      "answer": "着る (きる)",
+      "acceptedAnswers": [
+        "着る (きる)"
+      ],
+      "explanation": "「着る」(きる) is used for tops, coats, shirts, and dresses.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q003",
+      "lessonId": "n5.l25",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What verb is used with 「眼鏡」(めがね - glasses)?",
+      "choices": [
+        "かける",
+        "かぶる",
+        "着る",
+        "履く"
+      ],
+      "answer": "かける",
+      "acceptedAnswers": [
+        "かける"
+      ],
+      "explanation": "For glasses, Japanese uses 眼鏡をかける.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q004",
+      "lessonId": "n5.l25",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「帽子」(ぼうし) mean?",
+      "choices": [
+        "Shoes",
+        "Hat / Cap",
+        "Gloves",
+        "Socks"
+      ],
+      "answer": "Hat / Cap",
+      "acceptedAnswers": [
+        "Hat / Cap"
+      ],
+      "explanation": "「帽子」(ぼうし) means hat or cap.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q005",
+      "lessonId": "n5.l25",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What does 「料理」(りょうり) mean?",
+      "choices": [
+        "Cooking / Cuisine",
+        "Cleaning",
+        "Music",
+        "Sports"
+      ],
+      "answer": "Cooking / Cuisine",
+      "acceptedAnswers": [
+        "Cooking / Cuisine"
+      ],
+      "explanation": "「料理」(りょうり) means cooking or cuisine.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q006",
+      "lessonId": "n5.l25",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "What is the meaning of 「場所」(ばしょ)?",
+      "choices": [
+        "Time",
+        "Place / Location",
+        "Person",
+        "Thing"
+      ],
+      "answer": "Place / Location",
+      "acceptedAnswers": [
+        "Place / Location"
+      ],
+      "explanation": "「場所」(ばしょ) means place or location.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q007",
+      "lessonId": "n5.l25",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What is the Onyomi reading for 「買」 in 「売買」(ばいばい)?",
+      "choices": [
+        "バイ",
+        "カイ",
+        "マイ",
+        "タイ"
+      ],
+      "answer": "バイ",
+      "acceptedAnswers": [
+        "バイ"
+      ],
+      "explanation": "The Onyomi for 買 is バイ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q008",
+      "lessonId": "n5.l25",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "Which kanji means \"To sell\" (うる)?",
+      "choices": [
+        "買",
+        "売",
+        "作",
+        "物"
+      ],
+      "answer": "売",
+      "acceptedAnswers": [
+        "売"
+      ],
+      "explanation": "「売」(うる) means to sell.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q009",
+      "lessonId": "n5.l25",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "How many strokes does the kanji 「作」 have?",
+      "choices": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": "7",
+      "acceptedAnswers": [
+        "7"
+      ],
+      "explanation": "「作」 has 7 strokes.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q010",
+      "lessonId": "n5.l25",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "What is the Kunyomi reading for 「物」 in 「食べ物」?",
+      "choices": [
+        "もの",
+        "ブツ",
+        "モツ",
+        "ぶつ"
+      ],
+      "answer": "もの",
+      "acceptedAnswers": [
+        "もの"
+      ],
+      "explanation": "The Kunyomi is もの (e.g. 食べ物 たべもの).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q011",
+      "lessonId": "n5.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Choose the correct way to say: \"The dish that mother made\":",
+      "choices": [
+        "母が作った料理",
+        "母は作った料理",
+        "母を作った料理",
+        "母に作った料理"
+      ],
+      "answer": "母が作った料理",
+      "acceptedAnswers": [
+        "母が作った料理"
+      ],
+      "explanation": "Inside a noun-modifying clause, the subject is marked with が: 母が作った料理.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q012",
+      "lessonId": "n5.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Where does the relative modifying clause go in relation to the modified noun?",
+      "choices": [
+        "Always directly before the noun",
+        "Always after the noun",
+        "At the very end of the whole sentence",
+        "Between the noun and its particle"
+      ],
+      "answer": "Always directly before the noun",
+      "acceptedAnswers": [
+        "Always directly before the noun"
+      ],
+      "explanation": "In Japanese, all modifying clauses precede the noun they modify.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q013",
+      "lessonId": "n5.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "How do you say: \"The book I bought yesterday\"?",
+      "choices": [
+        "昨日買った本",
+        "昨日買いました本",
+        "昨日買うでした本",
+        "昨日買い本"
+      ],
+      "answer": "昨日買った本",
+      "acceptedAnswers": [
+        "昨日買った本"
+      ],
+      "explanation": "Use plain past form before the noun: 昨日買った本.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q014",
+      "lessonId": "n5.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete: 「あそこに＿＿＿人は田中さんです。」 (The person who is over there is Tanaka.)",
+      "choices": [
+        "いる",
+        "います",
+        "いて",
+        "いたです"
+      ],
+      "answer": "いる",
+      "acceptedAnswers": [
+        "いる"
+      ],
+      "explanation": "Plain dictionary form いる + 人.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.g001",
+        "n5.l25.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q015",
+      "lessonId": "n5.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "What form of the verb MUST modify a noun in a relative clause?",
+      "choices": [
+        "Plain form (dictionary / ない / た)",
+        "Polite ます form",
+        "Imperative form",
+        "Volitional form only"
+      ],
+      "answer": "Plain form (dictionary / ない / た)",
+      "acceptedAnswers": [
+        "Plain form (dictionary / ない / た)"
+      ],
+      "explanation": "Only plain forms can directly modify a noun in Japanese.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q016",
+      "lessonId": "n5.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "How do you say: \"This is the photograph that I took in Kyoto\"?",
+      "choices": [
+        "これは京都で撮った写真です",
+        "これは京都で撮りました写真です",
+        "これは写真で京都で撮るです",
+        "これは撮った京都の写真ですだ"
+      ],
+      "answer": "これは京都で撮った写真です",
+      "acceptedAnswers": [
+        "これは京都で撮った写真です"
+      ],
+      "explanation": "これは [京都で撮った] 写真です.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q017",
+      "lessonId": "n5.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete: 「彼が＿＿＿ケーキはとても美味しかった。」 (The cake he made was very delicious.)",
+      "choices": [
+        "作った",
+        "作りました",
+        "作るでした",
+        "作って"
+      ],
+      "answer": "作った",
+      "acceptedAnswers": [
+        "作った"
+      ],
+      "explanation": "Plain past 作った modifies ケーキ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q018",
+      "lessonId": "n5.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Can English relative pronouns like \"who\" or \"which\" be translated directly into Japanese modifying clauses?",
+      "choices": [
+        "No, Japanese modifies nouns directly without relative pronouns",
+        "Yes, using particles who and which",
+        "Only when referring to animals",
+        "Only in negative sentences"
+      ],
+      "answer": "No, Japanese modifies nouns directly without relative pronouns",
+      "acceptedAnswers": [
+        "No, Japanese modifies nouns directly without relative pronouns"
+      ],
+      "explanation": "Japanese does not have relative pronouns; the modifying clause is placed directly in front of the noun.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q019",
+      "lessonId": "n5.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "How do you say: \"The place where I met my friend\"?",
+      "choices": [
+        "友達と会った場所",
+        "友達と会いました場所",
+        "友達と会うでした場所",
+        "場所が友達と会った"
+      ],
+      "answer": "友達と会った場所",
+      "acceptedAnswers": [
+        "友達と会った場所"
+      ],
+      "explanation": "Plain past clause [友達と会った] + 場所.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q020",
+      "lessonId": "n5.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "Complete: 「私が読みたい＿＿＿は図書館にあります。」 (The book that I want to read is in the library.)",
+      "choices": [
+        "本",
+        "本に",
+        "本で",
+        "本を"
+      ],
+      "answer": "本",
+      "acceptedAnswers": [
+        "本"
+      ],
+      "explanation": "私が読みたい modifies the noun 本 directly.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q021",
+      "lessonId": "n5.l25",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "Where is the photo album located?",
+      "choices": [
+        "In a bookshelf at school",
+        "On the desk in the author's room",
+        "In a drawer in the living room",
+        "At the teacher's house"
+      ],
+      "answer": "On the desk in the author's room",
+      "acceptedAnswers": [
+        "On the desk in the author's room"
+      ],
+      "explanation": "The passage says: 私の部屋の机の上には、日本に来てから撮った写真のアルバムがあります.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q022",
+      "lessonId": "n5.l25",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "What is the author wearing in the first photograph?",
+      "choices": [
+        "A blue suit",
+        "A traditional kimono bought in Kyoto last year",
+        "A winter jacket",
+        "A school uniform"
+      ],
+      "answer": "A traditional kimono bought in Kyoto last year",
+      "acceptedAnswers": [
+        "A traditional kimono bought in Kyoto last year"
+      ],
+      "explanation": "The text states: 去年京都で買った伝統的な着物を着ている私です.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q023",
+      "lessonId": "n5.l25",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "What is shown in the second photograph?",
+      "choices": [
+        "A chocolate cake made by friends for the author's birthday",
+        "A restaurant in Shinjuku",
+        "Mount Fuji in summer",
+        "A Kyoto shrine"
+      ],
+      "answer": "A chocolate cake made by friends for the author's birthday",
+      "acceptedAnswers": [
+        "A chocolate cake made by friends for the author's birthday"
+      ],
+      "explanation": "The text notes: 先月の誕生日に友達が作ってくれたチョコレートケーキの写真です.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q024",
+      "lessonId": "n5.l25",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "Who knitted the blue sweater that Teacher Kimura is wearing?",
+      "choices": [
+        "The author",
+        "His wife",
+        "His daughter",
+        "A store in Tokyo"
+      ],
+      "answer": "His wife",
+      "acceptedAnswers": [
+        "His wife"
+      ],
+      "explanation": "The text says: 奥さんが編んだものだと言っていました (knitted by his wife).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q025",
+      "lessonId": "n5.l25",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "What does the album mean to the author?",
+      "choices": [
+        "A textbook for homework",
+        "A treasure that recalls precious time spent in Japan",
+        "Something he wants to throw away",
+        "A gift for his parents"
+      ],
+      "answer": "A treasure that recalls precious time spent in Japan",
+      "acceptedAnswers": [
+        "A treasure that recalls precious time spent in Japan"
+      ],
+      "explanation": "The passage ends: 私が日本で過ごした大切な時間を思い出させてくれる宝物です.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q026",
+      "lessonId": "n5.l25",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "Who is the person wearing glasses drinking juice near the window?",
+      "choices": [
+        "Ken",
+        "Tom, an exchange student from America",
+        "Teacher Kimura",
+        "Sakura"
+      ],
+      "answer": "Tom, an exchange student from America",
+      "acceptedAnswers": [
+        "Tom, an exchange student from America"
+      ],
+      "explanation": "Ken explains: 先週アメリカから来た留学生のトムさんだよ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q027",
+      "lessonId": "n5.l25",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What is Sakura wearing on her head?",
+      "choices": [
+        "A white scarf",
+        "A black hat",
+        "A blue cap",
+        "Glasses"
+      ],
+      "answer": "A black hat",
+      "acceptedAnswers": [
+        "A black hat"
+      ],
+      "explanation": "Anna asks about: トムさんの隣で黒い帽子をかぶっている人 (the person wearing the black hat next to Tom).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q028",
+      "lessonId": "n5.l25",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "Who made the cake that Sakura is holding?",
+      "choices": [
+        "A bakery shop",
+        "Sakura herself",
+        "Tom",
+        "Anna"
+      ],
+      "answer": "Sakura herself",
+      "acceptedAnswers": [
+        "Sakura herself"
+      ],
+      "explanation": "Ken says: さくらさんが自分で作ったんだよ (Sakura made it herself).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q029",
+      "lessonId": "n5.l25",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What relationship is Sakura to Ken?",
+      "choices": [
+        "His sister",
+        "His classmate",
+        "His teacher",
+        "His mother"
+      ],
+      "answer": "His classmate",
+      "acceptedAnswers": [
+        "His classmate"
+      ],
+      "explanation": "Ken says: あの人は私のクラスメイトのさくらさんだよ.",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n5.l25.q030",
+      "lessonId": "n5.l25",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "What does Anna want to do later?",
+      "choices": [
+        "Go home early",
+        "Try talking to them",
+        "Bake another cake",
+        "Buy glasses"
+      ],
+      "answer": "Try talking to them",
+      "acceptedAnswers": [
+        "Try talking to them"
+      ],
+      "explanation": "Anna says: 私も後でお話してみたいです (I want to try talking to them later too).",
+      "difficulty": 1,
+      "linkedItemIds": [
+        "n5.l25.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (Native Review)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-01T00:00:00Z",
+    "rev": 2
+  }
+}

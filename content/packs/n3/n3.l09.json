@@ -1,0 +1,1706 @@
+{
+  "id": "n3.l09",
+  "level": "N3",
+  "module": "N3 Bridging Intermediate",
+  "number": 9,
+  "title": "N3 Lesson 9: Tendency & Feeling (傾向・状態の気配: 〜がち vs 〜気味)",
+  "description": "Master expressing undesirable habitual tendencies with 〜がち and current mild subjective states or physical symptoms with 〜気味.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l09.v001",
+      "lessonId": "n3.l09",
+      "ja": "傾向",
+      "kana": "けいこう",
+      "en": "tendency; trend; inclination",
+      "my": "ဦးတည်ချက်/ယိမ်းယိုင်မှု/လားရာ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l09.s001",
+      "kanjiIds": [
+        "n3.l09.k001",
+        "n3.l09.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.v002",
+      "lessonId": "n3.l09",
+      "ja": "体調",
+      "kana": "たいちょう",
+      "en": "physical condition; health condition",
+      "my": "ခန္ဓာကိုယ်ကျန်းမာရေးအခြေအနေ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l09.s002",
+      "kanjiIds": [
+        "n3.l09.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.v003",
+      "lessonId": "n3.l09",
+      "ja": "調整",
+      "kana": "ちょうせい",
+      "en": "adjustment; coordination; tuning",
+      "my": "ညှိနှိုင်းချိန်ညှိခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l09.s003",
+      "kanjiIds": [
+        "n3.l09.k003",
+        "n3.l09.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.v004",
+      "lessonId": "n3.l09",
+      "ja": "不足",
+      "kana": "ふそく",
+      "en": "shortage; insufficiency; lack; deficit",
+      "my": "မလုံလောက်မှု/လိုအပ်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l09.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.v005",
+      "lessonId": "n3.l09",
+      "ja": "緊張",
+      "kana": "きんちょう",
+      "en": "nervousness; tension; mental strain",
+      "my": "စိတ်လှုပ်ရှားမှု/တင်းမာမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l09.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.v006",
+      "lessonId": "n3.l09",
+      "ja": "留守",
+      "kana": "るす",
+      "en": "absence from home; away from home",
+      "my": "အိမ်တွင်မရှိခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l09.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.v007",
+      "lessonId": "n3.l09",
+      "ja": "遠慮",
+      "kana": "えんりょ",
+      "en": "restraint; reserve; holding back; hesitation",
+      "my": "အားနာခြင်း/တွန့်ဆုတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l09.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.v008",
+      "lessonId": "n3.l09",
+      "ja": "延期",
+      "kana": "えんき",
+      "en": "postponement; deferral",
+      "my": "ရက်ရွှေ့ဆိုင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l09.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.v009",
+      "lessonId": "n3.l09",
+      "ja": "風邪",
+      "kana": "かぜ",
+      "en": "cold; influenza",
+      "my": "အအေးမိနှာစေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l09.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.v010",
+      "lessonId": "n3.l09",
+      "ja": "運動",
+      "kana": "うんどう",
+      "en": "exercise; physical activity",
+      "my": "လေ့ကျင့်ခန်း/ကိုယ်လက်လှုပ်ရှားမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l09.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.v011",
+      "lessonId": "n3.l09",
+      "ja": "過労",
+      "kana": "かろう",
+      "en": "overwork; excessive labor; exhaustion",
+      "my": "အလုပ်ပင်ပန်းလွန်ကဲမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l09.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.v012",
+      "lessonId": "n3.l09",
+      "ja": "無理",
+      "kana": "むり",
+      "en": "unreasonable; impossible; overdoing it",
+      "my": "မဖြစ်နိုင်သော/အတင်းအဓမ္မလုပ်ဆောင်ခြင်း",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l09.s012",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l09.k001",
+      "lessonId": "n3.l09",
+      "char": "傾",
+      "meaning": "lean; incline; tilt; trend",
+      "onyomi": [
+        "ケイ"
+      ],
+      "kunyomi": [
+        "かたむ・く",
+        "かたむ・ける"
+      ],
+      "exampleVocab": [
+        {
+          "word": "傾向",
+          "reading": "けいこう",
+          "meaning": "tendency; trend",
+          "preview": true
+        },
+        {
+          "word": "傾く",
+          "reading": "かたむく",
+          "meaning": "to incline; to lean",
+          "preview": false
+        },
+        {
+          "word": "傾斜",
+          "reading": "けいしゃ",
+          "meaning": "slope; inclination",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l09.s001"
+      ],
+      "components": [
+        "亻",
+        "頃"
+      ],
+      "strokes": 13,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.k002",
+      "lessonId": "n3.l09",
+      "char": "向",
+      "meaning": "face; turn toward; direction; orientation",
+      "onyomi": [
+        "コウ"
+      ],
+      "kunyomi": [
+        "む・く",
+        "む・ける",
+        "む・かう"
+      ],
+      "exampleVocab": [
+        {
+          "word": "傾向",
+          "reading": "けいこう",
+          "meaning": "tendency; trend",
+          "preview": true
+        },
+        {
+          "word": "方向",
+          "reading": "ほうこう",
+          "meaning": "direction; orientation",
+          "preview": false
+        },
+        {
+          "word": "向く",
+          "reading": "むく",
+          "meaning": "to face; to suit",
+          "preview": false
+        },
+        {
+          "word": "意向",
+          "reading": "いこう",
+          "meaning": "intention; intention",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l09.s001"
+      ],
+      "components": [
+        "宀",
+        "口"
+      ],
+      "strokes": 6,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.k003",
+      "lessonId": "n3.l09",
+      "char": "調",
+      "meaning": "tune; tone; investigate; prepare; condition",
+      "onyomi": [
+        "チョウ"
+      ],
+      "kunyomi": [
+        "しら・べる",
+        "ととの・う",
+        "ととの・える"
+      ],
+      "exampleVocab": [
+        {
+          "word": "体調",
+          "reading": "たいちょう",
+          "meaning": "physical condition",
+          "preview": true
+        },
+        {
+          "word": "調整",
+          "reading": "ちょうせい",
+          "meaning": "adjustment; tuning",
+          "preview": true
+        },
+        {
+          "word": "調査",
+          "reading": "ちょうさ",
+          "meaning": "investigation; survey",
+          "preview": false
+        },
+        {
+          "word": "調べる",
+          "reading": "しらべる",
+          "meaning": "to check; to investigate",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l09.s002"
+      ],
+      "components": [
+        "言",
+        "周"
+      ],
+      "strokes": 15,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.k004",
+      "lessonId": "n3.l09",
+      "char": "整",
+      "meaning": "organize; arrange; adjust; put in order",
+      "onyomi": [
+        "セイ"
+      ],
+      "kunyomi": [
+        "ととの・える",
+        "ととの・う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "調整",
+          "reading": "ちょうせい",
+          "meaning": "adjustment; coordination",
+          "preview": true
+        },
+        {
+          "word": "整理",
+          "reading": "せいり",
+          "meaning": "organization; sorting",
+          "preview": false
+        },
+        {
+          "word": "整列",
+          "reading": "せいれつ",
+          "meaning": "lining up; forming a line",
+          "preview": false
+        },
+        {
+          "word": "整える",
+          "reading": "ととのえる",
+          "meaning": "to arrange; to tidy up",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l09.s003"
+      ],
+      "components": [
+        "束",
+        "攵",
+        "正"
+      ],
+      "strokes": 16,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l09.g001",
+      "lessonId": "n3.l09",
+      "pattern": "〜がち",
+      "meaning": "tends to; prone to; apt to; easily does (undesirable frequency)",
+      "formation": "[Verb ます-stem] + がち\n[Noun] + がち\n〜がちだ / 〜がちな + N / 〜がちに",
+      "explanation": {
+        "en": "Indicates that a particular negative, undesirable action or state frequently occurs over time or easily takes place (e.g. 留守がち = often away from home; 忘れがち = apt to forget; 遅れがち = prone to being late).",
+        "my": "မလိုလားအပ်သော မကောင်းသည့် လုပ်ရပ် သို့မဟုတ် အခြေအနေတစ်ခုသည် အချိန်ကာလတစ်ခုအတွင်း မကြာခဏ ဖြစ်ပွားလေ့ရှိခြင်း (သို့မဟုတ် ဖြစ်လွယ်ခြင်း) ကို ဖော်ပြသည်။ (ဥပမာ- အိမ်တွင်မရှိတတ်ခြင်း၊ မေ့လျော့တတ်ခြင်း၊ နောက်ကျလေ့ရှိခြင်း)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l09.s004",
+          "note": "Prone to lack of exercise"
+        },
+        {
+          "sentenceId": "n3.l09.s006",
+          "note": "Tends to be away from home"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l09.g002"
+      ],
+      "commonMistakes": [
+        "Do not use 〜がち for positive or desirable habits (❌ 親切にしがちだ → ⭕️ 親切にすることが多い).",
+        "Verb is in ます-stem without ます (❌ 遅れますがち → ⭕️ 遅れがち)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.g002",
+      "lessonId": "n3.l09",
+      "pattern": "〜気味",
+      "meaning": "slight feeling of; touch of; a bit of (current mild symptom/state)",
+      "formation": "[Verb ます-stem] + 気味 (ぎみ)\n[Noun] + 気味 (ぎみ)\n〜気味だ / 〜気味の + N / 〜気味に",
+      "explanation": {
+        "en": "Expresses that a person currently feels or displays a mild symptom, subtle sensation, or slight deviation from their normal physical/mental condition (e.g. 風邪気味 = touch of a cold; 寝不足気味 = slightly sleep-deprived; 太り気味 = slightly gaining weight; 緊張気味 = feeling somewhat nervous).",
+        "my": "လူတစ်ဦးသည် ပုံမှန်ခန္ဓာကိုယ် သို့မဟုတ် စိတ်ပိုင်းဆိုင်ရာ အခြေအနေမှ အနည်းငယ်သွေဖည်ကာ အသေးစားလက္ခဏာ သို့မဟုတ် ခံစားချက်ကလေး အနည်းငယ်ရှိနေခြင်းကို ဖော်ပြသည်။ (ဥပမာ- အအေးမိချင်သလိုလိုဖြစ်ခြင်း၊ အိပ်ရေးပျက်သလိုခံစားရခြင်း၊ အနည်းငယ် စိတ်လှုပ်ရှားသလိုဖြစ်ခြင်း)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l09.s005",
+          "note": "Looking somewhat nervous before interview"
+        },
+        {
+          "sentenceId": "n3.l09.s009",
+          "note": "Feeling a touch of a cold"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l09.g001"
+      ],
+      "commonMistakes": [
+        "〜がち refers to repeated habitual occurrence over time, whereas 〜気味 refers to a current subjective sensation or mild symptom.",
+        "Read as ぎみ (voiced), not きみ."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l09.s001",
+      "lessonId": "n3.l09",
+      "ja": "最近の若者は、スマートフォンの画面ばかり見て内向的になりがちな傾向がある。",
+      "kana": "さいきんの わかものは、すまーとふぉんの がめんばかり みて ないこうてきに なりがりな けいこうが ある。",
+      "translation": {
+        "en": "There is a trend where recent youths gaze only at smartphone screens and tend to become introverted.",
+        "my": "မကြာသေးမီက လူငယ်များသည် စမတ်ဖုန်းမျက်နှာပြင်ကိုသာ ကြည့်ရှုရင်း စိတ်အလိုလိုက်ပြီး အပေါင်းအသင်းနည်းလာတတ်သည့် လားရာရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l09.v001"
+      ],
+      "grammarIds": [
+        "n3.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.s002",
+      "lessonId": "n3.l09",
+      "ja": "季節の変わり目は寒暖の差が激しく、体調を崩しやすいので注意してください。",
+      "kana": "きせつの かわりめは かんだんの さが はげしく、たいちょうを くずしやすいので ちゅうい してください。",
+      "translation": {
+        "en": "At seasonal transitions, temperature swings are sharp and one easily spoils physical condition, so please be cautious.",
+        "my": "ရာသီအကူးအပြောင်းတွင် အပူအအေးကွာခြားချက် ပြင်းထန်ပြီး ကျန်းမာရေးထိခိုက်လွယ်သဖြင့် သတိပြုပါ။"
+      },
+      "vocabIds": [
+        "n3.l09.v002"
+      ],
+      "grammarIds": [
+        "n3.l09.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.s003",
+      "lessonId": "n3.l09",
+      "ja": "関係者の都合を考慮しながら、次回のミーティングの日程を調整している。",
+      "kana": "かんけいしゃの つごうを こうりょしながら、じかいの みーてぃんぐの にっていを ちょうせい している。",
+      "translation": {
+        "en": "While considering stakeholders’ convenience, I am coordinating the schedule for the next meeting.",
+        "my": "သက်ဆိုင်သူများ၏ အဆင်ပြေမှုကို ထည့်သွင်းစဉ်းစားရင်း နောက်တစ်ကြိမ် အစည်းအဝေးရက်စွဲကို ညှိနှိုင်းစီစဉ်လျက်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l09.v003"
+      ],
+      "grammarIds": [
+        "n3.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.s004",
+      "lessonId": "n3.l09",
+      "ja": "デスクワークが中心の生活を送っていると、どうしても運動不足になりがちだ。",
+      "kana": "ですくわーくが ちゅうしんの せいかつを おくっていると、どうしても うんどうぶそくに なりがちだ。",
+      "translation": {
+        "en": "When leading a life centered on desk work, one inevitably tends to become deficient in physical exercise.",
+        "my": "စားပွဲထိုင်အလုပ်ကို အဓိကထားသည့် ဘဝတွင် နေထိုင်ရသောအခါ မလွဲမသွေ ကိုယ်လက်လှုပ်ရှားမှု လေ့ကျင့်ခန်း ချို့တဲ့တတ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l09.v004",
+        "n3.l09.v010"
+      ],
+      "grammarIds": [
+        "n3.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.s005",
+      "lessonId": "n3.l09",
+      "ja": "彼は初めての採用面接を前にして、少し緊張気味な面持ちで待合室に座っていた。",
+      "kana": "かれは はじめての さいようめんせつを まえにして、すこし きんちょうぎみな おももちで まちあいしつに すわっていた",
+      "translation": {
+        "en": "Facing his first employment interview, he was sitting in the waiting room with a somewhat nervous look.",
+        "my": "သူသည် ပထမဆုံး အလုပ်အင်တာဗျူး မစတင်မီ အနည်းငယ် စိတ်လှုပ်ရှားနေသည့် မျက်နှာပေးဖြင့် စောင့်ဆိုင်းခန်းထဲတွင် ထိုင်နေခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l09.v005"
+      ],
+      "grammarIds": [
+        "n3.l09.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.s006",
+      "lessonId": "n3.l09",
+      "ja": "共働きの家庭が増え、日中は家を留守にしがちな世帯が多くなっている。",
+      "kana": "ともばたらきの かていが ふえ、にっちゅうは いえを るすにしがちな せたいが おおくなって いる。",
+      "translation": {
+        "en": "Households where both spouses work have increased, and families that tend to be away from home during the day are multiplying.",
+        "my": "ဇနီးမောင်နှံနှစ်ဦးစလုံး အလုပ်လုပ်သော မိသားစုများ တိုးပွားလာပြီး နေ့ဘက်တွင် အိမ်၌မရှိတတ်သော အိမ်ထောင်စုများ များပြားလာသည်။"
+      },
+      "vocabIds": [
+        "n3.l09.v006"
+      ],
+      "grammarIds": [
+        "n3.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.s007",
+      "lessonId": "n3.l09",
+      "ja": "新入社員は先輩たちに遠慮して、自分の意見を口に出すのを控えがちだ。",
+      "kana": "しんにゅうしゃいんは せんぱいたちに えんりょして、じぶんの いけんを くちに だすのを ひかえがちだ。",
+      "translation": {
+        "en": "New employees hold back out of diffidence toward seniors and tend to refrain from voicing their own opinions.",
+        "my": "ဝန်ထမ်းအသစ်များသည် စီနီယာများကို အားနာတွန့်ဆုတ်ပြီး မိမိ၏ထင်မြင်ချက်ကို ထုတ်ဖော်ပြောဆိုရန် ဝန်လေးတတ်ကြသည်။"
+      },
+      "vocabIds": [
+        "n3.l09.v007"
+      ],
+      "grammarIds": [
+        "n3.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.s008",
+      "lessonId": "n3.l09",
+      "ja": "台風の接近により、野外コンサートの開催を一週間延期することになった。",
+      "kana": "たいふうの せっきんにより、やがい こんさーとの かいさいを いっしゅうかん えんきする ことになった。",
+      "translation": {
+        "en": "Due to the approaching typhoon, the staging of the outdoor concert was decided to be postponed by one week.",
+        "my": "မုန်တိုင်းနီးကပ်လာခြင်းကြောင့် ပြင်ပတေးဂီတဖျော်ဖြေပွဲ ကျင်းပခြင်းကို တစ်ပတ် ရွှေ့ဆိုင်းရန် ဆုံးဖြတ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l09.v008"
+      ],
+      "grammarIds": [
+        "n3.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.s009",
+      "lessonId": "n3.l09",
+      "ja": "朝から喉が痛くて少し風邪気味なので、今夜は早く薬を飲んで寝ようと思います。",
+      "kana": "あさから のどが いたくて すこし かぜぎみなので、こんやは はやく くすりを のんで ねようと おもいます。",
+      "translation": {
+        "en": "My throat has been hurting since morning and I feel a touch of a cold, so I plan to take medicine and sleep early tonight.",
+        "my": "မနက်ကတည်းက လည်ချောင်းနာပြီး အနည်းငယ် အအေးမိချင်သလိုလိုဖြစ်နေသဖြင့် ယနေ့ည စောစောဆေးသောက်ပြီး အိပ်ရန် စိတ်ကူးထားပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l09.v009"
+      ],
+      "grammarIds": [
+        "n3.l09.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.s010",
+      "lessonId": "n3.l09",
+      "ja": "忙しい日々の合間を縫って、軽い有酸素運動を日課に取り入れるようにしている。",
+      "kana": "いそがしい ひびの あいまを ぬって、かるい ゆうさんそうんどうを にっかに とりいれる ように している。",
+      "translation": {
+        "en": "Carving out time amid busy days, I make it a habit to incorporate light aerobic exercise into my daily routine.",
+        "my": "အလုပ်များသော နေ့ရက်များကြားမှ အချိန်လုကာ ပေါ့ပါးသော အေရိုးဘစ်လေ့ကျင့်ခန်းကို နေ့စဉ်အလေ့အထအဖြစ် ထည့်သွင်းပြုလုပ်လျက်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n3.l09.v010"
+      ],
+      "grammarIds": [
+        "n3.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.s011",
+      "lessonId": "n3.l09",
+      "ja": "連日の深夜残業による過労で、彼は慢性的な疲労感を訴えている。",
+      "kana": "れんじつの しんやざんぎょうによる かろうで、かれは まんせいてきな ひろうかんを うったえている。",
+      "translation": {
+        "en": "Due to overwork from consecutive days of late-night overtime, he complains of chronic fatigue.",
+        "my": "ရက်ဆက် ညဉ့်နက်အချိန်ပိုဆင်းရသဖြင့် အလုပ်ပင်ပန်းလွန်ကဲပြီးနောက် သူသည် နာတာရှည် မောပန်းနွမ်းနယ်မှုကို ခံစားနေရသည်ဟု ဆိုသည်။"
+      },
+      "vocabIds": [
+        "n3.l09.v011"
+      ],
+      "grammarIds": [
+        "n3.l09.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l09.s012",
+      "lessonId": "n3.l09",
+      "ja": "体調が悪いときは無理をせず、周囲の人に相談して休養を取る勇気が必要だ。",
+      "kana": "たいちょうが わるい ときは むりを せず、しゅういの ひとに そうだんして きゅうようを とる ゆうきが ひつようだ。",
+      "translation": {
+        "en": "When health is poor, courage to rest without pushing yourself too hard and consult surrounding people is necessary.",
+        "my": "ကျန်းမာရေးမကောင်းသောအခါ အတင်းအကျပ်မလုပ်ဘဲ ပတ်ဝန်းကျင်ရှိသူများနှင့် တိုင်ပင်ကာ အနားယူရဲသည့် သတ္တိလိုအပ်ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l09.v012"
+      ],
+      "grammarIds": [
+        "n3.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l09.r01",
+    "lessonId": "n3.l09",
+    "title": "現代社会における「プチ不調」のサインを見逃さない (Catching Subtle Signals of Poor Health in Modern Society)",
+    "level": "N3",
+    "text": "「本格的な病気ではないけれど、なんだか体がだるい」「朝起きると頭が重く、寝不足気味だ」。現代のビジネスパーソンや学生の間で、このような「プチ不調」を抱える人が増えています。検査をしても異常は見つからないものの、心身が万全の状態とは言えない微妙な気配です。\n\n特に納期前や試験前など、プレッシャーが高まる時期には、知らず知らずのうちに食事を簡単に済ませたり、運動不足に陥りがちです。疲れを感じていても「これくらい大丈夫だ」と無理を重ね、自分の体のサインを無視してしまいがちになるのです。\n\nしかし、風邪気味や疲労気味といった初期の段階で適切な休息を取るかどうかが、その後の健康を大きく左右します。少しでも調子が下向きだと感じたら、夜更かしを避けて温かい風呂に入り、十分な睡眠を取る調整が必要です。日頃から自分の心身の傾向をよく理解し、小さな不調を見逃さないことが、充実した毎日の土台となります。",
+    "kanaText": "「ほんかくてきな びょうきでは ないけれど、なんだか からだが だるい」「あさ おきると あたまが おもく、ねぶそくぎみだ」。げんだいの びじねすぱーそんや がくせいの あいだで、このような「ぷちふちょう」を かかえる ひとが ふえています。けんさを しても いじょうは みつからないものの、しんしんが ばんぜんの じょうたいとは いえない びみょうな けはいです。\n\nとくに のうきまえや しけんまえなど、ぷれっしゃーが たかまる じきには、しらずしらずの うちに しょくじを かんたんに すませたり、うんどうぶそくに おちいりがちです。つかれを かんじていても「これくらい だいじょうぶだ」と むりを かさね、じぶんの からだの さいんを むしして しまいがちに なるのです。\n\nしかし、かぜぎみや ひろうぎみといった しょきの だんかいで てきせつな きゅうそくを とるか どうかが、そのごの けんこうを おおきく さゆうします。すこしでも ちょうしが したむきだと かんじたら、よふかしを さけて あたたかい おふろに はいり、じゅうぶんな すいみんを とる ちょうせいが ひつようです。ひごろから じぶんの しんしんの けいこうを よく りかいし、ちいさな ふちょうを みのごさない ことが、じゅうじつした まいにちの どだいと なります。",
+    "translation": "“It is not a full-blown illness, but my body feels somewhat sluggish”; “When waking up in the morning, my head feels heavy and I feel slightly sleep-deprived.” People harboring such subtle minor ailments are increasing among modern businesspersons and students. Even though tests reveal no abnormalities, it is a delicate hint that mind and body cannot be deemed in perfect condition.\n\nEspecially during periods when pressure mounts such as before project deadlines or examinations, people tend to finish meals simply without realizing it and are apt to slip into lack of exercise. Even when feeling tired, they tend to pile on unreasonable burdens thinking “this much is okay,” ignoring the signals from their own bodies.\n\nHowever, whether one takes appropriate rest at early stages such as a touch of a cold or slight fatigue significantly determines subsequent health. If you feel condition is even slightly dipping, adjustments such as avoiding staying up late, soaking in a warm bath, and securing ample sleep are necessary. Thoroughly understanding the tendencies of your own mind and body on a daily basis and not overlooking small ailments forms the bedrock of a fulfilling daily life.",
+    "questionIds": [
+      "n3.l09.q025",
+      "n3.l09.q026",
+      "n3.l09.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l09.l01",
+    "lessonId": "n3.l09",
+    "title": "同僚の体調の気遣いとスケジュールの調整 (Caring for Colleague’s Health & Adjusting Schedule)",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "先輩（松本）",
+      "後輩（川口）"
+    ],
+    "transcript": "松本：川口くん、お疲れ様。さっきの会議のとき、なんだか声がかすれていて少し風邪気味のように見えたけど、大丈夫？\n川口：松本先輩、気づいてくださってありがとうございます。実は昨夜から喉が痛くて、少し熱っぽい気味なんです。\n松本：やっぱりそうか。最近はずっと残業続きで、睡眠不足になりがちだったものね。今日の夕方のプレゼン資料の作成、僕が代わりに引き受けようか？\n川口：いえ、先輩にお願いするのは心苦しいです。無理をすればなんとか終わらせられると思います。\n松本：体調を崩しているときに無理をするのが一番良くないよ。風邪を悪化させて会社を何日も休むことになるより、今日早退して病院に行くべきだよ。\n川口：お気遣いありがとうございます。ではお言葉に甘えて、今日の作業は先輩にお願いして早めに休ませていただきます。",
+    "translation": "Matsumoto: Kawaguchi-kun, good work today. During the meeting earlier, your voice was somewhat raspy and you looked like you had a touch of a cold; are you all right?\nKawaguchi: Matsumoto-senpai, thank you very much for noticing. Actually my throat has been hurting since last night, and I feel a touch feverish.\nMatsumoto: As I suspected. Lately overtime has continued constantly, and you were apt to become sleep-deprived. Shall I take over preparing the presentation materials for this evening on your behalf?\nKawaguchi: No, it troubles my conscience to ask you, senpai. If I push myself, I think I can somehow finish it.\nMatsumoto: Pushing yourself when in poor health is the worst thing to do. Rather than worsening the cold and being absent from work for days, you should leave early today and visit a clinic.\nKawaguchi: Thank you very much for your care. Then I will accept your kind offer, leave today's work to you, senpai, and rest early.",
+    "turns": [],
+    "questionIds": [
+      "n3.l09.q028",
+      "n3.l09.q029",
+      "n3.l09.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l09.q001",
+      "lessonId": "n3.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「傾向」の正しい読み方を選んでください。",
+      "choices": [
+        "けいこう",
+        "けいごう",
+        "きょうこう",
+        "かいこう"
+      ],
+      "answer": "けいこう",
+      "acceptedAnswers": [
+        "けいこう"
+      ],
+      "explanation": "「傾向」は「けいこう」と読みます。物事の方向性や好ましくない傾きなどを表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q002",
+      "lessonId": "n3.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な言葉を選んでください。\n「無理な残業を続けたせいで、（　　）を崩して寝込んでしまった。」",
+      "choices": [
+        "体調",
+        "傾向",
+        "留守",
+        "延期"
+      ],
+      "answer": "体調",
+      "acceptedAnswers": [
+        "体調"
+      ],
+      "explanation": "「体調（たいちょう）を崩す」は、体の健康状態が悪化するという定番の慣用表現です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q003",
+      "lessonId": "n3.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「調整」のミャンマー語の意味として正しいものを選んでください。",
+      "choices": [
+        "ညှိနှိုင်းချိန်ညှိခြင်း",
+        "မလုံလောက်မှု",
+        "အိမ်တွင်မရှိခြင်း",
+        "ရက်ရွှေ့ဆိုင်းခြင်း"
+      ],
+      "answer": "ညှိနှိုင်းချိန်ညှိခြင်း",
+      "acceptedAnswers": [
+        "ညှိနှိုင်းချိန်ညှိခြင်း"
+      ],
+      "explanation": "「調整（ちょうせい）」はミャンマー語で ညှိနှိုင်းချိန်ညှိခြင်း (adjustment, coordination) を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q004",
+      "lessonId": "n3.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「不足」の意味として最も適切な説明を選んでください。",
+      "choices": [
+        "足りないこと・必要な分量に届かないこと",
+        "完全に満たされて満足していること",
+        "急に電気が消えてしまうこと",
+        "他人の意見に同意すること"
+      ],
+      "answer": "足りないこと・必要な分量に届かないこと",
+      "acceptedAnswers": [
+        "足りないこと・必要な分量に届かないこと"
+      ],
+      "explanation": "「不足（ふそく）」は必要とされる数量・程度が足りない状態を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q005",
+      "lessonId": "n3.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な言葉を選んでください。\n「大勢の聴衆を前にしてスピーチをするのは、とても（　　）する。」",
+      "choices": [
+        "緊張",
+        "調整",
+        "留守",
+        "運動"
+      ],
+      "answer": "緊張",
+      "acceptedAnswers": [
+        "緊張"
+      ],
+      "explanation": "人前で話すときに心身が張りつめてドキドキすることを「緊張（きんちょう）する」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q006",
+      "lessonId": "n3.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「留守」の使い方として最も自然なものを選んでください。",
+      "choices": [
+        "旅行の間、隣の人に留守中のペットの世話を頼んだ。",
+        "今日は留守をたくさん食べてお腹がいっぱいだ。",
+        "留守を鉛筆でノートにきれいに書いた。",
+        "冷たい風が吹いて留守が凍りついた。"
+      ],
+      "answer": "旅行の間、隣の人に留守中のペットの世話を頼んだ。",
+      "acceptedAnswers": [
+        "旅行の間、隣の人に留守中のペットの世話を頼んだ。"
+      ],
+      "explanation": "「留守（るす）」は、外出していて家に人がいない状態を指します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q007",
+      "lessonId": "n3.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な言葉を選んでください。\n「悪天候のため、運動会の開催は来週に（　　）された。」",
+      "choices": [
+        "延期",
+        "遠慮",
+        "過労",
+        "調整"
+      ],
+      "answer": "延期",
+      "acceptedAnswers": [
+        "延期"
+      ],
+      "explanation": "予定された期日や日程を先に延ばすことを「延期（えんき）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q008",
+      "lessonId": "n3.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "「過労」のミャンマー語の意味として最も適切なものを選んでください。",
+      "choices": [
+        "အလုပ်ပင်ပန်းလွန်ကဲမှု",
+        "အားနာခြင်း",
+        "လေ့ကျင့်ခန်း",
+        "အအေးမိနှာစေးခြင်း"
+      ],
+      "answer": "အလုပ်ပင်ပန်းလွန်ကဲမှု",
+      "acceptedAnswers": [
+        "အလုပ်ပင်ပန်းလွန်ကဲမှု"
+      ],
+      "explanation": "「過労（かろう）」はミャンマー語で အလုပ်ပင်ပန်းလွန်ကဲမှု (overwork, excessive labor) を意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q009",
+      "lessonId": "n3.l09",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の読み方を選んでください。\n「急な坂道で車体が左に<u>傾</u>いた。」",
+      "choices": [
+        "かたむ",
+        "かたよ",
+        "すじ",
+        "みちび"
+      ],
+      "answer": "かたむ",
+      "acceptedAnswers": [
+        "かたむ"
+      ],
+      "explanation": "「傾く」は「かたむく」と読みます。斜めになる・片方に寄ることを意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q010",
+      "lessonId": "n3.l09",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「向」という漢字の音読みを選んでください。",
+      "choices": [
+        "コウ",
+        "ショウ",
+        "チョウ",
+        "キュウ"
+      ],
+      "answer": "コウ",
+      "acceptedAnswers": [
+        "コウ"
+      ],
+      "explanation": "「向」の音読みは「コウ」（方向、意向、傾向など）です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q011",
+      "lessonId": "n3.l09",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線部の漢字の読み方を選んでください。\n「辞書で分からない単語を<u>調</u>べる。」",
+      "choices": [
+        "しら",
+        "なら",
+        "くら",
+        "えら"
+      ],
+      "answer": "しら",
+      "acceptedAnswers": [
+        "しら"
+      ],
+      "explanation": "「調べる」は訓読みで「しらべる」と読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q012",
+      "lessonId": "n3.l09",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「整」の漢字の部首として正しいものを選んでください。",
+      "choices": [
+        "攵・攴（ぼくづくり・のぶん）",
+        "正（ただしい）",
+        "束（たば）",
+        "木（き）"
+      ],
+      "answer": "攵・攴（ぼくづくり・のぶん）",
+      "acceptedAnswers": [
+        "攵・攴（ぼくづくり・のぶん）"
+      ],
+      "explanation": "「整」の伝統的な部首は「攵（ぼくづくり）」に分類されます。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q013",
+      "lessonId": "n3.l09",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「整理（せいり）」の「整」の総画数として正しいものを選んでください。",
+      "choices": [
+        "16画",
+        "15画",
+        "17画",
+        "14画"
+      ],
+      "answer": "16画",
+      "acceptedAnswers": [
+        "16画"
+      ],
+      "explanation": "「整」の画数は16画です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q014",
+      "lessonId": "n3.l09",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「方向（ほうこう）」の漢字表記として正しいものを選んでください。",
+      "choices": [
+        "方向",
+        "方交",
+        "方広",
+        "方肯"
+      ],
+      "answer": "方向",
+      "acceptedAnswers": [
+        "方向"
+      ],
+      "explanation": "進む向きや針路を表す言葉は「方向（ほうこう）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q015",
+      "lessonId": "n3.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な文法形式を選んでください。\n「一人暮らしを始めると、外食が増えて栄養が偏り（　　）になる。」",
+      "choices": [
+        "がち",
+        "気味",
+        "最中",
+        "つつ"
+      ],
+      "answer": "がち",
+      "acceptedAnswers": [
+        "がち"
+      ],
+      "explanation": "偏った状態が習慣的・頻繁に起こる好ましくない傾向を表すため、「動詞ます形語幹 ＋ がち」が適切です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q016",
+      "lessonId": "n3.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な語を選んでください。\n「昨夜から少し熱があって、（　　）気味なので今日は早く帰ります。」",
+      "choices": [
+        "風邪",
+        "病気",
+        "留守",
+        "延期"
+      ],
+      "answer": "風邪",
+      "acceptedAnswers": [
+        "風邪"
+      ],
+      "explanation": "現在一時的に風邪の兆候を軽く感じている状態は「風邪気味（かぜぎみ）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q017",
+      "lessonId": "n3.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜がち」と「〜気味」の違いとして正しい説明を選んでください。",
+      "choices": [
+        "「〜がち」は望ましくない状態が反復・頻繁に起こる傾向を表し、「〜気味」は現在のわずかな兆候・感覚を表す。",
+        "「〜がち」は現在の感覚を表し、「〜気味」は過去の反省を表す。",
+        "「〜がち」は肯定的な良い習慣にのみ使われる。",
+        "文法上の違いは全くなく、完全に互換可能である。"
+      ],
+      "answer": "「〜がち」は望ましくない状態が反復・頻繁に起こる傾向を表し、「〜気味」は現在のわずかな兆候・感覚を表す。",
+      "acceptedAnswers": [
+        "「〜がち」は望ましくない状態が反復・頻繁に起こる傾向を表し、「〜気味」は現在のわずかな兆候・感覚を表す。"
+      ],
+      "explanation": "「遅れがち」「忘れがち」は習慣的な頻度を表し、「風邪気味」「疲れ気味」は今現在の主観的な軽い症状を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.g001",
+        "n3.l09.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q018",
+      "lessonId": "n3.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な接続形式を選んでください。\n「彼は最近仕事が忙しいらしく、約束の時間に（　　）がちだ。」",
+      "choices": [
+        "遅れ",
+        "遅れる",
+        "遅れた",
+        "遅れて"
+      ],
+      "answer": "遅れ",
+      "acceptedAnswers": [
+        "遅れ"
+      ],
+      "explanation": "「〜がち」の前には動詞のます形語幹が接続します（遅れます → 遅れ）。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q019",
+      "lessonId": "n3.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な言葉を選んでください。\n「連日の残業のせいで、ここ数日はずっと（　　）気味で頭がぼーっとする。」",
+      "choices": [
+        "寝不足",
+        "睡眠",
+        "運動",
+        "休養"
+      ],
+      "answer": "寝不足",
+      "acceptedAnswers": [
+        "寝不足"
+      ],
+      "explanation": "睡眠が足りない主観的な感覚を表す定番表現は「寝不足気味（ねぶそくぎみ）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q020",
+      "lessonId": "n3.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「気味」の読み方として正しいものを選んでください。",
+      "choices": [
+        "ぎみ",
+        "きみ",
+        "けみ",
+        "げみ"
+      ],
+      "answer": "ぎみ",
+      "acceptedAnswers": [
+        "ぎみ"
+      ],
+      "explanation": "接尾語として体調や傾向を表す「気味」は連濁して「ぎみ」と濁音で読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q021",
+      "lessonId": "n3.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の空欄に入る最も適切な表現を選んでください。\n「年を取ると、人の名前を（　　）がちになる。」",
+      "choices": [
+        "忘れ",
+        "忘れる",
+        "忘れた",
+        "忘れて"
+      ],
+      "answer": "忘れ",
+      "acceptedAnswers": [
+        "忘れ"
+      ],
+      "explanation": "動詞ます形語幹「忘れ」＋「がち」で、「忘れがち（忘れやすくなる傾向）」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q022",
+      "lessonId": "n3.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "次の文のうち、文法的に最も不自然なものを選んでください。",
+      "choices": [
+        "彼は毎日早起きして部屋を掃除しがちだ。",
+        "曇りがちの天気が続いて気分が晴れない。",
+        "最近運動不足で少し太り気味だ。",
+        "初めての発表で緊張気味に話し始めた。"
+      ],
+      "answer": "彼は毎日早起きして部屋を掃除しがちだ。",
+      "acceptedAnswers": [
+        "彼は毎日早起きして部屋を掃除しがちだ。"
+      ],
+      "explanation": "「〜がち」は好ましくないマイナスの傾向に使われるため、「早起きして掃除する」のような望ましい良い習慣には不自然で使用できません。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q023",
+      "lessonId": "n3.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「旅行で食べ過ぎたせいか、最近胃が（　　）気味だ。」",
+      "choices": [
+        "もたれ",
+        "もたれる",
+        "もたれた",
+        "もたれている"
+      ],
+      "answer": "もたれ",
+      "acceptedAnswers": [
+        "もたれ"
+      ],
+      "explanation": "動詞ます形語幹「もたれ」＋「気味」で「胃がもたれ気味（胃が重苦しい感じ）」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q024",
+      "lessonId": "n3.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「留守（　　）の家を狙った空き巣の被害が増加している。」",
+      "choices": [
+        "がち",
+        "気味",
+        "最中",
+        "つつ"
+      ],
+      "answer": "がち",
+      "acceptedAnswers": [
+        "がち"
+      ],
+      "explanation": "名詞＋がち で「留守がちな家（留守にすることが多い家）」という習慣的傾向を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q025",
+      "lessonId": "n3.l09",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "本文で述べられている「プチ不調」とはどのような状態ですか。",
+      "choices": [
+        "本格的な病気ではないが、体がだるく心身が万全とは言えない微妙な状態。",
+        "検査をすると重大な病気がすぐに見つかる緊急事態。",
+        "完全に健康で毎日活力にあふれている状態。",
+        "薬を飲めば一瞬で完全に消え去る病気。"
+      ],
+      "answer": "本格的な病気ではないが、体がだるく心身が万全とは言えない微妙な状態。",
+      "acceptedAnswers": [
+        "本格的な病気ではないが、体がだるく心身が万全とは言えない微妙な状態。"
+      ],
+      "explanation": "第1段落に「検査をしても異常は見つからないものの、心身が万全の状態とは言えない微妙な気配」と説明されています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q026",
+      "lessonId": "n3.l09",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "納期前や試験前などのプレッシャーが高まる時期に、人々が陥りがちな傾向は何ですか。",
+      "choices": [
+        "無理を重ねて、食事の簡略化や運動不足など体のサインを無視すること。",
+        "仕事を完全に放棄して旅行に出かけてしまうこと。",
+        "毎日激しいスポーツジムに通い詰めること。",
+        "病院で必要以上に精密検査を受け続けること。"
+      ],
+      "answer": "無理を重ねて、食事の簡略化や運動不足など体のサインを無視すること。",
+      "acceptedAnswers": [
+        "無理を重ねて、食事の簡略化や運動不足など体のサインを無視すること。"
+      ],
+      "explanation": "第2段落に「食事を簡単に済ませたり、運動不足に陥りがちです。『これくらい大丈夫だ』と無理を重ね、自分の体のサインを無視してしまいがちになる」とあります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q027",
+      "lessonId": "n3.l09",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者が述べる、充実した毎日の土台として最も大切なことは何ですか。",
+      "choices": [
+        "日頃から自分の心身の傾向をよく理解し、小さな不調を見逃さないこと。",
+        "疲れを感じても限界まで働き続けること。",
+        "サプリメントを大量に摂取して睡眠時間を削ること。",
+        "病気になってから慌てて病院に行くこと。"
+      ],
+      "answer": "日頃から自分の心身の傾向をよく理解し、小さな不調を見逃さないこと。",
+      "acceptedAnswers": [
+        "日頃から自分の心身の傾向をよく理解し、小さな不調を見逃さないこと。"
+      ],
+      "explanation": "最終文に「日頃から自分の心身の傾向をよく理解し、小さな不調を見逃さないことが、充実した毎日の土台となります」と明記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q028",
+      "lessonId": "n3.l09",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "松本先輩は川口くんのどのような異変に気づいて声をかけましたか。",
+      "choices": [
+        "会議のときに声がかすれていて少し風邪気味のように見えた点。",
+        "派手な服を着て出社してきた点。",
+        "会議中に大声で歌を歌っていた点。",
+        "パソコンを壊して困っていた点。"
+      ],
+      "answer": "会議のときに声がかすれていて少し風邪気味のように見えた点。",
+      "acceptedAnswers": [
+        "会議のときに声がかすれていて少し風邪気味のように見えた点。"
+      ],
+      "explanation": "松本先輩は「さっきの会議のとき、なんだか声がかすれていて少し風邪気味のように見えたけど、大丈夫？」と尋ねています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q029",
+      "lessonId": "n3.l09",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "松本先輩が川口くんに提案した親切な申し出は何ですか。",
+      "choices": [
+        "夕方のプレゼン資料の作成を代わりに引き受けること。",
+        "新しいパソコンをプレゼントすること。",
+        "今夜居酒屋に飲みに行くこと。",
+        "残業をさらに増やすこと。"
+      ],
+      "answer": "夕方のプレゼン資料の作成を代わりに引き受けること。",
+      "acceptedAnswers": [
+        "夕方のプレゼン資料の作成を代わりに引き受けること。"
+      ],
+      "explanation": "松本先輩は「今日の夕方のプレゼン資料の作成、僕が代わりに引き受けようか？」と申し出ています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l09.q030",
+      "lessonId": "n3.l09",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "松本先輩のアドバイスを受けて、川口くんは最終的にどうすることにしましたか。",
+      "choices": [
+        "先輩の言葉に甘えて、資料作成をお願いして早めに休むことにした。",
+        "断固として拒絶し、深夜まで残業することにした。",
+        "先輩の代わりにプレゼンをすることを要求した。",
+        "会社を辞めることにした。"
+      ],
+      "answer": "先輩の言葉に甘えて、資料作成をお願いして早めに休むことにした。",
+      "acceptedAnswers": [
+        "先輩の言葉に甘えて、資料作成をお願いして早めに休むことにした。"
+      ],
+      "explanation": "川口は「お気遣いありがとうございます。ではお言葉に甘えて、今日の作業は先輩にお願いして早めに休ませていただきます」と答えています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l09.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

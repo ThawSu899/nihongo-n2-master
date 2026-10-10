@@ -1,0 +1,1600 @@
+{
+  "id": "n3.l11",
+  "level": "N3",
+  "module": "N3 Bridging Intermediate",
+  "number": 11,
+  "title": "N3 Lesson 11: Obligation & Inevitability (〜ざるを得ない)",
+  "description": "Master upper-intermediate Japanese expressions for unavoidable necessity (〜ざるを得ない) and social/moral constraints (〜わけにはいかない), examining high-stakes decision making in corporate and professional contexts.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l11.v001",
+      "lessonId": "n3.l11",
+      "ja": "判断",
+      "kana": "はんだん",
+      "en": "judgment; decision",
+      "my": "ဆုံးဖြတ်ချက်/ဝေဖန်ပိုင်းခြားမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l11.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.v002",
+      "lessonId": "n3.l11",
+      "ja": "責任",
+      "kana": "せきにん",
+      "en": "responsibility; liability; duty",
+      "my": "တာဝန်/တာဝန်ယူမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l11.s002",
+      "kanjiIds": [
+        "n3.l11.k003",
+        "n3.l11.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.v003",
+      "lessonId": "n3.l11",
+      "ja": "延期",
+      "kana": "えんき",
+      "en": "postponement; deferment",
+      "my": "ရွှေ့ဆိုင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l11.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.v004",
+      "lessonId": "n3.l11",
+      "ja": "苦渋",
+      "kana": "くじゅう",
+      "en": "bitterness; hard struggle; painful reluctance",
+      "my": "ခါးသီးသောအခက်အခဲ/စိတ်ဆင်းရဲစွာရွေးချယ်ရမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l11.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.v005",
+      "lessonId": "n3.l11",
+      "ja": "決断",
+      "kana": "けつだん",
+      "en": "decisive decision; resolution",
+      "my": "ပြတ်သားသောဆုံးဖြတ်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l11.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.v006",
+      "lessonId": "n3.l11",
+      "ja": "重大な",
+      "kana": "じゅうだいな",
+      "en": "grave; serious; significant",
+      "my": "ကြီးလေးသောအရေးပါသော",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l11.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.v007",
+      "lessonId": "n3.l11",
+      "ja": "辞退",
+      "kana": "じたい",
+      "en": "declining; formal withdrawal; refusing an offer",
+      "my": "ငြင်းပယ်ခြင်း/ဆုတ်ခွာခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l11.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.v008",
+      "lessonId": "n3.l11",
+      "ja": "妥協",
+      "kana": "だきょう",
+      "en": "compromise; meeting halfway",
+      "my": "အပေးအယူလုပ်ခြင်း/ညှိနှိုင်းလိုက်လျောခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l11.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.v009",
+      "lessonId": "n3.l11",
+      "ja": "避ける",
+      "kana": "さける",
+      "en": "to avoid; to dodge; to evade",
+      "my": "ရှောင်ရှားသည်/လွှဲဖယ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l11.s009",
+      "kanjiIds": [
+        "n3.l11.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.v010",
+      "lessonId": "n3.l11",
+      "ja": "引き受ける",
+      "kana": "ひきうける",
+      "en": "to undertake; to take on (a task, obligation)",
+      "my": "တာဝန်ယူလက်ခံသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l11.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.v011",
+      "lessonId": "n3.l11",
+      "ja": "義務",
+      "kana": "ぎむ",
+      "en": "duty; obligation",
+      "my": "တာဝန်ဝတ္တရား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l11.s011",
+      "kanjiIds": [
+        "n3.l11.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.v012",
+      "lessonId": "n3.l11",
+      "ja": "得る",
+      "kana": "える",
+      "en": "to gain; to obtain; to acquire",
+      "my": "ရရှိသည်/ပိုင်ဆိုင်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l11.s012",
+      "kanjiIds": [
+        "n3.l11.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l11.k001",
+      "lessonId": "n3.l11",
+      "char": "得",
+      "meaning": "gain, obtain, acquire",
+      "onyomi": [
+        "トク"
+      ],
+      "kunyomi": [
+        "え・る",
+        "う・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "納得",
+          "reading": "なっとく",
+          "meaning": "understanding, consent",
+          "preview": false
+        },
+        {
+          "word": "所得",
+          "reading": "しょとく",
+          "meaning": "income, earnings",
+          "preview": false
+        },
+        {
+          "word": "得意",
+          "reading": "とくい",
+          "meaning": "one’s strong point",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l11.s001"
+      ],
+      "components": [],
+      "strokes": 11,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.k002",
+      "lessonId": "n3.l11",
+      "char": "避",
+      "meaning": "evade, avoid, ward off",
+      "onyomi": [
+        "ヒ"
+      ],
+      "kunyomi": [
+        "さ・ける"
+      ],
+      "exampleVocab": [
+        {
+          "word": "避難",
+          "reading": "ひなん",
+          "meaning": "evacuation, taking refuge",
+          "preview": false
+        },
+        {
+          "word": "回避",
+          "reading": "かいひ",
+          "meaning": "evasion, avoidance",
+          "preview": false
+        },
+        {
+          "word": "避ける",
+          "reading": "さける",
+          "meaning": "to avoid",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l11.s009"
+      ],
+      "components": [],
+      "strokes": 16,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.k003",
+      "lessonId": "n3.l11",
+      "char": "責",
+      "meaning": "blame, condemn, censure, responsibility",
+      "onyomi": [
+        "セキ"
+      ],
+      "kunyomi": [
+        "せ・める"
+      ],
+      "exampleVocab": [
+        {
+          "word": "責任",
+          "reading": "せきにん",
+          "meaning": "responsibility",
+          "preview": false
+        },
+        {
+          "word": "責める",
+          "reading": "せめる",
+          "meaning": "to blame, to accuse",
+          "preview": false
+        },
+        {
+          "word": "職責",
+          "reading": "しょくせき",
+          "meaning": "official duties",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l11.s002"
+      ],
+      "components": [],
+      "strokes": 11,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.k004",
+      "lessonId": "n3.l11",
+      "char": "任",
+      "meaning": "entrust, duty, responsibility",
+      "onyomi": [
+        "ニン"
+      ],
+      "kunyomi": [
+        "まか・せる",
+        "まか・す"
+      ],
+      "exampleVocab": [
+        {
+          "word": "任務",
+          "reading": "にんむ",
+          "meaning": "mission, duty",
+          "preview": false
+        },
+        {
+          "word": "担任",
+          "reading": "たんにん",
+          "meaning": "homeroom teacher, in charge",
+          "preview": false
+        },
+        {
+          "word": "任せる",
+          "reading": "まかせる",
+          "meaning": "to entrust to",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l11.s002"
+      ],
+      "components": [],
+      "strokes": 6,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l11.g001",
+      "lessonId": "n3.l11",
+      "pattern": "〜ざるを得ない",
+      "meaning": "cannot help but; have no choice but to; compelled to",
+      "formation": "[Verb ない-form without ない] + ざるを得ない\n*Exception: する → せざるを得ない",
+      "explanation": {
+        "en": "Expresses that the speaker or subject is reluctantly compelled to perform an action due to unavoidable circumstances, even if they strongly prefer not to. Carries a formal, written tone conveying personal reluctance.",
+        "my": "မလွှဲမရှောင်သာသောအခြေအနေကြောင့် မလိုလားသော်လည်း ထိုသို့မဖြစ်မနေ လုပ်ဆောင်ရတော့မည်ဖြစ်ကြောင်း ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l11.s001",
+          "note": "The speaker had no option but to accept the decision."
+        },
+        {
+          "sentenceId": "n3.l11.s003",
+          "note": "Due to severe typhoons, the tournament had to be postponed."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.g002",
+      "lessonId": "n3.l11",
+      "pattern": "〜わけにはいかない",
+      "meaning": "cannot afford to; cannot possibly do (due to social/moral constraints)",
+      "formation": "[Verb dictionary form] + わけにはいかない\n[Verb ない-form] + わけにはいかない (must do / cannot avoid doing)",
+      "explanation": {
+        "en": "Indicates that social expectations, ethical conscience, professional duty, or common sense prohibit someone from performing an action. When used with a negative verb (ないわけにはいかない), it means one is duty-bound to do it.",
+        "my": "လူမှုရေးကျင့်ဝတ်၊ တာဝန်သိစိတ် (သို့မဟုတ်) အခြေအနေအရ ထိုသို့လုပ်ဆောင်ရန် မဖြစ်နိုင်ကြောင်း (မလုပ်ဘဲမနေရကြောင်း) ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l11.s002",
+          "note": "As project leader, one cannot abandon responsibility."
+        },
+        {
+          "sentenceId": "n3.l11.s008",
+          "note": "In this serious negotiation, we cannot compromise on core safety standards."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l11.s001",
+      "lessonId": "n3.l11",
+      "ja": "これほど明確な証拠がある以上、会社側の判断を受け入れざるを得ない。",
+      "kana": "これほど めいかくな しょうこが あるいじょう、かいしゃがわの はんだんを うけいれざるをえない。",
+      "translation": {
+        "en": "Now that there is such clear evidence, we have no choice but to accept the company’s judgment.",
+        "my": "ဤမျှလောက် ရှင်းလင်းသော သက်သေရှိနေသည့်အတွက် ကုမ္ပဏီဘက်မှ ဆုံးဖြတ်ချက်ကို လက်ခံရန်မှတစ်ပါး အခြားမရှိတော့ပေ။"
+      },
+      "vocabIds": [
+        "n3.l11.v001"
+      ],
+      "grammarIds": [
+        "n3.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.s002",
+      "lessonId": "n3.l11",
+      "ja": "チームの責任者である以上、途中で仕事を投げ出すわけにはいかない。",
+      "kana": "チームの せきにんしゃで あるいじょう、とちゅうで しごとを なげだす わけにはいかない。",
+      "translation": {
+        "en": "As the person in charge of the team, I cannot simply abandon the work midway.",
+        "my": "အသင်း၏တာဝန်ခံဖြစ်နေသမျှ ကာလပတ်လုံး အလုပ်ကို လမ်းခုလတ်တွင် ပစ်ထားခဲ့၍ မဖြစ်နိုင်ပါ။"
+      },
+      "vocabIds": [
+        "n3.l11.v002"
+      ],
+      "grammarIds": [
+        "n3.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.s003",
+      "lessonId": "n3.l11",
+      "ja": "台風の接近により、野外コンサートの開催を延期せざるを得ない。",
+      "kana": "たいふうの せっきんにより、やがいコンサートの かいさいを えんきせざるをえない。",
+      "translation": {
+        "en": "Due to the approaching typhoon, we are forced to postpone the outdoor concert.",
+        "my": "တိုင်ဖွန်းမုန်တိုင်း နီးကပ်လာခြင်းကြောင့် ပြင်ပတေးဂီတပွဲကျင်းပမှုကို ရွှေ့ဆိုင်းရန်မှတစ်ပါး အခြားမရှိပါ။"
+      },
+      "vocabIds": [
+        "n3.l11.v003"
+      ],
+      "grammarIds": [
+        "n3.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.s004",
+      "lessonId": "n3.l11",
+      "ja": "経営陣は苦渋の末に、不採算部門の閉鎖という結論を下した。",
+      "kana": "けいえいじんは くじゅうのすえに、ふさいさんぶもんの へいさという けつろんを くだした。",
+      "translation": {
+        "en": "After painful struggle, management made the decision to close the unprofitable division.",
+        "my": "စီမံခန့်ခွဲသူများသည် အခက်အခဲများစွာကြုံတွေ့ပြီးနောက် အကျိုးအမြတ်မထွက်သော ဌာနခွဲကို ပိတ်ပစ်ရန် နိဂုံးချုပ်ဆုံးဖြတ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l11.v004"
+      ],
+      "grammarIds": [
+        "n3.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.s005",
+      "lessonId": "n3.l11",
+      "ja": "社長は社員の将来を守るために、重要な決断を下した。",
+      "kana": "しゃちょうは しゃいんの しょうらいを まもるために、じゅうような けつだんを くだした。",
+      "translation": {
+        "en": "The president made a critical decision in order to protect the employees’ future.",
+        "my": "ကုမ္ပဏီဥက္ကဋ္ဌသည် ဝန်ထမ်းများ၏အနာဂတ်ကို ကာကွယ်ရန်အတွက် အရေးပါသော ဆုံးဖြတ်ချက်ကို ချမှတ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l11.v005"
+      ],
+      "grammarIds": [
+        "n3.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.s006",
+      "lessonId": "n3.l11",
+      "ja": "工場の設備に重大な不具合が見つかり、出荷を停止した。",
+      "kana": "こうじょうの せつびに じゅうだいな ふぐあいが みつかり、しゅっかを ていしした。",
+      "translation": {
+        "en": "A serious defect was found in the factory equipment, and shipments were suspended.",
+        "my": "စက်ရုံပစ္စည်းများတွင် ကြီးလေးသောချို့ယွင်းချက်ကို တွေ့ရှိခဲ့သဖြင့် ပစ္စည်းပေးပို့မှုကို ရပ်ဆိုင်းခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l11.v006"
+      ],
+      "grammarIds": [
+        "n3.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.s007",
+      "lessonId": "n3.l11",
+      "ja": "体調不良のため、せっかく推薦された役員への就任を辞退せざるを得ない。",
+      "kana": "たいちょうふりょうのため、せっかく すいせんされた やくいんへの しゅうにんを じたいせざるをえない。",
+      "translation": {
+        "en": "Due to poor health, I have no choice but to decline the nomination to the board of directors.",
+        "my": "ကျန်းမာရေးမကောင်းသဖြင့် အထူးထောက်ခံခံရသော ဒါရိုက်တာရာထူးလက်ခံမှုကို ငြင်းပယ်ရန်မှတစ်ပါး အခြားမရှိတော့ပေ။"
+      },
+      "vocabIds": [
+        "n3.l11.v007"
+      ],
+      "grammarIds": [
+        "n3.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.s008",
+      "lessonId": "n3.l11",
+      "ja": "安全に関わる最優先事項については、一切妥協するわけにはいかない。",
+      "kana": "あんぜんに かかわる さいゆうせんじこうについては、いっさい だきょうする わけにはいかない。",
+      "translation": {
+        "en": "When it comes to top-priority safety matters, we cannot afford to compromise at all.",
+        "my": "ဘေးကင်းလုံခြုံရေးနှင့်သက်ဆိုင်သော ထိပ်တန်းဦးစားပေးကိစ္စများတွင် လုံးဝညှိနှိုင်းလိုက်လျော၍ မဖြစ်နိုင်ပါ။"
+      },
+      "vocabIds": [
+        "n3.l11.v008"
+      ],
+      "grammarIds": [
+        "n3.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.s009",
+      "lessonId": "n3.l11",
+      "ja": "将来のリスクを避けるために、事前の点検を徹底して行う。",
+      "kana": "しょうらいの リスクを さけるために、じぜんの てんけんを てっていして おこなう。",
+      "translation": {
+        "en": "In order to avoid future risks, we will thoroughly conduct preliminary inspections.",
+        "my": "အနာဂတ်အန္တရာယ်များကို ရှောင်ရှားရန်အတွက် ကြိုတင်စစ်ဆေးမှုများကို စေ့စပ်သေချာစွာ ပြုလုပ်မည်။"
+      },
+      "vocabIds": [
+        "n3.l11.v009"
+      ],
+      "grammarIds": [
+        "n3.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.s010",
+      "lessonId": "n3.l11",
+      "ja": "一度引き受けた仕事を、理由もなく断るわけにはいかない。",
+      "kana": "いちど ひきうけた しごとを、りゆうもなく ことわる わけにはいかない。",
+      "translation": {
+        "en": "Once having undertaken a job, one cannot refuse it without a valid reason.",
+        "my": "တစ်ကြိမ်လက်ခံပြီးသော အလုပ်တစ်ခုကို အကြောင်းပြချက်မရှိဘဲ ငြင်းပယ်၍ မဖြစ်နိုင်ပါ။"
+      },
+      "vocabIds": [
+        "n3.l11.v010"
+      ],
+      "grammarIds": [
+        "n3.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.s011",
+      "lessonId": "n3.l11",
+      "ja": "国民として税金を納めるのは、法律によって定められた義務である。",
+      "kana": "こくみんとして ぜいきんを おさめるのは、ほうりつによって さだめられた ぎむである。",
+      "translation": {
+        "en": "Paying taxes as a citizen is an obligation defined by law.",
+        "my": "နိုင်ငံသားတစ်ဦးအနေဖြင့် အခွန်ဆောင်ခြင်းသည် ဥပဒေဖြင့် သတ်မှတ်ထားသော ဝတ္တရားဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n3.l11.v011"
+      ],
+      "grammarIds": [
+        "n3.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l11.s012",
+      "lessonId": "n3.l11",
+      "ja": "長年の地道な研究を通して、貴重な知見を得ることができた。",
+      "kana": "ながねんの じみちな けんきゅうを とおして、きちょうな ちけんを えることが できた。",
+      "translation": {
+        "en": "Through years of diligent research, we were able to acquire valuable insights.",
+        "my": "နှစ်ရှည်လများ မနားတမ်း သုတေသနပြုလုပ်ခြင်းဖြင့် အဖိုးတန်သော အသိပညာများကို ရရှိနိုင်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n3.l11.v012"
+      ],
+      "grammarIds": [
+        "n3.l11.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l11.r01",
+    "lessonId": "n3.l11",
+    "title": "Crisis Management and the Tough Call on Product Launch",
+    "level": "N3",
+    "text": "新製品の発売を一週間後に控えた段階で、品質管理部門から重大な連絡が入った。製品のバッテリー制御プログラムに、極めてまれな条件下で異常発熱を引き起こす不具合が発見されたのである。\n\n営業部門はすでに大規模な広告キャンペーンを展開しており、予定通りの発売を強く望んでいた。しかし、消費者の安全に関わる重大な欠陥を見過ごしたまま市場に出すわけにはいかない。万が一事故が起これば、これまで築き上げてきた企業の信頼は一瞬にして失われてしまうからである。\n\n経営会議において激しい議論が交わされた末、社長は「製品の安全性が完全に証明されない限り、発売を延期せざるを得ない」という苦渋の決断を下した。予約していた顧客への謝罪や関連取引先への補償など、対応すべき課題は山積みである。しかし、企業の社会的責任を果たすためには、目先の利益を優先して安全性を軽視するわけにはいかないのである。",
+    "kanaText": "新製品の発売を一週間後に控えた段階で、品質管理部門から重大な連絡が入った。製品のバッテリー制御プログラムに、極めてまれな条件下で異常発熱を引き起こす不具合が発見されたのである。\n\n営業部門はすでに大規模な広告キャンペーンを展開しており、予定通りの発売を強く望んでいた。しかし、消費者の安全に関わる重大な欠陥を見過ごしたまま市場に出すわけにはいかない。万が一事故が起これば、これまで築き上げてきた企業の信頼は一瞬にして失われてしまうからである。\n\n経営会議において激しい議論が交わされた末、社長は「製品の安全性が完全に証明されない限り、発売を延期せざるを得ない」という苦渋の決断を下した。予約していた顧客への謝罪や関連取引先への補償など、対応すべき課題は山積みである。しかし、企業の社会的責任を果たすためには、目先の利益を優先して安全性を軽視するわけにはいかないのである。",
+    "translation": "With the launch of the new product just one week away, critical news arrived from the quality management department. A defect had been discovered in the product's battery control program that causes abnormal overheating under extremely rare conditions.\n\nThe sales department had already launched a large-scale advertising campaign and strongly wished to proceed with the release as scheduled. However, one cannot afford to release a product to market while overlooking a grave flaw that affects consumer safety. If an accident were to occur, the corporate trust built over many years would be lost in an instant.\n\nAfter fierce debate at the executive meeting, the president made the painful decision: \"Unless the safety of the product is completely proven, we have no choice but to postpone the launch.\" There is a mountain of challenges to handle, including apologies to customers with reservations and compensation for business partners. However, in order to fulfill corporate social responsibility, one cannot compromise safety in favor of short-term profit.",
+    "questionIds": [
+      "n3.l11.q025",
+      "n3.l11.q026",
+      "n3.l11.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l11.l01",
+    "lessonId": "n3.l11",
+    "title": "Dialogue: Emergency Weekend Overtime Decision",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "山田：課長、来週月曜日に納品予定のシステムですが、サーバー移行テストでエラーが発生しました。\n課長：えっ、本当かい？原因は特定できているのか？\n山田：はい、設定ファイルの不整合が原因だと判明しました。修正には丸一日かかります。\n課長：月曜日の朝九時にはクライアントに引き渡さなければならない。納期を遅らせるわけにはいかないね。\n山田：はい。そのため、大変恐縮ですが、週末に休日出勤をして対応せざるを得ない状況です。\n課長：分かった。チームのみんなには苦労をかけるが、私も土曜日に立ち会おう。万全の体制で乗り切ろう。",
+    "translation": "Yamada: Section Manager, regarding the system scheduled for delivery next Monday, an error occurred during the server migration test.\nManager: What, really? Has the cause been identified?\nYamada: Yes, it was determined to be caused by a configuration file inconsistency. Fixing it will take a full day.\nManager: We have to hand it over to the client by 9:00 AM on Monday. We cannot afford to delay the deadline.\nYamada: Right. Therefore, I am terribly sorry, but we are in a situation where we have no choice but to come in on the weekend to address it.\nManager: Understood. It is tough on the team, but I will be there on Saturday too. Let's overcome this with full preparation.",
+    "turns": [],
+    "questionIds": [
+      "n3.l11.q028",
+      "n3.l11.q029",
+      "n3.l11.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l11.q001",
+      "lessonId": "n3.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉の意味として最も適切なものを一つ選びなさい。\n「社長は社員の将来を守るために、重要な【決断】を下した。」",
+      "choices": [
+        "迷い続けること",
+        "はっきりと心を決めること",
+        "意見を聞いて回ること",
+        "計画を先延ばしにすること"
+      ],
+      "answer": "はっきりと心を決めること",
+      "acceptedAnswers": [
+        "はっきりと心を決めること"
+      ],
+      "explanation": "「決断（けつだん）」は重大な物事について態度や方針をきっぱりと定めることを意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q002",
+      "lessonId": "n3.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「工場の設備に（　）な欠陥が見つかり、ただちに製造ラインを停止した。」",
+      "choices": [
+        "重大",
+        "不満",
+        "退屈",
+        "幸運"
+      ],
+      "answer": "重大",
+      "acceptedAnswers": [
+        "重大"
+      ],
+      "explanation": "「重大（じゅうだい）な欠陥」は結果や影響が極めて深刻で大きい不具合を指します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q003",
+      "lessonId": "n3.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「悪天候のため、野外イベントの開催を来週に（　）することになった。」",
+      "choices": [
+        "延期",
+        "解散",
+        "採用",
+        "辞退"
+      ],
+      "answer": "延期",
+      "acceptedAnswers": [
+        "延期"
+      ],
+      "explanation": "予定期日を先へ延ばすことは「延期（えんき）」と言います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q004",
+      "lessonId": "n3.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉の類義語として最も適切なものを一つ選びなさい。\n「双方の意見が対立したため、【妥協】点を探ることにした。」",
+      "choices": [
+        "譲り合い",
+        "言い争い",
+        "競争",
+        "無視"
+      ],
+      "answer": "譲り合い",
+      "acceptedAnswers": [
+        "譲り合い"
+      ],
+      "explanation": "「妥協（だきょう）」は双方が譲り合って一致点を見出すことです。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q005",
+      "lessonId": "n3.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「健康上の理由により、役員への推薦を（　）させていただきました。」",
+      "choices": [
+        "辞退",
+        "延期",
+        "希望",
+        "後悔"
+      ],
+      "answer": "辞退",
+      "acceptedAnswers": [
+        "辞退"
+      ],
+      "explanation": "勧められた地位や権利などを断って引き下がるときは「辞退（じたい）」を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q006",
+      "lessonId": "n3.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "下線の言葉に最も近い意味の表現を選びなさい。\n「危険を【避ける】ため、迂回路を通って目的地へ向かった。」",
+      "choices": [
+        "回避する",
+        "歓迎する",
+        "発見する",
+        "期待する"
+      ],
+      "answer": "回避する",
+      "acceptedAnswers": [
+        "回避する"
+      ],
+      "explanation": "「避ける（さける）」は不都合や危険から身をかわす、すなわち「回避する」ことです。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q007",
+      "lessonId": "n3.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「一度（　）仕事は、途中で投げ出さずに責任を持ってやり遂げるべきだ。」",
+      "choices": [
+        "引き受けた",
+        "見落とした",
+        "避けた",
+        "逃げ出した"
+      ],
+      "answer": "引き受けた",
+      "acceptedAnswers": [
+        "引き受けた"
+      ],
+      "explanation": "仕事や依頼を自分の任務として受けることは「引き受ける」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q008",
+      "lessonId": "n3.l11",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切な言葉を一つ選びなさい。\n「国民が納税することは、法律で定められた基本的な（　）である。」",
+      "choices": [
+        "義務",
+        "興味",
+        "趣味",
+        "特典"
+      ],
+      "answer": "義務",
+      "acceptedAnswers": [
+        "義務"
+      ],
+      "explanation": "法や道徳上果たさなければならない務めは「義務（ぎむ）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q009",
+      "lessonId": "n3.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「長年の研究により、新しい技術を【得】ることができた。」",
+      "choices": [
+        "える",
+        "とる",
+        "しる",
+        "みる"
+      ],
+      "answer": "える",
+      "acceptedAnswers": [
+        "える"
+      ],
+      "explanation": "「得る」は訓読みで「える（うる）」と読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q010",
+      "lessonId": "n3.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「事故のリスクを【避】ける方法を考える。」",
+      "choices": [
+        "さける",
+        "わける",
+        "うける",
+        "かける"
+      ],
+      "answer": "さける",
+      "acceptedAnswers": [
+        "さける"
+      ],
+      "explanation": "「避ける」は「さける」と読みます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q011",
+      "lessonId": "n3.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「プロジェクトの【責任】を持つ。」",
+      "choices": [
+        "せきにん",
+        "そうにん",
+        "せきじん",
+        "しゃにん"
+      ],
+      "answer": "せきにん",
+      "acceptedAnswers": [
+        "せきにん"
+      ],
+      "explanation": "「責任」の読みは「せきにん」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q012",
+      "lessonId": "n3.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の言葉を漢字で書くとき、最も適切なものを一つ選びなさい。\n「彼に仕事を【まかせる】ことにした。」",
+      "choices": [
+        "任せる",
+        "得せる",
+        "避せる",
+        "責せる"
+      ],
+      "answer": "任せる",
+      "acceptedAnswers": [
+        "任せる"
+      ],
+      "explanation": "ゆだねる・託すの「まかせる」は「任せる」と書きます。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q013",
+      "lessonId": "n3.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の言葉を漢字で書くとき、最も適切なものを一つ選びなさい。\n「失敗した部下を厳しく【せめる】。」",
+      "choices": [
+        "責める",
+        "攻める",
+        "迫る",
+        "極める"
+      ],
+      "answer": "責める",
+      "acceptedAnswers": [
+        "責める"
+      ],
+      "explanation": "過失や責任を追及・非難する場合は「責める」を用います（攻撃は「攻める」）。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q014",
+      "lessonId": "n3.l11",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "下線の漢字の正しい読み方を一つ選びなさい。\n「説明を聞いて深く【納得】した。」",
+      "choices": [
+        "なっとく",
+        "のうとく",
+        "なつとく",
+        "とうとく"
+      ],
+      "answer": "なっとく",
+      "acceptedAnswers": [
+        "なっとく"
+      ],
+      "explanation": "「納得」の読みは「なっとく」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q015",
+      "lessonId": "n3.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「これだけ赤字が続けば、事業規模を縮小（　）。」",
+      "choices": [
+        "せざるを得ない",
+        "するわけにはいかない",
+        "するにすぎない",
+        "しつつある"
+      ],
+      "answer": "せざるを得ない",
+      "acceptedAnswers": [
+        "せざるを得ない"
+      ],
+      "explanation": "やむを得ない事情で不本意ながらそうせざるを得ないときは「せざるを得ない（するの否定形）」を使います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q016",
+      "lessonId": "n3.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「明日は大切な試験があるので、今夜遊ぶ（　）。」",
+      "choices": [
+        "わけにはいかない",
+        "ざるを得ない",
+        "にほかならない",
+        "にすぎない"
+      ],
+      "answer": "わけにはいかない",
+      "acceptedAnswers": [
+        "わけにはいかない"
+      ],
+      "explanation": "社会的・常識的・個人的な義務や責任から「〜することは許されない・できない」ときは「〜わけにはいかない」を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q017",
+      "lessonId": "n3.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「親友の結婚式だから、どんなに忙しくても出席（　）。」",
+      "choices": [
+        "しないわけにはいかない",
+        "せざるを得ない",
+        "するわけにはいかない",
+        "しそうにない"
+      ],
+      "answer": "しないわけにはいかない",
+      "acceptedAnswers": [
+        "しないわけにはいかない"
+      ],
+      "explanation": "「ないわけにはいかない」で「義理や情理から、出席しないわけにはいかない（必ず出席しなければならない）」という強い義務を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q018",
+      "lessonId": "n3.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「台風で電車が止まってしまったので、ホテルに泊まら（　）。」",
+      "choices": [
+        "ざるを得なかった",
+        "わけにはいかなかった",
+        "ないわけがなかった",
+        "ないに決まっていた"
+      ],
+      "answer": "ざるを得なかった",
+      "acceptedAnswers": [
+        "ざるを得なかった"
+      ],
+      "explanation": "「泊まる」の未然形「泊まら」＋「ざるを得なかった」で、不本意ながら泊まるしか選択肢がなかったことを表します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q019",
+      "lessonId": "n3.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "正しい文になるように言葉を並べ替えたとき、【　★　】に入るものを選びなさい。\n「証拠が＿＿＿　＿＿＿　【　★　】　＿＿＿ざるを得ない。」",
+      "choices": [
+        "1: 発見された",
+        "2: 以上は",
+        "3: 認める",
+        "4: 事実を"
+      ],
+      "answer": "4: 事実を",
+      "acceptedAnswers": [
+        "4: 事実を"
+      ],
+      "explanation": "正しい並び順は「証拠が [1: 発見された] [2: 以上は] [4: 事実を] [3: 認める] ざるを得ない。」となります。★は4番です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q020",
+      "lessonId": "n3.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「お客様からお預かりした大事な個人情報を漏らす（　）。」",
+      "choices": [
+        "わけにはいかない",
+        "ざるを得ない",
+        "にちがいない",
+        "はずがない"
+      ],
+      "answer": "わけにはいかない",
+      "acceptedAnswers": [
+        "わけにはいかない"
+      ],
+      "explanation": "倫理・規律・義務として漏洩することは絶対にできないため「〜わけにはいかない」が正解です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q021",
+      "lessonId": "n3.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「新型ウイルスの感染拡大に伴い、イベントを中止（　）。」",
+      "choices": [
+        "せざるを得なくなった",
+        "するわけにはいかなくなった",
+        "するにすぎなくなった",
+        "したくなった"
+      ],
+      "answer": "せざるを得なくなった",
+      "acceptedAnswers": [
+        "せざるを得なくなった"
+      ],
+      "explanation": "「する」の変化形は「せざるを得ない」となります。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q022",
+      "lessonId": "n3.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ざるを得ない」と「〜わけにはいかない」の使い分けとして最も適切な説明を選びなさい。",
+      "choices": [
+        "「〜ざるを得ない」は嫌だがやむを得ずすること、「〜わけにはいかない」は義務や事情でしてはならないことを表す",
+        "「〜ざるを得ない」は希望を表し、「〜わけにはいかない」は禁止を表す",
+        "どちらも過去の習慣を表す",
+        "「〜ざるを得ない」は他人の命令だけに使われる"
+      ],
+      "answer": "「〜ざるを得ない」は嫌だがやむを得ずすること、「〜わけにはいかない」は義務や事情でしてはならないことを表す",
+      "acceptedAnswers": [
+        "「〜ざるを得ない」は嫌だがやむを得ずすること、「〜わけにはいかない」は義務や事情でしてはならないことを表す"
+      ],
+      "explanation": "「ざるを得ない」は仕方なくする行為、「わけにはいかない」は道理・社会的制約によりできない行為を示します。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q023",
+      "lessonId": "n3.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「車を運転する予定があるのだから、お酒を飲む（　）。」",
+      "choices": [
+        "わけにはいかない",
+        "ざるを得ない",
+        "に相違ない",
+        "かのようだ"
+      ],
+      "answer": "わけにはいかない",
+      "acceptedAnswers": [
+        "わけにはいかない"
+      ],
+      "explanation": "飲酒運転は法律・社会規範上絶対に許されないため「飲むわけにはいかない」です。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q024",
+      "lessonId": "n3.l11",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文の（　）に入れるのに最も適切なものを一つ選びなさい。\n「相手の提案に納得はしていないが、契約を成立させるためには同意（　）。」",
+      "choices": [
+        "せざるを得ない",
+        "するわけにはいかない",
+        "するべきではない",
+        "しそうにない"
+      ],
+      "answer": "せざるを得ない",
+      "acceptedAnswers": [
+        "せざるを得ない"
+      ],
+      "explanation": "納得いかないが目的達成のために仕方なく同意せざるを得ない状況を表しています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q025",
+      "lessonId": "n3.l11",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "新製品の発売に関して、品質管理部門からどのような連絡があったか。",
+      "choices": [
+        "バッテリー制御プログラムに異常発熱を引き起こす不具合が見つかった",
+        "広告キャンペーンが失敗したため予算が足りなくなった",
+        "顧客からの予約が想定より大幅に少なかった",
+        "工場の製造ラインがすべて故障した"
+      ],
+      "answer": "バッテリー制御プログラムに異常発熱を引き起こす不具合が見つかった",
+      "acceptedAnswers": [
+        "バッテリー制御プログラムに異常発熱を引き起こす不具合が見つかった"
+      ],
+      "explanation": "本文冒頭に「製品のバッテリー制御プログラムに、極めてまれな条件下で異常発熱を引き起こす不具合が発見された」と明記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q026",
+      "lessonId": "n3.l11",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "営業部門の希望に反して社長が発売延期を決断したのはなぜか。",
+      "choices": [
+        "消費者の安全に関わる欠陥を見過ごすことはできず、信頼喪失を防ぐため",
+        "競合他社がより優れた製品を発売したため",
+        "顧客への補償金を支払いたくなかったため",
+        "広告費用の回収を急ぐ必要がなくなったため"
+      ],
+      "answer": "消費者の安全に関わる欠陥を見過ごすことはできず、信頼喪失を防ぐため",
+      "acceptedAnswers": [
+        "消費者の安全に関わる欠陥を見過ごすことはできず、信頼喪失を防ぐため"
+      ],
+      "explanation": "消費者の安全に関わる重大な欠陥を見過ごしたまま市場に出すわけにはいかず、事故が起これば信頼を失うため延期を決断したと述べられています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q027",
+      "lessonId": "n3.l11",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "文章の内容と合致しているものはどれか。",
+      "choices": [
+        "企業の社会的責任を果たすため、目先の利益よりも安全性を最優先した",
+        "社長は営業部門の強い要望に従って予定通り発売することにした",
+        "不具合の原因はまだ分かっていないため調査を中止した",
+        "予約していた顧客には何も説明しないことにした"
+      ],
+      "answer": "企業の社会的責任を果たすため、目先の利益よりも安全性を最優先した",
+      "acceptedAnswers": [
+        "企業の社会的責任を果たすため、目先の利益よりも安全性を最優先した"
+      ],
+      "explanation": "結びの部分で「企業の社会的責任を果たすためには、目先の利益を優先して安全性を軽視するわけにはいかない」と述べられています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q028",
+      "lessonId": "n3.l11",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "山田さんはシステムについてどのような問題を報告したか。",
+      "choices": [
+        "サーバー移行テストでエラーが発生し、修正に丸一日かかる",
+        "クライアントが納期を急に一週間早めた",
+        "設定ファイルが完全に消去されて復旧できない",
+        "週末の出勤をチーム全員が拒否している"
+      ],
+      "answer": "サーバー移行テストでエラーが発生し、修正に丸一日かかる",
+      "acceptedAnswers": [
+        "サーバー移行テストでエラーが発生し、修正に丸一日かかる"
+      ],
+      "explanation": "山田さんは「サーバー移行テストでエラーが発生しました」「修正には丸一日かかります」と伝えています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q029",
+      "lessonId": "n3.l11",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "なぜ週末に出勤しなければならなくなったのか。",
+      "choices": [
+        "月曜日朝の納期を遅らせるわけにはいかないため",
+        "クライアントから追加の機能開発を頼まれたため",
+        "課長が土曜日に暇だったため",
+        "平日の残業時間が法律の上限を超えたため"
+      ],
+      "answer": "月曜日朝の納期を遅らせるわけにはいかないため",
+      "acceptedAnswers": [
+        "月曜日朝の納期を遅らせるわけにはいかないため"
+      ],
+      "explanation": "課長が「月曜日の朝九時にはクライアントに引き渡さなければならない。納期を遅らせるわけにはいかないね」と理由を明確にしています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    },
+    {
+      "id": "n3.l11.q030",
+      "lessonId": "n3.l11",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "会話の最後に課長はどのような対応をとることにしたか。",
+      "choices": [
+        "自身も土曜日に出勤して立ち会うことにした",
+        "山田さん一人だけにすべての作業を任せることにした",
+        "クライアントに電話して納期延期を申し出ることにした",
+        "プロジェクトの中止を決定した"
+      ],
+      "answer": "自身も土曜日に出勤して立ち会うことにした",
+      "acceptedAnswers": [
+        "自身も土曜日に出勤して立ち会うことにした"
+      ],
+      "explanation": "課長は「私も土曜日に立ち会おう。万全の体制で乗り切ろう」と答えています。",
+      "difficulty": 2,
+      "linkedItemIds": [],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}

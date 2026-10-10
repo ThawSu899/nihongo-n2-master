@@ -1,0 +1,1706 @@
+{
+  "id": "n3.l05",
+  "level": "N3",
+  "module": "N3 Bridging Intermediate",
+  "number": 5,
+  "title": "N3 Lesson 5: Degree & Comparison (程度・比較: 〜ほど vs 〜くらい)",
+  "description": "Master expressing degrees, maximum thresholds, and correlations with 〜ほど and approximations, baseline minimums, or extents with 〜くらい.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.85,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l05.v001",
+      "lessonId": "n3.l05",
+      "ja": "程度",
+      "kana": "ていど",
+      "en": "degree; level; extent; grade",
+      "my": "အတိုင်းအတာ/အဆင့်/ပမာဏ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l05.s001",
+      "kanjiIds": [
+        "n3.l05.k001"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.v002",
+      "lessonId": "n3.l05",
+      "ja": "限界",
+      "kana": "げんかい",
+      "en": "limit; boundary; threshold; maximum capacity",
+      "my": "အကန့်အသတ်/အမြင့်ဆုံးစွမ်းရည်စည်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l05.s002",
+      "kanjiIds": [
+        "n3.l05.k002"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.v003",
+      "lessonId": "n3.l05",
+      "ja": "比較する",
+      "kana": "ひかくする",
+      "en": "to compare; to make a comparison",
+      "my": "နှိုင်းယှဉ်သည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n3.l05.s003",
+      "kanjiIds": [
+        "n3.l05.k003",
+        "n3.l05.k004"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.v004",
+      "lessonId": "n3.l05",
+      "ja": "比べる",
+      "kana": "くらべる",
+      "en": "to compare; to compete with",
+      "my": "နှိုင်းယှဉ်ကြည့်သည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n3.l05.s004",
+      "kanjiIds": [
+        "n3.l05.k003"
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.v005",
+      "lessonId": "n3.l05",
+      "ja": "非常に",
+      "kana": "ひじょうに",
+      "en": "extremely; remarkably; unusually",
+      "my": "အလွန်ပင်/ထူးကဲစွာ",
+      "pos": "adverb",
+      "exampleSentenceId": "n3.l05.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.v006",
+      "lessonId": "n3.l05",
+      "ja": "相当な",
+      "kana": "そうとうな",
+      "en": "considerable; substantial; equivalent to",
+      "my": "မနည်းလှသော/တော်တော်များများဖြစ်သော",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l05.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.v007",
+      "lessonId": "n3.l05",
+      "ja": "わずかな",
+      "kana": "わずかな",
+      "en": "slight; tiny; mere; negligible",
+      "my": "မပြောပလောက်သော/အနည်းငယ်မျှသော",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l05.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.v008",
+      "lessonId": "n3.l05",
+      "ja": "減らす",
+      "kana": "へらす",
+      "en": "to reduce; to decrease; to curtail",
+      "my": "လျှော့ချသည်/လျော့နည်းစေသည်",
+      "pos": "verb-godan",
+      "exampleSentenceId": "n3.l05.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.v009",
+      "lessonId": "n3.l05",
+      "ja": "増える",
+      "kana": "ふえる",
+      "en": "to increase; to multiply; to proliferate",
+      "my": "တိုးပွားလာသည်/များပြားလာသည်",
+      "pos": "verb-ichidan",
+      "exampleSentenceId": "n3.l05.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.v010",
+      "lessonId": "n3.l05",
+      "ja": "満足する",
+      "kana": "まんぞくする",
+      "en": "to be satisfied; to be content",
+      "my": "ကျေနပ်အားရသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n3.l05.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.v011",
+      "lessonId": "n3.l05",
+      "ja": "基準",
+      "kana": "きじゅん",
+      "en": "standard; benchmark; criterion",
+      "my": "စံနှုန်း/သတ်မှတ်စံ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l05.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.v012",
+      "lessonId": "n3.l05",
+      "ja": "達する",
+      "kana": "たっする",
+      "en": "to reach; to attain; to amount to",
+      "my": "ရောက်ရှိသည်/ပြည့်မီသည်",
+      "pos": "verb-suru",
+      "exampleSentenceId": "n3.l05.s012",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l05.k001",
+      "lessonId": "n3.l05",
+      "char": "程",
+      "meaning": "degree; extent; bounds; progress",
+      "onyomi": [
+        "テイ"
+      ],
+      "kunyomi": [
+        "ほど"
+      ],
+      "exampleVocab": [
+        {
+          "word": "程度",
+          "reading": "ていど",
+          "meaning": "degree/level",
+          "preview": false
+        },
+        {
+          "word": "日程",
+          "reading": "にってい",
+          "meaning": "schedule/itinerary",
+          "preview": false
+        },
+        {
+          "word": "過程",
+          "reading": "かてい",
+          "meaning": "process/course",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l05.s001"
+      ],
+      "components": [
+        "禾",
+        "呈"
+      ],
+      "strokes": 12,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.k002",
+      "lessonId": "n3.l05",
+      "char": "限",
+      "meaning": "limit; restrict; boundary; threshold",
+      "onyomi": [
+        "ゲン"
+      ],
+      "kunyomi": [
+        "かぎ・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "限界",
+          "reading": "げんかい",
+          "meaning": "limit/threshold",
+          "preview": false
+        },
+        {
+          "word": "期限",
+          "reading": "きげん",
+          "meaning": "time limit/deadline",
+          "preview": false
+        },
+        {
+          "word": "制限",
+          "reading": "せいげん",
+          "meaning": "restriction/limitation",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l05.s002"
+      ],
+      "components": [
+        "阝",
+        "艮"
+      ],
+      "strokes": 9,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.k003",
+      "lessonId": "n3.l05",
+      "char": "比",
+      "meaning": "compare; ratio; competition",
+      "onyomi": [
+        "ヒ"
+      ],
+      "kunyomi": [
+        "くら・べる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "比較",
+          "reading": "ひかく",
+          "meaning": "comparison",
+          "preview": false
+        },
+        {
+          "word": "比べる",
+          "reading": "くらべる",
+          "meaning": "to compare",
+          "preview": false
+        },
+        {
+          "word": "比例",
+          "reading": "ひれい",
+          "meaning": "proportion",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l05.s003"
+      ],
+      "components": [
+        "匕",
+        "匕"
+      ],
+      "strokes": 4,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.k004",
+      "lessonId": "n3.l05",
+      "char": "較",
+      "meaning": "compare; contrast; clearly",
+      "onyomi": [
+        "カク"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "比較",
+          "reading": "ひかく",
+          "meaning": "comparison",
+          "preview": false
+        },
+        {
+          "word": "比較的",
+          "reading": "ひかくてき",
+          "meaning": "comparatively/relatively",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l05.s003"
+      ],
+      "components": [
+        "車",
+        "交"
+      ],
+      "strokes": 10,
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l05.g001",
+      "lessonId": "n3.l05",
+      "pattern": "〜ほど",
+      "meaning": "so ... that; to the extent that; not as ... as; the more ... the more",
+      "formation": "[Verb Dictionary form / ない-form] + ほど\n[Noun] + ほど\n[Noun] + ほど ... ない (negative comparison: not as ... as)\n[Verb 条件形 ば] + [Verb 辞書形] + ほど (proportional progression)",
+      "explanation": {
+        "en": "Expresses high degree, extreme comparison, or proportional change:\n1. Extreme Extent: Expresses that an emotion, state, or event reaches such an intense level that a vivid reaction occurs (e.g., 涙が出るほど嬉しい = So happy that tears come out).\n2. Negative Comparison: States that nothing surpasses or matches a benchmark (e.g., 健康ほど大切なものはない = Nothing is as important as health).\n3. Proportional Progression: [〜ば〜ほど] (e.g., 考えれば考えるほど分からない = The more I think, the less I understand).",
+        "my": "မြင့်မားသော အတိုင်းအတာ၊ အစွန်းရောက် နှိုင်းယှဉ်မှု သို့မဟုတ် အချိုးကျ ပြောင်းလဲမှုများကို ဖော်ပြသည်:\n၁။ ပြင်းထန်သော အတိုင်းအတာ: ခံစားချက် သို့မဟုတ် အခြေအနေတစ်ခုသည် မျက်ရည်ကျလောက်အောင် ပြင်းထန်မှုကို ဖော်ပြသည် (ဥပမာ- မျက်ရည်ထွက်လောက်အောင် ပျော်ရွှင်သည်)။\n၂။ အငြင်းနှိုင်းယှဉ်ချက်: ...လောက် မည်သည့်အရာမျှ မ...ပါ (ဥပမာ- ကျန်းမာရေးလောက် အရေးကြီးသောအရာ မရှိပါ)။\n၃။ အချိုးကျ တိုးတက်ပြောင်းလဲမှု: [〜ば〜ほど] (ဥပမာ- တွေးလေလေ ပိုမိုနားမလည်လေလေ ဖြစ်သည်)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l05.s005",
+          "note": "So busy that one wants to borrow even a cat's paws."
+        },
+        {
+          "sentenceId": "n3.l05.s006",
+          "note": "Nothing is as valuable as deep mutual trust."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not confuse ほど with だけ when expressing limitation (ほど implies an upper degree, not absolute exclusion).",
+        "When using ほど〜ない for negative comparison, the target of comparison must take ほど (❌ 私より彼が忙しくない → ⭕️ 彼は私ほど忙しくない)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.g002",
+      "lessonId": "n3.l05",
+      "pattern": "〜くらい",
+      "meaning": "approximately; to the extent that; at least; as trivial as (rough estimation, minimal degree, or colloquial extent)",
+      "formation": "[Noun] + くらい / ぐらい\n[Verb Plain form] + くらい\n[Noun] + くらい / ぐらい (minimal baseline: at least / as trivial as)",
+      "explanation": {
+        "en": "Expresses approximation, baseline minimal standard, or degree:\n1. Approximate Quantity: Used with numbers or counters (e.g., 1時間くらい待った = Waited about one hour).\n2. Minimum or Trivial Standard: Implies that something is so basic or light that anyone should do it, or downplays importance (e.g., 自分の靴くらい自分で揃えなさい = At least line up your own shoes by yourself).\n3. Extent: Similar to ほど in conversational Japanese, but conveys a slightly lighter or more colloquial tone.",
+        "my": "ခန့်မှန်းခြေ ပမာဏ၊ အနိမ့်ဆုံး စံနှုန်း သို့မဟုတ် အတိုင်းအတာကို ဖော်ပြသည်:\n၁။ ခန့်မှန်းခြေ အရေအတွက်: ဂဏန်းများနှင့် တွဲဖက်၍ \"ခန့်/လောက်\" ဟု သုံးသည် (ဥပမာ- ၁ နာရီခန့် စောင့်ခဲ့သည်)။\n၂။ အနိမ့်ဆုံး အခြေခံစံနှုန်း: ဤမျှလောက် အခြေခံကျသော အသေးအဖွဲကိစ္စကိုတော့ မိမိဘာသာ လုပ်သင့်သည်ဟူသော သဘောကို ဆောင်သည် (ဥပမာ- မိမိဖိနပ်လောက်တော့ ကိုယ်တိုင်စီထားပါ)။\n၃။ အတိုင်းအတာ: နေ့စဉ်စကားပြောတွင် ほど နှင့် ဆင်တူသော်လည်း ပိုမိုပေါ့ပါးသော အသံထွက်ဟန် ရှိသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n3.l05.s007",
+          "note": "At least clean one's own desk."
+        },
+        {
+          "sentenceId": "n3.l05.s010",
+          "note": "So funny to the extent of bursting out laughing."
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Do not use くらい for deep proportional correlations like 〜ば〜ほど (❌ 読めば読むくらい → ⭕️ 読めば読むほど).",
+        "Remember that くらい carries a dismissive or minimal nuance when applied to people or actions (e.g. 挨拶くらいしなさい)."
+      ],
+      "level": "N3",
+      "difficulty": 2,
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l05.s001",
+      "lessonId": "n3.l05",
+      "ja": "日常会話が理解できる程度の日本語能力を身につけたいです。",
+      "kana": "にちじょうかいわが りかい できる ていどの にほんご のうりょくを みにつけたいです。",
+      "translation": {
+        "en": "I want to acquire Japanese language proficiency to the degree of understanding daily conversation.",
+        "my": "နေ့စဉ်စကားပြောကို နားလည်နိုင်သော အတိုင်းအတာအထိ ဂျပန်ဘာသာစကား စွမ်းရည်ကို တတ်မြောက်လိုပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l05.v001"
+      ],
+      "grammarIds": [
+        "n3.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.s002",
+      "lessonId": "n3.l05",
+      "ja": "徹夜で作業を続け、体力の限界に達して倒れそうになりました。",
+      "kana": "てつやで さぎょうを つづけ、たいりょくの げんかいに たっして たおれそうに なりました。",
+      "translation": {
+        "en": "Continuing to work all night, I reached the limit of my physical stamina and almost collapsed.",
+        "my": "တစ်ညလုံး အိပ်ရေးပျက်ခံ အလုပ်ဆက်လုပ်ခဲ့သဖြင့် ခန္ဓာကိုယ်စွမ်းရည်၏ အကန့်အသတ်သို့ ရောက်ရှိကာ မူးလဲလုနီးပါး ဖြစ်ခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l05.v002",
+        "n3.l05.v012"
+      ],
+      "grammarIds": [
+        "n3.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.s003",
+      "lessonId": "n3.l05",
+      "ja": "二つの新製品の性能を比較したところ、バッテリーの持ちに大きな差がありました。",
+      "kana": "ふたつの しんせいひんの せいのうを ひかくした ところ、ばってりーの もちに おおきな さが ありました。",
+      "translation": {
+        "en": "Upon comparing the performance of the two new products, there was a big difference in battery life.",
+        "my": "ထုတ်ကုန်အသစ်နှစ်ခု၏ စွမ်းဆောင်ရည်ကို နှိုင်းယှဉ်ကြည့်ရာ ဘက်ထရီခံနိုင်ရည်တွင် ကြီးမားသော ကွာခြားချက်ရှိခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l05.v003"
+      ],
+      "grammarIds": [
+        "n3.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.s004",
+      "lessonId": "n3.l05",
+      "ja": "去年の売上と比べると、今年は15パーセントほど増加しています。",
+      "kana": "きょねんの うりあげと くらべると、ことしは じゅうごぱーせんと ほど ぞうかしています。",
+      "translation": {
+        "en": "Comparing with last year's sales, this year has increased by approximately 15 percent.",
+        "my": "မနှစ်က အရောင်းပမာဏနှင့် နှိုင်းယှဉ်ပါက ယခုနှစ်တွင် ၁၅ ရာခိုင်နှုန်းခန့် တိုးတက်လာခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l05.v004"
+      ],
+      "grammarIds": [
+        "n3.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.s005",
+      "lessonId": "n3.l05",
+      "ja": "年末は猫の手も借りたいほど非常に忙しい日々が続きます。",
+      "kana": "ねんまつは ねこの ても かりたい ほど ひじょうに いそがしい ひびが つづきます。",
+      "translation": {
+        "en": "At year-end, extremely busy days continue to the extent that one would borrow even a cat's paws.",
+        "my": "နှစ်ကုန်ပိုင်းတွင် ကြောင်၏လက်ကိုပင် ငှားချင်လောက်အောင် အလွန်အလုပ်များသော နေ့ရက်များ ဆက်တိုက်ကြုံတွေ့ရပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l05.v005"
+      ],
+      "grammarIds": [
+        "n3.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.s006",
+      "lessonId": "n3.l05",
+      "ja": "人生において、お互いの信頼関係ほど相当な価値を持つものはありません。",
+      "kana": "じんせいに おいて、おたがいの しんらいかんけい ほど そうとうな かちを もつ ものは ありません。",
+      "translation": {
+        "en": "In life, nothing possesses substantial value as much as mutual trust.",
+        "my": "ဘဝတွင် အချင်းချင်း ယုံကြည်မှုဆက်ဆံရေးလောက် ကြီးမားသောအဖိုးတန်တန်ဖိုးရှိသည့်အရာ မရှိပါ။"
+      },
+      "vocabIds": [
+        "n3.l05.v006"
+      ],
+      "grammarIds": [
+        "n3.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.s007",
+      "lessonId": "n3.l05",
+      "ja": "自分の使った机の上くらい、帰る前にきれいに片付けなさい。",
+      "kana": "じぶんの つかった つくえの うえ くらい、かえる まえに きれいに かたづけなさい。",
+      "translation": {
+        "en": "At least clean up the top of the desk you used before heading home.",
+        "my": "မိမိအသုံးပြုခဲ့သော စားပွဲခုံပေါ်လောက်တော့ အိမ်မပြန်မီ သန့်ရှင်းသပ်ရပ်စွာ သိမ်းဆည်းပါ။"
+      },
+      "vocabIds": [
+        "n3.l05.v007"
+      ],
+      "grammarIds": [
+        "n3.l05.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.s008",
+      "lessonId": "n3.l05",
+      "ja": "残業時間をできる限り減らすよう、全社的に業務の効率化を図っています。",
+      "kana": "ざんぎょう じかんを できる かぎり へらすよう、ぜんしゃてきに ぎょうむの こうりつかを はかっています。",
+      "translation": {
+        "en": "We are promoting company-wide work efficiency so as to reduce overtime hours as much as possible.",
+        "my": "အချိန်ပိုဆင်းရသော နာရီများကို တတ်နိုင်သမျှ လျှော့ချနိုင်ရန် တစ်ကုမ္ပဏီလုံးအတိုင်းအတာဖြင့် လုပ်ငန်းထိရောက်မှုကို ကြိုးပမ်းနေပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l05.v008"
+      ],
+      "grammarIds": [
+        "n3.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.s009",
+      "lessonId": "n3.l05",
+      "ja": "観光客が増えるにつれて、駅周辺のゴミのポイ捨ても目立つようになりました。",
+      "kana": "かんこうきゃくが ふえるに つれて、えき しゅうへんの ごみの ぽいすても めだつように なりました。",
+      "translation": {
+        "en": "As tourists increased, littering around the station also came to be noticeable.",
+        "my": "ကမ္ဘာလှည့်ခရီးသွားများ တိုးပွားလာသည်နှင့်အမျှ ဘူတာပတ်ဝန်းကျင်တွင် အမှိုက်စည်းကမ်းမဲ့စွန့်ပစ်မှုမှာလည်း ထင်ရှားလာခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l05.v009"
+      ],
+      "grammarIds": [
+        "n3.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.s010",
+      "lessonId": "n3.l05",
+      "ja": "思わず声を出して笑ってしまうくらい、そのコメディ番組は面白かったです。",
+      "kana": "おもわず こえを だして わらってしまう くらい、その こめでぃ ばんぐみは おもしろかったです。",
+      "translation": {
+        "en": "That comedy show was so funny to the extent that I burst out laughing unintentionally.",
+        "my": "မရည်ရွယ်ဘဲ အသံထွက်ရယ်မိလောက်အောင် ထိုဟာသရုပ်သံအစီအစဉ်မှာ ရယ်စရာကောင်းလှပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l05.v010"
+      ],
+      "grammarIds": [
+        "n3.l05.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.s011",
+      "lessonId": "n3.l05",
+      "ja": "厳格な品質基準を満たした製品だけを市場に出荷しています。",
+      "kana": "げんかくな ひんしつ きじゅんを みたした せいひん だけを しじょうに しゅっか しています。",
+      "translation": {
+        "en": "We ship only products that satisfy rigorous quality standards to the market.",
+        "my": "တင်းကျပ်သော အရည်အသွေးစံနှုန်းများနှင့် ပြည့်မီသော ထုတ်ကုန်များကိုသာ ဈေးကွက်သို့ တင်ပို့ရောင်းချပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l05.v011"
+      ],
+      "grammarIds": [
+        "n3.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n3.l05.s012",
+      "lessonId": "n3.l05",
+      "ja": "毎日の練習の積み重ねによって、目標としていた記録に達することができました。",
+      "kana": "まいにちの れんしゅうの つみかさねに よって、もくひょうとしていた きろくに たっする ことが できました。",
+      "translation": {
+        "en": "Through accumulating daily practice, I was able to attain the target record.",
+        "my": "နေ့စဉ်လေ့ကျင့်မှုများ စုဆောင်းလာခဲ့ခြင်းအားဖြင့် ရည်မှန်းထားသော စံချိန်သို့ ပြည့်မီရောက်ရှိနိုင်ခဲ့ပါသည်။"
+      },
+      "vocabIds": [
+        "n3.l05.v012"
+      ],
+      "grammarIds": [
+        "n3.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+        "license": "CC-BY-4.0",
+        "status": "reviewed",
+        "updatedAt": "2026-10-02T00:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l05.r01",
+    "lessonId": "n3.l05",
+    "title": "現代社会における睡眠の重要性と疲労回復 (Sleep Importance & Fatigue Recovery in Modern Society)",
+    "level": "N3",
+    "text": "「忙しくて寝る時間がない」と口にする現代人は少なくありません。しかし、睡眠不足が心身にもたらす悪影響は、私たちが想像している以上に深刻です。集中力の低下や判断ミスの増加など、仕事の効率を著しく落とす原因となります。\n\nある研究によると、わずか1晩徹夜しただけでも、血中アルコール濃度が0.1%の酩酊状態に達するほど脳の働きが著しく低下することが分かっています。つまり、倒れそうなほど疲れた状態で無理に仕事を続けても、良い成果が上がるはずはありません。\n\n健康を維持するためには、最低でも毎晩7時間くらいは質の良い睡眠を確保するように努める必要があります。忙しいからといって睡眠を削るのではなく、「よく眠る人ほど日中の仕事がはかどる」という科学的事実を認識することが何よりも大切です。健康な心身ほど貴重な財産はないということを、日々の生活の中で忘れてはなりません。",
+    "kanaText": "「いそがしくて ねる じかんが ない」と くちにする げんだいじんは すくなくありません。しかし、すいみんぶそくが しんしんに もたらす あくえいきょうは、わたしたちが そうぞうしている いじょうに しんこくです。しゅうちゅうりょくの ていかや はんだんみすの ぞうかなど、しごとの こうりつを いちじるしく おとす げんいんと なります。\n\nある けんきゅうに よると、わずか ひとばん てつやした だけでも、けっちゅう あるこーるのうどが ぜろてんいちぱーせんとの めいていじょうたいに たっする ほど のうの はたらきが いちじるしく ていかする ことが わかっています。つまり、たおれそうな ほど つかれた じょうたいで むりに しごとを つづけても、よい せいかが あがる はずは ありません。\n\nけんこうを いじする ためには、さいていでも まいばん ななじかん くらいは しつの よい すいみんを かくほする ように つとめる ひつようが あります。いそがしいからといって すいみんを けずるのではなく、「よく ねむる ひと ほど にっちゅうの しごとが はかどる」という かがくてき じじつを にんしきする ことが なによりも たいせつです。けんこうな しんしん ほど きちょうな ざいさんは ないという ことを、ひびの せいかつの なかで わすれては なりません。",
+    "translation": "Not a few modern people utter: \"I am too busy and have no time to sleep.\" However, the negative impacts that sleep deprivation brings upon mind and body are far more severe than we imagine. It becomes a prime cause noticeably degrading work efficiency, including reduced concentration and increased judgmental errors.\n\nAccording to a certain study, it has been revealed that staying up all night for merely a single evening significantly degrades brain function to the extent that it reaches an intoxication state equivalent to 0.1% blood alcohol concentration. In other words, even if one forces themselves to continue working in a state so exhausted they almost collapse, good outcomes cannot possibly arise.\n\nIn order to maintain health, it is necessary to strive to secure at least about 7 hours of high-quality sleep every night. Rather than shaving away sleep simply because one is busy, recognizing the scientific fact that \"the better a person sleeps, the more their daytime work progresses\" is vital above all else. We must never forget in daily life that nothing is as precious a treasure as a healthy mind and body.",
+    "questionIds": [
+      "n3.l05.q025",
+      "n3.l05.q026",
+      "n3.l05.q027"
+    ],
+    "difficulty": 2,
+    "glossary": [],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n3.l05.l01",
+    "lessonId": "n3.l05",
+    "title": "引っ越し先の部屋探しと条件比較 (Apartment Hunting & Comparing Conditions)",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "友人A（健太）",
+      "友人B（マイク）"
+    ],
+    "transcript": "健太：マイク、来月からの新しいアパート、もう決まった？\nマイク：何軒か不動産屋を回って比較したんだけど、まだ迷っているんだ。駅から歩いて5分くらいの部屋は便利なんだけど、家賃が高くてね。\n健太：駅近の物件は便利だけど、確かに家賃が跳ね上がるよね。駅から15分ほど離れた場所はどうなの？\nマイク：そこも見学したよ。部屋が広くて驚くほど静かなんだけど、坂道が多くて毎日歩くのは限界に近いかなと思って。\n健太：坂道は毎日のことだから結構大変だよね。でも、自転車くらい乗れればそこまで苦にならないんじゃない？\nマイク：確かに自転車を使えば10分もかからないね。家賃の安さほど魅力的な条件はないし、もう一度検討してみるよ。",
+    "translation": "Kenta: Mike, have you decided on your new apartment starting next month yet?\nMike: I toured several real estate agencies and compared them, but I'm still hesitating. A room about 5 minutes walk from the station is convenient, but the rent is high.\nKenta: Properties near the station are handy, but rent certainly leaps up. How about places separated by about 15 minutes from the station?\nMike: I inspected that too. The room was spacious and surprisingly quiet, but there were many slopes, and I thought walking it every day might push me near my limit.\nKenta: Slopes are an everyday matter, so they are quite tough. But if you can at least ride a bicycle, it wouldn't be that painful, right?\nMike: Indeed, if I use a bicycle it won't even take 10 minutes. There's no condition as attractive as low rent, so I'll reconsider it once more.",
+    "turns": [
+      {
+        "speaker": "健太",
+        "ja": "マイク、来月からの新しいアパート、もう決まった？",
+        "kana": "まいく、らいげつからの あたらしい あぱーと、もう きまった？",
+        "en": "Mike, have you decided on your new apartment starting next month yet?"
+      },
+      {
+        "speaker": "マイク",
+        "ja": "何軒か不動産屋を回って比較したんだけど、まだ迷っているんだ。駅から歩いて5分くらいの部屋は便利なんだけど、家賃が高くてね。",
+        "kana": "なんけんか ふどうさんやを まわって ひかくしたんだけど、まだ まよっているんだ。えきから あるいて ごふんくらいの へやは べんりなんだけど、やちんが たかくてね。",
+        "en": "I toured several real estate agencies and compared them, but I'm still hesitating. A room about 5 minutes walk from the station is convenient, but the rent is high."
+      },
+      {
+        "speaker": "健太",
+        "ja": "駅近の物件は便利だけど、確かに家賃が跳ね上がるよね。駅から15分ほど離れた場所はどうなの？",
+        "kana": "えきちかの ぶっけんは べんりだけど、たしかに やちんが はねあがるよね。えきから じゅうごふんほど はなれた ばしょは どうなの？",
+        "en": "Properties near the station are handy, but rent certainly leaps up. How about places separated by about 15 minutes from the station?"
+      },
+      {
+        "speaker": "マイク",
+        "ja": "そこも見学したよ。部屋が広くて驚くほど静かなんだけど、坂道が多くて毎日歩くのは限界に近いかなと思って。",
+        "kana": "そこも けんがくしたよ。へやが ひろくて おどろくほど しずかなんだけど、さかみちが おおくて まいにち あるくのは げんかいに ちかいかなと おもって。",
+        "en": "I inspected that too. The room was spacious and surprisingly quiet, but there were many slopes, and I thought walking it every day might push me near my limit."
+      },
+      {
+        "speaker": "健太",
+        "ja": "坂道は毎日のことだから結構大変だよね。でも、自転車くらい乗れればそこまで苦にならないんじゃない？",
+        "kana": "さかみちは まいにちの ことだから けっこう たいへんだよね。でも、じてんしゃくらい のれれば そこまで くに ならないんじゃない？",
+        "en": "Slopes are an everyday matter, so they are quite tough. But if you can at least ride a bicycle, it wouldn't be that painful, right?"
+      },
+      {
+        "speaker": "マイク",
+        "ja": "確かに自転車を使えば10分もかからないね。家賃の安さほど魅力的な条件はないし、もう一度検討してみるよ。",
+        "kana": "たしかに じてんしゃを つかえば じゅっぷんも かからないね。やちんの やすさほど みりょくてきな じょうけんは ないし、もういちど けんとうしてみるよ。",
+        "en": "Indeed, if I use a bicycle it won't even take 10 minutes. There's no condition as attractive as low rent, so I'll reconsider it once more."
+      }
+    ],
+    "questionIds": [
+      "n3.l05.q028",
+      "n3.l05.q029",
+      "n3.l05.q030"
+    ],
+    "difficulty": 2,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+      "license": "CC-BY-4.0",
+      "status": "reviewed",
+      "updatedAt": "2026-10-02T00:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l05.q001",
+      "lessonId": "n3.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "高低・強弱・分量などの度合いや水準を表す言葉はどれですか。",
+      "choices": [
+        "程度",
+        "温度",
+        "制度",
+        "態度"
+      ],
+      "answer": "程度",
+      "acceptedAnswers": [
+        "程度"
+      ],
+      "explanation": "「程度（ていど）」は物事の度合いや基準となる水準を指します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q002",
+      "lessonId": "n3.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "これ以上は耐えられないという能力や許容の境目を何と言いますか。",
+      "choices": [
+        "限界",
+        "境界",
+        "世界",
+        "視界"
+      ],
+      "answer": "限界",
+      "acceptedAnswers": [
+        "限界"
+      ],
+      "explanation": "「限界（げんかい）」はこれ以上進めない・耐えられない最終的な境地です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q003",
+      "lessonId": "n3.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "二つ以上のものを引き合わせて違いや優劣を調べる動詞はどれですか。",
+      "choices": [
+        "比較する",
+        "批判する",
+        "比例する",
+        "競争する"
+      ],
+      "answer": "比較する",
+      "acceptedAnswers": [
+        "比較する"
+      ],
+      "explanation": "「比較する（ひかくする）」は複数のものを並べて差異を調べることです。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q004",
+      "lessonId": "n3.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "普通と違って並大抵ではない様子を表す副詞はどれですか。",
+      "choices": [
+        "非常に",
+        "日常に",
+        "正常に",
+        "普段に"
+      ],
+      "answer": "非常に",
+      "acceptedAnswers": [
+        "非常に"
+      ],
+      "explanation": "「非常に（ひじょうに）」は普通を大きく超えて甚だしい様子を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q005",
+      "lessonId": "n3.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "数量や度合いがごくわずかで少ない様子を表す形容動詞はどれですか。",
+      "choices": [
+        "わずかな",
+        "たしかな",
+        "明らかな",
+        "豊かな"
+      ],
+      "answer": "わずかな",
+      "acceptedAnswers": [
+        "わずかな"
+      ],
+      "explanation": "「わずかな」は数量や程度がほんの少ししかない様子を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q006",
+      "lessonId": "n3.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "数量や分量を少なくする他動詞はどれですか。",
+      "choices": [
+        "減らす",
+        "減る",
+        "増やす",
+        "落とす"
+      ],
+      "answer": "減らす",
+      "acceptedAnswers": [
+        "減らす"
+      ],
+      "explanation": "「減らす（へらす）」は分量や数を少なくする他動詞です。自動詞は「減る」です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q007",
+      "lessonId": "n3.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "判断や評価を行うときの規範となるよりどころを何と言いますか。",
+      "choices": [
+        "基準",
+        "準備",
+        "水準",
+        "標識"
+      ],
+      "answer": "基準",
+      "acceptedAnswers": [
+        "基準"
+      ],
+      "explanation": "「基準（きじゅん）」は物事の比較・判断の基礎となる規範・手本です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q008",
+      "lessonId": "n3.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "ある目的地や目標の数値に行き着く動詞はどれですか。",
+      "choices": [
+        "達する",
+        "通じる",
+        "届ける",
+        "越える"
+      ],
+      "answer": "達する",
+      "acceptedAnswers": [
+        "達する"
+      ],
+      "explanation": "「達する（たっする）」はある数値や地点に行き着くことを意味します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q009",
+      "lessonId": "n3.l05",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「程度」の「程」の音読みとして正しいものはどれですか。",
+      "choices": [
+        "テイ",
+        "チョウ",
+        "コウ",
+        "ショウ"
+      ],
+      "answer": "テイ",
+      "acceptedAnswers": [
+        "テイ"
+      ],
+      "explanation": "「程」の音読みはテイです（程度、日程、過程）。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q010",
+      "lessonId": "n3.l05",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「限界」の「限」の訓読み（送り仮名を含む）として正しいものはどれですか。",
+      "choices": [
+        "かぎ・る",
+        "き・る",
+        "しま・る",
+        "とど・まる"
+      ],
+      "answer": "かぎ・る",
+      "acceptedAnswers": [
+        "かぎ・る"
+      ],
+      "explanation": "「限」の訓読みは「かぎ・る」です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q011",
+      "lessonId": "n3.l05",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「比」の総画数として正しいものはどれですか。",
+      "choices": [
+        "4画",
+        "3画",
+        "5画",
+        "6画"
+      ],
+      "answer": "4画",
+      "acceptedAnswers": [
+        "4画"
+      ],
+      "explanation": "「比」は4画の漢字です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q012",
+      "lessonId": "n3.l05",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「比較」の「較」の音読みとして正しいものはどれですか。",
+      "choices": [
+        "カク",
+        "コウ",
+        "キャク",
+        "シャク"
+      ],
+      "answer": "カク",
+      "acceptedAnswers": [
+        "カク"
+      ],
+      "explanation": "「較」の音読みはカクです（比較、比較的）。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.k004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q013",
+      "lessonId": "n3.l05",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "漢字「程」の部首として正しいものはどれですか。",
+      "choices": [
+        "禾（のぎへん）",
+        "木（きへん）",
+        "口（くち）",
+        "日（ひ）"
+      ],
+      "answer": "禾（のぎへん）",
+      "acceptedAnswers": [
+        "禾（のぎへん）"
+      ],
+      "explanation": "「程」の部首は左側の「禾（のぎへん）」です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q014",
+      "lessonId": "n3.l05",
+      "skill": "kanji",
+      "type": "kanji_reading",
+      "prompt": "「期限」の「限」の音読みとして正しいものはどれですか。",
+      "choices": [
+        "ゲン",
+        "カン",
+        "ゴン",
+        "ケン"
+      ],
+      "answer": "ゲン",
+      "acceptedAnswers": [
+        "ゲン"
+      ],
+      "explanation": "「限」の音読みはゲンです（期限、限界、制限）。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q015",
+      "lessonId": "n3.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「お腹が痛くて、立っていられない（　）苦しかった。」激しい程度を表す助詞はどれですか。",
+      "choices": [
+        "ほど",
+        "ばかり",
+        "ように",
+        "ために"
+      ],
+      "answer": "ほど",
+      "acceptedAnswers": [
+        "ほど"
+      ],
+      "explanation": "「立っていられないほど」で、状態が極めて甚だしい程度を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q016",
+      "lessonId": "n3.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「忙しくても、自分の部屋の掃除（　）休日にしなさい。」最低限の基準・軽視を表すものはどれですか。",
+      "choices": [
+        "くらい",
+        "ほど",
+        "ばかり",
+        "にとって"
+      ],
+      "answer": "くらい",
+      "acceptedAnswers": [
+        "くらい"
+      ],
+      "explanation": "「それくらいの軽いことなら」という最低限の基準を表すため「〜くらい」が適しています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q017",
+      "lessonId": "n3.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「考えれ（　）考える（　）、解決策が分からなくなってきた。」相関関係を表す構文はどれですか。",
+      "choices": [
+        "ば / ほど",
+        "たら / くらい",
+        "ば / ように",
+        "なら / だけ"
+      ],
+      "answer": "ば / ほど",
+      "acceptedAnswers": [
+        "ば / ほど"
+      ],
+      "explanation": "「〜ば〜ほど」で「一方の程度が進めば進むほど、他方の程度も進む」という相関を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q018",
+      "lessonId": "n3.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「海外旅行では、健康（　）大切なものはない。」最高基準を表す否定構文はどれですか。",
+      "choices": [
+        "ほど",
+        "くらい",
+        "より",
+        "ばかり"
+      ],
+      "answer": "ほど",
+      "acceptedAnswers": [
+        "ほど"
+      ],
+      "explanation": "「Aほど〜ない」で「Aが最高であり、A以上に〜なものはない」を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q019",
+      "lessonId": "n3.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「駅から家まで歩いて15分（　）かかります。」概数を表す表現はどれですか。",
+      "choices": [
+        "くらい",
+        "ほどに",
+        "ばかりで",
+        "にして"
+      ],
+      "answer": "くらい",
+      "acceptedAnswers": [
+        "くらい"
+      ],
+      "explanation": "数量や時間の概数を表す場合は「〜くらい（ぐらい）」を用います。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q020",
+      "lessonId": "n3.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「喉から手が出る（　）その限定スニーカーが欲しい。」慣用的な極限程度はどれですか。",
+      "choices": [
+        "ほど",
+        "くらいな",
+        "ために",
+        "ように"
+      ],
+      "answer": "ほど",
+      "acceptedAnswers": [
+        "ほど"
+      ],
+      "explanation": "「喉から手が出るほど欲しい」という強い願望の程度を表す決まり文句です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q021",
+      "lessonId": "n3.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「簡単な挨拶（　）日本語で言えるように練習しておきましょう。」",
+      "choices": [
+        "くらい",
+        "ほど",
+        "によって",
+        "に対して"
+      ],
+      "answer": "くらい",
+      "acceptedAnswers": [
+        "くらい"
+      ],
+      "explanation": "「挨拶くらい」で最低限の初歩的行動を例示しています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q022",
+      "lessonId": "n3.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「勉強すれ（　）勉強する（　）、新しい知識が増えて楽しくなる。」",
+      "choices": [
+        "ば / ほど",
+        "たら / くらい",
+        "と / ばかり",
+        "なら / ほど"
+      ],
+      "answer": "ば / ほど",
+      "acceptedAnswers": [
+        "ば / ほど"
+      ],
+      "explanation": "「すれ（ば）勉強する（ほど）」の相関構文です。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q023",
+      "lessonId": "n3.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「昨日の試験は、涙が出る（　）難しかったです。」",
+      "choices": [
+        "ほど",
+        "ように",
+        "ために",
+        "ばかり"
+      ],
+      "answer": "ほど",
+      "acceptedAnswers": [
+        "ほど"
+      ],
+      "explanation": "「涙が出るほど」で比喩的な激しい程度を表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q024",
+      "lessonId": "n3.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「彼は私（　）英語が上手ではありません。」比較の否定対象を示すものはどれですか。",
+      "choices": [
+        "ほど",
+        "より",
+        "くらいに",
+        "ばかり"
+      ],
+      "answer": "ほど",
+      "acceptedAnswers": [
+        "ほど"
+      ],
+      "explanation": "「私ほど〜ない（私ほど上手ではない）」で、私と同等のレベルに達していないことを表します。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q025",
+      "lessonId": "n3.l05",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "研究によると、わずか一晩徹夜しただけで脳の働きはどうなりますか。",
+      "choices": [
+        "血中アルコール濃度0.1%の酩酊状態に達するほど低下する。",
+        "集中力が普段の2倍に高まる。",
+        "記憶力が飛躍的に向上する。",
+        "全く何の影響も受けない。"
+      ],
+      "answer": "血中アルコール濃度0.1%の酩酊状態に達するほど低下する。",
+      "acceptedAnswers": [
+        "血中アルコール濃度0.1%の酩酊状態に達するほど低下する。"
+      ],
+      "explanation": "第2段落に「血中アルコール濃度が0.1%の酩酊状態に達するほど脳の働きが著しく低下することが分かっています」とあります。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q026",
+      "lessonId": "n3.l05",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "健康を維持するために、毎晩最低どのくらいの睡眠が必要と述べられていますか。",
+      "choices": [
+        "7時間くらい",
+        "3時間くらい",
+        "12時間くらい",
+        "1時間くらい"
+      ],
+      "answer": "7時間くらい",
+      "acceptedAnswers": [
+        "7時間くらい"
+      ],
+      "explanation": "第3段落に「最低でも毎晩7時間くらいは質の良い睡眠を確保するように努める必要があります」と書かれています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q027",
+      "lessonId": "n3.l05",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "睡眠と日中の仕事の関係について、本文で認識すべき科学的事実とされているものはどれですか。",
+      "choices": [
+        "よく眠る人ほど日中の仕事がはかどるということ。",
+        "睡眠を削る人ほど仕事の成果が上がること。",
+        "仕事ができる人は全く寝ないということ。",
+        "昼寝さえすれば夜は寝なくてもよいということ。"
+      ],
+      "answer": "よく眠る人ほど日中の仕事がはかどるということ。",
+      "acceptedAnswers": [
+        "よく眠る人ほど日中の仕事がはかどるということ。"
+      ],
+      "explanation": "第3段落に「『よく眠る人ほど日中の仕事がはかどる』という科学的事実を認識することが何よりも大切です」と明記されています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q028",
+      "lessonId": "n3.l05",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "マイクが駅から徒歩5分の部屋を躊躇している理由は何ですか。",
+      "choices": [
+        "家賃が高いため。",
+        "部屋が狭すぎるため。",
+        "周りが騒がしすぎるため。",
+        "日当たりが悪いため。"
+      ],
+      "answer": "家賃が高いため。",
+      "acceptedAnswers": [
+        "家賃が高いため。"
+      ],
+      "explanation": "マイクは「駅から歩いて5分くらいの部屋は便利なんだけど、家賃が高くてね」と話しています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q029",
+      "lessonId": "n3.l05",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "駅から15分ほど離れた部屋の長所と短所は何ですか。",
+      "choices": [
+        "広くて静かだが、坂道が多くて歩くのが大変な点。",
+        "家賃は安いが、エアコンが付いていない点。",
+        "駅から近いが、部屋が古くて汚い点。",
+        "周りに店が多いが、夜道が暗い点。"
+      ],
+      "answer": "広くて静かだが、坂道が多くて歩くのが大変な点。",
+      "acceptedAnswers": [
+        "広くて静かだが、坂道が多くて歩くのが大変な点。"
+      ],
+      "explanation": "マイクは「部屋が広くて驚くほど静かなんだけど、坂道が多くて毎日歩くのは限界に近いかなと思って」と答えています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l05.q030",
+      "lessonId": "n3.l05",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "健太からの助言を聞いて、マイクはどうすることにしましたか。",
+      "choices": [
+        "自転車を使えば家賃の安さが魅力的だと考え、もう一度検討することにした。",
+        "不動産屋に行くのを諦めて実家に帰ることにした。",
+        "駅から1分の高いマンションを契約することにした。",
+        "健太の部屋に一緒に同居することにした。"
+      ],
+      "answer": "自転車を使えば家賃の安さが魅力的だと考え、もう一度検討することにした。",
+      "acceptedAnswers": [
+        "自転車を使えば家賃の安さが魅力的だと考え、もう一度検討することにした。"
+      ],
+      "explanation": "マイクは「自転車を使えば10分もかからないね。家賃の安さほど魅力的な条件はないし、もう一度検討してみるよ」と述べています。",
+      "difficulty": 2,
+      "linkedItemIds": [
+        "n3.l05.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
+    "license": "CC-BY-4.0",
+    "status": "reviewed",
+    "updatedAt": "2026-10-02T00:00:00Z",
+    "rev": 1
+  }
+}
