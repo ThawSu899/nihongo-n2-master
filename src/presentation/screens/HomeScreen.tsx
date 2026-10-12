@@ -15,7 +15,9 @@ import {
   MasteryRecord,
   DailyPlan,
   StudyTimerState,
+  CurriculumMapItem,
 } from '../../domain/models/types';
+import { ContentLoader } from '../../data/content/content-loader';
 import { ReminderBanner } from '../components/ReminderBanner';
 
 interface HomeScreenProps {
@@ -29,6 +31,8 @@ interface HomeScreenProps {
   onOpenSrs: () => void;
   onOpenTests: () => void;
   onNavigate: (view: string) => void;
+  focusedLesson?: CurriculumMapItem;
+  totalLessonsInLevel?: number;
 }
 
 export const HomeScreen: React.FC<HomeScreenProps> = ({
@@ -42,9 +46,21 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   onOpenSrs,
   onOpenTests,
   onNavigate,
+  focusedLesson,
+  totalLessonsInLevel,
 }) => {
   const goalMinutes = profile.dailyTargetMinutes || 360;
   const progressPercent = Math.min(100, Math.round((todayMinutes / goalMinutes) * 100));
+
+  const allCurriculum = ContentLoader.getCurriculumMap();
+  const currentLessonId = profile.currentLessonId || 'n5.l01';
+  const activeLesson: CurriculumMapItem =
+    focusedLesson ||
+    allCurriculum.find((m) => m.id === currentLessonId) ||
+    allCurriculum[0];
+
+  const levelLessons = allCurriculum.filter((m) => m.level === activeLesson.level);
+  const totalInLevel = totalLessonsInLevel || levelLessons.length || 30;
 
   const isSessionActive = timerState.state === 'running' || timerState.state === 'paused';
   const masteryState = masteryRecord?.state || 'new';
@@ -63,6 +79,32 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
         return 'bg-stone-800 text-stone-300 border-stone-700';
     }
   };
+
+  // Title formatting: extract japanese subtitle if in parentheses like "This, That (これ・それ・あれ)"
+  const titleMatch = activeLesson.title.match(/^(.*?)(?:\s*[（(](.*?)[）)])?$/);
+  const mainTitle = titleMatch?.[1] || activeLesson.title;
+  const jaTitle = titleMatch?.[2] ? `（${titleMatch[2]}）` : (activeLesson.id === 'n5.l01' ? '（挨拶・自己紹介）' : '');
+
+  // Dynamic description
+  const descriptionNode =
+    activeLesson.id === 'n5.l01' ? (
+      <>
+        Foundational Japanese greetings, affirmative copula (<code className="text-rose-300 bg-stone-950/60 px-1.5 py-0.5 rounded border border-rose-950">X は Y です</code>),
+        question formation, and kanji in context (<ruby>学<rt className="text-[9px]">がく</rt></ruby>, <ruby>生<rt className="text-[9px]">せい</rt></ruby>, <ruby>先<rt className="text-[9px]">せん</rt></ruby>).
+      </>
+    ) : (
+      <>
+        {activeLesson.module} • {activeLesson.grammarTopics?.length ? activeLesson.grammarTopics.join(' · ') : 'Core Patterns'}. Target:{' '}
+        <span className="text-stone-300 font-mono">{activeLesson.targetVocabCount} vocabulary</span> and{' '}
+        <span className="text-stone-300 font-mono">{activeLesson.targetKanjiCount} kanji</span>.
+      </>
+    );
+
+  const startButtonText = isSessionActive
+    ? 'CONTINUE LESSON'
+    : masteryState === 'mastered' || masteryState === 'retained'
+    ? `REVIEW LESSON (${activeLesson.level} D${activeLesson.number})`
+    : `START STUDY (${activeLesson.level} DAY ${activeLesson.number})`;
 
   // Find next pending study block
   const nextBlock = dailyPlan.blocks.find((b) => b.status === 'pending');
@@ -89,7 +131,9 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
             <div className="flex items-center space-x-2 text-xs">
               <span className="font-semibold uppercase tracking-wider text-rose-400 font-mono">Current Focus</span>
               <span className="text-stone-600">·</span>
-              <span className="text-stone-300 font-mono">N5 Day 1 • Lesson 1 of 30</span>
+              <span className="text-stone-300 font-mono">
+                {activeLesson.level} Day {activeLesson.number} • Lesson {activeLesson.number} of {totalInLevel}
+              </span>
               <span
                 className={`text-[10px] uppercase font-bold px-2 py-0.5 rounded-full border ${getMasteryBadgeClass(
                   masteryState
@@ -100,22 +144,21 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
             </div>
 
             <h1 className="text-2xl md:text-3xl font-bold text-stone-100 tracking-tight flex items-baseline gap-2">
-              <span>Greetings &amp; Self Introduction</span>
-              <span className="text-stone-500 font-japanese text-sm font-normal">（挨拶・自己紹介）</span>
+              <span>{mainTitle}</span>
+              {jaTitle && <span className="text-stone-500 font-japanese text-sm font-normal">{jaTitle}</span>}
             </h1>
             <p className="text-xs md:text-sm text-stone-400 max-w-xl leading-relaxed">
-              Foundational Japanese greetings, affirmative copula (<code className="text-rose-300 bg-stone-950/60 px-1.5 py-0.5 rounded border border-rose-950">X は Y です</code>),
-              question formation, and kanji in context (<ruby>学<rt className="text-[9px]">がく</rt></ruby>, <ruby>生<rt className="text-[9px]">せい</rt></ruby>, <ruby>先<rt className="text-[9px]">せん</rt></ruby>).
+              {descriptionNode}
             </p>
           </div>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 shrink-0">
             <button
-              onClick={() => onStartStudy('n5.l01')}
+              onClick={() => onStartStudy(activeLesson.id)}
               className="px-6 py-3.5 rounded-xl bg-gradient-to-r from-rose-600 via-rose-600 to-rose-700 hover:from-rose-500 hover:to-rose-600 text-white font-semibold text-sm flex items-center justify-center space-x-2 transition shadow-lg shadow-rose-950/70 hover:scale-[1.02] active:scale-[0.98] border border-rose-500/30"
             >
               <Play className="w-4 h-4 fill-white" />
-              <span>{isSessionActive ? 'CONTINUE LESSON' : 'START STUDY (N5 DAY 1)'}</span>
+              <span>{startButtonText}</span>
             </button>
             <button
               onClick={() => onNavigate('curriculum')}
@@ -202,14 +245,14 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           </div>
           <div className="flex items-baseline space-x-1.5">
             <span className="text-lg font-bold text-stone-100 capitalize">
-              {dailyPlan.weakSkills[0] || 'Balanced'}
+              {dailyPlan.weakSkills?.[0] || 'Balanced'}
             </span>
-            {dailyPlan.weakSkills[0] && (
+            {dailyPlan.weakSkills?.[0] && (
               <span className="text-[11px] text-amber-400 font-medium font-mono">+15m allocated</span>
             )}
           </div>
           <p className="text-[11px] text-stone-500">
-            {dailyPlan.weakSkills[0]
+            {dailyPlan.weakSkills?.[0]
               ? `Reallocated time to bolster ${dailyPlan.weakSkills[0]}`
               : 'Skill accuracy within balanced threshold'}
           </p>
@@ -217,7 +260,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
       </div>
 
       {/* Scheduler Explanation Notice */}
-      {dailyPlan.explanations.length > 0 && (
+      {Boolean(dailyPlan.explanations && dailyPlan.explanations.length > 0) && (
         <div className="bg-stone-900/60 border border-stone-800 rounded-xl p-3.5 text-xs text-stone-400 flex items-start space-x-2.5">
           <AlertTriangle className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
           <div className="space-y-1">
@@ -274,7 +317,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
                   </span>
                 ) : (
                   <button
-                    onClick={() => onStartStudy('n5.l01')}
+                    onClick={() => onStartStudy(activeLesson.id)}
                     className="text-xs px-2.5 py-1 rounded bg-stone-800 hover:bg-stone-700 text-stone-200 transition"
                   >
                     Start

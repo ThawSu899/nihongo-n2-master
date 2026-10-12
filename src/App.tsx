@@ -5,6 +5,7 @@ import {
   MasteryRecord,
   DailyPlan,
   LessonPack,
+  CurriculumMapItem,
 } from './domain/models/types';
 import { ensureInitialProfile, db } from './data/db/dexie-db';
 import { ContentLoader } from './data/content/content-loader';
@@ -26,6 +27,36 @@ import { TestsScreen } from './presentation/screens/TestsScreen';
 import { ProgressScreen } from './presentation/screens/ProgressScreen';
 import { SettingsScreen } from './presentation/screens/SettingsScreen';
 import { KanaTrainerScreen } from './presentation/screens/KanaTrainerScreen';
+
+function getNextActiveLessonId(
+  curriculum: CurriculumMapItem[],
+  records: Record<string, MasteryRecord>,
+  preferredLessonId?: string
+): string {
+  if (preferredLessonId) {
+    const savedRecord = records[preferredLessonId];
+    // If the saved lesson is not yet mastered/retained, keep it as focus!
+    if (!savedRecord || (savedRecord.state !== 'mastered' && savedRecord.state !== 'retained')) {
+      return preferredLessonId;
+    }
+    // If it is mastered, advance to the next sequential published lesson
+    const savedIndex = curriculum.findIndex((item) => item.id === preferredLessonId);
+    if (savedIndex !== -1) {
+      for (let i = savedIndex + 1; i < curriculum.length; i++) {
+        if (curriculum[i].status === 'published') {
+          return curriculum[i].id;
+        }
+      }
+    }
+  }
+  // Otherwise, find the first unmastered published lesson
+  const firstUnmastered = curriculum.find(
+    (item) =>
+      item.status === 'published' &&
+      (!records[item.id] || (records[item.id].state !== 'mastered' && records[item.id].state !== 'retained'))
+  );
+  return firstUnmastered?.id || 'n5.l01';
+}
 
 export default function App() {
   const clock = useMemo(() => new SystemClock(), []);
@@ -58,10 +89,6 @@ export default function App() {
   const refreshAppData = useCallback(async () => {
     await BackupManager.checkIntegrityAndAutoRecover();
     const prof = await ensureInitialProfile();
-    setProfile(prof);
-
-    const loadedPack = await ContentLoader.getLessonPack('n5.l01');
-    setPack(loadedPack);
 
     const records = await db.mastery_records.toArray();
     const recordsMap: Record<string, MasteryRecord> = {};
@@ -69,6 +96,19 @@ export default function App() {
       recordsMap[r.lessonId] = r;
     });
     setMasteryRecords(recordsMap);
+
+    const curriculum = ContentLoader.getCurriculumMap();
+    const targetLessonId = getNextActiveLessonId(curriculum, recordsMap, prof.currentLessonId);
+
+    let activeProf = prof;
+    if (prof.currentLessonId !== targetLessonId) {
+      activeProf = { ...prof, currentLessonId: targetLessonId };
+      await db.profile.put({ ...activeProf, id: 'current_user' });
+    }
+    setProfile(activeProf);
+
+    const loadedPack = await ContentLoader.getLessonPack(targetLessonId);
+    setPack(loadedPack || (await ContentLoader.getLessonPack('n5.l01')));
 
     const allCards = await db.srs_cards.toArray();
     const due = getCardsDueToday(allCards, clock, prof.dayRolloverHour || 4);
@@ -112,6 +152,91 @@ export default function App() {
     );
   }, [profile, dueSrsCount, clock]);
 
+  const curriculumMap = useMemo(() => ContentLoader.getCurriculumMap(), []);
+  const activeLessonId = profile?.currentLessonId || 'n5.l01';
+  const focusedLesson = useMemo(() => {
+    return curriculumMap.find((m) => m.id === activeLessonId) || curriculumMap[0];
+  }, [curriculumMap, activeLessonId]);
+
+  const currentMastery = focusedLesson ? masteryRecords[focusedLesson.id] : masteryRecords['n5.l01'];
+
+  const handleStartStudy = async (lessonId?: string) => {
+    const targetId = lessonId || profile?.currentLessonId || 'n5.l01';
+    let targetPack = pack;
+    if (!targetPack || targetPack.id !== targetId) {
+      const loaded = await ContentLoader.getLessonPack(targetId);
+      if (loaded && loaded.status === 'published') {
+        targetPack = loaded;
+        setPack(loaded);
+      }
+    }
+    if (profile && profile.currentLessonId !== targetId) {
+      const updated = { ...profile, currentLessonId: targetId };
+      setProfile(updated);
+      await db.profile.put({ ...updated, id: 'current_user' });
+    }
+    if (timerState.state === 'idle') {
+      startBlock('block_vocab_srs', 60);
+    }
+    setCurrentView('player');
+  };
+
+  const handleSelectLesson = async (lessonId: string) => {
+    const loaded = await ContentLoader.getLessonPack(lessonId);
+    if (loaded && loaded.status === 'published') {
+      setPack(loaded);
+      if (profile) {
+        const updated = { ...profile, currentLessonId: lessonId };
+        setProfile(updated);
+        await db.profile.put({ ...updated, id: 'current_user' });
+      }
+      if (timerState.state === 'idle') {
+        startBlock('block_vocab_srs', 60);
+      }
+      setCurrentView('player');
+    }
+  };
+
+  const handleLessonCompleted = async (lessonId: string) => {
+    const curriculum = ContentLoader.getCurriculumMap();
+    const currentIndex = curriculum.findIndex((m) => m.id === lessonId);
+    let nextLessonId: string | null = null;
+
+    if (currentIndex !== -1) {
+      for (let i = currentIndex + 1; i < curriculum.length; i++) {
+        if (curriculum[i].status === 'published') {
+          nextLessonId = curriculum[i].id;
+          break;
+        }
+      }
+    }
+
+    // Fallback: search for first unmastered published lesson
+    if (!nextLessonId) {
+      const records = await db.mastery_records.toArray();
+      const masteredMap = new Set(
+        records.filter((r) => r.state === 'mastered' || r.state === 'retained').map((r) => r.lessonId)
+      );
+      const unmastered = curriculum.find(
+        (m) => m.status === 'published' && !masteredMap.has(m.id) && m.id !== lessonId
+      );
+      if (unmastered) {
+        nextLessonId = unmastered.id;
+      }
+    }
+
+    if (nextLessonId && profile) {
+      const updated = { ...profile, currentLessonId: nextLessonId };
+      setProfile(updated);
+      await db.profile.put({ ...updated, id: 'current_user' });
+      const nextPack = await ContentLoader.getLessonPack(nextLessonId);
+      if (nextPack) {
+        setPack(nextPack);
+      }
+    }
+    await refreshAppData();
+  };
+
   if (loading || !profile || !pack) {
     return (
       <div className="min-h-screen bg-stone-900 flex flex-col items-center justify-center text-stone-300 space-y-3">
@@ -120,8 +245,6 @@ export default function App() {
       </div>
     );
   }
-
-  const currentMastery = masteryRecords['n5.l01'];
 
   return (
     <div className="min-h-screen bg-stone-900 text-stone-100 flex flex-col font-sans">
@@ -160,30 +283,17 @@ export default function App() {
                 dueSrsCount={dueSrsCount}
                 todayMinutes={todayStudiedMinutes}
                 timerState={timerState}
-                onStartStudy={(lessonId) => {
-                  if (timerState.state === 'idle') {
-                    startBlock('block_vocab_srs', 60);
-                  }
-                  setCurrentView('player');
-                }}
+                onStartStudy={handleStartStudy}
                 onOpenSrs={() => setCurrentView('srs')}
                 onOpenTests={() => setCurrentView('tests')}
                 onNavigate={setCurrentView}
+                focusedLesson={focusedLesson}
               />
             )}
 
             {currentView === 'curriculum' && (
               <CurriculumScreen
-                onSelectLesson={async (lessonId) => {
-                  const loaded = await ContentLoader.getLessonPack(lessonId);
-                  if (loaded && loaded.status === 'published') {
-                    setPack(loaded);
-                    if (timerState.state === 'idle') {
-                      startBlock('block_vocab_srs', 60);
-                    }
-                    setCurrentView('player');
-                  }
-                }}
+                onSelectLesson={handleSelectLesson}
                 masteryRecords={masteryRecords}
               />
             )}
@@ -201,6 +311,7 @@ export default function App() {
                   setMasteryRecords((prev) => ({ ...prev, [rec.lessonId]: rec }));
                 }}
                 onExit={() => setCurrentView('home')}
+                onLessonCompleted={handleLessonCompleted}
                 onBlockProgress={(mins) => setTodayStudiedMinutes((p) => p + mins)}
                 onTestActiveChange={setIsTestActive}
               />
@@ -217,11 +328,15 @@ export default function App() {
               <TestsScreen
                 profile={profile}
                 masteryRecord={currentMastery}
-                onStartLessonTest={(lessonId) => {
-                  if (timerState.state === 'idle') {
-                    startBlock('block_test', 60);
+                onStartLessonTest={async (lessonId) => {
+                  if (lessonId) {
+                    await handleStartStudy(lessonId);
+                  } else {
+                    if (timerState.state === 'idle') {
+                      startBlock('block_test', 60);
+                    }
+                    setCurrentView('player');
                   }
-                  setCurrentView('player');
                 }}
                 onTestActiveChange={setIsTestActive}
               />

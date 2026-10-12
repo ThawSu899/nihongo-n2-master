@@ -29,7 +29,7 @@ export const ReminderBanner: React.FC<ReminderBannerProps> = ({ blocks, dateIso 
 
   return (
     <div className="bg-gradient-to-r from-stone-900 to-stone-950 border border-stone-800 rounded-xl p-3.5 mb-6 text-stone-300 shadow-md">
-      <div className="flex items-start justify-between gap-3">
+      <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
         <div className="flex items-start space-x-3">
           <div className="p-2 rounded-lg bg-rose-950/60 border border-rose-800/60 text-rose-300 shrink-0">
             <Bell className="w-5 h-5" />
@@ -44,7 +44,7 @@ export const ReminderBanner: React.FC<ReminderBannerProps> = ({ blocks, dateIso 
                 <Info className="w-3.5 h-3.5 mr-0.5" /> {showDetails ? 'Hide details' : 'How it works'}
               </button>
             </div>
-            <p className="text-xs text-stone-400 mt-0.5">
+            <p className="text-xs text-stone-400 mt-0.5 leading-relaxed">
               Export an <strong className="text-stone-300">.ics calendar file</strong> with configured 10-minute alarms to import today&apos;s schedule into Apple Calendar, Google Calendar, or Outlook completely offline.
             </p>
 
@@ -66,7 +66,7 @@ export const ReminderBanner: React.FC<ReminderBannerProps> = ({ blocks, dateIso 
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center gap-2 shrink-0">
+        <div className="flex items-center justify-between sm:justify-end gap-2 shrink-0 pt-2 sm:pt-0 border-t sm:border-0 border-stone-800/50">
           <button
             onClick={handleDownloadIcs}
             className="inline-flex items-center px-3 py-1.5 text-xs font-semibold rounded-lg bg-rose-600 hover:bg-rose-500 text-white shadow-sm transition active:scale-95 cursor-pointer"
@@ -76,7 +76,7 @@ export const ReminderBanner: React.FC<ReminderBannerProps> = ({ blocks, dateIso 
           <button
             onClick={() => setDismissed(true)}
             aria-label="Dismiss banner"
-            className="p-1 rounded hover:bg-stone-800 text-stone-500 hover:text-stone-300 transition"
+            className="p-1.5 rounded hover:bg-stone-800 text-stone-500 hover:text-stone-300 transition"
           >
             <X className="w-4 h-4" />
           </button>

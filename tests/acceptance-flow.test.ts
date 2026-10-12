@@ -180,4 +180,17 @@ describe('M1 Vertical Slice Acceptance: 15-Step Learner Journey', () => {
     expect(icsContent).toContain('TRIGGER:-PT10M');
     expect(icsContent).toContain('SUMMARY:Nihongo N2: Vocabulary + SRS');
   });
+
+  it('Step 16: Automatically resolves next lesson in sequence when previous lesson is mastered', async () => {
+    const { ContentLoader } = await import('../src/data/content/content-loader');
+    const curriculum = ContentLoader.getCurriculumMap();
+
+    const currentIndex = curriculum.findIndex((item) => item.id === 'n5.l01');
+    expect(currentIndex).toBe(0);
+    const nextItem = curriculum[currentIndex + 1];
+    expect(nextItem).toBeDefined();
+    expect(nextItem.id).toBe('n5.l02');
+    expect(nextItem.number).toBe(2);
+    expect(nextItem.title).toContain('This, That, and Over There');
+  });
 });

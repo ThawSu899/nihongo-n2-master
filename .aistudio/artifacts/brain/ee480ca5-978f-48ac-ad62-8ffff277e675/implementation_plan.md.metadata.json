@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan to fix the stuck 'Lesson 1 Current Focus' issue by dynamically deriving the focused lesson from user progress, automatically advancing to the next lesson upon completion, and dynamically updating the Home screen hero card.",
+  "updatedAt":  "2026-10-10T01:24:15.120006445Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

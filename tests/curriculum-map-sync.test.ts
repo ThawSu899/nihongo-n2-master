@@ -429,5 +429,118 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
         expect(filteredN5Learner.map((p) => p.id)).toEqual(['n5.l01']);
       });
     });
+
+    describe('Dynamic Lesson Progression & Current Focus verification', () => {
+      it('HomeScreen renders dynamic focused lesson metadata when given focusedLesson', async () => {
+        const React = await import('react');
+        const { renderToString } = await import('react-dom/server');
+        const { HomeScreen } = await import('../src/presentation/screens/HomeScreen');
+        const { ContentLoader } = await import('../src/data/content/content-loader');
+
+        const curriculum = ContentLoader.getCurriculumMap();
+        const lesson21 = curriculum.find((c) => c.id === 'n5.l21')!;
+        expect(lesson21).toBeDefined();
+
+        const dummyProfile: UserProfile = {
+          name: 'Learner',
+          level: 'N5',
+          currentLessonId: 'n5.l21',
+          dailyTargetMinutes: 360,
+          dayRolloverHour: 4,
+          showRomaji: false,
+          furiganaMode: 'always',
+          explanationLang: 'en',
+          targetRetention: 0.9,
+          dailyNewCap: 30,
+          dailyReviewCap: 200,
+          notificationSettings: {
+            inApp: true,
+            browser: false,
+            calendarPopup: false,
+            quietHoursStart: '22:00',
+            quietHoursEnd: '07:00',
+          },
+        };
+
+        const dailyPlan = {
+          date: '2026-10-10',
+          blocks: [],
+          targetMinutes: 360,
+          completedMinutes: 0,
+          isRecoveryDay: false,
+          weakSkills: [],
+          strongSkills: [],
+          explanations: [],
+        };
+
+        const html = renderToString(
+          React.createElement(HomeScreen, {
+            profile: dummyProfile,
+            dailyPlan,
+            dueSrsCount: 0,
+            todayMinutes: 45,
+            timerState: {
+              blockId: null,
+              state: 'idle' as const,
+              startedAt: null,
+              accumulatedMs: 0,
+              targetMinutes: 60,
+              lastInteractionAt: Date.now(),
+            },
+            onStartStudy: () => {},
+            onOpenSrs: () => {},
+            onOpenTests: () => {},
+            onNavigate: () => {},
+            focusedLesson: lesson21,
+          })
+        );
+
+        // Verify dynamic rendering of lesson 21
+        expect(html).toContain('Becoming and Listing');
+        expect(html).toContain('21');
+        expect(html).toContain('30');
+        expect(html).toContain('START STUDY');
+      });
+
+      it('TestsScreen dynamically reflects profile.currentLessonId in Immediate Assessment card', async () => {
+        const React = await import('react');
+        const { renderToString } = await import('react-dom/server');
+        const { TestsScreen } = await import('../src/presentation/screens/TestsScreen');
+
+        const dummyProfile: UserProfile = {
+          name: 'Learner',
+          level: 'N5',
+          currentLessonId: 'n5.l21',
+          dailyTargetMinutes: 360,
+          dayRolloverHour: 4,
+          showRomaji: false,
+          furiganaMode: 'always',
+          explanationLang: 'en',
+          targetRetention: 0.9,
+          dailyNewCap: 30,
+          dailyReviewCap: 200,
+          notificationSettings: {
+            inApp: true,
+            browser: false,
+            calendarPopup: false,
+            quietHoursStart: '22:00',
+            quietHoursEnd: '07:00',
+          },
+        };
+
+        const html = renderToString(
+          React.createElement(TestsScreen, {
+            profile: dummyProfile,
+            onStartLessonTest: () => {},
+          })
+        );
+
+        // Verify dynamic lesson test card for N5 Day 21
+        expect(html).toContain('Current Lesson Test');
+        expect(html).toContain('Becoming and Listing');
+        expect(html).toContain('21');
+      });
+    });
   });
 });
+

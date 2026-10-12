@@ -44,6 +44,7 @@ interface LessonPlayerScreenProps {
   masteryRecord?: MasteryRecord;
   onMasteryUpdated: (record: MasteryRecord) => void;
   onExit: () => void;
+  onLessonCompleted?: (lessonId: string) => void | Promise<void>;
   onBlockProgress?: (minutes: number) => void;
   onTestActiveChange?: (active: boolean) => void;
 }
@@ -72,6 +73,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
   masteryRecord,
   onMasteryUpdated,
   onExit,
+  onLessonCompleted,
   onBlockProgress,
   onTestActiveChange,
 }) => {
@@ -90,6 +92,12 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
       }
     };
   }, [currentStage, onTestActiveChange]);
+
+  useEffect(() => {
+    if (currentStage === 15 && onLessonCompleted) {
+      onLessonCompleted(pack.id);
+    }
+  }, [currentStage, pack.id, onLessonCompleted]);
 
   // Active exercises state
   const [exerciseIndex, setExerciseIndex] = useState(0);
@@ -444,7 +452,12 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
       <div className="bg-stone-900/90 backdrop-blur-md border border-stone-800 rounded-3xl p-4 sm:p-5 shadow-xl space-y-3.5">
         <div className="flex items-center justify-between text-xs text-stone-400">
           <button
-            onClick={onExit}
+            onClick={async () => {
+              if (currentStage === 15 && onLessonCompleted) {
+                await onLessonCompleted(pack.id);
+              }
+              onExit();
+            }}
             className="flex items-center space-x-1.5 hover:text-stone-200 transition py-1 px-2.5 -ml-2 rounded-xl hover:bg-stone-800/60"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
@@ -1405,10 +1418,15 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  onClick={onExit}
-                  className="px-8 py-4 rounded-2xl bg-gradient-to-r from-rose-600 to-rose-500 hover:from-rose-500 hover:to-rose-400 text-white font-semibold text-xs tracking-wide transition shadow-lg shadow-rose-950/40"
+                  onClick={async () => {
+                    if (onLessonCompleted) {
+                      await onLessonCompleted(pack.id);
+                    }
+                    onExit();
+                  }}
+                  className="px-8 py-4 rounded-2xl bg-gradient-to-r from-rose-600 to-rose-500 hover:from-rose-500 hover:to-rose-400 text-white font-semibold text-xs tracking-wide transition shadow-lg shadow-rose-950/40 cursor-pointer"
                 >
-                  Return to Dashboard
+                  Complete &amp; Return to Dashboard
                 </motion.button>
               </div>
             </div>

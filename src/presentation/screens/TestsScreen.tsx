@@ -39,6 +39,9 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
   const [assessmentHistory, setAssessmentHistory] = useState<AssessmentResult[]>([]);
   const [readiness, setReadiness] = useState<any>(null);
 
+  const curriculumMap = ContentLoader.getCurriculumMap();
+  const activeLesson = curriculumMap.find((m) => m.id === (profile.currentLessonId || 'n5.l01')) || curriculumMap[0];
+
   // Active assessment test execution state
   const [testQuestions, setTestQuestions] = useState<Question[]>([]);
   const [assessmentSession, setAssessmentSession] = useState(() => new AssessmentSession());
@@ -326,13 +329,15 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div className="space-y-1">
             <span className="text-xs font-mono text-rose-400 uppercase font-semibold">Immediate Assessment</span>
-            <h2 className="text-lg font-bold text-stone-100">Current Lesson Test (N5 Day 1)</h2>
+            <h2 className="text-lg font-bold text-stone-100">
+              Current Lesson Test ({activeLesson.level} Day {activeLesson.number} • {activeLesson.title})
+            </h2>
             <p className="text-xs text-stone-400 max-w-lg">
               Timed, unhinted test requiring minimum evidence counts (Vocab ≥ 10, Kanji ≥ 6, Grammar ≥ 6, Reading ≥ 5, Listening ≥ 5).
             </p>
           </div>
           <button
-            onClick={() => onStartLessonTest('n5.l01')}
+            onClick={() => onStartLessonTest(activeLesson.id)}
             className="px-5 py-2.5 rounded-xl bg-rose-600 hover:bg-rose-500 text-white font-semibold text-xs transition shadow"
           >
             Take Lesson Test
