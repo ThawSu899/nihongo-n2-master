@@ -1,0 +1,1797 @@
+import { LessonPack } from '../../../models/types';
+
+export const n2l58Data: LessonPack = {
+  "id": "n2.l58",
+  "level": "N2",
+  "module": "N2 Mastery & Professional Japanese",
+  "number": 58,
+  "title": "N2 Lesson 58: Complex Logical Transitions (〜とはいえ・〜それどころか・〜もっとも)",
+  "description": "Mastery module focusing on Concessive Contradictions, Escalating Polarities, and Supplementary Caveats: rational qualification (とはいえ), radical polar escalations (それどころか), and parenthetical reservations (もっとも).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l58.v001",
+      "lessonId": "n2.l58",
+      "ja": "変換",
+      "kana": "へんかん",
+      "en": "conversion / transformation",
+      "my": "ပြောင်းလဲခြင်း",
+      "meaningMy": "ပြောင်းလဲခြင်း",
+      "meaningMyanmar": "ပြောင်းလဲခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l58.s001",
+      "kanjiIds": [
+        "n2.l58.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.v002",
+      "lessonId": "n2.l58",
+      "ja": "交換",
+      "kana": "こうかん",
+      "en": "exchange / swap",
+      "my": "အပြန်အလှန် လဲလှယ်ခြင်း",
+      "meaningMy": "အပြန်အလှန် လဲလှယ်ခြင်း",
+      "meaningMyanmar": "အပြန်အလှန် လဲလှယ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l58.s002",
+      "kanjiIds": [
+        "n2.l58.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.v003",
+      "lessonId": "n2.l58",
+      "ja": "換気",
+      "kana": "かんき",
+      "en": "ventilation",
+      "my": "လေဝင်လေထွက်",
+      "meaningMy": "လေဝင်လေထွက်",
+      "meaningMyanmar": "လေဝင်လေထွက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l58.s003",
+      "kanjiIds": [
+        "n2.l58.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.v004",
+      "lessonId": "n2.l58",
+      "ja": "転換",
+      "kana": "てんかん",
+      "en": "transition / diversion",
+      "my": "ဦးတည်ရာ လှည့်ပြောင်းခြင်း",
+      "meaningMy": "ဦးတည်ရာ လှည့်ပြောင်းခြင်း",
+      "meaningMyanmar": "ဦးတည်ရာ လှည့်ပြောင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l58.s004",
+      "kanjiIds": [
+        "n2.l58.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.v005",
+      "lessonId": "n2.l58",
+      "ja": "展開",
+      "kana": "てんかい",
+      "en": "development / unfolding",
+      "my": "ဖြစ်ပေါ်တိုးတက်မှု",
+      "meaningMy": "ဖြစ်ပေါ်တိုးတက်မှု",
+      "meaningMyanmar": "ဖြစ်ပေါ်တိုးတက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l58.s005",
+      "kanjiIds": [
+        "n2.l58.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.v006",
+      "lessonId": "n2.l58",
+      "ja": "導入",
+      "kana": "どうにゅう",
+      "en": "introduction / installation",
+      "my": "စတင်ထည့်သွင်းအသုံးပြုခြင်း",
+      "meaningMy": "စတင်ထည့်သွင်းအသုံးပြုခြင်း",
+      "meaningMyanmar": "စတင်ထည့်သွင်းအသုံးပြုခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l58.s006",
+      "kanjiIds": [
+        "n2.l58.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.v007",
+      "lessonId": "n2.l58",
+      "ja": "指導",
+      "kana": "しどう",
+      "en": "guidance / leadership",
+      "my": "လမ်းညွှန်သွန်သင်ခြင်း",
+      "meaningMy": "လမ်းညွှန်သွန်သင်ခြင်း",
+      "meaningMyanmar": "လမ်းညွှန်သွန်သင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l58.s007",
+      "kanjiIds": [
+        "n2.l58.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.v008",
+      "lessonId": "n2.l58",
+      "ja": "誘導",
+      "kana": "ゆうどう",
+      "en": "guidance / steering",
+      "my": "လမ်းပြခေါ်ဆောင်ခြင်း",
+      "meaningMy": "လမ်းပြခေါ်ဆောင်ခြင်း",
+      "meaningMyanmar": "လမ်းပြခေါ်ဆောင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l58.s008",
+      "kanjiIds": [
+        "n2.l58.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.v009",
+      "lessonId": "n2.l58",
+      "ja": "逆転",
+      "kana": "ぎゃくてん",
+      "en": "reversal / turnaround",
+      "my": "ပြောင်းပြန်ဖြစ်သွားခြင်း",
+      "meaningMy": "ပြောင်းပြန်ဖြစ်သွားခြင်း",
+      "meaningMyanmar": "ပြောင်းပြန်ဖြစ်သွားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l58.s009",
+      "kanjiIds": [
+        "n2.l58.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.v010",
+      "lessonId": "n2.l58",
+      "ja": "矛盾",
+      "kana": "むじゅん",
+      "en": "contradiction / inconsistency",
+      "my": "ရှေ့နောက်မညီ ဆန့်ကျင်မှု",
+      "meaningMy": "ရှေ့နောက်မညီ ဆန့်ကျင်မှု",
+      "meaningMyanmar": "ရှေ့နောက်မညီ ဆန့်ကျင်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l58.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.v011",
+      "lessonId": "n2.l58",
+      "ja": "妥当",
+      "kana": "だとう",
+      "en": "valid / appropriate",
+      "my": "သင့်လျော်မှန်ကန်သော",
+      "meaningMy": "သင့်လျော်မှန်ကန်သော",
+      "meaningMyanmar": "သင့်လျော်မှန်ကန်သော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n2.l58.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.v012",
+      "lessonId": "n2.l58",
+      "ja": "示唆",
+      "kana": "しさ",
+      "en": "suggestion / implication",
+      "my": "အရိပ်အမြွက်ပြသခြင်း",
+      "meaningMy": "အရိပ်အမြွက်ပြသခြင်း",
+      "meaningMyanmar": "အရိပ်အမြွက်ပြသခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l58.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l58.k001",
+      "lessonId": "n2.l58",
+      "char": "換",
+      "meaning": "Interchange / Exchange / Convert / Replace",
+      "meaningMy": "လဲလှယ်သည် / ပြောင်းလဲသည် / အစားထိုးသည်",
+      "meaningMyanmar": "လဲလှယ်သည် / ပြောင်းလဲသည် / အစားထိုးသည်",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [
+        "か・える",
+        "か・わる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "変換",
+          "reading": "へんかん",
+          "meaning": "conversion / change",
+          "meaningMy": "ပြောင်းလဲခြင်း",
+          "preview": true
+        },
+        {
+          "word": "交換",
+          "reading": "こうかん",
+          "meaning": "exchange / swap",
+          "meaningMy": "အပြန်အလှန် လဲလှယ်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "換気",
+          "reading": "かんき",
+          "meaning": "ventilation",
+          "meaningMy": "လေဝင်လေထွက်",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l58.s001"
+      ],
+      "components": [
+        "扌",
+        "奐"
+      ],
+      "strokes": 12,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.k002",
+      "lessonId": "n2.l58",
+      "char": "転",
+      "meaning": "Revolve / Turn around / Shift / Fall",
+      "meaningMy": "လည်ပတ်သည် / လှည့်ပြောင်းသည် / လဲကျသည်",
+      "meaningMyanmar": "လည်ပတ်သည် / လှည့်ပြောင်းသည် / လဲကျသည်",
+      "onyomi": [
+        "テン"
+      ],
+      "kunyomi": [
+        "ころ・がる",
+        "ころ・ぶ",
+        "ころ・がす"
+      ],
+      "exampleVocab": [
+        {
+          "word": "転換",
+          "reading": "てんかん",
+          "meaning": "transition / diversion",
+          "meaningMy": "ဦးတည်ရာ လှည့်ပြောင်းခြင်း",
+          "preview": true
+        },
+        {
+          "word": "展開",
+          "reading": "てんかい",
+          "meaning": "development / unfolding",
+          "meaningMy": "ဖြစ်ပေါ်တိုးတက်မှု",
+          "preview": false
+        },
+        {
+          "word": "逆転",
+          "reading": "ぎゃくてん",
+          "meaning": "reversal / turnaround",
+          "meaningMy": "ပြောင်းပြန်ဖြစ်သွားခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l58.s002"
+      ],
+      "components": [
+        "車",
+        "専"
+      ],
+      "strokes": 11,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.k003",
+      "lessonId": "n2.l58",
+      "char": "導",
+      "meaning": "Lead / Guide / Conduct / Induce",
+      "meaningMy": "လမ်းပြသည် / ခေါ်ဆောင်သည် / သွန်သင်သည်",
+      "meaningMyanmar": "လမ်းပြသည် / ခေါ်ဆောင်သည် / သွန်သင်သည်",
+      "onyomi": [
+        "ドウ"
+      ],
+      "kunyomi": [
+        "みちび・く"
+      ],
+      "exampleVocab": [
+        {
+          "word": "指導",
+          "reading": "しどう",
+          "meaning": "guidance / leadership",
+          "meaningMy": "လမ်းညွှန်သွန်သင်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "導入",
+          "reading": "どうにゅう",
+          "meaning": "introduction / rollout",
+          "meaningMy": "စတင်ထည့်သွင်းအသုံးပြုခြင်း",
+          "preview": true
+        },
+        {
+          "word": "誘導",
+          "reading": "ゆうどう",
+          "meaning": "guidance / steering",
+          "meaningMy": "လမ်းပြခေါ်ဆောင်ခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l58.s003"
+      ],
+      "components": [
+        "道",
+        "寸"
+      ],
+      "strokes": 15,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l58.g001",
+      "lessonId": "n2.l58",
+      "pattern": "〜とはいえ",
+      "meaning": "Although it is true that... / Nonetheless... (concessive limitation)",
+      "meaningMy": "...ဖြစ်သည် ဆိုသော်လည်း / ...ဆိုငြားသော်လည်း (အမှန်ဖြစ်သော်လည်း ချွင်းချက်ရှိခြင်း)",
+      "meaningMyanmar": "...ဖြစ်သည် ဆိုသော်လည်း / ...ဆိုငြားသော်လည်း (အမှန်ဖြစ်သော်လည်း ချွင်းချက်ရှိခြင်း)",
+      "formation": "V/Adj/N (普通形) + とはいえ (Na / N 接続: だ drops or である)",
+      "explanation": {
+        "en": "Acknowledges a conceded premise as a fact, but immediately asserts that expected general conclusions do not apply or require caution.",
+        "my": "ရှေ့မှ အချက်သည် အမှန်ပင်ဖြစ်သော်လည်း ၎င်းအချက်ကြောင့် ဖြစ်ပေါ်လာမည့် သာမန်ရလဒ်နှင့် ကွဲလွဲကာ သတိပြုဖွယ် အချက်တစ်ခု ရှိနေကြောင်း ပြသည်။"
+      },
+      "explanationMy": "ရှေ့မှ အချက်သည် အမှန်ပင်ဖြစ်သော်လည်း ၎င်းအချက်ကြောင့် ဖြစ်ပေါ်လာမည့် သာမန်ရလဒ်နှင့် ကွဲလွဲကာ သတိပြုဖွယ် အချက်တစ်ခု ရှိနေကြောင်း ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l58.s001",
+          "note": "〜とはいえ usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l58.s002",
+          "note": "〜とはいえ usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l58.s003",
+          "note": "〜とはいえ usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l58.s010",
+          "note": "〜とはいえ usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l58.g001",
+        "n2.l58.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜とはいえ."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "四月に入った［　］、朝夕は依然として真冬のような冷え込みが続いている。",
+      "clozeTarget": "とはいえ",
+      "clozeHint": "Although that is true (to wa ie)",
+      "acceptableSynonyms": [
+        "〜とは言っても",
+        "〜けれども"
+      ],
+      "nuanceExplanationMy": "လက်တွေ့အချက်ကို လက်ခံသော်လည်း မတူကွဲပြားသော လက်တွေ့အခြေအနေကို ဖြည့်စွက်ပြသည်။"
+    },
+    {
+      "id": "n2.l58.g002",
+      "lessonId": "n2.l58",
+      "pattern": "〜それどころか",
+      "meaning": "On the contrary... / Far from that... (escalates to extreme opposite)",
+      "meaningMy": "...ဝေးစွ / ထိုမျှသာမကဘဲ ပြောင်းပြန်ဖြစ်၍ (ဆန့်ကျင်ဘက် အစွန်းရောက်ခြင်း)",
+      "meaningMyanmar": "...ဝေးစွ / ထိုမျှသာမကဘဲ ပြောင်းပြန်ဖြစ်၍ (ဆန့်ကျင်ဘက် အစွန်းရောက်ခြင်း)",
+      "formation": "Sentence A. それどころか + Sentence B.",
+      "explanation": {
+        "en": "Refutes an expectation stated in A, escalating to reveal that the reality is dramatically further along or utterly the diametrical opposite.",
+        "my": "မျှော်လင့်ထားသလို မဟုတ်သည့်အပြင် ၎င်းနှင့် လုံးဝဆန့်ကျင်ဘက် သို့မဟုတ် ပိုမိုဆိုးရွား ပြင်းထန်သော အခြေအနေသို့ ရောက်ရှိသွားကြောင်း ပြသည်။"
+      },
+      "explanationMy": "မျှော်လင့်ထားသလို မဟုတ်သည့်အပြင် ၎င်းနှင့် လုံးဝဆန့်ကျင်ဘက် သို့မဟုတ် ပိုမိုဆိုးရွား ပြင်းထန်သော အခြေအနေသို့ ရောက်ရှိသွားကြောင်း ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l58.s004",
+          "note": "〜それどころか usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l58.s005",
+          "note": "〜それどころか usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l58.s006",
+          "note": "〜それどころか usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l58.s011",
+          "note": "〜それどころか usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l58.g001",
+        "n2.l58.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜それどころか."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "薬を飲んだが熱は下がらなかった。［　］、さらに上昇してしまった。",
+      "clozeTarget": "それどころか",
+      "clozeHint": "Far from that / on the contrary (sore dokoro ka)",
+      "acceptableSynonyms": [
+        "〜どころか",
+        "〜それどころではない"
+      ],
+      "nuanceExplanationMy": "မျှော်လင့်ထားသည်နှင့် ဆန့်ကျင်ဘက် ပိုဆိုးသွားသည့် အခြေအနေကို ပြသည်။"
+    },
+    {
+      "id": "n2.l58.g003",
+      "lessonId": "n2.l58",
+      "pattern": "〜もっとも",
+      "meaning": "Mind you... / However... (adds a rational caveat or exception)",
+      "meaningMy": "...သို့သော်လည်း / မှတ်ချက်အနေဖြင့်မူ (ခြွင်းချက် သို့မဟုတ် ဖြည့်စွက်ချက်)",
+      "meaningMyanmar": "...သို့သော်လည်း / မှတ်ချက်အနေဖြင့်မူ (ခြွင်းချက် သို့မဟုတ် ဖြည့်စွက်ချက်)",
+      "formation": "Sentence A. もっとも + Sentence B (caveat / exception).",
+      "explanation": {
+        "en": "After presenting a sweeping general statement in A, begins sentence B with もっとも to introduce a vital caveat, condition, or limitation.",
+        "my": "ယေဘုယျ သဘောထားတစ်ခုကို ဖော်ပြပြီးနောက် ၎င်းနှင့်ပတ်သက်သော ခြွင်းချက် သို့မဟုတ် ကန့်သတ်ချက်လေးတစ်ခုကို ယဉ်ကျေးစွာ ဖြည့်စွက်ဖော်ပြသည်။"
+      },
+      "explanationMy": "ယေဘုယျ သဘောထားတစ်ခုကို ဖော်ပြပြီးနောက် ၎င်းနှင့်ပတ်သက်သော ခြွင်းချက် သို့မဟုတ် ကန့်သတ်ချက်လေးတစ်ခုကို ယဉ်ကျေးစွာ ဖြည့်စွက်ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l58.s007",
+          "note": "〜もっとも usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l58.s008",
+          "note": "〜もっとも usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l58.s009",
+          "note": "〜もっとも usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l58.s012",
+          "note": "〜もっとも usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l58.g001",
+        "n2.l58.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜もっとも."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "全員参加が原則です。［　］、体調不良や冠婚葬祭の場合は除きます。",
+      "clozeTarget": "もっとも",
+      "clozeHint": "Mind you / however (mottomo)",
+      "acceptableSynonyms": [
+        "〜ただし",
+        "〜そうは言っても"
+      ],
+      "nuanceExplanationMy": "ရှေ့စကားကို အလုံးစုံ မမှားစေရန် ခြွင်းချက် အချက်အလက် ဖြည့်စွက်ပေးသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l58.s001",
+      "lessonId": "n2.l58",
+      "ja": "いくら景気が回復基調にあるとはいえ、中小企業の経営環境は依然として厳しい。",
+      "kana": "いくらけいきがかいふくきちょうにあるとはいえ、ちゅうしょうきぎょうのけいえいかんきょうはいぜんとしてきびしい。",
+      "translation": {
+        "en": "No matter how much the economy is on a recovery track, the operating environment for small firms remains severe.",
+        "my": "စီးပွားရေး ပြန်လည်ကောင်းမွန်လာသည့် လမ်းကြောင်းပေါ်တွင် ရှိနေသည် ဆိုငြားသော်လည်း အသေးစားနှင့် အလတ်စား လုပ်ငန်းများ၏ လည်ပတ်မှု အခြေအနေမှာ ယခင်အတိုင်းပင် ခက်ခဲနေဆဲ ဖြစ်သည်။"
+      },
+      "translationMy": "စီးပွားရေး ပြန်လည်ကောင်းမွန်လာသည့် လမ်းကြောင်းပေါ်တွင် ရှိနေသည် ဆိုငြားသော်လည်း အသေးစားနှင့် အလတ်စား လုပ်ငန်းများ၏ လည်ပတ်မှု အခြေအနေမှာ ယခင်အတိုင်းပင် ခက်ခဲနေဆဲ ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l58.v004"
+      ],
+      "grammarIds": [
+        "n2.l58.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.s002",
+      "lessonId": "n2.l58",
+      "ja": "試験に合格したとはいえ、実務の現場ではまだ半人前にすぎない。",
+      "kana": "しけんにごうかくしたとはいえ、じつむのげんばではまだはんにんまえにすぎない。",
+      "translation": {
+        "en": "Although it is true I passed the examination, on the practical field I am merely half-fledged.",
+        "my": "စာမေးပွဲ အောင်မြင်ခဲ့သည် ဆိုသော်လည်း လက်တွေ့လုပ်ငန်းခွင်တွင် ဝါနုသေးသူတစ်ဦးမျှသာ ဖြစ်သည်။"
+      },
+      "translationMy": "စာမေးပွဲ အောင်မြင်ခဲ့သည် ဆိုသော်လည်း လက်တွေ့လုပ်ငန်းခွင်တွင် ဝါနုသေးသူတစ်ဦးမျှသာ ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l58.v011"
+      ],
+      "grammarIds": [
+        "n2.l58.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.s003",
+      "lessonId": "n2.l58",
+      "ja": "新型AIシステムの導入が進んだとはいえ、人間の指導による微調整は欠かせない。",
+      "kana": "しんがたAIシステムのどうにゅうがすすんだとはいえ、にんげんのしどうによるびちょうせいはかかせない。",
+      "translation": {
+        "en": "Although introduction of new AI systems has advanced, fine-tuning under human guidance is indispensable.",
+        "my": "AI စနစ်သစ်များ ထည့်သွင်းအသုံးပြုမှု တိုးတက်လာပြီ ဆိုငြားသော်လည်း လူသားများ၏ လမ်းညွှန်မှုဖြင့် အသေးစိတ် ပြုပြင်ညှိနှိုင်းမှုမှာ မရှိမဖြစ် လိုအပ်သည်။"
+      },
+      "translationMy": "AI စနစ်သစ်များ ထည့်သွင်းအသုံးပြုမှု တိုးတက်လာပြီ ဆိုငြားသော်လည်း လူသားများ၏ လမ်းညွှန်မှုဖြင့် အသေးစိတ် ပြုပြင်ညှိနှိုင်းမှုမှာ မရှိမဖြစ် လိုအပ်သည်။",
+      "vocabIds": [
+        "n2.l58.v006",
+        "n2.l58.v007"
+      ],
+      "grammarIds": [
+        "n2.l58.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.s004",
+      "lessonId": "n2.l58",
+      "ja": "試合は優勢に進んでいた。それどころか、終了直前に劇的な逆転ゴールを許して敗北した。",
+      "kana": "しあいはゆうせいにすすんでいた。それどころか、しゅうりょうちょくぜんにげきてきなぎゃくてんゴールをゆるしてはいぼくした。",
+      "translation": {
+        "en": "The match had been progressing favorably. Far from winning, on the contrary, we conceded a dramatic comeback goal right before the end and suffered defeat.",
+        "my": "ပွဲစဉ်မှာ အသာစီးဖြင့် တိုးတက်နေခဲ့သည်။ ဝေးစွ၊ အချိန်မပြီးမီလေးတွင် ဒရာမာဆန်ဆန် ပြောင်းပြန်အနိုင်ဂိုး အသွင်းခံလိုက်ရပြီး ရှုံးနိမ့်ခဲ့ရသည်။"
+      },
+      "translationMy": "ပွဲစဉ်မှာ အသာစီးဖြင့် တိုးတက်နေခဲ့သည်။ ဝေးစွ၊ အချိန်မပြီးမီလေးတွင် ဒရာမာဆန်ဆန် ပြောင်းပြန်အနိုင်ဂိုး အသွင်းခံလိုက်ရပြီး ရှုံးနိမ့်ခဲ့ရသည်။",
+      "vocabIds": [
+        "n2.l58.v009"
+      ],
+      "grammarIds": [
+        "n2.l58.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.s005",
+      "lessonId": "n2.l58",
+      "ja": "彼は反省などしていない。それどころか、自らの正当性を主張して開き直っている。",
+      "kana": "かれははんせいなどしていない。それどころか、みずからのせいとうせいをしゅちょうしてひらきなおっている。",
+      "translation": {
+        "en": "He is doing no soul-searching whatsoever. On the contrary, he defiantly asserts his own justification.",
+        "my": "သူသည် နောင်တရခြင်း စိုးစဉ်းမျှမရှိပေ။ ဝေးစွ၊ မိမိ၏ မှန်ကန်မှုကိုသာ အတင်းပြောဆို၍ မထီမဲ့မြင် ပြုနေသည်။"
+      },
+      "translationMy": "သူသည် နောင်တရခြင်း စိုးစဉ်းမျှမရှိပေ။ ဝေးစွ၊ မိမိ၏ မှန်ကန်မှုကိုသာ အတင်းပြောဆို၍ မထီမဲ့မြင် ပြုနေသည်။",
+      "vocabIds": [
+        "n2.l58.v010"
+      ],
+      "grammarIds": [
+        "n2.l58.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.s006",
+      "lessonId": "n2.l58",
+      "ja": "赤字は縮小しなかった。それどころか、予期せぬ負債が発覚して倒産の危機に瀕した。",
+      "kana": "あかじはしゅくしょうしなかった。それどころか、よきせぬふさいがはっかくしてとうさんのききにひんした。",
+      "translation": {
+        "en": "The deficit did not shrink. Far from that, unexpected liabilities were uncovered, pushing us to the brink of bankruptcy.",
+        "my": "အရှုံးငွေ လျော့မသွားခဲ့ပေ။ ထိုမျှသာမက မမျှော်လင့်ထားသော အကြွေးများ ပေါ်ပေါက်လာသဖြင့် ဒေဝါလီခံရမည့် အန္တရာယ်နှင့် ရင်ဆိုင်ခဲ့ရသည်။"
+      },
+      "translationMy": "အရှုံးငွေ လျော့မသွားခဲ့ပေ။ ထိုမျှသာမက မမျှော်လင့်ထားသော အကြွေးများ ပေါ်ပေါက်လာသဖြင့် ဒေဝါလီခံရမည့် အန္တရာယ်နှင့် ရင်ဆိုင်ခဲ့ရသည်။",
+      "vocabIds": [
+        "n2.l58.v009"
+      ],
+      "grammarIds": [
+        "n2.l58.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.s007",
+      "lessonId": "n2.l58",
+      "ja": "明日の記念式典は全員出席とします。もっとも、業務上の緊急事態がある場合は除きます。",
+      "kana": "あすのきねんしきてんはぜんいんしゅっせきとします。もっとも、ぎょうむじょうのきんきゅうじたいがあるばあいはのぞきます。",
+      "translation": {
+        "en": "Tomorrow's anniversary ceremony shall be attended by all. Mind you, cases with urgent operational emergencies are excepted.",
+        "my": "မနက်ဖြန် အခမ်းအနားကို အားလုံး တက်ရောက်ရမည်။ သို့သော်လည်း အရေးပေါ် လုပ်ငန်းကိစ္စ ရှိပါက ခြွင်းချက် ဖြစ်သည်။"
+      },
+      "translationMy": "မနက်ဖြန် အခမ်းအနားကို အားလုံး တက်ရောက်ရမည်။ သို့သော်လည်း အရေးပေါ် လုပ်ငန်းကိစ္စ ရှိပါက ခြွင်းချက် ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l58.v011"
+      ],
+      "grammarIds": [
+        "n2.l58.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.s008",
+      "lessonId": "n2.l58",
+      "ja": "この計画は妥当であると考えます。もっとも、追加の財源確保が前提となりますが。",
+      "kana": "このけいかくはだとうであるとかんがえます。もっとも、ついかのざいげんかくほがぜんていとなりますが。",
+      "translation": {
+        "en": "I consider this plan appropriate. Mind you, securing additional fiscal revenue serves as the premise.",
+        "my": "ဤစီမံကိန်းသည် သင့်လျော်သည်ဟု ယူဆပါသည်။ သို့သော်လည်း ထပ်ဆောင်း ဘဏ္ဍာငွေ ရရှိရေးကတော့ ကြိုတင်လိုအပ်ချက် ဖြစ်ပါလိမ့်မည်။"
+      },
+      "translationMy": "ဤစီမံကိန်းသည် သင့်လျော်သည်ဟု ယူဆပါသည်။ သို့သော်လည်း ထပ်ဆောင်း ဘဏ္ဍာငွေ ရရှိရေးကတော့ ကြိုတင်လိုအပ်ချက် ဖြစ်ပါလိမ့်မည်။",
+      "vocabIds": [
+        "n2.l58.v011"
+      ],
+      "grammarIds": [
+        "n2.l58.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.s009",
+      "lessonId": "n2.l58",
+      "ja": "実験結果は今後の可能性を示唆している。もっとも、実用化にはなお数年を要するだろう。",
+      "kana": "じっけんけっかはこんごのかのうせいをしさしている。もっとも、じつようかにはなおすうねんをようするだろう。",
+      "translation": {
+        "en": "The experiment results suggest future possibilities. Mind you, practical deployment will still require several years.",
+        "my": "စမ်းသပ်မှု ရလဒ်များသည် အနာဂတ် အလားအလာများကို အရိပ်အမြွက် ပြသနေသည်။ သို့သော်လည်း လက်တွေ့ အသုံးချနိုင်ရန် နောက်ထပ် နှစ်အနည်းငယ် ကြာဦးမည် ဖြစ်သည်။"
+      },
+      "translationMy": "စမ်းသပ်မှု ရလဒ်များသည် အနာဂတ် အလားအလာများကို အရိပ်အမြွက် ပြသနေသည်။ သို့သော်လည်း လက်တွေ့ အသုံးချနိုင်ရန် နောက်ထပ် နှစ်အနည်းငယ် ကြာဦးမည် ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l58.v012"
+      ],
+      "grammarIds": [
+        "n2.l58.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.s010",
+      "lessonId": "n2.l58",
+      "ja": "密閉空間の換気を行うとともに、旧式ヒーターから最新エアコンへの交換を実施した。",
+      "kana": "みっぺいくうかんのかんきをおこなうとともに、きゅうしきヒーターからさいしんエアコンへのこうかんをじっしした。",
+      "translation": {
+        "en": "Along with ventilating the enclosed space, we carried out the replacement from antique heaters to cutting-edge air conditioners.",
+        "my": "ပိတ်လှောင်နေသော နေရာကို လေဝင်လေထွက် ပြုလုပ်ပေးခြင်းနှင့်အတူ ရှေးဟောင်း အပူပေးစက်များမှ ခေတ်မီ လေအေးပေးစက်များသို့ အစားထိုး လဲလှယ်ခြင်းကို ဆောင်ရွက်ခဲ့သည်။"
+      },
+      "translationMy": "ပိတ်လှောင်နေသော နေရာကို လေဝင်လေထွက် ပြုလုပ်ပေးခြင်းနှင့်အတူ ရှေးဟောင်း အပူပေးစက်များမှ ခေတ်မီ လေအေးပေးစက်များသို့ အစားထိုး လဲလှယ်ခြင်းကို ဆောင်ရွက်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l58.v002",
+        "n2.l58.v003"
+      ],
+      "grammarIds": [
+        "n2.l58.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.s011",
+      "lessonId": "n2.l58",
+      "ja": "デジタル信号への変換技術の進展が、産業構造の大規模な転換を誘導した。",
+      "kana": "デジタルしんごうへのへんかんぎじゅつのしんてんが、さんぎょうこうぞうのだいきぼなてんかんをゆうどうした。",
+      "translation": {
+        "en": "Advancement in digital signal conversion technology induced a massive transition in industrial structure.",
+        "my": "ဒစ်ဂျစ်တယ် အချက်ပြ ပြောင်းလဲခြင်း နည်းပညာ တိုးတက်လာမှုသည် စက်မှုလုပ်ငန်း တည်ဆောက်ပုံ၏ ကြီးမားသော အပြောင်းအလဲကို လမ်းပြခေါ်ဆောင်ခဲ့သည်။"
+      },
+      "translationMy": "ဒစ်ဂျစ်တယ် အချက်ပြ ပြောင်းလဲခြင်း နည်းပညာ တိုးတက်လာမှုသည် စက်မှုလုပ်ငန်း တည်ဆောက်ပုံ၏ ကြီးမားသော အပြောင်းအလဲကို လမ်းပြခေါ်ဆောင်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l58.v001",
+        "n2.l58.v004",
+        "n2.l58.v008"
+      ],
+      "grammarIds": [
+        "n2.l58.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l58.s012",
+      "lessonId": "n2.l58",
+      "ja": "論理の展開に重大な矛盾が含まれているため、結論の妥当性を再検証しなければならない。",
+      "kana": "ろんりのてんかいにじゅうだいなむじゅんがふくまれているため、けつろんのだとうせいをさいけんしょうしなければならない。",
+      "translation": {
+        "en": "Because grave contradictions are contained in the development of the logic, the validity of the conclusion must be reverified.",
+        "my": "ဆင်ခြင်တုံတရား စီးဆင်းမှုတွင် ကြီးမားသော ရှေ့နောက်မညီ ဆန့်ကျင်မှုများ ပါဝင်နေသဖြင့် ကောက်ချက်၏ မှန်ကန်မှုကို ပြန်လည် စိစစ်ရမည်။"
+      },
+      "translationMy": "ဆင်ခြင်တုံတရား စီးဆင်းမှုတွင် ကြီးမားသော ရှေ့နောက်မညီ ဆန့်ကျင်မှုများ ပါဝင်နေသဖြင့် ကောက်ချက်၏ မှန်ကန်မှုကို ပြန်လည် စိစစ်ရမည်။",
+      "vocabIds": [
+        "n2.l58.v005",
+        "n2.l58.v010",
+        "n2.l58.v011"
+      ],
+      "grammarIds": [
+        "n2.l58.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l58.r001",
+    "lessonId": "n2.l58",
+    "title": "エネルギー政策の転換における論理的課題と現実の制約",
+    "level": "N2",
+    "text": "地球温暖化を防止するために、再生可能エネルギーへの転換が急務であると叫ばれている。二酸化炭素排出削減の目標数値が示唆されたとはいえ、電力需要の安定供給という現実的制約を無視することはできない。太陽光や風力は天候に左右されやすく、それどころか急激な出力変動が電力網全体の崩壊を招く危険性すら指摘されている。技術革新による蓄電システムの導入が不可欠である。もっとも、現行の蓄電池製造コストは極めて高額であり、国民負担の急増を避けるための段階的な移行計画が求められている。",
+    "kanaText": "ちきゅうおんだんかをぼうしするために、さいせいかのうエネルギーへのてんかんがきゅうむであるとさけばれている。にさんかたんそはいしゅつさくげんのもくひょうすうちがしさされたとはいえ、でんりょくじゅようのあんていきょうきゅうというげんじつてきせいやくをむしすることはできない。たいようこうやふうりょくはてんこうにさゆうされやすく、それどころかきゅうげきなしゅつりょくへんどうがでんりょくもうぜんたいのほうかいをまねくきけんせいすらしてきされている。ぎじゅつかくしんによるちくでんシステムのどうにゅうがふかけつである。もっとも、げんこうのちくでんちせいぞうコストはきわめてこうがくであり、こくみんふたんのきゅうぞうをさけるためのだんかいてきないこうけいかくがもとめられている。",
+    "translation": "ကမ္ဘာကြီး ပူနွေးလာမှုကို တားဆီးရန်အတွက် ပြန်လည်ပြည့်ဖြိုးမြဲ စွမ်းအင်ဆီသို့ ဦးတည်ရာ လှည့်ပြောင်းခြင်းမှာ အရေးတကြီး လိုအပ်နေသည်ဟု ကြွေးကြော်နေကြသည်။ ကာဗွန်ဒိုင်အောက်ဆိုက် စွန့်ထုတ်မှု လျှော့ချရေး ပစ်မှတ်ကိန်းဂဏန်းများကို အရိပ်အမြွက် ဖော်ပြထားသည် ဆိုငြားသော်လည်း လျှပ်စစ်ဓာတ်အား လိုအပ်ချက် တည်ငြိမ်စွာ ဖြန့်ဖြူးရေးဟူသော လက်တွေ့ ကန့်သတ်ချက်များကို လျစ်လျူရှု၍ မရပေ။ နေရောင်ခြည်နှင့် လေအားလျှပ်စစ်တို့မှာ ရာသီဥတုအပေါ် မူတည်လွယ်ပြီး ထိုမျှသာမက ရုတ်တရက် ထုတ်လုပ်မှု ပြောင်းလဲခြင်းသည် လျှပ်စစ်ကွန်ရက်တစ်ခုလုံး ပြိုလဲမှုကို ဖြစ်စေမည့် အန္တရာယ်ပင် ရှိနေကြောင်း ထောက်ပြနေကြသည်။ နည်းပညာ ဆန်းသစ်တီထွင်မှုဖြင့် ဘက်ထရီ စနစ်သစ်များ စတင်ထည့်သွင်းရန် မရှိမဖြစ် လိုအပ်သည်။ သို့သော်လည်း လက်ရှိ ဘက်ထရီ ထုတ်လုပ်မှုစရိတ်မှာ အလွန်ကြီးမြင့်နေပြီး ပြည်သူ့ဝန်ထုပ်ဝန်ပိုး ရုတ်တရက် မတက်စေရန် အဆင့်ဆင့် ကူးပြောင်းမည့် အစီအစဉ်ကို တောင်းဆိုနေသည်။",
+    "translationMy": "ကမ္ဘာကြီး ပူနွေးလာမှုကို တားဆီးရန်အတွက် ပြန်လည်ပြည့်ဖြိုးမြဲ စွမ်းအင်ဆီသို့ ဦးတည်ရာ လှည့်ပြောင်းခြင်းမှာ အရေးတကြီး လိုအပ်နေသည်ဟု ကြွေးကြော်နေကြသည်။ ကာဗွန်ဒိုင်အောက်ဆိုက် စွန့်ထုတ်မှု လျှော့ချရေး ပစ်မှတ်ကိန်းဂဏန်းများကို အရိပ်အမြွက် ဖော်ပြထားသည် ဆိုငြားသော်လည်း လျှပ်စစ်ဓာတ်အား လိုအပ်ချက် တည်ငြိမ်စွာ ဖြန့်ဖြူးရေးဟူသော လက်တွေ့ ကန့်သတ်ချက်များကို လျစ်လျူရှု၍ မရပေ။ နေရောင်ခြည်နှင့် လေအားလျှပ်စစ်တို့မှာ ရာသီဥတုအပေါ် မူတည်လွယ်ပြီး ထိုမျှသာမက ရုတ်တရက် ထုတ်လုပ်မှု ပြောင်းလဲခြင်းသည် လျှပ်စစ်ကွန်ရက်တစ်ခုလုံး ပြိုလဲမှုကို ဖြစ်စေမည့် အန္တရာယ်ပင် ရှိနေကြောင်း ထောက်ပြနေကြသည်။ နည်းပညာ ဆန်းသစ်တီထွင်မှုဖြင့် ဘက်ထရီ စနစ်သစ်များ စတင်ထည့်သွင်းရန် မရှိမဖြစ် လိုအပ်သည်။ သို့သော်လည်း လက်ရှိ ဘက်ထရီ ထုတ်လုပ်မှုစရိတ်မှာ အလွန်ကြီးမြင့်နေပြီး ပြည်သူ့ဝန်ထုပ်ဝန်ပိုး ရုတ်တရက် မတက်စေရန် အဆင့်ဆင့် ကူးပြောင်းမည့် အစီအစဉ်ကို တောင်းဆိုနေသည်။",
+    "questionIds": [
+      "n2.l58.q025",
+      "n2.l58.q026",
+      "n2.l58.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "電力網",
+        "reading": "でんりょくもう",
+        "meaning": "power grid",
+        "meaningMy": "power grid",
+        "meaningMyanmar": "power grid"
+      },
+      {
+        "term": "蓄電池",
+        "reading": "ちくでんち",
+        "meaning": "storage battery",
+        "meaningMy": "storage battery",
+        "meaningMyanmar": "storage battery"
+      },
+      {
+        "term": "移行",
+        "reading": "いこう",
+        "meaning": "transition / migration",
+        "meaningMy": "transition / migration",
+        "meaningMyanmar": "transition / migration"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l58.lis001",
+    "lessonId": "n2.l58",
+    "title": "新システム導入の進捗と現場の懸念",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "IT部長",
+      "運用課長"
+    ],
+    "transcript": "IT部長: 新基幹システムのテスト運行ですが、順調に進んでいると聞いていますよ。\n運用課長: 基本機能は動作したとはいえ、現場の業務負荷は軽減されていません。それどころか、二重入力の手間が増えて悲鳴が上がっています。\nIT部長: それは見過ごせないな。来月からの全面稼働は延期すべきかもしれない。\n運用課長: はい。もっとも、来週中に自動連携パッチを適用できれば、予定通りの移行も不可能ではありません。",
+    "translation": "IT部長: ပင်မစနစ်သစ် စမ်းသပ်လည်ပတ်မှုမှာ ချောမွေ့စွာ တိုးတက်နေသည်ဟု ကြားသိရပါသည်နော်။\n運用課長: အခြေခံ လုပ်ဆောင်ချက်များ အလုပ်လုပ်သည် ဆိုသော်လည်း အောက်ခြေ လုပ်ငန်းဝန်ထုပ်ဝန်ပိုး လျော့မသွားပါ။ ဝေးစွ၊ နှစ်ခါပြန် စာရင်းသွင်းရသည့် အလုပ်ရှုပ်မှုများ တိုးလာပြီး ညည်းတွားသံများ ထွက်ပေါ်နေသည်။\nIT部長: ဒါကိုတော့ လျစ်လျူရှုထား၍ မရပေ။ လာမည့်လ အပြည့်အဝ စတင်မည့် အစီအစဉ်ကို ရွှေ့ဆိုင်းရပေလိမ့်မည်။\n運用課長: ဟုတ်ကဲ့ပါ။ သို့သော်လည်း လာမည့်အပတ်အတွင်း အလိုအလျောက် ချိတ်ဆက်ပေးမည့် Patch ကို ထည့်သွင်းနိုင်ပါက သတ်မှတ်ထားသည့်အတိုင်း ကူးပြောင်းရန်လည်း မဖြစ်နိုင်သည်တော့ မဟုတ်ပါ။",
+    "translationMy": "IT部長: ပင်မစနစ်သစ် စမ်းသပ်လည်ပတ်မှုမှာ ချောမွေ့စွာ တိုးတက်နေသည်ဟု ကြားသိရပါသည်နော်။\n運用課長: အခြေခံ လုပ်ဆောင်ချက်များ အလုပ်လုပ်သည် ဆိုသော်လည်း အောက်ခြေ လုပ်ငန်းဝန်ထုပ်ဝန်ပိုး လျော့မသွားပါ။ ဝေးစွ၊ နှစ်ခါပြန် စာရင်းသွင်းရသည့် အလုပ်ရှုပ်မှုများ တိုးလာပြီး ညည်းတွားသံများ ထွက်ပေါ်နေသည်။\nIT部長: ဒါကိုတော့ လျစ်လျူရှုထား၍ မရပေ။ လာမည့်လ အပြည့်အဝ စတင်မည့် အစီအစဉ်ကို ရွှေ့ဆိုင်းရပေလိမ့်မည်။\n運用課長: ဟုတ်ကဲ့ပါ။ သို့သော်လည်း လာမည့်အပတ်အတွင်း အလိုအလျောက် ချိတ်ဆက်ပေးမည့် Patch ကို ထည့်သွင်းနိုင်ပါက သတ်မှတ်ထားသည့်အတိုင်း ကူးပြောင်းရန်လည်း မဖြစ်နိုင်သည်တော့ မဟုတ်ပါ။",
+    "turns": [
+      {
+        "speaker": "IT部長",
+        "ja": "新基幹システムのテスト運行ですが、順調に進んでいると聞いていますよ。",
+        "kana": "しんきかんシステムのテストうんこうですが、じゅんちょうにすすんでいるときいていますよ。",
+        "en": "Regarding the test operation of the new core system, I hear it is proceeding smoothly.",
+        "my": "ပင်မစနစ်သစ် စမ်းသပ်လည်ပတ်မှုမှာ ချောမွေ့စွာ တိုးတက်နေသည်ဟု ကြားသိရပါသည်နော်။",
+        "translationMy": "ပင်မစနစ်သစ် စမ်းသပ်လည်ပတ်မှုမှာ ချောမွေ့စွာ တိုးတက်နေသည်ဟု ကြားသိရပါသည်နော်။",
+        "myanmar": "ပင်မစနစ်သစ် စမ်းသပ်လည်ပတ်မှုမှာ ချောမွေ့စွာ တိုးတက်နေသည်ဟု ကြားသိရပါသည်နော်။"
+      },
+      {
+        "speaker": "運用課長",
+        "ja": "基本機能は動作したとはいえ、現場の業務負荷は軽減されていません。それどころか、二重入力の手間が増えて悲鳴が上がっています。",
+        "kana": "きほんきのうはどうさしたとはいえ、げんばのぎょうむふかはけいげんされていません。それどころか、にじゅうにゅうりょくのてまがふえてひめいがあがっています。",
+        "en": "Although basic functions operated, on-site workload has not been alleviated. Far from that, dual-entry chores multiplied, provoking outcries.",
+        "my": "အခြေခံ လုပ်ဆောင်ချက်များ အလုပ်လုပ်သည် ဆိုသော်လည်း အောက်ခြေ လုပ်ငန်းဝန်ထုပ်ဝန်ပိုး လျော့မသွားပါ။ ဝေးစွ၊ နှစ်ခါပြန် စာရင်းသွင်းရသည့် အလုပ်ရှုပ်မှုများ တိုးလာပြီး ညည်းတွားသံများ ထွက်ပေါ်နေသည်။",
+        "translationMy": "အခြေခံ လုပ်ဆောင်ချက်များ အလုပ်လုပ်သည် ဆိုသော်လည်း အောက်ခြေ လုပ်ငန်းဝန်ထုပ်ဝန်ပိုး လျော့မသွားပါ။ ဝေးစွ၊ နှစ်ခါပြန် စာရင်းသွင်းရသည့် အလုပ်ရှုပ်မှုများ တိုးလာပြီး ညည်းတွားသံများ ထွက်ပေါ်နေသည်။",
+        "myanmar": "အခြေခံ လုပ်ဆောင်ချက်များ အလုပ်လုပ်သည် ဆိုသော်လည်း အောက်ခြေ လုပ်ငန်းဝန်ထုပ်ဝန်ပိုး လျော့မသွားပါ။ ဝေးစွ၊ နှစ်ခါပြန် စာရင်းသွင်းရသည့် အလုပ်ရှုပ်မှုများ တိုးလာပြီး ညည်းတွားသံများ ထွက်ပေါ်နေသည်။"
+      },
+      {
+        "speaker": "IT部長",
+        "ja": "それは見過ごせないな。来月からの全面稼働は延期すべきかもしれない。",
+        "kana": "それはみすごせないな。らいげつからのぜんめんかどうはえんきすべきかもしれない。",
+        "en": "That cannot be overlooked. Full-scale operation starting next month may need to be postponed.",
+        "my": "ဒါကိုတော့ လျစ်လျူရှုထား၍ မရပေ။ လာမည့်လ အပြည့်အဝ စတင်မည့် အစီအစဉ်ကို ရွှေ့ဆိုင်းရပေလိမ့်မည်။",
+        "translationMy": "ဒါကိုတော့ လျစ်လျူရှုထား၍ မရပေ။ လာမည့်လ အပြည့်အဝ စတင်မည့် အစီအစဉ်ကို ရွှေ့ဆိုင်းရပေလိမ့်မည်။",
+        "myanmar": "ဒါကိုတော့ လျစ်လျူရှုထား၍ မရပေ။ လာမည့်လ အပြည့်အဝ စတင်မည့် အစီအစဉ်ကို ရွှေ့ဆိုင်းရပေလိမ့်မည်။"
+      },
+      {
+        "speaker": "運用課長",
+        "ja": "はい。もっとも、来週中に自動連携パッチを適用できれば、予定通りの移行も不可能ではありません。",
+        "kana": "はい。もっとも、らいしゅうちゅうにじどうれんけいパッチをてきようできれば、よていどおりのないこうもふかのうではありません。",
+        "en": "Yes. Mind you, if we can apply an automated linking patch within next week, on-schedule transition is not impossible.",
+        "my": "ဟုတ်ကဲ့ပါ။ သို့သော်လည်း လာမည့်အပတ်အတွင်း အလိုအလျောက် ချိတ်ဆက်ပေးမည့် Patch ကို ထည့်သွင်းနိုင်ပါက သတ်မှတ်ထားသည့်အတိုင်း ကူးပြောင်းရန်လည်း မဖြစ်နိုင်သည်တော့ မဟုတ်ပါ။",
+        "translationMy": "ဟုတ်ကဲ့ပါ။ သို့သော်လည်း လာမည့်အပတ်အတွင်း အလိုအလျောက် ချိတ်ဆက်ပေးမည့် Patch ကို ထည့်သွင်းနိုင်ပါက သတ်မှတ်ထားသည့်အတိုင်း ကူးပြောင်းရန်လည်း မဖြစ်နိုင်သည်တော့ မဟုတ်ပါ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ။ သို့သော်လည်း လာမည့်အပတ်အတွင်း အလိုအလျောက် ချိတ်ဆက်ပေးမည့် Patch ကို ထည့်သွင်းနိုင်ပါက သတ်မှတ်ထားသည့်အတိုင်း ကူးပြောင်းရန်လည်း မဖြစ်နိုင်သည်တော့ မဟုတ်ပါ။"
+      }
+    ],
+    "questionIds": [
+      "n2.l58.q028",
+      "n2.l58.q029",
+      "n2.l58.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l58.q001",
+      "lessonId": "n2.l58",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "ある形式や状態から別のものへと変え換えることを何というか。",
+      "choices": [
+        "変換",
+        "換気",
+        "交換",
+        "転換"
+      ],
+      "answer": "変換",
+      "explanation": "変換 (へんかん) means conversion or transformation of form.",
+      "explanationMy": "変換 ဆိုသည်မှာ ပုံစံတစ်ခုမှ အခြားတစ်ခုသို့ ပြောင်းလဲခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q002",
+      "lessonId": "n2.l58",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "互いに持っているものをやり取りして取り替えることを何というか。",
+      "choices": [
+        "交換",
+        "排除",
+        "介入",
+        "指導"
+      ],
+      "answer": "交換",
+      "explanation": "交換 (こうかん) means exchange or swapping items.",
+      "explanationMy": "交換 ဆိုသည်မှာ အချင်းချင်း အပြန်အလှန် လဲလှယ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q003",
+      "lessonId": "n2.l58",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "方針や方向、意識などを別の方向へ大きく切り替えることを何というか。",
+      "choices": [
+        "転換",
+        "展開",
+        "逆転",
+        "誘導"
+      ],
+      "answer": "転換",
+      "explanation": "転換 (てんかん) means turning around, diversion, or shift of direction.",
+      "explanationMy": "転換 ဆိုသည်မှာ မူဝါဒ သို့မဟုတ် ဦးတည်ရာကို လှည့်ပြောင်းခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q004",
+      "lessonId": "n2.l58",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "事態が次々と新しい局面へと進み広がることを何というか。",
+      "choices": [
+        "展開",
+        "疲労",
+        "不手際",
+        "由緒"
+      ],
+      "answer": "展開",
+      "explanation": "展開 (てんかい) means development or unfolding of events.",
+      "explanationMy": "展開 ဆိုသည်မှာ အခြေအနေများ ရှေ့သို့ တိုးတက်ဖြန့်ကျက်လာခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q005",
+      "lessonId": "n2.l58",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "新しい設備や制度などを外部から取り入れて使い始めることを何というか。",
+      "choices": [
+        "導入",
+        "謝絶",
+        "善処",
+        "陳謝"
+      ],
+      "answer": "導入",
+      "explanation": "導入 (どうにゅう) means introduction or bringing in equipment/systems.",
+      "explanationMy": "導入 ဆိုသည်မှာ စနစ်သစ် သို့မဟုတ် စက်ပစ္စည်းများကို စတင်ထည့်သွင်းခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q006",
+      "lessonId": "n2.l58",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "人や車を特定の安全な方向へ教え導いて向かわせることを何というか。",
+      "choices": [
+        "誘導",
+        "交換",
+        "変換",
+        "逆転"
+      ],
+      "answer": "誘導",
+      "explanation": "誘導 (ゆうどう) means guidance, leading, or steering.",
+      "explanationMy": "誘導 ဆိုသည်မှာ လမ်းပြခေါ်ဆောင်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q007",
+      "lessonId": "n2.l58",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "それまでの優劣や勝敗の立場が正反対に入れ替わることを何というか。",
+      "choices": [
+        "逆転",
+        "存続",
+        "達成",
+        "終焉"
+      ],
+      "answer": "逆転",
+      "explanation": "逆転 (ぎゃくてん) means reversal or turnaround of fortune.",
+      "explanationMy": "逆転 ဆိုသည်မှာ အခြေအနေ ပြောင်းပြန် လှန်သွားခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q008",
+      "lessonId": "n2.l58",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "二つの事柄の辻褄が合わず食い違っている状態を何というか。",
+      "choices": [
+        "矛盾",
+        "妥当",
+        "示唆",
+        "寛容"
+      ],
+      "answer": "矛盾",
+      "explanation": "矛盾 (むじゅん) means contradiction or inconsistency.",
+      "explanationMy": "矛盾 ဆိုသည်မှာ ရှေ့နောက်မညီ ဆန့်ကျင်ဘက် ဖြစ်နေခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q009",
+      "lessonId": "n2.l58",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「換」の訓読み（動詞）として正しいものはどれか。",
+      "choices": [
+        "か・える",
+        "ころ・がる",
+        "みちび・く",
+        "ちか・う"
+      ],
+      "answer": "か・える",
+      "explanation": "「換」の訓読みは「か・える / か・わる」です（乗り換える）。",
+      "explanationMy": "「換」၏ ဂျပန်မူရင်းကြိယာအသံမှာ か・える ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q010",
+      "lessonId": "n2.l58",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「変換」の「換」の部首として正しいものはどれか。",
+      "choices": [
+        "扌（てへん）",
+        "車（くるまへん）",
+        "日（ひへん）",
+        "言（ごんべん）"
+      ],
+      "answer": "扌（てへん）",
+      "explanation": "「換」の部首は「扌（てへん）」です。",
+      "explanationMy": "「換」တွင် လက် 扌 အစိတ်အပိုင်း ပါဝင်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q011",
+      "lessonId": "n2.l58",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「転」の音読みとして正しいものはどれか。",
+      "choices": [
+        "テン",
+        "デン",
+        "セン",
+        "カン"
+      ],
+      "answer": "テン",
+      "explanation": "「転」の音読みは「テン」です（転換、回転、逆転）。",
+      "explanationMy": "「転」၏ အသံထွက်မှာ テン ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q012",
+      "lessonId": "n2.l58",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「転換」の「転」の部首として正しいものはどれか。",
+      "choices": [
+        "車（くるま・くるまへん）",
+        "専（せん）",
+        "日（ひ）",
+        "土（つち）"
+      ],
+      "answer": "車（くるま・くるまへん）",
+      "explanation": "「転」の部首は「車（くるまへん）」です。",
+      "explanationMy": "「転」တွင် လှည်းယာဉ် 车 (車) အစိတ်အပိုင်း ပါဝင်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q013",
+      "lessonId": "n2.l58",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「導」の訓読み（動詞）として正しいものはどれか。",
+      "choices": [
+        "みちび・く",
+        "おし・える",
+        "すす・める",
+        "うなが・す"
+      ],
+      "answer": "みちび・く",
+      "explanation": "「導」の訓読みは「みちび・く」です（指導、誘導）。",
+      "explanationMy": "「導」၏ ဂျပန်မူရင်းကြိယာအသံမှာ みちび・く ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q014",
+      "lessonId": "n2.l58",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「指導」の「導」の部首として正しいものはどれか。",
+      "choices": [
+        "寸（すん）",
+        "道（みち）",
+        "首（くび）",
+        "辶（しんにょう）"
+      ],
+      "answer": "寸（すん）",
+      "explanation": "「導」の部首は「寸（すん）」です。",
+      "explanationMy": "「導」၏ အောက်ခြေ မူရင်းအစိတ်အပိုင်းမှာ 寸 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q015",
+      "lessonId": "n2.l58",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "春になった（　）、朝晩はまだダウンジャケットを手放せない寒さだ。",
+      "choices": [
+        "とはいえ",
+        "それどころか",
+        "もっとも",
+        "ばかりに"
+      ],
+      "answer": "とはいえ",
+      "explanation": "Use 〜とはいえ to concede that spring has arrived, yet cold weather persists.",
+      "explanationMy": "နွေဦးရောက်ပြီ ဆိုငြားသော်လည်း အအေးဓာတ် ရှိနေဆဲဟု ပြရာတွင် とはいえ သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q016",
+      "lessonId": "n2.l58",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜とはいえ」とニュアンスが最も近い接続表現はどれか。",
+      "choices": [
+        "〜とは言っても",
+        "〜だからこそ",
+        "〜にほかならない",
+        "〜を皮切りに"
+      ],
+      "answer": "〜とは言っても",
+      "explanation": "〜とはいえ is functionally identical to 〜とは言っても (even though one says).",
+      "explanationMy": "〜とは言っても နှင့် အဓိပ္ပာယ် အတူတူပင် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q017",
+      "lessonId": "n2.l58",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "休養を取れば回復すると思っていた。［　］、熱が４０度まで上がって入院した。",
+      "choices": [
+        "それどころか",
+        "とはいえ",
+        "もっとも",
+        "ことだし"
+      ],
+      "answer": "それどころか",
+      "explanation": "Use それどころか to reveal an extreme polar escalation opposite to recovery.",
+      "explanationMy": "သက်သာမလာသည့်အပြင် ပိုဆိုးသွားကြောင်း ပြရာတွင် それどころか သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q018",
+      "lessonId": "n2.l58",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「それどころか」の文法的な機能として最も適切なものはどれか。",
+      "choices": [
+        "前文の予想を否定し、事態がさらに極端な逆の方向へ進んでいることを強調する",
+        "理由を丁寧に説明して相手に謝罪する",
+        "二つの選択肢の中から一方を穏やかに選ぶ",
+        "相手に強い命令を下す"
+      ],
+      "answer": "前文の予想を否定し、事態がさらに極端な逆の方向へ進んでいることを強調する",
+      "explanation": "それどころか refutes expectations and escalates to extreme opposite reality.",
+      "explanationMy": "မျှော်လင့်ထားသည်နှင့် ဆန့်ကျင်ဘက် ပိုမိုအစွန်းရောက်သွားကြောင်း အလေးပေးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q019",
+      "lessonId": "n2.l58",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "この映画は大変素晴らしい名作です。［　］、暴力的なシーンが多いので子供には勧められません。",
+      "choices": [
+        "もっとも",
+        "それどころか",
+        "とはいえ",
+        "ものだから"
+      ],
+      "answer": "もっとも",
+      "explanation": "Use もっとも to add a vital caveat/restriction to a sweeping praise.",
+      "explanationMy": "ချီးကျူးပြီးနောက် ကန့်သတ်ချက်လေးတစ်ခု ဖြည့်စွက်ရာတွင် もっとも သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q020",
+      "lessonId": "n2.l58",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「もっとも」に後続する文の典型的な内容として正しいものはどれか。",
+      "choices": [
+        "前文に対する例外、ただし書き、制約条件",
+        "前文の完全な繰り返し",
+        "話し手の激しい怒りの感情",
+        "遠い過去の神話の紹介"
+      ],
+      "answer": "前文に対する例外、ただし書き、制約条件",
+      "explanation": "もっとも introduces exceptions, caveats, or conditional provisos.",
+      "explanationMy": "ခြွင်းချက် သို့မဟုတ် ကန့်သတ်ချက် စကားများ လိုက်လေ့ရှိသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q021",
+      "lessonId": "n2.l58",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "経験者（　）、新しい環境にはすぐには適応できないものだ。",
+      "choices": [
+        "とはいえ",
+        "それどころか",
+        "もっとも",
+        "を抜きにしては"
+      ],
+      "answer": "とはいえ",
+      "explanation": "Even though an experienced person (経験者とはいえ), adapting takes time.",
+      "explanationMy": "အတွေ့အကြုံရှိသူ ဆိုငြားသော်လည်း အချိန်ယူရမည်ဟု ပြရာတွင် とはいえ သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q022",
+      "lessonId": "n2.l58",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "景気は改善するどころか、（　）失業者が街に溢れる事態となった。",
+      "choices": [
+        "それどころか",
+        "もっとも",
+        "とはいえ",
+        "ことだし"
+      ],
+      "answer": "それどころか",
+      "explanation": "Far from improving, on the contrary (それどころか).",
+      "explanationMy": "တိုးတက်မလာသည့်အပြင် ထိုမျှမကဟု ပြရာတွင် သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q023",
+      "lessonId": "n2.l58",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "今夜のパーティーには誰でも参加できます。［　］、事前の予約が必要です。",
+      "choices": [
+        "もっとも",
+        "それどころか",
+        "とはいえ",
+        "ばかりに"
+      ],
+      "answer": "もっとも",
+      "explanation": "Anyone can join. Mind you, prior reservation is required (もっとも).",
+      "explanationMy": "မည်သူမဆို တက်ရောက်နိုင်သည်၊ သို့သော် ကြိုတင်စာရင်းသွင်းရမည်ဟု ဖြည့်စွက်ရာတွင် もっとも သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q024",
+      "lessonId": "n2.l58",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "接続詞「もっとも」の漢字表記として正しいものはどれか。",
+      "choices": [
+        "尤も",
+        "最も",
+        "持も",
+        "求も"
+      ],
+      "answer": "尤も",
+      "explanation": "The conjunction もっとも is written in kanji as 「尤も」.",
+      "explanationMy": "ဆက်စပ်စကားလုံး もっとも ကို ခန်ဂျီဖြင့် 尤も ဟု ရေးသားသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q025",
+      "lessonId": "n2.l58",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において「目標数値が示唆されたとはいえ」無視できないと指摘されている制約は何か。",
+      "choices": [
+        "電力需要の安定供給という現実的制約",
+        "海外からの観光客の減少",
+        "宇宙開発の予算不足",
+        "電車のダイヤの乱れ"
+      ],
+      "answer": "電力需要の安定供給という現実的制約",
+      "explanation": "The text notes stable power supply is a realistic constraint that cannot be ignored.",
+      "explanationMy": "လျှပ်စစ်ဓာတ်အား တည်ငြိမ်စွာ ဖြန့်ဖြူးနိုင်ရေးဟူသော လက်တွေ့ ကန့်သတ်ချက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q026",
+      "lessonId": "n2.l58",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "自然エネルギーの出力変動について「それどころか」と警告されている極端なリスクはどれか。",
+      "choices": [
+        "電力網全体の崩壊を招く危険性",
+        "電気料金が無料になる可能性",
+        "すべての電柱が不要になること",
+        "原子力発電所が自動的に増設されること"
+      ],
+      "answer": "電力網全体の崩壊を招く危険性",
+      "explanation": "The passage warns that sudden output shifts could even trigger a total grid collapse.",
+      "explanationMy": "လျှပ်စစ်ကွန်ရက်တစ်ခုလုံး ပြိုလဲသွားမည့် အန္တရာယ် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q027",
+      "lessonId": "n2.l58",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "蓄電システム導入に関する制約として「もっとも」に続けて述べられている現実は何か。",
+      "choices": [
+        "現行の蓄電池製造コストが極めて高額であること",
+        "蓄電池の原材料が地球上に存在しないこと",
+        "太陽光パネルがすべて故障していること",
+        "法律で蓄電が禁止されていること"
+      ],
+      "answer": "現行の蓄電池製造コストが極めて高額であること",
+      "explanation": "The text adds the caveat that current storage battery manufacturing costs are extremely high.",
+      "explanationMy": "လက်ရှိ ဘက်ထရီ ထုတ်လုပ်မှုစရိတ်မှာ အလွန်ကြီးမြင့်နေခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q028",
+      "lessonId": "n2.l58",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "運用課長が「基本機能は動作したとはいえ」指摘した現場の実態は何か。",
+      "choices": [
+        "現場の業務負荷が軽減されていないこと",
+        "社員全員が新システムに大満足していること",
+        "すべてのパソコンが完全に故障したこと",
+        "オフィスの電気代が半額になったこと"
+      ],
+      "answer": "現場の業務負荷が軽減されていないこと",
+      "explanation": "The operations manager notes workload was not lightened despite basic functions operating.",
+      "explanationMy": "လုပ်ငန်းခွင် ဝန်ထုပ်ဝန်ပိုးများ လျော့ကျမသွားခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q029",
+      "lessonId": "n2.l58",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "「それどころか」に続けて運用課長が明かしたより深刻な問題はどれか。",
+      "choices": [
+        "二重入力の手間が増えて悲鳴が上がっていること",
+        "給料の計算がすべて間違っていること",
+        "サーバーから煙が出ていること",
+        "顧客のデータが完全に消滅したこと"
+      ],
+      "answer": "二重入力の手間が増えて悲鳴が上がっていること",
+      "explanation": "Far from easing, dual-entry hassle increased, eliciting outcries from staff.",
+      "explanationMy": "နှစ်ခါပြန် ရိုက်သွင်းရသည့် အလုပ်များ တိုးလာခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l58.q030",
+      "lessonId": "n2.l58",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "予定通りの移行の可能性について、運用課長が「もっとも」に続けて挙げた条件は何か。",
+      "choices": [
+        "来週中に自動連携パッチを適用できること",
+        "すべての従業員が休日出勤すること",
+        "古いシステムを直ちに廃棄すること",
+        "外部のコンサルタントを解雇すること"
+      ],
+      "answer": "来週中に自動連携パッチを適用できること",
+      "explanation": "The manager adds the caveat: if an automated linking patch can be applied next week.",
+      "explanationMy": "လာမည့်အပတ်အတွင်း အလိုအလျောက် ချိတ်ဆက်ပေးမည့် Patch ကို ထည့်သွင်းနိုင်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l58.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+};

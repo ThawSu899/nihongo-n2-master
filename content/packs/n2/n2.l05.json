@@ -1,0 +1,1658 @@
+{
+  "id": "n2.l05",
+  "level": "N2",
+  "module": "N2 Advanced Grammar & Argumentation",
+  "number": 5,
+  "title": "N2 Lesson 5: Causation & Consequence (～あまり / ～以上は / ～からには)",
+  "description": "Mastery module focusing on emotional excess consequence (あまり), moral inevitability (以上は), and resolute determination (からには).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l05.v001",
+      "lessonId": "n2.l05",
+      "ja": "過剰",
+      "kana": "かじょう",
+      "en": "Excess / Surplus / Overabundance",
+      "my": "လွန်ကဲသော / အပိုပိုလျှံလျှံ",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l05.s001",
+      "kanjiIds": [
+        "n2.l05.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.v002",
+      "lessonId": "n2.l05",
+      "ja": "疲労",
+      "kana": "ひろう",
+      "en": "Fatigue / Exhaustion",
+      "my": "ပင်ပန်းနွမ်းနယ်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l05.s001",
+      "kanjiIds": [
+        "n2.l05.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.v003",
+      "lessonId": "n2.l05",
+      "ja": "覚悟",
+      "kana": "かくご",
+      "en": "Readiness / Resolution / Mental preparedness",
+      "my": "စိတ်ပိုင်းဖြတ်မှု / ရင်ဆိုင်ရန် အသင့်ရှိမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l05.s002",
+      "kanjiIds": [
+        "n2.l05.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.v004",
+      "lessonId": "n2.l05",
+      "ja": "義務",
+      "kana": "ぎむ",
+      "en": "Duty / Legal or moral obligation",
+      "my": "တာဝန် / ဝတ္တရား",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l05.s002",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.v005",
+      "lessonId": "n2.l05",
+      "ja": "成果",
+      "kana": "せいか",
+      "en": "Fruit / Tangible result / Accomplishment",
+      "my": "ရလဒ် / အောင်သီးအောင်ပွင့်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l05.s003",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.v006",
+      "lessonId": "n2.l05",
+      "ja": "意欲",
+      "kana": "いよく",
+      "en": "Will / Drive / Keen desire",
+      "my": "စိတ်အားထက်သန်မှု / ဆန္ဒပြင်းပြမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l05.s003",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.v007",
+      "lessonId": "n2.l05",
+      "ja": "負担",
+      "kana": "ふたん",
+      "en": "Burden / Psychological or physical load",
+      "my": "ဝန်ထုပ်ဝန်ပိုး / တာဝန်ယူရမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l05.s004",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.v008",
+      "lessonId": "n2.l05",
+      "ja": "焦燥",
+      "kana": "しょうそう",
+      "en": "Impatience / Agitation / Fretfulness",
+      "my": "စိတ်မရှည် မာန်တက်ခြင်း / လောဆော်ပူပန်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l05.s004",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.v009",
+      "lessonId": "n2.l05",
+      "ja": "責任",
+      "kana": "せきにん",
+      "en": "Responsibility / Accountability",
+      "my": "တာဝန်ယူမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l05.s005",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.v010",
+      "lessonId": "n2.l05",
+      "ja": "決断",
+      "kana": "けつだん",
+      "en": "Firm decision / Determination",
+      "my": "ပြတ်သားသော ဆုံးဖြတ်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l05.s005",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.v011",
+      "lessonId": "n2.l05",
+      "ja": "追求",
+      "kana": "ついきゅう",
+      "en": "Pursuit / Seeking after",
+      "my": "လိုက်လံရှာဖွေ လိုက်စားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l05.s006",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.v012",
+      "lessonId": "n2.l05",
+      "ja": "達成",
+      "kana": "たっせい",
+      "en": "Achievement / Attainment",
+      "my": "ပြီးမြောက်အောင်မြင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l05.s006",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l05.k001",
+      "lessonId": "n2.l05",
+      "char": "過",
+      "meaning": "Pass / Exceed / Fault",
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [
+        "す.ぎる",
+        "す.ごす",
+        "あやま.つ",
+        "あやま.ち"
+      ],
+      "exampleVocab": [
+        {
+          "word": "過剰 (かじょう)",
+          "reading": "かじょう",
+          "meaning": "Excess / surplus",
+          "preview": false
+        },
+        {
+          "word": "経過 (けいか)",
+          "reading": "けいか",
+          "meaning": "Progress / passage of time",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l05.s001"
+      ],
+      "components": [
+        "辶",
+        "咼"
+      ],
+      "strokes": 12,
+      "difficulty": 4,
+      "level": "N2",
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      },
+      "meaningMy": "လွန်ကဲခြင်း / ဖြတ်သန်းကျော်လွန်ခြင်း",
+      "meaningMyanmar": "လွန်ကဲခြင်း / ဖြတ်သန်းကျော်လွန်ခြင်း"
+    },
+    {
+      "id": "n2.l05.k002",
+      "lessonId": "n2.l05",
+      "char": "疲",
+      "meaning": "Exhausted / Tired",
+      "onyomi": [
+        "ヒ"
+      ],
+      "kunyomi": [
+        "つか.れる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "疲労 (ひろう)",
+          "reading": "ひろう",
+          "meaning": "Fatigue / exhaustion",
+          "preview": false
+        },
+        {
+          "word": "疲弊 (ひへい)",
+          "reading": "ひへい",
+          "meaning": "Impoverishment / exhaustion",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l05.s001"
+      ],
+      "components": [
+        "疒",
+        "皮"
+      ],
+      "strokes": 10,
+      "difficulty": 4,
+      "level": "N2",
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      },
+      "meaningMy": "ပင်ပန်းနွမ်းနယ်ခြင်း / မောပန်းခြင်း",
+      "meaningMyanmar": "ပင်ပန်းနွမ်းနယ်ခြင်း / မောပန်းခြင်း"
+    },
+    {
+      "id": "n2.l05.k003",
+      "lessonId": "n2.l05",
+      "char": "覚",
+      "meaning": "Memorize / Awaken / Realize",
+      "onyomi": [
+        "カク"
+      ],
+      "kunyomi": [
+        "おぼ.える",
+        "さ.ます",
+        "さ.める"
+      ],
+      "exampleVocab": [
+        {
+          "word": "覚悟 (かくご)",
+          "reading": "かくご",
+          "meaning": "Readiness / resolution",
+          "preview": false
+        },
+        {
+          "word": "自覚 (じかく)",
+          "reading": "じかく",
+          "meaning": "Self-awareness",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l05.s002"
+      ],
+      "components": [
+        "学の冠",
+        "見"
+      ],
+      "strokes": 12,
+      "difficulty": 4,
+      "level": "N2",
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      },
+      "meaningMy": "သတိပြုမိခြင်း / နိုးကြားခြင်း / စိတ်ပိုင်းဖြတ်ခြင်း",
+      "meaningMyanmar": "သတိပြုမိခြင်း / နိုးကြားခြင်း / စိတ်ပိုင်းဖြတ်ခြင်း"
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l05.g001",
+      "lessonId": "n2.l05",
+      "pattern": "～あまり",
+      "meaning": "So much that... / As a result of extreme... (excessive emotion or state produces an unusual/negative result)",
+      "formation": "[Noun + の / Verb Plain (Dictionary/た-form) / い-Adj (さ-form) / な-Adj + な] + あまり",
+      "explanation": {
+        "en": "Expresses that because a psychological feeling, enthusiasm, or pressure became excessively intense, an abnormal or undesirable consequence occurred.",
+        "my": "စိတ်ခံစားမှု သို့မဟုတ် အခြေအနေတစ်ခု အလွန်အမင်း ပြင်းထန်လွန်းသောကြောင့် '...လွန်း၍ / ...လွန်းသည့် အဆုံးတွင်' ပုံမှန်မဟုတ်သော သို့မဟုတ် မလိုလားအပ်သော ရလဒ်တစ်ခု ဖြစ်ပေါ်လာသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l05.s001",
+          "note": "過剰な成果を急ぐあまり、深刻な疲労を招いてしまった"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Typically takes emotional or mental intensity nouns (緊張, 喜び, 悲しみ, 心配, 焦り).",
+        "The resulting clause is usually non-volitional and often negative."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.g002",
+      "lessonId": "n2.l05",
+      "pattern": "～以上は",
+      "meaning": "Now that... / Since... (expresses strong moral responsibility, determination, or natural duty)",
+      "formation": "[Verb Plain Form / Noun + である] + 以上（は）",
+      "explanation": {
+        "en": "Indicates that since a certain irrevocable state or premise has been reached, the speaker has a natural obligation or resolute intent to act accordingly.",
+        "my": "ဤအခြေအနေသို့ ရောက်ရှိနေပြီဖြစ်သည့်အတွက် '...ဖြစ်နေသရွေ့ / ...ဖြစ်ပြီးသည့်နောက်' မလွဲမသွေ တာဝန်ယူရမည် သို့မဟုတ် ပြတ်ပြတ်သားသား လုပ်ဆောင်ရမည်ဟု ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l05.s002",
+          "note": "リーダーを引き受けた以上は、相応の覚悟を持って義務を果たす"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l05.g003"
+      ],
+      "commonMistakes": [
+        "Followed by expressions of obligation, determination, or commands (〜べきだ, 〜つもりだ, 〜なければならない).",
+        "Cannot be followed by past factual statements without intention."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.g003",
+      "lessonId": "n2.l05",
+      "pattern": "～からには",
+      "meaning": "Since... / Now that it has come to this (ironclad personal resolve)",
+      "formation": "[Verb Plain Form / Noun + である] + からには",
+      "explanation": {
+        "en": "Expresses unwavering determination to carry out an endeavor to the very end once having committed to it.",
+        "my": "စတင်လုပ်ဆောင်ရန် ဆုံးဖြတ်ပြီးပြီဖြစ်၍ '...ဖြစ်သည့်တိုင် / ...မှတော့' အဆုံးထိ မဖြစ်မနေ အောင်မြင်အောင် လုပ်ဆောင်မည်ဟူသော ပြင်းထန်သော စိတ်ပိုင်းဖြတ်မှုကို ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l05.s003",
+          "note": "このプロジェクトに参画したからには、高い成果と意欲を示したい"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l05.g002"
+      ],
+      "commonMistakes": [
+        "Expresses higher personal resolve and fighting spirit than 以上は.",
+        "Always takes a strong volitional ending (〜抜く, 〜てみせる, 〜絶対に負けない)."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l05.s001",
+      "lessonId": "n2.l05",
+      "ja": "短期間での過剰な成果を求めるあまり、深夜までの過酷な労働で心身の疲労が蓄積した。",
+      "kana": "たんきかんでのかじょうなせいかをもとめるあまり、しんやまでのかこくなろうどうでしんしんのひろうがちくせきした。",
+      "translation": {
+        "en": "As a result of excessively pursuing extreme results in a short period, physical and mental fatigue accumulated from grueling late-night labor.",
+        "my": "ကာလတိုအတွင်း လွန်ကဲသော ရလဒ်များကို အလွန်အမင်း တောင်းဆိုရှာဖွေလွန်းသောကြောင့် ညဉ့်နက်သည်အထိ ပင်ပန်းဆင်းရဲစွာ အလုပ်လုပ်ရကာ ရုပ်ပိုင်းစိတ်ပိုင်းဆိုင်ရာ နွမ်းနယ်မှုများ စုပုံလာခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n2.l05.v001",
+        "n2.l05.v002"
+      ],
+      "grammarIds": [
+        "n2.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.s002",
+      "lessonId": "n2.l05",
+      "ja": "責任ある役職を引き受けた以上は、厳しい批判に耐える覚悟を持ち、法的な義務を果たさねばならない。",
+      "kana": "せきにんあるやくしょくをひきうけたいじょうは、きびしいひはんにたえるかくごをもち、ほうてきなぎむをはたさねばならない。",
+      "translation": {
+        "en": "Now that I have assumed a position with responsibility, I must have the resolve to endure harsh criticism and fulfill legal duties.",
+        "my": "တာဝန်ရှိသော ရာထူးကို လက်ခံရယူပြီးသည့်နောက် ပြင်းထန်သော ဝေဖန်မှုများကို ခံနိုင်ရည်ရှိသည့် စိတ်ပိုင်းဖြတ်မှုဖြင့် ဥပဒေဆိုင်ရာ တာဝန်ဝတ္တရားများကို ထမ်းဆောင်ရမည်ဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n2.l05.v003",
+        "n2.l05.v004"
+      ],
+      "grammarIds": [
+        "n2.l05.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.s003",
+      "lessonId": "n2.l05",
+      "ja": "新事業の立ち上げに参画したからには、妥協することなく最高の成果と強い学習意欲を保ち続けたい。",
+      "kana": "しんじぎょうのたちあげにさんかくしたからには、だきょうすることなくさいこうのせいかとつよいがくしゅういよくをたもちつづけたい。",
+      "translation": {
+        "en": "Now that I have participated in launching this new venture, I wish to maintain top performance and strong learning drive without compromising.",
+        "my": "စီးပွားရေးလုပ်ငန်းသစ် စတင်ရာတွင် ပါဝင်ခဲ့ပြီးသည့်နောက် မည်သည့်အပေးအယူမျှ မလုပ်ဘဲ အကောင်းဆုံးရလဒ်နှင့် ခိုင်မာသော သင်ယူလိုစိတ်ကို ဆက်လက်ထိန်းသိမ်းသွားလိုသည်။"
+      },
+      "vocabIds": [
+        "n2.l05.v005",
+        "n2.l05.v006"
+      ],
+      "grammarIds": [
+        "n2.l05.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.s004",
+      "lessonId": "n2.l05",
+      "ja": "納期に追われる焦燥感と過度な心理的負担が、思わぬ事務処理の過失を生んだ。",
+      "kana": "のうきにおわれるしょうそうかんとかどなしんりてきふたんが、おもわぬじむしょりのかしつをうんだ。",
+      "translation": {
+        "en": "The impatience driven by impending deadlines and an excessive psychological burden caused an unexpected administrative blunder.",
+        "my": "သတ်မှတ်ရက်မီရန် လောဆော်ပူပန်မှုနှင့် လွန်ကဲသော စိတ်ပိုင်းဆိုင်ရာ ဝန်ထုပ်ဝန်ပိုးတို့ကြောင့် မမျှော်လင့်ထားသော ရုံးလုပ်ငန်း အမှားအယွင်းများ ဖြစ်ပေါ်စေခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n2.l05.v007",
+        "n2.l05.v008"
+      ],
+      "grammarIds": [
+        "n2.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.s005",
+      "lessonId": "n2.l05",
+      "ja": "管理職としての重い責任を自覚し、組織の将来を見据えて迅速な決断を下した。",
+      "kana": "かんりしょくとしてのおもいせきにんをじかくし、そしきのしょうらいをみすえてじんそくなけつだんをくだした。",
+      "translation": {
+        "en": "Conscious of my heavy responsibility as a manager, I made a prompt decision while keeping the organization's future in sight.",
+        "my": "မန်နေဂျာတစ်ဦးအနေဖြင့် ကြီးလေးသော တာဝန်ကို သတိပြုလျက် အဖွဲ့အစည်း၏ အနာဂတ်ကို ကြိုတင်မျှော်တွေးကာ လျင်မြန်သော ဆုံးဖြတ်ချက်ကို ချမှတ်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n2.l05.v009",
+        "n2.l05.v010"
+      ],
+      "grammarIds": [
+        "n2.l05.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.s006",
+      "lessonId": "n2.l05",
+      "ja": "理想の品質を徹底的に追求し続けた結果、年間目標の早期達成を実現した。",
+      "kana": "りそうのひんしつをてっていてきについきゅうしつづけたけっか、ねんかんもくひょうのそうきたっせいをじつげんした。",
+      "translation": {
+        "en": "As a result of thoroughly pursuing ideal quality, we realized early achievement of our annual target.",
+        "my": "စံပြအရည်အသွေးကို စေ့စပ်သေချာစွာ တစိုက်မတ်မတ် လိုက်လံရှာဖွေခဲ့သည့် ရလဒ်အနေဖြင့် နှစ်စဉ်ရည်မှန်းချက်ကို သတ်မှတ်ရက်မတိုင်မီ စောစီးစွာ အောင်မြင်ပြီးမြောက်စေခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n2.l05.v011",
+        "n2.l05.v012"
+      ],
+      "grammarIds": [
+        "n2.l05.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.s007",
+      "lessonId": "n2.l05",
+      "ja": "成功を焦るあまり、事前のリスク調査を怠って多大な損失を出してしまった。",
+      "kana": "せいこうをあせるあまり、じぜんのりすくちょうさをおこたってただいなそんしつをだしてしまった。",
+      "translation": {
+        "en": "In my excessive hurry to achieve success, I neglected the advance risk assessment and incurred immense losses.",
+        "my": "အောင်မြင်မှုကို အလွန်အမင်း လိုချင်လောဘကြီးလွန်းသောကြောင့် ကြိုတင်အန္တရာယ်စစ်တမ်းကို လျစ်လျူရှုမိကာ ကြီးမားသော ဆုံးရှုံးမှုကို ဖြစ်ပေါ်စေခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n2.l05.v001",
+        "n2.l05.v008"
+      ],
+      "grammarIds": [
+        "n2.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.s008",
+      "lessonId": "n2.l05",
+      "ja": "国民の負託を受けた代表である以上は、私利私欲を捨てて公共の福祉に尽くすべきだ。",
+      "kana": "こくみんのふたくをうけただいひょうであるいじょうは、しりしよくをすててこうきょうのふくしにつくすべきだ。",
+      "translation": {
+        "en": "Now that one is a representative entrusted by the citizens, one ought to discard personal greed and devote oneself to public welfare.",
+        "my": "ပြည်သူလူထု၏ ယုံကြည်အားကိုးမှုကို ရရှိထားသော ကိုယ်စားလှယ်ဖြစ်သည့်အလျောက် ကိုယ်ကျိုးစီးပွားကို စွန့်လွှတ်ကာ အများပြည်သူ အကျိုးစီးပွားအတွက် အစွမ်းကုန် ကြိုးပမ်းသင့်သည်။"
+      },
+      "vocabIds": [
+        "n2.l05.v003",
+        "n2.l05.v004"
+      ],
+      "grammarIds": [
+        "n2.l05.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.s009",
+      "lessonId": "n2.l05",
+      "ja": "プロの演奏家として舞台に立つからには、聴衆を魅了する最高の演奏を披露しなければならない。",
+      "kana": "ぷろのえんそうかとしてぶたいにたつからには、ちょうしゅうをみりょうするさいこうのえんそうをひろうしなければならない。",
+      "translation": {
+        "en": "Since one is standing on stage as a professional musician, one must deliver a supreme performance that captivates the audience.",
+        "my": "ပရော်ဖက်ရှင်နယ် တူရိယာပညာရှင်အဖြစ် စင်မြင့်ထက်သို့ တက်ရောက်ဖျော်ဖြေမည်ဖြစ်သည့်အတွက် ပရိသတ်ကို စွဲဆောင်စေမည့် အကောင်းမွန်ဆုံး ဖျော်ဖြေမှုကို တင်ဆက်ပြသရမည် ဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n2.l05.v005",
+        "n2.l05.v006"
+      ],
+      "grammarIds": [
+        "n2.l05.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.s010",
+      "lessonId": "n2.l05",
+      "ja": "子供の将来を心配するあまり、親が過干渉になって自立心を損なうことがある。",
+      "kana": "こどものしょうらいをしんぱいするあまり、おやがかかんしょうになってじりつしんをそこなうことがある。",
+      "translation": {
+        "en": "Out of excessive anxiety for their child's future, parents sometimes become overbearing and damage their independence.",
+        "my": "ကလေး၏ အနာဂတ်ကို အလွန်အမင်း စိုးရိမ်လွန်းသောကြောင့် မိဘများသည် အလွန်အကျွံ ဝင်ရောက်စွက်ဖက်မိကာ ကလေး၏ ကိုယ့်အားကိုယ်ကိုးလိုစိတ်ကို ထိခိုက်စေတတ်သည်။"
+      },
+      "vocabIds": [
+        "n2.l05.v001",
+        "n2.l05.v007"
+      ],
+      "grammarIds": [
+        "n2.l05.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.s011",
+      "lessonId": "n2.l05",
+      "ja": "契約を締結した以上は、いかなる困難が生じようとも約束の期日を守らねばならない。",
+      "kana": "けいやくをていけつしたいじょうは、いかなるこんなんが生じようともやくそくのきじつをまもらねばならない。",
+      "translation": {
+        "en": "Now that the contract has been executed, the promised deadline must be observed no matter what difficulties arise.",
+        "my": "စာချုပ်ကို ချုပ်ဆိုခဲ့ပြီးသည့်အလျောက် မည်သို့ပင် အခက်အခဲများ ကြုံတွေ့ရစေကာမူ သတ်မှတ်ထားသော ရက်စွဲကို မဖြစ်မနေ လိုက်နာရမည် ဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n2.l05.v009",
+        "n2.l05.v010"
+      ],
+      "grammarIds": [
+        "n2.l05.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l05.s012",
+      "lessonId": "n2.l05",
+      "ja": "このプロジェクトの責任者に選ばれたからには、最後まで全力を尽くしてやり抜く所存だ。",
+      "kana": "このぷろじぇくとのせきにんしゃにえらばれたからには、さいごまでぜんりょくをつくしてやりぬくしょぞんだ。",
+      "translation": {
+        "en": "Since I was chosen as the director of this project, I intend to do my utmost to see it through to the end.",
+        "my": "ဤပရောဂျက်၏ တာဝန်ခံအဖြစ် ရွေးချယ်ခံရသည့်အတွက် အဆုံးတိုင်အောင် အစွမ်းကုန် ကြိုးပမ်းဆောင်ရွက်သွားရန် ဆန္ဒရှိပါသည်။"
+      },
+      "vocabIds": [
+        "n2.l05.v009",
+        "n2.l05.v012"
+      ],
+      "grammarIds": [
+        "n2.l05.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-15T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l05.r01",
+    "lessonId": "n2.l05",
+    "title": "目標達成の心理学と健全な努力の境界線",
+    "level": "N2",
+    "text": "現代社会において、自己成長や組織の業績向上を目指す意欲は美徳として称えられる。しかし、高い目標の達成を焦るあまり、自己の体調管理を軽視して過度の疲労を蓄積させてしまっては、本末転倒である。失敗を恐れる焦燥感から過剰な負荷を自らに課し、結果として心身の健康を損なう事例は後を絶たない。ひとたび自ら責任ある役割を引き受けた以上は、周囲の期待に応える義務があることは言うまでもない。だが、プロフェッショナルとして真の成果を追求するからには、自己の限界を冷静に見極め、持続可能な努力を維持する覚悟こそが重要なのである。真の成功とは、燃え尽きることではなく、着実に前進し続ける力の中に宿る。",
+    "kanaText": "げんだいしゃかいにおいて、じこせいちょうやそしきのぎょうせきこうじょうをめざすいよくはびとくとしてたたえられる。しかし、たかいもくひょうのたっせいをあせるあまり、じこのたいちょうかんりをけいししてかどのひろうをちくせきさせてしまっては、ほんまつてんとうである。しっぱいをおそれるしょうそうかんからかじょうなふたんをみずからにかし、けっかとしてしんしんのけんこうをそこなうじれいはあとをたたない。ひとたびみずからせきにんあるやくわりをひきうけたいじょうは、しゅういのきたいにこたえるぎむがあることはいうまでもない。だが、ぷろふぇっしょなるとしてしんのせいかをついきゅうするからには、じこのげんかいをれいせいにみきわめ、じぞくかのうなどりょくをいじするかくごこそがじゅうようなのである。しんのせいこうとは、もえつきることではなく、ちゃくじつにぜんしんしつづけるちからのなかにやどる。",
+    "translation": "မျက်မှောက်ခေတ် လူ့ဘောင်တွင် မိမိကိုယ်မိမိ ဖွံ့ဖြိုးတိုးတက်စေခြင်းနှင့် အဖွဲ့အစည်း၏ အောင်မြင်မှု တိုးတက်စေရေးအတွက် ကြိုးပမ်းလိုသော ဆန္ဒကို ကောင်းမြတ်သော အရည်အသွေးအဖြစ် ချီးကျူးကြလေ့ရှိသည်။ သို့သော်လည်း မြင့်မားသော ပန်းတိုင်များကို အောင်မြင်ရန် အလွန်အမင်း ဇောတိုက်လွန်းသောကြောင့် (あまり) မိမိ၏ ကျန်းမာရေး ထိန်းသိမ်းမှုကို လျစ်လျူရှုမိကာ လွန်ကဲသော ပင်ပန်းနွမ်းနယ်မှုများ စုပုံလာစေပါက အရာရာ ပျက်စီးဆုံးရှုံးသွားမည် ဖြစ်သည်။ မအောင်မြင်မည်ကို ကြောက်ရွံ့သည့် စိုးရိမ်စိတ်ကြောင့် မိမိကိုယ်ကို အလွန်အကျွံ ဝန်ထုပ်ဝန်ပိုးများ တင်မိကာ ရလဒ်အနေဖြင့် ရုပ်ပိုင်းစိတ်ပိုင်းဆိုင်ရာ ကျန်းမာရေး ထိခိုက်ရသည့် သာဓကများမှာ အဆုံးမရှိ ဖြစ်ပွားနေသည်။ တစ်ကြိမ်တစ်ခါ တာဝန်ရှိသော အခန်းကဏ္ဍကို မိမိကိုယ်တိုင် လက်ခံဆောင်ရွက်ခဲ့ပြီးသည့်နောက် (以上は) ပတ်ဝန်းကျင်၏ မျှော်လင့်ချက်များကို တာဝန်ယူ ဖြည့်ဆည်းပေးရမည့် ဝတ္တရား ရှိသည်မှာ ပြောဖွယ်ရာ မလိုပေ။ သို့သော် ပရော်ဖက်ရှင်နယ် တစ်ဦးအနေဖြင့် စစ်မှန်သော ရလဒ်ကောင်းကို ဖော်ဆောင်လိုသည်ဆိုပါက (からには) မိမိ၏ ကန့်သတ်ချက်ကို အေးဆေးတည်ငြိမ်စွာ ဆင်ခြင်သုံးသပ်ပြီး ရေရှည်ကြိုးပမ်းမှုကို ဆက်လက်ထိန်းသိမ်းနိုင်မည့် သန္နိဋ္ဌာန်ထားရှိမှုသည်သာ ပို၍ အရေးကြီးပေသည်။ စစ်မှန်သော အောင်မြင်မှုဆိုသည်မှာ မိမိကိုယ်ကို လောင်ကျွမ်းဖျက်ဆီးပစ်ခြင်း မဟုတ်ဘဲ ခိုင်မာစွာဖြင့် ရှေ့သို့ အစဉ်တစိုက် ဆက်လက်လျှောက်လှမ်းနိုင်သည့် စွမ်းအားအတွင်း၌သာ တည်ရှိပေသည်။",
+    "questionIds": [
+      "n2.l05.q021",
+      "n2.l05.q022",
+      "n2.l05.q023",
+      "n2.l05.q024",
+      "n2.l05.q025"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "過剰",
+        "reading": "かじょう",
+        "meaning": "Excess / surplus"
+      },
+      {
+        "term": "疲労",
+        "reading": "ひろう",
+        "meaning": "Fatigue / exhaustion"
+      },
+      {
+        "term": "覚悟",
+        "reading": "かくご",
+        "meaning": "Readiness / resolve"
+      },
+      {
+        "term": "焦燥",
+        "reading": "しょうそう",
+        "meaning": "Impatience / anxiety"
+      },
+      {
+        "term": "達成",
+        "reading": "たっせい",
+        "meaning": "Achievement / attainment"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-10-15T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l05.l01",
+    "lessonId": "n2.l05",
+    "title": "新規事業コンペの準備と業務配分の見直し",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "企画リーダー・森",
+      "チームメンバー・吉田"
+    ],
+    "transcript": "森：吉田さん、来週の新規事業コンペの準備状況はどうですか？顔色が少し優れないようですが。\n吉田：はい、絶対にコンペを勝ち取りたいという意欲のあまり、毎晩遅くまで資料の推敲を重ねてしまい、少し疲労が溜まっております。\n森：熱心なのは素晴らしいが、体調を崩しては元も子もないよ。我々がプロジェクトを任された以上は、全員が健康な状態で万全のプレゼンテーションを行う義務があるんだ。\n吉田：おっしゃる通りです。チーム全員で臨むからには、私一人で過剰な負担を抱え込まず、役割を適切に分担する覚悟が必要でした。\n森：そうだ。デザイン作成は他のメンバーに任せて、吉田さんは発表の構成に専念してください。\n吉田：ありがとうございます。チームの力を信じて、必ず目標を達成してみせます。",
+    "translation": "Mori: Yoshida-san, what is the status of preparation for next week's new venture competition? Your complexion looks a bit poor, though.\nYoshida: Yes. In my extreme eagerness to definitely win the competition, I have been polishing the presentation materials late every night, so fatigue has accumulated somewhat.\nMori: Your passion is admirable, but if you ruin your health it defeats the entire purpose. Now that we have been entrusted with this project, we have a duty to deliver a flawless presentation with everyone in healthy condition.\nYoshida: You are completely right. Since we are taking this on as a whole team, I needed the resolve not to hoard an excessive burden by myself and properly divide duties instead.\nMori: Exactly. Leave the slide design to other team members and concentrate your focus on the presentation flow.\nYoshida: Thank you very much. Believing in our team's strength, I will definitely achieve our target.",
+    "turns": [
+      {
+        "speaker": "企画リーダー・森",
+        "ja": "吉田さん、来週の新規事業コンペの準備状況はどうですか？顔色が少し優れないようですが。",
+        "kana": "もりさん、らいしゅうのしんきじぎょうこんぺのじゅんびじょうきょうはどうですか？かおいろがすこしすぐれないようですが。",
+        "en": "Mori: Yoshida-san, what is the status of preparation for next week's new venture competition? Your complexion looks a bit poor, though.",
+        "my": "ယိုရှီဒါစံ၊ လာမယ့်အပတ်က လုပ်ငန်းသစ်ပြိုင်ပွဲအတွက် ပြင်ဆင်မှု အခြေအနေ ဘယ်လိုရှိပါသလဲခင်ဗျာ။ မျက်နှာသွေး နည်းနည်း ပျက်နေသလိုပဲနော်။",
+        "myanmar": "ယိုရှီဒါစံ၊ လာမယ့်အပတ်က လုပ်ငန်းသစ်ပြိုင်ပွဲအတွက် ပြင်ဆင်မှု အခြေအနေ ဘယ်လိုရှိပါသလဲခင်ဗျာ။ မျက်နှာသွေး နည်းနည်း ပျက်နေသလိုပဲနော်။"
+      },
+      {
+        "speaker": "チームメンバー・吉田",
+        "ja": "はい、絶対にコンペを勝ち取りたいという意欲のあまり、毎晩遅くまで資料の推敲を重ねてしまい、少し疲労が溜まっております。",
+        "kana": "はい、ぜったいにこんぺをかちとりたいといういよくのあまり、まいばんおそくまでしりょうのすいこうをかさねてしまい、すこしひろうがたまっております。",
+        "en": "Yes. In my extreme eagerness to definitely win the competition, I have been polishing the presentation materials late every night, so fatigue has accumulated somewhat.",
+        "my": "ဟုတ်ကဲ့ပါ၊ ပြိုင်ပွဲကို မဖြစ်မနေ အနိုင်ရချင်တဲ့ စိတ်ဆန္ဒ ပြင်းပြလွန်းတဲ့အတွက် ညစဉ် ညဉ့်နက်တဲ့အထိ တင်ပြချက်တွေကို အထပ်ထပ် ပြန်လည်ပြင်ဆင်နေမိလို့ နည်းနည်း ပင်ပန်းနွမ်းနယ်နေတာပါ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ၊ ပြိုင်ပွဲကို မဖြစ်မနေ အနိုင်ရချင်တဲ့ စိတ်ဆန္ဒ ပြင်းပြလွန်းတဲ့အတွက် ညစဉ် ညဉ့်နက်တဲ့အထိ တင်ပြချက်တွေကို အထပ်ထပ် ပြန်လည်ပြင်ဆင်နေမိလို့ နည်းနည်း ပင်ပန်းနွမ်းနယ်နေတာပါ။"
+      },
+      {
+        "speaker": "企画リーダー・森",
+        "ja": "熱心なのは素晴らしいが、体調を崩しては元も子もないよ。我々がプロジェクトを任された以上は、全員が健康な状態で万全のプレゼンテーションを行う義務があるんだ。",
+        "kana": "ねっしんなのはすばらしいが、たいちょうをくずしてはもともこもないよ。われわれがぷろじぇくとをまかされたいじょうは、ぜんいんがけんこうなじょうたいでばんぜんのぷれぜんてーしょんをおこなうぎむがあるんだ。",
+        "en": "Your passion is admirable, but if you ruin your health it defeats the entire purpose. Now that we have been entrusted with this project, we have a duty to deliver a flawless presentation with everyone in healthy condition.",
+        "my": "စိတ်အားထက်သန်တာ ကောင်းပေမဲ့ ကျန်းမာရေး ထိခိုက်သွားရင် အရင်းပါ ဆုံးရှုံးသွားလိမ့်မယ်။ ကျွန်ုပ်တို့ကို ဤပရောဂျက်ကို တာဝန်ပေးအပ်ထားပြီးဖြစ်သည့်အလျောက် လူတိုင်း ကျန်းမာစွာနဲ့ အပြည့်အဝ တင်ပြနိုင်ဖို့ တာဝန်ရှိတယ်လေ။",
+        "myanmar": "စိတ်အားထက်သန်တာ ကောင်းပေမဲ့ ကျန်းမာရေး ထိခိုက်သွားရင် အရင်းပါ ဆုံးရှုံးသွားလိမ့်မယ်။ ကျွန်ုပ်တို့ကို ဤပရောဂျက်ကို တာဝန်ပေးအပ်ထားပြီးဖြစ်သည့်အလျောက် လူတိုင်း ကျန်းမာစွာနဲ့ အပြည့်အဝ တင်ပြနိုင်ဖို့ တာဝန်ရှိတယ်လေ။"
+      },
+      {
+        "speaker": "チームメンバー・吉田",
+        "ja": "おっしゃる通りです。チーム全員で臨むからには、私一人で過剰な負担を抱え込まず、役割を適切に分担する覚悟が必要でした。",
+        "kana": "おっしゃるとおりです。ちーむぜんいんでのぞむからには、わたしひとりでかじょうなふたんをかかえこまず、やくわりをてきせつにぶんたんするかくごがひつようでした。",
+        "en": "You are completely right. Since we are taking this on as a whole team, I needed the resolve not to hoard an excessive burden by myself and properly divide duties instead.",
+        "my": "ခေါင်းဆောင် ပြောတာ အမှန်ပါပဲ။ အဖွဲ့တစ်ဖွဲ့လုံး အတူတကွ ရင်ဆိုင်ဖြေရှင်းကြမည်ဖြစ်သည့်အတွက် ကျွန်တော် တစ်ယောက်တည်း ဝန်ထုပ်ဝန်ပိုးတွေ အများကြီး မယူထားဘဲ တာဝန်တွေကို စနစ်တကျ ခွဲဝေယူမယ့် သန္နိဋ္ဌာန် လိုအပ်ခဲ့ပါတယ်။",
+        "myanmar": "ခေါင်းဆောင် ပြောတာ အမှန်ပါပဲ။ အဖွဲ့တစ်ဖွဲ့လုံး အတူတကွ ရင်ဆိုင်ဖြေရှင်းကြမည်ဖြစ်သည့်အတွက် ကျွန်တော် တစ်ယောက်တည်း ဝန်ထုပ်ဝန်ပိုးတွေ အများကြီး မယူထားဘဲ တာဝန်တွေကို စနစ်တကျ ခွဲဝေယူမယ့် သန္နိဋ္ဌာန် လိုအပ်ခဲ့ပါတယ်။"
+      },
+      {
+        "speaker": "企画リーダー・森",
+        "ja": "そうだ。デザイン作成は他のメンバーに任せて、吉田さんは発表の構成に専念してください。",
+        "kana": "そうだ。でざいんさくせいはほかのめんばーにまかせて、よしださんははっぴょうのこうせいにせんねんしてください。",
+        "en": "Exactly. Leave the slide design to other team members and concentrate your focus on the presentation flow.",
+        "my": "ဟုတ်တယ်လေ။ ဒီဇိုင်းပိုင်းကို အခြားအဖွဲ့ဝင်တွေဆီ လွှဲအပ်ထားပြီး ယိုရှီဒါစံကတော့ တင်ပြချက် ဖွဲ့စည်းပုံအပေါ်မှာပဲ အာရုံစိုက်လုပ်ဆောင်ပါ။",
+        "myanmar": "ဟုတ်တယ်လေ။ ဒီဇိုင်းပိုင်းကို အခြားအဖွဲ့ဝင်တွေဆီ လွှဲအပ်ထားပြီး ယိုရှီဒါစံကတော့ တင်ပြချက် ဖွဲ့စည်းပုံအပေါ်မှာပဲ အာရုံစိုက်လုပ်ဆောင်ပါ။"
+      },
+      {
+        "speaker": "チームメンバー・吉田",
+        "ja": "ありがとうございます。チームの力を信じて、必ず目標を達成してみせます。",
+        "kana": "ありがとうございます。ちーむのちからをしんじて、かならずもくひょうをたっせいしてみせます。",
+        "en": "Thank you very much. Believing in our team's strength, I will definitely achieve our target.",
+        "my": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ အဖွဲ့ရဲ့ စွမ်းအားကို ယုံကြည်ပြီး ပန်းတိုင်ကို မဖြစ်မနေ အရောက်လှမ်းပြပါမယ်။",
+        "myanmar": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ အဖွဲ့ရဲ့ စွမ်းအားကို ယုံကြည်ပြီး ပန်းတိုင်ကို မဖြစ်မနေ အရောက်လှမ်းပြပါမယ်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l05.q026",
+      "n2.l05.q027",
+      "n2.l05.q028",
+      "n2.l05.q029",
+      "n2.l05.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-10-15T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l05.q001",
+      "lessonId": "n2.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「市場に（　）な在庫が溢れ、価格の下落を招いた。」",
+      "choices": [
+        "過剰",
+        "意欲",
+        "成果",
+        "覚悟"
+      ],
+      "answer": "過剰",
+      "explanation": "「過剰（かじょう）」は必要な限度を越えて多すぎるさまを表します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q002",
+      "lessonId": "n2.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「連日の激務による慢性的な（　）が、重大なミスの引き金となった。」",
+      "choices": [
+        "疲労",
+        "意欲",
+        "達成",
+        "成果"
+      ],
+      "answer": "疲労",
+      "explanation": "「疲労（ひろう）」は心身を使い続けたことによる疲れや消耗を表します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q003",
+      "lessonId": "n2.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「困難な状況に飛び込むには、相応の（　）が必要だ。」",
+      "choices": [
+        "覚悟",
+        "過剰",
+        "疲労",
+        "焦燥"
+      ],
+      "answer": "覚悟",
+      "explanation": "「覚悟（かくご）」は危険や困難な事態に立ち向かうための心の準備・決心を意味します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q004",
+      "lessonId": "n2.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「納税は、憲法で定められた国民の三大（　）の一つである。」",
+      "choices": [
+        "義務",
+        "意欲",
+        "成果",
+        "負担"
+      ],
+      "answer": "義務",
+      "explanation": "「義務（ぎむ）」は道徳上・法律上、果たさなければならない拘束力のある責務を表します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q005",
+      "lessonId": "n2.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「長年の地道な基礎研究がついに実を結び、大きな（　）を上げた。」",
+      "choices": [
+        "成果",
+        "焦燥",
+        "負担",
+        "義務"
+      ],
+      "answer": "成果",
+      "explanation": "「成果（せいか）を上げる」はある行為や努力によって得られた立派な結果を表します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q006",
+      "lessonId": "n2.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「新規事業に挑戦したいという（　）に満ちた若手を積極的に登用する。」",
+      "choices": [
+        "意欲",
+        "疲労",
+        "過剰",
+        "負担"
+      ],
+      "answer": "意欲",
+      "explanation": "「意欲（いよく）」は進んで何かを行おうとする積極的な意気込みを表します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q007",
+      "lessonId": "n2.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「一部の社員に業務が偏ると、精神的な（　）が過重になってしまう。」",
+      "choices": [
+        "負担",
+        "意欲",
+        "達成",
+        "成果"
+      ],
+      "answer": "負担",
+      "explanation": "「負担（ふたん）」は引き受ける重荷や責任・苦労を意味します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q008",
+      "lessonId": "n2.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「思うように研究が進まず、日増しに（　）感が募っていった。」",
+      "choices": [
+        "焦燥",
+        "達成",
+        "覚悟",
+        "義務"
+      ],
+      "answer": "焦燥",
+      "explanation": "「焦燥（しょうそう）感」は思い通りにならず焦りいらだつ心理状態を指します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q009",
+      "lessonId": "n2.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「自己の職務に対する（　）を全うすることが社会人の基本だ。」",
+      "choices": [
+        "責任",
+        "焦燥",
+        "過剰",
+        "疲労"
+      ],
+      "answer": "責任",
+      "explanation": "「責任（せきにん）を全うする」は引き受けた義務や役割を最後まで果たすことを表します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q010",
+      "lessonId": "n2.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「経営危機を脱するため、不採算部門の売却という苦渋の（　）を下した。」",
+      "choices": [
+        "決断",
+        "意欲",
+        "疲労",
+        "過剰"
+      ],
+      "answer": "決断",
+      "explanation": "「決断（けつだん）を下す」は迷いを断ち切って強い意志で判断することを意味します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q011",
+      "lessonId": "n2.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「単なる利益だけでなく、社会的な正義の（　）を企業理念に掲げる。」",
+      "choices": [
+        "追求",
+        "焦燥",
+        "負担",
+        "疲労"
+      ],
+      "answer": "追求",
+      "explanation": "「追求（ついきゅう）」は目的とする理想や価値をどこまでも追い求めることを表します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q012",
+      "lessonId": "n2.l05",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「全社員が一丸となって努力し、売上目標を無事に（　）した。」",
+      "choices": [
+        "達成",
+        "過剰",
+        "疲労",
+        "焦燥"
+      ],
+      "answer": "達成",
+      "explanation": "「達成（たっせい）」は立てた目標や目的を成し遂げて到達することを意味します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q013",
+      "lessonId": "n2.l05",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の正しい読み方を選びなさい。\n「<u>過剰</u>な包装を削減する。」",
+      "choices": [
+        "かじょう",
+        "かしょう",
+        "がじょう",
+        "かすう"
+      ],
+      "answer": "かじょう",
+      "explanation": "「過剰」の「過」は「カ」と読みます。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q014",
+      "lessonId": "n2.l05",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の正しい読み方を選びなさい。\n「心身の<u>疲労</u>が極限に達した。」",
+      "choices": [
+        "ひろう",
+        "びろう",
+        "ひろ",
+        "びろ"
+      ],
+      "answer": "ひろう",
+      "explanation": "「疲労」の「疲」は「ヒ」と読みます。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q015",
+      "lessonId": "n2.l05",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の正しい読み方を選びなさい。\n「失敗を恐れぬ<u>覚悟</u>を決める。」",
+      "choices": [
+        "かくご",
+        "がくご",
+        "かっご",
+        "かくこう"
+      ],
+      "answer": "かくご",
+      "explanation": "「覚悟」の「覚」は「カク」と読みます。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q016",
+      "lessonId": "n2.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「合格発表の瞬間、嬉しさの（　）思わず涙が溢れ出た。」",
+      "choices": [
+        "あまり",
+        "以上は",
+        "からには",
+        "どころか"
+      ],
+      "answer": "あまり",
+      "explanation": "「〜のあまり」は感情が極度に高まった結果、普通ではない状態や反応が生じることを表します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q017",
+      "lessonId": "n2.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「契約書に署名捺印した（　）、その条項を遵守しなければならない。」",
+      "choices": [
+        "以上は",
+        "あまり",
+        "にしては",
+        "はおろか"
+      ],
+      "answer": "以上は",
+      "explanation": "「〜以上は」は、既成事実となった前提を受け、当然守るべき義務や覚悟を述べる表現です。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q018",
+      "lessonId": "n2.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「試合に出場する（　）、最後まで絶対に諦めずに戦い抜くつもりだ。」",
+      "choices": [
+        "からには",
+        "あまり",
+        "から見ると",
+        "てやまない"
+      ],
+      "answer": "からには",
+      "explanation": "「〜からには」は、強い意志や決意をもって最後までやり抜く覚悟を表します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q019",
+      "lessonId": "n2.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "下線部と意味が最も近い文を選びなさい。\n「引き受けた<u>以上は</u>、責任を持ってやり遂げるべきだ。」",
+      "choices": [
+        "引き受けたからには、責任を持って最後までやり遂げる義務がある。",
+        "引き受けたとしても、責任を持ってやり遂げるのは不可能だ。",
+        "引き受けるどころか、責任を他人に押し付けた。",
+        "引き受けたにしては、責任感が全く見受けられない。"
+      ],
+      "answer": "引き受けたからには、責任を持って最後までやり遂げる義務がある。",
+      "explanation": "「〜以上は」と「〜からには」は既定の事実を前提にした強い義務・覚悟を表す同系統の文法です。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.g002",
+        "n2.l05.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q020",
+      "lessonId": "n2.l05",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「母は息子の健康を心配する（　）、毎日のように電話をかけてくる。」",
+      "choices": [
+        "あまり",
+        "以上は",
+        "からには",
+        "に値して"
+      ],
+      "answer": "あまり",
+      "explanation": "「心配するあまり」は、心配の度合いが極端になり、頻繁に電話するという行動につながっていることを表します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q021",
+      "lessonId": "n2.l05",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において「本末転倒である」と批判されている状況はどのようなものか。",
+      "choices": [
+        "目標達成を焦るあまり体調管理を怠り、過度の疲労を蓄積させてしまうこと。",
+        "組織の利益ばかりを追求して社会貢献を一切行わないこと。",
+        "チームの意見を聞かずに独断で新規プロジェクトを進めること。",
+        "失敗を恐れて新しい挑戦を最初から避けてしまうこと。"
+      ],
+      "answer": "目標達成を焦るあまり体調管理を怠り、過度の疲労を蓄積させてしまうこと。",
+      "explanation": "第2文「高い目標の達成を焦るあまり、自己の体調管理を軽視して過度の疲労を蓄積させてしまっては、本末転倒である」に基づきます。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q022",
+      "lessonId": "n2.l05",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文によると、自ら責任ある役割を引き受けた者にはどのような義務があるか。",
+      "choices": [
+        "周囲の期待に応える義務。",
+        "短期間で他社を圧倒する業績を上げる義務。",
+        "部下全員の個人的な悩みをすべて解決する義務。",
+        "あらゆる批判に対して直ちに謝罪する義務。"
+      ],
+      "answer": "周囲の期待に応える義務。",
+      "explanation": "第4文「ひとたび自ら責任ある役割を引き受けた以上は、周囲の期待に応える義務があることは言うまでもない」に基づきます。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q023",
+      "lessonId": "n2.l05",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "プロフェッショナルとして真の成果を追求する上で最も重要な覚悟とは何か。",
+      "choices": [
+        "自己の限界を冷静に見極め、持続可能な努力を維持する覚悟。",
+        "何があっても睡眠時間を削って努力し続ける覚悟。",
+        "競争相手をどんな手段を使ってでも排除する覚悟。",
+        "目標を途中で下方修正して早期達成を装う覚悟。"
+      ],
+      "answer": "自己の限界を冷静に見極め、持続可能な努力を維持する覚悟。",
+      "explanation": "第5文「自己の限界を冷静に見極め、持続可能な努力を維持する覚悟こそが重要なのである」に基づきます。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q024",
+      "lessonId": "n2.l05",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "筆者が最後の文で述べている「真の成功」の定義はどれか。",
+      "choices": [
+        "燃え尽きることなく、着実に前進し続ける力を持つこと。",
+        "誰よりも早く社内で昇進し名声を手に入れること。",
+        "過去の失敗の責任を完全に帳消しにすること。",
+        "失敗する可能性をゼロにする完璧な計画を立てること。"
+      ],
+      "answer": "燃え尽きることなく、着実に前進し続ける力を持つこと。",
+      "explanation": "最終文「真の成功とは、燃え尽きることではなく、着実に前進し続ける力の中に宿る」に基づきます。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q025",
+      "lessonId": "n2.l05",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文全体の要約として最もふさわしいものはどれか。",
+      "choices": [
+        "目標達成の意欲は尊いが、焦りから過度な負荷を課すのではなく、持続可能な努力を続ける冷静さが求められる。",
+        "責任ある立場を引き受けた以上は、健康を害してでも目標を達成しなければならない。",
+        "自己成長を追い求めることは心理的負担が大きいため、過度な意欲は捨てるべきである。",
+        "組織で働く人間は、個人の限界を超えて働き続けることが最大の美徳である。"
+      ],
+      "answer": "目標達成の意欲は尊いが、焦りから過度な負荷を課すのではなく、持続可能な努力を続ける冷静さが求められる。",
+      "explanation": "努力や意欲を肯定しつつ、焦燥感や無理な過負荷を戒め、持続可能な歩みの尊さを説く全体の主張を正確に捉えています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.r01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q026",
+      "lessonId": "n2.l05",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "吉田の疲労の原因は何であったか。",
+      "choices": [
+        "コンペに勝ちたいという意欲のあまり、毎晩遅くまで資料の推敲を重ねたこと。",
+        "遠方への出張が連続して発生したこと。",
+        "リーダーの森から厳しい叱責を受け続けたこと。",
+        "他のメンバーの仕事まで手伝わされたこと。"
+      ],
+      "answer": "コンペに勝ちたいという意欲のあまり、毎晩遅くまで資料の推敲を重ねたこと。",
+      "explanation": "吉田の「意欲のあまり、毎晩遅くまで資料の推敲を重ねてしまい、少し疲労が溜まっております」に基づきます。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q027",
+      "lessonId": "n2.l05",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "森が説いた「チームの義務」とは何か。",
+      "choices": [
+        "全員が健康な状態で万全のプレゼンテーションを行うこと。",
+        "ライバル他社よりも多くの資料を提出すること。",
+        "土日も返上してコンペの練習を繰り返すこと。",
+        "コンペに負けた場合の責任をリーダー一人で負うこと。"
+      ],
+      "answer": "全員が健康な状態で万全のプレゼンテーションを行うこと。",
+      "explanation": "森の「全員が健康な状態で万全のプレゼンテーションを行う義務があるんだ」に基づきます。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q028",
+      "lessonId": "n2.l05",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "吉田が反省した点はどれか。",
+      "choices": [
+        "チーム全員で臨むにもかかわらず、一人で過剰な負担を抱え込んでしまったこと。",
+        "プレゼンテーション資料の作成を他人に任せきりにしていたこと。",
+        "コンペの締切日を誤認していたこと。",
+        "森への事前相談を怠っていたこと。"
+      ],
+      "answer": "チーム全員で臨むにもかかわらず、一人で過剰な負担を抱え込んでしまったこと。",
+      "explanation": "吉田の「私一人で過剰な負担を抱え込まず、役割を適切に分担する覚悟が必要でした」に基づきます。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q029",
+      "lessonId": "n2.l05",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "森が決定した新たな役割分担はどのようなものか。",
+      "choices": [
+        "デザイン作成は他のメンバーに任せ、吉田は発表の構成に専念する。",
+        "資料作成はすべて中止し、口頭での説明のみに切り替える。",
+        "吉田をプロジェクトから外し、別の担当者を立てる。",
+        "森自身がすべての資料作成を引き受ける。"
+      ],
+      "answer": "デザイン作成は他のメンバーに任せ、吉田は発表の構成に専念する。",
+      "explanation": "森の「デザイン作成は他のメンバーに任せて、吉田さんは発表の構成に専念してください」に基づきます。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l05.q030",
+      "lessonId": "n2.l05",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "吉田の最後の発言から読み取れる心情はどれか。",
+      "choices": [
+        "チームの力を信頼し、目標達成に向けて前向きな決意を抱いている。",
+        "役割を減らされたことに対して悔しさを感じている。",
+        "コンペの勝敗について無関心になっている。",
+        "体調不良を理由に辞退したいと考えている。"
+      ],
+      "answer": "チームの力を信頼し、目標達成に向けて前向きな決意を抱いている。",
+      "explanation": "吉田の「チームの力を信じて、必ず目標を達成してみせます」という前向きな強い決意に基づきます。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l05.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-10-15T10:00:00Z",
+    "rev": 2
+  }
+}

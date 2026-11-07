@@ -1,0 +1,1685 @@
+{
+  "id": "n2.l06",
+  "level": "N2",
+  "module": "N2 Advanced Grammar & Argumentation",
+  "number": 6,
+  "title": "N2 Lesson 6: Conditions & Hypotheses (〜としたら・〜ものなら・〜ないことには)",
+  "description": "Mastery module focusing on Conditions & Hypotheses: neutral hypotheses (としたら), unlikely desires (ものなら), and indispensable prerequisites (ないことには).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l06.v001",
+      "lessonId": "n2.l06",
+      "ja": "仮定",
+      "kana": "かてい",
+      "en": "Hypothesis / Assumption / Supposition",
+      "my": "ယူဆချက် / ယာယီသတ်မှတ်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l06.s001",
+      "kanjiIds": [
+        "n2.l06.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.v002",
+      "lessonId": "n2.l06",
+      "ja": "仮に",
+      "kana": "かりに",
+      "en": "Supposing / Provisionally / For argument's sake",
+      "my": "အကယ်၍ / ဥပမာအားဖြင့် ဆိုရလျှင်",
+      "pos": "adverb",
+      "exampleSentenceId": "n2.l06.s001",
+      "kanjiIds": [
+        "n2.l06.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.v003",
+      "lessonId": "n2.l06",
+      "ja": "願望",
+      "kana": "がんぼう",
+      "en": "Desire / Aspiration / Wish",
+      "my": "ပြင်းပြသော ဆန္ဒ / တောင့်တမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l06.s002",
+      "kanjiIds": [
+        "n2.l06.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.v004",
+      "lessonId": "n2.l06",
+      "ja": "前提",
+      "kana": "ぜんてい",
+      "en": "Premise / Prerequisite / Precondition",
+      "my": "မရှိမဖြစ် ရှေ့ပြေးယူဆချက် / အခြေခံစည်းကမ်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l06.s003",
+      "kanjiIds": [
+        "n2.l06.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.v005",
+      "lessonId": "n2.l06",
+      "ja": "実現",
+      "kana": "じつげん",
+      "en": "Realization / Materialization / Implementation",
+      "my": "လက်တွေ့ဖြစ်မြောက်ခြင်း / အကောင်အထည်ပေါ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l06.s004",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.v006",
+      "lessonId": "n2.l06",
+      "ja": "同意",
+      "kana": "どうい",
+      "en": "Consent / Agreement / Concurrence",
+      "my": "သဘောတူညီချက် / စိတ်တူသဘောတူဖြစ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l06.s005",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.v007",
+      "lessonId": "n2.l06",
+      "ja": "承諾",
+      "kana": "しょうだく",
+      "en": "Consent / Acceptance / Approval",
+      "my": "သဘောတူခွင့်ပြုချက် / လက်ခံအတည်ပြုခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l06.s006",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.v008",
+      "lessonId": "n2.l06",
+      "ja": "後悔",
+      "kana": "こうかい",
+      "en": "Regret / Remorse / Repentance",
+      "my": "နောင်တရခြင်း / စိတ်မကောင်းဖြစ်ရခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l06.s007",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.v009",
+      "lessonId": "n2.l06",
+      "ja": "可能",
+      "kana": "かのう",
+      "en": "Possible / Feasible / Potential",
+      "my": "ဖြစ်နိုင်သော / ဆောင်ရွက်နိုင်သော",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l06.s008",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.v010",
+      "lessonId": "n2.l06",
+      "ja": "不可能",
+      "kana": "ふかのう",
+      "en": "Impossible / Infeasible",
+      "my": "မဖြစ်နိုင်သော / မဖြစ်မြောက်နိုင်သော",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l06.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.v011",
+      "lessonId": "n2.l06",
+      "ja": "必須",
+      "kana": "ひっす",
+      "en": "Essential / Indispensable / Mandatory",
+      "my": "မရှိမဖြစ် လိုအပ်သော / မဖြစ်မနေ",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l06.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.v012",
+      "lessonId": "n2.l06",
+      "ja": "条件",
+      "kana": "じょうけん",
+      "en": "Condition / Term / Prerequisite requirement",
+      "my": "သတ်မှတ်ချက် / စည်းကမ်းချက် / အခြေအနေ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l06.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l06.k001",
+      "lessonId": "n2.l06",
+      "char": "仮",
+      "meaning": "Temporary / Provisional / Hypothesis",
+      "onyomi": [
+        "カ",
+        "ケ"
+      ],
+      "kunyomi": [
+        "かり"
+      ],
+      "exampleVocab": [
+        {
+          "word": "仮定",
+          "reading": "かてい",
+          "meaning": "hypothesis / assumption",
+          "preview": false
+        },
+        {
+          "word": "仮に",
+          "reading": "かりに",
+          "meaning": "provisionally / supposing",
+          "preview": false
+        },
+        {
+          "word": "仮説",
+          "reading": "かせつ",
+          "meaning": "hypothesis / theory",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l06.s001"
+      ],
+      "components": [
+        "亻",
+        "反"
+      ],
+      "strokes": 6,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      },
+      "meaningMy": "ယာယီ / ယူဆချက် / အကယ်၍",
+      "meaningMyanmar": "ယာယီ / ယူဆချက် / အကယ်၍"
+    },
+    {
+      "id": "n2.l06.k002",
+      "lessonId": "n2.l06",
+      "char": "願",
+      "meaning": "Desire / Wish / Request / Petition",
+      "onyomi": [
+        "ガン"
+      ],
+      "kunyomi": [
+        "ねが.う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "願望",
+          "reading": "がんぼう",
+          "meaning": "desire / wish",
+          "preview": false
+        },
+        {
+          "word": "願い",
+          "reading": "ねがい",
+          "meaning": "request / wish",
+          "preview": false
+        },
+        {
+          "word": "願書",
+          "reading": "がんしょ",
+          "meaning": "written application",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l06.s002"
+      ],
+      "components": [
+        "原",
+        "頁"
+      ],
+      "strokes": 19,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      },
+      "meaningMy": "ဆန္ဒပြုခြင်း / တောင်းဆိုခြင်း",
+      "meaningMyanmar": "ဆန္ဒပြုခြင်း / တောင်းဆိုခြင်း"
+    },
+    {
+      "id": "n2.l06.k003",
+      "lessonId": "n2.l06",
+      "char": "提",
+      "meaning": "Propose / Submit / Hold in hand",
+      "onyomi": [
+        "テイ"
+      ],
+      "kunyomi": [
+        "さ.げる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "前提",
+          "reading": "ぜんてい",
+          "meaning": "premise / prerequisite",
+          "preview": false
+        },
+        {
+          "word": "提案",
+          "reading": "ていあん",
+          "meaning": "proposal / suggestion",
+          "preview": false
+        },
+        {
+          "word": "提出",
+          "reading": "ていしゅつ",
+          "meaning": "submission / presentation",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l06.s003"
+      ],
+      "components": [
+        "扌",
+        "是"
+      ],
+      "strokes": 12,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      },
+      "meaningMy": "တင်ပြခြင်း / ကမ်းလှမ်းခြင်း",
+      "meaningMyanmar": "တင်ပြခြင်း / ကမ်းလှမ်းခြင်း"
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l06.g001",
+      "lessonId": "n2.l06",
+      "pattern": "〜としたら",
+      "meaning": "Supposing that / If it were the case that",
+      "formation": "普通形（名詞・な形容詞 ＋ だ） ＋ としたら",
+      "explanation": {
+        "en": "Posits a neutral hypothetical assumption or condition ('supposing that...', 'if...'). Used to evaluate hypothetical scenarios, open possibilities, or ask reflective questions.",
+        "my": "အကယ်၍သာ ထိုသို့ဖြစ်ခဲ့လျှင် ဟူသော ဘက်မလိုက်သည့် ယူဆချက် သို့မဟုတ် အခြေအနေကို ဖော်ပြသည်။ မေးခွန်းများ သို့မဟုတ် နောက်ဆက်တွဲ ယူဆချက်များတွင် အဓိက သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l06.s001",
+          "note": "Hypothetical scenario based on assumption"
+        },
+        {
+          "sentenceId": "n2.l06.s004",
+          "note": "Exploring consequences under a hypothetical condition"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l06.g002",
+        "n2.l06.g003"
+      ],
+      "commonMistakes": [
+        "Do not confuse with 〜ものなら which indicates an impossible/wishful desire, not a neutral hypothesis."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "もし明日世界が終わる[ _____ ]、あなたは何をしますか。",
+      "clozeTarget": "としたら",
+      "clozeHint": "Plain form + としたら (neutral hypothesis: 'supposing that...')",
+      "acceptableSynonyms": [
+        "ものなら",
+        "とすれば",
+        "と仮定して",
+        "なら"
+      ],
+      "nuanceExplanationMy": "「〜としたら」သည် အကယ်၍သာ ထိုသို့ဖြစ်ခဲ့လျှင် ဟူသော ဘက်မလိုက်သည့် ယူဆချက်ပုံစံ ဖြစ်သည်။ စိတ်ကူးယဉ်ဆန္ဒ (ものなら) မဟုတ်ပါ။"
+    },
+    {
+      "id": "n2.l06.g002",
+      "lessonId": "n2.l06",
+      "pattern": "〜ものなら",
+      "meaning": "If one could / If it were possible (unlikely or impossible wish)",
+      "formation": "動詞（辞書形 / 可能形） ＋ ものなら",
+      "explanation": {
+        "en": "Expresses an unlikely or impossible wish/desire ('If it were possible to... I would...'). Often followed by a strong personal wish, regret, or skeptical challenge.",
+        "my": "လက်တွေ့တွင် မဖြစ်နိုင်သော သို့မဟုတ် ဖြစ်ရန် အလွန်ခဲယဉ်းသော ဆန္ဒကို ဖော်ပြသည်။ 'အကယ်၍သာ လုပ်နိုင်မည်ဆိုပါက...' ဟူသော ဆန္ဒ သို့မဟုတ် နောင်တကို ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l06.s002",
+          "note": "Expressing an impossible wish to change past outcomes"
+        },
+        {
+          "sentenceId": "n2.l06.s007",
+          "note": "Deep remorse linked with an unlikely desire"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l06.g001"
+      ],
+      "commonMistakes": [
+        "Do not use for ordinary conditional statements; 〜ものなら is strictly reserved for wishful or improbable scenarios."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "過去に戻れる[ _____ ]、あの失敗をやり直したい。",
+      "clozeTarget": "ものなら",
+      "clozeHint": "Verb [可能形] + ものなら (unlikely / wishful desire)",
+      "acceptableSynonyms": [
+        "としたら",
+        "とすれば",
+        "なら",
+        "たら",
+        "ても",
+        "ば"
+      ],
+      "nuanceExplanationMy": "「〜ものなら」သည် ဖြစ်နိုင်ခြေနည်းသော သို့မဟုတ် မဖြစ်နိုင်သော ဆန္ဒကို ဖော်ပြသည့် ပုံစံ ဖြစ်သည်။ သာမန် ယူဆချက် (としたら) မဟုတ်ပါ။"
+    },
+    {
+      "id": "n2.l06.g003",
+      "lessonId": "n2.l06",
+      "pattern": "〜ないことには",
+      "meaning": "Unless X happens, Y cannot be realized",
+      "formation": "動詞（ない形） ＋ ことには（〜ない）",
+      "explanation": {
+        "en": "Indicates an indispensable prerequisite: unless condition X is fulfilled, outcome Y cannot take place (always followed by a negative or potential negative expression).",
+        "my": "မလုပ်ဘဲနှင့် နောက်ကိစ္စ မဖြစ်မြောက်နိုင် ဟူသော မဖြစ်မနေ လိုအပ်ချက်ကို ပြသည်။ အမြဲတမ်း နောက်ဝါကျတွင် အငြင်းသဘော (〜できない / 〜ない) လိုက်ရသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l06.s003",
+          "note": "Prerequisite requirement before progress can be made"
+        },
+        {
+          "sentenceId": "n2.l06.s005",
+          "note": "Indispensable mutual agreement condition"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l06.g001"
+      ],
+      "commonMistakes": [
+        "The following clause must be negative (e.g., できない, 分からない, 始まらない). Never follow with a positive assertion."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "実際にやってみ[ _____ ]、できるかどうかわからない。",
+      "clozeTarget": "ないことには",
+      "clozeHint": "Verb [ない形] + ことには (indispensable prerequisite: 'Unless X, cannot Y')",
+      "acceptableSynonyms": [
+        "なければ",
+        "ないと",
+        "なくては",
+        "ない限り"
+      ],
+      "nuanceExplanationMy": "「〜ないことには」သည် ရှေ့ကိစ္စ မလုပ်ဆောင်ဘဲ နောက်ကိစ္စ မဖြစ်မြောက်နိုင်ကြောင်း ဖော်ပြသည်။ နောက်ဝါကျတွင် အငြင်းပုံစံ လိုက်ရသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l06.s001",
+      "lessonId": "n2.l06",
+      "ja": "仮にその仮定が正しいとしたら、我々の事業計画を根本から見直さなければならない。",
+      "kana": "かりにそのかていがただしいとしたら、われわれのじぎょうけいかくをこんぽんからみなおさなければならない。",
+      "translation": {
+        "en": "Supposing for argument's sake that hypothesis is correct, we would have to fundamentally overhaul our business plan.",
+        "my": "အကယ်၍ ထိုယူဆချက်သာ မှန်ကန်ခဲ့မည်ဆိုပါက ကျွန်ုပ်တို့၏ စီးပွားရေးစီမံကိန်းကို အခြေခံမှစ၍ ပြန်လည်သုံးသပ်ရမည် ဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n2.l06.v001",
+        "n2.l06.v002"
+      ],
+      "grammarIds": [
+        "n2.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.s002",
+      "lessonId": "n2.l06",
+      "ja": "叶えられるものなら、幼い頃からの大きな願望をすべて叶えてみたい。",
+      "kana": "かなえられるものなら、おさないころからのたいへんながんぼうをすべてかなえてみたい。",
+      "translation": {
+        "en": "If it were at all possible, I would like to fulfill all the grand wishes I had since childhood.",
+        "my": "အကယ်၍သာ ဖြည့်ဆည်းနိုင်မည်ဆိုပါက ငယ်စဉ်ကတည်းက တောင့်တခဲ့သော ပြင်းပြသည့် ဆန္ဒအားလုံးကို အကောင်အထည်ဖော်လိုပါသည်။"
+      },
+      "vocabIds": [
+        "n2.l06.v003"
+      ],
+      "grammarIds": [
+        "n2.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.s003",
+      "lessonId": "n2.l06",
+      "ja": "明確な前提を共有しないことには、建設的な議論を進めることはできない。",
+      "kana": "めいかくなぜんていをきょうゆうしないことには、けんせつてきなぎろんをすすめることはできない。",
+      "translation": {
+        "en": "Unless we share clear premises, we cannot conduct a constructive discussion.",
+        "my": "ရှင်းလင်းသော အခြေခံစည်းကမ်းများကို အတူတကွ မျှဝေမထားဘဲနှင့် တည်ဆောက်မှုရှိသော ဆွေးနွေးပွဲကို ရှေ့ဆက်နိုင်မည် မဟုတ်ပါ။"
+      },
+      "vocabIds": [
+        "n2.l06.v004"
+      ],
+      "grammarIds": [
+        "n2.l06.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.s004",
+      "lessonId": "n2.l06",
+      "ja": "この技術の実現が可能だとしたら、社会の通信インフラは劇的に変化するだろう。",
+      "kana": "このぎじゅつのじつげんがかのうだとしたら、しゃかいのつうしんインフラはげきてきにへんかするだろう。",
+      "translation": {
+        "en": "Supposing the realization of this technology is possible, societal communication infrastructure will change dramatically.",
+        "my": "အကယ်၍ ဤနည်းပညာကို လက်တွေ့အကောင်အထည်ဖော်ရန် ဖြစ်နိုင်မည်ဆိုပါက လူမှုဆက်သွယ်ရေး အခြေခံအဆောက်အအုံသည် သိသာစွာ ပြောင်းလဲသွားမည်ဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n2.l06.v005",
+        "n2.l06.v009"
+      ],
+      "grammarIds": [
+        "n2.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.s005",
+      "lessonId": "n2.l06",
+      "ja": "関係者全員の同意を得ないことには、開発プロジェクトに着手することは認められない。",
+      "kana": "かんけいしゃぜんいんのどういをえないことには、かいはつプロジェクトにちゃくしゅすることはみとめられない。",
+      "translation": {
+        "en": "Unless we obtain consent from all stakeholders, starting the development project cannot be approved.",
+        "my": "သက်ဆိုင်သူ အားလုံး၏ သဘောတူညီချက်ကို မရရှိဘဲနှင့် ဖွံ့ဖြိုးရေးစီမံကိန်းကို စတင်ခွင့်ပြုမည် မဟုတ်ပါ။"
+      },
+      "vocabIds": [
+        "n2.l06.v006"
+      ],
+      "grammarIds": [
+        "n2.l06.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.s006",
+      "lessonId": "n2.l06",
+      "ja": "取引先からの正式な承諾がないことには、新製品の納品日程を確定できない。",
+      "kana": "とりひきさきからのせいしきなしょうだくがないことには、しんせいひんののうひんにっていをかくていできない。",
+      "translation": {
+        "en": "Unless there is formal approval from the client, we cannot finalize the delivery schedule for the new product.",
+        "my": "ဖောက်သည်ထံမှ တရားဝင် ခွင့်ပြုချက် မရှိဘဲနှင့် ကုန်ပစ္စည်းအသစ် ပို့ဆောင်မည့်ရက်ကို အတည်မပြုနိုင်ပါ။"
+      },
+      "vocabIds": [
+        "n2.l06.v007"
+      ],
+      "grammarIds": [
+        "n2.l06.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.s007",
+      "lessonId": "n2.l06",
+      "ja": "過去の決断をやり直せるものなら、あんな深い後悔を残すことはなかっただろう。",
+      "kana": "かこのけつだんをやりなおせるものなら、あんなふかいこうかいをのこすことはなかっただろう。",
+      "translation": {
+        "en": "If I could redo past decisions, I would never have left behind such profound regret.",
+        "my": "အကယ်၍ အတိတ်က ဆုံးဖြတ်ချက်ကို ပြန်လည်ပြင်ဆင်နိုင်မည်ဆိုပါက ထိုမျှ နက်ရှိုင်းသော နောင်တမျိုး ကျန်ရစ်ခဲ့မည် မဟုတ်ပါ။"
+      },
+      "vocabIds": [
+        "n2.l06.v008"
+      ],
+      "grammarIds": [
+        "n2.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.s008",
+      "lessonId": "n2.l06",
+      "ja": "仮に短期間での納品が可能だとしたら、予算の増額を検討する余地がある。",
+      "kana": "かりにたんきかんでののうひんがかのうだとしたら、よさんのぞうがくをけんとうするよちがある。",
+      "translation": {
+        "en": "Supposing delivery within a short period is feasible, there is room to consider increasing the budget.",
+        "my": "အကယ်၍ အချိန်တိုအတွင်း ကုန်ပစ္စည်းပို့ဆောင်ရန် ဖြစ်နိုင်မည်ဆိုပါက ဘတ်ဂျက်တိုးမြှင့်ရန် စဉ်းစားစရာ နေရာရှိပါသည်။"
+      },
+      "vocabIds": [
+        "n2.l06.v002",
+        "n2.l06.v009"
+      ],
+      "grammarIds": [
+        "n2.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.s009",
+      "lessonId": "n2.l06",
+      "ja": "常識的には不可能と思えることでも、挑戦できるものなら限界まで試したい。",
+      "kana": "じょうしきてきにはふかのうとおもえることでも、ちょうせんできるものならげんかいまでためしたい。",
+      "translation": {
+        "en": "Even for things deemed impossible by common sense, if I can challenge them, I want to try to the very limit.",
+        "my": "သာမန်အားဖြင့် မဖြစ်နိုင်ဟု ထင်ရသော်လည်း စိန်ခေါ်နိုင်မည်ဆိုပါက အကန့်အသတ်အထိ ကြိုးစားကြည့်ချင်ပါသည်။"
+      },
+      "vocabIds": [
+        "n2.l06.v010"
+      ],
+      "grammarIds": [
+        "n2.l06.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.s010",
+      "lessonId": "n2.l06",
+      "ja": "安全基準を満たすことが必須の前提条件であり、妥協することは許されない。",
+      "kana": "あんぜんきじゅんをみたすことがひっすのぜんていじょうけんであり、だきょうすることはゆるされない。",
+      "translation": {
+        "en": "Meeting safety standards is an essential prerequisite condition; compromise is intolerable.",
+        "my": "ဘေးကင်းရေးစံနှုန်းများနှင့် ကိုက်ညီရန်မှာ မရှိမဖြစ် လိုအပ်ချက်ဖြစ်ပြီး လျှော့ပေါ့ပေးရန် ခွင့်မပြုနိုင်ပါ။"
+      },
+      "vocabIds": [
+        "n2.l06.v011",
+        "n2.l06.v012"
+      ],
+      "grammarIds": [
+        "n2.l06.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.s011",
+      "lessonId": "n2.l06",
+      "ja": "提示された条件を受け入れないことには、契約締結に向けた交渉は進展しない。",
+      "kana": "ていじされたじょうけんをうけいれないことには、けいやくていけつにむけたこうしょうはしんてんしない。",
+      "translation": {
+        "en": "Unless we accept the proposed conditions, negotiations toward signing the contract will not advance.",
+        "my": "တင်ပြထားသော စည်းကမ်းချက်များကို လက်မခံဘဲနှင့် စာချုပ်ချုပ်ဆိုရေး ဆွေးနွေးပွဲသည် တိုးတက်လာမည် မဟုတ်ပါ။"
+      },
+      "vocabIds": [
+        "n2.l06.v012"
+      ],
+      "grammarIds": [
+        "n2.l06.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l06.s012",
+      "lessonId": "n2.l06",
+      "ja": "仮に失敗したとしたら、速やかに原因を究明して再発防止策を講じる所存だ。",
+      "kana": "かりにしっぱいしたとしたら、すみやかにげんいんをきゅうめいしてさいはつぼうしさくをこうじるしょぞんだ。",
+      "translation": {
+        "en": "Supposing we were to fail, our intention is to promptly investigate the cause and devise preventive measures.",
+        "my": "အကယ်၍ ကျရှုံးခဲ့မည်ဆိုပါက အကြောင်းရင်းကို အမြန်ဆုံး စုံစမ်းဖော်ထုတ်ပြီး ထပ်မံမဖြစ်ပွားစေရန် ကာကွယ်မှုများ ပြုလုပ်ပါမည်။"
+      },
+      "vocabIds": [
+        "n2.l06.v001",
+        "n2.l06.v002"
+      ],
+      "grammarIds": [
+        "n2.l06.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T12:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l06.r001",
+    "lessonId": "n2.l06",
+    "title": "仮定と決断：不確実な未来に挑む思考法",
+    "level": "N2",
+    "text": "現代社会において、あらゆる不確実性を完全に排除して意思決定を行うことは不可能に近い。ビジネスの現場では、十分な情報が揃っていない状況でも果断な判断が求められる。仮に市場が予期せぬ方向へ急変動したとしたら、企業は従来の戦略を瞬時に転換できる柔軟性を備えていなければ生き残れない。\n\nもちろん、過去の失敗をやり直せるものならやり直したいという願望を抱くのは人情である。しかし、終わった事実に囚われて後悔を重ねるだけでは未来は拓けない。重要なのは、常に明確な根拠を持った仮説を立て、それを検証する姿勢である。\n\nまた、新規事業に挑むにあたっては、関係者間での共通の前提を確立しないことには、いかに優れた構想であってもチーム一丸となった前進は望めない。不確実性を恐れず、仮定の積み重ねを通じて確固たる未来を築くことこそが、現代のリーダーに不可欠な資質である。",
+    "kanaText": "げんだいしゃかいにおいて、あらゆるふかくじつせいをかんぜんにはいじょしていしけっていをおこなうことはふかのうにちかい。ビジネスのげんばでは、じゅうぶんなじょうほうがそろっていないじょうきょうでもかだんなはんだんがもとめられる。かりにしじょうがよきせぬほうこうへきゅうへんどうしたとしたら、きぎょうはじゅうらいのせんりゃくをしゅんじにてんかんできるじゅうなんせいをそなえていなければいきのこれない。\n\nもちろん、かこのしっぱいをやりなおせるものならやりなおしたいというがんぼうをいだくのはにんじょうである。しかし、おわったじじつにとらわれてこうかいをかさねるだけではみらいはひらけない。じゅうようなのは、つねにめいかくなこんきょをもったかせつをたて、それをけんしょうするしせいである。\n\nまた、しんきじぎょうにいどむにあたっては、かんけいしゃかんでのきょうつうのぜんていをかくりつしないことには、いかにすぐれたこうそうであってもチームいちがんとなったぜんしんはのぞめない。ふかくじつせいをおそれず、かていのつみかさねをつうじてかっこたるみらいをきずくことこそが、げんだいのリーダーにふかかつけつなししつである。",
+    "translation": "မျက်မှောက်ခေတ် လူ့ဘောင်တွင် မသေချာမရေရာမှု အားလုံးကို ဖယ်ရှားပြီးမှ ဆုံးဖြတ်ချက် ချရန်မှာ မဖြစ်နိုင်သလောက် ခဲယဉ်းသည်။ သတင်းအချက်အလက် မပြည့်စုံသည့်တိုင် ပြတ်သားသော ဆုံးဖြတ်ချက်ကို ချမှတ်ရလေ့ရှိသည်။ အကယ်၍ ဈေးကွက်သည် မမျှော်လင့်ဘဲ ပြောင်းလဲသွားခဲ့မည်ဆိုပါက (としたら) မဟာဗျူဟာကို ချက်ချင်း ပြုပြင်နိုင်သည့် ပြောင်းလွယ်ပြင်လွယ်မှု မရှိပါက ဆက်လက်ရပ်တည်နိုင်မည် မဟုတ်ပါ။\n\nအတိတ်က အမှားများကို ပြန်လည်ပြင်ဆင်နိုင်မည်ဆိုပါက (ものなら) ဟူသော ဆန္ဒမျိုး ဖြစ်ပေါ်တတ်သည်မှာ သဘာဝပင် ဖြစ်သည်။ သို့သော် နောင်တရနေရုံဖြင့် အနာဂတ်ကို မတည်ဆောက်နိုင်ပါ။ ရှင်းလင်းသော အခြေခံစည်းကမ်းများကို အတူတကွ မသတ်မှတ်ဘဲနှင့်မူ (ないことには) မည်မျှ ကောင်းမွန်သော စီမံချက်ဖြစ်စေ ရှေ့ဆက်နိုင်မည် မဟုတ်ပါ။ မသေချာမှုများကို မကြောက်ဘဲ စနစ်တကျ ယူဆချက်များဖြင့် အနာဂတ်ကို တည်ဆောက်ခြင်းသည် ခေါင်းဆောင်ကောင်းတို့၏ မရှိမဖြစ် အရည်အချင်း ဖြစ်သည်။",
+    "questionIds": [
+      "n2.l06.q021",
+      "n2.l06.q022",
+      "n2.l06.q023",
+      "n2.l06.q024",
+      "n2.l06.q025"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "不確実性",
+        "reading": "ふかくじつせい",
+        "meaning": "uncertainty"
+      },
+      {
+        "term": "意思決定",
+        "reading": "いしけってい",
+        "meaning": "decision making"
+      },
+      {
+        "term": "果断",
+        "reading": "かだん",
+        "meaning": "resolute / decisive"
+      },
+      {
+        "term": "柔軟性",
+        "reading": "じゅうなんせい",
+        "meaning": "flexibility"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-10-19T12:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l06.l01",
+    "lessonId": "n2.l06",
+    "title": "基幹システム移行に向けた緊急ミーティング",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "田中部長",
+      "佐藤リーダー"
+    ],
+    "transcript": "田中部長：佐藤君、来週末に予定している基幹システムのサーバー移行だが、準備状況はどうなっているかね。\n佐藤リーダー：はい、予行演習は順調ですが、仮にデータ移行中に大規模な通信障害が発生したとしたら、切り戻し手順に半日ほど要する見込みです。\n田中部長：半日は厳しいな。システム停止時間を短縮できるものなら、3時間以内に抑えたいところだがね。\n佐藤リーダー：おっしゃる通りです。ただ、顧客企業の全拠点から事前テスト完了の同意を得ないことには、本番移行に踏み切ることは極めて危険です。\n田中部長：分かった。安全第一だ。全拠点の承諾が取れないことには開始しない方針で徹底してくれたまえ。",
+    "translation": "Tanaka: Sato-kun, regarding the core server migration scheduled for next weekend, what is the current preparation status?\nSato: Yes, our rehearsal went smoothly, but supposing a major network failure occurred during data migration, rollback would take half a day.\nTanaka: Half a day is tough. If it were possible to shorten the downtime, I would want to keep it under three hours.\nSato: Exactly. However, unless we receive consent on test completion from all client branches, proceeding with the migration is extremely hazardous.\nTanaka: Understood. Safety comes first. Make sure the policy is strict: we do not initiate unless we have approvals from all branches.",
+    "turns": [
+      {
+        "speaker": "田中部長",
+        "ja": "佐藤君、来週末に予定している基幹システムのサーバー移行だが、準備状況はどうなっているかね。",
+        "kana": "さとうくん、らいしゅうまつによていしているきかんシステムのサーバーいこうだが、じゅんびじょうきょうはどうなっているかね。",
+        "en": "Sato-kun, regarding the core server migration scheduled for next weekend, what is the current preparation status?",
+        "my": "ဆာတိုကွန်း၊ နောက်အပတ်ကုန်မှာ ပြုလုပ်ဖို့ စီစဉ်ထားတဲ့ အဓိကဆာဗာ ပြောင်းရွှေ့ရေးအတွက် ပြင်ဆင်မှုအခြေအနေက ဘယ်လိုရှိသလဲ။",
+        "myanmar": "ဆာတိုကွန်း၊ နောက်အပတ်ကုန်မှာ ပြုလုပ်ဖို့ စီစဉ်ထားတဲ့ အဓိကဆာဗာ ပြောင်းရွှေ့ရေးအတွက် ပြင်ဆင်မှုအခြေအနေက ဘယ်လိုရှိသလဲ။"
+      },
+      {
+        "speaker": "佐藤リーダー",
+        "ja": "はい、予行演習は順調ですが、仮にデータ移行中に大規模な通信障害が発生したとしたら、切り戻し手順に半日ほど要する見込みです。",
+        "kana": "はい、よこうえんしゅうはじゅんちょうですが、かりにデータいこうちゅうにだいきぼなつうしんしょうがいがはっせいしたとしたら、きりもどしてじゅんにはんにちほどようするみこみです。",
+        "en": "Yes, our rehearsal went smoothly, but supposing a major network failure occurred during data migration, rollback would take half a day.",
+        "my": "ဟုတ်ကဲ့၊ ကြိုတင်လေ့ကျင့်မှုကတော့ အဆင်ပြေပါတယ်၊ ဒါပေမဲ့ ဒေတာပြောင်းရွှေ့စဉ် ကြီးမားတဲ့ ဆက်သွယ်ရေးပြတ်တောက်မှု ဖြစ်ပေါ်ခဲ့ရင် မူလအတိုင်း ပြန်ပြောင်းဖို့ လုပ်ငန်းစဉ်က တစ်ဝက်လောက် အချိန်ယူရမှာ ဖြစ်ပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့၊ ကြိုတင်လေ့ကျင့်မှုကတော့ အဆင်ပြေပါတယ်၊ ဒါပေမဲ့ ဒေတာပြောင်းရွှေ့စဉ် ကြီးမားတဲ့ ဆက်သွယ်ရေးပြတ်တောက်မှု ဖြစ်ပေါ်ခဲ့ရင် မူလအတိုင်း ပြန်ပြောင်းဖို့ လုပ်ငန်းစဉ်က တစ်ဝက်လောက် အချိန်ယူရမှာ ဖြစ်ပါတယ်။"
+      },
+      {
+        "speaker": "田中部長",
+        "ja": "半日は厳しいな。システム停止時間を短縮できるものなら、3時間以内に抑えたいところだがね。",
+        "kana": "はんにちはきびしいな。システムていしじかんをたんしゅくできるものなら、さんじかんいないにおさえたいところだがね。",
+        "en": "Half a day is tough. If it were possible to shorten the downtime, I would want to keep it under three hours.",
+        "my": "တစ်ရက်ဝက်ဆိုတာ မလွယ်လှဘူးနော်။ စနစ်ရပ်နားချိန်ကို တိုတောင်းအောင် လုပ်နိုင်မယ်ဆိုရင် ၃ နာရီအတွင်းပဲ ကန့်သတ်ချင်တာပေါ့။",
+        "myanmar": "တစ်ရက်ဝက်ဆိုတာ မလွယ်လှဘူးနော်။ စနစ်ရပ်နားချိန်ကို တိုတောင်းအောင် လုပ်နိုင်မယ်ဆိုရင် ၃ နာရီအတွင်းပဲ ကန့်သတ်ချင်တာပေါ့။"
+      },
+      {
+        "speaker": "佐藤リーダー",
+        "ja": "おっしゃる通りです。ただ、顧客企業の全拠点から事前テスト完了の同意を得ないことには、本番移行に踏み切ることは極めて危険です。",
+        "kana": "おっしゃるとおりです。ただ、こきゃくきぎょうのぜんきょてんからじぜんテストかんりょうのどういをえないことには、ほんばんいこうにふみきることはきわめてきけんです。",
+        "en": "Exactly. However, unless we receive consent on test completion from all client branches, proceeding with the migration is extremely hazardous.",
+        "my": "ဆရာကြီး ပြောတာ မှန်ပါတယ်။ ဒါပေမဲ့ ဖောက်သည်ကုမ္ပဏီရဲ့ ဌာနခွဲအားလုံးဆီက စမ်းသပ်မှုပြီးစီးကြောင်း သဘောတူညီချက် မရရှိဘဲနဲ့ အမှန်တကယ် ပြောင်းရွှေ့မှုကို စတင်ဖို့က အလွန်အန္တရာယ်များပါတယ်။",
+        "myanmar": "ဆရာကြီး ပြောတာ မှန်ပါတယ်။ ဒါပေမဲ့ ဖောက်သည်ကုမ္ပဏီရဲ့ ဌာနခွဲအားလုံးဆီက စမ်းသပ်မှုပြီးစီးကြောင်း သဘောတူညီချက် မရရှိဘဲနဲ့ အမှန်တကယ် ပြောင်းရွှေ့မှုကို စတင်ဖို့က အလွန်အန္တရာယ်များပါတယ်။"
+      },
+      {
+        "speaker": "田中部長",
+        "ja": "分かった。安全第一だ。全拠点の承諾が取れないことには開始しない方針で徹底してくれたまえ。",
+        "kana": "わかった。あんぜんだいいちだ。ぜんきょてんのしょうだくがとれないことにはかいししないほうしんでてっていしてくれたまえ。",
+        "en": "Understood. Safety comes first. Make sure the policy is strict: we do not initiate unless we have approvals from all branches.",
+        "my": "နားလည်ပြီ။ ဘေးကင်းရေးက နံပါတ်တစ်ပဲ။ ဌာနခွဲအားလုံးဆီက ခွင့်ပြုချက် မရရှိဘဲ မစတင်ရဆိုတဲ့ မူဝါဒကို တိကျစွာ လိုက်နာပေးပါ။",
+        "myanmar": "နားလည်ပြီ။ ဘေးကင်းရေးက နံပါတ်တစ်ပဲ။ ဌာနခွဲအားလုံးဆီက ခွင့်ပြုချက် မရရှိဘဲ မစတင်ရဆိုတဲ့ မူဝါဒကို တိကျစွာ လိုက်နာပေးပါ။"
+      }
+    ],
+    "questionIds": [
+      "n2.l06.q026",
+      "n2.l06.q027",
+      "n2.l06.q028",
+      "n2.l06.q029",
+      "n2.l06.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-10-19T12:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l06.q001",
+      "lessonId": "n2.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「研究の初期段階では、大胆な（　）を立てて検証を進めることが不可欠だ。」",
+      "choices": [
+        "仮定",
+        "後悔",
+        "承諾",
+        "必須"
+      ],
+      "answer": "仮定",
+      "explanation": "「仮定（かてい）」は事実か未定の事柄を仮に定めて考えることを表します。（ယူဆချက် / ယာယီသတ်မှတ်ချက်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q002",
+      "lessonId": "n2.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「（　）その提案を受け入れた場合、どの程度のリスクが生じるか検討しよう。」",
+      "choices": [
+        "仮に",
+        "必須に",
+        "後悔に",
+        "前提に"
+      ],
+      "answer": "仮に",
+      "explanation": "「仮に（かりに）」は「もしも・とりあえず」という意味の副詞です。（အကယ်၍ / ဥပမာအားဖြင့် ဆိုရလျှင်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q003",
+      "lessonId": "n2.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「世界平和への強い（　）を胸に抱き、国際協力活動に尽力している。」",
+      "choices": [
+        "願望",
+        "仮定",
+        "条件",
+        "必須"
+      ],
+      "answer": "願望",
+      "explanation": "「願望（がんぼう）」は強く願い望むこと、切実な願いを表します。（ပြင်းပြသော ဆန္ဒ / တောင့်တမှု）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q004",
+      "lessonId": "n2.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「双方が対等な立場で話し合うことが、協定成立の不可欠な（　）である。」",
+      "choices": [
+        "前提",
+        "後悔",
+        "願望",
+        "不可能"
+      ],
+      "answer": "前提",
+      "explanation": "「前提（ぜんてい）」はある事柄が成り立つための前置きとなる条件を表します。（မရှိမဖြစ် ရှေ့ပြေးယူဆချက်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q005",
+      "lessonId": "n2.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「長年夢見てきた宇宙旅行の（　）に向けて、民間企業の開発が進む。」",
+      "choices": [
+        "実現",
+        "承諾",
+        "仮定",
+        "後悔"
+      ],
+      "answer": "実現",
+      "explanation": "「実現（じつげん）」は理想や計画が現実のものとなることを意味します。（လက်တွေ့ဖြစ်မြောက်ခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q006",
+      "lessonId": "n2.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「医療処置を行う前に、患者本人からの十分な説明に基づく（　）を得た。」",
+      "choices": [
+        "同意",
+        "後悔",
+        "願望",
+        "不可能"
+      ],
+      "answer": "同意",
+      "explanation": "「同意（どうい）」は他人の意見や提案に対して賛成し承知することを表します。（သဘောတူညီချက်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q007",
+      "lessonId": "n2.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「契約条件の変更について、相手方の代表者から口頭での（　）を取り付けた。」",
+      "choices": [
+        "承諾",
+        "仮定",
+        "必須",
+        "後悔"
+      ],
+      "answer": "承諾",
+      "explanation": "「承諾（しょうだく）」は相手の願いや要求を聞き入れて受け入れることを意味します。（သဘောတူခွင့်ပြုချက်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q008",
+      "lessonId": "n2.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「あの時もっと慎重に調査しておけばよかったと、今でも深く（　）している。」",
+      "choices": [
+        "後悔",
+        "前提",
+        "実現",
+        "承諾"
+      ],
+      "answer": "後悔",
+      "explanation": "「後悔（こうかい）」は以前の行為をあとになって悔やむことを意味します。（နောင်တရခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q009",
+      "lessonId": "n2.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「現行の法律下では、そのような特例措置の適用は極めて（　）に近い。」",
+      "choices": [
+        "不可能",
+        "可能",
+        "必須",
+        "仮定"
+      ],
+      "answer": "不可能",
+      "explanation": "「不可能（ふかのう）」は実現することができないさまを表します。（မဖြစ်နိုင်သော）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q010",
+      "lessonId": "n2.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「最新の省エネ技術を活用すれば、消費電力の大幅な削減が（　）となる。」",
+      "choices": [
+        "可能",
+        "不可能",
+        "後悔",
+        "前提"
+      ],
+      "answer": "可能",
+      "explanation": "「可能（かのう）」はそうすることができること・見込みがあることを表します。（ဖြစ်နိုင်သော / ဆောင်ရွက်နိုင်သော）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q011",
+      "lessonId": "n2.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「グローバルなビジネス環境において、異文化理解は（　）の素養である。」",
+      "choices": [
+        "必須",
+        "後悔",
+        "仮に",
+        "不可能"
+      ],
+      "answer": "必須",
+      "explanation": "「必須（ひっす）」はなくてはならないこと、必ず要することを表します。（မရှိမဖြစ် လိုအပ်သော）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q012",
+      "lessonId": "n2.l06",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「双方が提示した（　）を慎重に比較検討し、最終契約を結ぶ。」",
+      "choices": [
+        "条件",
+        "願望",
+        "後悔",
+        "仮に"
+      ],
+      "answer": "条件",
+      "explanation": "「条件（じょうけん）」は物事が成立するために必要な取り決めや資格を表します。（သတ်မှတ်ချက် / စည်းကမ်းချက်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q013",
+      "lessonId": "n2.l06",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の正しい読み方を選びなさい。\n「<u>仮定</u>の理論に基づいて計算を行う。」",
+      "choices": [
+        "かてい",
+        "がてい",
+        "かせい",
+        "かじょう"
+      ],
+      "answer": "かてい",
+      "explanation": "「仮定」の「仮」は音読みで「カ」と読みます。（かてい - ယူဆချက်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q014",
+      "lessonId": "n2.l06",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の正しい読み方を選びなさい。\n「長年の<u>願望</u>がついに実を結んだ。」",
+      "choices": [
+        "がんぼう",
+        "がんほう",
+        "げんぼう",
+        "ねがいぼう"
+      ],
+      "answer": "がんぼう",
+      "explanation": "「願望」の「願」は音読みで「ガン」と読みます。（がんぼう - ပြင်းပြသော ဆန္ဒ）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q015",
+      "lessonId": "n2.l06",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の正しい読み方を選びなさい。\n「対話の<u>前提</u>として事実関係を確認する。」",
+      "choices": [
+        "ぜんてい",
+        "せんてい",
+        "ぜんだい",
+        "ぜんたい"
+      ],
+      "answer": "ぜんてい",
+      "explanation": "「前提」の「提」は音読みで「テイ」と読みます。（ぜんてい - မရှိမဖြစ် ရှေ့ပြေးယူဆချက်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q016",
+      "lessonId": "n2.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「もし明日世界が終わる（　）、あなたは何を一番大切にしますか。」",
+      "choices": [
+        "としたら",
+        "ものなら",
+        "ないことには",
+        "ついでに"
+      ],
+      "answer": "としたら",
+      "explanation": "「〜としたら」は仮定の条件を提示する表現です。（အကယ်၍ ထိုသို့ဖြစ်ခဲ့လျှင် ဟူသော ယူဆချက်ကို ပြသည်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q017",
+      "lessonId": "n2.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「あの学生時代に戻れる（　）、もっと勉強に励みたかった。」",
+      "choices": [
+        "ものなら",
+        "としたら",
+        "ないことには",
+        "つつある"
+      ],
+      "answer": "ものなら",
+      "explanation": "「〜ものなら」は実現困難・不可能な願望を表します。（မဖြစ်နိုင်သော ဆန္ဒကို ဖော်ပြသည့် ပုံစံဖြစ်သည်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q018",
+      "lessonId": "n2.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「実際に試して（　）、効果があるかどうか判断できない。」",
+      "choices": [
+        "みないことには",
+        "みるものなら",
+        "みるとしたら",
+        "みたきり"
+      ],
+      "answer": "みないことには",
+      "explanation": "「〜ないことには...ない」は前の行為を行わなければ後の結果が得られないことを示します。（မလုပ်ဘဲနှင့် မဖြစ်နိုင်ဟူသော အဓိပ္ပာယ်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q019",
+      "lessonId": "n2.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "下線部と意味が最も近い文を選びなさい。\n「両親の同意を得<u>ないことには</u>、留学の手続きを進められない。」",
+      "choices": [
+        "両親の同意を得なければ、留学の手続きを進めることは不可能だ。",
+        "両親の同意を得るとしたら、留学の手続きを進めることができる。",
+        "両親の同意を得られるものなら、留学の手続きを直ちに始めたい。",
+        "両親の同意を得るついでに、留学の手続きを進める予定だ。"
+      ],
+      "answer": "両親の同意を得なければ、留学の手続きを進めることは不可能だ。",
+      "explanation": "「〜ないことには...ない」は「〜なければ...できない」と同じ意味の必須条件を表します。（သဘောတူညီချက် မရရှိပါက မဖြစ်နိုင်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q020",
+      "lessonId": "n2.l06",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の★に入る最も適切な選択肢の番号を選びなさい。\n「彼が約束を　＿　＿　★　＿　こんなに苦労はしない。」\n①守る　②苦労など　③ものなら　④最初から",
+      "choices": [
+        "③",
+        "①",
+        "②",
+        "④"
+      ],
+      "answer": "③",
+      "explanation": "正しい並び順は「守る(①) ものなら(③) 最初から(④) 苦労など(②)」となり、★には③が入ります。（သူသာ ကတိတည်မည်ဆိုပါက...）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q021",
+      "lessonId": "n2.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "筆者によると、ビジネスの現場において重要な姿勢はどれか。",
+      "choices": [
+        "十分な情報がなくても果断に判断し、明確な根拠を持った仮説を検証すること",
+        "すべての不確実性を完全に排除するまで判断を保留すること",
+        "過去の失敗の悔やみを通じて、安全確実な従来戦略を頑なに維持すること",
+        "関係者の前提条件を問わず、リーダー個人の直感のみでチームを牽引すること"
+      ],
+      "answer": "十分な情報がなくても果断に判断し、明確な根拠を持った仮説を検証すること",
+      "explanation": "第1段落と第2段落より、不確実性の中でも果断な判断と明確な根拠を持った仮説の検証が重要と述べられています。（မပြည့်စုံသည့်တိုင် ပြတ်သားစွာ ဆုံးဖြတ်ပြီး ယူဆချက်ကို စစ်ဆေးရန် လိုသည်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.r001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q022",
+      "lessonId": "n2.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "文章中の「仮に市場が予期せぬ方向へ急変動したとしたら」の役割として最も適切なものはどれか。",
+      "choices": [
+        "企業が戦略転換できる柔軟性の重要性を説明するための仮定の状況提示",
+        "市場の失敗を避けるために過去の決断をやり直す具体的方法の提示",
+        "不確実性を排除することがすでに不可能になった原因の提示",
+        "チーム内の前提条件が共有されていない危険性の実例提示"
+      ],
+      "answer": "企業が戦略転換できる柔軟性の重要性を説明するための仮定の状況提示",
+      "explanation": "第1段落で、市場が急変動した場合の仮定を置いて企業の柔軟性の必要性を説いています。（အကယ်၍ ဈေးကွက်ပြောင်းလဲပါက မဟာဗျူဟာပြောင်းနိုင်သည့် ပြောင်းလွယ်ပြင်လွယ်မှု လိုကြောင်း ရှင်းပြခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.r001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q023",
+      "lessonId": "n2.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "「過去の失敗をやり直せるものならやり直したい」について、筆者はどう捉えているか。",
+      "choices": [
+        "人間として自然な感情であるが、それに囚われて後悔を重ねてはならないと捉えている",
+        "リーダーとして絶対に抱いてはならない致命的な弱点であると批判している",
+        "過去をやり直すことによってのみ未来を切り開くことができると肯定している",
+        "失敗を排除するための仮説立案よりも優先すべき重要なプロセスだと考えている"
+      ],
+      "answer": "人間として自然な感情であるが、それに囚われて後悔を重ねてはならないと捉えている",
+      "explanation": "第2段落で「人情である。しかし、終わった事実に囚われて後悔を重ねるだけでは未来は拓けない」と述べています。（လူသားသဘာဝ ဖြစ်သော်လည်း နောင်တရနေရုံဖြင့် အနာဂတ်မပွင့်နိုင်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.r001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q024",
+      "lessonId": "n2.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "第3段落の「共通の前提を確立しないことには」の意味として最も適切なものはどれか。",
+      "choices": [
+        "関係者の間で共通の理解を持たなければ、チームとして前進できない",
+        "共通の前提を確立したとしても、新規事業の成功は決して望めない",
+        "優れた構想さえあれば、前提を共有しなくてもチームは前進できる",
+        "不確実性を完全に排除した後にのみ、前提の共有が意味を持つ"
+      ],
+      "answer": "関係者の間で共通の理解を持たなければ、チームとして前進できない",
+      "explanation": "「〜ないことには...望めない」は共通の前提を確立することがチーム前進の必須条件であることを表しています。（အခြေခံစည်းကမ်းကို နားလည်မထားဘဲ ရှေ့မဆက်နိုင်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.r001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q025",
+      "lessonId": "n2.l06",
+      "skill": "reading",
+      "type": "reading_comprehension",
+      "prompt": "この文章全体の主張として最も合致するものはどれか。",
+      "choices": [
+        "リーダーは不確実性を恐れず、仮定と検証を積み重ねて未来を切り拓くべきだ",
+        "ビジネスではすべてのリスクを事前に完全に排除することが最優先されるべきだ",
+        "過去の失敗を深く後悔することこそが、新しい事業構想を生み出す源泉である",
+        "前提条件が不揃いであっても、直感に頼って迅速に突き進むことが重要である"
+      ],
+      "answer": "リーダーは不確実性を恐れず、仮定と検証を積み重ねて未来を切り拓くべきだ",
+      "explanation": "最終文で「不確実性を恐れず、仮定の積み重ねを通じて確固たる未来を築くことこそが、現代のリーダーに不可欠な資質である」と結ばれています。（မသေချာမှုကို မကြောက်ဘဲ စနစ်တကျ ယူဆချက်များဖြင့် အနာဂတ်တည်ဆောက်ရမည်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.r001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q026",
+      "lessonId": "n2.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "佐藤リーダーが言及した、大規模な通信障害が発生した場合の懸念は何か。",
+      "choices": [
+        "切り戻し手順に半日ほど時間がかかってしまうこと",
+        "データが完全に消失して復旧が不可能になること",
+        "予行演習のやり直しに数週間を要すること",
+        "顧客企業から即座に契約を解除されること"
+      ],
+      "answer": "切り戻し手順に半日ほど時間がかかってしまうこと",
+      "explanation": "佐藤リーダーは「仮にデータ移行中に大規模な通信障害が発生したとしたら、切り戻し手順に半日ほど要する見込みです」と述べています。（မူလအခြေအနေ ပြန်ပြင်ရန် တစ်ဝက်ခန့် ကြာမည်ကို စိုးရိမ်သည်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.l001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q027",
+      "lessonId": "n2.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "田中部長が「短縮できるものなら」と述べた際の希望は何か。",
+      "choices": [
+        "システム停止時間を3時間以内に抑えたいという希望",
+        "サーバー移行の実施日程を来月に延期したいという希望",
+        "顧客拠点の事前テストをすべて省略したいという希望",
+        "切り戻し手順の担当者を外部委託に切り替えたいという希望"
+      ],
+      "answer": "システム停止時間を3時間以内に抑えたいという希望",
+      "explanation": "田中部長は「システム停止時間を短縮できるものなら、3時間以内に抑えたいところだがね」と希望を述べています。（စက်ရပ်ချိန်ကို ၃ နာရီအတွင်း လျှော့ချလိုသော ဆန္ဒ）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.l001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q028",
+      "lessonId": "n2.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "佐藤リーダーが本番移行に踏み切るための必須条件として挙げたものは何か。",
+      "choices": [
+        "顧客企業の全拠点から事前テスト完了の同意を得ること",
+        "サーバー停止時間を1時間以内に短縮できる見通しを立てること",
+        "通信障害の発生確率をゼロにする保証書を取り付けること",
+        "外部の専門コンサルタントによる安全承認書を取得すること"
+      ],
+      "answer": "顧客企業の全拠点から事前テスト完了の同意を得ること",
+      "explanation": "佐藤リーダーは「顧客企業の全拠点から事前テスト完了の同意を得ないことには、本番移行に踏み切ることは極めて危険です」と述べています。（ဖောက်သည် ဌာနခွဲအားလုံးထံမှ ကြိုတင်စစ်ဆေးမှု သဘောတူညီချက် ရယူရန် လိုသည်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.l001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q029",
+      "lessonId": "n2.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "会話の最後に田中部長が徹底するよう指示した方針はどれか。",
+      "choices": [
+        "全拠点の承諾が取れないことには移行を開始しないこと",
+        "停止時間が3時間を超えても構わないので作業を急ぐこと",
+        "通信障害が発生した場合は直ちに開発リーダーが全責任を取ること",
+        "来週末の移行を無条件で中止し、再来年に延期すること"
+      ],
+      "answer": "全拠点の承諾が取れないことには移行を開始しないこと",
+      "explanation": "田中部長は「安全第一だ。全拠点の承諾が取れないことには開始しない方針で徹底してくれたまえ」と指示しています。（ဌာနခွဲအားလုံး၏ ခွင့်ပြုချက် မရဘဲနှင့် စတင်မလုပ်ဆောင်ရန် ညွှန်ကြားခဲ့သည်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.l001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l06.q030",
+      "lessonId": "n2.l06",
+      "skill": "listening",
+      "type": "listening_choice",
+      "prompt": "この会話における二人の共通した最優先事項は何か。",
+      "choices": [
+        "顧客の同意とシステムの安全確認を最優先すること",
+        "何があっても予定通り来週末に移行を強行すること",
+        "停止時間を最短にするためにテスト手順を簡略化すること",
+        "移行費用を予算内に収めるために体制を縮小すること"
+      ],
+      "answer": "顧客の同意とシステムの安全確認を最優先すること",
+      "explanation": "二人は「安全第一」「同意・承諾の確保」を何よりも優先する姿勢で一致しています。（ဘေးကင်းရေးနှင့် ဖောက်သည်သဘောတူညီချက်ကို နံပါတ်တစ် ဦးစားပေးအဖြစ် သဘောတူကြသည်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l06.l001"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-10-19T12:00:00Z",
+    "rev": 2
+  }
+}

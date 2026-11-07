@@ -1,0 +1,1799 @@
+import { LessonPack } from '../../../models/types';
+
+export const n2l29Data: LessonPack = {
+  "id": "n2.l29",
+  "level": "N2",
+  "module": "N2 Advanced Grammar & Argumentation",
+  "number": 29,
+  "title": "N2 Lesson 29: Emphasis, Absolute Negation & Certainty (〜っこない・〜に相違ない・〜に決まっている)",
+  "description": "Mastery module focusing on Absolute Impossibility, Categorical Conviction, and Unshakeable Deductions: emphatically impossible (っこない), without doubt / must be (に相違ない), and undoubtedly bound to be (に決まっている).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l29.v001",
+      "lessonId": "n2.l29",
+      "ja": "絶対",
+      "kana": "ぜったい",
+      "en": "absolute / unconditional",
+      "my": "လုံးဝ / မလွဲဧကန်",
+      "meaningMy": "လုံးဝ / မလွဲဧကန်",
+      "meaningMyanmar": "လုံးဝ / မလွဲဧကန်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l29.s001",
+      "kanjiIds": [
+        "n2.l29.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.v002",
+      "lessonId": "n2.l29",
+      "ja": "確信",
+      "kana": "かくしん",
+      "en": "conviction / firm belief",
+      "my": "အခိုင်အမာယုံကြည်ခြင်း",
+      "meaningMy": "အခိုင်အမာယုံကြည်ခြင်း",
+      "meaningMyanmar": "အခိုင်အမာယုံကြည်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l29.s002",
+      "kanjiIds": [
+        "n2.l29.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.v003",
+      "lessonId": "n2.l29",
+      "ja": "確立",
+      "kana": "かくりつ",
+      "en": "establishment / settling",
+      "my": "ခိုင်ခိုင်မာမာ တည်ဆောက်ခြင်း",
+      "meaningMy": "ခိုင်ခိုင်မာမာ တည်ဆောက်ခြင်း",
+      "meaningMyanmar": "ခိုင်ခိုင်မာမာ တည်ဆောက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l29.s003",
+      "kanjiIds": [
+        "n2.l29.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.v004",
+      "lessonId": "n2.l29",
+      "ja": "確定",
+      "kana": "かくてい",
+      "en": "decision / confirmation",
+      "my": "အတည်ပြုသတ်မှတ်ခြင်း",
+      "meaningMy": "အတည်ပြုသတ်မှတ်ခြင်း",
+      "meaningMyanmar": "အတည်ပြုသတ်မှတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l29.s004",
+      "kanjiIds": [
+        "n2.l29.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.v005",
+      "lessonId": "n2.l29",
+      "ja": "対象",
+      "kana": "たいしょう",
+      "en": "target / object / subject",
+      "my": "ပစ်မှတ် / ဦးတည်ရာ",
+      "meaningMy": "ပစ်မှတ် / ဦးတည်ရာ",
+      "meaningMyanmar": "ပစ်မှတ် / ဦးတည်ရာ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l29.s005",
+      "kanjiIds": [
+        "n2.l29.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.v006",
+      "lessonId": "n2.l29",
+      "ja": "対立",
+      "kana": "たいりつ",
+      "en": "confrontation / opposition",
+      "my": "ထိပ်တိုက်ရင်ဆိုင်မှု / ပဋိပက္ခ",
+      "meaningMy": "ထိပ်တိုက်ရင်ဆိုင်မှု / ပဋိပက္ခ",
+      "meaningMyanmar": "ထိပ်တိုက်ရင်ဆိုင်မှု / ပဋိပက္ခ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l29.s006",
+      "kanjiIds": [
+        "n2.l29.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.v007",
+      "lessonId": "n2.l29",
+      "ja": "対策",
+      "kana": "たいさく",
+      "en": "countermeasure / provision",
+      "my": "ကြိုတင်ကာကွယ်မှု အစီအမံ",
+      "meaningMy": "ကြိုတင်ကာကွယ်မှု အစီအမံ",
+      "meaningMyanmar": "ကြိုတင်ကာကွယ်မှု အစီအမံ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l29.s007",
+      "kanjiIds": [
+        "n2.l29.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.v008",
+      "lessonId": "n2.l29",
+      "ja": "絶大",
+      "kana": "ぜつだい",
+      "en": "immense / tremendous",
+      "my": "ကြီးမားလှသော / အတိုင်းအဆမဲ့သော",
+      "meaningMy": "ကြီးမားလှသော / အတိုင်းအဆမဲ့သော",
+      "meaningMyanmar": "ကြီးမားလှသော / အတိုင်းအဆမဲ့သော",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l29.s008",
+      "kanjiIds": [
+        "n2.l29.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.v009",
+      "lessonId": "n2.l29",
+      "ja": "断絶",
+      "kana": "だんぜつ",
+      "en": "severance / rupture / extinction",
+      "my": "အဆက်အသွယ်ပြတ်တောက်ခြင်း",
+      "meaningMy": "အဆက်အသွယ်ပြတ်တောက်ခြင်း",
+      "meaningMyanmar": "အဆက်အသွယ်ပြတ်တောက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l29.s009",
+      "kanjiIds": [
+        "n2.l29.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.v010",
+      "lessonId": "n2.l29",
+      "ja": "必至",
+      "kana": "ひっし",
+      "en": "inevitable / unavoidable",
+      "my": "မလွဲမသွေ ဖြစ်ပေါ်လာမည့်အခြေအနေ",
+      "meaningMy": "မလွဲမသွေ ဖြစ်ပေါ်လာမည့်အခြေအနေ",
+      "meaningMyanmar": "မလွဲမသွေ ဖြစ်ပေါ်လာမည့်အခြေအနေ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l29.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.v011",
+      "lessonId": "n2.l29",
+      "ja": "的中",
+      "kana": "てきちゅう",
+      "en": "hitting the mark / coming true",
+      "my": "ခန့်မှန်းချက် ကွက်တိမှန်ကန်ခြင်း",
+      "meaningMy": "ခန့်မှန်းချက် ကွက်တိမှန်ကန်ခြင်း",
+      "meaningMyanmar": "ခန့်မှန်းချက် ကွက်တိမှန်ကန်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l29.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.v012",
+      "lessonId": "n2.l29",
+      "ja": "歴然",
+      "kana": "れきぜん",
+      "en": "evident / plain / distinct",
+      "my": "ထင်ရှားပြတ်သားသော",
+      "meaningMy": "ထင်ရှားပြတ်သားသော",
+      "meaningMyanmar": "ထင်ရှားပြတ်သားသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l29.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l29.k001",
+      "lessonId": "n2.l29",
+      "char": "絶",
+      "meaning": "Sever / Discontinue / Absolute / Beyond",
+      "meaningMy": "ပြတ်စဲခြင်း / လုံးဝ / ပြတ်ပြတ်သားသား / အဆုံးသတ်ခြင်း",
+      "meaningMyanmar": "ပြတ်စဲခြင်း / လုံးဝ / ပြတ်ပြတ်သားသား / အဆုံးသတ်ခြင်း",
+      "onyomi": [
+        "ゼツ"
+      ],
+      "kunyomi": [
+        "た・える",
+        "た・やす",
+        "た・つ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "絶対",
+          "reading": "ぜったい",
+          "meaning": "absolute / unconditional",
+          "meaningMy": "လုံးဝ / မလွဲဧကန်",
+          "preview": false
+        },
+        {
+          "word": "絶大",
+          "reading": "ぜつだい",
+          "meaning": "immense / tremendous",
+          "meaningMy": "ကြီးမားလှသော / အတိုင်းအဆမဲ့သော",
+          "preview": false
+        },
+        {
+          "word": "断絶",
+          "reading": "だんぜつ",
+          "meaning": "severance / rupture / extinction",
+          "meaningMy": "အဆက်အသွယ်ပြတ်တောက်ခြင်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l29.s001"
+      ],
+      "components": [
+        "糸",
+        "色"
+      ],
+      "strokes": 12,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.k002",
+      "lessonId": "n2.l29",
+      "char": "対",
+      "meaning": "Opposite / Counter / Versus / Against",
+      "meaningMy": "ဆန့်ကျင်ဘက် / ယှဉ်ပြိုင်ခြင်း / ထိပ်တိုက်ရင်ဆိုင်ခြင်း",
+      "meaningMyanmar": "ဆန့်ကျင်ဘက် / ယှဉ်ပြိုင်ခြင်း / ထိပ်တိုက်ရင်ဆိုင်ခြင်း",
+      "onyomi": [
+        "タイ",
+        "ツイ"
+      ],
+      "kunyomi": [
+        "こた・える",
+        "そろ・い",
+        "つれあ・い"
+      ],
+      "exampleVocab": [
+        {
+          "word": "対象",
+          "reading": "たいしょう",
+          "meaning": "target / object / subject",
+          "meaningMy": "ပစ်မှတ် / ဦးတည်ရာ",
+          "preview": false
+        },
+        {
+          "word": "対立",
+          "reading": "たいりつ",
+          "meaning": "confrontation / opposition",
+          "meaningMy": "ထိပ်တိုက်ရင်ဆိုင်မှု / ပဋိပက္ခ",
+          "preview": false
+        },
+        {
+          "word": "対策",
+          "reading": "たいさく",
+          "meaning": "countermeasure / provision",
+          "meaningMy": "ကြိုတင်ကာကွယ်မှု အစီအမံ",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l29.s002"
+      ],
+      "components": [
+        "文",
+        "寸"
+      ],
+      "strokes": 7,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.k003",
+      "lessonId": "n2.l29",
+      "char": "確",
+      "meaning": "Certain / Sure / Firm / Verify",
+      "meaningMy": "သေချာခိုင်မာခြင်း / စိစစ်အတည်ပြုခြင်း / စိတ်ချရခြင်း",
+      "meaningMyanmar": "သေချာခိုင်မာခြင်း / စိစစ်အတည်ပြုခြင်း / စိတ်ချရခြင်း",
+      "onyomi": [
+        "カク"
+      ],
+      "kunyomi": [
+        "たし・か",
+        "たし・かめる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "確信",
+          "reading": "かくしん",
+          "meaning": "conviction / firm belief",
+          "meaningMy": "အခိုင်အမာယုံကြည်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "確立",
+          "reading": "かくりつ",
+          "meaning": "establishment / settling",
+          "meaningMy": "ခိုင်ခိုင်မာမာ တည်ဆောက်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "確定",
+          "reading": "かくてい",
+          "meaning": "decision / confirmation",
+          "meaningMy": "အတည်ပြုသတ်မှတ်ခြင်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l29.s003"
+      ],
+      "components": [
+        "石",
+        "隹"
+      ],
+      "strokes": 15,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l29.g001",
+      "lessonId": "n2.l29",
+      "pattern": "〜っこない",
+      "meaning": "No chance of... / Definitely cannot / Absolutely impossible",
+      "meaningMy": "လုံးဝမဖြစ်နိုင်ပေ / မည်သို့မျှ ဖြစ်လာစရာအကြောင်းမရှိ",
+      "meaningMyanmar": "လုံးဝမဖြစ်နိုင်ပေ / မည်သို့မျှ ဖြစ်လာစရာအကြောင်းမရှိ",
+      "formation": "動詞ます形（stem） ＋ っこない",
+      "explanation": {
+        "en": "Emphatically denies any possibility of an action or event occurring, based on strong subjective judgment.",
+        "my": "ပြောသူ၏ ပြတ်သားသော စိတ်ခံယူချက်အရ မည်သို့မျှ ဖြစ်မလာနိုင်ကြောင်း လုံးဝငြင်းဆိုရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "ပြောသူ၏ ပြတ်သားသော စိတ်ခံယူချက်အရ မည်သို့မျှ ဖြစ်မလာနိုင်ကြောင်း လုံးဝငြင်းဆိုရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l29.s001",
+          "note": "〜っこない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l29.s008",
+          "note": "〜っこない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l29.s012",
+          "note": "〜っこない usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l29.g001",
+        "n2.l29.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜っこない."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "こんなに膨大な資料を、たった1時間で全部読め（　）。",
+      "clozeTarget": "っこない",
+      "clozeHint": "Definitely cannot read all these vast materials in just one hour",
+      "acceptableSynonyms": [
+        "〜わけがない",
+        "〜はずがない",
+        "〜はずはない"
+      ],
+      "nuanceExplanationMy": "話し言葉で、強い確信をもって「絶対に無理だ」と否定する強調表現。"
+    },
+    {
+      "id": "n2.l29.g002",
+      "lessonId": "n2.l29",
+      "pattern": "〜に相違ない",
+      "meaning": "There is no doubt that... / Must certainly be / Without mistake",
+      "meaningMy": "သံသယဖြစ်ဖွယ်မရှိ သေချာပေါက် မှန်ကန်သည် (စာရေးသားမှုပုံစံ တရားဝင်အသုံး)",
+      "meaningMyanmar": "သံသယဖြစ်ဖွယ်မရှိ သေချာပေါက် မှန်ကန်သည် (စာရေးသားမှုပုံစံ တရားဝင်အသုံး)",
+      "formation": "普通形（ナ形語幹 / 名詞） ＋ に相違ない",
+      "explanation": {
+        "en": "Formal or written expression asserting the speaker's firm conviction based on concrete evidence or strong logic.",
+        "my": "ခိုင်မာသော အထောက်အထား သို့မဟုတ် ယုတ္တိကျသော တွေးခေါ်မှုအပေါ် အခြေခံ၍ သံသယဖြစ်ဖွယ်မရှိ သေချာကြောင်း တရားဝင်ဖော်ပြရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "ခိုင်မာသော အထောက်အထား သို့မဟုတ် ယုတ္တိကျသော တွေးခေါ်မှုအပေါ် အခြေခံ၍ သံသယဖြစ်ဖွယ်မရှိ သေချာကြောင်း တရားဝင်ဖော်ပြရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l29.s002",
+          "note": "〜に相違ない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l29.s004",
+          "note": "〜に相違ない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l29.s005",
+          "note": "〜に相違ない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l29.s009",
+          "note": "〜に相違ない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l29.s010",
+          "note": "〜に相違ない usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l29.g001",
+        "n2.l29.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜に相違ない."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "犯人はこの建物の構造を熟知していた人物（　）。",
+      "clozeTarget": "に相違ない",
+      "clozeHint": "The culprit must without doubt be someone who knew this building's structure well",
+      "acceptableSynonyms": [
+        "〜に違いない",
+        "〜に決まっている",
+        "〜はずだ"
+      ],
+      "nuanceExplanationMy": "論文、公的報告書、警察の調書などで用いられる極めて確信度の高い表現。"
+    },
+    {
+      "id": "n2.l29.g003",
+      "lessonId": "n2.l29",
+      "pattern": "〜に決まっている",
+      "meaning": "Bound to be... / Undoubtedly / Must surely be",
+      "meaningMy": "သေချာပေါက် ... ဖြစ်မည်မှာ အမှန်ပင်ဖြစ်သည် / မလွဲဧကန်ဖြစ်သည်",
+      "meaningMyanmar": "သေချာပေါက် ... ဖြစ်မည်မှာ အမှန်ပင်ဖြစ်သည် / မလွဲဧကန်ဖြစ်သည်",
+      "formation": "普通形（ナ形語幹 / 名詞） ＋ に決まっている",
+      "explanation": {
+        "en": "Expresses absolute certainty or intuition that something is obvious and inevitable from common sense.",
+        "my": "သာမန်အသိတရားအရ သို့မဟုတ် အခြေအနေအရ မလွဲမသွေ သေချာပေါက် ဖြစ်ရမည်ဟု အလေးအနက် ယုံကြည်ကြောင်း ဖော်ပြသည်။"
+      },
+      "explanationMy": "သာမန်အသိတရားအရ သို့မဟုတ် အခြေအနေအရ မလွဲမသွေ သေချာပေါက် ဖြစ်ရမည်ဟု အလေးအနက် ယုံကြည်ကြောင်း ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l29.s003",
+          "note": "〜に決まっている usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l29.s006",
+          "note": "〜に決まっている usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l29.s007",
+          "note": "〜に決まっている usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l29.s011",
+          "note": "〜に決まっている usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l29.g001",
+        "n2.l29.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜に決まっている."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "あんなに練習を重ねてきたのだから、今度の試合で勝つ（　）。",
+      "clozeTarget": "に決まっている",
+      "clozeHint": "Having practiced so much, they are bound to win this match",
+      "acceptableSynonyms": [
+        "〜に違いない",
+        "〜に相違ない",
+        "〜はずだ"
+      ],
+      "nuanceExplanationMy": "主観的な確信や直感に基づき、「絶対にそうだ」と断定する強い語気を持つ。"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l29.s001",
+      "lessonId": "n2.l29",
+      "ja": "絶対的な自信があっても、事前の準備なしに1日で高度なプログラミング言語をマスターできっこない。",
+      "kana": "ぜったいてきなじしんがあっても、じぜんのじゅんびなしにいちにちでこうどなプログラミングげんごをマスターできっこない。",
+      "translation": {
+        "en": "Even if you have absolute confidence, there is no chance you can master an advanced programming language in a single day without prior preparation.",
+        "my": "လုံးဝအခိုင်အမာ ယုံကြည်မှုရှိစေကာမူ ကြိုတင်ပြင်ဆင်မှုမရှိဘဲ တစ်ရက်တည်းဖြင့် အဆင့်မြင့် ပရိုဂရမ်းမင်းဘာသာစကားကို ကျွမ်းကျင်နိုင်စရာ လုံးဝအကြောင်းမရှိပေ။"
+      },
+      "translationMy": "လုံးဝအခိုင်အမာ ယုံကြည်မှုရှိစေကာမူ ကြိုတင်ပြင်ဆင်မှုမရှိဘဲ တစ်ရက်တည်းဖြင့် အဆင့်မြင့် ပရိုဂရမ်းမင်းဘာသာစကားကို ကျွမ်းကျင်နိုင်စရာ လုံးဝအကြောင်းမရှိပေ။",
+      "vocabIds": [
+        "n2.l29.v001"
+      ],
+      "grammarIds": [
+        "n2.l29.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.s002",
+      "lessonId": "n2.l29",
+      "ja": "現場に残された指紋と足跡から見て、容疑者が犯行に関与したのは明白であり、彼が犯人に相違ない。",
+      "kana": "げんばにのこされたしもんところあとからみて、ようぎしゃがはんこうにかんよしたのはめいはくであり、かれがはんにんにそういない。",
+      "translation": {
+        "en": "Judging from the fingerprints and footprints left at the scene, the suspect's involvement in the crime is evident, and he must without doubt be the culprit.",
+        "my": "အခင်းဖြစ်ပွားရာနေရာတွင် ကျန်ရစ်ခဲ့သော လက်ဗွေနှင့် ခြေရာများကို ကြည့်ခြင်းအားဖြင့် သံသယရှိသူသည် ပြစ်မှုတွင် ပါဝင်ပတ်သက်ခဲ့ကြောင်း ထင်ရှားပြီး သူသည် တရားခံဖြစ်သည်မှာ သံသယဖြစ်ဖွယ်မရှိပေ။"
+      },
+      "translationMy": "အခင်းဖြစ်ပွားရာနေရာတွင် ကျန်ရစ်ခဲ့သော လက်ဗွေနှင့် ခြေရာများကို ကြည့်ခြင်းအားဖြင့် သံသယရှိသူသည် ပြစ်မှုတွင် ပါဝင်ပတ်သက်ခဲ့ကြောင်း ထင်ရှားပြီး သူသည် တရားခံဖြစ်သည်မှာ သံသယဖြစ်ဖွယ်မရှိပေ။",
+      "vocabIds": [
+        "n2.l29.v012"
+      ],
+      "grammarIds": [
+        "n2.l29.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.s003",
+      "lessonId": "n2.l29",
+      "ja": "これほど手厚いアフターサービスが付いているのだから、顧客から絶大な支持を得るに決まっている。",
+      "kana": "これほどてあついアフターサービスがついているのだから、こきゃくからぜつだいなしじをえるにきまっている。",
+      "translation": {
+        "en": "Since it comes with such attentive after-sales service, it is bound to receive immense support from customers.",
+        "my": "ဤမျှ နွေးထွေးဂရုစိုက်သော အရောင်းပြီး ဝန်ဆောင်မှု ပါဝင်နေသဖြင့် ဖောက်သည်များထံမှ ကြီးမားသော ထောက်ခံမှုကို ရရှိမည်မှာ သေချာပေါက် မလွဲဧကန်ပင် ဖြစ်သည်။"
+      },
+      "translationMy": "ဤမျှ နွေးထွေးဂရုစိုက်သော အရောင်းပြီး ဝန်ဆောင်မှု ပါဝင်နေသဖြင့် ဖောက်သည်များထံမှ ကြီးမားသော ထောက်ခံမှုကို ရရှိမည်မှာ သေချာပေါက် မလွဲဧကန်ပင် ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l29.v008"
+      ],
+      "grammarIds": [
+        "n2.l29.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.s004",
+      "lessonId": "n2.l29",
+      "ja": "彼が新薬開発を成功させると強く確信しており、その成果は世界中の医療を変革するに相違ない。",
+      "kana": "かれがしんやくかいはつをせいこうさせるとつよくかくしんしており、そのせいかはせかいじゅうのいりょうをへんかくするにそういない。",
+      "translation": {
+        "en": "I firmly believe that he will succeed in developing the new medicine, and that achievement will without doubt revolutionize medicine worldwide.",
+        "my": "သူသည် ဆေးဝါးသစ်တီထွင်မှုကို အောင်မြင်အောင် ပြုလုပ်နိုင်မည်ဟု အခိုင်အမာ ယုံကြည်ထားပြီး ထိုရလဒ်သည် တစ်ကမ္ဘာလုံး၏ ဆေးပညာကို ပြောင်းလဲစေမည်မှာ သံသယဖြစ်ဖွယ်မရှိပေ။"
+      },
+      "translationMy": "သူသည် ဆေးဝါးသစ်တီထွင်မှုကို အောင်မြင်အောင် ပြုလုပ်နိုင်မည်ဟု အခိုင်အမာ ယုံကြည်ထားပြီး ထိုရလဒ်သည် တစ်ကမ္ဘာလုံး၏ ဆေးပညာကို ပြောင်းလဲစေမည်မှာ သံသယဖြစ်ဖွယ်မရှိပေ။",
+      "vocabIds": [
+        "n2.l29.v002"
+      ],
+      "grammarIds": [
+        "n2.l29.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.s005",
+      "lessonId": "n2.l29",
+      "ja": "持続可能なエネルギー政策の確立に向けて、政府は具体的なロードマップを確定した。",
+      "kana": "じぞくかのうなエネルギーせいさくのかくりつにむけて、せいふはぐたいてきなロードマップをかくていした。",
+      "translation": {
+        "en": "Towards establishing a sustainable energy policy, the government finalized a concrete roadmap.",
+        "my": "ရေရှည်တည်တံ့သော စွမ်းအင်မူဝါဒကို ခိုင်ခိုင်မာမာ တည်ဆောက်နိုင်ရေးအတွက် အစိုးရသည် လက်တွေ့ကျသော လမ်းပြမြေပုံကို အတည်ပြုသတ်မှတ်ခဲ့သည်။"
+      },
+      "translationMy": "ရေရှည်တည်တံ့သော စွမ်းအင်မူဝါဒကို ခိုင်ခိုင်မာမာ တည်ဆောက်နိုင်ရေးအတွက် အစိုးရသည် လက်တွေ့ကျသော လမ်းပြမြေပုံကို အတည်ပြုသတ်မှတ်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l29.v003",
+        "n2.l29.v004"
+      ],
+      "grammarIds": [
+        "n2.l29.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.s006",
+      "lessonId": "n2.l29",
+      "ja": "今回の給付金支援の対象となる世帯は、前年度の所得基準を満たしている世帯に決まっている。",
+      "kana": "こんかいのきゅうふきんしえんのたいしょうとなるせたいは、ぜんねんどのしょとくきじゅんをみたしているせたいにきまっている。",
+      "translation": {
+        "en": "The households targeted for this subsidy support are bound to be those meeting the previous year's income criteria.",
+        "my": "ယခုတစ်ကြိမ် ထောက်ပံ့ကြေးပေးအပ်မှု၏ ပစ်မှတ်ဖြစ်သော အိမ်ထောင်စုများသည် ယခင်နှစ် ဝင်ငွေစံနှုန်း ပြည့်မီသော အိမ်ထောင်စုများသာ ဖြစ်မည်မှာ မလွဲဧကန် ဖြစ်သည်။"
+      },
+      "translationMy": "ယခုတစ်ကြိမ် ထောက်ပံ့ကြေးပေးအပ်မှု၏ ပစ်မှတ်ဖြစ်သော အိမ်ထောင်စုများသည် ယခင်နှစ် ဝင်ငွေစံနှုန်း ပြည့်မီသော အိမ်ထောင်စုများသာ ဖြစ်မည်မှာ မလွဲဧကန် ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l29.v005"
+      ],
+      "grammarIds": [
+        "n2.l29.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.s007",
+      "lessonId": "n2.l29",
+      "ja": "労働条件をめぐる労使の対立が激化すれば、ストライキによる操業停止は必至に決まっている。",
+      "kana": "ろうどうじょうけんをめぐるろうしのたいりつがげきかすれば、ストライキによるそうぎょうていしはひっしにきまっている。",
+      "translation": {
+        "en": "If confrontation between labor and management over working conditions intensifies, shutdown due to strikes is bound to be inevitable.",
+        "my": "အလုပ်သမားစည်းကမ်းချက်များနှင့် ပတ်သက်၍ အလုပ်ရှင်နှင့် အလုပ်သမား ပဋိပက္ခ ပြင်းထန်လာပါက သပိတ်မှောက်မှုကြောင့် လုပ်ငန်းလည်ပတ်မှု ရပ်ဆိုင်းသွားမည်မှာ မလွဲမသွေ သေချာပေါက် ဖြစ်သည်။"
+      },
+      "translationMy": "အလုပ်သမားစည်းကမ်းချက်များနှင့် ပတ်သက်၍ အလုပ်ရှင်နှင့် အလုပ်သမား ပဋိပက္ခ ပြင်းထန်လာပါက သပိတ်မှောက်မှုကြောင့် လုပ်ငန်းလည်ပတ်မှု ရပ်ဆိုင်းသွားမည်မှာ မလွဲမသွေ သေချာပေါက် ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l29.v006",
+        "n2.l29.v010"
+      ],
+      "grammarIds": [
+        "n2.l29.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.s008",
+      "lessonId": "n2.l29",
+      "ja": "度重なる自然災害への抜本的な対策を講じなければ、被害の拡大を防げっこない。",
+      "kana": "たびかさなるしぜんさいがいへのばっぽんてきなたいさくをこうじなければ、ひがいのかくだいをふせげっこない。",
+      "translation": {
+        "en": "Unless we take drastic countermeasures against recurrent natural disasters, there is no chance we can prevent the damage from expanding.",
+        "my": "ထပ်တလဲလဲ ဖြစ်ပေါ်နေသော သဘာဝဘေးအန္တရာယ်များအတွက် အခြေခံကျသော အစီအမံများကို မလုပ်ဆောင်ပါက ပျက်စီးဆုံးရှုံးမှု ကြီးထွားလာခြင်းကို တားဆီးနိုင်စရာ အကြောင်း လုံးဝမရှိပေ။"
+      },
+      "translationMy": "ထပ်တလဲလဲ ဖြစ်ပေါ်နေသော သဘာဝဘေးအန္တရာယ်များအတွက် အခြေခံကျသော အစီအမံများကို မလုပ်ဆောင်ပါက ပျက်စီးဆုံးရှုံးမှု ကြီးထွားလာခြင်းကို တားဆီးနိုင်စရာ အကြောင်း လုံးဝမရှိပေ။",
+      "vocabIds": [
+        "n2.l29.v007"
+      ],
+      "grammarIds": [
+        "n2.l29.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.s009",
+      "lessonId": "n2.l29",
+      "ja": "長年の外交関係の断絶を解消し、両国が平和条約を締結したのは歴史的快挙に相違ない。",
+      "kana": "ながねんのがいこうかんけいのだんぜつをかいしょうし、りょうこくがへいわじょうやくをていけつしたのはれきしてきかいきょにそういない。",
+      "translation": {
+        "en": "Resolving years of diplomatic severance and having both nations sign a peace treaty is without doubt a historic feat.",
+        "my": "နှစ်ပေါင်းများစွာ သံတမန်ဆက်ဆံရေး ပြတ်တောက်မှုကို ဖြေရှင်းပြီး နိုင်ငံနှစ်ခုလုံး ငြိမ်းချမ်းရေးစာချုပ် ချုပ်ဆိုနိုင်ခဲ့ခြင်းသည် သမိုင်းဝင် အောင်မြင်မှုကြီး ဖြစ်သည်မှာ သံသယဖြစ်ဖွယ် မရှိပေ။"
+      },
+      "translationMy": "နှစ်ပေါင်းများစွာ သံတမန်ဆက်ဆံရေး ပြတ်တောက်မှုကို ဖြေရှင်းပြီး နိုင်ငံနှစ်ခုလုံး ငြိမ်းချမ်းရေးစာချုပ် ချုပ်ဆိုနိုင်ခဲ့ခြင်းသည် သမိုင်းဝင် အောင်မြင်မှုကြီး ဖြစ်သည်မှာ သံသယဖြစ်ဖွယ် မရှိပေ။",
+      "vocabIds": [
+        "n2.l29.v009"
+      ],
+      "grammarIds": [
+        "n2.l29.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.s010",
+      "lessonId": "n2.l29",
+      "ja": "経済学者の市場予測が見事に的中し、株価の急落による混乱が現実のものとなった。",
+      "kana": "けいざいがくしゃのしじょうよそくがみごとにてきちゅうし、かぶかのきゅうらくによるこんらんがげんじつのものとなった。",
+      "translation": {
+        "en": "The economist's market forecast splendidly hit the mark, and turmoil from the sharp stock price drop became reality.",
+        "my": "ဘောဂဗေဒပညာရှင်၏ စျေးကွက်ခန့်မှန်းချက်မှာ ကွက်တိမှန်ကန်ခဲ့ပြီး စတော့ရှယ်ယာစျေး ထိုးကျမှုကြောင့် ရှုပ်ထွေးမှုများမှာ လက်တွေ့ဖြစ်လာခဲ့သည်။"
+      },
+      "translationMy": "ဘောဂဗေဒပညာရှင်၏ စျေးကွက်ခန့်မှန်းချက်မှာ ကွက်တိမှန်ကန်ခဲ့ပြီး စတော့ရှယ်ယာစျေး ထိုးကျမှုကြောင့် ရှုပ်ထွေးမှုများမှာ လက်တွေ့ဖြစ်လာခဲ့သည်။",
+      "vocabIds": [
+        "n2.l29.v011"
+      ],
+      "grammarIds": [
+        "n2.l29.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.s011",
+      "lessonId": "n2.l29",
+      "ja": "二つの製品の性能の差は歴然としており、消費者がどちらを選ぶかは一目瞭然に決まっている。",
+      "kana": "ふたつのせいひんのせいのうのさはれきぜんとしており、しょうひしゃがどちらをえらぶかはいちもくりょうぜんにきまっている。",
+      "translation": {
+        "en": "The performance gap between the two products is distinct, and which one consumers will choose is bound to be obvious at a glance.",
+        "my": "ထုတ်ကုန်နှစ်ခု၏ စွမ်းဆောင်ရည်ကွာခြားချက်မှာ ထင်ရှားပြတ်သားနေပြီး စားသုံးသူများ မည်သည့်ပစ္စည်းကို ရွေးချယ်မည်နည်းဆိုသည်မှာ ချက်ချင်းသိသာမည်မှာ သေချာပေါက် ဖြစ်သည်။"
+      },
+      "translationMy": "ထုတ်ကုန်နှစ်ခု၏ စွမ်းဆောင်ရည်ကွာခြားချက်မှာ ထင်ရှားပြတ်သားနေပြီး စားသုံးသူများ မည်သည့်ပစ္စည်းကို ရွေးချယ်မည်နည်းဆိုသည်မှာ ချက်ချင်းသိသာမည်မှာ သေချာပေါက် ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l29.v012"
+      ],
+      "grammarIds": [
+        "n2.l29.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l29.s012",
+      "lessonId": "n2.l29",
+      "ja": "基礎的な知識すら身についていない状態で、あの最難関の国家資格に合格できっこない。",
+      "kana": "きそてきなちしきすらみについていないじょうたいで、あのさいなんかんのこっかしかくにごうかくできっこない。",
+      "translation": {
+        "en": "In a state where one hasn't even acquired fundamental knowledge, there is no way one can pass that most difficult national qualification.",
+        "my": "အခြေခံဗဟုသုတမျှပင် မရှိသေးသော အခြေအနေဖြင့် ထိုအခက်ခဲဆုံး နိုင်ငံတော်အဆင့် အရည်အချင်းစစ်စာမေးပွဲကို အောင်မြင်နိုင်စရာ လုံးဝမရှိပေ။"
+      },
+      "translationMy": "အခြေခံဗဟုသုတမျှပင် မရှိသေးသော အခြေအနေဖြင့် ထိုအခက်ခဲဆုံး နိုင်ငံတော်အဆင့် အရည်အချင်းစစ်စာမေးပွဲကို အောင်မြင်နိုင်စရာ လုံးဝမရှိပေ။",
+      "vocabIds": [
+        "n2.l29.v001"
+      ],
+      "grammarIds": [
+        "n2.l29.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l29.r001",
+    "lessonId": "n2.l29",
+    "title": "絶対的確信と客観的検証の論理 (The Logic of Categorical Conviction and Objective Verification)",
+    "level": "N2",
+    "text": "科学的探求や高度なビジネス判断において、人はしばしば直感的な強い確信に突き動かされる。「この仮説は正しいに決まっている」「この新規事業は必ず成功するに相違ない」という揺るぎない情熱は、前人未到の領域へ踏み出す強力なエンジンとなる。\n\nしかし、主観的な確信だけで突き進むことには大きな落とし穴が存在する。どれほど自信にあふれていようとも、客観的なデータや市場の冷厳なフィードバックを無視して独善に陥れば、破滅的な結末は必至である。十分な市場調査も行わずに「失敗するはずがない、売れっこないという批判は的外れだ」と高をくくっていては、予期せぬ落とし穴を回避できっこない。\n\n真に卓越したリーダーや研究者は、燃えるような確信を胸に抱きつつも、同時に最も冷徹な批判者として自らの理論を疑い続ける。確信と検証、主観の熱量と客観の規律という二つの極が調和して初めて、確固たる真理や持続的な事業の確立が成し遂げられるのである。",
+    "kanaText": "かがくてきたんきゅうやこうどなビジネスはんだんにおいて、ひとはしばしばちょっかんてきなつよいかくしんにつきうごかされる。「このかせつはただしいにきまっている」「このしんきじぎょうはかならずせいこうするにそういない」というゆるぎないじょうねつは、ぜんじんみとうのりょういきへふみだすきょうりょくなエンジンとなる。\n\nしかし、しゅかんてきなかくしんだけでつきすすむことにはおおきなおとしあながそんざいする。どれほどじしんにあふれていようとも、きゃっかんてきなデータやしじょうのれいげんなフィードバックをむししてどくぜんにおちいれば、はめつてきなけつまつはひっしである。じゅうぶんなしじょうちょうさもおこなわずに「しっぱいするはずがない、うれっこないというひはんはまとはずれだ」とたかをくくっていては、よきせぬおとしあなをかいひできっこない。\n\nしんにたくえつしたリーダーやけんきゅうしゃは、もえるようなかくしんをむねにいだきつつも、どうじにもっともれいてつなひはんしゃとしてみずからのりろんをうたがいづづける。かくしんとけんしょう、しゅかんのねつりょうときゃっかんのきりつというふたつのきょくがちょうわしてはじめて、かっこたるしんりやじぞくてきなじぎょうのかくりつがなしとげられるのである。",
+    "translation": "သိပ္ပံနည်းကျ စူးစမ်းရှာဖွေမှုများနှင့် အဆင့်မြင့် စီးပွားရေးဆိုင်ရာ ဆုံးဖြတ်ချက်များတွင် လူသားများသည် ထိုးထွင်းသိမြင်သော ပြင်းထန်သည့် ယုံကြည်ချက်ဖြင့် တွန်းအားပေးခံရလေ့ရှိသည်။ 'ဤအဆိုပြုချက်သည် မှန်ကန်မည်မှာ သေချာပေါက်ဖြစ်သည်' သို့မဟုတ် 'ဤလုပ်ငန်းသစ်သည် အောင်မြင်မည်မှာ သံသယဖြစ်ဖွယ်မရှိပေ' ဟူသော မယိမ်းယိုင်သည့် စိတ်အားထက်သန်မှုသည် ယခင်က မည်သူမျှ မရောက်ဖူးသော နယ်ပယ်သစ်သို့ ခြေလှမ်းလှမ်းနိုင်စေသည့် အားကောင်းသော တွန်းအားစက်တစ်ခု ဖြစ်လာသည်။\n\nသို့သော် ကိုယ်ပိုင်ယုံကြည်ချက် သက်သက်ဖြင့်သာ ရှေ့တိုးလုပ်ဆောင်ခြင်းတွင် ကြီးမားသော ချောက်ကမ်းပါး အန္တရာယ် ရှိနေသည်။ မည်မျှပင် ကိုယ့်ကိုယ်ကိုယ် ယုံကြည်မှု ပြည့်ဝနေပါစေ ဓမ္မဓိဋ္ဌာန်ကျသော အချက်အလက်များနှင့် စျေးကွက်၏ အေးစက်ခက်ထန်သော တုံ့ပြန်မှုများကို လျစ်လျူရှုပြီး မိမိကိုယ်ကို အထင်ကြီးလွန်ပါက ပျက်စီးခြင်းသို့ ဦးတည်သွားမည်မှာ မလွဲမသွေပင် ဖြစ်သည်။ လုံလောက်သော စျေးကွက်စစ်တမ်းကိုမျှ မလုပ်ဘဲ 'ကျရှုံးစရာ အကြောင်းမရှိ၊ ရောင်းမထွက်နိုင်စရာ လုံးဝမရှိဟု ဝေဖန်မှုများကို အရေးမစိုက်ဘဲ ပေါ့ပေါ့ဆဆ တွက်ဆနေပါက' မမျှော်လင့်သော ချောက်ကမ်းပါးများကို ရှောင်လွှဲနိုင်စရာ လုံးဝမရှိပေ။\n\nစစ်မှန်သော ထူးချွန်သည့် ခေါင်းဆောင်များနှင့် သုတေသီများသည် တောက်လောင်နေသော ယုံကြည်ချက်ကို ရင်ထဲတွင် ထားရှိနေသော်လည်း တစ်ပြိုင်နက်တည်းတွင် မိမိ၏ သီအိုရီကို အအေးစက်ဆုံး ဝေဖန်သူအဖြစ် အမြဲတမ်း သံသယဖြင့် စစ်ဆေးနေကြသည်။ ယုံကြည်ချက်နှင့် စစ်ဆေးအတည်ပြုမှု၊ ကိုယ်ပိုင်ခံယူချက်၏ အပူဓာတ်နှင့် ဓမ္မဓိဋ္ဌာန်ကျသော စည်းကမ်းဟူသည့် ဆန့်ကျင်ဘက် အစွန်းနှစ်ဖက် ဟန်ချက်ညီညီ ပေါင်းစပ်နိုင်မှသာ ခိုင်မာသော အမှန်တရားနှင့် ရေရှည်တည်တံ့သော စီးပွားရေးလုပ်ငန်း တည်ဆောက်မှုကို ပြီးမြောက်အောင်မြင်နိုင်မည် ဖြစ်တော့သည်။",
+    "translationMy": "သိပ္ပံနည်းကျ စူးစမ်းရှာဖွေမှုများနှင့် အဆင့်မြင့် စီးပွားရေးဆိုင်ရာ ဆုံးဖြတ်ချက်များတွင် လူသားများသည် ထိုးထွင်းသိမြင်သော ပြင်းထန်သည့် ယုံကြည်ချက်ဖြင့် တွန်းအားပေးခံရလေ့ရှိသည်။ 'ဤအဆိုပြုချက်သည် မှန်ကန်မည်မှာ သေချာပေါက်ဖြစ်သည်' သို့မဟုတ် 'ဤလုပ်ငန်းသစ်သည် အောင်မြင်မည်မှာ သံသယဖြစ်ဖွယ်မရှိပေ' ဟူသော မယိမ်းယိုင်သည့် စိတ်အားထက်သန်မှုသည် ယခင်က မည်သူမျှ မရောက်ဖူးသော နယ်ပယ်သစ်သို့ ခြေလှမ်းလှမ်းနိုင်စေသည့် အားကောင်းသော တွန်းအားစက်တစ်ခု ဖြစ်လာသည်။\n\nသို့သော် ကိုယ်ပိုင်ယုံကြည်ချက် သက်သက်ဖြင့်သာ ရှေ့တိုးလုပ်ဆောင်ခြင်းတွင် ကြီးမားသော ချောက်ကမ်းပါး အန္တရာယ် ရှိနေသည်။ မည်မျှပင် ကိုယ့်ကိုယ်ကိုယ် ယုံကြည်မှု ပြည့်ဝနေပါစေ ဓမ္မဓိဋ္ဌာန်ကျသော အချက်အလက်များနှင့် စျေးကွက်၏ အေးစက်ခက်ထန်သော တုံ့ပြန်မှုများကို လျစ်လျူရှုပြီး မိမိကိုယ်ကို အထင်ကြီးလွန်ပါက ပျက်စီးခြင်းသို့ ဦးတည်သွားမည်မှာ မလွဲမသွေပင် ဖြစ်သည်။ လုံလောက်သော စျေးကွက်စစ်တမ်းကိုမျှ မလုပ်ဘဲ 'ကျရှုံးစရာ အကြောင်းမရှိ၊ ရောင်းမထွက်နိုင်စရာ လုံးဝမရှိဟု ဝေဖန်မှုများကို အရေးမစိုက်ဘဲ ပေါ့ပေါ့ဆဆ တွက်ဆနေပါက' မမျှော်လင့်သော ချောက်ကမ်းပါးများကို ရှောင်လွှဲနိုင်စရာ လုံးဝမရှိပေ။\n\nစစ်မှန်သော ထူးချွန်သည့် ခေါင်းဆောင်များနှင့် သုတေသီများသည် တောက်လောင်နေသော ယုံကြည်ချက်ကို ရင်ထဲတွင် ထားရှိနေသော်လည်း တစ်ပြိုင်နက်တည်းတွင် မိမိ၏ သီအိုရီကို အအေးစက်ဆုံး ဝေဖန်သူအဖြစ် အမြဲတမ်း သံသယဖြင့် စစ်ဆေးနေကြသည်။ ယုံကြည်ချက်နှင့် စစ်ဆေးအတည်ပြုမှု၊ ကိုယ်ပိုင်ခံယူချက်၏ အပူဓာတ်နှင့် ဓမ္မဓိဋ္ဌာန်ကျသော စည်းကမ်းဟူသည့် ဆန့်ကျင်ဘက် အစွန်းနှစ်ဖက် ဟန်ချက်ညီညီ ပေါင်းစပ်နိုင်မှသာ ခိုင်မာသော အမှန်တရားနှင့် ရေရှည်တည်တံ့သော စီးပွားရေးလုပ်ငန်း တည်ဆောက်မှုကို ပြီးမြောက်အောင်မြင်နိုင်မည် ဖြစ်တော့သည်။",
+    "questionIds": [
+      "n2.l29.q025",
+      "n2.l29.q026",
+      "n2.l29.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "前人未到",
+        "reading": "ぜんじんみとう",
+        "meaning": "unprecedented / untouched by human foot",
+        "meaningMy": "unprecedented / untouched by human foot",
+        "meaningMyanmar": "unprecedented / untouched by human foot"
+      },
+      {
+        "term": "高をくくる",
+        "reading": "たかをくくる",
+        "meaning": "to make light of / underestimate",
+        "meaningMy": "to make light of / underestimate",
+        "meaningMyanmar": "to make light of / underestimate"
+      },
+      {
+        "term": "冷徹",
+        "reading": "れいてつ",
+        "meaning": "coolheaded / dispassionate",
+        "meaningMy": "coolheaded / dispassionate",
+        "meaningMyanmar": "coolheaded / dispassionate"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l29.lis001",
+    "lessonId": "n2.l29",
+    "title": "大型競合案件の勝敗予測会議 (Bid Win/Loss Prediction Meeting on Major Deal)",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "神田部長",
+      "藤原課長"
+    ],
+    "transcript": "神田部長: 藤原君、明日コンペの最終結果が発表される大手通信会社のシステム刷新案件だが、手応えはどうだね？\n藤原課長: はい、我が社の提案内容は競合他社を技術的にもコスト的にも圧倒しており、我が社が受注するに決まっております。\n神田部長: 頼もしい自信だが、相手の担当役員とA社の古くからの関係性を考えると、油断はできっこないよ。\n藤原課長: おっしゃる通りです。しかし先方の技術責任者は客観的な性能を最重視しており、公平な審査が行われれば我々の勝利に相違ありません。",
+    "translation": "神田部長: ဖူဂျီဝါရာ၊ မနက်ဖြန် ပြိုင်ဆိုင်မှု နောက်ဆုံးရလဒ် ထွက်ပေါ်မည့် ဆက်သွယ်ရေးကုမ္ပဏီကြီး၏ စနစ်အသစ်လဲလှယ်ရေး တင်ဒါကိစ္စ ဘယ်လိုခံစားရလဲဗျာ။\n藤原課長: ဟုတ်ကဲ့၊ ကျွန်တော်တို့ကုမ္ပဏီ၏ အဆိုပြုချက်ပါ အချက်အလက်များသည် ပြိုင်ဘက်ကုမ္ပဏီများကို နည်းပညာရော ကုန်ကျစရိတ်ပါ အပြတ်အသတ် သာလွန်နေသဖြင့် ကျွန်တော်တို့ အနိုင်ရရှိမည်မှာ သေချာပေါက် ဖြစ်ပါတယ်။\n神田部長: အားကိုးစရာ ယုံကြည်မှုပါပဲ၊ သို့သော် တစ်ဖက်က တာဝန်ခံဒါရိုက်တာနှင့် ကုမ္ပဏီ A တို့၏ နှစ်ရှည်လများ ရင်းနှီးမှုကို ထည့်တွက်ကြည့်ပါက ပေါ့ပေါ့ဆဆ နေနိုင်စရာ လုံးဝမရှိဘူးနော်။\n藤原課長: မှန်ကန်ပါတယ်ခင်ဗျာ။ သို့သော် တစ်ဖက်၏ နည်းပညာတာဝန်ခံသည် ဓမ္မဓိဋ္ဌာန်ကျသော စွမ်းဆောင်ရည်ကို အဓိကထားနေသဖြင့် တရားမျှတသော စိစစ်မှုပြုလုပ်ပါက ကျွန်တော်တို့ အနိုင်ရရှိမည်မှာ သံသယဖြစ်ဖွယ် မရှိပါခင်ဗျာ။",
+    "translationMy": "神田部長: ဖူဂျီဝါရာ၊ မနက်ဖြန် ပြိုင်ဆိုင်မှု နောက်ဆုံးရလဒ် ထွက်ပေါ်မည့် ဆက်သွယ်ရေးကုမ္ပဏီကြီး၏ စနစ်အသစ်လဲလှယ်ရေး တင်ဒါကိစ္စ ဘယ်လိုခံစားရလဲဗျာ။\n藤原課長: ဟုတ်ကဲ့၊ ကျွန်တော်တို့ကုမ္ပဏီ၏ အဆိုပြုချက်ပါ အချက်အလက်များသည် ပြိုင်ဘက်ကုမ္ပဏီများကို နည်းပညာရော ကုန်ကျစရိတ်ပါ အပြတ်အသတ် သာလွန်နေသဖြင့် ကျွန်တော်တို့ အနိုင်ရရှိမည်မှာ သေချာပေါက် ဖြစ်ပါတယ်။\n神田部長: အားကိုးစရာ ယုံကြည်မှုပါပဲ၊ သို့သော် တစ်ဖက်က တာဝန်ခံဒါရိုက်တာနှင့် ကုမ္ပဏီ A တို့၏ နှစ်ရှည်လများ ရင်းနှီးမှုကို ထည့်တွက်ကြည့်ပါက ပေါ့ပေါ့ဆဆ နေနိုင်စရာ လုံးဝမရှိဘူးနော်။\n藤原課長: မှန်ကန်ပါတယ်ခင်ဗျာ။ သို့သော် တစ်ဖက်၏ နည်းပညာတာဝန်ခံသည် ဓမ္မဓိဋ္ဌာန်ကျသော စွမ်းဆောင်ရည်ကို အဓိကထားနေသဖြင့် တရားမျှတသော စိစစ်မှုပြုလုပ်ပါက ကျွန်တော်တို့ အနိုင်ရရှိမည်မှာ သံသယဖြစ်ဖွယ် မရှိပါခင်ဗျာ။",
+    "turns": [
+      {
+        "speaker": "神田部長",
+        "ja": "藤原君、明日コンペの最終結果が発表される大手通信会社のシステム刷新案件だが、手応えはどうだね？",
+        "kana": "ふじわらくん、あすコンペのさいしゅうけっかがはっぴょうされるおおてつうしんがいしゃのシステムさっしんおうけんだが、てごたえはどうだね？",
+        "en": "Fujiwara, regarding the major telecom company's system overhaul deal where final competition results will be announced tomorrow, how is the response?",
+        "my": "ဖူဂျီဝါရာ၊ မနက်ဖြန် ပြိုင်ဆိုင်မှု နောက်ဆုံးရလဒ် ထွက်ပေါ်မည့် ဆက်သွယ်ရေးကုမ္ပဏီကြီး၏ စနစ်အသစ်လဲလှယ်ရေး တင်ဒါကိစ္စ ဘယ်လိုခံစားရလဲဗျာ။",
+        "translationMy": "ဖူဂျီဝါရာ၊ မနက်ဖြန် ပြိုင်ဆိုင်မှု နောက်ဆုံးရလဒ် ထွက်ပေါ်မည့် ဆက်သွယ်ရေးကုမ္ပဏီကြီး၏ စနစ်အသစ်လဲလှယ်ရေး တင်ဒါကိစ္စ ဘယ်လိုခံစားရလဲဗျာ။",
+        "myanmar": "ဖူဂျီဝါရာ၊ မနက်ဖြန် ပြိုင်ဆိုင်မှု နောက်ဆုံးရလဒ် ထွက်ပေါ်မည့် ဆက်သွယ်ရေးကုမ္ပဏီကြီး၏ စနစ်အသစ်လဲလှယ်ရေး တင်ဒါကိစ္စ ဘယ်လိုခံစားရလဲဗျာ။"
+      },
+      {
+        "speaker": "藤原課長",
+        "ja": "はい、我が社の提案内容は競合他社を技術的にもコスト的にも圧倒しており、我が社が受注するに決まっております。",
+        "kana": "はい、わがしゃのていあんないようはきょうごうたしゃをぎじゅつてきにもコストてきにもあっとうしており、わがしゃがじゅちゅうするにきまっております。",
+        "en": "Yes, our company's proposal overwhelmingly surpasses competitors both technically and cost-wise, so we are bound to win the contract.",
+        "my": "ဟုတ်ကဲ့၊ ကျွန်တော်တို့ကုမ္ပဏီ၏ အဆိုပြုချက်ပါ အချက်အလက်များသည် ပြိုင်ဘက်ကုမ္ပဏီများကို နည်းပညာရော ကုန်ကျစရိတ်ပါ အပြတ်အသတ် သာလွန်နေသဖြင့် ကျွန်တော်တို့ အနိုင်ရရှိမည်မှာ သေချာပေါက် ဖြစ်ပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့၊ ကျွန်တော်တို့ကုမ္ပဏီ၏ အဆိုပြုချက်ပါ အချက်အလက်များသည် ပြိုင်ဘက်ကုမ္ပဏီများကို နည်းပညာရော ကုန်ကျစရိတ်ပါ အပြတ်အသတ် သာလွန်နေသဖြင့် ကျွန်တော်တို့ အနိုင်ရရှိမည်မှာ သေချာပေါက် ဖြစ်ပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့၊ ကျွန်တော်တို့ကုမ္ပဏီ၏ အဆိုပြုချက်ပါ အချက်အလက်များသည် ပြိုင်ဘက်ကုမ္ပဏီများကို နည်းပညာရော ကုန်ကျစရိတ်ပါ အပြတ်အသတ် သာလွန်နေသဖြင့် ကျွန်တော်တို့ အနိုင်ရရှိမည်မှာ သေချာပေါက် ဖြစ်ပါတယ်။"
+      },
+      {
+        "speaker": "神田部長",
+        "ja": "頼もしい自信だが、相手の担当役員とA社の古くからの関係性を考えると、油断はできっこないよ。",
+        "kana": "たのもしいじしんだが、あいてのたんとうやくいんとAしゃのふるくからのかんけいせいをかんがえると、ゆだんはできっこないよ。",
+        "en": "That's a dependable confidence, but considering the counterpart executive's long-standing relationship with Company A, there's no chance we can let our guard down.",
+        "my": "အားကိုးစရာ ယုံကြည်မှုပါပဲ၊ သို့သော် တစ်ဖက်က တာဝန်ခံဒါရိုက်တာနှင့် ကုမ္ပဏီ A တို့၏ နှစ်ရှည်လများ ရင်းနှီးမှုကို ထည့်တွက်ကြည့်ပါက ပေါ့ပေါ့ဆဆ နေနိုင်စရာ လုံးဝမရှိဘူးနော်။",
+        "translationMy": "အားကိုးစရာ ယုံကြည်မှုပါပဲ၊ သို့သော် တစ်ဖက်က တာဝန်ခံဒါရိုက်တာနှင့် ကုမ္ပဏီ A တို့၏ နှစ်ရှည်လများ ရင်းနှီးမှုကို ထည့်တွက်ကြည့်ပါက ပေါ့ပေါ့ဆဆ နေနိုင်စရာ လုံးဝမရှိဘူးနော်။",
+        "myanmar": "အားကိုးစရာ ယုံကြည်မှုပါပဲ၊ သို့သော် တစ်ဖက်က တာဝန်ခံဒါရိုက်တာနှင့် ကုမ္ပဏီ A တို့၏ နှစ်ရှည်လများ ရင်းနှီးမှုကို ထည့်တွက်ကြည့်ပါက ပေါ့ပေါ့ဆဆ နေနိုင်စရာ လုံးဝမရှိဘူးနော်။"
+      },
+      {
+        "speaker": "藤原課長",
+        "ja": "おっしゃる通りです。しかし先方の技術責任者は客観的な性能を最重視しており、公平な審査が行われれば我々の勝利に相違ありません。",
+        "kana": "おっしゃるとおりです。しかしせんぽうのぎじゅつせきにんしゃはきゃっかんてきなせいのうをさいじゅうししており、こうへいなしんさがおこなわれればわれわれのしょうりにそういありません。",
+        "en": "Exactly as you say. However, their technical director places the utmost priority on objective performance, so if a fair evaluation is conducted, our victory is without doubt.",
+        "my": "မှန်ကန်ပါတယ်ခင်ဗျာ။ သို့သော် တစ်ဖက်၏ နည်းပညာတာဝန်ခံသည် ဓမ္မဓိဋ္ဌာန်ကျသော စွမ်းဆောင်ရည်ကို အဓိကထားနေသဖြင့် တရားမျှတသော စိစစ်မှုပြုလုပ်ပါက ကျွန်တော်တို့ အနိုင်ရရှိမည်မှာ သံသယဖြစ်ဖွယ် မရှိပါခင်ဗျာ။",
+        "translationMy": "မှန်ကန်ပါတယ်ခင်ဗျာ။ သို့သော် တစ်ဖက်၏ နည်းပညာတာဝန်ခံသည် ဓမ္မဓိဋ္ဌာန်ကျသော စွမ်းဆောင်ရည်ကို အဓိကထားနေသဖြင့် တရားမျှတသော စိစစ်မှုပြုလုပ်ပါက ကျွန်တော်တို့ အနိုင်ရရှိမည်မှာ သံသယဖြစ်ဖွယ် မရှိပါခင်ဗျာ။",
+        "myanmar": "မှန်ကန်ပါတယ်ခင်ဗျာ။ သို့သော် တစ်ဖက်၏ နည်းပညာတာဝန်ခံသည် ဓမ္မဓိဋ္ဌာန်ကျသော စွမ်းဆောင်ရည်ကို အဓိကထားနေသဖြင့် တရားမျှတသော စိစစ်မှုပြုလုပ်ပါက ကျွန်တော်တို့ အနိုင်ရရှိမည်မှာ သံသယဖြစ်ဖွယ် မရှိပါခင်ဗျာ။"
+      }
+    ],
+    "questionIds": [
+      "n2.l29.q028",
+      "n2.l29.q029",
+      "n2.l29.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l29.q001",
+      "lessonId": "n2.l29",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「約束した期日は何があっても（　）に厳守しなければならない。」",
+      "choices": [
+        "絶対",
+        "確信",
+        "対立",
+        "断絶"
+      ],
+      "answer": "絶対",
+      "explanation": "「絶対（ぜったい）」は何の条件もなく必ず守ることです。",
+      "explanationMy": "လုံးဝ / မလွဲမသွေ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q002",
+      "lessonId": "n2.l29",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「彼の手腕ならプロジェクトを成功に導けると固く（　）している。」",
+      "choices": [
+        "確信",
+        "絶対",
+        "対象",
+        "必至"
+      ],
+      "answer": "確信",
+      "explanation": "「確信（かくしん）」は固く信じて疑わないことです。",
+      "explanationMy": "အခိုင်အမာယုံကြည်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q003",
+      "lessonId": "n2.l29",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中的（　）に入れるのに最も適切なものを選びなさい。\n「新しい人事評価制度を全社的に（　）した。」",
+      "choices": [
+        "確立",
+        "確信",
+        "断絶",
+        "的中"
+      ],
+      "answer": "確立",
+      "explanation": "「確立（かくりつ）」は方針や制度などをしっかりと打ち立てることです。",
+      "explanationMy": "ခိုင်ခိုင်မာမာ တည်ဆောက်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q004",
+      "lessonId": "n2.l29",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「来年度の予算案が閣議で正式に（　）された。」",
+      "choices": [
+        "確定",
+        "対立",
+        "対象",
+        "歴然"
+      ],
+      "answer": "確定",
+      "explanation": "「確定（かくてい）」ははっきりと決まることです。",
+      "explanationMy": "အတည်ပြုသတ်မှတ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q005",
+      "lessonId": "n2.l29",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「この調査は20代から40代の働く女性を（　）として実施された。」",
+      "choices": [
+        "対象",
+        "対策",
+        "対立",
+        "絶対"
+      ],
+      "answer": "対象",
+      "explanation": "「対象（たいしょう）」は行為や働きかけの目標・目当てとなるものです。",
+      "explanationMy": "ပစ်မှတ် / ဦးတည်ရာ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q006",
+      "lessonId": "n2.l29",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「台風の接近に備えて、水害への万全な（　）を立てる。」",
+      "choices": [
+        "対策",
+        "対象",
+        "確信",
+        "確立"
+      ],
+      "answer": "対策",
+      "explanation": "「対策（たいさく）」は相手の態度や事件に応じてとる処置です。",
+      "explanationMy": "ကြိုတင်ကာကွယ်မှု အစီအမံ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q007",
+      "lessonId": "n2.l29",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「新監督は就任以来、ファンから（　）な人気を誇っている。」",
+      "choices": [
+        "絶大",
+        "歴然",
+        "絶対",
+        "必至"
+      ],
+      "answer": "絶大",
+      "explanation": "「絶大（ぜつだい）」はこの上なく大きいことです。",
+      "explanationMy": "ကြီးမားလှသော ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q008",
+      "lessonId": "n2.l29",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「二つのチームの実力差は誰の目にも（　）としていた。」",
+      "choices": [
+        "歴然",
+        "絶大",
+        "確定",
+        "的中"
+      ],
+      "answer": "歴然",
+      "explanation": "「歴然（れきぜん）」ははっきりと明白な様子です。",
+      "explanationMy": "ထင်ရှားပြတ်သားသော ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q009",
+      "lessonId": "n2.l29",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「<u>ぜったい</u>に諦めない。」",
+      "choices": [
+        "絶対",
+        "絶体",
+        "絶待",
+        "截対"
+      ],
+      "answer": "絶対",
+      "explanation": "「絶対」は「ぜったい」と読みます。",
+      "explanationMy": "絶対 ၏ အသံထွက်မှာ ぜったい ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q010",
+      "lessonId": "n2.l29",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「勝利を<u>かくしん</u>する。」",
+      "choices": [
+        "確信",
+        "革信",
+        "格信",
+        "覚信"
+      ],
+      "answer": "確信",
+      "explanation": "「確信」は「かくしん」と読みます。",
+      "explanationMy": "確信 ၏ အသံထွက်မှာ かくしん ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q011",
+      "lessonId": "n2.l29",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「調査の<u>たいしょう</u>を絞る。」",
+      "choices": [
+        "対象",
+        "対照",
+        "対称",
+        "対省"
+      ],
+      "answer": "対象",
+      "explanation": "「対象」は「たいしょう」と読みます。",
+      "explanationMy": "対象 ၏ အသံထွက်မှာ たいしょう ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q012",
+      "lessonId": "n2.l29",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「絶」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "いと・いとへん（糸）",
+        "いろ（色）",
+        "ちから（力）",
+        "また（又）"
+      ],
+      "answer": "いと・いとへん（糸）",
+      "explanation": "「絶」の部首は「いと・いとへん（糸）」です。",
+      "explanationMy": "「絶」၏ အစိတ်အပိုင်းမှာ '糸' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q013",
+      "lessonId": "n2.l29",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「対」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "すん（寸）",
+        "ぶん（文）",
+        "て（手）",
+        "また（又）"
+      ],
+      "answer": "すん（寸）",
+      "explanation": "「対」の部首は右側の「すん（寸）」です。",
+      "explanationMy": "「対」၏ အစိတ်အပိုင်းမှာ '寸' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q014",
+      "lessonId": "n2.l29",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「確」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "いし・いしへん（石）",
+        "ふるとり（隹）",
+        "つち（土）",
+        "ひ（日）"
+      ],
+      "answer": "いし・いしへん（石）",
+      "explanation": "「確」の部首は「いし・いしへん（石）」です。",
+      "explanationMy": "「確」၏ အစိတ်အပိုင်းမှာ '石' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q015",
+      "lessonId": "n2.l29",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「彼がこんな簡単なミスをし（　）。誰かの嫌がらせだ。」",
+      "choices": [
+        "っこない",
+        "に相違ない",
+        "に決まっている",
+        "のではなかろうか"
+      ],
+      "answer": "っこない",
+      "explanation": "「ミスをするはずがない」という強い主観的否定を表す「っこない」が適切です。",
+      "explanationMy": "အမှားလုပ်စရာ အကြောင်း လုံးဝမရှိပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q016",
+      "lessonId": "n2.l29",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「状況証拠から考えて、彼が首謀者（　）。」",
+      "choices": [
+        "に相違ない",
+        "っこない",
+        "やら",
+        "とか"
+      ],
+      "answer": "に相違ない",
+      "explanation": "客観的な証拠に基づく強い確信を表す「に相違ない」が適切です。",
+      "explanationMy": "ခေါင်းဆောင်ဖြစ်မည်မှာ သံသယမရှိပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q017",
+      "lessonId": "n2.l29",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「あんなに大勢の前で失敗したら、恥ずかしい（　）。」",
+      "choices": [
+        "に決まっている",
+        "っこない",
+        "に相違ない",
+        "と思いきや"
+      ],
+      "answer": "に決まっている",
+      "explanation": "当然そうなるという強い確信・常識的断定を表す「に決まっている」が適切です。",
+      "explanationMy": "ရှက်စရာကောင်းမည်မှာ သေချာပေါက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q018",
+      "lessonId": "n2.l29",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「1日で100キロも走れ（　）。無理を言うな。」",
+      "choices": [
+        "っこない",
+        "に相違ない",
+        "に決まっている",
+        "どころか"
+      ],
+      "answer": "っこない",
+      "explanation": "能力的に絶対に不可能であることを強調する「っこない」が適切です。",
+      "explanationMy": "ပြေးနိုင်စရာ အကြောင်း လုံးဝမရှိပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q019",
+      "lessonId": "n2.l29",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「この精巧な彫刻は、名工の作品（　）。」",
+      "choices": [
+        "に相違ない",
+        "っこない",
+        "に決まっている",
+        "ばよかった"
+      ],
+      "answer": "に相違ない",
+      "explanation": "出来栄えから見て間違いなくそうであると断定する「に相違ない」が適切です。",
+      "explanationMy": "လက်ရာဖြစ်မည်မှာ သံသယမရှိပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q020",
+      "lessonId": "n2.l29",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「毎日残業ばかりしていたら、体を壊す（　）。」",
+      "choices": [
+        "に決まっている",
+        "っこない",
+        "に相違ない",
+        "ものの"
+      ],
+      "answer": "に決まっている",
+      "explanation": "当然の帰結として「絶対にそうなる」と断言する「に決まっている」が適切です。",
+      "explanationMy": "ကျန်းမာရေး ထိခိုက်မည်မှာ သေချာပေါက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q021",
+      "lessonId": "n2.l29",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「今から走っても、定刻の飛行機に間に合い（　）。」",
+      "choices": [
+        "っこない",
+        "に相違ない",
+        "に決まっている",
+        "反面"
+      ],
+      "answer": "っこない",
+      "explanation": "時間的に絶対に間に合わないことを強調する「っこない」が適切です。",
+      "explanationMy": "မီနိုင်စရာ အကြောင်း လုံးဝမရှိပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q022",
+      "lessonId": "n2.l29",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「古代の地層から出土したこの化石は、新種（　）。」",
+      "choices": [
+        "に相違ない",
+        "っこない",
+        "に決まっている",
+        "を限りに"
+      ],
+      "answer": "に相違ない",
+      "explanation": "学術的根拠から確信を述べる「に相違ない」が適切です。",
+      "explanationMy": "မျိုးစိတ်သစ် ဖြစ်မည်မှာ သံသယမရှိပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q023",
+      "lessonId": "n2.l29",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「親友の結婚式なのだから、喜んで出席する（　）。」",
+      "choices": [
+        "に決まっている",
+        "っこない",
+        "に相違ない",
+        "得ない"
+      ],
+      "answer": "に決まっている",
+      "explanation": "当然出席するという強い意志・自明性を表す「に決まっている」が適切です。",
+      "explanationMy": "တက်ရောက်မည်မှာ သေချာပေါက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q024",
+      "lessonId": "n2.l29",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜っこない」の文法的な接続として最も適切な文を選びなさい。",
+      "choices": [
+        "彼にそんな難しい問題が解けっこない。",
+        "彼にそんな難しい問題が解くっこない。",
+        "彼にそんな難しい問題が解いたっこない。",
+        "彼にそんな難しい問題が解きっこない。"
+      ],
+      "answer": "彼にそんな難しい問題が解けっこない。",
+      "explanation": "動詞の可能動詞ます形（解けます→解け）に接続して不可能を強調する正しい表現です。",
+      "explanationMy": "ဖြေရှင်းနိုင်စရာ အကြောင်း လုံးဝမရှိပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q025",
+      "lessonId": "n2.l29",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において、新しい領域へ挑戦する強力なエンジンとして挙げられているものはどれか。",
+      "choices": [
+        "過去の失敗に対する強い後悔の念",
+        "直感的な強い確信と揺るぎない情熱",
+        "他人の指示に盲従する消極的な態度",
+        "一切のリスクを冒さない保守的な姿勢"
+      ],
+      "answer": "直感的な強い確信と揺るぎない情熱",
+      "explanation": "本文第1段落に「『この仮説は正しいに決まっている』という揺るぎない情熱は、前人未到の領域へ踏み出す強力なエンジンとなる」とあります。",
+      "explanationMy": "ထိုးထွင်းသိမြင်သော ခိုင်မာသည့် ယုံကြည်ချက်နှင့် မယိမ်းယိုင်သော စိတ်အားထက်သန်မှု ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q026",
+      "lessonId": "n2.l29",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "主観的な確信だけで突き進むことの危険性として、筆者が指摘している内容は何か。",
+      "choices": [
+        "客観的データや市場のフィードバックを無視して独善に陥り、破滅的な結末を招くこと",
+        "開発スピードが速すぎて法律の規制に追いつかないこと",
+        "従業員全員が熱狂して休暇を取らなくなること",
+        "製品が売れすぎて工場の生産能力を超えてしまうこと"
+      ],
+      "answer": "客観的データや市場のフィードバックを無視して独善に陥り、破滅的な結末を招くこと",
+      "explanation": "本文第2段落に「客観的なデータや市場の冷厳なフィードバックを無視して独善に陥れば、破滅的な結末は必至である」と述べられています。",
+      "explanationMy": "ဓမ္မဓိဋ္ဌာန်ကျသော အချက်အလက်များကို လျစ်လျူရှုပြီး ပျက်စီးဆုံးရှုံးမှု ဖြစ်ပေါ်စေခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q027",
+      "lessonId": "n2.l29",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "真に卓越したリーダーや研究者に求められる資質として筆者が結論づけているものはどれか。",
+      "choices": [
+        "自らの確信のみを頑なに信じ、他者の反論を一切拒絶すること",
+        "客観的データのみを重視し、自らの情熱や直感を完全に捨てること",
+        "燃えるような確信を抱きつつ、同時に冷徹に自らの理論を検証し続けること",
+        "計画の立案から実行まですべてを外部の専門家に丸投げすること"
+      ],
+      "answer": "燃えるような確信を抱きつつ、同時に冷徹に自らの理論を検証し続けること",
+      "explanation": "本文最終段落に「燃えるような確信を胸に抱きつつも、同時に最も冷徹な批判者として自らの理論を疑い続ける」と明記されています。",
+      "explanationMy": "ပြင်းထန်သော ယုံကြည်ချက်ရှိသော်လည်း အေးစက်စွာ မိမိသီအိုရီကို ဆက်လက်စစ်ဆေးနေခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q028",
+      "lessonId": "n2.l29",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "藤原課長が自社の受注を「〜に決まっている」と確信する理由は何か。",
+      "choices": [
+        "他社がすべてコンペを辞退したため",
+        "技術面でもコスト面でも競合他社を圧倒しているため",
+        "相手企業の社長が藤原課長の親戚であるため",
+        "入札金額を他社の半額以下に設定したため"
+      ],
+      "answer": "技術面でもコスト面でも競合他社を圧倒しているため",
+      "explanation": "藤原課長が「我が社の提案内容は競合他社を技術的にもコスト的にも圧倒しており」と理由を述べています。",
+      "explanationMy": "နည်းပညာရော ကုန်ကျစရိတ်ပါ ပြိုင်ဘက်များကို အပြတ်အသတ် သာလွန်နေသောကြောင့် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q029",
+      "lessonId": "n2.l29",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "神田部長が「油断はできっこない」と警戒している要素は何か。",
+      "choices": [
+        "相手の担当役員とA社との間に古くからの関係性があること",
+        "自社の提案書に重大な計算ミスが見つかったこと",
+        "明日の天候が悪化して発表会が中止になること",
+        "予算不足でシステム開発が途中で頓挫すること"
+      ],
+      "answer": "相手の担当役員とA社との間に古くからの関係性があること",
+      "explanation": "神田部長が「相手の担当役員とA社の古くからの関係性を考えると、油断はできっこないよ」と指摘しています。",
+      "explanationMy": "တစ်ဖက်တာဝန်ခံနှင့် ကုမ္ပဏီ A တို့၏ နှစ်ရှည်လများ ရင်းနှီးဆက်ဆံမှုကို စိုးရိမ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l29.q030",
+      "lessonId": "n2.l29",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "藤原課長が「我々の勝利に相違ありません」と述べる前提条件は何か。",
+      "choices": [
+        "相手企業への接待を重ねること",
+        "公平な審査が行われること",
+        "A社が自主的に辞退すること",
+        "納期を半年以上前倒しすること"
+      ],
+      "answer": "公平な審査が行われること",
+      "explanation": "藤原課長が「公平な審査が行われれば我々の勝利に相違ありません」と語っています。",
+      "explanationMy": "တရားမျှတသော စိစစ်အကဲဖြတ်မှု ပြုလုပ်ပါက ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l29.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+};

@@ -1,0 +1,1558 @@
+{
+  "id": "n3.l46",
+  "level": "N3",
+  "module": "N3 Formal & Expository",
+  "number": 46,
+  "title": "N3 Lesson 46: Everyday Keigo (お〜になる・お〜する・特別敬語)",
+  "description": "လူကြီးမိဘများနှင့် စီးပွားရေးလုပ်ငန်းခွင်တွင် လေးစားသမှုစကားလုံး (敬語) များကို သဘာဝကျကျ အသုံးပြုနိုင်ခြင်း တစ်ဖက်သား၏ လုပ်ဆောင်ချက်ကို မြှင့်တင်ဖော်ပြသော 尊敬語 (お〜になる၊ 特別敬語) ကို မှန်ကန်စွာ သုံးစွဲနိုင်ခြင်း မိမိ၏ လုပ်ဆောင်ချက်ကို နှိမ့်ချဖော်ပြသော 謙譲語 (お〜する၊ 伺う၊ 参る စသည်) ဖြင့် ယဉ်ကျေးစွာ ပြောဆိုနိုင်ခြင်း",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l46.v001",
+      "lessonId": "n3.l46",
+      "ja": "敬語",
+      "kana": "けいご",
+      "en": "keigo",
+      "my": "ယဉ်ကျေးလေးစားစကားလုံး",
+      "meaningMy": "ယဉ်ကျေးလေးစားစကားလုံး",
+      "meaningMyanmar": "ယဉ်ကျေးလေးစားစကားလုံး",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l46.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.v002",
+      "lessonId": "n3.l46",
+      "ja": "尊敬",
+      "kana": "そんけい",
+      "en": "sonkei",
+      "my": "ကြည်ညိုရိုသေခြင်း",
+      "meaningMy": "ကြည်ညိုရိုသေခြင်း",
+      "meaningMyanmar": "ကြည်ညိုရိုသေခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l46.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.v003",
+      "lessonId": "n3.l46",
+      "ja": "謙譲",
+      "kana": "けんじょう",
+      "en": "kenjou",
+      "my": "နှိမ့်ချလေးစားခြင်း",
+      "meaningMy": "နှိမ့်ချလေးစားခြင်း",
+      "meaningMyanmar": "နှိမ့်ချလေးစားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l46.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.v004",
+      "lessonId": "n3.l46",
+      "ja": "謙遜",
+      "kana": "けんそん",
+      "en": "kenson",
+      "my": "နှိမ့်ချရိုးသားမှု",
+      "meaningMy": "နှိမ့်ချရိုးသားမှု",
+      "meaningMyanmar": "နှိမ့်ချရိုးသားမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l46.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.v005",
+      "lessonId": "n3.l46",
+      "ja": "案内",
+      "kana": "あんない",
+      "en": "annai",
+      "my": "လမ်းညွှန်ပြသခြင်း",
+      "meaningMy": "လမ်းညွှန်ပြသခြင်း",
+      "meaningMyanmar": "လမ်းညွှန်ပြသခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l46.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.v006",
+      "lessonId": "n3.l46",
+      "ja": "連絡",
+      "kana": "れんらく",
+      "en": "renraku",
+      "my": "အဆက်အသွယ်ပြုလုပ်ခြင်း",
+      "meaningMy": "အဆက်အသွယ်ပြုလုပ်ခြင်း",
+      "meaningMyanmar": "အဆက်အသွယ်ပြုလုပ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l46.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.v007",
+      "lessonId": "n3.l46",
+      "ja": "参る",
+      "kana": "まいる",
+      "en": "mairu",
+      "my": "သွားသည်/လာသည် (謙譲)",
+      "meaningMy": "သွားသည်/လာသည် (謙譲)",
+      "meaningMyanmar": "သွားသည်/လာသည် (謙譲)",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l46.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.v008",
+      "lessonId": "n3.l46",
+      "ja": "伺う",
+      "kana": "うかがう",
+      "en": "ukagau",
+      "my": "မေးမြန်းသည်/သွားရောက်လည်ပတ်သည် (謙譲)",
+      "meaningMy": "မေးမြန်းသည်/သွားရောက်လည်ပတ်သည် (謙譲)",
+      "meaningMyanmar": "မေးမြန်းသည်/သွားရောက်လည်ပတ်သည် (謙譲)",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l46.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.v009",
+      "lessonId": "n3.l46",
+      "ja": "召し上がる",
+      "kana": "めしあがる",
+      "en": "meshiagaru",
+      "my": "သုံးဆောင်သည် (尊敬)",
+      "meaningMy": "သုံးဆောင်သည် (尊敬)",
+      "meaningMyanmar": "သုံးဆောင်သည် (尊敬)",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l46.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.v010",
+      "lessonId": "n3.l46",
+      "ja": "おっしゃる",
+      "kana": "おっしゃる",
+      "en": "ossharu",
+      "my": "မိန့်ကြားသည် (尊敬)",
+      "meaningMy": "မိန့်ကြားသည် (尊敬)",
+      "meaningMyanmar": "မိန့်ကြားသည် (尊敬)",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l46.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.v011",
+      "lessonId": "n3.l46",
+      "ja": "ご覧になる",
+      "kana": "ごらんになる",
+      "en": "goranninaru",
+      "my": "ကြည့်ရှုတော်မူသည် (尊敬)",
+      "meaningMy": "ကြည့်ရှုတော်မူသည် (尊敬)",
+      "meaningMyanmar": "ကြည့်ရှုတော်မူသည် (尊敬)",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l46.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.v012",
+      "lessonId": "n3.l46",
+      "ja": "存じる",
+      "kana": "ぞんじる",
+      "en": "zonjiru",
+      "my": "သိရှိသည်/ထင်မြင်သည် (謙譲)",
+      "meaningMy": "သိရှိသည်/ထင်မြင်သည် (謙譲)",
+      "meaningMyanmar": "သိရှိသည်/ထင်မြင်သည် (謙譲)",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l46.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l46.k001",
+      "lessonId": "n3.l46",
+      "char": "敬",
+      "meaning": "ရိုသေလေးစားသည် (Respect/Honor)",
+      "meaningMy": "ရိုသေလေးစားသည် (Respect/Honor)",
+      "meaningMyanmar": "ရိုသေလေးစားသည် (Respect/Honor)",
+      "onyomi": [
+        "KEI",
+        "KYOU"
+      ],
+      "kunyomi": [
+        "uyama-u"
+      ],
+      "exampleVocab": [
+        {
+          "word": "敬語",
+          "reading": "けいご",
+          "meaning": "ယဉ်ကျေးလေးစားသမှုစကားလုံး",
+          "meaningMy": "ယဉ်ကျေးလေးစားသမှုစကားလုံး",
+          "preview": false
+        },
+        {
+          "word": "敬意",
+          "reading": "けいい",
+          "meaning": "ရိုသေလေးစားမှုသဘောထား",
+          "meaningMy": "ရိုသေလေးစားမှုသဘောထား",
+          "preview": false
+        },
+        {
+          "word": "尊敬",
+          "reading": "そんけい",
+          "meaning": "ကြည်ညိုလေးစားခြင်း",
+          "meaningMy": "ကြည်ညိုလေးစားခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l46.s001"
+      ],
+      "components": [
+        "攵 (strike/action)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.k002",
+      "lessonId": "n3.l46",
+      "char": "尊",
+      "meaning": "မြင့်မြတ်သော၊ အဖိုးတန်သော (Precious/Noble/Revere)",
+      "meaningMy": "မြင့်မြတ်သော၊ အဖိုးတန်သော (Precious/Noble/Revere)",
+      "meaningMyanmar": "မြင့်မြတ်သော၊ အဖိုးတန်သော (Precious/Noble/Revere)",
+      "onyomi": [
+        "SON"
+      ],
+      "kunyomi": [
+        "touto-bu",
+        "touto-i"
+      ],
+      "exampleVocab": [
+        {
+          "word": "尊敬",
+          "reading": "そんけい",
+          "meaning": "ရိုသေလေးစားခြင်း",
+          "meaningMy": "ရိုသေလေးစားခြင်း",
+          "preview": false
+        },
+        {
+          "word": "尊重",
+          "reading": "そんちょう",
+          "meaning": "အလေးထားတန်ဖိုးထားခြင်း",
+          "meaningMy": "အလေးထားတန်ဖိုးထားခြင်း",
+          "preview": false
+        },
+        {
+          "word": "尊い",
+          "reading": "とうとい",
+          "meaning": "မြင့်မြတ်တန်ဖိုးရှိသော",
+          "meaningMy": "မြင့်မြတ်တန်ဖိုးရှိသော",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l46.s001"
+      ],
+      "components": [
+        "寸 (inch)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.k003",
+      "lessonId": "n3.l46",
+      "char": "謙",
+      "meaning": "နှိမ့်ချသည်၊ ရိုးသားတည်ကြည်သည် (Humble/Modest)",
+      "meaningMy": "နှိမ့်ချသည်၊ ရိုးသားတည်ကြည်သည် (Humble/Modest)",
+      "meaningMyanmar": "နှိမ့်ချသည်၊ ရိုးသားတည်ကြည်သည် (Humble/Modest)",
+      "onyomi": [
+        "KEN"
+      ],
+      "kunyomi": [
+        "herikuda-ru"
+      ],
+      "exampleVocab": [
+        {
+          "word": "謙譲",
+          "reading": "けんじょう",
+          "meaning": "နှိမ့်ချလေးစားခြင်း",
+          "meaningMy": "နှိမ့်ချလေးစားခြင်း",
+          "preview": false
+        },
+        {
+          "word": "謙遜",
+          "reading": "けんそん",
+          "meaning": "နှိမ့်ချရိုးသားမှု",
+          "meaningMy": "နှိမ့်ချရိုးသားမှု",
+          "preview": false
+        },
+        {
+          "word": "謙虚",
+          "reading": "けんきょ",
+          "meaning": "နှိမ့်ချသောစိတ်ထား",
+          "meaningMy": "နှိမ့်ချသောစိတ်ထား",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l46.s001"
+      ],
+      "components": [
+        "言 (word/speech)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l46.g001",
+      "lessonId": "n3.l46",
+      "pattern": "お〜になる / ご〜になる (尊敬語)",
+      "meaning": "... ပြုလုပ်တော်မူသည် (တစ်ဖက်သားအား ရိုသေလေးစားသမှု ပြုခြင်း)",
+      "meaningMy": "... ပြုလုပ်တော်မူသည် (တစ်ဖက်သားအား ရိုသေလေးစားသမှု ပြုခြင်း)",
+      "meaningMyanmar": "... ပြုလုပ်တော်မူသည် (တစ်ဖက်သားအား ရိုသေလေးစားသမှု ပြုခြင်း)",
+      "formation": "お + V(ます形 stem) + になる / ご + N(サ変) + になる",
+      "explanation": {
+        "en": "အထက်လူကြီး၊ ဧည့်သည် သို့မဟုတ် ဖောက်သည်များ၏ လုပ်ဆောင်ချက်များကို ရိုသေလေးစားစွာ မြှင့်တင်ဖော်ပြသည်။",
+        "my": "အထက်လူကြီး၊ ဧည့်သည် သို့မဟုတ် ဖောက်သည်များ၏ လုပ်ဆောင်ချက်များကို ရိုသေလေးစားစွာ မြှင့်တင်ဖော်ပြသည်။"
+      },
+      "explanationMy": "အထက်လူကြီး၊ ဧည့်သည် သို့မဟုတ် ဖောက်သည်များ၏ လုပ်ဆောင်ချက်များကို ရိုသေလေးစားစွာ မြှင့်တင်ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l46.s001",
+          "note": "お〜になる / ご〜になる (尊敬語) usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of お〜になる / ご〜になる (尊敬語)."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "社長は新しい事業計画の資料をお読みになりました。",
+      "clozeTarget": "お〜になる / ご〜になる (尊敬語)",
+      "clozeHint": "... ပြုလုပ်တော်မူသည် (တစ်ဖက်သားအား ရိုသေလေးစားသမှု ပြုခြင်း)",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "အထက်လူကြီး၊ ဧည့်သည် သို့မဟုတ် ဖောက်သည်များ၏ လုပ်ဆောင်ချက်များကို ရိုသေလေးစားစွာ မြှင့်တင်ဖော်ပြသည်။"
+    },
+    {
+      "id": "n3.l46.g002",
+      "lessonId": "n3.l46",
+      "pattern": "お〜する / ご〜する / いたす (謙譲語)",
+      "meaning": "... ပြုလုပ်ပါရစေ / လုပ်ဆောင်ပေးပါမည် (မိမိကိုယ်ကို နှိမ့်ချခြင်း)",
+      "meaningMy": "... ပြုလုပ်ပါရစေ / လုပ်ဆောင်ပေးပါမည် (မိမိကိုယ်ကို နှိမ့်ချခြင်း)",
+      "meaningMyanmar": "... ပြုလုပ်ပါရစေ / လုပ်ဆောင်ပေးပါမည် (မိမိကိုယ်ကို နှိမ့်ချခြင်း)",
+      "formation": "お + V(ます形 stem) + する (いたす) / ご + N(サ変) + する (いたす)",
+      "explanation": {
+        "en": "မိမိ (သို့မဟုတ် မိမိအဖွဲ့အစည်း) ၏ လုပ်ဆောင်ချက်ကို နှိမ့်ချဖော်ပြခြင်းဖြင့် တစ်ဖက်သားအပေါ် ရိုသေလေးစားမှုကို ပြသသည်။",
+        "my": "မိမိ (သို့မဟုတ် မိမိအဖွဲ့အစည်း) ၏ လုပ်ဆောင်ချက်ကို နှိမ့်ချဖော်ပြခြင်းဖြင့် တစ်ဖက်သားအပေါ် ရိုသေလေးစားမှုကို ပြသသည်။"
+      },
+      "explanationMy": "မိမိ (သို့မဟုတ် မိမိအဖွဲ့အစည်း) ၏ လုပ်ဆောင်ချက်ကို နှိမ့်ချဖော်ပြခြင်းဖြင့် တစ်ဖက်သားအပေါ် ရိုသေလေးစားမှုကို ပြသသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l46.s001",
+          "note": "お〜する / ご〜する / いたす (謙譲語) usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of お〜する / ご〜する / いたす (謙譲語)."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "会議室まで私がお荷物をお持ちいたします。",
+      "clozeTarget": "お〜する / ご〜する / いたす (謙譲語)",
+      "clozeHint": "... ပြုလုပ်ပါရစေ / လုပ်ဆောင်ပေးပါမည် (မိမိကိုယ်ကို နှိမ့်ချခြင်း)",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "မိမိ (သို့မဟုတ် မိမိအဖွဲ့အစည်း) ၏ လုပ်ဆောင်ချက်ကို နှိမ့်ချဖော်ပြခြင်းဖြင့် တစ်ဖက်သားအပေါ် ရိုသေလေးစားမှုကို ပြသသည်။"
+    },
+    {
+      "id": "n3.l46.g003",
+      "lessonId": "n3.l46",
+      "pattern": "特別な敬語動詞 (Special Keigo Verbs)",
+      "meaning": "အထူးလေးစားသမှုနှင့် နှိမ့်ချသမှု ကြိယာများ",
+      "meaningMy": "အထူးလေးစားသမှုနှင့် နှိမ့်ချသမှု ကြိယာများ",
+      "meaningMyanmar": "အထူးလေးစားသမှုနှင့် နှိမ့်ချသမှု ကြိယာများ",
+      "formation": "尊敬語 (おっしゃる/召し上がる/ご覧になる) vs 謙譲語 (申し上げる/いただく/拝見する/参る/伺う)",
+      "explanation": {
+        "en": "အခြေခံ အသုံးအများဆုံး ကြိယာများဖြစ်ပြီး စီးပွားရေးနှင့် နေ့စဉ်ဆက်ဆံရေးတွင် မဖြစ်မနေ တိကျစွာ ခွဲခြားအသုံးပြုရသည်။",
+        "my": "အခြေခံ အသုံးအများဆုံး ကြိယာများဖြစ်ပြီး စီးပွားရေးနှင့် နေ့စဉ်ဆက်ဆံရေးတွင် မဖြစ်မနေ တိကျစွာ ခွဲခြားအသုံးပြုရသည်။"
+      },
+      "explanationMy": "အခြေခံ အသုံးအများဆုံး ကြိယာများဖြစ်ပြီး စီးပွားရေးနှင့် နေ့စဉ်ဆက်ဆံရေးတွင် မဖြစ်မနေ တိကျစွာ ခွဲခြားအသုံးပြုရသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l46.s001",
+          "note": "特別な敬語動詞 (Special Keigo Verbs) usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 特別な敬語動詞 (Special Keigo Verbs)."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "先生がおっしゃったアドバイスを心に留めておきます。",
+      "clozeTarget": "特別な敬語動詞 (Special Keigo Verbs)",
+      "clozeHint": "အထူးလေးစားသမှုနှင့် နှိမ့်ချသမှု ကြိယာများ",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "အခြေခံ အသုံးအများဆုံး ကြိယာများဖြစ်ပြီး စီးပွားရေးနှင့် နေ့စဉ်ဆက်ဆံရေးတွင် မဖြစ်မနေ တိကျစွာ ခွဲခြားအသုံးပြုရသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l46.s001",
+      "lessonId": "n3.l46",
+      "ja": "ビジネスの現場では、適切な敬語を使いこなすことが信頼関係の基礎となります。",
+      "kana": "ビジネスの現場では、適切な敬語を使いこなすことが信頼関係の基礎となります。",
+      "translation": {
+        "en": "Bijinesu no genba de wa, tekisetsu na keigo o tsukaikonasu koto ga shinraikankei no kiso to narimasu.",
+        "my": "စီးပွားရေးလုပ်ငန်းခွင်တွင် သင့်လျော်သော ယဉ်ကျေးစကားလုံးများကို ကျွမ်းကျင်စွာ အသုံးပြုနိုင်ခြင်းသည် ယုံကြည်မှုတည်ဆောက်ရေး၏ အခြေခံဖြစ်ပါသည်။"
+      },
+      "translationMy": "စီးပွားရေးလုပ်ငန်းခွင်တွင် သင့်လျော်သော ယဉ်ကျေးစကားလုံးများကို ကျွမ်းကျင်စွာ အသုံးပြုနိုင်ခြင်းသည် ယုံကြည်မှုတည်ဆောက်ရေး၏ အခြေခံဖြစ်ပါသည်။",
+      "vocabIds": [
+        "n3.l46.v001"
+      ],
+      "grammarIds": [
+        "n3.l46.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.s002",
+      "lessonId": "n3.l46",
+      "ja": "先輩に対する尊敬の念と、自分を振り返る謙虚な謙遜の心を併せ持つことが大切です。",
+      "kana": "先輩に対する尊敬の念と、自分を振り返る謙虚な謙遜の心を併せ持つことが大切です。",
+      "translation": {
+        "en": "Senpai ni taisuru sonkei no nen to, jibun o furikaeru kenkyo na kenson no kokoro o awasemotsu koto ga taisetsu desu.",
+        "my": "စီနီယာအပေါ် ကြည်ညိုလေးစားသော စိတ်ထားနှင့် မိမိကိုယ်ကို ပြန်လည်ဆန်းစစ်သည့် နှိမ့်ချရိုးသားသော နှလုံးသားကို ယှဉ်တွဲပိုင်ဆိုင်ရန် အရေးကြီးပါသည်။"
+      },
+      "translationMy": "စီနီယာအပေါ် ကြည်ညိုလေးစားသော စိတ်ထားနှင့် မိမိကိုယ်ကို ပြန်လည်ဆန်းစစ်သည့် နှိမ့်ချရိုးသားသော နှလုံးသားကို ယှဉ်တွဲပိုင်ဆိုင်ရန် အရေးကြီးပါသည်။",
+      "vocabIds": [
+        "n3.l46.v002",
+        "n3.l46.v004"
+      ],
+      "grammarIds": [
+        "n3.l46.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.s003",
+      "lessonId": "n3.l46",
+      "ja": "謙譲語を使って、来週の会議日程をメールでご連絡いたします。",
+      "kana": "謙譲語を使って、来週の会議日程をメールでご連絡いたします。",
+      "translation": {
+        "en": "Kenjougo o tsukatte, raishuu no kaigi nittei o meeru de gorenraku itashimasu.",
+        "my": "နှိမ့်ချစကားလုံးကို အသုံးပြု၍ လာမည့်အပတ် အစည်းအဝေးအစီအစဉ်ကို အီးမေးလ်ဖြင့် ဆက်သွယ်အကြောင်းကြားပါမည်။"
+      },
+      "translationMy": "နှိမ့်ချစကားလုံးကို အသုံးပြု၍ လာမည့်အပတ် အစည်းအဝေးအစီအစဉ်ကို အီးမေးလ်ဖြင့် ဆက်သွယ်အကြောင်းကြားပါမည်။",
+      "vocabIds": [
+        "n3.l46.v003",
+        "n3.l46.v006"
+      ],
+      "grammarIds": [
+        "n3.l46.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.s004",
+      "lessonId": "n3.l46",
+      "ja": "お客様を応接室にご案内し、温かいお茶を召し上がっていただきました。",
+      "kana": "お客様を応接室にご案内し、温かいお茶を召し上がっていただきました。",
+      "translation": {
+        "en": "Okyakusama o oosetsushitsu ni goannai shi, atatakai ocha o meshiagatte itadakimashita.",
+        "my": "ဧည့်သည်တော်အား ဧည့်ခန်းမသို့ လမ်းညွှန်ပို့ဆောင်ပေးပြီး နွေးထွေးသော လက်ဖက်ရည်ကို သုံးဆောင်စေခဲ့ပါသည်။"
+      },
+      "translationMy": "ဧည့်သည်တော်အား ဧည့်ခန်းမသို့ လမ်းညွှန်ပို့ဆောင်ပေးပြီး နွေးထွေးသော လက်ဖက်ရည်ကို သုံးဆောင်စေခဲ့ပါသည်။",
+      "vocabIds": [
+        "n3.l46.v005",
+        "n3.l46.v009"
+      ],
+      "grammarIds": [
+        "n3.l46.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.s005",
+      "lessonId": "n3.l46",
+      "ja": "社長がおっしゃった方針のパンフレットを、皆様でご覧になりましたか。",
+      "kana": "社長がおっしゃった方針のパンフレットを、皆様でご覧になりましたか。",
+      "translation": {
+        "en": "Shachou ga osshatta houshin no panfuretto o, minasama de goran ni narimashita ka.",
+        "my": "ဥက္ကဋ္ဌကြီး မိန့်ကြားတော်မူခဲ့သော မူဝါဒလက်ကမ်းစာစောင်ကို အားလုံး ကြည့်ရှုတော်မူပြီးပါပြီလားခင်ဗျာ။"
+      },
+      "translationMy": "ဥက္ကဋ္ဌကြီး မိန့်ကြားတော်မူခဲ့သော မူဝါဒလက်ကမ်းစာစောင်ကို အားလုံး ကြည့်ရှုတော်မူပြီးပါပြီလားခင်ဗျာ။",
+      "vocabIds": [
+        "n3.l46.v010",
+        "n3.l46.v011"
+      ],
+      "grammarIds": [
+        "n3.l46.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l46.s006",
+      "lessonId": "n3.l46",
+      "ja": "その件につきましては私もよく存じておりますので、明日御社へ伺い参ります。",
+      "kana": "その件につきましては私もよく存じておりますので、明日御社へ伺い参ります。",
+      "translation": {
+        "en": "Sono ken ni tsukimashite wa watashi mo yoku zonjite orimasu node, ashita onsha e ukagai mairimasu.",
+        "my": "ထိုကိစ္စနှင့် ပတ်သက်၍ ကျွန်တော်လည်း ကောင်းစွာ သိရှိပါသဖြင့် မနက်ဖြန် လူကြီးမင်းတို့ထံသို့ လာရောက်တွေ့ဆုံပါမည်ခင်ဗျာ။"
+      },
+      "translationMy": "ထိုကိစ္စနှင့် ပတ်သက်၍ ကျွန်တော်လည်း ကောင်းစွာ သိရှိပါသဖြင့် မနက်ဖြန် လူကြီးမင်းတို့ထံသို့ လာရောက်တွေ့ဆုံပါမည်ခင်ဗျာ။",
+      "vocabIds": [
+        "n3.l46.v007",
+        "n3.l46.v008",
+        "n3.l46.v012"
+      ],
+      "grammarIds": [
+        "n3.l46.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l46.r001",
+    "lessonId": "n3.l46",
+    "title": "敬語の本質とコミュニケーションの調和",
+    "level": "N3",
+    "text": "敬語は、単なる言葉の装飾や形式的なルールではなく、他者への敬意と思いやりの心を言語化したものです。日本社会においては、相手との心理的距離や上下関係、場面の改まり度合いに応じて適切な言葉を選ぶことが重要視されます。敬語には大きく分けて、相手を高める「尊敬語」、自分側をへりくだる「謙譲語」、そして言葉遣いを上品にする「丁寧語」があります。ビジネスの場では、自分側の行為に尊敬語を使ってしまったり、相手の行為に謙譲語を使ってしまう誤用が散見されます。例えば、お客様に向かって「私がご覧になりました」と言うのは不適切であり、「私が拝見しました」と謙譲語を用いるのが正しい表現です。しかし、形式ばかりに気を取られて過剰な敬語を使ってしまうと、かえって慇懃無礼となり相手に不快感を与えることもあります。最も大切なのは、相手の立場に配慮し、心からの尊敬と感謝を込めて誠実に言葉を届ける姿勢なのです。",
+    "kanaText": "敬語は、単なる言葉の装飾や形式的なルールではなく、他者への敬意と思いやりの心を言語化したものです。日本社会においては、相手との心理的距離や上下関係、場面の改まり度合いに応じて適切な言葉を選ぶことが重要視されます。敬語には大きく分けて、相手を高める「尊敬語」、自分側をへりくだる「謙譲語」、そして言葉遣いを上品にする「丁寧語」があります。ビジネスの場では、自分側の行為に尊敬語を使ってしまったり、相手の行為に謙譲語を使ってしまう誤用が散見されます。例えば、お客様に向かって「私がご覧になりました」と言うのは不適切であり、「私が拝見しました」と謙譲語を用いるのが正しい表現です。しかし、形式ばかりに気を取られて過剰な敬語を使ってしまうと、かえって慇懃無礼となり相手に不快感を与えることもあります。最も大切なのは、相手の立場に配慮し、心からの尊敬と感謝を込めて誠実に言葉を届ける姿勢なのです。",
+    "translation": "敬語の本質とコミュニケーションの調和",
+    "translationMy": "敬語の本質とコミュニケーションの調和",
+    "questionIds": [
+      "n3.l46.q025",
+      "n3.l46.q026",
+      "n3.l46.q027"
+    ],
+    "difficulty": 3,
+    "glossary": [
+      {
+        "term": "装飾",
+        "reading": "装飾",
+        "meaning": "အလှဆင်တန်ဆာဆင်ခြင်း",
+        "meaningMy": "အလှဆင်တန်ဆာဆင်ခြင်း",
+        "meaningMyanmar": "အလှဆင်တန်ဆာဆင်ခြင်း"
+      },
+      {
+        "term": "へりくだる",
+        "reading": "へりくだる",
+        "meaning": "မိမိကိုယ်ကို နှိမ့်ချသည်",
+        "meaningMy": "မိမိကိုယ်ကို နှိမ့်ချသည်",
+        "meaningMyanmar": "မိမိကိုယ်ကို နှိမ့်ချသည်"
+      },
+      {
+        "term": "散見される",
+        "reading": "散見される",
+        "meaning": "ဟိုဟိုဒီဒီ တွေ့မြင်ရသည်",
+        "meaningMy": "ဟိုဟိုဒီဒီ တွေ့မြင်ရသည်",
+        "meaningMyanmar": "ဟိုဟိုဒီဒီ တွေ့မြင်ရသည်"
+      },
+      {
+        "term": "慇懃無礼",
+        "reading": "慇懃無礼",
+        "meaning": "ယဉ်ကျေးလွန်း၍ မရိုမသေဖြစ်ခြင်း",
+        "meaningMy": "ယဉ်ကျေးလွန်း၍ မရိုမသေဖြစ်ခြင်း",
+        "meaningMyanmar": "ယဉ်ကျေးလွန်း၍ မရိုမသေဖြစ်ခြင်း"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n3.l46.lis001",
+    "lessonId": "n3.l46",
+    "title": "取引先での商談と挨拶",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "A: いつも大変お世話になっております。本日は１４時に伺うとお約束しておりました佐藤と申します。\nB: お待ちしておりました。どうぞ応接室へお入りください。お茶をどうぞ召し上がってください。\nA: 恐れ入ります。先日メールでお送りいたしました新製品の資料を、すでにご覧になりましたでしょうか。\nB: ええ、拝見しました。非常に興味深い内容ですね。詳しい条件をご案内いただけますか。",
+    "translation": "A: အမြဲတစေ များစွာ ကူညီစောင့်ရှောက်ပေးမှုအတွက် ကျေးဇူးတင်ရှိပါသည်။ ဒီနေ့ ၁၄ နာရီမှာ လာရောက်တွေ့ဆုံဖို့ ချိန်းဆိုထားတဲ့ ဆာတိုး လို့ ခေါ်ပါတယ်ခင်ဗျာ။\nB: စောင့်မျှော်နေပါ တယ်ခင်ဗျာ။ ကြွပါ၊ ဧည့်ခန်းမထဲ ဝင်တော်မူပါ။ လက်ဖက်ရည် သုံးဆောင်ပါဦးခင်ဗျာ။\nA: အားနာရပါတယ်ခင်ဗျာ။ ပြီးခဲ့တဲ့ရက်က အီးမေးလ်နဲ့ ပေးပို့ခဲ့တဲ့ ထုတ်ကုန်သစ် စာရွက်စာတမ်းကို ကြည့်ရှုတော်မူပြီးပြီလား မသိပါဘူးခင်ဗျာ။\nB: ဟုတ်ကဲ့၊ ကြည့်ရှုပြီးပါပြီခင်ဗျာ။ အရမ်းစိတ်ဝင်စားစရာကောင်းတဲ့ အကြောင်းအရာပါပဲ။ အသေးစိတ် စည်းကမ်းချက်တွေကို ရှင်းပြပေးနိုင်မလားခင်ဗျာ။",
+    "translationMy": "A: အမြဲတစေ များစွာ ကူညီစောင့်ရှောက်ပေးမှုအတွက် ကျေးဇူးတင်ရှိပါသည်။ ဒီနေ့ ၁၄ နာရီမှာ လာရောက်တွေ့ဆုံဖို့ ချိန်းဆိုထားတဲ့ ဆာတိုး လို့ ခေါ်ပါတယ်ခင်ဗျာ။\nB: စောင့်မျှော်နေပါ တယ်ခင်ဗျာ။ ကြွပါ၊ ဧည့်ခန်းမထဲ ဝင်တော်မူပါ။ လက်ဖက်ရည် သုံးဆောင်ပါဦးခင်ဗျာ။\nA: အားနာရပါတယ်ခင်ဗျာ။ ပြီးခဲ့တဲ့ရက်က အီးမေးလ်နဲ့ ပေးပို့ခဲ့တဲ့ ထုတ်ကုန်သစ် စာရွက်စာတမ်းကို ကြည့်ရှုတော်မူပြီးပြီလား မသိပါဘူးခင်ဗျာ။\nB: ဟုတ်ကဲ့၊ ကြည့်ရှုပြီးပါပြီခင်ဗျာ။ အရမ်းစိတ်ဝင်စားစရာကောင်းတဲ့ အကြောင်းအရာပါပဲ။ အသေးစိတ် စည်းကမ်းချက်တွေကို ရှင်းပြပေးနိုင်မလားခင်ဗျာ။",
+    "turns": [
+      {
+        "speaker": "A",
+        "ja": "いつも大変お世話になっております。本日は１４時に伺うとお約束しておりました佐藤と申します。",
+        "kana": "いつも大変お世話になっております。本日は１４時に伺うとお約束しておりました佐藤と申します。",
+        "en": "Itsumo taihen osewa ni natte orimasu. Honjitsu wa juuyonji ni ukagau to oyakusoku shite orimashita Satou to moushimasu.",
+        "my": "အမြဲတစေ များစွာ ကူညီစောင့်ရှောက်ပေးမှုအတွက် ကျေးဇူးတင်ရှိပါသည်။ ဒီနေ့ ၁၄ နာရီမှာ လာရောက်တွေ့ဆုံဖို့ ချိန်းဆိုထားတဲ့ ဆာတိုး လို့ ခေါ်ပါတယ်ခင်ဗျာ။",
+        "translationMy": "အမြဲတစေ များစွာ ကူညီစောင့်ရှောက်ပေးမှုအတွက် ကျေးဇူးတင်ရှိပါသည်။ ဒီနေ့ ၁၄ နာရီမှာ လာရောက်တွေ့ဆုံဖို့ ချိန်းဆိုထားတဲ့ ဆာတိုး လို့ ခေါ်ပါတယ်ခင်ဗျာ။",
+        "myanmar": "အမြဲတစေ များစွာ ကူညီစောင့်ရှောက်ပေးမှုအတွက် ကျေးဇူးတင်ရှိပါသည်။ ဒီနေ့ ၁၄ နာရီမှာ လာရောက်တွေ့ဆုံဖို့ ချိန်းဆိုထားတဲ့ ဆာတိုး လို့ ခေါ်ပါတယ်ခင်ဗျာ။"
+      },
+      {
+        "speaker": "B",
+        "ja": "お待ちしておりました。どうぞ応接室へお入りください。お茶をどうぞ召し上がってください。",
+        "kana": "お待ちしておりました。どうぞ応接室へお入りください。お茶をどうぞ召し上がってください。",
+        "en": "Omachi shite orimashita. Douzo oosetsushitsu e ohairi kudasai. Ocha o douzo meshiagatte kudasai.",
+        "my": "စောင့်မျှော်နေပါ တယ်ခင်ဗျာ။ ကြွပါ၊ ဧည့်ခန်းမထဲ ဝင်တော်မူပါ။ လက်ဖက်ရည် သုံးဆောင်ပါဦးခင်ဗျာ။",
+        "translationMy": "စောင့်မျှော်နေပါ တယ်ခင်ဗျာ။ ကြွပါ၊ ဧည့်ခန်းမထဲ ဝင်တော်မူပါ။ လက်ဖက်ရည် သုံးဆောင်ပါဦးခင်ဗျာ။",
+        "myanmar": "စောင့်မျှော်နေပါ တယ်ခင်ဗျာ။ ကြွပါ၊ ဧည့်ခန်းမထဲ ဝင်တော်မူပါ။ လက်ဖက်ရည် သုံးဆောင်ပါဦးခင်ဗျာ။"
+      },
+      {
+        "speaker": "A",
+        "ja": "恐れ入ります。先日メールでお送りいたしました新製品の資料を、すでにご覧になりましたでしょうか。",
+        "kana": "恐れ入ります。先日メールでお送りいたしました新製品の資料を、すでにご覧になりましたでしょうか。",
+        "en": "Osoreirimasu. Senjitsu meeru de ookuri itashimashita shinseihin no shiryou o, sude ni goran ni narimashita deshou ka.",
+        "my": "အားနာရပါတယ်ခင်ဗျာ။ ပြီးခဲ့တဲ့ရက်က အီးမေးလ်နဲ့ ပေးပို့ခဲ့တဲ့ ထုတ်ကုန်သစ် စာရွက်စာတမ်းကို ကြည့်ရှုတော်မူပြီးပြီလား မသိပါဘူးခင်ဗျာ။",
+        "translationMy": "အားနာရပါတယ်ခင်ဗျာ။ ပြီးခဲ့တဲ့ရက်က အီးမေးလ်နဲ့ ပေးပို့ခဲ့တဲ့ ထုတ်ကုန်သစ် စာရွက်စာတမ်းကို ကြည့်ရှုတော်မူပြီးပြီလား မသိပါဘူးခင်ဗျာ။",
+        "myanmar": "အားနာရပါတယ်ခင်ဗျာ။ ပြီးခဲ့တဲ့ရက်က အီးမေးလ်နဲ့ ပေးပို့ခဲ့တဲ့ ထုတ်ကုန်သစ် စာရွက်စာတမ်းကို ကြည့်ရှုတော်မူပြီးပြီလား မသိပါဘူးခင်ဗျာ။"
+      },
+      {
+        "speaker": "B",
+        "ja": "ええ、拝見しました。非常に興味深い内容ですね。詳しい条件をご案内いただけますか。",
+        "kana": "ええ、拝見しました。非常に興味深い内容ですね。詳しい条件をご案内いただけますか。",
+        "en": "Ee, haiken shimashita. Hijou ni kyoumibukai naiyou desu ne. Kuwashii jouken o goannai itadakemasu ka.",
+        "my": "ဟုတ်ကဲ့၊ ကြည့်ရှုပြီးပါပြီခင်ဗျာ။ အရမ်းစိတ်ဝင်စားစရာကောင်းတဲ့ အကြောင်းအရာပါပဲ။ အသေးစိတ် စည်းကမ်းချက်တွေကို ရှင်းပြပေးနိုင်မလားခင်ဗျာ။",
+        "translationMy": "ဟုတ်ကဲ့၊ ကြည့်ရှုပြီးပါပြီခင်ဗျာ။ အရမ်းစိတ်ဝင်စားစရာကောင်းတဲ့ အကြောင်းအရာပါပဲ။ အသေးစိတ် စည်းကမ်းချက်တွေကို ရှင်းပြပေးနိုင်မလားခင်ဗျာ။",
+        "myanmar": "ဟုတ်ကဲ့၊ ကြည့်ရှုပြီးပါပြီခင်ဗျာ။ အရမ်းစိတ်ဝင်စားစရာကောင်းတဲ့ အကြောင်းအရာပါပဲ။ အသေးစိတ် စည်းကမ်းချက်တွေကို ရှင်းပြပေးနိုင်မလားခင်ဗျာ။"
+      }
+    ],
+    "questionIds": [
+      "n3.l46.q028",
+      "n3.l46.q029",
+      "n3.l46.q030"
+    ],
+    "difficulty": 3,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l46.q001",
+      "lessonId": "n3.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "社長はもう新しい企画書を（　　）。",
+      "choices": [
+        "お読みになりました",
+        "お読みしました",
+        "拝読しました",
+        "読まれさせました"
+      ],
+      "answer": "お読みになりました",
+      "explanation": "ကုမ္ပဏီဥက္ကဋ္ဌ၏ လုပ်ဆောင်ချက်ကို လေးစားစွာ ဖော်ပြရန် 尊敬語 「お読みになりました」 ကို သုံးပါသည်။",
+      "explanationMy": "ကုမ္ပဏီဥက္ကဋ္ဌ၏ လုပ်ဆောင်ချက်ကို လေးစားစွာ ဖော်ပြရန် 尊敬語 「お読みになりました」 ကို သုံးပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q002",
+      "lessonId": "n3.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "明日、私の方から詳しい日程をご（　　）いたします。",
+      "choices": [
+        "連絡",
+        "尊敬",
+        "遠慮",
+        "苦労"
+      ],
+      "answer": "連絡",
+      "explanation": "မိမိဘက်မှ ဆက်သွယ်အကြောင်းကြားပါမည်ဟူသော 謙譲語 အဖြစ် 「ご連絡いたします」 ဖြစ်ပါသည်။",
+      "explanationMy": "မိမိဘက်မှ ဆက်သွယ်အကြောင်းကြားပါမည်ဟူသော 謙譲語 အဖြစ် 「ご連絡いたします」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q003",
+      "lessonId": "n3.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "お客様、温かいコーヒーをどうぞ（　　）ください。",
+      "choices": [
+        "召し上がって",
+        "いただいて",
+        "参って",
+        "申して"
+      ],
+      "answer": "召し上がって",
+      "explanation": "ဧည့်သည်တော်အား စားသောက်ရန် လေးစားစွာ ဖိတ်ခေါ်ရာတွင် 尊敬語 「召し上がってください」 ကို သုံးပါသည်။",
+      "explanationMy": "ဧည့်သည်တော်အား စားသောက်ရန် လေးစားစွာ ဖိတ်ခေါ်ရာတွင် 尊敬語 「召し上がってください」 ကို သုံးပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q004",
+      "lessonId": "n3.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「尊敬」の正しい読み方はどれですか。",
+      "choices": [
+        "そんけい",
+        "ぞんけい",
+        "そんきょう",
+        "せんけい"
+      ],
+      "answer": "そんけい",
+      "explanation": "「尊敬」၏ အသံထွက်အမှန်မှာ 「そんけい」 (ကြည်ညိုလေးစားခြင်း) ဖြစ်ပါသည်။",
+      "explanationMy": "「尊敬」၏ အသံထွက်အမှန်မှာ 「そんけい」 (ကြည်ညိုလေးစားခြင်း) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q005",
+      "lessonId": "n3.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「謙譲」の正しい読み方はどれですか。",
+      "choices": [
+        "けんじょう",
+        "けんしょう",
+        "かんじょう",
+        "きょうじょう"
+      ],
+      "answer": "けんじょう",
+      "explanation": "「謙譲」၏ အသံထွက်အမှန်မှာ 「けんじょう」 (နှိမ့်ချလေးစားခြင်း) ဖြစ်ပါသည်။",
+      "explanationMy": "「謙譲」၏ အသံထွက်အမှန်မှာ 「けんじょう」 (နှိမ့်ချလေးစားခြင်း) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q006",
+      "lessonId": "n3.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「伺う」の正しい読み方はどれですか。",
+      "choices": [
+        "うかがう",
+        "したかう",
+        "まいる",
+        "たずねる"
+      ],
+      "answer": "うかがう",
+      "explanation": "「伺う」၏ အသံထွက်အမှန်မှာ 「うかがう」 (သွားရောက်တွေ့ဆုံသည်/မေးမြန်းသည်) ဖြစ်ပါသည်။",
+      "explanationMy": "「伺う」၏ အသံထွက်အမှန်မှာ 「うかがう」 (သွားရောက်တွေ့ဆုံသည်/မေးမြန်းသည်) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q007",
+      "lessonId": "n3.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "先生は先ほど何と（　　）ましたか。",
+      "choices": [
+        "おっしゃい",
+        "申し",
+        "いただき",
+        "参り"
+      ],
+      "answer": "おっしゃい",
+      "explanation": "ဆရာ၏ မိန့်ကြားချက်ကို မေးမြန်းခြင်းဖြစ်၍ 尊敬語 「おっしゃいましたか」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ဆရာ၏ မိန့်ကြားချက်ကို မေးမြန်းခြင်းဖြစ်၍ 尊敬語 「おっしゃいましたか」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q008",
+      "lessonId": "n3.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "こちらのカタログをどうぞ（　　）ください。",
+      "choices": [
+        "ご覧になって",
+        "拝見して",
+        "見てあげて",
+        "見られて"
+      ],
+      "answer": "ご覧になって",
+      "explanation": "ဧည့်သည်အား ကြည့်ရှုစေရန် လေးစားစွာ ဖိတ်ခေါ်ရာတွင် 尊敬語 「ご覧になってください」 ဖြစ်ပါသည်။",
+      "explanationMy": "ဧည့်သည်အား ကြည့်ရှုစေရန် လေးစားစွာ ဖိတ်ခေါ်ရာတွင် 尊敬語 「ご覧になってください」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q009",
+      "lessonId": "n3.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "部長のお荷物を私が駅までお持ち（　　）。",
+      "choices": [
+        "いたします",
+        "になられます",
+        "くださいます",
+        "なさいます"
+      ],
+      "answer": "いたします",
+      "explanation": "မိမိက အထက်လူကြီး၏ အိတ်ကို သယ်ယူပေးမည်ဟူသော 謙譲語 အဖြစ် 「お持ちいたします」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "မိမိက အထက်လူကြီး၏ အိတ်ကို သယ်ယူပေးမည်ဟူသော 謙譲語 အဖြစ် 「お持ちいたします」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q010",
+      "lessonId": "n3.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "会場の準備が整いましたので、皆様を席へご（　　）します。",
+      "choices": [
+        "案内",
+        "遠慮",
+        "感謝",
+        "迷惑"
+      ],
+      "answer": "案内",
+      "explanation": "နေရာထိုင်ခင်းသို့ လမ်းညွှန်ပို့ဆောင်ပေးခြင်းဖြစ်၍ 「ご案内」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "နေရာထိုင်ခင်းသို့ လမ်းညွှန်ပို့ဆောင်ပေးခြင်းဖြစ်၍ 「ご案内」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q011",
+      "lessonId": "n3.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "明日、御社の本社ビルへ午後３時に（　　）。",
+      "choices": [
+        "伺います",
+        "いらっしゃいます",
+        "おいでになります",
+        "お見えになります"
+      ],
+      "answer": "伺います",
+      "explanation": "မိမိဘက်မှ တစ်ဖက်ကုမ္ပဏီသို့ သွားရောက်လည်ပတ်မည်ဟူသော 謙譲語 အဖြစ် 「伺います」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "မိမိဘက်မှ တစ်ဖက်ကုမ္ပဏီသို့ သွားရောက်လည်ပတ်မည်ဟူသော 謙譲語 အဖြစ် 「伺います」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q012",
+      "lessonId": "n3.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "その事件についての詳しい背景は私もよく（　　）ております。",
+      "choices": [
+        "存じ",
+        "召し上がっ",
+        "おっしゃっ",
+        "ご覧になっ"
+      ],
+      "answer": "存じ",
+      "explanation": "မိမိက သိရှိထားကြောင်းကို နှိမ့်ချဖော်ပြရန် 「存じております」 (知っています) က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "မိမိက သိရှိထားကြောင်းကို နှိမ့်ချဖော်ပြရန် 「存じております」 (知っています) က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q013",
+      "lessonId": "n3.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "相手に褒められたときは、少し（　　）して「まだまだです」と答えた。",
+      "choices": [
+        "謙遜",
+        "尊敬",
+        "敬意",
+        "迷惑"
+      ],
+      "answer": "謙遜",
+      "explanation": "မိမိကိုယ်ကို နှိမ့်ချရိုးသားစွာ တုံ့ပြန်ခြင်းဖြစ်၍ 「謙遜」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "မိမိကိုယ်ကို နှိမ့်ချရိုးသားစွာ တုံ့ပြန်ခြင်းဖြစ်၍ 「謙遜」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q014",
+      "lessonId": "n3.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "担当の鈴木はただいま外出しており、３時に戻る予定で（　　）。",
+      "choices": [
+        "ございます",
+        "いらっしゃいます",
+        "おっしゃいます",
+        "なさいます"
+      ],
+      "answer": "ございます",
+      "explanation": "ယဉ်ကျေးသော အခြေအနေပြ 丁寧語 「ございます」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ယဉ်ကျေးသော အခြေအနေပြ 丁寧語 「ございます」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q015",
+      "lessonId": "n3.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "お客様からいただいた貴重なご意見を（　　）いたします。",
+      "choices": [
+        "尊重",
+        "謙遜",
+        "遠慮",
+        "迷惑"
+      ],
+      "answer": "尊重",
+      "explanation": "တန်ဖိုးထားအလေးအနက်ပြုခြင်းဖြစ်၍ 「尊重いたします」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "တန်ဖိုးထားအလေးအနက်ပြုခြင်းဖြစ်၍ 「尊重いたします」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q016",
+      "lessonId": "n3.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "先生のお宅へ（　　）ときは、手土産を持参するのが礼儀です。",
+      "choices": [
+        "伺う",
+        "いらっしゃる",
+        "おっしゃる",
+        "召し上がる"
+      ],
+      "answer": "伺う",
+      "explanation": "မိမိက ဆရာ့အိမ်သို့ သွားရောက်လည်ပတ်ခြင်းဖြစ်၍ 謙譲語 「伺う」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "မိမိက ဆရာ့အိမ်သို့ သွားရောက်လည်ပတ်ခြင်းဖြစ်၍ 謙譲語 「伺う」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q017",
+      "lessonId": "n3.l46",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「尊敬語」と「謙譲語」の使い分けの本質として正しいものはどれですか。",
+      "choices": [
+        "尊敬語は敬うべき相手の動作を高め、謙譲語は自分側の動作をへりくだって相手に敬意を表す",
+        "尊敬語は男性専用で、謙譲語は女性専用である",
+        "尊敬語は家族間でのみ使い、謙譲語は友人同士でのみ使う",
+        "両者に違いはなく、どちらを使っても全く同じである"
+      ],
+      "answer": "尊敬語は敬うべき相手の動作を高め、謙譲語は自分側の動作をへりくだって相手に敬意を表す",
+      "explanation": "尊敬語သည် လေးစားထိုက်သူ၏ လုပ်ဆောင်ချက်ကို မြှင့်တင်ပြီး၊ 謙譲語သည် မိမိ၏လုပ်ဆောင်ချက်ကို နှိမ့်ချခြင်းဖြင့် တစ်ဖက်သားအား ရိုသေမှုပြသပါသည်။",
+      "explanationMy": "尊敬語သည် လေးစားထိုက်သူ၏ လုပ်ဆောင်ချက်ကို မြှင့်တင်ပြီး၊ 謙譲語သည် မိမိ၏လုပ်ဆောင်ချက်ကို နှိမ့်ချခြင်းဖြင့် တစ်ဖက်သားအား ရိုသေမှုပြသပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q018",
+      "lessonId": "n3.l46",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "客に向かって社外の人が「社長は外出していらっしゃいます」と言うのが誤りである理由は？",
+      "choices": [
+        "社外の人に対して話す際、自社の人間（社長であっても）には敬語を使わず身内として扱うのがビジネスマナーだから",
+        "社長に対して失礼な表現だから",
+        "「いらっしゃる」という敬語自体が存在しないから",
+        "外出という単語がビジネスで禁止されているから"
+      ],
+      "answer": "社外の人に対して話す際、自社の人間（社長であっても）には敬語を使わず身内として扱うのがビジネスマナーだから",
+      "explanation": "ပြင်ပလူများနှင့် စကားပြောဆိုရာတွင် မိမိကုမ္ပဏီသား (ဥက္ကဋ္ဌပင်ဖြစ်စေ) ကို အတွင်းလူ (身内) အဖြစ် သဘောထားပြီး 尊敬語 မသုံးရပါ။",
+      "explanationMy": "ပြင်ပလူများနှင့် စကားပြောဆိုရာတွင် မိမိကုမ္ပဏီသား (ဥက္ကဋ္ဌပင်ဖြစ်စေ) ကို အတွင်းလူ (身内) အဖြစ် သဘောထားပြီး 尊敬語 မသုံးရပါ။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q019",
+      "lessonId": "n3.l46",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「食べる」の尊敬語と謙譲語の正しい組み合わせはどれですか。",
+      "choices": [
+        "尊敬語：召し上がる ／ 謙譲語：いただく",
+        "尊敬語：いただく ／ 謙譲語：召し上がる",
+        "尊敬語：ご覧になる ／ 謙譲語：拝見する",
+        "尊敬語：おっしゃる ／ 謙譲語：申し上げる"
+      ],
+      "answer": "尊敬語：召し上がる ／ 謙譲語：いただく",
+      "explanation": "「食べる」၏ 尊敬語မှာ 「召し上がる」 ဖြစ်ပြီး၊ 謙譲語မှာ 「いただく」 ဖြစ်ပါသည်။",
+      "explanationMy": "「食べる」၏ 尊敬語မှာ 「召し上がる」 ဖြစ်ပြီး၊ 謙譲語မှာ 「いただく」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q020",
+      "lessonId": "n3.l46",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「慇懃無礼（いんぎんぶれい）」の意味として最も適切なものはどれですか。",
+      "choices": [
+        "言葉遣いや態度は極めて丁寧だが、かえって嫌味や無礼に感じられること",
+        "大声で怒鳴り散らして相手を威嚇すること",
+        "敬語を全く知らずにタメ口で話すこと",
+        "挨拶を完全に無視して通り過ぎること"
+      ],
+      "answer": "言葉遣いや態度は極めて丁寧だが、かえって嫌味や無礼に感じられること",
+      "explanation": "အလွန်အကျွံ ယဉ်ကျေးလွန်းပြီး ဟန်ဆောင်ဆန်သဖြင့် တစ်ဖက်သားအား အမြင်မကြည်ဖြစ်စေခြင်းကို ဆိုလိုပါသည်။",
+      "explanationMy": "အလွန်အကျွံ ယဉ်ကျေးလွန်းပြီး ဟန်ဆောင်ဆန်သဖြင့် တစ်ဖက်သားအား အမြင်မကြည်ဖြစ်စေခြင်းကို ဆိုလိုပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q021",
+      "lessonId": "n3.l46",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「謙譲」の「謙」の部首（Radical）は何ですか。",
+      "choices": [
+        "言（ごんべん）",
+        "兼（かねる）",
+        "心（こころ）",
+        "手（てへん）"
+      ],
+      "answer": "言（ごんべん）",
+      "explanation": "「謙」၏ radical မှာ 「言」 (gonben - word/speech) ဖြစ်ပါသည်။",
+      "explanationMy": "「謙」၏ radical မှာ 「言」 (gonben - word/speech) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q022",
+      "lessonId": "n3.l46",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「見る」の謙譲語として正しいものはどれですか。",
+      "choices": [
+        "拝見する",
+        "ご覧になる",
+        "見られる",
+        "お見えになる"
+      ],
+      "answer": "拝見する",
+      "explanation": "「見る」၏ နှိမ့်ချစကား 謙譲語 မှာ 「拝見する」 (ကြည့်ရှုပါရစေ) ဖြစ်ပါသည်။",
+      "explanationMy": "「見る」၏ နှိမ့်ချစကား 謙譲語 မှာ 「拝見する」 (ကြည့်ရှုပါရစေ) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q023",
+      "lessonId": "n3.l46",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「言う」の尊敬語と謙譲語の正しいペアはどれですか。",
+      "choices": [
+        "尊敬語：おっしゃる ／ 謙譲語：申し上げる（申す）",
+        "尊敬語：申す ／ 謙譲語：おっしゃる",
+        "尊敬語：なさる ／ 謙譲語：いたす",
+        "尊敬語：いらっしゃる ／ 謙譲語：参る"
+      ],
+      "answer": "尊敬語：おっしゃる ／ 謙譲語：申し上げる（申す）",
+      "explanation": "「言う」၏ 尊敬語မှာ 「おっしゃる」 ဖြစ်ပြီး၊ 謙譲語မှာ 「申し上げる / 申す」 ဖြစ်ပါသည်။",
+      "explanationMy": "「言う」၏ 尊敬語မှာ 「おっしゃる」 ဖြစ်ပြီး၊ 謙譲語မှာ 「申し上げる / 申す」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q024",
+      "lessonId": "n3.l46",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "会話で「先日お送りした資料をご覧になりましたでしょうか」と尋ねた理由は？",
+      "choices": [
+        "相手が既に資料を確認したかどうかを敬意を込めて確認するため",
+        "相手が資料を捨てたことを叱責するため",
+        "資料の返却を至急求めるため",
+        "資料の印刷代金を請求するため"
+      ],
+      "answer": "相手が既に資料を確認したかどうかを敬意を込めて確認するため",
+      "explanation": "ဖောက်သည်က စာရွက်စာတမ်းကို ဖတ်ရှုစစ်ဆေးပြီးပြီလားဆိုသည်ကို လေးစားစွာ မေးမြန်းခြင်းဖြစ်ပါသည်။",
+      "explanationMy": "ဖောက်သည်က စာရွက်စာတမ်းကို ဖတ်ရှုစစ်ဆေးပြီးပြီလားဆိုသည်ကို လေးစားစွာ မေးမြန်းခြင်းဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q025",
+      "lessonId": "n3.l46",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文によると、敬語の本質とは何ですか。",
+      "choices": [
+        "単なる言葉の装飾ではなく、他者への敬意と思いやりの心を言語化したもの",
+        "身分の低い者を差別して服従させるための強制的な道具",
+        "外国人を混乱させて排除するための排他的な暗号",
+        "試験の点数を稼ぐためだけに作られた人工的な規則"
+      ],
+      "answer": "単なる言葉の装飾ではなく、他者への敬意と思いやりの心を言語化したもの",
+      "explanation": "他者への敬意と思いやりの心を言語化したもの ဟု စာပိုဒ်၏ ပထမစာကြောင်းတွင် ဖော်ပြထားပါသည်။",
+      "explanationMy": "他者への敬意と思いやりの心を言語化したもの ဟု စာပိုဒ်၏ ပထမစာကြောင်းတွင် ဖော်ပြထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q026",
+      "lessonId": "n3.l46",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文において、ビジネスでの誤用例として挙げられているのはどれですか。",
+      "choices": [
+        "お客様に向かって「私がご覧になりました」と自分の行為に尊敬語を使ってしまうこと",
+        "お客様に向かって「私が拝見しました」と謙譲語を使うこと",
+        "社長に対して「おはようございます」と丁寧に挨拶すること",
+        "メールの結びに「よろしくお願いいたします」と添えること"
+      ],
+      "answer": "お客様に向かって「私がご覧になりました」と自分の行為に尊敬語を使ってしまうこと",
+      "explanation": "お客様に向かって「私がご覧になりました」と言うのは不適切 ဟု ရှင်းလင်းစွာ ဖော်ပြထားပါသည်။",
+      "explanationMy": "お客様に向かって「私がご覧になりました」と言うのは不適切 ဟု ရှင်းလင်းစွာ ဖော်ပြထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q027",
+      "lessonId": "n3.l46",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文によると、敬語を使う上で最も大切にすべき心構えは何ですか。",
+      "choices": [
+        "形式にとらわれすぎず、相手の立場に配慮して誠実に言葉を届ける姿勢",
+        "二重三重に敬語を重ねてとにかく長く話す技術",
+        "相手の言葉遣いの誤りをその場ですぐに指摘する厳しさ",
+        "どんな場面でも常に無口で通す態度"
+      ],
+      "answer": "形式にとらわれすぎず、相手の立場に配慮して誠実に言葉を届ける姿勢",
+      "explanation": "相手の立場に配慮し、心からの尊敬と感謝を込めて誠実に言葉を届ける姿勢 ဟု နိဂုံးချုပ်ထားပါသည်။",
+      "explanationMy": "相手の立場に配慮し、心からの尊敬と感謝を込めて誠実に言葉を届ける姿勢 ဟု နိဂုံးချုပ်ထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q028",
+      "lessonId": "n3.l46",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "文法的に最も正しいビジネス敬語文を選びなさい。",
+      "choices": [
+        "明日、私どもの担当者が御社へ伺います。",
+        "明日、私どもの担当者が御社へいらっしゃいます。",
+        "明日、貴社の社長様が弊社へ参られます。",
+        "明日、私が新しい企画書をご覧になります。"
+      ],
+      "answer": "明日、私どもの担当者が御社へ伺います。",
+      "explanation": "မိမိကုမ္ပဏီဝန်ထမ်းက တစ်ဖက်သို့ သွားရောက်ခြင်းဖြစ်၍ 謙譲語 「伺います」 သုံးထားသော ဝါကျက အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "မိမိကုမ္ပဏီဝန်ထမ်းက တစ်ဖက်သို့ သွားရောက်ခြင်းဖြစ်၍ 謙譲語 「伺います」 သုံးထားသော ဝါကျက အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q029",
+      "lessonId": "n3.l46",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "次の語句を正しく並べ替えて自然な敬語表現を作りなさい：\n「ご案内 / 私が / 会議室へ / いたします」",
+      "choices": [
+        "私が会議室へご案内いたします",
+        "会議室へ私がご案内いたします",
+        "ご案内いたします私が会議室へ",
+        "１と２のどちらも自然で正しい"
+      ],
+      "answer": "１と２のどちらも自然で正しい",
+      "explanation": "「私が会議室へご案内いたします」ရော 「会議室へ私がご案内いたします」ပါ မှန်ကန်ပါသည်။",
+      "explanationMy": "「私が会議室へご案内いたします」ရော 「会議室へ私がご案内いたします」ပါ မှန်ကန်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l46.q030",
+      "lessonId": "n3.l46",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "本課で学んだ「尊敬語・謙譲語」を習得する最大のメリットは何ですか。",
+      "choices": [
+        "人間関係の距離感を適切に保ち、敬意と信頼を伴った円滑なコミュニケーションを築ける",
+        "外国語を勉強する必要が完全になくなる",
+        "仕事の時間を半分に短縮できる",
+        "相手を自分の思い通りに命令して操ることができる"
+      ],
+      "answer": "人間関係の距離感を適切に保ち、敬意と信頼を伴った円滑なコミュニケーションを築ける",
+      "explanation": "သင့်တော်သော လေးစားမှုနှင့် ယုံကြည်မှုကို ဖော်ဆောင်ပေးပြီး ချောမွေ့သော လူမှုဆက်ဆံရေးကို တည်ဆောက်နိုင်စေပါသည်။",
+      "explanationMy": "သင့်တော်သော လေးစားမှုနှင့် ယုံကြည်မှုကို ဖော်ဆောင်ပေးပြီး ချောမွေ့သော လူမှုဆက်ဆံရေးကို တည်ဆောက်နိုင်စေပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l46.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-06T10:00:00Z",
+    "rev": 2
+  }
+}

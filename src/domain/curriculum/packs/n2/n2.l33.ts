@@ -1,0 +1,1797 @@
+import { LessonPack } from '../../../models/types';
+
+export const n2l33Data: LessonPack = {
+  "id": "n2.l33",
+  "level": "N2",
+  "module": "N2 Editorial & Socio-Cultural",
+  "number": 33,
+  "title": "N2 Lesson 33: Concession, Contrast & Contradiction (〜ものの・〜にもかかわらず・〜といっても)",
+  "description": "Mastery module focusing on Qualified Concession, Defiant Inconsistency, and Tempering Statements: acknowledged facts with unexpected twists (ものの), actions taken despite adverse circumstances (にもかかわらず), and tempering exaggerated claims (といっても).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l33.v001",
+      "lessonId": "n2.l33",
+      "ja": "譲歩",
+      "kana": "じょうほ",
+      "en": "Concession / Compromise",
+      "my": "အလျှော့ပေးလိုက်လျောခြင်း",
+      "meaningMy": "အလျှော့ပေးလိုက်လျောခြင်း",
+      "meaningMyanmar": "အလျှော့ပေးလိုက်လျောခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l33.s001",
+      "kanjiIds": [
+        "n2.l33.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.v002",
+      "lessonId": "n2.l33",
+      "ja": "移譲",
+      "kana": "いじょう",
+      "en": "Transfer / Devolution / Assignment",
+      "my": "လွှဲပြောင်းပေးအပ်ခြင်း",
+      "meaningMy": "လွှဲပြောင်းပေးအပ်ခြင်း",
+      "meaningMyanmar": "လွှဲပြောင်းပေးအပ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l33.s002",
+      "kanjiIds": [
+        "n2.l33.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.v003",
+      "lessonId": "n2.l33",
+      "ja": "認識",
+      "kana": "にんしき",
+      "en": "Recognition / Perception / Realization",
+      "my": "အသိအမှတ်ပြုသဘောပေါက်ခြင်း",
+      "meaningMy": "အသိအမှတ်ပြုသဘောပေါက်ခြင်း",
+      "meaningMyanmar": "အသိအမှတ်ပြုသဘောပေါက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l33.s003",
+      "kanjiIds": [
+        "n2.l33.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.v004",
+      "lessonId": "n2.l33",
+      "ja": "承認",
+      "kana": "しょうにん",
+      "en": "Approval / Sanction / Official consent",
+      "my": "အတည်ပြုထောက်ခံခြင်း",
+      "meaningMy": "အတည်ပြုထောက်ခံခြင်း",
+      "meaningMyanmar": "အတည်ပြုထောက်ခံခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l33.s004",
+      "kanjiIds": [
+        "n2.l33.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.v005",
+      "lessonId": "n2.l33",
+      "ja": "屈服",
+      "kana": "くっぷく",
+      "en": "Surrender / Submission / Yielding",
+      "my": "ဒူးထောက်အရှုံးပေးခြင်း",
+      "meaningMy": "ဒူးထောက်အရှုံးပေးခြင်း",
+      "meaningMyanmar": "ဒူးထောက်အရှုံးပေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l33.s005",
+      "kanjiIds": [
+        "n2.l33.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.v006",
+      "lessonId": "n2.l33",
+      "ja": "不屈",
+      "kana": "ふくつ",
+      "en": "Indomitable / Unyielding / Tenacious",
+      "my": "ဇွဲမလျှော့သော စိတ်ဓာတ်",
+      "meaningMy": "ဇွဲမလျှော့သော စိတ်ဓာတ်",
+      "meaningMyanmar": "ဇွဲမလျှော့သော စိတ်ဓာတ်",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l33.s006",
+      "kanjiIds": [
+        "n2.l33.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.v007",
+      "lessonId": "n2.l33",
+      "ja": "矛盾",
+      "kana": "むじゅん",
+      "en": "Contradiction / Inconsistency",
+      "my": "ရှေ့နောက်မညီကွဲလွဲမှု",
+      "meaningMy": "ရှေ့နောက်မညီကွဲလွဲမှု",
+      "meaningMyanmar": "ရှေ့နောက်မညီကွဲလွဲမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l33.s007",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.v008",
+      "lessonId": "n2.l33",
+      "ja": "葛藤",
+      "kana": "かっとう",
+      "en": "Conflict / Internal discord",
+      "my": "စိတ်တွင်းပဋိပက္ခ",
+      "meaningMy": "စိတ်တွင်းပဋိပက္ခ",
+      "meaningMyanmar": "စိတ်တွင်းပဋိပက္ခ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l33.s008",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.v009",
+      "lessonId": "n2.l33",
+      "ja": "妥協",
+      "kana": "だきょう",
+      "en": "Compromise / Meeting halfway",
+      "my": "အပေးအယူလုပ်ပြေလည်စေခြင်း",
+      "meaningMy": "အပေးအယူလုပ်ပြေလည်စေခြင်း",
+      "meaningMyanmar": "အပေးအယူလုပ်ပြေလည်စေခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l33.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.v010",
+      "lessonId": "n2.l33",
+      "ja": "阻害",
+      "kana": "そがい",
+      "en": "Obstruction / Impediment / Inhibition",
+      "my": "အဟန့်အတားဖြစ်စေခြင်း",
+      "meaningMy": "အဟန့်အတားဖြစ်စေခြင်း",
+      "meaningMyanmar": "အဟန့်အတားဖြစ်စေခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l33.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.v011",
+      "lessonId": "n2.l33",
+      "ja": "克服",
+      "kana": "こくふく",
+      "en": "Overcoming / Conquest / Surmounting",
+      "my": "ကျော်လွှားအောင်မြင်ခြင်း",
+      "meaningMy": "ကျော်လွှားအောင်မြင်ခြင်း",
+      "meaningMyanmar": "ကျော်လွှားအောင်မြင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l33.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.v012",
+      "lessonId": "n2.l33",
+      "ja": "堅持",
+      "kana": "けんじ",
+      "en": "Adherence / Firm holding / Persistence",
+      "my": "ခိုင်ခိုင်မာမာဆုပ်ကိုင်ထားခြင်း",
+      "meaningMy": "ခိုင်ခိုင်မာမာဆုပ်ကိုင်ထားခြင်း",
+      "meaningMyanmar": "ခိုင်ခိုင်မာမာဆုပ်ကိုင်ထားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l33.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l33.k001",
+      "lessonId": "n2.l33",
+      "char": "譲",
+      "meaning": "Yield / Concede / Transfer / Defer",
+      "meaningMy": "အလျှော့ပေးခြင်း / လွှဲပြောင်းပေးခြင်း / လိုက်လျောခြင်း",
+      "meaningMyanmar": "အလျှော့ပေးခြင်း / လွှဲပြောင်းပေးခြင်း / လိုက်လျောခြင်း",
+      "onyomi": [
+        "ジョウ"
+      ],
+      "kunyomi": [
+        "ゆず・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "譲歩",
+          "reading": "じょうほ",
+          "meaning": "concession / compromise",
+          "meaningMy": "အလျှော့ပေးလိုက်လျောမှု",
+          "preview": false
+        },
+        {
+          "word": "移譲",
+          "reading": "いじょう",
+          "meaning": "transfer / devolution",
+          "meaningMy": "လွှဲပြောင်းပေးအပ်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "謙譲",
+          "reading": "けんじょう",
+          "meaning": "humility / modest deference",
+          "meaningMy": "နှိမ့်ချလိုက်လျောခြင်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l33.s001"
+      ],
+      "components": [
+        "言",
+        "襄"
+      ],
+      "strokes": 20,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.k002",
+      "lessonId": "n2.l33",
+      "char": "認",
+      "meaning": "Recognize / Admit / Acknowledge / Approve",
+      "meaningMy": "အသိအမှတ်ပြုခြင်း / ဝန်ခံခြင်း / ခွင့်ပြုခြင်း",
+      "meaningMyanmar": "အသိအမှတ်ပြုခြင်း / ဝန်ခံခြင်း / ခွင့်ပြုခြင်း",
+      "onyomi": [
+        "ニン"
+      ],
+      "kunyomi": [
+        "みと・める"
+      ],
+      "exampleVocab": [
+        {
+          "word": "認識",
+          "reading": "にんしき",
+          "meaning": "recognition / perception",
+          "meaningMy": "အသိအမှတ်ပြုသဘောပေါက်မှု",
+          "preview": false
+        },
+        {
+          "word": "承認",
+          "reading": "しょうにん",
+          "meaning": "approval / sanction",
+          "meaningMy": "အတည်ပြုလက်ခံခြင်း",
+          "preview": false
+        },
+        {
+          "word": "公認",
+          "reading": "こうにん",
+          "meaning": "official recognition",
+          "meaningMy": "တရားဝင်အသိအမှတ်ပြုခြင်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l33.s002"
+      ],
+      "components": [
+        "言",
+        "忍"
+      ],
+      "strokes": 14,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.k003",
+      "lessonId": "n2.l33",
+      "char": "屈",
+      "meaning": "Yield / Bend / Submit / Flinch",
+      "meaningMy": "ညွှတ်ကွေးခြင်း / ဒူးထောက်အရှုံးပေးခြင်း",
+      "meaningMyanmar": "ညွှတ်ကွေးခြင်း / ဒူးထောက်အရှုံးပေးခြင်း",
+      "onyomi": [
+        "クツ"
+      ],
+      "kunyomi": [
+        "かが・む"
+      ],
+      "exampleVocab": [
+        {
+          "word": "屈服",
+          "reading": "くっぷく",
+          "meaning": "surrender / submission",
+          "meaningMy": "အရှုံးပေးဒူးထောက်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "不屈",
+          "reading": "ふくつ",
+          "meaning": "indomitable / unyielding",
+          "meaningMy": "ဇွဲမလျှော့သော / မဆုတ်မနစ်",
+          "preview": false
+        },
+        {
+          "word": "理屈",
+          "reading": "りくつ",
+          "meaning": "logic / pretext / quibble",
+          "meaningMy": "ဆင်ခြေဆင်လက် / အကြောင်းပြချက်",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l33.s003"
+      ],
+      "components": [
+        "尸",
+        "出"
+      ],
+      "strokes": 8,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l33.g001",
+      "lessonId": "n2.l33",
+      "pattern": "〜ものの",
+      "meaning": "Although... / But... / While it is true that...",
+      "meaningMy": "ဖြစ်သော်ငြားလည်း / ဖြစ်သည်မှာ အမှန်ဖြစ်သော်လည်း",
+      "meaningMyanmar": "ဖြစ်သော်ငြားလည်း / ဖြစ်သည်မှာ အမှန်ဖြစ်သော်လည်း",
+      "formation": "動詞・い形普通形 ＋ ものの / な形語幹＋な/である ＋ ものの / 名詞＋である ＋ ものの",
+      "explanation": {
+        "en": "Acknowledges the reality of clause A as a factual premise, but introduces an unexpected setback, incomplete reality, or contradictory qualification in clause B.",
+        "my": "ရှေ့အချက်မှာ အမှန်တရားဖြစ်ကြောင်း ဝန်ခံလက်ခံသော်လည်း နောက်ဆက်တွဲတွင် မျှော်လင့်သလို အပြည့်အဝ ဖြစ်မလာသည့် ဆန့်ကျင်ဘက် အခြေအနေကို ဖော်ပြရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "ရှေ့အချက်မှာ အမှန်တရားဖြစ်ကြောင်း ဝန်ခံလက်ခံသော်လည်း နောက်ဆက်တွဲတွင် မျှော်လင့်သလို အပြည့်အဝ ဖြစ်မလာသည့် ဆန့်ကျင်ဘက် အခြေအနေကို ဖော်ပြရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l33.s001",
+          "note": "〜ものの usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l33.s002",
+          "note": "〜ものの usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l33.s003",
+          "note": "〜ものの usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l33.s004",
+          "note": "〜ものの usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l33.g001",
+        "n2.l33.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ものの."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "大学に合格した[ _____ ]、学費の工面に頭を痛めている。",
+      "clozeTarget": "ものの",
+      "clozeHint": "Verb ta-form + ものの",
+      "acceptableSynonyms": [
+        "けれども",
+        "とはいえ",
+        "とはいうものの"
+      ],
+      "nuanceExplanationMy": "「〜ものの」သည် အဖြစ်မှန်ကို ဦးစွာ အသိအမှတ်ပြုပြီး မပြည့်စုံသေးသော ကန့်သတ်ချက်ကို အလေးပေးသည်။"
+    },
+    {
+      "id": "n2.l33.g002",
+      "lessonId": "n2.l33",
+      "pattern": "〜にもかかわらず",
+      "meaning": "In spite of / Despite / Notwithstanding",
+      "meaningMy": "ဖြစ်လင့်ကစား / ရှိနေသည့်တိုင် မငဲ့ကွက်ဘဲ",
+      "meaningMyanmar": "ဖြစ်လင့်ကစား / ရှိနေသည့်တိုင် မငဲ့ကွက်ဘဲ",
+      "formation": "名詞 / 動詞・形容詞普通形 ＋ にもかかわらず",
+      "explanation": {
+        "en": "Emphasizes that an action or outcome boldly persists or manifests in complete disregard of prevailing adverse weather, severe warnings, or expectations.",
+        "my": "ဆိုးရွားသော ရာသီဥတု၊ ပြင်းထန်သော သတိပေးချက် သို့မဟုတ် အတားအဆီးများ ရှိနေပါသော်လည်း ၎င်းတို့ကို လုံးဝ အရေးမစိုက်ဘဲ ဆက်လက်လုပ်ဆောင်လိုက်ခြင်းကို ပြသည်။"
+      },
+      "explanationMy": "ဆိုးရွားသော ရာသီဥတု၊ ပြင်းထန်သော သတိပေးချက် သို့မဟုတ် အတားအဆီးများ ရှိနေပါသော်လည်း ၎င်းတို့ကို လုံးဝ အရေးမစိုက်ဘဲ ဆက်လက်လုပ်ဆောင်လိုက်ခြင်းကို ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l33.s005",
+          "note": "〜にもかかわらず usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l33.s006",
+          "note": "〜にもかかわらず usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l33.s007",
+          "note": "〜にもかかわらず usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l33.s008",
+          "note": "〜にもかかわらず usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l33.g001",
+        "n2.l33.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜にもかかわらず."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "悪天候[ _____ ]、多くのファンがスタジアムに駆けつけた。",
+      "clozeTarget": "にもかかわらず",
+      "clozeHint": "Noun + にもかかわらず",
+      "acceptableSynonyms": [
+        "のに",
+        "それなのに",
+        "をものともせず"
+      ],
+      "nuanceExplanationMy": "မျှော်လင့်ထားသည့် အကျိုးဆက်နှင့် လုံးဝ ဆန့်ကျင်ဘက် အံ့အားသင့်ဖွယ် ဖြစ်ပေါ်လာမှုကို ပြသသည်။"
+    },
+    {
+      "id": "n2.l33.g003",
+      "lessonId": "n2.l33",
+      "pattern": "〜といっても",
+      "meaning": "Although they say... / Even though called...",
+      "meaningMy": "ဟု ဆိုသော်ငြားလည်း / ဟု ခေါ်ဆိုနိုင်သော်လည်း (အမှန်စင်စစ်တွင်မူ)",
+      "meaningMyanmar": "ဟု ဆိုသော်ငြားလည်း / ဟု ခေါ်ဆိုနိုင်သော်လည်း (အမှန်စင်စစ်တွင်မူ)",
+      "formation": "普通形 (名詞・な形語幹だ を省くことが多い) ＋ といっても",
+      "explanation": {
+        "en": "Moderates or downplays an impression that might sound grand, clarifying that the actual scale, degree, or intensity is quite modest.",
+        "my": "စကားလုံးအရ ကြီးကျယ်သည်ဟု ထင်မှတ်နိုင်သော်လည်း လက်တွေ့တွင် အတိုင်းအတာ သို့မဟုတ် အဆင့်မှာ ထိုမျှအထိ မကြီးကျယ်ကြောင်း ရှင်းလင်းပြောဆိုရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "စကားလုံးအရ ကြီးကျယ်သည်ဟု ထင်မှတ်နိုင်သော်လည်း လက်တွေ့တွင် အတိုင်းအတာ သို့မဟုတ် အဆင့်မှာ ထိုမျှအထိ မကြီးကျယ်ကြောင်း ရှင်းလင်းပြောဆိုရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l33.s009",
+          "note": "〜といっても usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l33.s010",
+          "note": "〜といっても usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l33.s011",
+          "note": "〜といっても usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l33.s012",
+          "note": "〜といっても usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l33.g001",
+        "n2.l33.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜といっても."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "料理ができる[ _____ ]、簡単な卵焼きが作れる程度です。",
+      "clozeTarget": "といっても",
+      "clozeHint": "Plain form + といっても",
+      "acceptableSynonyms": [
+        "とは言っても",
+        "もっとも",
+        "とはいえ"
+      ],
+      "nuanceExplanationMy": "အထင်ကြီးလောက်စရာ မဟုတ်ကြောင်း မိမိကိုယ်ကို နှိမ့်ချရာတွင် သို့မဟုတ် အမှန်ကို ရှင်းပြရာတွင် သုံးသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l33.s001",
+      "lessonId": "n2.l33",
+      "ja": "契約書に調印したものの、相手側の誠意には依然として疑念が残る。",
+      "kana": "けいやくしょにちょういんしたものの、あいてがわのせいいにはいぜんとしてぎねんがのこる。",
+      "translation": {
+        "en": "Although we signed the contract, doubts still linger regarding the other party's sincerity.",
+        "my": "စာချုပ်တွင် လက်မှတ်ရေးထိုးခဲ့သော်ငြားလည်း တစ်ဖက်သား၏ ရိုးသားမှုအပေါ် သံသယများ ကျန်ရှိနေဆဲဖြစ်သည်။"
+      },
+      "translationMy": "စာချုပ်တွင် လက်မှတ်ရေးထိုးခဲ့သော်ငြားလည်း တစ်ဖက်သား၏ ရိုးသားမှုအပေါ် သံသယများ ကျန်ရှိနေဆဲဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l33.v003",
+        "n2.l33.v004"
+      ],
+      "grammarIds": [
+        "n2.l33.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.s002",
+      "lessonId": "n2.l33",
+      "ja": "手術は無事に成功したものの、完全な回復には相当の期間を要する見通しだ。",
+      "kana": "しゅじゅつはぶじにせいこうしたものの、かんぜんなかいふくにはそうとうのきかんをようするみとおしだ。",
+      "translation": {
+        "en": "Although the surgery succeeded without issue, complete recovery is expected to require considerable time.",
+        "my": "ခွဲစိတ်မှု အောင်မြင်စွာ ပြီးဆုံးခဲ့သော်လည်း အပြည့်အဝ ပြန်လည်သက်သာရန် အချိန်အတိုင်းအတာတစ်ခု လိုအပ်မည်ဖြစ်သည်။"
+      },
+      "translationMy": "ခွဲစိတ်မှု အောင်မြင်စွာ ပြီးဆုံးခဲ့သော်လည်း အပြည့်အဝ ပြန်လည်သက်သာရန် အချိန်အတိုင်းအတာတစ်ခု လိုအပ်မည်ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l33.v010",
+        "n2.l33.v011"
+      ],
+      "grammarIds": [
+        "n2.l33.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.s003",
+      "lessonId": "n2.l33",
+      "ja": "給与水準は改善されたものの、業務量の増大が従業員の健康を阻害している。",
+      "kana": "きゅうよすいじゅんはかいぜんされたものの、ぎょうむりょうのぞうだいがじゅうぎょういんのけんこうをそがいしている。",
+      "translation": {
+        "en": "Although wage levels have improved, the escalation of workload is impeding employees' well-being.",
+        "my": "လစာအဆင့်အတန်း တိုးတက်လာခဲ့သော်လည်း လုပ်ငန်းပမာဏ များပြားလာခြင်းက ဝန်ထမ်းများ၏ ကျန်းမာရေးကို ထိခိုက်စေလျက်ရှိသည်။"
+      },
+      "translationMy": "လစာအဆင့်အတန်း တိုးတက်လာခဲ့သော်လည်း လုပ်ငန်းပမာဏ များပြားလာခြင်းက ဝန်ထမ်းများ၏ ကျန်းမာရေးကို ထိခိုက်စေလျက်ရှိသည်။",
+      "vocabIds": [
+        "n2.l33.v003",
+        "n2.l33.v010"
+      ],
+      "grammarIds": [
+        "n2.l33.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.s004",
+      "lessonId": "n2.l33",
+      "ja": "双方ともに一定の譲歩を示したものの、最終的な合意には至らなかった。",
+      "kana": "そうほうともにいっていのじょうほをしめしたものの、さいしゅうてきなごういにはいたらなかった。",
+      "translation": {
+        "en": "Although both sides demonstrated a degree of concession, they failed to reach a definitive agreement.",
+        "my": "နှစ်ဖက်စလုံး အတိုင်းအတာတစ်ခုအထိ အလျှော့ပေးပြသခဲ့ကြသော်ငြားလည်း နောက်ဆုံးသဘောတူညီချက်သို့ မရောက်ရှိနိုင်ခဲ့ပေ။"
+      },
+      "translationMy": "နှစ်ဖက်စလုံး အတိုင်းအတာတစ်ခုအထိ အလျှော့ပေးပြသခဲ့ကြသော်ငြားလည်း နောက်ဆုံးသဘောတူညီချက်သို့ မရောက်ရှိနိုင်ခဲ့ပေ။",
+      "vocabIds": [
+        "n2.l33.v001",
+        "n2.l33.v009"
+      ],
+      "grammarIds": [
+        "n2.l33.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.s005",
+      "lessonId": "n2.l33",
+      "ja": "医師による度重なる警告にもかかわらず、彼は激務を続けて倒れてしまった。",
+      "kana": "いしによるたびかさなるけいこくにもかかわらず、かれはげきむをつづけてたおれてしまった。",
+      "translation": {
+        "en": "In spite of repeated warnings from his physician, he persisted with grueling work and collapsed.",
+        "my": "ဆရာဝန်၏ ထပ်တလဲလဲ သတိပေးမှုများ ရှိနေသည့်တိုင် မငဲ့ကွက်ဘဲ သူသည် အလုပ်ကြမ်းများ ဆက်လုပ်ရာမှ လဲကျသွားခဲ့သည်။"
+      },
+      "translationMy": "ဆရာဝန်၏ ထပ်တလဲလဲ သတိပေးမှုများ ရှိနေသည့်တိုင် မငဲ့ကွက်ဘဲ သူသည် အလုပ်ကြမ်းများ ဆက်လုပ်ရာမှ လဲကျသွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l33.v003",
+        "n2.l33.v008"
+      ],
+      "grammarIds": [
+        "n2.l33.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.s006",
+      "lessonId": "n2.l33",
+      "ja": "暴風雨警報が発令されていたにもかかわらず、登山隊は頂上を目指して出発した。",
+      "kana": "ぼうふううけいほうがはつれいされていたにもかかわらず、とざんたいはちょうじょうをめざしてしゅっぱつした。",
+      "translation": {
+        "en": "Despite a storm warning having been issued, the mountaineering team departed aiming for the summit.",
+        "my": "မုန်တိုင်းသတိပေးချက် ထုတ်ပြန်ထားလင့်ကစား တောင်တက်အဖွဲ့သည် တောင်ထိပ်သို့ ဦးတည်ထွက်ခွာသွားခဲ့သည်။"
+      },
+      "translationMy": "မုန်တိုင်းသတိပေးချက် ထုတ်ပြန်ထားလင့်ကစား တောင်တက်အဖွဲ့သည် တောင်ထိပ်သို့ ဦးတည်ထွက်ခွာသွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l33.v006",
+        "n2.l33.v012"
+      ],
+      "grammarIds": [
+        "n2.l33.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.s007",
+      "lessonId": "n2.l33",
+      "ja": "激しい経済制裁にも屈服せず、その国は独自の軍事路線を堅持している。",
+      "kana": "はげしいけいざいせいさいにもくっぷくせず、そのくにはどくじのぐんじろせんをけんじしている。",
+      "translation": {
+        "en": "Without yielding to severe economic sanctions, that nation tenaciously adheres to its independent military course.",
+        "my": "ပြင်းထန်သော စီးပွားရေးပိတ်ဆို့မှုများကို ဒူးမထောက်ဘဲ ထိုနိုင်ငံသည် ကိုယ်ပိုင်စစ်ရေးလမ်းစဉ်ကို ခိုင်မာစွာ ဆုပ်ကိုင်ထားသည်။"
+      },
+      "translationMy": "ပြင်းထန်သော စီးပွားရေးပိတ်ဆို့မှုများကို ဒူးမထောက်ဘဲ ထိုနိုင်ငံသည် ကိုယ်ပိုင်စစ်ရေးလမ်းစဉ်ကို ခိုင်မာစွာ ဆုပ်ကိုင်ထားသည်။",
+      "vocabIds": [
+        "n2.l33.v005",
+        "n2.l33.v012"
+      ],
+      "grammarIds": [
+        "n2.l33.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.s008",
+      "lessonId": "n2.l33",
+      "ja": "多数の反対意見が存在したにもかかわらず、取締役会は買収計画を承認した。",
+      "kana": "たすうのはんたいいけんがそんざいしたにもかかわらず、とりしまりやくかいはばいしゅうけいかくをしょうにんした。",
+      "translation": {
+        "en": "Despite the presence of numerous dissenting voices, the board of directors approved the acquisition plan.",
+        "my": "ကန့်ကွက်သံများစွာ ရှိနေလင့်ကစား ဒါရိုက်တာဘုတ်အဖွဲ့သည် ကုမ္ပဏီဝယ်ယူရေး အစီအစဉ်ကို အတည်ပြုပေးခဲ့သည်။"
+      },
+      "translationMy": "ကန့်ကွက်သံများစွာ ရှိနေလင့်ကစား ဒါရိုက်တာဘုတ်အဖွဲ့သည် ကုမ္ပဏီဝယ်ယူရေး အစီအစဉ်ကို အတည်ပြုပေးခဲ့သည်။",
+      "vocabIds": [
+        "n2.l33.v004",
+        "n2.l33.v007"
+      ],
+      "grammarIds": [
+        "n2.l33.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.s009",
+      "lessonId": "n2.l33",
+      "ja": "古い洋館を改修したといっても、内装の一部を塗り替えたにすぎない。",
+      "kana": "ふるいようかんをかいしゅうしたといっても、ないそうのいちぶをぬりかえたにすぎない。",
+      "translation": {
+        "en": "Although we renovated the old mansion, it merely amounts to repainting part of the interior.",
+        "my": "အဆောက်အအုံဟောင်းကို ပြုပြင်မွမ်းမံခဲ့သည်ဟု ဆိုသော်ငြားလည်း အတွင်းပိုင်း အနည်းငယ်ကို ဆေးပြန်သုတ်ရုံမျှသာ ဖြစ်သည်။"
+      },
+      "translationMy": "အဆောက်အအုံဟောင်းကို ပြုပြင်မွမ်းမံခဲ့သည်ဟု ဆိုသော်ငြားလည်း အတွင်းပိုင်း အနည်းငယ်ကို ဆေးပြန်သုတ်ရုံမျှသာ ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l33.v002",
+        "n2.l33.v003"
+      ],
+      "grammarIds": [
+        "n2.l33.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.s010",
+      "lessonId": "n2.l33",
+      "ja": "景気が回復基調にあるといっても、中小企業の現場にはその恩恵が届いていない。",
+      "kana": "けいきがかいふくきちょうにあるといっても、ちゅうしょうきぎょうのげんばにはそのおんけいがとどいていない。",
+      "translation": {
+        "en": "Even though people say the economy is on a recovery track, those benefits have not reached small businesses.",
+        "my": "စီးပွားရေး ပြန်လည်ဦးမော့လာသည်ဟု ဆိုသော်ငြားလည်း အသေးစားနှင့် အလတ်စား စီးပွားရေးလုပ်ငန်းများဆီသို့ ထိုအကျိုးကျေးဇူး မရောက်ရှိသေးပေ။"
+      },
+      "translationMy": "စီးပွားရေး ပြန်လည်ဦးမော့လာသည်ဟု ဆိုသော်ငြားလည်း အသေးစားနှင့် အလတ်စား စီးပွားရေးလုပ်ငန်းများဆီသို့ ထိုအကျိုးကျေးဇူး မရောက်ရှိသေးပေ။",
+      "vocabIds": [
+        "n2.l33.v007",
+        "n2.l33.v011"
+      ],
+      "grammarIds": [
+        "n2.l33.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.s011",
+      "lessonId": "n2.l33",
+      "ja": "不屈の精神を持っているといっても、過度の疲労が蓄積すれば誰でも限界を迎える。",
+      "kana": "ふくつのせいしんをもっているといっても、かどのひろうがちくせきすればだれでもげんかいをむかえる。",
+      "translation": {
+        "en": "Even if one is said to possess an indomitable spirit, anyone will reach their limit if extreme fatigue accumulates.",
+        "my": "ဇွဲမလျှော့သော စိတ်ဓာတ်ရှိသည်ဟု ဆိုနိုင်သော်လည်း ပင်ပန်းနွမ်းနယ်မှု လွန်ကဲလာပါက မည်သူမဆို ကန့်သတ်ချက်သို့ ရောက်ရှိသွားမည်ဖြစ်သည်။"
+      },
+      "translationMy": "ဇွဲမလျှော့သော စိတ်ဓာတ်ရှိသည်ဟု ဆိုနိုင်သော်လည်း ပင်ပန်းနွမ်းနယ်မှု လွန်ကဲလာပါက မည်သူမဆို ကန့်သတ်ချက်သို့ ရောက်ရှိသွားမည်ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l33.v006",
+        "n2.l33.v011"
+      ],
+      "grammarIds": [
+        "n2.l33.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l33.s012",
+      "lessonId": "n2.l33",
+      "ja": "専門家として認められたといっても、まだ実務経験はわずか三年足らずだ。",
+      "kana": "せんもんかとしてみとめられたといっても、まだじつむけいけんはわずかさんねんたらずだ。",
+      "translation": {
+        "en": "Even though recognized as a specialist, his actual practical experience is scarcely under three years.",
+        "my": "ကျွမ်းကျင်သူအဖြစ် အသိအမှတ်ပြုခံရသည်ဟု ဆိုသော်ငြားလည်း လက်တွေ့လုပ်ငန်း အတွေ့အကြုံမှာ ၃ နှစ်ပင် မပြည့်သေးပေ။"
+      },
+      "translationMy": "ကျွမ်းကျင်သူအဖြစ် အသိအမှတ်ပြုခံရသည်ဟု ဆိုသော်ငြားလည်း လက်တွေ့လုပ်ငန်း အတွေ့အကြုံမှာ ၃ နှစ်ပင် မပြည့်သေးပေ။",
+      "vocabIds": [
+        "n2.l33.v003",
+        "n2.l33.v004"
+      ],
+      "grammarIds": [
+        "n2.l33.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l33.r001",
+    "lessonId": "n2.l33",
+    "title": "妥協なき理念と現実的認識の葛藤",
+    "level": "N2",
+    "text": "組織改革に着手したものの、現場の根強い反発に直面して計画の修正を余儀なくされた。経営陣は理念の堅持を掲げたにもかかわらず、具体的な実行段階においては幾度もの妥協を重ねざるを得なかった。改革に成功したといっても、実質的には組織内の対立構造を表面化させたにすぎないという厳しい指摘もある。しかし、いかなる困難にも屈服しない不屈の姿勢こそが、長期的には組織の自己変革能力を高める契機となるに相違ない。",
+    "kanaText": "そしきかいかくにちゃくしゅしたものの、げんばのねづよいはんぱつにちょくめんしてけいかくのしゅうせいをよぎなくされた。けいえいじんはりねんのけんじをかかげたにもかかわらず、ぐたいてきなじっこうだんかいにおいてはいくどもんだきょうをかさねざるをえなかった。かいかくにせいこうしたといっても、じっしつてきにはそしきないのたいりつこうぞうをひょうめんかさせたにすぎないというきびしいしてきもある。しかし、いかなるこんなんにもくっぷくしないふくつのしせいこそが、ちょうきてきにはそしきのじこへんかくのうりょくをたかめるけいきとなるにそういない。",
+    "translation": "အဖွဲ့အစည်း ပြုပြင်ပြောင်းလဲမှုကို စတင်ခဲ့သော်ငြားလည်း လက်တွေ့လုပ်ငန်းခွင်၏ ပြင်းထန်သော တွန်းလှန်မှုများနှင့် ရင်ဆိုင်ခဲ့ရသဖြင့် အစီအစဉ်ကို ပြင်ဆင်ခဲ့ရသည်။ စီမံခန့်ခွဲသူများသည် မူလခံယူချက်ကို ခိုင်မာစွာ ဆုပ်ကိုင်ထားသည်ဟု ဆိုလင့်ကစား လက်တွေ့အကောင်အထည်ဖော်ရာတွင် အကြိမ်ကြိမ် အလျှော့ပေးညှိနှိုင်းခဲ့ရသည်။ ပြုပြင်ပြောင်းလဲမှု အောင်မြင်ခဲ့သည်ဟု ဆိုသော်ငြားလည်း လက်တွေ့တွင် အဖွဲ့အစည်းတွင်း ပဋိပက္ခများကို အပေါ်ယံ ပေါ်လွင်စေရုံမျှသာ ဖြစ်သည်ဟု ဝေဖန်မှုများ ရှိနေသည်။ သို့သော် အခက်အခဲများကို ဒူးမထောက်သော မဆုတ်မနစ် စိတ်ဓာတ်သည် ရေရှည်တွင် အဖွဲ့အစည်း၏ အသွင်ပြောင်းလဲရေး စွမ်းရည်ကို မြှင့်တင်ပေးမည်မှာ သေချာပေသည်။",
+    "translationMy": "အဖွဲ့အစည်း ပြုပြင်ပြောင်းလဲမှုကို စတင်ခဲ့သော်ငြားလည်း လက်တွေ့လုပ်ငန်းခွင်၏ ပြင်းထန်သော တွန်းလှန်မှုများနှင့် ရင်ဆိုင်ခဲ့ရသဖြင့် အစီအစဉ်ကို ပြင်ဆင်ခဲ့ရသည်။ စီမံခန့်ခွဲသူများသည် မူလခံယူချက်ကို ခိုင်မာစွာ ဆုပ်ကိုင်ထားသည်ဟု ဆိုလင့်ကစား လက်တွေ့အကောင်အထည်ဖော်ရာတွင် အကြိမ်ကြိမ် အလျှော့ပေးညှိနှိုင်းခဲ့ရသည်။ ပြုပြင်ပြောင်းလဲမှု အောင်မြင်ခဲ့သည်ဟု ဆိုသော်ငြားလည်း လက်တွေ့တွင် အဖွဲ့အစည်းတွင်း ပဋိပက္ခများကို အပေါ်ယံ ပေါ်လွင်စေရုံမျှသာ ဖြစ်သည်ဟု ဝေဖန်မှုများ ရှိနေသည်။ သို့သော် အခက်အခဲများကို ဒူးမထောက်သော မဆုတ်မနစ် စိတ်ဓာတ်သည် ရေရှည်တွင် အဖွဲ့အစည်း၏ အသွင်ပြောင်းလဲရေး စွမ်းရည်ကို မြှင့်တင်ပေးမည်မှာ သေချာပေသည်။",
+    "questionIds": [
+      "n2.l33.q025",
+      "n2.l33.q026",
+      "n2.l33.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "根強い",
+        "reading": "ねづよい",
+        "meaning": "deep-rooted / persistent",
+        "meaningMy": "deep-rooted / persistent",
+        "meaningMyanmar": "deep-rooted / persistent"
+      },
+      {
+        "term": "対立構造",
+        "reading": "たいりつこうぞう",
+        "meaning": "confrontational structure",
+        "meaningMy": "confrontational structure",
+        "meaningMyanmar": "confrontational structure"
+      },
+      {
+        "term": "自己変革",
+        "reading": "じこへんかく",
+        "meaning": "self-transformation",
+        "meaningMy": "self-transformation",
+        "meaningMyanmar": "self-transformation"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l33.lis001",
+    "lessonId": "n2.l33",
+    "title": "プロジェクト難航と方針転換の協議",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "松田部長",
+      "佐々木リーダー"
+    ],
+    "transcript": "松田部長: 新システム導入は進んでいるものの、現場からの不満が相次いでいますね。\n佐々木リーダー: 十分な研修を実施したにもかかわらず、操作の混乱が生じております。\n松田部長: 稼働を開始したといっても、まだ試験運用に近い段階だから無理もない。\n佐々木リーダー: 不屈の姿勢でサポートを継続し、早期の安定運用を目指します。",
+    "translation": "松田部長: စနစ်အသစ် ထည့်သွင်းမှုက တိုးတက်နေသော်ငြားလည်း လုပ်ငန်းခွင်က မကျေနပ်ချက်တွေ ဆက်တိုက်ထွက်ပေါ်နေတယ်နော်။\n佐々木リーダー: လုံလောက်တဲ့ သင်တန်းတွေ ပြုလုပ်ပေးခဲ့လင့်ကစား အသုံးပြုရာမှာ ရှုပ်ထွေးမှုတွေ ဖြစ်ပေါ်နေပါတယ်။\n松田部長: စတင်လည်ပတ်နေပြီလို့ ဆိုသော်ငြားလည်း စမ်းသပ်ကာလနီးပါး အဆင့်ပဲ ရှိသေးတာမို့ မဆန်းပါဘူး။\n佐々木リーダー: ဇွဲမလျှော့တဲ့ စိတ်ဓာတ်နဲ့ ဆက်လက်ကူညီပံ့ပိုးပြီး အမြန်ဆုံး တည်ငြိမ်လာအောင် ဆောင်ရွက်ပါမယ်။",
+    "translationMy": "松田部長: စနစ်အသစ် ထည့်သွင်းမှုက တိုးတက်နေသော်ငြားလည်း လုပ်ငန်းခွင်က မကျေနပ်ချက်တွေ ဆက်တိုက်ထွက်ပေါ်နေတယ်နော်။\n佐々木リーダー: လုံလောက်တဲ့ သင်တန်းတွေ ပြုလုပ်ပေးခဲ့လင့်ကစား အသုံးပြုရာမှာ ရှုပ်ထွေးမှုတွေ ဖြစ်ပေါ်နေပါတယ်။\n松田部長: စတင်လည်ပတ်နေပြီလို့ ဆိုသော်ငြားလည်း စမ်းသပ်ကာလနီးပါး အဆင့်ပဲ ရှိသေးတာမို့ မဆန်းပါဘူး။\n佐々木リーダー: ဇွဲမလျှော့တဲ့ စိတ်ဓာတ်နဲ့ ဆက်လက်ကူညီပံ့ပိုးပြီး အမြန်ဆုံး တည်ငြိမ်လာအောင် ဆောင်ရွက်ပါမယ်။",
+    "turns": [
+      {
+        "speaker": "松田部長",
+        "ja": "新システム導入は進んでいるものの、現場からの不満が相次いでいますね。",
+        "kana": "しんシステムどうにゅうはすすんでいるものの、げんばからのふまんがあいついでいますね。",
+        "en": "Although the new system implementation is advancing, complaints from the field are mounting, aren't they?",
+        "my": "စနစ်အသစ် ထည့်သွင်းမှုက တိုးတက်နေသော်ငြားလည်း လုပ်ငန်းခွင်က မကျေနပ်ချက်တွေ ဆက်တိုက်ထွက်ပေါ်နေတယ်နော်။",
+        "translationMy": "စနစ်အသစ် ထည့်သွင်းမှုက တိုးတက်နေသော်ငြားလည်း လုပ်ငန်းခွင်က မကျေနပ်ချက်တွေ ဆက်တိုက်ထွက်ပေါ်နေတယ်နော်။",
+        "myanmar": "စနစ်အသစ် ထည့်သွင်းမှုက တိုးတက်နေသော်ငြားလည်း လုပ်ငန်းခွင်က မကျေနပ်ချက်တွေ ဆက်တိုက်ထွက်ပေါ်နေတယ်နော်။"
+      },
+      {
+        "speaker": "佐々木リーダー",
+        "ja": "十分な研修を実施したにもかかわらず、操作の混乱が生じております。",
+        "kana": "じゅうぶんなけんしゅうをじっししたにもかかわらず、そうさのこんらんがしょうじております。",
+        "en": "Despite having conducted ample training sessions, confusion in operations has arisen.",
+        "my": "လုံလောက်တဲ့ သင်တန်းတွေ ပြုလုပ်ပေးခဲ့လင့်ကစား အသုံးပြုရာမှာ ရှုပ်ထွေးမှုတွေ ဖြစ်ပေါ်နေပါတယ်။",
+        "translationMy": "လုံလောက်တဲ့ သင်တန်းတွေ ပြုလုပ်ပေးခဲ့လင့်ကစား အသုံးပြုရာမှာ ရှုပ်ထွေးမှုတွေ ဖြစ်ပေါ်နေပါတယ်။",
+        "myanmar": "လုံလောက်တဲ့ သင်တန်းတွေ ပြုလုပ်ပေးခဲ့လင့်ကစား အသုံးပြုရာမှာ ရှုပ်ထွေးမှုတွေ ဖြစ်ပေါ်နေပါတယ်။"
+      },
+      {
+        "speaker": "松田部長",
+        "ja": "稼働を開始したといっても、まだ試験運用に近い段階だから無理もない。",
+        "kana": "かどうをかいししたといっても、まだしけんうんようにちかいだんかいだからむりもない。",
+        "en": "Even though we started operations, it is still close to a trial stage, so it is understandable.",
+        "my": "စတင်လည်ပတ်နေပြီလို့ ဆိုသော်ငြားလည်း စမ်းသပ်ကာလနီးပါး အဆင့်ပဲ ရှိသေးတာမို့ မဆန်းပါဘူး။",
+        "translationMy": "စတင်လည်ပတ်နေပြီလို့ ဆိုသော်ငြားလည်း စမ်းသပ်ကာလနီးပါး အဆင့်ပဲ ရှိသေးတာမို့ မဆန်းပါဘူး။",
+        "myanmar": "စတင်လည်ပတ်နေပြီလို့ ဆိုသော်ငြားလည်း စမ်းသပ်ကာလနီးပါး အဆင့်ပဲ ရှိသေးတာမို့ မဆန်းပါဘူး။"
+      },
+      {
+        "speaker": "佐々木リーダー",
+        "ja": "不屈の姿勢でサポートを継続し、早期の安定運用を目指します。",
+        "kana": "ふくつのしせいでサポートをけいぞくし、そうきのあんていうんようをめざします。",
+        "en": "With an unyielding posture, we will continue support and aim for early stable operations.",
+        "my": "ဇွဲမလျှော့တဲ့ စိတ်ဓာတ်နဲ့ ဆက်လက်ကူညီပံ့ပိုးပြီး အမြန်ဆုံး တည်ငြိမ်လာအောင် ဆောင်ရွက်ပါမယ်။",
+        "translationMy": "ဇွဲမလျှော့တဲ့ စိတ်ဓာတ်နဲ့ ဆက်လက်ကူညီပံ့ပိုးပြီး အမြန်ဆုံး တည်ငြိမ်လာအောင် ဆောင်ရွက်ပါမယ်။",
+        "myanmar": "ဇွဲမလျှော့တဲ့ စိတ်ဓာတ်နဲ့ ဆက်လက်ကူညီပံ့ပိုးပြီး အမြန်ဆုံး တည်ငြိမ်လာအောင် ဆောင်ရွက်ပါမယ်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l33.q028",
+      "n2.l33.q029",
+      "n2.l33.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l33.q001",
+      "lessonId": "n2.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "主張を曲げて相手の意見を一部受け入れることを「[ _____ ]」という。",
+      "choices": [
+        "譲歩",
+        "屈服",
+        "認識",
+        "承認"
+      ],
+      "answer": "譲歩",
+      "explanation": "譲歩 (じょうほ) means concession / compromise.",
+      "explanationMy": "မိမိဘက်မှ အလျှော့ပေးလိုက်လျောခြင်းမှာ 譲歩 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q002",
+      "lessonId": "n2.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "権限や財産を他者へ譲り渡すことを「[ _____ ]」という。",
+      "choices": [
+        "移譲",
+        "承認",
+        "不屈",
+        "矛盾"
+      ],
+      "answer": "移譲",
+      "explanation": "移譲 (いじょう) means transfer or devolution.",
+      "explanationMy": "အခွင့်အာဏာ လွှဲပြောင်းပေးအပ်ခြင်းမှာ 移譲 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q003",
+      "lessonId": "n2.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "物事の本質をしっかりと見極めて理解することを「[ _____ ]」という。",
+      "choices": [
+        "認識",
+        "妥協",
+        "葛藤",
+        "阻害"
+      ],
+      "answer": "認識",
+      "explanation": "認識 (にんしき) means recognition or perception.",
+      "explanationMy": "အခြေအနေမှန်ကို သဘောပေါက်နားလည်ခြင်းမှာ 認識 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q004",
+      "lessonId": "n2.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "正当なものとして公式に認めることを「[ _____ ]」という。",
+      "choices": [
+        "承認",
+        "屈服",
+        "阻害",
+        "譲歩"
+      ],
+      "answer": "承認",
+      "explanation": "承認 (しょうにん) means approval / sanction.",
+      "explanationMy": "တရားဝင် အတည်ပြုထောက်ခံခြင်းမှာ 承認 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q005",
+      "lessonId": "n2.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "相手の力に屈して相手の言いなりになることを「[ _____ ]」という。",
+      "choices": [
+        "屈服",
+        "不屈",
+        "認識",
+        "移譲"
+      ],
+      "answer": "屈服",
+      "explanation": "屈服 (くっぷく) denotes submission or yielding.",
+      "explanationMy": "အင်အားကြီးသူထံ ဒူးထောက်အရှုံးပေးခြင်းမှာ 屈服 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q006",
+      "lessonId": "n2.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "どんな困難にも決してくじけない強い意志を「[ _____ ]の精神」という。",
+      "choices": [
+        "不屈",
+        "妥協",
+        "葛藤",
+        "矛盾"
+      ],
+      "answer": "不屈",
+      "explanation": "不屈 (ふくつ) means indomitable or unyielding.",
+      "explanationMy": "မည်သည့်အခက်အခဲကိုမဆို အလျှော့မပေးသော စိတ်ဓာတ်မှာ 不屈 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q007",
+      "lessonId": "n2.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "つじつまが合わず前後で食い違っている状態を「[ _____ ]」という。",
+      "choices": [
+        "矛盾",
+        "葛藤",
+        "阻害",
+        "堅持"
+      ],
+      "answer": "矛盾",
+      "explanation": "矛盾 (むじゅん) means contradiction.",
+      "explanationMy": "ရှေ့နောက်မညီ ကွဲလွဲနေသောအခြေအနေမှာ 矛盾 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q008",
+      "lessonId": "n2.l33",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "進行や発育を妨げて邪魔をすることを「[ _____ ]」という。",
+      "choices": [
+        "阻害",
+        "克服",
+        "承認",
+        "譲歩"
+      ],
+      "answer": "阻害",
+      "explanation": "阻害 (そがい) denotes impediment or obstruction.",
+      "explanationMy": "တိုးတက်မှုကို အဟန့်အတားဖြစ်စေခြင်းမှာ 阻害 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q009",
+      "lessonId": "n2.l33",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「譲」の音読みとして正しいものはどれか。",
+      "choices": [
+        "ジョウ",
+        "ショウ",
+        "ニョウ",
+        "チョウ"
+      ],
+      "answer": "ジョウ",
+      "explanation": "譲 has the onyomi ジョウ.",
+      "explanationMy": "譲 ၏ Onyomi အသံထွက်မှာ ジョウ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q010",
+      "lessonId": "n2.l33",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "単語「認識」の漢字「認」の訓読みはどれか。",
+      "choices": [
+        "みと・める",
+        "こと・なる",
+        "ゆず・る",
+        "かが・む"
+      ],
+      "answer": "みと・める",
+      "explanation": "認 carries the kunyomi みと・める.",
+      "explanationMy": "認 ၏ Kunyomi အသံထွက်မှာ みと・める ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q011",
+      "lessonId": "n2.l33",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「屈」の意味として適切なものはどれか。",
+      "choices": [
+        "まがる・かがむ・おれる",
+        "ゆるす・みとめる",
+        "ゆずる・わたす",
+        "くらべる・ならべる"
+      ],
+      "answer": "まがる・かがむ・おれる",
+      "explanation": "屈 means to bend, submit, or yield.",
+      "explanationMy": "屈 ၏ အဓိပ္ပာယ်မှာ ကွေးညွှတ်ခြင်း၊ ဒူးထောက်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q012",
+      "lessonId": "n2.l33",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「不屈」の正しい読み方はどれか。",
+      "choices": [
+        "ふくつ",
+        "ふくっ",
+        "ふしゅつ",
+        "ぶくつ"
+      ],
+      "answer": "ふくつ",
+      "explanation": "不屈 is read as ふくつ.",
+      "explanationMy": "不屈 ၏ အသံထွက်မှာ ふくつ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q013",
+      "lessonId": "n2.l33",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "部首「言（ごんべん）」を持つ「譲」の総画数はいくつか。",
+      "choices": [
+        "20画",
+        "18画",
+        "19画",
+        "21画"
+      ],
+      "answer": "20画",
+      "explanation": "譲 has 20 strokes.",
+      "explanationMy": "譲 စာလုံး၏ စုစုပေါင်း မျဉ်းဆွဲချက်မှာ ၂၀ ချက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q014",
+      "lessonId": "n2.l33",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「承認」の正しい読み方はどれか。",
+      "choices": [
+        "しょうにん",
+        "じょうにん",
+        "しょうじん",
+        "そうにん"
+      ],
+      "answer": "しょうにん",
+      "explanation": "承認 is read as しょうにん.",
+      "explanationMy": "承認 ၏ အသံထွက်မှာ しょうにん ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q015",
+      "lessonId": "n2.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "新薬の開発に成功した[ _____ ]、実用化にはまだ多くの課題が残されている。",
+      "choices": [
+        "ものの",
+        "にもかかわらず",
+        "といっても",
+        "ばかりに"
+      ],
+      "answer": "ものの",
+      "explanation": "ものの concedes initial success while introducing remaining challenges.",
+      "explanationMy": "ဆေးသစ် အောင်မြင်ခဲ့သော်လည်း အခက်အခဲ ကျန်ရှိနေသေးမှုကို ものの ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q016",
+      "lessonId": "n2.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "医師の警告[ _____ ]、彼は激務を続けて健康を害した。",
+      "choices": [
+        "にもかかわらず",
+        "ものの",
+        "といっても",
+        "にしたがって"
+      ],
+      "answer": "にもかかわらず",
+      "explanation": "にもかかわらず marks defiance of the doctor's warnings.",
+      "explanationMy": "ဆရာဝန်၏ သတိပေးချက် ရှိနေသည့်တိုင် မငဲ့ကွက်ဘဲ အလုပ်ကြမ်းလုပ်ခဲ့မှုကို にもかかわらず ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q017",
+      "lessonId": "n2.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "家を買った[ _____ ]、築40年の小さな中古物件にすぎない。",
+      "choices": [
+        "といっても",
+        "ものの",
+        "にもかかわらず",
+        "に反して"
+      ],
+      "answer": "といっても",
+      "explanation": "といっても tempers the impressive idea of buying a house.",
+      "explanationMy": "အိမ်ဝယ်ခဲ့သည်ဟု ဆိုသော်ငြား ဟောင်းနွမ်းသောအိမ်မျှသာ ဖြစ်ကြောင်း といっても ဖြင့် ရှင်းပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q018",
+      "lessonId": "n2.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "春とはいう[ _____ ]、朝晩はまだまだ真冬のような冷え込みが続く。",
+      "choices": [
+        "ものの",
+        "にもかかわらず",
+        "といっても",
+        "につれて"
+      ],
+      "answer": "ものの",
+      "explanation": "春とはいうものの expresses concession about the calendar season vs temperature.",
+      "explanationMy": "နွေဦးရောက်ပြီ ဆိုသော်ငြား ချမ်းစိမ့်နေဆဲဖြစ်မှုကို ものの ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q019",
+      "lessonId": "n2.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "激しい嵐[ _____ ]、救助隊は遭難者の捜索を果敢に継続した。",
+      "choices": [
+        "にもかかわらず",
+        "ものの",
+        "といっても",
+        "に比べて"
+      ],
+      "answer": "にもかかわらず",
+      "explanation": "にもかかわらず captures bold continuation despite the violent storm.",
+      "explanationMy": "မုန်တိုင်းပြင်းထန်နေလင့်ကစား ကယ်ဆယ်ရေးလုပ်ငန်း ဆက်လုပ်ခဲ့မှုကို にもかかわらず ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q020",
+      "lessonId": "n2.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "日本語が話せる[ _____ ]、日常の簡単な挨拶ができる程度です。",
+      "choices": [
+        "といっても",
+        "ものの",
+        "にもかかわらず",
+        "反面"
+      ],
+      "answer": "といっても",
+      "explanation": "といっても clarifies the modest scope of language ability.",
+      "explanationMy": "ဂျပန်စကား ပြောနိုင်သည် ဆိုသော်ငြား နှုတ်ဆက်ရုံမျှသာဖြစ်ကြောင်း といっても ဖြင့် နှိမ့်ချသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q021",
+      "lessonId": "n2.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "給与は増額された[ _____ ]、物価高騰の影響で生活は楽になっていない。",
+      "choices": [
+        "ものの",
+        "にもかかわらず",
+        "といっても",
+        "に伴って"
+      ],
+      "answer": "ものの",
+      "explanation": "ものの concedes wage rise while stating life hasn't gotten easier.",
+      "explanationMy": "လစာတိုးသော်လည်း ကုန်ဈေးနှုန်းကြောင့် သက်သာမလာမှုကို ものの ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q022",
+      "lessonId": "n2.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "周囲の強い反対[ _____ ]、彼は海外での起業に踏み切った。",
+      "choices": [
+        "にもかかわらず",
+        "ものの",
+        "といっても",
+        "に沿って"
+      ],
+      "answer": "にもかかわらず",
+      "explanation": "にもかかわらず reflects defying surrounding opposition.",
+      "explanationMy": "ပတ်ဝန်းကျင်၏ ကန့်ကွက်မှုများကြားမှ စွန့်စားလုပ်ကိုင်ခဲ့မှုကို にもかかわらず ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q023",
+      "lessonId": "n2.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "プロの音楽家だ[ _____ ]、まだCDを一枚もリリースしていない。",
+      "choices": [
+        "といっても",
+        "ものの",
+        "にもかかわらず",
+        "からこそ"
+      ],
+      "answer": "といっても",
+      "explanation": "といっても clarifies the modest reality of being a professional musician.",
+      "explanationMy": "ဂီတပညာရှင်ဟု ဆိုသော်ငြား အခွေမထွက်သေးကြောင်း といっても ဖြင့် ရှင်းပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q024",
+      "lessonId": "n2.l33",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "書類は一通り提出した[ _____ ]、追加の審査が必要になる可能性がある。",
+      "choices": [
+        "ものの",
+        "にもかかわらず",
+        "といっても",
+        "てならない"
+      ],
+      "answer": "ものの",
+      "explanation": "ものの acknowledges document submission while qualifying with possible extra review.",
+      "explanationMy": "စာရွက်စာတမ်း တင်ခဲ့သော်ငြား စစ်ဆေးမှု ထပ်လိုနိုင်သေးကြောင်း ものの ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q025",
+      "lessonId": "n2.l33",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "組織改革に着手したものの、実際に直面した事態は何か。",
+      "choices": [
+        "現場の根強い反発に直面し、計画の修正を余儀なくされた",
+        "全社員が一丸となって無条件で歓迎した",
+        "経営陣全員が即座に退任した",
+        "予算が余剰となり即座に新規事業を開始した"
+      ],
+      "answer": "現場の根強い反発に直面し、計画の修正を余儀なくされた",
+      "explanation": "The opening sentence explicitly records facing strong frontline pushback.",
+      "explanationMy": "လက်တွေ့လုပ်ငန်းခွင်မှ ပြင်းထန်စွာ ကန့်ကွက်မှုများကြောင့် အစီအစဉ် ပြင်ဆင်ခဲ့ရသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q026",
+      "lessonId": "n2.l33",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "経営陣の行動について、「にもかかわらず」を使って述べられている内容はどれか。",
+      "choices": [
+        "理念の堅持を掲げたにもかかわらず、実行段階で幾度も妥協を重ねた",
+        "現場の反対があったにもかかわらず、妥協を一切拒否した",
+        "法的な承認が得られなかったにもかかわらず、全員を解雇した",
+        "赤字が拡大したにもかかわらず、給与を一律倍増させた"
+      ],
+      "answer": "理念の堅持を掲げたにもかかわらず、実行段階で幾度も妥協を重ねた",
+      "explanation": "The text states: '理念の堅持を掲げたにもかかわらず、具体的な実行段階においては幾度もの妥協を重ねざるを得なかった'.",
+      "explanationMy": "မူလခံယူချက်ကို စောင့်ထိန်းမည်ဟု ကြွေးကြော်ခဲ့သော်လည်း လက်တွေ့တွင် အကြိမ်ကြိမ် အလျှော့ပေးခဲ့ရသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q027",
+      "lessonId": "n2.l33",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "「改革に成功したといっても」に続く筆者の評価はどのようなものか。",
+      "choices": [
+        "実質的には組織内の対立構造を表面化させたにすぎないという厳しい指摘もある",
+        "世界市場で圧倒的なシェアを獲得した",
+        "全従業員の満足度が過去最高水準に達した",
+        "もはや将来にわたる一切の課題が存在しない"
+      ],
+      "answer": "実質的には組織内の対立構造を表面化させたにすぎないという厳しい指摘もある",
+      "explanation": "The text highlights the critique that it merely brought internal conflicts to the surface.",
+      "explanationMy": "အောင်မြင်သည်ဟု ဆိုသော်လည်း လက်တွေ့တွင် ပဋိပက္ခများကို အပေါ်ယံ ပေါ်ပေါက်စေရုံမျှသာ ဖြစ်သည်ဟု ဝေဖန်ခံရသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q028",
+      "lessonId": "n2.l33",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "新システム導入の現状について、松田部長は何と述べているか。",
+      "choices": [
+        "導入は進んでいるものの、現場からの不満が相次いでいる",
+        "導入が完全に頓挫し、旧システムに戻した",
+        "現場の従業員全員が絶賛している",
+        "予算が不足してサーバーが停止した"
+      ],
+      "answer": "導入は進んでいるものの、現場からの不満が相次いでいる",
+      "explanation": "Matsuda observes that while implementation proceeds, complaints keep coming.",
+      "explanationMy": "စနစ်အသစ် အကောင်အထည်ပေါ်နေသော်လည်း ဝေဖန်မကျေနပ်မှုများ ဆက်တိုက်ထွက်ပေါ်နေသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q029",
+      "lessonId": "n2.l33",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "佐々木リーダーが指摘した「研修実施にもかかわらず」生じた事態は何か。",
+      "choices": [
+        "操作の混乱が生じていること",
+        "受講者全員が退社したこと",
+        "システムのデータがすべて消失したこと",
+        "研修費用が支払われなかったこと"
+      ],
+      "answer": "操作の混乱が生じていること",
+      "explanation": "Sasaki notes confusion arose despite extensive training.",
+      "explanationMy": "သင်တန်းများ ပေးခဲ့သော်လည်း ကိုင်တွယ်အသုံးပြုရာတွင် ရှုပ်ထွေးမှုများ ဖြစ်ပေါ်နေသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l33.q030",
+      "lessonId": "n2.l33",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "松田部長は現在の稼働状況をどのように捉えているか。",
+      "choices": [
+        "稼働を開始したといっても、まだ試験運用に近い段階である",
+        "すでに完璧な本番稼働として完成している",
+        "来週中に全プロジェクトを中止すべきである",
+        "外部委託会社に全責任を転嫁すべきである"
+      ],
+      "answer": "稼働を開始したといっても、まだ試験運用に近い段階である",
+      "explanation": "Matsuda tempers the situation by noting it is still virtually at a trial stage.",
+      "explanationMy": "စတင်လည်ပတ်ပြီ ဆိုသော်ငြား စမ်းသပ်အဆင့်နီးပါးသာ ရှိသေးကြောင်း သဘောပေါက်ထားသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l33.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+};

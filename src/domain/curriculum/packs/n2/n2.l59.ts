@@ -1,0 +1,1792 @@
+import { LessonPack } from '../../../models/types';
+
+export const n2l59Data: LessonPack = {
+  "id": "n2.l59",
+  "level": "N2",
+  "module": "N2 Mastery & Professional Japanese",
+  "number": 59,
+  "title": "N2 Lesson 59: Comprehensive Review & Synthesis Part 1 (総まとめ・Can-do & High-Yield Patterns)",
+  "description": "Capstone Synthesis Module Part 1 integrating core JLPT N2 communicative competencies: definitive core causes (にほかならない), transformative systemic triggers (を契機に), and inescapable compulsion (ざるを得ない).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l59.v001",
+      "lessonId": "n2.l59",
+      "ja": "総合",
+      "kana": "そうごう",
+      "en": "synthesis / composite",
+      "my": "ဘက်စုံခြုံငုံစုစည်းမှု",
+      "meaningMy": "ဘက်စုံခြုံငုံစုစည်းမှု",
+      "meaningMyanmar": "ဘက်စုံခြုံငုံစုစည်းမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l59.s001",
+      "kanjiIds": [
+        "n2.l59.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.v002",
+      "lessonId": "n2.l59",
+      "ja": "総括",
+      "kana": "そうかつ",
+      "en": "summary / generalization",
+      "my": "ခြုံငုံသုံးသပ်ချက်",
+      "meaningMy": "ခြုံငုံသုံးသပ်ချက်",
+      "meaningMyanmar": "ခြုံငုံသုံးသပ်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l59.s002",
+      "kanjiIds": [
+        "n2.l59.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.v003",
+      "lessonId": "n2.l59",
+      "ja": "総意",
+      "kana": "そうい",
+      "en": "consensus / collective will",
+      "my": "အများသဘောဆန္ဒ",
+      "meaningMy": "အများသဘောဆန္ဒ",
+      "meaningMyanmar": "အများသဘောဆန္ဒ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l59.s003",
+      "kanjiIds": [
+        "n2.l59.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.v004",
+      "lessonId": "n2.l59",
+      "ja": "一括",
+      "kana": "いっかつ",
+      "en": "lump sum / bundling",
+      "my": "အစုလိုက်အပြုံလိုက်",
+      "meaningMy": "အစုလိုက်အပြုံလိုက်",
+      "meaningMyanmar": "အစုလိုက်အပြုံလိုက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l59.s004",
+      "kanjiIds": [
+        "n2.l59.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.v005",
+      "lessonId": "n2.l59",
+      "ja": "統括",
+      "kana": "とうかつ",
+      "en": "general control / supervision",
+      "my": "ခြုံငုံကြီးကြပ်ခြင်း",
+      "meaningMy": "ခြုံငုံကြီးကြပ်ခြင်း",
+      "meaningMyanmar": "ခြုံငုံကြီးကြပ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l59.s005",
+      "kanjiIds": [
+        "n2.l59.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.v006",
+      "lessonId": "n2.l59",
+      "ja": "網羅",
+      "kana": "もうら",
+      "en": "exhaustive coverage",
+      "my": "အလုံးစုံပြည့်စုံစွာပါဝင်မှု",
+      "meaningMy": "အလုံးစုံပြည့်စုံစွာပါဝင်မှု",
+      "meaningMyanmar": "အလုံးစုံပြည့်စုံစွာပါဝင်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l59.s006",
+      "kanjiIds": [
+        "n2.l59.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.v007",
+      "lessonId": "n2.l59",
+      "ja": "体系",
+      "kana": "たいけい",
+      "en": "system / organization",
+      "my": "စနစ်တကျတည်ဆောက်မှု",
+      "meaningMy": "စနစ်တကျတည်ဆောက်မှု",
+      "meaningMyanmar": "စနစ်တကျတည်ဆောက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l59.s007",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.v008",
+      "lessonId": "n2.l59",
+      "ja": "習得",
+      "kana": "しゅうとく",
+      "en": "acquisition / mastery",
+      "my": "ကျွမ်းကျင်တတ်မြောက်ခြင်း",
+      "meaningMy": "ကျွမ်းကျင်တတ်မြောက်ခြင်း",
+      "meaningMyanmar": "ကျွမ်းကျင်တတ်မြောက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l59.s008",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.v009",
+      "lessonId": "n2.l59",
+      "ja": "把握",
+      "kana": "はあく",
+      "en": "grasp / comprehension",
+      "my": "သဘောပေါက်နားလည်ခြင်း",
+      "meaningMy": "သဘောပေါက်နားလည်ခြင်း",
+      "meaningMyanmar": "သဘောပေါက်နားလည်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l59.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.v010",
+      "lessonId": "n2.l59",
+      "ja": "克服",
+      "kana": "こくふく",
+      "en": "overcoming / conquest",
+      "my": "ကျော်လွှားအောင်မြင်ခြင်း",
+      "meaningMy": "ကျော်လွှားအောင်မြင်ခြင်း",
+      "meaningMyanmar": "ကျော်လွှားအောင်မြင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l59.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.v011",
+      "lessonId": "n2.l59",
+      "ja": "蓄積",
+      "kana": "ちくせき",
+      "en": "accumulation / storage",
+      "my": "စုဆောင်းသိုမှီးမှု",
+      "meaningMy": "စုဆောင်းသိုမှီးမှု",
+      "meaningMyanmar": "စုဆောင်းသိုမှီးမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l59.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.v012",
+      "lessonId": "n2.l59",
+      "ja": "網目",
+      "kana": "あみめ",
+      "en": "mesh / net network",
+      "my": "ပိုက်ကွန်ကွက်",
+      "meaningMy": "ပိုက်ကွန်ကွက်",
+      "meaningMyanmar": "ပိုက်ကွန်ကွက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l59.s012",
+      "kanjiIds": [
+        "n2.l59.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l59.k001",
+      "lessonId": "n2.l59",
+      "char": "総",
+      "meaning": "General / Whole / Total / Gross",
+      "meaningMy": "ခြုံငုံစုစုပေါင်း / အားလုံး / စုစည်းသည်",
+      "meaningMyanmar": "ခြုံငုံစုစုပေါင်း / အားလုံး / စုစည်းသည်",
+      "onyomi": [
+        "ソウ"
+      ],
+      "kunyomi": [
+        "す・べて",
+        "ふさ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "総合",
+          "reading": "そうごう",
+          "meaning": "synthesis / composite",
+          "meaningMy": "ဘက်စုံခြုံငုံစုစည်းမှု",
+          "preview": true
+        },
+        {
+          "word": "総括",
+          "reading": "そうかつ",
+          "meaning": "summary / review",
+          "meaningMy": "ခြုံငုံသုံးသပ်ချက်",
+          "preview": false
+        },
+        {
+          "word": "総意",
+          "reading": "そうい",
+          "meaning": "consensus / collective will",
+          "meaningMy": "အများသဘောဆန္ဒ",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l59.s001"
+      ],
+      "components": [
+        "糸",
+        "公",
+        "心"
+      ],
+      "strokes": 14,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.k002",
+      "lessonId": "n2.l59",
+      "char": "括",
+      "meaning": "Fasten / Tie up / Enclose / Bundle",
+      "meaningMy": "စည်းနှောင်သည် / စုစည်းသည် / ကွင်းခတ်သည်",
+      "meaningMyanmar": "စည်းနှောင်သည် / စုစည်းသည် / ကွင်းခတ်သည်",
+      "onyomi": [
+        "カツ"
+      ],
+      "kunyomi": [
+        "くく・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "総括",
+          "reading": "そうかつ",
+          "meaning": "summary / generalization",
+          "meaningMy": "ခြုံငုံစုစည်းမှု",
+          "preview": true
+        },
+        {
+          "word": "一括",
+          "reading": "いっかつ",
+          "meaning": "lump sum / all together",
+          "meaningMy": "အစုလိုက်အပြုံလိုက်",
+          "preview": false
+        },
+        {
+          "word": "統括",
+          "reading": "とうかつ",
+          "meaning": "general control / supervision",
+          "meaningMy": "ခြုံငုံကြီးကြပ်ခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l59.s002"
+      ],
+      "components": [
+        "扌",
+        "舌"
+      ],
+      "strokes": 9,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.k003",
+      "lessonId": "n2.l59",
+      "char": "網",
+      "meaning": "Net / Network / Web / Enclose",
+      "meaningMy": "ကွန်ရက် / ပိုက်ကွန် / လွှမ်းခြုံသည်",
+      "meaningMyanmar": "ကွန်ရက် / ပိုက်ကွန် / လွှမ်းခြုံသည်",
+      "onyomi": [
+        "モウ"
+      ],
+      "kunyomi": [
+        "あみ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "網羅",
+          "reading": "もうら",
+          "meaning": "exhaustive coverage / inclusion",
+          "meaningMy": "အလုံးစုံပြည့်စုံစွာပါဝင်မှု",
+          "preview": true
+        },
+        {
+          "word": "通信網",
+          "reading": "つうしんもう",
+          "meaning": "communication network",
+          "meaningMy": "ဆက်သွယ်ရေးကွန်ရက်",
+          "preview": false
+        },
+        {
+          "word": "網目",
+          "reading": "あみめ",
+          "meaning": "mesh / net pattern",
+          "meaningMy": "ပိုက်ကွန်ကွက်",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l59.s003"
+      ],
+      "components": [
+        "糸",
+        "罔"
+      ],
+      "strokes": 14,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l59.g001",
+      "lessonId": "n2.l59",
+      "pattern": "〜にほかならない",
+      "meaning": "Nothing other than... / Precisely because...",
+      "meaningMy": "...ကြောင့်ပင် ဖြစ်သည် / ...မှတစ်ပါး အခြားမဟုတ်ပေ (အဓိက အကြောင်းရင်းကို အတည်ပြုခြင်း)",
+      "meaningMyanmar": "...ကြောင့်ပင် ဖြစ်သည် / ...မှတစ်ပါး အခြားမဟုတ်ပေ (အဓိက အကြောင်းရင်းကို အတည်ပြုခြင်း)",
+      "formation": "N + にほかならない / から + にほかならない",
+      "explanation": {
+        "en": "Reaffirms that a single transcendent factor is the true, unequivocal cause of an outstanding achievement or historical turning point.",
+        "my": "အောင်မြင်မှု သို့မဟုတ် ရလဒ်တစ်ခုသည် အခြားအရာကြောင့် မဟုတ်ဘဲ ၎င်းအဓိက အကြောင်းရင်း စင်စစ်ကြောင့်သာ ဖြစ်ကြောင်း လေးနက်စွာ ဖော်ပြသည်။"
+      },
+      "explanationMy": "အောင်မြင်မှု သို့မဟုတ် ရလဒ်တစ်ခုသည် အခြားအရာကြောင့် မဟုတ်ဘဲ ၎င်းအဓိက အကြောင်းရင်း စင်စစ်ကြောင့်သာ ဖြစ်ကြောင်း လေးနက်စွာ ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l59.s001",
+          "note": "〜にほかならない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l59.s002",
+          "note": "〜にほかならない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l59.s003",
+          "note": "〜にほかならない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l59.s010",
+          "note": "〜にほかならない usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l59.g001",
+        "n2.l59.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜にほかならない."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "本校の生徒が全員合格を果たしたのは、日々の弛まぬ鍛錬の賜物［　］。",
+      "clozeTarget": "にほかならない",
+      "clozeHint": "Nothing other than (ni hoka naranai)",
+      "acceptableSynonyms": [
+        "〜にすぎない",
+        "〜そのものである"
+      ],
+      "nuanceExplanationMy": "အဓိက အကြောင်းရင်းအစစ်အမှန်ကို အလေးအနက် အတည်ပြုသည့် စာပေဆန်သော စကားဖြစ်သည်။"
+    },
+    {
+      "id": "n2.l59.g002",
+      "lessonId": "n2.l59",
+      "pattern": "〜を契機に（して）",
+      "meaning": "Taking... as an opportunity / Turning point for historic transition",
+      "meaningMy": "...ကို အပြောင်းအလဲဖြစ်စေသော အခွင့်အရေးအဖြစ် အသုံးချ၍",
+      "meaningMyanmar": "...ကို အပြောင်းအလဲဖြစ်စေသော အခွင့်အရေးအဖြစ် အသုံးချ၍",
+      "formation": "N + を契機に / を契機として",
+      "explanation": {
+        "en": "Highlights an objective catalyst that sparked nationwide modernization, systemic organizational evolution, or personal redirection.",
+        "my": "ကြီးမားသော သမိုင်းဝင် အဖြစ်အပျက် သို့မဟုတ် အချိုးအကွေ့ကို အစပျိုးကာ ကြီးမားသည့် ပြုပြင်ပြောင်းလဲမှုများ ဖြစ်ပေါ်လာသည့်အခါ သုံးသည်။"
+      },
+      "explanationMy": "ကြီးမားသော သမိုင်းဝင် အဖြစ်အပျက် သို့မဟုတ် အချိုးအကွေ့ကို အစပျိုးကာ ကြီးမားသည့် ပြုပြင်ပြောင်းလဲမှုများ ဖြစ်ပေါ်လာသည့်အခါ သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l59.s004",
+          "note": "〜を契機に（して） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l59.s005",
+          "note": "〜を契機に（して） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l59.s006",
+          "note": "〜を契機に（して） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l59.s011",
+          "note": "〜を契機に（して） usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l59.g001",
+        "n2.l59.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜を契機に（して）."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "新制度の施行［　］、カリキュラムの全面的な再編が進められた。",
+      "clozeTarget": "を契機に",
+      "clozeHint": "Taking as turning point (o keiki ni)",
+      "acceptableSynonyms": [
+        "〜をきっかけに",
+        "〜を機に"
+      ],
+      "nuanceExplanationMy": "သမိုင်းဆိုင်ရာ သို့မဟုတ် လူမှုရေးဆိုင်ရာ လေးနက်သော အချိုးအကွေ့တွင် သုံးသည်။"
+    },
+    {
+      "id": "n2.l59.g003",
+      "lessonId": "n2.l59",
+      "pattern": "〜ざるを得ない",
+      "meaning": "Cannot help but... / Have no alternative but to...",
+      "meaningMy": "...မလုပ်ဘဲ မနေနိုင်ပေ / ...လုပ်ရန်မှတစ်ပါး အခြားမရှိပေ",
+      "meaningMyanmar": "...မလုပ်ဘဲ မနေနိုင်ပေ / ...လုပ်ရန်မှတစ်ပါး အခြားမရှိပေ",
+      "formation": "V-ない形 (ない removing) + ざるを得ない (する -> せざるを得ない)",
+      "explanation": {
+        "en": "Emphasizes inescapable logical compulsion where objective data leaves absolutely no room for denial or alternative choice.",
+        "my": "ဓမ္မဓိဋ္ဌာန်ကျသော အချက်အလက်များအရ ငြင်းဆိုရန် မဖြစ်နိုင်ဘဲ မိမိဆန္ဒ မပါသော်လည်း မလွှဲမရှောင်သာ လက်ခံရသည့်အခါ သုံးသည်။"
+      },
+      "explanationMy": "ဓမ္မဓိဋ္ဌာန်ကျသော အချက်အလက်များအရ ငြင်းဆိုရန် မဖြစ်နိုင်ဘဲ မိမိဆန္ဒ မပါသော်လည်း မလွှဲမရှောင်သာ လက်ခံရသည့်အခါ သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l59.s007",
+          "note": "〜ざるを得ない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l59.s008",
+          "note": "〜ざるを得ない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l59.s009",
+          "note": "〜ざるを得ない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l59.s012",
+          "note": "〜ざるを得ない usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l59.g001",
+        "n2.l59.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ざるを得ない."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "これだけ明確な実験データが示されては、新理論を認め［　］。",
+      "clozeTarget": "ざるを得ない",
+      "clozeHint": "Cannot help but (zaru o enai)",
+      "acceptableSynonyms": [
+        "〜ないわけにはいかない",
+        "〜しかない"
+      ],
+      "nuanceExplanationMy": "ဆင်ခြင်တုံတရားအရ အခြားရွေးချယ်စရာ မရှိခြင်းကို ဖော်ပြသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l59.s001",
+      "lessonId": "n2.l59",
+      "ja": "全５９課にわたる知識の蓄積は、総合的な日本語力の向上にほかならない。",
+      "kana": "ぜんごじゅうきゅうかにわたるちしきのちくせきは、そうごうてきなにほんごりょくのこうじょうにほかならない。",
+      "translation": {
+        "en": "The accumulation of knowledge spanning all 59 lessons is nothing other than the enhancement of comprehensive Japanese proficiency.",
+        "my": "သင်ခန်းစာ ၅၉ ခုလုံး အတိုင်းအတာဖြင့် အသိပညာများ စုဆောင်းဆည်းပူးခဲ့ခြင်းသည် ဘက်စုံ ဂျပန်စာ အရည်အသွေး တိုးတက်လာခြင်းမှတစ်ပါး အခြားမဟုတ်ပေ။"
+      },
+      "translationMy": "သင်ခန်းစာ ၅၉ ခုလုံး အတိုင်းအတာဖြင့် အသိပညာများ စုဆောင်းဆည်းပူးခဲ့ခြင်းသည် ဘက်စုံ ဂျပန်စာ အရည်အသွေး တိုးတက်လာခြင်းမှတစ်ပါး အခြားမဟုတ်ပေ။",
+      "vocabIds": [
+        "n2.l59.v001",
+        "n2.l59.v011"
+      ],
+      "grammarIds": [
+        "n2.l59.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.s002",
+      "lessonId": "n2.l59",
+      "ja": "今回の模擬試験で高得点を獲得できたのは、弱点を克服した努力の成果にほかならない。",
+      "kana": "こんかいのもぎしけんでこうとくてんをかくとくできたのは、じゃくてんをこくふくしたどりょくのせいかにほかならない。",
+      "translation": {
+        "en": "Attaining high marks on this mock exam is nothing other than the fruit of efforts that overcame weaknesses.",
+        "my": "ယခု စမ်းသပ်စာမေးပွဲတွင် အမှတ်ကောင်း ရရှိခဲ့ခြင်းမှာ အားနည်းချက်များကို ကျော်လွှားအောင်မြင်ခဲ့သည့် ကြိုးပမ်းမှု၏ ရလဒ်မှတစ်ပါး အခြားမဟုတ်ပေ။"
+      },
+      "translationMy": "ယခု စမ်းသပ်စာမေးပွဲတွင် အမှတ်ကောင်း ရရှိခဲ့ခြင်းမှာ အားနည်းချက်များကို ကျော်လွှားအောင်မြင်ခဲ့သည့် ကြိုးပမ်းမှု၏ ရလဒ်မှတစ်ပါး အခြားမဟုတ်ပေ။",
+      "vocabIds": [
+        "n2.l59.v010"
+      ],
+      "grammarIds": [
+        "n2.l59.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.s003",
+      "lessonId": "n2.l59",
+      "ja": "国民全体の総意が結集したことは、平和への強い祈りの表れにほかならない。",
+      "kana": "こくみんぜんたいのそういがけっしゅうしたことは、へいわへのつよいいのりのあらわれにほかならない。",
+      "translation": {
+        "en": "That the collective consensus of the entire citizenry converged is nothing other than a manifestation of fervent prayers for peace.",
+        "my": "ပြည်သူတစ်ရပ်လုံး၏ အများဆန္ဒ စုစည်းမိခဲ့ခြင်းသည် ငြိမ်းချမ်းရေးအတွက် ပြင်းပြသော ဆုတောင်းချက်များ၏ ပြယုဂ်မှတစ်ပါး အခြားမဟုတ်ပေ။"
+      },
+      "translationMy": "ပြည်သူတစ်ရပ်လုံး၏ အများဆန္ဒ စုစည်းမိခဲ့ခြင်းသည် ငြိမ်းချမ်းရေးအတွက် ပြင်းပြသော ဆုတောင်းချက်များ၏ ပြယုဂ်မှတစ်ပါး အခြားမဟုတ်ပေ။",
+      "vocabIds": [
+        "n2.l59.v003"
+      ],
+      "grammarIds": [
+        "n2.l59.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.s004",
+      "lessonId": "n2.l59",
+      "ja": "前回の試験での失敗を契機に、文法体系の総括と見直しに本気で取り組んだ。",
+      "kana": "ぜんかいのしけんでのしっぱいをけいきに、ぶんぽうたいけいのそうかつとみなおしにほんきでとりくんだ。",
+      "translation": {
+        "en": "Taking the failure in the previous exam as a trigger, I earnestly engaged in summarizing and revising the grammar system.",
+        "my": "ပြီးခဲ့သည့် စာမေးပွဲ ကျရှုံးမှုကို အချိုးအကွေ့ အခွင့်အရေးအဖြစ် အသုံးချကာ သဒ္ဒါစနစ်တစ်ခုလုံးကို ခြုံငုံသုံးသပ်ခြင်းနှင့် ပြန်လည်လေ့လာခြင်းကို အလေးအနက် ဆောင်ရွက်ခဲ့သည်။"
+      },
+      "translationMy": "ပြီးခဲ့သည့် စာမေးပွဲ ကျရှုံးမှုကို အချိုးအကွေ့ အခွင့်အရေးအဖြစ် အသုံးချကာ သဒ္ဒါစနစ်တစ်ခုလုံးကို ခြုံငုံသုံးသပ်ခြင်းနှင့် ပြန်လည်လေ့လာခြင်းကို အလေးအနက် ဆောင်ရွက်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l59.v002",
+        "n2.l59.v007"
+      ],
+      "grammarIds": [
+        "n2.l59.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.s005",
+      "lessonId": "n2.l59",
+      "ja": "通信網の劇的な発達を契機に、世界中の情報が一括して瞬時に共有されるようになった。",
+      "kana": "つうしんもうのげきてきなはったつをけいきに、せかいじゅうのじょうほうがいっかつしてしゅんじにきょうゆうされるようになった。",
+      "translation": {
+        "en": "Triggered by the dramatic development of telecommunication networks, information worldwide came to be shared collectively in an instant.",
+        "my": "ဆက်သွယ်ရေး ကွန်ရက်များ ထူးခြားစွာ တိုးတက်လာမှုကို အခြေခံ၍ ကမ္ဘာတစ်ဝှမ်းမှ သတင်းအချက်အလက်များကို အစုလိုက်အပြုံလိုက် ချက်ချင်း မျှဝေနိုင်လာခဲ့သည်။"
+      },
+      "translationMy": "ဆက်သွယ်ရေး ကွန်ရက်များ ထူးခြားစွာ တိုးတက်လာမှုကို အခြေခံ၍ ကမ္ဘာတစ်ဝှမ်းမှ သတင်းအချက်အလက်များကို အစုလိုက်အပြုံလိုက် ချက်ချင်း မျှဝေနိုင်လာခဲ့သည်။",
+      "vocabIds": [
+        "n2.l59.v004",
+        "n2.l59.v012"
+      ],
+      "grammarIds": [
+        "n2.l59.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.s006",
+      "lessonId": "n2.l59",
+      "ja": "組織改編を契機に、各事業部を統括する専門委員会が新設された。",
+      "kana": "そしきかいへんをけいきに、かくじぎょうぶをとうかつするせんもんいいんかいがしんせつされた。",
+      "translation": {
+        "en": "Taking organizational restructuring as an opportunity, a specialized steering committee supervising each division was inaugurated.",
+        "my": "အဖွဲ့အစည်း ပြင်ဆင်ဖွဲ့စည်းမှုကို အခွင့်အရေးအဖြစ် အသုံးချ၍ လုပ်ငန်းဌာနခွဲများကို ခြုံငုံကြီးကြပ်မည့် အထူးကော်မတီတစ်ခုကို အသစ်တည်ထောင်ခဲ့သည်။"
+      },
+      "translationMy": "အဖွဲ့အစည်း ပြင်ဆင်ဖွဲ့စည်းမှုကို အခွင့်အရေးအဖြစ် အသုံးချ၍ လုပ်ငန်းဌာနခွဲများကို ခြုံငုံကြီးကြပ်မည့် အထူးကော်မတီတစ်ခုကို အသစ်တည်ထောင်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l59.v005"
+      ],
+      "grammarIds": [
+        "n2.l59.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.s007",
+      "lessonId": "n2.l59",
+      "ja": "客観的な試験データを見せられては、自らの学習不足を率直に認めざるを得ない。",
+      "kana": "きゃっかんてきなしけんデータをみせられては、みずからのがくしゅうふそくをそっちょくにみとめざるをえない。",
+      "translation": {
+        "en": "Shown objective test data, one cannot help but candidly acknowledge one's own study deficiency.",
+        "my": "ဓမ္မဓိဋ္ဌာန်ကျသော စာမေးပွဲ အချက်အလက်များကို မြင်တွေ့ရပြီးသည့်နောက် မိမိ၏ စာလေ့လာမှု မလုံလောက်ခဲ့ခြင်းကို ပွင့်ပွင့်လင်းလင်း ဝန်မခံဘဲ မနေနိုင်တော့ပေ။"
+      },
+      "translationMy": "ဓမ္မဓိဋ္ဌာန်ကျသော စာမေးပွဲ အချက်အလက်များကို မြင်တွေ့ရပြီးသည့်နောက် မိမိ၏ စာလေ့လာမှု မလုံလောက်ခဲ့ခြင်းကို ပွင့်ပွင့်လင်းလင်း ဝန်မခံဘဲ မနေနိုင်တော့ပေ။",
+      "vocabIds": [
+        "n2.l59.v009"
+      ],
+      "grammarIds": [
+        "n2.l59.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.s008",
+      "lessonId": "n2.l59",
+      "ja": "重要語彙の習得を怠った者は、難解な読解文の文意を取り違えざるを得ないだろう。",
+      "kana": "じゅうようごいのしゅうとくをおこたったものは、なんかいなどっかいぶんのぶんいをと联合ざるをえないだろう。",
+      "translation": {
+        "en": "Those who neglect mastering essential vocabulary will inevitably have no choice but to misinterpret complex reading passages.",
+        "my": "အရေးပါသော ဝေါဟာရများ ကျွမ်းကျင်အောင် သင်ယူရန် ပျက်ကွက်ခဲ့သူများသည် ခက်ခဲနက်နဲသော စာဖတ်စွမ်းရည် စာပိုဒ်၏ အဓိပ္ပာယ်ကို မှားယွင်းစွာ နားလည်ခြင်းမှတစ်ပါး အခြားမရှိနိုင်ပေ။"
+      },
+      "translationMy": "အရေးပါသော ဝေါဟာရများ ကျွမ်းကျင်အောင် သင်ယူရန် ပျက်ကွက်ခဲ့သူများသည် ခက်ခဲနက်နဲသော စာဖတ်စွမ်းရည် စာပိုဒ်၏ အဓိပ္ပာယ်ကို မှားယွင်းစွာ နားလည်ခြင်းမှတစ်ပါး အခြားမရှိနိုင်ပေ။",
+      "vocabIds": [
+        "n2.l59.v008"
+      ],
+      "grammarIds": [
+        "n2.l59.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.s009",
+      "lessonId": "n2.l59",
+      "ja": "悪天候による安全上の懸念から、登山計画の中止を決断せざるを得なかった。",
+      "kana": "あくてんこうによるあんぜんじょうのけねんから、とざんけいかくのちゅうしをけつだんせざるをえなかった。",
+      "translation": {
+        "en": "Out of safety concerns caused by inclement weather, we had no choice but to resolve to cancel the climb.",
+        "my": "ဆိုးရွားသော ရာသီဥတုကြောင့် ဘေးကင်းရေး စိုးရိမ်မှုများအရ တောင်တက်အစီအစဉ်ကို ဖျက်သိမ်းရန် ဆုံးဖြတ်ခြင်းမှတစ်ပါး အခြားမရှိခဲ့ပေ။"
+      },
+      "translationMy": "ဆိုးရွားသော ရာသီဥတုကြောင့် ဘေးကင်းရေး စိုးရိမ်မှုများအရ တောင်တက်အစီအစဉ်ကို ဖျက်သိမ်းရန် ဆုံးဖြတ်ခြင်းမှတစ်ပါး အခြားမရှိခဲ့ပေ။",
+      "vocabIds": [
+        "n2.l59.v009"
+      ],
+      "grammarIds": [
+        "n2.l59.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.s010",
+      "lessonId": "n2.l59",
+      "ja": "全出題範囲を網羅した演習問題を反復し、問題の構造を正確に把握する。",
+      "kana": "ぜんしゅつだいはんいをもうらしたえんしゅうもんだいをはんぷくし、もんだいのこうぞうをせいかくにはあくする。",
+      "translation": {
+        "en": "Repeating practice exercises exhaustively covering the entire exam syllabus, one accurately grasps question structures.",
+        "my": "မေးခွန်းထုတ်မည့် နယ်ပယ်တစ်ခုလုံးကို အလုံးစုံလွှမ်းခြုံထားသော လေ့ကျင့်ခန်း ပုစ္ဆာများကို ထပ်ခါတလဲလဲ ပြုလုပ်ပြီး မေးခွန်း၏ တည်ဆောက်ပုံကို တိကျစွာ သဘောပေါက်နားလည်သည်။"
+      },
+      "translationMy": "မေးခွန်းထုတ်မည့် နယ်ပယ်တစ်ခုလုံးကို အလုံးစုံလွှမ်းခြုံထားသော လေ့ကျင့်ခန်း ပုစ္ဆာများကို ထပ်ခါတလဲလဲ ပြုလုပ်ပြီး မေးခွန်း၏ တည်ဆောက်ပုံကို တိကျစွာ သဘောပေါက်နားလည်သည်။",
+      "vocabIds": [
+        "n2.l59.v006",
+        "n2.l59.v009"
+      ],
+      "grammarIds": [
+        "n2.l59.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.s011",
+      "lessonId": "n2.l59",
+      "ja": "合格基準の改定を契機に、読解と聴解のバランスを重視した総合学習法に転換した。",
+      "kana": "ごうかくきじゅんのかいていをけいきに、どっかいとちょうかいのバランスをじゅうししたそうごうがくしゅうほうにてんかんした。",
+      "translation": {
+        "en": "Triggered by revisions to the passing benchmarks, we pivoted to a synthesized learning method balancing reading and listening.",
+        "my": "အောင်ချက် စံသတ်မှတ်ချက်များ ပြင်ဆင်မှုကို အချိုးအကွေ့အဖြစ် အသုံးချကာ စာဖတ်နှင့် နားထောင်စွမ်းရည် ညီညွတ်မှုကို အလေးထားသည့် ဘက်စုံလေ့လာမှု နည်းလမ်းသို့ ပြောင်းလဲခဲ့သည်။"
+      },
+      "translationMy": "အောင်ချက် စံသတ်မှတ်ချက်များ ပြင်ဆင်မှုကို အချိုးအကွေ့အဖြစ် အသုံးချကာ စာဖတ်နှင့် နားထောင်စွမ်းရည် ညီညွတ်မှုကို အလေးထားသည့် ဘက်စုံလေ့လာမှု နည်းလမ်းသို့ ပြောင်းလဲခဲ့သည်။",
+      "vocabIds": [
+        "n2.l59.v001",
+        "n2.l59.v007"
+      ],
+      "grammarIds": [
+        "n2.l59.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l59.s012",
+      "lessonId": "n2.l59",
+      "ja": "網の目のように張り巡らされた文法ルールを整理し、知識の体系化を完了せざるを得ない。",
+      "kana": "あみのめのようにはりめぐらされたぶんぽうるーるをせいりし、ちしきのたいけいかをかんりょうせざるをえない。",
+      "translation": {
+        "en": "Untangling the mesh of grammar rules, we have no alternative but to complete systematizing our knowledge.",
+        "my": "ပိုက်ကွန်ကွက်ပမာ ရှုပ်ထွေးစွာ ဖြန့်ကျက်ထားသော သဒ္ဒါစည်းမျဉ်းများကို စနစ်တကျ ခွဲခြမ်း၍ အသိပညာများကို စနစ်တကျ တည်ဆောက်ပြီးမြောက်ရန်မှတစ်ပါး အခြားမရှိပေ။"
+      },
+      "translationMy": "ပိုက်ကွန်ကွက်ပမာ ရှုပ်ထွေးစွာ ဖြန့်ကျက်ထားသော သဒ္ဒါစည်းမျဉ်းများကို စနစ်တကျ ခွဲခြမ်း၍ အသိပညာများကို စနစ်တကျ တည်ဆောက်ပြီးမြောက်ရန်မှတစ်ပါး အခြားမရှိပေ။",
+      "vocabIds": [
+        "n2.l59.v007",
+        "n2.l59.v012"
+      ],
+      "grammarIds": [
+        "n2.l59.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l59.r001",
+    "lessonId": "n2.l59",
+    "title": "日本語能力試験Ｎ２文法体系の総括と合格戦略",
+    "level": "N2",
+    "text": "日本語能力試験Ｎ２の合格を確実なものとするためには、単なる知識の暗記にとどまらず、文法項目の機能的体系を総合的に把握することが不可欠である。長期間にわたる学習の成果は、各表現の微妙なニュアンスを的確に識別する能力の獲得にほかならない。模擬試験における誤答の分析を契機として、自らの弱点領域を客観的に認識し、反復学習を通じて克服していく姿勢が求められる。試験本番の緊迫した環境にあっては、迷った瞬間に直感を支える論理的根拠を思い起こさざるを得ない。全網羅的な総復習こそが、栄冠を勝ち取る最強の布石である。",
+    "kanaText": "にほんごのうりょくしけんＮ２のごうかくをかくじつなものとするためには、たんなるちしきのあんきにとどまらず、ぶんぽうこうもくのきのうてきたいけいをそうごうてきにはあくすることがふかけつである。ちょうきかんにわたるがくしゅうのせいかは、かくひょうげんのびみょうなニュアンスをてきかくにしきべつするのうりょくのかくとくにほかならない。もぎしけんにおけるごとうのぶんせきをけいきとして、みずからのじゃくてんりょういきをきゃっかんてきににんしきし、はんぷくがくしゅうをつうじてこくふくしていくしせいがもとめられる。しけんほんばんのきんぱくしたかんきょうにあっては、まよったしゅんかんにちょっかんをささえるろんりてきこんきょをおもいおこさざるをえない。ぜんもうらてきなそうふくしゅうこそが、えいかんをかちとるさいきょうのふせきである。",
+    "translation": "ဂျပန်စာ အရည်အချင်းစစ် စာမေးပွဲ JLPT N2 အောင်မြင်မှုကို သေချာစေရန်အတွက် ရိုးရိုး အသိပညာများကို အလွတ်ကျက်မှတ်ရုံမျှတွင် ရပ်တန့်မနေဘဲ သဒ္ဒါအချက်အလက်များ၏ လုပ်ဆောင်ချက် စနစ်တစ်ခုလုံးကို ဘက်စုံ ခြုံငုံသဘောပေါက် နားလည်ရန် မရှိမဖြစ် လိုအပ်သည်။ ကာလရှည်ကြာ စာလေ့လာခဲ့ခြင်း၏ ရလဒ်သည် အသုံးအနှုန်း တစ်ခုချင်းစီ၏ သိမ်မွေ့သော သဘောထားများကို တိကျစွာ ခွဲခြားသိမြင်နိုင်သော စွမ်းရည် ရရှိလာခြင်းမှတစ်ပါး အခြားမဟုတ်ပေ။ စမ်းသပ်စာမေးပွဲတွင် မှားယွင်းခဲ့သော မေးခွန်းများကို ခွဲခြမ်းစိတ်ဖြာမှုကို အလှည့်အပြောင်း အခွင့်အရေးအဖြစ် အသုံးချ၍ မိမိ၏ အားနည်းချက် နယ်ပယ်ကို ဓမ္မဓိဋ္ဌာန်ကျကျ သတိပြုကာ ထပ်ခါတလဲလဲ လေ့လာခြင်းဖြင့် ကျော်လွှားအောင်မြင်သွားသော သဘောထားကို တောင်းဆိုနေသည်။ စာမေးပွဲ စင်စစ်၏ တင်းမာသော ပတ်ဝန်းကျင်တွင်မူ တွေဝေသွားသော အခိုက်အတန့်၌ မိမိ၏ အလိုလိုသိစိတ်ကို ထောက်ပံ့ပေးမည့် ဆင်ခြင်တုံတရားဆိုင်ရာ အခြေခံအချက်များကို သတိရ ပြန်လည်စဉ်းစားခြင်းမှတစ်ပါး အခြားမရှိပေ။ အလုံးစုံ လွှမ်းခြုံထားသော ပြန်လှန်လေ့ကျင့်မှုသည်သာ အောင်သရဖူ ဆွတ်ခူးနိုင်မည့် အကောင်းဆုံး ပြင်ဆင်မှု ဖြစ်သည်။",
+    "translationMy": "ဂျပန်စာ အရည်အချင်းစစ် စာမေးပွဲ JLPT N2 အောင်မြင်မှုကို သေချာစေရန်အတွက် ရိုးရိုး အသိပညာများကို အလွတ်ကျက်မှတ်ရုံမျှတွင် ရပ်တန့်မနေဘဲ သဒ္ဒါအချက်အလက်များ၏ လုပ်ဆောင်ချက် စနစ်တစ်ခုလုံးကို ဘက်စုံ ခြုံငုံသဘောပေါက် နားလည်ရန် မရှိမဖြစ် လိုအပ်သည်။ ကာလရှည်ကြာ စာလေ့လာခဲ့ခြင်း၏ ရလဒ်သည် အသုံးအနှုန်း တစ်ခုချင်းစီ၏ သိမ်မွေ့သော သဘောထားများကို တိကျစွာ ခွဲခြားသိမြင်နိုင်သော စွမ်းရည် ရရှိလာခြင်းမှတစ်ပါး အခြားမဟုတ်ပေ။ စမ်းသပ်စာမေးပွဲတွင် မှားယွင်းခဲ့သော မေးခွန်းများကို ခွဲခြမ်းစိတ်ဖြာမှုကို အလှည့်အပြောင်း အခွင့်အရေးအဖြစ် အသုံးချ၍ မိမိ၏ အားနည်းချက် နယ်ပယ်ကို ဓမ္မဓိဋ္ဌာန်ကျကျ သတိပြုကာ ထပ်ခါတလဲလဲ လေ့လာခြင်းဖြင့် ကျော်လွှားအောင်မြင်သွားသော သဘောထားကို တောင်းဆိုနေသည်။ စာမေးပွဲ စင်စစ်၏ တင်းမာသော ပတ်ဝန်းကျင်တွင်မူ တွေဝေသွားသော အခိုက်အတန့်၌ မိမိ၏ အလိုလိုသိစိတ်ကို ထောက်ပံ့ပေးမည့် ဆင်ခြင်တုံတရားဆိုင်ရာ အခြေခံအချက်များကို သတိရ ပြန်လည်စဉ်းစားခြင်းမှတစ်ပါး အခြားမရှိပေ။ အလုံးစုံ လွှမ်းခြုံထားသော ပြန်လှန်လေ့ကျင့်မှုသည်သာ အောင်သရဖူ ဆွတ်ခူးနိုင်မည့် အကောင်းဆုံး ပြင်ဆင်မှု ဖြစ်သည်။",
+    "questionIds": [
+      "n2.l59.q025",
+      "n2.l59.q026",
+      "n2.l59.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "識別",
+        "reading": "しきべつ",
+        "meaning": "discrimination / identification",
+        "meaningMy": "discrimination / identification",
+        "meaningMyanmar": "discrimination / identification"
+      },
+      {
+        "term": "布石",
+        "reading": "ふせき",
+        "meaning": "laying groundwork / strategic preparation",
+        "meaningMy": "laying groundwork / strategic preparation",
+        "meaningMyanmar": "laying groundwork / strategic preparation"
+      },
+      {
+        "term": "総復習",
+        "reading": "そうふくしゅう",
+        "meaning": "comprehensive review",
+        "meaningMy": "comprehensive review",
+        "meaningMyanmar": "comprehensive review"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l59.lis001",
+    "lessonId": "n2.l59",
+    "title": "試験直前の学習総括とメンターの最終助言",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "メンター講師",
+      "受験生"
+    ],
+    "transcript": "メンター講師: 全５９課の学習、本当にお疲れ様でした。ここまで到達できたのは、君の不屈の努力の賜物にほかなりません。\n受験生: ありがとうございます。途中の挫折を契機に弱点補強に専念したことが、大きな自信につながりました。\nメンター講師: 素晴らしい。本番では緊張するだろうが、これまで蓄積した知識の体系を信じて挑まざるを得ない。\n受験生: はい！全力を尽くして合格証書を勝ち取ってまいります！",
+    "translation": "メンター講師: သင်ခန်းစာ ၅၉ ခုလုံး ပြီးဆုံးအောင် လေ့လာနိုင်ခဲ့သည့်အတွက် အမှန်ပင် ပင်ပန်းခဲ့ပါပြီ။ ဤနေရာအထိ ရောက်ရှိလာနိုင်ခဲ့ခြင်းမှာ သင်၏ မဆုတ်မနစ်သော ကြိုးစားအားထုတ်မှု၏ အသီးအပွင့်မှတစ်ပါး အခြားမဟုတ်ပါ။\n受験生: ကျေးဇူးတင်ပါသည်။ လမ်းခုလတ်မှ စိတ်ဓာတ်ကျမှုကို အခွင့်အရေးအဖြစ် အသုံးချကာ အားနည်းချက် ဖြည့်ဆည်းရေးတွင် အာရုံစိုက်ခဲ့ခြင်းက ကြီးမားသော ယုံကြည်မှုကို ဖြစ်ပေါ်စေခဲ့ပါသည်။\nメンター講師: အလွန်ကောင်းပါသည်။ စာမေးပွဲ အစစ်တွင် စိတ်လှုပ်ရှားမည် ဖြစ်သော်လည်း ယခုအချိန်အထိ စုဆောင်းခဲ့သော အသိပညာ စနစ်ကို ယုံကြည်ပြီး စိန်ခေါ်ရင်ဆိုင်ခြင်းမှတစ်ပါး အခြားမရှိပေ။\n受験生: ဟုတ်ကဲ့ပါ။ အစွမ်းကုန် ကြိုးစားပြီး အောင်လက်မှတ်ကို ဆွတ်ခူးခဲ့ပါမည်။",
+    "translationMy": "メンター講師: သင်ခန်းစာ ၅၉ ခုလုံး ပြီးဆုံးအောင် လေ့လာနိုင်ခဲ့သည့်အတွက် အမှန်ပင် ပင်ပန်းခဲ့ပါပြီ။ ဤနေရာအထိ ရောက်ရှိလာနိုင်ခဲ့ခြင်းမှာ သင်၏ မဆုတ်မနစ်သော ကြိုးစားအားထုတ်မှု၏ အသီးအပွင့်မှတစ်ပါး အခြားမဟုတ်ပါ။\n受験生: ကျေးဇူးတင်ပါသည်။ လမ်းခုလတ်မှ စိတ်ဓာတ်ကျမှုကို အခွင့်အရေးအဖြစ် အသုံးချကာ အားနည်းချက် ဖြည့်ဆည်းရေးတွင် အာရုံစိုက်ခဲ့ခြင်းက ကြီးမားသော ယုံကြည်မှုကို ဖြစ်ပေါ်စေခဲ့ပါသည်။\nメンター講師: အလွန်ကောင်းပါသည်။ စာမေးပွဲ အစစ်တွင် စိတ်လှုပ်ရှားမည် ဖြစ်သော်လည်း ယခုအချိန်အထိ စုဆောင်းခဲ့သော အသိပညာ စနစ်ကို ယုံကြည်ပြီး စိန်ခေါ်ရင်ဆိုင်ခြင်းမှတစ်ပါး အခြားမရှိပေ။\n受験生: ဟုတ်ကဲ့ပါ။ အစွမ်းကုန် ကြိုးစားပြီး အောင်လက်မှတ်ကို ဆွတ်ခူးခဲ့ပါမည်။",
+    "turns": [
+      {
+        "speaker": "メンター講師",
+        "ja": "全５９課の学習、本当にお疲れ様でした。ここまで到達できたのは、君の不屈の努力の賜物にほかなりません。",
+        "kana": "ぜんごじゅうきゅうかのがくしゅう、ほんとうにおつかれさまでした。ここまでとうたつできたのは、きみのふくつのどりょくのたまものにほかなりません。",
+        "en": "Truly great work completing all 59 lessons. That you reached this point is nothing other than the fruit of your indomitable effort.",
+        "my": "သင်ခန်းစာ ၅၉ ခုလုံး ပြီးဆုံးအောင် လေ့လာနိုင်ခဲ့သည့်အတွက် အမှန်ပင် ပင်ပန်းခဲ့ပါပြီ။ ဤနေရာအထိ ရောက်ရှိလာနိုင်ခဲ့ခြင်းမှာ သင်၏ မဆုတ်မနစ်သော ကြိုးစားအားထုတ်မှု၏ အသီးအပွင့်မှတစ်ပါး အခြားမဟုတ်ပါ။",
+        "translationMy": "သင်ခန်းစာ ၅၉ ခုလုံး ပြီးဆုံးအောင် လေ့လာနိုင်ခဲ့သည့်အတွက် အမှန်ပင် ပင်ပန်းခဲ့ပါပြီ။ ဤနေရာအထိ ရောက်ရှိလာနိုင်ခဲ့ခြင်းမှာ သင်၏ မဆုတ်မနစ်သော ကြိုးစားအားထုတ်မှု၏ အသီးအပွင့်မှတစ်ပါး အခြားမဟုတ်ပါ။",
+        "myanmar": "သင်ခန်းစာ ၅၉ ခုလုံး ပြီးဆုံးအောင် လေ့လာနိုင်ခဲ့သည့်အတွက် အမှန်ပင် ပင်ပန်းခဲ့ပါပြီ။ ဤနေရာအထိ ရောက်ရှိလာနိုင်ခဲ့ခြင်းမှာ သင်၏ မဆုတ်မနစ်သော ကြိုးစားအားထုတ်မှု၏ အသီးအပွင့်မှတစ်ပါး အခြားမဟုတ်ပါ။"
+      },
+      {
+        "speaker": "受験生",
+        "ja": "ありがとうございます。途中の挫折を契機に弱点補強に専念したことが、大きな自信につながりました。",
+        "kana": "ありがとうございます。とちゅうのざせつをけいきにじゃくてんほきょうにせんねんしたことが、おおきなじしんにつなりました。",
+        "en": "Thank you. Taking a midpoint setback as an opportunity to dedicate myself to reinforcing weaknesses connected to great confidence.",
+        "my": "ကျေးဇူးတင်ပါသည်။ လမ်းခုလတ်မှ စိတ်ဓာတ်ကျမှုကို အခွင့်အရေးအဖြစ် အသုံးချကာ အားနည်းချက် ဖြည့်ဆည်းရေးတွင် အာရုံစိုက်ခဲ့ခြင်းက ကြီးမားသော ယုံကြည်မှုကို ဖြစ်ပေါ်စေခဲ့ပါသည်။",
+        "translationMy": "ကျေးဇူးတင်ပါသည်။ လမ်းခုလတ်မှ စိတ်ဓာတ်ကျမှုကို အခွင့်အရေးအဖြစ် အသုံးချကာ အားနည်းချက် ဖြည့်ဆည်းရေးတွင် အာရုံစိုက်ခဲ့ခြင်းက ကြီးမားသော ယုံကြည်မှုကို ဖြစ်ပေါ်စေခဲ့ပါသည်။",
+        "myanmar": "ကျေးဇူးတင်ပါသည်။ လမ်းခုလတ်မှ စိတ်ဓာတ်ကျမှုကို အခွင့်အရေးအဖြစ် အသုံးချကာ အားနည်းချက် ဖြည့်ဆည်းရေးတွင် အာရုံစိုက်ခဲ့ခြင်းက ကြီးမားသော ယုံကြည်မှုကို ဖြစ်ပေါ်စေခဲ့ပါသည်။"
+      },
+      {
+        "speaker": "メンター講師",
+        "ja": "素晴らしい。本番では緊張するだろうが、これまで蓄積した知識の体系を信じて挑まざるを得ない。",
+        "kana": "すばらしい。ほんばんではきんちょうするだろうが、これまでちくせきしたちしきのたいけいをしんじていどまざるをえない。",
+        "en": "Splendid. You will likely feel nervous in the actual exam, but you have no alternative but to challenge trusting the system of knowledge accumulated so far.",
+        "my": "အလွန်ကောင်းပါသည်။ စာမေးပွဲ အစစ်တွင် စိတ်လှုပ်ရှားမည် ဖြစ်သော်လည်း ယခုအချိန်အထိ စုဆောင်းခဲ့သော အသိပညာ စနစ်ကို ယုံကြည်ပြီး စိန်ခေါ်ရင်ဆိုင်ခြင်းမှတစ်ပါး အခြားမရှိပေ။",
+        "translationMy": "အလွန်ကောင်းပါသည်။ စာမေးပွဲ အစစ်တွင် စိတ်လှုပ်ရှားမည် ဖြစ်သော်လည်း ယခုအချိန်အထိ စုဆောင်းခဲ့သော အသိပညာ စနစ်ကို ယုံကြည်ပြီး စိန်ခေါ်ရင်ဆိုင်ခြင်းမှတစ်ပါး အခြားမရှိပေ။",
+        "myanmar": "အလွန်ကောင်းပါသည်။ စာမေးပွဲ အစစ်တွင် စိတ်လှုပ်ရှားမည် ဖြစ်သော်လည်း ယခုအချိန်အထိ စုဆောင်းခဲ့သော အသိပညာ စနစ်ကို ယုံကြည်ပြီး စိန်ခေါ်ရင်ဆိုင်ခြင်းမှတစ်ပါး အခြားမရှိပေ။"
+      },
+      {
+        "speaker": "受験生",
+        "ja": "はい！全力を尽くして合格証書を勝ち取ってまいります！",
+        "kana": "はい！ぜんりょくをつくしてごうかくしょうしょをかちとってまいります！",
+        "en": "Yes! I will exhaust all my strength to win the passing certificate!",
+        "my": "ဟုတ်ကဲ့ပါ။ အစွမ်းကုန် ကြိုးစားပြီး အောင်လက်မှတ်ကို ဆွတ်ခူးခဲ့ပါမည်။",
+        "translationMy": "ဟုတ်ကဲ့ပါ။ အစွမ်းကုန် ကြိုးစားပြီး အောင်လက်မှတ်ကို ဆွတ်ခူးခဲ့ပါမည်။",
+        "myanmar": "ဟုတ်ကဲ့ပါ။ အစွမ်းကုန် ကြိုးစားပြီး အောင်လက်မှတ်ကို ဆွတ်ခူးခဲ့ပါမည်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l59.q028",
+      "n2.l59.q029",
+      "n2.l59.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l59.q001",
+      "lessonId": "n2.l59",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "個々の要素を一つにまとめて全体として統一することを何というか。",
+      "choices": [
+        "総合",
+        "網羅",
+        "排除",
+        "事態"
+      ],
+      "answer": "総合",
+      "explanation": "総合 (そうごう) means synthesis or putting together elements.",
+      "explanationMy": "総合 ဆိုသည်မှာ အစိတ်အပိုင်းများကို စုစည်းကာ တစ်ခုတည်းအဖြစ် ဘက်စုံ ပေါင်းစည်းခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q002",
+      "lessonId": "n2.l59",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "個々の事柄を取りまとめて全体を締めくくる総括的なまとめを何というか。",
+      "choices": [
+        "総括",
+        "一括",
+        "統括",
+        "由緒"
+      ],
+      "answer": "総括",
+      "explanation": "総括 (そうかつ) means summary, generalization, or summing up.",
+      "explanationMy": "総括 ဆိုသည်မှာ ကိစ္စရပ်များကို အလုံးစုံ စုစည်း၍ ခြုံငုံသုံးသပ်ချက် ထုတ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q003",
+      "lessonId": "n2.l59",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "多くのものを一つにまとめて一度に処理することを何というか。",
+      "choices": [
+        "一括",
+        "網目",
+        "疲労",
+        "不手際"
+      ],
+      "answer": "一括",
+      "explanation": "一括 (いっかつ) means lump sum, bundling, or all-in-one handling.",
+      "explanationMy": "一括 ဆိုသည်မှာ အရာအားလုံးကို အစုလိုက် အပြုံလိုက် တစ်ပြိုင်နက် ကိုင်တွယ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q004",
+      "lessonId": "n2.l59",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "全体をまとめ束ねて一つに統制することを何というか。",
+      "choices": [
+        "統括",
+        "介入",
+        "謝絶",
+        "宣告"
+      ],
+      "answer": "統括",
+      "explanation": "統括 (とうかつ) means general supervision or overarching control.",
+      "explanationMy": "統括 ဆိုသည်မှာ အားလုံးကို ခြုံငုံ၍ ကြီးကြပ်ကွပ်ကဲခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q005",
+      "lessonId": "n2.l59",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "残すところなくすべての範囲を残らず広く取り入れることを何というか。",
+      "choices": [
+        "網羅",
+        "極端",
+        "発端",
+        "陳謝"
+      ],
+      "answer": "網羅",
+      "explanation": "網羅 (もうら) means exhaustive coverage or comprehensive inclusion.",
+      "explanationMy": "網羅 ဆိုသည်မှာ ဘာမျှမကျန်အောင် အလုံးစုံ လွှမ်းခြုံပါဝင်စေခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q006",
+      "lessonId": "n2.l59",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "各部分が秩序を保って全体として整然と連動している組織・構造を何というか。",
+      "choices": [
+        "体系",
+        "伝統",
+        "媒体",
+        "境界"
+      ],
+      "answer": "体系",
+      "explanation": "体系 (たいけい) means system or structured organization.",
+      "explanationMy": "体系 ဆိုသည်မှာ စနစ်တကျ အချင်းချင်း ချိတ်ဆက်နေသော ဖွဲ့စည်းတည်ဆောက်ပုံ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q007",
+      "lessonId": "n2.l59",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "知識や学問、技術などを自らのものとして身につけることを何というか。",
+      "choices": [
+        "習得",
+        "達成",
+        "終焉",
+        "逆転"
+      ],
+      "answer": "習得",
+      "explanation": "習得 (しゅうとく) means learning, acquisition, or mastery.",
+      "explanationMy": "習得 ဆိုသည်မှာ အသိပညာ သို့မဟုတ် နည်းပညာကို ကိုယ်တိုင် ကျွမ်းကျင်စွာ တတ်မြောက်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q008",
+      "lessonId": "n2.l59",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "知識や財産などが少しずつ積み重なって溜まることを何というか。",
+      "choices": [
+        "蓄積",
+        "変換",
+        "交換",
+        "換気"
+      ],
+      "answer": "蓄積",
+      "explanation": "蓄積 (ちくせき) means accumulation or amassing over time.",
+      "explanationMy": "蓄積 ဆိုသည်မှာ တစ်စထက်တစ်စ တဖြည်းဖြည်း စုဆောင်းသိုမှီးမိခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q009",
+      "lessonId": "n2.l59",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「総」の音読みとして正しいものはどれか。",
+      "choices": [
+        "ソウ",
+        "ショウ",
+        "トウ",
+        "カン"
+      ],
+      "answer": "ソウ",
+      "explanation": "「総」の音読みは「ソウ」です（総合、総括、総力）。",
+      "explanationMy": "「総」၏ အသံထွက်မှာ ソウ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q010",
+      "lessonId": "n2.l59",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「総合」の漢字「総」の部首として正しいものはどれか。",
+      "choices": [
+        "糸（いと・いとへん）",
+        "公（こう）",
+        "心（こころ）",
+        "日（ひ）"
+      ],
+      "answer": "糸（いと・いとへん）",
+      "explanation": "「総」の部首は「糸（いとへん）」です。",
+      "explanationMy": "「総」တွင် ချည်မျှင် 糸 အစိတ်အပိုင်း ပါဝင်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q011",
+      "lessonId": "n2.l59",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「括」の音読みとして正しいものはどれか。",
+      "choices": [
+        "カツ",
+        "ケツ",
+        "サツ",
+        "セツ"
+      ],
+      "answer": "カツ",
+      "explanation": "「括」の音読みは「カツ」です（総括、一括、統括）。",
+      "explanationMy": "「括」၏ အသံထွက်မှာ カツ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q012",
+      "lessonId": "n2.l59",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「一括」の「括」の訓読み（動詞）として正しいものはどれか。",
+      "choices": [
+        "くく・る",
+        "たば・ねる",
+        "ゆわ・える",
+        "しば・る"
+      ],
+      "answer": "くく・る",
+      "explanation": "「括」の訓読みは「くく・る」です（高をくくる、ひとまとめにくくる）。",
+      "explanationMy": "「括」၏ ဂျပန်မူရင်းကြိယာအသံမှာ くく・る (စည်းနှောင်သည်) ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q013",
+      "lessonId": "n2.l59",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「網」の音読みとして正しいものはどれか。",
+      "choices": [
+        "モウ",
+        "ボウ",
+        "コウ",
+        "ソウ"
+      ],
+      "answer": "モウ",
+      "explanation": "「網」の音読みは「モウ」です（網羅、通信網、法網）。",
+      "explanationMy": "「網」၏ အသံထွက်မှာ モウ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q014",
+      "lessonId": "n2.l59",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「網羅」の「網」の訓読みとして正しいものはどれか。",
+      "choices": [
+        "あみ",
+        "なわ",
+        "つな",
+        "いと"
+      ],
+      "answer": "あみ",
+      "explanation": "「網」の訓読みは「あみ」です（魚を捕る網）。",
+      "explanationMy": "「網」၏ ဂျပန်မူရင်းအသံမှာ あみ (ပိုက်ကွန်) ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q015",
+      "lessonId": "n2.l59",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "全問正解という快挙を達成できたのは、徹底的な過去問演習の成果（　）。",
+      "choices": [
+        "にほかならない",
+        "にすぎない",
+        "に相違ない",
+        "を契機にしている"
+      ],
+      "answer": "にほかならない",
+      "explanation": "Use 〜にほかならない to assert that total perfection is nothing other than the fruit of past-paper drills.",
+      "explanationMy": "မေးခွန်းဟောင်းများကို သေချာစွာ လေ့ကျင့်ခဲ့သည့် ရလဒ်စင်စစ် ဖြစ်သည်ဟု ပြရာတွင် にほかならない သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q016",
+      "lessonId": "n2.l59",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜にほかならない」の文型が表す確信の度合いとして最も適切なものはどれか。",
+      "choices": [
+        "これ以外の理由は絶対にないと断定する極めて強い確信",
+        "おそらくそうかもしれないという曖昧な推量",
+        "過去の過ちを深く後悔する気持ち",
+        "相手に対する穏やかな命令"
+      ],
+      "answer": "これ以外の理由は絶対にないと断定する極めて強い確信",
+      "explanation": "〜にほかならない definitive asserts that there is absolutely no other reason.",
+      "explanationMy": "ဤအကြောင်းရင်းမှတစ်ပါး အခြားမရှိဟု ပြတ်သားစွာ အတည်ပြုသည့် ခိုင်မာသော သဘော ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q017",
+      "lessonId": "n2.l59",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "前回の模擬試験での挫折（　）、時間の使い方を根本から見直した。",
+      "choices": [
+        "を契機に",
+        "にほかならない",
+        "ざるを得ない",
+        "を抜きにしては"
+      ],
+      "answer": "を契機に",
+      "explanation": "Use 〜を契機に for taking a setback as a decisive catalyst to overhaul time management.",
+      "explanationMy": "ကျရှုံးမှုကို အချိုးအကွေ့ အခွင့်အရေးအဖြစ် အသုံးချကာ အချိန်အသုံးချမှုကို ပြင်ဆင်ခဲ့သည်ဟု ပြရာတွင် を契機に သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q018",
+      "lessonId": "n2.l59",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜を契機に」と「〜をきっかけに」の文体的な違いとして正しいものはどれか。",
+      "choices": [
+        "「契機」は論理的・公的な文書やスピーチで多く使われ、「きっかけ」は日常会話でも幅広く使われる",
+        "「契機」は否定文専用で、「きっかけ」は肯定文専用である",
+        "「契機」は時間の長さを表し、「きっかけ」は場所を表す",
+        "両者の意味や使われる文体に一切の違いはない"
+      ],
+      "answer": "「契機」は論理的・公的な文書やスピーチで多く使われ、「きっかけ」は日常会話でも幅広く使われる",
+      "explanation": "契機 is formal and suitable for essays and speeches; きっかけ is conversational.",
+      "explanationMy": "契機 သည် စာပေနှင့် မိန့်ခွန်းများတွင် သုံးပြီး きっかけ သည် နေ့စဉ် စကားပြောတွင် သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q019",
+      "lessonId": "n2.l59",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "客観的な試験データが示す通り、自分の文法力不足を認め（　）。",
+      "choices": [
+        "ざるを得ない",
+        "にほかならない",
+        "を契機にする",
+        "ばかりだ"
+      ],
+      "answer": "ざるを得ない",
+      "explanation": "Use 〜ざるを得ない for having no alternative but to admit one's weakness.",
+      "explanationMy": "ဓမ္မဓိဋ္ဌာန်ကျသော အချက်အလက်များအရ မိမိအားနည်းချက်ကို ဝန်မခံဘဲ မနေနိုင်ဟု ပြရာတွင် ざるを得ない သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q020",
+      "lessonId": "n2.l59",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "動詞「認める」を「〜ざるを得ない」に正しく接続した形はどれか。",
+      "choices": [
+        "認めざるを得ない",
+        "認まざるを得ない",
+        "認めないざるを得ない",
+        "認めるざるを得ない"
+      ],
+      "answer": "認めざるを得ない",
+      "explanation": "認める -> 認めない -> 認めざるを得ない (Group 2 verb).",
+      "explanationMy": "Group 2 ကြိယာ 認める ကို 認めざるを得ない ဟု တွဲဆက်ရသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q021",
+      "lessonId": "n2.l59",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "合格という栄光を勝ち取れたのは、支えてくれた家族の応援の（　）。",
+      "choices": [
+        "賜物にほかならない",
+        "を契機としている",
+        "認めざるを得ない",
+        "に相違ないものだ"
+      ],
+      "answer": "賜物にほかならない",
+      "explanation": "「〜の賜物にほかならない」(nothing other than the fruit of...).",
+      "explanationMy": "မိသားစု ပံ့ပိုးမှု၏ အသီးအပွင့်မှတစ်ပါး အခြားမဟုတ်ပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q022",
+      "lessonId": "n2.l59",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "教科書の改訂（　）、指導方法の近代化が一気に進んだ。",
+      "choices": [
+        "を契機に",
+        "にほかならず",
+        "ざるを得ず",
+        "を限りに"
+      ],
+      "answer": "を契機に",
+      "explanation": "Taking textbook revision as the trigger for modernization.",
+      "explanationMy": "ဖတ်စာအုပ် ပြင်ဆင်မှုကို အခွင့်အလမ်းအဖြစ် အသုံးချကာ လမ်းညွှန်မှုများ ခေတ်မီလာခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q023",
+      "lessonId": "n2.l59",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "予算の大幅な削減により、新規研究の中止を決断（　）。",
+      "choices": [
+        "せざるを得なかった",
+        "にほかならなかった",
+        "を契機にしなかった",
+        "ばかりであった"
+      ],
+      "answer": "せざるを得なかった",
+      "explanation": "Had no choice but to decide cancellation (決断せざるを得なかった).",
+      "explanationMy": "ဖျက်သိမ်းရန် ဆုံးဖြတ်ခြင်းမှတစ်ပါး အခြားမရှိခဲ့ပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q024",
+      "lessonId": "n2.l59",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜にほかならない」の前に来る名詞として最も自然な語句はどれか。",
+      "choices": [
+        "努力の賜物 / 愛情の表れ / 正義の貫徹",
+        "昨日の天気 / 鉛筆の芯 / 電車の切符",
+        "単なる偶然の数字",
+        "分からない疑問詞"
+      ],
+      "answer": "努力の賜物 / 愛情の表れ / 正義の貫徹",
+      "explanation": "Expressions of ultimate essence like 努力の賜物, 愛情の表れ naturally precede にほかならない.",
+      "explanationMy": "ကြိုးစားမှု၏ အသီးအပွင့်၊ မေတ္တာ၏ ပြယုဂ် စသည့် အနှစ်သာရပြ စကားလုံးများနှင့် အများဆုံး တွဲသုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q025",
+      "lessonId": "n2.l59",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において、長期間の学習の成果として「〜にほかならない」と定義されている能力は何か。",
+      "choices": [
+        "各表現の微妙なニュアンスを的確に識別する能力の獲得",
+        "辞書を一冊丸ごと暗記する能力",
+        "試験問題を誰よりも早く解き終わる能力",
+        "過去問の正解番号を暗記する能力"
+      ],
+      "answer": "各表現の微妙なニュアンスを的確に識別する能力の獲得",
+      "explanation": "The text defines long-term study results as acquiring the ability to discern subtle nuances.",
+      "explanationMy": "အသုံးအနှုန်း တစ်ခုချင်းစီ၏ သိမ်မွေ့သော သဘောထားများကို တိကျစွာ ခွဲခြားသိမြင်နိုင်စွမ်း ရရှိခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q026",
+      "lessonId": "n2.l59",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "自らの弱点領域を克服するためのきっかけとして「〜を契機として」挙げられている行動はどれか。",
+      "choices": [
+        "模擬試験における誤答の分析",
+        "新しい参考書の無作為な購入",
+        "勉強時間の単なる延長",
+        "友人との気軽な雑談"
+      ],
+      "answer": "模擬試験における誤答の分析",
+      "explanation": "The passage notes analyzing mock exam errors serves as the catalyst (契機) to overcome weaknesses.",
+      "explanationMy": "စမ်းသပ်စာမေးပွဲမှ မှားယွင်းသောအဖြေများကို ခွဲခြမ်းစိတ်ဖြာခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q027",
+      "lessonId": "n2.l59",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "試験本番で迷った瞬間に受験生が「〜ざるを得ない」行動として述べられているのは何か。",
+      "choices": [
+        "直感を支える論理的根拠を思い起こすこと",
+        "勘だけで適当にマークシートを塗ること",
+        "試験監督官に答えを質問すること",
+        "解答を途中で放棄して退出すること"
+      ],
+      "answer": "直感を支える論理的根拠を思い起こすこと",
+      "explanation": "The author notes that when in doubt, one cannot help but recall logical foundations supporting intuition.",
+      "explanationMy": "မိမိ၏ အလိုလိုသိစိတ်ကို ထောက်ပံ့ပေးမည့် ဆင်ခြင်တုံတရား အခြေခံအချက်များကို ပြန်လည်သတိရ စဉ်းစားခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q028",
+      "lessonId": "n2.l59",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "メンター講師が受講生の到達について「〜にほかならない」と讃えた要因は何か。",
+      "choices": [
+        "受講生の不屈の努力の賜物であること",
+        "運良く簡単な問題ばかり出題されたこと",
+        "偶然友人と同じ席になったこと",
+        "試験日程が半年延期されたこと"
+      ],
+      "answer": "受講生の不屈の努力の賜物であること",
+      "explanation": "The mentor praised the student's progress as nothing other than the fruit of indomitable effort.",
+      "explanationMy": "သင်ယူသူ၏ မဆုတ်မနစ်သော ကြိုးစားအားထုတ်မှု၏ အသီးအပွင့် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q029",
+      "lessonId": "n2.l59",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "受講生が大きな自信につながった契機として挙げた出来事はどれか。",
+      "choices": [
+        "途中の挫折を契機とした弱点補強",
+        "高価な電子辞書の購入",
+        "すべての宿題の免除",
+        "海外旅行への出発"
+      ],
+      "answer": "途中の挫折を契機とした弱点補強",
+      "explanation": "The student noted taking a midpoint setback as an opportunity to reinforce weaknesses.",
+      "explanationMy": "လမ်းခုလတ်မှ ကျဆင်းမှုကို အခွင့်အရေးအဖြစ် အသုံးချကာ အားနည်းချက် ဖြည့်ဆည်းခဲ့ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l59.q030",
+      "lessonId": "n2.l59",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "本番に向けてメンターが「〜ざるを得ない」と鼓舞した姿勢は何か。",
+      "choices": [
+        "これまで蓄積した知識の体系を信じて挑むこと",
+        "前夜は一睡もせずに徹夜すること",
+        "分からない問題をすべて白紙で提出すること",
+        "試験開始直前に教室から逃げ出すこと"
+      ],
+      "answer": "これまで蓄積した知識の体系を信じて挑むこと",
+      "explanation": "The mentor urges trusting the accumulated system of knowledge when challenging the exam.",
+      "explanationMy": "ယခုအချိန်အထိ စုဆောင်းခဲ့သော အသိပညာစနစ်ကို ယုံကြည်ပြီး စိန်ခေါ်ရင်ဆိုင်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l59.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+};

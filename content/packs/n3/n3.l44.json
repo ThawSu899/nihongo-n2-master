@@ -1,0 +1,1557 @@
+{
+  "id": "n3.l44",
+  "level": "N3",
+  "module": "N3 Formal & Expository",
+  "number": 44,
+  "title": "N3 Lesson 44: Passive, Causative & Causative-Passive (〜れる/られる・〜せる/させる・〜せられる)",
+  "description": "ခံရပြ (Passive)၊ စေခိုင်းပြ (Causative) နှင့် အစေခိုင်းခံရပြ (Causative-Passive) ပုံစံများကို ကျွမ်းကျင်စွာ အသုံးပြုနိုင်ခြင်း မိမိ၏ စိတ်မသက်မသာဖြစ်မှု သို့မဟုတ် မနှစ်သက်သော အခြေအနေကို 受身 ဖြင့် ဖော်ပြနိုင်ခြင်း အခြားသူတစ်ဦး၏ ဖိအား သို့မဟုတ် အမိန့်ကြောင့် မလွှဲမရှောင်သာ ပြုလုပ်ရခြင်းကို 使役受身 ဖြင့် ပြောဆိုနိုင်ခြင်း",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l44.v001",
+      "lessonId": "n3.l44",
+      "ja": "受ける",
+      "kana": "うける",
+      "en": "ukeru",
+      "my": "လက်ခံသည်/ခံယူသည်/ဖြေဆိုသည်",
+      "meaningMy": "လက်ခံသည်/ခံယူသည်/ဖြေဆိုသည်",
+      "meaningMyanmar": "လက်ခံသည်/ခံယူသည်/ဖြေဆိုသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.v002",
+      "lessonId": "n3.l44",
+      "ja": "受験",
+      "kana": "じゅけん",
+      "en": "juken",
+      "my": "စာမေးပွဲဖြေဆိုခြင်း",
+      "meaningMy": "စာမေးပွဲဖြေဆိုခြင်း",
+      "meaningMyanmar": "စာမေးပွဲဖြေဆိုခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.v003",
+      "lessonId": "n3.l44",
+      "ja": "使う",
+      "kana": "つかう",
+      "en": "tsukau",
+      "my": "အသုံးပြုသည်",
+      "meaningMy": "အသုံးပြုသည်",
+      "meaningMyanmar": "အသုံးပြုသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l44.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.v004",
+      "lessonId": "n3.l44",
+      "ja": "使用",
+      "kana": "しよう",
+      "en": "shiyou",
+      "my": "အသုံးပြုခြင်း",
+      "meaningMy": "အသုံးပြုခြင်း",
+      "meaningMyanmar": "အသုံးပြုခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.v005",
+      "lessonId": "n3.l44",
+      "ja": "役立つ",
+      "kana": "やくだつ",
+      "en": "yakudatsu",
+      "my": "အသုံးဝင်သည်/အကျိုးရှိသည်",
+      "meaningMy": "အသုံးဝင်သည်/အကျိုးရှိသည်",
+      "meaningMyanmar": "အသုံးဝင်သည်/အကျိုးရှိသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l44.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.v006",
+      "lessonId": "n3.l44",
+      "ja": "役割",
+      "kana": "やくわり",
+      "en": "yakuwari",
+      "my": "တာဝန်/အခန်းကဏ္ဍ",
+      "meaningMy": "တာဝန်/အခန်းကဏ္ဍ",
+      "meaningMyanmar": "တာဝန်/အခန်းကဏ္ဍ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.v007",
+      "lessonId": "n3.l44",
+      "ja": "迷惑",
+      "kana": "めいわく",
+      "en": "meiwaku",
+      "my": "စိတ်အနှောင့်အယှက်/ဒုက္ခ",
+      "meaningMy": "စိတ်အနှောင့်အယှက်/ဒုက္ခ",
+      "meaningMyanmar": "စိတ်အနှောင့်အယှက်/ဒုက္ခ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.v008",
+      "lessonId": "n3.l44",
+      "ja": "無理",
+      "kana": "むり",
+      "en": "muri",
+      "my": "မဖြစ်နိုင်သော/အတင်းအကျပ်",
+      "meaningMy": "မဖြစ်နိုင်သော/အတင်းအကျပ်",
+      "meaningMyanmar": "မဖြစ်နိုင်သော/အတင်းအကျပ်",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l44.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.v009",
+      "lessonId": "n3.l44",
+      "ja": "責任",
+      "kana": "せきにん",
+      "en": "sekinin",
+      "my": "တာဝန်ဝတ္တရား",
+      "meaningMy": "တာဝန်ဝတ္တရား",
+      "meaningMyanmar": "တာဝန်ဝတ္တရား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.v010",
+      "lessonId": "n3.l44",
+      "ja": "叱る",
+      "kana": "しかる",
+      "en": "shikaru",
+      "my": "ဆူပူကြိမ်းမောင်းသည်",
+      "meaningMy": "ဆူပူကြိမ်းမောင်းသည်",
+      "meaningMyanmar": "ဆူပူကြိမ်းမောင်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l44.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.v011",
+      "lessonId": "n3.l44",
+      "ja": "褒める",
+      "kana": "ほめる",
+      "en": "homeru",
+      "my": "ချီးမွမ်းသည်",
+      "meaningMy": "ချီးမွမ်းသည်",
+      "meaningMyanmar": "ချီးမွမ်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l44.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.v012",
+      "lessonId": "n3.l44",
+      "ja": "苦労",
+      "kana": "くろう",
+      "en": "kurou",
+      "my": "ပင်ပန်းဆင်းရဲမှု/ကြိုးပမ်းမှု",
+      "meaningMy": "ပင်ပန်းဆင်းရဲမှု/ကြိုးပမ်းမှု",
+      "meaningMyanmar": "ပင်ပန်းဆင်းရဲမှု/ကြိုးပမ်းမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l44.k001",
+      "lessonId": "n3.l44",
+      "char": "受",
+      "meaning": "လက်ခံသည်၊ ခံယူသည် (Receive/Accept)",
+      "meaningMy": "လက်ခံသည်၊ ခံယူသည် (Receive/Accept)",
+      "meaningMyanmar": "လက်ခံသည်၊ ခံယူသည် (Receive/Accept)",
+      "onyomi": [
+        "JU"
+      ],
+      "kunyomi": [
+        "u-keru",
+        "u-karu"
+      ],
+      "exampleVocab": [
+        {
+          "word": "受ける",
+          "reading": "うける",
+          "meaning": "လက်ခံသည်/ဖြေဆိုသည်",
+          "meaningMy": "လက်ခံသည်/ဖြေဆိုသည်",
+          "preview": false
+        },
+        {
+          "word": "受験",
+          "reading": "じゅけん",
+          "meaning": "စာမေးပွဲဖြေဆိုခြင်း",
+          "meaningMy": "စာမေးပွဲဖြေဆိုခြင်း",
+          "preview": false
+        },
+        {
+          "word": "受話器",
+          "reading": "じゅわき",
+          "meaning": "တယ်လီဖုန်းစကားပြောခွက်",
+          "meaningMy": "တယ်လီဖုန်းစကားပြောခွက်",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l44.s001"
+      ],
+      "components": [
+        "又 (again/hand)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.k002",
+      "lessonId": "n3.l44",
+      "char": "使",
+      "meaning": "အသုံးပြုသည်၊ စေလွှတ်သည် (Use/Messenger)",
+      "meaningMy": "အသုံးပြုသည်၊ စေလွှတ်သည် (Use/Messenger)",
+      "meaningMyanmar": "အသုံးပြုသည်၊ စေလွှတ်သည် (Use/Messenger)",
+      "onyomi": [
+        "SHI"
+      ],
+      "kunyomi": [
+        "tsuka-u"
+      ],
+      "exampleVocab": [
+        {
+          "word": "使う",
+          "reading": "つかう",
+          "meaning": "အသုံးပြုသည်",
+          "meaningMy": "အသုံးပြုသည်",
+          "preview": false
+        },
+        {
+          "word": "使用",
+          "reading": "しよう",
+          "meaning": "အသုံးပြုခြင်း",
+          "meaningMy": "အသုံးပြုခြင်း",
+          "preview": false
+        },
+        {
+          "word": "大使",
+          "reading": "たいし",
+          "meaning": "သံအမတ်ကြီး",
+          "meaningMy": "သံအမတ်ကြီး",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l44.s001"
+      ],
+      "components": [
+        "亻 (person)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.k003",
+      "lessonId": "n3.l44",
+      "char": "役",
+      "meaning": "တာဝန်၊ အခန်းကဏ္ဍ (Role/Duty/Service)",
+      "meaningMy": "တာဝန်၊ အခန်းကဏ္ဍ (Role/Duty/Service)",
+      "meaningMyanmar": "တာဝန်၊ အခန်းကဏ္ဍ (Role/Duty/Service)",
+      "onyomi": [
+        "YAKU",
+        "EKI"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "役割",
+          "reading": "やくわり",
+          "meaning": "အခန်းကဏ္ဍ/တာဝန်",
+          "meaningMy": "အခန်းကဏ္ဍ/တာဝန်",
+          "preview": false
+        },
+        {
+          "word": "役立つ",
+          "reading": "やくだつ",
+          "meaning": "အသုံးဝင်သည်",
+          "meaningMy": "အသုံးဝင်သည်",
+          "preview": false
+        },
+        {
+          "word": "役所",
+          "reading": "やくしょ",
+          "meaning": "အစိုးရရုံး",
+          "meaningMy": "အစိုးရရုံး",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l44.s001"
+      ],
+      "components": [
+        "彳 (step)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l44.g001",
+      "lessonId": "n3.l44",
+      "pattern": "〜れる / 〜られる (受身)",
+      "meaning": "... (ခံ) ရသည် (Passive)",
+      "meaningMy": "... (ခံ) ရသည် (Passive)",
+      "meaningMyanmar": "... (ခံ) ရသည် (Passive)",
+      "formation": "V1(あ段) + れる / V2(去る) + られる / される / こられる",
+      "explanation": {
+        "en": "လုပ်ဆောင်ချက်တစ်ခု၏ သက်ရောက်မှုကို ခံရသူဘက်မှ ဖော်ပြသည်။ အထူးသဖြင့် စိတ်အနှောင့်အယှက်ဖြစ်ရသည့် မလိုလားအပ်သော အခြေအနေများ (迷惑の受身) တွင် အသုံးများသည်။",
+        "my": "လုပ်ဆောင်ချက်တစ်ခု၏ သက်ရောက်မှုကို ခံရသူဘက်မှ ဖော်ပြသည်။ အထူးသဖြင့် စိတ်အနှောင့်အယှက်ဖြစ်ရသည့် မလိုလားအပ်သော အခြေအနေများ (迷惑の受身) တွင် အသုံးများသည်။"
+      },
+      "explanationMy": "လုပ်ဆောင်ချက်တစ်ခု၏ သက်ရောက်မှုကို ခံရသူဘက်မှ ဖော်ပြသည်။ အထူးသဖြင့် စိတ်အနှောင့်အယှက်ဖြစ်ရသည့် မလိုလားအပ်သော အခြေအနေများ (迷惑の受身) တွင် အသုံးများသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l44.s001",
+          "note": "〜れる / 〜られる (受身) usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜れる / 〜られる (受身)."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "電車の中で足を踏まれて、とても痛かったです。",
+      "clozeTarget": "〜れる / 〜られる (受身)",
+      "clozeHint": "... (ခံ) ရသည် (Passive)",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "လုပ်ဆောင်ချက်တစ်ခု၏ သက်ရောက်မှုကို ခံရသူဘက်မှ ဖော်ပြသည်။ အထူးသဖြင့် စိတ်အနှောင့်အယှက်ဖြစ်ရသည့် မလိုလားအပ်သော အခြေအနေများ (迷惑の受身) တွင် အသုံးများသည်။"
+    },
+    {
+      "id": "n3.l44.g002",
+      "lessonId": "n3.l44",
+      "pattern": "〜せる / 〜させる (使役)",
+      "meaning": "... စေသည် / ... ခိုင်းသည် (Causative)",
+      "meaningMy": "... စေသည် / ... ခိုင်းသည် (Causative)",
+      "meaningMyanmar": "... စေသည် / ... ခိုင်းသည် (Causative)",
+      "formation": "V1(あ段) + せる / V2(去る) + させる / させる / こさせる",
+      "explanation": {
+        "en": "တစ်ဖက်သားအား တစ်ခုခုပြုလုပ်စေခြင်း၊ ခွင့်ပြုခြင်း သို့မဟုတ် စိတ်ခံစားမှုတစ်ခု ဖြစ်ပေါ်စေခြင်းကို ဖော်ပြသည်။",
+        "my": "တစ်ဖက်သားအား တစ်ခုခုပြုလုပ်စေခြင်း၊ ခွင့်ပြုခြင်း သို့မဟုတ် စိတ်ခံစားမှုတစ်ခု ဖြစ်ပေါ်စေခြင်းကို ဖော်ပြသည်။"
+      },
+      "explanationMy": "တစ်ဖက်သားအား တစ်ခုခုပြုလုပ်စေခြင်း၊ ခွင့်ပြုခြင်း သို့မဟုတ် စိတ်ခံစားမှုတစ်ခု ဖြစ်ပေါ်စေခြင်းကို ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l44.s001",
+          "note": "〜せる / 〜させる (使役) usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜せる / 〜させる (使役)."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "先生は生徒に毎日漢字を練習させます。",
+      "clozeTarget": "〜せる / 〜させる (使役)",
+      "clozeHint": "... စေသည် / ... ခိုင်းသည် (Causative)",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "တစ်ဖက်သားအား တစ်ခုခုပြုလုပ်စေခြင်း၊ ခွင့်ပြုခြင်း သို့မဟုတ် စိတ်ခံစားမှုတစ်ခု ဖြစ်ပေါ်စေခြင်းကို ဖော်ပြသည်။"
+    },
+    {
+      "id": "n3.l44.g003",
+      "lessonId": "n3.l44",
+      "pattern": "〜せられる / 〜させられる (使役受身)",
+      "meaning": "... ခိုင်းခြင်းခံရသည် / မလွှဲသာ၍ လုပ်ရသည် (Causative-Passive)",
+      "meaningMy": "... ခိုင်းခြင်းခံရသည် / မလွှဲသာ၍ လုပ်ရသည် (Causative-Passive)",
+      "meaningMyanmar": "... ခိုင်းခြင်းခံရသည် / မလွှဲသာ၍ လုပ်ရသည် (Causative-Passive)",
+      "formation": "V1(あ段) + せられる (or される) / V2(去る) + させられる / させられる / こさせられる",
+      "explanation": {
+        "en": "မိမိ၏ ဆန္ဒမဟုတ်ဘဲ အခြားသူ၏ အမိန့် သို့မဟုတ် အခြေအနေအရ မလုပ်မနေရ ပြုလုပ်ရသည့် စိတ်မသက်မသာခံစားချက်ကို ပြသသည်။",
+        "my": "မိမိ၏ ဆန္ဒမဟုတ်ဘဲ အခြားသူ၏ အမိန့် သို့မဟုတ် အခြေအနေအရ မလုပ်မနေရ ပြုလုပ်ရသည့် စိတ်မသက်မသာခံစားချက်ကို ပြသသည်။"
+      },
+      "explanationMy": "မိမိ၏ ဆန္ဒမဟုတ်ဘဲ အခြားသူ၏ အမိန့် သို့မဟုတ် အခြေအနေအရ မလုပ်မနေရ ပြုလုပ်ရသည့် စိတ်မသက်မသာခံစားချက်ကို ပြသသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l44.s001",
+          "note": "〜せられる / 〜させられる (使役受身) usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜せられる / 〜させられる (使役受身)."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "嫌いな野菜を無理やり食べさせられました。",
+      "clozeTarget": "〜せられる / 〜させられる (使役受身)",
+      "clozeHint": "... ခိုင်းခြင်းခံရသည် / မလွှဲသာ၍ လုပ်ရသည် (Causative-Passive)",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "မိမိ၏ ဆန္ဒမဟုတ်ဘဲ အခြားသူ၏ အမိန့် သို့မဟုတ် အခြေအနေအရ မလုပ်မနေရ ပြုလုပ်ရသည့် စိတ်မသက်မသာခံစားချက်ကို ပြသသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l44.s001",
+      "lessonId": "n3.l44",
+      "ja": "大学の受験に向けて、毎日たくさんの時間を使って勉強しています。",
+      "kana": "大学の受験に向けて、毎日たくさんの時間を使って勉強しています。",
+      "translation": {
+        "en": "Daigaku no juken ni mukete, mainichi takusan no jikan o tsukatte benkyou shite imasu.",
+        "my": "တက္ကသိုလ်ဝင်ခွင့် စာမေးပွဲဖြေဆိုရန်အတွက် နေ့စဉ် အချိန်များစွာကို အသုံးပြု၍ စာကျက်နေပါသည်။"
+      },
+      "translationMy": "တက္ကသိုလ်ဝင်ခွင့် စာမေးပွဲဖြေဆိုရန်အတွက် နေ့စဉ် အချိန်များစွာကို အသုံးပြု၍ စာကျက်နေပါသည်။",
+      "vocabIds": [
+        "n3.l44.v002",
+        "n3.l44.v003"
+      ],
+      "grammarIds": [
+        "n3.l44.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.s002",
+      "lessonId": "n3.l44",
+      "ja": "この便利な道具の使用方法を覚えると、日常生活の様々な場面で役立ちます。",
+      "kana": "この便利な道具の使用方法を覚えると、日常生活の様々な場面で役立ちます。",
+      "translation": {
+        "en": "Kono benri na dougu no shiyou houhou o oboeru to, nichijouseikatsu no samazama na bamen de yakudachimasu.",
+        "my": "ဤအဆင်ပြေသော ကိရိယာကို အသုံးပြုပုံကို မှတ်သားထားလျှင် နေ့စဉ်ဘဝ၏ အခြေအနေအမျိုးမျိုးတွင် အသုံးဝင်ပါသည်။"
+      },
+      "translationMy": "ဤအဆင်ပြေသော ကိရိယာကို အသုံးပြုပုံကို မှတ်သားထားလျှင် နေ့စဉ်ဘဝ၏ အခြေအနေအမျိုးမျိုးတွင် အသုံးဝင်ပါသည်။",
+      "vocabIds": [
+        "n3.l44.v004",
+        "n3.l44.v005"
+      ],
+      "grammarIds": [
+        "n3.l44.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.s003",
+      "lessonId": "n3.l44",
+      "ja": "チームの中で自分の役割をしっかり果たすことで、大きな責任を受け持ちます。",
+      "kana": "チームの中で自分の役割をしっかり果たすことで、大きな責任を受け持ちます。",
+      "translation": {
+        "en": "Chiimu no naka de jibun no yakuwari o shikkari hatasu koto de, ookina sekinin o ukemochimasu.",
+        "my": "အသင်းထဲတွင် မိမိ၏ အခန်းကဏ္ဍတာဝန်ကို ကောင်းစွာ ထမ်းဆောင်ခြင်းဖြင့် ကြီးမားသော တာဝန်ဝတ္တရားကို လက်ခံရယူပါသည်။"
+      },
+      "translationMy": "အသင်းထဲတွင် မိမိ၏ အခန်းကဏ္ဍတာဝန်ကို ကောင်းစွာ ထမ်းဆောင်ခြင်းဖြင့် ကြီးမားသော တာဝန်ဝတ္တရားကို လက်ခံရယူပါသည်။",
+      "vocabIds": [
+        "n3.l44.v001",
+        "n3.l44.v006",
+        "n3.l44.v009"
+      ],
+      "grammarIds": [
+        "n3.l44.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.s004",
+      "lessonId": "n3.l44",
+      "ja": "近隣の住民に迷惑をかけないよう、無理な大音量での音楽再生は控えます。",
+      "kana": "近隣の住民に迷惑をかけないよう、無理な大音量での音楽再生は控えます。",
+      "translation": {
+        "en": "Kinrin no juumin ni meiwaku o kakenai you, muri na daionryou de no ongaku saisei wa hikaemasu.",
+        "my": "အနီးနားရှိ အိမ်နီးနားချင်းများအား စိတ်အနှောင့်အယှက် မဖြစ်စေရန် အတင်းအကျပ် အသံကျယ်ကျယ်ဖြင့် သီချင်းဖွင့်ခြင်းကို ရှောင်ကြဉ်ပါသည်။"
+      },
+      "translationMy": "အနီးနားရှိ အိမ်နီးနားချင်းများအား စိတ်အနှောင့်အယှက် မဖြစ်စေရန် အတင်းအကျပ် အသံကျယ်ကျယ်ဖြင့် သီချင်းဖွင့်ခြင်းကို ရှောင်ကြဉ်ပါသည်။",
+      "vocabIds": [
+        "n3.l44.v007",
+        "n3.l44.v008"
+      ],
+      "grammarIds": [
+        "n3.l44.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.s005",
+      "lessonId": "n3.l44",
+      "ja": "テストで満点を取った時は親に褒められ、嘘をついた時は厳しく叱られました。",
+      "kana": "テストで満点を取った時は親に褒められ、嘘をついた時は厳しく叱られました。",
+      "translation": {
+        "en": "Tesuto de manten o totta toki wa oya ni homerare, uso o tsuita toki wa kibishiku shikararemashita.",
+        "my": "စာမေးပွဲတွင် အမှတ်ပြည့်ရချိန်၌ မိဘ၏ ချီးမွမ်းခြင်းကို ခံရပြီး လိမ်ညာခဲ့စဉ်ကမူ ပြင်းထန်စွာ ဆူပူကြိမ်းမောင်းခြင်း ခံခဲ့ရပါသည်။"
+      },
+      "translationMy": "စာမေးပွဲတွင် အမှတ်ပြည့်ရချိန်၌ မိဘ၏ ချီးမွမ်းခြင်းကို ခံရပြီး လိမ်ညာခဲ့စဉ်ကမူ ပြင်းထန်စွာ ဆူပူကြိမ်းမောင်းခြင်း ခံခဲ့ရပါသည်။",
+      "vocabIds": [
+        "n3.l44.v010",
+        "n3.l44.v011"
+      ],
+      "grammarIds": [
+        "n3.l44.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l44.s006",
+      "lessonId": "n3.l44",
+      "ja": "多くの苦労を乗り越えて完成させた研究成果は、社会全体に役立ちます。",
+      "kana": "多くの苦労を乗り越えて完成させた研究成果は、社会全体に役立ちます。",
+      "translation": {
+        "en": "Ooku no kurou o norikoete kansei saseta kenkyuu seika wa, shakai zentai ni yakudachimasu.",
+        "my": "အခက်အခဲ ပင်ပန်းမှုများစွာကို ကျော်လွှား၍ ပြီးမြောက်စေခဲ့သော သုတေသနရလဒ်သည် လူ့ဘောင်တစ်ခုလုံးအတွက် အကျိုးပြုပါသည်။"
+      },
+      "translationMy": "အခက်အခဲ ပင်ပန်းမှုများစွာကို ကျော်လွှား၍ ပြီးမြောက်စေခဲ့သော သုတေသနရလဒ်သည် လူ့ဘောင်တစ်ခုလုံးအတွက် အကျိုးပြုပါသည်။",
+      "vocabIds": [
+        "n3.l44.v005",
+        "n3.l44.v012"
+      ],
+      "grammarIds": [
+        "n3.l44.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l44.r001",
+    "lessonId": "n3.l44",
+    "title": "失敗から学ぶ自立と成長",
+    "level": "N3",
+    "text": "若い頃の苦労や失敗は、人を大きく成長させる貴重な糧となります。過保護な環境で育ち、親や周囲に何でもやってもらってきた人は、社会に出てから自分の責任の重さに圧倒されてしまうことがあります。子供に失敗させないように先回りするのではなく、時には自分で考えさせ、困難に直面させることが大切です。もちろん、理不尽に怒られたり、無理な仕事を押し付けられて残業させられたりすることは、大きなストレスになります。しかし、失敗を人のせいにせず、自分が果たすべき役割を真剣に考える姿勢を持つことで、周囲から信頼されるようになります。厳しい経験を通じて他人の痛みが分かるようになれば、将来部下を持った時にも、単に叱るだけでなく、適切に褒めて伸ばすことができる良きリーダーになれるはずです。",
+    "kanaText": "若い頃の苦労や失敗は、人を大きく成長させる貴重な糧となります。過保護な環境で育ち、親や周囲に何でもやってもらってきた人は、社会に出てから自分の責任の重さに圧倒されてしまうことがあります。子供に失敗させないように先回りするのではなく、時には自分で考えさせ、困難に直面させることが大切です。もちろん、理不尽に怒られたり、無理な仕事を押し付けられて残業させられたりすることは、大きなストレスになります。しかし、失敗を人のせいにせず、自分が果たすべき役割を真剣に考える姿勢を持つことで、周囲から信頼されるようになります。厳しい経験を通じて他人の痛みが分かるようになれば、将来部下を持った時にも、単に叱るだけでなく、適切に褒めて伸ばすことができる良きリーダーになれるはずです。",
+    "translation": "失敗から学ぶ自立と成長",
+    "translationMy": "失敗から学ぶ自立と成長",
+    "questionIds": [
+      "n3.l44.q025",
+      "n3.l44.q026",
+      "n3.l44.q027"
+    ],
+    "difficulty": 3,
+    "glossary": [
+      {
+        "term": "過保護",
+        "reading": "過保護",
+        "meaning": "အလွန်အကျွံ အလိုလိုက်လွန်းခြင်း",
+        "meaningMy": "အလွန်အကျွံ အလိုလိုက်လွန်းခြင်း",
+        "meaningMyanmar": "အလွန်အကျွံ အလိုလိုက်လွန်းခြင်း"
+      },
+      {
+        "term": "先回り",
+        "reading": "先回り",
+        "meaning": "ကြိုတင်ကာကွယ်ပြင်ဆင်ပေးခြင်း",
+        "meaningMy": "ကြိုတင်ကာကွယ်ပြင်ဆင်ပေးခြင်း",
+        "meaningMyanmar": "ကြိုတင်ကာကွယ်ပြင်ဆင်ပေးခြင်း"
+      },
+      {
+        "term": "理不尽",
+        "reading": "理不尽",
+        "meaning": "အကြောင်းမဲ့မတရားသော",
+        "meaningMy": "အကြောင်းမဲ့မတရားသော",
+        "meaningMyanmar": "အကြောင်းမဲ့မတရားသော"
+      },
+      {
+        "term": "糧",
+        "reading": "糧",
+        "meaning": "အစာအာဟာရ/ဘဝသင်ခန်းစာ",
+        "meaningMy": "အစာအာဟာရ/ဘဝသင်ခန်းစာ",
+        "meaningMyanmar": "အစာအာဟာရ/ဘဝသင်ခန်းစာ"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n3.l44.lis001",
+    "lessonId": "n3.l44",
+    "title": "新人研修での苦労話",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "A: 昨日の研修では、講師に朝から晩まで質問攻めに遭って考えさせられましたよ。\nB: 私もです。書類の不備を指摘されて、全部書き直させられました。\nA: 厳しいですが、チームでの役割や責任の重さを自覚させるための訓練ですね。\nB: ええ。最後にリーダーから「よく頑張った」と褒められた時は本当に嬉しかったです。",
+    "translation": "A: မနေ့က သင်တန်းမှာ သင်တန်းဆရာက မနက်ကနေ ညအထိ မေးခွန်းတွေ မရပ်မနားမေးပြီး စဉ်းစားခိုင်းခြင်း ခံခဲ့ရတယ်ဗျာ။\nB: ကျွန်တော်လည်း တူတူပါပဲ။ စာရွက်စာတမ်း မပြည့်စုံတာ ထောက်ပြခံရပြီး အကုန် အသစ်ပြန်ရေးခိုင်းခြင်း ခံခဲ့ရပါတယ်။\nA: တင်းကျပ်ပေမယ့်လည်း အသင်းထဲက တာဝန်နဲ့ တာဝန်ဝတ္တရားတွေရဲ့ လေးနက်မှုကို သိရှိနားလည်စေဖို့အတွက် လေ့ကျင့်ပေးတာပါပဲနော်။\nB: ဟုတ်ပါတယ်။ အဆုံးမှာ အသင်းခေါင်းဆောင်ဆီက \"တော်တော်ကြိုးစားခဲ့တယ်\" လို့ ချီးမွမ်းခံရချိန်မှာ တကယ်ပဲ ဝမ်းသာမိပါတယ်။",
+    "translationMy": "A: မနေ့က သင်တန်းမှာ သင်တန်းဆရာက မနက်ကနေ ညအထိ မေးခွန်းတွေ မရပ်မနားမေးပြီး စဉ်းစားခိုင်းခြင်း ခံခဲ့ရတယ်ဗျာ။\nB: ကျွန်တော်လည်း တူတူပါပဲ။ စာရွက်စာတမ်း မပြည့်စုံတာ ထောက်ပြခံရပြီး အကုန် အသစ်ပြန်ရေးခိုင်းခြင်း ခံခဲ့ရပါတယ်။\nA: တင်းကျပ်ပေမယ့်လည်း အသင်းထဲက တာဝန်နဲ့ တာဝန်ဝတ္တရားတွေရဲ့ လေးနက်မှုကို သိရှိနားလည်စေဖို့အတွက် လေ့ကျင့်ပေးတာပါပဲနော်။\nB: ဟုတ်ပါတယ်။ အဆုံးမှာ အသင်းခေါင်းဆောင်ဆီက \"တော်တော်ကြိုးစားခဲ့တယ်\" လို့ ချီးမွမ်းခံရချိန်မှာ တကယ်ပဲ ဝမ်းသာမိပါတယ်။",
+    "turns": [
+      {
+        "speaker": "A",
+        "ja": "昨日の研修では、講師に朝から晩まで質問攻めに遭って考えさせられましたよ。",
+        "kana": "昨日の研修では、講師に朝から晩まで質問攻めに遭って考えさせられましたよ。",
+        "en": "Kinou no kenshuu de wa, koushi ni asa kara ban made shitsumongeme ni atte kangaesaseraremashita yo.",
+        "my": "မနေ့က သင်တန်းမှာ သင်တန်းဆရာက မနက်ကနေ ညအထိ မေးခွန်းတွေ မရပ်မနားမေးပြီး စဉ်းစားခိုင်းခြင်း ခံခဲ့ရတယ်ဗျာ။",
+        "translationMy": "မနေ့က သင်တန်းမှာ သင်တန်းဆရာက မနက်ကနေ ညအထိ မေးခွန်းတွေ မရပ်မနားမေးပြီး စဉ်းစားခိုင်းခြင်း ခံခဲ့ရတယ်ဗျာ။",
+        "myanmar": "မနေ့က သင်တန်းမှာ သင်တန်းဆရာက မနက်ကနေ ညအထိ မေးခွန်းတွေ မရပ်မနားမေးပြီး စဉ်းစားခိုင်းခြင်း ခံခဲ့ရတယ်ဗျာ။"
+      },
+      {
+        "speaker": "B",
+        "ja": "私もです。書類の不備を指摘されて、全部書き直させられました。",
+        "kana": "私もです。書類の不備を指摘されて、全部書き直させられました。",
+        "en": "Watashi mo desu. Shorui no fubi o shiteki sarete, zenbu kakinaosaseraremashita.",
+        "my": "ကျွန်တော်လည်း တူတူပါပဲ။ စာရွက်စာတမ်း မပြည့်စုံတာ ထောက်ပြခံရပြီး အကုန် အသစ်ပြန်ရေးခိုင်းခြင်း ခံခဲ့ရပါတယ်။",
+        "translationMy": "ကျွန်တော်လည်း တူတူပါပဲ။ စာရွက်စာတမ်း မပြည့်စုံတာ ထောက်ပြခံရပြီး အကုန် အသစ်ပြန်ရေးခိုင်းခြင်း ခံခဲ့ရပါတယ်။",
+        "myanmar": "ကျွန်တော်လည်း တူတူပါပဲ။ စာရွက်စာတမ်း မပြည့်စုံတာ ထောက်ပြခံရပြီး အကုန် အသစ်ပြန်ရေးခိုင်းခြင်း ခံခဲ့ရပါတယ်။"
+      },
+      {
+        "speaker": "A",
+        "ja": "厳しいですが、チームでの役割や責任の重さを自覚させるための訓練ですね。",
+        "kana": "厳しいですが、チームでの役割や責任の重さを自覚させるための訓練ですね。",
+        "en": "Kibishii desu ga, chiimu de no yakuwari ya sekinin no omo sa o jikaku saseru tame no kunren desu ne.",
+        "my": "တင်းကျပ်ပေမယ့်လည်း အသင်းထဲက တာဝန်နဲ့ တာဝန်ဝတ္တရားတွေရဲ့ လေးနက်မှုကို သိရှိနားလည်စေဖို့အတွက် လေ့ကျင့်ပေးတာပါပဲနော်။",
+        "translationMy": "တင်းကျပ်ပေမယ့်လည်း အသင်းထဲက တာဝန်နဲ့ တာဝန်ဝတ္တရားတွေရဲ့ လေးနက်မှုကို သိရှိနားလည်စေဖို့အတွက် လေ့ကျင့်ပေးတာပါပဲနော်။",
+        "myanmar": "တင်းကျပ်ပေမယ့်လည်း အသင်းထဲက တာဝန်နဲ့ တာဝန်ဝတ္တရားတွေရဲ့ လေးနက်မှုကို သိရှိနားလည်စေဖို့အတွက် လေ့ကျင့်ပေးတာပါပဲနော်။"
+      },
+      {
+        "speaker": "B",
+        "ja": "ええ。最後にリーダーから「よく頑張った」と褒められた時は本当に嬉しかったです。",
+        "kana": "ええ。最後にリーダーから「よく頑張った」と褒められた時は本当に嬉しかったです。",
+        "en": "Ee. Saigo ni riidaa kara \"yoku ganbatta\" to homerareta toki wa hontou ni ureshikatta desu.",
+        "my": "ဟုတ်ပါတယ်။ အဆုံးမှာ အသင်းခေါင်းဆောင်ဆီက \"တော်တော်ကြိုးစားခဲ့တယ်\" လို့ ချီးမွမ်းခံရချိန်မှာ တကယ်ပဲ ဝမ်းသာမိပါတယ်။",
+        "translationMy": "ဟုတ်ပါတယ်။ အဆုံးမှာ အသင်းခေါင်းဆောင်ဆီက \"တော်တော်ကြိုးစားခဲ့တယ်\" လို့ ချီးမွမ်းခံရချိန်မှာ တကယ်ပဲ ဝမ်းသာမိပါတယ်။",
+        "myanmar": "ဟုတ်ပါတယ်။ အဆုံးမှာ အသင်းခေါင်းဆောင်ဆီက \"တော်တော်ကြိုးစားခဲ့တယ်\" လို့ ချီးမွမ်းခံရချိန်မှာ တကယ်ပဲ ဝမ်းသာမိပါတယ်။"
+      }
+    ],
+    "questionIds": [
+      "n3.l44.q028",
+      "n3.l44.q029",
+      "n3.l44.q030"
+    ],
+    "difficulty": 3,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l44.q001",
+      "lessonId": "n3.l44",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "混雑した電車で足をつま先で（　　）痛かった。",
+      "choices": [
+        "踏まれて",
+        "踏ませて",
+        "踏んで",
+        "踏ませられて"
+      ],
+      "answer": "踏まれて",
+      "explanation": "ခြေထောက်ကို အနင်းခံရသည့် ဒုက္ခပြ 受身 ဖြစ်၍ 「踏まれて」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ခြေထောက်ကို အနင်းခံရသည့် ဒုက္ခပြ 受身 ဖြစ်၍ 「踏まれて」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q002",
+      "lessonId": "n3.l44",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "先生は宿題を忘れた生徒を廊下に（　　）。",
+      "choices": [
+        "立たせました",
+        "立たれました",
+        "立ちました",
+        "立たせられました"
+      ],
+      "answer": "立たせました",
+      "explanation": "ကျောင်းသားအား စင်္ကြံတွင် ရပ်စေခဲ့သည်ဟူသော စေခိုင်းပြ (使役) ဖြစ်၍ 「立たせました」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ကျောင်းသားအား စင်္ကြံတွင် ရပ်စေခဲ့သည်ဟူသော စေခိုင်းပြ (使役) ဖြစ်၍ 「立たせました」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q003",
+      "lessonId": "n3.l44",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "子供のころ、嫌いなピーマンを無理やり（　　）。",
+      "choices": [
+        "食べさせられました",
+        "食べさせました",
+        "食べられました",
+        "食べました"
+      ],
+      "answer": "食べさせられました",
+      "explanation": "အတင်းအကျပ် စားခိုင်းခြင်းခံရသည့် မလွှဲသာသော အစေခိုင်းခံရပြ (使役受身) ဖြစ်၍ 「食べさせられました」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အတင်းအကျပ် စားခိုင်းခြင်းခံရသည့် မလွှဲသာသော အစေခိုင်းခံရပြ (使役受身) ဖြစ်၍ 「食べさせられました」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q004",
+      "lessonId": "n3.l44",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「叱る」の正しい読み方はどれですか。",
+      "choices": [
+        "しかる",
+        "いかる",
+        "おこる",
+        "どなる"
+      ],
+      "answer": "しかる",
+      "explanation": "「叱る」၏ အသံထွက်အမှန်မှာ 「しかる」 (ဆူပူကြိမ်းမောင်းသည်) ဖြစ်ပါသည်။",
+      "explanationMy": "「叱る」၏ အသံထွက်အမှန်မှာ 「しかる」 (ဆူပူကြိမ်းမောင်းသည်) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q005",
+      "lessonId": "n3.l44",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「褒める」の正しい読み方はどれですか。",
+      "choices": [
+        "ほめる",
+        "たたえる",
+        "あがめる",
+        "みとめる"
+      ],
+      "answer": "ほめる",
+      "explanation": "「褒める」၏ အသံထွက်အမှန်မှာ 「ほめる」 (ချီးမွမ်းသည်) ဖြစ်ပါသည်။",
+      "explanationMy": "「褒める」၏ အသံထွက်အမှန်မှာ 「ほめる」 (ချီးမွမ်းသည်) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q006",
+      "lessonId": "n3.l44",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「迷惑」の正しい読み方はどれですか。",
+      "choices": [
+        "めいわく",
+        "まいわく",
+        "べいわく",
+        "みょうわく"
+      ],
+      "answer": "めいわく",
+      "explanation": "「迷惑」၏ အသံထွက်အမှန်မှာ 「めいわく」 (စိတ်အနှောင့်အယှက်/ဒုက္ခ) ဖြစ်ပါသည်။",
+      "explanationMy": "「迷惑」၏ အသံထွက်အမှန်မှာ 「めいわく」 (စိတ်အနှောင့်အယှက်/ဒုက္ခ) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q007",
+      "lessonId": "n3.l44",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "雨に（　　）風邪を引いてしまいました。",
+      "choices": [
+        "降られて",
+        "降らせて",
+        "降って",
+        "降らされて"
+      ],
+      "answer": "降られて",
+      "explanation": "မိုးမိခံရသည့် ဒုက္ခပြ 受身 အဖြစ် 「雨に降られて」 ကို သုံးပါသည်။",
+      "explanationMy": "မိုးမိခံရသည့် ဒုက္ခပြ 受身 အဖြစ် 「雨に降られて」 ကို သုံးပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q008",
+      "lessonId": "n3.l44",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "社長は秘書にスケジュールの調整を（　　）。",
+      "choices": [
+        "させました",
+        "されました",
+        "させられました",
+        "しました"
+      ],
+      "answer": "させました",
+      "explanation": "အတွင်းရေးမှူးအား အချိန်ဇယား ချိန်ညှိစေခဲ့သည်ဟူသော 使役 ပုံစံ 「させました」 ဖြစ်ပါသည်။",
+      "explanationMy": "အတွင်းရေးမှူးအား အချိန်ဇယား ချိန်ညှိစေခဲ့သည်ဟူသော 使役 ပုံစံ 「させました」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q009",
+      "lessonId": "n3.l44",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "来年の大学（　　）に向けて、夜遅くまで予習復習を重ねている。",
+      "choices": [
+        "受験",
+        "役割",
+        "責任",
+        "苦労"
+      ],
+      "answer": "受験",
+      "explanation": "တက္ကသိုလ်ဝင်ခွင့် စာမေးပွဲဖြေဆိုခြင်းဖြစ်၍ 「受験」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "တက္ကသိုလ်ဝင်ခွင့် စာမေးပွဲဖြေဆိုခြင်းဖြစ်၍ 「受験」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q010",
+      "lessonId": "n3.l44",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "スマートフォンの適切な（　　）方法について、学校で指導が行われた。",
+      "choices": [
+        "使用",
+        "受験",
+        "迷惑",
+        "褒める"
+      ],
+      "answer": "使用",
+      "explanation": "စမတ်ဖုန်း အသုံးပြုနည်းဖြစ်၍ 「使用」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "စမတ်ဖုန်း အသုံးပြုနည်းဖြစ်၍ 「使用」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q011",
+      "lessonId": "n3.l44",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "この辞書アプリは例文が豊富で、日本語の作文にとても（　　）。",
+      "choices": [
+        "役立つ",
+        "苦労する",
+        "叱る",
+        "受ける"
+      ],
+      "answer": "役立つ",
+      "explanation": "အလွန်အသုံးဝင်ကြောင်း ဖော်ပြရန် 「役立つ」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အလွန်အသုံးဝင်ကြောင်း ဖော်ပြရန် 「役立つ」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q012",
+      "lessonId": "n3.l44",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "プロジェクトを成功させるには、各自が自分の（　　）を全うすべきだ。",
+      "choices": [
+        "役割",
+        "迷惑",
+        "無理",
+        "苦労"
+      ],
+      "answer": "役割",
+      "explanation": "မိမိ၏ တာဝန်အခန်းကဏ္ဍဖြစ်၍ 「役割」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "မိမိ၏ တာဝန်အခန်းကဏ္ဍဖြစ်၍ 「役割」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q013",
+      "lessonId": "n3.l44",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "夜間に大声で騒ぐと、近所の人に（　　）がかかります。",
+      "choices": [
+        "迷惑",
+        "役割",
+        "責任",
+        "使用"
+      ],
+      "answer": "迷惑",
+      "explanation": "အိမ်နီးနားချင်းများအား ဒုက္ခစိတ်အနှောင့်အယှက်ဖြစ်စေခြင်းဖြစ်၍ 「迷惑」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အိမ်နီးနားချင်းများအား ဒုက္ခစိတ်အနှောင့်အယှက်ဖြစ်စေခြင်းဖြစ်၍ 「迷惑」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q014",
+      "lessonId": "n3.l44",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　　）なスケジュールを組むと、途中で体調を崩してしまいます。",
+      "choices": [
+        "無理",
+        "豊富",
+        "具体的",
+        "快適"
+      ],
+      "answer": "無理",
+      "explanation": "မဖြစ်နိုင်သော အတင်းအကျပ် အစီအစဉ်ဖြစ်၍ 「無理」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "မဖြစ်နိုင်သော အတင်းအကျပ် အစီအစဉ်ဖြစ်၍ 「無理」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q015",
+      "lessonId": "n3.l44",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "リーダーとしての重大な（　　）を自覚して行動する。",
+      "choices": [
+        "責任",
+        "苦労",
+        "迷惑",
+        "役割"
+      ],
+      "answer": "責任",
+      "explanation": "ကြီးမားသော တာဝန်ဝတ္တရားဖြစ်၍ 「責任」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ကြီးမားသော တာဝန်ဝတ္တရားဖြစ်၍ 「責任」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q016",
+      "lessonId": "n3.l44",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "若い時の（　　）は買ってでもせよ、ということわざがある。",
+      "choices": [
+        "苦労",
+        "迷惑",
+        "責任",
+        "使用"
+      ],
+      "answer": "苦労",
+      "explanation": "ငယ်စဉ်အခါက ပင်ပန်းဆင်းရဲမှုနှင့် ဒုက္ခကို ဆိုလိုသည့် စကားပုံဖြစ်၍ 「苦労」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ငယ်စဉ်အခါက ပင်ပန်းဆင်းရဲမှုနှင့် ဒုက္ခကို ဆိုလိုသည့် စကားပုံဖြစ်၍ 「苦労」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q017",
+      "lessonId": "n3.l44",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「迷惑の受身」（被害の受身）の説明として正しいものはどれですか。",
+      "choices": [
+        "他者の動作や自然現象によって、話者が不利益や不快感を被ったことを表す",
+        "他者を心から尊敬して持ち上げるために使う",
+        "未来の予定を約束するために用いる",
+        "自分の意志で積極的に行動したことを強調する"
+      ],
+      "answer": "他者の動作や自然現象によって、話者が不利益や不快感を被ったことを表す",
+      "explanation": "အခြားသူ၏ လုပ်ရပ် သို့မဟုတ် သဘာဝဘေးကြောင့် မိမိဘက်မှ ဒုက္ခစိတ်အနှောင့်အယှက် ခံစားရမှုကို ဖော်ပြပါသည်။",
+      "explanationMy": "အခြားသူ၏ လုပ်ရပ် သို့မဟုတ် သဘာဝဘေးကြောင့် မိမိဘက်မှ ဒုက္ခစိတ်အနှောင့်အယှက် ခံစားရမှုကို ဖော်ပြပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q018",
+      "lessonId": "n3.l44",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「上司に残業させられた」という使役受身文に含まれるニュアンスは？",
+      "choices": [
+        "本当は帰りたかったが、上司の指示や圧力で嫌々ながら残業した",
+        "残業したくて自分から志願して楽しく働いた",
+        "上司が残業するのを自分が手伝ってあげた",
+        "残業を断って定時で気持ちよく帰宅した"
+      ],
+      "answer": "本当は帰りたかったが、上司の指示や圧力で嫌々ながら残業した",
+      "explanation": "မိမိဆန္ဒမဟုတ်ဘဲ အထက်လူကြီး၏ ဖိအားကြောင့် မဖြစ်မနေ အချိန်ပိုဆင်းခဲ့ရသည့် ခံစားချက်ဖြစ်ပါသည်။",
+      "explanationMy": "မိမိဆန္ဒမဟုတ်ဘဲ အထက်လူကြီး၏ ဖိအားကြောင့် မဖြစ်မနေ အချိန်ပိုဆင်းခဲ့ရသည့် ခံစားချက်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q019",
+      "lessonId": "n3.l44",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「役立つ」の「役」の部首（Radical）は何ですか。",
+      "choices": [
+        "彳（ぎょうにんべん）",
+        "亻（にんべん）",
+        "殳（るまた）",
+        "手（てへん）"
+      ],
+      "answer": "彳（ぎょうにんべん）",
+      "explanation": "「役」၏ radical မှာ 「彳」 (gyouninben - step) ဖြစ်ပါသည်။",
+      "explanationMy": "「役」၏ radical မှာ 「彳」 (gyouninben - step) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q020",
+      "lessonId": "n3.l44",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「子供に野菜を食べさせる」と「子供に野菜を食べさせられる」の違いは？",
+      "choices": [
+        "前者は親が子供に食べさせる（使役）、後者は話者が誰かに無理やり食べさせられる（使役受身）",
+        "前者は受身で、後者は使役である",
+        "前者は過去の動作で、後者は未来の動作である",
+        "両者に主語や立場の違いは存在しない"
+      ],
+      "answer": "前者は親が子供に食べさせる（使役）、後者は話者が誰かに無理やり食べさせられる（使役受身）",
+      "explanation": "前者は使役 (စေခိုင်းခြင်း) ဖြစ်ပြီး၊ 後者は使役受身 (အစေခိုင်းခံရခြင်း) ဖြစ်ပါသည်။",
+      "explanationMy": "前者は使役 (စေခိုင်းခြင်း) ဖြစ်ပြီး၊ 後者は使役受身 (အစေခိုင်းခံရခြင်း) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q021",
+      "lessonId": "n3.l44",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「先生に質問攻めに遭って考えさせられた」の「考えさせられた」の意味は？",
+      "choices": [
+        "深く考えざるを得ない状況に追い込まれ、多くの気づきを得た",
+        "考えることを完全に禁止された",
+        "先生の代わりに自分が質問を作った",
+        "質問が簡単すぎて退屈した"
+      ],
+      "answer": "深く考えざるを得ない状況に追い込まれ、多くの気づきを得た",
+      "explanation": "အခြေအနေအရ မစဉ်းစားမဖြစ် စဉ်းစားခဲ့ရပြီး အတွေးသစ်များ ရရှိခဲ့သည်ကို ဖော်ပြပါသည်။",
+      "explanationMy": "အခြေအနေအရ မစဉ်းစားမဖြစ် စဉ်းစားခဲ့ရပြီး အတွေးသစ်များ ရရှိခဲ့သည်ကို ဖော်ပြပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q022",
+      "lessonId": "n3.l44",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「褒める」と「叱る」の関係性として正しいものはどれですか。",
+      "choices": [
+        "対義語（反対の意味）の関係にある",
+        "同義語（全く同じ意味）の関係にある",
+        "どちらも名詞であり動詞ではない",
+        "敬語と謙譲語のペアである"
+      ],
+      "answer": "対義語（反対の意味）の関係にある",
+      "explanation": "「褒める」 (ချီးမွမ်းသည်) နှင့် 「叱る」 (ဆူပူသည်) သည် ဆန့်ကျင်ဘက် အဓိပ္ပာယ် (対義語) ဖြစ်ပါသည်။",
+      "explanationMy": "「褒める」 (ချီးမွမ်းသည်) နှင့် 「叱る」 (ဆူပူသည်) သည် ဆန့်ကျင်ဘက် အဓိပ္ပာယ် (対義語) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q023",
+      "lessonId": "n3.l44",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "動詞「書く」の使役受身の短縮形（五段動詞）として自然なものはどれですか。",
+      "choices": [
+        "書かされる",
+        "書かせられる",
+        "書かれる",
+        "書かせる"
+      ],
+      "answer": "書かされる",
+      "explanation": "五段動詞 書く ၏ 使役受身 တွင် 書かせられる အပြင် အသုံးများသော တိုတိုပုံစံမှာ 「書かされる」 ဖြစ်ပါသည်။",
+      "explanationMy": "五段動詞 書く ၏ 使役受身 တွင် 書かせられる အပြင် အသုံးများသော တိုတိုပုံစံမှာ 「書かされる」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q024",
+      "lessonId": "n3.l44",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "会話で「最後によく頑張ったと褒められた時は本当に嬉しかった」と述べた理由は？",
+      "choices": [
+        "厳しい研修の苦労を乗り越えた達成感を認められたから",
+        "研修の費用が全額返金されたから",
+        "明日から出社しなくてよくなったから",
+        "講師を叱り返すことができたから"
+      ],
+      "answer": "厳しい研修の苦労を乗り越えた達成感を認められたから",
+      "explanation": "ပင်ပန်းခက်ခဲသော လေ့ကျင့်မှုကို ကြိုးစားကျော်လွှားခဲ့သည့်အတွက် အသိအမှတ်ပြု ချီးမွမ်းခံရ၍ ဖြစ်ပါသည်။",
+      "explanationMy": "ပင်ပန်းခက်ခဲသော လေ့ကျင့်မှုကို ကြိုးစားကျော်လွှားခဲ့သည့်အတွက် အသိအမှတ်ပြု ချီးမွမ်းခံရ၍ ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q025",
+      "lessonId": "n3.l44",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文によると、過保護な環境で育った人が直面しやすい問題は何ですか。",
+      "choices": [
+        "社会に出てから自分の責任の重さに圧倒されてしまうこと",
+        "外国語の習得が異常に早すぎること",
+        "体力が有り余って眠れなくなること",
+        "給料の計算ができなくなること"
+      ],
+      "answer": "社会に出てから自分の責任の重さに圧倒されてしまうこと",
+      "explanation": "社会に出てから自分の責任の重さに圧倒されてしまうことがあります ဟု စာပိုဒ်တွင် ဖော်ပြထားပါသည်။",
+      "explanationMy": "社会に出てから自分の責任の重さに圧倒されてしまうことがあります ဟု စာပိုဒ်တွင် ဖော်ပြထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q026",
+      "lessonId": "n3.l44",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文で、若者の自立と成長のために重要だと述べられているのはどれですか。",
+      "choices": [
+        "先回りして助けすぎず、時には自分で考えさせ困難に直面させること",
+        "失敗した場合はすべて他人の責任にすること",
+        "どんな困難もすべてお金で解決させること",
+        "仕事の責任を部下にすべて押し付けること"
+      ],
+      "answer": "先回りして助けすぎず、時には自分で考えさせ困難に直面させること",
+      "explanation": "時には自分で考えさせ、困難に直面させることが大切です ဟု တိုက်တွန်းထားပါသည်။",
+      "explanationMy": "時には自分で考えさせ、困難に直面させることが大切です ဟု တိုက်တွန်းထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q027",
+      "lessonId": "n3.l44",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文によると、将来良きリーダーになるために必要な資質は何ですか。",
+      "choices": [
+        "他人の痛みを理解し、単に叱るだけでなく適切に褒めて伸ばす力",
+        "部下に対して常に大声で怒鳴り続ける力",
+        "自分の失敗を隠して部下に謝罪させる力",
+        "定時に全員を帰宅させずに毎日残業させる力"
+      ],
+      "answer": "他人の痛みを理解し、単に叱るだけでなく適切に褒めて伸ばす力",
+      "explanation": "単に叱るだけでなく、適切に褒めて伸ばすことができる良きリーダー ဟု ရှင်းလင်းစွာ ဖော်ပြထားပါသည်။",
+      "explanationMy": "単に叱るだけでなく、適切に褒めて伸ばすことができる良きリーダー ဟု ရှင်းလင်းစွာ ဖော်ပြထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q028",
+      "lessonId": "n3.l44",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "文脈に合う正しい活用形を選びなさい：\n「父に２時間も説教を（　　）、うんざりした。」",
+      "choices": [
+        "聞かされて",
+        "聞かれて",
+        "聞かせて",
+        "聞いて"
+      ],
+      "answer": "聞かされて",
+      "explanation": "ဖခင်၏ ဆုံးမစကားကို ၂ နာရီလုံးလုံး မလွှဲမရှောင်သာ ငြီးငွေ့စွာ နားထောင်ခဲ့ရသည့် 使役受身 အဖြစ် 「聞かされて」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ဖခင်၏ ဆုံးမစကားကို ၂ နာရီလုံးလုံး မလွှဲမရှောင်သာ ငြီးငွေ့စွာ နားထောင်ခဲ့ရသည့် 使役受身 အဖြစ် 「聞かされて」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q029",
+      "lessonId": "n3.l44",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "次の語句を正しく並べ替えて意味の通る文にしなさい：\n「足を踏まれて / 電車で / 痛かった / とても」",
+      "choices": [
+        "電車で足を踏まれてとても痛かった",
+        "とても電車で足を踏まれて痛かった",
+        "痛かったとても電車で足を踏まれて",
+        "足を踏まれてとても電車で痛かった"
+      ],
+      "answer": "電車で足を踏まれてとても痛かった",
+      "explanation": "မှန်ကန်သော ဝါကျစီစဉ်မှုမှာ 「電車で足を踏まれてとても痛かった」 ဖြစ်ပါသည်။",
+      "explanationMy": "မှန်ကန်သော ဝါကျစီစဉ်မှုမှာ 「電車で足を踏まれてとても痛かった」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l44.q030",
+      "lessonId": "n3.l44",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "本課で学んだ「受身・使役・使役受身」を使い分けることの意義は？",
+      "choices": [
+        "行為の主体と客体の関係や、自発・強制・被害などの微妙な心理的ニュアンスを正確に表現できる",
+        "単語の数を減らして文を極限まで短くするため",
+        "すべての文章を疑問文に書き直すため",
+        "カタカナ英語の借用語を置き換えるため"
+      ],
+      "answer": "行為の主体と客体の関係や、自発・強制・被害などの微妙な心理的ニュアンスを正確に表現できる",
+      "explanation": "လုပ်ဆောင်သူနှင့် ခံရသူ၏ ဆက်ဆံရေး၊ စေခိုင်းမှုနှင့် စိတ်ခံစားမှု သိမ်မွေ့ချက်များကို တိကျစွာ ဖော်ပြနိုင်ပါသည်။",
+      "explanationMy": "လုပ်ဆောင်သူနှင့် ခံရသူ၏ ဆက်ဆံရေး၊ စေခိုင်းမှုနှင့် စိတ်ခံစားမှု သိမ်မွေ့ချက်များကို တိကျစွာ ဖော်ပြနိုင်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l44.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-06T10:00:00Z",
+    "rev": 2
+  }
+}

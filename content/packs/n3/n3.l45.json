@@ -1,0 +1,1559 @@
+{
+  "id": "n3.l45",
+  "level": "N3",
+  "module": "N3 Formal & Expository",
+  "number": 45,
+  "title": "N3 Lesson 45: Giving, Receiving & Benefactive (〜てあげる・〜てくれる・〜てもらう)",
+  "description": "အကူအညီပေးခြင်းနှင့် လက်ခံရယူခြင်းဆိုင်ရာ ကျေးဇူးပြုမှုများကို ယဉ်ကျေးစွာ ဖော်ပြနိုင်ခြင်း 〜てあげる、〜てくれる、〜てもらう ၏ ရှုထောင့်နှင့် အပြန်အလှန်ဆက်ဆံရေးကို တိကျစွာ ခွဲခြားသုံးစွဲနိုင်ခြင်း ကျေးဇူးတင်စကားနှင့် အားနာမှုဆိုင်ရာ ခံစားချက်များကို သဘာဝကျကျ ပြောဆိုနိုင်ခြင်း",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l45.v001",
+      "lessonId": "n3.l45",
+      "ja": "与える",
+      "kana": "あたえる",
+      "en": "ataeru",
+      "my": "ပေးအပ်သည်/သက်ရောက်စေသည်",
+      "meaningMy": "ပေးအပ်သည်/သက်ရောက်စေသည်",
+      "meaningMyanmar": "ပေးအပ်သည်/သက်ရောက်စေသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l45.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.v002",
+      "lessonId": "n3.l45",
+      "ja": "贈る",
+      "kana": "おくる",
+      "en": "okuru",
+      "my": "လက်ဆောင်ပေးသည်",
+      "meaningMy": "လက်ဆောင်ပေးသည်",
+      "meaningMyanmar": "လက်ဆောင်ပေးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l45.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.v003",
+      "lessonId": "n3.l45",
+      "ja": "贈り物",
+      "kana": "おくりもの",
+      "en": "okurimono",
+      "my": "လက်ဆောင်ပစ္စည်း",
+      "meaningMy": "လက်ဆောင်ပစ္စည်း",
+      "meaningMyanmar": "လက်ဆောင်ပစ္စည်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l45.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.v004",
+      "lessonId": "n3.l45",
+      "ja": "授与",
+      "kana": "じゅよ",
+      "en": "juyo",
+      "my": "ချီးမြှင့်ပေးအပ်ခြင်း",
+      "meaningMy": "ချီးမြှင့်ပေးအပ်ခြင်း",
+      "meaningMyanmar": "ချီးမြှင့်ပေးအပ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l45.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.v005",
+      "lessonId": "n3.l45",
+      "ja": "教授",
+      "kana": "きょうじゅ",
+      "en": "kyouju",
+      "my": "ပါမောက္ခ",
+      "meaningMy": "ပါမောက္ခ",
+      "meaningMyanmar": "ပါမောက္ခ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l45.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.v006",
+      "lessonId": "n3.l45",
+      "ja": "恩恵",
+      "kana": "おんけい",
+      "en": "onkei",
+      "my": "ကျေးဇူးခံစားခွင့်/ကောင်းကျိုး",
+      "meaningMy": "ကျေးဇူးခံစားခွင့်/ကောင်းကျိုး",
+      "meaningMyanmar": "ကျေးဇူးခံစားခွင့်/ကောင်းကျိုး",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l45.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.v007",
+      "lessonId": "n3.l45",
+      "ja": "感謝",
+      "kana": "かんしゃ",
+      "en": "kansha",
+      "my": "ကျေးဇူးတင်ခြင်း",
+      "meaningMy": "ကျေးဇူးတင်ခြင်း",
+      "meaningMyanmar": "ကျေးဇူးတင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l45.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.v008",
+      "lessonId": "n3.l45",
+      "ja": "お礼",
+      "kana": "おれい",
+      "en": "orei",
+      "my": "ကျေးဇူးတုံ့ပြန်မှု/ကျေးဇူးတင်လက်ဆောင်",
+      "meaningMy": "ကျေးဇူးတုံ့ပြန်မှု/ကျေးဇူးတင်လက်ဆောင်",
+      "meaningMyanmar": "ကျေးဇူးတုံ့ပြန်မှု/ကျေးဇူးတင်လက်ဆောင်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l45.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.v009",
+      "lessonId": "n3.l45",
+      "ja": "親切",
+      "kana": "しんせつ",
+      "en": "shinsetsu",
+      "my": "ကြင်နာဖော်ရွေသော",
+      "meaningMy": "ကြင်နာဖော်ရွေသော",
+      "meaningMyanmar": "ကြင်နာဖော်ရွေသော",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l45.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.v010",
+      "lessonId": "n3.l45",
+      "ja": "遠慮",
+      "kana": "えんりょ",
+      "en": "enryo",
+      "my": "အားနာခြင်း/တွန့်ဆုတ်ခြင်း",
+      "meaningMy": "အားနာခြင်း/တွန့်ဆုတ်ခြင်း",
+      "meaningMyanmar": "အားနာခြင်း/တွန့်ဆုတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l45.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.v011",
+      "lessonId": "n3.l45",
+      "ja": "助ける",
+      "kana": "たすける",
+      "en": "tasukeru",
+      "my": "ကူညီကယ်ဆယ်သည်",
+      "meaningMy": "ကူညီကယ်ဆယ်သည်",
+      "meaningMyanmar": "ကူညီကယ်ဆယ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l45.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.v012",
+      "lessonId": "n3.l45",
+      "ja": "支える",
+      "kana": "ささえる",
+      "en": "sasaeru",
+      "my": "ထောက်ပံ့အားပေးသည်/ဖေးမသည်",
+      "meaningMy": "ထောက်ပံ့အားပေးသည်/ဖေးမသည်",
+      "meaningMyanmar": "ထောက်ပံ့အားပေးသည်/ဖေးမသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l45.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l45.k001",
+      "lessonId": "n3.l45",
+      "char": "与",
+      "meaning": "ပေးအပ်သည်၊ ချီးမြှင့်သည် (Give/Bestow)",
+      "meaningMy": "ပေးအပ်သည်၊ ချီးမြှင့်သည် (Give/Bestow)",
+      "meaningMyanmar": "ပေးအပ်သည်၊ ချီးမြှင့်သည် (Give/Bestow)",
+      "onyomi": [
+        "YO"
+      ],
+      "kunyomi": [
+        "ata-eru"
+      ],
+      "exampleVocab": [
+        {
+          "word": "与える",
+          "reading": "あたえる",
+          "meaning": "ပေးသည်/သက်ရောက်စေသည်",
+          "meaningMy": "ပေးသည်/သက်ရောက်စေသည်",
+          "preview": false
+        },
+        {
+          "word": "給与",
+          "reading": "きゅうよ",
+          "meaning": "လစာ/စရိတ်",
+          "meaningMy": "လစာ/စရိတ်",
+          "preview": false
+        },
+        {
+          "word": "賞与",
+          "reading": "しょうよ",
+          "meaning": "ဘောနပ်စ်",
+          "meaningMy": "ဘောနပ်စ်",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l45.s001"
+      ],
+      "components": [
+        "一 (one)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.k002",
+      "lessonId": "n3.l45",
+      "char": "贈",
+      "meaning": "လက်ဆောင်ပေးသည် (Present/Gift)",
+      "meaningMy": "လက်ဆောင်ပေးသည် (Present/Gift)",
+      "meaningMyanmar": "လက်ဆောင်ပေးသည် (Present/Gift)",
+      "onyomi": [
+        "ZOU",
+        "SOU"
+      ],
+      "kunyomi": [
+        "oku-ru"
+      ],
+      "exampleVocab": [
+        {
+          "word": "贈る",
+          "reading": "おくる",
+          "meaning": "လက်ဆောင်ပေးသည်",
+          "meaningMy": "လက်ဆောင်ပေးသည်",
+          "preview": false
+        },
+        {
+          "word": "贈り物",
+          "reading": "おくりもの",
+          "meaning": "လက်ဆောင်ပစ္စည်း",
+          "meaningMy": "လက်ဆောင်ပစ္စည်း",
+          "preview": false
+        },
+        {
+          "word": "寄贈",
+          "reading": "きぞう",
+          "meaning": "လှူဒါန်းပေးအပ်ခြင်း",
+          "meaningMy": "လှူဒါန်းပေးအပ်ခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l45.s001"
+      ],
+      "components": [
+        "貝 (shell/money)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.k003",
+      "lessonId": "n3.l45",
+      "char": "授",
+      "meaning": "သင်ကြားပေးသည်၊ ချီးမြှင့်သည် (Instruct/Impart/Grant)",
+      "meaningMy": "သင်ကြားပေးသည်၊ ချီးမြှင့်သည် (Instruct/Impart/Grant)",
+      "meaningMyanmar": "သင်ကြားပေးသည်၊ ချီးမြှင့်သည် (Instruct/Impart/Grant)",
+      "onyomi": [
+        "JU"
+      ],
+      "kunyomi": [
+        "sazu-keru",
+        "sazu-karu"
+      ],
+      "exampleVocab": [
+        {
+          "word": "授業",
+          "reading": "じゅぎょう",
+          "meaning": "အတန်းသင်ခန်းစာ",
+          "meaningMy": "အတန်းသင်ခန်းစာ",
+          "preview": false
+        },
+        {
+          "word": "教授",
+          "reading": "きょうじゅ",
+          "meaning": "ပါမောက္ခ",
+          "meaningMy": "ပါမောက္ခ",
+          "preview": false
+        },
+        {
+          "word": "授与",
+          "reading": "じゅよ",
+          "meaning": "ချီးမြှင့်ပေးအပ်ခြင်း",
+          "meaningMy": "ချီးမြှင့်ပေးအပ်ခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l45.s001"
+      ],
+      "components": [
+        "手 (hand)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l45.g001",
+      "lessonId": "n3.l45",
+      "pattern": "〜てあげる / 〜てさしあげる",
+      "meaning": "... ပေးသည် (သူတစ်ပါးအတွက် တစ်ခုခု လုပ်ပေးသည်)",
+      "meaningMy": "... ပေးသည် (သူတစ်ပါးအတွက် တစ်ခုခု လုပ်ပေးသည်)",
+      "meaningMyanmar": "... ပေးသည် (သူတစ်ပါးအတွက် တစ်ခုခု လုပ်ပေးသည်)",
+      "formation": "V(て形) + あげる / さしあげる (謙譲)",
+      "explanation": {
+        "en": "မိမိက အခြားသူတစ်ဦးအတွက် ကောင်းကျိုးတစ်ခုခု ပြုလုပ်ပေးသည့်အခါ သုံးသည်။ သို့သော် လူကြီးများ သို့မဟုတ် တိုက်ရိုက်ပြောဆိုရာတွင် မောက်မာသည့်သဘော မသက်ရောက်စေရန် ဂရုပြုရသည်။",
+        "my": "မိမိက အခြားသူတစ်ဦးအတွက် ကောင်းကျိုးတစ်ခုခု ပြုလုပ်ပေးသည့်အခါ သုံးသည်။ သို့သော် လူကြီးများ သို့မဟုတ် တိုက်ရိုက်ပြောဆိုရာတွင် မောက်မာသည့်သဘော မသက်ရောက်စေရန် ဂရုပြုရသည်။"
+      },
+      "explanationMy": "မိမိက အခြားသူတစ်ဦးအတွက် ကောင်းကျိုးတစ်ခုခု ပြုလုပ်ပေးသည့်အခါ သုံးသည်။ သို့သော် လူကြီးများ သို့မဟုတ် တိုက်ရိုက်ပြောဆိုရာတွင် မောက်မာသည့်သဘော မသက်ရောက်စေရန် ဂရုပြုရသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l45.s001",
+          "note": "〜てあげる / 〜てさしあげる usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜てあげる / 〜てさしあげる."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "重い荷物を持っていたので、運ぶのを手伝ってあげました。",
+      "clozeTarget": "〜てあげる / 〜てさしあげる",
+      "clozeHint": "... ပေးသည် (သူတစ်ပါးအတွက် တစ်ခုခု လုပ်ပေးသည်)",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "မိမိက အခြားသူတစ်ဦးအတွက် ကောင်းကျိုးတစ်ခုခု ပြုလုပ်ပေးသည့်အခါ သုံးသည်။ သို့သော် လူကြီးများ သို့မဟုတ် တိုက်ရိုက်ပြောဆိုရာတွင် မောက်မာသည့်သဘော မသက်ရောက်စေရန် ဂရုပြုရသည်။"
+    },
+    {
+      "id": "n3.l45.g002",
+      "lessonId": "n3.l45",
+      "pattern": "〜てくれる / 〜てくださる",
+      "meaning": "... ပေးသည် (သူတစ်ပါးက မိမိအတွက် လုပ်ပေးသည်)",
+      "meaningMy": "... ပေးသည် (သူတစ်ပါးက မိမိအတွက် လုပ်ပေးသည်)",
+      "meaningMyanmar": "... ပေးသည် (သူတစ်ပါးက မိမိအတွက် လုပ်ပေးသည်)",
+      "formation": "V(て形) + くれる / くださる (尊敬)",
+      "explanation": {
+        "en": "အခြားသူတစ်ဦးက မိမိ (သို့မဟုတ် မိမိနှင့် နီးစပ်သူ) အား ကျေးဇူးပြု၍ ကူညီဆောင်ရွက်ပေးသည့်အခါ ကျေးဇူးတင်စိတ်ဖြင့် ဖော်ပြသည်။",
+        "my": "အခြားသူတစ်ဦးက မိမိ (သို့မဟုတ် မိမိနှင့် နီးစပ်သူ) အား ကျေးဇူးပြု၍ ကူညီဆောင်ရွက်ပေးသည့်အခါ ကျေးဇူးတင်စိတ်ဖြင့် ဖော်ပြသည်။"
+      },
+      "explanationMy": "အခြားသူတစ်ဦးက မိမိ (သို့မဟုတ် မိမိနှင့် နီးစပ်သူ) အား ကျေးဇူးပြု၍ ကူညီဆောင်ရွက်ပေးသည့်အခါ ကျေးဇူးတင်စိတ်ဖြင့် ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l45.s001",
+          "note": "〜てくれる / 〜てくださる usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜てくれる / 〜てくださる."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "友人が駅まで車で迎えに来てくれました。",
+      "clozeTarget": "〜てくれる / 〜てくださる",
+      "clozeHint": "... ပေးသည် (သူတစ်ပါးက မိမိအတွက် လုပ်ပေးသည်)",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "အခြားသူတစ်ဦးက မိမိ (သို့မဟုတ် မိမိနှင့် နီးစပ်သူ) အား ကျေးဇူးပြု၍ ကူညီဆောင်ရွက်ပေးသည့်အခါ ကျေးဇူးတင်စိတ်ဖြင့် ဖော်ပြသည်။"
+    },
+    {
+      "id": "n3.l45.g003",
+      "lessonId": "n3.l45",
+      "pattern": "〜てもらう / 〜ていただく",
+      "meaning": "... (လုပ်) ပေးခြင်းခံရသည် / လုပ်ခိုင်းယူသည်",
+      "meaningMy": "... (လုပ်) ပေးခြင်းခံရသည် / လုပ်ခိုင်းယူသည်",
+      "meaningMyanmar": "... (လုပ်) ပေးခြင်းခံရသည် / လုပ်ခိုင်းယူသည်",
+      "formation": "V(て形) + もらう / いただく (謙譲)",
+      "explanation": {
+        "en": "မိမိဘက်က အကူအညီတောင်းခံ၍ဖြစ်စေ၊ တစ်ဖက်သား၏ ကျေးဇူးပြုမှုဖြင့်ဖြစ်စေ အကျိုးကျေးဇူးကို လက်ခံရရှိကြောင်းကို မိမိရှုထောင့်မှ ဖော်ပြသည်။",
+        "my": "မိမိဘက်က အကူအညီတောင်းခံ၍ဖြစ်စေ၊ တစ်ဖက်သား၏ ကျေးဇူးပြုမှုဖြင့်ဖြစ်စေ အကျိုးကျေးဇူးကို လက်ခံရရှိကြောင်းကို မိမိရှုထောင့်မှ ဖော်ပြသည်။"
+      },
+      "explanationMy": "မိမိဘက်က အကူအညီတောင်းခံ၍ဖြစ်စေ၊ တစ်ဖက်သား၏ ကျေးဇူးပြုမှုဖြင့်ဖြစ်စေ အကျိုးကျေးဇူးကို လက်ခံရရှိကြောင်းကို မိမိရှုထောင့်မှ ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l45.s001",
+          "note": "〜てもらう / 〜ていただく usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜てもらう / 〜ていただく."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "同僚に書類の誤りをチェックしてもらいました。",
+      "clozeTarget": "〜てもらう / 〜ていただく",
+      "clozeHint": "... (လုပ်) ပေးခြင်းခံရသည် / လုပ်ခိုင်းယူသည်",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "မိမိဘက်က အကူအညီတောင်းခံ၍ဖြစ်စေ၊ တစ်ဖက်သား၏ ကျေးဇူးပြုမှုဖြင့်ဖြစ်စေ အကျိုးကျေးဇူးကို လက်ခံရရှိကြောင်းကို မိမိရှုထောင့်မှ ဖော်ပြသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l45.s001",
+      "lessonId": "n3.l45",
+      "ja": "子供たちに夢や希望を与えるような素晴らしい本を贈りたい。",
+      "kana": "子供たちに夢や希望を与えるような素晴らしい本を贈りたい。",
+      "translation": {
+        "en": "Kodomotachi ni yume ya kibou o ataeru you na subarashii hon o okuritai.",
+        "my": "ကလေးများအား အိပ်မက်နှင့် မျှော်လင့်ချက်များကို ပေးစွမ်းနိုင်မည့် ကောင်းမွန်သော စာအုပ်ကို လက်ဆောင်ပေးလိုပါသည်။"
+      },
+      "translationMy": "ကလေးများအား အိပ်မက်နှင့် မျှော်လင့်ချက်များကို ပေးစွမ်းနိုင်မည့် ကောင်းမွန်သော စာအုပ်ကို လက်ဆောင်ပေးလိုပါသည်။",
+      "vocabIds": [
+        "n3.l45.v001",
+        "n3.l45.v002"
+      ],
+      "grammarIds": [
+        "n3.l45.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.s002",
+      "lessonId": "n3.l45",
+      "ja": "大学の卒業式において、優秀な研究成果を修めた学生に学位記が授与された。",
+      "kana": "大学の卒業式において、優秀な研究成果を修めた学生に学位記が授与された。",
+      "translation": {
+        "en": "Daigaku no sotsugyoushiki ni oite, yuushuu na kenkyuu seika o osameta gakusei ni gakuiki ga juyo sareta.",
+        "my": "တက္ကသိုလ်ဘွဲ့နှင်းသဘင်အခမ်းအနားတွင် ထူးချွန်သော သုတေသနရလဒ်ကို ဆွတ်ခူးခဲ့သည့် ကျောင်းသားအား ဘွဲ့လက်မှတ်ကို ချီးမြှင့်ပေးအပ်ခဲ့သည်။"
+      },
+      "translationMy": "တက္ကသိုလ်ဘွဲ့နှင်းသဘင်အခမ်းအနားတွင် ထူးချွန်သော သုတေသနရလဒ်ကို ဆွတ်ခူးခဲ့သည့် ကျောင်းသားအား ဘွဲ့လက်မှတ်ကို ချီးမြှင့်ပေးအပ်ခဲ့သည်။",
+      "vocabIds": [
+        "n3.l45.v004"
+      ],
+      "grammarIds": [
+        "n3.l45.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.s003",
+      "lessonId": "n3.l45",
+      "ja": "大学の担当教授から、推薦状を親切に書いていただきました。",
+      "kana": "大学の担当教授から、推薦状を親切に書いていただきました。",
+      "translation": {
+        "en": "Daigaku no tantou kyouju kara, suisenjou o shinsetsu ni kaite itadakimashita.",
+        "my": "တက္ကသိုလ်တာဝန်ခံ ပါမောက္ခထံမှ ထောက်ခံစာကို ကြင်နာစွာ ရေးသားပေးသနားခြင်း ခံယူခဲ့ပါသည်။"
+      },
+      "translationMy": "တက္ကသိုလ်တာဝန်ခံ ပါမောက္ခထံမှ ထောက်ခံစာကို ကြင်နာစွာ ရေးသားပေးသနားခြင်း ခံယူခဲ့ပါသည်။",
+      "vocabIds": [
+        "n3.l45.v005",
+        "n3.l45.v009"
+      ],
+      "grammarIds": [
+        "n3.l45.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.s004",
+      "lessonId": "n3.l45",
+      "ja": "日頃から温かく支えてくれる家族に、心からの感謝を込めてお礼の贈り物を渡しました。",
+      "kana": "日頃から温かく支えてくれる家族に、心からの感謝を込めてお礼の贈り物を渡しました。",
+      "translation": {
+        "en": "Higorokara atatakaku sasaete kureru kazoku ni, kokoro kara no kansha o komete orei no okurimono o watashimashita.",
+        "my": "အမြဲတစေ နွေးထွေးစွာ ဖေးမထောက်ပံ့ပေးသော မိသားစုအား စိတ်ရင်းမှ ကျေးဇူးတင်ခြင်း အပြည့်ဖြင့် ကျေးဇူးတုံ့ပြန်လက်ဆောင်ကို ပေးအပ်ခဲ့ပါသည်။"
+      },
+      "translationMy": "အမြဲတစေ နွေးထွေးစွာ ဖေးမထောက်ပံ့ပေးသော မိသားစုအား စိတ်ရင်းမှ ကျေးဇူးတင်ခြင်း အပြည့်ဖြင့် ကျေးဇူးတုံ့ပြန်လက်ဆောင်ကို ပေးအပ်ခဲ့ပါသည်။",
+      "vocabIds": [
+        "n3.l45.v003",
+        "n3.l45.v007",
+        "n3.l45.v008",
+        "n3.l45.v012"
+      ],
+      "grammarIds": [
+        "n3.l45.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.s005",
+      "lessonId": "n3.l45",
+      "ja": "困っている人を助ける時は、相手に遠慮させないような心遣いが大切です。",
+      "kana": "困っている人を助ける時は、相手に遠慮させないような心遣いが大切です。",
+      "translation": {
+        "en": "Komatte iru hito o tasukeru toki wa, aite ni enryo sasenai you na kokorodzukai ga taisetsu desu.",
+        "my": "အခက်အခဲကြုံနေရသူအား ကူညီရာတွင် တစ်ဖက်သားအား အားနာမှု မဖြစ်စေမည့် စေတနာဂရုစိုက်မှုသည် အရေးကြီးပါသည်။"
+      },
+      "translationMy": "အခက်အခဲကြုံနေရသူအား ကူညီရာတွင် တစ်ဖက်သားအား အားနာမှု မဖြစ်စေမည့် စေတနာဂရုစိုက်မှုသည် အရေးကြီးပါသည်။",
+      "vocabIds": [
+        "n3.l45.v010",
+        "n3.l45.v011"
+      ],
+      "grammarIds": [
+        "n3.l45.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l45.s006",
+      "lessonId": "n3.l45",
+      "ja": "自然の恩恵を受けながら生活していることに、常に感謝の気持ちを忘れてはなりません。",
+      "kana": "自然の恩恵を受けながら生活していることに、常に感謝の気持ちを忘れてはなりません。",
+      "translation": {
+        "en": "Shizen no onkei o ukenagara seikatsu shite iru koto ni, tsuneni kansha no kimochi o wasurete wa narimasen.",
+        "my": "သဘာဝတရား၏ ကျေးဇူးခံစားခွင့်များကို ခံယူရင်း နေထိုင်နေရခြင်းအပေါ် အမြဲတစေ ကျေးဇူးသိတတ်သည့် စိတ်ကို မမေ့အပ်ပါ။"
+      },
+      "translationMy": "သဘာဝတရား၏ ကျေးဇူးခံစားခွင့်များကို ခံယူရင်း နေထိုင်နေရခြင်းအပေါ် အမြဲတစေ ကျေးဇူးသိတတ်သည့် စိတ်ကို မမေ့အပ်ပါ။",
+      "vocabIds": [
+        "n3.l45.v006",
+        "n3.l45.v007"
+      ],
+      "grammarIds": [
+        "n3.l45.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l45.r001",
+    "lessonId": "n3.l45",
+    "title": "助け合いの精神と「おかげさま」の文化",
+    "level": "N3",
+    "text": "日本には古くから、他者の支えや自然の恩恵に対して深く感謝する「おかげさま」という美しい文化があります。人は誰しも一人だけで生きているわけではなく、見えないところで誰かに助けられ、支え合って暮らしています。自分が誰かのために何かをしてあげる時でも、恩着せがましくならず、相手の尊厳を守る配慮が求められます。また、相手から親切にしてもらった時には、遠慮しすぎることなく素直に感謝の意を伝え、温かいお礼の言葉を贈ることが人間関係を円滑にします。現代社会は個人の自立が強調されがちですが、困難に直面した仲間を助け、互いに力を貸し合う連帯感こそが、社会全体に安心感と活力を与えるのです。日々の生活の中で小さな親切に気づき、感謝を行動に変えていくことが、より豊かな人間関係を築く土台となります。",
+    "kanaText": "日本には古くから、他者の支えや自然の恩恵に対して深く感謝する「おかげさま」という美しい文化があります。人は誰しも一人だけで生きているわけではなく、見えないところで誰かに助けられ、支え合って暮らしています。自分が誰かのために何かをしてあげる時でも、恩着せがましくならず、相手の尊厳を守る配慮が求められます。また、相手から親切にしてもらった時には、遠慮しすぎることなく素直に感謝の意を伝え、温かいお礼の言葉を贈ることが人間関係を円滑にします。現代社会は個人の自立が強調されがちですが、困難に直面した仲間を助け、互いに力を貸し合う連帯感こそが、社会全体に安心感と活力を与えるのです。日々の生活の中で小さな親切に気づき、感謝を行動に変えていくことが、より豊かな人間関係を築く土台となります。",
+    "translation": "助け合いの精神と「おかげさま」の文化",
+    "translationMy": "助け合いの精神と「おかげさま」の文化",
+    "questionIds": [
+      "n3.l45.q025",
+      "n3.l45.q026",
+      "n3.l45.q027"
+    ],
+    "difficulty": 3,
+    "glossary": [
+      {
+        "term": "恩恵",
+        "reading": "恩恵",
+        "meaning": "ကျေးဇူးခံစားခွင့်/ကောင်းကျိုး",
+        "meaningMy": "ကျေးဇူးခံစားခွင့်/ကောင်းကျိုး",
+        "meaningMyanmar": "ကျေးဇူးခံစားခွင့်/ကောင်းကျိုး"
+      },
+      {
+        "term": "恩着せがましい",
+        "reading": "恩着せがましい",
+        "meaning": "ကျေးဇူးတကားကားဖြင့် မောက်မာသော",
+        "meaningMy": "ကျေးဇူးတကားကားဖြင့် မောက်မာသော",
+        "meaningMyanmar": "ကျေးဇူးတကားကားဖြင့် မောက်မာသော"
+      },
+      {
+        "term": "連帯感",
+        "reading": "連帯感",
+        "meaning": "သွေးစည်းညီညွတ်မှုစိတ်ဓာတ်",
+        "meaningMy": "သွေးစည်းညီညွတ်မှုစိတ်ဓာတ်",
+        "meaningMyanmar": "သွေးစည်းညီညွတ်မှုစိတ်ဓာတ်"
+      },
+      {
+        "term": "円滑",
+        "reading": "円滑",
+        "meaning": "ချောမွေ့အဆင်ပြေသော",
+        "meaningMy": "ချောမွေ့အဆင်ပြေသော",
+        "meaningMyanmar": "ချောမွေ့အဆင်ပြေသော"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n3.l45.lis001",
+    "lessonId": "n3.l45",
+    "title": "教授への感謝と相談",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "A: 教授、昨日は夜遅くまで論文の修正を見ていただき、本当にありがとうございました。\nB: いいえ、遠慮はいりませんよ。素晴らしい発表になって私も嬉しいです。\nA: いつも温かく支えてくださる先生方に恩返しができるよう、次の研究も全力で励みます。\nB: その意気ですよ。困ったことがあればいつでも助けてあげますから、気軽に声をかけてください。",
+    "translation": "A: ပါမောက္ခခင်ဗျာ၊ မနေ့က ညဉ့်နက်သည်အထိ ကျမ်းစာတမ်း ပြင်ဆင်မှုကို ကြည့်ရှုစစ်ဆေးပေးခဲ့တဲ့အတွက် တကယ်ပဲ ကျေးဇူးတင်ရှိပါတယ်ခင်ဗျာ။\nB: ရပါတယ်ကွယ်၊ အားနာစရာမလိုပါဘူး။ ကောင်းမွန်တဲ့ တင်ပြချက်ဖြစ်လာလို့ ငါလည်း ဝမ်းသာပါတယ်။\nA: အမြဲတစေ နွေးထွေးစွာ ထောက်ပံ့ဖေးမပေးကြတဲ့ ဆရာသမားတွေကို ကျေးဇူးဆပ်နိုင်ဖို့အတွက် နောက်သုတေသနကိုလည်း အစွမ်းကုန် ကြိုးစားပါ့မယ်ခင်ဗျာ။\nB: အဲဒီစိတ်ဓာတ်မျိုးပဲရှိရမယ်။ အခက်အခဲရှိရင် အချိန်မရွေး ကူညီပေးမှာမို့လို့ လွတ်လွတ်လပ်လပ် လာပြောပါနော်။",
+    "translationMy": "A: ပါမောက္ခခင်ဗျာ၊ မနေ့က ညဉ့်နက်သည်အထိ ကျမ်းစာတမ်း ပြင်ဆင်မှုကို ကြည့်ရှုစစ်ဆေးပေးခဲ့တဲ့အတွက် တကယ်ပဲ ကျေးဇူးတင်ရှိပါတယ်ခင်ဗျာ။\nB: ရပါတယ်ကွယ်၊ အားနာစရာမလိုပါဘူး။ ကောင်းမွန်တဲ့ တင်ပြချက်ဖြစ်လာလို့ ငါလည်း ဝမ်းသာပါတယ်။\nA: အမြဲတစေ နွေးထွေးစွာ ထောက်ပံ့ဖေးမပေးကြတဲ့ ဆရာသမားတွေကို ကျေးဇူးဆပ်နိုင်ဖို့အတွက် နောက်သုတေသနကိုလည်း အစွမ်းကုန် ကြိုးစားပါ့မယ်ခင်ဗျာ။\nB: အဲဒီစိတ်ဓာတ်မျိုးပဲရှိရမယ်။ အခက်အခဲရှိရင် အချိန်မရွေး ကူညီပေးမှာမို့လို့ လွတ်လွတ်လပ်လပ် လာပြောပါနော်။",
+    "turns": [
+      {
+        "speaker": "A",
+        "ja": "教授、昨日は夜遅くまで論文の修正を見ていただき、本当にありがとうございました。",
+        "kana": "教授、昨日は夜遅くまで論文の修正を見ていただき、本当にありがとうございました。",
+        "en": "Kyouju, kinou wa yoru osoku made ronbun no shuusei o mite itadaki, hontou ni arigatou gozaimashita.",
+        "my": "ပါမောက္ခခင်ဗျာ၊ မနေ့က ညဉ့်နက်သည်အထိ ကျမ်းစာတမ်း ပြင်ဆင်မှုကို ကြည့်ရှုစစ်ဆေးပေးခဲ့တဲ့အတွက် တကယ်ပဲ ကျေးဇူးတင်ရှိပါတယ်ခင်ဗျာ။",
+        "translationMy": "ပါမောက္ခခင်ဗျာ၊ မနေ့က ညဉ့်နက်သည်အထိ ကျမ်းစာတမ်း ပြင်ဆင်မှုကို ကြည့်ရှုစစ်ဆေးပေးခဲ့တဲ့အတွက် တကယ်ပဲ ကျေးဇူးတင်ရှိပါတယ်ခင်ဗျာ။",
+        "myanmar": "ပါမောက္ခခင်ဗျာ၊ မနေ့က ညဉ့်နက်သည်အထိ ကျမ်းစာတမ်း ပြင်ဆင်မှုကို ကြည့်ရှုစစ်ဆေးပေးခဲ့တဲ့အတွက် တကယ်ပဲ ကျေးဇူးတင်ရှိပါတယ်ခင်ဗျာ။"
+      },
+      {
+        "speaker": "B",
+        "ja": "いいえ、遠慮はいりませんよ。素晴らしい発表になって私も嬉しいです。",
+        "kana": "いいえ、遠慮はいりませんよ。素晴らしい発表になって私も嬉しいです。",
+        "en": "Iie, enryo wa irimasen yo. Subarashii happyou ni natte watashi mo ureshii desu.",
+        "my": "ရပါတယ်ကွယ်၊ အားနာစရာမလိုပါဘူး။ ကောင်းမွန်တဲ့ တင်ပြချက်ဖြစ်လာလို့ ငါလည်း ဝမ်းသာပါတယ်။",
+        "translationMy": "ရပါတယ်ကွယ်၊ အားနာစရာမလိုပါဘူး။ ကောင်းမွန်တဲ့ တင်ပြချက်ဖြစ်လာလို့ ငါလည်း ဝမ်းသာပါတယ်။",
+        "myanmar": "ရပါတယ်ကွယ်၊ အားနာစရာမလိုပါဘူး။ ကောင်းမွန်တဲ့ တင်ပြချက်ဖြစ်လာလို့ ငါလည်း ဝမ်းသာပါတယ်။"
+      },
+      {
+        "speaker": "A",
+        "ja": "いつも温かく支えてくださる先生方に恩返しができるよう、次の研究も全力で励みます。",
+        "kana": "いつも温かく支えてくださる先生方に恩返しができるよう、次の研究も全力で励みます。",
+        "en": "Itsumo atatakaku sasaete kudasaru senseigata ni ongaeshi ga dekiru you, tsugi no kenkyuu mo zenryoku de hagemimasu.",
+        "my": "အမြဲတစေ နွေးထွေးစွာ ထောက်ပံ့ဖေးမပေးကြတဲ့ ဆရာသမားတွေကို ကျေးဇူးဆပ်နိုင်ဖို့အတွက် နောက်သုတေသနကိုလည်း အစွမ်းကုန် ကြိုးစားပါ့မယ်ခင်ဗျာ။",
+        "translationMy": "အမြဲတစေ နွေးထွေးစွာ ထောက်ပံ့ဖေးမပေးကြတဲ့ ဆရာသမားတွေကို ကျေးဇူးဆပ်နိုင်ဖို့အတွက် နောက်သုတေသနကိုလည်း အစွမ်းကုန် ကြိုးစားပါ့မယ်ခင်ဗျာ။",
+        "myanmar": "အမြဲတစေ နွေးထွေးစွာ ထောက်ပံ့ဖေးမပေးကြတဲ့ ဆရာသမားတွေကို ကျေးဇူးဆပ်နိုင်ဖို့အတွက် နောက်သုတေသနကိုလည်း အစွမ်းကုန် ကြိုးစားပါ့မယ်ခင်ဗျာ။"
+      },
+      {
+        "speaker": "B",
+        "ja": "その意気ですよ。困ったことがあればいつでも助けてあげますから、気軽に声をかけてください。",
+        "kana": "その意気ですよ。困ったことがあればいつでも助けてあげますから、気軽に声をかけてください。",
+        "en": "Sono iki desu yo. Komatta koto ga areba itsudemo tasukete agemasu kara, kigaru ni koe o kakete kudasai.",
+        "my": "အဲဒီစိတ်ဓာတ်မျိုးပဲရှိရမယ်။ အခက်အခဲရှိရင် အချိန်မရွေး ကူညီပေးမှာမို့လို့ လွတ်လွတ်လပ်လပ် လာပြောပါနော်။",
+        "translationMy": "အဲဒီစိတ်ဓာတ်မျိုးပဲရှိရမယ်။ အခက်အခဲရှိရင် အချိန်မရွေး ကူညီပေးမှာမို့လို့ လွတ်လွတ်လပ်လပ် လာပြောပါနော်။",
+        "myanmar": "အဲဒီစိတ်ဓာတ်မျိုးပဲရှိရမယ်။ အခက်အခဲရှိရင် အချိန်မရွေး ကူညီပေးမှာမို့လို့ လွတ်လွတ်လပ်လပ် လာပြောပါနော်။"
+      }
+    ],
+    "questionIds": [
+      "n3.l45.q028",
+      "n3.l45.q029",
+      "n3.l45.q030"
+    ],
+    "difficulty": 3,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l45.q001",
+      "lessonId": "n3.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "荷物が重そうだったので、駅まで運んで（　　）。",
+      "choices": [
+        "あげました",
+        "くれました",
+        "もらいました",
+        "いただきました"
+      ],
+      "answer": "あげました",
+      "explanation": "မိမိက တစ်ဖက်သားအတွက် ကူညီလုပ်ပေးခဲ့ခြင်းဖြစ်၍ 「〜てあげました」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "မိမိက တစ်ဖက်သားအတွက် ကူညီလုပ်ပေးခဲ့ခြင်းဖြစ်၍ 「〜てあげました」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q002",
+      "lessonId": "n3.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "雨が降ってきたとき、友達が傘を貸して（　　）。",
+      "choices": [
+        "くれました",
+        "あげました",
+        "やりました",
+        "さしあげました"
+      ],
+      "answer": "くれました",
+      "explanation": "သူငယ်ချင်းက မိမိအတွက် ထီးငှားပေးခဲ့သည့် ကျေးဇူးပြုမှုဖြစ်၍ 「〜てくれました」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "သူငယ်ချင်းက မိမိအတွက် ထီးငှားပေးခဲ့သည့် ကျေးဇူးပြုမှုဖြစ်၍ 「〜てくれました」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q003",
+      "lessonId": "n3.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "先生に推薦状を書いて（　　）、無事に合格できました。",
+      "choices": [
+        "いただき",
+        "あげて",
+        "やって",
+        "くれて"
+      ],
+      "answer": "いただき",
+      "explanation": "ဆရာထံမှ ရေးသားပေးခြင်းကို ခံယူခဲ့သည့် 謙譲語 အဖြစ် 「〜ていただき」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ဆရာထံမှ ရေးသားပေးခြင်းကို ခံယူခဲ့သည့် 謙譲語 အဖြစ် 「〜ていただき」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q004",
+      "lessonId": "n3.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「与える」の正しい読み方はどれですか。",
+      "choices": [
+        "あたえる",
+        "かなえる",
+        "そなえる",
+        "くわえる"
+      ],
+      "answer": "あたえる",
+      "explanation": "「与える」၏ အသံထွက်အမှန်မှာ 「あたえる」 (ပေးအပ်သည်) ဖြစ်ပါသည်။",
+      "explanationMy": "「与える」၏ အသံထွက်အမှန်မှာ 「あたえる」 (ပေးအပ်သည်) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q005",
+      "lessonId": "n3.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「贈る」の正しい読み方はどれですか。",
+      "choices": [
+        "おくる",
+        "まもる",
+        "とおる",
+        "かける"
+      ],
+      "answer": "おくる",
+      "explanation": "「贈る」၏ အသံထွက်အမှန်မှာ 「おくる」 (လက်ဆောင်ပေးသည်) ဖြစ်ပါသည်။",
+      "explanationMy": "「贈る」၏ အသံထွက်အမှန်မှာ 「おくる」 (လက်ဆောင်ပေးသည်) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q006",
+      "lessonId": "n3.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「教授」の正しい読み方はどれですか。",
+      "choices": [
+        "きょうじゅ",
+        "きょうしゅ",
+        "きょうしょう",
+        "こうじゅ"
+      ],
+      "answer": "きょうじゅ",
+      "explanation": "「教授」၏ အသံထွက်အမှန်မှာ 「きょうじゅ」 (ပါမောက္ခ) ဖြစ်ပါသည်။",
+      "explanationMy": "「教授」၏ အသံထွက်အမှန်မှာ 「きょうじゅ」 (ပါမောက္ခ) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q007",
+      "lessonId": "n3.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "道に迷ったとき、通りすがりの人が親切に教えて（　　）。",
+      "choices": [
+        "くれた",
+        "あげた",
+        "やった",
+        "もらった"
+      ],
+      "answer": "くれた",
+      "explanation": "ဖြတ်သွားဖြတ်လာသူက မိမိအား လမ်းပြပေးခဲ့ခြင်းဖြစ်၍ 「教えてくれた」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ဖြတ်သွားဖြတ်လာသူက မိမိအား လမ်းပြပေးခဲ့ခြင်းဖြစ်၍ 「教えてくれた」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q008",
+      "lessonId": "n3.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "先輩にパソコンの初期設定をやって（　　）。",
+      "choices": [
+        "もらった",
+        "あげた",
+        "くれた",
+        "やった"
+      ],
+      "answer": "もらった",
+      "explanation": "စီနီယာထံမှ လုပ်ဆောင်ပေးခြင်းကို လက်ခံရယူခဲ့ခြင်းဖြစ်၍ 「やってもらった」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "စီနီယာထံမှ လုပ်ဆောင်ပေးခြင်းကို လက်ခံရယူခဲ့ခြင်းဖြစ်၍ 「やってもらった」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q009",
+      "lessonId": "n3.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "お世話になった先生に、心からの感謝を込めて（　　）を贈った。",
+      "choices": [
+        "贈り物",
+        "恩恵",
+        "給与",
+        "限界"
+      ],
+      "answer": "贈り物",
+      "explanation": "ကျေးဇူးတင်လက်ဆောင်ပစ္စည်း ပေးအပ်ခြင်းဖြစ်၍ 「贈り物」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ကျေးဇူးတင်လက်ဆောင်ပစ္စည်း ပေးအပ်ခြင်းဖြစ်၍ 「贈り物」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q010",
+      "lessonId": "n3.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "大会の優勝者に、市長からトロフィーと表彰状が（　　）された。",
+      "choices": [
+        "授与",
+        "教授",
+        "遠慮",
+        "お礼"
+      ],
+      "answer": "授与",
+      "explanation": "ဆုဖလားနှင့် ဂုဏ်ပြုလွှာကို ချီးမြှင့်ပေးအပ်ခြင်းဖြစ်၍ 「授与」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ဆုဖလားနှင့် ဂုဏ်ပြုလွှာကို ချီးမြှင့်ပေးအပ်ခြင်းဖြစ်၍ 「授与」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q011",
+      "lessonId": "n3.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "現代社会は科学技術の大きな（　　）を享受している。",
+      "choices": [
+        "恩恵",
+        "迷惑",
+        "苦労",
+        "役割"
+      ],
+      "answer": "恩恵",
+      "explanation": "သိပ္ပံနည်းပညာ၏ ကြီးမားသော ကျေးဇူးခံစားခွင့်ဖြစ်၍ 「恩恵」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "သိပ္ပံနည်းပညာ၏ ကြီးမားသော ကျေးဇူးခံစားခွင့်ဖြစ်၍ 「恩恵」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q012",
+      "lessonId": "n3.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "助けてもらった時は、きちんと「ありがとう」と（　　）を言うべきだ。",
+      "choices": [
+        "お礼",
+        "遠慮",
+        "責任",
+        "苦労"
+      ],
+      "answer": "お礼",
+      "explanation": "ကျေးဇူးတင်စကား ပြောကြားခြင်းဖြစ်၍ 「お礼」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ကျေးဇူးတင်စကား ပြောကြားခြင်းဖြစ်၍ 「お礼」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q013",
+      "lessonId": "n3.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "お茶をどうぞ、と言われたが、（　　）して断ってしまった。",
+      "choices": [
+        "遠慮",
+        "感謝",
+        "親切",
+        "授与"
+      ],
+      "answer": "遠慮",
+      "explanation": "အားနာပြီး ငြင်းဆန်လိုက်ခြင်းဖြစ်၍ 「遠慮」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အားနာပြီး ငြင်းဆန်လိုက်ခြင်းဖြစ်၍ 「遠慮」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q014",
+      "lessonId": "n3.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "倒れそうな古い建物を、太い柱でしっかりと（　　）ている。",
+      "choices": [
+        "支え",
+        "助け",
+        "与え",
+        "贈り"
+      ],
+      "answer": "支え",
+      "explanation": "တိုင်လုံးကြီးဖြင့် ခိုင်မာစွာ ထောက်ကန်ထားခြင်းဖြစ်၍ 「支えている」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "တိုင်လုံးကြီးဖြင့် ခိုင်မာစွာ ထောက်ကန်ထားခြင်းဖြစ်၍ 「支えている」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q015",
+      "lessonId": "n3.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "困っている留学生をみんなで温かく（　　）ましょう。",
+      "choices": [
+        "助け",
+        "叱り",
+        "踏み",
+        "迫り"
+      ],
+      "answer": "助け",
+      "explanation": "အခက်အခဲကြုံနေရသော ကျောင်းသားအား ကူညီခြင်းဖြစ်၍ 「助けましょう」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အခက်အခဲကြုံနေရသော ကျောင်းသားအား ကူညီခြင်းဖြစ်၍ 「助けましょう」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q016",
+      "lessonId": "n3.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "駅員さんは外国人観光客に（　　）に行き先を説明した。",
+      "choices": [
+        "親切",
+        "無理",
+        "限界",
+        "単に"
+      ],
+      "answer": "親切",
+      "explanation": "ကြင်နာဖော်ရွေစွာ ရှင်းပြပေးခဲ့ခြင်းဖြစ်၍ 「親切に」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ကြင်နာဖော်ရွေစွာ ရှင်းပြပေးခဲ့ခြင်းဖြစ်၍ 「親切に」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q017",
+      "lessonId": "n3.l45",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "目上の人に対して「手伝ってあげましょうか」と言うのが不適切とされる理由は？",
+      "choices": [
+        "「〜てあげる」は恩恵を施す側の目線になり、失礼・尊大に聞こえる恐れがあるから",
+        "動詞の文法的な活用が間違っているから",
+        "手伝う行為そのものが禁止されているから",
+        "敬語の過去形になっていないから"
+      ],
+      "answer": "「〜てあげる」は恩恵を施す側の目線になり、失礼・尊大に聞こえる恐れがあるから",
+      "explanation": "「〜てあげる」သည် မိမိက ကျေးဇူးပြုလိုက်သည်ဟူသော အထက်စီးဆန်သည့် အငွေ့အသက် ပါဝင်သဖြင့် လူကြီးများအား ပြောဆိုရာတွင် မသင့်တော်ပါ။ 「お手伝いしましょうか」ဟု သုံးသင့်ပါသည်။",
+      "explanationMy": "「〜てあげる」သည် မိမိက ကျေးဇူးပြုလိုက်သည်ဟူသော အထက်စီးဆန်သည့် အငွေ့အသက် ပါဝင်သဖြင့် လူကြီးများအား ပြောဆိုရာတွင် မသင့်တော်ပါ။ 「お手伝いしましょうか」ဟု သုံးသင့်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q018",
+      "lessonId": "n3.l45",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「〜てくれる」と「〜てもらう」の使い分けとして正しいものはどれですか。",
+      "choices": [
+        "「〜てくれる」は相手が行為の主語、「〜てもらう」は恩恵を受ける自分が行為の主語になる",
+        "「〜てくれる」は過去形専用で、「〜てもらう」は未来形専用である",
+        "「〜てくれる」は物だけを対象とし、「〜てもらう」は動作だけを対象とする",
+        "両者の文法的な主語や視点に一切の違いはない"
+      ],
+      "answer": "「〜てくれる」は相手が行為の主語、「〜てもらう」は恩恵を受ける自分が行為の主語になる",
+      "explanation": "「〜てくれる」တွင် လုပ်ဆောင်ပေးသူက ကတ္တားဖြစ်ပြီး、「〜てもらう」တွင် အကူအညီလက်ခံရယူသူက ကတ္တား ဖြစ်ပါသည်။",
+      "explanationMy": "「〜てくれる」တွင် လုပ်ဆောင်ပေးသူက ကတ္တားဖြစ်ပြီး、「〜てもらう」တွင် အကူအညီလက်ခံရယူသူက ကတ္တား ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q019",
+      "lessonId": "n3.l45",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「贈る」と「送る」の違いとして最も適切なものはどれですか。",
+      "choices": [
+        "「贈る」は真心や感謝を込めてプレゼントを渡すこと、「送る」は物や人を移動・郵送すること",
+        "「贈る」は手紙専用で、「送る」は荷物専用である",
+        "「贈る」は家族間でのみ使い、「送る」はビジネスでのみ使う",
+        "両者は漢字の表記が異なるだけで意味は全く同じである"
+      ],
+      "answer": "「贈る」は真心や感謝を込めてプレゼントを渡すこと、「送る」は物や人を移動・郵送すること",
+      "explanation": "「贈る」သည် မေတ္တာစေတနာဖြင့် လက်ဆောင်ပေးခြင်းဖြစ်ပြီး、「送る」သည် လူ သို့မဟုတ် ပစ္စည်းကို ပို့ဆောင်ပေးခြင်း ဖြစ်ပါသည်။",
+      "explanationMy": "「贈る」သည် မေတ္တာစေတနာဖြင့် လက်ဆောင်ပေးခြင်းဖြစ်ပြီး、「送る」သည် လူ သို့မဟုတ် ပစ္စည်းကို ပို့ဆောင်ပေးခြင်း ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q020",
+      "lessonId": "n3.l45",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「恩着せがましい」という言葉の意味合いは？",
+      "choices": [
+        "人に親切にしてやったことを自慢げにアピールして相手に負担を感じさせる態度",
+        "親切にしてもらったのに一切お礼を言わないこと",
+        "他人の物を無断で勝手に使うこと",
+        "お金の貸し借りを忘れてしまうこと"
+      ],
+      "answer": "人に親切にしてやったことを自慢げにアピールして相手に負担を感じさせる態度",
+      "explanation": "သူတစ်ပါးအား ကူညီပေးပြီးနောက် ကျေးဇူးတကားကားဖြင့် ဂုဏ်ဖော်၍ စိတ်အနှောင့်အယှက်ဖြစ်စေသော သဘောထားဖြစ်ပါသည်။",
+      "explanationMy": "သူတစ်ပါးအား ကူညီပေးပြီးနောက် ကျေးဇူးတကားကားဖြင့် ဂုဏ်ဖော်၍ စိတ်အနှောင့်အယှက်ဖြစ်စေသော သဘောထားဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q021",
+      "lessonId": "n3.l45",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「教授」の「授」と同じ漢字を使う単語はどれですか。",
+      "choices": [
+        "授業",
+        "授権",
+        "授与",
+        "上のすべて"
+      ],
+      "answer": "上のすべて",
+      "explanation": "授業, 授権, 授与 အားလုံးတွင် 「授」 ခန်ဂျီကို အသုံးပြုပါသည်။",
+      "explanationMy": "授業, 授権, 授与 အားလုံးတွင် 「授」 ခန်ဂျီကို အသုံးပြုပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q022",
+      "lessonId": "n3.l45",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「おかげさまで」という挨拶に込められた日本の精神的価値観は？",
+      "choices": [
+        "自分の成功や無事は周囲の支えや目に見えない恩恵によるものだという謙虚な感謝",
+        "すべての責任を他人に押し付ける言い逃れの精神",
+        "他人よりも自分が優れていることを誇示する態度",
+        "自然環境を破壊することへの正当化"
+      ],
+      "answer": "自分の成功や無事は周囲の支えや目に見えない恩恵によるものだという謙虚な感謝",
+      "explanation": "မိမိ၏ အဆင်ပြေချောမွေ့မှုသည် အခြားသူများ၏ ဖေးမမှုနှင့် ကျေးဇူးကြောင့်ဖြစ်သည်ဟူသော နှိမ့်ချသည့် ကျေးဇူးသိစိတ် ဖြစ်ပါသည်။",
+      "explanationMy": "မိမိ၏ အဆင်ပြေချောမွေ့မှုသည် အခြားသူများ၏ ဖေးမမှုနှင့် ကျေးဇူးကြောင့်ဖြစ်သည်ဟူသော နှိမ့်ချသည့် ကျေးဇူးသိစိတ် ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q023",
+      "lessonId": "n3.l45",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「〜ていただく」の丁寧な依頼表現として最も適切なものはどれですか。",
+      "choices": [
+        "〜ていただけないでしょうか",
+        "〜てあげてください",
+        "〜てもらえ",
+        "〜てやれ"
+      ],
+      "answer": "〜ていただけないでしょうか",
+      "explanation": "အလွန်ယဉ်ကျေးစွာ အကူအညီတောင်းခံရာတွင် 「〜ていただけないでしょうか」 ကို အသုံးပြုပါသည်။",
+      "explanationMy": "အလွန်ယဉ်ကျေးစွာ အကူအညီတောင်းခံရာတွင် 「〜ていただけないでしょうか」 ကို အသုံးပြုပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q024",
+      "lessonId": "n3.l45",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "会話で学生が「恩返しができるよう励みます」と述べた意図は？",
+      "choices": [
+        "教授の手厚い指導に対して成果を出すことで感謝を示そうとする決意",
+        "指導料を現金で支払う約束をするため",
+        "教授の研究室を辞める口実を作るため",
+        "他の大学へ転校するための挨拶"
+      ],
+      "answer": "教授の手厚い指導に対して成果を出すことで感謝を示そうとする決意",
+      "explanation": "ပါမောက္ခ၏ လမ်းညွှန်မှုကို အောင်မြင်သော ရလဒ်များဖြင့် ကျေးဇူးတုံ့ပြန်လိုသည့် စိတ်ပိုင်းဖြတ်မှု ဖြစ်ပါသည်။",
+      "explanationMy": "ပါမောက္ခ၏ လမ်းညွှန်မှုကို အောင်မြင်သော ရလဒ်များဖြင့် ကျေးဇူးတုံ့ပြန်လိုသည့် စိတ်ပိုင်းဖြတ်မှု ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q025",
+      "lessonId": "n3.l45",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文によると、「おかげさま」の文化が表している本質は何ですか。",
+      "choices": [
+        "他者の支えや自然の恩恵に対して深く感謝する謙虚な心",
+        "何事も他人のせいにして自分の責任を逃れること",
+        "神仏に祈るだけで自分からは一切努力しないこと",
+        "親切をしてくれた相手に高価な品物を必ず買い与えること"
+      ],
+      "answer": "他者の支えや自然の恩恵に対して深く感謝する謙虚な心",
+      "explanation": "他者の支えや自然の恩恵に対して深く感謝する「おかげさま」という美しい文化 ဟု စာပိုဒ်တွင် ဖော်ပြထားပါသည်။",
+      "explanationMy": "他者の支えや自然の恩恵に対して深く感謝する「おかげさま」という美しい文化 ဟု စာပိုဒ်တွင် ဖော်ပြထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q026",
+      "lessonId": "n3.l45",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文において、誰かに親切にしてあげる際に求められる配慮は何ですか。",
+      "choices": [
+        "恩着せがましくならず、相手の尊厳を守る配慮",
+        "周囲の人々に自分の善行を大声で言いふらすこと",
+        "親切をした見返りとして金銭を要求すること",
+        "相手が断っても無理やり押し付けること"
+      ],
+      "answer": "恩着せがましくならず、相手の尊厳を守る配慮",
+      "explanation": "恩着せがましくならず、相手の尊厳を守る配慮が求められます ဟု ရေးသားထားပါသည်။",
+      "explanationMy": "恩着せがましくならず、相手の尊厳を守る配慮が求められます ဟု ရေးသားထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q027",
+      "lessonId": "n3.l45",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文によると、豊かな人間関係を築くための土台となる行動は何ですか。",
+      "choices": [
+        "日常の小さな親切に気づき、感謝を行動に変えていくこと",
+        "他人の助けを一切借りずに完全に孤立して生きること",
+        "高額な贈り物を頻繁に他人に配ること",
+        "自分の意見だけを主張して他人の意見を聞かないこと"
+      ],
+      "answer": "日常の小さな親切に気づき、感謝を行動に変えていくこと",
+      "explanation": "日々の生活の中で小さな親切に気づき、感謝を行動に変えていくことが土台となります ဟု နိဂုံးချုပ်ထားပါသည်။",
+      "explanationMy": "日々の生活の中で小さな親切に気づき、感謝を行動に変えていくことが土台となります ဟု နိဂုံးချုပ်ထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q028",
+      "lessonId": "n3.l45",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "文脈に最も合う正しい表現を選びなさい：\n「部長、この書類にサインをして（　　）よろしいでしょうか。」",
+      "choices": [
+        "いただいても",
+        "あげても",
+        "くれても",
+        "やっても"
+      ],
+      "answer": "いただいても",
+      "explanation": "အထက်လူကြီးထံမှ လက်မှတ်ရေးထိုးပေးခြင်းကို ယဉ်ကျေးစွာ ခံယူတောင်းဆိုရာတွင် 「〜ていただいても」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အထက်လူကြီးထံမှ လက်မှတ်ရေးထိုးပေးခြင်းကို ယဉ်ကျေးစွာ ခံယူတောင်းဆိုရာတွင် 「〜ていただいても」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q029",
+      "lessonId": "n3.l45",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "次の語句を正しく並べ替えて自然な文を作りなさい：\n「車で / 友達が / 迎えに / きてくれた / 駅まで」",
+      "choices": [
+        "友達が駅まで車で迎えにきてくれた",
+        "駅まで友達が車で迎えにきてくれた",
+        "車で友達が駅まで迎えにきてくれた",
+        "上のすべて自然な語順として成立する"
+      ],
+      "answer": "上のすべて自然な語順として成立する",
+      "explanation": "ဖော်ပြပါ ဝါကျအားလုံးသည် ဂျပန်ဘာသာစကား သဒ္ဒါအရ သဘာဝကျသော အထားအသိုများ ဖြစ်ကြပါသည်။",
+      "explanationMy": "ဖော်ပြပါ ဝါကျအားလုံးသည် ဂျပန်ဘာသာစကား သဒ္ဒါအရ သဘာဝကျသော အထားအသိုများ ဖြစ်ကြပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l45.q030",
+      "lessonId": "n3.l45",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "本課で学んだ「授受表現」が円滑なコミュニケーションに果たす役割は？",
+      "choices": [
+        "恩恵や行為のやり取りにおける敬意や感謝、人間関係の親疎を明確かつ丁寧に表現できる",
+        "外国語の単語をすべてカタカナに翻訳して発音しやすくする",
+        "過去の出来事の日時を正確に記録するためだけの文法である",
+        "複雑な計算式を文章化するのを助ける"
+      ],
+      "answer": "恩恵や行為のやり取りにおける敬意や感謝、人間関係の親疎を明確かつ丁寧に表現できる",
+      "explanation": "ကျေးဇူးပြုမှု၊ လေးစားသမှုနှင့် ရင်းနှီးမှုအဆင့်အတန်းများကို တိကျယဉ်ကျေးစွာ ဖော်ပြနိုင်စေပါသည်။",
+      "explanationMy": "ကျေးဇူးပြုမှု၊ လေးစားသမှုနှင့် ရင်းနှီးမှုအဆင့်အတန်းများကို တိကျယဉ်ကျေးစွာ ဖော်ပြနိုင်စေပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l45.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-06T10:00:00Z",
+    "rev": 2
+  }
+}

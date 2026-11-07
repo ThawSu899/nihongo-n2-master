@@ -1,0 +1,1552 @@
+import { LessonPack } from '../../../models/types';
+
+export const n3l43Data: LessonPack = {
+  "id": "n3.l43",
+  "level": "N3",
+  "module": "N3 Formal & Expository",
+  "number": 43,
+  "title": "N3 Lesson 43: Exclusivity, Limitation & Addition (〜だけ・〜ばかり・〜だけでなく)",
+  "description": "ကန့်သတ်ချက်များ၊ တစ်ခုတည်းသော အရာများနှင့် ထပ်လောင်းအချက်များကို တိကျစွာ ဖော်ပြနိုင်ခြင်း 〜だけ နှင့် 〜ばかり ၏ ခြားနားချက်ကို နားလည်ပြီး အခြေအနေအလိုက် သင့်လျော်စွာ သုံးနှုန်းနိုင်ခြင်း 〜だけでなく ကို အသုံးပြု၍ အခြားသော အချက်အလက်များကို ပေါင်းစပ်ထည့်သွင်း ပြောဆိုနိုင်ခြင်း",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l43.v001",
+      "lessonId": "n3.l43",
+      "ja": "限界",
+      "kana": "げんかい",
+      "en": "genkai",
+      "my": "ကန့်သတ်ချက်/အတိုင်းအတာအဆုံး",
+      "meaningMy": "ကန့်သတ်ချက်/အတိုင်းအတာအဆုံး",
+      "meaningMyanmar": "ကန့်သတ်ချက်/အတိုင်းအတာအဆုံး",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l43.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.v002",
+      "lessonId": "n3.l43",
+      "ja": "期限",
+      "kana": "きげん",
+      "en": "kigen",
+      "my": "သတ်မှတ်ရက်စွဲ/အချိန်ကာလ",
+      "meaningMy": "သတ်မှတ်ရက်စွဲ/အချိန်ကာလ",
+      "meaningMyanmar": "သတ်မှတ်ရက်စွဲ/အချိန်ကာလ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l43.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.v003",
+      "lessonId": "n3.l43",
+      "ja": "専門",
+      "kana": "せんもん",
+      "en": "senmon",
+      "my": "အထူးပြုဘာသာရပ်/ကျွမ်းကျင်နယ်ပယ်",
+      "meaningMy": "အထူးပြုဘာသာရပ်/ကျွမ်းကျင်နယ်ပယ်",
+      "meaningMyanmar": "အထူးပြုဘာသာရပ်/ကျွမ်းကျင်နယ်ပယ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l43.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.v004",
+      "lessonId": "n3.l43",
+      "ja": "専務",
+      "kana": "せんむ",
+      "en": "senmu",
+      "my": "အမှုဆောင်အရာရှိ/ဒါရိုက်တာ",
+      "meaningMy": "အမှုဆောင်အရာရှိ/ဒါရိုက်တာ",
+      "meaningMyanmar": "အမှုဆောင်အရာရှိ/ဒါရိုက်တာ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l43.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.v005",
+      "lessonId": "n3.l43",
+      "ja": "唯一",
+      "kana": "ゆいいつ",
+      "en": "yuiitsu",
+      "my": "တစ်ခုတည်းသော",
+      "meaningMy": "တစ်ခုတည်းသော",
+      "meaningMyanmar": "တစ်ခုတည်းသော",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l43.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.v006",
+      "lessonId": "n3.l43",
+      "ja": "限定",
+      "kana": "げんてい",
+      "en": "gentei",
+      "my": "ကန့်သတ်ဖော်ပြခြင်း",
+      "meaningMy": "ကန့်သတ်ဖော်ပြခြင်း",
+      "meaningMyanmar": "ကန့်သတ်ဖော်ပြခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l43.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.v007",
+      "lessonId": "n3.l43",
+      "ja": "制限",
+      "kana": "せいげん",
+      "en": "seigen",
+      "my": "ကန့်သတ်မှု/စည်းမျဉ်း",
+      "meaningMy": "ကန့်သတ်မှု/စည်းမျဉ်း",
+      "meaningMyanmar": "ကန့်သတ်မှု/စည်းမျဉ်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l43.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.v008",
+      "lessonId": "n3.l43",
+      "ja": "単に",
+      "kana": "たんに",
+      "en": "tanni",
+      "my": "ရိုးရိုးမျှသာ/သက်သက်သာ",
+      "meaningMy": "ရိုးရိုးမျှသာ/သက်သက်သာ",
+      "meaningMyanmar": "ရိုးရိုးမျှသာ/သက်သက်သာ",
+      "pos": "adverb",
+      "exampleSentenceId": "n3.l43.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.v009",
+      "lessonId": "n3.l43",
+      "ja": "追加",
+      "kana": "ついか",
+      "en": "tsuika",
+      "my": "ထပ်လောင်းထည့်သွင်းခြင်း",
+      "meaningMy": "ထပ်လောင်းထည့်သွင်းခြင်း",
+      "meaningMyanmar": "ထပ်လောင်းထည့်သွင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l43.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.v010",
+      "lessonId": "n3.l43",
+      "ja": "範囲",
+      "kana": "はんい",
+      "en": "han'i",
+      "my": "နယ်ပယ်/အတိုင်းအတာဧရိယာ",
+      "meaningMy": "နယ်ပယ်/အတိုင်းအတာဧရိယာ",
+      "meaningMyanmar": "နယ်ပယ်/အတိုင်းအတာဧရိယာ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l43.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.v011",
+      "lessonId": "n3.l43",
+      "ja": "程度",
+      "kana": "ていど",
+      "en": "teido",
+      "my": "အတိုင်းအတာ/အဆင့်",
+      "meaningMy": "အတိုင်းအတာ/အဆင့်",
+      "meaningMyanmar": "အတိုင်းအတာ/အဆင့်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l43.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.v012",
+      "lessonId": "n3.l43",
+      "ja": "豊富",
+      "kana": "ほうふ",
+      "en": "houfu",
+      "my": "ကြွယ်ဝသော/ပေါများသော",
+      "meaningMy": "ကြွယ်ဝသော/ပေါများသော",
+      "meaningMyanmar": "ကြွယ်ဝသော/ပေါများသော",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l43.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l43.k001",
+      "lessonId": "n3.l43",
+      "char": "限",
+      "meaning": "ကန့်သတ်သည်၊ အတိုင်းအတာ (Limit/Restricted)",
+      "meaningMy": "ကန့်သတ်သည်၊ အတိုင်းအတာ (Limit/Restricted)",
+      "meaningMyanmar": "ကန့်သတ်သည်၊ အတိုင်းအတာ (Limit/Restricted)",
+      "onyomi": [
+        "GEN"
+      ],
+      "kunyomi": [
+        "kagi-ru"
+      ],
+      "exampleVocab": [
+        {
+          "word": "限界",
+          "reading": "げんかい",
+          "meaning": "ကန့်သတ်ချက်/အဆုံးစွန်",
+          "meaningMy": "ကန့်သတ်ချက်/အဆုံးစွန်",
+          "preview": false
+        },
+        {
+          "word": "期限",
+          "reading": "きげん",
+          "meaning": "နောက်ဆုံးသတ်မှတ်ရက်",
+          "meaningMy": "နောက်ဆုံးသတ်မှတ်ရက်",
+          "preview": false
+        },
+        {
+          "word": "制限",
+          "reading": "せいげん",
+          "meaning": "ကန့်သတ်မှု",
+          "meaningMy": "ကန့်သတ်မှု",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l43.s001"
+      ],
+      "components": [
+        "阝 (mound/wall)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.k002",
+      "lessonId": "n3.l43",
+      "char": "専",
+      "meaning": "အထူးပြုသည်၊ သီးသန့် (Specialty/Exclusive)",
+      "meaningMy": "အထူးပြုသည်၊ သီးသန့် (Specialty/Exclusive)",
+      "meaningMyanmar": "အထူးပြုသည်၊ သီးသန့် (Specialty/Exclusive)",
+      "onyomi": [
+        "SEN"
+      ],
+      "kunyomi": [
+        "moppa-ra"
+      ],
+      "exampleVocab": [
+        {
+          "word": "専門",
+          "reading": "せんもん",
+          "meaning": "ကျွမ်းကျင်သောနယ်ပယ်",
+          "meaningMy": "ကျွမ်းကျင်သောနယ်ပယ်",
+          "preview": false
+        },
+        {
+          "word": "専務",
+          "reading": "せんむ",
+          "meaning": "အမှုဆောင်ဒါရိုက်တာ",
+          "meaningMy": "အမှုဆောင်ဒါရိုက်တာ",
+          "preview": false
+        },
+        {
+          "word": "専用",
+          "reading": "せんよう",
+          "meaning": "သီးသန့်အသုံးပြုခြင်း",
+          "meaningMy": "သီးသန့်အသုံးပြုခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l43.s001"
+      ],
+      "components": [
+        "寸 (inch)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.k003",
+      "lessonId": "n3.l43",
+      "char": "唯",
+      "meaning": "တစ်ခုတည်းသော၊ သာလျှင် (Sole/Only)",
+      "meaningMy": "တစ်ခုတည်းသော၊ သာလျှင် (Sole/Only)",
+      "meaningMyanmar": "တစ်ခုတည်းသော၊ သာလျှင် (Sole/Only)",
+      "onyomi": [
+        "YUI",
+        "I"
+      ],
+      "kunyomi": [
+        "tada"
+      ],
+      "exampleVocab": [
+        {
+          "word": "唯一",
+          "reading": "ゆいいつ",
+          "meaning": "တစ်ခုတည်းသော",
+          "meaningMy": "တစ်ခုတည်းသော",
+          "preview": false
+        },
+        {
+          "word": "唯物論",
+          "reading": "ゆいぶつろん",
+          "meaning": "ရုပ်ဝါဒ",
+          "meaningMy": "ရုပ်ဝါဒ",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l43.s001"
+      ],
+      "components": [
+        "口 (mouth)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l43.g001",
+      "lessonId": "n3.l43",
+      "pattern": "〜だけ",
+      "meaning": "... သာ / ... သာလျှင် (ကန့်သတ်ချက်)",
+      "meaningMy": "... သာ / ... သာလျှင် (ကန့်သတ်ချက်)",
+      "meaningMyanmar": "... သာ / ... သာလျှင် (ကန့်သတ်ချက်)",
+      "formation": "N / V(辞書形/た形) / いAdj / なAdj+な + だけ",
+      "explanation": {
+        "en": "အခြားအရာများကို ဖယ်ထုတ်ပြီး ၎င်းတစ်ခုတည်းကိုသာ သီးသန့် ကန့်သတ်ဖော်ပြသည်။",
+        "my": "အခြားအရာများကို ဖယ်ထုတ်ပြီး ၎င်းတစ်ခုတည်းကိုသာ သီးသန့် ကန့်သတ်ဖော်ပြသည်။"
+      },
+      "explanationMy": "အခြားအရာများကို ဖယ်ထုတ်ပြီး ၎င်းတစ်ခုတည်းကိုသာ သီးသန့် ကန့်သတ်ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l43.s001",
+          "note": "〜だけ usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜だけ."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "この店の商品は、会員の方だけが購入できます。",
+      "clozeTarget": "〜だけ",
+      "clozeHint": "... သာ / ... သာလျှင် (ကန့်သတ်ချက်)",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "အခြားအရာများကို ဖယ်ထုတ်ပြီး ၎င်းတစ်ခုတည်းကိုသာ သီးသန့် ကန့်သတ်ဖော်ပြသည်။"
+    },
+    {
+      "id": "n3.l43.g002",
+      "lessonId": "n3.l43",
+      "pattern": "〜ばかり",
+      "meaning": "... ချည်းပဲ / ... သာလျှင် (အကြိမ်ကြိမ်/အလွန်အကျွံ)",
+      "meaningMy": "... ချည်းပဲ / ... သာလျှင် (အကြိမ်ကြိမ်/အလွန်အကျွံ)",
+      "meaningMyanmar": "... ချည်းပဲ / ... သာလျှင် (အကြိမ်ကြိမ်/အလွန်အကျွံ)",
+      "formation": "N / V(て形) + ばかり",
+      "explanation": {
+        "en": "တူညီသောအရာ သို့မဟုတ် အပြုအမူတစ်ခုတည်းကိုသာ အလွန်အမင်း ထပ်ခါတလဲလဲ ပြုလုပ်သည့်အခါ အပြစ်တင်သည့် သို့မဟုတ် မနှစ်သက်သည့် သဘောသက်ရောက်လေ့ရှိသည်။",
+        "my": "တူညီသောအရာ သို့မဟုတ် အပြုအမူတစ်ခုတည်းကိုသာ အလွန်အမင်း ထပ်ခါတလဲလဲ ပြုလုပ်သည့်အခါ အပြစ်တင်သည့် သို့မဟုတ် မနှစ်သက်သည့် သဘောသက်ရောက်လေ့ရှိသည်။"
+      },
+      "explanationMy": "တူညီသောအရာ သို့မဟုတ် အပြုအမူတစ်ခုတည်းကိုသာ အလွန်အမင်း ထပ်ခါတလဲလဲ ပြုလုပ်သည့်အခါ အပြစ်တင်သည့် သို့မဟုတ် မနှစ်သက်သည့် သဘောသက်ရောက်လေ့ရှိသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l43.s001",
+          "note": "〜ばかり usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ばかり."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "弟は勉強もせずにゲームばかりしています。",
+      "clozeTarget": "〜ばかり",
+      "clozeHint": "... ချည်းပဲ / ... သာလျှင် (အကြိမ်ကြိမ်/အလွန်အကျွံ)",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "တူညီသောအရာ သို့မဟုတ် အပြုအမူတစ်ခုတည်းကိုသာ အလွန်အမင်း ထပ်ခါတလဲလဲ ပြုလုပ်သည့်အခါ အပြစ်တင်သည့် သို့မဟုတ် မနှစ်သက်သည့် သဘောသက်ရောက်လေ့ရှိသည်။"
+    },
+    {
+      "id": "n3.l43.g003",
+      "lessonId": "n3.l43",
+      "pattern": "〜だけでなく",
+      "meaning": "... သာမက ... လည်း",
+      "meaningMy": "... သာမက ... လည်း",
+      "meaningMyanmar": "... သာမက ... လည်း",
+      "formation": "N / V(普通形) / いAdj / なAdj+な + だけでなく",
+      "explanation": {
+        "en": "တစ်ခုတည်းတွင် ရပ်တန့်မနေဘဲ အခြားသောအရာတစ်ခုလည်း ပါဝင်ကြောင်း ထပ်လောင်းပြသသည်။",
+        "my": "တစ်ခုတည်းတွင် ရပ်တန့်မနေဘဲ အခြားသောအရာတစ်ခုလည်း ပါဝင်ကြောင်း ထပ်လောင်းပြသသည်။"
+      },
+      "explanationMy": "တစ်ခုတည်းတွင် ရပ်တန့်မနေဘဲ အခြားသောအရာတစ်ခုလည်း ပါဝင်ကြောင်း ထပ်လောင်းပြသသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l43.s001",
+          "note": "〜だけでなく usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜だけでなく."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "彼は日本語だけでなく、英語や中国語も流暢に話せます。",
+      "clozeTarget": "〜だけでなく",
+      "clozeHint": "... သာမက ... လည်း",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "တစ်ခုတည်းတွင် ရပ်တန့်မနေဘဲ အခြားသောအရာတစ်ခုလည်း ပါဝင်ကြောင်း ထပ်လောင်းပြသသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l43.s001",
+      "lessonId": "n3.l43",
+      "ja": "体力の限界を感じる前に、適度な休憩を取ることが不可欠です。",
+      "kana": "体力の限界を感じる前に、適度な休憩を取ることが不可欠です。",
+      "translation": {
+        "en": "Tairyoku no genkai o kanjiru mae ni, tekido na kyuukei o toru koto ga fukaketsu desu.",
+        "my": "ခန္ဓာကိုယ်စွမ်းအား ကန့်သတ်ချက်အထိ မရောက်မီ သင့်တော်သော အနားယူမှု ပြုလုပ်ရန် မရှိမဖြစ် လိုအပ်ပါသည်။"
+      },
+      "translationMy": "ခန္ဓာကိုယ်စွမ်းအား ကန့်သတ်ချက်အထိ မရောက်မီ သင့်တော်သော အနားယူမှု ပြုလုပ်ရန် မရှိမဖြစ် လိုအပ်ပါသည်။",
+      "vocabIds": [
+        "n3.l43.v001",
+        "n3.l43.v011"
+      ],
+      "grammarIds": [
+        "n3.l43.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.s002",
+      "lessonId": "n3.l43",
+      "ja": "レポートの提出期限を守ることは、単に規則を守る以上の意義があります。",
+      "kana": "レポートの提出期限を守ることは、単に規則を守る以上の意義があります。",
+      "translation": {
+        "en": "Repooto no teishutsukigen o mamoru koto wa, tanni kisoku o mamoru ijou no igi ga arimasu.",
+        "my": "အစီရင်ခံစာ တင်သွင်းရမည့် နောက်ဆုံးရက်ကို လိုက်နာခြင်းသည် ရိုးရိုးမျှ စည်းကမ်းလိုက်နာခြင်းထက် ပိုမိုအဓိပ္ပာယ်ရှိပါသည်။"
+      },
+      "translationMy": "အစီရင်ခံစာ တင်သွင်းရမည့် နောက်ဆုံးရက်ကို လိုက်နာခြင်းသည် ရိုးရိုးမျှ စည်းကမ်းလိုက်နာခြင်းထက် ပိုမိုအဓိပ္ပာယ်ရှိပါသည်။",
+      "vocabIds": [
+        "n3.l43.v002",
+        "n3.l43.v008"
+      ],
+      "grammarIds": [
+        "n3.l43.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.s003",
+      "lessonId": "n3.l43",
+      "ja": "彼の専門分野は情報工学であり、このチームで唯一の専門家です。",
+      "kana": "彼の専門分野は情報工学であり、このチームで唯一の専門家です。",
+      "translation": {
+        "en": "Kare no senmon bunya wa jouhou kougaku de ari, kono chiimu de yuiitsu no senmonka desu.",
+        "my": "သူ့၏ ကျွမ်းကျင်နယ်ပယ်မှာ သတင်းအချက်အလက်နည်းပညာဖြစ်ပြီး ဤအသင်းတွင် တစ်ဦးတည်းသော ပညာရှင်ဖြစ်ပါသည်။"
+      },
+      "translationMy": "သူ့၏ ကျွမ်းကျင်နယ်ပယ်မှာ သတင်းအချက်အလက်နည်းပညာဖြစ်ပြီး ဤအသင်းတွင် တစ်ဦးတည်းသော ပညာရှင်ဖြစ်ပါသည်။",
+      "vocabIds": [
+        "n3.l43.v003",
+        "n3.l43.v005"
+      ],
+      "grammarIds": [
+        "n3.l43.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.s004",
+      "lessonId": "n3.l43",
+      "ja": "専務が会議で示した予算の制限範囲内で、追加の機材を購入します。",
+      "kana": "専務が会議で示した予算の制限範囲内で、追加の機材を購入します。",
+      "translation": {
+        "en": "Senmu ga kaigi de shimeshita yosan no seigen han'inai de, tsuika no kizai o kounyuu shimasu.",
+        "my": "အမှုဆောင်ဒါရိုက်တာ အစည်းအဝေးတွင် ပြသခဲ့သော ဘတ်ဂျက်ကန့်သတ်ချက် နယ်ပယ်အတွင်းမှ နောက်ထပ် စက်ပစ္စည်းများကို ထပ်လောင်းဝယ်ယူပါမည်။"
+      },
+      "translationMy": "အမှုဆောင်ဒါရိုက်တာ အစည်းအဝေးတွင် ပြသခဲ့သော ဘတ်ဂျက်ကန့်သတ်ချက် နယ်ပယ်အတွင်းမှ နောက်ထပ် စက်ပစ္စည်းများကို ထပ်လောင်းဝယ်ယူပါမည်။",
+      "vocabIds": [
+        "n3.l43.v004",
+        "n3.l43.v007",
+        "n3.l43.v009",
+        "n3.l43.v010"
+      ],
+      "grammarIds": [
+        "n3.l43.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.s005",
+      "lessonId": "n3.l43",
+      "ja": "この商品は期間限定の販売であり、今月末までの限定提供となっています。",
+      "kana": "この商品は期間限定の販売であり、今月末までの限定提供となっています。",
+      "translation": {
+        "en": "Kono shouhin wa kikan gentei no hanbai de ari, kongetsumatsu made no gentei teikyou to natte imasu.",
+        "my": "ဤကုန်ပစ္စည်းသည် အချိန်ကာလကန့်သတ်ရောင်းချမှုဖြစ်ပြီး ယခုလကုန်အထိသာ ကန့်သတ်တင်ဆက်မှု ဖြစ်ပါသည်။"
+      },
+      "translationMy": "ဤကုန်ပစ္စည်းသည် အချိန်ကာလကန့်သတ်ရောင်းချမှုဖြစ်ပြီး ယခုလကုန်အထိသာ ကန့်သတ်တင်ဆက်မှု ဖြစ်ပါသည်။",
+      "vocabIds": [
+        "n3.l43.v006"
+      ],
+      "grammarIds": [
+        "n3.l43.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l43.s006",
+      "lessonId": "n3.l43",
+      "ja": "この地域は自然が豊かで水資源も豊富であり、農業に適しています。",
+      "kana": "この地域は自然が豊かで水資源も豊富であり、農業に適しています。",
+      "translation": {
+        "en": "Kono chiiki wa shizen ga yutaka de mizu shigen mo houfu de ari, nougyou ni tekishite imasu.",
+        "my": "ဤဒေသသည် သဘာဝတရား စိုပြေပြီး ရေအရင်းအမြစ်လည်း ကြွယ်ဝပေါများ၍ စိုက်ပျိုးရေးအတွက် သင့်လျော်ပါသည်။"
+      },
+      "translationMy": "ဤဒေသသည် သဘာဝတရား စိုပြေပြီး ရေအရင်းအမြစ်လည်း ကြွယ်ဝပေါများ၍ စိုက်ပျိုးရေးအတွက် သင့်လျော်ပါသည်။",
+      "vocabIds": [
+        "n3.l43.v012"
+      ],
+      "grammarIds": [
+        "n3.l43.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l43.r001",
+    "lessonId": "n3.l43",
+    "title": "専門性の深化と学びの広がり",
+    "level": "N3",
+    "text": "現代のビジネス環境では、特定の分野に深い知識を持つ専門性が高く評価されます。技術の進歩が加速する中で、自分の専門分野を極めることは、他者との差別化を図るための唯一無二の強みとなり得ます。しかし、単に一つの領域だけに閉じこもり、自分の専門知識ばかりに頼っていては、予期せぬ時代の変化に対応できません。真に優れた人材は、自分の専門領域を深めるだけでなく、関連する幅広い分野の知識も積極的に吸収します。知識の範囲を広げることで、異なる分野を融合させた新しいアイデアを生み出すことが可能になるのです。学習には限界がなく、豊富な知識と柔軟な思考力を兼ね備えることこそが、これからの時代を生き抜く鍵となります。",
+    "kanaText": "現代のビジネス環境では、特定の分野に深い知識を持つ専門性が高く評価されます。技術の進歩が加速する中で、自分の専門分野を極めることは、他者との差別化を図るための唯一無二の強みとなり得ます。しかし、単に一つの領域だけに閉じこもり、自分の専門知識ばかりに頼っていては、予期せぬ時代の変化に対応できません。真に優れた人材は、自分の専門領域を深めるだけでなく、関連する幅広い分野の知識も積極的に吸収します。知識の範囲を広げることで、異なる分野を融合させた新しいアイデアを生み出すことが可能になるのです。学習には限界がなく、豊富な知識と柔軟な思考力を兼ね備えることこそが、これからの時代を生き抜く鍵となります。",
+    "translation": "専門性の深化と学びの広がり",
+    "translationMy": "専門性の深化と学びの広がり",
+    "questionIds": [
+      "n3.l43.q025",
+      "n3.l43.q026",
+      "n3.l43.q027"
+    ],
+    "difficulty": 3,
+    "glossary": [
+      {
+        "term": "専門性",
+        "reading": "専門性",
+        "meaning": "ကျွမ်းကျင်မှုနယ်ပယ်သဘာဝ",
+        "meaningMy": "ကျွမ်းကျင်မှုနယ်ပယ်သဘာဝ",
+        "meaningMyanmar": "ကျွမ်းကျင်မှုနယ်ပယ်သဘာဝ"
+      },
+      {
+        "term": "差別化",
+        "reading": "差別化",
+        "meaning": "ကွဲပြားခြားနားအောင်ပြုလုပ်ခြင်း",
+        "meaningMy": "ကွဲပြားခြားနားအောင်ပြုလုပ်ခြင်း",
+        "meaningMyanmar": "ကွဲပြားခြားနားအောင်ပြုလုပ်ခြင်း"
+      },
+      {
+        "term": "唯一無二",
+        "reading": "唯一無二",
+        "meaning": "တစ်ခုတည်းသော ပြိုင်ဘက်ကင်း",
+        "meaningMy": "တစ်ခုတည်းသော ပြိုင်ဘက်ကင်း",
+        "meaningMyanmar": "တစ်ခုတည်းသော ပြိုင်ဘက်ကင်း"
+      },
+      {
+        "term": "融合",
+        "reading": "融合",
+        "meaning": "ပေါင်းစပ်ညှိနှိုင်းခြင်း",
+        "meaningMy": "ပေါင်းစပ်ညှိနှိုင်းခြင်း",
+        "meaningMyanmar": "ပေါင်းစပ်ညှိနှိုင်းခြင်း"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n3.l43.lis001",
+    "lessonId": "n3.l43",
+    "title": "新商品の販売戦略",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "A: 専務、今回の特別モデルはオンラインショップ限定で販売してはいかがでしょうか。\nB: いい考えだね。単に数を制限するだけでなく、会員向けの特典も追加しよう。\nA: ありがとうございます。これなら既存のお客様だけでなく、新規顧客の獲得にも繋がります。\nB: ただし、宣伝ばかりに費用をかけず、品質の確保にも十分留意してくれたまえ。",
+    "translation": "A: ဒါရိုက်တာခင်ဗျာ၊ ဒီတစ်ခေါက် အထူးမော်ဒယ်ကို အွန်လိုင်းအရောင်းဆိုင် သီးသန့်အနေနဲ့ ရောင်းချရင် ဘယ်လိုနေမလဲခင်ဗျာ။\nB: အတွေးကောင်းပဲကွဲ့။ အရေအတွက်ကို ရိုးရိုးမျှ ကန့်သတ်ရုံသာမက အသင်းဝင်တွေအတွက် အထူးခံစားခွင့်တွေကိုလည်း ထပ်ဖြည့်ကြစို့။\nA: ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ဒါဆိုရင် ရှိပြီးသား ဖောက်သည်တွေသာမက ဖောက်သည်အသစ်တွေ ရရှိရေးကိုလည်း ချိတ်ဆက်နိုင်မှာပါ။\nB: ဒါပေမဲ့ ကြော်ငြာချည်းပဲ ငွေမသုံးဘဲ အရည်အသွေးသေချာစေဖို့လည်း အထူးဂရုစိုက်ပေးပါနော်။",
+    "translationMy": "A: ဒါရိုက်တာခင်ဗျာ၊ ဒီတစ်ခေါက် အထူးမော်ဒယ်ကို အွန်လိုင်းအရောင်းဆိုင် သီးသန့်အနေနဲ့ ရောင်းချရင် ဘယ်လိုနေမလဲခင်ဗျာ။\nB: အတွေးကောင်းပဲကွဲ့။ အရေအတွက်ကို ရိုးရိုးမျှ ကန့်သတ်ရုံသာမက အသင်းဝင်တွေအတွက် အထူးခံစားခွင့်တွေကိုလည်း ထပ်ဖြည့်ကြစို့။\nA: ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ဒါဆိုရင် ရှိပြီးသား ဖောက်သည်တွေသာမက ဖောက်သည်အသစ်တွေ ရရှိရေးကိုလည်း ချိတ်ဆက်နိုင်မှာပါ။\nB: ဒါပေမဲ့ ကြော်ငြာချည်းပဲ ငွေမသုံးဘဲ အရည်အသွေးသေချာစေဖို့လည်း အထူးဂရုစိုက်ပေးပါနော်။",
+    "turns": [
+      {
+        "speaker": "A",
+        "ja": "専務、今回の特別モデルはオンラインショップ限定で販売してはいかがでしょうか。",
+        "kana": "専務、今回の特別モデルはオンラインショップ限定で販売してはいかがでしょうか。",
+        "en": "Senmu, konkai no tokubetsu moderu wa onrain shoppu gentei de hanbai shite wa ikaga deshoucha.",
+        "my": "ဒါရိုက်တာခင်ဗျာ၊ ဒီတစ်ခေါက် အထူးမော်ဒယ်ကို အွန်လိုင်းအရောင်းဆိုင် သီးသန့်အနေနဲ့ ရောင်းချရင် ဘယ်လိုနေမလဲခင်ဗျာ။",
+        "translationMy": "ဒါရိုက်တာခင်ဗျာ၊ ဒီတစ်ခေါက် အထူးမော်ဒယ်ကို အွန်လိုင်းအရောင်းဆိုင် သီးသန့်အနေနဲ့ ရောင်းချရင် ဘယ်လိုနေမလဲခင်ဗျာ။",
+        "myanmar": "ဒါရိုက်တာခင်ဗျာ၊ ဒီတစ်ခေါက် အထူးမော်ဒယ်ကို အွန်လိုင်းအရောင်းဆိုင် သီးသန့်အနေနဲ့ ရောင်းချရင် ဘယ်လိုနေမလဲခင်ဗျာ။"
+      },
+      {
+        "speaker": "B",
+        "ja": "いい考えだね。単に数を制限するだけでなく、会員向けの特典も追加しよう。",
+        "kana": "いい考えだね。単に数を制限するだけでなく、会員向けの特典も追加しよう。",
+        "en": "Ii kangae da ne. Tanni kazu o seigen suru dake de naku, kaiinmuke no tokuten mo tsuika shiyou.",
+        "my": "အတွေးကောင်းပဲကွဲ့။ အရေအတွက်ကို ရိုးရိုးမျှ ကန့်သတ်ရုံသာမက အသင်းဝင်တွေအတွက် အထူးခံစားခွင့်တွေကိုလည်း ထပ်ဖြည့်ကြစို့။",
+        "translationMy": "အတွေးကောင်းပဲကွဲ့။ အရေအတွက်ကို ရိုးရိုးမျှ ကန့်သတ်ရုံသာမက အသင်းဝင်တွေအတွက် အထူးခံစားခွင့်တွေကိုလည်း ထပ်ဖြည့်ကြစို့။",
+        "myanmar": "အတွေးကောင်းပဲကွဲ့။ အရေအတွက်ကို ရိုးရိုးမျှ ကန့်သတ်ရုံသာမက အသင်းဝင်တွေအတွက် အထူးခံစားခွင့်တွေကိုလည်း ထပ်ဖြည့်ကြစို့။"
+      },
+      {
+        "speaker": "A",
+        "ja": "ありがとうございます。これなら既存のお客様だけでなく、新規顧客の獲得にも繋がります。",
+        "kana": "ありがとうございます。これなら既存のお客様だけでなく、新規顧客の獲得にも繋がります。",
+        "en": "Arigatou gozaimasu. Kore nara kizon no okyakusama dake de naku, shinki kokyaku no kakutoku ni mo tsunagarimasu.",
+        "my": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ဒါဆိုရင် ရှိပြီးသား ဖောက်သည်တွေသာမက ဖောက်သည်အသစ်တွေ ရရှိရေးကိုလည်း ချိတ်ဆက်နိုင်မှာပါ။",
+        "translationMy": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ဒါဆိုရင် ရှိပြီးသား ဖောက်သည်တွေသာမက ဖောက်သည်အသစ်တွေ ရရှိရေးကိုလည်း ချိတ်ဆက်နိုင်မှာပါ။",
+        "myanmar": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ဒါဆိုရင် ရှိပြီးသား ဖောက်သည်တွေသာမက ဖောက်သည်အသစ်တွေ ရရှိရေးကိုလည်း ချိတ်ဆက်နိုင်မှာပါ။"
+      },
+      {
+        "speaker": "B",
+        "ja": "ただし、宣伝ばかりに費用をかけず、品質の確保にも十分留意してくれたまえ。",
+        "kana": "ただし、宣伝ばかりに費用をかけず、品質の確保にも十分留意してくれたまえ。",
+        "en": "Tadashi, senden bakari ni hiiyou o kakezu, hinshitsu no kakuho ni mo juubun ryuui shite kuretamae.",
+        "my": "ဒါပေမဲ့ ကြော်ငြာချည်းပဲ ငွေမသုံးဘဲ အရည်အသွေးသေချာစေဖို့လည်း အထူးဂရုစိုက်ပေးပါနော်။",
+        "translationMy": "ဒါပေမဲ့ ကြော်ငြာချည်းပဲ ငွေမသုံးဘဲ အရည်အသွေးသေချာစေဖို့လည်း အထူးဂရုစိုက်ပေးပါနော်။",
+        "myanmar": "ဒါပေမဲ့ ကြော်ငြာချည်းပဲ ငွေမသုံးဘဲ အရည်အသွေးသေချာစေဖို့လည်း အထူးဂရုစိုက်ပေးပါနော်။"
+      }
+    ],
+    "questionIds": [
+      "n3.l43.q028",
+      "n3.l43.q029",
+      "n3.l43.q030"
+    ],
+    "difficulty": 3,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l43.q001",
+      "lessonId": "n3.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "この資料は会議の出席者（　　）に配られます。",
+      "choices": [
+        "だけ",
+        "ばかり",
+        "ほど",
+        "より"
+      ],
+      "answer": "だけ",
+      "explanation": "တက်ရောက်သူများအတွက်သာ သီးသန့်ကန့်သတ်ရန် 「だけ」 ကို သုံးပါသည်။",
+      "explanationMy": "တက်ရောက်သူများအတွက်သာ သီးသန့်ကန့်သတ်ရန် 「だけ」 ကို သုံးပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q002",
+      "lessonId": "n3.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "弟は朝からゲーム（　　）して、宿題を全くやりません。",
+      "choices": [
+        "ばかり",
+        "だけ",
+        "くらい",
+        "ほど"
+      ],
+      "answer": "ばかり",
+      "explanation": "မလိုလားအပ်သော အရာတစ်ခုတည်းကို ထပ်ခါတလဲလဲ အလွန်အမင်း ပြုလုပ်ခြင်းကို 「ばかり」 ဖြင့် ပြပါသည်။",
+      "explanationMy": "မလိုလားအပ်သော အရာတစ်ခုတည်းကို ထပ်ခါတလဲလဲ အလွန်အမင်း ပြုလုပ်ခြင်းကို 「ばかり」 ဖြင့် ပြပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q003",
+      "lessonId": "n3.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "彼女は歌が上手な（　　）、ピアノもプロ並みに演奏できる。",
+      "choices": [
+        "だけでなく",
+        "ばかりで",
+        "だけあって",
+        "ほどでも"
+      ],
+      "answer": "だけでなく",
+      "explanation": "သီချင်းဆိုကောင်းရုံသာမက စန္ဒရားလည်း တီးနိုင်ကြောင်း ထပ်လောင်းဖော်ပြရန် 「だけでなく」 ဖြစ်ပါသည်။",
+      "explanationMy": "သီချင်းဆိုကောင်းရုံသာမက စန္ဒရားလည်း တီးနိုင်ကြောင်း ထပ်လောင်းဖော်ပြရန် 「だけでなく」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q004",
+      "lessonId": "n3.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「限界」の正しい読み方はどれですか。",
+      "choices": [
+        "げんかい",
+        "かんかい",
+        "けんかい",
+        "きんかい"
+      ],
+      "answer": "げんかい",
+      "explanation": "「限界」၏ အသံထွက်အမှန်မှာ 「げんかい」 (ကန့်သတ်ချက်/အဆုံးစွန်) ဖြစ်ပါသည်။",
+      "explanationMy": "「限界」၏ အသံထွက်အမှန်မှာ 「げんかい」 (ကန့်သတ်ချက်/အဆုံးစွန်) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q005",
+      "lessonId": "n3.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「専門」の正しい読み方はどれですか。",
+      "choices": [
+        "せんもん",
+        "ぜんもん",
+        "せんぶん",
+        "せんめい"
+      ],
+      "answer": "せんもん",
+      "explanation": "「専門」၏ အသံထွက်အမှန်မှာ 「せんもん」 (ကျွမ်းကျင်နယ်ပယ်) ဖြစ်ပါသည်။",
+      "explanationMy": "「専門」၏ အသံထွက်အမှန်မှာ 「せんもん」 (ကျွမ်းကျင်နယ်ပယ်) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q006",
+      "lessonId": "n3.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「唯一」の正しい読み方はどれですか。",
+      "choices": [
+        "ゆいいつ",
+        "ゆいいち",
+        "ただいち",
+        "ゆういつ"
+      ],
+      "answer": "ゆいいつ",
+      "explanation": "「唯一」၏ အသံထွက်အမှန်မှာ 「ゆいいつ」 (တစ်ခုတည်းသော) ဖြစ်ပါသည်။",
+      "explanationMy": "「唯一」၏ အသံထွက်အမှန်မှာ 「ゆいいつ」 (တစ်ခုတည်းသော) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q007",
+      "lessonId": "n3.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "野菜を食べずに肉（　　）食べていると健康を害します。",
+      "choices": [
+        "ばかり",
+        "だけ",
+        "ほど",
+        "より"
+      ],
+      "answer": "ばかり",
+      "explanation": "အသားချည်းပဲ အလွန်အမင်း စားသုံးနေခြင်းကို အပြစ်တင်သည့်သဘောဖြင့် 「〜ばかり」 သုံးပါသည်။",
+      "explanationMy": "အသားချည်းပဲ အလွန်အမင်း စားသုံးနေခြင်းကို အပြစ်တင်သည့်သဘောဖြင့် 「〜ばかり」 သုံးပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q008",
+      "lessonId": "n3.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "日本（　　）、世界中の国々でアニメが愛されています。",
+      "choices": [
+        "だけでなく",
+        "ばかりか",
+        "のみならず",
+        "に限って"
+      ],
+      "answer": "だけでなく",
+      "explanation": "ဂျပန်သာမက ကမ္ဘာတစ်ဝှမ်းတွင်လည်း ချစ်ခင်နှစ်သက်ကြကြောင်း ဖော်ပြရန် 「〜だけでなく」 ဖြစ်ပါသည်။",
+      "explanationMy": "ဂျပန်သာမက ကမ္ဘာတစ်ဝှမ်းတွင်လည်း ချစ်ခင်နှစ်သက်ကြကြောင်း ဖော်ပြရန် 「〜だけでなく」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q009",
+      "lessonId": "n3.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "課題の提出（　　）は明日の夕方５時までとなっています。",
+      "choices": [
+        "期限",
+        "限界",
+        "範囲",
+        "程度"
+      ],
+      "answer": "期限",
+      "explanation": "တင်သွင်းရမည့် နောက်ဆုံးရက်စွဲ/အချိန်ကို 「期限」 ဟု ခေါ်ပါသည်။",
+      "explanationMy": "တင်သွင်းရမည့် နောက်ဆုံးရက်စွဲ/အချိန်ကို 「期限」 ဟု ခေါ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q010",
+      "lessonId": "n3.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "この問題について判断できるのは、法律を専攻した（　　）家だけです。",
+      "choices": [
+        "専門",
+        "専務",
+        "唯一",
+        "限定"
+      ],
+      "answer": "専門",
+      "explanation": "ဥပဒေပညာရှင်ဖြစ်၍ 「専門家」 (ကျွမ်းကျင်သူ/ပညာရှင်) က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ဥပဒေပညာရှင်ဖြစ်၍ 「専門家」 (ကျွမ်းကျင်သူ/ပညာရှင်) က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q011",
+      "lessonId": "n3.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "会社の方針を決める重要な決定に、（　　）も出席された。",
+      "choices": [
+        "専務",
+        "専門",
+        "限界",
+        "追加"
+      ],
+      "answer": "専務",
+      "explanation": "ရာထူးအဆင့်ဖြစ်သည့် အမှုဆောင်ဒါရိုက်တာ 「専務」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ရာထူးအဆင့်ဖြစ်သည့် အမှုဆောင်ဒါရိုက်တာ 「専務」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q012",
+      "lessonId": "n3.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "この絵画は、世界に一枚しか存在しない（　　）の作品です。",
+      "choices": [
+        "唯一",
+        "単に",
+        "豊富",
+        "追加"
+      ],
+      "answer": "唯一",
+      "explanation": "တစ်ခုတည်းသော ပြိုင်ဘက်ကင်း လက်ရာဖြစ်၍ 「唯一」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "တစ်ခုတည်းသော ပြိုင်ဘက်ကင်း လက်ရာဖြစ်၍ 「唯一」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q013",
+      "lessonId": "n3.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "予算の都合により、今回の募集人数を３０名に（　　）します。",
+      "choices": [
+        "制限",
+        "限界",
+        "専務",
+        "期限"
+      ],
+      "answer": "制限",
+      "explanation": "လူဦးရေ ကန့်သတ်ခြင်းဖြစ်၍ 「制限」 (သို့မဟုတ် 限定) ဖြစ်ပြီး ဤတွင် 「制限」 က အသင့်တော်ဆုံး ဖြစ်ပါသည်။",
+      "explanationMy": "လူဦးရေ ကန့်သတ်ခြင်းဖြစ်၍ 「制限」 (သို့မဟုတ် 限定) ဖြစ်ပြီး ဤတွင် 「制限」 က အသင့်တော်ဆုံး ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q014",
+      "lessonId": "n3.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　　）言葉を覚えるだけでなく、実際に使ってみることが大切だ。",
+      "choices": [
+        "単に",
+        "豊富",
+        "唯一",
+        "限定"
+      ],
+      "answer": "単に",
+      "explanation": "ရိုးရိုးမျှသာ ကျက်မှတ်ရုံမဟုတ်ဘဲဟု ဆိုလိုရန် 「単に」 (ရိုးရိုးမျှသာ) က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ရိုးရိုးမျှသာ ကျက်မှတ်ရုံမဟုတ်ဘဲဟု ဆိုလိုရန် 「単に」 (ရိုးရိုးမျှသာ) က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q015",
+      "lessonId": "n3.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "注文内容を変更したいので、新しいメニューを２点（　　）した。",
+      "choices": [
+        "追加",
+        "制限",
+        "限界",
+        "専門"
+      ],
+      "answer": "追加",
+      "explanation": "ထပ်လောင်းထည့်သွင်းခြင်းဖြစ်၍ 「追加」 (ထပ်ဖြည့်ခြင်း) က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ထပ်လောင်းထည့်သွင်းခြင်းဖြစ်၍ 「追加」 (ထပ်ဖြည့်ခြင်း) က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q016",
+      "lessonId": "n3.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "図書館には（　　）な蔵書があり、一日中調べものができます。",
+      "choices": [
+        "豊富",
+        "限定",
+        "専門",
+        "唯一"
+      ],
+      "answer": "豊富",
+      "explanation": "ကြွယ်ဝပေါများသော စာအုပ်များဖြစ်၍ 「豊富」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ကြွယ်ဝပေါများသော စာအုပ်များဖြစ်၍ 「豊富」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q017",
+      "lessonId": "n3.l43",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「〜だけ」と「〜ばかり」の違いとして正しい説明はどれですか。",
+      "choices": [
+        "「だけ」は客観的な限定を表し、「ばかり」は偏りや過剰さに対する話者の不満や批判を含みやすい",
+        "「だけ」は過去形にしか使えず、「ばかり」は未来形にしか使えない",
+        "「だけ」は名詞にしか付かず、「ばかり」は形容詞にしか付かない",
+        "両者に意味やニュアンスの違いは全くない"
+      ],
+      "answer": "「だけ」は客観的な限定を表し、「ばかり」は偏りや過剰さに対する話者の不満や批判を含みやすい",
+      "explanation": "「だけ」သည် ဓမ္မဓိဋ္ဌာန်ကျသော ကန့်သတ်ချက်ဖြစ်ပြီး၊ 「ばかり」သည် အလွန်အကျွံဖြစ်မှုအပေါ် မနှစ်သက်သည့် ခံစားချက် ပါဝင်လေ့ရှိပါသည်။",
+      "explanationMy": "「だけ」သည် ဓမ္မဓိဋ္ဌာန်ကျသော ကန့်သတ်ချက်ဖြစ်ပြီး၊ 「ばかり」သည် အလွန်အကျွံဖြစ်မှုအပေါ် မနှစ်သက်သည့် ခံစားချက် ပါဝင်လေ့ရှိပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q018",
+      "lessonId": "n3.l43",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「宣伝ばかりに費用をかけず品質にも留意する」の意図は？",
+      "choices": [
+        "ကြော်ငြာချည်းပဲ အလေးမပေးဘဲ ကုန်ပစ္စည်းအရည်အသွေးကိုလည်း မပျက်မကွက် ထိန်းသိမ်းရန်",
+        "ကြော်ငြာကို လုံးဝမလုပ်ဘဲ အရည်အသွေးတိုးမြှင့်ခြင်းကိုသာ လုပ်ရန်",
+        "အရည်အသွေးမကောင်းသော်လည်း ကြော်ငြာကိုသာ အပြင်းအထန် လုပ်ဆောင်ရန်",
+        "အရောင်းမြှင့်တင်ရေး စရိတ်အားလုံးကို လုံးဝရပ်ဆိုင်းလိုက်ရန်"
+      ],
+      "answer": "ကြော်ငြာချည်းပဲ အလေးမပေးဘဲ ကုန်ပစ္စည်းအရည်အသွေးကိုလည်း မပျက်မကွက် ထိန်းသိမ်းရန်",
+      "explanation": "ကြော်ငြာတစ်ခုတည်း အလွန်အကျွံ မလုပ်ဘဲ အရည်အသွေးကိုပါ သေချာဂရုစိုက်ရန် ဖြစ်ပါသည်။",
+      "explanationMy": "ကြော်ငြာတစ်ခုတည်း အလွန်အကျွံ မလုပ်ဘဲ အရည်အသွေးကိုပါ သေချာဂရုစိုက်ရန် ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q019",
+      "lessonId": "n3.l43",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「唯一」という漢字の「唯」の部首（Radical）は何ですか。",
+      "choices": [
+        "口（くちへん）",
+        "隹（ふるとり）",
+        "心（こころ）",
+        "言（ごんべん）"
+      ],
+      "answer": "口（くちへん）",
+      "explanation": "「唯」၏ မူလအခြေခံ radical မှာ 「口」 (mouth) ဖြစ်ပါသည်။",
+      "explanationMy": "「唯」၏ မူလအခြေခံ radical မှာ 「口」 (mouth) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q020",
+      "lessonId": "n3.l43",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「この店でしか買えない限定商品」の「限定」のニュアンスは？",
+      "choices": [
+        "နေရာ သို့မဟုတ် အချိန်ကာလကို သီးသန့်ကန့်သတ်ထားသော တန်ဖိုးရှိသည့် ပစ္စည်း",
+        "ဘယ်နေရာမဆို အလွယ်တကူ အမြဲဝယ်ယူရရှိနိုင်သော ကုန်ပစ္စည်း",
+        "အရည်အသွေးမမီ၍ ဈေးချရောင်းချနေသော ပစ္စည်း",
+        "အစိုးရမှ တားမြစ်ပိတ်ပင်ထားသော တရားမဝင်ပစ္စည်း"
+      ],
+      "answer": "နေရာ သို့မဟုတ် အချိန်ကာလကို သီးသန့်ကန့်သတ်ထားသော တန်ဖိုးရှိသည့် ပစ္စည်း",
+      "explanation": "သတ်မှတ်ထားသော နေရာ၊ အချိန်ကာလတွင်သာ ဝယ်ယူရရှိနိုင်သည့် သီးသန့်ပစ္စည်းကို ဆိုလိုပါသည်။",
+      "explanationMy": "သတ်မှတ်ထားသော နေရာ၊ အချိန်ကာလတွင်သာ ဝယ်ယူရရှိနိုင်သည့် သီးသန့်ပစ္စည်းကို ဆိုလိုပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q021",
+      "lessonId": "n3.l43",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「テレビを見てばかりいる」という表現が与える印象は？",
+      "choices": [
+        "勉強や他の仕事もせずテレビに熱中していることへの非難や苦言",
+        "テレビを見ることを心から褒め称えている",
+        "テレビが壊れて映らないことへの同情",
+        "テレビの購入を強く推奨している"
+      ],
+      "answer": "勉強や他の仕事もせずテレビに熱中していることへの非難や苦言",
+      "explanation": "အခြားအလုပ်မလုပ်ဘဲ တီဗီချည်းသာ ကြည့်နေခြင်းအပေါ် အပြစ်တင်ငြီးငွေ့သည့် သဘောသက်ရောက်ပါသည်။",
+      "explanationMy": "အခြားအလုပ်မလုပ်ဘဲ တီဗီချည်းသာ ကြည့်နေခြင်းအပေါ် အပြစ်တင်ငြီးငွေ့သည့် သဘောသက်ရောက်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q022",
+      "lessonId": "n3.l43",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「範囲」の「範」と関係の深い意味合いはどれですか。",
+      "choices": [
+        "枠組み・手本・限界",
+        "食事・米・料理",
+        "乗車・交通・移動",
+        "色彩・絵画・芸術"
+      ],
+      "answer": "枠組み・手本・限界",
+      "explanation": "「範」သည် ဘောင်၊ စံနမူနာ၊ ကန့်သတ်ချက် (framework, model) နှင့် သက်ဆိုင်ပါသည်။",
+      "explanationMy": "「範」သည် ဘောင်၊ စံနမူနာ၊ ကန့်သတ်ချက် (framework, model) နှင့် သက်ဆိုင်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q023",
+      "lessonId": "n3.l43",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「〜だけでなく」の言い換えとして最もフォーマルな表現はどれですか。",
+      "choices": [
+        "〜のみならず",
+        "〜なんか",
+        "〜だって",
+        "〜くらい"
+      ],
+      "answer": "〜のみならず",
+      "explanation": "「〜だけでなく」၏ ပိုမိုတရားဝင်သော စာပေအသုံးအနှုန်းမှာ 「〜のみならず」 ဖြစ်ပါသည်။",
+      "explanationMy": "「〜だけでなく」၏ ပိုမိုတရားဝင်သော စာပေအသုံးအနှုန်းမှာ 「〜のみならず」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q024",
+      "lessonId": "n3.l43",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "会話で専務が「特典も追加しよう」と述べた主な狙いは？",
+      "choices": [
+        "限定感を高めつつ既存会員の満足度や購買意欲を刺激するため",
+        "商品の在庫をすべて処分して事業を撤退するため",
+        "オンラインショップの運営を即座に停止するため",
+        "会員の会費を大幅に値上げするため"
+      ],
+      "answer": "限定感を高めつつ既存会員の満足度や購買意欲を刺激するため",
+      "explanation": "အသင်းဝင်များ၏ စိတ်ကျေနပ်မှုနှင့် ဝယ်ယူလိုစိတ်ကို လှုံ့ဆော်ရန် ဖြစ်ပါသည်။",
+      "explanationMy": "အသင်းဝင်များ၏ စိတ်ကျေနပ်မှုနှင့် ဝယ်ယူလိုစိတ်ကို လှုံ့ဆော်ရန် ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q025",
+      "lessonId": "n3.l43",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文によると、特定の専門分野を極めることのメリットは何ですか。",
+      "choices": [
+        "他者との差別化を図るための唯一無二の強みとなり得ること",
+        "他のすべての仕事を一切しなくて済むようになること",
+        "勉強や学習を生涯完全に終了できること",
+        "会社の経営権を自動的に獲得できること"
+      ],
+      "answer": "他者との差別化を図るための唯一無二の強みとなり得ること",
+      "explanation": "他者との差別化を図るための唯一無二の強みとなり得る ဟု စာပိုဒ်တွင် ဖော်ပြထားပါသည်။",
+      "explanationMy": "他者との差別化を図るための唯一無二の強みとなり得る ဟု စာပိုဒ်တွင် ဖော်ပြထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q026",
+      "lessonId": "n3.l43",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文において、一つの専門領域だけに閉じこもることの危険性は何ですか。",
+      "choices": [
+        "予期せぬ時代の変化に柔軟に対応できなくなること",
+        "専門知識が完全に忘れ去られてしまうこと",
+        "給料が毎月減額されてしまうこと",
+        "パソコンが操作できなくなってしまうこと"
+      ],
+      "answer": "予期せぬ時代の変化に柔軟に対応できなくなること",
+      "explanation": "自分の専門知識ばかりに頼っていては、予期せぬ時代の変化に対応できません ဟု သတိပေးထားပါသည်။",
+      "explanationMy": "自分の専門知識ばかりに頼っていては、予期せぬ時代の変化に対応できません ဟု သတိပေးထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q027",
+      "lessonId": "n3.l43",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文によると、これからの時代を生き抜くために真に優れた人材に必要な姿勢は？",
+      "choices": [
+        "専門を深めるだけでなく、幅広い分野の知識も吸収し融合させる姿勢",
+        "自分の専門以外の分野には一切関心を持たない姿勢",
+        "本や資料を読むのをやめて勘だけに頼る姿勢",
+        "他人の意見をすべて否定して自分の意見だけを通す姿勢"
+      ],
+      "answer": "専門を深めるだけでなく、幅広い分野の知識も吸収し融合させる姿勢",
+      "explanation": "専門領域を深めるだけでなく、関連する幅広い分野の知識も吸収し融合させることဖြစ်ပါသည်။",
+      "explanationMy": "専門領域を深めるだけでなく、関連する幅広い分野の知識も吸収し融合させることဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q028",
+      "lessonId": "n3.l43",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "空欄に当てはまる最も自然な表現を選びなさい：\n「この施設は子供（　　）、大人も十分に楽しむことができる。」",
+      "choices": [
+        "だけでなく",
+        "ばかりで",
+        "だけあって",
+        "ほどでも"
+      ],
+      "answer": "だけでなく",
+      "explanation": "ကလေးသာမက လူကြီးများလည်း ပျော်ရွှင်နိုင်ကြောင်း ဖော်ပြရန် 「だけでなく」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ကလေးသာမက လူကြီးများလည်း ပျော်ရွှင်နိုင်ကြောင်း ဖော်ပြရန် 「だけでなく」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q029",
+      "lessonId": "n3.l43",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "次の語句を正しく並べ替えて意味の通る文にしなさい：\n「勉強せずに / ばかり / ゲーム / 弟は / している」",
+      "choices": [
+        "弟は勉強せずにゲームばかりしている",
+        "ゲームばかり勉強せずに弟はしている",
+        "弟はしているゲームばかり勉強せずに",
+        "勉強せずに弟はしているゲームばかり"
+      ],
+      "answer": "弟は勉強せずにゲームばかりしている",
+      "explanation": "မှန်ကန်သော ဝါကျစီစဉ်မှုမှာ 「弟は勉強せずにゲームばかりしている」 ဖြစ်ပါသည်။",
+      "explanationMy": "မှန်ကန်သော ဝါကျစီစဉ်မှုမှာ 「弟は勉強せずにゲームばかりしている」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l43.q030",
+      "lessonId": "n3.l43",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "本課で学んだ「限定・付加」の表現が日本語の表現力にもたらす効果は？",
+      "choices": [
+        "対象の範囲を明確に限定したり、情報を付け足して論理的に説明できる",
+        "会話のスピードを速くするためだけの省略形を提供する",
+        "すべての文章を過去形に書き直すことができる",
+        "形容詞の活用形をなくして簡素化できる"
+      ],
+      "answer": "対象の範囲を明確に限定したり、情報を付け足して論理的に説明できる",
+      "explanation": "နယ်ပယ်အတိုင်းအတာကို တိကျစွာ ကန့်သတ်ပြသနိုင်ပြီး အချက်အလက်များကို ထပ်လောင်း၍ ယုတ္တိရှိရှိ ရှင်းပြနိုင်ပါသည်။",
+      "explanationMy": "နယ်ပယ်အတိုင်းအတာကို တိကျစွာ ကန့်သတ်ပြသနိုင်ပြီး အချက်အလက်များကို ထပ်လောင်း၍ ယုတ္တိရှိရှိ ရှင်းပြနိုင်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l43.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-06T10:00:00Z",
+    "rev": 2
+  }
+};

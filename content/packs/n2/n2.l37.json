@@ -1,0 +1,1797 @@
+{
+  "id": "n2.l37",
+  "level": "N2",
+  "module": "N2 Editorial & Socio-Cultural",
+  "number": 37,
+  "title": "N2 Lesson 37: Judgments, Evaluations & Presumptions (〜に相違ない・〜に違いない・〜にすぎない)",
+  "description": "Mastery module focusing on Evidential Conviction, Logical Certainty, and Modest Minimization: formal indisputable deduction (に相違ない), subjective strong conviction (に違いない), and reductive limitation (にすぎない).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l37.v001",
+      "lessonId": "n2.l37",
+      "ja": "推測",
+      "kana": "すいそく",
+      "en": "Conjecture / Guess / Supposition",
+      "my": "မှန်းဆချက် / ထင်ကြေး",
+      "meaningMy": "မှန်းဆချက် / ထင်ကြေး",
+      "meaningMyanmar": "မှန်းဆချက် / ထင်ကြေး",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l37.s001",
+      "kanjiIds": [
+        "n2.l37.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.v002",
+      "lessonId": "n2.l37",
+      "ja": "推定",
+      "kana": "すいてい",
+      "en": "Estimation / Presumption",
+      "my": "ခန့်မှန်းသတ်မှတ်ခြင်း",
+      "meaningMy": "ခန့်မှန်းသတ်မှတ်ခြင်း",
+      "meaningMyanmar": "ခန့်မှန်းသတ်မှတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l37.s002",
+      "kanjiIds": [
+        "n2.l37.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.v003",
+      "lessonId": "n2.l37",
+      "ja": "観測",
+      "kana": "かんそく",
+      "en": "Observation / Monitoring / Survey",
+      "my": "စောင့်ကြည့်လေ့လာတိုင်းတာခြင်း",
+      "meaningMy": "စောင့်ကြည့်လေ့လာတိုင်းတာခြင်း",
+      "meaningMyanmar": "စောင့်ကြည့်လေ့လာတိုင်းတာခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l37.s003",
+      "kanjiIds": [
+        "n2.l37.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.v004",
+      "lessonId": "n2.l37",
+      "ja": "予測",
+      "kana": "よそく",
+      "en": "Prediction / Forecast / Projection",
+      "my": "ကြိုတင်ခန့်မှန်းတွက်ချက်ခြင်း",
+      "meaningMy": "ကြိုတင်ခန့်မှန်းတွက်ချက်ခြင်း",
+      "meaningMyanmar": "ကြိုတင်ခန့်မှန်းတွက်ချက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l37.s004",
+      "kanjiIds": [
+        "n2.l37.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.v005",
+      "lessonId": "n2.l37",
+      "ja": "根拠",
+      "kana": "こんきょ",
+      "en": "Basis / Grounds / Foundation",
+      "my": "ခိုင်လုံသောအခြေခံအထောက်အထား",
+      "meaningMy": "ခိုင်လုံသောအခြေခံအထောက်အထား",
+      "meaningMyanmar": "ခိုင်လုံသောအခြေခံအထောက်အထား",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l37.s005",
+      "kanjiIds": [
+        "n2.l37.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.v006",
+      "lessonId": "n2.l37",
+      "ja": "証拠",
+      "kana": "しょうこ",
+      "en": "Evidence / Proof",
+      "my": "သက်သေအထောက်အထား",
+      "meaningMy": "သက်သေအထောက်အထား",
+      "meaningMyanmar": "သက်သေအထောက်အထား",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l37.s006",
+      "kanjiIds": [
+        "n2.l37.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.v007",
+      "lessonId": "n2.l37",
+      "ja": "確信",
+      "kana": "かくしん",
+      "en": "Conviction / Firm belief / Confidence",
+      "my": "အခိုင်အမာယုံကြည်မှု",
+      "meaningMy": "အခိုင်အမာယုံကြည်မှု",
+      "meaningMyanmar": "အခိုင်အမာယုံကြည်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l37.s007",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.v008",
+      "lessonId": "n2.l37",
+      "ja": "妥当",
+      "kana": "だとう",
+      "en": "Appropriate / Valid / Reasonable",
+      "my": "သင့်လျော်မှန်ကန်သော",
+      "meaningMy": "သင့်လျော်မှန်ကန်သော",
+      "meaningMyanmar": "သင့်လျော်မှန်ကန်သော",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l37.s008",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.v009",
+      "lessonId": "n2.l37",
+      "ja": "偏見",
+      "kana": "へんけん",
+      "en": "Prejudice / Narrow-minded bias",
+      "my": "ဘက်လိုက်အမြင် / တစ်ဖက်သတ်အထင်",
+      "meaningMy": "ဘက်လိုက်အမြင် / တစ်ဖက်သတ်အထင်",
+      "meaningMyanmar": "ဘက်လိုက်အမြင် / တစ်ဖက်သတ်အထင်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l37.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.v010",
+      "lessonId": "n2.l37",
+      "ja": "見解",
+      "kana": "けんかい",
+      "en": "Viewpoint / Opinion / Interpretation",
+      "my": "အမြင်သဘောထားဆန်းစစ်ချက်",
+      "meaningMy": "အမြင်သဘောထားဆန်းစစ်ချက်",
+      "meaningMyanmar": "အမြင်သဘောထားဆန်းစစ်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l37.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.v011",
+      "lessonId": "n2.l37",
+      "ja": "過言",
+      "kana": "かごん",
+      "en": "Exaggeration / Overstatement",
+      "my": "အလွန်အကျွံပြောဆိုချက်",
+      "meaningMy": "အလွန်အကျွံပြောဆိုချက်",
+      "meaningMyanmar": "အလွန်အကျွံပြောဆိုချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l37.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.v012",
+      "lessonId": "n2.l37",
+      "ja": "単なる",
+      "kana": "たんなる",
+      "en": "Mere / Simple / Plain",
+      "my": "ရိုးရိုးသာမန်မျှသာဖြစ်သော",
+      "meaningMy": "ရိုးရိုးသာမန်မျှသာဖြစ်သော",
+      "meaningMyanmar": "ရိုးရိုးသာမန်မျှသာဖြစ်သော",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l37.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l37.k001",
+      "lessonId": "n2.l37",
+      "char": "推",
+      "meaning": "Infer / Presume / Push / Recommend",
+      "meaningMy": "ခန့်မှန်းတွက်ချက်ခြင်း / တွန်းအားပေးခြင်း / ထောက်ခံခြင်း",
+      "meaningMyanmar": "ခန့်မှန်းတွက်ချက်ခြင်း / တွန်းအားပေးခြင်း / ထောက်ခံခြင်း",
+      "onyomi": [
+        "スイ"
+      ],
+      "kunyomi": [
+        "お・す"
+      ],
+      "exampleVocab": [
+        {
+          "word": "推測",
+          "reading": "すいそく",
+          "meaning": "guess / conjecture",
+          "meaningMy": "မှန်းဆချက် / ထင်ကြေး",
+          "preview": false
+        },
+        {
+          "word": "推定",
+          "reading": "すいてい",
+          "meaning": "presumption / estimation",
+          "meaningMy": "ခန့်မှန်းသတ်မှတ်ချက်",
+          "preview": false
+        },
+        {
+          "word": "推進",
+          "reading": "すいしん",
+          "meaning": "propulsion / promotion",
+          "meaningMy": "တွန်းအားပေးမြှင့်တင်ခြင်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l37.s001"
+      ],
+      "components": [
+        "扌",
+        "隹"
+      ],
+      "strokes": 11,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.k002",
+      "lessonId": "n2.l37",
+      "char": "測",
+      "meaning": "Fathom / Measure / Survey / Gauge",
+      "meaningMy": "တိုင်းတာခြင်း / စစ်ဆေးတိုင်းထွာခြင်း",
+      "meaningMyanmar": "တိုင်းတာခြင်း / စစ်ဆေးတိုင်းထွာခြင်း",
+      "onyomi": [
+        "ソク"
+      ],
+      "kunyomi": [
+        "はか・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "観測",
+          "reading": "かんそく",
+          "meaning": "observation / survey",
+          "meaningMy": "စောင့်ကြည့်တိုင်းတာခြင်း",
+          "preview": false
+        },
+        {
+          "word": "予測",
+          "reading": "よそく",
+          "meaning": "prediction / forecast",
+          "meaningMy": "ကြိုတင်ခန့်မှန်းတွက်ချက်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "測定",
+          "reading": "そくてい",
+          "meaning": "measurement",
+          "meaningMy": "အတိုင်းအတာသတ်မှတ်ခြင်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l37.s002"
+      ],
+      "components": [
+        "氵",
+        "則"
+      ],
+      "strokes": 12,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.k003",
+      "lessonId": "n2.l37",
+      "char": "拠",
+      "meaning": "Grounds / Basis / Base / Rely on",
+      "meaningMy": "ခိုင်လုံသောအထောက်အထား / အခြေစိုက်စခန်း",
+      "meaningMyanmar": "ခိုင်လုံသောအထောက်အထား / အခြေစိုက်စခန်း",
+      "onyomi": [
+        "キョ",
+        "コ"
+      ],
+      "kunyomi": [
+        "よ・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "根拠",
+          "reading": "こんきょ",
+          "meaning": "grounds / foundation",
+          "meaningMy": "ခိုင်လုံသောအခြေခံအထောက်အထား",
+          "preview": false
+        },
+        {
+          "word": "証拠",
+          "reading": "しょうこ",
+          "meaning": "evidence / proof",
+          "meaningMy": "သက်သေပြချက်",
+          "preview": false
+        },
+        {
+          "word": "拠点",
+          "reading": "きょてん",
+          "meaning": "operating base / hub",
+          "meaningMy": "အခြေစိုက်ဗဟိုချက်",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l37.s003"
+      ],
+      "components": [
+        "扌",
+        "処"
+      ],
+      "strokes": 8,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l37.g001",
+      "lessonId": "n2.l37",
+      "pattern": "〜に相違ない",
+      "meaning": "There is no doubt that... / Must be without error (formal certitude)",
+      "meaningMy": "ဖြစ်မည်မှာ သေချာသည် / လွဲမှားစရာမရှိ အမှန်ပင်ဖြစ်သည် (တရားဝင်အဆင့်မြင့်သုံး)",
+      "meaningMyanmar": "ဖြစ်မည်မှာ သေချာသည် / လွဲမှားစရာမရှိ အမှန်ပင်ဖြစ်သည် (တရားဝင်အဆင့်မြင့်သုံး)",
+      "formation": "名詞 / 普通形 (な形語幹である・名詞である) ＋ に相違ない",
+      "explanation": {
+        "en": "A formal written pattern expressing absolute conviction based on documentary evidence, facts, or systematic deduction.",
+        "my": "ခိုင်လုံသော စာရွက်စာတမ်း အထောက်အထား သို့မဟုတ် ယုတ္တိကျသော အချက်အလက်များအပေါ် အခြေခံ၍ လုံးဝ လွဲမှားစရာမရှိ မှန်ကန်ကြောင်း ပြတ်သားစွာ ဖော်ပြသည်။"
+      },
+      "explanationMy": "ခိုင်လုံသော စာရွက်စာတမ်း အထောက်အထား သို့မဟုတ် ယုတ္တိကျသော အချက်အလက်များအပေါ် အခြေခံ၍ လုံးဝ လွဲမှားစရာမရှိ မှန်ကန်ကြောင်း ပြတ်သားစွာ ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l37.s001",
+          "note": "〜に相違ない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l37.s002",
+          "note": "〜に相違ない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l37.s003",
+          "note": "〜に相違ない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l37.s004",
+          "note": "〜に相違ない usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l37.g001",
+        "n2.l37.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜に相違ない."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "犯行現場に残された指紋から、彼が犯人に[ _____ ]。",
+      "clozeTarget": "相違ない",
+      "clozeHint": "Noun + に相違ない",
+      "acceptableSynonyms": [
+        "〜に違いない",
+        "〜に決まっている",
+        "間違いなく〜だ"
+      ],
+      "nuanceExplanationMy": "တရားရုံး သို့မဟုတ် စာပေသုံး စကားရပ်များတွင် အလွန်ခိုင်မာသော သံသယကင်းရှင်းမှုကို ပြသည်။"
+    },
+    {
+      "id": "n2.l37.g002",
+      "lessonId": "n2.l37",
+      "pattern": "〜に違いない",
+      "meaning": "Must be / Definitely is / I'm certain that...",
+      "meaningMy": "ဖြစ်မည်မှာ မလွဲဧကန် အမှန်ဖြစ်သည် / သေချာပေါက် ဖြစ်ရမည်",
+      "meaningMyanmar": "ဖြစ်မည်မှာ မလွဲဧကန် အမှန်ဖြစ်သည် / သေချာပေါက် ဖြစ်ရမည်",
+      "formation": "名詞 / 普通形 (な形・名詞の だ を省くことが多い) ＋ に違いない",
+      "explanation": {
+        "en": "Conveys the speaker's firm personal conviction, intuition, or logical belief that something is unquestionably true.",
+        "my": "မိမိ၏ ခံစားချက်၊ အတွေ့အကြုံ သို့မဟုတ် မျက်မြင်အခြေအနေအရ သေချာပေါက် ထိုသို့ဖြစ်ရမည်ဟု စိတ်ထဲမှ အခိုင်အမာ ယုံကြည်ယူဆကြောင်း ပြသသည်။"
+      },
+      "explanationMy": "မိမိ၏ ခံစားချက်၊ အတွေ့အကြုံ သို့မဟုတ် မျက်မြင်အခြေအနေအရ သေချာပေါက် ထိုသို့ဖြစ်ရမည်ဟု စိတ်ထဲမှ အခိုင်အမာ ယုံကြည်ယူဆကြောင်း ပြသသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l37.s005",
+          "note": "〜に違いない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l37.s006",
+          "note": "〜に違いない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l37.s007",
+          "note": "〜に違いない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l37.s008",
+          "note": "〜に違いない usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l37.g001",
+        "n2.l37.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜に違いない."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "連日の激務で、彼は心身ともに疲労困憊している[ _____ ]。",
+      "clozeTarget": "に違いない",
+      "clozeHint": "Plain form + に違いない",
+      "acceptableSynonyms": [
+        "〜に相違ない",
+        "〜に決まっている",
+        "きっと〜だ"
+      ],
+      "nuanceExplanationMy": "စကားပြောနှင့် စာရေးသားမှု နှစ်မျိုးစလုံးတွင် အသုံးပြုပြီး ပြောဆိုသူ၏ ခိုင်မာသော ယုံကြည်ချက်ကို ပြသည်။"
+    },
+    {
+      "id": "n2.l37.g003",
+      "lessonId": "n2.l37",
+      "pattern": "〜にすぎない",
+      "meaning": "Is merely... / Nothing more than... / Just...",
+      "meaningMy": "မျှသာဖြစ်သည် / ထက်မပိုသော အရာတစ်ခုမျှသာ ဖြစ်သည်",
+      "meaningMyanmar": "မျှသာဖြစ်သည် / ထက်မပိုသော အရာတစ်ခုမျှသာ ဖြစ်သည်",
+      "formation": "動詞辞書形 / 普通形 / 名詞 (だ を省く) ＋ にすぎない",
+      "explanation": {
+        "en": "Minimizes importance, scale, or merit, indicating that something does not exceed a basic, unremarkable limit or definition.",
+        "my": "အရေးပါမှု၊ အတိုင်းအတာ သို့မဟုတ် တန်ဖိုးကို လျှော့ချပြသပြီး ရိုးစင်းသော ကန့်သတ်ချက်ထက် မပိုသည့် သာမန်အရာမျှသာ ဖြစ်ကြောင်း ဖော်ပြသည်။"
+      },
+      "explanationMy": "အရေးပါမှု၊ အတိုင်းအတာ သို့မဟုတ် တန်ဖိုးကို လျှော့ချပြသပြီး ရိုးစင်းသော ကန့်သတ်ချက်ထက် မပိုသည့် သာမန်အရာမျှသာ ဖြစ်ကြောင်း ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l37.s009",
+          "note": "〜にすぎない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l37.s010",
+          "note": "〜にすぎない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l37.s011",
+          "note": "〜にすぎない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l37.s012",
+          "note": "〜にすぎない usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l37.g001",
+        "n2.l37.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜にすぎない."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "今回の成功は、長い計画の第一歩[ _____ ]。",
+      "clozeTarget": "にすぎない",
+      "clozeHint": "Noun + にすぎない",
+      "acceptableSynonyms": [
+        "〜に過ぎない",
+        "ただの〜だ",
+        "〜でしかない"
+      ],
+      "nuanceExplanationMy": "အလွန်အကျွံ အထင်မကြီးရန် သို့မဟုတ် နှိမ့်ချဖော်ပြရာတွင် အလွန်အသုံးဝင်သည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l37.s001",
+      "lessonId": "n2.l37",
+      "ja": "現場に残された動かぬ証拠から見て、彼が主犯であることは相違ない。",
+      "kana": "げんばにのこされたうごかぬしょうこからみて、かれがしゅはんであることはそういない。",
+      "translation": {
+        "en": "Judged from the incontrovertible evidence left at the scene, there is no doubt that he is the principal culprit.",
+        "my": "အခင်းဖြစ်နေရာတွင် ကျန်ရှိနေသော မငြင်းသာသည့် သက်သေများအရ သူသည် အဓိကတရားခံ ဖြစ်မည်မှာ သံသယဖြစ်ဖွယ်မရှိ မှန်ကန်သည်။"
+      },
+      "translationMy": "အခင်းဖြစ်နေရာတွင် ကျန်ရှိနေသော မငြင်းသာသည့် သက်သေများအရ သူသည် အဓိကတရားခံ ဖြစ်မည်မှာ သံသယဖြစ်ဖွယ်မရှိ မှန်ကန်သည်။",
+      "vocabIds": [
+        "n2.l37.v006",
+        "n2.l37.v007"
+      ],
+      "grammarIds": [
+        "n2.l37.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.s002",
+      "lessonId": "n2.l37",
+      "ja": "過去十年の気象データを綿密に分析した結果、地球温暖化が加速していることは相違ない。",
+      "kana": "かこじゅうねんのきしょうデータをめんみつにぶんせきしたけっか、ちきゅうおんだんかがかそくしていることはそういない。",
+      "translation": {
+        "en": "As a result of meticulously analyzing meteorological data from the past decade, global warming is undoubtedly accelerating.",
+        "my": "လွန်ခဲ့သော ၁၀ နှစ်တာ မိုးလေဝသ အချက်အလက်များကို သေချာစွာ ခွဲခြမ်းစိတ်ဖြာခဲ့ရာ ကမ္ဘာကြီးပူနွေးလာမှု အရှိန်မြင့်လာနေသည်မှာ အမှန်ပင်ဖြစ်သည်။"
+      },
+      "translationMy": "လွန်ခဲ့သော ၁၀ နှစ်တာ မိုးလေဝသ အချက်အလက်များကို သေချာစွာ ခွဲခြမ်းစိတ်ဖြာခဲ့ရာ ကမ္ဘာကြီးပူနွေးလာမှု အရှိန်မြင့်လာနေသည်မှာ အမှန်ပင်ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l37.v003",
+        "n2.l37.v004"
+      ],
+      "grammarIds": [
+        "n2.l37.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.s003",
+      "lessonId": "n2.l37",
+      "ja": "綿密な市場調査に基づく見解であり、この事業計画は成功するに相違ない。",
+      "kana": "めんみつなしじょうちょうさにもとづくけんかいであり、このじぎょうけいかくはせいこうするにそういない。",
+      "translation": {
+        "en": "Being a viewpoint grounded in thorough market research, this business plan is bound without doubt to succeed.",
+        "my": "စေ့စပ်သော ဈေးကွက်သုတေသနအပေါ် အခြေခံထားသည့် အမြင်ဖြစ်သဖြင့် ဤစီးပွားရေးစီမံကိန်း အောင်မြင်မည်မှာ မလွဲဧကန်ပင်ဖြစ်သည်။"
+      },
+      "translationMy": "စေ့စပ်သော ဈေးကွက်သုတေသနအပေါ် အခြေခံထားသည့် အမြင်ဖြစ်သဖြင့် ဤစီးပွားရေးစီမံကိန်း အောင်မြင်မည်မှာ မလွဲဧကန်ပင်ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l37.v005",
+        "n2.l37.v010"
+      ],
+      "grammarIds": [
+        "n2.l37.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.s004",
+      "lessonId": "n2.l37",
+      "ja": "これほど多くの目撃証言が一致している以上、事故の原因は信号無視に相違ない。",
+      "kana": "これほどおおくのもくげきしょうげんがいっちしているいじょう、じこのげんいんはしんごうむしにそういない。",
+      "translation": {
+        "en": "Since so many eyewitness accounts concur, the cause of the accident must undoubtedly be running a red light.",
+        "my": "မျက်မြင်သက်သေ အများအပြား၏ ထွက်ဆိုချက်များ ကိုက်ညီနေသည့်အတွက် မတော်တဆမှု၏ အကြောင်းရင်းမှာ မီးနီဖြတ်မောင်းခြင်း ဖြစ်မည်မှာ သေချာသည်။"
+      },
+      "translationMy": "မျက်မြင်သက်သေ အများအပြား၏ ထွက်ဆိုချက်များ ကိုက်ညီနေသည့်အတွက် မတော်တဆမှု၏ အကြောင်းရင်းမှာ မီးနီဖြတ်မောင်းခြင်း ဖြစ်မည်မှာ သေချာသည်။",
+      "vocabIds": [
+        "n2.l37.v005",
+        "n2.l37.v006"
+      ],
+      "grammarIds": [
+        "n2.l37.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.s005",
+      "lessonId": "n2.l37",
+      "ja": "あれほど熱心に練習を重ねてきたのだから、彼女は明日の本番で優勝するに違いない。",
+      "kana": "あれほどねっしんにれんしゅうをかさねてきたのだから、かのじょはあしたのほんばんでゆうしょうするにちがいない。",
+      "translation": {
+        "en": "Because she practiced so ardently, she will definitely win the championship in tomorrow's performance.",
+        "my": "ထိုမျှလောက် စိတ်ရောကိုယ်ပါ လေ့ကျင့်ခဲ့သည့်အတွက် သူမသည် မနက်ဖြန် တကယ့်ပြိုင်ပွဲတွင် ချန်ပီယံဆု ရရှိမည်မှာ မလွဲပေ။"
+      },
+      "translationMy": "ထိုမျှလောက် စိတ်ရောကိုယ်ပါ လေ့ကျင့်ခဲ့သည့်အတွက် သူမသည် မနက်ဖြန် တကယ့်ပြိုင်ပွဲတွင် ချန်ပီယံဆု ရရှိမည်မှာ မလွဲပေ။",
+      "vocabIds": [
+        "n2.l37.v007",
+        "n2.l37.v008"
+      ],
+      "grammarIds": [
+        "n2.l37.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.s006",
+      "lessonId": "n2.l37",
+      "ja": "顔色が極めて優れないところを見ると、彼は重大な病気を患っているに違いない。",
+      "kana": "かおいろがきわめてすぐれないところをみると、かれはじゅうだいなびょうきをわずらっているにちがいない。",
+      "translation": {
+        "en": "Seeing that his complexion is extremely poor, he must definitely be suffering from a grave illness.",
+        "my": "မျက်နှာသွေး လုံးဝမကောင်းသည်ကို ကြည့်ခြင်းအားဖြင့် သူသည် ကြီးမားသော ရောဂါဝေဒနာ ခံစားနေရသည်မှာ သေချာသည်။"
+      },
+      "translationMy": "မျက်နှာသွေး လုံးဝမကောင်းသည်ကို ကြည့်ခြင်းအားဖြင့် သူသည် ကြီးမားသော ရောဂါဝေဒနာ ခံစားနေရသည်မှာ သေချာသည်။",
+      "vocabIds": [
+        "n2.l37.v001",
+        "n2.l37.v007"
+      ],
+      "grammarIds": [
+        "n2.l37.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.s007",
+      "lessonId": "n2.l37",
+      "ja": "客観的な根拠が提示されていない以上、その噂は単なる推測に違いない。",
+      "kana": "きゃっかんてきなこんきょがていじされていないいじょう、そのうわさはたんなるすいそくにちがいない。",
+      "translation": {
+        "en": "Since no objective grounds were presented, that rumor must definitely be nothing more than mere guesswork.",
+        "my": "ဓမ္မဓိဋ္ဌာန်ကျသော အထောက်အထား မပြသနိုင်သည့်အတွက် ထိုကောလာဟလသည် ရိုးရိုးထင်ကြေးမှန်းဆချက်သာ ဖြစ်ရမည်။"
+      },
+      "translationMy": "ဓမ္မဓိဋ္ဌာန်ကျသော အထောက်အထား မပြသနိုင်သည့်အတွက် ထိုကောလာဟလသည် ရိုးရိုးထင်ကြေးမှန်းဆချက်သာ ဖြစ်ရမည်။",
+      "vocabIds": [
+        "n2.l37.v001",
+        "n2.l37.v005",
+        "n2.l37.v012"
+      ],
+      "grammarIds": [
+        "n2.l37.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.s008",
+      "lessonId": "n2.l37",
+      "ja": "あの誠実な彼が約束を破ったのには、よほどのっぴきならない事情があったに違いない。",
+      "kana": "あのせいじつなかれがやくそくをやぶったのには、よほどのっぴきならないじじょうがあったにちがいない。",
+      "translation": {
+        "en": "For that sincere man to break a promise, there must definitely have been inevitable compelling circumstances.",
+        "my": "ထိုသို့ ရိုးသားဖြောင့်မတ်သူက ကတိဖျက်ခဲ့ခြင်းအတွက် မလွှဲမရှောင်သာ အလွန်ကြီးမားသော အကြောင်းကိစ္စ ရှိခဲ့သည်မှာ သေချာသည်။"
+      },
+      "translationMy": "ထိုသို့ ရိုးသားဖြောင့်မတ်သူက ကတိဖျက်ခဲ့ခြင်းအတွက် မလွှဲမရှောင်သာ အလွန်ကြီးမားသော အကြောင်းကိစ္စ ရှိခဲ့သည်မှာ သေချာသည်။",
+      "vocabIds": [
+        "n2.l37.v007",
+        "n2.l37.v008"
+      ],
+      "grammarIds": [
+        "n2.l37.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.s009",
+      "lessonId": "n2.l37",
+      "ja": "いかに多額の利益を上げたとしても、それは一時的な流行の波に乗った結果にすぎない。",
+      "kana": "いかにたがくのりえきをあげたとしても、それはいちじてきなりゅうこうのなみにのったけっかにすぎない。",
+      "translation": {
+        "en": "No matter how much profit was made, it is merely the consequence of riding a temporary wave of fad.",
+        "my": "မည်မျှပင် အမြတ်အစွန်းများစွာ ရရှိခဲ့စေကာမူ ၎င်းမှာ ခေတ္တခဏ ရေပန်းစားမှုလှိုင်းကို စီးနင်းနိုင်ခဲ့သည့် ရလဒ်မျှသာ ဖြစ်သည်။"
+      },
+      "translationMy": "မည်မျှပင် အမြတ်အစွန်းများစွာ ရရှိခဲ့စေကာမူ ၎င်းမှာ ခေတ္တခဏ ရေပန်းစားမှုလှိုင်းကို စီးနင်းနိုင်ခဲ့သည့် ရလဒ်မျှသာ ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l37.v002",
+        "n2.l37.v008"
+      ],
+      "grammarIds": [
+        "n2.l37.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.s010",
+      "lessonId": "n2.l37",
+      "ja": "彼の発言は個人の主観的な偏見にすぎず、学術的な妥当性は全く認められない。",
+      "kana": "かれのはつげんはこじんのしゅかんてきなへんけんにすぎず、がくじゅつてきなだとうせいはまったくみとめられない。",
+      "translation": {
+        "en": "His remark is merely personal subjective prejudice and bears zero academic validity.",
+        "my": "သူ၏ ပြောကြားချက်မှာ လူပုဂ္ဂိုလ်တစ်ဦး၏ ဘက်လိုက်အမြင်မျှသာဖြစ်ပြီး ပညာရပ်ဆိုင်ရာ ခိုင်လုံမှု လုံးဝမရှိပေ။"
+      },
+      "translationMy": "သူ၏ ပြောကြားချက်မှာ လူပုဂ္ဂိုလ်တစ်ဦး၏ ဘက်လိုက်အမြင်မျှသာဖြစ်ပြီး ပညာရပ်ဆိုင်ရာ ခိုင်လုံမှု လုံးဝမရှိပေ။",
+      "vocabIds": [
+        "n2.l37.v008",
+        "n2.l37.v009"
+      ],
+      "grammarIds": [
+        "n2.l37.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.s011",
+      "lessonId": "n2.l37",
+      "ja": "現代のAI技術が目覚ましいといっても、過去のデータを統計的に処理しているにすぎない。",
+      "kana": "げんだいのAIぎじゅつがめざましいといっても、かこのデータをとうけいてきにしょりしているにすぎない。",
+      "translation": {
+        "en": "Even though modern AI technology is dazzling, it is merely processing historical data statistically.",
+        "my": "မျက်မှောက်ခေတ် AI နည်းပညာ အံ့အားသင့်ဖွယ် ကောင်းသည်ဟု ဆိုသော်လည်း အတိတ်က အချက်အလက်များကို စာရင်းအင်းအရ စီမံခန့်ခွဲနေရုံမျှသာ ဖြစ်သည်။"
+      },
+      "translationMy": "မျက်မှောက်ခေတ် AI နည်းပညာ အံ့အားသင့်ဖွယ် ကောင်းသည်ဟု ဆိုသော်လည်း အတိတ်က အချက်အလက်များကို စာရင်းအင်းအရ စီမံခန့်ခွဲနေရုံမျှသာ ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l37.v001",
+        "n2.l37.v004"
+      ],
+      "grammarIds": [
+        "n2.l37.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l37.s012",
+      "lessonId": "n2.l37",
+      "ja": "世界記録を樹立した彼にとっても、この大会は通過点にすぎないと語っている。",
+      "kana": "せかいきろくをじゅりつしたかれにとっても、このたいかいはつうかてんにすぎないとがたっている。",
+      "translation": {
+        "en": "Even for him who established a world record, he states that this tournament is merely a passing checkpoint.",
+        "my": "ကမ္ဘာ့စံချိန်တင်ခဲ့သော သူ၏အတွက်ပင် ဤပြိုင်ပွဲသည် လမ်းခုလတ် မှတ်တိုင်တစ်ခုမျှသာ ဖြစ်သည်ဟု ပြောပြခဲ့သည်။"
+      },
+      "translationMy": "ကမ္ဘာ့စံချိန်တင်ခဲ့သော သူ၏အတွက်ပင် ဤပြိုင်ပွဲသည် လမ်းခုလတ် မှတ်တိုင်တစ်ခုမျှသာ ဖြစ်သည်ဟု ပြောပြခဲ့သည်။",
+      "vocabIds": [
+        "n2.l37.v007",
+        "n2.l37.v011"
+      ],
+      "grammarIds": [
+        "n2.l37.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l37.r001",
+    "lessonId": "n2.l37",
+    "title": "科学的探究における仮説検証と独断の排除",
+    "level": "N2",
+    "text": "科学的認識の進歩において、観察データの分析に基づく推論は不可欠である。実験結果と予測が完全に合致したとき、研究者は自らの仮説が真理であると確信し、「この理論は正しいに相違ない」と結論づけたくなる。しかし、いかに精緻な数理モデルであっても、それは自然現象の一側面を近似的に記述したものにすぎない。独断や偏見にとらわれ、批判的検証を怠れば、真実から乖離する危険性がある。いかなる権威の見解であっても反証の可能性に開かれていることこそが、科学の健全性を担保する根拠に違いない。",
+    "kanaText": "かがくてきにんしきのしんぽにおいて、かんさつデータのぶんせきにもとづくすいろんはふかけつである。じっけんけっかとよそくがかんぜんにがっちしたとき、けんきゅうしゃはみずからのかせつがしんりであるとかくしんし、「このりろんはただしいにそういない」とけつろんづけたくなる。しかし、いかにせいちなすうりモデルであっても、それはしぜんげんしょうのいちそくめんをきんじてきにきじゅつしたものにすぎない。どくだんやへんけんにとらわれ、ひはんてきけんしょうをおこたれば、しんじつからかいりするきけんせいがある。いかなるけんいのかんかいであってもはんしょうのかのうせいにひらかれていることこそが、かがくのけんぜんせいをたんぽするこんきょにちがいない。",
+    "translation": "သိပ္ပံနည်းကျ အသိပညာ တိုးတက်မှုတွင် စောင့်ကြည့်လေ့လာရရှိသော အချက်အလက်များကို ခွဲခြမ်းစိတ်ဖြာ၍ မှန်းဆတွက်ချက်ခြင်းသည် မရှိမဖြစ် လိုအပ်သည်။ စမ်းသပ်မှုရလဒ်နှင့် ကြိုတင်ခန့်မှန်းချက် အပြည့်အဝ ကိုက်ညီသည့်အခါ သုတေသီများသည် မိမိတို့၏ ယူဆချက်မှာ အမှန်တရားဖြစ်သည်ဟု ယုံကြည်ကာ 'ဤသီအိုရီသည် မှန်ကန်မည်မှာ သေချာသည်' ဟု နိဂုံးချုပ်ချင်ကြသည်။ သို့သော် မည်မျှပင် သိမ်မွေ့တိကျသော သင်္ချာပုံစံဖြစ်စေကာမူ ၎င်းမှာ သဘာဝဖြစ်စဉ်၏ ကဏ္ဍတစ်ခုကို ခန့်မှန်းဖော်ပြချက်မျှသာ ဖြစ်သည်။ မိမိတစ်ဦးတည်းအထင် သို့မဟုတ် ဘက်လိုက်မှုများတွင် ပိတ်မိနေပြီး ဝေဖန်ဆန်းစစ်မှုကို ပေါ့ဆပါက အမှန်တရားနှင့် ကင်းကွာသွားနိုင်သည်။ မည်သည့် ဩဇာတိက္ကမရှိသူ၏ အမြင်ဖြစ်စေကာမူ ချေပနိုင်ခြေရှိနေခြင်းသည်သာ သိပ္ပံပညာ၏ ကောင်းမွန်ခိုင်မာမှုကို အာမခံပေးသည့် အခြေခံအထောက်အထား ဖြစ်မည်မှာ သေချာပေသည်။",
+    "translationMy": "သိပ္ပံနည်းကျ အသိပညာ တိုးတက်မှုတွင် စောင့်ကြည့်လေ့လာရရှိသော အချက်အလက်များကို ခွဲခြမ်းစိတ်ဖြာ၍ မှန်းဆတွက်ချက်ခြင်းသည် မရှိမဖြစ် လိုအပ်သည်။ စမ်းသပ်မှုရလဒ်နှင့် ကြိုတင်ခန့်မှန်းချက် အပြည့်အဝ ကိုက်ညီသည့်အခါ သုတေသီများသည် မိမိတို့၏ ယူဆချက်မှာ အမှန်တရားဖြစ်သည်ဟု ယုံကြည်ကာ 'ဤသီအိုရီသည် မှန်ကန်မည်မှာ သေချာသည်' ဟု နိဂုံးချုပ်ချင်ကြသည်။ သို့သော် မည်မျှပင် သိမ်မွေ့တိကျသော သင်္ချာပုံစံဖြစ်စေကာမူ ၎င်းမှာ သဘာဝဖြစ်စဉ်၏ ကဏ္ဍတစ်ခုကို ခန့်မှန်းဖော်ပြချက်မျှသာ ဖြစ်သည်။ မိမိတစ်ဦးတည်းအထင် သို့မဟုတ် ဘက်လိုက်မှုများတွင် ပိတ်မိနေပြီး ဝေဖန်ဆန်းစစ်မှုကို ပေါ့ဆပါက အမှန်တရားနှင့် ကင်းကွာသွားနိုင်သည်။ မည်သည့် ဩဇာတိက္ကမရှိသူ၏ အမြင်ဖြစ်စေကာမူ ချေပနိုင်ခြေရှိနေခြင်းသည်သာ သိပ္ပံပညာ၏ ကောင်းမွန်ခိုင်မာမှုကို အာမခံပေးသည့် အခြေခံအထောက်အထား ဖြစ်မည်မှာ သေချာပေသည်။",
+    "questionIds": [
+      "n2.l37.q025",
+      "n2.l37.q026",
+      "n2.l37.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "反証",
+        "reading": "はんしょう",
+        "meaning": "disproof / counter-evidence",
+        "meaningMy": "disproof / counter-evidence",
+        "meaningMyanmar": "disproof / counter-evidence"
+      },
+      {
+        "term": "数理モデル",
+        "reading": "すうりモデル",
+        "meaning": "mathematical model",
+        "meaningMy": "mathematical model",
+        "meaningMyanmar": "mathematical model"
+      },
+      {
+        "term": "健全性",
+        "reading": "けんぜんせい",
+        "meaning": "soundness / integrity",
+        "meaningMy": "soundness / integrity",
+        "meaningMyanmar": "soundness / integrity"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l37.lis001",
+    "lessonId": "n2.l37",
+    "title": "新薬治験データと有効性判定の検証審議",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "森教授",
+      "西田治験責任者"
+    ],
+    "transcript": "森教授: 西田先生、最終フェーズの治験結果を見る限り、新薬の有効性は相違ないようですね。\n西田治験責任者: はい。従来の治療薬に比べて、症状改善率は統計的にも有意に向上しているに違いありません。\n森教授: しかし、副作用が軽微であるという報告は、まだ限られたサンプル数の結果にすぎませんね。\n西田治験責任者: おっしゃる通りです。長期的な追跡調査を継続し、安全性の確証を得る必要があります。",
+    "translation": "森教授: ဒေါက်တာနိရှိဒ၊ နောက်ဆုံးအဆင့် ဆေးစမ်းသပ်မှု ရလဒ်တွေအရ ဆေးသစ်ရဲ့ အာနိသင် ကောင်းမွန်တာကတော့ သေချာသလောက် ရှိပါပြီနော်။\n西田治験責任者: ဟုတ်ကဲ့ပါ။ ယခင် ကုသဆေးတွေနဲ့ နှိုင်းယှဉ်ရင် ရောဂါသက်သာမှုနှုန်း စာရင်းအင်းအရပါ သိသာစွာ တိုးတက်လာတာ သေချာပေါက်ပါပဲ။\n森教授: ဒါပေမဲ့ ဘေးထွက်ဆိုးကျိုး နည်းပါးတယ်ဆိုတဲ့ အစီရင်ခံချက်က ကန့်သတ်ထားတဲ့ နမူနာအရေအတွက်ရဲ့ ရလဒ်မျှသာ ဖြစ်နေသေးတယ်နော်။\n西田治験責任者: ဆရာကြီး ပြောတာ အမှန်ပါပဲ။ ရေရှည်စောင့်ကြည့် စစ်ဆေးမှုတွေကို ဆက်လုပ်ပြီး ဘေးကင်းလုံခြုံမှုကို အတည်ပြုနိုင်ဖို့ လိုပါတယ်။",
+    "translationMy": "森教授: ဒေါက်တာနိရှိဒ၊ နောက်ဆုံးအဆင့် ဆေးစမ်းသပ်မှု ရလဒ်တွေအရ ဆေးသစ်ရဲ့ အာနိသင် ကောင်းမွန်တာကတော့ သေချာသလောက် ရှိပါပြီနော်။\n西田治験責任者: ဟုတ်ကဲ့ပါ။ ယခင် ကုသဆေးတွေနဲ့ နှိုင်းယှဉ်ရင် ရောဂါသက်သာမှုနှုန်း စာရင်းအင်းအရပါ သိသာစွာ တိုးတက်လာတာ သေချာပေါက်ပါပဲ။\n森教授: ဒါပေမဲ့ ဘေးထွက်ဆိုးကျိုး နည်းပါးတယ်ဆိုတဲ့ အစီရင်ခံချက်က ကန့်သတ်ထားတဲ့ နမူနာအရေအတွက်ရဲ့ ရလဒ်မျှသာ ဖြစ်နေသေးတယ်နော်။\n西田治験責任者: ဆရာကြီး ပြောတာ အမှန်ပါပဲ။ ရေရှည်စောင့်ကြည့် စစ်ဆေးမှုတွေကို ဆက်လုပ်ပြီး ဘေးကင်းလုံခြုံမှုကို အတည်ပြုနိုင်ဖို့ လိုပါတယ်။",
+    "turns": [
+      {
+        "speaker": "森教授",
+        "ja": "西田先生、最終フェーズの治験結果を見る限り、新薬の有効性は相違ないようですね。",
+        "kana": "にしだせんせい、さいしゅうフェーズのちけんけっかをみるかぎり、しんやくのゆうこうせいはそういないようですね。",
+        "en": "Dr. Nishida, as far as looking at final-phase trial results, the efficacy of the new drug seems beyond doubt, doesn't it?",
+        "my": "ဒေါက်တာနိရှိဒ၊ နောက်ဆုံးအဆင့် ဆေးစမ်းသပ်မှု ရလဒ်တွေအရ ဆေးသစ်ရဲ့ အာနိသင် ကောင်းမွန်တာကတော့ သေချာသလောက် ရှိပါပြီနော်။",
+        "translationMy": "ဒေါက်တာနိရှိဒ၊ နောက်ဆုံးအဆင့် ဆေးစမ်းသပ်မှု ရလဒ်တွေအရ ဆေးသစ်ရဲ့ အာနိသင် ကောင်းမွန်တာကတော့ သေချာသလောက် ရှိပါပြီနော်။",
+        "myanmar": "ဒေါက်တာနိရှိဒ၊ နောက်ဆုံးအဆင့် ဆေးစမ်းသပ်မှု ရလဒ်တွေအရ ဆေးသစ်ရဲ့ အာနိသင် ကောင်းမွန်တာကတော့ သေချာသလောက် ရှိပါပြီနော်။"
+      },
+      {
+        "speaker": "西田治験責任者",
+        "ja": "はい。従来の治療薬に比べて、症状改善率は統計的にも有意に向上しているに違いありません。",
+        "kana": "はい。じゅうらいのちりょうやくにくらべて、しょうじょうかいぜんりつはとうけいてきにもゆういにこうじょうしているにちがいありません。",
+        "en": "Yes. Compared to conventional therapeutic agents, the symptom improvement rate has definitely risen with statistical significance.",
+        "my": "ဟုတ်ကဲ့ပါ။ ယခင် ကုသဆေးတွေနဲ့ နှိုင်းယှဉ်ရင် ရောဂါသက်သာမှုနှုန်း စာရင်းအင်းအရပါ သိသာစွာ တိုးတက်လာတာ သေချာပေါက်ပါပဲ။",
+        "translationMy": "ဟုတ်ကဲ့ပါ။ ယခင် ကုသဆေးတွေနဲ့ နှိုင်းယှဉ်ရင် ရောဂါသက်သာမှုနှုန်း စာရင်းအင်းအရပါ သိသာစွာ တိုးတက်လာတာ သေချာပေါက်ပါပဲ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ။ ယခင် ကုသဆေးတွေနဲ့ နှိုင်းယှဉ်ရင် ရောဂါသက်သာမှုနှုန်း စာရင်းအင်းအရပါ သိသာစွာ တိုးတက်လာတာ သေချာပေါက်ပါပဲ။"
+      },
+      {
+        "speaker": "森教授",
+        "ja": "しかし、副作用が軽微であるという報告は、まだ限られたサンプル数の結果にすぎませんね。",
+        "kana": "しかし、ふくさようがけいびであるというほうこくは、まだかぎられたサンプルすうのけっかにすぎませんね。",
+        "en": "However, the report stating side effects are minor is merely the result of a limited sample size, isn't it?",
+        "my": "ဒါပေမဲ့ ဘေးထွက်ဆိုးကျိုး နည်းပါးတယ်ဆိုတဲ့ အစီရင်ခံချက်က ကန့်သတ်ထားတဲ့ နမူနာအရေအတွက်ရဲ့ ရလဒ်မျှသာ ဖြစ်နေသေးတယ်နော်။",
+        "translationMy": "ဒါပေမဲ့ ဘေးထွက်ဆိုးကျိုး နည်းပါးတယ်ဆိုတဲ့ အစီရင်ခံချက်က ကန့်သတ်ထားတဲ့ နမူနာအရေအတွက်ရဲ့ ရလဒ်မျှသာ ဖြစ်နေသေးတယ်နော်။",
+        "myanmar": "ဒါပေမဲ့ ဘေးထွက်ဆိုးကျိုး နည်းပါးတယ်ဆိုတဲ့ အစီရင်ခံချက်က ကန့်သတ်ထားတဲ့ နမူနာအရေအတွက်ရဲ့ ရလဒ်မျှသာ ဖြစ်နေသေးတယ်နော်။"
+      },
+      {
+        "speaker": "西田治験責任者",
+        "ja": "おっしゃる通りです。長期的な追跡調査を継続し、安全性の確証を得る必要があります。",
+        "kana": "おっしゃるとおりです。ちょうきてきなついせきちょうさをけいぞくし、あんぜんせいのかくしょうをえるひつようがあります。",
+        "en": "Precisely as you say. We need to continue long-term follow-up studies to obtain firm proof of safety.",
+        "my": "ဆရာကြီး ပြောတာ အမှန်ပါပဲ။ ရေရှည်စောင့်ကြည့် စစ်ဆေးမှုတွေကို ဆက်လုပ်ပြီး ဘေးကင်းလုံခြုံမှုကို အတည်ပြုနိုင်ဖို့ လိုပါတယ်။",
+        "translationMy": "ဆရာကြီး ပြောတာ အမှန်ပါပဲ။ ရေရှည်စောင့်ကြည့် စစ်ဆေးမှုတွေကို ဆက်လုပ်ပြီး ဘေးကင်းလုံခြုံမှုကို အတည်ပြုနိုင်ဖို့ လိုပါတယ်။",
+        "myanmar": "ဆရာကြီး ပြောတာ အမှန်ပါပဲ။ ရေရှည်စောင့်ကြည့် စစ်ဆေးမှုတွေကို ဆက်လုပ်ပြီး ဘေးကင်းလုံခြုံမှုကို အတည်ပြုနိုင်ဖို့ လိုပါတယ်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l37.q028",
+      "n2.l37.q029",
+      "n2.l37.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l37.q001",
+      "lessonId": "n2.l37",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "ある根拠をもとにあれこれと考えをめぐらせて推し量ることを「[ _____ ]」という。",
+      "choices": [
+        "推測",
+        "確信",
+        "妥当",
+        "過言"
+      ],
+      "answer": "推測",
+      "explanation": "推測 (すいそく) means conjecture or guess.",
+      "explanationMy": "အထောက်အထားအရ မှန်းဆတွက်ချက်ခြင်းမှာ 推測 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q002",
+      "lessonId": "n2.l37",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "客観的な事実や数値に基づいて数量などを推し量って定めることを「[ _____ ]」という。",
+      "choices": [
+        "推定",
+        "偏見",
+        "見解",
+        "証拠"
+      ],
+      "answer": "推定",
+      "explanation": "推定 (すいてい) means estimation or presumption.",
+      "explanationMy": "ကိန်းဂဏန်းများအရ ခန့်မှန်းသတ်မှတ်ခြင်းမှာ 推定 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q003",
+      "lessonId": "n2.l37",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "自然現象や社会の動向を注意深く観察して測定することを「[ _____ ]」という。",
+      "choices": [
+        "観測",
+        "妥当",
+        "偏見",
+        "過言"
+      ],
+      "answer": "観測",
+      "explanation": "観測 (かんそく) denotes observation or survey.",
+      "explanationMy": "အခြေအနေ သို့မဟုတ် သဘာဝကို စောင့်ကြည့်တိုင်းတာခြင်းမှာ 観測 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q004",
+      "lessonId": "n2.l37",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "将来の事態がどうなるかを前もって推し量ることを「[ _____ ]」という。",
+      "choices": [
+        "予測",
+        "確信",
+        "根拠",
+        "単なる"
+      ],
+      "answer": "予測",
+      "explanation": "予測 (よそく) means prediction or forecast.",
+      "explanationMy": "အနာဂတ်ကို ကြိုတင်ခန့်မှန်းတွက်ချက်ခြင်းမှာ 予測 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q005",
+      "lessonId": "n2.l37",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "判断や意見の土台となる確かな理由や拠り所を「[ _____ ]」という。",
+      "choices": [
+        "根拠",
+        "偏見",
+        "過言",
+        "観測"
+      ],
+      "answer": "根拠",
+      "explanation": "根拠 (こんきょ) means basis or grounds.",
+      "explanationMy": "ခိုင်လုံသော အခြေခံအထောက်အထားမှာ 根拠 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q006",
+      "lessonId": "n2.l37",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "事実を証明する明らかな証しや手がかりを「[ _____ ]」という。",
+      "choices": [
+        "証拠",
+        "推測",
+        "推定",
+        "妥当"
+      ],
+      "answer": "証拠",
+      "explanation": "証拠 (しょうこ) denotes evidence or proof.",
+      "explanationMy": "အမှန်တရားကို သက်သေပြနိုင်သော အထောက်အထားမှာ 証拠 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q007",
+      "lessonId": "n2.l37",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "固く信じて少しも疑わない心の状態を「[ _____ ]」という。",
+      "choices": [
+        "確信",
+        "根拠",
+        "見解",
+        "偏見"
+      ],
+      "answer": "確信",
+      "explanation": "確信 (かくしん) means firm conviction.",
+      "explanationMy": "သံသယမရှိ အခိုင်အမာ ယုံကြည်နေမှုမှာ 確信 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q008",
+      "lessonId": "n2.l37",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "客観的に見て道理にかなっており適切であることを「[ _____ ]」という。",
+      "choices": [
+        "妥当",
+        "過言",
+        "単なる",
+        "推測"
+      ],
+      "answer": "妥当",
+      "explanation": "妥当 (だとう) means valid or proper.",
+      "explanationMy": "ကျိုးကြောင်းဆီလျော် မှန်ကန်သင့်မြတ်ခြင်းမှာ 妥当 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q009",
+      "lessonId": "n2.l37",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「推」の訓読みとして正しいものはどれか。",
+      "choices": [
+        "お・す",
+        "はか・る",
+        "よ・る",
+        "みと・める"
+      ],
+      "answer": "お・す",
+      "explanation": "推 has the kunyomi お・す.",
+      "explanationMy": "推 ၏ Kunyomi အသံထွက်မှာ お・す ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q010",
+      "lessonId": "n2.l37",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "単語「観測」の漢字「測」の訓読みはどれか。",
+      "choices": [
+        "はか・る",
+        "お・す",
+        "きわ・める",
+        "しら・べる"
+      ],
+      "answer": "はか・る",
+      "explanation": "測 carries kunyomi はか・る.",
+      "explanationMy": "測 ၏ Kunyomi အသံထွက်မှာ はか・る ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q011",
+      "lessonId": "n2.l37",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「拠」の音読みとして正しい組み合わせはどれか。",
+      "choices": [
+        "キョ・コ",
+        "ショ・ソ",
+        "キ・コウ",
+        "ケ・ショク"
+      ],
+      "answer": "キョ・コ",
+      "explanation": "拠 has the onyomi readings キョ and コ.",
+      "explanationMy": "拠 ၏ Onyomi အသံထွက်မှာ キョ နှင့် コ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q012",
+      "lessonId": "n2.l37",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「証拠」の正しい読み方はどれか。",
+      "choices": [
+        "しょうこ",
+        "しょうきょ",
+        "せいこ",
+        "そうこ"
+      ],
+      "answer": "しょうこ",
+      "explanation": "証拠 is read as しょうこ.",
+      "explanationMy": "証拠 ၏ အသံထွက်မှာ しょうこ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q013",
+      "lessonId": "n2.l37",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "部首「扌（てへん）」を持つ「推」の総画数はいくつか。",
+      "choices": [
+        "11画",
+        "10画",
+        "12画",
+        "9画"
+      ],
+      "answer": "11画",
+      "explanation": "推 has 11 strokes.",
+      "explanationMy": "推 စာလုံး၏ စုစုပေါင်း မျဉ်းဆွဲချက်မှာ ၁၁ ချက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q014",
+      "lessonId": "n2.l37",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「予測」の正しい読み方はどれか。",
+      "choices": [
+        "よそく",
+        "よぞく",
+        "よっそく",
+        "まえそく"
+      ],
+      "answer": "よそく",
+      "explanation": "予測 is read as よそく.",
+      "explanationMy": "予測 ၏ အသံထွက်မှာ よそく ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q015",
+      "lessonId": "n2.l37",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "現場の足跡から判断して、犯人は大柄な男であるに[ _____ ]。",
+      "choices": [
+        "相違ない",
+        "すぎない",
+        "やまない",
+        "てならない"
+      ],
+      "answer": "相違ない",
+      "explanation": "に相違ない expresses formal deduction based on footprints.",
+      "explanationMy": "ခြေရာများအရ တရားခံမှာ အရပ်ရှည်သူ ဖြစ်မည်မှာ သေချာကြောင်း に相違ない ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q016",
+      "lessonId": "n2.l37",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "あれほど熱心に勉強しているのだから、彼は必ず試験に合格するに[ _____ ]。",
+      "choices": [
+        "違いない",
+        "すぎない",
+        "やまない",
+        "てたまらない"
+      ],
+      "answer": "違いない",
+      "explanation": "に違いない conveys the speaker's firm conviction of his passing.",
+      "explanationMy": "ကြိုးစားနေသဖြင့် စာမေးပွဲ သေချာပေါက် အောင်ရမည်ဟု ယုံကြည်မှုကို に違いない ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q017",
+      "lessonId": "n2.l37",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "今回の一時的な成功は、幸運な偶然が重なった結果に[ _____ ]。",
+      "choices": [
+        "すぎない",
+        "違いない",
+        "相違ない",
+        "べきだ"
+      ],
+      "answer": "すぎない",
+      "explanation": "にすぎない downplays the success as merely fortunate coincidence.",
+      "explanationMy": "ကံကောင်းထောက်မမှုကြောင့် ဖြစ်ပေါ်လာသည့် ရလဒ်မျှသာဖြစ်ကြောင်း にすぎない ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q018",
+      "lessonId": "n2.l37",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "公的な調査資料に基づくデータであるため、この数値は正確であるに[ _____ ]。",
+      "choices": [
+        "相違ない",
+        "すぎない",
+        "やまない",
+        "ざるを得ない"
+      ],
+      "answer": "相違ない",
+      "explanation": "に相違ない asserts accuracy based on official documents.",
+      "explanationMy": "တရားဝင် အချက်အလက်များအရ တိကျမည်မှာ သေချာကြောင်း に相違ない ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q019",
+      "lessonId": "n2.l37",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "夜遅くまで電気がついているところを見ると、彼はまだ残業しているに[ _____ ]。",
+      "choices": [
+        "違いない",
+        "すぎない",
+        "やまない",
+        "べきだ"
+      ],
+      "answer": "違いない",
+      "explanation": "に違いない forms an everyday strong inference from seeing the lights on.",
+      "explanationMy": "မီးလင်းနေသည်ကို ကြည့်ပြီး အချိန်ပိုဆင်းနေဆဲဖြစ်မည်ဟု に違いない ဖြင့် ခန့်မှန်းသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q020",
+      "lessonId": "n2.l37",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "私の発言は一個人の素朴な感想に[ _____ ]、決定権はありません。",
+      "choices": [
+        "すぎない",
+        "違いない",
+        "相違ない",
+        "わけにはいかない"
+      ],
+      "answer": "すぎない",
+      "explanation": "にすぎない minimizes personal remarks as merely humble impressions.",
+      "explanationMy": "တစ်ဦးတည်း၏ သဘောထားမျှသာဖြစ်ကြောင်း にすぎない ဖြင့် နှိမ့်ချပြောဆိုသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q021",
+      "lessonId": "n2.l37",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "数多くの証言が一致していることから、事故の原因はブレーキの故障に[ _____ ]。",
+      "choices": [
+        "相違ない",
+        "すぎない",
+        "やまない",
+        "てならない"
+      ],
+      "answer": "相違ない",
+      "explanation": "に相違ない concludes brake failure as verified accident cause.",
+      "explanationMy": "ဘရိတ်ချို့ယွင်းမှု ဖြစ်မည်မှာ သေချာကြောင်း に相違ない ဖြင့် အတည်ပြုသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q022",
+      "lessonId": "n2.l37",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "あの温厚な彼があれほど激怒したのには、何か重大な理由があるに[ _____ ]。",
+      "choices": [
+        "違いない",
+        "すぎない",
+        "やまない",
+        "べきだ"
+      ],
+      "answer": "違いない",
+      "explanation": "に違いない conveys conviction that a serious reason must exist.",
+      "explanationMy": "ဒေါသထွက်ရခြင်းမှာ ကြီးမားသော အကြောင်းရင်း ရှိရမည်ဟု に違いない ဖြင့် ယုံကြည်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q023",
+      "lessonId": "n2.l37",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "どれほど華やかに見えても、それは映画のセットという偽物の世界に[ _____ ]。",
+      "choices": [
+        "すぎない",
+        "違いない",
+        "相違ない",
+        "反面"
+      ],
+      "answer": "すぎない",
+      "explanation": "にすぎない notes it is merely an artificial movie set.",
+      "explanationMy": "ရုပ်ရှင်ဇာတ်ခုံမျှသာ ဖြစ်ကြောင်း にすぎない ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q024",
+      "lessonId": "n2.l37",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "厳格なDNA鑑定の結果と照合した以上、血縁関係が存在することは[ _____ ]。",
+      "choices": [
+        "相違ない",
+        "すぎない",
+        "やまない",
+        "てたまらない"
+      ],
+      "answer": "相違ない",
+      "explanation": "相違ない concludes formal DNA confirmation of kinship.",
+      "explanationMy": "သွေးသားတော်စပ်မှု ရှိသည်မှာ သံသယဖြစ်ဖွယ်မရှိ မှန်ကန်ကြောင်း 相違ない ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q025",
+      "lessonId": "n2.l37",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "研究者が実験結果と予測の一致を見たときに下したくなる判断はどれか。",
+      "choices": [
+        "自らの理論は正しいに相違ないという結論",
+        "実験データには重大な欠陥があるという結論",
+        "直ちに研究活動を全面的に放棄すべきだという結論",
+        "観測機器が故障しているに違いないという結論"
+      ],
+      "answer": "自らの理論は正しいに相違ないという結論",
+      "explanation": "The text notes researchers are tempted to conclude 'この理論は正しいに相違ない'.",
+      "explanationMy": "သုတေသီများသည် မိမိတို့၏ သီအိုရီ မှန်ကန်မည်မှာ သေချာသည်ဟု ကောက်ချက်ချလိုကြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q026",
+      "lessonId": "n2.l37",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において精緻な数理モデルはどのように限定的に位置づけられているか。",
+      "choices": [
+        "自然現象の一側面を近似的に記述したものにすぎない",
+        "宇宙のすべての絶対的真理を完璧に解明したものである",
+        "偏見に満ちた無価値な空想にすぎない",
+        "いかなる批判的検証も受け付けない絶対の法である"
+      ],
+      "answer": "自然現象の一側面を近似的に記述したものにすぎない",
+      "explanation": "The text says: 'それは自然現象の一側面を近似的に記述したものにすぎない'.",
+      "explanationMy": "သဘာဝဖြစ်စဉ်၏ ကဏ္ဍတစ်ခုကို ခန့်မှန်းဖော်ပြရုံမျှသာ ဖြစ်သည်ဟု ကန့်သတ်ထားသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q027",
+      "lessonId": "n2.l37",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "科学の健全性を担保する「根拠に違いない」と筆者が主張する条件は何か。",
+      "choices": [
+        "いかなる権威の見解であっても反証の可能性に開かれていること",
+        "政府の資金援助が恒久的に保証されていること",
+        "著名な学者の見解に対して誰も異議を唱えないこと",
+        "すべての実験データが一般市民に非公開とされること"
+      ],
+      "answer": "いかなる権威の見解であっても反証の可能性に開かれていること",
+      "explanation": "The text concludes being open to disproof is the foundation of scientific integrity.",
+      "explanationMy": "မည်သည့် ဩဇာကြီးသူ၏ အမြင်ဖြစ်စေကာမူ ပြန်လည်ချေပနိုင်ခွင့် ရှိနေခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q028",
+      "lessonId": "n2.l37",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "森教授は最終フェーズの治験結果から新薬についてどのように評価したか。",
+      "choices": [
+        "新薬の有効性は相違ない（間違いなく有効である）と評価した",
+        "新薬には全く効果が認められないと断定した",
+        "直ちにすべての患者への投与を中止すべきだと述べた",
+        "従来の薬と全く同じ成分であると判断した"
+      ],
+      "answer": "新薬の有効性は相違ない（間違いなく有効である）と評価した",
+      "explanation": "Mori evaluated that the drug's efficacy was beyond doubt.",
+      "explanationMy": "ဆေးသစ်၏ အာနိသင် ကောင်းမွန်သည်မှာ သေချာကြောင်း ပါမောက္ခမိုရိက သုံးသပ်ခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q029",
+      "lessonId": "n2.l37",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "西田治験責任者が「に違いありません」と確信を示した内容はどれか。",
+      "choices": [
+        "症状改善率が統計的にも有意に向上していること",
+        "来週中に世界中で販売が解禁されること",
+        "新薬の製造コストが完全にゼロになること",
+        "すべての副作用が完全に消滅したこと"
+      ],
+      "answer": "症状改善率が統計的にも有意に向上していること",
+      "explanation": "Nishida is certain the symptom improvement rate improved significantly.",
+      "explanationMy": "ရောဂါလက္ခဏာ သက်သာမှုနှုန်း စာရင်းအင်းအရပါ မြင့်တက်လာသည်မှာ သေချာကြောင်း ပြောခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l37.q030",
+      "lessonId": "n2.l37",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "副作用が軽微であるという報告について、森教授は「にすぎない」を使ってどう指摘したか。",
+      "choices": [
+        "まだ限られたサンプル数の結果にすぎない",
+        "他国の製薬会社による虚偽の報告にすぎない",
+        "患者たちの思い込みにすぎない",
+        "動物実験のみの初期段階にすぎない"
+      ],
+      "answer": "まだ限られたサンプル数の結果にすぎない",
+      "explanation": "Mori tempers the side-effect report as merely based on a limited sample size.",
+      "explanationMy": "ကန့်သတ်နမူနာ အရေအတွက်မှ ရလဒ်မျှသာ ဖြစ်သေးကြောင်း သတိပေးခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l37.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+}

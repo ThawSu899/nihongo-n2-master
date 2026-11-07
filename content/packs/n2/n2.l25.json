@@ -1,0 +1,1792 @@
+{
+  "id": "n2.l25",
+  "level": "N2",
+  "module": "N2 Advanced Grammar & Argumentation",
+  "number": 25,
+  "title": "N2 Lesson 25: Unexpected Outcomes & Paradoxes (〜と思いきや・〜どころか・〜かと思ったら)",
+  "description": "Mastery module focusing on Surprises, Unexpected Discrepancies, and Stark Contrasts: thought that... but unexpectedly (と思いきや), far from... on the contrary (どころか), and no sooner had I thought... than (かと思ったら).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l25.v001",
+      "lessonId": "n2.l25",
+      "ja": "驚異",
+      "kana": "きょうい",
+      "en": "wonder / miracle / marvel",
+      "my": "အံ့မခန်း အံ့ဩဖွယ်ရာ",
+      "meaningMy": "အံ့မခန်း အံ့ဩဖွယ်ရာ",
+      "meaningMyanmar": "အံ့မခန်း အံ့ဩဖွယ်ရာ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l25.s001",
+      "kanjiIds": [
+        "n2.l25.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.v002",
+      "lessonId": "n2.l25",
+      "ja": "奇跡",
+      "kana": "きせき",
+      "en": "miracle / wonder",
+      "my": "အံ့ဖွယ်ဖြစ်ရပ် / အံ့ဖွယ်တန်ခိုး",
+      "meaningMy": "အံ့ဖွယ်ဖြစ်ရပ် / အံ့ဖွယ်တန်ခိုး",
+      "meaningMyanmar": "အံ့ဖွယ်ဖြစ်ရပ် / အံ့ဖွယ်တန်ခိုး",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l25.s002",
+      "kanjiIds": [
+        "n2.l25.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.v003",
+      "lessonId": "n2.l25",
+      "ja": "微妙",
+      "kana": "びみょう",
+      "en": "subtle / delicate / borderline",
+      "my": "သိမ်မွေ့သော / အနည်းငယ်ထူးဆန်းသော",
+      "meaningMy": "သိမ်မွေ့သော / အနည်းငယ်ထူးဆန်းသော",
+      "meaningMyanmar": "သိမ်မွေ့သော / အနည်းငယ်ထူးဆန်းသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l25.s003",
+      "kanjiIds": [
+        "n2.l25.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.v004",
+      "lessonId": "n2.l25",
+      "ja": "奇妙",
+      "kana": "きみょう",
+      "en": "strange / queer / bizarre",
+      "my": "ထူးဆန်းသော / အဆန်းတကြယ်ဖြစ်သော",
+      "meaningMy": "ထူးဆန်းသော / အဆန်းတကြယ်ဖြစ်သော",
+      "meaningMyanmar": "ထူးဆန်းသော / အဆန်းတကြယ်ဖြစ်သော",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l25.s004",
+      "kanjiIds": [
+        "n2.l25.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.v005",
+      "lessonId": "n2.l25",
+      "ja": "妙案",
+      "kana": "みょうあん",
+      "en": "ingenious idea / clever plan",
+      "my": "ထူးချွန်ပြောင်မြောက်သော အကြံကောင်း",
+      "meaningMy": "ထူးချွန်ပြောင်မြောက်သော အကြံကောင်း",
+      "meaningMyanmar": "ထူးချွန်ပြောင်မြောက်သော အကြံကောင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l25.s005",
+      "kanjiIds": [
+        "n2.l25.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.v006",
+      "lessonId": "n2.l25",
+      "ja": "驚嘆",
+      "kana": "きょうたん",
+      "en": "wonder / admiration",
+      "my": "အံ့ဩချီးကျူးခြင်း",
+      "meaningMy": "အံ့ဩချီးကျူးခြင်း",
+      "meaningMyanmar": "အံ့ဩချီးကျူးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l25.s006",
+      "kanjiIds": [
+        "n2.l25.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.v007",
+      "lessonId": "n2.l25",
+      "ja": "好奇心",
+      "kana": "こうきしん",
+      "en": "curiosity / inquisitive spirit",
+      "my": "စူးစမ်းလိုစိတ်",
+      "meaningMy": "စူးစမ်းလိုစိတ်",
+      "meaningMyanmar": "စူးစမ်းလိုစိတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l25.s007",
+      "kanjiIds": [
+        "n2.l25.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.v008",
+      "lessonId": "n2.l25",
+      "ja": "驚愕",
+      "kana": "きょうがく",
+      "en": "astonishment / fright / shock",
+      "my": "ထိတ်လန့်အံ့အားသင့်ခြင်း",
+      "meaningMy": "ထိတ်လန့်အံ့အားသင့်ခြင်း",
+      "meaningMyanmar": "ထိတ်လန့်အံ့အားသင့်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l25.s008",
+      "kanjiIds": [
+        "n2.l25.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.v009",
+      "lessonId": "n2.l25",
+      "ja": "錯覚",
+      "kana": "さっかく",
+      "en": "optical illusion / hallucination",
+      "my": "အမြင်မှားခြင်း / စိတ်ထင်မှားခြင်း",
+      "meaningMy": "အမြင်မှားခြင်း / စိတ်ထင်မှားခြင်း",
+      "meaningMyanmar": "အမြင်မှားခြင်း / စိတ်ထင်မှားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l25.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.v010",
+      "lessonId": "n2.l25",
+      "ja": "矛盾",
+      "kana": "むじゅん",
+      "en": "contradiction / inconsistency",
+      "my": "ဆန့်ကျင်ဘက်ဖြစ်နေခြင်း",
+      "meaningMy": "ဆန့်ကျင်ဘက်ဖြစ်နေခြင်း",
+      "meaningMyanmar": "ဆန့်ကျင်ဘက်ဖြစ်နေခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l25.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.v011",
+      "lessonId": "n2.l25",
+      "ja": "異変",
+      "kana": "いへん",
+      "en": "unusual event / abnormality",
+      "my": "ပုံမှန်မဟုတ်သော ထူးခြားဖြစ်စဉ်",
+      "meaningMy": "ပုံမှန်မဟုတ်သော ထူးခြားဖြစ်စဉ်",
+      "meaningMyanmar": "ပုံမှန်မဟုတ်သော ထူးခြားဖြစ်စဉ်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l25.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.v012",
+      "lessonId": "n2.l25",
+      "ja": "逆転",
+      "kana": "ぎゃくてん",
+      "en": "reversal / sudden turnaround",
+      "my": "အခြေအနေ ပြောင်းပြန်ဖြစ်သွားခြင်း",
+      "meaningMy": "အခြေအနေ ပြောင်းပြန်ဖြစ်သွားခြင်း",
+      "meaningMyanmar": "အခြေအနေ ပြောင်းပြန်ဖြစ်သွားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l25.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l25.k001",
+      "lessonId": "n2.l25",
+      "char": "驚",
+      "meaning": "Surprise / Astonish / Wonder",
+      "meaningMy": "အံ့ဩခြင်း / ထိတ်လန့်ခြင်း / အံ့ဩစရာဖြစ်ခြင်း",
+      "meaningMyanmar": "အံ့ဩခြင်း / ထိတ်လန့်ခြင်း / အံ့ဩစရာဖြစ်ခြင်း",
+      "onyomi": [
+        "キョウ"
+      ],
+      "kunyomi": [
+        "おどろ・く",
+        "おどろ・かす"
+      ],
+      "exampleVocab": [
+        {
+          "word": "驚異",
+          "reading": "きょうい",
+          "meaning": "wonder / miracle / marvel",
+          "meaningMy": "အံ့မခန်း အံ့ဩဖွယ်ရာ",
+          "preview": false
+        },
+        {
+          "word": "驚嘆",
+          "reading": "きょうたん",
+          "meaning": "wonder / admiration",
+          "meaningMy": "အံ့ဩချီးကျူးခြင်း",
+          "preview": false
+        },
+        {
+          "word": "驚愕",
+          "reading": "きょうがく",
+          "meaning": "astonishment / shock",
+          "meaningMy": "ထိတ်လန့်အံ့အားသင့်ခြင်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l25.s001"
+      ],
+      "components": [
+        "敬",
+        "馬"
+      ],
+      "strokes": 22,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.k002",
+      "lessonId": "n2.l25",
+      "char": "奇",
+      "meaning": "Strange / Unusual / Odd / Rare",
+      "meaningMy": "ထူးဆန်းသော / မထင်မှတ်သော / မဆင်မခြင်မဟုတ်သော",
+      "meaningMyanmar": "ထူးဆန်းသော / မထင်မှတ်သော / မဆင်မခြင်မဟုတ်သော",
+      "onyomi": [
+        "キ"
+      ],
+      "kunyomi": [
+        "く・しき",
+        "あや・しい"
+      ],
+      "exampleVocab": [
+        {
+          "word": "奇数",
+          "reading": "きすう",
+          "meaning": "odd number",
+          "meaningMy": "မဂဏန်း",
+          "preview": false
+        },
+        {
+          "word": "好奇心",
+          "reading": "こうきしん",
+          "meaning": "curiosity",
+          "meaningMy": "စူးစမ်းလိုစိတ်",
+          "preview": false
+        },
+        {
+          "word": "奇跡",
+          "reading": "きせき",
+          "meaning": "miracle",
+          "meaningMy": "အံ့ဖွယ်ဖြစ်ရပ် / အံ့ဖွယ်တန်ခိုး",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l25.s002"
+      ],
+      "components": [
+        "大",
+        "可"
+      ],
+      "strokes": 8,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.k003",
+      "lessonId": "n2.l25",
+      "char": "妙",
+      "meaning": "Exquisite / Strange / Subtle / Delicate",
+      "meaningMy": "ထူးခြားဆန်းပြားသော / လျှို့ဝှက်ဆန်းကြယ်သော / သိမ်မွေ့သော",
+      "meaningMyanmar": "ထူးခြားဆန်းပြားသော / လျှို့ဝှက်ဆန်းကြယ်သော / သိမ်မွေ့သော",
+      "onyomi": [
+        "ミョウ",
+        "ビョウ"
+      ],
+      "kunyomi": [
+        "たえ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "微妙",
+          "reading": "びみょう",
+          "meaning": "subtle / delicate / questionable",
+          "meaningMy": "သိမ်မွေ့သော / အနည်းငယ်ထူးဆန်းသော",
+          "preview": false
+        },
+        {
+          "word": "奇妙",
+          "reading": "きみょう",
+          "meaning": "strange / queer / bizarre",
+          "meaningMy": "ထူးဆန်းသော / အဆန်းတကြယ်ဖြစ်သော",
+          "preview": false
+        },
+        {
+          "word": "妙案",
+          "reading": "みょうあん",
+          "meaning": "ingenious idea / clever scheme",
+          "meaningMy": "ထူးချွန်ပြောင်မြောက်သော အကြံကောင်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l25.s003"
+      ],
+      "components": [
+        "女",
+        "少"
+      ],
+      "strokes": 7,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l25.g001",
+      "lessonId": "n2.l25",
+      "pattern": "〜と思いきや",
+      "meaning": "Thought that... but unexpectedly / Just when I thought... contrary to expectations",
+      "meaningMy": "ထိုသို့ဖြစ်မည်ဟု ထင်မှတ်ထားခဲ့သော်လည်း မမျှော်လင့်ဘဲ ဆန့်ကျင်ဘက်ဖြစ်ပေါ်လာသည်",
+      "meaningMyanmar": "ထိုသို့ဖြစ်မည်ဟု ထင်မှတ်ထားခဲ့သော်လည်း မမျှော်လင့်ဘဲ ဆန့်ကျင်ဘက်ဖြစ်ပေါ်လာသည်",
+      "formation": "普通形 ＋ と思いきや",
+      "explanation": {
+        "en": "Expresses a sudden turn of events that directly violates the speaker's natural expectation.",
+        "my": "ပြောသူက ဤသို့ဖြစ်မည်ဟု သေချာပေါက်ထင်မှတ်ထားသော်လည်း အမှန်တကယ်တွင် လုံးဝမထင်မှတ်သော အခြေအနေဖြစ်လာကြောင်း ဖော်ပြသည်။"
+      },
+      "explanationMy": "ပြောသူက ဤသို့ဖြစ်မည်ဟု သေချာပေါက်ထင်မှတ်ထားသော်လည်း အမှန်တကယ်တွင် လုံးဝမထင်မှတ်သော အခြေအနေဖြစ်လာကြောင်း ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l25.s001",
+          "note": "〜と思いきや usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l25.s004",
+          "note": "〜と思いきや usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l25.s007",
+          "note": "〜と思いきや usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l25.s008",
+          "note": "〜と思いきや usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l25.s010",
+          "note": "〜と思いきや usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l25.g001",
+        "n2.l25.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜と思いきや."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "試験は簡単（　）、難問ばかりで手も足も出なかった。",
+      "clozeTarget": "と思いきや",
+      "clozeHint": "Thought it would be easy, but unexpectedly full of hard questions",
+      "acceptableSynonyms": [
+        "〜かと思ったら",
+        "〜と思ったら",
+        "〜予想に反して"
+      ],
+      "nuanceExplanationMy": "မျှော်လင့်ထားမှုနှင့် လက်တွေ့အခြေအနေ ကွာခြားလွန်း၍ အံ့အားသင့်ရခြင်းကို အလေးပေးဖော်ပြသည်။"
+    },
+    {
+      "id": "n2.l25.g002",
+      "lessonId": "n2.l25",
+      "pattern": "〜どころか",
+      "meaning": "Far from... / On the contrary / Anything but",
+      "meaningMy": "... နေနေသာသာ / ... ဝေးစွ ထိုထက်ဆိုးရွားသော (သို့) လုံးဝဆန့်ကျင်ဘက်ဖြစ်သည်",
+      "meaningMyanmar": "... နေနေသာသာ / ... ဝေးစွ ထိုထက်ဆိုးရွားသော (သို့) လုံးဝဆန့်ကျင်ဘက်ဖြစ်သည်",
+      "formation": "名詞 / 動詞普通形 / イ形容詞 / ナ形容詞 ＋ どころか",
+      "explanation": {
+        "en": "Emphasizes that the actual state is drastically different from, or much more extreme than, the suggested premise.",
+        "my": "မူလယူဆချက်နှင့် လုံးဝမတူညီဘဲ ဆန့်ကျင်ဘက်ဖြစ်နေခြင်း (သို့) ပိုမိုဆိုးရွားပြင်းထန်နေခြင်းကို အလေးပေးဖော်ပြသည်။"
+      },
+      "explanationMy": "မူလယူဆချက်နှင့် လုံးဝမတူညီဘဲ ဆန့်ကျင်ဘက်ဖြစ်နေခြင်း (သို့) ပိုမိုဆိုးရွားပြင်းထန်နေခြင်းကို အလေးပေးဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l25.s002",
+          "note": "〜どころか usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l25.s005",
+          "note": "〜どころか usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l25.s009",
+          "note": "〜どころか usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l25.s012",
+          "note": "〜どころか usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l25.g001",
+        "n2.l25.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜どころか."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "貯金（　）、借金が増える一方で頭を抱えている。",
+      "clozeTarget": "どころか",
+      "clozeHint": "Far from saving money, on the contrary debt is piling up",
+      "acceptableSynonyms": [
+        "〜はおろか",
+        "〜どころではない",
+        "〜反面"
+      ],
+      "nuanceExplanationMy": "ရှေ့စကားလုံးထက် နောက်စကားလုံးက အဆမတန် ဆိုးရွားခြင်း (သို့) ဆန့်ကျင်ဘက်ဖြစ်ခြင်းကို ပြတ်သားစွာ ဖော်ပြသည်။"
+    },
+    {
+      "id": "n2.l25.g003",
+      "lessonId": "n2.l25",
+      "pattern": "〜かと思ったら",
+      "meaning": "No sooner had... than / Just when I thought... suddenly",
+      "meaningMy": "... မျှော်လင့်လိုက်ရုံရှိသေး ချက်ချင်းဆိုသလို မထင်မှတ်သော အခြေအနေသို့ ပြောင်းလဲသွားသည်",
+      "meaningMyanmar": "... မျှော်လင့်လိုက်ရုံရှိသေး ချက်ချင်းဆိုသလို မထင်မှတ်သော အခြေအနေသို့ ပြောင်းလဲသွားသည်",
+      "formation": "動詞た形 ＋ かと思ったら（かと思うと）",
+      "explanation": {
+        "en": "Used when one event occurs, and almost instantly or unexpectedly a completely contrasting change takes place.",
+        "my": "အဖြစ်အပျက်တစ်ခု ဖြစ်ပေါ်ပြီးသည်နှင့် ချက်ချင်းလိုလို မမျှော်လင့်သော အခြေအနေတစ်ခုသို့ ရုတ်တရက် ကူးပြောင်းသွားကြောင်း ဖော်ပြသည်။"
+      },
+      "explanationMy": "အဖြစ်အပျက်တစ်ခု ဖြစ်ပေါ်ပြီးသည်နှင့် ချက်ချင်းလိုလို မမျှော်လင့်သော အခြေအနေတစ်ခုသို့ ရုတ်တရက် ကူးပြောင်းသွားကြောင်း ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l25.s003",
+          "note": "〜かと思ったら usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l25.s006",
+          "note": "〜かと思ったら usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l25.s011",
+          "note": "〜かと思ったら usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l25.g001",
+        "n2.l25.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜かと思ったら."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "空が急に暗くなった（　）、激しい雷雨が降り出した。",
+      "clozeTarget": "かと思ったら",
+      "clozeHint": "Just when I noticed the sky darkening, a fierce thunderstorm broke out",
+      "acceptableSynonyms": [
+        "〜かと思うと",
+        "〜と思いきや",
+        "〜やいなや"
+      ],
+      "nuanceExplanationMy": "ရုတ်တရက် အပြောင်းအလဲမြန်ဆန်မှုကြောင့် အံ့ဩတုန်လှုပ်ရသည့် အခြေအနေများတွင် သုံးသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l25.s001",
+      "lessonId": "n2.l25",
+      "ja": "大敗するかと思いきや、終了直前に劇的な逆転ゴールが決まって勝利した。",
+      "kana": "たいはいするかとおもいきや、しゅうりょうちょくぜんにげきてきなぎゃくてんゴールがきまってしょうりした。",
+      "translation": {
+        "en": "Just when we thought we would suffer a crushing defeat, a dramatic turnaround goal was scored right before the end to secure victory.",
+        "my": "အကြီးအကျယ် ရှုံးနိမ့်တော့မည်ဟု ထင်မှတ်ခဲ့သော်လည်း ပွဲပြီးခါနီးတွင် ရင်သပ်ရှုမောဖွယ် အခြေအနေပြောင်းပြန်ဂိုး သွင်းယူကာ အနိုင်ရရှိခဲ့သည်။"
+      },
+      "translationMy": "အကြီးအကျယ် ရှုံးနိမ့်တော့မည်ဟု ထင်မှတ်ခဲ့သော်လည်း ပွဲပြီးခါနီးတွင် ရင်သပ်ရှုမောဖွယ် အခြေအနေပြောင်းပြန်ဂိုး သွင်းယူကာ အနိုင်ရရှိခဲ့သည်။",
+      "vocabIds": [
+        "n2.l25.v012"
+      ],
+      "grammarIds": [
+        "n2.l25.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.s002",
+      "lessonId": "n2.l25",
+      "ja": "彼の病状は回復するどころか、急激に悪化して集中治療室へ運ばれた。",
+      "kana": "かれのびょうじょうはかいふくするどころか、きゅうげきにあっかしてしゅうちゅうちりょうしつへはこばれた。",
+      "translation": {
+        "en": "Far from recovering, his condition worsened drastically and he was rushed to the intensive care unit.",
+        "my": "သူ၏ ရောဂါအခြေအနေမှာ သက်သာလာဖို့ ဝေးစွ ရုတ်တရက် အလွန်ဆိုးရွားလာသဖြင့် အထူးကြပ်မတ်ကုသဆောင်သို့ အရေးပေါ်ပို့ဆောင်ခံခဲ့ရသည်။"
+      },
+      "translationMy": "သူ၏ ရောဂါအခြေအနေမှာ သက်သာလာဖို့ ဝေးစွ ရုတ်တရက် အလွန်ဆိုးရွားလာသဖြင့် အထူးကြပ်မတ်ကုသဆောင်သို့ အရေးပေါ်ပို့ဆောင်ခံခဲ့ရသည်။",
+      "vocabIds": [
+        "n2.l25.v003"
+      ],
+      "grammarIds": [
+        "n2.l25.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.s003",
+      "lessonId": "n2.l25",
+      "ja": "子供が静かに寝ているかと思ったら、起き上がって元気に泣き叫び始めた。",
+      "kana": "こどもがしずかにねているかとおもったら、おきあがってげんきになきさけびはじめた。",
+      "translation": {
+        "en": "No sooner had I thought the child was sleeping quietly than he got up and started screaming energetically.",
+        "my": "ကလေး ငြိမ်သက်စွာ အိပ်ပျော်နေပြီဟု ထင်မှတ်လိုက်သည်နှင့် တစ်ပြိုင်နက် နိုးထလာကာ အားကုန်အော်ဟစ် ငိုယိုတော့သည်။"
+      },
+      "translationMy": "ကလေး ငြိမ်သက်စွာ အိပ်ပျော်နေပြီဟု ထင်မှတ်လိုက်သည်နှင့် တစ်ပြိုင်နက် နိုးထလာကာ အားကုန်အော်ဟစ် ငိုယိုတော့သည်။",
+      "vocabIds": [
+        "n2.l25.v001"
+      ],
+      "grammarIds": [
+        "n2.l25.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.s004",
+      "lessonId": "n2.l25",
+      "ja": "現代科学の驚異的な進歩は、不治とされた病を克服する奇跡をもたらした。",
+      "kana": "げんだいかがくのきょういてきなしんぽは、ふじとされたやまいをこくふくするきせきをもたらした。",
+      "translation": {
+        "en": "The phenomenal progress of modern science brought about miracles in overcoming illnesses once considered incurable.",
+        "my": "ခေတ်သစ်သိပ္ပံပညာ၏ အံ့မခန်း တိုးတက်မှုသည် ကုသ၍မရဟု ယူဆထားသော ရောဂါများကို အောင်နိုင်စေသည့် အံ့ဖွယ်ဖြစ်ရပ်များကို ဆောင်ကြဉ်းပေးခဲ့သည်။"
+      },
+      "translationMy": "ခေတ်သစ်သိပ္ပံပညာ၏ အံ့မခန်း တိုးတက်မှုသည် ကုသ၍မရဟု ယူဆထားသော ရောဂါများကို အောင်နိုင်စေသည့် အံ့ဖွယ်ဖြစ်ရပ်များကို ဆောင်ကြဉ်းပေးခဲ့သည်။",
+      "vocabIds": [
+        "n2.l25.v001",
+        "n2.l25.v002"
+      ],
+      "grammarIds": [
+        "n2.l25.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.s005",
+      "lessonId": "n2.l25",
+      "ja": "両者の言い分には微妙な食い違いがあり、完全な合意どころか対立が深まった。",
+      "kana": "りょうしゃのいいぶんにはびみょうなくいちがいがあり、かんぜんなごういどころかたいりつがふかまった。",
+      "translation": {
+        "en": "There was a subtle discrepancy between both sides' assertions, and far from reaching full agreement, their conflict deepened.",
+        "my": "နှစ်ဖက်ပြောဆိုချက်များတွင် သိမ်မွေ့သော ကွဲလွဲမှုများရှိနေပြီး အပြည့်အဝ သဘောတူညီမှုရဖို့ နေနေသာသာ ပဋိပက္ခ ပိုမိုနက်ရှိုင်းသွားခဲ့သည်။"
+      },
+      "translationMy": "နှစ်ဖက်ပြောဆိုချက်များတွင် သိမ်မွေ့သော ကွဲလွဲမှုများရှိနေပြီး အပြည့်အဝ သဘောတူညီမှုရဖို့ နေနေသာသာ ပဋိပက္ခ ပိုမိုနက်ရှိုင်းသွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l25.v003"
+      ],
+      "grammarIds": [
+        "n2.l25.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.s006",
+      "lessonId": "n2.l25",
+      "ja": "静まり返った夜の森から奇妙な物音が聞こえてきたかと思ったら、野鳥が飛び立った。",
+      "kana": "しずまりかえったよるのもりからきみょうなものおとがきこえてきたかとおもったら、やちょうがとびたった。",
+      "translation": {
+        "en": "Just when I heard a bizarre noise coming from the silent night forest, wild birds flew away.",
+        "my": "တိတ်ဆိတ်နေသော ညဉ့်နက်သစ်တောထဲမှ ထူးဆန်းသောအသံ ကြားလိုက်ရသည်နှင့် တစ်ပြိုင်နက် တောငှက်များ လန့်ပျံသွားခဲ့သည်။"
+      },
+      "translationMy": "တိတ်ဆိတ်နေသော ညဉ့်နက်သစ်တောထဲမှ ထူးဆန်းသောအသံ ကြားလိုက်ရသည်နှင့် တစ်ပြိုင်နက် တောငှက်များ လန့်ပျံသွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l25.v004"
+      ],
+      "grammarIds": [
+        "n2.l25.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.s007",
+      "lessonId": "n2.l25",
+      "ja": "行き詰まった会議で彼が提案した妙案により、問題は一挙に解決へと向かった。",
+      "kana": "いきづまったかいぎでかれがていあんしたみょうあんにより、もんだいはいっきょにかいけつへとむかった。",
+      "translation": {
+        "en": "Thanks to the clever idea he proposed in the deadlocked meeting, the problem moved towards an all-at-once resolution.",
+        "my": "ရှေ့မတိုးသာဖြစ်နေသော အစည်းအဝေးတွင် သူတင်ပြလိုက်သည့် ပြောင်မြောက်သောအကြံဉာဏ်ကြောင့် ပြဿနာမှာ တစ်မုဟုတ်ချင်း ဖြေရှင်းရေးဆီသို့ ဦးတည်သွားခဲ့သည်။"
+      },
+      "translationMy": "ရှေ့မတိုးသာဖြစ်နေသော အစည်းအဝေးတွင် သူတင်ပြလိုက်သည့် ပြောင်မြောက်သောအကြံဉာဏ်ကြောင့် ပြဿနာမှာ တစ်မုဟုတ်ချင်း ဖြေရှင်းရေးဆီသို့ ဦးတည်သွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l25.v005"
+      ],
+      "grammarIds": [
+        "n2.l25.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.s008",
+      "lessonId": "n2.l25",
+      "ja": "その天才的な演奏に聴衆は驚嘆の声を上げ、会場全体が惜しみない拍手に包まれた。",
+      "kana": "そのてんさいてきなおんそうにちょうしゅうはきょうたんのこえをあげ、かいじょうぜんたいがおしみないはくしゅにつつまれた。",
+      "translation": {
+        "en": "The audience raised cries of admiration at the genius performance, and the entire hall was wrapped in generous applause.",
+        "my": "ထိုပါရမီရှင်ဆန်သော တီးခတ်မှုအပေါ် ပရိသတ်များက အံ့ဩချီးကျူးသည့် အသံများထွက်ပေါ်ခဲ့ပြီး ခန်းမတစ်ခုလုံး မရပ်မနား လက်ခုပ်ဩဘာသံများဖြင့် လွှမ်းခြုံသွားခဲ့သည်။"
+      },
+      "translationMy": "ထိုပါရမီရှင်ဆန်သော တီးခတ်မှုအပေါ် ပရိသတ်များက အံ့ဩချီးကျူးသည့် အသံများထွက်ပေါ်ခဲ့ပြီး ခန်းမတစ်ခုလုံး မရပ်မနား လက်ခုပ်ဩဘာသံများဖြင့် လွှမ်းခြုံသွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l25.v006"
+      ],
+      "grammarIds": [
+        "n2.l25.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.s009",
+      "lessonId": "n2.l25",
+      "ja": "子供たちの旺盛な好奇心は、退屈するどころか新たな発見への原動力となっている。",
+      "kana": "こどもたちのおうせいなこうきしんは、たいくつするどころかしんたなはっけんへのげんどうりょくとなっている。",
+      "translation": {
+        "en": "The children's vigorous curiosity, far from boring them, serves as a driving force toward fresh discoveries.",
+        "my": "ကလေးများ၏ ထက်သန်သော စူးစမ်းလိုစိတ်သည် ပျင်းရိငြီးငွေ့ဖို့ ဝေးစွ အသစ်အဆန်းများကို ရှာဖွေတွေ့ရှိရန် တွန်းအားတစ်ခု ဖြစ်လာနေသည်။"
+      },
+      "translationMy": "ကလေးများ၏ ထက်သန်သော စူးစမ်းလိုစိတ်သည် ပျင်းရိငြီးငွေ့ဖို့ ဝေးစွ အသစ်အဆန်းများကို ရှာဖွေတွေ့ရှိရန် တွန်းအားတစ်ခု ဖြစ်လာနေသည်။",
+      "vocabIds": [
+        "n2.l25.v007"
+      ],
+      "grammarIds": [
+        "n2.l25.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.s010",
+      "lessonId": "n2.l25",
+      "ja": "突如として発表された企業の巨額赤字に、経済界全体が驚愕した。",
+      "kana": "とつじょとしてはっぴょうされたきぎょうのきょがくあかじに、けいざいかいぜんたいがきょうがくした。",
+      "translation": {
+        "en": "The entire business world was astonished at the sudden announcement of the company's colossal deficit.",
+        "my": "ရုတ်တရက် ထုတ်ပြန်ကြေညာလိုက်သော ကုမ္ပဏီ၏ ကြီးမားသည့် အရှုံးပမာဏကြောင့် စီးပွားရေးလောကတစ်ခုလုံး ထိတ်လန့်အံ့အားသင့်သွားခဲ့သည်။"
+      },
+      "translationMy": "ရုတ်တရက် ထုတ်ပြန်ကြေညာလိုက်သော ကုမ္ပဏီ၏ ကြီးမားသည့် အရှုံးပမာဏကြောင့် စီးပွားရေးလောကတစ်ခုလုံး ထိတ်လန့်အံ့အားသင့်သွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l25.v008"
+      ],
+      "grammarIds": [
+        "n2.l25.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.s011",
+      "lessonId": "n2.l25",
+      "ja": "遠くの建物が近くに見えるのは単なる目の錯覚かと思ったら、蜃気楼という自然現象だった。",
+      "kana": "とおくのたてものがちかくにみえるのはたんなるめのさっかくかとおもったら、しんきろうというしぜんげんしょうだった。",
+      "translation": {
+        "en": "Just when I thought seeing distant buildings up close was a mere optical illusion, it turned out to be the natural phenomenon called a mirage.",
+        "my": "ဝေးကွာသော အဆောက်အအုံများ အနီးကပ် မြင်တွေ့ရခြင်းမှာ မျက်စိထင်မှားမှု သက်သက်ဟု ထင်လိုက်သော်လည်း တံလျှပ်ဟုခေါ်သော သဘာဝဖြစ်စဉ် ဖြစ်နေခဲ့သည်။"
+      },
+      "translationMy": "ဝေးကွာသော အဆောက်အအုံများ အနီးကပ် မြင်တွေ့ရခြင်းမှာ မျက်စိထင်မှားမှု သက်သက်ဟု ထင်လိုက်သော်လည်း တံလျှပ်ဟုခေါ်သော သဘာဝဖြစ်စဉ် ဖြစ်နေခဲ့သည်။",
+      "vocabIds": [
+        "n2.l25.v009"
+      ],
+      "grammarIds": [
+        "n2.l25.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l25.s012",
+      "lessonId": "n2.l25",
+      "ja": "彼の証言と物証の間には明らかな矛盾が存在し、現場に異変があったことを示唆している。",
+      "kana": "かれのしょうげんとぶっしょうのあいだにはあきらかなむじゅんがそんざいし、げんばにいへんがあったことをしさしている。",
+      "translation": {
+        "en": "Clear contradictions exist between his testimony and the physical evidence, suggesting that an abnormality occurred at the scene.",
+        "my": "သူ၏ သက်သေထွက်ဆိုချက်နှင့် သက်သေခံပစ္စည်းများအကြားတွင် ထင်ရှားသော ဆန့်ကျင်မှုများရှိနေပြီး အခင်းဖြစ်ပွားရာနေရာတွင် ပုံမှန်မဟုတ်သော ထူးခြားမှုဖြစ်ပျက်ခဲ့ကြောင်း ညွှန်ပြနေသည်။"
+      },
+      "translationMy": "သူ၏ သက်သေထွက်ဆိုချက်နှင့် သက်သေခံပစ္စည်းများအကြားတွင် ထင်ရှားသော ဆန့်ကျင်မှုများရှိနေပြီး အခင်းဖြစ်ပွားရာနေရာတွင် ပုံမှန်မဟုတ်သော ထူးခြားမှုဖြစ်ပျက်ခဲ့ကြောင်း ညွှန်ပြနေသည်။",
+      "vocabIds": [
+        "n2.l25.v010",
+        "n2.l25.v011"
+      ],
+      "grammarIds": [
+        "n2.l25.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l25.r001",
+    "lessonId": "n2.l25",
+    "title": "常識のパラドックス：予期せぬ展開とイノベーション (Paradox of Common Sense: Unexpected Developments and Innovation)",
+    "level": "N2",
+    "text": "科学技術の発展史を振り返ると、偉大な発見の多くは事前の予想通りに整然と達成されたものではない。「こうなるはずだ」という研究者の堅固な予測が覆され、「失敗に終わるかと思いきや、思いもよらない画期的な物質が生成されていた」という予期せぬ事態からブレイクスルーが生まれるケースが実に多い。\n\n一般に、計画通りの進行を是とする企業風土では、予想外の実験結果は単なる不備やエラーとして処理されがちである。しかし、真の革新は整然とした成功どころか、不可解な異変や理論の矛盾を徹底的に追及する探求心からこそ芽生える。予期せぬ結果を即座に排除するのではなく、「なぜ奇妙な現象が生じたのか」という深い好奇心を抱くことが不可欠なのである。\n\n常識が通用しない事態に直面したとき、それを失望と捉えるか、あるいは未知の扉が開かれた予兆と直感するか。その認識の差こそが、平凡な研究者と歴史を変える先駆者を分かつ決定的な境界線にほかならない。",
+    "kanaText": "かがくぎじゅつのはってんしをふりかえると、いだいなはっけんのおおくはじぜんのよそうどおりにせいぜんとたっせいされたものではない。「こうなるはずだ」というけんきゅうしゃのけんこなよそくがくつがえされ、「しっぱいにバランスにおわるかとおもいきや、おもいもよらないかっきてきなぶっしつがせいせいされていた」というよきせぬじたいからブレイクスルーがうまれるケースがじつにおおい。\n\nいっぱんに、けいかくどおりのしんこうをぜとするきぎょうふうどでは、よそうがいのじっけんけっかはたんなるふびやエラーとしてしょりされがちである。しかし、しんのかくしんはせいぜんとしたせいこうどころか、ふかけつないへんやりろんのむじゅんをてっていてきについきゅうするたんきゅうしんからこそめばえる。よきせぬけっかをそくざにはいじょするのではなく、「なぜきみょうなげんしょうがしょうじたのか」というふかいこうきしんをいだくことがふかけつなのである。\n\nじょうしきがつうようしないじたいにちょくめんしたとき、それをしつぼうととらえるか、あるいはみちのとびらがひらかれたよちょうとちょっかんするか。そのにんしきのさこそが、へいぼんなけんきゅうしゃとれきしをかえるせんくしゃをわかつけっていてきなきょうかいせんにほかならない。",
+    "translation": "သိပ္ပံနှင့် နည်းပညာ ဖွံ့ဖြိုးတိုးတက်မှု သမိုင်းကို ပြန်ကြည့်လျှင် ကြီးကျယ်သော ရှာဖွေတွေ့ရှိမှု အများစုသည် ကြိုတင်ခန့်မှန်းထားသည့်အတိုင်း စနစ်တကျ အောင်မြင်ခဲ့ခြင်း မဟုတ်ပေ။ 'ဤသို့ဖြစ်ရမည်' ဟူသော သုတေသီများ၏ ခိုင်မာသော တွက်ချက်မှုများ ပျက်ပြားသွားပြီး 'ကျရှုံးခြင်းဖြင့် ပြီးဆုံးတော့မည်ဟု ထင်မှတ်ခဲ့သော်လည်း မမျှော်လင့်ဘဲ ခေတ်ရှေ့ပြေးသော ဒြပ်ပစ္စည်းသစ် ထွက်ပေါ်လာသည်' ဟူသော မမျှော်လင့်သည့် အခြေအနေများမှ အောင်မြင်မှု လမ်းစများ မွေးဖွားလာခဲ့သည့် သာဓကများ အလွန်များပြားသည်။\n\nယေဘုယျအားဖြင့် စီမံကိန်းအတိုင်း ပြီးမြောက်ခြင်းကိုသာ အကောင်းမြင်သော လုပ်ငန်းခွင်ယဉ်ကျေးမှုတွင် မျှော်လင့်မထားသော စမ်းသပ်မှုရလဒ်များကို ချို့ယွင်းချက် သို့မဟုတ် အမှားအဖြစ်သာ သဘောထားလေ့ရှိကြသည်။ သို့သော် စစ်မှန်သော တီထွင်ဆန်းသစ်မှုသည် စနစ်တကျ အောင်မြင်မှုမျိုး နေနေသာသာ နားမလည်နိုင်သော ထူးခြားမှုများနှင့် သီအိုရီဆိုင်ရာ ဆန့်ကျင်မှုများကို အဆုံးစွန်ထိ လိုက်လံစူးစမ်းသည့် စိတ်ဓာတ်မှသာ အညွန့်ထွက်လာခြင်း ဖြစ်သည်။ မထင်မှတ်သော ရလဒ်များကို ချက်ချင်း ဖယ်ထုတ်ပစ်မည့်အစား 'အဘယ်ကြောင့် ထူးဆန်းသော ဖြစ်စဉ် ဖြစ်ပေါ်လာသနည်း' ဟူသော နက်ရှိုင်းသည့် စူးစမ်းလိုစိတ်ကို မွေးမြူထားရန် အရေးကြီးသည်။\n\nသာမန်အသိတရားဖြင့် နားမလည်နိုင်သော အခြေအနေနှင့် ရင်ဆိုင်ရသည့်အခါ စိတ်ပျက်အားလျော့မှုအဖြစ် သတ်မှတ်မည်လော သို့မဟုတ် မသိသေးသော တံခါးတစ်ချပ် ပွင့်သွားသည့် နိမိတ်အဖြစ် ခံစားသိရှိမည်လော။ ထိုခံယူချက် ကွာခြားမှုသည်ပင် သာမန်သုတေသီနှင့် သမိုင်းကို ပြောင်းလဲစေသော ရှေ့ဆောင်လမ်းပြများကို ခွဲခြားပေးသည့် အဆုံးအဖြတ် စည်းဝိုင်းပင် ဖြစ်တော့သည်။",
+    "translationMy": "သိပ္ပံနှင့် နည်းပညာ ဖွံ့ဖြိုးတိုးတက်မှု သမိုင်းကို ပြန်ကြည့်လျှင် ကြီးကျယ်သော ရှာဖွေတွေ့ရှိမှု အများစုသည် ကြိုတင်ခန့်မှန်းထားသည့်အတိုင်း စနစ်တကျ အောင်မြင်ခဲ့ခြင်း မဟုတ်ပေ။ 'ဤသို့ဖြစ်ရမည်' ဟူသော သုတေသီများ၏ ခိုင်မာသော တွက်ချက်မှုများ ပျက်ပြားသွားပြီး 'ကျရှုံးခြင်းဖြင့် ပြီးဆုံးတော့မည်ဟု ထင်မှတ်ခဲ့သော်လည်း မမျှော်လင့်ဘဲ ခေတ်ရှေ့ပြေးသော ဒြပ်ပစ္စည်းသစ် ထွက်ပေါ်လာသည်' ဟူသော မမျှော်လင့်သည့် အခြေအနေများမှ အောင်မြင်မှု လမ်းစများ မွေးဖွားလာခဲ့သည့် သာဓကများ အလွန်များပြားသည်။\n\nယေဘုယျအားဖြင့် စီမံကိန်းအတိုင်း ပြီးမြောက်ခြင်းကိုသာ အကောင်းမြင်သော လုပ်ငန်းခွင်ယဉ်ကျေးမှုတွင် မျှော်လင့်မထားသော စမ်းသပ်မှုရလဒ်များကို ချို့ယွင်းချက် သို့မဟုတ် အမှားအဖြစ်သာ သဘောထားလေ့ရှိကြသည်။ သို့သော် စစ်မှန်သော တီထွင်ဆန်းသစ်မှုသည် စနစ်တကျ အောင်မြင်မှုမျိုး နေနေသာသာ နားမလည်နိုင်သော ထူးခြားမှုများနှင့် သီအိုရီဆိုင်ရာ ဆန့်ကျင်မှုများကို အဆုံးစွန်ထိ လိုက်လံစူးစမ်းသည့် စိတ်ဓာတ်မှသာ အညွန့်ထွက်လာခြင်း ဖြစ်သည်။ မထင်မှတ်သော ရလဒ်များကို ချက်ချင်း ဖယ်ထုတ်ပစ်မည့်အစား 'အဘယ်ကြောင့် ထူးဆန်းသော ဖြစ်စဉ် ဖြစ်ပေါ်လာသနည်း' ဟူသော နက်ရှိုင်းသည့် စူးစမ်းလိုစိတ်ကို မွေးမြူထားရန် အရေးကြီးသည်။\n\nသာမန်အသိတရားဖြင့် နားမလည်နိုင်သော အခြေအနေနှင့် ရင်ဆိုင်ရသည့်အခါ စိတ်ပျက်အားလျော့မှုအဖြစ် သတ်မှတ်မည်လော သို့မဟုတ် မသိသေးသော တံခါးတစ်ချပ် ပွင့်သွားသည့် နိမိတ်အဖြစ် ခံစားသိရှိမည်လော။ ထိုခံယူချက် ကွာခြားမှုသည်ပင် သာမန်သုတေသီနှင့် သမိုင်းကို ပြောင်းလဲစေသော ရှေ့ဆောင်လမ်းပြများကို ခွဲခြားပေးသည့် အဆုံးအဖြတ် စည်းဝိုင်းပင် ဖြစ်တော့သည်။",
+    "questionIds": [
+      "n2.l25.q025",
+      "n2.l25.q026",
+      "n2.l25.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "ブレイクスルー",
+        "reading": "ブレイクスルー",
+        "meaning": "breakthrough",
+        "meaningMy": "breakthrough",
+        "meaningMyanmar": "breakthrough"
+      },
+      {
+        "term": "先駆者",
+        "reading": "せんくしゃ",
+        "meaning": "pioneer / forerunner",
+        "meaningMy": "pioneer / forerunner",
+        "meaningMyanmar": "pioneer / forerunner"
+      },
+      {
+        "term": "覆る",
+        "reading": "くつがえる",
+        "meaning": "to be overturned / reversed",
+        "meaningMy": "to be overturned / reversed",
+        "meaningMyanmar": "to be overturned / reversed"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l25.lis001",
+    "lessonId": "n2.l25",
+    "title": "新製品レビューと顧客の反響 (Product Review and Customer Response Analysis)",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "高橋部長",
+      "林主任"
+    ],
+    "transcript": "高橋部長: 林君、先週リリースした多機能スマートウォッチのユーザー評価はどうだね？\n林主任: はい、機能が多すぎて操作に戸惑うかと思いきや、直感的なUIのおかげで非常に使いやすいと好評です。\n高橋部長: それは素晴らしい。価格が高いから売れ行きが鈍るどころか、予約が殺到していると聞いたが？\n林主任: おっしゃる通りです。在庫切れでクレームになるかと思ったら、増産のアナウンスに顧客から応援のコメントが多数寄せられております。",
+    "translation": "高橋部長: ဟာယာရှီ၊ ပြီးခဲ့တဲ့အပတ်က ထုတ်လုပ်လိုက်တဲ့ လုပ်ဆောင်ချက်စုံ စမတ်နာရီရဲ့ သုံးစွဲသူသုံးသပ်ချက်တွေ ဘယ်လိုရှိလဲ။\n林主任: ဟုတ်ကဲ့၊ လုပ်ဆောင်ချက်များလွန်းလို့ အသုံးပြုရာမှာ ရှုပ်ထွေးသွားမလား ထင်မှတ်ခဲ့ပေမယ့် ထိုးထွင်းသိမြင်လွယ်တဲ့ UI ကြောင့် သုံးရတာ အရမ်းအဆင်ပြေတယ်လို့ ချီးကျူးခံနေရပါတယ်။\n高橋部長: ဒါ ကောင်းတာပေါ့။ စျေးကြီးလို့ အရောင်းထိုင်းမသွားတဲ့အပြင် ကြိုတင်မှာယူမှုတွေ တောင်ပုံရာပုံ ရောက်နေတယ်လို့ ကြားမိတယ်နော်။\n林主任: ဟုတ်ပါတယ်ခင်ဗျာ။ ပစ္စည်းပြတ်သွားလို့ တိုင်ကြားခံရမလား ထင်မှတ်လိုက်ပေမယ့် ထုတ်လုပ်မှုတိုးမြှင့်မယ့် ကြေညာချက်အပေါ် ဝယ်သူတွေဆီက အားပေးစကားတွေ အများကြီး ရရှိနေပါတယ်။",
+    "translationMy": "高橋部長: ဟာယာရှီ၊ ပြီးခဲ့တဲ့အပတ်က ထုတ်လုပ်လိုက်တဲ့ လုပ်ဆောင်ချက်စုံ စမတ်နာရီရဲ့ သုံးစွဲသူသုံးသပ်ချက်တွေ ဘယ်လိုရှိလဲ။\n林主任: ဟုတ်ကဲ့၊ လုပ်ဆောင်ချက်များလွန်းလို့ အသုံးပြုရာမှာ ရှုပ်ထွေးသွားမလား ထင်မှတ်ခဲ့ပေမယ့် ထိုးထွင်းသိမြင်လွယ်တဲ့ UI ကြောင့် သုံးရတာ အရမ်းအဆင်ပြေတယ်လို့ ချီးကျူးခံနေရပါတယ်။\n高橋部長: ဒါ ကောင်းတာပေါ့။ စျေးကြီးလို့ အရောင်းထိုင်းမသွားတဲ့အပြင် ကြိုတင်မှာယူမှုတွေ တောင်ပုံရာပုံ ရောက်နေတယ်လို့ ကြားမိတယ်နော်။\n林主任: ဟုတ်ပါတယ်ခင်ဗျာ။ ပစ္စည်းပြတ်သွားလို့ တိုင်ကြားခံရမလား ထင်မှတ်လိုက်ပေမယ့် ထုတ်လုပ်မှုတိုးမြှင့်မယ့် ကြေညာချက်အပေါ် ဝယ်သူတွေဆီက အားပေးစကားတွေ အများကြီး ရရှိနေပါတယ်။",
+    "turns": [
+      {
+        "speaker": "高橋部長",
+        "ja": "林君、先週リリースした多機能スマートウォッチのユーザー評価はどうだね？",
+        "kana": "はやしくん、せんしゅうリリースしたたきのうスマートウォッチのユーザーひょうかはどうだね？",
+        "en": "Hayashi, how are the user reviews for the multifunctional smartwatch released last week?",
+        "my": "ဟာယာရှီ၊ ပြီးခဲ့တဲ့အပတ်က ထုတ်လုပ်လိုက်တဲ့ လုပ်ဆောင်ချက်စုံ စမတ်နာရီရဲ့ သုံးစွဲသူသုံးသပ်ချက်တွေ ဘယ်လိုရှိလဲ။",
+        "translationMy": "ဟာယာရှီ၊ ပြီးခဲ့တဲ့အပတ်က ထုတ်လုပ်လိုက်တဲ့ လုပ်ဆောင်ချက်စုံ စမတ်နာရီရဲ့ သုံးစွဲသူသုံးသပ်ချက်တွေ ဘယ်လိုရှိလဲ။",
+        "myanmar": "ဟာယာရှီ၊ ပြီးခဲ့တဲ့အပတ်က ထုတ်လုပ်လိုက်တဲ့ လုပ်ဆောင်ချက်စုံ စမတ်နာရီရဲ့ သုံးစွဲသူသုံးသပ်ချက်တွေ ဘယ်လိုရှိလဲ။"
+      },
+      {
+        "speaker": "林主任",
+        "ja": "はい、機能が多すぎて操作に戸惑うかと思いきや、直感的なUIのおかげで非常に使いやすいと好評です。",
+        "kana": "はい、きのうがおおすぎてそうさにとまどうかとおもいきや、ちょっかんてきなUIのおかげでひじょうにつかいやすいとこうひょうです。",
+        "en": "Yes, just when we thought users would be bewildered by having too many features, it has been praised as extremely easy to use thanks to the intuitive UI.",
+        "my": "ဟုတ်ကဲ့၊ လုပ်ဆောင်ချက်များလွန်းလို့ အသုံးပြုရာမှာ ရှုပ်ထွေးသွားမလား ထင်မှတ်ခဲ့ပေမယ့် ထိုးထွင်းသိမြင်လွယ်တဲ့ UI ကြောင့် သုံးရတာ အရမ်းအဆင်ပြေတယ်လို့ ချီးကျူးခံနေရပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့၊ လုပ်ဆောင်ချက်များလွန်းလို့ အသုံးပြုရာမှာ ရှုပ်ထွေးသွားမလား ထင်မှတ်ခဲ့ပေမယ့် ထိုးထွင်းသိမြင်လွယ်တဲ့ UI ကြောင့် သုံးရတာ အရမ်းအဆင်ပြေတယ်လို့ ချီးကျူးခံနေရပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့၊ လုပ်ဆောင်ချက်များလွန်းလို့ အသုံးပြုရာမှာ ရှုပ်ထွေးသွားမလား ထင်မှတ်ခဲ့ပေမယ့် ထိုးထွင်းသိမြင်လွယ်တဲ့ UI ကြောင့် သုံးရတာ အရမ်းအဆင်ပြေတယ်လို့ ချီးကျူးခံနေရပါတယ်။"
+      },
+      {
+        "speaker": "高橋部長",
+        "ja": "それは素晴らしい。価格が高いから売れ行きが鈍るどころか、予約が殺到していると聞いたが？",
+        "kana": "それはすばらしい。かかくがたかいからうれゆきがにぶるどころか、よやくがさっとうしているときいたが？",
+        "en": "That's wonderful. I heard that far from sales slowing down due to high price, reservations are actually flooding in?",
+        "my": "ဒါ ကောင်းတာပေါ့။ စျေးကြီးလို့ အရောင်းထိုင်းမသွားတဲ့အပြင် ကြိုတင်မှာယူမှုတွေ တောင်ပုံရာပုံ ရောက်နေတယ်လို့ ကြားမိတယ်နော်။",
+        "translationMy": "ဒါ ကောင်းတာပေါ့။ စျေးကြီးလို့ အရောင်းထိုင်းမသွားတဲ့အပြင် ကြိုတင်မှာယူမှုတွေ တောင်ပုံရာပုံ ရောက်နေတယ်လို့ ကြားမိတယ်နော်။",
+        "myanmar": "ဒါ ကောင်းတာပေါ့။ စျေးကြီးလို့ အရောင်းထိုင်းမသွားတဲ့အပြင် ကြိုတင်မှာယူမှုတွေ တောင်ပုံရာပုံ ရောက်နေတယ်လို့ ကြားမိတယ်နော်။"
+      },
+      {
+        "speaker": "林主任",
+        "ja": "おっしゃる通りです。在庫切れでクレームになるかと思ったら、増産のアナウンスに顧客から応援のコメントが多数寄せられております。",
+        "kana": "おっしゃるとおりです。ざいこぎれでクレームになるとおもったら、ぞうさんのアナウンスにこきゃくからおうえんのコメントがたすうよせられております。",
+        "en": "Exactly as you say. Just when we thought being out of stock would lead to complaints, customers sent many encouraging comments upon our production increase announcement.",
+        "my": "ဟုတ်ပါတယ်ခင်ဗျာ။ ပစ္စည်းပြတ်သွားလို့ တိုင်ကြားခံရမလား ထင်မှတ်လိုက်ပေမယ့် ထုတ်လုပ်မှုတိုးမြှင့်မယ့် ကြေညာချက်အပေါ် ဝယ်သူတွေဆီက အားပေးစကားတွေ အများကြီး ရရှိနေပါတယ်။",
+        "translationMy": "ဟုတ်ပါတယ်ခင်ဗျာ။ ပစ္စည်းပြတ်သွားလို့ တိုင်ကြားခံရမလား ထင်မှတ်လိုက်ပေမယ့် ထုတ်လုပ်မှုတိုးမြှင့်မယ့် ကြေညာချက်အပေါ် ဝယ်သူတွေဆီက အားပေးစကားတွေ အများကြီး ရရှိနေပါတယ်။",
+        "myanmar": "ဟုတ်ပါတယ်ခင်ဗျာ။ ပစ္စည်းပြတ်သွားလို့ တိုင်ကြားခံရမလား ထင်မှတ်လိုက်ပေမယ့် ထုတ်လုပ်မှုတိုးမြှင့်မယ့် ကြေညာချက်အပေါ် ဝယ်သူတွေဆီက အားပေးစကားတွေ အများကြီး ရရှိနေပါတယ်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l25.q028",
+      "n2.l25.q029",
+      "n2.l25.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l25.q001",
+      "lessonId": "n2.l25",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「最新のAI技術は、人類の想像を超える（　）的な進化を遂げている。」",
+      "choices": [
+        "驚異",
+        "奇数",
+        "錯覚",
+        "逆転"
+      ],
+      "answer": "驚異",
+      "explanation": "「驚異（きょうい）」は驚くほど素晴らしいこと・不思議な現象です。",
+      "explanationMy": "အံ့မခန်း အံ့ဩဖွယ်ရာ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q002",
+      "lessonId": "n2.l25",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「絶体絶命の危機から生還した彼は、まさに（　）の生還者だ。」",
+      "choices": [
+        "奇跡",
+        "驚嘆",
+        "微妙",
+        "異変"
+      ],
+      "answer": "奇跡",
+      "explanation": "「奇跡（きせき）」は常識では考えられない不思議な出来事です。",
+      "explanationMy": "အံ့ဖွယ်ဖြစ်ရပ် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q003",
+      "lessonId": "n2.l25",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「彼の発言の真意については、賛否が分かれ（　）なニュアンスを含む。」",
+      "choices": [
+        "微妙",
+        "驚異",
+        "奇跡",
+        "奇妙"
+      ],
+      "answer": "微妙",
+      "explanation": "「微妙（びみょう）」は一言では言い表せない複雑で繊細な状態です。",
+      "explanationMy": "သိမ်မွေ့သော သဘော ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q004",
+      "lessonId": "n2.l25",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「誰もいない部屋から（　）な足音が聞こえてきて背筋が凍った。」",
+      "choices": [
+        "奇妙",
+        "微妙",
+        "妙案",
+        "好奇心"
+      ],
+      "answer": "奇妙",
+      "explanation": "「奇妙（きみょう）」は不思議で普通ではない様子です。",
+      "explanationMy": "ထူးဆန်းသော အခြေအနေ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q005",
+      "lessonId": "n2.l25",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「難航していた交渉をまとめるための（　）を思いついた。」",
+      "choices": [
+        "妙案",
+        "驚異",
+        "錯覚",
+        "矛盾"
+      ],
+      "answer": "妙案",
+      "explanation": "「妙案（みょうあん）」は非常に優れた巧みな工夫やアイデアです。",
+      "explanationMy": "ပြောင်မြောက်သော အကြံ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q006",
+      "lessonId": "n2.l25",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「未知の文化や言語に対する強い（　）が、留学のきっかけとなった。」",
+      "choices": [
+        "好奇心",
+        "驚愕",
+        "微妙",
+        "逆転"
+      ],
+      "answer": "好奇心",
+      "explanation": "「好奇心（こうきしん）」は珍しいことや未知の事柄に惹かれる心です。",
+      "explanationMy": "စူးစမ်းလိုစိတ် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q007",
+      "lessonId": "n2.l25",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「安全だと信じ込んでいたのは、単なる自己都合の（　）にすぎなかった。」",
+      "choices": [
+        "錯覚",
+        "奇跡",
+        "妙案",
+        "驚嘆"
+      ],
+      "answer": "錯覚",
+      "explanation": "「錯覚（さっかく）」は事実とは異なって思い違いをすることです。",
+      "explanationMy": "ထင်ယောင်ထင်မှား ဖြစ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q008",
+      "lessonId": "n2.l25",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「彼の行動と言葉の間には明らかな（　）があり、信頼を損ねた。」",
+      "choices": [
+        "矛盾",
+        "奇異",
+        "逆転",
+        "奇数"
+      ],
+      "answer": "矛盾",
+      "explanation": "「矛盾（むじゅん）」は二つの事柄のつじつまが合わないことです。",
+      "explanationMy": "ဆန့်ကျင်ဘက်ဖြစ်နေခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q009",
+      "lessonId": "n2.l25",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「技術の<u>きょうい</u>的な進歩。」",
+      "choices": [
+        "驚異",
+        "敬異",
+        "驚意",
+        "警異"
+      ],
+      "answer": "驚異",
+      "explanation": "「驚異」は「きょうい」と読みます。",
+      "explanationMy": "驚異 ၏ အသံထွက်မှာ きょうい ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q010",
+      "lessonId": "n2.l25",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「絶体絶命からの<u>きせき</u>的な勝利。」",
+      "choices": [
+        "奇跡",
+        "奇蹟",
+        "寄跡",
+        "祈跡"
+      ],
+      "answer": "奇跡",
+      "explanation": "「奇跡」は「きせき」と読みます。",
+      "explanationMy": "奇跡 ၏ အသံထွက်မှာ きせき ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q011",
+      "lessonId": "n2.l25",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「事態は<u>びみょう</u>な局面を迎えた。」",
+      "choices": [
+        "微妙",
+        "微秒",
+        "美妙",
+        "尾妙"
+      ],
+      "answer": "微妙",
+      "explanation": "「微妙」は「びみょう」と読みます。",
+      "explanationMy": "微妙 ၏ အသံထွက်မှာ びみょう ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q012",
+      "lessonId": "n2.l25",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「驚」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "うま（馬）",
+        "りっしんべん（忄）",
+        "のぶん（攵）",
+        "うし（牛）"
+      ],
+      "answer": "うま（馬）",
+      "explanation": "「驚」の部首は下部の「うま（馬）」です。",
+      "explanationMy": "「驚」၏ အစိတ်အပိုင်းမှာ '馬' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q013",
+      "lessonId": "n2.l25",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「奇」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "だい（大）",
+        "くち（口）",
+        "ひと（人）",
+        "いち（一）"
+      ],
+      "answer": "だい（大）",
+      "explanation": "「奇」の部首は「だい（大）」です。",
+      "explanationMy": "「奇」၏ အစိတ်အပိုင်းမှာ '大' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q014",
+      "lessonId": "n2.l25",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「妙」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "おんな・おんなへん（女）",
+        "すくない（少）",
+        "こころ（心）",
+        "ゆみ（弓）"
+      ],
+      "answer": "おんな・おんなへん（女）",
+      "explanation": "「妙」の部首は「おんな・おんなへん（女）」です。",
+      "explanationMy": "「妙」၏ အစိတ်အပိုင်းမှာ '女' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q015",
+      "lessonId": "n2.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「晴れる（　）、突然激しい雷雨に見舞われた。」",
+      "choices": [
+        "と思いきや",
+        "どころか",
+        "かと思ったら",
+        "ばかりでなく"
+      ],
+      "answer": "と思いきや",
+      "explanation": "晴れるという予想に反して雷雨になったことを表す「と思いきや」が適切です。",
+      "explanationMy": "နေသာမည် ထင်မှတ်ခဲ့သော်လည်း မိုးရွာချလာခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q016",
+      "lessonId": "n2.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「感謝される（　）、逆に文句を言われて腹が立った。」",
+      "choices": [
+        "どころか",
+        "と思いきや",
+        "かと思ったら",
+        "上に"
+      ],
+      "answer": "どころか",
+      "explanation": "感謝されるどころか正反対の文句を言われた落差を表す「どころか」が適切です。",
+      "explanationMy": "ကျေးဇူးတင်ခံရဖို့ နေနေသာသာ အပြစ်တင်ခံခဲ့ရသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q017",
+      "lessonId": "n2.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「さっきまで泣いていた（　）、もう笑って遊んでいる。」",
+      "choices": [
+        "かと思ったら",
+        "と思いきや",
+        "どころか",
+        "に加えて"
+      ],
+      "answer": "かと思ったら",
+      "explanation": "泣いていたと思ったら即座に笑い始めた急変を表す「かと思ったら」が適切です。",
+      "explanationMy": "ငိုနေသည် ထင်မှတ်လိုက်ရုံရှိသေး ရယ်မောဆော့ကစားနေသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q018",
+      "lessonId": "n2.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「静かな村（　）、世界的な観光地として大変な賑わいを見せている。」",
+      "choices": [
+        "と思いきや",
+        "どころか",
+        "かと思ったら",
+        "を限りに"
+      ],
+      "answer": "と思いきや",
+      "explanation": "静かだという予想を覆す賑わいを表す「と思いきや」が適切です。",
+      "explanationMy": "တိတ်ဆိတ်သော ရွာကလေးထင်မှတ်ခဲ့သော်လည်း အလွန်စည်ကားနေသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q019",
+      "lessonId": "n2.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「英語（　）、日本語すら覚束ないのに海外赴任が決まった。」",
+      "choices": [
+        "どころか",
+        "と思いきや",
+        "かと思ったら",
+        "反面"
+      ],
+      "answer": "どころか",
+      "explanation": "英語はもちろんのこと日本語すら危ういという極端な対比を表す「どころか」が適切です。",
+      "explanationMy": "အင်္ဂလိပ်စကား ဝေးစွ ဂျပန်စကားပင် မရေမရာဖြစ်နေသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q020",
+      "lessonId": "n2.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「電車が到着した（　）、一斉に乗客がホームへ押し寄せた。」",
+      "choices": [
+        "かと思ったら",
+        "と思いきや",
+        "どころか",
+        "っこない"
+      ],
+      "answer": "かと思ったら",
+      "explanation": "到着直後に一斉に押し寄せた変化を表す「かと思ったら」が適切です。",
+      "explanationMy": "ရထားဆိုက်ရောက်လာသည် ထင်လိုက်ရုံရှိသေး လူများတိုးဝှေ့လာသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q021",
+      "lessonId": "n2.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「簡単な質問で終わる（　）、1時間に及ぶ厳しい追及が続いた。」",
+      "choices": [
+        "と思いきや",
+        "どころか",
+        "かと思ったら",
+        "ものの"
+      ],
+      "answer": "と思いきや",
+      "explanation": "簡単に終わるという予測を覆す厳しい追及を表す「と思いきや」が適切です。",
+      "explanationMy": "ရိုးရိုးမေးခွန်းဖြင့် ပြီးမည်ထင်သော်လည်း တစ်နာရီကြာ စစ်ဆေးခံရသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q022",
+      "lessonId": "n2.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「利益が出る（　）、莫大な損失を出してプロジェクトは中止された。」",
+      "choices": [
+        "どころか",
+        "と思いきや",
+        "かと思ったら",
+        "得ない"
+      ],
+      "answer": "どころか",
+      "explanation": "利益どころか正反対の莫大な損失が出たことを表す「どころか」が適切です。",
+      "explanationMy": "အမြတ်ထွက်ဖို့ နေနေသာသာ အရှုံးကြီးရှုံးခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q023",
+      "lessonId": "n2.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「春らしく暖かくなった（　）、翌日には雪がちらついた。」",
+      "choices": [
+        "かと思ったら",
+        "と思いきや",
+        "どころか",
+        "を通じて"
+      ],
+      "answer": "かと思ったら",
+      "explanation": "暖かくなった直後に急激に寒くなって雪が降る変化を表す「かと思ったら」が適切です。",
+      "explanationMy": "နွေးထွေးလာသည် ထင်လိုက်ရုံရှိသေး နောက်တစ်နေ့တွင် နှင်းကျခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q024",
+      "lessonId": "n2.l25",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜どころか」の用法として最も自然な文を選びなさい。",
+      "choices": [
+        "彼は旅行を楽しむどころか、現地で高熱を出して寝込んでいた。",
+        "彼は勉強するどころか、満点を取って喜んでいた。",
+        "毎日走るどころか、健康になってよかった。",
+        "映画を見るどころか、映画館でポップコーンを食べた。"
+      ],
+      "answer": "彼は旅行を楽しむどころか、現地で高熱を出して寝込んでいた。",
+      "explanation": "楽しむという期待からかけ離れて寝込んでしまったという極端なマイナス状況を表す正しい用法です。",
+      "explanationMy": "ခရီးသွားရင်း ပျော်ရွှင်ဖို့ ဝေးစွ အဖျားကြီးပြီး အိပ်ရာထဲလဲနေခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q025",
+      "lessonId": "n2.l25",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において、偉大な科学的発見が生まれる契機として述べられているものはどれか。",
+      "choices": [
+        "事前の予測通りに一切の狂いなく実験が完了すること",
+        "失敗と思われた予期せぬ事態から思いもよらない物質や結果が生じること",
+        "既存の常識と理論に厳密に従い、新しい試みを避けること",
+        "予想外の実験結果が出た段階で直ちに研究を中止すること"
+      ],
+      "answer": "失敗と思われた予期せぬ事態から思いもよらない物質や結果が生じること",
+      "explanation": "本文第1段落に「失敗に終わるかと思いきや、思いもよらない画期的な物質が生成されていたという予期せぬ事態からブレイクスルーが生まれるケースが実に多い」とあります。",
+      "explanationMy": "ကျရှုံးပြီဟု ထင်မှတ်ရာမှ မမျှော်လင့်ဘဲ ရလဒ်သစ်များ ထွက်ပေါ်လာခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q026",
+      "lessonId": "n2.l25",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "筆者が主張する、真のイノベーションを生み出すために不可欠な姿勢は何か。",
+      "choices": [
+        "予想外の異変を即座にエラーとして破棄すること",
+        "不可解な異変や理論の矛盾に対して「なぜ」と深く探求する好奇心を持つこと",
+        "失敗を一切認めない完璧主義の企業風土を徹底すること",
+        "他人の研究成果のみを模倣して安全に結果を出すこと"
+      ],
+      "answer": "不可解な異変や理論の矛盾に対して「なぜ」と深く探求する好奇心を持つこと",
+      "explanation": "本文第2段落に「『なぜ奇妙な現象が生じたのか』という深い好奇心を抱くことが不可欠なのである」と述べられています。",
+      "explanationMy": "ထူးဆန်းသော ဖြစ်စဉ်အပေါ် 'အဘယ်ကြောင့်' ဟု နက်နက်ရှိုင်းရှိုင်း စူးစမ်းလိုစိတ် မွေးမြူခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q027",
+      "lessonId": "n2.l25",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "常識が通用しない事態に直面した際の先駆者の捉え方として合致するものはどれか。",
+      "choices": [
+        "未知の扉が開かれた予兆として直感する",
+        "実験の失敗に絶望して研究テーマを変更する",
+        "常識に合うようにデータを改ざんして帳尻を合わせる",
+        "上司の指示を仰ぎ、指示があるまで一切の作業を止める"
+      ],
+      "answer": "未知の扉が開かれた予兆として直感する",
+      "explanation": "本文最終段落に「未知の扉が開かれた予兆と直感するか。その認識の差こそが、平凡な研究者と歴史を変える先駆者を分かつ」とあります。",
+      "explanationMy": "မသိသေးသော ကမ္ဘာဆီသို့ တံခါးပွင့်သွားသော နိမိတ်လက္ခဏာအဖြစ် ရှုမြင်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q028",
+      "lessonId": "n2.l25",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "新製品の操作性について、林主任はどのように報告しているか。",
+      "choices": [
+        "機能が多すぎてユーザーが混乱し、苦情が殺到している",
+        "機能が多くて戸惑うかと思いきや、直感的なUIで使いやすいと好評である",
+        "機能が少なすぎて物足りないと不満を持たれている",
+        "操作マニュアルを読まなければ全く動かせない状態である"
+      ],
+      "answer": "機能が多くて戸惑うかと思いきや、直感的なUIで使いやすいと好評である",
+      "explanation": "林主任が「機能が多すぎて操作に戸惑うかと思いきや、直感的なUIのおかげで非常に使いやすいと好評です」と述べています。",
+      "explanationMy": "လုပ်ဆောင်ချက်များလို့ ရှုပ်ထွေးမလား ထင်သော်လည်း UI ကြောင့် အလွန်သုံးရလွယ်ကူသည်ဟု အစီရင်ခံထားသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q029",
+      "lessonId": "n2.l25",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "製品の売れ行きについて、高橋部長の発言に合致するものはどれか。",
+      "choices": [
+        "価格が高いため全く売れていない",
+        "売れ行きが鈍るどころか、予約が殺到している",
+        "値下げキャンペーンをして初めて売れ始めた",
+        "初期不良が多発して販売停止になった"
+      ],
+      "answer": "売れ行きが鈍るどころか、予約が殺到している",
+      "explanation": "高橋部長が「売れ行きが鈍るどころか、予約が殺到していると聞いたが？」と述べています。",
+      "explanationMy": "အရောင်းထိုင်းဖို့ ဝေးစွ ကြိုတင်မှာယူမှုများ တိုးပွားနေခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l25.q030",
+      "lessonId": "n2.l25",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "在庫切れに対する顧客の実際の反応はどうであったか。",
+      "choices": [
+        "激しいクレームが相次ぎ、炎上騒ぎになった",
+        "返金を求めるキャンセルが大量に発生した",
+        "クレームになるかと思ったら、増産アナウンスに応援コメントが多数寄せられた",
+        "顧客が完全に無関心で何も反応しなかった"
+      ],
+      "answer": "クレームになるかと思ったら、増産アナウンスに応援コメントが多数寄せられた",
+      "explanation": "林主任が「クレームになるかと思ったら、増産のアナウンスに顧客から応援のコメントが多数寄せられております」と答えています。",
+      "explanationMy": "တိုင်ကြားခံရမည် ထင်သော်လည်း ထုတ်လုပ်မှုတိုးမြှင့်ကြေညာချက်အပေါ် အားပေးစကားများ ရရှိခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l25.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+}

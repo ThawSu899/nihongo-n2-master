@@ -1,0 +1,1797 @@
+import { LessonPack } from '../../../models/types';
+
+export const n2l55Data: LessonPack = {
+  "id": "n2.l55",
+  "level": "N2",
+  "module": "N2 Mastery & Professional Japanese",
+  "number": 55,
+  "title": "N2 Lesson 55: Relational Perspectives & Roles (〜の立場から・〜として・〜にあって)",
+  "description": "Mastery module focusing on Stakeholder Standpoints, Designated Roles, and Situational Contexts: subjective situational angles (の立場から), qualified capacities or titles (として), and elevated existential environments (にあって).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l55.v001",
+      "lessonId": "n2.l55",
+      "ja": "視点",
+      "kana": "してん",
+      "en": "point of view / perspective",
+      "my": "ရှုထောင့်",
+      "meaningMy": "ရှုထောင့်",
+      "meaningMyanmar": "ရှုထောင့်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l55.s001",
+      "kanjiIds": [
+        "n2.l55.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.v002",
+      "lessonId": "n2.l55",
+      "ja": "視野",
+      "kana": "しや",
+      "en": "field of vision / outlook",
+      "my": "အမြင်နယ်ပယ်",
+      "meaningMy": "အမြင်နယ်ပယ်",
+      "meaningMyanmar": "အမြင်နယ်ပယ်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l55.s002",
+      "kanjiIds": [
+        "n2.l55.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.v003",
+      "lessonId": "n2.l55",
+      "ja": "重視",
+      "kana": "じゅうし",
+      "en": "importance / emphasis",
+      "my": "အလေးထားခြင်း",
+      "meaningMy": "အလေးထားခြင်း",
+      "meaningMyanmar": "အလေးထားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l55.s003",
+      "kanjiIds": [
+        "n2.l55.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.v004",
+      "lessonId": "n2.l55",
+      "ja": "観点",
+      "kana": "かんてん",
+      "en": "viewpoint / angle",
+      "my": "အကဲဖြတ်ရှုထောင့်",
+      "meaningMy": "အကဲဖြတ်ရှုထောင့်",
+      "meaningMyanmar": "အကဲဖြတ်ရှုထောင့်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l55.s004",
+      "kanjiIds": [
+        "n2.l55.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.v005",
+      "lessonId": "n2.l55",
+      "ja": "価値観",
+      "kana": "かちかん",
+      "en": "values / value system",
+      "my": "တန်ဖိုးထားမှုစံနှုန်း",
+      "meaningMy": "တန်ဖိုးထားမှုစံနှုန်း",
+      "meaningMyanmar": "တန်ဖိုးထားမှုစံနှုန်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l55.s005",
+      "kanjiIds": [
+        "n2.l55.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.v006",
+      "lessonId": "n2.l55",
+      "ja": "客観",
+      "kana": "きゃっかん",
+      "en": "objectivity",
+      "my": "ဓမ္မဓိဋ္ဌာန်ကျမှု",
+      "meaningMy": "ဓမ္မဓိဋ္ဌာန်ကျမှု",
+      "meaningMyanmar": "ဓမ္မဓိဋ္ဌာန်ကျမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l55.s006",
+      "kanjiIds": [
+        "n2.l55.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.v007",
+      "lessonId": "n2.l55",
+      "ja": "環境",
+      "kana": "かんきょう",
+      "en": "environment / surroundings",
+      "my": "ပတ်ဝန်းကျင်",
+      "meaningMy": "ပတ်ဝန်းကျင်",
+      "meaningMyanmar": "ပတ်ဝန်းကျင်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l55.s007",
+      "kanjiIds": [
+        "n2.l55.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.v008",
+      "lessonId": "n2.l55",
+      "ja": "境遇",
+      "kana": "きょうぐう",
+      "en": "environment / circumstances",
+      "my": "ဘဝအခြေအနေ",
+      "meaningMy": "ဘဝအခြေအနေ",
+      "meaningMyanmar": "ဘဝအခြေအနေ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l55.s008",
+      "kanjiIds": [
+        "n2.l55.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.v009",
+      "lessonId": "n2.l55",
+      "ja": "代表",
+      "kana": "だいひょう",
+      "en": "representative / delegate",
+      "my": "ကိုယ်စားလှယ်",
+      "meaningMy": "ကိုယ်စားလှယ်",
+      "meaningMyanmar": "ကိုယ်စားလှယ်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l55.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.v010",
+      "lessonId": "n2.l55",
+      "ja": "専門家",
+      "kana": "せんもんか",
+      "en": "specialist / expert",
+      "my": "ကျွမ်းကျင်ပညာရှင်",
+      "meaningMy": "ကျွမ်းကျင်ပညာရှင်",
+      "meaningMyanmar": "ကျွမ်းကျင်ပညာရှင်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l55.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.v011",
+      "lessonId": "n2.l55",
+      "ja": "逆境",
+      "kana": "ぎゃっきょう",
+      "en": "adversity / hardship",
+      "my": "ဆင်းရဲဒုက္ခ / အခက်အခဲ",
+      "meaningMy": "ဆင်းရဲဒုက္ခ / အခက်အခဲ",
+      "meaningMyanmar": "ဆင်းရဲဒုက္ခ / အခက်အခဲ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l55.s011",
+      "kanjiIds": [
+        "n2.l55.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.v012",
+      "lessonId": "n2.l55",
+      "ja": "責務",
+      "kana": "せきむ",
+      "en": "duty / obligation",
+      "my": "တာဝန်ဝတ္တရား",
+      "meaningMy": "တာဝန်ဝတ္တရား",
+      "meaningMyanmar": "တာဝန်ဝတ္တရား",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l55.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l55.k001",
+      "lessonId": "n2.l55",
+      "char": "視",
+      "meaning": "Inspect / Regard / Look / Vision",
+      "meaningMy": "ကြည့်ရှုသည် / အကဲခတ်သည် / စစ်ဆေးသည်",
+      "meaningMyanmar": "ကြည့်ရှုသည် / အကဲခတ်သည် / စစ်ဆေးသည်",
+      "onyomi": [
+        "シ"
+      ],
+      "kunyomi": [
+        "み・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "視点",
+          "reading": "してん",
+          "meaning": "point of view / perspective",
+          "meaningMy": "ရှုထောင့် / အမြင်",
+          "preview": true
+        },
+        {
+          "word": "視野",
+          "reading": "しや",
+          "meaning": "field of vision / outlook",
+          "meaningMy": "အမြင်နယ်ပယ်",
+          "preview": false
+        },
+        {
+          "word": "重視",
+          "reading": "じゅうし",
+          "meaning": "importance / emphasis",
+          "meaningMy": "အလေးထားခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l55.s001"
+      ],
+      "components": [
+        "示",
+        "見"
+      ],
+      "strokes": 11,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.k002",
+      "lessonId": "n2.l55",
+      "char": "観",
+      "meaning": "View / Outlook / Observe / Appearance",
+      "meaningMy": "ရှုမြင်သည် / စောင့်ကြည့်သည် / အမြင်",
+      "meaningMyanmar": "ရှုမြင်သည် / စောင့်ကြည့်သည် / အမြင်",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [
+        "み・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "観点",
+          "reading": "かんてん",
+          "meaning": "viewpoint / perspective",
+          "meaningMy": "အကဲဖြတ်ရှုထောင့်",
+          "preview": true
+        },
+        {
+          "word": "価値観",
+          "reading": "かちかん",
+          "meaning": "values / value system",
+          "meaningMy": "တန်ဖိုးထားမှုစံနှုန်း",
+          "preview": false
+        },
+        {
+          "word": "客観",
+          "reading": "きゃっかん",
+          "meaning": "objectivity",
+          "meaningMy": "ဓမ္မဓိဋ္ဌာန်ကျမှု",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l55.s002"
+      ],
+      "components": [
+        "雚",
+        "見"
+      ],
+      "strokes": 18,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.k003",
+      "lessonId": "n2.l55",
+      "char": "境",
+      "meaning": "Boundary / Border / Environment / Lot",
+      "meaningMy": "နယ်နိမိတ် / နယ်စပ် / ပတ်ဝန်းကျင် / အခြေအနေ",
+      "meaningMyanmar": "နယ်နိမိတ် / နယ်စပ် / ပတ်ဝန်းကျင် / အခြေအနေ",
+      "onyomi": [
+        "キョウ",
+        "ケイ"
+      ],
+      "kunyomi": [
+        "さかい"
+      ],
+      "exampleVocab": [
+        {
+          "word": "環境",
+          "reading": "かんきょう",
+          "meaning": "environment / surroundings",
+          "meaningMy": "ပတ်ဝန်းကျင်",
+          "preview": true
+        },
+        {
+          "word": "境遇",
+          "reading": "きょうぐう",
+          "meaning": "environment / circumstances",
+          "meaningMy": "ဘဝအခြေအနေ",
+          "preview": false
+        },
+        {
+          "word": "境界",
+          "reading": "きょうかい",
+          "meaning": "boundary / border",
+          "meaningMy": "နယ်နိမိတ်မျဉ်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l55.s003"
+      ],
+      "components": [
+        "土",
+        "竟"
+      ],
+      "strokes": 14,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l55.g001",
+      "lessonId": "n2.l55",
+      "pattern": "〜の立場から（見ると・言えば）",
+      "meaning": "From the standpoint of... / Viewed from the perspective of...",
+      "meaningMy": "...၏ ရှုထောင့်မှကြည့်လျှင် / ...၏ အနေအထားမှပြောရလျှင်",
+      "meaningMyanmar": "...၏ ရှုထောင့်မှကြည့်လျှင် / ...၏ အနေအထားမှပြောရလျှင်",
+      "formation": "N + の立場から / の立場からすると",
+      "explanation": {
+        "en": "Expresses an opinion, evaluation, or complaint adopted specifically through the vested lens and situational reality of a designated stakeholder.",
+        "my": "သက်ဆိုင်သူ သို့မဟုတ် ကဏ္ဍတစ်ခု၏ သီးသန့် အနေအထားနှင့် အကျိုးစီးပွား ရှုထောင့်မှ သုံးသပ်အကဲဖြတ်ရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "သက်ဆိုင်သူ သို့မဟုတ် ကဏ္ဍတစ်ခု၏ သီးသန့် အနေအထားနှင့် အကျိုးစီးပွား ရှုထောင့်မှ သုံးသပ်အကဲဖြတ်ရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l55.s001",
+          "note": "〜の立場から（見ると・言えば） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l55.s002",
+          "note": "〜の立場から（見ると・言えば） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l55.s003",
+          "note": "〜の立場から（見ると・言えば） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l55.s010",
+          "note": "〜の立場から（見ると・言えば） usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l55.g001",
+        "n2.l55.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜の立場から（見ると・言えば）."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "消費者の［　］から見れば、製品の安全性こそが最優先事項である。",
+      "clozeTarget": "立場",
+      "clozeHint": "Standpoint (tachiba)",
+      "acceptableSynonyms": [
+        "〜の観点から",
+        "〜の視点から"
+      ],
+      "nuanceExplanationMy": "သီးသန့် လူပုဂ္ဂိုလ် သို့မဟုတ် အဖွဲ့၏ အကျိုးစီးပွားရှုထောင့်ကို ကိုယ်စားပြုသည်။"
+    },
+    {
+      "id": "n2.l55.g002",
+      "lessonId": "n2.l55",
+      "pattern": "〜として（は）",
+      "meaning": "As... / In the capacity of... / In the role of...",
+      "meaningMy": "...အနေဖြင့် / ...အဖြစ်နှင့် (ရာထူး၊ အခန်းကဏ္ဍ၊ အရည်အချင်း)",
+      "meaningMyanmar": "...အနေဖြင့် / ...အဖြစ်နှင့် (ရာထူး၊ အခန်းကဏ္ဍ၊ အရည်အချင်း)",
+      "formation": "N + として / としては / としても",
+      "explanation": {
+        "en": "Identifies the official title, social qualification, recognized role, or category under which someone acts or expresses a view.",
+        "my": "မိမိ၏ လူမှုရေးရာထူး၊ တာဝန်၊ အရည်အချင်း သို့မဟုတ် အမျိုးအစားကို ဖော်ပြပြီး ထိုအနေအထားဖြင့် ပြောဆိုလုပ်ဆောင်သည့်အခါ သုံးသည်။"
+      },
+      "explanationMy": "မိမိ၏ လူမှုရေးရာထူး၊ တာဝန်၊ အရည်အချင်း သို့မဟုတ် အမျိုးအစားကို ဖော်ပြပြီး ထိုအနေအထားဖြင့် ပြောဆိုလုပ်ဆောင်သည့်အခါ သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l55.s004",
+          "note": "〜として（は） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l55.s005",
+          "note": "〜として（は） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l55.s006",
+          "note": "〜として（は） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l55.s011",
+          "note": "〜として（は） usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l55.g001",
+        "n2.l55.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜として（は）."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "私はこの学校の代表［　］、国際会議のスピーチを担当いたします。",
+      "clozeTarget": "として",
+      "clozeHint": "As / in the role of (to shite)",
+      "acceptableSynonyms": [
+        "〜の資格で",
+        "〜の立場で"
+      ],
+      "nuanceExplanationMy": "တရားဝင် ရာထူး သို့မဟုတ် အခန်းကဏ္ဍကို အခြေခံ၍ သုံးသည်။"
+    },
+    {
+      "id": "n2.l55.g003",
+      "lessonId": "n2.l55",
+      "pattern": "〜にあって",
+      "meaning": "In (a special circumstance, extraordinary situation, or era)",
+      "meaningMy": "...သည့် အခြေအနေမျိုးတွင် / ...သည့် ခေတ်ကာလတွင် (ထူးခြားသော အခြေအနေ)",
+      "meaningMyanmar": "...သည့် အခြေအနေမျိုးတွင် / ...သည့် ခေတ်ကာလတွင် (ထူးခြားသော အခြေအနေ)",
+      "formation": "N + にあって / にあっても",
+      "explanation": {
+        "en": "A literary and formal structure depicting an action, attitude, or struggle situated in an extraordinary environment, dire crisis, or historical era.",
+        "my": "အကျပ်အတည်း၊ ဆင်းရဲဒုက္ခ သို့မဟုတ် သမိုင်းဝင်ခေတ်ကာလကဲ့သို့သော ထူးခြားသည့် အခြေအနေတစ်ခုအတွင်း ဖြစ်ပေါ်နေခြင်းကို ခမ်းနားလေးနက်စွာ ဖော်ပြသည်။"
+      },
+      "explanationMy": "အကျပ်အတည်း၊ ဆင်းရဲဒုက္ခ သို့မဟုတ် သမိုင်းဝင်ခေတ်ကာလကဲ့သို့သော ထူးခြားသည့် အခြေအနေတစ်ခုအတွင်း ဖြစ်ပေါ်နေခြင်းကို ခမ်းနားလေးနက်စွာ ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l55.s007",
+          "note": "〜にあって usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l55.s008",
+          "note": "〜にあって usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l55.s009",
+          "note": "〜にあって usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l55.s012",
+          "note": "〜にあって usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l55.g001",
+        "n2.l55.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜にあって."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "激動の国際情勢［　］、わが国は確固たる外交方針を堅持しなければならない。",
+      "clozeTarget": "にあって",
+      "clozeHint": "In the circumstance of (ni atte)",
+      "acceptableSynonyms": [
+        "〜という状況において",
+        "〜のさなかにあって"
+      ],
+      "nuanceExplanationMy": "အထူးအခြေအနေ သို့မဟုတ် ခက်ခဲသော ပတ်ဝန်းကျင်ကို အလေးပေးဖော်ပြသည့် စာပေဆန်သော စကားဖြစ်သည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l55.s001",
+      "lessonId": "n2.l55",
+      "ja": "現場で働く労働者の立場からすれば、労働環境の改善こそが最優先の課題である。",
+      "kana": "げんばではたらくろうどうしゃのたちばからすれば、ろうどうかんきょうのかいぜんこそがさいゆうせんのかだいである。",
+      "translation": {
+        "en": "From the standpoint of laborers working on site, improving the work environment is indeed the top priority task.",
+        "my": "လုပ်ငန်းခွင်တွင် လုပ်ကိုင်နေသော အလုပ်သမားများ၏ ရှုထောင့်မှကြည့်လျှင် အလုပ်ခွင် ပတ်ဝန်းကျင် ကောင်းမွန်ရေးသည်သာ အဓိက ဦးစားပေး ပြဿနာ ဖြစ်သည်။"
+      },
+      "translationMy": "လုပ်ငန်းခွင်တွင် လုပ်ကိုင်နေသော အလုပ်သမားများ၏ ရှုထောင့်မှကြည့်လျှင် အလုပ်ခွင် ပတ်ဝန်းကျင် ကောင်းမွန်ရေးသည်သာ အဓိက ဦးစားပေး ပြဿနာ ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l55.v007"
+      ],
+      "grammarIds": [
+        "n2.l55.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.s002",
+      "lessonId": "n2.l55",
+      "ja": "経営者の立場から考えると、長期的な収益性と社会的信用の両立を重視せざるを得ない。",
+      "kana": "けいえいしゃのたちばからかんがえると、ちょうきてきなしゅうえきせいとしゃかいてきしんようのりょうりつをじゅうしせざるをえない。",
+      "translation": {
+        "en": "Considering from the manager's standpoint, one cannot help but emphasize both long-term profitability and public trust.",
+        "my": "လုပ်ငန်းရှင်၏ ရှုထောင့်မှ စဉ်းစားပါက ရေရှည် အမြတ်ရရှိမှုနှင့် လူမှုရေး ယုံကြည်ကိုးစားမှု နှစ်ရပ်စလုံးကို အလေးမထားဘဲ မနေနိုင်ပေ။"
+      },
+      "translationMy": "လုပ်ငန်းရှင်၏ ရှုထောင့်မှ စဉ်းစားပါက ရေရှည် အမြတ်ရရှိမှုနှင့် လူမှုရေး ယုံကြည်ကိုးစားမှု နှစ်ရပ်စလုံးကို အလေးမထားဘဲ မနေနိုင်ပေ။",
+      "vocabIds": [
+        "n2.l55.v003"
+      ],
+      "grammarIds": [
+        "n2.l55.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.s003",
+      "lessonId": "n2.l55",
+      "ja": "多角的な視点や客観的な観点を取り入れることで、偏った価値観を是正できる。",
+      "kana": "たかくてきなしてんやきゃっかんてきなかんてんをとりいれることで、かたよったかちかんをぜせいできる。",
+      "translation": {
+        "en": "By incorporating multifaceted perspectives and objective viewpoints, one can correct skewed value systems.",
+        "my": "ဘက်ပေါင်းစုံ ရှုထောင့်များနှင့် ဓမ္မဓိဋ္ဌာန်ကျသော အမြင်များကို ထည့်သွင်းခြင်းဖြင့် ဘက်လိုက်နေသော တန်ဖိုးထားမှုများကို ပြင်ဆင်နိုင်သည်။"
+      },
+      "translationMy": "ဘက်ပေါင်းစုံ ရှုထောင့်များနှင့် ဓမ္မဓိဋ္ဌာန်ကျသော အမြင်များကို ထည့်သွင်းခြင်းဖြင့် ဘက်လိုက်နေသော တန်ဖိုးထားမှုများကို ပြင်ဆင်နိုင်သည်။",
+      "vocabIds": [
+        "n2.l55.v001",
+        "n2.l55.v004",
+        "n2.l55.v005",
+        "n2.l55.v006"
+      ],
+      "grammarIds": [
+        "n2.l55.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.s004",
+      "lessonId": "n2.l55",
+      "ja": "私は法務の専門家として、この契約書の法的妥当性を厳格に精査した。",
+      "kana": "わたしはほうむのせんもんかとして、このけいやくしょのほうてきだとうせいをげんかくにせいさした。",
+      "translation": {
+        "en": "As a legal specialist, I rigorously scrutinized the legal validity of this contract.",
+        "my": "ကျွန်ုပ်သည် ဥပဒေရေးရာ ကျွမ်းကျင်ပညာရှင် တစ်ဦးအနေဖြင့် ဤစာချုပ်၏ ဥပဒေနှင့် ညီညွတ်မှုကို တင်းကျပ်စွာ စိစစ်ခဲ့သည်။"
+      },
+      "translationMy": "ကျွန်ုပ်သည် ဥပဒေရေးရာ ကျွမ်းကျင်ပညာရှင် တစ်ဦးအနေဖြင့် ဤစာချုပ်၏ ဥပဒေနှင့် ညီညွတ်မှုကို တင်းကျပ်စွာ စိစစ်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l55.v010"
+      ],
+      "grammarIds": [
+        "n2.l55.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.s005",
+      "lessonId": "n2.l55",
+      "ja": "国民の信託を受けた代表として、国の未来を担う重い責務を全うする所存です。",
+      "kana": "こくみんのしんたくをうけただいひょうとして、くにのみらいをになうおもいせきむをまっとうするしょぞんです。",
+      "translation": {
+        "en": "As a representative entrusted by the populace, I intend to fulfill the heavy obligation of bearing the nation's future.",
+        "my": "ပြည်သူတို့၏ ယုံကြည်အပ်နှင်းမှုကို ခံယူထားသော ကိုယ်စားလှယ်တစ်ဦး အနေဖြင့် နိုင်ငံ၏ အနာဂတ်ကို ထမ်းဆောင်မည့် ကြီးလေးသော တာဝန်ဝတ္တရားကို အပြည့်အဝ ဖြည့်ဆည်းသွားပါမည်။"
+      },
+      "translationMy": "ပြည်သူတို့၏ ယုံကြည်အပ်နှင်းမှုကို ခံယူထားသော ကိုယ်စားလှယ်တစ်ဦး အနေဖြင့် နိုင်ငံ၏ အနာဂတ်ကို ထမ်းဆောင်မည့် ကြီးလေးသော တာဝန်ဝတ္တရားကို အပြည့်အဝ ဖြည့်ဆည်းသွားပါမည်။",
+      "vocabIds": [
+        "n2.l55.v009",
+        "n2.l55.v012"
+      ],
+      "grammarIds": [
+        "n2.l55.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.s006",
+      "lessonId": "n2.l55",
+      "ja": "富士山は日本の象徴として、世界遺産にも登録され広く親しまれている。",
+      "kana": "ふじさんはにほんのしょうちょうとして、せかいいさんにもとうろくされひろくしたしまれている。",
+      "translation": {
+        "en": "Mount Fuji, as a symbol of Japan, is inscribed on the World Heritage list and widely cherished.",
+        "my": "ဖူဂျီတောင်သည် ဂျပန်နိုင်ငံ၏ သင်္ကေတတစ်ခု အနေဖြင့် ကမ္ဘာ့အမွေအနှစ်အဖြစ် စာရင်းသွင်းခံရပြီး အများပြည်သူ ချစ်ခင်မြတ်နိုးကြသည်။"
+      },
+      "translationMy": "ဖူဂျီတောင်သည် ဂျပန်နိုင်ငံ၏ သင်္ကေတတစ်ခု အနေဖြင့် ကမ္ဘာ့အမွေအနှစ်အဖြစ် စာရင်းသွင်းခံရပြီး အများပြည်သူ ချစ်ခင်မြတ်နိုးကြသည်။",
+      "vocabIds": [
+        "n2.l55.v009"
+      ],
+      "grammarIds": [
+        "n2.l55.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.s007",
+      "lessonId": "n2.l55",
+      "ja": "激しい経済摩擦と国際紛争の嵐にあって、指導者には広い視野が求められる。",
+      "kana": "はげしいけいざいまさつとこくさいふんそうのあらしにあって、しどうしゃにはひろいしやがもとめられる。",
+      "translation": {
+        "en": "In the tempest of fierce economic frictions and international conflicts, broad vision is required of leaders.",
+        "my": "ပြင်းထန်သော စီးပွားရေး ပွတ်တိုက်မှုများနှင့် နိုင်ငံတကာ ပဋိပက္ခ မုန်တိုင်းများကြားတွင် ခေါင်းဆောင်များထံမှ ကျယ်ပြန့်သော အမြင်နယ်ပယ်ကို တောင်းဆိုနေသည်။"
+      },
+      "translationMy": "ပြင်းထန်သော စီးပွားရေး ပွတ်တိုက်မှုများနှင့် နိုင်ငံတကာ ပဋိပက္ခ မုန်တိုင်းများကြားတွင် ခေါင်းဆောင်များထံမှ ကျယ်ပြန့်သော အမြင်နယ်ပယ်ကို တောင်းဆိုနေသည်။",
+      "vocabIds": [
+        "n2.l55.v002"
+      ],
+      "grammarIds": [
+        "n2.l55.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.s008",
+      "lessonId": "n2.l55",
+      "ja": "過酷な逆境にあっても、彼は希望を失わず前向きに生き抜いた。",
+      "kana": "かこくなぎゃっきょうにあっても、かれはきぼうをうしなわずまえむきにいきぬいた。",
+      "translation": {
+        "en": "Even in severe adversity, he did not lose hope and lived through positively.",
+        "my": "ကြမ်းတမ်းသော ဆင်းရဲဒုက္ခ အခက်အခဲများ ကြုံရသည့် အခြေအနေတွင်ပင် သူသည် မျှော်လင့်ချက် မဆုံးရှုံးဘဲ အကောင်းမြင်စိတ်ဖြင့် ရှင်သန်ကျော်လွှားခဲ့သည်။"
+      },
+      "translationMy": "ကြမ်းတမ်းသော ဆင်းရဲဒုက္ခ အခက်အခဲများ ကြုံရသည့် အခြေအနေတွင်ပင် သူသည် မျှော်လင့်ချက် မဆုံးရှုံးဘဲ အကောင်းမြင်စိတ်ဖြင့် ရှင်သန်ကျော်လွှားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l55.v011"
+      ],
+      "grammarIds": [
+        "n2.l55.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.s009",
+      "lessonId": "n2.l55",
+      "ja": "不遇な境遇にあって培われた強い忍耐力が、彼の人生を支える礎となった。",
+      "kana": "ふぐうなきょうぐうにあってつちかわれたつよいにんたいりょくが、かれのじんせいをささえるいしずえとなった。",
+      "translation": {
+        "en": "The formidable patience cultivated while situated in unfortunate circumstances became the foundation supporting his life.",
+        "my": "ကံမကောင်းသော ဘဝအခြေအနေတွင် ကြီးပြင်းရှင်သန်ခဲ့ရစဉ် မွေးမြူခဲ့သည့် ခိုင်မာသော သည်းခံစိတ်သည် သူ၏ ဘဝကို ထောက်ကန်ပေးသည့် အုတ်မြစ် ဖြစ်လာခဲ့သည်။"
+      },
+      "translationMy": "ကံမကောင်းသော ဘဝအခြေအနေတွင် ကြီးပြင်းရှင်သန်ခဲ့ရစဉ် မွေးမြူခဲ့သည့် ခိုင်မာသော သည်းခံစိတ်သည် သူ၏ ဘဝကို ထောက်ကန်ပေးသည့် အုတ်မြစ် ဖြစ်လာခဲ့သည်။",
+      "vocabIds": [
+        "n2.l55.v008"
+      ],
+      "grammarIds": [
+        "n2.l55.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.s010",
+      "lessonId": "n2.l55",
+      "ja": "消費者の視点に立ち、客観的な観点から利便性を重視した新商品を開発した。",
+      "kana": "しょうひしゃのしてんにたち、きゃっかんてきなかんてんからりべんせいをじゅうししたしんしょうひんをかいはつした。",
+      "translation": {
+        "en": "Standing in consumers' perspective, we developed new products emphasizing convenience from objective viewpoints.",
+        "my": "စားသုံးသူများ၏ ရှုထောင့်တွင် ရပ်တည်ကာ ဓမ္မဓိဋ္ဌာန်ကျသော အမြင်မှ အသုံးဝင်အဆင်ပြေမှုကို အလေးထားသည့် ထုတ်ကုန်သစ်များကို တီထွင်ခဲ့သည်။"
+      },
+      "translationMy": "စားသုံးသူများ၏ ရှုထောင့်တွင် ရပ်တည်ကာ ဓမ္မဓိဋ္ဌာန်ကျသော အမြင်မှ အသုံးဝင်အဆင်ပြေမှုကို အလေးထားသည့် ထုတ်ကုန်သစ်များကို တီထွင်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l55.v001",
+        "n2.l55.v003",
+        "n2.l55.v004",
+        "n2.l55.v006"
+      ],
+      "grammarIds": [
+        "n2.l55.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.s011",
+      "lessonId": "n2.l55",
+      "ja": "一人の教育者として、児童の健やかな成長環境を守る責務を果たす。",
+      "kana": "ひとりのきょういくしゃとして、じどうのすこやかなせいちょうかんきょうをまもるせきむをはたす。",
+      "translation": {
+        "en": "As an educator, I fulfill the obligation of safeguarding children's healthy growth environment.",
+        "my": "ပညာရေးဝန်ထမ်း တစ်ဦးအနေဖြင့် ကလေးငယ်များ၏ ကျန်းမာသန်စွမ်းစွာ ကြီးပြင်းရေး ပတ်ဝန်းကျင်ကို ကာကွယ်စောင့်ရှောက်မည့် တာဝန်ကို ဖြည့်ဆည်းသည်။"
+      },
+      "translationMy": "ပညာရေးဝန်ထမ်း တစ်ဦးအနေဖြင့် ကလေးငယ်များ၏ ကျန်းမာသန်စွမ်းစွာ ကြီးပြင်းရေး ပတ်ဝန်းကျင်ကို ကာကွယ်စောင့်ရှောက်မည့် တာဝန်ကို ဖြည့်ဆည်းသည်။",
+      "vocabIds": [
+        "n2.l55.v007",
+        "n2.l55.v012"
+      ],
+      "grammarIds": [
+        "n2.l55.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l55.s012",
+      "lessonId": "n2.l55",
+      "ja": "困難な変革期にあって、旧来の固定観念にとらわれない柔軟な対応が不可欠だ。",
+      "kana": "こんなんなへんかくきにあって、きゅうらいのこていかんねんにとらわれないじゅうなんなたいおうがふかけつだ。",
+      "translation": {
+        "en": "Situated in a difficult transitional era, flexible responsiveness unconfined by traditional stereotypes is essential.",
+        "my": "ခက်ခဲသော အပြောင်းအလဲ ကာလတွင် ယခင် စွဲမြဲနေသော အယူအဆဟောင်းများတွင် မပိတ်မိဘဲ လိုက်လျောညီထွေရှိသော တုံ့ပြန်မှုမှာ မရှိမဖြစ် လိုအပ်သည်။"
+      },
+      "translationMy": "ခက်ခဲသော အပြောင်းအလဲ ကာလတွင် ယခင် စွဲမြဲနေသော အယူအဆဟောင်းများတွင် မပိတ်မိဘဲ လိုက်လျောညီထွေရှိသော တုံ့ပြန်မှုမှာ မရှိမဖြစ် လိုအပ်သည်။",
+      "vocabIds": [
+        "n2.l55.v005"
+      ],
+      "grammarIds": [
+        "n2.l55.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l55.r001",
+    "lessonId": "n2.l55",
+    "title": "多文化共生社会における視点の転換と役割の自覚",
+    "level": "N2",
+    "text": "急速にグローバル化が進む現代にあって、異文化との共生は避けて通れない課題となっている。異なる背景を持つ人々と共生するためには、自らの立場からのみ主張する偏狭な態度を捨て、相手の観点に立って物事を客観的に捉え直す姿勢が求められる。異なる価値観が交錯する社会にあっても、人間としての普遍的な尊厳を重視することは揺るぎない共通基準である。一人ひとりの市民が地域社会を支える当事者としての自覚を持ち、それぞれの境遇の違いを認め合うことが、豊かな共生社会を実現するための第一歩である。",
+    "kanaText": "きゅうそくにグローバルかがすすむげんだいにあって、いぶんかとのきょうせいはさけてとおれないかだいとなっている。ことなるはいけいをもつひとびときょうせいするためには、みずからのたちばからのみしゅちょうするへんきょうなたいどをすて、あいてのかんてんにたってものごとをきゃっかんてきにとらえなおすしせいがもとめられる。ことなるかちかんがこうさくするしゃかいにあっても、にんげんとしてのふへんてきなそんげんをじゅうしすることはゆるぎないきょうつうきじゅんである。ひとりひとりのしみんがちいきしゃかいをささえるとうじしゃとしてのじかくをもち、それぞれのきょうぐうのちがいをみとめあうことが、ゆたかなかんきょうをじつげんするためのだいいっぽである。",
+    "translation": "လျင်မြန်စွာ ကမ္ဘာမှုပြုလာနေသော မျက်မှောက်ခေတ်ကာလတွင် မတူကွဲပြားသော ယဉ်ကျေးမှုများနှင့် အတူယှဉ်တွဲ နေထိုင်ရေးသည် ရှောင်လွှဲ၍မရသော ပြဿနာတစ်ခု ဖြစ်လာသည်။ မတူညီသော နောက်ခံသမိုင်းရှိသည့် လူများနှင့် အတူယှဉ်တွဲ နေထိုင်နိုင်ရန်အတွက် မိမိ၏ ရှုထောင့်မှသာ တစ်ဖက်သတ် ပြောဆိုနေသော ကျဉ်းမြောင်းသည့် သဘောထားကို စွန့်ပယ်ပြီး တစ်ဖက်သား၏ ရှုထောင့်တွင် ရပ်တည်ကာ အရာရာကို ဓမ္မဓိဋ္ဌာန်ကျကျ ပြန်လည်ရှုမြင်သည့် သဘောထားကို တောင်းဆိုနေသည်။ မတူကွဲပြားသော တန်ဖိုးထားမှုများ ရောယှက်နေသည့် လူ့ဘောင်တွင်ပင် လူသားတစ်ဦး အနေဖြင့် အများဆိုင် ဂုဏ်သိက္ခာကို အလေးထားခြင်းသည် မယိမ်းယိုင်သော ဘုံစံနှုန်း ဖြစ်သည်။ မြို့သူမြို့သား တစ်ဦးချင်းစီက ဒေသလူ့ဘောင်ကို ထောက်ပံ့မည့် ကာယကံရှင်တစ်ဦး အနေဖြင့် အသိတရား ရှိကြပြီး မိမိတို့၏ မတူညီသော ဘဝအခြေအနေများကို အပြန်အလှန် အသိအမှတ်ပြုခြင်းသည်သာ ပြည့်စုံကြွယ်ဝသော အတူယှဉ်တွဲနေထိုင်ရေး လူ့ဘောင် ပေါ်ထွန်းရန် ပထမဆုံး ခြေလှမ်း ဖြစ်သည်။",
+    "translationMy": "လျင်မြန်စွာ ကမ္ဘာမှုပြုလာနေသော မျက်မှောက်ခေတ်ကာလတွင် မတူကွဲပြားသော ယဉ်ကျေးမှုများနှင့် အတူယှဉ်တွဲ နေထိုင်ရေးသည် ရှောင်လွှဲ၍မရသော ပြဿနာတစ်ခု ဖြစ်လာသည်။ မတူညီသော နောက်ခံသမိုင်းရှိသည့် လူများနှင့် အတူယှဉ်တွဲ နေထိုင်နိုင်ရန်အတွက် မိမိ၏ ရှုထောင့်မှသာ တစ်ဖက်သတ် ပြောဆိုနေသော ကျဉ်းမြောင်းသည့် သဘောထားကို စွန့်ပယ်ပြီး တစ်ဖက်သား၏ ရှုထောင့်တွင် ရပ်တည်ကာ အရာရာကို ဓမ္မဓိဋ္ဌာန်ကျကျ ပြန်လည်ရှုမြင်သည့် သဘောထားကို တောင်းဆိုနေသည်။ မတူကွဲပြားသော တန်ဖိုးထားမှုများ ရောယှက်နေသည့် လူ့ဘောင်တွင်ပင် လူသားတစ်ဦး အနေဖြင့် အများဆိုင် ဂုဏ်သိက္ခာကို အလေးထားခြင်းသည် မယိမ်းယိုင်သော ဘုံစံနှုန်း ဖြစ်သည်။ မြို့သူမြို့သား တစ်ဦးချင်းစီက ဒေသလူ့ဘောင်ကို ထောက်ပံ့မည့် ကာယကံရှင်တစ်ဦး အနေဖြင့် အသိတရား ရှိကြပြီး မိမိတို့၏ မတူညီသော ဘဝအခြေအနေများကို အပြန်အလှန် အသိအမှတ်ပြုခြင်းသည်သာ ပြည့်စုံကြွယ်ဝသော အတူယှဉ်တွဲနေထိုင်ရေး လူ့ဘောင် ပေါ်ထွန်းရန် ပထမဆုံး ခြေလှမ်း ဖြစ်သည်။",
+    "questionIds": [
+      "n2.l55.q025",
+      "n2.l55.q026",
+      "n2.l55.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "多文化共生",
+        "reading": "たぶんかきょうせい",
+        "meaning": "multicultural coexistence",
+        "meaningMy": "multicultural coexistence",
+        "meaningMyanmar": "multicultural coexistence"
+      },
+      {
+        "term": "偏狭",
+        "reading": "へんきょう",
+        "meaning": "narrow-minded / parochial",
+        "meaningMy": "narrow-minded / parochial",
+        "meaningMyanmar": "narrow-minded / parochial"
+      },
+      {
+        "term": "交錯",
+        "reading": "こうさく",
+        "meaning": "blending / mixture / intersection",
+        "meaningMy": "blending / mixture / intersection",
+        "meaningMyanmar": "blending / mixture / intersection"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l55.lis001",
+    "lessonId": "n2.l55",
+    "title": "新規事業における専門家の助言と役割分担",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "役員",
+      "顧問弁護士"
+    ],
+    "transcript": "役員: 海外進出プロジェクトの立ち上げですが、現地の法規制について顧問弁護士の立場からご意見をいただけますか。\n顧問弁護士: 法律の専門家としては、知的所有権の保護条項を最優先で整備すべきだと考えます。\n役員: なるほど。急激に変化する国際市場の競争にあって、法的な守りを固めることは極めて重要ですね。\n顧問弁護士: ええ。企業の代表として交渉に臨まれる役員の方々が安心して決断できるよう、万全の支援をいたします。",
+    "translation": "役員: ပြည်ပသို့ ခြေဆန့်မည့် စီမံကိန်း စတင်မှုနှင့် ပတ်သက်၍ ဒေသတွင်း ဥပဒေစည်းမျဉ်းများအပေါ် အကြံပေး ရှေ့နေ၏ ရှုထောင့်မှ သဘောထားမှတ်ချက် ပေးနိုင်ပါမည်လား။\n顧問弁護士: ဥပဒေရေးရာ ကျွမ်းကျင်ပညာရှင် တစ်ဦးအနေဖြင့်မူ ဉာဏပစ္စည်း မူပိုင်ခွင့် ကာကွယ်ရေး အပိုဒ်ခွဲများကို အဓိက ဦးစားပေး ပြင်ဆင်သင့်သည်ဟု ယူဆပါသည်။\n役員: ဟုတ်ကဲ့ပါ။ အလျင်အမြန် ပြောင်းလဲနေသော နိုင်ငံတကာ ဈေးကွက် ပြိုင်ဆိုင်မှုများကြားတွင် ဥပဒေအရ အကာအကွယ် ခိုင်မာစေရန်မှာ အလွန် အရေးကြီးပါသည်တကား။\n顧問弁護士: ဟုတ်ပါသည်။ ကုမ္ပဏီ ကိုယ်စားလှယ်များ အနေဖြင့် ဆွေးနွေးပွဲများသို့ တက်ရောက်မည့် ဒါရိုက်တာ လူကြီးမင်းများ စိတ်ချလက်ချ ဆုံးဖြတ်နိုင်စေရန် ပြည့်စုံစွာ ပံ့ပိုးကူညီပါမည်။",
+    "translationMy": "役員: ပြည်ပသို့ ခြေဆန့်မည့် စီမံကိန်း စတင်မှုနှင့် ပတ်သက်၍ ဒေသတွင်း ဥပဒေစည်းမျဉ်းများအပေါ် အကြံပေး ရှေ့နေ၏ ရှုထောင့်မှ သဘောထားမှတ်ချက် ပေးနိုင်ပါမည်လား။\n顧問弁護士: ဥပဒေရေးရာ ကျွမ်းကျင်ပညာရှင် တစ်ဦးအနေဖြင့်မူ ဉာဏပစ္စည်း မူပိုင်ခွင့် ကာကွယ်ရေး အပိုဒ်ခွဲများကို အဓိက ဦးစားပေး ပြင်ဆင်သင့်သည်ဟု ယူဆပါသည်။\n役員: ဟုတ်ကဲ့ပါ။ အလျင်အမြန် ပြောင်းလဲနေသော နိုင်ငံတကာ ဈေးကွက် ပြိုင်ဆိုင်မှုများကြားတွင် ဥပဒေအရ အကာအကွယ် ခိုင်မာစေရန်မှာ အလွန် အရေးကြီးပါသည်တကား။\n顧問弁護士: ဟုတ်ပါသည်။ ကုမ္ပဏီ ကိုယ်စားလှယ်များ အနေဖြင့် ဆွေးနွေးပွဲများသို့ တက်ရောက်မည့် ဒါရိုက်တာ လူကြီးမင်းများ စိတ်ချလက်ချ ဆုံးဖြတ်နိုင်စေရန် ပြည့်စုံစွာ ပံ့ပိုးကူညီပါမည်။",
+    "turns": [
+      {
+        "speaker": "役員",
+        "ja": "海外進出プロジェクトの立ち上げですが、現地の法規制について顧問弁護士の立場からご意見をいただけますか。",
+        "kana": "かいがいしんしゅつプロジェクトのたちあげですが、げんちのほうきせいにについてこもんべんごしのたちばからごいけんをいただけますか。",
+        "en": "Regarding the overseas expansion project rollout, could you offer your opinion on local regulatory compliance from the standpoint of corporate legal counsel?",
+        "my": "ပြည်ပသို့ ခြေဆန့်မည့် စီမံကိန်း စတင်မှုနှင့် ပတ်သက်၍ ဒေသတွင်း ဥပဒေစည်းမျဉ်းများအပေါ် အကြံပေး ရှေ့နေ၏ ရှုထောင့်မှ သဘောထားမှတ်ချက် ပေးနိုင်ပါမည်လား။",
+        "translationMy": "ပြည်ပသို့ ခြေဆန့်မည့် စီမံကိန်း စတင်မှုနှင့် ပတ်သက်၍ ဒေသတွင်း ဥပဒေစည်းမျဉ်းများအပေါ် အကြံပေး ရှေ့နေ၏ ရှုထောင့်မှ သဘောထားမှတ်ချက် ပေးနိုင်ပါမည်လား။",
+        "myanmar": "ပြည်ပသို့ ခြေဆန့်မည့် စီမံကိန်း စတင်မှုနှင့် ပတ်သက်၍ ဒေသတွင်း ဥပဒေစည်းမျဉ်းများအပေါ် အကြံပေး ရှေ့နေ၏ ရှုထောင့်မှ သဘောထားမှတ်ချက် ပေးနိုင်ပါမည်လား။"
+      },
+      {
+        "speaker": "顧問弁護士",
+        "ja": "法律の専門家としては、知的所有権の保護条項を最優先で整備すべきだと考えます。",
+        "kana": "ほうりつのせんもんかとしては、ちてきしょゆうけんのほごじょうこうをさいゆうせんでせいびすべきだとかんがえます。",
+        "en": "As a legal specialist, I believe establishing intellectual property protection clauses must be the top priority.",
+        "my": "ဥပဒေရေးရာ ကျွမ်းကျင်ပညာရှင် တစ်ဦးအနေဖြင့်မူ ဉာဏပစ္စည်း မူပိုင်ခွင့် ကာကွယ်ရေး အပိုဒ်ခွဲများကို အဓိက ဦးစားပေး ပြင်ဆင်သင့်သည်ဟု ယူဆပါသည်။",
+        "translationMy": "ဥပဒေရေးရာ ကျွမ်းကျင်ပညာရှင် တစ်ဦးအနေဖြင့်မူ ဉာဏပစ္စည်း မူပိုင်ခွင့် ကာကွယ်ရေး အပိုဒ်ခွဲများကို အဓိက ဦးစားပေး ပြင်ဆင်သင့်သည်ဟု ယူဆပါသည်။",
+        "myanmar": "ဥပဒေရေးရာ ကျွမ်းကျင်ပညာရှင် တစ်ဦးအနေဖြင့်မူ ဉာဏပစ္စည်း မူပိုင်ခွင့် ကာကွယ်ရေး အပိုဒ်ခွဲများကို အဓိက ဦးစားပေး ပြင်ဆင်သင့်သည်ဟု ယူဆပါသည်။"
+      },
+      {
+        "speaker": "役員",
+        "ja": "なるほど。急激に変化する国際市場の競争にあって、法的な守りを固めることは極めて重要ですね。",
+        "kana": "なるほど。きゅうげきにへんかするこくさいしじょうのきょうそうにあって、ほうてきなまもりをかためることはきわめてじゅうようですね。",
+        "en": "I see. In the competition of rapidly shifting international markets, reinforcing legal defenses is exceedingly vital.",
+        "my": "ဟုတ်ကဲ့ပါ။ အလျင်အမြန် ပြောင်းလဲနေသော နိုင်ငံတကာ ဈေးကွက် ပြိုင်ဆိုင်မှုများကြားတွင် ဥပဒေအရ အကာအကွယ် ခိုင်မာစေရန်မှာ အလွန် အရေးကြီးပါသည်တကား။",
+        "translationMy": "ဟုတ်ကဲ့ပါ။ အလျင်အမြန် ပြောင်းလဲနေသော နိုင်ငံတကာ ဈေးကွက် ပြိုင်ဆိုင်မှုများကြားတွင် ဥပဒေအရ အကာအကွယ် ခိုင်မာစေရန်မှာ အလွန် အရေးကြီးပါသည်တကား။",
+        "myanmar": "ဟုတ်ကဲ့ပါ။ အလျင်အမြန် ပြောင်းလဲနေသော နိုင်ငံတကာ ဈေးကွက် ပြိုင်ဆိုင်မှုများကြားတွင် ဥပဒေအရ အကာအကွယ် ခိုင်မာစေရန်မှာ အလွန် အရေးကြီးပါသည်တကား။"
+      },
+      {
+        "speaker": "顧問弁護士",
+        "ja": "ええ。企業の代表として交渉に臨まれる役員の方々が安心して決断できるよう、万全の支援をいたします。",
+        "kana": "ええ。きぎょうのだいひょうとしてこうしょうにのぞまれるやくいんのかたがたがあんしんしてけつだんできるよう、ばんぜんのしえんをいたします。",
+        "en": "Indeed. I will provide comprehensive support so that executives engaging in negotiations as corporate representatives can decide with confidence.",
+        "my": "ဟုတ်ပါသည်။ ကုမ္ပဏီ ကိုယ်စားလှယ်များ အနေဖြင့် ဆွေးနွေးပွဲများသို့ တက်ရောက်မည့် ဒါရိုက်တာ လူကြီးမင်းများ စိတ်ချလက်ချ ဆုံးဖြတ်နိုင်စေရန် ပြည့်စုံစွာ ပံ့ပိုးကူညီပါမည်။",
+        "translationMy": "ဟုတ်ပါသည်။ ကုမ္ပဏီ ကိုယ်စားလှယ်များ အနေဖြင့် ဆွေးနွေးပွဲများသို့ တက်ရောက်မည့် ဒါရိုက်တာ လူကြီးမင်းများ စိတ်ချလက်ချ ဆုံးဖြတ်နိုင်စေရန် ပြည့်စုံစွာ ပံ့ပိုးကူညီပါမည်။",
+        "myanmar": "ဟုတ်ပါသည်။ ကုမ္ပဏီ ကိုယ်စားလှယ်များ အနေဖြင့် ဆွေးနွေးပွဲများသို့ တက်ရောက်မည့် ဒါရိုက်တာ လူကြီးမင်းများ စိတ်ချလက်ချ ဆုံးဖြတ်နိုင်စေရန် ပြည့်စုံစွာ ပံ့ပိုးကူညီပါမည်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l55.q028",
+      "n2.l55.q029",
+      "n2.l55.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l55.q001",
+      "lessonId": "n2.l55",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "物事を見たり考えたりする中心的な立場や着眼点のことを何というか。",
+      "choices": [
+        "視点",
+        "境界",
+        "疲労",
+        "事態"
+      ],
+      "answer": "視点",
+      "explanation": "視点 (してん) means point of view or focal perspective.",
+      "explanationMy": "視点 ဆိုသည်မှာ အရာဝတ္ထုများကို ကြည့်ရှုအကဲဖြတ်သည့် ရှုထောင့် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q002",
+      "lessonId": "n2.l55",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "目で見える範囲、または思考や知識が及ぶ広さのことを何というか。",
+      "choices": [
+        "視野",
+        "期限",
+        "賜物",
+        "介入"
+      ],
+      "answer": "視野",
+      "explanation": "視野 (しや) means field of vision or mental outlook.",
+      "explanationMy": "視野 ဆိုသည်မှာ မျက်စိဖြင့် မြင်နိုင်သော နယ်ပယ် သို့မဟုတ် အမြင်နယ်ပယ် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q003",
+      "lessonId": "n2.l55",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "特定の事柄を重く価値あるものとして大切に扱うことを何というか。",
+      "choices": [
+        "重視",
+        "軽視",
+        "排除",
+        "屈辱"
+      ],
+      "answer": "重視",
+      "explanation": "重視 (じゅうし) means placing importance or emphasis on something.",
+      "explanationMy": "重視 ဆိုသည်မှာ အလေးထား တန်ဖိုးထားခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q004",
+      "lessonId": "n2.l55",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "物事を観察し判断する際の基準となる見方のことを何というか。",
+      "choices": [
+        "観点",
+        "極端",
+        "発端",
+        "端緒"
+      ],
+      "answer": "観点",
+      "explanation": "観点 (かんてん) means viewpoint or criterion of observation.",
+      "explanationMy": "観点 ဆိုသည်မှာ အကဲဖြတ် ဆုံးဖြတ်ရာတွင် အသုံးပြုသော ရှုထောင့် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q005",
+      "lessonId": "n2.l55",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "何に価値を認め何を行動の基準とするかという個人の信念を何というか。",
+      "choices": [
+        "価値観",
+        "伝統",
+        "媒体",
+        "取引"
+      ],
+      "answer": "価値観",
+      "explanation": "価値観 (かちかん) means sense of values or value system.",
+      "explanationMy": "価値観 ဆိုသည်မှာ တန်ဖိုးထားမှုဆိုင်ရာ စံနှုန်းနှင့် ခံယူချက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q006",
+      "lessonId": "n2.l55",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "主観を排して事実そのものを第三者的に冷静に見つめることを何というか。",
+      "choices": [
+        "客観",
+        "主観",
+        "悲哀",
+        "焦り"
+      ],
+      "answer": "客観",
+      "explanation": "客観 (きゃっかん) means objectivity.",
+      "explanationMy": "客観 ဆိုသည်မှာ ကိုယ်ပိုင်ခံစားချက် မပါဘဲ ဓမ္မဓိဋ္ဌာန်ကျကျ ရှုမြင်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q007",
+      "lessonId": "n2.l55",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "自分の置かれた不遇な身の上や生活環境のことを何というか。",
+      "choices": [
+        "境遇",
+        "達成",
+        "由緒",
+        "情緒"
+      ],
+      "answer": "境遇",
+      "explanation": "境遇 (きょうぐう) means one's circumstances or lot in life.",
+      "explanationMy": "境遇 ဆိုသည်မှာ လူတစ်ဦး ကြုံတွေ့ရသော ဘဝအခြေအနေ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q008",
+      "lessonId": "n2.l55",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "思い通りに進まず苦難や困難に満ちている不運な状況を何というか。",
+      "choices": [
+        "逆境",
+        "順境",
+        "抜群",
+        "明確"
+      ],
+      "answer": "逆境",
+      "explanation": "逆境 (ぎゃっきょう) means adversity or hardship.",
+      "explanationMy": "逆境 ဆိုသည်မှာ ဆင်းရဲဒုက္ခနှင့် အခက်အခဲများ ပြည့်နှက်နေသော အခြေအနေ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q009",
+      "lessonId": "n2.l55",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「視」の音読みとして正しいものはどれか。",
+      "choices": [
+        "シ",
+        "ジ",
+        "キ",
+        "チ"
+      ],
+      "answer": "シ",
+      "explanation": "「視」の音読みは「シ」です（視点、視野、重視）。",
+      "explanationMy": "「視」၏ အသံထွက်မှာ シ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q010",
+      "lessonId": "n2.l55",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「視点」の漢字「視」の部首として正しいものはどれか。",
+      "choices": [
+        "見（みる）",
+        "示（しめす）",
+        "目（め）",
+        "言（ごんべん）"
+      ],
+      "answer": "見（みる）",
+      "explanation": "「視」の部首は「見（みる）」です。",
+      "explanationMy": "「視」၏ အဓိက မူရင်းအစိတ်အပိုင်းမှာ 見 (ကြည့်သည်) ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q011",
+      "lessonId": "n2.l55",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「観」の音読みとして正しいものはどれか。",
+      "choices": [
+        "カン",
+        "ケン",
+        "ガン",
+        "セン"
+      ],
+      "answer": "カン",
+      "explanation": "「観」の音読みは「カン」です（観点、価値観、客観）。",
+      "explanationMy": "「観」၏ အသံထွက်မှာ カン ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q012",
+      "lessonId": "n2.l55",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「観点」の漢字「観」が表す意味合いとして最も適切なものはどれか。",
+      "choices": [
+        "全体を見渡す・よく眺めて考える",
+        "目を閉じる",
+        "遠くへ走り去る",
+        "大声で叫ぶ"
+      ],
+      "answer": "全体を見渡す・よく眺めて考える",
+      "explanation": "「観」には広く見渡す、よく観察して考察するという意味があります。",
+      "explanationMy": "စေ့စပ်စွာ ကြည့်ရှုလေ့လာပြီး ဆင်ခြင်သုံးသပ်ခြင်း အဓိပ္ပာယ် ရှိသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q013",
+      "lessonId": "n2.l55",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「境」の訓読みとして正しいものはどれか。",
+      "choices": [
+        "さかい",
+        "ふち",
+        "すそ",
+        "はし"
+      ],
+      "answer": "さかい",
+      "explanation": "「境」の訓読みは「さかい」です（国境、境目）。",
+      "explanationMy": "「境」၏ ဂျပန်မူရင်းအသံမှာ さかい ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q014",
+      "lessonId": "n2.l55",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「環境」の「境」の部首として正しいものはどれか。",
+      "choices": [
+        "土（つち・つちへん）",
+        "音（おと）",
+        "日（ひ）",
+        "立（たつ）"
+      ],
+      "answer": "土（つち・つちへん）",
+      "explanation": "「境」の部首は「土（つちへん）」です。",
+      "explanationMy": "「境」တွင် မြေကြီး 土 အစိတ်အပိုင်း ပါဝင်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q015",
+      "lessonId": "n2.l55",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "子供の教育問題を親の（　）から考えると、安全性が最も気がかりである。",
+      "choices": [
+        "立場",
+        "目指して",
+        "期して",
+        "ばかり"
+      ],
+      "answer": "立場",
+      "explanation": "Use 〜の立場から for evaluating issues through a specific stakeholder's eyes.",
+      "explanationMy": "မိဘများ၏ ရှုထောင့်မှ စဉ်းစားရာတွင် 立場から သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q016",
+      "lessonId": "n2.l55",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜の立場から」に後続する表現として最も自然な動詞はどれか。",
+      "choices": [
+        "見ると / 考えると / 言えば",
+        "走ると / 食べると",
+        "歌うと / 踊ると",
+        "壊すと / 捨てる"
+      ],
+      "answer": "見ると / 考えると / 言えば",
+      "explanation": "〜の立場から is naturally followed by cognitive verbs like 見ると, 考えると, 言えば.",
+      "explanationMy": "立場から ၏ နောက်တွင် 見ると၊ 考えると စသည့် ကြိယာများ လိုက်လေ့ရှိသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q017",
+      "lessonId": "n2.l55",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "彼は日本文化の親善大使（　）、世界各地で伝統芸能を披露している。",
+      "choices": [
+        "として",
+        "の立場から",
+        "にあって",
+        "を限りに"
+      ],
+      "answer": "として",
+      "explanation": "Use 〜として for acting in the official capacity of a goodwill ambassador.",
+      "explanationMy": "ချစ်ကြည်ရေး သံတမန် အနေဖြင့် ဟု ပြရာတွင် として သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q018",
+      "lessonId": "n2.l55",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜として」が接続する品詞として正しいものはどれか。",
+      "choices": [
+        "名詞に直接接続する",
+        "動詞の命令形",
+        "形容詞の語幹",
+        "助詞「で」を挟んだ形"
+      ],
+      "answer": "名詞に直接接続する",
+      "explanation": "〜として attaches directly to nouns (N + として).",
+      "explanationMy": "နာမ်နှင့် တိုက်ရိုက်တွဲဆက်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q019",
+      "lessonId": "n2.l55",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "未曾有の大震災（　）、人々は互いに助け合って困難を乗り越えた。",
+      "choices": [
+        "にあって",
+        "として",
+        "の立場から",
+        "をと通じて"
+      ],
+      "answer": "にあって",
+      "explanation": "Use 〜にあって for an elevated setting depicting action in an extraordinary disaster.",
+      "explanationMy": "မကြုံစဖူး ငလျင်ကြီး ဖြစ်ပွားသည့် အခြေအနေမျိုးတွင် ဟု ပြရာတွင် にあって သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q020",
+      "lessonId": "n2.l55",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜にあって」が使われる場面や文体の特徴として正しいものはどれか。",
+      "choices": [
+        "危機的状況や歴史的時代などの特別な状況を表す硬い書面的表現",
+        "友達同士の軽い冗談や日常雑談",
+        "料理のレシピの簡単な手順説明",
+        "過去の出来事を否定する文"
+      ],
+      "answer": "危機的状況や歴史的時代などの特別な状況を表す硬い書面的表現",
+      "explanation": "〜にあって is a formal, literary phrase for critical situations or historical eras.",
+      "explanationMy": "အကျပ်အတည်းနှင့် သမိုင်းဝင် အခြေအနေများကို ပြသည့် လေးနက်သော စာပေစကား ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.gNaN"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q021",
+      "lessonId": "n2.l55",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "被害者の心情を（　）考えると、加害者の発言は到底容認できない。",
+      "choices": [
+        "立場から",
+        "として",
+        "にあって",
+        "ばかりに"
+      ],
+      "answer": "立場から",
+      "explanation": "Considering from the victims' perspective (立場から).",
+      "explanationMy": "နစ်နာသူများ၏ ရှုထောင့်မှ စဉ်းစားကြည့်ပါက ဟု သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q022",
+      "lessonId": "n2.l55",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "一人の社会人（　）、時間と約束を守ることは最低限の義務だ。",
+      "choices": [
+        "として",
+        "の立場から",
+        "にあって",
+        "を期して"
+      ],
+      "answer": "として",
+      "explanation": "As a working member of society (一人の社会人として).",
+      "explanationMy": "လူ့ဘောင်အဖွဲ့အစည်းဝင် တစ်ဦးအနေဖြင့် ဟု သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q023",
+      "lessonId": "n2.l55",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "激動の冷戦時代（　）、外交官たちは平和維持のために奔走した。",
+      "choices": [
+        "にあって",
+        "として",
+        "の立場から",
+        "を皮切りに"
+      ],
+      "answer": "にあって",
+      "explanation": "In the turbulent Cold War era (冷戦時代にあって).",
+      "explanationMy": "စစ်အေးခေတ် အခြေအနေတွင် ဟု သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q024",
+      "lessonId": "n2.l55",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜にあっても」の「も」が加わったときのニュアンスはどれか。",
+      "choices": [
+        "〜のような困難な状況の中であっても（逆接・譲歩）",
+        "〜と同じ理由だから",
+        "〜の代わりに別のことをする",
+        "〜を完全に否定する"
+      ],
+      "answer": "〜のような困難な状況の中であっても（逆接・譲歩）",
+      "explanation": "〜にあっても adds concession: 'even situated in such difficult situations...'.",
+      "explanationMy": "ထိုကဲ့သို့ ခက်ခဲသော အခြေအနေမျိုးတွင်ပင် ဟူသော အလျော့ပေး သဘော ပါဝင်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q025",
+      "lessonId": "n2.l55",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "異文化と共生するために本文で「捨て去るべき」と指摘されている態度はどれか。",
+      "choices": [
+        "自らの立場からのみ主張する偏狭な態度",
+        "相手の文化を尊重する寛容な態度",
+        "外国語を積極的に学ぶ姿勢",
+        "地域のボランティア活動に参加する意欲"
+      ],
+      "answer": "自らの立場からのみ主張する偏狭な態度",
+      "explanation": "The text calls for discarding narrow-minded attitudes asserting only from one's own standpoint.",
+      "explanationMy": "မိမိရှုထောင့်မှသာ တစ်ဖက်သတ် ပြောဆိုနေသည့် ကျဉ်းမြောင်းသော သဘောထား ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q026",
+      "lessonId": "n2.l55",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "異なる価値観が交錯する社会において揺るぎない共通基準とされるものは何か。",
+      "choices": [
+        "人間としての普遍的な尊厳を重視すること",
+        "特定宗教の教義を全国民に義務付けること",
+        "経済的利益を最優先して弱者を排除すること",
+        "すべての伝統行事を完全に廃止すること"
+      ],
+      "answer": "人間としての普遍的な尊厳を重視すること",
+      "explanation": "The text asserts emphasizing universal human dignity is the unwavering common standard.",
+      "explanationMy": "လူသားတစ်ဦး အနေဖြင့် အများဆိုင် ဂုဏ်သိက္ခာကို အလေးထားခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q027",
+      "lessonId": "n2.l55",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "豊かな共生社会を実現するための第一歩として、市民に求められる自覚はどれか。",
+      "choices": [
+        "地域社会を支える当事者としての自覚",
+        "他人の意見に無関心を貫く傍観者としての自覚",
+        "自国の優位性を他国に誇示する指導者としての自覚",
+        "利益の最大化のみを追求する消費者としての自覚"
+      ],
+      "answer": "地域社会を支える当事者としての自覚",
+      "explanation": "Citizens are urged to hold awareness as direct stakeholders supporting the community.",
+      "explanationMy": "ဒေသလူ့ဘောင်ကို ထောက်ပံ့မည့် ကာယကံရှင်တစ်ဦး အနေဖြင့် အသိတရား ရှိခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q028",
+      "lessonId": "n2.l55",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "役員はどのような立場からの意見を求めたか。",
+      "choices": [
+        "顧問弁護士の立場から",
+        "現地消費者の立場から",
+        "若手新入社員の立場から",
+        "競合他社の立場から"
+      ],
+      "answer": "顧問弁護士の立場から",
+      "explanation": "The executive asked for an opinion from the standpoint of corporate legal counsel.",
+      "explanationMy": "အကြံပေးရှေ့နေ၏ ရှုထောင့်မှ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q029",
+      "lessonId": "n2.l55",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "顧問弁護士が「法律の専門家として」最優先すべきと助言した事項は何か。",
+      "choices": [
+        "知的所有権の保護条項の整備",
+        "オフィス賃料の徹底的な値引き交渉",
+        "現地の全従業員の解雇",
+        "テレビ広告の大量出稿"
+      ],
+      "answer": "知的所有権の保護条項の整備",
+      "explanation": "The lawyer advised prioritizing intellectual property protection clauses.",
+      "explanationMy": "ဉာဏပစ္စည်း မူပိုင်ခွင့် ကာကွယ်ရေး အပိုဒ်ခွဲများ ပြင်ဆင်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l55.q030",
+      "lessonId": "n2.l55",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "役員が「〜にあって極めて重要」と指摘した市場環境はどれか。",
+      "choices": [
+        "急激に変化する国際市場の競争にあって",
+        "安定した国内の独占市場にあって",
+        "政府の手厚い補助金保護にあって",
+        "競合他社が存在しない平和な環境にあって"
+      ],
+      "answer": "急激に変化する国際市場の競争にあって",
+      "explanation": "The executive notes the importance amidst the competition of rapidly shifting international markets.",
+      "explanationMy": "အလျင်အမြန် ပြောင်းလဲနေသော နိုင်ငံတကာ ဈေးကွက် ပြိုင်ဆိုင်မှု အခြေအနေ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l55.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+};

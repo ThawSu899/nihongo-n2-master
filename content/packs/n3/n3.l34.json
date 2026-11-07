@@ -1,0 +1,1787 @@
+{
+  "id": "n3.l34",
+  "level": "N3",
+  "module": "N3 Formal & Expository",
+  "number": 34,
+  "title": "N3 Lesson 34: Even If & Concessive Conditions (〜ても・〜たって・〜としても)",
+  "description": "Master concessive conditions and persistent effort expressions in Japanese, exploring regular concessions with 〜ても / 〜でも, casual colloquial concessions with 〜たって, and hypothetical concessions with 〜としても.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l34.v001",
+      "lessonId": "n3.l34",
+      "ja": "許可",
+      "kana": "きょか",
+      "en": "permission, permit",
+      "my": "ခွင့်ပြုချက်",
+      "meaningMy": "ခွင့်ပြုချက်",
+      "meaningMyanmar": "ခွင့်ပြုချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [
+        "n3.l34.k001"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.v002",
+      "lessonId": "n3.l34",
+      "ja": "承認",
+      "kana": "しょうにん",
+      "en": "formal approval",
+      "my": "တရားဝင်ခွင့်ပြုထောက်ခံချက်",
+      "meaningMy": "တရားဝင်ခွင့်ပြုထောက်ခံချက်",
+      "meaningMyanmar": "တရားဝင်ခွင့်ပြုထောက်ခံချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s002",
+      "kanjiIds": [
+        "n3.l34.k002"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.v003",
+      "lessonId": "n3.l34",
+      "ja": "妥協",
+      "kana": "だきょう",
+      "en": "compromise",
+      "my": "အလျှော့ပေးညှိနှိုင်းမှု",
+      "meaningMy": "အလျှော့ပေးညှိနှိုင်းမှု",
+      "meaningMyanmar": "အလျှော့ပေးညှိနှိုင်းမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s003",
+      "kanjiIds": [
+        "n3.l34.k003"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.v004",
+      "lessonId": "n3.l34",
+      "ja": "困難",
+      "kana": "こんなん",
+      "en": "difficulty, hardship",
+      "my": "အခက်အခဲပြဿနာ",
+      "meaningMy": "အခက်အခဲပြဿနာ",
+      "meaningMyanmar": "အခက်အခဲပြဿနာ",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l34.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.v005",
+      "lessonId": "n3.l34",
+      "ja": "努力",
+      "kana": "どりょく",
+      "en": "effort, exertion",
+      "my": "ကြိုးပမ်းအားထုတ်မှု",
+      "meaningMy": "ကြိုးပမ်းအားထုတ်မှု",
+      "meaningMyanmar": "ကြိုးပမ်းအားထုတ်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.v006",
+      "lessonId": "n3.l34",
+      "ja": "失敗",
+      "kana": "しっぱい",
+      "en": "failure, mistake",
+      "my": "ကျရှုံးမှု",
+      "meaningMy": "ကျရှုံးမှု",
+      "meaningMyanmar": "ကျရှုံးမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.v007",
+      "lessonId": "n3.l34",
+      "ja": "覚悟",
+      "kana": "かくご",
+      "en": "resolution, readiness",
+      "my": "ရင်ဆိုင်ရန်စိတ်ပိုင်းဖြတ်ထားမှု",
+      "meaningMy": "ရင်ဆိုင်ရန်စိတ်ပိုင်းဖြတ်ထားမှု",
+      "meaningMyanmar": "ရင်ဆိုင်ရန်စိတ်ပိုင်းဖြတ်ထားမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.v008",
+      "lessonId": "n3.l34",
+      "ja": "忍耐",
+      "kana": "にんたい",
+      "en": "patience, endurance",
+      "my": "စိတ်ရှည်သည်းခံမှု",
+      "meaningMy": "စိတ်ရှည်သည်းခံမှု",
+      "meaningMyanmar": "စိတ်ရှည်သည်းခံမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.v009",
+      "lessonId": "n3.l34",
+      "ja": "反対",
+      "kana": "はんたい",
+      "en": "opposition, objection",
+      "my": "ဆန့်ကျင်ကန့်ကွက်မှု",
+      "meaningMy": "ဆန့်ကျင်ကန့်ကွက်မှု",
+      "meaningMyanmar": "ဆန့်ကျင်ကန့်ကွက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.v010",
+      "lessonId": "n3.l34",
+      "ja": "犠牲",
+      "kana": "ぎせい",
+      "en": "sacrifice",
+      "my": "စွန့်လွှတ်စတေးမှု",
+      "meaningMy": "စွန့်လွှတ်စတေးမှု",
+      "meaningMyanmar": "စွန့်လွှတ်စတေးမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.v011",
+      "lessonId": "n3.l34",
+      "ja": "限界",
+      "kana": "げんかい",
+      "en": "boundary, limit",
+      "my": "ကန့်သတ်ချက်အဆုံးစွန်",
+      "meaningMy": "ကန့်သတ်ချက်အဆုံးစွန်",
+      "meaningMyanmar": "ကန့်သတ်ချက်အဆုံးစွန်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.v012",
+      "lessonId": "n3.l34",
+      "ja": "決意",
+      "kana": "けつい",
+      "en": "determination, decision",
+      "my": "ခိုင်မာသောဆုံးဖြတ်ချက်",
+      "meaningMy": "ခိုင်မာသောဆုံးဖြတ်ချက်",
+      "meaningMyanmar": "ခိုင်မာသောဆုံးဖြတ်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s012",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l34.k001",
+      "lessonId": "n3.l34",
+      "char": "許",
+      "meaning": "permit, forgive",
+      "meaningMy": "ခွင့်ပြုသည်/ခွင့်လွှတ်သည်",
+      "meaningMyanmar": "ခွင့်ပြုသည်/ခွင့်လွှတ်သည်",
+      "onyomi": [
+        "キョ"
+      ],
+      "kunyomi": [
+        "ゆる・す"
+      ],
+      "exampleVocab": [
+        {
+          "word": "許可",
+          "reading": "きょか",
+          "meaning": "permission",
+          "meaningMy": "ခွင့်ပြုချက်",
+          "preview": true
+        },
+        {
+          "word": "許す",
+          "reading": "ゆるす",
+          "meaning": "to forgive",
+          "meaningMy": "ခွင့်လွှတ်သည်",
+          "preview": false
+        },
+        {
+          "word": "免許",
+          "reading": "めんきょ",
+          "meaning": "license",
+          "meaningMy": "လိုင်စင်",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l34.s001"
+      ],
+      "components": [
+        "言",
+        "午"
+      ],
+      "strokes": 11,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.k002",
+      "lessonId": "n3.l34",
+      "char": "認",
+      "meaning": "recognize, approve",
+      "meaningMy": "အသိအမှတ်ပြုသည်/အတည်ပြုသည်",
+      "meaningMyanmar": "အသိအမှတ်ပြုသည်/အတည်ပြုသည်",
+      "onyomi": [
+        "ニン"
+      ],
+      "kunyomi": [
+        "みと・める"
+      ],
+      "exampleVocab": [
+        {
+          "word": "認める",
+          "reading": "みとめる",
+          "meaning": "to recognize",
+          "meaningMy": "အသိအမှတ်ပြုလက်ခံသည်",
+          "preview": true
+        },
+        {
+          "word": "確認",
+          "reading": "かくにん",
+          "meaning": "confirmation",
+          "meaningMy": "စစ်ဆေးအတည်ပြုခြင်း",
+          "preview": false
+        },
+        {
+          "word": "承認",
+          "reading": "しょうにん",
+          "meaning": "formal approval",
+          "meaningMy": "တရားဝင်ခွင့်ပြုချက်",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l34.s002"
+      ],
+      "components": [
+        "言",
+        "忍"
+      ],
+      "strokes": 14,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.k003",
+      "lessonId": "n3.l34",
+      "char": "譲",
+      "meaning": "yield, transfer",
+      "meaningMy": "လွှဲပြောင်းပေးသည်/အလျှော့ပေးသည်",
+      "meaningMyanmar": "လွှဲပြောင်းပေးသည်/အလျှော့ပေးသည်",
+      "onyomi": [
+        "ジョウ"
+      ],
+      "kunyomi": [
+        "ゆず・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "譲る",
+          "reading": "ゆずる",
+          "meaning": "to yield/hand over",
+          "meaningMy": "နေရာဖယ်ပေးသည်/လွှဲပေးသည်",
+          "preview": true
+        },
+        {
+          "word": "謙譲",
+          "reading": "けんじょう",
+          "meaning": "humility",
+          "meaningMy": "နှိမ့်ချယဉ်ကျေးမှု",
+          "preview": false
+        },
+        {
+          "word": "譲歩",
+          "reading": "じょうほ",
+          "meaning": "concession",
+          "meaningMy": "အလျှော့ပေးလိုက်လျောမှု",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l34.s003"
+      ],
+      "components": [
+        "言",
+        "襄"
+      ],
+      "strokes": 20,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l34.g001",
+      "lessonId": "n3.l34",
+      "pattern": "〜ても",
+      "meaning": "even if / no matter if",
+      "meaningMy": "...သော်လည်း/...သည့်တိုင်အောင်",
+      "meaningMyanmar": "...သော်လည်း/...သည့်တိုင်အောင်",
+      "formation": "Verb [て-form] + も / i-adj [くても] / na-adj, Noun [でも]",
+      "explanation": {
+        "en": "Expresses that an outcome remains unchanged or an action continues regardless of conditions or obstacles.",
+        "my": "အခြေအနေ သို့မဟုတ် အတားအဆီးများ မည်သို့ပင်ရှိစေကာမူ အကျိုးဆက်မပြောင်းလဲကြောင်း သို့မဟုတ် ဆက်လက်လုပ်ဆောင်မည်ဖြစ်ကြောင်း ပြသည်။"
+      },
+      "explanationMy": "အခြေအနေ သို့မဟုတ် အတားအဆီးများ မည်သို့ပင်ရှိစေကာမူ အကျိုးဆက်မပြောင်းလဲကြောင်း သို့မဟုတ် ဆက်လက်လုပ်ဆောင်မည်ဖြစ်ကြောင်း ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l34.s001",
+          "note": "〜ても usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l34.s002",
+          "note": "〜ても usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l34.s003",
+          "note": "〜ても usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l34.s004",
+          "note": "〜ても usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l34.g001",
+        "n3.l34.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ても."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "雨が降っ（　）、試合は予定通り行われます。",
+      "clozeTarget": "ても",
+      "clozeHint": "concession: even if it rains...",
+      "acceptableSynonyms": [
+        "〜たって",
+        "〜としても"
+      ],
+      "nuanceExplanationMy": "အခြေအနေတစ်ခု ရှိနေလင့်ကစား အကျိုးသက်ရောက်မှု မရှိဘဲ ပုံမှန်အတိုင်းဖြစ်ပေါ်ခြင်းကို ပြသည်။"
+    },
+    {
+      "id": "n3.l34.g002",
+      "lessonId": "n3.l34",
+      "pattern": "〜たって",
+      "meaning": "even if / even though (colloquial)",
+      "meaningMy": "...သည့်တိုင်/...လုပ်သော်လည်းပဲ (စကားပြောသုံး)",
+      "meaningMyanmar": "...သည့်တိုင်/...လုပ်သော်လည်းပဲ (စကားပြောသုံး)",
+      "formation": "Verb [た-form] + って / i-adj [くたって] / na-adj, Noun [だって]",
+      "explanation": {
+        "en": "Casual, spoken variant of 〜ても used in daily conversation, often conveying strong emotion, futility, or insistence.",
+        "my": "〜ても ၏ စကားပြောသုံးပုံစံဖြစ်ပြီး၊ နေ့စဉ်စကားပြောတွင် စိတ်ခံစားမှု သို့မဟုတ် အချည်းနှီးဖြစ်ခြင်းကို အလေးပေးဖော်ပြရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "〜ても ၏ စကားပြောသုံးပုံစံဖြစ်ပြီး၊ နေ့စဉ်စကားပြောတွင် စိတ်ခံစားမှု သို့မဟုတ် အချည်းနှီးဖြစ်ခြင်းကို အလေးပေးဖော်ပြရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l34.s005",
+          "note": "〜たって usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l34.s006",
+          "note": "〜たって usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l34.s007",
+          "note": "〜たって usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l34.s008",
+          "note": "〜たって usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l34.g001",
+        "n3.l34.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜たって."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "今さら後悔し（　）、過去の出来事は変えられない。",
+      "clozeTarget": "たって",
+      "clozeHint": "colloquial concession: even if you regret...",
+      "acceptableSynonyms": [
+        "〜ても",
+        "〜たところで"
+      ],
+      "nuanceExplanationMy": "ခပ်ပေါ့ပေါ့ သို့မဟုတ် ရင်းနှီးသော စကားပြောတွင်သာ သုံးပြီး စာရွက်စာတမ်းများတွင် မသုံးပါ။"
+    },
+    {
+      "id": "n3.l34.g003",
+      "lessonId": "n3.l34",
+      "pattern": "〜としても",
+      "meaning": "even supposing that / even if (hypothetical)",
+      "meaningMy": "...ဖြစ်သည့်တိုင်အောင်/...ဆိုလျှင်တောင်မှ (စိတ်ကူးယဉ်အခြေအနေ)",
+      "meaningMyanmar": "...ဖြစ်သည့်တိုင်အောင်/...ဆိုလျှင်တောင်မှ (စိတ်ကူးယဉ်အခြေအနေ)",
+      "formation": "Verb/Adj/Noun [Plain Form] + としても",
+      "explanation": {
+        "en": "Expresses hypothetical concession, evaluating a situation assuming that a condition or extreme premise were true.",
+        "my": "အကယ်၍ ထိုအခြေအနေ အမှန်တကယ်ဖြစ်လာသည့်တိုင်အောင် ဟူသော စိတ်ကူးယဉ်အယူအဆကို အခြေခံ၍ သုံးသပ်ရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "အကယ်၍ ထိုအခြေအနေ အမှန်တကယ်ဖြစ်လာသည့်တိုင်အောင် ဟူသော စိတ်ကူးယဉ်အယူအဆကို အခြေခံ၍ သုံးသပ်ရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l34.s009",
+          "note": "〜としても usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l34.s010",
+          "note": "〜としても usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l34.s011",
+          "note": "〜としても usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l34.s012",
+          "note": "〜としても usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l34.g001",
+        "n3.l34.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜としても."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "仮に失敗した（　）、全力を尽くしたなら悔いはない。",
+      "clozeTarget": "としても",
+      "clozeHint": "hypothetical concession: even supposing that...",
+      "acceptableSynonyms": [
+        "〜にしても",
+        "〜だとしても"
+      ],
+      "nuanceExplanationMy": "ဖြစ်နိုင်ခြေနည်းပါးသော သို့မဟုတ် ဥပမာပေးယူဆချက်များတွင် '...ဆိုလျှင်တောင်မှ' ဟု သုံးသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l34.s001",
+      "lessonId": "n3.l34",
+      "ja": "どんなに困難な状況であっても、決して諦めずに努力を続ける。",
+      "kana": "どんなにこんなんなじょうきょうであっても、けっしてあきらめずにどりょくをつづける。",
+      "translation": {
+        "en": "No matter how difficult the situation may be, I will never give up and will continue to make efforts.",
+        "my": "မည်မျှပင် ခက်ခဲသောအခြေအနေဖြစ်ပါစေ မည်သည့်အခါမျှ လက်မလျှော့ဘဲ ဆက်လက်ကြိုးစားအားထုတ်သွားမည်။"
+      },
+      "translationMy": "မည်မျှပင် ခက်ခဲသောအခြေအနေဖြစ်ပါစေ မည်သည့်အခါမျှ လက်မလျှော့ဘဲ ဆက်လက်ကြိုးစားအားထုတ်သွားမည်။",
+      "vocabIds": [
+        "n3.l34.v004",
+        "n3.l34.v005"
+      ],
+      "grammarIds": [
+        "n3.l34.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.s002",
+      "lessonId": "n3.l34",
+      "ja": "周囲から強い反対を受けても、彼は自分の信念を曲げなかった。",
+      "kana": "しゅういからつよいはんたいをうけても、かれはじぶんのしんねんをまげなかった。",
+      "translation": {
+        "en": "Even though he faced strong opposition from those around him, he did not compromise his convictions.",
+        "my": "ပတ်ဝန်းကျင်မှ ပြင်းပြင်းထန်ထန် ဆန့်ကျင်ကန့်ကွက်မှုများရှိခဲ့သော်လည်း သူသည် မိမိ၏ယုံကြည်ချက်ကို အလျှော့မပေးခဲ့ပေ။"
+      },
+      "translationMy": "ပတ်ဝန်းကျင်မှ ပြင်းပြင်းထန်ထန် ဆန့်ကျင်ကန့်ကွက်မှုများရှိခဲ့သော်လည်း သူသည် မိမိ၏ယုံကြည်ချက်ကို အလျှော့မပေးခဲ့ပေ။",
+      "vocabIds": [
+        "n3.l34.v009"
+      ],
+      "grammarIds": [
+        "n3.l34.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.s003",
+      "lessonId": "n3.l34",
+      "ja": "いくら上司に頼んでも、正式な許可なしにはその業務を行えない。",
+      "kana": "いくらじょうしにたのんでも、せいしきなきょかなしにはそのぎょうむをおこなえない。",
+      "translation": {
+        "en": "No matter how much you ask your boss, you cannot perform that work without formal permission.",
+        "my": "အထက်လူကြီးအား မည်မျှပင် တောင်းပန်မေတ္တာရပ်ခံစေကာမူ တရားဝင်ခွင့်ပြုချက်မရှိဘဲ ထိုအလုပ်ကို လုပ်ဆောင်၍မရပါ။"
+      },
+      "translationMy": "အထက်လူကြီးအား မည်မျှပင် တောင်းပန်မေတ္တာရပ်ခံစေကာမူ တရားဝင်ခွင့်ပြုချက်မရှိဘဲ ထိုအလုပ်ကို လုပ်ဆောင်၍မရပါ။",
+      "vocabIds": [
+        "n3.l34.v001"
+      ],
+      "grammarIds": [
+        "n3.l34.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.s004",
+      "lessonId": "n3.l34",
+      "ja": "体力の限界に達しても、チームのために最後まで走り抜いた。",
+      "kana": "たいりょくのげんかいにたっしても、ちーむのためにさいごまではしりぬいた。",
+      "translation": {
+        "en": "Even though I reached the limit of my physical endurance, I ran to the very end for the team.",
+        "my": "ခန္ဓာကိုယ်အင်အား ကုန်ခမ်းလုနီးပါးဖြစ်ခဲ့သည့်တိုင် အသင်းအတွက် အဆုံးအထိ ဆက်လက်ပြေးခဲ့သည်။"
+      },
+      "translationMy": "ခန္ဓာကိုယ်အင်အား ကုန်ခမ်းလုနီးပါးဖြစ်ခဲ့သည့်တိုင် အသင်းအတွက် အဆုံးအထိ ဆက်လက်ပြေးခဲ့သည်။",
+      "vocabIds": [
+        "n3.l34.v011"
+      ],
+      "grammarIds": [
+        "n3.l34.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.s005",
+      "lessonId": "n3.l34",
+      "ja": "今さら言い訳したって、一度失った信頼は簡単には戻らないよ。",
+      "kana": "いまさらいいわけしたって、いちどうしなったしんらいはかんたんにはもどらないよ。",
+      "translation": {
+        "en": "Even if you make excuses at this point, trust once lost will not easily return.",
+        "my": "ယခုမှ ဆင်ခြေပေးနေသော်လည်း တစ်ကြိမ်ဆုံးရှုံးသွားသော ယုံကြည်မှုသည် လွယ်လွယ်ဖြင့် ပြန်မရနိုင်တော့ပါ။"
+      },
+      "translationMy": "ယခုမှ ဆင်ခြေပေးနေသော်လည်း တစ်ကြိမ်ဆုံးရှုံးသွားသော ယုံကြည်မှုသည် လွယ်လွယ်ဖြင့် ပြန်မရနိုင်တော့ပါ။",
+      "vocabIds": [
+        "n3.l34.v006"
+      ],
+      "grammarIds": [
+        "n3.l34.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.s006",
+      "lessonId": "n3.l34",
+      "ja": "安売りの商品を買ったって、すぐに壊れてしまえば結局は損になる。",
+      "kana": "やすうりのしょうひんをかったって、すぐにこわれてしまえばけっきょくはそんになる。",
+      "translation": {
+        "en": "Even if you buy bargain goods, if they break immediately, it ends up being a loss in the end.",
+        "my": "ဈေးချထားသောပစ္စည်းကို ဝယ်ယူသည့်တိုင်အောင် ချက်ချင်းပျက်သွားပါက နောက်ဆုံးတွင် အရှုံးသာ ဖြစ်မည်။"
+      },
+      "translationMy": "ဈေးချထားသောပစ္စည်းကို ဝယ်ယူသည့်တိုင်အောင် ချက်ချင်းပျက်သွားပါက နောက်ဆုံးတွင် အရှုံးသာ ဖြစ်မည်။",
+      "vocabIds": [
+        "n3.l34.v006"
+      ],
+      "grammarIds": [
+        "n3.l34.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.s007",
+      "lessonId": "n3.l34",
+      "ja": "どれほど忍耐強く待ったって、相手が妥協する様子は全くない。",
+      "kana": "どれほどにんたいづよくまったって、あいてがだきょうするようすはまったくない。",
+      "translation": {
+        "en": "No matter how patiently you wait, the other party shows no sign of compromising at all.",
+        "my": "မည်မျှပင် စိတ်ရှည်လက်ရှည် စောင့်ဆိုင်းနေပါစေ တစ်ဖက်လူက အလျှော့ပေးညှိနှိုင်းမည့် အရိပ်အယောင် လုံးဝမရှိပေ။"
+      },
+      "translationMy": "မည်မျှပင် စိတ်ရှည်လက်ရှည် စောင့်ဆိုင်းနေပါစေ တစ်ဖက်လူက အလျှော့ပေးညှိနှိုင်းမည့် အရိပ်အယောင် လုံးဝမရှိပေ။",
+      "vocabIds": [
+        "n3.l34.v003",
+        "n3.l34.v008"
+      ],
+      "grammarIds": [
+        "n3.l34.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.s008",
+      "lessonId": "n3.l34",
+      "ja": "いくら叫んだって、この騒音の中では誰にも声が届かない。",
+      "kana": "いくらさけんだって、このそうおんのなかではだれにもこえがとどかない。",
+      "translation": {
+        "en": "No matter how much you shout, your voice will reach nobody in the midst of this noise.",
+        "my": "မည်မျှပင် အော်ဟစ်နေပါစေ ဤဆူညံသံများကြားတွင် မည်သူ့ထံမှ အသံရောက်ရှိမည် မဟုတ်ပေ။"
+      },
+      "translationMy": "မည်မျှပင် အော်ဟစ်နေပါစေ ဤဆူညံသံများကြားတွင် မည်သူ့ထံမှ အသံရောက်ရှိမည် မဟုတ်ပေ။",
+      "vocabIds": [
+        "n3.l34.v008"
+      ],
+      "grammarIds": [
+        "n3.l34.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.s009",
+      "lessonId": "n3.l34",
+      "ja": "仮に今回の挑戦が失敗に終わったとしても、貴重な経験になるだろう。",
+      "kana": "かりにこんかいのちょうせんがしっぱいに終わったとしても、きちょうなけいけんになるだろう。",
+      "translation": {
+        "en": "Even supposing that this challenge ends in failure, it will surely become valuable experience.",
+        "my": "အကယ်၍ ယခုတစ်ကြိမ် စိန်ခေါ်မှုသည် ကျရှုံးမှုဖြင့် အဆုံးသတ်သွားသည့်တိုင်အောင် အဖိုးတန်သောအတွေ့အကြုံ ဖြစ်လာပေလိမ့်မည်။"
+      },
+      "translationMy": "အကယ်၍ ယခုတစ်ကြိမ် စိန်ခေါ်မှုသည် ကျရှုံးမှုဖြင့် အဆုံးသတ်သွားသည့်တိုင်အောင် အဖိုးတန်သောအတွေ့အကြုံ ဖြစ်လာပေလိမ့်မည်။",
+      "vocabIds": [
+        "n3.l34.v006"
+      ],
+      "grammarIds": [
+        "n3.l34.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.s010",
+      "lessonId": "n3.l34",
+      "ja": "多少の犠牲を払うことになったとしても、この計画を成功させる決意だ。",
+      "kana": "たしょうのぎせいをはらうことになったとしても、このけいかくをせいこうさせるけついだ。",
+      "translation": {
+        "en": "Even if it means paying some sacrifices, we are determined to make this plan succeed.",
+        "my": "အနည်းငယ် စွန့်လွှတ်စတေးမှုများ ရှိလာသည့်တိုင်အောင် ဤအစီအစဉ်ကို အောင်မြင်အောင် လုပ်ဆောင်ရန် ခိုင်မာစွာ ဆုံးဖြတ်ထားသည်။"
+      },
+      "translationMy": "အနည်းငယ် စွန့်လွှတ်စတေးမှုများ ရှိလာသည့်တိုင်အောင် ဤအစီအစဉ်ကို အောင်မြင်အောင် လုပ်ဆောင်ရန် ခိုင်မာစွာ ဆုံးဖြတ်ထားသည်။",
+      "vocabIds": [
+        "n3.l34.v010",
+        "n3.l34.v012"
+      ],
+      "grammarIds": [
+        "n3.l34.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.s011",
+      "lessonId": "n3.l34",
+      "ja": "会社からの承認が得られなかったとしても、個人で研究を続ける覚悟がある。",
+      "kana": "かいしゃからのしょうにんがえられなかったとしても、こじんでけんきゅうをつづけるかくごがある。",
+      "translation": {
+        "en": "Even if approval from the company cannot be obtained, I am prepared to continue research individually.",
+        "my": "ကုမ္ပဏီထံမှ တရားဝင်အတည်ပြုချက် မရရှိသည့်တိုင်အောင် တစ်ဦးတည်းအနေဖြင့် သုတေသနကို ဆက်လက်လုပ်ဆောင်ရန် စိတ်ပိုင်းဖြတ်ထားသည်။"
+      },
+      "translationMy": "ကုမ္ပဏီထံမှ တရားဝင်အတည်ပြုချက် မရရှိသည့်တိုင်အောင် တစ်ဦးတည်းအနေဖြင့် သုတေသနကို ဆက်လက်လုပ်ဆောင်ရန် စိတ်ပိုင်းဖြတ်ထားသည်။",
+      "vocabIds": [
+        "n3.l34.v002",
+        "n3.l34.v007"
+      ],
+      "grammarIds": [
+        "n3.l34.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l34.s012",
+      "lessonId": "n3.l34",
+      "ja": "たとえ給料が少し下がったとしても、やりがいのある仕事をしたい。",
+      "kana": "たとえきゅうりょうがすこしさ资源としても、やりがいのあるしごとをしたい。",
+      "translation": {
+        "en": "Even if my salary were to decrease slightly, I want to do work that is fulfilling.",
+        "my": "အကယ်၍ လစာအနည်းငယ် လျော့နည်းသွားသည့်တိုင်အောင် စိတ်ကျေနပ်မှုရှိသော အလုပ်ကို လုပ်ကိုင်လိုပါသည်။"
+      },
+      "translationMy": "အကယ်၍ လစာအနည်းငယ် လျော့နည်းသွားသည့်တိုင်အောင် စိတ်ကျေနပ်မှုရှိသော အလုပ်ကို လုပ်ကိုင်လိုပါသည်။",
+      "vocabIds": [
+        "n3.l34.v005"
+      ],
+      "grammarIds": [
+        "n3.l34.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l34.r001",
+    "lessonId": "n3.l34",
+    "title": "困難に立ち向かう起業家の決意",
+    "level": "N3",
+    "text": "新規ビジネスの立ち上げには、数多くの困難が伴います。周囲の友人や専門家から『失敗するリスクが高い』と反対されても、強い決意を持って挑戦を続ける起業家がいます。仮に資金不足や納期の遅れなどの予期せぬトラブルが生じたとしても、最初からあらゆる事態を覚悟していれば、簡単に諦めることはありません。家族や仲間からの承認と協力を得るには忍耐強い説明が必要ですが、妥協することなく努力を積み重ねることで、道は必ず開けます。どんなに厳しい限界に直面したとしても、自分の信念を貫くことこそが成功の秘訣です。",
+    "kanaText": "しんきびじねすのたちあげには、かずおおくのこんなんがともないます。しゅういのゆうじんやせんもんかから『しっぱいするりすくがたかい』とはんたいされても、つよいけついをもってちょうせんをつづけるきぎょうかがいます。かりにしきんぶそくやのうきのおくれなどのよきせぬとらぶるがしょうじたとしても、さいしょからあらゆるじたいをかくごしていれば、かんたんにあきらめることはありません。かぞくやなかまからのしょうにんときょうりょくをえるにはにんたいづよいせつめいがひつようですが、だきょうすることなくどりょくをつみかさねることで、みちはかならずひらけます。どんなにきびしいげんかいにちょくめんしたとしても、じぶんのしんねんをつらぬくことこそがせいこうのひけつです。",
+    "translation": "စီးပွားရေးလုပ်ငန်းအသစ် စတင်ထူထောင်ရာတွင် အခက်အခဲများစွာ ပါဝင်လေ့ရှိပါသည်။ ပတ်ဝန်းကျင်ရှိ မိတ်ဆွေများနှင့် ပညာရှင်များထံမှ 'ကျရှုံးနိုင်ခြေများလွန်းသည်' ဟု ဆန့်ကျင်ကန့်ကွက်ခံရသည့်တိုင် ခိုင်မာသောဆုံးဖြတ်ချက်ဖြင့် ဆက်လက်စိန်ခေါ်နေသော လုပ်ငန်းရှင်များ ရှိကြပါသည်။ အကယ်၍ ငွေကြေးမလုံလောက်ခြင်း သို့မဟုတ် အချိန်မီမပြီးစီးခြင်း စသည့် မမျှော်လင့်သော ပြဿနာများ ပေါ်ပေါက်လာသည့်တိုင်အောင် အစကတည်းက အခြေအနေအားလုံးကို ရင်ဆိုင်ရန် စိတ်ပိုင်းဖြတ်ထားပါက အလွယ်တကူ လက်လျှော့မည် မဟုတ်ပါ။ မိသားစုနှင့် မိတ်ဆွေများထံမှ အသိအမှတ်ပြုမှုနှင့် ပူးပေါင်းကူညီမှု ရရှိရန် စိတ်ရှည်စွာ ရှင်းပြရန်လိုအပ်သော်လည်း အလျှော့မပေးဘဲ ကြိုးစားအားထုတ်မှုများကို တစိုက်မတ်မတ် ပြုလုပ်ခြင်းဖြင့် လမ်းစသည် မလွဲမသွေ ပွင့်လာမည် ဖြစ်သည်။ မည်မျှပင် ခက်ခဲသော ကန့်သတ်ချက်များနှင့် ကြုံတွေ့ရသည့်တိုင် မိမိ၏ယုံကြည်ချက်ကို ခိုင်မြဲစွာဆုပ်ကိုင်ထားခြင်းသည်သာ အောင်မြင်မှု၏ လျှို့ဝှက်ချက် ဖြစ်ပါသည်။",
+    "translationMy": "စီးပွားရေးလုပ်ငန်းအသစ် စတင်ထူထောင်ရာတွင် အခက်အခဲများစွာ ပါဝင်လေ့ရှိပါသည်။ ပတ်ဝန်းကျင်ရှိ မိတ်ဆွေများနှင့် ပညာရှင်များထံမှ 'ကျရှုံးနိုင်ခြေများလွန်းသည်' ဟု ဆန့်ကျင်ကန့်ကွက်ခံရသည့်တိုင် ခိုင်မာသောဆုံးဖြတ်ချက်ဖြင့် ဆက်လက်စိန်ခေါ်နေသော လုပ်ငန်းရှင်များ ရှိကြပါသည်။ အကယ်၍ ငွေကြေးမလုံလောက်ခြင်း သို့မဟုတ် အချိန်မီမပြီးစီးခြင်း စသည့် မမျှော်လင့်သော ပြဿနာများ ပေါ်ပေါက်လာသည့်တိုင်အောင် အစကတည်းက အခြေအနေအားလုံးကို ရင်ဆိုင်ရန် စိတ်ပိုင်းဖြတ်ထားပါက အလွယ်တကူ လက်လျှော့မည် မဟုတ်ပါ။ မိသားစုနှင့် မိတ်ဆွေများထံမှ အသိအမှတ်ပြုမှုနှင့် ပူးပေါင်းကူညီမှု ရရှိရန် စိတ်ရှည်စွာ ရှင်းပြရန်လိုအပ်သော်လည်း အလျှော့မပေးဘဲ ကြိုးစားအားထုတ်မှုများကို တစိုက်မတ်မတ် ပြုလုပ်ခြင်းဖြင့် လမ်းစသည် မလွဲမသွေ ပွင့်လာမည် ဖြစ်သည်။ မည်မျှပင် ခက်ခဲသော ကန့်သတ်ချက်များနှင့် ကြုံတွေ့ရသည့်တိုင် မိမိ၏ယုံကြည်ချက်ကို ခိုင်မြဲစွာဆုပ်ကိုင်ထားခြင်းသည်သာ အောင်မြင်မှု၏ လျှို့ဝှက်ချက် ဖြစ်ပါသည်။",
+    "questionIds": [
+      "n3.l34.q025",
+      "n3.l34.q026",
+      "n3.l34.q027"
+    ],
+    "difficulty": 3,
+    "glossary": [
+      {
+        "term": "立ち上げ",
+        "reading": "たちあげ",
+        "meaning": "launch / startup (လုပ်ငန်းအသစ်စတင်ထူထောင်ခြင်း)",
+        "meaningMy": "launch / startup (လုပ်ငန်းအသစ်စတင်ထူထောင်ခြင်း)",
+        "meaningMyanmar": "launch / startup (လုပ်ငန်းအသစ်စတင်ထူထောင်ခြင်း)"
+      },
+      {
+        "term": "予期せぬ",
+        "reading": "よきせぬ",
+        "meaning": "unexpected (ကြိုတင်မမျှော်လင့်ထားသော)",
+        "meaningMy": "unexpected (ကြိုတင်မမျှော်လင့်ထားသော)",
+        "meaningMyanmar": "unexpected (ကြိုတင်မမျှော်လင့်ထားသော)"
+      },
+      {
+        "term": "貫く",
+        "reading": "つらぬく",
+        "meaning": "to carry through / persist (ခိုင်မြဲစွာစွဲကိုင်သည်)",
+        "meaningMy": "to carry through / persist (ခိုင်မြဲစွာစွဲကိုင်သည်)",
+        "meaningMyanmar": "to carry through / persist (ခိုင်မြဲစွာစွဲကိုင်သည်)"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n3.l34.lis001",
+    "lessonId": "n3.l34",
+    "title": "マラソン大会前の励まし",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "コーチ",
+      "ランナー"
+    ],
+    "transcript": "ランナー: コーチ、明日のフルマラソン、雨の予報が出ています。最後まで走りきれるか不安です。\nコーチ: 雨が降ったって、これまで積み重ねてきた厳しい練習の成果は消えないよ。\nランナー: でも、後半に足が痛くなったり、体力の限界が来たりしたらどうしようかと…。\nコーチ: 仮に途中でペースが落ちたとしても、焦らずに自分のリズムを守れば大丈夫だ。苦しくても諦めない強い決意があれば、必ず完走できる。\nランナー: はい、ありがとうございます！どんなに苦しくても、全力で完走を目指します！",
+    "translation": "ランナー: နည်းပြခင်ဗျာ၊ မနက်ဖြန် မာရသွန်ပြိုင်ပွဲအတွက် မိုးရွာမယ့်ခန့်မှန်းချက် ထွက်နေပါတယ်။ အဆုံးထိ ပြေးနိုင်ပါ့မလား စိုးရိမ်နေမိပါတယ်။\nコーチ: မိုးရွာသည့်တိုင်အောင် အခုထိ တစိုက်မတ်မတ် လေ့ကျင့်ထားတဲ့ ကြိုးစားအားထုတ်မှုတွေက ပျောက်ကွယ်မသွားပါဘူး။\nランナー: ဒါပေမဲ့ ဒုတိယပိုင်းမှာ ခြေထောက်နာလာတာ ဒါမှမဟုတ် ခန္ဓာကိုယ်အင်အား ကုန်ခမ်းသွားခဲ့ရင် ဘယ်လိုလုပ်ရမလဲလို့...\nコーチ: အကယ်၍ လမ်းတစ်ဝက်မှာ အရှိန်လျော့သွားသည့်တိုင်အောင် မလောဘဲ မိမိရဲ့စည်းချက်ကို ထိန်းထားနိုင်ရင် အဆင်ပြေပါတယ်။ ပင်ပန်းခက်ခဲပေမယ့် လက်မလျှော့တဲ့ ဆုံးဖြတ်ချက်သာရှိရင် မလွဲမသွေ ပန်းဝင်နိုင်မှာပါ။\nランナー: ဟုတ်ကဲ့ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ဘယ်လောက်ပဲ ပင်ပန်းပါစေ အစွမ်းကုန်ကြိုးစားပြီး ပန်းဝင်အောင် ပြေးပါ့မယ်။",
+    "translationMy": "ランナー: နည်းပြခင်ဗျာ၊ မနက်ဖြန် မာရသွန်ပြိုင်ပွဲအတွက် မိုးရွာမယ့်ခန့်မှန်းချက် ထွက်နေပါတယ်။ အဆုံးထိ ပြေးနိုင်ပါ့မလား စိုးရိမ်နေမိပါတယ်။\nコーチ: မိုးရွာသည့်တိုင်အောင် အခုထိ တစိုက်မတ်မတ် လေ့ကျင့်ထားတဲ့ ကြိုးစားအားထုတ်မှုတွေက ပျောက်ကွယ်မသွားပါဘူး။\nランナー: ဒါပေမဲ့ ဒုတိယပိုင်းမှာ ခြေထောက်နာလာတာ ဒါမှမဟုတ် ခန္ဓာကိုယ်အင်အား ကုန်ခမ်းသွားခဲ့ရင် ဘယ်လိုလုပ်ရမလဲလို့...\nコーチ: အကယ်၍ လမ်းတစ်ဝက်မှာ အရှိန်လျော့သွားသည့်တိုင်အောင် မလောဘဲ မိမိရဲ့စည်းချက်ကို ထိန်းထားနိုင်ရင် အဆင်ပြေပါတယ်။ ပင်ပန်းခက်ခဲပေမယ့် လက်မလျှော့တဲ့ ဆုံးဖြတ်ချက်သာရှိရင် မလွဲမသွေ ပန်းဝင်နိုင်မှာပါ။\nランナー: ဟုတ်ကဲ့ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ဘယ်လောက်ပဲ ပင်ပန်းပါစေ အစွမ်းကုန်ကြိုးစားပြီး ပန်းဝင်အောင် ပြေးပါ့မယ်။",
+    "turns": [
+      {
+        "speaker": "ランナー",
+        "ja": "コーチ、明日のフルマラソン、雨の予報が出ています。最後まで走りきれるか不安です。",
+        "kana": "こーち、あすのふるまらそん、あめのよほうのでています。さいごまではしりきれるかふあんです。",
+        "en": "Coach, the forecast says rain for tomorrow's full marathon. I'm anxious whether I can run through to the end.",
+        "my": "နည်းပြခင်ဗျာ၊ မနက်ဖြန် မာရသွန်ပြိုင်ပွဲအတွက် မိုးရွာမယ့်ခန့်မှန်းချက် ထွက်နေပါတယ်။ အဆုံးထိ ပြေးနိုင်ပါ့မလား စိုးရိမ်နေမိပါတယ်။",
+        "translationMy": "နည်းပြခင်ဗျာ၊ မနက်ဖြန် မာရသွန်ပြိုင်ပွဲအတွက် မိုးရွာမယ့်ခန့်မှန်းချက် ထွက်နေပါတယ်။ အဆုံးထိ ပြေးနိုင်ပါ့မလား စိုးရိမ်နေမိပါတယ်။",
+        "myanmar": "နည်းပြခင်ဗျာ၊ မနက်ဖြန် မာရသွန်ပြိုင်ပွဲအတွက် မိုးရွာမယ့်ခန့်မှန်းချက် ထွက်နေပါတယ်။ အဆုံးထိ ပြေးနိုင်ပါ့မလား စိုးရိမ်နေမိပါတယ်။"
+      },
+      {
+        "speaker": "コーチ",
+        "ja": "雨が降ったって、これまで積み重ねてきた厳しい練習の成果は消えないよ。",
+        "kana": "あめがふったって、これまでつみかさねてきたきびしいれんしゅうのせいかはきえないよ。",
+        "en": "Even if it rains, the results of the rigorous training you've accumulated so far won't disappear.",
+        "my": "မိုးရွာသည့်တိုင်အောင် အခုထိ တစိုက်မတ်မတ် လေ့ကျင့်ထားတဲ့ ကြိုးစားအားထုတ်မှုတွေက ပျောက်ကွယ်မသွားပါဘူး။",
+        "translationMy": "မိုးရွာသည့်တိုင်အောင် အခုထိ တစိုက်မတ်မတ် လေ့ကျင့်ထားတဲ့ ကြိုးစားအားထုတ်မှုတွေက ပျောက်ကွယ်မသွားပါဘူး။",
+        "myanmar": "မိုးရွာသည့်တိုင်အောင် အခုထိ တစိုက်မတ်မတ် လေ့ကျင့်ထားတဲ့ ကြိုးစားအားထုတ်မှုတွေက ပျောက်ကွယ်မသွားပါဘူး။"
+      },
+      {
+        "speaker": "ランナー",
+        "ja": "でも、後半に足が痛くなったり、体力の限界が来たりしたらどうしようかと…。",
+        "kana": "でも、こうはんによしがいたくなったり、たいりょくのげんかいがきたりしたらどうしようかと…。",
+        "en": "But what if my legs hurt in the second half, or I reach my physical limit...?",
+        "my": "ဒါပေမဲ့ ဒုတိယပိုင်းမှာ ခြေထောက်နာလာတာ ဒါမှမဟုတ် ခန္ဓာကိုယ်အင်အား ကုန်ခမ်းသွားခဲ့ရင် ဘယ်လိုလုပ်ရမလဲလို့...",
+        "translationMy": "ဒါပေမဲ့ ဒုတိယပိုင်းမှာ ခြေထောက်နာလာတာ ဒါမှမဟုတ် ခန္ဓာကိုယ်အင်အား ကုန်ခမ်းသွားခဲ့ရင် ဘယ်လိုလုပ်ရမလဲလို့...",
+        "myanmar": "ဒါပေမဲ့ ဒုတိယပိုင်းမှာ ခြေထောက်နာလာတာ ဒါမှမဟုတ် ခန္ဓာကိုယ်အင်အား ကုန်ခမ်းသွားခဲ့ရင် ဘယ်လိုလုပ်ရမလဲလို့..."
+      },
+      {
+        "speaker": "コーチ",
+        "ja": "仮に途中でペースが落ちたとしても、焦らずに自分のリズムを守れば大丈夫だ。苦しくても諦めない強い決意があれば、必ず完走できる。",
+        "kana": "かりにとちゅうでぺーすがおちたとしても、あせらずにじぶんのりずむをまもればだいじょうぶだ。くるしくてもあきらめないつよいけついがあれば、かならずかんそうできる。",
+        "en": "Even if your pace drops mid-race, as long as you keep your rhythm without rushing, you'll be fine. If you have the strong resolve not to quit even when tough, you will definitely finish.",
+        "my": "အကယ်၍ လမ်းတစ်ဝက်မှာ အရှိန်လျော့သွားသည့်တိုင်အောင် မလောဘဲ မိမိရဲ့စည်းချက်ကို ထိန်းထားနိုင်ရင် အဆင်ပြေပါတယ်။ ပင်ပန်းခက်ခဲပေမယ့် လက်မလျှော့တဲ့ ဆုံးဖြတ်ချက်သာရှိရင် မလွဲမသွေ ပန်းဝင်နိုင်မှာပါ။",
+        "translationMy": "အကယ်၍ လမ်းတစ်ဝက်မှာ အရှိန်လျော့သွားသည့်တိုင်အောင် မလောဘဲ မိမိရဲ့စည်းချက်ကို ထိန်းထားနိုင်ရင် အဆင်ပြေပါတယ်။ ပင်ပန်းခက်ခဲပေမယ့် လက်မလျှော့တဲ့ ဆုံးဖြတ်ချက်သာရှိရင် မလွဲမသွေ ပန်းဝင်နိုင်မှာပါ။",
+        "myanmar": "အကယ်၍ လမ်းတစ်ဝက်မှာ အရှိန်လျော့သွားသည့်တိုင်အောင် မလောဘဲ မိမိရဲ့စည်းချက်ကို ထိန်းထားနိုင်ရင် အဆင်ပြေပါတယ်။ ပင်ပန်းခက်ခဲပေမယ့် လက်မလျှော့တဲ့ ဆုံးဖြတ်ချက်သာရှိရင် မလွဲမသွေ ပန်းဝင်နိုင်မှာပါ။"
+      },
+      {
+        "speaker": "ランナー",
+        "ja": "はい、ありがとうございます！どんなに苦しくても、全力で完走を目指します！",
+        "kana": "はい、ありがとうございます！どんなにくるしくても、ぜんりょくでかんそうをめざします！",
+        "en": "Yes, thank you very much! No matter how tough it gets, I will aim to finish with all my might!",
+        "my": "ဟုတ်ကဲ့ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ဘယ်လောက်ပဲ ပင်ပန်းပါစေ အစွမ်းကုန်ကြိုးစားပြီး ပန်းဝင်အောင် ပြေးပါ့မယ်။",
+        "translationMy": "ဟုတ်ကဲ့ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ဘယ်လောက်ပဲ ပင်ပန်းပါစေ အစွမ်းကုန်ကြိုးစားပြီး ပန်းဝင်အောင် ပြေးပါ့မယ်။",
+        "myanmar": "ဟုတ်ကဲ့ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ဘယ်လောက်ပဲ ပင်ပန်းပါစေ အစွမ်းကုန်ကြိုးစားပြီး ပန်းဝင်အောင် ပြေးပါ့မယ်။"
+      }
+    ],
+    "questionIds": [
+      "n3.l34.q028",
+      "n3.l34.q029",
+      "n3.l34.q030"
+    ],
+    "difficulty": 3,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l34.q001",
+      "lessonId": "n3.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "法令や規則で禁止されている行為を特別に許すことを何というか。",
+      "choices": [
+        "許可",
+        "妥協",
+        "忍耐",
+        "犠牲"
+      ],
+      "answer": "許可",
+      "explanation": "許可 (きょか) means official permission or authorization.",
+      "explanationMy": "တရားဝင်ခွင့်ပြုချက်ပေးခြင်းကို 許可 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q002",
+      "lessonId": "n3.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "正当なものとして認めて受け入れることを表す熟語はどれか。",
+      "choices": [
+        "承認",
+        "反対",
+        "困難",
+        "限界"
+      ],
+      "answer": "承認",
+      "explanation": "承認 (しょうにん) means formal approval or recognition.",
+      "explanationMy": "မှန်ကန်ကြောင်း အသိအမှတ်ပြုလက်ခံခြင်းကို 承認 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q003",
+      "lessonId": "n3.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "双方が意見を譲り合って問題を解決することを何というか。",
+      "choices": [
+        "妥協",
+        "決意",
+        "覚悟",
+        "努力"
+      ],
+      "answer": "妥協",
+      "explanation": "妥協 (だきょう) means mutual concession and compromise.",
+      "explanationMy": "နှစ်ဖက်စလုံး အပြန်အလှန် အလျှော့ပေးညှိနှိုင်းခြင်းကို 妥協 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q004",
+      "lessonId": "n3.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "物事を成し遂げるために力を尽くして励むことを何というか。",
+      "choices": [
+        "努力",
+        "失敗",
+        "犠牲",
+        "限界"
+      ],
+      "answer": "努力",
+      "explanation": "努力 (どりょく) means hard work or diligent effort.",
+      "explanationMy": "ရည်မှန်းချက်အောင်မြင်ရန် အစွမ်းကုန်ကြိုးစားခြင်းကို 努力 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q005",
+      "lessonId": "n3.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "困難や危険に立ち向かうために心を固めることを何というか。",
+      "choices": [
+        "覚悟",
+        "妥協",
+        "承認",
+        "許可"
+      ],
+      "answer": "覚悟",
+      "explanation": "覚悟 (かくご) means mental readiness or determination to face hardship.",
+      "explanationMy": "အခက်အခဲများကို ရင်ဆိုင်ရန် စိတ်ပိုင်းဖြတ်ထားခြင်းကို 覚悟 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q006",
+      "lessonId": "n3.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "苦しみや辛いことにじっと耐えることを何というか。",
+      "choices": [
+        "忍耐",
+        "決意",
+        "反対",
+        "努力"
+      ],
+      "answer": "忍耐",
+      "explanation": "忍耐 (にんたい) means patience, perseverance, or endurance.",
+      "explanationMy": "အခက်အခဲနှင့် ဒုက္ခများကို သည်းခံစောင့်ဆိုင်းခြင်းကို 忍耐 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q007",
+      "lessonId": "n3.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "ある目的のために大切なものを投げ出すことを何というか。",
+      "choices": [
+        "犠牲",
+        "限界",
+        "失敗",
+        "承認"
+      ],
+      "answer": "犠牲",
+      "explanation": "犠牲 (ぎせい) means sacrifice.",
+      "explanationMy": "ရည်ရွယ်ချက်တစ်ခုအတွက် တန်ဖိုးရှိသောအရာကို စွန့်လွှတ်ခြင်းကို 犠牲 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q008",
+      "lessonId": "n3.l34",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "これ以上先へは進めないという最後の境目を何というか。",
+      "choices": [
+        "限界",
+        "妥協",
+        "決意",
+        "覚悟"
+      ],
+      "answer": "限界",
+      "explanation": "限界 (げんかい) means the utmost boundary or limit.",
+      "explanationMy": "နောက်ထပ် မကျော်လွန်နိုင်တော့သော အဆုံးစွန်ကန့်သတ်ချက်ကို 限界 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q009",
+      "lessonId": "n3.l34",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「許」の正しい訓読みはどれか。",
+      "choices": [
+        "ゆる・す",
+        "みと・める",
+        "ゆず・る",
+        "たの・む"
+      ],
+      "answer": "ゆる・す",
+      "explanation": "The kunyomi of 許 is ゆる・す.",
+      "explanationMy": "許 ၏ kunyomi မှာ ゆる・す (ခွင့်ပြုသည်/ခွင့်လွှတ်သည်) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q010",
+      "lessonId": "n3.l34",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「免許」の正しい読み方はどれか。",
+      "choices": [
+        "めんきょ",
+        "めんこ",
+        "べんきょ",
+        "めんきょう"
+      ],
+      "answer": "めんきょ",
+      "explanation": "免許 is read as めんきょ.",
+      "explanationMy": "免許 ၏ အသံထွက်မှာ めんきょ (လိုင်စင်) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q011",
+      "lessonId": "n3.l34",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「認」の正しい音読みはどれか。",
+      "choices": [
+        "ニン",
+        "キョ",
+        "ジョウ",
+        "シン"
+      ],
+      "answer": "ニン",
+      "explanation": "The onyomi of 認 is ニン (e.g. 承認 - しょうにん).",
+      "explanationMy": "認 ၏ onyomi မှာ ニン ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q012",
+      "lessonId": "n3.l34",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「承認」の正しい読み方はどれか。",
+      "choices": [
+        "しょうにん",
+        "じょうにん",
+        "しょうじん",
+        "しょうねん"
+      ],
+      "answer": "しょうにん",
+      "explanation": "承認 is read as しょうにん.",
+      "explanationMy": "承認 ၏ အသံထွက်မှာ しょうにん ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q013",
+      "lessonId": "n3.l34",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「譲」の正しい訓読みはどれか。",
+      "choices": [
+        "ゆず・る",
+        "ゆる・す",
+        "ねが・う",
+        "いのち"
+      ],
+      "answer": "ゆず・る",
+      "explanation": "The kunyomi of 譲 is ゆず・る.",
+      "explanationMy": "譲 ၏ kunyomi မှာ ゆず・る (နေရာဖယ်ပေးသည်/လွှဲပြောင်းပေးသည်) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q014",
+      "lessonId": "n3.l34",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「謙譲」の正しい読み方はどれか。",
+      "choices": [
+        "けんじょう",
+        "けんちょう",
+        "かんじょう",
+        "けんしょう"
+      ],
+      "answer": "けんじょう",
+      "explanation": "謙譲 is read as けんじょう (humility).",
+      "explanationMy": "謙譲 ၏ အသံထွက်မှာ けんじょう ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q015",
+      "lessonId": "n3.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "何度失敗し（　）、諦めずに挑戦を続けるつもりだ。",
+      "choices": [
+        "ても",
+        "たら",
+        "れば",
+        "なら"
+      ],
+      "answer": "ても",
+      "explanation": "Verb-te + も indicates concession: 失敗しても (even if I fail).",
+      "explanationMy": "အခြေအနေရှိစေကာမူ အကျိုးဆက်မပြောင်းလဲကြောင်းပြရန် 失敗しても ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q016",
+      "lessonId": "n3.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "値段が高（　）、品質が良いものを長く使いたい。",
+      "choices": [
+        "くても",
+        "くて",
+        "かったら",
+        "いなら"
+      ],
+      "answer": "くても",
+      "explanation": "I-adjectives connect via 〜くても: 高い -> 高くても (even if expensive).",
+      "explanationMy": "I-adj နှင့် တွဲဆက်ရာတွင် 高くても ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q017",
+      "lessonId": "n3.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "日曜日（　）、仕事が山積みで休む暇がない。",
+      "choices": [
+        "でも",
+        "ても",
+        "なら",
+        "と"
+      ],
+      "answer": "でも",
+      "explanation": "Nouns connect via 〜でも: 日曜日でも (even on Sunday).",
+      "explanationMy": "နာမ်နှင့် တွဲဆက်ရာတွင် 日曜日でも ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q018",
+      "lessonId": "n3.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「いくら勉強し（　）、試験に受かる自信がないよ。」（会話表現）",
+      "choices": [
+        "たって",
+        "ても",
+        "たら",
+        "れば"
+      ],
+      "answer": "たって",
+      "explanation": "〜たって is the colloquial conversational form of 〜ても.",
+      "explanationMy": "စကားပြောတွင် 〜ても ၏ နေရာတွင် 〜たって ကို တွင်ကျယ်စွာ သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q019",
+      "lessonId": "n3.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "今から急い（　）、終電にはもう間に合わないだろう。",
+      "choices": [
+        "だって",
+        "たって",
+        "たら",
+        "れば"
+      ],
+      "answer": "だって",
+      "explanation": "急ぐ (voiced stem 急いで) takes 〜だって in colloquial speech: 急いだって.",
+      "explanationMy": "အသံပြင်းကြိယာ 急ぐ ၏ စကားပြောပုံစံမှာ 急いだって ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q020",
+      "lessonId": "n3.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜たって」が使われる場面として最もふさわしいものはどれか。",
+      "choices": [
+        "友人同士のカジュアルな日常会話",
+        "会社の公式な契約書や報告書",
+        "大学の学術論文",
+        "公的な演説や公式記者会見"
+      ],
+      "answer": "友人同士のカジュアルな日常会話",
+      "explanation": "〜たって is colloquial and restricted to casual daily speech with close acquaintances.",
+      "explanationMy": "ရင်းနှီးသော မိတ်ဆွေများကြား နေ့စဉ်စကားပြောတွင်သာ သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q021",
+      "lessonId": "n3.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "仮に彼が犯人だ（　）、単独で犯行を行うことは不可能だ。",
+      "choices": [
+        "としても",
+        "とすれば",
+        "としたら",
+        "にしても"
+      ],
+      "answer": "としても",
+      "explanation": "Noun + だとしても expresses hypothetical concession (even supposing that...).",
+      "explanationMy": "စိတ်ကူးယဉ်ယူဆချက်အဖြစ် '...ဖြစ်သည့်တိုင်အောင်' ဟု ပြရာတွင် だとしても ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q022",
+      "lessonId": "n3.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "たとえ計画が失敗した（　）、得られたデータは無駄にはならない。",
+      "choices": [
+        "としても",
+        "と",
+        "たら",
+        "なら"
+      ],
+      "answer": "としても",
+      "explanation": "Verb-ta + としても sets up a hypothetical concession.",
+      "explanationMy": "စိတ်ကူးယဉ်ခန့်မှန်းချက်အတွက် 失敗したとしても ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q023",
+      "lessonId": "n3.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜としても」の前に来る接続形式として正しいものはどれか。",
+      "choices": [
+        "普通形（Plain Form）",
+        "ます形（ます-stem）",
+        "て形（て-form）",
+        "命令形（Imperative）"
+      ],
+      "answer": "普通形（Plain Form）",
+      "explanation": "〜としても connects to the plain form of verbs, adjectives, and nouns.",
+      "explanationMy": "〜としても ၏ရှေ့တွင် ရိုးရိုးပုံစံ (Plain Form) လိုက်ရသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q024",
+      "lessonId": "n3.l34",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「たとえ〜としても」構文における「たとえ」の役割は何ですか。",
+      "choices": [
+        "仮定の譲歩をあらかじめ強調して予告する副詞",
+        "過去の完了を表す助詞",
+        "禁止を強める感動詞",
+        "疑問を提示する接続詞"
+      ],
+      "answer": "仮定の譲歩をあらかじめ強調して予告する副詞",
+      "explanation": "たとえ is an adverb that anticipates and strengthens the concessive hypothetical meaning.",
+      "explanationMy": "たとえ သည် 'အကယ်၍...သည့်တိုင်အောင်' ဟူသော ယူဆချက်ကို ကြိုတင်အလေးပေးသည့် ကြိယာဝိသေသန ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q025",
+      "lessonId": "n3.l34",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "起業家が周囲から反対されたときの態度として正しいものはどれか。",
+      "choices": [
+        "強い決意を持って挑戦を続ける",
+        "すぐに事業計画を全て白紙に戻す",
+        "反対した人たちを警察に通報する",
+        "反対意見に従って何もしないで待つ"
+      ],
+      "answer": "強い決意を持って挑戦を続ける",
+      "explanation": "The text states: 反対されても、強い決意を持って挑戦を続ける起業家がいます。",
+      "explanationMy": "ဆန့်ကျင်ခံရသည့်တိုင် ခိုင်မာသောဆုံးဖြတ်ချက်ဖြင့် ဆက်လက်စိန်ခေါ်ကြသည်ဟု ဖော်ပြထားသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q026",
+      "lessonId": "n3.l34",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "予期せぬトラブルが生じたとき、簡単に諦めないために必要なことは何ですか。",
+      "choices": [
+        "最初からあらゆる事態を覚悟しておくこと",
+        "トラブルの原因を他人のせいにして逃げること",
+        "追加の借金を際限なく繰り返すこと",
+        "すべての責任を家族に押し付けること"
+      ],
+      "answer": "最初からあらゆる事態を覚悟しておくこと",
+      "explanation": "The passage notes: 最初からあらゆる事態を覚悟していれば、簡単に諦めることはありません。",
+      "explanationMy": "အစကတည်းက အခြေအနေအားလုံးကို ရင်ဆိုင်ရန် စိတ်ပိုင်းဖြတ်ပြင်ဆင်ထားခြင်း ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q027",
+      "lessonId": "n3.l34",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において「成功の秘訣」とされているものはどれですか。",
+      "choices": [
+        "どんな限界に直面しても自分の信念を貫くこと",
+        "周囲の意見に合わせてすぐに妥協すること",
+        "困難が生じたらいち早く事業を売却すること",
+        "努力をしないで他人の成功を真似すること"
+      ],
+      "answer": "どんな限界に直面しても自分の信念を貫くこと",
+      "explanation": "The conclusion states that persisting in one's convictions is the key to success.",
+      "explanationMy": "မည်သည့်အတားအဆီးများနှင့် ကြုံရပါစေ မိမိ၏ယုံကြည်ချက်ကို ခိုင်မြဲစွာ ဆုပ်ကိုင်ထားခြင်း ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q028",
+      "lessonId": "n3.l34",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "ランナーは何について不安を感じていますか。",
+      "choices": [
+        "雨の予報が出ており最後まで完走できるかどうか",
+        "新しいシューズのサイズが合わないこと",
+        "朝の集合時間に遅刻してしまうこと",
+        "コースの途中で道に迷ってしまうこと"
+      ],
+      "answer": "雨の予報が出ており最後まで完走できるかどうか",
+      "explanation": "The runner is worried about finishing the race because rain is forecast.",
+      "explanationMy": "မိုးရွာမည့်ခန့်မှန်းချက်ကြောင့် အဆုံးထိ ပြေးနိုင်ပါ့မလား စိုးရိမ်နေခြင်း ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q029",
+      "lessonId": "n3.l34",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "途中でペースが落ちたとき、コーチはどうするよう助言しましたか。",
+      "choices": [
+        "焦らずに自分のリズムを守ること",
+        "すぐに立ち止まって棄権すること",
+        "無理をして全力で猛スピードを出すこと",
+        "他のランナーの後ろについて歩くこと"
+      ],
+      "answer": "焦らずに自分のリズムを守ること",
+      "explanation": "The coach advises: 焦らずに自分のリズムを守れば大丈夫だ。",
+      "explanationMy": "မလောဘဲ မိမိ၏ပြေးစည်းချက်ကို ထိန်းထားရန် နည်းပြက အကြံပေးခဲ့သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l34.q030",
+      "lessonId": "n3.l34",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "完走するために最も大切だとされていることは何ですか。",
+      "choices": [
+        "苦しくても諦めない強い決意を持つこと",
+        "最初から最後までトップを走り続けること",
+        "天候が回復するまで待機すること",
+        "高価なサプリメントを大量に摂取すること"
+      ],
+      "answer": "苦しくても諦めない強い決意を持つこと",
+      "explanation": "The dialogue emphasizes: 苦しくても諦めない強い決意があれば、必ず完走できる。",
+      "explanationMy": "ခက်ခဲပင်ပန်းသော်လည်း လက်မလျှော့သော ခိုင်မာသည့်ဆုံးဖြတ်ချက် ရှိရန် ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l34.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-06T10:00:00Z",
+    "rev": 2
+  }
+}

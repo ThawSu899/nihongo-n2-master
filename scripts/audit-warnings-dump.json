@@ -1,0 +1,5556 @@
+[
+  {
+    "lessonId": "n5.l01",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l01.g001",
+    "message": "Grammar pattern 'X は Y です' (n5.l01.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l01",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l01.g002",
+    "message": "Grammar pattern 'X は Y ですか' (n5.l01.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l02",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l02.g001",
+    "message": "Grammar pattern 'これ / それ / あれ は [Noun] です' (n5.l02.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l02",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l02.g002",
+    "message": "Grammar pattern 'この / その / あの [Noun] は [Person] の です' (n5.l02.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l02",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l02",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l02",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l03",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l03.g001",
+    "message": "Grammar pattern '[Noun] は [Place] です' (n5.l03.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l03",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l03.g002",
+    "message": "Grammar pattern '[Noun] は どこですか' (n5.l03.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l03",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l03",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l03",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l04",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l04.g001",
+    "message": "Grammar pattern '今 [Time] です' (n5.l04.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l04",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l04.g002",
+    "message": "Grammar pattern '[Time/Day] から [Time/Day] まで' (n5.l04.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l04",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l04",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l04",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l05",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l05.g001",
+    "message": "Grammar pattern '[Place] へ 行きます / 来ます / 帰ります' (n5.l05.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l05",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l05.g002",
+    "message": "Grammar pattern '[Transport] で 行きます' (n5.l05.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l05",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l05",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l05",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l06",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l06.g001",
+    "message": "Grammar pattern '[Noun] を [Verb] します' (n5.l06.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l06",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l06.g002",
+    "message": "Grammar pattern '[Place] で [Verb] します' (n5.l06.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l06",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l06",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l06",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l07",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l07.g001",
+    "message": "Grammar pattern '[Tool / Language] で [Action]' (n5.l07.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l07",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l07.g002",
+    "message": "Grammar pattern '[Person] に [Item] を あげます / もらいます' (n5.l07.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l07",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l07",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l07",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l08",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l08.g001",
+    "message": "Grammar pattern '[Noun] は [い-Adj] です / 〜くないです' (n5.l08.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l08",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l08.g002",
+    "message": "Grammar pattern '[Noun] は [な-Adj] です / ではありません' (n5.l08.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l08",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l08",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l08",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l09",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l09.g001",
+    "message": "Grammar pattern '[Noun] が 好きです / 上手です' (n5.l09.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l09",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l09.g002",
+    "message": "Grammar pattern '[Reason sentence] から、[Result sentence]' (n5.l09.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l09",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l09",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l09",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l10",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l10.g001",
+    "message": "Grammar pattern '[Place] に [Thing] が あります / [Person/Animal] が います' (n5.l10.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l10",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l10.g002",
+    "message": "Grammar pattern '[Noun 1] の [Position] に [Noun 2] が あります/います' (n5.l10.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l10",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l10",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l10",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l11",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l11.g001",
+    "message": "Grammar pattern '[Noun] を [Quantity] 買います / 食べます' (n5.l11.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l11",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l11.g002",
+    "message": "Grammar pattern '[Period] に [Times] [Verb]' (n5.l11.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l11",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l11",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l11",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l12",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l12.g001",
+    "message": "Grammar pattern '[い-Adj] かったです / 〜くなかったです' (n5.l12.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l12",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l12.g002",
+    "message": "Grammar pattern '[Noun / な-Adj] でした / 〜ではありませんでした' (n5.l12.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l12",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l12",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l12",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l13",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l13.g001",
+    "message": "Grammar pattern '[A] は [B] より [Adj] です' (n5.l13.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l13",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l13.g002",
+    "message": "Grammar pattern '[Category] の中で [Item] が 一番 [Adj] です' (n5.l13.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l13",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l13",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l13",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l14",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l14.g001",
+    "message": "Grammar pattern '[Noun] が ほしいです / [Verb stem] たいです' (n5.l14.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l14",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l14.g002",
+    "message": "Grammar pattern '[Place] へ [Verb stem / Noun] に 行きます / 来ます' (n5.l14.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l14",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l14",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l14",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l15",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l15.g001",
+    "message": "Grammar pattern '[Verb-te] ください' (n5.l15.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l15",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l15.g002",
+    "message": "Grammar pattern '[Verb-te] います' (n5.l15.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l15",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l15",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l15",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l16",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l16.g001",
+    "message": "Grammar pattern '[Verb-te] も いいですか' (n5.l16.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l16",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l16.g002",
+    "message": "Grammar pattern '[Verb-te] は いけません' (n5.l16.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l16",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l16",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l16",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l17",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l17.g001",
+    "message": "Grammar pattern '[V-te]、[V-te]、それから [Verb]' (n5.l17.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l17",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l17.g002",
+    "message": "Grammar pattern '[Verb-te] から、[Action 2]' (n5.l17.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l17",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l17",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l17",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l18",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l18.g001",
+    "message": "Grammar pattern '[Verb-nai] でください' (n5.l18.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l18",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l18.g002",
+    "message": "Grammar pattern '[Verb-nai] なければなりません' (n5.l18.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l18",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l18",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l18",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l19",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l19.g001",
+    "message": "Grammar pattern '[Verb dict] ことが できます' (n5.l19.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l19",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l19.g002",
+    "message": "Grammar pattern '私の趣味は [Verb dict] ことです' (n5.l19.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l19",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l19",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l19",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l20",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l20.g001",
+    "message": "Grammar pattern '[Verb-ta] ことが あります' (n5.l20.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l20",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l20.g002",
+    "message": "Grammar pattern '[V1-ta] り、[V2-ta] り します' (n5.l20.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l20",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l20",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 8 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l20",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 0 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l21",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l21.g001",
+    "message": "Grammar pattern 'い-adj (〜く) / な-adj・Noun (〜に) + なります' (n5.l21.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l21",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l21.g002",
+    "message": "Grammar pattern '[V1-ta] り、[V2-ta] り します' (n5.l21.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l21",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l21",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l22",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l22.g001",
+    "message": "Grammar pattern 'Plain Present Form (普通形 現在: 書く・書かない・高い・暇だ)' (n5.l22.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l22",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l22.g002",
+    "message": "Grammar pattern 'Plain Past Form (普通形 過去: 書いた・書かなかった・高かった・暇だった)' (n5.l22.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l22",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l22",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l23",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l23.g001",
+    "message": "Grammar pattern '[Plain Form] と 思います' (n5.l23.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l23",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l23.g002",
+    "message": "Grammar pattern '〜について どう 思いますか' (n5.l23.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l23",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l23",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l24",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l24.g001",
+    "message": "Grammar pattern '[Plain Form / Quote] と 言いました' (n5.l24.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l24",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l24.g002",
+    "message": "Grammar pattern '[Plain Form] でしょう / だろう' (n5.l24.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l24",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l24",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l25",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l25.g001",
+    "message": "Grammar pattern '[Clause: Verb Plain Form] + Noun' (n5.l25.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l25",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l25.g002",
+    "message": "Grammar pattern 'これは [Clause] Noun です' (n5.l25.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l25",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l25",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l26",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l26.g001",
+    "message": "Grammar pattern '[V-dic / V-ta / い-adj / な-adj / N-の] とき' (n5.l26.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l26",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l26.g002",
+    "message": "Grammar pattern '[V-dic] と、〜' (n5.l26.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l26",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l26",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l27",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l27.g001",
+    "message": "Grammar pattern '[V-ta / A-katta / N-datta] ら、〜' (n5.l27.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l27",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l27.g002",
+    "message": "Grammar pattern '[V-te / A-kute / N-demo] も、〜' (n5.l27.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l27",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l27",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l28",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l28.g001",
+    "message": "Grammar pattern '[V-ta] ほうがいいです / [V-nai] ほうがいいです' (n5.l28.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l28",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l28.g002",
+    "message": "Grammar pattern '[V-masu-stem] ませんか / ましょう' (n5.l28.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l28",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l28",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l29",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l29.g001",
+    "message": "Grammar pattern '[Clause] から vs [Clause] ので' (n5.l29.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l29",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l29.g002",
+    "message": "Grammar pattern '[Plain Form] んです (の です)' (n5.l29.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l29",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l29",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l30",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l30.g001",
+    "message": "Grammar pattern 'Verb Form Integration (て形・ない形・た形・辞書形)' (n5.l30.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l30",
+    "level": "N5",
+    "rule": "grammar-in-text",
+    "itemId": "n5.l30.g002",
+    "message": "Grammar pattern 'Particle Discrimination (は・が・を・に・で・へ・と・から・まで・より)' (n5.l30.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n5.l30",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n5.l30",
+    "level": "N5",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l01",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l01.g001",
+    "message": "Grammar pattern '[Verb Potential Form] (が 話せる / が 読める)' (n4.l01.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l01",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l01.g002",
+    "message": "Grammar pattern '〜が 見える / 〜が 聞こえる' (n4.l01.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l01",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l01",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l02",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l02.g001",
+    "message": "Grammar pattern '[Verb Volitional Form] と 思っています' (n4.l02.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l02",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l02.g002",
+    "message": "Grammar pattern '[Verb Dict / Verb-nai] つもりです / [Verb Dict / Noun の] 予定です' (n4.l02.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l02",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l02",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l03",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l03.g001",
+    "message": "Grammar pattern '命令形 (走れ / 止めろ) / 禁止形 ([Verb-dict] な)' (n4.l03.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l03",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l03.g002",
+    "message": "Grammar pattern '「〜」と 書いて あります / 「〜」は ... という 意味 です' (n4.l03.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l03",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l03",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l04",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l04.g001",
+    "message": "Grammar pattern '[Verb-ば] / [い-adj 〜ければ] / [な-adj/Noun なら(ば)]' (n4.l04.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l04",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l04.g002",
+    "message": "Grammar pattern '[Verb-ば] [Verb-dict] ほど / [い-adj 〜ければ] [い-adj] ほど' (n4.l04.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l04",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l04",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l05",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l05.g001",
+    "message": "Grammar pattern '[Noun / Plain Form] なら、〜' (n4.l05.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l05",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l05.g002",
+    "message": "Grammar pattern '〜たら / 〜ば / 〜と / 〜なら' (n4.l05.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l05",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l05",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l06",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l06.g001",
+    "message": "Grammar pattern '[Noun] を 他動詞 (開ける / つける) vs [Noun] が 自動詞 (開く / つく)' (n4.l06.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l06",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l06.g002",
+    "message": "Grammar pattern '[Noun] が [Intransitive Verb-te] います' (n4.l06.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l06",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l06",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l07",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l07.g001",
+    "message": "Grammar pattern '[Noun] が [Transitive Verb-te] あります' (n4.l07.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l07",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l07.g002",
+    "message": "Grammar pattern 'もう [Transitive Verb-te] あります' (n4.l07.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l07",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l07",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l08",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l08.g001",
+    "message": "Grammar pattern '[Verb-te] おきます' (n4.l08.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l08",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l08.g002",
+    "message": "Grammar pattern '[Verb-te] しまいました / [Verb-te] しまいます' (n4.l08.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l08",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l08",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l09",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l09.g001",
+    "message": "Grammar pattern '[Verb stem / Adj stem] そうです' (n4.l09.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l09",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l09.g002",
+    "message": "Grammar pattern '[Plain Form] そうです' (n4.l09.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l09",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l09",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l10",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l10.g001",
+    "message": "Grammar pattern '[A] は [B] に [物] を あげる / くれる / もらう' (n4.l10.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l10",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l10.g002",
+    "message": "Grammar pattern '[Verb-te] あげる / [Verb-te] くれる / [Verb-te] もらう' (n4.l10.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l10",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 6 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l10",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 4 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l11",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l11.g001",
+    "message": "Grammar pattern '[Person A] は [Person B] に [Verb 受身形 (〜られる)]' (n4.l11.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l11",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l11.g002",
+    "message": "Grammar pattern '[Person A] は [Person B] に [Object] を [Verb 受身形 (〜られる)] (迷惑の受け身)' (n4.l11.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l11",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 10 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l11",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l11",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l12",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l12.g001",
+    "message": "Grammar pattern '[Causer] は [Causee] に [Object] を [Verb 使役形 (〜せる/〜させる)]' (n4.l12.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l12",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l12.g002",
+    "message": "Grammar pattern '[Causer] は [Causee] を [Verb 使役形 (〜せる/〜させる)]' (n4.l12.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l12",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 10 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l12",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l12",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l13",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l13.g001",
+    "message": "Grammar pattern '[Subject] は [Agent] に [Verb 使役受身形 (〜させられる / 〜される)]' (n4.l13.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l13",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l13.g002",
+    "message": "Grammar pattern '[Event/Situation] で [Verb 使役受身形 (〜させられた / 考えさせられた)]' (n4.l13.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l13",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 10 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l13",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l13",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l14",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l14.g001",
+    "message": "Grammar pattern '[Honorific Verb: いらっしゃる・召し上がる・おっしゃる・なさる・ご覧になる]' (n4.l14.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l14",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l14.g002",
+    "message": "Grammar pattern 'お + [Verb ます-stem] + になる / お + [Verb ます-stem] + ください' (n4.l14.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l14",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 10 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l14",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l14",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l15",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l15.g001",
+    "message": "Grammar pattern '[Humble Verb: 参る・申す・いたす・拝見する・いただく・存じている]' (n4.l15.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l15",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l15.g002",
+    "message": "Grammar pattern 'お + [Verb ます-stem] + する / ご + [Noun] + する' (n4.l15.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l15",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 10 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l15",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l15",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l16",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l16.g001",
+    "message": "Grammar pattern '[Plain form] + かもしれない' (n4.l16.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l16",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l16.g002",
+    "message": "Grammar pattern '[Plain form] + はずだ / はずがない' (n4.l16.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l16",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 10 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l16",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l16",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l17",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l17.g001",
+    "message": "Grammar pattern '[Verb Dictionary form / ない form] + ことにする / ことにしている' (n4.l17.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l17",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l17.g002",
+    "message": "Grammar pattern '[Verb Dictionary form / ない form] + ことになる / ことになっている' (n4.l17.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l17",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 10 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l17",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l17",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l18",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l18.g001",
+    "message": "Grammar pattern '[Verb ます-stem / i-adj stem / na-adj stem] + すぎる' (n4.l18.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l18",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l18.g002",
+    "message": "Grammar pattern '[Verb ます-stem] + やすい / にくい' (n4.l18.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l18",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 10 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l18",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l18",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l19",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l19.g001",
+    "message": "Grammar pattern '[Verb Dictionary form (Potential / Intransitive)] + ようになる' (n4.l19.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l19",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l19.g002",
+    "message": "Grammar pattern '[Verb ない-form] (drop い) + くなる (〜なくなる)' (n4.l19.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l19",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 10 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l19",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l19",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l20",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l20.g001",
+    "message": "Grammar pattern '[指示語・接続詞による文脈把握: しかし・そのため・それに・これ/それ]' (n4.l20.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l20",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l20.g002",
+    "message": "Grammar pattern '[Plain form] + のではないか / 〜必要がある' (n4.l20.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l20",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 10 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l20",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l20",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l21",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l21.g001",
+    "message": "Grammar pattern '[Plain form / Noun / Na-adj stem] + らしい' (n4.l21.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l21",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l21.g002",
+    "message": "Grammar pattern '[Noun] + らしい' (n4.l21.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l21",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 10 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l21",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l21",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l22",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l22.g001",
+    "message": "Grammar pattern '[Plain form / Nounの / Na-adjな] + ようだ (推量・状況判断)' (n4.l22.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l22",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l22.g002",
+    "message": "Grammar pattern 'まるで + [Nounの / Plain form] + ような [Noun] / ように [Verb/Adj] (比喩・例示)' (n4.l22.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l22",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 10 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l22",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l22",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l23",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l23.g001",
+    "message": "Grammar pattern '[Noun / Na-adj stem / Verb plain] + みたいだ (口語の推量)' (n4.l23.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l23",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l23.g002",
+    "message": "Grammar pattern '〜みたいな [Noun] / 〜みたいに [Verb/Adj] (口語の比喩)' (n4.l23.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l23",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 10 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l23",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l23",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 5 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l24",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l24.g001",
+    "message": "Grammar pattern '[Verb (Dictionary form) / Noun + の] + ために' (n4.l24.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l24",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l24.g002",
+    "message": "Grammar pattern '[Verb (Potential / Non-volitional / Negative ない-form)] + ように' (n4.l24.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l24",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l24",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l24",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l24",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l25",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l25.g001",
+    "message": "Grammar pattern '[Noun / Plain form] + なら' (n4.l25.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l25",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l25.g002",
+    "message": "Grammar pattern 'Conditional Comparison: 〜なら vs 〜たら vs 〜ば vs 〜と' (n4.l25.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l25",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l25",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l25",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l25",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l26",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l26.g001",
+    "message": "Grammar pattern '[Verb ない-form: 〜なければならない / 〜ないといけない]' (n4.l26.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l26",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l26.g002",
+    "message": "Grammar pattern '[Verb て-form] + はいけない / はだめだ' (n4.l26.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l26",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l26",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l26",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l26",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l27",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l27.g001",
+    "message": "Grammar pattern '[Verb て-form] + もいい / もかまわない' (n4.l27.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l27",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l27.g002",
+    "message": "Grammar pattern '[Verb ない-form minus い] + くてもいい / くてもかまわない' (n4.l27.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l27",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l27",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l27",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l27",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l28",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l28.g001",
+    "message": "Grammar pattern '[Verb た-form] + ことがある / ことがない' (n4.l28.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l28",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l28.g002",
+    "message": "Grammar pattern '[Verb ます-stem] + ながら' (n4.l28.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l28",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l28",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l28",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l28",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l29",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l29.g001",
+    "message": "Grammar pattern 'Request Hierarchy: 〜てください vs 〜てくれませんか vs 〜ていただけませんか' (n4.l29.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l29",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l29.g002",
+    "message": "Grammar pattern '[Verb ない-form] + でください (〜ないでください)' (n4.l29.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l29",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l29",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l29",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l29",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l30",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l30.g001",
+    "message": "Grammar pattern 'Conversational Transitions: ところで・それに・それで・実は' (n4.l30.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l30",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l30.g002",
+    "message": "Grammar pattern 'やっぱり / やはり (Confirmation of intuition & expectation)' (n4.l30.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l30",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l30",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l30",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l30",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l31",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l31.g001",
+    "message": "Grammar pattern '[Plain form / Noun / Na-adj stem (*no だ)] + かどうか' (n4.l31.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l31",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l31.g002",
+    "message": "Grammar pattern '[Interrogative (何/誰/どこ/いつ/どう)] + [Plain form (*no だ)] + か' (n4.l31.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l31",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l31",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l31",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l31",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l32",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l32.g001",
+    "message": "Grammar pattern 'Nominalization: [Verb Plain form] + の' (n4.l32.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l32",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l32.g002",
+    "message": "Grammar pattern 'Nominalization: [Verb Plain form] + こと' (n4.l32.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l32",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l32",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l32",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l32",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l33",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l33.g001",
+    "message": "Grammar pattern '[Verb て-form] + あげる vs くれる' (n4.l33.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l33",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l33.g002",
+    "message": "Grammar pattern '[Verb て-form] + もらう' (n4.l33.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l33",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l33",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l33",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l33",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l34",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l34.g001",
+    "message": "Grammar pattern 'Spontaneous Sensory Occurrence: 見える vs 見られる / 聞こえる vs 聞ける' (n4.l34.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l34",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l34.g002",
+    "message": "Grammar pattern 'Spontaneous Intransitives vs Passive Voice (自然発生動詞と受身文の統合)' (n4.l34.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l34",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l34",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l34",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l34",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l35",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l35.g001",
+    "message": "Grammar pattern '[Verb Dictionary / ている / た-form] + ところだ' (n4.l35.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l35",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l35.g002",
+    "message": "Grammar pattern '[Verb た-form] + ばかりだ / ばかりの + [Noun]' (n4.l35.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l35",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l35",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l35",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l35",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l36",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l36.g001",
+    "message": "Grammar pattern 'N4 Core Grammar Discrimination Matrix (類似文法の精密識別)' (n4.l36.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l36",
+    "level": "N4",
+    "rule": "grammar-in-text",
+    "itemId": "n4.l36.g002",
+    "message": "Grammar pattern 'Complex Sentence Integration: Giving/Receiving, Nominalization & Embedded Questions' (n4.l36.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n4.l36",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l36",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l36",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n4.l36",
+    "level": "N4",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l01",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l01.g001",
+    "message": "Grammar pattern '〜について' (n3.l01.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l01",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l01.g002",
+    "message": "Grammar pattern '〜に関して' (n3.l01.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l01",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l01",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l01",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l01",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l02",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l02.g001",
+    "message": "Grammar pattern '〜にとって' (n3.l02.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l02",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l02.g002",
+    "message": "Grammar pattern '〜に対して' (n3.l02.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l02",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l02",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l02",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l02",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l03",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l03",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l03",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l03",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l04",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l04.g001",
+    "message": "Grammar pattern '〜によって' (n3.l04.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l04",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l04.g002",
+    "message": "Grammar pattern '〜による' (n3.l04.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l04",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l04",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l04",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l04",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l05",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l05.g001",
+    "message": "Grammar pattern '〜ほど' (n3.l05.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l05",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l05.g002",
+    "message": "Grammar pattern '〜くらい' (n3.l05.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l05",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l05",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l05",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l05",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l06",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l06.g001",
+    "message": "Grammar pattern '〜に限る' (n3.l06.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l06",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l06.g002",
+    "message": "Grammar pattern '〜ばかり / 〜てばかりいる' (n3.l06.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l06",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l06",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l06",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l06",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l07",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l07.g001",
+    "message": "Grammar pattern '〜にもかかわらず' (n3.l07.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l07",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l07.g002",
+    "message": "Grammar pattern '〜わりに（は）' (n3.l07.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l07",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l07",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l07",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l07",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l08",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l08.g001",
+    "message": "Grammar pattern '〜つつ / 〜つつも' (n3.l08.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l08",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l08.g002",
+    "message": "Grammar pattern '〜最中に / 〜最中だ' (n3.l08.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l08",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l08",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l08",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l08",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l09",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l09.g001",
+    "message": "Grammar pattern '〜がち' (n3.l09.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l09",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l09.g002",
+    "message": "Grammar pattern '〜気味' (n3.l09.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l09",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l09",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l09",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l09",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l10",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l10.g001",
+    "message": "Grammar pattern '〜わけだ' (n3.l10.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l10",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l10.g002",
+    "message": "Grammar pattern '〜わけがない' (n3.l10.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l10",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 8 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l10",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l10",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for reading has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l10",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for listening has 3 questions (recommended >= 5 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l11",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l11.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l11.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l11",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l11.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l11.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l11",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l11",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l11",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l12",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l12.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l12.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l12",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l12.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l12.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l12",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l12",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l12",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l13",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l13.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l13.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l13",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l13.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l13.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l13",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l13",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l13",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l14",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l14.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l14.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l14",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l14.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l14.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l14",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l14",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l14",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l15",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l15.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l15.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l15",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l15.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l15.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l15",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l15",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l15",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l16",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l16.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l16.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l16",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l16.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l16.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l16",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l16",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l16",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l17",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l17.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l17.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l17",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l17.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l17.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l17",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l17",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l17",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l18",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l18.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l18.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l18",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l18.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l18.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l18",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l18",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l18",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l19",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l19.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l19.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l19",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l19.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l19.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l19",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l19",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l19",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l20",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l20.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l20.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l20",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l20.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l20.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l20",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l20",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l20",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l21",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l21.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l21.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l21",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l21.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l21.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l21",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l21",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l21",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l22",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l22.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l22.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l22",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l22.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l22.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l22",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l22",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l22",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l23",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l23.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l23.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l23",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l23.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l23.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l23",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l23",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l23",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l24",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l24.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l24.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l24",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l24.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l24.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l24",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l24",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l24",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l25",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l25.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l25.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l25",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l25.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l25.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l25",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l25",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l25",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l26",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l26.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l26.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l26",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l26.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l26.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l26",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l26",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l26",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l27",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l27.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l27.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l27",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l27.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l27.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l27",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l27",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l27",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l28",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l28.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l28.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l28",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l28.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l28.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l28",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l28",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l28",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l29",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l29.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l29.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l29",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l29.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l29.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l29",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l29",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l29",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l30",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l30.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l30.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l30",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l30.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l30.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l30",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l30",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l30",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l31",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l31.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l31.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l31",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l31.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l31.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l31",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l31",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l31",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l32",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l32.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l32.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l32",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l32.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l32.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l32",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l32",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l32",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l33",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l33.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l33.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l33",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l33.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l33.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l33",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l33",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l33",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l34",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l34.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l34.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l34",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l34.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l34.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l34",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l34",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l34",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l35",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l35.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l35.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l35",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l35.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l35.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l35",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l35",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l35",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l36",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l36.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l36.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l36",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l36.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l36.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l36",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l36",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l36",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l37",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l37.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l37.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l37",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l37.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l37.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l37",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l37",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l37",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l38",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l38.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l38.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l38",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l38.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l38.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l38",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l38",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l38",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l39",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l39.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l39.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l39",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l39.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l39.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l39",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l39",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l39",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l40",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l40.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l40.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l40",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l40.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l40.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l40",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l40",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l40",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l41",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l41.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l41.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l41",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l41.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l41.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l41",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l41",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l41",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l42",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l42.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l42.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l42",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l42.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l42.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l42",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l42",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l42",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l43",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l43.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l43.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l43",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l43.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l43.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l43",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l43",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l43",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l44",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l44.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l44.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l44",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l44.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l44.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l44",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l44",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l44",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l45",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l45.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l45.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l45",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l45.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l45.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l45",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l45",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l45",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l46",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l46.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l46.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l46",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l46.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l46.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l46",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l46",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l46",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l47",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l47.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l47.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l47",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l47.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l47.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l47",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l47",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l47",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l48",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l48.g001",
+    "message": "Grammar pattern 'X を Y します' (n3.l48.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l48",
+    "level": "N3",
+    "rule": "grammar-in-text",
+    "itemId": "n3.l48.g002",
+    "message": "Grammar pattern 'X で Y します' (n3.l48.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n3.l48",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l48",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n3.l48",
+    "level": "N3",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l01",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l01.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l01.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l01",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l01.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l01.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l01",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l01",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l01",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l02",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l02.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l02.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l02",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l02.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l02.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l02",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l02",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l02",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l03",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l03.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l03.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l03",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l03.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l03.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l03",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l03",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l03",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l04",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l04.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l04.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l04",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l04.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l04.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l04",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l04",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l04",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l05",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l05.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l05.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l05",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l05.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l05.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l05",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l05",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l05",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l06",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l06.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l06.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l06",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l06.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l06.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l06",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l06",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l06",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l07",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l07.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l07.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l07",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l07.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l07.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l07",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l07",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l07",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l08",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l08.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l08.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l08",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l08.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l08.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l08",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l08",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l08",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l09",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l09.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l09.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l09",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l09.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l09.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l09",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l09",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l09",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l10",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l10.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l10.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l10",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l10.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l10.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l10",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l10",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l10",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l11",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l11.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l11.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l11",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l11.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l11.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l11",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l11",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l11",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l12",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l12.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l12.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l12",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l12.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l12.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l12",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l12",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l12",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l13",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l13.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l13.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l13",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l13.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l13.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l13",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l13",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l13",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l14",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l14.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l14.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l14",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l14.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l14.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l14",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l14",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l14",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l15",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l15.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l15.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l15",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l15.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l15.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l15",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l15",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l15",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l16",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l16.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l16.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l16",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l16.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l16.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l16",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l16",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l16",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l17",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l17.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l17.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l17",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l17.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l17.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l17",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l17",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l17",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l18",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l18.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l18.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l18",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l18.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l18.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l18",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l18",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l18",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l19",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l19.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l19.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l19",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l19.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l19.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l19",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l19",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l19",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l20",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l20.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l20.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l20",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l20.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l20.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l20",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l20",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l20",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l21",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l21.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l21.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l21",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l21.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l21.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l21",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l21",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l21",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l22",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l22.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l22.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l22",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l22.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l22.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l22",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l22",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l22",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l23",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l23.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l23.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l23",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l23.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l23.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l23",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l23",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l23",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l24",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l24.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l24.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l24",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l24.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l24.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l24",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l24",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l24",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l25",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l25.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l25.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l25",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l25.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l25.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l25",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l25",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l25",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l26",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l26.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l26.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l26",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l26.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l26.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l26",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l26",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l26",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l27",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l27.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l27.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l27",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l27.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l27.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l27",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l27",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l27",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l28",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l28.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l28.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l28",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l28.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l28.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l28",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l28",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l28",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l29",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l29.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l29.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l29",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l29.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l29.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l29",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l29",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l29",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l30",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l30.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l30.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l30",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l30.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l30.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l30",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l30",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l30",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l31",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l31.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l31.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l31",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l31.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l31.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l31",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l31",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l31",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l32",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l32.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l32.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l32",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l32.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l32.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l32",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l32",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l32",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l33",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l33.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l33.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l33",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l33.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l33.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l33",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l33",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l33",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l34",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l34.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l34.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l34",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l34.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l34.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l34",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l34",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l34",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l35",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l35.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l35.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l35",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l35.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l35.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l35",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l35",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l35",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l36",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l36.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l36.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l36",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l36.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l36.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l36",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l36",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l36",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l37",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l37.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l37.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l37",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l37.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l37.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l37",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l37",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l37",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l38",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l38.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l38.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l38",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l38.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l38.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l38",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l38",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l38",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l39",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l39.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l39.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l39",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l39.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l39.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l39",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l39",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l39",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l40",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l40.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l40.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l40",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l40.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l40.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l40",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l40",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l40",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l41",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l41.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l41.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l41",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l41.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l41.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l41",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l41",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l41",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l42",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l42.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l42.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l42",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l42.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l42.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l42",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l42",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l42",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l43",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l43.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l43.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l43",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l43.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l43.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l43",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l43",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l43",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l44",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l44.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l44.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l44",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l44.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l44.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l44",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l44",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l44",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l45",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l45.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l45.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l45",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l45.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l45.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l45",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l45",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l45",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l46",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l46.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l46.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l46",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l46.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l46.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l46",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l46",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l46",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l47",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l47.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l47.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l47",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l47.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l47.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l47",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l47",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l47",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l48",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l48.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l48.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l48",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l48.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l48.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l48",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l48",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l48",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l49",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l49.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l49.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l49",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l49.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l49.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l49",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l49",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l49",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l50",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l50.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l50.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l50",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l50.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l50.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l50",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l50",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l50",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l51",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l51.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l51.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l51",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l51.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l51.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l51",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l51",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l51",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l52",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l52.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l52.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l52",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l52.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l52.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l52",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l52",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l52",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l53",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l53.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l53.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l53",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l53.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l53.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l53",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l53",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l53",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l54",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l54.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l54.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l54",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l54.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l54.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l54",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l54",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l54",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l55",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l55.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l55.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l55",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l55.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l55.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l55",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l55",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l55",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l56",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l56.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l56.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l56",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l56.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l56.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l56",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l56",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l56",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l57",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l57.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l57.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l57",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l57.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l57.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l57",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l57",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l57",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l58",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l58.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l58.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l58",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l58.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l58.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l58",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l58",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l58",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l59",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l59.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l59.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l59",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l59.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l59.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l59",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l59",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l59",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l60",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l60.g001",
+    "message": "Grammar pattern 'X を Y します' (n2.l60.g001) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l60",
+    "level": "N2",
+    "rule": "grammar-in-text",
+    "itemId": "n2.l60.g002",
+    "message": "Grammar pattern 'X で Y します' (n2.l60.g002) was not found in either reading passage or listening transcript."
+  },
+  {
+    "lessonId": "n2.l60",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for vocab has 12 questions (recommended >= 15 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l60",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for kanji has 6 questions (recommended >= 9 for retake variety)."
+  },
+  {
+    "lessonId": "n2.l60",
+    "level": "N2",
+    "rule": "question-bank-size",
+    "message": "Question bank for grammar has 2 questions (recommended >= 9 for retake variety)."
+  }
+]

@@ -1,0 +1,1793 @@
+import { LessonPack } from '../../../models/types';
+
+export const n2l24Data: LessonPack = {
+  "id": "n2.l24",
+  "level": "N2",
+  "module": "N2 Advanced Grammar & Argumentation",
+  "number": 24,
+  "title": "N2 Lesson 24: Additions & Cumulative Factors (〜上に・〜に加えて・〜ばかりでなく)",
+  "description": "Mastery module focusing on Cumulative Merits, Compounding Factors, and Multifaceted Additions: not only... but also (上に), in addition to (に加えて), and not only... but also (ばかりでなく).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l24.v001",
+      "lessonId": "n2.l24",
+      "ja": "増加",
+      "kana": "ぞうか",
+      "en": "increase / increment",
+      "my": "တိုးပွားလာခြင်း",
+      "meaningMy": "တိုးပွားလာခြင်း",
+      "meaningMyanmar": "တိုးပွားလာခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l24.s001",
+      "kanjiIds": [
+        "n2.l24.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.v002",
+      "lessonId": "n2.l24",
+      "ja": "添付",
+      "kana": "てんぷ",
+      "en": "attachment / annex",
+      "my": "ဖိုင်ပူးတွဲခြင်း",
+      "meaningMy": "ဖိုင်ပူးတွဲခြင်း",
+      "meaningMyanmar": "ဖိုင်ပူးတွဲခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l24.s002",
+      "kanjiIds": [
+        "n2.l24.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.v003",
+      "lessonId": "n2.l24",
+      "ja": "蓄積",
+      "kana": "ちくせき",
+      "en": "accumulation / buildup",
+      "my": "စုဆောင်းသိုမှီးခြင်း",
+      "meaningMy": "စုဆောင်းသိုမှီးခြင်း",
+      "meaningMyanmar": "စုဆောင်းသိုမှီးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l24.s003",
+      "kanjiIds": [
+        "n2.l24.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.v004",
+      "lessonId": "n2.l24",
+      "ja": "累積",
+      "kana": "るいせき",
+      "en": "cumulative total / accumulation",
+      "my": "စုစည်းတိုးပွားလာသော ပမာဏ",
+      "meaningMy": "စုစည်းတိုးပွားလာသော ပမာဏ",
+      "meaningMyanmar": "စုစည်းတိုးပွားလာသော ပမာဏ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l24.s004",
+      "kanjiIds": [
+        "n2.l24.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.v005",
+      "lessonId": "n2.l24",
+      "ja": "加盟",
+      "kana": "かめい",
+      "en": "affiliation / joining an alliance",
+      "my": "အဖွဲ့ဝင်အဖြစ် ပါဝင်ခြင်း",
+      "meaningMy": "အဖွဲ့ဝင်အဖြစ် ပါဝင်ခြင်း",
+      "meaningMyanmar": "အဖွဲ့ဝင်အဖြစ် ပါဝင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l24.s005",
+      "kanjiIds": [
+        "n2.l24.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.v006",
+      "lessonId": "n2.l24",
+      "ja": "添加",
+      "kana": "てんか",
+      "en": "addition / additive",
+      "my": "ဓာတုဖြည့်စွက်ပစ္စည်းထည့်သွင်းခြင်း",
+      "meaningMy": "ဓာတုဖြည့်စွက်ပစ္စည်းထည့်သွင်းခြင်း",
+      "meaningMyanmar": "ဓာတုဖြည့်စွက်ပစ္စည်းထည့်သွင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l24.s006",
+      "kanjiIds": [
+        "n2.l24.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.v007",
+      "lessonId": "n2.l24",
+      "ja": "添削",
+      "kana": "てんさく",
+      "en": "correction / editing / proofreading",
+      "my": "အမှားပြင်ဆင်တည်းဖြတ်ခြင်း",
+      "meaningMy": "အမှားပြင်ဆင်တည်းဖြတ်ခြင်း",
+      "meaningMyanmar": "အမှားပြင်ဆင်တည်းဖြတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l24.s007",
+      "kanjiIds": [
+        "n2.l24.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.v008",
+      "lessonId": "n2.l24",
+      "ja": "積極的",
+      "kana": "せっきょくてき",
+      "en": "proactive / positive",
+      "my": "တက်ကြွသော / အပြုသဘောဆောင်သော",
+      "meaningMy": "တက်ကြွသော / အပြုသဘောဆောင်သော",
+      "meaningMyanmar": "တက်ကြွသော / အပြုသဘောဆောင်သော",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l24.s008",
+      "kanjiIds": [
+        "n2.l24.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.v009",
+      "lessonId": "n2.l24",
+      "ja": "重複",
+      "kana": "じゅうふく",
+      "en": "duplication / overlap",
+      "my": "ထပ်နေခြင်း / ထပ်တလဲလဲဖြစ်ခြင်း",
+      "meaningMy": "ထပ်နေခြင်း / ထပ်တလဲလဲဖြစ်ခြင်း",
+      "meaningMyanmar": "ထပ်နေခြင်း / ထပ်တလဲလဲဖြစ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l24.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.v010",
+      "lessonId": "n2.l24",
+      "ja": "兼備",
+      "kana": "けんび",
+      "en": "possessing both / combination",
+      "my": "ဂုဏ်ရည်နှစ်ရပ်လုံး ပြည့်စုံခြင်း",
+      "meaningMy": "ဂုဏ်ရည်နှစ်ရပ်လုံး ပြည့်စုံခြင်း",
+      "meaningMyanmar": "ဂုဏ်ရည်နှစ်ရပ်လုံး ပြည့်စုံခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l24.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.v011",
+      "lessonId": "n2.l24",
+      "ja": "併載",
+      "kana": "へいさい",
+      "en": "joint publication / running together",
+      "my": "ပူးတွဲဖော်ပြခြင်း",
+      "meaningMy": "ပူးတွဲဖော်ပြခြင်း",
+      "meaningMyanmar": "ပူးတွဲဖော်ပြခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l24.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.v012",
+      "lessonId": "n2.l24",
+      "ja": "補足",
+      "kana": "ほそく",
+      "en": "supplement / replenishment",
+      "my": "ဖြည့်စွက်ဖော်ပြခြင်း",
+      "meaningMy": "ဖြည့်စွက်ဖော်ပြခြင်း",
+      "meaningMyanmar": "ဖြည့်စွက်ဖော်ပြခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l24.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l24.k001",
+      "lessonId": "n2.l24",
+      "char": "加",
+      "meaning": "Add / Include / Join / Augment",
+      "meaningMy": "ပေါင်းထည့်ခြင်း / တိုးပွားခြင်း / ပါဝင်ခြင်း",
+      "meaningMyanmar": "ပေါင်းထည့်ခြင်း / တိုးပွားခြင်း / ပါဝင်ခြင်း",
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [
+        "くわ・える",
+        "くわ・わる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "増加",
+          "reading": "ぞうか",
+          "meaning": "increase / increment",
+          "meaningMy": "တိုးပွားလာခြင်း",
+          "preview": false
+        },
+        {
+          "word": "加盟",
+          "reading": "かめい",
+          "meaning": "affiliation / joining an alliance",
+          "meaningMy": "အဖွဲ့ဝင်အဖြစ် ပါဝင်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "加入",
+          "reading": "かにゅう",
+          "meaning": "subscription / joining",
+          "meaningMy": "အသင်းဝင်ခြင်း / စာရင်းသွင်းခြင်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l24.s001"
+      ],
+      "components": [
+        "力",
+        "口"
+      ],
+      "strokes": 5,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.k002",
+      "lessonId": "n2.l24",
+      "char": "添",
+      "meaning": "Append / Attach / Accompany / Garnish",
+      "meaningMy": "ပူးတွဲခြင်း / ဖြည့်စွက်ခြင်း / အတူယှဉ်တွဲခြင်း",
+      "meaningMyanmar": "ပူးတွဲခြင်း / ဖြည့်စွက်ခြင်း / အတူယှဉ်တွဲခြင်း",
+      "onyomi": [
+        "テン"
+      ],
+      "kunyomi": [
+        "そ・える",
+        "そ・う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "添付",
+          "reading": "てんぷ",
+          "meaning": "attachment / annex",
+          "meaningMy": "ဖိုင်ပူးတွဲခြင်း",
+          "preview": false
+        },
+        {
+          "word": "添加",
+          "reading": "てんか",
+          "meaning": "addition / additive",
+          "meaningMy": "ဓာတုဖြည့်စွက်ပစ္စည်းထည့်သွင်းခြင်း",
+          "preview": false
+        },
+        {
+          "word": "添削",
+          "reading": "てんさく",
+          "meaning": "correction / editing",
+          "meaningMy": "အမှားပြင်ဆင်တည်းဖြတ်ခြင်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l24.s002"
+      ],
+      "components": [
+        "氵",
+        "忝"
+      ],
+      "strokes": 11,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.k003",
+      "lessonId": "n2.l24",
+      "char": "積",
+      "meaning": "Accumulate / Pile / Stack / Capacity",
+      "meaningMy": "စုပုံခြင်း / သိုလှောင်ခြင်း / တင်ဆောင်ခြင်း",
+      "meaningMyanmar": "စုပုံခြင်း / သိုလှောင်ခြင်း / တင်ဆောင်ခြင်း",
+      "onyomi": [
+        "セキ"
+      ],
+      "kunyomi": [
+        "つ・む",
+        "つ・もる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "蓄積",
+          "reading": "ちくせき",
+          "meaning": "accumulation / buildup",
+          "meaningMy": "စုဆောင်းသိုမှီးခြင်း",
+          "preview": false
+        },
+        {
+          "word": "累積",
+          "reading": "るいせき",
+          "meaning": "accumulation / cumulative total",
+          "meaningMy": "စုစည်းတိုးပွားလာသော ပမာဏ",
+          "preview": false
+        },
+        {
+          "word": "積極的",
+          "reading": "せっきょくてき",
+          "meaning": "proactive / positive",
+          "meaningMy": "တက်ကြွသော / အပြုသဘောဆောင်သော",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l24.s003"
+      ],
+      "components": [
+        "禾",
+        "責"
+      ],
+      "strokes": 16,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l24.g001",
+      "lessonId": "n2.l24",
+      "pattern": "〜上に",
+      "meaning": "Not only... but also / On top of that / Furthermore",
+      "meaningMy": "ထိုအချက်သာမက ထပ်ဆောင်း၍ ကောင်းသောအချက် (သို့) ဆိုးသောအချက် ဖြစ်ပေါ်သည်",
+      "meaningMyanmar": "ထိုအချက်သာမက ထပ်ဆောင်း၍ ကောင်းသောအချက် (သို့) ဆိုးသောအချက် ဖြစ်ပေါ်သည်",
+      "formation": "動詞普通形 / イ形容詞 / ナ形容詞な / 名詞修飾型 ＋ 上に",
+      "explanation": {
+        "en": "Used when compounding similar traits or situations, either positive with positive, or negative with negative.",
+        "my": "အခြေအနေတစ်ခုအပေါ်တွင် ထပ်မံ၍ အလားတူ ကောင်းကျိုး (သို့) ဆိုးကျိုး ပိုမိုထပ်လောင်းပြသရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "အခြေအနေတစ်ခုအပေါ်တွင် ထပ်မံ၍ အလားတူ ကောင်းကျိုး (သို့) ဆိုးကျိုး ပိုမိုထပ်လောင်းပြသရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l24.s001",
+          "note": "〜上に usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l24.s002",
+          "note": "〜上に usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l24.s007",
+          "note": "〜上に usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l24.s009",
+          "note": "〜上に usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l24.s010",
+          "note": "〜上に usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l24.g001",
+        "n2.l24.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜上に."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "彼は仕事が速い（　）、正確で周囲からの信頼も厚い。",
+      "clozeTarget": "上に",
+      "clozeHint": "Not only fast, but also accurate and reliable",
+      "acceptableSynonyms": [
+        "〜に加えて",
+        "〜ばかりでなく",
+        "〜だけでなく"
+      ],
+      "nuanceExplanationMy": "ကောင်းသောအချက်နှင့် ဆိုးသောအချက်ကို ရောနှောမသုံးဘဲ တူညီသော ဦးတည်ချက်နှစ်ခုကို ထပ်ဆင့်ဖော်ပြသည်။"
+    },
+    {
+      "id": "n2.l24.g002",
+      "lessonId": "n2.l24",
+      "pattern": "〜に加えて",
+      "meaning": "In addition to / Besides / Along with",
+      "meaningMy": "ထိုအရာအပြင် / ထိုအခြေအနေနှင့်ပေါင်းစပ်၍ နောက်တစ်ခုပါ ထပ်လောင်းဖြစ်ပေါ်သည်",
+      "meaningMyanmar": "ထိုအရာအပြင် / ထိုအခြေအနေနှင့်ပေါင်းစပ်၍ နောက်တစ်ခုပါ ထပ်လောင်းဖြစ်ပေါ်သည်",
+      "formation": "名詞 ＋ に加えて",
+      "explanation": {
+        "en": "Indicates that another element, event, or condition is added on top of the original one.",
+        "my": "မူလရှိပြီးသား အရာဝတ္ထု သို့မဟုတ် အခြေအနေတစ်ခုအပေါ် နောက်တစ်ခုကို ထပ်မံပေါင်းထည့်လိုက်ကြောင်း ဖော်ပြသည်။"
+      },
+      "explanationMy": "မူလရှိပြီးသား အရာဝတ္ထု သို့မဟုတ် အခြေအနေတစ်ခုအပေါ် နောက်တစ်ခုကို ထပ်မံပေါင်းထည့်လိုက်ကြောင်း ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l24.s003",
+          "note": "〜に加えて usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l24.s004",
+          "note": "〜に加えて usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l24.s011",
+          "note": "〜に加えて usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l24.g001",
+        "n2.l24.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜に加えて."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "激しい風（　）、大雨が降り続いて災害の危険が高まった。",
+      "clozeTarget": "に加えて",
+      "clozeHint": "In addition to the fierce wind",
+      "acceptableSynonyms": [
+        "〜上に",
+        "〜とともに",
+        "〜ばかりでなく"
+      ],
+      "nuanceExplanationMy": "အဓိကအားဖြင့် နာမ် (Noun) နှင့် တွဲဖက်၍ အပိုဆောင်းဖြစ်ရပ်များကို တရားဝင်ပုံစံဖြင့် ဖော်ပြသည်။"
+    },
+    {
+      "id": "n2.l24.g003",
+      "lessonId": "n2.l24",
+      "pattern": "〜ばかりでなく",
+      "meaning": "Not only... but also / Not limited to... but extends to",
+      "meaningMy": "ဤမျှသာမကဘဲ အခြားအရာများအထိပါ ကျယ်ပြန့်စွာ လွှမ်းခြုံဖြစ်ပေါ်သည်",
+      "meaningMyanmar": "ဤမျှသာမကဘဲ အခြားအရာများအထိပါ ကျယ်ပြန့်စွာ လွှမ်းခြုံဖြစ်ပေါ်သည်",
+      "formation": "普通形（ナ形な / 名詞） ＋ ばかりでなく",
+      "explanation": {
+        "en": "Expresses that the scope is not restricted to one aspect, but naturally reaches to others as well.",
+        "my": "ဖော်ပြထားသော အတိုင်းအတာမျှသာ ကန့်သတ်မနေဘဲ အခြားအပိုင်းများသို့ပါ ကျယ်ပြန့်သွားကြောင်း ဖော်ပြသည်။"
+      },
+      "explanationMy": "ဖော်ပြထားသော အတိုင်းအတာမျှသာ ကန့်သတ်မနေဘဲ အခြားအပိုင်းများသို့ပါ ကျယ်ပြန့်သွားကြောင်း ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l24.s005",
+          "note": "〜ばかりでなく usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l24.s006",
+          "note": "〜ばかりでなく usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l24.s008",
+          "note": "〜ばかりでなく usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l24.s012",
+          "note": "〜ばかりでなく usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l24.g001",
+        "n2.l24.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ばかりでなく."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "この最新機器は国内（　）、海外市場でも絶賛されている。",
+      "clozeTarget": "ばかりでなく",
+      "clozeHint": "Not only in domestic market, but also overseas",
+      "acceptableSynonyms": [
+        "〜だけでなく",
+        "〜のみならず",
+        "〜上に"
+      ],
+      "nuanceExplanationMy": "အတိုင်းအတာ သို့မဟုတ် အကျိုးသက်ရောက်မှု ပိုမိုကျယ်ပြန့်သွားပုံကို အလေးပေးဖော်ပြရာတွင် အလွန်သုံးသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l24.s001",
+      "lessonId": "n2.l24",
+      "ja": "昨今の市場動向により利用者の増加が見られる上に、契約継続率も非常に高い。",
+      "kana": "さっこんのしじょうどうこうによりりようしゃのぞうかがみられるうえに、けいやくけいぞくりつもひじょうにたかい。",
+      "translation": {
+        "en": "Not only is there an increase in users due to recent market trends, but the contract retention rate is also remarkably high.",
+        "my": "မကြာသေးမီက စျေးကွက်လမ်းကြောင်းအရ အသုံးပြုသူ တိုးပွားလာသည့်အပြင် စာချုပ်ဆက်လက်ချုပ်ဆိုမှုနှုန်းမှာလည်း အလွန်မြင့်မားသည်။"
+      },
+      "translationMy": "မကြာသေးမီက စျေးကွက်လမ်းကြောင်းအရ အသုံးပြုသူ တိုးပွားလာသည့်အပြင် စာချုပ်ဆက်လက်ချုပ်ဆိုမှုနှုန်းမှာလည်း အလွန်မြင့်မားသည်။",
+      "vocabIds": [
+        "n2.l24.v001"
+      ],
+      "grammarIds": [
+        "n2.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.s002",
+      "lessonId": "n2.l24",
+      "ja": "メールに企画書のファイルを添付した上に、補足の参考資料も同封いたしました。",
+      "kana": "メールにきかくしょのファイルをてんぷしたうえに、ほそくのさんこうしりょうもどうふくいたしました。",
+      "translation": {
+        "en": "In addition to attaching the project proposal file to the email, I also enclosed supplemental reference materials.",
+        "my": "အီးမေးလ်တွင် စီမံကိန်းအဆိုပြုလွှာဖိုင်ကို ပူးတွဲတင်ပြထားသည့်အပြင် ဖြည့်စွက်ကိုးကားချက် အထောက်အထားများကိုလည်း အတူထည့်သွင်းပေးပို့ထားပါသည်။"
+      },
+      "translationMy": "အီးမေးလ်တွင် စီမံကိန်းအဆိုပြုလွှာဖိုင်ကို ပူးတွဲတင်ပြထားသည့်အပြင် ဖြည့်စွက်ကိုးကားချက် အထောက်အထားများကိုလည်း အတူထည့်သွင်းပေးပို့ထားပါသည်။",
+      "vocabIds": [
+        "n2.l24.v002",
+        "n2.l24.v012"
+      ],
+      "grammarIds": [
+        "n2.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.s003",
+      "lessonId": "n2.l24",
+      "ja": "長年の研究データの蓄積に加えて、最新のAI解析技術を導入することで精度を飛躍させた。",
+      "kana": "ながねんのけんきゅうデータのちくせきにくわえて、さいしんのAIかいせきぎじゅつをどうにゅうすることでせいどをひやくさせた。",
+      "translation": {
+        "en": "In addition to years of accumulated research data, introducing cutting-edge AI analysis leaped accuracy forward.",
+        "my": "နှစ်ပေါင်းများစွာ သုတေသနဒေတာများ စုဆောင်းသိုမှီးထားမှုအပြင် ခေတ်မီ AI ခွဲခြမ်းစိတ်ဖြာမှုနည်းပညာကို မိတ်ဆက်ခြင်းဖြင့် တိကျမှုကို သိသိသာသာ တိုးတက်စေခဲ့သည်။"
+      },
+      "translationMy": "နှစ်ပေါင်းများစွာ သုတေသနဒေတာများ စုဆောင်းသိုမှီးထားမှုအပြင် ခေတ်မီ AI ခွဲခြမ်းစိတ်ဖြာမှုနည်းပညာကို မိတ်ဆက်ခြင်းဖြင့် တိကျမှုကို သိသိသာသာ တိုးတက်စေခဲ့သည်။",
+      "vocabIds": [
+        "n2.l24.v003"
+      ],
+      "grammarIds": [
+        "n2.l24.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.s004",
+      "lessonId": "n2.l24",
+      "ja": "累積した疲労に加えて睡眠不足が重なり、彼は過労で倒れてしまった。",
+      "kana": "るいせきしたひろうにくわえてすいみんぶそくがかさなり、かれはかろうでたおれてしまった。",
+      "translation": {
+        "en": "In addition to accumulated fatigue, a lack of sleep piled on, and he collapsed from overwork.",
+        "my": "စုပုံလာသော ပင်ပန်းနွမ်းနယ်မှုအပြင် အိပ်ရေးပျက်မှုပါ ထပ်ဆင့်လာသဖြင့် သူသည် အလုပ်ပင်ပန်းလွန်ကာ မူးလဲသွားခဲ့သည်။"
+      },
+      "translationMy": "စုပုံလာသော ပင်ပန်းနွမ်းနယ်မှုအပြင် အိပ်ရေးပျက်မှုပါ ထပ်ဆင့်လာသဖြင့် သူသည် အလုပ်ပင်ပန်းလွန်ကာ မူးလဲသွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l24.v004"
+      ],
+      "grammarIds": [
+        "n2.l24.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.s005",
+      "lessonId": "n2.l24",
+      "ja": "新しい業界団体への加盟は、企業信用の向上ばかりでなく、新規販路の拡大にも寄与する。",
+      "kana": "あたらしいぎょうかいだんたいへのかめいは、きぎょうしんようのこうじょうばかりでなく、しんきはんろのかくだいにもきよする。",
+      "translation": {
+        "en": "Joining the new industry association contributes not only to enhanced corporate credibility but also to expanding new sales channels.",
+        "my": "လုပ်ငန်းရှင်များအဖွဲ့အစည်းသစ်သို့ အဖွဲ့ဝင်အဖြစ် ပါဝင်ခြင်းသည် ကုမ္ပဏီ၏ ယုံကြည်စိတ်ချရမှု တိုးတက်စေရုံမျှမက စျေးကွက်လမ်းကြောင်းသစ်များ ချဲ့ထွင်ရာတွင်လည်း အထောက်အကူပြုသည်။"
+      },
+      "translationMy": "လုပ်ငန်းရှင်များအဖွဲ့အစည်းသစ်သို့ အဖွဲ့ဝင်အဖြစ် ပါဝင်ခြင်းသည် ကုမ္ပဏီ၏ ယုံကြည်စိတ်ချရမှု တိုးတက်စေရုံမျှမက စျေးကွက်လမ်းကြောင်းသစ်များ ချဲ့ထွင်ရာတွင်လည်း အထောက်အကူပြုသည်။",
+      "vocabIds": [
+        "n2.l24.v005"
+      ],
+      "grammarIds": [
+        "n2.l24.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.s006",
+      "lessonId": "n2.l24",
+      "ja": "食品添加物の危険性ばかりでなく、過剰な塩分摂取のリスクについても周知すべきだ。",
+      "kana": "しょくひんてんかぶつのきけんせいばかりでなく、かじょうなえんぶんせっしゅのリスクについてもしゅうちすべきだ。",
+      "translation": {
+        "en": "We should raise awareness not only about the dangers of food additives, but also about the risks of excessive salt intake.",
+        "my": "အစားအစာ ဖြည့်စွက်ပစ္စည်းများ၏ အန္တရာယ်မျှသာမက ဆားဓာတ်လွန်ကဲစွာ စားသုံးခြင်း၏ အန္တရာယ်ကိုလည်း အသိပညာပေးသင့်သည်။"
+      },
+      "translationMy": "အစားအစာ ဖြည့်စွက်ပစ္စည်းများ၏ အန္တရာယ်မျှသာမက ဆားဓာတ်လွန်ကဲစွာ စားသုံးခြင်း၏ အန္တရာယ်ကိုလည်း အသိပညာပေးသင့်သည်။",
+      "vocabIds": [
+        "n2.l24.v006"
+      ],
+      "grammarIds": [
+        "n2.l24.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.s007",
+      "lessonId": "n2.l24",
+      "ja": "講師は論文の表現を添削してくれた上に、論理構造の改善点についても親身に助言してくれた。",
+      "kana": "こうしはろんぶんのひょうげんをてんさくしてくれたうえに、ろんりこうぞうのかいぜんてんについてもしんみにじょげんしてくれた。",
+      "translation": {
+        "en": "Not only did the instructor edit the expressions in the paper, but also kindly advised on improving the logical structure.",
+        "my": "ဆရာသည် စာတမ်းပါ အသုံးအနှုန်းများကို စစ်ဆေးတည်းဖြတ်ပေးရုံသာမက ကျိုးကြောင်းဆင်ခြင်မှုဖွဲ့စည်းပုံ တိုးတက်စေမည့် အချက်များကိုပါ စေတနာထား၍ အကြံပြုပေးခဲ့သည်။"
+      },
+      "translationMy": "ဆရာသည် စာတမ်းပါ အသုံးအနှုန်းများကို စစ်ဆေးတည်းဖြတ်ပေးရုံသာမက ကျိုးကြောင်းဆင်ခြင်မှုဖွဲ့စည်းပုံ တိုးတက်စေမည့် အချက်များကိုပါ စေတနာထား၍ အကြံပြုပေးခဲ့သည်။",
+      "vocabIds": [
+        "n2.l24.v007"
+      ],
+      "grammarIds": [
+        "n2.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.s008",
+      "lessonId": "n2.l24",
+      "ja": "彼女は積極的な性格であるばかりでなく、他者への細やかな配慮も忘れない素晴らしいリーダーだ。",
+      "kana": "かのじょはせっきょくてきなせいかくであるばかりでなく、たしゃへのこまやかなはいりょもわすれないすばらしいリーダーだ。",
+      "translation": {
+        "en": "She is not only a proactive person, but also a splendid leader who never forgets considerate care for others.",
+        "my": "သူမသည် တက်ကြွသော စရိုက်ရှိသူဖြစ်ရုံသာမက သူတစ်ပါးအပေါ် သိမ်မွေ့စွာ ထည့်သွင်းစဉ်းစားပေးတတ်သော ခေါင်းဆောင်ကောင်းတစ်ဦး ဖြစ်သည်။"
+      },
+      "translationMy": "သူမသည် တက်ကြွသော စရိုက်ရှိသူဖြစ်ရုံသာမက သူတစ်ပါးအပေါ် သိမ်မွေ့စွာ ထည့်သွင်းစဉ်းစားပေးတတ်သော ခေါင်းဆောင်ကောင်းတစ်ဦး ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l24.v008"
+      ],
+      "grammarIds": [
+        "n2.l24.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.s009",
+      "lessonId": "n2.l24",
+      "ja": "登録データの重複を排除した上に、検索インデックスを再構築して照会速度を向上させた。",
+      "kana": "とうろくデータのじゅうふくをはいじょしたうえに、けんさくインデックスをさいこうちくしてしょうかいそくどをこうじょうさせた。",
+      "translation": {
+        "en": "On top of eliminating duplicates in the registered data, we rebuilt search indexes to improve query speeds.",
+        "my": "မှတ်ပုံတင်ထားသော ဒေတာများ ထပ်နေခြင်းကို ဖယ်ရှားလိုက်သည့်အပြင် ရှာဖွေမှု အညွှန်းကိန်းကို ပြန်လည်တည်ဆောက်ကာ ရှာဖွေမှုအရှိန်ကို မြှင့်တင်ခဲ့သည်။"
+      },
+      "translationMy": "မှတ်ပုံတင်ထားသော ဒေတာများ ထပ်နေခြင်းကို ဖယ်ရှားလိုက်သည့်အပြင် ရှာဖွေမှု အညွှန်းကိန်းကို ပြန်လည်တည်ဆောက်ကာ ရှာဖွေမှုအရှိန်ကို မြှင့်တင်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l24.v009"
+      ],
+      "grammarIds": [
+        "n2.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.s010",
+      "lessonId": "n2.l24",
+      "ja": "新開発の素材は耐久性と柔軟性を兼備している上に、環境負荷も極めて低い画期的な製品だ。",
+      "kana": "しんかいはつのそざいはたいきゅうせいとじゅうなんせいをけんびしているうえに、かんきょうふかもきわめてひくいかっきてきなせいひんだ。",
+      "translation": {
+        "en": "The newly developed material combines durability and flexibility, and on top of that, it is an innovative product with an extremely low environmental footprint.",
+        "my": "အသစ်တီထွင်လိုက်သော ပစ္စည်းသည် ကြာရှည်ခံမှုနှင့် ကွေးညွတ်ပျော့ပျောင်းမှုကို ပိုင်ဆိုင်ထားသည့်အပြင် သဘာဝပတ်ဝန်းကျင်ထိခိုက်မှုလည်း အလွန်နည်းပါးသော ထူးခြားသည့် ထုတ်ကုန်ဖြစ်သည်။"
+      },
+      "translationMy": "အသစ်တီထွင်လိုက်သော ပစ္စည်းသည် ကြာရှည်ခံမှုနှင့် ကွေးညွတ်ပျော့ပျောင်းမှုကို ပိုင်ဆိုင်ထားသည့်အပြင် သဘာဝပတ်ဝန်းကျင်ထိခိုက်မှုလည်း အလွန်နည်းပါးသော ထူးခြားသည့် ထုတ်ကုန်ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l24.v010"
+      ],
+      "grammarIds": [
+        "n2.l24.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.s011",
+      "lessonId": "n2.l24",
+      "ja": "広報誌への併載に加えて、公式ウェブサイトでも特別インタビューの動画を同時に配信する予定だ。",
+      "kana": "こうほうしへのへいさいにくわえて、こうしきウェブサイトでもとくべつインタビューのどうがをどうじにはいしんするよていだ。",
+      "translation": {
+        "en": "In addition to publishing together in the public relations magazine, we plan to simultaneously stream the special interview video on the official website.",
+        "my": "ပြန်ကြားရေးမဂ္ဂဇင်းတွင် ပူးတွဲဖော်ပြခြင်းအပြင် တရားဝင်ဝဘ်ဆိုက်တွင်လည်း အထူးအင်တာဗျူးဗီဒီယိုကို တစ်ပြိုင်နက်တည်း ထုတ်လွှင့်သွားရန် လျာထားသည်။"
+      },
+      "translationMy": "ပြန်ကြားရေးမဂ္ဂဇင်းတွင် ပူးတွဲဖော်ပြခြင်းအပြင် တရားဝင်ဝဘ်ဆိုက်တွင်လည်း အထူးအင်တာဗျူးဗီဒီယိုကို တစ်ပြိုင်နက်တည်း ထုတ်လွှင့်သွားရန် လျာထားသည်။",
+      "vocabIds": [
+        "n2.l24.v011"
+      ],
+      "grammarIds": [
+        "n2.l24.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l24.s012",
+      "lessonId": "n2.l24",
+      "ja": "この規約は従業員ばかりでなく、派遣スタッフや外部パートナー企業にも等しく適用される。",
+      "kana": "このきやくはじゅうぎょういんばかりでなく、はけんスタッフやがいぶパートナーきぎょうにもひとしくてきようされる。",
+      "translation": {
+        "en": "These regulations apply equally not only to regular employees, but also to dispatch staff and external partner companies.",
+        "my": "ဤစည်းမျဉ်းသည် ပုံမှန်ဝန်ထမ်းများအတွက်သာမကဘဲ စေလွှတ်ဝန်ထမ်းများနှင့် ပြင်ပမိတ်ဖက်ကုမ္ပဏီများအတွက်ပါ တန်းတူညီမျှ အကျုံးဝင်သည်။"
+      },
+      "translationMy": "ဤစည်းမျဉ်းသည် ပုံမှန်ဝန်ထမ်းများအတွက်သာမကဘဲ စေလွှတ်ဝန်ထမ်းများနှင့် ပြင်ပမိတ်ဖက်ကုမ္ပဏီများအတွက်ပါ တန်းတူညီမျှ အကျုံးဝင်သည်။",
+      "vocabIds": [
+        "n2.l24.v005"
+      ],
+      "grammarIds": [
+        "n2.l24.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l24.r001",
+    "lessonId": "n2.l24",
+    "title": "複合的成長を支える戦略的人材育成 (Strategic Talent Development Supporting Compound Growth)",
+    "level": "N2",
+    "text": "現代のグローバル競争において、企業が持続的な成長を遂げるためには、単一の専門能力を持つ人材だけでは不十分である。技術革新のスピードが加速する現代では、高度な技術的知見を有する上に、柔軟なリーダーシップや国際的な交渉力を兼備した多角的人材が強く求められている。\n\nこうした人材は、日々の実務経験の蓄積に加えて、体系的な外部研修や異文化研修を積極的かつ継続的に受講することによって育成される。知識のインプットばかりでなく、実践的なプロジェクトでのアウトプットを繰り返すことが成長の鍵となる。\n\nさらに、組織内のコミュニケーションにおいても、部署間の重複した作業を排除し、情報共有を迅速化することが不可欠だ。一人ひとりの社員が自発的に課題を発見し、解決に向けて挑戦できる環境を整備することは、個人の成長ばかりでなく、組織全体の総合力の飛躍的向上へと結実するのである。",
+    "kanaText": "げんだいのグローバルきょうそうにおいて、きぎょうがじぞくてきなせいちょうをとげるためには、たんいつのせんもんのうりょくをもつじんざいだけではふじゅうぶんだ。ぎじゅつかくしんのスピードがかそくするげんだいでは、こうどなぎじゅつてきちけんをゆうするうえに、じゅうなんなリーダーシップやこくさいてきなこうしょうりょくをけんびしたたかくてきじんざいがつよくもとめられている。\n\nこうしたじんざいは、ひびのじつむけいけんのちくせきにくわえて、たいけいてきながいぶけんしゅうやいぶんかけんしゅうをせっきょくてきかつけいぞくてきにじゅこうすることによっていくせいされる。ちしきのインプットばかりでなく、じっせんてきなプロジェクトでのアウトプットをくりかえすことがせいちょうのかぎとなる。\n\nさらに、そしきないのコミュニケーションにおいても、ぶしょかんのじゅうふくしたさぎょうをはいじょし、じょうほうきょうゆうをじんそくかすることがふかけつだ。ひとりひとりのしゃいんがじはつてきにかだいを発見し、かいけつにむけてちょうせんできるかんきょうをせいびすることは、こじんのせいちょうばかりでなく、そしきぜんたいのそうごうりょくのひやくてきこうじょうへとけつじつするのである。",
+    "translation": "ခေတ်သစ် ကမ္ဘာလုံးဆိုင်ရာ ပြိုင်ဆိုင်မှုတွင် လုပ်ငန်းများ ရေရှည်ဖွံ့ဖြိုးတိုးတက်စေရန် ကျွမ်းကျင်မှုတစ်ခုတည်းသာရှိသော ဝန်ထမ်းများဖြင့် မလုံလောက်တော့ပေ။ နည်းပညာဆန်းသစ်မှု အရှိန်မြှင့်တင်နေသော ယနေ့ခေတ်တွင် မြင့်မားသော နည်းပညာဆိုင်ရာ အသိပညာရှိသည့်အပြင် ပြောင်းလွယ်ပြင်လွယ်ရှိသော ခေါင်းဆောင်မှုနှင့် နိုင်ငံတကာ ညှိနှိုင်းရေးစွမ်းရည်တို့ကို ပိုင်ဆိုင်ထားသည့် ဘက်စုံစွမ်းဆောင်နိုင်သော ဝန်ထမ်းများကို ပြင်းပြင်းထန်ထန် လိုအပ်လျက်ရှိသည်။\n\nထိုကဲ့သို့သော လူ့စွမ်းအားအရင်းအမြစ်များကို နေ့စဉ် လက်တွေ့အလုပ်အတွေ့အကြုံ စုဆောင်းသိုမှီးမှုအပြင် စနစ်တကျ ပြင်ပသင်တန်းများနှင့် ယဉ်ကျေးမှုမတူ သင်တန်းများကို တက်ကြွစွာ ဆက်တိုက်တက်ရောက်စေခြင်းဖြင့် မွေးထုတ်ပေးရမည် ဖြစ်သည်။ ဗဟုသုတရယူရုံသာမကဘဲ လက်တွေ့ကျသော ပရောဂျက်များတွင် ပြန်လည်အသုံးချမှု ထပ်ခါတလဲလဲပြုလုပ်ခြင်းသည် ကြီးထွားမှု၏ သော့ချက်ဖြစ်သည်။\n\nထို့အပြင် အဖွဲ့အစည်းတွင်း ဆက်သွယ်ရေးတွင်လည်း ဌာနများအကြား ထပ်နေသော အလုပ်များကို ဖယ်ရှားပြီး သတင်းအချက်အလက် မျှဝေမှုကို လျင်မြန်စေရန် မရှိမဖြစ် လိုအပ်သည်။ ဝန်ထမ်းတစ်ဦးချင်းစီက မိမိဖာသာ ပြဿနာများကို ရှာဖွေဖော်ထုတ်ပြီး ဖြေရှင်းရန် စိန်ခေါ်နိုင်သော ပတ်ဝန်းကျင်ကို ဖန်တီးပေးခြင်းသည် တစ်ဦးချင်း ကြီးထွားမှုသာမက အဖွဲ့အစည်းတစ်ခုလုံး၏ စွမ်းဆောင်ရည် အဆမတန် တိုးတက်လာစေရန် အသီးအပွင့် ခံစားရစေမည် ဖြစ်သည်။",
+    "translationMy": "ခေတ်သစ် ကမ္ဘာလုံးဆိုင်ရာ ပြိုင်ဆိုင်မှုတွင် လုပ်ငန်းများ ရေရှည်ဖွံ့ဖြိုးတိုးတက်စေရန် ကျွမ်းကျင်မှုတစ်ခုတည်းသာရှိသော ဝန်ထမ်းများဖြင့် မလုံလောက်တော့ပေ။ နည်းပညာဆန်းသစ်မှု အရှိန်မြှင့်တင်နေသော ယနေ့ခေတ်တွင် မြင့်မားသော နည်းပညာဆိုင်ရာ အသိပညာရှိသည့်အပြင် ပြောင်းလွယ်ပြင်လွယ်ရှိသော ခေါင်းဆောင်မှုနှင့် နိုင်ငံတကာ ညှိနှိုင်းရေးစွမ်းရည်တို့ကို ပိုင်ဆိုင်ထားသည့် ဘက်စုံစွမ်းဆောင်နိုင်သော ဝန်ထမ်းများကို ပြင်းပြင်းထန်ထန် လိုအပ်လျက်ရှိသည်။\n\nထိုကဲ့သို့သော လူ့စွမ်းအားအရင်းအမြစ်များကို နေ့စဉ် လက်တွေ့အလုပ်အတွေ့အကြုံ စုဆောင်းသိုမှီးမှုအပြင် စနစ်တကျ ပြင်ပသင်တန်းများနှင့် ယဉ်ကျေးမှုမတူ သင်တန်းများကို တက်ကြွစွာ ဆက်တိုက်တက်ရောက်စေခြင်းဖြင့် မွေးထုတ်ပေးရမည် ဖြစ်သည်။ ဗဟုသုတရယူရုံသာမကဘဲ လက်တွေ့ကျသော ပရောဂျက်များတွင် ပြန်လည်အသုံးချမှု ထပ်ခါတလဲလဲပြုလုပ်ခြင်းသည် ကြီးထွားမှု၏ သော့ချက်ဖြစ်သည်။\n\nထို့အပြင် အဖွဲ့အစည်းတွင်း ဆက်သွယ်ရေးတွင်လည်း ဌာနများအကြား ထပ်နေသော အလုပ်များကို ဖယ်ရှားပြီး သတင်းအချက်အလက် မျှဝေမှုကို လျင်မြန်စေရန် မရှိမဖြစ် လိုအပ်သည်။ ဝန်ထမ်းတစ်ဦးချင်းစီက မိမိဖာသာ ပြဿနာများကို ရှာဖွေဖော်ထုတ်ပြီး ဖြေရှင်းရန် စိန်ခေါ်နိုင်သော ပတ်ဝန်းကျင်ကို ဖန်တီးပေးခြင်းသည် တစ်ဦးချင်း ကြီးထွားမှုသာမက အဖွဲ့အစည်းတစ်ခုလုံး၏ စွမ်းဆောင်ရည် အဆမတန် တိုးတက်လာစေရန် အသီးအပွင့် ခံစားရစေမည် ဖြစ်သည်။",
+    "questionIds": [
+      "n2.l24.q025",
+      "n2.l24.q026",
+      "n2.l24.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "多角的人材",
+        "reading": "たかくてきじんざい",
+        "meaning": "multifaceted / versatile talent",
+        "meaningMy": "multifaceted / versatile talent",
+        "meaningMyanmar": "multifaceted / versatile talent"
+      },
+      {
+        "term": "体系的",
+        "reading": "たいけいてき",
+        "meaning": "systematic / structured",
+        "meaningMy": "systematic / structured",
+        "meaningMyanmar": "systematic / structured"
+      },
+      {
+        "term": "結実する",
+        "reading": "けつじつする",
+        "meaning": "to bear fruit / come to fruition",
+        "meaningMy": "to bear fruit / come to fruition",
+        "meaningMyanmar": "to bear fruit / come to fruition"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l24.lis001",
+    "lessonId": "n2.l24",
+    "title": "新製品ローンチの複合戦略会議 (Compound Strategy Meeting for New Product Launch)",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "松本部長",
+      "佐々木課長"
+    ],
+    "transcript": "松本部長: 佐々木君、来月発売予定のスマート家電についてだが、プロモーションの進捗はどうなっているかね？\n佐々木課長: はい、今回はテレビCMの放映に加えて、SNSインフルエンサーを活用した体験レビュー動画を大々的に展開しております。\n松本部長: なるほど。若年層ばかりでなく、シニア層へのアプローチも抜かりなく考慮されているのかな？\n佐々木課長: はい。製品自体の操作性が極めてシンプルな上に、大型文字で見やすい説明書も添付しておりますので、シニア層の顧客にも大変好評です。",
+    "translation": "松本部長: ဆာဆာကီ၊ နောက်လ ဖြန့်ချိမည့် စမတ်အိမ်သုံးလျှပ်စစ်ပစ္စည်းနဲ့ ပတ်သက်ပြီး အရောင်းမြှင့်တင်ရေး အခြေအနေ ဘယ်လိုရှိလဲဗျာ။\n佐々木課長: ဟုတ်ကဲ့၊ ဒီတစ်ကြိမ်မှာ တီဗီကြော်ငြာ ထုတ်လွှင့်ခြင်းအပြင် SNS Influencer များကို အသုံးပြုပြီး လက်တွေ့စမ်းသပ်သုံးသပ်ချက် ဗီဒီယိုများကို အကြီးအကျယ် ဖြန့်ချိနေပါတယ်။\n松本部長: ဟုတ်ပြီ။ လူငယ်ထုသာမက သက်ကြီးရွယ်အိုတွေအတွက် ချဉ်းကပ်ပုံကိုပါ မကျန်စေဘဲ ထည့်သွင်းစဉ်းစားထားရဲ့လား။\n佐々木課長: ဟုတ်ကဲ့။ ပစ္စည်းကိုယ်တိုင် အသုံးပြုရတာ အလွန်ရိုးရှင်းသည့်အပြင် စာလုံးကြီးများဖြင့် ဖတ်ရလွယ်သော လမ်းညွှန်ချက်ကိုပါ ပူးတွဲထားသဖြင့် သက်ကြီးသုံးစွဲသူများအကြားတွင်လည်း အလွန်လူကြိုက်များလျက် ရှိပါတယ်။",
+    "translationMy": "松本部長: ဆာဆာကီ၊ နောက်လ ဖြန့်ချိမည့် စမတ်အိမ်သုံးလျှပ်စစ်ပစ္စည်းနဲ့ ပတ်သက်ပြီး အရောင်းမြှင့်တင်ရေး အခြေအနေ ဘယ်လိုရှိလဲဗျာ။\n佐々木課長: ဟုတ်ကဲ့၊ ဒီတစ်ကြိမ်မှာ တီဗီကြော်ငြာ ထုတ်လွှင့်ခြင်းအပြင် SNS Influencer များကို အသုံးပြုပြီး လက်တွေ့စမ်းသပ်သုံးသပ်ချက် ဗီဒီယိုများကို အကြီးအကျယ် ဖြန့်ချိနေပါတယ်။\n松本部長: ဟုတ်ပြီ။ လူငယ်ထုသာမက သက်ကြီးရွယ်အိုတွေအတွက် ချဉ်းကပ်ပုံကိုပါ မကျန်စေဘဲ ထည့်သွင်းစဉ်းစားထားရဲ့လား။\n佐々木課長: ဟုတ်ကဲ့။ ပစ္စည်းကိုယ်တိုင် အသုံးပြုရတာ အလွန်ရိုးရှင်းသည့်အပြင် စာလုံးကြီးများဖြင့် ဖတ်ရလွယ်သော လမ်းညွှန်ချက်ကိုပါ ပူးတွဲထားသဖြင့် သက်ကြီးသုံးစွဲသူများအကြားတွင်လည်း အလွန်လူကြိုက်များလျက် ရှိပါတယ်။",
+    "turns": [
+      {
+        "speaker": "松本部長",
+        "ja": "佐々木君、来月発売予定のスマート家電についてだが、プロモーションの進捗はどうなっているかね？",
+        "kana": "ささきくん、らいげつはつばいよていのスマートかでんについてだが、プロモーションのしんちょくはどうなっているかね？",
+        "en": "Sasaki, about the smart home appliance scheduled for release next month, how is the promotion progress going?",
+        "my": "ဆာဆာကီ၊ နောက်လ ဖြန့်ချိမည့် စမတ်အိမ်သုံးလျှပ်စစ်ပစ္စည်းနဲ့ ပတ်သက်ပြီး အရောင်းမြှင့်တင်ရေး အခြေအနေ ဘယ်လိုရှိလဲဗျာ။",
+        "translationMy": "ဆာဆာကီ၊ နောက်လ ဖြန့်ချိမည့် စမတ်အိမ်သုံးလျှပ်စစ်ပစ္စည်းနဲ့ ပတ်သက်ပြီး အရောင်းမြှင့်တင်ရေး အခြေအနေ ဘယ်လိုရှိလဲဗျာ။",
+        "myanmar": "ဆာဆာကီ၊ နောက်လ ဖြန့်ချိမည့် စမတ်အိမ်သုံးလျှပ်စစ်ပစ္စည်းနဲ့ ပတ်သက်ပြီး အရောင်းမြှင့်တင်ရေး အခြေအနေ ဘယ်လိုရှိလဲဗျာ။"
+      },
+      {
+        "speaker": "佐々木課長",
+        "ja": "はい、今回はテレビCMの放映に加えて、SNSインフルエンサーを活用した体験レビュー動画を大々的に展開しております。",
+        "kana": "はい、こんかいはテレビCMのほうえいにくわえて、SNSインフルエンサーをかつようしたたいけんレビューどうがをだいだいてきにてんかいしております。",
+        "en": "Yes, this time, in addition to airing TV commercials, we are extensively rolling out hands-on review videos utilizing SNS influencers.",
+        "my": "ဟုတ်ကဲ့၊ ဒီတစ်ကြိမ်မှာ တီဗီကြော်ငြာ ထုတ်လွှင့်ခြင်းအပြင် SNS Influencer များကို အသုံးပြုပြီး လက်တွေ့စမ်းသပ်သုံးသပ်ချက် ဗီဒီယိုများကို အကြီးအကျယ် ဖြန့်ချိနေပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့၊ ဒီတစ်ကြိမ်မှာ တီဗီကြော်ငြာ ထုတ်လွှင့်ခြင်းအပြင် SNS Influencer များကို အသုံးပြုပြီး လက်တွေ့စမ်းသပ်သုံးသပ်ချက် ဗီဒီယိုများကို အကြီးအကျယ် ဖြန့်ချိနေပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့၊ ဒီတစ်ကြိမ်မှာ တီဗီကြော်ငြာ ထုတ်လွှင့်ခြင်းအပြင် SNS Influencer များကို အသုံးပြုပြီး လက်တွေ့စမ်းသပ်သုံးသပ်ချက် ဗီဒီယိုများကို အကြီးအကျယ် ဖြန့်ချိနေပါတယ်။"
+      },
+      {
+        "speaker": "松本部長",
+        "ja": "なるほど。若年層ばかりでなく、シニア層へのアプローチも抜かりなく考慮されているのかな？",
+        "kana": "なるほど。じゃくねんそうばかりでなく、シニアそうへのアプローチもぬかりなくこうりょされているのかな？",
+        "en": "I see. Are we carefully considering approaches not only for youth, but also for seniors?",
+        "my": "ဟုတ်ပြီ။ လူငယ်ထုသာမက သက်ကြီးရွယ်အိုတွေအတွက် ချဉ်းကပ်ပုံကိုပါ မကျန်စေဘဲ ထည့်သွင်းစဉ်းစားထားရဲ့လား။",
+        "translationMy": "ဟုတ်ပြီ။ လူငယ်ထုသာမက သက်ကြီးရွယ်အိုတွေအတွက် ချဉ်းကပ်ပုံကိုပါ မကျန်စေဘဲ ထည့်သွင်းစဉ်းစားထားရဲ့လား။",
+        "myanmar": "ဟုတ်ပြီ။ လူငယ်ထုသာမက သက်ကြီးရွယ်အိုတွေအတွက် ချဉ်းကပ်ပုံကိုပါ မကျန်စေဘဲ ထည့်သွင်းစဉ်းစားထားရဲ့လား။"
+      },
+      {
+        "speaker": "佐々木課長",
+        "ja": "はい。製品自体の操作性が極めてシンプルな上に、大型文字で見やすい説明書も添付しておりますので、シニア層の顧客にも大変好評です。",
+        "kana": "はい。せいひんじたいのそうさせいがきわめてシンプルなうえに、おおがたもじでみやすいせつめいしょもてんぷしておりますので、シニアそうのこきゃくにもたいへんこうひょうです。",
+        "en": "Yes. In addition to the product's operation being extremely simple, we attached an easy-to-read manual with large text, so it is highly popular with senior customers.",
+        "my": "ဟုတ်ကဲ့။ ပစ္စည်းကိုယ်တိုင် အသုံးပြုရတာ အလွန်ရိုးရှင်းသည့်အပြင် စာလုံးကြီးများဖြင့် ဖတ်ရလွယ်သော လမ်းညွှန်ချက်ကိုပါ ပူးတွဲထားသဖြင့် သက်ကြီးသုံးစွဲသူများအကြားတွင်လည်း အလွန်လူကြိုက်များလျက် ရှိပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့။ ပစ္စည်းကိုယ်တိုင် အသုံးပြုရတာ အလွန်ရိုးရှင်းသည့်အပြင် စာလုံးကြီးများဖြင့် ဖတ်ရလွယ်သော လမ်းညွှန်ချက်ကိုပါ ပူးတွဲထားသဖြင့် သက်ကြီးသုံးစွဲသူများအကြားတွင်လည်း အလွန်လူကြိုက်များလျက် ရှိပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့။ ပစ္စည်းကိုယ်တိုင် အသုံးပြုရတာ အလွန်ရိုးရှင်းသည့်အပြင် စာလုံးကြီးများဖြင့် ဖတ်ရလွယ်သော လမ်းညွှန်ချက်ကိုပါ ပူးတွဲထားသဖြင့် သက်ကြီးသုံးစွဲသူများအကြားတွင်လည်း အလွန်လူကြိုက်များလျက် ရှိပါတယ်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l24.q028",
+      "n2.l24.q029",
+      "n2.l24.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l24.q001",
+      "lessonId": "n2.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「新製品の販売開始に伴い、売上が前年比で大幅に（　）した。」",
+      "choices": [
+        "増加",
+        "添付",
+        "蓄積",
+        "重複"
+      ],
+      "answer": "増加",
+      "explanation": "「増加（ぞうか）」は数量や割合がふえることです。",
+      "explanationMy": "တိုးပွားလာခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q002",
+      "lessonId": "n2.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「履歴書に顔写真を（　）して提出してください。」",
+      "choices": [
+        "添付",
+        "増加",
+        "兼備",
+        "補足"
+      ],
+      "answer": "添付",
+      "explanation": "「添付（てんぷ）」は書類やファイルなどを添えつけることです。",
+      "explanationMy": "ဖိုင်ပူးတွဲခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q003",
+      "lessonId": "n2.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「日々の地道な努力の（　）が、やがて大きな成果を生む。」",
+      "choices": [
+        "蓄積",
+        "添付",
+        "加盟",
+        "併載"
+      ],
+      "answer": "蓄積",
+      "explanation": "「蓄積（ちくせき）」は経験や物資をたくわえてためることです。",
+      "explanationMy": "စုဆောင်းသိုမှီးခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q004",
+      "lessonId": "n2.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「赤字が年々（　）し、企業の経営危機に直面している。」",
+      "choices": [
+        "累積",
+        "添付",
+        "重複",
+        "添削"
+      ],
+      "answer": "累積",
+      "explanation": "「累積（るいせき）」は次々に重なって積み重なることです。",
+      "explanationMy": "စုစည်းတိုးပွားလာခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q005",
+      "lessonId": "n2.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「わが社も国際的な環境保護連盟への（　）を果たした。」",
+      "choices": [
+        "加盟",
+        "蓄積",
+        "増加",
+        "添加"
+      ],
+      "answer": "加盟",
+      "explanation": "「加盟（かめい）」は同盟や団体に一員として加わることです。",
+      "explanationMy": "အဖွဲ့ဝင်အဖြစ် ပါဝင်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q006",
+      "lessonId": "n2.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「このジュースには保存料などの化学（　）物が一切使われていない。」",
+      "choices": [
+        "添加",
+        "累積",
+        "加盟",
+        "添削"
+      ],
+      "answer": "添加",
+      "explanation": "「添加（てんか）」はあるものに他のものを付け加えることです。",
+      "explanationMy": "ဖြည့်စွက်ပစ္စည်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q007",
+      "lessonId": "n2.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「指導教官に卒業論文の誤字脱字を丁寧に（　）してもらった。」",
+      "choices": [
+        "添削",
+        "加盟",
+        "重複",
+        "兼備"
+      ],
+      "answer": "添削",
+      "explanation": "「添削（てんさく）」は他人の文章を削ったり書き加えたりして直すことです。",
+      "explanationMy": "အမှားပြင်ဆင်တည်းဖြတ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q008",
+      "lessonId": "n2.l24",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「彼女は知性と美貌を（　）した素晴らしい人物だ。」",
+      "choices": [
+        "兼備",
+        "重複",
+        "累積",
+        "添加"
+      ],
+      "answer": "兼備",
+      "explanation": "「兼備（けんび）」は両方の長所や資質をあわせ持つことです。",
+      "explanationMy": "ဂုဏ်ရည်နှစ်ရပ်လုံး ပြည့်စုံခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q009",
+      "lessonId": "n2.l24",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「利用者の<u>ぞうか</u>が著しい。」",
+      "choices": [
+        "増加",
+        "造加",
+        "増科",
+        "象加"
+      ],
+      "answer": "増加",
+      "explanation": "「増加」は「ぞうか」と読みます。",
+      "explanationMy": "増加 ၏ အသံထွက်မှာ ぞうか ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q010",
+      "lessonId": "n2.l24",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「メールに資料を<u>てんぷ</u>する。」",
+      "choices": [
+        "添付",
+        "添附",
+        "店付",
+        "点付"
+      ],
+      "answer": "添付",
+      "explanation": "「添付」は「てんぷ」と読みます。",
+      "explanationMy": "添付 ၏ အသံထွက်မှာ てんぷ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q011",
+      "lessonId": "n2.l24",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「経験の<u>ちくせき</u>が重要だ。」",
+      "choices": [
+        "蓄積",
+        "積蓄",
+        "築積",
+        "貯積"
+      ],
+      "answer": "蓄積",
+      "explanation": "「蓄積」は「ちくせき」と読みます。",
+      "explanationMy": "蓄積 ၏ အသံထွက်မှာ ちくせき ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q012",
+      "lessonId": "n2.l24",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「加」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "ちから（力）",
+        "くち（口）",
+        "ひとあし（儿）",
+        "かまえ（匚）"
+      ],
+      "answer": "ちから（力）",
+      "explanation": "「加」の部首は「ちから（力）」です。",
+      "explanationMy": "「加」၏ အစိတ်အပိုင်းမှာ '力' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q013",
+      "lessonId": "n2.l24",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「添」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "さんずい（氵）",
+        "きへん（木）",
+        "こころ（心）",
+        "て（手）"
+      ],
+      "answer": "さんずい（氵）",
+      "explanation": "「添」の部首は「さんずい（氵）」です。",
+      "explanationMy": "「添」၏ အစိတ်အပိုင်းမှာ '氵' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q014",
+      "lessonId": "n2.l24",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「積」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "のぎへん（禾）",
+        "かい（貝）",
+        "いと（糸）",
+        "た（田）"
+      ],
+      "answer": "のぎへん（禾）",
+      "explanation": "「積」の部首は「のぎへん（禾）」です。",
+      "explanationMy": "「積」၏ အစိတ်အပိုင်းမှာ '禾' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q015",
+      "lessonId": "n2.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「このホテルは立地が良い（　）、サービスも行き届いている。」",
+      "choices": [
+        "上に",
+        "に加えて",
+        "ばかりでなく",
+        "かと思ったら"
+      ],
+      "answer": "上に",
+      "explanation": "長所にさらに別の長所が重なる「上に」が適切です。",
+      "explanationMy": "တည်နေရာကောင်းသည့်အပြင် ဝန်ဆောင်မှုလည်း ကောင်းမွန်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q016",
+      "lessonId": "n2.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「インフルエンザの流行（　）、大雪の影響で交通網が乱れた。」",
+      "choices": [
+        "に加えて",
+        "上に",
+        "ばかりでなく",
+        "と思いきや"
+      ],
+      "answer": "に加えて",
+      "explanation": "名詞に接続して別の要因が加わる「に加えて」が適切です。",
+      "explanationMy": "တုပ်ကွေးပျံ့နှံ့မှုအပြင် နှင်းမုန်တိုင်းဒဏ်ကြောင့် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q017",
+      "lessonId": "n2.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「このイベントは大人（　）、子供たちも大いに楽しんだ。」",
+      "choices": [
+        "ばかりでなく",
+        "上に",
+        "に加えて",
+        "どころか"
+      ],
+      "answer": "ばかりでなく",
+      "explanation": "範囲が他方へも及ぶことを表す「ばかりでなく」が適切です。",
+      "explanationMy": "လူကြီးများသာမက ကလေးများပါ ပျော်ရွှင်ခဲ့ကြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q018",
+      "lessonId": "n2.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「道に迷った（　）、雨まで降り出して散々な一日だった。」",
+      "choices": [
+        "上に",
+        "に加えて",
+        "ばかりでなく",
+        "ものの"
+      ],
+      "answer": "上に",
+      "explanation": "不運な事態にさらに別の悪条件が重なる「上に」が適切です。",
+      "explanationMy": "လမ်းပျောက်သည့်အပြင် မိုးပါရွာလာခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q019",
+      "lessonId": "n2.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「授業料の免除（　）、生活費の奨学金も支給された。」",
+      "choices": [
+        "に加えて",
+        "上に",
+        "ばかりでなく",
+        "反面"
+      ],
+      "answer": "に加えて",
+      "explanation": "名詞について追加の恩恵を表す「に加えて」が適切です。",
+      "explanationMy": "ကျောင်းလခ ကင်းလွတ်ခွင့်အပြင် ထောက်ပံ့ကြေးပါ ရရှိခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q020",
+      "lessonId": "n2.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「日本国内（　）、アジア各国でもこのアニメは大人気だ。」",
+      "choices": [
+        "ばかりでなく",
+        "上に",
+        "に加えて",
+        "得ない"
+      ],
+      "answer": "ばかりでなく",
+      "explanation": "国内だけでなく他国へも及ぶことを表す「ばかりでなく」が適切です。",
+      "explanationMy": "ဂျပန်ပြည်တွင်းသာမက အာရှနိုင်ငံများတွင်ပါ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q021",
+      "lessonId": "n2.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「彼は英語が流暢な（　）、フランス語も日常会話程度なら話せる。」",
+      "choices": [
+        "上に",
+        "に加えて",
+        "ばかりでなく",
+        "っこない"
+      ],
+      "answer": "上に",
+      "explanation": "形容動詞・普通形についてプラス評価を重ねる「上に」が適切です。",
+      "explanationMy": "အင်္ဂလိပ်စကားကျွမ်းကျင်သည့်အပြင် ပြင်သစ်စကားပါ ပြောနိုင်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q022",
+      "lessonId": "n2.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「度重なる値上げ（　）増税により、家計の負担が増大した。」",
+      "choices": [
+        "に加えて",
+        "上に",
+        "ばかりでなく",
+        "を限りに"
+      ],
+      "answer": "に加えて",
+      "explanation": "名詞に接続して相乗する要因を表す「に加えて」が適切です。",
+      "explanationMy": "စျေးနှုန်းမြှင့်တင်မှုများအပြင် အခွန်တိုးမြှင့်မှုကြောင့် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q023",
+      "lessonId": "n2.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「彼は自分の仕事（　）、後輩の指導も熱心に行っている。」",
+      "choices": [
+        "ばかりでなく",
+        "上に",
+        "に加えて",
+        "かと思いきや"
+      ],
+      "answer": "ばかりでなく",
+      "explanation": "自分の仕事にとどまらず後輩指導も行うことを表す「ばかりでなく」が適切です。",
+      "explanationMy": "မိမိတာဝန်သာမက ဂျူနီယာများကိုပါ သင်ပြပေးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q024",
+      "lessonId": "n2.l24",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜上に」の使い方として最も自然な文を選びなさい。",
+      "choices": [
+        "この料理は味が素晴らしい上に、値段も手頃で満足度が高い。",
+        "雨が降った上に、とても天気が良くて気持ちがよかった。",
+        "朝起きた上に、夜眠ることにした。",
+        "彼は速く走る上に、足が痛くて走れなかった。"
+      ],
+      "answer": "この料理は味が素晴らしい上に、値段も手頃で満足度が高い。",
+      "explanation": "味の良さに手頃な価格という同方向のプラス評価が重なっているため正しいです。",
+      "explanationMy": "အရသာကောင်းသည့်အပြင် စျေးနှုန်းလည်း သင့်တင့်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q025",
+      "lessonId": "n2.l24",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "現代のグローバル競争において、企業に求められている人材像として最も適切なものはどれか。",
+      "choices": [
+        "単一の専門技術のみを極め、他分野には関与しない人材",
+        "技術的知見に加えて、柔軟なリーダーシップや国際交渉力を兼備した人材",
+        "実務経験は少ないが、外部研修の受講歴のみが豊富な人材",
+        "海外との折衝のみに特化し、社内コミュニケーションを行わない人材"
+      ],
+      "answer": "技術的知見に加えて、柔軟なリーダーシップや国際交渉力を兼備した人材",
+      "explanation": "本文第1段落で「高度な技術的知見を有する上に、柔軟なリーダーシップや国際的な交渉力を兼備した多角的人材が強く求められている」と述べています。",
+      "explanationMy": "နည်းပညာဗဟုသုတရှိသည့်အပြင် ခေါင်းဆောင်မှုနှင့် နိုင်ငံတကာညှိနှိုင်းရေးစွမ်းရည် ပြည့်စုံသူကို လိုအပ်ကြောင်း ဖော်ပြထားသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q026",
+      "lessonId": "n2.l24",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "人材育成において「成長の鍵」として挙げられている具体的な取り組みは何か。",
+      "choices": [
+        "知識のインプットに専念し、アウトプットの機会を減らすこと",
+        "外部研修を完全に廃止し、社内業務のみに集中させること",
+        "知識のインプットばかりでなく、実践的なプロジェクトでのアウトプットを繰り返すこと",
+        "一人で独占的に業務を行い、他者との情報共有を避けること"
+      ],
+      "answer": "知識のインプットばかりでなく、実践的なプロジェクトでのアウトプットを繰り返すこと",
+      "explanation": "本文第2段落に「知識のインプットばかりでなく、実践的なプロジェクトでのアウトプットを繰り返すことが成長の鍵となる」と明記されています。",
+      "explanationMy": "ဗဟုသုတလေ့လာရုံသာမက လက်တွေ့ပရောဂျက်များတွင် အသုံးချခြင်းကို ထပ်ခါတလဲလဲ ပြုလုပ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q027",
+      "lessonId": "n2.l24",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "筆者が述べる組織全体の総合力向上につながる環境整備とは何か。",
+      "choices": [
+        "社員が自発的に課題を発見し、解決に向けて挑戦できる環境を整備すること",
+        "上層部がすべての決定を下し、個人の挑戦を制限する環境を作ること",
+        "部署間の作業重複を意図的に増やして競争させること",
+        "情報共有のスピードを落とし、各部署の秘密保持を最優先にすること"
+      ],
+      "answer": "社員が自発的に課題を発見し、解決に向けて挑戦できる環境を整備すること",
+      "explanation": "本文最終段落に「一人ひとりの社員が自発的に課題を発見し、解決に向けて挑戦できる環境を整備することは、個人の成長ばかりでなく、組織全体の総合力の飛躍的向上へと結実する」とあります。",
+      "explanationMy": "ဝန်ထမ်းများက မိမိဖာသာ ပြဿနာကိုရှာဖွေပြီး စိန်ခေါ်ဖြေရှင်းနိုင်သော ပတ်ဝန်းကျင် ဖန်တီးပေးခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q028",
+      "lessonId": "n2.l24",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "佐々木課長が報告したプロモーション戦略として正しいものはどれか。",
+      "choices": [
+        "テレビCMを中止し、SNS動画のみに特化した戦略",
+        "テレビCMの放映に加えて、SNSインフルエンサーの体験レビュー動画を展開する戦略",
+        "紙のチラシ配布のみで宣伝を行う戦略",
+        "海外市場のみを対象とし、国内広告を一切行わない戦略"
+      ],
+      "answer": "テレビCMの放映に加えて、SNSインフルエンサーの体験レビュー動画を展開する戦略",
+      "explanation": "佐々木課長が「テレビCMの放映に加えて、SNSインフルエンサーを活用した体験レビュー動画を大々的に展開しております」と述べています。",
+      "explanationMy": "တီဗီကြော်ငြာအပြင် SNS Influencer များ၏ ဗီဒီယိုများကို ဖြန့်ချိသည့် မဟာဗျူဟာ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q029",
+      "lessonId": "n2.l24",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "シニア層への配慮として、佐々木課長が挙げた製品の特徴は何か。",
+      "choices": [
+        "操作が複雑で、熟練者向けの設定が多いこと",
+        "説明書はウェブ限定で、紙媒体の提供がないこと",
+        "操作性がシンプルな上に、大型文字で見やすい説明書が添付されていること",
+        "価格が極端に安く、サポート窓口が存在しないこと"
+      ],
+      "answer": "操作性がシンプルな上に、大型文字で見やすい説明書が添付されていること",
+      "explanation": "佐々木課長が「製品自体の操作性が極めてシンプルな上に、大型文字で見やすい説明書も添付しております」と説明しています。",
+      "explanationMy": "အသုံးပြုရ ရိုးရှင်းသည့်အပြင် စာလုံးကြီးများဖြင့် ရှင်းလင်းချက် ပူးတွဲထားခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l24.q030",
+      "lessonId": "n2.l24",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "松本部長が特に懸念して質問したターゲット層はどこか。",
+      "choices": [
+        "若年層ばかりでなく、シニア層へのアプローチ",
+        "富裕層のみを対象とした限定販売",
+        "法人顧客への一括導入契約",
+        "未就学児向けの教育向け販売"
+      ],
+      "answer": "若年層ばかりでなく、シニア層へのアプローチ",
+      "explanation": "松本部長が「若年層ばかりでなく、シニア層へのアプローチも抜かりなく考慮されているのかな？」と質問しています。",
+      "explanationMy": "လူငယ်ထုသာမက သက်ကြီးရွယ်အိုများထံ ချဉ်းကပ်မှုကို မေးမြန်းခဲ့ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l24.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+};

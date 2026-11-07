@@ -1,0 +1,1792 @@
+import { LessonPack } from '../../../models/types';
+
+export const n3l32Data: LessonPack = {
+  "id": "n3.l32",
+  "level": "N3",
+  "module": "N3 Nuance & Natural Discourse",
+  "number": 32,
+  "title": "N3 Lesson 32: Commands, Requests & Indirect Quotes (〜ように言う・〜ように頼む・〜てほしい)",
+  "description": "Master indirect communication in Japanese, reporting instructions and orders with 〜ように言う, conveying polite requests with 〜ように頼む, and expressing expectations with 〜てほしい.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l32.v001",
+      "lessonId": "n3.l32",
+      "ja": "依頼",
+      "kana": "いらい",
+      "en": "request, commission",
+      "my": "မေတ္တာရပ်ခံတောင်းဆိုမှု",
+      "meaningMy": "မေတ္တာရပ်ခံတောင်းဆိုမှု",
+      "meaningMyanmar": "မေတ္တာရပ်ခံတောင်းဆိုမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l32.s001",
+      "kanjiIds": [
+        "n3.l32.k001"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.v002",
+      "lessonId": "n3.l32",
+      "ja": "命令",
+      "kana": "めいれい",
+      "en": "order, command",
+      "my": "အမိန့်ပေးခြင်း",
+      "meaningMy": "အမိန့်ပေးခြင်း",
+      "meaningMyanmar": "အမိန့်ပေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l32.s002",
+      "kanjiIds": [
+        "n3.l32.k002"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.v003",
+      "lessonId": "n3.l32",
+      "ja": "指示",
+      "kana": "しじ",
+      "en": "instructions, directive",
+      "my": "ညွှန်ကြားချက်",
+      "meaningMy": "ညွှန်ကြားချက်",
+      "meaningMyanmar": "ညွှန်ကြားချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l32.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.v004",
+      "lessonId": "n3.l32",
+      "ja": "忠告",
+      "kana": "ちゅうこく",
+      "en": "advice, warning",
+      "my": "သတိပေးတိုက်တွန်းချက်",
+      "meaningMy": "သတိပေးတိုက်တွန်းချက်",
+      "meaningMyanmar": "သတိပေးတိုက်တွန်းချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l32.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.v005",
+      "lessonId": "n3.l32",
+      "ja": "相談",
+      "kana": "そうだん",
+      "en": "consultation",
+      "my": "ဆွေးနွေးတိုင်ပင်ခြင်း",
+      "meaningMy": "ဆွေးနွေးတိုင်ပင်ခြင်း",
+      "meaningMyanmar": "ဆွေးနွေးတိုင်ပင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l32.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.v006",
+      "lessonId": "n3.l32",
+      "ja": "助言",
+      "kana": "じょげん",
+      "en": "advice, suggestion",
+      "my": "အကြံဉာဏ်ပေးခြင်း",
+      "meaningMy": "အကြံဉာဏ်ပေးခြင်း",
+      "meaningMyanmar": "အကြံဉာဏ်ပေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l32.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.v007",
+      "lessonId": "n3.l32",
+      "ja": "催促",
+      "kana": "さいそく",
+      "en": "urging, pressing",
+      "my": "အမြန်တောင်းဆိုသတိပေးခြင်း",
+      "meaningMy": "အမြန်တောင်းဆိုသတိပေးခြင်း",
+      "meaningMyanmar": "အမြန်တောင်းဆိုသတိပေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l32.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.v008",
+      "lessonId": "n3.l32",
+      "ja": "遠慮",
+      "kana": "えんりょ",
+      "en": "reserve, restraint",
+      "my": "အားနာတွန့်ဆုတ်ခြင်း",
+      "meaningMy": "အားနာတွန့်ဆုတ်ခြင်း",
+      "meaningMyanmar": "အားနာတွန့်ဆုတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l32.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.v009",
+      "lessonId": "n3.l32",
+      "ja": "親切",
+      "kana": "しんせつ",
+      "en": "kindness, helpful",
+      "my": "ကြင်နာဖော်ရွေသော",
+      "meaningMy": "ကြင်နာဖော်ရွေသော",
+      "meaningMyanmar": "ကြင်နာဖော်ရွေသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l32.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.v010",
+      "lessonId": "n3.l32",
+      "ja": "丁寧",
+      "kana": "ていねい",
+      "en": "polite, courteous",
+      "my": "ယဉ်ကျေးသေချာသော",
+      "meaningMy": "ယဉ်ကျေးသေချာသော",
+      "meaningMyanmar": "ယဉ်ကျေးသေချာသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l32.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.v011",
+      "lessonId": "n3.l32",
+      "ja": "信頼",
+      "kana": "しんらい",
+      "en": "trust, reliance",
+      "my": "ယုံကြည်အားထားမှု",
+      "meaningMy": "ယုံကြည်အားထားမှု",
+      "meaningMyanmar": "ယုံကြည်အားထားမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l32.s011",
+      "kanjiIds": [
+        "n3.l32.k001"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.v012",
+      "lessonId": "n3.l32",
+      "ja": "願望",
+      "kana": "がんぼう",
+      "en": "desire, wish",
+      "my": "လိုအင်ဆန္ဒ",
+      "meaningMy": "လိုအင်ဆန္ဒ",
+      "meaningMyanmar": "လိုအင်ဆန္ဒ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l32.s012",
+      "kanjiIds": [
+        "n3.l32.k003"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l32.k001",
+      "lessonId": "n3.l32",
+      "char": "頼",
+      "meaning": "trust, request",
+      "meaningMy": "အကူအညီတောင်းသည်/အားကိုးသည်",
+      "meaningMyanmar": "အကူအညီတောင်းသည်/အားကိုးသည်",
+      "onyomi": [
+        "ライ"
+      ],
+      "kunyomi": [
+        "たの・む",
+        "たよ・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "頼む",
+          "reading": "たのむ",
+          "meaning": "to request",
+          "meaningMy": "တောင်းဆိုသည်/အကူအညီတောင်းသည်",
+          "preview": true
+        },
+        {
+          "word": "依頼",
+          "reading": "いらい",
+          "meaning": "request/commission",
+          "meaningMy": "မေတ္တာရပ်ခံချက်",
+          "preview": false
+        },
+        {
+          "word": "信頼",
+          "reading": "しんらい",
+          "meaning": "reliance/trust",
+          "meaningMy": "ယုံကြည်အားထားမှု",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l32.s001"
+      ],
+      "components": [
+        "束",
+        "頁"
+      ],
+      "strokes": 16,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.k002",
+      "lessonId": "n3.l32",
+      "char": "命",
+      "meaning": "life, order, command",
+      "meaningMy": "အမိန့်/အသက်",
+      "meaningMyanmar": "အမိန့်/အသက်",
+      "onyomi": [
+        "メイ",
+        "ミョウ"
+      ],
+      "kunyomi": [
+        "いのち"
+      ],
+      "exampleVocab": [
+        {
+          "word": "命令",
+          "reading": "めいれい",
+          "meaning": "command/order",
+          "meaningMy": "အမိန့်ပေးခြင်း",
+          "preview": true
+        },
+        {
+          "word": "運命",
+          "reading": "うんめい",
+          "meaning": "fate/destiny",
+          "meaningMy": "ကံကြမ္မာ",
+          "preview": false
+        },
+        {
+          "word": "生命",
+          "reading": "せいめい",
+          "meaning": "life",
+          "meaningMy": "သက်ရှိဇီဝ",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l32.s002"
+      ],
+      "components": [
+        "人",
+        "一",
+        "口",
+        "卩"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.k003",
+      "lessonId": "n3.l32",
+      "char": "願",
+      "meaning": "wish, petition",
+      "meaningMy": "ဆုတောင်းသည်/မေတ္တာရပ်ခံသည်",
+      "meaningMyanmar": "ဆုတောင်းသည်/မေတ္တာရပ်ခံသည်",
+      "onyomi": [
+        "ガン"
+      ],
+      "kunyomi": [
+        "ねが・う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "願う",
+          "reading": "ねがう",
+          "meaning": "to pray/wish",
+          "meaningMy": "ဆုတောင်းသည်/တောင်းဆုပြုသည်",
+          "preview": true
+        },
+        {
+          "word": "お願い",
+          "reading": "おねがい",
+          "meaning": "request/favor",
+          "meaningMy": "မေတ္တာရပ်ခံချက်",
+          "preview": false
+        },
+        {
+          "word": "願書",
+          "reading": "がんしょ",
+          "meaning": "written application",
+          "meaningMy": "လျှောက်လွှာတင်စာ",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l32.s003"
+      ],
+      "components": [
+        "原",
+        "頁"
+      ],
+      "strokes": 19,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l32.g001",
+      "lessonId": "n3.l32",
+      "pattern": "〜ように言う",
+      "meaning": "to tell someone to do (indirect order)",
+      "meaningMy": "...လုပ်ဖို့ပြောသည်/ညွှန်ကြားသည်",
+      "meaningMyanmar": "...လုပ်ဖို့ပြောသည်/ညွှန်ကြားသည်",
+      "formation": "Verb [Dict / Nai] + ように言う / 伝える / 注意する",
+      "explanation": {
+        "en": "Used to indirectly quote an instruction, order, or advice given to someone else (e.g. 'I told him to arrive on time').",
+        "my": "အခြားသူတစ်ဦးအား အမိန့်ပေးခြင်း၊ ညွှန်ကြားခြင်း သို့မဟုတ် သတိပေးခြင်းကို ပြန်လည်ကိုးကားပြောဆိုရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "အခြားသူတစ်ဦးအား အမိန့်ပေးခြင်း၊ ညွှန်ကြားခြင်း သို့မဟုတ် သတိပေးခြင်းကို ပြန်လည်ကိုးကားပြောဆိုရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l32.s001",
+          "note": "〜ように言う usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l32.s002",
+          "note": "〜ように言う usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l32.s003",
+          "note": "〜ように言う usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l32.s004",
+          "note": "〜ように言う usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l32.g001",
+        "n3.l32.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ように言う."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "先生に、明日の集合時間に遅れない（　）言われました。",
+      "clozeTarget": "ように",
+      "clozeHint": "indirect command: told to...",
+      "acceptableSynonyms": [
+        "〜と伝える",
+        "〜と命じる"
+      ],
+      "nuanceExplanationMy": "တိုက်ရိုက်အမိန့်ပေးစကားမဟုတ်ဘဲ သွယ်ဝိုက်သော ညွှန်ကြားမှုအဖြစ် ပြန်လည်ပြောပြခြင်း ဖြစ်သည်။"
+    },
+    {
+      "id": "n3.l32.g002",
+      "lessonId": "n3.l32",
+      "pattern": "〜ように頼む",
+      "meaning": "to ask / request someone to do",
+      "meaningMy": "...လုပ်ပေးရန် အကူအညီတောင်းသည်/မေတ္တာရပ်ခံသည်",
+      "meaningMyanmar": "...လုပ်ပေးရန် အကူအညီတောင်းသည်/မေတ္တာရပ်ခံသည်",
+      "formation": "Verb [Dict / Nai] + ように頼む / お願いする",
+      "explanation": {
+        "en": "Used to report requesting a favor or task indirectly from another person.",
+        "my": "အခြားသူအား ကူညီဆောင်ရွက်ပေးရန် သို့မဟုတ် မေတ္တာရပ်ခံခဲ့ကြောင်း ပြန်လည်တင်ပြရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "အခြားသူအား ကူညီဆောင်ရွက်ပေးရန် သို့မဟုတ် မေတ္တာရပ်ခံခဲ့ကြောင်း ပြန်လည်တင်ပြရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l32.s005",
+          "note": "〜ように頼む usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l32.s006",
+          "note": "〜ように頼む usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l32.s007",
+          "note": "〜ように頼む usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l32.s008",
+          "note": "〜ように頼む usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l32.g001",
+        "n3.l32.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ように頼む."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "同僚に、会議の資料を印刷しておく（　）頼んだ。",
+      "clozeTarget": "ように",
+      "clozeHint": "indirect request: asked to...",
+      "acceptableSynonyms": [
+        "〜てくれるようお願いする"
+      ],
+      "nuanceExplanationMy": "ယဉ်ကျေးသောအကူအညီတောင်းဆိုချက်ကို တဆင့်ပြန်ပြောရာတွင် သုံးသည်။"
+    },
+    {
+      "id": "n3.l32.g003",
+      "lessonId": "n3.l32",
+      "pattern": "〜てほしい",
+      "meaning": "want someone to do (for speaker)",
+      "meaningMy": "...လုပ်ပေးစေချင်သည်/စေလိုသည်",
+      "meaningMyanmar": "...လုပ်ပေးစေချင်သည်/စေလိုသည်",
+      "formation": "Verb [て-form / ないで] + ほしい / もらいたい",
+      "explanation": {
+        "en": "Expresses the speaker's desire for another party to perform (or refrain from performing) an action. Never used to express what the speaker wants to do personally.",
+        "my": "မိမိကိုယ်တိုင်မဟုတ်ဘဲ တစ်ဖက်လူအား တစ်စုံတစ်ခုပြုလုပ်ပေးစေလိုသော ဆန္ဒကို ဖော်ပြရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "မိမိကိုယ်တိုင်မဟုတ်ဘဲ တစ်ဖက်လူအား တစ်စုံတစ်ခုပြုလုပ်ပေးစေလိုသော ဆန္ဒကို ဖော်ပြရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l32.s009",
+          "note": "〜てほしい usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l32.s010",
+          "note": "〜てほしい usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l32.s011",
+          "note": "〜てほしい usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l32.s012",
+          "note": "〜てほしい usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l32.g001",
+        "n3.l32.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜てほしい."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "あなたに、この大切なプロジェクトを最後まで手伝っ（　）。",
+      "clozeTarget": "てほしい",
+      "clozeHint": "want someone to do: ...てほしい",
+      "acceptableSynonyms": [
+        "〜てもらいたい",
+        "〜ていただきたい"
+      ],
+      "nuanceExplanationMy": "တိုက်ရိုက်ဆန္ဒဖော်ပြချက်ဖြစ်သဖြင့် အထက်လူကြီးထံ တိုက်ရိုက်ပြောဆိုရန် မသင့်တော်ပါ။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l32.s001",
+      "lessonId": "n3.l32",
+      "ja": "部長は部下に対して、安全確認を徹底するように言った。",
+      "kana": "ぶちょうはぶかにたいして、あんぜんかくにんをてっていするようにいった。",
+      "translation": {
+        "en": "The department manager told the subordinates to thoroughly perform safety checks.",
+        "my": "ဌာနမှူးက လက်အောက်ငယ်သားများအား ဘေးကင်းရေးစစ်ဆေးမှုများကို စေ့စပ်သေချာစွာလုပ်ဆောင်ရန် ပြောကြားခဲ့သည်။"
+      },
+      "translationMy": "ဌာနမှူးက လက်အောက်ငယ်သားများအား ဘေးကင်းရေးစစ်ဆေးမှုများကို စေ့စပ်သေချာစွာလုပ်ဆောင်ရန် ပြောကြားခဲ့သည်။",
+      "vocabIds": [
+        "n3.l32.v002"
+      ],
+      "grammarIds": [
+        "n3.l32.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.s002",
+      "lessonId": "n3.l32",
+      "ja": "医師から、暴飲暴食を控えて適度な運動をするように言われた。",
+      "kana": "いしから、ぼういんぼうしょくをひかえててきどなうんどうをするようにいわれた。",
+      "translation": {
+        "en": "I was told by the doctor to refrain from overeating and do moderate exercise.",
+        "my": "ဆရာဝန်က အစားအသောက်အလွန်အကျွံစားခြင်းကိုရှောင်ကြဉ်ပြီး သင့်တင့်သောလေ့ကျင့်ခန်းလုပ်ရန် ညွှန်ကြားခဲ့သည်။"
+      },
+      "translationMy": "ဆရာဝန်က အစားအသောက်အလွန်အကျွံစားခြင်းကိုရှောင်ကြဉ်ပြီး သင့်တင့်သောလေ့ကျင့်ခန်းလုပ်ရန် ညွှန်ကြားခဲ့သည်။",
+      "vocabIds": [
+        "n3.l32.v004"
+      ],
+      "grammarIds": [
+        "n3.l32.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.s003",
+      "lessonId": "n3.l32",
+      "ja": "先生は生徒たちに、廊下を走らないように厳しく言った。",
+      "kana": "せんせいはせいとたちに、ろうかをはしらないようにきびしくいった。",
+      "translation": {
+        "en": "The teacher strictly told the students not to run in the hallway.",
+        "my": "ဆရာက ကျောင်းသားများအား စင်္ကြံလမ်းတွင် မပြေးကြရန် တင်းကြပ်စွာ ပြောဆိုခဲ့သည်။"
+      },
+      "translationMy": "ဆရာက ကျောင်းသားများအား စင်္ကြံလမ်းတွင် မပြေးကြရန် တင်းကြပ်စွာ ပြောဆိုခဲ့သည်။",
+      "vocabIds": [
+        "n3.l32.v003"
+      ],
+      "grammarIds": [
+        "n3.l32.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.s004",
+      "lessonId": "n3.l32",
+      "ja": "親切な先輩から、わからないことがあれば遠慮せず質問するように言われた。",
+      "kana": "しんせつなせんぱいから、わからないことがあればえんりょせずしつもんするようにいわれた。",
+      "translation": {
+        "en": "The kind senior told me not to hesitate and to ask questions if there is anything I don't understand.",
+        "my": "ကြင်နာတတ်သောစီနီယာက မရှင်းလင်းသောအချက်များရှိပါက အားမနာဘဲမေးမြန်းရန် ပြောကြားခဲ့သည်။"
+      },
+      "translationMy": "ကြင်နာတတ်သောစီနီယာက မရှင်းလင်းသောအချက်များရှိပါက အားမနာဘဲမေးမြန်းရန် ပြောကြားခဲ့သည်။",
+      "vocabIds": [
+        "n3.l32.v008",
+        "n3.l32.v009"
+      ],
+      "grammarIds": [
+        "n3.l32.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.s005",
+      "lessonId": "n3.l32",
+      "ja": "取引先への訪問前に、丁寧に業務の指示書を作成するように頼んだ。",
+      "kana": "とりひきさきへのほうもんまえに、ていねいにぎょうむのしじしょをさくせいするようにたのんだ。",
+      "translation": {
+        "en": "Before visiting the client, I asked them to politely prepare the work directive document.",
+        "my": "ဖောက်သည်ထံမသွားမီ လုပ်ငန်းညွှန်ကြားလွှာကို သေသေချာချာရေးဆွဲပေးရန် အကူအညီတောင်းခဲ့သည်။"
+      },
+      "translationMy": "ဖောက်သည်ထံမသွားမီ လုပ်ငန်းညွှန်ကြားလွှာကို သေသေချာချာရေးဆွဲပေးရန် အကူအညီတောင်းခဲ့သည်။",
+      "vocabIds": [
+        "n3.l32.v003",
+        "n3.l32.v010"
+      ],
+      "grammarIds": [
+        "n3.l32.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.s006",
+      "lessonId": "n3.l32",
+      "ja": "同僚に、急な仕事の依頼を引き受けてくれるように頼んだ。",
+      "kana": "どうりょうに、きゅうなしごとのいらいをひきうけてくれるようにたのんだ。",
+      "translation": {
+        "en": "I asked my colleague to accept the sudden job request.",
+        "my": "ရုတ်တရက်ရောက်လာသော အလုပ်တာဝန်တောင်းဆိုမှုကို လက်ခံပေးရန် လုပ်ဖော်ကိုင်ဖက်အား မေတ္တာရပ်ခံခဲ့သည်။"
+      },
+      "translationMy": "ရုတ်တရက်ရောက်လာသော အလုပ်တာဝန်တောင်းဆိုမှုကို လက်ခံပေးရန် လုပ်ဖော်ကိုင်ဖက်အား မေတ္တာရပ်ခံခဲ့သည်။",
+      "vocabIds": [
+        "n3.l32.v001"
+      ],
+      "grammarIds": [
+        "n3.l32.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.s007",
+      "lessonId": "n3.l32",
+      "ja": "納期が迫っていたので、取引先に納品を急ぐように催促の電話で頼んだ。",
+      "kana": "のうきがせまっていたので、とりひきさきにのうひんをいそぐようにさいそくのでんわでたのんだ。",
+      "translation": {
+        "en": "As the delivery deadline was near, I called the supplier to urge them to expedite delivery.",
+        "my": "ပစ္စည်းအပ်နှံရမည့်ရက်နီးကပ်လာသဖြင့် ကုန်ပစ္စည်းကိုအမြန်ပို့ပေးရန် ကုန်သည်ထံ သတိပေးတိုက်တွန်းဖုန်းခေါ်၍ တောင်းဆိုခဲ့သည်။"
+      },
+      "translationMy": "ပစ္စည်းအပ်နှံရမည့်ရက်နီးကပ်လာသဖြင့် ကုန်ပစ္စည်းကိုအမြန်ပို့ပေးရန် ကုန်သည်ထံ သတိပေးတိုက်တွန်းဖုန်းခေါ်၍ တောင်းဆိုခဲ့သည်။",
+      "vocabIds": [
+        "n3.l32.v007"
+      ],
+      "grammarIds": [
+        "n3.l32.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.s008",
+      "lessonId": "n3.l32",
+      "ja": "上司に、今後のキャリアプランについて親身に相談に乗ってくれるように頼んだ。",
+      "kana": "じょうしに、こんごのきゃりあぷらんについてしんみにそうだんにのってくれるようにたのんだ。",
+      "translation": {
+        "en": "I asked my superior to kindly consult with me about my future career plan.",
+        "my": "နောင်အနာဂတ်အလုပ်အကိုင်အစီအစဉ်နှင့်ပတ်သက်၍ နွေးထွေးစွာဆွေးနွေးတိုင်ပင်ပေးရန် အထက်လူကြီးအား အကူအညီတောင်းခဲ့သည်။"
+      },
+      "translationMy": "နောင်အနာဂတ်အလုပ်အကိုင်အစီအစဉ်နှင့်ပတ်သက်၍ နွေးထွေးစွာဆွေးနွေးတိုင်ပင်ပေးရန် အထက်လူကြီးအား အကူအညီတောင်းခဲ့သည်။",
+      "vocabIds": [
+        "n3.l32.v005"
+      ],
+      "grammarIds": [
+        "n3.l32.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.s009",
+      "lessonId": "n3.l32",
+      "ja": "経験豊かな先輩から、仕事の進め方について的確な助言をしてほしい。",
+      "kana": "けいけんゆたかなせんぱいから、しごとのすすめかたについててきかくなじょげんをしてほしい。",
+      "translation": {
+        "en": "I want the experienced senior to give me precise advice on how to proceed with the work.",
+        "my": "အတွေ့အကြုံရင့်ကျက်သောစီနီယာထံမှ အလုပ်လုပ်ဆောင်ပုံနှင့်ပတ်သက်၍ တိကျသောအကြံဉာဏ်များ ပေးစေလိုပါသည်။"
+      },
+      "translationMy": "အတွေ့အကြုံရင့်ကျက်သောစီနီယာထံမှ အလုပ်လုပ်ဆောင်ပုံနှင့်ပတ်သက်၍ တိကျသောအကြံဉာဏ်များ ပေးစေလိုပါသည်။",
+      "vocabIds": [
+        "n3.l32.v006"
+      ],
+      "grammarIds": [
+        "n3.l32.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.s010",
+      "lessonId": "n3.l32",
+      "ja": "お互いに深い信頼関係を築き、チーム全員で目標を達成してほしい。",
+      "kana": "おたがいにふかいしんらいかんけいをきずき、ちーむぜんいんでもくひょうをたっせいしてほしい。",
+      "translation": {
+        "en": "I want everyone to build deep mutual trust and achieve our goals as a whole team.",
+        "my": "အချင်းချင်းနက်ရှိုင်းသောယုံကြည်မှုတည်ဆောက်ကာ အသင်းသားအားလုံးဖြင့် ရည်မှန်းချက်ကို အောင်မြင်အောင်လုပ်ဆောင်စေချင်သည်။"
+      },
+      "translationMy": "အချင်းချင်းနက်ရှိုင်းသောယုံကြည်မှုတည်ဆောက်ကာ အသင်းသားအားလုံးဖြင့် ရည်မှန်းချက်ကို အောင်မြင်အောင်လုပ်ဆောင်စေချင်သည်။",
+      "vocabIds": [
+        "n3.l32.v011"
+      ],
+      "grammarIds": [
+        "n3.l32.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.s011",
+      "lessonId": "n3.l32",
+      "ja": "若い世代には、自分の願望を諦めずに新しい挑戦を続けてほしい。",
+      "kana": "わかいせだいには、じぶんのがんぼうをあきらめずにあたらしいちょうせんをつづけてほしい。",
+      "translation": {
+        "en": "I want the younger generation to not abandon their desires and to keep taking on new challenges.",
+        "my": "လူငယ်မျိုးဆက်များအနေဖြင့် မိမိတို့၏လိုအင်ဆန္ဒများကို လက်မလျှော့ဘဲ စိန်ခေါ်မှုအသစ်များကို ဆက်လက်ကြိုးစားစေချင်သည်။"
+      },
+      "translationMy": "လူငယ်မျိုးဆက်များအနေဖြင့် မိမိတို့၏လိုအင်ဆန္ဒများကို လက်မလျှော့ဘဲ စိန်ခေါ်မှုအသစ်များကို ဆက်လက်ကြိုးစားစေချင်သည်။",
+      "vocabIds": [
+        "n3.l32.v012"
+      ],
+      "grammarIds": [
+        "n3.l32.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l32.s012",
+      "lessonId": "n3.l32",
+      "ja": "一方的な命令に従うだけでなく、自分の意見を率直に述べてほしい。",
+      "kana": "いっぽうてきなめいれいにするだけでなく、じぶんのいけんをそっちょくにのべてほしい。",
+      "translation": {
+        "en": "Rather than merely obeying unilateral commands, I want you to frankly express your own opinions.",
+        "my": "တစ်ဖက်သတ်အမိန့်များကိုသာ နာခံမနေဘဲ မိမိ၏သဘောထားအမြင်ကို ပွင့်လင်းစွာ ပြောပြစေလိုသည်။"
+      },
+      "translationMy": "တစ်ဖက်သတ်အမိန့်များကိုသာ နာခံမနေဘဲ မိမိ၏သဘောထားအမြင်ကို ပွင့်လင်းစွာ ပြောပြစေလိုသည်။",
+      "vocabIds": [
+        "n3.l32.v002"
+      ],
+      "grammarIds": [
+        "n3.l32.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l32.r001",
+    "lessonId": "n3.l32",
+    "title": "チームリーダーからのメッセージ",
+    "level": "N3",
+    "text": "今週から新しいシステム開発プロジェクトが始まります。メンバーの皆さんには、以下の三点を徹底してほしいと思います。まず第一に、作業中に不明な点が生じたときは、自己判断で進めず、すぐにリーダーに相談するようにしてください。第二に、取引先からの仕様変更の依頼を受けた場合は、勝手に承諾せず、必ずチーム全員に共有するように言われています。最後に、お互いの意見を尊重し合い、遠慮することなく建設的な助言を出し合ってほしいです。全員が信頼し合える強いチームを作り、納期通りに素晴らしいシステムを完成させましょう。",
+    "kanaText": "こんしゅうからあたらしいしすてむかいはつぷろじぇくとがはじまります。めんばーのみなさんには、いかのさんてんをてっていしてほしいとおもいます。まずだいいちに、さぎょうちゅうにふめいなてんが生じたときは、じこはんだんですすめず、すぐにりーだーにそうだんするようにしてください。だいにに、とりひきさきからのしようへんこうのいらいをうけたばあいは、かってにしょうだくせず、かならずちーむぜんいんにきょうゆうするようにいわれています。さいごに、おたがいのいけんをそんちょうしあい、えんりょすることなくけんせつてきなじょげんをだしあってほしいです。ぜんいんがしんらいしあえるつよいちーむをつくり、のうきどおりにすばらしいしすてむをかんせいさせましょう。",
+    "translation": "ယခုသီတင်းပတ်မှစတင်၍ စနစ်သစ်တည်ဆောက်ရေးစီမံကိန်း စတင်ပါမည်။ အသင်းဝင်များအား အောက်ပါအချက်သုံးချက်ကို စေ့စပ်စွာလိုက်နာစေလိုပါသည်။ ပထမဦးစွာ အလုပ်လုပ်နေစဉ် မရှင်းလင်းသောအချက်များပေါ်ပေါက်လာပါက မိမိသဘောဖြင့် ရှေ့မတိုးဘဲ ခေါင်းဆောင်ထံ ချက်ချင်းတိုင်ပင်ဆွေးနွေးပေးကြပါ။ ဒုတိယအချက်အနေဖြင့် ဖောက်သည်ထံမှ စနစ်အသေးစိတ်ပြောင်းလဲရန် မေတ္တာရပ်ခံချက်ရရှိပါက မိမိသဘောဖြင့်လက်မခံဘဲ အသင်းသားအားလုံးထံ မဖြစ်မနေ အသိပေးမျှဝေရန် အထက်က ညွှန်ကြားထားပါသည်။ နောက်ဆုံးအနေဖြင့် အချင်းချင်း၏အမြင်များကို အပြန်အလှန်လေးစားပြီး အားနာမနေဘဲ အပြုသဘောဆောင်သောအကြံဉာဏ်များ ပေးကြစေလိုပါသည်။ အားလုံးယုံကြည်အားကိုးနိုင်သော အသင်းခိုင်မာအောင်တည်ဆောက်ကာ သတ်မှတ်ရက်အတိုင်း အောင်မြင်အောင် ဆောင်ရွက်ကြပါစို့။",
+    "translationMy": "ယခုသီတင်းပတ်မှစတင်၍ စနစ်သစ်တည်ဆောက်ရေးစီမံကိန်း စတင်ပါမည်။ အသင်းဝင်များအား အောက်ပါအချက်သုံးချက်ကို စေ့စပ်စွာလိုက်နာစေလိုပါသည်။ ပထမဦးစွာ အလုပ်လုပ်နေစဉ် မရှင်းလင်းသောအချက်များပေါ်ပေါက်လာပါက မိမိသဘောဖြင့် ရှေ့မတိုးဘဲ ခေါင်းဆောင်ထံ ချက်ချင်းတိုင်ပင်ဆွေးနွေးပေးကြပါ။ ဒုတိယအချက်အနေဖြင့် ဖောက်သည်ထံမှ စနစ်အသေးစိတ်ပြောင်းလဲရန် မေတ္တာရပ်ခံချက်ရရှိပါက မိမိသဘောဖြင့်လက်မခံဘဲ အသင်းသားအားလုံးထံ မဖြစ်မနေ အသိပေးမျှဝေရန် အထက်က ညွှန်ကြားထားပါသည်။ နောက်ဆုံးအနေဖြင့် အချင်းချင်း၏အမြင်များကို အပြန်အလှန်လေးစားပြီး အားနာမနေဘဲ အပြုသဘောဆောင်သောအကြံဉာဏ်များ ပေးကြစေလိုပါသည်။ အားလုံးယုံကြည်အားကိုးနိုင်သော အသင်းခိုင်မာအောင်တည်ဆောက်ကာ သတ်မှတ်ရက်အတိုင်း အောင်မြင်အောင် ဆောင်ရွက်ကြပါစို့။",
+    "questionIds": [
+      "n3.l32.q025",
+      "n3.l32.q026",
+      "n3.l32.q027"
+    ],
+    "difficulty": 3,
+    "glossary": [
+      {
+        "term": "自己判断",
+        "reading": "じこはんだん",
+        "meaning": "personal discretion / judging for oneself (မိမိသဘောဖြင့်ဆုံးဖြတ်ခြင်း)",
+        "meaningMy": "personal discretion / judging for oneself (မိမိသဘောဖြင့်ဆုံးဖြတ်ခြင်း)",
+        "meaningMyanmar": "personal discretion / judging for oneself (မိမိသဘောဖြင့်ဆုံးဖြတ်ခြင်း)"
+      },
+      {
+        "term": "仕様変更",
+        "reading": "しようへんこう",
+        "meaning": "specification change (သတ်မှတ်ချက်ပုံစံပြောင်းလဲခြင်း)",
+        "meaningMy": "specification change (သတ်မှတ်ချက်ပုံစံပြောင်းလဲခြင်း)",
+        "meaningMyanmar": "specification change (သတ်မှတ်ချက်ပုံစံပြောင်းလဲခြင်း)"
+      },
+      {
+        "term": "建設的",
+        "reading": "けんせつてき",
+        "meaning": "constructive (အပြုသဘောဆောင်သော)",
+        "meaningMy": "constructive (အပြုသဘောဆောင်သော)",
+        "meaningMyanmar": "constructive (အပြုသဘောဆောင်သော)"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n3.l32.lis001",
+    "lessonId": "n3.l32",
+    "title": "オフィスでの伝言とお願い",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "佐藤",
+      "鈴木"
+    ],
+    "transcript": "佐藤: 鈴木さん、ちょっといいですか。先ほど課長から伝言を預かりました。\n鈴木: はい、何でしょうか。課長は外出中でしたよね。\n佐藤: ええ、出先からお電話があって、明日のプレゼン資料を今日の夕方までにメールで送っておくように言われました。\n鈴木: わかりました。鈴木さん、実は私一人ではグラフの作成が間に合わないので、少し手伝ってほしいんですが…。\n佐藤: もちろんいいですよ。課長を待たせないように、一緒に手分けして仕上げましょう。",
+    "translation": "佐藤: ဆူဇူကီးစံ၊ ခဏလောက် အချိန်ရမလားခင်ဗျာ။ စောစောက ဌာနစိတ်မှူးထံမှ မှာစကားလက်ခံထားလို့ပါ။\n鈴木: ဟုတ်ကဲ့၊ ဘာကိစ္စများပါလဲ။ ဌာနစိတ်မှူးက အပြင်ထွက်နေတာ မဟုတ်လား။\n佐藤: ဟုတ်ကဲ့၊ အပြင်ကနေ ဖုန်းဆက်လာပြီး မနက်ဖြန်တင်ပြရမယ့်စာရွက်စာတမ်းတွေကို ဒီကနေ့ ညနေမတိုင်မီ အီးမေးလ်ဖြင့် ပို့ထားပေးရန် ပြောကြားခဲ့ပါတယ်။\n鈴木: နားလည်ပါပြီ။ တကယ်တော့ ကျွန်မတစ်ယောက်တည်း ဂရပ်ဖ်ဆွဲဖို့ အချိန်မမီမှာစိုးလို့ နည်းနည်းလောက် ကူညီပေးစေချင်လို့ပါ...\n佐藤: ဒါပေါ့၊ ကူညီပေးပါ့မယ်။ ဌာနစိတ်မှူးကို စောင့်မနေရအောင် အတူတူခွဲဝေပြီး ပြီးစီးအောင် လုပ်ကြတာပေါ့။",
+    "translationMy": "佐藤: ဆူဇူကီးစံ၊ ခဏလောက် အချိန်ရမလားခင်ဗျာ။ စောစောက ဌာနစိတ်မှူးထံမှ မှာစကားလက်ခံထားလို့ပါ။\n鈴木: ဟုတ်ကဲ့၊ ဘာကိစ္စများပါလဲ။ ဌာနစိတ်မှူးက အပြင်ထွက်နေတာ မဟုတ်လား။\n佐藤: ဟုတ်ကဲ့၊ အပြင်ကနေ ဖုန်းဆက်လာပြီး မနက်ဖြန်တင်ပြရမယ့်စာရွက်စာတမ်းတွေကို ဒီကနေ့ ညနေမတိုင်မီ အီးမေးလ်ဖြင့် ပို့ထားပေးရန် ပြောကြားခဲ့ပါတယ်။\n鈴木: နားလည်ပါပြီ။ တကယ်တော့ ကျွန်မတစ်ယောက်တည်း ဂရပ်ဖ်ဆွဲဖို့ အချိန်မမီမှာစိုးလို့ နည်းနည်းလောက် ကူညီပေးစေချင်လို့ပါ...\n佐藤: ဒါပေါ့၊ ကူညီပေးပါ့မယ်။ ဌာနစိတ်မှူးကို စောင့်မနေရအောင် အတူတူခွဲဝေပြီး ပြီးစီးအောင် လုပ်ကြတာပေါ့။",
+    "turns": [
+      {
+        "speaker": "佐藤",
+        "ja": "鈴木さん、ちょっといいですか。先ほど課長から伝言を預かりました。",
+        "kana": "すずきさん、ちょっといいですか。さきほどかちょうからでんごんをあずかりました。",
+        "en": "Suzuki-san, do you have a moment? I just took a message from the section chief.",
+        "my": "ဆူဇူကီးစံ၊ ခဏလောက် အချိန်ရမလားခင်ဗျာ။ စောစောက ဌာနစိတ်မှူးထံမှ မှာစကားလက်ခံထားလို့ပါ။",
+        "translationMy": "ဆူဇူကီးစံ၊ ခဏလောက် အချိန်ရမလားခင်ဗျာ။ စောစောက ဌာနစိတ်မှူးထံမှ မှာစကားလက်ခံထားလို့ပါ။",
+        "myanmar": "ဆူဇူကီးစံ၊ ခဏလောက် အချိန်ရမလားခင်ဗျာ။ စောစောက ဌာနစိတ်မှူးထံမှ မှာစကားလက်ခံထားလို့ပါ။"
+      },
+      {
+        "speaker": "鈴木",
+        "ja": "はい、何でしょうか。課長は外出中でしたよね。",
+        "kana": "はい、なんじょうでしょうか。かちょうはがいしゅつちゅうでしたよね。",
+        "en": "Yes, what is it? The section chief was out of the office, right?",
+        "my": "ဟုတ်ကဲ့၊ ဘာကိစ္စများပါလဲ။ ဌာနစိတ်မှူးက အပြင်ထွက်နေတာ မဟုတ်လား။",
+        "translationMy": "ဟုတ်ကဲ့၊ ဘာကိစ္စများပါလဲ။ ဌာနစိတ်မှူးက အပြင်ထွက်နေတာ မဟုတ်လား။",
+        "myanmar": "ဟုတ်ကဲ့၊ ဘာကိစ္စများပါလဲ။ ဌာနစိတ်မှူးက အပြင်ထွက်နေတာ မဟုတ်လား။"
+      },
+      {
+        "speaker": "佐藤",
+        "ja": "ええ、出先からお電話があって、明日のプレゼン資料を今日の夕方までにメールで送っておくように言われました。",
+        "kana": "ええ、でさきからおでんわがあって、あすのぷれぜんしりょうをきょうのゆうがたまでにめーるでおくっておくようにいわれました。",
+        "en": "Yes, he called from outside and told us to send tomorrow's presentation slides by email by this evening.",
+        "my": "ဟုတ်ကဲ့၊ အပြင်ကနေ ဖုန်းဆက်လာပြီး မနက်ဖြန်တင်ပြရမယ့်စာရွက်စာတမ်းတွေကို ဒီကနေ့ ညနေမတိုင်မီ အီးမေးလ်ဖြင့် ပို့ထားပေးရန် ပြောကြားခဲ့ပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့၊ အပြင်ကနေ ဖုန်းဆက်လာပြီး မနက်ဖြန်တင်ပြရမယ့်စာရွက်စာတမ်းတွေကို ဒီကနေ့ ညနေမတိုင်မီ အီးမေးလ်ဖြင့် ပို့ထားပေးရန် ပြောကြားခဲ့ပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့၊ အပြင်ကနေ ဖုန်းဆက်လာပြီး မနက်ဖြန်တင်ပြရမယ့်စာရွက်စာတမ်းတွေကို ဒီကနေ့ ညနေမတိုင်မီ အီးမေးလ်ဖြင့် ပို့ထားပေးရန် ပြောကြားခဲ့ပါတယ်။"
+      },
+      {
+        "speaker": "鈴木",
+        "ja": "わかりました。鈴木さん、実は私一人ではグラフの作成が間に合わないので、少し手伝ってほしいんですが…。",
+        "kana": "わかりました。すずきさん、じつはわたしひとりではぐらふのさくせいがまにあわないので、すこしていだってほしいんですが…。",
+        "en": "Understood. Actually, since I can't finish making the graphs by myself in time, could you help me a bit...?",
+        "my": "နားလည်ပါပြီ။ တကယ်တော့ ကျွန်မတစ်ယောက်တည်း ဂရပ်ဖ်ဆွဲဖို့ အချိန်မမီမှာစိုးလို့ နည်းနည်းလောက် ကူညီပေးစေချင်လို့ပါ...",
+        "translationMy": "နားလည်ပါပြီ။ တကယ်တော့ ကျွန်မတစ်ယောက်တည်း ဂရပ်ဖ်ဆွဲဖို့ အချိန်မမီမှာစိုးလို့ နည်းနည်းလောက် ကူညီပေးစေချင်လို့ပါ...",
+        "myanmar": "နားလည်ပါပြီ။ တကယ်တော့ ကျွန်မတစ်ယောက်တည်း ဂရပ်ဖ်ဆွဲဖို့ အချိန်မမီမှာစိုးလို့ နည်းနည်းလောက် ကူညီပေးစေချင်လို့ပါ..."
+      },
+      {
+        "speaker": "佐藤",
+        "ja": "もちろんいいですよ。課長を待たせないように、一緒に手分けして仕上げましょう。",
+        "kana": "もちろんいいですよ。かちょうをまたせないように、いっしょにてわけしてしあげましょう。",
+        "en": "Of course! Let's split up the tasks and finish it together so we don't keep the chief waiting.",
+        "my": "ဒါပေါ့၊ ကူညီပေးပါ့မယ်။ ဌာနစိတ်မှူးကို စောင့်မနေရအောင် အတူတူခွဲဝေပြီး ပြီးစီးအောင် လုပ်ကြတာပေါ့။",
+        "translationMy": "ဒါပေါ့၊ ကူညီပေးပါ့မယ်။ ဌာနစိတ်မှူးကို စောင့်မနေရအောင် အတူတူခွဲဝေပြီး ပြီးစီးအောင် လုပ်ကြတာပေါ့။",
+        "myanmar": "ဒါပေါ့၊ ကူညီပေးပါ့မယ်။ ဌာနစိတ်မှူးကို စောင့်မနေရအောင် အတူတူခွဲဝေပြီး ပြီးစီးအောင် လုပ်ကြတာပေါ့။"
+      }
+    ],
+    "questionIds": [
+      "n3.l32.q028",
+      "n3.l32.q029",
+      "n3.l32.q030"
+    ],
+    "difficulty": 3,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l32.q001",
+      "lessonId": "n3.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "他人に仕事や援助を頼むことを表す熟語はどれか。",
+      "choices": [
+        "依頼",
+        "命令",
+        "遠慮",
+        "催促"
+      ],
+      "answer": "依頼",
+      "explanation": "依頼 (いらい) means request or commissioning a task.",
+      "explanationMy": "အခြားသူထံ အလုပ်သို့မဟုတ် အကူအညီတောင်းဆိုခြင်းကို 依頼 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q002",
+      "lessonId": "n3.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "上位の者が下位の者に行動を強制する言い渡しを何というか。",
+      "choices": [
+        "命令",
+        "相談",
+        "助言",
+        "願望"
+      ],
+      "answer": "命令",
+      "explanation": "命令 (めいれい) means an order or command.",
+      "explanationMy": "အထက်လူကြီးက လက်အောက်ငယ်သားအား အတင်းအကျပ်ဆောင်ရွက်စေသော စကားကို 命令 (အမိန့်) ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q003",
+      "lessonId": "n3.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "物事の進め方や方針を指し示すことを何というか。",
+      "choices": [
+        "指示",
+        "願望",
+        "遠慮",
+        "親切"
+      ],
+      "answer": "指示",
+      "explanation": "指示 (しじ) means instructions or directives.",
+      "explanationMy": "လုပ်ဆောင်ရမည့်လမ်းညွှန်ချက်ကို 指示 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q004",
+      "lessonId": "n3.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "相手の欠点や危険を指摘して戒める言葉を何というか。",
+      "choices": [
+        "忠告",
+        "命令",
+        "依頼",
+        "丁寧"
+      ],
+      "answer": "忠告",
+      "explanation": "忠告 (ちゅうこく) means advice or admonition.",
+      "explanationMy": "သတိထားရန်နှင့် အမှားကို ပြင်ဆင်ရန် အကြံပေးတိုက်တွန်းခြင်းကို 忠告 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q005",
+      "lessonId": "n3.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "問題の解決のために他人の知恵を借りて話し合うことを何というか。",
+      "choices": [
+        "相談",
+        "催促",
+        "命令",
+        "依頼"
+      ],
+      "answer": "相談",
+      "explanation": "相談 (そうだん) means consultation or discussion.",
+      "explanationMy": "ပြဿနာဖြေရှင်းရန် အခြားသူနှင့် ဆွေးနွေးတိုင်ပင်ခြင်းကို 相談 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q006",
+      "lessonId": "n3.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "遅れている事柄を早く進めるよう強く要求することを何というか。",
+      "choices": [
+        "催促",
+        "遠慮",
+        "指示",
+        "親切"
+      ],
+      "answer": "催促",
+      "explanation": "催促 (さいそく) means pressing or urging for action.",
+      "explanationMy": "နောက်ကျနေသောအရာကို အမြန်လုပ်ရန် သတိပေးတောင်းဆိုခြင်းကို 催促 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q007",
+      "lessonId": "n3.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "他人に対して気兼ねして控えめに行動することを何というか。",
+      "choices": [
+        "遠慮",
+        "信頼",
+        "命令",
+        "助言"
+      ],
+      "answer": "遠慮",
+      "explanation": "遠慮 (えんりょ) means holding back or refraining politely.",
+      "explanationMy": "အားနာတွန့်ဆုတ်ပြီး ထိန်းထိန်းသိမ်းသိမ်းပြုမူခြင်းကို 遠慮 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q008",
+      "lessonId": "n3.l32",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "相手を強く信じて頼りにすることを何というか。",
+      "choices": [
+        "信頼",
+        "命令",
+        "催促",
+        "指示"
+      ],
+      "answer": "信頼",
+      "explanation": "信頼 (しんらい) means deep trust and reliance.",
+      "explanationMy": "တစ်ဖက်လူကို လေးနက်စွာ ယုံကြည်အားကိုးခြင်းကို 信頼 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q009",
+      "lessonId": "n3.l32",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「頼」の正しい訓読みはどれか。",
+      "choices": [
+        "たの・む",
+        "いのち",
+        "ねが・う",
+        "ゆる・す"
+      ],
+      "answer": "たの・む",
+      "explanation": "The kunyomi of 頼 is たの・む / たよ・る.",
+      "explanationMy": "頼 ၏ kunyomi မှာ たの・む (တောင်းဆိုသည်) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q010",
+      "lessonId": "n3.l32",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「依頼」の正しい読み方はどれか。",
+      "choices": [
+        "いらい",
+        "いれい",
+        "たいらい",
+        "しんらい"
+      ],
+      "answer": "いらい",
+      "explanation": "依頼 is read as いらい.",
+      "explanationMy": "依頼 ၏ အသံထွက်မှာ いらい ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q011",
+      "lessonId": "n3.l32",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「命」の正しい音読みはどれか。",
+      "choices": [
+        "メイ",
+        "ライ",
+        "ガン",
+        "ニン"
+      ],
+      "answer": "メイ",
+      "explanation": "The onyomi of 命 is メイ or ミョウ.",
+      "explanationMy": "命 ၏ onyomi မှာ メイ (ဥပမာ 命令 - めいれい) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q012",
+      "lessonId": "n3.l32",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「生命」の正しい読み方はどれか。",
+      "choices": [
+        "せいめい",
+        "しょうめい",
+        "せいいのち",
+        "せいみょう"
+      ],
+      "answer": "せいめい",
+      "explanation": "生命 is read as せいめい.",
+      "explanationMy": "生命 ၏ အသံထွက်မှာ せいめい ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q013",
+      "lessonId": "n3.l32",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「願」の正しい訓読みはどれか。",
+      "choices": [
+        "ねが・う",
+        "たの・む",
+        "みと・める",
+        "ことわ・る"
+      ],
+      "answer": "ねが・う",
+      "explanation": "The kunyomi of 願 is ねが・う.",
+      "explanationMy": "願 ၏ kunyomi မှာ ねが・う (ဆုတောင်းသည်) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q014",
+      "lessonId": "n3.l32",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「願書」の正しい読み方はどれか。",
+      "choices": [
+        "がんしょ",
+        "ねがいしょ",
+        "げんしょ",
+        "がんじょ"
+      ],
+      "answer": "がんしょ",
+      "explanation": "願書 is read as がんしょ.",
+      "explanationMy": "願書 ၏ အသံထွက်မှာ がんしょ ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q015",
+      "lessonId": "n3.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "母から部屋を掃除する（　）厳しく言われました。",
+      "choices": [
+        "ように",
+        "ために",
+        "とおりに",
+        "そうに"
+      ],
+      "answer": "ように",
+      "explanation": "Use Verb-dict + ように言う for indirect commands/instructions.",
+      "explanationMy": "သွယ်ဝိုက်ညွှန်ကြားချက်အဖြစ် 掃除するように言われました (ရှင်းလင်းရန် အပြောခံရသည်) သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q016",
+      "lessonId": "n3.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "遅刻しない（　）みんなに伝えてください。",
+      "choices": [
+        "ように",
+        "そうに",
+        "らしく",
+        "みたいに"
+      ],
+      "answer": "ように",
+      "explanation": "Verb-nai + ように伝える conveys an instruction not to do something.",
+      "explanationMy": "မလုပ်ရန် မှာကြားရာတွင် Verb-nai + ように伝える ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q017",
+      "lessonId": "n3.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ように言う」の間接話法で、禁止を表す正しい接続はどれか。",
+      "choices": [
+        "動詞のナイ形 ＋ ように言う",
+        "動詞の辞書形 ＋ な ＋ ように言う",
+        "動詞のタ形 ＋ ように言う",
+        "動詞のマス形 ＋ ように言う"
+      ],
+      "answer": "動詞のナイ形 ＋ ように言う",
+      "explanation": "Indirect negative commands take verb-nai + ように言う (e.g. 行かないように言う).",
+      "explanationMy": "ငြင်းပယ်ချက် သို့မဟုတ် တားမြစ်ချက်အတွက် Verb-nai + ように言う ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q018",
+      "lessonId": "n3.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "同僚に、書類のチェックを今日中に終わらせる（　）頼みました。",
+      "choices": [
+        "ように",
+        "ために",
+        "せいで",
+        "おかげで"
+      ],
+      "answer": "ように",
+      "explanation": "Use Verb-dict + ように頼む to request someone to complete a task.",
+      "explanationMy": "လုပ်ဆောင်ပေးရန် တောင်းဆိုရာတွင် Verb + ように頼む ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q019",
+      "lessonId": "n3.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "急ぎの用事だったので、すぐ電話をかけ直して（　）よう頼んだ。",
+      "choices": [
+        "くれる",
+        "あげる",
+        "やる",
+        "いただく"
+      ],
+      "answer": "くれる",
+      "explanation": "〜てくれるよう頼む means 'to ask someone to do (for me)'.",
+      "explanationMy": "မိမိအတွက် ပြုလုပ်ပေးရန် တောင်းဆိုရာတွင် 〜てくれるよう頼む ဟု တွဲသုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q020",
+      "lessonId": "n3.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ように頼む」の敬語的で丁寧な言い回しはどれか。",
+      "choices": [
+        "〜ようにお願いする",
+        "〜ように命令する",
+        "〜ように注意する",
+        "〜ように叱る"
+      ],
+      "answer": "〜ようにお願いする",
+      "explanation": "〜ようにお願いする is the polite and courteous variant of 〜ように頼む.",
+      "explanationMy": "〜ようにお願いする သည် 〜ように頼む ထက် ပိုမိုယဉ်ကျေးသော အသုံးအနှုန်း ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q021",
+      "lessonId": "n3.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "早く元気になっ（　）から、無理をしないで休んでください。",
+      "choices": [
+        "てほしい",
+        "たい",
+        "たがる",
+        "てあげる"
+      ],
+      "answer": "てほしい",
+      "explanation": "Use 〜てほしい to express a desire for another person to do/become something.",
+      "explanationMy": "တစ်ဖက်လူအား ကျန်းမာစေလိုသောဆန္ဒအတွက် なっ+てほしい ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q022",
+      "lessonId": "n3.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "この大切な仕事は、信頼できるあなたに引き受け（　）。",
+      "choices": [
+        "てほしい",
+        "たい",
+        "てみせる",
+        "てしまう"
+      ],
+      "answer": "てほしい",
+      "explanation": "引き受けてほしい means 'I want you to undertake this work'.",
+      "explanationMy": "တစ်ဖက်လူအား တာဝန်ယူပေးစေလိုသည့်အတွက် 引き受けてほしい ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q023",
+      "lessonId": "n3.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜てほしい」を否定形「相手にしてほしくない」とする時の正しい形はどれか。",
+      "choices": [
+        "〜ないでほしい / 〜てほしくない",
+        "〜ないでたい",
+        "〜てほしくあります",
+        "〜なくほしい"
+      ],
+      "answer": "〜ないでほしい / 〜てほしくない",
+      "explanation": "Negative forms are 〜ないでほしい (prefer you not do) or 〜てほしくない (don't want you to do).",
+      "explanationMy": "ငြင်းပယ်ဆန္ဒအတွက် 〜ないでほしい သို့မဟုတ် 〜てほしくない ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q024",
+      "lessonId": "n3.l32",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜てほしい」を目上の上司に対して使うのが不適切な理由は何ですか。",
+      "choices": [
+        "話者の個人的な強い要求・願望を直接ぶつける失礼な表現になるから",
+        "過去の出来事にしか使えない表現だから",
+        "文法的に動詞と接続できないから",
+        "書き言葉でしか通用しないから"
+      ],
+      "answer": "話者の個人的な強い要求・願望を直接ぶつける失礼な表現になるから",
+      "explanation": "〜てほしい sounds too demanding and presumptuous when addressing superiors.",
+      "explanationMy": "မိမိ၏ဆန္ဒကို အထက်လူကြီးထံ တိုက်ရိုက်တောင်းဆိုသည့်အသံထွက်သဖြင့် ရိုင်းပြသောကြောင့် ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q025",
+      "lessonId": "n3.l32",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "作業中にわからないことがあった場合、メンバーはどうするべきですか。",
+      "choices": [
+        "自己判断せずすぐにリーダーに相談する",
+        "とりあえず自分の考えだけで作業を進める",
+        "プロジェクトが終わるまで質問を我慢する",
+        "同僚に任せて自分は別の仕事をする"
+      ],
+      "answer": "自己判断せずすぐにリーダーに相談する",
+      "explanation": "The text instructs: 不明な点が生じたときは、自己判断で進めず、すぐにリーダーに相談するようにしてください。",
+      "explanationMy": "စာပိုဒ်တွင် မိမိသဘောဖြင့်မလုပ်ဘဲ ခေါင်းဆောင်ထံ ချက်ချင်းတိုင်ပင်ရန် ညွှန်ကြားထားသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q026",
+      "lessonId": "n3.l32",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "取引先から仕様変更の依頼を受けたときの正しい対応は何ですか。",
+      "choices": [
+        "勝手に承諾せずチーム全員に共有する",
+        "その場ですぐに値引きを承諾する",
+        "リーダーに言わずに一人で仕様書を書き換える",
+        "依頼を無視して連絡を断つ"
+      ],
+      "answer": "勝手に承諾せずチーム全員に共有する",
+      "explanation": "The passage states that members must not accept alone, but share with the whole team.",
+      "explanationMy": "မိမိသဘောဖြင့် လက်မခံဘဲ အသင်းသားအားလုံးထံ မဖြစ်မနေ မျှဝေအသိပေးရန် ဖော်ပြထားသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q027",
+      "lessonId": "n3.l32",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "リーダーがメンバー同士に望んでいる態度はどれですか。",
+      "choices": [
+        "遠慮せず建設的な助言を出し合い信頼し合うこと",
+        "厳しい上下関係を守って一切発言しないこと",
+        "ライバルとして互いに秘密を持つこと",
+        "失敗したメンバーを厳しく叱責すること"
+      ],
+      "answer": "遠慮せず建設的な助言を出し合い信頼し合うこと",
+      "explanation": "The text calls for mutual trust and providing constructive advice without hesitation.",
+      "explanationMy": "အားမနာဘဲ အပြုသဘောဆောင်သော အကြံဉာဏ်များဖလှယ်ပြီး အပြန်အလှန်ယုံကြည်ကြရန် တောင်းဆိုထားသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q028",
+      "lessonId": "n3.l32",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "課長からの伝言の内容は何ですか。",
+      "choices": [
+        "明日のプレゼン資料を今日の夕方までにメールで送ること",
+        "明日の会議を中止すること",
+        "今日の夕方までに課長の出張先へ行くこと",
+        "プレゼンの担当者を別の同僚に変更すること"
+      ],
+      "answer": "明日のプレゼン資料を今日の夕方までにメールで送ること",
+      "explanation": "Sato relays the chief's order: 明日のプレゼン資料を今日の夕方までにメールで送っておくように言われました。",
+      "explanationMy": "တင်ပြချက်စာရွက်စာတမ်းကို ယနေ့ညနေမတိုင်မီ အီးမေးလ်ဖြင့်ပို့ထားရန် ဌာနစိတ်မှူးက မှာကြားခဲ့သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q029",
+      "lessonId": "n3.l32",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "鈴木さんは佐藤さんに何を頼みましたか。",
+      "choices": [
+        "グラフの作成を手伝ってほしいと頼んだ",
+        "課長に謝りの電話をしてほしいと頼んだ",
+        "プレゼンを代わりに発表してほしいと頼んだ",
+        "夕食を一緒に食べに行ってほしいと頼んだ"
+      ],
+      "answer": "グラフの作成を手伝ってほしいと頼んだ",
+      "explanation": "Suzuki asks for help because she cannot finish the graph creation alone in time.",
+      "explanationMy": "ဂရပ်ဖ်ဆွဲသည့်အပိုင်းတွင် ကူညီပေးစေလိုကြောင်း ဆူဇူကီးက အကူအညီတောင်းခဲ့သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l32.q030",
+      "lessonId": "n3.l32",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "二人はその後どうすることにしましたか。",
+      "choices": [
+        "手分けして一緒に資料を仕上げることにした",
+        "課長が戻るまで作業を中断することにした",
+        "資料の提出を明日に延期することにした",
+        "総務部に別の担当者を派遣してもらうことにした"
+      ],
+      "answer": "手分けして一緒に資料を仕上げることにした",
+      "explanation": "Sato agrees to split up the tasks and finish the work together.",
+      "explanationMy": "အလုပ်တာဝန်ခွဲဝေပြီး အတူတကွ ပြီးစီးအောင်လုပ်ဆောင်ရန် သဘောတူခဲ့ကြသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l32.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-06T10:00:00Z",
+    "rev": 2
+  }
+};

@@ -1,0 +1,1789 @@
+{
+  "id": "n2.l02",
+  "level": "N2",
+  "module": "N2 Advanced Grammar & Argumentation",
+  "number": 2,
+  "title": "N2 Lesson 2: Sequential Relationships & Triggers (〜たとたん（に）・〜（か）と思うと・〜か〜ないかのうちに)",
+  "description": "Mastery milestone module focusing on Instantaneous Triggers, Sudden Successions, and Split-Second Reactions: the very moment that (たとたん（に）), no sooner than / just when (（か）と思うと), and barely finished when (か〜ないかのうちに).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l02.v001",
+      "lessonId": "n2.l02",
+      "ja": "瞬間",
+      "kana": "しゅんかん",
+      "en": "moment / instant",
+      "my": "မျက်စိတစ်မှိတ်အတွင်း",
+      "meaningMy": "မျက်စိတစ်မှိတ်အတွင်း",
+      "meaningMyanmar": "မျက်စိတစ်မှိတ်အတွင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l02.s001",
+      "kanjiIds": [
+        "n2.l02.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.v002",
+      "lessonId": "n2.l02",
+      "ja": "一瞬",
+      "kana": "いっしゅん",
+      "en": "a split second / an instant",
+      "my": "ခဏတာတစ်မုဟုတ်ချင်း",
+      "meaningMy": "ခဏတာတစ်မုဟုတ်ချင်း",
+      "meaningMyanmar": "ခဏတာတစ်မုဟုတ်ချင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l02.s002",
+      "kanjiIds": [
+        "n2.l02.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.v003",
+      "lessonId": "n2.l02",
+      "ja": "瞬時",
+      "kana": "しゅんじ",
+      "en": "in a flash / instant",
+      "my": "ချက်ချင်းလက်ငင်းအချိန်",
+      "meaningMy": "ချက်ချင်းလက်ငင်းအချိန်",
+      "meaningMyanmar": "ချက်ချင်းလက်ငင်းအချိန်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l02.s003",
+      "kanjiIds": [
+        "n2.l02.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.v004",
+      "lessonId": "n2.l02",
+      "ja": "突然",
+      "kana": "とつぜん",
+      "en": "suddenly / abruptly",
+      "my": "ရုတ်တရက်",
+      "meaningMy": "ရုတ်တရက်",
+      "meaningMyanmar": "ရုတ်တရက်",
+      "pos": "adverb",
+      "exampleSentenceId": "n2.l02.s004",
+      "kanjiIds": [
+        "n2.l02.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.v005",
+      "lessonId": "n2.l02",
+      "ja": "衝突",
+      "kana": "しょうとつ",
+      "en": "collision / conflict",
+      "my": "ထိပ်တိုက်တိုက်မိခြင်း / ပဋိပက္ခ",
+      "meaningMy": "ထိပ်တိုက်တိုက်မိခြင်း / ပဋိပက္ခ",
+      "meaningMyanmar": "ထိပ်တိုက်တိုက်မိခြင်း / ပဋိပက္ခ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l02.s005",
+      "kanjiIds": [
+        "n2.l02.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.v006",
+      "lessonId": "n2.l02",
+      "ja": "唐突",
+      "kana": "とうとつ",
+      "en": "abrupt / sudden / unexpected",
+      "my": "မမျှော်လင့်ဘဲ ရုတ်ခြည်းဖြစ်သော",
+      "meaningMy": "မမျှော်လင့်ဘဲ ရုတ်ခြည်းဖြစ်သော",
+      "meaningMyanmar": "မမျှော်လင့်ဘဲ ရုတ်ခြည်းဖြစ်သော",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l02.s006",
+      "kanjiIds": [
+        "n2.l02.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.v007",
+      "lessonId": "n2.l02",
+      "ja": "途中",
+      "kana": "とちゅう",
+      "en": "on the way / midway",
+      "my": "လမ်းခရီးအလယ်",
+      "meaningMy": "လမ်းခရီးအလယ်",
+      "meaningMyanmar": "လမ်းခရီးအလယ်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l02.s007",
+      "kanjiIds": [
+        "n2.l02.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.v008",
+      "lessonId": "n2.l02",
+      "ja": "中途",
+      "kana": "ちゅうと",
+      "en": "midway / unfinished",
+      "my": "တစ်ဝက်တစ်ပျက်",
+      "meaningMy": "တစ်ဝက်တစ်ပျက်",
+      "meaningMyanmar": "တစ်ဝက်တစ်ပျက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l02.s008",
+      "kanjiIds": [
+        "n2.l02.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.v009",
+      "lessonId": "n2.l02",
+      "ja": "用途",
+      "kana": "ようと",
+      "en": "use / application",
+      "my": "အသုံးပြုသည့်နေရာ",
+      "meaningMy": "အသုံးပြုသည့်နေရာ",
+      "meaningMyanmar": "အသုံးပြုသည့်နေရာ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l02.s009",
+      "kanjiIds": [
+        "n2.l02.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.v010",
+      "lessonId": "n2.l02",
+      "ja": "異変",
+      "kana": "いへん",
+      "en": "unusual occurrence / accident",
+      "my": "ပုံမှန်မဟုတ်သော ထူးခြားဖြစ်စဉ်",
+      "meaningMy": "ပုံမှန်မဟုတ်သော ထူးခြားဖြစ်စဉ်",
+      "meaningMyanmar": "ပုံမှန်မဟုတ်သော ထူးခြားဖြစ်စဉ်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l02.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.v011",
+      "lessonId": "n2.l02",
+      "ja": "兆候",
+      "kana": "ちょうこう",
+      "en": "sign / indication",
+      "my": "ရှေ့ပြေးလက္ခဏာ",
+      "meaningMy": "ရှေ့ပြေးလက္ခဏာ",
+      "meaningMyanmar": "ရှေ့ပြေးလက္ခဏာ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l02.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.v012",
+      "lessonId": "n2.l02",
+      "ja": "錯覚",
+      "kana": "さっかく",
+      "en": "illusion / hallucination",
+      "my": "အမြင်မှားခြင်း / စိတ်ထင်မှားခြင်း",
+      "meaningMy": "အမြင်မှားခြင်း / စိတ်ထင်မှားခြင်း",
+      "meaningMyanmar": "အမြင်မှားခြင်း / စိတ်ထင်မှားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l02.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l02.k001",
+      "lessonId": "n2.l02",
+      "char": "瞬",
+      "meaning": "Blink / Moment / Instant",
+      "meaningMy": "မျက်စိတစ်မှိတ် / ခဏတာ / ချက်ချင်းအခိုက်အတန့်",
+      "meaningMyanmar": "မျက်စိတစ်မှိတ် / ခဏတာ / ချက်ချင်းအခိုက်အတန့်",
+      "onyomi": [
+        "シュン"
+      ],
+      "kunyomi": [
+        "またた・く"
+      ],
+      "exampleVocab": [
+        {
+          "word": "瞬間",
+          "reading": "しゅんかん",
+          "meaning": "moment / instant",
+          "meaningMy": "မျက်စိတစ်မှိတ်အတွင်း",
+          "preview": false
+        },
+        {
+          "word": "一瞬",
+          "reading": "いっしゅん",
+          "meaning": "a split second / an instant",
+          "meaningMy": "ခဏတာတစ်မုဟုတ်ချင်း",
+          "preview": false
+        },
+        {
+          "word": "瞬時",
+          "reading": "しゅんじ",
+          "meaning": "in a flash / instant",
+          "meaningMy": "ချက်ချင်းလက်ငင်းအချိန်",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l02.s001"
+      ],
+      "components": [
+        "目",
+        "舜"
+      ],
+      "strokes": 18,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.k002",
+      "lessonId": "n2.l02",
+      "char": "突",
+      "meaning": "Thrust / Sudden / Collide",
+      "meaningMy": "ထိုးဖောက်ခြင်း / ရုတ်တရက် / တိုက်ခိုက်ခြင်း",
+      "meaningMyanmar": "ထိုးဖောက်ခြင်း / ရုတ်တရက် / တိုက်ခိုက်ခြင်း",
+      "onyomi": [
+        "トツ"
+      ],
+      "kunyomi": [
+        "つ・く"
+      ],
+      "exampleVocab": [
+        {
+          "word": "突然",
+          "reading": "とつぜん",
+          "meaning": "suddenly / abruptly",
+          "meaningMy": "ရုတ်တရက်",
+          "preview": false
+        },
+        {
+          "word": "衝突",
+          "reading": "しょうとつ",
+          "meaning": "collision / conflict",
+          "meaningMy": "ထိပ်တိုက်တိုက်မိခြင်း / ပဋိပက္ခ",
+          "preview": false
+        },
+        {
+          "word": "唐突",
+          "reading": "とうとつ",
+          "meaning": "abrupt / sudden / unexpected",
+          "meaningMy": "မမျှော်လင့်ဘဲ ရုတ်ခြည်းဖြစ်သော",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l02.s002"
+      ],
+      "components": [
+        "穴",
+        "犬"
+      ],
+      "strokes": 8,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.k003",
+      "lessonId": "n2.l02",
+      "char": "途",
+      "meaning": "Route / Way / Road / Midway",
+      "meaningMy": "လမ်းခရီး / အလယ်အလတ် / တစ်ဝက်တစ်ပျက်",
+      "meaningMyanmar": "လမ်းခရီး / အလယ်အလတ် / တစ်ဝက်တစ်ပျက်",
+      "onyomi": [
+        "ト"
+      ],
+      "kunyomi": [
+        "みち"
+      ],
+      "exampleVocab": [
+        {
+          "word": "途中",
+          "reading": "とちゅう",
+          "meaning": "on the way / midway",
+          "meaningMy": "လမ်းခရီးအလယ်",
+          "preview": false
+        },
+        {
+          "word": "中途",
+          "reading": "ちゅうと",
+          "meaning": "midway / unfinished",
+          "meaningMy": "တစ်ဝက်တစ်ပျက်",
+          "preview": false
+        },
+        {
+          "word": "用途",
+          "reading": "ようと",
+          "meaning": "use / application",
+          "meaningMy": "အသုံးပြုသည့်နေရာ",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l02.s003"
+      ],
+      "components": [
+        "辶",
+        "余"
+      ],
+      "strokes": 10,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l02.g001",
+      "lessonId": "n2.l02",
+      "pattern": "〜たとたん（に）",
+      "meaning": "The moment that... / Just as... (unexpected trigger)",
+      "meaningMy": "... လိုက်သည့် ခဏချင်းတွင်ပင် မမျှော်လင့်ဘဲ နောက်ထပ်အဖြစ်အပျက်တစ်ခု ဖြစ်ပေါ်လာသည်",
+      "meaningMyanmar": "... လိုက်သည့် ခဏချင်းတွင်ပင် မမျှော်လင့်ဘဲ နောက်ထပ်အဖြစ်အပျက်တစ်ခု ဖြစ်ပေါ်လာသည်",
+      "formation": "動詞た形 ＋ とたん（に）",
+      "explanation": {
+        "en": "The instant action A completed, an unexpected event B suddenly broke out. B cannot be speaker's intentional action or invitation.",
+        "my": "ရှေ့လုပ်ဆောင်ချက် ပြီးဆုံးသွားသည့် ချက်ချင်းအခိုက်အတန့်တွင် မထင်မှတ်သော အခြေအနေတစ်ခု ရုတ်တရက် ဖြစ်ပွားလာကြောင်း ဖော်ပြသည်။"
+      },
+      "explanationMy": "ရှေ့လုပ်ဆောင်ချက် ပြီးဆုံးသွားသည့် ချက်ချင်းအခိုက်အတန့်တွင် မထင်မှတ်သော အခြေအနေတစ်ခု ရုတ်တရက် ဖြစ်ပွားလာကြောင်း ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l02.s001",
+          "note": "〜たとたん（に） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l02.s004",
+          "note": "〜たとたん（に） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l02.s005",
+          "note": "〜たとたん（に） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l02.s010",
+          "note": "〜たとたん（に） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l02.s012",
+          "note": "〜たとたん（に） usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l02.g001",
+        "n2.l02.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜たとたん（に）."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "窓を開けた（　）、冷たい強風が吹き込んできた。",
+      "clozeTarget": "とたん",
+      "clozeHint": "The moment I opened the window",
+      "acceptableSynonyms": [
+        "〜瞬間に",
+        "〜やいなや",
+        "〜とすぐに"
+      ],
+      "nuanceExplanationMy": "話者の意図的な意志や働きかけ文には使えず、予想外の自然現象や突発的事態を描写する。"
+    },
+    {
+      "id": "n2.l02.g002",
+      "lessonId": "n2.l02",
+      "pattern": "〜（か）と思うと",
+      "meaning": "No sooner had... than / Just when I thought... suddenly",
+      "meaningMy": "... ပြီးဆုံးသွားသည် ထင်လိုက်ရုံရှိသေး ချက်ချင်း ဆန့်ကျင်ဘက် သို့မဟုတ် အခြားအရာတစ်ခု ပြောင်းလဲဖြစ်ပေါ်လာသည်",
+      "meaningMyanmar": "... ပြီးဆုံးသွားသည် ထင်လိုက်ရုံရှိသေး ချက်ချင်း ဆန့်ကျင်ဘက် သို့မဟုတ် အခြားအရာတစ်ခု ပြောင်းလဲဖြစ်ပေါ်လာသည်",
+      "formation": "動詞た形 ＋ （か）と思うと / （か）と思ったら",
+      "explanation": {
+        "en": "Used when observing rapid, contrasting transitions in another person's behavior or natural conditions.",
+        "my": "ကလေးငယ်တစ်ဦး သို့မဟုတ် သဘာဝဖြစ်စဉ်တစ်ခု အလွန်လျင်မြန်စွာ ပြောင်းလဲသွားပုံကို အံ့ဩစွာ ဖော်ပြရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "ကလေးငယ်တစ်ဦး သို့မဟုတ် သဘာဝဖြစ်စဉ်တစ်ခု အလွန်လျင်မြန်စွာ ပြောင်းလဲသွားပုံကို အံ့ဩစွာ ဖော်ပြရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l02.s002",
+          "note": "〜（か）と思うと usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l02.s006",
+          "note": "〜（か）と思うと usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l02.s008",
+          "note": "〜（か）と思うと usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l02.s009",
+          "note": "〜（か）と思うと usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l02.s011",
+          "note": "〜（か）と思うと usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l02.g001",
+        "n2.l02.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜（か）と思うと."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "空が急に暗くなった（　）、激しい雷雨が降り始めた。",
+      "clozeTarget": "かと思うと",
+      "clozeHint": "No sooner had the sky turned dark than fierce thunderstorm began",
+      "acceptableSynonyms": [
+        "〜かと思ったら",
+        "〜と思いきや",
+        "〜たとたんに"
+      ],
+      "nuanceExplanationMy": "話者自身の行為には原則使わず、第三者の急変や自然界の劇的変化に驚くニュアンス。"
+    },
+    {
+      "id": "n2.l02.g003",
+      "lessonId": "n2.l02",
+      "pattern": "〜か〜ないかのうちに",
+      "meaning": "Barely had... when / Right on the verge of finishing / In the blink of an eye",
+      "meaningMy": "ရှေ့အရာ ပြီးသည်နှင့် မပြီးသေးမီ စပ်ကြားတွင် နောက်အရာတစ်ခု ချက်ချင်း ကပ်လျက်ဖြစ်ပေါ်လာသည်",
+      "meaningMyanmar": "ရှေ့အရာ ပြီးသည်နှင့် မပြီးသေးမီ စပ်ကြားတွင် နောက်အရာတစ်ခု ချက်ချင်း ကပ်လျက်ဖြစ်ပေါ်လာသည်",
+      "formation": "動詞辞書形 / た形 ＋ か ＋ 動詞ない形 ＋ かのうちに",
+      "explanation": {
+        "en": "Stresses that the next event occurred with virtually no time gap, almost before the first had even fully ended.",
+        "my": "ရှေ့အဖြစ်အပျက် လုံးဝပြီးစီးသွားသည်ဟုပင် မဆိုနိုင်သေးမီ နောက်အဖြစ်အပျက်က ချက်ချင်းဆိုသလို အချိန်ကွာဟမှုမရှိဘဲ ဖြစ်ပေါ်လာကြောင်း ဖော်ပြသည်။"
+      },
+      "explanationMy": "ရှေ့အဖြစ်အပျက် လုံးဝပြီးစီးသွားသည်ဟုပင် မဆိုနိုင်သေးမီ နောက်အဖြစ်အပျက်က ချက်ချင်းဆိုသလို အချိန်ကွာဟမှုမရှိဘဲ ဖြစ်ပေါ်လာကြောင်း ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l02.s003",
+          "note": "〜か〜ないかのうちに usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l02.s007",
+          "note": "〜か〜ないかのうちに usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l02.g001",
+        "n2.l02.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜か〜ないかのうちに."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "授業終了のチャイムが鳴る（　）、生徒たちは教室を飛び出した。",
+      "clozeTarget": "かないかのうちに",
+      "clozeHint": "Barely had the chime rung when students dashed out",
+      "acceptableSynonyms": [
+        "〜やいなや",
+        "〜が早いか",
+        "〜たとたんに"
+      ],
+      "nuanceExplanationMy": "二つの事象が重なるようにして極めて素早く連続して生じる様子を強調する。"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l02.s001",
+      "lessonId": "n2.l02",
+      "ja": "玄関のドアを開けたとたんに、冷たい冬の風が吹き込んできて一瞬で体が震えた。",
+      "kana": "げんかんのドアをあけたとたんに、つめたいふゆのかぜがふきこんできていっしゅんでからだがふるえた。",
+      "translation": {
+        "en": "The moment I opened the entrance door, cold winter wind blew in and in a split second my body shivered.",
+        "my": "အိမ်ရှေ့တံခါးကို ဖွင့်လိုက်သည့် ခဏချင်းတွင်ပင် အေးစက်သော ဆောင်းလေ ပြင်းထန်စွာ တိုက်ခတ်လာပြီး မျက်စိတစ်မှိတ်အတွင်း တစ်ကိုယ်လုံး တုန်ယင်သွားခဲ့သည်။"
+      },
+      "translationMy": "အိမ်ရှေ့တံခါးကို ဖွင့်လိုက်သည့် ခဏချင်းတွင်ပင် အေးစက်သော ဆောင်းလေ ပြင်းထန်စွာ တိုက်ခတ်လာပြီး မျက်စိတစ်မှိတ်အတွင်း တစ်ကိုယ်လုံး တုန်ယင်သွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l02.v002"
+      ],
+      "grammarIds": [
+        "n2.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.s002",
+      "lessonId": "n2.l02",
+      "ja": "子供は激しく泣きじゃくっていたかと思うと、母親の顔を見た瞬間ににっこり微笑んだ。",
+      "kana": "こどもははげしくなきじゃくっていたかとおもうと、ははおやのかおをみたしゅんかんににっこりほほえんだ。",
+      "translation": {
+        "en": "No sooner had the child been sobbing violently than he smiled happily the instant he saw his mother's face.",
+        "my": "ကလေးငယ်သည် အပြင်းအထန် ငိုယိုနေခဲ့သည် ထင်လိုက်ရုံရှိသေး မိခင်၏ မျက်နှာကို မြင်တွေ့လိုက်သည့် အခိုက်အတန့်တွင် ချက်ချင်းဆိုသလို ပြုံးရွှင်သွားခဲ့သည်။"
+      },
+      "translationMy": "ကလေးငယ်သည် အပြင်းအထန် ငိုယိုနေခဲ့သည် ထင်လိုက်ရုံရှိသေး မိခင်၏ မျက်နှာကို မြင်တွေ့လိုက်သည့် အခိုက်အတန့်တွင် ချက်ချင်းဆိုသလို ပြုံးရွှင်သွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l02.v001"
+      ],
+      "grammarIds": [
+        "n2.l02.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.s003",
+      "lessonId": "n2.l02",
+      "ja": "警報が鳴るか鳴らないかのうちに、緊急遮断システムが瞬時に作動して被害を防いだ。",
+      "kana": "けいほうagricultuenなるかならないかのうちに、きんきゅうしゃだんシステムがしゅんじにさどうしてひがいをふせいだ。",
+      "translation": {
+        "en": "Barely had the alarm sounded when the emergency shutdown system operated in a flash, preventing damage.",
+        "my": "အချက်ပေးဥဩသံ မြည်သည်နှင့် မမြည်သေးမီ စပ်ကြားတွင် အရေးပေါ်ဖြတ်တောက်ရေးစနစ်သည် ချက်ချင်းလက်ငင်း အလုပ်လုပ်ကာ ပျက်စီးဆုံးရှုံးမှုကို တားဆီးပေးခဲ့သည်။"
+      },
+      "translationMy": "အချက်ပေးဥဩသံ မြည်သည်နှင့် မမြည်သေးမီ စပ်ကြားတွင် အရေးပေါ်ဖြတ်တောက်ရေးစနစ်သည် ချက်ချင်းလက်ငင်း အလုပ်လုပ်ကာ ပျက်စီးဆုံးရှုံးမှုကို တားဆီးပေးခဲ့သည်။",
+      "vocabIds": [
+        "n2.l02.v003"
+      ],
+      "grammarIds": [
+        "n2.l02.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.s004",
+      "lessonId": "n2.l02",
+      "ja": "静まり返っていた会議室で、彼が突然立ち上がったとたんに全員が息を呑んだ。",
+      "kana": "しずまりかえっていたかいぎしつで、かれがとつぜんたちあがったとたんにぜんいんがいきをのんだ。",
+      "translation": {
+        "en": "In the dead-silent conference room, the moment he suddenly stood up, everyone caught their breath.",
+        "my": "တိတ်ဆိတ်ငြိမ်သက်နေသော အစည်းအဝေးခန်းမထဲတွင် သူသည် ရုတ်တရက် မတ်တပ်ထရပ်လိုက်သည့် ခဏချင်းတွင်ပင် အားလုံး အသက်ရှူမှားသွားခဲ့ကြသည်။"
+      },
+      "translationMy": "တိတ်ဆိတ်ငြိမ်သက်နေသော အစည်းအဝေးခန်းမထဲတွင် သူသည် ရုတ်တရက် မတ်တပ်ထရပ်လိုက်သည့် ခဏချင်းတွင်ပင် အားလုံး အသက်ရှူမှားသွားခဲ့ကြသည်။",
+      "vocabIds": [
+        "n2.l02.v004"
+      ],
+      "grammarIds": [
+        "n2.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.s005",
+      "lessonId": "n2.l02",
+      "ja": "交差点で二台の車が激しく衝突したとたんに、周囲に大きな轟音が響き渡った。",
+      "kana": "こうさてんでにだいのくるまがはげしくしょうとつしたとたんに、しゅういにおおきなごうおんがひびきわたった。",
+      "translation": {
+        "en": "The moment two cars violently collided at the intersection, a massive roaring sound echoed across the surroundings.",
+        "my": "လမ်းဆုံတွင် ကားနှစ်စီး အပြင်းအထန် ထိပ်တိုက်တိုက်မိလိုက်သည့် ခဏချင်းတွင်ပင် ပတ်ဝန်းကျင်တစ်ခုလုံး အသံကျယ်ကြီး ဟိန်းထွက်သွားခဲ့သည်။"
+      },
+      "translationMy": "လမ်းဆုံတွင် ကားနှစ်စီး အပြင်းအထန် ထိပ်တိုက်တိုက်မိလိုက်သည့် ခဏချင်းတွင်ပင် ပတ်ဝန်းကျင်တစ်ခုလုံး အသံကျယ်ကြီး ဟိန်းထွက်သွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l02.v005"
+      ],
+      "grammarIds": [
+        "n2.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.s006",
+      "lessonId": "n2.l02",
+      "ja": "部長が唐突に辞任を告げたかと思うと、次期後任の指名を即座に発表した。",
+      "kana": "ぶちょうがとうとつにじにんをつげたかとおもうと、じきこうにんのしめいをつぐざにはっぴょうした。",
+      "translation": {
+        "en": "No sooner had the department manager abruptly announced his resignation than he immediately declared the nomination of his successor.",
+        "my": "ဌာနမှူးသည် ရုတ်တရက် နုတ်ထွက်ကြောင်း အသိပေးပြောကြားလိုက်သည် ထင်လိုက်ရုံရှိသေး နောက်ဆက်ခံမည့်သူ၏ အမည်စာရင်းကို ချက်ချင်း ထုတ်ပြန်ကြေညာခဲ့သည်။"
+      },
+      "translationMy": "ဌာနမှူးသည် ရုတ်တရက် နုတ်ထွက်ကြောင်း အသိပေးပြောကြားလိုက်သည် ထင်လိုက်ရုံရှိသေး နောက်ဆက်ခံမည့်သူ၏ အမည်စာရင်းကို ချက်ချင်း ထုတ်ပြန်ကြေညာခဲ့သည်။",
+      "vocabIds": [
+        "n2.l02.v006"
+      ],
+      "grammarIds": [
+        "n2.l02.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.s007",
+      "lessonId": "n2.l02",
+      "ja": "目的地へ向かう途中で雷が光るか光らないかのうちに、土砂降りの大雨が降り始めた。",
+      "kana": "もくてきちへむかうとちゅうでかみなりがひかるかひからないかのうちに、どしゃぶりのたいおうがふりはじめた。",
+      "translation": {
+        "en": "On the way to the destination, barely had lightning flashed when a torrential downpour began falling.",
+        "my": "ဦးတည်ရာသို့ သွားနေသည့် လမ်းခရီးအလယ်တွင် လျှပ်စီးလက်သည်နှင့် မလက်သေးမီ စပ်ကြား၌ သည်းထန်သော မိုးသက်မုန်တိုင်း စတင်ရွာသွန်းတော့သည်။"
+      },
+      "translationMy": "ဦးတည်ရာသို့ သွားနေသည့် လမ်းခရီးအလယ်တွင် လျှပ်စီးလက်သည်နှင့် မလက်သေးမီ စပ်ကြား၌ သည်းထန်သော မိုးသက်မုန်တိုင်း စတင်ရွာသွန်းတော့သည်။",
+      "vocabIds": [
+        "n2.l02.v007"
+      ],
+      "grammarIds": [
+        "n2.l02.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.s008",
+      "lessonId": "n2.l02",
+      "ja": "中途半端な作業で終わるかと思ったら、彼は夜を徹して見事に完成させた。",
+      "kana": "ちゅうとはんぱなさぎょうでおわるかとおもったら、かれはよをてっしてみごとにかんせいさせた。",
+      "translation": {
+        "en": "Just when I thought it would end in half-hearted work, he stayed up all night and splendidly finished it.",
+        "my": "တစ်ဝက်တစ်ပျက် အလုပ်ဖြင့် ပြီးဆုံးသွားမည်ဟု ထင်မှတ်လိုက်ရုံရှိသေး သူသည် ညလုံးပေါက် မအိပ်ဘဲ အံ့မခန်း ပြီးစီးအောင် ဆောင်ရွက်ခဲ့သည်။"
+      },
+      "translationMy": "တစ်ဝက်တစ်ပျက် အလုပ်ဖြင့် ပြီးဆုံးသွားမည်ဟု ထင်မှတ်လိုက်ရုံရှိသေး သူသည် ညလုံးပေါက် မအိပ်ဘဲ အံ့မခန်း ပြီးစီးအောင် ဆောင်ရွက်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l02.v008"
+      ],
+      "grammarIds": [
+        "n2.l02.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.s009",
+      "lessonId": "n2.l02",
+      "ja": "多様な用途を持つ新素材を開発したかと思ったら、各業界から注文が殺到した。",
+      "kana": "たようなようとをもつしんそざいをかいはつしたかとおもったら、かくぎょうかいからちゅうもんがさっとうした。",
+      "translation": {
+        "en": "No sooner had they developed a new material with diverse applications than orders flooded in from various industries.",
+        "my": "အသုံးပြုသည့်နေရာ စုံလင်သော ပစ္စည်းသစ်ကို တီထွင်လိုက်သည် ထင်လိုက်ရုံရှိသေး နယ်ပယ်အသီးသီးမှ အမှာစာများ ပြုံတိုးကျရောက်လာခဲ့သည်။"
+      },
+      "translationMy": "အသုံးပြုသည့်နေရာ စုံလင်သော ပစ္စည်းသစ်ကို တီထွင်လိုက်သည် ထင်လိုက်ရုံရှိသေး နယ်ပယ်အသီးသီးမှ အမှာစာများ ပြုံတိုးကျရောက်လာခဲ့သည်။",
+      "vocabIds": [
+        "n2.l02.v009"
+      ],
+      "grammarIds": [
+        "n2.l02.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.s010",
+      "lessonId": "n2.l02",
+      "ja": "工場の機械に異変が生じ、異常停止ボタンを押したとたんに全てのラインが安全に停止した。",
+      "kana": "こうじょうのきかいにいへんがしょうじ、いじょうていしボタンをおしたとたんにすべてのラインがあんぜんにていしした。",
+      "translation": {
+        "en": "An abnormality arose in the factory machinery, and the moment the emergency stop button was pressed, all lines safely stopped.",
+        "my": "စက်ရုံတွင်း စက်ယန္တရားများတွင် ပုံမှန်မဟုတ်သော ထူးခြားဖြစ်စဉ် ပေါ်ပေါက်လာပြီး အရေးပေါ်ရပ်တန့်ခလုတ်ကို နှိပ်လိုက်သည့် ခဏချင်းတွင်ပင် လိုင်းအားလုံး ဘေးကင်းစွာ ရပ်တန့်သွားခဲ့သည်။"
+      },
+      "translationMy": "စက်ရုံတွင်း စက်ယန္တရားများတွင် ပုံမှန်မဟုတ်သော ထူးခြားဖြစ်စဉ် ပေါ်ပေါက်လာပြီး အရေးပေါ်ရပ်တန့်ခလုတ်ကို နှိပ်လိုက်သည့် ခဏချင်းတွင်ပင် လိုင်းအားလုံး ဘေးကင်းစွာ ရပ်တန့်သွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l02.v010"
+      ],
+      "grammarIds": [
+        "n2.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.s011",
+      "lessonId": "n2.l02",
+      "ja": "天候悪化の兆候が見られたかと思うと、瞬く間に猛吹雪となって視界を奪った。",
+      "kana": "てんこうあっかのちょうこうがみられたかとおもうと、またたくまにもうふぶきとなってしかいをうばった。",
+      "translation": {
+        "en": "No sooner had signs of deteriorating weather been observed than in the blink of an eye it turned into a fierce blizzard, stealing visibility.",
+        "my": "ရာသီဥတုဆိုးရွားမည့် ရှေ့ပြေးလက္ခဏာများ မြင်တွေ့လိုက်ရသည် ထင်ရုံရှိသေး မျက်စိတစ်မှိတ်အတွင်း နှင်းမုန်တိုင်းကြီးဖြစ်လာကာ ရှေ့မြင်ကွင်းကို ဖုံးကွယ်သွားခဲ့သည်။"
+      },
+      "translationMy": "ရာသီဥတုဆိုးရွားမည့် ရှေ့ပြေးလက္ခဏာများ မြင်တွေ့လိုက်ရသည် ထင်ရုံရှိသေး မျက်စိတစ်မှိတ်အတွင်း နှင်းမုန်တိုင်းကြီးဖြစ်လာကာ ရှေ့မြင်ကွင်းကို ဖုံးကွယ်သွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l02.v011"
+      ],
+      "grammarIds": [
+        "n2.l02.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l02.s012",
+      "lessonId": "n2.l02",
+      "ja": "遠くの景色が揺れて見えたのは単なる錯覚だったのか、地面が揺れたとたんに大地震だと気づいた。",
+      "kana": "とおくのけしきがゆれてみえたのはたんなるさっかくちだったのか、じめんがゆれたとたんにだいじしんだときづいた。",
+      "translation": {
+        "en": "Was the distant scenery appearing to sway merely an illusion, for the moment the ground shook I realized it was a major earthquake.",
+        "my": "ဝေးကွာသော မြင်ကွင်း လှုပ်ယမ်းနေသည်မှာ စိတ်ထင်မှားမှု သက်သက်လောဟု ထင်ခဲ့သော်လည်း မြေပြင် တုန်ခါသွားသည့် ခဏချင်းတွင်ပင် ငလျင်ကြီးဖြစ်ကြောင်း သတိထားမိခဲ့သည်။"
+      },
+      "translationMy": "ဝေးကွာသော မြင်ကွင်း လှုပ်ယမ်းနေသည်မှာ စိတ်ထင်မှားမှု သက်သက်လောဟု ထင်ခဲ့သော်လည်း မြေပြင် တုန်ခါသွားသည့် ခဏချင်းတွင်ပင် ငလျင်ကြီးဖြစ်ကြောင်း သတိထားမိခဲ့သည်။",
+      "vocabIds": [
+        "n2.l02.v012"
+      ],
+      "grammarIds": [
+        "n2.l02.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l02.r001",
+    "lessonId": "n2.l02",
+    "title": "突発的事態における人間の認知と即時反応 (Human Cognition and Instantaneous Reactions in Sudden Emergencies)",
+    "level": "N2",
+    "text": "現代の高密度な産業社会において、事故や災害は予告なく突発的に発生する。異常事態に遭遇した人間がどのように状況を認知し、行動に移すかというプロセスは、安全管理工学において最も重要な研究テーマの一つである。\n\n人間は強い衝撃や急激な環境変化に直面したとたんに、認知的過負荷に陥りやすい。火災警報が鳴り響いたかと思うと、何が起きたのか理解できずに一瞬呆然としてしまう現象は「正常性バイアス」と呼ばれる。危険の兆候を脳が瞬時に危険と認識せず、単なる機器の誤作動だという錯覚に逃げ込んでしまうのである。\n\nしかし、生命を守るためには、避難警報を聞くか聞かないかのうちに躊躇なく初動措置をとらなければならない。非常時において判断を中途半端に遅らせることは致命的な結果を招く。日常的な訓練を通じて反射的な行動パターンを身体に染み込ませておくことこそが、唐突な危機から生還するための唯一の盾となるのである。",
+    "kanaText": "げんだいのこうみつどなさんぎょうしゃかいにおいて、じこやさいがいはよこくなくとっぱつてきにはっせいする。いじょうじたいにそうぐうしたにんげんがどのようにじょうきょうをにんちし、こうどうにうつすかというプロセスは、あんぜんかんりこうがくにおいてもっともじゅうようなけんきゅうテーマのひとつである。\n\nにんげんはつよいしょうげきやきゅうげきなかんきょうへんかにちょくめんしたとたんに、にんちてきかふかにおちいりやすい。かさいけいほうのなりひびいたかとおもうと、なにがおきたのかりかいできずにいっしゅんぼうぜんとしてしまうげんしょうは「せいじょうせいバイアス」とよばれる。きけんのちょうこうをのうがしゅんじにきけんと认识せず、たんなるききのござどうだというさっかくににげこんでしまうのである。\n\nしかし、せいめいをまもるためには、ひなんけいほうをきくかきかないかのうちにちゅうちょなくしょどうそちをとらなければならない。ひじょうじにおいてはんだんをちゅうとはんぱにおくらせることはちめいてきなけっかをまねく。にちじょうてきなくんれんをつうじてはんしゃてきなこうどうパターンをからだにしみこませておくことこそが、とうとつなききからせいかんするためのゆいいつのたてとなるのである。",
+    "translation": "ခေတ်သစ် လူဦးရေသိပ်သည်းသော စက်မှုလူ့အဖွဲ့အစည်းတွင် မတော်တဆမှုများနှင့် သဘာဝဘေးအန္တရာယ်များသည် ကြိုတင်သတိပေးချက်မရှိဘဲ ရုတ်တရက် ပေါ်ပေါက်လာတတ်သည်။ ပုံမှန်မဟုတ်သော အရေးပေါ်အခြေအနေနှင့် ကြုံတွေ့ရသော လူသားသည် အခြေအနေကို မည်သို့ နားလည်သိမြင်ပြီး လက်တွေ့လုပ်ဆောင်မှုဆီသို့ ကူးပြောင်းသနည်းဟူသော လုပ်ငန်းစဉ်သည် ဘေးကင်းလုံခြုံရေး စီမံခန့်ခွဲမှု အင်ဂျင်နီယာပညာရပ်တွင် အရေးကြီးဆုံး သုတေသနခေါင်းစဉ်တစ်ခု ဖြစ်သည်။\n\nလူသားတို့သည် ပြင်းထန်သော တုန်လှုပ်မှု သို့မဟုတ် ရုတ်တရက် ပြောင်းလဲသွားသော ပတ်ဝန်းကျင်နှင့် ရင်ဆိုင်ရသည့် ခဏချင်းတွင်ပင် သိမြင်မှုဆိုင်ရာ ဝန်ပိသွားလေ့ရှိသည်။ မီးဘေးသတိပေးသံ မြည်ဟိန်းလာသည် ထင်လိုက်ရုံရှိသေး ဘာဖြစ်မှန်း နားမလည်နိုင်ဘဲ မျက်စိတစ်မှိတ်အတွင်း မှင်တက်သွားသည့် ဖြစ်စဉ်ကို 'ပုံမှန်ဖြစ်မှုဘက်လိုက်မှု (Normalcy Bias)' ဟု ခေါ်သည်။ အန္တရာယ်၏ ရှေ့ပြေးလက္ခဏာကို ဦးနှောက်က ချက်ချင်း အန္တရာယ်အဖြစ် အသိအမှတ်မပြုဘဲ စက်ယန္တရား ချွတ်ယွင်းမှု သက်သက်ဟူသော စိတ်ထင်မှားမှုထဲသို့ ထွက်ပြေးတိမ်းရှောင်သွားခြင်း ဖြစ်သည်။\n\nသို့သော် အသက်အန္တရာယ်ကို ကာကွယ်ရန်အတွက် ဘေးလွတ်ရာ ရှောင်ရှားရန် အချက်ပေးသံကို ကြားသည်နှင့် မကြားသေးမီ စပ်ကြားတွင် တွန့်ဆုတ်မနေဘဲ ပထမဆုံး တုံ့ပြန်ဆောင်ရွက်မှုများကို ပြုလုပ်ရမည် ဖြစ်သည်။ အရေးပေါ်အချိန်တွင် ဆုံးဖြတ်ချက်ကို တစ်ဝက်တစ်ပျက်ဖြင့် နှောင့်နှေးစေခြင်းသည် အသက်ဆုံးရှုံးစေနိုင်သော ရလဒ်ဆိုးကို ဖြစ်စေသည်။ နေ့စဉ် လေ့ကျင့်မှုများမှတစ်ဆင့် အလိုအလျောက် တုံ့ပြန်တတ်သော အမူအကျင့်ပုံစံကို ခန္ဓာကိုယ်ထဲတွင် စွဲမြဲနေအောင် လေ့ကျင့်ထားခြင်းသည်သာ ရုတ်တရက် ကျရောက်လာသော ဘေးအန္တရာယ်မှ ရှင်သန်လွတ်မြောက်စေမည့် တစ်ခုတည်းသော ဒိုင်းလွှား ဖြစ်တော့သည်။",
+    "translationMy": "ခေတ်သစ် လူဦးရေသိပ်သည်းသော စက်မှုလူ့အဖွဲ့အစည်းတွင် မတော်တဆမှုများနှင့် သဘာဝဘေးအန္တရာယ်များသည် ကြိုတင်သတိပေးချက်မရှိဘဲ ရုတ်တရက် ပေါ်ပေါက်လာတတ်သည်။ ပုံမှန်မဟုတ်သော အရေးပေါ်အခြေအနေနှင့် ကြုံတွေ့ရသော လူသားသည် အခြေအနေကို မည်သို့ နားလည်သိမြင်ပြီး လက်တွေ့လုပ်ဆောင်မှုဆီသို့ ကူးပြောင်းသနည်းဟူသော လုပ်ငန်းစဉ်သည် ဘေးကင်းလုံခြုံရေး စီမံခန့်ခွဲမှု အင်ဂျင်နီယာပညာရပ်တွင် အရေးကြီးဆုံး သုတေသနခေါင်းစဉ်တစ်ခု ဖြစ်သည်။\n\nလူသားတို့သည် ပြင်းထန်သော တုန်လှုပ်မှု သို့မဟုတ် ရုတ်တရက် ပြောင်းလဲသွားသော ပတ်ဝန်းကျင်နှင့် ရင်ဆိုင်ရသည့် ခဏချင်းတွင်ပင် သိမြင်မှုဆိုင်ရာ ဝန်ပိသွားလေ့ရှိသည်။ မီးဘေးသတိပေးသံ မြည်ဟိန်းလာသည် ထင်လိုက်ရုံရှိသေး ဘာဖြစ်မှန်း နားမလည်နိုင်ဘဲ မျက်စိတစ်မှိတ်အတွင်း မှင်တက်သွားသည့် ဖြစ်စဉ်ကို 'ပုံမှန်ဖြစ်မှုဘက်လိုက်မှု (Normalcy Bias)' ဟု ခေါ်သည်။ အန္တရာယ်၏ ရှေ့ပြေးလက္ခဏာကို ဦးနှောက်က ချက်ချင်း အန္တရာယ်အဖြစ် အသိအမှတ်မပြုဘဲ စက်ယန္တရား ချွတ်ယွင်းမှု သက်သက်ဟူသော စိတ်ထင်မှားမှုထဲသို့ ထွက်ပြေးတိမ်းရှောင်သွားခြင်း ဖြစ်သည်။\n\nသို့သော် အသက်အန္တရာယ်ကို ကာကွယ်ရန်အတွက် ဘေးလွတ်ရာ ရှောင်ရှားရန် အချက်ပေးသံကို ကြားသည်နှင့် မကြားသေးမီ စပ်ကြားတွင် တွန့်ဆုတ်မနေဘဲ ပထမဆုံး တုံ့ပြန်ဆောင်ရွက်မှုများကို ပြုလုပ်ရမည် ဖြစ်သည်။ အရေးပေါ်အချိန်တွင် ဆုံးဖြတ်ချက်ကို တစ်ဝက်တစ်ပျက်ဖြင့် နှောင့်နှေးစေခြင်းသည် အသက်ဆုံးရှုံးစေနိုင်သော ရလဒ်ဆိုးကို ဖြစ်စေသည်။ နေ့စဉ် လေ့ကျင့်မှုများမှတစ်ဆင့် အလိုအလျောက် တုံ့ပြန်တတ်သော အမူအကျင့်ပုံစံကို ခန္ဓာကိုယ်ထဲတွင် စွဲမြဲနေအောင် လေ့ကျင့်ထားခြင်းသည်သာ ရုတ်တရက် ကျရောက်လာသော ဘေးအန္တရာယ်မှ ရှင်သန်လွတ်မြောက်စေမည့် တစ်ခုတည်းသော ဒိုင်းလွှား ဖြစ်တော့သည်။",
+    "questionIds": [
+      "n2.l02.q025",
+      "n2.l02.q026",
+      "n2.l02.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "正常性バイアス",
+        "reading": "せいじょうせいバイアス",
+        "meaning": "normalcy bias",
+        "meaningMy": "normalcy bias",
+        "meaningMyanmar": "normalcy bias"
+      },
+      {
+        "term": "呆然とする",
+        "reading": "ぼうぜんとする",
+        "meaning": "to be stunned / dumbfounded",
+        "meaningMy": "to be stunned / dumbfounded",
+        "meaningMyanmar": "to be stunned / dumbfounded"
+      },
+      {
+        "term": "初動措置",
+        "reading": "しょどうそち",
+        "meaning": "initial emergency response action",
+        "meaningMy": "initial emergency response action",
+        "meaningMyanmar": "initial emergency response action"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-04T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l02.lis001",
+    "lessonId": "n2.l02",
+    "title": "工場ライン緊急停止インシデントの分析 (Analysis of Factory Assembly Line Emergency Halt Incident)",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "松田保安部長",
+      "坂本主任"
+    ],
+    "transcript": "松田保安部長: 坂本君、昨夜第3製造ラインで発生した緊急停止だが、センサーが異常値を検知した直後の状況はどうだったのかね？\n坂本主任: はい、温度上昇の警告音が鳴ったとたんに、自動安全装置が作動し、ロボットアームが瞬時に待機位置へ戻りました。\n松田保安部長: 素晴らしい対応速度だ。作業員たちの動きはどうだったかね？混乱はなかったのか？\n坂本主任: はい、作業員たちは警告灯が点滅するか点滅しないかのうちに持ち場を離れ、マニュアル通り安全区域へ避難を完了いたしました。",
+    "translation": "松田保安部長: ဆာခါမိုတို၊ မနေ့ညက တတိယထုတ်လုပ်မှုလိုင်းမှာ ဖြစ်ပွားခဲ့တဲ့ အရေးပေါ်ရပ်တန့်မှုနဲ့ ပတ်သက်ပြီး အာရုံခံကိရိယာက ပုံမှန်မဟုတ်တဲ့ တန်ဖိုးကို သိရှိပြီး ပြီးချင်း အခြေအနေ ဘယ်လိုရှိခဲ့လဲဗျာ။\n坂本主任: ဟုတ်ကဲ့၊ အပူချိန်မြင့်တက်မှု သတိပေးသံ မြည်လိုက်သည့် ခဏချင်းတွင်ပင် အလိုအလျောက် ဘေးကင်းရေးကိရိယာ အလုပ်လုပ်သွားပြီး စက်ရုပ်လက်တံသည် မျက်စိတစ်မှိတ်အတွင်း အရန်နေရာသို့ ပြန်လည်ရောက်ရှိသွားခဲ့ပါတယ်။\n松田保安部長: အလွန်ကောင်းတဲ့ တုံ့ပြန်မှု အမြန်နှုန်းပါပဲ။ အလုပ်သမားတွေရဲ့ လှုပ်ရှားမှုကော ဘယ်လိုရှိခဲ့လဲ။ ရှုပ်ထွေးမှုတွေ မရှိခဲ့ဘူးလား။\n坂本主任: ဟုတ်ကဲ့၊ အလုပ်သမားများသည် သတိပေးမီး လင်းလက်သည်နှင့် မလင်းလက်သေးမီ စပ်ကြားမှာပင် မိမိတာဝန်နေရာမှ ထွက်ခွာပြီး လမ်းညွှန်ချက်အတိုင်း ဘေးကင်းရာဇုန်သို့ ရွှေ့ပြောင်းခြင်း ပြီးစီးခဲ့ပါတယ်။",
+    "translationMy": "松田保安部長: ဆာခါမိုတို၊ မနေ့ညက တတိယထုတ်လုပ်မှုလိုင်းမှာ ဖြစ်ပွားခဲ့တဲ့ အရေးပေါ်ရပ်တန့်မှုနဲ့ ပတ်သက်ပြီး အာရုံခံကိရိယာက ပုံမှန်မဟုတ်တဲ့ တန်ဖိုးကို သိရှိပြီး ပြီးချင်း အခြေအနေ ဘယ်လိုရှိခဲ့လဲဗျာ။\n坂本主任: ဟုတ်ကဲ့၊ အပူချိန်မြင့်တက်မှု သတိပေးသံ မြည်လိုက်သည့် ခဏချင်းတွင်ပင် အလိုအလျောက် ဘေးကင်းရေးကိရိယာ အလုပ်လုပ်သွားပြီး စက်ရုပ်လက်တံသည် မျက်စိတစ်မှိတ်အတွင်း အရန်နေရာသို့ ပြန်လည်ရောက်ရှိသွားခဲ့ပါတယ်။\n松田保安部長: အလွန်ကောင်းတဲ့ တုံ့ပြန်မှု အမြန်နှုန်းပါပဲ။ အလုပ်သမားတွေရဲ့ လှုပ်ရှားမှုကော ဘယ်လိုရှိခဲ့လဲ။ ရှုပ်ထွေးမှုတွေ မရှိခဲ့ဘူးလား။\n坂本主任: ဟုတ်ကဲ့၊ အလုပ်သမားများသည် သတိပေးမီး လင်းလက်သည်နှင့် မလင်းလက်သေးမီ စပ်ကြားမှာပင် မိမိတာဝန်နေရာမှ ထွက်ခွာပြီး လမ်းညွှန်ချက်အတိုင်း ဘေးကင်းရာဇုန်သို့ ရွှေ့ပြောင်းခြင်း ပြီးစီးခဲ့ပါတယ်။",
+    "turns": [
+      {
+        "speaker": "松田保安部長",
+        "ja": "坂本君、昨夜第3製造ラインで発生した緊急停止だが、センサーが異常値を検知した直後の状況はどうだったのかね？",
+        "kana": "さかもとくん、さくやだいさんせいぞうラインではっせいしたきんきゅうていしだが、センサーがいじょうちをけんちしたちょくごのじょうきょうはどうだったのかね？",
+        "en": "Sakamoto, regarding the emergency shutdown that occurred on production line 3 last night, what was the situation right after the sensor detected abnormal values?",
+        "my": "ဆာခါမိုတို၊ မနေ့ညက တတိယထုတ်လုပ်မှုလိုင်းမှာ ဖြစ်ပွားခဲ့တဲ့ အရေးပေါ်ရပ်တန့်မှုနဲ့ ပတ်သက်ပြီး အာရုံခံကိရိယာက ပုံမှန်မဟုတ်တဲ့ တန်ဖိုးကို သိရှိပြီး ပြီးချင်း အခြေအနေ ဘယ်လိုရှိခဲ့လဲဗျာ။",
+        "translationMy": "ဆာခါမိုတို၊ မနေ့ညက တတိယထုတ်လုပ်မှုလိုင်းမှာ ဖြစ်ပွားခဲ့တဲ့ အရေးပေါ်ရပ်တန့်မှုနဲ့ ပတ်သက်ပြီး အာရုံခံကိရိယာက ပုံမှန်မဟုတ်တဲ့ တန်ဖိုးကို သိရှိပြီး ပြီးချင်း အခြေအနေ ဘယ်လိုရှိခဲ့လဲဗျာ။",
+        "myanmar": "ဆာခါမိုတို၊ မနေ့ညက တတိယထုတ်လုပ်မှုလိုင်းမှာ ဖြစ်ပွားခဲ့တဲ့ အရေးပေါ်ရပ်တန့်မှုနဲ့ ပတ်သက်ပြီး အာရုံခံကိရိယာက ပုံမှန်မဟုတ်တဲ့ တန်ဖိုးကို သိရှိပြီး ပြီးချင်း အခြေအနေ ဘယ်လိုရှိခဲ့လဲဗျာ။"
+      },
+      {
+        "speaker": "坂本主任",
+        "ja": "はい、温度上昇の警告音が鳴ったとたんに、自動安全装置が作動し、ロボットアームが瞬時に待機位置へ戻りました。",
+        "kana": "はい、おんどじょうしょうのけいこくおんがなったとたんに、じどうあんぜんそうちがさどうし、ロボットアームがしゅんじにたいきいちへもどりました。",
+        "en": "Yes, the moment the temperature rise warning sound rang out, the automatic safety device engaged, and the robot arm returned to its standby position in a flash.",
+        "my": "ဟုတ်ကဲ့၊ အပူချိန်မြင့်တက်မှု သတိပေးသံ မြည်လိုက်သည့် ခဏချင်းတွင်ပင် အလိုအလျောက် ဘေးကင်းရေးကိရိယာ အလုပ်လုပ်သွားပြီး စက်ရုပ်လက်တံသည် မျက်စိတစ်မှိတ်အတွင်း အရန်နေရာသို့ ပြန်လည်ရောက်ရှိသွားခဲ့ပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့၊ အပူချိန်မြင့်တက်မှု သတိပေးသံ မြည်လိုက်သည့် ခဏချင်းတွင်ပင် အလိုအလျောက် ဘေးကင်းရေးကိရိယာ အလုပ်လုပ်သွားပြီး စက်ရုပ်လက်တံသည် မျက်စိတစ်မှိတ်အတွင်း အရန်နေရာသို့ ပြန်လည်ရောက်ရှိသွားခဲ့ပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့၊ အပူချိန်မြင့်တက်မှု သတိပေးသံ မြည်လိုက်သည့် ခဏချင်းတွင်ပင် အလိုအလျောက် ဘေးကင်းရေးကိရိယာ အလုပ်လုပ်သွားပြီး စက်ရုပ်လက်တံသည် မျက်စိတစ်မှိတ်အတွင်း အရန်နေရာသို့ ပြန်လည်ရောက်ရှိသွားခဲ့ပါတယ်။"
+      },
+      {
+        "speaker": "松田保安部長",
+        "ja": "素晴らしい対応速度だ。作業員たちの動きはどうだったかね？混乱はなかったのか？",
+        "kana": "すばらしいたいおうそくどだ。さぎょういんたちのうごきはどうだったかね？こんらんはなかったのか？",
+        "en": "Splendid reaction speed. How was the movement of the workers? Was there any chaos?",
+        "my": "အလွန်ကောင်းတဲ့ တုံ့ပြန်မှု အမြန်နှုန်းပါပဲ။ အလုပ်သမားတွေရဲ့ လှုပ်ရှားမှုကော ဘယ်လိုရှိခဲ့လဲ။ ရှုပ်ထွေးမှုတွေ မရှိခဲ့ဘူးလား။",
+        "translationMy": "အလွန်ကောင်းတဲ့ တုံ့ပြန်မှု အမြန်နှုန်းပါပဲ။ အလုပ်သမားတွေရဲ့ လှုပ်ရှားမှုကော ဘယ်လိုရှိခဲ့လဲ။ ရှုပ်ထွေးမှုတွေ မရှိခဲ့ဘူးလား။",
+        "myanmar": "အလွန်ကောင်းတဲ့ တုံ့ပြန်မှု အမြန်နှုန်းပါပဲ။ အလုပ်သမားတွေရဲ့ လှုပ်ရှားမှုကော ဘယ်လိုရှိခဲ့လဲ။ ရှုပ်ထွေးမှုတွေ မရှိခဲ့ဘူးလား။"
+      },
+      {
+        "speaker": "坂本主任",
+        "ja": "はい、作業員たちは警告灯が点滅するか点滅しないかのうちに持ち場を離れ、マニュアル通り安全区域へ避難を完了いたしました。",
+        "kana": "はい、さぎょういんたちはけいこくとうがてんめつするかてんめつしないかのうちにもちばをはなれ、マニュアルどおりあんぜんくいきへひなんをかんりょういたしました。",
+        "en": "Yes, barely had the warning light started flashing when workers vacated their stations, completing evacuation to the safety zone according to the manual.",
+        "my": "ဟုတ်ကဲ့၊ အလုပ်သမားများသည် သတိပေးမီး လင်းလက်သည်နှင့် မလင်းလက်သေးမီ စပ်ကြားမှာပင် မိမိတာဝန်နေရာမှ ထွက်ခွာပြီး လမ်းညွှန်ချက်အတိုင်း ဘေးကင်းရာဇုန်သို့ ရွှေ့ပြောင်းခြင်း ပြီးစီးခဲ့ပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့၊ အလုပ်သမားများသည် သတိပေးမီး လင်းလက်သည်နှင့် မလင်းလက်သေးမီ စပ်ကြားမှာပင် မိမိတာဝန်နေရာမှ ထွက်ခွာပြီး လမ်းညွှန်ချက်အတိုင်း ဘေးကင်းရာဇုန်သို့ ရွှေ့ပြောင်းခြင်း ပြီးစီးခဲ့ပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့၊ အလုပ်သမားများသည် သတိပေးမီး လင်းလက်သည်နှင့် မလင်းလက်သေးမီ စပ်ကြားမှာပင် မိမိတာဝန်နေရာမှ ထွက်ခွာပြီး လမ်းညွှန်ချက်အတိုင်း ဘေးကင်းရာဇုန်သို့ ရွှေ့ပြောင်းခြင်း ပြီးစီးခဲ့ပါတယ်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l02.q028",
+      "n2.l02.q029",
+      "n2.l02.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-04T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l02.q001",
+      "lessonId": "n2.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「シャッターを押した（　）、鳥が空高く飛び立った。」",
+      "choices": [
+        "瞬間",
+        "途中",
+        "用途",
+        "中途"
+      ],
+      "answer": "瞬間",
+      "explanation": "「瞬間（しゅんかん）」は極めて短い時間・そのときのことです。",
+      "explanationMy": "မျက်စိတစ်မှိတ်အတွင်း / ထိုအခိုက်အတန့် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q002",
+      "lessonId": "n2.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「あまりの衝撃に、（　）息が止まりそうになった。」",
+      "choices": [
+        "一瞬",
+        "唐突",
+        "衝突",
+        "用途"
+      ],
+      "answer": "一瞬",
+      "explanation": "「一瞬（いっしゅん）」はほんのわずかなひと呼吸の間です。",
+      "explanationMy": "ခဏတာတစ်မုဟုတ်ချင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q003",
+      "lessonId": "n2.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「最新のコンピューターは、膨大なデータを（　）に処理する。」",
+      "choices": [
+        "瞬時",
+        "唐突",
+        "途中",
+        "異変"
+      ],
+      "answer": "瞬時",
+      "explanation": "「瞬時（しゅんじ）」はまたたく間・極めて短い時間を表します。",
+      "explanationMy": "ချက်ချင်းလက်ငင်းအချိန် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q004",
+      "lessonId": "n2.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「晴れていた空が、（　）かき曇って雷が鳴り出した。」",
+      "choices": [
+        "突然",
+        "唐突",
+        "中途",
+        "用途"
+      ],
+      "answer": "突然",
+      "explanation": "「突然（とつぜん）」は思いがけなく急に起こる様子です。",
+      "explanationMy": "ရုတ်တရက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q005",
+      "lessonId": "n2.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「二つの派閥の間で意見の激しい（　）が生じている。」",
+      "choices": [
+        "衝突",
+        "突然",
+        "錯覚",
+        "一瞬"
+      ],
+      "answer": "衝突",
+      "explanation": "「衝突（しょうとつ）」は突き当たること、また意見などが激しく争うことです。",
+      "explanationMy": "ထိပ်တိုက်တိုက်မိခြင်း / ပဋိပက္ခ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q006",
+      "lessonId": "n2.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「静かな席で彼が（　）な質問を投げかけ、場が凍りついた。」",
+      "choices": [
+        "唐突",
+        "突然",
+        "衝突",
+        "用途"
+      ],
+      "answer": "唐突",
+      "explanation": "「唐突（とうとつ）」は前触れなく急で不自然な様子です。",
+      "explanationMy": "မမျှော်လင့်ဘဲ ရုတ်ခြည်းဖြစ်သော ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q007",
+      "lessonId": "n2.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「学校へ行く（　）で、幼なじみの友人に偶然出会った。」",
+      "choices": [
+        "途中",
+        "中途",
+        "用途",
+        "異変"
+      ],
+      "answer": "途中",
+      "explanation": "「途中（とちゅう）」は目的地へ行く道すがらのことです。",
+      "explanationMy": "လမ်းခရီးအလယ် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q008",
+      "lessonId": "n2.l02",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「一度始めた研究を、（　）で投げ出すわけにはいかない。」",
+      "choices": [
+        "中途",
+        "途中",
+        "用途",
+        "唐突"
+      ],
+      "answer": "中途",
+      "explanation": "「中途（ちゅうと）」は物事のまだ終わらない半ばのことです。",
+      "explanationMy": "တစ်ဝက်တစ်ပျက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q009",
+      "lessonId": "n2.l02",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「決定的な<u>しゅんかん</u>を捉える。」",
+      "choices": [
+        "瞬間",
+        "瞬関",
+        "旬間",
+        "準間"
+      ],
+      "answer": "瞬間",
+      "explanation": "「瞬間」は「しゅんかん」と読みます。",
+      "explanationMy": "瞬間 ၏ အသံထွက်မှာ しゅんかん ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q010",
+      "lessonId": "n2.l02",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「意見が真っ向から<u>しょうとつ</u>する。」",
+      "choices": [
+        "衝突",
+        "衝途",
+        "昇突",
+        "衝追"
+      ],
+      "answer": "衝突",
+      "explanation": "「衝突」は「しょうとつ」と読みます。",
+      "explanationMy": "衝突 ၏ အသံထွက်မှာ しょうとつ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q011",
+      "lessonId": "n2.l02",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「道具の<u>ようと</u>を広げる。」",
+      "choices": [
+        "用途",
+        "要途",
+        "用度",
+        "用図"
+      ],
+      "answer": "用途",
+      "explanation": "「用途」は「ようと」と読みます。",
+      "explanationMy": "用途 ၏ အသံထွက်မှာ ようと ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q012",
+      "lessonId": "n2.l02",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「瞬」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "め・めへん（目）",
+        "ひ・ひへん（日）",
+        "こころ（心）",
+        "ひとあし（儿）"
+      ],
+      "answer": "め・めへん（目）",
+      "explanation": "「瞬」の部首は「目（め・めへん）」です。",
+      "explanationMy": "「瞬」၏ အစိတ်အပိုင်းမှာ '目' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q013",
+      "lessonId": "n2.l02",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「突」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "あな・あなかんむり（穴）",
+        "いぬ（犬）",
+        "だい（大）",
+        "うかんむり（宀）"
+      ],
+      "answer": "あな・あなかんむり（穴）",
+      "explanation": "「突」の部首は上部の「穴（あな・あなかんむり）」です。",
+      "explanationMy": "「突」၏ အစိတ်အပိုင်းမှာ အပေါ်ဘက်မှ '穴' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q014",
+      "lessonId": "n2.l02",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「途」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "しんにょう（辶）",
+        "ひとやね（人）",
+        "きへん（木）",
+        "ほこ（戈）"
+      ],
+      "answer": "しんにょう（辶）",
+      "explanation": "「途」の部首は「しんにょう（辶）」です。",
+      "explanationMy": "「途」၏ အစိတ်အပိုင်းမှာ '辶' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q015",
+      "lessonId": "n2.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「薬を飲んだ（　）、急激な眠気に襲われた。」",
+      "choices": [
+        "とたんに",
+        "かと思うと",
+        "かないかのうちに",
+        "ばかりに"
+      ],
+      "answer": "とたんに",
+      "explanation": "薬を飲んだ直後に予想外の眠気が生じる「〜たとたんに」が適切です。",
+      "explanationMy": "ဆေးသောက်လိုက်သည့် ခဏချင်းတွင်ပင် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q016",
+      "lessonId": "n2.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「さっきまで泣いていた（　）、もう楽しそうに笑っている。」",
+      "choices": [
+        "かと思うと",
+        "とたんに",
+        "かないかのうちに",
+        "どころか"
+      ],
+      "answer": "かと思うと",
+      "explanation": "子どもの急激で対照的な状態変化を表す「〜かと思うと」が適切です。",
+      "explanationMy": "ငိုနေသည် ထင်လိုက်ရုံရှိသေး ရယ်မောနေသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q017",
+      "lessonId": "n2.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「試験終了の合図がある（　）、受験生たちは筆記用具を置いた。」",
+      "choices": [
+        "かないかのうちに",
+        "とたんに",
+        "かと思うと",
+        "反面"
+      ],
+      "answer": "かないかのうちに",
+      "explanation": "合図とほぼ同時に素早く動作を行う「〜か〜ないかのうちに」が合致します。",
+      "explanationMy": "အချက်ပြသံရှိသည်နှင့် မရှိသေးမီ စပ်ကြားတွင် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q018",
+      "lessonId": "n2.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「立ち上がった（　）、足にしびれを感じて倒れそうになった。」",
+      "choices": [
+        "とたんに",
+        "かと思うと",
+        "かないかのうちに",
+        "ものの"
+      ],
+      "answer": "とたんに",
+      "explanation": "立った瞬間に不測の痺れが走る描写に「〜たとたんに」が適切です。",
+      "explanationMy": "မတ်တပ်ထရပ်လိုက်သည့် ခဏချင်းတွင်ပင် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q019",
+      "lessonId": "n2.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「雨がやんだ（　）、また激しく降り出した。」",
+      "choices": [
+        "かと思うと",
+        "とたんに",
+        "かないかのうちに",
+        "っこない"
+      ],
+      "answer": "かと思うと",
+      "explanation": "天候のめまぐるしい急変を表す「〜（か）と思うと」が適切です。",
+      "explanationMy": "မိုးတိတ်သွားသည် ထင်လိုက်ရုံရှိသေး ပြန်ရွာလာသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q020",
+      "lessonId": "n2.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「布団に入る（　）、彼は深い眠りに落ちてしまった。」",
+      "choices": [
+        "かないかのうちに",
+        "とたんに",
+        "かと思うと",
+        "に際して"
+      ],
+      "answer": "かないかのうちに",
+      "explanation": "布団に入るや否や即座に眠る様子を表す「〜か〜ないかのうちに」が適切です。",
+      "explanationMy": "အိပ်ရာထဲဝင်သည်နှင့် မဝင်သေးမီစပ်ကြား ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q021",
+      "lessonId": "n2.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「先生の顔を見た（　）、忘れていた宿題のことを思い出した。」",
+      "choices": [
+        "とたんに",
+        "かと思うと",
+        "かないかのうちに",
+        "にあたって"
+      ],
+      "answer": "とたんに",
+      "explanation": "顔を見た瞬間にハッと思い出すきっかけを表す「〜たとたんに」が適切です。",
+      "explanationMy": "ဆရာ့မျက်နှာကို မြင်လိုက်သည့် ခဏချင်းတွင်ပင် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q022",
+      "lessonId": "n2.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「静かになった（　）、また隣の部屋から大声が聞こえてきた。」",
+      "choices": [
+        "かと思うと",
+        "とたんに",
+        "かないかのうちに",
+        "を限りに"
+      ],
+      "answer": "かと思うと",
+      "explanation": "静けさと騒音の急激な交代に驚く「〜かと思うと」が適切です。",
+      "explanationMy": "တိတ်ဆိတ်သွားသည် ထင်လိုက်ရုံရှိသေး အသံကျယ်ကြီး ကြားရပြန်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q023",
+      "lessonId": "n2.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「発車のベルが鳴り終わる（　）、電車のドアが閉まった。」",
+      "choices": [
+        "かないかのうちに",
+        "とたんに",
+        "かと思うと",
+        "得ない"
+      ],
+      "answer": "かないかのうちに",
+      "explanation": "ベルの鳴り終わりと同時にドアが閉まる時間的近接を表す「〜か〜ないかのうちに」が適切です。",
+      "explanationMy": "ခေါင်းလောင်းသံ ပြီးသည်နှင့် မပြီးသေးမီစပ်ကြား ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q024",
+      "lessonId": "n2.l02",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜たとたん（に）」の文法制約として最も適切な文を選びなさい。",
+      "choices": [
+        "窓を開けたとたん、強風が吹き込んできた。",
+        "窓を開けたとたん、部屋を掃除しよう。",
+        "窓を開けたとたん、外に出てください。",
+        "窓を開けたとたん、空を見上げるつもりだ。"
+      ],
+      "answer": "窓を開けたとたん、強風が吹き込んできた。",
+      "explanation": "「〜たとたん（に）」の後件には話者の意志・命令・勧誘表現は使えず、突発的事象が来るためこれが正解です。",
+      "explanationMy": "နောက်ဝါကျတွင် စကားပြောသူ၏ ဆန္ဒ သို့မဟုတ် အမိန့်မသုံးရဘဲ ရုတ်တရက်ဖြစ်ရပ်သာ သုံးရသဖြင့် မှန်ကန်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q025",
+      "lessonId": "n2.l02",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文で説明されている「正常性バイアス」とはどのような現象か。",
+      "choices": [
+        "危険の兆候を瞬時に察知し、直ちに完璧な避難を行うこと",
+        "異常事態に直面した際、危険を認識せず単なる誤作動などと思い込んでしまうこと",
+        "警報が鳴る前にすべての機械を計画的に停止させること",
+        "災害の発生を事前に予知して周囲に警告を発すること"
+      ],
+      "answer": "異常事態に直面した際、危険を認識せず単なる誤作動などと思い込んでしまうこと",
+      "explanation": "本文第2段落に「危険の兆候を脳が瞬時に危険と認識せず、単なる機器の誤作動だという錯覚に逃げ込んでしまうのである」とあります。",
+      "explanationMy": "အန္တရာယ်လက္ခဏာကို ချက်ချင်း အသိအမှတ်မပြုဘဲ စက်ချွတ်ယွင်းမှုသက်သက်ဟု ထင်မှားနေခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q026",
+      "lessonId": "n2.l02",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "生命を守るための避難行動として、筆者が強調しているタイミングはどれか。",
+      "choices": [
+        "火災の煙が完全に充満して前が見えなくなってから逃げる",
+        "警報を聞くか聞かないかのうちに、躊躇なく初動措置をとること",
+        "周囲の人々の出方を見て、全員が逃げ出してから行動する",
+        "上司の書面による正式な避難命令が届くまでその場で待機する"
+      ],
+      "answer": "警報を聞くか聞かないかのうちに、躊躇なく初動措置をとること",
+      "explanation": "本文第3段落に「避難警報を聞くか聞かないかのうちに躊躇なく初動措置をとらなければならない」と明記されています。",
+      "explanationMy": "သတိပေးသံ ကြားသည်နှင့် မကြားသေးမီစပ်ကြား တွန့်ဆုတ်မနေဘဲ ချက်ချင်း တုံ့ပြန်ဆောင်ရွက်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q027",
+      "lessonId": "n2.l02",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "突発的な危機から生還するために「唯一の盾」として結論づけられているものは何か。",
+      "choices": [
+        "最新鋭の高価な防災機器を大量に購入して設置すること",
+        "日常的な訓練を通じて反射的な行動パターンを身体に染み込ませておくこと",
+        "過去の事故記録を完全に忘れて楽観的な気分を保つこと",
+        "非常時マニュアルを机の中に大切に保管しておくこと"
+      ],
+      "answer": "日常的な訓練を通じて反射的な行動パターンを身体に染み込ませておくこと",
+      "explanation": "本文最終行に「日常的な訓練を通じて反射的な行動パターンを身体に染み込ませておくことこそが、唐突な危機から生還するための唯一の盾となる」とあります。",
+      "explanationMy": "နေ့စဉ်လေ့ကျင့်မှုများမှတစ်ဆင့် အလိုအလျောက်တုံ့ပြန်သောအလေ့အကျင့်ကို ခန္ဓာကိုယ်ထဲ စွဲမြဲစေခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q028",
+      "lessonId": "n2.l02",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "温度上昇の警告音が鳴った直後に起きた出来事はどれか。",
+      "choices": [
+        "ロボットアームが暴走して製品と衝突した",
+        "自動安全装置が作動し、ロボットアームが瞬時に待機位置へ戻った",
+        "作業員たちがパニックになって工場外へ逃げ出した",
+        "工場の電源が完全に落ちて真っ暗になった"
+      ],
+      "answer": "自動安全装置が作動し、ロボットアームが瞬時に待機位置へ戻った",
+      "explanation": "坂本主任が「温度上昇の警告音が鳴ったとたんに、自動安全装置が作動し、ロボットアームが瞬時に待機位置へ戻りました」と報告しています。",
+      "explanationMy": "အလိုအလျောက် ဘေးကင်းရေးကိရိယာ အလုပ်လုပ်ကာ စက်ရုပ်လက်တံ ချက်ချင်း အရန်နေရာသို့ ပြန်သွားခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q029",
+      "lessonId": "n2.l02",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "作業員たちの避難の様子について、坂本主任はどのように説明したか。",
+      "choices": [
+        "警告灯が点滅するか点滅しないかのうちに持ち場を離れ、安全区域へ避難した",
+        "避難の指示があるまで誰一人としてその場を動かなかった",
+        "持ち場の機械の片付けに時間がかかり、逃げ遅れそうになった",
+        "避難経路が分からず工場内で右往左往していた"
+      ],
+      "answer": "警告灯が点滅するか点滅しないかのうちに持ち場を離れ、安全区域へ避難した",
+      "explanation": "坂本主任が「警告灯が点滅するか点滅しないかのうちに持ち場を離れ、マニュアル通り安全区域へ避難を完了いたしました」と述べています。",
+      "explanationMy": "သတိပေးမီးလင်းသည်နှင့် မလင်းသေးမီစပ်ကြား မိမိနေရာမှထွက်ခွာကာ ဘေးကင်းရာသို့ ရွှေ့ပြောင်းခဲ့ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l02.q030",
+      "lessonId": "n2.l02",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "松田保安部長がこのインシデント対応に対して下した評価はどれか。",
+      "choices": [
+        "安全装置の作動が遅すぎて危険であった",
+        "対応速度が素晴らしく、混乱もなかった",
+        "作業員の規律が乱れており再訓練が必要である",
+        "工場の操業を長期間停止すべきである"
+      ],
+      "answer": "対応速度が素晴らしく、混乱もなかった",
+      "explanation": "松田保安部長が「素晴らしい対応速度だ」と称賛しています。",
+      "explanationMy": "တုံ့ပြန်မှု အမြန်နှုန်း အလွန်ကောင်းမွန်သည်ဟု ချီးကျူးခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l02.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-04T10:00:00Z",
+    "rev": 2
+  }
+}

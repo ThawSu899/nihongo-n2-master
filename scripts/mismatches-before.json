@@ -1,0 +1,2534 @@
+[
+  {
+    "lessonId": "n5.l02",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l02",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 2.1; N5 Grammar Point 2.2",
+    "packValue": "これ / それ / あれ は [Noun] です; この / その / あの [Noun] は [Person] の です"
+  },
+  {
+    "lessonId": "n5.l03",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l03",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 3.1; N5 Grammar Point 3.2",
+    "packValue": "[Noun] は [Place] です; [Noun] は どこですか"
+  },
+  {
+    "lessonId": "n5.l04",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l04",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 4.1; N5 Grammar Point 4.2",
+    "packValue": "今 [Time] です; [Time/Day] から [Time/Day] まで"
+  },
+  {
+    "lessonId": "n5.l05",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l05",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 5.1; N5 Grammar Point 5.2",
+    "packValue": "[Place] へ 行きます / 来ます / 帰ります; [Transport] で 行きます"
+  },
+  {
+    "lessonId": "n5.l06",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l06",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 6.1; N5 Grammar Point 6.2",
+    "packValue": "[Noun] を [Verb] します; [Place] で [Verb] します"
+  },
+  {
+    "lessonId": "n5.l07",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l07",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 7.1; N5 Grammar Point 7.2",
+    "packValue": "[Tool / Language] で [Action]; [Person] に [Item] を あげます / もらいます"
+  },
+  {
+    "lessonId": "n5.l08",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l08",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 8.1; N5 Grammar Point 8.2",
+    "packValue": "[Noun] は [い-Adj] です / 〜くないです; [Noun] は [な-Adj] です / ではありません"
+  },
+  {
+    "lessonId": "n5.l09",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l09",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 9.1; N5 Grammar Point 9.2",
+    "packValue": "[Noun] が 好きです / 上手です; [Reason sentence] から、[Result sentence]"
+  },
+  {
+    "lessonId": "n5.l10",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l10",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 10.1; N5 Grammar Point 10.2",
+    "packValue": "[Place] に [Thing] が あります / [Person/Animal] が います; [Noun 1] の [Position] に [Noun 2] が あります/います"
+  },
+  {
+    "lessonId": "n5.l11",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l11",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 11.1; N5 Grammar Point 11.2",
+    "packValue": "[Noun] を [Quantity] 買います / 食べます; [Period] に [Times] [Verb]"
+  },
+  {
+    "lessonId": "n5.l12",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l12",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 12.1; N5 Grammar Point 12.2",
+    "packValue": "[い-Adj] かったです / 〜くなかったです; [Noun / な-Adj] でした / 〜ではありませんでした"
+  },
+  {
+    "lessonId": "n5.l13",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l13",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 13.1; N5 Grammar Point 13.2",
+    "packValue": "[A] は [B] より [Adj] です; [Category] の中で [Item] が 一番 [Adj] です"
+  },
+  {
+    "lessonId": "n5.l14",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l14",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 14.1; N5 Grammar Point 14.2",
+    "packValue": "[Noun] が ほしいです / [Verb stem] たいです; [Place] へ [Verb stem / Noun] に 行きます / 来ます"
+  },
+  {
+    "lessonId": "n5.l15",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l15",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 15.1; N5 Grammar Point 15.2",
+    "packValue": "[Verb-te] ください; [Verb-te] います"
+  },
+  {
+    "lessonId": "n5.l16",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l16",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 16.1; N5 Grammar Point 16.2",
+    "packValue": "[Verb-te] も いいですか; [Verb-te] は いけません"
+  },
+  {
+    "lessonId": "n5.l17",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l17",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 17.1; N5 Grammar Point 17.2",
+    "packValue": "[V-te]、[V-te]、それから [Verb]; [Verb-te] から、[Action 2]"
+  },
+  {
+    "lessonId": "n5.l18",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l18",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 18.1; N5 Grammar Point 18.2",
+    "packValue": "[Verb-nai] でください; [Verb-nai] なければなりません"
+  },
+  {
+    "lessonId": "n5.l19",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l19",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 19.1; N5 Grammar Point 19.2",
+    "packValue": "[Verb dict] ことが できます; 私の趣味は [Verb dict] ことです"
+  },
+  {
+    "lessonId": "n5.l20",
+    "field": "vocabCount",
+    "mapValue": "25",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n5.l20",
+    "field": "grammarTopics",
+    "mapValue": "N5 Grammar Point 20.1; N5 Grammar Point 20.2",
+    "packValue": "[Verb-ta] ことが あります; [V1-ta] り、[V2-ta] り します"
+  },
+  {
+    "lessonId": "n5.l21",
+    "field": "status",
+    "mapValue": "reviewed",
+    "packValue": "published"
+  },
+  {
+    "lessonId": "n5.l22",
+    "field": "status",
+    "mapValue": "reviewed",
+    "packValue": "published"
+  },
+  {
+    "lessonId": "n5.l23",
+    "field": "status",
+    "mapValue": "reviewed",
+    "packValue": "published"
+  },
+  {
+    "lessonId": "n5.l24",
+    "field": "status",
+    "mapValue": "reviewed",
+    "packValue": "published"
+  },
+  {
+    "lessonId": "n5.l25",
+    "field": "status",
+    "mapValue": "reviewed",
+    "packValue": "published"
+  },
+  {
+    "lessonId": "n5.l26",
+    "field": "status",
+    "mapValue": "reviewed",
+    "packValue": "published"
+  },
+  {
+    "lessonId": "n5.l27",
+    "field": "status",
+    "mapValue": "reviewed",
+    "packValue": "published"
+  },
+  {
+    "lessonId": "n5.l28",
+    "field": "status",
+    "mapValue": "reviewed",
+    "packValue": "published"
+  },
+  {
+    "lessonId": "n5.l29",
+    "field": "status",
+    "mapValue": "reviewed",
+    "packValue": "published"
+  },
+  {
+    "lessonId": "n5.l30",
+    "field": "status",
+    "mapValue": "reviewed",
+    "packValue": "published"
+  },
+  {
+    "lessonId": "n4.l01",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l01",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l01",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 1.1; N4 Grammar Point 1.2",
+    "packValue": "[Verb Potential Form] (が 話せる / が 読める); 〜が 見える / 〜が 聞こえる"
+  },
+  {
+    "lessonId": "n4.l02",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l02",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l02",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 2.1; N4 Grammar Point 2.2",
+    "packValue": "[Verb Volitional Form] と 思っています; [Verb Dict / Verb-nai] つもりです / [Verb Dict / Noun の] 予定です"
+  },
+  {
+    "lessonId": "n4.l03",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l03",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l03",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 3.1; N4 Grammar Point 3.2",
+    "packValue": "命令形 (走れ / 止めろ) / 禁止形 ([Verb-dict] な); 「〜」と 書いて あります / 「〜」は ... という 意味 です"
+  },
+  {
+    "lessonId": "n4.l04",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l04",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l04",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 4.1; N4 Grammar Point 4.2",
+    "packValue": "[Verb-ば] / [い-adj 〜ければ] / [な-adj/Noun なら(ば)]; [Verb-ば] [Verb-dict] ほど / [い-adj 〜ければ] [い-adj] ほど"
+  },
+  {
+    "lessonId": "n4.l05",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l05",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l05",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 5.1; N4 Grammar Point 5.2",
+    "packValue": "[Noun / Plain Form] なら、〜; 〜たら / 〜ば / 〜と / 〜なら"
+  },
+  {
+    "lessonId": "n4.l06",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l06",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l06",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 6.1; N4 Grammar Point 6.2",
+    "packValue": "[Noun] を 他動詞 (開ける / つける) vs [Noun] が 自動詞 (開く / つく); [Noun] が [Intransitive Verb-te] います"
+  },
+  {
+    "lessonId": "n4.l07",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l07",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l07",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 7.1; N4 Grammar Point 7.2",
+    "packValue": "[Noun] が [Transitive Verb-te] あります; もう [Transitive Verb-te] あります"
+  },
+  {
+    "lessonId": "n4.l08",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l08",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l08",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 8.1; N4 Grammar Point 8.2",
+    "packValue": "[Verb-te] おきます; [Verb-te] しまいました / [Verb-te] しまいます"
+  },
+  {
+    "lessonId": "n4.l09",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l09",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l09",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 9.1; N4 Grammar Point 9.2",
+    "packValue": "[Verb stem / Adj stem] そうです; [Plain Form] そうです"
+  },
+  {
+    "lessonId": "n4.l10",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l10",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l10",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 10.1; N4 Grammar Point 10.2",
+    "packValue": "[A] は [B] に [物] を あげる / くれる / もらう; [Verb-te] あげる / [Verb-te] くれる / [Verb-te] もらう"
+  },
+  {
+    "lessonId": "n4.l11",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l11",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l11",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 11.1; N4 Grammar Point 11.2",
+    "packValue": "[Person A] は [Person B] に [Verb 受身形 (〜られる)]; [Person A] は [Person B] に [Object] を [Verb 受身形 (〜られる)] (迷惑の受け身)"
+  },
+  {
+    "lessonId": "n4.l12",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l12",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l12",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 12.1; N4 Grammar Point 12.2",
+    "packValue": "[Causer] は [Causee] に [Object] を [Verb 使役形 (〜せる/〜させる)]; [Causer] は [Causee] を [Verb 使役形 (〜せる/〜させる)]"
+  },
+  {
+    "lessonId": "n4.l13",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l13",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l13",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 13.1; N4 Grammar Point 13.2",
+    "packValue": "[Subject] は [Agent] に [Verb 使役受身形 (〜させられる / 〜される)]; [Event/Situation] で [Verb 使役受身形 (〜させられた / 考えさせられた)]"
+  },
+  {
+    "lessonId": "n4.l14",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l14",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l14",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 14.1; N4 Grammar Point 14.2",
+    "packValue": "[Honorific Verb: いらっしゃる・召し上がる・おっしゃる・なさる・ご覧になる]; お + [Verb ます-stem] + になる / お + [Verb ます-stem] + ください"
+  },
+  {
+    "lessonId": "n4.l15",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l15",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l15",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 15.1; N4 Grammar Point 15.2",
+    "packValue": "[Humble Verb: 参る・申す・いたす・拝見する・いただく・存じている]; お + [Verb ます-stem] + する / ご + [Noun] + する"
+  },
+  {
+    "lessonId": "n4.l16",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l16",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l16",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 16.1; N4 Grammar Point 16.2",
+    "packValue": "[Plain form] + かもしれない; [Plain form] + はずだ / はずがない"
+  },
+  {
+    "lessonId": "n4.l17",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l17",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l17",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 17.1; N4 Grammar Point 17.2",
+    "packValue": "[Verb Dictionary form / ない form] + ことにする / ことにしている; [Verb Dictionary form / ない form] + ことになる / ことになっている"
+  },
+  {
+    "lessonId": "n4.l18",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l18",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l18",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 18.1; N4 Grammar Point 18.2",
+    "packValue": "[Verb ます-stem / i-adj stem / na-adj stem] + すぎる; [Verb ます-stem] + やすい / にくい"
+  },
+  {
+    "lessonId": "n4.l19",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l19",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l19",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 19.1; N4 Grammar Point 19.2",
+    "packValue": "[Verb Dictionary form (Potential / Intransitive)] + ようになる; [Verb ない-form] (drop い) + くなる (〜なくなる)"
+  },
+  {
+    "lessonId": "n4.l20",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l20",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l20",
+    "field": "grammarTopics",
+    "mapValue": "N4 Grammar Point 20.1; N4 Grammar Point 20.2",
+    "packValue": "[指示語・接続詞による文脈把握: しかし・そのため・それに・これ/それ]; [Plain form] + のではないか / 〜必要がある"
+  },
+  {
+    "lessonId": "n4.l21",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l21",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l22",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l22",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l23",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l23",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l24",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l24",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l25",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l25",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l26",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l26",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l27",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l27",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l28",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l28",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l29",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l29",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n4.l30",
+    "field": "vocabCount",
+    "mapValue": "30",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n4.l30",
+    "field": "kanjiCount",
+    "mapValue": "6",
+    "packValue": "4"
+  },
+  {
+    "lessonId": "n3.l11",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l11",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l11",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 11.1; N3 Grammar Point 11.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l12",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l12",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l12",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 12.1; N3 Grammar Point 12.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l13",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l13",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l13",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 13.1; N3 Grammar Point 13.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l14",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l14",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l14",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 14.1; N3 Grammar Point 14.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l15",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l15",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l15",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 15.1; N3 Grammar Point 15.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l16",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l16",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l16",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 16.1; N3 Grammar Point 16.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l17",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l17",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l17",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 17.1; N3 Grammar Point 17.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l18",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l18",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l18",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 18.1; N3 Grammar Point 18.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l19",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l19",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l19",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 19.1; N3 Grammar Point 19.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l20",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l20",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l20",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 20.1; N3 Grammar Point 20.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l21",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l21",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l21",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 21.1; N3 Grammar Point 21.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l22",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l22",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l22",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 22.1; N3 Grammar Point 22.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l23",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l23",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l23",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 23.1; N3 Grammar Point 23.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l24",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l24",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l24",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 24.1; N3 Grammar Point 24.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l25",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l25",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l25",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 25.1; N3 Grammar Point 25.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l26",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l26",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l26",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 26.1; N3 Grammar Point 26.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l27",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l27",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l27",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 27.1; N3 Grammar Point 27.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l28",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l28",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l28",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 28.1; N3 Grammar Point 28.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l29",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l29",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l29",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 29.1; N3 Grammar Point 29.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l30",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l30",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l30",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 30.1; N3 Grammar Point 30.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l31",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l31",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l31",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 31.1; N3 Grammar Point 31.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l32",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l32",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l32",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 32.1; N3 Grammar Point 32.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l33",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l33",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l33",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 33.1; N3 Grammar Point 33.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l34",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l34",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l34",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 34.1; N3 Grammar Point 34.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l35",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l35",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l35",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 35.1; N3 Grammar Point 35.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l36",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l36",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l36",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 36.1; N3 Grammar Point 36.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l37",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l37",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l37",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 37.1; N3 Grammar Point 37.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l38",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l38",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l38",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 38.1; N3 Grammar Point 38.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l39",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l39",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l39",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 39.1; N3 Grammar Point 39.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l40",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l40",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l40",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 40.1; N3 Grammar Point 40.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l41",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l41",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l41",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 41.1; N3 Grammar Point 41.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l42",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l42",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l42",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 42.1; N3 Grammar Point 42.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l43",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l43",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l43",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 43.1; N3 Grammar Point 43.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l44",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l44",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l44",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 44.1; N3 Grammar Point 44.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l45",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l45",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l45",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 45.1; N3 Grammar Point 45.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l46",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l46",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l46",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 46.1; N3 Grammar Point 46.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l47",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l47",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l47",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 47.1; N3 Grammar Point 47.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n3.l48",
+    "field": "vocabCount",
+    "mapValue": "45",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n3.l48",
+    "field": "kanjiCount",
+    "mapValue": "8",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n3.l48",
+    "field": "grammarTopics",
+    "mapValue": "N3 Grammar Point 48.1; N3 Grammar Point 48.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l01",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l01",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l01",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 1.1; N2 Grammar Point 1.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l02",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l02",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l02",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 2.1; N2 Grammar Point 2.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l03",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l03",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l03",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 3.1; N2 Grammar Point 3.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l04",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l04",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l04",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 4.1; N2 Grammar Point 4.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l05",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l05",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l05",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 5.1; N2 Grammar Point 5.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l06",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l06",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l06",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 6.1; N2 Grammar Point 6.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l07",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l07",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l07",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 7.1; N2 Grammar Point 7.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l08",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l08",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l08",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 8.1; N2 Grammar Point 8.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l09",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l09",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l09",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 9.1; N2 Grammar Point 9.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l10",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l10",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l10",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 10.1; N2 Grammar Point 10.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l11",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l11",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l11",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 11.1; N2 Grammar Point 11.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l12",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l12",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l12",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 12.1; N2 Grammar Point 12.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l13",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l13",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l13",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 13.1; N2 Grammar Point 13.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l14",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l14",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l14",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 14.1; N2 Grammar Point 14.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l15",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l15",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l15",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 15.1; N2 Grammar Point 15.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l16",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l16",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l16",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 16.1; N2 Grammar Point 16.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l17",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l17",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l17",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 17.1; N2 Grammar Point 17.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l18",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l18",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l18",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 18.1; N2 Grammar Point 18.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l19",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l19",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l19",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 19.1; N2 Grammar Point 19.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l20",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l20",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l20",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 20.1; N2 Grammar Point 20.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l21",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l21",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l21",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 21.1; N2 Grammar Point 21.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l22",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l22",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l22",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 22.1; N2 Grammar Point 22.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l23",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l23",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l23",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 23.1; N2 Grammar Point 23.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l24",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l24",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l24",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 24.1; N2 Grammar Point 24.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l25",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l25",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l25",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 25.1; N2 Grammar Point 25.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l26",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l26",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l26",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 26.1; N2 Grammar Point 26.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l27",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l27",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l27",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 27.1; N2 Grammar Point 27.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l28",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l28",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l28",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 28.1; N2 Grammar Point 28.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l29",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l29",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l29",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 29.1; N2 Grammar Point 29.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l30",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l30",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l30",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 30.1; N2 Grammar Point 30.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l31",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l31",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l31",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 31.1; N2 Grammar Point 31.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l32",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l32",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l32",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 32.1; N2 Grammar Point 32.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l33",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l33",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l33",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 33.1; N2 Grammar Point 33.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l34",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l34",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l34",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 34.1; N2 Grammar Point 34.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l35",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l35",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l35",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 35.1; N2 Grammar Point 35.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l36",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l36",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l36",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 36.1; N2 Grammar Point 36.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l37",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l37",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l37",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 37.1; N2 Grammar Point 37.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l38",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l38",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l38",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 38.1; N2 Grammar Point 38.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l39",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l39",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l39",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 39.1; N2 Grammar Point 39.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l40",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l40",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l40",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 40.1; N2 Grammar Point 40.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l41",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l41",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l41",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 41.1; N2 Grammar Point 41.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l42",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l42",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l42",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 42.1; N2 Grammar Point 42.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l43",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l43",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l43",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 43.1; N2 Grammar Point 43.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l44",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l44",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l44",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 44.1; N2 Grammar Point 44.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l45",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l45",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l45",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 45.1; N2 Grammar Point 45.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l46",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l46",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l46",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 46.1; N2 Grammar Point 46.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l47",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l47",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l47",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 47.1; N2 Grammar Point 47.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l48",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l48",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l48",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 48.1; N2 Grammar Point 48.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l49",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l49",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l49",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 49.1; N2 Grammar Point 49.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l50",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l50",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l50",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 50.1; N2 Grammar Point 50.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l51",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l51",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l51",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 51.1; N2 Grammar Point 51.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l52",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l52",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l52",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 52.1; N2 Grammar Point 52.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l53",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l53",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l53",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 53.1; N2 Grammar Point 53.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l54",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l54",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l54",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 54.1; N2 Grammar Point 54.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l55",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l55",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l55",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 55.1; N2 Grammar Point 55.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l56",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l56",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l56",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 56.1; N2 Grammar Point 56.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l57",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l57",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l57",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 57.1; N2 Grammar Point 57.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l58",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l58",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l58",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 58.1; N2 Grammar Point 58.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l59",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l59",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l59",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 59.1; N2 Grammar Point 59.2",
+    "packValue": "X を Y します; X で Y します"
+  },
+  {
+    "lessonId": "n2.l60",
+    "field": "vocabCount",
+    "mapValue": "60",
+    "packValue": "12"
+  },
+  {
+    "lessonId": "n2.l60",
+    "field": "kanjiCount",
+    "mapValue": "10",
+    "packValue": "3"
+  },
+  {
+    "lessonId": "n2.l60",
+    "field": "grammarTopics",
+    "mapValue": "N2 Grammar Point 60.1; N2 Grammar Point 60.2",
+    "packValue": "X を Y します; X で Y します"
+  }
+]

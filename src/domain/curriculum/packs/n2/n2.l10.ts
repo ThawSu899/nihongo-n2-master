@@ -1,0 +1,1719 @@
+import { LessonPack } from '../../../models/types';
+
+export const n2l10Data: LessonPack = {
+  "id": "n2.l10",
+  "level": "N2",
+  "module": "N2 Advanced Grammar & Argumentation",
+  "number": 10,
+  "title": "N2 Lesson 10: Scope, Invariance & Contrast (〜を問わず・〜にもかかわらず・〜わりに)",
+  "description": "Mastery module focusing on Scope, Invariance, and Objective Contrast: universal applicability (を問わず), contradictory defiance (にもかかわらず), and disproportionate evaluation (わりに).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-10-22T10:00:00Z",
+    "rev": 2
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l10.v001",
+      "lessonId": "n2.l10",
+      "ja": "問わず",
+      "kana": "とわず",
+      "en": "Regardless of / Irrespective of / Without distinction",
+      "my": "မခွဲခြားဘဲ / မည်သည့်အရာမဆို / မသက်ဆိုင်ဘဲ",
+      "meaningMyanmar": "မခွဲခြားဘဲ / မည်သည့်အရာမဆို / မသက်ဆိုင်ဘဲ",
+      "meaningMy": "မခွဲခြားဘဲ / မည်သည့်အရာမဆို / မသက်ဆိုင်ဘဲ",
+      "pos": "adverb",
+      "exampleSentenceId": "n2.l10.s001",
+      "kanjiIds": [
+        "n2.l10.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.v002",
+      "lessonId": "n2.l10",
+      "ja": "承諾",
+      "kana": "しょうだく",
+      "en": "Consent / Acceptance / Agreement",
+      "my": "သဘောတူလက်ခံခြင်း / သဘောတူညီချက်",
+      "meaningMyanmar": "သဘောတူလက်ခံခြင်း / သဘောတူညီချက်",
+      "meaningMy": "သဘောတူလက်ခံခြင်း / သဘောတူညီချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s002",
+      "kanjiIds": [
+        "n2.l10.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.v003",
+      "lessonId": "n2.l10",
+      "ja": "割合",
+      "kana": "わりあい",
+      "en": "Ratio / Proportion / Comparatively",
+      "my": "အချိုးအစား / နှိုင်းယှဉ်ချက်အရ မထင်မှတ်လောက်အောင်",
+      "meaningMyanmar": "အချိုးအစား / နှိုင်းယှဉ်ချက်အရ မထင်မှတ်လောက်အောင်",
+      "meaningMy": "အချိုးအစား / နှိုင်းယှဉ်ချက်အရ မထင်မှတ်လောက်အောင်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s003",
+      "kanjiIds": [
+        "n2.l10.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.v004",
+      "lessonId": "n2.l10",
+      "ja": "不屈",
+      "kana": "ふくつ",
+      "en": "Indomitable / Unyielding / Tenacious",
+      "my": "ဇွဲမလျှော့သော / မဆုတ်မနစ်သော",
+      "meaningMyanmar": "ဇွဲမလျှော့သော / မဆုတ်မနစ်သော",
+      "meaningMy": "ဇွဲမလျှော့သော / မဆုတ်မနစ်သော",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s002",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.v005",
+      "lessonId": "n2.l10",
+      "ja": "資格",
+      "kana": "しかく",
+      "en": "Qualification / Requirement / Certification",
+      "my": "အရည်အချင်း / လုပ်ပိုင်ခွင့် / လက်မှတ်",
+      "meaningMyanmar": "အရည်အချင်း / လုပ်ပိုင်ခွင့် / လက်မှတ်",
+      "meaningMy": "အရည်အချင်း / လုပ်ပိုင်ခွင့် / လက်မှတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.v006",
+      "lessonId": "n2.l10",
+      "ja": "経歴",
+      "kana": "けいれき",
+      "en": "Career background / Professional history",
+      "my": "လုပ်ငန်းအတွေ့အကြုံ / ကိုယ်ရေးရာဇဝင်",
+      "meaningMyanmar": "လုပ်ငန်းအတွေ့အကြုံ / ကိုယ်ရေးရာဇဝင်",
+      "meaningMy": "လုပ်ငန်းအတွေ့အကြုံ / ကိုယ်ရေးရာဇဝင်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s004",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.v007",
+      "lessonId": "n2.l10",
+      "ja": "相応",
+      "kana": "そうおう",
+      "en": "Appropriate / Befitting / Suitable / Commensurate",
+      "my": "သင့်တင့်လျောက်ပတ်သော / ကိုက်ညီသော",
+      "meaningMyanmar": "သင့်တင့်လျောက်ပတ်သော / ကိုက်ညီသော",
+      "meaningMy": "သင့်တင့်လျောက်ပတ်သော / ကိုက်ညီသော",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l10.s005",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.v008",
+      "lessonId": "n2.l10",
+      "ja": "偏り",
+      "kana": "かたより",
+      "en": "Bias / Imbalance / Disproportion",
+      "my": "တစ်ဖက်စောင်းနင်းဖြစ်မှု / မညီမမျှဖြစ်ခြင်း",
+      "meaningMyanmar": "တစ်ဖက်စောင်းနင်းဖြစ်မှု / မညီမမျှဖြစ်ခြင်း",
+      "meaningMy": "တစ်ဖက်စောင်းနင်းဖြစ်မှု / မညီမမျှဖြစ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s005",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.v009",
+      "lessonId": "n2.l10",
+      "ja": "悪天候",
+      "kana": "あくてんこう",
+      "en": "Bad weather / Adverse conditions",
+      "my": "ဆိုးရွားသော ရာသီဥတု",
+      "meaningMyanmar": "ဆိုးရွားသော ရာသီဥတု",
+      "meaningMy": "ဆိုးရွားသော ရာသီဥတု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s006",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.v010",
+      "lessonId": "n2.l10",
+      "ja": "奮闘",
+      "kana": "ふんとう",
+      "en": "Strenuous effort / Hard struggle / Fighting hard",
+      "my": "ကြိုးပမ်းအားထုတ်ခြင်း / အပြင်းအထန် ရုန်းကန်ခြင်း",
+      "meaningMyanmar": "ကြိုးပမ်းအားထုတ်ခြင်း / အပြင်းအထန် ရုန်းကန်ခြင်း",
+      "meaningMy": "ကြိုးပမ်းအားထုတ်ခြင်း / အပြင်းအထန် ရုန်းကန်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s006",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.v011",
+      "lessonId": "n2.l10",
+      "ja": "格安",
+      "kana": "かくやす",
+      "en": "Bargain / Specially economical / Very cheap",
+      "my": "အထူးသက်သာသော ဈေးနှုန်း / ချိုသာသော",
+      "meaningMyanmar": "အထူးသက်သာသော ဈေးနှုန်း / ချိုသာသော",
+      "meaningMy": "အထူးသက်သာသော ဈေးနှုန်း / ချိုသာသော",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l10.s003",
+      "kanjiIds": [
+        "n2.l10.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.v012",
+      "lessonId": "n2.l10",
+      "ja": "意気込み",
+      "kana": "いきごみ",
+      "en": "Enthusiasm / Ardor / High spirits / Determination",
+      "my": "စိတ်အားထက်သန်မှု / သန္နိဋ္ဌာန်စိတ်",
+      "meaningMyanmar": "စိတ်အားထက်သန်မှု / သန္နိဋ္ဌာန်စိတ်",
+      "meaningMy": "စိတ်အားထက်သန်မှု / သန္နိဋ္ဌာန်စိတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l10.s004",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l10.k001",
+      "lessonId": "n2.l10",
+      "char": "問",
+      "meaning": "Inquire / Question / Problem",
+      "meaningMyanmar": "မေးမြန်းခြင်း / မခွဲခြားဘဲ",
+      "onyomi": [
+        "モン"
+      ],
+      "kunyomi": [
+        "と"
+      ],
+      "exampleVocab": [
+        {
+          "word": "問わず",
+          "reading": "とわず",
+          "meaning": "regardless of",
+          "preview": false
+        },
+        {
+          "word": "設問",
+          "reading": "せつもん",
+          "meaning": "question / test item",
+          "preview": false
+        },
+        {
+          "word": "疑問",
+          "reading": "ぎもん",
+          "meaning": "doubt / question",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l10.s001",
+        "n2.l10.s004"
+      ],
+      "components": [
+        "門",
+        "口"
+      ],
+      "strokes": 11,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      },
+      "meaningMy": "မေးမြန်းခြင်း / မခွဲခြားဘဲ"
+    },
+    {
+      "id": "n2.l10.k002",
+      "lessonId": "n2.l10",
+      "char": "割",
+      "meaning": "Divide / Proportion / Comparatively",
+      "meaningMyanmar": "ခွဲခြမ်းစိတ်ဖြာခြင်း / အချိုးအစား / အချိုးမညီခြင်း",
+      "onyomi": [
+        "カツ"
+      ],
+      "kunyomi": [
+        "わ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "わりに",
+          "reading": "わりに",
+          "meaning": "considering that / comparatively",
+          "preview": false
+        },
+        {
+          "word": "割合",
+          "reading": "わりあい",
+          "meaning": "ratio / proportion",
+          "preview": false
+        },
+        {
+          "word": "格安",
+          "reading": "かくやす",
+          "meaning": "bargain price",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l10.s003",
+        "n2.l10.s005"
+      ],
+      "components": [
+        "害",
+        "刂"
+      ],
+      "strokes": 12,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      },
+      "meaningMy": "ခွဲခြမ်းစိတ်ဖြာခြင်း / အချိုးအစား / အချိုးမညီခြင်း"
+    },
+    {
+      "id": "n2.l10.k003",
+      "lessonId": "n2.l10",
+      "char": "諾",
+      "meaning": "Consent / Agreement / Compliance",
+      "meaningMyanmar": "လက်ခံသဘောတူခြင်း / ခွင့်ပြုချက်",
+      "onyomi": [
+        "ダク"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "承諾",
+          "reading": "しょうだく",
+          "meaning": "consent / agreement",
+          "preview": false
+        },
+        {
+          "word": "応諾",
+          "reading": "おうだく",
+          "meaning": "acceptance / consent",
+          "preview": false
+        },
+        {
+          "word": "快諾",
+          "reading": "かいだく",
+          "meaning": "readily consenting",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l10.s002",
+        "n2.l10.s006"
+      ],
+      "components": [
+        "言",
+        "若"
+      ],
+      "strokes": 15,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      },
+      "meaningMy": "လက်ခံသဘောတူခြင်း / ခွင့်ပြုချက်"
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l10.g001",
+      "lessonId": "n2.l10",
+      "pattern": "〜を問わず",
+      "meaning": "Regardless of / Without distinction of / Irrespective of",
+      "formation": "名詞 ＋ を問わず",
+      "explanation": {
+        "en": "Signifies that a rule, condition, or opportunity applies universally without being constrained by categories (age, gender, nationality, experience). Often paired with binary pairs or broad range nouns.",
+        "my": "အသက်အရွယ်၊ ကျားမ၊ နိုင်ငံသား၊ အတွေ့အကြုံ စသည်တို့ကို မခွဲခြားဘဲ အားလုံးနှင့် အညီအမျှ သက်ဆိုင်ကြောင်း ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l10.s001",
+          "note": "Universal recruitment policy irrespective of credentials"
+        },
+        {
+          "sentenceId": "n2.l10.s004",
+          "note": "Continuous labor unconstrained by day or night"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l10.g002"
+      ],
+      "commonMistakes": [
+        "Typically attaches to nouns indicating opposing concepts (昼夜, 男女, 内外) or diverse scopes (年齢, 国籍, 経験の有無)."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "当社の採用試験は、学歴や年齢[ _____ ]、意欲と実力を持つ人材を広く求めている。",
+      "clozeTarget": "を問わず",
+      "clozeHint": "Noun + を問わず (universal application: 'regardless of / irrespective of')",
+      "acceptableSynonyms": [
+        "にかかわらず",
+        "によらず",
+        "を問題にせず"
+      ],
+      "nuanceExplanationMy": "「〜を問わず」သည် အသက်၊ ကျားမ၊ အတွေ့အကြုံရှိမရှိ စသည့် ဆန့်ကျင်ဘက် အစုံစကားလုံးများနှင့် တွဲဖက်သုံးလေ့ရှိပြီး စည်းမျဉ်းသတ်မှတ်ချက် မခွဲခြားကြောင်း ပြဆိုသည်။"
+    },
+    {
+      "id": "n2.l10.g002",
+      "lessonId": "n2.l10",
+      "pattern": "〜にもかかわらず",
+      "meaning": "Despite / In spite of / Nevertheless / Although",
+      "formation": "名詞・動詞・形容詞普通形 ＋ にもかかわらず（名詞・な形容詞 ＋ である にもかかわらず も可、だは省く）",
+      "explanation": {
+        "en": "Highlights an actual outcome that completely contradicts or defies what would normally be expected from preceding conditions or obstacles.",
+        "my": "ထိုသို့သော အခက်အခဲ သို့မဟုတ် အခြေအနေ ရှိနေပါသော်လည်း မျှော်လင့်ထားသည်နှင့် ဆန့်ကျင်ဘက် ရလဒ် ဖြစ်ပေါ်လာသည်ကို အံ့အားသင့်ဖွယ် ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l10.s002",
+          "note": "Defying repeated warnings and causing incidents"
+        },
+        {
+          "sentenceId": "n2.l10.s005",
+          "note": "Failing to reform despite medical counsel"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l10.g003"
+      ],
+      "commonMistakes": [
+        "Do not insert だ directly before にもかかわらず with nouns or na-adjectives (use 名詞にもかかわらず or 名詞であるにもかかわらず)."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "事前の厳しい警告[ _____ ]、安全規則を軽視した結果として重大事故が発生した。",
+      "clozeTarget": "にもかかわらず",
+      "clozeHint": "Noun / Plain form + にもかかわらず (defiant contradictory contrast: 'despite / in spite of')",
+      "acceptableSynonyms": [
+        "のに",
+        "ながらも",
+        "にもかかわりなく"
+      ],
+      "nuanceExplanationMy": "「〜にもかかわらず」သည် မျှော်လင့်ထားသည့် အခြေအနေနှင့် ဆန့်ကျင်ဘက် ဖြစ်ပေါ်လာသည့်အခါ သုံးပြီး စာရေးသူ၏ အံ့အားသင့်မှု သို့မဟုတ် မကျေနပ်မှုကို ဖော်ပြသည်။"
+    },
+    {
+      "id": "n2.l10.g003",
+      "lessonId": "n2.l10",
+      "pattern": "〜わりに",
+      "meaning": "Considering that ... / Relative to ... / For a ... / In proportion to",
+      "formation": "名詞＋の / 動詞・形容詞普通形 ＋ わりに（は）",
+      "explanation": {
+        "en": "Evaluates an outcome or quality that diverges substantially from the expected standard typically associated with that price, age, effort, or category.",
+        "my": "ဈေးနှုန်း၊ အသက်အရွယ်၊ အတွေ့အကြုံ စသည်နှင့် ယှဉ်လျှင် မထင်မှတ်လောက်အောင် ကွာဟနေသည်ဟု သုံးသပ်ရာတွင် သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l10.s003",
+          "note": "High performance relative to an economical price"
+        },
+        {
+          "sentenceId": "n2.l10.s006",
+          "note": "Fluency disproportionate to short study duration"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l10.g001",
+        "n2.l10.g002"
+      ],
+      "commonMistakes": [
+        "When attaching to a noun, the particle の is mandatory: 値段のわりに (not 値段わりに)."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "この最新型ノートパソコンは、格安な値段の[ _____ ]、性能が極めて優れている。",
+      "clozeTarget": "わりに",
+      "clozeHint": "Noun + の / Plain form + わりに (disproportionate comparison: 'considering that...')",
+      "acceptableSynonyms": [
+        "にしては",
+        "わりには",
+        "の割には"
+      ],
+      "nuanceExplanationMy": "「〜わりに（は）」သည် ဈေးနှုန်း သို့မဟုတ် အသက်အရွယ်နှင့် မလိုက်အောင် မထင်မှတ်လောက်သော ရလဒ် ဖြစ်နေသည်ဟု သုံးသပ်ရာတွင် အသုံးပြုသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l10.s001",
+      "lessonId": "n2.l10",
+      "ja": "当社の採用試験は、学歴や年齢を問わず、意欲と実力を持つ人材を広く求めている。",
+      "kana": "とうしゃのさいようしけんは、がくれきやねんれいをとわず、いよくとじつりょくをもつじんざいをひろくもとめている。",
+      "translation": {
+        "en": "Our company's recruitment examinations seek talent widely based on drive and real ability, regardless of academic background or age.",
+        "my": "ကျွန်ုပ်တို့ကုမ္ပဏီ၏ ဝန်ထမ်းခေါ်ယူရေး စာမေးပွဲသည် ပညာအရည်အချင်းနှင့် အသက်အရွယ်ကို မခွဲခြားဘဲ စိတ်အားထက်သန်မှုနှင့် စစ်မှန်သော အရည်အချင်းရှိသည့် လူရည်ချွန်များကို ကျယ်ကျယ်ပြန့်ပြန့် ရှာဖွေလျက်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v001",
+        "n2.l10.v005"
+      ],
+      "grammarIds": [
+        "n2.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.s002",
+      "lessonId": "n2.l10",
+      "ja": "事前の厳しい警告にもかかわらず、安全規則を軽視した結果として重大事故が発生した。",
+      "kana": "じぜんのきびしいけいこくにもかかわらず、あんぜんきそくをけいししたけっかとしてじゅうだいじこがはっせいした。",
+      "translation": {
+        "en": "Despite severe advance warnings, a catastrophic incident occurred as a consequence of disregarding safety protocols.",
+        "my": "ကြိုတင် ပြင်းထန်သော သတိပေးချက်များ ရှိခဲ့လင့်ကစား ဘေးကင်းလုံခြုံရေး စည်းမျဉ်းများကို ပေါ့ဆခဲ့သည့် ရလဒ်အဖြစ် ကြီးမားသော မတော်တဆမှု ဖြစ်ပွားခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v002",
+        "n2.l10.v004"
+      ],
+      "grammarIds": [
+        "n2.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.s003",
+      "lessonId": "n2.l10",
+      "ja": "この最新型ノートパソコンは、格安な値段のわりに性能が極めて優れている。",
+      "kana": "このさいしんがたのーとぱそこんは、かくやすなねだんのわりにせいのうがきわめてすぐれている。",
+      "translation": {
+        "en": "Considering its specially discounted price, this latest laptop model delivers exceptionally superior performance.",
+        "my": "ဤနောက်ဆုံးပေါ် လက်ပ်တော့သည် အထူးချိုသာသော ဈေးနှုန်းနှင့် ယှဉ်လျှင် စွမ်းဆောင်ရည် အလွန်အမင်း ထူးကဲကောင်းမွန်လှသည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v003",
+        "n2.l10.v011"
+      ],
+      "grammarIds": [
+        "n2.l10.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.s004",
+      "lessonId": "n2.l10",
+      "ja": "昼夜を問わず働き続けたスタッフの奮闘によって、厳しい納期に間に合わせることができた。",
+      "kana": "ちゅうやをとわずはたらきつづけたすたっふのふんとうによって、きびしいのうきにまにあわせることができた。",
+      "translation": {
+        "en": "Thanks to the strenuous dedication of staff members working continuously regardless of day or night, we met the tight deadline.",
+        "my": "နေ့ညမခွဲခြားဘဲ အားသွန်ခွန်စိုက် ကြိုးပမ်းလုပ်ဆောင်ခဲ့ကြသော ဝန်ထမ်းများ၏ စွမ်းဆောင်မှုကြောင့် တင်းကျပ်သော သတ်မှတ်ရက်ကို အချိန်မီ အပြီးသတ်နိုင်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v001",
+        "n2.l10.v006",
+        "n2.l10.v010"
+      ],
+      "grammarIds": [
+        "n2.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.s005",
+      "lessonId": "n2.l10",
+      "ja": "主治医の厳重な忠告を受けたにもかかわらず、生活習慣を改めようとしないのは深刻な問題だ。",
+      "kana": "しゅじいのげんじゅうなちゅうこくをうけたにもかかわらず、せいかつしゅうかんをあらためようとしないのはしんこくなもんだいだ。",
+      "translation": {
+        "en": "Despite receiving stern admonitions from the attending physician, refusing to correct one's lifestyle habits is a grave concern.",
+        "my": "ကုသပေးသော ဆရာဝန်ကြီး၏ တင်းကျပ်သော သတိပေးချက်ကို ခံယူခဲ့ရလင့်ကစား နေထိုင်မှုအလေ့အထကို ပြုပြင်ရန် မကြိုးစားခြင်းသည် ကြီးလေးသော ပြဿနာဖြစ်သည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v007",
+        "n2.l10.v008"
+      ],
+      "grammarIds": [
+        "n2.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.s006",
+      "lessonId": "n2.l10",
+      "ja": "彼は日本語を勉強し始めてまだ半年であるわりに、流暢な発音で自分の意見を述べられる。",
+      "kana": "かれはにほんごをべんきょうしはじめてまだはんとしであるわりに、りゅうちょうなはつおんでじぶんのいけんをのべられる。",
+      "translation": {
+        "en": "Considering that he started studying Japanese only six months ago, he expresses his opinions with remarkably fluent pronunciation.",
+        "my": "သူသည် ဂျပန်စာ စတင်လေ့လာခဲ့သည်မှာ ၆ လသာ ရှိသေးသည်နှင့် ယှဉ်လျှင် သွက်လက်သော အသံထွက်ဖြင့် မိမိ၏ အမြင်ကို ထုတ်ဖော်ပြောဆိုနိုင်သည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v003",
+        "n2.l10.v012"
+      ],
+      "grammarIds": [
+        "n2.l10.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.s007",
+      "lessonId": "n2.l10",
+      "ja": "この地域ボランティアは、経験の有無を問わず誰でも気軽に参加できる仕組みになっている。",
+      "kana": "このちいきぼらんてぃあは、けいけんのうむをとわずだれでもきがるにさんかできるしくみになっている。",
+      "translation": {
+        "en": "This local volunteer program is structured so that anyone can participate casually, regardless of whether they have experience.",
+        "my": "ဤဒေသန္တရ ပရဟိတလုပ်ငန်းသည် အတွေ့အကြုံ ရှိသည်ဖြစ်စေ မရှိသည်ဖြစ်စေ မည်သူမဆို လွတ်လပ်ပေါ့ပါးစွာ ပါဝင်နိုင်သော စနစ်ဖြင့် ဖွဲ့စည်းထားသည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v001",
+        "n2.l10.v005"
+      ],
+      "grammarIds": [
+        "n2.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.s008",
+      "lessonId": "n2.l10",
+      "ja": "十分な準備期間があったにもかかわらず、予期せぬ技術的トラブルにより公開が延期された。",
+      "kana": "じゅうぶんなじゅんびきかんがあったにもかかわらず、よきせぬぎじゅつてきとらぶるによりこうかいがえんきされた。",
+      "translation": {
+        "en": "Despite having had an ample preparation period, the release was postponed owing to unexpected technical issues.",
+        "my": "လုံလောက်သော ပြင်ဆင်ချိန် ရရှိခဲ့ပါသော်လည်း မမျှော်လင့်ထားသော နည်းပညာဆိုင်ရာ အခက်အခဲများကြောင့် မိတ်ဆက်ခြင်းကို ရက်ရွှေ့ဆိုင်းခဲ့ရသည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v002",
+        "n2.l10.v008"
+      ],
+      "grammarIds": [
+        "n2.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.s009",
+      "lessonId": "n2.l10",
+      "ja": "祖父は高齢であるわりに足腰が非常に丈夫で、毎朝５キロの散歩を欠かさず続けている。",
+      "kana": "そふはこうれいであるわりにあしこしがひじょうにじょうぶで、まいあさごきろのさんぽをかかさずつづけている。",
+      "translation": {
+        "en": "Considering his advanced age, my grandfather is remarkably robust and continues his daily 5-kilometer morning walk without fail.",
+        "my": "အဘိုးသည် သက်ကြီးရွယ်အို ဖြစ်သည်နှင့် ယှဉ်လျှင် ကိုယ်လက်ကြံ့ခိုင်မှု အလွန်ကောင်းမွန်ပြီး နေ့စဉ် နံနက်တိုင်း ၅ ကီလိုမီတာ လမ်းလျှောက်ခြင်းကို မပျက်မကွက် ပြုလုပ်လျက်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v003",
+        "n2.l10.v007"
+      ],
+      "grammarIds": [
+        "n2.l10.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.s010",
+      "lessonId": "n2.l10",
+      "ja": "国内外を問わず多くの愛好家から支持される、伝統工芸の価値を次世代へと継承したい。",
+      "kana": "こくないがいをとわずおおくのあいこうかからしじされる、でんとうこうげいのかちをつぎのせだいへとけいしょうしたい。",
+      "translation": {
+        "en": "Supported by numerous connoisseurs regardless of domestic or overseas origin, we wish to pass the value of traditional craft to the next generation.",
+        "my": "ပြည်တွင်းပြည်ပ မခွဲခြားဘဲ ဝါသနာရှင် အမြောက်အမြား၏ အားပေးထောက်ခံမှုကို ရရှိထားသော ရိုးရာလက်မှုပညာ၏ တန်ဖိုးကို မျိုးဆက်သစ်ထံသို့ လက်ဆင့်ကမ်းလိုပါသည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v001",
+        "n2.l10.v012"
+      ],
+      "grammarIds": [
+        "n2.l10.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.s011",
+      "lessonId": "n2.l10",
+      "ja": "悪天候による激しい風雨にもかかわらず、全選手が最後まで不屈の闘志で走り抜いた。",
+      "kana": "あくてんこうによるはげしいふううにもかかわらず、ぜんせんしゅがさいごまでふくつのとうしではしりぬいた。",
+      "translation": {
+        "en": "Despite severe gale and rain from adverse weather, all runners persevered to the finish line with indomitable fighting spirit.",
+        "my": "ဆိုးရွားသော ရာသီဥတုကြောင့် လေပြင်းမိုးသည်းထန်စွာ ကျရောက်နေလင့်ကစား အားကစားသမား အားလုံးသည် မဆုတ်မနစ်သော ဇွဲသတ္တိဖြင့် အဆုံးတိုင် အောင်မြင်စွာ ပြေးနိုင်ခဲ့ကြသည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v004",
+        "n2.l10.v009",
+        "n2.l10.v010"
+      ],
+      "grammarIds": [
+        "n2.l10.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l10.s012",
+      "lessonId": "n2.l10",
+      "ja": "手頃な価格のわりに高級感のある質感で、若者世代を中心に爆発的なヒットを記録した。",
+      "kana": "てごろなかかくのわりにはこうきゅうかんのあるしつかんで、わかものせだいをちゅうしんにばくはつてきなひっとをきろくした。",
+      "translation": {
+        "en": "Considering its affordable price, it boasts a remarkably luxurious texture and recorded an explosive hit, primarily among youth.",
+        "my": "သင့်တင့်သော ဈေးနှုန်းနှင့် ယှဉ်လျှင် အဆင့်မြင့်ခံစားချက်ရှိသော အရည်အသွေးကြောင့် လူငယ်မျိုးဆက်ကို အဓိကထား၍ အထူးရေပန်းစား အောင်မြင်မှု ရရှိခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n2.l10.v003",
+        "n2.l10.v011"
+      ],
+      "grammarIds": [
+        "n2.l10.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l10.r001",
+    "lessonId": "n2.l10",
+    "title": "成果主義と多様性の受容 (ရလဒ်အခြေပြုစနစ်နှင့် မတူကွဲပြားမှုကို လက်ခံခြင်း)",
+    "level": "N2",
+    "text": "グローバル化が進展する現代ビジネスにおいて、旧来の年功序列制から脱却し、年齢や国籍を問わず実力本位で登用する動きが加速している。かつては学歴や勤続年数のみが重視されていたにもかかわらず、現在では個人の具体的な成果や組織への貢献度が評価の核心となっている。新卒社員であっても相応の実績を挙げれば重要なポジションに抜擢される一方で、豊富な経験を持つベテランのわりに柔軟な思考が伴わない人材は厳しい評価を受けることもある。しかし、過度な実力主義は社内の不健全な対立や偏りを招きかねない。成果を求めることと、多様な価値観を持つ人々が安心して協働できる包摂的な環境を両立させることこそが、組織の真の強さを生むのである。",
+    "kanaText": "ぐろーばるかがしんてんするげんだいびじねすにおいて、きゅうらいのねんこうじょれつせいからだっきゃくし、ねんれいやこくせきをとわずじつりょくほんいでとうようするうごきがかそくしている。かつてはがくれきやきんぞくねんすうのみがじゅうしされていたにもかかわらず、げんざいではこじんのぐたいてきなせいかやそしきへのこうけんどがひょうかのかくしんとなっている。しんそつしゃいんであってもそうおうのじっせきをあげればじゅうようなぽじしょんにばってきされるいっぽうで、ほうふなけいけんをもつべてらんのわりにじゅうなんなしこうがともなわないじんざいはきびしいひょうかをうけることもある。しかし、かどなじつりょくしゅぎはしゃないのふけんぜんなたいりつやかたよりをまねきかねない。せいかをもとめることと、たようなかちかんをもつひとびとがあんしんしてきょうどうできるほうせつてきなかんきょうをりょうりつさせることこそが、そしきのしんのつよさをうむのである。",
+    "translation": "ကမ္ဘာ့ရွာသဘော တိုးတက်လာသော ယနေ့ခေတ် စီးပွားရေးလောကတွင် ရှေးရိုး လုပ်သက်စဉ်ဆက်စနစ်မှ ခွဲထွက်ကာ အသက်အရွယ်နှင့် နိုင်ငံသားကို မခွဲခြားဘဲ (問わず) စွမ်းဆောင်ရည်အပေါ် အခြေခံ၍ ရာထူးတိုးမြှင့်ပေးသည့် လှုပ်ရှားမှုသည် အရှိန်ရလာခဲ့သည်။ အတိတ်က ပညာအရည်အချင်းနှင့် လုပ်သက်နှစ်အရေအတွက်ကိုသာ ဦးစားပေးခဲ့ကြလင့်ကစား (にもかかわらず) ယခုအခါတွင် တစ်ဦးချင်းစီ၏ လက်တွေ့ကျသော ရလဒ်များနှင့် အဖွဲ့အစည်းအပေါ် အကျိုးပြုမှုသည် အကဲဖြတ်ခြင်း၏ အဓိက သော့ချက် ဖြစ်လာခဲ့သည်။ ကျောင်းပြီးခါစ ဝန်ထမ်းသစ် ဖြစ်စေကာမူ သင့်လျော်သော အောင်မြင်မှုစွမ်းရည်ကို ပြသနိုင်ပါက အရေးကြီးသော ရာထူးနေရာသို့ ရွေးချယ်တင်မြှောက်ခံရနိုင်သလို အခြားတစ်ဖက်တွင်လည်း ကြွယ်ဝသော အတွေ့အကြုံရှိသည့် ဝါရင့်ဝန်ထမ်းနှင့် ယှဉ်လျှင် (わりに) ပြောင်းလွယ်ပြင်လွယ်ရှိသော တွေးခေါ်မှု မရှိသည့် ပုဂ္ဂိုလ်များသည် ပြင်းထန်သော အကဲဖြတ်မှုကို ခံရတတ်သည်။ သို့ရာတွင် အလွန်အကျွံ စွမ်းဆောင်ရည် အခြေပြုဝါဒသည် အဖွဲ့အစည်းအတွင်း မကျန်းမာသော ပွတ်တိုက်မှုများနှင့် မညီမမျှဖြစ်မှုများကို ဖိတ်ခေါ်တတ်သည်။ ရလဒ်ကောင်းကို ရှာဖွေခြင်းနှင့် မတူကွဲပြားသော တန်ဖိုးထားမှုရှိသည့် လူသားများ စိတ်ချလက်ချ အတူတကွ ပူးပေါင်းဆောင်ရွက်နိုင်မည့် အားလုံးပါဝင်နိုင်သော ပတ်ဝန်းကျင် ဖန်တီးခြင်းတို့ကို ဒွန်တွဲအကောင်အထည်ဖော်ခြင်းသည်သာလျှင် အဖွဲ့အစည်းတစ်ခု၏ စစ်မှန်သော စွမ်းအားကို မွေးဖွားပေးမည် ဖြစ်သည်။",
+    "questionIds": [
+      "n2.l10.q021",
+      "n2.l10.q022",
+      "n2.l10.q023",
+      "n2.l10.q024",
+      "n2.l10.q025"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "年功序列",
+        "reading": "ねんこうじょれつ",
+        "meaning": "seniority-based promotion system"
+      },
+      {
+        "term": "抜擢",
+        "reading": "ばってき",
+        "meaning": "exceptional promotion / selection"
+      },
+      {
+        "term": "包摂的",
+        "reading": "ほうせつてき",
+        "meaning": "inclusive"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-10-22T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l10.l001",
+    "lessonId": "n2.l10",
+    "title": "中途採用選考の最終評価会議 (အလယ်အလတ် ဝန်ထမ်းခေါ်ယူရေး အကဲဖြတ် အစည်းအဝေး)",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "採用担当部長・大野",
+      "人事課長・加藤"
+    ],
+    "transcript": "大野：加藤課長、今回のキャリア採用の最終面接だが、候補者の評価はどうまとまったかね？\n加藤：はい、今回は学歴や年齢を問わず、実戦での問題解決能力を最重視して選考いたしました。\n大野：特に印象的だった候補者はいたかな？\n加藤：３人目のチャンさんです。実務経験がまだ２年と浅いわりに、大規模プロジェクトをリードした実績があり、意欲も抜群でした。\n大野：なるほど。他社からの厳しい引き抜き競争があったにもかかわらず、我が社の理念に深く共感してくれたそうだね。\n加藤：はい。ぜひ内定通知を出し、承諾を得たいと考えております。",
+    "translation": "အလယ်အလတ် ဝန်ထမ်းခေါ်ယူရေး အကဲဖြတ် အစည်းအဝေးတွင် အသက်အရွယ်နှင့် ပညာအရည်အချင်းကို မခွဲခြားဘဲ စွမ်းဆောင်ရည်နှင့် သန္နိဋ္ဌာန်စိတ် ထူးချွန်သော ကိုယ်စားလှယ်လောင်းကို ရွေးချယ်ခန့်အပ်ရန် သဘောတူဆုံးဖြတ်ခြင်း။",
+    "turns": [
+      {
+        "speaker": "採用担当部長・大野",
+        "ja": "加藤課長、今回のキャリア採用の最終面接だが、候補者の評価はどうまとまったかね？",
+        "kana": "かとうかちょう、こんかいのきゃりあさいようのさいしゅうめんせつだが、こうほしゃのひょうかはどうまとまったかね？",
+        "en": "Section Chief Kato, regarding the final interview for our mid-career hiring, how did the candidates' evaluations shape up?",
+        "my": "ခါတိုဌာနမှူး၊ ဒီတစ်ကြိမ် လုပ်ငန်းအတွေ့အကြုံရှိ ဝန်ထမ်းခေါ်ယူရေး နောက်ဆုံး လူတွေ့စစ်ဆေးမှုနဲ့ ပတ်သက်ပြီး လျှောက်ထားသူတွေရဲ့ အကဲဖြတ်ချက်တွေ ဘယ်လို သဘောတူညီမှု ရခဲ့သလဲ။",
+        "myanmar": "ခါတိုဌာနမှူး၊ ဒီတစ်ကြိမ် လုပ်ငန်းအတွေ့အကြုံရှိ ဝန်ထမ်းခေါ်ယူရေး နောက်ဆုံး လူတွေ့စစ်ဆေးမှုနဲ့ ပတ်သက်ပြီး လျှောက်ထားသူတွေရဲ့ အကဲဖြတ်ချက်တွေ ဘယ်လို သဘောတူညီမှု ရခဲ့သလဲ။"
+      },
+      {
+        "speaker": "人事課長・加藤",
+        "ja": "はい、今回は学歴や年齢を問わず、実戦での問題解決能力を最重視して選考いたしました。",
+        "kana": "はい、こんかいはがくれきやねんれいをとわず、じっせんでのもんだいかいけつのうりょくをさいじゅうししてせんこういたしました。",
+        "en": "Yes. This time, regardless of academic background or age, we conducted selection placing top priority on practical problem-solving capabilities.",
+        "my": "ဟုတ်ကဲ့ပါ၊ ဒီတစ်ကြိမ်မှာတော့ ပညာအရည်အချင်းနဲ့ အသက်အရွယ်ကို မခွဲခြားဘဲ လက်တွေ့လုပ်ငန်းခွင် ပြဿနာဖြေရှင်းနိုင်စွမ်းကို အဓိကထားပြီး ရွေးချယ်ခဲ့ပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့ပါ၊ ဒီတစ်ကြိမ်မှာတော့ ပညာအရည်အချင်းနဲ့ အသက်အရွယ်ကို မခွဲခြားဘဲ လက်တွေ့လုပ်ငန်းခွင် ပြဿနာဖြေရှင်းနိုင်စွမ်းကို အဓိကထားပြီး ရွေးချယ်ခဲ့ပါတယ်။"
+      },
+      {
+        "speaker": "採用担当部長・大野",
+        "ja": "特に印象的だった候補者はいたかな？",
+        "kana": "とくにいんしょうてきだったこうほしゃはいたかな？",
+        "en": "Was there any candidate who was particularly impressive?",
+        "my": "အထူးသဖြင့် စိတ်ထဲစွဲကျန်ရစ်စေတဲ့ လျှောက်ထားသူ ရှိခဲ့သလား။",
+        "myanmar": "အထူးသဖြင့် စိတ်ထဲစွဲကျန်ရစ်စေတဲ့ လျှောက်ထားသူ ရှိခဲ့သလား။"
+      },
+      {
+        "speaker": "人事課長・加藤",
+        "ja": "３人目のチャンさんです。実務経験がまだ２年と浅いわりに、大規模プロジェクトをリードした実績があり、意欲も抜群でした。",
+        "kana": "さんにんめのちゃんさんです。じつむけいけんがまだにねんとあさいわりに、だいきぼぷろじぇくとをりーどしたじっせきがあり、いよくもばつぐんでした。",
+        "en": "Yes, the third candidate, Mr. Chan. Considering his practical experience is still only two years and relatively brief, he has a track record of leading large projects and had outstanding motivation.",
+        "my": "တတိယမြောက် ကိုယ်စားလှယ်လောင်း ချန်းစံ ဖြစ်ပါတယ်။ လက်တွေ့လုပ်ငန်း အတွေ့အကြုံ ၂ နှစ်သာ ရှိသေးပြီး နုနယ်သည်နှင့် ယှဉ်လျှင် အတိုင်းအတာကြီးမားတဲ့ ပရောဂျက်ကို ဦးဆောင်ခဲ့တဲ့ အောင်မြင်မှုရှိပြီး စိတ်အားထက်သန်မှုလည်း အလွန်ထူးချွန်ပါတယ်။",
+        "myanmar": "တတိယမြောက် ကိုယ်စားလှယ်လောင်း ချန်းစံ ဖြစ်ပါတယ်။ လက်တွေ့လုပ်ငန်း အတွေ့အကြုံ ၂ နှစ်သာ ရှိသေးပြီး နုနယ်သည်နှင့် ယှဉ်လျှင် အတိုင်းအတာကြီးမားတဲ့ ပရောဂျက်ကို ဦးဆောင်ခဲ့တဲ့ အောင်မြင်မှုရှိပြီး စိတ်အားထက်သန်မှုလည်း အလွန်ထူးချွန်ပါတယ်။"
+      },
+      {
+        "speaker": "採用担当部長・大野",
+        "ja": "なるほど。他社からの厳しい引き抜き競争があったにもかかわらず、我が社の理念に深く共感してくれたそうだね。",
+        "kana": "なるほど。たしゃからのきびしいひきぬききょうそうがあったにもかかわらず、わがしゃのりねんにふかくきょうかんしてくれたそうだね。",
+        "en": "Indeed. Despite intense recruitment competition from other firms, he reportedly sympathized deeply with our corporate philosophy.",
+        "my": "ဟုတ်ပေသားပဲ။ အခြားကုမ္ပဏီတွေဆီကနေ ပြင်းထန်တဲ့ ကမ်းလှမ်းဆွဲဆောင်မှုတွေ ရှိခဲ့လင့်ကစား ကျွန်ုပ်တို့ကုမ္ပဏီရဲ့ မူဝါဒအပေါ် နက်နက်ရှိုင်းရှိုင်း သဘောကျလက်ခံပေးခဲ့တယ်လို့ ကြားရတယ်။",
+        "myanmar": "ဟုတ်ပေသားပဲ။ အခြားကုမ္ပဏီတွေဆီကနေ ပြင်းထန်တဲ့ ကမ်းလှမ်းဆွဲဆောင်မှုတွေ ရှိခဲ့လင့်ကစား ကျွန်ုပ်တို့ကုမ္ပဏီရဲ့ မူဝါဒအပေါ် နက်နက်ရှိုင်းရှိုင်း သဘောကျလက်ခံပေးခဲ့တယ်လို့ ကြားရတယ်။"
+      },
+      {
+        "speaker": "人事課長・加藤",
+        "ja": "はい。ぜひ内定通知を出し、承諾を得たいと考えております。",
+        "kana": "はい。ぜひないていつうちをだし、しょうだくをえたいとかんがえております。",
+        "en": "Yes. I would very much like to issue an offer letter and obtain his consent.",
+        "my": "ဟုတ်ကဲ့ပါ။ မဖြစ်မနေ အလုပ်ခန့်ထားကြောင်း အကြောင်းကြားစာ ပို့ပြီး သဘောတူလက်ခံမှုကို ရယူလိုပါတယ်ခင်ဗျာ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ။ မဖြစ်မနေ အလုပ်ခန့်ထားကြောင်း အကြောင်းကြားစာ ပို့ပြီး သဘောတူလက်ခံမှုကို ရယူလိုပါတယ်ခင်ဗျာ။"
+      }
+    ],
+    "questionIds": [
+      "n2.l10.q026",
+      "n2.l10.q027",
+      "n2.l10.q028",
+      "n2.l10.q029",
+      "n2.l10.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-10-22T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l10.q001",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「経験の有無を（　）、意欲ある方を広く募集しています。」",
+      "choices": [
+        "問わず",
+        "相応に",
+        "割合に",
+        "不屈に"
+      ],
+      "answer": "問わず",
+      "explanation": "「問わず（とわず）」は問題にせず・区別せずという意味を表します。（မခွဲခြားဘဲ）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q002",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「契約条件に納得し、正式に（　）の返事を出した。」",
+      "choices": [
+        "承諾",
+        "偏り",
+        "悪天候",
+        "奮闘"
+      ],
+      "answer": "承諾",
+      "explanation": "「承諾（しょうだく）」は相手の申し出や要求を受け入れることを表します。（သဘောတူလက်ခံခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q003",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「女性管理職の（　）を引き上げる取り組みが進んでいる。」",
+      "choices": [
+        "割合",
+        "資格",
+        "経歴",
+        "意気込み"
+      ],
+      "answer": "割合",
+      "explanation": "「割合（わりあい）」は全体に対する比率を表します。（အချိုးအစား）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q004",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「幾多の困難にも屈しない、（　）の精神で偉業を成し遂げた。」",
+      "choices": [
+        "不屈",
+        "格安",
+        "相応",
+        "承諾"
+      ],
+      "answer": "不屈",
+      "explanation": "「不屈（ふくつ）」はどんな困難にもくじけない強い意志を表します。（ဇွဲမလျှော့သော）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q005",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「弁護士になるには国家試験に合格して（　）を得る必要がある。」",
+      "choices": [
+        "資格",
+        "偏り",
+        "悪天候",
+        "割合"
+      ],
+      "answer": "資格",
+      "explanation": "「資格（しかく）」はある事を行うのに必要な身分や条件を表します。（အရည်အချင်း / လုပ်ပိုင်ခွင့်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q006",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「履歴書に過去の職務（　）を詳細に記入する。」",
+      "choices": [
+        "経歴",
+        "意気込み",
+        "奮闘",
+        "格安"
+      ],
+      "answer": "経歴",
+      "explanation": "「経歴（けいれき）」は今まで経てきた学業や職業の履歴を表します。（လုပ်ငန်းအတွေ့အကြုံ / ကိုယ်ရေးရာဇဝင်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q007",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「能力と実績に（　）した報酬を支払う。」",
+      "choices": [
+        "相応",
+        "不屈",
+        "承諾",
+        "問わず"
+      ],
+      "answer": "相応",
+      "explanation": "「相応（そうおう）」はその地位や能力にふさわしいことを表します。（သင့်တင့်လျောက်ပတ်သော）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q008",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「調査対象の年齢層に（　）があると、正確なデータが得られない。」",
+      "choices": [
+        "偏り",
+        "割合",
+        "資格",
+        "悪天候"
+      ],
+      "answer": "偏り",
+      "explanation": "「偏り（かたより）」は一方に偏って不均衡な状態を表します。（တစ်ဖက်စောင်းနင်းဖြစ်မှု）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q009",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「（　）のため、予定されていた航空便が欠航となった。」",
+      "choices": [
+        "悪天候",
+        "奮闘",
+        "意気込み",
+        "格安"
+      ],
+      "answer": "悪天候",
+      "explanation": "「悪天候（あくてんこう）」は雨や嵐など悪い気象条件を表します。（ဆိုးရွားသော ရာသီဥတု）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q010",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「若手社員たちの懸命な（　）により、納期遅延の危機を乗り切った。」",
+      "choices": [
+        "奮闘",
+        "承諾",
+        "偏り",
+        "相応"
+      ],
+      "answer": "奮闘",
+      "explanation": "「奮闘（ふんとう）」は力を尽くして懸命に戦う・努力することを表します。（ကြိုးပမ်းအားထုတ်ခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q011",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「シーズンオフの（　）ツアーを利用して旅行費を節約した。」",
+      "choices": [
+        "格安",
+        "不屈",
+        "資格",
+        "経歴"
+      ],
+      "answer": "格安",
+      "explanation": "「格安（かくやす）」は普通より非常に値段が安いことを表します。（အထူးသက်သာသော ဈေးနှုန်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q012",
+      "lessonId": "n2.l10",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「新キャプテンは優勝に向けた熱い（　）を語った。」",
+      "choices": [
+        "意気込み",
+        "割合",
+        "悪天候",
+        "偏り"
+      ],
+      "answer": "意気込み",
+      "explanation": "「意気込み（いきごみ）」はやり遂げようとする盛んな気迫・意気配を表します。（စိတ်အားထက်သန်မှု）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q013",
+      "lessonId": "n2.l10",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「理由の如何を【問】わず、不正行為は厳禁である。」",
+      "choices": [
+        "と",
+        "もん",
+        "ゆ",
+        "お"
+      ],
+      "answer": "と",
+      "explanation": "「問わず」の「問」は訓読みで「と（わず）」と読みます。（မေးမြန်းခြင်း / မခွဲခြားခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q014",
+      "lessonId": "n2.l10",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「手間がかかった【割】に、あまり美味しくない。」",
+      "choices": [
+        "わり",
+        "かつ",
+        "さき",
+        "おり"
+      ],
+      "answer": "わり",
+      "explanation": "「割に」の「割」は訓読みで「わり」と読みます。（ယှဉ်လျှင် / အချိုးအစား）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q015",
+      "lessonId": "n2.l10",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「申し出を快く受け入れ、【承諾】した。」",
+      "choices": [
+        "しょうだく",
+        "しょうとく",
+        "じょうだく",
+        "しょうらく"
+      ],
+      "answer": "しょうだく",
+      "explanation": "「承諾」は音読みで「しょうだく」と読みます。（သဘောတူလက်ခံခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q016",
+      "lessonId": "n2.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「この奨学金は、国籍や専攻（　）、誰でも応募可能である。」",
+      "choices": [
+        "を問わず",
+        "にもかかわらず",
+        "わりに",
+        "に際して"
+      ],
+      "answer": "を問わず",
+      "explanation": "「〜を問わず」は条件や区分に制限を設けず、すべてに共通して適用されることを表します。（မခွဲခြားဘဲ）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q017",
+      "lessonId": "n2.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「大雨の警報が出ていた（　）、多くのファンがスタジアムに集まった。」",
+      "choices": [
+        "にもかかわらず",
+        "を問わず",
+        "わりに",
+        "を契機に"
+      ],
+      "answer": "にもかかわらず",
+      "explanation": "「〜にもかかわらず」は前述の状況から予想される結果とは反する事態が起こったことを表します。（ဖြစ်လင့်ကစား）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q018",
+      "lessonId": "n2.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「このホテルは、宿泊料金が手頃な（　）、部屋が広くて清潔だ。」",
+      "choices": [
+        "わりに",
+        "を問わず",
+        "にもかかわらず",
+        "つつある"
+      ],
+      "answer": "わりに",
+      "explanation": "「〜わりに（は）」はその基準（値段など）から普通予想される程度と実際が食い違っている評価を表します。（နှင့်ယှဉ်လျှင်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q019",
+      "lessonId": "n2.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「昼夜（　）救急患者の受け入れを行っている総合病院だ。」",
+      "choices": [
+        "を問わず",
+        "にもかかわらず",
+        "わりに",
+        "はおろか"
+      ],
+      "answer": "を問わず",
+      "explanation": "対立する二つの概念「昼夜」に接続して「昼も夜も関係なくいつでも」という意味を表します。（မခွဲခြားဘဲ）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q020",
+      "lessonId": "n2.l10",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「事前に念入りな打ち合わせをした（　）、本番で手順のミスが起きてしまった。」",
+      "choices": [
+        "にもかかわらず",
+        "を問わず",
+        "わりに",
+        "にすぎない"
+      ],
+      "answer": "にもかかわらず",
+      "explanation": "「念入りな打ち合わせ」という良好な準備があったにもかかわらずミスが起きたという逆接の驚きを表します。（ဖြစ်ပါသော်လည်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q021",
+      "lessonId": "n2.l10",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文によると、現代のビジネス社会における評価の核心は何へと移行しているか。",
+      "choices": [
+        "個人の具体的な成果や組織への貢献度",
+        "学歴や勤続年数のみによる年功序列",
+        "年齢や国籍を限定した国内中心の登用基準",
+        "新卒社員とベテラン社員の給与の完全一律化"
+      ],
+      "answer": "個人の具体的な成果や組織への貢献度",
+      "explanation": "本文中に「現在では個人の具体的な成果や組織への貢献度が評価の核心となっている」と明確に記されています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q022",
+      "lessonId": "n2.l10",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において「ベテランのわりに厳しい評価を受ける」のはどのような人材か。",
+      "choices": [
+        "豊富な経験があるものの柔軟な思考が伴わない人材",
+        "新卒社員に負けない実績を常に挙げている人材",
+        "年齢や国籍を問わず誰とでも協働できる人材",
+        "勤務年数は短いがリーダーシップを発揮する人材"
+      ],
+      "answer": "豊富な経験があるものの柔軟な思考が伴わない人材",
+      "explanation": "本文に「豊富な経験を持つベテランのわりに柔軟な思考が伴わない人材は厳しい評価を受けることもある」とあります。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q023",
+      "lessonId": "n2.l10",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文で筆者が警告している「過度な実力主義」の弊害とは何か。",
+      "choices": [
+        "社内の不健全な対立や偏りを招くこと",
+        "新卒社員の給与が高くなりすぎること",
+        "海外企業との競争力が低下すること",
+        "年功序列制への完全な回帰が起こること"
+      ],
+      "answer": "社内の不健全な対立や偏りを招くこと",
+      "explanation": "本文中に「過度な実力主義は社内の不健全な対立や偏りを招きかねない」と警告されています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q024",
+      "lessonId": "n2.l10",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "筆者が述べる「組織の真の強さ」を生み出すために両立させるべき二つの要素はどれか。",
+      "choices": [
+        "成果の追求と、多様な人々が安心して協働できる包摂的な環境",
+        "学歴重視の採用基準と、高齢社員の早期退職制度",
+        "徹底したコスト削減と、全社員への一律の昇給",
+        "国内市場の防衛と、外国人観光客への免税サービス"
+      ],
+      "answer": "成果の追求と、多様な人々が安心して協働できる包摂的な環境",
+      "explanation": "本文の最後で「成果を求めることと、多様な価値観を持つ人々が安心して協働できる包摂的な環境を両立させることこそが、組織の真の強さを生む」と結論づけています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q025",
+      "lessonId": "n2.l10",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文の全体的な要旨として最もふさわしいものはどれか。",
+      "choices": [
+        "実力主義の利点を活かしつつ、多様性を受容する包摂的な組織作りを進めることが肝要である。",
+        "成果主義は組織を崩壊させるため、早急に従来の年功序列制に戻すべきである。",
+        "若手社員の意見のみを尊重し、ベテラン社員は管理職から排除すべきである。",
+        "資格を持たない者はどのような職種においても採用を見送るべきである。"
+      ],
+      "answer": "実力主義の利点を活かしつつ、多様性を受容する包摂的な組織作りを進めることが肝要である。",
+      "explanation": "本文全体が、実力主義への移行と多様性の受容（包摂的環境）のバランスの重要性を主張しています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v001",
+        "n2.l10.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q026",
+      "lessonId": "n2.l10",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "加藤課長によると、今回のキャリア採用選考で最も重視した基準は何か。",
+      "choices": [
+        "学歴や年齢を問わず、実戦での問題解決能力",
+        "有名大学の卒業資格とTOEICの高得点",
+        "同業他社での10年以上の長い勤務経歴",
+        "推薦状の有無と面接での礼儀作法"
+      ],
+      "answer": "学歴や年齢を問わず、実戦での問題解決能力",
+      "explanation": "加藤課長は「今回は学歴や年齢を問わず、実戦での問題解決能力を最重視して選考いたしました」と答えています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q027",
+      "lessonId": "n2.l10",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "候補者のチャンさんが高く評価された理由として正しいものはどれか。",
+      "choices": [
+        "経験年数が2年と浅いわりに大規模プロジェクトを率いた実績があり、意欲も抜群だったから",
+        "他社からの内定をすでに5社以上承諾していたから",
+        "海外勤務の経験が10年以上と極めて豊富だったから",
+        "社内の誰よりも早く出社して資料を作成していたから"
+      ],
+      "answer": "経験年数が2年と浅いわりに大規模プロジェクトを率いた実績があり、意欲も抜群だったから",
+      "explanation": "加藤課長は「実務経験がまだ２年と浅いわりに、大規模プロジェクトをリードした実績があり、意欲も抜群でした」と述べています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q028",
+      "lessonId": "n2.l10",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "大野部長がチャンさんに関して言及した「意外な好条件」とは何か。",
+      "choices": [
+        "他社からの激しい引き抜き競争があったにもかかわらず、自社の理念に共感してくれたこと",
+        "給与が格安でも入社を承諾してくれたこと",
+        "悪天候の日に一人だけで面接会場に来てくれたこと",
+        "資格をすでに10個以上取得していたこと"
+      ],
+      "answer": "他社からの激しい引き抜き競争があったにもかかわらず、自社の理念に共感してくれたこと",
+      "explanation": "大野部長は「他社からの厳しい引き抜き競争があったにもかかわらず、我が社の理念に深く共感してくれたそうだね」と述べています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q029",
+      "lessonId": "n2.l10",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "会話の最後で加藤課長が表明した次のアクションは何か。",
+      "choices": [
+        "内定通知を出し、本人の承諾を得ること",
+        "再度の筆記試験を実施して合否を判定すること",
+        "他社に対して引き抜きの中止を申し入れること",
+        "採用枠を削減して別の候補者を再面接すること"
+      ],
+      "answer": "内定通知を出し、本人の承諾を得ること",
+      "explanation": "加藤課長は「ぜひ内定通知を出し、承諾を得たいと考えております」と述べています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l10.q030",
+      "lessonId": "n2.l10",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "この会話の参加者二人の関係性として最も適切なものはどれか。",
+      "choices": [
+        "採用担当の上司（部長）と部下（人事課長）",
+        "大学の就職支援室の教授と就職活動中の学生",
+        "派遣会社の営業担当者と派遣先企業の面接官",
+        "面接を受けた受験生同士"
+      ],
+      "answer": "採用担当の上司（部長）と部下（人事課長）",
+      "explanation": "採用担当部長（大野）と人事課長（加藤）が社内で採用候補者の評価をすり合わせている場面です。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l10.v006"
+      ],
+      "generated": false
+    }
+  ]
+};

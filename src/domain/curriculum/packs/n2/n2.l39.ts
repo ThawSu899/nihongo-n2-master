@@ -1,0 +1,1794 @@
+import { LessonPack } from '../../../models/types';
+
+export const n2l39Data: LessonPack = {
+  "id": "n2.l39",
+  "level": "N2",
+  "module": "N2 Editorial & Socio-Cultural",
+  "number": 39,
+  "title": "N2 Lesson 39: Contextual Limits & Exclusivity (〜のみならず・〜に限らず・〜にとどまらず)",
+  "description": "Mastery module focusing on Extended Scopes, Universal Applicability, and Bound-Surpassing Expansions: non-exclusive additions (のみならず), boundless categories (に限らず), and ripple-effect escalations (にとどまらず).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l39.v001",
+      "lessonId": "n2.l39",
+      "ja": "限界",
+      "kana": "げんかい",
+      "en": "Limit / Bound / Extreme threshold",
+      "my": "အကန့်အသတ်စံချိန် / ကန့်သတ်ချက်",
+      "meaningMy": "အကန့်အသတ်စံချိန် / ကန့်သတ်ချက်",
+      "meaningMyanmar": "အကန့်အသတ်စံချိန် / ကန့်သတ်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l39.s001",
+      "kanjiIds": [
+        "n2.l39.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.v002",
+      "lessonId": "n2.l39",
+      "ja": "限度",
+      "kana": "げんど",
+      "en": "Limit / Allowable maximum",
+      "my": "ကန့်သတ်ချက်ပမာဏ",
+      "meaningMy": "ကန့်သတ်ချက်ပမာဏ",
+      "meaningMyanmar": "ကန့်သတ်ချက်ပမာဏ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l39.s002",
+      "kanjiIds": [
+        "n2.l39.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.v003",
+      "lessonId": "n2.l39",
+      "ja": "地域",
+      "kana": "ちいき",
+      "en": "Region / Area / Locality",
+      "my": "ဒေသန္တရနယ်မြေ",
+      "meaningMy": "ဒေသန္တရနယ်မြေ",
+      "meaningMyanmar": "ဒေသန္တရနယ်မြေ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l39.s003",
+      "kanjiIds": [
+        "n2.l39.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.v004",
+      "lessonId": "n2.l39",
+      "ja": "領域",
+      "kana": "りょういき",
+      "en": "Domain / Territory / Sphere",
+      "my": "နယ်ပယ်အာဏာစက် / နယ်ပယ်",
+      "meaningMy": "နယ်ပယ်အာဏာစက် / နယ်ပယ်",
+      "meaningMyanmar": "နယ်ပယ်အာဏာစက် / နယ်ပယ်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l39.s004",
+      "kanjiIds": [
+        "n2.l39.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.v005",
+      "lessonId": "n2.l39",
+      "ja": "枠組み",
+      "kana": "わくぐみ",
+      "en": "Framework / Structural outline",
+      "my": "အခြေခံမူဘောင်ဖွဲ့စည်းပုံ",
+      "meaningMy": "အခြေခံမူဘောင်ဖွဲ့စည်းပုံ",
+      "meaningMyanmar": "အခြေခံမူဘောင်ဖွဲ့စည်းပုံ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l39.s005",
+      "kanjiIds": [
+        "n2.l39.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.v006",
+      "lessonId": "n2.l39",
+      "ja": "枠内",
+      "kana": "わくない",
+      "en": "Within the frame / Inside bounds",
+      "my": "ဘောင်အတွင်း၌",
+      "meaningMy": "ဘောင်အတွင်း၌",
+      "meaningMyanmar": "ဘောင်အတွင်း၌",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l39.s006",
+      "kanjiIds": [
+        "n2.l39.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.v007",
+      "lessonId": "n2.l39",
+      "ja": "範囲",
+      "kana": "はんい",
+      "en": "Scope / Range / Sphere",
+      "my": "အတိုင်းအတာနယ်ပယ်",
+      "meaningMy": "အတိုင်းအတာနယ်ပယ်",
+      "meaningMyanmar": "အတိုင်းအတာနယ်ပယ်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l39.s007",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.v008",
+      "lessonId": "n2.l39",
+      "ja": "制限",
+      "kana": "せいげん",
+      "en": "Restriction / Restraint / Limitation",
+      "my": "ကန့်သတ်ထိန်းချုပ်မှု",
+      "meaningMy": "ကန့်သတ်ထိန်းချုပ်မှု",
+      "meaningMyanmar": "ကန့်သတ်ထိန်းချုပ်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l39.s008",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.v009",
+      "lessonId": "n2.l39",
+      "ja": "波及",
+      "kana": "はきゅう",
+      "en": "Ripple effect / Repercussion / Spread",
+      "my": "ပျံ့နှံ့သက်ရောက်ခြင်း",
+      "meaningMy": "ပျံ့နှံ့သက်ရောက်ခြင်း",
+      "meaningMyanmar": "ပျံ့နှံ့သက်ရောက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l39.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.v010",
+      "lessonId": "n2.l39",
+      "ja": "普遍",
+      "kana": "ふへん",
+      "en": "Universal / Ubiquitous / Omnipresent",
+      "my": "နေရာတိုင်းနှင့်ကိုက်ညီသော အမှန်တရား",
+      "meaningMy": "နေရာတိုင်းနှင့်ကိုက်ညီသော အမှန်တရား",
+      "meaningMyanmar": "နေရာတိုင်းနှင့်ကိုက်ညီသော အမှန်တရား",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l39.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.v011",
+      "lessonId": "n2.l39",
+      "ja": "拡散",
+      "kana": "かくさん",
+      "en": "Diffusion / Dispersal / Spreading out",
+      "my": "ပြန့်ကျဲလွင့်စင်ခြင်း / ပျံ့နှံ့ခြင်း",
+      "meaningMy": "ပြန့်ကျဲလွင့်စင်ခြင်း / ပျံ့နှံ့ခြင်း",
+      "meaningMyanmar": "ပြန့်ကျဲလွင့်စင်ခြင်း / ပျံ့နှံ့ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l39.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.v012",
+      "lessonId": "n2.l39",
+      "ja": "包括",
+      "kana": "ほうかつ",
+      "en": "Comprehensive inclusion / Encompassing",
+      "my": "ဘက်စုံလွှမ်းခြုံပါဝင်ခြင်း",
+      "meaningMy": "ဘက်စုံလွှမ်းခြုံပါဝင်ခြင်း",
+      "meaningMyanmar": "ဘက်စုံလွှမ်းခြုံပါဝင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l39.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l39.k001",
+      "lessonId": "n2.l39",
+      "char": "限",
+      "meaning": "Limit / Bound / Restrict / Finite",
+      "meaningMy": "ကန့်သတ်ခြင်း / အတိုင်းအတာနယ်နိမိတ်",
+      "meaningMyanmar": "ကန့်သတ်ခြင်း / အတိုင်းအတာနယ်နိမိတ်",
+      "onyomi": [
+        "ゲン"
+      ],
+      "kunyomi": [
+        "かぎ・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "限界",
+          "reading": "げんかい",
+          "meaning": "limit / boundary",
+          "meaningMy": "အကန့်အသတ်စံချိန်",
+          "preview": false
+        },
+        {
+          "word": "限度",
+          "reading": "げんど",
+          "meaning": "limit / threshold",
+          "meaningMy": "ကန့်သတ်ချက်ပမာဏ",
+          "preview": false
+        },
+        {
+          "word": "制限",
+          "reading": "せいげん",
+          "meaning": "restriction / restraint",
+          "meaningMy": "ကန့်သတ်ထိန်းချုပ်မှု",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l39.s001"
+      ],
+      "components": [
+        "阝",
+        "艮"
+      ],
+      "strokes": 9,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.k002",
+      "lessonId": "n2.l39",
+      "char": "域",
+      "meaning": "Region / Zone / Realm / Territory",
+      "meaningMy": "ဒေသ / နယ်မြေ / နယ်ပယ်",
+      "meaningMyanmar": "ဒေသ / နယ်မြေ / နယ်ပယ်",
+      "onyomi": [
+        "イキ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "地域",
+          "reading": "ちいき",
+          "meaning": "region / area",
+          "meaningMy": "ဒေသန္တရနယ်မြေ",
+          "preview": false
+        },
+        {
+          "word": "領域",
+          "reading": "りょういき",
+          "meaning": "domain / field",
+          "meaningMy": "နယ်ပယ်အာဏာစက်",
+          "preview": false
+        },
+        {
+          "word": "区域",
+          "reading": "くいき",
+          "meaning": "zone / boundary",
+          "meaningMy": "သတ်မှတ်နယ်မြေဇုန်",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l39.s002"
+      ],
+      "components": [
+        "土",
+        "或"
+      ],
+      "strokes": 11,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.k003",
+      "lessonId": "n2.l39",
+      "char": "枠",
+      "meaning": "Frame / Framework / Border / Quota",
+      "meaningMy": "ဘောင် / ကန့်သတ်ဘောင် / မူဘောင်",
+      "meaningMyanmar": "ဘောင် / ကန့်သတ်ဘောင် / မူဘောင်",
+      "onyomi": [],
+      "kunyomi": [
+        "わく"
+      ],
+      "exampleVocab": [
+        {
+          "word": "枠組み",
+          "reading": "わくぐみ",
+          "meaning": "framework / outline",
+          "meaningMy": "အခြေခံမူဘောင်ဖွဲ့စည်းပုံ",
+          "preview": false
+        },
+        {
+          "word": "枠内",
+          "reading": "わくない",
+          "meaning": "within the frame / bounds",
+          "meaningMy": "ဘောင်အတွင်း၌",
+          "preview": false
+        },
+        {
+          "word": "別枠",
+          "reading": "べつわく",
+          "meaning": "special allowance / extra quota",
+          "meaningMy": "သီးသန့်ခွဲတမ်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l39.s003"
+      ],
+      "components": [
+        "木",
+        "卆"
+      ],
+      "strokes": 8,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l39.g001",
+      "lessonId": "n2.l39",
+      "pattern": "〜のみならず",
+      "meaning": "Not only... but also (formal, literary)",
+      "meaningMy": "သာမကဘဲ / သာလျှင်မဟုတ်ဘဲ နောက်တစ်ခုပါ (တရားဝင်သုံး)",
+      "meaningMyanmar": "သာမကဘဲ / သာလျှင်မဟုတ်ဘဲ နောက်တစ်ခုပါ (တရားဝင်သုံး)",
+      "formation": "名詞 / 動詞・形容詞普通形 (名詞・な形語幹である) ＋ のみならず",
+      "explanation": {
+        "en": "A refined written pattern stating that the scope of an attribute or phenomenon is not restricted to subject A, but also encompasses subject B.",
+        "my": "အကြောင်းအရာတစ်ခုသည် ရှေ့အချက်တစ်ခုတည်းတွင်သာ ကန့်သတ်မနေဘဲ နောက်အချက်ဆီသို့ပါ တိုးချဲ့လွှမ်းခြုံပါဝင်ကြောင်း တရားဝင် ဖော်ပြသည်။"
+      },
+      "explanationMy": "အကြောင်းအရာတစ်ခုသည် ရှေ့အချက်တစ်ခုတည်းတွင်သာ ကန့်သတ်မနေဘဲ နောက်အချက်ဆီသို့ပါ တိုးချဲ့လွှမ်းခြုံပါဝင်ကြောင်း တရားဝင် ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l39.s001",
+          "note": "〜のみならず usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l39.s002",
+          "note": "〜のみならず usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l39.s003",
+          "note": "〜のみならず usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l39.s004",
+          "note": "〜のみならず usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l39.g001",
+        "n2.l39.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜のみならず."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "彼は英語[ _____ ]、中国語やスペイン語にも堪能だ。",
+      "clozeTarget": "のみならず",
+      "clozeHint": "Noun + のみならず",
+      "acceptableSynonyms": [
+        "〜だけでなく",
+        "〜ばかりでなく",
+        "〜にとどまらず"
+      ],
+      "nuanceExplanationMy": "စာပေ၊ မိန့်ခွန်းနှင့် သတင်းဆောင်းပါးများတွင် အထူးသဖြင့် တရားဝင် သုံးသည်။"
+    },
+    {
+      "id": "n2.l39.g002",
+      "lessonId": "n2.l39",
+      "pattern": "〜に限らず",
+      "meaning": "Not limited to... / Not just... but universally all",
+      "meaningMy": "တွင်သာ ကန့်သတ်မထားဘဲ / တွင်သာမက နေရာတိုင်း၊ လူတိုင်း",
+      "meaningMyanmar": "တွင်သာ ကန့်သတ်မထားဘဲ / တွင်သာမက နေရာတိုင်း၊ လူတိုင်း",
+      "formation": "名詞 ＋ に限らず",
+      "explanation": {
+        "en": "Emphasizes that a behavior, regulation, or phenomenon does not apply solely to a specific subset, but extends broadly across the entire population or spectrum.",
+        "my": "သီးခြား သတ်မှတ်ထားသောအရာ သို့မဟုတ် လူအုပ်စုတစ်ခုတည်းတွင်သာ အကျုံးဝင်သည်မဟုတ်ဘဲ ပိုမိုကျယ်ပြန့်သော တစ်ခုလုံးအပေါ် လွှမ်းခြုံသက်ရောက်ကြောင်း ပြသသည်။"
+      },
+      "explanationMy": "သီးခြား သတ်မှတ်ထားသောအရာ သို့မဟုတ် လူအုပ်စုတစ်ခုတည်းတွင်သာ အကျုံးဝင်သည်မဟုတ်ဘဲ ပိုမိုကျယ်ပြန့်သော တစ်ခုလုံးအပေါ် လွှမ်းခြုံသက်ရောက်ကြောင်း ပြသသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l39.s005",
+          "note": "〜に限らず usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l39.s006",
+          "note": "〜に限らず usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l39.s007",
+          "note": "〜に限らず usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l39.s008",
+          "note": "〜に限らず usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l39.g001",
+        "n2.l39.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜に限らず."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "若者[ _____ ]、あらゆる世代でスマートフォンの利用が定着した。",
+      "clozeTarget": "に限らず",
+      "clozeHint": "Noun + に限らず",
+      "acceptableSynonyms": [
+        "〜だけでなく",
+        "〜のみならず",
+        "〜をはじめとして"
+      ],
+      "nuanceExplanationMy": "တိကျသော အုပ်စုမှသည် အခြားသော အုပ်စုများဆီသို့ ကျယ်ကျယ်ပြန့်ပြန့် ဖြန့်ကြက်ပြသရာတွင် သုံးသည်။"
+    },
+    {
+      "id": "n2.l39.g003",
+      "lessonId": "n2.l39",
+      "pattern": "〜にとどまらず",
+      "meaning": "Not stopping at... / Extending far beyond initial limits",
+      "meaningMy": "တွင်သာ ရပ်တန့်မနေဘဲ / ၏ အတိုင်းအတာကို ကျော်လွန်၍ ပျံ့နှံ့သည်",
+      "meaningMyanmar": "တွင်သာ ရပ်တန့်မနေဘဲ / ၏ အတိုင်းအတာကို ကျော်လွန်၍ ပျံ့နှံ့သည်",
+      "formation": "名詞 / 動詞辞書形 ＋ にとどまらず",
+      "explanation": {
+        "en": "Illustrates that an effect, innovation, or disaster does not halt at its origin, but dynamically escalates and spills over into wider regions or realms.",
+        "my": "အကျိုးသက်ရောက်မှု၊ ဘေးအန္တရာယ် သို့မဟုတ် တီထွင်ဆန်းသစ်မှုသည် မူလနယ်နိမိတ်တွင်သာ ရပ်တန့်မနေဘဲ ပိုမိုကြီးမားကျယ်ပြန့်သော နယ်ပယ်များဆီသို့ ဆင့်ကဲကူးစက်ပျံ့နှံ့သွားခြင်းကို ပြသည်။"
+      },
+      "explanationMy": "အကျိုးသက်ရောက်မှု၊ ဘေးအန္တရာယ် သို့မဟုတ် တီထွင်ဆန်းသစ်မှုသည် မူလနယ်နိမိတ်တွင်သာ ရပ်တန့်မနေဘဲ ပိုမိုကြီးမားကျယ်ပြန့်သော နယ်ပယ်များဆီသို့ ဆင့်ကဲကူးစက်ပျံ့နှံ့သွားခြင်းကို ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l39.s009",
+          "note": "〜にとどまらず usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l39.s010",
+          "note": "〜にとどまらず usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l39.s011",
+          "note": "〜にとどまらず usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l39.s012",
+          "note": "〜にとどまらず usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l39.g001",
+        "n2.l39.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜にとどまらず."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "被害は国内[ _____ ]、隣接する近隣諸国にも及んだ。",
+      "clozeTarget": "にとどまらず",
+      "clozeHint": "Noun + にとどまらず",
+      "acceptableSynonyms": [
+        "〜を越えて",
+        "〜の枠を超えて",
+        "〜だけに終わらず"
+      ],
+      "nuanceExplanationMy": "နယ်နိမိတ် သို့မဟုတ် ဘောင်ကို ကျော်လွန်၍ အရှိန်အဟုန်ဖြင့် လှိုင်းဂယက်ရိုက်ခတ်သွားမှုကို ပေါ်လွင်စေသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l39.s001",
+      "lessonId": "n2.l39",
+      "ja": "地球温暖化の影響は、生態系の破壊のみならず、農業や経済活動全体にも及んでいる。",
+      "kana": "ちきゅうおんだんかのえいきょうは、せいたいけいのはかいのみならず、のうぎょうやけいざいかつどうぜんたいにもおよんでいる。",
+      "translation": {
+        "en": "The impact of global warming extends not only to ecosystem destruction, but also across agriculture and the entire economy.",
+        "my": "ကမ္ဘာကြီး ပူနွေးလာမှု၏ သက်ရောက်မှုသည် ဂေဟစနစ် ပျက်စီးရုံသာမက စိုက်ပျိုးရေးနှင့် စီးပွားရေး လုပ်ငန်းတစ်ခုလုံးဆီသို့ပါ ပျံ့နှံ့နေသည်။"
+      },
+      "translationMy": "ကမ္ဘာကြီး ပူနွေးလာမှု၏ သက်ရောက်မှုသည် ဂေဟစနစ် ပျက်စီးရုံသာမက စိုက်ပျိုးရေးနှင့် စီးပွားရေး လုပ်ငန်းတစ်ခုလုံးဆီသို့ပါ ပျံ့နှံ့နေသည်။",
+      "vocabIds": [
+        "n2.l39.v007",
+        "n2.l39.v009"
+      ],
+      "grammarIds": [
+        "n2.l39.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.s002",
+      "lessonId": "n2.l39",
+      "ja": "彼女は学術的な研究のみならず、後進の育成や社会貢献活動にも熱心に取り組んでいる。",
+      "kana": "かのじょはがくじゅつてきなけんきゅうのみならず、こうしんのいくせいやしゃかいこうけんかつどうにもねっしんにとりくんでいる。",
+      "translation": {
+        "en": "She is devoted not only to academic research, but also ardently engages in training juniors and social contribution.",
+        "my": "သူမသည် ပညာရပ်ဆိုင်ရာ သုတေသနများသာမက မျိုးဆက်သစ် ပြုစုပျိုးထောင်ခြင်းနှင့် လူမှုအကျိုးပြု လုပ်ငန်းများတွင်လည်း စိတ်ရောကိုယ်ပါ ကြိုးပမ်းနေသည်။"
+      },
+      "translationMy": "သူမသည် ပညာရပ်ဆိုင်ရာ သုတေသနများသာမက မျိုးဆက်သစ် ပြုစုပျိုးထောင်ခြင်းနှင့် လူမှုအကျိုးပြု လုပ်ငန်းများတွင်လည်း စိတ်ရောကိုယ်ပါ ကြိုးပမ်းနေသည်။",
+      "vocabIds": [
+        "n2.l39.v004",
+        "n2.l39.v010"
+      ],
+      "grammarIds": [
+        "n2.l39.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.s003",
+      "lessonId": "n2.l39",
+      "ja": "今回の法改正は、国内の企業のみならず、我が国で事業を展開する外資系企業にも適用される。",
+      "kana": "こんかいのほうかいせいは、こくないのきぎょうのみならず、わがくにでじぎょうをてんかいするがいしけいきぎょうにもてきようされる。",
+      "translation": {
+        "en": "This legal revision applies not only to domestic corporations, but also to foreign affiliates operating in our nation.",
+        "my": "ယခု ဥပဒေပြင်ဆင်ချက်သည် ပြည်တွင်းကုမ္ပဏီများသာမက ကျွန်ုပ်တို့နိုင်ငံတွင် လုပ်ငန်းလုပ်ကိုင်နေသော နိုင်ငံခြားရင်းနှီးမြှုပ်နှံမှု ကုမ္ပဏီများအပေါ်တွင်လည်း အကျုံးဝင်သည်။"
+      },
+      "translationMy": "ယခု ဥပဒေပြင်ဆင်ချက်သည် ပြည်တွင်းကုမ္ပဏီများသာမက ကျွန်ုပ်တို့နိုင်ငံတွင် လုပ်ငန်းလုပ်ကိုင်နေသော နိုင်ငံခြားရင်းနှီးမြှုပ်နှံမှု ကုမ္ပဏီများအပေါ်တွင်လည်း အကျုံးဝင်သည်။",
+      "vocabIds": [
+        "n2.l39.v008",
+        "n2.l39.v012"
+      ],
+      "grammarIds": [
+        "n2.l39.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.s004",
+      "lessonId": "n2.l39",
+      "ja": "新開発の素材は、耐久性に優れるのみならず、環境への負荷も極めて低い。",
+      "kana": "しんかいはつのそざいは、たいきゅうせいにすぐれるのみならず、かんきょうへのふかもきわめてひくい。",
+      "translation": {
+        "en": "The newly developed material not only boasts superior durability, but also carries an exceedingly low environmental footprint.",
+        "my": "အသစ်တီထွင်လိုက်သော ကုန်ကြမ်းပစ္စည်းသည် ကြာရှည်ခံရုံသာမက သဘာဝပတ်ဝန်းကျင်အပေါ် ထိခိုက်မှုလည်း အလွန်နည်းပါးသည်။"
+      },
+      "translationMy": "အသစ်တီထွင်လိုက်သော ကုန်ကြမ်းပစ္စည်းသည် ကြာရှည်ခံရုံသာမက သဘာဝပတ်ဝန်းကျင်အပေါ် ထိခိုက်မှုလည်း အလွန်နည်းပါးသည်။",
+      "vocabIds": [
+        "n2.l39.v001",
+        "n2.l39.v010"
+      ],
+      "grammarIds": [
+        "n2.l39.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.s005",
+      "lessonId": "n2.l39",
+      "ja": "健康寿命の延伸は高齢者に限らず、若年層にとっても生涯設計の根幹に関わる課題だ。",
+      "kana": "けんこうじゅみょうのえんしんはこうれいしゃにかぎらず、じゃくねんそうにとってもしょうがいせっけいのこんかんにかわるかだいだ。",
+      "translation": {
+        "en": "Extending healthy life expectancy is an issue affecting life planning not just for seniors, but for youth as well.",
+        "my": "ကျန်းမာစွာ အသက်ရှည်ရေးသည် သက်ကြီးရွယ်အိုများတွင်သာ ကန့်သတ်မထားဘဲ လူငယ်များအတွက်ပါ တစ်သက်တာ ဘဝစီမံချက်၏ အဓိကပြဿနာ ဖြစ်သည်။"
+      },
+      "translationMy": "ကျန်းမာစွာ အသက်ရှည်ရေးသည် သက်ကြီးရွယ်အိုများတွင်သာ ကန့်သတ်မထားဘဲ လူငယ်များအတွက်ပါ တစ်သက်တာ ဘဝစီမံချက်၏ အဓိကပြဿနာ ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l39.v003",
+        "n2.l39.v007"
+      ],
+      "grammarIds": [
+        "n2.l39.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.s006",
+      "lessonId": "n2.l39",
+      "ja": "この伝統的な陶芸技術は日本国内に限らず、海外の芸術家たちからも高く評価されている。",
+      "kana": "このでんとうてきなとうげいぎじゅつはにほんこくないにかぎらず、かいがいのげいじゅつかたちからもたかくひょうかされている。",
+      "translation": {
+        "en": "This traditional ceramic art is prized highly not limited to Japan, but also by overseas artists.",
+        "my": "ဤ ရိုးရာမြေထည် အနုပညာ နည်းပညာသည် ဂျပန်ပြည်တွင်း၌သာ ကန့်သတ်မထားဘဲ ပြည်ပ အနုပညာရှင်များထံမှပါ မြင့်မားစွာ အသိအမှတ်ပြုခံရသည်။"
+      },
+      "translationMy": "ဤ ရိုးရာမြေထည် အနုပညာ နည်းပညာသည် ဂျပန်ပြည်တွင်း၌သာ ကန့်သတ်မထားဘဲ ပြည်ပ အနုပညာရှင်များထံမှပါ မြင့်မားစွာ အသိအမှတ်ပြုခံရသည်။",
+      "vocabIds": [
+        "n2.l39.v003",
+        "n2.l39.v010"
+      ],
+      "grammarIds": [
+        "n2.l39.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.s007",
+      "lessonId": "n2.l39",
+      "ja": "借入金の限度額を厳格に制限することは、枠内の健全な財務規律を維持する上で不可欠だ。",
+      "kana": "かりいれきんのげんどがくをげんかくにせいげんすることは、わくないのけんぜんなざいむきりつをいじするうえでふかけつだ。",
+      "translation": {
+        "en": "Strictly limiting borrowing caps is essential for maintaining sound fiscal discipline within the bounds.",
+        "my": "ချေးငွေ ကန့်သတ်ချက်ပမာဏကို တင်းကျပ်စွာ ကန့်သတ်ထားခြင်းသည် ဘောင်အတွင်း၌ ကောင်းမွန်သော ဘဏ္ဍာရေးစည်းကမ်း ထိန်းသိမ်းရန် မရှိမဖြစ် ဖြစ်သည်။"
+      },
+      "translationMy": "ချေးငွေ ကန့်သတ်ချက်ပမာဏကို တင်းကျပ်စွာ ကန့်သတ်ထားခြင်းသည် ဘောင်အတွင်း၌ ကောင်းမွန်သော ဘဏ္ဍာရေးစည်းကမ်း ထိန်းသိမ်းရန် မရှိမဖြစ် ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l39.v002",
+        "n2.l39.v006",
+        "n2.l39.v008"
+      ],
+      "grammarIds": [
+        "n2.l39.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.s008",
+      "lessonId": "n2.l39",
+      "ja": "情報漏洩のリスクは大企業に限らず、個人事業主であっても厳重に対策を講じるべきだ。",
+      "kana": "じょうほうろうえいのリスクはだいきぎょうにかぎらず、こじんじぎょうぬしであってもげんじゅうにたいさくをこうじるべきだ。",
+      "translation": {
+        "en": "The risk of data leaks is not limited to large enterprises; even sole proprietors ought to implement strict measures.",
+        "my": "သတင်းအချက်အလက် ပေါက်ကြားမှု အန္တရာယ်သည် ကုမ္ပဏီကြီးများတွင်သာ ကန့်သတ်မထားဘဲ တစ်ဦးတည်းလုပ်ငန်းရှင်များပင် တင်းကျပ်စွာ ကာကွယ်သင့်သည်။"
+      },
+      "translationMy": "သတင်းအချက်အလက် ပေါက်ကြားမှု အန္တရာယ်သည် ကုမ္ပဏီကြီးများတွင်သာ ကန့်သတ်မထားဘဲ တစ်ဦးတည်းလုပ်ငန်းရှင်များပင် တင်းကျပ်စွာ ကာကွယ်သင့်သည်။",
+      "vocabIds": [
+        "n2.l39.v005",
+        "n2.l39.v008"
+      ],
+      "grammarIds": [
+        "n2.l39.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.s009",
+      "lessonId": "n2.l39",
+      "ja": "金融危機の余波は一国の市場にとどまらず、瞬く間に全世界の証券市場へと波及した。",
+      "kana": "きんゆうききのよわはいっこくのしじょうにとどまらず、またたくまにぜんせかいのしょうけんしじょうへとはきゅうした。",
+      "translation": {
+        "en": "Repercussions of the financial crisis did not halt at one nation's market, but rippled in a flash across global markets.",
+        "my": "ဘဏ္ဍာရေး အကျပ်အတည်း၏ နောက်ဆက်တွဲ လှိုင်းဂယက်သည် နိုင်ငံတစ်ခုတည်း၏ ဈေးကွက်တွင်သာ ရပ်တန့်မနေဘဲ မျက်စိတစ်မှိတ်အတွင်း ကမ္ဘာ့စတော့ဈေးကွက်အားလုံးဆီသို့ ပျံ့နှံ့သွားခဲ့သည်။"
+      },
+      "translationMy": "ဘဏ္ဍာရေး အကျပ်အတည်း၏ နောက်ဆက်တွဲ လှိုင်းဂယက်သည် နိုင်ငံတစ်ခုတည်း၏ ဈေးကွက်တွင်သာ ရပ်တန့်မနေဘဲ မျက်စိတစ်မှိတ်အတွင်း ကမ္ဘာ့စတော့ဈေးကွက်အားလုံးဆီသို့ ပျံ့နှံ့သွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l39.v003",
+        "n2.l39.v009"
+      ],
+      "grammarIds": [
+        "n2.l39.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.s010",
+      "lessonId": "n2.l39",
+      "ja": "生成AIの影響力はIT産業にとどまらず、教育、医療、芸術などあらゆる領域を席巻している。",
+      "kana": "せいせいAIのえいきょうりょくはITさんぎょうにとどまらず、きょういく、いりょう、げいじゅつなどあらゆるりょういきをせっけんしている。",
+      "translation": {
+        "en": "The influence of generative AI does not stop at the IT sector, but sweeps across all domains including education and medicine.",
+        "my": "မျိုးဆက်သစ် AI နည်းပညာ၏ ဩဇာလွှမ်းမိုးမှုသည် အိုင်တီလုပ်ငန်းတွင်သာ မရပ်တန့်ဘဲ ပညာရေး၊ ဆေးပညာ၊ အနုပညာ စသည့် နယ်ပယ်အားလုံးဆီသို့ လွှမ်းခြုံရောက်ရှိနေသည်။"
+      },
+      "translationMy": "မျိုးဆက်သစ် AI နည်းပညာ၏ ဩဇာလွှမ်းမိုးမှုသည် အိုင်တီလုပ်ငန်းတွင်သာ မရပ်တန့်ဘဲ ပညာရေး၊ ဆေးပညာ၊ အနုပညာ စသည့် နယ်ပယ်အားလုံးဆီသို့ လွှမ်းခြုံရောက်ရှိနေသည်။",
+      "vocabIds": [
+        "n2.l39.v004",
+        "n2.l39.v012"
+      ],
+      "grammarIds": [
+        "n2.l39.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.s011",
+      "lessonId": "n2.l39",
+      "ja": "紛争による被害は国境地帯にとどまらず、内陸部の重要インフラにも壊滅的打撃を与えた。",
+      "kana": "ふんそうによるひがいはこっきょうちたいにとどまらず、ないりくぶのじゅうようインフラにもかいめつてきだげきをあたえた。",
+      "translation": {
+        "en": "Damage from the conflict did not halt at the border zone, but inflicted devastating blows on key inland infrastructure.",
+        "my": "ပဋိပက္ခကြောင့် ထိခိုက်မှုများသည် နယ်စပ်ဒေသတွင်သာ မရပ်တန့်ဘဲ ကုန်းတွင်းပိုင်း အရေးကြီးသော အဆောက်အအုံများဆီသို့ပါ ပြင်းထန်သော ထိုးနှက်ချက် ဖြစ်စေခဲ့သည်။"
+      },
+      "translationMy": "ပဋိပက္ခကြောင့် ထိခိုက်မှုများသည် နယ်စပ်ဒေသတွင်သာ မရပ်တန့်ဘဲ ကုန်းတွင်းပိုင်း အရေးကြီးသော အဆောက်အအုံများဆီသို့ပါ ပြင်းထန်သော ထိုးနှက်ချက် ဖြစ်စေခဲ့သည်။",
+      "vocabIds": [
+        "n2.l39.v003",
+        "n2.l39.v007"
+      ],
+      "grammarIds": [
+        "n2.l39.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l39.s012",
+      "lessonId": "n2.l39",
+      "ja": "感染症の流行は公衆衛生の問題にとどまらず、国際的なサプライチェーンの麻痺を招いた。",
+      "kana": "かんせんしょうのりゅうこうはこうしゅうえいせいのもんだいにとどまらず、こくさいてきなサプライチェーンのまひをまねいた。",
+      "translation": {
+        "en": "The epidemic did not stop at a public health issue, but triggered the paralysis of international supply chains.",
+        "my": "ကူးစက်ရောဂါ ပြန့်ပွားမှုသည် ပြည်သူ့ကျန်းမာရေး ပြဿနာတစ်ခုတည်းတွင် မရပ်တန့်ဘဲ နိုင်ငံတကာ ထောက်ပံ့ပို့ဆောင်ရေး ကွင်းဆက် ရပ်ဆိုင်းမှုကို ဖြစ်ပေါ်စေခဲ့သည်။"
+      },
+      "translationMy": "ကူးစက်ရောဂါ ပြန့်ပွားမှုသည် ပြည်သူ့ကျန်းမာရေး ပြဿနာတစ်ခုတည်းတွင် မရပ်တန့်ဘဲ နိုင်ငံတကာ ထောက်ပံ့ပို့ဆောင်ရေး ကွင်းဆက် ရပ်ဆိုင်းမှုကို ဖြစ်ပေါ်စေခဲ့သည်။",
+      "vocabIds": [
+        "n2.l39.v009",
+        "n2.l39.v011"
+      ],
+      "grammarIds": [
+        "n2.l39.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l39.r001",
+    "lessonId": "n2.l39",
+    "title": "デジタル変革の波及効果と制度的枠組みの再構築",
+    "level": "N2",
+    "text": "現代におけるデジタルトランスフォーメーションは、通信業界のみならず、あらゆる産業分野の構造転換を急速に促している。その変革の恩恵は一部の大企業に限らず、地方の中小企業や個人の生活者にとっても計り知れないものがある。しかしながら、データ主権をめぐる摩擦は一国の国内問題にとどまらず、国際的な地政学リスクへと波及しているのが実情である。国境を越えて拡散する情報の公正な利用とプライバシー保護を両立させるため、従来の法的枠組みを包括的に見直すことが不可欠とされている。",
+    "kanaText": "げんだいにおけるデジタルトランスフォーメーションは、つうしんぎょうかいのみならず、あらゆるさんぎょうぶんやのこうぞうてんかんをきゅうそくにうながしている。そのへんかくのおんけいはいちぶのだいきぎょうにかぎらず、ちほうのちゅうしょうきぎょうやこじんのせいかつしゃにとってもはかりしれないものがある。しかしながら、データしゅけんをめぐるまさつはいっこくのこくないもんだいにとどまらず、こくさいてきなちせいがくリスクへとはきゅうしているのがじつじょうである。こっきょうをこえてかくさんするじょうほうのこうせいなりようとプライバシーほごをりょうりつさせるため、じゅうらいのほうてきわくぐみをほうかつてきにみなおすことがふかけつとされている。",
+    "translation": "မျက်မှောက်ခေတ်တွင် ဒီဂျစ်တယ် အသွင်ကူးပြောင်းမှုသည် ဆက်သွယ်ရေး လုပ်ငန်းကဏ္ဍတွင်သာမက စက်မှုလုပ်ငန်း နယ်ပယ်အားလုံး၏ ဖွဲ့စည်းပုံ အပြောင်းအလဲကို လျင်မြန်စွာ ဖြစ်ပေါ်စေလျက်ရှိသည်။ ထိုပြောင်းလဲမှု၏ အကျိုးကျေးဇူးသည် အချို့သော ကုမ္ပဏီကြီးများတွင်သာ ကန့်သတ်မထားဘဲ နယ်ဘက် အသေးစားလုပ်ငန်းများနှင့် လူတစ်ဦးချင်းစီ၏ နေ့စဉ်ဘဝများအတွက်ပါ တိုင်းတာ၍ မရနိုင်လောက်အောင် ကြီးမားလှသည်။ သို့သော် အချက်အလက် ပိုင်ဆိုင်ခွင့်ဆိုင်ရာ ပွတ်တိုက်မှုများသည် နိုင်ငံတစ်ခု၏ ပြည်တွင်းပြဿနာမျှတွင်သာ မရပ်တန့်ဘဲ နိုင်ငံတကာ ပထဝီနိုင်ငံရေး အန္တရာယ်များဆီသို့ လှိုင်းဂယက် ရိုက်ခတ်နေသည်မှာ လက်တွေ့ အခြေအနေပင် ဖြစ်သည်။ နယ်စပ်ဖြတ်ကျော် ပျံ့နှံ့နေသော သတင်းအချက်အလက်များကို တရားမျှတစွာ အသုံးပြုခြင်းနှင့် ကိုယ်ရေးလုံခြုံမှု ကာကွယ်ခြင်းတို့ကို ဟန်ချက်ညီစေရန် မူလ ဥပဒေမူဘောင်များကို ဘက်စုံ ပြန်လည်သုံးသပ်ရန် မရှိမဖြစ် လိုအပ်ပေသည်။",
+    "translationMy": "မျက်မှောက်ခေတ်တွင် ဒီဂျစ်တယ် အသွင်ကူးပြောင်းမှုသည် ဆက်သွယ်ရေး လုပ်ငန်းကဏ္ဍတွင်သာမက စက်မှုလုပ်ငန်း နယ်ပယ်အားလုံး၏ ဖွဲ့စည်းပုံ အပြောင်းအလဲကို လျင်မြန်စွာ ဖြစ်ပေါ်စေလျက်ရှိသည်။ ထိုပြောင်းလဲမှု၏ အကျိုးကျေးဇူးသည် အချို့သော ကုမ္ပဏီကြီးများတွင်သာ ကန့်သတ်မထားဘဲ နယ်ဘက် အသေးစားလုပ်ငန်းများနှင့် လူတစ်ဦးချင်းစီ၏ နေ့စဉ်ဘဝများအတွက်ပါ တိုင်းတာ၍ မရနိုင်လောက်အောင် ကြီးမားလှသည်။ သို့သော် အချက်အလက် ပိုင်ဆိုင်ခွင့်ဆိုင်ရာ ပွတ်တိုက်မှုများသည် နိုင်ငံတစ်ခု၏ ပြည်တွင်းပြဿနာမျှတွင်သာ မရပ်တန့်ဘဲ နိုင်ငံတကာ ပထဝီနိုင်ငံရေး အန္တရာယ်များဆီသို့ လှိုင်းဂယက် ရိုက်ခတ်နေသည်မှာ လက်တွေ့ အခြေအနေပင် ဖြစ်သည်။ နယ်စပ်ဖြတ်ကျော် ပျံ့နှံ့နေသော သတင်းအချက်အလက်များကို တရားမျှတစွာ အသုံးပြုခြင်းနှင့် ကိုယ်ရေးလုံခြုံမှု ကာကွယ်ခြင်းတို့ကို ဟန်ချက်ညီစေရန် မူလ ဥပဒေမူဘောင်များကို ဘက်စုံ ပြန်လည်သုံးသပ်ရန် မရှိမဖြစ် လိုအပ်ပေသည်။",
+    "questionIds": [
+      "n2.l39.q025",
+      "n2.l39.q026",
+      "n2.l39.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "データ主権",
+        "reading": "データしゅけん",
+        "meaning": "data sovereignty",
+        "meaningMy": "data sovereignty",
+        "meaningMyanmar": "data sovereignty"
+      },
+      {
+        "term": "地政学リスク",
+        "reading": "ちせいがくリスク",
+        "meaning": "geopolitical risk",
+        "meaningMy": "geopolitical risk",
+        "meaningMyanmar": "geopolitical risk"
+      },
+      {
+        "term": "構造転換",
+        "reading": "こうぞうてんかん",
+        "meaning": "structural shift",
+        "meaningMy": "structural shift",
+        "meaningMyanmar": "structural shift"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l39.lis001",
+    "lessonId": "n2.l39",
+    "title": "新製品の市場展開とグローバル波及戦略",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "広瀬役員",
+      "島田マーケティング部長"
+    ],
+    "transcript": "広瀬役員: 島田さん、今回のエコ家電は国内市場のみならず、アジア全域で高い評価を得ているようですね。\n島田マーケティング部長: はい。環境志向の富裕層に限らず、一般のファミリー層からも絶大な支持をいただいております。\n広瀬役員: その人気は家電市場にとどまらず、関連のスマートホーム事業全体にも波及しそうですね。\n島田マーケティング部長: おっしゃる通りです。枠組みを超えた異業種との包括的提携を急速に進めております。",
+    "translation": "広瀬役員: မစ္စတာရှီမဒ၊ ဒီတစ်ကြိမ် သဘာဝပတ်ဝန်းကျင်ထိန်း လျှပ်စစ်ပစ္စည်းက ပြည်တွင်းဈေးကွက်မှာသာမက အာရှတစ်ခွင်လုံးမှာပါ အဆင့်မြင့် အသိအမှတ်ပြုခံနေရတယ်နော်။\n島田マーケティング部長: ဟုတ်ကဲ့ပါ။ ပတ်ဝန်းကျင်ထိန်းသိမ်းလိုတဲ့ လူကုံထံတွေမှာသာ ကန့်သတ်မထားဘဲ သာမန်မိသားစုတွေဆီကပါ ကြီးမားတဲ့ ထောက်ခံမှု ရရှိနေပါတယ်။\n広瀬役員: ဒီရေပန်းစားမှုက လျှပ်စစ်ပစ္စည်းဈေးကွက်မှာတင် မရပ်တန့်ဘဲ ဆက်စပ် စမတ်အိမ်ရာ လုပ်ငန်းတစ်ခုလုံးဆီကိုပါ လှိုင်းရိုက်ခတ်သွားမယ့်ပုံပဲ။\n島田マーケティング部長: ဆရာကြီး ပြောသလိုပါပဲ။ သမရိုးကျ မူဘောင်တွေကို ကျော်လွန်ပြီး မတူညီတဲ့ လုပ်ငန်းနယ်ပယ်တွေနဲ့ ဘက်စုံ ပူးပေါင်းဆောင်ရွက်မှုတွေ လျင်မြန်စွာ လုပ်ဆောင်နေပါတယ်။",
+    "translationMy": "広瀬役員: မစ္စတာရှီမဒ၊ ဒီတစ်ကြိမ် သဘာဝပတ်ဝန်းကျင်ထိန်း လျှပ်စစ်ပစ္စည်းက ပြည်တွင်းဈေးကွက်မှာသာမက အာရှတစ်ခွင်လုံးမှာပါ အဆင့်မြင့် အသိအမှတ်ပြုခံနေရတယ်နော်။\n島田マーケティング部長: ဟုတ်ကဲ့ပါ။ ပတ်ဝန်းကျင်ထိန်းသိမ်းလိုတဲ့ လူကုံထံတွေမှာသာ ကန့်သတ်မထားဘဲ သာမန်မိသားစုတွေဆီကပါ ကြီးမားတဲ့ ထောက်ခံမှု ရရှိနေပါတယ်။\n広瀬役員: ဒီရေပန်းစားမှုက လျှပ်စစ်ပစ္စည်းဈေးကွက်မှာတင် မရပ်တန့်ဘဲ ဆက်စပ် စမတ်အိမ်ရာ လုပ်ငန်းတစ်ခုလုံးဆီကိုပါ လှိုင်းရိုက်ခတ်သွားမယ့်ပုံပဲ။\n島田マーケティング部長: ဆရာကြီး ပြောသလိုပါပဲ။ သမရိုးကျ မူဘောင်တွေကို ကျော်လွန်ပြီး မတူညီတဲ့ လုပ်ငန်းနယ်ပယ်တွေနဲ့ ဘက်စုံ ပူးပေါင်းဆောင်ရွက်မှုတွေ လျင်မြန်စွာ လုပ်ဆောင်နေပါတယ်။",
+    "turns": [
+      {
+        "speaker": "広瀬役員",
+        "ja": "島田さん、今回のエコ家電は国内市場のみならず、アジア全域で高い評価を得ているようですね。",
+        "kana": "ひろせやくいん、しまださん、こんかいのエコかでんはこくないしじょうのみならず、アジアぜんいきでたかいひょうかをえているようですね。",
+        "en": "Shimada-san, this eco-appliance seems to be winning acclaim not only in the domestic market, but across Asia, doesn't it?",
+        "my": "မစ္စတာရှီမဒ၊ ဒီတစ်ကြိမ် သဘာဝပတ်ဝန်းကျင်ထိန်း လျှပ်စစ်ပစ္စည်းက ပြည်တွင်းဈေးကွက်မှာသာမက အာရှတစ်ခွင်လုံးမှာပါ အဆင့်မြင့် အသိအမှတ်ပြုခံနေရတယ်နော်။",
+        "translationMy": "မစ္စတာရှီမဒ၊ ဒီတစ်ကြိမ် သဘာဝပတ်ဝန်းကျင်ထိန်း လျှပ်စစ်ပစ္စည်းက ပြည်တွင်းဈေးကွက်မှာသာမက အာရှတစ်ခွင်လုံးမှာပါ အဆင့်မြင့် အသိအမှတ်ပြုခံနေရတယ်နော်။",
+        "myanmar": "မစ္စတာရှီမဒ၊ ဒီတစ်ကြိမ် သဘာဝပတ်ဝန်းကျင်ထိန်း လျှပ်စစ်ပစ္စည်းက ပြည်တွင်းဈေးကွက်မှာသာမက အာရှတစ်ခွင်လုံးမှာပါ အဆင့်မြင့် အသိအမှတ်ပြုခံနေရတယ်နော်။"
+      },
+      {
+        "speaker": "島田マーケティング部長",
+        "ja": "はい。環境志向の富裕層に限らず、一般のファミリー層からも絶大な支持をいただいております。",
+        "kana": "はい。かんきょうしこうのふゆうそうにかぎらず、いっぱんのファミリーそうからもぜつだいなしじをいただいております。",
+        "en": "Yes. Support is pouring in not just from eco-conscious wealthy customers, but from ordinary family households as well.",
+        "my": "ဟုတ်ကဲ့ပါ။ ပတ်ဝန်းကျင်ထိန်းသိမ်းလိုတဲ့ လူကုံထံတွေမှာသာ ကန့်သတ်မထားဘဲ သာမန်မိသားစုတွေဆီကပါ ကြီးမားတဲ့ ထောက်ခံမှု ရရှိနေပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့ပါ။ ပတ်ဝန်းကျင်ထိန်းသိမ်းလိုတဲ့ လူကုံထံတွေမှာသာ ကန့်သတ်မထားဘဲ သာမန်မိသားစုတွေဆီကပါ ကြီးမားတဲ့ ထောက်ခံမှု ရရှိနေပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့ပါ။ ပတ်ဝန်းကျင်ထိန်းသိမ်းလိုတဲ့ လူကုံထံတွေမှာသာ ကန့်သတ်မထားဘဲ သာမန်မိသားစုတွေဆီကပါ ကြီးမားတဲ့ ထောက်ခံမှု ရရှိနေပါတယ်။"
+      },
+      {
+        "speaker": "広瀬役員",
+        "ja": "その人気は家電市場にとどまらず、関連のスマートホーム事業全体にも波及しそうですね。",
+        "kana": "そのにんきはかでんしじょうにとどまらず、かんれんのスマートホームじぎょうぜんたいにもはきゅうしそうですね。",
+        "en": "That popularity won't just stop at appliances; it seems likely to spill over into the whole smart home sector.",
+        "my": "ဒီရေပန်းစားမှုက လျှပ်စစ်ပစ္စည်းဈေးကွက်မှာတင် မရပ်တန့်ဘဲ ဆက်စပ် စမတ်အိမ်ရာ လုပ်ငန်းတစ်ခုလုံးဆီကိုပါ လှိုင်းရိုက်ခတ်သွားမယ့်ပုံပဲ။",
+        "translationMy": "ဒီရေပန်းစားမှုက လျှပ်စစ်ပစ္စည်းဈေးကွက်မှာတင် မရပ်တန့်ဘဲ ဆက်စပ် စမတ်အိမ်ရာ လုပ်ငန်းတစ်ခုလုံးဆီကိုပါ လှိုင်းရိုက်ခတ်သွားမယ့်ပုံပဲ။",
+        "myanmar": "ဒီရေပန်းစားမှုက လျှပ်စစ်ပစ္စည်းဈေးကွက်မှာတင် မရပ်တန့်ဘဲ ဆက်စပ် စမတ်အိမ်ရာ လုပ်ငန်းတစ်ခုလုံးဆီကိုပါ လှိုင်းရိုက်ခတ်သွားမယ့်ပုံပဲ။"
+      },
+      {
+        "speaker": "島田マーケティング部長",
+        "ja": "おっしゃる通りです。枠組みを超えた異業種との包括的提携を急速に進めております。",
+        "kana": "おっしゃるとおりです。わくぐみをこえたいぎょうしゅとのほうかつてきていけいをきゅうそくにすすめております。",
+        "en": "Exactly. We are rapidly advancing comprehensive partnerships with other industries beyond conventional frameworks.",
+        "my": "ဆရာကြီး ပြောသလိုပါပဲ။ သမရိုးကျ မူဘောင်တွေကို ကျော်လွန်ပြီး မတူညီတဲ့ လုပ်ငန်းနယ်ပယ်တွေနဲ့ ဘက်စုံ ပူးပေါင်းဆောင်ရွက်မှုတွေ လျင်မြန်စွာ လုပ်ဆောင်နေပါတယ်။",
+        "translationMy": "ဆရာကြီး ပြောသလိုပါပဲ။ သမရိုးကျ မူဘောင်တွေကို ကျော်လွန်ပြီး မတူညီတဲ့ လုပ်ငန်းနယ်ပယ်တွေနဲ့ ဘက်စုံ ပူးပေါင်းဆောင်ရွက်မှုတွေ လျင်မြန်စွာ လုပ်ဆောင်နေပါတယ်။",
+        "myanmar": "ဆရာကြီး ပြောသလိုပါပဲ။ သမရိုးကျ မူဘောင်တွေကို ကျော်လွန်ပြီး မတူညီတဲ့ လုပ်ငန်းနယ်ပယ်တွေနဲ့ ဘက်စုံ ပူးပေါင်းဆောင်ရွက်မှုတွေ လျင်မြန်စွာ လုပ်ဆောင်နေပါတယ်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l39.q028",
+      "n2.l39.q029",
+      "n2.l39.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l39.q001",
+      "lessonId": "n2.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "これ以上先には進めないギリギリの境目のことを「[ _____ ]」という。",
+      "choices": [
+        "限界",
+        "限度",
+        "地域",
+        "枠組み"
+      ],
+      "answer": "限界",
+      "explanation": "限界 (げんかい) means limit or boundary.",
+      "explanationMy": "ထပ်မံမကျော်လွန်နိုင်သော အဆုံးစွန် ကန့်သတ်ချက်မှာ 限界 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q002",
+      "lessonId": "n2.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "認められている最大の範囲や分量のことを「[ _____ ]」という。",
+      "choices": [
+        "限度",
+        "領域",
+        "枠内",
+        "普遍"
+      ],
+      "answer": "限度",
+      "explanation": "限度 (げんど) refers to maximum allowable limit.",
+      "explanationMy": "ခွင့်ပြုထားသော အမြင့်ဆုံး ပမာဏအတိုင်းအတာမှာ 限度 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q003",
+      "lessonId": "n2.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "区切られた特定の土地や場所のことを「[ _____ ]」という。",
+      "choices": [
+        "地域",
+        "領域",
+        "制限",
+        "波及"
+      ],
+      "answer": "地域",
+      "explanation": "地域 (ちいき) denotes region or area.",
+      "explanationMy": "သတ်မှတ်ထားသော ဒေသန္တရနယ်မြေမှာ 地域 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q004",
+      "lessonId": "n2.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "学問や勢力が及ぶ固有の専門分野や範囲を「[ _____ ]」という。",
+      "choices": [
+        "領域",
+        "限界",
+        "限度",
+        "包括"
+      ],
+      "answer": "領域",
+      "explanation": "領域 (りょういき) means domain or field.",
+      "explanationMy": "အာဏာ သို့မဟုတ် ပညာရပ် သက်ရောက်ရာ နယ်ပယ်မှာ 領域 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q005",
+      "lessonId": "n2.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "計画や思考を進めるための基本的な骨組みを「[ _____ ]」という。",
+      "choices": [
+        "枠組み",
+        "波及",
+        "普遍",
+        "拡散"
+      ],
+      "answer": "枠組み",
+      "explanation": "枠組み (わくぐみ) refers to framework.",
+      "explanationMy": "အခြေခံ မူဘောင် ဖွဲ့စည်းပုံမှာ 枠組み ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q006",
+      "lessonId": "n2.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "決められたワクの境界線の内側のことを「[ _____ ]」という。",
+      "choices": [
+        "枠内",
+        "限界",
+        "地域",
+        "制限"
+      ],
+      "answer": "枠内",
+      "explanation": "枠内 (わくない) means within the frame or boundary.",
+      "explanationMy": "ဘောင်အတွင်း၌ တည်ရှိနေခြင်းမှာ 枠内 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q007",
+      "lessonId": "n2.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "一つの出来事の影響が周囲に次々と広がっていくことを「[ _____ ]」という。",
+      "choices": [
+        "波及",
+        "制限",
+        "普遍",
+        "包括"
+      ],
+      "answer": "波及",
+      "explanation": "波及 (はきゅう) denotes ripple effect or repercussion.",
+      "explanationMy": "အကျိုးသက်ရောက်မှု လှိုင်းဂယက် ပျံ့နှံ့သွားခြင်းမှာ 波及 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q008",
+      "lessonId": "n2.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "広く全体を一つにひっくるめてまとめることを「[ _____ ]」という。",
+      "choices": [
+        "包括",
+        "拡散",
+        "波及",
+        "限界"
+      ],
+      "answer": "包括",
+      "explanation": "包括 (ほうかつ) means comprehensive inclusion.",
+      "explanationMy": "ဘက်စုံ လွှမ်းခြုံပါဝင် ပေါင်းစည်းခြင်းမှာ 包括 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q009",
+      "lessonId": "n2.l39",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「限」の訓読みとして正しいものはどれか。",
+      "choices": [
+        "かぎ・る",
+        "わく",
+        "さかい",
+        "はか・る"
+      ],
+      "answer": "かぎ・る",
+      "explanation": "限 has the kunyomi かぎ・る.",
+      "explanationMy": "限 ၏ Kunyomi အသံထွက်မှာ かぎ・る ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q010",
+      "lessonId": "n2.l39",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "単語「地域」の漢字「域」の音読みはどれか。",
+      "choices": [
+        "イキ",
+        "エキ",
+        "ゲキ",
+        "ショク"
+      ],
+      "answer": "イキ",
+      "explanation": "域 has the onyomi イキ.",
+      "explanationMy": "域 ၏ Onyomi အသံထွက်မှာ イキ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q011",
+      "lessonId": "n2.l39",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「枠」の訓読みとして正しいものはどれか。",
+      "choices": [
+        "わく",
+        "かぎり",
+        "ふち",
+        "すじ"
+      ],
+      "answer": "わく",
+      "explanation": "枠 is read as わく in kunyomi.",
+      "explanationMy": "枠 ၏ Kunyomi အသံထွက်မှာ わく ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q012",
+      "lessonId": "n2.l39",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「領域」の正しい読み方はどれか。",
+      "choices": [
+        "りょういき",
+        "りょうえき",
+        "れいざし",
+        "りょうげき"
+      ],
+      "answer": "りょういき",
+      "explanation": "領域 is read as りょういき.",
+      "explanationMy": "領域 ၏ အသံထွက်မှာ りょういき ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q013",
+      "lessonId": "n2.l39",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "部首「阝（こざとへん）」を持つ「限」の総画数はいくつか。",
+      "choices": [
+        "9画",
+        "8画",
+        "10画",
+        "11画"
+      ],
+      "answer": "9画",
+      "explanation": "限 has 9 strokes.",
+      "explanationMy": "限 စာလုံး၏ စုစုပေါင်း မျဉ်းဆွဲချက်မှာ ၉ ချက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q014",
+      "lessonId": "n2.l39",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「枠組み」の正しい読み方はどれか。",
+      "choices": [
+        "わくぐみ",
+        "わくくみ",
+        "きぐみ",
+        "りんぐみ"
+      ],
+      "answer": "わくぐみ",
+      "explanation": "枠組み is read as わくぐみ.",
+      "explanationMy": "枠組み ၏ အသံထွက်မှာ わくぐみ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q015",
+      "lessonId": "n2.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "今回の不祥事は企業の信頼を失墜させた[ _____ ]、業界全体のイメージをも悪化させた。",
+      "choices": [
+        "のみならず",
+        "に限らず",
+        "にとどまらず",
+        "反面"
+      ],
+      "answer": "のみならず",
+      "explanation": "のみならず introduces an additional formal layer of damage.",
+      "explanationMy": "ကုမ္ပဏီ၏ ယုံကြည်မှုကို ထိခိုက်စေရုံသာမက လုပ်ငန်းတစ်ခုလုံးကိုပါ ပျက်စီးစေကြောင်း のみならず ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q016",
+      "lessonId": "n2.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "若者[ _____ ]、あらゆる世代でキャッシュレス決済が急速に普及している。",
+      "choices": [
+        "に限らず",
+        "のみならず",
+        "にとどまらず",
+        "ばかりに"
+      ],
+      "answer": "に限らず",
+      "explanation": "に限らず broadens applicability from youth to all generations.",
+      "explanationMy": "လူငယ်များတွင်သာ ကန့်သတ်မထားဘဲ အသက်အရွယ်မရွေး သုံးစွဲနေကြပုံကို に限らず ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q017",
+      "lessonId": "n2.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "被害は被災地[ _____ ]、全国の物流ネットワーク全体にまで及んだ。",
+      "choices": [
+        "にとどまらず",
+        "に限らず",
+        "のみならず",
+        "ものの"
+      ],
+      "answer": "にとどまらず",
+      "explanation": "にとどまらず emphasizes damage escalating beyond the disaster zone.",
+      "explanationMy": "ဘေးသင့်ဒေသတွင်သာ ရပ်တန့်မနေဘဲ နိုင်ငံတစ်ဝန်းသို့ ပျံ့နှံ့သွားပုံကို にとどまらず ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q018",
+      "lessonId": "n2.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "彼は語学が堪能である[ _____ ]、ITプログラミングの分野でも一流の腕を持つ。",
+      "choices": [
+        "のみならず",
+        "に限らず",
+        "にとどまらず",
+        "といっても"
+      ],
+      "answer": "のみならず",
+      "explanation": "のみならず formally coordinates language skill with programming competence.",
+      "explanationMy": "ဘာသာစကား ကျွမ်းကျင်ရုံသာမက ပရိုဂရမ်ရေးရာတွင်ပါ ထူးချွန်ကြောင်း のみならず ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q019",
+      "lessonId": "n2.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "平日に[ _____ ]、休日であっても図書館を市民に無料開放している。",
+      "choices": [
+        "限らず",
+        "のみならず",
+        "とどまらず",
+        "反面"
+      ],
+      "answer": "限らず",
+      "explanation": "平日に限らず indicates openness across both weekdays and weekends.",
+      "explanationMy": "ရုံးဖွင့်ရက်များတွင်သာ ကန့်သတ်မထားဘဲ ပိတ်ရက်များတွင်ပါ ဖွင့်လှစ်ပေးကြောင်း 限らず ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q020",
+      "lessonId": "n2.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "戦争の悲惨さは戦場[ _____ ]、戦後何世代にもわたる人々の心に傷痕を残す。",
+      "choices": [
+        "にとどまらず",
+        "に限らず",
+        "のみならず",
+        "からこそ"
+      ],
+      "answer": "にとどまらず",
+      "explanation": "にとどまらず highlights trauma surpassing the battlefield into generations.",
+      "explanationMy": "စစ်မြေပြင်တွင်သာ ရပ်တန့်မနေဘဲ နောင်မျိုးဆက်များဆီသို့ပါ စိတ်ဒဏ်ရာ ကျန်ရစ်စေပုံကို にとどまらず ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q021",
+      "lessonId": "n2.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "この製品は性能が高い[ _____ ]、デザインの美しさでも国際的な賞を受賞した。",
+      "choices": [
+        "のみならず",
+        "に限らず",
+        "にとどまらず",
+        "てならない"
+      ],
+      "answer": "のみならず",
+      "explanation": "のみならず pairs high performance with winning design awards.",
+      "explanationMy": "စွမ်းဆောင်ရည် မြင့်မားရုံသာမက ဒီဇိုင်းလှပမှုအတွက်ပါ ဆုရရှိခဲ့ပုံကို のみならず ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q022",
+      "lessonId": "n2.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "大都市に[ _____ ]、地方の過疎地域においても医師不足が極めて深刻化している。",
+      "choices": [
+        "限らず",
+        "のみならず",
+        "とどまらず",
+        "ばかりに"
+      ],
+      "answer": "限らず",
+      "explanation": "大都市に限らず notes doctor shortage affects both rural and urban areas.",
+      "explanationMy": "မြို့ကြီးများတွင်သာ ကန့်သတ်မထားဘဲ နယ်ဘက်များတွင်ပါ ဆရာဝန်ရှားပါးနေပုံကို 限らず ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q023",
+      "lessonId": "n2.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "その革新的な技術は医療分野[ _____ ]、宇宙開発の領域にまで応用されている。",
+      "choices": [
+        "にとどまらず",
+        "に限らず",
+        "のみならず",
+        "べきだ"
+      ],
+      "answer": "にとどまらず",
+      "explanation": "にとどまらず marks expansion from medicine into space exploration.",
+      "explanationMy": "ဆေးပညာ ကဏ္ဍတွင်သာ ရပ်တန့်မနေဘဲ အာကာသနယ်ပယ်အထိ အသုံးချနေပုံကို にとどまらず ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q024",
+      "lessonId": "n2.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "教育の目的は知識の習得[ _____ ]、豊かな人間性と倫理観の陶冶にある。",
+      "choices": [
+        "のみならず",
+        "に限らず",
+        "にとどまらず",
+        "やまない"
+      ],
+      "answer": "のみならず",
+      "explanation": "のみならず coordinates knowledge acquisition with cultivating character.",
+      "explanationMy": "ဗဟုသုတ သင်ယူရုံသာမက လူ့ကျင့်ဝတ် မွေးမြူခြင်းလည်း ဖြစ်ကြောင်း のみならず ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q025",
+      "lessonId": "n2.l39",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文においてデジタルトランスフォーメーションはどこに影響を及ぼしていると述べられているか。",
+      "choices": [
+        "通信業界のみならず、あらゆる産業分野の構造転換を促している",
+        "大都市の通信業界にのみ限定して利益をもたらしている",
+        "伝統的な製造業を完全に消滅させてしまった",
+        "個人の生活者には一切の恩恵をもたらしていない"
+      ],
+      "answer": "通信業界のみならず、あらゆる産業分野の構造転換を促している",
+      "explanation": "The text states it extends beyond communications to all industry sectors.",
+      "explanationMy": "ဆက်သွယ်ရေး ကဏ္ဍတွင်သာမက လုပ်ငန်းနယ်ပယ် အားလုံးဆီသို့ ပျံ့နှံ့သက်ရောက်နေသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q026",
+      "lessonId": "n2.l39",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "変革の恩恵について「に限らず」を使って述べられている内容はどれか。",
+      "choices": [
+        "一部の大企業に限らず、地方の中小企業や個人の生活者にも及んでいる",
+        "日本国内のIT技術者に限らず、全世界の政治家が独占している",
+        "金融業界に限らず、すべての公務員の給与を引き下げた",
+        "若年層に限らず、すべての世代がAI利用を禁止された"
+      ],
+      "answer": "一部の大企業に限らず、地方の中小企業や個人の生活者にも及んでいる",
+      "explanation": "The text notes benefits reach small enterprises and individuals, not just large corporations.",
+      "explanationMy": "ကုမ္ပဏီကြီးများတွင်သာ ကန့်သတ်မထားဘဲ အသေးစားလုပ်ငန်းများနှင့် သာမန်ပြည်သူများဆီသို့ပါ ရောက်ရှိနေသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q027",
+      "lessonId": "n2.l39",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "データ主権をめぐる摩擦はどのように展開していると指摘されているか。",
+      "choices": [
+        "一国の国内問題にとどまらず、国際的な地政学リスクへと波及している",
+        "司法の介入により完全に沈静化した",
+        "各国の合意により問題そのものが消滅した",
+        "民間企業同士の些細な金銭紛争にとどまっている"
+      ],
+      "answer": "一国の国内問題にとどまらず、国際的な地政学リスクへと波及している",
+      "explanation": "The text notes frictions ripple into international geopolitical risks beyond domestic issues.",
+      "explanationMy": "ပြည်တွင်း ပြဿနာမျှတွင်သာ မရပ်တန့်ဘဲ နိုင်ငံတကာ ပထဝီနိုင်ငံရေး အန္တရာယ်အထိ ပျံ့နှံ့နေသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q028",
+      "lessonId": "n2.l39",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "エコ家電の評価について広瀬役員が「のみならず」を使って確認した内容はどれか。",
+      "choices": [
+        "国内市場のみならずアジア全域で高い評価を得ていること",
+        "高齢者のみならず幼児にも人気があること",
+        "品質のみならず価格の安さでも世界一であること",
+        "家電量販店のみならずコンビニでも販売されていること"
+      ],
+      "answer": "国内市場のみならずアジア全域で高い評価を得ていること",
+      "explanation": "Hirose notes it gained high acclaim across Asia, not just domestically.",
+      "explanationMy": "ပြည်တွင်းဈေးကွက်တွင်သာမက အာရှတစ်ခွင်လုံးတွင်ပါ အသိအမှတ်ပြုခံနေရခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q029",
+      "lessonId": "n2.l39",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "島田部長によると、製品を支持している顧客層はどのように広がっているか。",
+      "choices": [
+        "環境志向の富裕層に限らず、一般のファミリー層からも絶大な支持を得ている",
+        "独身の若者に限られており、ファミリー層には敬遠されている",
+        "海外の富裕層のみが購入し、国内では全く売れていない",
+        "法人顧客のみに限定して販売されている"
+      ],
+      "answer": "環境志向の富裕層に限らず、一般のファミリー層からも絶大な支持を得ている",
+      "explanation": "Shimada notes widespread support from ordinary families, not just wealthy eco-enthusiasts.",
+      "explanationMy": "လူကုံထံများတွင်သာ ကန့်သတ်မထားဘဲ သာမန်မိသားစုများပါ ဝယ်ယူအားပေးနေကြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l39.q030",
+      "lessonId": "n2.l39",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "製品の好調がもたらす影響について「にとどまらず」を使って予測されたのは何か。",
+      "choices": [
+        "家電市場にとどまらず、スマートホーム事業全体にも波及しそうであること",
+        "アジア市場にとどまらず、即座に全事業が閉鎖されること",
+        "競合他社の買収にとどまらず、政府機関の解体へと発展すること",
+        "今年度にとどまらず、今後100年間新製品を出さないこと"
+      ],
+      "answer": "家電市場にとどまらず、スマートホーム事業全体にも波及しそうであること",
+      "explanation": "The popularity will spill beyond appliances to the entire smart home business.",
+      "explanationMy": "လျှပ်စစ်ပစ္စည်း ဈေးကွက်မျှတွင် မရပ်တန့်ဘဲ စမတ်အိမ်ရာ လုပ်ငန်းတစ်ခုလုံးဆီသို့ ပျံ့နှံ့သွားမည်ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l39.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+};

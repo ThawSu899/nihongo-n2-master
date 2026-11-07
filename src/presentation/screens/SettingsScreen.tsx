@@ -1,0 +1,1192 @@
+import React, { useState, useRef, useEffect } from 'react';
+import {
+  Settings,
+  Shield,
+  Globe,
+  Bell,
+  Calendar,
+  Database,
+  HardDrive,
+  Download,
+  Upload,
+  RefreshCw,
+  ShieldCheck,
+  CheckCircle,
+  AlertCircle,
+  Smartphone,
+  BookOpen,
+  Zap,
+  Activity,
+  Layers,
+  Sparkles,
+  Keyboard,
+  RotateCcw,
+  Trash2,
+  AlertTriangle,
+  Volume2,
+} from 'lucide-react';
+import {
+  checkJapaneseVoiceSupport,
+  testJapaneseVoiceSpeech,
+  JapaneseVoiceDiagnostics,
+} from '../../services/audio-resiliency';
+import { UserProfile } from '../../domain/models/types';
+import { db } from '../../data/db/dexie-db';
+import { resetApplicationData } from '../../data/db/reset-app';
+import { BackupManager } from '../../data/backup/backup-manager';
+import { AnkiExporter, AnkiExportScope } from '../../data/backup/anki-exporter';
+import {
+  OfflineSyncManager,
+  OfflineStorageDiagnostics,
+} from '../../data/sync/offline-sync-manager';
+import { StorageDiagnosticsModal } from '../components/StorageDiagnosticsModal';
+import { AnkiSyncManager } from '../components/AnkiSyncManager';
+import {
+  useGlobalShortcuts,
+  SHORTCUT_REGISTRY,
+  ShortcutAction,
+} from '../context/GlobalShortcutContext';
+
+interface SettingsScreenProps {
+  profile: UserProfile;
+  onUpdateProfile: (updated: UserProfile) => void;
+  onDataRestored?: () => void;
+  onOpenDiagnosticsModal?: () => void;
+}
+
+export const SettingsScreen: React.FC<SettingsScreenProps> = ({
+  profile,
+  onUpdateProfile,
+  onDataRestored,
+  onOpenDiagnosticsModal,
+}) => {
+  const [backupStatus, setBackupStatus] = useState<{ type: 'success' | 'error' | 'info'; message: string } | null>(null);
+  const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
+  const [isInstalled, setIsInstalled] = useState<boolean>(false);
+  const [diag, setDiag] = useState<OfflineStorageDiagnostics | null>(null);
+  const [loadingDiag, setLoadingDiag] = useState<boolean>(true);
+  const [actionLoading, setActionLoading] = useState<string | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+  const [ankiScope, setAnkiScope] = useState<AnkiExportScope>('all');
+  const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const {
+    keyBindings,
+    updateKeyBinding,
+    resetAllBindings,
+    getDisplayBadge,
+    registerModal,
+    unregisterModal,
+  } = useGlobalShortcuts();
+
+  const [recordingAction, setRecordingAction] = useState<ShortcutAction | null>(null);
+  const [selectedShortcutCategory, setSelectedShortcutCategory] = useState<
+    'all' | 'study' | 'choices' | 'srs' | 'shadowing' | 'dokkai' | 'global'
+  >('all');
+  const [shortcutFeedbackMsg, setShortcutFeedbackMsg] = useState<string | null>(null);
+
+  // Reset App / New Game state
+  const [isResetModalOpen, setIsResetModalOpen] = useState<boolean>(false);
+  const [isResetting, setIsResetting] = useState<boolean>(false);
+
+  // Audio Resiliency & TTS Diagnostic State
+  const [ttsDiag, setTtsDiag] = useState<JapaneseVoiceDiagnostics | null>(null);
+  const [ttsTesting, setTtsTesting] = useState<boolean>(false);
+  const [ttsTestResult, setTtsTestResult] = useState<string | null>(null);
+
+  useEffect(() => {
+    checkJapaneseVoiceSupport().then(setTtsDiag);
+  }, []);
+
+  const handleTestVoice = async () => {
+    setTtsTesting(true);
+    setTtsTestResult(null);
+    const res = await testJapaneseVoiceSpeech();
+    setTtsTesting(false);
+    if (res.success) {
+      setTtsTestResult(`အသံထွက် စမ်းသပ်မှု အောင်မြင်ပါသည် (${res.voiceName})`);
+    } else {
+      setTtsTestResult(`အသံထွက် ချို့ယွင်းချက်: ${res.error}`);
+    }
+  };
+
+  useEffect(() => {
+    if (isResetModalOpen) {
+      registerModal('reset_confirm_modal');
+    } else {
+      unregisterModal('reset_confirm_modal');
+    }
+  }, [isResetModalOpen, registerModal, unregisterModal]);
+
+  const handleConfirmReset = async () => {
+    try {
+      setIsResetting(true);
+      await resetApplicationData();
+      await new Promise((resolve) => setTimeout(resolve, 400));
+      if (typeof window !== 'undefined') {
+        window.location.href = '/';
+      }
+    } catch (err: any) {
+      console.error('Failed to reset app data:', err);
+      setIsResetting(false);
+      setBackupStatus({
+        type: 'error',
+        message: `Reset failed: ${err.message || 'Unknown error'}`,
+      });
+      setIsResetModalOpen(false);
+    }
+  };
+
+  // Global key capture listener when remapping an action
+  useEffect(() => {
+    if (!recordingAction) return;
+
+    registerModal('shortcut_key_recorder');
+
+    const handleKeyCapture = (e: KeyboardEvent) => {
+      e.preventDefault();
+      e.stopPropagation();
+
+      if (e.key === 'Escape') {
+        setRecordingAction(null);
+        unregisterModal('shortcut_key_recorder');
+        return;
+      }
+
+      const newKey = e.code || e.key;
+      updateKeyBinding(recordingAction, [newKey]);
+      setShortcutFeedbackMsg(`"${SHORTCUT_REGISTRY[recordingAction]?.nameMy}" အတွက် ခလုတ်ပြောင်းလဲပြီးပါပြီ`);
+      setTimeout(() => setShortcutFeedbackMsg(null), 3500);
+      setRecordingAction(null);
+      unregisterModal('shortcut_key_recorder');
+    };
+
+    window.addEventListener('keydown', handleKeyCapture, { capture: true });
+    return () => {
+      window.removeEventListener('keydown', handleKeyCapture, { capture: true });
+      unregisterModal('shortcut_key_recorder');
+    };
+  }, [recordingAction, updateKeyBinding, registerModal, unregisterModal]);
+
+  const fetchDiagnostics = async () => {
+    try {
+      setLoadingDiag(true);
+      const data = await OfflineSyncManager.getDiagnostics();
+      setDiag(data);
+    } catch (e: any) {
+      console.warn('Diagnostics fetch failed:', e);
+    } finally {
+      setLoadingDiag(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchDiagnostics();
+  }, []);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      if (window.matchMedia('(display-mode: standalone)').matches || (window.navigator as any).standalone) {
+        setIsInstalled(true);
+      }
+      const handler = (e: Event) => {
+        e.preventDefault();
+        setDeferredPrompt(e);
+      };
+      window.addEventListener('beforeinstallprompt', handler);
+      return () => window.removeEventListener('beforeinstallprompt', handler);
+    }
+  }, []);
+
+  const handleInstallApp = async () => {
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    if (outcome === 'accepted') {
+      setIsInstalled(true);
+    }
+    setDeferredPrompt(null);
+  };
+
+  const handleChange = async (field: keyof UserProfile, value: any) => {
+    const updated = { ...profile, [field]: value };
+    onUpdateProfile(updated);
+    await db.profile.put({ ...updated, id: 'current_user' });
+    fetchDiagnostics();
+  };
+
+  const handleExportBackup = async () => {
+    try {
+      setActionLoading('export');
+      const json = await BackupManager.exportToJson();
+      const blob = new Blob([json], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `nihongo-n2-backup-${new Date().toISOString().substring(0, 10)}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      setBackupStatus({ type: 'success', message: 'Local backup JSON successfully exported.' });
+      fetchDiagnostics();
+    } catch (err: any) {
+      setBackupStatus({ type: 'error', message: err.message || 'Export failed.' });
+    } finally {
+      setActionLoading(null);
+    }
+  };
+
+  const handleImportBackup = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    try {
+      setActionLoading('import');
+      const text = await file.text();
+      const result = await BackupManager.restoreFromJson(text);
+      if (result.success) {
+        setBackupStatus({ type: 'success', message: result.message || 'Backup successfully restored.' });
+        if (onDataRestored) {
+          onDataRestored();
+        }
+        fetchDiagnostics();
+      } else {
+        setBackupStatus({ type: 'error', message: result.message });
+      }
+    } catch (err: any) {
+      setBackupStatus({ type: 'error', message: 'Failed to parse backup file.' });
+    } finally {
+      setActionLoading(null);
+      if (fileInputRef.current) fileInputRef.current.value = '';
+    }
+  };
+
+  const handleExportAnki = async () => {
+    try {
+      setActionLoading('anki');
+      const result = await AnkiExporter.downloadAnkiExport({ scope: ankiScope });
+      setBackupStatus({
+        type: 'success',
+        message: `Successfully exported ${result.count} cards to Anki TSV (${result.filename}).`,
+      });
+      fetchDiagnostics();
+    } catch (err: any) {
+      setBackupStatus({ type: 'error', message: err.message || 'Anki export failed.' });
+    } finally {
+      setActionLoading(null);
+    }
+  };
+
+  const handleClearCacheAndResync = async () => {
+    if (!window.confirm('Clear temporary lesson cache and re-sync local IndexedDB indices? Your study records, SRS cards, and profile will be safely preserved and verified.')) {
+      return;
+    }
+
+    try {
+      setActionLoading('resync');
+      const res = await OfflineSyncManager.clearCacheAndResync();
+      if (res.success) {
+        setBackupStatus({ type: 'success', message: res.message });
+        if (onDataRestored) {
+          onDataRestored();
+        }
+        fetchDiagnostics();
+      } else {
+        setBackupStatus({ type: 'error', message: res.message });
+      }
+    } catch (err: any) {
+      setBackupStatus({ type: 'error', message: `Re-sync failed: ${err.message}` });
+    } finally {
+      setActionLoading(null);
+    }
+  };
+
+  const handlePrecacheAll = async () => {
+    try {
+      setActionLoading('precache');
+      await OfflineSyncManager.warmAllPublishedPacks();
+      setBackupStatus({
+        type: 'success',
+        message: 'All published lesson packs pre-cached into IndexedDB for offline access.',
+      });
+      fetchDiagnostics();
+    } catch (err: any) {
+      setBackupStatus({ type: 'error', message: `Pre-cache failed: ${err.message}` });
+    } finally {
+      setActionLoading(null);
+    }
+  };
+
+  const handleOpenModal = () => {
+    if (onOpenDiagnosticsModal) {
+      onOpenDiagnosticsModal();
+    } else {
+      setIsModalOpen(true);
+    }
+  };
+
+  return (
+    <div className="space-y-6 max-w-4xl mx-auto pb-24">
+      {/* Header */}
+      <div>
+        <h1 className="text-2xl font-bold text-stone-100 tracking-tight">System Settings</h1>
+        <p className="text-xs text-stone-400 mt-0.5">
+          Configure learning parameters, study schedule goals, kana display policies, and offline storage.
+        </p>
+      </div>
+
+      {/* Curriculum & Display Preferences */}
+      <div className="bg-stone-900 border border-stone-800 rounded-2xl p-5 space-y-4">
+        <h2 className="text-base font-semibold text-stone-200 flex items-center">
+          <Globe className="w-4 h-4 mr-2 text-rose-400" /> Language &amp; Kana Policy
+        </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="space-y-1">
+            <label className="text-xs font-medium text-stone-300">Furigana Display Policy</label>
+            <select
+              value={profile.furiganaMode}
+              onChange={(e) => handleChange('furiganaMode', e.target.value)}
+              className="w-full bg-stone-950 border border-stone-700 rounded-xl px-3 py-2 text-xs text-stone-200 focus:outline-none focus:border-rose-500"
+            >
+              <option value="always">Always Show Furigana (Default N5)</option>
+              <option value="unlearned">Only Unlearned / New Kanji</option>
+              <option value="never">Hide Furigana (Kanji Mastery Mode)</option>
+            </select>
+          </div>
+
+          <div className="space-y-1">
+            <label className="text-xs font-medium text-stone-300">Explanation Language</label>
+            <select
+              value={profile.explanationLang}
+              onChange={(e) => handleChange('explanationLang', e.target.value)}
+              className="w-full bg-stone-950 border border-stone-700 rounded-xl px-3 py-2 text-xs text-stone-200 focus:outline-none focus:border-rose-500"
+            >
+              <option value="en">English (Primary)</option>
+              <option value="my">Myanmar / Burmese (Unicode)</option>
+              <option value="ja">Japanese (Monolingual)</option>
+            </select>
+          </div>
+
+          <div className="sm:col-span-2 flex items-center justify-between p-3 rounded-xl bg-stone-950 border border-stone-800">
+            <div>
+              <span className="text-xs font-semibold text-stone-200 block">Romaji Reading Assist</span>
+              <span className="text-[11px] text-stone-500">
+                Displays romanized spelling under furigana. Recommended for beginners on N5 Day 1.
+              </span>
+            </div>
+            <button
+              onClick={() => handleChange('showRomaji', !profile.showRomaji)}
+              className={`w-11 h-6 flex items-center rounded-full p-1 transition duration-300 ${
+                profile.showRomaji ? 'bg-rose-600 justify-end' : 'bg-stone-800 justify-start'
+              }`}
+            >
+              <div className="bg-white w-4 h-4 rounded-full shadow-md" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Speech & Japanese Audio Resiliency Section */}
+      <div className="bg-stone-900 border border-stone-800 rounded-2xl p-5 space-y-4">
+        <h2 className="text-base font-semibold text-stone-200 flex items-center justify-between">
+          <span className="flex items-center">
+            <Volume2 className="w-4 h-4 mr-2 text-rose-400" /> Japanese Speech Synthesis (TTS) &amp; Voice Health
+          </span>
+          <span className="text-xs text-stone-400 font-myanmar">အသံထွက် အခြေအနေ</span>
+        </h2>
+
+        <div className="p-4 rounded-xl bg-stone-950 border border-stone-800/80 space-y-3">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div className="space-y-1">
+              <div className="flex items-center space-x-2">
+                <span
+                  className={`w-2.5 h-2.5 rounded-full ${
+                    ttsDiag?.hasJaVoice
+                      ? 'bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.5)]'
+                      : 'bg-amber-500 shadow-[0_0_8px_rgba(245,158,11,0.5)]'
+                  }`}
+                />
+                <span className="text-xs font-bold text-stone-100 font-mono">
+                  {ttsDiag?.hasJaVoice
+                    ? `Native Japanese Voice Detected: ${ttsDiag.defaultVoiceName || 'Default ja-JP'}`
+                    : 'No Native Japanese Voice Found — Fallback Visual Phonetics Active'}
+                </span>
+              </div>
+              <p className="text-[11px] text-stone-400 font-myanmar">
+                {ttsDiag?.hasJaVoice
+                  ? `စက်အတွင်း ဂျပန်အသံထွက် (${ttsDiag.japaneseVoices.length} ခု) အဆင်သင့်ရှိပါသည်။ Shadowing နှင့် Listening များတွင် အလိုအလျောက် သုံးစွဲမည်။`
+                  : 'စက်တွင် ဂျပန်အသံထွက် မရှိသေးပါသဖြင့် Romaji ဖတ်နည်းနှင့် Pitch Accent အသံအတက်အကျ မျဉ်းကွေးများဖြင့် အထောက်အကူပြုထားပါသည်။'}
+              </p>
+            </div>
+
+            <button
+              onClick={handleTestVoice}
+              disabled={ttsTesting}
+              className="px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-500 disabled:opacity-50 text-white font-semibold text-xs flex items-center justify-center space-x-1.5 transition cursor-pointer shadow-sm active:scale-95 shrink-0"
+            >
+              <Volume2 className="w-3.5 h-3.5" />
+              <span>{ttsTesting ? 'စမ်းသပ်နေသည်...' : 'Test Voice (အသံ စမ်းသပ်မည်)'}</span>
+            </button>
+          </div>
+
+          {ttsTestResult && (
+            <div className="text-xs font-myanmar p-2.5 rounded-lg bg-stone-900 border border-stone-800 text-stone-200">
+              {ttsTestResult}
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Daily Schedule & Rollover Settings */}
+      <div className="bg-stone-900 border border-stone-800 rounded-2xl p-5 space-y-4">
+        <h2 className="text-base font-semibold text-stone-200 flex items-center">
+          <Calendar className="w-4 h-4 mr-2 text-rose-400" /> Study Schedule &amp; SRS Rollover
+        </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="space-y-1">
+            <label className="text-xs font-medium text-stone-300">Daily Study Target</label>
+            <select
+              value={profile.dailyTargetMinutes}
+              onChange={(e) => handleChange('dailyTargetMinutes', Number(e.target.value))}
+              className="w-full bg-stone-950 border border-stone-700 rounded-xl px-3 py-2 text-xs text-stone-200 focus:outline-none focus:border-rose-500"
+            >
+              <option value={360}>6 Hours (360 min) — Standard Full-Day Immersion</option>
+              <option value={180}>3 Hours (180 min) — Accelerated Part-Time</option>
+              <option value={120}>2 Hours (120 min) — Consistent Pace</option>
+              <option value={60}>1 Hour (60 min) — Maintenance</option>
+            </select>
+          </div>
+
+          <div className="space-y-1">
+            <label className="text-xs font-medium text-stone-300">Daily Rollover Hour</label>
+            <select
+              value={profile.dayRolloverHour}
+              onChange={(e) => handleChange('dayRolloverHour', Number(e.target.value))}
+              className="w-full bg-stone-950 border border-stone-700 rounded-xl px-3 py-2 text-xs text-stone-200 focus:outline-none focus:border-rose-500"
+            >
+              <option value={4}>04:00 AM (Default — Night-owl friendly)</option>
+              <option value={0}>00:00 Midnight</option>
+              <option value={5}>05:00 AM</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      {/* Notification Preferences & Quiet Hours */}
+      <div className="bg-stone-900 border border-stone-800 rounded-2xl p-5 space-y-4">
+        <h2 className="text-base font-semibold text-stone-200 flex items-center">
+          <Bell className="w-4 h-4 mr-2 text-rose-400" /> Reminders &amp; Quiet Hours
+        </h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div className="flex items-center justify-between p-3 rounded-xl bg-stone-950 border border-stone-800">
+            <div>
+              <span className="text-xs font-semibold text-stone-200 block">In-App Sound &amp; Banners</span>
+              <span className="text-[11px] text-stone-500">Alerts when blocks finish or break starts</span>
+            </div>
+            <button
+              onClick={() =>
+                handleChange('notificationSettings', {
+                  ...profile.notificationSettings,
+                  inApp: !profile.notificationSettings.inApp,
+                })
+              }
+              className={`w-11 h-6 flex items-center rounded-full p-1 transition duration-300 ${
+                profile.notificationSettings.inApp ? 'bg-rose-600 justify-end' : 'bg-stone-800 justify-start'
+              }`}
+            >
+              <div className="bg-white w-4 h-4 rounded-full shadow-md" />
+            </button>
+          </div>
+
+          <div className="flex items-center justify-between p-3 rounded-xl bg-stone-950 border border-stone-800">
+            <div>
+              <span className="text-xs font-semibold text-stone-200 block">Browser Notifications</span>
+              <span className="text-[11px] text-stone-500">Best-effort notification API alerts</span>
+            </div>
+            <button
+              onClick={() =>
+                handleChange('notificationSettings', {
+                  ...profile.notificationSettings,
+                  browser: !profile.notificationSettings.browser,
+                })
+              }
+              className={`w-11 h-6 flex items-center rounded-full p-1 transition duration-300 ${
+                profile.notificationSettings.browser ? 'bg-rose-600 justify-end' : 'bg-stone-800 justify-start'
+              }`}
+            >
+              <div className="bg-white w-4 h-4 rounded-full shadow-md" />
+            </button>
+          </div>
+
+          <div className="space-y-1">
+            <label className="text-xs font-medium text-stone-300">Quiet Hours Start</label>
+            <input
+              type="time"
+              value={profile.notificationSettings.quietHoursStart || '22:00'}
+              onChange={(e) =>
+                handleChange('notificationSettings', {
+                  ...profile.notificationSettings,
+                  quietHoursStart: e.target.value,
+                })
+              }
+              className="w-full bg-stone-950 border border-stone-700 rounded-xl px-3 py-2 text-xs text-stone-200 focus:outline-none focus:border-rose-500"
+            />
+          </div>
+
+          <div className="space-y-1">
+            <label className="text-xs font-medium text-stone-300">Quiet Hours End</label>
+            <input
+              type="time"
+              value={profile.notificationSettings.quietHoursEnd || '07:00'}
+              onChange={(e) =>
+                handleChange('notificationSettings', {
+                  ...profile.notificationSettings,
+                  quietHoursEnd: e.target.value,
+                })
+              }
+              className="w-full bg-stone-950 border border-stone-700 rounded-xl px-3 py-2 text-xs text-stone-200 focus:outline-none focus:border-rose-500"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Keyboard Shortcuts Customization Section */}
+      <div className="bg-stone-900 border border-stone-800 rounded-2xl p-5 space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="flex items-center space-x-2.5">
+            <Keyboard className="w-5 h-5 text-rose-400 shrink-0" />
+            <div>
+              <h2 className="text-base font-semibold text-stone-200">
+                ကီးဘုတ် ဖြတ်လမ်းခလုတ်များ (Keyboard Shortcuts)
+              </h2>
+              <p className="text-[11px] text-stone-400">
+                လေ့ကျင့်ခန်း၊ အသံဖွင့်ခြင်းနှင့် SRS ကတ်များအတွက် မိမိစိတ်ကြိုက် ကီးဘုတ်ခလုတ်များကို သတ်မှတ်နိုင်ပါသည်
+              </p>
+            </div>
+          </div>
+
+          <button
+            type="button"
+            onClick={() => {
+              resetAllBindings();
+              setShortcutFeedbackMsg('မူလဖြတ်လမ်းခလုတ်များအတိုင်း အားလုံးပြန်လည်သတ်မှတ်ပြီးပါပြီ');
+              setTimeout(() => setShortcutFeedbackMsg(null), 3500);
+            }}
+            className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-stone-950 hover:bg-stone-800 border border-stone-750 text-stone-300 text-xs font-medium transition cursor-pointer self-start sm:self-auto shrink-0 shadow-sm"
+          >
+            <RotateCcw className="w-3.5 h-3.5 text-stone-400" />
+            <span>မူလအတိုင်း ပြန်ထားမည် (Reset Defaults)</span>
+          </button>
+        </div>
+
+        {shortcutFeedbackMsg && (
+          <div className="p-2.5 rounded-xl bg-emerald-950/60 border border-emerald-800 text-emerald-300 text-xs flex items-center space-x-2 font-myanmar">
+            <CheckCircle className="w-4 h-4 shrink-0 text-emerald-400" />
+            <span>{shortcutFeedbackMsg}</span>
+          </div>
+        )}
+
+        {recordingAction && (
+          <div className="p-3.5 rounded-xl bg-rose-950/40 border border-rose-500/60 text-xs text-rose-200 flex flex-col sm:flex-row sm:items-center justify-between gap-2 shadow-[0_0_20px_-4px_rgba(244,63,94,0.3)] animate-pulse">
+            <div className="flex items-center space-x-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-rose-500 animate-ping shrink-0" />
+              <span>
+                <strong>{SHORTCUT_REGISTRY[recordingAction]?.nameMy}</strong> ({SHORTCUT_REGISTRY[recordingAction]?.nameEn}) အတွက် ကီးဘုတ်ခလုတ်အသစ်ကို နှိပ်ပါ...
+              </span>
+            </div>
+            <button
+              type="button"
+              onClick={() => setRecordingAction(null)}
+              className="px-2.5 py-1 rounded-lg bg-zinc-900 border border-zinc-700 text-[11px] text-zinc-300 hover:text-white cursor-pointer self-end sm:self-auto"
+            >
+              ပယ်ဖျက်ရန် (Esc)
+            </button>
+          </div>
+        )}
+
+        {/* Category Filter Pills */}
+        <div className="flex items-center gap-1.5 overflow-x-auto pb-1 no-scrollbar text-xs">
+          {[
+            { id: 'all', label: 'အားလုံး (All)' },
+            { id: 'study', label: 'လေ့ကျင့်ခန်း (Study)' },
+            { id: 'choices', label: 'ရွေးချယ်မှု (Choices)' },
+            { id: 'srs', label: 'SRS ကတ်များ' },
+            { id: 'shadowing', label: 'လိုက်ဆိုမှု (Shadowing)' },
+            { id: 'dokkai', label: 'စာဖတ် (Dokkai)' },
+            { id: 'global', label: 'အထွေထွေ (Global)' },
+          ].map((cat) => (
+            <button
+              key={cat.id}
+              type="button"
+              onClick={() => setSelectedShortcutCategory(cat.id as any)}
+              className={`px-2.5 py-1 rounded-lg whitespace-nowrap transition cursor-pointer text-xs ${
+                selectedShortcutCategory === cat.id
+                  ? 'bg-rose-600 text-white font-medium shadow-xs'
+                  : 'bg-stone-950 text-stone-400 hover:text-stone-200 border border-stone-800'
+              }`}
+            >
+              {cat.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Shortcut Action Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5 pt-1">
+          {Object.values(SHORTCUT_REGISTRY)
+            .filter((s) => selectedShortcutCategory === 'all' || s.category === selectedShortcutCategory)
+            .map((s) => {
+              const isRecording = recordingAction === s.id;
+              const currentBadge = getDisplayBadge(s.id);
+              const isCustomized =
+                keyBindings[s.id] &&
+                JSON.stringify(keyBindings[s.id]) !== JSON.stringify(s.defaultKeys);
+
+              return (
+                <div
+                  key={s.id}
+                  className={`p-3 rounded-xl bg-stone-950 border ${
+                    isRecording
+                      ? 'border-rose-500 ring-2 ring-rose-500/30 bg-rose-950/20'
+                      : 'border-stone-800/80 hover:border-stone-700/80'
+                  } transition flex items-center justify-between gap-3`}
+                >
+                  <div className="min-w-0 flex-1">
+                    <div className="flex items-center space-x-2">
+                      <span className="text-xs font-semibold text-stone-200 truncate">
+                        {s.nameMy}
+                      </span>
+                      {isCustomized && (
+                        <span className="text-[9px] px-1.5 py-0.2 rounded bg-amber-950/80 text-amber-300 border border-amber-800/60 font-mono">
+                          စိတ်ကြိုက်
+                        </span>
+                      )}
+                    </div>
+                    <div className="text-[10px] text-stone-400 truncate">
+                      {s.nameEn} &bull; {s.descriptionMy}
+                    </div>
+                  </div>
+
+                  <div className="flex items-center space-x-1.5 shrink-0">
+                    <button
+                      type="button"
+                      onClick={() => setRecordingAction(s.id)}
+                      className={`min-w-[58px] px-2.5 py-1.5 rounded-lg font-mono text-xs font-semibold border transition cursor-pointer flex items-center justify-center ${
+                        isRecording
+                          ? 'bg-rose-600 border-rose-400 text-white animate-pulse shadow-md shadow-rose-900/50'
+                          : 'bg-stone-900 hover:bg-stone-800 border-stone-700 text-stone-200 hover:border-rose-500/50 hover:text-white shadow-xs'
+                      }`}
+                      title="ကလစ်နှိပ်၍ ခလုတ်ပြောင်းလဲနိုင်ပါသည်"
+                    >
+                      {isRecording ? 'နှိပ်ပါ...' : currentBadge}
+                    </button>
+
+                    {isCustomized && (
+                      <button
+                        type="button"
+                        onClick={() => updateKeyBinding(s.id, s.defaultKeys)}
+                        className="p-1 rounded-md text-stone-500 hover:text-stone-300 hover:bg-stone-800 transition cursor-pointer"
+                        title="မူလခလုတ်အတိုင်း ပြန်ထားမည်"
+                      >
+                        <RotateCcw className="w-3 h-3" />
+                      </button>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+        </div>
+      </div>
+
+      {/* PWA Offline Storage & Sync Diagnostics Section */}
+      <div className="bg-stone-900 border border-stone-800 rounded-2xl p-5 space-y-4">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div className="flex items-center space-x-2">
+            <Database className="w-4 h-4 text-emerald-400" />
+            <h2 className="text-base font-semibold text-stone-200">
+              PWA Offline Storage &amp; Sync Diagnostics
+            </h2>
+          </div>
+          <div className="flex items-center space-x-2">
+            <button
+              onClick={handleOpenModal}
+              className="flex items-center space-x-1.5 px-2.5 py-1 rounded-lg bg-stone-800 hover:bg-stone-750 text-stone-200 text-xs font-medium border border-stone-700 transition cursor-pointer active:scale-95 shadow-sm"
+            >
+              <Activity className="w-3.5 h-3.5 text-rose-400" />
+              <span>Full Diagnostic Inspector</span>
+            </button>
+            <span className="text-[11px] text-emerald-400 font-medium flex items-center">
+              <ShieldCheck className="w-3.5 h-3.5 mr-1" /> 100% Offline-First
+            </span>
+          </div>
+        </div>
+
+        {backupStatus && (
+          <div
+            className={`p-3 rounded-xl text-xs flex items-center space-x-2 ${
+              backupStatus.type === 'success'
+                ? 'bg-emerald-950/60 border border-emerald-800 text-emerald-300'
+                : 'bg-rose-950/60 border border-rose-800 text-rose-300'
+            }`}
+          >
+            {backupStatus.type === 'success' ? (
+              <CheckCircle className="w-4 h-4 shrink-0 text-emerald-400" />
+            ) : (
+              <AlertCircle className="w-4 h-4 shrink-0 text-rose-400" />
+            )}
+            <span>{backupStatus.message}</span>
+          </div>
+        )}
+
+        {/* Clear Health Indicators */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          {/* 1. Local Storage Usage / Quota Status */}
+          <div className="p-3.5 rounded-xl bg-stone-950 border border-stone-800 space-y-2">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-semibold text-stone-300 flex items-center">
+                <HardDrive className="w-3.5 h-3.5 mr-1.5 text-emerald-400" /> Storage Usage
+              </span>
+              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-950 text-emerald-300 border border-emerald-800">
+                {diag?.storage.isPersisted ? 'Persistent' : 'Best-effort'}
+              </span>
+            </div>
+            <div>
+              <div className="flex items-baseline space-x-1.5">
+                <span className="text-lg font-bold text-stone-100 font-mono">
+                  {diag?.storage.usageFormatted || '0 B'}
+                </span>
+                <span className="text-[11px] text-stone-500 font-mono">
+                  / {diag?.storage.quotaFormatted || 'Quota'}
+                </span>
+              </div>
+              <div className="w-full bg-stone-800 h-1.5 rounded-full overflow-hidden mt-1.5">
+                <div
+                  className="h-full bg-emerald-500"
+                  style={{ width: `${Math.max(2, diag?.storage.usagePercentage || 0)}%` }}
+                />
+              </div>
+              <span className="text-[10px] text-stone-500 mt-1 block">
+                {diag?.storage.usagePercentage || 0}% of allocated disk quota
+              </span>
+            </div>
+          </div>
+
+          {/* 2. Total Cached Lesson Packs Count & Sync Status */}
+          <div className="p-3.5 rounded-xl bg-stone-950 border border-stone-800 space-y-2">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-semibold text-stone-300 flex items-center">
+                <BookOpen className="w-3.5 h-3.5 mr-1.5 text-rose-400" /> Cached Lesson Packs
+              </span>
+              <span
+                className={`text-[10px] font-mono px-2 py-0.5 rounded ${
+                  diag?.cacheAndSync.syncStatus === 'synced'
+                    ? 'bg-emerald-950 text-emerald-300 border border-emerald-800'
+                    : 'bg-amber-950 text-amber-300 border border-amber-800'
+                }`}
+              >
+                {diag?.cacheAndSync.syncStatus === 'synced' ? 'Synced (100%)' : 'Partial Cache'}
+              </span>
+            </div>
+            <div>
+              <div className="flex items-baseline space-x-1.5">
+                <span className="text-lg font-bold text-stone-100 font-mono">
+                  {diag?.cacheAndSync.cachedPacksCount ?? 0}
+                </span>
+                <span className="text-[11px] text-stone-500 font-mono">
+                  / {diag?.cacheAndSync.totalPublishedPacks ?? 0} published
+                </span>
+              </div>
+              <div className="w-full bg-stone-800 h-1.5 rounded-full overflow-hidden mt-1.5">
+                <div
+                  className="h-full bg-rose-500"
+                  style={{ width: `${diag?.cacheAndSync.syncPercentage || 0}%` }}
+                />
+              </div>
+              <div className="flex items-center justify-between text-[10px] text-stone-500 mt-1">
+                <span>{diag?.cacheAndSync.syncPercentage || 0}% cached offline</span>
+                {diag?.cacheAndSync.syncStatus !== 'synced' && (
+                  <button
+                    onClick={handlePrecacheAll}
+                    disabled={!!actionLoading}
+                    className="text-rose-400 hover:text-rose-300 underline cursor-pointer"
+                  >
+                    Pre-cache all
+                  </button>
+                )}
+              </div>
+            </div>
+          </div>
+
+          {/* 3. Pending Offline Actions Queue Count */}
+          <div className="p-3.5 rounded-xl bg-stone-950 border border-stone-800 space-y-2">
+            <div className="flex items-center justify-between">
+              <span className="text-xs font-semibold text-stone-300 flex items-center">
+                <Zap className="w-3.5 h-3.5 mr-1.5 text-amber-400" /> Offline Action Queue
+              </span>
+              <span
+                className={`text-[10px] font-mono px-2 py-0.5 rounded ${
+                  (diag?.pendingQueue.count || 0) === 0
+                    ? 'bg-emerald-950 text-emerald-300 border border-emerald-800'
+                    : 'bg-amber-950 text-amber-300 border border-amber-800'
+                }`}
+              >
+                {(diag?.pendingQueue.count || 0) === 0 ? 'In Sync' : 'Queued'}
+              </span>
+            </div>
+            <div>
+              <div className="flex items-baseline space-x-1.5">
+                <span className="text-lg font-bold text-stone-100 font-mono">
+                  {diag?.pendingQueue.count ?? 0}
+                </span>
+                <span className="text-[11px] text-stone-500">
+                  pending operations
+                </span>
+              </div>
+              <div className="w-full bg-stone-800 h-1.5 rounded-full overflow-hidden mt-1.5">
+                <div
+                  className="h-full bg-amber-500"
+                  style={{ width: `${(diag?.pendingQueue.count || 0) > 0 ? 100 : 0}%` }}
+                />
+              </div>
+              <span className="text-[10px] text-stone-500 mt-1 block">
+                {(diag?.pendingQueue.count || 0) === 0
+                  ? 'Local IndexedDB state up-to-date'
+                  : 'Pending local synchronization'}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* Live IndexedDB Record Inspection Snapshot */}
+        <div className="p-3.5 rounded-xl bg-stone-950 border border-stone-800">
+          <div className="flex items-center justify-between mb-2">
+            <span className="text-xs font-semibold text-stone-300">
+              IndexedDB (Dexie) Live Entity Breakdown
+            </span>
+            <span className="text-[10px] text-stone-500 font-mono">
+              Database: {diag?.dbStatus.name || 'NihongoN2MasterDB'}
+            </span>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center">
+            <div className="p-2 rounded-lg bg-stone-900 border border-stone-850">
+              <span className="text-sm font-bold text-rose-300 font-mono block">
+                {diag?.tables.srsCards ?? 0}
+              </span>
+              <span className="text-[10px] text-stone-400">SRS Cards</span>
+            </div>
+            <div className="p-2 rounded-lg bg-stone-900 border border-stone-850">
+              <span className="text-sm font-bold text-emerald-300 font-mono block">
+                {diag?.tables.masteryRecords ?? 0}
+              </span>
+              <span className="text-[10px] text-stone-400">Mastery Records</span>
+            </div>
+            <div className="p-2 rounded-lg bg-stone-900 border border-stone-850">
+              <span className="text-sm font-bold text-stone-200 font-mono block">
+                {diag?.tables.kanaRecords ?? 0}
+              </span>
+              <span className="text-[10px] text-stone-400">Kana Records</span>
+            </div>
+            <div className="p-2 rounded-lg bg-stone-900 border border-stone-850">
+              <span className="text-sm font-bold text-stone-200 font-mono block">
+                {diag?.tables.assessments ?? 0}
+              </span>
+              <span className="text-[10px] text-stone-400">Readiness Tests</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Action Buttons */}
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1">
+          {/* Action 1: Export JSON Backup */}
+          <button
+            onClick={handleExportBackup}
+            disabled={!!actionLoading}
+            className="flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-sm disabled:opacity-50"
+          >
+            <Download className="w-3.5 h-3.5" />
+            <span>Export JSON Backup</span>
+          </button>
+
+          {/* Action 2: Import JSON Backup */}
+          <div>
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept=".json"
+              onChange={handleImportBackup}
+              className="hidden"
+            />
+            <button
+              onClick={() => fileInputRef.current?.click()}
+              disabled={!!actionLoading}
+              className="w-full flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-stone-800 hover:bg-stone-750 text-stone-200 border border-stone-700 rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-sm disabled:opacity-50"
+            >
+              <Upload className="w-3.5 h-3.5 text-stone-300" />
+              <span>Import JSON Backup</span>
+            </button>
+          </div>
+
+          {/* Action 3: Clear Cache & Re-sync */}
+          <button
+            onClick={handleClearCacheAndResync}
+            disabled={!!actionLoading}
+            className="flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-stone-850 hover:bg-stone-800 text-rose-300 border border-stone-750 rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 disabled:opacity-50"
+          >
+            <RefreshCw className={`w-3.5 h-3.5 ${actionLoading === 'resync' ? 'animate-spin' : ''}`} />
+            <span>Clear Cache &amp; Re-sync</span>
+          </button>
+        </div>
+
+        {/* Anki Live Connection Status & Bridge */}
+        <AnkiSyncManager className="mt-2" />
+
+        {/* Anki Flashcard Deck Exporter Card */}
+        <div className="p-4 rounded-xl bg-stone-950 border border-stone-800 space-y-3 mt-2">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div>
+              <div className="flex items-center space-x-2">
+                <span className="text-xs font-semibold text-stone-200">
+                  Export to Anki (.tsv)
+                </span>
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-950/80 text-indigo-300 border border-indigo-500/40 font-mono">
+                  Anki 2.1+ / AnkiMobile
+                </span>
+              </div>
+              <p className="text-[11px] text-stone-400 mt-0.5">
+                Generate UTF-8 tab-separated values with Anki directives (#separator:tab, #html:true) and 8 structured note fields.
+              </p>
+            </div>
+
+            {/* 1-Click Download Trigger */}
+            <button
+              onClick={handleExportAnki}
+              disabled={!!actionLoading}
+              className="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-semibold flex items-center justify-center space-x-1.5 transition active:scale-95 shadow-md shadow-indigo-950/60 disabled:opacity-50 shrink-0 cursor-pointer"
+            >
+              <Download className="w-3.5 h-3.5" />
+              <span>{actionLoading === 'anki' ? 'Exporting...' : 'Download Anki Deck'}</span>
+            </button>
+          </div>
+
+          {/* Scope Selector Filter Pills */}
+          <div className="flex items-center gap-2 flex-wrap pt-1">
+            <span className="text-[10px] text-stone-400 font-mono uppercase tracking-wider">Export Scope:</span>
+            <button
+              type="button"
+              onClick={() => setAnkiScope('all')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer ${
+                ankiScope === 'all'
+                  ? 'bg-indigo-600 text-white font-semibold shadow-sm'
+                  : 'bg-stone-900 hover:bg-stone-800 text-stone-400 border border-stone-800'
+              }`}
+            >
+              All Cards ({diag?.tables.srsCards ?? 0})
+            </button>
+            <button
+              type="button"
+              onClick={() => setAnkiScope('mined')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer ${
+                ankiScope === 'mined'
+                  ? 'bg-indigo-600 text-white font-semibold shadow-sm'
+                  : 'bg-stone-900 hover:bg-stone-800 text-stone-400 border border-stone-800'
+              }`}
+            >
+              Mined Cards Only
+            </button>
+            <button
+              type="button"
+              onClick={() => setAnkiScope('leeches')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer ${
+                ankiScope === 'leeches'
+                  ? 'bg-amber-600 text-white font-semibold shadow-sm'
+                  : 'bg-stone-900 hover:bg-stone-800 text-stone-400 border border-stone-800'
+              }`}
+            >
+              Quarantined Leeches Only
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Android & Mobile PWA Installation Guide */}
+      <div className="bg-stone-900 border border-stone-800 rounded-2xl p-5 space-y-4">
+        <div className="flex items-center justify-between">
+          <h2 className="text-base font-semibold text-stone-200 flex items-center">
+            <Smartphone className="w-4 h-4 mr-2 text-rose-400" /> Android &amp; Mobile App Support
+          </h2>
+          <span className="text-[11px] text-emerald-400 font-medium flex items-center">
+            <CheckCircle className="w-3.5 h-3.5 mr-1" /> Standalone PWA Ready
+          </span>
+        </div>
+
+        <p className="text-xs text-stone-300 leading-relaxed">
+          Nihongo N2 Master is fully optimized for <strong>Android phones and tablets</strong>. You can run it directly in Chrome, Firefox, or Samsung Internet, or install it as a native home-screen app that works 100% offline.
+        </p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+          <div className="p-3.5 rounded-xl bg-stone-950 border border-stone-850 space-y-1.5">
+            <div className="text-xs font-semibold text-stone-200 flex items-center">
+              <span className="w-5 h-5 rounded-full bg-rose-950 text-rose-300 border border-rose-800 flex items-center justify-center text-[11px] mr-2">1</span>
+              Option A: In-Browser Use
+            </div>
+            <p className="text-[11px] text-stone-400 leading-relaxed">
+              Open the app link in <strong>Chrome</strong> or any Android browser. All lessons, audio playback, and IndexedDB flashcards run locally without needing an account.
+            </p>
+          </div>
+
+          <div className="p-3.5 rounded-xl bg-stone-950 border border-stone-850 space-y-1.5">
+            <div className="text-xs font-semibold text-stone-200 flex items-center">
+              <span className="w-5 h-5 rounded-full bg-rose-950 text-rose-300 border border-rose-800 flex items-center justify-center text-[11px] mr-2">2</span>
+              Option B: Home Screen Install
+            </div>
+            <p className="text-[11px] text-stone-400 leading-relaxed">
+              Tap browser menu <strong className="text-stone-300">⋮</strong> (three dots) &rarr; select <strong className="text-stone-300">Install app</strong> or <strong className="text-stone-300">Add to Home screen</strong>. Launches full-screen like a native app.
+            </p>
+          </div>
+        </div>
+
+        {deferredPrompt && !isInstalled && (
+          <div className="pt-2 flex justify-end">
+            <button
+              onClick={handleInstallApp}
+              className="flex items-center space-x-2 px-4 py-2 bg-gradient-to-r from-rose-600 to-rose-700 hover:from-rose-500 hover:to-rose-600 text-white rounded-xl text-xs font-semibold transition shadow-md shadow-rose-950/60 active:scale-95"
+            >
+              <Smartphone className="w-4 h-4" />
+              <span>Install to Android Home Screen</span>
+            </button>
+          </div>
+        )}
+
+        {isInstalled && (
+          <div className="p-3 rounded-xl bg-emerald-950/40 border border-emerald-900/60 text-emerald-300 text-xs flex items-center space-x-2">
+            <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0" />
+            <span>Currently running as an installed standalone app.</span>
+          </div>
+        )}
+      </div>
+
+      {/* Danger Zone: Reset App / New Game */}
+      <div className="bg-stone-900 border border-rose-900/40 rounded-2xl p-5 space-y-4">
+        <div className="flex items-center space-x-2.5">
+          <AlertTriangle className="w-5 h-5 text-rose-500 shrink-0" />
+          <div>
+            <h2 className="text-base font-semibold text-rose-300">
+              Danger Zone · အန္တရာယ်ဇုန် (Reset Application)
+            </h2>
+            <p className="text-[11px] text-stone-400">
+              လေ့ကျင့်ထားသော တိုးတက်မှုများ၊ စာမေးပွဲရလဒ်များနှင့် ဆက်တင်အားလုံးကို အပြီးတိုင် ဖျက်ပစ်ပြီး ပထမနေ့အတိုင်း အသစ်ပြန်စတင်ပါမည်
+            </p>
+          </div>
+        </div>
+
+        <div className="p-4 rounded-xl bg-rose-950/20 border border-rose-900/30 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div className="space-y-1">
+            <span className="text-xs font-bold text-stone-200 block">
+              Reset App Progress (New Game)
+            </span>
+            <p className="text-[11px] text-stone-400 max-w-xl leading-relaxed">
+              Permanently wipes all SRS review intervals, mastery records, grammar cram logs, customized keyboard shortcuts, and local storage. The app will immediately reload into a fresh, Day 1 state.
+            </p>
+          </div>
+
+          <button
+            type="button"
+            onClick={() => setIsResetModalOpen(true)}
+            className="px-4 py-2.5 bg-rose-600 hover:bg-rose-500 active:scale-95 text-white font-semibold text-xs rounded-xl flex items-center justify-center space-x-2 transition shadow-md shadow-rose-950/60 shrink-0 cursor-pointer"
+          >
+            <Trash2 className="w-4 h-4" />
+            <span>Reset App Progress (New Game)</span>
+          </button>
+        </div>
+      </div>
+
+      {/* Strict Confirmation Modal for Reset Application / New Game */}
+      {isResetModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-md p-4 animate-fadeIn">
+          <div className="bg-stone-900 border border-rose-600/40 rounded-2xl max-w-lg w-full p-6 space-y-5 shadow-2xl relative">
+            <div className="flex items-start space-x-3.5">
+              <div className="w-10 h-10 rounded-full bg-rose-950/80 border border-rose-600/50 flex items-center justify-center shrink-0">
+                <AlertTriangle className="w-5 h-5 text-rose-400 animate-pulse" />
+              </div>
+              <div className="space-y-1">
+                <h3 className="text-base font-bold text-stone-100">
+                  Are you sure you want to completely wipe all learning progress and start from zero?
+                </h3>
+                <p className="text-xs text-rose-300/90 font-medium">
+                  This action cannot be undone. (ဤလုပ်ဆောင်ချက်ကို ပြန်လည်ပြင်ဆင်၍ မရနိုင်ပါ။)
+                </p>
+              </div>
+            </div>
+
+            <div className="p-3.5 rounded-xl bg-stone-950 border border-stone-800 space-y-2 text-xs text-stone-300">
+              <span className="text-[11px] font-semibold text-stone-400 block uppercase tracking-wider">
+                အောက်ပါ အချက်အလက်များ အားလုံး အပြီးတိုင် ပျက်ပြယ်သွားပါမည်:
+              </span>
+              <ul className="space-y-1.5 text-[11px] text-stone-400">
+                <li className="flex items-center space-x-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-rose-500" />
+                  <span>All SRS Flashcards &amp; Repetition Intervals (SRS ကတ်များ)</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-rose-500" />
+                  <span>Grammar Cram, Star Scramble &amp; Choukai Drills (လေ့ကျင့်ခန်းမှတ်တမ်းများ)</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-rose-500" />
+                  <span>Official Mock Exam Scores &amp; Readiness Tests (စာမေးပွဲရလဒ်များ)</span>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-rose-500" />
+                  <span>Custom Keyboard Shortcuts &amp; Preferences (စိတ်ကြိုက်ဆက်တင်များ)</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="flex flex-col-reverse sm:flex-row sm:items-center sm:justify-end gap-2.5 pt-2">
+              <button
+                type="button"
+                disabled={isResetting}
+                onClick={() => setIsResetModalOpen(false)}
+                className="px-4 py-2 rounded-xl bg-stone-800 hover:bg-stone-750 text-stone-300 text-xs font-medium transition cursor-pointer disabled:opacity-50"
+              >
+                မဖျက်တော့ပါ (Cancel)
+              </button>
+
+              <button
+                type="button"
+                disabled={isResetting}
+                onClick={handleConfirmReset}
+                className="px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-500 active:scale-95 text-white text-xs font-semibold flex items-center justify-center space-x-1.5 transition shadow-lg shadow-rose-950/60 disabled:opacity-50 cursor-pointer"
+              >
+                {isResetting ? (
+                  <>
+                    <RefreshCw className="w-3.5 h-3.5 animate-spin" />
+                    <span>အချက်အလက်များ ရှင်းလင်းနေပါသည်...</span>
+                  </>
+                ) : (
+                  <>
+                    <Trash2 className="w-3.5 h-3.5" />
+                    <span>ဟုတ်ကဲ့၊ အကုန်ဖျက်ပြီး အသစ်ပြန်စမည် (Wipe &amp; Restart)</span>
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Storage Diagnostics Modal */}
+      <StorageDiagnosticsModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        onDataRestored={() => {
+          if (onDataRestored) onDataRestored();
+          fetchDiagnostics();
+        }}
+      />
+    </div>
+  );
+};

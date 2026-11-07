@@ -1,0 +1,890 @@
+# Nihongo N2 Master — Curriculum Audit Report
+
+**Date:** 2026-10-01T02:02:24.409Z  
+**Status:** PASSED (0 blocking errors)  
+**Total Lessons Audited:** 174 (Published: 174, Drafted: 0, Planned: 0)
+
+---
+
+## 1. Level Breakdown
+- **N5:** 30 / 30 Published
+- **N4:** 36 / 36 Published
+- **N3:** 48 / 48 Published
+- **N2:** 60 / 60 Published
+
+## 2. Cumulative Progression
+- Total Vocabulary Items: **2088**
+- Total Kanji Characters: **522**
+- Total Grammar Patterns: **349**
+
+## 3. Issues & Compliance Summary
+- Blocking Errors: **0**
+- Warnings: **867**
+
+- **[WARNING]** [linter] (n5.l01): [grammar-in-text] Grammar pattern 'X は Y です' (n5.l01.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l01): [grammar-in-text] Grammar pattern 'X は Y ですか' (n5.l01.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l02): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l02.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l02): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l02.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l02): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l02): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l02): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l03): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l03.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l03): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l03.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l03): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l03): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l03): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l04): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l04.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l04): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l04.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l04): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l04): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l04): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l05): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l05.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l05): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l05.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l05): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l05): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l05): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l06): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l06.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l06): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l06.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l06): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l06): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l06): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l07): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l07.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l07): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l07.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l07): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l07): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l07): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l08): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l08.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l08): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l08.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l08): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l08): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l08): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l09): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l09.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l09): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l09.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l09): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l09): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l09): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l10): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l10.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l10): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l10.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l10): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l10): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l10): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l11): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l11.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l11): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l11.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l11): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l11): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l11): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l12): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l12.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l12): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l12.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l12): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l12): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l12): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l13): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l13.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l13): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l13.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l13): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l13): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l13): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l14): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l14.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l14): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l14.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l14): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l14): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l14): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l15): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l15.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l15): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l15.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l15): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l15): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l15): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l16): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l16.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l16): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l16.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l16): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l16): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l16): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l17): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l17.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l17): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l17.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l17): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l17): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l17): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l18): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l18.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l18): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l18.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l18): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l18): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l18): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l19): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l19.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l19): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l19.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l19): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l19): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l19): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l20): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l20.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l20): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l20.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l20): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l20): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l20): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l21): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l21.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l21): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l21.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l21): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l21): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l21): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l22): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l22.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l22): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l22.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l22): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l22): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l22): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l23): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l23.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l23): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l23.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l23): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l23): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l23): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l24): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l24.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l24): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l24.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l24): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l24): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l24): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l25): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l25.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l25): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l25.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l25): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l25): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l25): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l26): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l26.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l26): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l26.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l26): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l26): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l26): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l27): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l27.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l27): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l27.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l27): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l27): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l27): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l28): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l28.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l28): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l28.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l28): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l28): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l28): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l29): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l29.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l29): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l29.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l29): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l29): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l29): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l30): [grammar-in-text] Grammar pattern 'X を Y します' (n5.l30.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l30): [grammar-in-text] Grammar pattern 'X で Y します' (n5.l30.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n5.l30): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n5.l30): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n5.l30): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l01): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l01.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l01): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l01.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l01): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l01): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l01): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l02): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l02.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l02): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l02.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l02): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l02): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l02): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l03): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l03.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l03): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l03.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l03): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l03): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l03): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l04): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l04.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l04): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l04.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l04): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l04): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l04): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l05): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l05.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l05): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l05.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l05): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l05): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l05): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l06): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l06.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l06): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l06.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l06): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l06): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l06): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l07): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l07.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l07): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l07.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l07): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l07): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l07): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l08): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l08.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l08): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l08.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l08): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l08): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l08): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l09): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l09.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l09): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l09.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l09): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l09): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l09): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l10): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l10.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l10): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l10.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l10): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l10): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l10): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l11): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l11.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l11): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l11.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l11): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l11): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l11): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l12): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l12.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l12): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l12.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l12): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l12): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l12): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l13): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l13.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l13): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l13.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l13): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l13): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l13): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l14): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l14.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l14): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l14.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l14): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l14): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l14): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l15): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l15.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l15): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l15.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l15): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l15): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l15): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l16): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l16.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l16): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l16.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l16): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l16): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l16): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l17): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l17.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l17): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l17.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l17): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l17): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l17): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l18): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l18.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l18): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l18.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l18): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l18): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l18): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l19): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l19.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l19): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l19.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l19): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l19): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l19): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l20): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l20.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l20): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l20.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l20): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l20): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l20): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l21): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l21.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l21): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l21.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l21): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l21): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l21): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l22): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l22.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l22): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l22.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l22): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l22): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l22): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l23): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l23.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l23): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l23.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l23): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l23): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l23): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l24): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l24.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l24): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l24.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l24): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l24): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l24): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l25): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l25.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l25): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l25.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l25): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l25): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l25): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l26): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l26.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l26): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l26.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l26): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l26): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l26): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l27): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l27.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l27): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l27.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l27): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l27): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l27): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l28): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l28.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l28): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l28.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l28): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l28): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l28): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l29): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l29.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l29): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l29.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l29): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l29): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l29): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l30): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l30.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l30): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l30.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l30): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l30): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l30): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l31): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l31.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l31): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l31.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l31): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l31): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l31): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l32): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l32.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l32): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l32.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l32): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l32): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l32): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l33): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l33.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l33): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l33.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l33): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l33): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l33): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l34): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l34.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l34): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l34.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l34): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l34): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l34): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l35): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l35.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l35): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l35.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l35): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l35): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l35): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l36): [grammar-in-text] Grammar pattern 'X を Y します' (n4.l36.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l36): [grammar-in-text] Grammar pattern 'X で Y します' (n4.l36.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n4.l36): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n4.l36): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n4.l36): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l01): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l01.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l01): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l01.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l01): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l01): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l01): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l02): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l02.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l02): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l02.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l02): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l02): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l02): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l03): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l03.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l03): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l03.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l03): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l03): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l03): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l04): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l04.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l04): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l04.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l04): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l04): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l04): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l05): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l05.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l05): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l05.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l05): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l05): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l05): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l06): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l06.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l06): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l06.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l06): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l06): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l06): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l07): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l07.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l07): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l07.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l07): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l07): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l07): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l08): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l08.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l08): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l08.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l08): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l08): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l08): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l09): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l09.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l09): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l09.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l09): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l09): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l09): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l10): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l10.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l10): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l10.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l10): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l10): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l10): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l11): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l11.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l11): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l11.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l11): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l11): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l11): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l12): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l12.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l12): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l12.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l12): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l12): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l12): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l13): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l13.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l13): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l13.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l13): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l13): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l13): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l14): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l14.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l14): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l14.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l14): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l14): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l14): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l15): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l15.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l15): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l15.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l15): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l15): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l15): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l16): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l16.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l16): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l16.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l16): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l16): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l16): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l17): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l17.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l17): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l17.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l17): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l17): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l17): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l18): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l18.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l18): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l18.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l18): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l18): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l18): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l19): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l19.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l19): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l19.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l19): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l19): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l19): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l20): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l20.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l20): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l20.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l20): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l20): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l20): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l21): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l21.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l21): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l21.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l21): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l21): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l21): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l22): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l22.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l22): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l22.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l22): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l22): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l22): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l23): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l23.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l23): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l23.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l23): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l23): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l23): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l24): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l24.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l24): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l24.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l24): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l24): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l24): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l25): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l25.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l25): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l25.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l25): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l25): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l25): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l26): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l26.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l26): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l26.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l26): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l26): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l26): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l27): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l27.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l27): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l27.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l27): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l27): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l27): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l28): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l28.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l28): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l28.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l28): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l28): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l28): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l29): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l29.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l29): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l29.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l29): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l29): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l29): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l30): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l30.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l30): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l30.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l30): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l30): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l30): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l31): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l31.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l31): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l31.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l31): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l31): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l31): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l32): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l32.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l32): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l32.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l32): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l32): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l32): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l33): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l33.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l33): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l33.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l33): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l33): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l33): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l34): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l34.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l34): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l34.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l34): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l34): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l34): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l35): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l35.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l35): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l35.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l35): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l35): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l35): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l36): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l36.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l36): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l36.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l36): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l36): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l36): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l37): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l37.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l37): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l37.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l37): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l37): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l37): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l38): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l38.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l38): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l38.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l38): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l38): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l38): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l39): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l39.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l39): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l39.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l39): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l39): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l39): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l40): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l40.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l40): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l40.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l40): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l40): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l40): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l41): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l41.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l41): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l41.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l41): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l41): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l41): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l42): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l42.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l42): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l42.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l42): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l42): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l42): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l43): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l43.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l43): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l43.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l43): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l43): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l43): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l44): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l44.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l44): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l44.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l44): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l44): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l44): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l45): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l45.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l45): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l45.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l45): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l45): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l45): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l46): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l46.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l46): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l46.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l46): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l46): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l46): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l47): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l47.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l47): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l47.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l47): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l47): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l47): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l48): [grammar-in-text] Grammar pattern 'X を Y します' (n3.l48.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l48): [grammar-in-text] Grammar pattern 'X で Y します' (n3.l48.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n3.l48): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n3.l48): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n3.l48): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l01): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l01.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l01): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l01.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l01): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l01): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l01): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l02): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l02.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l02): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l02.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l02): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l02): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l02): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l03): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l03.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l03): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l03.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l03): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l03): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l03): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l04): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l04.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l04): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l04.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l04): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l04): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l04): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l05): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l05.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l05): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l05.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l05): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l05): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l05): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l06): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l06.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l06): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l06.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l06): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l06): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l06): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l07): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l07.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l07): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l07.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l07): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l07): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l07): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l08): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l08.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l08): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l08.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l08): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l08): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l08): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l09): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l09.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l09): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l09.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l09): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l09): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l09): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l10): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l10.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l10): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l10.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l10): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l10): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l10): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l11): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l11.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l11): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l11.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l11): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l11): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l11): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l12): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l12.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l12): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l12.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l12): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l12): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l12): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l13): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l13.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l13): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l13.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l13): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l13): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l13): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l14): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l14.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l14): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l14.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l14): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l14): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l14): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l15): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l15.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l15): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l15.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l15): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l15): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l15): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l16): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l16.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l16): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l16.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l16): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l16): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l16): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l17): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l17.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l17): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l17.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l17): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l17): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l17): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l18): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l18.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l18): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l18.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l18): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l18): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l18): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l19): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l19.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l19): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l19.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l19): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l19): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l19): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l20): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l20.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l20): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l20.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l20): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l20): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l20): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l21): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l21.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l21): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l21.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l21): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l21): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l21): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l22): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l22.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l22): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l22.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l22): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l22): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l22): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l23): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l23.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l23): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l23.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l23): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l23): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l23): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l24): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l24.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l24): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l24.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l24): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l24): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l24): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l25): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l25.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l25): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l25.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l25): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l25): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l25): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l26): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l26.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l26): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l26.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l26): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l26): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l26): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l27): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l27.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l27): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l27.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l27): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l27): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l27): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l28): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l28.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l28): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l28.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l28): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l28): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l28): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l29): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l29.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l29): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l29.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l29): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l29): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l29): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l30): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l30.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l30): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l30.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l30): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l30): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l30): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l31): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l31.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l31): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l31.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l31): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l31): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l31): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l32): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l32.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l32): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l32.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l32): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l32): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l32): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l33): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l33.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l33): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l33.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l33): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l33): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l33): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l34): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l34.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l34): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l34.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l34): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l34): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l34): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l35): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l35.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l35): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l35.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l35): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l35): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l35): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l36): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l36.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l36): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l36.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l36): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l36): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l36): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l37): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l37.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l37): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l37.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l37): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l37): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l37): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l38): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l38.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l38): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l38.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l38): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l38): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l38): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l39): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l39.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l39): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l39.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l39): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l39): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l39): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l40): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l40.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l40): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l40.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l40): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l40): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l40): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l41): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l41.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l41): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l41.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l41): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l41): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l41): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l42): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l42.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l42): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l42.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l42): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l42): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l42): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l43): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l43.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l43): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l43.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l43): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l43): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l43): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l44): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l44.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l44): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l44.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l44): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l44): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l44): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l45): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l45.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l45): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l45.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l45): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l45): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l45): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l46): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l46.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l46): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l46.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l46): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l46): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l46): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l47): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l47.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l47): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l47.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l47): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l47): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l47): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l48): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l48.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l48): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l48.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l48): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l48): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l48): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l49): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l49.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l49): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l49.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l49): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l49): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l49): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l50): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l50.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l50): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l50.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l50): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l50): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l50): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l51): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l51.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l51): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l51.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l51): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l51): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l51): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l52): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l52.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l52): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l52.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l52): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l52): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l52): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l53): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l53.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l53): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l53.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l53): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l53): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l53): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l54): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l54.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l54): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l54.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l54): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l54): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l54): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l55): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l55.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l55): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l55.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l55): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l55): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l55): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l56): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l56.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l56): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l56.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l56): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l56): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l56): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l57): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l57.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l57): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l57.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l57): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l57): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l57): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l58): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l58.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l58): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l58.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l58): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l58): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l58): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l59): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l59.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l59): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l59.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l59): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l59): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l59): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l60): [grammar-in-text] Grammar pattern 'X を Y します' (n2.l60.g001) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l60): [grammar-in-text] Grammar pattern 'X で Y します' (n2.l60.g002) was not found in either reading passage or listening transcript.
+- **[WARNING]** [linter] (n2.l60): [question-bank-size] Question bank for vocab has 12 questions (recommended >= 15 for retake variety).
+- **[WARNING]** [linter] (n2.l60): [question-bank-size] Question bank for kanji has 6 questions (recommended >= 9 for retake variety).
+- **[WARNING]** [linter] (n2.l60): [question-bank-size] Question bank for grammar has 2 questions (recommended >= 9 for retake variety).

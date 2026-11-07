@@ -1,0 +1,1786 @@
+import { LessonPack } from '../../../models/types';
+
+export const n2l57Data: LessonPack = {
+  "id": "n2.l57",
+  "level": "N2",
+  "module": "N2 Mastery & Professional Japanese",
+  "number": 57,
+  "title": "N2 Lesson 57: Expressing Regret & Sincere Apologies (〜深くお詫び申し上げます・〜遺憾に存じます・〜お許し願います)",
+  "description": "Mastery module focusing on Corporate Accountability, Crisis Apologies, and Deploring Errors: profound official apologies (深くお詫び申し上げます), diplomatic regrets for deplorable outcomes (遺憾に存じます), and earnest requests for pardon (お許し願います).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l57.v001",
+      "lessonId": "n2.l57",
+      "ja": "お詫び",
+      "kana": "おわび",
+      "en": "apology",
+      "my": "တောင်းပန်စကား",
+      "meaningMy": "တောင်းပန်စကား",
+      "meaningMyanmar": "တောင်းပန်စကား",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l57.s001",
+      "kanjiIds": [
+        "n2.l57.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.v002",
+      "lessonId": "n2.l57",
+      "ja": "謝罪",
+      "kana": "しゃざい",
+      "en": "apology / amends",
+      "my": "တောင်းပန်ခြင်း",
+      "meaningMy": "တောင်းပန်ခြင်း",
+      "meaningMyanmar": "တောင်းပန်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l57.s002",
+      "kanjiIds": [
+        "n2.l57.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.v003",
+      "lessonId": "n2.l57",
+      "ja": "感謝",
+      "kana": "かんしゃ",
+      "en": "gratitude / thanks",
+      "my": "ကျေးဇူးတင်ခြင်း",
+      "meaningMy": "ကျေးဇူးတင်ခြင်း",
+      "meaningMyanmar": "ကျေးဇူးတင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l57.s003",
+      "kanjiIds": [
+        "n2.l57.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.v004",
+      "lessonId": "n2.l57",
+      "ja": "謝絶",
+      "kana": "しゃぜつ",
+      "en": "refusal / rejection",
+      "my": "ငြင်းပယ်ခြင်း",
+      "meaningMy": "ငြင်းပယ်ခြင်း",
+      "meaningMyanmar": "ငြင်းပယ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l57.s004",
+      "kanjiIds": [
+        "n2.l57.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.v005",
+      "lessonId": "n2.l57",
+      "ja": "遺憾",
+      "kana": "いかん",
+      "en": "regrettable / deplorable",
+      "my": "စိတ်မကောင်းဖွယ်",
+      "meaningMy": "စိတ်မကောင်းဖွယ်",
+      "meaningMyanmar": "စိတ်မကောင်းဖွယ်",
+      "pos": "na-adj",
+      "exampleSentenceId": "n2.l57.s005",
+      "kanjiIds": [
+        "n2.l57.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.v006",
+      "lessonId": "n2.l57",
+      "ja": "不手際",
+      "kana": "ふてぎわ",
+      "en": "clumsiness / mismanagement",
+      "my": "ချို့ယွင်းမှားယွင်းမှု",
+      "meaningMy": "ချို့ယွင်းမှားယွင်းမှု",
+      "meaningMyanmar": "ချို့ယွင်းမှားယွင်းမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l57.s006",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.v007",
+      "lessonId": "n2.l57",
+      "ja": "迷惑",
+      "kana": "めいわく",
+      "en": "nuisance / inconvenience",
+      "my": "အနှောင့်အယှက်",
+      "meaningMy": "အနှောင့်အယှက်",
+      "meaningMyanmar": "အနှောင့်အယှက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l57.s007",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.v008",
+      "lessonId": "n2.l57",
+      "ja": "痛切",
+      "kana": "つうせつ",
+      "en": "keen / acute / heartfelt",
+      "my": "နက်ရှိုင်းစွာ ခံစားရသော",
+      "meaningMy": "နက်ရှိုင်းစွာ ခံစားရသော",
+      "meaningMyanmar": "နက်ရှိုင်းစွာ ခံစားရသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n2.l57.s008",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.v009",
+      "lessonId": "n2.l57",
+      "ja": "陳謝",
+      "kana": "ちんしゃ",
+      "en": "apology with explanation",
+      "my": "အကျိုးပြတောင်းပန်ခြင်း",
+      "meaningMy": "အကျိုးပြတောင်းပန်ခြင်း",
+      "meaningMyanmar": "အကျိုးပြတောင်းပန်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l57.s009",
+      "kanjiIds": [
+        "n2.l57.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.v010",
+      "lessonId": "n2.l57",
+      "ja": "寛容",
+      "kana": "かんよう",
+      "en": "tolerance / leniency",
+      "my": "သည်းခံခွင့်လွှတ်မှု",
+      "meaningMy": "သည်းခံခွင့်လွှတ်မှု",
+      "meaningMyanmar": "သည်းခံခွင့်လွှတ်မှု",
+      "pos": "na-adj",
+      "exampleSentenceId": "n2.l57.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.v011",
+      "lessonId": "n2.l57",
+      "ja": "善処",
+      "kana": "ぜんしょ",
+      "en": "taking best measures",
+      "my": "အကောင်းဆုံး စီမံခြင်း",
+      "meaningMy": "အကောင်းဆုံး စီမံခြင်း",
+      "meaningMyanmar": "အကောင်းဆုံး စီမံခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l57.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.v012",
+      "lessonId": "n2.l57",
+      "ja": "再発",
+      "kana": "さいはつ",
+      "en": "recurrence / relapse",
+      "my": "ထပ်မံဖြစ်ပွားခြင်း",
+      "meaningMy": "ထပ်မံဖြစ်ပွားခြင်း",
+      "meaningMyanmar": "ထပ်မံဖြစ်ပွားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l57.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l57.k001",
+      "lessonId": "n2.l57",
+      "char": "詫",
+      "meaning": "Apologize / Excuse / Make amends",
+      "meaningMy": "တောင်းပန်သည် / ခွင့်လွှတ်မှုတောင်းခံသည်",
+      "meaningMyanmar": "တောင်းပန်သည် / ခွင့်လွှတ်မှုတောင်းခံသည်",
+      "onyomi": [],
+      "kunyomi": [
+        "わ・びる",
+        "わ・び"
+      ],
+      "exampleVocab": [
+        {
+          "word": "お詫び",
+          "reading": "おわび",
+          "meaning": "apology",
+          "meaningMy": "တောင်းပန်စကား / တောင်းပန်လွှာ",
+          "preview": true
+        },
+        {
+          "word": "詫び状",
+          "reading": "わびじょう",
+          "meaning": "letter of apology",
+          "meaningMy": "တောင်းပန်စာ",
+          "preview": false
+        },
+        {
+          "word": "詫言",
+          "reading": "わびごと",
+          "meaning": "words of apology",
+          "meaningMy": "တောင်းပန်စကား",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l57.s001"
+      ],
+      "components": [
+        "言",
+        "宅"
+      ],
+      "strokes": 13,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.k002",
+      "lessonId": "n2.l57",
+      "char": "謝",
+      "meaning": "Thank / Apologize / Refuse / Decline",
+      "meaningMy": "ကျေးဇူးတင်သည် / တောင်းပန်သည် / ငြင်းဆန်သည်",
+      "meaningMyanmar": "ကျေးဇူးတင်သည် / တောင်းပန်သည် / ငြင်းဆန်သည်",
+      "onyomi": [
+        "シャ"
+      ],
+      "kunyomi": [
+        "あやま・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "謝罪",
+          "reading": "しゃざい",
+          "meaning": "apology",
+          "meaningMy": "တောင်းပန်ခြင်း",
+          "preview": true
+        },
+        {
+          "word": "感謝",
+          "reading": "かんしゃ",
+          "meaning": "gratitude / thanks",
+          "meaningMy": "ကျေးဇူးတင်ရှိခြင်း",
+          "preview": false
+        },
+        {
+          "word": "謝絶",
+          "reading": "しゃぜつ",
+          "meaning": "refusal / rejection",
+          "meaningMy": "ငြင်းပယ်ခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l57.s002"
+      ],
+      "components": [
+        "言",
+        "射"
+      ],
+      "strokes": 17,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.k003",
+      "lessonId": "n2.l57",
+      "char": "憾",
+      "meaning": "Regret / Remorse / Resent",
+      "meaningMy": "နောင်တရသည် / စိတ်မကောင်းဖြစ်သည် / ဝမ်းနည်းဖွယ်",
+      "meaningMyanmar": "နောင်တရသည် / စိတ်မကောင်းဖြစ်သည် / ဝမ်းနည်းဖွယ်",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "遺憾",
+          "reading": "いかん",
+          "meaning": "regrettable / deplorable",
+          "meaningMy": "စိတ်မကောင်းဖွယ် ဝမ်းနည်းစရာ",
+          "preview": true
+        },
+        {
+          "word": "痛憾",
+          "reading": "つうかん",
+          "meaning": "bitter regret",
+          "meaningMy": "ပြင်းထန်သော နောင်တ",
+          "preview": false
+        },
+        {
+          "word": "憾み",
+          "reading": "うらみ",
+          "meaning": "regret / dissatisfaction",
+          "meaningMy": "မကျေနပ်ချက် / စိတ်မကောင်းမှု",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l57.s003"
+      ],
+      "components": [
+        "忄",
+        "感"
+      ],
+      "strokes": 16,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l57.g001",
+      "lessonId": "n2.l57",
+      "pattern": "〜深くお詫び申し上げます",
+      "meaning": "We offer our deepest and sincerest apologies for...",
+      "meaningMy": "...အတွက် အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည် (အဆင့်မြင့် တရားဝင် တောင်းပန်စကား)",
+      "meaningMyanmar": "...အတွက် အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည် (အဆင့်မြင့် တရားဝင် တောင်းပန်စကား)",
+      "formation": "N / て形 + しまいましたこと、深くお詫び申し上げます",
+      "explanation": {
+        "en": "The highest, most solemn corporate apology expression used in press conferences and official letters when taking absolute responsibility for a grave failing.",
+        "my": "ကုမ္ပဏီ သတင်းစာရှင်းလင်းပွဲများ သို့မဟုတ် တရားဝင် စာလွှာများတွင် ကြီးမားသော ချို့ယွင်းမှားယွင်းမှုအတွက် အပြည့်အဝ တာဝန်ယူ၍ အနက်ရှိုင်းဆုံး တောင်းပန်ရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "ကုမ္ပဏီ သတင်းစာရှင်းလင်းပွဲများ သို့မဟုတ် တရားဝင် စာလွှာများတွင် ကြီးမားသော ချို့ယွင်းမှားယွင်းမှုအတွက် အပြည့်အဝ တာဝန်ယူ၍ အနက်ရှိုင်းဆုံး တောင်းပန်ရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l57.s001",
+          "note": "〜深くお詫び申し上げます usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l57.s002",
+          "note": "〜深くお詫び申し上げます usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l57.s003",
+          "note": "〜深くお詫び申し上げます usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l57.s010",
+          "note": "〜深くお詫び申し上げます usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l57.s011",
+          "note": "〜深くお詫び申し上げます usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l57.g001",
+        "n2.l57.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜深くお詫び申し上げます."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "お客様に多大なるご迷惑をおかけしましたこと、心より［　］。",
+      "clozeTarget": "深くお詫び申し上げます",
+      "clozeHint": "We offer our deepest apologies (fukaku owabi moushiagemasu)",
+      "acceptableSynonyms": [
+        "〜陳謝いたします",
+        "〜心より謝罪いたします"
+      ],
+      "nuanceExplanationMy": "အမြင့်ဆုံး အဆင့်ရှိသော တရားဝင် တောင်းပန်စကား ဖြစ်သည်။"
+    },
+    {
+      "id": "n2.l57.g002",
+      "lessonId": "n2.l57",
+      "pattern": "〜遺憾に存じます",
+      "meaning": "We find it extremely regrettable / deplore that...",
+      "meaningMy": "...သည်မှာ အလွန်ပင် စိတ်မကောင်းဖွယ် နောင်တရဖွယ်ဖြစ်ပါသည်ဟု ယူဆပါသည် (သံတမန်သုံး စကား)",
+      "meaningMyanmar": "...သည်မှာ အလွန်ပင် စိတ်မကောင်းဖွယ် နောင်တရဖွယ်ဖြစ်ပါသည်ဟု ယူဆပါသည် (သံတမန်သုံး စကား)",
+      "formation": "N / であること、誠に遺憾に存じます",
+      "explanation": {
+        "en": "A high-level corporate and diplomatic expression indicating solemn regret, disappointment, or objection to an unfortunate occurrence.",
+        "my": "သံတမန်ရေး သို့မဟုတ် အဆင့်မြင့် စီးပွားရေးတွင် မလိုလားအပ်သော ရလဒ် သို့မဟုတ် မတော်တဆမှုအပေါ် လွန်စွာ ဝမ်းနည်းစိတ်မကောင်းဖြစ်ကြောင်း တရားဝင် ဖော်ပြရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "သံတမန်ရေး သို့မဟုတ် အဆင့်မြင့် စီးပွားရေးတွင် မလိုလားအပ်သော ရလဒ် သို့မဟုတ် မတော်တဆမှုအပေါ် လွန်စွာ ဝမ်းနည်းစိတ်မကောင်းဖြစ်ကြောင်း တရားဝင် ဖော်ပြရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l57.s004",
+          "note": "〜遺憾に存じます usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l57.s005",
+          "note": "〜遺憾に存じます usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l57.s006",
+          "note": "〜遺憾に存じます usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l57.s012",
+          "note": "〜遺憾に存じます usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l57.g001",
+        "n2.l57.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜遺憾に存じます."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "期待された成果を達成できなかったことは、誠に［　］。",
+      "clozeTarget": "遺憾に存じます",
+      "clozeHint": "Extremely regrettable (ikan ni zonjimasu)",
+      "acceptableSynonyms": [
+        "〜残念に思います",
+        "〜痛惜の極みでございます"
+      ],
+      "nuanceExplanationMy": "သံတမန်ရေး သို့မဟုတ် စီးပွားရေး စာလွှာများတွင် စိတ်ပျက်ဝမ်းနည်းမှုကို ယဉ်ကျေးစွာ ဖော်ပြသည်။"
+    },
+    {
+      "id": "n2.l57.g003",
+      "lessonId": "n2.l57",
+      "pattern": "〜お許し願います",
+      "meaning": "We humbly beg your pardon / forgive us for...",
+      "meaningMy": "...ခွင့်လွှတ်သီးခံပေးပါရန် ရိုသေစွာ မေတ္တာရပ်ခံအပ်ပါသည်",
+      "meaningMyanmar": "...ခွင့်လွှတ်သီးခံပေးပါရန် ရိုသေစွာ မေတ္တာရပ်ခံအပ်ပါသည်",
+      "formation": "お / ご + N / V(ます) + お許し願います / ご容赦願います",
+      "explanation": {
+        "en": "Politely asks an interlocutor for understanding, forgiveness, or leniency regarding an unavoidable oversight, delay, or flaw.",
+        "my": "မလွှဲသာသော အမှား သို့မဟုတ် ချို့ယွင်းချက်လေးများအပေါ် တစ်ဖက်လူအား စာနာနားလည်၍ ခွင့်လွှတ်ပေးပါရန် ယဉ်ကျေးစွာ မေတ္တာရပ်ခံရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "မလွှဲသာသော အမှား သို့မဟုတ် ချို့ယွင်းချက်လေးများအပေါ် တစ်ဖက်လူအား စာနာနားလည်၍ ခွင့်လွှတ်ပေးပါရန် ယဉ်ကျေးစွာ မေတ္တာရပ်ခံရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l57.s007",
+          "note": "〜お許し願います usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l57.s008",
+          "note": "〜お許し願います usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l57.s009",
+          "note": "〜お許し願います usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l57.g001",
+        "n2.l57.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜お許し願います."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "準備不足によりご不便をおかけしましたこと、何卒［　］。",
+      "clozeTarget": "お許し願います",
+      "clozeHint": "Beg your pardon (oyurushi negaimasu)",
+      "acceptableSynonyms": [
+        "〜ご容赦ください",
+        "〜ご海容願います"
+      ],
+      "nuanceExplanationMy": "နားလည်ခွင့်လွှတ်ပေးရန် ယဉ်ကျေးစွာ မေတ္တာရပ်ခံသည့် စကားဖြစ်သည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l57.s001",
+      "lessonId": "n2.l57",
+      "ja": "今回のシステム障害により多大なご迷惑をおかけしましたこと、深くお詫び申し上げます。",
+      "kana": "こんかいのシステムしょうがいによりただいなごめいわくをおかけしましたこと、ふかくおわびもうしあげます。",
+      "translation": {
+        "en": "Having inflicted immense inconvenience due to this system outage, we offer our deepest apologies.",
+        "my": "ယခု စနစ်ချို့ယွင်းမှုကြောင့် ကြီးမားလှသော အနှောင့်အယှက်များ ဖြစ်ပေါ်စေခဲ့သည့်အတွက် အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည်။"
+      },
+      "translationMy": "ယခု စနစ်ချို့ယွင်းမှုကြောင့် ကြီးမားလှသော အနှောင့်အယှက်များ ဖြစ်ပေါ်စေခဲ့သည့်အတွက် အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည်။",
+      "vocabIds": [
+        "n2.l57.v001",
+        "n2.l57.v007"
+      ],
+      "grammarIds": [
+        "n2.l57.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.s002",
+      "lessonId": "n2.l57",
+      "ja": "当方の不手際により納品が遅延いたしましたこと、心より深くお詫び申し上げます。",
+      "kana": "とうほうのふてぎわによりのうひんがちえんいたしましたこと、こころよりふかくおわびもうしあげます。",
+      "translation": {
+        "en": "That shipment was delayed due to clumsiness on our side, we offer our deepest apologies from the bottom of our heart.",
+        "my": "ကျွန်ုပ်တို့ဘက်မှ ချို့ယွင်းမှားယွင်းမှုကြောင့် ကုန်ပစ္စည်း ပို့ဆောင်မှု နောက်ကျခဲ့ရသည့်အတွက် နှလုံးသားထဲမှ အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည်။"
+      },
+      "translationMy": "ကျွန်ုပ်တို့ဘက်မှ ချို့ယွင်းမှားယွင်းမှုကြောင့် ကုန်ပစ္စည်း ပို့ဆောင်မှု နောက်ကျခဲ့ရသည့်အတွက် နှလုံးသားထဲမှ အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည်။",
+      "vocabIds": [
+        "n2.l57.v001",
+        "n2.l57.v006"
+      ],
+      "grammarIds": [
+        "n2.l57.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.s003",
+      "lessonId": "n2.l57",
+      "ja": "個人情報の漏洩という重大な事態を招き、記者会見を開いて深くお詫び申し上げます。",
+      "kana": "こじんじょうほうのろうえいというじゅうだいなじたいをまねき、きしゃかいけんをひらいてふかくおわびもうしあげます。",
+      "translation": {
+        "en": "Having brought about the grave crisis of personal data leaks, we hold a press conference to offer our deepest apologies.",
+        "my": "ကိုယ်ရေးကိုယ်တာ အချက်အလက်များ ပေါက်ကြားမှုဟူသော ကြီးလေးသည့် အခြေအနေကို ဖြစ်ပေါ်စေခဲ့သဖြင့် သတင်းစာရှင်းလင်းပွဲ ကျင်းပကာ အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည်။"
+      },
+      "translationMy": "ကိုယ်ရေးကိုယ်တာ အချက်အလက်များ ပေါက်ကြားမှုဟူသော ကြီးလေးသည့် အခြေအနေကို ဖြစ်ပေါ်စေခဲ့သဖြင့် သတင်းစာရှင်းလင်းပွဲ ကျင်းပကာ အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည်။",
+      "vocabIds": [
+        "n2.l57.v001",
+        "n2.l57.v002"
+      ],
+      "grammarIds": [
+        "n2.l57.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.s004",
+      "lessonId": "n2.l57",
+      "ja": "長年の交渉にもかかわらず合意に至らなかったことは、誠に遺憾に存じます。",
+      "kana": "ながねんのこうしょうにもかかわらずごういにいたらなかったことは、まことにいかんにぞんじます。",
+      "translation": {
+        "en": "That we failed to reach agreement despite years of negotiation, we find it truly regrettable.",
+        "my": "နှစ်ပေါင်းများစွာ ဆွေးနွေးခဲ့သော်လည်း သဘောတူညီချက် မရရှိခဲ့သည်မှာ အမှန်တကယ်ပင် စိတ်မကောင်းဖွယ် ဖြစ်ပါသည်ဟု ယူဆပါသည်။"
+      },
+      "translationMy": "နှစ်ပေါင်းများစွာ ဆွေးနွေးခဲ့သော်လည်း သဘောတူညီချက် မရရှိခဲ့သည်မှာ အမှန်တကယ်ပင် စိတ်မကောင်းဖွယ် ဖြစ်ပါသည်ဟု ယူဆပါသည်။",
+      "vocabIds": [
+        "n2.l57.v005"
+      ],
+      "grammarIds": [
+        "n2.l57.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.s005",
+      "lessonId": "n2.l57",
+      "ja": "このような不祥事が発生したことは極めて遺憾に存じ、厳正な原因究明を進めます。",
+      "kana": "このようなふしょうじがはっせいしたことはきわめていかんにぞんじ、げんせいなげんいんきゅうめいをすすめます。",
+      "translation": {
+        "en": "We find the occurrence of such a scandal exceedingly deplorable, and we will pursue strict fact-finding.",
+        "my": "ဤကဲ့သို့သော အရှုပ်တော်ပုံ ဖြစ်ပွားခဲ့သည်မှာ အလွန်ပင် စိတ်မကောင်းဖွယ်ဖြစ်ပြီး တင်းကျပ်စွာ အကြောင်းရင်း ဖော်ထုတ်သွားပါမည်။"
+      },
+      "translationMy": "ဤကဲ့သို့သော အရှုပ်တော်ပုံ ဖြစ်ပွားခဲ့သည်မှာ အလွန်ပင် စိတ်မကောင်းဖွယ်ဖြစ်ပြီး တင်းကျပ်စွာ အကြောင်းရင်း ဖော်ထုတ်သွားပါမည်။",
+      "vocabIds": [
+        "n2.l57.v005"
+      ],
+      "grammarIds": [
+        "n2.l57.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.s006",
+      "lessonId": "n2.l57",
+      "ja": "一方的な協定破棄の通告を受けたことは、痛切にして誠に遺憾に存じます。",
+      "kana": "いっぽうてきなきょうていはきのつうこくをうけたことは、つうせつにしてまことにいかんにぞんじます。",
+      "translation": {
+        "en": "Receiving notice of unilateral pact termination is acutely and truly deplorable.",
+        "my": "သဘောတူညီချက်ကို တစ်ဖက်သတ် ဖျက်သိမ်းကြောင်း အကြောင်းကြားချက် ရရှိခဲ့သည်မှာ အလွန်နက်ရှိုင်းစွာ နာကျင်ရပြီး အမှန်ပင် စိတ်မကောင်းဖွယ် ဖြစ်ပါသည်။"
+      },
+      "translationMy": "သဘောတူညီချက်ကို တစ်ဖက်သတ် ဖျက်သိမ်းကြောင်း အကြောင်းကြားချက် ရရှိခဲ့သည်မှာ အလွန်နက်ရှိုင်းစွာ နာကျင်ရပြီး အမှန်ပင် စိတ်မကောင်းဖွယ် ဖြစ်ပါသည်။",
+      "vocabIds": [
+        "n2.l57.v005",
+        "n2.l57.v008"
+      ],
+      "grammarIds": [
+        "n2.l57.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.s007",
+      "lessonId": "n2.l57",
+      "ja": "私どもの配慮不足によりご不快な思いをさせましたこと、寛容なご配慮により何卒お許し願います。",
+      "kana": "わたくしどものはいりょふそくによりごふかいなおもいをさせましたこと、かんようなごはいりょによりなにとぞおゆるしねがいます。",
+      "translation": {
+        "en": "Having caused you unpleasant feelings due to our lack of thoughtfulness, we humbly beg your pardon through your magnanimous consideration.",
+        "my": "ကျွန်ုပ်တို့၏ အလေးထားထောက်ထားမှု အားနည်းခဲ့ခြင်းကြောင့် စိတ်မချမ်းမသာ ဖြစ်စေခဲ့သည့်အတွက် သဘောထားကြီးစွာ သည်းခံခွင့်လွှတ်ပေးပါရန် မေတ္တာရပ်ခံအပ်ပါသည်။"
+      },
+      "translationMy": "ကျွန်ုပ်တို့၏ အလေးထားထောက်ထားမှု အားနည်းခဲ့ခြင်းကြောင့် စိတ်မချမ်းမသာ ဖြစ်စေခဲ့သည့်အတွက် သဘောထားကြီးစွာ သည်းခံခွင့်လွှတ်ပေးပါရန် မေတ္တာရပ်ခံအပ်ပါသည်။",
+      "vocabIds": [
+        "n2.l57.v010"
+      ],
+      "grammarIds": [
+        "n2.l57.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.s008",
+      "lessonId": "n2.l57",
+      "ja": "急な変更により皆様にご迷惑をおかけいたしますが、何卒お許し願います。",
+      "kana": "きゅうなへんこうによりみなさまにごめいわくをおかけいたしますが、なにとぞおゆるしねがいます。",
+      "translation": {
+        "en": "Incurring inconvenience upon everyone due to abrupt changes, we earnestly beg your kind understanding.",
+        "my": "ရုတ်တရက် အပြောင်းအလဲများကြောင့် အားလုံးကို အနှောင့်အယှက် ဖြစ်စေမိသော်လည်း ခွင့်လွှတ်နားလည်ပေးပါရန် မေတ္တာရပ်ခံအပ်ပါသည်။"
+      },
+      "translationMy": "ရုတ်တရက် အပြောင်းအလဲများကြောင့် အားလုံးကို အနှောင့်အယှက် ဖြစ်စေမိသော်လည်း ခွင့်လွှတ်နားလည်ပေးပါရန် မေတ္တာရပ်ခံအပ်ပါသည်။",
+      "vocabIds": [
+        "n2.l57.v007"
+      ],
+      "grammarIds": [
+        "n2.l57.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.s009",
+      "lessonId": "n2.l57",
+      "ja": "説明資料の誤字脱字につきましては、準備の急場によるものとご容赦の上、お許し願います。",
+      "kana": "せつめいしりょうのごじだつじにつきましては、じゅんびのきゅうばによるものとごようしゃのうえ、おゆるしねがいます。",
+      "translation": {
+        "en": "Regarding typographical errors in the explanation materials, please excuse and pardon them as due to rushed preparation.",
+        "my": "ရှင်းလင်းချက် စာရွက်စာတမ်းများတွင် စာလုံးပေါင်းမှားယွင်းမှုများနှင့် ပတ်သက်၍ အရေးတကြီး ပြင်ဆင်ခဲ့ရမှုကြောင့်ဖြစ်သည်ဟု သဘောပေါက်ကာ ခွင့်လွှတ်ပေးပါရန် မေတ္တာရပ်ခံပါသည်။"
+      },
+      "translationMy": "ရှင်းလင်းချက် စာရွက်စာတမ်းများတွင် စာလုံးပေါင်းမှားယွင်းမှုများနှင့် ပတ်သက်၍ အရေးတကြီး ပြင်ဆင်ခဲ့ရမှုကြောင့်ဖြစ်သည်ဟု သဘောပေါက်ကာ ခွင့်လွှတ်ပေးပါရန် မေတ္တာရပ်ခံပါသည်။",
+      "vocabIds": [
+        "n2.l57.v010"
+      ],
+      "grammarIds": [
+        "n2.l57.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.s010",
+      "lessonId": "n2.l57",
+      "ja": "社長自ら公の場で公式に謝罪し、深々と頭を下げて陳謝した。",
+      "kana": "しゃちょうみずからおおやけのばでこうしきにしゃざいし、ふかぶかとあたまをさげてちんしゃした。",
+      "translation": {
+        "en": "The president himself apologized officially in a public venue, bowing deeply to express remorse.",
+        "my": "ဥက္ကဋ္ဌ ကိုယ်တိုင် အများပြည်သူရှေ့တွင် တရားဝင် တောင်းပန်ခဲ့ပြီး ဦးညွှတ်ကာ အကျိုးအကြောင်းပြ တောင်းပန်ခဲ့သည်။"
+      },
+      "translationMy": "ဥက္ကဋ္ဌ ကိုယ်တိုင် အများပြည်သူရှေ့တွင် တရားဝင် တောင်းပန်ခဲ့ပြီး ဦးညွှတ်ကာ အကျိုးအကြောင်းပြ တောင်းပန်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l57.v002",
+        "n2.l57.v009"
+      ],
+      "grammarIds": [
+        "n2.l57.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.s011",
+      "lessonId": "n2.l57",
+      "ja": "多大なるご支援に心から感謝申し上げるとともに、再発防止に向けて善処いたします。",
+      "kana": "ただいなるごしえんにこころからかんしゃもうしあげるとともに、さいはつぼうしにむけてぜんしょいたします。",
+      "translation": {
+        "en": "Along with expressing heartfelt gratitude for immense support, we will take optimal measures to prevent recurrence.",
+        "my": "ကြီးမားသော ပံ့ပိုးကူညီမှုများအတွက် နှလုံးသားထဲမှ ကျေးဇူးတင်ရှိပါကြောင်းနှင့်အတူ နောက်ထပ်မဖြစ်ပွားစေရေးအတွက် အကောင်းဆုံး စီမံဆောင်ရွက်ပါမည်။"
+      },
+      "translationMy": "ကြီးမားသော ပံ့ပိုးကူညီမှုများအတွက် နှလုံးသားထဲမှ ကျေးဇူးတင်ရှိပါကြောင်းနှင့်အတူ နောက်ထပ်မဖြစ်ပွားစေရေးအတွက် အကောင်းဆုံး စီမံဆောင်ရွက်ပါမည်။",
+      "vocabIds": [
+        "n2.l57.v003",
+        "n2.l57.v011",
+        "n2.l57.v012"
+      ],
+      "grammarIds": [
+        "n2.l57.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l57.s012",
+      "lessonId": "n2.l57",
+      "ja": "先方からの贈り物に対し、社内規定に基づき丁重に謝絶の意をお伝えした。",
+      "kana": "せんぽうからのおくりものにたいし、しゃないきていにもとづきていちょうにしゃぜつのいをおつたえした。",
+      "translation": {
+        "en": "Regarding gifts from the partner, we conveyed our respectful refusal based on company regulations.",
+        "my": "တစ်ဖက်မှ လက်ဆောင်ပစ္စည်းများအပေါ် ကုမ္ပဏီစည်းမျဉ်းအရ ယဉ်ကျေးစွာ ငြင်းပယ်ကြောင်း သဘောထားကို အသိပေးခဲ့သည်။"
+      },
+      "translationMy": "တစ်ဖက်မှ လက်ဆောင်ပစ္စည်းများအပေါ် ကုမ္ပဏီစည်းမျဉ်းအရ ယဉ်ကျေးစွာ ငြင်းပယ်ကြောင်း သဘောထားကို အသိပေးခဲ့သည်။",
+      "vocabIds": [
+        "n2.l57.v004"
+      ],
+      "grammarIds": [
+        "n2.l57.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l57.r001",
+    "lessonId": "n2.l57",
+    "title": "危機管理における謝罪の作法と信頼回復の論理",
+    "level": "N2",
+    "text": "企業経営において、重大な不祥事や製品欠陥が発生した際、責任者がどのように謝罪するかは企業の存亡を左右する。会見の場で「心より深くお詫び申し上げます」と深々と頭を下げる行為は、単なる形式的なポーズであってはならない。発生した損害に対して「誠に遺憾に存じます」と述べるだけでは、被害者の怒りを鎮めることはできない。自らの非を明確に認め、真摯な反省と具体的な再発防止策を提示して初めて、相手の寛容な態度やお許しを乞うことができる。善処を尽くす姿勢こそが再生への道である。",
+    "kanaText": "きぎょうけいえいにおいて、じゅうだいなふしょうじやせいひんけっかんがはっせいしたさい、せきにんしゃがどのようにしゃざいするかはきぎょうのそんぼうをさゆうする。かいけんのばで「こころよりふかくおわびもうしあげます」とふかぶかとあたまをさげるこういは、たんなるけいしきてきなポーズであってはならない。はっせいしたそんがいにたいして「まことにいかんにぞんじます」とのべるだけでは、ひがいしゃのいかりをしずめることはできない。みずからのひをめいかくにみとめ、しんしなはんせいとぐたいてきなさいはつぼうしさくをていじしてはじめて、あいてのかんようなたいどやおゆるしをこうことができる。ぜんしょをつくすしせいこそがさいせいへのみちである。",
+    "translation": "လုပ်ငန်း စီမံခန့်ခွဲမှုတွင် ကြီးလေးသော အရှုပ်တော်ပုံ သို့မဟုတ် ထုတ်ကုန်ချို့ယွင်းချက်များ ဖြစ်ပေါ်လာပါက တာဝန်ရှိသူက မည်သို့ တောင်းပန်သနည်းဟူသည့်အချက်သည် လုပ်ငန်း၏ ရှင်သန်ရပ်တည်မှုကို အဆုံးအဖြတ်ပေးသည်။ ရှင်းလင်းပွဲတွင် 'နှလုံးသားထဲမှ အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည်' ဟု ဦးညွှတ်တောင်းပန်သော လုပ်ရပ်သည် ဟန်ပြသက်သက် ဖြစ်နေ၍ မရပေ။ ဖြစ်ပေါ်ခဲ့သော ထိခိုက်နစ်နာမှုအပေါ် 'အလွန်ပင် စိတ်မကောင်းဖွယ် ဖြစ်ပါသည်' ဟု ပြောရုံမျှဖြင့် နစ်နာသူများ၏ ဒေါသကို ငြိမ်းအေးစေနိုင်မည် မဟုတ်ပေ။ မိမိ၏ အမှားကို ရှင်းလင်းစွာ ဝန်ခံပြီး စစ်မှန်သော နောင်တနှင့် ခိုင်မာသော နောက်ထပ်မဖြစ်ပွားစေရေး အစီအမံများကို တင်ပြပြီးမှသာ တစ်ဖက်သား၏ သည်းခံခွင့်လွှတ်မှုနှင့် အပြစ်မှ ချမ်းသာပေးမှုကို တောင်းခံနိုင်သည်။ အကောင်းဆုံး စီမံဖြေရှင်းသော သဘောထားသည်သာ ပြန်လည်ရှင်သန်ရေး လမ်းစ ဖြစ်သည်။",
+    "translationMy": "လုပ်ငန်း စီမံခန့်ခွဲမှုတွင် ကြီးလေးသော အရှုပ်တော်ပုံ သို့မဟုတ် ထုတ်ကုန်ချို့ယွင်းချက်များ ဖြစ်ပေါ်လာပါက တာဝန်ရှိသူက မည်သို့ တောင်းပန်သနည်းဟူသည့်အချက်သည် လုပ်ငန်း၏ ရှင်သန်ရပ်တည်မှုကို အဆုံးအဖြတ်ပေးသည်။ ရှင်းလင်းပွဲတွင် 'နှလုံးသားထဲမှ အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည်' ဟု ဦးညွှတ်တောင်းပန်သော လုပ်ရပ်သည် ဟန်ပြသက်သက် ဖြစ်နေ၍ မရပေ။ ဖြစ်ပေါ်ခဲ့သော ထိခိုက်နစ်နာမှုအပေါ် 'အလွန်ပင် စိတ်မကောင်းဖွယ် ဖြစ်ပါသည်' ဟု ပြောရုံမျှဖြင့် နစ်နာသူများ၏ ဒေါသကို ငြိမ်းအေးစေနိုင်မည် မဟုတ်ပေ။ မိမိ၏ အမှားကို ရှင်းလင်းစွာ ဝန်ခံပြီး စစ်မှန်သော နောင်တနှင့် ခိုင်မာသော နောက်ထပ်မဖြစ်ပွားစေရေး အစီအမံများကို တင်ပြပြီးမှသာ တစ်ဖက်သား၏ သည်းခံခွင့်လွှတ်မှုနှင့် အပြစ်မှ ချမ်းသာပေးမှုကို တောင်းခံနိုင်သည်။ အကောင်းဆုံး စီမံဖြေရှင်းသော သဘောထားသည်သာ ပြန်လည်ရှင်သန်ရေး လမ်းစ ဖြစ်သည်။",
+    "questionIds": [
+      "n2.l57.q025",
+      "n2.l57.q026",
+      "n2.l57.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "存亡",
+        "reading": "そんぼう",
+        "meaning": "life or death / destiny",
+        "meaningMy": "life or death / destiny",
+        "meaningMyanmar": "life or death / destiny"
+      },
+      {
+        "term": "真摯",
+        "reading": "しんし",
+        "meaning": "sincere / earnest",
+        "meaningMy": "sincere / earnest",
+        "meaningMyanmar": "sincere / earnest"
+      },
+      {
+        "term": "ポーズ",
+        "reading": "ポーズ",
+        "meaning": "pose / pretense",
+        "meaningMy": "pose / pretense",
+        "meaningMyanmar": "pose / pretense"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l57.lis001",
+    "lessonId": "n2.l57",
+    "title": "システム障害によるデータ破損と緊急記者会見",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "広報担当役員",
+      "技術責任者"
+    ],
+    "transcript": "広報担当役員: 先ほど緊急記者会見が終了しました。利用者の皆様に多大なご迷惑をおかけしましたこと、深くお詫び申し上げますと陳謝しました。\n技術責任者: クラウドの二重化バックアップが機能しなかったことは、技術部門としても誠に遺憾に存じます。\n広報担当役員: データ復旧の完了まで今しばらく時間を要します。利用者の皆様には何卒ご寛容の上、お許し願いますと伝えました。\n技術責任者: 二度と同様の事故が再発しないよう、全サーバーのアーキテクチャ刷新に善処いたします。",
+    "translation": "広報担当役員: အရေးပေါ် သတင်းစာရှင်းလင်းပွဲ ခုလေးတင် ပြီးဆုံးသွားခဲ့သည်။ အသုံးပြုသူများကို ကြီးမားသော အနှောင့်အယှက်များ ဖြစ်စေခဲ့သည့်အတွက် အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည်ဟု ဦးညွှတ်တောင်းပန်ခဲ့ပါသည်။\n技術責任者: Cloud ၏ အရန်ဒေတာ စနစ်များ အလုပ်မလုပ်ခဲ့ခြင်းမှာ နည်းပညာဌာန အနေဖြင့်လည်း အမှန်တကယ် စိတ်မကောင်းဖွယ် ဝမ်းနည်းစရာ ဖြစ်ပါသည်ဟု ခံယူပါသည်။\n広報担当役員: ဒေတာ ပြန်လည်ရယူနိုင်သည်အထိ အချိန်အနည်းငယ် ယူရဦးမည်ဖြစ်သည်။ အသုံးပြုသူများ အနေဖြင့် သည်းခံခွင့်လွှတ်ပေးပါရန် မေတ္တာရပ်ခံကြောင်း အသိပေးခဲ့ပါသည်။\n技術責任者: နောက်တစ်ကြိမ် ဤကဲ့သို့သော မတော်တဆမှု ထပ်မံမဖြစ်ပွားစေရန် ဆာဗာအားလုံး၏ ဖွဲ့စည်းတည်ဆောက်ပုံကို အသစ်ပြင်ဆင်ရေး အကောင်းဆုံး စီမံပါမည်။",
+    "translationMy": "広報担当役員: အရေးပေါ် သတင်းစာရှင်းလင်းပွဲ ခုလေးတင် ပြီးဆုံးသွားခဲ့သည်။ အသုံးပြုသူများကို ကြီးမားသော အနှောင့်အယှက်များ ဖြစ်စေခဲ့သည့်အတွက် အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည်ဟု ဦးညွှတ်တောင်းပန်ခဲ့ပါသည်။\n技術責任者: Cloud ၏ အရန်ဒေတာ စနစ်များ အလုပ်မလုပ်ခဲ့ခြင်းမှာ နည်းပညာဌာန အနေဖြင့်လည်း အမှန်တကယ် စိတ်မကောင်းဖွယ် ဝမ်းနည်းစရာ ဖြစ်ပါသည်ဟု ခံယူပါသည်။\n広報担当役員: ဒေတာ ပြန်လည်ရယူနိုင်သည်အထိ အချိန်အနည်းငယ် ယူရဦးမည်ဖြစ်သည်။ အသုံးပြုသူများ အနေဖြင့် သည်းခံခွင့်လွှတ်ပေးပါရန် မေတ္တာရပ်ခံကြောင်း အသိပေးခဲ့ပါသည်။\n技術責任者: နောက်တစ်ကြိမ် ဤကဲ့သို့သော မတော်တဆမှု ထပ်မံမဖြစ်ပွားစေရန် ဆာဗာအားလုံး၏ ဖွဲ့စည်းတည်ဆောက်ပုံကို အသစ်ပြင်ဆင်ရေး အကောင်းဆုံး စီမံပါမည်။",
+    "turns": [
+      {
+        "speaker": "広報担当役員",
+        "ja": "先ほど緊急記者会見が終了しました。利用者の皆様に多大なご迷惑をおかけしましたこと、深くお詫び申し上げますと陳謝しました。",
+        "kana": "さきほどきんきゅうきしゃかいけんがしゅうりょうしました。りようしゃのみなさまにただいなごめいわくをおかけしましたこと、ふかくおわびもうしあげますとちんしゃしました。",
+        "en": "The emergency press conference just concluded. I expressed apologies, stating we offer our deepest apologies for the great inconvenience inflicted upon users.",
+        "my": "အရေးပေါ် သတင်းစာရှင်းလင်းပွဲ ခုလေးတင် ပြီးဆုံးသွားခဲ့သည်။ အသုံးပြုသူများကို ကြီးမားသော အနှောင့်အယှက်များ ဖြစ်စေခဲ့သည့်အတွက် အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည်ဟု ဦးညွှတ်တောင်းပန်ခဲ့ပါသည်။",
+        "translationMy": "အရေးပေါ် သတင်းစာရှင်းလင်းပွဲ ခုလေးတင် ပြီးဆုံးသွားခဲ့သည်။ အသုံးပြုသူများကို ကြီးမားသော အနှောင့်အယှက်များ ဖြစ်စေခဲ့သည့်အတွက် အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည်ဟု ဦးညွှတ်တောင်းပန်ခဲ့ပါသည်။",
+        "myanmar": "အရေးပေါ် သတင်းစာရှင်းလင်းပွဲ ခုလေးတင် ပြီးဆုံးသွားခဲ့သည်။ အသုံးပြုသူများကို ကြီးမားသော အနှောင့်အယှက်များ ဖြစ်စေခဲ့သည့်အတွက် အနက်ရှိုင်းဆုံး တောင်းပန်အပ်ပါသည်ဟု ဦးညွှတ်တောင်းပန်ခဲ့ပါသည်။"
+      },
+      {
+        "speaker": "技術責任者",
+        "ja": "クラウドの二重化バックアップが機能しなかったことは、技術部門としても誠に遺憾に存じます。",
+        "kana": "クラウドのにじゅうかバックアップがきしょうしなかったことは、ぎじゅつぶもんとしてもまことにいかんにぞんじます。",
+        "en": "That cloud redundant backups failed to function, as the tech department we find it truly regrettable.",
+        "my": "Cloud ၏ အရန်ဒေတာ စနစ်များ အလုပ်မလုပ်ခဲ့ခြင်းမှာ နည်းပညာဌာန အနေဖြင့်လည်း အမှန်တကယ် စိတ်မကောင်းဖွယ် ဝမ်းနည်းစရာ ဖြစ်ပါသည်ဟု ခံယူပါသည်။",
+        "translationMy": "Cloud ၏ အရန်ဒေတာ စနစ်များ အလုပ်မလုပ်ခဲ့ခြင်းမှာ နည်းပညာဌာန အနေဖြင့်လည်း အမှန်တကယ် စိတ်မကောင်းဖွယ် ဝမ်းနည်းစရာ ဖြစ်ပါသည်ဟု ခံယူပါသည်။",
+        "myanmar": "Cloud ၏ အရန်ဒေတာ စနစ်များ အလုပ်မလုပ်ခဲ့ခြင်းမှာ နည်းပညာဌာန အနေဖြင့်လည်း အမှန်တကယ် စိတ်မကောင်းဖွယ် ဝမ်းနည်းစရာ ဖြစ်ပါသည်ဟု ခံယူပါသည်။"
+      },
+      {
+        "speaker": "広報担当役員",
+        "ja": "データ復旧の完了まで今しばらく時間を要します。利用者の皆様には何卒ご寛容の上、お許し願いますと伝えました。",
+        "kana": "データふっきゅうのかんりょうまでいましばらくじかんをようします。りようしゃのみなさまにはなにとぞごかんようのうえ、おゆるしねがいますとつたえました。",
+        "en": "Until data recovery completes, it will require a bit more time. I conveyed asking our users to please be tolerant and pardon us.",
+        "my": "ဒေတာ ပြန်လည်ရယူနိုင်သည်အထိ အချိန်အနည်းငယ် ယူရဦးမည်ဖြစ်သည်။ အသုံးပြုသူများ အနေဖြင့် သည်းခံခွင့်လွှတ်ပေးပါရန် မေတ္တာရပ်ခံကြောင်း အသိပေးခဲ့ပါသည်။",
+        "translationMy": "ဒေတာ ပြန်လည်ရယူနိုင်သည်အထိ အချိန်အနည်းငယ် ယူရဦးမည်ဖြစ်သည်။ အသုံးပြုသူများ အနေဖြင့် သည်းခံခွင့်လွှတ်ပေးပါရန် မေတ္တာရပ်ခံကြောင်း အသိပေးခဲ့ပါသည်။",
+        "myanmar": "ဒေတာ ပြန်လည်ရယူနိုင်သည်အထိ အချိန်အနည်းငယ် ယူရဦးမည်ဖြစ်သည်။ အသုံးပြုသူများ အနေဖြင့် သည်းခံခွင့်လွှတ်ပေးပါရန် မေတ္တာရပ်ခံကြောင်း အသိပေးခဲ့ပါသည်။"
+      },
+      {
+        "speaker": "技術責任者",
+        "ja": "二度と同様の事故が再発しないよう、全サーバーのアーキテクチャ刷新に善処いたします。",
+        "kana": "にどとどうようのじこがさいはつしないよう、ぜんサーバーのアーキテクチャさっしんにぜんしょいたします。",
+        "en": "To ensure an identical accident never recurs, we will manage properly toward revamping all server architectures.",
+        "my": "နောက်တစ်ကြိမ် ဤကဲ့သို့သော မတော်တဆမှု ထပ်မံမဖြစ်ပွားစေရန် ဆာဗာအားလုံး၏ ဖွဲ့စည်းတည်ဆောက်ပုံကို အသစ်ပြင်ဆင်ရေး အကောင်းဆုံး စီမံပါမည်။",
+        "translationMy": "နောက်တစ်ကြိမ် ဤကဲ့သို့သော မတော်တဆမှု ထပ်မံမဖြစ်ပွားစေရန် ဆာဗာအားလုံး၏ ဖွဲ့စည်းတည်ဆောက်ပုံကို အသစ်ပြင်ဆင်ရေး အကောင်းဆုံး စီမံပါမည်။",
+        "myanmar": "နောက်တစ်ကြိမ် ဤကဲ့သို့သော မတော်တဆမှု ထပ်မံမဖြစ်ပွားစေရန် ဆာဗာအားလုံး၏ ဖွဲ့စည်းတည်ဆောက်ပုံကို အသစ်ပြင်ဆင်ရေး အကောင်းဆုံး စီမံပါမည်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l57.q028",
+      "n2.l57.q029",
+      "n2.l57.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l57.q001",
+      "lessonId": "n2.l57",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "自らの過失や非を認めて相手に謝ることを何というか。",
+      "choices": [
+        "謝罪",
+        "感謝",
+        "謝絶",
+        "宣告"
+      ],
+      "answer": "謝罪",
+      "explanation": "謝罪 (しゃざい) means apology or asking for pardon.",
+      "explanationMy": "謝罪 ဆိုသည်မှာ မိမိအမှားကို ဝန်ခံ၍ တောင်းပန်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q002",
+      "lessonId": "n2.l57",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "相手からの贈り物や面会などの申し出を断ることを何というか。",
+      "choices": [
+        "謝絶",
+        "善処",
+        "陳謝",
+        "拝察"
+      ],
+      "answer": "謝絶",
+      "explanation": "謝絶 (しゃぜつ) means refusal or declining an offer.",
+      "explanationMy": "謝絶 ဆိုသည်မှာ ကမ်းလှမ်းချက် သို့မဟုတ် လက်ဆောင်ကို ငြင်းပယ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q003",
+      "lessonId": "n2.l57",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "期待通りにならず心残りで残念な様子を表す言葉はどれか。",
+      "choices": [
+        "遺憾",
+        "痛切",
+        "寛容",
+        "抜群"
+      ],
+      "answer": "遺憾",
+      "explanation": "遺憾 (いかん) means regrettable or deplorable.",
+      "explanationMy": "遺憾 ဆိုသည်မှာ စိတ်တိုင်းမကျဘဲ ဝမ်းနည်းစိတ်မကောင်းဖွယ် ဖြစ်သော အဓိပ္ပာယ် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q004",
+      "lessonId": "n2.l57",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "やり方が下手で手際が悪く失敗することを何というか。",
+      "choices": [
+        "不手際",
+        "欠陥",
+        "事態",
+        "疲労"
+      ],
+      "answer": "不手際",
+      "explanation": "不手際 (ふてぎわ) means mismanagement or bungling.",
+      "explanationMy": "不手際 ဆိုသည်မှာ စီမံခန့်ခွဲမှု ညံ့ဖျင်းပြီး မှားယွင်းခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q005",
+      "lessonId": "n2.l57",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "身に染みて強く深く感じる様子を表す言葉はどれか。",
+      "choices": [
+        "痛切",
+        "微妙",
+        "不遜",
+        "明確"
+      ],
+      "answer": "痛切",
+      "explanation": "痛切 (つうせつ) means acute, keen, or deeply felt.",
+      "explanationMy": "痛切 ဆိုသည်မှာ ရင်ထဲတွင် နက်ရှိုင်းစွာ ခံစားရသော အဓိပ္ပာယ် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q006",
+      "lessonId": "n2.l57",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "事情や理由を詳しく説明しながら深く謝罪することを何というか。",
+      "choices": [
+        "陳謝",
+        "排除",
+        "免除",
+        "抜擢"
+      ],
+      "answer": "陳謝",
+      "explanation": "陳謝 (ちんしゃ) means apology with detailed explanation.",
+      "explanationMy": "陳謝 ဆိုသည်မှာ အကျိုးအကြောင်း ရှင်းပြကာ တောင်းပန်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q007",
+      "lessonId": "n2.l57",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "心が広く他人の過ちを咎めず許し受け入れる徳のことを何というか。",
+      "choices": [
+        "寛容",
+        "謙遜",
+        "恭順",
+        "誠意"
+      ],
+      "answer": "寛容",
+      "explanation": "寛容 (かんよう) means tolerance, magnanimity, or broad-mindedness.",
+      "explanationMy": "寛容 ဆိုသည်မှာ စိတ်ထားကြီးမားပြီး အမှားများကို သည်းခံခွင့်လွှတ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q008",
+      "lessonId": "n2.l57",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "状況に応じて最も適切に処置・対処することを何というか。",
+      "choices": [
+        "善処",
+        "再発",
+        "迷惑",
+        "由緒"
+      ],
+      "answer": "善処",
+      "explanation": "善処 (ぜんしょ) means taking appropriate measures.",
+      "explanationMy": "善処 ဆိုသည်မှာ အခြေအနေနှင့်အညီ အကောင်းဆုံး စီမံဆောင်ရွက်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q009",
+      "lessonId": "n2.l57",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「詫」の訓読み（動詞）として正しいものはどれか。",
+      "choices": [
+        "わ・びる",
+        "あやま・る",
+        "うら・む",
+        "ゆる・す"
+      ],
+      "answer": "わ・びる",
+      "explanation": "「詫」の訓読みは「わ・びる」です（お詫び申し上げます）。",
+      "explanationMy": "「詫」၏ ဂျပန်မူရင်းကြိယာအသံမှာ わ・びる ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q010",
+      "lessonId": "n2.l57",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「お詫び」の漢字「詫」の部首として正しいものはどれか。",
+      "choices": [
+        "言（ごんべん）",
+        "宅（たく）",
+        "心（こころ）",
+        "日（ひ）"
+      ],
+      "answer": "言（ごんべん）",
+      "explanation": "「詫」の部首は「言（ごんべん）」です。",
+      "explanationMy": "「詫」တွင် စကား 言 အစိတ်အပိုင်း ပါဝင်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q011",
+      "lessonId": "n2.l57",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「謝」の訓読み（動詞）として正しいものはどれか。",
+      "choices": [
+        "あやま・る",
+        "わ・びる",
+        "こた・える",
+        "いの・る"
+      ],
+      "answer": "あやま・る",
+      "explanation": "「謝」の訓読みは「あやま・る」です（非を謝る）。",
+      "explanationMy": "「謝」၏ ဂျပန်မူရင်းကြိယာအသံမှာ あやま・る ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q012",
+      "lessonId": "n2.l57",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「謝罪」の漢字「謝」が表す意味合いとして最も適切なものはどれか。",
+      "choices": [
+        "過ちを認めて許しを請う",
+        "強く命令する",
+        "相手を遠ざける",
+        "物を壊す"
+      ],
+      "answer": "過ちを認めて許しを請う",
+      "explanation": "「謝」には非を認めて詫びるという意味があります。",
+      "explanationMy": "အမှားကို ဝန်ခံတောင်းပန်ခြင်း အဓိပ္ပာယ် ရှိသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q013",
+      "lessonId": "n2.l57",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「憾」の音読みとして正しいものはどれか。",
+      "choices": [
+        "カン",
+        "コン",
+        "ゲン",
+        "セン"
+      ],
+      "answer": "カン",
+      "explanation": "「憾」の音読みは「カン」です（遺憾、痛憾）。",
+      "explanationMy": "「憾」၏ အသံထွက်မှာ カン ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q014",
+      "lessonId": "n2.l57",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「遺憾」の「憾」の部首として正しいものはどれか。",
+      "choices": [
+        "忄（りっしんべん）",
+        "感（かん）",
+        "言（ごんべん）",
+        "口（くち）"
+      ],
+      "answer": "忄（りっしんべん）",
+      "explanation": "「憾」の部首は「忄（りっしんべん・心）」です。",
+      "explanationMy": "「憾」တွင် စိတ်နှလုံး 忄 အစိတ်အပိုင်း ပါဝင်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q015",
+      "lessonId": "n2.l57",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "製品回収に至る重大な不祥事を起こしましたこと、心より（　）。",
+      "choices": [
+        "深くお詫び申し上げます",
+        "深くお祝い申し上げます",
+        "拝察いたしたく存じます",
+        "期してやみません"
+      ],
+      "answer": "深くお詫び申し上げます",
+      "explanation": "Use 深くお詫び申し上げます for official apologies regarding serious scandals.",
+      "explanationMy": "ကြီးမားသော အမှားအတွက် အနက်ရှိုင်းဆုံး တောင်းပန်ရာတွင် 深くお詫び申し上げます သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q016",
+      "lessonId": "n2.l57",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜深くお詫び申し上げます」の文末として最も適した丁寧語はどれか。",
+      "choices": [
+        "申し上げます",
+        "存じます",
+        "いただきます",
+        "いたします"
+      ],
+      "answer": "申し上げます",
+      "explanation": "お詫び申し上げます is the definitive set polite formula.",
+      "explanationMy": "တောင်းပန်စကားတွင် お詫び申し上げます ဟု တွဲသုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q017",
+      "lessonId": "n2.l57",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "今回の不当な判決に対して、政府としては極めて（　）。",
+      "choices": [
+        "遺憾に存じます",
+        "お詫び申し上げます",
+        "お許し願います",
+        "感謝申し上げます"
+      ],
+      "answer": "遺憾に存じます",
+      "explanation": "Use 遺憾に存じます in official/diplomatic contexts deploring an unjust outcome.",
+      "explanationMy": "တရားမမျှတသော စီရင်ချက်အပေါ် အစိုးရအနေဖြင့် အလွန်စိတ်မကောင်းဖွယ် ဖြစ်သည်ဟု ဖော်ပြရာတွင် 遺憾に存じます သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q018",
+      "lessonId": "n2.l57",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「遺憾に存じます」の「遺憾」の意味として最も適切なものはどれか。",
+      "choices": [
+        "思い通りにいかず残念で心残りであること",
+        "大成功を収めて満足すること",
+        "将来を明るく希望すること",
+        "他人に命令して従わせること"
+      ],
+      "answer": "思い通りにいかず残念で心残りであること",
+      "explanation": "「遺憾」means feeling regretful that things did not proceed desirably.",
+      "explanationMy": "လိုရာမရောက်ဘဲ စိတ်မကောင်းဖွယ် ဝမ်းနည်းစရာ ဖြစ်ခြင်းကို ဆိုလိုသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q019",
+      "lessonId": "n2.l57",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "当日の手違いによりご迷惑をおかけしましたこと、平に（　）。",
+      "choices": [
+        "お許し願います",
+        "拝察申し上げます",
+        "目指してまいります",
+        "期しております"
+      ],
+      "answer": "お許し願います",
+      "explanation": "Use お許し願います for politely pleading for forgiveness.",
+      "explanationMy": "ခွင့်လွှတ်နားလည်ပေးပါရန် မေတ္တာရပ်ခံရာတွင် お許し願います သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q020",
+      "lessonId": "n2.l57",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜お許し願います」の「許す」をより格式高く改まった表現に言い換えるならどれか。",
+      "choices": [
+        "ご容赦願います",
+        "ご案内申し上げます",
+        "ご教示願います",
+        "ご愛顧申し上げます"
+      ],
+      "answer": "ご容赦願います",
+      "explanation": "「ご容赦願います」is the formal business equivalent of お許し願います.",
+      "explanationMy": "ပိုမိုတရားဝင်သော ပုံစံမှာ ご容赦願います ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q021",
+      "lessonId": "n2.l57",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "個人情報が流出いたしましたこと、関係者の皆様に（　）。",
+      "choices": [
+        "深くお詫び申し上げます",
+        "遺憾に存じます",
+        "お許し願います",
+        "お祝い申し上げます"
+      ],
+      "answer": "深くお詫び申し上げます",
+      "explanation": "Expressing deepest apologies for data leak (深くお詫び申し上げます).",
+      "explanationMy": "ဒေတာပေါက်ကြားမှုအတွက် အနက်ရှိုင်းဆုံး တောင်းပန်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q022",
+      "lessonId": "n2.l57",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "首脳会談が物別れに終わったことは、世界平和の観点からも（　）。",
+      "choices": [
+        "誠に遺憾に存じます",
+        "深くお詫び申し上げます",
+        "お許し願います",
+        "にほかなりません"
+      ],
+      "answer": "誠に遺憾に存じます",
+      "explanation": "Deploring the failure of the summit as truly regrettable (誠に遺憾に存じます).",
+      "explanationMy": "ထိပ်သီးအစည်းအဝေး မအောင်မြင်ခဲ့သည်မှာ အလွန်ပင် စိတ်မကောင်းဖွယ် ဖြစ်သည်ဟု သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q023",
+      "lessonId": "n2.l57",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "急病による欠席につき、何卒（　）。",
+      "choices": [
+        "お許し願います",
+        "遺憾に存じます",
+        "深くお詫び申し上げます",
+        "存じ上げます"
+      ],
+      "answer": "お許し願います",
+      "explanation": "Begging pardon for absence due to sudden illness (何卒お許し願います).",
+      "explanationMy": "ရုတ်တရက် ဖျားနာ၍ ပျက်ကွက်ရခြင်းကို ခွင့်လွှတ်ပေးပါရန် မေတ္တာရပ်ခံသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q024",
+      "lessonId": "n2.l57",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "謝罪の表現として「誠に申し訳ございません」と「深くお詫び申し上げます」の違いはどれか。",
+      "choices": [
+        "後者は公的な記者会見や文書で公式に謝罪する際のより重い表現である",
+        "前者は公用文専用で、後者は日常会話専用である",
+        "前者は動物に対して使い、後者は人間に対して使う",
+        "両者の意味や重さに全く違いはない"
+      ],
+      "answer": "後者は公的な記者会見や文書で公式に謝罪する際のより重い表現である",
+      "explanation": "深くお詫び申し上げます is a heavier, solemn official formula for public statements.",
+      "explanationMy": "深くお詫び申し上げます သည် တရားဝင် ရှင်းလင်းပွဲများတွင် သုံးသည့် အလွန်လေးနက်သော စကား ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q025",
+      "lessonId": "n2.l57",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において、会見で「深くお詫び申し上げます」と頭を下げる行為について戒められている点は何か。",
+      "choices": [
+        "単なる形式的なポーズであってはならないこと",
+        "カメラの前で笑顔を見せること",
+        "謝罪の言葉を英語で述べること",
+        "頭を下げずに立ったままでいること"
+      ],
+      "answer": "単なる形式的なポーズであってはならないこと",
+      "explanation": "The text stresses it must not be a mere formal pose.",
+      "explanationMy": "ရိုးရိုးဟန်ပြသက်သက် ပုံစံ မဖြစ်သင့်ကြောင်း သတိပေးထားသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q026",
+      "lessonId": "n2.l57",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "被害者の怒りを鎮めるために「遺憾に存じます」と述べるだけでは不十分な理由は何か。",
+      "choices": [
+        "自らの非を明確に認め具体的な再発防止策を提示していないから",
+        "謝罪の時間が短すぎるから",
+        "金銭的な賠償金が高すぎるから",
+        "社長が同席していないから"
+      ],
+      "answer": "自らの非を明確に認め具体的な再発防止策を提示していないから",
+      "explanation": "Merely stating regret without admitting fault and presenting prevention measures cannot appease victims.",
+      "explanationMy": "မိမိအမှားကို တိကျစွာ ဝန်မခံဘဲ ကာကွယ်ရေးအစီအမံများ မပြသောကြောင့် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q027",
+      "lessonId": "n2.l57",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "相手の寛容な態度やお許しを得るために必要だと述べられている条件はどれか。",
+      "choices": [
+        "真摯な反省と具体的な再発防止策の提示",
+        "他部署への責任の転嫁",
+        "記者会見の早期打ち切り",
+        "不祥事の事実を全面的に否定すること"
+      ],
+      "answer": "真摯な反省と具体的な再発防止策の提示",
+      "explanation": "The text emphasizes sincere reflection and presenting concrete preventive countermeasures.",
+      "explanationMy": "စစ်မှန်သော နောင်တနှင့် ခိုင်မာသော ကာကွယ်ရေး အစီအမံများ တင်ပြခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q028",
+      "lessonId": "n2.l57",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "広報担当役員が記者会見で陳謝した言葉はどれか。",
+      "choices": [
+        "深くお詫び申し上げます",
+        "一切の責任は他社にあります",
+        "データは復旧不能です",
+        "利用規約に基づき補償はいたしません"
+      ],
+      "answer": "深くお詫び申し上げます",
+      "explanation": "The executive states he apologized offering deepest apologies (深くお詫び申し上げます).",
+      "explanationMy": "'深くお詫び申し上げます' ဟူ၍ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q029",
+      "lessonId": "n2.l57",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "技術責任者が「誠に遺憾に存じます」と述べた理由は何か。",
+      "choices": [
+        "クラウドの二重化バックアップが機能しなかったこと",
+        "オフィスビルの電気が消えたこと",
+        "社員の給料が遅延したこと",
+        "新製品の発表会が中止になったこと"
+      ],
+      "answer": "クラウドの二重化バックアップが機能しなかったこと",
+      "explanation": "The CTO regrets that the cloud backup redundancy failed to function.",
+      "explanationMy": "Cloud ၏ အရန်ဒေတာစနစ် အလုပ်မလုပ်ခဲ့သောကြောင့် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l57.q030",
+      "lessonId": "n2.l57",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "再発防止に向けて技術責任者が表明した対策はどれか。",
+      "choices": [
+        "全サーバーのアーキテクチャ刷新に善処すること",
+        "サーバー機器をすべて中古品に買い替えること",
+        "技術部門の全社員を解雇すること",
+        "バックアップの取得を完全にやめること"
+      ],
+      "answer": "全サーバーのアーキテクチャ刷新に善処すること",
+      "explanation": "The tech head pledges to revamp server architecture to prevent recurrence.",
+      "explanationMy": "ဆာဗာအားလုံး၏ တည်ဆောက်ပုံကို အသစ်ပြင်ဆင်ရေး အကောင်းဆုံး ဆောင်ရွက်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l57.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+};

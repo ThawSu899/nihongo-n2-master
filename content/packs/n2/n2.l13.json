@@ -1,0 +1,1794 @@
+{
+  "id": "n2.l13",
+  "level": "N2",
+  "module": "N2 Advanced Grammar & Argumentation",
+  "number": 13,
+  "title": "N2 Lesson 13: Topics, Centers & Controversies (〜をめぐって・〜にかけては・〜に関して)",
+  "description": "Mastery module focusing on Topic Framing, Controversial Centers, and Domain Mastery: disputes surrounding an issue (をめぐって), peerless prowess in a field (にかけては), and formal inquiries (に関して).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l13.v001",
+      "lessonId": "n2.l13",
+      "ja": "論争",
+      "kana": "ろんそう",
+      "en": "Dispute / Controversy",
+      "my": "အငြင်းပွားငြင်းခုံမှု",
+      "meaningMy": "အငြင်းပွားငြင်းခုံမှု",
+      "meaningMyanmar": "အငြင်းပွားငြင်းခုံမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l13.s001",
+      "kanjiIds": [
+        "n2.l13.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.v002",
+      "lessonId": "n2.l13",
+      "ja": "焦点",
+      "kana": "しょうてん",
+      "en": "Focus / Focal point",
+      "my": "အဓိကအာရုံစိုက်ရာအချက်",
+      "meaningMy": "အဓိကအာရုံစိုက်ရာအချက်",
+      "meaningMyanmar": "အဓိကအာရုံစိုက်ရာအချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l13.s002",
+      "kanjiIds": [
+        "n2.l13.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.v003",
+      "lessonId": "n2.l13",
+      "ja": "紛争",
+      "kana": "ふんそう",
+      "en": "Conflict / Feud",
+      "my": "ပဋိပက္ခ",
+      "meaningMy": "ပဋိပက္ခ",
+      "meaningMyanmar": "ပဋိပက္ခ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l13.s003",
+      "kanjiIds": [
+        "n2.l13.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.v004",
+      "lessonId": "n2.l13",
+      "ja": "議論",
+      "kana": "ぎろん",
+      "en": "Discussion / Debate",
+      "my": "ဆွေးနွေးငြင်းခုံခြင်း",
+      "meaningMy": "ဆွေးနွေးငြင်းခုံခြင်း",
+      "meaningMyanmar": "ဆွေးနွေးငြင်းခုံခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l13.s004",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.v005",
+      "lessonId": "n2.l13",
+      "ja": "見解",
+      "kana": "けんかい",
+      "en": "Viewpoint / Official opinion",
+      "my": "သဘောထားအမြင်",
+      "meaningMy": "သဘောထားအမြင်",
+      "meaningMyanmar": "သဘောထားအမြင်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l13.s005",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.v006",
+      "lessonId": "n2.l13",
+      "ja": "対立",
+      "kana": "たいりつ",
+      "en": "Confrontation / Opposition",
+      "my": "ထိပ်တိုက်ရင်ဆိုင်မှု",
+      "meaningMy": "ထိပ်တိုက်ရင်ဆိုင်မှု",
+      "meaningMyanmar": "ထိပ်တိုက်ရင်ဆိုင်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l13.s006",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.v007",
+      "lessonId": "n2.l13",
+      "ja": "協議",
+      "kana": "きょうぎ",
+      "en": "Consultation / Deliberation",
+      "my": "တိုင်ပင်ညှိနှိုင်းခြင်း",
+      "meaningMy": "တိုင်ပင်ညှိနှိုင်းခြင်း",
+      "meaningMyanmar": "တိုင်ပင်ညှိနှိုင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l13.s007",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.v008",
+      "lessonId": "n2.l13",
+      "ja": "卓越",
+      "kana": "たくえつ",
+      "en": "Excellence / Eminence",
+      "my": "ထူးချွန်ပြောင်မြောက်မှု",
+      "meaningMy": "ထူးချွန်ပြောင်မြောက်မှု",
+      "meaningMyanmar": "ထူးချွန်ပြောင်မြောက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l13.s008",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.v009",
+      "lessonId": "n2.l13",
+      "ja": "自負",
+      "kana": "じふ",
+      "en": "Self-confidence / Pride",
+      "my": "ကိုယ့်ကိုယ်ကိုယ်ယုံကြည်မှု",
+      "meaningMy": "ကိုယ့်ကိုယ်ကိုယ်ယုံကြည်မှု",
+      "meaningMyanmar": "ကိုယ့်ကိုယ်ကိုယ်ယုံကြည်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l13.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.v010",
+      "lessonId": "n2.l13",
+      "ja": "領域",
+      "kana": "りょういき",
+      "en": "Domain / Realm / Field",
+      "my": "နယ်ပယ်ကဏ္ဍ",
+      "meaningMy": "နယ်ပယ်ကဏ္ဍ",
+      "meaningMyanmar": "နယ်ပယ်ကဏ္ဍ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l13.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.v011",
+      "lessonId": "n2.l13",
+      "ja": "争点",
+      "kana": "そうてん",
+      "en": "Point at issue",
+      "my": "အဓိကအငြင်းပွားဖွယ်အချက်",
+      "meaningMy": "အဓိကအငြင်းပွားဖွယ်အချက်",
+      "meaningMyanmar": "အဓိကအငြင်းပွားဖွယ်အချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l13.s011",
+      "kanjiIds": [
+        "n2.l13.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.v012",
+      "lessonId": "n2.l13",
+      "ja": "追及",
+      "kana": "ついきゅう",
+      "en": "Investigation / Calling to account",
+      "my": "အပြစ်စုံစမ်းစစ်ဆေးခြင်း",
+      "meaningMy": "အပြစ်စုံစမ်းစစ်ဆေးခြင်း",
+      "meaningMyanmar": "အပြစ်စုံစမ်းစစ်ဆေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l13.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l13.k001",
+      "lessonId": "n2.l13",
+      "char": "巡",
+      "meaning": "Patrol / Tour / Circumscribe",
+      "meaningMy": "လှည့်လည်ခြင်း / ပတ်လည်စုံစမ်းခြင်း",
+      "meaningMyanmar": "လှည့်လည်ခြင်း / ပတ်လည်စုံစမ်းခြင်း",
+      "onyomi": [
+        "ジュン"
+      ],
+      "kunyomi": [
+        "めぐ・る",
+        "めぐ・り"
+      ],
+      "exampleVocab": [
+        {
+          "word": "巡回",
+          "reading": "じゅんかい",
+          "meaning": "patrol / rounds",
+          "meaningMy": "လှည့်လည်စစ်ဆေးခြင်း",
+          "preview": false
+        },
+        {
+          "word": "巡礼",
+          "reading": "じゅんれい",
+          "meaning": "pilgrimage",
+          "meaningMy": "ဘုရားဖူးလှည့်လည်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "一巡",
+          "reading": "いちじゅん",
+          "meaning": "one round / cycle",
+          "meaningMy": "တစ်ပတ်ပြည့်ခြင်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l13.s001"
+      ],
+      "components": [
+        "辶",
+        "巛"
+      ],
+      "strokes": 6,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.k002",
+      "lessonId": "n2.l13",
+      "char": "争",
+      "meaning": "Dispute / Contend / Conflict",
+      "meaningMy": "အငြင်းပွားခြင်း / ယှဉ်ပြိုင်ခြင်း",
+      "meaningMyanmar": "အငြင်းပွားခြင်း / ယှဉ်ပြိုင်ခြင်း",
+      "onyomi": [
+        "ソウ"
+      ],
+      "kunyomi": [
+        "あらそ・う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "争点",
+          "reading": "そうてん",
+          "meaning": "point at issue",
+          "meaningMy": "အငြင်းပွားဖွယ်အချက်",
+          "preview": false
+        },
+        {
+          "word": "論争",
+          "reading": "ろんそう",
+          "meaning": "controversy / dispute",
+          "meaningMy": "အငြင်းပွားဆွေးနွေးမှု",
+          "preview": false
+        },
+        {
+          "word": "紛争",
+          "reading": "ふんそう",
+          "meaning": "dispute / strife",
+          "meaningMy": "ပဋိပက္ခ",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l13.s002"
+      ],
+      "components": [
+        "勹",
+        "ヨ",
+        "亅"
+      ],
+      "strokes": 6,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.k003",
+      "lessonId": "n2.l13",
+      "char": "焦",
+      "meaning": "Focus / Scorch / Burn / Impatient",
+      "meaningMy": "အဓိကအာရုံစိုက်ရာ / စိတ်ပူလောင်ခြင်း",
+      "meaningMyanmar": "အဓိကအာရုံစိုက်ရာ / စိတ်ပူလောင်ခြင်း",
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "あせ・る",
+        "こ・げる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "焦点",
+          "reading": "しょうてん",
+          "meaning": "focus / focal point",
+          "meaningMy": "အဓိကအာရုံစိုက်ရာအချက်",
+          "preview": false
+        },
+        {
+          "word": "焦燥",
+          "reading": "しょうそう",
+          "meaning": "fretfulness / impatience",
+          "meaningMy": "စိတ်မရှည်ပူလောင်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "焦熱",
+          "reading": "しょうねつ",
+          "meaning": "scorching heat",
+          "meaningMy": "ပြင်းထန်သောအပူ",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l13.s003"
+      ],
+      "components": [
+        "隹",
+        "灬"
+      ],
+      "strokes": 12,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l13.g001",
+      "lessonId": "n2.l13",
+      "pattern": "〜をめぐって",
+      "meaning": "Concerning / Surrounding / Revolved around (dispute, discussion)",
+      "meaningMy": "အငြင်းပွားဖွယ်ရာ အကြောင်းအရာတစ်ခုကို ဗဟိုပြု၍ / လှည့်ပတ်ဆွေးနွေးရာတွင်",
+      "meaningMyanmar": "အငြင်းပွားဖွယ်ရာ အကြောင်းအရာတစ်ခုကို ဗဟိုပြု၍ / လှည့်ပတ်ဆွေးနွေးရာတွင်",
+      "formation": "名詞 ＋ をめぐって / をめぐる ＋ 名詞",
+      "explanation": {
+        "en": "Used when multiple parties argue, debate, negotiate, or hold opposing opinions centered upon a single contentious issue.",
+        "my": "အငြင်းပွားဖွယ် အကြောင်းအရာတစ်ခုနှင့် ပတ်သက်၍ လူအများ သို့မဟုတ် ပါတီအဖွဲ့အစည်းများ ငြင်းခုံဆွေးနွေးခြင်းကို ဖော်ပြသည်။"
+      },
+      "explanationMy": "အငြင်းပွားဖွယ် အကြောင်းအရာတစ်ခုနှင့် ပတ်သက်၍ လူအများ သို့မဟုတ် ပါတီအဖွဲ့အစည်းများ ငြင်းခုံဆွေးနွေးခြင်းကို ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l13.s001",
+          "note": "〜をめぐって usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l13.s004",
+          "note": "〜をめぐって usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l13.s007",
+          "note": "〜をめぐって usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l13.s010",
+          "note": "〜をめぐって usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l13.g001",
+        "n2.l13.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜をめぐって."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "新工場の建設予定地[ _____ ]、住民と自治体の間で激しい論争が続いている。",
+      "clozeTarget": "をめぐって",
+      "clozeHint": "Noun + をめぐって (surrounding a dispute/issue)",
+      "acceptableSynonyms": [
+        "をめぐり",
+        "を争点として",
+        "に関して議論し"
+      ],
+      "nuanceExplanationMy": "「〜をめぐって」သည် တစ်ဖက်နှင့်တစ်ဖက် သဘောထားကွဲလွဲ အငြင်းပွားရာတွင် အသုံးများသည်။"
+    },
+    {
+      "id": "n2.l13.g002",
+      "lessonId": "n2.l13",
+      "pattern": "〜にかけては",
+      "meaning": "When it comes to / In the sphere of (unequaled confidence or prowess)",
+      "meaningMy": "ထိုကျွမ်းကျင်မှု သို့မဟုတ် ကဏ္ဍနှင့်ပတ်သက်လာလျှင် အတော်ဆုံးဖြစ်သည်",
+      "meaningMyanmar": "ထိုကျွမ်းကျင်မှု သို့မဟုတ် ကဏ္ဍနှင့်ပတ်သက်လာလျှင် အတော်ဆုံးဖြစ်သည်",
+      "formation": "名詞 ＋ にかけては",
+      "explanation": {
+        "en": "Emphasizes that the subject possesses unmatched proficiency, deep knowledge, or supreme talent within a specific domain.",
+        "my": "သတ်မှတ်ထားသော ကဏ္ဍ သို့မဟုတ် ကျွမ်းကျင်မှုနယ်ပယ်တွင် အခြားသူများထက် သာလွန်ထူးချွန်ကြောင်း အလေးပေးဖော်ပြသည်။"
+      },
+      "explanationMy": "သတ်မှတ်ထားသော ကဏ္ဍ သို့မဟုတ် ကျွမ်းကျင်မှုနယ်ပယ်တွင် အခြားသူများထက် သာလွန်ထူးချွန်ကြောင်း အလေးပေးဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l13.s002",
+          "note": "〜にかけては usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l13.s005",
+          "note": "〜にかけては usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l13.s008",
+          "note": "〜にかけては usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l13.s011",
+          "note": "〜にかけては usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l13.g001",
+        "n2.l13.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜にかけては."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "プログラミングの処理速度の最適化[ _____ ]、彼の右に出る者は社内にいない。",
+      "clozeTarget": "にかけては",
+      "clozeHint": "Noun + にかけては (peerless proficiency in a domain)",
+      "acceptableSynonyms": [
+        "の分野では",
+        "に関して言えば誰にも負けない",
+        "において"
+      ],
+      "nuanceExplanationMy": "「〜にかけては」သည် မိမိကိုယ်ကို သို့မဟုတ် အခြားသူ၏ ထူးချွန်မှုကို ဂုဏ်ယူစွာ ချီးကျူးရာတွင် သုံးသည်။"
+    },
+    {
+      "id": "n2.l13.g003",
+      "lessonId": "n2.l13",
+      "pattern": "〜に関して",
+      "meaning": "Regarding / In connection with / Concerning (formal topic inquiry)",
+      "meaningMy": "ထိုအကြောင်းအရာနှင့် စပ်လျဉ်း၍ / ပတ်သက်၍",
+      "meaningMyanmar": "ထိုအကြောင်းအရာနှင့် စပ်လျဉ်း၍ / ပတ်သက်၍",
+      "formation": "名詞 ＋ に関して / に関し / に関する ＋ 名詞",
+      "explanation": {
+        "en": "A formal expression introducing a topic of inquiry, investigation, announcement, or detailed research.",
+        "my": "စုံစမ်းမေးမြန်းမှု၊ တင်ပြကြေညာချက် သို့မဟုတ် သုတေသနပြုမည့် အကြောင်းအရာကို တရားဝင် ဖော်ပြရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "စုံစမ်းမေးမြန်းမှု၊ တင်ပြကြေညာချက် သို့မဟုတ် သုတေသနပြုမည့် အကြောင်းအရာကို တရားဝင် ဖော်ပြရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l13.s003",
+          "note": "〜に関して usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l13.s006",
+          "note": "〜に関して usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l13.s009",
+          "note": "〜に関して usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l13.s012",
+          "note": "〜に関して usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l13.g001",
+        "n2.l13.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜に関して."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "本件の不祥事[ _____ ]、第三者委員会による調査報告書が公開された。",
+      "clozeTarget": "に関して",
+      "clozeHint": "Noun + に関して (formal concerning/regarding)",
+      "acceptableSynonyms": [
+        "に関し",
+        "について",
+        "に関連して"
+      ],
+      "nuanceExplanationMy": "「〜に関して」သည် 「〜について」ထက် ပိုမို တရားဝင်ပြီး စာဆန်သော အသုံးအနှုန်း ဖြစ်သည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l13.s001",
+      "lessonId": "n2.l13",
+      "ja": "遺産相続の権利関係をめぐって、親族間で長年にわたる激しい法廷闘争が続いている。",
+      "kana": "いさんそうぞくのけんりかんけいをめぐって、しんぞくかんでながねんにわたるはげしいほうていとうそうがつづいている。",
+      "translation": {
+        "en": "Concerning the inheritance rights, a bitter courtroom struggle has continued for years among relatives.",
+        "my": "အမွေဆက်ခံခွင့်နှင့် စပ်လျဉ်း၍ ဆွေမျိုးများအကြား နှစ်ပေါင်းများစွာ ကြာမြင့်သော တရားရုံးတွင်း အငြင်းပွားမှု ဖြစ်ပွားနေသည်။"
+      },
+      "translationMy": "အမွေဆက်ခံခွင့်နှင့် စပ်လျဉ်း၍ ဆွေမျိုးများအကြား နှစ်ပေါင်းများစွာ ကြာမြင့်သော တရားရုံးတွင်း အငြင်းပွားမှု ဖြစ်ပွားနေသည်။",
+      "vocabIds": [
+        "n2.l13.v001",
+        "n2.l13.v006"
+      ],
+      "grammarIds": [
+        "n2.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.s002",
+      "lessonId": "n2.l13",
+      "ja": "古典文学の精緻な解釈にかけては、学会で彼の右に出る専門家はいない。",
+      "kana": "こてんぶんがくのせいちなかいしゃくにかけては、がっかいでかれのみぎにでるせんもんかはいはい。",
+      "translation": {
+        "en": "When it comes to meticulous interpretation of classical literature, there is no expert in academia who surpasses him.",
+        "my": "ရှေးဟောင်းစာပေများကို အသေးစိတ် အနက်ဖွင့်ဆိုရာတွင် ပညာရှင်အသိုင်းအဝိုင်း၌ သူ့ထက် သာလွန်သူ မရှိပေ။"
+      },
+      "translationMy": "ရှေးဟောင်းစာပေများကို အသေးစိတ် အနက်ဖွင့်ဆိုရာတွင် ပညာရှင်အသိုင်းအဝိုင်း၌ သူ့ထက် သာလွန်သူ မရှိပေ။",
+      "vocabIds": [
+        "n2.l13.v008",
+        "n2.l13.v009"
+      ],
+      "grammarIds": [
+        "n2.l13.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.s003",
+      "lessonId": "n2.l13",
+      "ja": "次世代エネルギーの安全基準に関して、有識者会議で慎重な議論が重ねられた。",
+      "kana": "じせだいえねるぎーのあんぜんきじゅんにかんして、ゆうしきしゃかいぎでしんちょうなぎろんがかさねられた。",
+      "translation": {
+        "en": "Regarding safety standards for next-generation energy, careful discussions were repeatedly held in the expert council.",
+        "my": "မျိုးဆက်သစ် စွမ်းအင်၏ ဘေးကင်းရေး စံနှုန်းများနှင့် ပတ်သက်၍ ကျွမ်းကျင်သူများ ကောင်စီတွင် သေချာစွာ ထပ်ခါတလဲလဲ ဆွေးနွေးခဲ့ကြသည်။"
+      },
+      "translationMy": "မျိုးဆက်သစ် စွမ်းအင်၏ ဘေးကင်းရေး စံနှုန်းများနှင့် ပတ်သက်၍ ကျွမ်းကျင်သူများ ကောင်စီတွင် သေချာစွာ ထပ်ခါတလဲလဲ ဆွေးနွေးခဲ့ကြသည်။",
+      "vocabIds": [
+        "n2.l13.v004",
+        "n2.l13.v005"
+      ],
+      "grammarIds": [
+        "n2.l13.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.s004",
+      "lessonId": "n2.l13",
+      "ja": "税制改正の是非をめぐる論争が、国会の審議において最大の焦点となっている。",
+      "kana": "ぜいせいかいせいのぜひをめぐるろんそうが、こっかいのしんぎにおいてさいだいのしょうてんとなっている。",
+      "translation": {
+        "en": "The dispute revolving around the pros and cons of tax reform has become the biggest focus in parliamentary debates.",
+        "my": "အခွန်စနစ် ပြုပြင်ပြောင်းလဲရေး သင့်မသင့် ငြင်းခုံမှုသည် လွှတ်တော်ဆွေးနွေးပွဲများတွင် အဓိက အာရုံစိုက်ရာ အချက် ဖြစ်လာသည်။"
+      },
+      "translationMy": "အခွန်စနစ် ပြုပြင်ပြောင်းလဲရေး သင့်မသင့် ငြင်းခုံမှုသည် လွှတ်တော်ဆွေးနွေးပွဲများတွင် အဓိက အာရုံစိုက်ရာ အချက် ဖြစ်လာသည်။",
+      "vocabIds": [
+        "n2.l13.v001",
+        "n2.l13.v002"
+      ],
+      "grammarIds": [
+        "n2.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.s005",
+      "lessonId": "n2.l13",
+      "ja": "人工知能のアルゴリズム設計にかけては、創業当初からの卓越した技術の蓄積がある。",
+      "kana": "じんこうちのうのあるごりずむせっけいにかけては、そうぎょうとうしょからのたくえつしたぎじゅつのちくせきがある。",
+      "translation": {
+        "en": "When it comes to AI algorithm design, we possess an accumulation of excellent technology since our founding.",
+        "my": "ဉာဏ်ရည်တု အယ်လ်ဂိုရီသမ် ဒီဇိုင်းရေးဆွဲခြင်းနှင့် ပတ်သက်လာလျှင် လုပ်ငန်းစတင်ချိန်မှစ၍ ထူးချွန်သော နည်းပညာ စုဆောင်းမှု ရှိထားသည်။"
+      },
+      "translationMy": "ဉာဏ်ရည်တု အယ်လ်ဂိုရီသမ် ဒီဇိုင်းရေးဆွဲခြင်းနှင့် ပတ်သက်လာလျှင် လုပ်ငန်းစတင်ချိန်မှစ၍ ထူးချွန်သော နည်းပညာ စုဆောင်းမှု ရှိထားသည်။",
+      "vocabIds": [
+        "n2.l13.v008",
+        "n2.l13.v010"
+      ],
+      "grammarIds": [
+        "n2.l13.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.s006",
+      "lessonId": "n2.l13",
+      "ja": "今回の不祥事の責任の所在に関して、経営陣の厳しい追及が行われた。",
+      "kana": "こんかいのふしょうじのせきにんのしょざいにかんして、けいえいじんのきびしいついきゅうがおこなわれた。",
+      "translation": {
+        "en": "Regarding the whereabouts of responsibility for this scandal, strict interrogation of the executives was carried out.",
+        "my": "ယခု အရှုပ်တော်ပုံ၏ တာဝန်ရှိမှုနှင့် ပတ်သက်၍ စီမံခန့်ခွဲရေးအဖွဲ့ကို ပြင်းပြင်းထန်ထန် စုံစမ်းစစ်ဆေးခဲ့သည်။"
+      },
+      "translationMy": "ယခု အရှုပ်တော်ပုံ၏ တာဝန်ရှိမှုနှင့် ပတ်သက်၍ စီမံခန့်ခွဲရေးအဖွဲ့ကို ပြင်းပြင်းထန်ထန် စုံစမ်းစစ်ဆေးခဲ့သည်။",
+      "vocabIds": [
+        "n2.l13.v012",
+        "n2.l13.v005"
+      ],
+      "grammarIds": [
+        "n2.l13.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.s007",
+      "lessonId": "n2.l13",
+      "ja": "国境地域の領有権をめぐって両国が対立し、平和条約の締結は難航している。",
+      "kana": "こっきょうちいきのりょうゆうけんをめぐってりょうこくがたいりつし、へいわじょうやくのていけつはなんこうしている。",
+      "translation": {
+        "en": "Both nations are in conflict over territorial rights in the border region, and conclusion of a peace treaty is facing rough sailing.",
+        "my": "နယ်စပ်ဒေသ ပိုင်ဆိုင်ခွင့်နှင့် ပတ်သက်၍ နှစ်နိုင်ငံအကြား ထိပ်တိုက်ရင်ဆိုင်နေကြပြီး ငြိမ်းချမ်းရေးစာချုပ် ချုပ်ဆိုနိုင်ရန် အခက်အခဲကြုံနေသည်။"
+      },
+      "translationMy": "နယ်စပ်ဒေသ ပိုင်ဆိုင်ခွင့်နှင့် ပတ်သက်၍ နှစ်နိုင်ငံအကြား ထိပ်တိုက်ရင်ဆိုင်နေကြပြီး ငြိမ်းချမ်းရေးစာချုပ် ချုပ်ဆိုနိုင်ရန် အခက်အခဲကြုံနေသည်။",
+      "vocabIds": [
+        "n2.l13.v003",
+        "n2.l13.v006"
+      ],
+      "grammarIds": [
+        "n2.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.s008",
+      "lessonId": "n2.l13",
+      "ja": "伝統工芸の修復技術にかけては、彼の熟練した腕前は海外でも高く評価されている。",
+      "kana": "でんとうこうげいのしゅうふくぎじゅつにかけては、かれのじゅくれんしたうでまえはかいがいでもたかくひょうかされている。",
+      "translation": {
+        "en": "When it comes to restoration techniques for traditional crafts, his masterful skill is highly evaluated abroad as well.",
+        "my": "ရိုးရာလက်မှုပညာ ပြန်လည်ပြုပြင်ရေး နည်းပညာနှင့် ပတ်သက်လာပါက သူ၏ ကျွမ်းကျင်သော လက်ရာသည် နိုင်ငံရပ်ခြား၌ပင် အထူးအသိအမှတ်ပြုခံရသည်။"
+      },
+      "translationMy": "ရိုးရာလက်မှုပညာ ပြန်လည်ပြုပြင်ရေး နည်းပညာနှင့် ပတ်သက်လာပါက သူ၏ ကျွမ်းကျင်သော လက်ရာသည် နိုင်ငံရပ်ခြား၌ပင် အထူးအသိအမှတ်ပြုခံရသည်။",
+      "vocabIds": [
+        "n2.l13.v008",
+        "n2.l13.v009"
+      ],
+      "grammarIds": [
+        "n2.l13.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.s009",
+      "lessonId": "n2.l13",
+      "ja": "新薬の臨床データに関して各国の研究機関と綿密な協議を重ねた。",
+      "kana": "しんやくのりんしょうでーたにかんしてかっこくのけんきゅうきかんとめんみつなきょうぎをかさねた。",
+      "translation": {
+        "en": "Regarding the new drug's clinical data, we held meticulous consultations with research institutions of various nations.",
+        "my": "ဆေးဝါးသစ်၏ လက်တွေ့စမ်းသပ်ချက် အချက်အလက်များနှင့် ပတ်သက်၍ နိုင်ငံအသီးသီးမှ သုတေသနဌာနများနှင့် စေ့စပ်စွာ တိုင်ပင်ဆွေးနွေးခဲ့သည်။"
+      },
+      "translationMy": "ဆေးဝါးသစ်၏ လက်တွေ့စမ်းသပ်ချက် အချက်အလက်များနှင့် ပတ်သက်၍ နိုင်ငံအသီးသီးမှ သုတေသနဌာနများနှင့် စေ့စပ်စွာ တိုင်ပင်ဆွေးနွေးခဲ့သည်။",
+      "vocabIds": [
+        "n2.l13.v007",
+        "n2.l13.v004"
+      ],
+      "grammarIds": [
+        "n2.l13.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.s010",
+      "lessonId": "n2.l13",
+      "ja": "自然保護区の境界線をめぐる意見の対立が、地域住民と開発業者を二分している。",
+      "kana": "しぜんほごくのきょうかいせんをめぐるいけんのたいりつが、ちいきじゅうみんとかいはつぎょうしゃをにぶんしている。",
+      "translation": {
+        "en": "The conflict of opinions surrounding the boundary line of the nature reserve splits local residents and developers into two.",
+        "my": "သဘာဝထိန်းသိမ်းရေးနယ်မြေ နယ်နိမိတ်မျဉ်းနှင့် ပတ်သက်သည့် သဘောထားကွဲလွဲမှုသည် ဒေသခံများနှင့် စီမံကိန်းလုပ်ငန်းရှင်များအကြား ထက်ခြမ်းကွဲစေခဲ့သည်။"
+      },
+      "translationMy": "သဘာဝထိန်းသိမ်းရေးနယ်မြေ နယ်နိမိတ်မျဉ်းနှင့် ပတ်သက်သည့် သဘောထားကွဲလွဲမှုသည် ဒေသခံများနှင့် စီမံကိန်းလုပ်ငန်းရှင်များအကြား ထက်ခြမ်းကွဲစေခဲ့သည်။",
+      "vocabIds": [
+        "n2.l13.v006",
+        "n2.l13.v011"
+      ],
+      "grammarIds": [
+        "n2.l13.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.s011",
+      "lessonId": "n2.l13",
+      "ja": "即興演奏の表現力にかけては、他のどんなピアニストも彼女の足元にも及ばない。",
+      "kana": "そっきょうえんそうのひょうげんりょくにかけては、ほかんどんなぴあにすともかのじょのあしもとにもおよばない。",
+      "translation": {
+        "en": "When it comes to expressive power in improvisation, no other pianist can hold a candle to her.",
+        "my": "ကြိုတင်ပြင်ဆင်မှုမပါဘဲ လက်တန်းတီးခတ်နိုင်စွမ်းနှင့် ပတ်သက်လာလျှင် အခြား မည်သည့် စန္ဒရားပညာရှင်မျှ သူမကို မယှဉ်နိုင်ပေ။"
+      },
+      "translationMy": "ကြိုတင်ပြင်ဆင်မှုမပါဘဲ လက်တန်းတီးခတ်နိုင်စွမ်းနှင့် ပတ်သက်လာလျှင် အခြား မည်သည့် စန္ဒရားပညာရှင်မျှ သူမကို မယှဉ်နိုင်ပေ။",
+      "vocabIds": [
+        "n2.l13.v008",
+        "n2.l13.v009"
+      ],
+      "grammarIds": [
+        "n2.l13.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l13.s012",
+      "lessonId": "n2.l13",
+      "ja": "サイバー空間における知的財産権の保護に関して、新たな国際ルールの策定が求められている。",
+      "kana": "さいばーくうかんにおけるちてきざいさんけんのほごにかんして、あらたなこくさいるーるのさくていがもとめられている。",
+      "translation": {
+        "en": "Regarding intellectual property rights protection in cyberspace, formulating new international rules is urgently demanded.",
+        "my": "ဆိုက်ဘာနယ်ပယ်အတွင်း ဉာဏပစ္စည်းမူပိုင်ခွင့် ကာကွယ်ရေးနှင့် ပတ်သက်၍ နိုင်ငံတကာ စည်းမျဉ်းသစ်များ ရေးဆွဲရန် တောင်းဆိုနေကြသည်။"
+      },
+      "translationMy": "ဆိုက်ဘာနယ်ပယ်အတွင်း ဉာဏပစ္စည်းမူပိုင်ခွင့် ကာကွယ်ရေးနှင့် ပတ်သက်၍ နိုင်ငံတကာ စည်းမျဉ်းသစ်များ ရေးဆွဲရန် တောင်းဆိုနေကြသည်။",
+      "vocabIds": [
+        "n2.l13.v010",
+        "n2.l13.v011"
+      ],
+      "grammarIds": [
+        "n2.l13.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l13.r001",
+    "lessonId": "n2.l13",
+    "title": "先端医療技術の応用をめぐる倫理的合意の形成",
+    "level": "N2",
+    "text": "遺伝子編集技術の急速な進展は、難病治療の新たな地平を切り拓いた。しかし、人間の受精卵に対する遺伝子操作の是非をめぐっては、生命倫理の観点から激しい論争が巻き起こっている。生命の神秘に立ち入る行為の妥当性に関して、宗教界、法曹界、医学界の間で見解の対立が続いており、議論の焦点は安全性の担保だけでなく次世代への影響へと拡大している。高度な医療技術の開発にかけては世界屈指の成果を誇る研究チームであっても、社会的承認なくして実用化を進めることは許されない。多角的な視点から合意形成を模索する誠実な対話が今こそ求められている。",
+    "kanaText": "いでんしへんしゅうぎじゅつのきゅうそくなしんてんは、なんびょうちりょうのあらたなちへいをきりひらいた。しかし、にんげんのじゅせいらんにたいするいでんしそうさのぜひをめぐっては、せいめいりんりのかんてんからはげしいろんそうがまきおこっている。せいめいのしんぴにたちいるこういのだとうせいにかんして、しゅうきょうかい、ほうそうかい、いがくかいのあいだでけんかいのたいりつがつづいており、ぎろんのしょうてんはあんぜんせいのたんぽだけでなくじせだいへのえいきょうへとかくだいしている。こうどないりょうぎじゅつのかいはつにかけてはせかいくっしのせいかをほこるけんきゅうチームであっても、しゃかいてきしょうにんなくしてじつようかをすすめることはゆるされない。たかくてきなしてんからごういけいせいをもさくするせいじつなたいわがいまこそもとめられている。",
+    "translation": "မျိုးဗီဇတည်းဖြတ်နည်းပညာ၏ အရှိန်အဟုန်ပြင်းစွာ တိုးတက်လာမှုသည် ကုသရန်ခက်ခဲသော ရောဂါများ ကုသရေးအတွက် မိုးကုတ်စက်ဝိုင်းအသစ်ကို ဖွင့်လှစ်ပေးခဲ့သည်။ သို့သော်လည်း လူသားသန္ဓေသားလောင်းအပေါ် မျိုးဗီဇပြုပြင်မှု သင့်မသင့် ပြဿနာနှင့် ပတ်သက်၍ (是非をめぐっては) သက်ရှိကျင့်ဝတ်ဆိုင်ရာ ရှုထောင့်မှ ပြင်းထန်သော အငြင်းပွားမှုများ ပေါ်ပေါက်နေသည်။ သက်ရှိတို့၏ ဆန်းကြယ်မှုအတွင်း ဝင်ရောက်စွက်ဖက်ခြင်း၏ လျောက်ပတ်မှုနှင့် စပ်လျဉ်း၍ (妥当性に関して) ဘာသာရေး၊ ဥပဒေရေးရာနှင့် ဆေးပညာလောကအကြား သဘောထားကွဲလွဲမှုများ ဆက်လက်ဖြစ်ပွားနေပြီး ဆွေးနွေးမှု၏ အဓိကအာရုံစိုက်ရာအချက်မှာ (議論の焦点) ဘေးကင်းလုံခြုံရေးသာမက နောက်မျိုးဆက်များအပေါ် သက်ရောက်မှုဆီသို့ပါ ချဲ့ထွင်လာခဲ့သည်။ အဆင့်မြင့် ဆေးဘက်ဆိုင်ရာ နည်းပညာ တီထွင်ထုတ်လုပ်မှုနှင့် ပတ်သက်လာလျှင် (開発にかけては) ကမ္ဘာ့ထိပ်တန်း ရလဒ်များကို ပိုင်ဆိုင်ထားသော သုတေသနအဖွဲ့ ဖြစ်စေကာမူ လူမှုအဖွဲ့အစည်း၏ အသိအမှတ်ပြုမှုမရှိဘဲ လက်တွေ့အသုံးချမှု ရှေ့ဆက်ဆောင်ရွက်ရန် ခွင့်မပြုနိုင်ပေ။ ဘက်ပေါင်းစုံ ရှုထောင့်မှ သဘောတူညီချက်ရရှိရေး စူးစမ်းရှာဖွေမည့် စစ်မှန်သော ညှိနှိုင်းဆွေးနွေးမှုကို ယခုအချိန်တွင် အမှန်တကယ် လိုအပ်နေပေသည်။",
+    "translationMy": "မျိုးဗီဇတည်းဖြတ်နည်းပညာ၏ အရှိန်အဟုန်ပြင်းစွာ တိုးတက်လာမှုသည် ကုသရန်ခက်ခဲသော ရောဂါများ ကုသရေးအတွက် မိုးကုတ်စက်ဝိုင်းအသစ်ကို ဖွင့်လှစ်ပေးခဲ့သည်။ သို့သော်လည်း လူသားသန္ဓေသားလောင်းအပေါ် မျိုးဗီဇပြုပြင်မှု သင့်မသင့် ပြဿနာနှင့် ပတ်သက်၍ (是非をめぐっては) သက်ရှိကျင့်ဝတ်ဆိုင်ရာ ရှုထောင့်မှ ပြင်းထန်သော အငြင်းပွားမှုများ ပေါ်ပေါက်နေသည်။ သက်ရှိတို့၏ ဆန်းကြယ်မှုအတွင်း ဝင်ရောက်စွက်ဖက်ခြင်း၏ လျောက်ပတ်မှုနှင့် စပ်လျဉ်း၍ (妥当性に関して) ဘာသာရေး၊ ဥပဒေရေးရာနှင့် ဆေးပညာလောကအကြား သဘောထားကွဲလွဲမှုများ ဆက်လက်ဖြစ်ပွားနေပြီး ဆွေးနွေးမှု၏ အဓိကအာရုံစိုက်ရာအချက်မှာ (議論の焦点) ဘေးကင်းလုံခြုံရေးသာမက နောက်မျိုးဆက်များအပေါ် သက်ရောက်မှုဆီသို့ပါ ချဲ့ထွင်လာခဲ့သည်။ အဆင့်မြင့် ဆေးဘက်ဆိုင်ရာ နည်းပညာ တီထွင်ထုတ်လုပ်မှုနှင့် ပတ်သက်လာလျှင် (開発にかけては) ကမ္ဘာ့ထိပ်တန်း ရလဒ်များကို ပိုင်ဆိုင်ထားသော သုတေသနအဖွဲ့ ဖြစ်စေကာမူ လူမှုအဖွဲ့အစည်း၏ အသိအမှတ်ပြုမှုမရှိဘဲ လက်တွေ့အသုံးချမှု ရှေ့ဆက်ဆောင်ရွက်ရန် ခွင့်မပြုနိုင်ပေ။ ဘက်ပေါင်းစုံ ရှုထောင့်မှ သဘောတူညီချက်ရရှိရေး စူးစမ်းရှာဖွေမည့် စစ်မှန်သော ညှိနှိုင်းဆွေးနွေးမှုကို ယခုအချိန်တွင် အမှန်တကယ် လိုအပ်နေပေသည်။",
+    "questionIds": [
+      "n2.l13.q025",
+      "n2.l13.q026",
+      "n2.l13.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "受精卵",
+        "reading": "じゅせいらん",
+        "meaning": "fertilized egg / embryo",
+        "meaningMy": "fertilized egg / embryo",
+        "meaningMyanmar": "fertilized egg / embryo"
+      },
+      {
+        "term": "生命倫理",
+        "reading": "せいめいりんり",
+        "meaning": "bioethics",
+        "meaningMy": "bioethics",
+        "meaningMyanmar": "bioethics"
+      },
+      {
+        "term": "屈指",
+        "reading": "くっし",
+        "meaning": "one of the best / foremost",
+        "meaningMy": "one of the best / foremost",
+        "meaningMyanmar": "one of the best / foremost"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l13.lis001",
+    "lessonId": "n2.l13",
+    "title": "新スタジアム建設計画の協議会",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "市都市計画課長・森本",
+      "住民代表・坂井"
+    ],
+    "transcript": "市都市計画課長・森本: 新サッカースタジアムの建設候補地をめぐって、住民説明会でのご意見を整理いたしました。\n住民代表・坂井: 交通渋滞の緩和対策や騒音問題に関して、市側から具体的な指針が示されていない点に不安を抱いています。\n市都市計画課長・森本: 環境保全の技術設計にかけては、日本屈指のコンサルタント会社に委託してシミュレーションを実施しております。\n住民代表・坂井: データが出た段階で、住民との丁寧な対話を重ね、双方が納得できる合意点を見出してください。",
+    "translation": "市都市計画課長・森本: ဘောလုံးကွင်းသစ် တည်ဆောက်မည့် နေရာရွေးချယ်မှုနှင့် ပတ်သက်ပြီး ပြည်သူ့ရှင်းလင်းပွဲမှ အကြံပြုချက်များကို စုစည်းထားပါတယ်။\n住民代表・坂井: ယာဉ်ကြောပိတ်ဆို့မှု ဖြေလျှော့ရေးနှင့် ဆူညံသံပြဿနာများနှင့် ပတ်သက်၍ မြို့တော်စည်ပင်ဘက်မှ တိကျသော လမ်းညွှန်ချက် မပြသသေးခြင်းအပေါ် စိုးရိမ်နေကြပါတယ်။\n市都市計画課長・森本: သဘာဝပတ်ဝန်းကျင် ထိန်းသိမ်းရေး နည်းပညာဒီဇိုင်းနှင့် ပတ်သက်လာလျှင် ဂျပန်ထိပ်တန်း အကြံပေးကုမ္ပဏီထံ လွှဲအပ်ပြီး လက်တွေ့စမ်းသပ်မှုများ ပြုလုပ်နေပါတယ်။\n住民代表・坂井: အချက်အလက် ထွက်ပေါ်လာချိန်တွင် ပြည်သူများနှင့် သေချာစွာ ညှိနှိုင်းဆွေးနွေးပြီး နှစ်ဖက်စလုံး ကျေနပ်နိုင်မည့် သဘောတူညီချက်ကို ရှာဖွေပေးပါ။",
+    "translationMy": "市都市計画課長・森本: ဘောလုံးကွင်းသစ် တည်ဆောက်မည့် နေရာရွေးချယ်မှုနှင့် ပတ်သက်ပြီး ပြည်သူ့ရှင်းလင်းပွဲမှ အကြံပြုချက်များကို စုစည်းထားပါတယ်။\n住民代表・坂井: ယာဉ်ကြောပိတ်ဆို့မှု ဖြေလျှော့ရေးနှင့် ဆူညံသံပြဿနာများနှင့် ပတ်သက်၍ မြို့တော်စည်ပင်ဘက်မှ တိကျသော လမ်းညွှန်ချက် မပြသသေးခြင်းအပေါ် စိုးရိမ်နေကြပါတယ်။\n市都市計画課長・森本: သဘာဝပတ်ဝန်းကျင် ထိန်းသိမ်းရေး နည်းပညာဒီဇိုင်းနှင့် ပတ်သက်လာလျှင် ဂျပန်ထိပ်တန်း အကြံပေးကုမ္ပဏီထံ လွှဲအပ်ပြီး လက်တွေ့စမ်းသပ်မှုများ ပြုလုပ်နေပါတယ်။\n住民代表・坂井: အချက်အလက် ထွက်ပေါ်လာချိန်တွင် ပြည်သူများနှင့် သေချာစွာ ညှိနှိုင်းဆွေးနွေးပြီး နှစ်ဖက်စလုံး ကျေနပ်နိုင်မည့် သဘောတူညီချက်ကို ရှာဖွေပေးပါ။",
+    "turns": [
+      {
+        "speaker": "市都市計画課長・森本",
+        "ja": "新サッカースタジアムの建設候補地をめぐって、住民説明会でのご意見を整理いたしました。",
+        "kana": "しんさっかーすたじあむのけんせつこうほちをめぐって、じゅうみんせつめいかいでのごいけんをせいりいたしました。",
+        "en": "Concerning the candidate sites for the new soccer stadium, we compiled opinions from the residents' briefing.",
+        "my": "ဘောလုံးကွင်းသစ် တည်ဆောက်မည့် နေရာရွေးချယ်မှုနှင့် ပတ်သက်ပြီး ပြည်သူ့ရှင်းလင်းပွဲမှ အကြံပြုချက်များကို စုစည်းထားပါတယ်။",
+        "translationMy": "ဘောလုံးကွင်းသစ် တည်ဆောက်မည့် နေရာရွေးချယ်မှုနှင့် ပတ်သက်ပြီး ပြည်သူ့ရှင်းလင်းပွဲမှ အကြံပြုချက်များကို စုစည်းထားပါတယ်။",
+        "myanmar": "ဘောလုံးကွင်းသစ် တည်ဆောက်မည့် နေရာရွေးချယ်မှုနှင့် ပတ်သက်ပြီး ပြည်သူ့ရှင်းလင်းပွဲမှ အကြံပြုချက်များကို စုစည်းထားပါတယ်။"
+      },
+      {
+        "speaker": "住民代表・坂井",
+        "ja": "交通渋滞の緩和対策や騒音問題に関して、市側から具体的な指針が示されていない点に不安を抱いています。",
+        "kana": "こうつうじゅうたいのかんわたさくやそうおんもんだいにかんして、しがわからぐたいてきなししんがしめされていないてんにふあんをいだいています。",
+        "en": "Regarding traffic congestion mitigation and noise issues, we are anxious that specific guidelines have not been shown by the city.",
+        "my": "ယာဉ်ကြောပိတ်ဆို့မှု ဖြေလျှော့ရေးနှင့် ဆူညံသံပြဿနာများနှင့် ပတ်သက်၍ မြို့တော်စည်ပင်ဘက်မှ တိကျသော လမ်းညွှန်ချက် မပြသသေးခြင်းအပေါ် စိုးရိမ်နေကြပါတယ်။",
+        "translationMy": "ယာဉ်ကြောပိတ်ဆို့မှု ဖြေလျှော့ရေးနှင့် ဆူညံသံပြဿနာများနှင့် ပတ်သက်၍ မြို့တော်စည်ပင်ဘက်မှ တိကျသော လမ်းညွှန်ချက် မပြသသေးခြင်းအပေါ် စိုးရိမ်နေကြပါတယ်။",
+        "myanmar": "ယာဉ်ကြောပိတ်ဆို့မှု ဖြေလျှော့ရေးနှင့် ဆူညံသံပြဿနာများနှင့် ပတ်သက်၍ မြို့တော်စည်ပင်ဘက်မှ တိကျသော လမ်းညွှန်ချက် မပြသသေးခြင်းအပေါ် စိုးရိမ်နေကြပါတယ်။"
+      },
+      {
+        "speaker": "市都市計画課長・森本",
+        "ja": "環境保全の技術設計にかけては、日本屈指のコンサルタント会社に委託してシミュレーションを実施しております。",
+        "kana": "かんきょうほぜんのぎじゅつせっけいにかけては、にほんくっしのこんさるたんとかいしゃにいたくしてしみゅれーしょんをじっししております。",
+        "en": "When it comes to technical design for environmental conservation, we have consigned simulations to Japan's foremost consulting firm.",
+        "my": "သဘာဝပတ်ဝန်းကျင် ထိန်းသိမ်းရေး နည်းပညာဒီဇိုင်းနှင့် ပတ်သက်လာလျှင် ဂျပန်ထိပ်တန်း အကြံပေးကုမ္ပဏီထံ လွှဲအပ်ပြီး လက်တွေ့စမ်းသပ်မှုများ ပြုလုပ်နေပါတယ်။",
+        "translationMy": "သဘာဝပတ်ဝန်းကျင် ထိန်းသိမ်းရေး နည်းပညာဒီဇိုင်းနှင့် ပတ်သက်လာလျှင် ဂျပန်ထိပ်တန်း အကြံပေးကုမ္ပဏီထံ လွှဲအပ်ပြီး လက်တွေ့စမ်းသပ်မှုများ ပြုလုပ်နေပါတယ်။",
+        "myanmar": "သဘာဝပတ်ဝန်းကျင် ထိန်းသိမ်းရေး နည်းပညာဒီဇိုင်းနှင့် ပတ်သက်လာလျှင် ဂျပန်ထိပ်တန်း အကြံပေးကုမ္ပဏီထံ လွှဲအပ်ပြီး လက်တွေ့စမ်းသပ်မှုများ ပြုလုပ်နေပါတယ်။"
+      },
+      {
+        "speaker": "住民代表・坂井",
+        "ja": "データが出た段階で、住民との丁寧な対話を重ね、双方が納得できる合意点を見出してください。",
+        "kana": "でーたがでただんかいで、じゅうみんとのていねいなたいわをかさね、そうほうがなっとくできるごういてんをみいだしてください。",
+        "en": "Once data is out, please hold repeated thorough dialogues with residents and discover a consensus point agreeable to both sides.",
+        "my": "အချက်အလက် ထွက်ပေါ်လာချိန်တွင် ပြည်သူများနှင့် သေချာစွာ ညှိနှိုင်းဆွေးနွေးပြီး နှစ်ဖက်စလုံး ကျေနပ်နိုင်မည့် သဘောတူညီချက်ကို ရှာဖွေပေးပါ။",
+        "translationMy": "အချက်အလက် ထွက်ပေါ်လာချိန်တွင် ပြည်သူများနှင့် သေချာစွာ ညှိနှိုင်းဆွေးနွေးပြီး နှစ်ဖက်စလုံး ကျေနပ်နိုင်မည့် သဘောတူညီချက်ကို ရှာဖွေပေးပါ။",
+        "myanmar": "အချက်အလက် ထွက်ပေါ်လာချိန်တွင် ပြည်သူများနှင့် သေချာစွာ ညှိနှိုင်းဆွေးနွေးပြီး နှစ်ဖက်စလုံး ကျေနပ်နိုင်မည့် သဘောတူညီချက်ကို ရှာဖွေပေးပါ။"
+      }
+    ],
+    "questionIds": [
+      "n2.l13.q028",
+      "n2.l13.q029",
+      "n2.l13.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l13.q001",
+      "lessonId": "n2.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「哲学的な概念をめぐって学者たちの間で激しい（　）が交わされた。」",
+      "choices": [
+        "論争",
+        "自負",
+        "領域",
+        "卓越"
+      ],
+      "answer": "論争",
+      "explanation": "「論争（ろんそう）」は意見をたたかわせる激しい議論を表します。",
+      "explanationMy": "အငြင်းပွားငြင်းခုံမှု ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q002",
+      "lessonId": "n2.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「問題の本質を見失わないよう、議論の（　）を絞り込む。」",
+      "choices": [
+        "焦点",
+        "紛争",
+        "追及",
+        "対立"
+      ],
+      "answer": "焦点",
+      "explanation": "「焦点（しょうてん）」は注意や関心が集まる中心を表します。",
+      "explanationMy": "အဓိကအာရုံစိုက်ရာအချက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q003",
+      "lessonId": "n2.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「国境地帯における武力（　）の再発を未然に防ぐ。」",
+      "choices": [
+        "紛争",
+        "論争",
+        "焦点",
+        "自負"
+      ],
+      "answer": "紛争",
+      "explanation": "「紛争（ふんそう）」はもめごと・争いを表します。",
+      "explanationMy": "ပဋိပက္ခ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q004",
+      "lessonId": "n2.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「本件に関する政府の公式な（　）が記者会見で発表された。」",
+      "choices": [
+        "見解",
+        "卓越",
+        "領域",
+        "紛争"
+      ],
+      "answer": "見解",
+      "explanation": "「見解（けんかい）」は物事に対する考え方・意見を表します。",
+      "explanationMy": "သဘောထားအမြင် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q005",
+      "lessonId": "n2.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「労使間の激しい（　）を解消するため、仲裁人が介入した。」",
+      "choices": [
+        "対立",
+        "卓越",
+        "焦点",
+        "自負"
+      ],
+      "answer": "対立",
+      "explanation": "「対立（たいりつ）」は二つのものが互いに譲らず対抗することです。",
+      "explanationMy": "ထိပ်တိုက်ရင်ဆိုင်မှု ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q006",
+      "lessonId": "n2.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「関係省庁との綿密な（　）を経て、最終方針を決定する。」",
+      "choices": [
+        "協議",
+        "追及",
+        "紛争",
+        "対立"
+      ],
+      "answer": "協議",
+      "explanation": "「協議（きょうぎ）」は話し合って決めることを表します。",
+      "explanationMy": "တိုင်ပင်ညှိနှိုင်းခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q007",
+      "lessonId": "n2.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「彼は世界的に（　）した才能を持つ若手研究者として嘱望されている。」",
+      "choices": [
+        "卓越",
+        "対立",
+        "見解",
+        "争点"
+      ],
+      "answer": "卓越",
+      "explanation": "「卓越（たくえつ）」は群を抜いて優れていることです。",
+      "explanationMy": "ထူးချွန်ပြောင်မြောက်မှု ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q008",
+      "lessonId": "n2.l13",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「裁判における最大の（　）は契約書の有効性にある。」",
+      "choices": [
+        "争点",
+        "自負",
+        "領域",
+        "協議"
+      ],
+      "answer": "争点",
+      "explanation": "「争点（そうてん）」は争いの中心となる問題点です。",
+      "explanationMy": "အငြင်းပွားဖွယ်အချက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q009",
+      "lessonId": "n2.l13",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「警備員が施設内を<u>じゅんかい</u>する。」",
+      "choices": [
+        "巡回",
+        "順回",
+        "準回",
+        "循環"
+      ],
+      "answer": "巡回",
+      "explanation": "「巡回」は「じゅんかい」と読みます。",
+      "explanationMy": "巡回 ၏ အသံထွက်မှာ じゅんかい ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q010",
+      "lessonId": "n2.l13",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「裁判での主要な<u>そうてん</u>を整理する。」",
+      "choices": [
+        "争点",
+        "相点",
+        "総点",
+        "送点"
+      ],
+      "answer": "争点",
+      "explanation": "「争点」は「そうてん」と読みます。",
+      "explanationMy": "争点 ၏ အသံထွက်မှာ そうてん ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q011",
+      "lessonId": "n2.l13",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「カメラのレンズの<u>しょうてん</u>を合わせる。」",
+      "choices": [
+        "焦点",
+        "焦店",
+        "照点",
+        "衝点"
+      ],
+      "answer": "焦点",
+      "explanation": "「焦点」は「しょうてん」と読みます。",
+      "explanationMy": "焦点 ၏ အသံထွက်မှာ しょうてん ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q012",
+      "lessonId": "n2.l13",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「巡」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "しんにょう（辶）",
+        "さんずい（氵）",
+        "きへん（木）",
+        "くにがまえ（囗）"
+      ],
+      "answer": "しんにょう（辶）",
+      "explanation": "「巡」の部首は「しんにょう（辶）」です。",
+      "explanationMy": "「巡」၏ အစိတ်အပိုင်းမှာ '辶' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q013",
+      "lessonId": "n2.l13",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字表記として正しいものを選びなさい。\n「国際的な<u>ふんそう</u>を平和的に調停する。」",
+      "choices": [
+        "紛争",
+        "紛相",
+        "粉争",
+        "奮争"
+      ],
+      "answer": "紛争",
+      "explanation": "「ふんそう」の漢字表記は「紛争」です。",
+      "explanationMy": "ふんそう ၏ ခန်ဂျီမှာ 紛争 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q014",
+      "lessonId": "n2.l13",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字表記として正しいものを選びなさい。\n「約束の時間に遅れそうで気が<u>あせる</u>。」",
+      "choices": [
+        "焦る",
+        "煮る",
+        "焼る",
+        "照る"
+      ],
+      "answer": "焦る",
+      "explanation": "「あせる」の漢字表記は「焦る」です。",
+      "explanationMy": "あせる ၏ ခန်ဂျီမှာ 焦る ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q015",
+      "lessonId": "n2.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「新制度の導入（　）、賛否両論の意見が対立している。」",
+      "choices": [
+        "をめぐって",
+        "にかけては",
+        "をもとに",
+        "に反して"
+      ],
+      "answer": "をめぐって",
+      "explanation": "賛否の対立の中心となるテーマを表すので「をめぐって」が適切です。",
+      "explanationMy": "အငြင်းပွားဖွယ် အကြောင်းအရာကို ဗဟိုပြု၍ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q016",
+      "lessonId": "n2.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「スピードスケートの短距離走（　）、彼の勝率は圧倒的だ。」",
+      "choices": [
+        "にかけては",
+        "をめぐって",
+        "に関して",
+        "反面"
+      ],
+      "answer": "にかけては",
+      "explanation": "特定の技能・競技領域における卓越性を表す「にかけては」が適切です。",
+      "explanationMy": "ထိုပြိုင်ပွဲကဏ္ဍနှင့် ပတ်သက်လာလျှင် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q017",
+      "lessonId": "n2.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「この事件の詳細（　）、警察による発表を待ちたい。」",
+      "choices": [
+        "に関して",
+        "にかけては",
+        "をめぐって",
+        "に沿って"
+      ],
+      "answer": "に関して",
+      "explanation": "情報や詳細についての改まった話題提示なので「に関して」が適切です。",
+      "explanationMy": "ထိုအကြောင်းအရာနှင့် စပ်လျဉ်း၍ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q018",
+      "lessonId": "n2.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「予算配分（　）議論が深夜まで紛糾した。」",
+      "choices": [
+        "をめぐる",
+        "をめぐっての",
+        "にかけての",
+        "に関する"
+      ],
+      "answer": "をめぐる",
+      "explanation": "名詞（議論）を直接修飾する連体形は「をめぐる」です。",
+      "explanationMy": "နာမ်ကို အထူးပြုသည့် '〜をめぐる' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q019",
+      "lessonId": "n2.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「数学の難問を解くひらめき（　）、彼女の右に出る生徒はいない。」",
+      "choices": [
+        "にかけては",
+        "をめぐって",
+        "に基づいて",
+        "に沿って"
+      ],
+      "answer": "にかけては",
+      "explanation": "誰にも負けない自信・能力を強調するので「にかけては」が自然です。",
+      "explanationMy": "သူမထက် သာလွန်သူမရှိသော ကဏ္ဍကို ချီးကျူးခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q020",
+      "lessonId": "n2.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「地球温暖化の防止策（　）国際シンポジウムが開催された。」",
+      "choices": [
+        "に関する",
+        "にかける",
+        "をめぐった",
+        "に基づいた"
+      ],
+      "answer": "に関する",
+      "explanation": "シンポジウムのテーマを修飾するため「に関する」が適切です。",
+      "explanationMy": "ကမ္ဘာကြီးပူနွေးလာမှု ကာကွယ်ရေးနှင့် ပတ်သက်သော ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q021",
+      "lessonId": "n2.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「親権（　）争いにようやく終止符が打たれた。」",
+      "choices": [
+        "をめぐる",
+        "にかけての",
+        "に沿った",
+        "をもとにした"
+      ],
+      "answer": "をめぐる",
+      "explanation": "争いの対象となるテーマを修飾するので「をめぐる」が適切です。",
+      "explanationMy": "အငြင်းပွားဖွယ်ရာ အကြောင်းအရာကို အထူးပြုသော ပုံစံဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q022",
+      "lessonId": "n2.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「接客マナーの丁寧さ（　）、彼女は社内で表彰された。」",
+      "choices": [
+        "にかけては",
+        "をめぐって",
+        "に反して",
+        "反面"
+      ],
+      "answer": "にかけては",
+      "explanation": "特定の分野での優れた点を評価する文脈なので「にかけては」が適切です。",
+      "explanationMy": "ဧည့်ဝတ်ကျေပွန်မှု ကဏ္ဍနှင့် ပတ်သက်လာလျှင် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q023",
+      "lessonId": "n2.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「製品の保証規定（　）、ご不明な点がございましたらお問い合わせください。」",
+      "choices": [
+        "に関して",
+        "にかけては",
+        "をめぐって",
+        "あまり"
+      ],
+      "answer": "に関して",
+      "explanation": "問い合わせの対象を改まって提示するので「に関して」が適切です。",
+      "explanationMy": "ထုတ်ကုန် အာမခံစည်းမျဉ်းနှင့် ပတ်သက်၍ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q024",
+      "lessonId": "n2.l13",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜をめぐって」の用法として最も自然な文を選びなさい。",
+      "choices": [
+        "土地の境界線をめぐって隣人同士で口論になった。",
+        "走ることの速さをめぐって彼が一番だ。",
+        "私の将来の夢をめぐって計画書を書いた。",
+        "駅前をめぐって桜の木が満開に咲いている。"
+      ],
+      "answer": "土地の境界線をめぐって隣人同士で口論になった。",
+      "explanation": "複数の人間が争いや議論の中心とする事柄を表しているため正解です。",
+      "explanationMy": "မြေနယ်နိမိတ်နှင့် ပတ်သက်၍ အိမ်နီးချင်းများ အငြင်းပွားကြခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q025",
+      "lessonId": "n2.l13",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において、生命倫理の観点から激しい論争が起きている争点は何か。",
+      "choices": [
+        "受精卵に対する遺伝子操作の是非をめぐること。",
+        "難病患者に対する治療費の公的助成の増額。",
+        "海外の研究機関との特許料の分配比率。",
+        "病院内における看護師の勤務体制の改定。"
+      ],
+      "answer": "受精卵に対する遺伝子操作の是非をめぐること。",
+      "explanation": "本文第2文で「受精卵に対する遺伝子操作の是非をめぐっては、生命倫理の観点から激しい論争が巻き起こっている」とあります。",
+      "explanationMy": "သန္ဓေသားလောင်းအပေါ် မျိုးဗီဇပြုပြင်မှု သင့်မသင့် ငြင်းခုံမှု ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q026",
+      "lessonId": "n2.l13",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "議論の焦点はどのように変化・拡大したと述べられているか。",
+      "choices": [
+        "安全性の担保だけでなく、次世代への影響へと拡大した。",
+        "開発コストの削減から特許の独占へと縮小した。",
+        "倫理的議論から軍事利用の可能性へと特化した。",
+        "国内でのみ議論され、国際的な関心は失われた。"
+      ],
+      "answer": "安全性の担保だけでなく、次世代への影響へと拡大した。",
+      "explanation": "本文第3文で「議論の焦点は安全性の担保だけでなく次世代への影響へと拡大している」と記述されています。",
+      "explanationMy": "ဘေးကင်းလုံခြုံရေးသာမက နောက်မျိုးဆက်များအပေါ် သက်ရောက်မှုဆီသို့ပါ ချဲ့ထွင်လာခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q027",
+      "lessonId": "n2.l13",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "世界屈指の成果を誇る研究チームであっても求められる不可欠な条件は何か。",
+      "choices": [
+        "社会的承認を得るための誠実な合意形成の対話を行うこと。",
+        "学会の承認を待たずに迅速に商業化を先行させること。",
+        "他国の研究者を排除して自国の独占技術とすること。",
+        "法規制を無視して秘密裏に臨床実験を強行すること。"
+      ],
+      "answer": "社会的承認を得るための誠実な合意形成の対話を行うこと。",
+      "explanation": "本文末尾で「社会的承認なくして実用化を進めることは許されない。多角的な視点から合意形成を模索する誠実な対話が今こそ求められている」と結ばれています。",
+      "explanationMy": "လူမှုအဖွဲ့အစည်း၏ အသိအမှတ်ပြုမှု ရရှိရန် စစ်မှန်သော ညှိနှိုင်းဆွေးနွေးမှု ပြုလုပ်ရမည် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q028",
+      "lessonId": "n2.l13",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "住民説明会で意見が対立した中心的なテーマは何か。",
+      "choices": [
+        "新サッカースタジアムの建設候補地をめぐること。",
+        "スタジアムの入場チケット料金の設定。",
+        "建設工事を担当する企業の国籍問題。",
+        "サポーター用駐車場の利用料金の割引。"
+      ],
+      "answer": "新サッカースタジアムの建設候補地をめぐること。",
+      "explanation": "森本課長が「新サッカースタジアムの建設候補地をめぐって」と言及しています。",
+      "explanationMy": "ဘောလုံးကွင်းသစ် တည်ဆောက်မည့် နေရာရွေးချယ်မှုနှင့် ပတ်သက်၍ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q029",
+      "lessonId": "n2.l13",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "住民側が特に不安を感じている具体的な懸念事項は何か。",
+      "choices": [
+        "交通渋滞の緩和対策や騒音問題。",
+        "スタジアム内の飲食売店の少なさ。",
+        "照明設備のLED化の遅れ。",
+        "チームの勝利数が減少するリスク。"
+      ],
+      "answer": "交通渋滞の緩和対策や騒音問題。",
+      "explanation": "坂井代表が「交通渋滞の緩和対策や騒音問題に関して」不安を表明しています。",
+      "explanationMy": "ယာဉ်ကြောပိတ်ဆို့မှုနှင့် ဆူညံသံပြဿနာများ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l13.q030",
+      "lessonId": "n2.l13",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "環境保全の技術設計に関して、森本課長はどのような対策を報告したか。",
+      "choices": [
+        "日本屈指のコンサルタント会社に委託してシミュレーションを実施している。",
+        "住民の要望を完全に却下して工事日程を優先させる。",
+        "近隣の山林を全面伐採して緩衝地帯を造成する。",
+        "騒音問題は存在しないとして議論を打ち切る。"
+      ],
+      "answer": "日本屈指のコンサルタント会社に委託してシミュレーションを実施している。",
+      "explanation": "森本課長が「日本屈指のコンサルタント会社に委託してシミュレーションを実施しております」と説明しています。",
+      "explanationMy": "ဂျပန်ထိပ်တန်း အကြံပေးကုမ္ပဏီထံ လွှဲအပ်ကာ စမ်းသပ်မှုများ ပြုလုပ်နေသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l13.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+}

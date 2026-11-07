@@ -1,0 +1,1724 @@
+{
+  "id": "n2.l09",
+  "level": "N2",
+  "module": "N2 Advanced Grammar & Argumentation",
+  "number": 9,
+  "title": "N2 Lesson 9: Time, Occasions & Progressive Change (〜に際して・〜を契機に・〜つつある)",
+  "description": "Mastery module focusing on Formal Occasions, Turning Points, and Ongoing State Transitions: ceremonial milestones (に際して), catalytic opportunities (を契機に), and gradual shifts (つつある).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-10-22T10:00:00Z",
+    "rev": 2
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l09.v001",
+      "lessonId": "n2.l09",
+      "ja": "契機",
+      "kana": "けいき",
+      "en": "Opportunity / Turning point / Catalyst",
+      "my": "အချိုးအကွေ့ / အခွင့်အရေး / တွန်းအား",
+      "meaningMyanmar": "အချိုးအကွေ့ / အခွင့်အရေး / တွန်းအား",
+      "meaningMy": "အချိုးအကွေ့ / အခွင့်အရေး / တွန်းအား",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l09.s002",
+      "kanjiIds": [
+        "n2.l09.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.v002",
+      "lessonId": "n2.l09",
+      "ja": "移行",
+      "kana": "いこう",
+      "en": "Transition / Phased migration",
+      "my": "ကူးပြောင်းခြင်း / အဆင့်ဆင့် ပြောင်းလဲခြင်း",
+      "meaningMyanmar": "ကူးပြောင်းခြင်း / အဆင့်ဆင့် ပြောင်းလဲခြင်း",
+      "meaningMy": "ကူးပြောင်းခြင်း / အဆင့်ဆင့် ပြောင်းလဲခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l09.s003",
+      "kanjiIds": [
+        "n2.l09.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.v003",
+      "lessonId": "n2.l09",
+      "ja": "変革",
+      "kana": "へんかく",
+      "en": "Transformation / Radical reform",
+      "my": "ပြုပြင်ပြောင်းလဲမှု / အသွင်ကူးပြောင်းမှု",
+      "meaningMyanmar": "ပြုပြင်ပြောင်းလဲမှု / အသွင်ကူးပြောင်းမှု",
+      "meaningMy": "ပြုပြင်ပြောင်းလဲမှု / အသွင်ကူးပြောင်းမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l09.s002",
+      "kanjiIds": [
+        "n2.l09.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.v004",
+      "lessonId": "n2.l09",
+      "ja": "兆し",
+      "kana": "きざし",
+      "en": "Sign / Omen / Indication / Symptom",
+      "my": "အရိပ်အယောင် / လက္ခဏာ / အလားအလာ",
+      "meaningMyanmar": "အရိပ်အယောင် / လက္ခဏာ / အလားအလာ",
+      "meaningMy": "အရိပ်အယောင် / လက္ခဏာ / အလားအလာ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l09.s003",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.v005",
+      "lessonId": "n2.l09",
+      "ja": "開幕",
+      "kana": "かいまく",
+      "en": "Opening / Curtain-raising / Commencement",
+      "my": "ဖွင့်လှစ်ခြင်း / စတင်ခြင်း",
+      "meaningMyanmar": "ဖွင့်လှစ်ခြင်း / စတင်ခြင်း",
+      "meaningMy": "ဖွင့်လှစ်ခြင်း / စတင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l09.s004",
+      "kanjiIds": [
+        "n2.l09.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.v006",
+      "lessonId": "n2.l09",
+      "ja": "進展",
+      "kana": "しんてん",
+      "en": "Progress / Advancement / Development",
+      "my": "တိုးတက်ပြောင်းလဲမှု / ရှေ့သို့တိုးတက်ခြင်း",
+      "meaningMyanmar": "တိုးတက်ပြောင်းလဲမှု / ရှေ့သို့တိုးတက်ခြင်း",
+      "meaningMy": "တိုးတက်ပြောင်းလဲမှု / ရှေ့သို့တိုးတက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l09.s006",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.v007",
+      "lessonId": "n2.l09",
+      "ja": "推進",
+      "kana": "すいしん",
+      "en": "Promotion / Propulsion / Driving forward",
+      "my": "တွန်းအားပေး ဆောင်ရွက်ခြင်း / ရှေ့သို့တွန်းတင်ခြင်း",
+      "meaningMyanmar": "တွန်းအားပေး ဆောင်ရွက်ခြင်း / ရှေ့သို့တွန်းတင်ခြင်း",
+      "meaningMy": "တွန်းအားပေး ဆောင်ရွက်ခြင်း / ရှေ့သို့တွန်းတင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l09.s005",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.v008",
+      "lessonId": "n2.l09",
+      "ja": "機運",
+      "kana": "きうん",
+      "en": "Momentum / Favorable opportunity / Social trend",
+      "my": "အခြေအနေ အခွင့်အခါ / အလားအလာ အခွင့်ကောင်း",
+      "meaningMyanmar": "အခြေအနေ အခွင့်အခါ / အလားအလာ အခွင့်ကောင်း",
+      "meaningMy": "အခြေအနေ အခွင့်အခါ / အလားအလာ အခွင့်ကောင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l09.s002",
+      "kanjiIds": [
+        "n2.l09.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.v009",
+      "lessonId": "n2.l09",
+      "ja": "復興",
+      "kana": "ふっこう",
+      "en": "Reconstruction / Revival / Rebirth",
+      "my": "ပြန်လည်ထူထောင်ခြင်း / ပြန်လည်နိုးထခြင်း",
+      "meaningMyanmar": "ပြန်လည်ထူထောင်ခြင်း / ပြန်လည်နိုးထခြင်း",
+      "meaningMy": "ပြန်လည်ထူထောင်ခြင်း / ပြန်လည်နိုးထခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l09.s006",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.v010",
+      "lessonId": "n2.l09",
+      "ja": "節目",
+      "kana": "ふしめ",
+      "en": "Milestone / Turning point / Juncture",
+      "my": "အရေးကြီးသော မှတ်တိုင် / အချိုးအကွေ့ကာလ",
+      "meaningMyanmar": "အရေးကြီးသော မှတ်တိုင် / အချိုးအကွေ့ကာလ",
+      "meaningMy": "အရေးကြီးသော မှတ်တိုင် / အချိုးအကွေ့ကာလ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l09.s007",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.v011",
+      "lessonId": "n2.l09",
+      "ja": "顕著",
+      "kana": "けんちょ",
+      "en": "Remarkable / Striking / Conspicuous / Obvious",
+      "my": "ထင်ရှားသိသာသော / သိသာထင်ရှားသည့်",
+      "meaningMyanmar": "ထင်ရှားသိသာသော / သိသာထင်ရှားသည့်",
+      "meaningMy": "ထင်ရှားသိသာသော / သိသာထင်ရှားသည့်",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l09.s008",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.v012",
+      "lessonId": "n2.l09",
+      "ja": "衰退",
+      "kana": "すいたい",
+      "en": "Decline / Decay / Deterioration",
+      "my": "ဆုတ်ယုတ်ကျဆင်းခြင်း / ယိုယွင်းခြင်း",
+      "meaningMyanmar": "ဆုတ်ယုတ်ကျဆင်းခြင်း / ယိုယွင်းခြင်း",
+      "meaningMy": "ဆုတ်ယုတ်ကျဆင်းခြင်း / ယိုယွင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l09.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l09.k001",
+      "lessonId": "n2.l09",
+      "char": "際",
+      "meaning": "Occasion / Boundary / Edge",
+      "meaningMyanmar": "အခါသမယ / အချိန်အခွင့်အရေး",
+      "onyomi": [
+        "サイ"
+      ],
+      "kunyomi": [
+        "きわ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "に際して",
+          "reading": "にさいして",
+          "meaning": "on the occasion of / prior to",
+          "preview": false
+        },
+        {
+          "word": "国際",
+          "reading": "こくさい",
+          "meaning": "international",
+          "preview": false
+        },
+        {
+          "word": "交際",
+          "reading": "こうさい",
+          "meaning": "association / fellowship",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l09.s001",
+        "n2.l09.s004"
+      ],
+      "components": [
+        "阝",
+        "祭"
+      ],
+      "strokes": 14,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      },
+      "meaningMy": "အခါသမယ / အချိန်အခွင့်အရေး"
+    },
+    {
+      "id": "n2.l09.k002",
+      "lessonId": "n2.l09",
+      "char": "契",
+      "meaning": "Pledge / Contract / Opportunity",
+      "meaningMyanmar": "ပဋိညာဉ် / ကတိကဝတ် / အချိုးအကွေ့",
+      "onyomi": [
+        "ケイ"
+      ],
+      "kunyomi": [
+        "ちぎ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "契機",
+          "reading": "けいき",
+          "meaning": "turning point / catalyst",
+          "preview": false
+        },
+        {
+          "word": "契約",
+          "reading": "けいやく",
+          "meaning": "contract / agreement",
+          "preview": false
+        },
+        {
+          "word": "契る",
+          "reading": "ちぎる",
+          "meaning": "to pledge / vow",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l09.s002",
+        "n2.l09.s005"
+      ],
+      "components": [
+        "大",
+        "刀",
+        "丰"
+      ],
+      "strokes": 9,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      },
+      "meaningMy": "ပဋိညာဉ် / ကတိကဝတ် / အချိုးအကွေ့"
+    },
+    {
+      "id": "n2.l09.k003",
+      "lessonId": "n2.l09",
+      "char": "移",
+      "meaning": "Shift / Move / Transition",
+      "meaningMyanmar": "ပြောင်းရွှေ့ခြင်း / ကူးပြောင်းခြင်း",
+      "onyomi": [
+        "イ"
+      ],
+      "kunyomi": [
+        "うつ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "移行",
+          "reading": "いこう",
+          "meaning": "transition / migration",
+          "preview": false
+        },
+        {
+          "word": "移転",
+          "reading": "いてん",
+          "meaning": "relocation / transfer",
+          "preview": false
+        },
+        {
+          "word": "移動",
+          "reading": "いどう",
+          "meaning": "movement / mobility",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l09.s003",
+        "n2.l09.s008"
+      ],
+      "components": [
+        "禾",
+        "多"
+      ],
+      "strokes": 11,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      },
+      "meaningMy": "ပြောင်းရွှေ့ခြင်း / ကူးပြောင်းခြင်း"
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l09.g001",
+      "lessonId": "n2.l09",
+      "pattern": "〜に際して",
+      "meaning": "On the occasion of / When starting / Prior to",
+      "formation": "動詞辞書形 / 名詞 ＋ に際して（は）・に際し",
+      "explanation": {
+        "en": "Used when embarking upon a significant, official, or milestone event (e.g., ceremonies, contracts, project launches). Formal register emphasizing preparedness and solemnity.",
+        "my": "တရားဝင် အခမ်းအနား သို့မဟုတ် အရေးကြီးသော မှတ်တိုင်တစ်ခုကို စတင်ပြုလုပ်ခါနီး အခါသမယတွင် သုံးသည်။ နေ့စဉ် သာမန်လုပ်ငန်းများတွင် မသုံးပါ။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l09.s001",
+          "note": "Formal commencement of a project"
+        },
+        {
+          "sentenceId": "n2.l09.s004",
+          "note": "Ceremonial opening of global games"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l09.g002"
+      ],
+      "commonMistakes": [
+        "Do not use for routine daily activities (e.g., 朝起きるに際して is incorrect; use 時に instead)."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "新事業の立ち上げ[ _____ ]、幹部一同が集まり綿密な行動指針を策定した。",
+      "clozeTarget": "に際して",
+      "clozeHint": "Noun + に際して (formal ceremonial milestone: 'on the occasion of / when embarking upon')",
+      "acceptableSynonyms": [
+        "にあたって",
+        "の際に",
+        "の折に"
+      ],
+      "nuanceExplanationMy": "「〜に際して」သည် မင်္ဂလာအခမ်းအနား၊ လုပ်ငန်းသစ်စတင်ခြင်း စသည့် အရေးကြီးသော ကိစ္စများတွင်သာ သုံးစွဲပြီး နေ့စဉ် သာမန်လုပ်ရိုးလုပ်စဉ်များအတွက် မသုံးရပါ။"
+    },
+    {
+      "id": "n2.l09.g002",
+      "lessonId": "n2.l09",
+      "pattern": "〜を契機に",
+      "meaning": "Taking as an opportunity / Triggered by / As a turning point",
+      "formation": "名詞 ＋ を契機に（して）・を契機として",
+      "explanation": {
+        "en": "Expresses that a specific decisive event triggered a fundamental directional turn or gave birth to positive developmental momentum.",
+        "my": "အရေးပါသော အဖြစ်အပျက်တစ်ခုကို အကြောင်းပြု၍ သို့မဟုတ် အချိုးအကွေ့တစ်ခုအဖြစ် သတ်မှတ်ကာ ကြီးမားသော တိုးတက်ပြောင်းလဲမှုသစ်ကို စတင်ရာတွင် သုံးသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l09.s002",
+          "note": "Legal reform triggering structural transformation"
+        },
+        {
+          "sentenceId": "n2.l09.s005",
+          "note": "Global expansion catalyzing language upskilling"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l09.g001"
+      ],
+      "commonMistakes": [
+        "More formal than をきっかけに; typically refers to socio-economic, historical, or broad institutional turning points."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "法改正[ _____ ]、業界全体で抜本的な組織改革を断行する機運が高まった。",
+      "clozeTarget": "を契機に",
+      "clozeHint": "Noun + を契機に (catalytic opportunity: 'taking as a turning point / triggered by')",
+      "acceptableSynonyms": [
+        "をきっかけに",
+        "を機に",
+        "を契機として"
+      ],
+      "nuanceExplanationMy": "「〜を契機に」သည် သမိုင်းဝင် သို့မဟုတ် လူ့ဘောင်အဖွဲ့အစည်းဆိုင်ရာ အရေးပါသော အချိုးအကွေ့အဖြစ် သတ်မှတ်၍ ကောင်းသောပြောင်းလဲမှုကို စတင်ရာတွင် အဓိက သုံးသည်။"
+    },
+    {
+      "id": "n2.l09.g003",
+      "lessonId": "n2.l09",
+      "pattern": "〜つつある",
+      "meaning": "In the process of ... / Gradually continuing to change / In mid-shift",
+      "formation": "動詞ます形（語幹） ＋ つつある",
+      "explanation": {
+        "en": "Describes an ongoing continuous transformation or shift moving progressively in a certain direction over time.",
+        "my": "အခြေအနေတစ်ခုသည် တဖြည်းဖြည်းချင်း ပြောင်းလဲလျက်ရှိနေဆဲဖြစ်ကြောင်း စဉ်ဆက်မပြတ် ဖြစ်စဉ်ကို ဖော်ပြသည်။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l09.s003",
+          "note": "Digital adoption transforming lifestyles"
+        },
+        {
+          "sentenceId": "n2.l09.s006",
+          "note": "Post-disaster reconstruction making steady progress"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l09.g001",
+        "n2.l09.g002"
+      ],
+      "commonMistakes": [
+        "Cannot be used for momentary actions (e.g., 電車が止まりつつある is uncommon unless emphasizing very slow decelerating motion)."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "デジタル技術の普及に伴い、人々の生活様式は急速に変化し[ _____ ]。",
+      "clozeTarget": "つつある",
+      "clozeHint": "Verb stem + つつある (ongoing continuous shift: 'is in the process of changing')",
+      "acceptableSynonyms": [
+        "ている",
+        "つつあって",
+        "てきている"
+      ],
+      "nuanceExplanationMy": "「〜つつある」သည် အချိန်ယူ၍ တဖြည်းဖြည်း ပြောင်းလဲဖြစ်ပေါ်နေသော လမ်းကြောင်းကို ဖော်ပြပြီး ခဏတာ ချက်ချင်းပြီးဆုံးသွားသော ကိစ္စများတွင် မသုံးပါ။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l09.s001",
+      "lessonId": "n2.l09",
+      "ja": "新事業の立ち上げに際して、幹部一同が集まり綿密な行動指針を策定した。",
+      "kana": "しんじぎょうのたちあげにさいして、かんぶいちどうがあツアーりめんみつなこうどうししんをさくていした。",
+      "translation": {
+        "en": "On the occasion of launching the new enterprise, the executive members gathered and formulated a thorough code of action.",
+        "my": "လုပ်ငန်းသစ် စတင်ထူထောင်ခြင်း အခါသမယတွင် အုပ်ချုပ်ရေးအဖွဲ့ဝင်အားလုံး စုံညီစွာ စည်းဝေးကာ အသေးစိတ် လုပ်ငန်းလမ်းညွှန်ချက်များကို ရေးဆွဲချမှတ်ခဲ့ကြသည်။"
+      },
+      "vocabIds": [
+        "n2.l09.v007",
+        "n2.l09.v010"
+      ],
+      "grammarIds": [
+        "n2.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.s002",
+      "lessonId": "n2.l09",
+      "ja": "法改正を契機に、業界全体で抜本的な組織改革を断行する機運が高まった。",
+      "kana": "ほうかいせいをけいきに、ぎょうかいぜんたいでばっぽんてきなそしきかいかくをだんこうするきうんがたかまった。",
+      "translation": {
+        "en": "Taking the legal revision as a turning point, momentum built across the entire industry to execute radical organizational reform.",
+        "my": "ဥပဒေပြင်ဆင်ချက်ကို အချိုးအကွေ့တစ်ခုအဖြစ် သတ်မှတ်၍ လုပ်ငန်းနယ်ပယ်တစ်ခုလုံးတွင် အခြေခံကျသော အဖွဲ့အစည်းဆိုင်ရာ ပြုပြင်ပြောင်းလဲမှုကို ပြတ်ပြတ်သားသား လုပ်ဆောင်ရန် အခွင့်ကောင်းအခြေအနေ မြင့်တက်လာခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n2.l09.v001",
+        "n2.l09.v003",
+        "n2.l09.v008"
+      ],
+      "grammarIds": [
+        "n2.l09.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.s003",
+      "lessonId": "n2.l09",
+      "ja": "デジタル技術の普及に伴い、人々の生活様式は急速に変化しつつある。",
+      "kana": "でじたるぎじゅつのふきゅうにともない、ひとびとのせいかつようしきはきゅうそくにへんかしつつある。",
+      "translation": {
+        "en": "In tandem with the proliferation of digital technology, people's lifestyles are in the midst of rapid transformation.",
+        "my": "ဒစ်ဂျစ်တယ်နည်းပညာ ကျယ်ကျယ်ပြန့်ပြန့် ပျံ့နှံ့လာမှုနှင့်အတူ လူအများ၏ လူနေမှုဘဝပုံစံသည် အရှိန်အဟုန်ဖြင့် တဖြည်းဖြည်း ပြောင်းလဲလျက်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n2.l09.v002",
+        "n2.l09.v004",
+        "n2.l09.v011"
+      ],
+      "grammarIds": [
+        "n2.l09.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.s004",
+      "lessonId": "n2.l09",
+      "ja": "世界的なスポーツ大会の開幕に際して、各国から多くの選手団が到着した。",
+      "kana": "せかいてきなすぽーつたいかいのかいまくにさいして、かっこくからおおくのせんしゅだんがとうちゃくした。",
+      "translation": {
+        "en": "On the occasion of the opening of the global sports tournament, numerous athlete delegations arrived from various nations.",
+        "my": "ကမ္ဘာ့အဆင့် အားကစားပြိုင်ပွဲကြီး ဖွင့်လှစ်ခြင်း အခါသမယတွင် နိုင်ငံအသီးသီးမှ အားကစားသမား အဖွဲ့များစွာ ရောက်ရှိလာခဲ့ကြသည်။"
+      },
+      "vocabIds": [
+        "n2.l09.v005",
+        "n2.l09.v006"
+      ],
+      "grammarIds": [
+        "n2.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.s005",
+      "lessonId": "n2.l09",
+      "ja": "海外進出を契機として、社員の語学力向上と異文化理解の研修を積極的に推進している。",
+      "kana": "かいがいしんしゅつをけいきとして、しゃいんのごがくりょくこうじょうといぶんかりかいのけんしゅうをせっきょくてきにすいしんしている。",
+      "translation": {
+        "en": "Taking our overseas expansion as an opportunity, we are aggressively driving forward employee language training and cross-cultural workshops.",
+        "my": "နိုင်ငံတကာသို့ တိုးချဲ့ခြေဆန့်ခြင်းကို အခွင့်ကောင်းယူ၍ ဝန်ထမ်းများ၏ ဘာသာစကားစွမ်းရည် တိုးတက်စေခြင်းနှင့် မတူကွဲပြားသော ယဉ်ကျေးမှုဆိုင်ရာ နားလည်မှုသင်တန်းများကို တက်ကြွစွာ တွန်းအားပေး လုပ်ဆောင်လျက်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n2.l09.v001",
+        "n2.l09.v007",
+        "n2.l09.v008"
+      ],
+      "grammarIds": [
+        "n2.l09.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.s006",
+      "lessonId": "n2.l09",
+      "ja": "被災地の復興事業は、全国からの温かい支援を得て着実に進展しつつある。",
+      "kana": "ひさいちのふっこうじぎょうは、ぜんこくからのあたたかいしえんをえてちゃくじつにしんてんしつつある。",
+      "translation": {
+        "en": "The disaster zone reconstruction work, having received warm support from across the nation, is steadily making progressive strides.",
+        "my": "သဘာဝဘေးဒဏ်သင့်ဒေသ ပြန်လည်ထူထောင်ရေး လုပ်ငန်းများသည် တစ်နိုင်ငံလုံးမှ နွေးထွေးသော အကူအညီများကို ရရှိကာ တဖြည်းဖြည်း ခိုင်မာစွာ တိုးတက်ပြောင်းလဲလျက်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n2.l09.v006",
+        "n2.l09.v009"
+      ],
+      "grammarIds": [
+        "n2.l09.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.s007",
+      "lessonId": "n2.l09",
+      "ja": "創業５０周年の節目に際し、地域社会への感謝を込めた記念行事を企画した。",
+      "kana": "そうぎょうごじゅっしゅうねんのふしめにさいし、ちいきしゃかいへのかんしゃをこめたきねんぎょうじをきかくした。",
+      "translation": {
+        "en": "On the milestone occasion of our 50th founding anniversary, we organized commemorative events expressing gratitude toward the local community.",
+        "my": "တည်ထောင်မှု နှစ် ၅၀ ပြည့် အရေးကြီးသော မှတ်တိုင်အခါသမယတွင် ဒေသခံလူထုအား ကျေးဇူးတုံ့ပြန်သော အထိမ်းအမှတ် အခမ်းအနားများကို စီစဉ်ကျင်းပခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n2.l09.v010"
+      ],
+      "grammarIds": [
+        "n2.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.s008",
+      "lessonId": "n2.l09",
+      "ja": "感染症の流行を契機に、リモートワークやオンライン診療への移行が顕著になった。",
+      "kana": "かんせんしょうのりゅうこうをけいきに、りもーとわーくやおんらいんしんりょうへのいこうがけんちょになった。",
+      "translation": {
+        "en": "Triggered by the epidemic outbreak, the transition to remote work and telemedicine has become remarkably pronounced.",
+        "my": "ကူးစက်ရောဂါ ဖြစ်ပွားမှုကို အကြောင်းပြု၍ အဝေးရောက် အလုပ်လုပ်ကိုင်ခြင်းနှင့် အွန်လိုင်းဆေးကုသမှုစနစ်သို့ ကူးပြောင်းခြင်းသည် သိသာထင်ရှားလာခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n2.l09.v001",
+        "n2.l09.v002",
+        "n2.l09.v011"
+      ],
+      "grammarIds": [
+        "n2.l09.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.s009",
+      "lessonId": "n2.l09",
+      "ja": "少子高齢化が進む地方都市では、伝統産業の衰退を食い止める模索が続きつつある。",
+      "kana": "しょうしこうれいかがすすむちほうとしでは、でんとうさんぎょうのすいたいをくいとめるもさくがつづきつつある。",
+      "translation": {
+        "en": "In regional cities with declining birthrates and aging populations, attempts to curb the decline of traditional industries are continuing.",
+        "my": "ကလေးမွေးဖွားနှုန်း ကျဆင်းပြီး သက်ကြီးရွယ်အို ဦးရေ များပြားလာသော နယ်မြို့များတွင် ရိုးရာလုပ်ငန်းများ ဆုတ်ယုတ်ပျက်စီးမှုကို တားဆီးရန် နည်းလမ်းရှာဖွေမှုများသည် ဆက်တိုက် ဖြစ်ပေါ်လျက်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n2.l09.v004",
+        "n2.l09.v012"
+      ],
+      "grammarIds": [
+        "n2.l09.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.s010",
+      "lessonId": "n2.l09",
+      "ja": "新製品の一般発売に際しては、十分な安全性試験と市場調査を実施しなければならない。",
+      "kana": "しんせいひんのいっぱんはつばいにさいしては、じゅうぶんなあんぜんせいきけんとしじょうちょうさをじっ施しなければならない。",
+      "translation": {
+        "en": "Prior to releasing a new product to the general public, one must execute thorough safety trials and market research.",
+        "my": "ထုတ်ကုန်အသစ်ကို အများပြည်သူသို့ စတင်ရောင်းချခြင်း မပြုမီ အခါသမယတွင် လုံလောက်သော ဘေးကင်းလုံခြုံမှု စမ်းသပ်ချက်များနှင့် စျေးကွက်စစ်တမ်းများကို မဖြစ်မနေ ဆောင်ရွက်ရမည်။"
+      },
+      "vocabIds": [
+        "n2.l09.v005"
+      ],
+      "grammarIds": [
+        "n2.l09.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.s011",
+      "lessonId": "n2.l09",
+      "ja": "過去の苦い失敗を契機にして、自己の業務プロセスを根本から徹底的に見直した。",
+      "kana": "かこのにがいしっぱいをけいきにして、じこのぎょうむぷろせすをこんぽんからてっていてきにみなおした。",
+      "translation": {
+        "en": "Taking past bitter failures as a catalyst, I fundamentally overhauled my work processes from the ground up.",
+        "my": "အတိတ်က ခါးသီးသော ကျရှုံးမှုကို အချိုးအကွေ့အဖြစ် သတ်မှတ်ကာ မိမိ၏ လုပ်ငန်းဆောင်ရွက်ပုံ အဆင့်ဆင့်ကို အခြေခံမှစ၍ အပြည့်အဝ ပြန်လည်သုံးသပ် ပြင်ဆင်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n2.l09.v001",
+        "n2.l09.v003"
+      ],
+      "grammarIds": [
+        "n2.l09.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l09.s012",
+      "lessonId": "n2.l09",
+      "ja": "環境意識の高まりを受け、クリーンエネルギーへの投資は世界規模で加速しつつある。",
+      "kana": "かんきょういしきのたかまりをうけ、くりーんえねるぎーへのとうしはせかいきぼでかそくしつつある。",
+      "translation": {
+        "en": "Prompted by rising environmental awareness, investment in clean energy is accelerating on a global scale.",
+        "my": "သဘာဝပတ်ဝန်းကျင်ဆိုင်ရာ အသိပညာ မြင့်မားလာမှုကြောင့် သန့်ရှင်းသော စွမ်းအင်ကဏ္ဍတွင် ရင်းနှီးမြှုပ်နှံမှုများသည် ကမ္ဘာ့အဆင့် အတိုင်းအတာဖြင့် အရှိန်အဟုန် မြင့်တက်လျက်ရှိသည်။"
+      },
+      "vocabIds": [
+        "n2.l09.v002",
+        "n2.l09.v007"
+      ],
+      "grammarIds": [
+        "n2.l09.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-22T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l09.r001",
+    "lessonId": "n2.l09",
+    "title": "産業構造の転換と未来への胎動 (စက်မှုလုပ်ငန်း အသွင်ကူးပြောင်းမှုနှင့် အနာဂတ်လှိုင်းတံပိုး)",
+    "level": "N2",
+    "text": "かつて重厚長大産業が牽引した経済は、今やデジタル技術と環境配慮を両輪とする新たなステージへと移行しつつある。激変する国際情勢や気候変動の危機に直面する今日、従来の成功体験に固執することは企業の衰退を早める結果にしかならない。ある大手製造業は、新工場の設立に際して、従来の化石燃料に依存した生産ラインを全廃し、再生可能エネルギーのみで稼働するゼロエミッション体制を整えた。この英断は、過去の公害訴訟という苦難の歴史を契機に、環境保全を経営の最優先課題へと位置づけた結果である。古い体制を打ち破り、持続可能な社会の実現に向けて変革を進める機運は、企業のみならず市民社会全体へと着実に広がりつつある。",
+    "kanaText": "かつてじゅうこうちょうだいさんぎょうがけんいんしたけいざいは、いまやでじたるぎじゅつとかんきょうはいりょをりょうりんとするあらたなすてーじへといこうしつつある。げきへんするこくさいじょうせいやきこうへんどうのききにちょくめんするこんにち、じゅうらいのせいこうたいけんにこしつすることはきぎょうのすいたいをはやめるけっかにしかならない。あるおおてせいぞうぎょうは、しんこうじょうのせつりつにさいして、じゅうらいのかせきねんりょうにいぞんしたせいさんらいんをぜんぱいし、さいせいかのうえねるぎーのみでかどうするぜろえみっしょんたいせいをととのえた。このえいだんは、かこのこうがいそしょうというくなんのれきしをけいきに、かんきょうほぜんをけいえいのさいゆうせんかだいへといづけたけっかである。ふるいたいせいをうちやぶり、じぞくかのうなしゃかいのじつげんにむけてへんかくをすすめるきうんは、きぎょうのみならずしみんしゃかいぜんたいへとちゃくじつにひろがりつつある。",
+    "translation": "တစ်ချိန်က အကြီးစားစက်မှုလုပ်ငန်းများ ဦးဆောင်ခဲ့သော စီးပွားရေးသည် ယခုအခါ ဒစ်ဂျစ်တယ်နည်းပညာနှင့် သဘာဝပတ်ဝန်းကျင် ထိန်းသိမ်းရေးတို့ကို ဒွန်တွဲအခြေခံသော အဆင့်သစ်တစ်ခုသို့ တဖြည်းဖြည်း ကူးပြောင်းလျက်ရှိသည်။ အပြောင်းအလဲမြန်သော နိုင်ငံတကာ အခြေအနေနှင့် ရာသီဥတု ဖောက်ပြန်မှု အကျပ်အတည်းများကို ရင်ဆိုင်နေရသော ယနေ့ခေတ်တွင် အတိတ်က အောင်မြင်မှုများကိုသာ တွယ်ဖက်နေခြင်းသည် လုပ်ငန်းများ ဆုတ်ယုတ်ကျဆင်းမှုကို ပိုမိုမြန်ဆန်စေရုံသာ ဖြစ်ပေလိမ့်မည်။ ထိပ်တန်း ကုန်ထုတ်လုပ်ငန်းကြီးတစ်ခုသည် စက်ရုံသစ် တည်ထောင်ခြင်း အခါသမယတွင် (に際して) သမားရိုးကျ ကျောက်ဖြစ်ရုပ်ကြွင်းလောင်စာ အသုံးပြု ထုတ်လုပ်မှုလိုင်းများကို အပြီးတိုင် ဖျက်သိမ်းကာ ပြန်လည်ပြည့်ဖြိုးမြဲစွမ်းအင် သက်သက်ဖြင့်သာ လည်ပတ်သည့် ကာဗွန်ထုတ်လွှတ်မှုကင်းစင်သော စနစ်ကို အဆင်သင့် ပြင်ဆင်ဖွဲ့စည်းခဲ့သည်။ ဤပြတ်သားသော ဆုံးဖြတ်ချက်သည် အတိတ်က ပတ်ဝန်းကျင်ညစ်ညမ်းမှု တရားစွဲဆိုခံရသည့် ဆင်းရဲခက်ခဲသော သမိုင်းကို အချိုးအကွေ့အဖြစ် သတ်မှတ်၍ (を契機に) သဘာဝပတ်ဝန်းကျင် ထိန်းသိမ်းရေးကို စီမံခန့်ခွဲမှု၏ ဦးစားပေးအဆင့် သတ်မှတ်ခဲ့သည့် ရလဒ်ဖြစ်သည်။ စနစ်ဟောင်းကို ဖြိုခွင်းကာ ရေရှည်တည်တံ့သော လူ့ဘောင်ကို အကောင်အထည်ဖော်ရန် ပြုပြင်ပြောင်းလဲမှုများ ရှေ့ဆက်လုပ်ဆောင်မည့် အလားအလာသည် လုပ်ငန်းများတွင်သာမက ပြည်သူလူထုတစ်ရပ်လုံးကြားတွင်ပါ တဖြည်းဖြည်း ပျံ့နှံ့ရောက်ရှိလျက်ရှိသည် (広がりつつある)။",
+    "questionIds": [
+      "n2.l09.q021",
+      "n2.l09.q022",
+      "n2.l09.q023",
+      "n2.l09.q024",
+      "n2.l09.q025"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "重厚長大",
+        "reading": "じゅうこうちょうだい",
+        "meaning": "heavy and traditional manufacturing industries"
+      },
+      {
+        "term": "英断",
+        "reading": "えいだん",
+        "meaning": "bold/decisive resolution"
+      },
+      {
+        "term": "ゼロエミッション",
+        "reading": "ぜろえみっしょん",
+        "meaning": "zero emission"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-10-22T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l09.l001",
+    "lessonId": "n2.l09",
+    "title": "持続可能な都市開発プロジェクトの推進会議 (ရေရှည်တည်တံ့သော မြို့ပြဖွံ့ဖြိုးရေး အစည်းအဝေး)",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "開発本部長・佐々木",
+      "主任企画員・松田"
+    ],
+    "transcript": "佐々木：松田君、来月着工するスマートシティ開発プロジェクトの進捗はどうかな？\n松田：はい、起工式に際して、住民説明会でいただいたご意見を反映させた最終計画書を取りまとめました。\n佐々木：素晴らしい。前回の豪雨災害を契機に、防災インフラの強化を求める声が特に強かったからね。\n松田：おっしゃる通りです。再生可能エネルギーと蓄電池を組み合わせた自立型電源の導入も進みつつあります。\n佐々木：時代の要請に応じた変革を着実に推進していこう。\n松田：承知いたしました。全力を尽くしてまいります。",
+    "translation": "စမတ်စီးတီး စီမံကိန်း အစည်းအဝေးတွင် မြို့ပြဖွံ့ဖြိုးရေး စီမံကိန်းသစ် စတင်ခြင်း အခါသမယတွင် သဘာဝဘေးအန္တရာယ် ကာကွယ်ရေး အခြေခံအဆောက်အအုံများနှင့် စွမ်းအင်ကူးပြောင်းမှုများကို အောင်မြင်စွာ ထည့်သွင်းထားကြောင်း ဆွေးနွေးခြင်း။",
+    "turns": [
+      {
+        "speaker": "開発本部長・佐々木",
+        "ja": "松田君、来月着工するスマートシティ開発プロジェクトの進捗はどうかな？",
+        "kana": "まつだくん、らいげつちゃっこうするすまーとしてぃかいはつぷろじぇくとのしんちょくはどうかな？",
+        "en": "Matsuda-kun, how is the progress on the smart city development project breaking ground next month?",
+        "my": "မတ်ဆုဒါကွန်း၊ လာမယ့်လ စတင်အကောင်အထည်ဖော်မယ့် စမတ်စီးတီး ဖွံ့ဖြိုးရေးစီမံကိန်းရဲ့ တိုးတက်မှု အခြေအနေ ဘယ်လိုရှိသလဲ။",
+        "myanmar": "မတ်ဆုဒါကွန်း၊ လာမယ့်လ စတင်အကောင်အထည်ဖော်မယ့် စမတ်စီးတီး ဖွံ့ဖြိုးရေးစီမံကိန်းရဲ့ တိုးတက်မှု အခြေအနေ ဘယ်လိုရှိသလဲ။"
+      },
+      {
+        "speaker": "主任企画員・松田",
+        "ja": "はい、起工式に際して、住民説明会でいただいたご意見を反映させた最終計画書を取りまとめました。",
+        "kana": "はい、きこうしきにさいして、じゅうみんせつめいかいでいただいたごいけんをはんえいさせたさいしゅうけいかくしょをとりまとめました。",
+        "en": "Yes. In preparation for the ground-breaking ceremony, we finalized the comprehensive master plan reflecting feedback from community forums.",
+        "my": "ဟုတ်ကဲ့ပါ၊ ပန္နက်တင် မင်္ဂလာအခမ်းအနား အခါသမယအတွက် ဒေသခံပြည်သူလူထု ဆွေးနွေးပွဲမှာ ရရှိခဲ့တဲ့ အကြံပြုချက်တွေကို ထည့်သွင်းထားတဲ့ နောက်ဆုံး စီမံချက်အကျဉ်းချုပ်ကို ပြုစုပြီးပါပြီ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ၊ ပန္နက်တင် မင်္ဂလာအခမ်းအနား အခါသမယအတွက် ဒေသခံပြည်သူလူထု ဆွေးနွေးပွဲမှာ ရရှိခဲ့တဲ့ အကြံပြုချက်တွေကို ထည့်သွင်းထားတဲ့ နောက်ဆုံး စီမံချက်အကျဉ်းချုပ်ကို ပြုစုပြီးပါပြီ။"
+      },
+      {
+        "speaker": "開発本部長・佐々木",
+        "ja": "素晴らしい。前回の豪雨災害を契機に、防災インフラの強化を求める声が特に強かったからね。",
+        "kana": "すばらしい。ぜんかいのごううさいがいをけいきに、ぼうさいいんふらのきょうかをともめるこえがとくにつよかったからね。",
+        "en": "Splendid. Especially since the last torrential flood disaster served as a catalyst for intense public demand to fortify disaster prevention infrastructure.",
+        "my": "အလွန်ကောင်းပါတယ်။ ပြီးခဲ့တဲ့ မိုးသည်းထန်စွာ ရွာသွန်းတဲ့ ရေဘေးအန္တရာယ်ကို အချိုးအကွေ့အဖြစ် သတ်မှတ်ပြီး သဘာဝဘေး ကာကွယ်ရေး အခြေခံအဆောက်အအုံတွေ ခိုင်မာစေဖို့ တောင်းဆိုသံတွေ အရမ်းအားကောင်းခဲ့တယ် မဟုတ်လား။",
+        "myanmar": "အလွန်ကောင်းပါတယ်။ ပြီးခဲ့တဲ့ မိုးသည်းထန်စွာ ရွာသွန်းတဲ့ ရေဘေးအန္တရာယ်ကို အချိုးအကွေ့အဖြစ် သတ်မှတ်ပြီး သဘာဝဘေး ကာကွယ်ရေး အခြေခံအဆောက်အအုံတွေ ခိုင်မာစေဖို့ တောင်းဆိုသံတွေ အရမ်းအားကောင်းခဲ့တယ် မဟုတ်လား။"
+      },
+      {
+        "speaker": "主任企画員・松田",
+        "ja": "おっしゃる通りです。再生可能エネルギーと蓄電池を組み合わせた自立型電源の導入も着実に進みつつあります。",
+        "kana": "おっしゃるとおりです。さいせいかのうえねるぎーとちくでんちをくみあわせたじりつがたでんげんのどうにゅうもちゃくじつにすすみつつあります。",
+        "en": "Precisely as you say. The adoption of autonomous microgrid power combining renewable energy and battery storage is also steadily progressing.",
+        "my": "ဆရာ ပြောတာ အမှန်ပါပဲ။ ပြန်လည်ပြည့်ဖြိုးမြဲစွမ်းအင်နဲ့ ဓာတ်ခဲသိုလှောင်စနစ် ပေါင်းစပ်ထားတဲ့ ကိုယ်ပိုင်လျှပ်စစ်စနစ် ထည့်သွင်းတပ်ဆင်ခြင်းဟာလည်း ခိုင်မာစွာ တိုးတက်ဖြစ်ပေါ်လျက်ရှိပါတယ်။",
+        "myanmar": "ဆရာ ပြောတာ အမှန်ပါပဲ။ ပြန်လည်ပြည့်ဖြိုးမြဲစွမ်းအင်နဲ့ ဓာတ်ခဲသိုလှောင်စနစ် ပေါင်းစပ်ထားတဲ့ ကိုယ်ပိုင်လျှပ်စစ်စနစ် ထည့်သွင်းတပ်ဆင်ခြင်းဟာလည်း ခိုင်မာစွာ တိုးတက်ဖြစ်ပေါ်လျက်ရှိပါတယ်။"
+      },
+      {
+        "speaker": "開発本部長・佐々木",
+        "ja": "時代の要請に応じた変革を着実に推進していこう。",
+        "kana": "じだいのようせいに応じたへんかくを着実にすいしんしていこう。",
+        "en": "Let us steadily drive forward transformation answering the demands of our era.",
+        "my": "ခေတ်ကာလ တောင်းဆိုချက်တွေနဲ့ ကိုက်ညီတဲ့ ပြုပြင်ပြောင်းလဲမှုတွေကို အခိုင်အမာ ဆက်လက်တွန်းအားပေး လုပ်ဆောင်သွားကြစို့။",
+        "myanmar": "ခေတ်ကာလ တောင်းဆိုချက်တွေနဲ့ ကိုက်ညီတဲ့ ပြုပြင်ပြောင်းလဲမှုတွေကို အခိုင်အမာ ဆက်လက်တွန်းအားပေး လုပ်ဆောင်သွားကြစို့။"
+      },
+      {
+        "speaker": "主任企画員・松田",
+        "ja": "承知いたしました。全力を尽くしてまいります。",
+        "kana": "しょうちいたしました。ぜんりょくをつくしてまいります。",
+        "en": "Understood. I shall dedicate my utmost efforts.",
+        "my": "သဘောပေါက်ပါပြီခင်ဗျာ။ အစွမ်းကုန် ကြိုးပမ်းသွားပါမယ်။",
+        "myanmar": "သဘောပေါက်ပါပြီခင်ဗျာ။ အစွမ်းကုန် ကြိုးပမ်းသွားပါမယ်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l09.q026",
+      "n2.l09.q027",
+      "n2.l09.q028",
+      "n2.l09.q029",
+      "n2.l09.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-10-22T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l09.q001",
+      "lessonId": "n2.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「今回の失敗を大きな（　）として、自己改革に挑む。」",
+      "choices": [
+        "契機",
+        "衰退",
+        "節目",
+        "開幕"
+      ],
+      "answer": "契機",
+      "explanation": "「契機（けいき）」は変化や発展のきっかけ・転機となる事柄を表します。（အချိုးအကွေ့ / အခွင့်အရေး）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q002",
+      "lessonId": "n2.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「旧システムから新クラウド基盤への（　）が完了した。」",
+      "choices": [
+        "移行",
+        "兆し",
+        "進展",
+        "推進"
+      ],
+      "answer": "移行",
+      "explanation": "「移行（いこう）」はある状態から別の新しい状態へと段階的に移ることを表します。（ကူးပြောင်းခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q003",
+      "lessonId": "n2.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「激動する社会構造の（　）に柔軟に対応しなければならない。」",
+      "choices": [
+        "変革",
+        "復興",
+        "機運",
+        "開幕"
+      ],
+      "answer": "変革",
+      "explanation": "「変革（へんかく）」は制度や社会構造を根本から大きく改めることを意味します。（ပြုပြင်ပြောင်းလဲမှု）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q004",
+      "lessonId": "n2.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「景気回復の（　）が見え始めた。」",
+      "choices": [
+        "兆し",
+        "節目",
+        "顕著",
+        "衰退"
+      ],
+      "answer": "兆し",
+      "explanation": "「兆し（きざし）」は物事が起ころうとする前触れや兆候を表します。（အရိပ်အယောင် / လက္ခဏာ）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q005",
+      "lessonId": "n2.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「国際映画祭が華々しく（　）した。」",
+      "choices": [
+        "開幕",
+        "推進",
+        "進展",
+        "移行"
+      ],
+      "answer": "開幕",
+      "explanation": "「開幕（かいまく）」は大規模な行事や大会が始まることを表します。（စတင်ဖွင့်လှစ်ခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q006",
+      "lessonId": "n2.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「交渉は好意的な雰囲気の中で大きく（　）した。」",
+      "choices": [
+        "進展",
+        "変革",
+        "衰退",
+        "契機"
+      ],
+      "answer": "進展",
+      "explanation": "「進展（しんてん）」は事態や交渉が望ましい方向へ前進することを意味します。（တိုးတက်ပြောင်းလဲမှု）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q007",
+      "lessonId": "n2.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「業務の自動化を強力に（　）する方針だ。」",
+      "choices": [
+        "推進",
+        "復興",
+        "兆し",
+        "節目"
+      ],
+      "answer": "推進",
+      "explanation": "「推進（すいしん）」は事業や計画を前へ力強く推し進めることを表します。（တွန်းအားပေး ဆောင်ရွက်ခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q008",
+      "lessonId": "n2.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「平和条約締結に向けた（　）が国際社会で高まっている。」",
+      "choices": [
+        "機運",
+        "開幕",
+        "移行",
+        "衰退"
+      ],
+      "answer": "機運",
+      "explanation": "「機運（きうん）」は時機が熟して生じる世の中の勢いや空気を表します。（အခွင့်ကောင်း အခြေအနေ）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q009",
+      "lessonId": "n2.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「震災からの（　）に向けて官民一体で取り組んでいる。」",
+      "choices": [
+        "復興",
+        "進展",
+        "変革",
+        "顕著"
+      ],
+      "answer": "復興",
+      "explanation": "「復興（ふっこう）」は一度衰えたものが再び盛んになることや再建を表します。（ပြန်လည်ထူထောင်ခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q010",
+      "lessonId": "n2.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「成人式は人生における大切な（　）である。」",
+      "choices": [
+        "節目",
+        "契機",
+        "兆し",
+        "推進"
+      ],
+      "answer": "節目",
+      "explanation": "「節目（ふしめ）」は物事の区切りや重要な段階を表します。（အရေးကြီးသော မှတ်တိုင်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q011",
+      "lessonId": "n2.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「新規事業の導入後、業績に（　）な改善が見られた。」",
+      "choices": [
+        "顕著",
+        "衰退",
+        "移行",
+        "開幕"
+      ],
+      "answer": "顕著",
+      "explanation": "「顕著（けんちょ）」は際立って目立つさまを表します。（သိသာထင်ရှားသော）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q012",
+      "lessonId": "n2.l09",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「後継者不足により、伝統工芸の（　）が懸念されている。」",
+      "choices": [
+        "衰退",
+        "復興",
+        "進展",
+        "機運"
+      ],
+      "answer": "衰退",
+      "explanation": "「衰退（すいたい）」は勢いが衰えて弱まることを意味します。（ဆုတ်ယုတ်ကျဆင်းခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q013",
+      "lessonId": "n2.l09",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「卒業に【際】して恩師に感謝の意を伝える。」",
+      "choices": [
+        "さい",
+        "ざい",
+        "かい",
+        "きわ"
+      ],
+      "answer": "さい",
+      "explanation": "「際」は音読みで「サイ」と読みます。（အခါသမယ）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q014",
+      "lessonId": "n2.l09",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「契約書に署名し、固い約束を【契】る。」",
+      "choices": [
+        "ちぎ",
+        "つな",
+        "かぎ",
+        "にぎ"
+      ],
+      "answer": "ちぎ",
+      "explanation": "「契る」は訓読みで「ちぎる」と読み、固く約束することを表します。（ကတိပြုသည်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q015",
+      "lessonId": "n2.l09",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「本社オフィスを新都心へ【移】転する。」",
+      "choices": [
+        "い",
+        "うつ",
+        "や",
+        "た"
+      ],
+      "answer": "い",
+      "explanation": "「移転（いてん）」の「移」は音読みで「イ」と読みます。（ပြောင်းရွှေ့ခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q016",
+      "lessonId": "n2.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「新工場の操業開始（　）、近隣住民への安全説明会を開催した。」",
+      "choices": [
+        "に際して",
+        "を契機に",
+        "つつあって",
+        "にしては"
+      ],
+      "answer": "に際して",
+      "explanation": "「〜に際して」は特別な公式の行事や事業を開始するにあたって準備を行う場面で用います。（အခါသမယတွင်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q017",
+      "lessonId": "n2.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「昨年の水害（　）、地域の防災訓練への参加率が大幅に向上した。」",
+      "choices": [
+        "を契機に",
+        "に際して",
+        "つつあり",
+        "はおろか"
+      ],
+      "answer": "を契機に",
+      "explanation": "「〜を契機に」は特定の重大な出来事がきっかけ・転機となって前向きな行動や変化が起こることを表します。（အချိုးအကွေ့အဖြစ်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q018",
+      "lessonId": "n2.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「少子化の影響で、地方の小規模校は統廃合が進み（　）。」",
+      "choices": [
+        "つつある",
+        "に際した",
+        "を契機にした",
+        "にほかならない"
+      ],
+      "answer": "つつある",
+      "explanation": "動詞ます形語幹＋「つつある」で、ある変化が進行中であることを表します。（တဖြည်းဖြည်း ဖြစ်ပေါ်လျက်ရှိသည်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q019",
+      "lessonId": "n2.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「海外留学への出発（　）、両親から温かい励ましの言葉をもらった。」",
+      "choices": [
+        "に際して",
+        "つつあり",
+        "を契機として",
+        "どころか"
+      ],
+      "answer": "に際して",
+      "explanation": "人生の重大な節目である「出発」という公式な場面には「〜に際して」が最も適しています。（ထွက်ခွာခါနီး အခါသမယတွင်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q020",
+      "lessonId": "n2.l09",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「環境意識の高まり（　）、エコカーへの買い替え需要が加速している。」",
+      "choices": [
+        "を契機に",
+        "に際しては",
+        "つつある",
+        "にすぎず"
+      ],
+      "answer": "を契機に",
+      "explanation": "環境意識の高まりを契機（きっかけ）として行動変化が生じる因果関係を表します。（အကြောင်းပြု၍）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q021",
+      "lessonId": "n2.l09",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文の内容によると、ある大手製造業がゼロエミッション体制を整えた直接のきっかけは何だったか。",
+      "choices": [
+        "過去の公害訴訟という苦難の歴史を契機とした反省と環境重視の方針",
+        "デジタル技術の急速な進歩による工場の自動化要求",
+        "国際情勢の悪化による化石燃料の価格高騰",
+        "近隣住民からの新工場建設反対運動の激化"
+      ],
+      "answer": "過去の公害訴訟という苦難の歴史を契機とした反省と環境重視の方針",
+      "explanation": "本文中に「過去の公害訴訟という苦難の歴史を契機に、環境保全を経営の最優先課題へと位置づけた結果である」と明記されています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v001",
+        "n2.l09.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q022",
+      "lessonId": "n2.l09",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において筆者が主張している「企業の衰退を早める原因」とは何か。",
+      "choices": [
+        "従来の成功体験に固執して変化を拒む姿勢",
+        "再生可能エネルギーへの過剰な投資",
+        "新工場の設立に際して住民説明会を開かないこと",
+        "重厚長大産業からデジタル産業への急速な移行"
+      ],
+      "answer": "従来の成功体験に固執して変化を拒む姿勢",
+      "explanation": "本文で「従来の成功体験に固執することは企業の衰退を早める結果にしかならない」と述べています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q023",
+      "lessonId": "n2.l09",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文の結びで「着実に広がりつつある」と表現されているものは何か。",
+      "choices": [
+        "持続可能な社会に向けて変革を進める機運",
+        "化石燃料への依存度を高める傾向",
+        "企業の利益のみを最優先する経営姿勢",
+        "国際映画祭やスポーツ大会の開催数"
+      ],
+      "answer": "持続可能な社会に向けて変革を進める機運",
+      "explanation": "本文の最後に「持続可能な社会の実現に向けて変革を進める機運は、企業のみならず市民社会全体へと着実に広がりつつある」とあります。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v008",
+        "n2.l09.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q024",
+      "lessonId": "n2.l09",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文中の「両輪とする」の意味として最も適切なものはどれか。",
+      "choices": [
+        "二つの重要な要素を同時に並行して進めること",
+        "二台の自動車を同時に運転すること",
+        "新旧の工場を交代で稼働させること",
+        "過去の過ちを二度繰り返すこと"
+      ],
+      "answer": "二つの重要な要素を同時に並行して進めること",
+      "explanation": "「両輪とする」はデジタル技術と環境配慮の二つの要素が車輪のように一体となって前進することを意味する比喩表現です。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q025",
+      "lessonId": "n2.l09",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文の全体的な要旨として最もふさわしいものはどれか。",
+      "choices": [
+        "過去の苦難を契機として変革を受け入れ、持続可能な未来へと移行することが不可欠である。",
+        "重厚長大産業の伝統を守り続けることこそが経済の発展を保証する。",
+        "新工場の建設には莫大なコストがかかるため、化石燃料の継続使用が合理的である。",
+        "環境配慮は企業の利益と相反するため、法規制の導入を待つべきである。"
+      ],
+      "answer": "過去の苦難を契機として変革を受け入れ、持続可能な未来へと移行することが不可欠である。",
+      "explanation": "本文全体が、過去の経験を契機に変革と持続可能性への移行を進める重要性を論じています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v003",
+        "n2.l09.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q026",
+      "lessonId": "n2.l09",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "会話において、松田企画員は起工式に際して何を取りまとめたと言っているか。",
+      "choices": [
+        "住民説明会の意見を反映させた最終計画書",
+        "豪雨災害の被害状況調査報告書",
+        "スマートシティのテレビCM企画案",
+        "蓄電池メーカーとの契約締結書"
+      ],
+      "answer": "住民説明会の意見を反映させた最終計画書",
+      "explanation": "松田は「起工式に際して、住民説明会でいただいたご意見を反映させた最終計画書を取りまとめました」と答えています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q027",
+      "lessonId": "n2.l09",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "佐々木本部長によると、防災インフラ強化の要望が高まったきっかけは何だったか。",
+      "choices": [
+        "前回の豪雨災害を契機とした住民の危機意識の高まり",
+        "海外スマートシティ視察での成功事例の発表",
+        "新市長の就任による政策方針の転換",
+        "建設予定地での予期せぬ地震の発生"
+      ],
+      "answer": "前回の豪雨災害を契機とした住民の危機意識の高まり",
+      "explanation": "佐々木は「前回の豪雨災害を契機に、防災インフラの強化を求める声が特に強かったからね」と発言しています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q028",
+      "lessonId": "n2.l09",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "会話において、自立型電源に関して「進みつつある」と報告された内容は何か。",
+      "choices": [
+        "再生可能エネルギーと蓄電池を組み合わせた電源の導入",
+        "原子力発電所からの直接送電線の敷設",
+        "全世帯へのガソリン発電機の無償配布",
+        "近隣都市からの電力購入契約の解約"
+      ],
+      "answer": "再生可能エネルギーと蓄電池を組み合わせた電源の導入",
+      "explanation": "松田が「再生可能エネルギーと蓄電池を組み合わせた自立型電源の導入も着実に進みつつあります」と報告しています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q029",
+      "lessonId": "n2.l09",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "佐々木本部長が最後に松田に伝えた方針はどのようなものか。",
+      "choices": [
+        "時代の要請に応じた変革を着実に推進していくこと",
+        "工期を急がずに計画を白紙撤回すること",
+        "予算削減のため防災機能の導入を見送ること",
+        "すべての判断を住民投票に委ねること"
+      ],
+      "answer": "時代の要請に応じた変革を着実に推進していくこと",
+      "explanation": "佐々木は「時代の要請に応じた変革を着実に推進していこう」と締めくくっています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l09.q030",
+      "lessonId": "n2.l09",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "この会話の舞台として最も適切な状況はどれか。",
+      "choices": [
+        "都市開発プロジェクトの着工を控えた社内の進捗確認会議",
+        "豪雨災害直後の緊急避難所での住民対応会議",
+        "新入社員に対するマナー研修のガイダンス",
+        "スマートフォンの新機種発表イベントの打ち合わせ"
+      ],
+      "answer": "都市開発プロジェクトの着工を控えた社内の進捗確認会議",
+      "explanation": "開発本部長と主任企画員がスマートシティ開発プロジェクトの進捗を確認している場面です。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l09.v005"
+      ],
+      "generated": false
+    }
+  ]
+}

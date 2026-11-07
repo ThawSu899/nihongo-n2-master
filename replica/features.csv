@@ -1,0 +1,17 @@
+feature,area,priority,original,clone,notes
+Cloze Sentence Active Production,SRS Engine,must,yes,partial,Bunpro uses typed fill-in-the-blank; Nihongo N2 Master currently uses flashcard flip. Adding cloze input mode elevates active recall.
+Nuance Interceptor Warnings,SRS Engine,must,yes,no,Displays inline amber warnings when user enters a valid synonym instead of docking SRS intervals.
+Ghost Review Quarantine (Micro-SRS),SRS Engine,must,yes,partial,Bunpro spawns separate 4h/8h/24h/48h micro-intervals with alternate sentences for items with >= 3 lapses.
+Typo Override ("Oops" Button),SRS Engine,should,yes,no,Allows 1-click undo or keyboard shortcut ('Z') to reverse accidental typos or mis-ratings.
+Hourly Review Forecast Bar,Dashboard,should,yes,no,Visual 24-hour histogram showing upcoming review volume to help learners pace daily study.
+Formation Formula Badges (接続),Grammar Detail,must,yes,yes,Clean visual equation (e.g. V-plain + ものなら) with conjugation rules.
+Contrastive Pitfall Comparisons,Grammar Detail,must,yes,partial,Side-by-side comparison tables explaining differences between easily confused grammar patterns.
+Textbook & Exam Index Mapping,Curriculum,could,yes,no,Cross-references page numbers in Shin Kanzen Master and Tobira for each grammar pattern.
+Dual Native Audio Tracks,Audio & Media,could,yes,no,Male and female studio voice recordings for every sentence. Nihongo N2 Master uses local TTS.
+Split-Pane Editorial Reading (Dokkai),Reading,must,no,yes,Nihongo N2 Master advantage: Full DokkaiReaderWorkbench with furigana toggle and glossary drawer (absent in Bunpro).
+Multi-Speaker Listening Lab (Choukai),Listening,must,no,yes,Nihongo N2 Master advantage: ChoukaiWorkbench with dialogue scripts and clue breakdown modes.
+JLPT Star Question Sentence Scramble,Assessment,must,no,yes,Nihongo N2 Master advantage: Authentic StarScrambleTrainer (★ 並べ替え) with connection reasoning.
+100% Offline-First Architecture,Architecture,must,no,yes,Nihongo N2 Master advantage: Zero-latency IndexedDB persistence and full PWA offline operation.
+Bilingual English + Burmese Localization,Localization,must,no,yes,Nihongo N2 Master advantage: Complete English and Myanmar (မြန်မာ) definitions for Southeast Asian learners.
+Cram Mode (Unranked Drills),Study Modes,should,yes,partial,Custom practice sessions by grammar category without affecting main SRS review intervals.
+Anki Deck Export Pipeline,Data Portability,should,no,yes,Nihongo N2 Master advantage: 1-click UTF-8 TSV export with Anki headers and scope filtering.

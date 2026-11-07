@@ -1,0 +1,1690 @@
+{
+  "id": "n2.l07",
+  "level": "N2",
+  "module": "N2 Advanced Grammar & Argumentation",
+  "number": 7,
+  "title": "N2 Lesson 7: Emotions & Empathy (～てたまらない・～てならない・～ないではいられない)",
+  "description": "Mastery module focusing on intense spontaneous emotions: overwhelming physical/emotional urges (てたまらない), uncontrollable psychological sentiment (てならない), and irresistible compulsion (ないではいられない).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l07.v001",
+      "lessonId": "n2.l07",
+      "ja": "感情",
+      "kana": "かんじょう",
+      "en": "Emotion / Feelings / Sentiment",
+      "my": "စိတ်ခံစားမှု / ခံစားချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l07.s001",
+      "kanjiIds": [
+        "n2.l07.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.v002",
+      "lessonId": "n2.l07",
+      "ja": "同情",
+      "kana": "どうじょう",
+      "en": "Sympathy / Compassion / Pity",
+      "my": "စာနာထောက်ထားမှု / ကြင်နာမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l07.s002",
+      "kanjiIds": [
+        "n2.l07.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.v003",
+      "lessonId": "n2.l07",
+      "ja": "共感",
+      "kana": "きょうかん",
+      "en": "Empathy / Resonance / Mutual feeling",
+      "my": "စာနာနားလည်မှု / ခံစားချက်တူညီမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l07.s003",
+      "kanjiIds": [
+        "n2.l07.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.v004",
+      "lessonId": "n2.l07",
+      "ja": "悲哀",
+      "kana": "ひあい",
+      "en": "Sorrow / Grief / Sadness",
+      "my": "ဝမ်းနည်းကြေကွဲမှု / ပူဆွေးမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l07.s004",
+      "kanjiIds": [
+        "n2.l07.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.v005",
+      "lessonId": "n2.l07",
+      "ja": "悲観",
+      "kana": "ひかん",
+      "en": "Pessimism / Gloomy outlook",
+      "my": "စိတ်ပျက်အားငယ်မှု / အဆိုးမြင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l07.s005",
+      "kanjiIds": [
+        "n2.l07.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.v006",
+      "lessonId": "n2.l07",
+      "ja": "情熱",
+      "kana": "じょうねつ",
+      "en": "Passion / Enthusiasm / Zeal",
+      "my": "စိတ်အားထက်သန်မှု / ဇွဲလုံ့လ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l07.s006",
+      "kanjiIds": [
+        "n2.l07.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.v007",
+      "lessonId": "n2.l07",
+      "ja": "衝動",
+      "kana": "しょうどう",
+      "en": "Impulse / Urge / Compulsion",
+      "my": "ရုတ်တရက်စိတ်ဆန္ဒ / တဒင်္ဂတွန်းအား",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l07.s007",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.v008",
+      "lessonId": "n2.l07",
+      "ja": "感激",
+      "kana": "かんげき",
+      "en": "Deep emotion / Inspiration / Being deeply moved",
+      "my": "အလွန်စိတ်လှုပ်ရှားကျေးဇူးတင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l07.s008",
+      "kanjiIds": [
+        "n2.l07.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.v009",
+      "lessonId": "n2.l07",
+      "ja": "切実",
+      "kana": "せつじつ",
+      "en": "Urgent / Acute / Earnest / Keen",
+      "my": "ပြင်းပြသော / အရေးတကြီးလိုအပ်သော",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l07.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.v010",
+      "lessonId": "n2.l07",
+      "ja": "痛感",
+      "kana": "つうかん",
+      "en": "Feeling keenly / Fully realizing / Deep conviction",
+      "my": "အပြည့်အဝသဘောပေါက်ခံစားရခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l07.s010",
+      "kanjiIds": [
+        "n2.l07.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.v011",
+      "lessonId": "n2.l07",
+      "ja": "理不尽",
+      "kana": "りふじん",
+      "en": "Unreasonable / Outrageous / Unjust",
+      "my": "ကျိုးကြောင်းမဆီလျော်သော / မတရားသော",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l07.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.v012",
+      "lessonId": "n2.l07",
+      "ja": "渇望",
+      "kana": "かつぼう",
+      "en": "Craving / Longing / Yearning",
+      "my": "အလွန်ဆာလောင်တောင့်တခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l07.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l07.k001",
+      "lessonId": "n2.l07",
+      "char": "情",
+      "meaning": "Emotion / Sympathy / Circumstances",
+      "onyomi": [
+        "ジョウ",
+        "セイ"
+      ],
+      "kunyomi": [
+        "なさ.け"
+      ],
+      "exampleVocab": [
+        {
+          "word": "感情",
+          "reading": "かんじょう",
+          "meaning": "emotion / feelings",
+          "preview": false
+        },
+        {
+          "word": "同情",
+          "reading": "どうじょう",
+          "meaning": "sympathy / compassion",
+          "preview": false
+        },
+        {
+          "word": "情熱",
+          "reading": "じょうねつ",
+          "meaning": "passion / enthusiasm",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l07.s001"
+      ],
+      "components": [
+        "忄",
+        "青"
+      ],
+      "strokes": 11,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      },
+      "meaningMy": "ခံစားချက် / အခြေအနေ / သတင်းအချက်အလက်",
+      "meaningMyanmar": "ခံစားချက် / အခြေအနေ / သတင်းအချက်အလက်"
+    },
+    {
+      "id": "n2.l07.k002",
+      "lessonId": "n2.l07",
+      "char": "悲",
+      "meaning": "Sad / Grief / Sorrow",
+      "onyomi": [
+        "ヒ"
+      ],
+      "kunyomi": [
+        "かな.しい",
+        "かな.しむ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "悲哀",
+          "reading": "ひあい",
+          "meaning": "sorrow / grief",
+          "preview": false
+        },
+        {
+          "word": "悲観",
+          "reading": "ひかん",
+          "meaning": "pessimism / bleak outlook",
+          "preview": false
+        },
+        {
+          "word": "悲劇",
+          "reading": "ひげき",
+          "meaning": "tragedy",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l07.s004"
+      ],
+      "components": [
+        "非",
+        "心"
+      ],
+      "strokes": 12,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      },
+      "meaningMy": "ဝမ်းနည်းကြေကွဲခြင်း / ပူဆွေးခြင်း",
+      "meaningMyanmar": "ဝမ်းနည်းကြေကွဲခြင်း / ပူဆွေးခြင်း"
+    },
+    {
+      "id": "n2.l07.k003",
+      "lessonId": "n2.l07",
+      "char": "感",
+      "meaning": "Feel / Sensation / Impression",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "共感",
+          "reading": "きょうかん",
+          "meaning": "empathy / resonance",
+          "preview": false
+        },
+        {
+          "word": "感謝",
+          "reading": "かんしゃ",
+          "meaning": "gratitude / thanks",
+          "preview": false
+        },
+        {
+          "word": "感激",
+          "reading": "かんげき",
+          "meaning": "deep emotion / inspired",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l07.s003"
+      ],
+      "components": [
+        "咸",
+        "心"
+      ],
+      "strokes": 13,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      },
+      "meaningMy": "ခံစားချက် / အာရုံခံစားမှု / ကျေးဇူးတင်ခြင်း",
+      "meaningMyanmar": "ခံစားချက် / အာရုံခံစားမှု / ကျေးဇူးတင်ခြင်း"
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l07.g001",
+      "lessonId": "n2.l07",
+      "pattern": "〜てたまらない",
+      "meaning": "Extremely / Dying to / Can't bear it (overwhelming sensation or emotion)",
+      "formation": "動詞（て形） / い形容詞（〜くて） / な形容詞（〜で） ＋ たまらない",
+      "explanation": {
+        "en": "Expresses an uncontrollable physical sensation, personal desire, or emotion that is nearly unbearable ('extremely', 'dying to'). Used for primal bodily states or intense personal wishes.",
+        "my": "ရုပ်ပိုင်းဆိုင်ရာ ခံစားချက် သို့မဟုတ် စိတ်ခံစားမှု ပြင်းထန်လွန်း၍ မခံမရပ်နိုင်အောင် ဖြစ်ရခြင်းကို ဖော်ပြသည်။ (ဥပမာ - ရေဆာလွန်း၍ မခံနိုင်၊ နာလွန်း၍ မခံနိုင်၊ တွေ့ချင်လွန်း၍ မနေနိုင်)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l07.s007",
+          "note": "Overwhelming physical impulse or acute sensation"
+        },
+        {
+          "sentenceId": "n2.l07.s012",
+          "note": "Irresistible intense personal craving or thirst"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l07.g002",
+        "n2.l07.g003"
+      ],
+      "commonMistakes": [
+        "Do not use with abstract intellectual judgments; 〜てたまらない is strongly linked to bodily sensations or visceral emotions."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      },
+      "clozeSentence": "長時間の立ち仕事のせいで、足が痛く[ _____ ]。",
+      "clozeTarget": "てたまらない",
+      "clozeHint": "い-adj [〜くて] + たまらない (unbearable physical sensation: 'extremely / cannot bear')",
+      "acceptableSynonyms": [
+        "てならない",
+        "てしょうがない",
+        "てやりきれない",
+        "てたまらん"
+      ],
+      "nuanceExplanationMy": "「〜てたまらない」သည် ရုပ်ပိုင်းဆိုင်ရာ ခံစားမှု (နာကျင်ခြင်း၊ ဆာလောင်ခြင်း) သို့မဟုတ် ပြင်းပြသော လိုအင်ဆန္ဒများတွင် သုံးသည်။ အတွေးစိတ်လှုပ်ရှားမှု သဘာဝခံစားချက်တွင်မူ「〜てならない」ကို သုံးသည်။"
+    },
+    {
+      "id": "n2.l07.g002",
+      "lessonId": "n2.l07",
+      "pattern": "〜てならない",
+      "meaning": "Extremely / Cannot help feeling (spontaneous, deep psychological sentiment)",
+      "formation": "動詞（て形） / い形容詞（〜くて） / な形容詞（〜で） ＋ ならない",
+      "explanation": {
+        "en": "Expresses a deep, spontaneous emotional or mental sentiment that naturally wells up and cannot be suppressed ('cannot help feeling...'). Used often with perception or feeling words (思われる, 気になる, 心配で, 悔やまれて).",
+        "my": "စိတ်ထဲတွင် အလိုလို သဘာဝအလျောက် ပြင်းပြစွာ ပေါ်ပေါက်လာသော စိတ်ခံစားမှု သို့မဟုတ် အတွေးကို ထိန်းချုပ်မရနိုင်ဘဲ ဖြစ်ရခြင်းကို ပြသည်။ (ဥပမာ - စိတ်ပူမိ၍ မနေနိုင်၊ နောင်တရမိ၍ မနေနိုင်)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l07.s004",
+          "note": "Uncontrollable deep sorrow and grief welling up"
+        },
+        {
+          "sentenceId": "n2.l07.s005",
+          "note": "Deep psychological anxiety that naturally persists"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l07.g001"
+      ],
+      "commonMistakes": [
+        "Do not use for physical desires like 'I want to drink water'; 〜てならない is reserved for mental and emotional states."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      },
+      "clozeSentence": "故郷に残してきた高齢の両親の健康が、心配[ _____ ]。",
+      "clozeTarget": "でならない",
+      "clozeHint": "な-adj [〜で] + ならない (uncontrollable deep psychological sentiment: 'cannot help feeling')",
+      "acceptableSynonyms": [
+        "てたまらない",
+        "てしょうがない",
+        "と思えて仕方がない",
+        "て仕方がありません"
+      ],
+      "nuanceExplanationMy": "「〜てならない」သည် အတွင်းစိတ်၌ အလိုအလျောက် ပေါ်ပေါက်လာသည့် ခံစားချက် သို့မဟုတ် အတွေးများ (စိတ်ပူခြင်း၊ သံသယဖြစ်ခြင်း၊ နောင်တရခြင်း) တွင် အဓိက သုံးသည်။"
+    },
+    {
+      "id": "n2.l07.g003",
+      "lessonId": "n2.l07",
+      "pattern": "〜ないではいられない",
+      "meaning": "Cannot help doing / Cannot refrain from doing",
+      "formation": "動詞（ない形） ＋ ではいられない (※ する → せずにはいられない / しないではいられない)",
+      "explanation": {
+        "en": "Indicates that an emotion or impulse is so irresistible that one cannot suppress oneself from taking action ('cannot help doing...'). Expresses uncontrollable behavioral response driven by empathy, indignity, or laughter.",
+        "my": "စိတ်ခံစားမှု ပြင်းထန်လွန်း၍ သက်ဆိုင်ရာ လုပ်ဆောင်ချက်ကို မလုပ်ဘဲ မနေနိုင်အောင် ဖြစ်ရခြင်းကို ဖော်ပြသည်။ (မရယ်ဘဲ မနေနိုင်၊ စာနာစိတ်ကြောင့် မကူညီဘဲ မနေနိုင်)။"
+      },
+      "examples": [
+        {
+          "sentenceId": "n2.l07.s002",
+          "note": "Irresistible urge to offer assistance out of deep sympathy"
+        },
+        {
+          "sentenceId": "n2.l07.s011",
+          "note": "Cannot refrain from vocal protest against injustice"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l07.g001"
+      ],
+      "commonMistakes": [
+        "Do not confuse with 〜ざるを得ない (forced by external obligation); 〜ないではいられない is driven by internal spontaneous emotion."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      },
+      "clozeSentence": "あまりの理不尽な扱いに、一言抗議[ _____ ]。",
+      "clozeTarget": "しないではいられない",
+      "clozeHint": "Verb [ない形] + ではいられない (irresistible impulse: 'cannot help doing')",
+      "acceptableSynonyms": [
+        "ずにはいられない",
+        "ざるを得ない",
+        "ずにおれない",
+        "ないわけにはいかない"
+      ],
+      "nuanceExplanationMy": "「〜ないではいられない」သည် စိတ်ခံစားချက်ကြောင့် လုပ်ရပ်တစ်ခုခုကို မလုပ်ဘဲ မနေနိုင်ခြင်းကို ပြသည်။ အခြေအနေအရ မလွှဲမရှောင်သာတာဝန် (ざるを得ない) နှင့် ကွဲပြားသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l07.s001",
+      "lessonId": "n2.l07",
+      "ja": "公の場では個人的な感情を抑え、冷静に議論を進めることが求められる。",
+      "kana": "おおやけのばではこじんてきなかんじょうをおさえ、れいせいにぎろんをすすめることがもとめられる。",
+      "translation": {
+        "en": "In public forums, one is expected to restrain personal emotions and conduct discussions calmly.",
+        "my": "လူအများရှေ့တွင် ပုဂ္ဂိုလ်ရေး စိတ်ခံစားမှုများကို ထိန်းချုပ်ပြီး အေးဆေးတည်ငြိမ်စွာ ဆွေးနွေးရှေ့ဆက်ရန် လိုအပ်သည်။"
+      },
+      "vocabIds": [
+        "n2.l07.v001"
+      ],
+      "grammarIds": [
+        "n2.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.s002",
+      "lessonId": "n2.l07",
+      "ja": "被災地で懸命に生きる子供たちの姿を見て、誰もが同情しないではいられない。",
+      "kana": "ひさいちでけんめいにいきるこどもたちのすがたをみて、だれもがどうじょうしないではいられない。",
+      "translation": {
+        "en": "Seeing children striving to survive in disaster-stricken areas, no one can help feeling deep sympathy.",
+        "my": "ဘေးဒဏ်သင့်ဒေသတွင် အားသွန်ခွန်စိုက် ရှင်သန်နေကြသော ကလေးငယ်များကို ကြည့်ပြီး မည်သူမဆို စာနာမနေနိုင်အောင် ဖြစ်ရသည်။"
+      },
+      "vocabIds": [
+        "n2.l07.v002"
+      ],
+      "grammarIds": [
+        "n2.l07.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.s003",
+      "lessonId": "n2.l07",
+      "ja": "彼の誠実な訴えは、会場にいた聴衆全員の深い共感を呼んでやまなかった。",
+      "kana": "かれのせいじつなうったえは、かいじょうにいたちょうしゅうぜんいんのふかいきょうかんをよんでやまなかった。",
+      "translation": {
+        "en": "His sincere appeal called forth profound empathy from everyone present in the auditorium.",
+        "my": "သူ၏ ရိုးသားလှသော တင်ပြချက်သည် ခန်းမထဲရှိ ပရိသတ်အားလုံး၏ နက်ရှိုင်းသော စာနာနားလည်မှုကို ဆွတ်ခူးနိုင်ခဲ့သည်။"
+      },
+      "vocabIds": [
+        "n2.l07.v003"
+      ],
+      "grammarIds": [
+        "n2.l07.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.s004",
+      "lessonId": "n2.l07",
+      "ja": "長年連れ添った親友との突然の別れに、深い悲哀を感じてならない。",
+      "kana": "ながねんつれそったしんゆうとのとつぜんのわかれに、ふかいひあいをかんじてならない。",
+      "translation": {
+        "en": "At the sudden parting from a lifelong close friend, I cannot help feeling profound grief.",
+        "my": "နှစ်ပေါင်းများစွာ လက်တွဲခဲ့သော မိတ်ဆွေရင်းနှင့် ရုတ်တရက် ခွဲခွာရခြင်းအတွက် နက်ရှိုင်းသော ပူဆွေးမှုကို မခံစားဘဲ မနေနိုင်ပါ။"
+      },
+      "vocabIds": [
+        "n2.l07.v004"
+      ],
+      "grammarIds": [
+        "n2.l07.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.s005",
+      "lessonId": "n2.l07",
+      "ja": "経済指標の悪化が続き、今後の事業展開を悲観してやまない経営者が増えている。",
+      "kana": "けいざいしひょうのあっかがつづき、こんごのじぎょうてんかいをひかんしてやまないけいえいしゃがふえている。",
+      "translation": {
+        "en": "As economic indicators continue to worsen, business executives deeply pessimistic about future expansion are increasing.",
+        "my": "စီးပွားရေးညွှန်းကိန်းများ ဆက်လက်ဆုတ်ယုတ်နေသဖြင့် အနာဂတ်စီးပွားရေး တိုးချဲ့မှုကို အလွန်အဆိုးမြင်နေကြသော စီးပွားရေးလုပ်ငန်းရှင်များ တိုးပွားလာနေသည်။"
+      },
+      "vocabIds": [
+        "n2.l07.v005"
+      ],
+      "grammarIds": [
+        "n2.l07.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.s006",
+      "lessonId": "n2.l07",
+      "ja": "困難な研究テーマであっても、飽くなき情熱を注ぎ続ければ道は必ず拓ける。",
+      "kana": "こんなんなけんきゅうテーマであっても、あくなきじょうねつをそそぎつづければみちはかならずひらける。",
+      "translation": {
+        "en": "Even for difficult research themes, if one pours ceaseless passion into them, a path will surely open.",
+        "my": "ခက်ခဲသော သုတေသနခေါင်းစဉ်ဖြစ်စေ မဆုတ်မနစ်သော စိတ်အားထက်သန်မှုကို စိုက်ထုတ်နေမည်ဆိုပါက လမ်းစပေါ်လာမည်မှာ သေချာသည်။"
+      },
+      "vocabIds": [
+        "n2.l07.v006"
+      ],
+      "grammarIds": [
+        "n2.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.s007",
+      "lessonId": "n2.l07",
+      "ja": "あまりにも魅力的な最新ガジェットを目にして、購入したい衝動に駆られてたまらない。",
+      "kana": "あまりにもみりょくてきなさいしんガジェットをめにして、こうにゅうしたいしょうどうにかられてたまらない。",
+      "translation": {
+        "en": "Seeing such an attractive latest gadget, I am dying from an irresistible impulse to purchase it.",
+        "my": "ဆွဲဆောင်မှု အလွန်ရှိသော နောက်ဆုံးပေါ်ပစ္စည်းကို မြင်တွေ့ရပြီး ဝယ်ယူလိုသည့် စိတ်ဆန္ဒ အလွန်ပြင်းပြနေပါသည်။"
+      },
+      "vocabIds": [
+        "n2.l07.v007"
+      ],
+      "grammarIds": [
+        "n2.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.s008",
+      "lessonId": "n2.l07",
+      "ja": "恩師からの温かい励ましの手紙を受け取り、胸が熱くなって感激してならない。",
+      "kana": "おんしからのあたたかいはげましのてがみをうけとり、むねがあつくなってかんげきしてならない。",
+      "translation": {
+        "en": "Receiving a warm encouraging letter from my respected teacher, my heart swelled and I cannot help feeling deeply moved.",
+        "my": "ကျေးဇူးရှင် ဆရာကြီးထံမှ နွေးထွေးသော အားပေးစာကို ရရှိပြီး ရင်ထဲလှိုက်မောကာ အလွန်စိတ်လှုပ်ရှားကျေးဇူးတင်မိပါသည်။"
+      },
+      "vocabIds": [
+        "n2.l07.v008"
+      ],
+      "grammarIds": [
+        "n2.l07.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.s009",
+      "lessonId": "n2.l07",
+      "ja": "少子高齢化が進む地域において、医療体制の維持は切実な課題となっている。",
+      "kana": "しょうしこうれいかがすすむちいきにおいて、いりょうたいせいのいじはせつじつなかだいとなっている。",
+      "translation": {
+        "en": "In regions facing a falling birthrate and aging population, maintaining the medical system is an urgent challenge.",
+        "my": "ကလေးမွေးဖွားနှုန်းကျပြီး သက်ကြီးရွယ်အိုများပြားလာသော ဒေသတွင် ကျန်းမာရေးစောင့်ရှောက်မှုစနစ် ထိန်းသိမ်းရေးသည် အရေးတကြီး လိုအပ်ချက် ဖြစ်လာနေသည်။"
+      },
+      "vocabIds": [
+        "n2.l07.v009"
+      ],
+      "grammarIds": [
+        "n2.l07.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.s010",
+      "lessonId": "n2.l07",
+      "ja": "異文化圏での滞在を通じて、自国の言語と習慣を深く知ることの重要性を痛感した。",
+      "kana": "いぶんかけんでのたいざいをつうじて、じこくのげんごとしゅうかんをふかくしることのじゅうようせいをつうかんした。",
+      "translation": {
+        "en": "Through staying in a different cultural sphere, I keenly realized the importance of deeply understanding my own language and customs.",
+        "my": "ကွဲပြားခြားနားသော ယဉ်ကျေးမှုနယ်ပယ်တွင် နေထိုင်ခြင်းမှတစ်ဆင့် မိမိနိုင်ငံ၏ ဘာသာစကားနှင့် ဓလေ့ထုံးတမ်းများကို နက်ရှိုင်းစွာ သိရှိရန် အရေးကြီးပုံကို အပြည့်အဝ သဘောပေါက်နားလည်ခဲ့ရသည်။"
+      },
+      "vocabIds": [
+        "n2.l07.v010"
+      ],
+      "grammarIds": [
+        "n2.l07.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.s011",
+      "lessonId": "n2.l07",
+      "ja": "社会的弱者に一方的な不利益を押し付ける理不尽な決定には、抗議しないではいられない。",
+      "kana": "しゃかいてきじゃくしゃにいっぽうてきなふりえきをおしつけるりふじんなけっていには、こうぎしないではいられない。",
+      "translation": {
+        "en": "Against unreasonable decisions imposing unilateral disadvantages on socially vulnerable people, one cannot refrain from protesting.",
+        "my": "လူမှုရေးအရ အားနည်းသူများအပေါ် တစ်ဖက်သတ် နစ်နာမှုများ ပုံချသည့် မတရားသော ဆုံးဖြတ်ချက်ကို ကန့်ကွက်ဆန္ဒမပြဘဲ မနေနိုင်ပါ။"
+      },
+      "vocabIds": [
+        "n2.l07.v011"
+      ],
+      "grammarIds": [
+        "n2.l07.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    },
+    {
+      "id": "n2.l07.s012",
+      "lessonId": "n2.l07",
+      "ja": "砂漠で猛烈な暑さに晒され、冷たい水が飲みたくてたまらなかった。",
+      "kana": "さばくでもうれつなあつさにさらされ、つめたいみずがのみたくてたまらなかった。",
+      "translation": {
+        "en": "Exposed to the fierce heat of the desert, I was dying to drink cold water.",
+        "my": "သဲကန္တာရထဲတွင် ပြင်းထန်သော အပူဒဏ်ခံရပြီး ရေအေးအေးလေးကို သောက်ချင်လွန်း၍ မခံနိုင်အောင် ဖြစ်ခဲ့ရသည်။"
+      },
+      "vocabIds": [
+        "n2.l07.v012"
+      ],
+      "grammarIds": [
+        "n2.l07.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-10-19T18:00:00Z",
+        "rev": 1
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l07.r001",
+    "lessonId": "n2.l07",
+    "title": "共感の力と感情の理性的調和",
+    "level": "N2",
+    "text": "情報技術が高度に発達した現代社会では、日々のニュースを通じて世界中の出来事がリアルタイムで伝わってくる。災害や戦争の惨状を目にするとき、私たちは被害を受けた人々に同情せずにはいられないし、その悲哀を思って胸が締め付けられる思いがしてならない。人間にとって、他者の苦境に共感する感情は社会を支える根源的な倫理観である。\n\n一方で、過剰な情報に晒され続けることで、感情の昂ぶりを抑えられなくなる危険性も指摘されている。SNS上での過熱した議論や理不尽な誹謗中傷を目にすると、強い怒りが込み上げて抗議の声を上げずにはいられない衝動に駆られることもあるだろう。しかし、激しい感情に任せて行動することは、さらなる対立を招きかねない。\n\n真の共感とは、ただ相手の痛みを自分事として悲しくてたまらないと感じるだけでなく、客観的な冷静さを保ちながら具体的な支援や対話へと繋げる知性である。情熱と理性の調和こそが現代の私たちに求められている。",
+    "kanaText": "じょうほうぎじゅつがこうどにはったつしたげんだいしゃかいでは、ひびのニュースをつうじてせかいじゅうのできごとがリアルタイムでつたわってくる。さいがいわせんそうのさんじょうをめにするとき、わたしたちはひがいをうけたひとびとにどうじょうせずにはいられないし、そのひあいをおもってむねがしめつけられるおもいがしてならない。にんげんにとって、たしゃのくきょうにきょうかんするかんじょうはしゃかいをささえるこんげんてきなりんりかんである。\n\nいっぽうで、かじょうなじょうほうにさらされつづけることで、かんじょうのたかぶりをおさえられなくなるきけんせいもしせきされている。SNSじょうでのかねつしたぎろんやりふじんなひぼうちゅうしょうをめにすると、つよいいかりがこみあげてこうぎのこえをあげずにはいられないしょうどうにかられることもあるだろう。しかし、はげしいかんじょうにまかせてこうどうすることは、さらなるたいりつをまねきかねない。\n\nしんのきょうかんとは、ただあいてのいたみをじぶんごととしてかなしくてたまらないとかんじるだけでなく、きゃっかんてきなれいせいさをたもちながらぐたいてきなしえんやたいわへとつなげるちせいである。じょうねつとりせいのちょうわこそがげんだいのわたしたちにもとめられている。",
+    "translation": "သတင်းအချက်အလက် နည်းပညာများ အဆင့်မြင့်စွာ တိုးတက်လာသော ယနေ့ခေတ်တွင် ကမ္ဘာတစ်ဝှမ်းရှိ အဖြစ်အပျက်များသည် အချိန်နှင့်တစ်ပြေးညီ ပျံ့နှံ့ရောက်ရှိလာသည်။ သဘာဝဘေးဒဏ် သို့မဟုတ် စစ်ပွဲများ၏ ဆိုးရွားသော အခြေအနေများကို မြင်တွေ့ရသောအခါ ဒုက္ခရောက်နေသူများအပေါ် စာနာထောက်ထားခြင်း မပြုဘဲ မနေနိုင်သလို (同情せずにはいられない)၊ ၎င်းတို့၏ ပူဆွေးဝမ်းနည်းမှုကို စဉ်းစားမိတိုင်း ရင်ထဲနာကျင်ရသည်ဟု မခံစားဘဲ မနေနိုင်ပါ (思わずにはいられない / 思えてならない)။ အခြားသူများ၏ အခက်အခဲကို စာနာနားလည်သည့် စိတ်ခံစားမှုသည် လူ့အဖွဲ့အစည်းကို ထောက်ပံ့ပေးသော အခြေခံကျင့်ဝတ် ဖြစ်သည်။\n\nတစ်ဖက်တွင်လည်း အချက်အလက် လွန်ကဲမှုဒဏ်ကို ဆက်တိုက်ခံရခြင်းကြောင့် စိတ်ခံစားမှု ပြင်းထန်လွန်းခြင်းကို မထိန်းချုပ်နိုင်သည့် အန္တရာယ်လည်း ရှိသည်။ အွန်လိုင်းတွင် အငြင်းပွားမှုများနှင့် ကျိုးကြောင်းမဆီလျော်သော တိုက်ခိုက်မှုများကို တွေ့ရသောအခါ အမျက်ဒေါသထွက်ပြီး ကန့်ကွက်ပြောဆိုလိုသည့် တွန်းအားကို မလွန်ဆန်နိုင်အောင် ဖြစ်တတ်သည်။ သို့ရာတွင် ပြင်းထန်သော စိတ်ခံစားမှုအတိုင်း လုပ်ဆောင်ခြင်းသည် ပိုမိုကြီးမားသော ပဋိပက္ခကို ဖြစ်စေနိုင်သည်။\n\nစစ်မှန်သော စာနာမှုဟူသည် တစ်ဖက်သား၏ နာကျင်မှုကို မိမိကိစ္စကဲ့သို့ ဝမ်းနည်းလွန်း၍ မခံမရပ်နိုင် ဖြစ်ရုံသာမက (悲しくてたまらない)၊ ဓမ္မဓိဋ္ဌာန်ကျသော အေးဆေးတည်ငြိမ်မှုကို ထိန်းသိမ်းရင်း လက်တွေ့ကျသော အကူအညီနှင့် ဆွေးနွေးပွဲများဆီသို့ ချိတ်ဆက်ပေးနိုင်သည့် အသိဉာဏ် ဖြစ်သည်။ စိတ်အားထက်သန်မှုနှင့် အသိတရားတို့၏ ညီညွတ်မျှတမှုသည် ယနေ့ခေတ် ကျွန်ုပ်တို့အတွက် မရှိမဖြစ် လိုအပ်ပေသည်။",
+    "questionIds": [
+      "n2.l07.q021",
+      "n2.l07.q022",
+      "n2.l07.q023",
+      "n2.l07.q024",
+      "n2.l07.q025"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "リアルタイム",
+        "reading": "リアルタイム",
+        "meaning": "real-time"
+      },
+      {
+        "term": "惨状",
+        "reading": "さんじょう",
+        "meaning": "disastrous scene / misery"
+      },
+      {
+        "term": "胸が締め付けられる",
+        "reading": "むねがしめつけられる",
+        "meaning": "heartache / one's heart aches"
+      },
+      {
+        "term": "誹謗中傷",
+        "reading": "ひぼうちゅうしょう",
+        "meaning": "slander / defamation"
+      },
+      {
+        "term": "調和",
+        "reading": "ちょうわ",
+        "meaning": "harmony / balance"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-10-19T18:00:00Z",
+      "rev": 1
+    }
+  },
+  "listening": {
+    "id": "n2.l07.l01",
+    "lessonId": "n2.l07",
+    "title": "災害復興ボランティア派遣の事前協議",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "小林代表",
+      "森本スタッフ"
+    ],
+    "transcript": "小林代表：森本さん、先日の豪雨被災地への支援物資だが、現地への派遣計画はどうなっているかね。\n森本スタッフ：はい、現地の状況を見るにつけ、寒さの中で物資が不足している住民の方々の健康が心配でなりません。\n小林代表：確かに、厳しい寒さに震えている様子を聞くと、誰もが同情しないではいられないだろうね。\n森本スタッフ：ええ。現地の切実な要望を聞いていると、今すぐにでもトラックを出発させたい衝動に駆られてたまりません。\n小林代表：気持ちは痛いほど分かるが、道路寸断のリスクがある。安全ルートを確認した上で、冷静に迅速な支援を進めよう。",
+    "translation": "Kobayashi: Morimoto-san, regarding the relief supplies to the disaster-stricken area, what is the dispatch plan?\nMorimoto: Yes, looking at the local situation, seeing the residents struggle in the cold makes me so worried I can hardly bear it.\nKobayashi: Indeed. We cannot help feeling deep sympathy and wanting to send help immediately. However, roads are blocked, so reckless action is dangerous.\nMorimoto: Understood. But hearing the local coordinator's earnest voice, I feel an uncontrollable urge to do whatever I can right now.\nKobayashi: Let us remain calm. We must secure safety first, coordinate transportation, and dispatch our team without delay.",
+    "turns": [
+      {
+        "speaker": "小林代表",
+        "ja": "森本さん、先日の豪雨被災地への支援物資だが、現地への派遣計画はどうなっているかね。",
+        "kana": "もりもとさん、せんじつのごううひさいちへのしえんぶっしだが、げんちへのはけんけいかくはどうなっているかね。",
+        "en": "Morimoto-san, regarding the relief supplies to the torrential rain disaster area, what is the dispatch plan?",
+        "my": "မိုရီမိုတိုဆန်၊ လွန်ခဲ့သောရက်က မိုးသည်းထန်စွာရွာသွန်းပြီး ရေဘေးသင့်ဒေသသို့ အကူအညီပစ္စည်းများ ပို့ဆောင်မည့် အစီအစဉ်က ဘယ်လိုရှိပါသလဲ။",
+        "myanmar": "မိုရီမိုတိုဆန်၊ လွန်ခဲ့သောရက်က မိုးသည်းထန်စွာရွာသွန်းပြီး ရေဘေးသင့်ဒေသသို့ အကူအညီပစ္စည်းများ ပို့ဆောင်မည့် အစီအစဉ်က ဘယ်လိုရှိပါသလဲ။"
+      },
+      {
+        "speaker": "森本スタッフ",
+        "ja": "はい、現地の状況を見るにつけ、寒さの中で物資が不足している住民の方々の健康が心配でなりません。",
+        "kana": "はい、げんちのじょうきょうをみるにつけ、さむさのなかでぶっしがふそくしているじゅうみんのかたがたのけんこうがしんぱいでなりません。",
+        "en": "Yes, looking at the local conditions, seeing residents facing supply shortages in the cold makes me worried beyond words.",
+        "my": "ဟုတ်ကဲ့၊ ဒေသတွင်း အခြေအနေကို ကြည့်မိတိုင်း အအေးဒဏ်ကြားမှာ ရိက္ခာပြတ်လပ်နေတဲ့ ဒေသခံပြည်သူတွေရဲ့ ကျန်းမာရေးအတွက် စိတ်ပူမိလို့ မနေနိုင်ပါဘူး။",
+        "myanmar": "ဟုတ်ကဲ့၊ ဒေသတွင်း အခြေအနေကို ကြည့်မိတိုင်း အအေးဒဏ်ကြားမှာ ရိက္ခာပြတ်လပ်နေတဲ့ ဒေသခံပြည်သူတွေရဲ့ ကျန်းမာရေးအတွက် စိတ်ပူမိလို့ မနေနိုင်ပါဘူး။"
+      },
+      {
+        "speaker": "小林代表",
+        "ja": "確かに、厳しい寒さに震えている様子を聞くと、誰もが同情しないではいられないだろうね。",
+        "kana": "たしかに、きびしいさむさにふるえているようすをきくと、だれもがどうじょうしないではいられないだろうね。",
+        "en": "Indeed, hearing how they are shivering in the harsh cold, no one can help feeling immense sympathy.",
+        "my": "မှန်ပါသည်၊ ပြင်းထန်တဲ့ အအေးဒဏ်ကြောင့် တုန်လှုပ်နေကြတာကို ကြားရတော့ မည်သူမဆို စာနာစိတ် မဖြစ်ဘဲ မနေနိုင်ပါဘူး။",
+        "myanmar": "မှန်ပါသည်၊ ပြင်းထန်တဲ့ အအေးဒဏ်ကြောင့် တုန်လှုပ်နေကြတာကို ကြားရတော့ မည်သူမဆို စာနာစိတ် မဖြစ်ဘဲ မနေနိုင်ပါဘူး။"
+      },
+      {
+        "speaker": "森本スタッフ",
+        "ja": "ええ。現地の切実な要望を聞いていると、今すぐにでもトラックを出発させたい衝動に駆られてたまりません。",
+        "kana": "ええ。げんちのせつじつなようぼうをきいていると、いますぐにでもトラックをしゅっぱつさせたいしょうどうにかられてたまりません。",
+        "en": "Yes. Hearing their urgent appeals, I am practically dying from an urge to send out the trucks this very second.",
+        "my": "ဟုတ်ပါတယ်။ ဒေသခံတွေရဲ့ အရေးတကြီးတောင်းဆိုချက်တွေကို ကြားရတဲ့အခါ အခုချက်ချင်း ကုန်တင်ကားတွေ ထွက်ခွာစေချင်တဲ့ စိတ်ဆန္ဒ အလွန်ပြင်းပြနေပါတယ်။",
+        "myanmar": "ဟုတ်ပါတယ်။ ဒေသခံတွေရဲ့ အရေးတကြီးတောင်းဆိုချက်တွေကို ကြားရတဲ့အခါ အခုချက်ချင်း ကုန်တင်ကားတွေ ထွက်ခွာစေချင်တဲ့ စိတ်ဆန္ဒ အလွန်ပြင်းပြနေပါတယ်။"
+      },
+      {
+        "speaker": "小林代表",
+        "ja": "気持ちは痛いほど分かるが、道路寸断のリスクがある。安全ルートを確認した上で、冷静に迅速な支援を進めよう。",
+        "kana": "きもちはいたいほどわかるが、どうろすんだんのリスクがある。あんぜんルートをかくにんしたうえで、れいせいにじんそくなしえんをすすめよう。",
+        "en": "I understand your feelings acutely, but roads are severely severed. Let us confirm a safe route first and proceed with calm, prompt support.",
+        "my": "ခံစားချက်ကို နားလည်ပါတယ်၊ ဒါပေမဲ့ လမ်းပိုင်းပြတ်တောက်နိုင်တဲ့ အန္တရာယ်ရှိတယ်။ ဘေးကင်းတဲ့လမ်းကြောင်းကို အတည်ပြုပြီးမှ စိတ်အေးအေးထားပြီး လျင်မြန်စွာ ကူညီကြစို့။",
+        "myanmar": "ခံစားချက်ကို နားလည်ပါတယ်၊ ဒါပေမဲ့ လမ်းပိုင်းပြတ်တောက်နိုင်တဲ့ အန္တရာယ်ရှိတယ်။ ဘေးကင်းတဲ့လမ်းကြောင်းကို အတည်ပြုပြီးမှ စိတ်အေးအေးထားပြီး လျင်မြန်စွာ ကူညီကြစို့။"
+      }
+    ],
+    "questionIds": [
+      "n2.l07.q026",
+      "n2.l07.q027",
+      "n2.l07.q028",
+      "n2.l07.q029",
+      "n2.l07.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-10-19T18:00:00Z",
+      "rev": 1
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l07.q001",
+      "lessonId": "n2.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「激しい議論の中でも、（　）的にならず理性的に意見を述べることが大切だ。」",
+      "choices": [
+        "感情",
+        "情熱",
+        "悲哀",
+        "衝動"
+      ],
+      "answer": "感情",
+      "explanation": "「感情（かんじょう）」は喜怒哀楽などの気持ちを表します。「感情的になる（စိတ်ခံစားမှုရှေ့တန်းတင်သည်）」というコロケーションで頻出します。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q002",
+      "lessonId": "n2.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「災害で家を失った人々の苦境に対し、心からの（　）を寄せる。」",
+      "choices": [
+        "同情",
+        "悲観",
+        "理不尽",
+        "衝動"
+      ],
+      "answer": "同情",
+      "explanation": "「同情（どうじょう）」は他人の不幸や苦境に対して共感し思いやることを意味します。（စာနာထောက်ထားမှု / ကြင်နာမှု）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q003",
+      "lessonId": "n2.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「小説の主人公が抱く苦悩に、多くの読者が深い（　）を覚えた。」",
+      "choices": [
+        "共感",
+        "切実",
+        "悲哀",
+        "渇望"
+      ],
+      "answer": "共感",
+      "explanation": "「共感（きょうかん）」は他人の考えや感情に同調し、自分も同じように感じることです。（စာနာနားလည်မှု / ခံစားချက်တူညီမှု）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q004",
+      "lessonId": "n2.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「秋の夕暮れに一人佇むと、名状しがたい（　）が胸を満たした。」",
+      "choices": [
+        "悲哀",
+        "感激",
+        "情熱",
+        "同情"
+      ],
+      "answer": "悲哀",
+      "explanation": "「悲哀（ひあい）」は悲しく哀れな気持ちを表す硬い表現です。（ဝမ်းနည်းကြေကွဲမှု / ပူဆွေးမှု）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q005",
+      "lessonId": "n2.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「一時的な不況に陥ったからといって、将来を（　）する必要は全くない。」",
+      "choices": [
+        "悲観",
+        "痛感",
+        "理不尽",
+        "切実"
+      ],
+      "answer": "悲観",
+      "explanation": "「悲観（ひかん）」は先行きに望みがないと悪く考えることです。（စိတ်ပျက်အားငယ်မှု / အဆိုးမြင်ခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q006",
+      "lessonId": "n2.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「若きエンジニアたちの熱い（　）が、革新的な新製品を生み出した。」",
+      "choices": [
+        "情熱",
+        "感情",
+        "悲哀",
+        "同情"
+      ],
+      "answer": "情熱",
+      "explanation": "「情熱（じょうねつ）」は何かに熱中し注ぎ込む強い思いを表します。（စိတ်အားထက်သန်မှု / ဇွဲလုံ့လ）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q007",
+      "lessonId": "n2.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「ストレスが溜まると、甘いものを過剰に食べたくなる（　）に駆られる。」",
+      "choices": [
+        "衝動",
+        "共感",
+        "切実",
+        "痛感"
+      ],
+      "answer": "衝動",
+      "explanation": "「衝動（しょうどう）」は外からの刺激などにより発作的にある行動をしたくなる強い欲求です。（ရုတ်တရက်စိတ်ဆန္ဒ / တဒင်္ဂတွန်းအား）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q008",
+      "lessonId": "n2.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「無名の合唱団による見事な歌声に、聴衆は涙を浮かべて（　）した。」",
+      "choices": [
+        "感激",
+        "悲観",
+        "渇望",
+        "理不尽"
+      ],
+      "answer": "感激",
+      "explanation": "「感激（かんげき）」は深く心に感じて強く感動することです。（အလွန်စိတ်လှုပ်ရှားကျေးဇူးတင်ခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q009",
+      "lessonId": "n2.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「過疎化に悩む地方自治体にとって、若者の雇用創出は（　）な願いである。」",
+      "choices": [
+        "切実",
+        "感情",
+        "情熱",
+        "衝動"
+      ],
+      "answer": "切実",
+      "explanation": "「切実（せつじつ）」は心に強く迫るさま、現実的で差し迫った必要性を表します。（ပြင်းပြသော / အရေးတကြီးလိုအပ်သော）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q010",
+      "lessonId": "n2.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「実力不足でコンテストに落選し、基礎練習の重要性を改めて（　）した。」",
+      "choices": [
+        "痛感",
+        "同情",
+        "悲観",
+        "渇望"
+      ],
+      "answer": "痛感",
+      "explanation": "「痛感（つうかん）」は身にしみて強く心に感じる・痛切に実感することです。（အပြည့်အဝသဘောပေါက်ခံစားရခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q011",
+      "lessonId": "n2.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「正当な理由もなく契約を一方的に破棄されるという、（　）な扱いを受けた。」",
+      "choices": [
+        "理不尽",
+        "切実",
+        "情熱",
+        "共感"
+      ],
+      "answer": "理不尽",
+      "explanation": "「理不尽（りふじん）」は道理に合わないこと、筋が通らない不当なさまを表します。（ကျိုးကြောင်းမဆီလျော်သော / မတရားသော）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q012",
+      "lessonId": "n2.l07",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「長い戦乱を経験した国民は、恒久的な平和と安全を心から（　）している。」",
+      "choices": [
+        "渇望",
+        "衝動",
+        "悲哀",
+        "同情"
+      ],
+      "answer": "渇望",
+      "explanation": "「渇望（かつぼう）」はのどが渇いたときのように、心から強く望み欲することです。（အလွန်ဆာလောင်တောင့်တခြင်း）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q013",
+      "lessonId": "n2.l07",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として最も適切なものを選びなさい。\n「他者への【同情】を寄せる。」",
+      "choices": [
+        "どうじょう",
+        "どうせい",
+        "どうしょう",
+        "とうじょう"
+      ],
+      "answer": "どうじょう",
+      "explanation": "「情」の音読みは「ジョウ・セイ」で、「同情」は「どうじょう」と読みます。（စာနာထောက်ထားမှု）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q014",
+      "lessonId": "n2.l07",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として最も適切なものを選びなさい。\n「人生の【悲哀】を噛みしめる。」",
+      "choices": [
+        "ひあい",
+        "びあい",
+        "ひい",
+        "はいあい"
+      ],
+      "answer": "ひあい",
+      "explanation": "「悲」の音読みは「ヒ」で、「哀（アイ）」と合わせて「ひあい」と読みます。（ပူဆွေးဝမ်းနည်းမှု）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q015",
+      "lessonId": "n2.l07",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として最も適切なものを選びなさい。\n「聴衆の【共感】を呼ぶスピーチだった。」",
+      "choices": [
+        "きょうかん",
+        "きょうげき",
+        "くうかん",
+        "ごうかん"
+      ],
+      "answer": "きょうかん",
+      "explanation": "「感」の音読みは「カン」で、「共感」は「きょうかん」と読みます。（စာနာနားလည်မှု）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q016",
+      "lessonId": "n2.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「真夏の炎天下で激しい運動をした後なので、冷たいジュースが（　）。」",
+      "choices": [
+        "飲みたくてたまらない",
+        "飲むことにはならない",
+        "飲まざるを得ない",
+        "飲むに決まっている"
+      ],
+      "answer": "飲みたくてたまらない",
+      "explanation": "身体的欲求や耐えがたい感覚（〜たい）には「〜てたまらない」を用います。（သောက်ချင်လွန်း၍ မခံနိုင်အောင် ဖြစ်သည်）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q017",
+      "lessonId": "n2.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「一人暮らしを始めたばかりの娘の体調が、気がかり（　）。」",
+      "choices": [
+        "でならない",
+        "にほかならない",
+        "にすぎない",
+        "ないことには"
+      ],
+      "answer": "でならない",
+      "explanation": "心の中から自然と湧き上がってくる心理的感情・懸念には「〜て（で）ならない」が適しています。（စိတ်ပူမိ၍ မနေနိုင်ပါ）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q018",
+      "lessonId": "n2.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「あの感動的なエンディングを目にして、涙を（　）。」",
+      "choices": [
+        "流さないではいられなかった",
+        "流すわけにはいかなかった",
+        "流してたまらなかった",
+        "流さざるを得なかった"
+      ],
+      "answer": "流さないではいられなかった",
+      "explanation": "感情が高まり、ある行動を抑えることができない衝動には「動詞未然形＋ないではいられない」を用います。（မျက်ရည်မကျဘဲ မနေနိုင်ခဲ့ပါ）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q019",
+      "lessonId": "n2.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「試験の前日は、合格できるかどうか不安（　）、夜も熟睡できなかった。」",
+      "choices": [
+        "でたまらず",
+        "でならず",
+        "ではなく",
+        "でもなく"
+      ],
+      "answer": "でたまらず",
+      "explanation": "「不安でたまらない（不安でたまらず）」は耐えがたいほどの強い感情を表す自然な接続です。（စိုးရိမ်စိတ် လွန်ကဲပြီး）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q020",
+      "lessonId": "n2.l07",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「不当な理由で仲間が解雇されたと聞き、怒りを（　）。」",
+      "choices": [
+        "抑えないではいられなかった",
+        "抑えざるを得なかった",
+        "抑えなくてはならなかった",
+        "抑えてたまらなかった"
+      ],
+      "answer": "抑えないではいられなかった",
+      "explanation": "湧き上がる怒りの行動衝動を抑えることができない文脈では「〜ないではいられない」が最も自然です。（ဒေါသကို မထိန်းချုပ်နိုင်ခဲ့ပါ）",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q021",
+      "lessonId": "n2.l07",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文の内容によると、筆者は他者の苦境に対する「共感の感情」をどのように捉えているか。",
+      "choices": [
+        "社会を支える根源的な倫理観であると捉えている。",
+        "情報社会において速やかに排除すべき偏見であると捉えている。",
+        "客観的な意思決定を常に阻害する有害な衝動であると捉えている。",
+        "SNS上での過熱した議論のみから生まれる現象であると捉えている。"
+      ],
+      "answer": "社会を支える根源的な倫理観であると捉えている。",
+      "explanation": "第1段落末尾に「他者の苦境に共感する感情は社会を支える根源的な倫理観である」と明記されています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.r001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q022",
+      "lessonId": "n2.l07",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "第2段落で筆者が懸念している「過剰な情報に晒され続ける危険性」とは何か。",
+      "choices": [
+        "感情の高まりを制御できず、激しい感情のまま行動して更なる対立を招くこと。",
+        "世界中のニュースがリアルタイムで伝わらなくなってしまうこと。",
+        "SNS上で誰も抗議の声を上げなくなり無関心が広がる恐れがあること。",
+        "被災地への支援物資が過剰に送られて現地の混乱を深めること。"
+      ],
+      "answer": "感情の高まりを制御できず、激しい感情のまま行動して更なる対立を招くこと。",
+      "explanation": "第2段落に「激しい感情に任せて行動することは、さらなる対立を招きかねない」と述べられています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.r001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q023",
+      "lessonId": "n2.l07",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文における「真の共感」の定義として、最も適切なものはどれか。",
+      "choices": [
+        "相手の痛みに感情移入するだけでなく、冷静さを保ち具体的支援や対話に繋げる知性。",
+        "理不尽な批判に対して即座にSNS上で反論の声を上げる熱意。",
+        "他人の苦しみに一切心を動かされず、常に冷徹に損得を計算する能力。",
+        "悲惨なニュースを一切見ないようにして自らの精神の平穏を守ること。"
+      ],
+      "answer": "相手の痛みに感情移入するだけでなく、冷静さを保ち具体的支援や対話に繋げる知性。",
+      "explanation": "第3段落で「真の共感とは…客観的な冷静さを保ちながら具体的な支援や対話へと繋げる知性である」と定義されています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.r001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q024",
+      "lessonId": "n2.l07",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文の結びで、現代を生きる人々に求められていると主張されている調和はどれか。",
+      "choices": [
+        "情熱と理性の調和",
+        "伝統と革新の調和",
+        "自由と規制の調和",
+        "理論と実践の調和"
+      ],
+      "answer": "情熱と理性の調和",
+      "explanation": "本文末尾に「情熱と理性の調和こそが現代の私たちに求められている」と明言されています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.r001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q025",
+      "lessonId": "n2.l07",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文全体の論理展開として最も合致するものはどれか。",
+      "choices": [
+        "共感の大切さを認めた上で、感情的暴走のリスクを指摘し、理性と調和した実践の重要性を説く展開。",
+        "科学技術の発達を全否定し、感情を完全に捨て去るべきだと結論づける展開。",
+        "被災地の復興支援にはボランティアよりも行政主導の法整備のみが有効だと論じる展開。",
+        "SNSの利用を全面的に禁止することによってのみ平和な社会が達成できると訴える展開。"
+      ],
+      "answer": "共感の大切さを認めた上で、感情的暴走のリスクを指摘し、理性と調和した実践の重要性を説く展開。",
+      "explanation": "共感の倫理的意義（1段落）→情報過多による感情的対立のリスク（2段落）→理性を備えた真の共感（3段落）という構成です。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.r001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q026",
+      "lessonId": "n2.l07",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "森本スタッフが「心配でなりません」と述べている具体的な内容は何か。",
+      "choices": [
+        "寒さの中で支援物資が不足している被災地住民の健康状態。",
+        "豪雨による会社のトラック自体の故障や経済的損失。",
+        "ボランティア派遣にかかる予算が承認されないこと。",
+        "小林代表が災害支援そのものに消極的であること。"
+      ],
+      "answer": "寒さの中で支援物資が不足している被災地住民の健康状態。",
+      "explanation": "森本スタッフの発言「寒さの中で物資が不足している住民の方々の健康が心配でなりません」に基づきます。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q027",
+      "lessonId": "n2.l07",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "森本スタッフが「〜衝動に駆られてたまりません」と言っているのはどのような行動についてか。",
+      "choices": [
+        "今すぐにでも物資を載せたトラックを出発させること。",
+        "被災地の行政機関に対して抗議文を提出すること。",
+        "これ以上の支援計画をすべて中止して撤退すること。",
+        "新たなボランティア募集の広告をインターネットに出すこと。"
+      ],
+      "answer": "今すぐにでも物資を載せたトラックを出発させること。",
+      "explanation": "森本スタッフは「今すぐにでもトラックを出発させたい衝動に駆られてたまりません」と述べています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q028",
+      "lessonId": "n2.l07",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "小林代表が即座の派遣を押しとどめ、慎重な対応を求めた理由として最も適切なものはどれか。",
+      "choices": [
+        "道路が寸断されているリスクがあり、安全ルートの確認が先決だから。",
+        "住民からの支援要望がまだ正式に届いていないから。",
+        "支援物資の賞味期限が切れている恐れがあるから。",
+        "他団体のトラックと現地で衝突する危険があるから。"
+      ],
+      "answer": "道路が寸断されているリスクがあり、安全ルートの確認が先決だから。",
+      "explanation": "小林代表は「道路寸断のリスクがある。安全ルートを確認した上で…」と指摘しています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q029",
+      "lessonId": "n2.l07",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "会話の中で小林代表が示した最終的な方針はどのようなものか。",
+      "choices": [
+        "安全ルートを確認した上で、冷静かつ迅速な支援を進める方針。",
+        "天候が完全に回復するまで数週間は一切支援を行わない方針。",
+        "支援物資の派遣は取りやめ、金銭の寄付のみに切り替える方針。",
+        "現地のボランティア団体にすべての判断を一任する方針。"
+      ],
+      "answer": "安全ルートを確認した上で、冷静かつ迅速な支援を進める方針。",
+      "explanation": "「安全ルートを確認した上で、冷静に迅速な支援を進めよう」と結論づけています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.l01"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l07.q030",
+      "lessonId": "n2.l07",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "対話全体を通じて表現されている2人の共通の態度はどれか。",
+      "choices": [
+        "被災者に対する深い同情と支援への熱意を持ちながら、安全と確実性を重視する態度。",
+        "被災地の混乱を他人事として捉え、自社の利益のみを追求する態度。",
+        "ボランティア活動の無意味さを痛感し、支援事業からの撤退を望む態度。",
+        "お互いの意見に対立して激しい口論を繰り広げ、結論を出せない態度。"
+      ],
+      "answer": "被災者に対する深い同情と支援への熱意を持ちながら、安全と確実性を重視する態度。",
+      "explanation": "両者ともに被災者への強い共感・同情を共有しつつ、冷静に安全な支援手順を協議しています。",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l07.l01"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-10-19T18:00:00Z",
+    "rev": 1
+  }
+}

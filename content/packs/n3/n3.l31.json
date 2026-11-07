@@ -1,0 +1,1847 @@
+{
+  "id": "n3.l31",
+  "level": "N3",
+  "module": "N3 Nuance & Natural Discourse",
+  "number": 31,
+  "title": "N3 Lesson 31: Hearsay, Quotes & Information Sources (〜によると・〜そうだ・〜ということだ)",
+  "description": "Master Japanese information sourcing and hearsay patterns, citing reliable sources with 〜によると, relaying spoken news with 〜そうだ, and summarizing formal reports with 〜ということだ.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l31.v001",
+      "lessonId": "n3.l31",
+      "ja": "伝言",
+      "kana": "でんごん",
+      "en": "verbal message",
+      "my": "နှုတ်မှာစကား",
+      "meaningMy": "နှုတ်မှာစကား",
+      "meaningMyanmar": "နှုတ်မှာစကား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l31.s001",
+      "kanjiIds": [
+        "n3.l31.k001"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.v002",
+      "lessonId": "n3.l31",
+      "ja": "報告",
+      "kana": "ほうこく",
+      "en": "report",
+      "my": "အစီရင်ခံစာ",
+      "meaningMy": "အစီရင်ခံစာ",
+      "meaningMyanmar": "အစီရင်ခံစာ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l31.s002",
+      "kanjiIds": [
+        "n3.l31.k002"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.v003",
+      "lessonId": "n3.l31",
+      "ja": "予報",
+      "kana": "よほう",
+      "en": "forecast",
+      "my": "ကြိုတင်ခန့်မှန်းချက်",
+      "meaningMy": "ကြိုတင်ခန့်မှန်းချက်",
+      "meaningMyanmar": "ကြိုတင်ခန့်မှန်းချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l31.s003",
+      "kanjiIds": [
+        "n3.l31.k002"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.v004",
+      "lessonId": "n3.l31",
+      "ja": "噂",
+      "kana": "うわさ",
+      "en": "rumor",
+      "my": "ကောလာဟလ",
+      "meaningMy": "ကောလာဟလ",
+      "meaningMyanmar": "ကောလာဟလ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l31.s004",
+      "kanjiIds": [
+        "n3.l31.k003"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.v005",
+      "lessonId": "n3.l31",
+      "ja": "情報",
+      "kana": "じょうほう",
+      "en": "information",
+      "my": "သတင်းအချက်အလက်",
+      "meaningMy": "သတင်းအချက်အလက်",
+      "meaningMyanmar": "သတင်းအချက်အလက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l31.s005",
+      "kanjiIds": [
+        "n3.l31.k002"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.v006",
+      "lessonId": "n3.l31",
+      "ja": "記事",
+      "kana": "きじ",
+      "en": "news article",
+      "my": "သတင်းဆောင်းပါး",
+      "meaningMy": "သတင်းဆောင်းပါး",
+      "meaningMyanmar": "သတင်းဆောင်းပါး",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l31.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.v007",
+      "lessonId": "n3.l31",
+      "ja": "発表",
+      "kana": "はっぴょう",
+      "en": "announcement",
+      "my": "တရားဝင်ကြေညာချက်",
+      "meaningMy": "တရားဝင်ကြေညာချက်",
+      "meaningMyanmar": "တရားဝင်ကြေညာချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l31.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.v008",
+      "lessonId": "n3.l31",
+      "ja": "証言",
+      "kana": "しょうげん",
+      "en": "testimony",
+      "my": "သက်သေထွက်ဆိုချက်",
+      "meaningMy": "သက်သေထွက်ဆိုချက်",
+      "meaningMyanmar": "သက်သေထွက်ဆိုချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l31.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.v009",
+      "lessonId": "n3.l31",
+      "ja": "確実",
+      "kana": "かくじつ",
+      "en": "certain, reliable",
+      "my": "သေချာတိကျသော",
+      "meaningMy": "သေချာတိကျသော",
+      "meaningMyanmar": "သေချာတိကျသော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n3.l31.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.v010",
+      "lessonId": "n3.l31",
+      "ja": "噂話",
+      "kana": "うわさばなし",
+      "en": "gossip story",
+      "my": "ကောလာဟလစကား",
+      "meaningMy": "ကောလာဟလစကား",
+      "meaningMyanmar": "ကောလာဟလစကား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l31.s010",
+      "kanjiIds": [
+        "n3.l31.k003"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.v011",
+      "lessonId": "n3.l31",
+      "ja": "報道",
+      "kana": "ほうどう",
+      "en": "news coverage",
+      "my": "သတင်းမီဒီယာထုတ်လွှင့်ချက်",
+      "meaningMy": "သတင်းမီဒီယာထုတ်လွှင့်ချက်",
+      "meaningMyanmar": "သတင်းမီဒီယာထုတ်လွှင့်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l31.s011",
+      "kanjiIds": [
+        "n3.l31.k002"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.v012",
+      "lessonId": "n3.l31",
+      "ja": "伝達",
+      "kana": "でんたつ",
+      "en": "transmission, delivery",
+      "my": "သတင်းပို့ဆောင်အသိပေးခြင်း",
+      "meaningMy": "သတင်းပို့ဆောင်အသိပေးခြင်း",
+      "meaningMyanmar": "သတင်းပို့ဆောင်အသိပေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l31.s012",
+      "kanjiIds": [
+        "n3.l31.k001"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l31.k001",
+      "lessonId": "n3.l31",
+      "char": "伝",
+      "meaning": "transmit, convey",
+      "meaningMy": "ပို့ဆောင်သည်/လက်ဆင့်ကမ်းသည်",
+      "meaningMyanmar": "ပို့ဆောင်သည်/လက်ဆင့်ကမ်းသည်",
+      "onyomi": [
+        "デン"
+      ],
+      "kunyomi": [
+        "つた・わる",
+        "つた・える"
+      ],
+      "exampleVocab": [
+        {
+          "word": "伝える",
+          "reading": "つたえる",
+          "meaning": "to convey",
+          "meaningMy": "ပြောကြားပို့ဆောင်သည်",
+          "preview": true
+        },
+        {
+          "word": "伝言",
+          "reading": "でんごん",
+          "meaning": "verbal message",
+          "meaningMy": "နှုတ်သတင်း/မှာစကား",
+          "preview": false
+        },
+        {
+          "word": "伝統",
+          "reading": "でんとう",
+          "meaning": "tradition",
+          "meaningMy": "ရိုးရာအစဉ်အလာ",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l31.s001"
+      ],
+      "components": [
+        "亻",
+        "云"
+      ],
+      "strokes": 6,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.k002",
+      "lessonId": "n3.l31",
+      "char": "報",
+      "meaning": "report, inform",
+      "meaningMy": "သတင်းပို့သည်/အစီရင်ခံသည်",
+      "meaningMyanmar": "သတင်းပို့သည်/အစီရင်ခံသည်",
+      "onyomi": [
+        "ホウ"
+      ],
+      "kunyomi": [
+        "むく・いる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "報告",
+          "reading": "ほうこく",
+          "meaning": "report",
+          "meaningMy": "အစီရင်ခံစာ",
+          "preview": true
+        },
+        {
+          "word": "予報",
+          "reading": "よほう",
+          "meaning": "forecast",
+          "meaningMy": "ကြိုတင်ခန့်မှန်းချက်",
+          "preview": false
+        },
+        {
+          "word": "情報",
+          "reading": "じょうほう",
+          "meaning": "information",
+          "meaningMy": "သတင်းအချက်အလက်",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l31.s002"
+      ],
+      "components": [
+        "幸",
+        "卩",
+        "又"
+      ],
+      "strokes": 12,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.k003",
+      "lessonId": "n3.l31",
+      "char": "噂",
+      "meaning": "rumor, gossip",
+      "meaningMy": "ကောလာဟလ",
+      "meaningMyanmar": "ကောလာဟလ",
+      "onyomi": [
+        "ソン"
+      ],
+      "kunyomi": [
+        "うわさ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "噂",
+          "reading": "うわさ",
+          "meaning": "rumor",
+          "meaningMy": "ကောလာဟလ",
+          "preview": true
+        },
+        {
+          "word": "噂話",
+          "reading": "うわさばなし",
+          "meaning": "gossip story",
+          "meaningMy": "ကောလာဟလစကား",
+          "preview": false
+        },
+        {
+          "word": "世間噂",
+          "reading": "せけんうわさ",
+          "meaning": "town gossip",
+          "meaningMy": "လူပြောများသောကောလာဟလ",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l31.s003"
+      ],
+      "components": [
+        "口",
+        "尊"
+      ],
+      "strokes": 14,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l31.g001",
+      "lessonId": "n3.l31",
+      "pattern": "〜によると",
+      "meaning": "according to (source)",
+      "meaningMy": "...အရဆိုလျှင်/သတင်းအရ",
+      "meaningMyanmar": "...အရဆိုလျှင်/သတင်းအရ",
+      "formation": "Noun + によると / によれば",
+      "explanation": {
+        "en": "Used to indicate the source of information (news, weather forecast, survey). The sentence usually ends with hearsay expressions like 〜そうだ or 〜ということだ.",
+        "my": "သတင်းအရင်းအမြစ်ကို ဖော်ပြရာတွင် သုံးပြီး ဝါကျအဆုံးတွင် 〜そうだ သို့မဟုတ် 〜ということだ စသည်တို့နှင့် တွဲဖက်လေ့ရှိသည်။"
+      },
+      "explanationMy": "သတင်းအရင်းအမြစ်ကို ဖော်ပြရာတွင် သုံးပြီး ဝါကျအဆုံးတွင် 〜そうだ သို့မဟုတ် 〜ということだ စသည်တို့နှင့် တွဲဖက်လေ့ရှိသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l31.s001",
+          "note": "〜によると usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s002",
+          "note": "〜によると usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s003",
+          "note": "〜によると usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s004",
+          "note": "〜によると usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s007",
+          "note": "〜によると usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s008",
+          "note": "〜によると usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s009",
+          "note": "〜によると usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s010",
+          "note": "〜によると usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s011",
+          "note": "〜によると usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s012",
+          "note": "〜によると usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l31.g001",
+        "n3.l31.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜によると."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "天気予報（　）、明日は午後から大雨になるそうだ。",
+      "clozeTarget": "によると",
+      "clozeHint": "according to the weather forecast",
+      "acceptableSynonyms": [
+        "〜によれば"
+      ],
+      "nuanceExplanationMy": "အချက်အလက်အရင်းအမြစ်ကို ရှင်းလင်းစွာ အကိုးအကားပြုသည့်အခါ သုံးသည်။"
+    },
+    {
+      "id": "n3.l31.g002",
+      "lessonId": "n3.l31",
+      "pattern": "〜そうだ (伝聞)",
+      "meaning": "I heard that / reportedly",
+      "meaningMy": "...တယ်လို့ကြားတယ်/ဆိုတယ်",
+      "meaningMyanmar": "...တယ်လို့ကြားတယ်/ဆိုတယ်",
+      "formation": "Verb/Adj/Noun [Plain Form] + そうだ (だ-form for nouns/na-adj)",
+      "explanation": {
+        "en": "Used to relay information heard from another source without adding personal conjecture. Unlike conjecture そう (looks like), hearsay そう follows plain forms directly.",
+        "my": "ကြားသိရသောသတင်းကို မိမိထင်မြင်ချက်မပါဘဲ ပြန်လည်ပြောပြရာတွင် သုံးသည်။ ရိုးရိုးပုံစံ (Plain Form) နောက်တွင် တိုက်ရိုက်ကပ်သည်။"
+      },
+      "explanationMy": "ကြားသိရသောသတင်းကို မိမိထင်မြင်ချက်မပါဘဲ ပြန်လည်ပြောပြရာတွင် သုံးသည်။ ရိုးရိုးပုံစံ (Plain Form) နောက်တွင် တိုက်ရိုက်ကပ်သည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l31.s001",
+          "note": "〜そうだ (伝聞) usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s003",
+          "note": "〜そうだ (伝聞) usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s005",
+          "note": "〜そうだ (伝聞) usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s006",
+          "note": "〜そうだ (伝聞) usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s007",
+          "note": "〜そうだ (伝聞) usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s008",
+          "note": "〜そうだ (伝聞) usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l31.g001",
+        "n3.l31.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜そうだ (伝聞)."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "先輩の話では、新しい部長はとても優しい人だ（　）。",
+      "clozeTarget": "そうだ",
+      "clozeHint": "hearsay: I heard that...",
+      "acceptableSynonyms": [
+        "〜ということだ",
+        "〜らしい"
+      ],
+      "nuanceExplanationMy": "ကြားဖူးသည့်အကြောင်းအရာကို အခြားသူအား ပြန်လည်လက်ဆင့်ကမ်း ပြောပြခြင်း ဖြစ်သည်။"
+    },
+    {
+      "id": "n3.l31.g003",
+      "lessonId": "n3.l31",
+      "pattern": "〜ということだ",
+      "meaning": "it is said that / reportedly / means that",
+      "meaningMy": "...ဟူ၍ဖြစ်သည်/ဆိုတဲ့သဘောဖြစ်သည်",
+      "meaningMyanmar": "...ဟူ၍ဖြစ်သည်/ဆိုတဲ့သဘောဖြစ်သည်",
+      "formation": "Verb/Adj/Noun [Plain Form] + ということだ",
+      "explanation": {
+        "en": "Formal hearsay pattern used in announcements and newspapers to state reported facts. Also used to rephrase or conclude what something means.",
+        "my": "သတင်းထုတ်ပြန်ချက်များနှင့် တရားဝင်သတင်းများတွင် ကြားသိရသည့် အချက်အလက်ကို ပြန်လည်တင်ပြရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "သတင်းထုတ်ပြန်ချက်များနှင့် တရားဝင်သတင်းများတွင် ကြားသိရသည့် အချက်အလက်ကို ပြန်လည်တင်ပြရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l31.s002",
+          "note": "〜ということだ usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s004",
+          "note": "〜ということだ usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s009",
+          "note": "〜ということだ usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s010",
+          "note": "〜ということだ usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s011",
+          "note": "〜ということだ usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l31.s012",
+          "note": "〜ということだ usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l31.g001",
+        "n3.l31.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ということだ."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "ニュースの発表によると、来月から運賃が値上げされる（　）。",
+      "clozeTarget": "ということだ",
+      "clozeHint": "formal hearsay: it is reported that...",
+      "acceptableSynonyms": [
+        "〜とのことだ",
+        "〜そうだ"
+      ],
+      "nuanceExplanationMy": "〜そうだ ထက် ပိုမိုခိုင်မာလေးနက်သော စာပေသုံးနှင့် သတင်းသုံး အသုံးအနှုန်း ဖြစ်သည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l31.s001",
+      "lessonId": "n3.l31",
+      "ja": "天気予報によると、明日は朝から強い風が吹くそうだ。",
+      "kana": "てんきよほうによると、あしたはあさからつよいかぜがふくそうだ。",
+      "translation": {
+        "en": "According to the weather forecast, strong winds will blow from tomorrow morning.",
+        "my": "မိုးလေဝသကြိုတင်ခန့်မှန်းချက်အရ မနက်ဖြန်မနက်ပိုင်းမှစ၍ လေပြင်းများတိုက်ခတ်မည်ဟု ကြားရသည်။"
+      },
+      "translationMy": "မိုးလေဝသကြိုတင်ခန့်မှန်းချက်အရ မနက်ဖြန်မနက်ပိုင်းမှစ၍ လေပြင်းများတိုက်ခတ်မည်ဟု ကြားရသည်။",
+      "vocabIds": [
+        "n3.l31.v003"
+      ],
+      "grammarIds": [
+        "n3.l31.g001",
+        "n3.l31.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.s002",
+      "lessonId": "n3.l31",
+      "ja": "新聞の記事によると、駅前に新しい図書館ができるということだ。",
+      "kana": "しんぶんのきじによると、えきまえにあたらしいとしょかんができるということだ。",
+      "translation": {
+        "en": "According to the newspaper article, a new library will be built in front of the station.",
+        "my": "သတင်းစာဆောင်းပါးအရ ဘူတာရုံရှေ့တွင် စာကြည့်တိုက်အသစ်တစ်ခု တည်ဆောက်မည်ဟူ၍ သိရသည်။"
+      },
+      "translationMy": "သတင်းစာဆောင်းပါးအရ ဘူတာရုံရှေ့တွင် စာကြည့်တိုက်အသစ်တစ်ခု တည်ဆောက်မည်ဟူ၍ သိရသည်။",
+      "vocabIds": [
+        "n3.l31.v006"
+      ],
+      "grammarIds": [
+        "n3.l31.g001",
+        "n3.l31.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.s003",
+      "lessonId": "n3.l31",
+      "ja": "警察の発表によると、事故の原因はまだ調査中だそうだ。",
+      "kana": "けいさつのはっぴょうによると、じこのげんいんはまだちょうさちゅうだそうだ。",
+      "translation": {
+        "en": "According to the police announcement, the cause of the accident is still under investigation.",
+        "my": "ရဲတပ်ဖွဲ့၏ကြေညာချက်အရ ယာဉ်မတော်တဆမှုဖြစ်ပွားရသည့်အကြောင်းရင်းကို စုံစမ်းစစ်ဆေးဆဲဖြစ်သည်ဟု ဆိုသည်။"
+      },
+      "translationMy": "ရဲတပ်ဖွဲ့၏ကြေညာချက်အရ ယာဉ်မတော်တဆမှုဖြစ်ပွားရသည့်အကြောင်းရင်းကို စုံစမ်းစစ်ဆေးဆဲဖြစ်သည်ဟု ဆိုသည်။",
+      "vocabIds": [
+        "n3.l31.v007"
+      ],
+      "grammarIds": [
+        "n3.l31.g001",
+        "n3.l31.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.s004",
+      "lessonId": "n3.l31",
+      "ja": "確実な情報によると、そのプロジェクトは来月に開始されるということだ。",
+      "kana": "かくじつなじょうほうによると、そのぷろじぇくとはらいげつにかいしされるということだ。",
+      "translation": {
+        "en": "According to reliable information, that project will commence next month.",
+        "my": "သေချာခိုင်မာသောသတင်းအချက်အလက်များအရ ထိုစီမံကိန်းသည် လာမည့်လတွင် စတင်မည်ဟူ၍ ဖြစ်သည်။"
+      },
+      "translationMy": "သေချာခိုင်မာသောသတင်းအချက်အလက်များအရ ထိုစီမံကိန်းသည် လာမည့်လတွင် စတင်မည်ဟူ၍ ဖြစ်သည်။",
+      "vocabIds": [
+        "n3.l31.v005",
+        "n3.l31.v009"
+      ],
+      "grammarIds": [
+        "n3.l31.g001",
+        "n3.l31.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.s005",
+      "lessonId": "n3.l31",
+      "ja": "田中さんからの伝言では、今日の会議は三時から始まるそうだ。",
+      "kana": "たなかさんからのでんごんでは、きょうのかいぎはさんじからはじまるそうだ。",
+      "translation": {
+        "en": "According to the verbal message from Tanaka, today's meeting starts at 3 o'clock.",
+        "my": "တနခစံထံမှ မှာစကားအရ ယနေ့အစည်းအဝေးသည် ညနေ ၃ နာရီတွင် စတင်မည်ဟု ကြားသိရသည်။"
+      },
+      "translationMy": "တနခစံထံမှ မှာစကားအရ ယနေ့အစည်းအဝေးသည် ညနေ ၃ နာရီတွင် စတင်မည်ဟု ကြားသိရသည်။",
+      "vocabIds": [
+        "n3.l31.v001"
+      ],
+      "grammarIds": [
+        "n3.l31.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.s006",
+      "lessonId": "n3.l31",
+      "ja": "同僚の噂話では、来期に大きな人事異動があるそうだ。",
+      "kana": "どうりょうのうわさばなしでは、らいきにおおきなじんじいどうがあるそうだ。",
+      "translation": {
+        "en": "According to colleagues' gossip, there will be major personnel reassignments next term.",
+        "my": "လုပ်ဖော်ကိုင်ဖက်များ၏ ကောလာဟလစကားအရ လာမည့်ဘဏ္ဍာရေးကာလတွင် ကြီးမားသောရာထူးနေရာပြောင်းရွှေ့မှုများရှိမည်ဟု ကြားရသည်။"
+      },
+      "translationMy": "လုပ်ဖော်ကိုင်ဖက်များ၏ ကောလာဟလစကားအရ လာမည့်ဘဏ္ဍာရေးကာလတွင် ကြီးမားသောရာထူးနေရာပြောင်းရွှေ့မှုများရှိမည်ဟု ကြားရသည်။",
+      "vocabIds": [
+        "n3.l31.v004",
+        "n3.l31.v010"
+      ],
+      "grammarIds": [
+        "n3.l31.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.s007",
+      "lessonId": "n3.l31",
+      "ja": "目撃者の証言によると、犯人は黒い服を着て逃走したそうだ。",
+      "kana": "もくげきしゃのしょうげんによると、はんにんはくろいふくをきてとうそうしたそうだ。",
+      "translation": {
+        "en": "According to witness testimony, the suspect fled wearing black clothing.",
+        "my": "မျက်မြင်သက်သေ၏ ထွက်ဆိုချက်အရ ပြစ်မှုကျူးလွန်သူသည် အနက်ရောင်အဝတ်အစားကို ဝတ်ဆင်၍ ထွက်ပြေးသွားသည်ဟု ဆိုသည်။"
+      },
+      "translationMy": "မျက်မြင်သက်သေ၏ ထွက်ဆိုချက်အရ ပြစ်မှုကျူးလွန်သူသည် အနက်ရောင်အဝတ်အစားကို ဝတ်ဆင်၍ ထွက်ပြေးသွားသည်ဟု ဆိုသည်။",
+      "vocabIds": [
+        "n3.l31.v008"
+      ],
+      "grammarIds": [
+        "n3.l31.g001",
+        "n3.l31.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.s008",
+      "lessonId": "n3.l31",
+      "ja": "テレビの報道によると、隣町で大きな停電が起きたそうだ。",
+      "kana": "てれびのほうどうによると、となりまちでおおきなていでんがおきたそうだ。",
+      "translation": {
+        "en": "According to television news reports, a major blackout occurred in the adjacent town.",
+        "my": "ရုပ်မြင်သံကြားသတင်းထုတ်လွှင့်ချက်အရ ဘေးမြို့နယ်တွင် ကြီးမားသော လျှပ်စစ်မီးပြတ်တောက်မှု ဖြစ်ပွားခဲ့သည်ဟု ဆိုသည်။"
+      },
+      "translationMy": "ရုပ်မြင်သံကြားသတင်းထုတ်လွှင့်ချက်အရ ဘေးမြို့နယ်တွင် ကြီးမားသော လျှပ်စစ်မီးပြတ်တောက်မှု ဖြစ်ပွားခဲ့သည်ဟု ဆိုသည်။",
+      "vocabIds": [
+        "n3.l31.v011"
+      ],
+      "grammarIds": [
+        "n3.l31.g001",
+        "n3.l31.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.s009",
+      "lessonId": "n3.l31",
+      "ja": "部長への報告書によると、今月の売上は目標を達成したということだ。",
+      "kana": "ぶちょうへのほうこくしょによると、こんげつのうりあげはもくひょうをたっせいしたということだ。",
+      "translation": {
+        "en": "According to the report submitted to the manager, sales this month achieved the target.",
+        "my": "ဌာနမှူးထံတင်ပြသော အစီရင်ခံစာအရ ယခုလအရောင်းပမာဏသည် ရည်မှန်းချက်ကို ပြည့်မီခဲ့သည်ဟူ၍ ဖြစ်သည်။"
+      },
+      "translationMy": "ဌာနမှူးထံတင်ပြသော အစီရင်ခံစာအရ ယခုလအရောင်းပမာဏသည် ရည်မှန်းချက်ကို ပြည့်မီခဲ့သည်ဟူ၍ ဖြစ်သည်။",
+      "vocabIds": [
+        "n3.l31.v002"
+      ],
+      "grammarIds": [
+        "n3.l31.g001",
+        "n3.l31.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.s010",
+      "lessonId": "n3.l31",
+      "ja": "街の噂によると、あの老舗レストランが閉店するということだ。",
+      "kana": "まちのうわさによると、あのしにせれすとらんがへいてんするということだ。",
+      "translation": {
+        "en": "According to neighborhood rumors, that longstanding restaurant is closing down.",
+        "my": "မြို့ထဲက ကောလာဟလများအရ ထိုရှေးဟောင်းနာမည်ကြီးစားသောက်ဆိုင်သည် ပိတ်သိမ်းတော့မည်ဟူ၍ ကြားရသည်။"
+      },
+      "translationMy": "မြို့ထဲက ကောလာဟလများအရ ထိုရှေးဟောင်းနာမည်ကြီးစားသောက်ဆိုင်သည် ပိတ်သိမ်းတော့မည်ဟူ၍ ကြားရသည်။",
+      "vocabIds": [
+        "n3.l31.v004"
+      ],
+      "grammarIds": [
+        "n3.l31.g001",
+        "n3.l31.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.s011",
+      "lessonId": "n3.l31",
+      "ja": "本部からの情報伝達によると、明日の研修はオンラインで実施するということだ。",
+      "kana": "ほんぶからのじょうほうでんたつによると、あすのけんしゅうはおんらいんでじっしするということだ。",
+      "translation": {
+        "en": "According to the communication from headquarters, tomorrow's training will be conducted online.",
+        "my": "ရုံးချုပ်မှ အသိပေးအကြောင်းကြားချက်အရ မနက်ဖြန်သင်တန်းကို အွန်လိုင်းမှ ပြုလုပ်မည်ဟူ၍ ဖြစ်သည်။"
+      },
+      "translationMy": "ရုံးချုပ်မှ အသိပေးအကြောင်းကြားချက်အရ မနက်ဖြန်သင်တန်းကို အွန်လိုင်းမှ ပြုလုပ်မည်ဟူ၍ ဖြစ်သည်။",
+      "vocabIds": [
+        "n3.l31.v005",
+        "n3.l31.v012"
+      ],
+      "grammarIds": [
+        "n3.l31.g001",
+        "n3.l31.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l31.s012",
+      "lessonId": "n3.l31",
+      "ja": "正式な発表によると、新製品の発売日は来春に延期されたということだ。",
+      "kana": "せいしきなはっぴょうによると、しんせいひんのはつばいびはらいしゅんにえんきされたということだ。",
+      "translation": {
+        "en": "According to the official announcement, the launch date for the new product has been postponed to next spring.",
+        "my": "တရားဝင်ကြေညာချက်အရ ထုတ်ကုန်အသစ်မိတ်ဆက်မည့်ရက်ကို လာမည့်နွေဦးရာသီသို့ ရွှေ့ဆိုင်းလိုက်သည်ဟူ၍ ဖြစ်သည်။"
+      },
+      "translationMy": "တရားဝင်ကြေညာချက်အရ ထုတ်ကုန်အသစ်မိတ်ဆက်မည့်ရက်ကို လာမည့်နွေဦးရာသီသို့ ရွှေ့ဆိုင်းလိုက်သည်ဟူ၍ ဖြစ်သည်။",
+      "vocabIds": [
+        "n3.l31.v007"
+      ],
+      "grammarIds": [
+        "n3.l31.g001",
+        "n3.l31.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l31.r001",
+    "lessonId": "n3.l31",
+    "title": "地域防災ニュースとお知らせ",
+    "level": "N3",
+    "text": "気象庁の発表によると、大型の台風が今夜から明日の未明にかけて当地域に最接近するそうだ。最新の気象予報によると、沿岸部では非常に激しい雨と突風が予想されており、川の氾濫や土砂災害への警戒が必要だということだ。自治体からの伝言および緊急情報伝達によると、各避難所が開設されたということだ。SNS上の不確かな噂話や誤った情報に惑わされず、公式な報道や市役所の発表を確認して、早めの安全確保を心がけるよう呼びかけられている。",
+    "kanaText": "きしょうちょうのはっぴょうによると、おおがたのたいふうがこんやからあすのみめいにかけてとうちいきにさいせっきんするそうだ。さいしんのきしょうよほうによると、えんがんぶではひじょうにはげしいあめととっぷうがよそうされており、かわのはんらんやどしゃさいがいへのけいかいがひつようだということだ。じちたいからのでんごんおよびきんきゅうじょうほうでんたつによると、かくひなんじょがかいせつされたということだ。えすえぬえすじょうのふたしかなうわさばなしやあやまったじょうほうにまどわされず、こうしきなほうどうやしやくしょのはっぴょうをかくにんして、はやめのあんぜんかくほをこころがけるようよびかけられている。",
+    "translation": "မိုးလေဝသဌာန၏ တရားဝင်ကြေညာချက်အရ အင်အားပြင်းမုန်တိုင်းကြီးသည် ယနေ့ညမှ မနက်ဖြန်မိုးသောက်ယံအထိ ဒေသတွင်းသို့ အနီးကပ်ဆုံး ဝင်ရောက်လာမည်ဟု ဆိုသည်။ နောက်ဆုံးရ မိုးလေဝသခန့်မှန်းချက်အရ ကမ်းရိုးတန်းဒေသများတွင် မိုးသည်းထန်စွာရွာသွန်းပြီး လေပြင်းများတိုက်ခတ်မည်ဟု ခန့်မှန်းထားသဖြင့် မြစ်ရေလျှံခြင်းနှင့် မြေပြိုဘေးအန္တရာယ်များကို သတိပြုရန် လိုအပ်သည်ဟူ၍ ဖြစ်သည်။ ဒေသန္တရအစိုးရ၏ အသိပေးချက်နှင့် အရေးပေါ်သတင်းပို့ဆောင်ချက်များအရ ကယ်ဆယ်ရေးစခန်းများကို စတင်ဖွင့်လှစ်ထားပြီဟူ၍ သိရသည်။ လူမှုကွန်ရက်ပေါ်ရှိ မခိုင်လုံသော ကောလာဟလစကားများနှင့် သတင်းမှားများကို မယုံကြည်ဘဲ တရားဝင်သတင်းထုတ်ပြန်ချက်များကိုသာ စစ်ဆေး၍ ဘေးကင်းရေးကို ကြိုတင်ပြင်ဆင်ကြရန် နှိုးဆော်ထားသည်။",
+    "translationMy": "မိုးလေဝသဌာန၏ တရားဝင်ကြေညာချက်အရ အင်အားပြင်းမုန်တိုင်းကြီးသည် ယနေ့ညမှ မနက်ဖြန်မိုးသောက်ယံအထိ ဒေသတွင်းသို့ အနီးကပ်ဆုံး ဝင်ရောက်လာမည်ဟု ဆိုသည်။ နောက်ဆုံးရ မိုးလေဝသခန့်မှန်းချက်အရ ကမ်းရိုးတန်းဒေသများတွင် မိုးသည်းထန်စွာရွာသွန်းပြီး လေပြင်းများတိုက်ခတ်မည်ဟု ခန့်မှန်းထားသဖြင့် မြစ်ရေလျှံခြင်းနှင့် မြေပြိုဘေးအန္တရာယ်များကို သတိပြုရန် လိုအပ်သည်ဟူ၍ ဖြစ်သည်။ ဒေသန္တရအစိုးရ၏ အသိပေးချက်နှင့် အရေးပေါ်သတင်းပို့ဆောင်ချက်များအရ ကယ်ဆယ်ရေးစခန်းများကို စတင်ဖွင့်လှစ်ထားပြီဟူ၍ သိရသည်။ လူမှုကွန်ရက်ပေါ်ရှိ မခိုင်လုံသော ကောလာဟလစကားများနှင့် သတင်းမှားများကို မယုံကြည်ဘဲ တရားဝင်သတင်းထုတ်ပြန်ချက်များကိုသာ စစ်ဆေး၍ ဘေးကင်းရေးကို ကြိုတင်ပြင်ဆင်ကြရန် နှိုးဆော်ထားသည်။",
+    "questionIds": [
+      "n3.l31.q025",
+      "n3.l31.q026",
+      "n3.l31.q027"
+    ],
+    "difficulty": 3,
+    "glossary": [
+      {
+        "term": "最接近",
+        "reading": "さいせっきん",
+        "meaning": "closest approach (မုန်တိုင်းအနီးဆုံးရောက်ရှိခြင်း)",
+        "meaningMy": "closest approach (မုန်တိုင်းအနီးဆုံးရောက်ရှိခြင်း)",
+        "meaningMyanmar": "closest approach (မုန်တိုင်းအနီးဆုံးရောက်ရှိခြင်း)"
+      },
+      {
+        "term": "氾濫",
+        "reading": "はんらん",
+        "meaning": "overflow / flooding (ရေလျှံတက်ခြင်း)",
+        "meaningMy": "overflow / flooding (ရေလျှံတက်ခြင်း)",
+        "meaningMyanmar": "overflow / flooding (ရေလျှံတက်ခြင်း)"
+      },
+      {
+        "term": "惑わされる",
+        "reading": "まどわされる",
+        "meaning": "to be misled (လမ်းလွဲလှည့်စားခံရသည်)",
+        "meaningMy": "to be misled (လမ်းလွဲလှည့်စားခံရသည်)",
+        "meaningMyanmar": "to be misled (လမ်းလွဲလှည့်စားခံရသည်)"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n3.l31.lis001",
+    "lessonId": "n3.l31",
+    "title": "社内でのスケジュール変更の連絡",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "田中",
+      "小林"
+    ],
+    "transcript": "田中: 小林さん、さっき総務部から連絡があったんだけど、聞いた？\n小林: いえ、外回りに出ていたのでまだです。何かあったんですか。\n田中: 社内通知によると、全社システム更新のため、明日は終日社内ネットワークが停止するそうだ。\n小林: えっ、本当ですか。ということは、明日のオンライン会議は延期になるということですか。\n田中: うん、そういうことだ。後ほど部長から正式な伝達メールが届くはずだよ。",
+    "translation": "田中: ကိုဘာယာရှီစံ၊ စောစောက အထွေထွေအုပ်ချုပ်ရေးဌာနက အကြောင်းကြားစာရောက်လာတယ်၊ ကြားပြီးပြီလား။\n小林: မဟုတ်ဘူး၊ အပြင်ကိစ္စနဲ့ ထွက်နေရလို့ မသိသေးဘူးခင်ဗျာ။ ဘာဖြစ်လို့လဲခင်ဗျာ။\n田中: ကုမ္ပဏီတွင်း အသိပေးချက်အရ စနစ်တစ်ခုလုံး အဆင့်မြှင့်တင်ရန်အတွက် မနက်ဖြန် တစ်နေကုန် ကွန်ရက်ပိတ်ထားမည်ဟု ကြားရသည်။\n小林: ဟာ ဟုတ်လားခင်ဗျာ။ ဒါဆို မနက်ဖြန် အွန်လိုင်းအစည်းအဝေးက ရွှေ့ဆိုင်းရမယ့်သဘောလား။\n田中: အင်း၊ အဲ့ဒီသဘောပဲ။ ခဏနေရင် ဌာနမှူးဆီကနေ တရားဝင် အကြောင်းကြားစာမေးလ် ရောက်လာလိမ့်မယ်။",
+    "translationMy": "田中: ကိုဘာယာရှီစံ၊ စောစောက အထွေထွေအုပ်ချုပ်ရေးဌာနက အကြောင်းကြားစာရောက်လာတယ်၊ ကြားပြီးပြီလား။\n小林: မဟုတ်ဘူး၊ အပြင်ကိစ္စနဲ့ ထွက်နေရလို့ မသိသေးဘူးခင်ဗျာ။ ဘာဖြစ်လို့လဲခင်ဗျာ။\n田中: ကုမ္ပဏီတွင်း အသိပေးချက်အရ စနစ်တစ်ခုလုံး အဆင့်မြှင့်တင်ရန်အတွက် မနက်ဖြန် တစ်နေကုန် ကွန်ရက်ပိတ်ထားမည်ဟု ကြားရသည်။\n小林: ဟာ ဟုတ်လားခင်ဗျာ။ ဒါဆို မနက်ဖြန် အွန်လိုင်းအစည်းအဝေးက ရွှေ့ဆိုင်းရမယ့်သဘောလား။\n田中: အင်း၊ အဲ့ဒီသဘောပဲ။ ခဏနေရင် ဌာနမှူးဆီကနေ တရားဝင် အကြောင်းကြားစာမေးလ် ရောက်လာလိမ့်မယ်။",
+    "turns": [
+      {
+        "speaker": "田中",
+        "ja": "小林さん、さっき総務部から連絡があったんだけど、聞いた？",
+        "kana": "こばやしさん、さっきそうむぶかられんらくがあったんだけど、きいた？",
+        "en": "Kobayashi-san, there was just a message from General Affairs, did you hear?",
+        "my": "ကိုဘာယာရှီစံ၊ စောစောက အထွေထွေအုပ်ချုပ်ရေးဌာနက အကြောင်းကြားစာရောက်လာတယ်၊ ကြားပြီးပြီလား။",
+        "translationMy": "ကိုဘာယာရှီစံ၊ စောစောက အထွေထွေအုပ်ချုပ်ရေးဌာနက အကြောင်းကြားစာရောက်လာတယ်၊ ကြားပြီးပြီလား။",
+        "myanmar": "ကိုဘာယာရှီစံ၊ စောစောက အထွေထွေအုပ်ချုပ်ရေးဌာနက အကြောင်းကြားစာရောက်လာတယ်၊ ကြားပြီးပြီလား။"
+      },
+      {
+        "speaker": "小林",
+        "ja": "いえ、外回りに出ていたのでまだです。何かあったんですか。",
+        "kana": "いえ、そとまわりにでていたのでまだです。なにかあったんですか。",
+        "en": "No, I was out on client visits so not yet. Did something happen?",
+        "my": "မဟုတ်ဘူး၊ အပြင်ကိစ္စနဲ့ ထွက်နေရလို့ မသိသေးဘူးခင်ဗျာ။ ဘာဖြစ်လို့လဲခင်ဗျာ။",
+        "translationMy": "မဟုတ်ဘူး၊ အပြင်ကိစ္စနဲ့ ထွက်နေရလို့ မသိသေးဘူးခင်ဗျာ။ ဘာဖြစ်လို့လဲခင်ဗျာ။",
+        "myanmar": "မဟုတ်ဘူး၊ အပြင်ကိစ္စနဲ့ ထွက်နေရလို့ မသိသေးဘူးခင်ဗျာ။ ဘာဖြစ်လို့လဲခင်ဗျာ။"
+      },
+      {
+        "speaker": "田中",
+        "ja": "社内通知によると、全社システム更新のため、明日は終日社内ネットワークが停止するそうだ。",
+        "kana": "しゃないつうちによると、ぜんしゃしすてむこうしんのため、あしたはしゅうじつしゃないねっとわーくがていしするそうだ。",
+        "en": "According to the internal notice, the company network will be down all day tomorrow for a system upgrade.",
+        "my": "ကုမ္ပဏီတွင်း အသိပေးချက်အရ စနစ်တစ်ခုလုံး အဆင့်မြှင့်တင်ရန်အတွက် မနက်ဖြန် တစ်နေကုန် ကွန်ရက်ပိတ်ထားမည်ဟု ကြားရသည်။",
+        "translationMy": "ကုမ္ပဏီတွင်း အသိပေးချက်အရ စနစ်တစ်ခုလုံး အဆင့်မြှင့်တင်ရန်အတွက် မနက်ဖြန် တစ်နေကုန် ကွန်ရက်ပိတ်ထားမည်ဟု ကြားရသည်။",
+        "myanmar": "ကုမ္ပဏီတွင်း အသိပေးချက်အရ စနစ်တစ်ခုလုံး အဆင့်မြှင့်တင်ရန်အတွက် မနက်ဖြန် တစ်နေကုန် ကွန်ရက်ပိတ်ထားမည်ဟု ကြားရသည်။"
+      },
+      {
+        "speaker": "小林",
+        "ja": "えっ、本当ですか。ということは、明日のオンライン会議は延期になるということですか。",
+        "kana": "えっ、ほんとうですか。ということは、あすのおんらいんかいぎはえんきになるということですか。",
+        "en": "What, really? Does that mean tomorrow's online meeting will be postponed?",
+        "my": "ဟာ ဟုတ်လားခင်ဗျာ။ ဒါဆို မနက်ဖြန် အွန်လိုင်းအစည်းအဝေးက ရွှေ့ဆိုင်းရမယ့်သဘောလား။",
+        "translationMy": "ဟာ ဟုတ်လားခင်ဗျာ။ ဒါဆို မနက်ဖြန် အွန်လိုင်းအစည်းအဝေးက ရွှေ့ဆိုင်းရမယ့်သဘောလား။",
+        "myanmar": "ဟာ ဟုတ်လားခင်ဗျာ။ ဒါဆို မနက်ဖြန် အွန်လိုင်းအစည်းအဝေးက ရွှေ့ဆိုင်းရမယ့်သဘောလား။"
+      },
+      {
+        "speaker": "田中",
+        "ja": "うん、そういうことだ。後ほど部長から正式な伝達メールが届くはずだよ。",
+        "kana": "うん、そういうことだ。のちほどぶちょうからせいしきなでんたつめーるがとどくはずだよ。",
+        "en": "Yes, exactly that. We should receive an official notification email from the department head shortly.",
+        "my": "အင်း၊ အဲ့ဒီသဘောပဲ။ ခဏနေရင် ဌာနမှူးဆီကနေ တရားဝင် အကြောင်းကြားစာမေးလ် ရောက်လာလိမ့်မယ်။",
+        "translationMy": "အင်း၊ အဲ့ဒီသဘောပဲ။ ခဏနေရင် ဌာနမှူးဆီကနေ တရားဝင် အကြောင်းကြားစာမေးလ် ရောက်လာလိမ့်မယ်။",
+        "myanmar": "အင်း၊ အဲ့ဒီသဘောပဲ။ ခဏနေရင် ဌာနမှူးဆီကနေ တရားဝင် အကြောင်းကြားစာမေးလ် ရောက်လာလိမ့်မယ်။"
+      }
+    ],
+    "questionIds": [
+      "n3.l31.q028",
+      "n3.l31.q029",
+      "n3.l31.q030"
+    ],
+    "difficulty": 3,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l31.q001",
+      "lessonId": "n3.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "口頭で相手に言い残す言葉やメッセージを何というか。",
+      "choices": [
+        "伝言",
+        "噂話",
+        "証言",
+        "報道"
+      ],
+      "answer": "伝言",
+      "explanation": "伝言 (でんごん) means a verbal message.",
+      "explanationMy": "နှုတ်ဖြင့် မှာကြားထားသော စကားကို 伝言 (နှုတ်မှာစကား) ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q002",
+      "lessonId": "n3.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "仕事の進行状況や結果を上司に知らせる文書を何というか。",
+      "choices": [
+        "報告書",
+        "噂話",
+        "予報",
+        "伝言"
+      ],
+      "answer": "報告書",
+      "explanation": "報告書 (ほうこくしょ) is a formal progress/status report.",
+      "explanationMy": "အလုပ်တိုးတက်မှုနှင့် ရလဒ်များကို အထက်လူကြီးထံ တင်ပြသည့်စာကို 報告書 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q003",
+      "lessonId": "n3.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "明日の天候を事前に予測して知らせるものを何というか。",
+      "choices": [
+        "天気予報",
+        "世間噂",
+        "証言",
+        "伝言"
+      ],
+      "answer": "天気予報",
+      "explanation": "天気予報 (てんきよほう) is the weather forecast.",
+      "explanationMy": "မနက်ဖြန် မိုးလေဝသအခြေအနေကို ကြိုတင်ခန့်မှန်းချက်ကို 天気予報 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q004",
+      "lessonId": "n3.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "人々の間で根拠なく広まっている話を何というか。",
+      "choices": [
+        "噂",
+        "確実",
+        "記事",
+        "報告"
+      ],
+      "answer": "噂",
+      "explanation": "噂 (うわさ) means rumor or unfounded talk.",
+      "explanationMy": "လူအများကြားတွင် အခြေအမြစ်မရှိဘဲ ပျံ့နှံ့နေသောစကားကို 噂 (ကောလာဟလ) ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q005",
+      "lessonId": "n3.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "判断や行動のために集められた知識や知らせを何というか。",
+      "choices": [
+        "情報",
+        "伝言",
+        "噂話",
+        "証言"
+      ],
+      "answer": "情報",
+      "explanation": "情報 (じょうほう) means information or data.",
+      "explanationMy": "အချက်အလက်နှင့် သတင်းအကြောင်းအရာများကို 情報 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q006",
+      "lessonId": "n3.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "新聞や雑誌に掲載される文章を何というか。",
+      "choices": [
+        "記事",
+        "予報",
+        "噂",
+        "伝達"
+      ],
+      "answer": "記事",
+      "explanation": "記事 (きじ) means newspaper/magazine article.",
+      "explanationMy": "သတင်းစာနှင့် မဂ္ဂဇင်းတွင် ဖော်ပြသော ဆောင်းပါးကို 記事 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q007",
+      "lessonId": "n3.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "公の場で事実や決定事項を広く知らせることを何というか。",
+      "choices": [
+        "発表",
+        "噂話",
+        "伝言",
+        "予報"
+      ],
+      "answer": "発表",
+      "explanation": "発表 (はっぴょう) means public announcement or presentation.",
+      "explanationMy": "လူအများအား တရားဝင်ထုတ်ဖော်ကြေညာခြင်းကို 発表 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q008",
+      "lessonId": "n3.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "間違いがなく信頼できる様子を表す言葉はどれか。",
+      "choices": [
+        "確実",
+        "曖昧",
+        "不確か",
+        "複雑"
+      ],
+      "answer": "確実",
+      "explanation": "確実 (かくじつ) means certain and dependable.",
+      "explanationMy": "သေချာတိကျပြီး ယုံကြည်စိတ်ချရသောအခြေအနေကို 確実 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q009",
+      "lessonId": "n3.l31",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「伝」の正しい訓読みはどれか。",
+      "choices": [
+        "つた・える",
+        "むく・いる",
+        "うわさ",
+        "たよ・る"
+      ],
+      "answer": "つた・える",
+      "explanation": "The kunyomi of 伝 is つた・える / つた・わる.",
+      "explanationMy": "伝 ၏ kunyomi မှာ つた・える (ပို့ဆောင်သည်) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q010",
+      "lessonId": "n3.l31",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「伝達」の正しい読み方はどれか。",
+      "choices": [
+        "でんたつ",
+        "でんとう",
+        "てんたつ",
+        "でんだつ"
+      ],
+      "answer": "でんたつ",
+      "explanation": "伝達 is read as でんたつ.",
+      "explanationMy": "伝達 ၏ အသံထွက်မှာ でんたつ ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q011",
+      "lessonId": "n3.l31",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「報」の正しい音読みはどれか。",
+      "choices": [
+        "ホウ",
+        "デン",
+        "ソン",
+        "ショウ"
+      ],
+      "answer": "ホウ",
+      "explanation": "The onyomi of 報 is ホウ.",
+      "explanationMy": "報 ၏ onyomi မှာ ホウ (ဥပမာ 報告 - ほうこく) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q012",
+      "lessonId": "n3.l31",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「報道」の正しい読み方はどれか。",
+      "choices": [
+        "ほうどう",
+        "ほうとう",
+        "ほどう",
+        "ほうど"
+      ],
+      "answer": "ほうどう",
+      "explanation": "報道 is read as ほうどう.",
+      "explanationMy": "報道 ၏ အသံထွက်မှာ ほうどう ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q013",
+      "lessonId": "n3.l31",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「噂」の意味として最も適切なものはどれか。",
+      "choices": [
+        "世間の評判や根拠のない話",
+        "公式な国家の法律",
+        "科学的な実験データ",
+        "親しい人への手紙"
+      ],
+      "answer": "世間の評判や根拠のない話",
+      "explanation": "噂 refers to rumors, gossip, or public talk.",
+      "explanationMy": "噂 ၏ အဓိပ္ပာယ်မှာ လူအများကြား ပြောဆိုနေသော ကောလာဟလ ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q014",
+      "lessonId": "n3.l31",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「噂話」の正しい読み方はどれか。",
+      "choices": [
+        "うわさばなし",
+        "うわさばし",
+        "そんばなし",
+        "うわさはなし"
+      ],
+      "answer": "うわさばなし",
+      "explanation": "噂話 is read as うわさばなし.",
+      "explanationMy": "噂話 ၏ အသံထွက်မှာ うわさばなし ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q015",
+      "lessonId": "n3.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "ニュース（　）、今夜は全国的に強い寒波が到来するそうだ。",
+      "choices": [
+        "によると",
+        "にとって",
+        "に対して",
+        "について"
+      ],
+      "answer": "によると",
+      "explanation": "Use 〜によると to indicate the news source for hearsay (〜そうだ).",
+      "explanationMy": "သတင်းအရင်းအမြစ်ကို ကိုးကားရန် 〜によると ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q016",
+      "lessonId": "n3.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜によると」の後ろに続く文末表現として最も自然なものはどれか。",
+      "choices": [
+        "〜そうだ",
+        "〜てください",
+        "〜つもりだ",
+        "〜たいです"
+      ],
+      "answer": "〜そうだ",
+      "explanation": "Sentences starting with 〜によると typically conclude with hearsay forms like 〜そうだ or 〜ということだ.",
+      "explanationMy": "〜によると ပါသောဝါကျများသည် အဆုံးတွင် သတင်းကြားသိရခြင်းပြ 〜そうだ နှင့် တွဲလေ့ရှိသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q017",
+      "lessonId": "n3.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "気象台の発表（　）、台風は進路を東に変えたそうだ。",
+      "choices": [
+        "によれば",
+        "に反して",
+        "に関して",
+        "に基づいて"
+      ],
+      "answer": "によれば",
+      "explanation": "〜によれば is a synonym of 〜によると citing information sources.",
+      "explanationMy": "〜によれば သည် 〜によると နှင့် အဓိပ္ပာယ်တူ သတင်းအရင်းအမြစ်ညွှန်းစကား ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q018",
+      "lessonId": "n3.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "山田さんの話では、新しい店は料理がとても美味しい（　）。",
+      "choices": [
+        "そうだ",
+        "ようだ",
+        "らしいだ",
+        "みたいだ"
+      ],
+      "answer": "そうだ",
+      "explanation": "For hearsay relaying what someone said, use plain form + そうだ (美味しい + そうだ).",
+      "explanationMy": "ကြားသိရသောသတင်းကို ပြန်ပြောပြရာတွင် ရိုးရိုးပုံစံ + そうだ ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q019",
+      "lessonId": "n3.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "聞くところによると、来週の試験はかなり（　）そうだ。",
+      "choices": [
+        "難しい",
+        "難し",
+        "難しくて",
+        "難しかったら"
+      ],
+      "answer": "難しい",
+      "explanation": "I-adjectives attach in dictionary plain form: 難しい + そうだ.",
+      "explanationMy": "I-adj နှင့်တွဲရာတွင် ပင်ကိုမူရင်းပုံစံ 難しい + そうだ ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q020",
+      "lessonId": "n3.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "友達から聞いたんだけど、あの先生は以前海外で働いていた（　）。",
+      "choices": [
+        "そうだ",
+        "そうだた",
+        "そうでした",
+        "そうだり"
+      ],
+      "answer": "そうだ",
+      "explanation": "Past plain form (働いていた) + そうだ indicates hearsay.",
+      "explanationMy": "အတိတ်ကာလပုံစံနှင့် တွဲဆက်ရာတွင် 働いていた + そうだ ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q021",
+      "lessonId": "n3.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "市役所の公式発表によると、給付金の申請が来週から始まる（　）。",
+      "choices": [
+        "ということだ",
+        "というものだ",
+        "というわけだ",
+        "ということになる"
+      ],
+      "answer": "ということだ",
+      "explanation": "Use 〜ということだ for formal reporting of facts and announcements.",
+      "explanationMy": "တရားဝင်ကြေညာချက်များကို ပြန်လည်တင်ပြရာတွင် ということだ ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q022",
+      "lessonId": "n3.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ということだ」が文末に来る時の前の接続として正しいものはどれか。",
+      "choices": [
+        "普通形（Plain Form）",
+        "ます形（ます-stem）",
+        "て形（て-form）",
+        "命令形（Imperative）"
+      ],
+      "answer": "普通形（Plain Form）",
+      "explanation": "〜ということだ connects to the plain form of verbs, adjectives, and nouns.",
+      "explanationMy": "〜ということだ ၏ရှေ့တွင် ရိုးရိုးပုံစံ (Plain Form) လိုက်ရသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q023",
+      "lessonId": "n3.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "相手からのメールには、計画に同意する（　）書かれていた。",
+      "choices": [
+        "旨（むね）が",
+        "ことにして",
+        "ようにして",
+        "ばかりに"
+      ],
+      "answer": "旨（むね）が",
+      "explanation": "〜という旨（むね）が書かれていた means 'it was stated to the effect that...'",
+      "explanationMy": "ဆိုလိုရင်းသဘောကို ဖော်ပြရာတွင် သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q024",
+      "lessonId": "n3.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ということだ」の持つ二つの主な用法はどれか。",
+      "choices": [
+        "伝聞（〜と聞いている）と意味の説明（つまり〜という意味だ）",
+        "禁止と義務",
+        "願望と後悔",
+        "比較と受身"
+      ],
+      "answer": "伝聞（〜と聞いている）と意味の説明（つまり〜という意味だ）",
+      "explanation": "〜ということだ functions as hearsay reportage and as a rephrasing of meaning.",
+      "explanationMy": "ကြားသိရသောသတင်းဖော်ပြခြင်းနှင့် ဆိုလိုရင်းအဓိပ္ပာယ်ရှင်းပြခြင်း နှစ်မျိုးလုံးတွင် သုံးနိုင်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q025",
+      "lessonId": "n3.l31",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "気象庁の発表によると、台風はいつ最接近する予定ですか。",
+      "choices": [
+        "今夜から明日の未明にかけて",
+        "明日の午後から夜にかけて",
+        "来週の月曜日以降",
+        "すでに通過して遠ざかっている"
+      ],
+      "answer": "今夜から明日の未明にかけて",
+      "explanation": "The text states: 台風が今夜から明日の未明にかけて当地域に最接近するそうだ。",
+      "explanationMy": "စာပိုဒ်တွင် ယနေ့ညမှ မနက်ဖြန်မိုးသောက်ယံအထိ အနီးကပ်ဆုံးဖြစ်မည်ဟု ရှင်းလင်းစွာ ဖော်ပြထားသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q026",
+      "lessonId": "n3.l31",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "沿岸部で警戒が必要だとされている主な被害は何ですか。",
+      "choices": [
+        "激しい雨と突風による河川氾濫や土砂災害",
+        "乾燥による大規模な山火事",
+        "冬の寒波による水道管の凍結",
+        "地震による津波の到達"
+      ],
+      "answer": "激しい雨と突風による河川氾濫や土砂災害",
+      "explanation": "The text mentions very heavy rain and gusts causing river flooding and landslides.",
+      "explanationMy": "မိုးပြင်းထန်စွာရွာသွန်းပြီး လေပြင်းတိုက်ခတ်မှုကြောင့် မြစ်ရေလျှံခြင်းနှင့် မြေပြိုဘေးကို သတိပေးထားသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q027",
+      "lessonId": "n3.l31",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "住民に対して呼びかけられている正しい行動は何ですか。",
+      "choices": [
+        "SNSの噂話を気にせず公式な報道や発表を確認すること",
+        "SNSの噂話を拡散して皆に知らせること",
+        "雨が弱まるまで避難所へは絶対に行かないこと",
+        "海岸へ行って波の高さを直接見ること"
+      ],
+      "answer": "SNSの噂話を気にせず公式な報道や発表を確認すること",
+      "explanation": "The passage urges residents not to be misled by SNS rumors and to confirm official reports.",
+      "explanationMy": "လူမှုကွန်ရက်ပေါ်မှ ကောလာဟလများကို မယုံဘဲ တရားဝင်သတင်းများကို စစ်ဆေးရန် နှိုးဆော်ထားသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q028",
+      "lessonId": "n3.l31",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "社内ネットワークが停止する理由は何ですか。",
+      "choices": [
+        "全社システムの更新作業を行うため",
+        "電気代を節約するため",
+        "天候不良で回線が切断されたため",
+        "オフィスの引っ越し作業のため"
+      ],
+      "answer": "全社システムの更新作業を行うため",
+      "explanation": "Tanaka explains the network stops due to system upgrades (全社システム更新のため).",
+      "explanationMy": "စနစ်တစ်ခုလုံး အဆင့်မြှင့်တင်ရေးလုပ်ငန်းများ ပြုလုပ်ရန်ဖြစ်ကြောင်း တနခစံက ရှင်းပြသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q029",
+      "lessonId": "n3.l31",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "明日のオンライン会議はどうなりますか。",
+      "choices": [
+        "ネットワーク停止に伴い延期になる",
+        "予定通り通常通り開催される",
+        "時間を早めて朝一番に行われる",
+        "中止になって別のテーマに変更される"
+      ],
+      "answer": "ネットワーク停止に伴い延期になる",
+      "explanation": "The dialogue confirms that the meeting is postponed due to the network outage.",
+      "explanationMy": "ကွန်ရက်ပိတ်ထားမည်ဖြစ်သဖြင့် မနက်ဖြန်အွန်လိုင်းအစည်းအဝေးကို ရွှေ့ဆိုင်းမည် ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l31.q030",
+      "lessonId": "n3.l31",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "小林さんはこの後どうすることになりますか。",
+      "choices": [
+        "部長からの正式な伝達メールを確認する",
+        "すぐにシステム管理者に電話して抗議する",
+        "明日の会議の資料を今すぐ印刷する",
+        "今日の仕事を切り上げて帰宅する"
+      ],
+      "answer": "部長からの正式な伝達メールを確認する",
+      "explanation": "Tanaka mentions an official email from the manager will arrive shortly.",
+      "explanationMy": "ဌာနမှူးထံမှ ရောက်ရှိလာမည့် တရားဝင်အီးမေးလ်ကို စစ်ဆေးရမည် ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l31.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-06T10:00:00Z",
+    "rev": 2
+  }
+}

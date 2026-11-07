@@ -1,0 +1,1802 @@
+import { LessonPack } from '../../../models/types';
+
+export const n2l45Data: LessonPack = {
+  "id": "n2.l45",
+  "level": "N2",
+  "module": "N2 Mastery & Professional Japanese",
+  "number": 45,
+  "title": "N2 Lesson 45: Evaluation, Criteria & Standards (〜に即して・〜を踏まえて・〜に照らして)",
+  "description": "Mastery module focusing on Practical Alignment, Contextual Foundations, and Regulatory Comparison: adhering to authentic facts (に即して), basing moves on contextual findings (を踏まえて), and evaluating against legal/moral norms (に照らして).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l45.v001",
+      "lessonId": "n2.l45",
+      "ja": "即座",
+      "kana": "そくざ",
+      "en": "Immediate / Instant / On the spot",
+      "my": "ချက်ချင်းလက်ငင်း",
+      "meaningMy": "ချက်ချင်းလက်ငင်း",
+      "meaningMyanmar": "ချက်ချင်းလက်ငင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l45.s001",
+      "kanjiIds": [
+        "n2.l45.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.v002",
+      "lessonId": "n2.l45",
+      "ja": "即答",
+      "kana": "そくとう",
+      "en": "Prompt reply / Immediate answer",
+      "my": "ချက်ချင်းအဖြေပေးခြင်း",
+      "meaningMy": "ချက်ချင်းအဖြေပေးခြင်း",
+      "meaningMyanmar": "ချက်ချင်းအဖြေပေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l45.s002",
+      "kanjiIds": [
+        "n2.l45.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.v003",
+      "lessonId": "n2.l45",
+      "ja": "踏襲",
+      "kana": "とうしゅう",
+      "en": "Following precedent / Adhering to conventions",
+      "my": "ရှေးရိုးအစဉ်အလာကို ဆက်ခံခြင်း",
+      "meaningMy": "ရှေးရိုးအစဉ်အလာကို ဆက်ခံခြင်း",
+      "meaningMyanmar": "ရှေးရိုးအစဉ်အလာကို ဆက်ခံခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l45.s003",
+      "kanjiIds": [
+        "n2.l45.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.v004",
+      "lessonId": "n2.l45",
+      "ja": "踏破",
+      "kana": "とうは",
+      "en": "Traversing on foot / Walking all the way",
+      "my": "ခြေကျင်ခရီးပေါက်မြောက်ခြင်း",
+      "meaningMy": "ခြေကျင်ခရီးပေါက်မြောက်ခြင်း",
+      "meaningMyanmar": "ခြေကျင်ခရီးပေါက်မြောက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l45.s004",
+      "kanjiIds": [
+        "n2.l45.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.v005",
+      "lessonId": "n2.l45",
+      "ja": "照合",
+      "kana": "しょうごう",
+      "en": "Collation / Cross-checking / Verification",
+      "my": "နှိုင်းယှဉ်တိုက်ဆိုင်စစ်ဆေးခြင်း",
+      "meaningMy": "နှိုင်းယှဉ်တိုက်ဆိုင်စစ်ဆေးခြင်း",
+      "meaningMyanmar": "နှိုင်းယှဉ်တိုက်ဆိုင်စစ်ဆေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l45.s005",
+      "kanjiIds": [
+        "n2.l45.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.v006",
+      "lessonId": "n2.l45",
+      "ja": "参照",
+      "kana": "さんしょう",
+      "en": "Reference / Consultation",
+      "my": "ကိုးကားကြည့်ရှုခြင်း",
+      "meaningMy": "ကိုးကားကြည့်ရှုခြင်း",
+      "meaningMyanmar": "ကိုးကားကြည့်ရှုခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l45.s006",
+      "kanjiIds": [
+        "n2.l45.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.v007",
+      "lessonId": "n2.l45",
+      "ja": "基準",
+      "kana": "きじゅん",
+      "en": "Standard / Benchmark / Criterion",
+      "my": "စံသတ်မှတ်ချက်",
+      "meaningMy": "စံသတ်မှတ်ချက်",
+      "meaningMyanmar": "စံသတ်မှတ်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l45.s007",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.v008",
+      "lessonId": "n2.l45",
+      "ja": "規範",
+      "kana": "きはん",
+      "en": "Norm / Ethical model / Benchmark",
+      "my": "ကျင့်ဝတ်စံနှုန်း",
+      "meaningMy": "ကျင့်ဝတ်စံနှုန်း",
+      "meaningMyanmar": "ကျင့်ဝတ်စံနှုန်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l45.s008",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.v009",
+      "lessonId": "n2.l45",
+      "ja": "遵守",
+      "kana": "じゅんしゅ",
+      "en": "Compliance / Observance / Adherence",
+      "my": "လိုက်နာစောင့်ထိန်းခြင်း",
+      "meaningMy": "လိုက်နာစောင့်ထိန်းခြင်း",
+      "meaningMyanmar": "လိုက်နာစောင့်ထိန်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l45.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.v010",
+      "lessonId": "n2.l45",
+      "ja": "妥当",
+      "kana": "だとう",
+      "en": "Proper / Valid / Reasonable",
+      "my": "သင့်လျော်မှန်ကန်သော",
+      "meaningMy": "သင့်လျော်မှန်ကန်သော",
+      "meaningMyanmar": "သင့်လျော်မှန်ကန်သော",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l45.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.v011",
+      "lessonId": "n2.l45",
+      "ja": "根拠",
+      "kana": "こんきょ",
+      "en": "Grounds / Basis / Justification",
+      "my": "ခိုင်လုံသောအထောက်အထား",
+      "meaningMy": "ခိုင်လုံသောအထောက်အထား",
+      "meaningMyanmar": "ခိုင်လုံသောအထောက်အထား",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l45.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.v012",
+      "lessonId": "n2.l45",
+      "ja": "整合",
+      "kana": "せいごう",
+      "en": "Conformity / Alignment / Consistency",
+      "my": "ကိုက်ညီညီညွတ်ခြင်း",
+      "meaningMy": "ကိုက်ညီညီညွတ်ခြင်း",
+      "meaningMyanmar": "ကိုက်ညီညီညွတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l45.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l45.k001",
+      "lessonId": "n2.l45",
+      "char": "即",
+      "meaning": "Prompt / Immediate / Adhere / Conform",
+      "meaningMy": "ချက်ချင်း / လိုက်လျောညီထွေဖြစ်ခြင်း / ကိုက်ညီခြင်း",
+      "meaningMyanmar": "ချက်ချင်း / လိုက်လျောညီထွေဖြစ်ခြင်း / ကိုက်ညီခြင်း",
+      "onyomi": [
+        "ソク"
+      ],
+      "kunyomi": [
+        "つ・く",
+        "すなわ・ち"
+      ],
+      "exampleVocab": [
+        {
+          "word": "即座",
+          "reading": "そくざ",
+          "meaning": "immediate / right on the spot",
+          "meaningMy": "ချက်ချင်းလက်ငင်း",
+          "preview": false
+        },
+        {
+          "word": "即答",
+          "reading": "そくとう",
+          "meaning": "prompt reply / immediate answer",
+          "meaningMy": "ချက်ချင်းအဖြေပေးခြင်း",
+          "preview": false
+        },
+        {
+          "word": "即時",
+          "reading": "そくじ",
+          "meaning": "instant / real-time",
+          "meaningMy": "ချက်ချင်းအချိန်",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l45.s001"
+      ],
+      "components": [
+        "艮",
+        "卩"
+      ],
+      "strokes": 7,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.k002",
+      "lessonId": "n2.l45",
+      "char": "踏",
+      "meaning": "Tread / Step on / Trample / Base on",
+      "meaningMy": "နင်းခြေခြင်း / အခြေခံထောက်ထားခြင်း / ဖြတ်သန်းကျော်လွှားခြင်း",
+      "meaningMyanmar": "နင်းခြေခြင်း / အခြေခံထောက်ထားခြင်း / ဖြတ်သန်းကျော်လွှားခြင်း",
+      "onyomi": [
+        "トウ"
+      ],
+      "kunyomi": [
+        "ふ・む",
+        "ふ・まえる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "踏襲",
+          "reading": "とうしゅう",
+          "meaning": "following / continuation of precedent",
+          "meaningMy": "ရှေးရိုးအစဉ်အလာကို ဆက်ခံခြင်း",
+          "preview": false
+        },
+        {
+          "word": "踏破",
+          "reading": "とうは",
+          "meaning": "traveling across / traversing on foot",
+          "meaningMy": "ခြေကျင်ခရီးပေါက်မြောက်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "踏切",
+          "reading": "ふみきり",
+          "meaning": "railway crossing",
+          "meaningMy": "မီးရထားသံလမ်းဖြတ်ကျော်ရာ",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l45.s002"
+      ],
+      "components": [
+        "足",
+        "沓"
+      ],
+      "strokes": 15,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.k003",
+      "lessonId": "n2.l45",
+      "char": "照",
+      "meaning": "Shine / Illuminate / Compare / Verify",
+      "meaningMy": "လင်းလက်ထွန်းတောက်ခြင်း / နှိုင်းယှဉ်စစ်ဆေးခြင်း",
+      "meaningMyanmar": "လင်းလက်ထွန်းတောက်ခြင်း / နှိုင်းယှဉ်စစ်ဆေးခြင်း",
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "て・る",
+        "て・らす",
+        "て・れる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "照合",
+          "reading": "しょうごう",
+          "meaning": "collation / verification",
+          "meaningMy": "နှိုင်းယှဉ်တိုက်ဆိုင်စစ်ဆေးခြင်း",
+          "preview": false
+        },
+        {
+          "word": "参照",
+          "reading": "さんしょう",
+          "meaning": "reference / consultation",
+          "meaningMy": "ကိုးကားကြည့်ရှုခြင်း",
+          "preview": false
+        },
+        {
+          "word": "対照",
+          "reading": "たいしょう",
+          "meaning": "contrast / comparison",
+          "meaningMy": "ဆန့်ကျင်ဘက်ယှဉ်ထိုးမှု",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l45.s003"
+      ],
+      "components": [
+        "日",
+        "召",
+        "灬"
+      ],
+      "strokes": 13,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l45.g001",
+      "lessonId": "n2.l45",
+      "pattern": "〜に即して（即した）",
+      "meaning": "In accordance with / In line with (facts, reality, or rules)",
+      "meaningMy": "လက်တွေ့အခြေအနေနှင့်အညီ / အမှန်တရားကို အခြေခံလျက်",
+      "meaningMyanmar": "လက်တွေ့အခြေအနေနှင့်အညီ / အမှန်တရားကို အခြေခံလျက်",
+      "formation": "名詞 ＋ に即して / に即した ＋ 名詞",
+      "explanation": {
+        "en": "Emphasizes tailoring policies, actions, or explanations tightly to practical realities, authentic evidence, or existing statutory rules without abstraction.",
+        "my": "စိတ်ကူးယဉ်မဟုတ်ဘဲ လက်တွေ့အခြေအနေ၊ အဖြစ်မှန် သို့မဟုတ် တည်ဆဲစည်းမျဉ်းများနှင့် ကိုက်ညီညီညွတ်စွာ ဆောင်ရွက်ခြင်းကို ပြသသည်။"
+      },
+      "explanationMy": "စိတ်ကူးယဉ်မဟုတ်ဘဲ လက်တွေ့အခြေအနေ၊ အဖြစ်မှန် သို့မဟုတ် တည်ဆဲစည်းမျဉ်းများနှင့် ကိုက်ညီညီညွတ်စွာ ဆောင်ရွက်ခြင်းကို ပြသသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l45.s001",
+          "note": "〜に即して（即した） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l45.s002",
+          "note": "〜に即して（即した） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l45.s003",
+          "note": "〜に即して（即した） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l45.s004",
+          "note": "〜に即して（即した） usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l45.g001",
+        "n2.l45.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜に即して（即した）."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "机上の空論ではなく、現場の実態[ _____ ]計画を立てるべきだ。",
+      "clozeTarget": "に即して",
+      "clozeHint": "Noun + に即して",
+      "acceptableSynonyms": [
+        "〜に合わせて",
+        "〜に従って",
+        "〜に沿って"
+      ],
+      "nuanceExplanationMy": "လက်တွေ့ဘဝနှင့် ကင်းကွာမနေစေရန် အလေးပေးဖော်ပြရာတွင် သုံးသည်။"
+    },
+    {
+      "id": "n2.l45.g002",
+      "lessonId": "n2.l45",
+      "pattern": "〜を踏まえて（踏まえた）",
+      "meaning": "Based on / Taking into account (past experiences or survey findings)",
+      "meaningMy": "ကို အခြေခံထောက်ထားလျက် / ၏ အချက်အလက်များကို ထည့်သွင်းစဉ်းစားကာ",
+      "meaningMyanmar": "ကို အခြေခံထောက်ထားလျက် / ၏ အချက်အလက်များကို ထည့်သွင်းစဉ်းစားကာ",
+      "formation": "名詞 ＋ を踏まえて / を踏まえた ＋ 名詞",
+      "explanation": {
+        "en": "Signifies building the next stage of decisions or reforms squarely upon the firm foundation of prior lessons, audit feedback, or research findings.",
+        "my": "ယခင်က သင်ခန်းစာများ၊ စစ်ဆေးတွေ့ရှိချက်များ သို့မဟုတ် သုတေသန အချက်အလက်များကို ခိုင်မာစွာ ထောက်ထားစဉ်းစား၍ နောက်တစ်ဆင့် အစီအစဉ် ရေးဆွဲရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "ယခင်က သင်ခန်းစာများ၊ စစ်ဆေးတွေ့ရှိချက်များ သို့မဟုတ် သုတေသန အချက်အလက်များကို ခိုင်မာစွာ ထောက်ထားစဉ်းစား၍ နောက်တစ်ဆင့် အစီအစဉ် ရေးဆွဲရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l45.s005",
+          "note": "〜を踏まえて（踏まえた） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l45.s006",
+          "note": "〜を踏まえて（踏まえた） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l45.s007",
+          "note": "〜を踏まえて（踏まえた） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l45.s008",
+          "note": "〜を踏まえて（踏まえた） usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l45.g001",
+        "n2.l45.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜を踏まえて（踏まえた）."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "前回の失敗の教訓[ _____ ]、新たな再発防止策を策定した。",
+      "clozeTarget": "を踏まえて",
+      "clozeHint": "Noun + を踏まえて",
+      "acceptableSynonyms": [
+        "〜を前提として",
+        "〜を考慮して",
+        "〜をもとにして"
+      ],
+      "nuanceExplanationMy": "အစီရင်ခံစာများ၊ အစည်းအဝေးများတွင် တရားဝင်အဆင့်မြင့်စွာ သုံးသည်။"
+    },
+    {
+      "id": "n2.l45.g003",
+      "lessonId": "n2.l45",
+      "pattern": "〜に照らして（照らした）",
+      "meaning": "In light of... / Comparing against (laws, conscience, or benchmarks)",
+      "meaningMy": "နှင့် ချိန်ထိုးစစ်ဆေးကြည့်ပါက / ၏ စံနှုန်းဖြင့် တိုက်ဆိုင်စစ်ဆေးလျှင်",
+      "meaningMyanmar": "နှင့် ချိန်ထိုးစစ်ဆေးကြည့်ပါက / ၏ စံနှုန်းဖြင့် တိုက်ဆိုင်စစ်ဆေးလျှင်",
+      "formation": "名詞 ＋ に照らして / に照らした ＋ 名詞",
+      "explanation": {
+        "en": "Judges the propriety, legality, or moral standing of a conduct by shining the critical light of existing laws, social norms, or conscience upon it.",
+        "my": "ပြုမူဆောင်ရွက်ချက်တစ်ခုသည် ဥပဒေ၊ လူမှုကျင့်ဝတ် သို့မဟုတ် သြတ္တပ္ပစိတ် စံနှုန်းများနှင့် ကိုက်ညီမှု ရှိမရှိ ချိန်ထိုးစစ်ဆေး ဝေဖန်ရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "ပြုမူဆောင်ရွက်ချက်တစ်ခုသည် ဥပဒေ၊ လူမှုကျင့်ဝတ် သို့မဟုတ် သြတ္တပ္ပစိတ် စံနှုန်းများနှင့် ကိုက်ညီမှု ရှိမရှိ ချိန်ထိုးစစ်ဆေး ဝေဖန်ရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l45.s009",
+          "note": "〜に照らして（照らした） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l45.s010",
+          "note": "〜に照らして（照らした） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l45.s011",
+          "note": "〜に照らして（照らした） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l45.s012",
+          "note": "〜に照らして（照らした） usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l45.g001",
+        "n2.l45.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜に照らして（照らした）."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "自らの良心[ _____ ]、恥じることのない公明正大な行動をとるべきだ。",
+      "clozeTarget": "に照らして",
+      "clozeHint": "Noun + に照らして",
+      "acceptableSynonyms": [
+        "〜と照らし合わせて",
+        "〜を基準として",
+        "〜に鑑みて"
+      ],
+      "nuanceExplanationMy": "တရားဥပဒေ သို့မဟုတ် ကိုယ်ကျင့်တရားအရ ဆုံးဖြတ်စစ်ဆေးရာတွင် သုံးသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l45.s001",
+      "lessonId": "n2.l45",
+      "ja": "理論上の計算だけでなく、実際の現場の状況に即して安全マニュアルを改定した。",
+      "kana": "りろんじょうのけいさんだけでなく、じっさいのげんばのじょうきょうにそくしてあんぜんマニュアルをかいていした。",
+      "translation": {
+        "en": "Not merely relying on theoretical calculations, we revised the safety manual in line with actual on-site conditions.",
+        "my": "သီအိုရီ တွက်ချက်မှုတစ်ခုတည်း မဟုတ်ဘဲ တကယ့်လုပ်ငန်းခွင် အခြေအနေနှင့်အညီ ဘေးကင်းရေး လမ်းညွှန်စာအုပ်ကို ပြင်ဆင်ခဲ့သည်။"
+      },
+      "translationMy": "သီအိုရီ တွက်ချက်မှုတစ်ခုတည်း မဟုတ်ဘဲ တကယ့်လုပ်ငန်းခွင် အခြေအနေနှင့်အညီ ဘေးကင်းရေး လမ်းညွှန်စာအုပ်ကို ပြင်ဆင်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l45.v007",
+        "n2.l45.v010"
+      ],
+      "grammarIds": [
+        "n2.l45.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.s002",
+      "lessonId": "n2.l45",
+      "ja": "時代遅れの慣習を漫然と踏襲するのではなく、利用者の実態に即したサービスを提供すべきだ。",
+      "kana": "じだいおくれのかんしゅうをまんぜんととうしゅうするのではなく、りようしゃのじったいにそくしたサービスをついきょうすべきだ。",
+      "translation": {
+        "en": "Instead of lazily following outdated conventions, we ought to deliver services tailored to user realities.",
+        "my": "ခေတ်မမီတော့သော အလေ့အထများကို အမှတ်မဲ့ ဆက်လက်မကျင့်သုံးဘဲ အသုံးပြုသူများ၏ အခြေအနေနှင့်အညီ ဝန်ဆောင်မှုပေးသင့်သည်။"
+      },
+      "translationMy": "ခေတ်မမီတော့သော အလေ့အထများကို အမှတ်မဲ့ ဆက်လက်မကျင့်သုံးဘဲ အသုံးပြုသူများ၏ အခြေအနေနှင့်အညီ ဝန်ဆောင်မှုပေးသင့်သည်။",
+      "vocabIds": [
+        "n2.l45.v003",
+        "n2.l45.v009"
+      ],
+      "grammarIds": [
+        "n2.l45.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.s003",
+      "lessonId": "n2.l45",
+      "ja": "質問に対して即座に即答することは避け、客観的な事実関係に即して慎重に回答した。",
+      "kana": "しつもんに対してそくざにそくとうすることはさけ、きゃっかんてきなじじつかんけいにそくしてしんちょうにかいとうした。",
+      "translation": {
+        "en": "Avoiding answering right on the spot, he responded cautiously in line with objective factual relations.",
+        "my": "မေးခွန်းကို ချက်ချင်း အလျင်စလို ဖြေကြားခြင်းကို ရှောင်ရှားပြီး ဓမ္မဓိဋ္ဌာန်ကျသော အချက်အလက်များနှင့်အညီ သတိကြီးစွာ ပြန်လည်ဖြေကြားခဲ့သည်။"
+      },
+      "translationMy": "မေးခွန်းကို ချက်ချင်း အလျင်စလို ဖြေကြားခြင်းကို ရှောင်ရှားပြီး ဓမ္မဓိဋ္ဌာန်ကျသော အချက်အလက်များနှင့်အညီ သတိကြီးစွာ ပြန်လည်ဖြေကြားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l45.v001",
+        "n2.l45.v002"
+      ],
+      "grammarIds": [
+        "n2.l45.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.s004",
+      "lessonId": "n2.l45",
+      "ja": "現代社会の多様性に即した法整備を進めることが、基本的人権を守る礎となる。",
+      "kana": "げんだいしゃかいのたようせいにそくしたほうせいびをすすめることが、きほんてきじんけんをまもるいしずえとなる。",
+      "translation": {
+        "en": "Promoting legal improvements tailored to modern social diversity serves as the cornerstone of protecting human rights.",
+        "my": "မျက်မှောက်ခေတ် လူ့ဘောင်၏ မတူကွဲပြားမှုများနှင့် ကိုက်ညီသော ဥပဒေပြင်ဆင်ချက်များကို ဆောင်ရွက်ခြင်းသည် လူ့အခွင့်အရေး ကာကွယ်မှု၏ အခြေခံအုတ်မြစ် ဖြစ်သည်။"
+      },
+      "translationMy": "မျက်မှောက်ခေတ် လူ့ဘောင်၏ မတူကွဲပြားမှုများနှင့် ကိုက်ညီသော ဥပဒေပြင်ဆင်ချက်များကို ဆောင်ရွက်ခြင်းသည် လူ့အခွင့်အရေး ကာကွယ်မှု၏ အခြေခံအုတ်မြစ် ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l45.v008",
+        "n2.l45.v009"
+      ],
+      "grammarIds": [
+        "n2.l45.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.s005",
+      "lessonId": "n2.l45",
+      "ja": "住民アンケートの集計結果を踏まえて、新しいコミュニティセンターの建設計画を立案した。",
+      "kana": "じゅうみんアンケートのしゅうけいけっかをふまえて、あたらしいコミュニティセンターのけんせつけいかくをりつあんした。",
+      "translation": {
+        "en": "Taking into account survey tallies from residents, we drew up the construction plan for the new community center.",
+        "my": "ဒေသခံများ၏ စစ်တမ်းရလဒ်များကို အခြေခံထောက်ထား၍ ရပ်ရွာဗဟိုဌာနသစ် တည်ဆောက်ရေး အစီအစဉ်ကို ရေးဆွဲခဲ့သည်။"
+      },
+      "translationMy": "ဒေသခံများ၏ စစ်တမ်းရလဒ်များကို အခြေခံထောက်ထား၍ ရပ်ရွာဗဟိုဌာနသစ် တည်ဆောက်ရေး အစီအစဉ်ကို ရေးဆွဲခဲ့သည်။",
+      "vocabIds": [
+        "n2.l45.v007",
+        "n2.l45.v012"
+      ],
+      "grammarIds": [
+        "n2.l45.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.s006",
+      "lessonId": "n2.l45",
+      "ja": "監査役からの厳しい指摘を踏まえ、内部統制の透明性を高める施策を導入した。",
+      "kana": "かんさやくからのきびしいしてきをふまえ、ないぶとうせいのとうめいせいをたかめるしさくをどうにゅうした。",
+      "translation": {
+        "en": "Based on stern feedback from auditors, we implemented measures to heighten internal governance transparency.",
+        "my": "စာရင်းစစ်များ၏ ပြင်းထန်သော ထောက်ပြချက်များကို ထောက်ထားစဉ်းစားကာ အတွင်းပိုင်း စီမံခန့်ခွဲမှု ပွင့်လင်းမြင်သာစေမည့် အစီအမံများကို ထည့်သွင်းခဲ့သည်။"
+      },
+      "translationMy": "စာရင်းစစ်များ၏ ပြင်းထန်သော ထောက်ပြချက်များကို ထောက်ထားစဉ်းစားကာ အတွင်းပိုင်း စီမံခန့်ခွဲမှု ပွင့်လင်းမြင်သာစေမည့် အစီအမံများကို ထည့်သွင်းခဲ့သည်။",
+      "vocabIds": [
+        "n2.l45.v009",
+        "n2.l45.v011"
+      ],
+      "grammarIds": [
+        "n2.l45.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.s007",
+      "lessonId": "n2.l45",
+      "ja": "過去の苦い失敗の教訓を踏まえたからこそ、今回の大型プロジェクトを成功裏に導けた。",
+      "kana": "かこのにがいしっぱいのきょうくんをふまえたからこそ、こんかいのおおがたプロジェクトをせいこうりにみちびけた。",
+      "translation": {
+        "en": "Precisely because we built upon lessons from past bitter failures, we could steer this mega-project to success.",
+        "my": "အတိတ်က ခါးသီးသော ကျရှုံးမှု သင်ခန်းစာများကို အခြေခံထောက်ထားခဲ့သောကြောင့်သာ ဤစီမံကိန်းကြီးကို အောင်မြင်စွာ ဦးဆောင်နိုင်ခဲ့ခြင်း ဖြစ်သည်။"
+      },
+      "translationMy": "အတိတ်က ခါးသီးသော ကျရှုံးမှု သင်ခန်းစာများကို အခြေခံထောက်ထားခဲ့သောကြောင့်သာ ဤစီမံကိန်းကြီးကို အောင်မြင်စွာ ဦးဆောင်နိုင်ခဲ့ခြင်း ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l45.v011",
+        "n2.l45.v012"
+      ],
+      "grammarIds": [
+        "n2.l45.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.s008",
+      "lessonId": "n2.l45",
+      "ja": "険しい山道を最後まで踏破した経験を踏まえ、彼は次なる極地遠征への決意を固めた。",
+      "kana": "けわしいやまみちをさいごまでとうはしたけいけんをふまえ、かれはつぎなるきょくちえんせいへのけついをかためた。",
+      "translation": {
+        "en": "Drawing on his experience traversing the rugged mountain trail to the end, he solidified his resolve for polar expedition.",
+        "my": "ကြမ်းတမ်းသော တောင်တက်ခရီးကို အောင်မြင်စွာ ဖြတ်သန်းပေါက်မြောက်ခဲ့သည့် အတွေ့အကြုံကို အခြေခံပြီး သူသည် ဝင်ရိုးစွန်း စွန့်စားခရီးအတွက် စိတ်ပိုင်းဖြတ်ခဲ့သည်။"
+      },
+      "translationMy": "ကြမ်းတမ်းသော တောင်တက်ခရီးကို အောင်မြင်စွာ ဖြတ်သန်းပေါက်မြောက်ခဲ့သည့် အတွေ့အကြုံကို အခြေခံပြီး သူသည် ဝင်ရိုးစွန်း စွန့်စားခရီးအတွက် စိတ်ပိုင်းဖြတ်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l45.v004",
+        "n2.l45.v010"
+      ],
+      "grammarIds": [
+        "n2.l45.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.s009",
+      "lessonId": "n2.l45",
+      "ja": "日本国憲法の精神に照らして、この法案に違憲の疑いがないか厳格に審査する。",
+      "kana": "にほんこくけんぽうのせいしんにてらして、このほうあんにいけんのうたがいがないかげんかくにしんさする。",
+      "translation": {
+        "en": "In light of the spirit of the Japanese Constitution, we will rigorously examine if this bill carries constitutional doubts.",
+        "my": "ဂျပန်ဖွဲ့စည်းပုံအခြေခံဥပဒေ၏ စိတ်ဓာတ်နှင့် ချိန်ထိုးစစ်ဆေးပြီး ဤဥပဒေကြမ်းတွင် ဖွဲ့စည်းပုံချိုးဖောက်မှု ရှိမရှိ တင်းကျပ်စွာ စစ်ဆေးမည်ဖြစ်သည်။"
+      },
+      "translationMy": "ဂျပန်ဖွဲ့စည်းပုံအခြေခံဥပဒေ၏ စိတ်ဓာတ်နှင့် ချိန်ထိုးစစ်ဆေးပြီး ဤဥပဒေကြမ်းတွင် ဖွဲ့စည်းပုံချိုးဖောက်မှု ရှိမရှိ တင်းကျပ်စွာ စစ်ဆေးမည်ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l45.v008",
+        "n2.l45.v009"
+      ],
+      "grammarIds": [
+        "n2.l45.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.s010",
+      "lessonId": "n2.l45",
+      "ja": "社会通念や道義的規範に照らして、役員の今回の個人的行為は容認できない。",
+      "kana": "しゃかいつうねんやどうぎてききはんにてらして、やくいんのこんかいのこじんてきこういはようにんできない。",
+      "translation": {
+        "en": "In light of common social conventions and ethical norms, this personal conduct of the executive cannot be condoned.",
+        "my": "လူမှုကျင့်ဝတ်နှင့် စံနှုန်းများနှင့် ချိန်ထိုးကြည့်ပါက အမှုဆောင်အရာရှိ၏ ဤတစ်ကိုယ်တော် လုပ်ရပ်ကို လုံးဝ လက်ခံခွင့်လွှတ်၍ မရပေ။"
+      },
+      "translationMy": "လူမှုကျင့်ဝတ်နှင့် စံနှုန်းများနှင့် ချိန်ထိုးကြည့်ပါက အမှုဆောင်အရာရှိ၏ ဤတစ်ကိုယ်တော် လုပ်ရပ်ကို လုံးဝ လက်ခံခွင့်လွှတ်၍ မရပေ။",
+      "vocabIds": [
+        "n2.l45.v008",
+        "n2.l45.v010"
+      ],
+      "grammarIds": [
+        "n2.l45.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.s011",
+      "lessonId": "n2.l45",
+      "ja": "原本とコピーの照合を行い、過去の参照データに照らして齟齬がないか確認した。",
+      "kana": "げんぽんとコピーのしょうごうをおこない、かこのさんしょうデータにてらしてそごがないかかくにんした。",
+      "translation": {
+        "en": "We collated the original and copy, cross-checking against reference data to verify zero discrepancy.",
+        "my": "မူရင်းနှင့် မိတ္တူကို တိုက်ဆိုင်စစ်ဆေးပြီး အတိတ်က ကိုးကားအချက်အလက်များနှင့် ချိန်ထိုး၍ ကွဲလွဲမှု ရှိမရှိ စစ်ဆေးခဲ့သည်။"
+      },
+      "translationMy": "မူရင်းနှင့် မိတ္တူကို တိုက်ဆိုင်စစ်ဆေးပြီး အတိတ်က ကိုးကားအချက်အလက်များနှင့် ချိန်ထိုး၍ ကွဲလွဲမှု ရှိမရှိ စစ်ဆေးခဲ့သည်။",
+      "vocabIds": [
+        "n2.l45.v005",
+        "n2.l45.v006"
+      ],
+      "grammarIds": [
+        "n2.l45.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l45.s012",
+      "lessonId": "n2.l45",
+      "ja": "客観的な根拠に照らし合わせ、その学説が真に妥当性を有しているかを検証する。",
+      "kana": "きゃっかんてきなこんきょにてらしあわせ、そのがくせつがしんにだとうせいをゆうしているかをけんしょうする。",
+      "translation": {
+        "en": "Comparing against objective evidence, we verify whether that theory truly possesses validity.",
+        "my": "ဓမ္မဓိဋ္ဌာန်ကျသော အထောက်အထားများနှင့် ချိန်ထိုးစစ်ဆေး၍ ထိုသီအိုရီသည် အမှန်တကယ် ခိုင်လုံမှု ရှိမရှိ သက်သေပြမည်ဖြစ်သည်။"
+      },
+      "translationMy": "ဓမ္မဓိဋ္ဌာန်ကျသော အထောက်အထားများနှင့် ချိန်ထိုးစစ်ဆေး၍ ထိုသီအိုရီသည် အမှန်တကယ် ခိုင်လုံမှု ရှိမရှိ သက်သေပြမည်ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l45.v010",
+        "n2.l45.v011"
+      ],
+      "grammarIds": [
+        "n2.l45.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l45.r001",
+    "lessonId": "n2.l45",
+    "title": "司法判断における規範適合性と現実的適合性",
+    "level": "N2",
+    "text": "裁判所が下す司法判断は、実定法の条文に照らして厳格な法的根拠を持たなければならない。しかしながら、単に条文を機械的に踏襲するだけでは、急速に変容する現代社会の実態に即した公正な救済を実現することは困難である。過去の判例の変遷を踏まえつつも、個別の事案における具体的な人権侵害の実情を直視することが裁判官に求められる。普遍的な道義的規範と社会通念の妥当性を両立させ、時代の要請に合致した判決を導き出すことこそが、法の支配を支える真の要件である。",
+    "kanaText": "さいばんしょがくだすしほうはんだんは、じっていほうのじょうぶんにてらしてげんかくなほうてきこんきょをもたなければならない。しかしながら、たんにじょうぶんをきかいてきにとうしゅうするだけでは、きゅうそくにへんようするげんだいしゃかいのじったいにそくしたこうせいなきゅうさいをじつげんすることはこんなんである。かこのはんれいのへんせんをふまえつつも、こべつのじあんにおけるぐたいてきなじんけんしんがいのじつじょうをちょくしすることがさいばんかんに求められる。ふへんてきなどうぎてききはんとしゃかいつうねんのだとうせいをりょうりつさせ、じだいのようせいにがっちしたはんけつをみちびきだすことこそが、ほうのしはいをささえるしんのようけんである。",
+    "translation": "တရားရုံးများ ချမှတ်သော စီရင်ချက်များသည် ပြဋ္ဌာန်းဥပဒေ ပုဒ်မများနှင့် ချိန်ထိုး၍ တင်းကျပ်သော ဥပဒေကြောင်းဆိုင်ရာ အထောက်အထားများ ရှိရမည်ဖြစ်သည်။ သို့သော် ပုဒ်မများကို စက်ရုပ်သဖွယ် အမှတ်မဲ့ ဆက်လက်ကျင့်သုံးနေရုံမျှနှင့် လျင်မြန်စွာ ပြောင်းလဲနေသော မျက်မှောက်ခေတ် လူ့ဘောင်၏ အခြေအနေနှင့်အညီ တရားမျှတသော ကုစားမှုကို ဖော်ဆောင်ရန် ခက်ခဲလှသည်။ အတိတ်က စီရင်ထုံး အပြောင်းအလဲများကို ထောက်ထားစဉ်းစားလျက် ဖြစ်ရပ်တစ်ခုချင်းစီ၏ လက်တွေ့ လူ့အခွင့်အရေး ချိုးဖောက်ခံရမှု အခြေအနေမှန်ကို တည့်တည့်ရင်ဆိုင်ရန် တရားသူကြီးများထံမှ တောင်းဆိုခံရသည်။ ကမ္ဘာလုံးဆိုင်ရာ ကျင့်ဝတ်စံနှုန်းများနှင့် လူမှုရေးရာ ဆင်ခြင်တုံတရား သင့်လျော်မှုကို ဟန်ချက်ညီစေပြီး ခေတ်ကာလ၏ တောင်းဆိုချက်နှင့် ကိုက်ညီသော စီရင်ချက်ကို ချမှတ်နိုင်ခြင်းသည်သာ ဥပဒေစိုးမိုးရေးကို ထောက်ကူပေးမည့် စစ်မှန်သော လိုအပ်ချက် ဖြစ်ပေသည်။",
+    "translationMy": "တရားရုံးများ ချမှတ်သော စီရင်ချက်များသည် ပြဋ္ဌာန်းဥပဒေ ပုဒ်မများနှင့် ချိန်ထိုး၍ တင်းကျပ်သော ဥပဒေကြောင်းဆိုင်ရာ အထောက်အထားများ ရှိရမည်ဖြစ်သည်။ သို့သော် ပုဒ်မများကို စက်ရုပ်သဖွယ် အမှတ်မဲ့ ဆက်လက်ကျင့်သုံးနေရုံမျှနှင့် လျင်မြန်စွာ ပြောင်းလဲနေသော မျက်မှောက်ခေတ် လူ့ဘောင်၏ အခြေအနေနှင့်အညီ တရားမျှတသော ကုစားမှုကို ဖော်ဆောင်ရန် ခက်ခဲလှသည်။ အတိတ်က စီရင်ထုံး အပြောင်းအလဲများကို ထောက်ထားစဉ်းစားလျက် ဖြစ်ရပ်တစ်ခုချင်းစီ၏ လက်တွေ့ လူ့အခွင့်အရေး ချိုးဖောက်ခံရမှု အခြေအနေမှန်ကို တည့်တည့်ရင်ဆိုင်ရန် တရားသူကြီးများထံမှ တောင်းဆိုခံရသည်။ ကမ္ဘာလုံးဆိုင်ရာ ကျင့်ဝတ်စံနှုန်းများနှင့် လူမှုရေးရာ ဆင်ခြင်တုံတရား သင့်လျော်မှုကို ဟန်ချက်ညီစေပြီး ခေတ်ကာလ၏ တောင်းဆိုချက်နှင့် ကိုက်ညီသော စီရင်ချက်ကို ချမှတ်နိုင်ခြင်းသည်သာ ဥပဒေစိုးမိုးရေးကို ထောက်ကူပေးမည့် စစ်မှန်သော လိုအပ်ချက် ဖြစ်ပေသည်။",
+    "questionIds": [
+      "n2.l45.q025",
+      "n2.l45.q026",
+      "n2.l45.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "実定法",
+        "reading": "じっていほう",
+        "meaning": "positive law / statutory law",
+        "meaningMy": "positive law / statutory law",
+        "meaningMyanmar": "positive law / statutory law"
+      },
+      {
+        "term": "法の支配",
+        "reading": "ほうのしはい",
+        "meaning": "rule of law",
+        "meaningMy": "rule of law",
+        "meaningMyanmar": "rule of law"
+      },
+      {
+        "term": "司法判断",
+        "reading": "しほうはんだん",
+        "meaning": "judicial judgment",
+        "meaningMy": "judicial judgment",
+        "meaningMyanmar": "judicial judgment"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l45.lis001",
+    "lessonId": "n2.l45",
+    "title": "コンプライアンス規程の改定と企業倫理の再構築",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "矢野法務部長",
+      "樋口監査室長"
+    ],
+    "transcript": "矢野法務部長: 樋口室長、今回のコンプライアンス規程の改定案はまとまりましたか。\n樋口監査室長: はい。海外拠点の労働環境の実態に即して、就業規則の細部を見直しました。\n矢野法務部長: 外部の専門家からの調査報告を踏まえた実効性のある内容になっていますね。\n樋口監査室長: ええ。国際的な人権規範に照らしても妥当であると自信を持って言える水準です。",
+    "translation": "矢野法務部長: ဌာနမှူး ဟိဂုချိ၊ ဒီတစ်ကြိမ် လိုက်နာစောင့်ထိန်းရေး စည်းမျဉ်း ပြင်ဆင်ချက်မူကြမ်း ပြီးစီးပြီလား။\n樋口監査室長: ဟုတ်ကဲ့ပါ။ ပြည်ပအခြေစိုက်စခန်းတွေရဲ့ အလုပ်သမားပတ်ဝန်းကျင် လက်တွေ့အခြေအနေနဲ့အညီ လုပ်ငန်းခွင်စည်းကမ်း အသေးစိတ်ကို ပြန်လည်စစ်ဆေးခဲ့ပါတယ်။\n矢野法務部長: ပြင်ပကျွမ်းကျင်သူတွေရဲ့ စုံစမ်းစစ်ဆေးမှု အစီရင်ခံစာတွေကို အခြေခံထောက်ထားတဲ့ လက်တွေ့ထိရောက်တဲ့ အကြောင်းအရာ ဖြစ်လာတယ်နော်။\n樋口監査室長: ဟုတ်ကဲ့ပါ။ နိုင်ငံတကာ လူ့အခွင့်အရေး စံနှုန်းတွေနဲ့ ချိန်ထိုးစစ်ဆေးရင်တောင် မှန်ကန်သင့်တော်တယ်လို့ ယုံကြည်ချက်ရှိရှိ ပြောနိုင်တဲ့ အဆင့်ဖြစ်ပါတယ်။",
+    "translationMy": "矢野法務部長: ဌာနမှူး ဟိဂုချိ၊ ဒီတစ်ကြိမ် လိုက်နာစောင့်ထိန်းရေး စည်းမျဉ်း ပြင်ဆင်ချက်မူကြမ်း ပြီးစီးပြီလား။\n樋口監査室長: ဟုတ်ကဲ့ပါ။ ပြည်ပအခြေစိုက်စခန်းတွေရဲ့ အလုပ်သမားပတ်ဝန်းကျင် လက်တွေ့အခြေအနေနဲ့အညီ လုပ်ငန်းခွင်စည်းကမ်း အသေးစိတ်ကို ပြန်လည်စစ်ဆေးခဲ့ပါတယ်။\n矢野法務部長: ပြင်ပကျွမ်းကျင်သူတွေရဲ့ စုံစမ်းစစ်ဆေးမှု အစီရင်ခံစာတွေကို အခြေခံထောက်ထားတဲ့ လက်တွေ့ထိရောက်တဲ့ အကြောင်းအရာ ဖြစ်လာတယ်နော်။\n樋口監査室長: ဟုတ်ကဲ့ပါ။ နိုင်ငံတကာ လူ့အခွင့်အရေး စံနှုန်းတွေနဲ့ ချိန်ထိုးစစ်ဆေးရင်တောင် မှန်ကန်သင့်တော်တယ်လို့ ယုံကြည်ချက်ရှိရှိ ပြောနိုင်တဲ့ အဆင့်ဖြစ်ပါတယ်။",
+    "turns": [
+      {
+        "speaker": "矢野法務部長",
+        "ja": "樋口室長、今回のコンプライアンス規程の改定案はまとまりましたか。",
+        "kana": "ひぐちしつちょう、こんかいのコンプライアンスきていのかいていあんはまとまりましたか。",
+        "en": "Director Higuchi, has the revision draft for our compliance regulations come together?",
+        "my": "ဌာနမှူး ဟိဂုချိ၊ ဒီတစ်ကြိမ် လိုက်နာစောင့်ထိန်းရေး စည်းမျဉ်း ပြင်ဆင်ချက်မူကြမ်း ပြီးစီးပြီလား။",
+        "translationMy": "ဌာနမှူး ဟိဂုချိ၊ ဒီတစ်ကြိမ် လိုက်နာစောင့်ထိန်းရေး စည်းမျဉ်း ပြင်ဆင်ချက်မူကြမ်း ပြီးစီးပြီလား။",
+        "myanmar": "ဌာနမှူး ဟိဂုချိ၊ ဒီတစ်ကြိမ် လိုက်နာစောင့်ထိန်းရေး စည်းမျဉ်း ပြင်ဆင်ချက်မူကြမ်း ပြီးစီးပြီလား။"
+      },
+      {
+        "speaker": "樋口監査室長",
+        "ja": "はい。海外拠点の労働環境の実態に即して、就業規則の細部を見直しました。",
+        "kana": "はい。かいがいきょてんのろうどうかんきょうのじったいにそくして、しゅうぎょうきそくのさいぶをみなおしました。",
+        "en": "Yes. In line with labor condition realities at overseas bases, we overhauled working regulation details.",
+        "my": "ဟုတ်ကဲ့ပါ။ ပြည်ပအခြေစိုက်စခန်းတွေရဲ့ အလုပ်သမားပတ်ဝန်းကျင် လက်တွေ့အခြေအနေနဲ့အညီ လုပ်ငန်းခွင်စည်းကမ်း အသေးစိတ်ကို ပြန်လည်စစ်ဆေးခဲ့ပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့ပါ။ ပြည်ပအခြေစိုက်စခန်းတွေရဲ့ အလုပ်သမားပတ်ဝန်းကျင် လက်တွေ့အခြေအနေနဲ့အညီ လုပ်ငန်းခွင်စည်းကမ်း အသေးစိတ်ကို ပြန်လည်စစ်ဆေးခဲ့ပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့ပါ။ ပြည်ပအခြေစိုက်စခန်းတွေရဲ့ အလုပ်သမားပတ်ဝန်းကျင် လက်တွေ့အခြေအနေနဲ့အညီ လုပ်ငန်းခွင်စည်းကမ်း အသေးစိတ်ကို ပြန်လည်စစ်ဆေးခဲ့ပါတယ်။"
+      },
+      {
+        "speaker": "矢野法務部長",
+        "ja": "外部の専門家からの調査報告を踏まえた実効性のある内容になっていますね。",
+        "kana": "がいぶのせんもんかからのちょうさほうこくをふまえたじっこうせいのあるないようになっていますね。",
+        "en": "It has become an effective content grounded in survey reports from external specialists, hasn't it?",
+        "my": "ပြင်ပကျွမ်းကျင်သူတွေရဲ့ စုံစမ်းစစ်ဆေးမှု အစီရင်ခံစာတွေကို အခြေခံထောက်ထားတဲ့ လက်တွေ့ထိရောက်တဲ့ အကြောင်းအရာ ဖြစ်လာတယ်နော်။",
+        "translationMy": "ပြင်ပကျွမ်းကျင်သူတွေရဲ့ စုံစမ်းစစ်ဆေးမှု အစီရင်ခံစာတွေကို အခြေခံထောက်ထားတဲ့ လက်တွေ့ထိရောက်တဲ့ အကြောင်းအရာ ဖြစ်လာတယ်နော်။",
+        "myanmar": "ပြင်ပကျွမ်းကျင်သူတွေရဲ့ စုံစမ်းစစ်ဆေးမှု အစီရင်ခံစာတွေကို အခြေခံထောက်ထားတဲ့ လက်တွေ့ထိရောက်တဲ့ အကြောင်းအရာ ဖြစ်လာတယ်နော်။"
+      },
+      {
+        "speaker": "樋口監査室長",
+        "ja": "ええ。国際的な人権規範に照らしても妥当であると自信を持って言える水準です。",
+        "kana": "ええ。こくさいてきなじんけんきはんにてらしてもだとうであるとじしんをもっていえるすいじゅんです。",
+        "en": "Yes. It is at a level where we can confidently state it is proper even in light of international human rights norms.",
+        "my": "ဟုတ်ကဲ့ပါ။ နိုင်ငံတကာ လူ့အခွင့်အရေး စံနှုန်းတွေနဲ့ ချိန်ထိုးစစ်ဆေးရင်တောင် မှန်ကန်သင့်တော်တယ်လို့ ယုံကြည်ချက်ရှိရှိ ပြောနိုင်တဲ့ အဆင့်ဖြစ်ပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့ပါ။ နိုင်ငံတကာ လူ့အခွင့်အရေး စံနှုန်းတွေနဲ့ ချိန်ထိုးစစ်ဆေးရင်တောင် မှန်ကန်သင့်တော်တယ်လို့ ယုံကြည်ချက်ရှိရှိ ပြောနိုင်တဲ့ အဆင့်ဖြစ်ပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့ပါ။ နိုင်ငံတကာ လူ့အခွင့်အရေး စံနှုန်းတွေနဲ့ ချိန်ထိုးစစ်ဆေးရင်တောင် မှန်ကန်သင့်တော်တယ်လို့ ယုံကြည်ချက်ရှိရှိ ပြောနိုင်တဲ့ အဆင့်ဖြစ်ပါတယ်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l45.q028",
+      "n2.l45.q029",
+      "n2.l45.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l45.q001",
+      "lessonId": "n2.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "その場ですぐに行動を起こすことを「[ _____ ]」という。",
+      "choices": [
+        "即座",
+        "即答",
+        "踏襲",
+        "照合"
+      ],
+      "answer": "即座",
+      "explanation": "即座 (そくざ) means right on the spot / immediate.",
+      "explanationMy": "ထိုနေရာတွင် ချက်ချင်းလက်ငင်း လုပ်ဆောင်ခြင်းမှာ 即座 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q002",
+      "lessonId": "n2.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "問いかけに対して間を置かずにすぐ答えることを「[ _____ ]」という。",
+      "choices": [
+        "即答",
+        "即座",
+        "踏破",
+        "参照"
+      ],
+      "answer": "即答",
+      "explanation": "即答 (そくとう) means prompt reply / immediate answer.",
+      "explanationMy": "မေးခွန်းကို ချက်ချင်း အဖြေပေးခြင်းမှာ 即答 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q003",
+      "lessonId": "n2.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "前人のやり方や昔からの慣習をそのまま受け継ぐことを「[ _____ ]」という。",
+      "choices": [
+        "踏襲",
+        "踏破",
+        "照合",
+        "遵守"
+      ],
+      "answer": "踏襲",
+      "explanation": "踏襲 (とうしゅう) refers to following precedent.",
+      "explanationMy": "ရှေးရိုးအစဉ်အလာကို မပြောင်းမလဲ ဆက်ခံကျင့်သုံးခြင်းမှာ 踏襲 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q004",
+      "lessonId": "n2.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "険しい道のりを自分の足で最後まで歩き通すことを「[ _____ ]」という。",
+      "choices": [
+        "踏破",
+        "踏襲",
+        "照合",
+        "妥当"
+      ],
+      "answer": "踏破",
+      "explanation": "踏破 (とうは) means traversing on foot.",
+      "explanationMy": "ခြေလျင်ခရီး ကြမ်းတမ်းမှုကို ပေါက်မြောက်အောင် သွားခြင်းမှာ 踏破 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q005",
+      "lessonId": "n2.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "二つの文書やデータを付き合わせて照らし調べることを「[ _____ ]」という。",
+      "choices": [
+        "照合",
+        "参照",
+        "基準",
+        "規範"
+      ],
+      "answer": "照合",
+      "explanation": "照合 (しょうごう) means collation / cross-checking.",
+      "explanationMy": "အချက်အလက်များကို တိုက်ဆိုင်နှိုင်းယှဉ် စစ်ဆေးခြင်းမှာ 照合 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q006",
+      "lessonId": "n2.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "理解を深めるために他の資料や図面を照らし見ることを「[ _____ ]」という。",
+      "choices": [
+        "参照",
+        "照合",
+        "根拠",
+        "整合"
+      ],
+      "answer": "参照",
+      "explanation": "参照 (さんしょう) means reference / consultation.",
+      "explanationMy": "ကိုးကားကြည့်ရှုခြင်းမှာ 参照 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q007",
+      "lessonId": "n2.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "行動や判断の基準となるルールや手本を「[ _____ ]」という。",
+      "choices": [
+        "規範",
+        "基準",
+        "遵守",
+        "妥当"
+      ],
+      "answer": "規範",
+      "explanation": "規範 (きはん) means norm or ethical standard.",
+      "explanationMy": "လိုက်နာရမည့် စံနှုန်းကျင့်ဝတ်မှာ 規範 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q008",
+      "lessonId": "n2.l45",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "複数の要素が矛盾なくぴったりと調和することを「[ _____ ]」という。",
+      "choices": [
+        "整合",
+        "妥当",
+        "根拠",
+        "基準"
+      ],
+      "answer": "整合",
+      "explanation": "整合 (せいごう) means alignment or consistency.",
+      "explanationMy": "ရှေ့နောက်ညီညွတ်စွာ ကိုက်ညီခြင်းမှာ 整合 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q009",
+      "lessonId": "n2.l45",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「即」の訓読みとして正しいものはどれか。",
+      "choices": [
+        "つ・く / すなわ・ち",
+        "ふ・む / ふ・まえる",
+        "て・る / て・らす",
+        "おさ・える"
+      ],
+      "answer": "つ・く / すなわ・ち",
+      "explanation": "即 has kunyomi readings つ・く and すなわ・ち.",
+      "explanationMy": "即 ၏ Kunyomi အသံထွက်မှာ つ・く / すなわ・ち ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q010",
+      "lessonId": "n2.l45",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "単語「踏襲」の漢字「踏」の訓読みはどれか。",
+      "choices": [
+        "ふ・む / ふ・まえる",
+        "つ・く",
+        "て・らす",
+        "みちび・く"
+      ],
+      "answer": "ふ・む / ふ・まえる",
+      "explanation": "踏 carries kunyomi readings ふ・む and ふ・まえる.",
+      "explanationMy": "踏 ၏ Kunyomi အသံထွက်မှာ ふ・む / ふ・まえる ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q011",
+      "lessonId": "n2.l45",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「照」の音読みとして正しいものはどれか。",
+      "choices": [
+        "ショウ",
+        "ジョウ",
+        "ソウ",
+        "チョウ"
+      ],
+      "answer": "ショウ",
+      "explanation": "照 has onyomi ショウ.",
+      "explanationMy": "照 ၏ Onyomi အသံထွက်မှာ ショウ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q012",
+      "lessonId": "n2.l45",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「即答」の正しい読み方はどれか。",
+      "choices": [
+        "そくとう",
+        "そくだん",
+        "そっこう",
+        "そくどう"
+      ],
+      "answer": "そくとう",
+      "explanation": "即答 is read as そくとう.",
+      "explanationMy": "即答 ၏ အသံထွက်မှာ そくとう ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q013",
+      "lessonId": "n2.l45",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "部首「足（あしへん）」を持つ「踏」の総画数はいくつか。",
+      "choices": [
+        "15画",
+        "14画",
+        "16画",
+        "13画"
+      ],
+      "answer": "15画",
+      "explanation": "踏 has 15 strokes.",
+      "explanationMy": "踏 စာလုံး၏ စုစုပေါင်း မျဉ်းဆွဲချက်မှာ ၁၅ ချက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q014",
+      "lessonId": "n2.l45",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「照合」の正しい読み方はどれか。",
+      "choices": [
+        "しょうごう",
+        "しょうあい",
+        "じょうごう",
+        "そうごう"
+      ],
+      "answer": "しょうごう",
+      "explanation": "照合 is read as しょうごう.",
+      "explanationMy": "照合 ၏ အသံထွက်မှာ しょうごう ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q015",
+      "lessonId": "n2.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "現場の生々しい現実に[ _____ ]、避難誘導計画を全面的に見直した。",
+      "choices": [
+        "即して",
+        "踏まえて",
+        "照らして",
+        "反面"
+      ],
+      "answer": "即して",
+      "explanation": "即して emphasizes adapting directly to on-the-ground realities.",
+      "explanationMy": "လက်တွေ့အခြေအနေနှင့်အညီ ဟူသော သဘောကို 即して ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q016",
+      "lessonId": "n2.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "顧客アンケートから得られた不満の声[ _____ ]、新製品を開発した。",
+      "choices": [
+        "を踏まえて",
+        "に即して",
+        "に照らして",
+        "ものの"
+      ],
+      "answer": "を踏まえて",
+      "explanation": "を踏まえて indicates basing product development on survey feedback.",
+      "explanationMy": "ဖောက်သည်များ၏ စစ်တမ်းကို အခြေခံထောက်ထား၍ ဟူသော သဘောကို を踏まえて ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q017",
+      "lessonId": "n2.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "自らの道義的良心[ _____ ]、不正行為の告発を決意した。",
+      "choices": [
+        "に照らして",
+        "に即して",
+        "を踏まえて",
+        "といっても"
+      ],
+      "answer": "に照らして",
+      "explanation": "に照らして judges one's conduct against conscience.",
+      "explanationMy": "ကိုယ်ကျင့်တရား သြတ္တပ္ပစိတ်နှင့် ချိန်ထိုးစစ်ဆေး၍ ဟူသော သဘောကို に照らして ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q018",
+      "lessonId": "n2.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "時代に[ _____ ]教育プログラムを構築することが教育委員会の責務だ。",
+      "choices": [
+        "即した",
+        "踏まえた",
+        "照らした",
+        "ばかりの"
+      ],
+      "answer": "即した",
+      "explanation": "時代に即した modifies the educational program as modern and tailored.",
+      "explanationMy": "ခေတ်ကာလနှင့် လိုက်လျောညီထွေဖြစ်သော ဟူသည့် အဓိပ္ပာယ်ကို 即した ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q019",
+      "lessonId": "n2.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "前回のプロジェクトで直面した教訓[ _____ ]、入念なリスク対策を講じた。",
+      "choices": [
+        "を踏まえて",
+        "に即して",
+        "に照らして",
+        "からこそ"
+      ],
+      "answer": "を踏まえて",
+      "explanation": "教訓を踏まえて means building upon lessons learned.",
+      "explanationMy": "သင်ခန်းစာများကို အခြေခံထောက်ထားကာ ဟူသော သဘောကို を踏まえて ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q020",
+      "lessonId": "n2.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "公職選挙法の規定[ _____ ]、候補者の発言が適法かどうか厳格に審査する。",
+      "choices": [
+        "に照らして",
+        "に即して",
+        "を踏まえて",
+        "てならない"
+      ],
+      "answer": "に照らして",
+      "explanation": "に照らして evaluates legality in light of statutory election laws.",
+      "explanationMy": "ရွေးကောက်ပွဲ ဥပဒေပြဋ္ဌာန်းချက်များနှင့် ချိန်ထိုးစစ်ဆေး၍ ဟူသော သဘောကို に照らして ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q021",
+      "lessonId": "n2.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "学術的な理論のみならず、実践的な経験[ _____ ]指導を行う。",
+      "choices": [
+        "に即して",
+        "を踏まえて",
+        "に照らして",
+        "やまない"
+      ],
+      "answer": "に即して",
+      "explanation": "経験に即して indicates guidance rooted firmly in practical experience.",
+      "explanationMy": "လက်တွေ့ အတွေ့အကြုံနှင့်အညီ ဟူသော သဘောကို に即して ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q022",
+      "lessonId": "n2.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "市場調査の最新データ[ _____ ]、来期の販売戦略を決定した。",
+      "choices": [
+        "を踏まえて",
+        "に即して",
+        "に照らして",
+        "べきだ"
+      ],
+      "answer": "を踏まえて",
+      "explanation": "データを踏まえて means deciding strategy grounded in market data.",
+      "explanationMy": "ဒေတာများကို အခြေခံထောက်ထားပြီး ဟူသော သဘောကို を踏まえて ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q023",
+      "lessonId": "n2.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "過去の重大な判例の基準[ _____ ]、この行為は違法であると断定した。",
+      "choices": [
+        "に照らして",
+        "に即して",
+        "を踏まえて",
+        "にすぎない"
+      ],
+      "answer": "に照らして",
+      "explanation": "に照らして establishes illegality in light of legal precedents.",
+      "explanationMy": "စီရင်ထုံးစံနှုန်းများနှင့် ချိန်ထိုးစစ်ဆေး၍ ဟူသော သဘောကို に照らして ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q024",
+      "lessonId": "n2.l45",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "地域の伝統文化[ _____ ]行事を開催し、住民の親睦を深めた。",
+      "choices": [
+        "に即した",
+        "を踏まえた",
+        "に照らした",
+        "ものなら"
+      ],
+      "answer": "に即した",
+      "explanation": "伝統文化に即した describes events tailored to traditional local culture.",
+      "explanationMy": "ရိုးရာယဉ်ကျေးမှုနှင့် လိုက်လျောညီထွေဖြစ်သော ဟူသည့် အဓိပ္ပာယ်ကို に即した ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q025",
+      "lessonId": "n2.l45",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "裁判所の判断は何に「照らして」厳格な法的根拠を持つべきとされるか。",
+      "choices": [
+        "実定法の条文",
+        "世論調査の支持率",
+        "被告人の経済的地位",
+        "報道機関の論調"
+      ],
+      "answer": "実定法の条文",
+      "explanation": "The text states judgments must hold legal grounds in light of statutory articles (実定法の条文に照らして).",
+      "explanationMy": "ပြဋ္ဌာန်းဥပဒေ ပုဒ်မများနှင့် ချိန်ထိုး၍ တင်းကျပ်သော အထောက်အထား ရှိရမည်ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q026",
+      "lessonId": "n2.l45",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "条文の機械的踏襲だけでは困難であると指摘されている課題は何か。",
+      "choices": [
+        "現代社会の実態に即した公正な救済を実現すること",
+        "裁判官の給与を増額すること",
+        "裁判所の建物を新築すること",
+        "すべての法律用語を英語に翻訳すること"
+      ],
+      "answer": "現代社会の実態に即した公正な救済を実現すること",
+      "explanation": "The passage notes mechanical adherence fails to achieve fair relief tailored to modern realities.",
+      "explanationMy": "ခေတ်ကာလ အခြေအနေနှင့်အညီ တရားမျှတသော ကုစားမှု ဖော်ဆောင်ရန် ခက်ခဲခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q027",
+      "lessonId": "n2.l45",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "裁判官に求められる姿勢として「踏まえつつも」述べられている内容はどれか。",
+      "choices": [
+        "過去の判例の変遷を踏まえつつ、個別の事案における人権侵害の実情を直視すること",
+        "判例をすべて無視して裁判官個人の直感のみで判決を下すこと",
+        "すべての裁判を非公開にして迅速に処理すること",
+        "過去の判例を永久に不変のものとして固定化すること"
+      ],
+      "answer": "過去の判例の変遷を踏まえつつ、個別の事案における人権侵害の実情を直視すること",
+      "explanation": "The text requires considering precedent changes while facing individual rights infringement realities.",
+      "explanationMy": "အတိတ်က စီရင်ထုံးများကို ထောက်ထားလျက် လူ့အခွင့်အရေး ချိုးဖောက်ခံရမှု အခြေအနေမှန်ကို တည့်တည့်ရင်ဆိုင်ရန် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q028",
+      "lessonId": "n2.l45",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "樋口監査室長は何に「即して」就業規則を見直したと報告したか。",
+      "choices": [
+        "海外拠点の労働環境の実態に即して",
+        "国内本社の利益目標に即して",
+        "競合他社の広告戦略に即して",
+        "十年前に策定された古い指針に即して"
+      ],
+      "answer": "海外拠点の労働環境の実態に即して",
+      "explanation": "Higuchi notes working regulations were overhauled in line with overseas labor realities.",
+      "explanationMy": "ပြည်ပစခန်းများ၏ အလုပ်သမားပတ်ဝန်းကျင် လက်တွေ့အခြေအနေနှင့်အညီ ပြန်လည်ပြင်ဆင်ခဲ့ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q029",
+      "lessonId": "n2.l45",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "矢野法務部長が評価した「何を踏まえた」内容か。",
+      "choices": [
+        "外部の専門家からの調査報告を踏まえた内容",
+        "役員の個人的な好みを踏まえた内容",
+        "社員旅行のアンケート結果を踏まえた内容",
+        "競合他社の不祥事報道を踏まえた内容"
+      ],
+      "answer": "外部の専門家からの調査報告を踏まえた内容",
+      "explanation": "Yano notes it is effective content based on survey reports from external experts.",
+      "explanationMy": "ပြင်ပပညာရှင်များ၏ စုံစမ်းစစ်ဆေးမှု အစီရင်ခံစာကို အခြေခံထောက်ထားခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l45.q030",
+      "lessonId": "n2.l45",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "改定案の水準について樋口室長は「に照らしても」どのように説明したか。",
+      "choices": [
+        "国際的な人権規範に照らしても妥当である",
+        "国内の法律に照らすと重大な違反がある",
+        "業界団体の内規に照らすと大幅に遅れている",
+        "会社の定款に照らして再調査が必要である"
+      ],
+      "answer": "国際的な人権規範に照らしても妥当である",
+      "explanation": "Higuchi asserts it is proper even in light of international human rights norms.",
+      "explanationMy": "နိုင်ငံတကာ လူ့အခွင့်အရေး စံနှုန်းများနှင့် ချိန်ထိုးကြည့်လျှင်ပင် မှန်ကန်သင့်လျော်သည်ဟု ရှင်းပြခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l45.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+};

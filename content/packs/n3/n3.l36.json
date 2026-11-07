@@ -1,0 +1,1784 @@
+{
+  "id": "n3.l36",
+  "level": "N3",
+  "module": "N3 Formal & Expository",
+  "number": 36,
+  "title": "N3 Lesson 36: Causes, Reasons & Emotional Triggers (〜おかげで・〜せいで・〜ため（に）)",
+  "description": "Master nuanced Japanese causal and emotional expressions, expressing gratitude with 〜おかげで, assigning blame with 〜せいで, and conveying objective formal causes with 〜ため（に）.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l36.v001",
+      "lessonId": "n3.l36",
+      "ja": "原因",
+      "kana": "げんいん",
+      "en": "cause, origin",
+      "my": "အကြောင်းရင်း",
+      "meaningMy": "အကြောင်းရင်း",
+      "meaningMyanmar": "အကြောင်းရင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l36.s001",
+      "kanjiIds": [
+        "n3.l36.k001"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.v002",
+      "lessonId": "n3.l36",
+      "ja": "結果",
+      "kana": "けっか",
+      "en": "result, consequence",
+      "my": "ရလဒ်အဖြေ",
+      "meaningMy": "ရလဒ်အဖြေ",
+      "meaningMyanmar": "ရလဒ်အဖြေ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l36.s002",
+      "kanjiIds": [
+        "n3.l36.k002"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.v003",
+      "lessonId": "n3.l36",
+      "ja": "招待",
+      "kana": "しょうたい",
+      "en": "invitation",
+      "my": "ဖိတ်ကြားခြင်း",
+      "meaningMy": "ဖိတ်ကြားခြင်း",
+      "meaningMyanmar": "ဖိတ်ကြားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l36.s003",
+      "kanjiIds": [
+        "n3.l36.k003"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.v004",
+      "lessonId": "n3.l36",
+      "ja": "影響",
+      "kana": "えいきょう",
+      "en": "influence, effect",
+      "my": "လွှမ်းမိုးသက်ရောက်မှု",
+      "meaningMy": "လွှမ်းမိုးသက်ရောက်မှု",
+      "meaningMyanmar": "လွှမ်းမိုးသက်ရောက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l36.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.v005",
+      "lessonId": "n3.l36",
+      "ja": "理由",
+      "kana": "りゆう",
+      "en": "reason",
+      "my": "အကြောင်းပြချက်",
+      "meaningMy": "အကြောင်းပြချက်",
+      "meaningMyanmar": "အကြောင်းပြချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l36.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.v006",
+      "lessonId": "n3.l36",
+      "ja": "責任",
+      "kana": "せきにん",
+      "en": "responsibility",
+      "my": "တာဝန်ယူမှု",
+      "meaningMy": "တာဝန်ယူမှု",
+      "meaningMyanmar": "တာဝန်ယူမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l36.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.v007",
+      "lessonId": "n3.l36",
+      "ja": "恩恵",
+      "kana": "おんけい",
+      "en": "benefit, grace",
+      "my": "ကျေးဇူးအကျိုးကျေးဇူး",
+      "meaningMy": "ကျေးဇူးအကျိုးကျေးဇူး",
+      "meaningMyanmar": "ကျေးဇူးအကျိုးကျေးဇူး",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l36.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.v008",
+      "lessonId": "n3.l36",
+      "ja": "被害",
+      "kana": "ひがい",
+      "en": "damage, harm",
+      "my": "ထိခိုက်ပျက်စီးဆုံးရှုံးမှု",
+      "meaningMy": "ထိခိုက်ပျက်စီးဆုံးရှုံးမှု",
+      "meaningMyanmar": "ထိခိုက်ပျက်စီးဆုံးရှုံးမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l36.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.v009",
+      "lessonId": "n3.l36",
+      "ja": "感謝",
+      "kana": "かんしゃ",
+      "en": "gratitude, appreciation",
+      "my": "ကျေးဇူးတင်ရှိခြင်း",
+      "meaningMy": "ကျေးဇူးတင်ရှိခြင်း",
+      "meaningMyanmar": "ကျေးဇူးတင်ရှိခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l36.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.v010",
+      "lessonId": "n3.l36",
+      "ja": "迷惑",
+      "kana": "めいわく",
+      "en": "nuisance, trouble",
+      "my": "နှောင့်ယှက်ဒုက္ခ",
+      "meaningMy": "နှောင့်ယှက်ဒုက္ခ",
+      "meaningMyanmar": "နှောင့်ယှက်ဒုက္ခ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l36.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.v011",
+      "lessonId": "n3.l36",
+      "ja": "混乱",
+      "kana": "こんらん",
+      "en": "confusion, chaos",
+      "my": "ရှုပ်ထွေးဗရုတ်သုတ်ခဖြစ်ခြင်း",
+      "meaningMy": "ရှုပ်ထွေးဗရုတ်သုတ်ခဖြစ်ခြင်း",
+      "meaningMyanmar": "ရှုပ်ထွေးဗရုတ်သုတ်ခဖြစ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l36.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.v012",
+      "lessonId": "n3.l36",
+      "ja": "成功",
+      "kana": "せいこう",
+      "en": "success",
+      "my": "အောင်မြင်မှု",
+      "meaningMy": "အောင်မြင်မှု",
+      "meaningMyanmar": "အောင်မြင်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l36.s012",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l36.k001",
+      "lessonId": "n3.l36",
+      "char": "因",
+      "meaning": "cause, factor",
+      "meaningMy": "အကြောင်းရင်း/ရင်းမြစ်",
+      "meaningMyanmar": "အကြောင်းရင်း/ရင်းမြစ်",
+      "onyomi": [
+        "イン"
+      ],
+      "kunyomi": [
+        "よ・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "原因",
+          "reading": "げんいん",
+          "meaning": "cause/origin",
+          "meaningMy": "အကြောင်းရင်း",
+          "preview": true
+        },
+        {
+          "word": "要因",
+          "reading": "よういん",
+          "meaning": "main factor",
+          "meaningMy": "အဓိကအချက်",
+          "preview": false
+        },
+        {
+          "word": "因果",
+          "reading": "いんが",
+          "meaning": "cause and effect",
+          "meaningMy": "အကြောင်းနှင့်အကျိုး",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l36.s001"
+      ],
+      "components": [
+        "囗",
+        "大"
+      ],
+      "strokes": 6,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.k002",
+      "lessonId": "n3.l36",
+      "char": "果",
+      "meaning": "fruit, result",
+      "meaningMy": "အသီးအပွင့်/ရလဒ်",
+      "meaningMyanmar": "အသီးအပွင့်/ရလဒ်",
+      "onyomi": [
+        "カ"
+      ],
+      "kunyomi": [
+        "は・たす",
+        "は・てる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "結果",
+          "reading": "けっか",
+          "meaning": "result/outcome",
+          "meaningMy": "ရလဒ်အဖြေ",
+          "preview": true
+        },
+        {
+          "word": "効果",
+          "reading": "こうか",
+          "meaning": "effect/efficacy",
+          "meaningMy": "အကျိုးသက်ရောက်မှု",
+          "preview": false
+        },
+        {
+          "word": "成果",
+          "reading": "せいか",
+          "meaning": "fruitful achievement",
+          "meaningMy": "အောင်မြင်မှုရလဒ်",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l36.s002"
+      ],
+      "components": [
+        "日",
+        "木"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.k003",
+      "lessonId": "n3.l36",
+      "char": "招",
+      "meaning": "invite, summon, incur",
+      "meaningMy": "ဖိတ်ခေါ်သည်/ဖြစ်ပေါ်စေသည်",
+      "meaningMyanmar": "ဖိတ်ခေါ်သည်/ဖြစ်ပေါ်စေသည်",
+      "onyomi": [
+        "ショウ"
+      ],
+      "kunyomi": [
+        "まね・く"
+      ],
+      "exampleVocab": [
+        {
+          "word": "招待",
+          "reading": "しょうたい",
+          "meaning": "invitation",
+          "meaningMy": "ဖိတ်ကြားခြင်း",
+          "preview": true
+        },
+        {
+          "word": "招く",
+          "reading": "まねく",
+          "meaning": "to invite/incur",
+          "meaningMy": "ဖိတ်ခေါ်သည်/ဖိတ်ခေါ်ဖြစ်ပေါ်စေသည်",
+          "preview": false
+        },
+        {
+          "word": "招集",
+          "reading": "しょうしゅう",
+          "meaning": "summons/convene",
+          "meaningMy": "အစည်းအဝေးခေါ်ယူခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l36.s003"
+      ],
+      "components": [
+        "扌",
+        "召"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l36.g001",
+      "lessonId": "n3.l36",
+      "pattern": "〜おかげで",
+      "meaning": "thanks to / owing to (positive result)",
+      "meaningMy": "...ကျေးဇူးကြောင့် (ကောင်းမွန်သောရလဒ်)",
+      "meaningMyanmar": "...ကျေးဇူးကြောင့် (ကောင်းမွန်သောရလဒ်)",
+      "formation": "Verb/Adj/Noun [Plain Form] + おかげで (な for na-adj, の for Noun)",
+      "explanation": {
+        "en": "Used when a favorable or desirable outcome is achieved thanks to someone's assistance or a positive circumstance.",
+        "my": "တစ်စုံတစ်ယောက်၏ အကူအညီ သို့မဟုတ် အခြေအနေကောင်းတစ်ခုကြောင့် ကောင်းမွန်သောအကျိုးရလဒ် ရရှိသည့်အခါ သုံးသည်။"
+      },
+      "explanationMy": "တစ်စုံတစ်ယောက်၏ အကူအညီ သို့မဟုတ် အခြေအနေကောင်းတစ်ခုကြောင့် ကောင်းမွန်သောအကျိုးရလဒ် ရရှိသည့်အခါ သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l36.s001",
+          "note": "〜おかげで usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l36.s002",
+          "note": "〜おかげで usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l36.s003",
+          "note": "〜おかげで usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l36.s004",
+          "note": "〜おかげで usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l36.g001",
+        "n3.l36.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜おかげで."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "先生の熱心なご指導の（　）、無事に合格できました。",
+      "clozeTarget": "おかげで",
+      "clozeHint": "gratitude cause: thanks to...",
+      "acceptableSynonyms": [
+        "〜の恩恵で"
+      ],
+      "nuanceExplanationMy": "ကျေးဇူးတင်ခြင်းနှင့် ဝမ်းမြောက်ခြင်း သဘောပါဝင်သည်။"
+    },
+    {
+      "id": "n3.l36.g002",
+      "lessonId": "n3.l36",
+      "pattern": "〜せいで",
+      "meaning": "because of / due to (negative blame / fault)",
+      "meaningMy": "...ကြောင့်/...အပြစ်ကြောင့် (ဆိုးကျိုးရလဒ်)",
+      "meaningMyanmar": "...ကြောင့်/...အပြစ်ကြောင့် (ဆိုးကျိုးရလဒ်)",
+      "formation": "Verb/Adj/Noun [Plain Form] + せいで (な for na-adj, の for Noun)",
+      "explanation": {
+        "en": "Used when an undesirable outcome or failure occurs, attributing the blame or fault to a specific cause or person.",
+        "my": "မလိုလားအပ်သော ဆိုးကျိုး သို့မဟုတ် ကျရှုံးမှုဖြစ်ပေါ်ရခြင်းအတွက် အကြောင်းရင်း သို့မဟုတ် တစ်စုံတစ်ဦးအား အပြစ်တင်ရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "မလိုလားအပ်သော ဆိုးကျိုး သို့မဟုတ် ကျရှုံးမှုဖြစ်ပေါ်ရခြင်းအတွက် အကြောင်းရင်း သို့မဟုတ် တစ်စုံတစ်ဦးအား အပြစ်တင်ရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l36.s005",
+          "note": "〜せいで usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l36.s006",
+          "note": "〜せいで usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l36.s007",
+          "note": "〜せいで usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l36.s008",
+          "note": "〜せいで usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l36.g001",
+        "n3.l36.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜せいで."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "大雨の（　）、電車のダイヤが大幅に乱れてしまった。",
+      "clozeTarget": "せいで",
+      "clozeHint": "blame cause: due to...",
+      "acceptableSynonyms": [
+        "〜が原因で"
+      ],
+      "nuanceExplanationMy": "စိတ်ပျက်ခြင်းနှင့် အပြစ်တင်ညည်းတွားသံ ပါဝင်သည်။"
+    },
+    {
+      "id": "n3.l36.g003",
+      "lessonId": "n3.l36",
+      "pattern": "〜ため（に）",
+      "meaning": "because of / on account of (objective cause)",
+      "meaningMy": "...ကြောင့်/...ဖြစ်သောကြောင့် (ဓမ္မဓိဋ္ဌာန်ကျသောအကြောင်းရင်း)",
+      "meaningMyanmar": "...ကြောင့်/...ဖြစ်သောကြောင့် (ဓမ္မဓိဋ္ဌာန်ကျသောအကြောင်းရင်း)",
+      "formation": "Verb/Adj/Noun [Plain Form] + ため（に） (な for na-adj, の for Noun)",
+      "explanation": {
+        "en": "Used in formal announcements, news reports, and written explanations to express an objective cause leading to a result.",
+        "my": "သတင်းထုတ်ပြန်ချက်များနှင့် တရားဝင်စာရွက်စာတမ်းများတွင် ဖြစ်ရပ်တစ်ခု ဖြစ်ပွားရသည့် အကြောင်းရင်းမှန်ကို ဓမ္မဓိဋ္ဌာန်ကျကျ တင်ပြရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "သတင်းထုတ်ပြန်ချက်များနှင့် တရားဝင်စာရွက်စာတမ်းများတွင် ဖြစ်ရပ်တစ်ခု ဖြစ်ပွားရသည့် အကြောင်းရင်းမှန်ကို ဓမ္မဓိဋ္ဌာန်ကျကျ တင်ပြရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l36.s009",
+          "note": "〜ため（に） usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l36.s010",
+          "note": "〜ため（に） usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l36.s011",
+          "note": "〜ため（に） usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l36.s012",
+          "note": "〜ため（に） usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l36.g001",
+        "n3.l36.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ため（に）."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "強風の（　）、高速道路が一時通行止めとなっております。",
+      "clozeTarget": "ため",
+      "clozeHint": "formal objective cause: because of...",
+      "acceptableSynonyms": [
+        "〜によって",
+        "〜につき"
+      ],
+      "nuanceExplanationMy": "ပုဂ္ဂိုလ်ရေးခံစားချက်မပါဘဲ သတင်းအချက်အလက်ကို တည်ငြိမ်စွာ ဖော်ပြသော စာသုံးစကား ဖြစ်သည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l36.s001",
+      "lessonId": "n3.l36",
+      "ja": "同僚が手伝ってくれたおかげで、難しいプロジェクトが大成功を収めた。",
+      "kana": "どうりょうがてつだってくれたおかげで、むずかしいぷろじぇくとがだいせいこうをおさめた。",
+      "translation": {
+        "en": "Thanks to my colleague helping me, the difficult project achieved great success.",
+        "my": "လုပ်ဖော်ကိုင်ဖက်က ကူညီပေးခဲ့သောကြောင့် ခက်ခဲသောစီမံကိန်းသည် ကြီးမားသောအဆင်ပြေအောင်မြင်မှု ရရှိခဲ့သည်။"
+      },
+      "translationMy": "လုပ်ဖော်ကိုင်ဖက်က ကူညီပေးခဲ့သောကြောင့် ခက်ခဲသောစီမံကိန်းသည် ကြီးမားသောအဆင်ပြေအောင်မြင်မှု ရရှိခဲ့သည်။",
+      "vocabIds": [
+        "n3.l36.v012"
+      ],
+      "grammarIds": [
+        "n3.l36.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.s002",
+      "lessonId": "n3.l36",
+      "ja": "最新の医療技術の恩恵を受けたおかげで、病気は早期に完治した。",
+      "kana": "さいしんのいりょうぎじゅつのおんけいをうけたおかげで、びょうきはそうきにかんちした。",
+      "translation": {
+        "en": "Thanks to receiving the benefits of cutting-edge medical technology, the illness was completely cured early on.",
+        "my": "ခေတ်မီဆေးပညာနည်းပညာ၏ အကျိုးကျေးဇူးကို ခံစားခဲ့ရသောကြောင့် ရောဂါသည် စောစီးစွာ လုံးဝပျောက်ကင်းသွားခဲ့သည်။"
+      },
+      "translationMy": "ခေတ်မီဆေးပညာနည်းပညာ၏ အကျိုးကျေးဇူးကို ခံစားခဲ့ရသောကြောင့် ရောဂါသည် စောစီးစွာ လုံးဝပျောက်ကင်းသွားခဲ့သည်။",
+      "vocabIds": [
+        "n3.l36.v007"
+      ],
+      "grammarIds": [
+        "n3.l36.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.s003",
+      "lessonId": "n3.l36",
+      "ja": "皆様の温かいご支援のおかげで、素晴らしい結果を残すことができ心より感謝いたします。",
+      "kana": "みなさまのあたたかいごしえんのおかげで、すばらしいけっかをのこすことができこころよりかんしゃいたします。",
+      "translation": {
+        "en": "Thanks to everyone's warm support, we were able to achieve wonderful results, and we sincerely appreciate it.",
+        "my": "လူကြီးမင်းတို့၏ နွေးထွေးသော ကူညီပံ့ပိုးမှုများကြောင့် ကောင်းမွန်သောရလဒ်များကို ရရှိခဲ့သဖြင့် အထူးပင် ကျေးဇူးတင်ရှိပါသည်။"
+      },
+      "translationMy": "လူကြီးမင်းတို့၏ နွေးထွေးသော ကူညီပံ့ပိုးမှုများကြောင့် ကောင်းမွန်သောရလဒ်များကို ရရှိခဲ့သဖြင့် အထူးပင် ကျေးဇူးတင်ရှိပါသည်။",
+      "vocabIds": [
+        "n3.l36.v002",
+        "n3.l36.v009"
+      ],
+      "grammarIds": [
+        "n3.l36.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.s004",
+      "lessonId": "n3.l36",
+      "ja": "友人に招待してもらったおかげで、貴重な国際文化交流を体験できた。",
+      "kana": "ゆうじんにしょうたいしてもらったおかげで、きちょうなこくさいぶんかこうりゅうをたいけんできた。",
+      "translation": {
+        "en": "Thanks to being invited by my friend, I was able to experience valuable international cultural exchange.",
+        "my": "မိတ်ဆွေက ဖိတ်ကြားပေးခဲ့သောကြောင့် အဖိုးတန်သော နိုင်ငံတကာယဉ်ကျေးမှုဖလှယ်မှုကို လက်တွေ့ကြုံတွေ့ခွင့်ရခဲ့သည်။"
+      },
+      "translationMy": "မိတ်ဆွေက ဖိတ်ကြားပေးခဲ့သောကြောင့် အဖိုးတန်သော နိုင်ငံတကာယဉ်ကျေးမှုဖလှယ်မှုကို လက်တွေ့ကြုံတွေ့ခွင့်ရခဲ့သည်။",
+      "vocabIds": [
+        "n3.l36.v003"
+      ],
+      "grammarIds": [
+        "n3.l36.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.s005",
+      "lessonId": "n3.l36",
+      "ja": "寝坊したせいで、大事な採用面接に遅刻してしまい面接官に迷惑をかけた。",
+      "kana": "ねぼうしたせいで、だいじなさいようめんせつにちこくしてしまいめんせつかんにめいわくをかけた。",
+      "translation": {
+        "en": "Because I overslept, I was late for an important job interview and caused trouble for the interviewers.",
+        "my": "အိပ်ရာထနောက်ကျသွားသောကြောင့် အရေးကြီးသောအလုပ်အင်တာဗျူးသို့ နောက်ကျခဲ့ပြီး စစ်ဆေးသူများအား ဒုက္ခပေးသလို ဖြစ်သွားခဲ့သည်။"
+      },
+      "translationMy": "အိပ်ရာထနောက်ကျသွားသောကြောင့် အရေးကြီးသောအလုပ်အင်တာဗျူးသို့ နောက်ကျခဲ့ပြီး စစ်ဆေးသူများအား ဒုက္ခပေးသလို ဖြစ်သွားခဲ့သည်။",
+      "vocabIds": [
+        "n3.l36.v010"
+      ],
+      "grammarIds": [
+        "n3.l36.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.s006",
+      "lessonId": "n3.l36",
+      "ja": "台風のせいで、イベント会場が大きな被害を受けて中止に追い込まれた。",
+      "kana": "たいふうのせいで、いべんとかいじょうがおおきなひがいをうけてちゅうしにおいこまれた。",
+      "translation": {
+        "en": "Due to the typhoon, the event venue suffered severe damage and was forced to be cancelled.",
+        "my": "မုန်တိုင်းဒဏ်ကြောင့် ပွဲကျင်းပရာနေရာသည် ကြီးမားသော ထိခိုက်ပျက်စီးမှုများ ကြုံတွေ့ခဲ့ရပြီး ဖျက်သိမ်းလိုက်ရသည်။"
+      },
+      "translationMy": "မုန်တိုင်းဒဏ်ကြောင့် ပွဲကျင်းပရာနေရာသည် ကြီးမားသော ထိခိုက်ပျက်စီးမှုများ ကြုံတွေ့ခဲ့ရပြီး ဖျက်သိမ်းလိုက်ရသည်။",
+      "vocabIds": [
+        "n3.l36.v008"
+      ],
+      "grammarIds": [
+        "n3.l36.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.s007",
+      "lessonId": "n3.l36",
+      "ja": "曖昧な指示を出したせいで、現場に無用な混乱を招いてしまった。",
+      "kana": "あいまいなしじをだしたせいで、げんばにむようなこんらんをまねいてしまった。",
+      "translation": {
+        "en": "Because vague instructions were issued, it invited unnecessary confusion on site.",
+        "my": "မရှင်းလင်းသော ညွှန်ကြားချက်များ ထုတ်ပြန်ခဲ့သောကြောင့် လုပ်ငန်းခွင်တွင် မလိုအပ်ဘဲ ရှုပ်ထွေးမှုများ ဖြစ်ပေါ်စေခဲ့သည်။"
+      },
+      "translationMy": "မရှင်းလင်းသော ညွှန်ကြားချက်များ ထုတ်ပြန်ခဲ့သောကြောင့် လုပ်ငန်းခွင်တွင် မလိုအပ်ဘဲ ရှုပ်ထွေးမှုများ ဖြစ်ပေါ်စေခဲ့သည်။",
+      "vocabIds": [
+        "n3.l36.v011"
+      ],
+      "grammarIds": [
+        "n3.l36.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.s008",
+      "lessonId": "n3.l36",
+      "ja": "誰か一人の責任にするのではなく、失敗を招いた根本的な原因を究明すべきだ。",
+      "kana": "だれかひとりのせきにんにするのではなく、しっぱいをまねいたこんぽんてきなげんいんをきゅうめいすべきだ。",
+      "translation": {
+        "en": "Rather than blaming one person's responsibility, we should investigate the fundamental causes that led to failure.",
+        "my": "လူတစ်ဦးတစ်ယောက်၏ တာဝန်အဖြစ် အပြစ်တင်မနေဘဲ ကျရှုံးမှုဖြစ်ရသည့် အခြေခံအကြောင်းရင်းအစစ်အမှန်ကို ရှာဖွေစုံစမ်းသင့်သည်။"
+      },
+      "translationMy": "လူတစ်ဦးတစ်ယောက်၏ တာဝန်အဖြစ် အပြစ်တင်မနေဘဲ ကျရှုံးမှုဖြစ်ရသည့် အခြေခံအကြောင်းရင်းအစစ်အမှန်ကို ရှာဖွေစုံစမ်းသင့်သည်။",
+      "vocabIds": [
+        "n3.l36.v001",
+        "n3.l36.v006"
+      ],
+      "grammarIds": [
+        "n3.l36.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.s009",
+      "lessonId": "n3.l36",
+      "ja": "大雪のため、本日の鉄道各線は終日運転を見合わせております。",
+      "kana": "おおゆきのため、ほんじつのてつどうかくせんはしゅうじつうんてんをみあわせております。",
+      "translation": {
+        "en": "Due to heavy snow, railway lines today are suspending operations all day.",
+        "my": "မိုးသည်းထန်စွာ နှင်းကျဆင်းမှုကြောင့် ယနေ့ ရထားလမ်းပိုင်းအားလုံး ပြေးဆွဲမှုကို တစ်နေကုန် ရပ်ဆိုင်းထားပါသည်။"
+      },
+      "translationMy": "မိုးသည်းထန်စွာ နှင်းကျဆင်းမှုကြောင့် ယနေ့ ရထားလမ်းပိုင်းအားလုံး ပြေးဆွဲမှုကို တစ်နေကုန် ရပ်ဆိုင်းထားပါသည်။",
+      "vocabIds": [
+        "n3.l36.v004"
+      ],
+      "grammarIds": [
+        "n3.l36.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.s010",
+      "lessonId": "n3.l36",
+      "ja": "システム障害が発生したため、業務に重大な影響が生じている。",
+      "kana": "しすてむしょうがいがはっせいしたため、ぎょうむにじゅうだいなえいきょうがしょうじている。",
+      "translation": {
+        "en": "Because a system failure occurred, significant effects on business operations have arisen.",
+        "my": "စနစ်ချွတ်ယွင်းမှု ဖြစ်ပွားခဲ့သောကြောင့် လုပ်ငန်းဆောင်ရွက်မှုများတွင် ကြီးမားသော သက်ရောက်မှုများ ပေါ်ပေါက်နေသည်။"
+      },
+      "translationMy": "စနစ်ချွတ်ယွင်းမှု ဖြစ်ပွားခဲ့သောကြောင့် လုပ်ငန်းဆောင်ရွက်မှုများတွင် ကြီးမားသော သက်ရောက်မှုများ ပေါ်ပေါက်နေသည်။",
+      "vocabIds": [
+        "n3.l36.v004"
+      ],
+      "grammarIds": [
+        "n3.l36.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.s011",
+      "lessonId": "n3.l36",
+      "ja": "諸般の事情および正当な理由のため、本総会の開催日時を変更いたします。",
+      "kana": "しょはんのじじょうおよびせいとうなりゆうのため、ほんそうかいのかいさいにちじをへんこういたします。",
+      "translation": {
+        "en": "Due to various circumstances and legitimate reasons, the date and time of this general meeting will be changed.",
+        "my": "အခြေအနေအရပ်ရပ်နှင့် ခိုင်လုံသော အကြောင်းပြချက်များကြောင့် ဤအထွေထွေညီလာခံ ကျင်းပမည့်ရက်နှင့် အချိန်ကို ပြောင်းလဲပါမည်။"
+      },
+      "translationMy": "အခြေအနေအရပ်ရပ်နှင့် ခိုင်လုံသော အကြောင်းပြချက်များကြောင့် ဤအထွေထွေညီလာခံ ကျင်းပမည့်ရက်နှင့် အချိန်ကို ပြောင်းလဲပါမည်။",
+      "vocabIds": [
+        "n3.l36.v005"
+      ],
+      "grammarIds": [
+        "n3.l36.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l36.s012",
+      "lessonId": "n3.l36",
+      "ja": "道路工事のため、一部区間で車線規制を実施しております。",
+      "kana": "どうろこうじのため、いちぶくかんでしゃせんきせいをじっししております。",
+      "translation": {
+        "en": "Due to road construction, lane restrictions are being implemented in certain sections.",
+        "my": "လမ်းပြင်ဆင်ရေးလုပ်ငန်းများကြောင့် အချို့သောအပိုင်းများတွင် ယာဉ်ကြောကန့်သတ်မှုများကို ပြုလုပ်လျက်ရှိပါသည်။"
+      },
+      "translationMy": "လမ်းပြင်ဆင်ရေးလုပ်ငန်းများကြောင့် အချို့သောအပိုင်းများတွင် ယာဉ်ကြောကန့်သတ်မှုများကို ပြုလုပ်လျက်ရှိပါသည်။",
+      "vocabIds": [
+        "n3.l36.v004"
+      ],
+      "grammarIds": [
+        "n3.l36.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l36.r001",
+    "lessonId": "n3.l36",
+    "title": "交通機関の運行乱れに関するお詫びとお知らせ",
+    "level": "N3",
+    "text": "本日午前八時頃、信号設備の故障が発生したため、東西線の全線で運転を見合わせる事態となりました。急遽代替輸送を実施いたしましたが、通勤通学の時間帯と重なったせいで、各駅の改札口周辺で大変な混雑と混乱を招いてしまいました。ご利用のお客様には多大なご迷惑をおかけしましたことを、深くお詫び申し上げます。保守点検員による迅速な復旧作業のおかげで、正午過ぎには安全が確認され、全線で運転を再開いたしました。今後、同様の事故が発生しないよう、設備原因の究明と再発防止対策を徹底してまいります。",
+    "kanaText": "ほんじつごぜんはちじごろ、しんごうせつびのこしょうがはっせいしたため、とうざいせんのぜんせんでうんてんをみあわせるじたいとなりました。きゅうきょだいたいゆそうをじっしいたしましたが、つうきんつうがくのじかんたいとかさなったせいで、かくえきのかいさつぐちしゅうへんでたいへんなこんざつとこんらんをまねいてしまいました。ごりようのおきゃくさまにはただいなごめいわくをおかけしましたことを、ふかくおわびもうしあげます。ほしゅてんけんいんによるじんそくなふっきゅうさぎょうのおかげで、しょうごすぎにはあんぜんがかくにんされ、ぜんせんでうんてんをさいかいいいたしました。こんご、どうようのじこがはっせいしないよう、せつびげんいんのきゅうめいとさいはつぼうしたいさくをてっていしてまいります。",
+    "translation": "ယနေ့ နံနက် ၈ နာရီခန့်တွင် အချက်ပြစနစ် ချွတ်ယွင်းမှု ဖြစ်ပွားခဲ့သောကြောင့် တိုဇိုင်းလိုင်းတစ်ခုလုံး ပြေးဆွဲမှုကို ရပ်ဆိုင်းခဲ့ရပါသည်။ အရေးပေါ် အစားထိုးသယ်ယူပို့ဆောင်ရေး စီစဉ်ဆောင်ရွက်ခဲ့သော်လည်း ရုံးတက်ကျောင်းတက်ချိန်နှင့် တိုက်ဆိုင်သွားသောကြောင့် ဘူတာတစ်ခုချင်းစီ၏ လက်မှတ်စစ်ကောင်တာများအနီးတွင် အလွန်ဆိုးရွားသော လူကျပ်တည်းမှုနှင့် ရှုပ်ထွေးမှုများ ဖြစ်ပေါ်စေခဲ့ပါသည်။ ရထားစီးနင်းသူ ပြည်သူများအား အခက်အခဲဒုက္ခများစွာ ဖြစ်စေခဲ့သည့်အတွက် အလေးအနက် တောင်းပန်အပ်ပါသည်။ ထိန်းသိမ်းစစ်ဆေးရေး ဝန်ထမ်းများ၏ လျင်မြန်သော ပြင်ဆင်ရေးလုပ်ငန်းများကြောင့် မွန်းတည့်ချိန်ကျော်တွင် ဘေးကင်းရေးကို အတည်ပြုနိုင်ခဲ့ပြီး လိုင်းအားလုံး ပုံမှန်အတိုင်း ပြန်လည်ပြေးဆွဲနိုင်ခဲ့ပါသည်။ နောင်တွင် ယခုကဲ့သို့သော မတော်တဆမှုများ ထပ်မံမဖြစ်ပွားစေရန် စက်ပစ္စည်းချွတ်ယွင်းရသည့် အကြောင်းရင်းကို စုံစမ်းစစ်ဆေးပြီး ကြိုတင်ကာကွယ်မှုများကို အပြည့်အဝ လုပ်ဆောင်သွားပါမည်။",
+    "translationMy": "ယနေ့ နံနက် ၈ နာရီခန့်တွင် အချက်ပြစနစ် ချွတ်ယွင်းမှု ဖြစ်ပွားခဲ့သောကြောင့် တိုဇိုင်းလိုင်းတစ်ခုလုံး ပြေးဆွဲမှုကို ရပ်ဆိုင်းခဲ့ရပါသည်။ အရေးပေါ် အစားထိုးသယ်ယူပို့ဆောင်ရေး စီစဉ်ဆောင်ရွက်ခဲ့သော်လည်း ရုံးတက်ကျောင်းတက်ချိန်နှင့် တိုက်ဆိုင်သွားသောကြောင့် ဘူတာတစ်ခုချင်းစီ၏ လက်မှတ်စစ်ကောင်တာများအနီးတွင် အလွန်ဆိုးရွားသော လူကျပ်တည်းမှုနှင့် ရှုပ်ထွေးမှုများ ဖြစ်ပေါ်စေခဲ့ပါသည်။ ရထားစီးနင်းသူ ပြည်သူများအား အခက်အခဲဒုက္ခများစွာ ဖြစ်စေခဲ့သည့်အတွက် အလေးအနက် တောင်းပန်အပ်ပါသည်။ ထိန်းသိမ်းစစ်ဆေးရေး ဝန်ထမ်းများ၏ လျင်မြန်သော ပြင်ဆင်ရေးလုပ်ငန်းများကြောင့် မွန်းတည့်ချိန်ကျော်တွင် ဘေးကင်းရေးကို အတည်ပြုနိုင်ခဲ့ပြီး လိုင်းအားလုံး ပုံမှန်အတိုင်း ပြန်လည်ပြေးဆွဲနိုင်ခဲ့ပါသည်။ နောင်တွင် ယခုကဲ့သို့သော မတော်တဆမှုများ ထပ်မံမဖြစ်ပွားစေရန် စက်ပစ္စည်းချွတ်ယွင်းရသည့် အကြောင်းရင်းကို စုံစမ်းစစ်ဆေးပြီး ကြိုတင်ကာကွယ်မှုများကို အပြည့်အဝ လုပ်ဆောင်သွားပါမည်။",
+    "questionIds": [
+      "n3.l36.q025",
+      "n3.l36.q026",
+      "n3.l36.q027"
+    ],
+    "difficulty": 3,
+    "glossary": [
+      {
+        "term": "運転見合わせ",
+        "reading": "うんてんみあわせ",
+        "meaning": "suspension of train operations (ရထားပြေးဆွဲမှုယာယီရပ်ဆိုင်းခြင်း)",
+        "meaningMy": "suspension of train operations (ရထားပြေးဆွဲမှုယာယီရပ်ဆိုင်းခြင်း)",
+        "meaningMyanmar": "suspension of train operations (ရထားပြေးဆွဲမှုယာယီရပ်ဆိုင်းခြင်း)"
+      },
+      {
+        "term": "代替輸送",
+        "reading": "だいたいゆそう",
+        "meaning": "alternative transport arrangement (အစားထိုးသယ်ယူပို့ဆောင်ရေး)",
+        "meaningMy": "alternative transport arrangement (အစားထိုးသယ်ယူပို့ဆောင်ရေး)",
+        "meaningMyanmar": "alternative transport arrangement (အစားထိုးသယ်ယူပို့ဆောင်ရေး)"
+      },
+      {
+        "term": "再発防止",
+        "reading": "さいはつぼうし",
+        "meaning": "prevention of recurrence (ထပ်မံမဖြစ်ပွားအောင်ကာကွယ်ခြင်း)",
+        "meaningMy": "prevention of recurrence (ထပ်မံမဖြစ်ပွားအောင်ကာကွယ်ခြင်း)",
+        "meaningMyanmar": "prevention of recurrence (ထပ်မံမဖြစ်ပွားအောင်ကာကွယ်ခြင်း)"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n3.l36.lis001",
+    "lessonId": "n3.l36",
+    "title": "試験合格のお祝いと報告",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "木村",
+      "林"
+    ],
+    "transcript": "木村: 林さん、日本語能力試験N3の合格、おめでとうございます！\n林: ありがとうございます！木村さんが毎週熱心に勉強に付き合ってくださったおかげです。\n木村: いえいえ、林さん自身の努力の結果ですよ。本番で緊張したせいで時間が足りなくなりそうだったと言っていましたが、大丈夫でしたか。\n林: ええ、読解で焦ったせいで少しミスもありましたが、聴解でしっかり点数が取れたため、無事に基準点を超えられました。\n木村: それは素晴らしいですね！次はぜひN2合格を目指して一緒に頑張りましょう。",
+    "translation": "木村: ဟာယာရှီစံ၊ ဂျပန်ဘာသာစွမ်းရည်စာမေးပွဲ N3 အောင်မြင်သွားတဲ့အတွက် ဂုဏ်ယူပါတယ်ခင်ဗျာ။\n林: ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ခင်ဗျားက အပတ်စဉ် စိတ်ပါလက်ပါ စာအတူလေ့လာပေးခဲ့တဲ့ ကျေးဇူးကြောင့်ပါပဲ။\n木村: မဟုတ်ပါဘူး၊ ခင်ဗျားကိုယ်တိုင်ရဲ့ ကြိုးစားအားထုတ်မှုရလဒ်ပါပဲ။ စာမေးပွဲခန်းထဲမှာ စိတ်လှုပ်ရှားတဲ့အတွက် အချိန်မလောက်တော့မလိုဖြစ်ခဲ့တယ်လို့ ပြောပေမယ့် အဆင်ပြေခဲ့တယ်ပေါ့။\n林: ဟုတ်ကဲ့၊ ဖတ်စာမှာ လောသွားတဲ့အတွက် အမှားနည်းနည်းရှိခဲ့ပေမယ့် နားထောင်မှုအပိုင်းမှာ အမှတ်ကောင်းကောင်းရရှိခဲ့တဲ့အတွက် သတ်မှတ်အောင်မှတ်ကို အဆင်ပြေပြေ ကျော်လွန်နိုင်ခဲ့ပါတယ်။\n木村: အရမ်းကောင်းတာပေါ့ခင်ဗျာ။ နောက်တစ်ဆင့် N2 အောင်မြင်ဖို့ ရည်မှန်းပြီး အတူတူ ဆက်ကြိုးစားကြတာပေါ့။",
+    "translationMy": "木村: ဟာယာရှီစံ၊ ဂျပန်ဘာသာစွမ်းရည်စာမေးပွဲ N3 အောင်မြင်သွားတဲ့အတွက် ဂုဏ်ယူပါတယ်ခင်ဗျာ။\n林: ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ခင်ဗျားက အပတ်စဉ် စိတ်ပါလက်ပါ စာအတူလေ့လာပေးခဲ့တဲ့ ကျေးဇူးကြောင့်ပါပဲ။\n木村: မဟုတ်ပါဘူး၊ ခင်ဗျားကိုယ်တိုင်ရဲ့ ကြိုးစားအားထုတ်မှုရလဒ်ပါပဲ။ စာမေးပွဲခန်းထဲမှာ စိတ်လှုပ်ရှားတဲ့အတွက် အချိန်မလောက်တော့မလိုဖြစ်ခဲ့တယ်လို့ ပြောပေမယ့် အဆင်ပြေခဲ့တယ်ပေါ့။\n林: ဟုတ်ကဲ့၊ ဖတ်စာမှာ လောသွားတဲ့အတွက် အမှားနည်းနည်းရှိခဲ့ပေမယ့် နားထောင်မှုအပိုင်းမှာ အမှတ်ကောင်းကောင်းရရှိခဲ့တဲ့အတွက် သတ်မှတ်အောင်မှတ်ကို အဆင်ပြေပြေ ကျော်လွန်နိုင်ခဲ့ပါတယ်။\n木村: အရမ်းကောင်းတာပေါ့ခင်ဗျာ။ နောက်တစ်ဆင့် N2 အောင်မြင်ဖို့ ရည်မှန်းပြီး အတူတူ ဆက်ကြိုးစားကြတာပေါ့။",
+    "turns": [
+      {
+        "speaker": "木村",
+        "ja": "林さん、日本語能力試験N3の合格、おめでとうございます！",
+        "kana": "はやしさん、にほんごのうりょくしけんえぬさんのごうかく、おめでとうございます！",
+        "en": "Hayashi-san, congratulations on passing the JLPT N3 exam!",
+        "my": "ဟာယာရှီစံ၊ ဂျပန်ဘာသာစွမ်းရည်စာမေးပွဲ N3 အောင်မြင်သွားတဲ့အတွက် ဂုဏ်ယူပါတယ်ခင်ဗျာ။",
+        "translationMy": "ဟာယာရှီစံ၊ ဂျပန်ဘာသာစွမ်းရည်စာမေးပွဲ N3 အောင်မြင်သွားတဲ့အတွက် ဂုဏ်ယူပါတယ်ခင်ဗျာ။",
+        "myanmar": "ဟာယာရှီစံ၊ ဂျပန်ဘာသာစွမ်းရည်စာမေးပွဲ N3 အောင်မြင်သွားတဲ့အတွက် ဂုဏ်ယူပါတယ်ခင်ဗျာ။"
+      },
+      {
+        "speaker": "林",
+        "ja": "ありがとうございます！木村さんが毎週熱心に勉強に付き合ってくださったおかげです。",
+        "kana": "ありがとうございます！きむらさんがまいしゅうねっしんにべんきょうにつきあってくださったおかげです。",
+        "en": "Thank you very much! It's all thanks to you studying with me enthusiastically every week.",
+        "my": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ခင်ဗျားက အပတ်စဉ် စိတ်ပါလက်ပါ စာအတူလေ့လာပေးခဲ့တဲ့ ကျေးဇူးကြောင့်ပါပဲ။",
+        "translationMy": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ခင်ဗျားက အပတ်စဉ် စိတ်ပါလက်ပါ စာအတူလေ့လာပေးခဲ့တဲ့ ကျေးဇူးကြောင့်ပါပဲ။",
+        "myanmar": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ ခင်ဗျားက အပတ်စဉ် စိတ်ပါလက်ပါ စာအတူလေ့လာပေးခဲ့တဲ့ ကျေးဇူးကြောင့်ပါပဲ။"
+      },
+      {
+        "speaker": "木村",
+        "ja": "いえいえ、林さん自身の努力の結果ですよ。本番で緊張したせいで時間が足りなくなりそうだったと言っていましたが、大丈夫でしたか。",
+        "kana": "いえいえ、はやしさんじしんのどりょくのけっかですよ。ほんばんできんちょうしたせいでじかんがたりなくなりそうだったといっていましたが、だいじょうぶでしたか。",
+        "en": "Not at all, it's the result of your own hard work! You mentioned you almost ran out of time because you were nervous, but it worked out?",
+        "my": "မဟုတ်ပါဘူး၊ ခင်ဗျားကိုယ်တိုင်ရဲ့ ကြိုးစားအားထုတ်မှုရလဒ်ပါပဲ။ စာမေးပွဲခန်းထဲမှာ စိတ်လှုပ်ရှားတဲ့အတွက် အချိန်မလောက်တော့မလိုဖြစ်ခဲ့တယ်လို့ ပြောပေမယ့် အဆင်ပြေခဲ့တယ်ပေါ့။",
+        "translationMy": "မဟုတ်ပါဘူး၊ ခင်ဗျားကိုယ်တိုင်ရဲ့ ကြိုးစားအားထုတ်မှုရလဒ်ပါပဲ။ စာမေးပွဲခန်းထဲမှာ စိတ်လှုပ်ရှားတဲ့အတွက် အချိန်မလောက်တော့မလိုဖြစ်ခဲ့တယ်လို့ ပြောပေမယ့် အဆင်ပြေခဲ့တယ်ပေါ့။",
+        "myanmar": "မဟုတ်ပါဘူး၊ ခင်ဗျားကိုယ်တိုင်ရဲ့ ကြိုးစားအားထုတ်မှုရလဒ်ပါပဲ။ စာမေးပွဲခန်းထဲမှာ စိတ်လှုပ်ရှားတဲ့အတွက် အချိန်မလောက်တော့မလိုဖြစ်ခဲ့တယ်လို့ ပြောပေမယ့် အဆင်ပြေခဲ့တယ်ပေါ့။"
+      },
+      {
+        "speaker": "林",
+        "ja": "ええ、読解で焦ったせいで少しミスもありましたが、聴解でしっかり点数が取れたため、無事に基準点を超えられました。",
+        "kana": "ええ、どっかいであせったせいですこしみすもありましたが、ちょうかいでしっかりてんすがとれたため、ぶじにきじゅんてんをこえられました。",
+        "en": "Yes, because I rushed on reading I had a few mistakes, but because I scored solidly on listening, I safely exceeded the passing benchmark.",
+        "my": "ဟုတ်ကဲ့၊ ဖတ်စာမှာ လောသွားတဲ့အတွက် အမှားနည်းနည်းရှိခဲ့ပေမယ့် နားထောင်မှုအပိုင်းမှာ အမှတ်ကောင်းကောင်းရရှိခဲ့တဲ့အတွက် သတ်မှတ်အောင်မှတ်ကို အဆင်ပြေပြေ ကျော်လွန်နိုင်ခဲ့ပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့၊ ဖတ်စာမှာ လောသွားတဲ့အတွက် အမှားနည်းနည်းရှိခဲ့ပေမယ့် နားထောင်မှုအပိုင်းမှာ အမှတ်ကောင်းကောင်းရရှိခဲ့တဲ့အတွက် သတ်မှတ်အောင်မှတ်ကို အဆင်ပြေပြေ ကျော်လွန်နိုင်ခဲ့ပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့၊ ဖတ်စာမှာ လောသွားတဲ့အတွက် အမှားနည်းနည်းရှိခဲ့ပေမယ့် နားထောင်မှုအပိုင်းမှာ အမှတ်ကောင်းကောင်းရရှိခဲ့တဲ့အတွက် သတ်မှတ်အောင်မှတ်ကို အဆင်ပြေပြေ ကျော်လွန်နိုင်ခဲ့ပါတယ်။"
+      },
+      {
+        "speaker": "木村",
+        "ja": "それは素晴らしいですね！次はぜひN2合格を目指して一緒に頑張りましょう。",
+        "kana": "それはすばらしいですね！つぎはぜひえぬにごうかくをめざしていっしょにがんばりましょう。",
+        "en": "That's wonderful! Next, let's aim for passing N2 and work hard together.",
+        "my": "အရမ်းကောင်းတာပေါ့ခင်ဗျာ။ နောက်တစ်ဆင့် N2 အောင်မြင်ဖို့ ရည်မှန်းပြီး အတူတူ ဆက်ကြိုးစားကြတာပေါ့။",
+        "translationMy": "အရမ်းကောင်းတာပေါ့ခင်ဗျာ။ နောက်တစ်ဆင့် N2 အောင်မြင်ဖို့ ရည်မှန်းပြီး အတူတူ ဆက်ကြိုးစားကြတာပေါ့။",
+        "myanmar": "အရမ်းကောင်းတာပေါ့ခင်ဗျာ။ နောက်တစ်ဆင့် N2 အောင်မြင်ဖို့ ရည်မှန်းပြီး အတူတူ ဆက်ကြိုးစားကြတာပေါ့။"
+      }
+    ],
+    "questionIds": [
+      "n3.l36.q028",
+      "n3.l36.q029",
+      "n3.l36.q030"
+    ],
+    "difficulty": 3,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l36.q001",
+      "lessonId": "n3.l36",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "ある事柄を引き起こすもととなった事柄を何というか。",
+      "choices": [
+        "原因",
+        "結果",
+        "招待",
+        "感謝"
+      ],
+      "answer": "原因",
+      "explanation": "原因 (げんいん) means cause or origin.",
+      "explanationMy": "ဖြစ်ရပ်တစ်ခုကို ဖြစ်ပေါ်စေသော အစအကြောင်းရင်းကို 原因 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q002",
+      "lessonId": "n3.l36",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "行為や現象から最終的に生じた状態を何というか。",
+      "choices": [
+        "結果",
+        "原因",
+        "迷惑",
+        "責任"
+      ],
+      "answer": "結果",
+      "explanation": "結果 (けっか) means result or outcome.",
+      "explanationMy": "အဆုံးသတ်တွင် ထွက်ပေါ်လာသော အကျိုးရလဒ်ကို 結果 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q003",
+      "lessonId": "n3.l36",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "客を招いてもてなすことを何というか。",
+      "choices": [
+        "招待",
+        "迷惑",
+        "影響",
+        "混乱"
+      ],
+      "answer": "招待",
+      "explanation": "招待 (しょうたい) means invitation.",
+      "explanationMy": "ဧည့်သည်အား ဖိတ်ခေါ်ဧည့်ခံခြင်းကို 招待 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q004",
+      "lessonId": "n3.l36",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "一方の働きかけが他方に変化や反応をもたらすことを何というか。",
+      "choices": [
+        "影響",
+        "理由",
+        "責任",
+        "恩恵"
+      ],
+      "answer": "影響",
+      "explanation": "影響 (えいきょう) means influence or effect.",
+      "explanationMy": "တစ်ဖက်၏လုပ်ဆောင်မှုက အခြားတစ်ဖက်အပေါ် ပြောင်းလဲမှုဖြစ်စေခြင်းကို 影響 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q005",
+      "lessonId": "n3.l36",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "自分が引き受けなければならない任務や義務を何というか。",
+      "choices": [
+        "責任",
+        "理由",
+        "被害",
+        "迷惑"
+      ],
+      "answer": "責任",
+      "explanation": "責任 (せきにん) means duty or responsibility.",
+      "explanationMy": "မိမိကိုယ်တိုင် တာဝန်ယူဆောင်ရွက်ရမည့် အရာကို 責任 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q006",
+      "lessonId": "n3.l36",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "他人の親切や恵みに対してありがたいと思う気持ちを何というか。",
+      "choices": [
+        "感謝",
+        "迷惑",
+        "混乱",
+        "被害"
+      ],
+      "answer": "感謝",
+      "explanation": "感謝 (かんしゃ) means gratitude or appreciation.",
+      "explanationMy": "ကျေးဇူးကို သိရှိပြီး ကျေးဇူးတင်သောစိတ်ကို 感謝 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q007",
+      "lessonId": "n3.l36",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "他人の行動によって不快感や不利益を受けることを何というか。",
+      "choices": [
+        "迷惑",
+        "恩恵",
+        "成功",
+        "招待"
+      ],
+      "answer": "迷惑",
+      "explanation": "迷惑 (めいわく) means nuisance or inconvenience.",
+      "explanationMy": "အခြားသူကြောင့် အနှောင့်အယှက် သို့မဟုတ် ဒုက္ခကြုံရခြင်းကို 迷惑 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q008",
+      "lessonId": "n3.l36",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "秩序が乱れて収拾がつかなくなる状態を何というか。",
+      "choices": [
+        "混乱",
+        "成功",
+        "恩恵",
+        "理由"
+      ],
+      "answer": "混乱",
+      "explanation": "混乱 (こんらん) means confusion or chaos.",
+      "explanationMy": "စည်းစနစ်ပျက်ပြားပြီး ရှုပ်ထွေးဗရုတ်သုတ်ခဖြစ်ခြင်းကို 混乱 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q009",
+      "lessonId": "n3.l36",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「因」の正しい音読みはどれか。",
+      "choices": [
+        "イン",
+        "エン",
+        "カン",
+        "ショウ"
+      ],
+      "answer": "イン",
+      "explanation": "The onyomi of 因 is イン (e.g. 原因 - げんいん).",
+      "explanationMy": "因 ၏ onyomi မှာ イン ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q010",
+      "lessonId": "n3.l36",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「要因」の正しい読み方はどれか。",
+      "choices": [
+        "よういん",
+        "よいん",
+        "ようえん",
+        "しょういん"
+      ],
+      "answer": "よういん",
+      "explanation": "要因 is read as よういん.",
+      "explanationMy": "要因 ၏ အသံထွက်မှာ よういん (အဓိကအချက်) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q011",
+      "lessonId": "n3.l36",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「果」の正しい訓読みはどれか。",
+      "choices": [
+        "は・たす",
+        "まね・く",
+        "むく・いる",
+        "ゆる・す"
+      ],
+      "answer": "は・たす",
+      "explanation": "The kunyomi of 果 is は・たす / は・てる.",
+      "explanationMy": "果 ၏ kunyomi မှာ は・たす (ပြီးမြောက်အောင်ဆောင်ရွက်သည်) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q012",
+      "lessonId": "n3.l36",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「成果」の正しい読み方はどれか。",
+      "choices": [
+        "せいか",
+        "しょうか",
+        "せいこ",
+        "じょうか"
+      ],
+      "answer": "せいか",
+      "explanation": "成果 is read as せいか.",
+      "explanationMy": "成果 ၏ အသံထွက်မှာ せいか (အောင်မြင်မှုရလဒ်) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q013",
+      "lessonId": "n3.l36",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「招」の正しい訓読みはどれか。",
+      "choices": [
+        "まね・く",
+        "たの・む",
+        "ねが・う",
+        "つた・える"
+      ],
+      "answer": "まね・く",
+      "explanation": "The kunyomi of 招 is まね・く.",
+      "explanationMy": "招 ၏ kunyomi မှာ まね・く (ဖိတ်ခေါ်သည်/ဖိတ်ခေါ်ဖြစ်ပေါ်စေသည်) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q014",
+      "lessonId": "n3.l36",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「招待」の正しい読み方はどれか。",
+      "choices": [
+        "しょうたい",
+        "しょうだい",
+        "しょうてい",
+        "じょうたい"
+      ],
+      "answer": "しょうたい",
+      "explanation": "招待 is read as しょうたい.",
+      "explanationMy": "招待 ၏ အသံထွက်မှာ しょうたい ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q015",
+      "lessonId": "n3.l36",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "先輩が詳しく教えてくれた（　）、仕事のミスを減らすことができた。",
+      "choices": [
+        "おかげで",
+        "せいで",
+        "くせに",
+        "わりに"
+      ],
+      "answer": "おかげで",
+      "explanation": "Use 〜おかげで for positive outcomes due to someone's help.",
+      "explanationMy": "ကောင်းမွန်သော အကျိုးကျေးဇူးအတွက် 教えくれたおかげで ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q016",
+      "lessonId": "n3.l36",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "薬を早く飲んだ（　）、風邪がひどくならずに済んだ。",
+      "choices": [
+        "おかげで",
+        "せいで",
+        "ものの",
+        "どころか"
+      ],
+      "answer": "おかげで",
+      "explanation": "〜おかげで indicates a fortunate result avoided a worse outcome.",
+      "explanationMy": "အဆင်ပြေစွာ သက်သာသွားသည့် အကျိုးရလဒ်အတွက် おかげで ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q017",
+      "lessonId": "n3.l36",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜おかげで」を皮肉（アイロニー）として使う文の例はどれか。",
+      "choices": [
+        "君が遅刻したおかげで、全員で叱られたよ。（非難のニュアンス）",
+        "天気が晴れたおかげでピクニックが楽しめた。",
+        "奨学金をもらったおかげで大学に進学できた。",
+        "病院に行ったおかげで元気になった。"
+      ],
+      "answer": "君が遅刻したおかげで、全員で叱られたよ。（非難のニュアンス）",
+      "explanation": "〜おかげで can be used sarcastically to express blame or irony.",
+      "explanationMy": "ရွဲ့စောင်း၍ အပြစ်တင်သည့်အခါမျိုးတွင်လည်း おかげで ကို သုံးတတ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q018",
+      "lessonId": "n3.l36",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "バスが遅れた（　）、飛行機に乗り遅れてしまった。",
+      "choices": [
+        "せいで",
+        "おかげで",
+        "ために",
+        "によって"
+      ],
+      "answer": "せいで",
+      "explanation": "Use 〜せいで to blame a negative cause for a misfortune: 遅れたせいで.",
+      "explanationMy": "ဆိုးကျိုးအတွက် အပြစ်တင်ရာတွင် 遅れたせいで ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q019",
+      "lessonId": "n3.l36",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "彼のいい加減な発言の（　）、チーム全員が混乱している。",
+      "choices": [
+        "せいで",
+        "おかげで",
+        "わりに",
+        "反面"
+      ],
+      "answer": "せいで",
+      "explanation": "Noun + の + せいで assigns fault to an action/statement.",
+      "explanationMy": "နာမ် + のせいで ဖြင့် အပြစ်တင်ဖော်ပြသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q020",
+      "lessonId": "n3.l36",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜せいで」と「〜おかげで」の根本的な違いは何ですか。",
+      "choices": [
+        "「せいで」は悪い結果に対する非難を表し、「おかげで」は良い結果に対する感謝を表す",
+        "「せいで」は敬語にしか使えない",
+        "「おかげで」は過去形には接続できない",
+        "両者ともに全く同じ意味で使い分けはない"
+      ],
+      "answer": "「せいで」は悪い結果に対する非難を表し、「おかげで」は良い結果に対する感謝を表す",
+      "explanation": "〜せいで assigns blame for negative outcomes; 〜おかげで expresses gratitude for positive ones.",
+      "explanationMy": "〜せいで သည် ဆိုးကျိုးကို အပြစ်တင်ပြီး၊ 〜おかげで သည် ကောင်းကျိုးကို ကျေးဇူးတင်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q021",
+      "lessonId": "n3.l36",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "濃霧の（　）、飛行機の離着陸が一時見合わされています。",
+      "choices": [
+        "ため",
+        "せいで",
+        "おかげで",
+        "くせに"
+      ],
+      "answer": "ため",
+      "explanation": "Noun + のため is formal and objective for public announcements.",
+      "explanationMy": "သတင်းထုတ်ပြန်ချက်တွင် ဓမ္မဓိဋ္ဌာန်ကျကျ ဖော်ပြရန် 濃霧のため ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q022",
+      "lessonId": "n3.l36",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "事故が発生した（　）、道路が全面通行止めになっている。",
+      "choices": [
+        "ため",
+        "おかげで",
+        "せいで",
+        "わりに"
+      ],
+      "answer": "ため",
+      "explanation": "Verb-ta + ため formal objective causality.",
+      "explanationMy": "ဖြစ်ရပ်အကြောင်းရင်းကို တရားဝင်တင်ပြရာတွင် 発生したため ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q023",
+      "lessonId": "n3.l36",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ため（に）」が原因・理由を表す場合の文末の制約として正しいものはどれか。",
+      "choices": [
+        "後文に話者の希望・意志・働きかけ（命令・依頼）は来ない",
+        "必ず過去形で終わらなければならない",
+        "疑問文でしか使えない",
+        "否定文でしか使えない"
+      ],
+      "answer": "後文に話者の希望・意志・働きかけ（命令・依頼）は来ない",
+      "explanation": "When 〜ため indicates cause, the main clause cannot be a volitional command or request.",
+      "explanationMy": "အကြောင်းရင်းပြ 〜ため ၏ နောက်တွင် အမိန့်၊ ဆန္ဒနှင့် တောင်းဆိုချက်များ မလိုက်နိုင်ပါ။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q024",
+      "lessonId": "n3.l36",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ため」が「目的」ではなく「原因・理由」を表している文はどれか。",
+      "choices": [
+        "台風が接近しているため、波が高くなっている。",
+        "試験に合格するために毎日勉強している。",
+        "家を買うためにお金を貯めている。",
+        "健康のために毎朝ジョギングをしている。"
+      ],
+      "answer": "台風が接近しているため、波が高くなっている。",
+      "explanation": "The first sentence expresses cause (approaching typhoon -> high waves); the others express purpose (in order to).",
+      "explanationMy": "ပထမဝါကျသည် အကြောင်းရင်းကြောင့် ဖြစ်ပေါ်လာသောအကျိုးဆက်ကို ပြပြီး ကျန်ဝါကျများသည် ရည်ရွယ်ချက်ကို ပြသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q025",
+      "lessonId": "n3.l36",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "東西線が運転を見合わせた客観的な原因は何ですか。",
+      "choices": [
+        "午前八時頃に信号設備の故障が発生したため",
+        "大雪が降って線路が凍結したため",
+        "運転士が全員ストライキを起こしたため",
+        "新しい車両の導入テストを行うため"
+      ],
+      "answer": "午前八時頃に信号設備の故障が発生したため",
+      "explanation": "The text explicitly states: 信号設備の故障が発生したため、東西線の全線で運転を見合わせる事態となりました。",
+      "explanationMy": "အချက်ပြစနစ် ချွတ်ယွင်းမှု ဖြစ်ပွားခဲ့သောကြောင့် ရထားပြေးဆွဲမှု ရပ်တန့်ခဲ့ရခြင်း ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q026",
+      "lessonId": "n3.l36",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "駅の改札口周辺で大変な混雑と混乱が生じた理由は何ですか。",
+      "choices": [
+        "通勤通学の時間帯と重なってしまったせいで",
+        "駅前で有名な歌手の無料コンサートがあったせいで",
+        "大雨で駅の地下街が水没してしまったせいで",
+        "改札機が全て盗まれてしまったせいで"
+      ],
+      "answer": "通勤通学の時間帯と重なってしまったせいで",
+      "explanation": "The passage notes: 通勤通学の時間帯と重なったせいで、改札口周辺で大変な混雑を招いた。",
+      "explanationMy": "ရုံးတက်ကျောင်းတက်ချိန်နှင့် တိုက်ဆိုင်သွားသောကြောင့် ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q027",
+      "lessonId": "n3.l36",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "正午過ぎに運転が再開できたのは何のおかげですか。",
+      "choices": [
+        "保守点検員による迅速な復旧作業のおかげ",
+        "乗客全員が自力で線路を修理したおかげ",
+        "天候が急速に回復して晴れたおかげ",
+        "市役所が臨時バスを100台手配してくれたおかげ"
+      ],
+      "answer": "保守点検員による迅速な復旧作業のおかげ",
+      "explanation": "The text credits: 保守点検員による迅速な復旧作業のおかげで、正午過ぎには運転を再開いたしました。",
+      "explanationMy": "ထိန်းသိမ်းစစ်ဆေးရေးဝန်ထမ်းများ၏ လျင်မြန်သော ပြင်ဆင်မှုကြောင့် ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q028",
+      "lessonId": "n3.l36",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "林さんはN3に合格できた理由についてどう述べていますか。",
+      "choices": [
+        "木村さんが毎週熱心に勉強に付き合ってくれたおかげ",
+        "試験の問題が偶然全部知っている問題ばかりだったおかげ",
+        "前日の夜に徹夜で詰め込み勉強をしたおかげ",
+        "試験官が特別にヒントをくれたおかげ"
+      ],
+      "answer": "木村さんが毎週熱心に勉強に付き合ってくれたおかげ",
+      "explanation": "Hayashi expresses gratitude: 木村さんが毎週熱心に勉強に付き合ってくださったおかげです。",
+      "explanationMy": "ကင်မူရာစံက အပတ်စဉ် စာအတူလေ့လာပေးခဲ့သော ကျေးဇူးကြောင့်ဖြစ်သည်ဟု ပြောကြားခဲ့သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q029",
+      "lessonId": "n3.l36",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "林さんが本番で時間が足りなくなりそうだった原因は何ですか。",
+      "choices": [
+        "緊張して読解で焦ってしまったせいで",
+        "シャープペンの芯が折れてしまったせいで",
+        "途中で体調が悪くなってトイレに行ったせいで",
+        "時計を忘れて試験開始時間を間違えたせいで"
+      ],
+      "answer": "緊張して読解で焦ってしまったせいで",
+      "explanation": "Hayashi states nervousness and rushing on reading caused issues.",
+      "explanationMy": "စိတ်လှုပ်ရှားပြီး ဖတ်စာအပိုင်းတွင် လောသွားသောကြောင့် ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l36.q030",
+      "lessonId": "n3.l36",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "最終的に合格基準点を超えられた決定的な要因は何ですか。",
+      "choices": [
+        "聴解でしっかり点数が取れたため",
+        "文字語彙で満点を取ったため",
+        "追加のボーナス点が加算されたため",
+        "合格基準点が大幅に引き下げられたため"
+      ],
+      "answer": "聴解でしっかり点数が取れたため",
+      "explanation": "Hayashi explains: 聴解でしっかり点数が取れたため、無事に基準点を超えられました。",
+      "explanationMy": "နားထောင်မှုအပိုင်းတွင် အမှတ်ကောင်းကောင်းရရှိခဲ့သောကြောင့် ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l36.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-06T10:00:00Z",
+    "rev": 2
+  }
+}

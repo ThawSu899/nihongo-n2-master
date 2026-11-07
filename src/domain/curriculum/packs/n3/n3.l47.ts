@@ -1,0 +1,1562 @@
+import { LessonPack } from '../../../models/types';
+
+export const n3l47Data: LessonPack = {
+  "id": "n3.l47",
+  "level": "N3",
+  "module": "N3 Formal & Expository",
+  "number": 47,
+  "title": "N3 Lesson 47: Spoken Contractions (〜ちゃう/じゃう・〜とく・〜なきゃ/なくちゃ)",
+  "description": "ဂျပန်စကားပြောတွင် အသုံးများသော စကားတို (縮約形) များကို နားလည်ပြီး သူငယ်ချင်းအချင်းချင်း သဘာဝကျစွာ သုံးနှုန်းနိုင်ခြင်း 〜ちゃう/じゃう (〜てしまう) ဖြင့် အမှား သို့မဟုတ် နောင်တကို ဖော်ပြနိုင်ခြင်း 〜とく (〜ておく) ဖြင့် ကြိုတင်ပြင်ဆင်မှုများ၊ 〜なきゃ (〜なければならない) ဖြင့် မဖြစ်မနေလုပ်ရမည့်အရာများကို အတိုကောက် ပြောဆိုနိုင်ခြင်း",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l47.v001",
+      "lessonId": "n3.l47",
+      "ja": "話題",
+      "kana": "わだい",
+      "en": "wadai",
+      "my": "ဆွေးနွေးစရာ အကြောင်းအရာ/ခေါင်းစဉ်",
+      "meaningMy": "ဆွေးနွေးစရာ အကြောင်းအရာ/ခေါင်းစဉ်",
+      "meaningMyanmar": "ဆွေးနွေးစရာ အကြောင်းအရာ/ခေါင်းစဉ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l47.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.v002",
+      "lessonId": "n3.l47",
+      "ja": "会話",
+      "kana": "かいわ",
+      "en": "kaiwa",
+      "my": "စကားပြောဆိုခြင်း",
+      "meaningMy": "စကားပြောဆိုခြင်း",
+      "meaningMyanmar": "စကားပြောဆိုခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l47.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.v003",
+      "lessonId": "n3.l47",
+      "ja": "言語",
+      "kana": "げんご",
+      "en": "gengo",
+      "my": "ဘာသာစကား",
+      "meaningMy": "ဘာသာစကား",
+      "meaningMyanmar": "ဘာသာစကား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l47.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.v004",
+      "lessonId": "n3.l47",
+      "ja": "物語",
+      "kana": "ものがたり",
+      "en": "monogatari",
+      "my": "ပုံပြင်/ဇာတ်လမ်း",
+      "meaningMy": "ပုံပြင်/ဇာတ်လမ်း",
+      "meaningMyanmar": "ပုံပြင်/ဇာတ်လမ်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l47.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.v005",
+      "lessonId": "n3.l47",
+      "ja": "省略",
+      "kana": "しょうりゃく",
+      "en": "shouryaku",
+      "my": "အတိုချုံးခြင်း/ချန်လှပ်ခြင်း",
+      "meaningMy": "အတိုချုံးခြင်း/ချန်လှပ်ခြင်း",
+      "meaningMyanmar": "အတိုချုံးခြင်း/ချန်လှပ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l47.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.v006",
+      "lessonId": "n3.l47",
+      "ja": "略語",
+      "kana": "りゃくご",
+      "en": "ryakugo",
+      "my": "အတိုကောက်စကားလုံး",
+      "meaningMy": "အတိုကောက်စကားလုံး",
+      "meaningMyanmar": "အတိုကောက်စကားလုံး",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l47.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.v007",
+      "lessonId": "n3.l47",
+      "ja": "急ぐ",
+      "kana": "いそぐ",
+      "en": "isogu",
+      "my": "အလျင်လိုသည်/လောသည်",
+      "meaningMy": "အလျင်လိုသည်/လောသည်",
+      "meaningMyanmar": "အလျင်လိုသည်/လောသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l47.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.v008",
+      "lessonId": "n3.l47",
+      "ja": "間に合う",
+      "kana": "まにあう",
+      "en": "maniau",
+      "my": "အချိန်မီသည်",
+      "meaningMy": "အချိန်မီသည်",
+      "meaningMyanmar": "အချိန်မီသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l47.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.v009",
+      "lessonId": "n3.l47",
+      "ja": "準備",
+      "kana": "じゅんび",
+      "en": "junbi",
+      "my": "ကြိုတင်ပြင်ဆင်ခြင်း",
+      "meaningMy": "ကြိုတင်ပြင်ဆင်ခြင်း",
+      "meaningMyanmar": "ကြိုတင်ပြင်ဆင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l47.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.v010",
+      "lessonId": "n3.l47",
+      "ja": "忘れる",
+      "kana": "わすれる",
+      "en": "wasureru",
+      "my": "မေ့လျော့သည်",
+      "meaningMy": "မေ့လျော့သည်",
+      "meaningMyanmar": "မေ့လျော့သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l47.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.v011",
+      "lessonId": "n3.l47",
+      "ja": "失敗",
+      "kana": "しっぱい",
+      "en": "shippai",
+      "my": "ကျရှုံးမှု/မှားယွင်းမှု",
+      "meaningMy": "ကျရှုံးမှု/မှားယွင်းမှု",
+      "meaningMyanmar": "ကျရှုံးမှု/မှားယွင်းမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l47.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.v012",
+      "lessonId": "n3.l47",
+      "ja": "普段",
+      "kana": "ふだん",
+      "en": "fudan",
+      "my": "ပုံမှန်/သာမန်အချိန်",
+      "meaningMy": "ပုံမှန်/သာမန်အချိန်",
+      "meaningMyanmar": "ပုံမှန်/သာမန်အချိန်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l47.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l47.k001",
+      "lessonId": "n3.l47",
+      "char": "話",
+      "meaning": "စကားပြောသည်၊ စကား (Speak/Talk)",
+      "meaningMy": "စကားပြောသည်၊ စကား (Speak/Talk)",
+      "meaningMyanmar": "စကားပြောသည်၊ စကား (Speak/Talk)",
+      "onyomi": [
+        "WA"
+      ],
+      "kunyomi": [
+        "hana-su",
+        "hanashi"
+      ],
+      "exampleVocab": [
+        {
+          "word": "会話",
+          "reading": "かいわ",
+          "meaning": "စကားပြောဆိုခြင်း",
+          "meaningMy": "စကားပြောဆိုခြင်း",
+          "preview": false
+        },
+        {
+          "word": "話題",
+          "reading": "わだい",
+          "meaning": "ပြောစမှတ်ခေါင်းစဉ်",
+          "meaningMy": "ပြောစမှတ်ခေါင်းစဉ်",
+          "preview": false
+        },
+        {
+          "word": "世話",
+          "reading": "せわ",
+          "meaning": "ဂရုစိုက်စောင့်ရှောက်ခြင်း",
+          "meaningMy": "ဂရုစိုက်စောင့်ရှောက်ခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l47.s001"
+      ],
+      "components": [
+        "言 (word/speech)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.k002",
+      "lessonId": "n3.l47",
+      "char": "語",
+      "meaning": "ဘာသာစကား၊ ပြောကြားသည် (Language/Narrate)",
+      "meaningMy": "ဘာသာစကား၊ ပြောကြားသည် (Language/Narrate)",
+      "meaningMyanmar": "ဘာသာစကား၊ ပြောကြားသည် (Language/Narrate)",
+      "onyomi": [
+        "GO"
+      ],
+      "kunyomi": [
+        "kata-ru",
+        "kata-rau"
+      ],
+      "exampleVocab": [
+        {
+          "word": "言語",
+          "reading": "げんご",
+          "meaning": "ဘာသာစကား",
+          "meaningMy": "ဘာသာစကား",
+          "preview": false
+        },
+        {
+          "word": "物語",
+          "reading": "ものがたり",
+          "meaning": "ပုံပြင်/ဝတ္ထု",
+          "meaningMy": "ပုံပြင်/ဝတ္ထု",
+          "preview": false
+        },
+        {
+          "word": "語学",
+          "reading": "ごがく",
+          "meaning": "ဘာသာစကားလေ့လာမှု",
+          "meaningMy": "ဘာသာစကားလေ့လာမှု",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l47.s001"
+      ],
+      "components": [
+        "言 (word/speech)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.k003",
+      "lessonId": "n3.l47",
+      "char": "略",
+      "meaning": "အတိုကောက်၊ ချန်လှပ်သည် (Abbreviation/Omit)",
+      "meaningMy": "အတိုကောက်၊ ချန်လှပ်သည် (Abbreviation/Omit)",
+      "meaningMyanmar": "အတိုကောက်၊ ချန်လှပ်သည် (Abbreviation/Omit)",
+      "onyomi": [
+        "RYAKU"
+      ],
+      "kunyomi": [
+        "habu-ku"
+      ],
+      "exampleVocab": [
+        {
+          "word": "省略",
+          "reading": "しょうりゃく",
+          "meaning": "ချန်လှပ်ခြင်း",
+          "meaningMy": "ချန်လှပ်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "略語",
+          "reading": "りゃくご",
+          "meaning": "အတိုကောက်စကားလုံး",
+          "meaningMy": "အတိုကောက်စကားလုံး",
+          "preview": false
+        },
+        {
+          "word": "概略",
+          "reading": "がいりゃく",
+          "meaning": "အကျဉ်းချုပ်",
+          "meaningMy": "အကျဉ်းချုပ်",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l47.s001"
+      ],
+      "components": [
+        "田 (field)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l47.g001",
+      "lessonId": "n3.l47",
+      "pattern": "〜ちゃう / 〜じゃう (〜てしまう / 〜でしまう)",
+      "meaning": "... ပစ်လိုက်သည် / ... မိသွားသည် (စကားပြောတို)",
+      "meaningMy": "... ပစ်လိုက်သည် / ... မိသွားသည် (စကားပြောတို)",
+      "meaningMyanmar": "... ပစ်လိုက်သည် / ... မိသွားသည် (စကားပြောတို)",
+      "formation": "V(て形 去て) + ちゃう / V(で形 去で) + じゃう",
+      "explanation": {
+        "en": "လုပ်ရပ်တစ်ခု လုံးဝပြီးဆုံးသွားခြင်း သို့မဟုတ် မတော်တဆ မှားယွင်းလုပ်မိ၍ နောင်တရခြင်းကို ဖော်ပြသည့် စကားပြောအသုံးဖြစ်သည်။",
+        "my": "လုပ်ရပ်တစ်ခု လုံးဝပြီးဆုံးသွားခြင်း သို့မဟုတ် မတော်တဆ မှားယွင်းလုပ်မိ၍ နောင်တရခြင်းကို ဖော်ပြသည့် စကားပြောအသုံးဖြစ်သည်။"
+      },
+      "explanationMy": "လုပ်ရပ်တစ်ခု လုံးဝပြီးဆုံးသွားခြင်း သို့မဟုတ် မတော်တဆ မှားယွင်းလုပ်မိ၍ နောင်တရခြင်းကို ဖော်ပြသည့် စကားပြောအသုံးဖြစ်သည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l47.s001",
+          "note": "〜ちゃう / 〜じゃう (〜てしまう / 〜でしまう) usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ちゃう / 〜じゃう (〜てしまう / 〜でしまう)."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "宿題を家に忘れてきちゃいました。",
+      "clozeTarget": "〜ちゃう / 〜じゃう (〜てしまう / 〜でしまう)",
+      "clozeHint": "... ပစ်လိုက်သည် / ... မိသွားသည် (စကားပြောတို)",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "လုပ်ရပ်တစ်ခု လုံးဝပြီးဆုံးသွားခြင်း သို့မဟုတ် မတော်တဆ မှားယွင်းလုပ်မိ၍ နောင်တရခြင်းကို ဖော်ပြသည့် စကားပြောအသုံးဖြစ်သည်။"
+    },
+    {
+      "id": "n3.l47.g002",
+      "lessonId": "n3.l47",
+      "pattern": "〜とく / 〜どく (〜ておく / 〜でおく)",
+      "meaning": "... ထားမည် / ... ထားသည် (စကားပြောတို)",
+      "meaningMy": "... ထားမည် / ... ထားသည် (စကားပြောတို)",
+      "meaningMyanmar": "... ထားမည် / ... ထားသည် (စကားပြောတို)",
+      "formation": "V(て形 去て) + とく / V(で形 去で) + どく",
+      "explanation": {
+        "en": "အနာဂတ်အတွက် ကြိုတင်ပြင်ဆင်ခြင်း သို့မဟုတ် လက်ရှိအခြေအနေအတိုင်း ထားရှိခြင်းကို ဖော်ပြသော အတိုကောက်စကားဖြစ်သည်။",
+        "my": "အနာဂတ်အတွက် ကြိုတင်ပြင်ဆင်ခြင်း သို့မဟုတ် လက်ရှိအခြေအနေအတိုင်း ထားရှိခြင်းကို ဖော်ပြသော အတိုကောက်စကားဖြစ်သည်။"
+      },
+      "explanationMy": "အနာဂတ်အတွက် ကြိုတင်ပြင်ဆင်ခြင်း သို့မဟုတ် လက်ရှိအခြေအနေအတိုင်း ထားရှိခြင်းကို ဖော်ပြသော အတိုကောက်စကားဖြစ်သည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l47.s001",
+          "note": "〜とく / 〜どく (〜ておく / 〜でおく) usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜とく / 〜どく (〜ておく / 〜でおく)."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "旅行の前に新幹線の切符を予約しとくね。",
+      "clozeTarget": "〜とく / 〜どく (〜ておく / 〜でおく)",
+      "clozeHint": "... ထားမည် / ... ထားသည် (စကားပြောတို)",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "အနာဂတ်အတွက် ကြိုတင်ပြင်ဆင်ခြင်း သို့မဟုတ် လက်ရှိအခြေအနေအတိုင်း ထားရှိခြင်းကို ဖော်ပြသော အတိုကောက်စကားဖြစ်သည်။"
+    },
+    {
+      "id": "n3.l47.g003",
+      "lessonId": "n3.l47",
+      "pattern": "〜なきゃ / 〜なくちゃ (〜なければならない)",
+      "meaning": "... ရမည် / မ... မဖြစ်တော့ဘူး (စကားပြောတို)",
+      "meaningMy": "... ရမည် / မ... မဖြစ်တော့ဘူး (စကားပြောတို)",
+      "meaningMyanmar": "... ရမည် / မ... မဖြစ်တော့ဘူး (စကားပြောတို)",
+      "formation": "V(ない形 去い) + なきゃ / なくちゃ",
+      "explanation": {
+        "en": "မဖြစ်မနေ လုပ်ဆောင်ရမည့် တာဝန် သို့မဟုတ် အရေးတကြီး လိုအပ်ချက်ကို ဖော်ပြသည့် စကားပြော အတိုကောက်ပုံစံဖြစ်သည်။",
+        "my": "မဖြစ်မနေ လုပ်ဆောင်ရမည့် တာဝန် သို့မဟုတ် အရေးတကြီး လိုအပ်ချက်ကို ဖော်ပြသည့် စကားပြော အတိုကောက်ပုံစံဖြစ်သည်။"
+      },
+      "explanationMy": "မဖြစ်မနေ လုပ်ဆောင်ရမည့် တာဝန် သို့မဟုတ် အရေးတကြီး လိုအပ်ချက်ကို ဖော်ပြသည့် စကားပြော အတိုကောက်ပုံစံဖြစ်သည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l47.s001",
+          "note": "〜なきゃ / 〜なくちゃ (〜なければならない) usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜なきゃ / 〜なくちゃ (〜なければならない)."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "もう夜の１１時だ。早く寝なきゃ。",
+      "clozeTarget": "〜なきゃ / 〜なくちゃ (〜なければならない)",
+      "clozeHint": "... ရမည် / မ... မဖြစ်တော့ဘူး (စကားပြောတို)",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "မဖြစ်မနေ လုပ်ဆောင်ရမည့် တာဝန် သို့မဟုတ် အရေးတကြီး လိုအပ်ချက်ကို ဖော်ပြသည့် စကားပြော အတိုကောက်ပုံစံဖြစ်သည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l47.s001",
+      "lessonId": "n3.l47",
+      "ja": "最近の若い世代の会話では、多くの略語や言葉の省略が話題になっています。",
+      "kana": "最近の若い世代の会話では、多くの略語や言葉の省略が話題になっています。",
+      "translation": {
+        "en": "Saikin no wakai sedai no kaiwa de wa, ooku no ryakugo ya kotoba no shouryaku ga wadai ni natte imasu.",
+        "my": "မကြာသေးမီက လူငယ်မျိုးဆက်များ၏ စကားပြောတွင် အတိုကောက်စကားလုံးများနှင့် ချန်လှပ်ပြောဆိုမှုများစွာသည် လူပြောများသော ခေါင်းစဉ်ဖြစ်နေပါသည်။"
+      },
+      "translationMy": "မကြာသေးမီက လူငယ်မျိုးဆက်များ၏ စကားပြောတွင် အတိုကောက်စကားလုံးများနှင့် ချန်လှပ်ပြောဆိုမှုများစွာသည် လူပြောများသော ခေါင်းစဉ်ဖြစ်နေပါသည်။",
+      "vocabIds": [
+        "n3.l47.v001",
+        "n3.l47.v002",
+        "n3.l47.v005",
+        "n3.l47.v006"
+      ],
+      "grammarIds": [
+        "n3.l47.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.s002",
+      "lessonId": "n3.l47",
+      "ja": "言語の歴史を学ぶと、美しい物語のように時代とともに変化してきたことが分かります。",
+      "kana": "言語の歴史を学ぶと、美しい物語のように時代とともに変化してきたことが分かります。",
+      "translation": {
+        "en": "Gengo no rekishi o manabu to, utsukushii monogatari no you ni jidai to tomo ni henka shite kita koto ga wakarimasu.",
+        "my": "ဘာသာစကား၏ သမိုင်းကြောင်းကို လေ့လာကြည့်လျှင် လှပသော ပုံပြင်ဇာတ်လမ်းတစ်ပုဒ်ကဲ့သို့ ခေတ်ကာလနှင့်အမျှ ပြောင်းလဲလာခဲ့သည်ကို တွေ့မြင်နိုင်ပါသည်။"
+      },
+      "translationMy": "ဘာသာစကား၏ သမိုင်းကြောင်းကို လေ့လာကြည့်လျှင် လှပသော ပုံပြင်ဇာတ်လမ်းတစ်ပုဒ်ကဲ့သို့ ခေတ်ကာလနှင့်အမျှ ပြောင်းလဲလာခဲ့သည်ကို တွေ့မြင်နိုင်ပါသည်။",
+      "vocabIds": [
+        "n3.l47.v003",
+        "n3.l47.v004"
+      ],
+      "grammarIds": [
+        "n3.l47.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.s003",
+      "lessonId": "n3.l47",
+      "ja": "普段からしっかり準備しとかないと、本番で大きな失敗をしちゃいますよ。",
+      "kana": "普段からしっかり準備しとかないと、本番で大きな失敗をしちゃいますよ。",
+      "translation": {
+        "en": "Fudan kara shikkari junbi shitokanai to, honban de ookina shippai o shichaimasu yo.",
+        "my": "ပုံမှန်ကတည်းက သေချာ ပြင်ဆင်မထားဘူးဆိုရင် တကယ့်လက်တွေ့မှာ အမှားကြီး မှားမိသွားလိမ့်မယ်နော်။"
+      },
+      "translationMy": "ပုံမှန်ကတည်းက သေချာ ပြင်ဆင်မထားဘူးဆိုရင် တကယ့်လက်တွေ့မှာ အမှားကြီး မှားမိသွားလိမ့်မယ်နော်။",
+      "vocabIds": [
+        "n3.l47.v009",
+        "n3.l47.v011",
+        "n3.l47.v012"
+      ],
+      "grammarIds": [
+        "n3.l47.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.s004",
+      "lessonId": "n3.l47",
+      "ja": "大事な約束の時間をうっかり忘れてしまい、急いで走ってなんとか間に合いました。",
+      "kana": "大事な約束の時間をうっかり忘れてしまい、急いで走ってなんとか間に合いました。",
+      "translation": {
+        "en": "Daiji na yakusoku no jikan o ukkari wasurete shimai, isoide hashitte nantoka maniaimashita.",
+        "my": "အရေးကြီးသော ချိန်းဆိုချိန်ကို သတိမမူဘဲ မေ့သွားခဲ့မိပြီး အလျင်စလို ပြေးသွားကာ မနည်း အချိန်မီခဲ့ပါသည်။"
+      },
+      "translationMy": "အရေးကြီးသော ချိန်းဆိုချိန်ကို သတိမမူဘဲ မေ့သွားခဲ့မိပြီး အလျင်စလို ပြေးသွားကာ မနည်း အချိန်မီခဲ့ပါသည်။",
+      "vocabIds": [
+        "n3.l47.v007",
+        "n3.l47.v008",
+        "n3.l47.v010"
+      ],
+      "grammarIds": [
+        "n3.l47.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.s005",
+      "lessonId": "n3.l47",
+      "ja": "電車に乗り遅れちゃうから、急いで駅まで行かなきゃ！",
+      "kana": "電車に乗り遅れちゃうから、急いで駅まで行かなきゃ！",
+      "translation": {
+        "en": "Densha ni noriokurechau kara, isoide eki made ikanakya!",
+        "my": "ရထားလွတ်သွားမိတော့မှာမို့လို့ မြန်မြန် ဘူတာကို သွားရတော့မယ်။"
+      },
+      "translationMy": "ရထားလွတ်သွားမိတော့မှာမို့လို့ မြန်မြန် ဘူတာကို သွားရတော့မယ်။",
+      "vocabIds": [
+        "n3.l47.v007"
+      ],
+      "grammarIds": [
+        "n3.l47.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l47.s006",
+      "lessonId": "n3.l47",
+      "ja": "会議で使う資料のコピーを、前もって１０部作っときました。",
+      "kana": "会議で使う資料のコピーを、前もって１０部作っときました。",
+      "translation": {
+        "en": "Kaigi de tsukau shiryou no kopii o, maemotte juubu tsukuttokimashita.",
+        "my": "အစည်းအဝေးတွင် အသုံးပြုမည့် စာရွက်စာတမ်းမိတ္တူကို ကြိုတင်၍ ၁၀ စုံ ပြုလုပ်ထားနှင့်ခဲ့ပါသည်။"
+      },
+      "translationMy": "အစည်းအဝေးတွင် အသုံးပြုမည့် စာရွက်စာတမ်းမိတ္တူကို ကြိုတင်၍ ၁၀ စုံ ပြုလုပ်ထားနှင့်ခဲ့ပါသည်။",
+      "vocabIds": [
+        "n3.l47.v009"
+      ],
+      "grammarIds": [
+        "n3.l47.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l47.r001",
+    "lessonId": "n3.l47",
+    "title": "生きた日本語と口語のダイナミズム",
+    "level": "N3",
+    "text": "日本語を学ぶ学習者にとって、教科書で習う丁寧な文法と、日常の会話で耳にする表現との違いに戸惑うことは珍しくありません。特に親しい友人や家族の間では、「〜てしまう」が「〜ちゃう」、「〜ておく」が「〜とく」、「〜なければならない」が「〜なきゃ」のように省略され、テンポよくスピーディーな会話が交わされます。このような縮約表現は、単なる手抜きや崩れた言葉遣いではなく、コミュニケーションを円滑にし、親密さや感情のニュアンスを生き生きと伝える重要な役割を果たしています。普段の会話では堅苦しい敬語を崩すことで心理的な距離を縮め、物語を語り合うような共感を生み出すことができます。もちろん、ビジネスや公式な場では適切な丁寧語や敬語を用いる必要がありますが、状況に応じて生きた口語表現を使いこなせるようになることこそが、自然な日本語運用の醍醐味と言えるでしょう。",
+    "kanaText": "日本語を学ぶ学習者にとって、教科書で習う丁寧な文法と、日常の会話で耳にする表現との違いに戸惑うことは珍しくありません。特に親しい友人や家族の間では、「〜てしまう」が「〜ちゃう」、「〜ておく」が「〜とく」、「〜なければならない」が「〜なきゃ」のように省略され、テンポよくスピーディーな会話が交わされます。このような縮約表現は、単なる手抜きや崩れた言葉遣いではなく、コミュニケーションを円滑にし、親密さや感情のニュアンスを生き生きと伝える重要な役割を果たしています。普段の会話では堅苦しい敬語を崩すことで心理的な距離を縮め、物語を語り合うような共感を生み出すことができます。もちろん、ビジネスや公式な場では適切な丁寧語や敬語を用いる必要がありますが、状況に応じて生きた口語表現を使いこなせるようになることこそが、自然な日本語運用の醍醐味と言えるでしょう。",
+    "translation": "生きた日本語と口語のダイナミズム",
+    "translationMy": "生きた日本語と口語のダイナミズム",
+    "questionIds": [
+      "n3.l47.q025",
+      "n3.l47.q026",
+      "n3.l47.q027"
+    ],
+    "difficulty": 3,
+    "glossary": [
+      {
+        "term": "縮約表現",
+        "reading": "縮約表現",
+        "meaning": "အတိုကောက်စကားလုံးအသုံးအနှုန်း",
+        "meaningMy": "အတိုကောက်စကားလုံးအသုံးအနှုန်း",
+        "meaningMyanmar": "အတိုကောက်စကားလုံးအသုံးအနှုန်း"
+      },
+      {
+        "term": "手抜き",
+        "reading": "手抜き",
+        "meaning": "ပေါ့ပေါ့တန်တန်လုပ်ဆောင်ခြင်း",
+        "meaningMy": "ပေါ့ပေါ့တန်တန်လုပ်ဆောင်ခြင်း",
+        "meaningMyanmar": "ပေါ့ပေါ့တန်တန်လုပ်ဆောင်ခြင်း"
+      },
+      {
+        "term": "親密さ",
+        "reading": "親密さ",
+        "meaning": "ရင်းနှီးနွေးထွေးမှု",
+        "meaningMy": "ရင်းနှီးနွေးထွေးမှု",
+        "meaningMyanmar": "ရင်းနှီးနွေးထွေးမှု"
+      },
+      {
+        "term": "醍醐味",
+        "reading": "醍醐味",
+        "meaning": "အနှစ်သာရအစစ်အမှန်",
+        "meaningMy": "အနှစ်သာရအစစ်အမှန်",
+        "meaningMyanmar": "အနှစ်သာရအစစ်အမှန်"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n3.l47.lis001",
+    "lessonId": "n3.l47",
+    "title": "試験前の焦りと準備",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "A: 大変だ！単語帳を部屋に忘れてきちゃった。取りに戻らなきゃ。\nB: もうすぐ図書館閉まっちゃうよ。私のノートをコピーしといたから、これ使いなよ。\nA: 本当に助かった、ありがとう！普段からちゃんと準備しとかないと駄目だね。\nB: 明日の朝は早いから、今夜は要点だけ確認して早く寝なくちゃね。",
+    "translation": "A: ဒုက္ခပါပဲ။ စကားလုံးမှတ်စုစာအုပ်ကို အခန်းထဲမှာ မေ့ကျန်ခဲ့မိပြီ။ ပြန်သွားယူရတော့မယ်။\nB: ခဏနေရင် စာကြည့်တိုက် ပိတ်တော့မှာလေ။ ငါ့မှတ်စုစာအုပ်ကို မိတ္တူကူးထားပြီးသားမို့လို့ ဒါကိုပဲ သုံးလိုက်ပါလား။\nA: တကယ်ပဲ အသက်ရှင်သွားတယ်၊ ကျေးဇူးတင်ပါတယ်ကွယ်။ ပုံမှန်ကတည်းက သေချာ ကြိုမပြင်ဆင်ထားရင် မဖြစ်ဘူးနော်။\nB: မနက်ဖြန်မနက်က စောစောထရမှာမို့လို့ ဒီညတော့ အဓိကအချက်လောက်ပဲ စစ်ဆေးပြီး စောစော အိပ်ရတော့မယ်နော်။",
+    "translationMy": "A: ဒုက္ခပါပဲ။ စကားလုံးမှတ်စုစာအုပ်ကို အခန်းထဲမှာ မေ့ကျန်ခဲ့မိပြီ။ ပြန်သွားယူရတော့မယ်။\nB: ခဏနေရင် စာကြည့်တိုက် ပိတ်တော့မှာလေ။ ငါ့မှတ်စုစာအုပ်ကို မိတ္တူကူးထားပြီးသားမို့လို့ ဒါကိုပဲ သုံးလိုက်ပါလား။\nA: တကယ်ပဲ အသက်ရှင်သွားတယ်၊ ကျေးဇူးတင်ပါတယ်ကွယ်။ ပုံမှန်ကတည်းက သေချာ ကြိုမပြင်ဆင်ထားရင် မဖြစ်ဘူးနော်။\nB: မနက်ဖြန်မနက်က စောစောထရမှာမို့လို့ ဒီညတော့ အဓိကအချက်လောက်ပဲ စစ်ဆေးပြီး စောစော အိပ်ရတော့မယ်နော်။",
+    "turns": [
+      {
+        "speaker": "A",
+        "ja": "大変だ！単語帳を部屋に忘れてきちゃった。取りに戻らなきゃ。",
+        "kana": "大変だ！単語帳を部屋に忘れてきちゃった。取りに戻らなきゃ。",
+        "en": "Taihen da! Tangochou o heya ni wasurete kichatta. Tori ni modoranakya.",
+        "my": "ဒုက္ခပါပဲ။ စကားလုံးမှတ်စုစာအုပ်ကို အခန်းထဲမှာ မေ့ကျန်ခဲ့မိပြီ။ ပြန်သွားယူရတော့မယ်။",
+        "translationMy": "ဒုက္ခပါပဲ။ စကားလုံးမှတ်စုစာအုပ်ကို အခန်းထဲမှာ မေ့ကျန်ခဲ့မိပြီ။ ပြန်သွားယူရတော့မယ်။",
+        "myanmar": "ဒုက္ခပါပဲ။ စကားလုံးမှတ်စုစာအုပ်ကို အခန်းထဲမှာ မေ့ကျန်ခဲ့မိပြီ။ ပြန်သွားယူရတော့မယ်။"
+      },
+      {
+        "speaker": "B",
+        "ja": "もうすぐ図書館閉まっちゃうよ。私のノートをコピーしといたから、これ使いなよ。",
+        "kana": "もうすぐ図書館閉まっちゃうよ。私のノートをコピーしといたから、これ使いなよ。",
+        "en": "Mou sugu toshokan shimacchau yo. Watashi no nooto o kopii shitoita kara, kore tsukaina yo.",
+        "my": "ခဏနေရင် စာကြည့်တိုက် ပိတ်တော့မှာလေ။ ငါ့မှတ်စုစာအုပ်ကို မိတ္တူကူးထားပြီးသားမို့လို့ ဒါကိုပဲ သုံးလိုက်ပါလား။",
+        "translationMy": "ခဏနေရင် စာကြည့်တိုက် ပိတ်တော့မှာလေ။ ငါ့မှတ်စုစာအုပ်ကို မိတ္တူကူးထားပြီးသားမို့လို့ ဒါကိုပဲ သုံးလိုက်ပါလား။",
+        "myanmar": "ခဏနေရင် စာကြည့်တိုက် ပိတ်တော့မှာလေ။ ငါ့မှတ်စုစာအုပ်ကို မိတ္တူကူးထားပြီးသားမို့လို့ ဒါကိုပဲ သုံးလိုက်ပါလား။"
+      },
+      {
+        "speaker": "A",
+        "ja": "本当に助かった、ありがとう！普段からちゃんと準備しとかないと駄目だね。",
+        "kana": "本当に助かった、ありがとう！普段からちゃんと準備しとかないと駄目だね。",
+        "en": "Hontou ni tasukatta, arigatou! Fudan kara chanto junbi shitokanai to dame da ne.",
+        "my": "တကယ်ပဲ အသက်ရှင်သွားတယ်၊ ကျေးဇူးတင်ပါတယ်ကွယ်။ ပုံမှန်ကတည်းက သေချာ ကြိုမပြင်ဆင်ထားရင် မဖြစ်ဘူးနော်။",
+        "translationMy": "တကယ်ပဲ အသက်ရှင်သွားတယ်၊ ကျေးဇူးတင်ပါတယ်ကွယ်။ ပုံမှန်ကတည်းက သေချာ ကြိုမပြင်ဆင်ထားရင် မဖြစ်ဘူးနော်။",
+        "myanmar": "တကယ်ပဲ အသက်ရှင်သွားတယ်၊ ကျေးဇူးတင်ပါတယ်ကွယ်။ ပုံမှန်ကတည်းက သေချာ ကြိုမပြင်ဆင်ထားရင် မဖြစ်ဘူးနော်။"
+      },
+      {
+        "speaker": "B",
+        "ja": "明日の朝は早いから、今夜は要点だけ確認して早く寝なくちゃね。",
+        "kana": "明日の朝は早いから、今夜は要点だけ確認して早く寝なくちゃね。",
+        "en": "Ashita no asa wa hayai kara, kon'ya wa youten dake kakunin shite hayaku nenakucha ne.",
+        "my": "မနက်ဖြန်မနက်က စောစောထရမှာမို့လို့ ဒီညတော့ အဓိကအချက်လောက်ပဲ စစ်ဆေးပြီး စောစော အိပ်ရတော့မယ်နော်။",
+        "translationMy": "မနက်ဖြန်မနက်က စောစောထရမှာမို့လို့ ဒီညတော့ အဓိကအချက်လောက်ပဲ စစ်ဆေးပြီး စောစော အိပ်ရတော့မယ်နော်။",
+        "myanmar": "မနက်ဖြန်မနက်က စောစောထရမှာမို့လို့ ဒီညတော့ အဓိကအချက်လောက်ပဲ စစ်ဆေးပြီး စောစော အိပ်ရတော့မယ်နော်။"
+      }
+    ],
+    "questionIds": [
+      "n3.l47.q028",
+      "n3.l47.q029",
+      "n3.l47.q030"
+    ],
+    "difficulty": 3,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l47.q001",
+      "lessonId": "n3.l47",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "大事な財布を電車の中に忘れて（　　）。",
+      "choices": [
+        "きちゃった",
+        "きといた",
+        "きなきゃ",
+        "きなくちゃ"
+      ],
+      "answer": "きちゃった",
+      "explanation": "ပိုက်ဆံအိတ် မေ့ကျန်ခဲ့မိသည့် နောင်တနှင့် မတော်တဆဖြစ်မှုကို ဖော်ပြရန် 「〜てきちゃった」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ပိုက်ဆံအိတ် မေ့ကျန်ခဲ့မိသည့် နောင်တနှင့် မတော်တဆဖြစ်မှုကို ဖော်ပြရန် 「〜てきちゃった」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q002",
+      "lessonId": "n3.l47",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "明日のお弁当の材料を今夜のうちに買って（　　）ね。",
+      "choices": [
+        "おこう（買っとく）",
+        "おかない",
+        "おかれた",
+        "おかせた"
+      ],
+      "answer": "おこう（買っとく）",
+      "explanation": "ကြိုတင်ဝယ်ထားမည်ဟူသော 「買っておく」 ၏ စကားပြော အတိုကောက်မှာ 「買っとく」 ဖြစ်ပါသည်။",
+      "explanationMy": "ကြိုတင်ဝယ်ထားမည်ဟူသော 「買っておく」 ၏ စကားပြော အတိုကောက်မှာ 「買っとく」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q003",
+      "lessonId": "n3.l47",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "もう時間がないから、早く走ら（　　）！",
+      "choices": [
+        "なきゃ",
+        "ちゃった",
+        "といた",
+        "ずには"
+      ],
+      "answer": "なきゃ",
+      "explanation": "မဖြစ်မနေ ပြေးရတော့မည်ဟူသော အတိုကောက်စကားမှာ 「走らなきゃ」 ဖြစ်ပါသည်။",
+      "explanationMy": "မဖြစ်မနေ ပြေးရတော့မည်ဟူသော အတိုကောက်စကားမှာ 「走らなきゃ」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q004",
+      "lessonId": "n3.l47",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「話題」の正しい読み方はどれですか。",
+      "choices": [
+        "わだい",
+        "わてい",
+        "ばだい",
+        "かいだい"
+      ],
+      "answer": "わだい",
+      "explanation": "「話題」၏ အသံထွက်အမှန်မှာ 「わだい」 (ဆွေးနွေးစရာခေါင်းစဉ်) ဖြစ်ပါသည်။",
+      "explanationMy": "「話題」၏ အသံထွက်အမှန်မှာ 「わだい」 (ဆွေးနွေးစရာခေါင်းစဉ်) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q005",
+      "lessonId": "n3.l47",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「省略」の正しい読み方はどれですか。",
+      "choices": [
+        "しょうりゃく",
+        "せいりゃく",
+        "しょうかく",
+        "そうりゃく"
+      ],
+      "answer": "しょうりゃく",
+      "explanation": "「省略」၏ အသံထွက်အမှန်မှာ 「しょうりゃく」 (အတိုချုံးခြင်း/ချန်လှပ်ခြင်း) ဖြစ်ပါသည်။",
+      "explanationMy": "「省略」၏ အသံထွက်အမှန်မှာ 「しょうりゃく」 (အတိုချုံးခြင်း/ချန်လှပ်ခြင်း) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q006",
+      "lessonId": "n3.l47",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「物語」の正しい読み方はどれですか。",
+      "choices": [
+        "ものがたり",
+        "ぶつご",
+        "ものかたり",
+        "ぶつじ"
+      ],
+      "answer": "ものがたり",
+      "explanation": "「物語」၏ အသံထွက်အမှန်မှာ 「ものがたり」 (ပုံပြင်/ဇာတ်လမ်း) ဖြစ်ပါသည်။",
+      "explanationMy": "「物語」၏ အသံထွက်အမှန်မှာ 「ものがたり」 (ပုံပြင်/ဇာတ်လမ်း) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q007",
+      "lessonId": "n3.l47",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "宿題を全部終わらせ（　　）から遊びに行こう。",
+      "choices": [
+        "ちゃって",
+        "といて",
+        "なきゃ",
+        "なくて"
+      ],
+      "answer": "ちゃって",
+      "explanation": "အိမ်စာအကုန် ပြီးပြတ်အောင် လုပ်ဆောင်ပစ်လိုက်ပြီးမှ ဟု ဆိုလိုရန် 「終わらせちゃって」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အိမ်စာအကုန် ပြီးပြတ်အောင် လုပ်ဆောင်ပစ်လိုက်ပြီးမှ ဟု ဆိုလိုရန် 「終わらせちゃって」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q008",
+      "lessonId": "n3.l47",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "パーティーの部屋をきれいに掃除し（　　）ね。",
+      "choices": [
+        "といた（しておいた）",
+        "ちゃった",
+        "なきゃ",
+        "まい"
+      ],
+      "answer": "といた（しておいた）",
+      "explanation": "ကြိုတင်ရှင်းလင်းထားခဲ့သည်ဟူသော 「掃除しておいた」 ၏ စကားပြောမှာ 「掃除しといた」 ဖြစ်ပါသည်။",
+      "explanationMy": "ကြိုတင်ရှင်းလင်းထားခဲ့သည်ဟူသော 「掃除しておいた」 ၏ စကားပြောမှာ 「掃除しといた」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q009",
+      "lessonId": "n3.l47",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "若者の間では、スマートフォンのことを「スマホ」と呼ぶ（　　）が定着している。",
+      "choices": [
+        "略語",
+        "言語",
+        "物語",
+        "会話"
+      ],
+      "answer": "略語",
+      "explanation": "အတိုကောက် စကားလုံးဖြစ်၍ 「略語」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အတိုကောက် စကားလုံးဖြစ်၍ 「略語」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q010",
+      "lessonId": "n3.l47",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "飛行機の出発時間に（　　）ように、タクシーを呼んだ。",
+      "choices": [
+        "間に合う",
+        "急ぐ",
+        "忘れる",
+        "失敗する"
+      ],
+      "answer": "間に合う",
+      "explanation": "အချိန်မီစေရန်အတွက်ဖြစ်၍ 「間に合うように」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အချိန်မီစေရန်အတွက်ဖြစ်၍ 「間に合うように」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q011",
+      "lessonId": "n3.l47",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　　）からコツコツ勉強していれば、試験前に慌てることはない。",
+      "choices": [
+        "普段",
+        "話題",
+        "省略",
+        "失敗"
+      ],
+      "answer": "普段",
+      "explanation": "ပုံမှန်အချိန်ကတည်းကဟု အဓိပ္ပာယ်ဆောင်ရန် 「普段から」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ပုံမှန်အချိန်ကတည်းကဟု အဓိပ္ပာယ်ဆောင်ရန် 「普段から」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q012",
+      "lessonId": "n3.l47",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "一度の（　　）で諦めず、何度も挑戦することが成長に繋がる。",
+      "choices": [
+        "失敗",
+        "準備",
+        "省略",
+        "話題"
+      ],
+      "answer": "失敗",
+      "explanation": "တစ်ကြိမ်တစ်ခါ ကျရှုံးမှုအမှားဖြစ်၍ 「失敗」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "တစ်ကြိမ်တစ်ခါ ကျရှုံးမှုအမှားဖြစ်၍ 「失敗」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q013",
+      "lessonId": "n3.l47",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "遅刻しそうなので、足早に（　　）で駅に向かった。",
+      "choices": [
+        "急いで",
+        "忘れて",
+        "話して",
+        "語って"
+      ],
+      "answer": "急いで",
+      "explanation": "အလျင်စလို သွားရောက်ခြင်းဖြစ်၍ 「急いで」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အလျင်စလို သွားရောက်ခြင်းဖြစ်၍ 「急いで」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q014",
+      "lessonId": "n3.l47",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "旅行の（　　）を前日までにすべて整えておきましょう。",
+      "choices": [
+        "準備",
+        "省略",
+        "略語",
+        "言語"
+      ],
+      "answer": "準備",
+      "explanation": "ခရီးပြင်ဆင်မှုဖြစ်၍ 「準備」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ခရီးပြင်ဆင်မှုဖြစ်၍ 「準備」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q015",
+      "lessonId": "n3.l47",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "傘を電車の中に（　　）てしまい、雨の中を濡れて帰った。",
+      "choices": [
+        "忘れ",
+        "急ぎ",
+        "間に合い",
+        "準備し"
+      ],
+      "answer": "忘れ",
+      "explanation": "ထီးကို မေ့ကျန်ခဲ့ခြင်းဖြစ်၍ 「忘れてしまい」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ထီးကို မေ့ကျန်ခဲ့ခြင်းဖြစ်၍ 「忘れてしまい」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q016",
+      "lessonId": "n3.l47",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "世界の様々な（　　）を学ぶことは、異文化理解の第一歩である。",
+      "choices": [
+        "言語",
+        "略語",
+        "省略",
+        "話題"
+      ],
+      "answer": "言語",
+      "explanation": "ကမ္ဘာ့ဘာသာစကားများဖြစ်၍ 「言語」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ကမ္ဘာ့ဘာသာစကားများဖြစ်၍ 「言語」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q017",
+      "lessonId": "n3.l47",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「〜ちゃう」「〜とく」「〜なきゃ」を使う場面として適切なのはどれですか。",
+      "choices": [
+        "親しい友人や家族との親密でくだけた日常会話",
+        "取引先との公式なビジネス商談や契約の場",
+        "就職面接で面接官からの質問に答える時",
+        "大学の卒業論文や学術レポートを執筆する時"
+      ],
+      "answer": "親しい友人や家族との親密でくだけた日常会話",
+      "explanation": "ဤအတိုကောက်စကားများသည် ရင်းနှီးသော သူငယ်ချင်းနှင့် မိသားစုဝင်များအကြား သုံးသည့် စကားပြောအသုံးများ ဖြစ်ပါသည်။",
+      "explanationMy": "ဤအတိုကောက်စကားများသည် ရင်းနှီးသော သူငယ်ချင်းနှင့် မိသားစုဝင်များအကြား သုံးသည့် စကားပြောအသုံးများ ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q018",
+      "lessonId": "n3.l47",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「飲んじゃった」の元の正式な文法形式はどれですか。",
+      "choices": [
+        "飲んでしまった",
+        "飲んでおいた",
+        "飲まなければならない",
+        "飲んであげた"
+      ],
+      "answer": "飲んでしまった",
+      "explanation": "「飲んじゃった」၏ မူလသဒ္ဒါပုံစံမှာ 「飲んでしまった」 ဖြစ်ပါသည်။",
+      "explanationMy": "「飲んじゃった」၏ မူလသဒ္ဒါပုံစံမှာ 「飲んでしまった」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q019",
+      "lessonId": "n3.l47",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「置いといて」の元の正式な文法形式はどれですか。",
+      "choices": [
+        "置いておいて",
+        "置いてしまって",
+        "置かなければ",
+        "置いてあげて"
+      ],
+      "answer": "置いておいて",
+      "explanation": "「置いといて」၏ မူလသဒ္ဒါပုံစံမှာ 「置いておいて」 ဖြစ်ပါသည်။",
+      "explanationMy": "「置いといて」၏ မူလသဒ္ဒါပုံစံမှာ 「置いておいて」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q020",
+      "lessonId": "n3.l47",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「行かなきゃ」の後に省略されている言葉は通常何ですか。",
+      "choices": [
+        "いけない / ならない",
+        "ください",
+        "しましょう",
+        "あります"
+      ],
+      "answer": "いけない / ならない",
+      "explanation": "「行かなきゃ」၏ နောက်တွင် 「いけない / ならない」 က သွယ်ဝိုက် ချန်လှပ်ထားခြင်း ဖြစ်ပါသည်။",
+      "explanationMy": "「行かなきゃ」၏ နောက်တွင် 「いけない / ならない」 က သွယ်ဝိုက် ချန်လှပ်ထားခြင်း ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q021",
+      "lessonId": "n3.l47",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「省略」の「略」と同じ漢字を使う単語はどれですか。",
+      "choices": [
+        "略奪",
+        "計略",
+        "略図",
+        "上のすべて"
+      ],
+      "answer": "上のすべて",
+      "explanation": "略奪, 計略, 略図 အားလုံးတွင် 「略」 ခန်ဂျီကို အသုံးပြုပါသည်။",
+      "explanationMy": "略奪, 計略, 略図 အားလုံးတွင် 「略」 ခန်ဂျီကို အသုံးပြုပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q022",
+      "lessonId": "n3.l47",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "会話で「普段からちゃんと準備しとかないと駄目だね」と言った心情は？",
+      "choices": [
+        "直前の忘れ物で焦った反省から、事前の備えの大切さを痛感した心情",
+        "他人の失敗を嘲笑して喜んでいる心情",
+        "図書館の利用を永久に禁止された絶望",
+        "勉強をやめて帰宅したいという怠け心"
+      ],
+      "answer": "直前の忘れ物で焦った反省から、事前の備えの大切さを痛感した心情",
+      "explanation": "မေ့ကျန်ခဲ့၍ စိတ်ပူရသည့်အပေါ် နောင်တရပြီး ကြိုတင်ပြင်ဆင်မှု၏ အရေးပါပုံကို ပြန်လည်ဆင်ခြင်မိသော စိတ်ခံစားချက် ဖြစ်ပါသည်။",
+      "explanationMy": "မေ့ကျန်ခဲ့၍ စိတ်ပူရသည့်အပေါ် နောင်တရပြီး ကြိုတင်ပြင်ဆင်မှု၏ အရေးပါပုံကို ပြန်လည်ဆင်ခြင်မိသော စိတ်ခံစားချက် ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q023",
+      "lessonId": "n3.l47",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「〜なくちゃ」と「〜なきゃ」のニュアンスの違いは？",
+      "choices": [
+        "どちらも同じ「〜なければならない」の口語縮約であり、ほぼ同等に用いられる",
+        "前者は敬語で、後者は命令形である",
+        "前者は過去の義務で、後者は未来の希望である",
+        "前者は書き言葉専用で、後者は文法的に間違いである"
+      ],
+      "answer": "どちらも同じ「〜なければならない」の口語縮約であり、ほぼ同等に用いられる",
+      "explanation": "နှစ်ခုစလုံးသည် 「〜なければならない」 ၏ စကားပြော အတိုကောက်များဖြစ်ပြီး အဓိပ္ပာယ်ချင်း အတူတူပင် ဖြစ်ပါသည်။",
+      "explanationMy": "နှစ်ခုစလုံးသည် 「〜なければならない」 ၏ စကားပြော အတိုကောက်များဖြစ်ပြီး အဓိပ္ပာယ်ချင်း အတူတူပင် ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q024",
+      "lessonId": "n3.l47",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「見とく」という表現の持つ意味合いとして最も近いものは？",
+      "choices": [
+        "あとで役に立つようにあらかじめ見ておく",
+        "見ること自体を完全に諦めて忘れる",
+        "見ることを他人に厳しく禁止する",
+        "一度も見たことがない状態を保つ"
+      ],
+      "answer": "あとで役に立つようにあらかじめ見ておく",
+      "explanation": "နောက်တစ်ချိန် အသုံးဝင်စေရန် ကြိုတင်ကြည့်ရှုထားသည် (見ておく) ဟု အဓိပ္ပာယ်ရပါသည်။",
+      "explanationMy": "နောက်တစ်ချိန် အသုံးဝင်စေရန် ကြိုတင်ကြည့်ရှုထားသည် (見ておく) ဟု အဓိပ္ပာယ်ရပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q025",
+      "lessonId": "n3.l47",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文によると、日常会話で縮約表現が頻繁に使われる理由は何ですか。",
+      "choices": [
+        "テンポよく会話を進め、親密さや感情のニュアンスを生き生きと伝えるため",
+        "外国人に会話の内容を聞き取られないように隠すため",
+        "日本語の文字を書く手間を完全に省くため",
+        "正しい文法規則を社会から完全に排除するため"
+      ],
+      "answer": "テンポよく会話を進め、親密さや感情のニュアンスを生き生きと伝えるため",
+      "explanation": "テンポよくスピーディーな会話が交わされ、親密さや感情のニュアンスを生き生きと伝えるため ဟု ဖော်ပြထားပါသည်။",
+      "explanationMy": "テンポよくスピーディーな会話が交わされ、親密さや感情のニュアンスを生き生きと伝えるため ဟု ဖော်ပြထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q026",
+      "lessonId": "n3.l47",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文において、口語の縮約表現についてどのように評価されていますか。",
+      "choices": [
+        "単なる手抜きではなく、心理的距離を縮め共感を生む重要な役割を持つ",
+        "日本語の美しさを破壊する有害な言葉遣いである",
+        "学校の国語の授業で絶対に教えてはならない禁止用語である",
+        "高齢者だけが使う時代遅れの方言である"
+      ],
+      "answer": "単なる手抜きではなく、心理的距離を縮め共感を生む重要な役割を持つ",
+      "explanation": "単なる手抜きや崩れた言葉遣いではなく、心理的な距離を縮め共感を生み出す重要な役割 ဟု အပြုသဘော အကဲဖြတ်ထားပါသည်။",
+      "explanationMy": "単なる手抜きや崩れた言葉遣いではなく、心理的な距離を縮め共感を生み出す重要な役割 ဟု အပြုသဘော အကဲဖြတ်ထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q027",
+      "lessonId": "n3.l47",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文によると、自然な日本語を運用するために最も大切なことは何ですか。",
+      "choices": [
+        "公式な場での敬語と、親しい間柄での生きた口語表現を状況に応じて使い分けること",
+        "どんな場面でも常にくだけた口語表現だけで通すこと",
+        "教科書の文法だけを守り、口語の縮約形は一切使わないこと",
+        "会話をせず、常に文字のやり取りだけに頼ること"
+      ],
+      "answer": "公式な場での敬語と、親しい間柄での生きた口語表現を状況に応じて使い分けること",
+      "explanation": "အခြေအနေ အချိန်အခါအလိုက် တရားဝင် ယဉ်ကျေးစကားနှင့် ရင်းနှီးသော စကားပြောအတိုကောက်များကို ခွဲခြားအသုံးပြုနိုင်ခြင်း ဖြစ်ပါသည်။",
+      "explanationMy": "အခြေအနေ အချိန်အခါအလိုက် တရားဝင် ယဉ်ကျေးစကားနှင့် ရင်းနှီးသော စကားပြောအတိုကောက်များကို ခွဲခြားအသုံးပြုနိုင်ခြင်း ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q028",
+      "lessonId": "n3.l47",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "次の会話文の空欄に最もふさわしいくだけた表現を選びなさい：\n「もう終電が出ちゃうよ！早く（　　）！」",
+      "choices": [
+        "行かなきゃ",
+        "行っちゃった",
+        "行っといた",
+        "行かせて"
+      ],
+      "answer": "行かなきゃ",
+      "explanation": "နောက်ဆုံးရထား ထွက်တော့မည်မို့ အမြန်သွားရတော့မည်ဟူသော 「行かなきゃ」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "နောက်ဆုံးရထား ထွက်တော့မည်မို့ အမြန်သွားရတော့မည်ဟူသော 「行かなきゃ」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q029",
+      "lessonId": "n3.l47",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "文法的に正しく「書いておいた」を口語縮約した形はどれですか。",
+      "choices": [
+        "書いといた",
+        "書いちゃった",
+        "書かなきゃ",
+        "書いてった"
+      ],
+      "answer": "書いといた",
+      "explanation": "「書いておいた」၏ စကားပြော အတိုကောက်မှာ 「書いといた」 ဖြစ်ပါသည်။",
+      "explanationMy": "「書いておいた」၏ စကားပြော အတိုကောက်မှာ 「書いといた」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l47.q030",
+      "lessonId": "n3.l47",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "本課で学んだ「会話の縮約表現」を理解することの総合的な効果は？",
+      "choices": [
+        "アニメやドラマ、日本人とのカジュアルな会話をスムーズに理解し、自然な相づちや発言ができるようになる",
+        "公式なビジネス文書を素早く作成できるようになる",
+        "漢字の書き取りテストで満点を取れるようになる",
+        "英語の文法規則を日本語と比較しやすくなる"
+      ],
+      "answer": "アニメやドラマ、日本人とのカジュアルな会話をスムーズに理解し、自然な相づちや発言ができるようになる",
+      "explanation": "အန်နီမေး၊ ဂျပန်ဒရာမာများနှင့် နေ့စဉ်စကားပြောဆိုမှုများကို သဘာဝကျစွာ နားလည်ပြီး အပြန်အလှန်ပြောဆိုနိုင်စေပါသည်။",
+      "explanationMy": "အန်နီမေး၊ ဂျပန်ဒရာမာများနှင့် နေ့စဉ်စကားပြောဆိုမှုများကို သဘာဝကျစွာ နားလည်ပြီး အပြန်အလှန်ပြောဆိုနိုင်စေပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l47.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-06T10:00:00Z",
+    "rev": 2
+  }
+};

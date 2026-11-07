@@ -1,0 +1,1552 @@
+import { LessonPack } from '../../../models/types';
+
+export const n3l41Data: LessonPack = {
+  "id": "n3.l41",
+  "level": "N3",
+  "module": "N3 Formal & Expository",
+  "number": 41,
+  "title": "N3 Lesson 41: Degree, Extent & Comparisons (〜ほど・〜くらい・〜より〜のほうが)",
+  "description": "နှိုင်းယှဉ်ချက်များနှင့် အတိုင်းအတာပမာဏကို တိကျစွာ ဖော်ပြနိုင်ခြင်း 〜ほど၊ 〜くらい ကို အသုံးပြု၍ ခံစားချက်ပြင်းထန်မှုနှင့် အခြေအနေအတိုင်းအတာကို ရှင်းပြနိုင်ခြင်း 〜より〜のほうが ဖြင့် နှစ်ခုအကြား သာလွန်မှုနှင့် ဦးစားပေးရွေးချယ်မှုကို ပြောဆိုနိုင်ခြင်း",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l41.v001",
+      "lessonId": "n3.l41",
+      "ja": "比べる",
+      "kana": "くらべる",
+      "en": "kuraberu",
+      "my": "နှိုင်းယှဉ်သည်",
+      "meaningMy": "နှိုင်းယှဉ်သည်",
+      "meaningMyanmar": "နှိုင်းယှဉ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l41.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.v002",
+      "lessonId": "n3.l41",
+      "ja": "比較",
+      "kana": "ひかく",
+      "en": "hikaku",
+      "my": "နှိုင်းယှဉ်ချက်",
+      "meaningMy": "နှိုင်းယှဉ်ချက်",
+      "meaningMyanmar": "နှိုင်းယှဉ်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l41.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.v003",
+      "lessonId": "n3.l41",
+      "ja": "程度",
+      "kana": "ていど",
+      "en": "teido",
+      "my": "အတိုင်းအတာ",
+      "meaningMy": "အတိုင်းအတာ",
+      "meaningMyanmar": "အတိုင်းအတာ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l41.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.v004",
+      "lessonId": "n3.l41",
+      "ja": "日程",
+      "kana": "にってい",
+      "en": "nittei",
+      "my": "ခရီးစဉ်/အစီအစဉ်",
+      "meaningMy": "ခရီးစဉ်/အစီအစဉ်",
+      "meaningMyanmar": "ခရီးစဉ်/အစီအစဉ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l41.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.v005",
+      "lessonId": "n3.l41",
+      "ja": "先程",
+      "kana": "さきほど",
+      "en": "sakihodo",
+      "my": "ခုနကလေးတင်",
+      "meaningMy": "ခုနကလေးတင်",
+      "meaningMyanmar": "ခုနကလေးတင်",
+      "pos": "adverb",
+      "exampleSentenceId": "n3.l41.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.v006",
+      "lessonId": "n3.l41",
+      "ja": "快適",
+      "kana": "かいてき",
+      "en": "kaiteki",
+      "my": "သက်တောင့်သက်သာရှိသော",
+      "meaningMy": "သက်တောင့်သက်သာရှိသော",
+      "meaningMyanmar": "သက်တောင့်သက်သာရှိသော",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l41.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.v007",
+      "lessonId": "n3.l41",
+      "ja": "自炊",
+      "kana": "じすい",
+      "en": "jisui",
+      "my": "ကိုယ်တိုင်ချက်ပြုတ်စားသောက်ခြင်း",
+      "meaningMy": "ကိုယ်တိုင်ချက်ပြုတ်စားသောက်ခြင်း",
+      "meaningMyanmar": "ကိုယ်တိုင်ချက်ပြုတ်စားသောက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l41.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.v008",
+      "lessonId": "n3.l41",
+      "ja": "熱心",
+      "kana": "ねっしん",
+      "en": "nesshin",
+      "my": "စိတ်အားထက်သန်သော",
+      "meaningMy": "စိတ်အားထက်သန်သော",
+      "meaningMyanmar": "စိတ်အားထက်သန်သော",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l41.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.v009",
+      "lessonId": "n3.l41",
+      "ja": "選手",
+      "kana": "せんしゅ",
+      "en": "senshu",
+      "my": "အားကစားသမား",
+      "meaningMy": "အားကစားသမား",
+      "meaningMyanmar": "အားကစားသမား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l41.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.v010",
+      "lessonId": "n3.l41",
+      "ja": "涙",
+      "kana": "なみだ",
+      "en": "namida",
+      "my": "မျက်ရည်",
+      "meaningMy": "မျက်ရည်",
+      "meaningMyanmar": "မျက်ရည်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l41.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.v011",
+      "lessonId": "n3.l41",
+      "ja": "挨拶",
+      "kana": "あいさつ",
+      "en": "aisatsu",
+      "my": "နှုတ်ဆက်စကား",
+      "meaningMy": "နှုတ်ဆက်စကား",
+      "meaningMyanmar": "နှုတ်ဆက်စကား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l41.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.v012",
+      "lessonId": "n3.l41",
+      "ja": "経済的",
+      "kana": "けいざいてき",
+      "en": "keizaiteki",
+      "my": "ငွေကြေးသက်သာသော/စီးပွားရေးဆန်သော",
+      "meaningMy": "ငွေကြေးသက်သာသော/စီးပွားရေးဆန်သော",
+      "meaningMyanmar": "ငွေကြေးသက်သာသော/စီးပွားရေးဆန်သော",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l41.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l41.k001",
+      "lessonId": "n3.l41",
+      "char": "比",
+      "meaning": "နှိုင်းယှဉ်သည် (Compare)",
+      "meaningMy": "နှိုင်းယှဉ်သည် (Compare)",
+      "meaningMyanmar": "နှိုင်းယှဉ်သည် (Compare)",
+      "onyomi": [
+        "HI"
+      ],
+      "kunyomi": [
+        "kura-beru"
+      ],
+      "exampleVocab": [
+        {
+          "word": "比べる",
+          "reading": "くらべる",
+          "meaning": "နှိုင်းယှဉ်သည်",
+          "meaningMy": "နှိုင်းယှဉ်သည်",
+          "preview": false
+        },
+        {
+          "word": "比較",
+          "reading": "ひかく",
+          "meaning": "နှိုင်းယှဉ်ချက်",
+          "meaningMy": "နှိုင်းယှဉ်ချက်",
+          "preview": false
+        },
+        {
+          "word": "比例",
+          "reading": "ひれい",
+          "meaning": "အချိုးကျခြင်း",
+          "meaningMy": "အချိုးကျခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l41.s001"
+      ],
+      "components": [
+        "比 (compare)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.k002",
+      "lessonId": "n3.l41",
+      "char": "較",
+      "meaning": "နှိုင်းယှဉ်စစ်ဆေးသည် (Contrast/Compare)",
+      "meaningMy": "နှိုင်းယှဉ်စစ်ဆေးသည် (Contrast/Compare)",
+      "meaningMyanmar": "နှိုင်းယှဉ်စစ်ဆေးသည် (Contrast/Compare)",
+      "onyomi": [
+        "KAKU",
+        "KOU"
+      ],
+      "kunyomi": [
+        "kura-beru"
+      ],
+      "exampleVocab": [
+        {
+          "word": "比較",
+          "reading": "ひかく",
+          "meaning": "နှိုင်းယှဉ်ခြင်း",
+          "meaningMy": "နှိုင်းယှဉ်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "較正",
+          "reading": "こうせい",
+          "meaning": "ချိန်ညှိစစ်ဆေးခြင်း",
+          "meaningMy": "ချိန်ညှိစစ်ဆေးခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l41.s001"
+      ],
+      "components": [
+        "車 (cart)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.k003",
+      "lessonId": "n3.l41",
+      "char": "程",
+      "meaning": "အတိုင်းအတာ၊ အဆင့် (Degree/Extent)",
+      "meaningMy": "အတိုင်းအတာ၊ အဆင့် (Degree/Extent)",
+      "meaningMyanmar": "အတိုင်းအတာ၊ အဆင့် (Degree/Extent)",
+      "onyomi": [
+        "TEI"
+      ],
+      "kunyomi": [
+        "hodo"
+      ],
+      "exampleVocab": [
+        {
+          "word": "程度",
+          "reading": "ていど",
+          "meaning": "အဆင့်အတန်း၊ အတိုင်းအတာ",
+          "meaningMy": "အဆင့်အတန်း၊ အတိုင်းအတာ",
+          "preview": false
+        },
+        {
+          "word": "日程",
+          "reading": "にってい",
+          "meaning": "နေ့စဉ်အစီအစဉ်",
+          "meaningMy": "နေ့စဉ်အစီအစဉ်",
+          "preview": false
+        },
+        {
+          "word": "先程",
+          "reading": "さきほど",
+          "meaning": "ခုနက",
+          "meaningMy": "ခုနက",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l41.s001"
+      ],
+      "components": [
+        "禾 (grain)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l41.g001",
+      "lessonId": "n3.l41",
+      "pattern": "〜ほど",
+      "meaning": "... လောက်ထိ / ... သလောက် / မက",
+      "meaningMy": "... လောက်ထိ / ... သလောက် / မက",
+      "meaningMyanmar": "... လောက်ထိ / ... သလောက် / မက",
+      "formation": "V(辞書形/ない形) / いAdj / なAdj+な / N + ほど",
+      "explanation": {
+        "en": "အခြေအနေတစ်ခုသည် အံ့သြလောက်အောင် သို့မဟုတ် မျက်ရည်ကျလောက်အောင် ပြင်းထန်သည့် အတိုင်းအတာကို ဖော်ပြသည်။ နှိုင်းယှဉ်ရာတွင်လည်း သုံးသည်။",
+        "my": "အခြေအနေတစ်ခုသည် အံ့သြလောက်အောင် သို့မဟုတ် မျက်ရည်ကျလောက်အောင် ပြင်းထန်သည့် အတိုင်းအတာကို ဖော်ပြသည်။ နှိုင်းယှဉ်ရာတွင်လည်း သုံးသည်။"
+      },
+      "explanationMy": "အခြေအနေတစ်ခုသည် အံ့သြလောက်အောင် သို့မဟုတ် မျက်ရည်ကျလောက်အောင် ပြင်းထန်သည့် အတိုင်းအတာကို ဖော်ပြသည်။ နှိုင်းယှဉ်ရာတွင်လည်း သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l41.s001",
+          "note": "〜ほど usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ほど."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "昨日は涙が出るほどお腹を抱えて笑いました。",
+      "clozeTarget": "〜ほど",
+      "clozeHint": "... လောက်ထိ / ... သလောက် / မက",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "အခြေအနေတစ်ခုသည် အံ့သြလောက်အောင် သို့မဟုတ် မျက်ရည်ကျလောက်အောင် ပြင်းထန်သည့် အတိုင်းအတာကို ဖော်ပြသည်။ နှိုင်းယှဉ်ရာတွင်လည်း သုံးသည်။"
+    },
+    {
+      "id": "n3.l41.g002",
+      "lessonId": "n3.l41",
+      "pattern": "〜くらい / 〜ぐらい",
+      "meaning": "... လောက်ထိ / ... ခန့်",
+      "meaningMy": "... လောက်ထိ / ... ခန့်",
+      "meaningMyanmar": "... လောက်ထိ / ... ခန့်",
+      "formation": "V(辞書形/ない形) / いAdj / なAdj+な / N + くらい",
+      "explanation": {
+        "en": "အနည်းဆုံးပမာဏ၊ ခန့်မှန်းခြေအတိုင်းအတာ သို့မဟုတ် စိတ်လှုပ်ရှားဖွယ်ရာ အခြေအနေတစ်ခု၏ အတိုင်းအတာကို ဖော်ပြသည်။",
+        "my": "အနည်းဆုံးပမာဏ၊ ခန့်မှန်းခြေအတိုင်းအတာ သို့မဟုတ် စိတ်လှုပ်ရှားဖွယ်ရာ အခြေအနေတစ်ခု၏ အတိုင်းအတာကို ဖော်ပြသည်။"
+      },
+      "explanationMy": "အနည်းဆုံးပမာဏ၊ ခန့်မှန်းခြေအတိုင်းအတာ သို့မဟုတ် စိတ်လှုပ်ရှားဖွယ်ရာ အခြေအနေတစ်ခု၏ အတိုင်းအတာကို ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l41.s001",
+          "note": "〜くらい / 〜ぐらい usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜くらい / 〜ぐらい."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "声が出ないくらい喉が痛くて困っています。",
+      "clozeTarget": "〜くらい / 〜ぐらい",
+      "clozeHint": "... လောက်ထိ / ... ခန့်",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "အနည်းဆုံးပမာဏ၊ ခန့်မှန်းခြေအတိုင်းအတာ သို့မဟုတ် စိတ်လှုပ်ရှားဖွယ်ရာ အခြေအနေတစ်ခု၏ အတိုင်းအတာကို ဖော်ပြသည်။"
+    },
+    {
+      "id": "n3.l41.g003",
+      "lessonId": "n3.l41",
+      "pattern": "〜より〜のほうが",
+      "meaning": "... ထက် ... က ပို၍",
+      "meaningMy": "... ထက် ... က ပို၍",
+      "meaningMyanmar": "... ထက် ... က ပို၍",
+      "formation": "N1 より N2 のほうが [Adj/V]",
+      "explanation": {
+        "en": "အရာနှစ်ခုကို နှိုင်းယှဉ်ရာတွင် တစ်ဖက်က ပိုမိုအားသာကြောင်း သို့မဟုတ် နှစ်သက်ဖွယ်ကောင်းကြောင်း ဖော်ပြသည်။",
+        "my": "အရာနှစ်ခုကို နှိုင်းယှဉ်ရာတွင် တစ်ဖက်က ပိုမိုအားသာကြောင်း သို့မဟုတ် နှစ်သက်ဖွယ်ကောင်းကြောင်း ဖော်ပြသည်။"
+      },
+      "explanationMy": "အရာနှစ်ခုကို နှိုင်းယှဉ်ရာတွင် တစ်ဖက်က ပိုမိုအားသာကြောင်း သို့မဟုတ် နှစ်သက်ဖွယ်ကောင်းကြောင်း ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l41.s001",
+          "note": "〜より〜のほうが usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜より〜のほうが."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "電車より新幹線のほうがずっと速くて快適です。",
+      "clozeTarget": "〜より〜のほうが",
+      "clozeHint": "... ထက် ... က ပို၍",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "အရာနှစ်ခုကို နှိုင်းယှဉ်ရာတွင် တစ်ဖက်က ပိုမိုအားသာကြောင်း သို့မဟုတ် နှစ်သက်ဖွယ်ကောင်းကြောင်း ဖော်ပြသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l41.s001",
+      "lessonId": "n3.l41",
+      "ja": "二つの商品を比較して、どちらが優れているか調べます。",
+      "kana": "二つの商品を比較して、どちらが優れているか調べます。",
+      "translation": {
+        "en": "Futatsu no shouhin o hikaku shite, dochira ga sugarete iru ka shirabemasu.",
+        "my": "ကုန်ပစ္စည်းနှစ်ခုကို နှိုင်းယှဉ်ပြီး ဘယ်ဟာက ပိုသာလွန်သလဲဆိုတာ စစ်ဆေးကြည့်ပါမည်။"
+      },
+      "translationMy": "ကုန်ပစ္စည်းနှစ်ခုကို နှိုင်းယှဉ်ပြီး ဘယ်ဟာက ပိုသာလွန်သလဲဆိုတာ စစ်ဆေးကြည့်ပါမည်။",
+      "vocabIds": [
+        "n3.l41.v001",
+        "n3.l41.v002"
+      ],
+      "grammarIds": [
+        "n3.l41.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.s002",
+      "lessonId": "n3.l41",
+      "ja": "先程届いた日程表を確認すると、明日の予定が分かります。",
+      "kana": "先程届いた日程表を確認すると、明日の予定が分かります。",
+      "translation": {
+        "en": "Sakihodo todoita nitteihyou o kakunin suru to, ashita no yotei ga wakarimasu.",
+        "my": "ခုနကတင် ရောက်ရှိလာသော အစီအစဉ်ဇယားကို စစ်ဆေးကြည့်လျှင် မနက်ဖြန်အစီအစဉ်ကို သိရှိနိုင်ပါသည်။"
+      },
+      "translationMy": "ခုနကတင် ရောက်ရှိလာသော အစီအစဉ်ဇယားကို စစ်ဆေးကြည့်လျှင် မနက်ဖြန်အစီအစဉ်ကို သိရှိနိုင်ပါသည်။",
+      "vocabIds": [
+        "n3.l41.v004",
+        "n3.l41.v005"
+      ],
+      "grammarIds": [
+        "n3.l41.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.s003",
+      "lessonId": "n3.l41",
+      "ja": "快適な生活を送るには、健康の程度を常に意識することが大切です。",
+      "kana": "快適な生活を送るには、健康の程度を常に意識することが大切です。",
+      "translation": {
+        "en": "Kaiteki na seikatsu o okuru ni wa, kenkou no teido o tsuneni ishiki suru koto ga taisetsu desu.",
+        "my": "သက်တောင့်သက်သာရှိသော ဘဝကို ဖြတ်သန်းနိုင်ရန် ကျန်းမာရေးအတိုင်းအတာကို အမြဲသတိထားနေရန် အရေးကြီးပါသည်။"
+      },
+      "translationMy": "သက်တောင့်သက်သာရှိသော ဘဝကို ဖြတ်သန်းနိုင်ရန် ကျန်းမာရေးအတိုင်းအတာကို အမြဲသတိထားနေရန် အရေးကြီးပါသည်။",
+      "vocabIds": [
+        "n3.l41.v003",
+        "n3.l41.v006"
+      ],
+      "grammarIds": [
+        "n3.l41.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.s004",
+      "lessonId": "n3.l41",
+      "ja": "熱心な選手ほど、毎日の練習を欠かさず続けます。",
+      "kana": "熱心な選手ほど、毎日の練習を欠かさず続けます。",
+      "translation": {
+        "en": "Nesshin na senshu hodo, mainichi no renshuu o kakasazu tsuzukemasu.",
+        "my": "စိတ်အားထက်သန်သော အားကစားသမားများလောက် နေ့စဉ်လေ့ကျင့်မှုကို မပျက်မကွက် လုပ်ဆောင်ကြသူ မရှိပါ။"
+      },
+      "translationMy": "စိတ်အားထက်သန်သော အားကစားသမားများလောက် နေ့စဉ်လေ့ကျင့်မှုကို မပျက်မကွက် လုပ်ဆောင်ကြသူ မရှိပါ။",
+      "vocabIds": [
+        "n3.l41.v008",
+        "n3.l41.v009"
+      ],
+      "grammarIds": [
+        "n3.l41.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.s005",
+      "lessonId": "n3.l41",
+      "ja": "自炊は経済的なだけでなく、自分好みの味付けができる利点があります。",
+      "kana": "自炊は経済的なだけでなく、自分好みの味付けができる利点があります。",
+      "translation": {
+        "en": "Jisui wa keizaiteki na dake de naku, jibun konomi no ajitsuke ga dekiru riten ga arimasu.",
+        "my": "ကိုယ်တိုင်ချက်စားခြင်းသည် စီးပွားရေးအရ သက်သာစေရုံသာမက မိမိကြိုက်နှစ်သက်သည့် အရသာကို ဖန်တီးနိုင်သည့် အားသာချက်ရှိပါသည်။"
+      },
+      "translationMy": "ကိုယ်တိုင်ချက်စားခြင်းသည် စီးပွားရေးအရ သက်သာစေရုံသာမက မိမိကြိုက်နှစ်သက်သည့် အရသာကို ဖန်တီးနိုင်သည့် အားသာချက်ရှိပါသည်။",
+      "vocabIds": [
+        "n3.l41.v007",
+        "n3.l41.v012"
+      ],
+      "grammarIds": [
+        "n3.l41.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l41.s006",
+      "lessonId": "n3.l41",
+      "ja": "感動のあまり涙が出るくらい素晴らしい挨拶を聞きました。",
+      "kana": "感動のあまり涙が出るくらい素晴らしい挨拶を聞きました。",
+      "translation": {
+        "en": "Kandou no amari namida ga deru kurai subarashii aisatsu o kikimashita.",
+        "my": "အလွန်ပင် စိတ်လှုပ်ရှားခံစားရလွန်း၍ မျက်ရည်ထွက်လောက်အောင် အလွန်ကောင်းမွန်သော နှုတ်ခွန်းဆက်စကားကို ကြားနာခဲ့ရပါသည်။"
+      },
+      "translationMy": "အလွန်ပင် စိတ်လှုပ်ရှားခံစားရလွန်း၍ မျက်ရည်ထွက်လောက်အောင် အလွန်ကောင်းမွန်သော နှုတ်ခွန်းဆက်စကားကို ကြားနာခဲ့ရပါသည်။",
+      "vocabIds": [
+        "n3.l41.v010",
+        "n3.l41.v011"
+      ],
+      "grammarIds": [
+        "n3.l41.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l41.r001",
+    "lessonId": "n3.l41",
+    "title": "都市生活と地方生活の比較",
+    "level": "N3",
+    "text": "都市での生活と地方での生活を比較すると、それぞれに際立った長所と短所があります。大都市では交通網が発達しており、車を持たなくても生活に困らないほど利便性が高いです。また、文化施設や商業施設が充実しているため、休日の過ごし方の選択肢も豊富です。しかし、その反面、住宅費が非常に高く、満員電車に乗るストレスは想像を絶するくらい大きな負担となります。一方で、地方での暮らしは自然が豊かで静かな環境があり、広い住まいで快適に暮らすことができます。先程の調査でも、都会の喧騒を離れて自炊を楽しみ、経済的な生活を望む若者が増えていることが示されました。利便性を最優先にするか、それとも生活のゆとりを重視するかによって、人それぞれの最適な選択は大きく異なります。",
+    "kanaText": "都市での生活と地方での生活を比較すると、それぞれに際立った長所と短所があります。大都市では交通網が発達しており、車を持たなくても生活に困らないほど利便性が高いです。また、文化施設や商業施設が充実しているため、休日の過ごし方の選択肢も豊富です。しかし、その反面、住宅費が非常に高く、満員電車に乗るストレスは想像を絶するくらい大きな負担となります。一方で、地方での暮らしは自然が豊かで静かな環境があり、広い住まいで快適に暮らすことができます。先程の調査でも、都会の喧騒を離れて自炊を楽しみ、経済的な生活を望む若者が増えていることが示されました。利便性を最優先にするか、それとも生活のゆとりを重視するかによって、人それぞれの最適な選択は大きく異なります。",
+    "translation": "都市生活と地方生活の比較",
+    "translationMy": "都市生活と地方生活の比較",
+    "questionIds": [
+      "n3.l41.q025",
+      "n3.l41.q026",
+      "n3.l41.q027"
+    ],
+    "difficulty": 3,
+    "glossary": [
+      {
+        "term": "比較",
+        "reading": "比較",
+        "meaning": "နှိုင်းယှဉ်ချက်",
+        "meaningMy": "နှိုင်းယှဉ်ချက်",
+        "meaningMyanmar": "နှိုင်းယှဉ်ချက်"
+      },
+      {
+        "term": "利便性",
+        "reading": "利便性",
+        "meaning": "အဆင်ပြေလွယ်ကူမှု",
+        "meaningMy": "အဆင်ပြေလွယ်ကူမှု",
+        "meaningMyanmar": "အဆင်ပြေလွယ်ကူမှု"
+      },
+      {
+        "term": "喧騒",
+        "reading": "喧騒",
+        "meaning": "ဆူညံရှုပ်ထွေးမှု",
+        "meaningMy": "ဆူညံရှုပ်ထွေးမှု",
+        "meaningMyanmar": "ဆူညံရှုပ်ထွေးမှု"
+      },
+      {
+        "term": "自炊",
+        "reading": "自炊",
+        "meaning": "ကိုယ်တိုင်ချက်ပြုတ်စားသောက်ခြင်း",
+        "meaningMy": "ကိုယ်တိုင်ချက်ပြုတ်စားသောက်ခြင်း",
+        "meaningMyanmar": "ကိုယ်တိုင်ချက်ပြုတ်စားသောက်ခြင်း"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n3.l41.lis001",
+    "lessonId": "n3.l41",
+    "title": "新しいアパートの比較",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "A: 先程見学した駅前のマンションと、少し離れたアパートを比較してみましょう。\nB: 駅前は便利ですが、家賃が高すぎてため息が出るほどですよ。\nA: 確かに。少し歩く部屋のほうが家賃も安くて経済的ですし、部屋も広くて快適です。\nB: そうですね。10分くらい歩くのは健康にも良いですから、あちらに決めましょう。",
+    "translation": "A: ခုနက သွားကြည့်ခဲ့တဲ့ ဘူတာရှေ့က တိုက်ခန်းနဲ့ နည်းနည်းဝေးတဲ့ အခန်းကို နှိုင်းယှဉ်ကြည့်ရအောင်။\nB: ဘူတာရှေ့က အဆင်ပြေပေမယ့် အိမ်လခက ကြီးလွန်းလို့ သက်ပြင်းချရလောက်အောင်ပါပဲဗျာ။\nA: ဟုတ်တာပေါ့။ နည်းနည်းလမ်းလျှောက်ရတဲ့ အခန်းက အိမ်လခလည်း ပိုသက်သာပြီး စီးပွားရေးအရ ကောင်းသလို အခန်းလည်း ကျယ်ပြီး သက်တောင့်သက်သာရှိပါတယ်။\nB: ဒါပေါ့ခင်ဗျာ။ ၁၀ မိနစ်လောက် လမ်းလျှောက်တာက ကျန်းမာရေးအတွက်လည်း ကောင်းတာမို့ အဲဒီအခန်းကိုပဲ ရွေးကြတာပေါ့။",
+    "translationMy": "A: ခုနက သွားကြည့်ခဲ့တဲ့ ဘူတာရှေ့က တိုက်ခန်းနဲ့ နည်းနည်းဝေးတဲ့ အခန်းကို နှိုင်းယှဉ်ကြည့်ရအောင်။\nB: ဘူတာရှေ့က အဆင်ပြေပေမယ့် အိမ်လခက ကြီးလွန်းလို့ သက်ပြင်းချရလောက်အောင်ပါပဲဗျာ။\nA: ဟုတ်တာပေါ့။ နည်းနည်းလမ်းလျှောက်ရတဲ့ အခန်းက အိမ်လခလည်း ပိုသက်သာပြီး စီးပွားရေးအရ ကောင်းသလို အခန်းလည်း ကျယ်ပြီး သက်တောင့်သက်သာရှိပါတယ်။\nB: ဒါပေါ့ခင်ဗျာ။ ၁၀ မိနစ်လောက် လမ်းလျှောက်တာက ကျန်းမာရေးအတွက်လည်း ကောင်းတာမို့ အဲဒီအခန်းကိုပဲ ရွေးကြတာပေါ့။",
+    "turns": [
+      {
+        "speaker": "A",
+        "ja": "先程見学した駅前のマンションと、少し離れたアパートを比較してみましょう。",
+        "kana": "先程見学した駅前のマンションと、少し離れたアパートを比較してみましょう。",
+        "en": "Sakihodo kengaku shita ekimae no manshon to, sukoshi hanareta apaato o hikaku shite mimashou.",
+        "my": "ခုနက သွားကြည့်ခဲ့တဲ့ ဘူတာရှေ့က တိုက်ခန်းနဲ့ နည်းနည်းဝေးတဲ့ အခန်းကို နှိုင်းယှဉ်ကြည့်ရအောင်။",
+        "translationMy": "ခုနက သွားကြည့်ခဲ့တဲ့ ဘူတာရှေ့က တိုက်ခန်းနဲ့ နည်းနည်းဝေးတဲ့ အခန်းကို နှိုင်းယှဉ်ကြည့်ရအောင်။",
+        "myanmar": "ခုနက သွားကြည့်ခဲ့တဲ့ ဘူတာရှေ့က တိုက်ခန်းနဲ့ နည်းနည်းဝေးတဲ့ အခန်းကို နှိုင်းယှဉ်ကြည့်ရအောင်။"
+      },
+      {
+        "speaker": "B",
+        "ja": "駅前は便利ですが、家賃が高すぎてため息が出るほどですよ。",
+        "kana": "駅前は便利ですが、家賃が高すぎてため息が出るほどですよ。",
+        "en": "Ekimae wa benri desu ga, yachin ga takasugite tameiki ga deru hodo desu yo.",
+        "my": "ဘူတာရှေ့က အဆင်ပြေပေမယ့် အိမ်လခက ကြီးလွန်းလို့ သက်ပြင်းချရလောက်အောင်ပါပဲဗျာ။",
+        "translationMy": "ဘူတာရှေ့က အဆင်ပြေပေမယ့် အိမ်လခက ကြီးလွန်းလို့ သက်ပြင်းချရလောက်အောင်ပါပဲဗျာ။",
+        "myanmar": "ဘူတာရှေ့က အဆင်ပြေပေမယ့် အိမ်လခက ကြီးလွန်းလို့ သက်ပြင်းချရလောက်အောင်ပါပဲဗျာ။"
+      },
+      {
+        "speaker": "A",
+        "ja": "確かに。少し歩く部屋のほうが家賃も安くて経済的ですし、部屋も広くて快適です。",
+        "kana": "確かに。少し歩く部屋のほうが家賃も安くて経済的ですし、部屋も広くて快適です。",
+        "en": "Tashikani. Sukoshi aruku heya no hou ga yachin mo yasukute keizaiteki desu shi, heya mo hirokute kaiteki desu.",
+        "my": "ဟုတ်တာပေါ့။ နည်းနည်းလမ်းလျှောက်ရတဲ့ အခန်းက အိမ်လခလည်း ပိုသက်သာပြီး စီးပွားရေးအရ ကောင်းသလို အခန်းလည်း ကျယ်ပြီး သက်တောင့်သက်သာရှိပါတယ်။",
+        "translationMy": "ဟုတ်တာပေါ့။ နည်းနည်းလမ်းလျှောက်ရတဲ့ အခန်းက အိမ်လခလည်း ပိုသက်သာပြီး စီးပွားရေးအရ ကောင်းသလို အခန်းလည်း ကျယ်ပြီး သက်တောင့်သက်သာရှိပါတယ်။",
+        "myanmar": "ဟုတ်တာပေါ့။ နည်းနည်းလမ်းလျှောက်ရတဲ့ အခန်းက အိမ်လခလည်း ပိုသက်သာပြီး စီးပွားရေးအရ ကောင်းသလို အခန်းလည်း ကျယ်ပြီး သက်တောင့်သက်သာရှိပါတယ်။"
+      },
+      {
+        "speaker": "B",
+        "ja": "そうですね。10分くらい歩くのは健康にも良いですから、あちらに決めましょう。",
+        "kana": "そうですね。10分くらい歩くのは健康にも良いですから、あちらに決めましょう。",
+        "en": "Sou desu ne. Juppun kurai aruku no wa kenkou ni mo yoi desu kara, achira ni kimemashou.",
+        "my": "ဒါပေါ့ခင်ဗျာ။ ၁၀ မိနစ်လောက် လမ်းလျှောက်တာက ကျန်းမာရေးအတွက်လည်း ကောင်းတာမို့ အဲဒီအခန်းကိုပဲ ရွေးကြတာပေါ့။",
+        "translationMy": "ဒါပေါ့ခင်ဗျာ။ ၁၀ မိနစ်လောက် လမ်းလျှောက်တာက ကျန်းမာရေးအတွက်လည်း ကောင်းတာမို့ အဲဒီအခန်းကိုပဲ ရွေးကြတာပေါ့။",
+        "myanmar": "ဒါပေါ့ခင်ဗျာ။ ၁၀ မိနစ်လောက် လမ်းလျှောက်တာက ကျန်းမာရေးအတွက်လည်း ကောင်းတာမို့ အဲဒီအခန်းကိုပဲ ရွေးကြတာပေါ့။"
+      }
+    ],
+    "questionIds": [
+      "n3.l41.q028",
+      "n3.l41.q029",
+      "n3.l41.q030"
+    ],
+    "difficulty": 3,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l41.q001",
+      "lessonId": "n3.l41",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "昨日は涙が出る（　　）お腹を抱えて笑いました。",
+      "choices": [
+        "ほど",
+        "ばかり",
+        "わりに",
+        "ながら"
+      ],
+      "answer": "ほど",
+      "explanation": "မျက်ရည်ထွက်လောက်အောင် ရယ်ခဲ့ရသည့် အတိုင်းအတာပြင်းထန်မှုကို ဖော်ပြရန် 「〜ほど」 ကို သုံးပါသည်။",
+      "explanationMy": "မျက်ရည်ထွက်လောက်အောင် ရယ်ခဲ့ရသည့် အတိုင်းအတာပြင်းထန်မှုကို ဖော်ပြရန် 「〜ほど」 ကို သုံးပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q002",
+      "lessonId": "n3.l41",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "声が出ない（　　）喉が痛くて、病院へ行きました。",
+      "choices": [
+        "とおり",
+        "くらい",
+        "つつ",
+        "反面"
+      ],
+      "answer": "くらい",
+      "explanation": "အသံမထွက်နိုင်လောက်အောင် နာကျင်သည့် အတိုင်းအတာကို ဖော်ပြရန် 「〜くらい」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အသံမထွက်နိုင်လောက်အောင် နာကျင်သည့် အတိုင်းအတာကို ဖော်ပြရန် 「〜くらい」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q003",
+      "lessonId": "n3.l41",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "電車で行く（　　）新幹線のほうがずっと時間が短縮できます。",
+      "choices": [
+        "より",
+        "ほど",
+        "から",
+        "まで"
+      ],
+      "answer": "より",
+      "explanation": "နှိုင်းယှဉ်ပြရာတွင် 「A より B のほうが」 ပုံစံဖြင့် သုံးပါသည်။",
+      "explanationMy": "နှိုင်းယှဉ်ပြရာတွင် 「A より B のほうが」 ပုံစံဖြင့် သုံးပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q004",
+      "lessonId": "n3.l41",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "彼（　　）親切で面倒見の良い先輩は他にはいない。",
+      "choices": [
+        "ほど",
+        "だけ",
+        "くらい",
+        "より"
+      ],
+      "answer": "ほど",
+      "explanation": "သူ့လောက် ကောင်းမွန်သည့်သူ မရှိပါဟု အမြင့်ဆုံးအတိုင်းအတာကို နှိုင်းယှဉ်ငြင်းပယ်ရာတွင် 「〜ほど〜ない」 ကို သုံးပါသည်။",
+      "explanationMy": "သူ့လောက် ကောင်းမွန်သည့်သူ မရှိပါဟု အမြင့်ဆုံးအတိုင်းအတာကို နှိုင်းယှဉ်ငြင်းပယ်ရာတွင် 「〜ほど〜ない」 ကို သုံးပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q005",
+      "lessonId": "n3.l41",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "朝の挨拶（　　）元気な声でするべきです。",
+      "choices": [
+        "くらい",
+        "ほど",
+        "より",
+        "わりに"
+      ],
+      "answer": "くらい",
+      "explanation": "အနည်းဆုံး အခြေခံနှုတ်ဆက်စကားလောက်တော့ လုပ်သင့်ကြောင်း ဖော်ပြရန် 「〜くらい」 ကို သုံးပါသည်။",
+      "explanationMy": "အနည်းဆုံး အခြေခံနှုတ်ဆက်စကားလောက်တော့ လုပ်သင့်ကြောင်း ဖော်ပြရန် 「〜くらい」 ကို သုံးပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q006",
+      "lessonId": "n3.l41",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "外食するより自炊した（　　）健康管理がしやすい。",
+      "choices": [
+        "ほうが",
+        "ほどが",
+        "くらいが",
+        "たびに"
+      ],
+      "answer": "ほうが",
+      "explanation": "နှိုင်းယှဉ်ချက်တွင် 「〜より〜のほうが」 ပုံစံဖြင့် ဦးစားပေးအားသာချက်ကို ဖော်ပြပါသည်။",
+      "explanationMy": "နှိုင်းယှဉ်ချက်တွင် 「〜より〜のほうが」 ပုံစံဖြင့် ဦးစားပေးအားသာချက်ကို ဖော်ပြပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q007",
+      "lessonId": "n3.l41",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「比べる」の正しい読み方はどれですか。",
+      "choices": [
+        "くらべる",
+        "ならべる",
+        "しらべる",
+        "えらべる"
+      ],
+      "answer": "くらべる",
+      "explanation": "「比べる」၏ အသံထွက်အမှန်မှာ 「くらべる」 (နှိုင်းယှဉ်သည်) ဖြစ်ပါသည်။",
+      "explanationMy": "「比べる」၏ အသံထွက်အမှန်မှာ 「くらべる」 (နှိုင်းယှဉ်သည်) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q008",
+      "lessonId": "n3.l41",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「程度」の正しい読み方はどれですか。",
+      "choices": [
+        "ていど",
+        "たいど",
+        "せいど",
+        "ねんど"
+      ],
+      "answer": "ていど",
+      "explanation": "「程度」၏ အသံထွက်အမှန်မှာ 「ていど」 (အတိုင်းအတာ/အဆင့်) ဖြစ်ပါသည်။",
+      "explanationMy": "「程度」၏ အသံထွက်အမှန်မှာ 「ていど」 (အတိုင်းအတာ/အဆင့်) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q009",
+      "lessonId": "n3.l41",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "二つの案を（　　）した結果、こちらの計画を採用することに決めた。",
+      "choices": [
+        "比較",
+        "挨拶",
+        "自炊",
+        "涙"
+      ],
+      "answer": "比較",
+      "explanation": "အစီအစဉ်နှစ်ခုကို နှိုင်းယှဉ်စစ်ဆေးခြင်းဖြစ်၍ 「比較」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အစီအစဉ်နှစ်ခုကို နှိုင်းယှဉ်စစ်ဆေးခြင်းဖြစ်၍ 「比較」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q010",
+      "lessonId": "n3.l41",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "（　　）届いたメールの日程をもう一度確認してください。",
+      "choices": [
+        "先程",
+        "程度",
+        "快適",
+        "熱心"
+      ],
+      "answer": "先程",
+      "explanation": "ခုနကတင် ရောက်ရှိလာသော အီးမေးလ်ဟု အချိန်ပြရန် 「先程」 (ခုနက) က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ခုနကတင် ရောက်ရှိလာသော အီးမေးလ်ဟု အချိန်ပြရန် 「先程」 (ခုနက) က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q011",
+      "lessonId": "n3.l41",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "このホテルは静かで設備も新しく、とても（　　）に過ごせます。",
+      "choices": [
+        "快適",
+        "熱心",
+        "経済的",
+        "先程"
+      ],
+      "answer": "快適",
+      "explanation": "သက်တောင့်သက်သာ အနားယူနေထိုင်နိုင်ကြောင်း ဖော်ပြရန် 「快適」 (သက်တောင့်သက်သာရှိသော) က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "သက်တောင့်သက်သာ အနားယူနေထိုင်နိုင်ကြောင်း ဖော်ပြရန် 「快適」 (သက်တောင့်သက်သာရှိသော) က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q012",
+      "lessonId": "n3.l41",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "休日は外で遊ぶ（　　）家でゆっくり本を読むほうが好きです。",
+      "choices": [
+        "より",
+        "ほど",
+        "くらい",
+        "とおり"
+      ],
+      "answer": "より",
+      "explanation": "အပြင်ထွက်ကစားတာထက် အိမ်မှာစာဖတ်တာက ပိုကြိုက်သည်ဟု နှိုင်းယှဉ်ရာတွင် 「〜より〜のほうが」 ဖြစ်ပါသည်။",
+      "explanationMy": "အပြင်ထွက်ကစားတာထက် အိမ်မှာစာဖတ်တာက ပိုကြိုက်သည်ဟု နှိုင်းယှဉ်ရာတွင် 「〜より〜のほうが」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q013",
+      "lessonId": "n3.l41",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "倒れそうに（　　）ほど疲れていましたが、最後までやり抜きました。",
+      "choices": [
+        "なる",
+        "なって",
+        "なった",
+        "なら"
+      ],
+      "answer": "なる",
+      "explanation": "အတိုင်းအတာပြ 「〜ほど」 ရှေ့တွင် ကြိယာ အဘိဓာန်ပုံစံ 「なるほど」 ဖြစ်ပါသည်။",
+      "explanationMy": "အတိုင်းအတာပြ 「〜ほど」 ရှေ့တွင် ကြိယာ အဘိဓာန်ပုံစံ 「なるほど」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q014",
+      "lessonId": "n3.l41",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "子供（　　）分かる簡単な言葉で丁寧に説明した。",
+      "choices": [
+        "でも",
+        "ほど",
+        "より",
+        "きり"
+      ],
+      "answer": "でも",
+      "explanation": "ကလေးပင် နားလည်နိုင်လောက်သည့် အခြေအနေကို ဖော်ပြရန် 「でも」 သို့မဟုတ် 「くらい」 ဖြစ်ပြီး၊ ဤတွင် 「でも」 က သင့်လျော်ပါသည်။",
+      "explanationMy": "ကလေးပင် နားလည်နိုင်လောက်သည့် အခြေအနေကို ဖော်ပြရန် 「でも」 သို့မဟုတ် 「くらい」 ဖြစ်ပြီး၊ ဤတွင် 「でも」 က သင့်လျော်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q015",
+      "lessonId": "n3.l41",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "熱心な（　　）たちが毎日遅くまで練習に励んでいる。",
+      "choices": [
+        "選手",
+        "日程",
+        "挨拶",
+        "程度"
+      ],
+      "answer": "選手",
+      "explanation": "စိတ်အားထက်သန်သော အားကစားသမားများဖြစ်၍ 「選手」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "စိတ်အားထက်သန်သော အားကစားသမားများဖြစ်၍ 「選手」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q016",
+      "lessonId": "n3.l41",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "自炊を始めると無駄な出費が減り、とても（　　）です。",
+      "choices": [
+        "経済的",
+        "快適",
+        "熱心",
+        "先程"
+      ],
+      "answer": "経済的",
+      "explanation": "ကုန်ကျစရိတ်သက်သာပြီး ချွေတာရာရောက်ကြောင်း ပြရန် 「経済的」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ကုန်ကျစရိတ်သက်သာပြီး ချွေတာရာရောက်ကြောင်း ပြရန် 「経済的」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q017",
+      "lessonId": "n3.l41",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「〜ほど」のニュアンスとして最も適切なものはどれですか。",
+      "choices": [
+        "驚くほど強い程度や限界に近い状態を表す",
+        "単なる時間の順番を表す",
+        "相手への厳しい命令を表す",
+        "不確かな噂や人づての話を表す"
+      ],
+      "answer": "驚くほど強い程度や限界に近い状態を表す",
+      "explanation": "「〜ほど」သည် အံ့အားသင့်ဖွယ် အတိုင်းအတာပြင်းထန်မှု သို့မဟုတ် ကန့်သတ်ချက်နီးပါး အခြေအနေကို ဖော်ပြပါသည်။",
+      "explanationMy": "「〜ほど」သည် အံ့အားသင့်ဖွယ် အတိုင်းအတာပြင်းထန်မှု သို့မဟုတ် ကန့်သတ်ချက်နီးပါး အခြေအနေကို ဖော်ပြပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q018",
+      "lessonId": "n3.l41",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「駅前のマンションは家賃が高すぎてため息が出るほどだ」の意味は？",
+      "choices": [
+        "အိမ်လခက ကြီးလွန်းလို့ သက်ပြင်းကျရလောက်အောင် ဖြစ်သည်",
+        "ဘူတာရှေ့က တိုက်ခန်းက လုံးဝမငှားရမ်းနိုင်ပေ",
+        "သက်ပြင်းချစရာမလိုဘဲ ချက်ချင်းငှားလိုက်သည်",
+        "အိမ်လခ သက်သာလွန်း၍ ပျော်ရွှင်ရသည်"
+      ],
+      "answer": "အိမ်လခက ကြီးလွန်းလို့ သက်ပြင်းကျရလောက်အောင် ဖြစ်သည်",
+      "explanation": "ため息が出るほど ဆိုသည်မှာ သက်ပြင်းချရလောက်အောင် ကြီးမားသည့် အတိုင်းအတာကို ဖော်ပြခြင်းဖြစ်ပါသည်။",
+      "explanationMy": "ため息が出るほど ဆိုသည်မှာ သက်ပြင်းချရလောက်အောင် ကြီးမားသည့် အတိုင်းအတာကို ဖော်ပြခြင်းဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q019",
+      "lessonId": "n3.l41",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「〜より〜のほうが」を使う文として文法的に最も自然なものはどれですか。",
+      "choices": [
+        "肉より魚のほうが体質に合っています。",
+        "肉ほど魚のほうが体質に合っています。",
+        "肉くらい魚のほうが体質に合っています。",
+        "肉ながら魚のほうが体質に合っています。"
+      ],
+      "answer": "肉より魚のほうが体質に合っています。",
+      "explanation": "နှိုင်းယှဉ်ချက်တွင် 「A より B のほうが」 က အမှန်ကန်ဆုံး ပုံစံဖြစ်ပါသည်။",
+      "explanationMy": "နှိုင်းယှဉ်ချက်တွင် 「A より B のほうが」 က အမှန်ကန်ဆုံး ပုံစံဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q020",
+      "lessonId": "n3.l41",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「挨拶くらい自分から進んですべきだ」に含まれる話者の気持ちは？",
+      "choices": [
+        "အနည်းဆုံး နှုတ်ဆက်ခြင်းလောက်တော့ အခြေခံအကျဆုံးမို့ မိမိဘက်က လုပ်သင့်သည်",
+        "နှုတ်ဆက်စကားကို မည်သူမျှ မလုပ်သင့်ပေ",
+        "နှုတ်ဆက်ရုံဖြင့် အရာရာအားလုံး ပြီးပြည့်စုံသွားသည်",
+        "နှုတ်ဆက်ခြင်းသည် အလွန်ခက်ခဲသောအလုပ်ဖြစ်သည်"
+      ],
+      "answer": "အနည်းဆုံး နှုတ်ဆက်ခြင်းလောက်တော့ အခြေခံအကျဆုံးမို့ မိမိဘက်က လုပ်သင့်သည်",
+      "explanation": "「〜くらい」သည် အခြေခံအကျဆုံး အနည်းဆုံး အရာအဖြစ် အထင်အမြင်ကို ဖော်ပြပါသည်။",
+      "explanationMy": "「〜くらい」သည် အခြေခံအကျဆုံး အနည်းဆုံး အရာအဖြစ် အထင်အမြင်ကို ဖော်ပြပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q021",
+      "lessonId": "n3.l41",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「比較」という漢字の構成として正しい組み合わせはどれですか。",
+      "choices": [
+        "比＋較",
+        "非＋較",
+        "比＋校",
+        "批＋較"
+      ],
+      "answer": "比＋較",
+      "explanation": "「比較」 (hikaku) တွင် အသုံးပြုသော ခန်ဂျီမှာ 「比」 နှင့် 「較」 ဖြစ်ပါသည်။",
+      "explanationMy": "「比較」 (hikaku) တွင် အသုံးပြုသော ခန်ဂျီမှာ 「比」 နှင့် 「較」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q022",
+      "lessonId": "n3.l41",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「死ぬほど忙しい」という慣用表現の実際のニュアンスは？",
+      "choices": [
+        "အလွန်ပင် အလုပ်များလွန်းသည့် အခြေအနေကို ချဲ့ကားဖော်ပြခြင်း",
+        "တကယ်ပင် အသက်အန္တရာယ်ရှိပြီး ဆေးရုံတက်နေရခြင်း",
+        "အလုပ်မရှိဘဲ အားလပ်လွန်းနေခြင်း",
+        "မကြာမီ အလုပ်မှ နုတ်ထွက်တော့မည်ဖြစ်ခြင်း"
+      ],
+      "answer": "အလွန်ပင် အလုပ်များလွန်းသည့် အခြေအနေကို ချဲ့ကားဖော်ပြခြင်း",
+      "explanation": "「死ぬほど」သည် အလွန်အမင်း ပြင်းထန်သော အတိုင်းအတာကို ဖော်ပြရန် ချဲ့ကားသုံးနှုန်းသည့် စကားဖြစ်ပါသည်။",
+      "explanationMy": "「死ぬほど」သည် အလွန်အမင်း ပြင်းထန်သော အတိုင်းအတာကို ဖော်ပြရန် ချဲ့ကားသုံးနှုန်းသည့် စကားဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q023",
+      "lessonId": "n3.l41",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "会話で「10分くらい歩くのは健康に良い」と述べた理由は？",
+      "choices": [
+        "家賃が安くて広い部屋を選ぶ妥協案として前向きに捉えたから",
+        "駅前のマンションが高価すぎて契約を断念した腹いせのため",
+        "毎日ジョギングの練習を義務付けられているから",
+        "歩くこと以外に交通手段が全く存在しないから"
+      ],
+      "answer": "家賃が安くて広い部屋を選ぶ妥協案として前向きに捉えたから",
+      "explanation": "အိမ်လခသက်သာပြီး အခန်းကျယ်သည့် အဆင်ပြေမှုကို ရွေးချယ်ရန် လမ်းလျှောက်ခြင်းကို အကောင်းဘက်မှ ရှုမြင်ခြင်းဖြစ်ပါသည်။",
+      "explanationMy": "အိမ်လခသက်သာပြီး အခန်းကျယ်သည့် အဆင်ပြေမှုကို ရွေးချယ်ရန် လမ်းလျှောက်ခြင်းကို အကောင်းဘက်မှ ရှုမြင်ခြင်းဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q024",
+      "lessonId": "n3.l41",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「日程」の「程」と同じ漢字を使う単語はどれですか。",
+      "choices": [
+        "程度",
+        "規程",
+        "行程",
+        "上のすべて"
+      ],
+      "answer": "上のすべて",
+      "explanation": "程度, 規程, 行程 စသည်တို့ အားလုံးတွင် 「程」 (tei/hodo) ခန်ဂျီကို အသုံးပြုပါသည်။",
+      "explanationMy": "程度, 規程, 行程 စသည်တို့ အားလုံးတွင် 「程」 (tei/hodo) ခန်ဂျီကို အသုံးပြုပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q025",
+      "lessonId": "n3.l41",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文によると、大都市での生活の利点として述べられているのはどれですか。",
+      "choices": [
+        "交通網が発達し、車がなくても生活に困らないほど便利な点",
+        "住宅費が非常に安く、広い家に住める点",
+        "満員電車が全くなく、通勤ストレスがない点",
+        "自然が豊かで静かな環境が保たれている点"
+      ],
+      "answer": "交通網が発達し、車がなくても生活に困らないほど便利な点",
+      "explanation": "စာပိုဒ်တွင် 大都市では交通網が発達しており、車を持たなくても生活に困らないほど利便性が高い ဟု ဖော်ပြထားပါသည်။",
+      "explanationMy": "စာပိုဒ်တွင် 大都市では交通網が発達しており、車を持たなくても生活に困らないほど利便性が高い ဟု ဖော်ပြထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q026",
+      "lessonId": "n3.l41",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文によると、大都市生活の大きな負担となっているものは何ですか。",
+      "choices": [
+        "高い住宅費と満員電車による強いストレス",
+        "商業施設や文化施設の不足",
+        "休日の過ごし方の選択肢が少なすぎること",
+        "自炊をするための食材が手に入らないこと"
+      ],
+      "answer": "高い住宅費と満員電車による強いストレス",
+      "explanation": "စာပိုဒ်တွင် 住宅費が非常に高く、満員電車に乗るストレスは想像を絶するくらい大きな負担 ဟု ဖော်ပြထားပါသည်။",
+      "explanationMy": "စာပိုဒ်တွင် 住宅費が非常に高く、満員電車に乗るストレスは想像を絶するくらい大きな負担 ဟု ဖော်ပြထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q027",
+      "lessonId": "n3.l41",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文において、若者の間で増えている傾向として正しいものはどれですか。",
+      "choices": [
+        "都会の喧騒を離れて自炊を楽しみ、経済的な生活を望む傾向",
+        "車を複数台所有して郊外をドライブする傾向",
+        "地方から大都市の都心マンションへ移住する傾向",
+        "外食ばかりを優先して自炊をやめる傾向"
+      ],
+      "answer": "都会の喧騒を離れて自炊を楽しみ、経済的な生活を望む傾向",
+      "explanation": "都会の喧騒を離れて自炊を楽しみ、経済的な生活を望む若者が増えている ဟု ရှင်းလင်းစွာ ပါရှိပါသည်။",
+      "explanationMy": "都会の喧騒を離れて自炊を楽しみ、経済的な生活を望む若者が増えている ဟု ရှင်းလင်းစွာ ပါရှိပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q028",
+      "lessonId": "n3.l41",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "文脈上、最も適切な接続表現を選びなさい：\n「東京は便利だが家賃が高い。（　　）、地方は静かで暮らしやすい。」",
+      "choices": [
+        "一方で",
+        "したがって",
+        "だから",
+        "なぜなら"
+      ],
+      "answer": "一方で",
+      "explanation": "ရှုထောင့်နှစ်ခုကို နှိုင်းယှဉ်ဖော်ပြရာတွင် 「一方で」 (တစ်ဖက်တွင်မူ) က အသင့်တော်ဆုံး ဖြစ်ပါသည်။",
+      "explanationMy": "ရှုထောင့်နှစ်ခုကို နှိုင်းယှဉ်ဖော်ပြရာတွင် 「一方で」 (တစ်ဖက်တွင်မူ) က အသင့်တော်ဆုံး ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q029",
+      "lessonId": "n3.l41",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "次の語句を並べ替えて自然な文を作りなさい：\n「昨日 / 泣いた / ほど / 感動して」",
+      "choices": [
+        "昨日感動して泣いたほどだ",
+        "泣いた感動して昨日ほどだ",
+        "ほど昨日泣いた感動して",
+        "感動してほど昨日泣いた"
+      ],
+      "answer": "昨日感動して泣いたほどだ",
+      "explanation": "အစီအစဉ်မှန်မှာ 「昨日感動して泣いたほどだ」 ဖြစ်ပါသည်။",
+      "explanationMy": "အစီအစဉ်မှန်မှာ 「昨日感動して泣いたほどだ」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l41.q030",
+      "lessonId": "n3.l41",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "本課で学んだ「程度・比較」の表現を活用した適切なまとめはどれですか。",
+      "choices": [
+        "他者や他物との比較を通じて、程度や好みを具体的に伝えることができる",
+        "過去の命令や禁止の規則だけを暗記するための構文である",
+        "未来の天気を予測するためだけの特別な文型である",
+        "話し相手の敬語の誤りを指摘するためだけに用いる"
+      ],
+      "answer": "他者や他物との比較を通じて、程度や好みを具体的に伝えることができる",
+      "explanation": "နှိုင်းယှဉ်ချက်များနှင့် အတိုင်းအတာပြင်းထန်မှုများကို အခြေအနေအလိုက် တိကျစွာ သုံးနှုန်းဖော်ပြနိုင်ပါသည်။",
+      "explanationMy": "နှိုင်းယှဉ်ချက်များနှင့် အတိုင်းအတာပြင်းထန်မှုများကို အခြေအနေအလိုက် တိကျစွာ သုံးနှုန်းဖော်ပြနိုင်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l41.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-06T10:00:00Z",
+    "rev": 2
+  }
+};

@@ -1,0 +1,1791 @@
+import { LessonPack } from '../../../models/types';
+
+export const n2l03Data: LessonPack = {
+  "id": "n2.l03",
+  "level": "N2",
+  "module": "N2 Advanced Grammar & Argumentation",
+  "number": 3,
+  "title": "N2 Lesson 3: Correlative & Simultaneous Progression (〜うちに・〜最中に・〜ところへ)",
+  "description": "Mastery milestone module focusing on Temporal Windows, Mid-Action Interruptions, and Situational Timing: while the window lasts (うちに), right in the middle of action (最中に), and just at the moment/juncture when (ところへ / ところに).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l03.v001",
+      "lessonId": "n2.l03",
+      "ja": "最高",
+      "kana": "さいこう",
+      "en": "highest / supreme / best",
+      "my": "အမြင့်ဆုံး / အကောင်းဆုံး",
+      "meaningMy": "အမြင့်ဆုံး / အကောင်းဆုံး",
+      "meaningMyanmar": "အမြင့်ဆုံး / အကောင်းဆုံး",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l03.s001",
+      "kanjiIds": [
+        "n2.l03.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.v002",
+      "lessonId": "n2.l03",
+      "ja": "最中",
+      "kana": "さいちゅう",
+      "en": "in the middle of / height of",
+      "my": "အထွတ်အထိပ်ကာလ / လုပ်နေဆဲအချိန်",
+      "meaningMy": "အထွတ်အထိပ်ကာလ / လုပ်နေဆဲအချိန်",
+      "meaningMyanmar": "အထွတ်အထိပ်ကာလ / လုပ်နေဆဲအချိန်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l03.s002",
+      "kanjiIds": [
+        "n2.l03.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.v003",
+      "lessonId": "n2.l03",
+      "ja": "最新",
+      "kana": "さいしん",
+      "en": "latest / newest",
+      "my": "အသစ်လွင်ဆုံး",
+      "meaningMy": "အသစ်လွင်ဆုံး",
+      "meaningMyanmar": "အသစ်လွင်ဆုံး",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l03.s003",
+      "kanjiIds": [
+        "n2.l03.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.v004",
+      "lessonId": "n2.l03",
+      "ja": "切迫",
+      "kana": "せっぱく",
+      "en": "urgency / imminent tension",
+      "my": "အရေးတကြီး စိတ်လှုပ်ရှားတင်းမာမှု",
+      "meaningMy": "အရေးတကြီး စိတ်လှုပ်ရှားတင်းမာမှု",
+      "meaningMyanmar": "အရေးတကြီး စိတ်လှုပ်ရှားတင်းမာမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l03.s004",
+      "kanjiIds": [
+        "n2.l03.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.v005",
+      "lessonId": "n2.l03",
+      "ja": "圧迫",
+      "kana": "あっぱく",
+      "en": "pressure / oppression",
+      "my": "ဖိအားပေးခြင်း / ညှစ်ထုတ်ခြင်း",
+      "meaningMy": "ဖိအားပေးခြင်း / ညှစ်ထုတ်ခြင်း",
+      "meaningMyanmar": "ဖိအားပေးခြင်း / ညှစ်ထုတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l03.s005",
+      "kanjiIds": [
+        "n2.l03.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.v006",
+      "lessonId": "n2.l03",
+      "ja": "迫力",
+      "kana": "はくりょく",
+      "en": "power / intensity / punch",
+      "my": "အရှိန်အဝါ ပြင်းထန်စွမ်းအား",
+      "meaningMy": "အရှိန်အဝါ ပြင်းထန်စွမ်းအား",
+      "meaningMyanmar": "အရှိန်အဝါ ပြင်းထန်စွမ်းအား",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l03.s006",
+      "kanjiIds": [
+        "n2.l03.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.v007",
+      "lessonId": "n2.l03",
+      "ja": "限界",
+      "kana": "げんかい",
+      "en": "limit / bound",
+      "my": "ကန့်သတ်ချက် / အဆုံးစွန် အတိုင်းအတာ",
+      "meaningMy": "ကန့်သတ်ချက် / အဆုံးစွန် အတိုင်းအတာ",
+      "meaningMyanmar": "ကန့်သတ်ချက် / အဆုံးစွန် အတိုင်းအတာ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l03.s007",
+      "kanjiIds": [
+        "n2.l03.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.v008",
+      "lessonId": "n2.l03",
+      "ja": "制限",
+      "kana": "せいげん",
+      "en": "restriction / restraint",
+      "my": "ကန့်သတ်စည်းမျဉ်း",
+      "meaningMy": "ကန့်သတ်စည်းမျဉ်း",
+      "meaningMyanmar": "ကန့်သတ်စည်းမျဉ်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l03.s008",
+      "kanjiIds": [
+        "n2.l03.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.v009",
+      "lessonId": "n2.l03",
+      "ja": "期限",
+      "kana": "きげん",
+      "en": "deadline / term",
+      "my": "သတ်မှတ်ရက် / ကုန်ဆုံးရက်",
+      "meaningMy": "သတ်မှတ်ရက် / ကုန်ဆုံးရက်",
+      "meaningMyanmar": "သတ်မှတ်ရက် / ကုန်ဆုံးရက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l03.s009",
+      "kanjiIds": [
+        "n2.l03.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.v010",
+      "lessonId": "n2.l03",
+      "ja": "猶予",
+      "kana": "ゆうよ",
+      "en": "postponement / grace period",
+      "my": "ရက်ရွှေ့ဆိုင်းခွင့် / သက်သာခွင့်",
+      "meaningMy": "ရက်ရွှေ့ဆိုင်းခွင့် / သက်သာခွင့်",
+      "meaningMyanmar": "ရက်ရွှေ့ဆိုင်းခွင့် / သက်သာခွင့်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l03.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.v011",
+      "lessonId": "n2.l03",
+      "ja": "緊迫",
+      "kana": "きんぱく",
+      "en": "tension / strain",
+      "my": "တင်းမာသော အခြေအနေ",
+      "meaningMy": "တင်းမာသော အခြေအနေ",
+      "meaningMyanmar": "တင်းမာသော အခြေအနေ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l03.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.v012",
+      "lessonId": "n2.l03",
+      "ja": "阻止",
+      "kana": "そし",
+      "en": "prevention / obstruction",
+      "my": "တားဆီးဟန့်တားခြင်း",
+      "meaningMy": "တားဆီးဟန့်တားခြင်း",
+      "meaningMyanmar": "တားဆီးဟန့်တားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l03.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l03.k001",
+      "lessonId": "n2.l03",
+      "char": "最",
+      "meaning": "Utmost / Most / Extreme",
+      "meaningMy": "အရှိဆုံး / အထွတ်အထိပ် / အစွန်ဆုံး",
+      "meaningMyanmar": "အရှိဆုံး / အထွတ်အထိပ် / အစွန်ဆုံး",
+      "onyomi": [
+        "サイ"
+      ],
+      "kunyomi": [
+        "もっと・も"
+      ],
+      "exampleVocab": [
+        {
+          "word": "最高",
+          "reading": "さいこう",
+          "meaning": "highest / supreme / best",
+          "meaningMy": "အမြင့်ဆုံး / အကောင်းဆုံး",
+          "preview": false
+        },
+        {
+          "word": "最中",
+          "reading": "さいちゅう",
+          "meaning": "in the middle of / height of",
+          "meaningMy": "အထွတ်အထိပ်ကာလ / လုပ်နေဆဲအချိန်",
+          "preview": false
+        },
+        {
+          "word": "最新",
+          "reading": "さいしん",
+          "meaning": "latest / newest",
+          "meaningMy": "အသစ်လွင်ဆုံး",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l03.s001"
+      ],
+      "components": [
+        "日",
+        "取"
+      ],
+      "strokes": 12,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.k002",
+      "lessonId": "n2.l03",
+      "char": "迫",
+      "meaning": "Urge / Press / Approach / Menace",
+      "meaningMy": "ဖိအားပေးခြင်း / နီးကပ်လာခြင်း / အပြင်းအထန်",
+      "meaningMyanmar": "ဖိအားပေးခြင်း / နီးကပ်လာခြင်း / အပြင်းအထန်",
+      "onyomi": [
+        "ハク"
+      ],
+      "kunyomi": [
+        "せま・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "切迫",
+          "reading": "せっぱく",
+          "meaning": "urgency / imminent tension",
+          "meaningMy": "အရေးတကြီး စိတ်လှုပ်ရှားတင်းမာမှု",
+          "preview": false
+        },
+        {
+          "word": "圧迫",
+          "reading": "あっぱく",
+          "meaning": "pressure / oppression",
+          "meaningMy": "ဖိအားပေးခြင်း / ညှစ်ထုတ်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "迫力",
+          "reading": "はくりょく",
+          "meaning": "power / intensity / punch",
+          "meaningMy": "အရှိန်အဝါ ပြင်းထန်စွမ်းအား",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l03.s002"
+      ],
+      "components": [
+        "辶",
+        "白"
+      ],
+      "strokes": 8,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.k003",
+      "lessonId": "n2.l03",
+      "char": "限",
+      "meaning": "Limit / Restrict / Bound",
+      "meaningMy": "ကန့်သတ်ချက် / အပိုင်းအခြား / အဆုံးအစွန်",
+      "meaningMyanmar": "ကန့်သတ်ချက် / အပိုင်းအခြား / အဆုံးအစွန်",
+      "onyomi": [
+        "ゲン"
+      ],
+      "kunyomi": [
+        "かぎ・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "限界",
+          "reading": "げんかい",
+          "meaning": "limit / bound",
+          "meaningMy": "ကန့်သတ်ချက် / အဆုံးစွန် အတိုင်းအတာ",
+          "preview": false
+        },
+        {
+          "word": "制限",
+          "reading": "せいげん",
+          "meaning": "restriction / restraint",
+          "meaningMy": "ကန့်သတ်စည်းမျဉ်း",
+          "preview": false
+        },
+        {
+          "word": "期限",
+          "reading": "きげん",
+          "meaning": "deadline / term",
+          "meaningMy": "သတ်မှတ်ရက် / ကုန်ဆုံးရက်",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l03.s003"
+      ],
+      "components": [
+        "阝",
+        "艮"
+      ],
+      "strokes": 9,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l03.g001",
+      "lessonId": "n2.l03",
+      "pattern": "〜うちに",
+      "meaning": "While... (before state changes) / In the course of doing...",
+      "meaningMy": "ထိုအခြေအနေ မပြောင်းလဲမီ အခွင့်ကောင်းရှိတုန်း / ... လုပ်နေရင်းနှင့် သတိမထားမိဘဲ",
+      "meaningMyanmar": "ထိုအခြေအနေ မပြောင်းလဲမီ အခွင့်ကောင်းရှိတုန်း / ... လုပ်နေရင်းနှင့် သတိမထားမိဘဲ",
+      "formation": "動詞辞書形 / ている形 / ない形 / イ形容詞 / ナ形容詞な / 名詞の ＋ うちに",
+      "explanation": {
+        "en": "Pattern A: Seizing a time window before circumstances change. Pattern B: A gradual change occurring while in the middle of doing something.",
+        "my": "အခြေအနေ မပြောင်းလဲမီ သင့်တော်သော အချိန်ကာလအတွင်း တစ်ခုခုကို ဆောင်ရွက်ရန် သို့မဟုတ် တစ်စုံတစ်ခု ပြုလုပ်နေရင်း သတိမထားမိဘဲ သဘာဝအလျောက် ပြောင်းလဲသွားပုံကို ဖော်ပြသည်။"
+      },
+      "explanationMy": "အခြေအနေ မပြောင်းလဲမီ သင့်တော်သော အချိန်ကာလအတွင်း တစ်ခုခုကို ဆောင်ရွက်ရန် သို့မဟုတ် တစ်စုံတစ်ခု ပြုလုပ်နေရင်း သတိမထားမိဘဲ သဘာဝအလျောက် ပြောင်းလဲသွားပုံကို ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l03.s001",
+          "note": "〜うちに usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l03.s004",
+          "note": "〜うちに usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l03.s007",
+          "note": "〜うちに usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l03.s009",
+          "note": "〜うちに usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l03.s011",
+          "note": "〜うちに usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l03.g001",
+        "n2.l03.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜うちに."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "スープが温かい（　）、どうぞお召し上がりください。",
+      "clozeTarget": "うちに",
+      "clozeHint": "While the soup is warm",
+      "acceptableSynonyms": [
+        "〜あいだに",
+        "〜機会に",
+        "〜まえに"
+      ],
+      "nuanceExplanationMy": "時間や状態の制約がある間に、望ましい行為を行うことを促すニュアンス。"
+    },
+    {
+      "id": "n2.l03.g002",
+      "lessonId": "n2.l03",
+      "pattern": "〜最中に",
+      "meaning": "Right in the middle of... (interrupted unexpectedly)",
+      "meaningMy": "အလုပ်တစ်ခုကို အပြည့်အဝ အာရုံစိုက်လုပ်ဆောင်နေသော အချိန်အခိုက်အတန့်တွင် မထင်မှတ်ဘဲ အနှောင့်အယှက်ဖြစ်ပေါ်လာသည်",
+      "meaningMyanmar": "အလုပ်တစ်ခုကို အပြည့်အဝ အာရုံစိုက်လုပ်ဆောင်နေသော အချိန်အခိုက်အတန့်တွင် မထင်မှတ်ဘဲ အနှောင့်အယှက်ဖြစ်ပေါ်လာသည်",
+      "formation": "動詞ている形 / 名詞の ＋ 最中に（最中だ）",
+      "explanation": {
+        "en": "Emphasizes that an unexpected, often obstructive event occurred right at the peak moment of an ongoing action.",
+        "my": "ကိစ္စတစ်ခု အထွတ်အထိပ် လုပ်ဆောင်နေဆဲဖြစ်သော အခိုက်အတန့်တွင် အခြား မလိုလားအပ်သော ဖြစ်ရပ်တစ်ခု ရုတ်တရက် ကြားဖြတ်ဝင်ရောက်လာပုံကို ဖော်ပြသည်။"
+      },
+      "explanationMy": "ကိစ္စတစ်ခု အထွတ်အထိပ် လုပ်ဆောင်နေဆဲဖြစ်သော အခိုက်အတန့်တွင် အခြား မလိုလားအပ်သော ဖြစ်ရပ်တစ်ခု ရုတ်တရက် ကြားဖြတ်ဝင်ရောက်လာပုံကို ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l03.s002",
+          "note": "〜最中に usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l03.s005",
+          "note": "〜最中に usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l03.s008",
+          "note": "〜最中に usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l03.s012",
+          "note": "〜最中に usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l03.g001",
+        "n2.l03.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜最中に."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "大切な会議の（　）、突然スマートフォンの着信音が鳴り響いた。",
+      "clozeTarget": "最中に",
+      "clozeHint": "Right in the middle of the important meeting",
+      "acceptableSynonyms": [
+        "〜しているちょうどその時",
+        "〜の真っ只中に",
+        "〜途中で"
+      ],
+      "nuanceExplanationMy": "進行中の行為のピーク時に邪魔が入って困惑・中断させられるニュアンスが強い。"
+    },
+    {
+      "id": "n2.l03.g003",
+      "lessonId": "n2.l03",
+      "pattern": "〜ところへ / ところに",
+      "meaning": "Just at the moment when... / Right into the scene where...",
+      "meaningMy": "ထိုကဲ့သို့ ပြုလုပ်နေသော အချိန်အခိုက်အတန့်သို့ အခြားသူတစ်ဦး ရောက်ရှိလာခြင်း သို့မဟုတ် အဖြစ်အပျက်တစ်ခု ဝင်ရောက်လာသည်",
+      "meaningMyanmar": "ထိုကဲ့သို့ ပြုလုပ်နေသော အချိန်အခိုက်အတန့်သို့ အခြားသူတစ်ဦး ရောက်ရှိလာခြင်း သို့မဟုတ် အဖြစ်အပျက်တစ်ခု ဝင်ရောက်လာသည်",
+      "formation": "動詞辞書形 / た形 / ている形 ＋ ところへ（ところに / ところを）",
+      "explanation": {
+        "en": "Depicts an interception: just when someone is in a specific phase of action, another entity or event enters the scene.",
+        "my": "တစ်စုံတစ်ယောက်သည် လုပ်ငန်းတစ်ခုခုကို ဆောင်ရွက်နေဆဲ သို့မဟုတ် စတင်ခါနီး သို့မဟုတ် ပြီးစီးခါနီး အချိန်ကိုက်သို့ အခြားသူ သို့မဟုတ် အခြေအနေတစ်ခု ရောက်ရှိလာကြောင်း ဖော်ပြသည်။"
+      },
+      "explanationMy": "တစ်စုံတစ်ယောက်သည် လုပ်ငန်းတစ်ခုခုကို ဆောင်ရွက်နေဆဲ သို့မဟုတ် စတင်ခါနီး သို့မဟုတ် ပြီးစီးခါနီး အချိန်ကိုက်သို့ အခြားသူ သို့မဟုတ် အခြေအနေတစ်ခု ရောက်ရှိလာကြောင်း ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l03.s003",
+          "note": "〜ところへ / ところに usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l03.s006",
+          "note": "〜ところへ / ところに usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l03.s010",
+          "note": "〜ところへ / ところに usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l03.g001",
+        "n2.l03.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ところへ / ところに."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "出かけようとしていた（　）、突然の来客があった。",
+      "clozeTarget": "ところへ",
+      "clozeHint": "Just as I was about to go out",
+      "acceptableSynonyms": [
+        "〜ちょうどその時",
+        "〜折に",
+        "〜タイミングで"
+      ],
+      "nuanceExplanationMy": "ある局面へ別の事象がタイミングよく、あるいは不運にも重なって割り込む様子を描写する。"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l03.s001",
+      "lessonId": "n2.l03",
+      "ja": "若くて体力が最高潮にあるうちに、世界中を旅して多様な文化に触れておくべきだ。",
+      "kana": "わかくてたいりょくがさいこうちょうにあるうちに、せかいじゅうをたびしてたようなぶんかにふれておくべきだ。",
+      "translation": {
+        "en": "While young and physical strength is at its peak, one ought to travel around the world and experience diverse cultures.",
+        "my": "ငယ်ရွယ်ပြီး ကာယခွန်အား အမြင့်ဆုံးအချိန်တွင် ကမ္ဘာအနှံ့ ခရီးသွား၍ မတူကွဲပြားသော ယဉ်ကျေးမှုများနှင့် ထိတွေ့ထားသင့်သည်။"
+      },
+      "translationMy": "ငယ်ရွယ်ပြီး ကာယခွန်အား အမြင့်ဆုံးအချိန်တွင် ကမ္ဘာအနှံ့ ခရီးသွား၍ မတူကွဲပြားသော ယဉ်ကျေးမှုများနှင့် ထိတွေ့ထားသင့်သည်။",
+      "vocabIds": [
+        "n2.l03.v001"
+      ],
+      "grammarIds": [
+        "n2.l03.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.s002",
+      "lessonId": "n2.l03",
+      "ja": "猛暑の最中に長時間の屋外作業を強行した結果、熱中症で倒れる作業員が続出した。",
+      "kana": "もうしょのさいちゅうにちょうじかんのおくがいさぎょうをきょうこうしたけっか、ねっちゅうしょうでたおれるさぎょういんがぞくしゅつした。",
+      "translation": {
+        "en": "As a result of forcing long hours of outdoor work in the middle of extreme heat, workers collapsed one after another from heatstroke.",
+        "my": "အပူချိန်ပြင်းထန်နေဆဲ အထွတ်အထိပ်အချိန်တွင် ပြင်ပအလုပ်များကို အချိန်ကြာမြင့်စွာ အတင်းအကျပ် လုပ်ကိုင်စေခဲ့ရာ အပူလျှပ်၍ မူးလဲသော အလုပ်သမားများ ဆက်တိုက်ပေါ်ပေါက်ခဲ့သည်။"
+      },
+      "translationMy": "အပူချိန်ပြင်းထန်နေဆဲ အထွတ်အထိပ်အချိန်တွင် ပြင်ပအလုပ်များကို အချိန်ကြာမြင့်စွာ အတင်းအကျပ် လုပ်ကိုင်စေခဲ့ရာ အပူလျှပ်၍ မူးလဲသော အလုပ်သမားများ ဆက်တိုက်ပေါ်ပေါက်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l03.v002"
+      ],
+      "grammarIds": [
+        "n2.l03.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.s003",
+      "lessonId": "n2.l03",
+      "ja": "最新のセキュリティシステムを導入しようと検討していたところへ、巧みなサイバー攻撃を受けた。",
+      "kana": "さいしんのセキュリティシステムをどうにゅうしようとけんとうしていたところへ、たくみなサイバーこうげきをうけた。",
+      "translation": {
+        "en": "Just as we were considering introducing the latest security system, we suffered a clever cyberattack.",
+        "my": "အသစ်လွင်ဆုံး လုံခြုံရေးစနစ်ကို မိတ်ဆက်တပ်ဆင်ရန် စဉ်းစားနေသည့် အချိန်အခိုက်အတန့်သို့ ပါးနပ်သော ဆိုက်ဘာတိုက်ခိုက်မှုတစ်ခု ကျရောက်လာခဲ့သည်။"
+      },
+      "translationMy": "အသစ်လွင်ဆုံး လုံခြုံရေးစနစ်ကို မိတ်ဆက်တပ်ဆင်ရန် စဉ်းစားနေသည့် အချိန်အခိုက်အတန့်သို့ ပါးနပ်သော ဆိုက်ဘာတိုက်ခိုက်မှုတစ်ခု ကျရောက်လာခဲ့သည်။",
+      "vocabIds": [
+        "n2.l03.v003"
+      ],
+      "grammarIds": [
+        "n2.l03.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.s004",
+      "lessonId": "n2.l03",
+      "ja": "納期が切迫しているうちに、各チームの進捗状況を再確認して遅延を防がなければならない。",
+      "kana": "のうきがせっぱくしているうちに、かくチームのしんちょくじょうきょうをさいかくにんしてちえんをふせがなければならない。",
+      "translation": {
+        "en": "While the delivery deadline is becoming imminent, we must recheck each team's progress to prevent delays.",
+        "my": "ပစ္စည်းအပ်နှံရက် အရေးတကြီး နီးကပ်လာနေစဉ်အတွင်း အဖွဲ့အသီးသီး၏ တိုးတက်မှုအခြေအနေကို ပြန်လည်စစ်ဆေးပြီး နောက်ကျမှုကို တားဆီးရမည်။"
+      },
+      "translationMy": "ပစ္စည်းအပ်နှံရက် အရေးတကြီး နီးကပ်လာနေစဉ်အတွင်း အဖွဲ့အသီးသီး၏ တိုးတက်မှုအခြေအနေကို ပြန်လည်စစ်ဆေးပြီး နောက်ကျမှုကို တားဆီးရမည်။",
+      "vocabIds": [
+        "n2.l03.v004"
+      ],
+      "grammarIds": [
+        "n2.l03.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.s005",
+      "lessonId": "n2.l03",
+      "ja": "経営陣がコスト削減の圧迫を加えている最中に、現場の主要エンジニアが相次いで退職した。",
+      "kana": "けいえいじんがコストさくげんのあっぱくをくわえているさいちゅうに、げんばのしゅようエンジニアがあいついでたいしょくした。",
+      "translation": {
+        "en": "Right in the middle of management applying cost reduction pressure, key on-site engineers resigned one after another.",
+        "my": "စီမံခန့်ခွဲသူများဘက်မှ ကုန်ကျစရိတ်လျှော့ချရန် ဖိအားပေးနေဆဲ အချိန်တွင် လုပ်ငန်းခွင်ရှိ အဓိက အင်ဂျင်နီယာများသည် ဆက်တိုက် နုတ်ထွက်သွားခဲ့ကြသည်။"
+      },
+      "translationMy": "စီမံခန့်ခွဲသူများဘက်မှ ကုန်ကျစရိတ်လျှော့ချရန် ဖိအားပေးနေဆဲ အချိန်တွင် လုပ်ငန်းခွင်ရှိ အဓိက အင်ဂျင်နီယာများသည် ဆက်တိုက် နုတ်ထွက်သွားခဲ့ကြသည်။",
+      "vocabIds": [
+        "n2.l03.v005"
+      ],
+      "grammarIds": [
+        "n2.l03.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.s006",
+      "lessonId": "n2.l03",
+      "ja": "大画面スクリーンで迫力あるオーケストラの演奏に聴き入っていたところへ、激しい落雷で停電が起きた。",
+      "kana": "だいラーメンスクリーンではくりょくあるオーケストラのおんそうにききいっていたところへ、はげしいらくらいでていでんがおきた。",
+      "translation": {
+        "en": "Just when we were absorbed in listening to the powerful orchestra performance on the big screen, a power outage occurred due to a severe lightning strike.",
+        "my": "ဖန်သားပြင်ကြီးပေါ်တွင် အရှိန်အဝါပြင်းထန်သော သံစုံတီးဝိုင်း ဖျော်ဖြေမှုကို အာရုံစိုက် နားထောင်နေသည့် အချိန်သို့ ပြင်းထန်သော မိုးကြိုးပစ်မှုကြောင့် မီးပြတ်တောက်သွားခဲ့သည်။"
+      },
+      "translationMy": "ဖန်သားပြင်ကြီးပေါ်တွင် အရှိန်အဝါပြင်းထန်သော သံစုံတီးဝိုင်း ဖျော်ဖြေမှုကို အာရုံစိုက် နားထောင်နေသည့် အချိန်သို့ ပြင်းထန်သော မိုးကြိုးပစ်မှုကြောင့် မီးပြတ်တောက်သွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l03.v006"
+      ],
+      "grammarIds": [
+        "n2.l03.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.s007",
+      "lessonId": "n2.l03",
+      "ja": "体力の限界に達しないうちに、適度な休息を取って疲労を回復させることが重要だ。",
+      "kana": "たいりょくのげんかいにたっしないうちに、てきどなきゅうそくをとってひろうをかいふくさせることがじゅうようだ。",
+      "translation": {
+        "en": "Before physical strength reaches its limit, taking moderate rest and recovering from fatigue is crucial.",
+        "my": "ကာယခွန်အား အဆုံးစွန် ကန့်သတ်ချက်သို့ မရောက်မီ သင့်တင့်သော အနားယူမှုပြုလုပ်၍ ပင်ပန်းနွမ်းနယ်မှုကို ပြန်လည်ကုစားရန် အရေးကြီးသည်။"
+      },
+      "translationMy": "ကာယခွန်အား အဆုံးစွန် ကန့်သတ်ချက်သို့ မရောက်မီ သင့်တင့်သော အနားယူမှုပြုလုပ်၍ ပင်ပန်းနွမ်းနယ်မှုကို ပြန်လည်ကုစားရန် အရေးကြီးသည်။",
+      "vocabIds": [
+        "n2.l03.v007"
+      ],
+      "grammarIds": [
+        "n2.l03.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.s008",
+      "lessonId": "n2.l03",
+      "ja": "利用時間の制限を設けて議論している最中に、反対派の議員たちが一斉に退場した。",
+      "kana": "りようじかんのせいげんをもうけてぎろんしているさいちゅうに、はんたいはのぎいんたちがいっせいにたいじょうした。",
+      "translation": {
+        "en": "Right in the middle of debating to set usage time restrictions, opposition lawmakers walked out all at once.",
+        "my": "အသုံးပြုချိန် ကန့်သတ်ချက်များ သတ်မှတ်ရန် အခြေအတင် ဆွေးနွေးနေဆဲ အချိန်တွင် ကန့်ကွက်သူ လွှတ်တော်အမတ်များသည် တစ်ပြိုင်နက်တည်း ထွက်ခွာသွားခဲ့ကြသည်။"
+      },
+      "translationMy": "အသုံးပြုချိန် ကန့်သတ်ချက်များ သတ်မှတ်ရန် အခြေအတင် ဆွေးနွေးနေဆဲ အချိန်တွင် ကန့်ကွက်သူ လွှတ်တော်အမတ်များသည် တစ်ပြိုင်နက်တည်း ထွက်ခွာသွားခဲ့ကြသည်။",
+      "vocabIds": [
+        "n2.l03.v008"
+      ],
+      "grammarIds": [
+        "n2.l03.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.s009",
+      "lessonId": "n2.l03",
+      "ja": "提出期限が迫っているうちに、書類の誤字脱字を丹念に見直して完成度を高めよう。",
+      "kana": "ていしゅつきげんがせまっているうちに、しょるいのごじだつじをたんねんにみなおしてかんせいどをたかめよう。",
+      "translation": {
+        "en": "While the submission deadline is approaching, let us painstakingly review typographical errors and elevate the document's completeness.",
+        "my": "တင်ပြရမည့် သတ်မှတ်ရက် နီးကပ်လာနေစဉ်အတွင်း စာရွက်စာတမ်းပါ အမှားများကို စေ့စပ်စွာ ပြန်စစ်ပြီး ပြည့်စုံမှုကို မြှင့်တင်ကြပါစို့။"
+      },
+      "translationMy": "တင်ပြရမည့် သတ်မှတ်ရက် နီးကပ်လာနေစဉ်အတွင်း စာရွက်စာတမ်းပါ အမှားများကို စေ့စပ်စွာ ပြန်စစ်ပြီး ပြည့်စုံမှုကို မြှင့်တင်ကြပါစို့။",
+      "vocabIds": [
+        "n2.l03.v009"
+      ],
+      "grammarIds": [
+        "n2.l03.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.s010",
+      "lessonId": "n2.l03",
+      "ja": "これ以上の猶予はないと諦めかけていたところへ、取引先から支払い期限延長の連絡が入った。",
+      "kana": "これいじょうのゆうよはないとあきらめかけていたところへ、とりひきさきからしはらいきげんえんちょうのれんらくがはいった。",
+      "translation": {
+        "en": "Just as I was about to give up thinking there was no further grace period, notification arrived from the client extending the payment deadline.",
+        "my": "ထပ်မံ၍ သက်သာခွင့်ရက် မရှိတော့ဟု လက်လျှော့တော့မည့် အချိန်အခိုက်အတန့်သို့ ဖောက်သည်ထံမှ ငွေပေးချေရက် သက်တမ်းတိုးကြောင်း ဆက်သွယ်အကြောင်းကြားချက် ရောက်ရှိလာခဲ့သည်။"
+      },
+      "translationMy": "ထပ်မံ၍ သက်သာခွင့်ရက် မရှိတော့ဟု လက်လျှော့တော့မည့် အချိန်အခိုက်အတန့်သို့ ဖောက်သည်ထံမှ ငွေပေးချေရက် သက်တမ်းတိုးကြောင်း ဆက်သွယ်အကြောင်းကြားချက် ရောက်ရှိလာခဲ့သည်။",
+      "vocabIds": [
+        "n2.l03.v010"
+      ],
+      "grammarIds": [
+        "n2.l03.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.s011",
+      "lessonId": "n2.l03",
+      "ja": "国際情勢が緊迫しているうちに、在外邦人の安全確保に向けた避難計画を策定した。",
+      "kana": "こくさいじょうせいがきんぱくしているうちに、ざいがいほうじんのあんぜんかくほにむけたひなんけいかくをさくていした。",
+      "translation": {
+        "en": "While international affairs were growing tense, an evacuation plan was formulated toward securing the safety of citizens abroad.",
+        "my": "နိုင်ငံတကာအခြေအနေများ တင်းမာနေစဉ်အတွင်း နိုင်ငံရပ်ခြားရောက် နိုင်ငံသားများ၏ ဘေးကင်းရေးကို ကာကွယ်ရန် ကယ်ဆယ်ရေးအစီအမံကို ရေးဆွဲခဲ့သည်။"
+      },
+      "translationMy": "နိုင်ငံတကာအခြေအနေများ တင်းမာနေစဉ်အတွင်း နိုင်ငံရပ်ခြားရောက် နိုင်ငံသားများ၏ ဘေးကင်းရေးကို ကာကွယ်ရန် ကယ်ဆယ်ရေးအစီအမံကို ရေးဆွဲခဲ့သည်။",
+      "vocabIds": [
+        "n2.l03.v011"
+      ],
+      "grammarIds": [
+        "n2.l03.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l03.s012",
+      "lessonId": "n2.l03",
+      "ja": "不正アクセスの侵入を阻止しようと防壁を設定している最中に、基幹データベースが破壊された。",
+      "kana": "ふせいアクセスのしんにゅうをそししようとぼうへきをせっていしているさいちゅうに、きかんだーたべーすがはかいされた。",
+      "translation": {
+        "en": "Right in the middle of configuring firewalls to prevent unauthorized access intrusion, the core database was breached.",
+        "my": "ခွင့်ပြုချက်မရှိဘဲ ဝင်ရောက်မှုကို တားဆီးရန် ကာကွယ်ရေးတံတိုင်းများ သတ်မှတ်နေဆဲ အချိန်တွင် ပင်မဒေတာဘေ့စ်သည် ဖျက်ဆီးခံလိုက်ရသည်။"
+      },
+      "translationMy": "ခွင့်ပြုချက်မရှိဘဲ ဝင်ရောက်မှုကို တားဆီးရန် ကာကွယ်ရေးတံတိုင်းများ သတ်မှတ်နေဆဲ အချိန်တွင် ပင်မဒေတာဘေ့စ်သည် ဖျက်ဆီးခံလိုက်ရသည်။",
+      "vocabIds": [
+        "n2.l03.v012"
+      ],
+      "grammarIds": [
+        "n2.l03.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-04T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l03.r001",
+    "lessonId": "n2.l03",
+    "title": "時間管理と危機対応の動態学 (Dynamics of Time Management and Crisis Response)",
+    "level": "N2",
+    "text": "ビジネスや社会システムにおいて、危機管理の成否は「時間の窓」をいかに的確に捕捉できるかにかかっている。事態が切迫した局面において、猶予があるうちに予防措置を講じることと、問題が限界に達してから対応することとでは、消費されるリソースに雲泥の差が生じる。\n\nプロジェクトの進行管理において最も危険なのは、業務の最中に予期せぬトラブルが発生した際、関係者が冷静な判断力を失うことである。突発的な事態が起きたところへ、さらに誤った指示や情報伝達の混乱が重なると、組織全体がパニックに陥り、被害の阻止が不可能となる。\n\n真に強靭な組織とは、平常時のうちに危機シナリオを策定し、最新の知見を取り入れて定期的な点検を怠らない組織である。時間的制約を意識し、最適なタイミングで果断に行動することこそが、あらゆる不測の事態を乗り越える要諦にほかならない。",
+    "kanaText": "ビジネスやしゃかいシステムにおいて、ききかんりのせいひは「じかんのまど」をいかにてきかくにほそくできるかにかかっている。じたいがせっぱくしたきょくめんにおいて、ゆうよがあるうちによぼうそちをこうじることと、もんだいがげんかいにたっしてからたいおうすることとでは、しょうひされるリソースにうんでいのさがしょうじる。\n\nプロジェクトのしんこうかんりにおいてもっともきけんなのは、ぎょうむのさいちゅうによきせぬトラブルがはっせいしたさい、かんけいしゃがれいせいなはんだんりょくをうしなうことである。とっぱつてきなじたいがおきたところへ、さらにあやまったしじやじょうほうでんたつのこんらんがかさなると、そしきぜんたいがパニックにおちいり、ひがいのそしがふかのうとなる。\n\nしんにきょうじんなそしきとは、へいじょうじのうちにききシナリオをさくていし、さいしんのちけんをとりいれてていきてきなてんけんをおこたらないそしきである。じかんてきせいやくをいしきし、さいてきなタイミングでかだんにこうどうすることこそが、あらゆるふそくのじたいをのりこえるようていにほかならない。",
+    "translation": "စီးပွားရေးနှင့် လူမှုစနစ်များတွင် အန္တရာယ်စီမံခန့်ခွဲမှု အောင်မြင်ခြင်း မအောင်မြင်ခြင်းသည် 'အချိန်အခွင့်အလမ်း ပြတင်းပေါက်' ကို မည်မျှ တိကျစွာ ဖမ်းဆုပ်နိုင်သနည်း ဟူသော အချက်အပေါ် မူတည်သည်။ အခြေအနေ တင်းမာနီးကပ်လာသော အခိုက်အတန့်တွင် အချိန်ရက် သက်သာခွင့် ရှိနေစဉ်အတွင်း ကြိုတင်ကာကွယ်မှု အစီအမံများကို လုပ်ဆောင်ခြင်းနှင့် ပြဿနာသည် အဆုံးစွန် အကန့်အသတ်သို့ ရောက်ရှိသွားပြီးမှ ဖြေရှင်းခြင်းတို့အကြား အသုံးပြုရသော အရင်းအမြစ်များမှာ ကောင်းကင်နှင့် မြေကြီးကဲ့သို့ ကွာခြားသွားသည်။\n\nစီမံကိန်းတိုးတက်မှု စီမံခန့်ခွဲရာတွင် အန္တရာယ်အရှိဆုံးအချက်မှာ လုပ်ငန်းလုပ်ဆောင်နေဆဲအချိန်တွင် မမျှော်လင့်သော ပြဿနာ ပေါ်ပေါက်လာသည့်အခါ သက်ဆိုင်သူများက တည်ငြိမ်သော ဆုံးဖြတ်နိုင်စွမ်း ပျောက်ဆုံးသွားခြင်း ဖြစ်သည်။ ရုတ်တရက် အခြေအနေဆိုး ပေါ်ပေါက်လာသည့် အချိန်အခိုက်အတန့်သို့ မှားယွင်းသော ညွှန်ကြားချက်များနှင့် သတင်းအချက်အလက် ရှုပ်ထွေးမှုများ ထပ်ဆင့်ကျရောက်လာပါက အဖွဲ့အစည်းတစ်ခုလုံး ထိတ်လန့်တုန်လှုပ်မှုထဲ ကျရောက်သွားပြီး ပျက်စီးဆုံးရှုံးမှုကို တားဆီးရန် မဖြစ်နိုင်တော့ပေ။\n\nစစ်မှန်သော ခိုင်မာသန်စွမ်းသည့် အဖွဲ့အစည်းဆိုသည်မှာ ပုံမှန်အေးချမ်းနေဆဲ အချိန်တွင် အန္တရာယ်ကြုံတွေ့မှု ဇာတ်ညွှန်းများကို ရေးဆွဲထားပြီး အသစ်လွင်ဆုံး ဗဟုသုတများကို ရယူကာ ပုံမှန်စစ်ဆေးမှုများကို မပေါ့ဆသော အဖွဲ့အစည်း ဖြစ်သည်။ အချိန်ကန့်သတ်ချက်ကို အမြဲသတိပြုပြီး အကောင်းဆုံးအချိန်ကိုက်တွင် ပြတ်သားစွာ လုပ်ဆောင်ခြင်းသည်သာ မမျှော်လင့်သော အခက်အခဲအားလုံးကို ကျော်လွှားနိုင်မည့် အဓိကသော့ချက် ဖြစ်တော့သည်။",
+    "translationMy": "စီးပွားရေးနှင့် လူမှုစနစ်များတွင် အန္တရာယ်စီမံခန့်ခွဲမှု အောင်မြင်ခြင်း မအောင်မြင်ခြင်းသည် 'အချိန်အခွင့်အလမ်း ပြတင်းပေါက်' ကို မည်မျှ တိကျစွာ ဖမ်းဆုပ်နိုင်သနည်း ဟူသော အချက်အပေါ် မူတည်သည်။ အခြေအနေ တင်းမာနီးကပ်လာသော အခိုက်အတန့်တွင် အချိန်ရက် သက်သာခွင့် ရှိနေစဉ်အတွင်း ကြိုတင်ကာကွယ်မှု အစီအမံများကို လုပ်ဆောင်ခြင်းနှင့် ပြဿနာသည် အဆုံးစွန် အကန့်အသတ်သို့ ရောက်ရှိသွားပြီးမှ ဖြေရှင်းခြင်းတို့အကြား အသုံးပြုရသော အရင်းအမြစ်များမှာ ကောင်းကင်နှင့် မြေကြီးကဲ့သို့ ကွာခြားသွားသည်။\n\nစီမံကိန်းတိုးတက်မှု စီမံခန့်ခွဲရာတွင် အန္တရာယ်အရှိဆုံးအချက်မှာ လုပ်ငန်းလုပ်ဆောင်နေဆဲအချိန်တွင် မမျှော်လင့်သော ပြဿနာ ပေါ်ပေါက်လာသည့်အခါ သက်ဆိုင်သူများက တည်ငြိမ်သော ဆုံးဖြတ်နိုင်စွမ်း ပျောက်ဆုံးသွားခြင်း ဖြစ်သည်။ ရုတ်တရက် အခြေအနေဆိုး ပေါ်ပေါက်လာသည့် အချိန်အခိုက်အတန့်သို့ မှားယွင်းသော ညွှန်ကြားချက်များနှင့် သတင်းအချက်အလက် ရှုပ်ထွေးမှုများ ထပ်ဆင့်ကျရောက်လာပါက အဖွဲ့အစည်းတစ်ခုလုံး ထိတ်လန့်တုန်လှုပ်မှုထဲ ကျရောက်သွားပြီး ပျက်စီးဆုံးရှုံးမှုကို တားဆီးရန် မဖြစ်နိုင်တော့ပေ။\n\nစစ်မှန်သော ခိုင်မာသန်စွမ်းသည့် အဖွဲ့အစည်းဆိုသည်မှာ ပုံမှန်အေးချမ်းနေဆဲ အချိန်တွင် အန္တရာယ်ကြုံတွေ့မှု ဇာတ်ညွှန်းများကို ရေးဆွဲထားပြီး အသစ်လွင်ဆုံး ဗဟုသုတများကို ရယူကာ ပုံမှန်စစ်ဆေးမှုများကို မပေါ့ဆသော အဖွဲ့အစည်း ဖြစ်သည်။ အချိန်ကန့်သတ်ချက်ကို အမြဲသတိပြုပြီး အကောင်းဆုံးအချိန်ကိုက်တွင် ပြတ်သားစွာ လုပ်ဆောင်ခြင်းသည်သာ မမျှော်လင့်သော အခက်အခဲအားလုံးကို ကျော်လွှားနိုင်မည့် အဓိကသော့ချက် ဖြစ်တော့သည်။",
+    "questionIds": [
+      "n2.l03.q025",
+      "n2.l03.q026",
+      "n2.l03.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "雲泥の差",
+        "reading": "うんでいのさ",
+        "meaning": "vast difference / world of difference",
+        "meaningMy": "vast difference / world of difference",
+        "meaningMyanmar": "vast difference / world of difference"
+      },
+      {
+        "term": "強靭",
+        "reading": "きょうじん",
+        "meaning": "tough / resilient / robust",
+        "meaningMy": "tough / resilient / robust",
+        "meaningMyanmar": "tough / resilient / robust"
+      },
+      {
+        "term": "要諦",
+        "reading": "ようてい",
+        "meaning": "vital point / essence / core secret",
+        "meaningMy": "vital point / essence / core secret",
+        "meaningMyanmar": "vital point / essence / core secret"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-04T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l03.lis001",
+    "lessonId": "n2.l03",
+    "title": "救急救命センターの緊迫したトリアージ対応 (Triage Operations at Emergency Medical Center)",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "院長",
+      "当直医"
+    ],
+    "transcript": "院長: 先生、先ほど高速道路の多重衝突事故で搬送された重症患者の状況はどうですか？\n当直医: はい、血圧が限界まで低下しないうちに緊急輸血を開始し、最新の止血処置を施しました。\n院長: 迅速な処置だったね。手術室の確保は順調に進んでいるのかな？\n当直医: はい。別の緊急手術を行っている最中だったのですが、手術が完了したところへ執刀医がそのまま入室できるよう手配済みです。",
+    "translation": "院長: ဆရာ၊ ခုနက အမြန်လမ်းပေါ် ကားအများအပြား ဆင့်တိုက်မှုကနေ ပို့ဆောင်လာတဲ့ စိုးရိမ်ရလူနာရဲ့ အခြေအနေ ဘယ်လိုရှိလဲ။\n当直医: ဟုတ်ကဲ့၊ သွေးပေါင်ချိန် အဆုံးစွန်အထိ ထိုးမကျသွားမီ အရေးပေါ် သွေးသွင်းခြင်းကို စတင်ခဲ့ပြီး အသစ်လွင်ဆုံး သွေးတိတ်ကုသမှုကို ဆောင်ရွက်ခဲ့ပါတယ်။\n院長: လျင်မြန်တဲ့ ကုသမှုပါပဲ။ ခွဲစိတ်ခန်းရရှိရေးကော အဆင်ပြေချောမွေ့စွာ သွားနေရဲ့လား။\n当直医: ဟုတ်ကဲ့။ အခြားအရေးပေါ်ခွဲစိတ်မှုတစ်ခု လုပ်ဆောင်နေဆဲအချိန် ဖြစ်ခဲ့သော်လည်း ခွဲစိတ်မှု ပြီးစီးသည့် အခိုက်အတန့်သို့ ခွဲစိတ်ဆရာဝန်က တိုက်ရိုက်ဝင်ရောက်နိုင်ရန် စီစဉ်ဆောင်ရွက်ထားပြီး ဖြစ်ပါတယ်။",
+    "translationMy": "院長: ဆရာ၊ ခုနက အမြန်လမ်းပေါ် ကားအများအပြား ဆင့်တိုက်မှုကနေ ပို့ဆောင်လာတဲ့ စိုးရိမ်ရလူနာရဲ့ အခြေအနေ ဘယ်လိုရှိလဲ။\n当直医: ဟုတ်ကဲ့၊ သွေးပေါင်ချိန် အဆုံးစွန်အထိ ထိုးမကျသွားမီ အရေးပေါ် သွေးသွင်းခြင်းကို စတင်ခဲ့ပြီး အသစ်လွင်ဆုံး သွေးတိတ်ကုသမှုကို ဆောင်ရွက်ခဲ့ပါတယ်။\n院長: လျင်မြန်တဲ့ ကုသမှုပါပဲ။ ခွဲစိတ်ခန်းရရှိရေးကော အဆင်ပြေချောမွေ့စွာ သွားနေရဲ့လား။\n当直医: ဟုတ်ကဲ့။ အခြားအရေးပေါ်ခွဲစိတ်မှုတစ်ခု လုပ်ဆောင်နေဆဲအချိန် ဖြစ်ခဲ့သော်လည်း ခွဲစိတ်မှု ပြီးစီးသည့် အခိုက်အတန့်သို့ ခွဲစိတ်ဆရာဝန်က တိုက်ရိုက်ဝင်ရောက်နိုင်ရန် စီစဉ်ဆောင်ရွက်ထားပြီး ဖြစ်ပါတယ်။",
+    "turns": [
+      {
+        "speaker": "院長",
+        "ja": "先生、先ほど高速道路の多重衝突事故で搬送された重症患者の状況はどうですか？",
+        "kana": "せんせい、さきほどこうそくどうろのたじゅうしょうとつじこではんそうされたじゅうしょうかんじゃのじょうきょうはどうですか？",
+        "en": "Doctor, what is the status of the critically injured patient transported from the expressway multi-vehicle collision just now?",
+        "my": "ဆရာ၊ ခုနက အမြန်လမ်းပေါ် ကားအများအပြား ဆင့်တိုက်မှုကနေ ပို့ဆောင်လာတဲ့ စိုးရိမ်ရလူနာရဲ့ အခြေအနေ ဘယ်လိုရှိလဲ။",
+        "translationMy": "ဆရာ၊ ခုနက အမြန်လမ်းပေါ် ကားအများအပြား ဆင့်တိုက်မှုကနေ ပို့ဆောင်လာတဲ့ စိုးရိမ်ရလူနာရဲ့ အခြေအနေ ဘယ်လိုရှိလဲ။",
+        "myanmar": "ဆရာ၊ ခုနက အမြန်လမ်းပေါ် ကားအများအပြား ဆင့်တိုက်မှုကနေ ပို့ဆောင်လာတဲ့ စိုးရိမ်ရလူနာရဲ့ အခြေအနေ ဘယ်လိုရှိလဲ။"
+      },
+      {
+        "speaker": "当直医",
+        "ja": "はい、血圧が限界まで低下しないうちに緊急輸血を開始し、最新の止血処置を施しました。",
+        "kana": "はい、けつあつがげんかいまでていかしないうちにきんきゅうゆけつをかいしし、さいしんのしけつしょちをほどこしました。",
+        "en": "Yes, before his blood pressure dropped to the critical limit, we initiated an emergency transfusion and administered the latest hemostasis treatment.",
+        "my": "ဟုတ်ကဲ့၊ သွေးပေါင်ချိန် အဆုံးစွန်အထိ ထိုးမကျသွားမီ အရေးပေါ် သွေးသွင်းခြင်းကို စတင်ခဲ့ပြီး အသစ်လွင်ဆုံး သွေးတိတ်ကုသမှုကို ဆောင်ရွက်ခဲ့ပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့၊ သွေးပေါင်ချိန် အဆုံးစွန်အထိ ထိုးမကျသွားမီ အရေးပေါ် သွေးသွင်းခြင်းကို စတင်ခဲ့ပြီး အသစ်လွင်ဆုံး သွေးတိတ်ကုသမှုကို ဆောင်ရွက်ခဲ့ပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့၊ သွေးပေါင်ချိန် အဆုံးစွန်အထိ ထိုးမကျသွားမီ အရေးပေါ် သွေးသွင်းခြင်းကို စတင်ခဲ့ပြီး အသစ်လွင်ဆုံး သွေးတိတ်ကုသမှုကို ဆောင်ရွက်ခဲ့ပါတယ်။"
+      },
+      {
+        "speaker": "院長",
+        "ja": "迅速な処置だったね。手術室の確保は順調に進んでいるのかな？",
+        "kana": "じんそくなしょちだったね。しゅじゅつしつのかくほはじゅんちょうにすすんでいるのかな？",
+        "en": "That was rapid treatment. Is securing an operating room proceeding smoothly?",
+        "my": "လျင်မြန်တဲ့ ကုသမှုပါပဲ။ ခွဲစိတ်ခန်းရရှိရေးကော အဆင်ပြေချောမွေ့စွာ သွားနေရဲ့လား။",
+        "translationMy": "လျင်မြန်တဲ့ ကုသမှုပါပဲ။ ခွဲစိတ်ခန်းရရှိရေးကော အဆင်ပြေချောမွေ့စွာ သွားနေရဲ့လား။",
+        "myanmar": "လျင်မြန်တဲ့ ကုသမှုပါပဲ။ ခွဲစိတ်ခန်းရရှိရေးကော အဆင်ပြေချောမွေ့စွာ သွားနေရဲ့လား။"
+      },
+      {
+        "speaker": "当直医",
+        "ja": "はい。別の緊急手術を行っている最中だったのですが、手術が完了したところへ執刀医がそのまま入室できるよう手配済みです。",
+        "kana": "はい。べつのきんきゅうしゅじゅつをおこなっているさいちゅうだったのですが、しゅじゅつがかんりょうしたところへしっとういとそのままにゅうしつできるようてはいずみです。",
+        "en": "Yes. Another emergency surgery was right in the middle of being performed, but we arranged it so the surgeon can directly enter the moment that surgery concludes.",
+        "my": "ဟုတ်ကဲ့။ အခြားအရေးပေါ်ခွဲစိတ်မှုတစ်ခု လုပ်ဆောင်နေဆဲအချိန် ဖြစ်ခဲ့သော်လည်း ခွဲစိတ်မှု ပြီးစီးသည့် အခိုက်အတန့်သို့ ခွဲစိတ်ဆရာဝန်က တိုက်ရိုက်ဝင်ရောက်နိုင်ရန် စီစဉ်ဆောင်ရွက်ထားပြီး ဖြစ်ပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့။ အခြားအရေးပေါ်ခွဲစိတ်မှုတစ်ခု လုပ်ဆောင်နေဆဲအချိန် ဖြစ်ခဲ့သော်လည်း ခွဲစိတ်မှု ပြီးစီးသည့် အခိုက်အတန့်သို့ ခွဲစိတ်ဆရာဝန်က တိုက်ရိုက်ဝင်ရောက်နိုင်ရန် စီစဉ်ဆောင်ရွက်ထားပြီး ဖြစ်ပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့။ အခြားအရေးပေါ်ခွဲစိတ်မှုတစ်ခု လုပ်ဆောင်နေဆဲအချိန် ဖြစ်ခဲ့သော်လည်း ခွဲစိတ်မှု ပြီးစီးသည့် အခိုက်အတန့်သို့ ခွဲစိတ်ဆရာဝန်က တိုက်ရိုက်ဝင်ရောက်နိုင်ရန် စီစဉ်ဆောင်ရွက်ထားပြီး ဖြစ်ပါတယ်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l03.q028",
+      "n2.l03.q029",
+      "n2.l03.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-04T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l03.q001",
+      "lessonId": "n2.l03",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「全力を尽くして戦った結果、チームは（　）の栄誉を手にした。」",
+      "choices": [
+        "最高",
+        "最中",
+        "切迫",
+        "最新"
+      ],
+      "answer": "最高",
+      "explanation": "「最高（さいこう）」はこの上なく高いこと・最も優れていることです。",
+      "explanationMy": "အမြင့်ဆုံး / အကောင်းဆုံး ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q002",
+      "lessonId": "n2.l03",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「取り込み中の（　）に失礼いたしますが、急ぎのご連絡です。」",
+      "choices": [
+        "最中",
+        "最高",
+        "限界",
+        "猶予"
+      ],
+      "answer": "最中",
+      "explanation": "「最中（さいちゅう）」はちょうどその真っ盛り・継続中のときです。",
+      "explanationMy": "လုပ်နေဆဲအချိန် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q003",
+      "lessonId": "n2.l03",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「研究所では（　）鋭の設備を駆使して画期的な開発を行っている。」",
+      "choices": [
+        "最新",
+        "最高",
+        "切迫",
+        "迫力"
+      ],
+      "answer": "最新",
+      "explanation": "「最新（さいしん）」は一番新しいことです。",
+      "explanationMy": "အသစ်လွင်ဆုံး ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q004",
+      "lessonId": "n2.l03",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「財政危機が（　）し、市は緊縮予算を組まざるを得なくなった。」",
+      "choices": [
+        "切迫",
+        "圧迫",
+        "迫力",
+        "阻止"
+      ],
+      "answer": "切迫",
+      "explanation": "「切迫（せっぱく）」は期日や危険が間近に迫って緊張することです。",
+      "explanationMy": "အရေးတကြီး တင်းမာလာခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q005",
+      "lessonId": "n2.l03",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「急激な円安が中小企業の経営を激しく（　）している。」",
+      "choices": [
+        "圧迫",
+        "切迫",
+        "制限",
+        "限界"
+      ],
+      "answer": "圧迫",
+      "explanation": "「圧迫（あっぱく）」は強くおさえつけること・苦境に追い込むことです。",
+      "explanationMy": "ဖိအားပေးခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q006",
+      "lessonId": "n2.l03",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「眼前で噴火する火山の（　）に、撮影クルーは圧倒された。」",
+      "choices": [
+        "迫力",
+        "圧迫",
+        "最高",
+        "最新"
+      ],
+      "answer": "迫力",
+      "explanation": "「迫力（はくりょく）」は見る人や聴く人に強く迫る力強さです。",
+      "explanationMy": "အရှိန်အဝါ ပြင်းထန်စွမ်းအား ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q007",
+      "lessonId": "n2.l03",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「我慢の（　）を超えて、ついに強い抗議の声を上げた。」",
+      "choices": [
+        "限界",
+        "制限",
+        "期限",
+        "猶予"
+      ],
+      "answer": "限界",
+      "explanation": "「限界（げんかい）」はこれ以上超えられない最後の境目・枠です。",
+      "explanationMy": "အဆုံးစွန် အကန့်အသတ် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q008",
+      "lessonId": "n2.l03",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「これ以上の支払いの（　）は認められないと厳しく通告された。」",
+      "choices": [
+        "猶予",
+        "期限",
+        "制限",
+        "切迫"
+      ],
+      "answer": "猶予",
+      "explanation": "「猶予（ゆうよ）」は実行の期日を延ばすことです。",
+      "explanationMy": "ရက်ရွှေ့ဆိုင်းခွင့် / သက်သာခွင့် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q009",
+      "lessonId": "n2.l03",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「<u>さいしん</u>の技術動向を調査する。」",
+      "choices": [
+        "最新",
+        "最進",
+        "細新",
+        "際新"
+      ],
+      "answer": "最新",
+      "explanation": "「最新」は「さいしん」と読みます。",
+      "explanationMy": "最新 ၏ အသံထွက်မှာ さいしん ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q010",
+      "lessonId": "n2.l03",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「事態が<u>せっぱく</u>している。」",
+      "choices": [
+        "切迫",
+        "折迫",
+        "切拍",
+        "切追"
+      ],
+      "answer": "切迫",
+      "explanation": "「切迫」は「せっぱく」と読みます。",
+      "explanationMy": "切迫 ၏ အသံထွက်မှာ せっぱく ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q011",
+      "lessonId": "n2.l03",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「能力の<u>げんかい</u>に挑戦する。」",
+      "choices": [
+        "限界",
+        "原界",
+        "限階",
+        "減界"
+      ],
+      "answer": "限界",
+      "explanation": "「限界」は「げんかい」と読みます。",
+      "explanationMy": "限界 ၏ အသံထွက်မှာ げんかい ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q012",
+      "lessonId": "n2.l03",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「最」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "ひ・ひへん（日）",
+        "とる（取）",
+        "また（又）",
+        "みみ・みみへん（耳）"
+      ],
+      "answer": "ひ・ひへん（日）",
+      "explanation": "「最」の部首は上部の「日（ひ・ひへん）」です。",
+      "explanationMy": "「最」၏ အစိတ်အပိုင်းမှာ အပေါ်ဘက်မှ '日' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q013",
+      "lessonId": "n2.l03",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「迫」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "しんにょう（辶）",
+        "しろ（白）",
+        "て（手）",
+        "きへん（木）"
+      ],
+      "answer": "しんにょう（辶）",
+      "explanation": "「迫」の部首は「しんにょう（辶）」です。",
+      "explanationMy": "「迫」၏ အစိတ်အပိုင်းမှာ '辶' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q014",
+      "lessonId": "n2.l03",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「限」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "こざとへん（阝）",
+        "おおざと（阝）",
+        "め・めへん（目）",
+        "こころ（心）"
+      ],
+      "answer": "こざとへん（阝）",
+      "explanation": "「限」の部首は左側の「こざとへん（阝）」です。",
+      "explanationMy": "「限」၏ အစိတ်အပိုင်းမှာ ဘယ်ဘက်မှ '阝' (こざとへん) ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q015",
+      "lessonId": "n2.l03",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「桜が綺麗に咲いている（　）、お花見に行きましょう。」",
+      "choices": [
+        "うちに",
+        "最中に",
+        "ところへ",
+        "ものの"
+      ],
+      "answer": "うちに",
+      "explanation": "状態が変化する前の好機を表す「〜うちに」が適切です。",
+      "explanationMy": "ပန်းပွင့်နေဆဲ အချိန်အခွင့်ကောင်းအတွင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q016",
+      "lessonId": "n2.l03",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「食事の（　）に電話が鳴り、話が中断してしまった。」",
+      "choices": [
+        "最中に",
+        "うちに",
+        "ところへ",
+        "反面"
+      ],
+      "answer": "最中に",
+      "explanation": "行為の真っ只中に邪魔が入る「〜最中に」が適切です。",
+      "explanationMy": "ထမင်းစားနေဆဲ အထွတ်အထိပ်အချိန်တွင် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q017",
+      "lessonId": "n2.l03",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「出かけようと靴を履いた（　）、激しい雨が降ってきた。」",
+      "choices": [
+        "ところへ",
+        "うちに",
+        "最中に",
+        "っこない"
+      ],
+      "answer": "ところへ",
+      "explanation": "ある動作の局面へ別の事象が割り込む「〜ところへ」が適切です。",
+      "explanationMy": "ထွက်ခွာရန် ဖိနပ်စီးနေသည့် အချိန်အခိုက်အတန့်သို့ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q018",
+      "lessonId": "n2.l03",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「熱が下がらない（　）は、無理をして起きてはいけません。」",
+      "choices": [
+        "うちに",
+        "最中に",
+        "ところへ",
+        "に際して"
+      ],
+      "answer": "うちに",
+      "explanation": "「〜ないうちに（〜ない間は）」という時間的継続を表す「うちに」が合致します。",
+      "explanationMy": "အဖျားမကျသေးမီ ကာလအတွင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q019",
+      "lessonId": "n2.l03",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「スピーチの（　）にマイクの電源が切れ、会場がざわついた。」",
+      "choices": [
+        "最中に",
+        "うちに",
+        "ところへ",
+        "にあたって"
+      ],
+      "answer": "最中に",
+      "explanation": "発表の真っ最中に突然トラブルが起きる「〜最中に」が適切です。",
+      "explanationMy": "မိန့်ခွန်းပြောနေဆဲ အချိန်တွင် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q020",
+      "lessonId": "n2.l03",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「道に迷って困っていた（　）、親切な警察官が通りかかった。」",
+      "choices": [
+        "ところへ",
+        "うちに",
+        "最中に",
+        "を限りに"
+      ],
+      "answer": "ところへ",
+      "explanation": "困っているそのタイミングに救いの存在が現れる「〜ところへ」が適切です。",
+      "explanationMy": "လမ်းပျောက်၍ အခက်တွေ့နေသည့် အချိန်အခိုက်အတန့်သို့ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q021",
+      "lessonId": "n2.l03",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「記憶が新しく鮮明な（　）、講義の要点をノートにまとめる。」",
+      "choices": [
+        "うちに",
+        "最中に",
+        "ところへ",
+        "得ない"
+      ],
+      "answer": "うちに",
+      "explanation": "忘れてしまう前の今のうちに作業を行う「〜うちに」が適切です。",
+      "explanationMy": "မှတ်ဉာဏ် လန်းဆန်းနေဆဲ အချိန်အတွင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q022",
+      "lessonId": "n2.l03",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「集中して試験問題を解いている（　）、チャイムが突然鳴った。」",
+      "choices": [
+        "最中に",
+        "うちに",
+        "ところへ",
+        "どころか"
+      ],
+      "answer": "最中に",
+      "explanation": "集中している真っ只中に割り込む出来事を表す「〜最中に」が適切です。",
+      "explanationMy": "အာရုံစူးစိုက်ဖြေဆိုနေဆဲ အချိန်တွင် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q023",
+      "lessonId": "n2.l03",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「ちょうどお茶を淹れた（　）、友人が遊びに来てくれた。」",
+      "choices": [
+        "ところへ",
+        "うちに",
+        "最中に",
+        "ばかりに"
+      ],
+      "answer": "ところへ",
+      "explanation": "お茶を入れた絶妙なタイミングに友人が現れる「〜ところへ」が適切です。",
+      "explanationMy": "လက်ဖက်ရည်ထည့်လိုက်သည့် အချိန်အခိုက်အတန့်သို့ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q024",
+      "lessonId": "n2.l03",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜うちに」の用法として最も自然な文を選びなさい。",
+      "choices": [
+        "明るいうちに、洗濯物を全部取り込んでしまおう。",
+        "走っているうちに、電車が駅を出発してしまった。",
+        "朝起きたうちに、歯を磨いて顔を洗った。",
+        "雨が降るうちに、傘を家に忘れてしまった。"
+      ],
+      "answer": "明るいうちに、洗濯物を全部取り込んでしまおう。",
+      "explanation": "暗くなる前の「明るい間（時間の制限）」に行動を促す最も自然な用法です。",
+      "explanationMy": "မိုးမချုပ်မီ အလင်းရောင်ရှိနေဆဲအချိန်အတွင်း အဝတ်များ သိမ်းဆည်းရန် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q025",
+      "lessonId": "n2.l03",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "危機管理において、消費されるリソースに大きな差を生む要因として筆者が指摘しているものはどれか。",
+      "choices": [
+        "猶予があるうちに予防措置を講じるか、限界に達してから対応するか",
+        "最新の高額な設備を導入しているか、中古設備を使用しているか",
+        "社員の学歴が高いか、実務経験が豊富か",
+        "外部のコンサルタントを常時雇用しているかどうか"
+      ],
+      "answer": "猶予があるうちに予防措置を講じるか、限界に達してから対応するか",
+      "explanation": "本文第1段落に「猶予があるうちに予防措置を講じることと、問題が限界に達してから対応することとでは、消費されるリソースに雲泥の差が生じる」とあります。",
+      "explanationMy": "အချိန်ရက်သက်သာခွင့်ရှိစဉ် ကြိုတင်ကာကွယ်မှု လုပ်ဆောင်သလား၊ အဆုံးစွန်ရောက်မှ ဖြေရှင်းသလားဟူသော အချက်ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q026",
+      "lessonId": "n2.l03",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "予期せぬトラブルが発生した際に、組織全体がパニックに陥る原因として挙げられているものはどれか。",
+      "choices": [
+        "トラブルに対して直ちに全社員が休暇を取ること",
+        "突発的な事態のところへ、誤った指示や情報伝達の混乱が重なること",
+        "現場のリーダーが冷静に対処方針を指示すること",
+        "マニュアル通りに淡々とバックアップが作動すること"
+      ],
+      "answer": "突発的な事態のところへ、誤った指示や情報伝達の混乱が重なること",
+      "explanation": "本文第2段落に「突発的な事態が起きたところへ、さらに誤った指示や情報伝達の混乱が重なると、組織全体がパニックに陥り」と述べられています。",
+      "explanationMy": "ရုတ်တရက် အခြေအနေဆိုးထဲသို့ မှားယွင်းသောညွှန်ကြားချက်နှင့် သတင်းရှုပ်ထွေးမှုများ ထပ်ဆင့်ကျရောက်လာခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q027",
+      "lessonId": "n2.l03",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "筆者が主張する「真に強靭な組織」の具体的な行動様式は何か。",
+      "choices": [
+        "問題が起きるまで一切の点検や準備を行わないこと",
+        "平常時のうちに危機シナリオを策定し、最新の知見を取り入れて定期点検を怠らないこと",
+        "過去の成功体験のみを信頼し、新しい知見の導入を拒否すること",
+        "危機が発生した際は、外部の救助が来るまで何もしないこと"
+      ],
+      "answer": "平常時のうちに危機シナリオを策定し、最新の知見を取り入れて定期点検を怠らないこと",
+      "explanation": "本文第3段落に「平常時のうちに危機シナリオを策定し、最新の知見を取り入れて定期的な点検を怠らない組織である」と結論づけられています。",
+      "explanationMy": "ပုံမှန်အေးချမ်းနေစဉ်အတွင်း အန္တရာယ်ဇာတ်ညွှန်းများရေးဆွဲပြီး ပုံမှန်စစ်ဆေးမှုကို မပေါ့ဆခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q028",
+      "lessonId": "n2.l03",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "重症患者に対して当直医が最初に行った緊急処置はどれか。",
+      "choices": [
+        "手術室が空くまで何もせず安静に待機させた",
+        "血圧が限界まで低下しないうちに緊急輸血を開始し、最新の止血処置を施した",
+        "家族が到着するまで治療を一切開始しなかった",
+        "別の病院へ直ちに再搬送する手続きをとった"
+      ],
+      "answer": "血圧が限界まで低下しないうちに緊急輸血を開始し、最新の止血処置を施した",
+      "explanation": "当直医が「血圧が限界まで低下しないうちに緊急輸血を開始し、最新の止血処置を施しました」と報告しています。",
+      "explanationMy": "သွေးပေါင် အဆုံးစွန်ထိုးမကျမီ အရေးပေါ်သွေးသွင်းပြီး သွေးတိတ်ကုသမှု လုပ်ဆောင်ခဲ့ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q029",
+      "lessonId": "n2.l03",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "手術室の状況について、当直医の説明として合致するものはどれか。",
+      "choices": [
+        "手術室が完全に停電して使用不能になっていた",
+        "別の緊急手術を行っている最中だったが、完了したところへ執刀医が入室できるよう手配した",
+        "執刀医が全員不在で手術ができない状態だった",
+        "本日の手術予定がすべてキャンセルされていた"
+      ],
+      "answer": "別の緊急手術を行っている最中だったが、完了したところへ執刀医が入室できるよう手配した",
+      "explanation": "当直医が「別の緊急手術を行っている最中だったのですが、手術が完了したところへ執刀医がそのまま入室できるよう手配済みです」と述べています。",
+      "explanationMy": "အခြားခွဲစိတ်မှု လုပ်ဆောင်နေဆဲ ဖြစ်သော်လည်း ပြီးစီးသည်နှင့် ခွဲစိတ်ဆရာဝန် တိုက်ရိုက်ဝင်နိုင်ရန် စီစဉ်ထားခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l03.q030",
+      "lessonId": "n2.l03",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "院長が当直医の初期対応に対して下した評価はどれか。",
+      "choices": [
+        "処置の判断が遅すぎて危険であった",
+        "迅速な処置であったと評価した",
+        "輸血の手順に誤りがあったと叱責した",
+        "直ちに当直を交代するよう命じた"
+      ],
+      "answer": "迅速な処置であったと評価した",
+      "explanation": "院長が「迅速な処置だったね」と評価しています。",
+      "explanationMy": "လျင်မြန်သော ကုသမှုဖြစ်သည်ဟု ချီးကျူးအကဲဖြတ်ခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l03.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-04T10:00:00Z",
+    "rev": 2
+  }
+};

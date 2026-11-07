@@ -1,0 +1,1564 @@
+import { LessonPack } from '../../../models/types';
+
+export const n3l48Data: LessonPack = {
+  "id": "n3.l48",
+  "level": "N3",
+  "module": "N3 Formal & Expository",
+  "number": 48,
+  "title": "N3 Lesson 48: N3 Comprehensive Review & N2 Bridge (〜わけだ・〜に違いない・〜はずだ)",
+  "description": "JLPT N3 အဆင့် သဒ္ဒါ၊ ဝေါဟာရ၊ ခန်ဂျီစာလုံးများနှင့် စာဖတ်/နားထောင်စွမ်းရည်များကို အလုံးစုံ ခြုံငုံသုံးသပ်နိုင်ခြင်း 〜わけだ (သဘာဝကျသော အကြောင်းပြချက်နှင့် ကောက်ချက်)၊ 〜に違いない (ခိုင်မာသော ယုံကြည်ချက်)၊ 〜はずだ (မျှော်လင့်ချက်နှင့် သေချာမှု) တို့ကို ကျွမ်းကျင်စွာ သုံးနိုင်ခြင်း JLPT N2 အဆင့်သို့ တက်လှမ်းရန် လိုအပ်သော ကျိုးကြောင်းဆင်ခြင်မှုနှင့် အဆင့်မြင့် အသုံးအနှုန်းများကို အဆင်သင့် ချိတ်ဆက်နိုင်ခြင်း",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l48.v001",
+      "lessonId": "n3.l48",
+      "ja": "総合",
+      "kana": "そうごう",
+      "en": "sougou",
+      "my": "ဘက်စုံပေါင်းစပ်မှု/ခြုံငုံသုံးသပ်ချက်",
+      "meaningMy": "ဘက်စုံပေါင်းစပ်မှု/ခြုံငုံသုံးသပ်ချက်",
+      "meaningMyanmar": "ဘက်စုံပေါင်းစပ်မှု/ခြုံငုံသုံးသပ်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.v002",
+      "lessonId": "n3.l48",
+      "ja": "総点",
+      "kana": "そうてん",
+      "en": "souten",
+      "my": "စုစုပေါင်းရမှတ်",
+      "meaningMy": "စုစုပေါင်းရမှတ်",
+      "meaningMyanmar": "စုစုပေါင်းရမှတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.v003",
+      "lessonId": "n3.l48",
+      "ja": "合格",
+      "kana": "ごうかく",
+      "en": "goukaku",
+      "my": "အောင်မြင်ကျော်လွှားခြင်း",
+      "meaningMy": "အောင်မြင်ကျော်လွှားခြင်း",
+      "meaningMyanmar": "အောင်မြင်ကျော်လွှားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.v004",
+      "lessonId": "n3.l48",
+      "ja": "合理的",
+      "kana": "ごうりてき",
+      "en": "gouriteki",
+      "my": "ကျိုးကြောင်းဆီလျော်သော/လက်တွေ့ကျသော",
+      "meaningMy": "ကျိုးကြောင်းဆီလျော်သော/လက်တွေ့ကျသော",
+      "meaningMyanmar": "ကျိုးကြောင်းဆီလျော်သော/လက်တွေ့ကျသော",
+      "pos": "adj-na",
+      "exampleSentenceId": "n3.l48.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.v005",
+      "lessonId": "n3.l48",
+      "ja": "上達",
+      "kana": "じょうたつ",
+      "en": "joutatsu",
+      "my": "တိုးတက်ကောင်းမွန်လာခြင်း",
+      "meaningMy": "တိုးတက်ကောင်းမွန်လာခြင်း",
+      "meaningMyanmar": "တိုးတက်ကောင်းမွန်လာခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.v006",
+      "lessonId": "n3.l48",
+      "ja": "配達",
+      "kana": "はいたつ",
+      "en": "haitatsu",
+      "my": "ပစ္စည်းပို့ဆောင်ခြင်း",
+      "meaningMy": "ပစ္စည်းပို့ဆောင်ခြင်း",
+      "meaningMyanmar": "ပစ္စည်းပို့ဆောင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.v007",
+      "lessonId": "n3.l48",
+      "ja": "達成",
+      "kana": "たっせい",
+      "en": "tassei",
+      "my": "ပန်းတိုင်အောင်မြင်ပြီးမြောက်ခြင်း",
+      "meaningMy": "ပန်းတိုင်အောင်မြင်ပြီးမြောက်ခြင်း",
+      "meaningMyanmar": "ပန်းတိုင်အောင်မြင်ပြီးမြောက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.v008",
+      "lessonId": "n3.l48",
+      "ja": "復習",
+      "kana": "ふくしゅう",
+      "en": "fukushuu",
+      "my": "ပြန်လှန်လေ့ကျက်ခြင်း",
+      "meaningMy": "ပြန်လှန်လေ့ကျက်ခြင်း",
+      "meaningMyanmar": "ပြန်လှန်လေ့ကျက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s002",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.v009",
+      "lessonId": "n3.l48",
+      "ja": "実践",
+      "kana": "じっせん",
+      "en": "jissen",
+      "my": "လက်တွေ့ကျင့်သုံးခြင်း",
+      "meaningMy": "လက်တွေ့ကျင့်သုံးခြင်း",
+      "meaningMyanmar": "လက်တွေ့ကျင့်သုံးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s003",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.v010",
+      "lessonId": "n3.l48",
+      "ja": "成果",
+      "kana": "せいか",
+      "en": "seika",
+      "my": "အောင်မြင်သောရလဒ်",
+      "meaningMy": "အောင်မြင်သောရလဒ်",
+      "meaningMyanmar": "အောင်မြင်သောရလဒ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s004",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.v011",
+      "lessonId": "n3.l48",
+      "ja": "応用",
+      "kana": "おうよう",
+      "en": "ouyou",
+      "my": "လက်တွေ့အသုံးချခြင်း",
+      "meaningMy": "လက်တွေ့အသုံးချခြင်း",
+      "meaningMyanmar": "လက်တွေ့အသုံးချခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.v012",
+      "lessonId": "n3.l48",
+      "ja": "架け橋",
+      "kana": "かけはし",
+      "en": "kakehashi",
+      "my": "တံတား/ချိတ်ဆက်ပေးသောအရာ",
+      "meaningMy": "တံတား/ချိတ်ဆက်ပေးသောအရာ",
+      "meaningMyanmar": "တံတား/ချိတ်ဆက်ပေးသောအရာ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l48.k001",
+      "lessonId": "n3.l48",
+      "char": "総",
+      "meaning": "အလုံးစုံ၊ ခြုံငုံသော (General/Whole/Total)",
+      "meaningMy": "အလုံးစုံ၊ ခြုံငုံသော (General/Whole/Total)",
+      "meaningMyanmar": "အလုံးစုံ၊ ခြုံငုံသော (General/Whole/Total)",
+      "onyomi": [
+        "SOU"
+      ],
+      "kunyomi": [
+        "sube-te",
+        "fusa"
+      ],
+      "exampleVocab": [
+        {
+          "word": "総合",
+          "reading": "そうごう",
+          "meaning": "ဘက်စုံ/ခြုံငုံခြင်း",
+          "meaningMy": "ဘက်စုံ/ခြုံငုံခြင်း",
+          "preview": false
+        },
+        {
+          "word": "総点",
+          "reading": "そうてん",
+          "meaning": "စုစုပေါင်းရမှတ်",
+          "meaningMy": "စုစုပေါင်းရမှတ်",
+          "preview": false
+        },
+        {
+          "word": "総理大臣",
+          "reading": "そうりだいじん",
+          "meaning": "ဝန်ကြီးချုပ်",
+          "meaningMy": "ဝန်ကြီးချုပ်",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l48.s001"
+      ],
+      "components": [
+        "糸 (thread)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.k002",
+      "lessonId": "n3.l48",
+      "char": "合",
+      "meaning": "ကိုက်ညီသည်၊ ပေါင်းစပ်သည် (Fit/Join/Match)",
+      "meaningMy": "ကိုက်ညီသည်၊ ပေါင်းစပ်သည် (Fit/Join/Match)",
+      "meaningMyanmar": "ကိုက်ညီသည်၊ ပေါင်းစပ်သည် (Fit/Join/Match)",
+      "onyomi": [
+        "GOU",
+        "GA",
+        "KOU"
+      ],
+      "kunyomi": [
+        "a-u",
+        "a-waseru"
+      ],
+      "exampleVocab": [
+        {
+          "word": "合格",
+          "reading": "ごうかく",
+          "meaning": "စာမေးပွဲအောင်မြင်ခြင်း",
+          "meaningMy": "စာမေးပွဲအောင်မြင်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "合理的",
+          "reading": "ごうりてき",
+          "meaning": "ကျိုးကြောင်းဆီလျော်သော",
+          "meaningMy": "ကျိုးကြောင်းဆီလျော်သော",
+          "preview": false
+        },
+        {
+          "word": "試合",
+          "reading": "しあい",
+          "meaning": "အားကစားပြိုင်ပွဲ",
+          "meaningMy": "အားကစားပြိုင်ပွဲ",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l48.s001"
+      ],
+      "components": [
+        "口 (mouth)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.k003",
+      "lessonId": "n3.l48",
+      "char": "達",
+      "meaning": "ရောက်ရှိသည်၊ ရရှိသည် (Reach/Attain)",
+      "meaningMy": "ရောက်ရှိသည်၊ ရရှိသည် (Reach/Attain)",
+      "meaningMyanmar": "ရောက်ရှိသည်၊ ရရှိသည် (Reach/Attain)",
+      "onyomi": [
+        "TATSU",
+        "DA"
+      ],
+      "kunyomi": [
+        "tachi"
+      ],
+      "exampleVocab": [
+        {
+          "word": "上達",
+          "reading": "じょうたつ",
+          "meaning": "တိုးတက်ဖွံ့ဖြိုးလာခြင်း",
+          "meaningMy": "တိုးတက်ဖွံ့ဖြိုးလာခြင်း",
+          "preview": false
+        },
+        {
+          "word": "配達",
+          "reading": "はいたつ",
+          "meaning": "ပို့ဆောင်ဖြန့်ဝေခြင်း",
+          "meaningMy": "ပို့ဆောင်ဖြန့်ဝေခြင်း",
+          "preview": false
+        },
+        {
+          "word": "達成",
+          "reading": "たっせい",
+          "meaning": "ပန်းတိုင်အောင်မြင်ပြီးမြောက်ခြင်း",
+          "meaningMy": "ပန်းတိုင်အောင်မြင်ပြီးမြောက်ခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l48.s001"
+      ],
+      "components": [
+        "辶 (walk/road)"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l48.g001",
+      "lessonId": "n3.l48",
+      "pattern": "〜わけだ",
+      "meaning": "... တာပေါ့ / ... ဖြစ်ရတဲ့အကြောင်းရင်းပဲ (သဘာဝကျသောကောက်ချက်)",
+      "meaningMy": "... တာပေါ့ / ... ဖြစ်ရတဲ့အကြောင်းရင်းပဲ (သဘာဝကျသောကောက်ချက်)",
+      "meaningMyanmar": "... တာပေါ့ / ... ဖြစ်ရတဲ့အကြောင်းရင်းပဲ (သဘာဝကျသောကောက်ချက်)",
+      "formation": "V/A(普通形) / なA+な / N+である + わけだ",
+      "explanation": {
+        "en": "အကြောင်းရင်းကို နားလည်သွားသည့်အခါ \"ဒါကြောင့် ဒီလိုဖြစ်ရတာကိုး\" ဟူသော သဘာဝကျသည့် သဘောပေါက်မှုကို ဖော်ပြသည်။",
+        "my": "အကြောင်းရင်းကို နားလည်သွားသည့်အခါ \"ဒါကြောင့် ဒီလိုဖြစ်ရတာကိုး\" ဟူသော သဘာဝကျသည့် သဘောပေါက်မှုကို ဖော်ပြသည်။"
+      },
+      "explanationMy": "အကြောင်းရင်းကို နားလည်သွားသည့်အခါ \"ဒါကြောင့် ဒီလိုဖြစ်ရတာကိုး\" ဟူသော သဘာဝကျသည့် သဘောပေါက်မှုကို ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l48.s001",
+          "note": "〜わけだ usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜わけだ."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "毎日５時間も勉強していたのか。合格したわけだ。",
+      "clozeTarget": "〜わけだ",
+      "clozeHint": "... တာပေါ့ / ... ဖြစ်ရတဲ့အကြောင်းရင်းပဲ (သဘာဝကျသောကောက်ချက်)",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "အကြောင်းရင်းကို နားလည်သွားသည့်အခါ \"ဒါကြောင့် ဒီလိုဖြစ်ရတာကိုး\" ဟူသော သဘာဝကျသည့် သဘောပေါက်မှုကို ဖော်ပြသည်။"
+    },
+    {
+      "id": "n3.l48.g002",
+      "lessonId": "n3.l48",
+      "pattern": "〜に違いない",
+      "meaning": "... ဖြစ်မည်မှာ မလွဲဧကန်ပင် / သေချာပေါက် ... ဖြစ်ရမည်",
+      "meaningMy": "... ဖြစ်မည်မှာ မလွဲဧကန်ပင် / သေချာပေါက် ... ဖြစ်ရမည်",
+      "meaningMyanmar": "... ဖြစ်မည်မှာ မလွဲဧကန်ပင် / သေချာပေါက် ... ဖြစ်ရမည်",
+      "formation": "V/A(普通形) / なA(語幹) / N + に違いない",
+      "explanation": {
+        "en": "ပြောဆိုသူ၏ ခိုင်မာသော သက်သေ သို့မဟုတ် ယုတ္တိအပေါ် အခြေခံ၍ သေချာပေါက် မှန်ကန်မည်ဟု ယုံကြည်သည့်အခါ သုံးသည်။",
+        "my": "ပြောဆိုသူ၏ ခိုင်မာသော သက်သေ သို့မဟုတ် ယုတ္တိအပေါ် အခြေခံ၍ သေချာပေါက် မှန်ကန်မည်ဟု ယုံကြည်သည့်အခါ သုံးသည်။"
+      },
+      "explanationMy": "ပြောဆိုသူ၏ ခိုင်မာသော သက်သေ သို့မဟုတ် ယုတ္တိအပေါ် အခြေခံ၍ သေချာပေါက် မှန်ကန်မည်ဟု ယုံကြည်သည့်အခါ သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l48.s001",
+          "note": "〜に違いない usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜に違いない."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "これほど努力を重ねたのだから、必ず目標を達成できるに違いない。",
+      "clozeTarget": "〜に違いない",
+      "clozeHint": "... ဖြစ်မည်မှာ မလွဲဧကန်ပင် / သေချာပေါက် ... ဖြစ်ရမည်",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "ပြောဆိုသူ၏ ခိုင်မာသော သက်သေ သို့မဟုတ် ယုတ္တိအပေါ် အခြေခံ၍ သေချာပေါက် မှန်ကန်မည်ဟု ယုံကြည်သည့်အခါ သုံးသည်။"
+    },
+    {
+      "id": "n3.l48.g003",
+      "lessonId": "n3.l48",
+      "pattern": "〜はずだ",
+      "meaning": "... ဖြစ်သင့်သည် / ... ဖြစ်ရမည် (ကျိုးကြောင်းဆီလျော်သော မျှော်လင့်ချက်)",
+      "meaningMy": "... ဖြစ်သင့်သည် / ... ဖြစ်ရမည် (ကျိုးကြောင်းဆီလျော်သော မျှော်လင့်ချက်)",
+      "meaningMyanmar": "... ဖြစ်သင့်သည် / ... ဖြစ်ရမည် (ကျိုးကြောင်းဆီလျော်သော မျှော်လင့်ချက်)",
+      "formation": "V/A(普通形) / なA+な / N+の + はずだ",
+      "explanation": {
+        "en": "သိရှိထားသော အချက်အလက်များအရ သဘာဝကျကျ ဤသို့ဖြစ်မည်ဟု ယုံကြည်တွက်ဆသည့်အခါ သုံးသည်။",
+        "my": "သိရှိထားသော အချက်အလက်များအရ သဘာဝကျကျ ဤသို့ဖြစ်မည်ဟု ယုံကြည်တွက်ဆသည့်အခါ သုံးသည်။"
+      },
+      "explanationMy": "သိရှိထားသော အချက်အလက်များအရ သဘာဝကျကျ ဤသို့ဖြစ်မည်ဟု ယုံကြည်တွက်ဆသည့်အခါ သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l48.s001",
+          "note": "〜はずだ usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜はずだ."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "昨日速達で発送したのだから、今日中に書類が届くはずです。",
+      "clozeTarget": "〜はずだ",
+      "clozeHint": "... ဖြစ်သင့်သည် / ... ဖြစ်ရမည် (ကျိုးကြောင်းဆီလျော်သော မျှော်လင့်ချက်)",
+      "acceptableSynonyms": [],
+      "nuanceExplanationMy": "သိရှိထားသော အချက်အလက်များအရ သဘာဝကျကျ ဤသို့ဖြစ်မည်ဟု ယုံကြည်တွက်ဆသည့်အခါ သုံးသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l48.s001",
+      "lessonId": "n3.l48",
+      "ja": "N3の全課を総合的に復習することで、確固たる基礎力が完成します。",
+      "kana": "N3の全課を総合的に復習することで、確固たる基礎力が完成します。",
+      "translation": {
+        "en": "Enusan no zenka o sougouteki ni fukushuu suru koto de, kakko taru kisoryoku ga kansei shimasu.",
+        "my": "N3 သင်ခန်းစာအားလုံးကို ခြုံငုံ၍ ဘက်စုံ ပြန်လှန်လေ့ကျက်ခြင်းဖြင့် ခိုင်မာသော အခြေခံစွမ်းရည် ပြည့်စုံလာမည် ဖြစ်ပါသည်။"
+      },
+      "translationMy": "N3 သင်ခန်းစာအားလုံးကို ခြုံငုံ၍ ဘက်စုံ ပြန်လှန်လေ့ကျက်ခြင်းဖြင့် ခိုင်မာသော အခြေခံစွမ်းရည် ပြည့်စုံလာမည် ဖြစ်ပါသည်။",
+      "vocabIds": [
+        "n3.l48.v001",
+        "n3.l48.v008"
+      ],
+      "grammarIds": [
+        "n3.l48.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.s002",
+      "lessonId": "n3.l48",
+      "ja": "模擬試験の総点を確認し、弱点を克服してJLPT合格の目標を達成しましょう。",
+      "kana": "模擬試験の総点を確認し、弱点を克服してJLPT合格の目標を達成しましょう。",
+      "translation": {
+        "en": "Mogishiken no souten o kakunin shi, jakuten o kokufuku shite jerupiti goukaku no mokuhyou o tassei shimashou.",
+        "my": "စမ်းသပ်စာမေးပွဲ၏ စုစုပေါင်းရမှတ်ကို စစ်ဆေးပြီး အားနည်းချက်များကို ကျော်လွှားကာ JLPT အောင်မြင်ရေး ပန်းတိုင်ကို အရောက်လှမ်းကြပါစို့။"
+      },
+      "translationMy": "စမ်းသပ်စာမေးပွဲ၏ စုစုပေါင်းရမှတ်ကို စစ်ဆေးပြီး အားနည်းချက်များကို ကျော်လွှားကာ JLPT အောင်မြင်ရေး ပန်းတိုင်ကို အရောက်လှမ်းကြပါစို့။",
+      "vocabIds": [
+        "n3.l48.v002",
+        "n3.l48.v003",
+        "n3.l48.v007"
+      ],
+      "grammarIds": [
+        "n3.l48.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.s003",
+      "lessonId": "n3.l48",
+      "ja": "合理的かつ計画的な学習を毎日継続すれば、語学力は確実に上達します。",
+      "kana": "合理的かつ計画的な学習を毎日継続すれば、語学力は確実に上達します。",
+      "translation": {
+        "en": "Gouriteki katsu keikakuteki na gakushuu o mainichi keizoku sureba, gogakuryoku wa kakujitsu ni joutatsu shimasu.",
+        "my": "ကျိုးကြောင်းဆီလျော်ပြီး စနစ်တကျ အစီအစဉ်ရှိသော လေ့လာမှုကို နေ့စဉ် ဆက်လက်လုပ်ဆောင်ပါက ဘာသာစကားကျွမ်းကျင်မှုသည် မုချ တိုးတက်လာပါမည်။"
+      },
+      "translationMy": "ကျိုးကြောင်းဆီလျော်ပြီး စနစ်တကျ အစီအစဉ်ရှိသော လေ့လာမှုကို နေ့စဉ် ဆက်လက်လုပ်ဆောင်ပါက ဘာသာစကားကျွမ်းကျင်မှုသည် မုချ တိုးတက်လာပါမည်။",
+      "vocabIds": [
+        "n3.l48.v004",
+        "n3.l48.v005"
+      ],
+      "grammarIds": [
+        "n3.l48.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.s004",
+      "lessonId": "n3.l48",
+      "ja": "教材の配達を待つ間に、これまで学んだ知識の実践的な応用練習を行います。",
+      "kana": "教材の配達を待つ間に、これまで学んだ知識の実践的な応用練習を行います。",
+      "translation": {
+        "en": "Kyouzai no haitatsu o matsu aida ni, kore made mananda chishiki no jissenteki na ouyou renshuu o okonaimasu.",
+        "my": "သင်ထောက်ကူပစ္စည်းများ ပို့ဆောင်လာမှုကို စောင့်ဆိုင်းနေစဉ်အတွင်း ယခုတိုင် လေ့လာခဲ့သော အသိပညာများကို လက်တွေ့ကျကျ အသုံးချလေ့ကျင့်မှု ပြုလုပ်ပါသည်။"
+      },
+      "translationMy": "သင်ထောက်ကူပစ္စည်းများ ပို့ဆောင်လာမှုကို စောင့်ဆိုင်းနေစဉ်အတွင်း ယခုတိုင် လေ့လာခဲ့သော အသိပညာများကို လက်တွေ့ကျကျ အသုံးချလေ့ကျင့်မှု ပြုလုပ်ပါသည်။",
+      "vocabIds": [
+        "n3.l48.v006",
+        "n3.l48.v009",
+        "n3.l48.v011"
+      ],
+      "grammarIds": [
+        "n3.l48.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.s005",
+      "lessonId": "n3.l48",
+      "ja": "日々の努力が実を結び、素晴らしい学習成果が得られたに違いありません。",
+      "kana": "日々の努力が実を結び、素晴らしい学習成果が得られたに違いありません。",
+      "translation": {
+        "en": "Hibi no doryoku ga mi o musubi, subarashii gakushuu seika ga erareta ni chigai arimasen.",
+        "my": "နေ့စဉ် ကြိုးပမ်းမှုသည် အသီးအပွင့်ဖြစ်ထွန်းလာပြီး ကောင်းမွန်သော လေ့လာမှုရလဒ်ကို ရရှိခဲ့သည်မှာ မလွဲဧကန်ပင် ဖြစ်ပါသည်။"
+      },
+      "translationMy": "နေ့စဉ် ကြိုးပမ်းမှုသည် အသီးအပွင့်ဖြစ်ထွန်းလာပြီး ကောင်းမွန်သော လေ့လာမှုရလဒ်ကို ရရှိခဲ့သည်မှာ မလွဲဧကန်ပင် ဖြစ်ပါသည်။",
+      "vocabIds": [
+        "n3.l48.v010"
+      ],
+      "grammarIds": [
+        "n3.l48.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l48.s006",
+      "lessonId": "n3.l48",
+      "ja": "このN3学習の完成は、より高度なN2合格への確かな架け橋となります。",
+      "kana": "このN3学習の完成は、より高度なN2合格への確かな架け橋となります。",
+      "translation": {
+        "en": "Kono enusan gakushuu no kansei wa, yori koudo na enuni goukaku e no tashika na kakehashi to narimasu.",
+        "my": "ဤ N3 လေ့လာမှု ပြီးပြည့်စုံခြင်းသည် ပိုမိုမြင့်မားသော N2 အောင်မြင်မှုဆီသို့ ခိုင်မာသော တံတားတစ်စင်း ဖြစ်လာပါမည်။"
+      },
+      "translationMy": "ဤ N3 လေ့လာမှု ပြီးပြည့်စုံခြင်းသည် ပိုမိုမြင့်မားသော N2 အောင်မြင်မှုဆီသို့ ခိုင်မာသော တံတားတစ်စင်း ဖြစ်လာပါမည်။",
+      "vocabIds": [
+        "n3.l48.v003",
+        "n3.l48.v012"
+      ],
+      "grammarIds": [
+        "n3.l48.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l48.r001",
+    "lessonId": "n3.l48",
+    "title": "N3マスターの達成とN2への架け橋",
+    "level": "N3",
+    "text": "日本語能力試験N3の全課程を学び終えた皆さんは、基礎的なコミュニケーションから論理的で抽象的な表現へと至る大きな跳躍を成し遂げました。N3で習得した多様な文型、語彙、そして漢字は、日本語の構造を深く理解するための盤石な土台です。文脈に応じて原因や理由を分析し、「〜わけだ」「〜に違いない」「〜はずだ」といった論理的推論を自然に使いこなせるようになったことは、皆さんの語学力が飛躍的に上達した証拠にほかなりません。しかし、ここでのゴールは同時に、より高度な表現力を培うN2への出発点でもあります。N2では、新聞記事や評論、ビジネス現場での複雑な議論など、より実践的で応用力が必要とされる日本語が求められます。これまで培ってきた合理的で持続的な学習習慣を維持し、総合的な実践を重ねていけば、N2合格という輝かしい成果も確実に達成できるはずです。自信を持って自らの未来を切り拓き、日本文化や社会との真の架け橋となって羽ばたいてください。",
+    "kanaText": "日本語能力試験N3の全課程を学び終えた皆さんは、基礎的なコミュニケーションから論理的で抽象的な表現へと至る大きな跳躍を成し遂げました。N3で習得した多様な文型、語彙、そして漢字は、日本語の構造を深く理解するための盤石な土台です。文脈に応じて原因や理由を分析し、「〜わけだ」「〜に違いない」「〜はずだ」といった論理的推論を自然に使いこなせるようになったことは、皆さんの語学力が飛躍的に上達した証拠にほかなりません。しかし、ここでのゴールは同時に、より高度な表現力を培うN2への出発点でもあります。N2では、新聞記事や評論、ビジネス現場での複雑な議論など、より実践的で応用力が必要とされる日本語が求められます。これまで培ってきた合理的で持続的な学習習慣を維持し、総合的な実践を重ねていけば、N2合格という輝かしい成果も確実に達成できるはずです。自信を持って自らの未来を切り拓き、日本文化や社会との真の架け橋となって羽ばたいてください。",
+    "translation": "N3マスターの達成とN2への架け橋",
+    "translationMy": "N3マスターの達成とN2への架け橋",
+    "questionIds": [
+      "n3.l48.q025",
+      "n3.l48.q026",
+      "n3.l48.q027"
+    ],
+    "difficulty": 3,
+    "glossary": [
+      {
+        "term": "盤石な土台",
+        "reading": "盤石な土台",
+        "meaning": "ကျောက်ဆောင်သဖွယ် ခိုင်မာသော အခြေခံ",
+        "meaningMy": "ကျောက်ဆောင်သဖွယ် ခိုင်မာသော အခြေခံ",
+        "meaningMyanmar": "ကျောက်ဆောင်သဖွယ် ခိုင်မာသော အခြေခံ"
+      },
+      {
+        "term": "跳躍",
+        "reading": "跳躍",
+        "meaning": "ခုန်ပျံတက်လှမ်းခြင်း",
+        "meaningMy": "ခုန်ပျံတက်လှမ်းခြင်း",
+        "meaningMyanmar": "ခုန်ပျံတက်လှမ်းခြင်း"
+      },
+      {
+        "term": "推論",
+        "reading": "推論",
+        "meaning": "ကျိုးကြောင်းဆင်ခြင်တွက်ဆချက်",
+        "meaningMy": "ကျိုးကြောင်းဆင်ခြင်တွက်ဆချက်",
+        "meaningMyanmar": "ကျိုးကြောင်းဆင်ခြင်တွက်ဆချက်"
+      },
+      {
+        "term": "羽ばたく",
+        "reading": "羽ばたく",
+        "meaning": "တောင်ပံဖြန့်ကာ ပျံသန်းလှုပ်ရှားသည်",
+        "meaningMy": "တောင်ပံဖြန့်ကာ ပျံသန်းလှုပ်ရှားသည်",
+        "meaningMyanmar": "တောင်ပံဖြန့်ကာ ပျံသန်းလှုပ်ရှားသည်"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n3.l48.lis001",
+    "lessonId": "n3.l48",
+    "title": "N3修了とN2へのステップアップ",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "A",
+      "B"
+    ],
+    "transcript": "A: 先生、ついにN3の48課をすべて修了しました！総復習の模擬テストでも高得点が取れました。\nB: 素晴らしいですね！毎日欠かさず実践してきたわけですから、語学力が大きく上達したわけですよ。\nA: 基礎がしっかり身についたので、次はJLPT N2合格という大きな目標を達成したいです。\nB: 今のあなたなら、N2の高度な読解や聴解にも十分対応できるはずです。自信を持って次のステージへ進んでください！",
+    "translation": "A: ဆရာခင်ဗျာ၊ နောက်ဆုံးတော့ N3 ရဲ့ ၄၈ ခန်းလုံးကို အကုန် ပြီးမြောက်သွားပါပြီဗျာ။ ခြုံငုံပြန်လှန် စမ်းသပ်စာမေးပွဲမှာလည်း အမှတ်ကောင်းကောင်း ရခဲ့ပါတယ်။\nB: အရမ်းတော်တာပေါ့ကွယ်။ နေ့တိုင်း မပျက်မကွက် လက်တွေ့လုပ်ဆောင်လာခဲ့တာမို့ ဘာသာစကားစွမ်းရည် သိသိသာသာ တိုးတက်လာတာ သဘာဝကျတာပေါ့။\nA: အခြေခံတွေ ခိုင်မာစွာ ရရှိသွားပြီမို့ နောက်တစ်ဆင့်မှာ JLPT N2 အောင်မြင်ခြင်းဆိုတဲ့ ကြီးမားတဲ့ ပန်းတိုင်ကို အရောက်လှမ်းချင်ပါတယ်ခင်ဗျာ။\nB: အခု မင်းရဲ့ စွမ်းရည်နဲ့ဆိုရင် N2 ရဲ့ အဆင့်မြင့် စာဖတ်၊ နားထောင်ခြင်းတွေကိုပါ ကောင်းကောင်း ရင်ဆိုင်နိုင်ရပါမယ်။ ယုံကြည်ချက်အပြည့်နဲ့ နောက်တစ်ဆင့်ကို ဆက်သွားပါတော့။",
+    "translationMy": "A: ဆရာခင်ဗျာ၊ နောက်ဆုံးတော့ N3 ရဲ့ ၄၈ ခန်းလုံးကို အကုန် ပြီးမြောက်သွားပါပြီဗျာ။ ခြုံငုံပြန်လှန် စမ်းသပ်စာမေးပွဲမှာလည်း အမှတ်ကောင်းကောင်း ရခဲ့ပါတယ်။\nB: အရမ်းတော်တာပေါ့ကွယ်။ နေ့တိုင်း မပျက်မကွက် လက်တွေ့လုပ်ဆောင်လာခဲ့တာမို့ ဘာသာစကားစွမ်းရည် သိသိသာသာ တိုးတက်လာတာ သဘာဝကျတာပေါ့။\nA: အခြေခံတွေ ခိုင်မာစွာ ရရှိသွားပြီမို့ နောက်တစ်ဆင့်မှာ JLPT N2 အောင်မြင်ခြင်းဆိုတဲ့ ကြီးမားတဲ့ ပန်းတိုင်ကို အရောက်လှမ်းချင်ပါတယ်ခင်ဗျာ။\nB: အခု မင်းရဲ့ စွမ်းရည်နဲ့ဆိုရင် N2 ရဲ့ အဆင့်မြင့် စာဖတ်၊ နားထောင်ခြင်းတွေကိုပါ ကောင်းကောင်း ရင်ဆိုင်နိုင်ရပါမယ်။ ယုံကြည်ချက်အပြည့်နဲ့ နောက်တစ်ဆင့်ကို ဆက်သွားပါတော့။",
+    "turns": [
+      {
+        "speaker": "A",
+        "ja": "先生、ついにN3の48課をすべて修了しました！総復習の模擬テストでも高得点が取れました。",
+        "kana": "先生、ついにN3の48課をすべて修了しました！総復習の模擬テストでも高得点が取れました。",
+        "en": "Sensei, tsui ni enusan no yonjuuhakka o subete shuuryou shimashita! Soufukushuu no mogi tesuto de mo koutokuten ga toremashita.",
+        "my": "ဆရာခင်ဗျာ၊ နောက်ဆုံးတော့ N3 ရဲ့ ၄၈ ခန်းလုံးကို အကုန် ပြီးမြောက်သွားပါပြီဗျာ။ ခြုံငုံပြန်လှန် စမ်းသပ်စာမေးပွဲမှာလည်း အမှတ်ကောင်းကောင်း ရခဲ့ပါတယ်။",
+        "translationMy": "ဆရာခင်ဗျာ၊ နောက်ဆုံးတော့ N3 ရဲ့ ၄၈ ခန်းလုံးကို အကုန် ပြီးမြောက်သွားပါပြီဗျာ။ ခြုံငုံပြန်လှန် စမ်းသပ်စာမေးပွဲမှာလည်း အမှတ်ကောင်းကောင်း ရခဲ့ပါတယ်။",
+        "myanmar": "ဆရာခင်ဗျာ၊ နောက်ဆုံးတော့ N3 ရဲ့ ၄၈ ခန်းလုံးကို အကုန် ပြီးမြောက်သွားပါပြီဗျာ။ ခြုံငုံပြန်လှန် စမ်းသပ်စာမေးပွဲမှာလည်း အမှတ်ကောင်းကောင်း ရခဲ့ပါတယ်။"
+      },
+      {
+        "speaker": "B",
+        "ja": "素晴らしいですね！毎日欠かさず実践してきたわけですから、語学力が大きく上達したわけですよ。",
+        "kana": "素晴らしいですね！毎日欠かさず実践してきたわけですから、語学力が大きく上達したわけですよ。",
+        "en": "Subarashii desu ne! Mainichi kakasazu jissen shite kita wake desu kara, gogakuryoku ga ookiku joutatsu shita wake desu yo.",
+        "my": "အရမ်းတော်တာပေါ့ကွယ်။ နေ့တိုင်း မပျက်မကွက် လက်တွေ့လုပ်ဆောင်လာခဲ့တာမို့ ဘာသာစကားစွမ်းရည် သိသိသာသာ တိုးတက်လာတာ သဘာဝကျတာပေါ့။",
+        "translationMy": "အရမ်းတော်တာပေါ့ကွယ်။ နေ့တိုင်း မပျက်မကွက် လက်တွေ့လုပ်ဆောင်လာခဲ့တာမို့ ဘာသာစကားစွမ်းရည် သိသိသာသာ တိုးတက်လာတာ သဘာဝကျတာပေါ့။",
+        "myanmar": "အရမ်းတော်တာပေါ့ကွယ်။ နေ့တိုင်း မပျက်မကွက် လက်တွေ့လုပ်ဆောင်လာခဲ့တာမို့ ဘာသာစကားစွမ်းရည် သိသိသာသာ တိုးတက်လာတာ သဘာဝကျတာပေါ့။"
+      },
+      {
+        "speaker": "A",
+        "ja": "基礎がしっかり身についたので、次はJLPT N2合格という大きな目標を達成したいです。",
+        "kana": "基礎がしっかり身についたので、次はJLPT N2合格という大きな目標を達成したいです。",
+        "en": "Kiso ga shikkari mi ni tsuita node, tsugi wa jerupiti enuni goukaku to iu ookina mokuhyou o tassei shitai desu.",
+        "my": "အခြေခံတွေ ခိုင်မာစွာ ရရှိသွားပြီမို့ နောက်တစ်ဆင့်မှာ JLPT N2 အောင်မြင်ခြင်းဆိုတဲ့ ကြီးမားတဲ့ ပန်းတိုင်ကို အရောက်လှမ်းချင်ပါတယ်ခင်ဗျာ။",
+        "translationMy": "အခြေခံတွေ ခိုင်မာစွာ ရရှိသွားပြီမို့ နောက်တစ်ဆင့်မှာ JLPT N2 အောင်မြင်ခြင်းဆိုတဲ့ ကြီးမားတဲ့ ပန်းတိုင်ကို အရောက်လှမ်းချင်ပါတယ်ခင်ဗျာ။",
+        "myanmar": "အခြေခံတွေ ခိုင်မာစွာ ရရှိသွားပြီမို့ နောက်တစ်ဆင့်မှာ JLPT N2 အောင်မြင်ခြင်းဆိုတဲ့ ကြီးမားတဲ့ ပန်းတိုင်ကို အရောက်လှမ်းချင်ပါတယ်ခင်ဗျာ။"
+      },
+      {
+        "speaker": "B",
+        "ja": "今のあなたなら、N2の高度な読解や聴解にも十分対応できるはずです。自信を持って次のステージへ進んでください！",
+        "kana": "今のあなたなら、N2の高度な読解や聴解にも十分対応できるはずです。自信を持って次のステージへ進んでください！",
+        "en": "Ima no anata nara, enuni no koudo na dokkai ya choukai ni mo juubun taiou dekiru hazu desu. Jishin o motte tsugi no suteeji e susunde kudasai!",
+        "my": "အခု မင်းရဲ့ စွမ်းရည်နဲ့ဆိုရင် N2 ရဲ့ အဆင့်မြင့် စာဖတ်၊ နားထောင်ခြင်းတွေကိုပါ ကောင်းကောင်း ရင်ဆိုင်နိုင်ရပါမယ်။ ယုံကြည်ချက်အပြည့်နဲ့ နောက်တစ်ဆင့်ကို ဆက်သွားပါတော့။",
+        "translationMy": "အခု မင်းရဲ့ စွမ်းရည်နဲ့ဆိုရင် N2 ရဲ့ အဆင့်မြင့် စာဖတ်၊ နားထောင်ခြင်းတွေကိုပါ ကောင်းကောင်း ရင်ဆိုင်နိုင်ရပါမယ်။ ယုံကြည်ချက်အပြည့်နဲ့ နောက်တစ်ဆင့်ကို ဆက်သွားပါတော့။",
+        "myanmar": "အခု မင်းရဲ့ စွမ်းရည်နဲ့ဆိုရင် N2 ရဲ့ အဆင့်မြင့် စာဖတ်၊ နားထောင်ခြင်းတွေကိုပါ ကောင်းကောင်း ရင်ဆိုင်နိုင်ရပါမယ်။ ယုံကြည်ချက်အပြည့်နဲ့ နောက်တစ်ဆင့်ကို ဆက်သွားပါတော့။"
+      }
+    ],
+    "questionIds": [
+      "n3.l48.q028",
+      "n3.l48.q029",
+      "n3.l48.q030"
+    ],
+    "difficulty": 3,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l48.q001",
+      "lessonId": "n3.l48",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "毎日５時間も勉強していたのか。合格した（　　）。",
+      "choices": [
+        "わけだ",
+        "つもりだ",
+        "とおりだ",
+        "せいだ"
+      ],
+      "answer": "わけだ",
+      "explanation": "ဒီလောက်ကြိုးစားခဲ့၍ စာမေးပွဲအောင်ခြင်းမှာ သဘာဝကျသော ကောက်ချက်ဖြစ်ကြောင်း ဖော်ပြရန် 「〜わけだ」 ကို သုံးပါသည်။",
+      "explanationMy": "ဒီလောက်ကြိုးစားခဲ့၍ စာမေးပွဲအောင်ခြင်းမှာ သဘာဝကျသော ကောက်ချက်ဖြစ်ကြောင်း ဖော်ပြရန် 「〜わけだ」 ကို သုံးပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q002",
+      "lessonId": "n3.l48",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "部屋の電気がついているから、彼は中にいる（　　）。",
+      "choices": [
+        "に違いない",
+        "にすぎない",
+        "わけではない",
+        "どころではない"
+      ],
+      "answer": "に違いない",
+      "explanation": "အခန်းထဲတွင် ရှိနေမည်မှာ သေချာပေါက်ဖြစ်ကြောင်း ခိုင်မာစွာ ဖော်ပြရန် 「〜に違いない」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အခန်းထဲတွင် ရှိနေမည်မှာ သေချာပေါက်ဖြစ်ကြောင်း ခိုင်မာစွာ ဖော်ပြရန် 「〜に違いない」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q003",
+      "lessonId": "n3.l48",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "昨日速達で送ったのだから、今日中に書類が届く（　　）です。",
+      "choices": [
+        "はず",
+        "べき",
+        "こと",
+        "もの"
+      ],
+      "answer": "はず",
+      "explanation": "အကြောင်းအချက်အရ သဘာဝကျကျ မျှော်လင့်တွက်ဆရာတွင် 「〜はずです」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အကြောင်းအချက်အရ သဘာဝကျကျ မျှော်လင့်တွက်ဆရာတွင် 「〜はずです」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q004",
+      "lessonId": "n3.l48",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「総合」の正しい読み方はどれですか。",
+      "choices": [
+        "そうごう",
+        "しょうごう",
+        "そうあい",
+        "そうかっ"
+      ],
+      "answer": "そうごう",
+      "explanation": "「総合」၏ အသံထွက်အမှန်မှာ 「そうごう」 (ခြုံငုံပေါင်းစပ်ခြင်း) ဖြစ်ပါသည်။",
+      "explanationMy": "「総合」၏ အသံထွက်အမှန်မှာ 「そうごう」 (ခြုံငုံပေါင်းစပ်ခြင်း) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q005",
+      "lessonId": "n3.l48",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「達成」の正しい読み方はどれですか。",
+      "choices": [
+        "たっせい",
+        "だっせい",
+        "たつじょう",
+        "とうせい"
+      ],
+      "answer": "たっせい",
+      "explanation": "「達成」၏ အသံထွက်အမှန်မှာ 「たっせい」 (အောင်မြင်ပြီးမြောက်ခြင်း) ဖြစ်ပါသည်။",
+      "explanationMy": "「達成」၏ အသံထွက်အမှန်မှာ 「たっせい」 (အောင်မြင်ပြီးမြောက်ခြင်း) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q006",
+      "lessonId": "n3.l48",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「上達」の正しい読み方はどれですか。",
+      "choices": [
+        "じょうたつ",
+        "じょうだつ",
+        "うえだつ",
+        "しょうたつ"
+      ],
+      "answer": "じょうたつ",
+      "explanation": "「上達」၏ အသံထွက်အမှန်မှာ 「じょうたつ」 (တိုးတက်လာခြင်း) ဖြစ်ပါသည်။",
+      "explanationMy": "「上達」၏ အသံထွက်အမှန်မှာ 「じょうたつ」 (တိုးတက်လာခြင်း) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q007",
+      "lessonId": "n3.l48",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "朝から何も食べていない。お腹が空く（　　）だ。",
+      "choices": [
+        "わけ",
+        "はず",
+        "もの",
+        "こと"
+      ],
+      "answer": "わけ",
+      "explanation": "ဘာမှမစားထားသဖြင့် ဗိုက်ဆာရခြင်းမှာ သဘာဝကျသော အကြောင်းရင်းဖြစ်၍ 「わけだ」 ဖြစ်ပါသည်။",
+      "explanationMy": "ဘာမှမစားထားသဖြင့် ဗိုက်ဆာရခြင်းမှာ သဘာဝကျသော အကြောင်းရင်းဖြစ်၍ 「わけだ」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q008",
+      "lessonId": "n3.l48",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "あれほど熱心に練習したのだから、明日の試合は勝てる（　　）。",
+      "choices": [
+        "に違いない",
+        "に反して",
+        "にかかわらず",
+        "に比べて"
+      ],
+      "answer": "に違いない",
+      "explanation": "သေချာပေါက် အနိုင်ရမည်မှာ မလွဲဧကန်ဖြစ်ကြောင်း ဖော်ပြရန် 「に違いない」 ဖြစ်ပါသည်။",
+      "explanationMy": "သေချာပေါက် အနိုင်ရမည်မှာ မလွဲဧကန်ဖြစ်ကြောင်း ဖော်ပြရန် 「に違いない」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q009",
+      "lessonId": "n3.l48",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "模擬試験の（　　）を集計して、現在の実力を正確に測定する。",
+      "choices": [
+        "総点",
+        "配達",
+        "架け橋",
+        "応用"
+      ],
+      "answer": "総点",
+      "explanation": "စုစုပေါင်းရမှတ်ဖြစ်၍ 「総点」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "စုစုပေါင်းရမှတ်ဖြစ်၍ 「総点」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q010",
+      "lessonId": "n3.l48",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "JLPT N3の試験に見事（　　）し、合格通知書を受け取った。",
+      "choices": [
+        "合格",
+        "総合",
+        "上達",
+        "達成"
+      ],
+      "answer": "合格",
+      "explanation": "စာမေးပွဲ အောင်မြင်ခြင်းဖြစ်၍ 「合格」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "စာမေးပွဲ အောင်မြင်ခြင်းဖြစ်၍ 「合格」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q011",
+      "lessonId": "n3.l48",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "無駄な出費を削り、より（　　）な予算配分を検討する。",
+      "choices": [
+        "合理的",
+        "総合",
+        "上達",
+        "架け橋"
+      ],
+      "answer": "合理的",
+      "explanation": "ကျိုးကြောင်းဆီလျော်၍ လက်တွေ့ကျသော ဘတ်ဂျက်ခွဲဝေမှုဖြစ်၍ 「合理的」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ကျိုးကြောင်းဆီလျော်၍ လက်တွေ့ကျသော ဘတ်ဂျက်ခွဲဝေမှုဖြစ်၍ 「合理的」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q012",
+      "lessonId": "n3.l48",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "注文した荷物が明日午前中に自宅へ（　　）される予定です。",
+      "choices": [
+        "配達",
+        "上達",
+        "達成",
+        "総合"
+      ],
+      "answer": "配達",
+      "explanation": "ပစ္စည်းပို့ဆောင်ခြင်းဖြစ်၍ 「配達」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ပစ္စည်းပို့ဆောင်ခြင်းဖြစ်၍ 「配達」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q013",
+      "lessonId": "n3.l48",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "学んだ文法知識を会話の現場で（　　）することが語学上達の秘訣だ。",
+      "choices": [
+        "実践",
+        "総点",
+        "配達",
+        "架け橋"
+      ],
+      "answer": "実践",
+      "explanation": "လက်တွေ့ကျင့်သုံးခြင်းဖြစ်၍ 「実践」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "လက်တွေ့ကျင့်သုံးခြင်းဖြစ်၍ 「実践」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q014",
+      "lessonId": "n3.l48",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "長期的な研究開発が実を結び、素晴らしい新製品という（　　）を生んだ。",
+      "choices": [
+        "成果",
+        "総点",
+        "配達",
+        "上達"
+      ],
+      "answer": "成果",
+      "explanation": "အောင်မြင်သော ရလဒ်အသီးအပွင့်ဖြစ်၍ 「成果」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "အောင်မြင်သော ရလဒ်အသီးအပွင့်ဖြစ်၍ 「成果」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q015",
+      "lessonId": "n3.l48",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "基礎的な公式を理解した上で、難易度の高い（　　）問題に挑戦する。",
+      "choices": [
+        "応用",
+        "総合",
+        "配達",
+        "上達"
+      ],
+      "answer": "応用",
+      "explanation": "လက်တွေ့အသုံးချပုစ္ဆာများဖြစ်၍ 「応用」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "လက်တွေ့အသုံးချပုစ္ဆာများဖြစ်၍ 「応用」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q016",
+      "lessonId": "n3.l48",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "ミャンマーと日本の文化交流の（　　）となる人材を目指している。",
+      "choices": [
+        "架け橋",
+        "成果",
+        "総点",
+        "配達"
+      ],
+      "answer": "架け橋",
+      "explanation": "ချိတ်ဆက်ပေးသော တံတားသဖွယ် လူပုဂ္ဂိုလ်ဖြစ်၍ 「架け橋」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "ချိတ်ဆက်ပေးသော တံတားသဖွယ် လူပုဂ္ဂိုလ်ဖြစ်၍ 「架け橋」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q017",
+      "lessonId": "n3.l48",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「〜わけだ」の持つ話者の心理的ニュアンスとして最も適切なものは？",
+      "choices": [
+        "理由や原因を知って「なるほど、道理でそうなるはずだ」と納得する気持ち",
+        "絶対にあり得ないという強い疑念や否定の気持ち",
+        "相手に対する激しい怒りや命令の気持ち",
+        "過去の記憶を完全に喪失して混乱している状態"
+      ],
+      "answer": "理由や原因を知って「なるほど、道理でそうなるはずだ」と納得する気持ち",
+      "explanation": "အကြောင်းရင်းကို နားလည်ပြီး \"သြော် ဒါကြောင့်မို့ ဒီလိုဖြစ်ရတာကိုး\" ဟု သဘောပေါက်လက်ခံသည့် ခံစားချက် ဖြစ်ပါသည်။",
+      "explanationMy": "အကြောင်းရင်းကို နားလည်ပြီး \"သြော် ဒါကြောင့်မို့ ဒီလိုဖြစ်ရတာကိုး\" ဟု သဘောပေါက်လက်ခံသည့် ခံစားချက် ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q018",
+      "lessonId": "n3.l48",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「〜はずだ」と「〜に違いない」の微妙な違いは？",
+      "choices": [
+        "「はずだ」は客観的な条件や予定に基づく当然の推測、「に違いない」は話者の主観的な確信が極めて強い",
+        "「はずだ」は否定形のみに使え、「に違いない」は疑問形のみに使える",
+        "「はずだ」は過去形専用で、「に違いない」は未来形専用である",
+        "両者にニュアンスの違いは全く存在しない"
+      ],
+      "answer": "「はずだ」は客観的な条件や予定に基づく当然の推測、「に違いない」は話者の主観的な確信が極めて強い",
+      "explanation": "「はずだ」သည် ဓမ္မဓိဋ္ဌာန်ကျသော အခြေအနေများအပေါ် အခြေခံပြီး၊ 「に違いない」သည် ပြောဆိုသူ၏ ပုဂ္ဂလဓိဋ္ဌာန် ယုံကြည်ချက် အလွန်ပြင်းထန်ပါသည်။",
+      "explanationMy": "「はずだ」သည် ဓမ္မဓိဋ္ဌာန်ကျသော အခြေအနေများအပေါ် အခြေခံပြီး၊ 「に違いない」သည် ပြောဆိုသူ၏ ပုဂ္ဂလဓိဋ္ဌာန် ယုံကြည်ချက် အလွန်ပြင်းထန်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q019",
+      "lessonId": "n3.l48",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「総合」の「総」の部首（Radical）は何ですか。",
+      "choices": [
+        "糸（いとへん）",
+        "心（こころ）",
+        "言（ごんべん）",
+        "木（きへん）"
+      ],
+      "answer": "糸（いとへん）",
+      "explanation": "「総」၏ radical မှာ 「糸」 (itohen - thread) ဖြစ်ပါသည်။",
+      "explanationMy": "「総」၏ radical မှာ 「糸」 (itohen - thread) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q020",
+      "lessonId": "n3.l48",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「達成」と「完成」の違いとして最も適切なものはどれですか。",
+      "choices": [
+        "「達成」は目標やノルマをやり遂げること、「完成」は物や作品が出来上がること",
+        "「達成」は物作り専用で、「完成」はスポーツ専用である",
+        "「達成」は失敗を意味し、「完成」は成功を意味する",
+        "両者に意味の相違は全くない"
+      ],
+      "answer": "「達成」は目標やノルマをやり遂げること、「完成」は物や作品が出来上がること",
+      "explanation": "「達成」သည် ပန်းတိုင် သို့မဟုတ် ရည်မှန်းချက်ကို အောင်မြင်အောင် လုပ်ဆောင်ခြင်းဖြစ်ပြီး၊ 「完成」သည် ပစ္စည်း သို့မဟုတ် လက်ရာတစ်ခု ပြီးစီးခြင်း ဖြစ်ပါသည်။",
+      "explanationMy": "「達成」သည် ပန်းတိုင် သို့မဟုတ် ရည်မှန်းချက်ကို အောင်မြင်အောင် လုပ်ဆောင်ခြင်းဖြစ်ပြီး၊ 「完成」သည် ပစ္စည်း သို့မဟုတ် လက်ရာတစ်ခု ပြီးစီးခြင်း ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q021",
+      "lessonId": "n3.l48",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「上達」の対義語（反対の意味の言葉）として最もふさわしいものはどれですか。",
+      "choices": [
+        "下落・後退",
+        "合格",
+        "達成",
+        "完成"
+      ],
+      "answer": "下落・後退",
+      "explanation": "「上達」 (တိုးတက်ခြင်း) ၏ ဆန့်ကျင်ဘက်မှာ နောက်ဆုတ်ကျဆင်းခြင်း (後退 / 下落) ဖြစ်ပါသည်။",
+      "explanationMy": "「上達」 (တိုးတက်ခြင်း) ၏ ဆန့်ကျင်ဘက်မှာ နောက်ဆုတ်ကျဆင်းခြင်း (後退 / 下落) ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q022",
+      "lessonId": "n3.l48",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「架け橋」という比喩表現の本来の意味合いは？",
+      "choices": [
+        "二つの異なる存在や集団の間をつなぎ、友好的な関係を築く仲立ち",
+        "木造の古い危険な吊り橋のこと",
+        "インターネットの通信速度を制限する装置",
+        "川を渡ることを禁止する警告板"
+      ],
+      "answer": "二つの異なる存在や集団の間をつなぎ、友好的な関係を築く仲立ち",
+      "explanation": "အုပ်စုနှစ်ခု သို့မဟုတ် လူ့ဘောင်နှစ်ခုအကြား ချိတ်ဆက်ပြီး ချစ်ကြည်ရင်းနှီးမှု တည်ဆောက်ပေးသည့် ကြားခံတံတားသဖွယ် အခန်းကဏ္ဍ ဖြစ်ပါသည်။",
+      "explanationMy": "အုပ်စုနှစ်ခု သို့မဟုတ် လူ့ဘောင်နှစ်ခုအကြား ချိတ်ဆက်ပြီး ချစ်ကြည်ရင်းနှီးမှု တည်ဆောက်ပေးသည့် ကြားခံတံတားသဖွယ် အခန်းကဏ္ဍ ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q023",
+      "lessonId": "n3.l48",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「合格したわけだ」の否定形として自然なものはどれですか。",
+      "choices": [
+        "合格したわけではない",
+        "合格したわけがない",
+        "合格するはずがない",
+        "１と２のどちらも文脈により使われる"
+      ],
+      "answer": "１と２のどちらも文脈により使われる",
+      "explanation": "「〜わけではない」 (တစ်ခုလုံးတော့ မဟုတ်ပါ) နှင့် 「〜わけがない」 (လုံးဝ မဖြစ်နိုင်ပါ) နှစ်မျိုးစလုံးသည် အခြေအနေအလိုက် သုံးနိုင်ပါသည်။",
+      "explanationMy": "「〜わけではない」 (တစ်ခုလုံးတော့ မဟုတ်ပါ) နှင့် 「〜わけがない」 (လုံးဝ မဖြစ်နိုင်ပါ) နှစ်မျိုးစလုံးသည် အခြေအနေအလိုက် သုံးနိုင်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q024",
+      "lessonId": "n3.l48",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "会話で講師が「N2の高度な読解にも十分対応できるはずです」と励ました根拠は？",
+      "choices": [
+        "毎日欠かさず実践し、全48課をやり遂げて確固たる基礎力を身につけたから",
+        "受講料が高額だったから",
+        "N2の試験が突然簡単になったから",
+        "単なるお世辞で根拠はない"
+      ],
+      "answer": "毎日欠かさず実践し、全48課をやり遂げて確固たる基礎力を身につけたから",
+      "explanation": "၄၈ ခန်းလုံးကို မပျက်မကွက် လက်တွေ့ကြိုးစားပြီး ခိုင်မာသော အခြေခံစွမ်းရည်ကို ရရှိခဲ့သောကြောင့် ဖြစ်ပါသည်။",
+      "explanationMy": "၄၈ ခန်းလုံးကို မပျက်မကွက် လက်တွေ့ကြိုးစားပြီး ခိုင်မာသော အခြေခံစွမ်းရည်ကို ရရှိခဲ့သောကြောင့် ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q025",
+      "lessonId": "n3.l48",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文によると、N3を修了した学習者が成し遂げた重要な成長は何ですか。",
+      "choices": [
+        "基礎的会話から論理的で抽象的な表現へと至る大きな跳躍",
+        "日本語の勉強を完全に終わらせて二度と使わなくなること",
+        "日本のすべての漢字を完全に記憶したこと",
+        "外国語を日本語に直訳するスピードが遅くなったこと"
+      ],
+      "answer": "基礎的会話から論理的で抽象的な表現へと至る大きな跳躍",
+      "explanation": "基礎的なコミュニケーションから論理的で抽象的な表現へと至る大きな跳躍を成し遂げました ဟု ဖော်ပြထားပါသည်။",
+      "explanationMy": "基礎的なコミュニケーションから論理的で抽象的な表現へと至る大きな跳躍を成し遂げました ဟု ဖော်ပြထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q026",
+      "lessonId": "n3.l48",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文において、次のN2レベルで求められる日本語の能力は何ですか。",
+      "choices": [
+        "新聞記事や評論、ビジネス現場での複雑な議論に対応できる実践的・応用的な能力",
+        "平仮名と片仮名だけを用いた短い会話能力",
+        "英語のアルファベットを用いたローマ字入力の速度",
+        "教科書の例文をそのまま丸暗記して繰り返す能力"
+      ],
+      "answer": "新聞記事や評論、ビジネス現場での複雑な議論に対応できる実践的・応用的な能力",
+      "explanation": "新聞記事や評論、ビジネス現場での複雑な議論など、より実践的で応用力が必要とされる日本語 ဟု ရှင်းပြထားပါသည်။",
+      "explanationMy": "新聞記事や評論、ビジネス現場での複雑な議論など、より実践的で応用力が必要とされる日本語 ဟု ရှင်းပြထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q027",
+      "lessonId": "n3.l48",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "読解文が学習者に対して最後に送っているメッセージはどのようなものですか。",
+      "choices": [
+        "これまでの学習習慣を維持し、自信を持って自らの未来を切り拓き、日本との架け橋となって羽ばたいてほしい",
+        "N3に合格しただけで満足し、これ以上の学習はやめるべきだ",
+        "独学は危険なので、必ず日本へ留学しなければならない",
+        "日本語学習の成果は試験の点数だけですべて決まる"
+      ],
+      "answer": "これまでの学習習慣を維持し、自信を持って自らの未来を切り拓き、日本との架け橋となって羽ばたいてほしい",
+      "explanation": "自信を持って自らの未来を切り拓き、日本文化や社会との真の架け橋となって羽ばたいてください ဟု လှိုက်လှဲစွာ တိုက်တွန်းထားပါသည်။",
+      "explanationMy": "自信を持って自らの未来を切り拓き、日本文化や社会との真の架け橋となって羽ばたいてください ဟု လှိုက်လှဲစွာ တိုက်တွန်းထားပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q028",
+      "lessonId": "n3.l48",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "文脈に最も合う適切な文を作りなさい：\n「毎日あれほど努力したのだから、彼ならきっと成功する（　　）。」",
+      "choices": [
+        "に違いない",
+        "わけではない",
+        "どころではない",
+        "反面だ"
+      ],
+      "answer": "に違いない",
+      "explanation": "သေချာပေါက် အောင်မြင်မည်မှာ မလွဲဧကန်ဖြစ်ကြောင်း ဖော်ပြရန် 「に違いない」 က အမှန်ဖြစ်ပါသည်။",
+      "explanationMy": "သေချာပေါက် အောင်မြင်မည်မှာ မလွဲဧကန်ဖြစ်ကြောင်း ဖော်ပြရန် 「に違いない」 က အမှန်ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q029",
+      "lessonId": "n3.l48",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "次の語句を正しく並べ替えて意味の通る文にしなさい：\n「寒いわけだ / 雪が降っているから / こんなに / 道理で」",
+      "choices": [
+        "雪が降っているから道理でこんなに寒いわけだ",
+        "道理でこんなに雪が降っているから寒いわけだ",
+        "こんなに寒いわけだ雪が降っているから道理で",
+        "寒いわけだ道理でこんなに雪が降っているから"
+      ],
+      "answer": "雪が降っているから道理でこんなに寒いわけだ",
+      "explanation": "မှန်ကန်သော ဝါကျစီစဉ်မှုမှာ 「雪が降っているから道理でこんなに寒いわけだ」 ဖြစ်ပါသည်။",
+      "explanationMy": "မှန်ကန်သော ဝါကျစီစဉ်မှုမှာ 「雪が降っているから道理でこんなに寒いわけだ」 ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l48.q030",
+      "lessonId": "n3.l48",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "全48課を完走した学習者にとって、N3カリキュラム全体の最大の収穫は何ですか。",
+      "choices": [
+        "自立して日本語の文章を読み解き、豊かなニュアンスを理解し発信できる確固たる運用力と、N2への強固な基盤",
+        "暗記カードの枚数を誇ることだけ",
+        "他の外国語をすべて忘れること",
+        "試験の問題用紙を集めること"
+      ],
+      "answer": "自立して日本語の文章を読み解き、豊かなニュアンスを理解し発信できる確固たる運用力と、N2への強固な基盤",
+      "explanation": "လွတ်လပ်စွာ ဂျပန်စာပေများကို ဖတ်ရှုနားလည်နိုင်ပြီး သိမ်မွေ့သော သဘောထားများကို ဖော်ပြနိုင်သည့် ခိုင်မာသော စွမ်းရည်နှင့် N2 သို့ တက်လှမ်းရန် အခြေခံကောင်းများ ရရှိခြင်း ဖြစ်ပါသည်။",
+      "explanationMy": "လွတ်လပ်စွာ ဂျပန်စာပေများကို ဖတ်ရှုနားလည်နိုင်ပြီး သိမ်မွေ့သော သဘောထားများကို ဖော်ပြနိုင်သည့် ခိုင်မာသော စွမ်းရည်နှင့် N2 သို့ တက်လှမ်းရန် အခြေခံကောင်းများ ရရှိခြင်း ဖြစ်ပါသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l48.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-06T10:00:00Z",
+    "rev": 2
+  }
+};

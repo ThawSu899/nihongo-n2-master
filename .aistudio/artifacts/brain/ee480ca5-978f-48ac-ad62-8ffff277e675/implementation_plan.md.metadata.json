@@ -1,0 +1,6 @@
+{
+  "summary": "Implementation plan for creating the standalone KanjiDrawer component with dedicated state for radical decomposition and example sentences, and verifying seamless long-press / double-click triggering from DokkaiReaderWorkbench.",
+  "updatedAt": "2026-10-17T08:51:52.748799421Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

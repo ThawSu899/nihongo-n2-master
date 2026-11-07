@@ -1,0 +1,1798 @@
+{
+  "id": "n2.l43",
+  "level": "N2",
+  "module": "N2 Mastery & Professional Japanese",
+  "number": 43,
+  "title": "N2 Lesson 43: Hypotheses, Assumptions & Supposition (〜仮に〜としたら・〜ものなら・〜となると)",
+  "description": "Mastery module focusing on Hypothetical Scenarios, Improbable Desires, and Critical Consequence Conditions: suppositious scenarios (仮に〜としたら), near-impossible conditions (ものなら), and situational realignments (となると).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l43.v001",
+      "lessonId": "n2.l43",
+      "ja": "仮定",
+      "kana": "かてい",
+      "en": "Assumption / Supposition / Hypothesis",
+      "my": "ကြိုတင်ယူဆချက် / တွက်ချက်မှု",
+      "meaningMy": "ကြိုတင်ယူဆချက် / တွက်ချက်မှု",
+      "meaningMyanmar": "ကြိုတင်ယူဆချက် / တွက်ချက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l43.s001",
+      "kanjiIds": [
+        "n2.l43.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.v002",
+      "lessonId": "n2.l43",
+      "ja": "仮説",
+      "kana": "かせつ",
+      "en": "Hypothesis / Working theory",
+      "my": "သီအိုရီယူဆချက်",
+      "meaningMy": "သီအိုရီယူဆချက်",
+      "meaningMyanmar": "သီအိုရီယူဆချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l43.s002",
+      "kanjiIds": [
+        "n2.l43.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.v003",
+      "lessonId": "n2.l43",
+      "ja": "設定",
+      "kana": "せってい",
+      "en": "Setting / Establishment / Configuration",
+      "my": "သတ်မှတ်ပြင်ဆင်ချက်",
+      "meaningMy": "သတ်မှတ်ပြင်ဆင်ချက်",
+      "meaningMyanmar": "သတ်မှတ်ပြင်ဆင်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l43.s003",
+      "kanjiIds": [
+        "n2.l43.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.v004",
+      "lessonId": "n2.l43",
+      "ja": "設立",
+      "kana": "せつりつ",
+      "en": "Establishment / Foundation / Founding",
+      "my": "တည်ထောင်ဖွဲ့စည်းခြင်း",
+      "meaningMy": "တည်ထောင်ဖွဲ့စည်းခြင်း",
+      "meaningMyanmar": "တည်ထောင်ဖွဲ့စည်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l43.s004",
+      "kanjiIds": [
+        "n2.l43.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.v005",
+      "lessonId": "n2.l43",
+      "ja": "定義",
+      "kana": "ていぎ",
+      "en": "Definition",
+      "my": "အဓိပ္ပာယ်ဖွင့်ဆိုချက်",
+      "meaningMy": "အဓိပ္ပာယ်ဖွင့်ဆိုချက်",
+      "meaningMyanmar": "အဓိပ္ပာယ်ဖွင့်ဆိုချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l43.s005",
+      "kanjiIds": [
+        "n2.l43.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.v006",
+      "lessonId": "n2.l43",
+      "ja": "確定",
+      "kana": "かくてい",
+      "en": "Definitive decision / Final confirmation",
+      "my": "အတည်ပြုသတ်မှတ်ခြင်း",
+      "meaningMy": "အတည်ပြုသတ်မှတ်ခြင်း",
+      "meaningMyanmar": "အတည်ပြုသတ်မှတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l43.s006",
+      "kanjiIds": [
+        "n2.l43.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.v007",
+      "lessonId": "n2.l43",
+      "ja": "模索",
+      "kana": "もさく",
+      "en": "Groping / Exploring / Searching for",
+      "my": "စမ်းတဝါးဝါးရှာဖွေစူးစမ်းခြင်း",
+      "meaningMy": "စမ်းတဝါးဝါးရှာဖွေစူးစမ်းခြင်း",
+      "meaningMyanmar": "စမ်းတဝါးဝါးရှာဖွေစူးစမ်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l43.s007",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.v008",
+      "lessonId": "n2.l43",
+      "ja": "想定",
+      "kana": "そうてい",
+      "en": "Envisioning / Supposition / Assumption",
+      "my": "ကြိုတင်စိတ်ကူးမှန်းဆခြင်း",
+      "meaningMy": "ကြိုတင်စိတ်ကူးမှန်းဆခြင်း",
+      "meaningMyanmar": "ကြိုတင်စိတ်ကူးမှန်းဆခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l43.s008",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.v009",
+      "lessonId": "n2.l43",
+      "ja": "追及",
+      "kana": "ついきゅう",
+      "en": "Pursuit / Interrogation / Investigation",
+      "my": "အမှန်တရားဖော်ထုတ်စစ်ဆေးခြင်း",
+      "meaningMy": "အမှန်တရားဖော်ထုတ်စစ်ဆေးခြင်း",
+      "meaningMyanmar": "အမှန်တရားဖော်ထုတ်စစ်ဆေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l43.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.v010",
+      "lessonId": "n2.l43",
+      "ja": "予見",
+      "kana": "よけん",
+      "en": "Foreseeing / Prescience / Prediction",
+      "my": "ကြိုတင်သိမြင်ခန့်မှန်းခြင်း",
+      "meaningMy": "ကြိုတင်သိမြင်ခန့်မှန်းခြင်း",
+      "meaningMyanmar": "ကြိုတင်သိမြင်ခန့်မှန်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l43.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.v011",
+      "lessonId": "n2.l43",
+      "ja": "該当",
+      "kana": "がいとう",
+      "en": "Falling under / Corresponding to",
+      "my": "ကိုက်ညီအကျုံးဝင်ခြင်း",
+      "meaningMy": "ကိုက်ညီအကျုံးဝင်ခြင်း",
+      "meaningMyanmar": "ကိုက်ညီအကျုံးဝင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l43.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.v012",
+      "lessonId": "n2.l43",
+      "ja": "妥結",
+      "kana": "だけつ",
+      "en": "Settlement / Reaching an agreement",
+      "my": "ညှိနှိုင်းပြေလည်သဘောတူခြင်း",
+      "meaningMy": "ညှိနှိုင်းပြေလည်သဘောတူခြင်း",
+      "meaningMyanmar": "ညှိနှိုင်းပြေလည်သဘောတူခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l43.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l43.k001",
+      "lessonId": "n2.l43",
+      "char": "仮",
+      "meaning": "Temporary / Tentative / Hypothesis / Assume",
+      "meaningMy": "ယာယီ / အကယ်၍ / ယူဆချက် / အစမ်း",
+      "meaningMyanmar": "ယာယီ / အကယ်၍ / ယူဆချက် / အစမ်း",
+      "onyomi": [
+        "カ",
+        "ケ"
+      ],
+      "kunyomi": [
+        "かり"
+      ],
+      "exampleVocab": [
+        {
+          "word": "仮定",
+          "reading": "かてい",
+          "meaning": "assumption / hypothesis",
+          "meaningMy": "ကြိုတင်ယူဆချက်",
+          "preview": false
+        },
+        {
+          "word": "仮説",
+          "reading": "かせつ",
+          "meaning": "hypothesis / working theory",
+          "meaningMy": "သီအိုရီယူဆချက်",
+          "preview": false
+        },
+        {
+          "word": "仮設",
+          "reading": "かせつ",
+          "meaning": "temporary installation / provisional",
+          "meaningMy": "ယာယီတပ်ဆင်ထားမှု",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l43.s001"
+      ],
+      "components": [
+        "亻",
+        "反"
+      ],
+      "strokes": 6,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.k002",
+      "lessonId": "n2.l43",
+      "char": "設",
+      "meaning": "Establish / Set up / Provide / Prepare",
+      "meaningMy": "တည်ထောင်ခြင်း / ပြင်ဆင်သတ်မှတ်ခြင်း",
+      "meaningMyanmar": "တည်ထောင်ခြင်း / ပြင်ဆင်သတ်မှတ်ခြင်း",
+      "onyomi": [
+        "セツ"
+      ],
+      "kunyomi": [
+        "もう・ける"
+      ],
+      "exampleVocab": [
+        {
+          "word": "設定",
+          "reading": "せってい",
+          "meaning": "setting / configuration",
+          "meaningMy": "သတ်မှတ်ပြင်ဆင်ချက်",
+          "preview": false
+        },
+        {
+          "word": "設立",
+          "reading": "せつりつ",
+          "meaning": "establishment / founding",
+          "meaningMy": "တည်ထောင်ဖွဲ့စည်းခြင်း",
+          "preview": false
+        },
+        {
+          "word": "施設",
+          "reading": "しせつ",
+          "meaning": "facility / institution",
+          "meaningMy": "အဆောက်အအုံအဖွဲ့အစည်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l43.s002"
+      ],
+      "components": [
+        "言",
+        "殳"
+      ],
+      "strokes": 11,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.k003",
+      "lessonId": "n2.l43",
+      "char": "定",
+      "meaning": "Decide / Fix / Determine / Settle",
+      "meaningMy": "ဆုံးဖြတ်သတ်မှတ်ခြင်း / အတည်ပြုခြင်း",
+      "meaningMyanmar": "ဆုံးဖြတ်သတ်မှတ်ခြင်း / အတည်ပြုခြင်း",
+      "onyomi": [
+        "テイ",
+        "ジョウ"
+      ],
+      "kunyomi": [
+        "さだ・める",
+        "さだ・まる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "定義",
+          "reading": "ていぎ",
+          "meaning": "definition",
+          "meaningMy": "အဓိပ္ပာယ်ဖွင့်ဆိုချက်",
+          "preview": false
+        },
+        {
+          "word": "確定",
+          "reading": "かくてい",
+          "meaning": "confirmation / definitive decision",
+          "meaningMy": "အတည်ပြုသတ်မှတ်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "定着",
+          "reading": "ていちゃく",
+          "meaning": "taking root / establishing",
+          "meaningMy": "စွဲမြဲခိုင်မာသွားခြင်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l43.s003"
+      ],
+      "components": [
+        "宀",
+        "疋"
+      ],
+      "strokes": 8,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l43.g001",
+      "lessonId": "n2.l43",
+      "pattern": "〜仮に〜としたら / とすれば",
+      "meaning": "Hypothetically speaking, if... / Supposing that...",
+      "meaningMy": "အကယ်၍များ ... ဟု ယူဆကြည့်ပါက / ဖြစ်ခဲ့သည်ရှိသော်",
+      "meaningMyanmar": "အကယ်၍များ ... ဟု ယူဆကြည့်ပါက / ဖြစ်ခဲ့သည်ရှိသော်",
+      "formation": "仮に ＋ 普通形 ＋ としたら / とすれば / とすると",
+      "explanation": {
+        "en": "Introduces an imaginary, counterfactual, or high-stakes hypothetical assumption to examine its potential consequences or feasibility.",
+        "my": "လက်တွေ့တွင် မဖြစ်နိုင်သေးသော သို့မဟုတ် ကြီးမားသော ယူဆချက်တစ်ခုကို အစပျိုး၍ ၎င်း၏ ဖြစ်နိုင်ခြေ သို့မဟုတ် နောက်ဆက်တွဲ အကျိုးဆက်များကို စဉ်းစားဆွေးနွေးရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "လက်တွေ့တွင် မဖြစ်နိုင်သေးသော သို့မဟုတ် ကြီးမားသော ယူဆချက်တစ်ခုကို အစပျိုး၍ ၎င်း၏ ဖြစ်နိုင်ခြေ သို့မဟုတ် နောက်ဆက်တွဲ အကျိုးဆက်များကို စဉ်းစားဆွေးနွေးရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l43.s001",
+          "note": "〜仮に〜としたら / とすれば usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l43.s002",
+          "note": "〜仮に〜としたら / とすれば usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l43.s003",
+          "note": "〜仮に〜としたら / とすれば usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l43.s004",
+          "note": "〜仮に〜としたら / とすれば usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l43.g001",
+        "n2.l43.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜仮に〜としたら / とすれば."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "[ _____ ]その噂が真実だとしたら、組織全体が崩壊しかねない。",
+      "clozeTarget": "仮に",
+      "clozeHint": "仮に + clause + としたら",
+      "acceptableSynonyms": [
+        "もしも〜だとしたら",
+        "万一〜と仮定すれば",
+        "かりに〜なら"
+      ],
+      "nuanceExplanationMy": "စိတ်ကူးယဉ် သို့မဟုတ် အရေးကြီးသော အခြေအနေဆန်းစစ်မှုများတွင် သုံးသည်။"
+    },
+    {
+      "id": "n2.l43.g002",
+      "lessonId": "n2.l43",
+      "pattern": "〜ものなら",
+      "meaning": "If one could possibly... (hoping for the near-impossible)",
+      "meaningMy": "လုပ်နိုင်မည်သာဆိုလျှင် (လက်တွေ့မဖြစ်နိုင်သောအရာကို တောင့်တခြင်း)",
+      "meaningMyanmar": "လုပ်နိုင်မည်သာဆိုလျှင် (လက်တွေ့မဖြစ်နိုင်သောအရာကို တောင့်တခြင်း)",
+      "formation": "動詞可能形 ＋ ものなら",
+      "explanation": {
+        "en": "Expresses a deep, passionate yearning for something that is realistically almost impossible or extraordinarily difficult to realize.",
+        "my": "လက်တွေ့တွင် ဖြစ်ပေါ်ရန် အလွန်ခက်ခဲသော သို့မဟုတ် မဖြစ်နိုင်တော့သော အရာတစ်ခုကို 'အကယ်၍သာ ပြုလုပ်နိုင်ခဲ့မည်ဆိုပါက' ဟု ပြင်းပြစွာ တောင့်တဆန္ဒပြုရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "လက်တွေ့တွင် ဖြစ်ပေါ်ရန် အလွန်ခက်ခဲသော သို့မဟုတ် မဖြစ်နိုင်တော့သော အရာတစ်ခုကို 'အကယ်၍သာ ပြုလုပ်နိုင်ခဲ့မည်ဆိုပါက' ဟု ပြင်းပြစွာ တောင့်တဆန္ဒပြုရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l43.s005",
+          "note": "〜ものなら usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l43.s006",
+          "note": "〜ものなら usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l43.s007",
+          "note": "〜ものなら usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l43.s008",
+          "note": "〜ものなら usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l43.g001",
+        "n2.l43.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ものなら."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "戻れる[ _____ ]、あの幸せだった少年時代に戻りたい。",
+      "clozeTarget": "ものなら",
+      "clozeHint": "Potential verb + ものなら",
+      "acceptableSynonyms": [
+        "できることなら",
+        "もし可能であれば",
+        "万が一できるなら"
+      ],
+      "nuanceExplanationMy": "အတိတ်သို့ ပြန်သွားခြင်း သို့မဟုတ် အလွန်ခက်ခဲသော စိတ်ကူးများတွင် နှမြောတသစွာ သုံးသည်။"
+    },
+    {
+      "id": "n2.l43.g003",
+      "lessonId": "n2.l43",
+      "pattern": "〜となると",
+      "meaning": "When it comes to... / If it turns out that... (grave reality shift)",
+      "meaningMy": "အခြေအနေသို့ ရောက်ရှိလာပါက / ဖြစ်သွားပြီဆိုလျှင်မူ",
+      "meaningMyanmar": "အခြေအနေသို့ ရောက်ရှိလာပါက / ဖြစ်သွားပြီဆိုလျှင်မူ",
+      "formation": "名詞 / 動詞・形容詞普通形 ＋ となると",
+      "explanation": {
+        "en": "Marks that once a hypothetical possibility crosses the threshold into an undeniable actual reality, the entire situation or mindset must drastically change.",
+        "my": "အဆိုပါ ကိစ္စရပ် သို့မဟုတ် အခြေအနေသည် လက်တွေ့အမှန်တကယ် ဖြစ်ပေါ်လာပြီဆိုလျှင်မူ လုံးဝ လျစ်လျူမရှုနိုင်တော့ဘဲ ကြီးမားသော သဘောထားပြောင်းလဲမှု ပြုလုပ်ရမည်ဖြစ်ကြောင်း ပြသည်။"
+      },
+      "explanationMy": "အဆိုပါ ကိစ္စရပ် သို့မဟုတ် အခြေအနေသည် လက်တွေ့အမှန်တကယ် ဖြစ်ပေါ်လာပြီဆိုလျှင်မူ လုံးဝ လျစ်လျူမရှုနိုင်တော့ဘဲ ကြီးမားသော သဘောထားပြောင်းလဲမှု ပြုလုပ်ရမည်ဖြစ်ကြောင်း ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l43.s009",
+          "note": "〜となると usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l43.s010",
+          "note": "〜となると usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l43.s011",
+          "note": "〜となると usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l43.s012",
+          "note": "〜となると usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l43.g001",
+        "n2.l43.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜となると."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "実際に海外へ移住する[ _____ ]、語学力だけでなくビザの取得も大きな壁となる。",
+      "clozeTarget": "となると",
+      "clozeHint": "Plain form + となると",
+      "acceptableSynonyms": [
+        "〜ということになれば",
+        "〜の場合には",
+        "〜となれば"
+      ],
+      "nuanceExplanationMy": "စိတ်ကူးမှ လက်တွေ့အကောင်အထည်ဖော်ရမည့် အဆင့်သို့ ရောက်လာချိန်တွင် သုံးသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l43.s001",
+      "lessonId": "n2.l43",
+      "ja": "仮に大地震が発生したとしたら、この古いビルは倒壊を免れないだろう。",
+      "kana": "かりにだいじしんがはっせいしたとしたら、このふるいビルはとうかいをまぬかれないだろう。",
+      "translation": {
+        "en": "Hypothetically supposing a massive earthquake occurred, this old building would not escape collapse.",
+        "my": "အကယ်၍များ ငလျင်ကြီး လှုပ်ခတ်ခဲ့သည်ရှိသော် ဤအဆောက်အအုံဟောင်းသည် ပြိုကျပျက်စီးခြင်းမှ လွတ်မြောက်နိုင်မည် မဟုတ်ပေ။"
+      },
+      "translationMy": "အကယ်၍များ ငလျင်ကြီး လှုပ်ခတ်ခဲ့သည်ရှိသော် ဤအဆောက်အအုံဟောင်းသည် ပြိုကျပျက်စီးခြင်းမှ လွတ်မြောက်နိုင်မည် မဟုတ်ပေ။",
+      "vocabIds": [
+        "n2.l43.v001",
+        "n2.l43.v008"
+      ],
+      "grammarIds": [
+        "n2.l43.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.s002",
+      "lessonId": "n2.l43",
+      "ja": "仮に全ての計画が順調に進むとすれば、来年春には新会社を設立できる見込みだ。",
+      "kana": "かりにすべてのけいかくがじゅんちょうにすすむとすれば、らいねんはるにはしんがいしゃをせつりつできるみこみだ。",
+      "translation": {
+        "en": "Supposing that all plans advance smoothly, we expect to be able to establish the new company next spring.",
+        "my": "အကယ်၍ အစီအစဉ်အားလုံး အဆင်ပြေချောမွေ့စွာ ပြီးမြောက်ခဲ့ပါက လာမည့်နွေဦးတွင် ကုမ္ပဏီအသစ်ကို တည်ထောင်နိုင်မည်ဖြစ်သည်။"
+      },
+      "translationMy": "အကယ်၍ အစီအစဉ်အားလုံး အဆင်ပြေချောမွေ့စွာ ပြီးမြောက်ခဲ့ပါက လာမည့်နွေဦးတွင် ကုမ္ပဏီအသစ်ကို တည်ထောင်နိုင်မည်ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l43.v001",
+        "n2.l43.v004"
+      ],
+      "grammarIds": [
+        "n2.l43.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.s003",
+      "lessonId": "n2.l43",
+      "ja": "仮に彼の主張が真実だとしたら、過去の判決全体を覆さざるを得ない。",
+      "kana": "かりにかれのしゅちょうがしんじつだとしたら、かこのはんけつぜんたいをくつがえさざるをえない。",
+      "translation": {
+        "en": "Supposing his argument were the truth, we would have no choice but to overturn the entirety of past rulings.",
+        "my": "အကယ်၍ သူ၏ ပြောကြားချက်သာ အမှန်ဖြစ်ခဲ့ပါက အတိတ်က စီရင်ချက်တစ်ခုလုံးကို ပြောင်းပြန်လှန်ဖျက်သိမ်းရန် မလွှဲမရှောင်သာ ဖြစ်လိမ့်မည်။"
+      },
+      "translationMy": "အကယ်၍ သူ၏ ပြောကြားချက်သာ အမှန်ဖြစ်ခဲ့ပါက အတိတ်က စီရင်ချက်တစ်ခုလုံးကို ပြောင်းပြန်လှန်ဖျက်သိမ်းရန် မလွှဲမရှောင်သာ ဖြစ်လိမ့်မည်။",
+      "vocabIds": [
+        "n2.l43.v006",
+        "n2.l43.v009"
+      ],
+      "grammarIds": [
+        "n2.l43.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.s004",
+      "lessonId": "n2.l43",
+      "ja": "仮に予算が半減されるとしたら、新規事業の模索は断念するほかない。",
+      "kana": "かりによさんがはんげんされるとしたら、しんきじぎょうのもさくはだんねんするほかない。",
+      "translation": {
+        "en": "If hypothetically the budget were cut in half, we would have no option but to abandon exploring new ventures.",
+        "my": "အကယ်၍ ဘတ်ဂျက် ထက်ဝက်လျှော့ချခံရပါက စီးပွားရေးလုပ်ငန်းသစ်များ စူးစမ်းရှာဖွေမှုကို လက်လျှော့ရုံမှတစ်ပါး အခြားမရှိပေ။"
+      },
+      "translationMy": "အကယ်၍ ဘတ်ဂျက် ထက်ဝက်လျှော့ချခံရပါက စီးပွားရေးလုပ်ငန်းသစ်များ စူးစမ်းရှာဖွေမှုကို လက်လျှော့ရုံမှတစ်ပါး အခြားမရှိပေ။",
+      "vocabIds": [
+        "n2.l43.v003",
+        "n2.l43.v007"
+      ],
+      "grammarIds": [
+        "n2.l43.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.s005",
+      "lessonId": "n2.l43",
+      "ja": "やり直せるものなら、過去の重大な過ちをすべて清算したい。",
+      "kana": "やりなおせるものなら、かこのじゅうだいなあやまちをすべてせいさんしたい。",
+      "translation": {
+        "en": "If only I could do things over, I would love to clear away all my past grave blunders.",
+        "my": "ပြန်လည်စတင်နိုင်မည်သာဆိုလျှင် အတိတ်က ကြီးမားသောအမှားများအားလုံးကို ပြေလည်အောင် ဖြေရှင်းလိုက်ချင်သည်။"
+      },
+      "translationMy": "ပြန်လည်စတင်နိုင်မည်သာဆိုလျှင် အတိတ်က ကြီးမားသောအမှားများအားလုံးကို ပြေလည်အောင် ဖြေရှင်းလိုက်ချင်သည်။",
+      "vocabIds": [
+        "n2.l43.v002",
+        "n2.l43.v010"
+      ],
+      "grammarIds": [
+        "n2.l43.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.s006",
+      "lessonId": "n2.l43",
+      "ja": "鳥のように大空を自由に飛べるものなら、世界の果てまで旅してみたい。",
+      "kana": "とりのようにおおぞらをじゆうにとべるものなら、せかいのはてまでたびしてみたい。",
+      "translation": {
+        "en": "If only one could fly freely through skies like a bird, I would love to travel to the ends of the earth.",
+        "my": "ငှက်တစ်ကောင်ကဲ့သို့ ကောင်းကင်ယံတွင် လွတ်လပ်စွာ ပျံသန်းနိုင်မည်သာဆိုလျှင် ကမ္ဘာလောက၏ အစွန်အဖျားအထိ ခရီးနှင်ချင်သည်။"
+      },
+      "translationMy": "ငှက်တစ်ကောင်ကဲ့သို့ ကောင်းကင်ယံတွင် လွတ်လပ်စွာ ပျံသန်းနိုင်မည်သာဆိုလျှင် ကမ္ဘာလောက၏ အစွန်အဖျားအထိ ခရီးနှင်ချင်သည်။",
+      "vocabIds": [
+        "n2.l43.v003",
+        "n2.l43.v005"
+      ],
+      "grammarIds": [
+        "n2.l43.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.s007",
+      "lessonId": "n2.l43",
+      "ja": "病気の痛みを代わってやれるものなら、子供のために何でもしてやりたい。",
+      "kana": "びょうきのいたみをかわってやれるものなら、こどものためになんでもしてやりたい。",
+      "translation": {
+        "en": "If only I could take upon myself the pain of the disease, I would gladly do anything for my child.",
+        "my": "ရောဂါဝေဒနာ နာကျင်မှုကို ကိုယ်စား ခံယူပေးနိုင်မည်သာဆိုလျှင် သားသမီးအတွက် မည်သည့်အရာကိုမဆို လုပ်ပေးချင်သည်။"
+      },
+      "translationMy": "ရောဂါဝေဒနာ နာကျင်မှုကို ကိုယ်စား ခံယူပေးနိုင်မည်သာဆိုလျှင် သားသမီးအတွက် မည်သည့်အရာကိုမဆို လုပ်ပေးချင်သည်။",
+      "vocabIds": [
+        "n2.l43.v008",
+        "n2.l43.v011"
+      ],
+      "grammarIds": [
+        "n2.l43.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.s008",
+      "lessonId": "n2.l43",
+      "ja": "その仮説を実験で立証できるものなら、学会で画期的な評価を受けるに違いない。",
+      "kana": "そのかせつをじっけんでりっしょうできるものなら、がっかいでかっきてきなひょうかをうけるにちがいない。",
+      "translation": {
+        "en": "If that hypothesis could possibly be proven by experiment, it would definitely win breakthrough acclaim in academia.",
+        "my": "ထိုသီအိုရီ ယူဆချက်ကို စမ်းသပ်မှုဖြင့် သက်သေပြနိုင်မည်သာဆိုပါက ပညာရပ်လောကတွင် ခေတ်သစ်ကို ဖွင့်လှစ်သည့် အသိအမှတ်ပြုမှု ရရှိမည်မှာ သေချာသည်။"
+      },
+      "translationMy": "ထိုသီအိုရီ ယူဆချက်ကို စမ်းသပ်မှုဖြင့် သက်သေပြနိုင်မည်သာဆိုပါက ပညာရပ်လောကတွင် ခေတ်သစ်ကို ဖွင့်လှစ်သည့် အသိအမှတ်ပြုမှု ရရှိမည်မှာ သေချာသည်။",
+      "vocabIds": [
+        "n2.l43.v002",
+        "n2.l43.v006"
+      ],
+      "grammarIds": [
+        "n2.l43.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.s009",
+      "lessonId": "n2.l43",
+      "ja": "実際に起業するとなると、資金調達だけでなく法的手続きも極めて煩雑になる。",
+      "kana": "じっさいにきぎょうするとなると、しきんちょうたつだけでなくほうてきてつづきもきわめてはんざつになる。",
+      "translation": {
+        "en": "When it comes to actually founding an enterprise, not just financing but legal procedures become extremely complex.",
+        "my": "လက်တွေ့တွင် စီးပွားရေးလုပ်ငန်း တည်ထောင်တော့မည်ဆိုပါက ရန်ပုံငွေရှာဖွေခြင်းသာမက ဥပဒေရေးရာ လုပ်ထုံးလုပ်နည်းများသည်လည်း အလွန်ရှုပ်ထွေးလာသည်။"
+      },
+      "translationMy": "လက်တွေ့တွင် စီးပွားရေးလုပ်ငန်း တည်ထောင်တော့မည်ဆိုပါက ရန်ပုံငွေရှာဖွေခြင်းသာမက ဥပဒေရေးရာ လုပ်ထုံးလုပ်နည်းများသည်လည်း အလွန်ရှုပ်ထွေးလာသည်။",
+      "vocabIds": [
+        "n2.l43.v004",
+        "n2.l43.v005"
+      ],
+      "grammarIds": [
+        "n2.l43.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.s010",
+      "lessonId": "n2.l43",
+      "ja": "裁判で責任を法的に追及するとなると、動かぬ証拠の確保が不可欠だ。",
+      "kana": "さいばんでせきにんをほうてきについきゅうするとなると、うごかぬしょうこのかくほがふかけつだ。",
+      "translation": {
+        "en": "If it comes to legally interrogating responsibility in court, securing incontrovertible evidence is essential.",
+        "my": "တရားရုံးတွင် ဥပဒေအရ တာဝန်ယူမှုကို ဖော်ထုတ်စစ်ဆေးတော့မည်ဆိုပါက မငြင်းသာသော သက်သေအထောက်အထားများ ရရှိထားရန် မရှိမဖြစ် လိုအပ်သည်။"
+      },
+      "translationMy": "တရားရုံးတွင် ဥပဒေအရ တာဝန်ယူမှုကို ဖော်ထုတ်စစ်ဆေးတော့မည်ဆိုပါက မငြင်းသာသော သက်သေအထောက်အထားများ ရရှိထားရန် မရှိမဖြစ် လိုအပ်သည်။",
+      "vocabIds": [
+        "n2.l43.v006",
+        "n2.l43.v009"
+      ],
+      "grammarIds": [
+        "n2.l43.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.s011",
+      "lessonId": "n2.l43",
+      "ja": "海外の大学院へ留学するとなると、生活費や学費の負担は相当なものになる。",
+      "kana": "かいがいのだいがくいんへりゅうがくするとなると、せいかつひやがくひのふたんはそうとうなものになる。",
+      "translation": {
+        "en": "When it comes to studying abroad in graduate school, the burden of tuition and living expenses becomes substantial.",
+        "my": "ပြည်ပ ဘွဲ့လွန်တက္ကသိုလ်သို့ ပညာတော်သင် သွားတော့မည်ဆိုပါက နေထိုင်စရိတ်နှင့် ကျောင်းလခ ဝန်ထုပ်ဝန်ပိုးမှာ တော်တော်ပင် ကြီးမားလာမည်ဖြစ်သည်။"
+      },
+      "translationMy": "ပြည်ပ ဘွဲ့လွန်တက္ကသိုလ်သို့ ပညာတော်သင် သွားတော့မည်ဆိုပါက နေထိုင်စရိတ်နှင့် ကျောင်းလခ ဝန်ထုပ်ဝန်ပိုးမှာ တော်တော်ပင် ကြီးမားလာမည်ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l43.v003",
+        "n2.l43.v012"
+      ],
+      "grammarIds": [
+        "n2.l43.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l43.s012",
+      "lessonId": "n2.l43",
+      "ja": "労使交渉が妥結しないとなると、来週から全面的なストライキに突入する恐れがある。",
+      "kana": "ろうしこうしょうがだけつしないとなると、らいしゅうからぜんめんてきなストライキにとつにゅうするおそれがある。",
+      "translation": {
+        "en": "If labor-management negotiations fail to reach a settlement, there is fear of plunging into a full strike next week.",
+        "my": "အလုပ်ရှင်အလုပ်သမား ညှိနှိုင်းမှု မပြေလည်ဘဲ ဖြစ်လာပါက လာမည့်သီတင်းပတ်မှစတင်၍ အလုံးစုံ သပိတ်မှောက်မှုဆီသို့ ရောက်ရှိသွားမည့် စိုးရိမ်မှု ရှိနေသည်။"
+      },
+      "translationMy": "အလုပ်ရှင်အလုပ်သမား ညှိနှိုင်းမှု မပြေလည်ဘဲ ဖြစ်လာပါက လာမည့်သီတင်းပတ်မှစတင်၍ အလုံးစုံ သပိတ်မှောက်မှုဆီသို့ ရောက်ရှိသွားမည့် စိုးရိမ်မှု ရှိနေသည်။",
+      "vocabIds": [
+        "n2.l43.v006",
+        "n2.l43.v012"
+      ],
+      "grammarIds": [
+        "n2.l43.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l43.r001",
+    "lessonId": "n2.l43",
+    "title": "危機管理における不確実性の克服と想定シナリオ",
+    "level": "N2",
+    "text": "現代社会の危機管理においては、過去の統計データのみに依存する姿勢は極めて危険である。仮に想定外の自然災害やサイバーテロが同時に発生したとしたら、既存のインフラ機能は即座に麻痺しかねない。過去の平穏な日常に戻れるものなら戻りたいという願望を抱くのは自然であるが、現実の危機対応においては未来への予見が求められる。国家的な非常事態への突入となると、法的な枠組みの厳格な運用と同時に、現場指揮官の臨機応変な判断が組織の生死を分ける鍵となる。",
+    "kanaText": "げんだいしゃかいのききかんりにおいては、かこのとうけいデータのみにいぞんするしせいはきわめてきけんである。かりにそうていがいのしぜんさいがいやサイバーテロがどうじにはっせいしたとしたら、きぞんのインフラきのうはそくざにまひしかねない。かこのへいおんなにちじょうにもどれるものならもどりたいというがんぼうをいだくのはしぜんであるが、げんじつのききたいおうにおいてはみらいへのよけんがもとめられる。こっかてきなひじょうじたいへのとつにゅうとなると、ほうてきなわくぐみのげんかくなうんようとどうじに、げんばしひかんのりんきおうへんなはんだんがそしきのせいしをわけるかぎとなる。",
+    "translation": "မျက်မှောက်ခေတ် လူ့ဘောင်၏ အကျပ်အတည်း စီမံခန့်ခွဲမှုတွင် အတိတ်က စာရင်းအင်း အချက်အလက်များအပေါ်၌သာ မှီခိုနေသော သဘောထားမှာ အလွန်အန္တရာယ်ကြီးလှသည်။ အကယ်၍များ မမျှော်လင့်ထားသော သဘာဝဘေးအန္တရာယ်နှင့် ဆိုက်ဘာတိုက်ခိုက်မှုများ တစ်ပြိုင်နက် ဖြစ်ပွားခဲ့သည်ရှိသော် လက်ရှိ အခြေခံအဆောက်အအုံများ ချက်ချင်း ရပ်ဆိုင်းသွားနိုင်သည်။ အတိတ်က အေးချမ်းသော နေ့စဉ်ဘဝဆီသို့ ပြန်သွားနိုင်မည်သာဆိုလျှင် ပြန်သွားချင်သည်ဟူသော ဆန္ဒမျိုး ရှိတတ်သည်မှာ သဘာဝဖြစ်သော်လည်း လက်တွေ့ အကျပ်အတည်း ရင်ဆိုင်ရာတွင် အနာဂတ်ကို ကြိုတင်သိမြင်မှု လိုအပ်ပေသည်။ နိုင်ငံတော်အဆင့် အရေးပေါ်အခြေအနေသို့ ရောက်ရှိသွားပြီဆိုလျှင်မူ ဥပဒေမူဘောင်များကို တင်းကျပ်စွာ ကျင့်သုံးခြင်းနှင့်အတူ လက်တွေ့လုပ်ငန်းခွင် ခေါင်းဆောင်များ၏ အခြေအနေနှင့် လျော်ညီစွာ ဆုံးဖြတ်နိုင်စွမ်းသည် အဖွဲ့အစည်း၏ သေရေးရှင်ရေးကို ခွဲခြားပေးမည့် သော့ချက် ဖြစ်လာသည်။",
+    "translationMy": "မျက်မှောက်ခေတ် လူ့ဘောင်၏ အကျပ်အတည်း စီမံခန့်ခွဲမှုတွင် အတိတ်က စာရင်းအင်း အချက်အလက်များအပေါ်၌သာ မှီခိုနေသော သဘောထားမှာ အလွန်အန္တရာယ်ကြီးလှသည်။ အကယ်၍များ မမျှော်လင့်ထားသော သဘာဝဘေးအန္တရာယ်နှင့် ဆိုက်ဘာတိုက်ခိုက်မှုများ တစ်ပြိုင်နက် ဖြစ်ပွားခဲ့သည်ရှိသော် လက်ရှိ အခြေခံအဆောက်အအုံများ ချက်ချင်း ရပ်ဆိုင်းသွားနိုင်သည်။ အတိတ်က အေးချမ်းသော နေ့စဉ်ဘဝဆီသို့ ပြန်သွားနိုင်မည်သာဆိုလျှင် ပြန်သွားချင်သည်ဟူသော ဆန္ဒမျိုး ရှိတတ်သည်မှာ သဘာဝဖြစ်သော်လည်း လက်တွေ့ အကျပ်အတည်း ရင်ဆိုင်ရာတွင် အနာဂတ်ကို ကြိုတင်သိမြင်မှု လိုအပ်ပေသည်။ နိုင်ငံတော်အဆင့် အရေးပေါ်အခြေအနေသို့ ရောက်ရှိသွားပြီဆိုလျှင်မူ ဥပဒေမူဘောင်များကို တင်းကျပ်စွာ ကျင့်သုံးခြင်းနှင့်အတူ လက်တွေ့လုပ်ငန်းခွင် ခေါင်းဆောင်များ၏ အခြေအနေနှင့် လျော်ညီစွာ ဆုံးဖြတ်နိုင်စွမ်းသည် အဖွဲ့အစည်း၏ သေရေးရှင်ရေးကို ခွဲခြားပေးမည့် သော့ချက် ဖြစ်လာသည်။",
+    "questionIds": [
+      "n2.l43.q025",
+      "n2.l43.q026",
+      "n2.l43.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "サイバーテロ",
+        "reading": "サイバーテロ",
+        "meaning": "cyber-terrorism",
+        "meaningMy": "cyber-terrorism",
+        "meaningMyanmar": "cyber-terrorism"
+      },
+      {
+        "term": "臨機応変",
+        "reading": "りんきおうへん",
+        "meaning": "adapting to circumstances / flexibility",
+        "meaningMy": "adapting to circumstances / flexibility",
+        "meaningMyanmar": "adapting to circumstances / flexibility"
+      },
+      {
+        "term": "不確実性",
+        "reading": "ふかくじつせい",
+        "meaning": "uncertainty",
+        "meaningMy": "uncertainty",
+        "meaningMyanmar": "uncertainty"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l43.lis001",
+    "lessonId": "n2.l43",
+    "title": "緊急事態シミュレーションと避難計画の策定",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "有馬防災課長",
+      "野村専門官"
+    ],
+    "transcript": "有馬防災課長: 野村さん、仮に夜間に大規模な津波警報が発令されたとしたら、住民の避難誘導は可能ですか。\n野村専門官: 停電が発生するとなると、街灯が消えて避難経路の把握が著しく困難になります。\n有馬防災課長: 全住民に非常用ライトを配給できるものなら、今すぐにでも手配したいのだが。\n野村専門官: まずは自治会と連携し、非常用発電設備の設定と蓄電池の点検を最優先で進めましょう。",
+    "translation": "有馬防災課長: မစ္စတာနိုမုရ၊ အကယ်၍များ ညဘက်မှာ ကြီးမားတဲ့ ဆူနာမီ သတိပေးချက် ထုတ်ပြန်ခဲ့သည်ရှိသော် ပြည်သူတွေကို ဘေးလွတ်ရာ လမ်းညွှန်ခေါ်ဆောင်ဖို့ ဖြစ်နိုင်ပါ့မလား။\n野村専門官: လျှပ်စစ်မီး ပြတ်တောက်သွားပြီဆိုလျှင်မူ လမ်းမီးတွေ ငြိမ်းသွားပြီး ဘေးလွတ်ရာလမ်းကြောင်းကို ရှာဖွေဖို့ အလွန်ခက်ခဲသွားပါလိမ့်မယ်။\n有馬防災課長: ပြည်သူအားလုံးကို အရေးပေါ် မီးရှူးမီးအိမ်တွေ ဝေငှပေးနိုင်မည်သာဆိုရင် အခုချက်ချင်းတောင် စီစဉ်ချင်တာပေါ့ဗျာ။\n野村専門官: ရှေးဦးစွာ ရပ်ကွက်အဖွဲ့တွေနဲ့ ပူးပေါင်းပြီး အရေးပေါ် မီးစက်စနစ်တွေ တပ်ဆင်တာနဲ့ ဘက်ထရီ စစ်ဆေးတာကို ဦးစားပေး ဆောင်ရွက်ကြပါစို့။",
+    "translationMy": "有馬防災課長: မစ္စတာနိုမုရ၊ အကယ်၍များ ညဘက်မှာ ကြီးမားတဲ့ ဆူနာမီ သတိပေးချက် ထုတ်ပြန်ခဲ့သည်ရှိသော် ပြည်သူတွေကို ဘေးလွတ်ရာ လမ်းညွှန်ခေါ်ဆောင်ဖို့ ဖြစ်နိုင်ပါ့မလား။\n野村専門官: လျှပ်စစ်မီး ပြတ်တောက်သွားပြီဆိုလျှင်မူ လမ်းမီးတွေ ငြိမ်းသွားပြီး ဘေးလွတ်ရာလမ်းကြောင်းကို ရှာဖွေဖို့ အလွန်ခက်ခဲသွားပါလိမ့်မယ်။\n有馬防災課長: ပြည်သူအားလုံးကို အရေးပေါ် မီးရှူးမီးအိမ်တွေ ဝေငှပေးနိုင်မည်သာဆိုရင် အခုချက်ချင်းတောင် စီစဉ်ချင်တာပေါ့ဗျာ။\n野村専門官: ရှေးဦးစွာ ရပ်ကွက်အဖွဲ့တွေနဲ့ ပူးပေါင်းပြီး အရေးပေါ် မီးစက်စနစ်တွေ တပ်ဆင်တာနဲ့ ဘက်ထရီ စစ်ဆေးတာကို ဦးစားပေး ဆောင်ရွက်ကြပါစို့။",
+    "turns": [
+      {
+        "speaker": "有馬防災課長",
+        "ja": "野村さん、仮に夜間に大規模な津波警報が発令されたとしたら、住民の避難誘導は可能ですか。",
+        "kana": "のむらさん、かりにやかんにだいきぼなつなみけいほうがはつれいされたとしたら、じゅうみんのひなんゆうどうはかのうですか。",
+        "en": "Nomura-san, supposing hypothetically a major tsunami warning were issued at night, is guiding resident evacuations feasible?",
+        "my": "မစ္စတာနိုမုရ၊ အကယ်၍များ ညဘက်မှာ ကြီးမားတဲ့ ဆူနာမီ သတိပေးချက် ထုတ်ပြန်ခဲ့သည်ရှိသော် ပြည်သူတွေကို ဘေးလွတ်ရာ လမ်းညွှန်ခေါ်ဆောင်ဖို့ ဖြစ်နိုင်ပါ့မလား။",
+        "translationMy": "မစ္စတာနိုမုရ၊ အကယ်၍များ ညဘက်မှာ ကြီးမားတဲ့ ဆူနာမီ သတိပေးချက် ထုတ်ပြန်ခဲ့သည်ရှိသော် ပြည်သူတွေကို ဘေးလွတ်ရာ လမ်းညွှန်ခေါ်ဆောင်ဖို့ ဖြစ်နိုင်ပါ့မလား။",
+        "myanmar": "မစ္စတာနိုမုရ၊ အကယ်၍များ ညဘက်မှာ ကြီးမားတဲ့ ဆူနာမီ သတိပေးချက် ထုတ်ပြန်ခဲ့သည်ရှိသော် ပြည်သူတွေကို ဘေးလွတ်ရာ လမ်းညွှန်ခေါ်ဆောင်ဖို့ ဖြစ်နိုင်ပါ့မလား။"
+      },
+      {
+        "speaker": "野村専門官",
+        "ja": "停電が発生するとなると、街灯が消えて避難経路の把握が著しく困難になります。",
+        "kana": "ていでんがはっせいするとなると、がいとうがきえてひなんけいろのはあくがいちじるしくこんなんになります。",
+        "en": "If a power blackout occurs, streetlights will extinguish, making identifying evacuation routes exceedingly difficult.",
+        "my": "လျှပ်စစ်မီး ပြတ်တောက်သွားပြီဆိုလျှင်မူ လမ်းမီးတွေ ငြိမ်းသွားပြီး ဘေးလွတ်ရာလမ်းကြောင်းကို ရှာဖွေဖို့ အလွန်ခက်ခဲသွားပါလိမ့်မယ်။",
+        "translationMy": "လျှပ်စစ်မီး ပြတ်တောက်သွားပြီဆိုလျှင်မူ လမ်းမီးတွေ ငြိမ်းသွားပြီး ဘေးလွတ်ရာလမ်းကြောင်းကို ရှာဖွေဖို့ အလွန်ခက်ခဲသွားပါလိမ့်မယ်။",
+        "myanmar": "လျှပ်စစ်မီး ပြတ်တောက်သွားပြီဆိုလျှင်မူ လမ်းမီးတွေ ငြိမ်းသွားပြီး ဘေးလွတ်ရာလမ်းကြောင်းကို ရှာဖွေဖို့ အလွန်ခက်ခဲသွားပါလိမ့်မယ်။"
+      },
+      {
+        "speaker": "有馬防災課長",
+        "ja": "全住民に非常用ライトを配給できるものなら、今すぐにでも手配したいのだが。",
+        "kana": "ぜんじゅうみんにひじょうようライトをはいきゅうできるものなら、いますぐにでもてはいしたいのだが。",
+        "en": "If only we could distribute emergency lights to all residents, I would want to arrange it immediately.",
+        "my": "ပြည်သူအားလုံးကို အရေးပေါ် မီးရှူးမီးအိမ်တွေ ဝေငှပေးနိုင်မည်သာဆိုရင် အခုချက်ချင်းတောင် စီစဉ်ချင်တာပေါ့ဗျာ။",
+        "translationMy": "ပြည်သူအားလုံးကို အရေးပေါ် မီးရှူးမီးအိမ်တွေ ဝေငှပေးနိုင်မည်သာဆိုရင် အခုချက်ချင်းတောင် စီစဉ်ချင်တာပေါ့ဗျာ။",
+        "myanmar": "ပြည်သူအားလုံးကို အရေးပေါ် မီးရှူးမီးအိမ်တွေ ဝေငှပေးနိုင်မည်သာဆိုရင် အခုချက်ချင်းတောင် စီစဉ်ချင်တာပေါ့ဗျာ။"
+      },
+      {
+        "speaker": "野村専門官",
+        "ja": "まずは自治会と連携し、非常用発電設備の設定と蓄電池の点検を最優先で進めましょう。",
+        "kana": "まずはじちかいとれんけいし、ひじょうようはつでんせつびのせっていとちくでんちのてんけんをさいゆうせんですすめましょう。",
+        "en": "First, let us coordinate with neighborhood associations and prioritize setting up emergency generators and battery inspections.",
+        "my": "ရှေးဦးစွာ ရပ်ကွက်အဖွဲ့တွေနဲ့ ပူးပေါင်းပြီး အရေးပေါ် မီးစက်စနစ်တွေ တပ်ဆင်တာနဲ့ ဘက်ထရီ စစ်ဆေးတာကို ဦးစားပေး ဆောင်ရွက်ကြပါစို့။",
+        "translationMy": "ရှေးဦးစွာ ရပ်ကွက်အဖွဲ့တွေနဲ့ ပူးပေါင်းပြီး အရေးပေါ် မီးစက်စနစ်တွေ တပ်ဆင်တာနဲ့ ဘက်ထရီ စစ်ဆေးတာကို ဦးစားပေး ဆောင်ရွက်ကြပါစို့။",
+        "myanmar": "ရှေးဦးစွာ ရပ်ကွက်အဖွဲ့တွေနဲ့ ပူးပေါင်းပြီး အရေးပေါ် မီးစက်စနစ်တွေ တပ်ဆင်တာနဲ့ ဘက်ထရီ စစ်ဆေးတာကို ဦးစားပေး ဆောင်ရွက်ကြပါစို့။"
+      }
+    ],
+    "questionIds": [
+      "n2.l43.q028",
+      "n2.l43.q029",
+      "n2.l43.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l43.q001",
+      "lessonId": "n2.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "まだ事実かどうかわからない事柄を一時的に事実とみなすことを「[ _____ ]」という。",
+      "choices": [
+        "仮定",
+        "設定",
+        "定義",
+        "確定"
+      ],
+      "answer": "仮定",
+      "explanation": "仮定 (かてい) means assumption or supposition.",
+      "explanationMy": "မသေချာသောအရာကို ယာယီအားဖြင့် အမှန်အဖြစ် သတ်မှတ်ခြင်းမှာ 仮定 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q002",
+      "lessonId": "n2.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "自然現象などを説明するために立てる理論的な仮の説を「[ _____ ]」という。",
+      "choices": [
+        "仮説",
+        "設立",
+        "定義",
+        "模索"
+      ],
+      "answer": "仮説",
+      "explanation": "仮説 (かせつ) means working hypothesis.",
+      "explanationMy": "သိပ္ပံနည်းကျ စမ်းသပ်ရန် ယူဆထားသော သီအိုရီမှာ 仮説 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q003",
+      "lessonId": "n2.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "条件や方針を前もって決めて整えることを「[ _____ ]」という。",
+      "choices": [
+        "設定",
+        "仮設",
+        "予見",
+        "該当"
+      ],
+      "answer": "設定",
+      "explanation": "設定 (せってい) refers to setting or configuration.",
+      "explanationMy": "စည်းကမ်း သို့မဟုတ် အခြေအနေကို ကြိုတင်သတ်မှတ်ပြင်ဆင်ခြင်းမှာ 設定 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q004",
+      "lessonId": "n2.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "新しい組織や施設を公に立ち上げて創設することを「[ _____ ]」という。",
+      "choices": [
+        "設立",
+        "仮定",
+        "確定",
+        "妥結"
+      ],
+      "answer": "設立",
+      "explanation": "設立 (せつりつ) means foundation or establishment.",
+      "explanationMy": "အဖွဲ့အစည်းအသစ် တည်ထောင်ခြင်းမှာ 設立 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q005",
+      "lessonId": "n2.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "言葉の意味や概念の範囲を明確に限定して定めることを「[ _____ ]」という。",
+      "choices": [
+        "定義",
+        "仮説",
+        "設定",
+        "追及"
+      ],
+      "answer": "定義",
+      "explanation": "定義 (ていぎ) means definition.",
+      "explanationMy": "စကားလုံး၏ အဓိပ္ပာယ်ကို ရှင်းလင်းစွာ သတ်မှတ်ပြဋ္ဌာန်းခြင်းမှာ 定義 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q006",
+      "lessonId": "n2.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "物事がはっきりと決定して動かなくなることを「[ _____ ]」という。",
+      "choices": [
+        "確定",
+        "模索",
+        "予見",
+        "該当"
+      ],
+      "answer": "確定",
+      "explanation": "確定 (かくてい) means definitive decision / confirmation.",
+      "explanationMy": "ပြောင်းလဲ၍မရအောင် အတည်ဖြစ်သွားခြင်းမှာ 確定 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q007",
+      "lessonId": "n2.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "暗中の中で手探りしながら解決策を捜し求めることを「[ _____ ]」という。",
+      "choices": [
+        "模索",
+        "定義",
+        "仮説",
+        "設定"
+      ],
+      "answer": "模索",
+      "explanation": "模索 (もさく) means groping or searching.",
+      "explanationMy": "စမ်းတဝါးဝါး နည်းလမ်းရှာဖွေခြင်းမှာ 模索 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q008",
+      "lessonId": "n2.l43",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "対立していた双方が譲歩し合って合意に達することを「[ _____ ]」という。",
+      "choices": [
+        "妥結",
+        "追及",
+        "予見",
+        "仮定"
+      ],
+      "answer": "妥結",
+      "explanation": "妥結 (だけつ) means settlement or reaching an agreement.",
+      "explanationMy": "နှစ်ဖက်ညှိနှိုင်း၍ သဘောတူညီချက်ရရှိခြင်းမှာ 妥結 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q009",
+      "lessonId": "n2.l43",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「仮」の訓読みとして正しいものはどれか。",
+      "choices": [
+        "かり",
+        "まね・く",
+        "おさ・える",
+        "はか・る"
+      ],
+      "answer": "かり",
+      "explanation": "仮 has kunyomi かり.",
+      "explanationMy": "仮 ၏ Kunyomi အသံထွက်မှာ かり ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q010",
+      "lessonId": "n2.l43",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "単語「設立」の漢字「設」の音読みはどれか。",
+      "choices": [
+        "セツ",
+        "ゼツ",
+        "セキ",
+        "ショウ"
+      ],
+      "answer": "セツ",
+      "explanation": "設 has onyomi セツ.",
+      "explanationMy": "設 ၏ Onyomi အသံထွက်မှာ セツ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q011",
+      "lessonId": "n2.l43",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「定」の訓読みとして正しい組み合わせはどれか。",
+      "choices": [
+        "さだ・める / さだ・まる",
+        "もう・ける",
+        "かり",
+        "みちび・く"
+      ],
+      "answer": "さだ・める / さだ・まる",
+      "explanation": "定 has kunyomi readings さだ・める and さだ・まる.",
+      "explanationMy": "定 ၏ Kunyomi အသံထွက်များမှာ さだ・める နှင့် さだ・まる ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q012",
+      "lessonId": "n2.l43",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「仮説」の正しい読み方はどれか。",
+      "choices": [
+        "かせつ",
+        "かぜつ",
+        "けせつ",
+        "かりせつ"
+      ],
+      "answer": "かせつ",
+      "explanation": "仮説 is read as かせつ.",
+      "explanationMy": "仮説 ၏ အသံထွက်မှာ かせつ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q013",
+      "lessonId": "n2.l43",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "部首「言（ごんべん）」を持つ「設」の総画数はいくつか。",
+      "choices": [
+        "11画",
+        "10画",
+        "12画",
+        "9画"
+      ],
+      "answer": "11画",
+      "explanation": "設 has 11 strokes.",
+      "explanationMy": "設 စာလုံး၏ စုစုပေါင်း မျဉ်းဆွဲချက်မှာ ၁၁ ချက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q014",
+      "lessonId": "n2.l43",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「確定」の正しい読み方はどれか。",
+      "choices": [
+        "かくてい",
+        "かくじょう",
+        "がくてい",
+        "かっせい"
+      ],
+      "answer": "かくてい",
+      "explanation": "確定 is read as かくてい.",
+      "explanationMy": "確定 ၏ အသံထွက်မှာ かくてい ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q015",
+      "lessonId": "n2.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "[ _____ ]その実験結果が捏造だったとしたら、学会の信用は失墜する。",
+      "choices": [
+        "仮に",
+        "まさに",
+        "どうしても",
+        "せいぜい"
+      ],
+      "answer": "仮に",
+      "explanation": "仮に pairs with としたら to frame a hypothetical assumption.",
+      "explanationMy": "အကယ်၍များ ဟူသော ယူဆချက်ကို 仮に ဖြင့် စတင်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q016",
+      "lessonId": "n2.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "過去に戻れる[ _____ ]、もう一度やり直したい決断がある。",
+      "choices": [
+        "ものなら",
+        "となると",
+        "としたら",
+        "ばかりに"
+      ],
+      "answer": "ものなら",
+      "explanation": "ものなら conveys deep yearning for the near-impossible.",
+      "explanationMy": "အတိတ်သို့ ပြန်သွားနိုင်မည်သာဆိုပါက ဟူသော ဆန္ဒကို ものなら ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q017",
+      "lessonId": "n2.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "実際に自力で家を建てる[ _____ ]、専門的な知識と莫大な費用が必要になる。",
+      "choices": [
+        "となると",
+        "ものなら",
+        "としたら",
+        "反面"
+      ],
+      "answer": "となると",
+      "explanation": "となると marks the practical realization threshold.",
+      "explanationMy": "အမှန်တကယ် ကိုယ်တိုင် အိမ်ဆောက်မည်ဆိုပါက ဟူသော သဘောကို となると ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q018",
+      "lessonId": "n2.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "[ _____ ]敵が攻めてきたとすれば、我が軍は撤退するほかない。",
+      "choices": [
+        "仮に",
+        "まさか",
+        "たかが",
+        "あくまで"
+      ],
+      "answer": "仮に",
+      "explanation": "仮に establishes the hypothetical attack premise.",
+      "explanationMy": "အကယ်၍ ရန်သူ တိုက်ခိုက်လာခဲ့သည်ရှိသော် ဟူသော အချက်ကို 仮に ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q019",
+      "lessonId": "n2.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "あの難関試験に一発で合格できる[ _____ ]、何時間でも勉強に打ち込む覚悟だ。",
+      "choices": [
+        "ものなら",
+        "となると",
+        "としたら",
+        "にすぎない"
+      ],
+      "answer": "ものなら",
+      "explanation": "ものなら expresses earnest longing to pass the tough exam.",
+      "explanationMy": "တစ်ခါတည်းနှင့် အောင်မြင်နိုင်မည်သာဆိုပါက ဟူသော စိတ်ဆန္ဒကို ものなら ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q020",
+      "lessonId": "n2.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "全社員を解雇する[ _____ ]、労働組合との激しい紛争は避けられない。",
+      "choices": [
+        "となると",
+        "ものなら",
+        "としたら",
+        "ものの"
+      ],
+      "answer": "となると",
+      "explanation": "となると transitions into inevitable conflict once mass layoffs occur.",
+      "explanationMy": "ဝန်ထမ်းအားလုံး အလုပ်ထုတ်မည်ဆိုပါက ဟူသော အခြေအနေကို となると ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q021",
+      "lessonId": "n2.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "[ _____ ]君が私の立場だったとしたら、どう判断していただろうか。",
+      "choices": [
+        "仮に",
+        "おそらく",
+        "どうやら",
+        "せめて"
+      ],
+      "answer": "仮に",
+      "explanation": "仮に sets up the counterfactual role-reversal.",
+      "explanationMy": "အကယ်၍ မင်းသာ ငါ့နေရာမှာ ဖြစ်ခဲ့ပါက ဟူသော ယူဆချက်ကို 仮に ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q022",
+      "lessonId": "n2.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "世界平和をこの手で実現できる[ _____ ]、全財産を投げ打っても惜しくない。",
+      "choices": [
+        "ものなら",
+        "となると",
+        "としたら",
+        "てならない"
+      ],
+      "answer": "ものなら",
+      "explanation": "ものなら conveys willingness to sacrifice all if peace were possible.",
+      "explanationMy": "ငြိမ်းချမ်းရေးကို ဖော်ဆောင်နိုင်မည်သာဆိုပါက ဟူသော ဆန္ဒကို ものなら ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q023",
+      "lessonId": "n2.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "海外支店へ単身赴任する[ _____ ]、家族の生活設計を根本から見直さねばならない。",
+      "choices": [
+        "となると",
+        "ものなら",
+        "としたら",
+        "やまない"
+      ],
+      "answer": "となると",
+      "explanation": "となると triggers wholesale realignment once overseas transfer happens.",
+      "explanationMy": "တစ်ဦးတည်း ပြည်ပတာဝန်ကျပြီဆိုလျှင်မူ ဟူသော အခင်းအကျင်းကို となると ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q024",
+      "lessonId": "n2.l43",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "[ _____ ]その計画が破綻したとしても、次善の策がすでに用意されている。",
+      "choices": [
+        "仮に",
+        "決して",
+        "たとい",
+        "もしかして"
+      ],
+      "answer": "仮に",
+      "explanation": "仮に pairs with としても to prepare for potential failure.",
+      "explanationMy": "အကယ်၍ ထိုအစီအစဉ် ပျက်စီးခဲ့သည့်တိုင် ဟူသော သဘောကို 仮に ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q025",
+      "lessonId": "n2.l43",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において「仮に〜としたら」を用いて描かれている危機的シナリオはどれか。",
+      "choices": [
+        "想定外の自然災害とサイバーテロが同時に発生すること",
+        "過去の統計データがすべて消失してしまうこと",
+        "すべての国家インフラが民営化されること",
+        "サイバー空間の利用が国際条約で禁止されること"
+      ],
+      "answer": "想定外の自然災害とサイバーテロが同時に発生すること",
+      "explanation": "The text hypothesizes simultaneous disasters and cyber-attacks occurring.",
+      "explanationMy": "မမျှော်လင့်သော သဘာဝဘေးနှင့် ဆိုက်ဘာတိုက်ခိုက်မှုများ တစ်ပြိုင်နက် ဖြစ်ပေါ်လာခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q026",
+      "lessonId": "n2.l43",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "「戻れるものなら戻りたい」と表現されている願望の本質は何か。",
+      "choices": [
+        "過去の平穏な日常への回帰を願う自然な心情",
+        "危機管理体制の全面的な放棄",
+        "未来への予見能力を完全に拒絶する態度",
+        "過去の災害記録の改ざんを求める欲望"
+      ],
+      "answer": "過去の平穏な日常への回帰を願う自然な心情",
+      "explanation": "The text characterizes wishing to return to peaceful past days as natural human emotion.",
+      "explanationMy": "အတိတ်က အေးချမ်းသော ဘဝဆီသို့ ပြန်လည်ရောက်ရှိလိုသော သဘာဝဆန္ဒ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q027",
+      "lessonId": "n2.l43",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "国家的な非常事態への突入「となると」生死を分ける鍵とされる要素はどれか。",
+      "choices": [
+        "法的な枠組みの厳格な運用と現場指揮官の臨機応変な判断",
+        "すべての公的機関の業務の即時停止",
+        "過去の統計資料のみに基づいた画一的な対応",
+        "海外からの救援物資の無条件受け入れ"
+      ],
+      "answer": "法的な枠組みの厳格な運用と現場指揮官の臨機応変な判断",
+      "explanation": "The text highlights strict legal execution alongside commanders' adaptive flexibility.",
+      "explanationMy": "ဥပဒေဘောင်အတွင်း စီမံခြင်းနှင့် ခေါင်းဆောင်များ၏ အခြေအနေအရ ဆုံးဖြတ်နိုင်စွမ်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q028",
+      "lessonId": "n2.l43",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "有馬課長が提示した「仮に〜としたら」の想定シナリオは何か。",
+      "choices": [
+        "夜間に大規模な津波警報が発令されること",
+        "昼間に通信ネットワークが停止すること",
+        "河川が氾濫して堤防が決壊すること",
+        "山間部で大規模な土砂崩れが起きること"
+      ],
+      "answer": "夜間に大規模な津波警報が発令されること",
+      "explanation": "Arima supposes a major tsunami warning issued at night.",
+      "explanationMy": "ညဘက်တွင် ကြီးမားသော ဆူနာမီ သတိပေးချက် ထုတ်ပြန်ခံရသည့် အခြေအနေ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q029",
+      "lessonId": "n2.l43",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "野村専門官が「停電が発生するとなると」指摘した懸念事項はどれか。",
+      "choices": [
+        "街灯が消えて避難経路の把握が著しく困難になること",
+        "携帯電話の充電がすべて完了してしまうこと",
+        "避難所の食料が腐敗してしまうこと",
+        "住民全員が自動車で避難を開始すること"
+      ],
+      "answer": "街灯が消えて避難経路の把握が著しく困難になること",
+      "explanation": "Nomura notes power loss will plunge evacuation routes into darkness.",
+      "explanationMy": "လမ်းမီးများ ငြိမ်းသွားပြီး ဘေးလွတ်ရာ လမ်းကြောင်းကို သိရှိရန် အလွန်ခက်ခဲသွားမည့် အချက်ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l43.q030",
+      "lessonId": "n2.l43",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "有馬課長が「できるものなら今すぐにでも手配したい」と願った施策は何か。",
+      "choices": [
+        "全住民への非常用ライトの配給",
+        "沿岸部の防波堤の全面かさ上げ",
+        "避難訓練の無期限延期",
+        "夜間外出禁止令の発令"
+      ],
+      "answer": "全住民への非常用ライトの配給",
+      "explanation": "Arima wishes they could distribute emergency flashlights to every resident.",
+      "explanationMy": "ပြည်သူအားလုံးထံ အရေးပေါ် မီးအိမ်များ ဝေငှပေးခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l43.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+}

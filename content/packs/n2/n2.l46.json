@@ -1,0 +1,1795 @@
+{
+  "id": "n2.l46",
+  "level": "N2",
+  "module": "N2 Mastery & Professional Japanese",
+  "number": 46,
+  "title": "N2 Lesson 46: Inevitable Causes & Excuses (〜ものだから・〜ことだし・〜ばかりに)",
+  "description": "Mastery module focusing on Inevitable Reasons, Additional Justifications, and Regrettable Consequences: apologetic excuses (ものだから), casual multi-factor pretexts (ことだし), and catastrophic single triggers (ばかりに).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l46.v001",
+      "lessonId": "n2.l46",
+      "ja": "弁解",
+      "kana": "べんかい",
+      "en": "excuse / justification",
+      "my": "ဆင်ခြေ / အကြောင်းပြချက်",
+      "meaningMy": "ဆင်ခြေ / အကြောင်းပြချက်",
+      "meaningMyanmar": "ဆင်ခြေ / အကြောင်းပြချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [
+        "n2.l46.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.v002",
+      "lessonId": "n2.l46",
+      "ja": "釈明",
+      "kana": "しゃくめい",
+      "en": "explanation / vindication",
+      "my": "ရှင်းလင်းချက်ထုတ်ပြန်ခြင်း",
+      "meaningMy": "ရှင်းလင်းချက်ထုတ်ပြန်ခြင်း",
+      "meaningMyanmar": "ရှင်းလင်းချက်ထုတ်ပြန်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s002",
+      "kanjiIds": [
+        "n2.l46.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.v003",
+      "lessonId": "n2.l46",
+      "ja": "解決",
+      "kana": "かいけつ",
+      "en": "resolution / solution",
+      "my": "ပြဿနာဖြေရှင်းခြင်း",
+      "meaningMy": "ပြဿနာဖြေရှင်းခြင်း",
+      "meaningMyanmar": "ပြဿနာဖြေရှင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s003",
+      "kanjiIds": [
+        "n2.l46.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.v004",
+      "lessonId": "n2.l46",
+      "ja": "弁護",
+      "kana": "べんご",
+      "en": "defense / advocacy",
+      "my": "ခုခံချေပခြင်း",
+      "meaningMy": "ခုခံချေပခြင်း",
+      "meaningMyanmar": "ခုခံချေပခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s004",
+      "kanjiIds": [
+        "n2.l46.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.v005",
+      "lessonId": "n2.l46",
+      "ja": "事情",
+      "kana": "じじょう",
+      "en": "circumstances / conditions",
+      "my": "အခြေအနေ / အကြောင်းကိစ္စ",
+      "meaningMy": "အခြေအနေ / အကြောင်းကိစ္စ",
+      "meaningMyanmar": "အခြေအနေ / အကြောင်းကိစ္စ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s005",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.v006",
+      "lessonId": "n2.l46",
+      "ja": "延着",
+      "kana": "えんちゃく",
+      "en": "delayed arrival",
+      "my": "နောက်ကျရောက်ရှိခြင်း",
+      "meaningMy": "နောက်ကျရောက်ရှိခြင်း",
+      "meaningMyanmar": "နောက်ကျရောက်ရှိခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s006",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.v007",
+      "lessonId": "n2.l46",
+      "ja": "焦り",
+      "kana": "あせり",
+      "en": "impatience / agitation",
+      "my": "လောဘကြီးခြင်း / စိတ်ပူလောခြင်း",
+      "meaningMy": "လောဘကြီးခြင်း / စိတ်ပူလောခြင်း",
+      "meaningMyanmar": "လောဘကြီးခြင်း / စိတ်ပူလောခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s007",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.v008",
+      "lessonId": "n2.l46",
+      "ja": "誤解",
+      "kana": "ごかい",
+      "en": "misunderstanding",
+      "my": "အထင်လွဲမှားမှု",
+      "meaningMy": "အထင်လွဲမှားမှု",
+      "meaningMyanmar": "အထင်လွဲမှားမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s008",
+      "kanjiIds": [
+        "n2.l46.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.v009",
+      "lessonId": "n2.l46",
+      "ja": "責任",
+      "kana": "せきにん",
+      "en": "responsibility / liability",
+      "my": "တာဝန်ယူမှု",
+      "meaningMy": "တာဝန်ယူမှု",
+      "meaningMyanmar": "တာဝန်ယူမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.v010",
+      "lessonId": "n2.l46",
+      "ja": "軽率",
+      "kana": "けいそつ",
+      "en": "rash / thoughtless",
+      "my": "ပေါ့ဆသော / သတိလက်လွတ်ဖြစ်သော",
+      "meaningMy": "ပေါ့ဆသော / သတိလက်လွတ်ဖြစ်သော",
+      "meaningMyanmar": "ပေါ့ဆသော / သတိလက်လွတ်ဖြစ်သော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n2.l46.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.v011",
+      "lessonId": "n2.l46",
+      "ja": "釈放",
+      "kana": "しゃくほう",
+      "en": "release / discharge",
+      "my": "ပြန်လွှတ်ပေးခြင်း",
+      "meaningMy": "ပြန်လွှတ်ပေးခြင်း",
+      "meaningMyanmar": "ပြန်လွှတ်ပေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s011",
+      "kanjiIds": [
+        "n2.l46.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.v012",
+      "lessonId": "n2.l46",
+      "ja": "和解",
+      "kana": "わかい",
+      "en": "reconciliation / settlement",
+      "my": "ပြေလည်စေ့စပ်ခြင်း",
+      "meaningMy": "ပြေလည်စေ့စပ်ခြင်း",
+      "meaningMyanmar": "ပြေလည်စေ့စပ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s012",
+      "kanjiIds": [
+        "n2.l46.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l46.k001",
+      "lessonId": "n2.l46",
+      "char": "弁",
+      "meaning": "Speech / Dialect / Defense / Valve",
+      "meaningMy": "စကားပြောခြင်း / ဒေသစကား / ခုခံချေပခြင်း",
+      "meaningMyanmar": "စကားပြောခြင်း / ဒေသစကား / ခုခံချေပခြင်း",
+      "onyomi": [
+        "ベン"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "弁護",
+          "reading": "べんご",
+          "meaning": "defense / advocacy",
+          "meaningMy": "ခုခံချေပခြင်း / ရှေ့နေလိုက်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "弁解",
+          "reading": "べんかい",
+          "meaning": "excuse / justification",
+          "meaningMy": "ဆင်ခြေ / အကြောင်းပြချက်",
+          "preview": true
+        },
+        {
+          "word": "弁明",
+          "reading": "べんめい",
+          "meaning": "vindication / explanation",
+          "meaningMy": "ရှင်းလင်းချက်ပေးခြင်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l46.s001"
+      ],
+      "components": [
+        "廾",
+        "ム"
+      ],
+      "strokes": 5,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.k002",
+      "lessonId": "n2.l46",
+      "char": "解",
+      "meaning": "Solve / Untie / Explain / Understand",
+      "meaningMy": "ဖြေရှင်းသည် / ဖြေလျှော့သည် / နားလည်သည်",
+      "meaningMyanmar": "ဖြေရှင်းသည် / ဖြေလျှော့သည် / နားလည်သည်",
+      "onyomi": [
+        "カイ",
+        "ゲ"
+      ],
+      "kunyomi": [
+        "と・く",
+        "と・ける",
+        "わか・る"
+      ],
+      "exampleVocab": [
+        {
+          "word": "解決",
+          "reading": "かいけつ",
+          "meaning": "resolution / settlement",
+          "meaningMy": "ပြဿနာဖြေရှင်းခြင်း",
+          "preview": false
+        },
+        {
+          "word": "解釈",
+          "reading": "かいしゃく",
+          "meaning": "interpretation",
+          "meaningMy": "အဓိပ္ပာယ်ဖွင့်ဆိုချက်",
+          "preview": false
+        },
+        {
+          "word": "誤解",
+          "reading": "ごかい",
+          "meaning": "misunderstanding",
+          "meaningMy": "အထင်လွဲမှားမှု",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l46.s002"
+      ],
+      "components": [
+        "角",
+        "刀",
+        "牛"
+      ],
+      "strokes": 13,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.k003",
+      "lessonId": "n2.l46",
+      "char": "釈",
+      "meaning": "Explain / Release / Clarify",
+      "meaningMy": "ရှင်းပြသည် / လွှတ်ပေးသည် / ဖြေရှင်းသည်",
+      "meaningMyanmar": "ရှင်းပြသည် / လွှတ်ပေးသည် / ဖြေရှင်းသည်",
+      "onyomi": [
+        "シャク",
+        "セキ"
+      ],
+      "kunyomi": [
+        "と・く",
+        "ゆる・す"
+      ],
+      "exampleVocab": [
+        {
+          "word": "釈明",
+          "reading": "しゃくめい",
+          "meaning": "explanation / vindication",
+          "meaningMy": "ရှင်းလင်းတင်ပြချက်",
+          "preview": false
+        },
+        {
+          "word": "釈放",
+          "reading": "しゃくほう",
+          "meaning": "release / discharge",
+          "meaningMy": "လွတ်ငြိမ်းခွင့်ပေးခြင်း",
+          "preview": false
+        },
+        {
+          "word": "注釈",
+          "reading": "ちゅうしゃく",
+          "meaning": "annotation / footnote",
+          "meaningMy": "မှတ်ချက် / ရှင်းလင်းချက်",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l46.s003"
+      ],
+      "components": [
+        "釆",
+        "尺"
+      ],
+      "strokes": 11,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l46.g001",
+      "lessonId": "n2.l46",
+      "pattern": "〜ものだから",
+      "meaning": "Because / The reason is that... (apologetic personal excuse)",
+      "meaningMy": "...သောကြောင့် ဖြစ်ပါသည် (ကိုယ်ပိုင် အကြောင်းပြချက် ပေးရာတွင် သုံး)",
+      "meaningMyanmar": "...သောကြောင့် ဖြစ်ပါသည် (ကိုယ်ပိုင် အကြောင်းပြချက် ပေးရာတွင် သုံး)",
+      "formation": "V/Adj (普通形) + ものだから (Naな / Nな + ものだから)",
+      "explanation": {
+        "en": "Used when offering an apologetic excuse for an unintended delay, failure, or awkward situation, emphasizing that it was beyond personal control.",
+        "my": "မိမိဘက်မှ ရည်ရွယ်ချက်ရှိရှိ ပြုလုပ်ခဲ့ခြင်းမဟုတ်ဘဲ မလွှဲသာမရှောင်သာသော အခြေအနေကြောင့် ဖြစ်ရပါသည်ဟု ယဉ်ကျေးစွာ ဆင်ခြေပေးရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "မိမိဘက်မှ ရည်ရွယ်ချက်ရှိရှိ ပြုလုပ်ခဲ့ခြင်းမဟုတ်ဘဲ မလွှဲသာမရှောင်သာသော အခြေအနေကြောင့် ဖြစ်ရပါသည်ဟု ယဉ်ကျေးစွာ ဆင်ခြေပေးရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l46.s001",
+          "note": "〜ものだから usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l46.s002",
+          "note": "〜ものだから usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l46.s003",
+          "note": "〜ものだから usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l46.s010",
+          "note": "〜ものだから usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l46.g001",
+        "n2.l46.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ものだから."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "電車が事故で遅延した［　］、会議の開始時刻に間に合いませんでした。",
+      "clozeTarget": "ものだから",
+      "clozeHint": "Because / apologetic justification",
+      "acceptableSynonyms": [
+        "〜もので",
+        "〜から"
+      ],
+      "nuanceExplanationMy": "နောင်တရခြင်း သို့မဟုတ် တောင်းပန်ခြင်း သဘောထား ပါဝင်ပြီး မလွှဲသာသော အကြောင်းရင်းကို ပြသည်။"
+    },
+    {
+      "id": "n2.l46.g002",
+      "lessonId": "n2.l46",
+      "pattern": "〜ことだし",
+      "meaning": "Since... (one of multiple natural reasons to take action)",
+      "meaningMy": "...လည်း ဖြစ်တာမို့ / ...လဲဖြစ်နေတာကြောင့် (အကြောင်းရင်းတစ်ခုအနေဖြင့် ပြပြီး လုပ်ဆောင်ရန်)",
+      "meaningMyanmar": "...လည်း ဖြစ်တာမို့ / ...လဲဖြစ်နေတာကြောင့် (အကြောင်းရင်းတစ်ခုအနေဖြင့် ပြပြီး လုပ်ဆောင်ရန်)",
+      "formation": "V/Adj/N (普通形) + ことだし (Naな/である / Nの/である + ことだし)",
+      "explanation": {
+        "en": "Introduces one natural contributing factor among others to gently justify a suggestion, resolution, or invitation.",
+        "my": "အခြားသော အကြောင်းရင်းများစွာ ရှိသည့်အနက် တစ်ခုကို အကြောင်းပြချက်အဖြစ် ဖော်ပြ၍ တစ်စုံတစ်ခု လုပ်ဆောင်ရန် သို့မဟုတ် ဆုံးဖြတ်ရန် အဆိုပြုရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "အခြားသော အကြောင်းရင်းများစွာ ရှိသည့်အနက် တစ်ခုကို အကြောင်းပြချက်အဖြစ် ဖော်ပြ၍ တစ်စုံတစ်ခု လုပ်ဆောင်ရန် သို့မဟုတ် ဆုံးဖြတ်ရန် အဆိုပြုရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l46.s004",
+          "note": "〜ことだし usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l46.s005",
+          "note": "〜ことだし usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l46.s006",
+          "note": "〜ことだし usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l46.s011",
+          "note": "〜ことだし usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l46.g001",
+        "n2.l46.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ことだし."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "雨も止んだ［　］、気分転換に近所の公園まで散歩に行きませんか。",
+      "clozeTarget": "ことだし",
+      "clozeHint": "Since it is also the case that...",
+      "acceptableSynonyms": [
+        "〜し",
+        "〜ことだから"
+      ],
+      "nuanceExplanationMy": "အဓိကဖိအားပေးမှု မဟုတ်ဘဲ ပေါ့ပါးသော အကြောင်းရင်းပြချက် ဖြစ်သည်။"
+    },
+    {
+      "id": "n2.l46.g003",
+      "lessonId": "n2.l46",
+      "pattern": "〜ばかりに",
+      "meaning": "Simply because... (leads to a disastrous, regrettable result)",
+      "meaningMy": "...မိရုံမျှဖြင့် (မကောင်းသော နောင်တရဖွယ် ရလဒ် ဖြစ်ပေါ်စေခဲ့သည်)",
+      "meaningMyanmar": "...မိရုံမျှဖြင့် (မကောင်းသော နောင်တရဖွယ် ရလဒ် ဖြစ်ပေါ်စေခဲ့သည်)",
+      "formation": "V/Adj/N (普通形) + ばかりに (Naな/である / Nである + ばかりに)",
+      "explanation": {
+        "en": "Expresses deep regret that a single unfortunate cause or slight misjudgment triggered severe or disastrous consequences.",
+        "my": "တစ်ခုတည်းသော အသေးအမွှား မှားယွင်းမှု သို့မဟုတ် အကြောင်းရင်းလေးကြောင့် မလိုလားအပ်သော အလွန်ဆိုးရွားသော ရလဒ်ကို ခံစားခဲ့ရကြောင်း နောင်တဖြင့် ဖော်ပြသည်။"
+      },
+      "explanationMy": "တစ်ခုတည်းသော အသေးအမွှား မှားယွင်းမှု သို့မဟုတ် အကြောင်းရင်းလေးကြောင့် မလိုလားအပ်သော အလွန်ဆိုးရွားသော ရလဒ်ကို ခံစားခဲ့ရကြောင်း နောင်တဖြင့် ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l46.s007",
+          "note": "〜ばかりに usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l46.s008",
+          "note": "〜ばかりに usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l46.s009",
+          "note": "〜ばかりに usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l46.s012",
+          "note": "〜ばかりに usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l46.g001",
+        "n2.l46.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ばかりに."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "少し油断した［　］、長年築き上げた信用を失ってしまった。",
+      "clozeTarget": "ばかりに",
+      "clozeHint": "Simply because (regretful consequence)",
+      "acceptableSynonyms": [
+        "〜せいで",
+        "〜だけのために"
+      ],
+      "nuanceExplanationMy": "ပြင်းထန်သော နောင်တနှင့် မလိုလားအပ်သော ဆုံးရှုံးမှုကို အလေးပေးသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l46.s001",
+      "lessonId": "n2.l46",
+      "ja": "電車の延着があったものだから、弁解の余地なく遅刻してしまった。",
+      "kana": "でんしゃのえんちゃくがあったものだから、べんかいのよちなくちこくしてしまった。",
+      "translation": {
+        "en": "Because there was a train delay, I arrived late without any room for excuse.",
+        "my": "ရထား နောက်ကျရောက်ရှိခဲ့သောကြောင့် ဆင်ခြေပေးစရာ မရှိဘဲ နောက်ကျသွားခဲ့ရသည်။"
+      },
+      "translationMy": "ရထား နောက်ကျရောက်ရှိခဲ့သောကြောင့် ဆင်ခြေပေးစရာ မရှိဘဲ နောက်ကျသွားခဲ့ရသည်။",
+      "vocabIds": [
+        "n2.l46.v001",
+        "n2.l46.v006"
+      ],
+      "grammarIds": [
+        "n2.l46.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.s002",
+      "lessonId": "n2.l46",
+      "ja": "家庭内の事情が重なったものだから、会議の出席を急遽見合わせました。",
+      "kana": "かていないのじじょうがかさなったものだから、かいぎのしゅっせきをきゅうきょみあわせました。",
+      "translation": {
+        "en": "Because household circumstances compounded, I abruptly refrained from attending the conference.",
+        "my": "မိသားစု အခြေအနေများ ထပ်တိုက်ကြုံလာခဲ့သောကြောင့် အစည်းအဝေး တက်ရောက်မှုကို ရုတ်တရက် ရပ်နားခဲ့ရပါသည်။"
+      },
+      "translationMy": "မိသားစု အခြေအနေများ ထပ်တိုက်ကြုံလာခဲ့သောကြောင့် အစည်းအဝေး တက်ရောက်မှုကို ရုတ်တရက် ရပ်နားခဲ့ရပါသည်။",
+      "vocabIds": [
+        "n2.l46.v005"
+      ],
+      "grammarIds": [
+        "n2.l46.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.s003",
+      "lessonId": "n2.l46",
+      "ja": "焦りのあまり資料を忘れたものだから、上司から厳重な注意を受けた。",
+      "kana": "あせりのあまりしりょうをわすれたものだから、じょうしからげんじゅうなちゅういをうけた。",
+      "translation": {
+        "en": "Because in my agitation I forgot the documents, I received a severe reprimand from my superior.",
+        "my": "စိတ်ပူလောလွန်းသဖြင့် စာရွက်စာတမ်းများ မေ့ကျန်ခဲ့သောကြောင့် အထက်လူကြီးထံမှ ပြင်းထန်သော သတိပေးချက် ခံခဲ့ရသည်။"
+      },
+      "translationMy": "စိတ်ပူလောလွန်းသဖြင့် စာရွက်စာတမ်းများ မေ့ကျန်ခဲ့သောကြောင့် အထက်လူကြီးထံမှ ပြင်းထန်သော သတိပေးချက် ခံခဲ့ရသည်။",
+      "vocabIds": [
+        "n2.l46.v007"
+      ],
+      "grammarIds": [
+        "n2.l46.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.s004",
+      "lessonId": "n2.l46",
+      "ja": "週末で時間もあることだし、未解決の課題についてじっくり和解への道を協議しよう。",
+      "kana": "しゅうまつでじかんもあることだし、みかいけつのかだいについてじっくりわかいへのみちをきょうぎしよう。",
+      "translation": {
+        "en": "Since it's the weekend and we have time, let's deliberate thoroughly on the path toward reconciliation regarding unresolved issues.",
+        "my": "စနေတနင်္ဂနွေဖြစ်ပြီး အချိန်လည်း ရနေတာမို့ မဖြေရှင်းရသေးသော ပြဿနာများအတွက် ပြေလည်စေ့စပ်ရေး နည်းလမ်းများကို သေချာဆွေးနွေးကြစို့။"
+      },
+      "translationMy": "စနေတနင်္ဂနွေဖြစ်ပြီး အချိန်လည်း ရနေတာမို့ မဖြေရှင်းရသေးသော ပြဿနာများအတွက် ပြေလည်စေ့စပ်ရေး နည်းလမ်းများကို သေချာဆွေးနွေးကြစို့။",
+      "vocabIds": [
+        "n2.l46.v003",
+        "n2.l46.v012"
+      ],
+      "grammarIds": [
+        "n2.l46.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.s005",
+      "lessonId": "n2.l46",
+      "ja": "天気も回復したことだし、釈放された保護動物を自然に帰す作業を進めよう。",
+      "kana": "てんきもかいふくしたことだし、しゃくほうされたほごどうぶつをしぜんにかえすすすめよう。",
+      "translation": {
+        "en": "Since the weather has cleared up as well, let's proceed with returning the released protected animals to nature.",
+        "my": "ရာသီဥတုလည်း ပြန်ကောင်းလာပြီဖြစ်တာမို့ လွှတ်ပေးခဲ့သော ကာကွယ်ထားသည့် သတ္တဝါများကို သဘာဝတောရိုင်းထဲ ပြန်လွှတ်မည့် လုပ်ငန်းကို ဆက်လုပ်ကြစို့။"
+      },
+      "translationMy": "ရာသီဥတုလည်း ပြန်ကောင်းလာပြီဖြစ်တာမို့ လွှတ်ပေးခဲ့သော ကာကွယ်ထားသည့် သတ္တဝါများကို သဘာဝတောရိုင်းထဲ ပြန်လွှတ်မည့် လုပ်ငန်းကို ဆက်လုပ်ကြစို့။",
+      "vocabIds": [
+        "n2.l46.v011"
+      ],
+      "grammarIds": [
+        "n2.l46.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.s006",
+      "lessonId": "n2.l46",
+      "ja": "全員が揃ったことだし、両者の誤解を解くための意見交換を始めましょう。",
+      "kana": "ぜんいんがそろったことだし、りょうしゃのごかいをとくためのいけんこうかんをはじめましょう。",
+      "translation": {
+        "en": "Since everyone has gathered, let's commence exchanging views to dissolve misunderstandings between both parties.",
+        "my": "အားလုံးလည်း စုံညီသွားပြီဖြစ်တာမို့ နှစ်ဦးနှစ်ဖက် အထင်လွဲမှားမှုများကို ဖြေဖျောက်ရန် အမြင်ဖလှယ်ခြင်းကို စတင်ကြပါစို့။"
+      },
+      "translationMy": "အားလုံးလည်း စုံညီသွားပြီဖြစ်တာမို့ နှစ်ဦးနှစ်ဖက် အထင်လွဲမှားမှုများကို ဖြေဖျောက်ရန် အမြင်ဖလှယ်ခြင်းကို စတင်ကြပါစို့။",
+      "vocabIds": [
+        "n2.l46.v008"
+      ],
+      "grammarIds": [
+        "n2.l46.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.s007",
+      "lessonId": "n2.l46",
+      "ja": "軽率な発言をしたばかりに、社会的な責任を追及される事態に陥った。",
+      "kana": "けいそつなはつげんをしたばかりに、しゃかいてきなせきにんをついきゅうされるじたいにおちいった。",
+      "translation": {
+        "en": "Simply because I made a thoughtless remark, I fell into a situation where societal responsibility was relentlessly pursued.",
+        "my": "သတိလက်လွတ် ပေါ့ဆသော စကားတစ်ခွန်း ပြောမိရုံမျှဖြင့် လူမှုရေး တာဝန်ယူမှုကို အပြင်းအထန် မေးခွန်းထုတ်ခံရသည့် အခြေအနေသို့ ရောက်ရှိသွားခဲ့သည်။"
+      },
+      "translationMy": "သတိလက်လွတ် ပေါ့ဆသော စကားတစ်ခွန်း ပြောမိရုံမျှဖြင့် လူမှုရေး တာဝန်ယူမှုကို အပြင်းအထန် မေးခွန်းထုတ်ခံရသည့် အခြေအနေသို့ ရောက်ရှိသွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l46.v009",
+        "n2.l46.v010"
+      ],
+      "grammarIds": [
+        "n2.l46.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.s008",
+      "lessonId": "n2.l46",
+      "ja": "真実を知らないばかりに、相手の弁護を誤って拒絶してしまった。",
+      "kana": "しんじつをしらないばかりに、あいてのべんごをあやまってきょぜつしてしまった。",
+      "translation": {
+        "en": "Simply because I didn't know the truth, I mistakenly rejected the other party's legal defense.",
+        "my": "အမှန်တရားကို မသိခဲ့ရုံမျှဖြင့် တစ်ဖက်လူ၏ ခုခံချေပမှုကို မှားယွင်းစွာ ငြင်းပယ်မိခဲ့သည်။"
+      },
+      "translationMy": "အမှန်တရားကို မသိခဲ့ရုံမျှဖြင့် တစ်ဖက်လူ၏ ခုခံချေပမှုကို မှားယွင်းစွာ ငြင်းပယ်မိခဲ့သည်။",
+      "vocabIds": [
+        "n2.l46.v004"
+      ],
+      "grammarIds": [
+        "n2.l46.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.s009",
+      "lessonId": "n2.l46",
+      "ja": "公式の釈明を怠ったばかりに、紛争の円満な解決が極めて困難になった。",
+      "kana": "こうしきのしゃくめいをおこたったばかりに、ふんそうのえんまんなかいけつがきわめてこんなんになった。",
+      "translation": {
+        "en": "Simply because we neglected an official explanation, the amicable resolution of the conflict became exceedingly difficult.",
+        "my": "တရားဝင် ရှင်းလင်းချက်ထုတ်ရန် ပျက်ကွက်ခဲ့မိရုံမျှဖြင့် အငြင်းပွားမှုကို အဆင်ပြေစွာ ဖြေရှင်းနိုင်ရေးမှာ အလွန်ခက်ခဲသွားခဲ့သည်။"
+      },
+      "translationMy": "တရားဝင် ရှင်းလင်းချက်ထုတ်ရန် ပျက်ကွက်ခဲ့မိရုံမျှဖြင့် အငြင်းပွားမှုကို အဆင်ပြေစွာ ဖြေရှင်းနိုင်ရေးမှာ အလွန်ခက်ခဲသွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l46.v002",
+        "n2.l46.v003"
+      ],
+      "grammarIds": [
+        "n2.l46.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.s010",
+      "lessonId": "n2.l46",
+      "ja": "事情を弁解する暇もなく、突発的な事故の責任を問われることとなった。",
+      "kana": "じじょうをべんかいするひまもなく、とっぱつてきなじこのせきにんをとわれることとなった。",
+      "translation": {
+        "en": "Without even leisure to explain the circumstances, I was held accountable for the sudden accident.",
+        "my": "အခြေအနေကို ဆင်ခြေရှင်းပြရန် အချိန်ပင်မရဘဲ ရုတ်တရက်ဖြစ်ပွားသော မတော်တဆမှု၏ တာဝန်ကို ယူရမည့်အဖြစ် ကြုံခဲ့ရသည်။"
+      },
+      "translationMy": "အခြေအနေကို ဆင်ခြေရှင်းပြရန် အချိန်ပင်မရဘဲ ရုတ်တရက်ဖြစ်ပွားသော မတော်တဆမှု၏ တာဝန်ကို ယူရမည့်အဖြစ် ကြုံခဲ့ရသည်။",
+      "vocabIds": [
+        "n2.l46.v001",
+        "n2.l46.v005",
+        "n2.l46.v009"
+      ],
+      "grammarIds": [
+        "n2.l46.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.s011",
+      "lessonId": "n2.l46",
+      "ja": "弁護士が真実を釈明したことだし、双方の和解に向けて事態は好転するだろう。",
+      "kana": "べんごしがしんじつをしゃくめいしたことだし、そうほうのわかいにむけてじたいはこうてんするだろう。",
+      "translation": {
+        "en": "Since the attorney has clarified the truth as well, the situation should turn favorably toward mutual reconciliation.",
+        "my": "ရှေ့နေက အမှန်တရားကို ရှင်းလင်းထုတ်ပြန်ပေးခဲ့တာလည်း ဖြစ်တာမို့ နှစ်ဦးနှစ်ဖက် ပြေလည်စေ့စပ်ရေးအတွက် အခြေအနေ ကောင်းမွန်လာမည်ဖြစ်သည်။"
+      },
+      "translationMy": "ရှေ့နေက အမှန်တရားကို ရှင်းလင်းထုတ်ပြန်ပေးခဲ့တာလည်း ဖြစ်တာမို့ နှစ်ဦးနှစ်ဖက် ပြေလည်စေ့စပ်ရေးအတွက် အခြေအနေ ကောင်းမွန်လာမည်ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l46.v002",
+        "n2.l46.v004",
+        "n2.l46.v012"
+      ],
+      "grammarIds": [
+        "n2.l46.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l46.s012",
+      "lessonId": "n2.l46",
+      "ja": "焦りから軽率な契約書に署名したばかりに、莫大な損害賠償を背負う羽目になった。",
+      "kana": "あせりからけいそつなけいやくしょにしょめいしたばかりに、ばくだいなそんがいばいしょうをせおうはめになった。",
+      "translation": {
+        "en": "Simply because I signed a rash agreement out of impatience, I ended up saddled with immense compensation damages.",
+        "my": "လောဘနှင့် စိတ်ပူလောမှုကြောင့် ပေါ့ဆသော စာချုပ်ကို လက်မှတ်ထိုးမိရုံမျှဖြင့် ကြီးမားလှသော နစ်နာကြေးများကို ပေးဆပ်ရမည့်အဖြစ်သို့ ရောက်ခဲ့ရသည်။"
+      },
+      "translationMy": "လောဘနှင့် စိတ်ပူလောမှုကြောင့် ပေါ့ဆသော စာချုပ်ကို လက်မှတ်ထိုးမိရုံမျှဖြင့် ကြီးမားလှသော နစ်နာကြေးများကို ပေးဆပ်ရမည့်အဖြစ်သို့ ရောက်ခဲ့ရသည်။",
+      "vocabIds": [
+        "n2.l46.v007",
+        "n2.l46.v010"
+      ],
+      "grammarIds": [
+        "n2.l46.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l46.r001",
+    "lessonId": "n2.l46",
+    "title": "危機管理における釈明と説明責任の重要性",
+    "level": "N2",
+    "text": "現代の組織運営において、不祥事や事故が発生した際、関係者が「多忙を極めていたものだから」といった私的な弁解に終始することは許されない。初動対応で公的な釈明を怠ったばかりに、長年培った社会的な信用が一瞬にして失墜する事例は枚挙にいとまがない。透明性のある情報開示を行うことだし、被害者に対する誠実な対応と根本的な解決策の提示こそが、関係者との和解および信頼回復への唯一の道筋である。誤解を放置せず迅速に対話することが不可欠だ。",
+    "kanaText": "げんだいのそしきうんえいにおいて、ふしょうじやじこがはっせいしたさい、かんけいしゃが「たぼうをきわめていたものだから」といったしてきなべんかいにしゅうしすることはゆるされない。しょどうたいおうでこうてきなしゃくめいをおこたったばかりに、ながねんつちかったしゃかいてきなしんようがいっしゅんにしてしっついするじれいはまいきょにいとまがない。とうめいせいのあるじょうほうかいじをおこなうことだし、ひがいしゃにたいするせいじつなたいおうとこんぽんてきなかいけつさくのていじこそが、かんけいしゃとのわかいおよびしんらいかいふくへのゆいいつのみちすじである。ごかいをほうちせずじんそくにたいわすることがふかけつだ。",
+    "translation": "မျက်မှောက်ခေတ် အဖွဲ့အစည်း စီမံခန့်ခွဲမှုတွင် မတော်တဆမှုများ သို့မဟုတ် ချို့ယွင်းချက်များ ဖြစ်ပေါ်လာပါက သက်ဆိုင်သူများ အနေဖြင့် 'အလုပ်များလွန်းခဲ့သောကြောင့် ဖြစ်ပါသည်' ဟူသော ကိုယ်ပိုင် ဆင်ခြေများ ပေးနေ၍ မရပေ။ အစောပိုင်းတုံ့ပြန်မှုတွင် တရားဝင် ရှင်းလင်းချက် ထုတ်ပြန်ရန် ပျက်ကွက်ခဲ့မိရုံမျှဖြင့် နှစ်ပေါင်းများစွာ တည်ဆောက်ခဲ့သော လူမှုရေး ယုံကြည်ကိုးစားမှုများ တစ်ခဏအတွင်း ပျက်စီးဆုံးရှုံးခဲ့ရသည့် သာဓကများစွာ ရှိသည်။ ပွင့်လင်းမြင်သာသော သတင်းအချက်အလက် ထုတ်ဖော်မှုများ ပြုလုပ်ရမည်လည်း ဖြစ်တာမို့ နစ်နာသူများအပေါ် ရိုးသားစွာ တုံ့ပြန်ခြင်းနှင့် အခြေခံကျသော ဖြေရှင်းနည်းများ တင်ပြခြင်းသည်သာ သက်ဆိုင်သူများနှင့် ပြေလည်စေ့စပ်ပြီး ယုံကြည်မှု ပြန်လည်တည်ဆောက်ရေးအတွက် တစ်ခုတည်းသော လမ်းကြောင်းဖြစ်သည်။ အထင်လွဲမှားမှုများကို လျစ်လျူမရှုဘဲ အလျင်အမြန် ဆွေးနွေးရန် မရှိမဖြစ် လိုအပ်သည်။",
+    "translationMy": "မျက်မှောက်ခေတ် အဖွဲ့အစည်း စီမံခန့်ခွဲမှုတွင် မတော်တဆမှုများ သို့မဟုတ် ချို့ယွင်းချက်များ ဖြစ်ပေါ်လာပါက သက်ဆိုင်သူများ အနေဖြင့် 'အလုပ်များလွန်းခဲ့သောကြောင့် ဖြစ်ပါသည်' ဟူသော ကိုယ်ပိုင် ဆင်ခြေများ ပေးနေ၍ မရပေ။ အစောပိုင်းတုံ့ပြန်မှုတွင် တရားဝင် ရှင်းလင်းချက် ထုတ်ပြန်ရန် ပျက်ကွက်ခဲ့မိရုံမျှဖြင့် နှစ်ပေါင်းများစွာ တည်ဆောက်ခဲ့သော လူမှုရေး ယုံကြည်ကိုးစားမှုများ တစ်ခဏအတွင်း ပျက်စီးဆုံးရှုံးခဲ့ရသည့် သာဓကများစွာ ရှိသည်။ ပွင့်လင်းမြင်သာသော သတင်းအချက်အလက် ထုတ်ဖော်မှုများ ပြုလုပ်ရမည်လည်း ဖြစ်တာမို့ နစ်နာသူများအပေါ် ရိုးသားစွာ တုံ့ပြန်ခြင်းနှင့် အခြေခံကျသော ဖြေရှင်းနည်းများ တင်ပြခြင်းသည်သာ သက်ဆိုင်သူများနှင့် ပြေလည်စေ့စပ်ပြီး ယုံကြည်မှု ပြန်လည်တည်ဆောက်ရေးအတွက် တစ်ခုတည်းသော လမ်းကြောင်းဖြစ်သည်။ အထင်လွဲမှားမှုများကို လျစ်လျူမရှုဘဲ အလျင်အမြန် ဆွေးနွေးရန် မရှိမဖြစ် လိုအပ်သည်။",
+    "questionIds": [
+      "n2.l46.q025",
+      "n2.l46.q026",
+      "n2.l46.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "不祥事",
+        "reading": "ふしょうじ",
+        "meaning": "scandal / deplorable event",
+        "meaningMy": "scandal / deplorable event",
+        "meaningMyanmar": "scandal / deplorable event"
+      },
+      {
+        "term": "失墜",
+        "reading": "しっつい",
+        "meaning": "fall / forfeiture",
+        "meaningMy": "fall / forfeiture",
+        "meaningMyanmar": "fall / forfeiture"
+      },
+      {
+        "term": "枚挙にいとまがない",
+        "reading": "まいきょにいとまがない",
+        "meaning": "too numerous to mention",
+        "meaningMy": "too numerous to mention",
+        "meaningMyanmar": "too numerous to mention"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l46.lis001",
+    "lessonId": "n2.l46",
+    "title": "プロジェクトの納品遅延とクライアント対応",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "課長",
+      "担当者"
+    ],
+    "transcript": "課長: 今回の納品遅延について、先方にどのような弁明をしたのか報告してください。\n担当者: サーバー障害があったものだから、復旧に時間がかかったと釈明いたしました。\n課長: 単なる言い訳では困る。先方の怒りを買ったばかりに、契約解除の危機に瀕しているのだぞ。\n担当者: 先方の役員も在社していることだし、今から直接出向いて謝罪と再発防止策を説明してまいります。",
+    "translation": "課長: ယခု အပြီးသတ် ပို့ဆောင်မှု နောက်ကျရခြင်းနှင့် ပတ်သက်၍ တစ်ဖက်သို့ မည်သို့ ရှင်းလင်းချက် ပေးခဲ့သည်ကို အစီရင်ခံပါ။\n担当者: ဆာဗာ ချို့ယွင်းမှု ဖြစ်ပေါ်ခဲ့သောကြောင့် ပြန်လည်ကောင်းမွန်ရန် အချိန်ယူခဲ့ရပါသည်ဟု ရှင်းလင်းတင်ပြခဲ့ပါသည်။\n課長: ဆင်ခြေသက်သက်ဆိုပါက မဖြစ်ပေ။ တစ်ဖက်၏ အမျက်ဒေါသကို ဆွမိရုံမျှဖြင့် စာချုပ်ဖျက်သိမ်းခံရမည့် အန္တရာယ်နှင့် ရင်ဆိုင်နေရပြီ မဟုတ်လော။\n担当者: တစ်ဖက်ကုမ္ပဏီ အရာရှိများလည်း ရုံးမှာ ရှိနေဆဲ ဖြစ်တာမို့ ယခုပင် ကိုယ်တိုင်သွားရောက် တောင်းပန်ပြီး နောက်ထပ်မဖြစ်ပွားစေရေး အစီအမံများကို ရှင်းပြပါမည်။",
+    "translationMy": "課長: ယခု အပြီးသတ် ပို့ဆောင်မှု နောက်ကျရခြင်းနှင့် ပတ်သက်၍ တစ်ဖက်သို့ မည်သို့ ရှင်းလင်းချက် ပေးခဲ့သည်ကို အစီရင်ခံပါ။\n担当者: ဆာဗာ ချို့ယွင်းမှု ဖြစ်ပေါ်ခဲ့သောကြောင့် ပြန်လည်ကောင်းမွန်ရန် အချိန်ယူခဲ့ရပါသည်ဟု ရှင်းလင်းတင်ပြခဲ့ပါသည်။\n課長: ဆင်ခြေသက်သက်ဆိုပါက မဖြစ်ပေ။ တစ်ဖက်၏ အမျက်ဒေါသကို ဆွမိရုံမျှဖြင့် စာချုပ်ဖျက်သိမ်းခံရမည့် အန္တရာယ်နှင့် ရင်ဆိုင်နေရပြီ မဟုတ်လော။\n担当者: တစ်ဖက်ကုမ္ပဏီ အရာရှိများလည်း ရုံးမှာ ရှိနေဆဲ ဖြစ်တာမို့ ယခုပင် ကိုယ်တိုင်သွားရောက် တောင်းပန်ပြီး နောက်ထပ်မဖြစ်ပွားစေရေး အစီအမံများကို ရှင်းပြပါမည်။",
+    "turns": [
+      {
+        "speaker": "課長",
+        "ja": "今回の納品遅延について、先方にどのような弁明をしたのか報告してください。",
+        "kana": "こんかいののうひんちえんについて、せんぽうにどのようなべんめいをしたのかほうこくしてください。",
+        "en": "Regarding this delivery delay, please report what sort of explanation you offered to the client.",
+        "my": "ယခု အပြီးသတ် ပို့ဆောင်မှု နောက်ကျရခြင်းနှင့် ပတ်သက်၍ တစ်ဖက်သို့ မည်သို့ ရှင်းလင်းချက် ပေးခဲ့သည်ကို အစီရင်ခံပါ။",
+        "translationMy": "ယခု အပြီးသတ် ပို့ဆောင်မှု နောက်ကျရခြင်းနှင့် ပတ်သက်၍ တစ်ဖက်သို့ မည်သို့ ရှင်းလင်းချက် ပေးခဲ့သည်ကို အစီရင်ခံပါ။",
+        "myanmar": "ယခု အပြီးသတ် ပို့ဆောင်မှု နောက်ကျရခြင်းနှင့် ပတ်သက်၍ တစ်ဖက်သို့ မည်သို့ ရှင်းလင်းချက် ပေးခဲ့သည်ကို အစီရင်ခံပါ။"
+      },
+      {
+        "speaker": "担当者",
+        "ja": "サーバー障害があったものだから、復旧に時間がかかったと釈明いたしました。",
+        "kana": "サーバーしょうがいがあったものだから、ふっきゅうにじかんがかかったとしゃくめいいたしました。",
+        "en": "Because there was a server outage, I explained that restoration took unexpected time.",
+        "my": "ဆာဗာ ချို့ယွင်းမှု ဖြစ်ပေါ်ခဲ့သောကြောင့် ပြန်လည်ကောင်းမွန်ရန် အချိန်ယူခဲ့ရပါသည်ဟု ရှင်းလင်းတင်ပြခဲ့ပါသည်။",
+        "translationMy": "ဆာဗာ ချို့ယွင်းမှု ဖြစ်ပေါ်ခဲ့သောကြောင့် ပြန်လည်ကောင်းမွန်ရန် အချိန်ယူခဲ့ရပါသည်ဟု ရှင်းလင်းတင်ပြခဲ့ပါသည်။",
+        "myanmar": "ဆာဗာ ချို့ယွင်းမှု ဖြစ်ပေါ်ခဲ့သောကြောင့် ပြန်လည်ကောင်းမွန်ရန် အချိန်ယူခဲ့ရပါသည်ဟု ရှင်းလင်းတင်ပြခဲ့ပါသည်။"
+      },
+      {
+        "speaker": "課長",
+        "ja": "単なる言い訳では困る。先方の怒りを買ったばかりに、契約解除の危機に瀕しているのだぞ。",
+        "kana": "たんなるいいわけではこまる。せんぽうのいかりをかったばかりに、けいやくかいじょのききにひんしているのだぞ。",
+        "en": "Mere excuses won't do. Simply because you incited their fury, we are teetering on contract termination.",
+        "my": "ဆင်ခြေသက်သက်ဆိုပါက မဖြစ်ပေ။ တစ်ဖက်၏ အမျက်ဒေါသကို ဆွမိရုံမျှဖြင့် စာချုပ်ဖျက်သိမ်းခံရမည့် အန္တရာယ်နှင့် ရင်ဆိုင်နေရပြီ မဟုတ်လော။",
+        "translationMy": "ဆင်ခြေသက်သက်ဆိုပါက မဖြစ်ပေ။ တစ်ဖက်၏ အမျက်ဒေါသကို ဆွမိရုံမျှဖြင့် စာချုပ်ဖျက်သိမ်းခံရမည့် အန္တရာယ်နှင့် ရင်ဆိုင်နေရပြီ မဟုတ်လော။",
+        "myanmar": "ဆင်ခြေသက်သက်ဆိုပါက မဖြစ်ပေ။ တစ်ဖက်၏ အမျက်ဒေါသကို ဆွမိရုံမျှဖြင့် စာချုပ်ဖျက်သိမ်းခံရမည့် အန္တရာယ်နှင့် ရင်ဆိုင်နေရပြီ မဟုတ်လော။"
+      },
+      {
+        "speaker": "担当者",
+        "ja": "先方の役員も在社していることだし、今から直接出向いて謝罪と再発防止策を説明してまいります。",
+        "kana": "せんぽうのやくいんもざいしゃしていることだし、いまからちょくせつでむいてしゃざいとさいはつぼうしさくをせつめいしてまいります。",
+        "en": "Since their executives are in the office as well, I shall go in person right away to apologize and explain our prevention measures.",
+        "my": "တစ်ဖက်ကုမ္ပဏီ အရာရှိများလည်း ရုံးမှာ ရှိနေဆဲ ဖြစ်တာမို့ ယခုပင် ကိုယ်တိုင်သွားရောက် တောင်းပန်ပြီး နောက်ထပ်မဖြစ်ပွားစေရေး အစီအမံများကို ရှင်းပြပါမည်။",
+        "translationMy": "တစ်ဖက်ကုမ္ပဏီ အရာရှိများလည်း ရုံးမှာ ရှိနေဆဲ ဖြစ်တာမို့ ယခုပင် ကိုယ်တိုင်သွားရောက် တောင်းပန်ပြီး နောက်ထပ်မဖြစ်ပွားစေရေး အစီအမံများကို ရှင်းပြပါမည်။",
+        "myanmar": "တစ်ဖက်ကုမ္ပဏီ အရာရှိများလည်း ရုံးမှာ ရှိနေဆဲ ဖြစ်တာမို့ ယခုပင် ကိုယ်တိုင်သွားရောက် တောင်းပန်ပြီး နောက်ထပ်မဖြစ်ပွားစေရေး အစီအမံများကို ရှင်းပြပါမည်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l46.q028",
+      "n2.l46.q029",
+      "n2.l46.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l46.q001",
+      "lessonId": "n2.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "自分の行動を正当化するために理由を述べることを何というか。",
+      "choices": [
+        "弁解",
+        "決算",
+        "免除",
+        "契約"
+      ],
+      "answer": "弁解",
+      "explanation": "弁解 (べんかい) means an excuse or justification.",
+      "explanationMy": "弁解 ဆိုသည်မှာ မိမိလုပ်ရပ်အတွက် ဆင်ခြေဆင်လက် အကြောင်းပြချက် ပေးခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q002",
+      "lessonId": "n2.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "公に疑念や批判を晴らすために事実を説明することを何というか。",
+      "choices": [
+        "釈明",
+        "排他",
+        "圧迫",
+        "妥協"
+      ],
+      "answer": "釈明",
+      "explanation": "釈明 (しゃくめい) means explanation, clarification, or vindication.",
+      "explanationMy": "釈明 ဆိုသည်မှာ အများသူငှာ သံသယကို ရှင်းလင်းတင်ပြခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q003",
+      "lessonId": "n2.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "対立や争いをやめて穏やかに仲直りすることを何というか。",
+      "choices": [
+        "和解",
+        "延着",
+        "焦り",
+        "排除"
+      ],
+      "answer": "和解",
+      "explanation": "和解 (わかい) means reconciliation or amicable settlement.",
+      "explanationMy": "和解 ဆိုသည်မှာ နှစ်ဦးနှစ်ဖက် ပြေလည်စေ့စပ်ခြင်း သို့မဟုတ် ပြန်လည်သင့်မြတ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q004",
+      "lessonId": "n2.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "物事を深く考えず軽はずみに行う様子を表す言葉はどれか。",
+      "choices": [
+        "軽率",
+        "不屈",
+        "抜群",
+        "妥当"
+      ],
+      "answer": "軽率",
+      "explanation": "軽率 (けいそつ) means rash, thoughtless, or frivolous.",
+      "explanationMy": "軽率 ဆိုသည်မှာ သတိလက်လွတ် ပေါ့ဆသော အပြုအမူ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q005",
+      "lessonId": "n2.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "電車や飛行機などが予定時刻より遅れて到着することを何というか。",
+      "choices": [
+        "延着",
+        "抜擢",
+        "釈放",
+        "注釈"
+      ],
+      "answer": "延着",
+      "explanation": "延着 (えんちゃく) means delayed arrival.",
+      "explanationMy": "延着 ဆိုသည်မှာ ယာဉ်များ နောက်ကျရောက်ရှိခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q006",
+      "lessonId": "n2.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "相手の真意や事実を誤って受け取ることを何というか。",
+      "choices": [
+        "誤解",
+        "理解",
+        "正解",
+        "見解"
+      ],
+      "answer": "誤解",
+      "explanation": "誤解 (ごかい) means misunderstanding.",
+      "explanationMy": "誤解 ဆိုသည်မှာ အထင်လွဲမှားခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q007",
+      "lessonId": "n2.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "法的に被告人の利益を守り主張することを何というか。",
+      "choices": [
+        "弁護",
+        "拘束",
+        "排除",
+        "処罰"
+      ],
+      "answer": "弁護",
+      "explanation": "弁護 (べんご) means legal defense or advocacy.",
+      "explanationMy": "弁護 ဆိုသည်မှာ တရားရုံးတွင် ခုခံချေပပေးခြင်း သို့မဟုတ် ရှေ့နေလိုက်ပေးခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q008",
+      "lessonId": "n2.l46",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "思い通りに進まず心が落ち着かない感情を表す言葉はどれか。",
+      "choices": [
+        "焦り",
+        "誇り",
+        "怒り",
+        "喜び"
+      ],
+      "answer": "焦り",
+      "explanation": "焦り (あせり) means impatience or agitation.",
+      "explanationMy": "焦り ဆိုသည်မှာ လောဘကြီးခြင်း သို့မဟုတ် စိတ်မရှည် ဂနာမငြိမ်ဖြစ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q009",
+      "lessonId": "n2.l46",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「弁」の正しい読み（音読み）はどれか。",
+      "choices": [
+        "ベン",
+        "カン",
+        "セン",
+        "テン"
+      ],
+      "answer": "ベン",
+      "explanation": "「弁」の音読みは「ベン」です（弁明、弁護）。",
+      "explanationMy": "「弁」၏ အသံထွက်မှာ ベン ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q010",
+      "lessonId": "n2.l46",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「弁護」の「弁」が表す意味合いとして最も適切なものはどれか。",
+      "choices": [
+        "言葉で筋道立てて述べる",
+        "荷物を運ぶ",
+        "水流を止める",
+        "建物を建てる"
+      ],
+      "answer": "言葉で筋道立てて述べる",
+      "explanation": "「弁」には言葉で論理的に述べる・弁ずるという意味があります。",
+      "explanationMy": "စကားဖြင့် အကြောင်းပြချက် ခိုင်လုံစွာ တင်ပြခြင်း အဓိပ္ပာယ် ရှိသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q011",
+      "lessonId": "n2.l46",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「解」の訓読み（動詞）として正しいものはどれか。",
+      "choices": [
+        "と・く",
+        "さ・く",
+        "ぬ・く",
+        "ま・く"
+      ],
+      "answer": "と・く",
+      "explanation": "「解」の訓読みは「と・く / と・ける」です。",
+      "explanationMy": "「解」၏ ဂျပန်မူရင်းအသံမှာ と・く ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q012",
+      "lessonId": "n2.l46",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「解決」の熟語の意味として適切なものはどれか。",
+      "choices": [
+        "問題や争いを片付けること",
+        "文章を削除すること",
+        "法律を制定すること",
+        "人を雇い入れること"
+      ],
+      "answer": "問題や争いを片付けること",
+      "explanation": "解決 (かいけつ) は問題を処理して決着をつけることです。",
+      "explanationMy": "ပြဿနာကို ပြီးပြတ်အောင် ဖြေရှင်းခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q013",
+      "lessonId": "n2.l46",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「釈」の音読みとして正しいものはどれか。",
+      "choices": [
+        "シャク",
+        "ショク",
+        "タク",
+        "サク"
+      ],
+      "answer": "シャク",
+      "explanation": "「釈」の音読みは「シャク」です（注釈、釈放、釈明）。",
+      "explanationMy": "「釈」၏ အသံထွက်မှာ シャク ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q014",
+      "lessonId": "n2.l46",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「注釈」の「釈」の構成要素（部首）として含まれるものはどれか。",
+      "choices": [
+        "釆",
+        "糸",
+        "貝",
+        "言"
+      ],
+      "answer": "釆",
+      "explanation": "「釈」の部首は「釆（のごめ・のごめへん）」です。",
+      "explanationMy": "「釈」တွင် 釆 အစိတ်အပိုင်း ပါဝင်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q015",
+      "lessonId": "n2.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "道が混んでいた（　）、約束の時刻に遅刻してしまいました。申し訳ありません。",
+      "choices": [
+        "ものだから",
+        "ことだし",
+        "ばかりに",
+        "どころか"
+      ],
+      "answer": "ものだから",
+      "explanation": "Use 〜ものだから for an apologetic justification explaining why an unintended delay occurred.",
+      "explanationMy": "မလွှဲသာသော အကြောင်းပြချက်ဖြင့် ယဉ်ကျေးစွာ တောင်းပန်ရာတွင် ものだから ကို သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q016",
+      "lessonId": "n2.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ものだから」の文末として最も自然な表現はどれか。",
+      "choices": [
+        "遅れてしまいました",
+        "出かけましょう",
+        "絶対に許しません",
+        "勉強しなさい"
+      ],
+      "answer": "遅れてしまいました",
+      "explanation": "〜ものだから describes an unintended situation or apology, not a command or strong prohibition.",
+      "explanationMy": "ものだから နောက်တွင် မတော်တဆဖြစ်မှု သို့မဟုတ် တောင်းပန်စကားများ လိုက်လေ့ရှိသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q017",
+      "lessonId": "n2.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "用事も片付いた（　）、みんなで美味しい夕食でも食べに行きませんか。",
+      "choices": [
+        "ことだし",
+        "ばかりに",
+        "ものだから",
+        "反面"
+      ],
+      "answer": "ことだし",
+      "explanation": "Use 〜ことだし to suggest doing something based on a favorable contributing condition.",
+      "explanationMy": "အဆင်ပြေသော အခြေအနေတစ်ခုကို အကြောင်းပြကာ အတူတူတစ်ခုခု ပြုလုပ်ရန် ကမ်းလှမ်းရာတွင် ことだし ကို သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q018",
+      "lessonId": "n2.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ことだし」の文型が持つニュアンスとして最も適したものはどれか。",
+      "choices": [
+        "いくつかの理由の中の１つを挙げて提案や決断のきっかけにする",
+        "弁解の余地なく相手を一方的に非難する",
+        "決して達成できない強い諦めを示す",
+        "時間の経過とともに比例して変化する"
+      ],
+      "answer": "いくつかの理由の中の１つを挙げて提案や決断のきっかけにする",
+      "explanation": "〜ことだし gently offers one natural reason among others to prompt an action or invitation.",
+      "explanationMy": "အကြောင်းရင်းများစွာအနက် တစ်ခုကို ပြဆို၍ ဆုံးဖြတ်ချက်ချရန် အထောက်အကူပြုသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q019",
+      "lessonId": "n2.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "あのとき一言余計なことを言った（　）、親友との仲が決裂してしまった。",
+      "choices": [
+        "ばかりに",
+        "ことだし",
+        "ものだから",
+        "に基づいて"
+      ],
+      "answer": "ばかりに",
+      "explanation": "Use 〜ばかりに to emphasize deep regret that one minor cause led to catastrophic consequences.",
+      "explanationMy": "စကားတစ်ခွန်း မှားပြောမိရုံမျှဖြင့် မိတ်ဆွေနှင့် လမ်းခွဲခဲ့ရသည့် နောင်တကို ばかりに ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q020",
+      "lessonId": "n2.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ばかりに」の後ろに続く文の性質として正しいものはどれか。",
+      "choices": [
+        "話し手にとって好ましくない残念な結果",
+        "話し手の大きな喜びに満ちた成果",
+        "相手に対する積極的な命令や指示",
+        "将来に対する前向きな希望や願望"
+      ],
+      "answer": "話し手にとって好ましくない残念な結果",
+      "explanation": "〜ばかりに is followed by an unfortunate, regrettable outcome caused by a single factor.",
+      "explanationMy": "ばかりに နောက်တွင် စိတ်မချမ်းမြေ့ဖွယ် နောင်တရစရာ ရလဒ်များသာ အမြဲလိုက်ရသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q021",
+      "lessonId": "n2.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "急用ができた（　）、本日の懇親会には参加できなくなりました。",
+      "choices": [
+        "ものだから",
+        "ばかりに",
+        "をめぐって",
+        "反面"
+      ],
+      "answer": "ものだから",
+      "explanation": "〜ものだから politely conveys an unavoidable personal excuse for missing an event.",
+      "explanationMy": "ရုတ်တရက် အရေးကြီးကိစ္စ ပေါ်လာသောကြောင့် မတက်ရောက်နိုင်ပါဟု အကြောင်းပြရာတွင် သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q022",
+      "lessonId": "n2.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "テストも終わった（　）、今夜は夜遅くまで映画を楽しもう。",
+      "choices": [
+        "ことだし",
+        "ばかりに",
+        "ものだから",
+        "抜きにしては"
+      ],
+      "answer": "ことだし",
+      "explanation": "Since the test has finished, it provides a natural occasion to enjoy movies.",
+      "explanationMy": "စာမေးပွဲလည်း ပြီးပြီဖြစ်တာမို့ ရုပ်ရှင်ကြည့်ကြစို့ဟု ဖော်ပြရာတွင် ことだし သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q023",
+      "lessonId": "n2.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "油断した（　）、試合の終了間際に逆転ゴールを許してしまった。",
+      "choices": [
+        "ばかりに",
+        "ことだし",
+        "ものだから",
+        "を通じて"
+      ],
+      "answer": "ばかりに",
+      "explanation": "Simply because of a momentary lapse in concentration, they conceded a goal.",
+      "explanationMy": "သတိလက်လွတ် ဖြစ်မိရုံလေးဖြင့် အနိုင်ဂိုး အသွင်းခံလိုက်ရသည့် နောင်တကို ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q024",
+      "lessonId": "n2.l46",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ものだから」の接続として正しいものはどれか。",
+      "choices": [
+        "普通形（な形容詞は〜な、名詞は〜な）",
+        "動詞の意向形のみ",
+        "動詞の命令形のみ",
+        "名詞に直接「の」をつけずに接続"
+      ],
+      "answer": "普通形（な形容詞は〜な、名詞は〜な）",
+      "explanation": "〜ものだから attaches to Plain Forms (Naな / Nな + ものだから).",
+      "explanationMy": "ရိုးရိုးပုံစံ (Naな / Nな) ဖြင့် တွဲဆက်ရသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q025",
+      "lessonId": "n2.l46",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文で「許されない」と批判されている対応はどれか。",
+      "choices": [
+        "多忙を理由とした私的な弁解に終始すること",
+        "被害者に誠実な謝罪と補償を行うこと",
+        "迅速に記者会見を開いて事実を公表すること",
+        "外部の専門家に徹底的な調査を委託すること"
+      ],
+      "answer": "多忙を理由とした私的な弁解に終始すること",
+      "explanation": "The text explicitly states: 「多忙を極めていたものだから」といった私的な弁解に終始することは許されない.",
+      "explanationMy": "အလုပ်များလွန်းခဲ့သည်ဟု ကိုယ်ကျိုးဆင်ခြေ ပေးနေခြင်းကို ခွင့်မပြုနိုင်ကြောင်း ဖော်ပြထားသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q026",
+      "lessonId": "n2.l46",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "「初動対応で公的な釈明を怠ったばかりに」引き起こされる結果は何か。",
+      "choices": [
+        "長年培った社会的な信用が一瞬にして失墜すること",
+        "組織の売上高が前年比で倍増すること",
+        "すべての法的紛争が即座に解決すること",
+        "組織内の従業員が全員昇進すること"
+      ],
+      "answer": "長年培った社会的な信用が一瞬にして失墜すること",
+      "explanation": "The text says neglecting official clarification causes long-built public trust to collapse in an instant.",
+      "explanationMy": "နှစ်ပေါင်းများစွာ တည်ဆောက်ခဲ့သော လူမှုရေး ယုံကြည်မှုများ တစ်ခဏအတွင်း ပြိုလဲသွားခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q027",
+      "lessonId": "n2.l46",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "信頼回復への道筋として著者が強調している要素はどれか。",
+      "choices": [
+        "誠実な対応と根本的な解決策の提示",
+        "問題の責任を末端の社員に転嫁すること",
+        "調査結果の公表を無期限に延期すること",
+        "第三者との対話を全面的に拒否すること"
+      ],
+      "answer": "誠実な対応と根本的な解決策の提示",
+      "explanation": "Sincere responsiveness and presenting fundamental solutions are cited as the only path to rebuilding trust.",
+      "explanationMy": "ရိုးသားသော တုံ့ပြန်မှုနှင့် အခြေခံကျသော ဖြေရှင်းချက်များ တင်ပြခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q028",
+      "lessonId": "n2.l46",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "担当者は先方にどのような理由を説明したか。",
+      "choices": [
+        "サーバー障害により復旧に時間がかかったため",
+        "担当者の健康診断が長引いたため",
+        "天候不良で交通機関が完全に麻痺したため",
+        "新しいソフトウェアの開発を急遽優先したため"
+      ],
+      "answer": "サーバー障害により復旧に時間がかかったため",
+      "explanation": "The staff explained: 'サーバー障害があったものだから、復旧に時間がかかった'.",
+      "explanationMy": "ဆာဗာ ချို့ယွင်းမှုကြောင့် ပြန်လည်ပြုပြင်ရန် အချိန်ယူခဲ့ရသောကြောင့် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q029",
+      "lessonId": "n2.l46",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "課長が危機として指摘している事態は何か。",
+      "choices": [
+        "先方の怒りを買ったばかりに契約解除の危機に瀕していること",
+        "全社員の給与が減額されること",
+        "会社が新しいオフィスに移転すること",
+        "サーバー機器を新品に買い替えること"
+      ],
+      "answer": "先方の怒りを買ったばかりに契約解除の危機に瀕していること",
+      "explanation": "The manager warns: '先方の怒りを買ったばかりに、契約解除の危機に瀕しているのだぞ'.",
+      "explanationMy": "တစ်ဖက်၏ ဒေါသကို ဆွမိရုံမျှဖြင့် စာချုပ်ဖျက်သိမ်းခံရမည့် အန္တရာယ် ကြုံနေရခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l46.q030",
+      "lessonId": "n2.l46",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "担当者はこの後どのような行動をとると述べているか。",
+      "choices": [
+        "直接出向いて謝罪と再発防止策を説明する",
+        "電話で追加の弁解メッセージを送信する",
+        "他の部署に責任を転嫁して処理を委ねる",
+        "出社を取りやめて自宅で待機する"
+      ],
+      "answer": "直接出向いて謝罪と再発防止策を説明する",
+      "explanation": "The staff plans to head over directly since executives are present, offering apologies and prevention measures.",
+      "explanationMy": "ကိုယ်တိုင်သွားရောက်၍ တောင်းပန်ခြင်းနှင့် ကာကွယ်ရေးအစီအမံများ ရှင်းပြမည်ဟု ဆိုသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l46.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+}

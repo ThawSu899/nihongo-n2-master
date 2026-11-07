@@ -1,0 +1,1988 @@
+[
+  {
+    "lessonId": "n5.l01",
+    "grammarId": "n5.l01.g001",
+    "pattern": "X は Y です",
+    "meaning": "X is Y (Identification / Affirmative sentence)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "わたしはがくせいです。",
+      "たなかさんはせんせいです。"
+    ],
+    "readingLength": 76,
+    "listeningLength": 141
+  },
+  {
+    "lessonId": "n5.l01",
+    "grammarId": "n5.l01.g002",
+    "pattern": "X は Y ですか",
+    "meaning": "Is X Y? (Question sentence)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "たなかさんはにほんじんですか。",
+      "すみません、がくせいですか。"
+    ],
+    "readingLength": 76,
+    "listeningLength": 141
+  },
+  {
+    "lessonId": "n5.l01",
+    "grammarId": "n5.l01.g003",
+    "pattern": "X の Y",
+    "meaning": "X's Y / Y of X (Noun modifier / Possession)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "わたしのなまえはケンです。"
+    ],
+    "readingLength": 76,
+    "listeningLength": 141
+  },
+  {
+    "lessonId": "n5.l02",
+    "grammarId": "n5.l02.g001",
+    "pattern": "これ / それ / あれ は [Noun] です",
+    "meaning": "This / That / That over there is [Noun]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "これは日本語の本です。",
+      "それは辞書ですか、ノートですか。"
+    ],
+    "readingLength": 88,
+    "listeningLength": 89
+  },
+  {
+    "lessonId": "n5.l02",
+    "grammarId": "n5.l02.g002",
+    "pattern": "この / その / あの [Noun] は [Person] の です",
+    "meaning": "This / That / That [Noun] belongs to [Person]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "この鞄は田中さんのです。",
+      "あの時計は高橋さんのです。"
+    ],
+    "readingLength": 88,
+    "listeningLength": 89
+  },
+  {
+    "lessonId": "n5.l03",
+    "grammarId": "n5.l03.g001",
+    "pattern": "[Noun] は [Place] です",
+    "meaning": "[Noun] is at [Place]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "受付はあそこです。",
+      "食堂は地下一階です。"
+    ],
+    "readingLength": 97,
+    "listeningLength": 114
+  },
+  {
+    "lessonId": "n5.l03",
+    "grammarId": "n5.l03.g002",
+    "pattern": "[Noun] は どこですか",
+    "meaning": "Where is [Noun]?",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "トイレはどこですか。",
+      "大学の図書館はどちらですか。"
+    ],
+    "readingLength": 97,
+    "listeningLength": 114
+  },
+  {
+    "lessonId": "n5.l04",
+    "grammarId": "n5.l04.g001",
+    "pattern": "今 [Time] です",
+    "meaning": "It is [Time] right now",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "今、午前九時半です。",
+      "銀行の休みは土曜日と日曜日です。"
+    ],
+    "readingLength": 102,
+    "listeningLength": 99
+  },
+  {
+    "lessonId": "n5.l04",
+    "grammarId": "n5.l04.g002",
+    "pattern": "[Time/Day] から [Time/Day] まで",
+    "meaning": "From [Time/Day] to [Time/Day]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "日本語の授業は何時から何時までですか。",
+      "授業は午前九時から午後三時までです。"
+    ],
+    "readingLength": 102,
+    "listeningLength": 99
+  },
+  {
+    "lessonId": "n5.l05",
+    "grammarId": "n5.l05.g001",
+    "pattern": "[Place] へ 行きます / 来ます / 帰ります",
+    "meaning": "Go / Come / Return to [Place]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "毎朝、電車で学校へ行きます。",
+      "午後六時にうちへ帰ります。"
+    ],
+    "readingLength": 102,
+    "listeningLength": 102
+  },
+  {
+    "lessonId": "n5.l05",
+    "grammarId": "n5.l05.g002",
+    "pattern": "[Transport] で 行きます",
+    "meaning": "Go by [Means of Transportation]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "毎朝、電車で学校へ行きます。",
+      "何で東京駅へ来ましたか。"
+    ],
+    "readingLength": 102,
+    "listeningLength": 102
+  },
+  {
+    "lessonId": "n5.l06",
+    "grammarId": "n5.l06.g001",
+    "pattern": "[Noun] を [Verb] します",
+    "meaning": "[Action] [Noun] (Direct Object)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "毎朝パンを食べます。そしてコーヒーを飲みます。",
+      "図書館で日本の歴史の本を読みました。"
+    ],
+    "readingLength": 100,
+    "listeningLength": 106
+  },
+  {
+    "lessonId": "n5.l06",
+    "grammarId": "n5.l06.g002",
+    "pattern": "[Place] で [Verb] します",
+    "meaning": "Do [Action] at [Place]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "図書館で日本の歴史の本を読みました。",
+      "食堂で友達とお昼ご飯を食べます。"
+    ],
+    "readingLength": 100,
+    "listeningLength": 106
+  },
+  {
+    "lessonId": "n5.l07",
+    "grammarId": "n5.l07.g001",
+    "pattern": "[Tool / Language] で [Action]",
+    "meaning": "By means of [Tool] / In [Language]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "箸でご飯を食べます。",
+      "日本語で家族に手紙を書きました。"
+    ],
+    "readingLength": 145,
+    "listeningLength": 135
+  },
+  {
+    "lessonId": "n5.l07",
+    "grammarId": "n5.l07.g002",
+    "pattern": "[Person] に [Item] を あげます / もらいます",
+    "meaning": "Give [Item] to [Person] / Receive [Item] from [Person]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "日本語で家族に手紙を書きました。",
+      "母の日に花をあげました。"
+    ],
+    "readingLength": 145,
+    "listeningLength": 135
+  },
+  {
+    "lessonId": "n5.l08",
+    "grammarId": "n5.l08.g001",
+    "pattern": "[Noun] は [い-Adj] です / 〜くないです",
+    "meaning": "[Noun] is [Adjective] / is not [Adjective]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "日本の物価は高いですが、とても便利です。",
+      "この辞書はあまり高くありません。安いです。"
+    ],
+    "readingLength": 121,
+    "listeningLength": 115
+  },
+  {
+    "lessonId": "n5.l08",
+    "grammarId": "n5.l08.g002",
+    "pattern": "[Noun] は [な-Adj] です / ではありません",
+    "meaning": "[Noun] is [Na-Adjective] / is not [Na-Adjective]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "京都は古くて有名な町です。",
+      "私の町は静かですが、不便ではありません。"
+    ],
+    "readingLength": 121,
+    "listeningLength": 115
+  },
+  {
+    "lessonId": "n5.l09",
+    "grammarId": "n5.l09.g001",
+    "pattern": "[Noun] が 好きです / 上手です",
+    "meaning": "Like [Noun] / Good at [Noun]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "私は日本料理がとても好きです。",
+      "スミスさんはテニスがとても上手です。"
+    ],
+    "readingLength": 137,
+    "listeningLength": 135
+  },
+  {
+    "lessonId": "n5.l09",
+    "grammarId": "n5.l09.g002",
+    "pattern": "[Reason sentence] から、[Result sentence]",
+    "meaning": "Because [Reason], [Result]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "忙しいですから、テレビをあまり見ません。",
+      "どうして昨日学校を休みましたか。熱がありましたから。"
+    ],
+    "readingLength": 137,
+    "listeningLength": 135
+  },
+  {
+    "lessonId": "n5.l10",
+    "grammarId": "n5.l10.g001",
+    "pattern": "[Place] に [Thing] が あります / [Person/Animal] が います",
+    "meaning": "There is [Thing/Person] at [Place]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "机の上に辞書とノートがあります。",
+      "庭の大きな木の下に白い猫がいます。"
+    ],
+    "readingLength": 131,
+    "listeningLength": 137
+  },
+  {
+    "lessonId": "n5.l10",
+    "grammarId": "n5.l10.g002",
+    "pattern": "[Noun 1] の [Position] に [Noun 2] が あります/います",
+    "meaning": "[Noun 2] is [Position] of [Noun 1]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "机の上に辞書とノートがあります。",
+      "庭の大きな木の下に白い猫がいます。"
+    ],
+    "readingLength": 131,
+    "listeningLength": 137
+  },
+  {
+    "lessonId": "n5.l11",
+    "grammarId": "n5.l11.g001",
+    "pattern": "[Noun] を [Quantity] 買います / 食べます",
+    "meaning": "[Verb] [Quantity] of [Noun]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "りんごを三つとみかんを五つ買いました。",
+      "教室に学生が八人います。"
+    ],
+    "readingLength": 121,
+    "listeningLength": 113
+  },
+  {
+    "lessonId": "n5.l11",
+    "grammarId": "n5.l11.g002",
+    "pattern": "[Period] に [Times] [Verb]",
+    "meaning": "[Times] per [Period]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "一か月に二回、国へ電話をかけます。"
+    ],
+    "readingLength": 121,
+    "listeningLength": 113
+  },
+  {
+    "lessonId": "n5.l12",
+    "grammarId": "n5.l12.g001",
+    "pattern": "[い-Adj] かったです / 〜くなかったです",
+    "meaning": "Was [Adjective] / Was not [Adjective] (Past)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "昨日は天気がとてもよかったです。",
+      "北海道の冬はとても寒かったです。"
+    ],
+    "readingLength": 131,
+    "listeningLength": 116
+  },
+  {
+    "lessonId": "n5.l12",
+    "grammarId": "n5.l12.g002",
+    "pattern": "[Noun / な-Adj] でした / 〜ではありませんでした",
+    "meaning": "Was [Noun/Na-Adj] / Was not [Noun/Na-Adj]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "京都のお祭りはとてもにぎやかでした。",
+      "昨日の午後は雨でした。暇ではありませんでした。"
+    ],
+    "readingLength": 131,
+    "listeningLength": 116
+  },
+  {
+    "lessonId": "n5.l13",
+    "grammarId": "n5.l13.g001",
+    "pattern": "[A] は [B] より [Adj] です",
+    "meaning": "[A] is more [Adjective] than [B]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "新幹線は飛行機より安いです。",
+      "肉と魚とどちらが好きですか。魚のほうが好きです。"
+    ],
+    "readingLength": 120,
+    "listeningLength": 147
+  },
+  {
+    "lessonId": "n5.l13",
+    "grammarId": "n5.l13.g002",
+    "pattern": "[Category] の中で [Item] が 一番 [Adj] です",
+    "meaning": "Among [Category], [Item] is the most [Adjective]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "一年の中で春が一番好きです。桜がきれいですから。",
+      "スポーツの中でサッカーが一番おもしろいです。"
+    ],
+    "readingLength": 120,
+    "listeningLength": 147
+  },
+  {
+    "lessonId": "n5.l14",
+    "grammarId": "n5.l14.g001",
+    "pattern": "[Noun] が ほしいです / [Verb stem] たいです",
+    "meaning": "I want [Noun] / I want to [Verb]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "私は新しいパソコンがほしいです。",
+      "今年の夏休みに日本へ旅行に行きたいです。"
+    ],
+    "readingLength": 127,
+    "listeningLength": 146
+  },
+  {
+    "lessonId": "n5.l14",
+    "grammarId": "n5.l14.g002",
+    "pattern": "[Place] へ [Verb stem / Noun] に 行きます / 来ます",
+    "meaning": "Go / Come to [Place] to [Purpose]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "今年の夏休みに日本へ旅行に行きたいです。",
+      "デパートへ友達のプレゼントを買いに行きます。"
+    ],
+    "readingLength": 127,
+    "listeningLength": 146
+  },
+  {
+    "lessonId": "n5.l15",
+    "grammarId": "n5.l15.g001",
+    "pattern": "[Verb-te] ください",
+    "meaning": "Please [Verb]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "すみませんが、ちょっと手伝ってください。",
+      "部屋が暑いですから、エアコンをつけてください。"
+    ],
+    "readingLength": 151,
+    "listeningLength": 129
+  },
+  {
+    "lessonId": "n5.l15",
+    "grammarId": "n5.l15.g002",
+    "pattern": "[Verb-te] います",
+    "meaning": "Is [Verbing] (Current Continuous Action)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "田中さんは今、電話で話しています。",
+      "雨が降っていますから、傘を持って行ってください。"
+    ],
+    "readingLength": 151,
+    "listeningLength": 129
+  },
+  {
+    "lessonId": "n5.l16",
+    "grammarId": "n5.l16.g001",
+    "pattern": "[Verb-te] も いいですか",
+    "meaning": "May I [Verb]? (Permission)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "この資料を見てもいいですか。ええ、どうぞ。",
+      "私は東京の世田谷に住んでいます。"
+    ],
+    "readingLength": 147,
+    "listeningLength": 127
+  },
+  {
+    "lessonId": "n5.l16",
+    "grammarId": "n5.l16.g002",
+    "pattern": "[Verb-te] は いけません",
+    "meaning": "Must not [Verb] (Prohibition)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "ここで写真を撮ってはいけません。",
+      "テストの時、辞書を使ってはいけません。"
+    ],
+    "readingLength": 147,
+    "listeningLength": 127
+  },
+  {
+    "lessonId": "n5.l17",
+    "grammarId": "n5.l17.g001",
+    "pattern": "[V-te]、[V-te]、それから [Verb]",
+    "meaning": "[Action 1], [Action 2], and then [Action 3]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "朝起きて、シャワーを浴びて、それから朝ご飯を食べます。",
+      "銀行へ行ってお金を下ろしてから、買い物に行きます。"
+    ],
+    "readingLength": 141,
+    "listeningLength": 135
+  },
+  {
+    "lessonId": "n5.l17",
+    "grammarId": "n5.l17.g002",
+    "pattern": "[Verb-te] から、[Action 2]",
+    "meaning": "After doing [Verb 1], do [Action 2]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "銀行へ行ってお金を下ろしてから、買い物に行きます。",
+      "手をよく洗ってから、食事をしてください。"
+    ],
+    "readingLength": 141,
+    "listeningLength": 135
+  },
+  {
+    "lessonId": "n5.l18",
+    "grammarId": "n5.l18.g001",
+    "pattern": "[Verb-nai] でください",
+    "meaning": "Please do not [Verb]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "熱がありますから、無理をしないでください。",
+      "パスポートは大切ですから、なくさないでください。"
+    ],
+    "readingLength": 174,
+    "listeningLength": 153
+  },
+  {
+    "lessonId": "n5.l18",
+    "grammarId": "n5.l18.g002",
+    "pattern": "[Verb-nai] なければなりません",
+    "meaning": "Must [Verb] / Have to [Verb]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "今日、病院へ行って薬をもらわなければなりません。",
+      "明日までにレポートを出さなければなりません。"
+    ],
+    "readingLength": 174,
+    "listeningLength": 153
+  },
+  {
+    "lessonId": "n5.l19",
+    "grammarId": "n5.l19.g001",
+    "pattern": "[Verb dict] ことが できます",
+    "meaning": "Can [Verb] / Able to [Verb]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "スミスさんはピアノを弾くことができます。",
+      "この店ではカードを使うことができません。現金で払ってください。"
+    ],
+    "readingLength": 166,
+    "listeningLength": 145
+  },
+  {
+    "lessonId": "n5.l19",
+    "grammarId": "n5.l19.g002",
+    "pattern": "私の趣味は [Verb dict] ことです",
+    "meaning": "My hobby is [Verbing]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "私の趣味は世界各国の切手を集めることです。"
+    ],
+    "readingLength": 166,
+    "listeningLength": 145
+  },
+  {
+    "lessonId": "n5.l20",
+    "grammarId": "n5.l20.g001",
+    "pattern": "[Verb-ta] ことが あります",
+    "meaning": "Have done [Verb] before (Experience)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "日本で富士山に登ったことがあります。",
+      "日本の伝統的な温泉旅館に泊まったことがあります。"
+    ],
+    "readingLength": 159,
+    "listeningLength": 160
+  },
+  {
+    "lessonId": "n5.l20",
+    "grammarId": "n5.l20.g002",
+    "pattern": "[V1-ta] り、[V2-ta] り します",
+    "meaning": "Do things like [V1] and [V2]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "週末は部屋を掃除したり、洗濯したりします。",
+      "休みの日は本を読んだり、音楽を聞いたりしました。"
+    ],
+    "readingLength": 159,
+    "listeningLength": 160
+  },
+  {
+    "lessonId": "n5.l21",
+    "grammarId": "n5.l21.g001",
+    "pattern": "い-adj (〜く) / な-adj・Noun (〜に) + なります",
+    "meaning": "To become [adjective / noun]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "秋になると、だんだん寒くなります。",
+      "薬を飲んで、元気になりました。"
+    ],
+    "readingLength": 158,
+    "listeningLength": 152
+  },
+  {
+    "lessonId": "n5.l21",
+    "grammarId": "n5.l21.g002",
+    "pattern": "[V1-ta] り、[V2-ta] り します",
+    "meaning": "Do things like [V1] and [V2]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "休みの日は部屋を掃除したり、洗濯したりします。",
+      "公園を散歩したり、本を読んだりしました。"
+    ],
+    "readingLength": 158,
+    "listeningLength": 152
+  },
+  {
+    "lessonId": "n5.l22",
+    "grammarId": "n5.l22.g001",
+    "pattern": "Plain Present Form (普通形 現在: 書く・書かない・高い・暇だ)",
+    "meaning": "Plain casual present affirmative and negative",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "週末、友達と日本語でたくさん話す。",
+      "「今、暇？」「うん、暇だよ。」"
+    ],
+    "readingLength": 158,
+    "listeningLength": 122
+  },
+  {
+    "lessonId": "n5.l22",
+    "grammarId": "n5.l22.g002",
+    "pattern": "Plain Past Form (普通形 過去: 書いた・書かなかった・高かった・暇だった)",
+    "meaning": "Plain casual past affirmative and negative",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "昨日の夜、面白いアニメを見た。",
+      "昨日は雨だったから、どこにも行かなかった。"
+    ],
+    "readingLength": 158,
+    "listeningLength": 122
+  },
+  {
+    "lessonId": "n5.l23",
+    "grammarId": "n5.l23.g001",
+    "pattern": "[Plain Form] と 思います",
+    "meaning": "I think that...",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "日本語はとても面白い言語だと思う。",
+      "東京は物価が高いと思います。"
+    ],
+    "readingLength": 211,
+    "listeningLength": 147
+  },
+  {
+    "lessonId": "n5.l23",
+    "grammarId": "n5.l23.g002",
+    "pattern": "〜について どう 思いますか",
+    "meaning": "What do you think about...?",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "日本の交通はとても便利だと思います。",
+      "日本の治安についてどう思いますか。安全だと思います。"
+    ],
+    "readingLength": 211,
+    "listeningLength": 147
+  },
+  {
+    "lessonId": "n5.l24",
+    "grammarId": "n5.l24.g001",
+    "pattern": "[Plain Form / Quote] と 言いました",
+    "meaning": "Said that...",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "田中さんは明日会社を休むと言いました。",
+      "社長は「今日の会議は三時からです」と言いました。"
+    ],
+    "readingLength": 196,
+    "listeningLength": 164
+  },
+  {
+    "lessonId": "n5.l24",
+    "grammarId": "n5.l24.g002",
+    "pattern": "[Plain Form] でしょう / だろう",
+    "meaning": "Probably / Right? Isn't it?",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "明日の天気は晴れでしょう。",
+      "明日のサッカーの試合は私たちのチームが勝つでしょう？"
+    ],
+    "readingLength": 196,
+    "listeningLength": 164
+  },
+  {
+    "lessonId": "n5.l25",
+    "grammarId": "n5.l25.g001",
+    "pattern": "[Clause: Verb Plain Form] + Noun",
+    "meaning": "Noun modified by a relative clause",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "昨日デパートで買う本はとても面白かった。",
+      "母が作る料理は世界で一番美味しいです。"
+    ],
+    "readingLength": 254,
+    "listeningLength": 200
+  },
+  {
+    "lessonId": "n5.l25",
+    "grammarId": "n5.l25.g002",
+    "pattern": "これは [Clause] Noun です",
+    "meaning": "This is the [Noun] that [Clause]...",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "あの青いシャツを着る人は誰ですか。",
+      "これは友達が私の誕生日に作ってくれたケーキです。"
+    ],
+    "readingLength": 254,
+    "listeningLength": 200
+  },
+  {
+    "lessonId": "n5.l26",
+    "grammarId": "n5.l26.g001",
+    "pattern": "[V-dic / V-ta / い-adj / な-adj / N-の] とき",
+    "meaning": "When... / At the time of...",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "寂しいとき、家族に電話をかけます。",
+      "道を渡るとき、右と左をよく見てください。"
+    ],
+    "readingLength": 253,
+    "listeningLength": 199
+  },
+  {
+    "lessonId": "n5.l26",
+    "grammarId": "n5.l26.g002",
+    "pattern": "[V-dic] と、〜",
+    "meaning": "When/If [V], naturally [result] (giving directions)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "駅を出てこの道をまっすぐ行くと、郵便局があります。",
+      "大きな橋を渡ると、きれいな公園が見えます。"
+    ],
+    "readingLength": 253,
+    "listeningLength": 199
+  },
+  {
+    "lessonId": "n5.l27",
+    "grammarId": "n5.l27.g001",
+    "pattern": "[V-ta / A-katta / N-datta] ら、〜",
+    "meaning": "If / When...",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "明日もし雨が降ったら、山登りに行きません。",
+      "駅に着いたら、すぐに電話してください。"
+    ],
+    "readingLength": 225,
+    "listeningLength": 174
+  },
+  {
+    "lessonId": "n5.l27",
+    "grammarId": "n5.l27.g002",
+    "pattern": "[V-te / A-kute / N-demo] も、〜",
+    "meaning": "Even if / Even though...",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "強い風が吹いても、試合は中止になりません。",
+      "高くても、本当に良い辞書なら買いたいです。"
+    ],
+    "readingLength": 225,
+    "listeningLength": 174
+  },
+  {
+    "lessonId": "n5.l28",
+    "grammarId": "n5.l28.g001",
+    "pattern": "[V-ta] ほうがいいです / [V-nai] ほうがいいです",
+    "meaning": "It is better to [V] / You should [V] (Giving advice)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "病院へ行って、薬をもらったほうがいいですよ。",
+      "今日は無理をしないで、家でゆっくり休んだほうがいいです。"
+    ],
+    "readingLength": 261,
+    "listeningLength": 238
+  },
+  {
+    "lessonId": "n5.l28",
+    "grammarId": "n5.l28.g002",
+    "pattern": "[V-masu-stem] ませんか / ましょう",
+    "meaning": "Won't you [V]? / Let's [V]",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "放課後、一緒にカフェへお茶を飲みに行きませんか。",
+      "ええ、行きましょう！楽しみにしています。"
+    ],
+    "readingLength": 261,
+    "listeningLength": 238
+  },
+  {
+    "lessonId": "n5.l29",
+    "grammarId": "n5.l29.g001",
+    "pattern": "[Clause] から vs [Clause] ので",
+    "meaning": "Because / Since (Subjective vs Objective polite)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "明日は都合が悪いので、参加できません。",
+      "雨が降っています。ですから、傘を持っていきます。"
+    ],
+    "readingLength": 250,
+    "listeningLength": 248
+  },
+  {
+    "lessonId": "n5.l29",
+    "grammarId": "n5.l29.g002",
+    "pattern": "[Plain Form] んです (の です)",
+    "meaning": "The fact is that... / Providing explanatory background",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "すみません、電車が事故で遅れたんです。",
+      "どうして昨日パーティーに来なかったんですか。"
+    ],
+    "readingLength": 250,
+    "listeningLength": 248
+  },
+  {
+    "lessonId": "n5.l30",
+    "grammarId": "n5.l30.g001",
+    "pattern": "Verb Form Integration (て形・ない形・た形・辞書形)",
+    "meaning": "Mastery and systematic synthesis of the 4 core verb conjugations",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "N5の文法と漢字を全部復習しました。",
+      "テストの問題をよく読んで、正しい答えを選びました。"
+    ],
+    "readingLength": 243,
+    "listeningLength": 236
+  },
+  {
+    "lessonId": "n5.l30",
+    "grammarId": "n5.l30.g002",
+    "pattern": "Particle Discrimination (は・が・を・に・で・へ・と・から・まで・より)",
+    "meaning": "Comprehensive discrimination of JLPT N5 particles in context",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "先生やクラスメイトと日本語で楽しく会話ができるようになりました。",
+      "分からないところがあれば、先生に質問してください。"
+    ],
+    "readingLength": 243,
+    "listeningLength": 236
+  },
+  {
+    "lessonId": "n4.l01",
+    "grammarId": "n4.l01.g001",
+    "pattern": "[Verb Potential Form] (が 話せる / が 読める)",
+    "meaning": "Potential Form (可能形: 書ける・食べられる・できる)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "適切な道具があれば、自分で自転車を直すことができます。",
+      "パソコンの故障はもう直りましたから、使えますよ。"
+    ],
+    "readingLength": 324,
+    "listeningLength": 367
+  },
+  {
+    "lessonId": "n4.l01",
+    "grammarId": "n4.l01.g002",
+    "pattern": "〜が 見える / 〜が 聞こえる",
+    "meaning": "Spontaneous Perception vs Intended Ability (見える vs 見られる / 聞こえる vs 聞ける)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "適切な道具があれば、自分で自転車を直すことができます。",
+      "パソコンの故障はもう直りましたから、使えますよ。"
+    ],
+    "readingLength": 324,
+    "listeningLength": 367
+  },
+  {
+    "lessonId": "n4.l02",
+    "grammarId": "n4.l02.g001",
+    "pattern": "[Verb Volitional Form] と 思っています",
+    "meaning": "Volitional Form + と思っています (Expressing Long-held Intention)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "将来の夢をかなえるために、一生懸命日本語を勉強しています。",
+      "夏休みの旅行の計画を友達と一緒に立てようと思っています。"
+    ],
+    "readingLength": 329,
+    "listeningLength": 323
+  },
+  {
+    "lessonId": "n4.l02",
+    "grammarId": "n4.l02.g002",
+    "pattern": "[Verb Dict / Verb-nai] つもりです / [Verb Dict / Noun の] 予定です",
+    "meaning": "Intention and Schedule (〜つもりです vs 〜予定です)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "将来の夢をかなえるために、一生懸命日本語を勉強しています。",
+      "夏休みの旅行の計画を友達と一緒に立てようと思っています。"
+    ],
+    "readingLength": 329,
+    "listeningLength": 323
+  },
+  {
+    "lessonId": "n4.l03",
+    "grammarId": "n4.l03.g001",
+    "pattern": "命令形 (走れ / 止めろ) / 禁止形 ([Verb-dict] な)",
+    "meaning": "Imperative & Prohibitive Forms (命令形・禁止形: 走れ・走るな)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "安全のために、工場の規則をしっかり守ってください。",
+      "火事や地震のときは、エレベーターを使わずに非常口から逃げてください。"
+    ],
+    "readingLength": 364,
+    "listeningLength": 326
+  },
+  {
+    "lessonId": "n4.l03",
+    "grammarId": "n4.l03.g002",
+    "pattern": "「〜」と 書いて あります / 「〜」は ... という 意味 です",
+    "meaning": "Quoting Signs and Explaining Meaning (〜と書いてあります / 〜という意味です)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "安全のために、工場の規則をしっかり守ってください。",
+      "火事や地震のときは、エレベーターを使わずに非常口から逃げてください。"
+    ],
+    "readingLength": 364,
+    "listeningLength": 326
+  },
+  {
+    "lessonId": "n4.l04",
+    "grammarId": "n4.l04.g001",
+    "pattern": "[Verb-ば] / [い-adj 〜ければ] / [な-adj/Noun なら(ば)]",
+    "meaning": "Conditional Form (仮定形: 〜ば)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "駅から近ければ近いほど、通勤や買い物が便利になります。",
+      "品物の品質が良くて値段が安ければ、大勢の客が買いに来ます。"
+    ],
+    "readingLength": 311,
+    "listeningLength": 330
+  },
+  {
+    "lessonId": "n4.l04",
+    "grammarId": "n4.l04.g002",
+    "pattern": "[Verb-ば] [Verb-dict] ほど / [い-adj 〜ければ] [い-adj] ほど",
+    "meaning": "Proportional Change (〜ば 〜ほど)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "駅から近ければ近いほど、通勤や買い物が便利になります。",
+      "品物の品質が良くて値段が安ければ、大勢の客が買いに来ます。"
+    ],
+    "readingLength": 311,
+    "listeningLength": 330
+  },
+  {
+    "lessonId": "n4.l05",
+    "grammarId": "n4.l05.g001",
+    "pattern": "[Noun / Plain Form] なら、〜",
+    "meaning": "Topic Uptake & Advice (〜なら: If it is... / Speaking of...)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "温泉でゆっくり休みたいなら、群馬県の草津温泉が一番のおすすめです。",
+      "連休中に旅行するなら、人気のあるホテルは早めに予約したほうがいいですよ。"
+    ],
+    "readingLength": 357,
+    "listeningLength": 316
+  },
+  {
+    "lessonId": "n4.l05",
+    "grammarId": "n4.l05.g002",
+    "pattern": "〜たら / 〜ば / 〜と / 〜なら",
+    "meaning": "Four Beginner Conditionals Contrast (〜たら vs 〜ば vs 〜と vs 〜なら)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "温泉でゆっくり休みたいなら、群馬県の草津温泉が一番のおすすめです。",
+      "連休中に旅行するなら、人気のあるホテルは早めに予約したほうがいいですよ。"
+    ],
+    "readingLength": 357,
+    "listeningLength": 316
+  },
+  {
+    "lessonId": "n4.l06",
+    "grammarId": "n4.l06.g001",
+    "pattern": "[Noun] を 他動詞 (開ける / つける) vs [Noun] が 自動詞 (開く / つく)",
+    "meaning": "Transitive vs Intransitive Verbs (他動詞 vs 自動詞)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "風が強くて窓が開いたので、立ち上がって窓を閉めました。",
+      "スーパーの自動ドアが閉まっていたので、入り口でしばらく待ちました。"
+    ],
+    "readingLength": 335,
+    "listeningLength": 271
+  },
+  {
+    "lessonId": "n4.l06",
+    "grammarId": "n4.l06.g002",
+    "pattern": "[Noun] が [Intransitive Verb-te] います",
+    "meaning": "Resultant State of Intransitive Verbs ([自動詞-te] います)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "風が強くて窓が開いたので、立ち上がって窓を閉めました。",
+      "スーパーの自動ドアが閉まっていたので、入り口でしばらく待ちました。"
+    ],
+    "readingLength": 335,
+    "listeningLength": 271
+  },
+  {
+    "lessonId": "n4.l07",
+    "grammarId": "n4.l07.g001",
+    "pattern": "[Noun] が [Transitive Verb-te] あります",
+    "meaning": "Intentional Resultant State ([他動詞-te] あります)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "オフィスの掲示板に、今月の避難訓練の案内が貼ってあります。",
+      "会議室の白い壁に、来年のカレンダーが掛けてあります。"
+    ],
+    "readingLength": 315,
+    "listeningLength": 294
+  },
+  {
+    "lessonId": "n4.l07",
+    "grammarId": "n4.l07.g002",
+    "pattern": "もう [Transitive Verb-te] あります",
+    "meaning": "Preparation Done Ahead of Time (もう [他動詞-te] あります)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "オフィスの掲示板に、今月の避難訓練の案内が貼ってあります。",
+      "会議室の白い壁に、来年のカレンダーが掛けてあります。"
+    ],
+    "readingLength": 315,
+    "listeningLength": 294
+  },
+  {
+    "lessonId": "n4.l08",
+    "grammarId": "n4.l08.g001",
+    "pattern": "[Verb-te] おきます",
+    "meaning": "Action in Advance / Leaving as-is ([Verb-te] おきます)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "出張の前に、新幹線の切符とホテルの予約を済ませておきます。",
+      "テストの提出時間を忘れないように、手帳にしっかり確認しておきました。"
+    ],
+    "readingLength": 388,
+    "listeningLength": 314
+  },
+  {
+    "lessonId": "n4.l08",
+    "grammarId": "n4.l08.g002",
+    "pattern": "[Verb-te] しまいました / [Verb-te] しまいます",
+    "meaning": "Complete Action / Irreversible Regret ([Verb-te] しまいました)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "出張の前に、新幹線の切符とホテルの予約を済ませておきます。",
+      "テストの提出時間を忘れないように、手帳にしっかり確認しておきました。"
+    ],
+    "readingLength": 388,
+    "listeningLength": 314
+  },
+  {
+    "lessonId": "n4.l09",
+    "grammarId": "n4.l09.g001",
+    "pattern": "[Verb stem / Adj stem] そうです",
+    "meaning": "Conjecture & Appearance (〜そうです [様態: looks like / seems about to])",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "天気予報によると、明日は午後から激しい大雨になるそうです。",
+      "町の噂によると、駅前に新しい映画館ができるそうです。"
+    ],
+    "readingLength": 314,
+    "listeningLength": 291
+  },
+  {
+    "lessonId": "n4.l09",
+    "grammarId": "n4.l09.g002",
+    "pattern": "[Plain Form] そうです",
+    "meaning": "Hearsay (〜そうです [伝聞: I heard that... / According to...])",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "天気予報によると、明日は午後から激しい大雨になるそうです。",
+      "町の噂によると、駅前に新しい映画館ができるそうです。"
+    ],
+    "readingLength": 314,
+    "listeningLength": 291
+  },
+  {
+    "lessonId": "n4.l10",
+    "grammarId": "n4.l10.g001",
+    "pattern": "[A] は [B] に [物] を あげる / くれる / もらう",
+    "meaning": "Giving and Receiving Things (あげる・くれる・もらう)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "引っ越しを手伝ってくれたお礼に、友達を美味しいレストランに招待しました。",
+      "同僚の結婚のお祝いに、部署の全員で素敵なペアグラスをあげました。"
+    ],
+    "readingLength": 361,
+    "listeningLength": 308
+  },
+  {
+    "lessonId": "n4.l10",
+    "grammarId": "n4.l10.g002",
+    "pattern": "[Verb-te] あげる / [Verb-te] くれる / [Verb-te] もらう",
+    "meaning": "Benefactive Actions (〜てあげる・〜てくれる・〜てもらう)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "引っ越しを手伝ってくれたお礼に、友達を美味しいレストランに招待しました。",
+      "同僚の結婚のお祝いに、部署の全員で素敵なペアグラスをあげました。"
+    ],
+    "readingLength": 361,
+    "listeningLength": 308
+  },
+  {
+    "lessonId": "n4.l11",
+    "grammarId": "n4.l11.g001",
+    "pattern": "[Person A] は [Person B] に [Verb 受身形 (〜られる)]",
+    "meaning": "Direct passive (Person A is affected by Person B doing an action)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "私はテストで百点を取って、先生に褒められました。",
+      "田中君は部屋を片付けなかったので、お母さんに叱られました。"
+    ],
+    "readingLength": 377,
+    "listeningLength": 288
+  },
+  {
+    "lessonId": "n4.l11",
+    "grammarId": "n4.l11.g002",
+    "pattern": "[Person A] は [Person B] に [Object] を [Verb 受身形 (〜られる)] (迷惑の受け身)",
+    "meaning": "Indirect/Suffering passive (Person A is inconvenienced by Person B doing something to A's property/space)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "今朝の満員電車で、隣の人に足を踏まれました。",
+      "駅の駐輪場に止めておいた自転車を泥棒に盗まれました。"
+    ],
+    "readingLength": 377,
+    "listeningLength": 288
+  },
+  {
+    "lessonId": "n4.l12",
+    "grammarId": "n4.l12.g001",
+    "pattern": "[Causer] は [Causee] に [Object] を [Verb 使役形 (〜せる/〜させる)]",
+    "meaning": "Transitive Causative (making or letting someone do an action on an object)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "先生は日本語の授業で、学生たちに作文を書かせました。",
+      "先輩は後輩の田中君に重いダンボール箱を運ばせました。"
+    ],
+    "readingLength": 394,
+    "listeningLength": 304
+  },
+  {
+    "lessonId": "n4.l12",
+    "grammarId": "n4.l12.g002",
+    "pattern": "[Causer] は [Causee] を [Verb 使役形 (〜せる/〜させる)]",
+    "meaning": "Intransitive Causative (making or allowing someone to perform an intransitive motion or emotion)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "山田さんの面白い冗談は、クラスのみんなを笑わせました。",
+      "両親は休日に子供たちを公園で自由に遊ばせました。"
+    ],
+    "readingLength": 394,
+    "listeningLength": 304
+  },
+  {
+    "lessonId": "n4.l13",
+    "grammarId": "n4.l13.g001",
+    "pattern": "[Subject] は [Agent] に [Verb 使役受身形 (〜させられる / 〜される)]",
+    "meaning": "Causative-Passive (being forced/made to do an action against one's will or with reluctance)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "約束の時間に友達が遅れてきて、寒い駅前で一時間も待たされました。",
+      "子供のころ、嫌いなピーマンを無理やり全部食べさせられました。"
+    ],
+    "readingLength": 410,
+    "listeningLength": 323
+  },
+  {
+    "lessonId": "n4.l13",
+    "grammarId": "n4.l13.g002",
+    "pattern": "[Event/Situation] で [Verb 使役受身形 (〜させられた / 考えさせられた)]",
+    "meaning": "Spontaneous or reflective realization caused by an experience (e.g. made to think/realize deeply)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "戦争のドキュメンタリー番組を見て、平和の大切さについて深く考えさせられました。",
+      "十分な理由も知らされないまま、新しい方針に従わされるのは納得がいきません。"
+    ],
+    "readingLength": 410,
+    "listeningLength": 323
+  },
+  {
+    "lessonId": "n4.l14",
+    "grammarId": "n4.l14.g001",
+    "pattern": "[Honorific Verb: いらっしゃる・召し上がる・おっしゃる・なさる・ご覧になる]",
+    "meaning": "Special Respectful Verbs (尊敬語: elevating actions of a respected superior or client)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "社長はただいま会議室にいらっしゃいます。",
+      "温かいお茶とお菓子をご用意しましたので、どうぞ召し上がってください。"
+    ],
+    "readingLength": 406,
+    "listeningLength": 295
+  },
+  {
+    "lessonId": "n4.l14",
+    "grammarId": "n4.l14.g002",
+    "pattern": "お + [Verb ます-stem] + になる / お + [Verb ます-stem] + ください",
+    "meaning": "General Respectful Formula / Courteous Request",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "お客様、こちらのソファーにお掛けになってお待ちください。",
+      "ご不明な点がございましたら、いつでも担当者までご連絡ください。"
+    ],
+    "readingLength": 406,
+    "listeningLength": 295
+  },
+  {
+    "lessonId": "n4.l15",
+    "grammarId": "n4.l15.g001",
+    "pattern": "[Humble Verb: 参る・申す・いたす・拝見する・いただく・存じている]",
+    "meaning": "Dedicated Humble Verbs (謙譲語: humbling one's own actions or in-group members)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "東京本社から参りました、営業部の田中と申します。",
+      "昨日メールでお送りいただいた企画書を拝見いたしました。"
+    ],
+    "readingLength": 391,
+    "listeningLength": 319
+  },
+  {
+    "lessonId": "n4.l15",
+    "grammarId": "n4.l15.g002",
+    "pattern": "お + [Verb ます-stem] + する / ご + [Noun] + する",
+    "meaning": "General Humble Formula (lowering an action performed by the speaker for someone respected)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "新しい契約内容について、私から詳しくご説明いたします。",
+      "重そうなお荷物ですね。改札口まで私がお持ちいたしましょうか。"
+    ],
+    "readingLength": 391,
+    "listeningLength": 319
+  },
+  {
+    "lessonId": "n4.l16",
+    "grammarId": "n4.l16.g001",
+    "pattern": "[Plain form] + かもしれない",
+    "meaning": "Might / May (uncertain possibility, roughly 50% or less certainty)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "電源が入らないので、このパソコンは故障しているのかもしれません。",
+      "木村さんは家庭の都合で、明日の親睦会に参加できないかもしれません。"
+    ],
+    "readingLength": 450,
+    "listeningLength": 274
+  },
+  {
+    "lessonId": "n4.l16",
+    "grammarId": "n4.l16.g002",
+    "pattern": "[Plain form] + はずだ / はずがない",
+    "meaning": "Should / Ought to (logical expectation based on solid grounds or information); Cannot possibly be",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "昨日速達で発送した荷物は、今日の午後には届くはずです。",
+      "新幹線は雪の日でも、予定通りに運行するはずです。"
+    ],
+    "readingLength": 450,
+    "listeningLength": 274
+  },
+  {
+    "lessonId": "n4.l17",
+    "grammarId": "n4.l17.g001",
+    "pattern": "[Verb Dictionary form / ない form] + ことにする / ことにしている",
+    "meaning": "Personal Decision / Personal Habit or Rule",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "健康のために、毎朝三十分ウォーキングをすることにしました。",
+      "就寝前の習慣として、寝る前に必ず本を三十ページ読むことにしています。"
+    ],
+    "readingLength": 398,
+    "listeningLength": 320
+  },
+  {
+    "lessonId": "n4.l17",
+    "grammarId": "n4.l17.g002",
+    "pattern": "[Verb Dictionary form / ない form] + ことになる / ことになっている",
+    "meaning": "External Decision / Established Rule, Law, or Schedule",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "会社の人事異動で、来月から大阪支社へ転勤することになりました。",
+      "日本の法律では、二十歳未満はお酒を飲んではいけないことになっています。"
+    ],
+    "readingLength": 398,
+    "listeningLength": 320
+  },
+  {
+    "lessonId": "n4.l18",
+    "grammarId": "n4.l18.g001",
+    "pattern": "[Verb ます-stem / i-adj stem / na-adj stem] + すぎる",
+    "meaning": "Too much / Excessively (exceeding normal limits, undesirable)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "この料理は唐辛子が多すぎて、辛すぎて食べられません。",
+      "昨夜お酒を飲みすぎて、今朝から胃が痛くてたまりません。"
+    ],
+    "readingLength": 413,
+    "listeningLength": 343
+  },
+  {
+    "lessonId": "n4.l18",
+    "grammarId": "n4.l18.g002",
+    "pattern": "[Verb ます-stem] + やすい / にくい",
+    "meaning": "Easy to do / Hard to do; Prone to / Resistant to",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "イラストが多く使われている説明書は、とても読みやすくて助かります。",
+      "薄いガラスのコップは割れやすいので、洗うときは注意してください。"
+    ],
+    "readingLength": 413,
+    "listeningLength": 343
+  },
+  {
+    "lessonId": "n4.l19",
+    "grammarId": "n4.l19.g001",
+    "pattern": "[Verb Dictionary form (Potential / Intransitive)] + ようになる",
+    "meaning": "Come to be able to / Reach a state where one does (gradual change over time)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "日本に来て一年が経ち、日本語でスムーズに会話ができるようになりました。",
+      "日本人の友人に勧められて食べているうちに、納豆が大好きになりました。"
+    ],
+    "readingLength": 465,
+    "listeningLength": 336
+  },
+  {
+    "lessonId": "n4.l19",
+    "grammarId": "n4.l19.g002",
+    "pattern": "[Verb ない-form] (drop い) + くなる (〜なくなる)",
+    "meaning": "No longer do / Stop doing / Cease to be able to (gradual loss of habit or ability)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "スマートフォンのカメラが高性能になったため、重いカメラを持ち歩かなくなりました。",
+      "体力の衰えを感じて、徹夜などの無理をしなくなりました。"
+    ],
+    "readingLength": 465,
+    "listeningLength": 336
+  },
+  {
+    "lessonId": "n4.l20",
+    "grammarId": "n4.l20.g001",
+    "pattern": "[指示語・接続詞による文脈把握: しかし・そのため・それに・これ/それ]",
+    "meaning": "Discourse markers & Reference tracking (Conjunctions and Pronouns)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "筆者の最も伝えたい意見は、最後の段落に明確に述べられています。",
+      "長文読解では、「しかし」の後に続く文に筆者の結論が隠されていることが多いです。"
+    ],
+    "readingLength": 437,
+    "listeningLength": 354
+  },
+  {
+    "lessonId": "n4.l20",
+    "grammarId": "n4.l20.g002",
+    "pattern": "[Plain form] + のではないか / 〜必要がある",
+    "meaning": "Author's thesis markers (\"Isn't it the case that... / It is necessary to...\")",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "私たちは便利な暮らしを見直し、環境保護についてもっと考えるべきではないでしょうか。",
+      "少子化が進む現代社会では、子育てしやすい環境を地域全体で整える必要があります。"
+    ],
+    "readingLength": 437,
+    "listeningLength": 354
+  },
+  {
+    "lessonId": "n4.l21",
+    "grammarId": "n4.l21.g001",
+    "pattern": "[Plain form / Noun / Na-adj stem] + らしい",
+    "meaning": "Hearsay / Conjecture based on external information or rumors (\"Apparently / I hear that...\")",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "街の噂によると、駅前の古い本屋は来月閉店するらしい。",
+      "同僚の話では、佐藤課長は来年の春に結婚するらしいですよ。"
+    ],
+    "readingLength": 380,
+    "listeningLength": 300
+  },
+  {
+    "lessonId": "n4.l21",
+    "grammarId": "n4.l21.g002",
+    "pattern": "[Noun] + らしい",
+    "meaning": "Typicality / Embodiment of true qualities (\"Behaving like a true...\", \"Truly characteristic of...\")",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "失敗しても言い訳をせず前を向く姿勢は、実に山田さんらしいですね。",
+      "日中は暖かくなり、公園の桜のつぼみも膨らんで、春らしい陽気になってきました。"
+    ],
+    "readingLength": 380,
+    "listeningLength": 300
+  },
+  {
+    "lessonId": "n4.l22",
+    "grammarId": "n4.l22.g001",
+    "pattern": "[Plain form / Nounの / Na-adjな] + ようだ (推量・状況判断)",
+    "meaning": "Sensory / visual deduction (\"It appears / seems based on observation or direct evidence\")",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "部屋の明かりが消えていて静かなので、家族はみんな出かけたようです。",
+      "台所から美味しそうなカレーの匂いがしてきて、夕食ができたようです。"
+    ],
+    "readingLength": 480,
+    "listeningLength": 253
+  },
+  {
+    "lessonId": "n4.l22",
+    "grammarId": "n4.l22.g002",
+    "pattern": "まるで + [Nounの / Plain form] + ような [Noun] / ように [Verb/Adj] (比喩・例示)",
+    "meaning": "Simile / Metaphor (\"Just like / As if / Resembling...\")",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "この焼きたてのパンは、まるで白い雲のように柔らかいです。",
+      "憧れの大学に合格できた知らせを聞いて、まるで夢のようでした。"
+    ],
+    "readingLength": 480,
+    "listeningLength": 253
+  },
+  {
+    "lessonId": "n4.l23",
+    "grammarId": "n4.l23.g001",
+    "pattern": "[Noun / Na-adj stem / Verb plain] + みたいだ (口語の推量)",
+    "meaning": "Colloquial deduction / sensory inference (\"It seems like / looks like / sounds like\")",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "憧れの選手に直接サインをもらえて、本当に夢みたいです！",
+      "彼が言っていた話は、全部嘘だったみたいです。"
+    ],
+    "readingLength": 422,
+    "listeningLength": 251
+  },
+  {
+    "lessonId": "n4.l23",
+    "grammarId": "n4.l23.g002",
+    "pattern": "〜みたいな [Noun] / 〜みたいに [Verb/Adj] (口語の比喩)",
+    "meaning": "Colloquial Simile (\"Like / Resembling / In the manner of...\")",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "妹は音楽に合わせて、まるでプロのダンサーみたいに上手に踊ります。",
+      "今回の信じられない大逆転劇は、まるで漫画みたいな話です。"
+    ],
+    "readingLength": 422,
+    "listeningLength": 251
+  },
+  {
+    "lessonId": "n4.l24",
+    "grammarId": "n4.l24.g001",
+    "pattern": "[Verb (Dictionary form) / Noun + の] + ために",
+    "meaning": "In order to / For the purpose of / For the sake of (Intentional purpose)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "将来日本の大学に留学するために、毎日四時間日本語を勉強しています。",
+      "今年の目標を達成するために、毎月の計画を細かく立てることにしました。"
+    ],
+    "readingLength": 310,
+    "listeningLength": 285
+  },
+  {
+    "lessonId": "n4.l24",
+    "grammarId": "n4.l24.g002",
+    "pattern": "[Verb (Potential / Non-volitional / Negative ない-form)] + ように",
+    "meaning": "So that / In such a way that (State change, ability, or avoidance)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "留学生のみなさんが安心して生活できるように、市役所で相談窓口を開いています。",
+      "会議の内容を忘れないように、大切な発言は必ずノートにメモしてください。"
+    ],
+    "readingLength": 310,
+    "listeningLength": 285
+  },
+  {
+    "lessonId": "n4.l25",
+    "grammarId": "n4.l25.g001",
+    "pattern": "[Noun / Plain form] + なら",
+    "meaning": "If it is [Topic]; In that case (Contextual topic conditional and advice)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "東京の観光案内なら、東京に十年住んでいる私に任せてください。",
+      "京都の美しい紅葉を見たいなら、十一月下旬の訪問を強くお勧めします。"
+    ],
+    "readingLength": 313,
+    "listeningLength": 273
+  },
+  {
+    "lessonId": "n4.l25",
+    "grammarId": "n4.l25.g002",
+    "pattern": "Conditional Comparison: 〜なら vs 〜たら vs 〜ば vs 〜と",
+    "meaning": "Contrasting Japanese Conditionals (Topic/advice, sequence, hypothetical, natural result)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "伝統的な温泉旅館に泊まるなら、箱根か伊豆が交通も便利で最適です。",
+      "毎月の生活費を節約したいなら、水筒を持ち歩いて自炊するのが一番です。"
+    ],
+    "readingLength": 313,
+    "listeningLength": 273
+  },
+  {
+    "lessonId": "n4.l26",
+    "grammarId": "n4.l26.g001",
+    "pattern": "[Verb ない-form: 〜なければならない / 〜ないといけない]",
+    "meaning": "Must / Have to (Obligation, necessity, societal rules)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "社会の一員として、私たちは国の法律をきちんと守らなければなりません。",
+      "電気代と水道代は、毎月二十五日までにコンビニで支払わなければなりません。"
+    ],
+    "readingLength": 351,
+    "listeningLength": 297
+  },
+  {
+    "lessonId": "n4.l26",
+    "grammarId": "n4.l26.g002",
+    "pattern": "[Verb て-form] + はいけない / はだめだ",
+    "meaning": "Must not / May not / Prohibited (Strict prohibition)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "どんな理由があっても、会社の重要な規則を破ってはいけません。",
+      "危険ですから、関係者以外はこの工事現場に立ち入ってはいけません。"
+    ],
+    "readingLength": 351,
+    "listeningLength": 297
+  },
+  {
+    "lessonId": "n4.l27",
+    "grammarId": "n4.l27.g001",
+    "pattern": "[Verb て-form] + もいい / もかまわない",
+    "meaning": "May / Can / It is okay to (Giving and asking permission)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "先生の許可をもらったので、教室でスマートフォンの辞書を使ってもいいです。",
+      "今日の業務がすべて終わったなら、定時前に退勤しても構いませんよ。"
+    ],
+    "readingLength": 385,
+    "listeningLength": 269
+  },
+  {
+    "lessonId": "n4.l27",
+    "grammarId": "n4.l27.g002",
+    "pattern": "[Verb ない-form minus い] + くてもいい / くてもかまわない",
+    "meaning": "Do not have to / Need not (Non-necessity / Lack of obligation)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "明日は大学が祝日で休みですから、朝早く起きなくてもいいです。",
+      "この公園の野外コンサートは入場無料なので、チケットを買わなくてもいいですよ。"
+    ],
+    "readingLength": 385,
+    "listeningLength": 269
+  },
+  {
+    "lessonId": "n4.l28",
+    "grammarId": "n4.l28.g001",
+    "pattern": "[Verb た-form] + ことがある / ことがない",
+    "meaning": "Have done before / Have never done before (Past experience)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "私は紅葉の季節に、京都の有名な寺院を二度訪れたことがあります。",
+      "あなたは今までに、日本で一番高い富士山に登ったことがありますか。"
+    ],
+    "readingLength": 372,
+    "listeningLength": 261
+  },
+  {
+    "lessonId": "n4.l28",
+    "grammarId": "n4.l28.g002",
+    "pattern": "[Verb ます-stem] + ながら",
+    "meaning": "While doing [Action A], do [Main Action B] (Simultaneous action by same subject)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "姉はピアノを演奏しながら、透き通った声で美しい歌を歌っています。",
+      "重大な事故につながるので、車を運転しながらスマートフォンを操作してはいけません。"
+    ],
+    "readingLength": 372,
+    "listeningLength": 261
+  },
+  {
+    "lessonId": "n4.l29",
+    "grammarId": "n4.l29.g001",
+    "pattern": "Request Hierarchy: 〜てください vs 〜てくれませんか vs 〜ていただけませんか",
+    "meaning": "Politeness Registers in Requests (Direct instruction $\\to$ peer request $\\to$ high polite request)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "先生、お忙しいところ恐縮ですが、この作文を添削していただけませんか。",
+      "佐藤さん、この荷物は一人では重いので、少し運ぶのを手伝ってくれませんか。"
+    ],
+    "readingLength": 414,
+    "listeningLength": 283
+  },
+  {
+    "lessonId": "n4.l29",
+    "grammarId": "n4.l29.g002",
+    "pattern": "[Verb ない-form] + でください (〜ないでください)",
+    "meaning": "Please do not... (Polite negative request / instruction)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "演奏の妨げとなりますので、ホール内での写真撮影や録音はなさらないでください。",
+      "わからない文法や言葉があれば、授業後でも遠慮なく質問してくださいね。"
+    ],
+    "readingLength": 414,
+    "listeningLength": 283
+  },
+  {
+    "lessonId": "n4.l30",
+    "grammarId": "n4.l30.g001",
+    "pattern": "Conversational Transitions: ところで・それに・それで・実は",
+    "meaning": "Discourse Markers in Spoken Japanese (Topic shift, addition, consequence, disclosure)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "実は、今年の十二月に日本語能力試験N4を受験することに決めました。",
+      "今日の昼ご飯はとても美味しかったですね。ところで、午後の会議は何時からですか。"
+    ],
+    "readingLength": 440,
+    "listeningLength": 308
+  },
+  {
+    "lessonId": "n4.l30",
+    "grammarId": "n4.l30.g002",
+    "pattern": "やっぱり / やはり (Confirmation of intuition & expectation)",
+    "meaning": "As expected / After all / Sure enough",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "色々な勉強法を試しましたが、やっぱり毎日の復習を欠かさないことが一番大切です。",
+      "彼が約束の時間に遅刻した正当な理由を聞いて、みんな納得しました。"
+    ],
+    "readingLength": 440,
+    "listeningLength": 308
+  },
+  {
+    "lessonId": "n4.l31",
+    "grammarId": "n4.l31.g001",
+    "pattern": "[Plain form / Noun / Na-adj stem (*no だ)] + かどうか",
+    "meaning": "Whether or not (Embedded Yes/No Question Clause)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "台風の影響で飛行機が予定通り飛ぶかどうか、空港の案内所で調査してもらいました。",
+      "忘年会に参加できるかどうか、今週の金曜日までに幹事に返事をしてください。"
+    ],
+    "readingLength": 414,
+    "listeningLength": 277
+  },
+  {
+    "lessonId": "n4.l31",
+    "grammarId": "n4.l31.g002",
+    "pattern": "[Interrogative (何/誰/どこ/いつ/どう)] + [Plain form (*no だ)] + か",
+    "meaning": "Wh- Indirect Question Clause (Who/What/Where/When/How...)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "次の新幹線が何時に京都駅を出発するか、スマートフォンで調べてみましょう。",
+      "どの靴を買ったらいいか迷ったので、店員さんにアドバイスをお願いしました。"
+    ],
+    "readingLength": 414,
+    "listeningLength": 277
+  },
+  {
+    "lessonId": "n4.l32",
+    "grammarId": "n4.l32.g001",
+    "pattern": "Nominalization: [Verb Plain form] + の",
+    "meaning": "Nominalizing with の (Sensory perception, direct action, concrete scenes)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "深夜の地震の際、部屋の机や本棚が小刻みに揺れるのを感じました。",
+      "階段で重いスーツケースを運んでいるお年寄りを見て、運ぶのを手伝いました。"
+    ],
+    "readingLength": 323,
+    "listeningLength": 259
+  },
+  {
+    "lessonId": "n4.l32",
+    "grammarId": "n4.l32.g002",
+    "pattern": "Nominalization: [Verb Plain form] + こと",
+    "meaning": "Nominalizing with こと (Abstract concepts, speech/thought, definition sentences with です)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "私の休日の趣味は、公園の美しい風景をスケッチブックに描くことです。",
+      "明日の講義が休講になることを、まだ知らない同級生たちに急いで伝えました。"
+    ],
+    "readingLength": 323,
+    "listeningLength": 259
+  },
+  {
+    "lessonId": "n4.l33",
+    "grammarId": "n4.l33.g001",
+    "pattern": "[Verb て-form] + あげる vs くれる",
+    "meaning": "Giving Action Favor (〜てあげる: outward favor / 〜てくれる: inward favor to me)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "雨で傘がなくて困っていた友人に、私の予備の折りたたみ傘を貸してあげました。",
+      "休んだ授業のノートを親切な友人に借りて、大切な要点を教えてもらいました。"
+    ],
+    "readingLength": 447,
+    "listeningLength": 304
+  },
+  {
+    "lessonId": "n4.l33",
+    "grammarId": "n4.l33.g002",
+    "pattern": "[Verb て-form] + もらう",
+    "meaning": "Receiving Action Favor (〜てもらう: having someone do something for me)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "動かなくなったパソコンを、電気屋の専門スタッフに頼んで直してもらいました。",
+      "日本語の複雑な文法について、放課後にクラスメートに分かりやすく教えてもらいました。"
+    ],
+    "readingLength": 447,
+    "listeningLength": 304
+  },
+  {
+    "lessonId": "n4.l34",
+    "grammarId": "n4.l34.g001",
+    "pattern": "Spontaneous Sensory Occurrence: 見える vs 見られる / 聞こえる vs 聞ける",
+    "meaning": "Natural Spontaneous Perception vs Volitional Potential Ability",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "静かな朝の住宅街では、遠くの教会の鐘の音がかすかに聞こえます。",
+      "晴れて空気が澄んでいる日には、ホテルの部屋の窓から雄大な富士山がはっきり見えます。"
+    ],
+    "readingLength": 370,
+    "listeningLength": 289
+  },
+  {
+    "lessonId": "n4.l34",
+    "grammarId": "n4.l34.g002",
+    "pattern": "Spontaneous Intransitives vs Passive Voice (自然発生動詞と受身文の統合)",
+    "meaning": "Intransitive Natural Emergence vs Passive Voice (Things being decided/transmitted/born)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "京都には、何百年もの長い歴史の中で代々受け継がれてきた伝統工芸があります。",
+      "全員の投票の結果、新しい学生自治会の会長が田中さんに決まりました。"
+    ],
+    "readingLength": 370,
+    "listeningLength": 289
+  },
+  {
+    "lessonId": "n4.l35",
+    "grammarId": "n4.l35.g001",
+    "pattern": "[Verb Dictionary / ている / た-form] + ところだ",
+    "meaning": "Temporal point: about to do / in the middle of doing / have just finished doing",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "電車のドアが閉まって、ちょうど出発するところです。",
+      "部長、ちょうど会議の資料を印刷しているところです。"
+    ],
+    "readingLength": 235,
+    "listeningLength": 245
+  },
+  {
+    "lessonId": "n4.l35",
+    "grammarId": "n4.l35.g002",
+    "pattern": "[Verb た-form] + ばかりだ / ばかりの + [Noun]",
+    "meaning": "Subjective recent completion: have just done something (psychologically recent)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "この自転車は昨日修理して直したばかりなので、とても調子がいいです。",
+      "エレベーターは先週点検したばかりですから、故障の心配はありません。"
+    ],
+    "readingLength": 235,
+    "listeningLength": 245
+  },
+  {
+    "lessonId": "n4.l36",
+    "grammarId": "n4.l36.g001",
+    "pattern": "N4 Core Grammar Discrimination Matrix (類似文法の精密識別)",
+    "meaning": "Systematic Discrimination of Overlapping N4 Modals, Conditionals, and Purposive Patterns",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "N4の文法と漢字を総合的に復習して、確かな基礎力を身につけました。",
+      "困ったことがあったら、いつでも先輩が親身になって相談に乗ってくれます。"
+    ],
+    "readingLength": 438,
+    "listeningLength": 344
+  },
+  {
+    "lessonId": "n4.l36",
+    "grammarId": "n4.l36.g002",
+    "pattern": "Complex Sentence Integration: Giving/Receiving, Nominalization & Embedded Questions",
+    "meaning": "Multi-Clause Synthetic Syntax: Directionality of Benefit, Nominalization, and Embedded Clauses",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "先生に手渡した作文には、これまでに学んだ文型がたくさん使われています。",
+      "先生が丁寧に説明してくださったおかげで、疑問がすべて解決しました。"
+    ],
+    "readingLength": 438,
+    "listeningLength": 344
+  },
+  {
+    "lessonId": "n3.l01",
+    "grammarId": "n3.l01.g001",
+    "pattern": "〜について",
+    "meaning": "about; regarding; concerning (general topic of thought, speech, or investigation)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "日本の若者の働き方の変化について、アンケート調査を行いました。",
+      "新しい社内ルールについて、社員の間で活発に意見が交わされました。"
+    ],
+    "readingLength": 363,
+    "listeningLength": 326
+  },
+  {
+    "lessonId": "n3.l01",
+    "grammarId": "n3.l01.g002",
+    "pattern": "〜に関して",
+    "meaning": "concerning; with respect to; in relation to (formal, broader scope than について)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "工場の安全点検の結果に関して、来週の会議で詳しく報告します。",
+      "環境問題に関する最新の調査結果が、専門誌に掲載されました。"
+    ],
+    "readingLength": 363,
+    "listeningLength": 326
+  },
+  {
+    "lessonId": "n3.l02",
+    "grammarId": "n3.l02.g001",
+    "pattern": "〜にとって",
+    "meaning": "for; to; from the standpoint of (evaluating importance, difficulty, or feelings)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "健康はお金では買えないものであり、誰にとってもかけがえのない価値があります。",
+      "初心者にとって、このプログラミング試験の合格基準はかなり厳しいです。"
+    ],
+    "readingLength": 371,
+    "listeningLength": 324
+  },
+  {
+    "lessonId": "n3.l02",
+    "grammarId": "n3.l02.g002",
+    "pattern": "〜に対して",
+    "meaning": "toward; to; in contrast to (target of action/attitude OR comparison of opposites)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "店員はお客様に対して、いつも礼儀正しく誠実な態度で接するべきです。",
+      "突然のシステム障害に対して、技術担当者が迅速に対応しました。"
+    ],
+    "readingLength": 371,
+    "listeningLength": 324
+  },
+  {
+    "lessonId": "n3.l03",
+    "grammarId": "n3.l03.g001",
+    "pattern": "〜ようにする",
+    "meaning": "to make an effort to; to try to; to make a habit of (conscious volitional discipline)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "運動不足を解消するため、エレベーターを使わずに階段を使うようにしています。",
+      "朝起きたらすぐにコップ一杯の白湯を飲むことを習慣にしています。"
+    ],
+    "readingLength": 483,
+    "listeningLength": 308
+  },
+  {
+    "lessonId": "n3.l03",
+    "grammarId": "n3.l03.g002",
+    "pattern": "〜ようになる",
+    "meaning": "to reach the point where; to come to; to become able to (gradual change of state or capacity)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "留学して半年が過ぎ、日常会話をすらすら話せるようになりました。",
+      "ニュースの要点を日本語で理解できるようになり、日々の成長を実感しています。"
+    ],
+    "readingLength": 483,
+    "listeningLength": 308
+  },
+  {
+    "lessonId": "n3.l04",
+    "grammarId": "n3.l04.g001",
+    "pattern": "〜によって",
+    "meaning": "due to; because of; by means of; depending on (causes, instruments, diversity, or passive agents)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "停電の原因は、落雷によって電線が切れたことだと判明しました。",
+      "最先端の人工知能技術によって、医療診断の精度が飛躍的に高まりました。"
+    ],
+    "readingLength": 450,
+    "listeningLength": 329
+  },
+  {
+    "lessonId": "n3.l04",
+    "grammarId": "n3.l04.g002",
+    "pattern": "〜による",
+    "meaning": "caused by; due to; by means of (noun-modifying form of 〜によって)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "大型台風の直撃による被害額は、数億円に達すると見込まれています。",
+      "踏切内での自動車事故による電車の遅れは、午後3時頃に解消しました。"
+    ],
+    "readingLength": 450,
+    "listeningLength": 329
+  },
+  {
+    "lessonId": "n3.l05",
+    "grammarId": "n3.l05.g001",
+    "pattern": "〜ほど",
+    "meaning": "so ... that; to the extent that; not as ... as; the more ... the more",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "年末は猫の手も借りたいほど非常に忙しい日々が続きます。",
+      "人生において、お互いの信頼関係ほど相当な価値を持つものはありません。"
+    ],
+    "readingLength": 381,
+    "listeningLength": 306
+  },
+  {
+    "lessonId": "n3.l05",
+    "grammarId": "n3.l05.g002",
+    "pattern": "〜くらい",
+    "meaning": "approximately; to the extent that; at least; as trivial as (rough estimation, minimal degree, or colloquial extent)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "自分の使った机の上くらい、帰る前にきれいに片付けなさい。",
+      "思わず声を出して笑ってしまうくらい、そのコメディ番組は面白かったです。"
+    ],
+    "readingLength": 381,
+    "listeningLength": 306
+  },
+  {
+    "lessonId": "n3.l06",
+    "grammarId": "n3.l06.g001",
+    "pattern": "〜に限る",
+    "meaning": "is the best; nothing beats; the best choice is",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "夏の暑い日には、冷たいスイカを食べるに限ります。",
+      "風邪の引き始めには、無理をせずに暖かくして寝るに限る。"
+    ],
+    "readingLength": 369,
+    "listeningLength": 314
+  },
+  {
+    "lessonId": "n3.l06",
+    "grammarId": "n3.l06.g002",
+    "pattern": "〜ばかり / 〜てばかりいる",
+    "meaning": "only; nothing but; doing nothing but",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "彼は自分で何も行動を起こさないで、不満や文句ばかり言っている。",
+      "偏った栄養のものばかり食べていると、いつか体を壊してしまいますよ。"
+    ],
+    "readingLength": 369,
+    "listeningLength": 314
+  },
+  {
+    "lessonId": "n3.l07",
+    "grammarId": "n3.l07.g001",
+    "pattern": "〜にもかかわらず",
+    "meaning": "despite; in spite of; although; nevertheless",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "悪天候にもかかわらず、会場には数百人もの熱心なファンが詰めかけた。",
+      "幾重もの困難があったにもかかわらず、チーム全員の協力でプロジェクトを実行に移した。"
+    ],
+    "readingLength": 394,
+    "listeningLength": 290
+  },
+  {
+    "lessonId": "n3.l07",
+    "grammarId": "n3.l07.g002",
+    "pattern": "〜わりに（は）",
+    "meaning": "considering; for; comparatively; although",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "祖父は80歳という高齢のわりに、足腰がしっかりしていて毎朝散歩を欠かさない。",
+      "駅前のあのレストランは、価格が手頃なわりに本格的な料理が味わえる。"
+    ],
+    "readingLength": 394,
+    "listeningLength": 290
+  },
+  {
+    "lessonId": "n3.l08",
+    "grammarId": "n3.l08.g001",
+    "pattern": "〜つつ / 〜つつも",
+    "meaning": "while doing; although; even while acknowledging",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "会社でフルタイムの仕事を続けつつ、夜間大学院に通って研究を進めている。",
+      "過去の失敗を深く反省しつつも、次の挑戦に向けて前を向いて歩き出さなければならない。"
+    ],
+    "readingLength": 397,
+    "listeningLength": 308
+  },
+  {
+    "lessonId": "n3.l08",
+    "grammarId": "n3.l08.g002",
+    "pattern": "〜最中に / 〜最中だ",
+    "meaning": "right in the middle of; at the peak of",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "重要な経営会議を行っている最中に、担当者のスマートフォンが突然鳴り響いた。",
+      "パソコンで大切な書類を作成している最中に停電が起き、保存前のデータが消えてしまった。"
+    ],
+    "readingLength": 397,
+    "listeningLength": 308
+  },
+  {
+    "lessonId": "n3.l09",
+    "grammarId": "n3.l09.g001",
+    "pattern": "〜がち",
+    "meaning": "tends to; prone to; apt to; easily does (undesirable frequency)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "デスクワークが中心の生活を送っていると、どうしても運動不足になりがちだ。",
+      "共働きの家庭が増え、日中は家を留守にしがちな世帯が多くなっている。"
+    ],
+    "readingLength": 396,
+    "listeningLength": 353
+  },
+  {
+    "lessonId": "n3.l09",
+    "grammarId": "n3.l09.g002",
+    "pattern": "〜気味",
+    "meaning": "slight feeling of; touch of; a bit of (current mild symptom/state)",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "彼は初めての採用面接を前にして、少し緊張気味な面持ちで待合室に座っていた。",
+      "朝から喉が痛くて少し風邪気味なので、今夜は早く薬を飲んで寝ようと思います。"
+    ],
+    "readingLength": 396,
+    "listeningLength": 353
+  },
+  {
+    "lessonId": "n3.l10",
+    "grammarId": "n3.l10.g001",
+    "pattern": "〜わけだ",
+    "meaning": "no wonder; it naturally follows that; it means that",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "窓の外を見たら一面の雪景色だった。これほど部屋が冷え込んでいるわけだ。",
+      "彼は日本に10年以上住んでいるのだから、日本語が流暢に話せるわけだ。"
+    ],
+    "readingLength": 396,
+    "listeningLength": 321
+  },
+  {
+    "lessonId": "n3.l10",
+    "grammarId": "n3.l10.g002",
+    "pattern": "〜わけがない",
+    "meaning": "there is no way that; it is impossible that; cannot possibly be",
+    "hasExampleSentences": true,
+    "exampleSentences": [
+      "確実な証拠が何一つないのだから、彼が犯人であるわけがない。",
+      "これほど複雑で膨大な業務を、たった一人で一日で処理できるわけがない。"
+    ],
+    "readingLength": 396,
+    "listeningLength": 321
+  }
+]

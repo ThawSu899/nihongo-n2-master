@@ -1,0 +1,1789 @@
+{
+  "id": "n3.l39",
+  "level": "N3",
+  "module": "N3 Formal & Expository",
+  "number": 39,
+  "title": "N3 Lesson 39: Simultaneous Actions & Habits (〜ながら・〜ついでに・〜うちに)",
+  "description": "Master simultaneous actions and temporal habit expressions in Japanese, contrasting dual active tasks with 〜ながら, opportunistic secondary actions with 〜ついでに, and seizing time windows before conditions shift with 〜うちに.",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n3.l39.v001",
+      "lessonId": "n3.l39",
+      "ja": "並行",
+      "kana": "へいこう",
+      "en": "parallel, concurrent",
+      "my": "အပြိုင်လုပ်ဆောင်ခြင်း",
+      "meaningMy": "အပြိုင်လုပ်ဆောင်ခြင်း",
+      "meaningMyanmar": "အပြိုင်လုပ်ဆောင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l39.s001",
+      "kanjiIds": [
+        "n3.l39.k001"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.v002",
+      "lessonId": "n3.l39",
+      "ja": "習慣",
+      "kana": "しゅうかん",
+      "en": "custom, habit",
+      "my": "အလေ့အထဓလေ့",
+      "meaningMy": "အလေ့အထဓလေ့",
+      "meaningMyanmar": "အလေ့အထဓလေ့",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l39.s002",
+      "kanjiIds": [
+        "n3.l39.k002"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.v003",
+      "lessonId": "n3.l39",
+      "ja": "練習",
+      "kana": "れんしゅう",
+      "en": "practice, training",
+      "my": "လေ့ကျင့်ခြင်း",
+      "meaningMy": "လေ့ကျင့်ခြင်း",
+      "meaningMyanmar": "လေ့ကျင့်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l39.s003",
+      "kanjiIds": [
+        "n3.l39.k003"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.v004",
+      "lessonId": "n3.l39",
+      "ja": "学習",
+      "kana": "がくしゅう",
+      "en": "learning, study",
+      "my": "လေ့လာသင်ယူခြင်း",
+      "meaningMy": "လေ့လာသင်ယူခြင်း",
+      "meaningMyanmar": "လေ့လာသင်ယူခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l39.s004",
+      "kanjiIds": [
+        "n3.l39.k003"
+      ],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.v005",
+      "lessonId": "n3.l39",
+      "ja": "同時",
+      "kana": "どうじ",
+      "en": "simultaneous, concurrent",
+      "my": "တစ်ပြိုင်နက်တည်း",
+      "meaningMy": "တစ်ပြိုင်နက်တည်း",
+      "meaningMyanmar": "တစ်ပြိုင်နက်တည်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l39.s005",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.v006",
+      "lessonId": "n3.l39",
+      "ja": "寄り道",
+      "kana": "よりみち",
+      "en": "detour, dropping by",
+      "my": "လမ်းကြုံဝင်ရောက်လည်ပတ်ခြင်း",
+      "meaningMy": "လမ်းကြုံဝင်ရောက်လည်ပတ်ခြင်း",
+      "meaningMyanmar": "လမ်းကြုံဝင်ရောက်လည်ပတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l39.s006",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.v007",
+      "lessonId": "n3.l39",
+      "ja": "散歩",
+      "kana": "さんぽ",
+      "en": "walk, stroll",
+      "my": "လမ်းလျှောက်အပန်းဖြေခြင်း",
+      "meaningMy": "လမ်းလျှောက်အပန်းဖြေခြင်း",
+      "meaningMyanmar": "လမ်းလျှောက်အပန်းဖြေခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l39.s007",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.v008",
+      "lessonId": "n3.l39",
+      "ja": "観察",
+      "kana": "かんさつ",
+      "en": "observation",
+      "my": "စောင့်ကြည့်လေ့လာခြင်း",
+      "meaningMy": "စောင့်ကြည့်လေ့လာခြင်း",
+      "meaningMyanmar": "စောင့်ကြည့်လေ့လာခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l39.s008",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.v009",
+      "lessonId": "n3.l39",
+      "ja": "体験",
+      "kana": "たいけん",
+      "en": "personal experience",
+      "my": "ကိုယ်တိုင်ကြုံတွေ့မှု",
+      "meaningMy": "ကိုယ်တိုင်ကြုံတွေ့မှု",
+      "meaningMyanmar": "ကိုယ်တိုင်ကြုံတွေ့မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l39.s009",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.v010",
+      "lessonId": "n3.l39",
+      "ja": "集中",
+      "kana": "しゅうちゅう",
+      "en": "concentration, focus",
+      "my": "အာရုံစူးစိုက်မှု",
+      "meaningMy": "အာရုံစူးစိုက်မှု",
+      "meaningMyanmar": "အာရုံစူးစိုက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l39.s010",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.v011",
+      "lessonId": "n3.l39",
+      "ja": "継続",
+      "kana": "けいぞく",
+      "en": "continuation, persistence",
+      "my": "စဉ်ဆက်မပြတ်လုပ်ဆောင်ခြင်း",
+      "meaningMy": "စဉ်ဆက်မပြတ်လုပ်ဆောင်ခြင်း",
+      "meaningMyanmar": "စဉ်ဆက်မပြတ်လုပ်ဆောင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l39.s011",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.v012",
+      "lessonId": "n3.l39",
+      "ja": "熟練",
+      "kana": "じゅくれん",
+      "en": "skillful, expert",
+      "my": "ကျွမ်းကျင်ရင့်ကျက်မှု",
+      "meaningMy": "ကျွမ်းကျင်ရင့်ကျက်မှု",
+      "meaningMyanmar": "ကျွမ်းကျင်ရင့်ကျက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l39.s012",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 4,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n3.l39.k001",
+      "lessonId": "n3.l39",
+      "char": "並",
+      "meaning": "row, align, side-by-side",
+      "meaningMy": "စီတန်းသည်/အပြိုင်ဖြစ်သည်",
+      "meaningMyanmar": "စီတန်းသည်/အပြိုင်ဖြစ်သည်",
+      "onyomi": [
+        "ヘイ"
+      ],
+      "kunyomi": [
+        "なら・ぶ",
+        "なら・べる",
+        "なみ"
+      ],
+      "exampleVocab": [
+        {
+          "word": "並行",
+          "reading": "へいこう",
+          "meaning": "parallel/concurrent",
+          "meaningMy": "အပြိုင်လုပ်ဆောင်ခြင်း",
+          "preview": true
+        },
+        {
+          "word": "並ぶ",
+          "reading": "ならぶ",
+          "meaning": "to stand in line",
+          "meaningMy": "တန်းစီသည်",
+          "preview": false
+        },
+        {
+          "word": "並べる",
+          "reading": "ならべる",
+          "meaning": "to line up",
+          "meaningMy": "စီစီရီရီချထားသည်",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l39.s001"
+      ],
+      "components": [
+        "丷",
+        "一",
+        "业"
+      ],
+      "strokes": 8,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.k002",
+      "lessonId": "n3.l39",
+      "char": "慣",
+      "meaning": "accustomed, habit",
+      "meaningMy": "အကျင့်ပါသည်/ကျင့်သားရသည်",
+      "meaningMyanmar": "အကျင့်ပါသည်/ကျင့်သားရသည်",
+      "onyomi": [
+        "カン"
+      ],
+      "kunyomi": [
+        "な・れる",
+        "な・らす"
+      ],
+      "exampleVocab": [
+        {
+          "word": "習慣",
+          "reading": "しゅうかん",
+          "meaning": "custom/habit",
+          "meaningMy": "အလေ့အထဓလေ့",
+          "preview": true
+        },
+        {
+          "word": "慣れる",
+          "reading": "なれる",
+          "meaning": "to grow accustomed",
+          "meaningMy": "ကျင့်သားရသည်",
+          "preview": false
+        },
+        {
+          "word": "見慣れる",
+          "reading": "みなれる",
+          "meaning": "to be familiar to see",
+          "meaningMy": "မြင်ဖူးနေကျဖြစ်သည်",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l39.s002"
+      ],
+      "components": [
+        "忄",
+        "貫"
+      ],
+      "strokes": 14,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.k003",
+      "lessonId": "n3.l39",
+      "char": "習",
+      "meaning": "learn, practice",
+      "meaningMy": "သင်ယူသည်/လေ့ကျင့်သည်",
+      "meaningMyanmar": "သင်ယူသည်/လေ့ကျင့်သည်",
+      "onyomi": [
+        "シュウ"
+      ],
+      "kunyomi": [
+        "なら・う"
+      ],
+      "exampleVocab": [
+        {
+          "word": "練習",
+          "reading": "れんしゅう",
+          "meaning": "practice",
+          "meaningMy": "လေ့ကျင့်ခြင်း",
+          "preview": true
+        },
+        {
+          "word": "学習",
+          "reading": "がくしゅう",
+          "meaning": "learning/study",
+          "meaningMy": "လေ့လာသင်ယူခြင်း",
+          "preview": false
+        },
+        {
+          "word": "習う",
+          "reading": "ならう",
+          "meaning": "to learn",
+          "meaningMy": "သင်ယူသည်",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n3.l39.s003"
+      ],
+      "components": [
+        "羽",
+        "白"
+      ],
+      "strokes": 11,
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n3.l39.g001",
+      "lessonId": "n3.l39",
+      "pattern": "〜ながら",
+      "meaning": "while doing (simultaneous actions by same person)",
+      "meaningMy": "...ရင်းနှင့်/...ရင်းဖြင့် (တစ်ချိန်တည်းပြုလုပ်ခြင်း)",
+      "meaningMyanmar": "...ရင်းနှင့်/...ရင်းဖြင့် (တစ်ချိန်တည်းပြုလုပ်ခြင်း)",
+      "formation": "Verb [ます-stem] + ながら",
+      "explanation": {
+        "en": "Used when the same subject performs two continuous actions concurrently. The main emphasis is placed on the action in the second clause.",
+        "my": "လူတစ်ဦးတည်းက တစ်ချိန်တည်းတွင် အပြုအမူနှစ်ခုကို ပြိုင်တူလုပ်ဆောင်ရာတွင် သုံးသည်။ ဒုတိယဝါကျရှိ အပြုအမူက ပိုမိုအဓိကကျသည်။"
+      },
+      "explanationMy": "လူတစ်ဦးတည်းက တစ်ချိန်တည်းတွင် အပြုအမူနှစ်ခုကို ပြိုင်တူလုပ်ဆောင်ရာတွင် သုံးသည်။ ဒုတိယဝါကျရှိ အပြုအမူက ပိုမိုအဓိကကျသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l39.s001",
+          "note": "〜ながら usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l39.s002",
+          "note": "〜ながら usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l39.s003",
+          "note": "〜ながら usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l39.s004",
+          "note": "〜ながら usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l39.g001",
+        "n3.l39.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ながら."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "音楽を聴き（　）、部屋の掃除をするのが好きです。",
+      "clozeTarget": "ながら",
+      "clozeHint": "simultaneous action: while listening...",
+      "acceptableSynonyms": [
+        "〜と同時に"
+      ],
+      "nuanceExplanationMy": "ရှေ့နှင့်နောက် အပြုအမူနှစ်ခုလုံးကို ကတ္တားတစ်ဦးတည်းက ပြုလုပ်ရမည်။"
+    },
+    {
+      "id": "n3.l39.g002",
+      "lessonId": "n3.l39",
+      "pattern": "〜ついでに",
+      "meaning": "while at it / taking the opportunity of",
+      "meaningMy": "...လုပ်သည့်ကြုံတုန်း/...လုပ်ရင်းနဲ့ (အခွင့်ကောင်းယူ၍)",
+      "meaningMyanmar": "...လုပ်သည့်ကြုံတုန်း/...လုပ်ရင်းနဲ့ (အခွင့်ကောင်းယူ၍)",
+      "formation": "Verb [Dict Form / た-form] + ついでに / Noun [の] + ついでに",
+      "explanation": {
+        "en": "Used when taking advantage of an opportunity created by a primary action to conveniently accomplish a secondary task.",
+        "my": "အဓိကကိစ္စတစ်ခု ပြုလုပ်နေစဉ် ကြုံတိုက်ဆိုင်ခိုက် အခွင့်ကောင်းယူ၍ နောက်ထပ်အပိုကိစ္စတစ်ခုကို ဆောင်ရွက်သည့်အခါ သုံးသည်။"
+      },
+      "explanationMy": "အဓိကကိစ္စတစ်ခု ပြုလုပ်နေစဉ် ကြုံတိုက်ဆိုင်ခိုက် အခွင့်ကောင်းယူ၍ နောက်ထပ်အပိုကိစ္စတစ်ခုကို ဆောင်ရွက်သည့်အခါ သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l39.s005",
+          "note": "〜ついでに usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l39.s006",
+          "note": "〜ついでに usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l39.s007",
+          "note": "〜ついでに usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l39.s008",
+          "note": "〜ついでに usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l39.g001",
+        "n3.l39.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜ついでに."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "コンビニへ行く（　）、郵便ポストに手紙を出してきてくれませんか。",
+      "clozeTarget": "ついでに",
+      "clozeHint": "convenient opportunity: while at it...",
+      "acceptableSynonyms": [
+        "〜の機会に"
+      ],
+      "nuanceExplanationMy": "ရှေ့ကိစ္စသည် အဓိကရည်ရွယ်ချက်ဖြစ်ပြီး နောက်ကိစ္စသည် ကြုံတုန်းဆောင်ရွက်သော အပိုကိစ္စ ဖြစ်သည်။"
+    },
+    {
+      "id": "n3.l39.g003",
+      "lessonId": "n3.l39",
+      "pattern": "〜うちに",
+      "meaning": "while (a state lasts) / before (condition changes)",
+      "meaningMy": "...နေတုန်း/...မပြောင်းလဲမီအတွင်း",
+      "meaningMyanmar": "...နေတုန်း/...မပြောင်းလဲမီအတွင်း",
+      "formation": "Verb [Dict / ている / ない] + うちに / i-adj [うちに] / na-adj [なうちに] / Noun [のうちに]",
+      "explanation": {
+        "en": "Expresses taking action while a current temporary state persists, or an unexpected change occurring naturally during that time window.",
+        "my": "လက်ရှိအခြေအနေ မပြောင်းလဲမီ အခွင့်အရေးရှိနေစဉ်အတွင်း တစ်စုံတစ်ခုပြုလုပ်ခြင်း သို့မဟုတ် ထိုအချိန်အတွင်း သတိမထားမိဘဲ အပြောင်းအလဲဖြစ်သွားခြင်းကို ပြသည်။"
+      },
+      "explanationMy": "လက်ရှိအခြေအနေ မပြောင်းလဲမီ အခွင့်အရေးရှိနေစဉ်အတွင်း တစ်စုံတစ်ခုပြုလုပ်ခြင်း သို့မဟုတ် ထိုအချိန်အတွင်း သတိမထားမိဘဲ အပြောင်းအလဲဖြစ်သွားခြင်းကို ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n3.l39.s009",
+          "note": "〜うちに usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l39.s010",
+          "note": "〜うちに usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l39.s011",
+          "note": "〜うちに usage in authentic context"
+        },
+        {
+          "sentenceId": "n3.l39.s012",
+          "note": "〜うちに usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n3.l39.g001",
+        "n3.l39.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜うちに."
+      ],
+      "difficulty": 3,
+      "level": "N3",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "スープが温かい（　）、冷めないうちに召し上がってください。",
+      "clozeTarget": "うちに",
+      "clozeHint": "time window: while it is hot...",
+      "acceptableSynonyms": [
+        "〜の間に",
+        "〜前に"
+      ],
+      "nuanceExplanationMy": "အချိန်အခွင့်အရေး ကုန်ဆုံးမသွားမီ လုပ်ဆောင်ရန် တိုက်တွန်းရာတွင် အလွန်အသုံးများသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n3.l39.s001",
+      "lessonId": "n3.l39",
+      "ja": "二つの計画を並行して進めながら、同時に進行状況を確認する習慣をつけている。",
+      "kana": "ふたつのけいかくをへいこうしてすすめながら、どうじにしんこうじょうきょうをかくにんするしゅうかんをつけている。",
+      "translation": {
+        "en": "While progressing two plans in parallel, I have developed the habit of simultaneously checking their progress.",
+        "my": "စီမံကိန်းနှစ်ခုကို အပြိုင်လုပ်ဆောင်ရင်း တစ်ပြိုင်နက်တည်း တိုးတက်မှုအခြေအနေကို စစ်ဆေးသည့် အလေ့အထကို ပြုလုပ်ထားသည်။"
+      },
+      "translationMy": "စီမံကိန်းနှစ်ခုကို အပြိုင်လုပ်ဆောင်ရင်း တစ်ပြိုင်နက်တည်း တိုးတက်မှုအခြေအနေကို စစ်ဆေးသည့် အလေ့အထကို ပြုလုပ်ထားသည်။",
+      "vocabIds": [
+        "n3.l39.v001",
+        "n3.l39.v002",
+        "n3.l39.v005"
+      ],
+      "grammarIds": [
+        "n3.l39.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.s002",
+      "lessonId": "n3.l39",
+      "ja": "通学電車に揺られながら、スマートフォンのアプリで日本語の語彙を学習している。",
+      "kana": "つうがくでんしゃにゆられながら、すまーとふぉんのあぷりでにほんごのごいをとがくしゅうしている。",
+      "translation": {
+        "en": "While being rocked in the commuter train, I study Japanese vocabulary on a smartphone app.",
+        "my": "ကျောင်းတက်ရထားစီးရင်းနှင့် စမတ်ဖုန်းအက်ပ်ဖြင့် ဂျပန်ဝေါဟာရများကို လေ့လာသင်ယူလျက်ရှိသည်။"
+      },
+      "translationMy": "ကျောင်းတက်ရထားစီးရင်းနှင့် စမတ်ဖုန်းအက်ပ်ဖြင့် ဂျပန်ဝေါဟာရများကို လေ့လာသင်ယူလျက်ရှိသည်။",
+      "vocabIds": [
+        "n3.l39.v004"
+      ],
+      "grammarIds": [
+        "n3.l39.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.s003",
+      "lessonId": "n3.l39",
+      "ja": "音楽を聴きながら勉強すると集中できないので、静かな部屋で机に向かう。",
+      "kana": "おんがくをききながらべんきょうするとしゅうちゅうできないので、しずかなへやでつくえにむかう。",
+      "translation": {
+        "en": "Because I cannot concentrate when studying while listening to music, I sit at my desk in a quiet room.",
+        "my": "သီချင်းနားထောင်ရင်း စာလေ့လာပါက အာရုံမစိုက်နိုင်သောကြောင့် တိတ်ဆိတ်သောအခန်းတွင် စာကြည့်စားပွဲ၌ ထိုင်သည်။"
+      },
+      "translationMy": "သီချင်းနားထောင်ရင်း စာလေ့လာပါက အာရုံမစိုက်နိုင်သောကြောင့် တိတ်ဆိတ်သောအခန်းတွင် စာကြည့်စားပွဲ၌ ထိုင်သည်။",
+      "vocabIds": [
+        "n3.l39.v010"
+      ],
+      "grammarIds": [
+        "n3.l39.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.s004",
+      "lessonId": "n3.l39",
+      "ja": "危険ですので、スマートフォンを操作しながら歩くのは絶対にやめてください。",
+      "kana": "きけんですので、すまーとふぉんをそうさしながらあるくのはぜったいにやめてください。",
+      "translation": {
+        "en": "Because it is dangerous, please absolutely refrain from walking while operating a smartphone.",
+        "my": "အန္တရာယ်ရှိသဖြင့် စမတ်ဖုန်းကို ကြည့်ရင်း လမ်းလျှောက်ခြင်းကို လုံးဝမပြုလုပ်ကြပါနှင့်။"
+      },
+      "translationMy": "အန္တရာယ်ရှိသဖြင့် စမတ်ဖုန်းကို ကြည့်ရင်း လမ်းလျှောက်ခြင်းကို လုံးဝမပြုလုပ်ကြပါနှင့်။",
+      "vocabIds": [
+        "n3.l39.v007"
+      ],
+      "grammarIds": [
+        "n3.l39.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.s005",
+      "lessonId": "n3.l39",
+      "ja": "銀行へ行くついでに、隣のスーパーで夕食の買い物を済ませてきた。",
+      "kana": "ぎんこうへいくついでに、となりのすーぱーでゆうしょくのかいものをすませてきた。",
+      "translation": {
+        "en": "While heading to the bank, I finished shopping for dinner at the adjacent supermarket.",
+        "my": "ဘဏ်သို့သွားသည့်ကြုံတုန်း ဘေးရှိစူပါမားကတ်တွင် ညစာအတွက် ဈေးဝယ်ခြင်းကို တစ်ပါတည်း ပြီးစီးအောင် လုပ်ခဲ့သည်။"
+      },
+      "translationMy": "ဘဏ်သို့သွားသည့်ကြုံတုန်း ဘေးရှိစူပါမားကတ်တွင် ညစာအတွက် ဈေးဝယ်ခြင်းကို တစ်ပါတည်း ပြီးစီးအောင် လုပ်ခဲ့သည်။",
+      "vocabIds": [
+        "n3.l39.v006"
+      ],
+      "grammarIds": [
+        "n3.l39.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.s006",
+      "lessonId": "n3.l39",
+      "ja": "出張で京都を訪れたついでに、有名な歴史的寺院を観察してきた。",
+      "kana": "しゅっちょうできょうとをおとずれたついでに、ゆうめいなれきしてきじいんをかんさつしてきた。",
+      "translation": {
+        "en": "While visiting Kyoto on a business trip, I observed famous historical temples.",
+        "my": "တာဝန်ဖြင့် ကျိုတိုသို့ သွားရောက်သည့်ကြုံတုန်း နာမည်ကြီးသော သမိုင်းဝင်ဘုရားကျောင်းများကို လေ့လာစောင့်ကြည့်ခဲ့သည်။"
+      },
+      "translationMy": "တာဝန်ဖြင့် ကျိုတိုသို့ သွားရောက်သည့်ကြုံတုန်း နာမည်ကြီးသော သမိုင်းဝင်ဘုရားကျောင်းများကို လေ့လာစောင့်ကြည့်ခဲ့သည်။",
+      "vocabIds": [
+        "n3.l39.v008"
+      ],
+      "grammarIds": [
+        "n3.l39.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.s007",
+      "lessonId": "n3.l39",
+      "ja": "散歩のついでに、ポストに年賀状を投函しておきました。",
+      "kana": "さんぽのついでに、ぽすとにごねんがじょうをとうかんしておきました。",
+      "translation": {
+        "en": "While out on a walk, I dropped the New Year's cards into the postbox.",
+        "my": "လမ်းလျှောက်အပန်းဖြေသည့်ကြုံတုန်း စာတိုက်ပုံးထဲသို့ နှစ်သစ်ကူးနှုတ်ခွန်းဆက်ကတ်များကို ထည့်သွင်းထားခဲ့သည်။"
+      },
+      "translationMy": "လမ်းလျှောက်အပန်းဖြေသည့်ကြုံတုန်း စာတိုက်ပုံးထဲသို့ နှစ်သစ်ကူးနှုတ်ခွန်းဆက်ကတ်များကို ထည့်သွင်းထားခဲ့သည်။",
+      "vocabIds": [
+        "n3.l39.v007"
+      ],
+      "grammarIds": [
+        "n3.l39.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.s008",
+      "lessonId": "n3.l39",
+      "ja": "本を返却しに図書館へ行ったついでに、新しい専門書も借りてきた。",
+      "kana": "ほんをへんきゃくしにとしょかんへいったついでに、あたらしいせんもんしょもかりてきた。",
+      "translation": {
+        "en": "While going to the library to return books, I also borrowed new specialized books.",
+        "my": "စာကြည့်တိုက်သို့ စာအုပ်ပြန်အပ်ရန် သွားသည့်ကြုံတုန်း အထူးပြုစာအုပ်အသစ်များကိုပါ ငှားရမ်းခဲ့သည်။"
+      },
+      "translationMy": "စာကြည့်တိုက်သို့ စာအုပ်ပြန်အပ်ရန် သွားသည့်ကြုံတုန်း အထူးပြုစာအုပ်အသစ်များကိုပါ ငှားရမ်းခဲ့သည်။",
+      "vocabIds": [
+        "n3.l39.v006"
+      ],
+      "grammarIds": [
+        "n3.l39.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.s009",
+      "lessonId": "n3.l39",
+      "ja": "記憶が鮮明なうちに、今日授業で習った重要事項をノートに復習しておこう。",
+      "kana": "きおくがせんめいなうちに、きょうじゅぎょうでならったじゅうようじこうをのーとにふくしゅうしておこう。",
+      "translation": {
+        "en": "While memory is fresh, let's review in the notebook the important points learned in today's class.",
+        "my": "မှတ်ဉာဏ်များ လတ်ဆတ်နေစဉ်အတွင်း ယနေ့အတန်းတွင် သင်ယူခဲ့သော အရေးကြီးသောအချက်များကို မှတ်စုစာအုပ်တွင် ပြန်လည်လေ့ကျင့်ထားကြပါစို့။"
+      },
+      "translationMy": "မှတ်ဉာဏ်များ လတ်ဆတ်နေစဉ်အတွင်း ယနေ့အတန်းတွင် သင်ယူခဲ့သော အရေးကြီးသောအချက်များကို မှတ်စုစာအုပ်တွင် ပြန်လည်လေ့ကျင့်ထားကြပါစို့။",
+      "vocabIds": [
+        "n3.l39.v003"
+      ],
+      "grammarIds": [
+        "n3.l39.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.s010",
+      "lessonId": "n3.l39",
+      "ja": "天気が良くて雨が降らないうちに、庭の掃除と洗濯物を干してしまおう。",
+      "kana": "てんきがよくてあめがふらないうちに、にわのそうじとせんたくものをほしてしまおう。",
+      "translation": {
+        "en": "While the weather is good and before it rains, let's finish cleaning the yard and hanging laundry.",
+        "my": "ရာသီဥတုကောင်းမွန်ပြီး မိုးမရွာမီအတွင်း ခြံဝင်းသန့်ရှင်းရေးနှင့် အဝတ်လှန်းခြင်းကို အပြီးလုပ်ဆောင်လိုက်ကြပါစို့။"
+      },
+      "translationMy": "ရာသီဥတုကောင်းမွန်ပြီး မိုးမရွာမီအတွင်း ခြံဝင်းသန့်ရှင်းရေးနှင့် အဝတ်လှန်းခြင်းကို အပြီးလုပ်ဆောင်လိုက်ကြပါစို့။",
+      "vocabIds": [
+        "n3.l39.v011"
+      ],
+      "grammarIds": [
+        "n3.l39.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.s011",
+      "lessonId": "n3.l39",
+      "ja": "若くて体力があるうちに、海外での生活など様々な挑戦を体験するべきだ。",
+      "kana": "わかくてたいりょくがあるうちに、かいがいでのせいかつなどさまざまなちょうせんをたいけんするべきだ。",
+      "translation": {
+        "en": "While young and physically fit, one should experience diverse challenges like living abroad.",
+        "my": "ငယ်ရွယ်ပြီး ခန္ဓာကိုယ်အင်အားရှိစဉ်အတွင်း ပြည်ပတွင် နေထိုင်ခြင်းစသည့် စိန်ခေါ်မှုမျိုးစုံကို ကိုယ်တိုင်ကြုံတွေ့ခံစားသင့်သည်။"
+      },
+      "translationMy": "ငယ်ရွယ်ပြီး ခန္ဓာကိုယ်အင်အားရှိစဉ်အတွင်း ပြည်ပတွင် နေထိုင်ခြင်းစသည့် စိန်ခေါ်မှုမျိုးစုံကို ကိုယ်တိုင်ကြုံတွေ့ခံစားသင့်သည်။",
+      "vocabIds": [
+        "n3.l39.v009"
+      ],
+      "grammarIds": [
+        "n3.l39.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n3.l39.s012",
+      "lessonId": "n3.l39",
+      "ja": "熟練の職人の技術を見ているうちに、自分も伝統工芸の奥深さに魅了された。",
+      "kana": "じゅくれんのしょくにんのぎじゅつをみているうちに、じぶんもでんとうこうげいのおくふかさにみりょうされた。",
+      "translation": {
+        "en": "While watching the skilled artisan's technique, I too became fascinated by the depth of traditional craft.",
+        "my": "ကျွမ်းကျင်ရင့်ကျက်သော လက်မှုပညာရှင်၏ နည်းစနစ်ကို ကြည့်ရှုနေစဉ်အတွင်း မိမိကိုယ်တိုင်လည်း ရိုးရာလက်မှုပညာ၏ နက်နဲမှုကို သဘောကျစွဲလမ်းသွားခဲ့သည်။"
+      },
+      "translationMy": "ကျွမ်းကျင်ရင့်ကျက်သော လက်မှုပညာရှင်၏ နည်းစနစ်ကို ကြည့်ရှုနေစဉ်အတွင်း မိမိကိုယ်တိုင်လည်း ရိုးရာလက်မှုပညာ၏ နက်နဲမှုကို သဘောကျစွဲလမ်းသွားခဲ့သည်။",
+      "vocabIds": [
+        "n3.l39.v012"
+      ],
+      "grammarIds": [
+        "n3.l39.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-06T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n3.l39.r001",
+    "lessonId": "n3.l39",
+    "title": "時間を有効に活用する習慣の力",
+    "level": "N3",
+    "text": "現代社会では、日々の忙しい生活の中でどのように時間を有効活用するかが重要視されています。例えば、通勤時間中にスマートフォンの音声講義を聴きながら歩いたり、買い物のついでに郵便物の発送を済ませたりする工夫は、生活の効率化に大いに役立ちます。また、新しい知識を学ぶ際にも、記憶が薄れないうちにその日の夜に復習する習慣を継続することが不可欠です。複数の作業を同時に並行して進めることは、熟練した集中力と計画性を必要としますが、無理のない範囲で日常に組み込むことで、自己の成長につながります。時間を無駄にせず、チャンスがあるうちに積極的に行動する姿勢を大切にしましょう。",
+    "kanaText": "げんだいしゃかいでは、ひびのいそがしいせいかつのなかでどのようにじかんをゆうこうかつようするかがじゅうようしされています。たとえば、つうきんじかんちゅうにすまーとふぉんのおんせいこうぎをききながらあるいたり、かいもののついでにゆうびんぶつのはっそうをすませたりするくふうは、せいかつのこうりつかに大いにやくだちます。また、あたらしいちしきをまなぶさいにも、きおくがうすれないうちにそのひのよるにふくしゅうするしゅうかんをけいぞくすることがふかけつです。ふくすうのさぎょうをどうじにへいこうしてすすめることは、じゅくれんしたしゅうちゅうりょくとけいかくせいをひつようとしますが、むりのないはんいでにちじょうにくみこむことで、じこのせいちょうにつながります。じかんをむだにせず、ちゃんすがあるうちにせっきょくてきにこうどうするしせいをたいせつにしましょう。",
+    "translation": "မျက်မှောက်ခေတ် လူ့အဖွဲ့အစည်းတွင် နေ့စဉ် မအားလပ်သော ဘဝထဲ၌ အချိန်ကို မည်သို့ အကျိုးရှိရှိ အသုံးချမည်နည်းဟူသော အချက်ကို အထူးအလေးထားလျက် ရှိကြပါသည်။ ဥပမာအားဖြင့် ရုံးတက်ချိန်အတွင်း စမတ်ဖုန်းမှ အသံသင်ခန်းစာများကို နားထောင်ရင်း လမ်းလျှောက်ခြင်း၊ ဈေးဝယ်သွားသည့်ကြုံတုန်း စာပို့တိုက်ကိစ္စများကို တစ်ပါတည်း ပြီးစီးအောင် ဆောင်ရွက်ခြင်း စသည့် တီထွင်ကြံဆမှုများသည် နေ့စဉ်ဘဝ ထိရောက်မှုအတွက် အလွန်အသုံးဝင်ပါသည်။ ထို့အပြင် အသိပညာအသစ်များကို လေ့လာသင်ယူရာတွင်လည်း မှတ်ဉာဏ်များ မမှိန်ဖျော့မီအတွင်း ထိုနေ့ညမှာပင် ပြန်လည်လေ့ကျင့်သော အလေ့အထကို စဉ်ဆက်မပြတ် ဆက်လက်လုပ်ဆောင်ရန် မရှိမဖြစ် လိုအပ်ပါသည်။ အလုပ်တာဝန်အများအပြားကို တစ်ပြိုင်နက်တည်း အပြိုင်ဆောင်ရွက်ခြင်းသည် ရင့်ကျက်သော အာရုံစူးစိုက်မှုနှင့် စနစ်တကျစီစဉ်မှုကို လိုအပ်သော်လည်း မပင်ပန်းလွန်သော ဘောင်အတွင်းမှ နေ့စဉ်ဘဝထဲသို့ ထည့်သွင်းထားခြင်းဖြင့် မိမိကိုယ်ကို ဖွံ့ဖြိုးတိုးတက်စေမည် ဖြစ်သည်။ အချိန်ကို အလဟဿမဖြစ်စေဘဲ အခွင့်အရေးရှိနေစဉ်အတွင်း တက်ကြွစွာ လှုပ်ရှားဆောင်ရွက်သော စိတ်နေသဘောထားကို အလေးထားကြပါစို့။",
+    "translationMy": "မျက်မှောက်ခေတ် လူ့အဖွဲ့အစည်းတွင် နေ့စဉ် မအားလပ်သော ဘဝထဲ၌ အချိန်ကို မည်သို့ အကျိုးရှိရှိ အသုံးချမည်နည်းဟူသော အချက်ကို အထူးအလေးထားလျက် ရှိကြပါသည်။ ဥပမာအားဖြင့် ရုံးတက်ချိန်အတွင်း စမတ်ဖုန်းမှ အသံသင်ခန်းစာများကို နားထောင်ရင်း လမ်းလျှောက်ခြင်း၊ ဈေးဝယ်သွားသည့်ကြုံတုန်း စာပို့တိုက်ကိစ္စများကို တစ်ပါတည်း ပြီးစီးအောင် ဆောင်ရွက်ခြင်း စသည့် တီထွင်ကြံဆမှုများသည် နေ့စဉ်ဘဝ ထိရောက်မှုအတွက် အလွန်အသုံးဝင်ပါသည်။ ထို့အပြင် အသိပညာအသစ်များကို လေ့လာသင်ယူရာတွင်လည်း မှတ်ဉာဏ်များ မမှိန်ဖျော့မီအတွင်း ထိုနေ့ညမှာပင် ပြန်လည်လေ့ကျင့်သော အလေ့အထကို စဉ်ဆက်မပြတ် ဆက်လက်လုပ်ဆောင်ရန် မရှိမဖြစ် လိုအပ်ပါသည်။ အလုပ်တာဝန်အများအပြားကို တစ်ပြိုင်နက်တည်း အပြိုင်ဆောင်ရွက်ခြင်းသည် ရင့်ကျက်သော အာရုံစူးစိုက်မှုနှင့် စနစ်တကျစီစဉ်မှုကို လိုအပ်သော်လည်း မပင်ပန်းလွန်သော ဘောင်အတွင်းမှ နေ့စဉ်ဘဝထဲသို့ ထည့်သွင်းထားခြင်းဖြင့် မိမိကိုယ်ကို ဖွံ့ဖြိုးတိုးတက်စေမည် ဖြစ်သည်။ အချိန်ကို အလဟဿမဖြစ်စေဘဲ အခွင့်အရေးရှိနေစဉ်အတွင်း တက်ကြွစွာ လှုပ်ရှားဆောင်ရွက်သော စိတ်နေသဘောထားကို အလေးထားကြပါစို့။",
+    "questionIds": [
+      "n3.l39.q025",
+      "n3.l39.q026",
+      "n3.l39.q027"
+    ],
+    "difficulty": 3,
+    "glossary": [
+      {
+        "term": "有効活用",
+        "reading": "ゆうこうかつよう",
+        "meaning": "effective utilization (ထိရောက်စွာအကျိုးရှိရှိအသုံးချခြင်း)",
+        "meaningMy": "effective utilization (ထိရောက်စွာအကျိုးရှိရှိအသုံးချခြင်း)",
+        "meaningMyanmar": "effective utilization (ထိရောက်စွာအကျိုးရှိရှိအသုံးချခြင်း)"
+      },
+      {
+        "term": "効率化",
+        "reading": "こうりつか",
+        "meaning": "streamlining / efficiency improvement (စွမ်းဆောင်ရည်မြှင့်တင်ခြင်း)",
+        "meaningMy": "streamlining / efficiency improvement (စွမ်းဆောင်ရည်မြှင့်တင်ခြင်း)",
+        "meaningMyanmar": "streamlining / efficiency improvement (စွမ်းဆောင်ရည်မြှင့်တင်ခြင်း)"
+      },
+      {
+        "term": "組み込む",
+        "reading": "くみこむ",
+        "meaning": "to incorporate / integrate (ပေါင်းစပ်ထည့်သွင်းသည်)",
+        "meaningMy": "to incorporate / integrate (ပေါင်းစပ်ထည့်သွင်းသည်)",
+        "meaningMyanmar": "to incorporate / integrate (ပေါင်းစပ်ထည့်သွင်းသည်)"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n3.l39.lis001",
+    "lessonId": "n3.l39",
+    "title": "休日の予定と買い物の頼み事",
+    "level": "N3",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "母",
+      "ケンタ"
+    ],
+    "transcript": "母: ケンタ、今から図書館へ行くの？\nケンタ: うん、来週の試験勉強をするために行ってくるよ。歩きながら英単語の音声も復習するつもりなんだ。\n母: 熱心ね。じゃあ、図書館に行くついでに、駅前のスーパーで牛乳を一本買ってきてくれない？\nケンタ: いいよ。雨が降らないうちに、早めに行って買ってくるね。\n母: ありがとう。気をつけて行ってらっしゃい。",
+    "translation": "母: ကန်တာ၊ အခု စာကြည့်တိုက်ကို သွားမလို့လား။\nケンタ: ဟုတ်ကဲ့၊ လာမည့်အပတ် စာမေးပွဲအတွက် စာကျက်ဖို့ သွားမလို့ပါ။ လမ်းလျှောက်ရင်းနဲ့ အင်္ဂလိပ်ဝေါဟာရ အသံဖိုင်တွေကိုလည်း ပြန်လေ့ကျင့်မလို့ စိတ်ကူးထားတယ်။\n母: ကြိုးစားတာပဲနော်။ ဒါဆို စာကြည့်တိုက်သွားတဲ့ကြုံတုန်း ဘူတာရှေ့က စူပါမားကတ်မှာ နို့တစ်ဘူးလောက် ဝယ်ပေးခဲ့မလား။\nケンタ: ဟုတ်ကဲ့ ရပါတယ်ခင်ဗျာ။ မိုးမရွာမီအတွင်း စောစောသွားပြီး ဝယ်ပေးပါ့မယ်။\n母: ကျေးဇူးပါပဲကွယ်။ ဂရုစိုက်သွားနော်။",
+    "translationMy": "母: ကန်တာ၊ အခု စာကြည့်တိုက်ကို သွားမလို့လား။\nケンタ: ဟုတ်ကဲ့၊ လာမည့်အပတ် စာမေးပွဲအတွက် စာကျက်ဖို့ သွားမလို့ပါ။ လမ်းလျှောက်ရင်းနဲ့ အင်္ဂလိပ်ဝေါဟာရ အသံဖိုင်တွေကိုလည်း ပြန်လေ့ကျင့်မလို့ စိတ်ကူးထားတယ်။\n母: ကြိုးစားတာပဲနော်။ ဒါဆို စာကြည့်တိုက်သွားတဲ့ကြုံတုန်း ဘူတာရှေ့က စူပါမားကတ်မှာ နို့တစ်ဘူးလောက် ဝယ်ပေးခဲ့မလား။\nケンタ: ဟုတ်ကဲ့ ရပါတယ်ခင်ဗျာ။ မိုးမရွာမီအတွင်း စောစောသွားပြီး ဝယ်ပေးပါ့မယ်။\n母: ကျေးဇူးပါပဲကွယ်။ ဂရုစိုက်သွားနော်။",
+    "turns": [
+      {
+        "speaker": "母",
+        "ja": "ケンタ、今から図書館へ行くの？",
+        "kana": "けんた、いまからとしょかんへいくの？",
+        "en": "Kenta, are you going to the library now?",
+        "my": "ကန်တာ၊ အခု စာကြည့်တိုက်ကို သွားမလို့လား။",
+        "translationMy": "ကန်တာ၊ အခု စာကြည့်တိုက်ကို သွားမလို့လား။",
+        "myanmar": "ကန်တာ၊ အခု စာကြည့်တိုက်ကို သွားမလို့လား။"
+      },
+      {
+        "speaker": "ケンタ",
+        "ja": "うん、来週の試験勉強をするために行ってくるよ。歩きながら英単語の音声も復習するつもりなんだ。",
+        "kana": "うん、らいしゅうのしけんべんきょうをするためにいってくるよ。あるきながらえいたんごのおんせいもふくしゅうするつもりなんだ。",
+        "en": "Yeah, I'm heading out to study for next week's exam. I plan to review English vocabulary audio while walking as well.",
+        "my": "ဟုတ်ကဲ့၊ လာမည့်အပတ် စာမေးပွဲအတွက် စာကျက်ဖို့ သွားမလို့ပါ။ လမ်းလျှောက်ရင်းနဲ့ အင်္ဂလိပ်ဝေါဟာရ အသံဖိုင်တွေကိုလည်း ပြန်လေ့ကျင့်မလို့ စိတ်ကူးထားတယ်။",
+        "translationMy": "ဟုတ်ကဲ့၊ လာမည့်အပတ် စာမေးပွဲအတွက် စာကျက်ဖို့ သွားမလို့ပါ။ လမ်းလျှောက်ရင်းနဲ့ အင်္ဂလိပ်ဝေါဟာရ အသံဖိုင်တွေကိုလည်း ပြန်လေ့ကျင့်မလို့ စိတ်ကူးထားတယ်။",
+        "myanmar": "ဟုတ်ကဲ့၊ လာမည့်အပတ် စာမေးပွဲအတွက် စာကျက်ဖို့ သွားမလို့ပါ။ လမ်းလျှောက်ရင်းနဲ့ အင်္ဂလိပ်ဝေါဟာရ အသံဖိုင်တွေကိုလည်း ပြန်လေ့ကျင့်မလို့ စိတ်ကူးထားတယ်။"
+      },
+      {
+        "speaker": "母",
+        "ja": "熱心ね。じゃあ、図書館に行くついでに、駅前のスーパーで牛乳を一本買ってきてくれない？",
+        "kana": "ねっしんね。じゃあ、としょかんにいくついでに、えきまえのすーぱーでぎゅうにゅうをいっぽんかってきてくれない？",
+        "en": "How diligent! Well then, while on your way to the library, could you buy a carton of milk at the supermarket in front of the station?",
+        "my": "ကြိုးစားတာပဲနော်။ ဒါဆို စာကြည့်တိုက်သွားတဲ့ကြုံတုန်း ဘူတာရှေ့က စူပါမားကတ်မှာ နို့တစ်ဘူးလောက် ဝယ်ပေးခဲ့မလား။",
+        "translationMy": "ကြိုးစားတာပဲနော်။ ဒါဆို စာကြည့်တိုက်သွားတဲ့ကြုံတုန်း ဘူတာရှေ့က စူပါမားကတ်မှာ နို့တစ်ဘူးလောက် ဝယ်ပေးခဲ့မလား။",
+        "myanmar": "ကြိုးစားတာပဲနော်။ ဒါဆို စာကြည့်တိုက်သွားတဲ့ကြုံတုန်း ဘူတာရှေ့က စူပါမားကတ်မှာ နို့တစ်ဘူးလောက် ဝယ်ပေးခဲ့မလား။"
+      },
+      {
+        "speaker": "ケンタ",
+        "ja": "いいよ。雨が降らないうちに、早めに行って買ってくるね。",
+        "kana": "いいよ。あめがふらないうちに、はやめにいってかってくるね。",
+        "en": "Sure. Before it rains, I'll go early and buy it.",
+        "my": "ဟုတ်ကဲ့ ရပါတယ်ခင်ဗျာ။ မိုးမရွာမီအတွင်း စောစောသွားပြီး ဝယ်ပေးပါ့မယ်။",
+        "translationMy": "ဟုတ်ကဲ့ ရပါတယ်ခင်ဗျာ။ မိုးမရွာမီအတွင်း စောစောသွားပြီး ဝယ်ပေးပါ့မယ်။",
+        "myanmar": "ဟုတ်ကဲ့ ရပါတယ်ခင်ဗျာ။ မိုးမရွာမီအတွင်း စောစောသွားပြီး ဝယ်ပေးပါ့မယ်။"
+      },
+      {
+        "speaker": "母",
+        "ja": "ありがとう。気をつけて行ってらっしゃい。",
+        "kana": "ありがとう。きをつけていってらっしゃい。",
+        "en": "Thank you. Take care and have a good time.",
+        "my": "ကျေးဇူးပါပဲကွယ်။ ဂရုစိုက်သွားနော်။",
+        "translationMy": "ကျေးဇူးပါပဲကွယ်။ ဂရုစိုက်သွားနော်။",
+        "myanmar": "ကျေးဇူးပါပဲကွယ်။ ဂရုစိုက်သွားနော်။"
+      }
+    ],
+    "questionIds": [
+      "n3.l39.q028",
+      "n3.l39.q029",
+      "n3.l39.q030"
+    ],
+    "difficulty": 3,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-06T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n3.l39.q001",
+      "lessonId": "n3.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "二つ以上の物事が同時に同じ方向へ進むことを何というか。",
+      "choices": [
+        "並行",
+        "習慣",
+        "散歩",
+        "観察"
+      ],
+      "answer": "並行",
+      "explanation": "並行 (へいこう) means parallel or concurrent progression.",
+      "explanationMy": "အရာနှစ်ခု သို့မဟုတ် နှစ်ခုထက်မက တစ်ပြိုင်နက်တည်း အပြိုင်သွားခြင်းကို 並行 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q002",
+      "lessonId": "n3.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "長い間繰り返して身についた行動の決まりを何というか。",
+      "choices": [
+        "習慣",
+        "練習",
+        "学習",
+        "体験"
+      ],
+      "answer": "習慣",
+      "explanation": "習慣 (しゅうかん) means custom or acquired habit.",
+      "explanationMy": "ထပ်ခါတလဲလဲ ပြုမူရာမှ ကျင့်သားရလာသော အလေ့အထကို 習慣 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q003",
+      "lessonId": "n3.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "技能や技術を身につけるために繰り返し行うことを何というか。",
+      "choices": [
+        "練習",
+        "学習",
+        "観察",
+        "散歩"
+      ],
+      "answer": "練習",
+      "explanation": "練習 (れんしゅう) means repetitive practice or drill.",
+      "explanationMy": "ကျွမ်းကျင်မှုရရှိရန် ထပ်ခါတလဲလဲ လေ့ကျင့်ခြင်းကို 練習 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q004",
+      "lessonId": "n3.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "目的地へ向かう途中で、別の場所へ少し立ち寄ることを何というか。",
+      "choices": [
+        "寄り道",
+        "散歩",
+        "並行",
+        "体験"
+      ],
+      "answer": "寄り道",
+      "explanation": "寄り道 (よりみち) means making a detour or dropping by somewhere on the way.",
+      "explanationMy": "လမ်းတစ်ဝက်တွင် အခြားနေရာသို့ လမ်းကြုံဝင်ရောက်လည်ပတ်ခြင်းကို 寄り道 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q005",
+      "lessonId": "n3.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "気分転換や健康のために気ままに歩くことを何というか。",
+      "choices": [
+        "散歩",
+        "観察",
+        "集中",
+        "継続"
+      ],
+      "answer": "散歩",
+      "explanation": "散歩 (さんぽ) means taking a leisurely walk or stroll.",
+      "explanationMy": "စိတ်လက်ပေါ့ပါးစေရန် လမ်းလျှောက်အပန်းဖြေခြင်းကို 散歩 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q006",
+      "lessonId": "n3.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "事物の状態や変化を注意深く見極めることを何というか。",
+      "choices": [
+        "観察",
+        "体験",
+        "習慣",
+        "練習"
+      ],
+      "answer": "観察",
+      "explanation": "観察 (かんさつ) means careful observation or examination.",
+      "explanationMy": "အခြေအနေနှင့် ပြောင်းလဲမှုများကို သေချာစောင့်ကြည့်လေ့လာခြင်းကို 観察 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q007",
+      "lessonId": "n3.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "精神や注意を一つの事柄だけに注ぎ込むことを何というか。",
+      "choices": [
+        "集中",
+        "継続",
+        "熟練",
+        "学習"
+      ],
+      "answer": "集中",
+      "explanation": "集中 (しゅうちゅう) means concentration or mental focus.",
+      "explanationMy": "အာရုံကို အရာတစ်ခုတည်းအပေါ် စုစည်းစူးစိုက်ထားခြင်းကို 集中 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q008",
+      "lessonId": "n3.l39",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "途中でやめずに長く物事を続けることを何というか。",
+      "choices": [
+        "継続",
+        "熟練",
+        "並行",
+        "散歩"
+      ],
+      "answer": "継続",
+      "explanation": "継続 (けいぞく) means continuity, persistence, or endurance.",
+      "explanationMy": "ရပ်မသွားဘဲ စဉ်ဆက်မပြတ် ဆက်လက်လုပ်ဆောင်ခြင်းကို 継続 ဟုခေါ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q009",
+      "lessonId": "n3.l39",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「並」の正しい音読みはどれか。",
+      "choices": [
+        "ヘイ",
+        "カン",
+        "シュウ",
+        "レン"
+      ],
+      "answer": "ヘイ",
+      "explanation": "The onyomi of 並 is ヘイ (e.g. 並行 - へいこう).",
+      "explanationMy": "並 ၏ onyomi မှာ ヘイ ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q010",
+      "lessonId": "n3.l39",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「並べる」の正しい読み方はどれか。",
+      "choices": [
+        "ならべる",
+        "ならぶ",
+        "へいべる",
+        "ならまる"
+      ],
+      "answer": "ならべる",
+      "explanation": "並べる is read as ならべる.",
+      "explanationMy": "並べる ၏ အသံထွက်မှာ ならべる (စီစီရီရီချထားသည်) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q011",
+      "lessonId": "n3.l39",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「慣」の正しい訓読みはどれか。",
+      "choices": [
+        "な・れる",
+        "なら・う",
+        "なら・ぶ",
+        "つた・わる"
+      ],
+      "answer": "な・れる",
+      "explanation": "The kunyomi of 慣 is な・れる / な・らす.",
+      "explanationMy": "慣 ၏ kunyomi မှာ な・れる (ကျင့်သားရသည်) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q012",
+      "lessonId": "n3.l39",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「見慣れる」の正しい読み方はどれか。",
+      "choices": [
+        "みなれる",
+        "けんかんれる",
+        "みならす",
+        "みならえる"
+      ],
+      "answer": "みなれる",
+      "explanation": "見慣れる is read as みなれる (familiar to see).",
+      "explanationMy": "見慣れる ၏ အသံထွက်မှာ みなれる ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q013",
+      "lessonId": "n3.l39",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「習」の正しい訓読みはどれか。",
+      "choices": [
+        "なら・う",
+        "な・れる",
+        "なら・べる",
+        "おぼ・える"
+      ],
+      "answer": "なら・う",
+      "explanation": "The kunyomi of 習 is なら・う.",
+      "explanationMy": "習 ၏ kunyomi မှာ なら・う (သင်ယူသည်) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q014",
+      "lessonId": "n3.l39",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「学習」の正しい読み方はどれか。",
+      "choices": [
+        "がくしゅう",
+        "がくじゅう",
+        "がくしゅ",
+        "かっしゅう"
+      ],
+      "answer": "がくしゅう",
+      "explanation": "学習 is read as がくしゅう.",
+      "explanationMy": "学習 ၏ အသံထွက်မှာ がくしゅう (လေ့လာသင်ယူခြင်း) ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q015",
+      "lessonId": "n3.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "テレビを見（　）ご飯を食べるのは行儀が悪いですよ。",
+      "choices": [
+        "ながら",
+        "ついでに",
+        "うちに",
+        "わりに"
+      ],
+      "answer": "ながら",
+      "explanation": "Verb masu-stem + ながら indicates concurrent actions: 見ながら.",
+      "explanationMy": "တစ်ချိန်တည်း ပြုလုပ်ခြင်းအတွက် 見ながら (ကြည့်ရင်းနှင့်) ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q016",
+      "lessonId": "n3.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ながら」を使った文で、重点が置かれるのはどちらの節ですか。",
+      "choices": [
+        "後ろの主節（メインの行動）",
+        "前のながら節（サブの行動）",
+        "前後の重要度は常に完全に等しい",
+        "文脈に関わらず前の節のみ"
+      ],
+      "answer": "後ろの主節（メインの行動）",
+      "explanation": "The primary focus rests on the second, main action clause.",
+      "explanationMy": "အဓိကအလေးပေးချက်သည် နောက်ကွယ်ရှိ အဓိကဝါကျတွင် ရှိသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q017",
+      "lessonId": "n3.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "働き（　）大学院に通って修士号を取得した。",
+      "choices": [
+        "ながら",
+        "ついでに",
+        "うちに",
+        "ために"
+      ],
+      "answer": "ながら",
+      "explanation": "Verb masu-stem + ながら: 働きながら (while working).",
+      "explanationMy": "အလုပ်လုပ်ရင်းနှင့် ကျောင်းတက်ခဲ့ခြင်းအတွက် 働きながら ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q018",
+      "lessonId": "n3.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "買い物の（　）、クリーニング屋に寄ってスーツを受け取ってきた。",
+      "choices": [
+        "ついでに",
+        "ながら",
+        "うちに",
+        "ために"
+      ],
+      "answer": "ついでに",
+      "explanation": "Noun + の + ついでに indicates an opportunistic secondary errand.",
+      "explanationMy": "ဈေးဝယ်သည့်ကြုံတုန်း ဟု သုံးရန် 買い物のついでに ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q019",
+      "lessonId": "n3.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "散歩する（　）、近所のポストに手紙を投函した。",
+      "choices": [
+        "ついでに",
+        "ながら",
+        "うちに",
+        "わりに"
+      ],
+      "answer": "ついでに",
+      "explanation": "Verb-dict + ついでに: 散歩するついでに.",
+      "explanationMy": "လမ်းလျှောက်သည့်ကြုံတုန်း အပိုကိစ္စလုပ်ဆောင်ရန် 散歩するついでに ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q020",
+      "lessonId": "n3.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜ついでに」の表すニュアンスとして最もふさわしいものはどれか。",
+      "choices": [
+        "本来の主目的を行う機会を利用して、別の副次的な行動も合わせ行うこと",
+        "二つの行動を完全に命がけでやり抜くこと",
+        "過去の失敗を激しく後悔すること",
+        "相手に命令して無理やりやらせること"
+      ],
+      "answer": "本来の主目的を行う機会を利用して、別の副次的な行動も合わせ行うこと",
+      "explanation": "〜ついでに means taking advantage of a primary opportunity to do a secondary task conveniently.",
+      "explanationMy": "အဓိကကိစ္စလုပ်ဆောင်စဉ် အခွင့်ကောင်းယူ၍ အပိုကိစ္စတစ်ခုကို ဆောင်ရွက်ခြင်း ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q021",
+      "lessonId": "n3.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "温かい（　）、この美味しい料理を召し上がってください。",
+      "choices": [
+        "うちに",
+        "ながら",
+        "ついでに",
+        "わりに"
+      ],
+      "answer": "うちに",
+      "explanation": "I-adjective + うちに expresses action within a temporary state: 温かいうちに.",
+      "explanationMy": "ပူနေစဉ်အတွင်း စားသုံးရန်အတွက် 温かいうちに ကို သုံးသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q022",
+      "lessonId": "n3.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "忘れない（　）、要点をノートにメモしておこう。",
+      "choices": [
+        "うちに",
+        "ながら",
+        "ついでに",
+        "ために"
+      ],
+      "answer": "うちに",
+      "explanation": "Verb-nai + うちに means 'before X happens': 忘れないうちに (before I forget).",
+      "explanationMy": "မမေ့မီအတွင်း အမြန်မှတ်ထားရန်အတွက် 忘れないうちに ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q023",
+      "lessonId": "n3.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「明るいうちに帰ろう」の「うちに」が示す意味はどれですか。",
+      "choices": [
+        "暗くならない前の時間帯の制限・チャンス",
+        "歩きながら話すこと",
+        "買い物のついでに寄ること",
+        "過去に決まった規則"
+      ],
+      "answer": "暗くならない前の時間帯の制限・チャンス",
+      "explanation": "It means returning during the daylight window before darkness falls.",
+      "explanationMy": "မမှောင်မီ လင်းနေသေးသည့် အချိန်အခွင့်အရေးအတွင်း ပြန်ရန် ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q024",
+      "lessonId": "n3.l39",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「本を読んでいるうちに、いつの間にか眠ってしまった」の「うちに」の用法はどれか。",
+      "choices": [
+        "ある状態が続いている間に、予期せぬ変化が自然と生じたこと",
+        "計画的に意志を持って行動したこと",
+        "他人に頼んでやってもらったこと",
+        "命令されて仕方なく行ったこと"
+      ],
+      "answer": "ある状態が続いている間に、予期せぬ変化が自然と生じたこと",
+      "explanation": "〜ているうちに often describes an unintended, natural change occurring during an activity.",
+      "explanationMy": "လုပ်ဆောင်မှုတစ်ခု ဖြစ်ပေါ်နေစဉ်အတွင်း သတိမထားမိဘဲ အပြောင်းအလဲတစ်ခု ဖြစ်ပေါ်သွားခြင်း ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q025",
+      "lessonId": "n3.l39",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文で挙げられている時間を有効活用する具体例はどれですか。",
+      "choices": [
+        "通勤中に音声講義を聴きながら歩いたり、買い物のついでに用事を済ませたりすること",
+        "睡眠時間を削って深夜までテレビを見続けること",
+        "すべての仕事を後回しにして何もしないこと",
+        "会社に行かずに一日中喫茶店で過ごすこと"
+      ],
+      "answer": "通勤中に音声講義を聴きながら歩いたり、買い物のついでに用事を済ませたりすること",
+      "explanation": "The text provides examples of listening to lectures while walking and running errands while shopping.",
+      "explanationMy": "လမ်းလျှောက်ရင်း အသံဖိုင်နားထောင်ခြင်းနှင့် ဈေးဝယ်သည့်ကြုံတုန်း ကိစ္စများဆောင်ရွက်ခြင်းကို ဥပမာပေးထားသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q026",
+      "lessonId": "n3.l39",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "新しい知識を定着させるために大切だとされていることは何ですか。",
+      "choices": [
+        "記憶が薄れないうちにその日の夜に復習する習慣を継続すること",
+        "一度読んだら二度と復習しないこと",
+        "試験の直前まで一切ノートを開かないこと",
+        "友人だけに教えて自分は勉強しないこと"
+      ],
+      "answer": "記憶が薄れないうちにその日の夜に復習する習慣を継続すること",
+      "explanation": "The passage notes: 記憶が薄れないうちにその日の夜に復習する習慣を継続することが不可欠です。",
+      "explanationMy": "မှတ်ဉာဏ်မမှိန်ဖျော့မီအတွင်း ထိုညမှာပင် ပြန်လည်လေ့ကျင့်သော အလေ့အထ မွေးမြူရန် ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q027",
+      "lessonId": "n3.l39",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "複数の作業を並行して進める際に注意すべき点として正しいものはどれですか。",
+      "choices": [
+        "無理のない範囲で日常に組み込むこと",
+        "限界を超えて24時間連続で行うこと",
+        "一つの作業を途中で全て放り投げること",
+        "他人に全ての作業を代わりにやらせること"
+      ],
+      "answer": "無理のない範囲で日常に組み込むこと",
+      "explanation": "The text advises incorporating parallel tasks within reasonable limits (無理のない範囲で).",
+      "explanationMy": "မပင်ပန်းလွန်သော အတိုင်းအတာဘောင်အတွင်းမှ နေ့စဉ်ဘဝထဲ ထည့်သွင်းရန် အကြံပြုထားသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q028",
+      "lessonId": "n3.l39",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "ケンタは図書館へ行く途中で何をするつもりですか。",
+      "choices": [
+        "歩きながら英単語の音声を復習する",
+        "友達と電話で雑談をする",
+        "ゲームをしながら音楽を聴く",
+        "喫茶店に立ち寄って休憩する"
+      ],
+      "answer": "歩きながら英単語の音声を復習する",
+      "explanation": "Kenta says: 歩きながら英単語の音声も復習するつもりなんだ。",
+      "explanationMy": "လမ်းလျှောက်ရင်း အင်္ဂလိပ်ဝေါဟာရအသံဖိုင် ပြန်လေ့ကျင့်မည်ဟု ဆိုသည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q029",
+      "lessonId": "n3.l39",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "お母さんはケンタについでに何を頼みましたか。",
+      "choices": [
+        "駅前のスーパーで牛乳を一本買ってきてほしいと頼んだ",
+        "図書館で小説を三冊借りてきてほしいと頼んだ",
+        "郵便局で公共料金を支払ってきてほしいと頼んだ",
+        "駅前の薬局で風邪薬を買ってきてほしいと頼んだ"
+      ],
+      "answer": "駅前のスーパーで牛乳を一本買ってきてほしいと頼んだ",
+      "explanation": "The mother asks: 図書館に行くついでに、駅前のスーパーで牛乳を一本買ってきてくれない？",
+      "explanationMy": "ဘူတာရှေ့ စူပါမားကတ်မှ နို့တစ်ဘူး ဝယ်ပေးရန် မေတ္တာရပ်ခံခဲ့သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n3.l39.q030",
+      "lessonId": "n3.l39",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "ケンタはなぜ早めに出発することにしましたか。",
+      "choices": [
+        "雨が降らないうちに用事を済ませるため",
+        "スーパーの特売セールが午前中で終わるため",
+        "図書館の開館時間が迫っているため",
+        "友達と駅で待ち合わせをしているため"
+      ],
+      "answer": "雨が降らないうちに用事を済ませるため",
+      "explanation": "Kenta explains: 雨が降らないうちに、早めに行って買ってくるね。",
+      "explanationMy": "မိုးမရွာမီအတွင်း ကိစ္စဆောင်ရွက်ရန်အတွက် စောစောထွက်ခွာခြင်း ဖြစ်သည်။",
+      "difficulty": 3,
+      "linkedItemIds": [
+        "n3.l39.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-06T10:00:00Z",
+    "rev": 2
+  }
+}

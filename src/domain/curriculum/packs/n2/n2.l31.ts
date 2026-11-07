@@ -1,0 +1,1791 @@
+import { LessonPack } from '../../../models/types';
+
+export const n2l31Data: LessonPack = {
+  "id": "n2.l31",
+  "level": "N2",
+  "module": "N2 Editorial & Socio-Cultural",
+  "number": 31,
+  "title": "N2 Lesson 31: Direct Comparison & Contrast (〜に比べて・〜に対して・〜反面)",
+  "description": "Mastery module focusing on Comparative Evaluation, Sharp Contrasts, and Dual Facets: relative differences (に比べて), opposing target dynamics (に対して), and coexisting contradictory sides (反面).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l31.v001",
+      "lessonId": "n2.l31",
+      "ja": "比較",
+      "kana": "ひかく",
+      "en": "Comparison / Comparative study",
+      "my": "နှိုင်းယှဉ်စစ်ဆေးချက်",
+      "meaningMy": "နှိုင်းယှဉ်စစ်ဆေးချက်",
+      "meaningMyanmar": "နှိုင်းယှဉ်စစ်ဆေးချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l31.s001",
+      "kanjiIds": [
+        "n2.l31.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.v002",
+      "lessonId": "n2.l31",
+      "ja": "比例",
+      "kana": "ひれい",
+      "en": "Proportion / Direct ratio",
+      "my": "အချိုးကျညီမျှခြင်း",
+      "meaningMy": "အချိုးကျညီမျှခြင်း",
+      "meaningMyanmar": "အချိုးကျညီမျှခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l31.s002",
+      "kanjiIds": [
+        "n2.l31.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.v003",
+      "lessonId": "n2.l31",
+      "ja": "異同",
+      "kana": "いどう",
+      "en": "Differences and similarities",
+      "my": "ကွဲပြားချက်နှင့် တူညီချက်",
+      "meaningMy": "ကွဲပြားချက်နှင့် တူညီချက်",
+      "meaningMyanmar": "ကွဲပြားချက်နှင့် တူညီချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l31.s003",
+      "kanjiIds": [
+        "n2.l31.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.v004",
+      "lessonId": "n2.l31",
+      "ja": "異変",
+      "kana": "いへん",
+      "en": "Unusual event / Abnormality",
+      "my": "ထူးခြားဖြစ်စဉ် / မူမမှန်မှု",
+      "meaningMy": "ထူးခြားဖြစ်စဉ် / မူမမှန်မှု",
+      "meaningMyanmar": "ထူးခြားဖြစ်စဉ် / မူမမှန်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l31.s004",
+      "kanjiIds": [
+        "n2.l31.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.v005",
+      "lessonId": "n2.l31",
+      "ja": "対照",
+      "kana": "たいしょう",
+      "en": "Contrast / Antithesis",
+      "my": "ဆန့်ကျင်ဘက်ယှဉ်ထိုးမှု",
+      "meaningMy": "ဆန့်ကျင်ဘက်ယှဉ်ထိုးမှု",
+      "meaningMyanmar": "ဆန့်ကျင်ဘက်ယှဉ်ထိုးမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l31.s005",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.v006",
+      "lessonId": "n2.l31",
+      "ja": "格差",
+      "kana": "かくさ",
+      "en": "Disparity / Gap / Differential",
+      "my": "ကွာဟချက် / ကွာခြားမှုနှုန်း",
+      "meaningMy": "ကွာဟချက် / ကွာခြားမှုနှုန်း",
+      "meaningMyanmar": "ကွာဟချက် / ကွာခြားမှုနှုန်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l31.s006",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.v007",
+      "lessonId": "n2.l31",
+      "ja": "顕著",
+      "kana": "けんちょ",
+      "en": "Remarkable / Striking / Obvious",
+      "my": "အလွန်ထင်ရှားသိသာသော",
+      "meaningMy": "အလွန်ထင်ရှားသိသာသော",
+      "meaningMyanmar": "အလွန်ထင်ရှားသိသာသော",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l31.s007",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.v008",
+      "lessonId": "n2.l31",
+      "ja": "均衡",
+      "kana": "きんこう",
+      "en": "Equilibrium / Balance",
+      "my": "မျှခြေညီမျှမှု",
+      "meaningMy": "မျှခြေညီမျှမှု",
+      "meaningMyanmar": "မျှခြေညီမျှမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l31.s008",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.v009",
+      "lessonId": "n2.l31",
+      "ja": "傾向",
+      "kana": "けいこう",
+      "en": "Tendency / Trend / Inclination",
+      "my": "ဦးတည်ချက်လားရာ",
+      "meaningMy": "ဦးတည်ချက်လားရာ",
+      "meaningMyanmar": "ဦးတည်ချက်လားရာ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l31.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.v010",
+      "lessonId": "n2.l31",
+      "ja": "乖離",
+      "kana": "かいり",
+      "en": "Divergence / Estrangement / Disconnect",
+      "my": "ကွဲလွဲကွာဟခြင်း",
+      "meaningMy": "ကွဲလွဲကွာဟခြင်း",
+      "meaningMyanmar": "ကွဲလွဲကွာဟခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l31.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.v011",
+      "lessonId": "n2.l31",
+      "ja": "著しい",
+      "kana": "いちじるしい",
+      "en": "Striking / Conspicuous / Markable",
+      "my": "သိသာထင်ရှားလှသော",
+      "meaningMy": "သိသာထင်ရှားလှသော",
+      "meaningMyanmar": "သိသာထင်ရှားလှသော",
+      "pos": "i-adjective",
+      "exampleSentenceId": "n2.l31.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.v012",
+      "lessonId": "n2.l31",
+      "ja": "相違",
+      "kana": "そうい",
+      "en": "Difference / Discrepancy",
+      "my": "ကွဲလွဲချက်",
+      "meaningMy": "ကွဲလွဲချက်",
+      "meaningMyanmar": "ကွဲလွဲချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l31.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l31.k001",
+      "lessonId": "n2.l31",
+      "char": "比",
+      "meaning": "Compare / Ratio / Contrast",
+      "meaningMy": "နှိုင်းယှဉ်ခြင်း / အချိုးအစား",
+      "meaningMyanmar": "နှိုင်းယှဉ်ခြင်း / အချိုးအစား",
+      "onyomi": [
+        "ヒ"
+      ],
+      "kunyomi": [
+        "くら・べる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "比較",
+          "reading": "ひかく",
+          "meaning": "comparison",
+          "meaningMy": "နှိုင်းယှဉ်ချက်",
+          "preview": false
+        },
+        {
+          "word": "比例",
+          "reading": "ひれい",
+          "meaning": "proportion / direct ratio",
+          "meaningMy": "အချိုးကျခြင်း",
+          "preview": false
+        },
+        {
+          "word": "比率",
+          "reading": "ひりつ",
+          "meaning": "ratio / percentage",
+          "meaningMy": "အချိုးအစားနှုန်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l31.s001"
+      ],
+      "components": [
+        "匕",
+        "匕"
+      ],
+      "strokes": 4,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.k002",
+      "lessonId": "n2.l31",
+      "char": "較",
+      "meaning": "Contrast / Compare / Examine",
+      "meaningMy": "စစ်ဆေးနှိုင်းယှဉ်ခြင်း / ချိန်ထိုးခြင်း",
+      "meaningMyanmar": "စစ်ဆေးနှိုင်းယှဉ်ခြင်း / ချိန်ထိုးခြင်း",
+      "onyomi": [
+        "カク"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "比較",
+          "reading": "ひかく",
+          "meaning": "comparison / comparative",
+          "meaningMy": "နှိုင်းယှဉ်စစ်ဆေးခြင်း",
+          "preview": false
+        },
+        {
+          "word": "較差",
+          "reading": "かくさ",
+          "meaning": "range / spread / margin",
+          "meaningMy": "ကွာဟချက်အတိုင်းအတာ",
+          "preview": false
+        },
+        {
+          "word": "対較",
+          "reading": "たいかく",
+          "meaning": "collating / comparison",
+          "meaningMy": "ယှဉ်တွဲစစ်ဆေးခြင်း",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l31.s002"
+      ],
+      "components": [
+        "車",
+        "交"
+      ],
+      "strokes": 13,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.k003",
+      "lessonId": "n2.l31",
+      "char": "異",
+      "meaning": "Different / Strange / Unusual / Distinct",
+      "meaningMy": "ကွဲပြားခြားနားခြင်း / ထူးခြားဆန်းကြယ်ခြင်း",
+      "meaningMyanmar": "ကွဲပြားခြားနားခြင်း / ထူးခြားဆန်းကြယ်ခြင်း",
+      "onyomi": [
+        "イ"
+      ],
+      "kunyomi": [
+        "こと・なる"
+      ],
+      "exampleVocab": [
+        {
+          "word": "異同",
+          "reading": "いどう",
+          "meaning": "differences and similarities",
+          "meaningMy": "ကွဲပြားမှုနှင့် တူညီမှု",
+          "preview": false
+        },
+        {
+          "word": "異変",
+          "reading": "いへん",
+          "meaning": "unusual event / abnormality",
+          "meaningMy": "ထူးခြားဖြစ်စဉ် / မူမမှန်မှု",
+          "preview": false
+        },
+        {
+          "word": "特異",
+          "reading": "とくい",
+          "meaning": "singular / peculiar / unique",
+          "meaningMy": "သီးခြားထူးခြားသော",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l31.s003"
+      ],
+      "components": [
+        "田",
+        "共"
+      ],
+      "strokes": 11,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l31.g001",
+      "lessonId": "n2.l31",
+      "pattern": "〜に比べて",
+      "meaning": "Compared to / In comparison with",
+      "meaningMy": "တစ်ခုခုနှင့် နှိုင်းယှဉ်လျှင် / နှိုင်းယှဉ်ကြည့်ပါက",
+      "meaningMyanmar": "တစ်ခုခုနှင့် နှိုင်းယှဉ်လျှင် / နှိုင်းယှဉ်ကြည့်ပါက",
+      "formation": "名詞 ＋ に比べて / に比べ",
+      "explanation": {
+        "en": "Used to clearly compare two entities or past/present states, highlighting a noticeable difference in degree, size, or quality.",
+        "my": "အရာဝတ္ထု၊ လူ သို့မဟုတ် အတိတ်နှင့် ပစ္စုပ္ပန် အခြေအနေနှစ်ခုကို နှိုင်းယှဉ်ပြသပြီး အတိုင်းအတာ၊ ပမာဏ သို့မဟုတ် အရည်အသွေး ကွာခြားချက်ကို ဖော်ပြရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "အရာဝတ္ထု၊ လူ သို့မဟုတ် အတိတ်နှင့် ပစ္စုပ္ပန် အခြေအနေနှစ်ခုကို နှိုင်းယှဉ်ပြသပြီး အတိုင်းအတာ၊ ပမာဏ သို့မဟုတ် အရည်အသွေး ကွာခြားချက်ကို ဖော်ပြရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l31.s001",
+          "note": "〜に比べて usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l31.s002",
+          "note": "〜に比べて usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l31.s003",
+          "note": "〜に比べて usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l31.s004",
+          "note": "〜に比べて usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l31.g001",
+        "n2.l31.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜に比べて."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "今年は去年に[ _____ ]、降雪量が大幅に少ない。",
+      "clozeTarget": "比べて",
+      "clozeHint": "Noun + に比べて",
+      "acceptableSynonyms": [
+        "と比較して",
+        "よりは",
+        "に対比して"
+      ],
+      "nuanceExplanationMy": "「〜に比べて」သည် အချက်အလက် သို့မဟုတ် အရည်အသွေးနှစ်ခုကို ဓမ္မဓိဋ္ဌာန်ကျကျ နှိုင်းယှဉ်ရာတွင် သုံးသည်။"
+    },
+    {
+      "id": "n2.l31.g002",
+      "lessonId": "n2.l31",
+      "pattern": "〜に対して",
+      "meaning": "In contrast to / Whereas / While on the other hand",
+      "meaningMy": "ဆန့်ကျင်ဘက်အားဖြင့် / နှင့်ဆန့်ကျင်လျက်",
+      "meaningMyanmar": "ဆန့်ကျင်ဘက်အားဖြင့် / နှင့်ဆန့်ကျင်လျက်",
+      "formation": "名詞 ＋ に対して / 普通形 (な形だ/である・名詞だ/である) ＋ のに対して",
+      "explanation": {
+        "en": "Draws a stark, direct contrast between two distinct subjects, policies, attitudes, or data sets holding opposite traits.",
+        "my": "ဆန့်ကျင်ဘက် သဘောသဘာဝရှိသော ကိစ္စရပ်နှစ်ခု၊ မူဝါဒနှစ်ရပ် သို့မဟုတ် စာရင်းဇယားများကို ယှဉ်တွဲ၍ ထင်ရှားသော ခြားနားချက်ကို ပြသရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "ဆန့်ကျင်ဘက် သဘောသဘာဝရှိသော ကိစ္စရပ်နှစ်ခု၊ မူဝါဒနှစ်ရပ် သို့မဟုတ် စာရင်းဇယားများကို ယှဉ်တွဲ၍ ထင်ရှားသော ခြားနားချက်ကို ပြသရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l31.s005",
+          "note": "〜に対して usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l31.s006",
+          "note": "〜に対して usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l31.s007",
+          "note": "〜に対して usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l31.s008",
+          "note": "〜に対して usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l31.g001",
+        "n2.l31.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜に対して."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "兄が社交的なの[ _____ ]、弟は内向的で読書を好む。",
+      "clozeTarget": "に対して",
+      "clozeHint": "Plain form + のに対して",
+      "acceptableSynonyms": [
+        "に反して",
+        "の一方で",
+        "とは対照的に"
+      ],
+      "nuanceExplanationMy": "「〜に対して」သည် မျက်နှာချင်းဆိုင် သဘောထားကွဲလွဲမှု သို့မဟုတ် ပြတ်သားသော ဆန့်ကျင်ဘက်အသွင်ကို အလေးပေးဖော်ပြသည်။"
+    },
+    {
+      "id": "n2.l31.g003",
+      "lessonId": "n2.l31",
+      "pattern": "〜反面",
+      "meaning": "On the other hand / While on one side (coexisting opposite aspect)",
+      "meaningMy": "တစ်ဖက်တွင်မူ / သို့သော် အခြားတစ်ဖက်တွင်လည်း (ဒွန်တွဲနေသောအချက်)",
+      "meaningMyanmar": "တစ်ဖက်တွင်မူ / သို့သော် အခြားတစ်ဖက်တွင်လည်း (ဒွန်တွဲနေသောအချက်)",
+      "formation": "動詞・い形辞書形 ＋ 反面 / な形語幹＋な/である ＋ 反面 / 名詞＋である ＋ 反面",
+      "explanation": {
+        "en": "Expresses that while something possesses a certain positive or dominant attribute, it simultaneously harbors an opposing drawback or contrasting aspect.",
+        "my": "အရာတစ်ခုတည်းမှာပင် ကောင်းကွက် သို့မဟုတ် အားသာချက်တစ်ခု ရှိနေသကဲ့သို့ အခြားတစ်ဖက်တွင်လည်း ဆန့်ကျင်ဘက် အားနည်းချက် သို့မဟုတ် ဆိုးကျိုး ဒွန်တွဲတည်ရှိနေကြောင်း ဖော်ပြသည်။"
+      },
+      "explanationMy": "အရာတစ်ခုတည်းမှာပင် ကောင်းကွက် သို့မဟုတ် အားသာချက်တစ်ခု ရှိနေသကဲ့သို့ အခြားတစ်ဖက်တွင်လည်း ဆန့်ကျင်ဘက် အားနည်းချက် သို့မဟုတ် ဆိုးကျိုး ဒွန်တွဲတည်ရှိနေကြောင်း ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l31.s009",
+          "note": "〜反面 usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l31.s010",
+          "note": "〜反面 usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l31.s011",
+          "note": "〜反面 usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l31.s012",
+          "note": "〜反面 usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l31.g001",
+        "n2.l31.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜反面."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "都会での生活は便利な[ _____ ]、生活費が高くつく。",
+      "clozeTarget": "反面",
+      "clozeHint": "Na-adj + な + 反面",
+      "acceptableSynonyms": [
+        "一方では",
+        "その反面",
+        "他方では"
+      ],
+      "nuanceExplanationMy": "အရာတစ်ခုတည်း၏ ကောင်းကျိုးနှင့် ဆိုးကျိုး ဒင်္ဂါးပြား၏ ခေါင်းနှင့်ပန်းကဲ့သို့ ယှဉ်တွဲနေမှုကို ပြသသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l31.s001",
+      "lessonId": "n2.l31",
+      "ja": "昨年度の業績に比べて、今年度は輸出事業が著しい伸びを見せている。",
+      "kana": "さくねんどのぎょうせきにくらべて、こんねんどはゆしゅつじぎょうがいちじるしいのびをみせている。",
+      "translation": {
+        "en": "Compared to the previous year's performance, this year shows remarkable growth in export operations.",
+        "my": "ယမန်နှစ် လုပ်ငန်းဆောင်ရွက်မှုနှင့် နှိုင်းယှဉ်လျှင် ယခုနှစ်တွင် ပို့ကုန်လုပ်ငန်းသည် သိသာထင်ရှားစွာ တိုးတက်လျက်ရှိသည်။"
+      },
+      "translationMy": "ယမန်နှစ် လုပ်ငန်းဆောင်ရွက်မှုနှင့် နှိုင်းယှဉ်လျှင် ယခုနှစ်တွင် ပို့ကုန်လုပ်ငန်းသည် သိသာထင်ရှားစွာ တိုးတက်လျက်ရှိသည်။",
+      "vocabIds": [
+        "n2.l31.v001",
+        "n2.l31.v011"
+      ],
+      "grammarIds": [
+        "n2.l31.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.s002",
+      "lessonId": "n2.l31",
+      "ja": "都市部に比べて、地方では人口減少の傾向がより顕著に現れている。",
+      "kana": "としぶにくらべて、ちほうではじんこうげんしょうのけいこうがよりけんちょにあらわれている。",
+      "translation": {
+        "en": "Compared to metropolitan areas, the trend of population decline is far more prominent in rural regions.",
+        "my": "မြို့ပြဒေသများနှင့် နှိုင်းယှဉ်ပါက နယ်ဘက်များတွင် လူဦးရေ လျော့နည်းလာသည့် လားရာသည် ပိုမိုထင်ရှားနေသည်။"
+      },
+      "translationMy": "မြို့ပြဒေသများနှင့် နှိုင်းယှဉ်ပါက နယ်ဘက်များတွင် လူဦးရေ လျော့နည်းလာသည့် လားရာသည် ပိုမိုထင်ရှားနေသည်။",
+      "vocabIds": [
+        "n2.l31.v007",
+        "n2.l31.v009"
+      ],
+      "grammarIds": [
+        "n2.l31.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.s003",
+      "lessonId": "n2.l31",
+      "ja": "両者の統計データを比較検討したところ、予想以上の格差が確認された。",
+      "kana": "りょうしゃのとうけいデータをひかくけんとうしたところ、よそういじょうのかくさがかくにんされた。",
+      "translation": {
+        "en": "When the statistical data of both parties were compared, a disparity far exceeding expectations was confirmed.",
+        "my": "နှစ်ဦးနှစ်ဖက်၏ စာရင်းအင်းအချက်အလက်များကို နှိုင်းယှဉ်စစ်ဆေးကြည့်ရာ ခန့်မှန်းထားသည်ထက် ပိုမိုကြီးမားသော ကွာဟချက်ကို တွေ့ရှိခဲ့ရသည်။"
+      },
+      "translationMy": "နှစ်ဦးနှစ်ဖက်၏ စာရင်းအင်းအချက်အလက်များကို နှိုင်းယှဉ်စစ်ဆေးကြည့်ရာ ခန့်မှန်းထားသည်ထက် ပိုမိုကြီးမားသော ကွာဟချက်ကို တွေ့ရှိခဲ့ရသည်။",
+      "vocabIds": [
+        "n2.l31.v001",
+        "n2.l31.v006"
+      ],
+      "grammarIds": [
+        "n2.l31.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.s004",
+      "lessonId": "n2.l31",
+      "ja": "価格の安さに比べて、この製品の品質は驚くほど優れている。",
+      "kana": "かかくのやすさにくらべて、このせいひんのひんしつはおどろくほどすぐれている。",
+      "translation": {
+        "en": "Compared to its low price, the quality of this product is astonishingly superior.",
+        "my": "ဈေးနှုန်းသက်သာမှုနှင့် နှိုင်းယှဉ်လျှင် ဤထုတ်ကုန်၏ အရည်အသွေးမှာ အံ့အားသင့်ဖွယ် ကောင်းမွန်လှသည်။"
+      },
+      "translationMy": "ဈေးနှုန်းသက်သာမှုနှင့် နှိုင်းယှဉ်လျှင် ဤထုတ်ကုန်၏ အရည်အသွေးမှာ အံ့အားသင့်ဖွယ် ကောင်းမွန်လှသည်။",
+      "vocabIds": [
+        "n2.l31.v001",
+        "n2.l31.v002"
+      ],
+      "grammarIds": [
+        "n2.l31.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.s005",
+      "lessonId": "n2.l31",
+      "ja": "先進諸国の消費が停滞しているのに対して、新興国市場は急速に拡大している。",
+      "kana": "せんしんしょこくのしょうひがていたいしているのにたいして、しんこうこくしじょうはきゅうそくにかくだいしている。",
+      "translation": {
+        "en": "Whereas consumption is stagnating in advanced nations, emerging markets are expanding rapidly.",
+        "my": "ဖွံ့ဖြိုးပြီးနိုင်ငံများတွင် စားသုံးမှု ရပ်တန့်နေသည့် ဆန့်ကျင်ဘက်အားဖြင့် ဖွံ့ဖြိုးဆဲဈေးကွက်များသည် အရှိန်အဟုန်ဖြင့် ကျယ်ပြန့်လာနေသည်။"
+      },
+      "translationMy": "ဖွံ့ဖြိုးပြီးနိုင်ငံများတွင် စားသုံးမှု ရပ်တန့်နေသည့် ဆန့်ကျင်ဘက်အားဖြင့် ဖွံ့ဖြိုးဆဲဈေးကွက်များသည် အရှိန်အဟုန်ဖြင့် ကျယ်ပြန့်လာနေသည်။",
+      "vocabIds": [
+        "n2.l31.v005",
+        "n2.l31.v008"
+      ],
+      "grammarIds": [
+        "n2.l31.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.s006",
+      "lessonId": "n2.l31",
+      "ja": "積極的な投資を推し進める経営陣に対して、現場の社員は慎重な姿勢を崩さない。",
+      "kana": "せっきょくてきなとうしをおしすすめるけいえいじんにたいして、げんばのしゃいんはしんちょうなしせいをくずさない。",
+      "translation": {
+        "en": "In contrast to the executives pushing for aggressive investment, frontline employees maintain a cautious posture.",
+        "my": "ရင်းနှီးမြှုပ်နှံမှု အားသွန်ခွန်စိုက် လုပ်ဆောင်လိုသော စီမံခန့်ခွဲသူများနှင့် ဆန့်ကျင်ဘက် အခြေခံဝန်ထမ်းများမှာ သတိကြီးစွာ ထားလျက်ရှိကြသည်။"
+      },
+      "translationMy": "ရင်းနှီးမြှုပ်နှံမှု အားသွန်ခွန်စိုက် လုပ်ဆောင်လိုသော စီမံခန့်ခွဲသူများနှင့် ဆန့်ကျင်ဘက် အခြေခံဝန်ထမ်းများမှာ သတိကြီးစွာ ထားလျက်ရှိကြသည်။",
+      "vocabIds": [
+        "n2.l31.v005",
+        "n2.l31.v012"
+      ],
+      "grammarIds": [
+        "n2.l31.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.s007",
+      "lessonId": "n2.l31",
+      "ja": "理想と現実の乖離に対して、若者たちは深刻な危機感を募らせている。",
+      "kana": "りそうとげんじつのかいりにたいして、わかものたちはしんこくなききかんをつのらせている。",
+      "translation": {
+        "en": "Faced with the stark divergence between ideals and reality, youth are feeling a growing sense of crisis.",
+        "my": "မျှော်လင့်ထားသည့် စိတ်ကူးနှင့် လက်တွေ့ဘဝ ကွဲလွဲကွာဟမှုအပေါ် လူငယ်များသည် စိုးရိမ်ပူပန်မှုများ ပိုမိုပြင်းထန်လာကြသည်။"
+      },
+      "translationMy": "မျှော်လင့်ထားသည့် စိတ်ကူးနှင့် လက်တွေ့ဘဝ ကွဲလွဲကွာဟမှုအပေါ် လူငယ်များသည် စိုးရိမ်ပူပန်မှုများ ပိုမိုပြင်းထန်လာကြသည်။",
+      "vocabIds": [
+        "n2.l31.v010",
+        "n2.l31.v012"
+      ],
+      "grammarIds": [
+        "n2.l31.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.s008",
+      "lessonId": "n2.l31",
+      "ja": "理論上の計算値に対して、実験結果には微妙な相違が見られた。",
+      "kana": "りろんじょうのけいさんちにたいして、じっけんけっかにはびみょうなそういがみられた。",
+      "translation": {
+        "en": "In contrast to theoretical calculated values, a subtle discrepancy was observed in the experimental results.",
+        "my": "သီအိုရီအရ တွက်ချက်ထားသော တန်ဖိုးများနှင့် ဆန့်ကျင်လျက် စမ်းသပ်မှုရလဒ်တွင် သိမ်မွေ့သော ကွဲလွဲချက်ကို တွေ့ရှိခဲ့ရသည်။"
+      },
+      "translationMy": "သီအိုရီအရ တွက်ချက်ထားသော တန်ဖိုးများနှင့် ဆန့်ကျင်လျက် စမ်းသပ်မှုရလဒ်တွင် သိမ်မွေ့သော ကွဲလွဲချက်ကို တွေ့ရှိခဲ့ရသည်။",
+      "vocabIds": [
+        "n2.l31.v003",
+        "n2.l31.v012"
+      ],
+      "grammarIds": [
+        "n2.l31.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.s009",
+      "lessonId": "n2.l31",
+      "ja": "リモートワークは自由な時間が増える反面、自己管理の徹底が求められる。",
+      "kana": "リモートワークはじゆうなじかんがふえるはんめん、じこかんりのてっていがもとめられる。",
+      "translation": {
+        "en": "While remote work affords more free time, on the other hand, rigorous self-discipline is demanded.",
+        "my": "အိမ်မှ အလုပ်လုပ်ခြင်းသည် လွတ်လပ်သောအချိန် ပိုမိုရရှိစေသော်လည်း အခြားတစ်ဖက်တွင် ကိုယ်ပိုင်ထိန်းချုပ်မှု အပြည့်အဝရှိရန် လိုအပ်သည်။"
+      },
+      "translationMy": "အိမ်မှ အလုပ်လုပ်ခြင်းသည် လွတ်လပ်သောအချိန် ပိုမိုရရှိစေသော်လည်း အခြားတစ်ဖက်တွင် ကိုယ်ပိုင်ထိန်းချုပ်မှု အပြည့်အဝရှိရန် လိုအပ်သည်။",
+      "vocabIds": [
+        "n2.l31.v004",
+        "n2.l31.v008"
+      ],
+      "grammarIds": [
+        "n2.l31.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.s010",
+      "lessonId": "n2.l31",
+      "ja": "人工知能の発展は社会を豊かにする反面、雇用の喪失という懸念をもたらす。",
+      "kana": "じんこうちのうのはってんはしゃかいをゆたかにするはんめん、こようのそうしつというけねんをもたらす。",
+      "translation": {
+        "en": "While the advancement of AI enriches society, it simultaneously brings concerns regarding job displacement.",
+        "my": "ဉာဏ်ရည်တု နည်းပညာ တိုးတက်လာခြင်းသည် လူ့ဘောင်ကို ချမ်းသာကြွယ်ဝစေသော်လည်း အခြားတစ်ဖက်တွင် အလုပ်အကိုင် ဆုံးရှုံးမည့် စိုးရိမ်မှုကို ဖြစ်ပေါ်စေသည်။"
+      },
+      "translationMy": "ဉာဏ်ရည်တု နည်းပညာ တိုးတက်လာခြင်းသည် လူ့ဘောင်ကို ချမ်းသာကြွယ်ဝစေသော်လည်း အခြားတစ်ဖက်တွင် အလုပ်အကိုင် ဆုံးရှုံးမည့် စိုးရိမ်မှုကို ဖြစ်ပေါ်စေသည်။",
+      "vocabIds": [
+        "n2.l31.v004",
+        "n2.l31.v007"
+      ],
+      "grammarIds": [
+        "n2.l31.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.s011",
+      "lessonId": "n2.l31",
+      "ja": "自然界の均衡が保たれている反面、気候変動による異変の兆候も見逃せない。",
+      "kana": "しぜんかいのきんこうがたもたれているはんめん、きこうへんどうによるいへのちょうこうもみのがせない。",
+      "translation": {
+        "en": "While the equilibrium of nature is currently maintained, one cannot overlook signs of abnormality driven by climate change.",
+        "my": "သဘာဝတရား၏ မျှခြေကို ထိန်းသိမ်းထားနိုင်သော်ငြားလည်း အခြားတစ်ဖက်တွင် ရာသီဥတုပြောင်းလဲမှုကြောင့် မူမမှန်မှု အရိပ်အယောင်များကို လျစ်လျူမရှုနိုင်ပေ။"
+      },
+      "translationMy": "သဘာဝတရား၏ မျှခြေကို ထိန်းသိမ်းထားနိုင်သော်ငြားလည်း အခြားတစ်ဖက်တွင် ရာသီဥတုပြောင်းလဲမှုကြောင့် မူမမှန်မှု အရိပ်အယောင်များကို လျစ်လျူမရှုနိုင်ပေ။",
+      "vocabIds": [
+        "n2.l31.v004",
+        "n2.l31.v008"
+      ],
+      "grammarIds": [
+        "n2.l31.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l31.s012",
+      "lessonId": "n2.l31",
+      "ja": "急激な経済成長は国民所得を引き上げた反面、深刻な貧富の格差を生み出した。",
+      "kana": "きゅうげきなけいざいせいちょうはこくみんしょとくをひきあげたはんめん、しんこくなひんぷのかくさをうみだした。",
+      "translation": {
+        "en": "While rapid economic growth boosted national income, on the other side, it created severe wealth inequality.",
+        "my": "လျင်မြန်သော စီးပွားရေး တိုးတက်မှုသည် နိုင်ငံသားတို့၏ ဝင်ငွေကို မြှင့်တင်ပေးခဲ့သော်လည်း အခြားတစ်ဖက်တွင် ဆင်းရဲချမ်းသာ ကွာဟချက် ကြီးမားမှုကို ဖြစ်ပေါ်စေခဲ့သည်။"
+      },
+      "translationMy": "လျင်မြန်သော စီးပွားရေး တိုးတက်မှုသည် နိုင်ငံသားတို့၏ ဝင်ငွေကို မြှင့်တင်ပေးခဲ့သော်လည်း အခြားတစ်ဖက်တွင် ဆင်းရဲချမ်းသာ ကွာဟချက် ကြီးမားမှုကို ဖြစ်ပေါ်စေခဲ့သည်။",
+      "vocabIds": [
+        "n2.l31.v002",
+        "n2.l31.v006"
+      ],
+      "grammarIds": [
+        "n2.l31.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l31.r001",
+    "lessonId": "n2.l31",
+    "title": "現代経済における格差と成長の両義性",
+    "level": "N2",
+    "text": "現代のグローバル経済は、かつての産業構造に比べて格段に高い生産効率を達成した。新興国におけるIT産業の躍進に対して、伝統的な製造業に依存する地域では雇用の空洞化が問題視されている。情報通信技術の普及は人々の生活水準を飛躍的に高めた反面、デジタルスキルの有無による経済的格差を拡大させた。市場の自由な競争が技術革新を促すのは事実であるが、公正な再分配機能が欠如すれば社会の分断は深まる一方である。",
+    "kanaText": "げんだいのグローバルけいざいは、かつてのさんぎょうこうぞうにくらべてかくだんにたかいせいさんこうりつをたっせいした。しんこうこくにおけるITさんぎょうのやくしんにたいして、でんとうてきなせいぞうぎょうにいぞんするちいきではこようのくうどうかかもんだいしされている。じょうほうつうしんぎじゅつのふきゅうはひとびとのせいかつすいじゅんをひやくてきにたかめたはんめん、デジタルスキルのうむによるけいざいてきかくさをかくだいさせた。しじょうのじゆうなきょうそうがぎじゅつかくしんをうながすのはじじつであるが、こうせいなさいづんぱいきのうがけつじょすればしゃかいのぶんだんはふかまるいっぽうである。",
+    "translation": "မျက်မှောက်ခေတ် ကမ္ဘာ့စီးပွားရေးသည် ယခင်စက်မှုဖွဲ့စည်းပုံများနှင့် နှိုင်းယှဉ်လျှင် ထုတ်လုပ်မှု စွမ်းဆောင်ရည် အလွန်မြင့်မားစွာ ရရှိခဲ့သည်။ ဖွံ့ဖြိုးဆဲနိုင်ငံများ၏ အိုင်တီလုပ်ငန်းများ အရှိန်အဟုန်ဖြင့် တိုးတက်လာသည့် ဆန့်ကျင်ဘက် ရိုးရာကုန်ထုတ်လုပ်ငန်းကို အမှီပြုသော ဒေသများတွင် အလုပ်အကိုင် ရှားပါးမှုများ ဖြစ်ပေါ်လာနေသည်။ သတင်းအချက်အလက် နည်းပညာ ပြန့်ပွားမှုသည် လူနေမှုအဆင့်အတန်းကို ခုန်ပျံကျော်လွှား မြှင့်တင်ပေးခဲ့သော်လည်း အခြားတစ်ဖက်တွင် ဒီဂျစ်တယ်ကျွမ်းကျင်မှု ရှိမရှိအပေါ် မူတည်သည့် စီးပွားရေးကွာဟချက်ကို ပိုမိုကျယ်ပြန့်စေခဲ့သည်။",
+    "translationMy": "မျက်မှောက်ခေတ် ကမ္ဘာ့စီးပွားရေးသည် ယခင်စက်မှုဖွဲ့စည်းပုံများနှင့် နှိုင်းယှဉ်လျှင် ထုတ်လုပ်မှု စွမ်းဆောင်ရည် အလွန်မြင့်မားစွာ ရရှိခဲ့သည်။ ဖွံ့ဖြိုးဆဲနိုင်ငံများ၏ အိုင်တီလုပ်ငန်းများ အရှိန်အဟုန်ဖြင့် တိုးတက်လာသည့် ဆန့်ကျင်ဘက် ရိုးရာကုန်ထုတ်လုပ်ငန်းကို အမှီပြုသော ဒေသများတွင် အလုပ်အကိုင် ရှားပါးမှုများ ဖြစ်ပေါ်လာနေသည်။ သတင်းအချက်အလက် နည်းပညာ ပြန့်ပွားမှုသည် လူနေမှုအဆင့်အတန်းကို ခုန်ပျံကျော်လွှား မြှင့်တင်ပေးခဲ့သော်လည်း အခြားတစ်ဖက်တွင် ဒီဂျစ်တယ်ကျွမ်းကျင်မှု ရှိမရှိအပေါ် မူတည်သည့် စီးပွားရေးကွာဟချက်ကို ပိုမိုကျယ်ပြန့်စေခဲ့သည်။",
+    "questionIds": [
+      "n2.l31.q025",
+      "n2.l31.q026",
+      "n2.l31.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "生産効率",
+        "reading": "せいさんこうりつ",
+        "meaning": "production efficiency",
+        "meaningMy": "production efficiency",
+        "meaningMyanmar": "production efficiency"
+      },
+      {
+        "term": "空洞化",
+        "reading": "くうどうか",
+        "meaning": "hollowing out / deindustrialization",
+        "meaningMy": "hollowing out / deindustrialization",
+        "meaningMyanmar": "hollowing out / deindustrialization"
+      },
+      {
+        "term": "再分配",
+        "reading": "さいぶんぱい",
+        "meaning": "redistribution",
+        "meaningMy": "redistribution",
+        "meaningMyanmar": "redistribution"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l31.lis001",
+    "lessonId": "n2.l31",
+    "title": "市場動向と消費傾向の比較分析",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "木村部長",
+      "田中アナリスト"
+    ],
+    "transcript": "木村部長: 田中さん、先四半期の国内売上は前年同期に比べてどう推移していますか。\n田中アナリスト: 実店舗の売上が低迷しているのに対して、オンライン販売は30%増と好調です。\n木村部長: ECの拡大は歓迎すべき反面、物流コストの高騰が利益を圧迫していますね。\n田中アナリスト: はい。配送拠点の集約と自動化を進め、コスト均衡を図る必要があります。",
+    "translation": "木村部長: မစ္စတာတနခ၊ ပြီးခဲ့တဲ့ သုံးလပတ် ပြည်တွင်းရောင်းအားက မနှစ်က ကာလတူနဲ့ နှိုင်းယှဉ်ရင် ဘယ်လိုပြောင်းလဲနေသလဲ။\n田中アナリスト: ဆိုင်ခွဲအရောင်းတွေ ကျဆင်းနေတာနဲ့ ဆန့်ကျင်ဘက် အွန်လိုင်းအရောင်းက ၃၀ ရာခိုင်နှုန်း တက်လာပြီး အလွန်ကောင်းမွန်နေပါတယ်။\n木村部長: အီးကောမတ်စ် တိုးတက်လာတာ ကြိုဆိုရမှာ ဖြစ်ပေမဲ့ အခြားတစ်ဖက်မှာ ကုန်စည်ပို့ဆောင်ခ မြင့်တက်မှုက အမြတ်ငွေကို ထိခိုက်စေနေတယ်နော်။\n田中アナリスト: ဟုတ်ကဲ့ပါ။ ပို့ဆောင်ရေး အခြေစိုက်စခန်းတွေကို ပေါင်းစည်းပြီး အလိုအလျောက်စနစ်သုံးကာ ကုန်ကျစရိတ် မျှခြေရအောင် ဆောင်ရွက်ဖို့ လိုပါတယ်။",
+    "translationMy": "木村部長: မစ္စတာတနခ၊ ပြီးခဲ့တဲ့ သုံးလပတ် ပြည်တွင်းရောင်းအားက မနှစ်က ကာလတူနဲ့ နှိုင်းယှဉ်ရင် ဘယ်လိုပြောင်းလဲနေသလဲ။\n田中アナリスト: ဆိုင်ခွဲအရောင်းတွေ ကျဆင်းနေတာနဲ့ ဆန့်ကျင်ဘက် အွန်လိုင်းအရောင်းက ၃၀ ရာခိုင်နှုန်း တက်လာပြီး အလွန်ကောင်းမွန်နေပါတယ်။\n木村部長: အီးကောမတ်စ် တိုးတက်လာတာ ကြိုဆိုရမှာ ဖြစ်ပေမဲ့ အခြားတစ်ဖက်မှာ ကုန်စည်ပို့ဆောင်ခ မြင့်တက်မှုက အမြတ်ငွေကို ထိခိုက်စေနေတယ်နော်။\n田中アナリスト: ဟုတ်ကဲ့ပါ။ ပို့ဆောင်ရေး အခြေစိုက်စခန်းတွေကို ပေါင်းစည်းပြီး အလိုအလျောက်စနစ်သုံးကာ ကုန်ကျစရိတ် မျှခြေရအောင် ဆောင်ရွက်ဖို့ လိုပါတယ်။",
+    "turns": [
+      {
+        "speaker": "木村部長",
+        "ja": "田中さん、先四半期の国内売上は前年同期に比べてどう推移していますか。",
+        "kana": "たなかさん、せんしはんきのこくないうりあげはぜんねんどうきにくらべてどうすいいしていますか。",
+        "en": "Tanaka-san, how are domestic sales for the previous quarter trending compared to the same period last year?",
+        "my": "မစ္စတာတနခ၊ ပြီးခဲ့တဲ့ သုံးလပတ် ပြည်တွင်းရောင်းအားက မနှစ်က ကာလတူနဲ့ နှိုင်းယှဉ်ရင် ဘယ်လိုပြောင်းလဲနေသလဲ။",
+        "translationMy": "မစ္စတာတနခ၊ ပြီးခဲ့တဲ့ သုံးလပတ် ပြည်တွင်းရောင်းအားက မနှစ်က ကာလတူနဲ့ နှိုင်းယှဉ်ရင် ဘယ်လိုပြောင်းလဲနေသလဲ။",
+        "myanmar": "မစ္စတာတနခ၊ ပြီးခဲ့တဲ့ သုံးလပတ် ပြည်တွင်းရောင်းအားက မနှစ်က ကာလတူနဲ့ နှိုင်းယှဉ်ရင် ဘယ်လိုပြောင်းလဲနေသလဲ။"
+      },
+      {
+        "speaker": "田中アナリスト",
+        "ja": "実店舗の売上が低迷しているのに対して、オンライン販売は30%増と好調です。",
+        "kana": "じってんぽのうりあげがていめいしているのにたいして、オンラインはんばいはさんじゅっぱーせんとぞうとこうちょうです。",
+        "en": "Whereas brick-and-mortar store sales are sluggish, online sales are thriving with a 30% increase.",
+        "my": "ဆိုင်ခွဲအရောင်းတွေ ကျဆင်းနေတာနဲ့ ဆန့်ကျင်ဘက် အွန်လိုင်းအရောင်းက ၃၀ ရာခိုင်နှုန်း တက်လာပြီး အလွန်ကောင်းမွန်နေပါတယ်။",
+        "translationMy": "ဆိုင်ခွဲအရောင်းတွေ ကျဆင်းနေတာနဲ့ ဆန့်ကျင်ဘက် အွန်လိုင်းအရောင်းက ၃၀ ရာခိုင်နှုန်း တက်လာပြီး အလွန်ကောင်းမွန်နေပါတယ်။",
+        "myanmar": "ဆိုင်ခွဲအရောင်းတွေ ကျဆင်းနေတာနဲ့ ဆန့်ကျင်ဘက် အွန်လိုင်းအရောင်းက ၃၀ ရာခိုင်နှုန်း တက်လာပြီး အလွန်ကောင်းမွန်နေပါတယ်။"
+      },
+      {
+        "speaker": "木村部長",
+        "ja": "ECの拡大は歓迎すべき反面、物流コストの高騰が利益を圧迫していますね。",
+        "kana": "イーシーのかくだいはかんげいすべきはんめん、ぶつりゅうコストのこうとうがりえきをあっぱくしていますね。",
+        "en": "While expanding e-commerce is welcome, on the flip side, rising logistics costs are squeezing profits.",
+        "my": "အီးကောမတ်စ် တိုးတက်လာတာ ကြိုဆိုရမှာ ဖြစ်ပေမဲ့ အခြားတစ်ဖက်မှာ ကုန်စည်ပို့ဆောင်ခ မြင့်တက်မှုက အမြတ်ငွေကို ထိခိုက်စေနေတယ်နော်။",
+        "translationMy": "အီးကောမတ်စ် တိုးတက်လာတာ ကြိုဆိုရမှာ ဖြစ်ပေမဲ့ အခြားတစ်ဖက်မှာ ကုန်စည်ပို့ဆောင်ခ မြင့်တက်မှုက အမြတ်ငွေကို ထိခိုက်စေနေတယ်နော်။",
+        "myanmar": "အီးကောမတ်စ် တိုးတက်လာတာ ကြိုဆိုရမှာ ဖြစ်ပေမဲ့ အခြားတစ်ဖက်မှာ ကုန်စည်ပို့ဆောင်ခ မြင့်တက်မှုက အမြတ်ငွေကို ထိခိုက်စေနေတယ်နော်။"
+      },
+      {
+        "speaker": "田中アナリスト",
+        "ja": "はい。配送拠点の集約と自動化を進め、コスト均衡を図る必要があります。",
+        "kana": "はい。はいそうきょてんのしゅうやくとじどうかをすすめ、コストきんこうをはかるひつようがあります。",
+        "en": "Yes. We need to consolidate distribution hubs and advance automation to achieve cost balance.",
+        "my": "ဟုတ်ကဲ့ပါ။ ပို့ဆောင်ရေး အခြေစိုက်စခန်းတွေကို ပေါင်းစည်းပြီး အလိုအလျောက်စနစ်သုံးကာ ကုန်ကျစရိတ် မျှခြေရအောင် ဆောင်ရွက်ဖို့ လိုပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့ပါ။ ပို့ဆောင်ရေး အခြေစိုက်စခန်းတွေကို ပေါင်းစည်းပြီး အလိုအလျောက်စနစ်သုံးကာ ကုန်ကျစရိတ် မျှခြေရအောင် ဆောင်ရွက်ဖို့ လိုပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့ပါ။ ပို့ဆောင်ရေး အခြေစိုက်စခန်းတွေကို ပေါင်းစည်းပြီး အလိုအလျောက်စနစ်သုံးကာ ကုန်ကျစရိတ် မျှခြေရအောင် ဆောင်ရွက်ဖို့ လိုပါတယ်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l31.q028",
+      "n2.l31.q029",
+      "n2.l31.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l31.q001",
+      "lessonId": "n2.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "二つの事物を並べて優劣や差異を調べることを「[ _____ ]」という。",
+      "choices": [
+        "比較",
+        "比例",
+        "異同",
+        "均衡"
+      ],
+      "answer": "比較",
+      "explanation": "比較 (ひかく) means comparison.",
+      "explanationMy": "အရာနှစ်ခုကို ယှဉ်တွဲစစ်ဆေးခြင်းမှာ 比較 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q002",
+      "lessonId": "n2.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "一方が増えると他方もそれに伴って増える関係を「[ _____ ]」という。",
+      "choices": [
+        "比例",
+        "乖離",
+        "格差",
+        "顕著"
+      ],
+      "answer": "比例",
+      "explanation": "比例 (ひれい) means proportion / direct ratio.",
+      "explanationMy": "တစ်ခုတိုးလျှင် နောက်တစ်ခုပါ အချိုးကျတိုးပွားခြင်းမှာ 比例 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q003",
+      "lessonId": "n2.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "双方の意見の間にある相違点や異なった見解を「[ _____ ]」という。",
+      "choices": [
+        "相違",
+        "比例",
+        "均衡",
+        "傾向"
+      ],
+      "answer": "相違",
+      "explanation": "相違 (そうい) denotes discrepancy / difference.",
+      "explanationMy": "အမြင်ချင်း ကွဲလွဲနေသော အချက်မှာ 相違 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.v012"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q004",
+      "lessonId": "n2.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "目に見えてはっきりと際立っている様子を表す言葉はどれか。",
+      "choices": [
+        "顕著",
+        "乖離",
+        "対照",
+        "異変"
+      ],
+      "answer": "顕著",
+      "explanation": "顕著 (けんちょ) means remarkable or conspicuous.",
+      "explanationMy": "အလွန်ထင်ရှားသိသာသော အခြေအနေမှာ 顕著 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q005",
+      "lessonId": "n2.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "所得や待遇における不平等な開きや差を「[ _____ ]」という。",
+      "choices": [
+        "格差",
+        "均衡",
+        "比較",
+        "比例"
+      ],
+      "answer": "格差",
+      "explanation": "格差 (かくさ) refers to disparity or gap.",
+      "explanationMy": "ဝင်ငွေ သို့မဟုတ် အခွင့်အရေး ကွာဟချက်မှာ 格差 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q006",
+      "lessonId": "n2.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "二つの力のバランスが取れて釣り合っている状態を「[ _____ ]」という。",
+      "choices": [
+        "均衡",
+        "格差",
+        "乖離",
+        "異変"
+      ],
+      "answer": "均衡",
+      "explanation": "均衡 (きんこう) signifies balance or equilibrium.",
+      "explanationMy": "နှစ်ဖက်အင်အား မျှတညီညွတ်နေသောအခြေအနေမှာ 均衡 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q007",
+      "lessonId": "n2.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "世の中の流れや物事が向かおうとする方向性を「[ _____ ]」という。",
+      "choices": [
+        "傾向",
+        "顕著",
+        "相違",
+        "異変"
+      ],
+      "answer": "傾向",
+      "explanation": "傾向 (けいこう) means tendency or trend.",
+      "explanationMy": "ဦးတည်ချက် သို့မဟုတ် လားရာလမ်းကြောင်းမှာ 傾向 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q008",
+      "lessonId": "n2.l31",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "理想と現実が大きくかけ離れて隔たることを「[ _____ ]」という。",
+      "choices": [
+        "乖離",
+        "比例",
+        "均衡",
+        "比較"
+      ],
+      "answer": "乖離",
+      "explanation": "乖離 (かいり) means divergence / estrangement.",
+      "explanationMy": "စိတ်ကူးနှင့် လက်တွေ့ အလွန်အမင်း ကွဲကွာခြားနားသွားခြင်းမှာ 乖離 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q009",
+      "lessonId": "n2.l31",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「比」の正しい訓読みはどれか。",
+      "choices": [
+        "くら・べる",
+        "こと・なる",
+        "なら・ぶ",
+        "はか・る"
+      ],
+      "answer": "くら・べる",
+      "explanation": "比 carries the kunyomi くら・べる.",
+      "explanationMy": "比 ၏ Kunyomi အသံထွက်မှာ くら・べる ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q010",
+      "lessonId": "n2.l31",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "単語「比較」の正しい読み方はどれか。",
+      "choices": [
+        "ひかく",
+        "ひこう",
+        "ひきょう",
+        "びかく"
+      ],
+      "answer": "ひかく",
+      "explanation": "比較 is read as ひかく.",
+      "explanationMy": "比較 ၏ မှန်ကန်သောအသံထွက်မှာ ひかく ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q011",
+      "lessonId": "n2.l31",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「異」の意味として最も適切なものはどれか。",
+      "choices": [
+        "ことなる・かわっている",
+        "くらべる・ならべる",
+        "おなじ・ひとしい",
+        "あわせる・むすぶ"
+      ],
+      "answer": "ことなる・かわっている",
+      "explanation": "異 means different, distinct, or unusual.",
+      "explanationMy": "異 ၏ အဓိပ္ပာယ်မှာ ကွဲပြားခြားနားခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q012",
+      "lessonId": "n2.l31",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「異変」の読み方として正しいものはどれか。",
+      "choices": [
+        "いへん",
+        "いかん",
+        "ことへん",
+        "いばん"
+      ],
+      "answer": "いへん",
+      "explanation": "異変 is read as いへん.",
+      "explanationMy": "異変 ၏ အသံထွက်မှာ いへん ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q013",
+      "lessonId": "n2.l31",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "部首「車」を持つ「較」の総画数はいくつか。",
+      "choices": [
+        "13画",
+        "11画",
+        "12画",
+        "14画"
+      ],
+      "answer": "13画",
+      "explanation": "較 consists of 13 strokes.",
+      "explanationMy": "較 စာလုံး၏ စုစုပေါင်း မျဉ်းဆွဲချက်မှာ ၁၃ ချက် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q014",
+      "lessonId": "n2.l31",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「比率」の正しい読み方はどれか。",
+      "choices": [
+        "ひりつ",
+        "ひそつ",
+        "びりつ",
+        "ひりゅう"
+      ],
+      "answer": "ひりつ",
+      "explanation": "比率 is read as ひりつ.",
+      "explanationMy": "比率 ၏ အသံထွက်မှာ ひりつ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q015",
+      "lessonId": "n2.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "去年[ _____ ]、今年の夏は猛暑日が格段に多い。",
+      "choices": [
+        "に比べて",
+        "に対して",
+        "反面",
+        "に沿って"
+      ],
+      "answer": "に比べて",
+      "explanation": "Use に比べて to contrast degrees between two periods.",
+      "explanationMy": "မနှစ်ကနှင့် နှိုင်းယှဉ်ပြရာတွင် に比べて ကို သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q016",
+      "lessonId": "n2.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "兄が社交的で友人が多いの[ _____ ]、弟は物静かで読書に没頭している。",
+      "choices": [
+        "に対して",
+        "に比べて",
+        "反面",
+        "にしたがって"
+      ],
+      "answer": "に対して",
+      "explanation": "に対して marks a contrast between distinct subjects (兄 vs 弟).",
+      "explanationMy": "အကိုနှင့် ညီကြား ပြတ်သားသော ဆန့်ကျင်ဘက်စရိုက်ကို ပြသရာတွင် に対して ကို သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q017",
+      "lessonId": "n2.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "この最新スマートフォンは機能が豊富な[ _____ ]、バッテリーの消耗が激しい。",
+      "choices": [
+        "反面",
+        "に対して",
+        "に比べて",
+        "につれて"
+      ],
+      "answer": "反面",
+      "explanation": "反面 indicates an opposing drawback within the same entity.",
+      "explanationMy": "အရာတစ်ခုတည်း၏ ကောင်းကျိုးနှင့် ဆိုးကျိုးကို ဒွန်တွဲပြရာတွင် 反面 ကို သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q018",
+      "lessonId": "n2.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "以前の旧機種[ _____ ]、新モデルは消費電力が半分以下に抑えられている。",
+      "choices": [
+        "に比べて",
+        "に対して",
+        "反面",
+        "を契機に"
+      ],
+      "answer": "に比べて",
+      "explanation": "に比べて forms comparison with the earlier model.",
+      "explanationMy": "ယခင်မော်ဒယ်ဟောင်းနှင့် နှိုင်းယှဉ်ရာတွင် に比べて ကို သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q019",
+      "lessonId": "n2.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "海外市場での需要が急増しているの[ _____ ]、国内消費は冷え込んでいる。",
+      "choices": [
+        "に対して",
+        "に比べて",
+        "反面",
+        "に伴って"
+      ],
+      "answer": "に対して",
+      "explanation": "対して contrasts booming foreign demand with cold domestic consumption.",
+      "explanationMy": "ပြည်ပဝယ်လိုအားနှင့် ပြည်တွင်းစားသုံးမှု ဆန့်ကျင်ဘက်ဖြစ်မှုကို に対して ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q020",
+      "lessonId": "n2.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "ネット通販は手軽に注文できる[ _____ ]、実物を確認できないリスクがある。",
+      "choices": [
+        "反面",
+        "に対して",
+        "に比べて",
+        "に際して"
+      ],
+      "answer": "反面",
+      "explanation": "反面 captures convenience vs inability to inspect actual items.",
+      "explanationMy": "လွယ်ကူသော်လည်း လက်တွေ့မစစ်ဆေးနိုင်သည့် အားနည်းချက်ကို 反面 ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q021",
+      "lessonId": "n2.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "大都市の生活費の高騰[ _____ ]、地方都市は住居費が安価に抑えられている。",
+      "choices": [
+        "に比べて",
+        "に対して",
+        "反面",
+        "にとどまらず"
+      ],
+      "answer": "に比べて",
+      "explanation": "に比べて is used to contrast living costs.",
+      "explanationMy": "မြို့ကြီးများ၏ ကုန်ကျစရိတ်နှင့် နှိုင်းယှဉ်လျှင် နယ်ဘက်က သက်သာကြောင်း に比べて ဖြင့် ဖော်ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q022",
+      "lessonId": "n2.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "社長が積極的な投資方針を打ち出したの[ _____ ]、監査役は慎重論を崩さない。",
+      "choices": [
+        "に対して",
+        "に比べて",
+        "反面",
+        "を皮切りに"
+      ],
+      "answer": "に対して",
+      "explanation": "に対して sets opposing management views in sharp relief.",
+      "explanationMy": "ဥက္ကဋ္ဌ၏ သဘောထားနှင့် စာရင်းစစ်၏ ဆန့်ကျင်ဘက်သဘောထားကို に対して ဖြင့် ယှဉ်ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q023",
+      "lessonId": "n2.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "高性能なCPUは処理速度が極めて速い[ _____ ]、発熱量が極めて大きい。",
+      "choices": [
+        "反面",
+        "に対して",
+        "に比べて",
+        "に先立って"
+      ],
+      "answer": "反面",
+      "explanation": "反面 conveys the downside of high heat alongside high speed.",
+      "explanationMy": "မြန်ဆန်သော်လည်း အပူထွက်များသည့် အခြားတစ်ဖက်ကို 反面 ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q024",
+      "lessonId": "n2.l31",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "諸外国の政策[ _____ ]、我が国の法改正は大幅に遅れていると指摘された。",
+      "choices": [
+        "に比べて",
+        "に対して",
+        "反面",
+        "ばかりに"
+      ],
+      "answer": "に比べて",
+      "explanation": "に比べて compares domestic pace against foreign policies.",
+      "explanationMy": "နိုင်ငံခြားမူဝါဒများနှင့် နှိုင်းယှဉ်လျှင် ပြည်တွင်းဥပဒေပြင်ဆင်မှု နှောင့်နှေးနေကြောင်း に比べて ဖြင့် ပြသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q025",
+      "lessonId": "n2.l31",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において、現代グローバル経済について述べられている内容はどれか。",
+      "choices": [
+        "過去の産業構造に比べて高い生産効率を達成している",
+        "伝統的な製造業の方が新興国のIT産業より急成長している",
+        "デジタルスキルの有無による格差は完全に解消された",
+        "技術革新により所得の再分配が自動的に実現した"
+      ],
+      "answer": "過去の産業構造に比べて高い生産効率を達成している",
+      "explanation": "The text states: 'かつての産業構造に比べて格段に高い生産効率を達成した'.",
+      "explanationMy": "စာပိုဒ်တွင် ယခင်စက်မှုဖွဲ့စည်းပုံများနှင့် နှိုင်းယှဉ်လျှင် ထုတ်လုပ်မှုစွမ်းရည် များစွာမြင့်မားခဲ့ကြောင်း ဖော်ပြထားသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q026",
+      "lessonId": "n2.l31",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "新興国と伝統的製造業地域との対比として適切なものはどれか。",
+      "choices": [
+        "IT産業が躍進する新興国に対し、伝統的地域では雇用の空洞化が起きている",
+        "伝統的地域が急成長する反面、新興国の雇用が減少している",
+        "両地域ともに等しくデジタル格差が消滅した",
+        "新興国の製造業が衰退したのに対して、先進国のIT産業が縮小した"
+      ],
+      "answer": "IT産業が躍進する新興国に対し、伝統的地域では雇用の空洞化が起きている",
+      "explanation": "The text highlights IT expansion in emerging nations versus hollowing out in manufacturing areas.",
+      "explanationMy": "အိုင်တီလုပ်ငန်း ထွန်းကားသော ဖွံ့ဖြိုးဆဲနိုင်ငံများနှင့် ဆန့်ကျင်ဘက် ရိုးရာကုန်ထုတ်ဒေသများတွင် အလုပ်အကိုင်များ ဆုံးရှုံးနေသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q027",
+      "lessonId": "n2.l31",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "情報通信技術の普及がもたらした「反面」の側面は何か。",
+      "choices": [
+        "デジタルスキルの有無による経済的格差の拡大",
+        "生活水準の全般的かつ不可逆的な低下",
+        "新興国におけるIT産業の完全な壊滅",
+        "市場競争の喪失による技術停滞"
+      ],
+      "answer": "デジタルスキルの有無による経済的格差の拡大",
+      "explanation": "The passage notes: '生活水準を高めた反面、デジタルスキルの有無による経済的格差を拡大させた'.",
+      "explanationMy": "လူနေမှုအဆင့်အတန်း မြင့်တက်လာသော်လည်း အခြားတစ်ဖက်တွင် ဒီဂျစ်တယ်ကျွမ်းကျင်မှုအပေါ် မူတည်သည့် ကွာဟချက် ပိုကြီးလာသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q028",
+      "lessonId": "n2.l31",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "オンライン販売の状況について、田中アナリストは何と説明しているか。",
+      "choices": [
+        "実店舗が低迷しているのに対して、オンラインは30%増と好調である",
+        "前年同期に比べて大幅に落ち込んでいる",
+        "実店舗とオンラインの双方が同時に急速に縮小している",
+        "物流コストがゼロになったため過去最高の純利益を記録した"
+      ],
+      "answer": "実店舗が低迷しているのに対して、オンラインは30%増と好調である",
+      "explanation": "Tanaka explicitly contrasts sluggish stores with a 30% online surge.",
+      "explanationMy": "ဆိုင်ခွဲအရောင်း ကျဆင်းနေမှုနှင့် ဆန့်ကျင်လျက် အွန်လိုင်းရောင်းအား ၃၀% တက်လာကြောင်း တနခက ရှင်းပြခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q029",
+      "lessonId": "n2.l31",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "木村部長が指摘したオンライン販売拡大の「反面」の問題点は何か。",
+      "choices": [
+        "物流コストの高騰が利益を圧迫していること",
+        "実店舗の従業員が全員退職してしまったこと",
+        "新製品の開発が完全に停止したこと",
+        "競合他社の進出により顧客数が激減したこと"
+      ],
+      "answer": "物流コストの高騰が利益を圧迫していること",
+      "explanation": "Kimura notes: 'EC拡大は歓迎すべき反面、物流コストの高騰が利益を圧迫している'.",
+      "explanationMy": "ပို့ဆောင်ရေး ကုန်ကျစရိတ် မြင့်တက်လာခြင်းက အမြတ်ငွေကို လျော့ကျစေနေသည့် အချက်ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l31.q030",
+      "lessonId": "n2.l31",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "課題解決のために田中アナリストが提案した方針はどれか。",
+      "choices": [
+        "配送拠点の集約と自動化によるコスト均衡の確保",
+        "オンライン事業からの即時撤退と実店舗への回帰",
+        "物流委託費用の全額顧客負担化",
+        "前年同期と同じ販売目標への引き下げ"
+      ],
+      "answer": "配送拠点の集約と自動化によるコスト均衡の確保",
+      "explanation": "Tanaka suggests consolidating hubs and adopting automation to balance costs.",
+      "explanationMy": "ပို့ဆောင်ရေး စခန်းများကို စုစည်းပြီး အလိုအလျောက် စနစ်ဖြင့် ကုန်ကျစရိတ် မျှခြေရအောင် ပြုလုပ်ခြင်းဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l31.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+};

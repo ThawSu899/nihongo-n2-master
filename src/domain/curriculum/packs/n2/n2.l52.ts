@@ -1,0 +1,1790 @@
+import { LessonPack } from '../../../models/types';
+
+export const n2l52Data: LessonPack = {
+  "id": "n2.l52",
+  "level": "N2",
+  "module": "N2 Mastery & Professional Japanese",
+  "number": 52,
+  "title": "N2 Lesson 52: Contextual Triggers & Opportunities (〜を契機に・〜を皮切りに・〜を機に)",
+  "description": "Mastery module focusing on Historical Turning Points, Series Premieres, and Personal Opportunities: transformative structural triggers (を契機に), serial chain reactions (を皮切りに), and opportunistic life milestones (を機に).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l52.v001",
+      "lessonId": "n2.l52",
+      "ja": "発端",
+      "kana": "ほったん",
+      "en": "origin / inception",
+      "my": "စတင်ဖြစ်ပွားရာ အစ",
+      "meaningMy": "စတင်ဖြစ်ပွားရာ အစ",
+      "meaningMyanmar": "စတင်ဖြစ်ပွားရာ အစ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l52.s001",
+      "kanjiIds": [
+        "n2.l52.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.v002",
+      "lessonId": "n2.l52",
+      "ja": "発祥",
+      "kana": "はっしょう",
+      "en": "origin / birthplace",
+      "my": "မူလစတင်ရာအရပ်",
+      "meaningMy": "မူလစတင်ရာအရပ်",
+      "meaningMyanmar": "မူလစတင်ရာအရပ်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l52.s002",
+      "kanjiIds": [
+        "n2.l52.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.v003",
+      "lessonId": "n2.l52",
+      "ja": "極端",
+      "kana": "きょくたん",
+      "en": "extreme / radical",
+      "my": "အစွန်းရောက်သော",
+      "meaningMy": "အစွန်းရောက်သော",
+      "meaningMyanmar": "အစွန်းရောက်သော",
+      "pos": "na-adj",
+      "exampleSentenceId": "n2.l52.s003",
+      "kanjiIds": [
+        "n2.l52.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.v004",
+      "lessonId": "n2.l52",
+      "ja": "端緒",
+      "kana": "たんしょ",
+      "en": "clue / inception",
+      "my": "အစပြုခြင်း / သဲလွန်စ",
+      "meaningMy": "အစပြုခြင်း / သဲလွန်စ",
+      "meaningMyanmar": "အစပြုခြင်း / သဲလွန်စ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l52.s004",
+      "kanjiIds": [
+        "n2.l52.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.v005",
+      "lessonId": "n2.l52",
+      "ja": "由緒",
+      "kana": "ゆいしょ",
+      "en": "history / pedigree",
+      "my": "ရှေးရိုးသမိုင်းကြောင်း",
+      "meaningMy": "ရှေးရိုးသမိုင်းကြောင်း",
+      "meaningMyanmar": "ရှေးရိုးသမိုင်းကြောင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l52.s005",
+      "kanjiIds": [
+        "n2.l52.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.v006",
+      "lessonId": "n2.l52",
+      "ja": "情緒",
+      "kana": "じょうちょ",
+      "en": "sentiment / atmosphere",
+      "my": "ခံစားချက်ရသ",
+      "meaningMy": "ခံစားချက်ရသ",
+      "meaningMyanmar": "ခံစားချက်ရသ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l52.s006",
+      "kanjiIds": [
+        "n2.l52.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.v007",
+      "lessonId": "n2.l52",
+      "ja": "契機",
+      "kana": "けいき",
+      "en": "opportunity / turning point",
+      "my": "အပြောင်းအလဲဖြစ်စေသောအကြောင်း",
+      "meaningMy": "အပြောင်းအလဲဖြစ်စေသောအကြောင်း",
+      "meaningMyanmar": "အပြောင်းအလဲဖြစ်စေသောအကြောင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l52.s007",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.v008",
+      "lessonId": "n2.l52",
+      "ja": "転機",
+      "kana": "てんき",
+      "en": "turning point",
+      "my": "ဘဝအလှည့်အပြောင်း",
+      "meaningMy": "ဘဝအလှည့်အပြောင်း",
+      "meaningMyanmar": "ဘဝအလှည့်အပြောင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l52.s008",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.v009",
+      "lessonId": "n2.l52",
+      "ja": "公演",
+      "kana": "こうえん",
+      "en": "public performance",
+      "my": "လူထုရှေ့ ကပြဖျော်ဖြေပွဲ",
+      "meaningMy": "လူထုရှေ့ ကပြဖျော်ဖြေပွဲ",
+      "meaningMyanmar": "လူထုရှေ့ ကပြဖျော်ဖြေပွဲ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l52.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.v010",
+      "lessonId": "n2.l52",
+      "ja": "躍進",
+      "kana": "やくしん",
+      "en": "rapid progress / breakthrough",
+      "my": "ခုန်ပျံတိုးတက်ခြင်း",
+      "meaningMy": "ခုန်ပျံတိုးတက်ခြင်း",
+      "meaningMyanmar": "ခုန်ပျံတိုးတက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l52.s010",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.v011",
+      "lessonId": "n2.l52",
+      "ja": "改革",
+      "kana": "かいかく",
+      "en": "reform / restructuring",
+      "my": "ပြုပြင်ပြောင်းလဲရေး",
+      "meaningMy": "ပြုပြင်ပြောင်းလဲရေး",
+      "meaningMyanmar": "ပြုပြင်ပြောင်းလဲရေး",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l52.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.v012",
+      "lessonId": "n2.l52",
+      "ja": "拡大",
+      "kana": "かくだい",
+      "en": "expansion / enlargement",
+      "my": "ချဲ့ထွင်ခြင်း",
+      "meaningMy": "ချဲ့ထွင်ခြင်း",
+      "meaningMyanmar": "ချဲ့ထွင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l52.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l52.k001",
+      "lessonId": "n2.l52",
+      "char": "発",
+      "meaning": "Depart / Emit / Start / Publish",
+      "meaningMy": "စတင်သည် / ထွက်ခွာသည် / ထုတ်လွှင့်သည်",
+      "meaningMyanmar": "စတင်သည် / ထွက်ခွာသည် / ထုတ်လွှင့်သည်",
+      "onyomi": [
+        "ハツ",
+        "ホツ"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "発展",
+          "reading": "はってん",
+          "meaning": "development / expansion",
+          "meaningMy": "ဖွံ့ဖြိုးတိုးတက်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "発端",
+          "reading": "ほったん",
+          "meaning": "origin / outbreak",
+          "meaningMy": "စတင်ဖြစ်ပွားရာ အစ",
+          "preview": true
+        },
+        {
+          "word": "発祥",
+          "reading": "はっしょう",
+          "meaning": "birthplace / origin",
+          "meaningMy": "မူလစတင်ရာအရပ်",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l52.s001"
+      ],
+      "components": [
+        "癶",
+        "弓",
+        "殳"
+      ],
+      "strokes": 9,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.k002",
+      "lessonId": "n2.l52",
+      "char": "端",
+      "meaning": "Edge / Tip / Origin / Extremity",
+      "meaningMy": "အစွန်း / အစ / အဖျား / သဲလွန်စ",
+      "meaningMyanmar": "အစွန်း / အစ / အဖျား / သဲလွန်စ",
+      "onyomi": [
+        "タン"
+      ],
+      "kunyomi": [
+        "はし",
+        "は",
+        "はた"
+      ],
+      "exampleVocab": [
+        {
+          "word": "極端",
+          "reading": "きょくたん",
+          "meaning": "extreme / radical",
+          "meaningMy": "အစွန်းရောက်သော",
+          "preview": false
+        },
+        {
+          "word": "端緒",
+          "reading": "たんしょ",
+          "meaning": "clue / inception",
+          "meaningMy": "အစပြုခြင်း / သဲလွန်စ",
+          "preview": true
+        },
+        {
+          "word": "先端",
+          "reading": "せんたん",
+          "meaning": "vanguard / tip",
+          "meaningMy": "ခေတ်ရှေ့ပြေး ထိပ်တန်း",
+          "preview": false
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l52.s002"
+      ],
+      "components": [
+        "立",
+        "耑"
+      ],
+      "strokes": 14,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.k003",
+      "lessonId": "n2.l52",
+      "char": "緒",
+      "meaning": "Cord / Beginning / Inception / Clue",
+      "meaningMy": "ကြိုး / အစပျိုးခြင်း / သဲလွန်စ / စိတ်ခံစားမှု",
+      "meaningMyanmar": "ကြိုး / အစပျိုးခြင်း / သဲလွန်စ / စိတ်ခံစားမှု",
+      "onyomi": [
+        "ショ",
+        "チョ"
+      ],
+      "kunyomi": [
+        "お"
+      ],
+      "exampleVocab": [
+        {
+          "word": "端緒",
+          "reading": "たんしょ",
+          "meaning": "inception / beginning",
+          "meaningMy": "စတင်ရာအစ",
+          "preview": false
+        },
+        {
+          "word": "由緒",
+          "reading": "ゆいしょ",
+          "meaning": "history / pedigree",
+          "meaningMy": "ရှေးရိုးသမိုင်းကြောင်း",
+          "preview": false
+        },
+        {
+          "word": "情緒",
+          "reading": "じょうちょ",
+          "meaning": "sentiment / atmosphere",
+          "meaningMy": "ခံစားချက်ရသ",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l52.s003"
+      ],
+      "components": [
+        "糸",
+        "者"
+      ],
+      "strokes": 14,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l52.g001",
+      "lessonId": "n2.l52",
+      "pattern": "〜を契機に（して）",
+      "meaning": "Taking... as an opportunity / Turning point to trigger major change",
+      "meaningMy": "...ကို အပြောင်းအလဲဖြစ်စေသော အခွင့်အရေးအဖြစ် အသုံးချ၍",
+      "meaningMyanmar": "...ကို အပြောင်းအလဲဖြစ်စေသော အခွင့်အရေးအဖြစ် အသုံးချ၍",
+      "formation": "N + を契機に / を契機として",
+      "explanation": {
+        "en": "Highlights an objective, historical, or institutional turning point (often a crisis, reform, or incident) that triggered major systemic transformation.",
+        "my": "သမိုင်းဝင် ဖြစ်ရပ် သို့မဟုတ် ကြီးမားသော ပြုပြင်ပြောင်းလဲမှုတစ်ခုကို အစပျိုးကာ ကြီးမားသော အပြောင်းအလဲများ ဖြစ်ပေါ်လာသည့်အခါ သုံးသည်။"
+      },
+      "explanationMy": "သမိုင်းဝင် ဖြစ်ရပ် သို့မဟုတ် ကြီးမားသော ပြုပြင်ပြောင်းလဲမှုတစ်ခုကို အစပျိုးကာ ကြီးမားသော အပြောင်းအလဲများ ဖြစ်ပေါ်လာသည့်အခါ သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l52.s001",
+          "note": "〜を契機に（して） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l52.s002",
+          "note": "〜を契機に（して） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l52.s003",
+          "note": "〜を契機に（して） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l52.s010",
+          "note": "〜を契機に（して） usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l52.g001",
+        "n2.l52.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜を契機に（して）."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "前回の金融危機［　］、政府は金融監督体制の抜本的改革に着手した。",
+      "clozeTarget": "を契機に",
+      "clozeHint": "Taking as turning point (o keiki ni)",
+      "acceptableSynonyms": [
+        "〜をきっかけに",
+        "〜を機に"
+      ],
+      "nuanceExplanationMy": "သမိုင်းဆိုင်ရာ သို့မဟုတ် လူမှုရေးဆိုင်ရာ လေးနက်သော အချိုးအကွေ့တွင် သုံးသည်။"
+    },
+    {
+      "id": "n2.l52.g002",
+      "lessonId": "n2.l52",
+      "pattern": "〜を皮切りに（して）",
+      "meaning": "Starting with... / Kicking off with... (followed by a series of similar actions)",
+      "meaningMy": "...ဖြင့် အစပြုကာ / ...ကို ပထမဆုံးအဖြစ် စတင်၍ (ဆက်တိုက် ပြုလုပ်သွားခြင်း)",
+      "meaningMyanmar": "...ဖြင့် အစပြုကာ / ...ကို ပထမဆုံးအဖြစ် စတင်၍ (ဆက်တိုက် ပြုလုပ်သွားခြင်း)",
+      "formation": "N + を皮切りに / を皮切りにして",
+      "explanation": {
+        "en": "Denotes that a single major event serves as the premier opening, immediately followed by an escalating succession of identical or related activities in various locations.",
+        "my": "ပထမဆုံး တစ်ခုကို စတင်ဖွင့်လှစ်ပြီးနောက် အလားတူ လုပ်ငန်းများကို အခြားနေရာများတွင် ဆက်တိုက် ပြုလုပ်သွားမည်ဖြစ်ကြောင်း ပြသည်။"
+      },
+      "explanationMy": "ပထမဆုံး တစ်ခုကို စတင်ဖွင့်လှစ်ပြီးနောက် အလားတူ လုပ်ငန်းများကို အခြားနေရာများတွင် ဆက်တိုက် ပြုလုပ်သွားမည်ဖြစ်ကြောင်း ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l52.s004",
+          "note": "〜を皮切りに（して） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l52.s005",
+          "note": "〜を皮切りに（して） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l52.s006",
+          "note": "〜を皮切りに（して） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l52.s011",
+          "note": "〜を皮切りに（して） usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l52.g001",
+        "n2.l52.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜を皮切りに（して）."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "東京ドーム公演［　］、全国１０都市を巡るコンサートツアーが始まった。",
+      "clozeTarget": "を皮切りに",
+      "clozeHint": "Kicking off with (o kawakiri ni)",
+      "acceptableSynonyms": [
+        "〜をはじめとして",
+        "〜を最初として"
+      ],
+      "nuanceExplanationMy": "ဖျော်ဖြေပွဲ၊ အရောင်းပြပွဲ စသည့် ဆက်တိုက်ဖြစ်ရပ်များတွင် အသုံးများသည်။"
+    },
+    {
+      "id": "n2.l52.g003",
+      "lessonId": "n2.l52",
+      "pattern": "〜を機に（して）",
+      "meaning": "Taking the occasion of... (personal milestone / opportune moment)",
+      "meaningMy": "...ကို အခွင့်ကောင်းယူ၍ / ...ကြုံခိုက်တွင် (ဘဝ မှတ်တိုင်များ)",
+      "meaningMyanmar": "...ကို အခွင့်ကောင်းယူ၍ / ...ကြုံခိုက်တွင် (ဘဝ မှတ်တိုင်များ)",
+      "formation": "N + を機に / を機として",
+      "explanation": {
+        "en": "Used when an individual or organization utilizes a life milestone, anniversary, or change of circumstance (e.g., marriage, graduation, moving) to start something new.",
+        "my": "မင်္ဂလာဆောင်ခြင်း၊ အိမ်ပြောင်းခြင်း၊ ဘွဲ့ရခြင်း စသည့် ဘဝမှတ်တိုင်တစ်ခုကို အကြောင်းပြု၍ အလေ့အထသစ် စတင်ရာတွင် သုံးသည်။"
+      },
+      "explanationMy": "မင်္ဂလာဆောင်ခြင်း၊ အိမ်ပြောင်းခြင်း၊ ဘွဲ့ရခြင်း စသည့် ဘဝမှတ်တိုင်တစ်ခုကို အကြောင်းပြု၍ အလေ့အထသစ် စတင်ရာတွင် သုံးသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l52.s007",
+          "note": "〜を機に（して） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l52.s008",
+          "note": "〜を機に（して） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l52.s009",
+          "note": "〜を機に（して） usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l52.s012",
+          "note": "〜を機に（して） usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l52.g001",
+        "n2.l52.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜を機に（して）."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "新社屋への移転［　］、社内ペーパーレス化を一気に推し進めた。",
+      "clozeTarget": "を機に",
+      "clozeHint": "Taking the occasion of (o ki ni)",
+      "acceptableSynonyms": [
+        "〜をきっかけに",
+        "〜を契機に"
+      ],
+      "nuanceExplanationMy": "တစ်ဦးချင်းစီ၏ ဘဝမှတ်တိုင် သို့မဟုတ် ကုမ္ပဏီ အပြောင်းအလဲများတွင် အသုံးများသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l52.s001",
+      "lessonId": "n2.l52",
+      "ja": "昨年の不祥事の発端を契機に、企業統治の抜本的な改革を断行した。",
+      "kana": "さくねんのふしょうじのほったんをけいきに、きぎょうとうちのばっぽんてきなのかいかくをだんこうした。",
+      "translation": {
+        "en": "Taking the origin of last year's scandal as a turning point, we decisively executed radical corporate governance reforms.",
+        "my": "မနှစ်က အရှုပ်တော်ပုံ၏ အစပြုမှုကို အပြောင်းအလဲ အခွင့်အရေးအဖြစ် အသုံးချ၍ လုပ်ငန်းစီမံအုပ်ချုပ်မှု၏ အခြေခံကျသော ပြုပြင်ပြောင်းလဲမှုကို ပြတ်ပြတ်သားသား ဆောင်ရွက်ခဲ့သည်။"
+      },
+      "translationMy": "မနှစ်က အရှုပ်တော်ပုံ၏ အစပြုမှုကို အပြောင်းအလဲ အခွင့်အရေးအဖြစ် အသုံးချ၍ လုပ်ငန်းစီမံအုပ်ချုပ်မှု၏ အခြေခံကျသော ပြုပြင်ပြောင်းလဲမှုကို ပြတ်ပြတ်သားသား ဆောင်ရွက်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l52.v001",
+        "n2.l52.v007",
+        "n2.l52.v011"
+      ],
+      "grammarIds": [
+        "n2.l52.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.s002",
+      "lessonId": "n2.l52",
+      "ja": "病気で倒れたことを契機に、健康管理への意識が劇的に変化した。",
+      "kana": "びょうきでたおれたことをけいきに、けんこうかんりへのいしきがげきてきにへんかした。",
+      "translation": {
+        "en": "Taking falling ill as a turning point, my awareness of health management changed dramatically.",
+        "my": "ရောဂါဖြင့် လဲကျခဲ့ရခြင်းကို အလှည့်အပြောင်းအဖြစ် အသုံးချ၍ ကျန်းမာရေး ထိန်းသိမ်းမှုဆိုင်ရာ အသိစိတ်မှာ သိသိသာသာ ပြောင်းလဲသွားခဲ့သည်။"
+      },
+      "translationMy": "ရောဂါဖြင့် လဲကျခဲ့ရခြင်းကို အလှည့်အပြောင်းအဖြစ် အသုံးချ၍ ကျန်းမာရေး ထိန်းသိမ်းမှုဆိုင်ရာ အသိစိတ်မှာ သိသိသာသာ ပြောင်းလဲသွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l52.v007",
+        "n2.l52.v008"
+      ],
+      "grammarIds": [
+        "n2.l52.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.s003",
+      "lessonId": "n2.l52",
+      "ja": "新技術の開発成功を契機に、わが社は世界市場への躍進を果たした。",
+      "kana": "しんぎじゅつのかいはつせいこうをけいきに、わがしゃはせかいしじょうへのやくしんをはたした。",
+      "translation": {
+        "en": "Taking the success in developing new technology as a trigger, our company achieved a breakthrough into global markets.",
+        "my": "နည်းပညာသစ် တီထွင်အောင်မြင်မှုကို အခွင့်အရေးအဖြစ် အသုံးချကာ ကျွန်ုပ်တို့ကုမ္ပဏီသည် ကမ္ဘာ့ဈေးကွက်သို့ ခုန်ပျံတိုးတက်မှုကို ဖော်ဆောင်နိုင်ခဲ့သည်။"
+      },
+      "translationMy": "နည်းပညာသစ် တီထွင်အောင်မြင်မှုကို အခွင့်အရေးအဖြစ် အသုံးချကာ ကျွန်ုပ်တို့ကုမ္ပဏီသည် ကမ္ဘာ့ဈေးကွက်သို့ ခုန်ပျံတိုးတက်မှုကို ဖော်ဆောင်နိုင်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l52.v010"
+      ],
+      "grammarIds": [
+        "n2.l52.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.s004",
+      "lessonId": "n2.l52",
+      "ja": "東京ドームでの公演を皮切りに、全国主要都市を巡るツアーが開催される。",
+      "kana": "とうきょうドームでのこうえんをかわきりに、ぜんこくしゅようとしをめぐるツアーがかいさいされる。",
+      "translation": {
+        "en": "Starting with the performance at Tokyo Dome, a nationwide tour visiting major cities will be held.",
+        "my": "တိုကျိုဒုမ်း ဖျော်ဖြေပွဲဖြင့် စတင်ကာ တစ်နိုင်ငံလုံးရှိ အဓိက မြို့ကြီးများသို့ လှည့်လည်မည့် ဖျော်ဖြေရေးခရီးစဉ်ကို ကျင်းပမည် ဖြစ်သည်။"
+      },
+      "translationMy": "တိုကျိုဒုမ်း ဖျော်ဖြေပွဲဖြင့် စတင်ကာ တစ်နိုင်ငံလုံးရှိ အဓိက မြို့ကြီးများသို့ လှည့်လည်မည့် ဖျော်ဖြေရေးခရီးစဉ်ကို ကျင်းပမည် ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l52.v009"
+      ],
+      "grammarIds": [
+        "n2.l52.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.s005",
+      "lessonId": "n2.l52",
+      "ja": "一号店の開店を皮切りに、今年度中にさらに五十店舗を拡大出店する計画だ。",
+      "kana": "いちごうてんのかいてんをかわきりに、こんねんどじゅうにさらにごじゅってんぽをかくだいしゅってんするけいかくだ。",
+      "translation": {
+        "en": "Kicking off with the opening of store number one, the plan is to aggressively expand by opening fifty more stores this fiscal year.",
+        "my": "ပထမဆုံး ဆိုင်ခွဲ ဖွင့်လှစ်ခြင်းဖြင့် စတင်ကာ ယခုဘဏ္ဍာနှစ်အတွင်း နောက်ထပ် ဆိုင်ခွဲ ၅၀ အထိ တိုးချဲ့ဖွင့်လှစ်သွားရန် စီမံထားသည်။"
+      },
+      "translationMy": "ပထမဆုံး ဆိုင်ခွဲ ဖွင့်လှစ်ခြင်းဖြင့် စတင်ကာ ယခုဘဏ္ဍာနှစ်အတွင်း နောက်ထပ် ဆိုင်ခွဲ ၅၀ အထိ တိုးချဲ့ဖွင့်လှစ်သွားရန် စီမံထားသည်။",
+      "vocabIds": [
+        "n2.l52.v012"
+      ],
+      "grammarIds": [
+        "n2.l52.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.s006",
+      "lessonId": "n2.l52",
+      "ja": "今回の抗議運動を皮切りに、全国各地で法改正を求めるデモが相次いだ。",
+      "kana": "こんかいのこうぎうんどうをかわきりに、ぜんこくかくちでほうかいせいをもとめるデモがあいついだ。",
+      "translation": {
+        "en": "Starting with this protest movement, demonstrations demanding legal reform occurred in rapid succession nationwide.",
+        "my": "ယခု ကန့်ကွက်ဆန္ဒပြမှုဖြင့် အစပြုကာ တစ်နိုင်ငံလုံး အနှံ့အပြားတွင် ဥပဒေပြင်ဆင်ရေး တောင်းဆိုသည့် ဆန္ဒပြမှုများ ဆက်တိုက် ဖြစ်ပွားခဲ့သည်။"
+      },
+      "translationMy": "ယခု ကန့်ကွက်ဆန္ဒပြမှုဖြင့် အစပြုကာ တစ်နိုင်ငံလုံး အနှံ့အပြားတွင် ဥပဒေပြင်ဆင်ရေး တောင်းဆိုသည့် ဆန္ဒပြမှုများ ဆက်တိုက် ဖြစ်ပွားခဲ့သည်။",
+      "vocabIds": [
+        "n2.l52.v011"
+      ],
+      "grammarIds": [
+        "n2.l52.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.s007",
+      "lessonId": "n2.l52",
+      "ja": "長男の大学進学を機に、広い郊外の一戸建てに引っ越すことに決めた。",
+      "kana": "ちょうなんのだいがくしんがくをきに、ひろいこうがいのいっこだてにひっこすことにきめた。",
+      "translation": {
+        "en": "Taking the occasion of the eldest son entering university, we decided to relocate to a spacious suburban house.",
+        "my": "သားကြီး တက္ကသိုလ်တက်ရောက်ခြင်းကို အခွင့်ကြုံခိုက်အဖြစ် အသုံးချ၍ ကျယ်ဝန်းသော မြို့ပြင် လုံးချင်းအိမ်သို့ ပြောင်းရွှေ့ရန် ဆုံးဖြတ်ခဲ့သည်။"
+      },
+      "translationMy": "သားကြီး တက္ကသိုလ်တက်ရောက်ခြင်းကို အခွင့်ကြုံခိုက်အဖြစ် အသုံးချ၍ ကျယ်ဝန်းသော မြို့ပြင် လုံးချင်းအိမ်သို့ ပြောင်းရွှေ့ရန် ဆုံးဖြတ်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l52.v008"
+      ],
+      "grammarIds": [
+        "n2.l52.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.s008",
+      "lessonId": "n2.l52",
+      "ja": "定年退職を機に、長年の夢であった蕎麦屋の開業に乗り出した。",
+      "kana": "ていねんたいしょくをきに、ながねんのゆめであったそばやのかいぎょうにのりだした。",
+      "translation": {
+        "en": "Taking the milestone of mandatory retirement, he embarked on opening a soba restaurant, his lifelong dream.",
+        "my": "အငြိမ်းစားယူခြင်းကို အခွင့်အခါကောင်းအဖြစ် အသုံးချ၍ နှစ်ပေါင်းများစွာ အိပ်မက်ဖြစ်ခဲ့သော ခေါက်ဆွဲဆိုင် ဖွင့်လှစ်ခြင်းကို စတင်ခဲ့သည်။"
+      },
+      "translationMy": "အငြိမ်းစားယူခြင်းကို အခွင့်အခါကောင်းအဖြစ် အသုံးချ၍ နှစ်ပေါင်းများစွာ အိပ်မက်ဖြစ်ခဲ့သော ခေါက်ဆွဲဆိုင် ဖွင့်လှစ်ခြင်းကို စတင်ခဲ့သည်။",
+      "vocabIds": [
+        "n2.l52.v008"
+      ],
+      "grammarIds": [
+        "n2.l52.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.s009",
+      "lessonId": "n2.l52",
+      "ja": "由緒ある旧本社の建て替えを機に、企業ロゴとブランドイメージを一新した。",
+      "kana": "ゆいしょあるきゅうほんしゃのたてかえをきに、きぎょうロゴとブランドイメージをいっしんした。",
+      "translation": {
+        "en": "Taking the opportunity of rebuilding our historic former headquarters, we overhauled our corporate logo and brand image.",
+        "my": "ရှေးရိုးသမိုင်းကြောင်းရှိသော ရုံးချုပ်ဟောင်း ပြန်လည်တည်ဆောက်ခြင်းကို အခွင့်ကောင်းယူ၍ ကုမ္ပဏီတံဆိပ်နှင့် အမှတ်တံဆိပ်ပုံရိပ်ကို အသစ်တဖန် ပြောင်းလဲခဲ့သည်။"
+      },
+      "translationMy": "ရှေးရိုးသမိုင်းကြောင်းရှိသော ရုံးချုပ်ဟောင်း ပြန်လည်တည်ဆောက်ခြင်းကို အခွင့်ကောင်းယူ၍ ကုမ္ပဏီတံဆိပ်နှင့် အမှတ်တံဆိပ်ပုံရိပ်ကို အသစ်တဖန် ပြောင်းလဲခဲ့သည်။",
+      "vocabIds": [
+        "n2.l52.v005"
+      ],
+      "grammarIds": [
+        "n2.l52.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.s010",
+      "lessonId": "n2.l52",
+      "ja": "日本文化の発祥地を訪れることで、古都ならではの風情と情緒を深く味わった。",
+      "kana": "にほんぶんかのはっしょうちをおとずれることで、ことならではのふぜいとじょうちょをふかくあじわった。",
+      "translation": {
+        "en": "By visiting the birthplace of Japanese culture, we deeply savored the atmosphere and sentiment unique to ancient capitals.",
+        "my": "ဂျပန်ယဉ်ကျေးမှု စတင်ရာဒေသသို့ သွားရောက်လည်ပတ်ခြင်းဖြင့် ရှေးဟောင်းမြို့တော်၏ သီးသန့် အငွေ့အသက်နှင့် ခံစားချက်ရသကို နက်ရှိုင်းစွာ ခံစားခဲ့ရသည်။"
+      },
+      "translationMy": "ဂျပန်ယဉ်ကျေးမှု စတင်ရာဒေသသို့ သွားရောက်လည်ပတ်ခြင်းဖြင့် ရှေးဟောင်းမြို့တော်၏ သီးသန့် အငွေ့အသက်နှင့် ခံစားချက်ရသကို နက်ရှိုင်းစွာ ခံစားခဲ့ရသည်။",
+      "vocabIds": [
+        "n2.l52.v002",
+        "n2.l52.v006"
+      ],
+      "grammarIds": [
+        "n2.l52.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.s011",
+      "lessonId": "n2.l52",
+      "ja": "極端な意見の対立を回避し、平和的対話の端緒を開くことが最優先だ。",
+      "kana": "きょくたんないけんのたいりつをかいひし、へいわてきたいわのたんしょをひらくことがさいゆうせんだ。",
+      "translation": {
+        "en": "Averting conflicts of extreme opinions and opening the inception of peaceful dialogue is the top priority.",
+        "my": "အစွန်းရောက်သော သဘောထား ကွဲလွဲမှုများကို ရှောင်ရှားပြီး ငြိမ်းချမ်းသော ဆွေးနွေးမှု၏ အစပြုခြင်းကို ဖွင့်လှစ်ရန်မှာ အဓိက ဦးစားပေး ဖြစ်သည်။"
+      },
+      "translationMy": "အစွန်းရောက်သော သဘောထား ကွဲလွဲမှုများကို ရှောင်ရှားပြီး ငြိမ်းချမ်းသော ဆွေးနွေးမှု၏ အစပြုခြင်းကို ဖွင့်လှစ်ရန်မှာ အဓိက ဦးစားပေး ဖြစ်သည်။",
+      "vocabIds": [
+        "n2.l52.v003",
+        "n2.l52.v004"
+      ],
+      "grammarIds": [
+        "n2.l52.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l52.s012",
+      "lessonId": "n2.l52",
+      "ja": "人生の大きな転機を機に、自らの生き方を根本から見つめ直す人が増えている。",
+      "kana": "じんせのおおきなてんきをきに、みずからのいきかたをこんぽんからみつめなおすひとがふえている。",
+      "translation": {
+        "en": "Taking major life turning points as occasions, people reconsidering their way of living from the fundamentals are increasing.",
+        "my": "ဘဝ၏ ကြီးမားသော အလှည့်အပြောင်းကို အခွင့်ကောင်းယူ၍ မိမိ၏ ရှင်သန်နေထိုင်မှုပုံစံကို အခြေခံမှစ၍ ပြန်လည်သုံးသပ်သူများ များပြားလာနေသည်။"
+      },
+      "translationMy": "ဘဝ၏ ကြီးမားသော အလှည့်အပြောင်းကို အခွင့်ကောင်းယူ၍ မိမိ၏ ရှင်သန်နေထိုင်မှုပုံစံကို အခြေခံမှစ၍ ပြန်လည်သုံးသပ်သူများ များပြားလာနေသည်။",
+      "vocabIds": [
+        "n2.l52.v008"
+      ],
+      "grammarIds": [
+        "n2.l52.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l52.r001",
+    "lessonId": "n2.l52",
+    "title": "産業革命の端緒と社会構造の歴史的転換",
+    "level": "N2",
+    "text": "歴史を振り返ると、蒸気機関の発明を契機に人類は近代産業社会へと大きく舵を切った。イギリスにおける綿織物産業の技術革新を皮切りに、生産力の爆発的増大はヨーロッパ全土、さらには世界規模へと拡大した。また、個人の生活においても、近代都市への移住を機に伝統的な共同体から個人の自立へと価値観が大きくシフトした。技術の進展は情緒豊かな伝統文化を破壊するという極端な批判もあるが、新たな文明の端緒を開いた功績は否定できない。過去の歴史的転機を学び、未来のイノベーションへとつなぐことが肝要である。",
+    "kanaText": "れきしをふりかえると、じょうききかんのはつめいをけいきにじんるいはきんだいさんぎょうしゃかいへとおおきなかじをきった。イギリスにおけるめんおりものさんぎょうのぎじゅつかくしんをかわきりに、せいさんりょくのばくはつてきぞうだいはヨーロッパぜんど、さらにはせかいきぼへとかくだいした。また、こじんのせいかつにおいても、きんだいとしへのいじゅうをきにでんとうてきなきょうどうたいからこじんのじりつへとかちかんがおおきくシフトした。ぎじゅつのしんてんはじょうちょゆたかなでんとうぶんかをはかいするというきょくたんなひはんもあるが、あらたなぶんめいのたんしょをひらいたこうせきはひていできない。かこのれきしてきてんきをまなび、みらいのイノベーションへとつなぐことがかんようである。",
+    "translation": "သမိုင်းကြောင်းကို ပြန်လည်သုံးသပ်ကြည့်ပါက ရေနွေးငွေ့အင်ဂျင် တီထွင်နိုင်ခဲ့မှုကို အလှည့်အပြောင်းအဖြစ် အသုံးချကာ လူသားမျိုးနွယ်သည် ခေတ်သစ် စက်မှုလူ့ဘောင်သို့ ကြီးမားစွာ ဦးတည်လှည့်ပြောင်းခဲ့သည်။ ဗြိတိန်နိုင်ငံရှိ ချည်မျှင်နှင့် အထည်အလိပ်လုပ်ငန်း နည်းပညာဆန်းသစ်မှုကို အစပျိုးကာ ထုတ်လုပ်မှုစွမ်းအား ပေါက်ကွဲထွက်မတတ် တိုးတက်လာမှုသည် ဥရောပတစ်ခွင်သာမက ကမ္ဘာ့အတိုင်းအတာအထိ ကျယ်ပြန့်လာခဲ့သည်။ ထို့ပြင် လူတစ်ဦးချင်းစီ၏ နေထိုင်မှုဘဝတွင်လည်း ခေတ်သစ်မြို့ကြီးများသို့ ရွှေ့ပြောင်းအခြေချခြင်းကို အခွင့်အခါကောင်းအဖြစ် အသုံးချ၍ ရိုးရာအစုအဖွဲ့များမှ လူတစ်ဦးချင်းစီ၏ ကိုယ်ပိုင်ရပ်တည်နိုင်မှုဆီသို့ တန်ဖိုးထားမှုများ ကြီးမားစွာ ကူးပြောင်းသွားခဲ့သည်။ နည်းပညာ တိုးတက်မှုသည် ရသကြွယ်ဝသော ရိုးရာယဉ်ကျေးမှုများကို ဖျက်ဆီးပစ်သည်ဟူသော အစွန်းရောက် ဝေဖန်မှုများလည်း ရှိသော်လည်း ယဉ်ကျေးမှုအသစ်၏ အစပြုခြင်းကို ဖွင့်လှစ်ပေးခဲ့သည့် စွမ်းဆောင်ရည်ကို မငြင်းပယ်နိုင်ပေ။ အတိတ်မှ သမိုင်းဝင် အလှည့်အပြောင်းများကို လေ့လာပြီး အနာဂတ် ဆန်းသစ်တီထွင်မှုများနှင့် ချိတ်ဆက်ရန်မှာ အလွန်အရေးကြီးပါသည်။",
+    "translationMy": "သမိုင်းကြောင်းကို ပြန်လည်သုံးသပ်ကြည့်ပါက ရေနွေးငွေ့အင်ဂျင် တီထွင်နိုင်ခဲ့မှုကို အလှည့်အပြောင်းအဖြစ် အသုံးချကာ လူသားမျိုးနွယ်သည် ခေတ်သစ် စက်မှုလူ့ဘောင်သို့ ကြီးမားစွာ ဦးတည်လှည့်ပြောင်းခဲ့သည်။ ဗြိတိန်နိုင်ငံရှိ ချည်မျှင်နှင့် အထည်အလိပ်လုပ်ငန်း နည်းပညာဆန်းသစ်မှုကို အစပျိုးကာ ထုတ်လုပ်မှုစွမ်းအား ပေါက်ကွဲထွက်မတတ် တိုးတက်လာမှုသည် ဥရောပတစ်ခွင်သာမက ကမ္ဘာ့အတိုင်းအတာအထိ ကျယ်ပြန့်လာခဲ့သည်။ ထို့ပြင် လူတစ်ဦးချင်းစီ၏ နေထိုင်မှုဘဝတွင်လည်း ခေတ်သစ်မြို့ကြီးများသို့ ရွှေ့ပြောင်းအခြေချခြင်းကို အခွင့်အခါကောင်းအဖြစ် အသုံးချ၍ ရိုးရာအစုအဖွဲ့များမှ လူတစ်ဦးချင်းစီ၏ ကိုယ်ပိုင်ရပ်တည်နိုင်မှုဆီသို့ တန်ဖိုးထားမှုများ ကြီးမားစွာ ကူးပြောင်းသွားခဲ့သည်။ နည်းပညာ တိုးတက်မှုသည် ရသကြွယ်ဝသော ရိုးရာယဉ်ကျေးမှုများကို ဖျက်ဆီးပစ်သည်ဟူသော အစွန်းရောက် ဝေဖန်မှုများလည်း ရှိသော်လည်း ယဉ်ကျေးမှုအသစ်၏ အစပြုခြင်းကို ဖွင့်လှစ်ပေးခဲ့သည့် စွမ်းဆောင်ရည်ကို မငြင်းပယ်နိုင်ပေ။ အတိတ်မှ သမိုင်းဝင် အလှည့်အပြောင်းများကို လေ့လာပြီး အနာဂတ် ဆန်းသစ်တီထွင်မှုများနှင့် ချိတ်ဆက်ရန်မှာ အလွန်အရေးကြီးပါသည်။",
+    "questionIds": [
+      "n2.l52.q025",
+      "n2.l52.q026",
+      "n2.l52.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "舵を切る",
+        "reading": "かじをきる",
+        "meaning": "steer a course / make a turn",
+        "meaningMy": "steer a course / make a turn",
+        "meaningMyanmar": "steer a course / make a turn"
+      },
+      {
+        "term": "綿織物",
+        "reading": "めんおりもの",
+        "meaning": "cotton textiles",
+        "meaningMy": "cotton textiles",
+        "meaningMyanmar": "cotton textiles"
+      },
+      {
+        "term": "肝要",
+        "reading": "かんよう",
+        "meaning": "essential / paramount",
+        "meaningMy": "essential / paramount",
+        "meaningMyanmar": "essential / paramount"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l52.lis001",
+    "lessonId": "n2.l52",
+    "title": "新ブランドの全国展開と創業記念フェア",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "企画役員",
+      "販売促進課長"
+    ],
+    "transcript": "企画役員: 新ブランドの立ち上げですが、創業五十周年を契機に全社を挙げて大々的に推進したい。\n販売促進課長: 賛成です。旗艦店での限定イベントを皮切りに、全国の主要百貨店で順次ポップアップストアを展開してまいります。\n企画役員: 顧客にとっても、今回のリニューアルを機にブランドへの愛着を深めてもらえるような魅力的な仕掛けを頼むよ。\n販売促進課長: はい！特別会員プログラムも同時に刷新し、長期的なファンづくりに繋げます。",
+    "translation": "企画役員: အမှတ်တံဆိပ်သစ် စတင်ထူထောင်ခြင်းနှင့် ပတ်သက်၍ နှစ် ၅၀ ပြည့် နှစ်ပတ်လည်ကို အခွင့်အရေးအဖြစ် အသုံးချကာ ကုမ္ပဏီတစ်ခုလုံး အတိုင်းအတာဖြင့် ကြီးကြီးမားမား ဖော်ဆောင်လိုပါသည်။\n販売促進課長: သဘောတူပါသည်။ ပင်မဆိုင်ကြီးရှိ သီးသန့်ပွဲဖြင့် စတင်ကာ တစ်နိုင်ငံလုံးရှိ အဓိက ကုန်တိုက်ကြီးများတွင် ယာယီအရောင်းဆိုင်များကို ဆက်တိုက် ဖွင့်လှစ်သွားပါမည်။\n企画役員: ဖောက်သည်များအတွက်လည်း ယခု အသစ်ပြင်ဆင်မှုကို အခွင့်ကောင်းယူ၍ အမှတ်တံဆိပ်အပေါ် ပိုမိုချစ်ခင်တွယ်တာလာစေမည့် ဆွဲဆောင်မှုရှိသော အစီအစဉ်များကို ပြုလုပ်ပေးပါ။\n販売促進課長: ဟုတ်ကဲ့ပါ။ အထူးအသင်းဝင် အစီအစဉ်ကိုလည်း တစ်ပြိုင်နက်တည်း အသစ်ပြင်ဆင်ကာ ရေရှည် ပရိသတ်များ တည်ဆောက်နိုင်ရေး ချိတ်ဆက်ဆောင်ရွက်ပါမည်။",
+    "translationMy": "企画役員: အမှတ်တံဆိပ်သစ် စတင်ထူထောင်ခြင်းနှင့် ပတ်သက်၍ နှစ် ၅၀ ပြည့် နှစ်ပတ်လည်ကို အခွင့်အရေးအဖြစ် အသုံးချကာ ကုမ္ပဏီတစ်ခုလုံး အတိုင်းအတာဖြင့် ကြီးကြီးမားမား ဖော်ဆောင်လိုပါသည်။\n販売促進課長: သဘောတူပါသည်။ ပင်မဆိုင်ကြီးရှိ သီးသန့်ပွဲဖြင့် စတင်ကာ တစ်နိုင်ငံလုံးရှိ အဓိက ကုန်တိုက်ကြီးများတွင် ယာယီအရောင်းဆိုင်များကို ဆက်တိုက် ဖွင့်လှစ်သွားပါမည်။\n企画役員: ဖောက်သည်များအတွက်လည်း ယခု အသစ်ပြင်ဆင်မှုကို အခွင့်ကောင်းယူ၍ အမှတ်တံဆိပ်အပေါ် ပိုမိုချစ်ခင်တွယ်တာလာစေမည့် ဆွဲဆောင်မှုရှိသော အစီအစဉ်များကို ပြုလုပ်ပေးပါ။\n販売促進課長: ဟုတ်ကဲ့ပါ။ အထူးအသင်းဝင် အစီအစဉ်ကိုလည်း တစ်ပြိုင်နက်တည်း အသစ်ပြင်ဆင်ကာ ရေရှည် ပရိသတ်များ တည်ဆောက်နိုင်ရေး ချိတ်ဆက်ဆောင်ရွက်ပါမည်။",
+    "turns": [
+      {
+        "speaker": "企画役員",
+        "ja": "新ブランドの立ち上げですが、創業五十周年を契機に全社を挙げて大々的に推進したい。",
+        "kana": "しんブランドのたちあげですが、そうぎょうごじゅっしゅうねんをけいきにぜんしゃをあげてだいだいてきにすいしんしたい。",
+        "en": "Regarding launching the new brand, taking our 50th founding anniversary as a turning point, I wish to push this company-wide on a massive scale.",
+        "my": "အမှတ်တံဆိပ်သစ် စတင်ထူထောင်ခြင်းနှင့် ပတ်သက်၍ နှစ် ၅၀ ပြည့် နှစ်ပတ်လည်ကို အခွင့်အရေးအဖြစ် အသုံးချကာ ကုမ္ပဏီတစ်ခုလုံး အတိုင်းအတာဖြင့် ကြီးကြီးမားမား ဖော်ဆောင်လိုပါသည်။",
+        "translationMy": "အမှတ်တံဆိပ်သစ် စတင်ထူထောင်ခြင်းနှင့် ပတ်သက်၍ နှစ် ၅၀ ပြည့် နှစ်ပတ်လည်ကို အခွင့်အရေးအဖြစ် အသုံးချကာ ကုမ္ပဏီတစ်ခုလုံး အတိုင်းအတာဖြင့် ကြီးကြီးမားမား ဖော်ဆောင်လိုပါသည်။",
+        "myanmar": "အမှတ်တံဆိပ်သစ် စတင်ထူထောင်ခြင်းနှင့် ပတ်သက်၍ နှစ် ၅၀ ပြည့် နှစ်ပတ်လည်ကို အခွင့်အရေးအဖြစ် အသုံးချကာ ကုမ္ပဏီတစ်ခုလုံး အတိုင်းအတာဖြင့် ကြီးကြီးမားမား ဖော်ဆောင်လိုပါသည်။"
+      },
+      {
+        "speaker": "販売促進課長",
+        "ja": "賛成です。旗艦店での限定イベントを皮切りに、全国の主要百貨店で順次ポップアップストアを展開してまいります。",
+        "kana": "さんせいです。きかんてんでのげんていイベントをかわきりに、ぜんこくのしゅようひゃっかてんでじゅんじポップアップストアをてんかいしてまいります。",
+        "en": "Agreed. Starting with an exclusive event at our flagship store, we shall roll out pop-up stores sequentially across major department stores nationwide.",
+        "my": "သဘောတူပါသည်။ ပင်မဆိုင်ကြီးရှိ သီးသန့်ပွဲဖြင့် စတင်ကာ တစ်နိုင်ငံလုံးရှိ အဓိက ကုန်တိုက်ကြီးများတွင် ယာယီအရောင်းဆိုင်များကို ဆက်တိုက် ဖွင့်လှစ်သွားပါမည်။",
+        "translationMy": "သဘောတူပါသည်။ ပင်မဆိုင်ကြီးရှိ သီးသန့်ပွဲဖြင့် စတင်ကာ တစ်နိုင်ငံလုံးရှိ အဓိက ကုန်တိုက်ကြီးများတွင် ယာယီအရောင်းဆိုင်များကို ဆက်တိုက် ဖွင့်လှစ်သွားပါမည်။",
+        "myanmar": "သဘောတူပါသည်။ ပင်မဆိုင်ကြီးရှိ သီးသန့်ပွဲဖြင့် စတင်ကာ တစ်နိုင်ငံလုံးရှိ အဓိက ကုန်တိုက်ကြီးများတွင် ယာယီအရောင်းဆိုင်များကို ဆက်တိုက် ဖွင့်လှစ်သွားပါမည်။"
+      },
+      {
+        "speaker": "企画役員",
+        "ja": "顧客にとっても、今回のリニューアルを機にブランドへの愛着を深めてもらえるような魅力的な仕掛けを頼むよ。",
+        "kana": "こきゃくにとっても、こんかいのリニューアルをきにブランドへのあいちゃくをふかめてもらえるようなみりょくてきなしかけをたのむよ。",
+        "en": "For customers as well, please arrange engaging mechanisms so that they can deepen their attachment to our brand on the occasion of this renewal.",
+        "my": "ဖောက်သည်များအတွက်လည်း ယခု အသစ်ပြင်ဆင်မှုကို အခွင့်ကောင်းယူ၍ အမှတ်တံဆိပ်အပေါ် ပိုမိုချစ်ခင်တွယ်တာလာစေမည့် ဆွဲဆောင်မှုရှိသော အစီအစဉ်များကို ပြုလုပ်ပေးပါ။",
+        "translationMy": "ဖောက်သည်များအတွက်လည်း ယခု အသစ်ပြင်ဆင်မှုကို အခွင့်ကောင်းယူ၍ အမှတ်တံဆိပ်အပေါ် ပိုမိုချစ်ခင်တွယ်တာလာစေမည့် ဆွဲဆောင်မှုရှိသော အစီအစဉ်များကို ပြုလုပ်ပေးပါ။",
+        "myanmar": "ဖောက်သည်များအတွက်လည်း ယခု အသစ်ပြင်ဆင်မှုကို အခွင့်ကောင်းယူ၍ အမှတ်တံဆိပ်အပေါ် ပိုမိုချစ်ခင်တွယ်တာလာစေမည့် ဆွဲဆောင်မှုရှိသော အစီအစဉ်များကို ပြုလုပ်ပေးပါ။"
+      },
+      {
+        "speaker": "販売促進課長",
+        "ja": "はい！特別会員プログラムも同時に刷新し、長期的なファンづくりに繋げます。",
+        "kana": "はい！とくべつかいいんプログラムもどうじにさっしんし、ちょうきてきなファンづくりにつなげます。",
+        "en": "Yes! We will renovate the VIP membership program simultaneously, connecting it to building long-term loyalty.",
+        "my": "ဟုတ်ကဲ့ပါ။ အထူးအသင်းဝင် အစီအစဉ်ကိုလည်း တစ်ပြိုင်နက်တည်း အသစ်ပြင်ဆင်ကာ ရေရှည် ပရိသတ်များ တည်ဆောက်နိုင်ရေး ချိတ်ဆက်ဆောင်ရွက်ပါမည်။",
+        "translationMy": "ဟုတ်ကဲ့ပါ။ အထူးအသင်းဝင် အစီအစဉ်ကိုလည်း တစ်ပြိုင်နက်တည်း အသစ်ပြင်ဆင်ကာ ရေရှည် ပရိသတ်များ တည်ဆောက်နိုင်ရေး ချိတ်ဆက်ဆောင်ရွက်ပါမည်။",
+        "myanmar": "ဟုတ်ကဲ့ပါ။ အထူးအသင်းဝင် အစီအစဉ်ကိုလည်း တစ်ပြိုင်နက်တည်း အသစ်ပြင်ဆင်ကာ ရေရှည် ပရိသတ်များ တည်ဆောက်နိုင်ရေး ချိတ်ဆက်ဆောင်ရွက်ပါမည်။"
+      }
+    ],
+    "questionIds": [
+      "n2.l52.q028",
+      "n2.l52.q029",
+      "n2.l52.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l52.q001",
+      "lessonId": "n2.l52",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "事件や物事が生じる直接のきっかけとなった出来事を何というか。",
+      "choices": [
+        "発端",
+        "極端",
+        "情緒",
+        "由緒"
+      ],
+      "answer": "発端",
+      "explanation": "発端 (ほったん) means origin, opening, or inception of an affair.",
+      "explanationMy": "発端 ဆိုသည်မှာ ကိစ္စတစ်ခု စတင်ဖြစ်ပွားရသည့် အစပြုခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q002",
+      "lessonId": "n2.l52",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "物事や文化、運動などが最初に始まった地や起源を何というか。",
+      "choices": [
+        "発祥",
+        "媒介",
+        "伝達",
+        "伝統"
+      ],
+      "answer": "発祥",
+      "explanation": "発祥 (はっしょう) means origin or birthplace.",
+      "explanationMy": "発祥 ဆိုသည်မှာ ယဉ်ကျေးမှု သို့မဟုတ် အရာတစ်ခု စတင်ပေါက်ဖွားရာ မူလအရပ် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q003",
+      "lessonId": "n2.l52",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "一方に偏りすぎて中庸を失っている様子を表す言葉はどれか。",
+      "choices": [
+        "極端",
+        "抜群",
+        "明確",
+        "微妙"
+      ],
+      "answer": "極端",
+      "explanation": "極端 (きょくたん) means extreme or radical.",
+      "explanationMy": "極端 ဆိုသည်မှာ အလယ်အလတ် မဟုတ်ဘဲ အစွန်းရောက်သော အခြေအနေ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q004",
+      "lessonId": "n2.l52",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "物事が始まろうとする最初の糸口やきっかけを何というか。",
+      "choices": [
+        "端緒",
+        "兆候",
+        "賜物",
+        "予兆"
+      ],
+      "answer": "端緒",
+      "explanation": "端緒 (たんしょ) means clue, inception, or beginning.",
+      "explanationMy": "端緒 ဆိုသည်မှာ စတင်ရာအစ သို့မဟုတ် သဲလွန်စ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q005",
+      "lessonId": "n2.l52",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "長い歴史と誇るべき伝統や家柄のことを何というか。",
+      "choices": [
+        "由緒",
+        "事態",
+        "欠陥",
+        "屈辱"
+      ],
+      "answer": "由緒",
+      "explanation": "由緒 (ゆいしょ) means pedigree, lineage, or history.",
+      "explanationMy": "由緒 ဆိုသည်မှာ ရှေးရိုးသမိုင်းကြောင်းနှင့် မျိုးရိုးဂုဏ် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q006",
+      "lessonId": "n2.l52",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "人情や事物の持つ独特の風情や味わい深い気分を何というか。",
+      "choices": [
+        "情緒",
+        "焦り",
+        "緊迫",
+        "悲哀"
+      ],
+      "answer": "情緒",
+      "explanation": "情緒 (じょうちょ) means sentiment, mood, or artistic atmosphere.",
+      "explanationMy": "情緒 ဆိုသည်မှာ ရသအငွေ့အသက် သို့မဟုတ် ခံစားချက်ရသ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.v006"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q007",
+      "lessonId": "n2.l52",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "社会の制度や組織をより良く改めることを何というか。",
+      "choices": [
+        "改革",
+        "撤退",
+        "賠償",
+        "断念"
+      ],
+      "answer": "改革",
+      "explanation": "改革 (かいかく) means reform or restructuring.",
+      "explanationMy": "改革 ဆိုသည်မှာ စနစ် သို့မဟုတ် အဖွဲ့အစည်းကို ကောင်းမွန်အောင် ပြုပြင်ပြောင်းလဲခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.v011"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q008",
+      "lessonId": "n2.l52",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "勢いよく目覚ましい勢いで前進・発展することを何というか。",
+      "choices": [
+        "躍進",
+        "延着",
+        "疲労",
+        "介入"
+      ],
+      "answer": "躍進",
+      "explanation": "躍進 (やくしん) means rapid progress or breakthrough.",
+      "explanationMy": "躍進 ဆိုသည်မှာ လျင်မြန်စွာ ခုန်ပျံတိုးတက်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.v010"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q009",
+      "lessonId": "n2.l52",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「発」の音読みとして正しいものはどれか。",
+      "choices": [
+        "ハツ・ホツ",
+        "パツ・コツ",
+        "カツ・ケツ",
+        "サツ・セツ"
+      ],
+      "answer": "ハツ・ホツ",
+      "explanation": "「発」の音読みは「ハツ」および「ホツ」（発端、発心）です。",
+      "explanationMy": "「発」၏ အသံထွက်မှာ ハツ နှင့် ホツ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q010",
+      "lessonId": "n2.l52",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「発端」の熟語における「発」の意味として最も適切なものはどれか。",
+      "choices": [
+        "始まる・起こる",
+        "止まる・消える",
+        "冷やす・凍る",
+        "捨てる・省く"
+      ],
+      "answer": "始まる・起こる",
+      "explanation": "「発」には物事が生じる、始まるという意味があります。",
+      "explanationMy": "အမှုကိစ္စ စတင်ဖြစ်ပွားခြင်း အဓိပ္ပာယ် ရှိသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q011",
+      "lessonId": "n2.l52",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「端」の訓読みとして正しいものはどれか。",
+      "choices": [
+        "はし",
+        "すそ",
+        "つば",
+        "ふち"
+      ],
+      "answer": "はし",
+      "explanation": "「端」の訓読みは「はし / は / はた」です（道端、端っこ）。",
+      "explanationMy": "「端」၏ ဂျပန်မူရင်းအသံမှာ はし ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q012",
+      "lessonId": "n2.l52",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「端緒」の漢字「端」が表す意味合いとして適切なものはどれか。",
+      "choices": [
+        "物事の始まり・糸口",
+        "完全な終了",
+        "平らな地面",
+        "真ん中の中心"
+      ],
+      "answer": "物事の始まり・糸口",
+      "explanation": "「端」には物事の始まり、糸口という意味があります。",
+      "explanationMy": "အစပြုရာ အဖျား သို့မဟုတ် သဲလွန်စ အဓိပ္ပာယ် ရှိသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q013",
+      "lessonId": "n2.l52",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "漢字「緒」の音読みとして正しいものはどれか。",
+      "choices": [
+        "ショ・チョ",
+        "ジョ・ニョ",
+        "ソ・ト",
+        "コ・ゴ"
+      ],
+      "answer": "ショ・チョ",
+      "explanation": "「緒」の音読みは「ショ / チョ」です（由緒、情緒、端緒）。",
+      "explanationMy": "「緒」၏ အသံထွက်မှာ ショ နှင့် チョ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q014",
+      "lessonId": "n2.l52",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「情緒」の「緒」の部首として正しいものはどれか。",
+      "choices": [
+        "糸（いと・いとへん）",
+        "者（もの）",
+        "日（ひ）",
+        "言（ごんべん）"
+      ],
+      "answer": "糸（いと・いとへん）",
+      "explanation": "「緒」の部首は「糸（いとへん）」です。",
+      "explanationMy": "「緒」တွင် ချည်မျှင် 糸 အစိတ်အပိုင်း ပါဝင်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q015",
+      "lessonId": "n2.l52",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "世界的な感染症の流行（　）、テレワークが社会全体に急速に普及した。",
+      "choices": [
+        "を契機に",
+        "を皮切りに",
+        "をおいて",
+        "にほかならない"
+      ],
+      "answer": "を契機に",
+      "explanation": "Use 〜を契機に for a societal crisis triggering widespread systemic shifts.",
+      "explanationMy": "ကမ္ဘာ့ကပ်ရောဂါ ဖြစ်ပွားမှုကို အလှည့်အပြောင်းအဖြစ် အသုံးချ၍ အွန်လိုင်းအလုပ်လုပ်ခြင်း ပျံ့နှံ့လာသည်ဟု ပြရာတွင် を契機に သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q016",
+      "lessonId": "n2.l52",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜を契機に」と「〜を機に」の使い分けとして最も自然な説明はどれか。",
+      "choices": [
+        "「契機」は歴史的・社会的な重大な転換に多く使われ、「機」は個人の人生の節目に多く使われる",
+        "「契機」は常に否定文で使われ、「機」は命令文で使われる",
+        "「契機」は動物にのみ使え、「機」は植物にのみ使える",
+        "両者に用法の違いは一切存在しない"
+      ],
+      "answer": "「契機」は歴史的・社会的な重大な転換に多く使われ、「機」は個人の人生の節目に多く使われる",
+      "explanation": "契機 is common for societal/historical turning points; 機 fits personal milestones.",
+      "explanationMy": "契機 သည် သမိုင်းနှင့် လူမှုရေးဆိုင်ရာ ကြီးမားသော အပြောင်းအလဲဖြစ်ပြီး 機 သည် ဘဝမှတ်တိုင်များတွင် ပိုမိုသုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q017",
+      "lessonId": "n2.l52",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "福岡公演（　）、全国主要１２都市を巡る一大ミュージカルが開幕した。",
+      "choices": [
+        "を皮切りに",
+        "を契機に",
+        "を機に",
+        "ばかりに"
+      ],
+      "answer": "を皮切りに",
+      "explanation": "Use 〜を皮切りに for a grand premiere leading to a sequence of tour performances.",
+      "explanationMy": "ဖူကူအိုကာ ဖျော်ဖြေပွဲဖြင့် အစပြုကာ အခြားမြို့များတွင် ဆက်တိုက် ပြသသွားမည်ဖြစ်ကြောင်း ပြရာတွင် を皮切りに သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q018",
+      "lessonId": "n2.l52",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜を皮切りに」の後に続く文の典型的な特徴はどれか。",
+      "choices": [
+        "同種の出来事や行動が次々と続いて起こる",
+        "すべての活動が完全に停止して終わる",
+        "話し手の後悔や反省の気持ちを述べる",
+        "相手を厳しく非難する"
+      ],
+      "answer": "同種の出来事や行動が次々と続いて起こる",
+      "explanation": "〜を皮切りに is followed by an escalating series of similar events.",
+      "explanationMy": "အလားတူ အရာများ တစ်ခုပြီးတစ်ခု ဆက်တိုက် ဖြစ်ပေါ်လာလေ့ရှိသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q019",
+      "lessonId": "n2.l52",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "子供が小学校に入学したの（　）、パートタイムの仕事を再開した。",
+      "choices": [
+        "を機に",
+        "を皮切りに",
+        "を抜きにしては",
+        "ずにはすまない"
+      ],
+      "answer": "を機に",
+      "explanation": "Taking a child's school entrance (milestone) to resume work (を機に).",
+      "explanationMy": "ကလေး ကျောင်းတက်ခြင်းကို အခွင့်ကြုံခိုက်အဖြစ် အသုံးချ၍ အလုပ်ပြန်စရာတွင် を機に သုံးသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q020",
+      "lessonId": "n2.l52",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜を機に」が接続する代表的な語句として最も適したものはどれか。",
+      "choices": [
+        "結婚、卒業、就職、引っ越しなどの人生の節目",
+        "今朝の天気予報",
+        "他人の失敗やミス",
+        "単なる過去の時間の経過"
+      ],
+      "answer": "結婚、卒業、就職、引っ越しなどの人生の節目",
+      "explanation": "〜を機に commonly attaches to life milestones like marriage, graduation, job, moving.",
+      "explanationMy": "မင်္ဂလာဆောင်ခြင်း၊ ဘွဲ့ရခြင်း စသည့် ဘဝမှတ်တိုင်များနှင့် တွဲဆက်လေ့ရှိသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q021",
+      "lessonId": "n2.l52",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "オリンピックの開催（　）、都市インフラの再整備が一気に進展した。",
+      "choices": [
+        "を契機に",
+        "を皮切りに",
+        "気味に",
+        "をおいて"
+      ],
+      "answer": "を契機に",
+      "explanation": "The Olympics served as a decisive trigger for infrastructural redevelopment.",
+      "explanationMy": "အိုလံပစ်ပွဲ ကျင်းပခြင်းကို အလှည့်အပြောင်းအဖြစ် အသုံးချကာ မြို့ပြအခြေခံအဆောက်အအုံများ တိုးတက်လာခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q022",
+      "lessonId": "n2.l52",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "作家のデビュー作のヒット（　）、次々と話題作を世に送り出した。",
+      "choices": [
+        "を皮切りに",
+        "を機に",
+        "ことだし",
+        "ものだから"
+      ],
+      "answer": "を皮切りに",
+      "explanation": "Starting with the debut hit, releasing subsequent bestsellers one after another.",
+      "explanationMy": "ပွဲဦးထွက် လက်ရာ အောင်မြင်မှုဖြင့် အစပြုကာ အခြားလက်ရာကောင်းများ ဆက်တိုက် ထုတ်ဝေခဲ့သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q023",
+      "lessonId": "n2.l52",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "定年退職（　）故郷へ戻り、農業を始める人が増えている。",
+      "choices": [
+        "を機に",
+        "を皮切りに",
+        "を抜きにしては",
+        "に相違ない"
+      ],
+      "answer": "を機に",
+      "explanation": "Taking retirement as the occasion to return to hometown.",
+      "explanationMy": "အငြိမ်းစားယူခြင်းကို အခွင့်ကောင်းယူ၍ ဇာတိသို့ ပြန်သူများ များပြားလာသည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q024",
+      "lessonId": "n2.l52",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜を契機として」の「契機」の本来の意味として最も近いものはどれか。",
+      "choices": [
+        "変化や発展のきっかけ・転機",
+        "契約の期間",
+        "時計の機械",
+        "計算の基準"
+      ],
+      "answer": "変化や発展のきっかけ・転機",
+      "explanation": "「契機」means opportunity, turning point, or trigger for change.",
+      "explanationMy": "契機 ဆိုသည်မှာ အပြောင်းအလဲနှင့် တိုးတက်မှုအတွက် အလှည့်အပြောင်း အခွင့်အလမ်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q025",
+      "lessonId": "n2.l52",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において、近代産業社会への歴史的転換の「契機」となったものは何か。",
+      "choices": [
+        "蒸気機関の発明",
+        "大型帆船の沈没",
+        "伝統的な農村の解体",
+        "新しい法律の制定"
+      ],
+      "answer": "蒸気機関の発明",
+      "explanation": "The text states the invention of the steam engine served as the trigger (契機).",
+      "explanationMy": "ရေနွေးငွေ့အင်ဂျင် တီထွင်နိုင်ခဲ့မှု ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q026",
+      "lessonId": "n2.l52",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "ヨーロッパ全土への産業拡大の「皮切り」となった事象はどれか。",
+      "choices": [
+        "イギリスにおける綿織物産業の技術革新",
+        "フランスでの大規模な農業祭",
+        "ドイツの炭鉱の発見",
+        "イタリアの絵画の流行"
+      ],
+      "answer": "イギリスにおける綿織物産業の技術革新",
+      "explanation": "The text notes: イギリスにおける綿織物産業の技術革新を皮切りに.",
+      "explanationMy": "ဗြိတိန်နိုင်ငံရှိ ချည်မျှင်စက်မှုလုပ်ငန်း နည်းပညာဆန်းသစ်မှု ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q027",
+      "lessonId": "n2.l52",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "個人の価値観のシフトについて、どのような機会を「機に」起こったと述べられているか。",
+      "choices": [
+        "近代都市への移住",
+        "外国語の習得",
+        "新しい宗教の創始",
+        "身分制度の強化"
+      ],
+      "answer": "近代都市への移住",
+      "explanation": "The text notes values shifted toward personal independence upon migrating to modern cities.",
+      "explanationMy": "ခေတ်သစ်မြို့ကြီးများသို့ ရွှေ့ပြောင်းအခြေချခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q028",
+      "lessonId": "n2.l52",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "企画役員が新ブランド推進の契機として挙げた出来事は何か。",
+      "choices": [
+        "創業五十周年",
+        "ライバル会社の倒産",
+        "新工場の竣工",
+        "社長の交代"
+      ],
+      "answer": "創業五十周年",
+      "explanation": "The executive cited their 50th founding anniversary (創業五十周年).",
+      "explanationMy": "ကုမ္ပဏီတည်ထောင်ခြင်း နှစ် ၅၀ ပြည့် နှစ်ပတ်လည် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q029",
+      "lessonId": "n2.l52",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "全国展開の「皮切り」として最初に実施されるイベントはどれか。",
+      "choices": [
+        "旗艦店での限定イベント",
+        "海外店舗での記念セール",
+        "テレビ局での記者発表会",
+        "オンライン限定の抽選会"
+      ],
+      "answer": "旗艦店での限定イベント",
+      "explanation": "The promotional manager indicates kicking off with a limited event at their flagship store.",
+      "explanationMy": "ပင်မဆိုင်ကြီးရှိ သီးသန့်ပွဲ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l52.q030",
+      "lessonId": "n2.l52",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "今回のリニューアルを機に顧客に期待している変化は何か。",
+      "choices": [
+        "ブランドへの愛着を深めてもらうこと",
+        "他社製品を一切購入しないこと",
+        "すべての製品を高額で転売すること",
+        "店舗での滞在時間を短縮すること"
+      ],
+      "answer": "ブランドへの愛着を深めてもらうこと",
+      "explanation": "The executive hopes customers will deepen their brand attachment.",
+      "explanationMy": "အမှတ်တံဆိပ်အပေါ် ပိုမိုချစ်ခင်တွယ်တာလာစေခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l52.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+};

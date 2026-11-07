@@ -1,0 +1,1792 @@
+import { LessonPack } from '../../../models/types';
+
+export const n2l14Data: LessonPack = {
+  "id": "n2.l14",
+  "level": "N2",
+  "module": "N2 Advanced Grammar & Argumentation",
+  "number": 14,
+  "title": "N2 Lesson 14: Impossibility & Inability (〜わけにはいかない・〜かねる・〜得ない)",
+  "description": "Mastery module focusing on Moral Inability, Polite Refusal, and Absolute Impossibility: moral constraints (わけにはいかない), professional polite decline (かねる), and conceptual/logical impossibility (得ない).",
+  "status": "published",
+  "masteryThresholds": {
+    "vocab": 0.9,
+    "kanji": 0.85,
+    "grammar": 0.85,
+    "reading": 0.8,
+    "listening": 0.8,
+    "overall": 0.85
+  },
+  "vocabularies": [
+    {
+      "id": "n2.l14.v001",
+      "lessonId": "n2.l14",
+      "ja": "拒絶",
+      "kana": "きょぜつ",
+      "en": "Refusal / Rejection",
+      "my": "ပြတ်ပြတ်သားသားငြင်းပယ်ခြင်း",
+      "meaningMy": "ပြတ်ပြတ်သားသားငြင်းပယ်ခြင်း",
+      "meaningMyanmar": "ပြတ်ပြတ်သားသားငြင်းပယ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l14.s001",
+      "kanjiIds": [
+        "n2.l14.k001"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.v002",
+      "lessonId": "n2.l14",
+      "ja": "困難",
+      "kana": "こんなん",
+      "en": "Hardship / Difficulty",
+      "my": "အခက်အခဲကြုံတွေ့ရခြင်း",
+      "meaningMy": "အခက်အခဲကြုံတွေ့ရခြင်း",
+      "meaningMyanmar": "အခက်အခဲကြုံတွေ့ရခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l14.s002",
+      "kanjiIds": [
+        "n2.l14.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.v003",
+      "lessonId": "n2.l14",
+      "ja": "承諾",
+      "kana": "しょうだく",
+      "en": "Consent / Acceptance",
+      "my": "သဘောတူလက်ခံခြင်း",
+      "meaningMy": "သဘောတူလက်ခံခြင်း",
+      "meaningMyanmar": "သဘောတူလက်ခံခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l14.s003",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.v004",
+      "lessonId": "n2.l14",
+      "ja": "辞退",
+      "kana": "じたい",
+      "en": "Declining / Stepping down",
+      "my": "ယဉ်ကျေးစွာငြင်းပယ်ခြင်း",
+      "meaningMy": "ယဉ်ကျေးစွာငြင်းပယ်ခြင်း",
+      "meaningMyanmar": "ယဉ်ကျေးစွာငြင်းပယ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l14.s004",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.v005",
+      "lessonId": "n2.l14",
+      "ja": "躊躇",
+      "kana": "ちゅうちょ",
+      "en": "Hesitation / Vacillation",
+      "my": "တွေဝေတုံ့ဆိုင်းခြင်း",
+      "meaningMy": "တွေဝေတုံ့ဆိုင်းခြင်း",
+      "meaningMyanmar": "တွေဝေတုံ့ဆိုင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l14.s005",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.v006",
+      "lessonId": "n2.l14",
+      "ja": "容認",
+      "kana": "ようにん",
+      "en": "Tolerate / Sanction",
+      "my": "ခွင့်ပြုလက်ခံခြင်း",
+      "meaningMy": "ခွင့်ပြုလက်ခံခြင်း",
+      "meaningMyanmar": "ခွင့်ပြုလက်ခံခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l14.s006",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.v007",
+      "lessonId": "n2.l14",
+      "ja": "厳禁",
+      "kana": "げんきん",
+      "en": "Strictly forbidden",
+      "my": "တင်းကျပ်စွာတားမြစ်ခြင်း",
+      "meaningMy": "တင်းကျပ်စွာတားမြစ်ခြင်း",
+      "meaningMyanmar": "တင်းကျပ်စွာတားမြစ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l14.s007",
+      "kanjiIds": [
+        "n2.l14.k003"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.v008",
+      "lessonId": "n2.l14",
+      "ja": "到底",
+      "kana": "とうてい",
+      "en": "By any means / Not possibly",
+      "my": "မည်သို့မျှမဖြစ်နိုင်သော",
+      "meaningMy": "မည်သို့မျှမဖြစ်နိုင်သော",
+      "meaningMyanmar": "မည်သို့မျှမဖြစ်နိုင်သော",
+      "pos": "adverb",
+      "exampleSentenceId": "n2.l14.s008",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.v009",
+      "lessonId": "n2.l14",
+      "ja": "不可避",
+      "kana": "ふかひ",
+      "en": "Inevitable / Unavoidable",
+      "my": "မလွှဲမရှောင်သာသော",
+      "meaningMy": "မလွှဲမရှောင်သာသော",
+      "meaningMyanmar": "မလွှဲမရှောင်သာသော",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l14.s009",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.v010",
+      "lessonId": "n2.l14",
+      "ja": "難航",
+      "kana": "なんこう",
+      "en": "Rough sailing / Hitting a snag",
+      "my": "ခရီးမပေါက်ဘဲအခက်တွေ့ခြင်း",
+      "meaningMy": "ခရီးမပေါက်ဘဲအခက်တွေ့ခြင်း",
+      "meaningMyanmar": "ခရီးမပေါက်ဘဲအခက်တွေ့ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l14.s010",
+      "kanjiIds": [
+        "n2.l14.k002"
+      ],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.v011",
+      "lessonId": "n2.l14",
+      "ja": "妥協",
+      "kana": "だきょう",
+      "en": "Compromise / Concession",
+      "my": "အပေးအယူလုပ်ခြင်း",
+      "meaningMy": "အပေးအယူလုပ်ခြင်း",
+      "meaningMyanmar": "အပေးအယူလုပ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l14.s011",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.v012",
+      "lessonId": "n2.l14",
+      "ja": "遺憾",
+      "kana": "いかん",
+      "en": "Regrettable / Deplorable",
+      "my": "ဝမ်းနည်းစဖွယ်ဖြစ်သော",
+      "meaningMy": "ဝမ်းနည်းစဖွယ်ဖြစ်သော",
+      "meaningMyanmar": "ဝမ်းနည်းစဖွယ်ဖြစ်သော",
+      "pos": "na-adjective",
+      "exampleSentenceId": "n2.l14.s012",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "kanjis": [
+    {
+      "id": "n2.l14.k001",
+      "lessonId": "n2.l14",
+      "char": "拒",
+      "meaning": "Refuse / Reject / Repel",
+      "meaningMy": "ငြင်းပယ်ခြင်း / ပယ်ချခြင်း",
+      "meaningMyanmar": "ငြင်းပယ်ခြင်း / ပယ်ချခြင်း",
+      "onyomi": [
+        "キョ"
+      ],
+      "kunyomi": [
+        "こば・む"
+      ],
+      "exampleVocab": [
+        {
+          "word": "拒絶",
+          "reading": "きょぜつ",
+          "meaning": "refusal / rejection",
+          "meaningMy": "ပြတ်ပြတ်သားသားငြင်းပယ်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "拒否",
+          "reading": "きょひ",
+          "meaning": "denial / veto",
+          "meaningMy": "ပယ်ချခြင်း",
+          "preview": false
+        },
+        {
+          "word": "拒絶反応",
+          "reading": "きょぜつはんのう",
+          "meaning": "rejection reaction",
+          "meaningMy": "ခန္ဓာကိုယ်မှငြင်းပယ်သည့်တုံ့ပြန်မှု",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l14.s001"
+      ],
+      "components": [
+        "扌",
+        "巨"
+      ],
+      "strokes": 8,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.k002",
+      "lessonId": "n2.l14",
+      "char": "難",
+      "meaning": "Difficult / Trouble / Disaster",
+      "meaningMy": "ခက်ခဲသော / ဘေးအန္တရာယ် / အခက်အခဲ",
+      "meaningMyanmar": "ခက်ခဲသော / ဘေးအန္တရာယ် / အခက်အခဲ",
+      "onyomi": [
+        "ナン"
+      ],
+      "kunyomi": [
+        "むずか・しい",
+        "かた・い"
+      ],
+      "exampleVocab": [
+        {
+          "word": "困難",
+          "reading": "こんなん",
+          "meaning": "difficulty / hardship",
+          "meaningMy": "အခက်အခဲကြုံတွေ့ရခြင်း",
+          "preview": false
+        },
+        {
+          "word": "難航",
+          "reading": "なんこう",
+          "meaning": "rough sailing / difficulty",
+          "meaningMy": "ခရီးမပေါက်ဘဲအခက်တွေ့ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "難局",
+          "reading": "なんきょく",
+          "meaning": "difficult situation",
+          "meaningMy": "အကျပ်အတည်းအခြေအနေ",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l14.s002"
+      ],
+      "components": [
+        "革",
+        "隹"
+      ],
+      "strokes": 18,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.k003",
+      "lessonId": "n2.l14",
+      "char": "禁",
+      "meaning": "Prohibition / Ban / Forbid",
+      "meaningMy": "တားမြစ်ခြင်း / ပိတ်ပင်ခြင်း",
+      "meaningMyanmar": "တားမြစ်ခြင်း / ပိတ်ပင်ခြင်း",
+      "onyomi": [
+        "キン"
+      ],
+      "kunyomi": [],
+      "exampleVocab": [
+        {
+          "word": "禁止",
+          "reading": "きんし",
+          "meaning": "prohibition",
+          "meaningMy": "တားမြစ်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "厳禁",
+          "reading": "げんきん",
+          "meaning": "strictly forbidden",
+          "meaningMy": "တင်းကျပ်စွာတားမြစ်ခြင်း",
+          "preview": false
+        },
+        {
+          "word": "禁煙",
+          "reading": "きんえん",
+          "meaning": "no smoking",
+          "meaningMy": "ဆေးလိပ်မသောက်ရ",
+          "preview": true
+        }
+      ],
+      "exampleSentenceIds": [
+        "n2.l14.s003"
+      ],
+      "components": [
+        "林",
+        "示"
+      ],
+      "strokes": 13,
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "grammars": [
+    {
+      "id": "n2.l14.g001",
+      "lessonId": "n2.l14",
+      "pattern": "〜わけにはいかない",
+      "meaning": "Cannot afford to / Cannot do for moral/social reasons / Must not",
+      "meaningMy": "လူမှုရေး၊ ကျင့်ဝတ်အရ ထိုသို့ပြုလုပ်ရန် မဖြစ်နိုင်ပေ / မလုပ်ဘဲမနေနိုင်ပေ",
+      "meaningMyanmar": "လူမှုရေး၊ ကျင့်ဝတ်အရ ထိုသို့ပြုလုပ်ရန် မဖြစ်နိုင်ပေ / မလုပ်ဘဲမနေနိုင်ပေ",
+      "formation": "動詞辞書形／ない形 ＋ わけにはいかない",
+      "explanation": {
+        "en": "Expresses that one cannot perform (or cannot avoid performing) an action due to social obligations, common sense, or moral responsibility, despite personal feelings.",
+        "my": "မိမိ၏ တစ်ကိုယ်ရေ ဆန္ဒမည်သို့ပင်ဖြစ်စေ လူမှုရေးကျင့်ဝတ်၊ တာဝန်အရ ထိုသို့မပြုလုပ်နိုင် သို့မဟုတ် မဖြစ်မနေ ပြုလုပ်ရမည်ဟု ဖော်ပြသည်။"
+      },
+      "explanationMy": "မိမိ၏ တစ်ကိုယ်ရေ ဆန္ဒမည်သို့ပင်ဖြစ်စေ လူမှုရေးကျင့်ဝတ်၊ တာဝန်အရ ထိုသို့မပြုလုပ်နိုင် သို့မဟုတ် မဖြစ်မနေ ပြုလုပ်ရမည်ဟု ဖော်ပြသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l14.s001",
+          "note": "〜わけにはいかない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l14.s004",
+          "note": "〜わけにはいかない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l14.s007",
+          "note": "〜わけにはいかない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l14.s010",
+          "note": "〜わけにはいかない usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l14.g001",
+        "n2.l14.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜わけにはいかない."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "大事な会議を控えているので、風邪を引いたからといって休む[ _____ ]。",
+      "clozeTarget": "わけにはいかない",
+      "clozeHint": "Verb dict + わけにはいかない (cannot afford to do for moral/social reasons)",
+      "acceptableSynonyms": [
+        "わけにはいかぬ",
+        "ことはできない",
+        "わけにもいかない"
+      ],
+      "nuanceExplanationMy": "「〜わけにはいかない」သည် တာဝန်၊ စည်းမျဉ်း သို့မဟုတ် ကျင့်ဝတ်ဆိုင်ရာ မဖြစ်နိုင်မှုကို ဖော်ပြသည်။"
+    },
+    {
+      "id": "n2.l14.g002",
+      "lessonId": "n2.l14",
+      "pattern": "〜かねる",
+      "meaning": "Cannot / Unable to politely (formal business refusal)",
+      "meaningMy": "စိတ်မကောင်းသော်လည်း တာဝန် သို့မဟုတ် အခြေအနေအရ ဆောင်ရွက်ပေးရန် ခက်ခဲပါသည်",
+      "meaningMyanmar": "စိတ်မကောင်းသော်လည်း တာဝန် သို့မဟုတ် အခြေအနေအရ ဆောင်ရွက်ပေးရန် ခက်ခဲပါသည်",
+      "formation": "動詞ます形 stem ＋ かねる",
+      "explanation": {
+        "en": "A polite, indirect formal way to decline a request or state an inability to do something due to psychological hesitation or official stance.",
+        "my": "တာဝန် သို့မဟုတ် အခြေအနေအရ ထိုသို့ပြုလုပ်ပေးရန် မဖြစ်နိုင်ကြောင်း ယဉ်ကျေးစွာ ငြင်းပယ်သည့် လုပ်ငန်းသုံး စကားဖြစ်သည်။"
+      },
+      "explanationMy": "တာဝန် သို့မဟုတ် အခြေအနေအရ ထိုသို့ပြုလုပ်ပေးရန် မဖြစ်နိုင်ကြောင်း ယဉ်ကျေးစွာ ငြင်းပယ်သည့် လုပ်ငန်းသုံး စကားဖြစ်သည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l14.s002",
+          "note": "〜かねる usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l14.s005",
+          "note": "〜かねる usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l14.s008",
+          "note": "〜かねる usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l14.s011",
+          "note": "〜かねる usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l14.g001",
+        "n2.l14.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜かねる."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "お客様の個人情報に関しましては、お答えいたし[ _____ ]。",
+      "clozeTarget": "かねます",
+      "clozeHint": "Verb stem + かねます (polite formal refusal)",
+      "acceptableSynonyms": [
+        "かねる",
+        "できません",
+        "いたしかねます"
+      ],
+      "nuanceExplanationMy": "「〜かねる」သည် 「できない」ထက် ပိုမို နူးညံ့ယဉ်ကျေးစွာ ငြင်းပယ်သော စီးပွားရေးသုံး စကားဖြစ်သည်။"
+    },
+    {
+      "id": "n2.l14.g003",
+      "lessonId": "n2.l14",
+      "pattern": "〜得ない",
+      "meaning": "Impossible / Inconceivable (absolute logical impossibility)",
+      "meaningMy": "ယုတ္တိဗေဒ သို့မဟုတ် အခြေအနေအရ လုံးဝမဖြစ်နိုင်ပေ",
+      "meaningMyanmar": "ယုတ္တိဗေဒ သို့မဟုတ် အခြေအနေအရ လုံးဝမဖြစ်နိုင်ပေ",
+      "formation": "動詞ます形 stem ＋ 得ない（えない）",
+      "explanation": {
+        "en": "States that something is conceptually, physically, or logically impossible to happen or exist.",
+        "my": "သဘာဝနိယာမ သို့မဟုတ် ယုတ္တိဗေဒအရ လုံးဝဖြစ်ပေါ်နိုင်ခြေမရှိကြောင်း အခိုင်အမာ ငြင်းဆိုသည်။"
+      },
+      "explanationMy": "သဘာဝနိယာမ သို့မဟုတ် ယုတ္တိဗေဒအရ လုံးဝဖြစ်ပေါ်နိုင်ခြေမရှိကြောင်း အခိုင်အမာ ငြင်းဆိုသည်။",
+      "examples": [
+        {
+          "sentenceId": "n2.l14.s003",
+          "note": "〜得ない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l14.s006",
+          "note": "〜得ない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l14.s009",
+          "note": "〜得ない usage in authentic context"
+        },
+        {
+          "sentenceId": "n2.l14.s012",
+          "note": "〜得ない usage in authentic context"
+        }
+      ],
+      "similarGrammarIds": [
+        "n2.l14.g001",
+        "n2.l14.g002"
+      ],
+      "commonMistakes": [
+        "Pay careful attention to the nuance and formation of 〜得ない."
+      ],
+      "difficulty": 4,
+      "level": "N2",
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      },
+      "clozeSentence": "人間が何の装備もなしに深海で生存することはあり[ _____ ]。",
+      "clozeTarget": "得ない",
+      "clozeHint": "Verb stem + 得ない (logically impossible)",
+      "acceptableSynonyms": [
+        "えない",
+        "はずがない",
+        "決してあり得ない"
+      ],
+      "nuanceExplanationMy": "「〜得ない」သည် ဖြစ်နိုင်ခြေ (possibility) သုည ရာခိုင်နှုန်းဖြစ်ကြောင်း ဖော်ပြသည်။"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "n2.l14.s001",
+      "lessonId": "n2.l14",
+      "ja": "いくら親しい友人であっても、会社の機密情報を漏らすわけにはいかない。",
+      "kana": "いくらしたしいゆうじんであっても、かいしゃのきみつじょうほうをもらすわけにはいかない。",
+      "translation": {
+        "en": "No matter how close a friend they are, I cannot afford to leak company confidential information.",
+        "my": "မည်မျှပင် ရင်းနှီးသော မိတ်ဆွေဖြစ်စေကာမူ ကုမ္ပဏီ၏ လျှို့ဝှက်အချက်အလက်များကို ပေါက်ကြားအောင် ပြုလုပ်၍ မဖြစ်ပေ။"
+      },
+      "translationMy": "မည်မျှပင် ရင်းနှီးသော မိတ်ဆွေဖြစ်စေကာမူ ကုမ္ပဏီ၏ လျှို့ဝှက်အချက်အလက်များကို ပေါက်ကြားအောင် ပြုလုပ်၍ မဖြစ်ပေ။",
+      "vocabIds": [
+        "n2.l14.v001",
+        "n2.l14.v007"
+      ],
+      "grammarIds": [
+        "n2.l14.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.s002",
+      "lessonId": "n2.l14",
+      "ja": "個別具体的な契約条件につきましては、担当者不在のため今すぐにはお答えしかねます。",
+      "kana": "こべつぐたいてきなけいやくじょうけんにつきましては、たんとうしゃふざいのためのいますぐにはおこたえしかねます。",
+      "translation": {
+        "en": "Regarding specific contract terms, as the person in charge is absent, I am unable to answer right now.",
+        "my": "သီးခြား စာချုပ်စည်းမျဉ်းများနှင့် ပတ်သက်၍ တာဝန်ခံမရှိသဖြင့် ယခုချက်ချင်း ဖြေကြားပေးရန် ခက်ခဲပါသည်ခင်ဗျာ။"
+      },
+      "translationMy": "သီးခြား စာချုပ်စည်းမျဉ်းများနှင့် ပတ်သက်၍ တာဝန်ခံမရှိသဖြင့် ယခုချက်ချင်း ဖြေကြားပေးရန် ခက်ခဲပါသည်ခင်ဗျာ။",
+      "vocabIds": [
+        "n2.l14.v003",
+        "n2.l14.v004"
+      ],
+      "grammarIds": [
+        "n2.l14.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.s003",
+      "lessonId": "n2.l14",
+      "ja": "万全の安全対策を講じていたとしても、自然災害の発生を完全に予測することはあり得ない。",
+      "kana": "ばんぜんのあんぜんたいさくをこうじていたとしても、しぜんさいがいはっせいをかんぜんによそくすることはありえない。",
+      "translation": {
+        "en": "Even if flawless safety measures are taken, completely predicting natural disaster occurrences is impossible.",
+        "my": "အပြည့်စုံဆုံး ဘေးကင်းရေး အစီအမံများ ပြုလုပ်ထားစေကာမူ သဘာဝဘေးအန္တရာယ် ဖြစ်ပွားမှုကို အပြည့်အဝ ကြိုတင်ခန့်မှန်းရန် မဖြစ်နိုင်ပေ။"
+      },
+      "translationMy": "အပြည့်စုံဆုံး ဘေးကင်းရေး အစီအမံများ ပြုလုပ်ထားစေကာမူ သဘာဝဘေးအန္တရာယ် ဖြစ်ပွားမှုကို အပြည့်အဝ ကြိုတင်ခန့်မှန်းရန် မဖြစ်နိုင်ပေ။",
+      "vocabIds": [
+        "n2.l14.v009",
+        "n2.l14.v008"
+      ],
+      "grammarIds": [
+        "n2.l14.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.s004",
+      "lessonId": "n2.l14",
+      "ja": "責任あるリーダーとして、失敗の責任を部下に押し付けて逃げるわけにはいかない。",
+      "kana": "せきにんあるりーだーとして、しっぱいのせきにんをぶかにおしつけてにげるわけにはいかない。",
+      "translation": {
+        "en": "As a responsible leader, I cannot afford to pin the blame for failure onto subordinates and flee.",
+        "my": "တာဝန်ရှိသော ခေါင်းဆောင်တစ်ဦးအနေဖြင့် မအောင်မြင်မှု၏ တာဝန်ကို လက်အောက်ငယ်သားများအပေါ် ပုံချပြီး ထွက်ပြေး၍ မဖြစ်နိုင်ပေ။"
+      },
+      "translationMy": "တာဝန်ရှိသော ခေါင်းဆောင်တစ်ဦးအနေဖြင့် မအောင်မြင်မှု၏ တာဝန်ကို လက်အောက်ငယ်သားများအပေါ် ပုံချပြီး ထွက်ပြေး၍ မဖြစ်နိုင်ပေ။",
+      "vocabIds": [
+        "n2.l14.v002",
+        "n2.l14.v005"
+      ],
+      "grammarIds": [
+        "n2.l14.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.s005",
+      "lessonId": "n2.l14",
+      "ja": "提示された条件はあまりにも一方的であり、弊社としては到底承諾いたしかねます。",
+      "kana": "ていじされたじょうけんはあまりにもいっぽうてきであり、へいしゃとしてはとうていしょうだくいたしかねます。",
+      "translation": {
+        "en": "The presented terms are far too one-sided, and as our company we are utterly unable to consent.",
+        "my": "တင်ပြလာသော စည်းကမ်းချက်များသည် တစ်ဖက်သတ် ဆန်လွန်းသဖြင့် ကျွန်ုပ်တို့ကုမ္ပဏီအနေဖြင့် မည်သို့မျှ သဘောတူလက်ခံပေးရန် မဖြစ်နိုင်ပါ။"
+      },
+      "translationMy": "တင်ပြလာသော စည်းကမ်းချက်များသည် တစ်ဖက်သတ် ဆန်လွန်းသဖြင့် ကျွန်ုပ်တို့ကုမ္ပဏီအနေဖြင့် မည်သို့မျှ သဘောတူလက်ခံပေးရန် မဖြစ်နိုင်ပါ။",
+      "vocabIds": [
+        "n2.l14.v003",
+        "n2.l14.v008"
+      ],
+      "grammarIds": [
+        "n2.l14.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.s006",
+      "lessonId": "n2.l14",
+      "ja": "科学的な根拠を欠いたままでは、その主張が社会的に容認されることはあり得ない。",
+      "kana": "かがくてきなこんきょをかいたままでは、そのしゅちょうがしゃかいてきにようにんされることはありえない。",
+      "translation": {
+        "en": "Lacking scientific grounds, it is impossible for that assertion to be socially tolerated.",
+        "my": "သိပ္ပံနည်းကျ အထောက်အထား မရှိဘဲနှင့် ထိုတောင်းဆိုချက်ကို လူ့အဖွဲ့အစည်းက လက်ခံခွင့်ပြုရန် မဖြစ်နိုင်ပေ။"
+      },
+      "translationMy": "သိပ္ပံနည်းကျ အထောက်အထား မရှိဘဲနှင့် ထိုတောင်းဆိုချက်ကို လူ့အဖွဲ့အစည်းက လက်ခံခွင့်ပြုရန် မဖြစ်နိုင်ပေ။",
+      "vocabIds": [
+        "n2.l14.v006",
+        "n2.l14.v008"
+      ],
+      "grammarIds": [
+        "n2.l14.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.s007",
+      "lessonId": "n2.l14",
+      "ja": "体調不良を押してでも、本日中にこの契約書に署名しないわけにはいかない。",
+      "kana": "たいちょうふりょうをおしてでも、ほんじつちゅうにこのけいやくしょにしょめいしないわけにはいかない。",
+      "translation": {
+        "en": "Even overcoming poor physical condition, I cannot avoid signing this contract today.",
+        "my": "နေမကောင်းဖြစ်နေသည့်တိုင် ယနေ့အတွင်း ဤစာချုပ်ကို လက်မှတ်မထိုးဘဲ နေ၍မဖြစ်ပေ။"
+      },
+      "translationMy": "နေမကောင်းဖြစ်နေသည့်တိုင် ယနေ့အတွင်း ဤစာချုပ်ကို လက်မှတ်မထိုးဘဲ နေ၍မဖြစ်ပေ။",
+      "vocabIds": [
+        "n2.l14.v002",
+        "n2.l14.v003"
+      ],
+      "grammarIds": [
+        "n2.l14.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.s008",
+      "lessonId": "n2.l14",
+      "ja": "社内規定により、個人的な理由での経費精算には応じかねますのでご了承ください。",
+      "kana": "しゃないきていにより、こじんてきなりゆうでのけいひせいさんにはおうじかねますのでごりょうしょうください。",
+      "translation": {
+        "en": "Due to company regulations, please understand that we cannot accommodate expense settlement for personal reasons.",
+        "my": "ကုမ္ပဏီစည်းမျဉ်းအရ ကိုယ်ရေးကိုယ်တာအကြောင်းပြချက်ဖြင့် ကုန်ကျစရိတ်ရှင်းပေးရန် မဖြစ်နိုင်ပါသဖြင့် နားလည်ပေးပါရန် မေတ္တာရပ်ခံပါသည်။"
+      },
+      "translationMy": "ကုမ္ပဏီစည်းမျဉ်းအရ ကိုယ်ရေးကိုယ်တာအကြောင်းပြချက်ဖြင့် ကုန်ကျစရိတ်ရှင်းပေးရန် မဖြစ်နိုင်ပါသဖြင့် နားလည်ပေးပါရန် မေတ္တာရပ်ခံပါသည်။",
+      "vocabIds": [
+        "n2.l14.v007",
+        "n2.l14.v012"
+      ],
+      "grammarIds": [
+        "n2.l14.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.s009",
+      "lessonId": "n2.l14",
+      "ja": "どれほど入念に準備しても、不測の事態が一切起きないとは言い得ない。",
+      "kana": "どれほどにゅうねんにじゅんびしても、ふそくのじたいがいっさいおきないとはいいえない。",
+      "translation": {
+        "en": "No matter how meticulously prepared, one cannot say unforeseen situations will not arise at all.",
+        "my": "မည်မျှပင် စေ့စပ်စွာ ပြင်ဆင်ထားစေကာမူ မမျှော်လင့်ထားသော အခြေအနေများ လုံးဝမဖြစ်ပေါ်နိုင်ဟု မပြောနိုင်ပေ။"
+      },
+      "translationMy": "မည်မျှပင် စေ့စပ်စွာ ပြင်ဆင်ထားစေကာမူ မမျှော်လင့်ထားသော အခြေအနေများ လုံးဝမဖြစ်ပေါ်နိုင်ဟု မပြောနိုင်ပေ။",
+      "vocabIds": [
+        "n2.l14.v009",
+        "n2.l14.v010"
+      ],
+      "grammarIds": [
+        "n2.l14.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.s010",
+      "lessonId": "n2.l14",
+      "ja": "試験本番で実力を発揮するためには、直前の体調管理を怠るわけにはいかない。",
+      "kana": "しけんほんばんでじつりょくをはっきするためには、ちょくぜんのたいちょうかんりをおこたるわけにはいかない。",
+      "translation": {
+        "en": "In order to demonstrate true ability in the real exam, one cannot afford to neglect health management right before.",
+        "my": "စာမေးပွဲအစစ်တွင် စွမ်းရည်ပြသနိုင်ရန်အတွက် စာမေးပွဲမတိုင်မီ ကျန်းမာရေးထိန်းသိမ်းမှုကို လျစ်လျူရှု၍ မဖြစ်ပေ။"
+      },
+      "translationMy": "စာမေးပွဲအစစ်တွင် စွမ်းရည်ပြသနိုင်ရန်အတွက် စာမေးပွဲမတိုင်မီ ကျန်းမာရေးထိန်းသိမ်းမှုကို လျစ်လျူရှု၍ မဖြစ်ပေ။",
+      "vocabIds": [
+        "n2.l14.v002",
+        "n2.l14.v005"
+      ],
+      "grammarIds": [
+        "n2.l14.g001"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.s011",
+      "lessonId": "n2.l14",
+      "ja": "プライバシー保護の観点から、ご本人以外の照会には応じかねる場合もございます。",
+      "kana": "ぷらいばしーほごのかんてんから、ごほんにんいがいのしょうかいにはおうじかねるばあいもございます。",
+      "translation": {
+        "en": "From the perspective of privacy protection, there are cases where we cannot respond to inquiries from persons other than the individual.",
+        "my": "ကိုယ်ရေးကိုယ်တာ အချက်အလက် ကာကွယ်ရေး ရှုထောင့်အရ ကာယကံရှင်မဟုတ်သော မေးမြန်းစုံစမ်းမှုများကို ဖြေကြားပေးရန် ခက်ခဲသော အခြေအနေများလည်း ရှိနိုင်ပါသည်။"
+      },
+      "translationMy": "ကိုယ်ရေးကိုယ်တာ အချက်အလက် ကာကွယ်ရေး ရှုထောင့်အရ ကာယကံရှင်မဟုတ်သော မေးမြန်းစုံစမ်းမှုများကို ဖြေကြားပေးရန် ခက်ခဲသော အခြေအနေများလည်း ရှိနိုင်ပါသည်။",
+      "vocabIds": [
+        "n2.l14.v001",
+        "n2.l14.v007"
+      ],
+      "grammarIds": [
+        "n2.l14.g002"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    },
+    {
+      "id": "n2.l14.s012",
+      "lessonId": "n2.l14",
+      "ja": "人命救助を最優先すべき局面において、躊躇や妥協は到底あり得ない。",
+      "kana": "じんめいきゅうじょをさいゆうせんすべききょくめんにおいて、ちゅうちょやだきょうはとうていありえない。",
+      "translation": {
+        "en": "In a situation where saving lives must take top priority, hesitation or compromise is utterly inconceivable.",
+        "my": "လူ့အသက်ကယ်ဆယ်ရေးကို ဦးစားပေးရမည့် အခြေအနေတွင် တွေဝေတုံ့ဆိုင်းမှု သို့မဟုတ် အလျှော့ပေးမှုသည် မည်သို့မျှ မဖြစ်နိုင်ပေ။"
+      },
+      "translationMy": "လူ့အသက်ကယ်ဆယ်ရေးကို ဦးစားပေးရမည့် အခြေအနေတွင် တွေဝေတုံ့ဆိုင်းမှု သို့မဟုတ် အလျှော့ပေးမှုသည် မည်သို့မျှ မဖြစ်နိုင်ပေ။",
+      "vocabIds": [
+        "n2.l14.v005",
+        "n2.l14.v011"
+      ],
+      "grammarIds": [
+        "n2.l14.g003"
+      ],
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-01T10:00:00Z",
+        "rev": 2
+      }
+    }
+  ],
+  "reading": {
+    "id": "n2.l14.r001",
+    "lessonId": "n2.l14",
+    "title": "プロフェッショナルとしての職務倫理と拒絶の勇気",
+    "level": "N2",
+    "text": "組織の中で業務を遂行する際、個人の感情や都合を理由にして責任ある職務を投げ出すわけにはいかない。しかし、上司の命令やクライアントの要求であっても、それが法規範や社会通念に明確に反する場合には、毅然として要請に応じかねると拒絶する勇気が必要である。コンプライアンスの遵守を無視した妥協の先に、健全な企業の存続はあり得ない。真のプロフェッショナルとは、困難な難局において何を引き受け、何を断固として拒絶すべきかを正しく見極められる人物である。",
+    "kanaText": "そしきのなかでぎょうむをすいこうするさい、こじんのかんじょうやつごうをりゆうにしてせきにんあるしょくむをなげだすわけにはいかない。しかし、じょうしのめいれいやくらいあんとようきゅうであっても、それがほうきはんやしゃかいつうねんにめいかくにはんするばあいには、きぜんとしてようせいにおうじかねるときょぜつするゆうきがひつようである。こんぷらいあんすのじゅんしゅをむししただきょうのさきに、けんぜんなきぎょうのそんぞくはありえない。しんのぷろふぇっしょなるとは、こんなんななんきょくにおいてなにをひきうけ、なにをだんことしてきょぜつすべきかをただしくみきわめられるじんぶつである。",
+    "translation": "အဖွဲ့အစည်းအတွင်း တာဝန်ထမ်းဆောင်ရာတွင် ပုဂ္ဂိုလ်ရေး ခံစားချက် သို့မဟုတ် အဆင်ပြေမှုကို အကြောင်းပြကာ တာဝန်ရှိသော အလုပ်ကို စွန့်ပစ်လိုက်၍ မဖြစ်နိုင်ပေ (わけにはいかない)။ သို့သော်လည်း အထက်လူကြီး၏ အမိန့် သို့မဟုတ် အပ်နှံသူ၏ တောင်းဆိုချက် ဖြစ်စေကာမူ ၎င်းသည် ဥပဒေစံနှုန်းများနှင့် လူမှုစည်းမျဉ်းများကို ထင်ရှားစွာ ဆန့်ကျင်နေပါက ခိုင်မာသော သဘောထားဖြင့် ထိုတောင်းဆိုချက်ကို မလိုက်လျောနိုင်ပါဟု (応じかねる) ငြင်းပယ်ရဲသော သတ္တိ လိုအပ်သည်။ ဥပဒေလိုက်နာမှုကို လျစ်လျူရှုထားသော အလျှော့ပေးမှု၏ အဆုံးတွင် ကျန်းမာခိုင်မာသော စီးပွားရေးလုပ်ငန်း ရေရှည်ရှင်သန်ရန် မဖြစ်နိုင်ပေ (あり得ない)။ စစ်မှန်သော ပရော်ဖက်ရှင်နယ်ဆိုသည်မှာ ခက်ခဲသော အကျပ်အတည်းများတွင် မည်သည့်အရာကို တာဝန်ယူရမည်၊ မည်သည့်အရာကို ပြတ်ပြတ်သားသား ငြင်းပယ်ရမည်ကို တိကျစွာ ခွဲခြားဆုံးဖြတ်နိုင်သော ပုဂ္ဂိုလ်သာ ဖြစ်ပေသည်။",
+    "translationMy": "အဖွဲ့အစည်းအတွင်း တာဝန်ထမ်းဆောင်ရာတွင် ပုဂ္ဂိုလ်ရေး ခံစားချက် သို့မဟုတ် အဆင်ပြေမှုကို အကြောင်းပြကာ တာဝန်ရှိသော အလုပ်ကို စွန့်ပစ်လိုက်၍ မဖြစ်နိုင်ပေ (わけにはいかない)။ သို့သော်လည်း အထက်လူကြီး၏ အမိန့် သို့မဟုတ် အပ်နှံသူ၏ တောင်းဆိုချက် ဖြစ်စေကာမူ ၎င်းသည် ဥပဒေစံနှုန်းများနှင့် လူမှုစည်းမျဉ်းများကို ထင်ရှားစွာ ဆန့်ကျင်နေပါက ခိုင်မာသော သဘောထားဖြင့် ထိုတောင်းဆိုချက်ကို မလိုက်လျောနိုင်ပါဟု (応じかねる) ငြင်းပယ်ရဲသော သတ္တိ လိုအပ်သည်။ ဥပဒေလိုက်နာမှုကို လျစ်လျူရှုထားသော အလျှော့ပေးမှု၏ အဆုံးတွင် ကျန်းမာခိုင်မာသော စီးပွားရေးလုပ်ငန်း ရေရှည်ရှင်သန်ရန် မဖြစ်နိုင်ပေ (あり得ない)။ စစ်မှန်သော ပရော်ဖက်ရှင်နယ်ဆိုသည်မှာ ခက်ခဲသော အကျပ်အတည်းများတွင် မည်သည့်အရာကို တာဝန်ယူရမည်၊ မည်သည့်အရာကို ပြတ်ပြတ်သားသား ငြင်းပယ်ရမည်ကို တိကျစွာ ခွဲခြားဆုံးဖြတ်နိုင်သော ပုဂ္ဂိုလ်သာ ဖြစ်ပေသည်။",
+    "questionIds": [
+      "n2.l14.q025",
+      "n2.l14.q026",
+      "n2.l14.q027"
+    ],
+    "difficulty": 4,
+    "glossary": [
+      {
+        "term": "職務倫理",
+        "reading": "しょくむりんり",
+        "meaning": "professional ethics / duty code",
+        "meaningMy": "professional ethics / duty code",
+        "meaningMyanmar": "professional ethics / duty code"
+      },
+      {
+        "term": "毅然",
+        "reading": "きぜん",
+        "meaning": "firm / resolute / undaunted",
+        "meaningMy": "firm / resolute / undaunted",
+        "meaningMyanmar": "firm / resolute / undaunted"
+      },
+      {
+        "term": "存続",
+        "reading": "そんぞく",
+        "meaning": "continuation / survival",
+        "meaningMy": "continuation / survival",
+        "meaningMyanmar": "continuation / survival"
+      }
+    ],
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "listening": {
+    "id": "n2.l14.lis001",
+    "lessonId": "n2.l14",
+    "title": "納期短縮の無理な要請への対応",
+    "level": "N2",
+    "audio": {
+      "kind": "tts",
+      "lang": "ja-JP"
+    },
+    "speakers": [
+      "営業部長・渡辺",
+      "工場長・本田"
+    ],
+    "transcript": "営業部長・渡辺: 本田工場長、大口取引先から納期を半月早めてほしいと強い要請があったんだが、何とかならないだろうか。\n工場長・本田: お気持ちは分かりますが、安全検査工程を省略するわけにはいきません。品質基準を無視した短縮はいたしかねます。\n営業部長・渡辺: 万が一、この取引を失うことになれば社業に甚大な影響が出るんだ。休日出勤で対応できないかね？\n工場長・本田: 機械の定期点検を止めて稼働させることは危険極まりなく、物理的にもあり得ません。顧客に誠意をもって事情を説明してください。",
+    "translation": "営業部長・渡辺: ဟွန်ဒါ စက်ရုံမှူး၊ အဓိကဖောက်သည်ကြီးဆီက ကုန်ပစ္စည်းပို့ရမည့်ရက်ကို ရက်သတ္တပတ်နှစ်ပတ်လောက် စောပို့ပေးဖို့ ပြင်းပြင်းထန်ထန် တောင်းဆိုလာလို့ တစ်နည်းနည်း မဖြစ်နိုင်ဘူးလားခင်ဗျာ။\n工場長・本田: ပြောချင်တာကို နားလည်ပေမဲ့ ဘေးကင်းရေး စစ်ဆေးမှုအဆင့်တွေကို ချန်လှပ်ထား၍ မဖြစ်ပါဘူး (わけにはいきません)။ အရည်အသွေးစံနှုန်းကို လျစ်လျူရှုပြီး ရက်တိုတောင်းပေးဖို့ မဖြစ်နိုင်ပါဘူး (いたしかねます)။\n営業部長・渡辺: မတော်တဆ ဒီအရောင်းအဝယ်ကို ဆုံးရှုံးသွားရင် ကုမ္ပဏီအတွက် ကြီးမားသော ထိခိုက်မှု ဖြစ်လာမယ်။ ပိတ်ရက် အလုပ်ဆင်းပြီး ဆောင်ရွက်ပေးလို့ မရဘူးလား။\n工場長・本田: စက်တွေ ပုံမှန်စစ်ဆေးမှုကို ရပ်ဆိုင်းပြီး ဆက်လည်ပတ်နေဖို့ဆိုတာ အလွန်အန္တရာယ်များပြီး လက်တွေ့သဘောအရလည်း လုံးဝမဖြစ်နိုင်ပါဘူး (あり得ません)။ ဖောက်သည်ကို သစ္စာရှိရှိ အခြေအနေ ရှင်းပြပေးပါ။",
+    "translationMy": "営業部長・渡辺: ဟွန်ဒါ စက်ရုံမှူး၊ အဓိကဖောက်သည်ကြီးဆီက ကုန်ပစ္စည်းပို့ရမည့်ရက်ကို ရက်သတ္တပတ်နှစ်ပတ်လောက် စောပို့ပေးဖို့ ပြင်းပြင်းထန်ထန် တောင်းဆိုလာလို့ တစ်နည်းနည်း မဖြစ်နိုင်ဘူးလားခင်ဗျာ။\n工場長・本田: ပြောချင်တာကို နားလည်ပေမဲ့ ဘေးကင်းရေး စစ်ဆေးမှုအဆင့်တွေကို ချန်လှပ်ထား၍ မဖြစ်ပါဘူး (わけにはいきません)။ အရည်အသွေးစံနှုန်းကို လျစ်လျူရှုပြီး ရက်တိုတောင်းပေးဖို့ မဖြစ်နိုင်ပါဘူး (いたしかねます)။\n営業部長・渡辺: မတော်တဆ ဒီအရောင်းအဝယ်ကို ဆုံးရှုံးသွားရင် ကုမ္ပဏီအတွက် ကြီးမားသော ထိခိုက်မှု ဖြစ်လာမယ်။ ပိတ်ရက် အလုပ်ဆင်းပြီး ဆောင်ရွက်ပေးလို့ မရဘူးလား။\n工場長・本田: စက်တွေ ပုံမှန်စစ်ဆေးမှုကို ရပ်ဆိုင်းပြီး ဆက်လည်ပတ်နေဖို့ဆိုတာ အလွန်အန္တရာယ်များပြီး လက်တွေ့သဘောအရလည်း လုံးဝမဖြစ်နိုင်ပါဘူး (あり得ません)။ ဖောက်သည်ကို သစ္စာရှိရှိ အခြေအနေ ရှင်းပြပေးပါ။",
+    "turns": [
+      {
+        "speaker": "営業部長・渡辺",
+        "ja": "本田工場長、大口取引先から納期を半月早めてほしいと強い要請があったんだが、何とかならないだろうか。",
+        "kana": "ほんだこうじょうちょう、おおぐちとりひきさきからのうきをはんつきはやめてほしいとつよいようせいがあったんだが、なんとかならないだろうか。",
+        "en": "Factory Director Honda, there was a strong request from a major client wanting to advance the delivery date by half a month; couldn't we manage it somehow?",
+        "my": "ဟွန်ဒါ စက်ရုံမှူး၊ အဓိကဖောက်သည်ကြီးဆီက ကုန်ပစ္စည်းပို့ရမည့်ရက်ကို ရက်သတ္တပတ်နှစ်ပတ်လောက် စောပို့ပေးဖို့ ပြင်းပြင်းထန်ထန် တောင်းဆိုလာလို့ တစ်နည်းနည်း မဖြစ်နိုင်ဘူးလားခင်ဗျာ။",
+        "translationMy": "ဟွန်ဒါ စက်ရုံမှူး၊ အဓိကဖောက်သည်ကြီးဆီက ကုန်ပစ္စည်းပို့ရမည့်ရက်ကို ရက်သတ္တပတ်နှစ်ပတ်လောက် စောပို့ပေးဖို့ ပြင်းပြင်းထန်ထန် တောင်းဆိုလာလို့ တစ်နည်းနည်း မဖြစ်နိုင်ဘူးလားခင်ဗျာ။",
+        "myanmar": "ဟွန်ဒါ စက်ရုံမှူး၊ အဓိကဖောက်သည်ကြီးဆီက ကုန်ပစ္စည်းပို့ရမည့်ရက်ကို ရက်သတ္တပတ်နှစ်ပတ်လောက် စောပို့ပေးဖို့ ပြင်းပြင်းထန်ထန် တောင်းဆိုလာလို့ တစ်နည်းနည်း မဖြစ်နိုင်ဘူးလားခင်ဗျာ။"
+      },
+      {
+        "speaker": "工場長・本田",
+        "ja": "お気持ちは分かりますが、安全検査工程を省略するわけにはいきません。品質基準を無視した短縮はいたしかねます。",
+        "kana": "おきもちはわかりますが、あんぜんけんさこうていをしょうりゃくするわけにはいきません。ひんしつきじゅんをむししたたんしゅくはいたしかねます。",
+        "en": "I understand your feeling, but we cannot afford to omit safety inspection processes. We cannot shorten the deadline while ignoring quality standards.",
+        "my": "ပြောချင်တာကို နားလည်ပေမဲ့ ဘေးကင်းရေး စစ်ဆေးမှုအဆင့်တွေကို ချန်လှပ်ထား၍ မဖြစ်ပါဘူး (わけにはいきません)။ အရည်အသွေးစံနှုန်းကို လျစ်လျူရှုပြီး ရက်တိုတောင်းပေးဖို့ မဖြစ်နိုင်ပါဘူး (いたしかねます)။",
+        "translationMy": "ပြောချင်တာကို နားလည်ပေမဲ့ ဘေးကင်းရေး စစ်ဆေးမှုအဆင့်တွေကို ချန်လှပ်ထား၍ မဖြစ်ပါဘူး (わけにはいきません)။ အရည်အသွေးစံနှုန်းကို လျစ်လျူရှုပြီး ရက်တိုတောင်းပေးဖို့ မဖြစ်နိုင်ပါဘူး (いたしかねます)။",
+        "myanmar": "ပြောချင်တာကို နားလည်ပေမဲ့ ဘေးကင်းရေး စစ်ဆေးမှုအဆင့်တွေကို ချန်လှပ်ထား၍ မဖြစ်ပါဘူး (わけにはいきません)။ အရည်အသွေးစံနှုန်းကို လျစ်လျူရှုပြီး ရက်တိုတောင်းပေးဖို့ မဖြစ်နိုင်ပါဘူး (いたしかねます)။"
+      },
+      {
+        "speaker": "営業部長・渡辺",
+        "ja": "万が一、この取引を失うことになれば社業に甚大な影響が出るんだ。休日出勤で対応できないかね？",
+        "kana": "まんがいち、このとりひきをうしなうことになればしゃぎょうにじんだいなえいきょうがでるんだ。きゅうじつしゅっきんでたいおうできないかね？",
+        "en": "If by any chance we lose this contract, it will exert enormous impact on company business. Couldn't you cope through holiday shifts?",
+        "my": "မတော်တဆ ဒီအရောင်းအဝယ်ကို ဆုံးရှုံးသွားရင် ကုမ္ပဏီအတွက် ကြီးမားသော ထိခိုက်မှု ဖြစ်လာမယ်။ ပိတ်ရက် အလုပ်ဆင်းပြီး ဆောင်ရွက်ပေးလို့ မရဘူးလား။",
+        "translationMy": "မတော်တဆ ဒီအရောင်းအဝယ်ကို ဆုံးရှုံးသွားရင် ကုမ္ပဏီအတွက် ကြီးမားသော ထိခိုက်မှု ဖြစ်လာမယ်။ ပိတ်ရက် အလုပ်ဆင်းပြီး ဆောင်ရွက်ပေးလို့ မရဘူးလား။",
+        "myanmar": "မတော်တဆ ဒီအရောင်းအဝယ်ကို ဆုံးရှုံးသွားရင် ကုမ္ပဏီအတွက် ကြီးမားသော ထိခိုက်မှု ဖြစ်လာမယ်။ ပိတ်ရက် အလုပ်ဆင်းပြီး ဆောင်ရွက်ပေးလို့ မရဘူးလား။"
+      },
+      {
+        "speaker": "工場長・本田",
+        "ja": "機械の定期点検を止めて稼働させることは危険極まりなく、物理的にもあり得ません。顧客に誠意をもって事情を説明してください。",
+        "kana": "きかいのていきてんけんをとめてかどうさせることはきけんきわまりなく、ぶつりてきにもありえません。こきゃくにせいいをもってじじょうをせつめいしてください。",
+        "en": "Halting periodic machine maintenance and operating them is exceedingly hazardous and physically impossible. Please explain circumstances sincerely to the client.",
+        "my": "စက်တွေ ပုံမှန်စစ်ဆေးမှုကို ရပ်ဆိုင်းပြီး ဆက်လည်ပတ်နေဖို့ဆိုတာ အလွန်အန္တရာယ်များပြီး လက်တွေ့သဘောအရလည်း လုံးဝမဖြစ်နိုင်ပါဘူး (あり得ません)။ ဖောက်သည်ကို သစ္စာရှိရှိ အခြေအနေ ရှင်းပြပေးပါ။",
+        "translationMy": "စက်တွေ ပုံမှန်စစ်ဆေးမှုကို ရပ်ဆိုင်းပြီး ဆက်လည်ပတ်နေဖို့ဆိုတာ အလွန်အန္တရာယ်များပြီး လက်တွေ့သဘောအရလည်း လုံးဝမဖြစ်နိုင်ပါဘူး (あり得ません)။ ဖောက်သည်ကို သစ္စာရှိရှိ အခြေအနေ ရှင်းပြပေးပါ။",
+        "myanmar": "စက်တွေ ပုံမှန်စစ်ဆေးမှုကို ရပ်ဆိုင်းပြီး ဆက်လည်ပတ်နေဖို့ဆိုတာ အလွန်အန္တရာယ်များပြီး လက်တွေ့သဘောအရလည်း လုံးဝမဖြစ်နိုင်ပါဘူး (あり得ません)။ ဖောက်သည်ကို သစ္စာရှိရှိ အခြေအနေ ရှင်းပြပေးပါ။"
+      }
+    ],
+    "questionIds": [
+      "n2.l14.q028",
+      "n2.l14.q029",
+      "n2.l14.q030"
+    ],
+    "difficulty": 4,
+    "prov": {
+      "source": "Nihongo N2 Master Editorial Team",
+      "license": "CC-BY-4.0",
+      "status": "native_verified",
+      "updatedAt": "2026-11-01T10:00:00Z",
+      "rev": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "n2.l14.q001",
+      "lessonId": "n2.l14",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「法外な要求に対して毅然たる態度で（　）を示した。」",
+      "choices": [
+        "拒絶",
+        "承諾",
+        "妥協",
+        "躊躇"
+      ],
+      "answer": "拒絶",
+      "explanation": "「拒絶（きょぜつ）」は要求を断り受け付けないことです。",
+      "explanationMy": "ငြင်းပယ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.v001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q002",
+      "lessonId": "n2.l14",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「数々の（　）を乗り越えて事業を軌道に乗せた。」",
+      "choices": [
+        "困難",
+        "厳禁",
+        "辞退",
+        "遺憾"
+      ],
+      "answer": "困難",
+      "explanation": "「困難（こんなん）」は苦しみや難渋を表します。",
+      "explanationMy": "အခက်အခဲကြုံတွေ့ရခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.v002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q003",
+      "lessonId": "n2.l14",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「相手方の提案を快く（　）し、合意文書を交わした。」",
+      "choices": [
+        "承諾",
+        "拒絶",
+        "辞退",
+        "躊躇"
+      ],
+      "answer": "承諾",
+      "explanation": "「承諾（しょうだく）」は引き受けること・承知することです。",
+      "explanationMy": "သဘောတူလက်ခံခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.v003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q004",
+      "lessonId": "n2.l14",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「体調不良を理由に役員の就任要請を（　）した。」",
+      "choices": [
+        "辞退",
+        "承諾",
+        "容認",
+        "構築"
+      ],
+      "answer": "辞退",
+      "explanation": "「辞退（じたい）」は勧められた地位や権利を断ることです。",
+      "explanationMy": "ယဉ်ကျေးစွာ ငြင်းပယ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.v004"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q005",
+      "lessonId": "n2.l14",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「重大な決断を前にして一瞬（　）したが、前進を選んだ。」",
+      "choices": [
+        "躊躇",
+        "容認",
+        "拒絶",
+        "厳禁"
+      ],
+      "answer": "躊躇",
+      "explanation": "「躊躇（ちゅうちょ）」はためらうこと・ぐずぐず迷うことです。",
+      "explanationMy": "တွေဝေတုံ့ဆိုင်းခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.v005"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q006",
+      "lessonId": "n2.l14",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「危険区域への立ち入りは法律により（　）されている。」",
+      "choices": [
+        "厳禁",
+        "容認",
+        "躊躇",
+        "妥当"
+      ],
+      "answer": "厳禁",
+      "explanation": "「厳禁（げんきん）」は厳しく禁止することです。",
+      "explanationMy": "တင်းကျပ်စွာ တားမြစ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.v007"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q007",
+      "lessonId": "n2.l14",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「このような不正行為は社会通念上（　）容認できない。」",
+      "choices": [
+        "到底",
+        "著しく",
+        "相反して",
+        "次第に"
+      ],
+      "answer": "到底",
+      "explanation": "「到底（とうてい）」は（下に打消しを伴って）どうしても〜ない。",
+      "explanationMy": "မည်သို့မျှ မဖြစ်နိုင်သော ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.v008"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q008",
+      "lessonId": "n2.l14",
+      "skill": "vocab",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「技術革新に伴う産業構造の転換は歴史的に見て（　）である。」",
+      "choices": [
+        "不可避",
+        "妥当",
+        "著しい",
+        "遺憾"
+      ],
+      "answer": "不可避",
+      "explanation": "「不可避（ふかひ）」は避けることができないことです。",
+      "explanationMy": "မလွှဲမရှောင်သာသော ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.v009"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q009",
+      "lessonId": "n2.l14",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「提案を<u>きょぜつ</u>する。」",
+      "choices": [
+        "拒絶",
+        "距絶",
+        "拠絶",
+        "拒切"
+      ],
+      "answer": "拒絶",
+      "explanation": "「拒絶」は「きょぜつ」と読みます。",
+      "explanationMy": "拒絶 ၏ အသံထွက်မှာ きょぜつ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q010",
+      "lessonId": "n2.l14",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「事態が<u>なんこう</u>する。」",
+      "choices": [
+        "難航",
+        "難行",
+        "難降",
+        "南航"
+      ],
+      "answer": "難航",
+      "explanation": "「難航」は「なんこう」と読みます。",
+      "explanationMy": "難航 ၏ အသံထွက်မှာ なんこう ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q011",
+      "lessonId": "n2.l14",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の漢字の読み方として正しいものを選びなさい。\n「火気<u>げんきん</u>の作業場。」",
+      "choices": [
+        "厳禁",
+        "言禁",
+        "原禁",
+        "限禁"
+      ],
+      "answer": "厳禁",
+      "explanation": "「厳禁」は「げんきん」と読みます。",
+      "explanationMy": "厳禁 ၏ အသံထွက်မှာ げんきん ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q012",
+      "lessonId": "n2.l14",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "「拒」という漢字の部首として正しいものを選びなさい。",
+      "choices": [
+        "てへん（扌）",
+        "きへん（木）",
+        "こざとへん（阝）",
+        "ゆみへん（弓）"
+      ],
+      "answer": "てへん（扌）",
+      "explanation": "「拒」の部首は「てへん（扌）」です。",
+      "explanationMy": "「拒」၏ အစိတ်အပိုင်းမှာ '扌' ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.k001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q013",
+      "lessonId": "n2.l14",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の漢字表記として正しいものを選びなさい。\n「<u>こんなん</u>な状況を打開する。」",
+      "choices": [
+        "困難",
+        "困灘",
+        "困南",
+        "困男"
+      ],
+      "answer": "困難",
+      "explanation": "「こんなん」の漢字表記は「困難」です。",
+      "explanationMy": "こんなん ၏ ခန်ဂျီမှာ 困難 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.k002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q014",
+      "lessonId": "n2.l14",
+      "skill": "kanji",
+      "type": "multiple_choice",
+      "prompt": "下線部の言葉の漢字表記として正しいものを選びなさい。\n「駐車<u>きんし</u>の標識。」",
+      "choices": [
+        "禁止",
+        "禁使",
+        "禁支",
+        "緊止"
+      ],
+      "answer": "禁止",
+      "explanation": "「きんし」の漢字表記は「禁止」です。",
+      "explanationMy": "きんし ၏ ခန်ဂျီမှာ 禁止 ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.k003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q015",
+      "lessonId": "n2.l14",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「親友の結婚式だから、どんなに忙しくても出席しない（　）。」",
+      "choices": [
+        "わけにはいかない",
+        "かねる",
+        "得ない",
+        "反面"
+      ],
+      "answer": "わけにはいかない",
+      "explanation": "義理や親交の観点から出席せざるを得ないことを表すので「わけにはいかない」が適切です。",
+      "explanationMy": "လူမှုရေးအရ မတက်ရောက်ဘဲ မနေနိုင်ပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q016",
+      "lessonId": "n2.l14",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「申し訳ございませんが、そのご要望にはお応え（　）。」",
+      "choices": [
+        "しかねます",
+        "すわけにはいきません",
+        "し得ません",
+        "する反面です"
+      ],
+      "answer": "しかねます",
+      "explanation": "改まったビジネス場面での丁重な断りなので「かねます」が適切です。",
+      "explanationMy": "ယဉ်ကျေးစွာ ငြင်းပယ်သည့် စကားဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q017",
+      "lessonId": "n2.l14",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「そのような初歩的なミスはプロとしてあり（　）。」",
+      "choices": [
+        "得ない",
+        "かねる",
+        "わけにはいかない",
+        "一方だ"
+      ],
+      "answer": "得ない",
+      "explanation": "論理的・常識的に起こるはずがない絶対的不可能性なので「得ない」が適切です。",
+      "explanationMy": "လုံးဝမဖြစ်နိုင်ပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q018",
+      "lessonId": "n2.l14",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「病気の同僚を置いて自分だけ先に帰る（　）。」",
+      "choices": [
+        "わけにはいかない",
+        "かねる",
+        "得ない",
+        "次第だ"
+      ],
+      "answer": "わけにはいかない",
+      "explanation": "道義的・良心的な理由から帰れないことを表すので「わけにはいかない」が適切です。",
+      "explanationMy": "ကျင့်ဝတ်အရ ထားပြီး ပြန်၍မဖြစ်နိုင်ပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q019",
+      "lessonId": "n2.l14",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「私の一存では決め（　）ので、上司に相談いたします。」",
+      "choices": [
+        "かねます",
+        "るわけにはいきません",
+        "得ません",
+        "がちです"
+      ],
+      "answer": "かねます",
+      "explanation": "自分だけの判断では対応できないという丁重な表現は「かねます」です。",
+      "explanationMy": "မိမိတစ်ဦးတည်းဖြင့် မဆုံးဖြတ်နိုင်ပါဟု ငြင်းခြင်းဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q020",
+      "lessonId": "n2.l14",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「どんな精密機器でも絶対に故障しないとは言い（　）。」",
+      "choices": [
+        "得ない",
+        "かねる",
+        "わけにはいかない",
+        "あまり"
+      ],
+      "answer": "得ない",
+      "explanation": "可能性を全面的に否定することはできないので「言い得ない」が適切です。",
+      "explanationMy": "ထိုသို့ လုံးဝမပြောနိုင်ပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q021",
+      "lessonId": "n2.l14",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「法律で定められた義務を怠る（　）。」",
+      "choices": [
+        "わけにはいかない",
+        "かねる",
+        "得ない",
+        "どころではない"
+      ],
+      "answer": "わけにはいかない",
+      "explanation": "法的義務として遵守しなければならないことを表します。",
+      "explanationMy": "ဥပဒေတာဝန်ကို ပေါ့ဆ၍ မဖြစ်နိုင်ပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q022",
+      "lessonId": "n2.l14",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「安全性が立証されるまでは、その方針に賛成（　）。」",
+      "choices": [
+        "しかねる",
+        "す得ない",
+        "すわけにはいかない",
+        "反面だ"
+      ],
+      "answer": "しかねる",
+      "explanation": "心理的抵抗や方針として賛成しづらいことを表す「かねる」が適切です。",
+      "explanationMy": "သဘောတူပေးရန် ခက်ခဲပါသည် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q023",
+      "lessonId": "n2.l14",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "文中の（　）に入れるのに最も適切なものを選びなさい。\n「太陽が西から昇ることは物理的にあり（　）。」",
+      "choices": [
+        "得ない",
+        "かねる",
+        "わけにはいかない",
+        "にすぎない"
+      ],
+      "answer": "得ない",
+      "explanation": "自然の摂理として絶対に不可能な事柄を表すので「得ない」が適切です。",
+      "explanationMy": "ရူပဗေဒအရ လုံးဝမဖြစ်နိုင်ပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g003"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q024",
+      "lessonId": "n2.l14",
+      "skill": "grammar",
+      "type": "multiple_choice",
+      "prompt": "「〜かねる」の用法として最も自然な文を選びなさい。",
+      "choices": [
+        "採用の合否結果につきましては、メールではお答えいたしかねます。",
+        "私は明日から旅行に行きかねる予定です。",
+        "とても疲れたので今日は早く寝かねます。",
+        "このペンは非常に書きやすくて使いかねる。"
+      ],
+      "answer": "採用の合否結果につきましては、メールではお答えいたしかねます。",
+      "explanation": "断りや辞退の意を表す改まった表現として正しく機能しています。",
+      "explanationMy": "အီးမေးလ်ဖြင့် အကြောင်းပြန်ပေးရန် မဖြစ်နိုင်ပါဟု ယဉ်ကျေးစွာ ငြင်းပယ်ခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q025",
+      "lessonId": "n2.l14",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "本文において、組織の中で個人の感情を理由にしてはならないこととして述べられているのは何か。",
+      "choices": [
+        "責任ある職務を勝手に投げ出すこと。",
+        "同僚とのランチミーティングに参加すること。",
+        "業務改善の提案書を提出すること。",
+        "休暇届を事前に申請すること。"
+      ],
+      "answer": "責任ある職務を勝手に投げ出すこと。",
+      "explanation": "本文第1文で「個人の感情や都合を理由にして責任ある職務を投げ出すわけにはいかない」とあります。",
+      "explanationMy": "တာဝန်ရှိသော အလုပ်တာဝန်ကို စွန့်ပစ်လိုက်၍ မဖြစ်နိုင်ပေ။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q026",
+      "lessonId": "n2.l14",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "法規範に反する命令や要求に対して求められる姿勢は何か。",
+      "choices": [
+        "毅然として応じかねると拒絶する勇気を持つこと。",
+        "無条件に服従して違法行為を隠蔽すること。",
+        "責任をすべて同僚に転嫁すること。",
+        "報酬の増額を要求して妥協すること。"
+      ],
+      "answer": "毅然として応じかねると拒絶する勇気を持つこと。",
+      "explanation": "本文第2文で「毅然として要請に応じかねると拒絶する勇気が必要である」と述べられています。",
+      "explanationMy": "မလိုက်လျောနိုင်ပါဟု ပြတ်ပြတ်သားသား ငြင်းပယ်ရဲသော သတ္တိ ရှိရမည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q027",
+      "lessonId": "n2.l14",
+      "skill": "reading",
+      "type": "multiple_choice",
+      "prompt": "筆者が考える「真のプロフェッショナル」の定義はどれか。",
+      "choices": [
+        "何を引き受け、何を断固拒絶すべきかを正しく見極められる人物。",
+        "どんな困難な仕事も絶対に断らずにすべて引き受ける人物。",
+        "利益のためなら法令違反の妥協も厭わない人物。",
+        "責任ある仕事を他人にすべて委託して自分は何もしない人物。"
+      ],
+      "answer": "何を引き受け、何を断固拒絶すべきかを正しく見極められる人物。",
+      "explanation": "本文最終文で「何を引き受け、何を断固として拒絶すべきかを正しく見極められる人物である」と総括されています。",
+      "explanationMy": "မည်သည့်အရာကို တာဝန်ယူပြီး မည်သည့်အရာကို ငြင်းပယ်ရမည်ကို တိကျစွာ ခွဲခြားနိုင်သူ ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g001"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q028",
+      "lessonId": "n2.l14",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "営業部長が工場長に強く要請した内容は何か。",
+      "choices": [
+        "大口取引先のために納期を半月早めること。",
+        "新製品の販売価格を半額に値下げすること。",
+        "工場の人員を半分に削減すること。",
+        "安全検査の回数を倍に増やすこと。"
+      ],
+      "answer": "大口取引先のために納期を半月早めること。",
+      "explanation": "渡辺部長が「納期を半月早めてほしいと強い要請があった」と述べています。",
+      "explanationMy": "ဖောက်သည်ကြီးအတွက် ပစ္စည်းပို့ရက်ကို ရက်သတ္တပတ်နှစ်ပတ် စောပို့ပေးရန် တောင်းဆိုခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q029",
+      "lessonId": "n2.l14",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "工場長が納期短縮を承諾できない理由として挙げたのは何か。",
+      "choices": [
+        "安全検査工程の省略や品質基準の無視はできないため。",
+        "工場の作業員全員が有給休暇を取っているため。",
+        "原材料の在庫が完全にゼロになったため。",
+        "営業部長の態度が失礼だったため。"
+      ],
+      "answer": "安全検査工程の省略や品質基準の無視はできないため。",
+      "explanation": "本田工場長が「安全検査工程を省略するわけにはいきません。品質基準を無視した短縮はいたしかねます」と答えています。",
+      "explanationMy": "ဘေးကင်းရေး စစ်ဆေးမှုနှင့် အရည်အသွေးစံနှုန်းကို ချန်လှပ်၍ မဖြစ်သောကြောင့် ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g002"
+      ],
+      "generated": false
+    },
+    {
+      "id": "n2.l14.q030",
+      "lessonId": "n2.l14",
+      "skill": "listening",
+      "type": "multiple_choice",
+      "prompt": "工場長が「物理的にもあり得ない」と断言した行為は何か。",
+      "choices": [
+        "機械の定期点検を止めて無理に稼働させること。",
+        "休日出勤の手当を通常の2倍支給すること。",
+        "取引先へ工場長自ら謝罪に出向くこと。",
+        "別の工場へ生産を委託すること。"
+      ],
+      "answer": "機械の定期点検を止めて無理に稼働させること。",
+      "explanation": "本田工場長が「機械の定期点検を止めて稼働させることは危険極まりなく、物理的にもあり得ません」と断言しています。",
+      "explanationMy": "စက်များ ပုံမှန်စစ်ဆေးမှုကို ရပ်ဆိုင်းကာ အတင်းအကျပ် ဆက်လက်လည်ပတ်စေခြင်း ဖြစ်သည်။",
+      "difficulty": 4,
+      "linkedItemIds": [
+        "n2.l14.g002"
+      ],
+      "generated": false
+    }
+  ],
+  "prov": {
+    "source": "Nihongo N2 Master Editorial Team",
+    "license": "CC-BY-4.0",
+    "status": "native_verified",
+    "updatedAt": "2026-11-01T10:00:00Z",
+    "rev": 2
+  }
+};
