@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "အိပ်မက်",
       "meaningMy": "အိပ်မက်",
-      "myanmar": "အိပ်မက်"
+      "myanmar": "အိပ်မက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l23.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "ကခုန်သည်",
       "meaningMy": "ကခုန်သည်",
-      "myanmar": "ကခုန်သည်"
+      "myanmar": "ကခုန်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l23.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "လိုက်ဖက်သည်/တင့်တယ်သည်",
       "meaningMy": "လိုက်ဖက်သည်/တင့်တယ်သည်",
-      "myanmar": "လိုက်ဖက်သည်/တင့်တယ်သည်"
+      "myanmar": "လိုက်ဖက်သည်/တင့်တယ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l23.v004",
@@ -133,7 +139,9 @@
       },
       "meaningMyanmar": "ရုပ်သေး/အရုပ်",
       "meaningMy": "ရုပ်သေး/အရုပ်",
-      "myanmar": "ရုပ်သေး/အရုပ်"
+      "myanmar": "ရုပ်သေး/အရုပ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l23.v005",
@@ -161,7 +169,9 @@
       },
       "meaningMyanmar": "ကာတွန်း/မန်ဂါ",
       "meaningMy": "ကာတွန်း/မန်ဂါ",
-      "myanmar": "ကာတွန်း/မန်ဂါ"
+      "myanmar": "ကာတွန်း/မန်ဂါ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l23.v006",
@@ -189,7 +199,9 @@
       },
       "meaningMyanmar": "သရုပ်ဆောင်/ရုပ်ရှင်မင်းသား/မင်းသမီး",
       "meaningMy": "သရုပ်ဆောင်/ရုပ်ရှင်မင်းသား/မင်းသမီး",
-      "myanmar": "သရုပ်ဆောင်/ရုပ်ရှင်မင်းသား/မင်းသမီး"
+      "myanmar": "သရုပ်ဆောင်/ရုပ်ရှင်မင်းသား/မင်းသမီး",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l23.v007",
@@ -217,7 +229,9 @@
       },
       "meaningMyanmar": "ကစားစရာအရုပ်",
       "meaningMy": "ကစားစရာအရုပ်",
-      "myanmar": "ကစားစရာအရုပ်"
+      "myanmar": "ကစားစရာအရုပ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l23.v008",
@@ -245,7 +259,9 @@
       },
       "meaningMyanmar": "မုသား/လိမ်ညာစကား",
       "meaningMy": "မုသား/လိမ်ညာစကား",
-      "myanmar": "မုသား/လိမ်ညာစကား"
+      "myanmar": "မုသား/လိမ်ညာစကား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l23.v009",
@@ -273,7 +289,9 @@
       },
       "meaningMyanmar": "ဟာသ/နောက်ပြောင်စကား",
       "meaningMy": "ဟာသ/နောက်ပြောင်စကား",
-      "myanmar": "ဟာသ/နောက်ပြောင်စကား"
+      "myanmar": "ဟာသ/နောက်ပြောင်စကား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l23.v010",
@@ -301,7 +319,9 @@
       },
       "meaningMyanmar": "ဘဏ္ဍာ/တန်ဖိုးရှိသောပစ္စည်း",
       "meaningMy": "ဘဏ္ဍာ/တန်ဖိုးရှိသောပစ္စည်း",
-      "myanmar": "ဘဏ္ဍာ/တန်ဖိုးရှိသောပစ္စည်း"
+      "myanmar": "ဘဏ္ဍာ/တန်ဖိုးရှိသောပစ္စည်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l23.v011",
@@ -329,7 +349,9 @@
       },
       "meaningMyanmar": "အလေးအနက်/အမှန်တကယ်",
       "meaningMy": "အလေးအနက်/အမှန်တကယ်",
-      "myanmar": "အလေးအနက်/အမှန်တကယ်"
+      "myanmar": "အလေးအနက်/အမှန်တကယ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l23.v012",
@@ -357,7 +379,9 @@
       },
       "meaningMyanmar": "ဝတ်စားဆင်ယင်မှု/ပုံပန်းသွင်ပြင်",
       "meaningMy": "ဝတ်စားဆင်ယင်မှု/ပုံပန်းသွင်ပြင်",
-      "myanmar": "ဝတ်စားဆင်ယင်မှု/ပုံပန်းသွင်ပြင်"
+      "myanmar": "ဝတ်စားဆင်ယင်မှု/ပုံပန်းသွင်ပြင်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

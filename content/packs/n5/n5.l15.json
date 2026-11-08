@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "မတ်တပ်ရပ်သည်",
       "meaningMy": "မတ်တပ်ရပ်သည်",
-      "myanmar": "မတ်တပ်ရပ်သည်"
+      "myanmar": "မတ်တပ်ရပ်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l15.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "ထိုင်သည်",
       "meaningMy": "ထိုင်သည်",
-      "myanmar": "ထိုင်သည်"
+      "myanmar": "ထိုင်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l15.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "အသုံးပြုသည်",
       "meaningMy": "အသုံးပြုသည်",
-      "myanmar": "အသုံးပြုသည်"
+      "myanmar": "အသုံးပြုသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l15.v004",
@@ -133,7 +139,9 @@
       },
       "meaningMyanmar": "အလျင်လိုသည် / အမြန်လုပ်သည်",
       "meaningMy": "အလျင်လိုသည် / အမြန်လုပ်သည်",
-      "myanmar": "အလျင်လိုသည် / အမြန်လုပ်သည်"
+      "myanmar": "အလျင်လိုသည် / အမြန်လုပ်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l15.v005",
@@ -161,7 +169,9 @@
       },
       "meaningMyanmar": "ဖွင့်သည်",
       "meaningMy": "ဖွင့်သည်",
-      "myanmar": "ဖွင့်သည်"
+      "myanmar": "ဖွင့်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l15.v006",
@@ -189,7 +199,9 @@
       },
       "meaningMyanmar": "ပိတ်သည်",
       "meaningMy": "ပိတ်သည်",
-      "myanmar": "ပိတ်သည်"
+      "myanmar": "ပိတ်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l15.v007",
@@ -217,7 +229,9 @@
       },
       "meaningMyanmar": "မီးဖွင့်သည် / စက်ဖွင့်သည်",
       "meaningMy": "မီးဖွင့်သည် / စက်ဖွင့်သည်",
-      "myanmar": "မီးဖွင့်သည် / စက်ဖွင့်သည်"
+      "myanmar": "မီးဖွင့်သည် / စက်ဖွင့်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l15.v008",
@@ -245,7 +259,9 @@
       },
       "meaningMyanmar": "မီးပိတ်သည် / ဖျက်သည်",
       "meaningMy": "မီးပိတ်သည် / ဖျက်သည်",
-      "myanmar": "မီးပိတ်သည် / ဖျက်သည်"
+      "myanmar": "မီးပိတ်သည် / ဖျက်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l15.v009",
@@ -273,7 +289,9 @@
       },
       "meaningMyanmar": "ကူညီသည်",
       "meaningMy": "ကူညီသည်",
-      "myanmar": "ကူညီသည်"
+      "myanmar": "ကူညီသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
     },
     {
       "id": "n5.l15.v010",
@@ -301,7 +319,9 @@
       },
       "meaningMyanmar": "ခေါ်သည်",
       "meaningMy": "ခေါ်သည်",
-      "myanmar": "ခေါ်သည်"
+      "myanmar": "ခေါ်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l15.v011",
@@ -329,7 +349,9 @@
       },
       "meaningMyanmar": "အဲကွန်း",
       "meaningMy": "အဲကွန်း",
-      "myanmar": "အဲကွန်း"
+      "myanmar": "အဲကွန်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l15.v012",
@@ -357,7 +379,9 @@
       },
       "meaningMyanmar": "ခဏလောက် / နည်းနည်း",
       "meaningMy": "ခဏလောက် / နည်းနည်း",
-      "myanmar": "ခဏလောက် / နည်းနည်း"
+      "myanmar": "ခဏလောက် / နည်းနည်း",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     }
   ],
   "kanjis": [

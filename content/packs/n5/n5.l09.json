@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ကြိုက်နှစ်သက်သော",
       "meaningMy": "ကြိုက်နှစ်သက်သော",
-      "myanmar": "ကြိုက်နှစ်သက်သော"
+      "myanmar": "ကြိုက်နှစ်သက်သော",
+      "pitchPattern": "odaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l09.v002",
@@ -71,7 +73,9 @@
       },
       "meaningMyanmar": "မကြိုက်သော / မုန်းသော",
       "meaningMy": "မကြိုက်သော / မုန်းသော",
-      "myanmar": "မကြိုက်သော / မုန်းသော"
+      "myanmar": "မကြိုက်သော / မုန်းသော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l09.v003",
@@ -101,7 +105,9 @@
       },
       "meaningMyanmar": "တော်သော / ကျွမ်းကျင်သော",
       "meaningMy": "တော်သော / ကျွမ်းကျင်သော",
-      "myanmar": "တော်သော / ကျွမ်းကျင်သော"
+      "myanmar": "တော်သော / ကျွမ်းကျင်သော",
+      "pitchPattern": "odaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l09.v004",
@@ -131,7 +137,9 @@
       },
       "meaningMyanmar": "ညံ့သော / မကျွမ်းကျင်သော",
       "meaningMy": "ညံ့သော / မကျွမ်းကျင်သော",
-      "myanmar": "ညံ့သော / မကျွမ်းကျင်သော"
+      "myanmar": "ညံ့သော / မကျွမ်းကျင်သော",
+      "pitchPattern": "odaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l09.v005",
@@ -159,7 +167,9 @@
       },
       "meaningMyanmar": "ဟင်းချက်ခြင်း / အစားအစာ",
       "meaningMy": "ဟင်းချက်ခြင်း / အစားအစာ",
-      "myanmar": "ဟင်းချက်ခြင်း / အစားအစာ"
+      "myanmar": "ဟင်းချက်ခြင်း / အစားအစာ",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l09.v006",
@@ -187,7 +197,9 @@
       },
       "meaningMyanmar": "အားကစား",
       "meaningMy": "အားကစား",
-      "myanmar": "အားကစား"
+      "myanmar": "အားကစား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l09.v007",
@@ -215,7 +227,9 @@
       },
       "meaningMyanmar": "ဂီတ / သီချင်း",
       "meaningMy": "ဂီတ / သီချင်း",
-      "myanmar": "ဂီတ / သီချင်း"
+      "myanmar": "ဂီတ / သီချင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l09.v008",
@@ -243,7 +257,9 @@
       },
       "meaningMyanmar": "သီချင်း",
       "meaningMy": "သီချင်း",
-      "myanmar": "သီချင်း"
+      "myanmar": "သီချင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l09.v009",
@@ -271,7 +287,9 @@
       },
       "meaningMyanmar": "ပန်းချီ / ပုံ",
       "meaningMy": "ပန်းချီ / ပုံ",
-      "myanmar": "ပန်းချီ / ပုံ"
+      "myanmar": "ပန်းချီ / ပုံ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l09.v010",
@@ -299,7 +317,9 @@
       },
       "meaningMyanmar": "ရုပ်ရှင်",
       "meaningMy": "ရုပ်ရှင်",
-      "myanmar": "ရုပ်ရှင်"
+      "myanmar": "ရုပ်ရှင်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l09.v011",
@@ -327,7 +347,9 @@
       },
       "meaningMyanmar": "ဘာကြောင့်လဲ",
       "meaningMy": "ဘာကြောင့်လဲ",
-      "myanmar": "ဘာကြောင့်လဲ"
+      "myanmar": "ဘာကြောင့်လဲ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l09.v012",
@@ -355,7 +377,9 @@
       },
       "meaningMyanmar": "သောကြောင့် / ဖြစ်သည့်အတွက်",
       "meaningMy": "သောကြောင့် / ဖြစ်သည့်အတွက်",
-      "myanmar": "သောကြောင့် / ဖြစ်သည့်အတွက်"
+      "myanmar": "သောကြောင့် / ဖြစ်သည့်အတွက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

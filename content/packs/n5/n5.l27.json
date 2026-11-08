@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "တိမ်ထူသော ရာသီဥတု",
       "meaningMy": "တိမ်ထူသော ရာသီဥတု",
-      "myanmar": "တိမ်ထူသော ရာသီဥတု"
+      "myanmar": "တိမ်ထူသော ရာသီဥတု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l27.v002",
@@ -69,7 +71,9 @@
       },
       "meaningMyanmar": "မိုးကောင်းကင်",
       "meaningMy": "မိုးကောင်းကင်",
-      "myanmar": "မိုးကောင်းကင်"
+      "myanmar": "မိုးကောင်းကင်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l27.v003",
@@ -99,7 +103,9 @@
       },
       "meaningMyanmar": "လေ",
       "meaningMy": "လေ",
-      "myanmar": "လေ"
+      "myanmar": "လေ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l27.v004",
@@ -129,7 +135,9 @@
       },
       "meaningMyanmar": "သာယာသော ရာသီဥတု",
       "meaningMy": "သာယာသော ရာသီဥတု",
-      "myanmar": "သာယာသော ရာသီဥတု"
+      "myanmar": "သာယာသော ရာသီဥတု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l27.v005",
@@ -157,7 +165,9 @@
       },
       "meaningMyanmar": "ရွာသည် / ကျသည်",
       "meaningMy": "ရွာသည် / ကျသည်",
-      "myanmar": "ရွာသည် / ကျသည်"
+      "myanmar": "ရွာသည် / ကျသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l27.v006",
@@ -185,7 +195,9 @@
       },
       "meaningMyanmar": "ရောက်ရှိသည်",
       "meaningMy": "ရောက်ရှိသည်",
-      "myanmar": "ရောက်ရှိသည်"
+      "myanmar": "ရောက်ရှိသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l27.v007",
@@ -213,7 +225,9 @@
       },
       "meaningMyanmar": "စဉ်းစားသည်",
       "meaningMy": "စဉ်းစားသည်",
-      "myanmar": "စဉ်းစားသည်"
+      "myanmar": "စဉ်းစားသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l27.v008",
@@ -241,7 +255,9 @@
       },
       "meaningMyanmar": "စစ်ဆေးသည် / ရှာဖွေစုံစမ်းသည်",
       "meaningMy": "စစ်ဆေးသည် / ရှာဖွေစုံစမ်းသည်",
-      "myanmar": "စစ်ဆေးသည် / ရှာဖွေစုံစမ်းသည်"
+      "myanmar": "စစ်ဆေးသည် / ရှာဖွေစုံစမ်းသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l27.v009",
@@ -269,7 +285,9 @@
       },
       "meaningMyanmar": "ရိုးရှင်းသော / လွယ်ကူသော",
       "meaningMy": "ရိုးရှင်းသော / လွယ်ကူသော",
-      "myanmar": "ရိုးရှင်းသော / လွယ်ကူသော"
+      "myanmar": "ရိုးရှင်းသော / လွယ်ကူသော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l27.v010",
@@ -297,7 +315,9 @@
       },
       "meaningMyanmar": "ဈေးကြီးသော်လည်း",
       "meaningMy": "ဈေးကြီးသော်လည်း",
-      "myanmar": "ဈေးကြီးသော်လည်း"
+      "myanmar": "ဈေးကြီးသော်လည်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l27.v011",
@@ -325,7 +345,9 @@
       },
       "meaningMyanmar": "အကယ်၍",
       "meaningMy": "အကယ်၍",
-      "myanmar": "အကယ်၍"
+      "myanmar": "အကယ်၍",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l27.v012",
@@ -353,7 +375,9 @@
       },
       "meaningMyanmar": "ဘယ်လောက်ပင် ...စေကာမူ",
       "meaningMy": "ဘယ်လောက်ပင် ...စေကာမူ",
-      "myanmar": "ဘယ်လောက်ပင် ...စေကာမူ"
+      "myanmar": "ဘယ်လောက်ပင် ...စေကာမူ",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     }
   ],
   "kanjis": [

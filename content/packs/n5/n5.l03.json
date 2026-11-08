@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "ဒီနေရာ",
       "meaningMy": "ဒီနေရာ",
-      "myanmar": "ဒီနေရာ"
+      "myanmar": "ဒီနေရာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l03.v002",
@@ -69,7 +71,9 @@
       },
       "meaningMyanmar": "အဲဒီနေရာ",
       "meaningMy": "အဲဒီနေရာ",
-      "myanmar": "အဲဒီနေရာ"
+      "myanmar": "အဲဒီနေရာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l03.v003",
@@ -97,7 +101,9 @@
       },
       "meaningMyanmar": "ဟိုနေရာ",
       "meaningMy": "ဟိုနေရာ",
-      "myanmar": "ဟိုနေရာ"
+      "myanmar": "ဟိုနေရာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l03.v004",
@@ -125,7 +131,9 @@
       },
       "meaningMyanmar": "ဘယ်နေရာ",
       "meaningMy": "ဘယ်နေရာ",
-      "myanmar": "ဘယ်နေရာ"
+      "myanmar": "ဘယ်နေရာ",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l03.v005",
@@ -153,7 +161,9 @@
       },
       "meaningMyanmar": "စာသင်ခန်း",
       "meaningMy": "စာသင်ခန်း",
-      "myanmar": "စာသင်ခန်း"
+      "myanmar": "စာသင်ခန်း",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l03.v006",
@@ -181,7 +191,9 @@
       },
       "meaningMyanmar": "ထမင်းစားခန်း",
       "meaningMy": "ထမင်းစားခန်း",
-      "myanmar": "ထမင်းစားခန်း"
+      "myanmar": "ထမင်းစားခန်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l03.v007",
@@ -209,7 +221,9 @@
       },
       "meaningMyanmar": "ရုံးခန်း",
       "meaningMy": "ရုံးခန်း",
-      "myanmar": "ရုံးခန်း"
+      "myanmar": "ရုံးခန်း",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l03.v008",
@@ -237,7 +251,9 @@
       },
       "meaningMyanmar": "ဧည့်ကြိုကောင်တာ",
       "meaningMy": "ဧည့်ကြိုကောင်တာ",
-      "myanmar": "ဧည့်ကြိုကောင်တာ"
+      "myanmar": "ဧည့်ကြိုကောင်တာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l03.v009",
@@ -265,7 +281,9 @@
       },
       "meaningMyanmar": "ဧည့်ခန်းမဆောင်",
       "meaningMy": "ဧည့်ခန်းမဆောင်",
-      "myanmar": "ဧည့်ခန်းမဆောင်"
+      "myanmar": "ဧည့်ခန်းမဆောင်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l03.v010",
@@ -293,7 +311,9 @@
       },
       "meaningMyanmar": "အိမ်သာ",
       "meaningMy": "အိမ်သာ",
-      "myanmar": "အိမ်သာ"
+      "myanmar": "အိမ်သာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l03.v011",
@@ -323,7 +343,9 @@
       },
       "meaningMyanmar": "ကျောင်း",
       "meaningMy": "ကျောင်း",
-      "myanmar": "ကျောင်း"
+      "myanmar": "ကျောင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l03.v012",
@@ -353,7 +375,9 @@
       },
       "meaningMyanmar": "တက္ကသိုလ်",
       "meaningMy": "တက္ကသိုလ်",
-      "myanmar": "တက္ကသိုလ်"
+      "myanmar": "တက္ကသိုလ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

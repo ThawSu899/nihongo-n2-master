@@ -35,6 +35,8 @@ export const VocabularySchema = z.object({
   importance: z.number().min(1).max(5),
   audio: AudioRefSchema,
   prov: ProvenanceSchema,
+  pitchPattern: z.enum(['heiban', 'atamadaka', 'nakadaka', 'odaka']).optional(),
+  dropIndex: z.number().int().min(0).optional(),
 });
 export type Vocabulary = z.infer<typeof VocabularySchema>;
 
@@ -113,6 +115,8 @@ export const SentenceSchema = z.object({
   grammarIds: z.array(z.string()),
   audio: AudioRefSchema,
   prov: ProvenanceSchema,
+  pitchPattern: z.enum(['heiban', 'atamadaka', 'nakadaka', 'odaka']).optional(),
+  dropIndex: z.number().int().min(0).optional(),
 });
 export type Sentence = z.infer<typeof SentenceSchema>;
 

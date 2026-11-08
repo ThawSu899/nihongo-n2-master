@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "ထားသည်",
       "meaningMy": "ထားသည်",
-      "myanmar": "ထားသည်"
+      "myanmar": "ထားသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l16.v002",
@@ -71,7 +73,9 @@
       },
       "meaningMyanmar": "ပြုလုပ်သည် / ဖန်တီးသည်",
       "meaningMy": "ပြုလုပ်သည် / ဖန်တီးသည်",
-      "myanmar": "ပြုလုပ်သည် / ဖန်တီးသည်"
+      "myanmar": "ပြုလုပ်သည် / ဖန်တီးသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l16.v003",
@@ -99,7 +103,9 @@
       },
       "meaningMyanmar": "ရောင်းသည်",
       "meaningMy": "ရောင်းသည်",
-      "myanmar": "ရောင်းသည်"
+      "myanmar": "ရောင်းသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l16.v004",
@@ -129,7 +135,9 @@
       },
       "meaningMyanmar": "သိထားသည်",
       "meaningMy": "သိထားသည်",
-      "myanmar": "သိထားသည်"
+      "myanmar": "သိထားသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
     },
     {
       "id": "n5.l16.v005",
@@ -159,7 +167,9 @@
       },
       "meaningMyanmar": "နေထိုင်သည်",
       "meaningMy": "နေထိုင်သည်",
-      "myanmar": "နေထိုင်သည်"
+      "myanmar": "နေထိုင်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
     },
     {
       "id": "n5.l16.v006",
@@ -187,7 +197,9 @@
       },
       "meaningMyanmar": "သုတေသနပြုသည်",
       "meaningMy": "သုတေသနပြုသည်",
-      "myanmar": "သုတေသနပြုသည်"
+      "myanmar": "သုတေသနပြုသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 6
     },
     {
       "id": "n5.l16.v007",
@@ -215,7 +227,9 @@
       },
       "meaningMyanmar": "စာရွက်စာတမ်း / အချက်အလက်",
       "meaningMy": "စာရွက်စာတမ်း / အချက်အလက်",
-      "myanmar": "စာရွက်စာတမ်း / အချက်အလက်"
+      "myanmar": "စာရွက်စာတမ်း / အချက်အလက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l16.v008",
@@ -243,7 +257,9 @@
       },
       "meaningMyanmar": "ကတ်တလောက်",
       "meaningMy": "ကတ်တလောက်",
-      "myanmar": "ကတ်တလောက်"
+      "myanmar": "ကတ်တလောက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l16.v009",
@@ -271,7 +287,9 @@
       },
       "meaningMyanmar": "အချိန်ဇယား",
       "meaningMy": "အချိန်ဇယား",
-      "myanmar": "အချိန်ဇယား"
+      "myanmar": "အချိန်ဇယား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l16.v010",
@@ -299,7 +317,9 @@
       },
       "meaningMyanmar": "အဝတ်အစား",
       "meaningMy": "အဝတ်အစား",
-      "myanmar": "အဝတ်အစား"
+      "myanmar": "အဝတ်အစား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l16.v011",
@@ -327,7 +347,9 @@
       },
       "meaningMyanmar": "လူလွတ်",
       "meaningMy": "လူလွတ်",
-      "myanmar": "လူလွတ်"
+      "myanmar": "လူလွတ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l16.v012",
@@ -355,7 +377,9 @@
       },
       "meaningMyanmar": "မပြုလုပ်ရ / မရပါ",
       "meaningMy": "မပြုလုပ်ရ / မရပါ",
-      "myanmar": "မပြုလုပ်ရ / မရပါ"
+      "myanmar": "မပြုလုပ်ရ / မရပါ",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     }
   ],
   "kanjis": [

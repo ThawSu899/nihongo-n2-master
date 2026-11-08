@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ကောလာဟလ/သတင်းစကား",
       "meaningMy": "ကောလာဟလ/သတင်းစကား",
-      "myanmar": "ကောလာဟလ/သတင်းစကား"
+      "myanmar": "ကောလာဟလ/သတင်းစကား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l21.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "လက်ထပ်ထိမ်းမြားသည်",
       "meaningMy": "လက်ထပ်ထိမ်းမြားသည်",
-      "myanmar": "လက်ထပ်ထိမ်းမြားသည်"
+      "myanmar": "လက်ထပ်ထိမ်းမြားသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l21.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "လင်မယား/ဇနီးမောင်နှံ",
       "meaningMy": "လင်မယား/ဇနီးမောင်နှံ",
-      "myanmar": "လင်မယား/ဇနီးမောင်နှံ"
+      "myanmar": "လင်မယား/ဇနီးမောင်နှံ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l21.v004",
@@ -133,7 +139,9 @@
       },
       "meaningMyanmar": "မတော်တဆ/တိုက်ဆိုင်စွာ",
       "meaningMy": "မတော်တဆ/တိုက်ဆိုင်စွာ",
-      "myanmar": "မတော်တဆ/တိုက်ဆိုင်စွာ"
+      "myanmar": "မတော်တဆ/တိုက်ဆိုင်စွာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l21.v005",
@@ -161,7 +169,9 @@
       },
       "meaningMyanmar": "နာမည်ကျော်ကြားမှု/ဂုဏ်သတင်း",
       "meaningMy": "နာမည်ကျော်ကြားမှု/ဂုဏ်သတင်း",
-      "myanmar": "နာမည်ကျော်ကြားမှု/ဂုဏ်သတင်း"
+      "myanmar": "နာမည်ကျော်ကြားမှု/ဂုဏ်သတင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l21.v006",
@@ -189,7 +199,9 @@
       },
       "meaningMyanmar": "လွတ်လပ်စွာ ရပ်တည်သည်/ကိုယ်ပိုင်လုပ်ငန်းစတင်သည်",
       "meaningMy": "လွတ်လပ်စွာ ရပ်တည်သည်/ကိုယ်ပိုင်လုပ်ငန်းစတင်သည်",
-      "myanmar": "လွတ်လပ်စွာ ရပ်တည်သည်/ကိုယ်ပိုင်လုပ်ငန်းစတင်သည်"
+      "myanmar": "လွတ်လပ်စွာ ရပ်တည်သည်/ကိုယ်ပိုင်လုပ်ငန်းစတင်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l21.v007",
@@ -217,7 +229,9 @@
       },
       "meaningMyanmar": "ထီလက်မှတ်",
       "meaningMy": "ထီလက်မှတ်",
-      "myanmar": "ထီလက်မှတ်"
+      "myanmar": "ထီလက်မှတ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l21.v008",
@@ -245,7 +259,9 @@
       },
       "meaningMyanmar": "မှန်ကန်သည်/ထီပေါက်သည်",
       "meaningMy": "မှန်ကန်သည်/ထီပေါက်သည်",
-      "myanmar": "မှန်ကန်သည်/ထီပေါက်သည်"
+      "myanmar": "မှန်ကန်သည်/ထီပေါက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l21.v009",
@@ -273,7 +289,9 @@
       },
       "meaningMyanmar": "ဆောင်းပါး/သတင်းဖော်ပြချက်",
       "meaningMy": "ဆောင်းပါး/သတင်းဖော်ပြချက်",
-      "myanmar": "ဆောင်းပါး/သတင်းဖော်ပြချက်"
+      "myanmar": "ဆောင်းပါး/သတင်းဖော်ပြချက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l21.v010",
@@ -301,7 +319,9 @@
       },
       "meaningMyanmar": "သဘောထားခံယူချက်/အမူအရာ",
       "meaningMy": "သဘောထားခံယူချက်/အမူအရာ",
-      "myanmar": "သဘောထားခံယူချက်/အမူအရာ"
+      "myanmar": "သဘောထားခံယူချက်/အမူအရာ",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l21.v011",
@@ -329,7 +349,9 @@
       },
       "meaningMyanmar": "ငြိမ်သက်သော/အေးဆေးသော",
       "meaningMy": "ငြိမ်သက်သော/အေးဆေးသော",
-      "myanmar": "ငြိမ်သက်သော/အေးဆေးသော"
+      "myanmar": "ငြိမ်သက်သော/အေးဆေးသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n4.l21.v012",
@@ -359,7 +381,9 @@
       },
       "meaningMyanmar": "အတင်းအဖျင်းစကား/ကောလာဟလစကား",
       "meaningMy": "အတင်းအဖျင်းစကား/ကောလာဟလစကား",
-      "myanmar": "အတင်းအဖျင်းစကား/ကောလာဟလစကား"
+      "myanmar": "အတင်းအဖျင်းစကား/ကောလာဟလစကား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "စုံစမ်းစစ်ဆေးမှု/စစ်တမ်း",
       "meaningMy": "စုံစမ်းစစ်ဆေးမှု/စစ်တမ်း",
-      "myanmar": "စုံစမ်းစစ်ဆေးမှု/စစ်တမ်း"
+      "myanmar": "စုံစမ်းစစ်ဆေးမှု/စစ်တမ်း",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n3.l01.v002",
@@ -74,7 +76,9 @@
       },
       "meaningMyanmar": "အစီရင်ခံသည်/သတင်းပို့သည်",
       "meaningMy": "အစီရင်ခံသည်/သတင်းပို့သည်",
-      "myanmar": "အစီရင်ခံသည်/သတင်းပို့သည်"
+      "myanmar": "အစီရင်ခံသည်/သတင်းပို့သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l01.v003",
@@ -102,7 +106,9 @@
       },
       "meaningMyanmar": "စာရွက်စာတမ်း/အချက်အလက်",
       "meaningMy": "စာရွက်စာတမ်း/အချက်အလက်",
-      "myanmar": "စာရွက်စာတမ်း/အချက်အလက်"
+      "myanmar": "စာရွက်စာတမ်း/အချက်အလက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l01.v004",
@@ -130,7 +136,9 @@
       },
       "meaningMyanmar": "ပါဝင်သောအကြောင်းအရာ",
       "meaningMy": "ပါဝင်သောအကြောင်းအရာ",
-      "myanmar": "ပါဝင်သောအကြောင်းအရာ"
+      "myanmar": "ပါဝင်သောအကြောင်းအရာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l01.v005",
@@ -158,7 +166,9 @@
       },
       "meaningMyanmar": "ရလဒ်/အကျိုးဆက်",
       "meaningMy": "ရလဒ်/အကျိုးဆက်",
-      "myanmar": "ရလဒ်/အကျိုးဆက်"
+      "myanmar": "ရလဒ်/အကျိုးဆက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l01.v006",
@@ -186,7 +196,9 @@
       },
       "meaningMyanmar": "ထင်မြင်ယူဆချက်/သဘောထား",
       "meaningMy": "ထင်မြင်ယူဆချက်/သဘောထား",
-      "myanmar": "ထင်မြင်ယူဆချက်/သဘောထား"
+      "myanmar": "ထင်မြင်ယူဆချက်/သဘောထား",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n3.l01.v007",
@@ -214,7 +226,9 @@
       },
       "meaningMyanmar": "အသေးစိတ်ကျသော/ကျွမ်းကျင်နှံ့စပ်သော",
       "meaningMy": "အသေးစိတ်ကျသော/ကျွမ်းကျင်နှံ့စပ်သော",
-      "myanmar": "အသေးစိတ်ကျသော/ကျွမ်းကျင်နှံ့စပ်သော"
+      "myanmar": "အသေးစိတ်ကျသော/ကျွမ်းကျင်နှံ့စပ်သော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n3.l01.v008",
@@ -242,7 +256,9 @@
       },
       "meaningMyanmar": "ရှာဖွေစစ်ဆေးသည်/စုံစမ်းသည်",
       "meaningMy": "ရှာဖွေစစ်ဆေးသည်/စုံစမ်းသည်",
-      "myanmar": "ရှာဖွေစစ်ဆေးသည်/စုံစမ်းသည်"
+      "myanmar": "ရှာဖွေစစ်ဆေးသည်/စုံစမ်းသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l01.v009",
@@ -270,7 +286,9 @@
       },
       "meaningMyanmar": "ကြေညာသည်/တင်ပြသည်",
       "meaningMy": "ကြေညာသည်/တင်ပြသည်",
-      "myanmar": "ကြေညာသည်/တင်ပြသည်"
+      "myanmar": "ကြေညာသည်/တင်ပြသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l01.v010",
@@ -300,7 +318,9 @@
       },
       "meaningMyanmar": "တာဝန်ယူဆောင်ရွက်သည်",
       "meaningMy": "တာဝန်ယူဆောင်ရွက်သည်",
-      "myanmar": "တာဝန်ယူဆောင်ရွက်သည်"
+      "myanmar": "တာဝန်ယူဆောင်ရွက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l01.v011",
@@ -328,7 +348,9 @@
       },
       "meaningMyanmar": "တင်သွင်းသည်/ပေးအပ်သည်",
       "meaningMy": "တင်သွင်းသည်/ပေးအပ်သည်",
-      "myanmar": "တင်သွင်းသည်/ပေးအပ်သည်"
+      "myanmar": "တင်သွင်းသည်/ပေးအပ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l01.v012",
@@ -356,7 +378,9 @@
       },
       "meaningMyanmar": "စုစည်းသည်/အနှစ်ချုပ်သည်",
       "meaningMy": "စုစည်းသည်/အနှစ်ချုပ်သည်",
-      "myanmar": "စုစည်းသည်/အနှစ်ချုပ်သည်"
+      "myanmar": "စုစည်းသည်/အနှစ်ချုပ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

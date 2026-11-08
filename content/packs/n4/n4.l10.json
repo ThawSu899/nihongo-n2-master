@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ကျေးဇူးတင်စကား/ကျေးဇူးတုံ့ပြန်လက်ဆောင်",
       "meaningMy": "ကျေးဇူးတင်စကား/ကျေးဇူးတုံ့ပြန်လက်ဆောင်",
-      "myanmar": "ကျေးဇူးတင်စကား/ကျေးဇူးတုံ့ပြန်လက်ဆောင်"
+      "myanmar": "ကျေးဇူးတင်စကား/ကျေးဇူးတုံ့ပြန်လက်ဆောင်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l10.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "ဂုဏ်ပြုခြင်း/ဂုဏ်ပြုလက်ဆောင်",
       "meaningMy": "ဂုဏ်ပြုခြင်း/ဂုဏ်ပြုလက်ဆောင်",
-      "myanmar": "ဂုဏ်ပြုခြင်း/ဂုဏ်ပြုလက်ဆောင်"
+      "myanmar": "ဂုဏ်ပြုခြင်း/ဂုဏ်ပြုလက်ဆောင်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n4.l10.v003",
@@ -101,7 +105,9 @@
       },
       "meaningMyanmar": "ကူညီသည်",
       "meaningMy": "ကူညီသည်",
-      "myanmar": "ကူညီသည်"
+      "myanmar": "ကူညီသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l10.v004",
@@ -129,7 +135,9 @@
       },
       "meaningMyanmar": "ပြင်ဆင်သည်/အမှားပြင်သည်",
       "meaningMy": "ပြင်ဆင်သည်/အမှားပြင်သည်",
-      "myanmar": "ပြင်ဆင်သည်/အမှားပြင်သည်"
+      "myanmar": "ပြင်ဆင်သည်/အမှားပြင်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l10.v005",
@@ -157,7 +165,9 @@
       },
       "meaningMyanmar": "လမ်းပြလမ်းညွှန်သည်",
       "meaningMy": "လမ်းပြလမ်းညွှန်သည်",
-      "myanmar": "လမ်းပြလမ်းညွှန်သည်"
+      "myanmar": "လမ်းပြလမ်းညွှန်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l10.v006",
@@ -185,7 +195,9 @@
       },
       "meaningMyanmar": "ပို့ဆောင်သည်/လိုက်ပို့သည်",
       "meaningMy": "ပို့ဆောင်သည်/လိုက်ပို့သည်",
-      "myanmar": "ပို့ဆောင်သည်/လိုက်ပို့သည်"
+      "myanmar": "ပို့ဆောင်သည်/လိုက်ပို့သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l10.v007",
@@ -213,7 +225,9 @@
       },
       "meaningMyanmar": "ငှားရမ်းပေးသည်",
       "meaningMy": "ငှားရမ်းပေးသည်",
-      "myanmar": "ငှားရမ်းပေးသည်"
+      "myanmar": "ငှားရမ်းပေးသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l10.v008",
@@ -241,7 +255,9 @@
       },
       "meaningMyanmar": "ငှားယူသည်",
       "meaningMy": "ငှားယူသည်",
-      "myanmar": "ငှားယူသည်"
+      "myanmar": "ငှားယူသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l10.v009",
@@ -269,7 +285,9 @@
       },
       "meaningMyanmar": "အိမ်ပြောင်းရွှေ့ခြင်း",
       "meaningMy": "အိမ်ပြောင်းရွှေ့ခြင်း",
-      "myanmar": "အိမ်ပြောင်းရွှေ့ခြင်း"
+      "myanmar": "အိမ်ပြောင်းရွှေ့ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l10.v010",
@@ -300,7 +318,9 @@
       },
       "meaningMyanmar": "ကြင်နာသော/ကူညီတတ်သော",
       "meaningMy": "ကြင်နာသော/ကူညီတတ်သော",
-      "myanmar": "ကြင်နာသော/ကူညီတတ်သော"
+      "myanmar": "ကြင်နာသော/ကူညီတတ်သော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l10.v011",
@@ -328,7 +348,9 @@
       },
       "meaningMyanmar": "ဌာနမှူး",
       "meaningMy": "ဌာနမှူး",
-      "myanmar": "ဌာနမှူး"
+      "myanmar": "ဌာနမှူး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l10.v012",
@@ -356,7 +378,9 @@
       },
       "meaningMyanmar": "ကျေးဇူးတင်ရှိမှု",
       "meaningMy": "ကျေးဇူးတင်ရှိမှု",
-      "myanmar": "ကျေးဇူးတင်ရှိမှု"
+      "myanmar": "ကျေးဇူးတင်ရှိမှု",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     }
   ],
   "kanjis": [

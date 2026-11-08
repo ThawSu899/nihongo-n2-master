@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "လမ်း",
       "meaningMy": "လမ်း",
-      "myanmar": "လမ်း"
+      "myanmar": "လမ်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l26.v002",
@@ -71,7 +73,9 @@
       },
       "meaningMyanmar": "လမ်းဆုံ / လမ်းခွ",
       "meaningMy": "လမ်းဆုံ / လမ်းခွ",
-      "myanmar": "လမ်းဆုံ / လမ်းခွ"
+      "myanmar": "လမ်းဆုံ / လမ်းခွ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l26.v003",
@@ -101,7 +105,9 @@
       },
       "meaningMyanmar": "လမ်းထောင့်",
       "meaningMy": "လမ်းထောင့်",
-      "myanmar": "လမ်းထောင့်"
+      "myanmar": "လမ်းထောင့်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l26.v004",
@@ -129,7 +135,9 @@
       },
       "meaningMyanmar": "ယာဉ်ထိန်းမီးရောင်",
       "meaningMy": "ယာဉ်ထိန်းမီးရောင်",
-      "myanmar": "ယာဉ်ထိန်းမီးရောင်"
+      "myanmar": "ယာဉ်ထိန်းမီးရောင်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l26.v005",
@@ -157,7 +165,9 @@
       },
       "meaningMyanmar": "ညာဘက်",
       "meaningMy": "ညာဘက်",
-      "myanmar": "ညာဘက်"
+      "myanmar": "ညာဘက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l26.v006",
@@ -185,7 +195,9 @@
       },
       "meaningMyanmar": "ဘယ်ဘက်",
       "meaningMy": "ဘယ်ဘက်",
-      "myanmar": "ဘယ်ဘက်"
+      "myanmar": "ဘယ်ဘက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l26.v007",
@@ -213,7 +225,9 @@
       },
       "meaningMyanmar": "တည့်တည့်",
       "meaningMy": "တည့်တည့်",
-      "myanmar": "တည့်တည့်"
+      "myanmar": "တည့်တည့်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l26.v008",
@@ -241,7 +255,9 @@
       },
       "meaningMyanmar": "ကွေ့သည်",
       "meaningMy": "ကွေ့သည်",
-      "myanmar": "ကွေ့သည်"
+      "myanmar": "ကွေ့သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l26.v009",
@@ -269,7 +285,9 @@
       },
       "meaningMyanmar": "ဖြတ်ကူးသည်",
       "meaningMy": "ဖြတ်ကူးသည်",
-      "myanmar": "ဖြတ်ကူးသည်"
+      "myanmar": "ဖြတ်ကူးသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l26.v010",
@@ -297,7 +315,9 @@
       },
       "meaningMyanmar": "တံတား",
       "meaningMy": "တံတား",
-      "myanmar": "တံတား"
+      "myanmar": "တံတား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l26.v011",
@@ -325,7 +345,9 @@
       },
       "meaningMyanmar": "မှတ်တိုင် / အမှတ်အသား",
       "meaningMy": "မှတ်တိုင် / အမှတ်အသား",
-      "myanmar": "မှတ်တိုင် / အမှတ်အသား"
+      "myanmar": "မှတ်တိုင် / အမှတ်အသား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l26.v012",
@@ -353,7 +375,9 @@
       },
       "meaningMyanmar": "အထီးကျန်သော",
       "meaningMy": "အထီးကျန်သော",
-      "myanmar": "အထီးကျန်သော"
+      "myanmar": "အထီးကျန်သော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     }
   ],
   "kanjis": [

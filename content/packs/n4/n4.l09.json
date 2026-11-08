@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "မိုးလေဝသခန့်မှန်းချက်",
       "meaningMy": "မိုးလေဝသခန့်မှန်းချက်",
-      "myanmar": "မိုးလေဝသခန့်မှန်းချက်"
+      "myanmar": "မိုးလေဝသခန့်မှန်းချက်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n4.l09.v002",
@@ -69,7 +71,9 @@
       },
       "meaningMyanmar": "ကောလာဟလ/သတင်းစကား",
       "meaningMy": "ကောလာဟလ/သတင်းစကား",
-      "myanmar": "ကောလာဟလ/သတင်းစကား"
+      "myanmar": "ကောလာဟလ/သတင်းစကား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l09.v003",
@@ -97,7 +101,9 @@
       },
       "meaningMyanmar": "သတင်း",
       "meaningMy": "သတင်း",
-      "myanmar": "သတင်း"
+      "myanmar": "သတင်း",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l09.v004",
@@ -127,7 +133,9 @@
       },
       "meaningMyanmar": "လဲကျသည်/ပြိုကျသည်",
       "meaningMy": "လဲကျသည်/ပြိုကျသည်",
-      "myanmar": "လဲကျသည်/ပြိုကျသည်"
+      "myanmar": "လဲကျသည်/ပြိုကျသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l09.v005",
@@ -155,7 +163,9 @@
       },
       "meaningMyanmar": "ကျိုးသည်",
       "meaningMy": "ကျိုးသည်",
-      "myanmar": "ကျိုးသည်"
+      "myanmar": "ကျိုးသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l09.v006",
@@ -183,7 +193,9 @@
       },
       "meaningMyanmar": "စုတ်ပြဲသည်",
       "meaningMy": "စုတ်ပြဲသည်",
-      "myanmar": "စုတ်ပြဲသည်"
+      "myanmar": "စုတ်ပြဲသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l09.v007",
@@ -211,7 +223,9 @@
       },
       "meaningMyanmar": "ချိုသော",
       "meaningMy": "ချိုသော",
-      "myanmar": "ချိုသော"
+      "myanmar": "ချိုသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l09.v008",
@@ -239,7 +253,9 @@
       },
       "meaningMyanmar": "စပ်သော",
       "meaningMy": "စပ်သော",
-      "myanmar": "စပ်သော"
+      "myanmar": "စပ်သော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l09.v009",
@@ -267,7 +283,9 @@
       },
       "meaningMyanmar": "မိုးသည်းထန်စွာရွာခြင်း",
       "meaningMy": "မိုးသည်းထန်စွာရွာခြင်း",
-      "myanmar": "မိုးသည်းထန်စွာရွာခြင်း"
+      "myanmar": "မိုးသည်းထန်စွာရွာခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l09.v010",
@@ -297,7 +315,9 @@
       },
       "meaningMyanmar": "တိုင်ဖွန်းမုန်တိုင်း",
       "meaningMy": "တိုင်ဖွန်းမုန်တိုင်း",
-      "myanmar": "တိုင်ဖွန်းမုန်တိုင်း"
+      "myanmar": "တိုင်ဖွန်းမုန်တိုင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l09.v011",
@@ -325,7 +345,9 @@
       },
       "meaningMyanmar": "မတော်တဆမှု",
       "meaningMy": "မတော်တဆမှု",
-      "myanmar": "မတော်တဆမှု"
+      "myanmar": "မတော်တဆမှု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l09.v012",
@@ -356,7 +378,9 @@
       },
       "meaningMyanmar": "အန္တရာယ်ရှိသော",
       "meaningMy": "အန္တရာယ်ရှိသော",
-      "myanmar": "အန္တရာယ်ရှိသော"
+      "myanmar": "အန္တရာယ်ရှိသော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

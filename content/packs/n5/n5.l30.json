@@ -44,7 +44,9 @@
       },
       "meaningMyanmar": "အားလုံး",
       "meaningMy": "အားလုံး",
-      "myanmar": "အားလုံး"
+      "myanmar": "အားလုံး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l30.v002",
@@ -75,7 +77,9 @@
       },
       "meaningMyanmar": "စာလေ့လာခြင်း / စာကျက်ခြင်း",
       "meaningMy": "စာလေ့လာခြင်း / စာကျက်ခြင်း",
-      "myanmar": "စာလေ့လာခြင်း / စာကျက်ခြင်း"
+      "myanmar": "စာလေ့လာခြင်း / စာကျက်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l30.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "စာမေးပွဲ / စစ်ဆေးမှု",
       "meaningMy": "စာမေးပွဲ / စစ်ဆေးမှု",
-      "myanmar": "စာမေးပွဲ / စစ်ဆေးမှု"
+      "myanmar": "စာမေးပွဲ / စစ်ဆေးမှု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l30.v004",
@@ -131,7 +137,9 @@
       },
       "meaningMyanmar": "စာပြန်လည်လေ့ကျင့်ခြင်း",
       "meaningMy": "စာပြန်လည်လေ့ကျင့်ခြင်း",
-      "myanmar": "စာပြန်လည်လေ့ကျင့်ခြင်း"
+      "myanmar": "စာပြန်လည်လေ့ကျင့်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l30.v005",
@@ -159,7 +167,9 @@
       },
       "meaningMyanmar": "မေးခွန်း / ပြဿနာ",
       "meaningMy": "မေးခွန်း / ပြဿနာ",
-      "myanmar": "မေးခွန်း / ပြဿနာ"
+      "myanmar": "မေးခွန်း / ပြဿနာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l30.v006",
@@ -187,7 +197,9 @@
       },
       "meaningMyanmar": "အဖြေ",
       "meaningMy": "အဖြေ",
-      "myanmar": "အဖြေ"
+      "myanmar": "အဖြေ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l30.v007",
@@ -215,7 +227,9 @@
       },
       "meaningMyanmar": "စကားပြောဆိုမှု",
       "meaningMy": "စကားပြောဆိုမှု",
-      "myanmar": "စကားပြောဆိုမှု"
+      "myanmar": "စကားပြောဆိုမှု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l30.v008",
@@ -243,7 +257,9 @@
       },
       "meaningMyanmar": "အဓိပ္ပာယ်",
       "meaningMy": "အဓိပ္ပာယ်",
-      "myanmar": "အဓိပ္ပာယ်"
+      "myanmar": "အဓိပ္ပာယ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l30.v009",
@@ -271,7 +287,9 @@
       },
       "meaningMyanmar": "မေးခွန်း / မေးမြန်းချက်",
       "meaningMy": "မေးခွန်း / မေးမြန်းချက်",
-      "myanmar": "မေးခွန်း / မေးမြန်းချက်"
+      "myanmar": "မေးခွန်း / မေးမြန်းချက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l30.v010",
@@ -299,7 +317,9 @@
       },
       "meaningMyanmar": "အရေးကြီးသော",
       "meaningMy": "အရေးကြီးသော",
-      "myanmar": "အရေးကြီးသော"
+      "myanmar": "အရေးကြီးသော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l30.v011",
@@ -327,7 +347,9 @@
       },
       "meaningMyanmar": "စာမေးပွဲအောင်မြင်ခြင်း",
       "meaningMy": "စာမေးပွဲအောင်မြင်ခြင်း",
-      "myanmar": "စာမေးပွဲအောင်မြင်ခြင်း"
+      "myanmar": "စာမေးပွဲအောင်မြင်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l30.v012",
@@ -355,7 +377,9 @@
       },
       "meaningMyanmar": "နောင်အနာဂတ်တွင်လည်း",
       "meaningMy": "နောင်အနာဂတ်တွင်လည်း",
-      "myanmar": "နောင်အနာဂတ်တွင်လည်း"
+      "myanmar": "နောင်အနာဂတ်တွင်လည်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

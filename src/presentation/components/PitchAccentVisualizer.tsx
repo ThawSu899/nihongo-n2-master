@@ -3,12 +3,14 @@ import {
   PitchPattern,
   calculatePitchContour,
   PitchAccentDetails,
-  PitchMora,
+  segmentMoras,
+  classifyPitchPattern,
 } from '../../domain/audio/pitch-accent';
 
 export interface PitchAccentVisualizerProps {
   text: string;
-  pattern: PitchPattern;
+  pattern?: PitchPattern;
+  dropIndex?: number;
   dropMora?: number;
   showBadge?: boolean;
   showContour?: boolean;
@@ -19,30 +21,52 @@ export interface PitchAccentVisualizerProps {
 export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
   text,
   pattern,
+  dropIndex,
   dropMora,
   showBadge = true,
   showContour = true,
   compact = false,
   className = '',
 }) => {
-  const details: PitchAccentDetails = calculatePitchContour(text, pattern, dropMora);
-  const { moras, theme, nameJa, nameRomaji, typeNumber, explanationMy, particleLevel } = details;
-
+  const moras = segmentMoras(text);
   if (moras.length === 0) return null;
 
-  // SVG Geometry Calculation
-  const moraStepWidth = compact ? 22 : 32;
-  const paddingX = compact ? 12 : 18;
-  const highY = compact ? 8 : 10;
-  const lowY = compact ? 26 : 32;
-  const svgHeight = compact ? 36 : 46;
-  const totalSvgWidth = paddingX * 2 + moras.length * moraStepWidth;
+  // Resolve effective drop number and pattern
+  const effectiveDrop = dropIndex !== undefined ? dropIndex : dropMora;
+  const effectivePattern: PitchPattern =
+    pattern ||
+    (effectiveDrop !== undefined
+      ? classifyPitchPattern(effectiveDrop, moras.length)
+      : 'heiban');
 
-  // Generate SVG Step Path
+  const details: PitchAccentDetails = calculatePitchContour(
+    text,
+    effectivePattern,
+    effectiveDrop
+  );
+  const {
+    moras: pitchMoras,
+    theme,
+    nameJa,
+    nameRomaji,
+    typeNumber,
+    explanationMy,
+    meaningEn,
+  } = details;
+
+  // SVG Geometry Calculation
+  const moraStepWidth = compact ? 24 : 34;
+  const paddingX = compact ? 14 : 20;
+  const highY = compact ? 10 : 12;
+  const lowY = compact ? 28 : 34;
+  const svgHeight = compact ? 40 : 48;
+  const totalSvgWidth = paddingX * 2 + pitchMoras.length * moraStepWidth;
+
+  // Generate SVG Stepped Line Path
   // High lines are at highY, Low lines are at lowY.
   // When pitch transitions between moras, a vertical step connects them.
   let stepPath = '';
-  moras.forEach((m, idx) => {
+  pitchMoras.forEach((m, idx) => {
     const startX = paddingX + idx * moraStepWidth;
     const endX = startX + moraStepWidth;
     const y = m.level === 'H' ? highY : lowY;
@@ -50,10 +74,9 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
     if (idx === 0) {
       stepPath += `M ${startX} ${y} L ${endX} ${y}`;
     } else {
-      const prevM = moras[idx - 1];
+      const prevM = pitchMoras[idx - 1];
       const prevY = prevM.level === 'H' ? highY : lowY;
       if (prevY !== y) {
-        // Vertical step transition
         stepPath += ` L ${startX} ${y} L ${endX} ${y}`;
       } else {
         stepPath += ` L ${endX} ${y}`;
@@ -63,36 +86,40 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
 
   return (
     <div
-      className={`inline-flex flex-col gap-1.5 select-none ${className}`}
+      className={`inline-flex flex-col gap-2 select-none ${className}`}
       data-testid="pitch-accent-visualizer"
     >
-      {/* 1. Header Pitch Badge */}
+      {/* 1. Header Pitch Badge — Obsidian Glass Tactile Pill */}
       {showBadge && (
-        <div className="flex items-center gap-1.5 flex-wrap">
+        <div className="flex items-center gap-2 flex-wrap">
           <span
-            className={`inline-flex items-center space-x-1.5 rounded-full font-bold border transition ${
-              compact ? 'px-2 py-0.5 text-[10px]' : 'px-2.5 py-1 text-xs'
+            className={`inline-flex items-center space-x-1.5 rounded-full font-bold border transition shadow-sm backdrop-blur-md ${
+              compact ? 'px-2 py-0.5 text-[10px]' : 'px-3 py-1 text-xs'
             } ${theme.bg} ${theme.text} ${theme.border}`}
           >
             <span>{nameJa}</span>
-            <span className="font-mono opacity-80 text-[10px]">{`[${typeNumber}型]`}</span>
-            <span className="font-mono opacity-80">({nameRomaji})</span>
+            <span className="font-mono opacity-85 text-[10px]">{`[${typeNumber}型]`}</span>
+            <span className="font-mono opacity-85">({nameRomaji})</span>
           </span>
 
           {!compact && (
-            <span className="text-[11px] text-stone-400 font-myanmar">
-              {explanationMy}
-            </span>
+            <div className="flex items-center space-x-1.5 text-[11px] text-stone-400 font-myanmar">
+              <span>{explanationMy}</span>
+              <span className="text-stone-600 font-mono hidden sm:inline">•</span>
+              <span className="text-stone-400 font-mono hidden sm:inline text-[10px] opacity-75">
+                {meaningEn}
+              </span>
+            </div>
           )}
         </div>
       )}
 
-      {/* 2. Mora-Level SVG Pitch Contour & Step Line Graph */}
+      {/* 2. Mora-Level SVG Pitch Contour & Stepped Line Graph */}
       {showContour && (
         <div className="overflow-x-auto max-w-full pb-1">
           <div
-            className={`inline-block rounded-xl border border-stone-800/80 bg-stone-950/70 ${
-              compact ? 'p-1.5' : 'p-2.5'
+            className={`inline-block rounded-2xl border border-stone-800/80 bg-stone-950/85 backdrop-blur-md shadow-inner shadow-black/40 ${
+              compact ? 'p-2' : 'p-3'
             }`}
           >
             <svg
@@ -101,7 +128,7 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
               className="overflow-visible"
               aria-label={`Pitch contour: ${nameJa} (${nameRomaji})`}
             >
-              {/* Reference Grid Baseline */}
+              {/* Reference Grid Baselines */}
               <line
                 x1={paddingX}
                 y1={highY}
@@ -123,39 +150,53 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
                 opacity="0.35"
               />
 
-              {/* Main Contour Step Line */}
+              {/* Stepped Pitch Line */}
               <path
                 d={stepPath}
                 fill="none"
-                stroke={theme.stroke}
-                strokeWidth={compact ? 2 : 2.5}
+                stroke="#818cf8"
+                strokeWidth={compact ? 2.5 : 3}
                 strokeLinecap="round"
                 strokeLinejoin="round"
+                className="transition-all duration-300"
               />
 
               {/* Mora Nodes & Drop Markers */}
-              {moras.map((m, idx) => {
+              {pitchMoras.map((m, idx) => {
                 const centerX = paddingX + idx * moraStepWidth + moraStepWidth / 2;
                 const nodeY = m.level === 'H' ? highY : lowY;
 
                 return (
                   <g key={idx} className="cursor-default">
-                    {/* Circle Node on line */}
+                    {/* Animated Ripple on Drop Nucleus */}
+                    {m.isDropNucleus && (
+                      <circle
+                        cx={centerX}
+                        cy={nodeY}
+                        r={compact ? 6 : 8}
+                        fill="none"
+                        stroke="#ef4444"
+                        strokeWidth="1.2"
+                        opacity="0.45"
+                        className="animate-ping"
+                      />
+                    )}
+
+                    {/* Circle Node: High = Indigo, Low = Zinc, Drop Nucleus = Rose */}
                     <circle
                       cx={centerX}
                       cy={nodeY}
-                      r={compact ? 3 : 4}
-                      fill={m.isDropNucleus ? '#ef4444' : theme.fill}
+                      r={compact ? 3.5 : 4.5}
+                      fill={m.isDropNucleus ? '#ef4444' : m.level === 'H' ? '#818cf8' : '#52525b'}
                       stroke="#18181b"
-                      strokeWidth="1.5"
+                      strokeWidth={compact ? 1.5 : 2}
                     />
 
-                    {/* Accent Nucleus Drop Marker (下がり目) */}
+                    {/* Accent Nucleus Drop Marker Arrow & Fall Line */}
                     {m.isDropNucleus && (
                       <g>
-                        {/* Downward drop arrow / indicator */}
                         <path
-                          d={`M ${centerX - 3.5} ${nodeY - 5} L ${centerX + 3.5} ${nodeY - 5} L ${centerX} ${nodeY - 1} Z`}
+                          d={`M ${centerX - 3.5} ${nodeY - 6} L ${centerX + 3.5} ${nodeY - 6} L ${centerX} ${nodeY - 1.5} Z`}
                           fill="#ef4444"
                         />
                         <line
@@ -170,13 +211,13 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
                       </g>
                     )}
 
-                    {/* Level Label (H / L) */}
+                    {/* Pitch Level Indicator (H / L) */}
                     <text
                       x={centerX}
                       y={nodeY - (compact ? 5 : 7)}
                       textAnchor="middle"
                       className="text-[9px] font-mono font-bold"
-                      fill={m.level === 'H' ? theme.stroke : '#71717a'}
+                      fill={m.isDropNucleus ? '#f43f5e' : m.level === 'H' ? '#a5b4fc' : '#71717a'}
                     >
                       {m.level}
                     </text>
@@ -185,27 +226,38 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
               })}
             </svg>
 
-            {/* Kana Mora Labels Below the Curve */}
+            {/* Ruby / Furigana Aligned Kana Mora Labels Below the Curve */}
             <div
-              className="flex"
+              className="flex items-center"
               style={{
                 paddingLeft: `${paddingX}px`,
                 paddingRight: `${paddingX}px`,
               }}
             >
-              {moras.map((m, idx) => (
+              {pitchMoras.map((m, idx) => (
                 <div
                   key={idx}
-                  className="flex flex-col items-center"
+                  className="flex flex-col items-center justify-center text-center"
                   style={{ width: `${moraStepWidth}px` }}
                 >
-                  <span
-                    className={`font-japanese font-medium transition ${
-                      compact ? 'text-xs' : 'text-sm'
-                    } ${m.isDropNucleus ? 'text-rose-400 font-bold' : 'text-stone-200'}`}
-                  >
-                    {m.mora}
-                  </span>
+                  <ruby className="flex flex-col items-center">
+                    <span
+                      className={`font-japanese font-semibold transition ${
+                        compact ? 'text-xs' : 'text-sm'
+                      } ${
+                        m.isDropNucleus
+                          ? 'text-rose-400 font-bold drop-shadow-[0_0_8px_rgba(244,63,94,0.4)]'
+                          : m.level === 'H'
+                          ? 'text-indigo-200'
+                          : 'text-stone-300'
+                      }`}
+                    >
+                      {m.mora}
+                    </span>
+                    <rt className="text-[9px] font-mono text-stone-500 select-none">
+                      {m.isDropNucleus ? '▼' : ''}
+                    </rt>
+                  </ruby>
                 </div>
               ))}
             </div>

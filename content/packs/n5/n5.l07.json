@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "ဖြတ်သည် / လှီးသည်",
       "meaningMy": "ဖြတ်သည် / လှီးသည်",
-      "myanmar": "ဖြတ်သည် / လှီးသည်"
+      "myanmar": "ဖြတ်သည် / လှီးသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l07.v002",
@@ -69,7 +71,9 @@
       },
       "meaningMyanmar": "ပို့သည်",
       "meaningMy": "ပို့သည်",
-      "myanmar": "ပို့သည်"
+      "myanmar": "ပို့သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l07.v003",
@@ -97,7 +101,9 @@
       },
       "meaningMyanmar": "ပေးသည်",
       "meaningMy": "ပေးသည်",
-      "myanmar": "ပေးသည်"
+      "myanmar": "ပေးသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l07.v004",
@@ -125,7 +131,9 @@
       },
       "meaningMyanmar": "ရရှိသည် / လက်ခံရရှိသည်",
       "meaningMy": "ရရှိသည် / လက်ခံရရှိသည်",
-      "myanmar": "ရရှိသည် / လက်ခံရရှိသည်"
+      "myanmar": "ရရှိသည် / လက်ခံရရှိသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l07.v005",
@@ -153,7 +161,9 @@
       },
       "meaningMyanmar": "ငှားပေးသည်",
       "meaningMy": "ငှားပေးသည်",
-      "myanmar": "ငှားပေးသည်"
+      "myanmar": "ငှားပေးသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l07.v006",
@@ -181,7 +191,9 @@
       },
       "meaningMyanmar": "ငှားရမ်းသည်",
       "meaningMy": "ငှားရမ်းသည်",
-      "myanmar": "ငှားရမ်းသည်"
+      "myanmar": "ငှားရမ်းသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l07.v007",
@@ -209,7 +221,9 @@
       },
       "meaningMyanmar": "သင်ပြသည် / ပြောပြသည်",
       "meaningMy": "သင်ပြသည် / ပြောပြသည်",
-      "myanmar": "သင်ပြသည် / ပြောပြသည်"
+      "myanmar": "သင်ပြသည် / ပြောပြသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l07.v008",
@@ -237,7 +251,9 @@
       },
       "meaningMyanmar": "သင်ယူသည်",
       "meaningMy": "သင်ယူသည်",
-      "myanmar": "သင်ယူသည်"
+      "myanmar": "သင်ယူသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l07.v009",
@@ -267,7 +283,9 @@
       },
       "meaningMyanmar": "စာ (ပေးစာ)",
       "meaningMy": "စာ (ပေးစာ)",
-      "myanmar": "စာ (ပေးစာ)"
+      "myanmar": "စာ (ပေးစာ)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l07.v010",
@@ -295,7 +313,9 @@
       },
       "meaningMyanmar": "လက်ဆောင်",
       "meaningMy": "လက်ဆောင်",
-      "myanmar": "လက်ဆောင်"
+      "myanmar": "လက်ဆောင်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l07.v011",
@@ -323,7 +343,9 @@
       },
       "meaningMyanmar": "တူ (ထမင်းစားတူ)",
       "meaningMy": "တူ (ထမင်းစားတူ)",
-      "myanmar": "တူ (ထမင်းစားတူ)"
+      "myanmar": "တူ (ထမင်းစားတူ)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l07.v012",
@@ -351,7 +373,9 @@
       },
       "meaningMyanmar": "ပြီးပြီ / ရောက်ပြီ",
       "meaningMy": "ပြီးပြီ / ရောက်ပြီ",
-      "myanmar": "ပြီးပြီ / ရောက်ပြီ"
+      "myanmar": "ပြီးပြီ / ရောက်ပြီ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

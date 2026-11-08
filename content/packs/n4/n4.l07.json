@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "ကပ်သည်",
       "meaningMy": "ကပ်သည်",
-      "myanmar": "ကပ်သည်"
+      "myanmar": "ကပ်သည်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l07.v002",
@@ -69,7 +71,9 @@
       },
       "meaningMyanmar": "ချိတ်ဆွဲသည်",
       "meaningMy": "ချိတ်ဆွဲသည်",
-      "myanmar": "ချိတ်ဆွဲသည်"
+      "myanmar": "ချိတ်ဆွဲသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l07.v003",
@@ -97,7 +101,9 @@
       },
       "meaningMyanmar": "အလှဆင်သည်/ခင်းကျင်းပြသသည်",
       "meaningMy": "အလှဆင်သည်/ခင်းကျင်းပြသသည်",
-      "myanmar": "အလှဆင်သည်/ခင်းကျင်းပြသသည်"
+      "myanmar": "အလှဆင်သည်/ခင်းကျင်းပြသသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l07.v004",
@@ -127,7 +133,9 @@
       },
       "meaningMyanmar": "စီစဉ်ထားသိုသည်/တန်းစီသည်",
       "meaningMy": "စီစဉ်ထားသိုသည်/တန်းစီသည်",
-      "myanmar": "စီစဉ်ထားသိုသည်/တန်းစီသည်"
+      "myanmar": "စီစဉ်ထားသိုသည်/တန်းစီသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l07.v005",
@@ -157,7 +165,9 @@
       },
       "meaningMyanmar": "စိုက်ပျိုးသည်",
       "meaningMy": "စိုက်ပျိုးသည်",
-      "myanmar": "စိုက်ပျိုးသည်"
+      "myanmar": "စိုက်ပျိုးသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l07.v006",
@@ -185,7 +195,9 @@
       },
       "meaningMyanmar": "မူလနေရာ ပြန်ထားသည်",
       "meaningMy": "မူလနေရာ ပြန်ထားသည်",
-      "myanmar": "မူလနေရာ ပြန်ထားသည်"
+      "myanmar": "မူလနေရာ ပြန်ထားသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l07.v007",
@@ -213,7 +225,9 @@
       },
       "meaningMyanmar": "သိမ်းဆည်းသပ်ရပ်အောင်လုပ်သည်",
       "meaningMy": "သိမ်းဆည်းသပ်ရပ်အောင်လုပ်သည်",
-      "myanmar": "သိမ်းဆည်းသပ်ရပ်အောင်လုပ်သည်"
+      "myanmar": "သိမ်းဆည်းသပ်ရပ်အောင်လုပ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l07.v008",
@@ -243,7 +257,9 @@
       },
       "meaningMyanmar": "ဆုံးဖြတ်ပြီးဖြစ်သည်",
       "meaningMy": "ဆုံးဖြတ်ပြီးဖြစ်သည်",
-      "myanmar": "ဆုံးဖြတ်ပြီးဖြစ်သည်"
+      "myanmar": "ဆုံးဖြတ်ပြီးဖြစ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l07.v009",
@@ -271,7 +287,9 @@
       },
       "meaningMyanmar": "ဆက်သွယ်မှု",
       "meaningMy": "ဆက်သွယ်မှု",
-      "myanmar": "ဆက်သွယ်မှု"
+      "myanmar": "ဆက်သွယ်မှု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l07.v010",
@@ -302,7 +320,9 @@
       },
       "meaningMyanmar": "အချိန်ဇယား/အစီအစဉ်ဇယား",
       "meaningMy": "အချိန်ဇယား/အစီအစဉ်ဇယား",
-      "myanmar": "အချိန်ဇယား/အစီအစဉ်ဇယား"
+      "myanmar": "အချိန်ဇယား/အစီအစဉ်ဇယား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l07.v011",
@@ -330,7 +350,9 @@
       },
       "meaningMyanmar": "အံဆွဲ",
       "meaningMy": "အံဆွဲ",
-      "myanmar": "အံဆွဲ"
+      "myanmar": "အံဆွဲ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l07.v012",
@@ -358,7 +380,9 @@
       },
       "meaningMyanmar": "အမှိုက်ပုံး",
       "meaningMy": "အမှိုက်ပုံး",
-      "myanmar": "အမှိုက်ပုံး"
+      "myanmar": "အမှိုက်ပုံး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

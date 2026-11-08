@@ -40,7 +40,9 @@
         "status": "native_verified",
         "updatedAt": "2026-10-19T12:00:00Z",
         "rev": 2
-      }
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n2.l06.v002",
@@ -67,7 +69,9 @@
         "status": "native_verified",
         "updatedAt": "2026-10-19T12:00:00Z",
         "rev": 2
-      }
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n2.l06.v003",
@@ -94,7 +98,9 @@
         "status": "native_verified",
         "updatedAt": "2026-10-19T12:00:00Z",
         "rev": 2
-      }
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n2.l06.v004",
@@ -121,7 +127,9 @@
         "status": "native_verified",
         "updatedAt": "2026-10-19T12:00:00Z",
         "rev": 2
-      }
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n2.l06.v005",
@@ -146,7 +154,9 @@
         "status": "native_verified",
         "updatedAt": "2026-10-19T12:00:00Z",
         "rev": 2
-      }
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n2.l06.v006",
@@ -171,7 +181,9 @@
         "status": "native_verified",
         "updatedAt": "2026-10-19T12:00:00Z",
         "rev": 2
-      }
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n2.l06.v007",
@@ -196,7 +208,9 @@
         "status": "native_verified",
         "updatedAt": "2026-10-19T12:00:00Z",
         "rev": 2
-      }
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n2.l06.v008",
@@ -221,7 +235,9 @@
         "status": "native_verified",
         "updatedAt": "2026-10-19T12:00:00Z",
         "rev": 2
-      }
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n2.l06.v009",
@@ -246,7 +262,9 @@
         "status": "native_verified",
         "updatedAt": "2026-10-19T12:00:00Z",
         "rev": 2
-      }
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n2.l06.v010",
@@ -271,7 +289,9 @@
         "status": "native_verified",
         "updatedAt": "2026-10-19T12:00:00Z",
         "rev": 2
-      }
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n2.l06.v011",
@@ -296,7 +316,9 @@
         "status": "native_verified",
         "updatedAt": "2026-10-19T12:00:00Z",
         "rev": 2
-      }
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n2.l06.v012",
@@ -321,7 +343,9 @@
         "status": "native_verified",
         "updatedAt": "2026-10-19T12:00:00Z",
         "rev": 2
-      }
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

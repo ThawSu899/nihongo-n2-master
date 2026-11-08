@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "လိုချင်သော",
       "meaningMy": "လိုချင်သော",
-      "myanmar": "လိုချင်သော"
+      "myanmar": "လိုချင်သော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l14.v002",
@@ -71,7 +73,9 @@
       },
       "meaningMyanmar": "ဈေးဝယ်ခြင်း",
       "meaningMy": "ဈေးဝယ်ခြင်း",
-      "myanmar": "ဈေးဝယ်ခြင်း"
+      "myanmar": "ဈေးဝယ်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l14.v003",
@@ -99,7 +103,9 @@
       },
       "meaningMyanmar": "ကစားသည် / အလည်သွားသည်",
       "meaningMy": "ကစားသည် / အလည်သွားသည်",
-      "myanmar": "ကစားသည် / အလည်သွားသည်"
+      "myanmar": "ကစားသည် / အလည်သွားသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l14.v004",
@@ -127,7 +133,9 @@
       },
       "meaningMyanmar": "ရေကူးသည်",
       "meaningMy": "ရေကူးသည်",
-      "myanmar": "ရေကူးသည်"
+      "myanmar": "ရေကူးသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l14.v005",
@@ -155,7 +163,9 @@
       },
       "meaningMyanmar": "ကြိုဆိုသည်",
       "meaningMy": "ကြိုဆိုသည်",
-      "myanmar": "ကြိုဆိုသည်"
+      "myanmar": "ကြိုဆိုသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l14.v006",
@@ -183,7 +193,9 @@
       },
       "meaningMyanmar": "မောပန်းသည်",
       "meaningMy": "မောပန်းသည်",
-      "myanmar": "မောပန်းသည်"
+      "myanmar": "မောပန်းသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l14.v007",
@@ -211,7 +223,9 @@
       },
       "meaningMyanmar": "လမ်းလျှောက်သည်",
       "meaningMy": "လမ်းလျှောက်သည်",
-      "myanmar": "လမ်းလျှောက်သည်"
+      "myanmar": "လမ်းလျှောက်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
     },
     {
       "id": "n5.l14.v008",
@@ -239,7 +253,9 @@
       },
       "meaningMyanmar": "ခရီးသွားသည်",
       "meaningMy": "ခရီးသွားသည်",
-      "myanmar": "ခရီးသွားသည်"
+      "myanmar": "ခရီးသွားသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
     },
     {
       "id": "n5.l14.v009",
@@ -267,7 +283,9 @@
       },
       "meaningMyanmar": "ဗိုက်ဆာသည်",
       "meaningMy": "ဗိုက်ဆာသည်",
-      "myanmar": "ဗိုက်ဆာသည်"
+      "myanmar": "ဗိုက်ဆာသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 7
     },
     {
       "id": "n5.l14.v010",
@@ -295,7 +313,9 @@
       },
       "meaningMyanmar": "ရေဆာသည်",
       "meaningMy": "ရေဆာသည်",
-      "myanmar": "ရေဆာသည်"
+      "myanmar": "ရေဆာသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 7
     },
     {
       "id": "n5.l14.v011",
@@ -323,7 +343,9 @@
       },
       "meaningMyanmar": "စကိတ်စီးခြင်း",
       "meaningMy": "စကိတ်စီးခြင်း",
-      "myanmar": "စကိတ်စီးခြင်း"
+      "myanmar": "စကိတ်စီးခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l14.v012",
@@ -351,7 +373,9 @@
       },
       "meaningMyanmar": "သီတင်းပတ်ကုန်",
       "meaningMy": "သီတင်းပတ်ကုန်",
-      "myanmar": "သီတင်းပတ်ကုန်"
+      "myanmar": "သီတင်းပတ်ကုန်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

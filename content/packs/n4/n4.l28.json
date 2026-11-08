@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "သွားရောက်လည်ပတ်သည်/ရောက်ရှိလာသည်",
       "meaningMy": "သွားရောက်လည်ပတ်သည်/ရောက်ရှိလာသည်",
-      "myanmar": "သွားရောက်လည်ပတ်သည်/ရောက်ရှိလာသည်"
+      "myanmar": "သွားရောက်လည်ပတ်သည်/ရောက်ရှိလာသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l28.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "သွားရောက်တွေ့ဆုံလည်ပတ်သည်",
       "meaningMy": "သွားရောက်တွေ့ဆုံလည်ပတ်သည်",
-      "myanmar": "သွားရောက်တွေ့ဆုံလည်ပတ်သည်"
+      "myanmar": "သွားရောက်တွေ့ဆုံလည်ပတ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l28.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "တောင်တက်ခြင်း",
       "meaningMy": "တောင်တက်ခြင်း",
-      "myanmar": "တောင်တက်ခြင်း"
+      "myanmar": "တောင်တက်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l28.v004",
@@ -133,7 +139,9 @@
       },
       "meaningMyanmar": "တက်ရောက်သည်",
       "meaningMy": "တက်ရောက်သည်",
-      "myanmar": "တက်ရောက်သည်"
+      "myanmar": "တက်ရောက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l28.v005",
@@ -164,7 +172,9 @@
       },
       "meaningMyanmar": "ဂီတတီးခတ်ဖျော်ဖြေမှု",
       "meaningMy": "ဂီတတီးခတ်ဖျော်ဖြေမှု",
-      "myanmar": "ဂီတတီးခတ်ဖျော်ဖြေမှု"
+      "myanmar": "ဂီတတီးခတ်ဖျော်ဖြေမှု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l28.v006",
@@ -195,7 +205,9 @@
       },
       "meaningMyanmar": "တီးခတ်ဖျော်ဖြေသည်",
       "meaningMy": "တီးခတ်ဖျော်ဖြေသည်",
-      "myanmar": "တီးခတ်ဖျော်ဖြေသည်"
+      "myanmar": "တီးခတ်ဖျော်ဖြေသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l28.v007",
@@ -223,7 +235,9 @@
       },
       "meaningMyanmar": "သီချင်းဆိုသည်",
       "meaningMy": "သီချင်းဆိုသည်",
-      "myanmar": "သီချင်းဆိုသည်"
+      "myanmar": "သီချင်းဆိုသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l28.v008",
@@ -251,7 +265,9 @@
       },
       "meaningMyanmar": "မောင်းနှင်သည်",
       "meaningMy": "မောင်းနှင်သည်",
-      "myanmar": "မောင်းနှင်သည်"
+      "myanmar": "မောင်းနှင်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l28.v009",
@@ -279,7 +295,9 @@
       },
       "meaningMyanmar": "အာရုံစူးစိုက်သည်",
       "meaningMy": "အာရုံစူးစိုက်သည်",
-      "myanmar": "အာရုံစူးစိုက်သည်"
+      "myanmar": "အာရုံစူးစိုက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l28.v010",
@@ -307,7 +325,9 @@
       },
       "meaningMyanmar": "ကိုယ်တွေ့လက်တွေ့အတွေ့အကြုံ",
       "meaningMy": "ကိုယ်တွေ့လက်တွေ့အတွေ့အကြုံ",
-      "myanmar": "ကိုယ်တွေ့လက်တွေ့အတွေ့အကြုံ"
+      "myanmar": "ကိုယ်တွေ့လက်တွေ့အတွေ့အကြုံ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l28.v011",
@@ -335,7 +355,9 @@
       },
       "meaningMyanmar": "အတွေ့အကြုံရှိသည်/ကြုံတွေ့သည်",
       "meaningMy": "အတွေ့အကြုံရှိသည်/ကြုံတွေ့သည်",
-      "myanmar": "အတွေ့အကြုံရှိသည်/ကြုံတွေ့သည်"
+      "myanmar": "အတွေ့အကြုံရှိသည်/ကြုံတွေ့သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l28.v012",
@@ -363,7 +385,9 @@
       },
       "meaningMyanmar": "တစ်ခါမျှ (မ...)",
       "meaningMy": "တစ်ခါမျှ (မ...)",
-      "myanmar": "တစ်ခါမျှ (မ...)"
+      "myanmar": "တစ်ခါမျှ (မ...)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

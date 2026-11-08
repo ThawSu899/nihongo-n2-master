@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "ဒါ (ပြောသူအနီး)",
       "meaningMy": "ဒါ (ပြောသူအနီး)",
-      "myanmar": "ဒါ (ပြောသူအနီး)"
+      "myanmar": "ဒါ (ပြောသူအနီး)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l02.v002",
@@ -69,7 +71,9 @@
       },
       "meaningMyanmar": "အဲဒါ (နားထောင်သူအနီး)",
       "meaningMy": "အဲဒါ (နားထောင်သူအနီး)",
-      "myanmar": "အဲဒါ (နားထောင်သူအနီး)"
+      "myanmar": "အဲဒါ (နားထောင်သူအနီး)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l02.v003",
@@ -97,7 +101,9 @@
       },
       "meaningMyanmar": "ဟိုဟာ (နှစ်ဦးစလုံးနှင့်ဝေး)",
       "meaningMy": "ဟိုဟာ (နှစ်ဦးစလုံးနှင့်ဝေး)",
-      "myanmar": "ဟိုဟာ (နှစ်ဦးစလုံးနှင့်ဝေး)"
+      "myanmar": "ဟိုဟာ (နှစ်ဦးစလုံးနှင့်ဝေး)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l02.v004",
@@ -125,7 +131,9 @@
       },
       "meaningMyanmar": "ဘယ်ဟာ",
       "meaningMy": "ဘယ်ဟာ",
-      "myanmar": "ဘယ်ဟာ"
+      "myanmar": "ဘယ်ဟာ",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l02.v005",
@@ -155,7 +163,9 @@
       },
       "meaningMyanmar": "စာအုပ်",
       "meaningMy": "စာအုပ်",
-      "myanmar": "စာအုပ်"
+      "myanmar": "စာအုပ်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l02.v006",
@@ -183,7 +193,9 @@
       },
       "meaningMyanmar": "အဘိဓာန်",
       "meaningMy": "အဘိဓာန်",
-      "myanmar": "အဘိဓာန်"
+      "myanmar": "အဘိဓာန်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l02.v007",
@@ -211,7 +223,9 @@
       },
       "meaningMyanmar": "မဂ္ဂဇင်း",
       "meaningMy": "မဂ္ဂဇင်း",
-      "myanmar": "မဂ္ဂဇင်း"
+      "myanmar": "မဂ္ဂဇင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l02.v008",
@@ -239,7 +253,9 @@
       },
       "meaningMyanmar": "သတင်းစာ",
       "meaningMy": "သတင်းစာ",
-      "myanmar": "သတင်းစာ"
+      "myanmar": "သတင်းစာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l02.v009",
@@ -267,7 +283,9 @@
       },
       "meaningMyanmar": "ဗလာစာအုပ်",
       "meaningMy": "ဗလာစာအုပ်",
-      "myanmar": "ဗလာစာအုပ်"
+      "myanmar": "ဗလာစာအုပ်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l02.v010",
@@ -295,7 +313,9 @@
       },
       "meaningMyanmar": "နာရီ",
       "meaningMy": "နာရီ",
-      "myanmar": "နာရီ"
+      "myanmar": "နာရီ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l02.v011",
@@ -323,7 +343,9 @@
       },
       "meaningMyanmar": "ထီး",
       "meaningMy": "ထီး",
-      "myanmar": "ထီး"
+      "myanmar": "ထီး",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l02.v012",
@@ -351,7 +373,9 @@
       },
       "meaningMyanmar": "အိတ်",
       "meaningMy": "အိတ်",
-      "myanmar": "အိတ်"
+      "myanmar": "အိတ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

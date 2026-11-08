@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ငှားရမ်းပေးသည်",
       "meaningMy": "ငှားရမ်းပေးသည်",
-      "myanmar": "ငှားရမ်းပေးသည်"
+      "myanmar": "ငှားရမ်းပေးသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l33.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "ငှားရမ်းယူသည်",
       "meaningMy": "ငှားရမ်းယူသည်",
-      "myanmar": "ငှားရမ်းယူသည်"
+      "myanmar": "ငှားရမ်းယူသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l33.v003",
@@ -104,7 +108,9 @@
       },
       "meaningMyanmar": "ကျေးဇူးတရား/အကျိုးကျေးဇူး",
       "meaningMy": "ကျေးဇူးတရား/အကျိုးကျေးဇူး",
-      "myanmar": "ကျေးဇူးတရား/အကျိုးကျေးဇူး"
+      "myanmar": "ကျေးဇူးတရား/အကျိုးကျေးဇူး",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n4.l33.v004",
@@ -132,7 +138,9 @@
       },
       "meaningMyanmar": "ပြုပြင်သည်/ပြင်ဆင်သည်",
       "meaningMy": "ပြုပြင်သည်/ပြင်ဆင်သည်",
-      "myanmar": "ပြုပြင်သည်/ပြင်ဆင်သည်"
+      "myanmar": "ပြုပြင်သည်/ပြင်ဆင်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l33.v005",
@@ -160,7 +168,9 @@
       },
       "meaningMyanmar": "ပို့ဆောင်ပေးသည်/အကြောင်းကြားသည်",
       "meaningMy": "ပို့ဆောင်ပေးသည်/အကြောင်းကြားသည်",
-      "myanmar": "ပို့ဆောင်ပေးသည်/အကြောင်းကြားသည်"
+      "myanmar": "ပို့ဆောင်ပေးသည်/အကြောင်းကြားသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l33.v006",
@@ -188,7 +198,9 @@
       },
       "meaningMyanmar": "ပို့သည်/လိုက်ပို့သည်",
       "meaningMy": "ပို့သည်/လိုက်ပို့သည်",
-      "myanmar": "ပို့သည်/လိုက်ပို့သည်"
+      "myanmar": "ပို့သည်/လိုက်ပို့သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l33.v007",
@@ -216,7 +228,9 @@
       },
       "meaningMyanmar": "သင်ကြားပြသသည်/ပြောပြသည်",
       "meaningMy": "သင်ကြားပြသသည်/ပြောပြသည်",
-      "myanmar": "သင်ကြားပြသသည်/ပြောပြသည်"
+      "myanmar": "သင်ကြားပြသသည်/ပြောပြသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l33.v008",
@@ -244,7 +258,9 @@
       },
       "meaningMyanmar": "ဝမ်းသာသည်/ပျော်ရွှင်သည်",
       "meaningMy": "ဝမ်းသာသည်/ပျော်ရွှင်သည်",
-      "myanmar": "ဝမ်းသာသည်/ပျော်ရွှင်သည်"
+      "myanmar": "ဝမ်းသာသည်/ပျော်ရွှင်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l33.v009",
@@ -272,7 +288,9 @@
       },
       "meaningMyanmar": "ကျေးဇူးတင်ရှိမှု",
       "meaningMy": "ကျေးဇူးတင်ရှိမှု",
-      "myanmar": "ကျေးဇူးတင်ရှိမှု"
+      "myanmar": "ကျေးဇူးတင်ရှိမှု",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l33.v010",
@@ -300,7 +318,9 @@
       },
       "meaningMyanmar": "ကြင်နာသဘောကောင်းသော",
       "meaningMy": "ကြင်နာသဘောကောင်းသော",
-      "myanmar": "ကြင်နာသဘောကောင်းသော"
+      "myanmar": "ကြင်နာသဘောကောင်းသော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l33.v011",
@@ -328,7 +348,9 @@
       },
       "meaningMyanmar": "အနှောင့်အယှက်/ဒုက္ခပေးမှု",
       "meaningMy": "အနှောင့်အယှက်/ဒုက္ခပေးမှု",
-      "myanmar": "အနှောင့်အယှက်/ဒုက္ခပေးမှု"
+      "myanmar": "အနှောင့်အယှက်/ဒုက္ခပေးမှု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l33.v012",
@@ -356,7 +378,9 @@
       },
       "meaningMyanmar": "ကူညီကယ်ဆယ်သည်",
       "meaningMy": "ကူညီကယ်ဆယ်သည်",
-      "myanmar": "ကူညီကယ်ဆယ်သည်"
+      "myanmar": "ကူညီကယ်ဆယ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "အားလုံး",
       "meaningMy": "အားလုံး",
-      "myanmar": "အားလုံး"
+      "myanmar": "အားလုံး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l22.v002",
@@ -71,7 +73,9 @@
       },
       "meaningMyanmar": "စကားပြောသည်",
       "meaningMy": "စကားပြောသည်",
-      "myanmar": "စကားပြောသည်"
+      "myanmar": "စကားပြောသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l22.v003",
@@ -101,7 +105,9 @@
       },
       "meaningMyanmar": "နားထောင်သည် / မေးသည်",
       "meaningMy": "နားထောင်သည် / မေးသည်",
-      "myanmar": "နားထောင်သည် / မေးသည်"
+      "myanmar": "နားထောင်သည် / မေးသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l22.v004",
@@ -131,7 +137,9 @@
       },
       "meaningMyanmar": "စာဖတ်သည်",
       "meaningMy": "စာဖတ်သည်",
-      "myanmar": "စာဖတ်သည်"
+      "myanmar": "စာဖတ်သည်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l22.v005",
@@ -159,7 +167,9 @@
       },
       "meaningMyanmar": "ကြည့်သည်",
       "meaningMy": "ကြည့်သည်",
-      "myanmar": "ကြည့်သည်"
+      "myanmar": "ကြည့်သည်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l22.v006",
@@ -187,7 +197,9 @@
       },
       "meaningMyanmar": "စားသည်",
       "meaningMy": "စားသည်",
-      "myanmar": "စားသည်"
+      "myanmar": "စားသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l22.v007",
@@ -215,7 +227,9 @@
       },
       "meaningMyanmar": "သောက်သည်",
       "meaningMy": "သောက်သည်",
-      "myanmar": "သောက်သည်"
+      "myanmar": "သောက်သည်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l22.v008",
@@ -243,7 +257,9 @@
       },
       "meaningMyanmar": "သွားသည်",
       "meaningMy": "သွားသည်",
-      "myanmar": "သွားသည်"
+      "myanmar": "သွားသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l22.v009",
@@ -271,7 +287,9 @@
       },
       "meaningMyanmar": "လာသည်",
       "meaningMy": "လာသည်",
-      "myanmar": "လာသည်"
+      "myanmar": "လာသည်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l22.v010",
@@ -299,7 +317,9 @@
       },
       "meaningMyanmar": "လုပ်သည်",
       "meaningMy": "လုပ်သည်",
-      "myanmar": "လုပ်သည်"
+      "myanmar": "လုပ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l22.v011",
@@ -327,7 +347,9 @@
       },
       "meaningMyanmar": "အင်း / ဟုတ်တယ် (ရင်းနှီးစကား)",
       "meaningMy": "အင်း / ဟုတ်တယ် (ရင်းနှီးစကား)",
-      "myanmar": "အင်း / ဟုတ်တယ် (ရင်းနှီးစကား)"
+      "myanmar": "အင်း / ဟုတ်တယ် (ရင်းနှီးစကား)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l22.v012",
@@ -355,7 +377,9 @@
       },
       "meaningMyanmar": "ဟင့်အင်း (ရင်းနှီးစကား)",
       "meaningMy": "ဟင့်အင်း (ရင်းနှီးစကား)",
-      "myanmar": "ဟင့်အင်း (ရင်းနှီးစကား)"
+      "myanmar": "ဟင့်အင်း (ရင်းနှီးစကား)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

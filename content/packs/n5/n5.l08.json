@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "ကြီးမားသော",
       "meaningMy": "ကြီးမားသော",
-      "myanmar": "ကြီးမားသော"
+      "myanmar": "ကြီးမားသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l08.v002",
@@ -69,7 +71,9 @@
       },
       "meaningMyanmar": "သေးငယ်သော",
       "meaningMy": "သေးငယ်သော",
-      "myanmar": "သေးငယ်သော"
+      "myanmar": "သေးငယ်သော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l08.v003",
@@ -99,7 +103,9 @@
       },
       "meaningMyanmar": "သစ်လွင်သော",
       "meaningMy": "သစ်လွင်သော",
-      "myanmar": "သစ်လွင်သော"
+      "myanmar": "သစ်လွင်သော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l08.v004",
@@ -129,7 +135,9 @@
       },
       "meaningMyanmar": "ဟောင်းနွမ်းသော",
       "meaningMy": "ဟောင်းနွမ်းသော",
-      "myanmar": "ဟောင်းနွမ်းသော"
+      "myanmar": "ဟောင်းနွမ်းသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l08.v005",
@@ -157,7 +165,9 @@
       },
       "meaningMyanmar": "ကောင်းသော",
       "meaningMy": "ကောင်းသော",
-      "myanmar": "ကောင်းသော"
+      "myanmar": "ကောင်းသော",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l08.v006",
@@ -185,7 +195,9 @@
       },
       "meaningMyanmar": "ဆိုးသော",
       "meaningMy": "ဆိုးသော",
-      "myanmar": "ဆိုးသော"
+      "myanmar": "ဆိုးသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l08.v007",
@@ -215,7 +227,9 @@
       },
       "meaningMyanmar": "မြင့်သော / ဈေးကြီးသော",
       "meaningMy": "မြင့်သော / ဈေးကြီးသော",
-      "myanmar": "မြင့်သော / ဈေးကြီးသော"
+      "myanmar": "မြင့်သော / ဈေးကြီးသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l08.v008",
@@ -245,7 +259,9 @@
       },
       "meaningMyanmar": "ဈေးချိုသော",
       "meaningMy": "ဈေးချိုသော",
-      "myanmar": "ဈေးချိုသော"
+      "myanmar": "ဈေးချိုသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l08.v009",
@@ -273,7 +289,9 @@
       },
       "meaningMyanmar": "တိတ်ဆိတ်သော",
       "meaningMy": "တိတ်ဆိတ်သော",
-      "myanmar": "တိတ်ဆိတ်သော"
+      "myanmar": "တိတ်ဆိတ်သော",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l08.v010",
@@ -301,7 +319,9 @@
       },
       "meaningMyanmar": "စည်ကားသော",
       "meaningMy": "စည်ကားသော",
-      "myanmar": "စည်ကားသော"
+      "myanmar": "စည်ကားသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l08.v011",
@@ -329,7 +349,9 @@
       },
       "meaningMyanmar": "ကျော်ကြားသော",
       "meaningMy": "ကျော်ကြားသော",
-      "myanmar": "ကျော်ကြားသော"
+      "myanmar": "ကျော်ကြားသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l08.v012",
@@ -357,7 +379,9 @@
       },
       "meaningMyanmar": "ကြင်နာဖော်ရွေသော",
       "meaningMy": "ကြင်နာဖော်ရွေသော",
-      "myanmar": "ကြင်နာဖော်ရွေသော"
+      "myanmar": "ကြင်နာဖော်ရွေသော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

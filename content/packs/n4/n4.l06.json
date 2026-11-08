@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ပွင့်သည်",
       "meaningMy": "ပွင့်သည်",
-      "myanmar": "ပွင့်သည်"
+      "myanmar": "ပွင့်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l06.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "ဖွင့်သည်",
       "meaningMy": "ဖွင့်သည်",
-      "myanmar": "ဖွင့်သည်"
+      "myanmar": "ဖွင့်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l06.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "ပိတ်သည်",
       "meaningMy": "ပိတ်သည်",
-      "myanmar": "ပိတ်သည်"
+      "myanmar": "ပိတ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l06.v004",
@@ -133,7 +139,9 @@
       },
       "meaningMyanmar": "ပိတ်သည်",
       "meaningMy": "ပိတ်သည်",
-      "myanmar": "ပိတ်သည်"
+      "myanmar": "ပိတ်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l06.v005",
@@ -161,7 +169,9 @@
       },
       "meaningMyanmar": "မီးလင်းသည်/ပွင့်သည်",
       "meaningMy": "မီးလင်းသည်/ပွင့်သည်",
-      "myanmar": "မီးလင်းသည်/ပွင့်သည်"
+      "myanmar": "မီးလင်းသည်/ပွင့်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l06.v006",
@@ -189,7 +199,9 @@
       },
       "meaningMyanmar": "မီးဖွင့်သည်",
       "meaningMy": "မီးဖွင့်သည်",
-      "myanmar": "မီးဖွင့်သည်"
+      "myanmar": "မီးဖွင့်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l06.v007",
@@ -219,7 +231,9 @@
       },
       "meaningMyanmar": "မီးငြိမ်းသည်/ပျောက်ကွယ်သည်",
       "meaningMy": "မီးငြိမ်းသည်/ပျောက်ကွယ်သည်",
-      "myanmar": "မီးငြိမ်းသည်/ပျောက်ကွယ်သည်"
+      "myanmar": "မီးငြိမ်းသည်/ပျောက်ကွယ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l06.v008",
@@ -249,7 +263,9 @@
       },
       "meaningMyanmar": "မီးပိတ်သည်/ဖျက်သည်",
       "meaningMy": "မီးပိတ်သည်/ဖျက်သည်",
-      "myanmar": "မီးပိတ်သည်/ဖျက်သည်"
+      "myanmar": "မီးပိတ်သည်/ဖျက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l06.v009",
@@ -277,7 +293,9 @@
       },
       "meaningMyanmar": "ကွဲအက်သည်",
       "meaningMy": "ကွဲအက်သည်",
-      "myanmar": "ကွဲအက်သည်"
+      "myanmar": "ကွဲအက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l06.v010",
@@ -305,7 +323,9 @@
       },
       "meaningMyanmar": "ခွဲသည်/ချိုးဖဲ့သည်",
       "meaningMy": "ခွဲသည်/ချိုးဖဲ့သည်",
-      "myanmar": "ခွဲသည်/ချိုးဖဲ့သည်"
+      "myanmar": "ခွဲသည်/ချိုးဖဲ့သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l06.v011",
@@ -333,7 +353,9 @@
       },
       "meaningMyanmar": "ပေကျံညစ်ပတ်သည်",
       "meaningMy": "ပေကျံညစ်ပတ်သည်",
-      "myanmar": "ပေကျံညစ်ပတ်သည်"
+      "myanmar": "ပေကျံညစ်ပတ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l06.v012",
@@ -363,7 +385,9 @@
       },
       "meaningMyanmar": "ပြုတ်ကျစေသည်/ကျပျောက်သည်",
       "meaningMy": "ပြုတ်ကျစေသည်/ကျပျောက်သည်",
-      "myanmar": "ပြုတ်ကျစေသည်/ကျပျောက်သည်"
+      "myanmar": "ပြုတ်ကျစေသည်/ကျပျောက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

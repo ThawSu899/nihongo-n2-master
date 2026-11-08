@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ကျိုးပဲ့ပျက်စီးသည် (အလိုအလျောက်)",
       "meaningMy": "ကျိုးပဲ့ပျက်စီးသည် (အလိုအလျောက်)",
-      "myanmar": "ကျိုးပဲ့ပျက်စီးသည် (အလိုအလျောက်)"
+      "myanmar": "ကျိုးပဲ့ပျက်စီးသည် (အလိုအလျောက်)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l18.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "ကွဲအက်သည်",
       "meaningMy": "ကွဲအက်သည်",
-      "myanmar": "ကွဲအက်သည်"
+      "myanmar": "ကွဲအက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l18.v003",
@@ -104,7 +108,9 @@
       },
       "meaningMyanmar": "ရှုပ်ထွေးသော",
       "meaningMy": "ရှုပ်ထွေးသော",
-      "myanmar": "ရှုပ်ထွေးသော"
+      "myanmar": "ရှုပ်ထွေးသော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l18.v004",
@@ -132,7 +138,9 @@
       },
       "meaningMyanmar": "ရိုးရှင်းသော",
       "meaningMy": "ရိုးရှင်းသော",
-      "myanmar": "ရိုးရှင်းသော"
+      "myanmar": "ရိုးရှင်းသော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l18.v005",
@@ -160,7 +168,9 @@
       },
       "meaningMyanmar": "လမ်းညွှန်ရှင်းလင်းချက်စာအုပ်",
       "meaningMy": "လမ်းညွှန်ရှင်းလင်းချက်စာအုပ်",
-      "myanmar": "လမ်းညွှန်ရှင်းလင်းချက်စာအုပ်"
+      "myanmar": "လမ်းညွှန်ရှင်းလင်းချက်စာအုပ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l18.v006",
@@ -188,7 +198,9 @@
       },
       "meaningMyanmar": "အသုံးပြုကိုင်တွယ်မောင်းနှင်ခြင်း",
       "meaningMy": "အသုံးပြုကိုင်တွယ်မောင်းနှင်ခြင်း",
-      "myanmar": "အသုံးပြုကိုင်တွယ်မောင်းနှင်ခြင်း"
+      "myanmar": "အသုံးပြုကိုင်တွယ်မောင်းနှင်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l18.v007",
@@ -216,7 +228,9 @@
       },
       "meaningMyanmar": "မျက်နှာပြင် (ဖုန်း/တီဗွီ)",
       "meaningMy": "မျက်နှာပြင် (ဖုန်း/တီဗွီ)",
-      "myanmar": "မျက်နှာပြင် (ဖုန်း/တီဗွီ)"
+      "myanmar": "မျက်နှာပြင် (ဖုန်း/တီဗွီ)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l18.v008",
@@ -244,7 +258,9 @@
       },
       "meaningMyanmar": "စပ်သော",
       "meaningMy": "စပ်သော",
-      "myanmar": "စပ်သော"
+      "myanmar": "စပ်သော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l18.v009",
@@ -272,7 +288,9 @@
       },
       "meaningMyanmar": "အစာအိမ်",
       "meaningMy": "အစာအိမ်",
-      "myanmar": "အစာအိမ်"
+      "myanmar": "အစာအိမ်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l18.v010",
@@ -300,7 +318,9 @@
       },
       "meaningMyanmar": "အိမ်ငှားခ",
       "meaningMy": "အိမ်ငှားခ",
-      "myanmar": "အိမ်ငှားခ"
+      "myanmar": "အိမ်ငှားခ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l18.v011",
@@ -328,7 +348,9 @@
       },
       "meaningMyanmar": "ချော်လဲသည်/လျှောကျသည်",
       "meaningMy": "ချော်လဲသည်/လျှောကျသည်",
-      "myanmar": "ချော်လဲသည်/လျှောကျသည်"
+      "myanmar": "ချော်လဲသည်/လျှောကျသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l18.v012",
@@ -356,7 +378,9 @@
       },
       "meaningMyanmar": "လောင်ကျွမ်းသည်/မီးလောင်လွယ်သည်",
       "meaningMy": "လောင်ကျွမ်းသည်/မီးလောင်လွယ်သည်",
-      "myanmar": "လောင်ကျွမ်းသည်/မီးလောင်လွယ်သည်"
+      "myanmar": "လောင်ကျွမ်းသည်/မီးလောင်လွယ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "ရေချိုးသည် (ရှာဝါ)",
       "meaningMy": "ရေချိုးသည် (ရှာဝါ)",
-      "myanmar": "ရေချိုးသည် (ရှာဝါ)"
+      "myanmar": "ရေချိုးသည် (ရှာဝါ)",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l17.v002",
@@ -69,7 +71,9 @@
       },
       "meaningMyanmar": "အပြင်ထွက်သည်",
       "meaningMy": "အပြင်ထွက်သည်",
-      "myanmar": "အပြင်ထွက်သည်"
+      "myanmar": "အပြင်ထွက်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l17.v003",
@@ -97,7 +101,9 @@
       },
       "meaningMyanmar": "ထည့်သည်",
       "meaningMy": "ထည့်သည်",
-      "myanmar": "ထည့်သည်"
+      "myanmar": "ထည့်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l17.v004",
@@ -125,7 +131,9 @@
       },
       "meaningMyanmar": "ထုတ်သည် / တင်ပြသည်",
       "meaningMy": "ထုတ်သည် / တင်ပြသည်",
-      "myanmar": "ထုတ်သည် / တင်ပြသည်"
+      "myanmar": "ထုတ်သည် / တင်ပြသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l17.v005",
@@ -153,7 +161,9 @@
       },
       "meaningMyanmar": "ဆင်းသည် (ရထား/ကား)",
       "meaningMy": "ဆင်းသည် (ရထား/ကား)",
-      "myanmar": "ဆင်းသည် (ရထား/ကား)"
+      "myanmar": "ဆင်းသည် (ရထား/ကား)",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l17.v006",
@@ -181,7 +191,9 @@
       },
       "meaningMyanmar": "လွှဲပြောင်းစီးနင်းသည်",
       "meaningMy": "လွှဲပြောင်းစီးနင်းသည်",
-      "myanmar": "လွှဲပြောင်းစီးနင်းသည်"
+      "myanmar": "လွှဲပြောင်းစီးနင်းသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
     },
     {
       "id": "n5.l17.v007",
@@ -209,7 +221,9 @@
       },
       "meaningMyanmar": "ဆေးကြောသည်",
       "meaningMy": "ဆေးကြောသည်",
-      "myanmar": "ဆေးကြောသည်"
+      "myanmar": "ဆေးကြောသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l17.v008",
@@ -237,7 +251,9 @@
       },
       "meaningMyanmar": "ရေချိုးခန်း (ရှာဝါ)",
       "meaningMy": "ရေချိုးခန်း (ရှာဝါ)",
-      "myanmar": "ရေချိုးခန်း (ရှာဝါ)"
+      "myanmar": "ရေချိုးခန်း (ရှာဝါ)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l17.v009",
@@ -265,7 +281,9 @@
       },
       "meaningMyanmar": "ပိုက်ဆံ",
       "meaningMy": "ပိုက်ဆံ",
-      "myanmar": "ပိုက်ဆံ"
+      "myanmar": "ပိုက်ဆံ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l17.v010",
@@ -293,7 +311,9 @@
       },
       "meaningMyanmar": "ပြီးနောက် / ထို့နောက်",
       "meaningMy": "ပြီးနောက် / ထို့နောက်",
-      "myanmar": "ပြီးနောက် / ထို့နောက်"
+      "myanmar": "ပြီးနောက် / ထို့နောက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l17.v011",
@@ -321,7 +341,9 @@
       },
       "meaningMyanmar": "ပထမဦးစွာ",
       "meaningMy": "ပထမဦးစွာ",
-      "myanmar": "ပထမဦးစွာ"
+      "myanmar": "ပထမဦးစွာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l17.v012",
@@ -349,7 +371,9 @@
       },
       "meaningMyanmar": "နောက်တစ်ခု",
       "meaningMy": "နောက်တစ်ခု",
-      "myanmar": "နောက်တစ်ခု"
+      "myanmar": "နောက်တစ်ခု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

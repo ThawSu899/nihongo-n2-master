@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ပုံသဏ္ဌာန်/ရုပ်သွင်",
       "meaningMy": "ပုံသဏ္ဌာန်/ရုပ်သွင်",
-      "myanmar": "ပုံသဏ္ဌာန်/ရုပ်သွင်"
+      "myanmar": "ပုံသဏ္ဌာန်/ရုပ်သွင်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l22.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "နူးညံ့သော/ပျော့ပျောင်းသော",
       "meaningMy": "နူးညံ့သော/ပျော့ပျောင်းသော",
-      "myanmar": "နူးညံ့သော/ပျော့ပျောင်းသော"
+      "myanmar": "နူးညံ့သော/ပျော့ပျောင်းသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n4.l22.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "တိမ်/မိုးတိမ်",
       "meaningMy": "တိမ်/မိုးတိမ်",
-      "myanmar": "တိမ်/မိုးတိမ်"
+      "myanmar": "တိမ်/မိုးတိမ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l22.v004",
@@ -131,7 +137,9 @@
       },
       "meaningMyanmar": "ရနံ့/အနံ့",
       "meaningMy": "ရနံ့/အနံ့",
-      "myanmar": "ရနံ့/အနံ့"
+      "myanmar": "ရနံ့/အနံ့",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l22.v005",
@@ -159,7 +167,9 @@
       },
       "meaningMyanmar": "လုံးဝ/အတိအကျ/ကဲ့သို့ပင်",
       "meaningMy": "လုံးဝ/အတိအကျ/ကဲ့သို့ပင်",
-      "myanmar": "လုံးဝ/အတိအကျ/ကဲ့သို့ပင်"
+      "myanmar": "လုံးဝ/အတိအကျ/ကဲ့သို့ပင်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l22.v006",
@@ -187,7 +197,9 @@
       },
       "meaningMyanmar": "အခြေအနေ/အမူအရာ",
       "meaningMy": "အခြေအနေ/အမူအရာ",
-      "myanmar": "အခြေအနေ/အမူအရာ"
+      "myanmar": "အခြေအနေ/အမူအရာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l22.v007",
@@ -215,7 +227,9 @@
       },
       "meaningMyanmar": "အရိပ်အယောင်/လက္ခဏာ",
       "meaningMy": "အရိပ်အယောင်/လက္ခဏာ",
-      "myanmar": "အရိပ်အယောင်/လက္ခဏာ"
+      "myanmar": "အရိပ်အယောင်/လက္ခဏာ",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l22.v008",
@@ -243,7 +257,9 @@
       },
       "meaningMyanmar": "မှန်",
       "meaningMy": "မှန်",
-      "myanmar": "မှန်"
+      "myanmar": "မှန်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l22.v009",
@@ -271,7 +287,9 @@
       },
       "meaningMyanmar": "ဆင်တူသည်/တူသည်",
       "meaningMy": "ဆင်တူသည်/တူသည်",
-      "myanmar": "ဆင်တူသည်/တူသည်"
+      "myanmar": "ဆင်တူသည်/တူသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l22.v010",
@@ -299,7 +317,9 @@
       },
       "meaningMyanmar": "စစ်မှန်သောပစ္စည်း",
       "meaningMy": "စစ်မှန်သောပစ္စည်း",
-      "myanmar": "စစ်မှန်သောပစ္စည်း"
+      "myanmar": "စစ်မှန်သောပစ္စည်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l22.v011",
@@ -327,7 +347,9 @@
       },
       "meaningMyanmar": "အရိပ်",
       "meaningMy": "အရိပ်",
-      "myanmar": "အရိပ်"
+      "myanmar": "အရိပ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l22.v012",
@@ -355,7 +377,9 @@
       },
       "meaningMyanmar": "ခံစားချက်/အထင်အမြင်",
       "meaningMy": "ခံစားချက်/အထင်အမြင်",
-      "myanmar": "ခံစားချက်/အထင်အမြင်"
+      "myanmar": "ခံစားချက်/အထင်အမြင်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ထွက်ခွာသည်",
       "meaningMy": "ထွက်ခွာသည်",
-      "myanmar": "ထွက်ခွာသည်"
+      "myanmar": "ထွက်ခွာသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l35.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "ဆိုက်ရောက်သည်",
       "meaningMy": "ဆိုက်ရောက်သည်",
-      "myanmar": "ဆိုက်ရောက်သည်"
+      "myanmar": "ဆိုက်ရောက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l35.v003",
@@ -101,7 +105,9 @@
       },
       "meaningMyanmar": "ကွက်တိ/ယခုလေးတင်",
       "meaningMy": "ကွက်တိ/ယခုလေးတင်",
-      "myanmar": "ကွက်တိ/ယခုလေးတင်"
+      "myanmar": "ကွက်တိ/ယခုလေးတင်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l35.v004",
@@ -129,7 +135,9 @@
       },
       "meaningMyanmar": "ယခုလေးတင်/စောစောလေးကတင်",
       "meaningMy": "ယခုလေးတင်/စောစောလေးကတင်",
-      "myanmar": "ယခုလေးတင်/စောစောလေးကတင်"
+      "myanmar": "ယခုလေးတင်/စောစောလေးကတင်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l35.v005",
@@ -159,7 +167,9 @@
       },
       "meaningMyanmar": "မတိုင်မီလေးတင်",
       "meaningMy": "မတိုင်မီလေးတင်",
-      "myanmar": "မတိုင်မီလေးတင်"
+      "myanmar": "မတိုင်မီလေးတင်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l35.v006",
@@ -189,7 +199,9 @@
       },
       "meaningMyanmar": "ပြန်လာသည်/ပြန်ရောက်သည်",
       "meaningMy": "ပြန်လာသည်/ပြန်ရောက်သည်",
-      "myanmar": "ပြန်လာသည်/ပြန်ရောက်သည်"
+      "myanmar": "ပြန်လာသည်/ပြန်ရောက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l35.v007",
@@ -219,7 +231,9 @@
       },
       "meaningMyanmar": "ပြင်ဆင်သည်/ပြန်ပြင်သည်",
       "meaningMy": "ပြင်ဆင်သည်/ပြန်ပြင်သည်",
-      "myanmar": "ပြင်ဆင်သည်/ပြန်ပြင်သည်"
+      "myanmar": "ပြင်ဆင်သည်/ပြန်ပြင်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l35.v008",
@@ -249,7 +263,9 @@
       },
       "meaningMyanmar": "စစ်ဆေးသည်/စစ်ဆေးကြည့်ရှုသည်",
       "meaningMy": "စစ်ဆေးသည်/စစ်ဆေးကြည့်ရှုသည်",
-      "myanmar": "စစ်ဆေးသည်/စစ်ဆေးကြည့်ရှုသည်"
+      "myanmar": "စစ်ဆေးသည်/စစ်ဆေးကြည့်ရှုသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l35.v009",
@@ -277,7 +293,9 @@
       },
       "meaningMyanmar": "လမ်းခုလတ်/လုပ်နေစဉ်အတွင်း",
       "meaningMy": "လမ်းခုလတ်/လုပ်နေစဉ်အတွင်း",
-      "myanmar": "လမ်းခုလတ်/လုပ်နေစဉ်အတွင်း"
+      "myanmar": "လမ်းခုလတ်/လုပ်နေစဉ်အတွင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l35.v010",
@@ -305,7 +323,9 @@
       },
       "meaningMyanmar": "သတ်မှတ်ရက်စွဲ/နောက်ဆုံးရက်",
       "meaningMy": "သတ်မှတ်ရက်စွဲ/နောက်ဆုံးရက်",
-      "myanmar": "သတ်မှတ်ရက်စွဲ/နောက်ဆုံးရက်"
+      "myanmar": "သတ်မှတ်ရက်စွဲ/နောက်ဆုံးရက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l35.v011",
@@ -335,7 +355,9 @@
       },
       "meaningMyanmar": "နောက်ဆုံးတော့/အဆုံးသတ်မှာတော့",
       "meaningMy": "နောက်ဆုံးတော့/အဆုံးသတ်မှာတော့",
-      "myanmar": "နောက်ဆုံးတော့/အဆုံးသတ်မှာတော့"
+      "myanmar": "နောက်ဆုံးတော့/အဆုံးသတ်မှာတော့",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l35.v012",
@@ -363,7 +385,9 @@
       },
       "meaningMyanmar": "အခြေအနေ/အဖြစ်အပျက်",
       "meaningMy": "အခြေအနေ/အဖြစ်အပျက်",
-      "myanmar": "အခြေအနေ/အဖြစ်အပျက်"
+      "myanmar": "အခြေအနေ/အဖြစ်အပျက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

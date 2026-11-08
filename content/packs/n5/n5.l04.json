@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "အခု",
       "meaningMy": "အခု",
-      "myanmar": "အခု"
+      "myanmar": "အခု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l04.v002",
@@ -71,7 +73,9 @@
       },
       "meaningMyanmar": "ဘယ်အချိန် / ဘယ်နှစ်နာရီ",
       "meaningMy": "ဘယ်အချိန် / ဘယ်နှစ်နာရီ",
-      "myanmar": "ဘယ်အချိန် / ဘယ်နှစ်နာရီ"
+      "myanmar": "ဘယ်အချိန် / ဘယ်နှစ်နာရီ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l04.v003",
@@ -101,7 +105,9 @@
       },
       "meaningMyanmar": "ဘယ်နှစ်မိနစ်",
       "meaningMy": "ဘယ်နှစ်မိနစ်",
-      "myanmar": "ဘယ်နှစ်မိနစ်"
+      "myanmar": "ဘယ်နှစ်မိနစ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l04.v004",
@@ -131,7 +137,9 @@
       },
       "meaningMyanmar": "ခွဲ (ကိုးနာရီခွဲ)",
       "meaningMy": "ခွဲ (ကိုးနာရီခွဲ)",
-      "myanmar": "ခွဲ (ကိုးနာရီခွဲ)"
+      "myanmar": "ခွဲ (ကိုးနာရီခွဲ)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l04.v005",
@@ -159,7 +167,9 @@
       },
       "meaningMyanmar": "မနက်ပိုင်း (AM)",
       "meaningMy": "မနက်ပိုင်း (AM)",
-      "myanmar": "မနက်ပိုင်း (AM)"
+      "myanmar": "မနက်ပိုင်း (AM)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l04.v006",
@@ -187,7 +197,9 @@
       },
       "meaningMyanmar": "ညနေပိုင်း (PM)",
       "meaningMy": "ညနေပိုင်း (PM)",
-      "myanmar": "ညနေပိုင်း (PM)"
+      "myanmar": "ညနေပိုင်း (PM)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l04.v007",
@@ -215,7 +227,9 @@
       },
       "meaningMyanmar": "မနက်",
       "meaningMy": "မနက်",
-      "myanmar": "မနက်"
+      "myanmar": "မနက်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l04.v008",
@@ -243,7 +257,9 @@
       },
       "meaningMyanmar": "နေ့လယ်",
       "meaningMy": "နေ့လယ်",
-      "myanmar": "နေ့လယ်"
+      "myanmar": "နေ့လယ်",
+      "pitchPattern": "odaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l04.v009",
@@ -271,7 +287,9 @@
       },
       "meaningMyanmar": "ညနေ / ည",
       "meaningMy": "ညနေ / ည",
-      "myanmar": "ညနေ / ည"
+      "myanmar": "ညနေ / ည",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l04.v010",
@@ -301,7 +319,9 @@
       },
       "meaningMyanmar": "တနင်္လာနေ့",
       "meaningMy": "တနင်္လာနေ့",
-      "myanmar": "တနင်္လာနေ့"
+      "myanmar": "တနင်္လာနေ့",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l04.v011",
@@ -329,7 +349,9 @@
       },
       "meaningMyanmar": "နားရက် / ပိတ်ရက်",
       "meaningMy": "နားရက် / ပိတ်ရက်",
-      "myanmar": "နားရက် / ပိတ်ရက်"
+      "myanmar": "နားရက် / ပိတ်ရက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l04.v012",
@@ -357,7 +379,9 @@
       },
       "meaningMyanmar": "စာမေးပွဲ",
       "meaningMy": "စာမေးပွဲ",
-      "myanmar": "စာမေးပွဲ"
+      "myanmar": "စာမေးပွဲ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

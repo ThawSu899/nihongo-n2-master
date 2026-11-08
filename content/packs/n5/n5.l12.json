@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "မနေ့က",
       "meaningMy": "မနေ့က",
-      "myanmar": "မနေ့က"
+      "myanmar": "မနေ့က",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l12.v002",
@@ -71,7 +73,9 @@
       },
       "meaningMyanmar": "တမြန်နေ့က",
       "meaningMy": "တမြန်နေ့က",
-      "myanmar": "တမြန်နေ့က"
+      "myanmar": "တမြန်နေ့က",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l12.v003",
@@ -99,7 +103,9 @@
       },
       "meaningMyanmar": "ပြီးခဲ့သည့်အပတ်",
       "meaningMy": "ပြီးခဲ့သည့်အပတ်",
-      "myanmar": "ပြီးခဲ့သည့်အပတ်"
+      "myanmar": "ပြီးခဲ့သည့်အပတ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l12.v004",
@@ -129,7 +135,9 @@
       },
       "meaningMyanmar": "မနှစ်က",
       "meaningMy": "မနှစ်က",
-      "myanmar": "မနှစ်က"
+      "myanmar": "မနှစ်က",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l12.v005",
@@ -157,7 +165,9 @@
       },
       "meaningMyanmar": "ပူသော",
       "meaningMy": "ပူသော",
-      "myanmar": "ပူသော"
+      "myanmar": "ပူသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l12.v006",
@@ -185,7 +195,9 @@
       },
       "meaningMyanmar": "အေးသော",
       "meaningMy": "အေးသော",
-      "myanmar": "အေးသော"
+      "myanmar": "အေးသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l12.v007",
@@ -213,7 +225,9 @@
       },
       "meaningMyanmar": "အားလပ်သော",
       "meaningMy": "အားလပ်သော",
-      "myanmar": "အားလပ်သော"
+      "myanmar": "အားလပ်သော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l12.v008",
@@ -243,7 +257,9 @@
       },
       "meaningMyanmar": "မိုး",
       "meaningMy": "မိုး",
-      "myanmar": "မိုး"
+      "myanmar": "မိုး",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l12.v009",
@@ -271,7 +287,9 @@
       },
       "meaningMyanmar": "နှင်း",
       "meaningMy": "နှင်း",
-      "myanmar": "နှင်း"
+      "myanmar": "နှင်း",
+      "pitchPattern": "odaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l12.v010",
@@ -299,7 +317,9 @@
       },
       "meaningMyanmar": "ရာသီဥတု",
       "meaningMy": "ရာသီဥတု",
-      "myanmar": "ရာသီဥတု"
+      "myanmar": "ရာသီဥတု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l12.v011",
@@ -327,7 +347,9 @@
       },
       "meaningMyanmar": "ပွဲတော်",
       "meaningMy": "ပွဲတော်",
-      "myanmar": "ပွဲတော်"
+      "myanmar": "ပွဲတော်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l12.v012",
@@ -355,7 +377,9 @@
       },
       "meaningMyanmar": "ပျော်စရာကောင်းသော",
       "meaningMy": "ပျော်စရာကောင်းသော",
-      "myanmar": "ပျော်စရာကောင်းသော"
+      "myanmar": "ပျော်စရာကောင်းသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     }
   ],
   "kanjis": [

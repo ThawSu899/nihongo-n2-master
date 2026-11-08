@@ -5,7 +5,11 @@ import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 
 import {
   decomposeIntoMoras,
+  segmentMoras,
+  computePitchContour,
+  classifyPitchPattern,
   calculatePitchContour,
+  calculatePitchAccentFromDrop,
   inferPitchAccent,
   PITCH_METADATA,
 } from '../src/domain/audio/pitch-accent';
@@ -85,6 +89,108 @@ describe('Pitch Accent Visualizer & Audio Resiliency Engine', () => {
     it('safely handles empty or null strings', () => {
       expect(decomposeIntoMoras('')).toEqual([]);
       expect(decomposeIntoMoras('   ')).toEqual([]);
+    });
+
+    it('segmentMoras handles complex digraphs (拗音) correctly', () => {
+      // 手術室: しゅじゅつしつ -> [しゅ, じゅ, つ, し, つ] (5 moras)
+      expect(segmentMoras('しゅじゅつしつ')).toEqual(['しゅ', 'じゅ', 'つ', 'し', 'つ']);
+      // 研究所: けんきゅうじょ -> [け, ん, きゅ, う, じょ] (5 moras)
+      expect(segmentMoras('けんきゅうじょ')).toEqual(['け', 'ん', 'きゅ', 'う', 'じょ']);
+      // 留学生: りゅうがくせい -> [りゅ, う, が, く, せ, い] (6 moras)
+      expect(segmentMoras('りゅうがくせい')).toEqual(['りゅ', 'う', 'が', 'く', 'せ', 'い']);
+    });
+  });
+
+  // =========================================================================
+  // 1b. computePitchContour & Strict NHK Dialect Rules
+  // =========================================================================
+  describe('computePitchContour: Phonological Node Assignment & Drop Nucleus', () => {
+    it('handles monomoraic nouns: 歯 (は, [1] atamadaka vs [0] heiban)', () => {
+      // Monomoraic atamadaka (drop = 1) -> High start, drops to particle
+      const haAtama = computePitchContour(['は'], 1);
+      expect(haAtama).toEqual([{ char: 'は', isHigh: true, isDrop: true }]);
+
+      // Monomoraic heiban (drop = 0) -> Low start, stays low, particle is High
+      const haHeiban = computePitchContour(['は'], 0);
+      expect(haHeiban).toEqual([{ char: 'は', isHigh: false, isDrop: false }]);
+    });
+
+    it('computes Nakadaka on complex digraphs: 手術室 (しゅじゅつしつ [3])', () => {
+      const moras = segmentMoras('しゅじゅつしつ');
+      expect(moras).toHaveLength(5);
+      const contour = computePitchContour(moras, 3);
+      // Mora 0 ('しゅ'): Low
+      expect(contour[0]).toEqual({ char: 'しゅ', isHigh: false, isDrop: false });
+      // Mora 1 ('じゅ'): High
+      expect(contour[1]).toEqual({ char: 'じゅ', isHigh: true, isDrop: false });
+      // Mora 2 ('つ'): High with drop nucleus (3-rd mora)
+      expect(contour[2]).toEqual({ char: 'つ', isHigh: true, isDrop: true });
+      // Mora 3 ('し'): Low
+      expect(contour[3]).toEqual({ char: 'し', isHigh: false, isDrop: false });
+      // Mora 4 ('つ'): Low
+      expect(contour[4]).toEqual({ char: 'つ', isHigh: false, isDrop: false });
+    });
+
+    it('computes Nakadaka on complex digraphs: 研究所 (けんきゅうじょ [3])', () => {
+      const moras = segmentMoras('けんきゅうじょ');
+      expect(moras).toHaveLength(5);
+      const contour = computePitchContour(moras, 3);
+      expect(contour[0]).toEqual({ char: 'け', isHigh: false, isDrop: false });
+      expect(contour[1]).toEqual({ char: 'ん', isHigh: true, isDrop: false });
+      expect(contour[2]).toEqual({ char: 'きゅ', isHigh: true, isDrop: true });
+      expect(contour[3]).toEqual({ char: 'う', isHigh: false, isDrop: false });
+      expect(contour[4]).toEqual({ char: 'じょ', isHigh: false, isDrop: false });
+    });
+
+    it('computes Heiban contour (Rule 1, drop = 0)', () => {
+      const contour = computePitchContour(['に', 'ほ', 'ん', 'ご'], 0);
+      expect(contour[0]).toEqual({ char: 'に', isHigh: false, isDrop: false });
+      expect(contour[1]).toEqual({ char: 'ほ', isHigh: true, isDrop: false });
+      expect(contour[2]).toEqual({ char: 'ん', isHigh: true, isDrop: false });
+      expect(contour[3]).toEqual({ char: 'ご', isHigh: true, isDrop: false });
+    });
+
+    it('computes Atamadaka contour (Rule 2, drop = 1)', () => {
+      const contour = computePitchContour(['い', 'の', 'ち'], 1);
+      expect(contour[0]).toEqual({ char: 'い', isHigh: true, isDrop: true });
+      expect(contour[1]).toEqual({ char: 'の', isHigh: false, isDrop: false });
+      expect(contour[2]).toEqual({ char: 'ち', isHigh: false, isDrop: false });
+    });
+
+    it('computes Odaka contour (Rule 4, drop = N)', () => {
+      const contour = computePitchContour(['お', 'と', 'こ'], 3);
+      expect(contour[0]).toEqual({ char: 'お', isHigh: false, isDrop: false });
+      expect(contour[1]).toEqual({ char: 'と', isHigh: true, isDrop: false });
+      expect(contour[2]).toEqual({ char: 'こ', isHigh: true, isDrop: true });
+    });
+
+    it('handles special characters, double consonants, and long vowels', () => {
+      // きって (sokuon) [き, っ, て] with drop = 0
+      const sokuonContour = computePitchContour(segmentMoras('きって'), 0);
+      expect(sokuonContour).toHaveLength(3);
+      expect(sokuonContour[1].char).toBe('っ');
+
+      // コーヒー (chouonpu) [コ, ー, ヒ, ー] with drop = 3
+      const chouonContour = computePitchContour(segmentMoras('コーヒー'), 3);
+      expect(chouonContour).toHaveLength(4);
+      expect(chouonContour[2].isDrop).toBe(true);
+    });
+
+    it('classifies pitch patterns correctly based on dropIndex and mora count', () => {
+      expect(classifyPitchPattern(0, 4)).toBe('heiban');
+      expect(classifyPitchPattern(1, 4)).toBe('atamadaka');
+      expect(classifyPitchPattern(2, 4)).toBe('nakadaka');
+      expect(classifyPitchPattern(3, 4)).toBe('nakadaka');
+      expect(classifyPitchPattern(4, 4)).toBe('odaka');
+      expect(classifyPitchPattern(1, 1)).toBe('atamadaka');
+      expect(classifyPitchPattern(0, 1)).toBe('heiban');
+    });
+
+    it('calculatePitchAccentFromDrop computes full details from reading and drop', () => {
+      const details = calculatePitchAccentFromDrop('さくら', 0);
+      expect(details.pattern).toBe('heiban');
+      expect(details.typeNumber).toBe(0);
+      expect(details.particleLevel).toBe('H');
     });
   });
 

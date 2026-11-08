@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ပြင်ဆင်သည်",
       "meaningMy": "ပြင်ဆင်သည်",
-      "myanmar": "ပြင်ဆင်သည်"
+      "myanmar": "ပြင်ဆင်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l01.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "သက်သာပျောက်ကင်းသည်",
       "meaningMy": "သက်သာပျောက်ကင်းသည်",
-      "myanmar": "သက်သာပျောက်ကင်းသည်"
+      "myanmar": "သက်သာပျောက်ကင်းသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l01.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "အသံ (လူ/တိရစ္ဆာန်)",
       "meaningMy": "အသံ (လူ/တိရစ္ဆာန်)",
-      "myanmar": "အသံ (လူ/တိရစ္ဆာန်)"
+      "myanmar": "အသံ (လူ/တိရစ္ဆာန်)",
+      "pitchPattern": "odaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l01.v004",
@@ -133,7 +139,9 @@
       },
       "meaningMyanmar": "အသံ (ပစ္စည်း/သဘာဝ)",
       "meaningMy": "အသံ (ပစ္စည်း/သဘာဝ)",
-      "myanmar": "အသံ (ပစ္စည်း/သဘာဝ)"
+      "myanmar": "အသံ (ပစ္စည်း/သဘာဝ)",
+      "pitchPattern": "odaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l01.v005",
@@ -164,7 +172,9 @@
       },
       "meaningMyanmar": "ရှုခင်း",
       "meaningMy": "ရှုခင်း",
-      "myanmar": "ရှုခင်း"
+      "myanmar": "ရှုခင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l01.v006",
@@ -192,7 +202,9 @@
       },
       "meaningMyanmar": "လှိုင်း",
       "meaningMy": "လှိုင်း",
-      "myanmar": "လှိုင်း"
+      "myanmar": "လှိုင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l01.v007",
@@ -220,7 +232,9 @@
       },
       "meaningMyanmar": "ရှင်းလင်းစွာ",
       "meaningMy": "ရှင်းလင်းစွာ",
-      "myanmar": "ရှင်းလင်းစွာ"
+      "myanmar": "ရှင်းလင်းစွာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l01.v008",
@@ -248,7 +262,9 @@
       },
       "meaningMyanmar": "ငှက်",
       "meaningMy": "ငှက်",
-      "myanmar": "ငှက်"
+      "myanmar": "ငှက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l01.v009",
@@ -276,7 +292,9 @@
       },
       "meaningMyanmar": "လေဆိပ်",
       "meaningMy": "လေဆိပ်",
-      "myanmar": "လေဆိပ်"
+      "myanmar": "လေဆိပ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l01.v010",
@@ -304,7 +322,9 @@
       },
       "meaningMyanmar": "တည်ဆောက်ပြီးစီးသည်",
       "meaningMy": "တည်ဆောက်ပြီးစီးသည်",
-      "myanmar": "တည်ဆောက်ပြီးစီးသည်"
+      "myanmar": "တည်ဆောက်ပြီးစီးသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l01.v011",
@@ -332,7 +352,9 @@
       },
       "meaningMyanmar": "ကိရိယာ/တန်ဆာပလာ",
       "meaningMy": "ကိရိယာ/တန်ဆာပလာ",
-      "myanmar": "ကိရိယာ/တန်ဆာပလာ"
+      "myanmar": "ကိရိယာ/တန်ဆာပလာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l01.v012",
@@ -360,7 +382,9 @@
       },
       "meaningMyanmar": "လွတ်လပ်စွာ",
       "meaningMy": "လွတ်လပ်စွာ",
-      "myanmar": "လွတ်လပ်စွာ"
+      "myanmar": "လွတ်လပ်စွာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "သွားသည်",
       "meaningMy": "သွားသည်",
-      "myanmar": "သွားသည်"
+      "myanmar": "သွားသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l05.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "လာသည်",
       "meaningMy": "လာသည်",
-      "myanmar": "လာသည်"
+      "myanmar": "လာသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l05.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "ပြန်သည်",
       "meaningMy": "ပြန်သည်",
-      "myanmar": "ပြန်သည်"
+      "myanmar": "ပြန်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l05.v004",
@@ -131,7 +137,9 @@
       },
       "meaningMyanmar": "ဘူတာရုံ",
       "meaningMy": "ဘူတာရုံ",
-      "myanmar": "ဘူတာရုံ"
+      "myanmar": "ဘူတာရုံ",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l05.v005",
@@ -159,7 +167,9 @@
       },
       "meaningMyanmar": "အိမ်",
       "meaningMy": "အိမ်",
-      "myanmar": "အိမ်"
+      "myanmar": "အိမ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l05.v006",
@@ -189,7 +199,9 @@
       },
       "meaningMyanmar": "ရထား",
       "meaningMy": "ရထား",
-      "myanmar": "ရထား"
+      "myanmar": "ရထား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l05.v007",
@@ -217,7 +229,9 @@
       },
       "meaningMyanmar": "မြေအောက်ရထား",
       "meaningMy": "မြေအောက်ရထား",
-      "myanmar": "မြေအောက်ရထား"
+      "myanmar": "မြေအောက်ရထား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l05.v008",
@@ -245,7 +259,9 @@
       },
       "meaningMyanmar": "ဘတ်စ်ကား",
       "meaningMy": "ဘတ်စ်ကား",
-      "myanmar": "ဘတ်စ်ကား"
+      "myanmar": "ဘတ်စ်ကား",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l05.v009",
@@ -273,7 +289,9 @@
       },
       "meaningMyanmar": "စက်ဘီး",
       "meaningMy": "စက်ဘီး",
-      "myanmar": "စက်ဘီး"
+      "myanmar": "စက်ဘီး",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l05.v010",
@@ -301,7 +319,9 @@
       },
       "meaningMyanmar": "ခြေလျင်ဖြင့်",
       "meaningMy": "ခြေလျင်ဖြင့်",
-      "myanmar": "ခြေလျင်ဖြင့်"
+      "myanmar": "ခြေလျင်ဖြင့်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l05.v011",
@@ -329,7 +349,9 @@
       },
       "meaningMyanmar": "သူငယ်ချင်း",
       "meaningMy": "သူငယ်ချင်း",
-      "myanmar": "သူငယ်ချင်း"
+      "myanmar": "သူငယ်ချင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l05.v012",
@@ -357,7 +379,9 @@
       },
       "meaningMyanmar": "တစ်ယောက်တည်း",
       "meaningMy": "တစ်ယောက်တည်း",
-      "myanmar": "တစ်ယောက်တည်း"
+      "myanmar": "တစ်ယောက်တည်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

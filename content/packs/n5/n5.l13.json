@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "ထက် (နှိုင်းယှဉ်ချက်)",
       "meaningMy": "ထက် (နှိုင်းယှဉ်ချက်)",
-      "myanmar": "ထက် (နှိုင်းယှဉ်ချက်)"
+      "myanmar": "ထက် (နှိုင်းယှဉ်ချက်)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l13.v002",
@@ -69,7 +71,9 @@
       },
       "meaningMyanmar": "ဘက်က (ပို၍)",
       "meaningMy": "ဘက်က (ပို၍)",
-      "myanmar": "ဘက်က (ပို၍)"
+      "myanmar": "ဘက်က (ပို၍)",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l13.v003",
@@ -97,7 +101,9 @@
       },
       "meaningMyanmar": "ဘယ်ဟာ / ဘယ်ဘက် (နှစ်ခုအနက်)",
       "meaningMy": "ဘယ်ဟာ / ဘယ်ဘက် (နှစ်ခုအနက်)",
-      "myanmar": "ဘယ်ဟာ / ဘယ်ဘက် (နှစ်ခုအနက်)"
+      "myanmar": "ဘယ်ဟာ / ဘယ်ဘက် (နှစ်ခုအနက်)",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l13.v004",
@@ -125,7 +131,9 @@
       },
       "meaningMyanmar": "နှစ်ခုစလုံး",
       "meaningMy": "နှစ်ခုစလုံး",
-      "myanmar": "နှစ်ခုစလုံး"
+      "myanmar": "နှစ်ခုစလုံး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l13.v005",
@@ -155,7 +163,9 @@
       },
       "meaningMyanmar": "အ...ဆုံး / နံပါတ်တစ်",
       "meaningMy": "အ...ဆုံး / နံပါတ်တစ်",
-      "myanmar": "အ...ဆုံး / နံပါတ်တစ်"
+      "myanmar": "အ...ဆုံး / နံပါတ်တစ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l13.v006",
@@ -183,7 +193,9 @@
       },
       "meaningMyanmar": "အများကြီးပို၍",
       "meaningMy": "အများကြီးပို၍",
-      "myanmar": "အများကြီးပို၍"
+      "myanmar": "အများကြီးပို၍",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l13.v007",
@@ -211,7 +223,9 @@
       },
       "meaningMyanmar": "ရာသီ",
       "meaningMy": "ရာသီ",
-      "myanmar": "ရာသီ"
+      "myanmar": "ရာသီ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l13.v008",
@@ -239,7 +253,9 @@
       },
       "meaningMyanmar": "နွေဦးရာသီ",
       "meaningMy": "နွေဦးရာသီ",
-      "myanmar": "နွေဦးရာသီ"
+      "myanmar": "နွေဦးရာသီ",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l13.v009",
@@ -267,7 +283,9 @@
       },
       "meaningMyanmar": "နွေရာသီ",
       "meaningMy": "နွေရာသီ",
-      "myanmar": "နွေရာသီ"
+      "myanmar": "နွေရာသီ",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l13.v010",
@@ -295,7 +313,9 @@
       },
       "meaningMyanmar": "ဆောင်းဦးရာသီ",
       "meaningMy": "ဆောင်းဦးရာသီ",
-      "myanmar": "ဆောင်းဦးရာသီ"
+      "myanmar": "ဆောင်းဦးရာသီ",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l13.v011",
@@ -323,7 +343,9 @@
       },
       "meaningMyanmar": "ဆောင်းရာသီ",
       "meaningMy": "ဆောင်းရာသီ",
-      "myanmar": "ဆောင်းရာသီ"
+      "myanmar": "ဆောင်းရာသီ",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l13.v012",
@@ -353,7 +375,9 @@
       },
       "meaningMyanmar": "မြန်သော",
       "meaningMy": "မြန်သော",
-      "myanmar": "မြန်သော"
+      "myanmar": "မြန်သော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     }
   ],
   "kanjis": [

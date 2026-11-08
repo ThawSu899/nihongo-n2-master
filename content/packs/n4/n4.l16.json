@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ချွတ်ယွင်းပျက်စီးခြင်း",
       "meaningMy": "ချွတ်ယွင်းပျက်စီးခြင်း",
-      "myanmar": "ချွတ်ယွင်းပျက်စီးခြင်း"
+      "myanmar": "ချွတ်ယွင်းပျက်စီးခြင်း",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l16.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "သေချာအောင် စစ်ဆေးအတည်ပြုသည်",
       "meaningMy": "သေချာအောင် စစ်ဆေးအတည်ပြုသည်",
-      "myanmar": "သေချာအောင် စစ်ဆေးအတည်ပြုသည်"
+      "myanmar": "သေချာအောင် စစ်ဆေးအတည်ပြုသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l16.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "ဆိုက်ရောက်သည်/ရောက်ရှိသည်",
       "meaningMy": "ဆိုက်ရောက်သည်/ရောက်ရှိသည်",
-      "myanmar": "ဆိုက်ရောက်သည်/ရောက်ရှိသည်"
+      "myanmar": "ဆိုက်ရောက်သည်/ရောက်ရှိသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l16.v004",
@@ -133,7 +139,9 @@
       },
       "meaningMyanmar": "နေရာပြည့်ခြင်း",
       "meaningMy": "နေရာပြည့်ခြင်း",
-      "myanmar": "နေရာပြည့်ခြင်း"
+      "myanmar": "နေရာပြည့်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l16.v005",
@@ -161,7 +169,9 @@
       },
       "meaningMyanmar": "အခြေအနေ/အဆင်ပြေမှု",
       "meaningMy": "အခြေအနေ/အဆင်ပြေမှု",
-      "myanmar": "အခြေအနေ/အဆင်ပြေမှု"
+      "myanmar": "အခြေအနေ/အဆင်ပြေမှု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l16.v006",
@@ -189,7 +199,9 @@
       },
       "meaningMyanmar": "မှားယွင်းသည်",
       "meaningMy": "မှားယွင်းသည်",
-      "myanmar": "မှားယွင်းသည်"
+      "myanmar": "မှားယွင်းသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l16.v007",
@@ -217,7 +229,9 @@
       },
       "meaningMyanmar": "အချိန်မီသည်",
       "meaningMy": "အချိန်မီသည်",
-      "myanmar": "အချိန်မီသည်"
+      "myanmar": "အချိန်မီသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l16.v008",
@@ -245,7 +259,9 @@
       },
       "meaningMyanmar": "အရေးပေါ်ကိစ္စ",
       "meaningMy": "အရေးပေါ်ကိစ္စ",
-      "myanmar": "အရေးပေါ်ကိစ္စ"
+      "myanmar": "အရေးပေါ်ကိစ္စ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l16.v009",
@@ -273,7 +289,9 @@
       },
       "meaningMyanmar": "ရွှေ့ဆိုင်းခြင်း",
       "meaningMy": "ရွှေ့ဆိုင်းခြင်း",
-      "myanmar": "ရွှေ့ဆိုင်းခြင်း"
+      "myanmar": "ရွှေ့ဆိုင်းခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l16.v010",
@@ -303,7 +321,9 @@
       },
       "meaningMyanmar": "သေချာသော/မှတ်မိသလောက်",
       "meaningMy": "သေချာသော/မှတ်မိသလောက်",
-      "myanmar": "သေချာသော/မှတ်မိသလောက်"
+      "myanmar": "သေချာသော/မှတ်မိသလောက်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l16.v011",
@@ -331,7 +351,9 @@
       },
       "meaningMyanmar": "သတ်မှတ်ထားသည့်အချိန်ဇယားအတိုင်း",
       "meaningMy": "သတ်မှတ်ထားသည့်အချိန်ဇယားအတိုင်း",
-      "myanmar": "သတ်မှတ်ထားသည့်အချိန်ဇယားအတိုင်း"
+      "myanmar": "သတ်မှတ်ထားသည့်အချိန်ဇယားအတိုင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l16.v012",
@@ -359,7 +381,9 @@
       },
       "meaningMyanmar": "ယာဉ်ကြောပိတ်ဆို့ခြင်း",
       "meaningMy": "ယာဉ်ကြောပိတ်ဆို့ခြင်း",
-      "myanmar": "ယာဉ်ကြောပိတ်ဆို့ခြင်း"
+      "myanmar": "ယာဉ်ကြောပိတ်ဆို့ခြင်း",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     }
   ],
   "kanjis": [

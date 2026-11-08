@@ -72,6 +72,10 @@ export class GoogleDriveAdapter implements FileStore {
   }
 
   async saveBackup(filename: string, content: string): Promise<boolean> {
+    if (typeof navigator !== 'undefined' && navigator.onLine === false) {
+      console.warn('[GoogleDriveAdapter] Offline detected. Cannot save backup to Google Drive.');
+      return false;
+    }
     if (!this.isConfigured()) {
       throw new Error('Google Drive integration is not connected. Sign in with Google to enable Drive backups.');
     }
@@ -85,6 +89,10 @@ export class GoogleDriveAdapter implements FileStore {
   }
 
   async getBackup(fileId: string): Promise<string | null> {
+    if (typeof navigator !== 'undefined' && navigator.onLine === false) {
+      console.warn('[GoogleDriveAdapter] Offline detected. Cannot get backup from Google Drive.');
+      return null;
+    }
     if (!this.isConfigured()) return null;
     try {
       return await GoogleDriveService.downloadBackup(fileId, this.accessToken);

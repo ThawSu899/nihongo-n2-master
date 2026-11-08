@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ပြောသည်",
       "meaningMy": "ပြောသည်",
-      "myanmar": "ပြောသည်"
+      "myanmar": "ပြောသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l24.v002",
@@ -75,7 +77,9 @@
       },
       "meaningMyanmar": "ကုမ္ပဏီဝန်ထမ်း",
       "meaningMy": "ကုမ္ပဏီဝန်ထမ်း",
-      "myanmar": "ကုမ္ပဏီဝန်ထမ်း"
+      "myanmar": "ကုမ္ပဏီဝန်ထမ်း",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l24.v003",
@@ -105,7 +109,9 @@
       },
       "meaningMyanmar": "ကုမ္ပဏီဥက္ကဋ္ဌ / သူဌေး",
       "meaningMy": "ကုမ္ပဏီဥက္ကဋ္ဌ / သူဌေး",
-      "myanmar": "ကုမ္ပဏီဥက္ကဋ္ဌ / သူဌေး"
+      "myanmar": "ကုမ္ပဏီဥက္ကဋ္ဌ / သူဌေး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l24.v004",
@@ -135,7 +141,9 @@
       },
       "meaningMyanmar": "အစည်းအဝေး",
       "meaningMy": "အစည်းအဝေး",
-      "myanmar": "အစည်းအဝေး"
+      "myanmar": "အစည်းအဝေး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l24.v005",
@@ -165,7 +173,9 @@
       },
       "meaningMyanmar": "နှုတ်မှာစကား / သတင်းစကား",
       "meaningMy": "နှုတ်မှာစကား / သတင်းစကား",
-      "myanmar": "နှုတ်မှာစကား / သတင်းစကား"
+      "myanmar": "နှုတ်မှာစကား / သတင်းစကား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l24.v006",
@@ -193,7 +203,9 @@
       },
       "meaningMyanmar": "ကတိ / ချိန်းဆိုချက်",
       "meaningMy": "ကတိ / ချိန်းဆိုချက်",
-      "myanmar": "ကတိ / ချိန်းဆိုချက်"
+      "myanmar": "ကတိ / ချိန်းဆိုချက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l24.v007",
@@ -221,7 +233,9 @@
       },
       "meaningMyanmar": "ခက်ခဲသော",
       "meaningMy": "ခက်ခဲသော",
-      "myanmar": "ခက်ခဲသော"
+      "myanmar": "ခက်ခဲသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l24.v008",
@@ -249,7 +263,9 @@
       },
       "meaningMyanmar": "နောက်ကျသည်",
       "meaningMy": "နောက်ကျသည်",
-      "myanmar": "နောက်ကျသည်"
+      "myanmar": "နောက်ကျသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l24.v009",
@@ -277,7 +293,9 @@
       },
       "meaningMyanmar": "မနက်ဖြန်",
       "meaningMy": "မနက်ဖြန်",
-      "myanmar": "မနက်ဖြန်"
+      "myanmar": "မနက်ဖြန်",
+      "pitchPattern": "odaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l24.v010",
@@ -307,7 +325,9 @@
       },
       "meaningMyanmar": "ပွဲစဉ် / ပြိုင်ပွဲ",
       "meaningMy": "ပွဲစဉ် / ပြိုင်ပွဲ",
-      "myanmar": "ပွဲစဉ် / ပြိုင်ပွဲ"
+      "myanmar": "ပွဲစဉ် / ပြိုင်ပွဲ",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l24.v011",
@@ -335,7 +355,9 @@
       },
       "meaningMyanmar": "အနိုင်ရသည်",
       "meaningMy": "အနိုင်ရသည်",
-      "myanmar": "အနိုင်ရသည်"
+      "myanmar": "အနိုင်ရသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l24.v012",
@@ -363,7 +385,9 @@
       },
       "meaningMyanmar": "ဌာနမှူး",
       "meaningMy": "ဌာနမှူး",
-      "myanmar": "ဌာနမှူး"
+      "myanmar": "ဌာနမှူး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

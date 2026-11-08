@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ဆုံးဖြတ်သည်",
       "meaningMy": "ဆုံးဖြတ်သည်",
-      "myanmar": "ဆုံးဖြတ်သည်"
+      "myanmar": "ဆုံးဖြတ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l17.v002",
@@ -74,7 +76,9 @@
       },
       "meaningMyanmar": "ကျန်းမာရေး/ကျန်းမာသော",
       "meaningMy": "ကျန်းမာရေး/ကျန်းမာသော",
-      "myanmar": "ကျန်းမာရေး/ကျန်းမာသော"
+      "myanmar": "ကျန်းမာရေး/ကျန်းမာသော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l17.v003",
@@ -104,7 +108,9 @@
       },
       "meaningMyanmar": "အလုပ်ပြောင်းရွှေ့ခြင်း/ရုံးခွဲပြောင်းခြင်း",
       "meaningMy": "အလုပ်ပြောင်းရွှေ့ခြင်း/ရုံးခွဲပြောင်းခြင်း",
-      "myanmar": "အလုပ်ပြောင်းရွှေ့ခြင်း/ရုံးခွဲပြောင်းခြင်း"
+      "myanmar": "အလုပ်ပြောင်းရွှေ့ခြင်း/ရုံးခွဲပြောင်းခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l17.v004",
@@ -132,7 +138,9 @@
       },
       "meaningMyanmar": "အလေ့အထ/ဓလေ့ထုံးတမ်း",
       "meaningMy": "အလေ့အထ/ဓလေ့ထုံးတမ်း",
-      "myanmar": "အလေ့အထ/ဓလေ့ထုံးတမ်း"
+      "myanmar": "အလေ့အထ/ဓလေ့ထုံးတမ်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l17.v005",
@@ -160,7 +168,9 @@
       },
       "meaningMyanmar": "ဥပဒေ",
       "meaningMy": "ဥပဒေ",
-      "myanmar": "ဥပဒေ"
+      "myanmar": "ဥပဒေ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l17.v006",
@@ -188,7 +198,9 @@
       },
       "meaningMyanmar": "ဆေးလိပ်မသောက်ရ/ဆေးလိပ်ဖြတ်ခြင်း",
       "meaningMy": "ဆေးလိပ်မသောက်ရ/ဆေးလိပ်ဖြတ်ခြင်း",
-      "myanmar": "ဆေးလိပ်မသောက်ရ/ဆေးလိပ်ဖြတ်ခြင်း"
+      "myanmar": "ဆေးလိပ်မသောက်ရ/ဆေးလိပ်ဖြတ်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l17.v007",
@@ -216,7 +228,9 @@
       },
       "meaningMyanmar": "နိုင်ငံခြားပညာတော်သင်သွားသည်",
       "meaningMy": "နိုင်ငံခြားပညာတော်သင်သွားသည်",
-      "myanmar": "နိုင်ငံခြားပညာတော်သင်သွားသည်"
+      "myanmar": "နိုင်ငံခြားပညာတော်သင်သွားသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l17.v008",
@@ -244,7 +258,9 @@
       },
       "meaningMyanmar": "တိုင်ပင်ဆွေးနွေးသည်",
       "meaningMy": "တိုင်ပင်ဆွေးနွေးသည်",
-      "myanmar": "တိုင်ပင်ဆွေးနွေးသည်"
+      "myanmar": "တိုင်ပင်ဆွေးနွေးသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l17.v009",
@@ -272,7 +288,9 @@
       },
       "meaningMyanmar": "လစာ",
       "meaningMy": "လစာ",
-      "myanmar": "လစာ"
+      "myanmar": "လစာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l17.v010",
@@ -300,7 +318,9 @@
       },
       "meaningMyanmar": "ခွင့်ပြုချက်",
       "meaningMy": "ခွင့်ပြုချက်",
-      "myanmar": "ခွင့်ပြုချက်"
+      "myanmar": "ခွင့်ပြုချက်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l17.v011",
@@ -328,7 +348,9 @@
       },
       "meaningMyanmar": "မူဝါဒ/ဦးတည်ချက်",
       "meaningMy": "မူဝါဒ/ဦးတည်ချက်",
-      "myanmar": "မူဝါဒ/ဦးတည်ချက်"
+      "myanmar": "မူဝါဒ/ဦးတည်ချက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l17.v012",
@@ -356,7 +378,9 @@
       },
       "meaningMyanmar": "ငွေစုဆောင်းသည်",
       "meaningMy": "ငွေစုဆောင်းသည်",
-      "myanmar": "ငွေစုဆောင်းသည်"
+      "myanmar": "ငွေစုဆောင်းသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

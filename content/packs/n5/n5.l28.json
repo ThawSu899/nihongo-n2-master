@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ခန္ဓာကိုယ် / ကျန်းမာရေး",
       "meaningMy": "ခန္ဓာကိုယ် / ကျန်းမာရေး",
-      "myanmar": "ခန္ဓာကိုယ် / ကျန်းမာရေး"
+      "myanmar": "ခန္ဓာကိုယ် / ကျန်းမာရေး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l28.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "ဦးခေါင်း",
       "meaningMy": "ဦးခေါင်း",
-      "myanmar": "ဦးခေါင်း"
+      "myanmar": "ဦးခေါင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l28.v003",
@@ -101,7 +105,9 @@
       },
       "meaningMyanmar": "ဗိုက်",
       "meaningMy": "ဗိုက်",
-      "myanmar": "ဗိုက်"
+      "myanmar": "ဗိုက်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l28.v004",
@@ -129,7 +135,9 @@
       },
       "meaningMyanmar": "သွား",
       "meaningMy": "သွား",
-      "myanmar": "သွား"
+      "myanmar": "သွား",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l28.v005",
@@ -157,7 +165,9 @@
       },
       "meaningMyanmar": "ရောဂါ / နေမကောင်းဖြစ်ခြင်း",
       "meaningMy": "ရောဂါ / နေမကောင်းဖြစ်ခြင်း",
-      "myanmar": "ရောဂါ / နေမကောင်းဖြစ်ခြင်း"
+      "myanmar": "ရောဂါ / နေမကောင်းဖြစ်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l28.v006",
@@ -185,7 +195,9 @@
       },
       "meaningMyanmar": "အအေးမိခြင်း / နှာစေးချောင်းဆိုး",
       "meaningMy": "အအေးမိခြင်း / နှာစေးချောင်းဆိုး",
-      "myanmar": "အအေးမိခြင်း / နှာစေးချောင်းဆိုး"
+      "myanmar": "အအေးမိခြင်း / နှာစေးချောင်းဆိုး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l28.v007",
@@ -213,7 +225,9 @@
       },
       "meaningMyanmar": "ဆရာဝန်",
       "meaningMy": "ဆရာဝန်",
-      "myanmar": "ဆရာဝန်"
+      "myanmar": "ဆရာဝန်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l28.v008",
@@ -241,7 +255,9 @@
       },
       "meaningMyanmar": "အတင်းအကြပ် အပင်ပန်းခံသည်",
       "meaningMy": "အတင်းအကြပ် အပင်ပန်းခံသည်",
-      "myanmar": "အတင်းအကြပ် အပင်ပန်းခံသည်"
+      "myanmar": "အတင်းအကြပ် အပင်ပန်းခံသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l28.v009",
@@ -271,7 +287,9 @@
       },
       "meaningMyanmar": "အနားယူသည် / အနားပေးသည်",
       "meaningMy": "အနားယူသည် / အနားပေးသည်",
-      "myanmar": "အနားယူသည် / အနားပေးသည်"
+      "myanmar": "အနားယူသည် / အနားပေးသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l28.v010",
@@ -299,7 +317,9 @@
       },
       "meaningMyanmar": "စောစော / မြန်မြန်",
       "meaningMy": "စောစော / မြန်မြန်",
-      "myanmar": "စောစော / မြန်မြန်"
+      "myanmar": "စောစော / မြန်မြန်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l28.v011",
@@ -327,7 +347,9 @@
       },
       "meaningMyanmar": "ဂရုစိုက်ပါ / ကျန်းမာပါစေ",
       "meaningMy": "ဂရုစိုက်ပါ / ကျန်းမာပါစေ",
-      "myanmar": "ဂရုစိုက်ပါ / ကျန်းမာပါစေ"
+      "myanmar": "ဂရုစိုက်ပါ / ကျန်းမာပါစေ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l28.v012",
@@ -355,7 +377,9 @@
       },
       "meaningMyanmar": "အတူတူ",
       "meaningMy": "အတူတူ",
-      "myanmar": "အတူတူ"
+      "myanmar": "အတူတူ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "လမ်းပြသည်/လိုက်လံပြသသည်",
       "meaningMy": "လမ်းပြသည်/လိုက်လံပြသသည်",
-      "myanmar": "လမ်းပြသည်/လိုက်လံပြသသည်"
+      "myanmar": "လမ်းပြသည်/လိုက်လံပြသသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l25.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "အကြံပြုသည်/အဆိုပြုသည်",
       "meaningMy": "အကြံပြုသည်/အဆိုပြုသည်",
-      "myanmar": "အကြံပြုသည်/အဆိုပြုသည်"
+      "myanmar": "အကြံပြုသည်/အဆိုပြုသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l25.v003",
@@ -104,7 +108,9 @@
       },
       "meaningMyanmar": "ရာသီဥတု/ရာသီကာလ",
       "meaningMy": "ရာသီဥတု/ရာသီကာလ",
-      "myanmar": "ရာသီဥတု/ရာသီကာလ"
+      "myanmar": "ရာသီဥတု/ရာသီကာလ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l25.v004",
@@ -134,7 +140,9 @@
       },
       "meaningMyanmar": "တိုက်တွန်းသည်/အကြံပြုညွှန်ပြသည်",
       "meaningMy": "တိုက်တွန်းသည်/အကြံပြုညွှန်ပြသည်",
-      "myanmar": "တိုက်တွန်းသည်/အကြံပြုညွှန်ပြသည်"
+      "myanmar": "တိုက်တွန်းသည်/အကြံပြုညွှန်ပြသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l25.v005",
@@ -164,7 +172,9 @@
       },
       "meaningMyanmar": "အကြံပြုချက်/ညွှန်းဆိုချက်",
       "meaningMy": "အကြံပြုချက်/ညွှန်းဆိုချက်",
-      "myanmar": "အကြံပြုချက်/ညွှန်းဆိုချက်"
+      "myanmar": "အကြံပြုချက်/ညွှန်းဆိုချက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l25.v006",
@@ -192,7 +202,9 @@
       },
       "meaningMyanmar": "အသေးစိတ်ကျသော/ကျွမ်းကျင်နှံ့စပ်သော",
       "meaningMy": "အသေးစိတ်ကျသော/ကျွမ်းကျင်နှံ့စပ်သော",
-      "myanmar": "အသေးစိတ်ကျသော/ကျွမ်းကျင်နှံ့စပ်သော"
+      "myanmar": "အသေးစိတ်ကျသော/ကျွမ်းကျင်နှံ့စပ်သော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n4.l25.v007",
@@ -220,7 +232,9 @@
       },
       "meaningMyanmar": "ဆောင်းဦးပေါက်ရွက်ဝါရောင်/မေပယ်ရွက်",
       "meaningMy": "ဆောင်းဦးပေါက်ရွက်ဝါရောင်/မေပယ်ရွက်",
-      "myanmar": "ဆောင်းဦးပေါက်ရွက်ဝါရောင်/မေပယ်ရွက်"
+      "myanmar": "ဆောင်းဦးပေါက်ရွက်ဝါရောင်/မေပယ်ရွက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l25.v008",
@@ -248,7 +262,9 @@
       },
       "meaningMyanmar": "ရေပူစမ်း",
       "meaningMy": "ရေပူစမ်း",
-      "myanmar": "ရေပူစမ်း"
+      "myanmar": "ရေပူစမ်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l25.v009",
@@ -276,7 +292,9 @@
       },
       "meaningMyanmar": "ရိုးရာဂျပန်တည်းခိုခန်း",
       "meaningMy": "ရိုးရာဂျပန်တည်းခိုခန်း",
-      "myanmar": "ရိုးရာဂျပန်တည်းခိုခန်း"
+      "myanmar": "ရိုးရာဂျပန်တည်းခိုခန်း",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l25.v010",
@@ -304,7 +322,9 @@
       },
       "meaningMyanmar": "ကြိုတင်စာရင်းသွင်းသည်/ဘိုကင်တင်သည်",
       "meaningMy": "ကြိုတင်စာရင်းသွင်းသည်/ဘိုကင်တင်သည်",
-      "myanmar": "ကြိုတင်စာရင်းသွင်းသည်/ဘိုကင်တင်သည်"
+      "myanmar": "ကြိုတင်စာရင်းသွင်းသည်/ဘိုကင်တင်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l25.v011",
@@ -332,7 +352,9 @@
       },
       "meaningMyanmar": "ရှုခင်း",
       "meaningMy": "ရှုခင်း",
-      "myanmar": "ရှုခင်း"
+      "myanmar": "ရှုခင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l25.v012",
@@ -362,7 +384,9 @@
       },
       "meaningMyanmar": "ချွေတာသည်",
       "meaningMy": "ချွေတာသည်",
-      "myanmar": "ချွေတာသည်"
+      "myanmar": "ချွေတာသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

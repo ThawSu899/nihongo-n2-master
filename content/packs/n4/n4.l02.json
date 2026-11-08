@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "အနာဂတ်",
       "meaningMy": "အနာဂတ်",
-      "myanmar": "အနာဂတ်"
+      "myanmar": "အနာဂတ်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n4.l02.v002",
@@ -69,7 +71,9 @@
       },
       "meaningMyanmar": "အိပ်မက်/ရည်မှန်းချက်",
       "meaningMy": "အိပ်မက်/ရည်မှန်းချက်",
-      "myanmar": "အိပ်မက်/ရည်မှန်းချက်"
+      "myanmar": "အိပ်မက်/ရည်မှန်းချက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l02.v003",
@@ -100,7 +104,9 @@
       },
       "meaningMyanmar": "အစီအစဉ်",
       "meaningMy": "အစီအစဉ်",
-      "myanmar": "အစီအစဉ်"
+      "myanmar": "အစီအစဉ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l02.v004",
@@ -128,7 +134,9 @@
       },
       "meaningMyanmar": "နိုင်ငံခြားပညာသင်သွားခြင်း",
       "meaningMy": "နိုင်ငံခြားပညာသင်သွားခြင်း",
-      "myanmar": "နိုင်ငံခြားပညာသင်သွားခြင်း"
+      "myanmar": "နိုင်ငံခြားပညာသင်သွားခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l02.v005",
@@ -156,7 +164,9 @@
       },
       "meaningMyanmar": "လမ်းပြလမ်းညွှန်မှု",
       "meaningMy": "လမ်းပြလမ်းညွှန်မှု",
-      "myanmar": "လမ်းပြလမ်းညွှန်မှု"
+      "myanmar": "လမ်းပြလမ်းညွှန်မှု",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n4.l02.v006",
@@ -187,7 +197,9 @@
       },
       "meaningMyanmar": "အတွေ့အကြုံ",
       "meaningMy": "အတွေ့အကြုံ",
-      "myanmar": "အတွေ့အကြုံ"
+      "myanmar": "အတွေ့အကြုံ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l02.v007",
@@ -215,7 +227,9 @@
       },
       "meaningMyanmar": "ဆုံးဖြတ်သည်",
       "meaningMy": "ဆုံးဖြတ်သည်",
-      "myanmar": "ဆုံးဖြတ်သည်"
+      "myanmar": "ဆုံးဖြတ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l02.v008",
@@ -243,7 +257,9 @@
       },
       "meaningMyanmar": "ဆက်လက်လုပ်ဆောင်သည်",
       "meaningMy": "ဆက်လက်လုပ်ဆောင်သည်",
-      "myanmar": "ဆက်လက်လုပ်ဆောင်သည်"
+      "myanmar": "ဆက်လက်လုပ်ဆောင်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l02.v009",
@@ -271,7 +287,9 @@
       },
       "meaningMyanmar": "ကြိုတင်ပြင်ဆင်မှု",
       "meaningMy": "ကြိုတင်ပြင်ဆင်မှု",
-      "myanmar": "ကြိုတင်ပြင်ဆင်မှု"
+      "myanmar": "ကြိုတင်ပြင်ဆင်မှု",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l02.v010",
@@ -299,7 +317,9 @@
       },
       "meaningMyanmar": "အထူးပြုဘာသာရပ်",
       "meaningMy": "အထူးပြုဘာသာရပ်",
-      "myanmar": "အထူးပြုဘာသာရပ်"
+      "myanmar": "အထူးပြုဘာသာရပ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l02.v011",
@@ -327,7 +347,9 @@
       },
       "meaningMyanmar": "သုတေသန",
       "meaningMy": "သုတေသန",
-      "myanmar": "သုတေသန"
+      "myanmar": "သုတေသန",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l02.v012",
@@ -355,7 +377,9 @@
       },
       "meaningMyanmar": "စတင်သည်",
       "meaningMy": "စတင်သည်",
-      "myanmar": "စတင်သည်"
+      "myanmar": "စတင်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

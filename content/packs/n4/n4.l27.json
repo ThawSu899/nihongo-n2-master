@@ -44,7 +44,9 @@
       },
       "meaningMyanmar": "ခွင့်ပြုချက်/ခွင့်ပြုမိန့်",
       "meaningMy": "ခွင့်ပြုချက်/ခွင့်ပြုမိန့်",
-      "myanmar": "ခွင့်ပြုချက်/ခွင့်ပြုမိန့်"
+      "myanmar": "ခွင့်ပြုချက်/ခွင့်ပြုမိန့်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l27.v002",
@@ -75,7 +77,9 @@
       },
       "meaningMyanmar": "ခွင့်ပြုသည်",
       "meaningMy": "ခွင့်ပြုသည်",
-      "myanmar": "ခွင့်ပြုသည်"
+      "myanmar": "ခွင့်ပြုသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l27.v003",
@@ -105,7 +109,9 @@
       },
       "meaningMyanmar": "ခွင့်လွှတ်သည်/ခွင့်ပြုသည်",
       "meaningMy": "ခွင့်လွှတ်သည်/ခွင့်ပြုသည်",
-      "myanmar": "ခွင့်လွှတ်သည်/ခွင့်ပြုသည်"
+      "myanmar": "ခွင့်လွှတ်သည်/ခွင့်ပြုသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l27.v004",
@@ -135,7 +141,9 @@
       },
       "meaningMyanmar": "ကိစ္စမရှိပါ/ရပါသည်",
       "meaningMy": "ကိစ္စမရှိပါ/ရပါသည်",
-      "myanmar": "ကိစ္စမရှိပါ/ရပါသည်"
+      "myanmar": "ကိစ္စမရှိပါ/ရပါသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n4.l27.v005",
@@ -165,7 +173,9 @@
       },
       "meaningMyanmar": "ပြီးမြောက်သည်/ပြီးစီးသည်",
       "meaningMy": "ပြီးမြောက်သည်/ပြီးစီးသည်",
-      "myanmar": "ပြီးမြောက်သည်/ပြီးစီးသည်"
+      "myanmar": "ပြီးမြောက်သည်/ပြီးစီးသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l27.v006",
@@ -195,7 +205,9 @@
       },
       "meaningMyanmar": "လိုင်စင်လက်မှတ်",
       "meaningMy": "လိုင်စင်လက်မှတ်",
-      "myanmar": "လိုင်စင်လက်မှတ်"
+      "myanmar": "လိုင်စင်လက်မှတ်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n4.l27.v007",
@@ -223,7 +235,9 @@
       },
       "meaningMyanmar": "အခမဲ့",
       "meaningMy": "အခမဲ့",
-      "myanmar": "အခမဲ့"
+      "myanmar": "အခမဲ့",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l27.v008",
@@ -251,7 +265,9 @@
       },
       "meaningMyanmar": "အားနာသည်/ရှောင်ကြဉ်သည်",
       "meaningMy": "အားနာသည်/ရှောင်ကြဉ်သည်",
-      "myanmar": "အားနာသည်/ရှောင်ကြဉ်သည်"
+      "myanmar": "အားနာသည်/ရှောင်ကြဉ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l27.v009",
@@ -279,7 +295,9 @@
       },
       "meaningMyanmar": "လွတ်လပ်မှု",
       "meaningMy": "လွတ်လပ်မှု",
-      "myanmar": "လွတ်လပ်မှု"
+      "myanmar": "လွတ်လပ်မှု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l27.v010",
@@ -307,7 +325,9 @@
       },
       "meaningMyanmar": "လွတ်လပ်စွာ",
       "meaningMy": "လွတ်လပ်စွာ",
-      "myanmar": "လွတ်လပ်စွာ"
+      "myanmar": "လွတ်လပ်စွာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l27.v011",
@@ -335,7 +355,9 @@
       },
       "meaningMyanmar": "ပြန်လည်အပ်နှံသည်/ပြန်ပေးသည်",
       "meaningMy": "ပြန်လည်အပ်နှံသည်/ပြန်ပေးသည်",
-      "myanmar": "ပြန်လည်အပ်နှံသည်/ပြန်ပေးသည်"
+      "myanmar": "ပြန်လည်အပ်နှံသည်/ပြန်ပေးသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l27.v012",
@@ -363,7 +385,9 @@
       },
       "meaningMyanmar": "ငှားရမ်းထုတ်ပေးခြင်း",
       "meaningMy": "ငှားရမ်းထုတ်ပေးခြင်း",
-      "myanmar": "ငှားရမ်းထုတ်ပေးခြင်း"
+      "myanmar": "ငှားရမ်းထုတ်ပေးခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

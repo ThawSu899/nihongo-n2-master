@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "တက်သည် (တောင်)",
       "meaningMy": "တက်သည် (တောင်)",
-      "myanmar": "တက်သည် (တောင်)"
+      "myanmar": "တက်သည် (တောင်)",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l20.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "တည်းခိုသည် (ဟိုတယ်)",
       "meaningMy": "တည်းခိုသည် (ဟိုတယ်)",
-      "myanmar": "တည်းခိုသည် (ဟိုတယ်)"
+      "myanmar": "တည်းခိုသည် (ဟိုတယ်)",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l20.v003",
@@ -101,7 +105,9 @@
       },
       "meaningMyanmar": "သန့်ရှင်းရေးလုပ်သည်",
       "meaningMy": "သန့်ရှင်းရေးလုပ်သည်",
-      "myanmar": "သန့်ရှင်းရေးလုပ်သည်"
+      "myanmar": "သန့်ရှင်းရေးလုပ်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
     },
     {
       "id": "n5.l20.v004",
@@ -131,7 +137,9 @@
       },
       "meaningMyanmar": "အဝတ်လျှော်သည်",
       "meaningMy": "အဝတ်လျှော်သည်",
-      "myanmar": "အဝတ်လျှော်သည်"
+      "myanmar": "အဝတ်လျှော်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 6
     },
     {
       "id": "n5.l20.v005",
@@ -159,7 +167,9 @@
       },
       "meaningMyanmar": "လေ့ကျင့်သည်",
       "meaningMy": "လေ့ကျင့်သည်",
-      "myanmar": "လေ့ကျင့်သည်"
+      "myanmar": "လေ့ကျင့်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 6
     },
     {
       "id": "n5.l20.v006",
@@ -187,7 +197,9 @@
       },
       "meaningMyanmar": "ဖြစ်လာသည်",
       "meaningMy": "ဖြစ်လာသည်",
-      "myanmar": "ဖြစ်လာသည်"
+      "myanmar": "ဖြစ်လာသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l20.v007",
@@ -215,7 +227,9 @@
       },
       "meaningMyanmar": "အိပ်ငိုက်သော",
       "meaningMy": "အိပ်ငိုက်သော",
-      "myanmar": "အိပ်ငိုက်သော"
+      "myanmar": "အိပ်ငိုက်သော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l20.v008",
@@ -243,7 +257,9 @@
       },
       "meaningMyanmar": "သန်မာသော",
       "meaningMy": "သန်မာသော",
-      "myanmar": "သန်မာသော"
+      "myanmar": "သန်မာသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l20.v009",
@@ -271,7 +287,9 @@
       },
       "meaningMyanmar": "အားနည်းသော",
       "meaningMy": "အားနည်းသော",
-      "myanmar": "အားနည်းသော"
+      "myanmar": "အားနည်းသော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l20.v010",
@@ -299,7 +317,9 @@
       },
       "meaningMyanmar": "ကျန်းမာရေးအခြေအနေ / အခြေအနေ",
       "meaningMy": "ကျန်းမာရေးအခြေအနေ / အခြေအနေ",
-      "myanmar": "ကျန်းမာရေးအခြေအနေ / အခြေအနေ"
+      "myanmar": "ကျန်းမာရေးအခြေအနေ / အခြေအနေ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l20.v011",
@@ -327,7 +347,9 @@
       },
       "meaningMyanmar": "တစ်ကြိမ်",
       "meaningMy": "တစ်ကြိမ်",
-      "myanmar": "တစ်ကြိမ်"
+      "myanmar": "တစ်ကြိမ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l20.v012",
@@ -355,7 +377,9 @@
       },
       "meaningMyanmar": "တစ်ကြိမ်မှ (မ...)",
       "meaningMy": "တစ်ကြိမ်မှ (မ...)",
-      "myanmar": "တစ်ကြိမ်မှ (မ...)"
+      "myanmar": "တစ်ကြိမ်မှ (မ...)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

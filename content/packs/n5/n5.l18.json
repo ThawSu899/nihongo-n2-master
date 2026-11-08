@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "နာကျင်သော",
       "meaningMy": "နာကျင်သော",
-      "myanmar": "နာကျင်သော"
+      "myanmar": "နာကျင်သော",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l18.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "ဆေး",
       "meaningMy": "ဆေး",
-      "myanmar": "ဆေး"
+      "myanmar": "ဆေး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l18.v003",
@@ -101,7 +105,9 @@
       },
       "meaningMyanmar": "အဖျား / အပူချိန်",
       "meaningMy": "အဖျား / အပူချိန်",
-      "myanmar": "အဖျား / အပူချိန်"
+      "myanmar": "အဖျား / အပူချိန်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l18.v004",
@@ -129,7 +135,9 @@
       },
       "meaningMyanmar": "ဆေးရုံ",
       "meaningMy": "ဆေးရုံ",
-      "myanmar": "ဆေးရုံ"
+      "myanmar": "ဆေးရုံ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l18.v005",
@@ -157,7 +165,9 @@
       },
       "meaningMyanmar": "ကျန်းမာရေးအာမခံကတ်",
       "meaningMy": "ကျန်းမာရေးအာမခံကတ်",
-      "myanmar": "ကျန်းမာရေးအာမခံကတ်"
+      "myanmar": "ကျန်းမာရေးအာမခံကတ်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l18.v006",
@@ -185,7 +195,9 @@
       },
       "meaningMyanmar": "စိုးရိမ်သည်",
       "meaningMy": "စိုးရိမ်သည်",
-      "myanmar": "စိုးရိမ်သည်"
+      "myanmar": "စိုးရိမ်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 6
     },
     {
       "id": "n5.l18.v007",
@@ -213,7 +225,9 @@
       },
       "meaningMyanmar": "ချွတ်သည် (အဝတ်/ဖိနပ်)",
       "meaningMy": "ချွတ်သည် (အဝတ်/ဖိနပ်)",
-      "myanmar": "ချွတ်သည် (အဝတ်/ဖိနပ်)"
+      "myanmar": "ချွတ်သည် (အဝတ်/ဖိနပ်)",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l18.v008",
@@ -241,7 +255,9 @@
       },
       "meaningMyanmar": "ငွေပေးချေသည်",
       "meaningMy": "ငွေပေးချေသည်",
-      "myanmar": "ငွေပေးချေသည်"
+      "myanmar": "ငွေပေးချေသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l18.v009",
@@ -269,7 +285,9 @@
       },
       "meaningMyanmar": "မေ့လျော့သည်",
       "meaningMy": "မေ့လျော့သည်",
-      "myanmar": "မေ့လျော့သည်"
+      "myanmar": "မေ့လျော့သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l18.v010",
@@ -297,7 +315,9 @@
       },
       "meaningMyanmar": "ပျောက်ဆုံးသည်",
       "meaningMy": "ပျောက်ဆုံးသည်",
-      "myanmar": "ပျောက်ဆုံးသည်"
+      "myanmar": "ပျောက်ဆုံးသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l18.v011",
@@ -325,7 +345,9 @@
       },
       "meaningMyanmar": "အချိန်ပိုလုပ်သည်",
       "meaningMy": "အချိန်ပိုလုပ်သည်",
-      "myanmar": "အချိန်ပိုလုပ်သည်"
+      "myanmar": "အချိန်ပိုလုပ်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 6
     },
     {
       "id": "n5.l18.v012",
@@ -353,7 +375,9 @@
       },
       "meaningMyanmar": "နိုင်ငံကူးလက်မှတ်",
       "meaningMy": "နိုင်ငံကူးလက်မှတ်",
-      "myanmar": "နိုင်ငံကူးလက်မှတ်"
+      "myanmar": "နိုင်ငံကူးလက်မှတ်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     }
   ],
   "kanjis": [

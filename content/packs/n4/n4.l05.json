@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "ရေပူစမ်း",
       "meaningMy": "ရေပူစမ်း",
-      "myanmar": "ရေပူစမ်း"
+      "myanmar": "ရေပူစမ်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l05.v002",
@@ -72,7 +74,9 @@
       },
       "meaningMyanmar": "ကြိုတင်ဘွတ်ကင်လုပ်ခြင်း",
       "meaningMy": "ကြိုတင်ဘွတ်ကင်လုပ်ခြင်း",
-      "myanmar": "ကြိုတင်ဘွတ်ကင်လုပ်ခြင်း"
+      "myanmar": "ကြိုတင်ဘွတ်ကင်လုပ်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l05.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "လည်ပတ်ကြည့်ရှုခြင်း/ခရီးသွားလာခြင်း",
       "meaningMy": "လည်ပတ်ကြည့်ရှုခြင်း/ခရီးသွားလာခြင်း",
-      "myanmar": "လည်ပတ်ကြည့်ရှုခြင်း/ခရီးသွားလာခြင်း"
+      "myanmar": "လည်ပတ်ကြည့်ရှုခြင်း/ခရီးသွားလာခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l05.v004",
@@ -131,7 +137,9 @@
       },
       "meaningMyanmar": "အကြံပြုထောက်ခံချက်",
       "meaningMy": "အကြံပြုထောက်ခံချက်",
-      "myanmar": "အကြံပြုထောက်ခံချက်"
+      "myanmar": "အကြံပြုထောက်ခံချက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l05.v005",
@@ -159,7 +167,9 @@
       },
       "meaningMyanmar": "ရာသီဥတု",
       "meaningMy": "ရာသီဥတု",
-      "myanmar": "ရာသီဥတု"
+      "myanmar": "ရာသီဥတု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l05.v006",
@@ -187,7 +197,9 @@
       },
       "meaningMyanmar": "ဂျပန်ရိုးရာတည်းခိုခန်း",
       "meaningMy": "ဂျပန်ရိုးရာတည်းခိုခန်း",
-      "myanmar": "ဂျပန်ရိုးရာတည်းခိုခန်း"
+      "myanmar": "ဂျပန်ရိုးရာတည်းခိုခန်း",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l05.v007",
@@ -215,7 +227,9 @@
       },
       "meaningMyanmar": "ခရီးဆောင်အိတ်/ပစ္စည်း",
       "meaningMy": "ခရီးဆောင်အိတ်/ပစ္စည်း",
-      "myanmar": "ခရီးဆောင်အိတ်/ပစ္စည်း"
+      "myanmar": "ခရီးဆောင်အိတ်/ပစ္စည်း",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l05.v008",
@@ -243,7 +257,9 @@
       },
       "meaningMyanmar": "ဆိုက်ရောက်သည်/ပို့ဆောင်ရောက်ရှိသည်",
       "meaningMy": "ဆိုက်ရောက်သည်/ပို့ဆောင်ရောက်ရှိသည်",
-      "myanmar": "ဆိုက်ရောက်သည်/ပို့ဆောင်ရောက်ရှိသည်"
+      "myanmar": "ဆိုက်ရောက်သည်/ပို့ဆောင်ရောက်ရှိသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l05.v009",
@@ -271,7 +287,9 @@
       },
       "meaningMyanmar": "စိတ်အေးချမ်းမှု/စိတ်သက်သာရာရခြင်း",
       "meaningMy": "စိတ်အေးချမ်းမှု/စိတ်သက်သာရာရခြင်း",
-      "myanmar": "စိတ်အေးချမ်းမှု/စိတ်သက်သာရာရခြင်း"
+      "myanmar": "စိတ်အေးချမ်းမှု/စိတ်သက်သာရာရခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l05.v010",
@@ -299,7 +317,9 @@
       },
       "meaningMyanmar": "စိတ်ပူပန်မှု",
       "meaningMy": "စိတ်ပူပန်မှု",
-      "myanmar": "စိတ်ပူပန်မှု"
+      "myanmar": "စိတ်ပူပန်မှု",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n4.l05.v011",
@@ -327,7 +347,9 @@
       },
       "meaningMyanmar": "လမ်းညွှန်မှု",
       "meaningMy": "လမ်းညွှန်မှု",
-      "myanmar": "လမ်းညွှန်မှု"
+      "myanmar": "လမ်းညွှန်မှု",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n4.l05.v012",
@@ -355,7 +377,9 @@
       },
       "meaningMyanmar": "အသုံးပြုခြင်း",
       "meaningMy": "အသုံးပြုခြင်း",
-      "myanmar": "အသုံးပြုခြင်း"
+      "myanmar": "အသုံးပြုခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

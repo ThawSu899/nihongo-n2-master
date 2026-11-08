@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "ကျောင်းဝင်သည်/တက္ကသိုလ်ဝင်ခွင့်ရသည်",
       "meaningMy": "ကျောင်းဝင်သည်/တက္ကသိုလ်ဝင်ခွင့်ရသည်",
-      "myanmar": "ကျောင်းဝင်သည်/တက္ကသိုလ်ဝင်ခွင့်ရသည်"
+      "myanmar": "ကျောင်းဝင်သည်/တက္ကသိုလ်ဝင်ခွင့်ရသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l24.v002",
@@ -71,7 +73,9 @@
       },
       "meaningMyanmar": "နိုင်ငံခြားပညာသင်ကျောင်းသား",
       "meaningMy": "နိုင်ငံခြားပညာသင်ကျောင်းသား",
-      "myanmar": "နိုင်ငံခြားပညာသင်ကျောင်းသား"
+      "myanmar": "နိုင်ငံခြားပညာသင်ကျောင်းသား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l24.v003",
@@ -101,7 +105,9 @@
       },
       "meaningMyanmar": "ပန်းတိုင်/ရည်မှန်းချက်",
       "meaningMy": "ပန်းတိုင်/ရည်မှန်းချက်",
-      "myanmar": "ပန်းတိုင်/ရည်မှန်းချက်"
+      "myanmar": "ပန်းတိုင်/ရည်မှန်းချက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l24.v004",
@@ -131,7 +137,9 @@
       },
       "meaningMyanmar": "ကြိုးစားအားထုတ်မှု",
       "meaningMy": "ကြိုးစားအားထုတ်မှု",
-      "myanmar": "ကြိုးစားအားထုတ်မှု"
+      "myanmar": "ကြိုးစားအားထုတ်မှု",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l24.v005",
@@ -161,7 +169,9 @@
       },
       "meaningMyanmar": "ကြိုးစားအားထုတ်သည်",
       "meaningMy": "ကြိုးစားအားထုတ်သည်",
-      "myanmar": "ကြိုးစားအားထုတ်သည်"
+      "myanmar": "ကြိုးစားအားထုတ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l24.v006",
@@ -191,7 +201,9 @@
       },
       "meaningMyanmar": "ရောက်ရှိသည်/ပြည့်မီသည်",
       "meaningMy": "ရောက်ရှိသည်/ပြည့်မီသည်",
-      "myanmar": "ရောက်ရှိသည်/ပြည့်မီသည်"
+      "myanmar": "ရောက်ရှိသည်/ပြည့်မီသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l24.v007",
@@ -219,7 +231,9 @@
       },
       "meaningMyanmar": "စာမေးပွဲအောင်မြင်သည်",
       "meaningMy": "စာမေးပွဲအောင်မြင်သည်",
-      "myanmar": "စာမေးပွဲအောင်မြင်သည်"
+      "myanmar": "စာမေးပွဲအောင်မြင်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l24.v008",
@@ -247,7 +261,9 @@
       },
       "meaningMyanmar": "ရည်ရွယ်ချက်/ဦးတည်ချက်",
       "meaningMy": "ရည်ရွယ်ချက်/ဦးတည်ချက်",
-      "myanmar": "ရည်ရွယ်ချက်/ဦးတည်ချက်"
+      "myanmar": "ရည်ရွယ်ချက်/ဦးတည်ချက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l24.v009",
@@ -275,7 +291,9 @@
       },
       "meaningMyanmar": "ငွေစုဆောင်းသည်",
       "meaningMy": "ငွေစုဆောင်းသည်",
-      "myanmar": "ငွေစုဆောင်းသည်"
+      "myanmar": "ငွေစုဆောင်းသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l24.v010",
@@ -303,7 +321,9 @@
       },
       "meaningMyanmar": "မှတ်စုရေးမှတ်သည်",
       "meaningMy": "မှတ်စုရေးမှတ်သည်",
-      "myanmar": "မှတ်စုရေးမှတ်သည်"
+      "myanmar": "မှတ်စုရေးမှတ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l24.v011",
@@ -331,7 +351,9 @@
       },
       "meaningMyanmar": "အနာဂတ်/နောင်ရေး",
       "meaningMy": "အနာဂတ်/နောင်ရေး",
-      "myanmar": "အနာဂတ်/နောင်ရေး"
+      "myanmar": "အနာဂတ်/နောင်ရေး",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n4.l24.v012",
@@ -359,7 +381,9 @@
       },
       "meaningMyanmar": "အကောင်အထည်ပေါ်သည်/ပြည့်စုံသည်",
       "meaningMy": "အကောင်အထည်ပေါ်သည်/ပြည့်စုံသည်",
-      "myanmar": "အကောင်အထည်ပေါ်သည်/ပြည့်စုံသည်"
+      "myanmar": "အကောင်အထည်ပေါ်သည်/ပြည့်စုံသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

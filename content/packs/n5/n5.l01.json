@@ -48,7 +48,9 @@
       },
       "meaningMyanmar": "မင်္ဂလာနံနက်ခင်းပါ (ယဉ်ကျေးသော)",
       "meaningMy": "မင်္ဂလာနံနက်ခင်းပါ (ယဉ်ကျေးသော)",
-      "myanmar": "မင်္ဂလာနံနက်ခင်းပါ (ယဉ်ကျေးသော)"
+      "myanmar": "မင်္ဂလာနံနက်ခင်းပါ (ယဉ်ကျေးသော)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l01.v002",
@@ -76,7 +78,9 @@
       },
       "meaningMyanmar": "မင်္ဂလာပါ (နေ့လယ်ခင်း)",
       "meaningMy": "မင်္ဂလာပါ (နေ့လယ်ခင်း)",
-      "myanmar": "မင်္ဂလာပါ (နေ့လယ်ခင်း)"
+      "myanmar": "မင်္ဂလာပါ (နေ့လယ်ခင်း)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l01.v003",
@@ -104,7 +108,9 @@
       },
       "meaningMyanmar": "မင်္ဂလာညနေခင်းပါ",
       "meaningMy": "မင်္ဂလာညနေခင်းပါ",
-      "myanmar": "မင်္ဂလာညနေခင်းပါ"
+      "myanmar": "မင်္ဂလာညနေခင်းပါ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l01.v004",
@@ -132,7 +138,9 @@
       },
       "meaningMyanmar": "ကျေးဇူးတင်ပါတယ် (ယဉ်ကျေးသော)",
       "meaningMy": "ကျေးဇူးတင်ပါတယ် (ယဉ်ကျေးသော)",
-      "myanmar": "ကျေးဇူးတင်ပါတယ် (ယဉ်ကျေးသော)"
+      "myanmar": "ကျေးဇူးတင်ပါတယ် (ယဉ်ကျေးသော)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l01.v005",
@@ -160,7 +168,9 @@
       },
       "meaningMyanmar": "ခွင့်လွှတ်ပါ / တောင်းပန်ပါတယ်",
       "meaningMy": "ခွင့်လွှတ်ပါ / တောင်းပန်ပါတယ်",
-      "myanmar": "ခွင့်လွှတ်ပါ / တောင်းပန်ပါတယ်"
+      "myanmar": "ခွင့်လွှတ်ပါ / တောင်းပန်ပါတယ်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l01.v006",
@@ -188,7 +198,9 @@
       },
       "meaningMyanmar": "တွေ့ရတာ ဝမ်းသာပါတယ် (ပထမဆုံးတွေ့ဆုံခြင်း)",
       "meaningMy": "တွေ့ရတာ ဝမ်းသာပါတယ် (ပထမဆုံးတွေ့ဆုံခြင်း)",
-      "myanmar": "တွေ့ရတာ ဝမ်းသာပါတယ် (ပထမဆုံးတွေ့ဆုံခြင်း)"
+      "myanmar": "တွေ့ရတာ ဝမ်းသာပါတယ် (ပထမဆုံးတွေ့ဆုံခြင်း)",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l01.v007",
@@ -216,7 +228,9 @@
       },
       "meaningMyanmar": "ကောင်းမွန်စွာ ဆက်ဆံပေးပါရန် မေတ္တာရပ်ခံပါသည်",
       "meaningMy": "ကောင်းမွန်စွာ ဆက်ဆံပေးပါရန် မေတ္တာရပ်ခံပါသည်",
-      "myanmar": "ကောင်းမွန်စွာ ဆက်ဆံပေးပါရန် မေတ္တာရပ်ခံပါသည်"
+      "myanmar": "ကောင်းမွန်စွာ ဆက်ဆံပေးပါရန် မေတ္တာရပ်ခံပါသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 10
     },
     {
       "id": "n5.l01.v008",
@@ -244,7 +258,9 @@
       },
       "meaningMyanmar": "ကျွန်တော် / ကျွန်မ",
       "meaningMy": "ကျွန်တော် / ကျွန်မ",
-      "myanmar": "ကျွန်တော် / ကျွန်မ"
+      "myanmar": "ကျွန်တော် / ကျွန်မ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l01.v009",
@@ -275,7 +291,9 @@
       },
       "meaningMyanmar": "ကျောင်းသား / ကျောင်းသူ",
       "meaningMy": "ကျောင်းသား / ကျောင်းသူ",
-      "myanmar": "ကျောင်းသား / ကျောင်းသူ"
+      "myanmar": "ကျောင်းသား / ကျောင်းသူ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l01.v010",
@@ -306,7 +324,9 @@
       },
       "meaningMyanmar": "ဆရာ / ဆရာမ",
       "meaningMy": "ဆရာ / ဆရာမ",
-      "myanmar": "ဆရာ / ဆရာမ"
+      "myanmar": "ဆရာ / ဆရာမ",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l01.v011",
@@ -334,7 +354,9 @@
       },
       "meaningMyanmar": "ဂျပန်လူမျိုး",
       "meaningMy": "ဂျပန်လူမျိုး",
-      "myanmar": "ဂျပန်လူမျိုး"
+      "myanmar": "ဂျပန်လူမျိုး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l01.v012",
@@ -362,7 +384,9 @@
       },
       "meaningMyanmar": "နာမည်",
       "meaningMy": "နာမည်",
-      "myanmar": "နာမည်"
+      "myanmar": "နာမည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

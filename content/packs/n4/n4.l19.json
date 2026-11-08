@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ကျင့်သားရသည်/အသားကျသည်",
       "meaningMy": "ကျင့်သားရသည်/အသားကျသည်",
-      "myanmar": "ကျင့်သားရသည်/အသားကျသည်"
+      "myanmar": "ကျင့်သားရသည်/အသားကျသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l19.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "ပြောင်းလဲသည်",
       "meaningMy": "ပြောင်းလဲသည်",
-      "myanmar": "ပြောင်းလဲသည်"
+      "myanmar": "ပြောင်းလဲသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l19.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "ကြီးပြင်းသည်/ရှင်သန်ဖွံ့ဖြိုးသည်",
       "meaningMy": "ကြီးပြင်းသည်/ရှင်သန်ဖွံ့ဖြိုးသည်",
-      "myanmar": "ကြီးပြင်းသည်/ရှင်သန်ဖွံ့ဖြိုးသည်"
+      "myanmar": "ကြီးပြင်းသည်/ရှင်သန်ဖွံ့ဖြိုးသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l19.v004",
@@ -133,7 +139,9 @@
       },
       "meaningMyanmar": "ရေကူးသည်",
       "meaningMy": "ရေကူးသည်",
-      "myanmar": "ရေကူးသည်"
+      "myanmar": "ရေကူးသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l19.v005",
@@ -161,7 +169,9 @@
       },
       "meaningMyanmar": "ဆာရှီမီ (ငါးစိမ်းလွှာ)",
       "meaningMy": "ဆာရှီမီ (ငါးစိမ်းလွှာ)",
-      "myanmar": "ဆာရှီမီ (ငါးစိမ်းလွှာ)"
+      "myanmar": "ဆာရှီမီ (ငါးစိမ်းလွှာ)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l19.v006",
@@ -189,7 +199,9 @@
       },
       "meaningMyanmar": "နတ်တိုး (ပဲပုတ်စိမ်)",
       "meaningMy": "နတ်တိုး (ပဲပုတ်စိမ်)",
-      "myanmar": "နတ်တိုး (ပဲပုတ်စိမ်)"
+      "myanmar": "နတ်တိုး (ပဲပုတ်စိမ်)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l19.v007",
@@ -217,7 +229,9 @@
       },
       "meaningMyanmar": "တိုးတက်ဖွံ့ဖြိုးသည်",
       "meaningMy": "တိုးတက်ဖွံ့ဖြိုးသည်",
-      "myanmar": "တိုးတက်ဖွံ့ဖြိုးသည်"
+      "myanmar": "တိုးတက်ဖွံ့ဖြိုးသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l19.v008",
@@ -245,7 +259,9 @@
       },
       "meaningMyanmar": "နည်းပညာ/ကျွမ်းကျင်မှု",
       "meaningMy": "နည်းပညာ/ကျွမ်းကျင်မှု",
-      "myanmar": "နည်းပညာ/ကျွမ်းကျင်မှု"
+      "myanmar": "နည်းပညာ/ကျွမ်းကျင်မှု",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l19.v009",
@@ -273,7 +289,9 @@
       },
       "meaningMyanmar": "ယခင်က/အရင်တုန်းက",
       "meaningMy": "ယခင်က/အရင်တုန်းက",
-      "myanmar": "ယခင်က/အရင်တုန်းက"
+      "myanmar": "ယခင်က/အရင်တုန်းက",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l19.v010",
@@ -301,7 +319,9 @@
       },
       "meaningMyanmar": "မကြာသေးမီက/လတ်တလော",
       "meaningMy": "မကြာသေးမီက/လတ်တလော",
-      "myanmar": "မကြာသေးမီက/လတ်တလော"
+      "myanmar": "မကြာသေးမီက/လတ်တလော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l19.v011",
@@ -329,7 +349,9 @@
       },
       "meaningMyanmar": "လူနေမှုဘဝ/နေ့စဉ်ဘဝ",
       "meaningMy": "လူနေမှုဘဝ/နေ့စဉ်ဘဝ",
-      "myanmar": "လူနေမှုဘဝ/နေ့စဉ်ဘဝ"
+      "myanmar": "လူနေမှုဘဝ/နေ့စဉ်ဘဝ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l19.v012",
@@ -357,7 +379,9 @@
       },
       "meaningMyanmar": "အလွန်အကျွံလုပ်သည်/မဖြစ်နိုင်တာကို အတင်းလုပ်သည်",
       "meaningMy": "အလွန်အကျွံလုပ်သည်/မဖြစ်နိုင်တာကို အတင်းလုပ်သည်",
-      "myanmar": "အလွန်အကျွံလုပ်သည်/မဖြစ်နိုင်တာကို အတင်းလုပ်သည်"
+      "myanmar": "အလွန်အကျွံလုပ်သည်/မဖြစ်နိုင်တာကို အတင်းလုပ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

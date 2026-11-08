@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "ရှိသည် (သက်မဲ့)",
       "meaningMy": "ရှိသည် (သက်မဲ့)",
-      "myanmar": "ရှိသည် (သက်မဲ့)"
+      "myanmar": "ရှိသည် (သက်မဲ့)",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l10.v002",
@@ -69,7 +71,9 @@
       },
       "meaningMyanmar": "ရှိသည် (သက်ရှိ)",
       "meaningMy": "ရှိသည် (သက်ရှိ)",
-      "myanmar": "ရှိသည် (သက်ရှိ)"
+      "myanmar": "ရှိသည် (သက်ရှိ)",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l10.v003",
@@ -99,7 +103,9 @@
       },
       "meaningMyanmar": "ယောက်ျား",
       "meaningMy": "ယောက်ျား",
-      "myanmar": "ယောက်ျား"
+      "myanmar": "ယောက်ျား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l10.v004",
@@ -129,7 +135,9 @@
       },
       "meaningMyanmar": "မိန်းမ / အမျိုးသမီး",
       "meaningMy": "မိန်းမ / အမျိုးသမီး",
-      "myanmar": "မိန်းမ / အမျိုးသမီး"
+      "myanmar": "မိန်းမ / အမျိုးသမီး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l10.v005",
@@ -159,7 +167,9 @@
       },
       "meaningMyanmar": "ကလေး",
       "meaningMy": "ကလေး",
-      "myanmar": "ကလေး"
+      "myanmar": "ကလေး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l10.v006",
@@ -187,7 +197,9 @@
       },
       "meaningMyanmar": "ခွေး",
       "meaningMy": "ခွေး",
-      "myanmar": "ခွေး"
+      "myanmar": "ခွေး",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l10.v007",
@@ -215,7 +227,9 @@
       },
       "meaningMyanmar": "ကြောင်",
       "meaningMy": "ကြောင်",
-      "myanmar": "ကြောင်"
+      "myanmar": "ကြောင်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l10.v008",
@@ -245,7 +259,9 @@
       },
       "meaningMyanmar": "သစ်ပင်",
       "meaningMy": "သစ်ပင်",
-      "myanmar": "သစ်ပင်"
+      "myanmar": "သစ်ပင်",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n5.l10.v009",
@@ -273,7 +289,9 @@
       },
       "meaningMyanmar": "အပေါ်",
       "meaningMy": "အပေါ်",
-      "myanmar": "အပေါ်"
+      "myanmar": "အပေါ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l10.v010",
@@ -301,7 +319,9 @@
       },
       "meaningMyanmar": "အောက်",
       "meaningMy": "အောက်",
-      "myanmar": "အောက်"
+      "myanmar": "အောက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l10.v011",
@@ -329,7 +349,9 @@
       },
       "meaningMyanmar": "အရှေ့",
       "meaningMy": "အရှေ့",
-      "myanmar": "အရှေ့"
+      "myanmar": "အရှေ့",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l10.v012",
@@ -357,7 +379,9 @@
       },
       "meaningMyanmar": "အနောက်",
       "meaningMy": "အနောက်",
-      "myanmar": "အနောက်"
+      "myanmar": "အနောက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

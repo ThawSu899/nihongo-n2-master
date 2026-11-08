@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "ကုမ္ပဏီဥက္ကဋ္ဌ/ဒါရိုက်တာ",
       "meaningMy": "ကုမ္ပဏီဥက္ကဋ္ဌ/ဒါရိုက်တာ",
-      "myanmar": "ကုမ္ပဏီဥက္ကဋ္ဌ/ဒါရိုက်တာ"
+      "myanmar": "ကုမ္ပဏီဥက္ကဋ္ဌ/ဒါရိုက်တာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l14.v002",
@@ -71,7 +73,9 @@
       },
       "meaningMyanmar": "ဧည့်သည်တော်/ဖောက်သည်",
       "meaningMy": "ဧည့်သည်တော်/ဖောက်သည်",
-      "myanmar": "ဧည့်သည်တော်/ဖောက်သည်"
+      "myanmar": "ဧည့်သည်တော်/ဖောက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l14.v003",
@@ -101,7 +105,9 @@
       },
       "meaningMyanmar": "သုံးဆောင်သည်/စားသောက်သည် (ရိုသေစကား)",
       "meaningMy": "သုံးဆောင်သည်/စားသောက်သည် (ရိုသေစကား)",
-      "myanmar": "သုံးဆောင်သည်/စားသောက်သည် (ရိုသေစကား)"
+      "myanmar": "သုံးဆောင်သည်/စားသောက်သည် (ရိုသေစကား)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l14.v004",
@@ -129,7 +135,9 @@
       },
       "meaningMyanmar": "မိန့်ကြားသည်/ပြောဆိုသည် (ရိုသေစကား)",
       "meaningMy": "မိန့်ကြားသည်/ပြောဆိုသည် (ရိုသေစကား)",
-      "myanmar": "မိန့်ကြားသည်/ပြောဆိုသည် (ရိုသေစကား)"
+      "myanmar": "မိန့်ကြားသည်/ပြောဆိုသည် (ရိုသေစကား)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l14.v005",
@@ -157,7 +165,9 @@
       },
       "meaningMyanmar": "ကြည့်ရှုသည် (ရိုသေစကား)",
       "meaningMy": "ကြည့်ရှုသည် (ရိုသေစကား)",
-      "myanmar": "ကြည့်ရှုသည် (ရိုသေစကား)"
+      "myanmar": "ကြည့်ရှုသည် (ရိုသေစကား)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l14.v006",
@@ -187,7 +197,9 @@
       },
       "meaningMyanmar": "သိရှိတော်မူသော (ရိုသေစကား)",
       "meaningMy": "သိရှိတော်မူသော (ရိုသေစကား)",
-      "myanmar": "သိရှိတော်မူသော (ရိုသေစကား)"
+      "myanmar": "သိရှိတော်မူသော (ရိုသေစကား)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l14.v007",
@@ -215,7 +227,9 @@
       },
       "meaningMyanmar": "တာဝန်ခရီးထွက်ခြင်း",
       "meaningMy": "တာဝန်ခရီးထွက်ခြင်း",
-      "myanmar": "တာဝန်ခရီးထွက်ခြင်း"
+      "myanmar": "တာဝန်ခရီးထွက်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l14.v008",
@@ -246,7 +260,9 @@
       },
       "meaningMyanmar": "ဖိတ်ကြားသည်",
       "meaningMy": "ဖိတ်ကြားသည်",
-      "myanmar": "ဖိတ်ကြားသည်"
+      "myanmar": "ဖိတ်ကြားသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l14.v009",
@@ -274,7 +290,9 @@
       },
       "meaningMyanmar": "ဆက်သွယ်သည်",
       "meaningMy": "ဆက်သွယ်သည်",
-      "myanmar": "ဆက်သွယ်သည်"
+      "myanmar": "ဆက်သွယ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l14.v010",
@@ -302,7 +320,9 @@
       },
       "meaningMyanmar": "လမ်းညွှန်ပြသသည်",
       "meaningMy": "လမ်းညွှန်ပြသသည်",
-      "myanmar": "လမ်းညွှန်ပြသသည်"
+      "myanmar": "လမ်းညွှန်ပြသသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l14.v011",
@@ -330,7 +350,9 @@
       },
       "meaningMyanmar": "နှုတ်ဆက်သည်",
       "meaningMy": "နှုတ်ဆက်သည်",
-      "myanmar": "နှုတ်ဆက်သည်"
+      "myanmar": "နှုတ်ဆက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l14.v012",
@@ -358,7 +380,9 @@
       },
       "meaningMyanmar": "ပြန်လာခြင်း (ရိုသေစကား)",
       "meaningMy": "ပြန်လာခြင်း (ရိုသေစကား)",
-      "myanmar": "ပြန်လာခြင်း (ရိုသေစကား)"
+      "myanmar": "ပြန်လာခြင်း (ရိုသေစကား)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

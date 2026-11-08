@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "အခြေအနေ/အဖြစ်အပျက်",
       "meaningMy": "အခြေအနေ/အဖြစ်အပျက်",
-      "myanmar": "အခြေအနေ/အဖြစ်အပျက်"
+      "myanmar": "အခြေအနေ/အဖြစ်အပျက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l07.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "ကြိုတင်ခန့်မှန်းချက်",
       "meaningMy": "ကြိုတင်ခန့်မှန်းချက်",
-      "myanmar": "ကြိုတင်ခန့်မှန်းချက်"
+      "myanmar": "ကြိုတင်ခန့်မှန်းချက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l07.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "ကုန်ကျစရိတ်",
       "meaningMy": "ကုန်ကျစရိတ်",
-      "myanmar": "ကုန်ကျစရိတ်"
+      "myanmar": "ကုန်ကျစရိတ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l07.v004",
@@ -134,7 +140,9 @@
       },
       "meaningMyanmar": "ကြိုတင်ဟောကိန်း/ခန့်မှန်းတွက်ချက်မှု",
       "meaningMy": "ကြိုတင်ဟောကိန်း/ခန့်မှန်းတွက်ချက်မှု",
-      "myanmar": "ကြိုတင်ဟောကိန်း/ခန့်မှန်းတွက်ချက်မှု"
+      "myanmar": "ကြိုတင်ဟောကိန်း/ခန့်မှန်းတွက်ချက်မှု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l07.v005",
@@ -162,7 +170,9 @@
       },
       "meaningMyanmar": "ဆိုးရွားသောရာသီဥတု",
       "meaningMy": "ဆိုးရွားသောရာသီဥတု",
-      "myanmar": "ဆိုးရွားသောရာသီဥတု"
+      "myanmar": "ဆိုးရွားသောရာသီဥတု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l07.v006",
@@ -190,7 +200,9 @@
       },
       "meaningMyanmar": "အသက်အရွယ်",
       "meaningMy": "အသက်အရွယ်",
-      "myanmar": "အသက်အရွယ်"
+      "myanmar": "အသက်အရွယ်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n3.l07.v007",
@@ -218,7 +230,9 @@
       },
       "meaningMyanmar": "ဈေးနှုန်း",
       "meaningMy": "ဈေးနှုန်း",
-      "myanmar": "ဈေးနှုန်း"
+      "myanmar": "ဈေးနှုန်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l07.v008",
@@ -246,7 +260,9 @@
       },
       "meaningMyanmar": "အရည်အသွေး",
       "meaningMy": "အရည်အသွေး",
-      "myanmar": "အရည်အသွေး"
+      "myanmar": "အရည်အသွေး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l07.v009",
@@ -274,7 +290,9 @@
       },
       "meaningMyanmar": "အကောင်အထည်ဖော်ခြင်း/လက်တွေ့ဆောင်ရွက်ခြင်း",
       "meaningMy": "အကောင်အထည်ဖော်ခြင်း/လက်တွေ့ဆောင်ရွက်ခြင်း",
-      "myanmar": "အကောင်အထည်ဖော်ခြင်း/လက်တွေ့ဆောင်ရွက်ခြင်း"
+      "myanmar": "အကောင်အထည်ဖော်ခြင်း/လက်တွေ့ဆောင်ရွက်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l07.v010",
@@ -302,7 +320,9 @@
       },
       "meaningMyanmar": "ရမှတ်/ရလဒ်",
       "meaningMy": "ရမှတ်/ရလဒ်",
-      "myanmar": "ရမှတ်/ရလဒ်"
+      "myanmar": "ရမှတ်/ရလဒ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l07.v011",
@@ -330,7 +350,9 @@
       },
       "meaningMyanmar": "ကြိုးစားအားထုတ်မှု",
       "meaningMy": "ကြိုးစားအားထုတ်မှု",
-      "myanmar": "ကြိုးစားအားထုတ်မှု"
+      "myanmar": "ကြိုးစားအားထုတ်မှု",
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n3.l07.v012",
@@ -358,7 +380,9 @@
       },
       "meaningMyanmar": "သဘောပေါက်နားလည်သည်/လက်ခံသဘောတူသည်",
       "meaningMy": "သဘောပေါက်နားလည်သည်/လက်ခံသဘောတူသည်",
-      "myanmar": "သဘောပေါက်နားလည်သည်/လက်ခံသဘောတူသည်"
+      "myanmar": "သဘောပေါက်နားလည်သည်/လက်ခံသဘောတူသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

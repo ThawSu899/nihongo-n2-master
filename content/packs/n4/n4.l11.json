@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ချီးမွမ်းသည်",
       "meaningMy": "ချီးမွမ်းသည်",
-      "myanmar": "ချီးမွမ်းသည်"
+      "myanmar": "ချီးမွမ်းသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l11.v002",
@@ -71,7 +73,9 @@
       },
       "meaningMyanmar": "ဆူပူကြိမ်းမောင်းသည်",
       "meaningMy": "ဆူပူကြိမ်းမောင်းသည်",
-      "myanmar": "ဆူပူကြိမ်းမောင်းသည်"
+      "myanmar": "ဆူပူကြိမ်းမောင်းသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l11.v003",
@@ -101,7 +105,9 @@
       },
       "meaningMyanmar": "နင်းမိသည်",
       "meaningMy": "နင်းမိသည်",
-      "myanmar": "နင်းမိသည်"
+      "myanmar": "နင်းမိသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l11.v004",
@@ -131,7 +137,9 @@
       },
       "meaningMyanmar": "အကူအညီတောင်းသည်/မှာကြားသည်",
       "meaningMy": "အကူအညီတောင်းသည်/မှာကြားသည်",
-      "myanmar": "အကူအညီတောင်းသည်/မှာကြားသည်"
+      "myanmar": "အကူအညီတောင်းသည်/မှာကြားသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l11.v005",
@@ -161,7 +169,9 @@
       },
       "meaningMyanmar": "ခိုးယူသည်",
       "meaningMy": "ခိုးယူသည်",
-      "myanmar": "ခိုးယူသည်"
+      "myanmar": "ခိုးယူသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l11.v006",
@@ -189,7 +199,9 @@
       },
       "meaningMyanmar": "ဖိတ်ခေါ်သည်/ခေါ်ဆောင်သည်",
       "meaningMy": "ဖိတ်ခေါ်သည်/ခေါ်ဆောင်သည်",
-      "myanmar": "ဖိတ်ခေါ်သည်/ခေါ်ဆောင်သည်"
+      "myanmar": "ဖိတ်ခေါ်သည်/ခေါ်ဆောင်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l11.v007",
@@ -217,7 +229,9 @@
       },
       "meaningMyanmar": "သတိပေးသည်/သတိထားသည်",
       "meaningMy": "သတိပေးသည်/သတိထားသည်",
-      "myanmar": "သတိပေးသည်/သတိထားသည်"
+      "myanmar": "သတိပေးသည်/သတိထားသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l11.v008",
@@ -245,7 +259,9 @@
       },
       "meaningMyanmar": "ဖျက်ဆီးသည်/ချိုးဖျက်သည်",
       "meaningMy": "ဖျက်ဆီးသည်/ချိုးဖျက်သည်",
-      "myanmar": "ဖျက်ဆီးသည်/ချိုးဖျက်သည်"
+      "myanmar": "ဖျက်ဆီးသည်/ချိုးဖျက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l11.v009",
@@ -273,7 +289,9 @@
       },
       "meaningMyanmar": "ပေရေညစ်ပတ်စေသည်",
       "meaningMy": "ပေရေညစ်ပတ်စေသည်",
-      "myanmar": "ပေရေညစ်ပတ်စေသည်"
+      "myanmar": "ပေရေညစ်ပတ်စေသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l11.v010",
@@ -301,7 +319,9 @@
       },
       "meaningMyanmar": "ရှာဖွေတွေ့ရှိသည်",
       "meaningMy": "ရှာဖွေတွေ့ရှိသည်",
-      "myanmar": "ရှာဖွေတွေ့ရှိသည်"
+      "myanmar": "ရှာဖွေတွေ့ရှိသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l11.v011",
@@ -329,7 +349,9 @@
       },
       "meaningMyanmar": "ပြပွဲ",
       "meaningMy": "ပြပွဲ",
-      "myanmar": "ပြပွဲ"
+      "myanmar": "ပြပွဲ",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
     },
     {
       "id": "n4.l11.v012",
@@ -357,7 +379,9 @@
       },
       "meaningMyanmar": "လူပြည့်ကျပ်နေသောရထား",
       "meaningMy": "လူပြည့်ကျပ်နေသောရထား",
-      "myanmar": "လူပြည့်ကျပ်နေသောရထား"
+      "myanmar": "လူပြည့်ကျပ်နေသောရထား",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
     }
   ],
   "kanjis": [

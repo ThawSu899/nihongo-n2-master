@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "သည်းခံသည်/အောင့်အည်းသည်",
       "meaningMy": "သည်းခံသည်/အောင့်အည်းသည်",
-      "myanmar": "သည်းခံသည်/အောင့်အည်းသည်"
+      "myanmar": "သည်းခံသည်/အောင့်အည်းသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l13.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "ပင်ပန်းဆင်းရဲခြင်း/ဒုက္ခ",
       "meaningMy": "ပင်ပန်းဆင်းရဲခြင်း/ဒုက္ခ",
-      "myanmar": "ပင်ပန်းဆင်းရဲခြင်း/ဒုက္ခ"
+      "myanmar": "ပင်ပန်းဆင်းရဲခြင်း/ဒုက္ခ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l13.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "မနှစ်မြို့ဖွယ်/မကြိုက်သော",
       "meaningMy": "မနှစ်မြို့ဖွယ်/မကြိုက်သော",
-      "myanmar": "မနှစ်မြို့ဖွယ်/မကြိုက်သော"
+      "myanmar": "မနှစ်မြို့ဖွယ်/မကြိုက်သော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l13.v004",
@@ -131,7 +137,9 @@
       },
       "meaningMyanmar": "စည်းမျဉ်း/စည်းကမ်း",
       "meaningMy": "စည်းမျဉ်း/စည်းကမ်း",
-      "myanmar": "စည်းမျဉ်း/စည်းကမ်း"
+      "myanmar": "စည်းမျဉ်း/စည်းကမ်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l13.v005",
@@ -161,7 +169,9 @@
       },
       "meaningMyanmar": "အားနည်းသော/မကျွမ်းကျင်သော",
       "meaningMy": "အားနည်းသော/မကျွမ်းကျင်သော",
-      "myanmar": "အားနည်းသော/မကျွမ်းကျင်သော"
+      "myanmar": "အားနည်းသော/မကျွမ်းကျင်သော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l13.v006",
@@ -189,7 +199,9 @@
       },
       "meaningMyanmar": "အချိန်ပိုဆင်းခြင်း (OT)",
       "meaningMy": "အချိန်ပိုဆင်းခြင်း (OT)",
-      "myanmar": "အချိန်ပိုဆင်းခြင်း (OT)"
+      "myanmar": "အချိန်ပိုဆင်းခြင်း (OT)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l13.v007",
@@ -217,7 +229,9 @@
       },
       "meaningMyanmar": "အမိန့်",
       "meaningMy": "အမိန့်",
-      "myanmar": "အမိန့်"
+      "myanmar": "အမိန့်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n4.l13.v008",
@@ -245,7 +259,9 @@
       },
       "meaningMyanmar": "တောင်းပန်သည်",
       "meaningMy": "တောင်းပန်သည်",
-      "myanmar": "တောင်းပန်သည်"
+      "myanmar": "တောင်းပန်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l13.v009",
@@ -273,7 +289,9 @@
       },
       "meaningMyanmar": "အဖော်လိုက်ပေးသည်/တွဲခေါ်သည်",
       "meaningMy": "အဖော်လိုက်ပေးသည်/တွဲခေါ်သည်",
-      "myanmar": "အဖော်လိုက်ပေးသည်/တွဲခေါ်သည်"
+      "myanmar": "အဖော်လိုက်ပေးသည်/တွဲခေါ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l13.v010",
@@ -301,7 +319,9 @@
       },
       "meaningMyanmar": "သဘောပေါက်နားလည်လက်ခံသည်",
       "meaningMy": "သဘောပေါက်နားလည်လက်ခံသည်",
-      "myanmar": "သဘောပေါက်နားလည်လက်ခံသည်"
+      "myanmar": "သဘောပေါက်နားလည်လက်ခံသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l13.v011",
@@ -329,7 +349,9 @@
       },
       "meaningMyanmar": "တန်းစီခြင်း/တန်းစီဇယား",
       "meaningMy": "တန်းစီခြင်း/တန်းစီဇယား",
-      "myanmar": "တန်းစီခြင်း/တန်းစီဇယား"
+      "myanmar": "တန်းစီခြင်း/တန်းစီဇယား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l13.v012",
@@ -357,7 +379,9 @@
       },
       "meaningMyanmar": "အကြောင်းပြချက်",
       "meaningMy": "အကြောင်းပြချက်",
-      "myanmar": "အကြောင်းပြချက်"
+      "myanmar": "အကြောင်းပြချက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

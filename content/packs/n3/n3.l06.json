@@ -44,7 +44,9 @@
       },
       "meaningMyanmar": "ရွေးချယ်မှု",
       "meaningMy": "ရွေးချယ်မှု",
-      "myanmar": "ရွေးချယ်မှု"
+      "myanmar": "ရွေးချယ်မှု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l06.v002",
@@ -74,7 +76,9 @@
       },
       "meaningMyanmar": "နေ့စဉ်ပုံမှန်ဘဝ",
       "meaningMy": "နေ့စဉ်ပုံမှန်ဘဝ",
-      "myanmar": "နေ့စဉ်ပုံမှန်ဘဝ"
+      "myanmar": "နေ့စဉ်ပုံမှန်ဘဝ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l06.v003",
@@ -104,7 +108,9 @@
       },
       "meaningMyanmar": "သီးသန့်ထူးခြားသော/တစ်မူထူးခြားသော",
       "meaningMy": "သီးသန့်ထူးခြားသော/တစ်မူထူးခြားသော",
-      "myanmar": "သီးသန့်ထူးခြားသော/တစ်မူထူးခြားသော"
+      "myanmar": "သီးသန့်ထူးခြားသော/တစ်မူထူးခြားသော",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l06.v004",
@@ -132,7 +138,9 @@
       },
       "meaningMyanmar": "ဇိမ်ခံမှု/ဖြုန်းတီးမှု",
       "meaningMy": "ဇိမ်ခံမှု/ဖြုန်းတီးမှု",
-      "myanmar": "ဇိမ်ခံမှု/ဖြုန်းတီးမှု"
+      "myanmar": "ဇိမ်ခံမှု/ဖြုန်းတီးမှု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l06.v005",
@@ -160,7 +168,9 @@
       },
       "meaningMyanmar": "မကျေနပ်ချက်/အပြစ်တင်စကား",
       "meaningMy": "မကျေနပ်ချက်/အပြစ်တင်စကား",
-      "myanmar": "မကျေနပ်ချက်/အပြစ်တင်စကား"
+      "myanmar": "မကျေနပ်ချက်/အပြစ်တင်စကား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l06.v006",
@@ -188,7 +198,9 @@
       },
       "meaningMyanmar": "ဘက်လိုက်သည်/တစ်ဖက်စောင်းနင်းဖြစ်သည်",
       "meaningMy": "ဘက်လိုက်သည်/တစ်ဖက်စောင်းနင်းဖြစ်သည်",
-      "myanmar": "ဘက်လိုက်သည်/တစ်ဖက်စောင်းနင်းဖြစ်သည်"
+      "myanmar": "ဘက်လိုက်သည်/တစ်ဖက်စောင်းနင်းဖြစ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l06.v007",
@@ -216,7 +228,9 @@
       },
       "meaningMyanmar": "သည်းခံခြင်း/အောင့်အည်းခြင်း",
       "meaningMy": "သည်းခံခြင်း/အောင့်အည်းခြင်း",
-      "myanmar": "သည်းခံခြင်း/အောင့်အည်းခြင်း"
+      "myanmar": "သည်းခံခြင်း/အောင့်အည်းခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l06.v008",
@@ -244,7 +258,9 @@
       },
       "meaningMyanmar": "အာဟာရ",
       "meaningMy": "အာဟာရ",
-      "myanmar": "အာဟာရ"
+      "myanmar": "အာဟာရ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l06.v009",
@@ -272,7 +288,9 @@
       },
       "meaningMyanmar": "အိပ်စက်ခြင်း",
       "meaningMy": "အိပ်စက်ခြင်း",
-      "myanmar": "အိပ်စက်ခြင်း"
+      "myanmar": "အိပ်စက်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l06.v010",
@@ -300,7 +318,9 @@
       },
       "meaningMyanmar": "ရေချိုးကန်/ရေချိုးခြင်း",
       "meaningMy": "ရေချိုးကန်/ရေချိုးခြင်း",
-      "myanmar": "ရေချိုးကန်/ရေချိုးခြင်း"
+      "myanmar": "ရေချိုးကန်/ရေချိုးခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l06.v011",
@@ -328,7 +348,9 @@
       },
       "meaningMyanmar": "မောပန်းနွမ်းနယ်မှု",
       "meaningMy": "မောပန်းနွမ်းနယ်မှု",
-      "myanmar": "မောပန်းနွမ်းနယ်မှု"
+      "myanmar": "မောပန်းနွမ်းနယ်မှု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l06.v012",
@@ -356,7 +378,9 @@
       },
       "meaningMyanmar": "ပြန်လည်ကောင်းမွန်လာခြင်း",
       "meaningMy": "ပြန်လည်ကောင်းမွန်လာခြင်း",
-      "myanmar": "ပြန်လည်ကောင်းမွန်လာခြင်း"
+      "myanmar": "ပြန်လည်ကောင်းမွန်လာခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

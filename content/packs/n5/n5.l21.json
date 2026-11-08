@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "တင်းနစ်",
       "meaningMy": "တင်းနစ်",
-      "myanmar": "တင်းနစ်"
+      "myanmar": "တင်းနစ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l21.v002",
@@ -69,7 +71,9 @@
       },
       "meaningMyanmar": "ဂစ်တာ",
       "meaningMy": "ဂစ်တာ",
-      "myanmar": "ဂစ်တာ"
+      "myanmar": "ဂစ်တာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l21.v003",
@@ -97,7 +101,9 @@
       },
       "meaningMyanmar": "ဂိမ်း",
       "meaningMy": "ဂိမ်း",
-      "myanmar": "ဂိမ်း"
+      "myanmar": "ဂိမ်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l21.v004",
@@ -125,7 +131,9 @@
       },
       "meaningMyanmar": "ရေကူးကန်",
       "meaningMy": "ရေကူးကန်",
-      "myanmar": "ရေကူးကန်"
+      "myanmar": "ရေကူးကန်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l21.v005",
@@ -155,7 +163,9 @@
       },
       "meaningMyanmar": "အေးလာသည်",
       "meaningMy": "အေးလာသည်",
-      "myanmar": "အေးလာသည်"
+      "myanmar": "အေးလာသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l21.v006",
@@ -185,7 +195,9 @@
       },
       "meaningMyanmar": "နွေးထွေးလာသည်",
       "meaningMy": "နွေးထွေးလာသည်",
-      "myanmar": "နွေးထွေးလာသည်"
+      "myanmar": "နွေးထွေးလာသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l21.v007",
@@ -213,7 +225,9 @@
       },
       "meaningMyanmar": "ကျန်းမာလာသည် / နေကောင်းလာသည်",
       "meaningMy": "ကျန်းမာလာသည် / နေကောင်းလာသည်",
-      "myanmar": "ကျန်းမာလာသည် / နေကောင်းလာသည်"
+      "myanmar": "ကျန်းမာလာသည် / နေကောင်းလာသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l21.v008",
@@ -241,7 +255,9 @@
       },
       "meaningMyanmar": "တော်လာသည် / ကျွမ်းကျင်လာသည်",
       "meaningMy": "တော်လာသည် / ကျွမ်းကျင်လာသည်",
-      "myanmar": "တော်လာသည် / ကျွမ်းကျင်လာသည်"
+      "myanmar": "တော်လာသည် / ကျွမ်းကျင်လာသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l21.v009",
@@ -269,7 +285,9 @@
       },
       "meaningMyanmar": "သန့်ရှင်းရေး",
       "meaningMy": "သန့်ရှင်းရေး",
-      "myanmar": "သန့်ရှင်းရေး"
+      "myanmar": "သန့်ရှင်းရေး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l21.v010",
@@ -297,7 +315,9 @@
       },
       "meaningMyanmar": "အဝတ်လျှော်ခြင်း",
       "meaningMy": "အဝတ်လျှော်ခြင်း",
-      "myanmar": "အဝတ်လျှော်ခြင်း"
+      "myanmar": "အဝတ်လျှော်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l21.v011",
@@ -325,7 +345,9 @@
       },
       "meaningMyanmar": "လမ်းလျှောက်ခြင်း",
       "meaningMy": "လမ်းလျှောက်ခြင်း",
-      "myanmar": "လမ်းလျှောက်ခြင်း"
+      "myanmar": "လမ်းလျှောက်ခြင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l21.v012",
@@ -353,7 +375,9 @@
       },
       "meaningMyanmar": "အေးမြသော (ရာသီဥတု)",
       "meaningMy": "အေးမြသော (ရာသီဥတု)",
-      "myanmar": "အေးမြသော (ရာသီဥတု)"
+      "myanmar": "အေးမြသော (ရာသီဥတု)",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     }
   ],
   "kanjis": [

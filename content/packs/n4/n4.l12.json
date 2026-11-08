@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "ငိုသည်",
       "meaningMy": "ငိုသည်",
-      "myanmar": "ငိုသည်"
+      "myanmar": "ငိုသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l12.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "ရယ်သည်/ပြုံးသည်",
       "meaningMy": "ရယ်သည်/ပြုံးသည်",
-      "myanmar": "ရယ်သည်/ပြုံးသည်"
+      "myanmar": "ရယ်သည်/ပြုံးသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l12.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "သယ်ယူပို့ဆောင်သည်",
       "meaningMy": "သယ်ယူပို့ဆောင်သည်",
-      "myanmar": "သယ်ယူပို့ဆောင်သည်"
+      "myanmar": "သယ်ယူပို့ဆောင်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l12.v004",
@@ -133,7 +139,9 @@
       },
       "meaningMyanmar": "တာဝန်",
       "meaningMy": "တာဝန်",
-      "myanmar": "တာဝန်"
+      "myanmar": "တာဝန်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l12.v005",
@@ -161,7 +169,9 @@
       },
       "meaningMyanmar": "လွတ်လပ်မှု",
       "meaningMy": "လွတ်လပ်မှု",
-      "myanmar": "လွတ်လပ်မှု"
+      "myanmar": "လွတ်လပ်မှု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l12.v006",
@@ -189,7 +199,9 @@
       },
       "meaningMyanmar": "အားနာသည်/တွန့်ဆုတ်သည်",
       "meaningMy": "အားနာသည်/တွန့်ဆုတ်သည်",
-      "myanmar": "အားနာသည်/တွန့်ဆုတ်သည်"
+      "myanmar": "အားနာသည်/တွန့်ဆုတ်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l12.v007",
@@ -217,7 +229,9 @@
       },
       "meaningMyanmar": "အတွေ့အကြုံ",
       "meaningMy": "အတွေ့အကြုံ",
-      "myanmar": "အတွေ့အကြုံ"
+      "myanmar": "အတွေ့အကြုံ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l12.v008",
@@ -245,7 +259,9 @@
       },
       "meaningMyanmar": "ပါဝင်တက်ရောက်သည်",
       "meaningMy": "ပါဝင်တက်ရောက်သည်",
-      "myanmar": "ပါဝင်တက်ရောက်သည်"
+      "myanmar": "ပါဝင်တက်ရောက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l12.v009",
@@ -273,7 +289,9 @@
       },
       "meaningMyanmar": "အနားယူခြင်း",
       "meaningMy": "အနားယူခြင်း",
-      "myanmar": "အနားယူခြင်း"
+      "myanmar": "အနားယူခြင်း",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n4.l12.v010",
@@ -301,7 +319,9 @@
       },
       "meaningMyanmar": "တာဝန်ယူဆောင်ရွက်သည်",
       "meaningMy": "တာဝန်ယူဆောင်ရွက်သည်",
-      "myanmar": "တာဝန်ယူဆောင်ရွက်သည်"
+      "myanmar": "တာဝန်ယူဆောင်ရွက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l12.v011",
@@ -329,7 +349,9 @@
       },
       "meaningMyanmar": "သိမ်းဆည်းသန့်ရှင်းသည်",
       "meaningMy": "သိမ်းဆည်းသန့်ရှင်းသည်",
-      "myanmar": "သိမ်းဆည်းသန့်ရှင်းသည်"
+      "myanmar": "သိမ်းဆည်းသန့်ရှင်းသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l12.v012",
@@ -357,7 +379,9 @@
       },
       "meaningMyanmar": "တင်ပြကြေညာသည်",
       "meaningMy": "တင်ပြကြေညာသည်",
-      "myanmar": "တင်ပြကြေညာသည်"
+      "myanmar": "တင်ပြကြေညာသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

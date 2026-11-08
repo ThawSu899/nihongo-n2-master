@@ -43,7 +43,9 @@
       },
       "meaningMyanmar": "တစ်ခု",
       "meaningMy": "တစ်ခု",
-      "myanmar": "တစ်ခု"
+      "myanmar": "တစ်ခု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l11.v002",
@@ -73,7 +75,9 @@
       },
       "meaningMyanmar": "နှစ်ခု",
       "meaningMy": "နှစ်ခု",
-      "myanmar": "နှစ်ခု"
+      "myanmar": "နှစ်ခု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l11.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "သုံးခု",
       "meaningMy": "သုံးခု",
-      "myanmar": "သုံးခု"
+      "myanmar": "သုံးခု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l11.v004",
@@ -133,7 +139,9 @@
       },
       "meaningMyanmar": "တစ်ယောက်",
       "meaningMy": "တစ်ယောက်",
-      "myanmar": "တစ်ယောက်"
+      "myanmar": "တစ်ယောက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l11.v005",
@@ -163,7 +171,9 @@
       },
       "meaningMyanmar": "နှစ်ယောက်",
       "meaningMy": "နှစ်ယောက်",
-      "myanmar": "နှစ်ယောက်"
+      "myanmar": "နှစ်ယောက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l11.v006",
@@ -191,7 +201,9 @@
       },
       "meaningMyanmar": "ပန်းသီး",
       "meaningMy": "ပန်းသီး",
-      "myanmar": "ပန်းသီး"
+      "myanmar": "ပန်းသီး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l11.v007",
@@ -219,7 +231,9 @@
       },
       "meaningMyanmar": "လိမ္မော်သီး",
       "meaningMy": "လိမ္မော်သီး",
-      "myanmar": "လိမ္မော်သီး"
+      "myanmar": "လိမ္မော်သီး",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n5.l11.v008",
@@ -247,7 +261,9 @@
       },
       "meaningMyanmar": "တံဆိပ်ခေါင်း",
       "meaningMy": "တံဆိပ်ခေါင်း",
-      "myanmar": "တံဆိပ်ခေါင်း"
+      "myanmar": "တံဆိပ်ခေါင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l11.v009",
@@ -275,7 +291,9 @@
       },
       "meaningMyanmar": "ပို့စကတ်",
       "meaningMy": "ပို့စကတ်",
-      "myanmar": "ပို့စကတ်"
+      "myanmar": "ပို့စကတ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l11.v010",
@@ -303,7 +321,9 @@
       },
       "meaningMyanmar": "ဘယ်လောက်ကြာကြာ / ဘယ်လောက်လဲ",
       "meaningMy": "ဘယ်လောက်ကြာကြာ / ဘယ်လောက်လဲ",
-      "myanmar": "ဘယ်လောက်ကြာကြာ / ဘယ်လောက်လဲ"
+      "myanmar": "ဘယ်လောက်ကြာကြာ / ဘယ်လောက်လဲ",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l11.v011",
@@ -331,7 +351,9 @@
       },
       "meaningMyanmar": "အားလုံးပေါင်း",
       "meaningMy": "အားလုံးပေါင်း",
-      "myanmar": "အားလုံးပေါင်း"
+      "myanmar": "အားလုံးပေါင်း",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l11.v012",
@@ -359,7 +381,9 @@
       },
       "meaningMyanmar": "နာရီ (ကြာချိန်)",
       "meaningMy": "နာရီ (ကြာချိန်)",
-      "myanmar": "နာရီ (ကြာချိန်)"
+      "myanmar": "နာရီ (ကြာချိန်)",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     }
   ],
   "kanjis": [

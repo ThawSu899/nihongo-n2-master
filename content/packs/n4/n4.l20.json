@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "စာရေးသူ",
       "meaningMy": "စာရေးသူ",
-      "myanmar": "စာရေးသူ"
+      "myanmar": "စာရေးသူ",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l20.v002",
@@ -72,7 +74,9 @@
       },
       "meaningMyanmar": "စာပိုဒ်",
       "meaningMy": "စာပိုဒ်",
-      "myanmar": "စာပိုဒ်"
+      "myanmar": "စာပိုဒ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l20.v003",
@@ -103,7 +107,9 @@
       },
       "meaningMyanmar": "နိဂုံး/ကောက်ချက်",
       "meaningMy": "နိဂုံး/ကောက်ချက်",
-      "myanmar": "နိဂုံး/ကောက်ချက်"
+      "myanmar": "နိဂုံး/ကောက်ချက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l20.v004",
@@ -131,7 +137,9 @@
       },
       "meaningMyanmar": "အဓိကအချက်",
       "meaningMy": "အဓိကအချက်",
-      "myanmar": "အဓိကအချက်"
+      "myanmar": "အဓိကအချက်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l20.v005",
@@ -159,7 +167,9 @@
       },
       "meaningMyanmar": "အကြောင်းအရာ/ပါဝင်မှု",
       "meaningMy": "အကြောင်းအရာ/ပါဝင်မှု",
-      "myanmar": "အကြောင်းအရာ/ပါဝင်မှု"
+      "myanmar": "အကြောင်းအရာ/ပါဝင်မှု",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l20.v006",
@@ -187,7 +197,9 @@
       },
       "meaningMyanmar": "ဖော်ပြပြောဆိုသည်",
       "meaningMy": "ဖော်ပြပြောဆိုသည်",
-      "myanmar": "ဖော်ပြပြောဆိုသည်"
+      "myanmar": "ဖော်ပြပြောဆိုသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l20.v007",
@@ -215,7 +227,9 @@
       },
       "meaningMyanmar": "သဘောတူထောက်ခံသည်",
       "meaningMy": "သဘောတူထောက်ခံသည်",
-      "myanmar": "သဘောတူထောက်ခံသည်"
+      "myanmar": "သဘောတူထောက်ခံသည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l20.v008",
@@ -243,7 +257,9 @@
       },
       "meaningMyanmar": "ဆန့်ကျင်ကန့်ကွက်သည်",
       "meaningMy": "ဆန့်ကျင်ကန့်ကွက်သည်",
-      "myanmar": "ဆန့်ကျင်ကန့်ကွက်သည်"
+      "myanmar": "ဆန့်ကျင်ကန့်ကွက်သည်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l20.v009",
@@ -271,7 +287,9 @@
       },
       "meaningMyanmar": "စကားစပ်",
       "meaningMy": "စကားစပ်",
-      "myanmar": "စကားစပ်"
+      "myanmar": "စကားစပ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l20.v010",
@@ -299,7 +317,9 @@
       },
       "meaningMyanmar": "ညွှန်းပြစကားလုံး",
       "meaningMy": "ညွှန်းပြစကားလုံး",
-      "myanmar": "ညွှန်းပြစကားလုံး"
+      "myanmar": "ညွှန်းပြစကားလုံး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l20.v011",
@@ -327,7 +347,9 @@
       },
       "meaningMyanmar": "အီလက်ထရွန်းနစ်စာအုပ် (e-book)",
       "meaningMy": "အီလက်ထရွန်းနစ်စာအုပ် (e-book)",
-      "myanmar": "အီလက်ထရွန်းနစ်စာအုပ် (e-book)"
+      "myanmar": "အီလက်ထရွန်းနစ်စာအုပ် (e-book)",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n4.l20.v012",
@@ -355,7 +377,9 @@
       },
       "meaningMyanmar": "စက္ကူပုံနှိပ်စာအုပ်",
       "meaningMy": "စက္ကူပုံနှိပ်စာအုပ်",
-      "myanmar": "စက္ကူပုံနှိပ်စာအုပ်"
+      "myanmar": "စက္ကူပုံနှိပ်စာအုပ်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [

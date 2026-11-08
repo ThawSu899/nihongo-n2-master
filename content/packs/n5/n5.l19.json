@@ -41,7 +41,9 @@
       },
       "meaningMyanmar": "တီးခတ်သည် (စန္ဒရား/ဂစ်တာ)",
       "meaningMy": "တီးခတ်သည် (စန္ဒရား/ဂစ်တာ)",
-      "myanmar": "တီးခတ်သည် (စန္ဒရား/ဂစ်တာ)"
+      "myanmar": "တီးခတ်သည် (စန္ဒရား/ဂစ်တာ)",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l19.v002",
@@ -69,7 +71,9 @@
       },
       "meaningMyanmar": "သီဆိုသည်",
       "meaningMy": "သီဆိုသည်",
-      "myanmar": "သီဆိုသည်"
+      "myanmar": "သီဆိုသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l19.v003",
@@ -97,7 +101,9 @@
       },
       "meaningMyanmar": "စုဆောင်းသည်",
       "meaningMy": "စုဆောင်းသည်",
-      "myanmar": "စုဆောင်းသည်"
+      "myanmar": "စုဆောင်းသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n5.l19.v004",
@@ -125,7 +131,9 @@
       },
       "meaningMyanmar": "စွန့်ပစ်သည်",
       "meaningMy": "စွန့်ပစ်သည်",
-      "myanmar": "စွန့်ပစ်သည်"
+      "myanmar": "စွန့်ပစ်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l19.v005",
@@ -153,7 +161,9 @@
       },
       "meaningMyanmar": "လဲလှယ်သည်",
       "meaningMy": "လဲလှယ်သည်",
-      "myanmar": "လဲလှယ်သည်"
+      "myanmar": "လဲလှယ်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n5.l19.v006",
@@ -181,7 +191,9 @@
       },
       "meaningMyanmar": "မောင်းနှင်သည်",
       "meaningMy": "မောင်းနှင်သည်",
-      "myanmar": "မောင်းနှင်သည်"
+      "myanmar": "မောင်းနှင်သည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 6
     },
     {
       "id": "n5.l19.v007",
@@ -209,7 +221,9 @@
       },
       "meaningMyanmar": "ကြိုတင်စာရင်းသွင်းသည်",
       "meaningMy": "ကြိုတင်စာရင်းသွင်းသည်",
-      "myanmar": "ကြိုတင်စာရင်းသွင်းသည်"
+      "myanmar": "ကြိုတင်စာရင်းသွင်းသည်",
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
     },
     {
       "id": "n5.l19.v008",
@@ -237,7 +251,9 @@
       },
       "meaningMyanmar": "စန္ဒရား",
       "meaningMy": "စန္ဒရား",
-      "myanmar": "စန္ဒရား"
+      "myanmar": "စန္ဒရား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l19.v009",
@@ -267,7 +283,9 @@
       },
       "meaningMyanmar": "ခန်ဂျီ စာလုံး",
       "meaningMy": "ခန်ဂျီ စာလုံး",
-      "myanmar": "ခန်ဂျီ စာလုံး"
+      "myanmar": "ခန်ဂျီ စာလုံး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l19.v010",
@@ -295,7 +313,9 @@
       },
       "meaningMyanmar": "နိုင်ငံတကာ",
       "meaningMy": "နိုင်ငံတကာ",
-      "myanmar": "နိုင်ငံတကာ"
+      "myanmar": "နိုင်ငံတကာ",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l19.v011",
@@ -323,7 +343,9 @@
       },
       "meaningMyanmar": "လက်ငင်းငွေသား",
       "meaningMy": "လက်ငင်းငွေသား",
-      "myanmar": "လက်ငင်းငွေသား"
+      "myanmar": "လက်ငင်းငွေသား",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l19.v012",
@@ -351,7 +373,9 @@
       },
       "meaningMyanmar": "အထူးသဖြင့်",
       "meaningMy": "အထူးသဖြင့်",
-      "myanmar": "အထူးသဖြင့်"
+      "myanmar": "အထူးသဖြင့်",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [
