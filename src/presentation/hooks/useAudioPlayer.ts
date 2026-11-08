@@ -1,5 +1,11 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { AudioRef } from '../../domain/models/types';
+import {
+  sanitizePhoneticText,
+  selectOptimalJapaneseVoice,
+  getPhoneticUtteranceText,
+  VocabularyAudioItem,
+} from '../../domain/audio/tts-engine';
 
 export interface SpeakerAcoustics {
   pitch: number;
@@ -219,37 +225,16 @@ export function useAudioPlayer() {
 
   const selectBestVoice = useCallback(
     (genderPreference: 'male' | 'female' | 'neutral'): SpeechSynthesisVoice | undefined => {
-      const allVoices = voicesRef.current.length > 0 ? voicesRef.current : (typeof window !== 'undefined' && 'speechSynthesis' in window ? window.speechSynthesis.getVoices() : []);
-      const jaVoices = allVoices.filter(
-        (v) =>
-          v.lang.toLowerCase().startsWith('ja') ||
-          v.lang.toLowerCase().replace('_', '-').startsWith('ja-jp') ||
-          /japanese|nihongo/i.test(v.name)
-      );
-
-      if (jaVoices.length === 0) return undefined;
-      if (jaVoices.length === 1 || genderPreference === 'neutral') return jaVoices[0];
-
-      // Try matching preferred gender in voice name if multiple Japanese voices exist
-      if (genderPreference === 'female') {
-        const femaleVoice = jaVoices.find((v) =>
-          /female|woman|girl|kyoko|haruka|ayumi|sayaka|nanami|otoya/i.test(v.name)
-        );
-        if (femaleVoice) return femaleVoice;
-      } else if (genderPreference === 'male') {
-        const maleVoice = jaVoices.find((v) =>
-          /male|man|boy|kenji|keita|daichi|naoki|ichiro|takumi/i.test(v.name)
-        );
-        if (maleVoice) return maleVoice;
-      }
-
-      return jaVoices[0];
+      const allVoices = voicesRef.current.length > 0
+        ? voicesRef.current
+        : (typeof window !== 'undefined' && 'speechSynthesis' in window ? window.speechSynthesis.getVoices() : []);
+      return selectOptimalJapaneseVoice(allVoices, genderPreference);
     },
     []
   );
 
   const speakTts = useCallback(
-    (text: string, speaker?: string) => {
+    (text: string, speaker?: string, phoneticReading?: string) => {
       if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
         setIsPlaying(false);
         setCurrentPlayingText(null);
@@ -258,12 +243,19 @@ export function useAudioPlayer() {
       }
 
       try {
+        // Cancel prior speech cleanly
+        window.speechSynthesis.cancel();
+
         // Resume in case speech synthesis was paused by the browser engine
         if (window.speechSynthesis.paused) {
           window.speechSynthesis.resume();
         }
 
-        const utterance = new SpeechSynthesisUtterance(text);
+        const utteranceText = phoneticReading
+          ? sanitizePhoneticText(phoneticReading)
+          : sanitizePhoneticText(text);
+
+        const utterance = new SpeechSynthesisUtterance(utteranceText || text);
         utterance.lang = 'ja-JP';
 
         const acoustics = resolveSpeakerAcoustics(speaker);
@@ -399,12 +391,12 @@ export function useAudioPlayer() {
   );
 
   const play = useCallback(
-    (text: string, audioRef?: AudioRef, speaker?: string) => {
+    (text: string, audioRef?: AudioRef, speaker?: string, phoneticReading?: string) => {
       if (typeof window === 'undefined') return;
 
       // Extract spoken Japanese text accurately if embedded in prompts or quotes
       const spokenText = cleanJapanesePrompt(text);
-      if (!spokenText) return;
+      if (!spokenText && !phoneticReading) return;
 
       // Update replay count for the requested item
       setReplayCount((prev) => ({
@@ -440,7 +432,7 @@ export function useAudioPlayer() {
 
           elem.onerror = () => {
             // Smoothly degrade to Japanese TTS on file missing / 404 / format error
-            speakTts(spokenText, speaker || audioRef.speaker);
+            speakTts(spokenText, speaker || audioRef.speaker, phoneticReading);
           };
 
           setIsPlaying(true);
@@ -449,12 +441,12 @@ export function useAudioPlayer() {
 
           elem.play().catch(() => {
             // Audio element play failed (e.g. autoplay policy or unreachable URL) -> degrade to TTS
-            speakTts(spokenText, speaker || audioRef.speaker);
+            speakTts(spokenText, speaker || audioRef.speaker, phoneticReading);
           });
           return;
         } catch {
           // Degradation path
-          speakTts(spokenText, speaker || audioRef.speaker);
+          speakTts(spokenText, speaker || audioRef.speaker, phoneticReading);
           return;
         }
       }
@@ -466,10 +458,22 @@ export function useAudioPlayer() {
         return;
       }
 
-      // Default or TTS kind
-      speakTts(spokenText, speaker || audioRef?.speaker);
+      // Default or TTS kind - pass verified phonetic reading if provided
+      speakTts(spokenText, speaker || audioRef?.speaker, phoneticReading);
     },
     [playbackRate, speakTts, playDialogue]
+  );
+
+  const playVocabulary = useCallback(
+    (
+      vocab: { ja?: string; word?: string; kana?: string; reading?: string; audio?: AudioRef },
+      speaker?: string
+    ) => {
+      const promptText = vocab.ja || vocab.word || '';
+      const readingText = vocab.kana || vocab.reading || '';
+      play(promptText || readingText, vocab.audio, speaker, readingText);
+    },
+    [play]
   );
 
   const setShadowingTurnDelay = useCallback((delayMs: number) => {
@@ -603,6 +607,7 @@ export function useAudioPlayer() {
 
   return {
     play,
+    playVocabulary,
     playDialogue,
     stop,
     isPlaying,

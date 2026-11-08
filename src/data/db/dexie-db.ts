@@ -12,6 +12,8 @@ import {
   GhostCardRecord,
   CramDrillRecord,
 } from '../../domain/models/types';
+import { QuarantinedCard } from '../../domain/fsrs/quarantine-types';
+import { QuarantineEngine, DrillProcessResult } from '../../domain/fsrs/quarantine-engine';
 
 export interface StudySessionRecord {
   id: string;
@@ -47,11 +49,12 @@ export class NihongoMasterDB extends Dexie {
   remediations!: Table<RemediationPlan, string>;
   ghost_cards!: Table<GhostCardRecord, string>;
   cram_drills!: Table<CramDrillRecord, string>;
+  quarantined_cards!: Table<QuarantinedCard, string>;
 
   constructor() {
     super('NihongoN2MasterDB');
 
-    // Schema versioning: preserves existing tables and adds Kana, Assessments, Remediation, Ghost Cards, Cram Drills
+    // Schema versioning: preserves existing tables and adds Kana, Assessments, Remediation, Ghost Cards, Cram Drills, Quarantined Cards
     this.version(1).stores({
       study_events: 'id, timestamp, type, lessonId',
       srs_cards: 'id, itemId, lessonId, facet, state, due, lapses, isLeech',
@@ -76,6 +79,47 @@ export class NihongoMasterDB extends Dexie {
     this.version(4).stores({
       cram_drills: 'id, category, level, startedAt, completedAt',
     });
+
+    this.version(5).stores({
+      quarantined_cards: 'id, itemType, jlptLevel, quarantineReason, isGraduated, quarantinedAt',
+    });
+  }
+
+  async getActiveQuarantinedCards(level?: 'N5' | 'N4' | 'N3' | 'N2'): Promise<QuarantinedCard[]> {
+    let collection = this.quarantined_cards.filter((c) => !c.isGraduated);
+    if (level) {
+      collection = collection.filter((c) => c.jlptLevel === level);
+    }
+    return collection.toArray();
+  }
+
+  async getAllQuarantinedCards(): Promise<QuarantinedCard[]> {
+    return this.quarantined_cards.toArray();
+  }
+
+  async upsertQuarantinedCard(card: QuarantinedCard): Promise<void> {
+    await this.quarantined_cards.put(card);
+  }
+
+  async graduateQuarantinedCard(id: string, boostedStability?: number): Promise<void> {
+    const card = await this.quarantined_cards.get(id);
+    if (card) {
+      await this.quarantined_cards.update(id, {
+        isGraduated: true,
+        currentStability: boostedStability ?? Math.max(card.currentStability * 2.2, 3.5),
+      });
+    }
+  }
+
+  async processQuarantineDrillAttempt(
+    id: string,
+    isCorrect: boolean
+  ): Promise<DrillProcessResult | null> {
+    const card = await this.quarantined_cards.get(id);
+    if (!card) return null;
+    const result = QuarantineEngine.processDrillResult(card, isCorrect);
+    await this.quarantined_cards.put(result.updatedCard);
+    return result;
   }
 }
 

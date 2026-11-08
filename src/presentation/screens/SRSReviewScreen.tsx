@@ -202,11 +202,13 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
       PLAY_AUDIO: () => {
         const currentCard = cards[currentIndex];
         if (currentCard) {
-          const isCurrentPlaying = isPlaying && currentPlayingText === currentCard.prompt;
+          const isCurrentPlaying =
+            isPlaying &&
+            (currentPlayingText === currentCard.prompt || currentPlayingText === currentCard.reading);
           if (isCurrentPlaying) {
             stop();
           } else {
-            play(currentCard.prompt, currentCard.audio);
+            play(currentCard.prompt, currentCard.audio, undefined, currentCard.reading);
           }
         }
       },
@@ -636,19 +638,27 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                 whileTap={{ scale: 0.94 }}
                 onClick={(e) => {
                   e.stopPropagation();
-                  const isCurrentPlaying = isPlaying && currentPlayingText === currentCard.prompt;
+                  const isCurrentPlaying =
+                    isPlaying &&
+                    (currentPlayingText === currentCard.prompt || currentPlayingText === currentCard.reading);
                   if (isCurrentPlaying) {
                     stop();
                   } else {
-                    play(currentCard.prompt, currentCard.audio);
+                    play(currentCard.prompt, currentCard.audio, undefined, currentCard.reading);
                   }
                 }}
                 className={`p-3 rounded-full ${
-                  isPlaying && currentPlayingText === currentCard.prompt
+                  isPlaying &&
+                  (currentPlayingText === currentCard.prompt || currentPlayingText === currentCard.reading)
                     ? 'bg-rose-600 text-white ring-4 ring-rose-500/40 shadow-[0_0_16px_rgba(244,63,94,0.5)] animate-pulse'
                     : 'bg-zinc-800 hover:bg-zinc-700 text-zinc-200'
                 } border border-zinc-700/80 transition-colors shadow-md cursor-pointer`}
-                title={isPlaying && currentPlayingText === currentCard.prompt ? 'Stop audio' : 'Play Japanese pronunciation'}
+                title={
+                  isPlaying &&
+                  (currentPlayingText === currentCard.prompt || currentPlayingText === currentCard.reading)
+                    ? 'Stop audio'
+                    : 'Play Japanese pronunciation'
+                }
               >
                 <Volume2 className="w-4 h-4" />
               </motion.button>

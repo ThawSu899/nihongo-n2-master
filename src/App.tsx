@@ -38,6 +38,8 @@ import { TestsScreen } from './presentation/screens/TestsScreen';
 import { ProgressScreen } from './presentation/screens/ProgressScreen';
 import { SettingsScreen } from './presentation/screens/SettingsScreen';
 import { KanaTrainerScreen } from './presentation/screens/KanaTrainerScreen';
+import { ShadowingScreen } from './presentation/screens/ShadowingScreen';
+import { QuarantineDrillScreen } from './presentation/screens/QuarantineDrillScreen';
 
 function getNextActiveLessonId(
   curriculum: CurriculumMapItem[],
@@ -488,6 +490,22 @@ export default function App() {
                 onUpdateProfile={setProfile}
                 onDataRestored={refreshAppData}
                 onOpenDiagnosticsModal={() => setIsDiagnosticsOpen(true)}
+              />
+            )}
+
+            {currentView === 'shadowing' && (
+              <ShadowingScreen
+                pack={pack}
+                onBack={() => setCurrentView('home')}
+              />
+            )}
+
+            {currentView === 'quarantine' && (
+              <QuarantineDrillScreen
+                onBack={() => {
+                  refreshAppData();
+                  setCurrentView('home');
+                }}
               />
             )}
           </motion.div>

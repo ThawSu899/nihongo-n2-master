@@ -13,6 +13,7 @@ import {
   ShieldCheck,
   BookOpen,
   Zap,
+  Mic,
 } from 'lucide-react';
 import {
   UserProfile,
@@ -464,6 +465,63 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           </p>
         </div>
       </div>
+
+      {/* =========================================================================
+          SPECIALIZED MASTERY WORKBENCHES: Shadowing & Ghost Quarantine
+          ========================================================================= */}
+      <section aria-label="Specialized Mastery Workbenches" className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {/* Shadowing Practice Workbench */}
+        <div
+          onClick={() => onNavigate('shadowing')}
+          className="bg-zinc-900/70 border border-zinc-800/80 hover:border-cyan-500/50 rounded-2xl p-5 flex items-center justify-between gap-4 cursor-pointer transition shadow-lg backdrop-blur-xl group"
+        >
+          <div className="flex items-center space-x-3.5">
+            <div className="w-11 h-11 rounded-xl bg-cyan-950/80 border border-cyan-500/40 flex items-center justify-center text-cyan-400 shrink-0 group-hover:scale-105 transition-transform">
+              <Mic className="w-5 h-5 text-cyan-400" />
+            </div>
+            <div>
+              <div className="flex items-center space-x-2">
+                <span className="text-sm font-bold text-zinc-100 group-hover:text-cyan-300 transition-colors">
+                  Shadowing Audio Workbench
+                </span>
+                <span className="px-2 py-0.5 rounded-full bg-cyan-950/80 text-cyan-300 text-[10px] font-mono border border-cyan-500/40">
+                  発音練習
+                </span>
+              </div>
+              <p className="text-xs text-zinc-400 mt-0.5 font-sans">
+                Native Japanese TTS looping, pitch accent visualization, and speaker dialogue pacing.
+              </p>
+            </div>
+          </div>
+          <ChevronRight className="w-4 h-4 text-zinc-500 group-hover:text-zinc-200 transition shrink-0" />
+        </div>
+
+        {/* Ghost Cards Quarantine */}
+        <div
+          onClick={() => onNavigate('quarantine')}
+          className="bg-zinc-900/70 border border-zinc-800/80 hover:border-rose-500/50 rounded-2xl p-5 flex items-center justify-between gap-4 cursor-pointer transition shadow-lg backdrop-blur-xl group"
+        >
+          <div className="flex items-center space-x-3.5">
+            <div className="w-11 h-11 rounded-xl bg-rose-950/80 border border-rose-500/40 flex items-center justify-center text-rose-400 shrink-0 group-hover:scale-105 transition-transform">
+              <Flame className="w-5 h-5 text-rose-400" />
+            </div>
+            <div>
+              <div className="flex items-center space-x-2">
+                <span className="text-sm font-bold text-zinc-100 group-hover:text-rose-300 transition-colors">
+                  Ghost Card Quarantine
+                </span>
+                <span className="px-2 py-0.5 rounded-full bg-rose-950/80 text-rose-300 text-[10px] font-mono border border-rose-500/40">
+                  鬼カード
+                </span>
+              </div>
+              <p className="text-xs text-zinc-400 mt-0.5 font-sans">
+                High-lapse leeches quarantined with 3-in-a-row recovery drills and stability boosts.
+              </p>
+            </div>
+          </div>
+          <ChevronRight className="w-4 h-4 text-zinc-500 group-hover:text-zinc-200 transition shrink-0" />
+        </div>
+      </section>
 
       {/* Adaptive Shift Notice (if active) */}
       {Boolean(dailyPlan.weakSkills?.[0]) && (

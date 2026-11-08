@@ -29,6 +29,7 @@ import {
   UserProfile,
 } from '../../domain/models/types';
 import { FuriganaRuby } from '../components/FuriganaRuby';
+import { PitchAccentVisualizer } from '../components/PitchAccentVisualizer';
 import { useAudioPlayer, cleanJapanesePrompt, parseDialogueTranscript } from '../hooks/useAudioPlayer';
 import { checkAnswer, deriveSRSRating } from '../../domain/assessment/answer-checker';
 import { AssessmentSession, ShuffledOption } from '../../domain/assessment/shuffler';
@@ -523,10 +524,10 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
     if (currentStage === 2) {
       const v = pack.vocabularies[vocabIndex];
       if (v) {
-        if (isPlaying && currentPlayingText === v.ja) {
+        if (isPlaying && (currentPlayingText === v.ja || currentPlayingText === v.kana)) {
           stop();
         } else {
-          play(v.ja, v.audio);
+          play(v.ja, v.audio, undefined, v.kana);
         }
       }
     } else if (currentStage === 5) {
@@ -869,12 +870,29 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                       transition={{ duration: 0.2 }}
                       className="bg-stone-950 border border-stone-800 rounded-3xl p-6 sm:p-8 text-center space-y-4 shadow-inner"
                     >
-                      <div className="flex justify-center py-2">
+                      <div className="flex flex-col items-center justify-center py-2 space-y-1.5">
                         <FuriganaRuby
                           kanji={v.ja}
                           kana={v.kana}
                           showRomaji={profile.showRomaji}
                           className="text-4xl sm:text-5xl font-bold font-japanese"
+                        />
+                        {v.ja !== v.kana && (
+                          <span className="text-sm font-mono text-rose-300 font-semibold tracking-wider select-none bg-rose-950/60 px-3 py-0.5 rounded-full border border-rose-900/60">
+                            【{v.kana}】
+                          </span>
+                        )}
+                      </div>
+
+                      {/* Visual Pitch Accent Stepped Contour Curve */}
+                      <div className="flex justify-center py-1">
+                        <PitchAccentVisualizer
+                          text={v.kana || v.ja}
+                          pattern={v.pitchPattern}
+                          dropIndex={v.dropIndex}
+                          showBadge={true}
+                          showContour={true}
+                          compact={false}
                         />
                       </div>
 
@@ -883,28 +901,28 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
                           onClick={() => {
-                            if (isPlaying && currentPlayingText === v.ja) {
+                            if (isPlaying && (currentPlayingText === v.ja || currentPlayingText === v.kana)) {
                               stop();
                             } else {
-                              play(v.ja, v.audio);
+                              play(v.ja, v.audio, undefined, v.kana);
                             }
                           }}
                           className={`px-4 py-2.5 rounded-xl ${
-                            isPlaying && currentPlayingText === v.ja
+                            isPlaying && (currentPlayingText === v.ja || currentPlayingText === v.kana)
                               ? 'bg-rose-600 text-white shadow-rose-950/50 ring-2 ring-rose-500/40 animate-pulse'
                               : 'bg-rose-950/70 hover:bg-rose-900 border border-rose-800/80 text-rose-300'
                           } text-xs font-medium flex items-center space-x-2 transition shadow cursor-pointer`}
                           title="အသံနားထောင်မည် [Space / R]"
                         >
                           <Volume2 className="w-4 h-4" />
-                          <span>{isPlaying && currentPlayingText === v.ja ? 'ဖွင့်နေသည်...' : 'နားထောင်မည်'}</span>
+                          <span>{isPlaying && (currentPlayingText === v.ja || currentPlayingText === v.kana) ? 'ဖွင့်နေသည်...' : 'နားထောင်မည်'}</span>
                           <kbd className="ml-1 text-[10px] px-1.5 py-0.5 rounded bg-black/40 border border-rose-700/60 font-mono text-rose-200">
                             {getDisplayBadge('PLAY_AUDIO')}
                           </kbd>
                         </motion.button>
-                        {replayCount[v.ja] && (
+                        {(replayCount[v.ja] || replayCount[v.kana]) && (
                           <span className="text-[11px] text-stone-500 font-mono">
-                            ဖွင့်ပြီး: {replayCount[v.ja]} ကြိမ်
+                            ဖွင့်ပြီး: {replayCount[v.ja] || replayCount[v.kana]} ကြိမ်
                           </span>
                         )}
                       </div>

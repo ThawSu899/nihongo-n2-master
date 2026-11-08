@@ -16,6 +16,8 @@ import {
   X,
   ChevronRight,
   Zap,
+  Mic,
+  Flame,
 } from 'lucide-react';
 import { UserProfile } from '../../domain/models/types';
 
@@ -69,6 +71,8 @@ export const Navigation: React.FC<NavigationProps> = ({
 
   // Group 2: Mastery, Analytics & System
   const secondaryNavItems = [
+    { id: 'shadowing', label: 'Shadowing (発音)', shortLabel: 'Shadow', icon: Mic },
+    { id: 'quarantine', label: 'Ghost Cards (鬼)', shortLabel: 'Quarantine', icon: Flame },
     { id: 'tests', label: 'Mock & Tests', shortLabel: 'Tests', icon: CheckSquare },
     { id: 'progress', label: 'Progress & Radar', shortLabel: 'Progress', icon: BarChart2 },
     { id: 'kana', label: 'Kana Trainer', shortLabel: 'Kana', icon: Sparkles },
@@ -326,7 +330,7 @@ export const Navigation: React.FC<NavigationProps> = ({
         <button
           onClick={() => setIsMobileMenuOpen(true)}
           className={`flex flex-col items-center justify-center py-1 px-2.5 rounded-xl text-[10px] font-medium transition cursor-pointer min-w-[56px] min-h-[44px] ${
-            ['progress', 'kana', 'settings'].includes(currentView)
+            ['progress', 'kana', 'settings', 'shadowing', 'quarantine'].includes(currentView)
               ? 'text-rose-400 font-semibold'
               : 'text-zinc-400 hover:text-zinc-200'
           }`}
@@ -334,7 +338,7 @@ export const Navigation: React.FC<NavigationProps> = ({
         >
           <div className="relative">
             <Menu className="w-4.5 h-4.5" />
-            {['progress', 'kana', 'settings'].includes(currentView) && (
+            {['progress', 'kana', 'settings', 'shadowing', 'quarantine'].includes(currentView) && (
               <span className="absolute -top-1 -right-1 w-2 h-2 rounded-full bg-rose-500" />
             )}
           </div>
@@ -381,6 +385,36 @@ export const Navigation: React.FC<NavigationProps> = ({
 
               {/* Grid of secondary destinations */}
               <div className="grid grid-cols-2 gap-2.5">
+                <button
+                  onClick={() => handleMobileSelect('shadowing')}
+                  className={`p-3.5 rounded-2xl border flex flex-col items-start space-y-2 transition cursor-pointer text-left ${
+                    currentView === 'shadowing'
+                      ? 'bg-zinc-800 border-cyan-500/60 text-white'
+                      : 'bg-zinc-950/70 border-zinc-800 text-zinc-300 hover:border-zinc-700'
+                  }`}
+                >
+                  <Mic className="w-5 h-5 text-cyan-400" />
+                  <div>
+                    <span className="text-xs font-semibold block">Shadowing (発音)</span>
+                    <span className="text-[10px] text-zinc-500">Audio pitch &amp; speech</span>
+                  </div>
+                </button>
+
+                <button
+                  onClick={() => handleMobileSelect('quarantine')}
+                  className={`p-3.5 rounded-2xl border flex flex-col items-start space-y-2 transition cursor-pointer text-left ${
+                    currentView === 'quarantine'
+                      ? 'bg-zinc-800 border-rose-500/60 text-white'
+                      : 'bg-zinc-950/70 border-zinc-800 text-zinc-300 hover:border-zinc-700'
+                  }`}
+                >
+                  <Flame className="w-5 h-5 text-rose-400" />
+                  <div>
+                    <span className="text-xs font-semibold block">Ghost Cards (鬼)</span>
+                    <span className="text-[10px] text-zinc-500">Leech recovery drills</span>
+                  </div>
+                </button>
+
                 <button
                   onClick={() => handleMobileSelect('progress')}
                   className={`p-3.5 rounded-2xl border flex flex-col items-start space-y-2 transition cursor-pointer text-left ${
