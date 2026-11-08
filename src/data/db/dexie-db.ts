@@ -12,7 +12,7 @@ import {
   GhostCardRecord,
   CramDrillRecord,
 } from '../../domain/models/types';
-import { QuarantinedCard } from '../../domain/fsrs/quarantine-types';
+import { QuarantinedCard, QuarantineCardInput } from '../../domain/fsrs/quarantine-types';
 import { QuarantineEngine, DrillProcessResult } from '../../domain/fsrs/quarantine-engine';
 
 export interface StudySessionRecord {
@@ -120,6 +120,13 @@ export class NihongoMasterDB extends Dexie {
     const result = QuarantineEngine.processDrillResult(card, isCorrect);
     await this.quarantined_cards.put(result.updatedCard);
     return result;
+  }
+
+  async quarantineCard(input: QuarantineCardInput): Promise<QuarantinedCard> {
+    const existing = await this.quarantined_cards.get(input.id);
+    const card = QuarantineEngine.buildQuarantinedCard(input, existing);
+    await this.upsertQuarantinedCard(card);
+    return card;
   }
 }
 

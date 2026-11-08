@@ -1,6 +1,8 @@
+import 'fake-indexeddb/auto';
 import { describe, it, expect } from 'vitest';
-import { QuarantineEngine } from '../src/domain/fsrs/quarantine-engine';
+import { QuarantineEngine, quarantineCard } from '../src/domain/fsrs/quarantine-engine';
 import { QuarantinedCard, GhostCardReason } from '../src/domain/fsrs/quarantine-types';
+import { db } from '../src/data/db/dexie-db';
 
 describe('QuarantineEngine (FSRS Ghost Card Quarantine)', () => {
   describe('evaluateForQuarantine', () => {
@@ -187,6 +189,107 @@ describe('QuarantineEngine (FSRS Ghost Card Quarantine)', () => {
       expect(stats.byReason.LOW_STABILITY_PLATEAU).toBe(1);
       expect(stats.byReason.BURMESE_MISALIGNMENT).toBe(1);
       expect(stats.byReason.MOCK_TEST_REPEATED_MISS).toBe(0);
+    });
+  });
+
+  describe('buildQuarantinedCard & quarantineCard (Auto-Quarantine & Idempotency)', () => {
+    it('builds a new QuarantinedCard with appropriate FSRS default parameters', () => {
+      const card = QuarantineEngine.buildQuarantinedCard({
+        id: 'test-v01',
+        itemType: 'vocabulary',
+        wordOrPattern: '直す',
+        reading: 'なおす',
+        meaningBurmese: 'ပြင်ဆင်သည်',
+        meaningEn: 'Fix',
+        jlptLevel: 'N2',
+        quarantineReason: 'HIGH_LAPSE_COUNT',
+      });
+
+      expect(card.id).toBe('test-v01');
+      expect(card.lapses).toBe(1);
+      expect(card.recoveryStreak).toBe(0);
+      expect(card.isGraduated).toBe(false);
+      expect(card.currentStability).toBe(0.8);
+      expect(card.currentDifficulty).toBe(8.5);
+      expect(card.quarantineReason).toBe('HIGH_LAPSE_COUNT');
+    });
+
+    it('updates existing QuarantinedCard idempotently: increments lapses and revokes graduation', () => {
+      const existing: QuarantinedCard = {
+        id: 'test-v01',
+        itemType: 'vocabulary',
+        wordOrPattern: '直す',
+        reading: 'なおす',
+        meaningBurmese: 'ပြင်ဆင်သည်',
+        meaningEn: 'Fix',
+        jlptLevel: 'N2',
+        quarantineReason: 'HIGH_LAPSE_COUNT',
+        quarantinedAt: 1000,
+        lapses: 2,
+        currentStability: 2.5,
+        currentDifficulty: 7.0,
+        recoveryStreak: 3,
+        isGraduated: true,
+      };
+
+      const updated = QuarantineEngine.buildQuarantinedCard(
+        {
+          id: 'test-v01',
+          itemType: 'vocabulary',
+          wordOrPattern: '直す',
+          meaningBurmese: 'ပြင်ဆင်သည်',
+          jlptLevel: 'N2',
+          quarantineReason: 'MOCK_TEST_REPEATED_MISS',
+        },
+        existing
+      );
+
+      expect(updated.id).toBe('test-v01');
+      expect(updated.lapses).toBe(3);
+      expect(updated.recoveryStreak).toBe(0);
+      expect(updated.isGraduated).toBe(false); // Graduation revoked due to new lapse
+      expect(updated.currentStability).toBeLessThanOrEqual(0.8);
+      expect(updated.currentDifficulty).toBeGreaterThanOrEqual(8.5);
+      expect(updated.quarantinedAt).toBeGreaterThan(1000);
+    });
+
+    it('asynchronously persists to Dexie DB and maintains strict single-entry idempotency', async () => {
+      const cardId = 'idb-test-v99';
+      // First quarantine event
+      await quarantineCard({
+        id: cardId,
+        itemType: 'vocabulary',
+        wordOrPattern: '勉強',
+        reading: 'べんきょう',
+        meaningBurmese: 'စာလေ့လာသည်',
+        meaningEn: 'Study',
+        jlptLevel: 'N5',
+        quarantineReason: 'HIGH_LAPSE_COUNT',
+      });
+
+      const firstFetch = await db.quarantined_cards.get(cardId);
+      expect(firstFetch).toBeDefined();
+      expect(firstFetch?.lapses).toBe(1);
+
+      // Second quarantine event for same card
+      await quarantineCard({
+        id: cardId,
+        itemType: 'vocabulary',
+        wordOrPattern: '勉強',
+        reading: 'べんきょう',
+        meaningBurmese: 'စာလေ့လာသည်',
+        meaningEn: 'Study',
+        jlptLevel: 'N5',
+        quarantineReason: 'MOCK_TEST_REPEATED_MISS',
+      });
+
+      const secondFetch = await db.quarantined_cards.get(cardId);
+      expect(secondFetch).toBeDefined();
+      expect(secondFetch?.lapses).toBe(2);
+
+      // Verify no duplicate row was created
+      const allMatching = await db.quarantined_cards.where('id').equals(cardId).toArray();
+      expect(allMatching.length).toBe(1);
     });
   });
 });

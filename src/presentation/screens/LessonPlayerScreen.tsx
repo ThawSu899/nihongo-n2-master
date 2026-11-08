@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Volume2,
@@ -31,6 +31,7 @@ import {
 import { FuriganaRuby } from '../components/FuriganaRuby';
 import { PitchAccentVisualizer } from '../components/PitchAccentVisualizer';
 import { useAudioPlayer, cleanJapanesePrompt, parseDialogueTranscript } from '../hooks/useAudioPlayer';
+import { chunkVocabulary, formatPartBadge, VocabularyChunk } from '../../domain/curriculum/vocabulary-pagination';
 import { checkAnswer, deriveSRSRating } from '../../domain/assessment/answer-checker';
 import { AssessmentSession, ShuffledOption } from '../../domain/assessment/shuffler';
 import { MasteryEngine, TestAttemptScore } from '../../domain/mastery/mastery-engine';
@@ -216,9 +217,21 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
   // Listening state: transcript hidden until answered
   const [hasAnsweredListening, setHasAnsweredListening] = useState(false);
 
-  // Vocabulary view index
+  // Vocabulary view index & sub-batch pagination
   const [vocabIndex, setVocabIndex] = useState(0);
+  const [activePartIndex, setActivePartIndex] = useState(0);
+  const vocabContainerRef = useRef<HTMLDivElement>(null);
   const [isKanjiDrawerOpen, setIsKanjiDrawerOpen] = useState(false);
+
+  const vocabChunks = useMemo(
+    () => chunkVocabulary(pack.vocabularies, 15),
+    [pack.vocabularies]
+  );
+
+  useEffect(() => {
+    setVocabIndex(0);
+    setActivePartIndex(0);
+  }, [pack.id]);
 
   // Reset exercise state when stage changes
   useEffect(() => {
@@ -569,7 +582,9 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
       setCurrentStage(2);
     } else if (currentStage === 2) {
       if (vocabIndex < pack.vocabularies.length - 1) {
-        setVocabIndex((p) => p + 1);
+        const nextIdx = vocabIndex + 1;
+        setVocabIndex(nextIdx);
+        setActivePartIndex(Math.floor(nextIdx / 15));
       } else {
         setCurrentStage(3);
       }
@@ -618,7 +633,9 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
   const handlePrevCard = useCallback(() => {
     if (currentStage === 2) {
       if (vocabIndex > 0) {
-        setVocabIndex((p) => p - 1);
+        const prevIdx = vocabIndex - 1;
+        setVocabIndex(prevIdx);
+        setActivePartIndex(Math.floor(prevIdx / 15));
       } else {
         setCurrentStage(1);
       }
@@ -828,14 +845,19 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
           {/* STAGE 2: VOCABULARY */}
           {currentStage === 2 && (
-            <div className="bg-stone-900 border border-stone-800 rounded-3xl p-6 sm:p-8 space-y-6 shadow-2xl">
-              <div className="flex items-center justify-between">
+            <div ref={vocabContainerRef} className="bg-stone-900 border border-stone-800 rounded-3xl p-6 sm:p-8 space-y-6 shadow-2xl">
+              <div className="flex items-center justify-between flex-wrap gap-2">
                 <div>
                   <span className="text-xs uppercase font-mono tracking-wider text-rose-400 font-semibold">
                     အဆင့် ၂ • အဓိက ဝေါဟာရများ (Vocabulary)
                   </span>
                   <h2 className="text-xl font-bold text-stone-100 font-mono">
                     ဝေါဟာရ {vocabIndex + 1} / {pack.vocabularies.length}
+                    {vocabChunks.length > 1 && (
+                      <span className="text-xs font-normal text-stone-400 ml-2">
+                        (Part {activePartIndex + 1} of {vocabChunks.length})
+                      </span>
+                    )}
                   </h2>
                 </div>
                 <div className="flex items-center space-x-1.5 bg-stone-900 px-2.5 py-1 rounded-xl border border-stone-800">
@@ -856,6 +878,45 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                   ))}
                 </div>
               </div>
+
+              {/* Sub-Batch Navigation Header / Tab Bar (Visible when total vocabulary > 15) */}
+              {vocabChunks.length > 1 && (
+                <div className="sticky top-0 z-20 bg-stone-900/95 backdrop-blur-xl border border-stone-800 rounded-2xl p-2.5 shadow-lg flex items-center justify-between gap-2 overflow-x-auto">
+                  <div className="flex items-center space-x-2 shrink-0">
+                    <span className="text-xs uppercase font-mono text-stone-400 font-semibold px-2">
+                      Batch:
+                    </span>
+                    {vocabChunks.map((chunk: VocabularyChunk, idx: number) => (
+                      <button
+                        key={chunk.partNumber}
+                        type="button"
+                        onClick={() => {
+                          setActivePartIndex(idx);
+                          setVocabIndex(chunk.startIndex);
+                          if (typeof window !== 'undefined') {
+                            vocabContainerRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                          }
+                        }}
+                        className={`px-3 py-1.5 rounded-xl text-xs font-mono font-medium transition cursor-pointer flex items-center gap-1.5 ${
+                          activePartIndex === idx
+                            ? 'bg-rose-600 text-white font-bold shadow-md shadow-rose-950/40 border border-rose-500/50'
+                            : 'bg-stone-800/80 text-stone-300 hover:text-stone-100 hover:bg-stone-750 border border-stone-700/60'
+                        }`}
+                      >
+                        <span>{formatPartBadge(chunk.partNumber, chunk.startIndex, chunk.endIndex)}</span>
+                        <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
+                          activePartIndex === idx ? 'bg-rose-800 text-rose-100' : 'bg-stone-900 text-stone-400'
+                        }`}>
+                          {chunk.itemCount}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                  <span className="text-xs text-stone-400 font-mono hidden sm:inline shrink-0 pr-2">
+                    {pack.vocabularies.length} Total Words
+                  </span>
+                </div>
+              )}
 
               {/* Vocabulary Card */}
               {(() => {
@@ -948,7 +1009,11 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  onClick={() => setVocabIndex((p) => Math.max(0, p - 1))}
+                  onClick={() => {
+                    const prev = Math.max(0, vocabIndex - 1);
+                    setVocabIndex(prev);
+                    setActivePartIndex(Math.floor(prev / 15));
+                  }}
                   disabled={vocabIndex === 0}
                   className="px-4 py-2.5 rounded-xl bg-stone-800 hover:bg-stone-700 disabled:opacity-30 text-stone-300 text-xs font-medium transition cursor-pointer flex items-center gap-1.5"
                   title="ရှေ့ဝေါဟာရ [←]"
@@ -962,7 +1027,11 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                   <motion.button
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    onClick={() => setVocabIndex((p) => p + 1)}
+                    onClick={() => {
+                      const next = vocabIndex + 1;
+                      setVocabIndex(next);
+                      setActivePartIndex(Math.floor(next / 15));
+                    }}
                     className="px-5 py-2.5 rounded-xl bg-rose-600 hover:bg-rose-500 text-white text-xs font-semibold transition shadow-md shadow-rose-950/30 cursor-pointer flex items-center gap-2"
                     title={`နောက်ဝေါဟာရ [${getDisplayBadge('NEXT_ITEM')}]`}
                   >

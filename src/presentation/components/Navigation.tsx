@@ -18,6 +18,7 @@ import {
   Zap,
   Mic,
   Flame,
+  Library,
 } from 'lucide-react';
 import { UserProfile } from '../../domain/models/types';
 
@@ -71,6 +72,7 @@ export const Navigation: React.FC<NavigationProps> = ({
 
   // Group 2: Mastery, Analytics & System
   const secondaryNavItems = [
+    { id: 'level-bulk-study', label: 'Level Decks (単語帳)', shortLabel: 'Decks', icon: Library },
     { id: 'shadowing', label: 'Shadowing (発音)', shortLabel: 'Shadow', icon: Mic },
     { id: 'quarantine', label: 'Ghost Cards (鬼)', shortLabel: 'Quarantine', icon: Flame },
     { id: 'tests', label: 'Mock & Tests', shortLabel: 'Tests', icon: CheckSquare },
@@ -330,7 +332,7 @@ export const Navigation: React.FC<NavigationProps> = ({
         <button
           onClick={() => setIsMobileMenuOpen(true)}
           className={`flex flex-col items-center justify-center py-1 px-2.5 rounded-xl text-[10px] font-medium transition cursor-pointer min-w-[56px] min-h-[44px] ${
-            ['progress', 'kana', 'settings', 'shadowing', 'quarantine'].includes(currentView)
+            ['progress', 'kana', 'settings', 'shadowing', 'quarantine', 'level-bulk-study'].includes(currentView)
               ? 'text-rose-400 font-semibold'
               : 'text-zinc-400 hover:text-zinc-200'
           }`}
@@ -338,7 +340,7 @@ export const Navigation: React.FC<NavigationProps> = ({
         >
           <div className="relative">
             <Menu className="w-4.5 h-4.5" />
-            {['progress', 'kana', 'settings', 'shadowing', 'quarantine'].includes(currentView) && (
+            {['progress', 'kana', 'settings', 'shadowing', 'quarantine', 'level-bulk-study'].includes(currentView) && (
               <span className="absolute -top-1 -right-1 w-2 h-2 rounded-full bg-rose-500" />
             )}
           </div>
@@ -385,6 +387,21 @@ export const Navigation: React.FC<NavigationProps> = ({
 
               {/* Grid of secondary destinations */}
               <div className="grid grid-cols-2 gap-2.5">
+                <button
+                  onClick={() => handleMobileSelect('level-bulk-study')}
+                  className={`p-3.5 rounded-2xl border flex flex-col items-start space-y-2 transition cursor-pointer text-left ${
+                    currentView === 'level-bulk-study'
+                      ? 'bg-zinc-800 border-rose-500/60 text-white'
+                      : 'bg-zinc-950/70 border-zinc-800 text-zinc-300 hover:border-zinc-700'
+                  }`}
+                >
+                  <Library className="w-5 h-5 text-rose-400" />
+                  <div>
+                    <span className="text-xs font-semibold block">Level Decks (単語帳)</span>
+                    <span className="text-[10px] text-zinc-500">N5–N2 bulk vocabulary</span>
+                  </div>
+                </button>
+
                 <button
                   onClick={() => handleMobileSelect('shadowing')}
                   className={`p-3.5 rounded-2xl border flex flex-col items-start space-y-2 transition cursor-pointer text-left ${

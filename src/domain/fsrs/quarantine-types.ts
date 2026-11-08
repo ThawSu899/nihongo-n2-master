@@ -25,6 +25,19 @@ export interface QuarantinedCard {
   dropIndex?: number;
 }
 
+export interface QuarantineCardInput {
+  id: string;
+  itemType: 'vocabulary' | 'grammar';
+  wordOrPattern: string;
+  reading?: string;
+  meaningBurmese: string;
+  meaningEn?: string;
+  jlptLevel: 'N5' | 'N4' | 'N3' | 'N2';
+  quarantineReason?: GhostCardReason;
+  pitchPattern?: PitchPattern;
+  dropIndex?: number;
+}
+
 export interface QuarantineStats {
   totalQuarantined: number;
   activeCount: number;

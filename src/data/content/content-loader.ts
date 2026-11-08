@@ -1,4 +1,4 @@
-import { LessonPack, CurriculumMapItem, LessonPackSchema } from '../../domain/models/types';
+import { LessonPack, CurriculumMapItem, LessonPackSchema, Vocabulary } from '../../domain/models/types';
 import curriculumMapJson from '../../../content/curriculum-map.json';
 import { db } from '../db/dexie-db';
 
@@ -172,5 +172,37 @@ export class ContentLoader {
   static async saveLessonPack(pack: LessonPack): Promise<void> {
     const validated = LessonPackSchema.parse(pack);
     await db.lesson_packs.put(validated);
+  }
+
+  /**
+   * Retrieves all published lesson packs for a given JLPT level.
+   */
+  static async getPacksForLevel(level: 'N5' | 'N4' | 'N3' | 'N2'): Promise<LessonPack[]> {
+    const mapItems = this.getCurriculumMap().filter((item) => item.level === level);
+    const packs = await Promise.all(mapItems.map((item) => this.getLessonPack(item.id)));
+    return packs.filter((p): p is LessonPack => p !== null);
+  }
+
+  /**
+   * Aggregates and deduplicates all vocabulary items across all lesson packs for a given JLPT level.
+   */
+  static async getVocabularyForLevel(level: 'N5' | 'N4' | 'N3' | 'N2'): Promise<Vocabulary[]> {
+    const packs = await this.getPacksForLevel(level);
+    const seenWords = new Set<string>();
+    const vocabularies: Vocabulary[] = [];
+
+    for (const pack of packs) {
+      if (Array.isArray(pack.vocabularies)) {
+        for (const vocab of pack.vocabularies) {
+          const key = `${vocab.ja}_${vocab.kana}`;
+          if (!seenWords.has(key)) {
+            seenWords.add(key);
+            vocabularies.push(vocab);
+          }
+        }
+      }
+    }
+
+    return vocabularies;
   }
 }

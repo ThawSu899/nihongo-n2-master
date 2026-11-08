@@ -1,8 +1,10 @@
 import {
   GhostCardReason,
   QuarantinedCard,
+  QuarantineCardInput,
   QuarantineStats,
 } from './quarantine-types';
+import { db } from '../../data/db/dexie-db';
 
 export interface QuarantineEvaluationInput {
   lapses: number;
@@ -165,4 +167,69 @@ export class QuarantineEngine {
       byReason,
     };
   }
+
+  /**
+   * Deterministic factory and state transition for creating or updating a quarantined card.
+   * Ensures idempotency:
+   * - If card already exists in quarantine: increments lapse count, updates quarantinedAt, resets recoveryStreak, and revokes graduation if previously graduated.
+   * - If card does not exist: creates a new QuarantinedCard with initial FSRS difficulty (8.5) and stability (0.8).
+   */
+  static buildQuarantinedCard(
+    input: QuarantineCardInput,
+    existing?: QuarantinedCard
+  ): QuarantinedCard {
+    const now = Date.now();
+    if (existing) {
+      return {
+        ...existing,
+        itemType: input.itemType,
+        wordOrPattern: input.wordOrPattern || existing.wordOrPattern,
+        reading: input.reading ?? existing.reading,
+        meaningBurmese: input.meaningBurmese || existing.meaningBurmese,
+        meaningEn: input.meaningEn || existing.meaningEn,
+        jlptLevel: input.jlptLevel || existing.jlptLevel,
+        quarantineReason: input.quarantineReason || existing.quarantineReason,
+        quarantinedAt: now,
+        lapses: (existing.lapses || 0) + 1,
+        recoveryStreak: 0,
+        isGraduated: false,
+        currentStability: Math.min(existing.currentStability, 0.8),
+        currentDifficulty: Math.max(existing.currentDifficulty, 8.5),
+        pitchPattern: input.pitchPattern ?? existing.pitchPattern,
+        dropIndex: input.dropIndex ?? existing.dropIndex,
+      };
+    }
+
+    return {
+      id: input.id,
+      itemType: input.itemType,
+      wordOrPattern: input.wordOrPattern,
+      reading: input.reading,
+      meaningBurmese: input.meaningBurmese,
+      meaningEn: input.meaningEn || '',
+      jlptLevel: input.jlptLevel,
+      quarantineReason: input.quarantineReason || 'HIGH_LAPSE_COUNT',
+      quarantinedAt: now,
+      lapses: 1,
+      currentStability: 0.8,
+      currentDifficulty: 8.5,
+      recoveryStreak: 0,
+      isGraduated: false,
+      pitchPattern: input.pitchPattern,
+      dropIndex: input.dropIndex,
+    };
+  }
+}
+
+/**
+ * Asynchronously persists or updates a weak/lapsed card into the Quarantined Cards Dexie table.
+ * Fully non-blocking, idempotent, and deduplicated.
+ */
+export async function quarantineCard(
+  input: QuarantineCardInput
+): Promise<QuarantinedCard> {
+  const existing = await db.quarantined_cards.get(input.id);
+  const card = QuarantineEngine.buildQuarantinedCard(input, existing);
+  await db.upsertQuarantinedCard(card);
+  return card;
 }

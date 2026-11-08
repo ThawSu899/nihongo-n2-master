@@ -40,6 +40,7 @@ import { SettingsScreen } from './presentation/screens/SettingsScreen';
 import { KanaTrainerScreen } from './presentation/screens/KanaTrainerScreen';
 import { ShadowingScreen } from './presentation/screens/ShadowingScreen';
 import { QuarantineDrillScreen } from './presentation/screens/QuarantineDrillScreen';
+import { LevelBulkStudyScreen } from './presentation/screens/LevelBulkStudyScreen';
 
 function getNextActiveLessonId(
   curriculum: CurriculumMapItem[],
@@ -506,6 +507,13 @@ export default function App() {
                   refreshAppData();
                   setCurrentView('home');
                 }}
+              />
+            )}
+
+            {currentView === 'level-bulk-study' && (
+              <LevelBulkStudyScreen
+                initialLevel={(profile?.level as any) || 'N5'}
+                onBack={() => setCurrentView('home')}
               />
             )}
           </motion.div>
