@@ -4,8 +4,10 @@
   .font-japanese {
     font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
   }
-  .font-myanmar {
-    font-family: "Noto Sans Myanmar", "Padauk", "Myanmar Text", sans-serif;
+  .font-myanmar,
+  .font-burmese {
+    font-family: "Noto Sans Myanmar", "Padauk", "Pyidaungsu", "Myanmar Text", sans-serif;
+    line-height: 1.6;
   }
 
   /* Deep Obsidian Glass Surfaces */

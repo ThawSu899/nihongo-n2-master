@@ -363,28 +363,34 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-100 bg-pattern-asanoha flex flex-col font-sans selection:bg-rose-500/30 selection:text-rose-200">
-      {/* Header */}
-      <Header
-        profile={profile}
-        todayMinutes={todayStudiedMinutes}
-        onNavigate={setCurrentView}
-        isTestActive={isTestActive}
-        onOpenDiagnostics={() => setIsDiagnosticsOpen(true)}
-        onOpenSearch={() => setIsCommandPaletteOpen(true)}
-      />
-
-      {/* Floating Island Navigation Dock */}
+    <div className="min-h-screen bg-zinc-950 text-zinc-100 bg-pattern-asanoha flex flex-col md:flex-row font-sans selection:bg-rose-500/30 selection:text-rose-200">
+      {/* Persistent Desktop Sidebar & Mobile Bottom Navigation */}
       <Navigation
         currentView={currentView}
         onNavigate={setCurrentView}
         dueSrsCount={dueSrsCount}
         hasActiveSession={timerState.state === 'running' || timerState.state === 'paused'}
         isTestActive={isTestActive || currentView === 'player'}
+        todayMinutes={todayStudiedMinutes}
+        goalMinutes={profile.dailyTargetMinutes || 360}
+        profile={profile}
+        onOpenDiagnostics={() => setIsDiagnosticsOpen(true)}
+        onOpenSearch={() => setIsCommandPaletteOpen(true)}
       />
 
-      {/* Main View Area with Bottom Dock Clearance */}
-      <main className="flex-1 px-4 py-6 pb-28">
+      {/* Main Content Viewport */}
+      <div className="flex-1 flex flex-col min-w-0">
+        <Header
+          profile={profile}
+          todayMinutes={todayStudiedMinutes}
+          onNavigate={setCurrentView}
+          isTestActive={isTestActive}
+          onOpenDiagnostics={() => setIsDiagnosticsOpen(true)}
+          onOpenSearch={() => setIsCommandPaletteOpen(true)}
+        />
+
+        {/* Main View Area with Bottom Dock Clearance on Mobile */}
+        <main className="flex-1 px-4 sm:px-6 lg:px-8 py-6 pb-24 md:pb-12 max-w-7xl w-full mx-auto">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentView}
@@ -487,6 +493,7 @@ export default function App() {
           </motion.div>
         </AnimatePresence>
       </main>
+      </div>
 
       {/* Persistent Docked Timer Widget */}
       <TimerWidget

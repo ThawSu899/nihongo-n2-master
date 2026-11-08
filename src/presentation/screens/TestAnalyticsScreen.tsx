@@ -37,7 +37,7 @@ import {
   WeaknessReport,
   LeechItem,
 } from '../../domain/assessment/weakness-remediator';
-import { SkillRadarChart } from '../components/SkillRadarChart';
+import { SkillRadarChart, SkillScoreData } from '../components/SkillRadarChart';
 import { UserProfile, QuestionSkill, RemediationPlan, CramDrillRecord } from '../../domain/models/types';
 
 export interface TestAnalyticsScreenProps {
@@ -249,7 +249,7 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
     );
   }
 
-  const radarSkills = data.skills.map(
+  const radarSkills: SkillScoreData[] = data.skills.map(
     (s) =>
       s.radarData || {
         skill: s.skill,
@@ -257,6 +257,7 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
         scorePct: s.scorePct,
         thresholdPct: s.thresholdPct,
         testedCount: s.testedCount,
+        correctCount: s.correctCount,
       }
   );
 
