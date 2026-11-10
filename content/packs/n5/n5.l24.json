@@ -1541,7 +1541,7 @@
     "title": "会社での伝言メモ (Office Message Memo)",
     "level": "N5",
     "text": "田中さんへ：\n本日午後二時にABC商事の木村様からお電話がありました。木村様は、今日の午後四時からの会議の時間を変更したいと言いました。木村様は急な用事が入ったため、四時の約束の時間に三十分ほど遅れると言っていました。新しい会議の時間は四時半からになりました。場所は第二会議室で同じです。木村様は「後で確認のメールを送ります」と言っていました。何か質問があれば、私に聞いてください。\n山田より",
-    "kanaText": "たなかさんへ：\nほんじつごごにじにえーびーしーしょうじのきむらさまからおでんわがありました。きむらさまは、きょうのごごよじからのかいぎのじかんをへんこうしたいといいました。きむらさまはきゅうなようじがはいったため、よじのやくそくのじかんにさんじゅっぷんほどおくれるといっていました。あたらしいかいぎのじかんはよじはんからになりました。ばしょはだいにかいぎしつでおなじです。きむらさまは「あとでかくにんのめーるをおくります」といっていました。なにかしつもんがあれば、わたしにきいてください。\nやまだより",
+    "kanaText": "たなかさんへ\nほんじつごごにじにえーびーしーしょうじのきむらさまからおでんわがありました。きむらさまは、きょうのごごよじからのかいぎのじかんをへんこうしたいといいました。きむらさまはきゅうなようじがはいったため、よじのやくそくのじかんにさんじゅっぷんほどおくれるといっていました。あたらしいかいぎのじかんはよじはんからになりました。ばしょはだいにかいぎしつでおなじです。きむらさまは「あとでかくにんのめーるをおくります」といっていました。なにかしつもんがあれば、わたしにきいてください。\nやまだより",
     "translation": "To Tanaka:\nAt 2:00 PM today, there was a phone call from Mr. Kimura of ABC Trading. Mr. Kimura said he wants to change the time of today's meeting scheduled for 4:00 PM. Because urgent business came up, Mr. Kimura said he would be about 30 minutes late for the 4:00 appointment time. The new meeting time is from 4:30 PM. The location remains the same in Conference Room 2. Mr. Kimura said, \"I will send a confirmation email later.\" If you have any questions, please ask me.\nFrom Yamada",
     "questionIds": [
       "n5.l24.q021",
