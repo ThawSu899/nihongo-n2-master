@@ -80,6 +80,7 @@ export default function App() {
   const [masteryRecords, setMasteryRecords] = useState<Record<string, MasteryRecord>>({});
   const [dueSrsCount, setDueSrsCount] = useState<number>(0);
   const [srsCards, setSrsCards] = useState<SRSCard[]>([]);
+  const [selectedBulkLevel, setSelectedBulkLevel] = useState<'N5' | 'N4' | 'N3' | 'N2'>('N5');
   const [todayStudiedMinutes, setTodayStudiedMinutes] = useState<number>(0);
   const [studyStreak, setStudyStreak] = useState<number>(0);
   const [trueRetentionRate, setTrueRetentionRate] = useState<number>(1.0);
@@ -407,6 +408,8 @@ export default function App() {
               <HomeScreen
                 profile={profile}
                 masteryRecord={currentMastery}
+                masteryRecords={masteryRecords}
+                srsCards={srsCards}
                 dailyPlan={dailyPlan}
                 dueSrsCount={dueSrsCount}
                 todayMinutes={todayStudiedMinutes}
@@ -415,6 +418,10 @@ export default function App() {
                 onOpenSrs={() => setCurrentView('srs')}
                 onOpenTests={() => setCurrentView('tests')}
                 onNavigate={setCurrentView}
+                onSelectLevel={(lvl) => {
+                  setSelectedBulkLevel(lvl);
+                  setCurrentView('level-bulk-study');
+                }}
                 onOpenReference={(tab) => {
                   setReferenceWorkbenchTab(tab || 'counters');
                   setIsReferenceModalOpen(true);
@@ -512,7 +519,7 @@ export default function App() {
 
             {currentView === 'level-bulk-study' && (
               <LevelBulkStudyScreen
-                initialLevel={(profile?.level as any) || 'N5'}
+                initialLevel={selectedBulkLevel}
                 onBack={() => setCurrentView('home')}
               />
             )}

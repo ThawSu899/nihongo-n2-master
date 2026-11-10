@@ -368,6 +368,546 @@
       },
       "pitchPattern": "nakadaka",
       "dropIndex": 2
+    },
+    {
+      "id": "n3.l34.v013",
+      "lessonId": "n3.l34",
+      "ja": "給料",
+      "kana": "きゅうりょう",
+      "en": "Salary / wage",
+      "my": "လစာ / လုပ်ခ",
+      "meaningMy": "လစာ / လုပ်ခ",
+      "meaningMyanmar": "လစာ / လုပ်ခ",
+      "myanmar": "လစာ / လုပ်ခ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l34.v014",
+      "lessonId": "n3.l34",
+      "ja": "残業",
+      "kana": "ざんぎょう",
+      "en": "Overtime work",
+      "my": "အချိန်ပိုဆင်းခြင်း",
+      "meaningMy": "အချိန်ပိုဆင်းခြင်း",
+      "meaningMyanmar": "အချိန်ပိုဆင်းခြင်း",
+      "myanmar": "အချိန်ပိုဆင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l34.v015",
+      "lessonId": "n3.l34",
+      "ja": "昇進",
+      "kana": "しょうしん",
+      "en": "Promotion",
+      "my": "ရာထူးတိုးမြှင့်ခြင်း",
+      "meaningMy": "ရာထူးတိုးမြှင့်ခြင်း",
+      "meaningMyanmar": "ရာထူးတိုးမြှင့်ခြင်း",
+      "myanmar": "ရာထူးတိုးမြှင့်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l34.v016",
+      "lessonId": "n3.l34",
+      "ja": "職場",
+      "kana": "しょくば",
+      "en": "Workplace",
+      "my": "လုပ်ငန်းခွင်",
+      "meaningMy": "လုပ်ငန်းခွင်",
+      "meaningMyanmar": "လုပ်ငန်းခွင်",
+      "myanmar": "လုပ်ငန်းခွင်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l34.v017",
+      "lessonId": "n3.l34",
+      "ja": "同僚",
+      "kana": "どうりょう",
+      "en": "Coworker / colleague",
+      "my": "လုပ်ဖော်ကိုင်ဖက်",
+      "meaningMy": "လုပ်ဖော်ကိုင်ဖက်",
+      "meaningMyanmar": "လုပ်ဖော်ကိုင်ဖက်",
+      "myanmar": "လုပ်ဖော်ကိုင်ဖက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l34.v018",
+      "lessonId": "n3.l34",
+      "ja": "上司",
+      "kana": "じょうし",
+      "en": "Boss / superior",
+      "my": "အထက်လူကြီး",
+      "meaningMy": "အထက်လူကြီး",
+      "meaningMyanmar": "အထက်လူကြီး",
+      "myanmar": "အထက်လူကြီး",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l34.v019",
+      "lessonId": "n3.l34",
+      "ja": "部下",
+      "kana": "ぶか",
+      "en": "Subordinate",
+      "my": "လက်အောက်ငယ်သား",
+      "meaningMy": "လက်အောက်ငယ်သား",
+      "meaningMyanmar": "လက်အောက်ငယ်သား",
+      "myanmar": "လက်အောက်ငယ်သား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l34.v020",
+      "lessonId": "n3.l34",
+      "ja": "責任",
+      "kana": "せきにん",
+      "en": "Responsibility",
+      "my": "တာဝန်ယူမှု",
+      "meaningMy": "တာဝန်ယူမှု",
+      "meaningMyanmar": "တာဝန်ယူမှု",
+      "myanmar": "တာဝန်ယူမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l34.v021",
+      "lessonId": "n3.l34",
+      "ja": "担当",
+      "kana": "たんとう",
+      "en": "Being in charge of",
+      "my": "တာဝန်ယူဆောင်ရွက်ခြင်း",
+      "meaningMy": "တာဝန်ယူဆောင်ရွက်ခြင်း",
+      "meaningMyanmar": "တာဝန်ယူဆောင်ရွက်ခြင်း",
+      "myanmar": "တာဝန်ယူဆောင်ရွက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l34.v022",
+      "lessonId": "n3.l34",
+      "ja": "業務",
+      "kana": "ぎょうむ",
+      "en": "Business operations / duties",
+      "my": "လုပ်ငန်းတာဝန်များ",
+      "meaningMy": "လုပ်ငန်းတာဝန်များ",
+      "meaningMyanmar": "လုပ်ငန်းတာဝန်များ",
+      "myanmar": "လုပ်ငန်းတာဝန်များ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l34.v023",
+      "lessonId": "n3.l34",
+      "ja": "打ち合わせ",
+      "kana": "うちあわせ",
+      "en": "Preliminary meeting / consultation",
+      "my": "ညှိနှိုင်းဆွေးနွေးပွဲ",
+      "meaningMy": "ညှိနှိုင်းဆွေးနွေးပွဲ",
+      "meaningMyanmar": "ညှိနှိုင်းဆွေးနွေးပွဲ",
+      "myanmar": "ညှိနှိုင်းဆွေးနွေးပွဲ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l34.v024",
+      "lessonId": "n3.l34",
+      "ja": "経済",
+      "kana": "けいざい",
+      "en": "Economy / economics",
+      "my": "စီးပွားရေး",
+      "meaningMy": "စီးပွားရေး",
+      "meaningMyanmar": "စီးပွားရေး",
+      "myanmar": "စီးပွားရေး",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l34.v025",
+      "lessonId": "n3.l34",
+      "ja": "政治",
+      "kana": "せいじ",
+      "en": "Politics / government",
+      "my": "နိုင်ငံရေး",
+      "meaningMy": "နိုင်ငံရေး",
+      "meaningMyanmar": "နိုင်ငံရေး",
+      "myanmar": "နိုင်ငံရေး",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l34.v026",
+      "lessonId": "n3.l34",
+      "ja": "社会",
+      "kana": "しゃかい",
+      "en": "Society / public",
+      "my": "လူမှုအဖွဲ့အစည်း",
+      "meaningMy": "လူမှုအဖွဲ့အစည်း",
+      "meaningMyanmar": "လူမှုအဖွဲ့အစည်း",
+      "myanmar": "လူမှုအဖွဲ့အစည်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l34.v027",
+      "lessonId": "n3.l34",
+      "ja": "人口",
+      "kana": "じんこう",
+      "en": "Population",
+      "my": "လူဦးရေ",
+      "meaningMy": "လူဦးရေ",
+      "meaningMyanmar": "လူဦးရေ",
+      "myanmar": "လူဦးရေ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l34.v028",
+      "lessonId": "n3.l34",
+      "ja": "環境",
+      "kana": "かんきょう",
+      "en": "Environment",
+      "my": "ပတ်ဝန်းကျင်",
+      "meaningMy": "ပတ်ဝန်းကျင်",
+      "meaningMyanmar": "ပတ်ဝန်းကျင်",
+      "myanmar": "ပတ်ဝန်းကျင်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l34.v029",
+      "lessonId": "n3.l34",
+      "ja": "汚染",
+      "kana": "おせん",
+      "en": "Pollution / contamination",
+      "my": "ညစ်ညမ်းမှု",
+      "meaningMy": "ညစ်ညမ်းမှု",
+      "meaningMyanmar": "ညစ်ညမ်းမှု",
+      "myanmar": "ညစ်ညမ်းမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l34.v030",
+      "lessonId": "n3.l34",
+      "ja": "温暖化",
+      "kana": "おんだんか",
+      "en": "Global warming",
+      "my": "ကမ္ဘာကြီးပူနွေးလာမှု",
+      "meaningMy": "ကမ္ဘာကြီးပူနွေးလာမှု",
+      "meaningMyanmar": "ကမ္ဘာကြီးပူနွေးလာမှု",
+      "myanmar": "ကမ္ဘာကြီးပူနွေးလာမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l34.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [
@@ -717,7 +1257,25 @@
       "translationMy": "မည်မျှပင် ခက်ခဲသောအခြေအနေဖြစ်ပါစေ မည်သည့်အခါမျှ လက်မလျှော့ဘဲ ဆက်လက်ကြိုးစားအားထုတ်သွားမည်။",
       "vocabIds": [
         "n3.l34.v004",
-        "n3.l34.v005"
+        "n3.l34.v005",
+        "n3.l34.v013",
+        "n3.l34.v014",
+        "n3.l34.v015",
+        "n3.l34.v016",
+        "n3.l34.v017",
+        "n3.l34.v018",
+        "n3.l34.v019",
+        "n3.l34.v020",
+        "n3.l34.v021",
+        "n3.l34.v022",
+        "n3.l34.v023",
+        "n3.l34.v024",
+        "n3.l34.v025",
+        "n3.l34.v026",
+        "n3.l34.v027",
+        "n3.l34.v028",
+        "n3.l34.v029",
+        "n3.l34.v030"
       ],
       "grammarIds": [
         "n3.l34.g001"

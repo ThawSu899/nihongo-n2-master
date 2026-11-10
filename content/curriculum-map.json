@@ -11,7 +11,7 @@
       "X の Y"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -26,7 +26,7 @@
       "この / その / あの [Noun] は [Person] の です"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -41,7 +41,7 @@
       "[Noun] は どこですか"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -56,7 +56,7 @@
       "[Time/Day] から [Time/Day] まで"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -71,7 +71,7 @@
       "[Transport] で 行きます"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -86,7 +86,7 @@
       "[Place] で [Verb] します"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -101,7 +101,7 @@
       "[Person] に [Item] を あげます / もらいます"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -116,7 +116,7 @@
       "[Noun] は [な-Adj] です / ではありません"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -131,7 +131,7 @@
       "[Reason sentence] から、[Result sentence]"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -146,7 +146,7 @@
       "[Noun 1] の [Position] に [Noun 2] が あります/います"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -161,7 +161,7 @@
       "[Period] に [Times] [Verb]"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -176,7 +176,7 @@
       "[Noun / な-Adj] でした / 〜ではありませんでした"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -191,7 +191,7 @@
       "[Category] の中で [Item] が 一番 [Adj] です"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -206,7 +206,7 @@
       "[Place] へ [Verb stem / Noun] に 行きます / 来ます"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -221,7 +221,7 @@
       "[Verb-te] います"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -236,7 +236,7 @@
       "[Verb-te] は いけません"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -251,7 +251,7 @@
       "[Verb-te] から、[Action 2]"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -266,7 +266,7 @@
       "[Verb-nai] なければなりません"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -281,7 +281,7 @@
       "私の趣味は [Verb dict] ことです"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -296,7 +296,7 @@
       "一度も [Verb-ta] ことが ありません"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -311,7 +311,7 @@
       "[V1-ta] り、[V2-ta] り します"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -326,7 +326,7 @@
       "Plain Past Form (普通形 過去: 書いた・書かなかった・高かった・暇だった)"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -341,7 +341,7 @@
       "〜について どう 思いますか"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -356,7 +356,7 @@
       "[Plain Form] でしょう / だろう"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -371,7 +371,7 @@
       "これは [Clause] Noun です"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -386,7 +386,7 @@
       "[V-dic] と、〜"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -401,7 +401,7 @@
       "[V-te / A-kute / N-demo] も、〜"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -416,7 +416,7 @@
       "[V-masu-stem] ませんか / ましょう"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -431,7 +431,7 @@
       "[Plain Form] んです (の です)"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -446,7 +446,7 @@
       "Particle Discrimination (は・が・を・に・で・へ・と・から・まで・より)"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -461,7 +461,7 @@
       "〜が 見える / 〜が 聞こえる"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -476,7 +476,7 @@
       "[Verb Dict / Verb-nai] つもりです / [Verb Dict / Noun の] 予定です"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -491,7 +491,7 @@
       "「〜」と 書いて あります / 「〜」は ... という 意味 です"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -506,7 +506,7 @@
       "[Verb-ば] [Verb-dict] ほど / [い-adj 〜ければ] [い-adj] ほど"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -521,7 +521,7 @@
       "〜たら / 〜ば / 〜と / 〜なら"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -536,7 +536,7 @@
       "[Noun] が [Intransitive Verb-te] います"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -551,7 +551,7 @@
       "もう [Transitive Verb-te] あります"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -566,7 +566,7 @@
       "[Verb-te] しまいました / [Verb-te] しまいます"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -581,7 +581,7 @@
       "[Plain Form] そうです"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -596,7 +596,7 @@
       "[Verb-te] あげる / [Verb-te] くれる / [Verb-te] もらう"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -611,7 +611,7 @@
       "[Person A] は [Person B] に [Object] を [Verb 受身形 (〜られる)] (迷惑の受け身)"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -626,7 +626,7 @@
       "[Causer] は [Causee] を [Verb 使役形 (〜せる/〜させる)]"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -641,7 +641,7 @@
       "[Event/Situation] で [Verb 使役受身形 (〜させられた / 考えさせられた)]"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -656,7 +656,7 @@
       "お + [Verb ます-stem] + になる / お + [Verb ます-stem] + ください"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -671,7 +671,7 @@
       "お + [Verb ます-stem] + する / ご + [Noun] + する"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -686,7 +686,7 @@
       "[Plain form] + はずだ / はずがない"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -701,7 +701,7 @@
       "[Verb Dictionary form / ない form] + ことになる / ことになっている"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -716,7 +716,7 @@
       "[Verb ます-stem] + やすい / にくい"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -731,7 +731,7 @@
       "[Verb ない-form] (drop い) + くなる (〜なくなる)"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -746,7 +746,7 @@
       "[Plain form] + のではないか / 〜必要がある"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -761,7 +761,7 @@
       "[Noun] + らしい"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -776,7 +776,7 @@
       "まるで + [Nounの / Plain form] + ような [Noun] / ように [Verb/Adj] (比喩・例示)"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -791,7 +791,7 @@
       "〜みたいな [Noun] / 〜みたいに [Verb/Adj] (口語の比喩)"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -806,7 +806,7 @@
       "[Verb (Potential / Non-volitional / Negative ない-form)] + ように"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -821,7 +821,7 @@
       "Conditional Comparison: 〜なら vs 〜たら vs 〜ば vs 〜と"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -836,7 +836,7 @@
       "[Verb て-form] + はいけない / はだめだ"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -851,7 +851,7 @@
       "[Verb ない-form minus い] + くてもいい / くてもかまわない"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -866,7 +866,7 @@
       "[Verb ます-stem] + ながら"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -881,7 +881,7 @@
       "[Verb ない-form] + でください (〜ないでください)"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -896,7 +896,7 @@
       "やっぱり / やはり (Confirmation of intuition & expectation)"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -911,7 +911,7 @@
       "[Interrogative (何/誰/どこ/いつ/どう)] + [Plain form (*no だ)] + か"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -926,7 +926,7 @@
       "Nominalization: [Verb Plain form] + こと"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -941,7 +941,7 @@
       "[Verb て-form] + もらう"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -956,7 +956,7 @@
       "Spontaneous Intransitives vs Passive Voice (自然発生動詞と受身文の統合)"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -971,7 +971,7 @@
       "[Verb た-form] + ばかりだ / ばかりの + [Noun]"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -986,7 +986,7 @@
       "Complex Sentence Integration: Giving/Receiving, Nominalization & Embedded Questions"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1001,7 +1001,7 @@
       "〜に関して"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1016,7 +1016,7 @@
       "〜に対して"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1031,7 +1031,7 @@
       "〜ようになる"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1046,7 +1046,7 @@
       "〜による"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1061,7 +1061,7 @@
       "〜くらい"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1076,7 +1076,7 @@
       "〜ばかり / 〜てばかりいる"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1091,7 +1091,7 @@
       "〜わりに（は）"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1106,7 +1106,7 @@
       "〜最中に / 〜最中だ"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1121,7 +1121,7 @@
       "〜気味"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1136,7 +1136,7 @@
       "〜わけがない"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1151,7 +1151,7 @@
       "〜わけにはいかない"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1166,7 +1166,7 @@
       "〜たとたん（に）"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1181,7 +1181,7 @@
       "〜を契機に / 〜をきっかけに"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1196,7 +1196,7 @@
       "〜にかけては"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1211,7 +1211,7 @@
       "〜にしたら / 〜にすれば"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1226,7 +1226,7 @@
       "〜ように（頼む・祈る・言う）"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1241,7 +1241,7 @@
       "〜おかげで / 〜おかげだ"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1256,7 +1256,7 @@
       "〜ほど…はない / 〜くらい…はない"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1271,7 +1271,7 @@
       "〜しかない / 〜ほかない"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1286,7 +1286,7 @@
       "〜一方（で） / 〜その一方で"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1301,7 +1301,7 @@
       "〜ついでに"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1316,7 +1316,7 @@
       "〜恐れがある"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1331,7 +1331,7 @@
       "〜に決まっている"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1346,7 +1346,7 @@
       "〜ないわけにはいかない"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1361,7 +1361,7 @@
       "〜て以来"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1376,7 +1376,7 @@
       "〜をはじめ（として） / 〜をはじめとする"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1391,7 +1391,7 @@
       "〜に関して / 〜に関する"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1406,7 +1406,7 @@
       "〜に応じて / 〜に応じた"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1421,7 +1421,7 @@
       "〜ようにする / 〜ようにしている"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1436,7 +1436,7 @@
       "〜ことから"
     ],
     "targetKanjiCount": 4,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1452,7 +1452,7 @@
       "〜ということだ"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1468,7 +1468,7 @@
       "〜てほしい"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1484,7 +1484,7 @@
       "〜たら / 〜と"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1500,7 +1500,7 @@
       "〜としても"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1516,7 +1516,7 @@
       "〜わりに（は）"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1532,7 +1532,7 @@
       "〜ため（に）"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1548,7 +1548,7 @@
       "〜つもりだ"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1564,7 +1564,7 @@
       "〜ことにする"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1580,7 +1580,7 @@
       "〜うちに"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1596,7 +1596,7 @@
       "〜たとたん（に）"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1612,7 +1612,7 @@
       "〜より〜のほうが"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1628,7 +1628,7 @@
       "〜など"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1644,7 +1644,7 @@
       "〜だけでなく"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1660,7 +1660,7 @@
       "〜せられる / 〜させられる (使役受身)"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1676,7 +1676,7 @@
       "〜てもらう / 〜ていただく"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1692,7 +1692,7 @@
       "特別な敬語動詞 (Special Keigo Verbs)"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1708,7 +1708,7 @@
       "〜なきゃ / 〜なくちゃ (〜なければならない)"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1724,7 +1724,7 @@
       "〜はずだ"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1740,7 +1740,7 @@
       "〜にあたって"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1756,7 +1756,7 @@
       "〜か〜ないかのうちに"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1772,7 +1772,7 @@
       "〜ところへ / ところに"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1788,7 +1788,7 @@
       "～にしてみれば"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1804,7 +1804,7 @@
       "～からには"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1820,7 +1820,7 @@
       "〜ないことには"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1836,7 +1836,7 @@
       "〜ないではいられない"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1852,7 +1852,7 @@
       "〜にすぎない"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1868,7 +1868,7 @@
       "〜つつある"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1884,7 +1884,7 @@
       "〜わりに"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1900,7 +1900,7 @@
       "〜一方"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1916,7 +1916,7 @@
       "〜に沿って"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1932,7 +1932,7 @@
       "〜に関して"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1948,7 +1948,7 @@
       "〜得ない"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1964,7 +1964,7 @@
       "〜気味"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1980,7 +1980,7 @@
       "〜次第"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -1996,7 +1996,7 @@
       "〜どころか"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2012,7 +2012,7 @@
       "〜がち"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2028,7 +2028,7 @@
       "〜ずにはいられない"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2044,7 +2044,7 @@
       "〜きり"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2060,7 +2060,7 @@
       "〜が早いか"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2076,7 +2076,7 @@
       "〜につれて"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2092,7 +2092,7 @@
       "〜を通じて"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2108,7 +2108,7 @@
       "〜ばかりでなく"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2124,7 +2124,7 @@
       "〜かと思ったら"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2140,7 +2140,7 @@
       "〜ばよかった"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2156,7 +2156,7 @@
       "〜のではなかろうか"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2172,7 +2172,7 @@
       "〜をお頼みする"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2188,7 +2188,7 @@
       "〜に決まっている"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2204,7 +2204,7 @@
       "〜を問わず"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2220,7 +2220,7 @@
       "〜反面"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2236,7 +2236,7 @@
       "〜に伴って"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2252,7 +2252,7 @@
       "〜といっても"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2268,7 +2268,7 @@
       "〜限り"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2284,7 +2284,7 @@
       "〜ざるを得ない"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2300,7 +2300,7 @@
       "〜やまない"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2316,7 +2316,7 @@
       "〜にすぎない"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2332,7 +2332,7 @@
       "〜からこそ"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2348,7 +2348,7 @@
       "〜にとどまらず"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2364,7 +2364,7 @@
       "〜に先立って"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2380,7 +2380,7 @@
       "〜ばかり"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2396,7 +2396,7 @@
       "〜に伴って"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2412,7 +2412,7 @@
       "〜となると"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2428,7 +2428,7 @@
       "〜ものの"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2444,7 +2444,7 @@
       "〜に照らして（照らした）"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2460,7 +2460,7 @@
       "〜ばかりに"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2476,7 +2476,7 @@
       "〜ずにはすまない"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2492,7 +2492,7 @@
       "〜を抜きにしては（〜ない）"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2508,7 +2508,7 @@
       "〜げ"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2524,7 +2524,7 @@
       "〜に違いない"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2540,7 +2540,7 @@
       "〜をもって"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2556,7 +2556,7 @@
       "〜を機に（して）"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2572,7 +2572,7 @@
       "〜にとどまらず"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2588,7 +2588,7 @@
       "〜を目指して"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2604,7 +2604,7 @@
       "〜にあって"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2620,7 +2620,7 @@
       "〜拝察いたします"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2636,7 +2636,7 @@
       "〜お許し願います"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2652,7 +2652,7 @@
       "〜もっとも"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2668,7 +2668,7 @@
       "〜ざるを得ない"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   },
@@ -2684,7 +2684,7 @@
       "〜ものだから"
     ],
     "targetKanjiCount": 3,
-    "targetVocabCount": 12,
+    "targetVocabCount": 30,
     "status": "published",
     "reviewStatus": "ai-authored"
   }

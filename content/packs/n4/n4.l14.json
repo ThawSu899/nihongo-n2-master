@@ -383,6 +383,546 @@
       "myanmar": "ပြန်လာခြင်း (ရိုသေစကား)",
       "pitchPattern": "heiban",
       "dropIndex": 0
+    },
+    {
+      "id": "n4.l14.v013",
+      "lessonId": "n4.l14",
+      "ja": "捨てる",
+      "kana": "すてる",
+      "en": "To throw away / discard",
+      "my": "စွန့်ပစ်သည်",
+      "meaningMy": "စွန့်ပစ်သည်",
+      "meaningMyanmar": "စွန့်ပစ်သည်",
+      "myanmar": "စွန့်ပစ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l14.v014",
+      "lessonId": "n4.l14",
+      "ja": "拾う",
+      "kana": "ひろう",
+      "en": "To pick up / gather",
+      "my": "ကောက်ယူသည်",
+      "meaningMy": "ကောက်ယူသည်",
+      "meaningMyanmar": "ကောက်ယူသည်",
+      "myanmar": "ကောက်ယူသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l14.v015",
+      "lessonId": "n4.l14",
+      "ja": "貸す",
+      "kana": "かす",
+      "en": "To lend",
+      "my": "ငှားရမ်းပေးသည်",
+      "meaningMy": "ငှားရမ်းပေးသည်",
+      "meaningMyanmar": "ငှားရမ်းပေးသည်",
+      "myanmar": "ငှားရမ်းပေးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l14.v016",
+      "lessonId": "n4.l14",
+      "ja": "借りる",
+      "kana": "かりる",
+      "en": "To borrow",
+      "my": "ငှားယူသည်",
+      "meaningMy": "ငှားယူသည်",
+      "meaningMyanmar": "ငှားယူသည်",
+      "myanmar": "ငှားယူသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l14.v017",
+      "lessonId": "n4.l14",
+      "ja": "届ける",
+      "kana": "とどける",
+      "en": "To deliver / report",
+      "my": "ပို့ဆောင်ပေးသည်",
+      "meaningMy": "ပို့ဆောင်ပေးသည်",
+      "meaningMyanmar": "ပို့ဆောင်ပေးသည်",
+      "myanmar": "ပို့ဆောင်ပေးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n4.l14.v018",
+      "lessonId": "n4.l14",
+      "ja": "届く",
+      "kana": "とどく",
+      "en": "To arrive / reach",
+      "my": "ရောက်ရှိသည်",
+      "meaningMy": "ရောက်ရှိသည်",
+      "meaningMyanmar": "ရောက်ရှိသည်",
+      "myanmar": "ရောက်ရှိသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n4.l14.v019",
+      "lessonId": "n4.l14",
+      "ja": "危険",
+      "kana": "きけん",
+      "en": "Dangerous / hazard",
+      "my": "အန္တရာယ်ရှိသော",
+      "meaningMy": "အန္တရာယ်ရှိသော",
+      "meaningMyanmar": "အန္တရာယ်ရှိသော",
+      "myanmar": "အန္တရာယ်ရှိသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l14.v020",
+      "lessonId": "n4.l14",
+      "ja": "安全",
+      "kana": "あんぜん",
+      "en": "Safe / secure",
+      "my": "ဘေးကင်းလုံခြုံသော",
+      "meaningMy": "ဘေးကင်းလုံခြုံသော",
+      "meaningMyanmar": "ဘေးကင်းလုံခြုံသော",
+      "myanmar": "ဘေးကင်းလုံခြုံသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l14.v021",
+      "lessonId": "n4.l14",
+      "ja": "大切",
+      "kana": "たいせつ",
+      "en": "Important / precious",
+      "my": "အရေးကြီးသော / တန်ဖိုးရှိသော",
+      "meaningMy": "အရေးကြီးသော / တန်ဖိုးရှိသော",
+      "meaningMyanmar": "အရေးကြီးသော / တန်ဖိုးရှိသော",
+      "myanmar": "အရေးကြီးသော / တန်ဖိုးရှိသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l14.v022",
+      "lessonId": "n4.l14",
+      "ja": "心配",
+      "kana": "しんぱい",
+      "en": "Worry / anxiety",
+      "my": "စိတ်ပူပင်သော",
+      "meaningMy": "စိတ်ပူပင်သော",
+      "meaningMyanmar": "စိတ်ပူပင်သော",
+      "myanmar": "စိတ်ပူပင်သော",
+      "pos": "adjective",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l14.v023",
+      "lessonId": "n4.l14",
+      "ja": "複雑",
+      "kana": "ふくざつ",
+      "en": "Complex / complicated",
+      "my": "ရှုပ်ထွေးသော",
+      "meaningMy": "ရှုပ်ထွေးသော",
+      "meaningMyanmar": "ရှုပ်ထွေးသော",
+      "myanmar": "ရှုပ်ထွေးသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l14.v024",
+      "lessonId": "n4.l14",
+      "ja": "簡単",
+      "kana": "かんたん",
+      "en": "Simple / easy",
+      "my": "ရိုးရှင်းလွယ်ကူသော",
+      "meaningMy": "ရိုးရှင်းလွယ်ကူသော",
+      "meaningMyanmar": "ရိုးရှင်းလွယ်ကူသော",
+      "myanmar": "ရိုးရှင်းလွယ်ကူသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l14.v025",
+      "lessonId": "n4.l14",
+      "ja": "だんだん",
+      "kana": "だんだん",
+      "en": "Gradually / step by step",
+      "my": "တဖြည်းဖြည်း",
+      "meaningMy": "တဖြည်းဖြည်း",
+      "meaningMyanmar": "တဖြည်းဖြည်း",
+      "myanmar": "တဖြည်းဖြည်း",
+      "pos": "adverb",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l14.v026",
+      "lessonId": "n4.l14",
+      "ja": "なかなか",
+      "kana": "なかなか",
+      "en": "Quite / not easily",
+      "my": "တော်တော်နှင့်မလွယ်ကူသော",
+      "meaningMy": "တော်တော်နှင့်မလွယ်ကူသော",
+      "meaningMyanmar": "တော်တော်နှင့်မလွယ်ကူသော",
+      "myanmar": "တော်တော်နှင့်မလွယ်ကူသော",
+      "pos": "adverb",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l14.v027",
+      "lessonId": "n4.l14",
+      "ja": "ぜんぜん",
+      "kana": "ぜんぜん",
+      "en": "Not at all (with negative)",
+      "my": "လုံးဝ (မဖြစ်/မလုပ်)",
+      "meaningMy": "လုံးဝ (မဖြစ်/မလုပ်)",
+      "meaningMyanmar": "လုံးဝ (မဖြစ်/မလုပ်)",
+      "myanmar": "လုံးဝ (မဖြစ်/မလုပ်)",
+      "pos": "adverb",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l14.v028",
+      "lessonId": "n4.l14",
+      "ja": "はっきり",
+      "kana": "はっきり",
+      "en": "Clearly / distinctly",
+      "my": "ရှင်းရှင်းလင်းလင်း",
+      "meaningMy": "ရှင်းရှင်းလင်းလင်း",
+      "meaningMyanmar": "ရှင်းရှင်းလင်းလင်း",
+      "myanmar": "ရှင်းရှင်းလင်းလင်း",
+      "pos": "adverb",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n4.l14.v029",
+      "lessonId": "n4.l14",
+      "ja": "しっかり",
+      "kana": "しっかり",
+      "en": "Firmly / reliably",
+      "my": "သေချာစွာ / ခိုင်မာစွာ",
+      "meaningMy": "သေချာစွာ / ခိုင်မာစွာ",
+      "meaningMyanmar": "သေချာစွာ / ခိုင်မာစွာ",
+      "myanmar": "သေချာစွာ / ခိုင်မာစွာ",
+      "pos": "adverb",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n4.l14.v030",
+      "lessonId": "n4.l14",
+      "ja": "電車",
+      "kana": "でんしゃ",
+      "en": "Electric train",
+      "my": "ရထား",
+      "meaningMy": "ရထား",
+      "meaningMyanmar": "ရထား",
+      "myanmar": "ရထား",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l14.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [
@@ -693,7 +1233,25 @@
         "my": "ကုမ္ပဏီဥက္ကဋ္ဌသည် ယခုအခါ အစည်းအဝေးခန်းမထဲတွင် ရှိနေပါသည် (ရိုသေစကား)။"
       },
       "vocabIds": [
-        "n4.l14.v001"
+        "n4.l14.v001",
+        "n4.l14.v013",
+        "n4.l14.v014",
+        "n4.l14.v015",
+        "n4.l14.v016",
+        "n4.l14.v017",
+        "n4.l14.v018",
+        "n4.l14.v019",
+        "n4.l14.v020",
+        "n4.l14.v021",
+        "n4.l14.v022",
+        "n4.l14.v023",
+        "n4.l14.v024",
+        "n4.l14.v025",
+        "n4.l14.v026",
+        "n4.l14.v027",
+        "n4.l14.v028",
+        "n4.l14.v029",
+        "n4.l14.v030"
       ],
       "grammarIds": [
         "n4.l14.g001"
@@ -2104,7 +2662,7 @@
   "prov": {
     "source": "Nihongo N2 Master Editorial Team (Native Review)",
     "license": "CC-BY-4.0",
-    "status": "reviewed",
+    "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
     "rev": 2
   },

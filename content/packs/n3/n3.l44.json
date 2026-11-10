@@ -362,6 +362,546 @@
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
+    },
+    {
+      "id": "n3.l44.v013",
+      "lessonId": "n3.l44",
+      "ja": "変化",
+      "kana": "へんか",
+      "en": "Change / variation",
+      "my": "ပြောင်းလဲမှု",
+      "meaningMy": "ပြောင်းလဲမှု",
+      "meaningMyanmar": "ပြောင်းလဲမှု",
+      "myanmar": "ပြောင်းလဲမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l44.v014",
+      "lessonId": "n3.l44",
+      "ja": "意見",
+      "kana": "いけん",
+      "en": "Opinion / view",
+      "my": "ထင်မြင်ယူဆချက်",
+      "meaningMy": "ထင်မြင်ယူဆချက်",
+      "meaningMyanmar": "ထင်မြင်ယူဆချက်",
+      "myanmar": "ထင်မြင်ယူဆချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l44.v015",
+      "lessonId": "n3.l44",
+      "ja": "主張",
+      "kana": "しゅちょう",
+      "en": "Claim / advocacy",
+      "my": "အခိုင်အမာပြောဆိုခြင်း",
+      "meaningMy": "အခိုင်အမာပြောဆိုခြင်း",
+      "meaningMyanmar": "အခိုင်အမာပြောဆိုခြင်း",
+      "myanmar": "အခိုင်အမာပြောဆိုခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l44.v016",
+      "lessonId": "n3.l44",
+      "ja": "賛成",
+      "kana": "さんせい",
+      "en": "Approval / agreement",
+      "my": "သဘောတူထောက်ခံခြင်း",
+      "meaningMy": "သဘောတူထောက်ခံခြင်း",
+      "meaningMyanmar": "သဘောတူထောက်ခံခြင်း",
+      "myanmar": "သဘောတူထောက်ခံခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l44.v017",
+      "lessonId": "n3.l44",
+      "ja": "反対",
+      "kana": "はんたい",
+      "en": "Opposition / objection",
+      "my": "ဆန့်ကျင်ကန့်ကွက်ခြင်း",
+      "meaningMy": "ဆန့်ကျင်ကန့်ကွက်ခြင်း",
+      "meaningMyanmar": "ဆန့်ကျင်ကန့်ကွက်ခြင်း",
+      "myanmar": "ဆန့်ကျင်ကန့်ကွက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l44.v018",
+      "lessonId": "n3.l44",
+      "ja": "議論",
+      "kana": "ぎろん",
+      "en": "Discussion / debate",
+      "my": "အငြင်းအခုံဆွေးနွေးခြင်း",
+      "meaningMy": "အငြင်းအခုံဆွေးနွေးခြင်း",
+      "meaningMyanmar": "အငြင်းအခုံဆွေးနွေးခြင်း",
+      "myanmar": "အငြင်းအခုံဆွေးနွေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l44.v019",
+      "lessonId": "n3.l44",
+      "ja": "結論",
+      "kana": "けつろん",
+      "en": "Conclusion",
+      "my": "နိဂုံးချုပ်ကောက်ချက်",
+      "meaningMy": "နိဂုံးချုပ်ကောက်ချက်",
+      "meaningMyanmar": "နိဂုံးချုပ်ကောက်ချက်",
+      "myanmar": "နိဂုံးချုပ်ကောက်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l44.v020",
+      "lessonId": "n3.l44",
+      "ja": "理由",
+      "kana": "りゆう",
+      "en": "Reason",
+      "my": "အကြောင်းပြချက်",
+      "meaningMy": "အကြောင်းပြချက်",
+      "meaningMyanmar": "အကြောင်းပြချက်",
+      "myanmar": "အကြောင်းပြချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l44.v021",
+      "lessonId": "n3.l44",
+      "ja": "原因",
+      "kana": "げんいん",
+      "en": "Cause / origin",
+      "my": "အကြောင်းရင်း",
+      "meaningMy": "အကြောင်းရင်း",
+      "meaningMyanmar": "အကြောင်းရင်း",
+      "myanmar": "အကြောင်းရင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l44.v022",
+      "lessonId": "n3.l44",
+      "ja": "結果",
+      "kana": "けっか",
+      "en": "Result / outcome",
+      "my": "ရလဒ်",
+      "meaningMy": "ရလဒ်",
+      "meaningMyanmar": "ရလဒ်",
+      "myanmar": "ရလဒ်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l44.v023",
+      "lessonId": "n3.l44",
+      "ja": "事実",
+      "kana": "じじつ",
+      "en": "Fact / reality",
+      "my": "အမှန်တရား / အရှိတရား",
+      "meaningMy": "အမှန်တရား / အရှိတရား",
+      "meaningMyanmar": "အမှန်တရား / အရှိတရား",
+      "myanmar": "အမှန်တရား / အရှိတရား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l44.v024",
+      "lessonId": "n3.l44",
+      "ja": "証拠",
+      "kana": "しょうこ",
+      "en": "Evidence / proof",
+      "my": "သက်သေအထောက်အထား",
+      "meaningMy": "သက်သေအထောက်အထား",
+      "meaningMyanmar": "သက်သေအထောက်အထား",
+      "myanmar": "သက်သေအထောက်အထား",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l44.v025",
+      "lessonId": "n3.l44",
+      "ja": "したがって",
+      "kana": "したがって",
+      "en": "Therefore / consequently",
+      "my": "ထို့ကြောင့် / အကျိုးအားဖြင့်",
+      "meaningMy": "ထို့ကြောင့် / အကျိုးအားဖြင့်",
+      "meaningMyanmar": "ထို့ကြောင့် / အကျိုးအားဖြင့်",
+      "myanmar": "ထို့ကြောင့် / အကျိုးအားဖြင့်",
+      "pos": "conjunction",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l44.v026",
+      "lessonId": "n3.l44",
+      "ja": "すなわち",
+      "kana": "すなわち",
+      "en": "Namely / in other words",
+      "my": "ဆိုလိုသည်မှာ",
+      "meaningMy": "ဆိုလိုသည်မှာ",
+      "meaningMyanmar": "ဆိုလိုသည်မှာ",
+      "myanmar": "ဆိုလိုသည်မှာ",
+      "pos": "conjunction",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n3.l44.v027",
+      "lessonId": "n3.l44",
+      "ja": "ただし",
+      "kana": "ただし",
+      "en": "However / provided that",
+      "my": "သို့သော်လည်း / သို့ရာတွင်",
+      "meaningMy": "သို့သော်လည်း / သို့ရာတွင်",
+      "meaningMyanmar": "သို့သော်လည်း / သို့ရာတွင်",
+      "myanmar": "သို့သော်လည်း / သို့ရာတွင်",
+      "pos": "conjunction",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l44.v028",
+      "lessonId": "n3.l44",
+      "ja": "申し込む",
+      "kana": "もうしこむ",
+      "en": "To apply for / propose",
+      "my": "လျှောက်ထားသည် / တင်ပြသည်",
+      "meaningMy": "လျှောက်ထားသည် / တင်ပြသည်",
+      "meaningMyanmar": "လျှောက်ထားသည် / တင်ပြသည်",
+      "myanmar": "လျှောက်ထားသည် / တင်ပြသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
+    },
+    {
+      "id": "n3.l44.v029",
+      "lessonId": "n3.l44",
+      "ja": "思い出す",
+      "kana": "おもいだす",
+      "en": "To recall / remember",
+      "my": "သတိရအောက်မေ့သည်",
+      "meaningMy": "သတိရအောက်မေ့သည်",
+      "meaningMyanmar": "သတိရအောက်မေ့သည်",
+      "myanmar": "သတိရအောက်မေ့သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
+    },
+    {
+      "id": "n3.l44.v030",
+      "lessonId": "n3.l44",
+      "ja": "取り消す",
+      "kana": "とりけす",
+      "en": "To cancel / revoke",
+      "my": "ပယ်ဖျက်သည် / ရုပ်သိမ်းသည်",
+      "meaningMy": "ပယ်ဖျက်သည် / ရုပ်သိမ်းသည်",
+      "meaningMyanmar": "ပယ်ဖျက်သည် / ရုပ်သိမ်းသည်",
+      "myanmar": "ပယ်ဖျက်သည် / ရုပ်သိမ်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l44.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     }
   ],
   "kanjis": [
@@ -654,7 +1194,25 @@
       "translationMy": "တက္ကသိုလ်ဝင်ခွင့် စာမေးပွဲဖြေဆိုရန်အတွက် နေ့စဉ် အချိန်များစွာကို အသုံးပြု၍ စာကျက်နေပါသည်။",
       "vocabIds": [
         "n3.l44.v002",
-        "n3.l44.v003"
+        "n3.l44.v003",
+        "n3.l44.v013",
+        "n3.l44.v014",
+        "n3.l44.v015",
+        "n3.l44.v016",
+        "n3.l44.v017",
+        "n3.l44.v018",
+        "n3.l44.v019",
+        "n3.l44.v020",
+        "n3.l44.v021",
+        "n3.l44.v022",
+        "n3.l44.v023",
+        "n3.l44.v024",
+        "n3.l44.v025",
+        "n3.l44.v026",
+        "n3.l44.v027",
+        "n3.l44.v028",
+        "n3.l44.v029",
+        "n3.l44.v030"
       ],
       "grammarIds": [
         "n3.l44.g001"

@@ -70,8 +70,8 @@ describe('M1 Vertical Slice Acceptance: 15-Step Learner Journey', () => {
     expect(timer.getElapsedSeconds(timerState)).toBe(20 * 60);
   });
 
-  it('Step 4, 5, 6: Learner studies vocabulary (12), kanji (3), and grammar (3)', () => {
-    expect(pack.vocabularies.length).toBe(12);
+  it('Step 4, 5, 6: Learner studies vocabulary (30), kanji (3), and grammar (3)', () => {
+    expect(pack.vocabularies.length).toBe(30);
     expect(pack.kanjis.length).toBe(3);
     expect(pack.grammars.length).toBe(3);
 

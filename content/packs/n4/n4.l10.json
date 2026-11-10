@@ -381,6 +381,546 @@
       "myanmar": "ကျေးဇူးတင်ရှိမှု",
       "pitchPattern": "nakadaka",
       "dropIndex": 2
+    },
+    {
+      "id": "n4.l10.v013",
+      "lessonId": "n4.l10",
+      "ja": "つける",
+      "kana": "つける",
+      "en": "To turn on / switch on",
+      "my": "မီးဖွင့်သည်",
+      "meaningMy": "မီးဖွင့်သည်",
+      "meaningMyanmar": "မီးဖွင့်သည်",
+      "myanmar": "မီးဖွင့်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n4.l10.v014",
+      "lessonId": "n4.l10",
+      "ja": "つく",
+      "kana": "つく",
+      "en": "To turn on / be lit",
+      "my": "မီးပွင့်သည်",
+      "meaningMy": "မီးပွင့်သည်",
+      "meaningMyanmar": "မီးပွင့်သည်",
+      "myanmar": "မီးပွင့်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n4.l10.v015",
+      "lessonId": "n4.l10",
+      "ja": "消す",
+      "kana": "けす",
+      "en": "To turn off / erase",
+      "my": "မီးပိတ်သည် / ဖျက်သည်",
+      "meaningMy": "မီးပိတ်သည် / ဖျက်သည်",
+      "meaningMyanmar": "မီးပိတ်သည် / ဖျက်သည်",
+      "myanmar": "မီးပိတ်သည် / ဖျက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l10.v016",
+      "lessonId": "n4.l10",
+      "ja": "消える",
+      "kana": "きえる",
+      "en": "To go out / disappear",
+      "my": "မီးငြိမ်းသည် / ပျောက်ကွယ်သည်",
+      "meaningMy": "မီးငြိမ်းသည် / ပျောက်ကွယ်သည်",
+      "meaningMyanmar": "မီးငြိမ်းသည် / ပျောက်ကွယ်သည်",
+      "myanmar": "မီးငြိမ်းသည် / ပျောက်ကွယ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l10.v017",
+      "lessonId": "n4.l10",
+      "ja": "壊す",
+      "kana": "こわす",
+      "en": "To break / destroy",
+      "my": "ဖျက်ဆီးသည်",
+      "meaningMy": "ဖျက်ဆီးသည်",
+      "meaningMyanmar": "ဖျက်ဆီးသည်",
+      "myanmar": "ဖျက်ဆီးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n4.l10.v018",
+      "lessonId": "n4.l10",
+      "ja": "壊れる",
+      "kana": "こわれる",
+      "en": "To be broken / break",
+      "my": "ပျက်စီးသည်",
+      "meaningMy": "ပျက်စီးသည်",
+      "meaningMyanmar": "ပျက်စီးသည်",
+      "myanmar": "ပျက်စီးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n4.l10.v019",
+      "lessonId": "n4.l10",
+      "ja": "落とす",
+      "kana": "おとす",
+      "en": "To drop / lose",
+      "my": "ပြုတ်ကျစေသည် / ပျောက်သည်",
+      "meaningMy": "ပြုတ်ကျစေသည် / ပျောက်သည်",
+      "meaningMyanmar": "ပြုတ်ကျစေသည် / ပျောက်သည်",
+      "myanmar": "ပြုတ်ကျစေသည် / ပျောက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n4.l10.v020",
+      "lessonId": "n4.l10",
+      "ja": "落ちる",
+      "kana": "おちる",
+      "en": "To fall / drop down",
+      "my": "ပြုတ်ကျသည်",
+      "meaningMy": "ပြုတ်ကျသည်",
+      "meaningMyanmar": "ပြုတ်ကျသည်",
+      "myanmar": "ပြုတ်ကျသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n4.l10.v021",
+      "lessonId": "n4.l10",
+      "ja": "始める",
+      "kana": "はじめる",
+      "en": "To begin / start (transitive)",
+      "my": "စတင်သည်",
+      "meaningMy": "စတင်သည်",
+      "meaningMyanmar": "စတင်သည်",
+      "myanmar": "စတင်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l10.v022",
+      "lessonId": "n4.l10",
+      "ja": "始まる",
+      "kana": "はじまる",
+      "en": "To begin (intransitive)",
+      "my": "စတင်ဖြစ်ပွားသည်",
+      "meaningMy": "စတင်ဖြစ်ပွားသည်",
+      "meaningMyanmar": "စတင်ဖြစ်ပွားသည်",
+      "myanmar": "စတင်ဖြစ်ပွားသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l10.v023",
+      "lessonId": "n4.l10",
+      "ja": "病院",
+      "kana": "びょういん",
+      "en": "Hospital",
+      "my": "ဆေးရုံ",
+      "meaningMy": "ဆေးရုံ",
+      "meaningMyanmar": "ဆေးရုံ",
+      "myanmar": "ဆေးရုံ",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l10.v024",
+      "lessonId": "n4.l10",
+      "ja": "薬",
+      "kana": "くすり",
+      "en": "Medicine",
+      "my": "ဆေး",
+      "meaningMy": "ဆေး",
+      "meaningMyanmar": "ဆေး",
+      "myanmar": "ဆေး",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l10.v025",
+      "lessonId": "n4.l10",
+      "ja": "熱",
+      "kana": "ねつ",
+      "en": "Fever / heat",
+      "my": "အဖျား / အပူ",
+      "meaningMy": "အဖျား / အပူ",
+      "meaningMyanmar": "အဖျား / အပူ",
+      "myanmar": "အဖျား / အပူ",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n4.l10.v026",
+      "lessonId": "n4.l10",
+      "ja": "風邪",
+      "kana": "かぜ",
+      "en": "Cold (illness)",
+      "my": "အအေးမိခြင်း / နှာစေးခြင်း",
+      "meaningMy": "အအေးမိခြင်း / နှာစေးခြင်း",
+      "meaningMyanmar": "အအေးမိခြင်း / နှာစေးခြင်း",
+      "myanmar": "အအေးမိခြင်း / နှာစေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l10.v027",
+      "lessonId": "n4.l10",
+      "ja": "痛い",
+      "kana": "いたい",
+      "en": "Painful / sore",
+      "my": "နာကျင်သော",
+      "meaningMy": "နာကျင်သော",
+      "meaningMyanmar": "နာကျင်သော",
+      "myanmar": "နာကျင်သော",
+      "pos": "adjective",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n4.l10.v028",
+      "lessonId": "n4.l10",
+      "ja": "疲れる",
+      "kana": "つかれる",
+      "en": "To get tired",
+      "my": "ပင်ပန်းသည် / ညောင်းညာသည်",
+      "meaningMy": "ပင်ပန်းသည် / ညောင်းညာသည်",
+      "meaningMyanmar": "ပင်ပန်းသည် / ညောင်းညာသည်",
+      "myanmar": "ပင်ပန်းသည် / ညောင်းညာသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n4.l10.v029",
+      "lessonId": "n4.l10",
+      "ja": "治る",
+      "kana": "なおる",
+      "en": "To recover / heal",
+      "my": "သက်သာပျောက်ကင်းသည်",
+      "meaningMy": "သက်သာပျောက်ကင်းသည်",
+      "meaningMyanmar": "သက်သာပျောက်ကင်းသည်",
+      "myanmar": "သက်သာပျောက်ကင်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n4.l10.v030",
+      "lessonId": "n4.l10",
+      "ja": "入院",
+      "kana": "にゅういん",
+      "en": "Hospitalization",
+      "my": "ဆေးရုံတက်ခြင်း",
+      "meaningMy": "ဆေးရုံတက်ခြင်း",
+      "meaningMyanmar": "ဆေးရုံတက်ခြင်း",
+      "myanmar": "ဆေးရုံတက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l10.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [
@@ -668,7 +1208,25 @@
       "vocabIds": [
         "n4.l10.v001",
         "n4.l10.v003",
-        "n4.l10.v009"
+        "n4.l10.v009",
+        "n4.l10.v013",
+        "n4.l10.v014",
+        "n4.l10.v015",
+        "n4.l10.v016",
+        "n4.l10.v017",
+        "n4.l10.v018",
+        "n4.l10.v019",
+        "n4.l10.v020",
+        "n4.l10.v021",
+        "n4.l10.v022",
+        "n4.l10.v023",
+        "n4.l10.v024",
+        "n4.l10.v025",
+        "n4.l10.v026",
+        "n4.l10.v027",
+        "n4.l10.v028",
+        "n4.l10.v029",
+        "n4.l10.v030"
       ],
       "grammarIds": [
         "n4.l10.g002"
@@ -1979,7 +2537,7 @@
   "prov": {
     "source": "Nihongo N2 Master Editorial Team (Native Review)",
     "license": "CC-BY-4.0",
-    "status": "reviewed",
+    "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
     "rev": 2
   },

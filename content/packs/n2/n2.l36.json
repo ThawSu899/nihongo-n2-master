@@ -374,6 +374,546 @@
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
+    },
+    {
+      "id": "n2.l36.v013",
+      "lessonId": "n2.l36",
+      "ja": "了承",
+      "kana": "りょうしょう",
+      "en": "Approval / consent",
+      "my": "ခွင့်ပြုသဘောတူခြင်း",
+      "meaningMy": "ခွင့်ပြုသဘောတူခြင်း",
+      "meaningMyanmar": "ခွင့်ပြုသဘောတူခြင်း",
+      "myanmar": "ခွင့်ပြုသဘောတူခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l36.v014",
+      "lessonId": "n2.l36",
+      "ja": "依頼",
+      "kana": "いらい",
+      "en": "Request / commission",
+      "my": "အကူအညီတောင်းခံခြင်း",
+      "meaningMy": "အကူအညီတောင်းခံခြင်း",
+      "meaningMyanmar": "အကူအညီတောင်းခံခြင်း",
+      "myanmar": "အကူအညီတောင်းခံခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l36.v015",
+      "lessonId": "n2.l36",
+      "ja": "承諾",
+      "kana": "しょうだく",
+      "en": "Consent / agreement",
+      "my": "လက်ခံသဘောတူခြင်း",
+      "meaningMy": "လက်ခံသဘောတူခြင်း",
+      "meaningMyanmar": "လက်ခံသဘောတူခြင်း",
+      "myanmar": "လက်ခံသဘောတူခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l36.v016",
+      "lessonId": "n2.l36",
+      "ja": "辞退",
+      "kana": "じたい",
+      "en": "Refusal / declining",
+      "my": "ငြင်းပယ်နှုတ်ထွက်ခြင်း",
+      "meaningMy": "ငြင်းပယ်နှုတ်ထွက်ခြင်း",
+      "meaningMyanmar": "ငြင်းပယ်နှုတ်ထွက်ခြင်း",
+      "myanmar": "ငြင်းပယ်နှုတ်ထွက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n2.l36.v017",
+      "lessonId": "n2.l36",
+      "ja": "協議",
+      "kana": "きょうぎ",
+      "en": "Consultation / conference",
+      "my": "ညှိနှိုင်းတိုင်ပင်ဆွေးနွေးခြင်း",
+      "meaningMy": "ညှိနှိုင်းတိုင်ပင်ဆွေးနွေးခြင်း",
+      "meaningMyanmar": "ညှိနှိုင်းတိုင်ပင်ဆွေးနွေးခြင်း",
+      "myanmar": "ညှိနှိုင်းတိုင်ပင်ဆွေးနွေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n2.l36.v018",
+      "lessonId": "n2.l36",
+      "ja": "契約",
+      "kana": "けいやく",
+      "en": "Contract / agreement",
+      "my": "စာချုပ်ချုပ်ဆိုခြင်း",
+      "meaningMy": "စာချုပ်ချုပ်ဆိုခြင်း",
+      "meaningMyanmar": "စာချုပ်ချုပ်ဆိုခြင်း",
+      "myanmar": "စာချုပ်ချုပ်ဆိုခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l36.v019",
+      "lessonId": "n2.l36",
+      "ja": "締結",
+      "kana": "ていけつ",
+      "en": "Conclusion of treaty / contract",
+      "my": "စာချုပ်လက်မှတ်ရေးထိုးခြင်း",
+      "meaningMy": "စာချုပ်လက်မှတ်ရေးထိုးခြင်း",
+      "meaningMyanmar": "စာချုပ်လက်မှတ်ရေးထိုးခြင်း",
+      "myanmar": "စာချုပ်လက်မှတ်ရေးထိုးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l36.v020",
+      "lessonId": "n2.l36",
+      "ja": "破棄",
+      "kana": "はき",
+      "en": "Revocation / discarding",
+      "my": "ဖျက်သိမ်းစွန့်ပစ်ခြင်း",
+      "meaningMy": "ဖျက်သိမ်းစွန့်ပစ်ခြင်း",
+      "meaningMyanmar": "ဖျက်သိမ်းစွန့်ပစ်ခြင်း",
+      "myanmar": "ဖျက်သိမ်းစွန့်ပစ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n2.l36.v021",
+      "lessonId": "n2.l36",
+      "ja": "納品",
+      "kana": "のうひん",
+      "en": "Delivery of goods",
+      "my": "ကုန်ပစ္စည်းပေးသွင်းခြင်း",
+      "meaningMy": "ကုန်ပစ္စည်းပေးသွင်းခြင်း",
+      "meaningMyanmar": "ကုန်ပစ္စည်းပေးသွင်းခြင်း",
+      "myanmar": "ကုန်ပစ္စည်းပေးသွင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l36.v022",
+      "lessonId": "n2.l36",
+      "ja": "請求",
+      "kana": "せいきゅう",
+      "en": "Claim / demand / invoice",
+      "my": "တောင်းခံလွှာ / ငွေတောင်းခြင်း",
+      "meaningMy": "တောင်းခံလွှာ / ငွေတောင်းခြင်း",
+      "meaningMyanmar": "တောင်းခံလွှာ / ငွေတောင်းခြင်း",
+      "myanmar": "တောင်းခံလွှာ / ငွေတောင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l36.v023",
+      "lessonId": "n2.l36",
+      "ja": "領収",
+      "kana": "りょうしゅう",
+      "en": "Receipt / voucher",
+      "my": "ငွေလက်ခံရရှိခြင်း",
+      "meaningMy": "ငွေလက်ခံရရှိခြင်း",
+      "meaningMyanmar": "ငွေလက်ခံရရှိခြင်း",
+      "myanmar": "ငွေလက်ခံရရှိခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l36.v024",
+      "lessonId": "n2.l36",
+      "ja": "添付",
+      "kana": "てんぷ",
+      "en": "Attachment (file)",
+      "my": "ပူးတွဲတင်ပြခြင်း",
+      "meaningMy": "ပူးတွဲတင်ပြခြင်း",
+      "meaningMyanmar": "ပူးတွဲတင်ပြခြင်း",
+      "myanmar": "ပူးတွဲတင်ပြခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l36.v025",
+      "lessonId": "n2.l36",
+      "ja": "送付",
+      "kana": "そうふ",
+      "en": "Sending / forwarding",
+      "my": "ပေးပို့ခြင်း",
+      "meaningMy": "ပေးပို့ခြင်း",
+      "meaningMyanmar": "ပေးပို့ခြင်း",
+      "myanmar": "ပေးပို့ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l36.v026",
+      "lessonId": "n2.l36",
+      "ja": "返信",
+      "kana": "へんしん",
+      "en": "Reply / answering message",
+      "my": "အကြောင်းပြန်စာပို့ခြင်း",
+      "meaningMy": "အကြောင်းပြန်စာပို့ခြင်း",
+      "meaningMyanmar": "အကြောင်းပြန်စာပို့ခြင်း",
+      "myanmar": "အကြောင်းပြန်စာပို့ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l36.v027",
+      "lessonId": "n2.l36",
+      "ja": "拝見",
+      "kana": "はいけん",
+      "en": "Looking / viewing (humble)",
+      "my": "ဖူးမြော်ကြည့်ရှုခြင်း (ယဉ်ကျေး)",
+      "meaningMy": "ဖူးမြော်ကြည့်ရှုခြင်း (ယဉ်ကျေး)",
+      "meaningMyanmar": "ဖူးမြော်ကြည့်ရှုခြင်း (ယဉ်ကျေး)",
+      "myanmar": "ဖူးမြော်ကြည့်ရှုခြင်း (ယဉ်ကျေး)",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l36.v028",
+      "lessonId": "n2.l36",
+      "ja": "存じる",
+      "kana": "ぞんじる",
+      "en": "To think / know (humble)",
+      "my": "ထင်မြင်ယူဆပါသည် (ယဉ်ကျေး)",
+      "meaningMy": "ထင်မြင်ယူဆပါသည် (ယဉ်ကျေး)",
+      "meaningMyanmar": "ထင်မြင်ယူဆပါသည် (ယဉ်ကျေး)",
+      "myanmar": "ထင်မြင်ယူဆပါသည် (ယဉ်ကျေး)",
+      "pos": "verb",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n2.l36.v029",
+      "lessonId": "n2.l36",
+      "ja": "申し上げる",
+      "kana": "もうしあげる",
+      "en": "To say / tell (humble)",
+      "my": "တင်ပြပြောကြားပါသည်",
+      "meaningMy": "တင်ပြပြောကြားပါသည်",
+      "meaningMyanmar": "တင်ပြပြောကြားပါသည်",
+      "myanmar": "တင်ပြပြောကြားပါသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
+    },
+    {
+      "id": "n2.l36.v030",
+      "lessonId": "n2.l36",
+      "ja": "伺う",
+      "kana": "うかがう",
+      "en": "To visit / ask (humble)",
+      "my": "လာရောက်လည်ပတ်/မေးမြန်းပါသည်",
+      "meaningMy": "လာရောက်လည်ပတ်/မေးမြန်းပါသည်",
+      "meaningMyanmar": "လာရောက်လည်ပတ်/မေးမြန်းပါသည်",
+      "myanmar": "လာရောက်လည်ပတ်/မေးမြန်းပါသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n2.l36.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [
@@ -728,7 +1268,25 @@
       "translationMy": "ဘေးဒဏ်သင့်ဒေသတွင် အားသွန်ခွန်စိုက် ပြန်လည်ထူထောင်နေကြသူများကို မြင်တွေ့ရသည့်အခါ ရင်ထဲတွင် မနေနိုင်အောင် နာကျင်ခံစားရသည်။",
       "vocabIds": [
         "n2.l36.v004",
-        "n2.l36.v009"
+        "n2.l36.v009",
+        "n2.l36.v013",
+        "n2.l36.v014",
+        "n2.l36.v015",
+        "n2.l36.v016",
+        "n2.l36.v017",
+        "n2.l36.v018",
+        "n2.l36.v019",
+        "n2.l36.v020",
+        "n2.l36.v021",
+        "n2.l36.v022",
+        "n2.l36.v023",
+        "n2.l36.v024",
+        "n2.l36.v025",
+        "n2.l36.v026",
+        "n2.l36.v027",
+        "n2.l36.v028",
+        "n2.l36.v029",
+        "n2.l36.v030"
       ],
       "grammarIds": [
         "n2.l36.g001"

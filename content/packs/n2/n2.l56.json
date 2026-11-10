@@ -372,6 +372,546 @@
       },
       "pitchPattern": "atamadaka",
       "dropIndex": 1
+    },
+    {
+      "id": "n2.l56.v013",
+      "lessonId": "n2.l56",
+      "ja": "違法",
+      "kana": "いほう",
+      "en": "Illegal / breach of law",
+      "my": "တရားမဝင်မှု",
+      "meaningMy": "တရားမဝင်မှု",
+      "meaningMyanmar": "တရားမဝင်မှု",
+      "myanmar": "တရားမဝင်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v014",
+      "lessonId": "n2.l56",
+      "ja": "合法",
+      "kana": "ごうほう",
+      "en": "Legal / lawful",
+      "my": "တရားဝင်မှု",
+      "meaningMy": "တရားဝင်မှု",
+      "meaningMyanmar": "တရားဝင်မှု",
+      "myanmar": "တရားဝင်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v015",
+      "lessonId": "n2.l56",
+      "ja": "規制",
+      "kana": "きせい",
+      "en": "Regulation / restriction",
+      "my": "ထိန်းချုပ်ကန့်သတ်ခြင်း",
+      "meaningMy": "ထိန်းချုပ်ကန့်သတ်ခြင်း",
+      "meaningMyanmar": "ထိန်းချုပ်ကန့်သတ်ခြင်း",
+      "myanmar": "ထိန်းချုပ်ကန့်သတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v016",
+      "lessonId": "n2.l56",
+      "ja": "緩和",
+      "kana": "かんわ",
+      "en": "Relaxation / mitigation",
+      "my": "ဖြေလျှော့သက်သာစေခြင်း",
+      "meaningMy": "ဖြေလျှော့သက်သာစေခြင်း",
+      "meaningMyanmar": "ဖြေလျှော့သက်သာစေခြင်း",
+      "myanmar": "ဖြေလျှော့သက်သာစေခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v017",
+      "lessonId": "n2.l56",
+      "ja": "導入",
+      "kana": "どうにゅう",
+      "en": "Introduction / installation",
+      "my": "စတင်မိတ်ဆက်အသုံးပြုခြင်း",
+      "meaningMy": "စတင်မိတ်ဆက်အသုံးပြုခြင်း",
+      "meaningMyanmar": "စတင်မိတ်ဆက်အသုံးပြုခြင်း",
+      "myanmar": "စတင်မိတ်ဆက်အသုံးပြုခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v018",
+      "lessonId": "n2.l56",
+      "ja": "施行",
+      "kana": "しこう",
+      "en": "Enforcement / implementation",
+      "my": "ဥပဒေစတင်ပြဋ္ဌာန်းကျင့်သုံးခြင်း",
+      "meaningMy": "ဥပဒေစတင်ပြဋ္ဌာန်းကျင့်သုံးခြင်း",
+      "meaningMyanmar": "ဥပဒေစတင်ပြဋ္ဌာန်းကျင့်သုံးခြင်း",
+      "myanmar": "ဥပဒေစတင်ပြဋ္ဌာန်းကျင့်သုံးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v019",
+      "lessonId": "n2.l56",
+      "ja": "廃止",
+      "kana": "はいし",
+      "en": "Abolition / repeal",
+      "my": "ပယ်ဖျက်ရပ်စဲခြင်း",
+      "meaningMy": "ပယ်ဖျက်ရပ်စဲခြင်း",
+      "meaningMyanmar": "ပယ်ဖျက်ရပ်စဲခြင်း",
+      "myanmar": "ပယ်ဖျက်ရပ်စဲခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v020",
+      "lessonId": "n2.l56",
+      "ja": "矛盾",
+      "kana": "むじゅん",
+      "en": "Contradiction / inconsistency",
+      "my": "ဆန့်ကျင်ကွဲလွဲမှု",
+      "meaningMy": "ဆန့်ကျင်ကွဲလွဲမှု",
+      "meaningMyanmar": "ဆန့်ကျင်ကွဲလွဲမှု",
+      "myanmar": "ဆန့်ကျင်ကွဲလွဲမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v021",
+      "lessonId": "n2.l56",
+      "ja": "妥協",
+      "kana": "だきょう",
+      "en": "Compromise",
+      "my": "အလျှော့ပေးစေ့စပ်ခြင်း",
+      "meaningMy": "အလျှော့ပေးစေ့စပ်ခြင်း",
+      "meaningMyanmar": "အလျှော့ပေးစေ့စပ်ခြင်း",
+      "myanmar": "အလျှော့ပေးစေ့စပ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v022",
+      "lessonId": "n2.l56",
+      "ja": "摩擦",
+      "kana": "まさつ",
+      "en": "Friction / discord",
+      "my": "ပွတ်တိုက်အားမတည့်မှု",
+      "meaningMy": "ပွတ်တိုက်အားမတည့်မှု",
+      "meaningMyanmar": "ပွတ်တိုက်အားမတည့်မှု",
+      "myanmar": "ပွတ်တိုက်အားမတည့်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v023",
+      "lessonId": "n2.l56",
+      "ja": "葛藤",
+      "kana": "かっとう",
+      "en": "Conflict / dilemma",
+      "my": "စိတ်တွင်းပဋိပက္ခ",
+      "meaningMy": "စိတ်တွင်းပဋိပက္ခ",
+      "meaningMyanmar": "စိတ်တွင်းပဋိပက္ခ",
+      "myanmar": "စိတ်တွင်းပဋိပက္ခ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v024",
+      "lessonId": "n2.l56",
+      "ja": "偏見",
+      "kana": "へんけん",
+      "en": "Prejudice / bias",
+      "my": "ဘက်လိုက်အစွဲအလမ်း",
+      "meaningMy": "ဘက်လိုက်အစွဲအလမ်း",
+      "meaningMyanmar": "ဘက်လိုက်အစွဲအလမ်း",
+      "myanmar": "ဘက်လိုက်အစွဲအလမ်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v025",
+      "lessonId": "n2.l56",
+      "ja": "差別",
+      "kana": "さべつ",
+      "en": "Discrimination",
+      "my": "ခွဲခြားဆက်ဆံခြင်း",
+      "meaningMy": "ခွဲခြားဆက်ဆံခြင်း",
+      "meaningMyanmar": "ခွဲခြားဆက်ဆံခြင်း",
+      "myanmar": "ခွဲခြားဆက်ဆံခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n2.l56.v026",
+      "lessonId": "n2.l56",
+      "ja": "格差",
+      "kana": "かくさ",
+      "en": "Disparity / gap",
+      "my": "ကွာဟချက် / အဆင့်အတန်းကွာခြားမှု",
+      "meaningMy": "ကွာဟချက် / အဆင့်အတန်းကွာခြားမှု",
+      "meaningMyanmar": "ကွာဟချက် / အဆင့်အတန်းကွာခြားမှု",
+      "myanmar": "ကွာဟချက် / အဆင့်အတန်းကွာခြားမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n2.l56.v027",
+      "lessonId": "n2.l56",
+      "ja": "貧困",
+      "kana": "ひんこん",
+      "en": "Poverty / destitution",
+      "my": "ဆင်းရဲမွဲတေမှု",
+      "meaningMy": "ဆင်းရဲမွဲတေမှု",
+      "meaningMyanmar": "ဆင်းရဲမွဲတေမှု",
+      "myanmar": "ဆင်းရဲမွဲတေမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v028",
+      "lessonId": "n2.l56",
+      "ja": "少子化",
+      "kana": "しょうしか",
+      "en": "Declining birthrate",
+      "my": "ကလေးမွေးဖွားနှုန်းကျဆင်းခြင်း",
+      "meaningMy": "ကလေးမွေးဖွားနှုန်းကျဆင်းခြင်း",
+      "meaningMyanmar": "ကလေးမွေးဖွားနှုန်းကျဆင်းခြင်း",
+      "myanmar": "ကလေးမွေးဖွားနှုန်းကျဆင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v029",
+      "lessonId": "n2.l56",
+      "ja": "高齢化",
+      "kana": "こうれいか",
+      "en": "Aging population",
+      "my": "သက်ကြီးရွယ်အိုများပြားလာခြင်း",
+      "meaningMy": "သက်ကြီးရွယ်အိုများပြားလာခြင်း",
+      "meaningMyanmar": "သက်ကြီးရွယ်အိုများပြားလာခြင်း",
+      "myanmar": "သက်ကြီးရွယ်အိုများပြားလာခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l56.v030",
+      "lessonId": "n2.l56",
+      "ja": "構造",
+      "kana": "こうぞう",
+      "en": "Structure / construction",
+      "my": "တည်ဆောက်ပုံဖွဲ့စည်းမှု",
+      "meaningMy": "တည်ဆောက်ပုံဖွဲ့စည်းမှု",
+      "meaningMyanmar": "တည်ဆောက်ပုံဖွဲ့စည်းမှု",
+      "myanmar": "တည်ဆောက်ပုံဖွဲ့စည်းမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l56.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [
@@ -718,7 +1258,25 @@
       },
       "translationMy": "လုပ်ငန်းသစ် စီမံကိန်း၏ အသေးစိတ် အချက်အလက်များနှင့် ပတ်သက်၍ တစ်ခေါက်မျှ ရှင်းလင်းတင်ပြခွင့် ရရှိလိုပါသည်ဟု ရိုသေစွာ တင်ပြအပ်ပါသည်။",
       "vocabIds": [
-        "n2.l56.v007"
+        "n2.l56.v007",
+        "n2.l56.v013",
+        "n2.l56.v014",
+        "n2.l56.v015",
+        "n2.l56.v016",
+        "n2.l56.v017",
+        "n2.l56.v018",
+        "n2.l56.v019",
+        "n2.l56.v020",
+        "n2.l56.v021",
+        "n2.l56.v022",
+        "n2.l56.v023",
+        "n2.l56.v024",
+        "n2.l56.v025",
+        "n2.l56.v026",
+        "n2.l56.v027",
+        "n2.l56.v028",
+        "n2.l56.v029",
+        "n2.l56.v030"
       ],
       "grammarIds": [
         "n2.l56.g001"

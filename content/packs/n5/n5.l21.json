@@ -378,6 +378,546 @@
       "myanmar": "အေးမြသော (ရာသီဥတု)",
       "pitchPattern": "nakadaka",
       "dropIndex": 3
+    },
+    {
+      "id": "n5.l21.v013",
+      "lessonId": "n5.l21",
+      "ja": "飲む",
+      "kana": "のむ",
+      "en": "To drink",
+      "my": "သောက်သည်",
+      "meaningMy": "သောက်သည်",
+      "meaningMyanmar": "သောက်သည်",
+      "myanmar": "သောက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l21.v014",
+      "lessonId": "n5.l21",
+      "ja": "行く",
+      "kana": "いく",
+      "en": "To go",
+      "my": "သွားသည်",
+      "meaningMy": "သွားသည်",
+      "meaningMyanmar": "သွားသည်",
+      "myanmar": "သွားသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n5.l21.v015",
+      "lessonId": "n5.l21",
+      "ja": "来る",
+      "kana": "くる",
+      "en": "To come",
+      "my": "လာသည်",
+      "meaningMy": "လာသည်",
+      "meaningMyanmar": "လာသည်",
+      "myanmar": "လာသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l21.v016",
+      "lessonId": "n5.l21",
+      "ja": "帰る",
+      "kana": "かえる",
+      "en": "To return / go home",
+      "my": "ပြန်သည်",
+      "meaningMy": "ပြန်သည်",
+      "meaningMyanmar": "ပြန်သည်",
+      "myanmar": "ပြန်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l21.v017",
+      "lessonId": "n5.l21",
+      "ja": "見る",
+      "kana": "みる",
+      "en": "To see / watch",
+      "my": "ကြည့်သည်",
+      "meaningMy": "ကြည့်သည်",
+      "meaningMyanmar": "ကြည့်သည်",
+      "myanmar": "ကြည့်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l21.v018",
+      "lessonId": "n5.l21",
+      "ja": "聞く",
+      "kana": "きく",
+      "en": "To hear / listen / ask",
+      "my": "နားထောင်သည် / မေးသည်",
+      "meaningMy": "နားထောင်သည် / မေးသည်",
+      "meaningMyanmar": "နားထောင်သည် / မေးသည်",
+      "myanmar": "နားထောင်သည် / မေးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n5.l21.v019",
+      "lessonId": "n5.l21",
+      "ja": "読む",
+      "kana": "よむ",
+      "en": "To read",
+      "my": "ဖတ်သည်",
+      "meaningMy": "ဖတ်သည်",
+      "meaningMyanmar": "ဖတ်သည်",
+      "myanmar": "ဖတ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l21.v020",
+      "lessonId": "n5.l21",
+      "ja": "書く",
+      "kana": "かく",
+      "en": "To write",
+      "my": "ရေးသည်",
+      "meaningMy": "ရေးသည်",
+      "meaningMyanmar": "ရေးသည်",
+      "myanmar": "ရေးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l21.v021",
+      "lessonId": "n5.l21",
+      "ja": "話す",
+      "kana": "はなす",
+      "en": "To speak / talk",
+      "my": "စကားပြောသည်",
+      "meaningMy": "စကားပြောသည်",
+      "meaningMyanmar": "စကားပြောသည်",
+      "myanmar": "စကားပြောသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n5.l21.v022",
+      "lessonId": "n5.l21",
+      "ja": "買う",
+      "kana": "かう",
+      "en": "To buy",
+      "my": "ဝယ်သည်",
+      "meaningMy": "ဝယ်သည်",
+      "meaningMyanmar": "ဝယ်သည်",
+      "myanmar": "ဝယ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n5.l21.v023",
+      "lessonId": "n5.l21",
+      "ja": "起きる",
+      "kana": "おきる",
+      "en": "To wake up / get up",
+      "my": "အိပ်ရာထသည်",
+      "meaningMy": "အိပ်ရာထသည်",
+      "meaningMyanmar": "အိပ်ရာထသည်",
+      "myanmar": "အိပ်ရာထသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n5.l21.v024",
+      "lessonId": "n5.l21",
+      "ja": "寝る",
+      "kana": "ねる",
+      "en": "To sleep / go to bed",
+      "my": "အိပ်သည်",
+      "meaningMy": "အိပ်သည်",
+      "meaningMyanmar": "အိပ်သည်",
+      "myanmar": "အိပ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n5.l21.v025",
+      "lessonId": "n5.l21",
+      "ja": "会う",
+      "kana": "あう",
+      "en": "To meet",
+      "my": "တွေ့ဆုံသည်",
+      "meaningMy": "တွေ့ဆုံသည်",
+      "meaningMyanmar": "တွေ့ဆုံသည်",
+      "myanmar": "တွေ့ဆုံသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l21.v026",
+      "lessonId": "n5.l21",
+      "ja": "待つ",
+      "kana": "まつ",
+      "en": "To wait",
+      "my": "စောင့်ဆိုင်းသည်",
+      "meaningMy": "စောင့်ဆိုင်းသည်",
+      "meaningMyanmar": "စောင့်ဆိုင်းသည်",
+      "myanmar": "စောင့်ဆိုင်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l21.v027",
+      "lessonId": "n5.l21",
+      "ja": "言う",
+      "kana": "いう",
+      "en": "To say / tell",
+      "my": "ပြောသည်",
+      "meaningMy": "ပြောသည်",
+      "meaningMyanmar": "ပြောသည်",
+      "myanmar": "ပြောသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n5.l21.v028",
+      "lessonId": "n5.l21",
+      "ja": "歩く",
+      "kana": "あるく",
+      "en": "To walk",
+      "my": "လမ်းလျှောက်သည်",
+      "meaningMy": "လမ်းလျှောက်သည်",
+      "meaningMyanmar": "လမ်းလျှောက်သည်",
+      "myanmar": "လမ်းလျှောက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n5.l21.v029",
+      "lessonId": "n5.l21",
+      "ja": "走る",
+      "kana": "はしる",
+      "en": "To run",
+      "my": "ပြေးသည်",
+      "meaningMy": "ပြေးသည်",
+      "meaningMyanmar": "ပြေးသည်",
+      "myanmar": "ပြေးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n5.l21.v030",
+      "lessonId": "n5.l21",
+      "ja": "泳ぐ",
+      "kana": "およぐ",
+      "en": "To swim",
+      "my": "ရေကူးသည်",
+      "meaningMy": "ရေကူးသည်",
+      "meaningMyanmar": "ရေကူးသည်",
+      "myanmar": "ရေကူးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n5.l21.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     }
   ],
   "kanjis": [
@@ -674,7 +1214,25 @@
       },
       "vocabIds": [
         "n5.l21.v001",
-        "n5.l21.v011"
+        "n5.l21.v011",
+        "n5.l21.v013",
+        "n5.l21.v014",
+        "n5.l21.v015",
+        "n5.l21.v016",
+        "n5.l21.v017",
+        "n5.l21.v018",
+        "n5.l21.v019",
+        "n5.l21.v020",
+        "n5.l21.v021",
+        "n5.l21.v022",
+        "n5.l21.v023",
+        "n5.l21.v024",
+        "n5.l21.v025",
+        "n5.l21.v026",
+        "n5.l21.v027",
+        "n5.l21.v028",
+        "n5.l21.v029",
+        "n5.l21.v030"
       ],
       "grammarIds": [
         "n5.l21.g002"
@@ -1971,7 +2529,7 @@
   "prov": {
     "source": "Nihongo N2 Master Editorial Team (Native Review)",
     "license": "CC-BY-4.0",
-    "status": "reviewed",
+    "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
     "rev": 2
   },

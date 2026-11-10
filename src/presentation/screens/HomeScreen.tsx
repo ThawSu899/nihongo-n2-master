@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import {
   Play,
   Clock,
@@ -22,13 +22,18 @@ import {
   DailyPlan,
   StudyTimerState,
   CurriculumMapItem,
+  SRSCard,
 } from '../../domain/models/types';
 import { ContentLoader } from '../../data/content/content-loader';
 import { ReminderBanner } from '../components/ReminderBanner';
+import { LevelMasteryWidget } from '../components/LevelMasteryWidget';
+import { DailyTargetStreakWidget } from '../components/DailyTargetStreakWidget';
 
 interface HomeScreenProps {
   profile: UserProfile;
   masteryRecord?: MasteryRecord;
+  masteryRecords?: Record<string, MasteryRecord>;
+  srsCards?: SRSCard[];
   dailyPlan: DailyPlan;
   dueSrsCount: number;
   todayMinutes: number;
@@ -37,16 +42,21 @@ interface HomeScreenProps {
   onOpenSrs: () => void;
   onOpenTests: () => void;
   onNavigate: (view: string) => void;
+  onSelectLevel?: (level: 'N5' | 'N4' | 'N3' | 'N2') => void;
   onOpenReference?: (tab?: 'counters' | 'expressions' | 'mistakes') => void;
   focusedLesson?: CurriculumMapItem;
   totalLessonsInLevel?: number;
   streakDays?: number;
+  longestStreak?: number;
+  todayCompletedWords?: number;
   trueRetention?: number;
 }
 
 export const HomeScreen: React.FC<HomeScreenProps> = ({
   profile,
   masteryRecord,
+  masteryRecords,
+  srsCards,
   dailyPlan,
   dueSrsCount,
   todayMinutes,
@@ -55,16 +65,58 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   onOpenSrs,
   onOpenTests,
   onNavigate,
+  onSelectLevel,
   onOpenReference,
   focusedLesson,
   totalLessonsInLevel,
   streakDays,
+  longestStreak,
+  todayCompletedWords,
   trueRetention,
 }) => {
   const goalMinutes = profile.dailyTargetMinutes || 360;
   const progressPercent = Math.min(100, Math.round((todayMinutes / goalMinutes) * 100));
   const effectiveStreak = streakDays ?? profile.studyStreakDays ?? 0;
   const effectiveRetention = trueRetention !== undefined ? trueRetention : 1.0;
+
+  const levelStats = useMemo(() => {
+    const stats: Record<'N5' | 'N4' | 'N3' | 'N2', { completedLessons: number; masteredVocab: number }> = {
+      N5: { completedLessons: 0, masteredVocab: 0 },
+      N4: { completedLessons: 0, masteredVocab: 0 },
+      N3: { completedLessons: 0, masteredVocab: 0 },
+      N2: { completedLessons: 0, masteredVocab: 0 },
+    };
+
+    if (masteryRecords) {
+      Object.values(masteryRecords).forEach((rec) => {
+        const lvl = rec.lessonId.split('.')[0]?.toUpperCase() as 'N5' | 'N4' | 'N3' | 'N2';
+        if (lvl && stats[lvl] && (rec.state === 'mastered' || rec.state === 'retained')) {
+          stats[lvl].completedLessons += 1;
+        }
+      });
+    }
+
+    if (srsCards && srsCards.length > 0) {
+      srsCards.forEach((card) => {
+        if (
+          card.itemType === 'vocab' &&
+          (card.stability >= 5 || card.intervalDays >= 14 || card.state === 'review')
+        ) {
+          const lvl = card.lessonId.split('.')[0]?.toUpperCase() as 'N5' | 'N4' | 'N3' | 'N2';
+          if (lvl && stats[lvl]) {
+            stats[lvl].masteredVocab += 1;
+          }
+        }
+      });
+    } else if (masteryRecords) {
+      // Direct proportion estimation if raw SRS cards aren't hydrated
+      (['N5', 'N4', 'N3', 'N2'] as const).forEach((lvl) => {
+        stats[lvl].masteredVocab = stats[lvl].completedLessons * 30;
+      });
+    }
+
+    return stats;
+  }, [masteryRecords, srsCards]);
 
   const allCurriculum = ContentLoader.getCurriculumMap();
   const currentLessonId = profile.currentLessonId || 'n5.l01';
@@ -466,6 +518,30 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           </p>
         </div>
       </div>
+
+      {/* =========================================================================
+          DAILY TARGET & STUDY STREAK ENGINE WIDGET
+          ========================================================================= */}
+      <DailyTargetStreakWidget
+        currentStreak={effectiveStreak}
+        longestStreak={longestStreak}
+        todayCompletedCount={todayCompletedWords}
+        onStartStudy={() => onStartStudy(activeLesson.id)}
+      />
+
+      {/* =========================================================================
+          JLPT LEVEL PROGRESS & MASTERY WORKBENCH
+          ========================================================================= */}
+      <LevelMasteryWidget
+        stats={levelStats}
+        onSelectLevel={(lvl) => {
+          if (onSelectLevel) {
+            onSelectLevel(lvl);
+          } else {
+            onNavigate('level-bulk-study');
+          }
+        }}
+      />
 
       {/* =========================================================================
           SPECIALIZED MASTERY WORKBENCHES: Decks, Shadowing & Ghost Quarantine

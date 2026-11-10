@@ -381,6 +381,546 @@
       "myanmar": "ကူညီကယ်ဆယ်သည်",
       "pitchPattern": "heiban",
       "dropIndex": 0
+    },
+    {
+      "id": "n4.l33.v013",
+      "lessonId": "n4.l33",
+      "ja": "風邪",
+      "kana": "かぜ",
+      "en": "Cold (illness)",
+      "my": "အအေးမိခြင်း / နှာစေးခြင်း",
+      "meaningMy": "အအေးမိခြင်း / နှာစေးခြင်း",
+      "meaningMyanmar": "အအေးမိခြင်း / နှာစေးခြင်း",
+      "myanmar": "အအေးမိခြင်း / နှာစေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l33.v014",
+      "lessonId": "n4.l33",
+      "ja": "痛い",
+      "kana": "いたい",
+      "en": "Painful / sore",
+      "my": "နာကျင်သော",
+      "meaningMy": "နာကျင်သော",
+      "meaningMyanmar": "နာကျင်သော",
+      "myanmar": "နာကျင်သော",
+      "pos": "adjective",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n4.l33.v015",
+      "lessonId": "n4.l33",
+      "ja": "疲れる",
+      "kana": "つかれる",
+      "en": "To get tired",
+      "my": "ပင်ပန်းသည် / ညောင်းညာသည်",
+      "meaningMy": "ပင်ပန်းသည် / ညောင်းညာသည်",
+      "meaningMyanmar": "ပင်ပန်းသည် / ညောင်းညာသည်",
+      "myanmar": "ပင်ပန်းသည် / ညောင်းညာသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n4.l33.v016",
+      "lessonId": "n4.l33",
+      "ja": "治る",
+      "kana": "なおる",
+      "en": "To recover / heal",
+      "my": "သက်သာပျောက်ကင်းသည်",
+      "meaningMy": "သက်သာပျောက်ကင်းသည်",
+      "meaningMyanmar": "သက်သာပျောက်ကင်းသည်",
+      "myanmar": "သက်သာပျောက်ကင်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n4.l33.v017",
+      "lessonId": "n4.l33",
+      "ja": "入院",
+      "kana": "にゅういん",
+      "en": "Hospitalization",
+      "my": "ဆေးရုံတက်ခြင်း",
+      "meaningMy": "ဆေးရုံတက်ခြင်း",
+      "meaningMyanmar": "ဆေးရုံတက်ခြင်း",
+      "myanmar": "ဆေးရုံတက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l33.v018",
+      "lessonId": "n4.l33",
+      "ja": "退院",
+      "kana": "たいいん",
+      "en": "Discharge from hospital",
+      "my": "ဆေးရုံဆင်းခြင်း",
+      "meaningMy": "ဆေးရုံဆင်းခြင်း",
+      "meaningMyanmar": "ဆေးရုံဆင်းခြင်း",
+      "myanmar": "ဆေးရုံဆင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l33.v019",
+      "lessonId": "n4.l33",
+      "ja": "体",
+      "kana": "からだ",
+      "en": "Body / health",
+      "my": "ခန္ဓာကိုယ် / ကျန်းမာရေး",
+      "meaningMy": "ခန္ဓာကိုယ် / ကျန်းမာရေး",
+      "meaningMyanmar": "ခန္ဓာကိုယ် / ကျန်းမာရေး",
+      "myanmar": "ခန္ဓာကိုယ် / ကျန်းမာရေး",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l33.v020",
+      "lessonId": "n4.l33",
+      "ja": "頭",
+      "kana": "あたま",
+      "en": "Head",
+      "my": "ဦးခေါင်း",
+      "meaningMy": "ဦးခေါင်း",
+      "meaningMyanmar": "ဦးခေါင်း",
+      "myanmar": "ဦးခေါင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n4.l33.v021",
+      "lessonId": "n4.l33",
+      "ja": "目",
+      "kana": "め",
+      "en": "Eye",
+      "my": "မျက်စိ",
+      "meaningMy": "မျက်စိ",
+      "meaningMyanmar": "မျက်စိ",
+      "myanmar": "မျက်စိ",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n4.l33.v022",
+      "lessonId": "n4.l33",
+      "ja": "手",
+      "kana": "て",
+      "en": "Hand",
+      "my": "လက်",
+      "meaningMy": "လက်",
+      "meaningMyanmar": "လက်",
+      "myanmar": "လက်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n4.l33.v023",
+      "lessonId": "n4.l33",
+      "ja": "足",
+      "kana": "あし",
+      "en": "Foot / leg",
+      "my": "ခြေထောက်",
+      "meaningMy": "ခြေထောက်",
+      "meaningMyanmar": "ခြေထောက်",
+      "myanmar": "ခြေထောက်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n4.l33.v024",
+      "lessonId": "n4.l33",
+      "ja": "天気",
+      "kana": "てんき",
+      "en": "Weather",
+      "my": "ရာသီဥတု",
+      "meaningMy": "ရာသီဥတု",
+      "meaningMyanmar": "ရာသီဥတု",
+      "myanmar": "ရာသီဥတု",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n4.l33.v025",
+      "lessonId": "n4.l33",
+      "ja": "雨",
+      "kana": "あめ",
+      "en": "Rain",
+      "my": "မိုး",
+      "meaningMy": "မိုး",
+      "meaningMyanmar": "မိုး",
+      "myanmar": "မိုး",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n4.l33.v026",
+      "lessonId": "n4.l33",
+      "ja": "雪",
+      "kana": "ゆき",
+      "en": "Snow",
+      "my": "နှင်း",
+      "meaningMy": "နှင်း",
+      "meaningMyanmar": "နှင်း",
+      "myanmar": "နှင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n4.l33.v027",
+      "lessonId": "n4.l33",
+      "ja": "台風",
+      "kana": "たいふう",
+      "en": "Typhoon",
+      "my": "တိုင်ဖုန်းမုန်တိုင်း",
+      "meaningMy": "တိုင်ဖုန်းမုန်တိုင်း",
+      "meaningMyanmar": "တိုင်ဖုန်းမုန်တိုင်း",
+      "myanmar": "တိုင်ဖုန်းမုန်တိုင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n4.l33.v028",
+      "lessonId": "n4.l33",
+      "ja": "地震",
+      "kana": "じしん",
+      "en": "Earthquake",
+      "my": "ငလျင်",
+      "meaningMy": "ငလျင်",
+      "meaningMyanmar": "ငလျင်",
+      "myanmar": "ငလျင်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n4.l33.v029",
+      "lessonId": "n4.l33",
+      "ja": "空",
+      "kana": "そら",
+      "en": "Sky",
+      "my": "ကောင်းကင်",
+      "meaningMy": "ကောင်းကင်",
+      "meaningMyanmar": "ကောင်းကင်",
+      "myanmar": "ကောင်းကင်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n4.l33.v030",
+      "lessonId": "n4.l33",
+      "ja": "雲",
+      "kana": "くも",
+      "en": "Cloud",
+      "my": "တိမ်",
+      "meaningMy": "တိမ်",
+      "meaningMyanmar": "တိမ်",
+      "myanmar": "တိမ်",
+      "pos": "noun",
+      "exampleSentenceId": "n4.l33.s001",
+      "kanjiIds": [],
+      "level": "N4",
+      "difficulty": 2,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     }
   ],
   "kanjis": [
@@ -676,7 +1216,25 @@
         "my": "မိုးထဲတွင် ထီးမပါသဖြင့် အခက်ကြုံနေသော သူငယ်ချင်းအား ကျွန်တော့်၏ အပိုခေါက်ထီးကို ငှားပေးခဲ့ပါသည်။"
       },
       "vocabIds": [
-        "n4.l33.v001"
+        "n4.l33.v001",
+        "n4.l33.v013",
+        "n4.l33.v014",
+        "n4.l33.v015",
+        "n4.l33.v016",
+        "n4.l33.v017",
+        "n4.l33.v018",
+        "n4.l33.v019",
+        "n4.l33.v020",
+        "n4.l33.v021",
+        "n4.l33.v022",
+        "n4.l33.v023",
+        "n4.l33.v024",
+        "n4.l33.v025",
+        "n4.l33.v026",
+        "n4.l33.v027",
+        "n4.l33.v028",
+        "n4.l33.v029",
+        "n4.l33.v030"
       ],
       "grammarIds": [
         "n4.l33.g001"
@@ -2105,7 +2663,7 @@
   "prov": {
     "source": "Nihongo N2 Master Editorial Team (Native Review)",
     "license": "CC-BY-4.0",
-    "status": "reviewed",
+    "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
     "rev": 2
   },

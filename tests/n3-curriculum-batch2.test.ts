@@ -68,8 +68,8 @@ describe('JLPT N3 Curriculum Batch 2 (n3.l31 - n3.l48) & 174/174 Milestone', () 
       expect(pack.title).toBeDefined();
       expect(pack.description.length).toBeGreaterThan(10);
 
-      // Stage 2: 12 Vocabularies
-      expect(pack.vocabularies).toHaveLength(12);
+      // Stage 2: 30 Vocabularies
+      expect(pack.vocabularies).toHaveLength(30);
       for (const v of pack.vocabularies) {
         expect(v.ja).toBeTruthy();
         expect(v.kana).toBeTruthy();

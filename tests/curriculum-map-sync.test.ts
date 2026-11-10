@@ -129,7 +129,7 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
         title: validPack.title,
         grammarTopics: validPack.grammars.map((g) => g.pattern),
         targetKanjiCount: 8, // Real is 3
-        targetVocabCount: 25, // Real is 12
+        targetVocabCount: 25, // Real is 30
         status: 'published',
       };
 
@@ -137,7 +137,7 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
       expect(result.valid).toBe(false);
       expect(result.errors).toEqual(
         expect.arrayContaining([
-          'Vocab count mismatch: map=25, pack=12',
+          'Vocab count mismatch: map=25, pack=30',
           'Kanji count mismatch: map=8, pack=3',
         ])
       );
@@ -222,14 +222,14 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
       expect(html).toContain('n5.l21');
       expect(html).toContain('Becoming and Listing (〜くなる・〜になる・〜たり〜たり)');
       expect(html).toContain('Target Kanji: 4');
-      expect(html).toContain('Target Vocab: 12');
+      expect(html).toContain('Target Vocab: 30');
       expect(html).toContain('[V1-ta] り、[V2-ta] り します');
 
       // N5 Day 30 check
       expect(html).toContain('n5.l30');
       expect(html).toContain('N5 Comprehensive Review and Integration (総まとめ &amp; Can-do)');
       expect(html).toContain('Target Kanji: 4');
-      expect(html).toContain('Target Vocab: 12');
+      expect(html).toContain('Target Vocab: 30');
 
       // Check reviewStatus badge and status badge
       expect(html).toContain('AI-Authored');
@@ -255,7 +255,7 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
       expect(htmlN4).toContain('[Verb Potential Form] (が 話せる / が 読める)');
       expect(htmlN4).toContain('〜が 見える / 〜が 聞こえる');
       expect(htmlN4).toContain('Target Kanji: 4');
-      expect(htmlN4).toContain('Target Vocab: 12');
+      expect(htmlN4).toContain('Target Vocab: 30');
       expect(htmlN4).toContain('Published');
       expect(htmlN4).not.toContain('N4 Grammar Point');
 
@@ -272,7 +272,7 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
       expect(htmlN3).toContain('〜わけだ');
       expect(htmlN3).toContain('〜わけがない');
       expect(htmlN3).toContain('Target Kanji: 4');
-      expect(htmlN3).toContain('Target Vocab: 12');
+      expect(htmlN3).toContain('Target Vocab: 30');
       expect(htmlN3).toContain('Published');
       expect(htmlN3).not.toContain('N3 Grammar Point');
 
@@ -289,7 +289,7 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
       expect(htmlN2).toContain('〜際（に）');
       expect(htmlN2).toContain('〜に際して');
       expect(htmlN2).toContain('Target Kanji: 3');
-      expect(htmlN2).toContain('Target Vocab: 12');
+      expect(htmlN2).toContain('Target Vocab: 30');
       expect(htmlN2).toContain('Published');
       expect(htmlN2).not.toContain('N2 Grammar Point');
 
@@ -306,7 +306,7 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
       expect(loadedPack).not.toBeNull();
       expect(loadedPack?.id).toBe('n5.l21');
       expect(loadedPack?.status).toBe('published');
-      expect(loadedPack?.vocabularies).toHaveLength(12);
+      expect(loadedPack?.vocabularies).toHaveLength(30);
       expect(loadedPack?.kanjis).toHaveLength(4);
       expect(loadedPack?.grammars.length).toBeGreaterThanOrEqual(2);
       expect(loadedPack?.sentences.length).toBeGreaterThanOrEqual(10);

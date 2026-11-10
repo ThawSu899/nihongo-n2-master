@@ -28,9 +28,12 @@ import { ContentLoader } from '../../data/content/content-loader';
 import { quarantineCard } from '../../domain/fsrs/quarantine-engine';
 import { PitchAccentVisualizer } from '../components/PitchAccentVisualizer';
 import { useAudioPlayer } from '../hooks/useAudioPlayer';
+import { KanjiCardItem, extractKanjiForLevel } from '../../domain/curriculum/kanji-extractor';
+import { KanjiDetailModal } from '../components/KanjiDetailModal';
 
 export type JLPTLevel = 'N5' | 'N4' | 'N3' | 'N2';
 export type StudyMode = 'list' | 'drill' | 'quiz';
+export type BulkTab = 'vocab' | 'kanji';
 
 export interface QuizQuestion {
   vocab: Vocabulary;
@@ -117,6 +120,13 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
   const [isQuizSubmitted, setIsQuizSubmitted] = useState<boolean>(false);
   const [isQuizCompleted, setIsQuizCompleted] = useState<boolean>(false);
 
+  // Kanji Deck State
+  const [bulkTab, setBulkTab] = useState<BulkTab>('vocab');
+  const [kanjiList, setKanjiList] = useState<KanjiCardItem[]>([]);
+  const [kanjiLoading, setKanjiLoading] = useState<boolean>(true);
+  const [selectedKanji, setSelectedKanji] = useState<KanjiCardItem | null>(null);
+  const [kanjiSearchQuery, setKanjiSearchQuery] = useState<string>('');
+
   // Quarantine Feedback Toast
   const [toastMessage, setToastMessage] = useState<{ id: number; text: string } | null>(null);
 
@@ -170,6 +180,53 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
       return ja.includes(q) || kana.includes(q) || en.includes(q) || burmese.includes(q);
     });
   }, [words, searchQuery]);
+
+  // Load and aggregate Kanji across all lesson packs for selectedLevel
+  useEffect(() => {
+    let isCancelled = false;
+    setKanjiLoading(true);
+
+    extractKanjiForLevel(selectedLevel)
+      .then((loaded) => {
+        if (!isCancelled) {
+          setKanjiList(loaded);
+          setKanjiLoading(false);
+        }
+      })
+      .catch((err) => {
+        console.error(`[LevelBulkStudyScreen] Failed to load kanji for ${selectedLevel}:`, err);
+        if (!isCancelled) {
+          setKanjiList([]);
+          setKanjiLoading(false);
+        }
+      });
+
+    return () => {
+      isCancelled = true;
+    };
+  }, [selectedLevel]);
+
+  // Search filtering for Kanji
+  const filteredKanji = useMemo(() => {
+    const q = kanjiSearchQuery.trim().toLowerCase();
+    if (!q) return kanjiList;
+
+    return kanjiList.filter((k) => {
+      const literal = (k.literal || '').toLowerCase();
+      const onyomi = (k.onyomi || []).join(' ').toLowerCase();
+      const kunyomi = (k.kunyomi || []).join(' ').toLowerCase();
+      const burmese = (k.meaningBurmese || '').toLowerCase();
+      const en = (k.meaningEn || '').toLowerCase();
+
+      return (
+        literal.includes(q) ||
+        onyomi.includes(q) ||
+        kunyomi.includes(q) ||
+        burmese.includes(q) ||
+        en.includes(q)
+      );
+    });
+  }, [kanjiList, kanjiSearchQuery]);
 
   // Synchronize drill deck with filtered words
   useEffect(() => {
@@ -432,64 +489,101 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               </span>
             </div>
             <h1 className="text-xl sm:text-2xl font-bold text-zinc-100 tracking-tight mt-0.5">
-              {`${selectedLevel} Comprehensive Vocabulary Deck`}
+              {bulkTab === 'vocab'
+                ? `${selectedLevel} Comprehensive Vocabulary Deck`
+                : `${selectedLevel} Kanji Deck & Stroke Visualizer`}
             </h1>
           </div>
         </div>
 
-        {/* Header Right: Total Count Badge & Segmented 3-Mode Switcher */}
-        <div className="flex items-center flex-wrap gap-2.5">
-          <span className="px-3 py-1.5 rounded-xl bg-zinc-900 border border-zinc-800 text-xs font-mono text-zinc-300 flex items-center gap-1.5 shadow-inner">
-            <Layers className="w-3.5 h-3.5 text-rose-400" />
-            <span>{`${selectedLevel} Deck: ${words.length} words`}</span>
-          </span>
-
-          {/* 3-Mode Segmented Switcher */}
-          <div className="flex items-center space-x-1 p-1 bg-zinc-900/90 border border-zinc-800 rounded-2xl shadow-inner overflow-x-auto">
-            <button
-              type="button"
-              onClick={() => setStudyMode('list')}
-              className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
-                studyMode === 'list'
-                  ? 'bg-rose-600 text-white font-semibold shadow-md shadow-rose-950/50'
-                  : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-850'
-              }`}
-            >
-              <span>📜 စာရင်းကြည့် (List View)</span>
-            </button>
-            <button
-              type="button"
-              onClick={() => {
-                setStudyMode('drill');
-                setIsRevealed(false);
-              }}
-              className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
-                studyMode === 'drill'
-                  ? 'bg-rose-600 text-white font-semibold shadow-md shadow-rose-950/50'
-                  : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-850'
-              }`}
-            >
-              <span>🎴 Flashcard လေ့ကျင့်ရန် (Drill Mode)</span>
-            </button>
-            <button
-              type="button"
-              onClick={() => {
-                setStudyMode('quiz');
-                startNewQuiz(filteredWords.length > 0 ? filteredWords : words);
-              }}
-              className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
-                studyMode === 'quiz'
-                  ? 'bg-rose-600 text-white font-semibold shadow-md shadow-rose-950/50'
-                  : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-850'
-              }`}
-            >
-              <span>⚡ အမြန်စစ်ဆေးမေးခွန်း (Quiz Mode)</span>
-            </button>
-          </div>
+        {/* Primary Segmented Mode Selector: Vocabulary vs Kanji */}
+        <div className="flex items-center p-1 bg-zinc-900/90 border border-zinc-800 rounded-2xl shadow-inner">
+          <button
+            type="button"
+            onClick={() => setBulkTab('vocab')}
+            className={`px-3.5 py-1.5 rounded-xl text-xs font-burmese font-semibold transition cursor-pointer flex items-center space-x-1.5 ${
+              bulkTab === 'vocab'
+                ? 'bg-rose-600 text-white shadow-md shadow-rose-950/50'
+                : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-850'
+            }`}
+          >
+            <span>📖 ဝေါဟာရ (Vocabulary)</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setBulkTab('kanji')}
+            className={`px-3.5 py-1.5 rounded-xl text-xs font-burmese font-semibold transition cursor-pointer flex items-center space-x-1.5 ${
+              bulkTab === 'kanji'
+                ? 'bg-rose-600 text-white shadow-md shadow-rose-950/50'
+                : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-850'
+            }`}
+          >
+            <span>🈁 ခန်းဂျီး (Kanji Deck)</span>
+          </button>
         </div>
+
+        {/* Header Right: Total Count Badge & Segmented 3-Mode Switcher */}
+        {bulkTab === 'vocab' ? (
+          <div className="flex items-center flex-wrap gap-2.5">
+            <span className="px-3 py-1.5 rounded-xl bg-zinc-900 border border-zinc-800 text-xs font-mono text-zinc-300 flex items-center gap-1.5 shadow-inner">
+              <Layers className="w-3.5 h-3.5 text-rose-400" />
+              <span>{`${selectedLevel} Deck: ${words.length} words`}</span>
+            </span>
+
+            {/* 3-Mode Segmented Switcher */}
+            <div className="flex items-center space-x-1 p-1 bg-zinc-900/90 border border-zinc-800 rounded-2xl shadow-inner overflow-x-auto">
+              <button
+                type="button"
+                onClick={() => setStudyMode('list')}
+                className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
+                  studyMode === 'list'
+                    ? 'bg-rose-600 text-white font-semibold shadow-md shadow-rose-950/50'
+                    : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-850'
+                }`}
+              >
+                <span>📜 စာရင်းကြည့် (List View)</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setStudyMode('drill');
+                  setIsRevealed(false);
+                }}
+                className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
+                  studyMode === 'drill'
+                    ? 'bg-rose-600 text-white font-semibold shadow-md shadow-rose-950/50'
+                    : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-850'
+                }`}
+              >
+                <span>🎴 Flashcard လေ့ကျင့်ရန် (Drill Mode)</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setStudyMode('quiz');
+                  startNewQuiz(filteredWords.length > 0 ? filteredWords : words);
+                }}
+                className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
+                  studyMode === 'quiz'
+                    ? 'bg-rose-600 text-white font-semibold shadow-md shadow-rose-950/50'
+                    : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-850'
+                }`}
+              >
+                <span>⚡ အမြန်စစ်ဆေးမေးခွန်း (Quiz Mode)</span>
+              </button>
+            </div>
+          </div>
+        ) : (
+          <div className="flex items-center gap-2.5">
+            <span className="px-3.5 py-1.5 rounded-xl bg-zinc-900 border border-zinc-800 text-xs font-mono text-zinc-300 flex items-center gap-1.5 shadow-inner">
+              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+              <span>{`${selectedLevel} Kanji: ${kanjiList.length} 字`}</span>
+            </span>
+          </div>
+        )}
       </div>
 
-      {/* Header Controls: Level Selector & Sticky Search Bar (Visible in List & Drill, or for filter in Quiz) */}
+      {/* Header Controls: Level Selector & Sticky Search Bar (Visible across all tabs) */}
       <div className="sticky top-0 z-30 bg-zinc-950/90 backdrop-blur-2xl border-y border-zinc-800/90 py-3.5 px-1 space-y-3 shadow-xl">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           {/* Level Selector Pills */}
@@ -503,6 +597,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   onClick={() => {
                     setSelectedLevel(lvl);
                     setSearchQuery('');
+                    setKanjiSearchQuery('');
                   }}
                   className={`px-4 py-2 rounded-xl text-xs font-mono font-bold transition-all cursor-pointer flex items-center space-x-1.5 ${
                     active
@@ -519,17 +614,27 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
 
           {/* Results Summary Counter */}
           <div className="text-xs font-mono text-zinc-400 shrink-0">
-            {studyMode === 'quiz' ? (
+            {bulkTab === 'vocab' ? (
+              studyMode === 'quiz' ? (
+                <span>
+                  Active Quiz: <strong className="text-zinc-200">{quizQuestions.length}</strong> questions sampled from {words.length} words
+                </span>
+              ) : searchQuery.trim() ? (
+                <span>
+                  Matching: <strong className="text-zinc-200">{filteredWords.length}</strong> / {words.length} words
+                </span>
+              ) : (
+                <span>
+                  Showing: <strong className="text-zinc-200">{Math.min(displayCount, words.length)}</strong> of {words.length} words
+                </span>
+              )
+            ) : kanjiSearchQuery.trim() ? (
               <span>
-                Active Quiz: <strong className="text-zinc-200">{quizQuestions.length}</strong> questions sampled from {words.length} words
-              </span>
-            ) : searchQuery.trim() ? (
-              <span>
-                Matching: <strong className="text-zinc-200">{filteredWords.length}</strong> / {words.length} words
+                Matching: <strong className="text-zinc-200">{filteredKanji.length}</strong> / {kanjiList.length} kanji
               </span>
             ) : (
               <span>
-                Showing: <strong className="text-zinc-200">{Math.min(displayCount, words.length)}</strong> of {words.length} words
+                Total: <strong className="text-zinc-200">{kanjiList.length}</strong> kanji characters
               </span>
             )}
           </div>
@@ -540,14 +645,30 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
           <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" />
           <input
             type="text"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder={`Search ${selectedLevel} words by Kanji (例: 行く), Kana (例: いく), English, or Burmese...`}
+            value={bulkTab === 'vocab' ? searchQuery : kanjiSearchQuery}
+            onChange={(e) => {
+              if (bulkTab === 'vocab') {
+                setSearchQuery(e.target.value);
+              } else {
+                setKanjiSearchQuery(e.target.value);
+              }
+            }}
+            placeholder={
+              bulkTab === 'vocab'
+                ? `Search ${selectedLevel} words by Kanji (例: 行く), Kana (例: いく), English, or Burmese...`
+                : `Search ${selectedLevel} kanji by Character (例: 学), Onyomi (例: ガク), Kunyomi, or Burmese...`
+            }
             className="w-full bg-zinc-900/90 border border-zinc-800 focus:border-rose-500/60 rounded-xl pl-10 pr-10 py-2.5 text-xs text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-1 focus:ring-rose-500/40 transition font-sans shadow-inner"
           />
-          {searchQuery && (
+          {(bulkTab === 'vocab' ? searchQuery : kanjiSearchQuery) && (
             <button
-              onClick={() => setSearchQuery('')}
+              onClick={() => {
+                if (bulkTab === 'vocab') {
+                  setSearchQuery('');
+                } else {
+                  setKanjiSearchQuery('');
+                }
+              }}
               className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-zinc-400 hover:text-zinc-200 transition cursor-pointer"
               title="Clear search"
             >
@@ -557,8 +678,75 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
         </div>
       </div>
 
-      {/* Loading State */}
-      {loading ? (
+      {/* =========================================================================
+          MAIN TAB 2: KANJI DECK VIEW
+          ========================================================================= */}
+      {bulkTab === 'kanji' ? (
+        kanjiLoading ? (
+          <div className="p-16 text-center space-y-3">
+            <div className="w-8 h-8 mx-auto border-2 border-rose-500 border-t-transparent rounded-full animate-spin" />
+            <p className="text-xs text-zinc-400 font-mono">
+              {`Loading JLPT ${selectedLevel} Kanji Deck...`}
+            </p>
+          </div>
+        ) : filteredKanji.length === 0 ? (
+          <div className="bg-zinc-900/60 border border-zinc-800/80 rounded-3xl p-12 text-center space-y-3">
+            <Sparkles className="w-8 h-8 text-zinc-600 mx-auto" />
+            <h3 className="text-sm font-semibold text-zinc-200">No matching kanji found</h3>
+            <p className="text-xs text-zinc-500 max-w-md mx-auto">
+              Try adjusting your search query or clear the filter to view all {selectedLevel} kanji characters.
+            </p>
+            {kanjiSearchQuery && (
+              <button
+                type="button"
+                onClick={() => setKanjiSearchQuery('')}
+                className="px-4 py-2 rounded-xl bg-zinc-800 hover:bg-zinc-750 text-zinc-300 text-xs font-medium transition cursor-pointer mt-2"
+              >
+                Clear Search Query
+              </button>
+            )}
+          </div>
+        ) : (
+          <div className="space-y-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+              {filteredKanji.map((k) => (
+                <div
+                  key={k.id}
+                  onClick={() => setSelectedKanji(k)}
+                  className="group relative overflow-hidden rounded-2xl bg-zinc-900/70 border border-zinc-800/80 hover:border-rose-500/60 p-4 hover:bg-zinc-850/70 transition-all duration-300 cursor-pointer hover:scale-[1.02] shadow-lg flex flex-col justify-between"
+                >
+                  {/* Top: Stroke count badge & JLPT Level */}
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-[10px] font-mono text-zinc-400 bg-zinc-950/80 border border-zinc-800 px-2 py-0.5 rounded-full">
+                      {`画数: ${k.strokeCount}`}
+                    </span>
+                    <span className="text-[10px] font-mono text-rose-400 font-semibold">
+                      {k.jlptLevel}
+                    </span>
+                  </div>
+
+                  {/* Center: Prominent Kanji character */}
+                  <div className="my-2 text-center">
+                    <span className="text-4xl sm:text-5xl font-japanese font-bold text-zinc-100 group-hover:text-rose-300 group-hover:scale-110 transition-transform duration-300 inline-block drop-shadow-[0_0_12px_rgba(244,63,94,0.25)]">
+                      {k.literal}
+                    </span>
+                  </div>
+
+                  {/* Bottom: On/Kun readings & Burmese meaning */}
+                  <div className="space-y-1 pt-2 border-t border-zinc-800/60 text-center">
+                    <div className="text-[11px] text-zinc-400 font-japanese truncate">
+                      {k.onyomi[0] || k.kunyomi[0] || '—'}
+                    </div>
+                    <div className="font-burmese text-xs text-emerald-400 font-medium line-clamp-1">
+                      {k.meaningBurmese}
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )
+      ) : loading ? (
         <div className="p-16 text-center space-y-3">
           <div className="w-8 h-8 mx-auto border-2 border-rose-500 border-t-transparent rounded-full animate-spin" />
           <p className="text-xs text-zinc-400 font-mono">
@@ -1216,6 +1404,13 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
           )}
         </div>
       )}
+
+      {/* Interactive Kanji Detail & Stroke Visualizer Modal */}
+      <KanjiDetailModal
+        kanji={selectedKanji}
+        isOpen={Boolean(selectedKanji)}
+        onClose={() => setSelectedKanji(null)}
+      />
 
       {/* Subtle Floating Toast Notification for Ghost Card Quarantine */}
       <AnimatePresence>

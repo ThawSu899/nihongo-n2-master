@@ -382,6 +382,546 @@
       "myanmar": "အတူတကွယှဉ်တွဲနေထိုင်ခြင်း",
       "pitchPattern": "heiban",
       "dropIndex": 0
+    },
+    {
+      "id": "n3.l20.v013",
+      "lessonId": "n3.l20",
+      "ja": "汚染",
+      "kana": "おせん",
+      "en": "Pollution / contamination",
+      "my": "ညစ်ညမ်းမှု",
+      "meaningMy": "ညစ်ညမ်းမှု",
+      "meaningMyanmar": "ညစ်ညမ်းမှု",
+      "myanmar": "ညစ်ညမ်းမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l20.v014",
+      "lessonId": "n3.l20",
+      "ja": "温暖化",
+      "kana": "おんだんか",
+      "en": "Global warming",
+      "my": "ကမ္ဘာကြီးပူနွေးလာမှု",
+      "meaningMy": "ကမ္ဘာကြီးပူနွေးလာမှု",
+      "meaningMyanmar": "ကမ္ဘာကြီးပူနွေးလာမှု",
+      "myanmar": "ကမ္ဘာကြီးပူနွေးလာမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l20.v015",
+      "lessonId": "n3.l20",
+      "ja": "開発",
+      "kana": "かいはつ",
+      "en": "Development",
+      "my": "ဖွံ့ဖြိုးတိုးတက်အောင်လုပ်ဆောင်ခြင်း",
+      "meaningMy": "ဖွံ့ဖြိုးတိုးတက်အောင်လုပ်ဆောင်ခြင်း",
+      "meaningMyanmar": "ဖွံ့ဖြိုးတိုးတက်အောင်လုပ်ဆောင်ခြင်း",
+      "myanmar": "ဖွံ့ဖြိုးတိုးတက်အောင်လုပ်ဆောင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l20.v016",
+      "lessonId": "n3.l20",
+      "ja": "発展",
+      "kana": "はってん",
+      "en": "Growth / expansion",
+      "my": "တိုးတက်ကြီးပွားခြင်း",
+      "meaningMy": "တိုးတက်ကြီးပွားခြင်း",
+      "meaningMyanmar": "တိုးတက်ကြီးပွားခြင်း",
+      "myanmar": "တိုးတက်ကြီးပွားခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l20.v017",
+      "lessonId": "n3.l20",
+      "ja": "技術",
+      "kana": "ぎじゅつ",
+      "en": "Technology / skill",
+      "my": "နည်းပညာ / ကျွမ်းကျင်မှု",
+      "meaningMy": "နည်းပညာ / ကျွမ်းကျင်မှု",
+      "meaningMyanmar": "နည်းပညာ / ကျွမ်းကျင်မှု",
+      "myanmar": "နည်းပညာ / ကျွမ်းကျင်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l20.v018",
+      "lessonId": "n3.l20",
+      "ja": "情報",
+      "kana": "じょうほう",
+      "en": "Information / news",
+      "my": "သတင်းအချက်အလက်",
+      "meaningMy": "သတင်းအချက်အလက်",
+      "meaningMyanmar": "သတင်းအချက်အလက်",
+      "myanmar": "သတင်းအချက်အလက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l20.v019",
+      "lessonId": "n3.l20",
+      "ja": "普及",
+      "kana": "ふきゅう",
+      "en": "Spread / popularization",
+      "my": "လူသုံးများပြန့်နှံ့ခြင်း",
+      "meaningMy": "လူသုံးများပြန့်နှံ့ခြင်း",
+      "meaningMyanmar": "လူသုံးများပြန့်နှံ့ခြင်း",
+      "myanmar": "လူသုံးများပြန့်နှံ့ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l20.v020",
+      "lessonId": "n3.l20",
+      "ja": "影響",
+      "kana": "えいきょう",
+      "en": "Influence / effect",
+      "my": "လွှမ်းမိုးသက်ရောက်မှု",
+      "meaningMy": "လွှမ်းမိုးသက်ရောက်မှု",
+      "meaningMyanmar": "လွှမ်းမိုးသက်ရောက်မှု",
+      "myanmar": "လွှမ်းမိုးသက်ရောက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l20.v021",
+      "lessonId": "n3.l20",
+      "ja": "効果",
+      "kana": "こうか",
+      "en": "Effect / effectiveness",
+      "my": "ထိရောက်သောအကျိုးသက်ရောက်မှု",
+      "meaningMy": "ထိရောက်သောအကျိုးသက်ရောက်မှု",
+      "meaningMyanmar": "ထိရောက်သောအကျိုးသက်ရောက်မှု",
+      "myanmar": "ထိရောက်သောအကျိုးသက်ရောက်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l20.v022",
+      "lessonId": "n3.l20",
+      "ja": "変化",
+      "kana": "へんか",
+      "en": "Change / variation",
+      "my": "ပြောင်းလဲမှု",
+      "meaningMy": "ပြောင်းလဲမှု",
+      "meaningMyanmar": "ပြောင်းလဲမှု",
+      "myanmar": "ပြောင်းလဲမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l20.v023",
+      "lessonId": "n3.l20",
+      "ja": "意見",
+      "kana": "いけん",
+      "en": "Opinion / view",
+      "my": "ထင်မြင်ယူဆချက်",
+      "meaningMy": "ထင်မြင်ယူဆချက်",
+      "meaningMyanmar": "ထင်မြင်ယူဆချက်",
+      "myanmar": "ထင်မြင်ယူဆချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l20.v024",
+      "lessonId": "n3.l20",
+      "ja": "主張",
+      "kana": "しゅちょう",
+      "en": "Claim / advocacy",
+      "my": "အခိုင်အမာပြောဆိုခြင်း",
+      "meaningMy": "အခိုင်အမာပြောဆိုခြင်း",
+      "meaningMyanmar": "အခိုင်အမာပြောဆိုခြင်း",
+      "myanmar": "အခိုင်အမာပြောဆိုခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l20.v025",
+      "lessonId": "n3.l20",
+      "ja": "賛成",
+      "kana": "さんせい",
+      "en": "Approval / agreement",
+      "my": "သဘောတူထောက်ခံခြင်း",
+      "meaningMy": "သဘောတူထောက်ခံခြင်း",
+      "meaningMyanmar": "သဘောတူထောက်ခံခြင်း",
+      "myanmar": "သဘောတူထောက်ခံခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l20.v026",
+      "lessonId": "n3.l20",
+      "ja": "反対",
+      "kana": "はんたい",
+      "en": "Opposition / objection",
+      "my": "ဆန့်ကျင်ကန့်ကွက်ခြင်း",
+      "meaningMy": "ဆန့်ကျင်ကန့်ကွက်ခြင်း",
+      "meaningMyanmar": "ဆန့်ကျင်ကန့်ကွက်ခြင်း",
+      "myanmar": "ဆန့်ကျင်ကန့်ကွက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l20.v027",
+      "lessonId": "n3.l20",
+      "ja": "議論",
+      "kana": "ぎろん",
+      "en": "Discussion / debate",
+      "my": "အငြင်းအခုံဆွေးနွေးခြင်း",
+      "meaningMy": "အငြင်းအခုံဆွေးနွေးခြင်း",
+      "meaningMyanmar": "အငြင်းအခုံဆွေးနွေးခြင်း",
+      "myanmar": "အငြင်းအခုံဆွေးနွေးခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l20.v028",
+      "lessonId": "n3.l20",
+      "ja": "結論",
+      "kana": "けつろん",
+      "en": "Conclusion",
+      "my": "နိဂုံးချုပ်ကောက်ချက်",
+      "meaningMy": "နိဂုံးချုပ်ကောက်ချက်",
+      "meaningMyanmar": "နိဂုံးချုပ်ကောက်ချက်",
+      "myanmar": "နိဂုံးချုပ်ကောက်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l20.v029",
+      "lessonId": "n3.l20",
+      "ja": "理由",
+      "kana": "りゆう",
+      "en": "Reason",
+      "my": "အကြောင်းပြချက်",
+      "meaningMy": "အကြောင်းပြချက်",
+      "meaningMyanmar": "အကြောင်းပြချက်",
+      "myanmar": "အကြောင်းပြချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l20.v030",
+      "lessonId": "n3.l20",
+      "ja": "原因",
+      "kana": "げんいん",
+      "en": "Cause / origin",
+      "my": "အကြောင်းရင်း",
+      "meaningMy": "အကြောင်းရင်း",
+      "meaningMyanmar": "အကြောင်းရင်း",
+      "myanmar": "အကြောင်းရင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l20.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [
@@ -694,7 +1234,25 @@
         "my": "အွန်လိုင်းဈေးဝယ်စနစ်သည် အချိန်မရွေး ဈေးဝယ်နိုင်ပြီး အလွန်အဆင်ပြေလွယ်ကူသော်လည်း အခြားတစ်ဖက်တွင်မူ ဒေသတွင်းဈေးဆိုင်တန်းများ ဆုတ်ယုတ်ကျဆင်းစေသည့် အကြောင်းအရင်း ဖြစ်လာနေသည်။"
       },
       "vocabIds": [
-        "n3.l20.v001"
+        "n3.l20.v001",
+        "n3.l20.v013",
+        "n3.l20.v014",
+        "n3.l20.v015",
+        "n3.l20.v016",
+        "n3.l20.v017",
+        "n3.l20.v018",
+        "n3.l20.v019",
+        "n3.l20.v020",
+        "n3.l20.v021",
+        "n3.l20.v022",
+        "n3.l20.v023",
+        "n3.l20.v024",
+        "n3.l20.v025",
+        "n3.l20.v026",
+        "n3.l20.v027",
+        "n3.l20.v028",
+        "n3.l20.v029",
+        "n3.l20.v030"
       ],
       "grammarIds": [
         "n3.l20.g001"
@@ -2000,7 +2558,7 @@
   "prov": {
     "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
     "license": "CC-BY-4.0",
-    "status": "reviewed",
+    "status": "native_verified",
     "updatedAt": "2026-10-02T00:00:00Z",
     "rev": 1
   },

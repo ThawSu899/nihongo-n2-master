@@ -82,8 +82,8 @@ describe('JLPT N2 Batch 5 Curriculum Expansion & Syllabus Completion (n2.l41 - n
           expect(pack.module).toBe('N2 Mastery & Professional Japanese');
         });
 
-        it('contains exactly 12 vocabularies with authentic Burmese meanings', () => {
-          expect(pack.vocabularies).toHaveLength(12);
+        it('contains at least 30 vocabularies with authentic Burmese meanings', () => {
+          expect(pack.vocabularies.length).toBeGreaterThanOrEqual(30);
           for (const vocab of pack.vocabularies) {
             expect(vocab.ja).toBeTruthy();
             expect(vocab.kana).toBeTruthy();
@@ -171,7 +171,7 @@ describe('JLPT N2 Batch 5 Curriculum Expansion & Syllabus Completion (n2.l41 - n
         const mapItem = mapById.get(id);
         expect(mapItem, `Map item for ${id} must exist`).toBeDefined();
         expect(mapItem?.status).toBe('published');
-        expect(mapItem?.targetVocabCount).toBe(12);
+        expect(mapItem?.targetVocabCount).toBe(30);
         expect(mapItem?.targetKanjiCount).toBe(3);
         expect(mapItem?.grammarTopics).toHaveLength(3);
 

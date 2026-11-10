@@ -376,6 +376,546 @@
       },
       "pitchPattern": "nakadaka",
       "dropIndex": 2
+    },
+    {
+      "id": "n2.l46.v013",
+      "lessonId": "n2.l46",
+      "ja": "拝見",
+      "kana": "はいけん",
+      "en": "Looking / viewing (humble)",
+      "my": "ဖူးမြော်ကြည့်ရှုခြင်း (ယဉ်ကျေး)",
+      "meaningMy": "ဖူးမြော်ကြည့်ရှုခြင်း (ယဉ်ကျေး)",
+      "meaningMyanmar": "ဖူးမြော်ကြည့်ရှုခြင်း (ယဉ်ကျေး)",
+      "myanmar": "ဖူးမြော်ကြည့်ရှုခြင်း (ယဉ်ကျေး)",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l46.v014",
+      "lessonId": "n2.l46",
+      "ja": "存じる",
+      "kana": "ぞんじる",
+      "en": "To think / know (humble)",
+      "my": "ထင်မြင်ယူဆပါသည် (ယဉ်ကျေး)",
+      "meaningMy": "ထင်မြင်ယူဆပါသည် (ယဉ်ကျေး)",
+      "meaningMyanmar": "ထင်မြင်ယူဆပါသည် (ယဉ်ကျေး)",
+      "myanmar": "ထင်မြင်ယူဆပါသည် (ယဉ်ကျေး)",
+      "pos": "verb",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n2.l46.v015",
+      "lessonId": "n2.l46",
+      "ja": "申し上げる",
+      "kana": "もうしあげる",
+      "en": "To say / tell (humble)",
+      "my": "တင်ပြပြောကြားပါသည်",
+      "meaningMy": "တင်ပြပြောကြားပါသည်",
+      "meaningMyanmar": "တင်ပြပြောကြားပါသည်",
+      "myanmar": "တင်ပြပြောကြားပါသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
+    },
+    {
+      "id": "n2.l46.v016",
+      "lessonId": "n2.l46",
+      "ja": "伺う",
+      "kana": "うかがう",
+      "en": "To visit / ask (humble)",
+      "my": "လာရောက်လည်ပတ်/မေးမြန်းပါသည်",
+      "meaningMy": "လာရောက်လည်ပတ်/မေးမြန်းပါသည်",
+      "meaningMyanmar": "လာရောက်လည်ပတ်/မေးမြန်းပါသည်",
+      "myanmar": "လာရောက်လည်ပတ်/မေးမြန်းပါသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l46.v017",
+      "lessonId": "n2.l46",
+      "ja": "参る",
+      "kana": "まいる",
+      "en": "To go / come (humble)",
+      "my": "သွား/လာပါသည် (ယဉ်ကျေး)",
+      "meaningMy": "သွား/လာပါသည် (ယဉ်ကျေး)",
+      "meaningMyanmar": "သွား/လာပါသည် (ယဉ်ကျေး)",
+      "myanmar": "သွား/လာပါသည် (ယဉ်ကျေး)",
+      "pos": "verb",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n2.l46.v018",
+      "lessonId": "n2.l46",
+      "ja": "法律",
+      "kana": "ほうりつ",
+      "en": "Law / legislation",
+      "my": "ဥပဒေ",
+      "meaningMy": "ဥပဒေ",
+      "meaningMyanmar": "ဥပဒေ",
+      "myanmar": "ဥပဒေ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l46.v019",
+      "lessonId": "n2.l46",
+      "ja": "規定",
+      "kana": "きてい",
+      "en": "Regulation / provision",
+      "my": "စည်းမျဉ်းသတ်မှတ်ချက်",
+      "meaningMy": "စည်းမျဉ်းသတ်မှတ်ချက်",
+      "meaningMyanmar": "စည်းမျဉ်းသတ်မှတ်ချက်",
+      "myanmar": "စည်းမျဉ်းသတ်မှတ်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l46.v020",
+      "lessonId": "n2.l46",
+      "ja": "条約",
+      "kana": "じょうやく",
+      "en": "Treaty / pact",
+      "my": "စာချုပ်သဘောတူညီချက်",
+      "meaningMy": "စာချုပ်သဘောတူညီချက်",
+      "meaningMyanmar": "စာချုပ်သဘောတူညီချက်",
+      "myanmar": "စာချုပ်သဘောတူညီချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l46.v021",
+      "lessonId": "n2.l46",
+      "ja": "義務",
+      "kana": "ぎむ",
+      "en": "Duty / obligation",
+      "my": "တာဝန်ဝတ္တရား",
+      "meaningMy": "တာဝန်ဝတ္တရား",
+      "meaningMyanmar": "တာဝန်ဝတ္တရား",
+      "myanmar": "တာဝန်ဝတ္တရား",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n2.l46.v022",
+      "lessonId": "n2.l46",
+      "ja": "権利",
+      "kana": "けんり",
+      "en": "Right / privilege",
+      "my": "အခွင့်အရေး",
+      "meaningMy": "အခွင့်အရေး",
+      "meaningMyanmar": "အခွင့်အရေး",
+      "myanmar": "အခွင့်အရေး",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n2.l46.v023",
+      "lessonId": "n2.l46",
+      "ja": "侵害",
+      "kana": "しんがい",
+      "en": "Infringement / violation",
+      "my": "ကျူးလွန်ချိုးဖောက်ခြင်း",
+      "meaningMy": "ကျူးလွန်ချိုးဖောက်ခြင်း",
+      "meaningMyanmar": "ကျူးလွန်ချိုးဖောက်ခြင်း",
+      "myanmar": "ကျူးလွန်ချိုးဖောက်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l46.v024",
+      "lessonId": "n2.l46",
+      "ja": "賠償",
+      "kana": "ばいしょう",
+      "en": "Compensation / reparation",
+      "my": "လျော်ကြေးပေးလျော်ခြင်း",
+      "meaningMy": "လျော်ကြေးပေးလျော်ခြင်း",
+      "meaningMyanmar": "လျော်ကြေးပေးလျော်ခြင်း",
+      "myanmar": "လျော်ကြေးပေးလျော်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l46.v025",
+      "lessonId": "n2.l46",
+      "ja": "裁判",
+      "kana": "さいばん",
+      "en": "Trial / judgment",
+      "my": "တရားစီရင်ခြင်း",
+      "meaningMy": "တရားစီရင်ခြင်း",
+      "meaningMyanmar": "တရားစီရင်ခြင်း",
+      "myanmar": "တရားစီရင်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n2.l46.v026",
+      "lessonId": "n2.l46",
+      "ja": "判決",
+      "kana": "はんけつ",
+      "en": "Judicial verdict",
+      "my": "တရားရုံးစီရင်ချက်",
+      "meaningMy": "တရားရုံးစီရင်ချက်",
+      "meaningMyanmar": "တရားရုံးစီရင်ချက်",
+      "myanmar": "တရားရုံးစီရင်ချက်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l46.v027",
+      "lessonId": "n2.l46",
+      "ja": "違法",
+      "kana": "いほう",
+      "en": "Illegal / breach of law",
+      "my": "တရားမဝင်မှု",
+      "meaningMy": "တရားမဝင်မှု",
+      "meaningMyanmar": "တရားမဝင်မှု",
+      "myanmar": "တရားမဝင်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l46.v028",
+      "lessonId": "n2.l46",
+      "ja": "合法",
+      "kana": "ごうほう",
+      "en": "Legal / lawful",
+      "my": "တရားဝင်မှု",
+      "meaningMy": "တရားဝင်မှု",
+      "meaningMyanmar": "တရားဝင်မှု",
+      "myanmar": "တရားဝင်မှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l46.v029",
+      "lessonId": "n2.l46",
+      "ja": "規制",
+      "kana": "きせい",
+      "en": "Regulation / restriction",
+      "my": "ထိန်းချုပ်ကန့်သတ်ခြင်း",
+      "meaningMy": "ထိန်းချုပ်ကန့်သတ်ခြင်း",
+      "meaningMyanmar": "ထိန်းချုပ်ကန့်သတ်ခြင်း",
+      "myanmar": "ထိန်းချုပ်ကန့်သတ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l46.v030",
+      "lessonId": "n2.l46",
+      "ja": "緩和",
+      "kana": "かんわ",
+      "en": "Relaxation / mitigation",
+      "my": "ဖြေလျှော့သက်သာစေခြင်း",
+      "meaningMy": "ဖြေလျှော့သက်သာစေခြင်း",
+      "meaningMyanmar": "ဖြေလျှော့သက်သာစေခြင်း",
+      "myanmar": "ဖြေလျှော့သက်သာစေခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l46.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [
@@ -729,7 +1269,25 @@
       "translationMy": "ရထား နောက်ကျရောက်ရှိခဲ့သောကြောင့် ဆင်ခြေပေးစရာ မရှိဘဲ နောက်ကျသွားခဲ့ရသည်။",
       "vocabIds": [
         "n2.l46.v001",
-        "n2.l46.v006"
+        "n2.l46.v006",
+        "n2.l46.v013",
+        "n2.l46.v014",
+        "n2.l46.v015",
+        "n2.l46.v016",
+        "n2.l46.v017",
+        "n2.l46.v018",
+        "n2.l46.v019",
+        "n2.l46.v020",
+        "n2.l46.v021",
+        "n2.l46.v022",
+        "n2.l46.v023",
+        "n2.l46.v024",
+        "n2.l46.v025",
+        "n2.l46.v026",
+        "n2.l46.v027",
+        "n2.l46.v028",
+        "n2.l46.v029",
+        "n2.l46.v030"
       ],
       "grammarIds": [
         "n2.l46.g001"

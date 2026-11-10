@@ -362,6 +362,546 @@
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
+    },
+    {
+      "id": "n3.l48.v013",
+      "lessonId": "n3.l48",
+      "ja": "期待",
+      "kana": "きたい",
+      "en": "Expectation / anticipation",
+      "my": "မျှော်လင့်ချက်ထားရှိခြင်း",
+      "meaningMy": "မျှော်လင့်ချက်ထားရှိခြင်း",
+      "meaningMyanmar": "မျှော်လင့်ချက်ထားရှိခြင်း",
+      "myanmar": "မျှော်လင့်ချက်ထားရှိခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l48.v014",
+      "lessonId": "n3.l48",
+      "ja": "失望",
+      "kana": "しつぼう",
+      "en": "Disappointment / despair",
+      "my": "စိတ်ပျက်လက်လျှော့ခြင်း",
+      "meaningMy": "စိတ်ပျက်လက်လျှော့ခြင်း",
+      "meaningMyanmar": "စိတ်ပျက်လက်လျှော့ခြင်း",
+      "myanmar": "စိတ်ပျက်လက်လျှော့ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l48.v015",
+      "lessonId": "n3.l48",
+      "ja": "怒る",
+      "kana": "おこる",
+      "en": "To get angry",
+      "my": "ဒေါသထွက်သည်",
+      "meaningMy": "ဒေါသထွက်သည်",
+      "meaningMyanmar": "ဒေါသထွက်သည်",
+      "myanmar": "ဒေါသထွက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n3.l48.v016",
+      "lessonId": "n3.l48",
+      "ja": "悲しむ",
+      "kana": "かなしむ",
+      "en": "To grieve / feel sad",
+      "my": "ဝမ်းနည်းပူဆွေးသည်",
+      "meaningMy": "ဝမ်းနည်းပူဆွေးသည်",
+      "meaningMyanmar": "ဝမ်းနည်းပူဆွေးသည်",
+      "myanmar": "ဝမ်းနည်းပူဆွေးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n3.l48.v017",
+      "lessonId": "n3.l48",
+      "ja": "喜ぶ",
+      "kana": "よろこぶ",
+      "en": "To be glad / rejoice",
+      "my": "ဝမ်းမြောက်ဝမ်းသာဖြစ်သည်",
+      "meaningMy": "ဝမ်းမြောက်ဝမ်းသာဖြစ်သည်",
+      "meaningMyanmar": "ဝမ်းမြောက်ဝမ်းသာဖြစ်သည်",
+      "myanmar": "ဝမ်းမြောက်ဝမ်းသာဖြစ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n3.l48.v018",
+      "lessonId": "n3.l48",
+      "ja": "悩む",
+      "kana": "なやむ",
+      "en": "To be troubled / worry",
+      "my": "စိတ်သောကရောက်သည်",
+      "meaningMy": "စိတ်သောကရောက်သည်",
+      "meaningMyanmar": "စိတ်သောကရောက်သည်",
+      "myanmar": "စိတ်သောကရောက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n3.l48.v019",
+      "lessonId": "n3.l48",
+      "ja": "迷う",
+      "kana": "まよう",
+      "en": "To lose one’s way / hesitate",
+      "my": "လမ်းပျောက်သည် / ဝေခွဲမရဖြစ်သည်",
+      "meaningMy": "လမ်းပျောက်သည် / ဝေခွဲမရဖြစ်သည်",
+      "meaningMyanmar": "လမ်းပျောက်သည် / ဝေခွဲမရဖြစ်သည်",
+      "myanmar": "လမ်းပျောက်သည် / ဝေခွဲမရဖြစ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n3.l48.v020",
+      "lessonId": "n3.l48",
+      "ja": "諦める",
+      "kana": "あきらめる",
+      "en": "To give up / abandon",
+      "my": "လက်လျှော့အရှုံးပေးသည်",
+      "meaningMy": "လက်လျှော့အရှုံးပေးသည်",
+      "meaningMyanmar": "လက်လျှော့အရှုံးပေးသည်",
+      "myanmar": "လက်လျှော့အရှုံးပေးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
+    },
+    {
+      "id": "n3.l48.v021",
+      "lessonId": "n3.l48",
+      "ja": "信じる",
+      "kana": "しんじる",
+      "en": "To believe / trust",
+      "my": "ယုံကြည်သည်",
+      "meaningMy": "ယုံကြည်သည်",
+      "meaningMyanmar": "ယုံကြည်သည်",
+      "myanmar": "ယုံကြည်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n3.l48.v022",
+      "lessonId": "n3.l48",
+      "ja": "疑う",
+      "kana": "うたがう",
+      "en": "To doubt / suspect",
+      "my": "သံသယဖြစ်သည်",
+      "meaningMy": "သံသယဖြစ်သည်",
+      "meaningMyanmar": "သံသယဖြစ်သည်",
+      "myanmar": "သံသယဖြစ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l48.v023",
+      "lessonId": "n3.l48",
+      "ja": "励ます",
+      "kana": "はげます",
+      "en": "To encourage / cheer up",
+      "my": "အားပေးတိုက်တွန်းသည်",
+      "meaningMy": "အားပေးတိုက်တွန်းသည်",
+      "meaningMyanmar": "အားပေးတိုက်တွန်းသည်",
+      "myanmar": "အားပေးတိုက်တွန်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n3.l48.v024",
+      "lessonId": "n3.l48",
+      "ja": "慰める",
+      "kana": "なぐさめる",
+      "en": "To comfort / console",
+      "my": "နှစ်သိမ့်အားပေးသည်",
+      "meaningMy": "နှစ်သိမ့်အားပေးသည်",
+      "meaningMyanmar": "နှစ်သိမ့်အားပေးသည်",
+      "myanmar": "နှစ်သိမ့်အားပေးသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
+    },
+    {
+      "id": "n3.l48.v025",
+      "lessonId": "n3.l48",
+      "ja": "就職",
+      "kana": "しゅうしょく",
+      "en": "Finding employment",
+      "my": "အလုပ်အကိုင်ရရှိခြင်း",
+      "meaningMy": "အလုပ်အကိုင်ရရှိခြင်း",
+      "meaningMyanmar": "အလုပ်အကိုင်ရရှိခြင်း",
+      "myanmar": "အလုပ်အကိုင်ရရှိခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l48.v026",
+      "lessonId": "n3.l48",
+      "ja": "転職",
+      "kana": "てんしょく",
+      "en": "Changing jobs",
+      "my": "အလုပ်ပြောင်းရွှေ့ခြင်း",
+      "meaningMy": "အလုပ်ပြောင်းရွှေ့ခြင်း",
+      "meaningMyanmar": "အလုပ်ပြောင်းရွှေ့ခြင်း",
+      "myanmar": "အလုပ်ပြောင်းရွှေ့ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l48.v027",
+      "lessonId": "n3.l48",
+      "ja": "面接",
+      "kana": "めんせつ",
+      "en": "Interview",
+      "my": "လူတွေ့စစ်ဆေးမေးမြန်းခြင်း",
+      "meaningMy": "လူတွေ့စစ်ဆေးမေးမြန်းခြင်း",
+      "meaningMyanmar": "လူတွေ့စစ်ဆေးမေးမြန်းခြင်း",
+      "myanmar": "လူတွေ့စစ်ဆေးမေးမြန်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l48.v028",
+      "lessonId": "n3.l48",
+      "ja": "履歴書",
+      "kana": "りれきしょ",
+      "en": "Resume / CV",
+      "my": "ကိုယ်ရေးရာဇဝင်",
+      "meaningMy": "ကိုယ်ရေးရာဇဝင်",
+      "meaningMyanmar": "ကိုယ်ရေးရာဇဝင်",
+      "myanmar": "ကိုယ်ရေးရာဇဝင်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n3.l48.v029",
+      "lessonId": "n3.l48",
+      "ja": "給料",
+      "kana": "きゅうりょう",
+      "en": "Salary / wage",
+      "my": "လစာ / လုပ်ခ",
+      "meaningMy": "လစာ / လုပ်ခ",
+      "meaningMyanmar": "လစာ / လုပ်ခ",
+      "myanmar": "လစာ / လုပ်ခ",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l48.v030",
+      "lessonId": "n3.l48",
+      "ja": "残業",
+      "kana": "ざんぎょう",
+      "en": "Overtime work",
+      "my": "အချိန်ပိုဆင်းခြင်း",
+      "meaningMy": "အချိန်ပိုဆင်းခြင်း",
+      "meaningMyanmar": "အချိန်ပိုဆင်းခြင်း",
+      "myanmar": "အချိန်ပိုဆင်းခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l48.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [
@@ -659,7 +1199,25 @@
       "translationMy": "N3 သင်ခန်းစာအားလုံးကို ခြုံငုံ၍ ဘက်စုံ ပြန်လှန်လေ့ကျက်ခြင်းဖြင့် ခိုင်မာသော အခြေခံစွမ်းရည် ပြည့်စုံလာမည် ဖြစ်ပါသည်။",
       "vocabIds": [
         "n3.l48.v001",
-        "n3.l48.v008"
+        "n3.l48.v008",
+        "n3.l48.v013",
+        "n3.l48.v014",
+        "n3.l48.v015",
+        "n3.l48.v016",
+        "n3.l48.v017",
+        "n3.l48.v018",
+        "n3.l48.v019",
+        "n3.l48.v020",
+        "n3.l48.v021",
+        "n3.l48.v022",
+        "n3.l48.v023",
+        "n3.l48.v024",
+        "n3.l48.v025",
+        "n3.l48.v026",
+        "n3.l48.v027",
+        "n3.l48.v028",
+        "n3.l48.v029",
+        "n3.l48.v030"
       ],
       "grammarIds": [
         "n3.l48.g001"

@@ -1,4 +1,4 @@
-import { LessonPack, CurriculumMapItem, LessonPackSchema, Vocabulary } from '../../domain/models/types';
+import { LessonPack, CurriculumMapItem, LessonPackSchema, Vocabulary, Kanji } from '../../domain/models/types';
 import curriculumMapJson from '../../../content/curriculum-map.json';
 import { db } from '../db/dexie-db';
 
@@ -204,5 +204,27 @@ export class ContentLoader {
     }
 
     return vocabularies;
+  }
+
+  /**
+   * Aggregates and deduplicates all kanji items across all lesson packs for a given JLPT level.
+   */
+  static async getKanjiForLevel(level: 'N5' | 'N4' | 'N3' | 'N2'): Promise<Kanji[]> {
+    const packs = await this.getPacksForLevel(level);
+    const seenChars = new Set<string>();
+    const kanjis: Kanji[] = [];
+
+    for (const pack of packs) {
+      if (Array.isArray(pack.kanjis)) {
+        for (const kanji of pack.kanjis) {
+          if (kanji.char && !seenChars.has(kanji.char)) {
+            seenChars.add(kanji.char);
+            kanjis.push(kanji);
+          }
+        }
+      }
+    }
+
+    return kanjis;
   }
 }

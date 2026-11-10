@@ -388,6 +388,546 @@
       "myanmar": "ပေါ့ဆမှု/သတိလက်လွတ်ဖြစ်မှု",
       "pitchPattern": "heiban",
       "dropIndex": 0
+    },
+    {
+      "id": "n3.l22.v013",
+      "lessonId": "n3.l22",
+      "ja": "すなわち",
+      "kana": "すなわち",
+      "en": "Namely / in other words",
+      "my": "ဆိုလိုသည်မှာ",
+      "meaningMy": "ဆိုလိုသည်မှာ",
+      "meaningMyanmar": "ဆိုလိုသည်မှာ",
+      "myanmar": "ဆိုလိုသည်မှာ",
+      "pos": "conjunction",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n3.l22.v014",
+      "lessonId": "n3.l22",
+      "ja": "ただし",
+      "kana": "ただし",
+      "en": "However / provided that",
+      "my": "သို့သော်လည်း / သို့ရာတွင်",
+      "meaningMy": "သို့သော်လည်း / သို့ရာတွင်",
+      "meaningMyanmar": "သို့သော်လည်း / သို့ရာတွင်",
+      "myanmar": "သို့သော်လည်း / သို့ရာတွင်",
+      "pos": "conjunction",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l22.v015",
+      "lessonId": "n3.l22",
+      "ja": "申し込む",
+      "kana": "もうしこむ",
+      "en": "To apply for / propose",
+      "my": "လျှောက်ထားသည် / တင်ပြသည်",
+      "meaningMy": "လျှောက်ထားသည် / တင်ပြသည်",
+      "meaningMyanmar": "လျှောက်ထားသည် / တင်ပြသည်",
+      "myanmar": "လျှောက်ထားသည် / တင်ပြသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
+    },
+    {
+      "id": "n3.l22.v016",
+      "lessonId": "n3.l22",
+      "ja": "思い出す",
+      "kana": "おもいだす",
+      "en": "To recall / remember",
+      "my": "သတိရအောက်မေ့သည်",
+      "meaningMy": "သတိရအောက်မေ့သည်",
+      "meaningMyanmar": "သတိရအောက်မေ့သည်",
+      "myanmar": "သတိရအောက်မေ့သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
+    },
+    {
+      "id": "n3.l22.v017",
+      "lessonId": "n3.l22",
+      "ja": "取り消す",
+      "kana": "とりけす",
+      "en": "To cancel / revoke",
+      "my": "ပယ်ဖျက်သည် / ရုပ်သိမ်းသည်",
+      "meaningMy": "ပယ်ဖျက်သည် / ရုပ်သိမ်းသည်",
+      "meaningMyanmar": "ပယ်ဖျက်သည် / ရုပ်သိမ်းသည်",
+      "myanmar": "ပယ်ဖျက်သည် / ရုပ်သိမ်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n3.l22.v018",
+      "lessonId": "n3.l22",
+      "ja": "追いつく",
+      "kana": "おいつく",
+      "en": "To catch up with",
+      "my": "မီအောင်လိုက်သည်",
+      "meaningMy": "မီအောင်လိုက်သည်",
+      "meaningMyanmar": "မီအောင်လိုက်သည်",
+      "myanmar": "မီအောင်လိုက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n3.l22.v019",
+      "lessonId": "n3.l22",
+      "ja": "追いかける",
+      "kana": "おいかける",
+      "en": "To chase / pursue",
+      "my": "နောက်မှလိုက်သည်",
+      "meaningMy": "နောက်မှလိုက်သည်",
+      "meaningMyanmar": "နောက်မှလိုက်သည်",
+      "myanmar": "နောက်မှလိုက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
+    },
+    {
+      "id": "n3.l22.v020",
+      "lessonId": "n3.l22",
+      "ja": "乗り越える",
+      "kana": "のりこえる",
+      "en": "To overcome / get through",
+      "my": "ကျော်လွှားလွန်မြောက်သည်",
+      "meaningMy": "ကျော်လွှားလွန်မြောက်သည်",
+      "meaningMyanmar": "ကျော်လွှားလွန်မြောက်သည်",
+      "myanmar": "ကျော်လွှားလွန်မြောက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
+    },
+    {
+      "id": "n3.l22.v021",
+      "lessonId": "n3.l22",
+      "ja": "振り返る",
+      "kana": "ふりかえる",
+      "en": "To look back / reflect",
+      "my": "လှည့်ကြည့်သည် / ပြန်လည်သုံးသပ်သည်",
+      "meaningMy": "လှည့်ကြည့်သည် / ပြန်လည်သုံးသပ်သည်",
+      "meaningMyanmar": "လှည့်ကြည့်သည် / ပြန်လည်သုံးသပ်သည်",
+      "myanmar": "လှည့်ကြည့်သည် / ပြန်လည်သုံးသပ်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
+    },
+    {
+      "id": "n3.l22.v022",
+      "lessonId": "n3.l22",
+      "ja": "引き受ける",
+      "kana": "ひきうける",
+      "en": "To undertake / take on",
+      "my": "တာဝန်ယူဆောင်ရွက်သည်",
+      "meaningMy": "တာဝန်ယူဆောင်ရွက်သည်",
+      "meaningMyanmar": "တာဝန်ယူဆောင်ရွက်သည်",
+      "myanmar": "တာဝန်ယူဆောင်ရွက်သည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
+    },
+    {
+      "id": "n3.l22.v023",
+      "lessonId": "n3.l22",
+      "ja": "問い合わせる",
+      "kana": "といあわせる",
+      "en": "To inquire / check",
+      "my": "စုံစမ်းမေးမြန်းသည်",
+      "meaningMy": "စုံစမ်းမေးမြန်းသည်",
+      "meaningMyanmar": "စုံစမ်းမေးမြန်းသည်",
+      "myanmar": "စုံစမ်းမေးမြန်းသည်",
+      "pos": "verb",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
+    },
+    {
+      "id": "n3.l22.v024",
+      "lessonId": "n3.l22",
+      "ja": "具体的",
+      "kana": "ぐたいてき",
+      "en": "Concrete / specific",
+      "my": "တိကျခိုင်မာသော",
+      "meaningMy": "တိကျခိုင်မာသော",
+      "meaningMyanmar": "တိကျခိုင်မာသော",
+      "myanmar": "တိကျခိုင်မာသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l22.v025",
+      "lessonId": "n3.l22",
+      "ja": "抽象的",
+      "kana": "ちゅうしょうてき",
+      "en": "Abstract",
+      "my": "စိတ်ကူးယဉ်ဆန်သော",
+      "meaningMy": "စိတ်ကူးယဉ်ဆန်သော",
+      "meaningMyanmar": "စိတ်ကူးယဉ်ဆန်သော",
+      "myanmar": "စိတ်ကူးယဉ်ဆန်သော",
+      "pos": "adjective",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l22.v026",
+      "lessonId": "n3.l22",
+      "ja": "深刻",
+      "kana": "しんこく",
+      "en": "Serious / grave",
+      "my": "လေးနက်ဆိုးရွားသော",
+      "meaningMy": "လေးနက်ဆိုးရွားသော",
+      "meaningMyanmar": "လေးနက်ဆိုးရွားသော",
+      "myanmar": "လေးနက်ဆိုးရွားသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n3.l22.v027",
+      "lessonId": "n3.l22",
+      "ja": "豊か",
+      "kana": "ゆたか",
+      "en": "Abundant / rich",
+      "my": "ကြွယ်ဝပေါများသော",
+      "meaningMy": "ကြွယ်ဝပေါများသော",
+      "meaningMyanmar": "ကြွယ်ဝပေါများသော",
+      "myanmar": "ကြွယ်ဝပေါများသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n3.l22.v028",
+      "lessonId": "n3.l22",
+      "ja": "貧しい",
+      "kana": "まずしい",
+      "en": "Poor / impoverished",
+      "my": "ဆင်းရဲနွမ်းပါးသော",
+      "meaningMy": "ဆင်းရဲနွမ်းပါးသော",
+      "meaningMyanmar": "ဆင်းရဲနွမ်းပါးသော",
+      "myanmar": "ဆင်းရဲနွမ်းပါးသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n3.l22.v029",
+      "lessonId": "n3.l22",
+      "ja": "穏やか",
+      "kana": "おだやか",
+      "en": "Gentle / calm / peaceful",
+      "my": "ငြိမ်းချမ်းသာယာသော",
+      "meaningMy": "ငြိမ်းချမ်းသာယာသော",
+      "meaningMyanmar": "ငြိမ်းချမ်းသာယာသော",
+      "myanmar": "ငြိမ်းချမ်းသာယာသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n3.l22.v030",
+      "lessonId": "n3.l22",
+      "ja": "突然",
+      "kana": "とつぜん",
+      "en": "Suddenly / abruptly",
+      "my": "ရုတ်တရက်",
+      "meaningMy": "ရုတ်တရက်",
+      "meaningMyanmar": "ရုတ်တရက်",
+      "myanmar": "ရုတ်တရက်",
+      "pos": "adverb",
+      "exampleSentenceId": "n3.l22.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-09T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [
@@ -713,7 +1253,25 @@
         "my": "အမှောင်ထဲတွင် ပုန်းအောင်းနေသော မသိနားမလည်သည့် အန္တရာယ်များကို မည်သူမဆို ပြင်းထန်သော ကြောက်ရွံ့မှုကို ခံစားရသည်။"
       },
       "vocabIds": [
-        "n3.l22.v001"
+        "n3.l22.v001",
+        "n3.l22.v013",
+        "n3.l22.v014",
+        "n3.l22.v015",
+        "n3.l22.v016",
+        "n3.l22.v017",
+        "n3.l22.v018",
+        "n3.l22.v019",
+        "n3.l22.v020",
+        "n3.l22.v021",
+        "n3.l22.v022",
+        "n3.l22.v023",
+        "n3.l22.v024",
+        "n3.l22.v025",
+        "n3.l22.v026",
+        "n3.l22.v027",
+        "n3.l22.v028",
+        "n3.l22.v029",
+        "n3.l22.v030"
       ],
       "grammarIds": [
         "n3.l22.g001"
@@ -2071,7 +2629,7 @@
   "prov": {
     "source": "Nihongo N2 Master Editorial Team (AI-Assisted Editorial Authoring)",
     "license": "CC-BY-4.0",
-    "status": "reviewed",
+    "status": "native_verified",
     "updatedAt": "2026-10-02T00:00:00Z",
     "rev": 1
   },

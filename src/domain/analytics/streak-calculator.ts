@@ -121,3 +121,112 @@ export async function syncUserStudyStreak(
 
   return streak;
 }
+
+/**
+ * Computes the longest consecutive daily study streak from study sessions.
+ */
+export function calculateLongestStreak(
+  sessions: StudySessionRecord[],
+  rolloverHour = 4
+): number {
+  if (!sessions || sessions.length === 0) return 0;
+
+  const dayKeys = new Set<string>();
+  for (const session of sessions) {
+    if (!session.startedAt) continue;
+    if (
+      session.durationSeconds !== undefined &&
+      session.durationSeconds <= 0 &&
+      session.exercisesCompleted <= 0
+    ) {
+      continue;
+    }
+    dayKeys.add(getLogicalDayKey(session.startedAt, rolloverHour));
+  }
+
+  if (dayKeys.size === 0) return 0;
+
+  const sortedDays = Array.from(dayKeys).sort();
+  let longest = 0;
+  let currentRun = 0;
+  let prevDate: Date | null = null;
+
+  for (const dayStr of sortedDays) {
+    const parts = dayStr.split('-').map(Number);
+    const date = new Date(parts[0], parts[1] - 1, parts[2]);
+
+    if (!prevDate) {
+      currentRun = 1;
+    } else {
+      const diffMs = date.getTime() - prevDate.getTime();
+      const diffDays = Math.round(diffMs / (24 * 3600 * 1000));
+      if (diffDays === 1) {
+        currentRun++;
+      } else if (diffDays > 1) {
+        currentRun = 1;
+      }
+    }
+    prevDate = date;
+    if (currentRun > longest) {
+      longest = currentRun;
+    }
+  }
+
+  return longest;
+}
+
+export interface WeeklyHabitDay {
+  day: string;
+  date: string;
+  completed: boolean;
+  isToday: boolean;
+  count: number;
+}
+
+/**
+ * Returns a 7-day habit breakdown for the 7 logical days ending on referenceDate.
+ */
+export function getWeeklyHabitHistory(
+  sessions: StudySessionRecord[],
+  rolloverHour = 4,
+  referenceDate: Date = new Date()
+): WeeklyHabitDay[] {
+  const dayCounts: Record<string, number> = {};
+  for (const session of sessions) {
+    if (!session.startedAt) continue;
+    if (
+      session.durationSeconds !== undefined &&
+      session.durationSeconds <= 0 &&
+      session.exercisesCompleted <= 0
+    ) {
+      continue;
+    }
+    const dayKey = getLogicalDayKey(session.startedAt, rolloverHour);
+    dayCounts[dayKey] = (dayCounts[dayKey] || 0) + (session.exercisesCompleted || 1);
+  }
+
+  const refShifted = getLogicalDate(referenceDate, rolloverHour);
+  const curDate = new Date(refShifted.getFullYear(), refShifted.getMonth(), refShifted.getDate());
+  const todayKey = formatLogicalDay(curDate);
+
+  const result: WeeklyHabitDay[] = [];
+  const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date(curDate);
+    d.setDate(d.getDate() - i);
+    const key = formatLogicalDay(d);
+    const dayName = daysOfWeek[d.getDay()];
+    const count = dayCounts[key] || 0;
+
+    result.push({
+      day: dayName,
+      date: key,
+      completed: count > 0,
+      isToday: key === todayKey,
+      count,
+    });
+  }
+
+  return result;
+}
