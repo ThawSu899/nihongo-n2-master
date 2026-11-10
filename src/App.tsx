@@ -361,15 +361,15 @@ export default function App() {
 
   if (loading || !profile || !pack) {
     return (
-      <div className="min-h-screen bg-stone-900 flex flex-col items-center justify-center text-stone-300 space-y-3">
-        <div className="w-10 h-10 border-3 border-rose-500 border-t-transparent rounded-full animate-spin" />
-        <span className="text-xs font-mono tracking-wider">BOOTING NIHONGO N2 MASTER...</span>
+      <div className="min-h-screen bg-stone-100 flex flex-col items-center justify-center text-stone-700 space-y-3">
+        <div className="w-10 h-10 border-3 border-indigo-600 border-t-transparent rounded-full animate-spin" />
+        <span className="text-xs font-mono tracking-wider text-stone-600">BOOTING NIHONGO N2 MASTER...</span>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-100 bg-pattern-asanoha flex flex-col md:flex-row font-sans selection:bg-rose-500/30 selection:text-rose-200">
+    <div className="min-h-screen bg-stone-100 text-stone-900 flex flex-col md:flex-row font-sans selection:bg-indigo-500/20 selection:text-indigo-900">
       {/* Persistent Desktop Sidebar & Mobile Bottom Navigation */}
       <Navigation
         currentView={currentView}
