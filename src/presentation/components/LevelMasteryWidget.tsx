@@ -68,41 +68,41 @@ export const LevelMasteryWidget: React.FC<LevelMasteryWidgetProps> = ({ stats, o
   return (
     <section
       aria-label="JLPT Level Progress & Mastery"
-      className="w-full bg-zinc-900/80 backdrop-blur-xl border border-zinc-800 rounded-3xl p-5 sm:p-6 shadow-2xl space-y-5"
+      className="w-full bg-white border border-stone-200 rounded-3xl p-5 sm:p-6 shadow-sm space-y-5"
     >
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-zinc-800/80 pb-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-200 pb-4">
         <div className="flex items-center gap-3">
-          <div className="p-2.5 rounded-2xl bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 shrink-0">
+          <div className="p-2.5 rounded-2xl bg-indigo-50 border border-indigo-200 text-indigo-600 shrink-0">
             <Award className="w-5 h-5" />
           </div>
           <div>
-            <h3 className="text-zinc-100 font-bold text-base sm:text-lg flex items-center gap-2">
+            <h3 className="text-stone-900 font-bold text-base sm:text-lg flex items-center gap-2">
               JLPT Level Progress &amp; Mastery
-              <span className="text-xs font-mono font-medium text-zinc-400 bg-zinc-800 px-2 py-0.5 rounded-full border border-zinc-700">
+              <span className="text-xs font-mono font-medium text-stone-600 bg-stone-100 px-2 py-0.5 rounded-full border border-stone-200">
                 N5–N2
               </span>
             </h3>
-            <p className="text-zinc-400 text-xs font-burmese mt-0.5">
+            <p className="text-stone-600 text-xs font-burmese mt-0.5">
               အဆင့်အလိုက် သင်ခန်းစာများနှင့် ဝေါဟာရ ကျွမ်းကျင်မှု တိုးတက်မှု အခြေအနေ
             </p>
           </div>
         </div>
 
         {/* Global Curriculum Progress Indicators */}
-        <div className="flex items-center gap-4 text-xs font-mono bg-zinc-950/60 border border-zinc-800/80 px-3.5 py-2 rounded-2xl shrink-0 self-start sm:self-auto">
+        <div className="flex items-center gap-4 text-xs font-mono bg-stone-50 border border-stone-200 px-3.5 py-2 rounded-2xl shrink-0 self-start sm:self-auto">
           <div>
-            <div className="text-zinc-300 font-bold">
+            <div className="text-stone-900 font-bold">
               {`${totalCompletedLessons} `}<span className="text-zinc-500">/ 174</span>
             </div>
-            <div className="text-[10px] text-zinc-400">{`Lessons (${overallLessonPercent}%)`}</div>
+            <div className="text-[10px] text-stone-500">{`Lessons (${overallLessonPercent}%)`}</div>
           </div>
-          <div className="h-6 w-[1px] bg-zinc-800" />
+          <div className="h-6 w-[1px] bg-stone-200" />
           <div>
-            <div className="text-zinc-300 font-bold">
+            <div className="text-stone-900 font-bold">
               {`${totalMasteredVocab} `}<span className="text-zinc-500">/ 5,220</span>
             </div>
-            <div className="text-[10px] text-zinc-400">{`Vocab (${overallVocabPercent}%)`}</div>
+            <div className="text-[10px] text-stone-500">{`Vocab (${overallVocabPercent}%)`}</div>
           </div>
         </div>
       </div>
@@ -125,7 +125,7 @@ export const LevelMasteryWidget: React.FC<LevelMasteryWidgetProps> = ({ stats, o
             <div
               key={lvl}
               onClick={() => onSelectLevel(lvl)}
-              className={`group relative overflow-hidden rounded-2xl bg-zinc-950/60 border ${cfg.glow} p-4.5 hover:bg-zinc-900/60 transition-all duration-300 cursor-pointer hover:scale-[1.02] shadow-lg flex flex-col justify-between`}
+              className="group relative overflow-hidden rounded-2xl bg-stone-50/70 border border-stone-200 hover:border-indigo-300 p-4.5 hover:bg-white transition-all duration-300 cursor-pointer hover:scale-[1.02] shadow-xs hover:shadow-sm flex flex-col justify-between"
             >
               <div>
                 {/* Level Title & Badge */}
@@ -145,12 +145,12 @@ export const LevelMasteryWidget: React.FC<LevelMasteryWidgetProps> = ({ stats, o
                 {/* Progress Bar: Lessons */}
                 <div className="space-y-1.5 mb-3">
                   <div className="flex items-center justify-between text-xs">
-                    <span className="text-zinc-400 flex items-center gap-1.5">
-                      <BookOpen className="w-3.5 h-3.5 text-zinc-400" /> သင်ခန်းစာ
+                    <span className="text-stone-600 flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-stone-500" /> သင်ခန်းစာ
                     </span>
-                    <span className="font-mono text-zinc-300 font-semibold">{`${lessonPercent}%`}</span>
+                    <span className="font-mono text-stone-800 font-semibold">{`${lessonPercent}%`}</span>
                   </div>
-                  <div className="w-full bg-zinc-900 rounded-full h-1.5 overflow-hidden border border-zinc-800/80">
+                  <div className="w-full bg-stone-200 rounded-full h-1.5 overflow-hidden">
                     <div
                       className={`h-full rounded-full bg-gradient-to-r ${cfg.accent} transition-all duration-500`}
                       style={{ width: `${lessonPercent}%` }}
@@ -161,27 +161,27 @@ export const LevelMasteryWidget: React.FC<LevelMasteryWidgetProps> = ({ stats, o
                 {/* Progress Bar: Vocabularies */}
                 <div className="space-y-1.5 mb-3.5">
                   <div className="flex items-center justify-between text-xs">
-                    <span className="text-zinc-400 flex items-center gap-1.5">
-                      <CheckCircle2 className="w-3.5 h-3.5 text-zinc-400" /> ဝေါဟာရ ကျွမ်းကျင်မှု
+                    <span className="text-stone-600 flex items-center gap-1.5">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-stone-500" /> ဝေါဟာရ ကျွမ်းကျင်မှု
                     </span>
-                    <span className="font-mono text-zinc-300 font-semibold">{`${vocabPercent}%`}</span>
+                    <span className="font-mono text-stone-800 font-semibold">{`${vocabPercent}%`}</span>
                   </div>
-                  <div className="w-full bg-zinc-900 rounded-full h-1.5 overflow-hidden border border-zinc-800/80">
+                  <div className="w-full bg-stone-200 rounded-full h-1.5 overflow-hidden">
                     <div
                       className={`h-full rounded-full bg-gradient-to-r ${cfg.accent} transition-all duration-500`}
                       style={{ width: `${vocabPercent}%` }}
                     />
                   </div>
-                  <div className="text-[11px] text-zinc-400 font-mono text-right">
+                  <div className="text-[11px] text-stone-500 font-mono text-right">
                     {`${cur.masteredVocab}/${cfg.totalVocab} Vocab`}
                   </div>
                 </div>
               </div>
 
               {/* Footer Action */}
-              <div className="flex items-center justify-between pt-2.5 border-t border-zinc-800/60 text-xs text-zinc-400 group-hover:text-zinc-200 transition-colors">
+              <div className="flex items-center justify-between pt-2.5 border-t border-stone-200 text-xs text-stone-500 group-hover:text-stone-900 transition-colors">
                 <span className="font-burmese text-[11px] flex items-center gap-1">
-                  <Sparkles className="w-3 h-3 text-amber-400" /> အသေးစိတ်လေ့လာရန်
+                  <Sparkles className="w-3 h-3 text-amber-500" /> အသေးစိတ်လေ့လာရန်
                 </span>
                 <ChevronRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" />
               </div>

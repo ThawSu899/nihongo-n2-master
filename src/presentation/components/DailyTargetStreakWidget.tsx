@@ -184,25 +184,25 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
   return (
     <section
       aria-label="Daily Target and Study Streak Dashboard"
-      className={`w-full bg-zinc-900/80 backdrop-blur-xl border border-zinc-800 rounded-3xl p-5 sm:p-6 shadow-2xl space-y-5 ${className}`}
+      className={`w-full bg-white border border-stone-200 rounded-3xl p-5 sm:p-6 shadow-sm space-y-5 ${className}`}
     >
       {/* Header Bar */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-zinc-800/80 pb-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-200 pb-4">
         <div className="flex items-center gap-3">
-          <div className="p-2.5 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-amber-400 shrink-0 shadow-[0_0_16px_rgba(245,158,11,0.2)]">
-            <Flame className="w-5 h-5 text-amber-400 animate-pulse" />
+          <div className="p-2.5 rounded-2xl bg-amber-50 border border-amber-200 text-amber-600 shrink-0 shadow-xs">
+            <Flame className="w-5 h-5 text-amber-500 animate-pulse" />
           </div>
           <div>
-            <h3 className="text-zinc-100 font-bold text-base sm:text-lg flex items-center gap-2">
+            <h3 className="text-stone-900 font-bold text-base sm:text-lg flex items-center gap-2">
               <span>Daily Target &amp; Study Streak</span>
               {isProtected && (
-                <span className="text-[10px] font-mono font-medium text-cyan-300 bg-cyan-950/80 border border-cyan-500/40 px-2 py-0.5 rounded-full flex items-center gap-1 shadow-xs">
-                  <Snowflake className="w-3 h-3 text-cyan-300" />
+                <span className="text-[10px] font-mono font-medium text-cyan-700 bg-cyan-50 border border-cyan-200 px-2 py-0.5 rounded-full flex items-center gap-1 shadow-xs">
+                  <Snowflake className="w-3 h-3 text-cyan-600" />
                   <span>Protected</span>
                 </span>
               )}
             </h3>
-            <p className="text-zinc-400 text-xs font-burmese mt-0.5">
+            <p className="text-stone-600 text-xs font-burmese mt-0.5">
               နေ့စဉ် လေ့လာရေး ပန်းတိုင်နှင့် ရက်ဆက် လေ့လာမှု အလေ့အကျင့်
             </p>
           </div>
@@ -210,8 +210,8 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
 
         {/* Quick Goal Selector */}
         <div className="flex items-center gap-2 self-start sm:self-auto">
-          <span className="text-[11px] font-mono text-zinc-400 uppercase">Goal:</span>
-          <div className="flex items-center gap-1 p-1 bg-zinc-950/80 border border-zinc-800 rounded-xl">
+          <span className="text-[11px] font-mono text-stone-500 uppercase">Goal:</span>
+          <div className="flex items-center gap-1 p-1 bg-stone-50 border border-stone-200 rounded-xl">
             {TARGET_PRESETS.map((t) => (
               <button
                 key={t}
@@ -219,8 +219,8 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
                 onClick={() => handleSetTarget(t)}
                 className={`px-2.5 py-1 rounded-lg text-xs font-mono font-bold transition cursor-pointer ${
                   target === t
-                    ? 'bg-gradient-to-r from-rose-600 to-rose-700 text-white shadow-md shadow-rose-950/60'
-                    : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800'
+                    ? 'bg-indigo-600 text-white shadow-xs'
+                    : 'text-stone-600 hover:text-stone-900 hover:bg-stone-200/60'
                 }`}
                 title={`Set daily target to ${t} words`}
               >
@@ -234,57 +234,57 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
       {/* 3-Column Bento Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* Card 1: Consecutive Study Streak & Flame */}
-        <div className="bg-zinc-950/60 border border-amber-500/30 hover:border-amber-500/50 rounded-2xl p-4.5 space-y-3 transition shadow-lg flex flex-col justify-between">
+        <div className="bg-stone-50/70 border border-amber-200/80 hover:border-amber-300 rounded-2xl p-4.5 space-y-3 transition shadow-xs flex flex-col justify-between">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-mono font-semibold uppercase tracking-wider text-amber-400 flex items-center gap-1.5">
-              <Flame className="w-4 h-4 text-amber-400" /> Study Streak
+            <span className="text-xs font-mono font-semibold uppercase tracking-wider text-amber-700 flex items-center gap-1.5">
+              <Flame className="w-4 h-4 text-amber-600" /> Study Streak
             </span>
-            <span className="text-[10px] font-mono text-amber-300 bg-amber-950/70 border border-amber-500/40 px-2 py-0.5 rounded-full">
+            <span className="text-[10px] font-mono text-amber-800 bg-amber-100 border border-amber-200 px-2 py-0.5 rounded-full">
               {effectiveStreak > 0 ? 'Active 🔥' : 'Start Today'}
             </span>
           </div>
 
           <div className="flex items-baseline gap-2">
-            <span className="text-4xl font-black font-mono text-zinc-100 tracking-tight text-amber-100 drop-shadow-[0_0_12px_rgba(245,158,11,0.3)]">
+            <span className="text-4xl font-black font-mono text-amber-700 tracking-tight">
               {effectiveStreak}
             </span>
-            <span className="text-xs text-amber-400/90 font-medium font-sans">
+            <span className="text-xs text-amber-700/80 font-medium font-sans">
               {`${effectiveStreak === 1 ? 'Day' : 'Days'} / ရက်ဆက်`}
             </span>
           </div>
 
-          <div className="pt-2 border-t border-zinc-800/80 flex items-center justify-between text-[11px] text-zinc-400 font-mono">
+          <div className="pt-2 border-t border-stone-200 flex items-center justify-between text-[11px] text-stone-500 font-mono">
             <span>Longest: <strong className="text-zinc-200">{`${effectiveLongest}d`}</strong></span>
-            <span className="text-zinc-500">04:00 AM Rollover</span>
+            <span className="text-stone-400">04:00 AM Rollover</span>
           </div>
         </div>
 
         {/* Card 2: Today's Target Circular & Linear Progress */}
-        <div className="bg-zinc-950/60 border border-zinc-800 hover:border-zinc-700 rounded-2xl p-4.5 transition shadow-lg flex items-center justify-between gap-4">
+        <div className="bg-stone-50/70 border border-stone-200 hover:border-stone-300 rounded-2xl p-4.5 transition shadow-xs flex items-center justify-between gap-4">
           <div className="space-y-2 flex-1">
             <div className="flex items-center justify-between text-xs">
-              <span className="font-mono text-zinc-400 flex items-center gap-1.5">
-                <Trophy className="w-3.5 h-3.5 text-rose-400" /> Today&apos;s Target
+              <span className="font-mono text-stone-600 flex items-center gap-1.5">
+                <Trophy className="w-3.5 h-3.5 text-indigo-600" /> Today&apos;s Target
               </span>
-              <span className="font-mono font-bold text-rose-400">{percent}%</span>
+              <span className="font-mono font-bold text-indigo-600">{percent}%</span>
             </div>
 
             <div className="flex items-baseline gap-1.5">
-              <span className="text-2xl font-bold font-mono text-zinc-100">
+              <span className="text-2xl font-bold font-mono text-stone-900">
                 {effectiveCompleted}
               </span>
-              <span className="text-xs font-mono text-zinc-400">{`/ ${target} words`}</span>
+              <span className="text-xs font-mono text-stone-500">{`/ ${target} words`}</span>
             </div>
 
             {/* Linear Progress Bar */}
-            <div className="w-full bg-zinc-900 rounded-full h-1.5 overflow-hidden border border-zinc-800/80">
+            <div className="w-full bg-stone-200 rounded-full h-1.5 overflow-hidden">
               <div
-                className="h-full rounded-full bg-gradient-to-r from-rose-600 via-rose-500 to-amber-500 transition-all duration-700 ease-out"
+                className="h-full rounded-full bg-gradient-to-r from-indigo-600 to-indigo-500 transition-all duration-700 ease-out"
                 style={{ width: `${percent}%` }}
               />
             </div>
 
-            <p className="text-[10px] font-burmese text-zinc-400 truncate">
+            <p className="text-[10px] font-burmese text-stone-600 truncate">
               {isGoalAchieved
                 ? '🎉 ယနေ့ ပန်းတိုင် ပြည့်မီပါပြီ!'
                 : `ပန်းတိုင်ရောက်ရန် ${Math.max(0, target - effectiveCompleted)} လိုပါသည်`}
@@ -299,7 +299,7 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
                 cx="45"
                 cy="45"
                 r={radius}
-                className="stroke-zinc-800/80 fill-none"
+                className="stroke-stone-200 fill-none"
                 strokeWidth="6"
               />
               {/* Progress Ring */}
@@ -307,7 +307,7 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
                 cx="45"
                 cy="45"
                 r={radius}
-                className="stroke-rose-500 fill-none transition-all duration-700 ease-out"
+                className="stroke-indigo-600 fill-none transition-all duration-700 ease-out"
                 strokeWidth="6"
                 strokeLinecap="round"
                 strokeDasharray={circumference}
@@ -315,19 +315,19 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
               />
             </svg>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-              <span className="text-xs font-mono font-bold text-zinc-100">{percent}%</span>
-              {isGoalAchieved && <CheckCircle2 className="w-3 h-3 text-emerald-400" />}
+              <span className="text-xs font-mono font-bold text-stone-900">{percent}%</span>
+              {isGoalAchieved && <CheckCircle2 className="w-3 h-3 text-emerald-600" />}
             </div>
           </div>
         </div>
 
         {/* Card 3: 7-Day Weekly Habit Matrix */}
-        <div className="bg-zinc-950/60 border border-zinc-800 hover:border-zinc-700 rounded-2xl p-4.5 space-y-3 transition shadow-lg flex flex-col justify-between">
+        <div className="bg-stone-50/70 border border-stone-200 hover:border-stone-300 rounded-2xl p-4.5 space-y-3 transition shadow-xs flex flex-col justify-between">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-mono font-semibold uppercase tracking-wider text-zinc-300 flex items-center gap-1.5">
-              <Calendar className="w-4 h-4 text-emerald-400" /> 7-Day Habit Tracker
+            <span className="text-xs font-mono font-semibold uppercase tracking-wider text-stone-900 flex items-center gap-1.5">
+              <Calendar className="w-4 h-4 text-emerald-600" /> 7-Day Habit Tracker
             </span>
-            <span className="text-[10px] font-mono text-zinc-500">
+            <span className="text-[10px] font-mono text-stone-500">
               {`${displayWeekly.filter((w) => w.completed).length}/7 days`}
             </span>
           </div>
@@ -340,24 +340,24 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
                   <div
                     className={`w-8 h-8 rounded-xl flex items-center justify-center text-xs font-mono font-bold transition shadow-xs ${
                       item.completed
-                        ? 'bg-emerald-500/20 border border-emerald-500/50 text-emerald-300 shadow-[0_0_8px_rgba(16,185,129,0.25)]'
+                        ? 'bg-emerald-50 border border-emerald-300 text-emerald-700 shadow-xs'
                         : item.isToday
-                        ? 'bg-amber-500/10 border border-amber-500/40 text-amber-300 animate-pulse'
-                        : 'bg-zinc-900/80 border border-zinc-800 text-zinc-600'
+                        ? 'bg-amber-50 border border-amber-300 text-amber-700 animate-pulse'
+                        : 'bg-stone-100 border border-stone-200 text-stone-400'
                     }`}
                     title={`${item.day} (${item.date}): ${
                       item.completed ? 'Study session completed' : 'No study'
                     }`}
                   >
                     {item.completed ? (
-                      <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
+                      <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
                     ) : (
                       <span className="text-[10px]">{item.day.slice(0, 1)}</span>
                     )}
                   </div>
                   <span
                     className={`text-[9px] font-mono ${
-                      item.isToday ? 'text-amber-400 font-bold' : 'text-zinc-500'
+                      item.isToday ? 'text-amber-600 font-bold' : 'text-stone-500'
                     }`}
                   >
                     {item.day.slice(0, 3)}
@@ -368,13 +368,13 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
           </div>
 
           {/* Footer Action */}
-          <div className="pt-2 border-t border-zinc-800/80 flex items-center justify-between text-[11px] text-zinc-400">
+          <div className="pt-2 border-t border-stone-200 flex items-center justify-between text-[11px] text-stone-500">
             <span className="font-burmese text-[10px] truncate">၇ ရက်တာ လေ့လာမှုမှတ်တမ်း</span>
             {onStartStudy && (
               <button
                 type="button"
                 onClick={onStartStudy}
-                className="text-rose-400 hover:text-rose-300 font-mono text-xs flex items-center gap-1 cursor-pointer"
+                className="text-indigo-600 hover:text-indigo-700 font-mono text-xs flex items-center gap-1 cursor-pointer"
               >
                 <span>Study</span>
                 <ArrowRight className="w-3 h-3" />

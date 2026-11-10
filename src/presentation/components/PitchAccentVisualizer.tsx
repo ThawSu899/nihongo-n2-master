@@ -103,10 +103,10 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
           </span>
 
           {!compact && (
-            <div className="flex items-center space-x-1.5 text-[11px] text-stone-400 font-myanmar">
+            <div className="flex items-center space-x-1.5 text-[11px] text-stone-600 font-myanmar">
               <span>{explanationMy}</span>
-              <span className="text-stone-600 font-mono hidden sm:inline">•</span>
-              <span className="text-stone-400 font-mono hidden sm:inline text-[10px] opacity-75">
+              <span className="text-stone-400 font-mono hidden sm:inline">•</span>
+              <span className="text-stone-500 font-mono hidden sm:inline text-[10px]">
                 {meaningEn}
               </span>
             </div>
@@ -118,7 +118,7 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
       {showContour && (
         <div className="overflow-x-auto max-w-full pb-1">
           <div
-            className={`inline-block rounded-2xl border border-stone-800/80 bg-stone-950/85 backdrop-blur-md shadow-inner shadow-black/40 ${
+            className={`inline-block rounded-2xl border border-stone-200 bg-stone-50 shadow-xs ${
               compact ? 'p-2' : 'p-3'
             }`}
           >
@@ -134,27 +134,27 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
                 y1={highY}
                 x2={totalSvgWidth - paddingX}
                 y2={highY}
-                stroke="#3f3f46"
+                stroke="#e7e5e4"
                 strokeWidth="1"
                 strokeDasharray="2,2"
-                opacity="0.35"
+                opacity="0.8"
               />
               <line
                 x1={paddingX}
                 y1={lowY}
                 x2={totalSvgWidth - paddingX}
                 y2={lowY}
-                stroke="#3f3f46"
+                stroke="#e7e5e4"
                 strokeWidth="1"
                 strokeDasharray="2,2"
-                opacity="0.35"
+                opacity="0.8"
               />
 
               {/* Stepped Pitch Line */}
               <path
                 d={stepPath}
                 fill="none"
-                stroke="#818cf8"
+                stroke="#4f46e5"
                 strokeWidth={compact ? 2.5 : 3}
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -187,8 +187,8 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
                       cx={centerX}
                       cy={nodeY}
                       r={compact ? 3.5 : 4.5}
-                      fill={m.isDropNucleus ? '#ef4444' : m.level === 'H' ? '#818cf8' : '#52525b'}
-                      stroke="#18181b"
+                      fill={m.isDropNucleus ? '#ef4444' : m.level === 'H' ? '#4f46e5' : '#a8a29e'}
+                      stroke="#ffffff"
                       strokeWidth={compact ? 1.5 : 2}
                     />
 
@@ -217,7 +217,7 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
                       y={nodeY - (compact ? 5 : 7)}
                       textAnchor="middle"
                       className="text-[9px] font-mono font-bold"
-                      fill={m.isDropNucleus ? '#f43f5e' : m.level === 'H' ? '#a5b4fc' : '#71717a'}
+                      fill={m.isDropNucleus ? '#ef4444' : m.level === 'H' ? '#4f46e5' : '#78716c'}
                     >
                       {m.level}
                     </text>
@@ -246,10 +246,10 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
                         compact ? 'text-xs' : 'text-sm'
                       } ${
                         m.isDropNucleus
-                          ? 'text-rose-400 font-bold drop-shadow-[0_0_8px_rgba(244,63,94,0.4)]'
+                          ? 'text-red-700 font-bold'
                           : m.level === 'H'
-                          ? 'text-indigo-200'
-                          : 'text-stone-300'
+                          ? 'text-indigo-700'
+                          : 'text-stone-700'
                       }`}
                     >
                       {m.mora}

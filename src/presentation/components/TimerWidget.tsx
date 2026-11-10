@@ -54,7 +54,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
       aria-label="Active Study Timer"
       className="fixed bottom-24 right-4 sm:bottom-6 sm:right-6 z-30 transition-all duration-200 select-none"
     >
-      <div className="bg-zinc-900/90 backdrop-blur-2xl border border-zinc-700/80 rounded-2xl shadow-[0_12px_36px_rgba(0,0,0,0.85)] p-2.5 sm:p-3 text-zinc-100 flex flex-col space-y-2 min-w-[210px] sm:min-w-[240px]">
+      <div className="bg-white border border-stone-200 rounded-2xl shadow-lg p-2.5 sm:p-3 text-stone-900 flex flex-col space-y-2 min-w-[210px] sm:min-w-[240px]">
         {/* Compact Island Header */}
         <div className="flex items-center justify-between space-x-3">
           {/* Circular SVG Progress Ring with Center Icon */}
@@ -65,7 +65,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
                 cx="20"
                 cy="20"
                 r={radius}
-                className="stroke-zinc-800"
+                className="stroke-stone-200"
                 strokeWidth="3"
                 fill="transparent"
               />
@@ -87,7 +87,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
             {/* Play/Pause Micro-Action Icon in Center */}
             <button
               onClick={isRunning ? onPause : onResume}
-              className="absolute inset-0 m-auto w-6 h-6 rounded-full flex items-center justify-center text-zinc-200 hover:text-white transition cursor-pointer"
+              className="absolute inset-0 m-auto w-6 h-6 rounded-full flex items-center justify-center text-stone-700 hover:text-stone-900 transition cursor-pointer"
               title={isRunning ? 'Pause Timer' : 'Resume Timer'}
             >
               {isRunning ? <Pause className="w-3.5 h-3.5 fill-current" /> : <Play className="w-3.5 h-3.5 ml-0.5 fill-current" />}
@@ -97,16 +97,16 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
           {/* Time & Block Title */}
           <div className="flex-1 min-w-0">
             <div className="flex items-center space-x-1.5">
-              <span className="text-xs font-bold text-zinc-100 font-mono tracking-wider tabular-nums">
+              <span className="text-xs font-bold text-stone-900 font-mono tracking-wider tabular-nums">
                 {formatTime(remainingSec)}
               </span>
               {isIdlePaused && (
-                <span className="text-[9px] px-1.5 py-0.2 rounded bg-amber-950/80 text-amber-300 border border-amber-600/50 font-mono">
+                <span className="text-[9px] px-1.5 py-0.2 rounded bg-amber-50 text-amber-700 border border-amber-200 font-mono font-medium">
                   PAUSED
                 </span>
               )}
             </div>
-            <div className="text-[11px] text-zinc-400 truncate font-medium">
+            <div className="text-[11px] text-stone-600 truncate font-medium">
               {blockTitle}
             </div>
           </div>
@@ -114,7 +114,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
           {/* Expand / Minimize Toggle */}
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="p-1 rounded-lg hover:bg-zinc-800 text-zinc-400 hover:text-zinc-200 transition cursor-pointer"
+            className="p-1 rounded-lg hover:bg-stone-100 text-stone-400 hover:text-stone-700 transition cursor-pointer"
             title={isExpanded ? 'Collapse' : 'Expand Details'}
           >
             {isExpanded ? <ChevronDown className="w-4 h-4" /> : <ChevronUp className="w-4 h-4" />}
@@ -123,8 +123,8 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
 
         {/* Expandable Details Pane */}
         {isExpanded && (
-          <div className="pt-2 border-t border-zinc-800/80 space-y-2 text-xs animate-in fade-in duration-150">
-            <div className="flex justify-between text-zinc-400 text-[11px] font-mono">
+          <div className="pt-2 border-t border-stone-200 space-y-2 text-xs animate-in fade-in duration-150">
+            <div className="flex justify-between text-stone-500 text-[11px] font-mono">
               <span>Elapsed: {formatTime(elapsedSec)}</span>
               <span>Target: {timerState.targetMinutes}m</span>
             </div>
@@ -133,7 +133,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
             <div className="flex items-center justify-between gap-1 pt-1">
               <button
                 onClick={onFinish}
-                className="flex-1 py-1.5 px-2 rounded-lg bg-emerald-950/70 hover:bg-emerald-900/80 border border-emerald-700/60 text-emerald-300 text-[11px] font-semibold flex items-center justify-center space-x-1 transition cursor-pointer active:scale-95"
+                className="flex-1 py-1.5 px-2 rounded-lg bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-emerald-700 text-[11px] font-semibold flex items-center justify-center space-x-1 transition cursor-pointer active:scale-95"
               >
                 <CheckCircle className="w-3.5 h-3.5" />
                 <span>Complete</span>
@@ -141,14 +141,14 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
 
               <button
                 onClick={onSkip}
-                className="py-1.5 px-2.5 rounded-lg bg-zinc-800/80 hover:bg-zinc-700/80 border border-zinc-700 text-zinc-300 text-[11px] font-medium flex items-center justify-center transition cursor-pointer active:scale-95"
+                className="py-1.5 px-2.5 rounded-lg bg-stone-100 hover:bg-stone-200 border border-stone-200 text-stone-700 text-[11px] font-medium flex items-center justify-center transition cursor-pointer active:scale-95"
                 title="Skip Block"
               >
                 <SkipForward className="w-3.5 h-3.5" />
               </button>
             </div>
 
-            <div className="text-[10px] text-zinc-400 text-center font-mono">
+            <div className="text-[10px] text-stone-500 text-center font-mono">
               Today's Session Total: {todayStudiedMinutes}m
             </div>
           </div>
