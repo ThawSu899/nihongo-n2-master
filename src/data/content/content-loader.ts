@@ -6,6 +6,15 @@ import { db } from '../db/dexie-db';
 const packModules = import.meta.glob<LessonPack>('/content/packs/**/*.json');
 
 export class ContentLoader {
+  private static inMemoryPackCache = new Map<string, LessonPack>();
+  private static vocabLevelCache = new Map<'N5' | 'N4' | 'N3' | 'N2', Vocabulary[]>();
+  private static kanjiLevelCache = new Map<'N5' | 'N4' | 'N3' | 'N2', Kanji[]>();
+
+  static clearCache(): void {
+    this.inMemoryPackCache.clear();
+    this.vocabLevelCache.clear();
+    this.kanjiLevelCache.clear();
+  }
   /**
    * Return the canonical curriculum map items.
    * Guarantees all 174 lessons across N5, N4, N3, and N2 are published and playable.
@@ -54,6 +63,11 @@ export class ContentLoader {
           `[CurriculumUpgrade] Found ${staleIds.length} stale/placeholder pack(s) in IndexedDB. Purging...`,
           staleIds
         );
+        for (const staleId of staleIds) {
+          this.inMemoryPackCache.delete(staleId);
+        }
+        this.vocabLevelCache.clear();
+        this.kanjiLevelCache.clear();
         await db.lesson_packs.bulkDelete(staleIds);
         purgedPacksCount = staleIds.length;
       }
@@ -110,6 +124,14 @@ export class ContentLoader {
       return null;
     }
 
+    if (options?.forceRefresh) {
+      this.inMemoryPackCache.delete(lessonId);
+      this.vocabLevelCache.clear();
+      this.kanjiLevelCache.clear();
+    } else if (this.inMemoryPackCache.has(lessonId)) {
+      return this.inMemoryPackCache.get(lessonId)!;
+    }
+
     // 1. Check IndexedDB first (unless forceRefresh is requested)
     if (!options?.forceRefresh) {
       try {
@@ -126,6 +148,7 @@ export class ContentLoader {
             JSON.stringify(dbPack).includes('X を Y します');
 
           if (!isStale) {
+            this.inMemoryPackCache.set(lessonId, dbPack);
             return dbPack;
           }
           // Stale entry found in IndexedDB (e.g. from older scaffold or planned placeholder).
@@ -150,6 +173,7 @@ export class ContentLoader {
         };
         const parsed = LessonPackSchema.safeParse(normalizedPack);
         if (parsed.success) {
+          this.inMemoryPackCache.set(lessonId, parsed.data);
           try {
             await db.lesson_packs.put(parsed.data);
           } catch {
@@ -171,6 +195,9 @@ export class ContentLoader {
 
   static async saveLessonPack(pack: LessonPack): Promise<void> {
     const validated = LessonPackSchema.parse(pack);
+    this.inMemoryPackCache.set(pack.id, validated);
+    this.vocabLevelCache.clear();
+    this.kanjiLevelCache.clear();
     await db.lesson_packs.put(validated);
   }
 
@@ -187,6 +214,10 @@ export class ContentLoader {
    * Aggregates and deduplicates all vocabulary items across all lesson packs for a given JLPT level.
    */
   static async getVocabularyForLevel(level: 'N5' | 'N4' | 'N3' | 'N2'): Promise<Vocabulary[]> {
+    if (this.vocabLevelCache.has(level)) {
+      return this.vocabLevelCache.get(level)!;
+    }
+
     const packs = await this.getPacksForLevel(level);
     const seenWords = new Set<string>();
     const vocabularies: Vocabulary[] = [];
@@ -203,6 +234,7 @@ export class ContentLoader {
       }
     }
 
+    this.vocabLevelCache.set(level, vocabularies);
     return vocabularies;
   }
 
@@ -210,6 +242,10 @@ export class ContentLoader {
    * Aggregates and deduplicates all kanji items across all lesson packs for a given JLPT level.
    */
   static async getKanjiForLevel(level: 'N5' | 'N4' | 'N3' | 'N2'): Promise<Kanji[]> {
+    if (this.kanjiLevelCache.has(level)) {
+      return this.kanjiLevelCache.get(level)!;
+    }
+
     const packs = await this.getPacksForLevel(level);
     const seenChars = new Set<string>();
     const kanjis: Kanji[] = [];
@@ -225,6 +261,7 @@ export class ContentLoader {
       }
     }
 
+    this.kanjiLevelCache.set(level, kanjis);
     return kanjis;
   }
 }

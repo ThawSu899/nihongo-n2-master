@@ -4,7 +4,6 @@ High-Capacity Japanese Lexicon Generator for JLPT N5, N4, N3, N2
 """
 import os
 import re
-from build_all_banks import export_ts
 
 def get_n5_words():
     items = []

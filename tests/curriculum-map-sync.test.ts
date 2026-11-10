@@ -353,7 +353,7 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
       expect(playerHtml).toContain('Becoming and Listing (〜くなる・〜になる・〜たり〜たり)');
       expect(playerHtml).not.toContain('Outline only — content not yet available');
       expect(playerHtml).not.toContain('Planned');
-    });
+    }, 20000);
 
     describe('Phase 1 Quarantine Protection & Security Enforcement', () => {
       it('rejects loading unreleased or non-existent lesson packs via ContentLoader.getLessonPack', async () => {

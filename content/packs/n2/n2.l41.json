@@ -24,6 +24,7 @@
       "my": "အတိုင်းအတာ / အဆင့်အတန်း",
       "meaningMy": "အတိုင်းအတာ / အဆင့်အတန်း",
       "meaningMyanmar": "အတိုင်းအတာ / အဆင့်အတန်း",
+      "myanmar": "အတိုင်းအတာ / အဆင့်အတန်း",
       "pos": "noun",
       "exampleSentenceId": "n2.l41.s001",
       "kanjiIds": [
@@ -40,8 +41,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-01T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -49,17 +50,16 @@
     {
       "id": "n2.l41.v002",
       "lessonId": "n2.l41",
-      "ja": "過程",
-      "kana": "かてい",
-      "en": "Process / Course of events",
-      "my": "ဖြစ်စဉ်ဖြစ်ရပ်",
-      "meaningMy": "ဖြစ်စဉ်ဖြစ်ရပ်",
-      "meaningMyanmar": "ဖြစ်စဉ်ဖြစ်ရပ်",
+      "ja": "枢要",
+      "kana": "すうよう",
+      "en": "Pivotal importance / cardinal key",
+      "my": "အရေးအပါဆုံးသောသော့ချက်",
+      "meaningMy": "အရေးအပါဆုံးသောသော့ချက်",
+      "meaningMyanmar": "အရေးအပါဆုံးသောသော့ချက်",
+      "myanmar": "အရေးအပါဆုံးသောသော့ချက်",
       "pos": "noun",
-      "exampleSentenceId": "n2.l41.s002",
-      "kanjiIds": [
-        "n2.l41.k001"
-      ],
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
       "level": "N2",
       "difficulty": 4,
       "importance": 5,
@@ -71,11 +71,11 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-01T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 2
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n2.l41.v003",
@@ -86,6 +86,7 @@
       "my": "နေ့ရက်အစီအစဉ်",
       "meaningMy": "နေ့ရက်အစီအစဉ်",
       "meaningMyanmar": "နေ့ရက်အစီအစဉ်",
+      "myanmar": "နေ့ရက်အစီအစဉ်",
       "pos": "noun",
       "exampleSentenceId": "n2.l41.s003",
       "kanjiIds": [
@@ -102,8 +103,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-01T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "nakadaka",
       "dropIndex": 3
@@ -117,6 +118,7 @@
       "my": "ကြိမ်နှုန်း / ဖြစ်ပွားနှုန်း",
       "meaningMy": "ကြိမ်နှုန်း / ဖြစ်ပွားနှုန်း",
       "meaningMyanmar": "ကြိမ်နှုန်း / ဖြစ်ပွားနှုန်း",
+      "myanmar": "ကြိမ်နှုန်း / ဖြစ်ပွားနှုန်း",
       "pos": "noun",
       "exampleSentenceId": "n2.l41.s004",
       "kanjiIds": [
@@ -133,8 +135,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-01T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -142,17 +144,16 @@
     {
       "id": "n2.l41.v005",
       "lessonId": "n2.l41",
-      "ja": "態度",
-      "kana": "たいど",
-      "en": "Attitude / Demeanor / Behavior",
-      "my": "သဘောထားခံယူချက် / အမူအရာ",
-      "meaningMy": "သဘောထားခံယူချက် / အမူအရာ",
-      "meaningMyanmar": "သဘောထားခံယူချက် / အမူအရာ",
-      "pos": "noun",
-      "exampleSentenceId": "n2.l41.s005",
-      "kanjiIds": [
-        "n2.l41.k002"
-      ],
+      "ja": "肝要",
+      "kana": "かんよう",
+      "en": "Essential / vital / momentous",
+      "my": "မရှိမဖြစ်အရေးကြီးသော",
+      "meaningMy": "မရှိမဖြစ်အရေးကြီးသော",
+      "meaningMyanmar": "မရှိမဖြစ်အရေးကြီးသော",
+      "myanmar": "မရှိမဖြစ်အရေးကြီးသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
       "level": "N2",
       "difficulty": 4,
       "importance": 5,
@@ -164,26 +165,25 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-01T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n2.l41.v006",
       "lessonId": "n2.l41",
-      "ja": "限度",
-      "kana": "げんど",
-      "en": "Limit / Upper threshold",
-      "my": "ကန့်သတ်ချက်ပမာဏ",
-      "meaningMy": "ကန့်သတ်ချက်ပမာဏ",
-      "meaningMyanmar": "ကန့်သတ်ချက်ပမာဏ",
+      "ja": "権謀",
+      "kana": "けんぼう",
+      "en": "Political scheming / intrigue",
+      "my": "နိုင်ငံရေးပရိယာယ်အကွက်",
+      "meaningMy": "နိုင်ငံရေးပရိယာယ်အကွက်",
+      "meaningMyanmar": "နိုင်ငံရေးပရိယာယ်အကွက်",
+      "myanmar": "နိုင်ငံရေးပရိယာယ်အကွက်",
       "pos": "noun",
-      "exampleSentenceId": "n2.l41.s006",
-      "kanjiIds": [
-        "n2.l41.k002"
-      ],
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
       "level": "N2",
       "difficulty": 4,
       "importance": 5,
@@ -195,8 +195,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-01T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -210,6 +210,7 @@
       "my": "လူတန်းစား / အဆင့်အတန်း",
       "meaningMy": "လူတန်းစား / အဆင့်အတန်း",
       "meaningMyanmar": "လူတန်းစား / အဆင့်အတန်း",
+      "myanmar": "လူတန်းစား / အဆင့်အတန်း",
       "pos": "noun",
       "exampleSentenceId": "n2.l41.s007",
       "kanjiIds": [
@@ -226,8 +227,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-01T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -241,6 +242,7 @@
       "my": "အဆင့်မြင့်အဆင့်",
       "meaningMy": "အဆင့်မြင့်အဆင့်",
       "meaningMyanmar": "အဆင့်မြင့်အဆင့်",
+      "myanmar": "အဆင့်မြင့်အဆင့်",
       "pos": "noun",
       "exampleSentenceId": "n2.l41.s008",
       "kanjiIds": [
@@ -257,8 +259,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-01T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -272,6 +274,7 @@
       "my": "မျှော်မှန်းချက် / ဦးတည်ချက်ပန်းတိုင်",
       "meaningMy": "မျှော်မှန်းချက် / ဦးတည်ချက်ပန်းတိုင်",
       "meaningMyanmar": "မျှော်မှန်းချက် / ဦးတည်ချက်ပန်းတိုင်",
+      "myanmar": "မျှော်မှန်းချက် / ဦးတည်ချက်ပန်းတိုင်",
       "pos": "noun",
       "exampleSentenceId": "n2.l41.s009",
       "kanjiIds": [],
@@ -286,8 +289,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-01T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -295,14 +298,15 @@
     {
       "id": "n2.l41.v010",
       "lessonId": "n2.l41",
-      "ja": "基準",
-      "kana": "きじゅん",
-      "en": "Criterion / Benchmark / Standard",
-      "my": "စံသတ်မှတ်ချက်",
-      "meaningMy": "စံသတ်မှတ်ချက်",
-      "meaningMyanmar": "စံသတ်မှတ်ချက်",
+      "ja": "方策",
+      "kana": "ほうさく",
+      "en": "Plan / policy measure",
+      "my": "စီမံချက်မဟာဗျူဟာ",
+      "meaningMy": "စီမံချက်မဟာဗျူဟာ",
+      "meaningMyanmar": "စီမံချက်မဟာဗျူဟာ",
+      "myanmar": "စီမံချက်မဟာဗျူဟာ",
       "pos": "noun",
-      "exampleSentenceId": "n2.l41.s010",
+      "exampleSentenceId": "n2.l41.s001",
       "kanjiIds": [],
       "level": "N2",
       "difficulty": 4,
@@ -315,8 +319,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-01T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -324,14 +328,15 @@
     {
       "id": "n2.l41.v011",
       "lessonId": "n2.l41",
-      "ja": "把握",
-      "kana": "はあく",
-      "en": "Grasp / Full comprehension",
-      "my": "သဘောပေါက်နားလည်ခြင်း",
-      "meaningMy": "သဘောပေါက်နားလည်ခြင်း",
-      "meaningMyanmar": "သဘောပေါက်နားလည်ခြင်း",
+      "ja": "妙策",
+      "kana": "みょうさく",
+      "en": "Excellent ingenious plan",
+      "my": "ပြောင်မြောက်သောအကြံဉာဏ်",
+      "meaningMy": "ပြောင်မြောက်သောအကြံဉာဏ်",
+      "meaningMyanmar": "ပြောင်မြောက်သောအကြံဉာဏ်",
+      "myanmar": "ပြောင်မြောက်သောအကြံဉာဏ်",
       "pos": "noun",
-      "exampleSentenceId": "n2.l41.s011",
+      "exampleSentenceId": "n2.l41.s001",
       "kanjiIds": [],
       "level": "N2",
       "difficulty": 4,
@@ -344,8 +349,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-01T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -359,6 +364,7 @@
       "my": "တော်တော်များများ / ထိုက်သင့်သော",
       "meaningMy": "တော်တော်များများ / ထိုက်သင့်သော",
       "meaningMyanmar": "တော်တော်များများ / ထိုက်သင့်သော",
+      "myanmar": "တော်တော်များများ / ထိုက်သင့်သော",
       "pos": "na-adjective",
       "exampleSentenceId": "n2.l41.s012",
       "kanjiIds": [],
@@ -373,8 +379,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-01T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -382,43 +388,13 @@
     {
       "id": "n2.l41.v013",
       "lessonId": "n2.l41",
-      "ja": "間一髪",
-      "kana": "かんいっぱつ",
-      "en": "Hair’s breadth / close call",
-      "my": "မွေးညင်းတစ်မျှင်အလိုလွတ်မြောက်ခြင်း",
-      "meaningMy": "မွေးညင်းတစ်မျှင်အလိုလွတ်မြောက်ခြင်း",
-      "meaningMyanmar": "မွေးညင်းတစ်မျှင်အလိုလွတ်မြောက်ခြင်း",
-      "myanmar": "မွေးညင်းတစ်မျှင်အလိုလွတ်မြောက်ခြင်း",
-      "pos": "expression",
-      "exampleSentenceId": "n2.l41.s001",
-      "kanjiIds": [],
-      "level": "N2",
-      "difficulty": 4,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 3
-    },
-    {
-      "id": "n2.l41.v014",
-      "lessonId": "n2.l41",
-      "ja": "試行錯誤",
-      "kana": "しこうさくご",
-      "en": "Trial and error",
-      "my": "စမ်းသပ်မှားယွင်းသင်ယူမှု",
-      "meaningMy": "စမ်းသပ်မှားယွင်းသင်ယူမှု",
-      "meaningMyanmar": "စမ်းသပ်မှားယွင်းသင်ယူမှု",
-      "myanmar": "စမ်းသပ်မှားယွင်းသင်ယူမှု",
+      "ja": "秘策",
+      "kana": "ひさく",
+      "en": "Secret plan / hidden trump card",
+      "my": "လျှို့ဝှက်အကြံအစည်",
+      "meaningMy": "လျှို့ဝှက်အကြံအစည်",
+      "meaningMyanmar": "လျှို့ဝှက်အကြံအစည်",
+      "myanmar": "လျှို့ဝှက်အကြံအစည်",
       "pos": "noun",
       "exampleSentenceId": "n2.l41.s001",
       "kanjiIds": [],
@@ -433,172 +409,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 4
-    },
-    {
-      "id": "n2.l41.v015",
-      "lessonId": "n2.l41",
-      "ja": "前代未聞",
-      "kana": "ぜんだいみもん",
-      "en": "Unprecedented / unheard-of",
-      "my": "ယခင်ကမကြုံစဖူးသော",
-      "meaningMy": "ယခင်ကမကြုံစဖူးသော",
-      "meaningMyanmar": "ယခင်ကမကြုံစဖူးသော",
-      "myanmar": "ယခင်ကမကြုံစဖူးသော",
-      "pos": "noun",
-      "exampleSentenceId": "n2.l41.s001",
-      "kanjiIds": [],
-      "level": "N2",
-      "difficulty": 4,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 5
-    },
-    {
-      "id": "n2.l41.v016",
-      "lessonId": "n2.l41",
-      "ja": "臨機応変",
-      "kana": "りんきおうへん",
-      "en": "Adaptable to circumstances",
-      "my": "အခြေအနေနှင့်လျော်ညီစွာကျင့်သုံးခြင်း",
-      "meaningMy": "အခြေအနေနှင့်လျော်ညီစွာကျင့်သုံးခြင်း",
-      "meaningMyanmar": "အခြေအနေနှင့်လျော်ညီစွာကျင့်သုံးခြင်း",
-      "myanmar": "အခြေအနေနှင့်လျော်ညီစွာကျင့်သုံးခြင်း",
-      "pos": "adjective",
-      "exampleSentenceId": "n2.l41.s001",
-      "kanjiIds": [],
-      "level": "N2",
-      "difficulty": 4,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 5
-    },
-    {
-      "id": "n2.l41.v017",
-      "lessonId": "n2.l41",
-      "ja": "本末転倒",
-      "kana": "ほんまつてんとう",
-      "en": "Putting the cart before the horse",
-      "my": "အဓိကနှင့်သာမညမှားယွင်းခြင်း",
-      "meaningMy": "အဓိကနှင့်သာမညမှားယွင်းခြင်း",
-      "meaningMyanmar": "အဓိကနှင့်သာမညမှားယွင်းခြင်း",
-      "myanmar": "အဓိကနှင့်သာမညမှားယွင်းခြင်း",
-      "pos": "noun",
-      "exampleSentenceId": "n2.l41.s001",
-      "kanjiIds": [],
-      "level": "N2",
-      "difficulty": 4,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 5
-    },
-    {
-      "id": "n2.l41.v018",
-      "lessonId": "n2.l41",
-      "ja": "単刀直入",
-      "kana": "たんとうちょくにゅう",
-      "en": "Point-blank / direct to the point",
-      "my": "ကွေ့ဝိုက်မနေဘဲတိုက်ရိုက်ပြောခြင်း",
-      "meaningMy": "ကွေ့ဝိုက်မနေဘဲတိုက်ရိုက်ပြောခြင်း",
-      "meaningMyanmar": "ကွေ့ဝိုက်မနေဘဲတိုက်ရိုက်ပြောခြင်း",
-      "myanmar": "ကွေ့ဝိုက်မနေဘဲတိုက်ရိုက်ပြောခြင်း",
-      "pos": "adjective",
-      "exampleSentenceId": "n2.l41.s001",
-      "kanjiIds": [],
-      "level": "N2",
-      "difficulty": 4,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 5
-    },
-    {
-      "id": "n2.l41.v019",
-      "lessonId": "n2.l41",
-      "ja": "認識",
-      "kana": "にんしき",
-      "en": "Recognition / perception",
-      "my": "သိမြင်နားလည်သဘောပေါက်မှု",
-      "meaningMy": "သိမြင်နားလည်သဘောပေါက်မှု",
-      "meaningMyanmar": "သိမြင်နားလည်သဘောပေါက်မှု",
-      "myanmar": "သိမြင်နားလည်သဘောပေါက်မှု",
-      "pos": "noun",
-      "exampleSentenceId": "n2.l41.s001",
-      "kanjiIds": [],
-      "level": "N2",
-      "difficulty": 4,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
     {
-      "id": "n2.l41.v020",
+      "id": "n2.l41.v014",
       "lessonId": "n2.l41",
-      "ja": "洞察",
-      "kana": "どうさつ",
-      "en": "Insight / discernment",
-      "my": "ထိုးထွင်းသိမြင်မှု",
-      "meaningMy": "ထိုးထွင်းသိမြင်မှု",
-      "meaningMyanmar": "ထိုးထွင်းသိမြင်မှု",
-      "myanmar": "ထိုးထွင်းသိမြင်မှု",
+      "ja": "深謀",
+      "kana": "しんぼう",
+      "en": "Deep far-reaching design",
+      "my": "နက်ရှိုင်းသောအကြံအစည်",
+      "meaningMy": "နက်ရှိုင်းသောအကြံအစည်",
+      "meaningMyanmar": "နက်ရှိုင်းသောအကြံအစည်",
+      "myanmar": "နက်ရှိုင်းသောအကြံအစည်",
       "pos": "noun",
       "exampleSentenceId": "n2.l41.s001",
       "kanjiIds": [],
@@ -613,7 +439,187 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l41.v015",
+      "lessonId": "n2.l41",
+      "ja": "奸計",
+      "kana": "かんけい",
+      "en": "Wicked trick / evil plot",
+      "my": "မကောင်းသောအကောက်ကြံမှု",
+      "meaningMy": "မကောင်းသောအကောက်ကြံမှု",
+      "meaningMyanmar": "မကောင်းသောအကောက်ကြံမှု",
+      "myanmar": "မကောင်းသောအကောက်ကြံမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l41.v016",
+      "lessonId": "n2.l41",
+      "ja": "謀略",
+      "kana": "ぼうりゃく",
+      "en": "Stratagem / Machiavellian plot",
+      "my": "ဉာဏ်နီဉာဏ်နက်ပရိယာယ်",
+      "meaningMy": "ဉာဏ်နီဉာဏ်နက်ပရိယာယ်",
+      "meaningMyanmar": "ဉာဏ်နီဉာဏ်နက်ပရိယာယ်",
+      "myanmar": "ဉာဏ်နီဉာဏ်နက်ပရိယာယ်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l41.v017",
+      "lessonId": "n2.l41",
+      "ja": "暗躍",
+      "kana": "あんやく",
+      "en": "Secret maneuvering behind scenes",
+      "my": "နောက်ကွယ်မှတိတ်တဆိတ်လှုပ်ရှားမှု",
+      "meaningMy": "နောက်ကွယ်မှတိတ်တဆိတ်လှုပ်ရှားမှု",
+      "meaningMyanmar": "နောက်ကွယ်မှတိတ်တဆိတ်လှုပ်ရှားမှု",
+      "myanmar": "နောက်ကွယ်မှတိတ်တဆိတ်လှုပ်ရှားမှု",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l41.v018",
+      "lessonId": "n2.l41",
+      "ja": "覇権",
+      "kana": "はけん",
+      "en": "Hegemony / supreme dominance",
+      "my": "ဗိုလ်ကျစိုးမိုးမှုအာဏာ",
+      "meaningMy": "ဗိုလ်ကျစိုးမိုးမှုအာဏာ",
+      "meaningMyanmar": "ဗိုလ်ကျစိုးမိုးမှုအာဏာ",
+      "myanmar": "ဗိုလ်ကျစိုးမိုးမှုအာဏာ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l41.v019",
+      "lessonId": "n2.l41",
+      "ja": "覇者",
+      "kana": "はしゃ",
+      "en": "Supreme champion / ruler",
+      "my": "ဗိုလ်စွဲသူခေါင်းဆောင်ကြီး",
+      "meaningMy": "ဗိုလ်စွဲသူခေါင်းဆောင်ကြီး",
+      "meaningMyanmar": "ဗိုလ်စွဲသူခေါင်းဆောင်ကြီး",
+      "myanmar": "ဗိုလ်စွဲသူခေါင်းဆောင်ကြီး",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n2.l41.v020",
+      "lessonId": "n2.l41",
+      "ja": "気概",
+      "kana": "きがい",
+      "en": "Strong fighting spirit / backbone",
+      "my": "ရဲဝံ့ခိုင်မာသောစိတ်ဓာတ်",
+      "meaningMy": "ရဲဝံ့ခိုင်မာသောစိတ်ဓာတ်",
+      "meaningMyanmar": "ရဲဝံ့ခိုင်မာသောစိတ်ဓာတ်",
+      "myanmar": "ရဲဝံ့ခိုင်မာသောစိတ်ဓာတ်",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -622,13 +628,13 @@
     {
       "id": "n2.l41.v021",
       "lessonId": "n2.l41",
-      "ja": "熟考",
-      "kana": "じゅっこう",
-      "en": "Deliberation / mature thought",
-      "my": "လေးလေးနက်နက်စဉ်းစားခြင်း",
-      "meaningMy": "လေးလေးနက်နက်စဉ်းစားခြင်း",
-      "meaningMyanmar": "လေးလေးနက်နက်စဉ်းစားခြင်း",
-      "myanmar": "လေးလေးနက်နက်စဉ်းစားခြင်း",
+      "ja": "気骨",
+      "kana": "きこつ",
+      "en": "Backbone / grit / moral courage",
+      "my": "ခိုင်မာသောအရိုးခံသိက္ခာ",
+      "meaningMy": "ခိုင်မာသောအရိုးခံသိက္ခာ",
+      "meaningMyanmar": "ခိုင်မာသောအရိုးခံသိက္ခာ",
+      "myanmar": "ခိုင်မာသောအရိုးခံသိက္ခာ",
       "pos": "noun",
       "exampleSentenceId": "n2.l41.s001",
       "kanjiIds": [],
@@ -643,7 +649,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -652,13 +658,13 @@
     {
       "id": "n2.l41.v022",
       "lessonId": "n2.l41",
-      "ja": "懸念",
-      "kana": "けねん",
-      "en": "Concern / apprehension",
-      "my": "စိုးရိမ်ပူပန်မှု",
-      "meaningMy": "စိုးရိမ်ပူပန်မှု",
-      "meaningMyanmar": "စိုးရိမ်ပူပန်မှု",
-      "myanmar": "စိုးရိမ်ပူပန်မှု",
+      "ja": "綱紀",
+      "kana": "こうき",
+      "en": "Official discipline and order",
+      "my": "စည်းကမ်းဥပဒေထိန်းသိမ်းမှု",
+      "meaningMy": "စည်းကမ်းဥပဒေထိန်းသိမ်းမှု",
+      "meaningMyanmar": "စည်းကမ်းဥပဒေထိန်းသိမ်းမှု",
+      "myanmar": "စည်းကမ်းဥပဒေထိန်းသိမ်းမှု",
       "pos": "noun",
       "exampleSentenceId": "n2.l41.s001",
       "kanjiIds": [],
@@ -673,22 +679,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n2.l41.v023",
       "lessonId": "n2.l41",
-      "ja": "焦燥",
-      "kana": "しょうそう",
-      "en": "Impatience / irritation",
-      "my": "စိတ်မရှည်ဒေါသဖြစ်ခြင်း",
-      "meaningMy": "စိတ်မရှည်ဒေါသဖြစ်ခြင်း",
-      "meaningMyanmar": "စိတ်မရှည်ဒေါသဖြစ်ခြင်း",
-      "myanmar": "စိတ်မရှည်ဒေါသဖြစ်ခြင်း",
+      "ja": "粛正",
+      "kana": "しゅくせい",
+      "en": "Enforcing discipline strictly",
+      "my": "စည်းမျဉ်းတင်းကျပ်စွာကိုင်တွယ်ခြင်း",
+      "meaningMy": "စည်းမျဉ်းတင်းကျပ်စွာကိုင်တွယ်ခြင်း",
+      "meaningMyanmar": "စည်းမျဉ်းတင်းကျပ်စွာကိုင်တွယ်ခြင်း",
+      "myanmar": "စည်းမျဉ်းတင်းကျပ်စွာကိုင်တွယ်ခြင်း",
       "pos": "noun",
       "exampleSentenceId": "n2.l41.s001",
       "kanjiIds": [],
@@ -703,7 +709,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -712,193 +718,13 @@
     {
       "id": "n2.l41.v024",
       "lessonId": "n2.l41",
-      "ja": "躊躇",
-      "kana": "ちゅうちょ",
-      "en": "Hesitation / vacillation",
-      "my": "တွန့်ဆုတ်တွေဝေခြင်း",
-      "meaningMy": "တွန့်ဆုတ်တွေဝေခြင်း",
-      "meaningMyanmar": "တွန့်ဆုတ်တွေဝေခြင်း",
-      "myanmar": "တွန့်ဆုတ်တွေဝေခြင်း",
-      "pos": "noun",
-      "exampleSentenceId": "n2.l41.s001",
-      "kanjiIds": [],
-      "level": "N2",
-      "difficulty": 4,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
-    },
-    {
-      "id": "n2.l41.v025",
-      "lessonId": "n2.l41",
-      "ja": "模索",
-      "kana": "もさく",
-      "en": "Groping / searching for solutions",
-      "my": "အဖြေရှာစမ်းသပ်လေ့လာခြင်း",
-      "meaningMy": "အဖြေရှာစမ်းသပ်လေ့လာခြင်း",
-      "meaningMyanmar": "အဖြေရှာစမ်းသပ်လေ့လာခြင်း",
-      "myanmar": "အဖြေရှာစမ်းသပ်လေ့လာခြင်း",
-      "pos": "noun",
-      "exampleSentenceId": "n2.l41.s001",
-      "kanjiIds": [],
-      "level": "N2",
-      "difficulty": 4,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n2.l41.v026",
-      "lessonId": "n2.l41",
-      "ja": "模範",
-      "kana": "もはん",
-      "en": "Model / exemplary example",
-      "my": "စံနမူနာပြ",
-      "meaningMy": "စံနမူနာပြ",
-      "meaningMyanmar": "စံနမူနာပြ",
-      "myanmar": "စံနမူနာပြ",
-      "pos": "noun",
-      "exampleSentenceId": "n2.l41.s001",
-      "kanjiIds": [],
-      "level": "N2",
-      "difficulty": 4,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n2.l41.v027",
-      "lessonId": "n2.l41",
-      "ja": "示唆",
-      "kana": "しさ",
-      "en": "Suggestion / implication",
-      "my": "အရိပ်အမြွက်ပြသခြင်း",
-      "meaningMy": "အရိပ်အမြွက်ပြသခြင်း",
-      "meaningMyanmar": "အရိပ်အမြွက်ပြသခြင်း",
-      "myanmar": "အရိပ်အမြွက်ပြသခြင်း",
-      "pos": "noun",
-      "exampleSentenceId": "n2.l41.s001",
-      "kanjiIds": [],
-      "level": "N2",
-      "difficulty": 4,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
-    },
-    {
-      "id": "n2.l41.v028",
-      "lessonId": "n2.l41",
-      "ja": "誇張",
-      "kana": "こちょう",
-      "en": "Exaggeration",
-      "my": "ပိုမိုချဲ့ကားပြောဆိုခြင်း",
-      "meaningMy": "ပိုမိုချဲ့ကားပြောဆိုခြင်း",
-      "meaningMyanmar": "ပိုမိုချဲ့ကားပြောဆိုခြင်း",
-      "myanmar": "ပိုမိုချဲ့ကားပြောဆိုခြင်း",
-      "pos": "noun",
-      "exampleSentenceId": "n2.l41.s001",
-      "kanjiIds": [],
-      "level": "N2",
-      "difficulty": 4,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n2.l41.v029",
-      "lessonId": "n2.l41",
-      "ja": "歪曲",
-      "kana": "わいきょく",
-      "en": "Distortion / falsification",
-      "my": "အမှန်တရားကိုလိမ်လည်ဖောက်ဖျက်ခြင်း",
-      "meaningMy": "အမှန်တရားကိုလိမ်လည်ဖောက်ဖျက်ခြင်း",
-      "meaningMyanmar": "အမှန်တရားကိုလိမ်လည်ဖောက်ဖျက်ခြင်း",
-      "myanmar": "အမှန်တရားကိုလိမ်လည်ဖောက်ဖျက်ခြင်း",
-      "pos": "noun",
-      "exampleSentenceId": "n2.l41.s001",
-      "kanjiIds": [],
-      "level": "N2",
-      "difficulty": 4,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n2.l41.v030",
-      "lessonId": "n2.l41",
-      "ja": "曖昧",
-      "kana": "あいまい",
-      "en": "Vague / ambiguous",
-      "my": "မသဲကွဲဝေဝါးသော",
-      "meaningMy": "မသဲကွဲဝေဝါးသော",
-      "meaningMyanmar": "မသဲကွဲဝေဝါးသော",
-      "myanmar": "မသဲကွဲဝေဝါးသော",
+      "ja": "森厳",
+      "kana": "しんげん",
+      "en": "Solemn / majestic gravity",
+      "my": "ခမ်းနားလေးနက်ငြိမ်သက်သော",
+      "meaningMy": "ခမ်းနားလေးနက်ငြိမ်သက်သော",
+      "meaningMyanmar": "ခမ်းနားလေးနက်ငြိမ်သက်သော",
+      "myanmar": "ခမ်းနားလေးနက်ငြိမ်သက်သော",
       "pos": "adjective",
       "exampleSentenceId": "n2.l41.s001",
       "kanjiIds": [],
@@ -913,7 +739,187 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l41.v025",
+      "lessonId": "n2.l41",
+      "ja": "荘厳",
+      "kana": "そうごん",
+      "en": "Solemnity / sublimity / grandeur",
+      "my": "ခမ်းနားထည်ဝါအံ့မခန်းဖြစ်မှု",
+      "meaningMy": "ခမ်းနားထည်ဝါအံ့မခန်းဖြစ်မှု",
+      "meaningMyanmar": "ခမ်းနားထည်ဝါအံ့မခန်းဖြစ်မှု",
+      "myanmar": "ခမ်းနားထည်ဝါအံ့မခန်းဖြစ်မှု",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l41.v026",
+      "lessonId": "n2.l41",
+      "ja": "悲壮",
+      "kana": "ひそう",
+      "en": "Tragic heroism / pathetic courage",
+      "my": "ဝမ်းနည်းဖွယ်ရဲရင့်မှု",
+      "meaningMy": "ဝမ်းနည်းဖွယ်ရဲရင့်မှု",
+      "meaningMyanmar": "ဝမ်းနည်းဖွယ်ရဲရင့်မှု",
+      "myanmar": "ဝမ်းနည်းဖွယ်ရဲရင့်မှု",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l41.v027",
+      "lessonId": "n2.l41",
+      "ja": "凄惨",
+      "kana": "せいさん",
+      "en": "Ghastly / gruesome / horrific",
+      "my": "သရဲတစ္ဆေလိုကြောက်မက်ဖွယ်ဆိုးရွားသော",
+      "meaningMy": "သရဲတစ္ဆေလိုကြောက်မက်ဖွယ်ဆိုးရွားသော",
+      "meaningMyanmar": "သရဲတစ္ဆေလိုကြောက်မက်ဖွယ်ဆိုးရွားသော",
+      "myanmar": "သရဲတစ္ဆေလိုကြောက်မက်ဖွယ်ဆိုးရွားသော",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l41.v028",
+      "lessonId": "n2.l41",
+      "ja": "惨状",
+      "kana": "さんじょう",
+      "en": "Disastrous scene / terrible sight",
+      "my": "ရင်နင့်ဖွယ်ပျက်စီးမှုမြင်ကွင်း",
+      "meaningMy": "ရင်နင့်ဖွယ်ပျက်စီးမှုမြင်ကွင်း",
+      "meaningMyanmar": "ရင်နင့်ဖွယ်ပျက်စီးမှုမြင်ကွင်း",
+      "myanmar": "ရင်နင့်ဖွယ်ပျက်စီးမှုမြင်ကွင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n2.l41.v029",
+      "lessonId": "n2.l41",
+      "ja": "惨禍",
+      "kana": "さんか",
+      "en": "Calamity / catastrophic disaster",
+      "my": "ဆိုးရွားသောဘေးဒုက္ခ",
+      "meaningMy": "ဆိုးရွားသောဘေးဒုက္ခ",
+      "meaningMyanmar": "ဆိုးရွားသောဘေးဒုက္ခ",
+      "myanmar": "ဆိုးရွားသောဘေးဒုက္ခ",
+      "pos": "noun",
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n2.l41.v030",
+      "lessonId": "n2.l41",
+      "ja": "果断",
+      "kana": "かだん",
+      "en": "Decisive / resolute action",
+      "my": "ပြတ်သားသောလုပ်ဆောင်မှု",
+      "meaningMy": "ပြတ်သားသောလုပ်ဆောင်မှု",
+      "meaningMyanmar": "ပြတ်သားသောလုပ်ဆောင်မှု",
+      "myanmar": "ပြတ်သားသောလုပ်ဆောင်မှု",
+      "pos": "adjective",
+      "exampleSentenceId": "n2.l41.s001",
+      "kanjiIds": [],
+      "level": "N2",
+      "difficulty": 4,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -980,8 +986,8 @@
       "lessonId": "n2.l41",
       "char": "度",
       "meaning": "Degree / Measure / Time / Limit",
-      "meaningMy": "ဒီဂရီ / အကြိမ် / အတိုင်းအတာ / သဘောထား",
-      "meaningMyanmar": "ဒီဂရီ / အကြိမ် / အတိုင်းအတာ / သဘောထား",
+      "meaningMy": "အကြိမ်ရေ / အတိုင်းအတာ / ဒီဂရီ",
+      "meaningMyanmar": "အကြိမ်ရေ / အတိုင်းအတာ / ဒီဂရီ",
       "onyomi": [
         "ド",
         "ト",
@@ -1030,7 +1036,9 @@
         "status": "native_verified",
         "updatedAt": "2026-11-01T10:00:00Z",
         "rev": 2
-      }
+      },
+      "my": "အကြိမ်ရေ / အတိုင်းအတာ / ဒီဂရီ",
+      "myanmar": "အကြိမ်ရေ / အတိုင်းအတာ / ဒီဂရီ"
     },
     {
       "id": "n2.l41.k003",
@@ -1270,8 +1278,18 @@
       },
       "translationMy": "တွေးလေလေ အခြေအနေ၏ စိုးရိမ်ရမှုနှင့် ဖြေရှင်းရန် ခက်ခဲမှုကို ပိုမိုပြင်းထန်စွာ သဘောပေါက်လေလေ ဖြစ်သည်။",
       "vocabIds": [
+        "n2.l41.v001",
         "n2.l41.v002",
+        "n2.l41.v003",
+        "n2.l41.v004",
+        "n2.l41.v005",
+        "n2.l41.v006",
+        "n2.l41.v007",
+        "n2.l41.v008",
+        "n2.l41.v009",
+        "n2.l41.v010",
         "n2.l41.v011",
+        "n2.l41.v012",
         "n2.l41.v013",
         "n2.l41.v014",
         "n2.l41.v015",

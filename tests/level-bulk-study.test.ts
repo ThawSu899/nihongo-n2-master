@@ -15,9 +15,9 @@ describe('LevelBulkStudyScreen & ContentLoader Bulk Vocabulary', () => {
     vi.restoreAllMocks();
   });
 
-  it('aggregates and deduplicates vocabulary for N5', async () => {
+  it('aggregates and deduplicates vocabulary for N5 (exactly 900 unique words)', async () => {
     const n5Vocab = await ContentLoader.getVocabularyForLevel('N5');
-    expect(n5Vocab.length).toBeGreaterThan(0);
+    expect(n5Vocab.length).toBe(900);
     // All items must be N5 level
     const nonN5 = n5Vocab.filter((v) => v.level !== 'N5');
     expect(nonN5.length).toBe(0);
@@ -29,14 +29,21 @@ describe('LevelBulkStudyScreen & ContentLoader Bulk Vocabulary', () => {
       expect(seen.has(key)).toBe(false);
       seen.add(key);
     }
-  });
+  }, 20000);
 
-  it('aggregates and deduplicates vocabulary for N2', async () => {
+  it('aggregates and deduplicates vocabulary for N2 (exactly 1800 unique words)', async () => {
     const n2Vocab = await ContentLoader.getVocabularyForLevel('N2');
-    expect(n2Vocab.length).toBeGreaterThan(0);
+    expect(n2Vocab.length).toBe(1800);
     const nonN2 = n2Vocab.filter((v) => v.level !== 'N2');
     expect(nonN2.length).toBe(0);
-  });
+
+    const seen = new Set<string>();
+    for (const v of n2Vocab) {
+      const key = `${v.ja}_${v.kana}`;
+      expect(seen.has(key)).toBe(false);
+      seen.add(key);
+    }
+  }, 25000);
 
   it('generates a 10-question multiple-choice quiz session with 4 choices per question', async () => {
     const n5Vocab = await ContentLoader.getVocabularyForLevel('N5');

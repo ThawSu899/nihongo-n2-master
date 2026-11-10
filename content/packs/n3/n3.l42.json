@@ -24,6 +24,7 @@
       "my": "နှိုင်းယှဉ်၍ ဥပမာပြသည်",
       "meaningMy": "နှိုင်းယှဉ်၍ ဥပမာပြသည်",
       "meaningMyanmar": "နှိုင်းယှဉ်၍ ဥပမာပြသည်",
+      "myanmar": "နှိုင်းယှဉ်၍ ဥပမာပြသည်",
       "pos": "verb",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -38,8 +39,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -53,6 +54,7 @@
       "my": "လက်တွေ့ဥပမာ",
       "meaningMy": "လက်တွေ့ဥပမာ",
       "meaningMyanmar": "လက်တွေ့ဥပမာ",
+      "myanmar": "လက်တွေ့ဥပမာ",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s002",
       "kanjiIds": [],
@@ -67,8 +69,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "nakadaka",
       "dropIndex": 3
@@ -82,6 +84,7 @@
       "my": "ထုတ်ဖော်ပြသသည်/လက်မြှောက်သည်",
       "meaningMy": "ထုတ်ဖော်ပြသသည်/လက်မြှောက်သည်",
       "meaningMyanmar": "ထုတ်ဖော်ပြသသည်/လက်မြှောက်သည်",
+      "myanmar": "ထုတ်ဖော်ပြသသည်/လက်မြှောက်သည်",
       "pos": "verb",
       "exampleSentenceId": "n3.l42.s003",
       "kanjiIds": [],
@@ -96,8 +99,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -105,18 +108,19 @@
     {
       "id": "n3.l42.v004",
       "lessonId": "n3.l42",
-      "ja": "選挙",
-      "kana": "せんきょ",
-      "en": "senkyo",
-      "my": "ရွေးကောက်ပွဲ",
-      "meaningMy": "ရွေးကောက်ပွဲ",
-      "meaningMyanmar": "ရွေးကောက်ပွဲ",
+      "ja": "太陽光パネル",
+      "kana": "たいようこうパネル",
+      "en": "Solar photovoltaic panel",
+      "my": "နေရောင်ခြည်စွမ်းအင်သုံးပြား",
+      "meaningMy": "နေရောင်ခြည်စွမ်းအင်သုံးပြား",
+      "meaningMyanmar": "နေရောင်ခြည်စွမ်းအင်သုံးပြား",
+      "myanmar": "နေရောင်ခြည်စွမ်းအင်သုံးပြား",
       "pos": "noun",
-      "exampleSentenceId": "n3.l42.s004",
+      "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
       "level": "N3",
       "difficulty": 3,
-      "importance": 4,
+      "importance": 5,
       "audio": {
         "kind": "tts",
         "lang": "ja-JP"
@@ -125,11 +129,11 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
     },
     {
       "id": "n3.l42.v005",
@@ -140,6 +144,7 @@
       "my": "အမျိုးအစား",
       "meaningMy": "အမျိုးအစား",
       "meaningMyanmar": "အမျိုးအစား",
+      "myanmar": "အမျိုးအစား",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s005",
       "kanjiIds": [],
@@ -154,8 +159,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "nakadaka",
       "dropIndex": 2
@@ -169,6 +174,7 @@
       "my": "အမျိုးအစားခွဲခြားခြင်း",
       "meaningMy": "အမျိုးအစားခွဲခြားခြင်း",
       "meaningMyanmar": "အမျိုးအစားခွဲခြားခြင်း",
+      "myanmar": "အမျိုးအစားခွဲခြားခြင်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s006",
       "kanjiIds": [],
@@ -183,8 +189,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "nakadaka",
       "dropIndex": 3
@@ -198,6 +204,7 @@
       "my": "စာရွက်စာတမ်း",
       "meaningMy": "စာရွက်စာတမ်း",
       "meaningMyanmar": "စာရွက်စာတမ်း",
+      "myanmar": "စာရွက်စာတမ်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -212,8 +219,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "nakadaka",
       "dropIndex": 2
@@ -227,6 +234,7 @@
       "my": "ကိရိယာတန်ဆာပလာ",
       "meaningMy": "ကိရိယာတန်ဆာပလာ",
       "meaningMyanmar": "ကိရိယာတန်ဆာပလာ",
+      "myanmar": "ကိရိယာတန်ဆာပလာ",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s002",
       "kanjiIds": [],
@@ -241,8 +249,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -256,6 +264,7 @@
       "my": "တိကျခိုင်မာသော/လက်တွေ့ကျသော",
       "meaningMy": "တိကျခိုင်မာသော/လက်တွေ့ကျသော",
       "meaningMyanmar": "တိကျခိုင်မာသော/လက်တွေ့ကျသော",
+      "myanmar": "တိကျခိုင်မာသော/လက်တွေ့ကျသော",
       "pos": "adj-na",
       "exampleSentenceId": "n3.l42.s003",
       "kanjiIds": [],
@@ -270,8 +279,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "nakadaka",
       "dropIndex": 3
@@ -285,6 +294,7 @@
       "my": "ကဏ္ဍ/အချက်အလက်",
       "meaningMy": "ကဏ္ဍ/အချက်အလက်",
       "meaningMyanmar": "ကဏ္ဍ/အချက်အလက်",
+      "myanmar": "ကဏ္ဍ/အချက်အလက်",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s004",
       "kanjiIds": [],
@@ -299,8 +309,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -314,6 +324,7 @@
       "my": "နေ့စဉ်သုံးပစ္စည်း",
       "meaningMy": "နေ့စဉ်သုံးပစ္စည်း",
       "meaningMyanmar": "နေ့စဉ်သုံးပစ္စည်း",
+      "myanmar": "နေ့စဉ်သုံးပစ္စည်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s005",
       "kanjiIds": [],
@@ -328,8 +339,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -343,6 +354,7 @@
       "my": "သပ်ရပ်အောင်စီစဉ်ခြင်း/ရှင်းလင်းခြင်း",
       "meaningMy": "သပ်ရပ်အောင်စီစဉ်ခြင်း/ရှင်းလင်းခြင်း",
       "meaningMyanmar": "သပ်ရပ်အောင်စီစဉ်ခြင်း/ရှင်းလင်းခြင်း",
+      "myanmar": "သပ်ရပ်အောင်စီစဉ်ခြင်း/ရှင်းလင်းခြင်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s006",
       "kanjiIds": [],
@@ -357,8 +369,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -366,13 +378,13 @@
     {
       "id": "n3.l42.v013",
       "lessonId": "n3.l42",
-      "ja": "職場",
-      "kana": "しょくば",
-      "en": "Workplace",
-      "my": "လုပ်ငန်းခွင်",
-      "meaningMy": "လုပ်ငန်းခွင်",
-      "meaningMyanmar": "လုပ်ငန်းခွင်",
-      "myanmar": "လုပ်ငန်းခွင်",
+      "ja": "蓄電設備",
+      "kana": "ちくでんせつび",
+      "en": "Electrical battery energy storage equipment",
+      "my": "လျှပ်စစ်သိုလှောင်ကိရိယာစနစ်",
+      "meaningMy": "လျှပ်စစ်သိုလှောင်ကိရိယာစနစ်",
+      "meaningMyanmar": "လျှပ်စစ်သိုလှောင်ကိရိယာစနစ်",
+      "myanmar": "လျှပ်စစ်သိုလှောင်ကိရိယာစနစ်",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -387,22 +399,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n3.l42.v014",
       "lessonId": "n3.l42",
-      "ja": "同僚",
-      "kana": "どうりょう",
-      "en": "Coworker / colleague",
-      "my": "လုပ်ဖော်ကိုင်ဖက်",
-      "meaningMy": "လုပ်ဖော်ကိုင်ဖက်",
-      "meaningMyanmar": "လုပ်ဖော်ကိုင်ဖက်",
-      "myanmar": "လုပ်ဖော်ကိုင်ဖက်",
+      "ja": "送電線",
+      "kana": "そうでんせん",
+      "en": "Electric power transmission cable",
+      "my": "လျှပ်စစ်ဓာတ်အားလိုင်းကြိုး",
+      "meaningMy": "လျှပ်စစ်ဓာတ်အားလိုင်းကြိုး",
+      "meaningMyanmar": "လျှပ်စစ်ဓာတ်အားလိုင်းကြိုး",
+      "myanmar": "လျှပ်စစ်ဓာတ်အားလိုင်းကြိုး",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -417,7 +429,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -426,13 +438,13 @@
     {
       "id": "n3.l42.v015",
       "lessonId": "n3.l42",
-      "ja": "上司",
-      "kana": "じょうし",
-      "en": "Boss / superior",
-      "my": "အထက်လူကြီး",
-      "meaningMy": "အထက်လူကြီး",
-      "meaningMyanmar": "အထက်လူကြီး",
-      "myanmar": "အထက်လူကြီး",
+      "ja": "変電所",
+      "kana": "へんでんしょ",
+      "en": "Electric transformer substation",
+      "my": "ဓာတ်အားခွဲရုံ",
+      "meaningMy": "ဓာတ်အားခွဲရုံ",
+      "meaningMyanmar": "ဓာတ်အားခွဲရုံ",
+      "myanmar": "ဓာတ်အားခွဲရုံ",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -447,82 +459,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
-    },
-    {
-      "id": "n3.l42.v016",
-      "lessonId": "n3.l42",
-      "ja": "部下",
-      "kana": "ぶか",
-      "en": "Subordinate",
-      "my": "လက်အောက်ငယ်သား",
-      "meaningMy": "လက်အောက်ငယ်သား",
-      "meaningMyanmar": "လက်အောက်ငယ်သား",
-      "myanmar": "လက်အောက်ငယ်သား",
-      "pos": "noun",
-      "exampleSentenceId": "n3.l42.s001",
-      "kanjiIds": [],
-      "level": "N3",
-      "difficulty": 3,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
-    },
-    {
-      "id": "n3.l42.v017",
-      "lessonId": "n3.l42",
-      "ja": "責任",
-      "kana": "せきにん",
-      "en": "Responsibility",
-      "my": "တာဝန်ယူမှု",
-      "meaningMy": "တာဝန်ယူမှု",
-      "meaningMyanmar": "တာဝန်ယူမှု",
-      "myanmar": "တာဝန်ယူမှု",
-      "pos": "noun",
-      "exampleSentenceId": "n3.l42.s001",
-      "kanjiIds": [],
-      "level": "N3",
-      "difficulty": 3,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
     {
-      "id": "n3.l42.v018",
+      "id": "n3.l42.v016",
       "lessonId": "n3.l42",
-      "ja": "担当",
-      "kana": "たんとう",
-      "en": "Being in charge of",
-      "my": "တာဝန်ယူဆောင်ရွက်ခြင်း",
-      "meaningMy": "တာဝန်ယူဆောင်ရွက်ခြင်း",
-      "meaningMyanmar": "တာဝန်ယူဆောင်ရွက်ခြင်း",
-      "myanmar": "တာဝန်ယူဆောင်ရွက်ခြင်း",
+      "ja": "見当違い",
+      "kana": "けんとうちがい",
+      "en": "Wrong guess / wide of mark",
+      "my": "မှန်းဆချက်လွဲမှားခြင်း",
+      "meaningMy": "မှန်းဆချက်လွဲမှားခြင်း",
+      "meaningMyanmar": "မှန်းဆချက်လွဲမှားခြင်း",
+      "myanmar": "မှန်းဆချက်လွဲမှားခြင်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -537,7 +489,67 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
+    },
+    {
+      "id": "n3.l42.v017",
+      "lessonId": "n3.l42",
+      "ja": "場違い",
+      "kana": "ばちがい",
+      "en": "Out of place / inappropriate setting",
+      "my": "နေရာနှင့်မသင့်လျော်သော",
+      "meaningMy": "နေရာနှင့်မသင့်လျော်သော",
+      "meaningMyanmar": "နေရာနှင့်မသင့်လျော်သော",
+      "myanmar": "နေရာနှင့်မသင့်လျော်သော",
+      "pos": "adjective",
+      "exampleSentenceId": "n3.l42.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n3.l42.v018",
+      "lessonId": "n3.l42",
+      "ja": "思い過ごし",
+      "kana": "おもいすごし",
+      "en": "Overthinking / anxious imagining",
+      "my": "တွေးလွန်ပြီးစိုးရိမ်ခြင်း",
+      "meaningMy": "တွေးလွန်ပြီးစိုးရိမ်ခြင်း",
+      "meaningMyanmar": "တွေးလွန်ပြီးစိုးရိမ်ခြင်း",
+      "myanmar": "တွေးလွန်ပြီးစိုးရိမ်ခြင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l42.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -546,13 +558,13 @@
     {
       "id": "n3.l42.v019",
       "lessonId": "n3.l42",
-      "ja": "業務",
-      "kana": "ぎょうむ",
-      "en": "Business operations / duties",
-      "my": "လုပ်ငန်းတာဝန်များ",
-      "meaningMy": "လုပ်ငန်းတာဝန်များ",
-      "meaningMyanmar": "လုပ်ငန်းတာဝန်များ",
-      "myanmar": "လုပ်ငန်းတာဝန်များ",
+      "ja": "早とちり",
+      "kana": "はやとちり",
+      "en": "Jumping rashly to conclusions",
+      "my": "မစုံစမ်းဘဲအလျင်စလိုကောက်ချက်ချခြင်း",
+      "meaningMy": "မစုံစမ်းဘဲအလျင်စလိုကောက်ချက်ချခြင်း",
+      "meaningMyanmar": "မစုံစမ်းဘဲအလျင်စလိုကောက်ချက်ချခြင်း",
+      "myanmar": "မစုံစမ်းဘဲအလျင်စလိုကောက်ချက်ချခြင်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -567,22 +579,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l42.v020",
       "lessonId": "n3.l42",
-      "ja": "打ち合わせ",
-      "kana": "うちあわせ",
-      "en": "Preliminary meeting / consultation",
-      "my": "ညှိနှိုင်းဆွေးနွေးပွဲ",
-      "meaningMy": "ညှိနှိုင်းဆွေးနွေးပွဲ",
-      "meaningMyanmar": "ညှိနှိုင်းဆွေးနွေးပွဲ",
-      "myanmar": "ညှိနှိုင်းဆွေးနွေးပွဲ",
+      "ja": "気のせい",
+      "kana": "きのせい",
+      "en": "Mere figment of imagination",
+      "my": "စိတ်ထင်မှုသက်သက်သာဖြစ်ခြင်း",
+      "meaningMy": "စိတ်ထင်မှုသက်သက်သာဖြစ်ခြင်း",
+      "meaningMyanmar": "စိတ်ထင်မှုသက်သက်သာဖြစ်ခြင်း",
+      "myanmar": "စိတ်ထင်မှုသက်သက်သာဖြစ်ခြင်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -597,7 +609,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -606,13 +618,13 @@
     {
       "id": "n3.l42.v021",
       "lessonId": "n3.l42",
-      "ja": "経済",
-      "kana": "けいざい",
-      "en": "Economy / economics",
-      "my": "စီးပွားရေး",
-      "meaningMy": "စီးပွားရေး",
-      "meaningMyanmar": "စီးပွားရေး",
-      "myanmar": "စီးပွားရေး",
+      "ja": "空耳",
+      "kana": "そらみみ",
+      "en": "Hearing things phantom acoustic",
+      "my": "ကြားယောင်ခြင်း",
+      "meaningMy": "ကြားယောင်ခြင်း",
+      "meaningMyanmar": "ကြားယောင်ခြင်း",
+      "myanmar": "ကြားယောင်ခြင်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -627,22 +639,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l42.v022",
       "lessonId": "n3.l42",
-      "ja": "政治",
-      "kana": "せいじ",
-      "en": "Politics / government",
-      "my": "နိုင်ငံရေး",
-      "meaningMy": "နိုင်ငံရေး",
-      "meaningMyanmar": "နိုင်ငံရေး",
-      "myanmar": "နိုင်ငံရေး",
+      "ja": "見間違い",
+      "kana": "みまちがい",
+      "en": "Mistake in seeing / misperception",
+      "my": "အမြင်မှားခြင်း",
+      "meaningMy": "အမြင်မှားခြင်း",
+      "meaningMyanmar": "အမြင်မှားခြင်း",
+      "myanmar": "အမြင်မှားခြင်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -657,7 +669,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -666,13 +678,13 @@
     {
       "id": "n3.l42.v023",
       "lessonId": "n3.l42",
-      "ja": "社会",
-      "kana": "しゃかい",
-      "en": "Society / public",
-      "my": "လူမှုအဖွဲ့အစည်း",
-      "meaningMy": "လူမှုအဖွဲ့အစည်း",
-      "meaningMyanmar": "လူမှုအဖွဲ့အစည်း",
-      "myanmar": "လူမှုအဖွဲ့အစည်း",
+      "ja": "聞き違い",
+      "kana": "ききちがい",
+      "en": "Mishearing something spoken",
+      "my": "အကြားမှားခြင်း",
+      "meaningMy": "အကြားမှားခြင်း",
+      "meaningMyanmar": "အကြားမှားခြင်း",
+      "myanmar": "အကြားမှားခြင်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -687,22 +699,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l42.v024",
       "lessonId": "n3.l42",
-      "ja": "人口",
-      "kana": "じんこう",
-      "en": "Population",
-      "my": "လူဦးရေ",
-      "meaningMy": "လူဦးရေ",
-      "meaningMyanmar": "လူဦးရေ",
-      "myanmar": "လူဦးရေ",
+      "ja": "勘違い",
+      "kana": "かんちがい",
+      "en": "Misunderstanding assumption",
+      "my": "အထင်အမြင်လွဲမှားခြင်း",
+      "meaningMy": "အထင်အမြင်လွဲမှားခြင်း",
+      "meaningMyanmar": "အထင်အမြင်လွဲမှားခြင်း",
+      "myanmar": "အထင်အမြင်လွဲမှားခြင်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -717,22 +729,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n3.l42.v025",
       "lessonId": "n3.l42",
-      "ja": "環境",
-      "kana": "かんきょう",
-      "en": "Environment",
-      "my": "ပတ်ဝန်းကျင်",
-      "meaningMy": "ပတ်ဝန်းကျင်",
-      "meaningMyanmar": "ပတ်ဝန်းကျင်",
-      "myanmar": "ပတ်ဝန်းကျင်",
+      "ja": "心構え",
+      "kana": "こころがまえ",
+      "en": "Mental preparedness / readiness",
+      "my": "စိတ်ပိုင်းဆိုင်ရာကြိုတင်ပြင်ဆင်မှု",
+      "meaningMy": "စိတ်ပိုင်းဆိုင်ရာကြိုတင်ပြင်ဆင်မှု",
+      "meaningMyanmar": "စိတ်ပိုင်းဆိုင်ရာကြိုတင်ပြင်ဆင်မှု",
+      "myanmar": "စိတ်ပိုင်းဆိုင်ရာကြိုတင်ပြင်ဆင်မှု",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -747,22 +759,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n3.l42.v026",
       "lessonId": "n3.l42",
-      "ja": "汚染",
-      "kana": "おせん",
-      "en": "Pollution / contamination",
-      "my": "ညစ်ညမ်းမှု",
-      "meaningMy": "ညစ်ညမ်းမှု",
-      "meaningMyanmar": "ညစ်ညမ်းမှု",
-      "myanmar": "ညစ်ညမ်းမှု",
+      "ja": "意気込み",
+      "kana": "いきごみ",
+      "en": "Enthusiasm / determination spirit",
+      "my": "ထက်သန်သောစိတ်အားထက်သန်မှု",
+      "meaningMy": "ထက်သန်သောစိတ်အားထက်သန်မှု",
+      "meaningMyanmar": "ထက်သန်သောစိတ်အားထက်သန်မှု",
+      "myanmar": "ထက်သန်သောစိတ်အားထက်သန်မှု",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -777,7 +789,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -786,13 +798,13 @@
     {
       "id": "n3.l42.v027",
       "lessonId": "n3.l42",
-      "ja": "温暖化",
-      "kana": "おんだんか",
-      "en": "Global warming",
-      "my": "ကမ္ဘာကြီးပူနွေးလာမှု",
-      "meaningMy": "ကမ္ဘာကြီးပူနွေးလာမှု",
-      "meaningMyanmar": "ကမ္ဘာကြီးပူနွေးလာမှု",
-      "myanmar": "ကမ္ဘာကြီးပူနွေးလာမှု",
+      "ja": "やる気",
+      "kana": "やるき",
+      "en": "Motivation / drive to act",
+      "my": "လုပ်ချင်ကိုင်ချင်သောစိတ်ဆန္ဒ",
+      "meaningMy": "လုပ်ချင်ကိုင်ချင်သောစိတ်ဆန္ဒ",
+      "meaningMyanmar": "လုပ်ချင်ကိုင်ချင်သောစိတ်ဆန္ဒ",
+      "myanmar": "လုပ်ချင်ကိုင်ချင်သောစိတ်ဆန္ဒ",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -807,7 +819,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -816,13 +828,13 @@
     {
       "id": "n3.l42.v028",
       "lessonId": "n3.l42",
-      "ja": "開発",
-      "kana": "かいはつ",
-      "en": "Development",
-      "my": "ဖွံ့ဖြိုးတိုးတက်အောင်လုပ်ဆောင်ခြင်း",
-      "meaningMy": "ဖွံ့ဖြိုးတိုးတက်အောင်လုပ်ဆောင်ခြင်း",
-      "meaningMyanmar": "ဖွံ့ဖြိုးတိုးတက်အောင်လုပ်ဆောင်ခြင်း",
-      "myanmar": "ဖွံ့ဖြိုးတိုးတက်အောင်လုပ်ဆောင်ခြင်း",
+      "ja": "根気",
+      "kana": "こんき",
+      "en": "Patience / perseverance stamina",
+      "my": "ဇွဲလုံ့လဝီရိယ",
+      "meaningMy": "ဇွဲလုံ့လဝီရိယ",
+      "meaningMyanmar": "ဇွဲလုံ့လဝီရိယ",
+      "myanmar": "ဇွဲလုံ့လဝီရိယ",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -837,7 +849,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -846,13 +858,13 @@
     {
       "id": "n3.l42.v029",
       "lessonId": "n3.l42",
-      "ja": "発展",
-      "kana": "はってん",
-      "en": "Growth / expansion",
-      "my": "တိုးတက်ကြီးပွားခြင်း",
-      "meaningMy": "တိုးတက်ကြီးပွားခြင်း",
-      "meaningMyanmar": "တိုးတက်ကြီးပွားခြင်း",
-      "myanmar": "တိုးတက်ကြီးပွားခြင်း",
+      "ja": "負けん気",
+      "kana": "まけんき",
+      "en": "Competitive unyielding spirit",
+      "my": "အရှုံးမပေးလိုသောစိတ်ဓာတ်",
+      "meaningMy": "အရှုံးမပေးလိုသောစိတ်ဓာတ်",
+      "meaningMyanmar": "အရှုံးမပေးလိုသောစိတ်ဓာတ်",
+      "myanmar": "အရှုံးမပေးလိုသောစိတ်ဓာတ်",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -867,7 +879,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -876,13 +888,13 @@
     {
       "id": "n3.l42.v030",
       "lessonId": "n3.l42",
-      "ja": "技術",
-      "kana": "ぎじゅつ",
-      "en": "Technology / skill",
-      "my": "နည်းပညာ / ကျွမ်းကျင်မှု",
-      "meaningMy": "နည်းပညာ / ကျွမ်းကျင်မှု",
-      "meaningMyanmar": "နည်းပညာ / ကျွမ်းကျင်မှု",
-      "myanmar": "နည်းပညာ / ကျွမ်းကျင်မှု",
+      "ja": "粘り強さ",
+      "kana": "ねばりづよさ",
+      "en": "Tenacity / stubborn persistence",
+      "my": "မလျှော့သောဇွဲသတ္တိ",
+      "meaningMy": "မလျှော့သောဇွဲသတ္တိ",
+      "meaningMyanmar": "မလျှော့သောဇွဲသတ္တိ",
+      "myanmar": "မလျှော့သောဇွဲသတ္တိ",
       "pos": "noun",
       "exampleSentenceId": "n3.l42.s001",
       "kanjiIds": [],
@@ -897,11 +909,11 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     }
   ],
   "kanjis": [
@@ -913,10 +925,10 @@
       "meaningMy": "ဥပမာ၊ နှိုင်းယှဉ်ချက် (Example)",
       "meaningMyanmar": "ဥပမာ၊ နှိုင်းယှဉ်ချက် (Example)",
       "onyomi": [
-        "REI"
+        "レイ"
       ],
       "kunyomi": [
-        "tato-eru"
+        "たと・える"
       ],
       "exampleVocab": [
         {
@@ -966,10 +978,11 @@
       "meaningMy": "မြှင့်တင်သည်၊ ထုတ်ဖော်ပြသသည် (Raise/Cite)",
       "meaningMyanmar": "မြှင့်တင်သည်၊ ထုတ်ဖော်ပြသသည် (Raise/Cite)",
       "onyomi": [
-        "KYO"
+        "キョ"
       ],
       "kunyomi": [
-        "a-geru"
+        "あ・げる",
+        "あ・がる"
       ],
       "exampleVocab": [
         {
@@ -1000,7 +1013,7 @@
       "components": [
         "手 (hand)"
       ],
-      "strokes": 8,
+      "strokes": 10,
       "difficulty": 3,
       "level": "N3",
       "prov": {
@@ -1019,10 +1032,10 @@
       "meaningMy": "အမျိုးအစား၊ မျိုးနွယ် (Kind/Class/Type)",
       "meaningMyanmar": "အမျိုးအစား၊ မျိုးနွယ် (Kind/Class/Type)",
       "onyomi": [
-        "RUI"
+        "ルイ"
       ],
       "kunyomi": [
-        "tagu-i"
+        "たぐ・い"
       ],
       "exampleVocab": [
         {
@@ -1053,7 +1066,7 @@
       "components": [
         "頁 (head)"
       ],
-      "strokes": 8,
+      "strokes": 18,
       "difficulty": 3,
       "level": "N3",
       "prov": {
@@ -1193,8 +1206,18 @@
       },
       "translationMy": "နားလည်လွယ်စေရန် ရှင်းပြဖို့အတွက် ရင်းနှီးသော လက်တွေ့ဥပမာအချို့ကို ထုတ်ပြပေးပါ။",
       "vocabIds": [
+        "n3.l42.v001",
         "n3.l42.v002",
         "n3.l42.v003",
+        "n3.l42.v004",
+        "n3.l42.v005",
+        "n3.l42.v006",
+        "n3.l42.v007",
+        "n3.l42.v008",
+        "n3.l42.v009",
+        "n3.l42.v010",
+        "n3.l42.v011",
+        "n3.l42.v012",
         "n3.l42.v013",
         "n3.l42.v014",
         "n3.l42.v015",

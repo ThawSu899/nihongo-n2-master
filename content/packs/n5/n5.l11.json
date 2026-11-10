@@ -18,170 +18,13 @@
     {
       "id": "n5.l11.v001",
       "lessonId": "n5.l11",
-      "ja": "一つ",
-      "kana": "ひとつ",
-      "en": "One thing",
-      "my": "တစ်ခု",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s001",
-      "kanjiIds": [
-        "n5.l11.k001"
-      ],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
-        "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
-      },
-      "meaningMyanmar": "တစ်ခု",
-      "meaningMy": "တစ်ခု",
-      "myanmar": "တစ်ခု",
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n5.l11.v002",
-      "lessonId": "n5.l11",
-      "ja": "二つ",
-      "kana": "ふたつ",
-      "en": "Two things",
-      "my": "နှစ်ခု",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s002",
-      "kanjiIds": [
-        "n5.l11.k002"
-      ],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
-        "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
-      },
-      "meaningMyanmar": "နှစ်ခု",
-      "meaningMy": "နှစ်ခု",
-      "myanmar": "နှစ်ခု",
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n5.l11.v003",
-      "lessonId": "n5.l11",
-      "ja": "三つ",
-      "kana": "みっつ",
-      "en": "Three things",
-      "my": "သုံးခု",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s001",
-      "kanjiIds": [
-        "n5.l11.k003"
-      ],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
-        "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
-      },
-      "meaningMyanmar": "သုံးခု",
-      "meaningMy": "သုံးခု",
-      "myanmar": "သုံးခု",
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n5.l11.v004",
-      "lessonId": "n5.l11",
-      "ja": "一人",
-      "kana": "ひとり",
-      "en": "One person / Alone",
-      "my": "တစ်ယောက်",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s002",
-      "kanjiIds": [
-        "n5.l11.k001"
-      ],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
-        "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
-      },
-      "meaningMyanmar": "တစ်ယောက်",
-      "meaningMy": "တစ်ယောက်",
-      "myanmar": "တစ်ယောက်",
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n5.l11.v005",
-      "lessonId": "n5.l11",
-      "ja": "二人",
-      "kana": "ふたり",
-      "en": "Two people",
-      "my": "နှစ်ယောက်",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s005",
-      "kanjiIds": [
-        "n5.l11.k002"
-      ],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
-        "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
-      },
-      "meaningMyanmar": "နှစ်ယောက်",
-      "meaningMy": "နှစ်ယောက်",
-      "myanmar": "နှစ်ယောက်",
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n5.l11.v006",
-      "lessonId": "n5.l11",
-      "ja": "りんご",
-      "kana": "りんご",
-      "en": "Apple",
-      "my": "ပန်းသီး",
+      "ja": "来週",
+      "kana": "らいしゅう",
+      "en": "Next week",
+      "my": "နောက်တစ်ပတ်",
+      "meaningMy": "နောက်တစ်ပတ်",
+      "meaningMyanmar": "နောက်တစ်ပတ်",
+      "myanmar": "နောက်တစ်ပတ်",
       "pos": "noun",
       "exampleSentenceId": "n5.l11.s001",
       "kanjiIds": [],
@@ -193,15 +36,162 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "ပန်းသီး",
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n5.l11.v002",
+      "lessonId": "n5.l11",
+      "ja": "先月",
+      "kana": "せんげつ",
+      "en": "Last month",
+      "my": "ပြီးခဲ့သောလ",
+      "meaningMy": "ပြီးခဲ့သောလ",
+      "meaningMyanmar": "ပြီးခဲ့သောလ",
+      "myanmar": "ပြီးခဲ့သောလ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l11.v003",
+      "lessonId": "n5.l11",
+      "ja": "今月",
+      "kana": "こんげつ",
+      "en": "This month",
+      "my": "ဒီလ",
+      "meaningMy": "ဒီလ",
+      "meaningMyanmar": "ဒီလ",
+      "myanmar": "ဒီလ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n5.l11.v004",
+      "lessonId": "n5.l11",
+      "ja": "来月",
+      "kana": "らいげつ",
+      "en": "Next month",
+      "my": "နောက်လ",
+      "meaningMy": "နောက်လ",
+      "meaningMyanmar": "နောက်လ",
+      "myanmar": "နောက်လ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l11.v005",
+      "lessonId": "n5.l11",
+      "ja": "去年",
+      "kana": "きょねん",
+      "en": "Last year",
+      "my": "မနှစ်က",
+      "meaningMy": "မနှစ်က",
+      "meaningMyanmar": "မနှစ်က",
+      "myanmar": "မနှစ်က",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l11.v006",
+      "lessonId": "n5.l11",
+      "ja": "りんご",
+      "kana": "りんご",
+      "en": "Apple",
+      "my": "ပန်းသီး",
       "meaningMy": "ပန်းသီး",
+      "meaningMyanmar": "ပန်းသီး",
       "myanmar": "ပန်းသီး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
@@ -212,6 +202,9 @@
       "kana": "みかん",
       "en": "Mandarin orange",
       "my": "လိမ္မော်သီး",
+      "meaningMy": "လိမ္မော်သီး",
+      "meaningMyanmar": "လိမ္မော်သီး",
+      "myanmar": "လိမ္မော်သီး",
       "pos": "noun",
       "exampleSentenceId": "n5.l11.s001",
       "kanjiIds": [],
@@ -223,15 +216,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "လိမ္မော်သီး",
-      "meaningMy": "လိမ္မော်သီး",
-      "myanmar": "လိမ္မော်သီး",
       "pitchPattern": "nakadaka",
       "dropIndex": 2
     },
@@ -242,6 +232,9 @@
       "kana": "きって",
       "en": "Postage stamp",
       "my": "တံဆိပ်ခေါင်း",
+      "meaningMy": "တံဆိပ်ခေါင်း",
+      "meaningMyanmar": "တံဆိပ်ခေါင်း",
+      "myanmar": "တံဆိပ်ခေါင်း",
       "pos": "noun",
       "exampleSentenceId": "n5.l11.s003",
       "kanjiIds": [],
@@ -253,15 +246,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "တံဆိပ်ခေါင်း",
-      "meaningMy": "တံဆိပ်ခေါင်း",
-      "myanmar": "တံဆိပ်ခေါင်း",
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
@@ -272,6 +262,9 @@
       "kana": "はがき",
       "en": "Postcard",
       "my": "ပို့စကတ်",
+      "meaningMy": "ပို့စကတ်",
+      "meaningMyanmar": "ပို့စကတ်",
+      "myanmar": "ပို့စကတ်",
       "pos": "noun",
       "exampleSentenceId": "n5.l11.s003",
       "kanjiIds": [],
@@ -283,15 +276,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "ပို့စကတ်",
-      "meaningMy": "ပို့စကတ်",
-      "myanmar": "ပို့စကတ်",
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
@@ -302,6 +292,9 @@
       "kana": "どのくらい",
       "en": "How long / How much",
       "my": "ဘယ်လောက်ကြာကြာ / ဘယ်လောက်လဲ",
+      "meaningMy": "ဘယ်လောက်ကြာကြာ / ဘယ်လောက်လဲ",
+      "meaningMyanmar": "ဘယ်လောက်ကြာကြာ / ဘယ်လောက်လဲ",
+      "myanmar": "ဘယ်လောက်ကြာကြာ / ဘယ်လောက်လဲ",
       "pos": "adverb",
       "exampleSentenceId": "n5.l11.s005",
       "kanjiIds": [],
@@ -313,15 +306,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "ဘယ်လောက်ကြာကြာ / ဘယ်လောက်လဲ",
-      "meaningMy": "ဘယ်လောက်ကြာကြာ / ဘယ်လောက်လဲ",
-      "myanmar": "ဘယ်လောက်ကြာကြာ / ဘယ်လောက်လဲ",
       "pitchPattern": "nakadaka",
       "dropIndex": 4
     },
@@ -332,6 +322,9 @@
       "kana": "ぜんぶで",
       "en": "In total / All together",
       "my": "အားလုံးပေါင်း",
+      "meaningMy": "အားလုံးပေါင်း",
+      "meaningMyanmar": "အားလုံးပေါင်း",
+      "myanmar": "အားလုံးပေါင်း",
       "pos": "adverb",
       "exampleSentenceId": "n5.l11.s006",
       "kanjiIds": [],
@@ -343,15 +336,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "အားလုံးပေါင်း",
-      "meaningMy": "အားလုံးပေါင်း",
-      "myanmar": "အားလုံးပေါင်း",
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
@@ -362,6 +352,9 @@
       "kana": "じかん",
       "en": "Hours (duration)",
       "my": "နာရီ (ကြာချိန်)",
+      "meaningMy": "နာရီ (ကြာချိန်)",
+      "meaningMyanmar": "နာရီ (ကြာချိန်)",
+      "myanmar": "နာရီ (ကြာချိန်)",
       "pos": "noun",
       "exampleSentenceId": "n5.l11.s004",
       "kanjiIds": [],
@@ -373,28 +366,25 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "နာရီ (ကြာချိန်)",
-      "meaningMy": "နာရီ (ကြာချိန်)",
-      "myanmar": "နာရီ (ကြာချိန်)",
       "pitchPattern": "nakadaka",
       "dropIndex": 2
     },
     {
       "id": "n5.l11.v013",
       "lessonId": "n5.l11",
-      "ja": "窓",
-      "kana": "まど",
-      "en": "Window",
-      "my": "ပြတင်းပေါက်",
-      "meaningMy": "ပြတင်းပေါက်",
-      "meaningMyanmar": "ပြတင်းပေါက်",
-      "myanmar": "ပြတင်းပေါက်",
+      "ja": "今年",
+      "kana": "ことし",
+      "en": "This year",
+      "my": "ဒီနှစ်",
+      "meaningMy": "ဒီနှစ်",
+      "meaningMyanmar": "ဒီနှစ်",
+      "myanmar": "ဒီနှစ်",
       "pos": "noun",
       "exampleSentenceId": "n5.l11.s001",
       "kanjiIds": [],
@@ -409,254 +399,44 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
-    },
-    {
-      "id": "n5.l11.v014",
-      "lessonId": "n5.l11",
-      "ja": "ドア",
-      "kana": "ドア",
-      "en": "Door",
-      "my": "တံခါး",
-      "meaningMy": "တံခါး",
-      "meaningMyanmar": "တံခါး",
-      "myanmar": "တံခါး",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
-    },
-    {
-      "id": "n5.l11.v015",
-      "lessonId": "n5.l11",
-      "ja": "今日",
-      "kana": "きょう",
-      "en": "Today",
-      "my": "ဒီနေ့",
-      "meaningMy": "ဒီနေ့",
-      "meaningMyanmar": "ဒီနေ့",
-      "myanmar": "ဒီနေ့",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
-    },
-    {
-      "id": "n5.l11.v016",
-      "lessonId": "n5.l11",
-      "ja": "明日",
-      "kana": "あした",
-      "en": "Tomorrow",
-      "my": "မနက်ဖြန်",
-      "meaningMy": "မနက်ဖြန်",
-      "meaningMyanmar": "မနက်ဖြန်",
-      "myanmar": "မနက်ဖြန်",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 3
-    },
-    {
-      "id": "n5.l11.v017",
-      "lessonId": "n5.l11",
-      "ja": "昨日",
-      "kana": "きのう",
-      "en": "Yesterday",
-      "my": "မနေ့က",
-      "meaningMy": "မနေ့က",
-      "meaningMyanmar": "မနေ့က",
-      "myanmar": "မနေ့က",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 2
-    },
-    {
-      "id": "n5.l11.v018",
-      "lessonId": "n5.l11",
-      "ja": "今",
-      "kana": "いま",
-      "en": "Now",
-      "my": "ယခု / အခု",
-      "meaningMy": "ယခု / အခု",
-      "meaningMyanmar": "ယခု / အခု",
-      "myanmar": "ယခု / အခု",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
-    },
-    {
-      "id": "n5.l11.v019",
-      "lessonId": "n5.l11",
-      "ja": "朝",
-      "kana": "あさ",
-      "en": "Morning",
-      "my": "မနက်ခင်း",
-      "meaningMy": "မနက်ခင်း",
-      "meaningMyanmar": "မနက်ခင်း",
-      "myanmar": "မနက်ခင်း",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
-    },
-    {
-      "id": "n5.l11.v020",
-      "lessonId": "n5.l11",
-      "ja": "昼",
-      "kana": "ひる",
-      "en": "Noon / daytime",
-      "my": "နေ့လယ်ခင်း",
-      "meaningMy": "နေ့လယ်ခင်း",
-      "meaningMyanmar": "နေ့လယ်ခင်း",
-      "myanmar": "နေ့လယ်ခင်း",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 2
-    },
-    {
-      "id": "n5.l11.v021",
-      "lessonId": "n5.l11",
-      "ja": "晩",
-      "kana": "ばん",
-      "en": "Evening / night",
-      "my": "ညနေခင်း / ည",
-      "meaningMy": "ညနေခင်း / ည",
-      "meaningMyanmar": "ညနေခင်း / ည",
-      "myanmar": "ညနေခင်း / ည",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
     {
-      "id": "n5.l11.v022",
+      "id": "n5.l11.v014",
+      "lessonId": "n5.l11",
+      "ja": "来年",
+      "kana": "らいねん",
+      "en": "Next year",
+      "my": "နောက်နှစ်",
+      "meaningMy": "နောက်နှစ်",
+      "meaningMyanmar": "နောက်နှစ်",
+      "myanmar": "နောက်နှစ်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n5.l11.v015",
       "lessonId": "n5.l11",
       "ja": "毎日",
       "kana": "まいにち",
@@ -679,14 +459,14 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "atamadaka",
       "dropIndex": 1
     },
     {
-      "id": "n5.l11.v023",
+      "id": "n5.l11.v016",
       "lessonId": "n5.l11",
       "ja": "毎週",
       "kana": "まいしゅう",
@@ -709,14 +489,14 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
     {
-      "id": "n5.l11.v024",
+      "id": "n5.l11.v017",
       "lessonId": "n5.l11",
       "ja": "毎月",
       "kana": "まいつき",
@@ -739,14 +519,14 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
     {
-      "id": "n5.l11.v025",
+      "id": "n5.l11.v018",
       "lessonId": "n5.l11",
       "ja": "毎年",
       "kana": "まいとし",
@@ -769,22 +549,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
     {
-      "id": "n5.l11.v026",
+      "id": "n5.l11.v019",
       "lessonId": "n5.l11",
-      "ja": "友達",
-      "kana": "ともだち",
-      "en": "Friend",
-      "my": "သူငယ်ချင်း",
-      "meaningMy": "သူငယ်ချင်း",
-      "meaningMyanmar": "သူငယ်ချင်း",
-      "myanmar": "သူငယ်ချင်း",
+      "ja": "毎朝",
+      "kana": "まいあさ",
+      "en": "Every morning",
+      "my": "မနက်တိုင်း",
+      "meaningMy": "မနက်တိုင်း",
+      "meaningMyanmar": "မနက်တိုင်း",
+      "myanmar": "မနက်တိုင်း",
       "pos": "noun",
       "exampleSentenceId": "n5.l11.s001",
       "kanjiIds": [],
@@ -799,14 +579,314 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l11.v020",
+      "lessonId": "n5.l11",
+      "ja": "毎晩",
+      "kana": "まいばん",
+      "en": "Every night",
+      "my": "ညတိုင်း",
+      "meaningMy": "ညတိုင်း",
+      "meaningMyanmar": "ညတိုင်း",
+      "myanmar": "ညတိုင်း",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l11.v021",
+      "lessonId": "n5.l11",
+      "ja": "夜",
+      "kana": "よる",
+      "en": "Night",
+      "my": "ည",
+      "meaningMy": "ည",
+      "meaningMyanmar": "ည",
+      "myanmar": "ည",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l11.v022",
+      "lessonId": "n5.l11",
+      "ja": "今朝",
+      "kana": "けさ",
+      "en": "This morning",
+      "my": "ဒီမနက်",
+      "meaningMy": "ဒီမနက်",
+      "meaningMyanmar": "ဒီမနက်",
+      "myanmar": "ဒီမနက်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l11.v023",
+      "lessonId": "n5.l11",
+      "ja": "今晩",
+      "kana": "こんばん",
+      "en": "Tonight",
+      "my": "ဒီည",
+      "meaningMy": "ဒီည",
+      "meaningMyanmar": "ဒီည",
+      "myanmar": "ဒီည",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
     {
+      "id": "n5.l11.v024",
+      "lessonId": "n5.l11",
+      "ja": "昼休み",
+      "kana": "ひるやすみ",
+      "en": "Lunch break",
+      "my": "နေ့လယ်စာစားချိန်",
+      "meaningMy": "နေ့လယ်စာစားချိန်",
+      "meaningMyanmar": "နေ့လယ်စာစားချိန်",
+      "myanmar": "နေ့လယ်စာစားချိန်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
+    },
+    {
+      "id": "n5.l11.v025",
+      "lessonId": "n5.l11",
+      "ja": "春",
+      "kana": "はる",
+      "en": "Spring season",
+      "my": "နွေဦးရာသီ",
+      "meaningMy": "နွေဦးရာသီ",
+      "meaningMyanmar": "နွေဦးရာသီ",
+      "myanmar": "နွေဦးရာသီ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l11.v026",
+      "lessonId": "n5.l11",
+      "ja": "夏",
+      "kana": "なつ",
+      "en": "Summer season",
+      "my": "နွေရာသီ",
+      "meaningMy": "နွေရာသီ",
+      "meaningMyanmar": "နွေရာသီ",
+      "myanmar": "နွေရာသီ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
       "id": "n5.l11.v027",
+      "lessonId": "n5.l11",
+      "ja": "秋",
+      "kana": "あき",
+      "en": "Autumn season",
+      "my": "ဆောင်းဦးရာသီ",
+      "meaningMy": "ဆောင်းဦးရာသီ",
+      "meaningMyanmar": "ဆောင်းဦးရာသီ",
+      "myanmar": "ဆောင်းဦးရာသီ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l11.v028",
+      "lessonId": "n5.l11",
+      "ja": "冬",
+      "kana": "ふゆ",
+      "en": "Winter season",
+      "my": "ဆောင်းရာသီ",
+      "meaningMy": "ဆောင်းရာသီ",
+      "meaningMyanmar": "ဆောင်းရာသီ",
+      "myanmar": "ဆောင်းရာသီ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n5.l11.v029",
+      "lessonId": "n5.l11",
+      "ja": "四季",
+      "kana": "しき",
+      "en": "Four seasons",
+      "my": "ရာသီဥတုလေးမျိုး",
+      "meaningMy": "ရာသီဥတုလေးမျိုး",
+      "meaningMyanmar": "ရာသီဥတုလေးမျိုး",
+      "myanmar": "ရာသီဥတုလေးမျိုး",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l11.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l11.v030",
       "lessonId": "n5.l11",
       "ja": "家族",
       "kana": "かぞく",
@@ -829,97 +909,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
-    },
-    {
-      "id": "n5.l11.v028",
-      "lessonId": "n5.l11",
-      "ja": "父",
-      "kana": "ちち",
-      "en": "Father (humble)",
-      "my": "ဖခင် / အဖေ",
-      "meaningMy": "ဖခင် / အဖေ",
-      "meaningMyanmar": "ဖခင် / အဖေ",
-      "myanmar": "ဖခင် / အဖေ",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 2
-    },
-    {
-      "id": "n5.l11.v029",
-      "lessonId": "n5.l11",
-      "ja": "母",
-      "kana": "はは",
-      "en": "Mother (humble)",
-      "my": "မိခင် / အမေ",
-      "meaningMy": "မိခင် / အမေ",
-      "meaningMyanmar": "မိခင် / အမေ",
-      "myanmar": "မိခင် / အမေ",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 2
-    },
-    {
-      "id": "n5.l11.v030",
-      "lessonId": "n5.l11",
-      "ja": "兄",
-      "kana": "あに",
-      "en": "Older brother (humble)",
-      "my": "အစ်ကို",
-      "meaningMy": "အစ်ကို",
-      "meaningMyanmar": "အစ်ကို",
-      "myanmar": "အစ်ကို",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l11.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "atamadaka",
@@ -1214,9 +1204,18 @@
         "my": "ပန်းသီး သုံးလုံးနဲ့ လိမ္မော်သီး ငါးလုံး ဝယ်ခဲ့ပါတယ်။"
       },
       "vocabIds": [
+        "n5.l11.v001",
+        "n5.l11.v002",
         "n5.l11.v003",
+        "n5.l11.v004",
+        "n5.l11.v005",
         "n5.l11.v006",
         "n5.l11.v007",
+        "n5.l11.v008",
+        "n5.l11.v009",
+        "n5.l11.v010",
+        "n5.l11.v011",
+        "n5.l11.v012",
         "n5.l11.v013",
         "n5.l11.v014",
         "n5.l11.v015",

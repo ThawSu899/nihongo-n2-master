@@ -24,6 +24,7 @@
       "my": "ဆွေးနွေးစရာ အကြောင်းအရာ/ခေါင်းစဉ်",
       "meaningMy": "ဆွေးနွေးစရာ အကြောင်းအရာ/ခေါင်းစဉ်",
       "meaningMyanmar": "ဆွေးနွေးစရာ အကြောင်းအရာ/ခေါင်းစဉ်",
+      "myanmar": "ဆွေးနွေးစရာ အကြောင်းအရာ/ခေါင်းစဉ်",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
@@ -38,8 +39,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "nakadaka",
       "dropIndex": 2
@@ -53,6 +54,7 @@
       "my": "စကားပြောဆိုခြင်း",
       "meaningMy": "စကားပြောဆိုခြင်း",
       "meaningMyanmar": "စကားပြောဆိုခြင်း",
+      "myanmar": "စကားပြောဆိုခြင်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s002",
       "kanjiIds": [],
@@ -67,8 +69,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -82,6 +84,7 @@
       "my": "ဘာသာစကား",
       "meaningMy": "ဘာသာစကား",
       "meaningMyanmar": "ဘာသာစကား",
+      "myanmar": "ဘာသာစကား",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s003",
       "kanjiIds": [],
@@ -96,8 +99,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -111,6 +114,7 @@
       "my": "ပုံပြင်/ဇာတ်လမ်း",
       "meaningMy": "ပုံပြင်/ဇာတ်လမ်း",
       "meaningMyanmar": "ပုံပြင်/ဇာတ်လမ်း",
+      "myanmar": "ပုံပြင်/ဇာတ်လမ်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s004",
       "kanjiIds": [],
@@ -125,8 +129,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -140,6 +144,7 @@
       "my": "အတိုချုံးခြင်း/ချန်လှပ်ခြင်း",
       "meaningMy": "အတိုချုံးခြင်း/ချန်လှပ်ခြင်း",
       "meaningMyanmar": "အတိုချုံးခြင်း/ချန်လှပ်ခြင်း",
+      "myanmar": "အတိုချုံးခြင်း/ချန်လှပ်ခြင်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s005",
       "kanjiIds": [],
@@ -154,8 +159,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -169,6 +174,7 @@
       "my": "အတိုကောက်စကားလုံး",
       "meaningMy": "အတိုကောက်စကားလုံး",
       "meaningMyanmar": "အတိုကောက်စကားလုံး",
+      "myanmar": "အတိုကောက်စကားလုံး",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s006",
       "kanjiIds": [],
@@ -183,8 +189,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -198,6 +204,7 @@
       "my": "အလျင်လိုသည်/လောသည်",
       "meaningMy": "အလျင်လိုသည်/လောသည်",
       "meaningMyanmar": "အလျင်လိုသည်/လောသည်",
+      "myanmar": "အလျင်လိုသည်/လောသည်",
       "pos": "verb",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
@@ -212,8 +219,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -227,6 +234,7 @@
       "my": "အချိန်မီသည်",
       "meaningMy": "အချိန်မီသည်",
       "meaningMyanmar": "အချိန်မီသည်",
+      "myanmar": "အချိန်မီသည်",
       "pos": "verb",
       "exampleSentenceId": "n3.l47.s002",
       "kanjiIds": [],
@@ -241,8 +249,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -256,6 +264,7 @@
       "my": "ကြိုတင်ပြင်ဆင်ခြင်း",
       "meaningMy": "ကြိုတင်ပြင်ဆင်ခြင်း",
       "meaningMyanmar": "ကြိုတင်ပြင်ဆင်ခြင်း",
+      "myanmar": "ကြိုတင်ပြင်ဆင်ခြင်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s003",
       "kanjiIds": [],
@@ -270,8 +279,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "atamadaka",
       "dropIndex": 1
@@ -285,6 +294,7 @@
       "my": "မေ့လျော့သည်",
       "meaningMy": "မေ့လျော့သည်",
       "meaningMyanmar": "မေ့လျော့သည်",
+      "myanmar": "မေ့လျော့သည်",
       "pos": "verb",
       "exampleSentenceId": "n3.l47.s004",
       "kanjiIds": [],
@@ -299,8 +309,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -308,18 +318,19 @@
     {
       "id": "n3.l47.v011",
       "lessonId": "n3.l47",
-      "ja": "失敗",
-      "kana": "しっぱい",
-      "en": "shippai",
-      "my": "ကျရှုံးမှု/မှားယွင်းမှု",
-      "meaningMy": "ကျရှုံးမှု/မှားယွင်းမှု",
-      "meaningMyanmar": "ကျရှုံးမှု/မှားယွင်းမှု",
+      "ja": "築年数",
+      "kana": "ちくねんすう",
+      "en": "Age of building since built",
+      "my": "တိုက်တည်ဆောက်ထားသည့်သက်တမ်းနှစ်",
+      "meaningMy": "တိုက်တည်ဆောက်ထားသည့်သက်တမ်းနှစ်",
+      "meaningMyanmar": "တိုက်တည်ဆောက်ထားသည့်သက်တမ်းနှစ်",
+      "myanmar": "တိုက်တည်ဆောက်ထားသည့်သက်တမ်းနှစ်",
       "pos": "noun",
-      "exampleSentenceId": "n3.l47.s005",
+      "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
       "level": "N3",
       "difficulty": 3,
-      "importance": 4,
+      "importance": 5,
       "audio": {
         "kind": "tts",
         "lang": "ja-JP"
@@ -328,11 +339,11 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n3.l47.v012",
@@ -343,6 +354,7 @@
       "my": "ပုံမှန်/သာမန်အချိန်",
       "meaningMy": "ပုံမှန်/သာမန်အချိန်",
       "meaningMyanmar": "ပုံမှန်/သာမန်အချိန်",
+      "myanmar": "ပုံမှန်/သာမန်အချိန်",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s006",
       "kanjiIds": [],
@@ -357,8 +369,8 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-06T10:00:00Z",
-        "rev": 2
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
@@ -366,14 +378,14 @@
     {
       "id": "n3.l47.v013",
       "lessonId": "n3.l47",
-      "ja": "偶然",
-      "kana": "ぐうぜん",
-      "en": "By chance / coincidence",
-      "my": "မတော်တဆ / တိုက်ဆိုင်စွာ",
-      "meaningMy": "မတော်တဆ / တိုက်ဆိုင်စွာ",
-      "meaningMyanmar": "မတော်တဆ / တိုက်ဆိုင်စွာ",
-      "myanmar": "မတော်တဆ / တိုက်ဆိုင်စွာ",
-      "pos": "adverb",
+      "ja": "最寄り駅",
+      "kana": "もよりえき",
+      "en": "Nearest rail railway station",
+      "my": "အနီးဆုံးဘူတာရုံ",
+      "meaningMy": "အနီးဆုံးဘူတာရုံ",
+      "meaningMyanmar": "အနီးဆုံးဘူတာရုံ",
+      "myanmar": "အနီးဆုံးဘူတာရုံ",
+      "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
       "level": "N3",
@@ -387,53 +399,53 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
+    },
+    {
+      "id": "n3.l47.v014",
+      "lessonId": "n3.l47",
+      "ja": "粗大ゴミ",
+      "kana": "そだいゴミ",
+      "en": "Oversized bulky waste trash",
+      "my": "အရွယ်အစားကြီးမားသောအမှိုက်",
+      "meaningMy": "အရွယ်အစားကြီးမားသောအမှိုက်",
+      "meaningMyanmar": "အရွယ်အစားကြီးမားသောအမှိုက်",
+      "myanmar": "အရွယ်အစားကြီးမားသောအမှိုက်",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l47.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
     {
-      "id": "n3.l47.v014",
-      "lessonId": "n3.l47",
-      "ja": "常に",
-      "kana": "つねに",
-      "en": "Always / constantly",
-      "my": "အမြဲမပြတ်",
-      "meaningMy": "အမြဲမပြတ်",
-      "meaningMyanmar": "အမြဲမပြတ်",
-      "myanmar": "အမြဲမပြတ်",
-      "pos": "adverb",
-      "exampleSentenceId": "n3.l47.s001",
-      "kanjiIds": [],
-      "level": "N3",
-      "difficulty": 3,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
-    },
-    {
       "id": "n3.l47.v015",
       "lessonId": "n3.l47",
-      "ja": "次第に",
-      "kana": "しだいに",
-      "en": "Gradually / by degrees",
-      "my": "တစ်စထက်တစ်စ",
-      "meaningMy": "တစ်စထက်တစ်စ",
-      "meaningMyanmar": "တစ်စထက်တစ်စ",
-      "myanmar": "တစ်စထက်တစ်စ",
-      "pos": "adverb",
+      "ja": "資源ゴミ",
+      "kana": "しげんゴミ",
+      "en": "Recyclable resource waste",
+      "my": "ပြန်လည်အသုံးပြုနိုင်သောအမှိုက်",
+      "meaningMy": "ပြန်လည်အသုံးပြုနိုင်သောအမှိုက်",
+      "meaningMyanmar": "ပြန်လည်အသုံးပြုနိုင်သောအမှိုက်",
+      "myanmar": "ပြန်လည်အသုံးပြုနိုင်သောအမှိုက်",
+      "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
       "level": "N3",
@@ -447,7 +459,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -456,14 +468,14 @@
     {
       "id": "n3.l47.v016",
       "lessonId": "n3.l47",
-      "ja": "一応",
-      "kana": "いちおう",
-      "en": "More or less / for now",
-      "my": "လောလောဆယ်အားဖြင့်",
-      "meaningMy": "လောလောဆယ်အားဖြင့်",
-      "meaningMyanmar": "လောလောဆယ်အားဖြင့်",
-      "myanmar": "လောလောဆယ်အားဖြင့်",
-      "pos": "adverb",
+      "ja": "分別収集",
+      "kana": "ぶんべつしゅうしゅう",
+      "en": "Sorted trash waste collection",
+      "my": "အမှိုက်ခွဲခြားစွန့်ပစ်သိမ်းဆည်းခြင်း",
+      "meaningMy": "အမှိုက်ခွဲခြားစွန့်ပစ်သိမ်းဆည်းခြင်း",
+      "meaningMyanmar": "အမှိုက်ခွဲခြားစွန့်ပစ်သိမ်းဆည်းခြင်း",
+      "myanmar": "အမှိုက်ခွဲခြားစွန့်ပစ်သိမ်းဆည်းခြင်း",
+      "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
       "level": "N3",
@@ -477,7 +489,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -486,13 +498,13 @@
     {
       "id": "n3.l47.v017",
       "lessonId": "n3.l47",
-      "ja": "緊張",
-      "kana": "きんちょう",
-      "en": "Tension / nervousness",
-      "my": "စိတ်လှုပ်ရှားရင်ခုန်ခြင်း",
-      "meaningMy": "စိတ်လှုပ်ရှားရင်ခုန်ခြင်း",
-      "meaningMyanmar": "စိတ်လှုပ်ရှားရင်ခုန်ခြင်း",
-      "myanmar": "စိတ်လှုပ်ရှားရင်ခုန်ခြင်း",
+      "ja": "内科",
+      "kana": "ないか",
+      "en": "Internal medicine clinic",
+      "my": "အထွေထွေရောဂါကုဆေးခန်း",
+      "meaningMy": "အထွေထွေရောဂါကုဆေးခန်း",
+      "meaningMyanmar": "အထွေထွေရောဂါကုဆေးခန်း",
+      "myanmar": "အထွေထွေရောဂါကုဆေးခန်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
@@ -507,23 +519,23 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n3.l47.v018",
       "lessonId": "n3.l47",
-      "ja": "不安",
-      "kana": "ふあん",
-      "en": "Anxiety / unease",
-      "my": "မလုံခြုံစိတ်ပူခြင်း",
-      "meaningMy": "မလုံခြုံစိတ်ပူခြင်း",
-      "meaningMyanmar": "မလုံခြုံစိတ်ပူခြင်း",
-      "myanmar": "မလုံခြုံစိတ်ပူခြင်း",
-      "pos": "adjective",
+      "ja": "外科",
+      "kana": "げか",
+      "en": "Surgical department surgery",
+      "my": "ခွဲစိတ်ကုသမှုဌာန",
+      "meaningMy": "ခွဲစိတ်ကုသမှုဌာန",
+      "meaningMyanmar": "ခွဲစိတ်ကုသမှုဌာန",
+      "myanmar": "ခွဲစိတ်ကုသမှုဌာန",
+      "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
       "level": "N3",
@@ -537,22 +549,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n3.l47.v019",
       "lessonId": "n3.l47",
-      "ja": "満足",
-      "kana": "まんぞく",
-      "en": "Satisfaction / contentment",
-      "my": "ကျေနပ်အားရခြင်း",
-      "meaningMy": "ကျေနပ်အားရခြင်း",
-      "meaningMyanmar": "ကျေနပ်အားရခြင်း",
-      "myanmar": "ကျေနပ်အားရခြင်း",
+      "ja": "整形外科",
+      "kana": "せいけいげか",
+      "en": "Orthopedic surgery department",
+      "my": "အရိုးနှင့်ကြွက်သားကုသမှုဌာန",
+      "meaningMy": "အရိုးနှင့်ကြွက်သားကုသမှုဌာန",
+      "meaningMyanmar": "အရိုးနှင့်ကြွက်သားကုသမှုဌာန",
+      "myanmar": "အရိုးနှင့်ကြွက်သားကုသမှုဌာန",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
@@ -567,22 +579,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
+      "pitchPattern": "nakadaka",
+      "dropIndex": 4
     },
     {
       "id": "n3.l47.v020",
       "lessonId": "n3.l47",
-      "ja": "後悔",
-      "kana": "こうかい",
-      "en": "Regret / remorse",
-      "my": "နောင်တရခြင်း",
-      "meaningMy": "နောင်တရခြင်း",
-      "meaningMyanmar": "နောင်တရခြင်း",
-      "myanmar": "နောင်တရခြင်း",
+      "ja": "眼科",
+      "kana": "がんか",
+      "en": "Ophthalmology eye clinic",
+      "my": "မျက်စိဆေးခန်း",
+      "meaningMy": "မျက်စိဆေးခန်း",
+      "meaningMyanmar": "မျက်စိဆေးခန်း",
+      "myanmar": "မျက်စိဆေးခန်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
@@ -597,52 +609,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n3.l47.v021",
-      "lessonId": "n3.l47",
-      "ja": "感謝",
-      "kana": "かんしゃ",
-      "en": "Gratitude / appreciation",
-      "my": "ကျေးဇူးတင်ခြင်း",
-      "meaningMy": "ကျေးဇူးတင်ခြင်း",
-      "meaningMyanmar": "ကျေးဇူးတင်ခြင်း",
-      "myanmar": "ကျေးဇူးတင်ခြင်း",
-      "pos": "noun",
-      "exampleSentenceId": "n3.l47.s001",
-      "kanjiIds": [],
-      "level": "N3",
-      "difficulty": 3,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "atamadaka",
       "dropIndex": 1
     },
     {
-      "id": "n3.l47.v022",
+      "id": "n3.l47.v021",
       "lessonId": "n3.l47",
-      "ja": "感動",
-      "kana": "かんどう",
-      "en": "Deep emotion / being touched",
-      "my": "စိတ်ထိခိုက်ကြည်နူးခြင်း",
-      "meaningMy": "စိတ်ထိခိုက်ကြည်နူးခြင်း",
-      "meaningMyanmar": "စိတ်ထိခိုက်ကြည်နူးခြင်း",
-      "myanmar": "စိတ်ထိခိုက်ကြည်နူးခြင်း",
+      "ja": "耳鼻咽喉科",
+      "kana": "じびいんこうか",
+      "en": "ENT Ear Nose Throat clinic",
+      "my": "နားနှာခေါင်းလည်ချောင်းဆေးခန်း",
+      "meaningMy": "နားနှာခေါင်းလည်ချောင်းဆေးခန်း",
+      "meaningMyanmar": "နားနှာခေါင်းလည်ချောင်းဆေးခန်း",
+      "myanmar": "နားနှာခေါင်းလည်ချောင်းဆေးခန်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
@@ -657,22 +639,52 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "nakadaka",
+      "dropIndex": 5
+    },
+    {
+      "id": "n3.l47.v022",
+      "lessonId": "n3.l47",
+      "ja": "皮膚科",
+      "kana": "ひふか",
+      "en": "Dermatology skin clinic",
+      "my": "အရေပြားရောဂါကုဆေးခန်း",
+      "meaningMy": "အရေပြားရောဂါကုဆေးခန်း",
+      "meaningMyanmar": "အရေပြားရောဂါကုဆေးခန်း",
+      "myanmar": "အရေပြားရောဂါကုဆေးခန်း",
+      "pos": "noun",
+      "exampleSentenceId": "n3.l47.s001",
+      "kanjiIds": [],
+      "level": "N3",
+      "difficulty": 3,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n3.l47.v023",
       "lessonId": "n3.l47",
-      "ja": "尊敬",
-      "kana": "そんけい",
-      "en": "Respect / esteem",
-      "my": "လေးစားကြည်ညိုခြင်း",
-      "meaningMy": "လေးစားကြည်ညိုခြင်း",
-      "meaningMyanmar": "လေးစားကြည်ညိုခြင်း",
-      "myanmar": "လေးစားကြည်ညိုခြင်း",
+      "ja": "歯科",
+      "kana": "しか",
+      "en": "Dentistry dental clinic",
+      "my": "သွားဆေးခန်း",
+      "meaningMy": "သွားဆေးခန်း",
+      "meaningMyanmar": "သွားဆေးခန်း",
+      "myanmar": "သွားဆေးခန်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
@@ -687,22 +699,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n3.l47.v024",
       "lessonId": "n3.l47",
-      "ja": "期待",
-      "kana": "きたい",
-      "en": "Expectation / anticipation",
-      "my": "မျှော်လင့်ချက်ထားရှိခြင်း",
-      "meaningMy": "မျှော်လင့်ချက်ထားရှိခြင်း",
-      "meaningMyanmar": "မျှော်လင့်ချက်ထားရှိခြင်း",
-      "myanmar": "မျှော်လင့်ချက်ထားရှိခြင်း",
+      "ja": "小児科",
+      "kana": "しょうにか",
+      "en": "Pediatrics child medicine",
+      "my": "ကလေးရောဂါကုဌာန",
+      "meaningMy": "ကလေးရောဂါကုဌာန",
+      "meaningMyanmar": "ကလေးရောဂါကုဌာန",
+      "myanmar": "ကလေးရောဂါကုဌာန",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
@@ -717,7 +729,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -726,13 +738,13 @@
     {
       "id": "n3.l47.v025",
       "lessonId": "n3.l47",
-      "ja": "失望",
-      "kana": "しつぼう",
-      "en": "Disappointment / despair",
-      "my": "စိတ်ပျက်လက်လျှော့ခြင်း",
-      "meaningMy": "စိတ်ပျက်လက်လျှော့ခြင်း",
-      "meaningMyanmar": "စိတ်ပျက်လက်လျှော့ခြင်း",
-      "myanmar": "စိတ်ပျက်လက်လျှော့ခြင်း",
+      "ja": "処方箋",
+      "kana": "しょほうせん",
+      "en": "Medical doctor prescription slip",
+      "my": "ဆရာဝန်ဆေးစာဆေးညွှန်း",
+      "meaningMy": "ဆရာဝန်ဆေးစာဆေးညွှန်း",
+      "meaningMyanmar": "ဆရာဝန်ဆေးစာဆေးညွှန်း",
+      "myanmar": "ဆရာဝန်ဆေးစာဆေးညွှန်း",
       "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
@@ -747,7 +759,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -756,14 +768,14 @@
     {
       "id": "n3.l47.v026",
       "lessonId": "n3.l47",
-      "ja": "怒る",
-      "kana": "おこる",
-      "en": "To get angry",
-      "my": "ဒေါသထွက်သည်",
-      "meaningMy": "ဒေါသထွက်သည်",
-      "meaningMyanmar": "ဒေါသထွက်သည်",
-      "myanmar": "ဒေါသထွက်သည်",
-      "pos": "verb",
+      "ja": "調剤薬局",
+      "kana": "ちょうざいやっきょく",
+      "en": "Dispensing pharmacy store",
+      "my": "ဆေးညွှန်းအရဖော်စပ်ပေးသောဆေးဆိုင်",
+      "meaningMy": "ဆေးညွှန်းအရဖော်စပ်ပေးသောဆေးဆိုင်",
+      "meaningMyanmar": "ဆေးညွှန်းအရဖော်စပ်ပေးသောဆေးဆိုင်",
+      "myanmar": "ဆေးညွှန်းအရဖော်စပ်ပေးသောဆေးဆိုင်",
+      "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
       "level": "N3",
@@ -777,23 +789,23 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "nakadaka",
-      "dropIndex": 2
+      "dropIndex": 5
     },
     {
       "id": "n3.l47.v027",
       "lessonId": "n3.l47",
-      "ja": "悲しむ",
-      "kana": "かなしむ",
-      "en": "To grieve / feel sad",
-      "my": "ဝမ်းနည်းပူဆွေးသည်",
-      "meaningMy": "ဝမ်းနည်းပူဆွေးသည်",
-      "meaningMyanmar": "ဝမ်းနည်းပူဆွေးသည်",
-      "myanmar": "ဝမ်းနည်းပူဆွေးသည်",
-      "pos": "verb",
+      "ja": "問診票",
+      "kana": "もんしんひょう",
+      "en": "Medical questionnaire sheet",
+      "my": "လူနာရောဂါရာဇဝင်မေးခွန်းလွှာ",
+      "meaningMy": "လူနာရောဂါရာဇဝင်မေးခွန်းလွှာ",
+      "meaningMyanmar": "လူနာရောဂါရာဇဝင်မေးခွန်းလွှာ",
+      "myanmar": "လူနာရောဂါရာဇဝင်မေးခွန်းလွှာ",
+      "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
       "level": "N3",
@@ -807,23 +819,23 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 3
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n3.l47.v028",
       "lessonId": "n3.l47",
-      "ja": "喜ぶ",
-      "kana": "よろこぶ",
-      "en": "To be glad / rejoice",
-      "my": "ဝမ်းမြောက်ဝမ်းသာဖြစ်သည်",
-      "meaningMy": "ဝမ်းမြောက်ဝမ်းသာဖြစ်သည်",
-      "meaningMyanmar": "ဝမ်းမြောက်ဝမ်းသာဖြစ်သည်",
-      "myanmar": "ဝမ်းမြောက်ဝမ်းသာဖြစ်သည်",
-      "pos": "verb",
+      "ja": "血液検査",
+      "kana": "けつえきけんさ",
+      "en": "Blood test analysis check",
+      "my": "သွေးစစ်ဆေးခြင်း",
+      "meaningMy": "သွေးစစ်ဆေးခြင်း",
+      "meaningMyanmar": "သွေးစစ်ဆေးခြင်း",
+      "myanmar": "သွေးစစ်ဆေးခြင်း",
+      "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
       "level": "N3",
@@ -837,23 +849,23 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "nakadaka",
-      "dropIndex": 3
+      "dropIndex": 4
     },
     {
       "id": "n3.l47.v029",
       "lessonId": "n3.l47",
-      "ja": "悩む",
-      "kana": "なやむ",
-      "en": "To be troubled / worry",
-      "my": "စိတ်သောကရောက်သည်",
-      "meaningMy": "စိတ်သောကရောက်သည်",
-      "meaningMyanmar": "စိတ်သောကရောက်သည်",
-      "myanmar": "စိတ်သောကရောက်သည်",
-      "pos": "verb",
+      "ja": "超音波検査",
+      "kana": "ちょうおんぱけんさ",
+      "en": "Ultrasound scan examination",
+      "my": "အာထရာဆောင်းစစ်ဆေးမှု",
+      "meaningMy": "အာထရာဆောင်းစစ်ဆေးမှု",
+      "meaningMyanmar": "အာထရာဆောင်းစစ်ဆေးမှု",
+      "myanmar": "အာထရာဆောင်းစစ်ဆေးမှု",
+      "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
       "level": "N3",
@@ -867,23 +879,23 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "nakadaka",
-      "dropIndex": 2
+      "dropIndex": 5
     },
     {
       "id": "n3.l47.v030",
       "lessonId": "n3.l47",
-      "ja": "迷う",
-      "kana": "まよう",
-      "en": "To lose one’s way / hesitate",
-      "my": "လမ်းပျောက်သည် / ဝေခွဲမရဖြစ်သည်",
-      "meaningMy": "လမ်းပျောက်သည် / ဝေခွဲမရဖြစ်သည်",
-      "meaningMyanmar": "လမ်းပျောက်သည် / ဝေခွဲမရဖြစ်သည်",
-      "myanmar": "လမ်းပျောက်သည် / ဝေခွဲမရဖြစ်သည်",
-      "pos": "verb",
+      "ja": "診断結果",
+      "kana": "しんだんけっか",
+      "en": "Medical diagnostic test result",
+      "my": "ရောဂါရှာဖွေစစ်ဆေးတွေ့ရှိချက်ရလဒ်",
+      "meaningMy": "ရောဂါရှာဖွေစစ်ဆေးတွေ့ရှိချက်ရလဒ်",
+      "meaningMyanmar": "ရောဂါရှာဖွေစစ်ဆေးတွေ့ရှိချက်ရလဒ်",
+      "myanmar": "ရောဂါရှာဖွေစစ်ဆေးတွေ့ရှိချက်ရလဒ်",
+      "pos": "noun",
       "exampleSentenceId": "n3.l47.s001",
       "kanjiIds": [],
       "level": "N3",
@@ -897,11 +909,11 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "nakadaka",
-      "dropIndex": 2
+      "dropIndex": 4
     }
   ],
   "kanjis": [
@@ -913,11 +925,11 @@
       "meaningMy": "စကားပြောသည်၊ စကား (Speak/Talk)",
       "meaningMyanmar": "စကားပြောသည်၊ စကား (Speak/Talk)",
       "onyomi": [
-        "WA"
+        "ワ"
       ],
       "kunyomi": [
-        "hana-su",
-        "hanashi"
+        "はな・す",
+        "はなし"
       ],
       "exampleVocab": [
         {
@@ -948,7 +960,7 @@
       "components": [
         "言 (word/speech)"
       ],
-      "strokes": 8,
+      "strokes": 13,
       "difficulty": 3,
       "level": "N3",
       "prov": {
@@ -967,11 +979,11 @@
       "meaningMy": "ဘာသာစကား၊ ပြောကြားသည် (Language/Narrate)",
       "meaningMyanmar": "ဘာသာစကား၊ ပြောကြားသည် (Language/Narrate)",
       "onyomi": [
-        "GO"
+        "ゴ"
       ],
       "kunyomi": [
-        "kata-ru",
-        "kata-rau"
+        "かた・る",
+        "かた・らう"
       ],
       "exampleVocab": [
         {
@@ -1002,7 +1014,7 @@
       "components": [
         "言 (word/speech)"
       ],
-      "strokes": 8,
+      "strokes": 14,
       "difficulty": 3,
       "level": "N3",
       "prov": {
@@ -1021,10 +1033,10 @@
       "meaningMy": "အတိုကောက်၊ ချန်လှပ်သည် (Abbreviation/Omit)",
       "meaningMyanmar": "အတိုကောက်၊ ချန်လှပ်သည် (Abbreviation/Omit)",
       "onyomi": [
-        "RYAKU"
+        "リャク"
       ],
       "kunyomi": [
-        "habu-ku"
+        "はぶ・く"
       ],
       "exampleVocab": [
         {
@@ -1055,7 +1067,7 @@
       "components": [
         "田 (field)"
       ],
-      "strokes": 8,
+      "strokes": 11,
       "difficulty": 3,
       "level": "N3",
       "prov": {
@@ -1197,8 +1209,16 @@
       "vocabIds": [
         "n3.l47.v001",
         "n3.l47.v002",
+        "n3.l47.v003",
+        "n3.l47.v004",
         "n3.l47.v005",
         "n3.l47.v006",
+        "n3.l47.v007",
+        "n3.l47.v008",
+        "n3.l47.v009",
+        "n3.l47.v010",
+        "n3.l47.v011",
+        "n3.l47.v012",
         "n3.l47.v013",
         "n3.l47.v014",
         "n3.l47.v015",

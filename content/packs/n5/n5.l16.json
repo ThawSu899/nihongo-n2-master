@@ -22,6 +22,9 @@
       "kana": "おきます",
       "en": "To put / place",
       "my": "ထားသည်",
+      "meaningMy": "ထားသည်",
+      "meaningMyanmar": "ထားသည်",
+      "myanmar": "ထားသည်",
       "pos": "verb",
       "exampleSentenceId": "n5.l16.s007",
       "kanjiIds": [],
@@ -33,15 +36,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "ထားသည်",
-      "meaningMy": "ထားသည်",
-      "myanmar": "ထားသည်",
       "pitchPattern": "nakadaka",
       "dropIndex": 3
     },
@@ -52,6 +52,9 @@
       "kana": "つくります",
       "en": "To make / produce",
       "my": "ပြုလုပ်သည် / ဖန်တီးသည်",
+      "meaningMy": "ပြုလုပ်သည် / ဖန်တီးသည်",
+      "meaningMyanmar": "ပြုလုပ်သည် / ဖန်တီးသည်",
+      "myanmar": "ပြုလုပ်သည် / ဖန်တီးသည်",
       "pos": "verb",
       "exampleSentenceId": "n5.l16.s008",
       "kanjiIds": [
@@ -65,15 +68,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "ပြုလုပ်သည် / ဖန်တီးသည်",
-      "meaningMy": "ပြုလုပ်သည် / ဖန်တီးသည်",
-      "myanmar": "ပြုလုပ်သည် / ဖန်တီးသည်",
       "pitchPattern": "nakadaka",
       "dropIndex": 4
     },
@@ -84,6 +84,9 @@
       "kana": "うります",
       "en": "To sell",
       "my": "ရောင်းသည်",
+      "meaningMy": "ရောင်းသည်",
+      "meaningMyanmar": "ရောင်းသည်",
+      "myanmar": "ရောင်းသည်",
       "pos": "verb",
       "exampleSentenceId": "n5.l16.s009",
       "kanjiIds": [],
@@ -95,15 +98,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "ရောင်းသည်",
-      "meaningMy": "ရောင်းသည်",
-      "myanmar": "ရောင်းသည်",
       "pitchPattern": "nakadaka",
       "dropIndex": 3
     },
@@ -114,6 +114,9 @@
       "kana": "しっています",
       "en": "To know (state)",
       "my": "သိထားသည်",
+      "meaningMy": "သိထားသည်",
+      "meaningMyanmar": "သိထားသည်",
+      "myanmar": "သိထားသည်",
       "pos": "verb",
       "exampleSentenceId": "n5.l16.s004",
       "kanjiIds": [
@@ -127,15 +130,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "သိထားသည်",
-      "meaningMy": "သိထားသည်",
-      "myanmar": "သိထားသည်",
       "pitchPattern": "nakadaka",
       "dropIndex": 5
     },
@@ -146,6 +146,9 @@
       "kana": "すんでいます",
       "en": "To live / reside",
       "my": "နေထိုင်သည်",
+      "meaningMy": "နေထိုင်သည်",
+      "meaningMyanmar": "နေထိုင်သည်",
+      "myanmar": "နေထိုင်သည်",
       "pos": "verb",
       "exampleSentenceId": "n5.l16.s003",
       "kanjiIds": [
@@ -159,15 +162,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "နေထိုင်သည်",
-      "meaningMy": "နေထိုင်သည်",
-      "myanmar": "နေထိုင်သည်",
       "pitchPattern": "nakadaka",
       "dropIndex": 5
     },
@@ -178,6 +178,9 @@
       "kana": "けんきゅうします",
       "en": "To research",
       "my": "သုတေသနပြုသည်",
+      "meaningMy": "သုတေသနပြုသည်",
+      "meaningMyanmar": "သုတေသနပြုသည်",
+      "myanmar": "သုတေသနပြုသည်",
       "pos": "verb",
       "exampleSentenceId": "n5.l16.s010",
       "kanjiIds": [],
@@ -189,15 +192,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "သုတေသနပြုသည်",
-      "meaningMy": "သုတေသနပြုသည်",
-      "myanmar": "သုတေသနပြုသည်",
       "pitchPattern": "nakadaka",
       "dropIndex": 6
     },
@@ -208,6 +208,9 @@
       "kana": "しりょう",
       "en": "Materials / Documents",
       "my": "စာရွက်စာတမ်း / အချက်အလက်",
+      "meaningMy": "စာရွက်စာတမ်း / အချက်အလက်",
+      "meaningMyanmar": "စာရွက်စာတမ်း / အချက်အလက်",
+      "myanmar": "စာရွက်စာတမ်း / အချက်အလက်",
       "pos": "noun",
       "exampleSentenceId": "n5.l16.s001",
       "kanjiIds": [],
@@ -219,15 +222,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "စာရွက်စာတမ်း / အချက်အလက်",
-      "meaningMy": "စာရွက်စာတမ်း / အချက်အလက်",
-      "myanmar": "စာရွက်စာတမ်း / အချက်အလက်",
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
@@ -238,6 +238,9 @@
       "kana": "かたろぐ",
       "en": "Catalogue",
       "my": "ကတ်တလောက်",
+      "meaningMy": "ကတ်တလောက်",
+      "meaningMyanmar": "ကတ်တလောက်",
+      "myanmar": "ကတ်တလောက်",
       "pos": "noun",
       "exampleSentenceId": "n5.l16.s005",
       "kanjiIds": [],
@@ -249,15 +252,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "ကတ်တလောက်",
-      "meaningMy": "ကတ်တလောက်",
-      "myanmar": "ကတ်တလောက်",
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
@@ -268,6 +268,9 @@
       "kana": "じこくひょう",
       "en": "Timetable",
       "my": "အချိန်ဇယား",
+      "meaningMy": "အချိန်ဇယား",
+      "meaningMyanmar": "အချိန်ဇယား",
+      "myanmar": "အချိန်ဇယား",
       "pos": "noun",
       "exampleSentenceId": "n5.l16.s011",
       "kanjiIds": [],
@@ -279,15 +282,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "အချိန်ဇယား",
-      "meaningMy": "အချိန်ဇယား",
-      "myanmar": "အချိန်ဇယား",
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
@@ -298,6 +298,9 @@
       "kana": "ふく",
       "en": "Clothes",
       "my": "အဝတ်အစား",
+      "meaningMy": "အဝတ်အစား",
+      "meaningMyanmar": "အဝတ်အစား",
+      "myanmar": "အဝတ်အစား",
       "pos": "noun",
       "exampleSentenceId": "n5.l16.s012",
       "kanjiIds": [],
@@ -309,15 +312,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "အဝတ်အစား",
-      "meaningMy": "အဝတ်အစား",
-      "myanmar": "အဝတ်အစား",
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
@@ -328,6 +328,9 @@
       "kana": "どくしん",
       "en": "Single / Unmarried",
       "my": "လူလွတ်",
+      "meaningMy": "လူလွတ်",
+      "meaningMyanmar": "လူလွတ်",
+      "myanmar": "လူလွတ်",
       "pos": "noun",
       "exampleSentenceId": "n5.l16.s013",
       "kanjiIds": [],
@@ -339,15 +342,12 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "လူလွတ်",
-      "meaningMy": "လူလွတ်",
-      "myanmar": "လူလွတ်",
       "pitchPattern": "heiban",
       "dropIndex": 0
     },
@@ -358,6 +358,9 @@
       "kana": "いけません",
       "en": "Must not / Not allowed",
       "my": "မပြုလုပ်ရ / မရပါ",
+      "meaningMy": "မပြုလုပ်ရ / မရပါ",
+      "meaningMyanmar": "မပြုလုပ်ရ / မရပါ",
+      "myanmar": "မပြုလုပ်ရ / မရပါ",
       "pos": "expression",
       "exampleSentenceId": "n5.l16.s002",
       "kanjiIds": [],
@@ -369,29 +372,26 @@
         "lang": "ja-JP"
       },
       "prov": {
-        "source": "Nihongo N2 Master Editorial Team (Native Review)",
+        "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
-        "status": "reviewed",
-        "updatedAt": "2026-10-01T00:00:00Z",
-        "rev": 2
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
       },
-      "meaningMyanmar": "မပြုလုပ်ရ / မရပါ",
-      "meaningMy": "မပြုလုပ်ရ / မရပါ",
-      "myanmar": "မပြုလုပ်ရ / မရပါ",
       "pitchPattern": "nakadaka",
       "dropIndex": 3
     },
     {
       "id": "n5.l16.v013",
       "lessonId": "n5.l16",
-      "ja": "教える",
-      "kana": "おしえる",
-      "en": "To teach / inform",
-      "my": "သင်ကြားပြသသည်",
-      "meaningMy": "သင်ကြားပြသသည်",
-      "meaningMyanmar": "သင်ကြားပြသသည်",
-      "myanmar": "သင်ကြားပြသသည်",
-      "pos": "verb",
+      "ja": "茶色",
+      "kana": "ちゃいろ",
+      "en": "Brown color",
+      "my": "အညိုရောင်",
+      "meaningMy": "အညိုရောင်",
+      "meaningMyanmar": "အညိုရောင်",
+      "myanmar": "အညိုရောင်",
+      "pos": "noun",
       "exampleSentenceId": "n5.l16.s001",
       "kanjiIds": [],
       "level": "N5",
@@ -405,7 +405,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "heiban",
@@ -414,13 +414,13 @@
     {
       "id": "n5.l16.v014",
       "lessonId": "n5.l16",
-      "ja": "水",
-      "kana": "みず",
-      "en": "Water",
-      "my": "ရေ",
-      "meaningMy": "ရေ",
-      "meaningMyanmar": "ရေ",
-      "myanmar": "ရေ",
+      "ja": "緑",
+      "kana": "みどり",
+      "en": "Green color",
+      "my": "အစိမ်းရောင်",
+      "meaningMy": "အစိမ်းရောင်",
+      "meaningMyanmar": "အစိမ်းရောင်",
+      "myanmar": "အစိမ်းရောင်",
       "pos": "noun",
       "exampleSentenceId": "n5.l16.s001",
       "kanjiIds": [],
@@ -435,74 +435,254 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n5.l16.v015",
-      "lessonId": "n5.l16",
-      "ja": "お茶",
-      "kana": "おちゃ",
-      "en": "Tea / green tea",
-      "my": "လက်ဖက်ရည်ကြမ်း",
-      "meaningMy": "လက်ဖက်ရည်ကြမ်း",
-      "meaningMyanmar": "လက်ဖက်ရည်ကြမ်း",
-      "myanmar": "လက်ဖက်ရည်ကြမ်း",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l16.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n5.l16.v016",
-      "lessonId": "n5.l16",
-      "ja": "ご飯",
-      "kana": "ごはん",
-      "en": "Cooked rice / meal",
-      "my": "ထမင်း / အစားအစာ",
-      "meaningMy": "ထမင်း / အစားအစာ",
-      "meaningMyanmar": "ထမင်း / အစားအစာ",
-      "myanmar": "ထမင်း / အစားအစာ",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l16.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "atamadaka",
       "dropIndex": 1
     },
     {
+      "id": "n5.l16.v015",
+      "lessonId": "n5.l16",
+      "ja": "紫",
+      "kana": "むらさき",
+      "en": "Purple color",
+      "my": "ခရမ်းရောင်",
+      "meaningMy": "ခရမ်းရောင်",
+      "meaningMyanmar": "ခရမ်းရောင်",
+      "myanmar": "ခရမ်းရောင်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n5.l16.v016",
+      "lessonId": "n5.l16",
+      "ja": "灰色",
+      "kana": "はいいろ",
+      "en": "Grey color",
+      "my": "မီးခိုးရောင်",
+      "meaningMy": "မီးခိုးရောင်",
+      "meaningMyanmar": "မီးခိုးရောင်",
+      "myanmar": "မီးခိုးရောင်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
       "id": "n5.l16.v017",
+      "lessonId": "n5.l16",
+      "ja": "水色",
+      "kana": "みずいろ",
+      "en": "Light blue color",
+      "my": "မိုးပြာရောင်",
+      "meaningMy": "မိုးပြာရောင်",
+      "meaningMyanmar": "မိုးပြာရောင်",
+      "myanmar": "မိုးပြာရောင်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n5.l16.v018",
+      "lessonId": "n5.l16",
+      "ja": "ピンク",
+      "kana": "ピンク",
+      "en": "Pink color",
+      "my": "ပန်းရောင်",
+      "meaningMy": "ပန်းရောင်",
+      "meaningMyanmar": "ပန်းရောင်",
+      "myanmar": "ပန်းရောင်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l16.v019",
+      "lessonId": "n5.l16",
+      "ja": "オレンジ",
+      "kana": "オレンジ",
+      "en": "Orange color",
+      "my": "လိမ္မော်ရောင်",
+      "meaningMy": "လိမ္မော်ရောင်",
+      "meaningMyanmar": "လိမ္မော်ရောင်",
+      "myanmar": "လိမ္မော်ရောင်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
+    },
+    {
+      "id": "n5.l16.v020",
+      "lessonId": "n5.l16",
+      "ja": "金",
+      "kana": "きん",
+      "en": "Gold",
+      "my": "ရွှေရောင်",
+      "meaningMy": "ရွှေရောင်",
+      "meaningMyanmar": "ရွှေရောင်",
+      "myanmar": "ရွှေရောင်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l16.v021",
+      "lessonId": "n5.l16",
+      "ja": "銀",
+      "kana": "ぎん",
+      "en": "Silver",
+      "my": "ငွေရောင်",
+      "meaningMy": "ငွေရောင်",
+      "meaningMyanmar": "ငွေရောင်",
+      "myanmar": "ငွေရောင်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l16.v022",
+      "lessonId": "n5.l16",
+      "ja": "お米",
+      "kana": "おこめ",
+      "en": "Uncooked rice",
+      "my": "ဆန်",
+      "meaningMy": "ဆန်",
+      "meaningMyanmar": "ဆန်",
+      "myanmar": "ဆန်",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n5.l16.v023",
       "lessonId": "n5.l16",
       "ja": "パン",
       "kana": "パン",
@@ -525,14 +705,134 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "atamadaka",
       "dropIndex": 1
     },
     {
-      "id": "n5.l16.v018",
+      "id": "n5.l16.v024",
+      "lessonId": "n5.l16",
+      "ja": "麺",
+      "kana": "めん",
+      "en": "Noodles",
+      "my": "ခေါက်ဆွဲ",
+      "meaningMy": "ခေါက်ဆွဲ",
+      "meaningMyanmar": "ခေါက်ဆွဲ",
+      "myanmar": "ခေါက်ဆွဲ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l16.v025",
+      "lessonId": "n5.l16",
+      "ja": "うどん",
+      "kana": "うどん",
+      "en": "Udon wheat noodles",
+      "my": "အူဒုံးခေါက်ဆွဲ",
+      "meaningMy": "အူဒုံးခေါက်ဆွဲ",
+      "meaningMyanmar": "အူဒုံးခေါက်ဆွဲ",
+      "myanmar": "အူဒုံးခေါက်ဆွဲ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "heiban",
+      "dropIndex": 0
+    },
+    {
+      "id": "n5.l16.v026",
+      "lessonId": "n5.l16",
+      "ja": "そば",
+      "kana": "そば",
+      "en": "Buckwheat noodles",
+      "my": "ဆိုဘခေါက်ဆွဲ",
+      "meaningMy": "ဆိုဘခေါက်ဆွဲ",
+      "meaningMyanmar": "ဆိုဘခေါက်ဆွဲ",
+      "myanmar": "ဆိုဘခေါက်ဆွဲ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l16.v027",
+      "lessonId": "n5.l16",
+      "ja": "ラーメン",
+      "kana": "ラーメン",
+      "en": "Ramen noodles",
+      "my": "ရာမင်ခေါက်ဆွဲ",
+      "meaningMy": "ရာမင်ခေါက်ဆွဲ",
+      "meaningMyanmar": "ရာမင်ခေါက်ဆွဲ",
+      "myanmar": "ရာမင်ခေါက်ဆွဲ",
+      "pos": "noun",
+      "exampleSentenceId": "n5.l16.s001",
+      "kanjiIds": [],
+      "level": "N5",
+      "difficulty": 1,
+      "importance": 5,
+      "audio": {
+        "kind": "tts",
+        "lang": "ja-JP"
+      },
+      "prov": {
+        "source": "Nihongo N2 Master Editorial Team",
+        "license": "CC-BY-4.0",
+        "status": "native_verified",
+        "updatedAt": "2026-11-10T00:00:00Z",
+        "rev": 1
+      },
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
+    },
+    {
+      "id": "n5.l16.v028",
       "lessonId": "n5.l16",
       "ja": "肉",
       "kana": "にく",
@@ -555,307 +855,7 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 2
-    },
-    {
-      "id": "n5.l16.v019",
-      "lessonId": "n5.l16",
-      "ja": "魚",
-      "kana": "さかな",
-      "en": "Fish",
-      "my": "ငါး",
-      "meaningMy": "ငါး",
-      "meaningMyanmar": "ငါး",
-      "myanmar": "ငါး",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l16.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n5.l16.v020",
-      "lessonId": "n5.l16",
-      "ja": "野菜",
-      "kana": "やさい",
-      "en": "Vegetables",
-      "my": "ဟင်းသီးဟင်းရွက်",
-      "meaningMy": "ဟင်းသီးဟင်းရွက်",
-      "meaningMyanmar": "ဟင်းသီးဟင်းရွက်",
-      "myanmar": "ဟင်းသီးဟင်းရွက်",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l16.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n5.l16.v021",
-      "lessonId": "n5.l16",
-      "ja": "果物",
-      "kana": "くだもの",
-      "en": "Fruit",
-      "my": "သစ်သီး",
-      "meaningMy": "သစ်သီး",
-      "meaningMyanmar": "သစ်သီး",
-      "myanmar": "သစ်သီး",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l16.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 2
-    },
-    {
-      "id": "n5.l16.v022",
-      "lessonId": "n5.l16",
-      "ja": "机",
-      "kana": "つくえ",
-      "en": "Desk",
-      "my": "စာရေးစားပွဲ",
-      "meaningMy": "စာရေးစားပွဲ",
-      "meaningMyanmar": "စာရေးစားပွဲ",
-      "myanmar": "စာရေးစားပွဲ",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l16.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n5.l16.v023",
-      "lessonId": "n5.l16",
-      "ja": "椅子",
-      "kana": "いす",
-      "en": "Chair",
-      "my": "ကုလားထိုင်",
-      "meaningMy": "ကုလားထိုင်",
-      "meaningMyanmar": "ကုလားထိုင်",
-      "myanmar": "ကုလားထိုင်",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l16.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n5.l16.v024",
-      "lessonId": "n5.l16",
-      "ja": "本",
-      "kana": "ほん",
-      "en": "Book",
-      "my": "စာအုပ်",
-      "meaningMy": "စာအုပ်",
-      "meaningMyanmar": "စာအုပ်",
-      "myanmar": "စာအုပ်",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l16.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "atamadaka",
-      "dropIndex": 1
-    },
-    {
-      "id": "n5.l16.v025",
-      "lessonId": "n5.l16",
-      "ja": "鞄",
-      "kana": "かばん",
-      "en": "Bag",
-      "my": "လွယ်အိတ်",
-      "meaningMy": "လွယ်အိတ်",
-      "meaningMyanmar": "လွယ်အိတ်",
-      "myanmar": "လွယ်အိတ်",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l16.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n5.l16.v026",
-      "lessonId": "n5.l16",
-      "ja": "時計",
-      "kana": "とけい",
-      "en": "Clock / watch",
-      "my": "နာရီ",
-      "meaningMy": "နာရီ",
-      "meaningMyanmar": "နာရီ",
-      "myanmar": "နာရီ",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l16.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n5.l16.v027",
-      "lessonId": "n5.l16",
-      "ja": "車",
-      "kana": "くるま",
-      "en": "Car / vehicle",
-      "my": "မော်တော်ကား",
-      "meaningMy": "မော်တော်ကား",
-      "meaningMyanmar": "မော်တော်ကား",
-      "myanmar": "မော်တော်ကား",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l16.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
-        "rev": 1
-      },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
-    },
-    {
-      "id": "n5.l16.v028",
-      "lessonId": "n5.l16",
-      "ja": "自転車",
-      "kana": "じてんしゃ",
-      "en": "Bicycle",
-      "my": "စက်ဘီး",
-      "meaningMy": "စက်ဘီး",
-      "meaningMyanmar": "စက်ဘီး",
-      "myanmar": "စက်ဘီး",
-      "pos": "noun",
-      "exampleSentenceId": "n5.l16.s001",
-      "kanjiIds": [],
-      "level": "N5",
-      "difficulty": 1,
-      "importance": 5,
-      "audio": {
-        "kind": "tts",
-        "lang": "ja-JP"
-      },
-      "prov": {
-        "source": "Nihongo N2 Master Editorial Team",
-        "license": "CC-BY-4.0",
-        "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
       "pitchPattern": "nakadaka",
@@ -864,13 +864,13 @@
     {
       "id": "n5.l16.v029",
       "lessonId": "n5.l16",
-      "ja": "家",
-      "kana": "いえ",
-      "en": "House / home",
-      "my": "အိမ်",
-      "meaningMy": "အိမ်",
-      "meaningMyanmar": "အိမ်",
-      "myanmar": "အိမ်",
+      "ja": "牛肉",
+      "kana": "ぎゅうにく",
+      "en": "Beef",
+      "my": "အမဲသား",
+      "meaningMy": "အမဲသား",
+      "meaningMyanmar": "အမဲသား",
+      "myanmar": "အမဲသား",
       "pos": "noun",
       "exampleSentenceId": "n5.l16.s001",
       "kanjiIds": [],
@@ -885,22 +885,22 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 2
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     },
     {
       "id": "n5.l16.v030",
       "lessonId": "n5.l16",
-      "ja": "部屋",
-      "kana": "へや",
-      "en": "Room",
-      "my": "အခန်း",
-      "meaningMy": "အခန်း",
-      "meaningMyanmar": "အခန်း",
-      "myanmar": "အခန်း",
+      "ja": "豚肉",
+      "kana": "ぶたにく",
+      "en": "Pork",
+      "my": "ဝက်သား",
+      "meaningMy": "ဝက်သား",
+      "meaningMyanmar": "ဝက်သား",
+      "myanmar": "ဝက်သား",
       "pos": "noun",
       "exampleSentenceId": "n5.l16.s001",
       "kanjiIds": [],
@@ -915,11 +915,11 @@
         "source": "Nihongo N2 Master Editorial Team",
         "license": "CC-BY-4.0",
         "status": "native_verified",
-        "updatedAt": "2026-11-09T00:00:00Z",
+        "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 2
+      "pitchPattern": "heiban",
+      "dropIndex": 0
     }
   ],
   "kanjis": [
@@ -1213,7 +1213,18 @@
         "my": "ဒီစာရွက်စာတမ်းကို ကြည့်ခွင့်ရှိပါသလား။ ဟုတ်ကဲ့၊ ကြည့်ပါခင်ဗျာ။"
       },
       "vocabIds": [
+        "n5.l16.v001",
+        "n5.l16.v002",
+        "n5.l16.v003",
+        "n5.l16.v004",
+        "n5.l16.v005",
+        "n5.l16.v006",
         "n5.l16.v007",
+        "n5.l16.v008",
+        "n5.l16.v009",
+        "n5.l16.v010",
+        "n5.l16.v011",
+        "n5.l16.v012",
         "n5.l16.v013",
         "n5.l16.v014",
         "n5.l16.v015",

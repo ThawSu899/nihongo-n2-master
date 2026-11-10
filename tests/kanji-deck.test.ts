@@ -16,7 +16,7 @@ describe('Kanji Deck & Stroke Visualizer System', () => {
       const n5Kanjis = await extractKanjiForLevel('N5');
       expect(n5Kanjis.length).toBeGreaterThanOrEqual(103);
 
-      // Verify deduplication
+      // Verify deduplication and quality assertions
       const seenLiterals = new Set<string>();
       for (const k of n5Kanjis) {
         expect(seenLiterals.has(k.literal)).toBe(false);
@@ -31,22 +31,44 @@ describe('Kanji Deck & Stroke Visualizer System', () => {
         expect(k.meaningEn.length).toBeGreaterThan(0);
         expect(Array.isArray(k.onyomi)).toBe(true);
         expect(Array.isArray(k.kunyomi)).toBe(true);
-      }
-    });
 
-    it('extracts canonical Kanji for N4, N3, and N2 levels', async () => {
+        // Zero Romaji in readings
+        for (const on of k.onyomi) {
+          expect(/[A-Za-z]/.test(on)).toBe(false);
+        }
+        for (const kun of k.kunyomi) {
+          expect(/[A-Za-z]/.test(kun)).toBe(false);
+        }
+
+        // Zero English-only meaningBurmese
+        expect(/^[\x00-\x7F]+$/.test(k.meaningBurmese.trim())).toBe(false);
+      }
+    }, 20000);
+
+    it('extracts canonical Kanji for N4, N3, and N2 levels with quality gates', async () => {
       const n4Kanjis = await extractKanjiForLevel('N4');
-      expect(n4Kanjis.length).toBeGreaterThanOrEqual(140);
+      expect(n4Kanjis.length).toBeGreaterThanOrEqual(180);
       expect(n4Kanjis.every((k) => k.jlptLevel === 'N4')).toBe(true);
 
       const n3Kanjis = await extractKanjiForLevel('N3');
-      expect(n3Kanjis.length).toBeGreaterThanOrEqual(150);
+      expect(n3Kanjis.length).toBeGreaterThanOrEqual(250);
       expect(n3Kanjis.every((k) => k.jlptLevel === 'N3')).toBe(true);
 
       const n2Kanjis = await extractKanjiForLevel('N2');
-      expect(n2Kanjis.length).toBeGreaterThanOrEqual(140);
+      expect(n2Kanjis.length).toBeGreaterThanOrEqual(250);
       expect(n2Kanjis.every((k) => k.jlptLevel === 'N2')).toBe(true);
-    });
+
+      // Zero Romaji and zero English-only Burmese check across all tiers
+      for (const k of [...n4Kanjis, ...n3Kanjis, ...n2Kanjis]) {
+        for (const on of k.onyomi) {
+          expect(/[A-Za-z]/.test(on)).toBe(false);
+        }
+        for (const kun of k.kunyomi) {
+          expect(/[A-Za-z]/.test(kun)).toBe(false);
+        }
+        expect(/^[\x00-\x7F]+$/.test(k.meaningBurmese.trim())).toBe(false);
+      }
+    }, 25000);
 
     it('enriches items with radicals and compound examples where available', async () => {
       const n5Kanjis = await extractKanjiForLevel('N5');

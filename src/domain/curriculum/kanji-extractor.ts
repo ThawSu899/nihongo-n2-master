@@ -14,16 +14,32 @@ export interface KanjiCardItem {
   examples?: { word: string; reading: string; meaningBurmese: string }[];
 }
 
-/**
- * Extracts and deduplicates canonical Kanji for a given JLPT level.
- * Aggregates items from lesson packs and enriches them with the curated catalog.
- */
-export async function extractKanjiForLevel(
-  level: 'N5' | 'N4' | 'N3' | 'N2'
-): Promise<KanjiCardItem[]> {
+const LOWER_LEVELS: Record<'N5' | 'N4' | 'N3' | 'N2', ('N5' | 'N4' | 'N3' | 'N2')[]> = {
+  N5: [],
+  N4: ['N5'],
+  N3: ['N5', 'N4'],
+  N2: ['N5', 'N4', 'N3'],
+};
+
+// In-memory cache for raw level extractions to accelerate lookup & avoid repeated disk IO
+const rawLevelCache = new Map<'N5' | 'N4' | 'N3' | 'N2', KanjiCardItem[]>();
+const levelExtractCache = new Map<'N5' | 'N4' | 'N3' | 'N2', KanjiCardItem[]>();
+
+export function clearKanjiExtractorCache(): void {
+  rawLevelCache.clear();
+  levelExtractCache.clear();
+}
+
+async function extractRawKanji(level: 'N5' | 'N4' | 'N3' | 'N2'): Promise<KanjiCardItem[]> {
+  if (rawLevelCache.has(level)) {
+    return rawLevelCache.get(level)!;
+  }
+
   const packs = await ContentLoader.getPacksForLevel(level);
   const seenLiterals = new Set<string>();
   const items: KanjiCardItem[] = [];
+
+  const hasRomaji = (arr: string[]) => arr.some((s) => /[A-Za-z]/.test(s));
 
   for (const pack of packs) {
     if (Array.isArray(pack.kanjis)) {
@@ -33,23 +49,37 @@ export async function extractKanjiForLevel(
 
         const catalogEntry = CURATED_KANJI_CATALOG[k.char];
 
-        const meaningBurmese =
+        let meaningBurmese =
           k.meaningMyanmar ||
           k.meaningMy ||
           k.myanmar ||
           catalogEntry?.meaningMy ||
-          k.meaning ||
           '';
+
+        // Ensure Burmese meaning is never blank or English-only
+        if (!meaningBurmese || /^[\x00-\x7F]+$/.test(meaningBurmese.trim())) {
+          if (catalogEntry?.meaningMy && !/^[\x00-\x7F]+$/.test(catalogEntry.meaningMy)) {
+            meaningBurmese = catalogEntry.meaningMy;
+          } else {
+            meaningBurmese = `ခန်းဂျီးစာလုံး (${k.char})`;
+          }
+        }
 
         const meaningEn = k.meaning || catalogEntry?.meaningEn || 'Kanji character';
 
-        const strokeCount = k.strokes || catalogEntry?.strokes || 1;
+        // Prefer verified dictionary stroke count over unverified pack metadata
+        const strokeCount = catalogEntry?.strokes || k.strokes || 1;
 
+        // Clean phonetic readings: reject any uppercase or lowercase Romaji in favor of catalog Katakana/Hiragana
         const onyomi =
-          k.onyomi && k.onyomi.length > 0 ? k.onyomi : catalogEntry?.onyomi || [];
+          k.onyomi && k.onyomi.length > 0 && !hasRomaji(k.onyomi)
+            ? k.onyomi
+            : catalogEntry?.onyomi || [];
 
         const kunyomi =
-          k.kunyomi && k.kunyomi.length > 0 ? k.kunyomi : catalogEntry?.kunyomi || [];
+          k.kunyomi && k.kunyomi.length > 0 && !hasRomaji(k.kunyomi)
+            ? k.kunyomi
+            : catalogEntry?.kunyomi || [];
 
         const radicals =
           k.components && k.components.length > 0
@@ -63,12 +93,12 @@ export async function extractKanjiForLevel(
                 word: ex.word,
                 reading: ex.reading,
                 meaningBurmese:
-                  ex.meaningMyanmar || ex.meaningMy || ex.meaning || '',
+                  ex.meaningMyanmar || ex.meaningMy || catalogEntry?.examples?.[0]?.meaningMy || 'ဥပမာဝေါဟာရ',
               }))
             : catalogEntry?.examples?.map((ex) => ({
                 word: ex.word,
                 reading: ex.reading,
-                meaningBurmese: ex.meaningMy || ex.meaningEn || '',
+                meaningBurmese: ex.meaningMy || 'ဥပမာဝေါဟာရ',
               })) || [];
 
         items.push({
@@ -87,7 +117,7 @@ export async function extractKanjiForLevel(
     }
   }
 
-  // Also supplement with any curated catalog kanji registered under this level
+  // Supplement with any curated catalog kanji registered under this level
   for (const [char, detail] of Object.entries(CURATED_KANJI_CATALOG)) {
     if (detail.level === level && !seenLiterals.has(char)) {
       seenLiterals.add(char);
@@ -97,7 +127,7 @@ export async function extractKanjiForLevel(
         jlptLevel: level,
         onyomi: detail.onyomi || [],
         kunyomi: detail.kunyomi || [],
-        meaningBurmese: detail.meaningMy || detail.meaningEn,
+        meaningBurmese: detail.meaningMy || `ခန်းဂျီးစာလုံး (${char})`,
         meaningEn: detail.meaningEn,
         strokeCount: detail.strokes || 1,
         radicals:
@@ -106,11 +136,45 @@ export async function extractKanjiForLevel(
         examples: detail.examples?.map((ex) => ({
           word: ex.word,
           reading: ex.reading,
-          meaningBurmese: ex.meaningMy || ex.meaningEn,
+          meaningBurmese: ex.meaningMy || 'ဥပမာဝေါဟာရ',
         })),
       });
     }
   }
 
+  rawLevelCache.set(level, items);
   return items;
+}
+
+/**
+ * Extracts and deduplicates canonical Kanji for a given JLPT level with strict cross-level deduplication:
+ * - N5: Canonical N5 Kanji (from packs and curated catalog)
+ * - N4: Canonical N4 Kanji (excluding all N5 Kanji)
+ * - N3: Canonical N3 Kanji (excluding all N5 and N4 Kanji)
+ * - N2: Canonical N2 Kanji (excluding all N5, N4, and N3 Kanji)
+ */
+export async function extractKanjiForLevel(
+  level: 'N5' | 'N4' | 'N3' | 'N2'
+): Promise<KanjiCardItem[]> {
+  if (levelExtractCache.has(level)) {
+    return levelExtractCache.get(level)!;
+  }
+
+  // 1. Gather all excluded literals from lower levels
+  const excludedLiterals = new Set<string>();
+  for (const lowerLevel of LOWER_LEVELS[level]) {
+    const lowerItems = await extractRawKanji(lowerLevel);
+    for (const item of lowerItems) {
+      excludedLiterals.add(item.literal);
+    }
+  }
+
+  // 2. Extract raw items for the current level
+  const rawItems = await extractRawKanji(level);
+
+  // 3. Filter out any kanji characters already introduced in lower levels
+  const deduplicatedItems = rawItems.filter((item) => !excludedLiterals.has(item.literal));
+
+  levelExtractCache.set(level, deduplicatedItems);
+  return deduplicatedItems;
 }

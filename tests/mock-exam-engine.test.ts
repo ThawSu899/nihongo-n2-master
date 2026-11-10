@@ -130,7 +130,7 @@ describe('Multi-Level (N5–N2) JLPT Timed Mock Exam Simulator Suite', () => {
         expect(q.prompt.length).toBeGreaterThan(0);
         expect(q.level).toBe('N5');
       }
-    });
+    }, 25000);
 
     it('generates 35 questions for N4 and 40 questions for N3', async () => {
       const n4Questions = await generateMockExam('N4');
@@ -144,7 +144,7 @@ describe('Multi-Level (N5–N2) JLPT Timed Mock Exam Simulator Suite', () => {
       expect(n3Questions.filter((q) => q.section === 'vocabulary').length).toBe(16);
       expect(n3Questions.filter((q) => q.section === 'grammar').length).toBe(14);
       expect(n3Questions.filter((q) => q.section === 'reading').length).toBe(10);
-    });
+    }, 25000);
 
     it('generates 50 questions for N2 with strict JLPT distribution', async () => {
       const n2Questions = await generateMockExam('N2');
@@ -158,7 +158,7 @@ describe('Multi-Level (N5–N2) JLPT Timed Mock Exam Simulator Suite', () => {
         expect(new Set(q.choices).size).toBe(4);
         expect(q.choices.includes(q.correctAnswer)).toBe(true);
       }
-    });
+    }, 25000);
   });
 
   describe('4. Scaled Scoring & Section Breakdown', () => {

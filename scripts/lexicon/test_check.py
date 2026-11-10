@@ -5,6 +5,7 @@ from n2_expander import get_more_n2_words
 from n2_massive_bank import get_n2_massive
 from n2_supplemental import get_n2_supplemental
 from n2_extra_bank import get_n2_extra
+from n2_extra_bank2 import get_n2_extra2
 
 files = sorted(glob.glob('content/packs/n2/*.json'))
 core_set = set()
@@ -13,7 +14,7 @@ for f in files:
     for v in data.get('vocabularies', [])[:12]:
         core_set.add(f"{v.get('ja','')}:{v.get('kana','')}")
 
-all_n2 = get_n2_words() + get_more_n2_words() + get_n2_massive() + get_n2_supplemental() + get_n2_extra()
+all_n2 = get_n2_words() + get_more_n2_words() + get_n2_massive() + get_n2_supplemental() + get_n2_extra() + get_n2_extra2()
 bank_set = set(f"{w['ja']}:{w['kana']}" for w in all_n2)
 non_core = bank_set - core_set
 
