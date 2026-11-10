@@ -120,28 +120,28 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
     ? 'connected'
     : 'disconnected';
 
-  // Glow and border styles based on status
+  // Card style based on status
   const cardTheme = {
     connected: {
-      border: 'border-emerald-500/40',
-      glow: 'shadow-[0_0_24px_rgba(16,185,129,0.18)]',
-      bg: 'bg-emerald-950/20',
-      badge: 'bg-emerald-950/80 text-emerald-300 border-emerald-500/50',
-      indicator: 'bg-emerald-400',
+      border: 'border-emerald-200',
+      glow: 'shadow-xs',
+      bg: 'bg-emerald-50/40',
+      badge: 'bg-emerald-50 text-emerald-700 border-emerald-200',
+      indicator: 'bg-emerald-500',
     },
     disconnected: {
-      border: 'border-rose-500/40',
-      glow: 'shadow-[0_0_24px_rgba(244,63,94,0.18)]',
-      bg: 'bg-rose-950/20',
-      badge: 'bg-rose-950/80 text-rose-300 border-rose-500/50',
+      border: 'border-stone-200',
+      glow: 'shadow-xs',
+      bg: 'bg-white',
+      badge: 'bg-stone-100 text-stone-600 border-stone-200',
       indicator: 'bg-rose-500',
     },
     checking: {
-      border: 'border-amber-500/40',
-      glow: 'shadow-[0_0_24px_rgba(245,158,11,0.18)]',
-      bg: 'bg-amber-950/20',
-      badge: 'bg-amber-950/80 text-amber-300 border-amber-500/50',
-      indicator: 'bg-amber-400',
+      border: 'border-amber-200',
+      glow: 'shadow-xs',
+      bg: 'bg-amber-50/40',
+      badge: 'bg-amber-50 text-amber-700 border-amber-200',
+      indicator: 'bg-amber-500',
     },
   }[connectionStatus];
 
@@ -152,18 +152,18 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
       className={`rounded-2xl border ${cardTheme.border} ${cardTheme.bg} ${cardTheme.glow} backdrop-blur-md p-4 sm:p-5 transition-all duration-300 ${className}`}
     >
       {/* Header Row: Title, Port Badge & Action Buttons */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3.5 border-b border-stone-800/80">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3.5 border-b border-stone-200">
         <div className="space-y-1">
           <div className="flex items-center space-x-2">
-            <Radio className="w-4 h-4 text-rose-400" />
-            <h3 className="text-xs sm:text-sm font-bold text-stone-100 tracking-wide">
+            <Radio className="w-4 h-4 text-indigo-600" />
+            <h3 className="text-xs sm:text-sm font-bold text-stone-900 tracking-wide">
               Anki Desktop Live Bridge & Auto-Sync
             </h3>
-            <span className="text-[10px] px-2 py-0.5 rounded-full bg-stone-900 border border-stone-800 text-stone-400 font-mono">
+            <span className="text-[10px] px-2 py-0.5 rounded-full bg-stone-100 border border-stone-200 text-stone-600 font-mono">
               http://localhost:8765
             </span>
           </div>
-          <p className="text-[11px] text-stone-400">
+          <p className="text-[11px] text-stone-600">
             AnkiConnect REST API အခြေအနေ၊ ကတ်များ Auto-Sync နှင့် Deck စီမံမှု
           </p>
         </div>
@@ -175,16 +175,16 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
             type="button"
             onClick={handleSyncNow}
             disabled={!syncStatus.isConnected || syncStatus.isSyncing}
-            className={`inline-flex items-center justify-center space-x-2 px-3.5 py-2 rounded-xl text-xs font-semibold transition active:scale-95 disabled:opacity-50 cursor-pointer shadow-sm ${
+            className={`inline-flex items-center justify-center space-x-2 px-3.5 py-2 rounded-xl text-xs font-semibold transition active:scale-95 disabled:opacity-50 cursor-pointer shadow-xs ${
               syncStatus.isConnected
-                ? 'bg-rose-600 hover:bg-rose-500 text-white shadow-[0_0_15px_rgba(244,63,94,0.35)]'
-                : 'bg-stone-800 text-stone-400 border border-stone-700'
+                ? 'bg-indigo-600 hover:bg-indigo-700 text-white'
+                : 'bg-stone-100 text-stone-400 border border-stone-200'
             }`}
           >
             {syncStatus.isSyncing ? (
-              <RefreshCw className="w-3.5 h-3.5 text-white animate-spin" />
+              <RefreshCw className="w-3.5 h-3.5 animate-spin" />
             ) : (
-              <UploadCloud className="w-3.5 h-3.5 text-white" />
+              <UploadCloud className="w-3.5 h-3.5" />
             )}
             <span className="font-myanmar">
               {syncStatus.isSyncing
@@ -194,7 +194,7 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
                 : 'Sync Now (အခုပဲ တင်မည်)'}
             </span>
             {syncStatus.queueCount > 0 && !syncStatus.isSyncing && (
-              <span className="px-1.5 py-0.2 rounded-full bg-stone-900/80 text-[10px] font-mono text-rose-200 border border-rose-400/30">
+              <span className="px-1.5 py-0.2 rounded-full bg-indigo-100 text-[10px] font-mono text-indigo-700 border border-indigo-200">
                 {syncStatus.queueCount}
               </span>
             )}
@@ -205,11 +205,11 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
             type="button"
             onClick={handleTestConnection}
             disabled={syncStatus.isChecking || syncStatus.isSyncing}
-            className="inline-flex items-center justify-center space-x-2 px-3 py-2 rounded-xl bg-stone-850 hover:bg-stone-800 border border-stone-700/80 text-stone-200 text-xs font-semibold transition active:scale-95 disabled:opacity-50 cursor-pointer shadow-sm"
+            className="inline-flex items-center justify-center space-x-2 px-3 py-2 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 text-stone-700 text-xs font-semibold transition active:scale-95 disabled:opacity-50 cursor-pointer shadow-xs"
           >
             <RefreshCw
-              className={`w-3.5 h-3.5 text-stone-300 ${
-                syncStatus.isChecking ? 'animate-spin text-amber-400' : ''
+              className={`w-3.5 h-3.5 text-stone-500 ${
+                syncStatus.isChecking ? 'animate-spin text-amber-500' : ''
               }`}
             />
             <span className="font-myanmar">စစ်ဆေးမည်</span>
@@ -236,17 +236,17 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
 
             <div className="text-xs sm:text-sm font-bold font-myanmar leading-relaxed">
               {connectionStatus === 'connected' && (
-                <span className="text-emerald-300">
+                <span className="text-emerald-700">
                   🟢 Anki ချိတ်ဆက်ထားပါသည် (Connected)
                 </span>
               )}
               {connectionStatus === 'disconnected' && (
-                <span className="text-rose-300">
+                <span className="text-rose-700">
                   🔴 Anki Desktop ကို ဖွင့်ရန် လိုအပ်ပါသည် (Disconnected)
                 </span>
               )}
               {connectionStatus === 'checking' && (
-                <span className="text-amber-300">
+                <span className="text-amber-700">
                   🟡 Anki ချိတ်ဆက်မှုကို စစ်ဆေးနေပါသည်...
                 </span>
               )}
@@ -255,9 +255,9 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
 
           {/* Latency & Timestamp Badge */}
           {syncStatus.lastCheckedTime && (
-            <div className="flex items-center space-x-2 text-[10px] text-stone-400 font-mono">
+            <div className="flex items-center space-x-2 text-[10px] text-stone-600 font-mono">
               {syncStatus.latencyMs !== undefined && (
-                <span className="px-1.5 py-0.5 rounded bg-stone-900 border border-stone-800">
+                <span className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">
                   {syncStatus.latencyMs}ms
                 </span>
               )}
@@ -269,10 +269,10 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
         {/* Sync Metric Statistics Bar */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-1">
           {/* Pending in Queue */}
-          <div className="p-2.5 rounded-xl bg-stone-900/60 border border-stone-800/80 flex flex-col justify-between">
-            <span className="text-[10px] text-stone-400 font-myanmar">တန်းစီဇယား (Queue)</span>
+          <div className="p-2.5 rounded-xl bg-white border border-stone-200 flex flex-col justify-between shadow-xs">
+            <span className="text-[10px] text-stone-600 font-myanmar">တန်းစီဇယား (Queue)</span>
             <div className="flex items-baseline space-x-1.5 mt-1">
-              <span className={`text-base font-bold font-mono ${syncStatus.queueCount > 0 ? 'text-amber-300' : 'text-stone-300'}`}>
+              <span className={`text-base font-bold font-mono ${syncStatus.queueCount > 0 ? 'text-amber-700' : 'text-stone-800'}`}>
                 {syncStatus.queueCount}
               </span>
               <span className="text-[10px] text-stone-500 font-myanmar">ကတ်</span>
@@ -280,10 +280,10 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
           </div>
 
           {/* Total Synced */}
-          <div className="p-2.5 rounded-xl bg-stone-900/60 border border-stone-800/80 flex flex-col justify-between">
-            <span className="text-[10px] text-stone-400 font-myanmar">Anki သို့ တင်ပြီး (Synced)</span>
+          <div className="p-2.5 rounded-xl bg-white border border-stone-200 flex flex-col justify-between shadow-xs">
+            <span className="text-[10px] text-stone-600 font-myanmar">Anki သို့ တင်ပြီး (Synced)</span>
             <div className="flex items-baseline space-x-1.5 mt-1">
-              <span className="text-base font-bold font-mono text-emerald-400">
+              <span className="text-base font-bold font-mono text-emerald-700">
                 {syncStatus.syncedCount}
               </span>
               <span className="text-[10px] text-stone-500 font-myanmar">ကတ်</span>
@@ -291,9 +291,9 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
           </div>
 
           {/* Last Sync Time */}
-          <div className="p-2.5 rounded-xl bg-stone-900/60 border border-stone-800/80 flex flex-col justify-between">
-            <span className="text-[10px] text-stone-400 font-myanmar">နောက်ဆုံး Sync ချိန်</span>
-            <span className="text-xs font-mono text-stone-300 mt-1 truncate">
+          <div className="p-2.5 rounded-xl bg-white border border-stone-200 flex flex-col justify-between shadow-xs">
+            <span className="text-[10px] text-stone-600 font-myanmar">နောက်ဆုံး Sync ချိန်</span>
+            <span className="text-xs font-mono text-stone-800 mt-1 truncate">
               {syncStatus.lastSyncTime
                 ? new Date(syncStatus.lastSyncTime).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
                 : 'မရှိသေးပါ'}
@@ -304,31 +304,31 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
           <button
             type="button"
             onClick={handleToggleAutoSync}
-            className={`p-2.5 rounded-xl border flex flex-col justify-between text-left transition cursor-pointer ${
+            className={`p-2.5 rounded-xl border flex flex-col justify-between text-left transition cursor-pointer shadow-xs ${
               syncStatus.autoSyncActive
-                ? 'bg-emerald-950/30 border-emerald-800/50 hover:bg-emerald-950/50'
-                : 'bg-stone-900/60 border-stone-800/80 hover:bg-stone-850'
+                ? 'bg-emerald-50 border-emerald-200 hover:bg-emerald-100/60'
+                : 'bg-white border-stone-200 hover:bg-stone-50'
             }`}
           >
             <div className="flex items-center justify-between w-full">
-              <span className="text-[10px] text-stone-400 font-myanmar">Auto-Sync</span>
-              <Zap className={`w-3 h-3 ${syncStatus.autoSyncActive ? 'text-emerald-400 animate-pulse' : 'text-stone-500'}`} />
+              <span className="text-[10px] text-stone-600 font-myanmar">Auto-Sync</span>
+              <Zap className={`w-3 h-3 ${syncStatus.autoSyncActive ? 'text-emerald-600 animate-pulse' : 'text-stone-400'}`} />
             </div>
-            <span className={`text-xs font-semibold mt-1 ${syncStatus.autoSyncActive ? 'text-emerald-300' : 'text-stone-400'}`}>
+            <span className={`text-xs font-semibold mt-1 ${syncStatus.autoSyncActive ? 'text-emerald-700' : 'text-stone-500'}`}>
               {syncStatus.autoSyncActive ? 'ဖွင့်ထားသည် (Active)' : 'ပိတ်ထားသည်'}
             </span>
           </button>
         </div>
 
         {/* Target Deck (ရည်ရွယ်ရာ Deck) Selector Row */}
-        <div className="p-3.5 rounded-xl bg-stone-900/60 border border-stone-800/80 space-y-2.5">
+        <div className="p-3.5 rounded-xl bg-white border border-stone-200 space-y-2.5 shadow-xs">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
             <div className="flex items-center space-x-2 flex-wrap gap-y-1">
-              <Layers className="w-4 h-4 text-rose-400 shrink-0" />
-              <span className="text-xs font-semibold text-stone-200">
+              <Layers className="w-4 h-4 text-indigo-600 shrink-0" />
+              <span className="text-xs font-semibold text-stone-900">
                 Target Deck (ရည်ရွယ်ရာ Deck):
               </span>
-              <span className="px-2.5 py-0.5 rounded-full bg-stone-950 border border-emerald-500/50 text-emerald-300 font-mono text-[11px] font-bold shadow-inner">
+              <span className="px-2.5 py-0.5 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 font-mono text-[11px] font-bold shadow-2xs">
                 {syncStatus.targetDeck || DEFAULT_ANKI_TARGET_DECK}
               </span>
             </div>
@@ -340,7 +340,7 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
                   setCustomDeckInput(syncStatus.targetDeck || DEFAULT_ANKI_TARGET_DECK);
                   setIsCustomMode(true);
                 }}
-                className="text-[11px] text-stone-400 hover:text-rose-300 transition flex items-center space-x-1 cursor-pointer self-start sm:self-auto font-myanmar"
+                className="text-[11px] text-stone-600 hover:text-indigo-600 transition flex items-center space-x-1 cursor-pointer self-start sm:self-auto font-myanmar"
               >
                 <span>+ အမည်သစ် ရိုက်ထည့်မည်</span>
               </button>
@@ -357,13 +357,13 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
                     value={deckSearchQuery}
                     onChange={(e) => setDeckSearchQuery(e.target.value)}
                     placeholder="Deck အမည် ရှာဖွေရန် (Search decks)..."
-                    className="w-full bg-stone-950 border border-stone-800 rounded-lg px-2.5 py-1.5 text-xs text-stone-200 placeholder-stone-500 focus:outline-none focus:border-rose-500/50 font-mono"
+                    className="w-full bg-white border border-stone-200 rounded-lg px-2.5 py-1.5 text-xs text-stone-900 placeholder-stone-400 focus:outline-none focus:border-indigo-500 font-mono"
                   />
                   {deckSearchQuery && (
                     <button
                       type="button"
                       onClick={() => setDeckSearchQuery('')}
-                      className="absolute right-2 top-1.5 text-[10px] text-stone-400 hover:text-stone-200 cursor-pointer"
+                      className="absolute right-2 top-1.5 text-[10px] text-stone-400 hover:text-stone-700 cursor-pointer"
                     >
                       Clear
                     </button>
@@ -376,7 +376,7 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
                 value={syncStatus.targetDeck || DEFAULT_ANKI_TARGET_DECK}
                 onChange={handleSelectDeck}
                 aria-label="Target Anki Deck"
-                className="w-full bg-stone-950 border border-stone-800 hover:border-stone-700 text-stone-200 text-xs rounded-xl px-3 py-2 focus:outline-none focus:ring-1 focus:ring-rose-500/50 cursor-pointer font-mono"
+                className="w-full bg-white border border-stone-200 hover:border-stone-300 text-stone-900 text-xs rounded-xl px-3 py-2 focus:outline-none focus:ring-1 focus:ring-indigo-500 cursor-pointer font-mono"
               >
                 {/* Ensure current target deck is visible in options if not in filtered list */}
                 {syncStatus.targetDeck && !filteredDecks.includes(syncStatus.targetDeck) && (
@@ -421,21 +421,21 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
                 }}
                 placeholder="e.g. Japanese::N5 Bootcamp"
                 autoFocus
-                className="flex-1 bg-stone-950 border border-rose-500/50 rounded-xl px-3 py-2 text-xs text-stone-100 placeholder-stone-500 focus:outline-none focus:ring-1 focus:ring-rose-500 font-mono shadow-inner"
+                className="flex-1 bg-white border border-indigo-300 rounded-xl px-3 py-2 text-xs text-stone-900 placeholder-stone-400 focus:outline-none focus:ring-1 focus:ring-indigo-500 font-mono shadow-2xs"
               />
               <div className="flex items-center space-x-1.5 shrink-0">
                 <button
                   type="button"
                   onClick={handleSaveCustomDeck}
                   disabled={!customDeckInput.trim()}
-                  className="px-3 py-2 rounded-xl bg-rose-600 hover:bg-rose-500 text-white text-xs font-semibold transition active:scale-95 disabled:opacity-50 cursor-pointer shadow-sm font-myanmar"
+                  className="px-3 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold transition active:scale-95 disabled:opacity-50 cursor-pointer shadow-xs font-myanmar"
                 >
                   အတည်ပြုမည် (Save)
                 </button>
                 <button
                   type="button"
                   onClick={handleCancelCustomMode}
-                  className="px-3 py-2 rounded-xl bg-stone-800 hover:bg-stone-750 text-stone-300 text-xs transition cursor-pointer font-myanmar"
+                  className="px-3 py-2 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 text-stone-700 text-xs transition cursor-pointer font-myanmar shadow-xs"
                 >
                   မလုပ်တော့ပါ
                 </button>
@@ -444,10 +444,10 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
           )}
 
           {/* Active target deck confirmation text */}
-          <div className="text-[11px] text-stone-400 font-myanmar flex items-center space-x-1.5">
-            <span className="text-emerald-400 font-bold">✓</span>
+          <div className="text-[11px] text-stone-600 font-myanmar flex items-center space-x-1.5">
+            <span className="text-emerald-600 font-bold">✓</span>
             <span>
-              Auto-Sync နှင့် Manual Sync ပြုလုပ်ချိန်တွင် ကတ်များကို <strong className="text-stone-200 font-mono">{syncStatus.targetDeck || DEFAULT_ANKI_TARGET_DECK}</strong> ထဲသို့ တိုက်ရိုက်ထည့်သွင်းပေးပါမည်။
+              Auto-Sync နှင့် Manual Sync ပြုလုပ်ချိန်တွင် ကတ်များကို <strong className="text-stone-900 font-mono">{syncStatus.targetDeck || DEFAULT_ANKI_TARGET_DECK}</strong> ထဲသို့ တိုက်ရိုက်ထည့်သွင်းပေးပါမည်။
             </span>
           </div>
         </div>
@@ -459,9 +459,9 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
               initial={{ opacity: 0, y: -4 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -4 }}
-              className="p-2.5 rounded-xl bg-emerald-950/60 border border-emerald-500/40 text-emerald-200 text-xs font-myanmar flex items-center space-x-2"
+              className="p-2.5 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-myanmar flex items-center space-x-2 shadow-xs"
             >
-              <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+              <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
               <span>{recentSyncMessage}</span>
             </motion.div>
           )}
@@ -474,9 +474,9 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
               initial={{ opacity: 0, y: -4 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -4 }}
-              className="p-2.5 rounded-xl bg-rose-950/60 border border-rose-500/40 text-rose-200 text-xs font-mono flex items-center space-x-2"
+              className="p-2.5 rounded-xl bg-rose-50 border border-rose-200 text-rose-800 text-xs font-mono flex items-center space-x-2 shadow-xs"
             >
-              <AlertCircle className="w-4 h-4 text-rose-400 shrink-0" />
+              <AlertCircle className="w-4 h-4 text-rose-600 shrink-0" />
               <span className="truncate">{syncStatus.error}</span>
             </motion.div>
           )}
@@ -487,25 +487,25 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
           <motion.div
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
-            className="p-3 rounded-xl bg-stone-950/70 border border-emerald-900/40 space-y-2 text-xs"
+            className="p-3 rounded-xl bg-emerald-50/40 border border-emerald-200 space-y-2 text-xs"
           >
             <div className="flex items-center justify-between">
-              <div className="flex items-center space-x-2 text-emerald-200">
-                <Layers className="w-4 h-4 text-emerald-400" />
+              <div className="flex items-center space-x-2 text-emerald-800">
+                <Layers className="w-4 h-4 text-emerald-600" />
                 <span className="font-myanmar font-medium">
                   ရရှိနိုင်သော Deck အရေအတွက် (Available Decks):
                 </span>
-                <span className="font-mono font-bold text-sm text-emerald-300">
+                <span className="font-mono font-bold text-sm text-emerald-700">
                   {syncStatus.availableDecks.length}
                 </span>
-                <span className="text-stone-400 font-myanmar">ခု</span>
+                <span className="text-stone-600 font-myanmar">ခု</span>
               </div>
 
               {syncStatus.availableDecks.length > 0 && (
                 <button
                   type="button"
                   onClick={() => setShowDeckList((prev) => !prev)}
-                  className="text-[11px] text-stone-400 hover:text-emerald-300 flex items-center space-x-1 cursor-pointer transition"
+                  className="text-[11px] text-emerald-700 hover:text-emerald-900 flex items-center space-x-1 cursor-pointer transition font-medium"
                 >
                   <span>{showDeckList ? 'ဝှက်မည်' : 'အသေးစိတ် ကြည့်မည်'}</span>
                   {showDeckList ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
@@ -520,12 +520,12 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
                   initial={{ opacity: 0, y: -4 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -4 }}
-                  className="pt-2 border-t border-stone-850 flex flex-wrap gap-1.5 max-h-36 overflow-y-auto pr-1"
+                  className="pt-2 border-t border-stone-200 flex flex-wrap gap-1.5 max-h-36 overflow-y-auto pr-1"
                 >
                   {syncStatus.availableDecks.map((deck) => (
                     <span
                       key={deck}
-                      className="px-2 py-0.5 rounded-lg bg-stone-900 border border-emerald-800/40 text-stone-300 text-[11px] font-mono"
+                      className="px-2 py-0.5 rounded-lg bg-white border border-stone-200 text-stone-700 text-[11px] font-mono shadow-2xs"
                     >
                       {deck}
                     </span>
@@ -541,19 +541,19 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
           <motion.div
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
-            className="p-3.5 rounded-xl bg-stone-950/70 border border-rose-900/40 space-y-2 text-xs"
+            className="p-3.5 rounded-xl bg-rose-50/40 border border-rose-200 space-y-2 text-xs"
           >
-            <div className="flex items-center space-x-2 text-rose-300 font-medium">
-              <Laptop className="w-4 h-4 text-rose-400 shrink-0" />
+            <div className="flex items-center space-x-2 text-rose-800 font-medium">
+              <Laptop className="w-4 h-4 text-rose-600 shrink-0" />
               <span className="font-myanmar">ချိတ်ဆက်နိုင်ရန် အောက်ပါအချက်များကို စစ်ဆေးပါ:</span>
             </div>
-            <ul className="list-disc list-inside space-y-1 text-stone-300 font-myanmar pl-1 text-[11px] leading-relaxed">
+            <ul className="list-disc list-inside space-y-1 text-stone-700 font-myanmar pl-1 text-[11px] leading-relaxed">
               <li>သင့် Laptop/PC တွင် <strong>Anki Desktop</strong> ကို ဖွင့်ထားပါ။</li>
               <li>
-                Anki Desktop တွင် <strong>AnkiConnect Add-on</strong> (Code: <code className="font-mono text-rose-300 bg-stone-900 px-1 py-0.5 rounded">2055492159</code>) ထည့်သွင်းထားရပါမည်။
+                Anki Desktop တွင် <strong>AnkiConnect Add-on</strong> (Code: <code className="font-mono text-rose-700 bg-white border border-rose-200 px-1 py-0.5 rounded">2055492159</code>) ထည့်သွင်းထားရပါမည်။
               </li>
               <li>
-                Local Port <code className="font-mono text-stone-200">8765</code> (http://localhost:8765) ပွင့်နေပြီး Web CORS ခွင့်ပြုထားကြောင်း စစ်ဆေးပါ။
+                Local Port <code className="font-mono text-stone-800 bg-white border border-stone-200 px-1 py-0.5 rounded">8765</code> (http://localhost:8765) ပွင့်နေပြီး Web CORS ခွင့်ပြုထားကြောင်း စစ်ဆေးပါ။
               </li>
             </ul>
           </motion.div>

@@ -188,7 +188,7 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
           {onExit && (
             <button
               onClick={onExit}
-              className="flex items-center space-x-1 py-1 px-2.5 rounded-lg bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white hover:bg-zinc-800 transition cursor-pointer"
+              className="flex items-center space-x-1 py-1 px-2.5 rounded-lg bg-white border border-stone-200 text-stone-700 hover:text-stone-900 hover:bg-stone-50 transition cursor-pointer"
             >
               <ArrowLeft className="w-3.5 h-3.5" />
               <span>Back</span>
@@ -436,7 +436,7 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
 
                 <button
                   onClick={() => handleSpeak(currentPuzzle.fullSentenceJa)}
-                  className="p-2.5 rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-300 hover:text-white hover:bg-zinc-800 transition cursor-pointer"
+                  className="p-2.5 rounded-xl bg-white border border-stone-200 text-stone-700 hover:text-stone-900 hover:bg-stone-50 transition cursor-pointer"
                   title="Speak complete sentence"
                 >
                   <Volume2 className="w-4 h-4 text-indigo-400" />

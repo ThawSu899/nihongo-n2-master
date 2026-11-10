@@ -425,20 +425,20 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
     <div className="space-y-6 max-w-5xl mx-auto pb-24">
       {/* Toast Notification */}
       {statusNotification && (
-        <div className="bg-emerald-950/90 border border-emerald-700/60 text-emerald-200 px-4 py-2.5 rounded-xl text-xs flex items-center justify-between shadow-lg">
+        <div className="bg-emerald-50 border border-emerald-200 text-emerald-800 px-4 py-2.5 rounded-xl text-xs flex items-center justify-between shadow-xs">
           <div className="flex items-center space-x-2">
-            <Check className="w-4 h-4 text-emerald-400" />
+            <Check className="w-4 h-4 text-emerald-600" />
             <span>{statusNotification}</span>
           </div>
-          <button onClick={() => setStatusNotification(null)} className="text-stone-400 hover:text-white">✕</button>
+          <button onClick={() => setStatusNotification(null)} className="text-emerald-600 hover:text-emerald-900 transition cursor-pointer">✕</button>
         </div>
       )}
 
       {/* Header & Tabs */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-stone-850 pb-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-stone-200 pb-4">
         <div>
           <div className="flex items-center space-x-2">
-            <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-rose-950/70 text-rose-300 border border-rose-800/60 font-semibold uppercase">
+            <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold uppercase">
               {profile.level} Assessment Center
             </span>
           </div>
@@ -874,22 +874,22 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
           {/* Bunpro-Inspired 4-Stage Leech Ghost Quarantine */}
           <GhostQuarantineHub />
 
-          <div className="bg-gradient-to-r from-stone-900 via-stone-900 to-amber-950/30 border border-amber-900/40 rounded-2xl p-6 shadow-xl space-y-4">
+          <div className="bg-white border border-stone-200 rounded-2xl p-6 shadow-sm space-y-4">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <div className="space-y-1">
                 <div className="flex items-center space-x-2">
-                  <span className="px-2 py-0.5 rounded bg-amber-950 text-amber-300 border border-amber-800/60 text-[10px] font-mono font-bold uppercase">
+                  <span className="px-2 py-0.5 rounded bg-amber-50 text-amber-700 border border-amber-200 text-[10px] font-mono font-bold uppercase">
                     Quarantine Sandbox
                   </span>
-                  <span className="text-xs text-stone-400 font-mono">
+                  <span className="text-xs text-stone-600 font-mono">
                     {quarantineLeeches.length} items flagged with persistent failure
                   </span>
                 </div>
-                <h2 className="text-xl font-bold text-stone-100 flex items-center space-x-2">
-                  <Bug className="w-5 h-5 text-amber-400" />
+                <h2 className="text-xl font-bold text-stone-900 flex items-center space-x-2">
+                  <Bug className="w-5 h-5 text-amber-600" />
                   <span>Stubborn Item Quarantine &amp; Isolated Review</span>
                 </h2>
-                <p className="text-xs text-stone-300 max-w-2xl leading-relaxed">
+                <p className="text-xs text-stone-600 max-w-2xl leading-relaxed">
                   When a flashcard accumulates high lapse counts (≥3-5 failures), it enters Leech Quarantine. This prevents interference loops from dragging down your regular daily SRS retention. Practice these items in targeted quarantine drills to restore fluency.
                 </p>
               </div>
@@ -898,7 +898,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                 <button
                   onClick={() => startWeakPointDrill('mixed_leeches')}
                   disabled={quarantineLeeches.length === 0}
-                  className="px-5 py-3 rounded-xl bg-gradient-to-r from-amber-600 to-rose-600 hover:from-amber-500 hover:to-rose-500 text-white font-bold text-xs shadow-lg transition active:scale-95 disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center space-x-2 cursor-pointer"
+                  className="px-5 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs shadow-sm transition active:scale-95 disabled:opacity-40 disabled:cursor-not-allowed flex items-center justify-center space-x-2 cursor-pointer"
                 >
                   <Play className="w-4 h-4 fill-current" />
                   <span>Drill All Quarantined Items</span>
@@ -1149,21 +1149,21 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
           {/* Quick Weak-Point Action Banner (Rose/Amber) */}
           {weaknessReport && (
-            <div className="bg-gradient-to-r from-stone-900 via-rose-950/20 to-amber-950/20 border border-rose-900/40 rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-md">
+            <div className="bg-white border border-stone-200 rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-sm">
               <div className="flex items-center space-x-3">
-                <div className="w-9 h-9 rounded-xl bg-rose-950/80 border border-rose-800 flex items-center justify-center shrink-0 text-rose-400">
-                  <Zap className="w-5 h-5 text-amber-400" />
+                <div className="w-9 h-9 rounded-xl bg-indigo-50 border border-indigo-200 flex items-center justify-center shrink-0 text-indigo-600">
+                  <Zap className="w-5 h-5 text-indigo-600" />
                 </div>
                 <div>
                   <div className="flex items-center space-x-2">
-                    <span className="text-xs font-bold text-stone-100">
+                    <span className="text-xs font-bold text-stone-900">
                       Weak-Point Remediation Available: {weaknessReport.weakestSkillLabel}
                     </span>
-                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-rose-950 text-rose-300 border border-rose-800/40">
+                    <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-rose-50 text-rose-700 border border-rose-200">
                       {weaknessReport.weakestSkillScore}% vs {weaknessReport.targetThresholdPct}%
                     </span>
                   </div>
-                  <p className="text-[11px] text-stone-400 mt-0.5">
+                  <p className="text-[11px] text-stone-600 mt-0.5">
                     Launch a 12-question custom practice session targeted at your lowest radar competency.
                   </p>
                 </div>
@@ -1171,7 +1171,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
               <button
                 onClick={() => startWeakPointDrill(weaknessReport.weakestSkill)}
-                className="px-4 py-2 rounded-xl bg-gradient-to-r from-rose-600 to-amber-600 hover:from-rose-500 hover:to-amber-500 text-white font-semibold text-xs transition active:scale-95 shadow shrink-0 flex items-center justify-center space-x-1.5 cursor-pointer"
+                className="px-4 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-xs transition active:scale-95 shadow-xs shrink-0 flex items-center justify-center space-x-1.5 cursor-pointer"
               >
                 <Zap className="w-3.5 h-3.5" />
                 <span>Launch Drill</span>
@@ -1233,7 +1233,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
             <button
               onClick={() => setActiveTab('choukai')}
-              className="px-4 py-2.5 rounded-xl bg-gradient-to-r from-indigo-600 to-rose-600 hover:from-indigo-500 hover:to-rose-500 text-white font-semibold text-xs transition active:scale-95 shadow-md shadow-indigo-950/50 flex items-center justify-center space-x-1.5 shrink-0 cursor-pointer self-start md:self-center"
+              className="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-xs transition active:scale-95 shadow-xs flex items-center justify-center space-x-1.5 shrink-0 cursor-pointer self-start md:self-center"
             >
               <Headphones className="w-3.5 h-3.5" />
               <span>Launch Choukai Lab</span>
@@ -1264,7 +1264,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
             <button
               onClick={() => setActiveTab('scramble')}
-              className="px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-bold text-xs transition active:scale-95 shadow-xs flex items-center justify-center space-x-1.5 shrink-0 cursor-pointer self-start md:self-center"
+              className="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs transition active:scale-95 shadow-xs flex items-center justify-center space-x-1.5 shrink-0 cursor-pointer self-start md:self-center"
             >
               <Star className="w-3.5 h-3.5 fill-white" />
               <span>Launch Star Scramble</span>
@@ -1640,7 +1640,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
               <button
                 onClick={() => setActiveTab('scramble')}
-                className="w-full py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-white text-xs font-semibold transition active:scale-95 cursor-pointer flex items-center justify-center space-x-1.5 shadow-xs"
+                className="w-full py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold transition active:scale-95 cursor-pointer flex items-center justify-center space-x-1.5 shadow-xs"
               >
                 <Star className="w-3.5 h-3.5 fill-white" />
                 <span>Open Scramble</span>

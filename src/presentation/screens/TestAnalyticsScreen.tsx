@@ -272,14 +272,14 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
     <div className="space-y-6 max-w-5xl mx-auto pb-24">
       {/* Toast Alert Message */}
       {actionMessage && (
-        <div className="bg-emerald-950/90 border border-emerald-700/60 text-emerald-200 px-4 py-2.5 rounded-xl text-xs flex items-center justify-between shadow-lg animate-in fade-in duration-200">
+        <div className="bg-emerald-50 border border-emerald-200 text-emerald-800 px-4 py-2.5 rounded-xl text-xs flex items-center justify-between shadow-xs animate-in fade-in duration-200">
           <div className="flex items-center space-x-2">
-            <CheckCircle className="w-4 h-4 text-emerald-400 shrink-0" />
+            <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0" />
             <span>{actionMessage}</span>
           </div>
           <button
             onClick={() => setActionMessage(null)}
-            className="text-stone-400 hover:text-stone-200 text-xs ml-3"
+            className="text-emerald-600 hover:text-emerald-900 text-xs ml-3 cursor-pointer"
           >
             ✕
           </button>

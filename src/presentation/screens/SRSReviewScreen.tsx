@@ -40,11 +40,11 @@ interface SRSReviewScreenProps {
 }
 
 const ITEM_TYPE_STYLES: Record<string, { label: string; badge: string }> = {
-  vocab: { label: 'ဝေါဟာရ (Vocab)', badge: 'bg-rose-950/80 text-rose-300 border-rose-800/80' },
-  kanji: { label: 'ခန်ဂျီ (Kanji)', badge: 'bg-purple-950/80 text-purple-300 border-purple-800/80' },
-  grammar: { label: 'သဒ္ဒါ (Grammar)', badge: 'bg-sky-950/80 text-sky-300 border-sky-800/80' },
-  sentence: { label: 'ဝါကျ (Sentence)', badge: 'bg-emerald-950/80 text-emerald-300 border-emerald-800/80' },
-  kana: { label: 'ခါနာ (Kana)', badge: 'bg-amber-950/80 text-amber-300 border-amber-800/80' },
+  vocab: { label: 'ဝေါဟာရ (Vocab)', badge: 'bg-rose-50 text-rose-700 border-rose-200' },
+  kanji: { label: 'ခန်ဂျီ (Kanji)', badge: 'bg-purple-50 text-purple-700 border-purple-200' },
+  grammar: { label: 'သဒ္ဒါ (Grammar)', badge: 'bg-sky-50 text-sky-700 border-sky-200' },
+  sentence: { label: 'ဝါကျ (Sentence)', badge: 'bg-emerald-50 text-emerald-700 border-emerald-200' },
+  kana: { label: 'ခါနာ (Kana)', badge: 'bg-amber-50 text-amber-700 border-amber-200' },
 };
 
 export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
@@ -248,16 +248,16 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
 
     return (
       <div className="max-w-xl mx-auto space-y-5 pb-24 px-3 sm:px-0">
-        <div className="flex items-center justify-between text-xs text-stone-400 font-myanmar">
+        <div className="flex items-center justify-between text-xs text-stone-600 font-myanmar">
           <button
             onClick={() => setActiveGhostDrill(null)}
-            className="flex items-center space-x-1.5 hover:text-stone-200 transition py-1 px-2 -ml-2 rounded-lg hover:bg-stone-800/50 cursor-pointer"
+            className="flex items-center space-x-1.5 text-stone-600 hover:text-stone-900 transition py-1 px-2 -ml-2 rounded-lg hover:bg-stone-200/60 cursor-pointer"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
             <span className="font-medium">လေ့ကျင့်ခန်းမှ ထွက်မည်</span>
           </button>
           <div className="flex items-center space-x-2">
-            <span className="px-3 py-1 rounded-full bg-rose-950/90 text-rose-300 border border-rose-500/50 text-[10px] font-mono font-bold uppercase shadow-sm">
+            <span className="px-3 py-1 rounded-full bg-rose-50 text-rose-700 border border-rose-200 text-[10px] font-mono font-bold uppercase shadow-2xs">
               Ghost Quarantine &bull; Stage {activeGhostDrill.stage} (+{GHOST_STAGE_INTERVALS_HOURS[activeGhostDrill.stage]}h)
             </span>
           </div>
@@ -289,12 +289,12 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
         <div className="flex items-center justify-between">
           <button
             onClick={() => setViewMode('review')}
-            className="flex items-center space-x-1.5 text-xs text-stone-400 hover:text-stone-200 transition py-1 px-2 -ml-2 rounded-lg hover:bg-stone-800/50 cursor-pointer"
+            className="flex items-center space-x-1.5 text-xs text-stone-600 hover:text-stone-900 transition py-1 px-2 -ml-2 rounded-lg hover:bg-stone-200/60 cursor-pointer"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
             <span className="font-medium">ပုံမှန် SRS စာရင်းသို့ ပြန်သွားမည်</span>
           </button>
-          <span className="px-2.5 py-1 rounded-full bg-rose-950/90 border border-rose-500/40 text-[10px] font-mono text-rose-300 font-bold uppercase">
+          <span className="px-2.5 py-1 rounded-full bg-rose-50 border border-rose-200 text-[10px] font-mono text-rose-700 font-bold uppercase">
             အားနည်းချက် စီမံခန့်ခွဲရာ ဗဟို
           </span>
         </div>
@@ -411,10 +411,10 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
     <div className="max-w-xl mx-auto space-y-5 pb-24 px-3 sm:px-0">
       {/* Top Header & Progress */}
       <div className="space-y-3 font-myanmar">
-        <div className="flex items-center justify-between text-xs text-stone-400 flex-wrap gap-2">
+        <div className="flex items-center justify-between text-xs text-stone-600 flex-wrap gap-2">
           <button
             onClick={onBack}
-            className="flex items-center space-x-1.5 hover:text-stone-200 transition py-1 px-2 -ml-2 rounded-lg hover:bg-stone-800/50 cursor-pointer"
+            className="flex items-center space-x-1.5 text-stone-600 hover:text-stone-900 transition py-1 px-2 -ml-2 rounded-lg hover:bg-stone-200/60 cursor-pointer"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
             <span className="font-medium">ထွက်မည်</span>

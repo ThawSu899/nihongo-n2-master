@@ -1041,7 +1041,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                     </div>
 
                     <div>
-                      <h3 className="text-sm font-bold text-zinc-100 group-hover:text-white transition">
+                      <h3 className="text-sm font-bold text-zinc-100 group-hover:text-stone-100 transition">
                         {cat.titleEn}
                       </h3>
                       <p className="text-xs font-semibold text-amber-300 font-myanmar mt-0.5">
@@ -1193,7 +1193,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
           <div className="flex items-center space-x-3">
             <button
               onClick={() => setViewState('setup')}
-              className="p-1.5 rounded-lg bg-zinc-950 hover:bg-zinc-800 text-zinc-400 hover:text-white transition cursor-pointer"
+              className="p-1.5 rounded-lg bg-zinc-950 hover:bg-zinc-800 text-zinc-400 hover:text-stone-200 transition cursor-pointer"
               title="Cancel drill"
             >
               <ArrowLeft className="w-4 h-4" />
@@ -1223,7 +1223,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                 onClick={() =>
                   playSentenceAudio(currentQ.prefix + currentQ.target + currentQ.suffix)
                 }
-                className="p-2 rounded-xl bg-zinc-950 hover:bg-zinc-800 border border-zinc-800 text-indigo-300 hover:text-white transition cursor-pointer"
+                className="p-2 rounded-xl bg-zinc-950 hover:bg-zinc-800 border border-zinc-800 text-indigo-300 hover:text-stone-200 transition cursor-pointer"
                 title="Play native Japanese pronunciation"
               >
                 <Volume2 className="w-4 h-4" />
@@ -1646,7 +1646,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                         ans.question.prefix + ans.question.target + ans.question.suffix
                       )
                     }
-                    className="p-1.5 rounded-lg bg-zinc-950 hover:bg-zinc-800 border border-zinc-800 text-zinc-400 hover:text-white transition cursor-pointer"
+                    className="p-1.5 rounded-lg bg-zinc-950 hover:bg-zinc-800 border border-zinc-800 text-zinc-400 hover:text-stone-200 transition cursor-pointer"
                     title="Pronounce Japanese sentence"
                   >
                     <Volume2 className="w-3.5 h-3.5" />
