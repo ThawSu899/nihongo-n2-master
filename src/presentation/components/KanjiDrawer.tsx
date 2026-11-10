@@ -186,7 +186,7 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
           exit={{ opacity: 0 }}
           transition={{ duration: 0.2 }}
           onClick={onClose}
-          className="fixed inset-0 bg-black/65 backdrop-blur-sm cursor-pointer"
+          className="fixed inset-0 bg-stone-900/40 backdrop-blur-sm cursor-pointer"
         />
 
         {/* Slide-Over Drawer Container */}
@@ -195,22 +195,22 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
           animate={{ x: 0 }}
           exit={{ x: '100%' }}
           transition={{ type: 'spring', damping: 28, stiffness: 320 }}
-          className="relative z-10 w-full max-w-md bg-zinc-950/95 backdrop-blur-2xl border-l border-zinc-800/90 shadow-[-16px_0_40px_rgba(0,0,0,0.85)] flex flex-col h-full overflow-hidden"
+          className="relative z-10 w-full max-w-md bg-white border-l border-stone-200 shadow-2xl flex flex-col h-full overflow-hidden"
         >
           {/* Drawer Top Bar */}
-          <div className="p-4 sm:p-5 border-b border-zinc-800/80 flex items-center justify-between">
+          <div className="p-4 sm:p-5 border-b border-stone-200 flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <span className="text-xs font-mono font-bold uppercase tracking-wider text-rose-400">
+              <span className="text-xs font-mono font-bold uppercase tracking-wider text-indigo-700">
                 KANJI DRAWER · 漢字詳細
               </span>
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-indigo-950/70 text-indigo-300 border border-indigo-500/40">
+              <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">
                 JLPT {kanji.level}
               </span>
             </div>
 
             <button
               onClick={onClose}
-              className="p-1.5 rounded-lg text-zinc-400 hover:text-zinc-100 hover:bg-zinc-800/80 transition cursor-pointer"
+              className="p-1.5 rounded-lg text-stone-400 hover:text-stone-700 hover:bg-stone-100 transition cursor-pointer"
               title="Close (Esc)"
             >
               <X className="w-5 h-5" />
@@ -227,21 +227,21 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
                   animate={{ opacity: 1, y: 0, scale: 1 }}
                   exit={{ opacity: 0, y: -8, scale: 0.95 }}
                   transition={{ duration: 0.25, ease: 'easeOut' }}
-                  className="bg-emerald-950/90 border border-emerald-500/50 text-emerald-300 p-3.5 rounded-2xl shadow-[0_0_24px_-4px_rgba(16,185,129,0.35)] backdrop-blur-xl flex items-start space-x-3"
+                  className="bg-emerald-50 border border-emerald-200 text-emerald-800 p-3.5 rounded-2xl shadow-xs flex items-start space-x-3"
                 >
-                  <div className="w-7 h-7 rounded-lg bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center shrink-0 mt-0.5 shadow-[0_0_12px_rgba(16,185,129,0.4)]">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                  <div className="w-7 h-7 rounded-lg bg-emerald-100 border border-emerald-200 flex items-center justify-center shrink-0 mt-0.5 shadow-xs">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-700" />
                   </div>
                   <div className="flex-1 space-y-0.5">
-                    <div className="text-xs font-bold text-emerald-200">{toastMessage.title}</div>
-                    <div className="text-[11px] font-mono text-emerald-400/90 flex items-center gap-1.5">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                    <div className="text-xs font-bold text-emerald-900">{toastMessage.title}</div>
+                    <div className="text-[11px] font-mono text-emerald-700 flex items-center gap-1.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse" />
                       <span>{toastMessage.deck}</span>
                     </div>
                   </div>
                   <button
                     onClick={() => setToastMessage(null)}
-                    className="text-emerald-400/70 hover:text-emerald-200 p-1 rounded-md transition"
+                    className="text-emerald-600 hover:text-emerald-800 p-1 rounded-md transition"
                     title="Dismiss"
                   >
                     <X className="w-3.5 h-3.5" />
@@ -251,29 +251,29 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
             </AnimatePresence>
 
             {/* Character Showcase Card */}
-            <div className="bg-zinc-900/70 border border-zinc-800/80 rounded-2xl p-5 shadow-xl relative overflow-hidden flex items-center justify-between">
+            <div className="bg-stone-50 border border-stone-200 rounded-2xl p-5 shadow-xs relative overflow-hidden flex items-center justify-between">
               <div className="flex items-center space-x-5">
                 {/* Big Kanji Display Glyph */}
-                <div className="w-20 h-20 rounded-2xl bg-zinc-950 border border-zinc-800 flex items-center justify-center shadow-inner relative group">
-                  <span className="text-5xl font-bold font-japanese text-zinc-100 drop-shadow-[0_0_12px_rgba(244,63,94,0.3)]">
+                <div className="w-20 h-20 rounded-2xl bg-white border border-stone-200 flex items-center justify-center shadow-inner relative group">
+                  <span className="text-5xl font-bold font-japanese text-stone-900">
                     {kanji.char}
                   </span>
                 </div>
 
                 <div className="space-y-1">
-                  <div className="flex items-center space-x-2 text-xs text-zinc-400 font-mono">
+                  <div className="flex items-center space-x-2 text-xs text-stone-500 font-mono">
                     <span>
-                      総画数: <strong className="text-zinc-200">{kanji.strokes} 画</strong>
+                      総画数: <strong className="text-stone-900">{kanji.strokes} 画</strong>
                     </span>
                     <span>·</span>
                     <span>
-                      部首: <strong className="text-rose-400">{kanji.radical}</strong>
+                      部首: <strong className="text-indigo-700">{kanji.radical}</strong>
                     </span>
                   </div>
-                  <div className="text-sm font-semibold text-zinc-200 font-japanese">
+                  <div className="text-sm font-semibold text-stone-800 font-japanese">
                     {kanji.radicalName}
                   </div>
-                  <div className="text-[11px] text-zinc-400">{kanji.radicalMeaning}</div>
+                  <div className="text-[11px] text-stone-600">{kanji.radicalMeaning}</div>
                 </div>
               </div>
 
@@ -285,10 +285,10 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
                     'kanji_main'
                   )
                 }
-                className={`w-11 h-11 rounded-xl border flex items-center justify-center transition active:scale-95 cursor-pointer shadow-md ${
+                className={`w-11 h-11 rounded-xl border flex items-center justify-center transition active:scale-95 cursor-pointer shadow-xs ${
                   activeAudioTarget === 'kanji_main'
-                    ? 'bg-indigo-600 border-indigo-400 text-white shadow-[0_0_16px_rgba(99,102,241,0.5)]'
-                    : 'bg-zinc-800/80 border-zinc-700/80 text-zinc-300 hover:text-white hover:bg-zinc-700'
+                    ? 'bg-indigo-600 border-indigo-600 text-white shadow-xs'
+                    : 'bg-white border-stone-300 text-stone-700 hover:text-stone-900 hover:bg-stone-100'
                 }`}
                 title="Pronounce Japanese Reading"
               >
@@ -300,12 +300,12 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
             {/* RADICAL DECOMPOSITION SECTION (With Interactive State)        */}
             {/* ------------------------------------------------------------- */}
             <div className="space-y-2.5">
-              <div className="flex items-center justify-between text-xs font-semibold text-zinc-300 font-mono">
+              <div className="flex items-center justify-between text-xs font-semibold text-stone-700 font-mono">
                 <span className="flex items-center gap-1.5">
-                  <Layers className="w-4 h-4 text-indigo-400" />
+                  <Layers className="w-4 h-4 text-indigo-600" />
                   <span>RADICAL BREAKDOWN (部首・構成要素)</span>
                 </span>
-                <span className="text-[10px] text-zinc-500 font-normal">
+                <span className="text-[10px] text-stone-500 font-normal">
                   {kanji.components.length} components · click to inspect
                 </span>
               </div>
@@ -322,22 +322,22 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
                       }
                       className={`p-3 rounded-xl border text-left transition cursor-pointer ${
                         isSelected
-                          ? 'bg-indigo-950/70 border-indigo-500/80 shadow-[0_0_16px_rgba(99,102,241,0.3)] ring-1 ring-indigo-400'
-                          : 'bg-zinc-900/60 border-zinc-800/80 hover:border-zinc-700'
+                          ? 'bg-indigo-50 border-indigo-400 ring-1 ring-indigo-400 text-stone-900 shadow-2xs'
+                          : 'bg-stone-50 border-stone-200 hover:border-stone-300 hover:bg-stone-100/60'
                       }`}
                     >
                       <div className="flex items-center justify-between">
-                        <span className="text-xl font-bold font-japanese text-indigo-300">
+                        <span className="text-xl font-bold font-japanese text-indigo-700">
                           {comp.char}
                         </span>
-                        <span className="text-[10px] font-mono text-zinc-500">
+                        <span className="text-[10px] font-mono text-stone-500">
                           Part {idx + 1}
                         </span>
                       </div>
-                      <div className="text-xs font-medium text-zinc-300 font-japanese truncate">
+                      <div className="text-xs font-medium text-stone-800 font-japanese truncate">
                         {comp.name}
                       </div>
-                      <div className="text-[11px] text-zinc-400 truncate">
+                      <div className="text-[11px] text-stone-600 truncate">
                         {comp.meaningEn}
                       </div>
                     </button>
@@ -352,24 +352,24 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
                     initial={{ opacity: 0, height: 0 }}
                     animate={{ opacity: 1, height: 'auto' }}
                     exit={{ opacity: 0, height: 0 }}
-                    className="p-3.5 rounded-xl bg-indigo-950/40 border border-indigo-500/30 text-xs space-y-1.5 overflow-hidden"
+                    className="p-3.5 rounded-xl bg-indigo-50/70 border border-indigo-200 text-xs space-y-1.5 overflow-hidden"
                   >
                     <div className="flex items-center justify-between">
-                      <span className="font-mono text-indigo-300 font-semibold flex items-center gap-1.5">
-                        <Info className="w-3.5 h-3.5 text-indigo-400" />
+                      <span className="font-mono text-indigo-800 font-semibold flex items-center gap-1.5">
+                        <Info className="w-3.5 h-3.5 text-indigo-600" />
                         <span>構成要素: {selectedComponent.char} ({selectedComponent.name})</span>
                       </span>
                       <button
                         onClick={() => setSelectedComponent(null)}
-                        className="text-zinc-500 hover:text-zinc-300 p-0.5"
+                        className="text-stone-400 hover:text-stone-600 p-0.5"
                       >
                         <X className="w-3.5 h-3.5" />
                       </button>
                     </div>
-                    <p className="text-zinc-300 font-medium leading-relaxed">
+                    <p className="text-stone-800 font-medium leading-relaxed">
                       意味・由来: {selectedComponent.meaningEn}
                     </p>
-                    <p className="text-[11px] text-zinc-400 font-japanese">
+                    <p className="text-[11px] text-stone-600 font-japanese">
                       この構成要素は「{kanji.char}」の成り立ちにおいて重要な意味的・表音的役割を果たしています。
                     </p>
                   </motion.div>
@@ -380,12 +380,12 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
             {/* Readings & Meanings */}
             <div className="space-y-3">
               {/* On'yomi */}
-              <div className="p-3.5 rounded-xl bg-zinc-900/60 border border-zinc-800/80 flex items-center justify-between">
+              <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 flex items-center justify-between">
                 <div>
-                  <span className="text-[10px] text-zinc-500 font-mono uppercase block">
+                  <span className="text-[10px] text-stone-500 font-mono uppercase block">
                     音読み (On&apos;yomi)
                   </span>
-                  <div className="text-sm font-bold text-zinc-200 font-japanese mt-0.5">
+                  <div className="text-sm font-bold text-stone-900 font-japanese mt-0.5">
                     {kanji.onyomi.length > 0 ? kanji.onyomi.join('、 ') : '—'}
                   </div>
                 </div>
@@ -395,7 +395,7 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
                     className={`p-2 rounded-lg transition cursor-pointer ${
                       activeAudioTarget === 'onyomi'
                         ? 'bg-indigo-600 text-white'
-                        : 'bg-zinc-800/80 hover:bg-zinc-700 text-zinc-400 hover:text-zinc-200'
+                        : 'bg-white border border-stone-300 hover:bg-stone-100 text-stone-600 hover:text-stone-900'
                     }`}
                     title="Pronounce On'yomi"
                   >
@@ -405,12 +405,12 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
               </div>
 
               {/* Kun'yomi */}
-              <div className="p-3.5 rounded-xl bg-zinc-900/60 border border-zinc-800/80 flex items-center justify-between">
+              <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 flex items-center justify-between">
                 <div>
-                  <span className="text-[10px] text-zinc-500 font-mono uppercase block">
+                  <span className="text-[10px] text-stone-500 font-mono uppercase block">
                     訓読み (Kun&apos;yomi)
                   </span>
-                  <div className="text-sm font-bold text-zinc-200 font-japanese mt-0.5">
+                  <div className="text-sm font-bold text-stone-900 font-japanese mt-0.5">
                     {kanji.kunyomi.length > 0
                       ? kanji.kunyomi.map((k) => k.replace('・', '')).join('、 ')
                       : '—'}
@@ -427,7 +427,7 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
                     className={`p-2 rounded-lg transition cursor-pointer ${
                       activeAudioTarget === 'kunyomi'
                         ? 'bg-indigo-600 text-white'
-                        : 'bg-zinc-800/80 hover:bg-zinc-700 text-zinc-400 hover:text-zinc-200'
+                        : 'bg-white border border-stone-300 hover:bg-stone-100 text-stone-600 hover:text-stone-900'
                     }`}
                     title="Pronounce Kun'yomi"
                   >
@@ -437,19 +437,19 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
               </div>
 
               {/* Meanings */}
-              <div className="p-3.5 rounded-xl bg-zinc-900/60 border border-zinc-800/80 space-y-1.5 text-xs">
+              <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 space-y-1.5 text-xs">
                 <div>
-                  <span className="text-[10px] text-zinc-500 font-mono uppercase block">
+                  <span className="text-[10px] text-stone-500 font-mono uppercase block">
                     English Meaning
                   </span>
-                  <p className="text-zinc-200 font-semibold">{kanji.meaningEn}</p>
+                  <p className="text-stone-900 font-semibold">{kanji.meaningEn}</p>
                 </div>
                 {kanji.meaningMy && (
-                  <div className="pt-2 border-t border-zinc-800/70">
-                    <span className="text-[10px] text-zinc-500 font-mono uppercase block">
+                  <div className="pt-2 border-t border-stone-200">
+                    <span className="text-[10px] text-stone-500 font-mono uppercase block">
                       Burmese Meaning
                     </span>
-                    <p className="text-amber-300 font-myanmar">{kanji.meaningMy}</p>
+                    <p className="text-amber-800 font-myanmar">{kanji.meaningMy}</p>
                   </div>
                 )}
               </div>
@@ -460,15 +460,15 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
             {/* ------------------------------------------------------------- */}
             {kanji.examples.length > 0 && (
               <div className="space-y-2.5">
-                <div className="flex items-center justify-between text-xs font-semibold text-zinc-300 font-mono">
+                <div className="flex items-center justify-between text-xs font-semibold text-stone-700 font-mono">
                   <div className="flex items-center space-x-1.5">
-                    <BookOpen className="w-4 h-4 text-rose-400" />
+                    <BookOpen className="w-4 h-4 text-indigo-600" />
                     <span>COMPOUNDS &amp; CONTEXT (用例・例文)</span>
                   </div>
                   {kanji.examples.length > 2 && (
                     <button
                       onClick={() => setShowAllExamples((prev) => !prev)}
-                      className="text-xs text-rose-400 hover:text-rose-300 flex items-center gap-1 cursor-pointer"
+                      className="text-xs text-indigo-600 hover:text-indigo-700 flex items-center gap-1 cursor-pointer font-sans"
                     >
                       <span>{showAllExamples ? 'Show Less' : `View All (${kanji.examples.length})`}</span>
                       {showAllExamples ? (
@@ -484,14 +484,14 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
                   {displayedExamples.map((ex, idx) => (
                     <div
                       key={idx}
-                      className="p-3.5 rounded-xl bg-zinc-900/60 border border-zinc-800/80 space-y-1.5 hover:border-zinc-700 transition"
+                      className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 space-y-1.5 hover:border-stone-300 transition"
                     >
                       <div className="flex items-center justify-between">
                         <div className="flex items-baseline space-x-2">
-                          <span className="text-base font-bold font-japanese text-zinc-100">
+                          <span className="text-base font-bold font-japanese text-stone-900">
                             {ex.word}
                           </span>
-                          <span className="text-xs font-japanese text-rose-300 font-medium">
+                          <span className="text-xs font-japanese text-indigo-700 font-medium">
                             【{ex.reading}】
                           </span>
                         </div>
@@ -500,8 +500,8 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
                           onClick={() => handleSpeak(ex.sentenceJa || ex.word, `ex_${idx}`)}
                           className={`p-1 rounded transition cursor-pointer ${
                             activeAudioTarget === `ex_${idx}`
-                              ? 'text-indigo-400'
-                              : 'text-zinc-400 hover:text-zinc-200'
+                              ? 'text-indigo-600'
+                              : 'text-stone-500 hover:text-stone-800'
                           }`}
                           title="Speak sentence"
                         >
@@ -509,12 +509,12 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
                         </button>
                       </div>
 
-                      <p className="text-xs text-zinc-300 font-medium">{ex.meaningEn}</p>
+                      <p className="text-xs text-stone-700 font-medium">{ex.meaningEn}</p>
                       {ex.meaningMy && (
-                        <p className="text-xs text-amber-300/90 font-myanmar">{ex.meaningMy}</p>
+                        <p className="text-xs text-amber-800 font-myanmar">{ex.meaningMy}</p>
                       )}
 
-                      <div className="pt-1.5 border-t border-zinc-800/60 text-xs text-zinc-400 font-japanese leading-relaxed">
+                      <div className="pt-1.5 border-t border-stone-200 text-xs text-stone-600 font-japanese leading-relaxed">
                         「{ex.sentenceJa}」
                       </div>
                     </div>
@@ -525,16 +525,16 @@ export const KanjiDrawer: React.FC<KanjiDrawerProps> = ({
           </div>
 
           {/* Drawer Bottom Action: 1-Click Mine to SRS */}
-          <div className="p-4 sm:p-5 border-t border-zinc-800/80 bg-zinc-950/80">
+          <div className="p-4 sm:p-5 border-t border-stone-200 bg-stone-50">
             {isMined ? (
-              <div className="w-full py-3 rounded-2xl bg-emerald-950/80 border border-emerald-500/50 text-emerald-300 text-xs font-semibold flex items-center justify-center space-x-2 shadow-[0_0_20px_rgba(16,185,129,0.3)]">
-                <BookmarkCheck className="w-4 h-4 text-emerald-400" />
+              <div className="w-full py-3 rounded-2xl bg-emerald-50 border border-emerald-300 text-emerald-800 text-xs font-semibold flex items-center justify-center space-x-2 shadow-2xs">
+                <BookmarkCheck className="w-4 h-4 text-emerald-600" />
                 <span>✓ SRS漢字帳に追加済み (Linked to Active Deck)</span>
               </div>
             ) : (
               <button
                 onClick={handleAddKanjiToSRS}
-                className="w-full py-3 rounded-2xl bg-gradient-to-r from-rose-600 via-rose-600 to-rose-700 hover:from-rose-500 hover:to-rose-600 text-white font-bold text-xs flex items-center justify-center space-x-2 shadow-[0_0_24px_rgba(244,63,94,0.45)] hover:shadow-[0_0_36px_rgba(244,63,94,0.65)] transition active:scale-95 cursor-pointer border border-rose-500/40"
+                className="w-full py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs flex items-center justify-center space-x-2 shadow-sm transition active:scale-95 cursor-pointer"
               >
                 <Plus className="w-4 h-4" />
                 <span>1-Click Add to SRS (アクティブ単語帳に登録)</span>

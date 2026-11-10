@@ -138,7 +138,7 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           onClick={onClose}
-          className="fixed inset-0 bg-black/80 backdrop-blur-md cursor-pointer"
+          className="fixed inset-0 bg-stone-900/40 backdrop-blur-sm cursor-pointer"
         />
 
         {/* Modal Window */}
@@ -147,22 +147,22 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.95, y: 16 }}
           transition={{ duration: 0.22, ease: 'easeOut' }}
-          className="relative z-10 w-full max-w-5xl bg-zinc-950/95 border border-zinc-800/90 rounded-3xl shadow-[0_25px_70px_rgba(0,0,0,0.95)] overflow-hidden flex flex-col max-h-[90vh] backdrop-blur-2xl"
+          className="relative z-10 w-full max-w-5xl bg-white border border-stone-200 rounded-3xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]"
         >
           {/* Top Header */}
-          <div className="px-6 py-4.5 border-b border-zinc-800/80 flex items-center justify-between shrink-0 bg-zinc-900/60">
+          <div className="px-6 py-4.5 border-b border-stone-200 flex items-center justify-between shrink-0 bg-stone-50">
             <div className="flex items-center space-x-3">
-              <div className="p-2 rounded-2xl bg-amber-950/60 border border-amber-500/40 text-amber-400">
+              <div className="p-2 rounded-2xl bg-amber-50 border border-amber-200 text-amber-700">
                 <BookOpen className="w-5 h-5" />
               </div>
               <div>
-                <h2 className="text-base sm:text-lg font-bold text-zinc-100 flex items-center gap-2">
+                <h2 className="text-base sm:text-lg font-bold text-stone-900 flex items-center gap-2">
                   <span>N5 Master Reference Workbench</span>
-                  <span className="text-[11px] font-mono font-semibold px-2 py-0.5 rounded-full bg-rose-950/80 text-rose-300 border border-rose-800/50">
+                  <span className="text-[11px] font-mono font-semibold px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">
                     JLPT N5
                   </span>
                 </h2>
-                <p className="text-xs text-zinc-400 font-myanmar">
+                <p className="text-xs text-stone-600 font-myanmar">
                   အခြေခံ ရေတွက်ပုံများ၊ အသုံးများသော နှုတ်ဆက်စကားများနှင့် သတိပြုရန် အမှားများ
                 </p>
               </div>
@@ -171,7 +171,7 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
             {onClose && (
               <button
                 onClick={onClose}
-                className="p-2 rounded-xl text-zinc-400 hover:text-zinc-100 hover:bg-zinc-800 transition cursor-pointer"
+                className="p-2 rounded-xl text-stone-400 hover:text-stone-700 hover:bg-stone-100 transition cursor-pointer"
                 title="Close (Esc)"
               >
                 <X className="w-5 h-5" />
@@ -180,16 +180,16 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
           </div>
 
           {/* 3 Main Tabs Nav */}
-          <div className="px-6 pt-3 border-b border-zinc-800/80 bg-zinc-900/30 flex items-center space-x-2 shrink-0 overflow-x-auto">
+          <div className="px-6 pt-3 border-b border-stone-200 bg-stone-50/50 flex items-center space-x-2 shrink-0 overflow-x-auto">
             <button
               onClick={() => setActiveTab('counters')}
               className={`px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-semibold flex items-center space-x-2 transition cursor-pointer border-b-2 ${
                 activeTab === 'counters'
-                  ? 'border-rose-500 text-rose-300 bg-zinc-900/80 shadow-sm'
-                  : 'border-transparent text-zinc-400 hover:text-zinc-200'
+                  ? 'border-indigo-600 text-indigo-700 bg-white shadow-2xs'
+                  : 'border-transparent text-stone-600 hover:text-stone-900 hover:bg-stone-100'
               }`}
             >
-              <Layers className="w-4 h-4 text-rose-400" />
+              <Layers className="w-4 h-4 text-indigo-600" />
               <span>Counters &amp; Dates (အရေအတွက် ရေတွက်ပုံများ)</span>
             </button>
 
@@ -197,11 +197,11 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
               onClick={() => setActiveTab('expressions')}
               className={`px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-semibold flex items-center space-x-2 transition cursor-pointer border-b-2 ${
                 activeTab === 'expressions'
-                  ? 'border-indigo-500 text-indigo-300 bg-zinc-900/80 shadow-sm'
-                  : 'border-transparent text-zinc-400 hover:text-zinc-200'
+                  ? 'border-indigo-600 text-indigo-700 bg-white shadow-2xs'
+                  : 'border-transparent text-stone-600 hover:text-stone-900 hover:bg-stone-100'
               }`}
             >
-              <MessageSquare className="w-4 h-4 text-indigo-400" />
+              <MessageSquare className="w-4 h-4 text-indigo-600" />
               <span>Expressions &amp; Greetings (နှုတ်ဆက်စကားများ)</span>
             </button>
 
@@ -209,11 +209,11 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
               onClick={() => setActiveTab('mistakes')}
               className={`px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-semibold flex items-center space-x-2 transition cursor-pointer border-b-2 ${
                 activeTab === 'mistakes'
-                  ? 'border-amber-500 text-amber-300 bg-zinc-900/80 shadow-sm'
-                  : 'border-transparent text-zinc-400 hover:text-zinc-200'
+                  ? 'border-amber-600 text-amber-800 bg-white shadow-2xs'
+                  : 'border-transparent text-stone-600 hover:text-stone-900 hover:bg-stone-100'
               }`}
             >
-              <AlertTriangle className="w-4 h-4 text-amber-400" />
+              <AlertTriangle className="w-4 h-4 text-amber-600" />
               <span>Common Traps (言わない! အမှားများ)</span>
             </button>
           </div>
@@ -226,13 +226,13 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
             {activeTab === 'counters' && (
               <div className="space-y-6">
                 {/* Sub-tab navigation */}
-                <div className="flex items-center space-x-2 border-b border-zinc-800 pb-2">
+                <div className="flex items-center space-x-2 border-b border-stone-200 pb-2">
                   <button
                     onClick={() => setCounterSubTab('tables')}
                     className={`px-3 py-1.5 rounded-lg text-xs font-medium transition cursor-pointer ${
                       counterSubTab === 'tables'
-                        ? 'bg-rose-950/80 text-rose-200 border border-rose-800/60 font-semibold'
-                        : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-900'
+                        ? 'bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold'
+                        : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
                     }`}
                   >
                     All Counters (~つ, ~人, ~本, ~枚...)
@@ -241,8 +241,8 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                     onClick={() => setCounterSubTab('dates')}
                     className={`px-3 py-1.5 rounded-lg text-xs font-medium transition cursor-pointer ${
                       counterSubTab === 'dates'
-                        ? 'bg-rose-950/80 text-rose-200 border border-rose-800/60 font-semibold'
-                        : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-900'
+                        ? 'bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold'
+                        : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
                     }`}
                   >
                     Calendar Dates (1日 – 31日)
@@ -251,8 +251,8 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                     onClick={() => setCounterSubTab('shifts')}
                     className={`px-3 py-1.5 rounded-lg text-xs font-medium transition cursor-pointer ${
                       counterSubTab === 'shifts'
-                        ? 'bg-rose-950/80 text-rose-200 border border-rose-800/60 font-semibold'
-                        : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-900'
+                        ? 'bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold'
+                        : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
                     }`}
                   >
                     Phonetic Shifts (300, 600, 800, 八百屋...)
@@ -262,25 +262,25 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                 {counterSubTab === 'tables' && (
                   <>
                     {/* Interactive Number Tester Hero Card */}
-                    <div className="bg-gradient-to-r from-zinc-900 via-zinc-900/90 to-rose-950/30 border border-rose-500/30 rounded-2xl p-5 space-y-4 shadow-xl">
+                    <div className="bg-stone-50 border border-stone-200 rounded-2xl p-5 space-y-4 shadow-sm">
                       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                         <div>
-                          <div className="flex items-center space-x-2 text-rose-400 text-xs font-mono font-semibold">
+                          <div className="flex items-center space-x-2 text-indigo-600 text-xs font-mono font-semibold">
                             <Sparkles className="w-4 h-4" />
                             <span>INTERACTIVE NUMBER TESTER</span>
                           </div>
-                          <h3 className="text-sm sm:text-base font-bold text-zinc-100">
+                          <h3 className="text-sm sm:text-base font-bold text-stone-900">
                             အရေအတွက် ရေတွက်ပုံ အစမ်းလေ့ကျင့်ရန်
                           </h3>
                         </div>
 
                         {/* Select Counter Type */}
                         <div className="flex items-center space-x-2">
-                          <label className="text-xs text-zinc-400 font-myanmar">ရေတွက်နည်း:</label>
+                          <label className="text-xs text-stone-600 font-myanmar">ရေတွက်နည်း:</label>
                           <select
                             value={testerCounterKey}
                             onChange={(e) => setTesterCounterKey(e.target.value)}
-                            className="bg-zinc-950 border border-zinc-700 rounded-xl px-3 py-1.5 text-xs text-zinc-100 font-mono focus:outline-none focus:border-rose-500"
+                            className="bg-white border border-stone-300 rounded-xl px-3 py-1.5 text-xs text-stone-900 font-mono focus:outline-none focus:border-indigo-500"
                           >
                             <option value="hon">本 (~hon / ရှည်လျားသောအရာ)</option>
                             <option value="nin">人 (~nin / လူဦးရေ)</option>
@@ -302,8 +302,8 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                             onClick={() => setTesterNumber(num)}
                             className={`w-9 h-9 rounded-xl font-mono text-xs font-bold transition cursor-pointer flex items-center justify-center ${
                               testerNumber === num
-                                ? 'bg-rose-600 text-white shadow-md shadow-rose-950/50 scale-105 ring-2 ring-rose-400/40'
-                                : 'bg-zinc-950/80 border border-zinc-800 text-zinc-300 hover:border-zinc-700 hover:text-white'
+                                ? 'bg-indigo-600 text-white shadow-xs scale-105 ring-2 ring-indigo-500/20'
+                                : 'bg-white border border-stone-300 text-stone-700 hover:border-stone-400 hover:text-stone-900'
                             }`}
                           >
                             {num}
@@ -312,38 +312,38 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                       </div>
 
                       {/* Tester Result Box */}
-                      <div className="bg-zinc-950/90 border border-zinc-800 rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                      <div className="bg-white border border-stone-200 rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                         <div className="space-y-1">
                           <div className="flex items-center space-x-3">
-                            <span className="text-2xl sm:text-3xl font-bold font-japanese text-zinc-100">
+                            <span className="text-2xl sm:text-3xl font-bold font-japanese text-stone-900">
                               {testerResultItem.japanese}
                             </span>
-                            <span className="text-base text-rose-300 font-japanese">
+                            <span className="text-base text-indigo-700 font-japanese">
                               （{testerResultItem.kana}）
                             </span>
                             <button
                               onClick={(e) => handleSpeak(testerResultItem.kana, e)}
-                              className="p-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-white transition cursor-pointer"
+                              className="p-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-700 hover:text-stone-900 transition cursor-pointer"
                               title="အသံထွက် နားထောင်မည်"
                             >
-                              <Volume2 className="w-4 h-4 text-rose-400" />
+                              <Volume2 className="w-4 h-4 text-indigo-600" />
                             </button>
                           </div>
-                          <p className="text-xs text-zinc-400 font-mono">
-                            Romaji: <span className="text-zinc-200">{testerResultItem.romaji}</span> • {testerResultItem.burmese}
+                          <p className="text-xs text-stone-500 font-mono">
+                            Romaji: <span className="text-stone-800 font-medium">{testerResultItem.romaji}</span> • {testerResultItem.burmese}
                           </p>
                         </div>
 
                         {/* Irregular Alert Badge */}
                         <div>
                           {testerResultItem.isIrregular ? (
-                            <span className="inline-flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-amber-950/70 text-amber-300 border border-amber-500/50 text-xs font-medium shadow-sm">
-                              <AlertTriangle className="w-3.5 h-3.5 text-amber-400" />
+                            <span className="inline-flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-amber-50 text-amber-800 border border-amber-200 text-xs font-medium shadow-2xs">
+                              <AlertTriangle className="w-3.5 h-3.5 text-amber-600" />
                               <span>အထူး အသံပြောင်းလဲမှု (Irregular Sound Change)</span>
                             </span>
                           ) : (
-                            <span className="inline-flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-emerald-950/60 text-emerald-300 border border-emerald-800/50 text-xs font-medium">
-                              <CheckCircle className="w-3.5 h-3.5 text-emerald-400" />
+                            <span className="inline-flex items-center space-x-1 px-3 py-1.5 rounded-xl bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-medium">
+                              <CheckCircle className="w-3.5 h-3.5 text-emerald-600" />
                               <span>ပုံမှန် အသံထွက် (Regular Reading)</span>
                             </span>
                           )}
@@ -356,25 +356,25 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                       {Object.entries(N5_COUNTERS_TABLE).map(([key, counter]) => (
                         <div
                           key={key}
-                          className="bg-zinc-900/70 border border-zinc-800 rounded-2xl p-5 space-y-4 hover:border-zinc-700 transition"
+                          className="bg-white border border-stone-200 rounded-2xl p-5 space-y-4 hover:border-stone-300 transition shadow-2xs"
                         >
-                          <div className="flex items-start justify-between border-b border-zinc-800 pb-3">
+                          <div className="flex items-start justify-between border-b border-stone-200 pb-3">
                             <div>
                               <div className="flex items-center space-x-2">
-                                <span className="text-xl font-bold font-japanese text-rose-300">
+                                <span className="text-xl font-bold font-japanese text-indigo-700">
                                   {`〜${counter.counterKanji}`}
                                 </span>
-                                <span className="text-xs text-zinc-400 font-mono">
+                                <span className="text-xs text-stone-500 font-mono">
                                   （{counter.counterKana}）
                                 </span>
                               </div>
-                              <p className="text-xs text-zinc-300 font-myanmar mt-0.5">
+                              <p className="text-xs text-stone-600 font-myanmar mt-0.5">
                                 {counter.targetCategoryMy}
                               </p>
                             </div>
                             <div className="text-right">
-                              <span className="text-[10px] text-zinc-400 block font-mono">မေးခွန်းစကားလုံး:</span>
-                              <span className="text-xs font-bold text-amber-300 font-japanese">
+                              <span className="text-[10px] text-stone-500 block font-mono">မေးခွန်းစကားလုံး:</span>
+                              <span className="text-xs font-bold text-amber-800 font-japanese">
                                 {counter.questionWord.japanese} ({counter.questionWord.kana})
                               </span>
                             </div>
@@ -387,22 +387,22 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                                 key={it.count}
                                 className={`p-2 rounded-xl flex items-center justify-between border transition ${
                                   it.isIrregular
-                                    ? 'bg-amber-950/30 border-amber-600/40 text-amber-200'
-                                    : 'bg-zinc-950/70 border-zinc-800/80 text-zinc-300'
+                                    ? 'bg-amber-50 border-amber-200 text-amber-900'
+                                    : 'bg-stone-50 border-stone-200 text-stone-800'
                                 }`}
                               >
                                 <div className="space-y-0.5">
                                   <div className="flex items-center space-x-1.5 font-japanese">
-                                    <span className="font-bold text-sm">{it.japanese}</span>
-                                    <span className="text-[11px] text-zinc-400">({it.kana})</span>
+                                    <span className="font-bold text-sm text-stone-900">{it.japanese}</span>
+                                    <span className="text-[11px] text-stone-500">({it.kana})</span>
                                   </div>
-                                  <div className="text-[10px] text-zinc-400 font-myanmar">
+                                  <div className="text-[10px] text-stone-500 font-myanmar">
                                     {it.burmese}
                                   </div>
                                 </div>
                                 <button
                                   onClick={(e) => handleSpeak(it.kana, e)}
-                                  className="p-1 rounded text-zinc-400 hover:text-white transition cursor-pointer"
+                                  className="p-1 rounded text-stone-400 hover:text-stone-700 transition cursor-pointer"
                                   title="Play Audio"
                                 >
                                   <Volume2 className="w-3.5 h-3.5" />
@@ -419,11 +419,11 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                 {/* Sub-tab: Calendar Dates */}
                 {counterSubTab === 'dates' && (
                   <div className="space-y-4">
-                    <div className="bg-zinc-900/60 border border-zinc-800 rounded-2xl p-4 text-xs text-zinc-300 space-y-1 font-myanmar">
-                      <span className="font-bold text-rose-300 block text-sm">
+                    <div className="bg-stone-50 border border-stone-200 rounded-2xl p-4 text-xs text-stone-700 space-y-1 font-myanmar">
+                      <span className="font-bold text-indigo-700 block text-sm">
                         📅 ဂျပန်ရက်စွဲ ရေတွက်ပုံ (၁ ရက် မှ ၃၁ ရက်နေ့အထိ)
                       </span>
-                      <p className="text-zinc-400 leading-relaxed">
+                      <p className="text-stone-600 leading-relaxed">
                         ၁ ရက်နေ့မှ ၁၀ ရက်နေ့၊ ၁၄ ရက်နေ့၊ ၂၀ ရက်နေ့နှင့် ၂၄ ရက်နေ့များသည် အထူးအသံထွက်ပြောင်းလဲသဖြင့် မဖြစ်မနေ အလွတ်ကျက်မှတ်ထားရန် လိုအပ်ပါသည်။
                       </p>
                     </div>
@@ -434,31 +434,31 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                           key={date.day}
                           className={`p-3.5 rounded-2xl border flex items-center justify-between transition ${
                             date.isIrregular
-                              ? 'bg-rose-950/30 border-rose-500/50 text-rose-200 shadow-sm'
-                              : 'bg-zinc-900/60 border-zinc-800 text-zinc-300'
+                              ? 'bg-amber-50 border-amber-200 text-amber-900 shadow-2xs'
+                              : 'bg-white border-stone-200 text-stone-800'
                           }`}
                         >
                           <div className="space-y-1">
                             <div className="flex items-center space-x-2">
-                              <span className="text-sm font-bold font-japanese text-zinc-100">
+                              <span className="text-sm font-bold font-japanese text-stone-900">
                                 {date.japanese}
                               </span>
-                              <span className="text-xs text-rose-300 font-japanese font-medium">
+                              <span className="text-xs text-indigo-700 font-japanese font-medium">
                                 （{date.kana}）
                               </span>
                             </div>
-                            <div className="text-xs text-zinc-400 font-myanmar">
+                            <div className="text-xs text-stone-600 font-myanmar">
                               {date.burmese}
                             </div>
                             {date.phoneticNoteMy && (
-                              <div className="text-[10px] text-amber-300 font-myanmar">
+                              <div className="text-[10px] text-amber-800 font-myanmar">
                                 • {date.phoneticNoteMy}
                               </div>
                             )}
                           </div>
                           <button
                             onClick={(e) => handleSpeak(date.kana, e)}
-                            className="p-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-white transition cursor-pointer"
+                            className="p-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-600 hover:text-stone-900 transition cursor-pointer"
                           >
                             <Volume2 className="w-3.5 h-3.5" />
                           </button>
@@ -471,11 +471,11 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                 {/* Sub-tab: Irregular Phonetic Shifts */}
                 {counterSubTab === 'shifts' && (
                   <div className="space-y-4">
-                    <div className="bg-zinc-900/60 border border-zinc-800 rounded-2xl p-4 text-xs text-zinc-300 space-y-1 font-myanmar">
-                      <span className="font-bold text-amber-300 block text-sm">
+                    <div className="bg-stone-50 border border-stone-200 rounded-2xl p-4 text-xs text-stone-700 space-y-1 font-myanmar">
+                      <span className="font-bold text-amber-800 block text-sm">
                         ⚡ အထူးအသံပြောင်းလဲမှုများနှင့် အရေးကြီးသော ဂဏန်းဝေါဟာရများ
                       </span>
-                      <p className="text-zinc-400 leading-relaxed">
+                      <p className="text-stone-600 leading-relaxed">
                         ဂဏန်းအရေအတွက်များနှင့် ပေါင်းစပ်ရာတွင် ဖြစ်ပေါ်တတ်သော အသံပျော့ပြောင်းလဲမှု (Rendaku / 連濁) နှင့် အသံတွဲဆက်ပြောင်းလဲမှု (促音化) များကို စုစည်းဖော်ပြထားပါသည်။
                       </p>
                     </div>
@@ -484,28 +484,28 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                       {N5_PHONETIC_SHIFTS.map((shift, idx) => (
                         <div
                           key={idx}
-                          className="bg-zinc-900/70 border border-zinc-800 rounded-2xl p-4.5 space-y-2 hover:border-zinc-700 transition"
+                          className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-2 hover:border-stone-300 transition shadow-2xs"
                         >
                           <div className="flex items-center justify-between">
                             <div className="flex items-baseline space-x-2">
-                              <span className="text-lg font-bold font-japanese text-zinc-100">
+                              <span className="text-lg font-bold font-japanese text-stone-900">
                                 {shift.baseKanji}
                               </span>
-                              <span className="text-sm font-semibold text-rose-300 font-japanese">
+                              <span className="text-sm font-semibold text-indigo-700 font-japanese">
                                 （{shift.reading}）
                               </span>
                             </div>
                             <button
                               onClick={(e) => handleSpeak(shift.reading, e)}
-                              className="p-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-white transition cursor-pointer"
+                              className="p-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-600 hover:text-stone-900 transition cursor-pointer"
                             >
-                              <Volume2 className="w-4 h-4 text-rose-400" />
+                              <Volume2 className="w-4 h-4 text-indigo-600" />
                             </button>
                           </div>
-                          <div className="text-xs text-zinc-300 font-myanmar font-medium">
+                          <div className="text-xs text-stone-700 font-myanmar font-medium">
                             {shift.burmese}
                           </div>
-                          <p className="text-xs text-zinc-400 font-myanmar leading-relaxed">
+                          <p className="text-xs text-stone-600 font-myanmar leading-relaxed">
                             {shift.explanationMy}
                           </p>
                         </div>
@@ -524,13 +524,13 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                 {/* Search & Category Filter */}
                 <div className="flex flex-col sm:flex-row gap-3">
                   <div className="relative flex-1">
-                    <Search className="w-4 h-4 text-zinc-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                    <Search className="w-4 h-4 text-stone-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
                     <input
                       type="text"
                       value={expressionSearch}
                       onChange={(e) => setExpressionSearch(e.target.value)}
                       placeholder="နှုတ်ဆက်စကား ရှာဖွေရန် (ဂျပန်၊ အင်္ဂလိပ်၊ မြန်မာ)..."
-                      className="w-full bg-zinc-900 border border-zinc-800 rounded-xl pl-9.5 pr-4 py-2.5 text-xs sm:text-sm text-zinc-100 placeholder:text-zinc-500 focus:outline-none focus:border-indigo-500"
+                      className="w-full bg-white border border-stone-300 rounded-xl pl-9.5 pr-4 py-2.5 text-xs sm:text-sm text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-indigo-500"
                     />
                   </div>
 
@@ -549,8 +549,8 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                         onClick={() => setExpressionCategory(cat.id)}
                         className={`px-3 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap transition cursor-pointer ${
                           expressionCategory === cat.id
-                            ? 'bg-indigo-600 text-white font-semibold shadow-sm'
-                            : 'bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-zinc-200'
+                            ? 'bg-indigo-600 text-white font-semibold shadow-xs'
+                            : 'bg-white border border-stone-200 text-stone-600 hover:text-stone-900 hover:bg-stone-50'
                         }`}
                       >
                         {cat.label}
@@ -564,44 +564,44 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                   {filteredExpressions.map((exp) => (
                     <div
                       key={exp.id}
-                      className="bg-zinc-900/70 border border-zinc-800 rounded-2xl p-5 space-y-3.5 hover:border-indigo-500/40 transition shadow-sm"
+                      className="bg-white border border-stone-200 rounded-2xl p-5 space-y-3.5 hover:border-indigo-300 transition shadow-2xs"
                     >
                       <div className="flex items-start justify-between">
                         <div className="space-y-0.5">
-                          <h3 className="text-lg font-bold font-japanese text-zinc-100 flex items-center gap-2">
+                          <h3 className="text-lg font-bold font-japanese text-stone-900 flex items-center gap-2">
                             <span>{exp.japanese}</span>
                           </h3>
-                          <div className="text-xs text-indigo-300 font-mono">
+                          <div className="text-xs text-indigo-700 font-mono">
                             {exp.romaji}
                           </div>
                         </div>
                         <button
                           onClick={(e) => handleSpeak(exp.japanese, e)}
-                          className="p-2 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-300 hover:text-white transition cursor-pointer"
+                          className="p-2 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-600 hover:text-stone-900 transition cursor-pointer"
                           title="အသံထွက် နားထောင်မည်"
                         >
-                          <Volume2 className="w-4 h-4 text-indigo-400" />
+                          <Volume2 className="w-4 h-4 text-indigo-600" />
                         </button>
                       </div>
 
                       <div className="space-y-1.5 text-xs font-myanmar">
-                        <p className="text-zinc-200 font-semibold leading-relaxed">
+                        <p className="text-stone-800 font-semibold leading-relaxed">
                           {exp.burmese}
                         </p>
-                        <p className="text-zinc-400 font-mono text-[11px]">
+                        <p className="text-stone-500 font-mono text-[11px]">
                           En: {exp.english}
                         </p>
                       </div>
 
                       {/* Usage Situation & Cultural Nuance */}
-                      <div className="bg-zinc-950/80 border border-zinc-800/80 rounded-xl p-3 space-y-1.5 text-xs font-myanmar">
-                        <div className="text-zinc-400">
-                          <span className="text-indigo-400 font-semibold">သုံးစွဲရမည့် အခြေအနေ: </span>
+                      <div className="bg-stone-50 border border-stone-200 rounded-xl p-3 space-y-1.5 text-xs font-myanmar">
+                        <div className="text-stone-700">
+                          <span className="text-indigo-700 font-semibold">သုံးစွဲရမည့် အခြေအနေ: </span>
                           {exp.situationMy}
                         </div>
                         {exp.nuanceMy && (
-                          <div className="text-amber-300/90 text-[11px]">
-                            <span className="font-semibold text-amber-300">မှတ်ချက်: </span>
+                          <div className="text-amber-800 text-[11px]">
+                            <span className="font-semibold text-amber-800">မှတ်ချက်: </span>
                             {exp.nuanceMy}
                           </div>
                         )}
@@ -609,17 +609,17 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
 
                       {/* Example Dialogue if present */}
                       {exp.exampleDialogues && exp.exampleDialogues.length > 0 && (
-                        <div className="bg-zinc-950/50 rounded-xl p-2.5 space-y-1 text-xs border border-zinc-800/60">
-                          <span className="text-[10px] text-zinc-500 uppercase font-mono block">
+                        <div className="bg-stone-50 rounded-xl p-2.5 space-y-1 text-xs border border-stone-200">
+                          <span className="text-[10px] text-stone-500 uppercase font-mono block">
                             နမူနာ စကားပြောခန်း (Dialogue Example):
                           </span>
                           {exp.exampleDialogues.map((dlg, dIdx) => (
                             <div key={dIdx} className="space-y-0.5">
-                              <div className="flex items-baseline space-x-1 font-japanese text-zinc-200">
-                                <span className="text-indigo-400 font-bold">{dlg.speaker}:</span>
+                              <div className="flex items-baseline space-x-1 font-japanese text-stone-800">
+                                <span className="text-indigo-700 font-bold">{dlg.speaker}:</span>
                                 <span>{dlg.ja}</span>
                               </div>
-                              <div className="text-[11px] text-zinc-400 font-myanmar pl-3">
+                              <div className="text-[11px] text-stone-600 font-myanmar pl-3">
                                 {dlg.my}
                               </div>
                             </div>
@@ -631,7 +631,7 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                 </div>
 
                 {filteredExpressions.length === 0 && (
-                  <div className="text-center py-12 text-zinc-500 text-xs font-myanmar">
+                  <div className="text-center py-12 text-stone-500 text-xs font-myanmar">
                     ရှာဖွေမှုနှင့် ကိုက်ညီသော နှုတ်ဆက်စကား မရှိပါ။
                   </div>
                 )}
@@ -646,13 +646,13 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                 {/* Search & Category Filter */}
                 <div className="flex flex-col sm:flex-row gap-3">
                   <div className="relative flex-1">
-                    <Search className="w-4 h-4 text-zinc-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+                    <Search className="w-4 h-4 text-stone-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
                     <input
                       type="text"
                       value={mistakeSearch}
                       onChange={(e) => setMistakeSearch(e.target.value)}
                       placeholder="သတိပြုရန် အမှားများ ရှာဖွေရန် (ဥပမာ 寒い, 知っ, 帽子, きれい)..."
-                      className="w-full bg-zinc-900 border border-zinc-800 rounded-xl pl-9.5 pr-4 py-2.5 text-xs sm:text-sm text-zinc-100 placeholder:text-zinc-500 focus:outline-none focus:border-amber-500"
+                      className="w-full bg-white border border-stone-300 rounded-xl pl-9.5 pr-4 py-2.5 text-xs sm:text-sm text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-amber-500"
                     />
                   </div>
 
@@ -671,8 +671,8 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                         onClick={() => setMistakeCategory(cat.id)}
                         className={`px-3 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap transition cursor-pointer ${
                           mistakeCategory === cat.id
-                            ? 'bg-amber-600 text-white font-semibold shadow-sm'
-                            : 'bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-zinc-200'
+                            ? 'bg-amber-600 text-white font-semibold shadow-xs'
+                            : 'bg-white border border-stone-200 text-stone-600 hover:text-stone-900 hover:bg-stone-50'
                         }`}
                       >
                         {cat.label}
@@ -686,71 +686,71 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                   {filteredMistakes.map((mistake) => (
                     <div
                       key={mistake.id}
-                      className="bg-zinc-900/70 border border-zinc-800 rounded-3xl p-5 space-y-4 hover:border-amber-500/50 transition shadow-lg flex flex-col justify-between"
+                      className="bg-white border border-stone-200 rounded-3xl p-5 space-y-4 hover:border-amber-300 transition shadow-2xs flex flex-col justify-between"
                     >
                       <div className="space-y-3.5">
                         {/* Incorrect vs Correct Badges */}
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                           {/* ❌ Incorrect */}
-                          <div className="p-3 rounded-2xl bg-rose-950/40 border border-rose-800/60 space-y-1">
-                            <div className="flex items-center space-x-1.5 text-rose-400 font-bold text-xs font-mono">
-                              <XCircle className="w-4 h-4 text-rose-500" />
+                          <div className="p-3 rounded-2xl bg-rose-50 border border-rose-200 space-y-1">
+                            <div className="flex items-center space-x-1.5 text-rose-700 font-bold text-xs font-mono">
+                              <XCircle className="w-4 h-4 text-rose-600" />
                               <span>言わない! (Don&apos;t say)</span>
                             </div>
-                            <div className="text-base font-bold font-japanese text-rose-200 line-through">
+                            <div className="text-base font-bold font-japanese text-rose-800 line-through">
                               {mistake.incorrect}
                             </div>
                           </div>
 
                           {/* ⭕ Correct */}
-                          <div className="p-3 rounded-2xl bg-emerald-950/40 border border-emerald-800/60 space-y-1">
+                          <div className="p-3 rounded-2xl bg-emerald-50 border border-emerald-200 space-y-1">
                             <div className="flex items-center justify-between">
-                              <div className="flex items-center space-x-1.5 text-emerald-400 font-bold text-xs font-mono">
-                                <CheckCircle className="w-4 h-4 text-emerald-500" />
+                              <div className="flex items-center space-x-1.5 text-emerald-700 font-bold text-xs font-mono">
+                                <CheckCircle className="w-4 h-4 text-emerald-600" />
                                 <span>○ Correct (အမှန်)</span>
                               </div>
                               <button
                                 onClick={(e) => handleSpeak(mistake.correct.replace('○ ', ''), e)}
-                                className="p-1 rounded text-zinc-400 hover:text-white"
+                                className="p-1 rounded text-emerald-700 hover:text-emerald-900 cursor-pointer"
                                 title="Play Audio"
                               >
-                                <Volume2 className="w-3.5 h-3.5 text-emerald-400" />
+                                <Volume2 className="w-3.5 h-3.5 text-emerald-600" />
                               </button>
                             </div>
-                            <div className="text-base font-bold font-japanese text-emerald-200">
+                            <div className="text-base font-bold font-japanese text-emerald-800">
                               {mistake.correct}
                             </div>
                           </div>
                         </div>
 
                         {/* Burmese Rule Warning */}
-                        <div className="text-xs text-amber-300 font-myanmar font-semibold">
+                        <div className="text-xs text-amber-800 font-myanmar font-semibold">
                           {mistake.warningBurmese}
                         </div>
 
                         {/* Explanation Rationale */}
-                        <div className="text-xs text-zinc-300 font-myanmar leading-relaxed bg-zinc-950/70 border border-zinc-800 rounded-2xl p-3.5 space-y-1">
-                          <span className="text-[10px] text-zinc-500 font-mono block uppercase">
+                        <div className="text-xs text-stone-700 font-myanmar leading-relaxed bg-stone-50 border border-stone-200 rounded-2xl p-3.5 space-y-1">
+                          <span className="text-[10px] text-stone-500 font-mono block uppercase">
                             ဘာသာစကားဆိုင်ရာ ရှင်းလင်းချက် (Rationale):
                           </span>
-                          <p className="whitespace-pre-line text-zinc-300">
+                          <p className="whitespace-pre-line text-stone-700">
                             {mistake.detailedExplanationMy}
                           </p>
                         </div>
 
                         {/* Example Sentences */}
                         <div className="space-y-1 text-xs">
-                          <span className="text-[10px] text-zinc-500 font-mono uppercase block">
+                          <span className="text-[10px] text-stone-500 font-mono uppercase block">
                             ဝါကျတွင်း နှိုင်းယှဉ်ချက် (Context):
                           </span>
-                          <div className="p-2.5 rounded-xl bg-zinc-950/90 border border-zinc-800 space-y-1 font-japanese">
-                            <div className="text-rose-400 line-through text-xs">
+                          <div className="p-2.5 rounded-xl bg-stone-50 border border-stone-200 space-y-1 font-japanese">
+                            <div className="text-rose-700 line-through text-xs">
                               {mistake.exampleContext.incorrectSentence}
                             </div>
-                            <div className="text-emerald-300 text-xs font-medium">
+                            <div className="text-emerald-800 text-xs font-medium">
                               {mistake.exampleContext.correctSentence}
                             </div>
-                            <div className="text-[11px] text-zinc-400 font-myanmar font-sans pt-0.5">
+                            <div className="text-[11px] text-stone-600 font-myanmar font-sans pt-0.5">
                               {mistake.exampleContext.sentenceMy}
                             </div>
                           </div>
@@ -761,7 +761,7 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
                 </div>
 
                 {filteredMistakes.length === 0 && (
-                  <div className="text-center py-12 text-zinc-500 text-xs font-myanmar">
+                  <div className="text-center py-12 text-stone-500 text-xs font-myanmar">
                     ရှာဖွေမှုနှင့် ကိုက်ညီသော အမှားပုံစံ မရှိပါ။
                   </div>
                 )}
