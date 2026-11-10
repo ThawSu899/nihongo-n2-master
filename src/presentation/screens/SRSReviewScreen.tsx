@@ -338,37 +338,37 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.35, ease: 'easeOut' }}
-        className="max-w-md mx-auto text-center py-12 px-6 sm:px-8 space-y-6 bg-stone-900/90 backdrop-blur-sm border border-stone-800 rounded-3xl shadow-2xl font-myanmar"
+        className="max-w-md mx-auto text-center py-12 px-6 sm:px-8 space-y-6 bg-white border border-stone-200 rounded-3xl shadow-sm font-myanmar"
       >
         <motion.div
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ type: 'spring', stiffness: 260, damping: 20, delay: 0.1 }}
-          className="w-20 h-20 rounded-full bg-emerald-950/90 border border-emerald-600/80 mx-auto flex items-center justify-center text-emerald-400 shadow-lg shadow-emerald-950/50"
+          className="w-20 h-20 rounded-full bg-emerald-50 border border-emerald-200 mx-auto flex items-center justify-center text-emerald-600 shadow-xs"
         >
           <CheckCircle className="w-10 h-10" />
         </motion.div>
 
         <div className="space-y-2">
-          <span className="text-[11px] font-mono uppercase tracking-widest text-emerald-400 font-semibold px-3 py-1 rounded-full bg-emerald-950/60 border border-emerald-800/60 inline-block">
+          <span className="text-[11px] font-mono uppercase tracking-widest text-emerald-700 font-semibold px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 inline-block">
             လေ့ကျင့်မှု ပြီးမြောက်ပါပြီ
           </span>
-          <h2 className="text-2xl font-bold text-stone-100 tracking-tight">ဒီကနေ့အတွက် အားလုံးပြီးပါပြီ!</h2>
-          <p className="text-xs text-stone-400 leading-relaxed max-w-sm mx-auto">
+          <h2 className="text-2xl font-bold text-stone-900 tracking-tight">ဒီကနေ့အတွက် အားလုံးပြီးပါပြီ!</h2>
+          <p className="text-xs text-stone-600 leading-relaxed max-w-sm mx-auto">
             မနက် ၄:၀၀ မတိုင်မီ ပြန်လည်လေ့ကျင့်ရန် ကျန်ရှိသော ကတ်များ မရှိတော့ပါ။ ခေတ္တအနားယူပါ သို့မဟုတ် သင်ခန်းစာများကို ဆက်လက်လေ့လာနိုင်ပါသည်။
           </p>
         </div>
 
         {reviewedCount > 0 && (
-          <div className="bg-stone-950/60 border border-stone-800/80 rounded-2xl p-4 flex items-center justify-around text-center">
+          <div className="bg-stone-50 border border-stone-200 rounded-2xl p-4 flex items-center justify-around text-center">
             <div>
-              <span className="text-2xl font-bold text-rose-400 font-mono">{reviewedCount}</span>
-              <p className="text-[10px] text-stone-400 uppercase tracking-wider mt-0.5">လေ့ကျင့်ပြီး</p>
+              <span className="text-2xl font-bold text-indigo-600 font-mono">{reviewedCount}</span>
+              <p className="text-[10px] text-stone-500 uppercase tracking-wider mt-0.5">လေ့ကျင့်ပြီး</p>
             </div>
-            <div className="h-8 w-px bg-stone-800" />
+            <div className="h-8 w-px bg-stone-200" />
             <div>
-              <span className="text-2xl font-bold text-emerald-400 font-mono">100%</span>
-              <p className="text-[10px] text-stone-400 uppercase tracking-wider mt-0.5">ပြီးစီးမှု</p>
+              <span className="text-2xl font-bold text-emerald-600 font-mono">100%</span>
+              <p className="text-[10px] text-stone-500 uppercase tracking-wider mt-0.5">ပြီးစီးမှု</p>
             </div>
           </div>
         )}
@@ -378,9 +378,9 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             onClick={() => setViewMode('ghosts')}
-            className="w-full py-3 rounded-2xl bg-rose-950/80 hover:bg-rose-900/80 border border-rose-500/50 text-rose-300 text-xs font-semibold tracking-wide transition shadow-lg flex items-center justify-center space-x-2 cursor-pointer"
+            className="w-full py-3 rounded-2xl bg-rose-50 hover:bg-rose-100 border border-rose-200 text-rose-700 text-xs font-semibold tracking-wide transition shadow-xs flex items-center justify-center space-x-2 cursor-pointer"
           >
-            <Flame className="w-4 h-4 text-rose-400" />
+            <Flame className="w-4 h-4 text-rose-600" />
             <span>သဒ္ဒါအားနည်းချက် ပြန်လေ့ကျင့်ရန် ({ghostCount} ခု)</span>
           </motion.button>
         )}
@@ -389,7 +389,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
           onClick={onBack}
-          className="w-full py-3.5 rounded-2xl bg-gradient-to-r from-rose-600 to-rose-500 hover:from-rose-500 hover:to-rose-400 text-white text-xs font-semibold tracking-wide transition shadow-lg shadow-rose-950/40 cursor-pointer"
+          className="w-full py-3.5 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold tracking-wide transition shadow-sm cursor-pointer"
         >
           ပင်မစာမျက်နှာသို့ ပြန်သွားမည်
         </motion.button>
@@ -422,18 +422,18 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
 
           <div className="flex items-center space-x-2 flex-wrap gap-y-1">
             {/* View Mode Toggle: Queue vs Ghosts */}
-            <div className="flex items-center bg-zinc-950/80 border border-zinc-800/80 rounded-full p-0.5 text-[10px] font-mono">
+            <div className="flex items-center bg-stone-200/80 border border-stone-300 rounded-full p-0.5 text-[10px] font-mono">
               <button
                 onClick={() => setViewMode('review')}
-                className="px-2.5 py-0.5 rounded-full transition cursor-pointer bg-rose-950 text-rose-300 font-bold border border-rose-500/40"
+                className="px-2.5 py-0.5 rounded-full transition cursor-pointer bg-indigo-600 text-white font-bold"
               >
                 SRS စာရင်း ({cards.length})
               </button>
               <button
                 onClick={() => setViewMode('ghosts')}
-                className="px-2.5 py-0.5 rounded-full transition flex items-center space-x-1 cursor-pointer text-zinc-500 hover:text-zinc-300"
+                className="px-2.5 py-0.5 rounded-full transition flex items-center space-x-1 cursor-pointer text-stone-600 hover:text-stone-900"
               >
-                <Flame className="w-2.5 h-2.5 text-amber-400" />
+                <Flame className="w-2.5 h-2.5 text-amber-500" />
                 <span>အားနည်းချက် ({ghostCount})</span>
               </button>
             </div>
@@ -444,8 +444,8 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                 onClick={() => setClozeMode(!clozeMode)}
                 className={`flex items-center space-x-1 px-2 py-0.5 rounded-full text-[10px] font-mono border transition cursor-pointer ${
                   clozeMode
-                    ? 'bg-indigo-950 text-indigo-300 border-indigo-500/50 font-bold'
-                    : 'bg-zinc-950 text-zinc-400 border-zinc-800 hover:text-zinc-200'
+                    ? 'bg-indigo-600 text-white border-indigo-600 font-bold shadow-2xs'
+                    : 'bg-white text-stone-600 border-stone-300 hover:text-stone-900'
                 }`}
                 title="Toggle between Cloze Active Production and Flip Card"
               >
@@ -455,15 +455,15 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
             )}
 
             {/* Auto-Advance Mode Toggle with Drawer Pause Indicator */}
-            <div className="flex items-center space-x-1.5 bg-zinc-950/80 border border-zinc-800/80 rounded-full px-2.5 py-0.5 text-[10px] font-mono">
-              <Clock className="w-3 h-3 text-zinc-400" />
+            <div className="flex items-center space-x-1.5 bg-stone-200/80 border border-stone-300 rounded-full px-2.5 py-0.5 text-[10px] font-mono">
+              <Clock className="w-3 h-3 text-stone-500" />
               {autoAdvanceSec > 0 && isDrawerOpen ? (
-                <span className="text-amber-400 font-semibold animate-pulse flex items-center space-x-1">
+                <span className="text-amber-800 font-semibold animate-pulse flex items-center space-x-1">
                   <Pause className="w-2.5 h-2.5 inline" />
                   <span>ခေတ္တရပ်ထားသည်</span>
                 </span>
               ) : autoAdvanceSec > 0 ? (
-                <span className="text-emerald-400 font-semibold">
+                <span className="text-emerald-700 font-semibold">
                   {timerRemaining}s
                 </span>
               ) : null}
@@ -475,26 +475,26 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                     return 0;
                   });
                 }}
-                className="hover:text-zinc-200 text-zinc-400 underline decoration-zinc-700 underline-offset-2 transition cursor-pointer"
+                className="hover:text-stone-900 text-stone-600 underline decoration-stone-400 underline-offset-2 transition cursor-pointer"
                 title="Toggle Auto-advance pace (pauses automatically when KanjiDrawer is open)"
               >
                 Auto: {autoAdvanceSec === 0 ? 'ပိတ်' : `${autoAdvanceSec}s`}
               </button>
             </div>
 
-            <span className="font-mono text-rose-400 font-semibold text-xs">
+            <span className="font-mono text-indigo-700 font-semibold text-xs">
               {currentIndex + 1} / {cards.length}
             </span>
-            <span className="px-2.5 py-0.5 rounded-full bg-stone-800/80 text-[10px] text-stone-300 border border-stone-700/80 font-mono">
+            <span className="px-2.5 py-0.5 rounded-full bg-stone-100 text-[10px] text-stone-600 border border-stone-200 font-mono">
               {ladderBand}
             </span>
           </div>
         </div>
 
         {/* Animated Progress Bar */}
-        <div className="w-full bg-stone-900 h-2 rounded-full overflow-hidden border border-stone-800/80">
+        <div className="w-full bg-stone-200 h-2 rounded-full overflow-hidden border border-stone-300">
           <motion.div
-            className="h-full bg-gradient-to-r from-rose-600 to-rose-400 rounded-full"
+            className="h-full bg-indigo-600 rounded-full"
             initial={false}
             animate={{ width: `${progressPct}%` }}
             transition={{ duration: 0.35, ease: 'easeOut' }}
@@ -509,14 +509,14 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
             initial={{ opacity: 0, height: 0, y: -6 }}
             animate={{ opacity: 1, height: 'auto', y: 0 }}
             exit={{ opacity: 0, height: 0 }}
-            className="bg-amber-950/40 border border-amber-800/60 rounded-2xl p-3.5 text-xs text-amber-300 flex items-start space-x-2.5 shadow-sm font-myanmar"
+            className="bg-amber-50 border border-amber-200 rounded-2xl p-3.5 text-xs text-amber-800 flex items-start space-x-2.5 shadow-2xs font-myanmar"
           >
-            <ShieldAlert className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+            <ShieldAlert className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
             <div className="space-y-0.5">
-              <span className="font-semibold text-amber-200">
+              <span className="font-semibold text-amber-900">
                 ခက်ခဲသောအချက်အဖြစ် သတ်မှတ်ထားသည် (အမှားအကြိမ်: {currentCard.lapses})
               </span>
-              <p className="text-[11px] text-amber-400/80 leading-relaxed">
+              <p className="text-[11px] text-amber-800 leading-relaxed">
                 ဤအချက်သည် အကြိမ်ကြိမ် မှားယွင်းဖူးပါသည်။ အလွတ်ကျက်မည့်အစား နမူနာဝါကျ သို့မဟုတ် မှတ်သားနည်း အထောက်အကူများဖြင့် တွဲစပ်မှတ်သားပါ။
               </p>
             </div>
@@ -544,11 +544,11 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ duration: 0.25, ease: 'easeOut' }}
               onClick={() => !isFlipped && setIsFlipped(true)}
-              className={`bg-zinc-900/80 backdrop-blur-xl border ${
+              className={`bg-white border ${
                 isFlipped
-                  ? 'border-rose-500/40 shadow-[0_0_30px_-6px_rgba(244,63,94,0.25)]'
-                  : 'border-zinc-800/80 hover:border-zinc-700/80 shadow-black/80'
-              } rounded-3xl p-6 sm:p-8 min-h-[340px] flex flex-col justify-between text-center cursor-pointer transition-colors shadow-2xl relative select-none`}
+                  ? 'border-indigo-400 ring-2 ring-indigo-500/10 shadow-md'
+                  : 'border-stone-200 hover:border-stone-300 shadow-sm'
+              } rounded-3xl p-6 sm:p-8 min-h-[340px] flex flex-col justify-between text-center cursor-pointer transition-colors relative select-none`}
             >
           {/* Card Meta Badges */}
           <div className="flex justify-between items-center text-[10px] font-mono">
@@ -557,7 +557,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
             >
               {typeStyle.label}
             </span>
-            <span className="px-2.5 py-1 rounded-full bg-zinc-950/80 border border-zinc-800 text-zinc-400 uppercase tracking-wider">
+            <span className="px-2.5 py-1 rounded-full bg-stone-100 border border-stone-200 text-stone-600 uppercase tracking-wider">
               {currentCard.facet}
             </span>
           </div>
@@ -566,13 +566,13 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
           <div className="my-auto py-6 space-y-4">
             <motion.div
               layout
-              className="text-4xl sm:text-5xl md:text-6xl font-bold font-japanese text-zinc-100 tracking-tight leading-normal"
+              className="text-4xl sm:text-5xl md:text-6xl font-bold font-japanese text-stone-900 tracking-tight leading-normal"
             >
               <InteractiveKanjiText
                 text={currentCard.prompt}
                 sentenceContext={currentCard.exampleSentence || currentCard.prompt}
                 onInspectKanji={handleInspectKanji}
-                kanjiClassName="hover:text-rose-300"
+                kanjiClassName="hover:text-indigo-600"
               />
             </motion.div>
 
@@ -585,32 +585,32 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.2 }}
-                  className="space-y-3 pt-4 border-t border-zinc-800/80 font-myanmar"
+                  className="space-y-3 pt-4 border-t border-stone-200 font-myanmar"
                 >
                   {currentCard.reading && (
-                    <div className="text-xl sm:text-2xl text-rose-300 font-japanese font-medium tracking-wide">
+                    <div className="text-xl sm:text-2xl text-indigo-700 font-japanese font-medium tracking-wide">
                       {currentCard.reading}
                     </div>
                   )}
 
-                  <div className="text-xl sm:text-2xl font-bold text-zinc-100 tracking-tight">
+                  <div className="text-xl sm:text-2xl font-bold text-stone-900 tracking-tight">
                     {(currentCard as any).meaningMyanmar || currentCard.meaning}
                   </div>
 
                   {(currentCard as any).meaningMyanmar && currentCard.meaning && (currentCard as any).meaningMyanmar !== currentCard.meaning && (
-                    <div className="text-xs text-zinc-400 font-sans">
+                    <div className="text-xs text-stone-600 font-sans">
                       {currentCard.meaning}
                     </div>
                   )}
 
                   {currentCard.exampleSentence && (
-                    <div className="text-xs sm:text-sm text-zinc-300 italic bg-zinc-950/70 p-3.5 rounded-2xl border border-zinc-800/80 max-w-md mx-auto leading-relaxed shadow-inner">
+                    <div className="text-xs sm:text-sm text-stone-700 italic bg-stone-50 p-3.5 rounded-2xl border border-stone-200 max-w-md mx-auto leading-relaxed shadow-2xs">
                       &ldquo;
                       <InteractiveKanjiText
                         text={currentCard.exampleSentence}
                         sentenceContext={currentCard.exampleSentence}
                         onInspectKanji={handleInspectKanji}
-                        kanjiClassName="hover:text-rose-300 not-italic"
+                        kanjiClassName="hover:text-indigo-600 not-italic"
                       />
                       &rdquo;
                     </div>
@@ -621,10 +621,10 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                   key="prompt-hint"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  className="pt-4 flex items-center justify-center space-x-1.5 text-xs text-zinc-500 font-myanmar"
+                  className="pt-4 flex items-center justify-center space-x-1.5 text-xs text-stone-500 font-myanmar"
                 >
-                  <Sparkles className="w-3.5 h-3.5 text-zinc-600 animate-pulse" />
-                  <span>ကတ်ကို နှိပ်ပါ သို့မဟုတ် <kbd className="px-1.5 py-0.5 rounded bg-zinc-800 border border-zinc-700 text-[10px] text-zinc-300 font-mono">{getDisplayBadge('FLIP_CARD')}</kbd> ကို နှိပ်ပါ</span>
+                  <Sparkles className="w-3.5 h-3.5 text-stone-400 animate-pulse" />
+                  <span>ကတ်ကို နှိပ်ပါ သို့မဟုတ် <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-300 text-[10px] text-stone-700 font-mono">{getDisplayBadge('FLIP_CARD')}</kbd> ကို နှိပ်ပါ</span>
                 </motion.div>
               )}
             </AnimatePresence>
@@ -650,9 +650,9 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                 className={`p-3 rounded-full ${
                   isPlaying &&
                   (currentPlayingText === currentCard.prompt || currentPlayingText === currentCard.reading)
-                    ? 'bg-rose-600 text-white ring-4 ring-rose-500/40 shadow-[0_0_16px_rgba(244,63,94,0.5)] animate-pulse'
-                    : 'bg-zinc-800 hover:bg-zinc-700 text-zinc-200'
-                } border border-zinc-700/80 transition-colors shadow-md cursor-pointer`}
+                    ? 'bg-indigo-600 text-white ring-4 ring-indigo-500/20 shadow-md animate-pulse'
+                    : 'bg-stone-100 hover:bg-stone-200 text-stone-700'
+                } border border-stone-300 transition-colors shadow-2xs cursor-pointer`}
                 title={
                   isPlaying &&
                   (currentPlayingText === currentCard.prompt || currentPlayingText === currentCard.reading)
@@ -666,7 +666,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
               {/* TTS Speed Controls (0.75x, 1.0x, 1.25x, 1.5x) */}
               <div
                 onClick={(e) => e.stopPropagation()}
-                className="flex items-center space-x-1 bg-zinc-900/90 px-2 py-1 rounded-xl border border-zinc-800 text-xs font-mono"
+                className="flex items-center space-x-1 bg-stone-100 px-2 py-1 rounded-xl border border-stone-200 text-xs font-mono"
               >
                 {[0.75, 1.0, 1.25, 1.5].map((spd) => (
                   <button
@@ -675,8 +675,8 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                     onClick={() => setPlaybackRate(spd)}
                     className={`px-1.5 py-0.5 rounded text-[11px] transition cursor-pointer ${
                       playbackRate === spd
-                        ? 'bg-rose-600 text-white font-bold shadow-xs'
-                        : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800'
+                        ? 'bg-indigo-600 text-white font-bold shadow-2xs'
+                        : 'text-stone-600 hover:text-stone-900 hover:bg-stone-200'
                     }`}
                   >
                     {spd}x
@@ -688,7 +688,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
         </motion.div>
       </div>
 
-      {/* Action Controls & Rating Bar with Semantic Neon Glow Borders */}
+      {/* Action Controls & Rating Bar */}
       <AnimatePresence mode="wait">
         {isFlipped ? (
           <motion.div
@@ -704,63 +704,63 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                 whileHover={{ scale: 1.02, y: -2 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={() => handleRate('again')}
-                className="py-3 px-3 rounded-2xl bg-zinc-950/90 border border-rose-500/40 hover:bg-rose-950/60 text-rose-300 font-semibold text-xs transition shadow-[0_0_16px_-4px_rgba(244,63,94,0.3)] hover:shadow-[0_0_24px_-2px_rgba(244,63,94,0.5)] flex flex-col items-center justify-center relative group cursor-pointer"
+                className="py-3 px-3 rounded-2xl bg-rose-50 border border-rose-200 hover:bg-rose-100 text-rose-800 font-semibold text-xs transition shadow-2xs flex flex-col items-center justify-center relative group cursor-pointer"
               >
                 <span className="flex items-center space-x-1">
                   <span>ထပ်လုပ်မည်</span>
-                  <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-rose-950/80 border border-rose-500/40 text-rose-300 font-mono font-normal">
+                  <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-rose-100 border border-rose-300 text-rose-800 font-mono font-normal">
                     {getDisplayBadge('SRS_AGAIN')}
                   </span>
                 </span>
-                <span className="text-[10px] text-rose-400/80 font-normal mt-1">&lt; 10 မိနစ်</span>
+                <span className="text-[10px] text-rose-700 font-normal mt-1">&lt; 10 မိနစ်</span>
               </motion.button>
 
               <motion.button
                 whileHover={{ scale: 1.02, y: -2 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={() => handleRate('hard')}
-                className="py-3 px-3 rounded-2xl bg-zinc-950/90 border border-amber-500/40 hover:bg-amber-950/60 text-amber-300 font-semibold text-xs transition shadow-[0_0_16px_-4px_rgba(245,158,11,0.3)] hover:shadow-[0_0_24px_-2px_rgba(245,158,11,0.5)] flex flex-col items-center justify-center relative group cursor-pointer"
+                className="py-3 px-3 rounded-2xl bg-amber-50 border border-amber-200 hover:bg-amber-100 text-amber-800 font-semibold text-xs transition shadow-2xs flex flex-col items-center justify-center relative group cursor-pointer"
               >
                 <span className="flex items-center space-x-1">
                   <span>ခက်သည်</span>
-                  <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-amber-950/80 border border-amber-500/40 text-amber-300 font-mono font-normal">
+                  <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-amber-100 border border-amber-300 text-amber-800 font-mono font-normal">
                     {getDisplayBadge('SRS_HARD')}
                   </span>
                 </span>
-                <span className="text-[10px] text-amber-400/80 font-normal mt-1">1.2x</span>
+                <span className="text-[10px] text-amber-700 font-normal mt-1">1.2x</span>
               </motion.button>
 
               <motion.button
                 whileHover={{ scale: 1.02, y: -2 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={() => handleRate('good')}
-                className="py-3 px-3 rounded-2xl bg-zinc-950/90 border border-emerald-500/40 hover:bg-emerald-950/60 text-emerald-300 font-semibold text-xs transition shadow-[0_0_16px_-4px_rgba(16,185,129,0.3)] hover:shadow-[0_0_24px_-2px_rgba(16,185,129,0.5)] flex flex-col items-center justify-center relative group cursor-pointer"
+                className="py-3 px-3 rounded-2xl bg-emerald-50 border border-emerald-200 hover:bg-emerald-100 text-emerald-800 font-semibold text-xs transition shadow-2xs flex flex-col items-center justify-center relative group cursor-pointer"
               >
                 <span className="flex items-center space-x-1">
                   <span>ကောင်းသည်</span>
-                  <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-emerald-950/80 border border-emerald-500/40 text-emerald-300 font-mono font-normal">
+                  <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-emerald-100 border border-emerald-300 text-emerald-800 font-mono font-normal">
                     {getDisplayBadge('SRS_GOOD')}
                   </span>
                 </span>
-                <span className="text-[10px] text-emerald-400/80 font-normal mt-1">ပုံမှန်</span>
+                <span className="text-[10px] text-emerald-700 font-normal mt-1">ပုံမှန်</span>
               </motion.button>
 
               <motion.button
                 whileHover={{ scale: 1.02, y: -2 }}
                 whileTap={{ scale: 0.97 }}
                 onClick={() => handleRate('easy')}
-                className="py-3 px-3 rounded-2xl bg-zinc-950/90 border border-indigo-500/40 hover:bg-indigo-950/60 text-indigo-300 font-semibold text-xs transition shadow-[0_0_16px_-4px_rgba(99,102,241,0.3)] hover:shadow-[0_0_24px_-2px_rgba(99,102,241,0.5)] flex flex-col items-center justify-center relative group cursor-pointer"
+                className="py-3 px-3 rounded-2xl bg-indigo-50 border border-indigo-200 hover:bg-indigo-100 text-indigo-800 font-semibold text-xs transition shadow-2xs flex flex-col items-center justify-center relative group cursor-pointer"
               >
                 <span className="flex items-center space-x-1">
                   <span>လွယ်ကူသည်</span>
-                  <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-indigo-950/80 border border-indigo-500/40 text-indigo-300 font-mono font-normal">
+                  <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-indigo-100 border border-indigo-300 text-indigo-800 font-mono font-normal">
                     {getDisplayBadge('SRS_EASY')}
                   </span>
                 </span>
-                <span className="text-[10px] text-indigo-400/80 font-normal mt-1">1.3x+</span>
+                <span className="text-[10px] text-indigo-700 font-normal mt-1">1.3x+</span>
               </motion.button>
             </div>
-            <p className="text-[10px] text-center text-zinc-500 font-mono">
+            <p className="text-[10px] text-center text-stone-500 font-mono">
               ကီးဘုတ်ရှိ နံပါတ်ခလုတ် [{getDisplayBadge('SRS_AGAIN')}], [{getDisplayBadge('SRS_HARD')}], [{getDisplayBadge('SRS_GOOD')}], [{getDisplayBadge('SRS_EASY')}] များကို နှိပ်နိုင်ပါသည်
             </p>
           </motion.div>
@@ -776,10 +776,10 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
               whileHover={{ scale: 1.01 }}
               whileTap={{ scale: 0.98 }}
               onClick={() => setIsFlipped(true)}
-              className="w-full py-4 rounded-2xl bg-zinc-900/90 hover:bg-zinc-800/90 border border-zinc-700/80 text-zinc-100 font-semibold text-xs tracking-wide transition shadow-lg flex items-center justify-center space-x-2 cursor-pointer"
+              className="w-full py-4 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-xs tracking-wide transition shadow-sm flex items-center justify-center space-x-2 cursor-pointer"
             >
               <span>အဖြေကြည့်မည် (Show Answer)</span>
-              <kbd className="px-2 py-0.5 rounded bg-zinc-950 border border-zinc-700 text-[10px] text-zinc-400 font-mono">
+              <kbd className="px-2 py-0.5 rounded bg-indigo-700 text-indigo-100 text-[10px] font-mono">
                 {getDisplayBadge('FLIP_CARD')}
               </kbd>
             </motion.button>

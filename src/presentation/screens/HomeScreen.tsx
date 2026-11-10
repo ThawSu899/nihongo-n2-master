@@ -570,7 +570,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
               </p>
             </div>
           </div>
-          <ChevronRight className="w-4 h-4 text-zinc-500 group-hover:text-zinc-200 transition shrink-0" />
+          <ChevronRight className="w-4 h-4 text-stone-400 group-hover:text-stone-700 transition shrink-0" />
         </div>
 
         {/* JLPT Timed Mock Exam Simulator */}

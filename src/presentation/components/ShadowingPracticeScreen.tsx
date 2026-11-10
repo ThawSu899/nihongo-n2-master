@@ -304,24 +304,24 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
 
   return (
     <div
-      className={`bg-stone-900 border border-stone-800 rounded-3xl p-6 sm:p-8 space-y-6 shadow-2xl ${className}`}
+      className={`bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm ${className}`}
     >
       {/* Header */}
       <div className="space-y-1.5">
-        <span className="text-xs uppercase font-mono tracking-wider text-rose-400 font-semibold px-2.5 py-0.5 rounded-full bg-rose-950/60 border border-rose-900/60 inline-flex items-center gap-1.5">
-          <Mic className="w-3 h-3 text-rose-400" />
+        <span className="text-xs uppercase font-mono tracking-wider text-rose-700 font-semibold px-2.5 py-0.5 rounded-full bg-rose-50 border border-rose-200 inline-flex items-center gap-1.5">
+          <Mic className="w-3 h-3 text-rose-600" />
           <span>အဆင့် ၁၀ • လိုက်ဆိုလေ့ကျင့်ခြင်း (Shadowing)</span>
         </span>
-        <h2 className="text-xl sm:text-2xl font-bold text-stone-100 font-myanmar">
+        <h2 className="text-xl sm:text-2xl font-bold text-stone-900 font-myanmar">
           နားထောင်ပါ၊ လိုက်ဆိုပါ၊ ကိုယ်တိုင်အကဲဖြတ်ပါ
         </h2>
-        <p className="text-xs sm:text-sm text-stone-400 font-myanmar leading-relaxed">
+        <p className="text-xs sm:text-sm text-stone-600 font-myanmar leading-relaxed">
           ဂျပန်အသံထွက်ကို နားထောင်ပြီး ချက်ချင်းလိုက်ဆိုပါ။ မိမိအသံကို အသံဖမ်းယူပြီး လှိုင်းပုံစံနှင့် အသံအတက်အကျ (Pitch Accent) ကို စစ်ဆေးနိုင်ပါသည်။
         </p>
       </div>
 
       {/* Continuous Shadowing Loop & Audio Studio Control Bar */}
-      <div className="bg-stone-950/90 border border-stone-800/90 rounded-2xl p-4 sm:p-5 space-y-3 shadow-inner">
+      <div className="bg-stone-50 border border-stone-200 rounded-2xl p-4 sm:p-5 space-y-3 shadow-xs">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           {/* Main Continuous Loop Toggle */}
           <button
@@ -329,8 +329,8 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
             onClick={handleToggleLoop}
             className={`px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold font-myanmar flex items-center justify-center space-x-2 transition cursor-pointer ${
               isShadowingLoop
-                ? 'bg-amber-500 hover:bg-amber-400 text-stone-950 shadow-[0_0_20px_rgba(245,158,11,0.35)] font-bold'
-                : 'bg-rose-600 hover:bg-rose-500 text-white shadow-[0_0_15px_rgba(244,63,94,0.3)]'
+                ? 'bg-amber-500 hover:bg-amber-400 text-stone-950 shadow-xs font-bold'
+                : 'bg-indigo-600 hover:bg-indigo-700 text-white shadow-xs'
             }`}
           >
             <Repeat className={`w-4 h-4 ${isShadowingLoop ? 'animate-spin' : ''}`} />
@@ -349,12 +349,12 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
               onClick={() => setShowPitchContour((prev) => !prev)}
               className={`px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center space-x-1.5 transition cursor-pointer border ${
                 showPitchContour
-                  ? 'bg-cyan-950/80 border-cyan-500/60 text-cyan-300 shadow-[0_0_12px_rgba(6,182,212,0.25)]'
-                  : 'bg-stone-900 border-stone-800 text-stone-400 hover:text-stone-200'
+                  ? 'bg-cyan-50 border-cyan-300 text-cyan-800 shadow-xs'
+                  : 'bg-white border-stone-200 text-stone-600 hover:text-stone-900'
               }`}
               title="Pitch Accent Contour Toggle"
             >
-              <Activity className="w-3.5 h-3.5 text-cyan-400" />
+              <Activity className="w-3.5 h-3.5 text-cyan-600" />
               <span>{`Pitch Contour: ${showPitchContour ? 'ON' : 'OFF'}`}</span>
             </button>
 
@@ -364,23 +364,23 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
               onClick={() => setShowFurigana((prev) => !prev)}
               className={`px-3 py-1.5 rounded-xl text-xs font-semibold flex items-center space-x-1.5 transition cursor-pointer border ${
                 showFurigana
-                  ? 'bg-indigo-950/80 border-indigo-500/60 text-indigo-300 shadow-[0_0_12px_rgba(99,102,241,0.25)]'
-                  : 'bg-stone-900 border-stone-800 text-stone-400 hover:text-stone-200'
+                  ? 'bg-indigo-50 border-indigo-300 text-indigo-700 shadow-xs'
+                  : 'bg-white border-stone-200 text-stone-600 hover:text-stone-900'
               }`}
               title="Furigana Toggle"
             >
               {showFurigana ? (
-                <Eye className="w-3.5 h-3.5 text-indigo-400" />
+                <Eye className="w-3.5 h-3.5 text-indigo-600" />
               ) : (
-                <EyeOff className="w-3.5 h-3.5 text-stone-500" />
+                <EyeOff className="w-3.5 h-3.5 text-stone-400" />
               )}
               <span>{`Furigana: ${showFurigana ? 'ON' : 'OFF'}`}</span>
             </button>
 
             {/* Playback Rate Pills (0.75x, 0.9x, 1.0x, 1.25x) */}
             {setPlaybackRate && (
-              <div className="flex items-center space-x-1 bg-stone-900 px-2 py-1 rounded-xl border border-stone-800">
-                <span className="text-[11px] text-stone-400 font-myanmar mr-1">အမြန်နှုန်း:</span>
+              <div className="flex items-center space-x-1 bg-white px-2 py-1 rounded-xl border border-stone-200 shadow-xs">
+                <span className="text-[11px] text-stone-600 font-myanmar mr-1">အမြန်နှုန်း:</span>
                 {[0.75, 0.9, 1.0, 1.25].map((rate) => (
                   <button
                     key={rate}
@@ -388,8 +388,8 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
                     onClick={() => setPlaybackRate(rate)}
                     className={`px-2 py-0.5 rounded-lg text-xs font-mono transition cursor-pointer ${
                       playbackRate === rate
-                        ? 'bg-rose-600 text-white font-bold shadow-xs'
-                        : 'bg-stone-850 text-stone-400 hover:text-stone-200'
+                        ? 'bg-indigo-600 text-white font-bold shadow-xs'
+                        : 'text-stone-600 hover:text-stone-900'
                     }`}
                   >
                     {rate}x
@@ -401,9 +401,9 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
         </div>
 
         {/* Configurable Speaker Turn Delay Pills (1.0s, 1.5s, 2.0s, 2.5s, 3.0s) */}
-        <div className="pt-2 border-t border-stone-850 flex flex-wrap items-center justify-between gap-2 text-xs">
-          <div className="flex items-center space-x-1.5 text-stone-400 font-myanmar">
-            <Clock className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+        <div className="pt-2 border-t border-stone-200 flex flex-wrap items-center justify-between gap-2 text-xs">
+          <div className="flex items-center space-x-1.5 text-stone-600 font-myanmar">
+            <Clock className="w-3.5 h-3.5 text-amber-600 shrink-0" />
             <span>လိုက်ဆိုရန် ကြားကာလ (Turn Delay):</span>
           </div>
           <div className="flex items-center space-x-1 font-mono">
@@ -414,8 +414,8 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
                 onClick={() => handleSelectDelay(delayMs)}
                 className={`px-2 py-0.5 rounded-lg text-[11px] transition cursor-pointer ${
                   currentDelay === delayMs
-                    ? 'bg-amber-400 text-stone-950 font-bold shadow-xs'
-                    : 'bg-stone-900 border border-stone-800 text-stone-400 hover:text-stone-200'
+                    ? 'bg-amber-500 text-stone-950 font-bold shadow-xs'
+                    : 'bg-white border border-stone-200 text-stone-600 hover:text-stone-900'
                 }`}
               >
                 {delayMs / 1000}s
@@ -426,8 +426,8 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
 
         {/* Live Loop Status Feedback */}
         {isShadowingLoop && (
-          <div className="pt-1 text-[11px] text-amber-300 font-myanmar flex items-center space-x-1.5 animate-pulse">
-            <Sparkles className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+          <div className="pt-1 text-[11px] text-amber-700 font-myanmar flex items-center space-x-1.5 animate-pulse">
+            <Sparkles className="w-3.5 h-3.5 text-amber-600 shrink-0" />
             <span>
               {activeTurnIndex >= 0
                 ? `စကားပြောသူ ${turns[activeTurnIndex]?.speaker || 'Turn'} • သင့်အလှည့် လိုက်ဆိုပါ (${currentDelay / 1000}s ကြားကာလ)`
@@ -477,13 +477,13 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
           return (
             <div
               key={i}
-              className={`bg-stone-950 border ${
+              className={`bg-white border ${
                 isHighlighted
-                  ? 'border-amber-500/80 shadow-[0_0_16px_rgba(245,158,11,0.2)] ring-1 ring-amber-500/40'
+                  ? 'border-amber-400 shadow-sm ring-1 ring-amber-400/30'
                   : isThisTurnRecording
-                  ? 'border-rose-500/80 shadow-[0_0_20px_rgba(244,63,94,0.3)] ring-1 ring-rose-500/50'
-                  : 'border-stone-800 hover:border-stone-700/80'
-              } rounded-2xl p-4 sm:p-5 space-y-3 shadow-inner transition-colors duration-200`}
+                  ? 'border-rose-400 shadow-sm ring-1 ring-rose-400/40'
+                  : 'border-stone-200 hover:border-stone-300'
+              } rounded-2xl p-4 sm:p-5 space-y-3 shadow-xs transition-colors duration-200`}
             >
               {/* Speaker Header & Controls */}
               <div className="flex items-center justify-between flex-wrap gap-2">
@@ -491,10 +491,10 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
                   <span
                     className={`text-xs font-bold font-mono px-2 py-0.5 rounded-md ${
                       isSensei
-                        ? 'bg-amber-950/60 text-amber-300 border border-amber-800/60'
+                        ? 'bg-amber-50 text-amber-800 border border-amber-200'
                         : isKen
-                        ? 'bg-cyan-950/60 text-cyan-300 border border-cyan-800/60'
-                        : 'bg-rose-950/60 text-rose-300 border border-rose-900/60'
+                        ? 'bg-cyan-50 text-cyan-800 border border-cyan-200'
+                        : 'bg-rose-50 text-rose-800 border border-rose-200'
                     }`}
                   >
                     {turn.speaker}
@@ -511,10 +511,10 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     onClick={() => handlePlaySingleTurn(turn, i)}
-                    className={`px-3 py-1.5 rounded-xl text-xs flex items-center space-x-1.5 transition cursor-pointer shadow-sm ${
+                    className={`px-3 py-1.5 rounded-xl text-xs flex items-center space-x-1.5 transition cursor-pointer shadow-xs ${
                       isHighlighted
                         ? 'bg-amber-500 text-stone-950 font-bold animate-pulse'
-                        : 'bg-stone-800 hover:bg-stone-700 text-stone-300'
+                        : 'bg-white hover:bg-stone-50 border border-stone-200 text-stone-700'
                     }`}
                   >
                     <Volume2 className="w-3.5 h-3.5" />
@@ -534,10 +534,10 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
                         handleStartRecording(i);
                       }
                     }}
-                    className={`px-3 py-1.5 rounded-xl text-xs flex items-center space-x-1.5 transition cursor-pointer shadow-sm ${
+                    className={`px-3 py-1.5 rounded-xl text-xs flex items-center space-x-1.5 transition cursor-pointer shadow-xs ${
                       isThisTurnRecording
                         ? 'bg-rose-600 text-white font-bold animate-pulse ring-2 ring-rose-400'
-                        : 'bg-stone-800 hover:bg-stone-700 text-stone-300'
+                        : 'bg-white hover:bg-stone-50 border border-stone-200 text-stone-700'
                     }`}
                     title={isThisTurnRecording ? 'အသံဖမ်းယူမှု ရပ်မည်' : 'မိမိအသံ ဖမ်းယူမည်'}
                   >
@@ -548,7 +548,7 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
                       </>
                     ) : (
                       <>
-                        <Mic className="w-3.5 h-3.5 text-rose-400" />
+                        <Mic className="w-3.5 h-3.5 text-rose-600" />
                         <span className="font-myanmar">အသံဖမ်းမည်</span>
                       </>
                     )}
@@ -560,10 +560,10 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                       onClick={() => handlePlayUserRecording(i)}
-                      className={`px-3 py-1.5 rounded-xl text-xs flex items-center space-x-1.5 transition cursor-pointer shadow-sm ${
+                      className={`px-3 py-1.5 rounded-xl text-xs flex items-center space-x-1.5 transition cursor-pointer shadow-xs ${
                         isPlayingUser
-                          ? 'bg-emerald-500 text-stone-950 font-bold'
-                          : 'bg-emerald-950/70 border border-emerald-600/50 text-emerald-300 hover:bg-emerald-900/80'
+                          ? 'bg-emerald-600 text-white font-bold'
+                          : 'bg-emerald-50 border border-emerald-200 text-emerald-800 hover:bg-emerald-100'
                       }`}
                       title="မိမိအသံ ပြန်ဖွင့်မည်"
                     >
@@ -577,11 +577,11 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
               </div>
 
               {/* Japanese dialogue line with Furigana Toggle */}
-              <div className="text-base sm:text-lg font-japanese font-medium text-stone-100 leading-relaxed">
+              <div className="text-base sm:text-lg font-japanese font-medium text-stone-900 leading-relaxed">
                 {showFurigana && turn.kana && turn.kana !== turn.ja ? (
                   <ruby>
                     {turn.ja || turn.text}
-                    <rt className="text-xs text-indigo-300 font-mono font-normal opacity-85 select-none">
+                    <rt className="text-xs text-indigo-700 font-mono font-normal opacity-85 select-none">
                       {turn.kana}
                     </rt>
                   </ruby>
@@ -607,14 +607,14 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
 
               {/* Real-time PCM Waveform & Rhythm Comparator */}
               {showWaveformComparator && (
-                <div className="bg-stone-900/70 border border-stone-850 rounded-xl p-3 space-y-2">
-                  <div className="flex items-center justify-between text-[11px] text-stone-400 font-mono">
+                <div className="bg-stone-50 border border-stone-200 rounded-xl p-3 space-y-2">
+                  <div className="flex items-center justify-between text-[11px] text-stone-600 font-mono">
                     <span className="flex items-center gap-1.5">
-                      <Radio className="w-3.5 h-3.5 text-indigo-400" />
+                      <Radio className="w-3.5 h-3.5 text-indigo-600" />
                       <span>Waveform & Cadence Comparator</span>
                     </span>
                     {isThisTurnRecording && (
-                      <span className="text-rose-400 font-semibold animate-pulse flex items-center gap-1">
+                      <span className="text-rose-600 font-semibold animate-pulse flex items-center gap-1">
                         <span className="w-2 h-2 rounded-full bg-rose-500 animate-ping inline-block" />
                         Live PCM: {pcmLevel}%
                       </span>
@@ -624,10 +624,10 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
                   {/* Dual-Track Visualizer: Target Cadence vs User Input */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
                     {/* Track 1: Target Model Audio Cadence */}
-                    <div className="bg-stone-950/80 rounded-lg p-2 border border-stone-800/80 flex flex-col justify-between h-14">
+                    <div className="bg-white rounded-lg p-2 border border-stone-200 flex flex-col justify-between h-14">
                       <div className="flex items-center justify-between text-[10px] text-stone-500">
                         <span>Model Target Cadence (မူရင်းပုံစံ)</span>
-                        <span className="font-mono text-indigo-400">NHK Standard</span>
+                        <span className="font-mono text-indigo-600">NHK Standard</span>
                       </div>
                       <div className="flex items-end gap-1 h-6">
                         {[40, 65, 85, 60, 95, 70, 50, 80, 45, 90, 75, 55].map((val, idx) => (
@@ -635,8 +635,8 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
                             key={idx}
                             className={`flex-1 rounded-sm transition-all duration-200 ${
                               isHighlighted
-                                ? 'bg-indigo-400 shadow-[0_0_8px_rgba(129,140,248,0.5)]'
-                                : 'bg-stone-700/60'
+                                ? 'bg-indigo-600 shadow-xs'
+                                : 'bg-stone-200'
                             }`}
                             style={{ height: `${val}%` }}
                           />
@@ -645,10 +645,10 @@ export const ShadowingPracticeScreen: React.FC<ShadowingPracticeScreenProps> = (
                     </div>
 
                     {/* Track 2: Learner Recording / Live Input Track */}
-                    <div className="bg-stone-950/80 rounded-lg p-2 border border-stone-800/80 flex flex-col justify-between h-14">
+                    <div className="bg-white rounded-lg p-2 border border-stone-200 flex flex-col justify-between h-14">
                       <div className="flex items-center justify-between text-[10px] text-stone-500">
                         <span>Your Voice Track (မိမိအသံ)</span>
-                        <span className="font-mono text-rose-400">
+                        <span className="font-mono text-rose-600">
                           {isThisTurnRecording
                             ? 'Recording...'
                             : hasUserRecording

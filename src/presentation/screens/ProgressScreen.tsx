@@ -85,52 +85,52 @@ export const ProgressScreen: React.FC<ProgressScreenProps> = ({
     <div className="space-y-6 max-w-4xl mx-auto pb-24">
       {/* Header */}
       <div>
-        <h1 className="text-2xl font-bold text-zinc-100 tracking-tight">Progress &amp; Learning Analytics</h1>
-        <p className="text-xs text-zinc-400 mt-0.5">
+        <h1 className="text-2xl font-bold text-stone-900 tracking-tight">Progress &amp; Learning Analytics</h1>
+        <p className="text-xs text-stone-600 mt-0.5">
           Metrics derived from your append-only local event log. Learner data is stored exclusively offline on your device.
         </p>
       </div>
 
-      {/* Metrics Grid with Obsidian Glass & Neon Accents */}
+      {/* Metrics Grid with Clean Paper Styling */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-        <div className="bg-zinc-900/80 backdrop-blur-xl border border-zinc-800/80 rounded-2xl p-4.5 space-y-1.5 shadow-xl hover:border-zinc-700/80 transition">
-          <span className="text-[10px] text-zinc-400 uppercase font-semibold font-mono">Total Study Time</span>
-          <div className="text-2xl font-bold font-mono text-zinc-100">{totalHours}h</div>
-          <p className="text-[10px] text-zinc-500">{totalSessions} recorded sessions</p>
+        <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-1.5 shadow-sm hover:border-stone-300 transition">
+          <span className="text-[10px] text-stone-600 uppercase font-semibold font-mono">Total Study Time</span>
+          <div className="text-2xl font-bold font-mono text-stone-900">{totalHours}h</div>
+          <p className="text-[10px] text-stone-500">{totalSessions} recorded sessions</p>
         </div>
 
-        <div className="bg-zinc-900/80 backdrop-blur-xl border border-zinc-800/80 rounded-2xl p-4.5 space-y-1.5 shadow-xl hover:border-rose-500/40 transition">
-          <span className="text-[10px] text-rose-400 uppercase font-semibold font-mono">Mastered Lessons</span>
-          <div className="text-2xl font-bold font-mono text-rose-300">{masteredCount}</div>
-          <p className="text-[10px] text-zinc-500">of 174 total curriculum</p>
+        <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-1.5 shadow-sm hover:border-stone-300 transition">
+          <span className="text-[10px] text-rose-700 uppercase font-semibold font-mono">Mastered Lessons</span>
+          <div className="text-2xl font-bold font-mono text-rose-700">{masteredCount}</div>
+          <p className="text-[10px] text-stone-500">of 174 total curriculum</p>
         </div>
 
-        <div className="bg-zinc-900/80 backdrop-blur-xl border border-zinc-800/80 rounded-2xl p-4.5 space-y-1.5 shadow-xl hover:border-indigo-500/40 transition">
-          <span className="text-[10px] text-indigo-400 uppercase font-semibold font-mono">Active SRS Cards</span>
-          <div className="text-2xl font-bold font-mono text-indigo-300">{totalCards}</div>
-          <p className="text-[10px] text-zinc-500">Multi-facet retention cards</p>
+        <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-1.5 shadow-sm hover:border-stone-300 transition">
+          <span className="text-[10px] text-indigo-700 uppercase font-semibold font-mono">Active SRS Cards</span>
+          <div className="text-2xl font-bold font-mono text-indigo-700">{totalCards}</div>
+          <p className="text-[10px] text-stone-500">Multi-facet retention cards</p>
         </div>
 
-        <div className="bg-zinc-900/80 backdrop-blur-xl border border-zinc-800/80 rounded-2xl p-4.5 space-y-1.5 shadow-xl hover:border-emerald-500/40 transition">
-          <span className="text-[10px] text-emerald-400 uppercase font-semibold font-mono">30-Day True Retention</span>
-          <div className="text-2xl font-bold font-mono text-emerald-300">{Math.round(trueRetention * 100)}%</div>
-          <p className="text-[10px] text-zinc-500">Target: ≥ 90% (FSRS)</p>
+        <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-1.5 shadow-sm hover:border-stone-300 transition">
+          <span className="text-[10px] text-emerald-700 uppercase font-semibold font-mono">30-Day True Retention</span>
+          <div className="text-2xl font-bold font-mono text-emerald-700">{Math.round(trueRetention * 100)}%</div>
+          <p className="text-[10px] text-stone-500">Target: ≥ 90% (FSRS)</p>
         </div>
       </div>
 
       {/* Accessible Table Alternative for Skill Analytics & Radar Link */}
-      <div className="bg-zinc-900/80 backdrop-blur-xl border border-zinc-800/80 rounded-3xl p-6 space-y-4 shadow-2xl">
+      <div className="bg-white border border-stone-200 rounded-3xl p-6 space-y-4 shadow-sm">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
-            <h2 className="text-sm font-semibold text-zinc-100">Skill Competency Summary (Table Alternative)</h2>
-            <span className="text-[11px] text-zinc-400">WCAG 2.2 AA Accessible • Vocab, Kanji, Grammar, Reading, Listening</span>
+            <h2 className="text-sm font-semibold text-stone-900">Skill Competency Summary (Table Alternative)</h2>
+            <span className="text-[11px] text-stone-600">WCAG 2.2 AA Accessible • Vocab, Kanji, Grammar, Reading, Listening</span>
           </div>
           {onNavigate && (
             <button
               onClick={() => onNavigate('tests')}
-              className="px-4 py-2 rounded-xl bg-zinc-800/90 hover:bg-zinc-750 text-rose-300 border border-zinc-700/80 text-xs font-semibold flex items-center space-x-1.5 transition self-start sm:self-auto cursor-pointer shadow-md"
+              className="px-4 py-2 rounded-xl bg-white hover:bg-stone-50 text-indigo-700 border border-stone-300 text-xs font-semibold flex items-center space-x-1.5 transition self-start sm:self-auto cursor-pointer shadow-2xs"
             >
-              <BarChart2 className="w-3.5 h-3.5 text-rose-400" />
+              <BarChart2 className="w-3.5 h-3.5 text-indigo-600" />
               <span>View Interactive Radar Charts →</span>
             </button>
           )}
@@ -139,7 +139,7 @@ export const ProgressScreen: React.FC<ProgressScreenProps> = ({
         <div className="overflow-x-auto">
           <table className="w-full text-left text-xs border-collapse">
             <thead>
-              <tr className="border-b border-zinc-800 text-zinc-400 font-semibold font-mono">
+              <tr className="border-b border-stone-200 text-stone-600 font-semibold font-mono">
                 <th className="py-2.5 px-3">Skill Area</th>
                 <th className="py-2.5 px-3">Curriculum Weight</th>
                 <th className="py-2.5 px-3">Mastery Threshold</th>
@@ -147,41 +147,41 @@ export const ProgressScreen: React.FC<ProgressScreenProps> = ({
                 <th className="py-2.5 px-3">Status</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-zinc-800/60 text-zinc-300">
+            <tbody className="divide-y divide-stone-200 text-stone-700">
               <tr>
                 <td className="py-3 px-3 font-medium">Vocabulary</td>
                 <td className="py-3 px-3 font-mono">25%</td>
                 <td className="py-3 px-3 font-mono">≥ 90%</td>
                 <td className="py-3 px-3 font-mono">10 questions</td>
-                <td className="py-3 px-3 text-emerald-400 font-mono">Tracking Active</td>
+                <td className="py-3 px-3 text-emerald-700 font-mono">Tracking Active</td>
               </tr>
               <tr>
                 <td className="py-3 px-3 font-medium">Kanji in Context</td>
                 <td className="py-3 px-3 font-mono">15%</td>
                 <td className="py-3 px-3 font-mono">≥ 85%</td>
                 <td className="py-3 px-3 font-mono">6 questions</td>
-                <td className="py-3 px-3 text-emerald-400 font-mono">Tracking Active</td>
+                <td className="py-3 px-3 text-emerald-700 font-mono">Tracking Active</td>
               </tr>
               <tr>
                 <td className="py-3 px-3 font-medium">Grammar</td>
                 <td className="py-3 px-3 font-mono">25%</td>
                 <td className="py-3 px-3 font-mono">≥ 85%</td>
                 <td className="py-3 px-3 font-mono">6 questions</td>
-                <td className="py-3 px-3 text-emerald-400 font-mono">Tracking Active</td>
+                <td className="py-3 px-3 text-emerald-700 font-mono">Tracking Active</td>
               </tr>
               <tr>
                 <td className="py-3 px-3 font-medium">Reading Comprehension</td>
                 <td className="py-3 px-3 font-mono">17.5%</td>
                 <td className="py-3 px-3 font-mono">≥ 80%</td>
                 <td className="py-3 px-3 font-mono">5 questions</td>
-                <td className="py-3 px-3 text-emerald-400 font-mono">Tracking Active</td>
+                <td className="py-3 px-3 text-emerald-700 font-mono">Tracking Active</td>
               </tr>
               <tr>
                 <td className="py-3 px-3 font-medium">Listening &amp; Shadowing</td>
                 <td className="py-3 px-3 font-mono">17.5%</td>
                 <td className="py-3 px-3 font-mono">≥ 80%</td>
                 <td className="py-3 px-3 font-mono">5 questions</td>
-                <td className="py-3 px-3 text-emerald-400 font-mono">Tracking Active</td>
+                <td className="py-3 px-3 text-emerald-700 font-mono">Tracking Active</td>
               </tr>
             </tbody>
           </table>
@@ -189,18 +189,18 @@ export const ProgressScreen: React.FC<ProgressScreenProps> = ({
       </div>
 
       {/* Learner Data Sacredness: Local Backup & Snapshot Export */}
-      <div className="bg-zinc-900/80 backdrop-blur-xl border border-zinc-800/80 rounded-3xl p-6 space-y-4 shadow-2xl">
+      <div className="bg-white border border-stone-200 rounded-3xl p-6 space-y-4 shadow-sm">
         <div className="flex items-center space-x-2">
-          <Database className="w-5 h-5 text-rose-400" />
-          <h2 className="text-base font-semibold text-zinc-100">Data Integrity &amp; Backup</h2>
+          <Database className="w-5 h-5 text-indigo-600" />
+          <h2 className="text-base font-semibold text-stone-900">Data Integrity &amp; Backup</h2>
         </div>
-        <p className="text-xs text-zinc-400 leading-relaxed">
+        <p className="text-xs text-stone-600 leading-relaxed">
           In adherence to <em>Principle 4: Learner data is sacred</em>, you can export your complete study history, cards, and attempts as a portable JSON snapshot or restore previous records anytime.
         </p>
 
         {backupStatus && (
-          <div className="bg-zinc-950/90 p-3.5 rounded-2xl border border-emerald-500/40 text-xs text-emerald-300 flex items-center space-x-2 shadow-[0_0_16px_rgba(16,185,129,0.2)]">
-            <CheckCircle className="w-4 h-4 shrink-0 text-emerald-400" />
+          <div className="bg-emerald-50 p-3.5 rounded-2xl border border-emerald-200 text-xs text-emerald-800 flex items-center space-x-2 shadow-2xs">
+            <CheckCircle className="w-4 h-4 shrink-0 text-emerald-600" />
             <span>{backupStatus}</span>
           </div>
         )}
@@ -208,14 +208,14 @@ export const ProgressScreen: React.FC<ProgressScreenProps> = ({
         <div className="flex flex-wrap gap-3 pt-2">
           <button
             onClick={handleExportJson}
-            className="px-4 py-2.5 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-200 text-xs font-semibold flex items-center space-x-2 transition border border-zinc-700 cursor-pointer shadow-md"
+            className="px-4 py-2.5 rounded-xl bg-white hover:bg-stone-50 text-stone-700 text-xs font-semibold flex items-center space-x-2 transition border border-stone-300 cursor-pointer shadow-2xs"
           >
-            <Download className="w-4 h-4 text-rose-400" />
+            <Download className="w-4 h-4 text-indigo-600" />
             <span>Export Local JSON Snapshot</span>
           </button>
 
-          <label className="px-4 py-2.5 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-200 text-xs font-semibold flex items-center space-x-2 transition border border-zinc-700 cursor-pointer shadow-md">
-            <Upload className="w-4 h-4 text-indigo-400" />
+          <label className="px-4 py-2.5 rounded-xl bg-white hover:bg-stone-50 text-stone-700 text-xs font-semibold flex items-center space-x-2 transition border border-stone-300 cursor-pointer shadow-2xs">
+            <Upload className="w-4 h-4 text-indigo-600" />
             <span>Restore from JSON File</span>
             <input
               type="file"

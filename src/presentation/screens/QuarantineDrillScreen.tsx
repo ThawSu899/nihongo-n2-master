@@ -113,22 +113,22 @@ const REASON_METADATA: Record<
   HIGH_LAPSE_COUNT: {
     labelEn: 'High Lapse Count (3+)',
     labelMy: 'အကြိမ်ကြိမ် မှားယွင်းမှု',
-    theme: 'bg-rose-950/70 border-rose-500/50 text-rose-300',
+    theme: 'bg-rose-50 border-rose-200 text-rose-700',
   },
   LOW_STABILITY_PLATEAU: {
     labelEn: 'Low Stability Plateau',
     labelMy: 'မှတ်ဉာဏ် မတည်ငြိမ်မှု',
-    theme: 'bg-amber-950/70 border-amber-500/50 text-amber-300',
+    theme: 'bg-amber-50 border-amber-200 text-amber-700',
   },
   MOCK_TEST_REPEATED_MISS: {
     labelEn: 'Repeated Mock Test Miss',
     labelMy: 'စာမေးပွဲတွင် ထပ်ခါမှားမှု',
-    theme: 'bg-purple-950/70 border-purple-500/50 text-purple-300',
+    theme: 'bg-purple-50 border-purple-200 text-purple-700',
   },
   BURMESE_MISALIGNMENT: {
     labelEn: 'Burmese Recall Delay (>25s)',
     labelMy: 'မြန်မာပြန် အမှတ်ရနှေးမှု',
-    theme: 'bg-cyan-950/70 border-cyan-500/50 text-cyan-300',
+    theme: 'bg-cyan-50 border-cyan-200 text-cyan-700',
   },
 };
 
@@ -219,49 +219,49 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
 
   if (loading) {
     return (
-      <div className="min-h-[500px] flex items-center justify-center text-zinc-400">
-        <div className="w-8 h-8 border-2 border-rose-500 border-t-transparent rounded-full animate-spin" />
+      <div className="min-h-[500px] flex items-center justify-center text-stone-500">
+        <div className="w-8 h-8 border-2 border-indigo-600 border-t-transparent rounded-full animate-spin" />
       </div>
     );
   }
 
   return (
     <div
-      className={`bg-zinc-950/80 backdrop-blur-xl border border-zinc-800 rounded-3xl p-5 sm:p-8 space-y-6 shadow-2xl text-zinc-100 ${className}`}
+      className={`bg-white border border-stone-200 rounded-3xl p-5 sm:p-8 space-y-6 shadow-sm text-stone-900 ${className}`}
     >
       {/* 1. Top Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-zinc-850">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-stone-200">
         <div className="flex items-center space-x-3">
           <button
             onClick={onBack}
-            className="p-2 rounded-xl bg-zinc-900 hover:bg-zinc-850 border border-zinc-800 text-zinc-400 hover:text-zinc-100 transition cursor-pointer"
+            className="p-2 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 text-stone-600 hover:text-stone-900 transition cursor-pointer shadow-xs"
             title="Go Back"
           >
             <ArrowLeft className="w-5 h-5" />
           </button>
           <div>
             <div className="flex items-center space-x-2">
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-rose-950/80 border border-rose-500/50 text-[11px] font-bold text-rose-300">
-                <Flame className="w-3.5 h-3.5 text-rose-400 animate-pulse" />
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-rose-50 border border-rose-200 text-[11px] font-bold text-rose-700">
+                <Flame className="w-3.5 h-3.5 text-rose-600 animate-pulse" />
                 <span>Ghost Card Quarantine (鬼カード)</span>
               </span>
-              <span className="text-xs font-mono text-zinc-500">
+              <span className="text-xs font-mono text-stone-500">
                 FSRS Recovery Engine
               </span>
             </div>
-            <h1 className="text-lg sm:text-xl font-bold font-myanmar text-zinc-100 mt-1">
+            <h1 className="text-lg sm:text-xl font-bold font-myanmar text-stone-900 mt-1">
               အခက်အခဲရှိသော ကတ်များ အထူးပြန်လည်ဆယ်တင် လေ့ကျင့်ခန်း
             </h1>
           </div>
         </div>
 
         {/* Global Progress Pill */}
-        <div className="flex items-center space-x-2 bg-zinc-900/90 px-3.5 py-1.5 rounded-2xl border border-zinc-800 self-start sm:self-auto font-mono text-xs">
-          <ShieldAlert className="w-4 h-4 text-rose-400" />
-          <span className="text-zinc-400">Active Quarantined:</span>
-          <span className="text-rose-400 font-bold">{stats.activeCount}</span>
-          <span className="text-zinc-600">|</span>
-          <span className="text-emerald-400 font-bold">
+        <div className="flex items-center space-x-2 bg-stone-50 px-3.5 py-1.5 rounded-2xl border border-stone-200 self-start sm:self-auto font-mono text-xs shadow-xs">
+          <ShieldAlert className="w-4 h-4 text-rose-600" />
+          <span className="text-stone-600">Active Quarantined:</span>
+          <span className="text-rose-600 font-bold">{stats.activeCount}</span>
+          <span className="text-stone-300">|</span>
+          <span className="text-emerald-700 font-bold">
             {stats.graduatedCount} Graduated
           </span>
         </div>
@@ -269,7 +269,7 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
 
       {/* 2. Level Filter Bar */}
       <div className="flex items-center justify-between flex-wrap gap-2">
-        <div className="flex items-center space-x-1.5 bg-zinc-900/60 p-1 rounded-xl border border-zinc-850">
+        <div className="flex items-center space-x-1.5 bg-stone-100 p-1 rounded-xl border border-stone-200">
           {['ALL', 'N5', 'N4', 'N3', 'N2'].map((lvl) => (
             <button
               key={lvl}
@@ -280,8 +280,8 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
               }}
               className={`px-3 py-1 rounded-lg text-xs font-mono font-bold transition cursor-pointer ${
                 selectedLevel === lvl
-                  ? 'bg-rose-600 text-white shadow-sm'
-                  : 'text-zinc-400 hover:text-zinc-200'
+                  ? 'bg-indigo-600 text-white shadow-xs'
+                  : 'text-stone-600 hover:text-stone-900'
               }`}
             >
               {lvl}
@@ -289,7 +289,7 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
           ))}
         </div>
 
-        <span className="text-xs text-zinc-400 font-myanmar">
+        <span className="text-xs text-stone-600 font-myanmar">
           ဆက်တိုက် ၃ ကြိမ် မှန်ပါက ပုံမှန် SRS စနစ်သို့ ပြန်လည်ရောက်ရှိမည်ဖြစ်သည်
         </span>
       </div>
@@ -298,7 +298,7 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
       {currentCard ? (
         <div className="relative">
           {/* Card Frame */}
-          <div className="bg-zinc-900/90 border border-zinc-800 rounded-3xl p-6 sm:p-8 space-y-6 shadow-xl relative overflow-hidden">
+          <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm relative overflow-hidden">
             {/* Background Subtle Accent Glow */}
             <div className="absolute top-0 right-0 w-64 h-64 bg-rose-500/5 rounded-full blur-3xl pointer-events-none" />
 
@@ -308,7 +308,7 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
                 <span
                   className={`px-2.5 py-1 rounded-lg border text-xs font-mono font-semibold flex items-center gap-1.5 ${
                     REASON_METADATA[currentCard.quarantineReason]?.theme ||
-                    'bg-zinc-800 text-zinc-300'
+                    'bg-stone-100 text-stone-700 border-stone-200'
                   }`}
                 >
                   <AlertTriangle className="w-3.5 h-3.5" />
@@ -316,14 +316,14 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
                     {REASON_METADATA[currentCard.quarantineReason]?.labelEn}
                   </span>
                 </span>
-                <span className="text-xs font-mono px-2 py-0.5 rounded bg-zinc-800 text-zinc-400 border border-zinc-700">
+                <span className="text-xs font-mono px-2 py-0.5 rounded bg-stone-100 text-stone-600 border border-stone-200">
                   {currentCard.jlptLevel} • {currentCard.itemType}
                 </span>
               </div>
 
               {/* Recovery Streak Step Dots (0/3 to 3/3) */}
-              <div className="flex items-center space-x-2 bg-zinc-950/80 px-3 py-1.5 rounded-xl border border-zinc-800">
-                <span className="text-[11px] font-mono text-zinc-400">
+              <div className="flex items-center space-x-2 bg-stone-50 px-3 py-1.5 rounded-xl border border-stone-200">
+                <span className="text-[11px] font-mono text-stone-600">
                   Streak: {currentCard.recoveryStreak}/3
                 </span>
                 <div className="flex items-center space-x-1.5">
@@ -334,8 +334,8 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
                         key={step}
                         className={`w-2.5 h-2.5 rounded-full transition-all duration-300 ${
                           filled
-                            ? 'bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.8)] scale-110'
-                            : 'bg-zinc-800 border border-zinc-700'
+                            ? 'bg-emerald-500 shadow-xs scale-110'
+                            : 'bg-stone-200 border border-stone-300'
                         }`}
                       />
                     );
@@ -347,7 +347,7 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
             {/* Target Japanese Word / Pattern */}
             <div className="text-center py-6 space-y-2 relative z-10">
               <div className="flex items-center justify-center gap-3">
-                <span className="text-3xl sm:text-5xl font-japanese font-bold text-zinc-100 tracking-wide">
+                <span className="text-3xl sm:text-5xl font-japanese font-bold text-stone-900 tracking-wide">
                   {currentCard.wordOrPattern}
                 </span>
                 <motion.button
@@ -364,12 +364,12 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
                       play(currentCard.wordOrPattern, undefined, undefined, currentCard.reading);
                     }
                   }}
-                  className={`p-2.5 rounded-full border transition cursor-pointer shadow-md ${
+                  className={`p-2.5 rounded-full border transition cursor-pointer shadow-xs ${
                     isPlaying &&
                     (currentPlayingText === currentCard.wordOrPattern ||
                       currentPlayingText === currentCard.reading)
-                      ? 'bg-rose-600 text-white border-rose-500 shadow-[0_0_12px_rgba(244,63,94,0.5)] animate-pulse'
-                      : 'bg-zinc-800 hover:bg-zinc-700 text-zinc-300 border-zinc-700'
+                      ? 'bg-indigo-600 text-white border-indigo-500 shadow-sm animate-pulse'
+                      : 'bg-stone-100 hover:bg-stone-200 text-stone-700 border-stone-200'
                   }`}
                   title="Play Japanese pronunciation"
                 >
@@ -377,7 +377,7 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
                 </motion.button>
               </div>
               {currentCard.reading && currentCard.reading !== currentCard.wordOrPattern && (
-                <div className="text-sm sm:text-base font-japanese text-indigo-300 font-mono">
+                <div className="text-sm sm:text-base font-japanese text-indigo-700 font-semibold font-mono">
                   {currentCard.reading}
                 </div>
               )}
@@ -390,7 +390,7 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -10 }}
-                  className="space-y-4 pt-4 border-t border-zinc-800 relative z-10"
+                  className="space-y-4 pt-4 border-t border-stone-200 relative z-10"
                 >
                   {/* Pitch Accent Visualizer */}
                   {currentCard.reading && (
@@ -407,18 +407,18 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
                   )}
 
                   {/* Burmese Meaning */}
-                  <div className="bg-zinc-950/70 p-4 rounded-2xl border border-zinc-800/80 space-y-1 text-center">
-                    <span className="text-[11px] font-mono text-zinc-500 uppercase tracking-wider block">
+                  <div className="bg-stone-50 p-4 rounded-2xl border border-stone-200 space-y-1 text-center">
+                    <span className="text-[11px] font-mono text-stone-500 uppercase tracking-wider block">
                       Burmese Translation (မြန်မာအဓိပ္ပာယ်)
                     </span>
-                    <p className="text-base sm:text-lg font-myanmar text-zinc-100 font-semibold leading-relaxed">
+                    <p className="text-base sm:text-lg font-myanmar text-stone-900 font-semibold leading-relaxed">
                       {currentCard.meaningBurmese}
                     </p>
                   </div>
 
                   {/* English Meaning */}
-                  <div className="text-center text-xs sm:text-sm text-zinc-400 font-sans">
-                    <span className="font-mono text-zinc-500 mr-2">EN:</span>
+                  <div className="text-center text-xs sm:text-sm text-stone-600 font-sans">
+                    <span className="font-mono text-stone-400 mr-2">EN:</span>
                     {currentCard.meaningEn}
                   </div>
                 </motion.div>
@@ -426,15 +426,15 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
             </AnimatePresence>
 
             {/* Action Buttons */}
-            <div className="pt-4 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-3 relative z-10">
+            <div className="pt-4 border-t border-stone-200 flex flex-col sm:flex-row items-center justify-between gap-3 relative z-10">
               {!isRevealed ? (
                 <motion.button
                   whileHover={{ scale: 1.01 }}
                   whileTap={{ scale: 0.99 }}
                   onClick={() => setIsRevealed(true)}
-                  className="w-full py-3.5 rounded-2xl bg-zinc-800 hover:bg-zinc-750 text-zinc-100 font-semibold text-sm flex items-center justify-center space-x-2 transition cursor-pointer border border-zinc-700/80 shadow-md"
+                  className="w-full py-3.5 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-sm flex items-center justify-center space-x-2 transition cursor-pointer shadow-sm"
                 >
-                  <Eye className="w-4 h-4 text-rose-400" />
+                  <Eye className="w-4 h-4 text-white" />
                   <span className="font-myanmar">အဖြေကြည့်မည် (Show Answer)</span>
                 </motion.button>
               ) : (
@@ -444,9 +444,9 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
                     whileHover={{ scale: 1.01 }}
                     whileTap={{ scale: 0.99 }}
                     onClick={() => handleAnswer(false)}
-                    className="py-3.5 rounded-2xl bg-rose-950/80 hover:bg-rose-900 border border-rose-500/50 text-rose-200 font-semibold text-sm flex items-center justify-center space-x-2 transition cursor-pointer shadow-lg shadow-rose-950/40"
+                    className="py-3.5 rounded-2xl bg-rose-50 hover:bg-rose-100 border border-rose-200 text-rose-800 font-semibold text-sm flex items-center justify-center space-x-2 transition cursor-pointer shadow-xs"
                   >
-                    <XCircle className="w-4 h-4 text-rose-400" />
+                    <XCircle className="w-4 h-4 text-rose-600" />
                     <span className="font-myanmar">
                       မမှတ်မိသေးပါ (Streak 0 ပြန်စမည်)
                     </span>
@@ -457,7 +457,7 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
                     whileHover={{ scale: 1.01 }}
                     whileTap={{ scale: 0.99 }}
                     onClick={() => handleAnswer(true)}
-                    className="py-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm flex items-center justify-center space-x-2 transition cursor-pointer shadow-lg shadow-emerald-950/40"
+                    className="py-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-sm flex items-center justify-center space-x-2 transition cursor-pointer shadow-sm"
                   >
                     <CheckCircle2 className="w-4 h-4" />
                     <span className="font-myanmar">
@@ -476,15 +476,15 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
-                className="absolute inset-0 bg-zinc-950/95 backdrop-blur-md rounded-3xl flex flex-col items-center justify-center text-center p-6 space-y-3 z-30 border border-emerald-500/50 shadow-2xl"
+                className="absolute inset-0 bg-white/95 backdrop-blur-md rounded-3xl flex flex-col items-center justify-center text-center p-6 space-y-3 z-30 border border-emerald-300 shadow-xl"
               >
-                <div className="w-16 h-16 rounded-2xl bg-emerald-950/80 border border-emerald-500/60 flex items-center justify-center text-emerald-400">
+                <div className="w-16 h-16 rounded-2xl bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-600">
                   <Award className="w-9 h-9 animate-bounce" />
                 </div>
-                <h3 className="text-xl font-bold font-myanmar text-emerald-300">
+                <h3 className="text-xl font-bold font-myanmar text-emerald-800">
                   ဂုဏ်ယူပါသည်! ကတ်ကို အောင်မြင်စွာ ပြန်လည်ဆယ်တင်ပြီးပါပြီ
                 </h3>
-                <p className="text-xs font-mono text-zinc-400 max-w-sm">
+                <p className="text-xs font-mono text-stone-600 max-w-sm">
                   3/3 Recovery Streak Achieved • Card stability boosted and returned to regular SRS review rotation.
                 </p>
               </motion.div>
@@ -493,15 +493,15 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
         </div>
       ) : (
         /* Empty / All Graduated State */
-        <div className="bg-zinc-900/60 border border-zinc-800/80 rounded-3xl p-10 text-center space-y-4">
-          <div className="w-16 h-16 mx-auto rounded-2xl bg-emerald-950/70 border border-emerald-600/50 flex items-center justify-center text-emerald-400">
+        <div className="bg-stone-50 border border-stone-200 rounded-3xl p-10 text-center space-y-4">
+          <div className="w-16 h-16 mx-auto rounded-2xl bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-600">
             <CheckCircle2 className="w-8 h-8" />
           </div>
           <div className="space-y-1">
-            <h3 className="text-lg font-bold font-myanmar text-zinc-100">
+            <h3 className="text-lg font-bold font-myanmar text-stone-900">
               Quarantine စာရင်းတွင် ကတ်များ မရှိတော့ပါ
             </h3>
-            <p className="text-xs text-zinc-400 font-myanmar max-w-md mx-auto">
+            <p className="text-xs text-stone-600 font-myanmar max-w-md mx-auto">
               အခက်အခဲရှိသော ကတ်အားလုံးကို အောင်မြင်စွာ ပြန်လည်ဆယ်တင်ပြီးပါပြီ သို့မဟုတ် သတ်မှတ်ထားသော Level တွင် ကတ်မရှိပါ။
             </p>
           </div>
@@ -510,7 +510,7 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
               setSelectedLevel('ALL');
               setCurrentIndex(0);
             }}
-            className="px-4 py-2 rounded-xl bg-zinc-800 hover:bg-zinc-750 border border-zinc-700 text-xs font-semibold text-zinc-200 transition cursor-pointer"
+            className="px-4 py-2 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 text-xs font-semibold text-stone-700 transition cursor-pointer shadow-xs"
           >
             Show All Levels
           </button>
@@ -519,35 +519,35 @@ export const QuarantineDrillScreen: React.FC<QuarantineDrillScreenProps> = ({
 
       {/* 4. Quarantine Diagnostic Stats Footer */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
-        <div className="bg-zinc-900/60 p-3 rounded-2xl border border-zinc-850 space-y-1">
-          <span className="text-[10px] font-mono text-zinc-500 block uppercase">
+        <div className="bg-stone-50 p-3 rounded-2xl border border-stone-200 space-y-1">
+          <span className="text-[10px] font-mono text-stone-500 block uppercase">
             Total In Quarantine
           </span>
-          <span className="text-base font-bold font-mono text-zinc-200">
+          <span className="text-base font-bold font-mono text-stone-900">
             {stats.totalQuarantined}
           </span>
         </div>
-        <div className="bg-zinc-900/60 p-3 rounded-2xl border border-zinc-850 space-y-1">
-          <span className="text-[10px] font-mono text-zinc-500 block uppercase">
+        <div className="bg-stone-50 p-3 rounded-2xl border border-stone-200 space-y-1">
+          <span className="text-[10px] font-mono text-stone-500 block uppercase">
             Active Needing Drill
           </span>
-          <span className="text-base font-bold font-mono text-rose-400">
+          <span className="text-base font-bold font-mono text-rose-600">
             {stats.activeCount}
           </span>
         </div>
-        <div className="bg-zinc-900/60 p-3 rounded-2xl border border-zinc-850 space-y-1">
-          <span className="text-[10px] font-mono text-zinc-500 block uppercase">
+        <div className="bg-stone-50 p-3 rounded-2xl border border-stone-200 space-y-1">
+          <span className="text-[10px] font-mono text-stone-500 block uppercase">
             Graduated (Saved)
           </span>
-          <span className="text-base font-bold font-mono text-emerald-400">
+          <span className="text-base font-bold font-mono text-emerald-600">
             {stats.graduatedCount}
           </span>
         </div>
-        <div className="bg-zinc-900/60 p-3 rounded-2xl border border-zinc-850 space-y-1">
-          <span className="text-[10px] font-mono text-zinc-500 block uppercase">
+        <div className="bg-stone-50 p-3 rounded-2xl border border-stone-200 space-y-1">
+          <span className="text-[10px] font-mono text-stone-500 block uppercase">
             N2 High-Priority
           </span>
-          <span className="text-base font-bold font-mono text-amber-400">
+          <span className="text-base font-bold font-mono text-amber-700">
             {stats.byLevel.N2 || 0}
           </span>
         </div>

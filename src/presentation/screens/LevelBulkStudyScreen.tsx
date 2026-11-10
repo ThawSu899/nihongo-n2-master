@@ -469,26 +469,26 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
   return (
     <div className={`space-y-6 max-w-7xl mx-auto pb-16 ${className}`}>
       {/* Top Header & Breadcrumb */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-zinc-800/80 pb-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-200 pb-4">
         <div className="flex items-center space-x-3">
           <button
             onClick={onBack}
-            className="p-2.5 rounded-xl bg-zinc-900 hover:bg-zinc-850 border border-zinc-800 text-zinc-400 hover:text-zinc-100 transition cursor-pointer"
+            className="p-2.5 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 text-stone-600 hover:text-stone-900 transition cursor-pointer shadow-2xs"
             title="Back to Dashboard"
           >
             <ArrowLeft className="w-5 h-5" />
           </button>
           <div>
             <div className="flex items-center space-x-2">
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-rose-950/80 border border-rose-500/40 text-[11px] font-bold text-rose-300">
-                <BookOpen className="w-3.5 h-3.5 text-rose-400" />
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-indigo-50 border border-indigo-200 text-[11px] font-bold text-indigo-700">
+                <BookOpen className="w-3.5 h-3.5 text-indigo-600" />
                 <span>Level Decks (単語帳)</span>
               </span>
-              <span className="text-xs font-mono text-zinc-500">
+              <span className="text-xs font-mono text-stone-500">
                 {`JLPT ${selectedLevel} Bulk Study`}
               </span>
             </div>
-            <h1 className="text-xl sm:text-2xl font-bold text-zinc-100 tracking-tight mt-0.5">
+            <h1 className="text-xl sm:text-2xl font-bold text-stone-900 tracking-tight mt-0.5">
               {bulkTab === 'vocab'
                 ? `${selectedLevel} Comprehensive Vocabulary Deck`
                 : `${selectedLevel} Kanji Deck & Stroke Visualizer`}
@@ -497,14 +497,14 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
         </div>
 
         {/* Primary Segmented Mode Selector: Vocabulary vs Kanji */}
-        <div className="flex items-center p-1 bg-zinc-900/90 border border-zinc-800 rounded-2xl shadow-inner">
+        <div className="flex items-center p-1 bg-stone-200/80 border border-stone-300 rounded-2xl shadow-2xs">
           <button
             type="button"
             onClick={() => setBulkTab('vocab')}
             className={`px-3.5 py-1.5 rounded-xl text-xs font-burmese font-semibold transition cursor-pointer flex items-center space-x-1.5 ${
               bulkTab === 'vocab'
-                ? 'bg-rose-600 text-white shadow-md shadow-rose-950/50'
-                : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-850'
+                ? 'bg-indigo-600 text-white shadow-xs'
+                : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
             }`}
           >
             <span>📖 ဝေါဟာရ (Vocabulary)</span>
@@ -514,8 +514,8 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             onClick={() => setBulkTab('kanji')}
             className={`px-3.5 py-1.5 rounded-xl text-xs font-burmese font-semibold transition cursor-pointer flex items-center space-x-1.5 ${
               bulkTab === 'kanji'
-                ? 'bg-rose-600 text-white shadow-md shadow-rose-950/50'
-                : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-850'
+                ? 'bg-indigo-600 text-white shadow-xs'
+                : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
             }`}
           >
             <span>🈁 ခန်းဂျီး (Kanji Deck)</span>
@@ -525,20 +525,20 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
         {/* Header Right: Total Count Badge & Segmented 3-Mode Switcher */}
         {bulkTab === 'vocab' ? (
           <div className="flex items-center flex-wrap gap-2.5">
-            <span className="px-3 py-1.5 rounded-xl bg-zinc-900 border border-zinc-800 text-xs font-mono text-zinc-300 flex items-center gap-1.5 shadow-inner">
-              <Layers className="w-3.5 h-3.5 text-rose-400" />
+            <span className="px-3 py-1.5 rounded-xl bg-white border border-stone-200 text-xs font-mono text-stone-700 flex items-center gap-1.5 shadow-2xs">
+              <Layers className="w-3.5 h-3.5 text-indigo-600" />
               <span>{`${selectedLevel} Deck: ${words.length} words`}</span>
             </span>
 
             {/* 3-Mode Segmented Switcher */}
-            <div className="flex items-center space-x-1 p-1 bg-zinc-900/90 border border-zinc-800 rounded-2xl shadow-inner overflow-x-auto">
+            <div className="flex items-center space-x-1 p-1 bg-stone-200/80 border border-stone-300 rounded-2xl shadow-2xs overflow-x-auto">
               <button
                 type="button"
                 onClick={() => setStudyMode('list')}
                 className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
                   studyMode === 'list'
-                    ? 'bg-rose-600 text-white font-semibold shadow-md shadow-rose-950/50'
-                    : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-850'
+                    ? 'bg-indigo-600 text-white font-semibold shadow-xs'
+                    : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
                 }`}
               >
                 <span>📜 စာရင်းကြည့် (List View)</span>
@@ -551,8 +551,8 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 }}
                 className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
                   studyMode === 'drill'
-                    ? 'bg-rose-600 text-white font-semibold shadow-md shadow-rose-950/50'
-                    : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-850'
+                    ? 'bg-indigo-600 text-white font-semibold shadow-xs'
+                    : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
                 }`}
               >
                 <span>🎴 Flashcard လေ့ကျင့်ရန် (Drill Mode)</span>
@@ -565,8 +565,8 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 }}
                 className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
                   studyMode === 'quiz'
-                    ? 'bg-rose-600 text-white font-semibold shadow-md shadow-rose-950/50'
-                    : 'text-zinc-400 hover:text-zinc-200 hover:bg-zinc-850'
+                    ? 'bg-indigo-600 text-white font-semibold shadow-xs'
+                    : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
                 }`}
               >
                 <span>⚡ အမြန်စစ်ဆေးမေးခွန်း (Quiz Mode)</span>
@@ -575,8 +575,8 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
           </div>
         ) : (
           <div className="flex items-center gap-2.5">
-            <span className="px-3.5 py-1.5 rounded-xl bg-zinc-900 border border-zinc-800 text-xs font-mono text-zinc-300 flex items-center gap-1.5 shadow-inner">
-              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+            <span className="px-3.5 py-1.5 rounded-xl bg-white border border-stone-200 text-xs font-mono text-stone-700 flex items-center gap-1.5 shadow-2xs">
+              <Sparkles className="w-3.5 h-3.5 text-amber-500" />
               <span>{`${selectedLevel} Kanji: ${kanjiList.length} 字`}</span>
             </span>
           </div>
@@ -584,7 +584,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
       </div>
 
       {/* Header Controls: Level Selector & Sticky Search Bar (Visible across all tabs) */}
-      <div className="sticky top-0 z-30 bg-zinc-950/90 backdrop-blur-2xl border-y border-zinc-800/90 py-3.5 px-1 space-y-3 shadow-xl">
+      <div className="sticky top-0 z-30 bg-stone-100/95 backdrop-blur-2xl border-y border-stone-200 py-3.5 px-1 space-y-3 shadow-xs">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           {/* Level Selector Pills */}
           <div className="flex items-center space-x-2 overflow-x-auto pb-1 sm:pb-0">
@@ -601,8 +601,8 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   }}
                   className={`px-4 py-2 rounded-xl text-xs font-mono font-bold transition-all cursor-pointer flex items-center space-x-1.5 ${
                     active
-                      ? 'bg-gradient-to-r from-rose-600 to-rose-700 text-white shadow-[0_0_16px_rgba(244,63,94,0.5)] border border-rose-500/50 scale-105'
-                      : 'bg-zinc-900/90 hover:bg-zinc-850 text-zinc-400 hover:text-zinc-200 border border-zinc-800'
+                      ? 'bg-indigo-600 text-white shadow-xs border border-indigo-600 scale-105'
+                      : 'bg-white hover:bg-stone-50 text-stone-600 hover:text-stone-900 border border-stone-200'
                   }`}
                 >
                   <span>{`JLPT ${lvl}`}</span>
@@ -613,28 +613,28 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
           </div>
 
           {/* Results Summary Counter */}
-          <div className="text-xs font-mono text-zinc-400 shrink-0">
+          <div className="text-xs font-mono text-stone-600 shrink-0">
             {bulkTab === 'vocab' ? (
               studyMode === 'quiz' ? (
                 <span>
-                  Active Quiz: <strong className="text-zinc-200">{quizQuestions.length}</strong> questions sampled from {words.length} words
+                  Active Quiz: <strong className="text-stone-900">{quizQuestions.length}</strong> questions sampled from {words.length} words
                 </span>
               ) : searchQuery.trim() ? (
                 <span>
-                  Matching: <strong className="text-zinc-200">{filteredWords.length}</strong> / {words.length} words
+                  Matching: <strong className="text-stone-900">{filteredWords.length}</strong> / {words.length} words
                 </span>
               ) : (
                 <span>
-                  Showing: <strong className="text-zinc-200">{Math.min(displayCount, words.length)}</strong> of {words.length} words
+                  Showing: <strong className="text-stone-900">{Math.min(displayCount, words.length)}</strong> of {words.length} words
                 </span>
               )
             ) : kanjiSearchQuery.trim() ? (
               <span>
-                Matching: <strong className="text-zinc-200">{filteredKanji.length}</strong> / {kanjiList.length} kanji
+                Matching: <strong className="text-stone-900">{filteredKanji.length}</strong> / {kanjiList.length} kanji
               </span>
             ) : (
               <span>
-                Total: <strong className="text-zinc-200">{kanjiList.length}</strong> kanji characters
+                Total: <strong className="text-stone-900">{kanjiList.length}</strong> kanji characters
               </span>
             )}
           </div>
@@ -642,7 +642,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
 
         {/* Search Bar with Instant Clear */}
         <div className="relative">
-          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500" />
+          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-stone-400" />
           <input
             type="text"
             value={bulkTab === 'vocab' ? searchQuery : kanjiSearchQuery}
@@ -658,7 +658,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 ? `Search ${selectedLevel} words by Kanji (例: 行く), Kana (例: いく), English, or Burmese...`
                 : `Search ${selectedLevel} kanji by Character (例: 学), Onyomi (例: ガク), Kunyomi, or Burmese...`
             }
-            className="w-full bg-zinc-900/90 border border-zinc-800 focus:border-rose-500/60 rounded-xl pl-10 pr-10 py-2.5 text-xs text-zinc-100 placeholder-zinc-500 focus:outline-none focus:ring-1 focus:ring-rose-500/40 transition font-sans shadow-inner"
+            className="w-full bg-white border border-stone-300 focus:border-indigo-500 rounded-xl pl-10 pr-10 py-2.5 text-xs text-stone-900 placeholder-stone-400 focus:outline-none focus:ring-1 focus:ring-indigo-500/40 transition font-sans shadow-2xs"
           />
           {(bulkTab === 'vocab' ? searchQuery : kanjiSearchQuery) && (
             <button
@@ -669,7 +669,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   setKanjiSearchQuery('');
                 }
               }}
-              className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-zinc-400 hover:text-zinc-200 transition cursor-pointer"
+              className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-stone-400 hover:text-stone-700 transition cursor-pointer"
               title="Clear search"
             >
               <X className="w-4 h-4" />
@@ -684,23 +684,23 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
       {bulkTab === 'kanji' ? (
         kanjiLoading ? (
           <div className="p-16 text-center space-y-3">
-            <div className="w-8 h-8 mx-auto border-2 border-rose-500 border-t-transparent rounded-full animate-spin" />
-            <p className="text-xs text-zinc-400 font-mono">
+            <div className="w-8 h-8 mx-auto border-2 border-indigo-600 border-t-transparent rounded-full animate-spin" />
+            <p className="text-xs text-stone-500 font-mono">
               {`Loading JLPT ${selectedLevel} Kanji Deck...`}
             </p>
           </div>
         ) : filteredKanji.length === 0 ? (
-          <div className="bg-zinc-900/60 border border-zinc-800/80 rounded-3xl p-12 text-center space-y-3">
-            <Sparkles className="w-8 h-8 text-zinc-600 mx-auto" />
-            <h3 className="text-sm font-semibold text-zinc-200">No matching kanji found</h3>
-            <p className="text-xs text-zinc-500 max-w-md mx-auto">
+          <div className="bg-white border border-stone-200 rounded-3xl p-12 text-center space-y-3 shadow-sm">
+            <Sparkles className="w-8 h-8 text-stone-400 mx-auto" />
+            <h3 className="text-sm font-semibold text-stone-800">No matching kanji found</h3>
+            <p className="text-xs text-stone-500 max-w-md mx-auto">
               Try adjusting your search query or clear the filter to view all {selectedLevel} kanji characters.
             </p>
             {kanjiSearchQuery && (
               <button
                 type="button"
                 onClick={() => setKanjiSearchQuery('')}
-                className="px-4 py-2 rounded-xl bg-zinc-800 hover:bg-zinc-750 text-zinc-300 text-xs font-medium transition cursor-pointer mt-2"
+                className="px-4 py-2 rounded-xl bg-white hover:bg-stone-50 text-stone-700 border border-stone-300 text-xs font-medium transition cursor-pointer mt-2 shadow-2xs"
               >
                 Clear Search Query
               </button>
@@ -713,31 +713,31 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 <div
                   key={k.id}
                   onClick={() => setSelectedKanji(k)}
-                  className="group relative overflow-hidden rounded-2xl bg-zinc-900/70 border border-zinc-800/80 hover:border-rose-500/60 p-4 hover:bg-zinc-850/70 transition-all duration-300 cursor-pointer hover:scale-[1.02] shadow-lg flex flex-col justify-between"
+                  className="group relative overflow-hidden rounded-2xl bg-white border border-stone-200 hover:border-indigo-300 p-4 hover:bg-stone-50 transition-all duration-300 cursor-pointer hover:scale-[1.02] shadow-sm flex flex-col justify-between"
                 >
                   {/* Top: Stroke count badge & JLPT Level */}
                   <div className="flex items-center justify-between mb-2">
-                    <span className="text-[10px] font-mono text-zinc-400 bg-zinc-950/80 border border-zinc-800 px-2 py-0.5 rounded-full">
+                    <span className="text-[10px] font-mono text-stone-500 bg-stone-100 border border-stone-200 px-2 py-0.5 rounded-full">
                       {`画数: ${k.strokeCount}`}
                     </span>
-                    <span className="text-[10px] font-mono text-rose-400 font-semibold">
+                    <span className="text-[10px] font-mono text-indigo-700 font-semibold">
                       {k.jlptLevel}
                     </span>
                   </div>
 
                   {/* Center: Prominent Kanji character */}
                   <div className="my-2 text-center">
-                    <span className="text-4xl sm:text-5xl font-japanese font-bold text-zinc-100 group-hover:text-rose-300 group-hover:scale-110 transition-transform duration-300 inline-block drop-shadow-[0_0_12px_rgba(244,63,94,0.25)]">
+                    <span className="text-4xl sm:text-5xl font-japanese font-bold text-stone-900 group-hover:text-indigo-600 group-hover:scale-110 transition-transform duration-300 inline-block">
                       {k.literal}
                     </span>
                   </div>
 
                   {/* Bottom: On/Kun readings & Burmese meaning */}
-                  <div className="space-y-1 pt-2 border-t border-zinc-800/60 text-center">
-                    <div className="text-[11px] text-zinc-400 font-japanese truncate">
+                  <div className="space-y-1 pt-2 border-t border-stone-200 text-center">
+                    <div className="text-[11px] text-indigo-700 font-japanese truncate">
                       {k.onyomi[0] || k.kunyomi[0] || '—'}
                     </div>
-                    <div className="font-burmese text-xs text-emerald-400 font-medium line-clamp-1">
+                    <div className="font-burmese text-xs text-stone-700 font-medium line-clamp-1">
                       {k.meaningBurmese}
                     </div>
                   </div>
@@ -748,22 +748,22 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
         )
       ) : loading ? (
         <div className="p-16 text-center space-y-3">
-          <div className="w-8 h-8 mx-auto border-2 border-rose-500 border-t-transparent rounded-full animate-spin" />
-          <p className="text-xs text-zinc-400 font-mono">
+          <div className="w-8 h-8 mx-auto border-2 border-indigo-600 border-t-transparent rounded-full animate-spin" />
+          <p className="text-xs text-stone-500 font-mono">
             {`Loading JLPT ${selectedLevel} comprehensive vocabulary deck...`}
           </p>
         </div>
       ) : filteredWords.length === 0 ? (
-        <div className="bg-zinc-900/60 border border-zinc-800/80 rounded-3xl p-12 text-center space-y-3">
-          <Sparkles className="w-8 h-8 text-zinc-600 mx-auto" />
-          <h3 className="text-sm font-semibold text-zinc-200">No matching vocabulary found</h3>
-          <p className="text-xs text-zinc-500 max-w-md mx-auto">
+        <div className="bg-white border border-stone-200 rounded-3xl p-12 text-center space-y-3 shadow-sm">
+          <Sparkles className="w-8 h-8 text-stone-400 mx-auto" />
+          <h3 className="text-sm font-semibold text-stone-800">No matching vocabulary found</h3>
+          <p className="text-xs text-stone-500 max-w-md mx-auto">
             Try adjusting your search query or clear the filter to view all {selectedLevel} words.
           </p>
           {searchQuery && (
             <button
               onClick={() => setSearchQuery('')}
-              className="px-4 py-2 rounded-xl bg-zinc-800 hover:bg-zinc-750 text-zinc-300 text-xs font-medium transition cursor-pointer mt-2"
+              className="px-4 py-2 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 text-stone-700 text-xs font-medium transition cursor-pointer mt-2 shadow-xs"
             >
               Clear Search Query
             </button>
@@ -780,20 +780,20 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.25 }}
-              className="bg-zinc-900/85 backdrop-blur-2xl border border-zinc-800 rounded-3xl p-8 sm:p-12 text-center space-y-6 shadow-2xl relative overflow-hidden"
+              className="bg-white border border-stone-200 rounded-3xl p-8 sm:p-12 text-center space-y-6 shadow-sm relative overflow-hidden"
             >
-              <div className="w-16 h-16 rounded-2xl bg-amber-950/80 border border-amber-500/50 flex items-center justify-center mx-auto text-amber-400 shadow-[0_0_20px_rgba(245,158,11,0.3)]">
-                <Trophy className="w-8 h-8 text-amber-400" />
+              <div className="w-16 h-16 rounded-2xl bg-amber-50 border border-amber-200 flex items-center justify-center mx-auto text-amber-600 shadow-xs">
+                <Trophy className="w-8 h-8 text-amber-600" />
               </div>
 
               <div className="space-y-2">
-                <span className="text-xs font-mono uppercase tracking-wider text-amber-400 font-semibold bg-amber-950/60 px-3 py-1 rounded-full border border-amber-800/40">
+                <span className="text-xs font-mono uppercase tracking-wider text-amber-700 font-semibold bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
                   JLPT {selectedLevel} Quiz Completed
                 </span>
-                <h2 className="text-2xl sm:text-3xl font-extrabold text-zinc-100 tracking-tight font-myanmar pt-1">
+                <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-900 tracking-tight font-myanmar pt-1">
                   စစ်ဆေးမှု ပြီးဆုံးပါပြီ!
                 </h2>
-                <p className="text-xs text-zinc-400 font-sans">
+                <p className="text-xs text-stone-600 font-sans">
                   {quizScore >= 8
                     ? 'ဂုဏ်ယူပါတယ်! ထူးချွန်စွာ အောင်မြင်ပါသည် 🌟'
                     : quizScore >= 5
@@ -804,15 +804,15 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
 
               {/* Score Metric Cards */}
               <div className="grid grid-cols-2 gap-3 max-w-sm mx-auto">
-                <div className="bg-zinc-950/70 border border-zinc-800 rounded-2xl p-4">
-                  <span className="text-xs text-zinc-400 font-sans block">Score / ရမှတ်</span>
-                  <span className="text-2xl font-bold font-mono text-zinc-100">
+                <div className="bg-stone-50 border border-stone-200 rounded-2xl p-4">
+                  <span className="text-xs text-stone-600 font-sans block">Score / ရမှတ်</span>
+                  <span className="text-2xl font-bold font-mono text-stone-900">
                     {quizScore} / {quizQuestions.length}
                   </span>
                 </div>
-                <div className="bg-zinc-950/70 border border-zinc-800 rounded-2xl p-4">
-                  <span className="text-xs text-zinc-400 font-sans block">Accuracy / တိကျမှု</span>
-                  <span className="text-2xl font-bold font-mono text-emerald-400">
+                <div className="bg-stone-50 border border-stone-200 rounded-2xl p-4">
+                  <span className="text-xs text-stone-600 font-sans block">Accuracy / တိကျမှု</span>
+                  <span className="text-2xl font-bold font-mono text-emerald-600">
                     {quizQuestions.length > 0 ? Math.round((quizScore / quizQuestions.length) * 100) : 0}%
                   </span>
                 </div>
@@ -823,7 +823,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 <button
                   type="button"
                   onClick={() => startNewQuiz(filteredWords.length > 0 ? filteredWords : words)}
-                  className="w-full sm:w-auto px-6 py-3 rounded-2xl bg-gradient-to-r from-rose-600 to-rose-700 hover:from-rose-500 hover:to-rose-600 text-white font-bold text-xs shadow-lg shadow-rose-950/50 transition cursor-pointer flex items-center justify-center space-x-2"
+                  className="w-full sm:w-auto px-6 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs shadow-sm transition cursor-pointer flex items-center justify-center space-x-2"
                 >
                   <RotateCcw className="w-4 h-4" />
                   <span>🔄 ပြန်လည်ဖြေဆိုမည် (Retry)</span>
@@ -831,7 +831,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 <button
                   type="button"
                   onClick={() => setStudyMode('list')}
-                  className="w-full sm:w-auto px-5 py-3 rounded-2xl bg-zinc-850 hover:bg-zinc-800 text-zinc-200 font-semibold text-xs border border-zinc-750 transition cursor-pointer"
+                  className="w-full sm:w-auto px-5 py-3 rounded-2xl bg-white hover:bg-stone-50 text-stone-700 font-semibold text-xs border border-stone-200 transition cursor-pointer shadow-xs"
                 >
                   📜 စာရင်းကြည့်မည် (List View)
                 </button>
@@ -841,7 +841,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                     setStudyMode('drill');
                     setIsRevealed(false);
                   }}
-                  className="w-full sm:w-auto px-5 py-3 rounded-2xl bg-zinc-850 hover:bg-zinc-800 text-zinc-200 font-semibold text-xs border border-zinc-750 transition cursor-pointer"
+                  className="w-full sm:w-auto px-5 py-3 rounded-2xl bg-white hover:bg-stone-50 text-stone-700 font-semibold text-xs border border-stone-200 transition cursor-pointer shadow-xs"
                 >
                   🎴 Flashcard လေ့ကျင့်မည်
                 </button>
@@ -851,21 +851,21 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             /* ACTIVE QUIZ QUESTION VIEW */
             <div className="space-y-4">
               {/* Quiz Progress & Score Header */}
-              <div className="bg-zinc-900/70 border border-zinc-800/80 rounded-2xl p-4 space-y-2 backdrop-blur-xl shadow-lg">
+              <div className="bg-white border border-stone-200 rounded-2xl p-4 space-y-2 shadow-sm">
                 <div className="flex items-center justify-between text-xs font-mono">
-                  <span className="text-zinc-300 font-semibold flex items-center gap-1.5">
-                    <Zap className="w-3.5 h-3.5 text-rose-400" />
+                  <span className="text-stone-700 font-semibold flex items-center gap-1.5">
+                    <Zap className="w-3.5 h-3.5 text-indigo-600" />
                     <span>Question {quizCurrentIndex + 1} / {quizQuestions.length}</span>
                   </span>
-                  <span className="text-zinc-400">
-                    Score: <strong className="text-emerald-400 font-bold">{quizScore}</strong> / {quizCurrentIndex + (isQuizSubmitted ? 1 : 0)}
+                  <span className="text-stone-600">
+                    Score: <strong className="text-emerald-600 font-bold">{quizScore}</strong> / {quizCurrentIndex + (isQuizSubmitted ? 1 : 0)}
                   </span>
                 </div>
 
                 {/* Progress Bar */}
-                <div className="w-full bg-zinc-800/80 rounded-full h-1.5 overflow-hidden">
+                <div className="w-full bg-stone-200 rounded-full h-1.5 overflow-hidden">
                   <div
-                    className="bg-gradient-to-r from-rose-600 to-rose-400 h-1.5 rounded-full transition-all duration-300"
+                    className="bg-indigo-600 h-1.5 rounded-full transition-all duration-300"
                     style={{
                       width: `${Math.round(((quizCurrentIndex + (isQuizSubmitted ? 1 : 0)) / quizQuestions.length) * 100)}%`,
                     }}
@@ -879,20 +879,20 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.2 }}
-                className="bg-zinc-900/85 backdrop-blur-2xl border border-zinc-800 rounded-3xl p-6 sm:p-8 text-center space-y-4 shadow-xl relative"
+                className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 text-center space-y-4 shadow-sm relative"
               >
                 <div className="flex items-center justify-between">
-                  <span className="px-2.5 py-0.5 rounded-full bg-rose-950/80 text-rose-300 font-mono text-[11px] font-bold border border-rose-800/40">
+                  <span className="px-2.5 py-0.5 rounded-full bg-indigo-50 text-indigo-700 font-mono text-[11px] font-bold border border-indigo-200">
                     JLPT {selectedLevel}
                   </span>
-                  <span className="text-[11px] font-mono text-zinc-500 uppercase px-2 py-0.5 rounded bg-zinc-950/80 border border-zinc-800">
+                  <span className="text-[11px] font-mono text-stone-500 uppercase px-2 py-0.5 rounded bg-stone-100 border border-stone-200">
                     {currentQuizQ.vocab.pos || 'vocabulary'}
                   </span>
                 </div>
 
                 {/* Question Prompt Headword */}
                 <div className="py-2 space-y-2">
-                  <h2 className="font-japanese text-4xl sm:text-5xl font-extrabold text-zinc-100 tracking-tight">
+                  <h2 className="font-japanese text-4xl sm:text-5xl font-extrabold text-stone-900 tracking-tight">
                     {currentQuizQ.vocab.ja}
                   </h2>
 
@@ -904,7 +904,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       className="space-y-2 pt-1"
                     >
                       <div>
-                        <span className="text-rose-300 font-japanese text-lg font-bold bg-rose-950/60 px-4 py-1 rounded-full border border-rose-900/60 inline-block shadow-inner">
+                        <span className="text-indigo-700 font-japanese text-lg font-bold bg-indigo-50 px-4 py-1 rounded-full border border-indigo-200 inline-block shadow-inner">
                           【{currentQuizQ.vocab.kana}】
                         </span>
                       </div>
@@ -934,13 +934,13 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       isPlaying &&
                       (currentPlayingText === currentQuizQ.vocab.ja ||
                         currentPlayingText === currentQuizQ.vocab.kana)
-                        ? 'bg-rose-600 text-white shadow-[0_0_12px_rgba(244,63,94,0.6)] animate-pulse'
-                        : 'bg-zinc-800 hover:bg-zinc-750 text-zinc-300 border border-zinc-700/60'
+                        ? 'bg-indigo-600 text-white shadow-sm animate-pulse'
+                        : 'bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-200'
                     }`}
                   >
                     <Volume2 className="w-4 h-4" />
                     <span>Pronounce</span>
-                    <kbd className="text-[10px] px-1.5 py-0.2 rounded bg-black/40 border border-zinc-700 font-mono text-zinc-400">
+                    <kbd className="text-[10px] px-1.5 py-0.2 rounded bg-stone-200 border border-stone-300 font-mono text-stone-600">
                       R
                     </kbd>
                   </button>
@@ -954,17 +954,17 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   const isCorrect = option === currentQuizQ.correctAnswer;
 
                   let optionStyle =
-                    'bg-zinc-900/80 hover:bg-zinc-850 hover:border-zinc-700 border-zinc-800 text-zinc-200 cursor-pointer';
+                    'bg-white hover:bg-stone-50 hover:border-stone-300 border-stone-200 text-stone-800 cursor-pointer shadow-xs';
 
                   if (isQuizSubmitted) {
                     if (isCorrect) {
                       optionStyle =
-                        'bg-emerald-950/80 border-emerald-500/80 text-emerald-200 font-bold shadow-[0_0_14px_rgba(16,185,129,0.3)]';
+                        'bg-emerald-50 border-emerald-300 text-emerald-900 font-bold shadow-xs';
                     } else if (isSelected) {
                       optionStyle =
-                        'bg-rose-950/80 border-rose-500/80 text-rose-200 shadow-[0_0_14px_rgba(244,63,94,0.3)]';
+                        'bg-rose-50 border-rose-300 text-rose-900 shadow-xs';
                     } else {
-                      optionStyle = 'bg-zinc-900/40 border-zinc-850 text-zinc-500 opacity-60';
+                      optionStyle = 'bg-stone-50 border-stone-200 text-stone-400 opacity-60';
                     }
                   }
 
@@ -977,7 +977,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       className={`p-4 rounded-2xl border transition text-left flex items-center justify-between gap-2.5 ${optionStyle}`}
                     >
                       <div className="flex items-center space-x-3 min-w-0">
-                        <span className="w-6 h-6 rounded-lg bg-zinc-950/80 border border-zinc-800 flex items-center justify-center font-mono text-xs text-zinc-400 shrink-0">
+                        <span className="w-6 h-6 rounded-lg bg-stone-100 border border-stone-200 flex items-center justify-center font-mono text-xs text-stone-600 shrink-0">
                           {String.fromCharCode(65 + optIdx)}
                         </span>
                         <p className="font-burmese text-sm sm:text-base font-medium truncate">
@@ -986,10 +986,10 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       </div>
 
                       {isQuizSubmitted && isCorrect && (
-                        <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0" />
+                        <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
                       )}
                       {isQuizSubmitted && isSelected && !isCorrect && (
-                        <XCircle className="w-5 h-5 text-rose-400 shrink-0" />
+                        <XCircle className="w-5 h-5 text-rose-600 shrink-0" />
                       )}
                     </button>
                   );
@@ -1006,26 +1006,26 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   <div
                     className={`p-4 rounded-2xl border flex items-center justify-between gap-3 ${
                       quizSelectedOption === currentQuizQ.correctAnswer
-                        ? 'bg-emerald-950/70 border-emerald-500/60 text-emerald-300'
-                        : 'bg-rose-950/70 border-rose-500/60 text-rose-300'
+                        ? 'bg-emerald-50 border-emerald-200 text-emerald-800'
+                        : 'bg-rose-50 border-rose-200 text-rose-800'
                     }`}
                   >
                     <div className="text-xs font-sans">
                       {quizSelectedOption === currentQuizQ.correctAnswer ? (
                         <span className="font-bold flex items-center gap-1.5">
-                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                          <CheckCircle2 className="w-4 h-4 text-emerald-600" />
                           <span>🎉 မှန်ကန်ပါသည်! (Correct!)</span>
                         </span>
                       ) : (
                         <div className="space-y-1">
                           <div className="flex items-center gap-1.5 font-bold">
-                            <XCircle className="w-4 h-4 text-rose-400" />
+                            <XCircle className="w-4 h-4 text-rose-600" />
                             <span>❌ မှားယွင်းပါသည်။</span>
                           </div>
-                          <p className="font-burmese text-xs text-rose-200">
+                          <p className="font-burmese text-xs text-rose-700">
                             အဖြေမှန်: {currentQuizQ.correctAnswer}
                           </p>
-                          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-rose-900/60 border border-rose-500/40 text-[11px] font-mono text-rose-200 mt-1 shadow-inner">
+                          <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-rose-100 border border-rose-300 text-[11px] font-mono text-rose-800 mt-1 shadow-inner">
                             <span>👻</span>
                             <span className="font-burmese">Ghost Card ထဲသို့ ထည့်သွင်းပြီး</span>
                           </div>
@@ -1036,7 +1036,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                     <button
                       type="button"
                       onClick={handleNextQuizQuestion}
-                      className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-rose-600 to-rose-700 hover:from-rose-500 hover:to-rose-600 text-white font-bold text-xs shadow-md transition cursor-pointer flex items-center space-x-1.5 shrink-0"
+                      className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs shadow-sm transition cursor-pointer flex items-center space-x-1.5 shrink-0"
                     >
                       <span>
                         {quizCurrentIndex < quizQuestions.length - 1
@@ -1050,8 +1050,8 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               )}
 
               {/* Keyboard Shortcuts Hint */}
-              <div className="text-center text-[11px] font-mono text-zinc-500 pt-1">
-                Shortcuts: <kbd className="px-1.5 py-0.5 rounded bg-zinc-900 border border-zinc-800">1</kbd>–<kbd className="px-1.5 py-0.5 rounded bg-zinc-900 border border-zinc-800">4</kbd> Pick Option • <kbd className="px-1.5 py-0.5 rounded bg-zinc-900 border border-zinc-800">Space</kbd> / <kbd className="px-1.5 py-0.5 rounded bg-zinc-900 border border-zinc-800">Enter</kbd> Next Question • <kbd className="px-1.5 py-0.5 rounded bg-zinc-900 border border-zinc-800">R</kbd> Pronounce
+              <div className="text-center text-[11px] font-mono text-stone-500 pt-1">
+                Shortcuts: <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">1</kbd>–<kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">4</kbd> Pick Option • <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">Space</kbd> / <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">Enter</kbd> Next Question • <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">R</kbd> Pronounce
               </div>
             </div>
           ) : null}
@@ -1062,12 +1062,12 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
            ========================================================================= */
         <div className="space-y-6 max-w-2xl mx-auto">
           {/* Progress Header & Shuffle Toolbar */}
-          <div className="bg-zinc-900/70 border border-zinc-800/80 rounded-2xl p-4 space-y-2.5 backdrop-blur-xl shadow-lg">
+          <div className="bg-white border border-stone-200 rounded-2xl p-4 space-y-2.5 shadow-sm">
             <div className="flex items-center justify-between text-xs">
-              <span className="font-mono text-zinc-300 font-semibold flex items-center gap-1.5">
+              <span className="font-mono text-stone-700 font-semibold flex items-center gap-1.5">
                 <span>Card {drillIndex + 1} / {drillDeck.length}</span>
                 {isShuffled && (
-                  <span className="px-2 py-0.5 rounded-full bg-amber-950/80 text-amber-300 text-[10px] font-mono border border-amber-600/40">
+                  <span className="px-2 py-0.5 rounded-full bg-amber-50 text-amber-700 text-[10px] font-mono border border-amber-200">
                     Shuffled 🔀
                   </span>
                 )}
@@ -1079,7 +1079,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   className={`px-3 py-1.5 rounded-xl text-xs font-mono transition cursor-pointer flex items-center space-x-1.5 ${
                     isShuffled
                       ? 'bg-amber-600 text-white font-bold shadow-xs'
-                      : 'bg-zinc-800 hover:bg-zinc-750 text-zinc-300 border border-zinc-700/60'
+                      : 'bg-white hover:bg-stone-50 text-stone-700 border border-stone-200 shadow-xs'
                   }`}
                   title="Randomize card sequence"
                 >
@@ -1092,7 +1092,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                     setDrillIndex(0);
                     setIsRevealed(false);
                   }}
-                  className="p-1.5 rounded-xl bg-zinc-800 hover:bg-zinc-750 text-zinc-400 hover:text-zinc-200 border border-zinc-700/60 cursor-pointer"
+                  className="p-1.5 rounded-xl bg-white hover:bg-stone-50 text-stone-500 hover:text-stone-800 border border-stone-200 cursor-pointer shadow-xs"
                   title="Reset to first card"
                 >
                   <RotateCcw className="w-4 h-4" />
@@ -1101,9 +1101,9 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             </div>
 
             {/* Smooth Progress Bar */}
-            <div className="w-full bg-zinc-800/80 rounded-full h-1.5 overflow-hidden">
+            <div className="w-full bg-stone-200 rounded-full h-1.5 overflow-hidden">
               <div
-                className="bg-gradient-to-r from-rose-600 to-rose-400 h-1.5 rounded-full transition-all duration-300"
+                className="bg-indigo-600 h-1.5 rounded-full transition-all duration-300"
                 style={{
                   width: `${Math.round(((drillIndex + 1) / Math.max(1, drillDeck.length)) * 100)}%`,
                 }}
@@ -1121,21 +1121,21 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 exit={{ opacity: 0, scale: 0.96 }}
                 transition={{ duration: 0.2 }}
                 onClick={() => setIsRevealed((prev) => !prev)}
-                className="bg-zinc-900/85 backdrop-blur-2xl border border-zinc-800 hover:border-zinc-700 rounded-3xl p-8 sm:p-12 text-center space-y-6 shadow-2xl relative overflow-hidden cursor-pointer select-none group min-h-[360px] flex flex-col justify-between"
+                className="bg-white border border-stone-200 hover:border-stone-300 rounded-3xl p-8 sm:p-12 text-center space-y-6 shadow-sm relative overflow-hidden cursor-pointer select-none group min-h-[360px] flex flex-col justify-between"
               >
                 {/* Top Card Meta Badges */}
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-2">
-                    <span className="px-2.5 py-0.5 rounded-full bg-rose-950/80 text-rose-300 font-mono text-[11px] font-bold border border-rose-800/40">
+                    <span className="px-2.5 py-0.5 rounded-full bg-indigo-50 text-indigo-700 font-mono text-[11px] font-bold border border-indigo-200">
                       JLPT {selectedLevel}
                     </span>
                     {currentDrillWord.lessonId && (
-                      <span className="px-2 py-0.5 rounded-full bg-zinc-950 text-zinc-400 font-mono text-[10px] border border-zinc-800 uppercase">
+                      <span className="px-2 py-0.5 rounded-full bg-stone-100 text-stone-600 font-mono text-[10px] border border-stone-200 uppercase">
                         {currentDrillWord.lessonId}
                       </span>
                     )}
                   </div>
-                  <span className="text-[11px] font-mono text-zinc-500 uppercase px-2 py-0.5 rounded bg-zinc-950/80 border border-zinc-800">
+                  <span className="text-[11px] font-mono text-stone-500 uppercase px-2 py-0.5 rounded bg-stone-100 border border-stone-200">
                     {currentDrillWord.pos || 'vocabulary'}
                   </span>
                 </div>
@@ -1144,10 +1144,10 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 {!isRevealed ? (
                   /* FRONT SIDE */
                   <div className="space-y-4 py-8">
-                    <h2 className="font-japanese text-5xl sm:text-6xl font-extrabold text-zinc-100 tracking-tight">
+                    <h2 className="font-japanese text-5xl sm:text-6xl font-extrabold text-stone-900 tracking-tight">
                       {currentDrillWord.ja}
                     </h2>
-                    <p className="text-xs text-zinc-400 font-sans">
+                    <p className="text-xs text-stone-600 font-sans">
                       💡 နှိပ်၍ အဖြေကြည့်ပါ (Click or press Space to reveal answer)
                     </p>
                     <div className="pt-2">
@@ -1157,11 +1157,11 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                           e.stopPropagation();
                           setIsRevealed(true);
                         }}
-                        className="px-6 py-3 rounded-2xl bg-gradient-to-r from-rose-600 to-rose-700 hover:from-rose-500 hover:to-rose-600 text-white font-bold text-xs shadow-[0_0_16px_rgba(244,63,94,0.4)] transition cursor-pointer inline-flex items-center space-x-2 border border-rose-500/40"
+                        className="px-6 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs shadow-sm transition cursor-pointer inline-flex items-center space-x-2 border border-indigo-500/30"
                       >
                         <Eye className="w-4 h-4" />
                         <span>Show Answer (အဖြေကြည့်မည်)</span>
-                        <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-black/40 border border-white/20 font-mono">
+                        <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-indigo-700/60 border border-indigo-400 font-mono text-white">
                           Space
                         </kbd>
                       </button>
@@ -1172,11 +1172,11 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   <div className="space-y-5 py-4">
                     {/* Headword & Furigana Kana Reading */}
                     <div className="space-y-2">
-                      <h2 className="font-japanese text-3xl sm:text-4xl font-extrabold text-zinc-100 tracking-tight">
+                      <h2 className="font-japanese text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">
                         {currentDrillWord.ja}
                       </h2>
                       <div>
-                        <span className="text-rose-300 font-japanese text-xl font-bold bg-rose-950/60 px-4 py-1 rounded-full border border-rose-900/60 inline-block shadow-inner">
+                        <span className="text-indigo-700 font-japanese text-xl font-bold bg-indigo-50 px-4 py-1 rounded-full border border-indigo-200 inline-block shadow-inner">
                           【{currentDrillWord.kana}】
                         </span>
                       </div>
@@ -1208,25 +1208,25 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                           isPlaying &&
                           (currentPlayingText === currentDrillWord.ja ||
                             currentPlayingText === currentDrillWord.kana)
-                            ? 'bg-rose-600 text-white shadow-[0_0_14px_rgba(244,63,94,0.6)] animate-pulse'
-                            : 'bg-zinc-800 hover:bg-zinc-750 text-zinc-200 border border-zinc-700/60'
+                            ? 'bg-indigo-600 text-white shadow-sm animate-pulse'
+                            : 'bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-200'
                         }`}
                       >
                         <Volume2 className="w-4 h-4" />
                         <span>Replay Audio</span>
-                        <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-black/40 border border-zinc-700 font-mono text-zinc-400">
+                        <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-stone-200 border border-stone-300 font-mono text-stone-600">
                           R
                         </kbd>
                       </button>
                     </div>
 
                     {/* Burmese & English Meanings */}
-                    <div className="pt-4 border-t border-zinc-800/80 space-y-1.5">
-                      <p className="font-burmese text-emerald-400 text-xl font-bold leading-relaxed">
+                    <div className="pt-4 border-t border-stone-200 space-y-1.5">
+                      <p className="font-burmese text-emerald-700 text-xl font-bold leading-relaxed">
                         {getBurmeseMeaning(currentDrillWord)}
                       </p>
                       {currentDrillWord.en && (
-                        <p className="text-zinc-300 text-xs sm:text-sm font-sans leading-normal">
+                        <p className="text-stone-600 text-xs sm:text-sm font-sans leading-normal">
                           {currentDrillWord.en}
                         </p>
                       )}
@@ -1235,7 +1235,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 )}
 
                 {/* Bottom Card Footer Hint */}
-                <div className="text-[11px] font-mono text-zinc-500 pt-2 border-t border-zinc-800/60 flex items-center justify-between">
+                <div className="text-[11px] font-mono text-stone-500 pt-2 border-t border-stone-200 flex items-center justify-between">
                   <span>{isRevealed ? 'Answer revealed' : 'Card hidden'}</span>
                   <span>Click card to {isRevealed ? 'hide' : 'flip'}</span>
                 </div>
@@ -1249,11 +1249,11 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               type="button"
               onClick={handlePrevDrill}
               disabled={drillIndex === 0}
-              className="px-4 py-3 rounded-2xl bg-zinc-900 hover:bg-zinc-850 disabled:opacity-30 text-zinc-200 text-xs font-semibold border border-zinc-800 transition cursor-pointer flex items-center space-x-2"
+              className="px-4 py-3 rounded-2xl bg-white hover:bg-stone-50 disabled:opacity-30 text-stone-700 text-xs font-semibold border border-stone-200 transition cursor-pointer flex items-center space-x-2 shadow-xs"
             >
               <ChevronLeft className="w-4 h-4" />
               <span>Previous (ရှေ့သို့)</span>
-              <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-zinc-950 border border-zinc-800 font-mono text-zinc-500 hidden sm:inline">
+              <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200 font-mono text-stone-500 hidden sm:inline">
                 ←
               </kbd>
             </button>
@@ -1261,7 +1261,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             <button
               type="button"
               onClick={() => setIsRevealed((prev) => !prev)}
-              className="px-4 py-3 rounded-2xl bg-zinc-850 hover:bg-zinc-800 text-zinc-300 text-xs font-medium border border-zinc-750 transition cursor-pointer flex items-center space-x-1.5"
+              className="px-4 py-3 rounded-2xl bg-white hover:bg-stone-50 text-stone-700 text-xs font-medium border border-stone-200 transition cursor-pointer flex items-center space-x-1.5 shadow-xs"
             >
               {isRevealed ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
               <span>{isRevealed ? 'Hide (ဝှက်မည်)' : 'Flip (လှန်မည်)'}</span>
@@ -1271,12 +1271,12 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             <button
               type="button"
               onClick={handleHardLapseDrill}
-              className="px-4 py-3 rounded-2xl bg-amber-950/80 hover:bg-amber-900/90 text-amber-200 text-xs font-semibold border border-amber-600/50 shadow-md shadow-amber-950/30 transition cursor-pointer flex items-center space-x-2"
+              className="px-4 py-3 rounded-2xl bg-amber-50 hover:bg-amber-100 text-amber-800 text-xs font-semibold border border-amber-300 shadow-xs transition cursor-pointer flex items-center space-x-2"
               title="Mark as hard, push to Quarantine engine, and review again later in this session"
             >
-              <AlertTriangle className="w-4 h-4 text-amber-400" />
+              <AlertTriangle className="w-4 h-4 text-amber-600" />
               <span className="font-burmese">ခက်ခဲသည် / မမှတ်မိပါ (Hard)</span>
-              <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-amber-900/60 border border-amber-500/40 font-mono text-amber-300 hidden sm:inline">
+              <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-amber-100 border border-amber-300 font-mono text-amber-800 hidden sm:inline">
                 H
               </kbd>
             </button>
@@ -1285,10 +1285,10 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               type="button"
               onClick={handleNextDrill}
               disabled={drillIndex >= drillDeck.length - 1}
-              className="px-6 py-3 rounded-2xl bg-rose-600 hover:bg-rose-500 disabled:opacity-30 text-white text-xs font-semibold shadow-md shadow-rose-950/40 transition cursor-pointer flex items-center space-x-2"
+              className="px-6 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 disabled:opacity-30 text-white text-xs font-semibold shadow-sm transition cursor-pointer flex items-center space-x-2"
             >
               <span>Next (နောက်သို့)</span>
-              <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-rose-800 border border-rose-400/40 font-mono text-rose-100 hidden sm:inline">
+              <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-indigo-700 border border-indigo-400 font-mono text-indigo-100 hidden sm:inline">
                 →
               </kbd>
               <ChevronRight className="w-4 h-4" />
@@ -1296,8 +1296,8 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
           </div>
 
           {/* Keyboard Legend */}
-          <div className="text-center text-[11px] font-mono text-zinc-500 pt-2">
-            Shortcuts: <kbd className="px-1.5 py-0.5 rounded bg-zinc-900 border border-zinc-800">Space</kbd> Flip / Reveal • <kbd className="px-1.5 py-0.5 rounded bg-zinc-900 border border-zinc-800">←</kbd> / <kbd className="px-1.5 py-0.5 rounded bg-zinc-900 border border-zinc-800">→</kbd> Prev / Next • <kbd className="px-1.5 py-0.5 rounded bg-zinc-900 border border-zinc-800">H</kbd> Hard / Lap • <kbd className="px-1.5 py-0.5 rounded bg-zinc-900 border border-zinc-800">R</kbd> Pronounce
+          <div className="text-center text-[11px] font-mono text-stone-500 pt-2">
+            Shortcuts: <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">Space</kbd> Flip / Reveal • <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">←</kbd> / <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">→</kbd> Prev / Next • <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">H</kbd> Hard / Lap • <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">R</kbd> Pronounce
           </div>
         </div>
       ) : (
@@ -1314,28 +1314,28 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               return (
                 <div
                   key={v.id}
-                  className="bg-zinc-900/80 backdrop-blur-xl border border-zinc-800 hover:border-zinc-700/90 rounded-2xl p-5 transition shadow-lg flex flex-col justify-between space-y-3.5 group relative overflow-hidden"
+                  className="bg-white border border-stone-200 hover:border-indigo-300 rounded-2xl p-5 transition shadow-sm flex flex-col justify-between space-y-3.5 group relative overflow-hidden"
                 >
                   {/* Top Row: Headword & Audio Button */}
                   <div className="flex items-start justify-between gap-3">
                     <div className="space-y-1">
                       {/* Large Headword & Kana Reading in Furigana Style */}
                       <div className="flex items-baseline space-x-2 flex-wrap">
-                        <span className="font-japanese text-xl text-zinc-100 font-bold tracking-tight">
+                        <span className="font-japanese text-xl text-stone-900 font-bold tracking-tight">
                           {v.ja}
                         </span>
-                        <span className="text-indigo-300 font-japanese text-sm font-medium">
+                        <span className="text-indigo-700 font-japanese text-sm font-semibold">
                           【{v.kana}】
                         </span>
                       </div>
 
                       {/* Part of Speech & Lesson badge */}
-                      <div className="flex items-center space-x-1.5 text-[10px] font-mono text-zinc-500 pt-0.5">
-                        <span className="px-1.5 py-0.2 rounded bg-zinc-950 border border-zinc-800">
+                      <div className="flex items-center space-x-1.5 text-[10px] font-mono text-stone-500 pt-0.5">
+                        <span className="px-1.5 py-0.2 rounded bg-stone-100 border border-stone-200 text-stone-600">
                           {v.pos || 'vocab'}
                         </span>
                         {v.lessonId && (
-                          <span className="px-1.5 py-0.2 rounded bg-zinc-950 border border-zinc-800 uppercase">
+                          <span className="px-1.5 py-0.2 rounded bg-stone-100 border border-stone-200 text-stone-600 uppercase">
                             {v.lessonId}
                           </span>
                         )}
@@ -1348,8 +1348,8 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       onClick={() => handleTogglePlay(v)}
                       className={`p-2.5 rounded-xl transition cursor-pointer flex items-center justify-center shrink-0 ${
                         isItemPlaying
-                          ? 'bg-rose-600 text-white shadow-[0_0_14px_rgba(244,63,94,0.6)] animate-pulse'
-                          : 'bg-zinc-800/80 hover:bg-zinc-750 text-zinc-300 hover:text-white border border-zinc-700/60'
+                          ? 'bg-indigo-600 text-white shadow-sm animate-pulse'
+                          : 'bg-stone-100 hover:bg-stone-200 text-stone-600 hover:text-stone-900 border border-stone-200'
                       }`}
                       title="Listen to Japanese pronunciation"
                     >
@@ -1372,14 +1372,14 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   )}
 
                   {/* Burmese & English Meanings */}
-                  <div className="pt-2.5 border-t border-zinc-800/80 space-y-1">
+                  <div className="pt-2.5 border-t border-stone-200 space-y-1">
                     {burmeseMeaning && (
-                      <p className="font-burmese text-emerald-400 text-sm font-medium leading-relaxed">
+                      <p className="font-burmese text-stone-800 text-sm font-medium leading-relaxed">
                         {burmeseMeaning}
                       </p>
                     )}
                     {v.en && (
-                      <p className="text-zinc-400 text-xs leading-normal">
+                      <p className="text-stone-600 text-xs leading-normal">
                         {v.en}
                       </p>
                     )}
@@ -1395,7 +1395,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               <button
                 type="button"
                 onClick={handleLoadMore}
-                className="px-6 py-3 rounded-2xl bg-zinc-900 hover:bg-zinc-850 border border-zinc-800 hover:border-zinc-700 text-xs font-semibold text-zinc-300 hover:text-white transition shadow-md cursor-pointer inline-flex items-center space-x-2"
+                className="px-6 py-3 rounded-2xl bg-white hover:bg-stone-50 border border-stone-200 hover:border-stone-300 text-xs font-semibold text-stone-700 hover:text-stone-900 transition shadow-sm cursor-pointer inline-flex items-center space-x-2"
               >
                 <span>Show More ({filteredWords.length - displayCount} remaining)</span>
                 <ChevronDown className="w-4 h-4" />
@@ -1421,7 +1421,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 16, scale: 0.95 }}
             transition={{ duration: 0.2 }}
-            className="fixed bottom-6 right-6 z-50 max-w-sm px-4 py-3 rounded-2xl bg-zinc-900/95 backdrop-blur-xl border border-rose-500/40 shadow-2xl text-rose-200 text-xs font-medium flex items-center space-x-2.5 shadow-rose-950/40"
+            className="fixed bottom-6 right-6 z-50 max-w-sm px-4 py-3 rounded-2xl bg-white/95 backdrop-blur-xl border border-rose-200 shadow-xl text-rose-800 text-xs font-medium flex items-center space-x-2.5 shadow-stone-400/20"
           >
             <span className="text-base">👻</span>
             <span className="font-burmese leading-relaxed">{toastMessage.text}</span>

@@ -133,14 +133,14 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-stone-100 tracking-tight">Curriculum Map (174 Lessons)</h1>
-          <p className="text-xs text-stone-400 mt-0.5">
+          <h1 className="text-2xl font-bold text-stone-900 tracking-tight">Curriculum Map (174 Lessons)</h1>
+          <p className="text-xs text-stone-600 mt-0.5">
             Complete N5 → N2 curriculum across 174 lesson packs. AI-assisted editorial authoring, not human-reviewed.
           </p>
         </div>
 
         {/* Level Switcher */}
-        <div className="flex bg-zinc-950/80 backdrop-blur-xl border border-zinc-800/80 rounded-2xl p-1.5 shrink-0 shadow-xl relative">
+        <div className="flex bg-stone-200/80 border border-stone-300 rounded-2xl p-1.5 shrink-0 shadow-2xs relative">
           {(['N5', 'N4', 'N3', 'N2'] as const).map((lvl) => {
             const isLvlActive = selectedLevel === lvl;
             return (
@@ -148,13 +148,13 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
                 key={lvl}
                 onClick={() => setSelectedLevel(lvl)}
                 className={`relative px-4 py-2 rounded-xl text-xs font-semibold font-mono transition-colors duration-200 cursor-pointer ${
-                  isLvlActive ? 'text-white' : 'text-zinc-400 hover:text-zinc-200'
+                  isLvlActive ? 'text-white' : 'text-stone-600 hover:text-stone-900'
                 }`}
               >
                 {isLvlActive && (
                   <motion.div
                     layoutId="activeCurriculumLevel"
-                    className="absolute inset-0 bg-gradient-to-r from-rose-600 to-rose-500 rounded-xl shadow-[0_0_16px_rgba(244,63,94,0.4)]"
+                    className="absolute inset-0 bg-indigo-600 rounded-xl shadow-xs"
                     transition={{ type: 'spring', stiffness: 380, damping: 30 }}
                   />
                 )}
@@ -168,28 +168,28 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
       </div>
 
       {/* Level Overview Progress Summary */}
-      <div className="bg-zinc-900/80 backdrop-blur-xl border border-zinc-800/80 rounded-3xl p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-2xl">
+      <div className="bg-white border border-stone-200 rounded-3xl p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-sm">
         <div className="space-y-1.5">
           <div className="flex items-center gap-2">
-            <span className="text-xs font-bold font-mono px-2.5 py-0.5 rounded-full bg-rose-950/80 text-rose-300 border border-rose-500/40">
+            <span className="text-xs font-bold font-mono px-2.5 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">
               {selectedLevel} Track
             </span>
-            <span className="text-sm font-semibold text-zinc-100">
+            <span className="text-sm font-semibold text-stone-900">
               Level Mastery Overview
             </span>
           </div>
-          <p className="text-xs text-zinc-400">
+          <p className="text-xs text-stone-600">
             {levelCompletedCount} of {levelPublishedItems.length} published lessons mastered ({levelPercent}%) • {levelTotalSrsMastered} SRS cards retained
           </p>
         </div>
         <div className="sm:w-72 space-y-2">
-          <div className="flex justify-between text-xs text-zinc-400 font-mono">
+          <div className="flex justify-between text-xs text-stone-600 font-mono">
             <span>Overall Level Progress</span>
-            <span className="text-emerald-400 font-semibold">{levelPercent}%</span>
+            <span className="text-emerald-700 font-semibold">{levelPercent}%</span>
           </div>
-          <div className="w-full h-2.5 bg-zinc-950 border border-zinc-800 rounded-full overflow-hidden p-0.5">
+          <div className="w-full h-2.5 bg-stone-100 border border-stone-200 rounded-full overflow-hidden p-0.5">
             <div
-              className="h-full bg-gradient-to-r from-rose-600 via-amber-500 to-emerald-500 rounded-full transition-all duration-500 shadow-[0_0_8px_rgba(16,185,129,0.3)]"
+              className="h-full bg-indigo-600 rounded-full transition-all duration-500"
               style={{ width: `${Math.max(levelPercent > 0 ? 3 : 0, levelPercent)}%` }}
             />
           </div>
@@ -198,13 +198,13 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
 
       {/* Search Input */}
       <div className="relative">
-        <Search className="w-4 h-4 text-zinc-500 absolute left-4 top-3.5" />
+        <Search className="w-4 h-4 text-stone-400 absolute left-4 top-3.5" />
         <input
           type="text"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder={`Search in ${selectedLevel} lessons, topics, grammar...`}
-          className="w-full bg-zinc-900/80 backdrop-blur-xl border border-zinc-800/80 rounded-2xl pl-11 pr-4 py-3 text-xs text-zinc-200 placeholder:text-zinc-500 focus:outline-none focus:border-rose-500/80 shadow-inner font-japanese"
+          className="w-full bg-white border border-stone-300 rounded-2xl pl-11 pr-4 py-3 text-xs text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-indigo-500 shadow-2xs font-japanese"
         />
       </div>
 
@@ -250,16 +250,16 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
           }
 
           // Distinct card styling
-          let cardStyle = 'bg-zinc-950/40 border-zinc-900/80 text-zinc-500 opacity-60';
+          let cardStyle = 'bg-stone-100/70 border-stone-200 text-stone-400 opacity-60';
           if (isPlayable) {
             if (isCurrentFocus) {
-              cardStyle = 'bg-zinc-900/90 backdrop-blur-xl border-rose-500/80 ring-2 ring-rose-500/30 shadow-[0_0_24px_rgba(244,63,94,0.25)]';
+              cardStyle = 'bg-white border-indigo-500 ring-2 ring-indigo-500/20 shadow-md';
             } else if (isMastered) {
-              cardStyle = 'bg-zinc-900/80 backdrop-blur-xl border-emerald-500/40 hover:border-emerald-400/70 shadow-[0_0_16px_rgba(16,185,129,0.15)]';
+              cardStyle = 'bg-white border-stone-200 hover:border-emerald-400 shadow-sm';
             } else if (isInProgress) {
-              cardStyle = 'bg-zinc-900/80 backdrop-blur-xl border-amber-500/40 hover:border-amber-400/70 shadow-[0_0_16px_rgba(245,158,11,0.15)]';
+              cardStyle = 'bg-white border-stone-200 hover:border-amber-400 shadow-sm';
             } else {
-              cardStyle = 'bg-zinc-900/80 backdrop-blur-xl border-zinc-800/80 hover:border-zinc-700/80 shadow-lg';
+              cardStyle = 'bg-white border-stone-200 hover:border-stone-300 shadow-sm';
             }
           }
 
@@ -276,16 +276,16 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
                 }
               }}
               aria-label={`Study lesson ${item.number}: ${item.title}`}
-              className={`rounded-2xl border p-5 flex flex-col justify-between transition duration-200 cursor-pointer hover:shadow-xl hover:scale-[1.01] active:scale-[0.99] select-none ${cardStyle}`}
+              className={`rounded-2xl border p-5 flex flex-col justify-between transition duration-200 cursor-pointer hover:shadow-md hover:scale-[1.01] active:scale-[0.99] select-none ${cardStyle}`}
             >
               <div className="space-y-2.5">
                 <div className="flex items-center justify-between">
-                  <span className="text-[10px] font-mono text-stone-400 uppercase font-semibold">
+                  <span className="text-[10px] font-mono text-stone-500 uppercase font-semibold">
                     {item.id} • Lesson {item.number}
                   </span>
                   <div className="flex items-center gap-1.5 flex-wrap justify-end">
                     {item.reviewStatus && (
-                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-stone-800 text-stone-300 border border-stone-700 font-medium">
+                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-stone-100 text-stone-700 border border-stone-200 font-medium">
                         {item.reviewStatus === 'human-reviewed' ? 'Human-Reviewed' : 'AI-Authored'}
                       </span>
                     )}
@@ -293,8 +293,8 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
                     <span
                       className={`text-[10px] px-2 py-0.5 rounded-full font-semibold ${
                         item.status === 'published'
-                          ? 'bg-emerald-950/60 text-emerald-300 border border-emerald-800/60'
-                          : 'bg-stone-800/60 text-stone-400 border border-stone-700/60'
+                          ? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
+                          : 'bg-stone-100 text-stone-500 border border-stone-200'
                       }`}
                     >
                       {item.status === 'published' ? 'Published' : 'Planned'}
@@ -302,37 +302,37 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
 
                     {/* Status Badges: Completed, Current Focus, In Progress, Ready, Locked */}
                     {!isPlayable ? (
-                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-stone-900 text-stone-500 border border-stone-800 flex items-center gap-1">
-                        <Lock className="w-2.5 h-2.5 text-stone-600" />
+                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-stone-100 text-stone-500 border border-stone-200 flex items-center gap-1">
+                        <Lock className="w-2.5 h-2.5 text-stone-400" />
                         Locked
                       </span>
                     ) : isMastered ? (
-                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-950/90 text-emerald-300 border border-emerald-700/80 font-semibold flex items-center gap-1">
-                        <CheckCircle className="w-3 h-3 text-emerald-400" />
+                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 font-semibold flex items-center gap-1">
+                        <CheckCircle className="w-3 h-3 text-emerald-600" />
                         Completed
                       </span>
                     ) : isCurrentFocus ? (
-                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-rose-950/90 text-rose-300 border border-rose-600 font-semibold flex items-center gap-1 shadow-sm">
-                        <Sparkles className="w-3 h-3 text-rose-400" />
+                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold flex items-center gap-1 shadow-2xs">
+                        <Sparkles className="w-3 h-3 text-indigo-600" />
                         Current Focus
                       </span>
                     ) : isInProgress ? (
-                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-950/90 text-amber-300 border border-amber-700 font-semibold flex items-center gap-1">
+                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-amber-50 text-amber-800 border border-amber-200 font-semibold flex items-center gap-1">
                         In Progress
                       </span>
                     ) : (
-                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-stone-800 text-stone-300 border border-stone-700 font-semibold">
+                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-stone-100 text-stone-700 border border-stone-200 font-semibold">
                         Ready
                       </span>
                     )}
                   </div>
                 </div>
 
-                <h3 className={`text-sm font-semibold leading-snug ${isPlayable ? 'text-stone-100' : 'text-stone-400'}`}>
+                <h3 className={`text-sm font-semibold leading-snug ${isPlayable ? 'text-stone-900' : 'text-stone-500'}`}>
                   {item.title}
                 </h3>
 
-                <p className="text-[11px] text-stone-400">
+                <p className="text-[11px] text-stone-600">
                   {item.grammarTopics.join(' • ')}
                 </p>
 
@@ -343,21 +343,21 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
                 </div>
 
                 {/* Visual Progress Bar & Mastery Percentage */}
-                <div className="pt-2 pb-0.5 space-y-1.5 border-t border-stone-800/60">
+                <div className="pt-2 pb-0.5 space-y-1.5 border-t border-stone-200">
                   <div className="flex items-center justify-between text-xs">
-                    <div className="flex items-center gap-1.5 text-stone-400 font-medium">
-                      <Layers className="w-3 h-3 text-stone-500" />
+                    <div className="flex items-center gap-1.5 text-stone-600 font-medium">
+                      <Layers className="w-3 h-3 text-stone-400" />
                       <span>SRS Mastery</span>
                     </div>
                     <div className="flex items-center gap-2 font-mono text-[11px]">
                       <span
                         className={
                           isMastered
-                            ? 'text-emerald-400 font-bold'
+                            ? 'text-emerald-700 font-bold'
                             : isCurrentFocus
-                            ? 'text-rose-400 font-medium'
+                            ? 'text-indigo-700 font-medium'
                             : isInProgress
-                            ? 'text-amber-400 font-medium'
+                            ? 'text-amber-800 font-medium'
                             : 'text-stone-500'
                         }
                       >
@@ -366,12 +366,12 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
                       <span
                         className={`px-1.5 py-0.5 rounded text-[10px] font-bold ${
                           isMastered
-                            ? 'bg-emerald-950 text-emerald-300 border border-emerald-800/80'
+                            ? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
                             : isCurrentFocus
-                            ? 'bg-rose-950 text-rose-300 border border-rose-800/80'
+                            ? 'bg-indigo-50 text-indigo-700 border border-indigo-200'
                             : isInProgress
-                            ? 'bg-amber-950 text-amber-300 border border-amber-800/80'
-                            : 'bg-stone-800/80 text-stone-500 border border-stone-700/60'
+                            ? 'bg-amber-50 text-amber-800 border border-amber-200'
+                            : 'bg-stone-100 text-stone-600 border border-stone-200'
                         }`}
                       >
                         {masteryPercentage}%
@@ -386,19 +386,19 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
                     aria-valuemin={0}
                     aria-valuemax={100}
                     aria-label={`${item.title} SRS mastery: ${masteryPercentage}%`}
-                    className="w-full h-2 bg-stone-950/80 border border-stone-800/90 rounded-full overflow-hidden p-0.5"
+                    className="w-full h-2 bg-stone-100 border border-stone-200 rounded-full overflow-hidden p-0.5"
                   >
                     <div
                       className={`h-full rounded-full transition-all duration-500 ${
                         isMastered
-                          ? 'bg-gradient-to-r from-emerald-500 to-teal-400 shadow-sm shadow-emerald-500/40'
+                          ? 'bg-emerald-600'
                           : isCurrentFocus
-                          ? 'bg-gradient-to-r from-rose-600 to-rose-400 shadow-sm shadow-rose-500/40'
+                          ? 'bg-indigo-600'
                           : isInProgress
-                          ? 'bg-gradient-to-r from-amber-500 to-yellow-400 shadow-sm shadow-amber-500/40'
+                          ? 'bg-amber-500'
                           : masteryPercentage > 0
-                          ? 'bg-stone-500'
-                          : 'bg-stone-800/30'
+                          ? 'bg-stone-400'
+                          : 'bg-stone-200'
                       }`}
                       style={{ width: `${Math.max(masteryPercentage > 0 ? 3 : 0, masteryPercentage)}%` }}
                     />
@@ -406,26 +406,26 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
                 </div>
               </div>
 
-              <div className="mt-3.5 pt-3 border-t border-stone-800/80 flex items-center justify-between">
+              <div className="mt-3.5 pt-3 border-t border-stone-200 flex items-center justify-between">
                 {isPlayable ? (
                   <>
                     <div className="text-xs font-medium">
                       {isMastered ? (
-                        <span className="text-emerald-400 flex items-center gap-1.5 text-[11px] font-semibold">
-                          <CheckCircle className="w-3.5 h-3.5 text-emerald-400" />
+                        <span className="text-emerald-700 flex items-center gap-1.5 text-[11px] font-semibold">
+                          <CheckCircle className="w-3.5 h-3.5 text-emerald-600" />
                           <span>Mastered (100%)</span>
                         </span>
                       ) : isCurrentFocus ? (
-                        <span className="text-rose-400 flex items-center gap-1.5 text-[11px] font-semibold">
-                          <Sparkles className="w-3.5 h-3.5 text-rose-400" />
+                        <span className="text-indigo-700 flex items-center gap-1.5 text-[11px] font-semibold">
+                          <Sparkles className="w-3.5 h-3.5 text-indigo-600" />
                           <span>Current Focus • {masteryPercentage}%</span>
                         </span>
                       ) : isInProgress ? (
-                        <span className="text-amber-400 text-[11px] font-medium">
+                        <span className="text-amber-800 text-[11px] font-medium">
                           In Progress • {masteryPercentage}%
                         </span>
                       ) : (
-                        <span className="text-stone-400 text-[11px]">Ready to start • 0%</span>
+                        <span className="text-stone-500 text-[11px]">Ready to start • 0%</span>
                       )}
                     </div>
                     <button
@@ -434,12 +434,12 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
                         e.stopPropagation();
                         onSelectLesson(item.id);
                       }}
-                      className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center space-x-1 transition shadow cursor-pointer ${
+                      className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center space-x-1 transition shadow-xs cursor-pointer ${
                         isCurrentFocus
-                          ? 'bg-rose-600 hover:bg-rose-500 text-white shadow-rose-950/50'
+                          ? 'bg-indigo-600 hover:bg-indigo-700 text-white'
                           : isMastered
-                          ? 'bg-stone-800 hover:bg-stone-700 text-stone-200 border border-stone-700'
-                          : 'bg-rose-600 hover:bg-rose-500 text-white'
+                          ? 'bg-white hover:bg-stone-50 text-stone-700 border border-stone-300'
+                          : 'bg-indigo-600 hover:bg-indigo-700 text-white'
                       }`}
                     >
                       {isMastered ? (
@@ -458,7 +458,7 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
                 ) : (
                   <div className="w-full flex items-center justify-between text-[11px] text-stone-500">
                     <span className="italic">Outline only — content not yet available</span>
-                    <Lock className="w-3.5 h-3.5 text-stone-600 shrink-0" />
+                    <Lock className="w-3.5 h-3.5 text-stone-400 shrink-0" />
                   </div>
                 )}
               </div>

@@ -33,10 +33,10 @@ export const ShadowingScreen: React.FC<ShadowingScreenProps> = ({
   if (!pack) {
     return (
       <div className={`p-8 text-center space-y-4 ${className}`}>
-        <p className="text-sm text-zinc-400">Loading lesson dialogue audio...</p>
+        <p className="text-sm text-stone-600">Loading lesson dialogue audio...</p>
         <button
           onClick={onBack}
-          className="px-4 py-2 rounded-xl bg-zinc-800 text-zinc-200 text-xs font-medium cursor-pointer"
+          className="px-4 py-2 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 text-stone-700 text-xs font-medium cursor-pointer shadow-xs"
         >
           Return to Dashboard
         </button>
@@ -50,18 +50,18 @@ export const ShadowingScreen: React.FC<ShadowingScreenProps> = ({
       <div className="flex items-center space-x-3 pb-2">
         <button
           onClick={onBack}
-          className="p-2.5 rounded-xl bg-zinc-900 hover:bg-zinc-850 border border-zinc-800 text-zinc-400 hover:text-zinc-100 transition cursor-pointer"
+          className="p-2.5 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 text-stone-600 hover:text-stone-900 transition cursor-pointer shadow-xs"
           title="Back to Dashboard"
         >
           <ArrowLeft className="w-5 h-5" />
         </button>
         <div>
           <div className="flex items-center space-x-2">
-            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-cyan-950/80 border border-cyan-500/50 text-[11px] font-bold text-cyan-300">
-              <Mic className="w-3.5 h-3.5 text-cyan-400" />
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-cyan-50 border border-cyan-200 text-[11px] font-bold text-cyan-800">
+              <Mic className="w-3.5 h-3.5 text-cyan-700" />
               <span>Shadowing Audio Workbench (発音練習)</span>
             </span>
-            <span className="text-xs font-mono text-zinc-500">
+            <span className="text-xs font-mono text-stone-500">
               {pack.id.toUpperCase()} • {pack.title}
             </span>
           </div>
