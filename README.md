@@ -7,7 +7,7 @@
 ## 🌟 Highlights & Key Features
 
 - **Comprehensive 4-Level Curriculum (N5 → N4 → N3 → N2)**:
-  - **140 total structured lessons**: N5 (25 lessons), N4 (25 lessons), N3 (30 lessons), N2 (60 lessons).
+  - **174 total structured lessons**: N5 (30 lessons), N4 (36 lessons), N3 (48 lessons), N2 (60 lessons).
   - Fully curated vocabulary, kanji with stroke & radical data, sentence grammar linkages, and natural dialogues.
   - Complete reading passages and listening comprehension scripts for all lessons.
 - **15-Stage Lesson Progression Pipeline**:
@@ -47,7 +47,7 @@
 - **Animations & Micro-interactions**: [Framer Motion](https://www.framer.com/motion/)
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Backend / Proxy**: [Express](https://expressjs.com/) + `@google/genai` (for optional AI explanations)
-- **Testing**: [Vitest](https://vitest.dev/) (104 automated tests covering domain, assessment, curriculum sync, and flows)
+- **Testing**: [Vitest](https://vitest.dev/) (977 automated tests covering domain, assessment, curriculum sync, and flows)
 - **Validation**: [Zod](https://zod.dev/) schemas enforcing curriculum data integrity
 
 ---
@@ -58,17 +58,17 @@ All curriculum content is organized under `content/` with strict schema validati
 
 ```
 content/
-├── curriculum-map.json       # Master index with metadata for all 140 lessons
+├── curriculum-map.json       # Master index with metadata for all 174 lessons
 └── packs/
     ├── n5/
     │   ├── n5.l01.json
-    │   └── ... (n5.l01 through n5.l25)
+    │   └── ... (n5.l01 through n5.l30)
     ├── n4/
     │   ├── n4.l01.json
-    │   └── ... (n4.l01 through n4.l25)
+    │   └── ... (n4.l01 through n4.l36)
     ├── n3/
     │   ├── n3.l01.json
-    │   └── ... (n3.l01 through n3.l30)
+    │   └── ... (n3.l01 through n3.l48)
     └── n2/
         ├── n2.l01.json
         └── ... (n2.l01 through n2.l60)
