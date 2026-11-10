@@ -999,7 +999,7 @@
           "meaning": "to change (transitive)",
           "preview": false,
           "meaningMyanmar": "to change (transitive)",
-          "meaningMy": "to change (transitive)"
+          "meaningMy": "変える (အဓိပ္ပာယ်- to change (transitive))"
         },
         {
           "word": "大変",
@@ -1007,7 +1007,7 @@
           "meaning": "very; tough",
           "preview": false,
           "meaningMyanmar": "very; tough",
-          "meaningMy": "very; tough"
+          "meaningMy": "大変 (အဓိပ္ပာယ်- very; tough)"
         }
       ],
       "exampleSentenceIds": [
@@ -1058,7 +1058,7 @@
           "meaning": "to raise (transitive)",
           "preview": false,
           "meaningMyanmar": "to raise (transitive)",
-          "meaningMy": "to raise (transitive)"
+          "meaningMy": "育てる (အဓိပ္ပာယ်- to raise (transitive))"
         },
         {
           "word": "教育",
@@ -1066,7 +1066,7 @@
           "meaning": "education",
           "preview": false,
           "meaningMyanmar": "education",
-          "meaningMy": "education"
+          "meaningMy": "教育 (အဓိပ္ပာယ်- education)"
         }
       ],
       "exampleSentenceIds": [
@@ -1116,7 +1116,7 @@
           "meaning": "swimming",
           "preview": false,
           "meaningMyanmar": "swimming",
-          "meaningMy": "swimming"
+          "meaningMy": "水泳 (အဓိပ္ပာယ်- swimming)"
         }
       ],
       "exampleSentenceIds": [
@@ -1178,8 +1178,8 @@
       },
       "explanationMy": "ယခင်က မလုပ်နိုင်ခဲ့သောအရာ သို့မဟုတ် မလုပ်ဖြစ်ခဲ့သောအရာကို အချိန်ကြာလာသည်နှင့်အမျှ \"လုပ်နိုင်လာသည်/လုပ်ဖြစ်လာသည်\" ဟူသော အခြေအနေပြောင်းလဲမှုကို ဖော်ပြသည်။",
       "meaningMyanmar": "ယခင်က မလုပ်နိုင်ခဲ့သောအရာ သို့မဟုတ် မလုပ်ဖြစ်ခဲ့သောအရာကို အချိန်ကြာလာသည်နှင့်အမျှ \"လုပ်နိုင်လာသည်/လုပ်ဖြစ်လာသည်\" ဟူသော အခြေအနေပြောင်းလဲမှုကို ဖော်ပြသည်။",
-      "meaningMy": "ယခင်က မလုပ်နိုင်ခဲ့သောအရာ သို့မဟုတ် မလုပ်ဖြစ်ခဲ့သောအရာကို အချိန်ကြာလာသည်နှင့်အမျှ \"လုပ်နိုင်လာသည်/လုပ်ဖြစ်လာသည်\" ဟူသော အခြေအနေပြောင်းလဲမှုကို ဖော်ပြသည်။",
-      "nuanceExplanationMy": "[Verb Dictionary form (Potential / Intransitive)] + ようになる ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "လုပ်ဆောင်နိုင်စွမ်း သို့မဟုတ် အခြေအနေအရ ပြုလုပ်နိုင်ခြင်း (စွမ်းရည်ပြ ကြိယာပုံစံ)",
+      "nuanceExplanationMy": "[Verb Dictionary form (Potential / Intransitive)] + ようになる ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l19.g002",
@@ -1217,7 +1217,7 @@
       "explanationMy": "ယခင်က လုပ်လေ့ရှိခဲ့သော သို့မဟုတ် လုပ်နိုင်ခဲ့သောအရာကို အချိန်ကြာလာသည်နှင့်အမျှ \"မလုပ်တော့ပါ/မလုပ်နိုင်တော့ပါ\" ဟူသော အခြေအနေပြောင်းလဲမှုကို ဖော်ပြသည်။",
       "meaningMyanmar": "ယခင်က လုပ်လေ့ရှိခဲ့သော သို့မဟုတ် လုပ်နိုင်ခဲ့သောအရာကို အချိန်ကြာလာသည်နှင့်အမျှ \"မလုပ်တော့ပါ/မလုပ်နိုင်တော့ပါ\" ဟူသော အခြေအနေပြောင်းလဲမှုကို ဖော်ပြသည်။",
       "meaningMy": "ယခင်က လုပ်လေ့ရှိခဲ့သော သို့မဟုတ် လုပ်နိုင်ခဲ့သောအရာကို အချိန်ကြာလာသည်နှင့်အမျှ \"မလုပ်တော့ပါ/မလုပ်နိုင်တော့ပါ\" ဟူသော အခြေအနေပြောင်းလဲမှုကို ဖော်ပြသည်။",
-      "nuanceExplanationMy": "[Verb ない-form] (drop い) + くなる (〜なくなる) ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "nuanceExplanationMy": "[Verb ない-form] (drop い) + くなる (〜なくなる) ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1458,7 +1458,7 @@
       "id": "n4.l19.s008",
       "lessonId": "n4.l19",
       "ja": "スマートフォンのカメラが高性能になったため、重いカメラを持ち歩かなくなりました。",
-      "kana": "スマートフォンのかめらが高性能になったため、おもいカメラをもちあるかなくなりました。",
+      "kana": "スマートフォンのかめらがこうせいのうになったため、おもいカメラをもちあるかなくなりました。",
       "translation": {
         "en": "Because smartphone cameras became high-performance, people no longer carry heavy cameras around.",
         "my": "စမတ်ဖုန်းကင်မရာများ အရည်အသွေးမြင့်မားလာသောကြောင့် လေးလံသော ကင်မရာကြီးများကို သယ်ဆောင်မသွားတော့ပါ။"
@@ -1628,7 +1628,7 @@
     },
     "titleMy": "日本留学二年目に見られた変化 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "日本留学二年目に見られた変化 (ဖတ်ရှုခြင်း)",
-    "translationMy": "Two years have already swiftly passed since I came to study abroad in Japan from Myanmar. When I first arrived in Japan, I could not speak Japanese well, and even shopping at the supermarket was a continuous source of nervous tension. Moreover, due to cultural and habitual differences, I became homesick, doing nothing but calling my family in my home country at night.\n\nHowever, continuing to study daily at the Japanese language school and gaining experience through part-time jobs, my life changed tremendously. Now, I have become able to enjoy everyday conversations with Japanese people without using a dictionary, and no longer get lost even when looking at complicated train route maps. Natto and sashimi, whose smell I disliked at first, I have also become able to eat deliciously.\n\nOn the other hand, some things also ceased. Previously, I chatted late every day with friends back home, but to maintain a disciplined lifestyle, I stopped staying up late. Furthermore, I used to translate all Japanese notices into English to read them, but now I can read Japanese signs and announcements directly, and no longer rely on English.\n\nCompared to myself two years ago, I truly feel my own personal growth. I want to continue striving without giving up and become able to do even more things in the future."
+    "translationMy": "N4 Lesson 19: Change of State (〜ようになる・〜なくなる) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l19.l01",
@@ -1649,44 +1649,65 @@
       {
         "speaker": "ユキ",
         "ja": "アウンさん、私たちが言語交換を始めてからちょうど一年ですね。",
-        "kana": "アウンさん、私たちが言語交換を始めてからちょうど一年ですね。",
-        "en": ""
+        "kana": "アウンさん、わたしたちがげんごこうかんをはじめてからちょうどいちねんですね。",
+        "en": "Aung-san, it has been exactly one year since we started our language exchange!",
+        "my": "အောင်ဆန်၊ ကျွန်မတို့ ဘာသာစကား အပြန်အလှန်ဖလှယ်လေ့ကျင့်တာ အခုဆို ကွက်တိ တစ်နှစ်ပြည့်သွားပြီနော်။",
+        "myanmar": "အောင်ဆန်၊ ကျွန်မတို့ ဘာသာစကား အပြန်အလှန်ဖလှယ်လေ့ကျင့်တာ အခုဆို ကွက်တိ တစ်နှစ်ပြည့်သွားပြီနော်။",
+        "translationMy": "အောင်ဆန်၊ ကျွန်မတို့ ဘာသာစကား အပြန်အလှန်ဖလှယ်လေ့ကျင့်တာ အခုဆို ကွက်တိ တစ်နှစ်ပြည့်သွားပြီနော်။"
       },
       {
         "speaker": "アウン",
         "ja": "本当ですね！あっという間の一年でした。",
-        "kana": "本当ですね！あっという間の一年でした。",
-        "en": ""
+        "kana": "ほんとうですね！あっというまのいちねんでした。",
+        "en": "Truly! It was a year that flew by in an instant.",
+        "my": "တကယ်ပဲနော်! မျက်စိတစ်မှိတ်အတွင်း တစ်နှစ် ကုန်သွားတာပဲ။",
+        "myanmar": "တကယ်ပဲနော်! မျက်စိတစ်မှိတ်အတွင်း တစ်နှစ် ကုန်သွားတာပဲ။",
+        "translationMy": "တကယ်ပဲနော်! မျက်စိတစ်မှိတ်အတွင်း တစ်နှစ် ကုန်သွားတာပဲ။"
       },
       {
         "speaker": "ユキ",
         "ja": "アウンさん、日本語が本当に上達しましたね。最初は英語を交えて話していましたが、最近は日本語だけでずっと話せるようになりましたね。",
-        "kana": "アウンさん、日本語が本当に上達しましたね。最初は英語を交えて話していましたが、最近は日本語だけでずっと話せるようになりましたね。",
-        "en": ""
+        "kana": "アウンさん、にほんごがほんとうにじょうたつしましたね。さいしょはえいごをまじえてはなしていましたが、さいきんはにほんごだけでずっとはなせるようになりましたね。",
+        "en": "Aung-san, your Japanese has really improved. At first we mixed English into our talks, but lately you have become able to converse entirely in Japanese the whole time!",
+        "my": "အောင်ဆန်၊ ဂျပန်စကား တကယ်ကို တိုးတက်လာတယ်နော်။ အစပိုင်းက အင်္ဂလိပ်လို ရောနှောပြောခဲ့ရပေမဲ့ အခုနောက်ပိုင်း ဂျပန်လိုချည်း တစ်လျှောက်လုံး ပြောဆိုနိုင်လာပြီနော်။",
+        "myanmar": "အောင်ဆန်၊ ဂျပန်စကား တကယ်ကို တိုးတက်လာတယ်နော်။ အစပိုင်းက အင်္ဂလိပ်လို ရောနှောပြောခဲ့ရပေမဲ့ အခုနောက်ပိုင်း ဂျပန်လိုချည်း တစ်လျှောက်လုံး ပြောဆိုနိုင်လာပြီနော်။",
+        "translationMy": "အောင်ဆန်၊ ဂျပန်စကား တကယ်ကို တိုးတက်လာတယ်နော်။ အစပိုင်းက အင်္ဂလိပ်လို ရောနှောပြောခဲ့ရပေမဲ့ အခုနောက်ပိုင်း ဂျပန်လိုချည်း တစ်လျှောက်လုံး ပြောဆိုနိုင်လာပြီနော်။"
       },
       {
         "speaker": "アウン",
         "ja": "ユキさんのおかげです。最初は聞き取るのが難しくて何度も聞き直していましたが、今では日本のドラマも字幕なしで見られるようになりました。",
-        "kana": "ユキさんのおかげです。最初は聞き取るのが難しくて何度も聞き直していましたが、今では日本のドラマも字幕なしで見られるようになりました。",
-        "en": ""
+        "kana": "ユキさんのおかげです。さいしょはききとるのがむずかしくてなんどもききなおしていましたが、いまではにほんのドラマもじまくなしでみられるようになりました。",
+        "en": "It's all thanks to you, Yuki-san. At first listening was hard and I asked you to repeat many times, but now I have become able to watch Japanese dramas without subtitles.",
+        "my": "ယူကီဆန်ရဲ့ ကျေးဇူးကြောင့်ပါ။ အစက နားထောင်နားလည်ရတာ ခက်ခဲလို့ အကြိမ်ကြိမ် ပြန်မေးခဲ့ရပေမဲ့ အခုဆိုရင် ဂျပန်ဇာတ်လမ်းတွဲတွေကိုတောင် စာတန်းထိုးမပါဘဲ ကြည့်ရှုနိုင်လာပါပြီ။",
+        "myanmar": "ယူကီဆန်ရဲ့ ကျေးဇူးကြောင့်ပါ။ အစက နားထောင်နားလည်ရတာ ခက်ခဲလို့ အကြိမ်ကြိမ် ပြန်မေးခဲ့ရပေမဲ့ အခုဆိုရင် ဂျပန်ဇာတ်လမ်းတွဲတွေကိုတောင် စာတန်းထိုးမပါဘဲ ကြည့်ရှုနိုင်လာပါပြီ။",
+        "translationMy": "ယူကီဆန်ရဲ့ ကျေးဇူးကြောင့်ပါ။ အစက နားထောင်နားလည်ရတာ ခက်ခဲလို့ အကြိမ်ကြိမ် ပြန်မေးခဲ့ရပေမဲ့ အခုဆိုရင် ဂျပန်ဇာတ်လမ်းတွဲတွေကိုတောင် စာတန်းထိုးမပါဘဲ ကြည့်ရှုနိုင်လာပါပြီ။"
       },
       {
         "speaker": "ユキ",
         "ja": "すごい！反対に、何か変わった生活習慣はありますか？",
-        "kana": "すごい！反対に、何か変わった生活習慣はありますか？",
-        "en": ""
+        "kana": "すごい！はんたいに、なにかかわったせいかつしゅうかんはありますか？",
+        "en": "Amazing! Conversely, are there any lifestyle habits that changed?",
+        "my": "အရမ်းတော်တာပဲ! အဲဒါနဲ့ ဆန့်ကျင်ဘက် အနေနဲ့ ပြောင်းလဲသွားတဲ့ နေထိုင်မှုအလေ့အထမျိုး ရှိလား?",
+        "myanmar": "အရမ်းတော်တာပဲ! အဲဒါနဲ့ ဆန့်ကျင်ဘက် အနေနဲ့ ပြောင်းလဲသွားတဲ့ နေထိုင်မှုအလေ့အထမျိုး ရှိလား?",
+        "translationMy": "အရမ်းတော်တာပဲ! အဲဒါနဲ့ ဆန့်ကျင်ဘက် အနေနဲ့ ပြောင်းလဲသွားတဲ့ နေထိုင်မှုအလေ့အထမျိုး ရှိလား?"
       },
       {
         "speaker": "アウン",
         "ja": "ええ。以前は休日に部屋でゲームばかりしていましたが、最近は散歩やジョギングを始めて、家で一日中寝て過ごすことがなくなりました。",
-        "kana": "ええ。以前は休日に部屋でゲームばかりしていましたが、最近は散歩やジョギングを始めて、家で一日中寝て過ごすことがなくなりました。",
-        "en": ""
+        "kana": "ええ。いぜんはきゅうじつにへやでゲームばかりしていましたが、さいきんはさんぽやジョギングをはじめて、いえでいちにちじゅうねてすごすことがなくなりました。",
+        "en": "Yes. Previously, I did nothing but play video games in my room on holidays, but recently I started walking and jogging, and I no longer spend entire days sleeping at home.",
+        "my": "ဟုတ်ကဲ့။ အရင်တုန်းက အားလပ်ရက်ဆို အခန်းထဲမှာ ဂိမ်းပဲဆော့နေပေမဲ့ အခုနောက်ပိုင်း လမ်းလျှောက်တာ၊ ပြေးတာတွေ စတင်လုပ်ဆောင်လာပြီး တစ်နေကုန် အိပ်ပြီး အချိန်ဖြုန်းတာ မရှိတော့ပါဘူး။",
+        "myanmar": "ဟုတ်ကဲ့။ အရင်တုန်းက အားလပ်ရက်ဆို အခန်းထဲမှာ ဂိမ်းပဲဆော့နေပေမဲ့ အခုနောက်ပိုင်း လမ်းလျှောက်တာ၊ ပြေးတာတွေ စတင်လုပ်ဆောင်လာပြီး တစ်နေကုန် အိပ်ပြီး အချိန်ဖြုန်းတာ မရှိတော့ပါဘူး။",
+        "translationMy": "ဟုတ်ကဲ့။ အရင်တုန်းက အားလပ်ရက်ဆို အခန်းထဲမှာ ဂိမ်းပဲဆော့နေပေမဲ့ အခုနောက်ပိုင်း လမ်းလျှောက်တာ၊ ပြေးတာတွေ စတင်လုပ်ဆောင်လာပြီး တစ်နေကုန် အိပ်ပြီး အချိန်ဖြုန်းတာ မရှိတော့ပါဘူး။"
       },
       {
         "speaker": "ユキ",
         "ja": "素晴らしい変化ですね！私もアウンさんを見習って、運動を習慣にしようと思います。",
-        "kana": "素晴らしい変化ですね！私もアウンさんを見習って、運動を習慣にしようと思います。",
-        "en": ""
+        "kana": "すばらしいへんかですね！わたしもアウンさんをみならって、うんどうをしゅうかんにしようとおもいます。",
+        "en": "That's a wonderful change! Seeing your example, I think I'll make exercise a habit too.",
+        "my": "သိပ်ကောင်းတဲ့ အပြောင်းအလဲပဲနော်! ကျွန်မလည်း အောင်ဆန်ကို အတုယူပြီး လေ့ကျင့်ခန်းလုပ်တာကို အလေ့အကျင့် ပြုလုပ်ပါ့မယ်။",
+        "myanmar": "သိပ်ကောင်းတဲ့ အပြောင်းအလဲပဲနော်! ကျွန်မလည်း အောင်ဆန်ကို အတုယူပြီး လေ့ကျင့်ခန်းလုပ်တာကို အလေ့အကျင့် ပြုလုပ်ပါ့မယ်။",
+        "translationMy": "သိပ်ကောင်းတဲ့ အပြောင်းအလဲပဲနော်! ကျွန်မလည်း အောင်ဆန်ကို အတုယူပြီး လေ့ကျင့်ခန်းလုပ်တာကို အလေ့အကျင့် ပြုလုပ်ပါ့မယ်။"
       }
     ],
     "questionIds": [
@@ -1706,7 +1727,7 @@
     },
     "titleMy": "言語交換パートナーとの一年間の振り返り (နားထောင်ခြင်း)",
     "titleMyanmar": "言語交換パートナーとの一年間の振り返り (နားထောင်ခြင်း)",
-    "translationMy": "Yuki: Aung-san, it has been exactly one year since we started our language exchange!\nAung: Truly! It was a year that flew by in an instant.\nYuki: Aung-san, your Japanese has really improved. At first we mixed English into our talks, but lately you have become able to converse entirely in Japanese the whole time!\nAung: It's all thanks to you, Yuki-san. At first listening was hard and I asked you to repeat many times, but now I have become able to watch Japanese dramas without subtitles.\nYuki: Amazing! Conversely, are there any lifestyle habits that changed?\nAung: Yes. Previously, I did nothing but play video games in my room on holidays, but recently I started walking and jogging, and I no longer spend entire days sleeping at home.\nYuki: That's a wonderful change! Seeing your example, I think I'll make exercise a habit too."
+    "translationMy": "ユキ- အောင်ဆန်၊ ကျွန်မတို့ ဘာသာစကား အပြန်အလှန်ဖလှယ်လေ့ကျင့်တာ အခုဆို ကွက်တိ တစ်နှစ်ပြည့်သွားပြီနော်။\nアウン- တကယ်ပဲနော်! မျက်စိတစ်မှိတ်အတွင်း တစ်နှစ် ကုန်သွားတာပဲ။\nユキ- အောင်ဆန်၊ ဂျပန်စကား တကယ်ကို တိုးတက်လာတယ်နော်။ အစပိုင်းက အင်္ဂလိပ်လို ရောနှောပြောခဲ့ရပေမဲ့ အခုနောက်ပိုင်း ဂျပန်လိုချည်း တစ်လျှောက်လုံး ပြောဆိုနိုင်လာပြီနော်။\nアウン- ယူကီဆန်ရဲ့ ကျေးဇူးကြောင့်ပါ။ အစက နားထောင်နားလည်ရတာ ခက်ခဲလို့ အကြိမ်ကြိမ် ပြန်မေးခဲ့ရပေမဲ့ အခုဆိုရင် ဂျပန်ဇာတ်လမ်းတွဲတွေကိုတောင် စာတန်းထိုးမပါဘဲ ကြည့်ရှုနိုင်လာပါပြီ။\nユキ- အရမ်းတော်တာပဲ! အဲဒါနဲ့ ဆန့်ကျင်ဘက် အနေနဲ့ ပြောင်းလဲသွားတဲ့ နေထိုင်မှုအလေ့အထမျိုး ရှိလား?\nアウン- ဟုတ်ကဲ့။ အရင်တုန်းက အားလပ်ရက်ဆို အခန်းထဲမှာ ဂိမ်းပဲဆော့နေပေမဲ့ အခုနောက်ပိုင်း လမ်းလျှောက်တာ၊ ပြေးတာတွေ စတင်လုပ်ဆောင်လာပြီး တစ်နေကုန် အိပ်ပြီး အချိန်ဖြုန်းတာ မရှိတော့ပါဘူး။\nユキ- သိပ်ကောင်းတဲ့ အပြောင်းအလဲပဲနော်! ကျွန်မလည်း အောင်ဆန်ကို အတုယူပြီး လေ့ကျင့်ခန်းလုပ်တာကို အလေ့အကျင့် ပြုလုပ်ပါ့မယ်။"
   },
   "questions": [
     {
@@ -2597,7 +2618,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「日本のドラマを字幕なしで見られるようになった」 ဖြစ်ပါသည်။ (Aung says: 今では日本のドラマも字幕なしで見られるようになりました.)",
+      "explanationMy": "အဖြေမှန်မှာ 「日本のドラマを字幕なしで見られるようになった」 ဖြစ်ပါသည်။ (အောင်က ပြောကြားသည်မှာ- \"今では日本のドラマも字幕なしで見られるようになりました.\")",
       "choicesMy": [
         "日本のドラマを字幕なしで見られるようになった",
         "日本の小説を一日で一冊書けるようになった",
@@ -2629,7 +2650,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「休日に家で一日中寝て過ごすこと」 ဖြစ်ပါသည်။ (Aung says: 家で一日中寝て過ごすことがなくなりました.)",
+      "explanationMy": "အဖြေမှန်မှာ 「休日に家で一日中寝て過ごすこと」 ဖြစ်ပါသည်။ (အောင်က ပြောကြားသည်မှာ- \"家で一日中寝て過ごすことがなくなりました.\")",
       "choicesMy": [
         "休日に家で一日中寝て過ごすこと",
         "日本語の勉強をすること",
@@ -2679,6 +2700,6 @@
   },
   "titleMy": "N4 Lesson 19: Change of State (〜ようになる・〜なくなる) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 19: Change of State (〜ようになる・〜なくなる) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 19: Change of State (〜ようになる・〜なくなる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "အခြေအနေပြောင်းလဲမှု (〜ようになる・〜なくなる) နှင့် အလေ့အကျင့်ပြုလုပ်လာခြင်းဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 19: Change of State (〜ようになる・〜なくなる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

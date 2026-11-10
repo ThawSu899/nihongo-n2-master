@@ -72,8 +72,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l03.v003",
@@ -198,8 +198,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l03.v007",
@@ -231,8 +231,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 2
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l03.v008",
@@ -261,8 +261,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l03.v009",
@@ -291,8 +291,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l03.v010",
@@ -321,8 +321,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l03.v011",
@@ -953,7 +953,7 @@
           "meaning": "cancellation",
           "preview": false,
           "meaningMyanmar": "cancellation",
-          "meaningMy": "cancellation"
+          "meaningMy": "ဖျက်သိမ်းခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1082,7 +1082,7 @@
           "meaning": "prohibition",
           "preview": false,
           "meaningMyanmar": "prohibition",
-          "meaningMy": "prohibition"
+          "meaningMy": "တားမြစ်ခြင်း"
         },
         {
           "word": "禁煙",
@@ -1125,12 +1125,12 @@
       },
       "examples": [
         {
-          "sentenceId": "n4.l03.s001",
-          "note": "Example 1"
+          "sentenceId": "n4.l03.s008",
+          "note": "Example 1 (逃げろ)"
         },
         {
-          "sentenceId": "n4.l03.s002",
-          "note": "Example 2"
+          "sentenceId": "n4.l03.s010",
+          "note": "Example 2 (止まれ)"
         }
       ],
       "similarGrammarIds": [],
@@ -1148,8 +1148,8 @@
       },
       "explanationMy": "အမိန့်ပေးပုံစံ (命令形) သည် လုပ်ဆောင်ရန် ပြတ်ပြတ်သားသား အမိန့်ပေးရာတွင် သုံးသည်။ အုပ်စု(၁) u မှ e သို့ပြောင်းသည် (書け)။ အုပ်စု(၂) る ဖြုတ်ပြီး ろ ပေါင်းသည် (食べろ)။ အုပ်စု(၃) する→しろ၊ くる→こい ဖြစ်သည်။ တားမြစ်ပုံစံ (禁止形) သည် ကြိယာ မူရင်းပုံစံနောက်တွင် 「な」 ပေါင်းစပ်ပြီး 「မလုပ်နှင့်」 ဟု ပြင်းထန်စွာ တားမြစ်သည်။ အရေးပေါ်အခြေအနေ၊ သတိပေးဆိုင်းဘုတ်၊ အားကစားပွဲ အားပေးရာတွင် အဓိကသုံးသည်။",
       "meaningMyanmar": "အမိန့်ပေးပုံစံ (命令形) သည် လုပ်ဆောင်ရန် ပြတ်ပြတ်သားသား အမိန့်ပေးရာတွင် သုံးသည်။ အုပ်စု(၁) u မှ e သို့ပြောင်းသည် (書け)။ အုပ်စု(၂) る ဖြုတ်ပြီး ろ ပေါင်းသည် (食べろ)။ အုပ်စု(၃) する→しろ၊ くる→こい ဖြစ်သည်။ တားမြစ်ပုံစံ (禁止形) သည် ကြိယာ မူရင်းပုံစံနောက်တွင် 「な」 ပေါင်းစပ်ပြီး 「မလုပ်နှင့်」 ဟု ပြင်းထန်စွာ တားမြစ်သည်။ အရေးပေါ်အခြေအနေ၊ သတိပေးဆိုင်းဘုတ်၊ အားကစားပွဲ အားပေးရာတွင် အဓိကသုံးသည်။",
-      "meaningMy": "အမိန့်ပေးပုံစံ (命令形) သည် လုပ်ဆောင်ရန် ပြတ်ပြတ်သားသား အမိန့်ပေးရာတွင် သုံးသည်။ အုပ်စု(၁) u မှ e သို့ပြောင်းသည် (書け)။ အုပ်စု(၂) る ဖြုတ်ပြီး ろ ပေါင်းသည် (食べろ)။ အုပ်စု(၃) する→しろ၊ くる→こい ဖြစ်သည်။ တားမြစ်ပုံစံ (禁止形) သည် ကြိယာ မူရင်းပုံစံနောက်တွင် 「な」 ပေါင်းစပ်ပြီး 「မလုပ်နှင့်」 ဟု ပြင်းထန်စွာ တားမြစ်သည်။ အရေးပေါ်အခြေအနေ၊ သတိပေးဆိုင်းဘုတ်၊ အားကစားပွဲ အားပေးရာတွင် အဓိကသုံးသည်။",
-      "nuanceExplanationMy": "命令形 (走れ / 止めろ) / 禁止形 ([Verb-dict] な) ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အရေးပေါ်အခြေအနေနှင့် ဆိုင်းဘုတ်များတွင် အသုံးပြုသော ပြတ်သားသည့် အမိန့်ပေးခြင်းနှင့် တားမြစ်ခြင်း",
+      "nuanceExplanationMy": "命令形 (走れ / 止めろ) / 禁止形 ([Verb-dict] な) ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l03.g002",
@@ -1158,17 +1158,17 @@
       "meaning": "Quoting Signs and Explaining Meaning (〜と書いてあります / 〜という意味です)",
       "formation": "「[Sign Text / Quote]」と 書いて あります\n[Sign / Kanji] は [Explanation] という 意味 です",
       "explanation": {
-        "en": "〜と書いてあります is used to read or quote what is written on a sign, notice board, or document (e.g. あそこに「立入禁止」と書いてあります = It is written \"Keep Out\" over there). 〜という意味です is used to explain what a phrase, symbol, or kanji means (e.g. 「使用禁止」は使ってはいけないという意味です = \"Out of order\" means you must not use it).",
+        "en": "〜と書いてあります is used to read or quote what is written on a sign, notice board, or document (e.g. あそこに「立入禁止」と書いてあります = It is written \"Keep Out\" over there). 〜という意味です is used to explain what a phrase, symbol, or kanji means (e.g. 「使用禁止」は使ってはいけないという意味です = \"Use prohibited / Do not use\" means you must not use it).",
         "my": "「〜と書いてあります」 သည် ဆိုင်းဘုတ်၊ စာရွက်စာတမ်းပေါ်တွင် ရေးသားထားသည်ကို ကိုးကားပြောဆိုရာတွင် သုံးသည်။ 「〜という意味です」 သည် ထိုစကားလုံး သို့မဟုတ် သင်္ကေတ၏ အဓိပ္ပာယ်ကို ရှင်းလင်းပြသရာတွင် သုံးသည်။"
       },
       "examples": [
         {
-          "sentenceId": "n4.l03.s001",
-          "note": "Example 1"
+          "sentenceId": "n4.l03.s003",
+          "note": "Example 1 (書いてあります)"
         },
         {
-          "sentenceId": "n4.l03.s002",
-          "note": "Example 2"
+          "sentenceId": "n4.l03.s005",
+          "note": "Example 2 (という意味です)"
         }
       ],
       "similarGrammarIds": [],
@@ -1186,8 +1186,8 @@
       },
       "explanationMy": "「〜と書いてあります」 သည် ဆိုင်းဘုတ်၊ စာရွက်စာတမ်းပေါ်တွင် ရေးသားထားသည်ကို ကိုးကားပြောဆိုရာတွင် သုံးသည်။ 「〜という意味です」 သည် ထိုစကားလုံး သို့မဟုတ် သင်္ကေတ၏ အဓိပ္ပာယ်ကို ရှင်းလင်းပြသရာတွင် သုံးသည်။",
       "meaningMyanmar": "「〜と書いてあります」 သည် ဆိုင်းဘုတ်၊ စာရွက်စာတမ်းပေါ်တွင် ရေးသားထားသည်ကို ကိုးကားပြောဆိုရာတွင် သုံးသည်။ 「〜という意味です」 သည် ထိုစကားလုံး သို့မဟုတ် သင်္ကေတ၏ အဓိပ္ပာယ်ကို ရှင်းလင်းပြသရာတွင် သုံးသည်။",
-      "meaningMy": "「〜と書いてあります」 သည် ဆိုင်းဘုတ်၊ စာရွက်စာတမ်းပေါ်တွင် ရေးသားထားသည်ကို ကိုးကားပြောဆိုရာတွင် သုံးသည်။ 「〜という意味です」 သည် ထိုစကားလုံး သို့မဟုတ် သင်္ကေတ၏ အဓိပ္ပာယ်ကို ရှင်းလင်းပြသရာတွင် သုံးသည်။",
-      "nuanceExplanationMy": "「〜」と 書いて あります / 「〜」は ... という 意味 です ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ဆိုင်းဘုတ်ပါ စာသားများကို ကိုးကားဖော်ပြခြင်းနှင့် အဓိပ္ပာယ်ရှင်းလင်းပြောဆိုခြင်း",
+      "nuanceExplanationMy": "「〜」と 書いて あります / 「〜」は ... という 意味 です ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     }
   ],
   "sentences": [
@@ -1292,7 +1292,7 @@
         "n4.l03.v004"
       ],
       "grammarIds": [
-        "n4.l03.g001"
+        "n4.l03.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1352,7 +1352,7 @@
         "n4.l03.v012"
       ],
       "grammarIds": [
-        "n4.l03.g001"
+        "n4.l03.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1430,7 +1430,7 @@
       "id": "n4.l03.s008",
       "lessonId": "n4.l03",
       "ja": "警報が鳴ったら、荷物を持たずに急いで外へ逃げろ！",
-      "kana": "けいほう数据がなったら、にもつをもたずにいそいでそとへにげろ！",
+      "kana": "けいほうがなったら、にもつをもたずにいそいでそとへにげろ！",
       "translation": {
         "en": "When the alarm sounds, hurry and escape outside without carrying luggage!",
         "my": "သတိပေးဥဩသံ မြည်လာလျှင် အထုပ်အပိုးမယူဘဲ အမြန် အပြင်သို့ ထွက်ပြေးစမ်း!"
@@ -1521,7 +1521,7 @@
     "title": "日本の街で見かける安全標識とルール (Safety Signs and Rules in Japanese Streets)",
     "level": "N4",
     "text": "日本の街を歩いていると、電柱や道路、建物の壁にたくさんの標識や看板があることに気づきます。これらの標識は、人々の安全を守り、事故を防ぐために設置されています。\n\n例えば、工事中の場所には「立入禁止」と大きく書いてあります。これは「危険ですから、中に入ってはいけません」という意味です。また、駅のホームの床には黄色い線が引かれていて、「白線の内側に下がれ」というアナウンスが流れます。電車が近づいてきたときは危ないですから、黄色い線の外側に出てはいけません。\n\n道路には「止まれ」という逆三角形の赤い標識があります。車や自転車を運転する人は、この標識の場所で一度必ず止まらなければなりません。歩行者も急いで道路を渡ろうとせず、信号をしっかり守って安全に歩くことが大切です。標識の意味を正しく理解して、みんなでルールを守りましょう。",
-    "kanaText": "日本の街を歩いていると、電柱や道路、建物の壁にたくさんの標識や看板があることに気づきます。これらの標識は、人々の安全を守り、事故を防ぐために設置されています。\n\n例えば、工事中の場所には「立入禁止」と大きく書いてあります。これは「危険ですから、中に入ってはいけません」という意味です。また、駅のホームの床には黄色い線が引かれていて、「白線の内側に下がれ」というアナウンスが流れます。電車が近づいてきたときは危ないですから、黄色い線の外側に出てはいけません。\n\n道路には「止まれ」という逆三角形の赤い標識があります。車や自転車を運転する人は、この標識の場所で一度必ず止まらなければなりません。歩行者も急いで道路を渡ろうとせず、信号をしっかり守って安全に歩くことが大切です。標識の意味を正しく理解して、みんなでルールを守りましょう。",
+    "kanaText": "にほんのまちをあるいていると、でんちゅうやどうろ、たてもののかべにたくさんのひょうしきやかんばんがあることにきづきます。これらのひょうしきは、ひとびとのあんぜんをまもり、じこをふせぐためにせっちされています。\n\nたとえば、こうじちゅうのばしょには「たちいりきんし」とおおきくかいてあります。これは「きけんですから、なかにいってはいけません」という意味です。また、えきのホームのゆかにはきいろいせんがひかれていて、「はくせんのうちがわにさがれ」というアナウンスがながれます。でんしゃがちかづいてきたときはあぶないですから、きいろいせんのそとがわにでてはいけません。\n\nどうろには「とまれ」というぎゃくさんかくけいのあかいひょうしきがあります。くるまやじてんしゃをうんてんするひとは、このひょうしきのばしょでいちどかならずとまらなければなりません。ほこうしゃもいそいでどうろをわたろうとせず、しんごうをしっかりまもってあんぜんにあるくことがたいせつです。ひょうしきのいみをただしくりかいして、みんなでルールをまもりましょう。",
     "translation": "When walking in Japanese towns, one notices many signs and notices on utility poles, roads, and building walls. These signs are installed to protect people's safety and prevent accidents.\n\nFor example, at construction sites, \"Keep Out\" (立入禁止) is written in large characters. This means \"Because it is dangerous, you must not enter inside.\" Also, yellow lines are drawn on train station platforms, and announcements say \"Step back inside the line.\" Because it is dangerous when trains approach, you must not step outside the yellow line.\n\nOn roads, there are inverted triangular red signs saying \"STOP\" (止まれ). People driving cars or bicycles must always come to a complete stop at the spot of this sign. Pedestrians should also not rush to cross roads, but follow traffic lights and walk safely. Let us all understand sign meanings correctly and follow the rules together.",
     "questionIds": [
       "n4.l03.q021",
@@ -1541,7 +1541,7 @@
     },
     "titleMy": "日本の街で見かける安全標識とルール (Safety Signs and Rules in Japanese Streets) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "日本の街で見かける安全標識とルール (Safety Signs and Rules in Japanese Streets) (ဖတ်ရှုခြင်း)",
-    "translationMy": "When walking in Japanese towns, one notices many signs and notices on utility poles, roads, and building walls. These signs are installed to protect people's safety and prevent accidents.\n\nFor example, at construction sites, \"Keep Out\" (立入禁止) is written in large characters. This means \"Because it is dangerous, you must not enter inside.\" Also, yellow lines are drawn on train station platforms, and announcements say \"Step back inside the line.\" Because it is dangerous when trains approach, you must not step outside the yellow line.\n\nOn roads, there are inverted triangular red signs saying \"STOP\" (止まれ). People driving cars or bicycles must always come to a complete stop at the spot of this sign. Pedestrians should also not rush to cross roads, but follow traffic lights and walk safely. Let us all understand sign meanings correctly and follow the rules together."
+    "translationMy": "ဂျပန်နိုင်ငံ၏ မြို့ပြလမ်းမများပေါ်တွင် လမ်းလျှောက်သည့်အခါ ဓာတ်တိုင်များ၊ လမ်းများနှင့် အဆောက်အအုံနံရံများတွင် သတိပေးဆိုင်းဘုတ်နှင့် သင်္ကေတများစွာ ရှိနေသည်ကို သတိပြုမိပါလိမ့်မည်။ ဤဆိုင်းဘုတ်များသည် ပြည်သူများ၏ ဘေးကင်းလုံခြုံရေးကို စောင့်ရှောက်ရန်နှင့် မတော်တဆမှုများ မဖြစ်ပွားစေရန် ရည်ရွယ်၍ တပ်ဆင်ထားခြင်း ဖြစ်ပါသည်။\n\nဥပမာအားဖြင့် ဆောက်လုပ်ရေးလုပ်ငန်းခွင် နေရာများတွင် 「မဝင်ရ」 ဟု ကြီးမားစွာ ရေးသားထားပါသည်။ ၎င်းသည် 「အန္တရာယ်ရှိသဖြင့် အတွင်းသို့ မဝင်ရောက်ပါနှင့်」 ဟူသော အဓိပ္ပာယ် ဖြစ်ပါသည်။ ထို့အပြင် ဘူတာရုံပလက်ဖောင်း ကြမ်းပြင်ပေါ်တွင် အဝါရောင်လိုင်းများ ဆွဲထားပြီး 「အဖြူရောင်မျဉ်းအတွင်းသို့ နောက်ဆုတ်ပေးကြပါ」 ဟူသော ကြေညာချက်များ အမြဲထွက်ပေါ်နေပါသည်။ ရထားချဉ်းကပ်လာချိန်တွင် အန္တရာယ်ရှိသဖြင့် အဝါရောင်မျဉ်း၏ အပြင်ဘက်သို့ လုံးဝ မထွက်သင့်ပါ။\n\nလမ်းမများပေါ်တွင်မူ 「ရပ်ပါ」 ဟူသော တြိဂံဇောက်ထိုး အနီရောင်ဆိုင်းဘုတ် ရှိပါသည်။ မော်တော်ကားနှင့် စက်ဘီးမောင်းနှင်သူများသည် ဤဆိုင်းဘုတ်ရှိသော နေရာတွင် တစ်ကြိမ် မဖြစ်မနေ ရပ်တန့်ရပါမည်။ လမ်းလျှောက်သူများအနေဖြင့်လည်း အလောတကြီး လမ်းမဖြတ်ကူးဘဲ မီးပွိုင့်အချက်ပြကို သေချာလိုက်နာပြီး ဘေးကင်းစွာ လမ်းလျှောက်ရန် အရေးကြီးပါသည်။ ဆိုင်းဘုတ်များ၏ အဓိပ္ပာယ်ကို တိကျစွာ နားလည်ပြီး အားလုံး စည်းကမ်းလိုက်နာကြပါစို့။"
   },
   "listening": {
     "id": "n4.l03.l01",
@@ -1553,12 +1553,86 @@
       "lang": "ja-JP"
     },
     "speakers": [
-      "A",
-      "B"
+      "アナウンス",
+      "リン",
+      "山田"
     ],
     "transcript": "アナウンス：まもなく2番線に電車がまいります。危ないですから、黄色い点字ブロックの内側までお下がりください。\nリン：山田さん、あそこの壁に貼ってある看板には何と書いてあるんですか。\n山田：「駆け込み乗車はおやめください」と書いてありますよ。\nリン：どういう意味ですか。\n山田：発車ベルが鳴っているときに、無理に急いで電車に飛び乗ってはいけないという意味です。ドアに挟まれて大怪我をする危険がありますからね。\nリン：なるほど、危ないですね。それから、向こうのドアの「関係者以外立入禁止」はどういう意味ですか。\n山田：駅員やスタッフ以外は、絶対に中に入ってはいけないという意味ですよ。\nリン：よくわかりました。日本の駅の標識は安全のためにとても大切ですね。",
     "translation": "Announcement: The train will soon arrive at Track 2. Because it is dangerous, please step back behind the yellow tactile paving.\nLin: Yamada, what is written on that sign posted on the wall over there?\nYamada: It says \"Please refrain from rushing onto the train.\"\nLin: What does that mean?\nYamada: It means you must not rush and force your way onto the train while the departure bell is ringing. There is danger of getting caught in doors and suffering serious injuries.\nLin: I see, that is dangerous indeed. And what does \"No Entry Except for Authorized Personnel\" on that door over there mean?\nYamada: It means that no one other than station attendants and staff must ever enter inside.\nLin: I understand completely. Signs in Japanese stations are very important for safety.",
-    "turns": [],
+    "turns": [
+      {
+        "speaker": "アナウンス",
+        "ja": "まもなく2番線に電車がまいります。危ないですから、黄色い点字ブロックの内側までお下がりください。",
+        "kana": "まもなくにばんせんにでんしゃがまいります。あぶないですから、きいろいてんじブロックのうちがわまでおさがりください。",
+        "en": "Announcement: The train will arrive shortly on Track 2. For safety, please step behind the yellow tactile paving.",
+        "my": "ကြေညာချက်- မကြာမီ နံပါတ် ၂ လိုင်းသို့ ရထားဝင်ရောက်လာပါမည်။ အန္တရာယ်ရှိသဖြင့် အဝါရောင်မျက်မမြင်အထောက်အကူပြု လမ်းကြောင်းအတွင်းဘက်သို့ နောက်ဆုတ်ပေးကြပါရန်။",
+        "myanmar": "ကြေညာချက်- မကြာမီ နံပါတ် ၂ လိုင်းသို့ ရထားဝင်ရောက်လာပါမည်။ အန္တရာယ်ရှိသဖြင့် အဝါရောင်မျက်မမြင်အထောက်အကူပြု လမ်းကြောင်းအတွင်းဘက်သို့ နောက်ဆုတ်ပေးကြပါရန်။",
+        "translationMy": "ကြေညာချက်- မကြာမီ နံပါတ် ၂ လိုင်းသို့ ရထားဝင်ရောက်လာပါမည်။ အန္တရာယ်ရှိသဖြင့် အဝါရောင်မျက်မမြင်အထောက်အကူပြု လမ်းကြောင်းအတွင်းဘက်သို့ နောက်ဆုတ်ပေးကြပါရန်။"
+      },
+      {
+        "speaker": "リン",
+        "ja": "山田さん、あそこの壁に貼ってある看板には何と書いてあるんですか。",
+        "kana": "やまださん、あそこのかべにはってあるかんばんにはなんとかいてあるんですか。",
+        "en": "Yamada-san, what is written on that sign on the wall over there?",
+        "my": "ယာမဒါဆန်၊ ဟိုဘက်နံရံမှာ ကပ်ထားတဲ့ဆိုင်းဘုတ်မှာ ဘာရေးထားတာလဲခင်ဗျာ။",
+        "myanmar": "ယာမဒါဆန်၊ ဟိုဘက်နံရံမှာ ကပ်ထားတဲ့ဆိုင်းဘုတ်မှာ ဘာရေးထားတာလဲခင်ဗျာ။",
+        "translationMy": "ယာမဒါဆန်၊ ဟိုဘက်နံရံမှာ ကပ်ထားတဲ့ဆိုင်းဘုတ်မှာ ဘာရေးထားတာလဲခင်ဗျာ။"
+      },
+      {
+        "speaker": "山田",
+        "ja": "「駆け込み乗車はおやめください」と書いてありますよ。",
+        "kana": "「かけこみじょうしゃはおやめください」とかいてありますよ。",
+        "en": "It says \"Please refrain from rushing onto the train.\"",
+        "my": "「ပြေးလွှားစီးနင်းခြင်း မပြုကြပါရန်」 လို့ ရေးထားတာပါ။",
+        "myanmar": "「ပြေးလွှားစီးနင်းခြင်း မပြုကြပါရန်」 လို့ ရေးထားတာပါ။",
+        "translationMy": "「ပြေးလွှားစီးနင်းခြင်း မပြုကြပါရန်」 လို့ ရေးထားတာပါ။"
+      },
+      {
+        "speaker": "リン",
+        "ja": "どういう意味ですか。",
+        "kana": "どういういみですか。",
+        "en": "What does that mean?",
+        "my": "ဘယ်လိုအဓိပ္ပာယ်လဲခင်ဗျာ။",
+        "myanmar": "ဘယ်လိုအဓိပ္ပာယ်လဲခင်ဗျာ။",
+        "translationMy": "ဘယ်လိုအဓိပ္ပာယ်လဲခင်ဗျာ။"
+      },
+      {
+        "speaker": "山田",
+        "ja": "発車ベルが鳴っているときに、無理に急いで電車に飛び乗ってはいけないという意味です。ドアに挟まれて大怪我をする危険がありますからね。",
+        "kana": "はっしゃベルがなっているときに、むりにいそいででんしゃにとびのってはいけないといういみです。ドアにはさまれておおけがをするきけんがありますからね。",
+        "en": "It means you must not rush onto the train when the departure bell is ringing. There is a risk of getting caught in the doors and being seriously injured.",
+        "my": "ရထားထွက်ခွာသံ မြည်နေချိန်မှာ အတင်းအကျပ် အပြေးအလွှား ရထားပေါ်တက်မစီးရဘူးဆိုတဲ့ အဓိပ္ပာယ်ပါ။ တံခါးညှပ်ပြီး ကြီးမားတဲ့ဒဏ်ရာရနိုင်တဲ့ အန္တရာယ်ရှိလို့ပါ။",
+        "myanmar": "ရထားထွက်ခွာသံ မြည်နေချိန်မှာ အတင်းအကျပ် အပြေးအလွှား ရထားပေါ်တက်မစီးရဘူးဆိုတဲ့ အဓိပ္ပာယ်ပါ။ တံခါးညှပ်ပြီး ကြီးမားတဲ့ဒဏ်ရာရနိုင်တဲ့ အန္တရာယ်ရှိလို့ပါ။",
+        "translationMy": "ရထားထွက်ခွာသံ မြည်နေချိန်မှာ အတင်းအကျပ် အပြေးအလွှား ရထားပေါ်တက်မစီးရဘူးဆိုတဲ့ အဓိပ္ပာယ်ပါ။ တံခါးညှပ်ပြီး ကြီးမားတဲ့ဒဏ်ရာရနိုင်တဲ့ အန္တရာယ်ရှိလို့ပါ။"
+      },
+      {
+        "speaker": "リン",
+        "ja": "なるほど、危ないですね。それから、向こうのドアの「関係者以外立入禁止」はどういう意味ですか。",
+        "kana": "なるほど、あぶないですね。それから、むこうのドアの「かんけいしゃいがいたちいりきんし」はどういういみですか。",
+        "en": "I see, that is dangerous. Also, what does \"Authorized Personnel Only\" on that door over there mean?",
+        "my": "ဟုတ်ကဲ့ပါ၊ တကယ်ကို အန္တရာယ်ရှိတာပဲနော်။ ဒါနဲ့ ဟိုဘက်တံခါးက 「သက်ဆိုင်သူများမှအပ မဝင်ရ」 ဆိုတာကကော ဘာအဓိပ္ပာယ်လဲခင်ဗျာ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ၊ တကယ်ကို အန္တရာယ်ရှိတာပဲနော်။ ဒါနဲ့ ဟိုဘက်တံခါးက 「သက်ဆိုင်သူများမှအပ မဝင်ရ」 ဆိုတာကကော ဘာအဓိပ္ပာယ်လဲခင်ဗျာ။",
+        "translationMy": "ဟုတ်ကဲ့ပါ၊ တကယ်ကို အန္တရာယ်ရှိတာပဲနော်။ ဒါနဲ့ ဟိုဘက်တံခါးက 「သက်ဆိုင်သူများမှအပ မဝင်ရ」 ဆိုတာကကော ဘာအဓိပ္ပာယ်လဲခင်ဗျာ။"
+      },
+      {
+        "speaker": "山田",
+        "ja": "駅員やスタッフ以外は、絶対に中に入ってはいけないという意味ですよ。",
+        "kana": "えきいんやスタッフいがいはい、ぜったいになかにはいってはいけないといういみですよ。",
+        "en": "It means no one other than station staff and personnel may enter inside.",
+        "my": "ဘူတာဝန်ထမ်းနှင့် သက်ဆိုင်သူများမှအပ မည်သူမျှ အတွင်းသို့ အလွတ်သဘော လုံးဝမဝင်ရဘူးဆိုတဲ့ အဓိပ္ပာယ်ပါခင်ဗျာ။",
+        "myanmar": "ဘူတာဝန်ထမ်းနှင့် သက်ဆိုင်သူများမှအပ မည်သူမျှ အတွင်းသို့ အလွတ်သဘော လုံးဝမဝင်ရဘူးဆိုတဲ့ အဓိပ္ပာယ်ပါခင်ဗျာ။",
+        "translationMy": "ဘူတာဝန်ထမ်းနှင့် သက်ဆိုင်သူများမှအပ မည်သူမျှ အတွင်းသို့ အလွတ်သဘော လုံးဝမဝင်ရဘူးဆိုတဲ့ အဓိပ္ပာယ်ပါခင်ဗျာ။"
+      },
+      {
+        "speaker": "リン",
+        "ja": "よくわかりました。日本の駅の標識は安全のためにとても大切ですね。",
+        "kana": "よくわかりました。にほんのえきのひょうしきはあんぜんのためにとてもたいせつですね。",
+        "en": "I understand well now. Station signs in Japan are very important for safety.",
+        "my": "ကောင်းကောင်းနားလည်ပါပြီ။ ဂျပန်ဘူတာတွေက ဆိုင်းဘုတ်တွေဟာ ဘေးကင်းလုံခြုံရေးအတွက် သိပ်ကိုအရေးကြီးတာပဲနော်။",
+        "myanmar": "ကောင်းကောင်းနားလည်ပါပြီ။ ဂျပန်ဘူတာတွေက ဆိုင်းဘုတ်တွေဟာ ဘေးကင်းလုံခြုံရေးအတွက် သိပ်ကိုအရေးကြီးတာပဲနော်။",
+        "translationMy": "ကောင်းကောင်းနားလည်ပါပြီ။ ဂျပန်ဘူတာတွေက ဆိုင်းဘုတ်တွေဟာ ဘေးကင်းလုံခြုံရေးအတွက် သိပ်ကိုအရေးကြီးတာပဲနော်။"
+      }
+    ],
     "questionIds": [
       "n4.l03.q026",
       "n4.l03.q027",
@@ -1576,7 +1650,7 @@
     },
     "titleMy": "駅のホームでの注意喚起 (Warning and Inquiries on the Station Platform) (နားထောင်ခြင်း)",
     "titleMyanmar": "駅のホームでの注意喚起 (Warning and Inquiries on the Station Platform) (နားထောင်ခြင်း)",
-    "translationMy": "Announcement: The train will soon arrive at Track 2. Because it is dangerous, please step back behind the yellow tactile paving.\nLin: Yamada, what is written on that sign posted on the wall over there?\nYamada: It says \"Please refrain from rushing onto the train.\"\nLin: What does that mean?\nYamada: It means you must not rush and force your way onto the train while the departure bell is ringing. There is danger of getting caught in doors and suffering serious injuries.\nLin: I see, that is dangerous indeed. And what does \"No Entry Except for Authorized Personnel\" on that door over there mean?\nYamada: It means that no one other than station attendants and staff must ever enter inside.\nLin: I understand completely. Signs in Japanese stations are very important for safety."
+    "translationMy": "ကြေညာချက်- မကြာမီ နံပါတ် ၂ လိုင်းသို့ ရထားဝင်ရောက်လာပါမည်။ အန္တရာယ်ရှိသဖြင့် အဝါရောင်မျက်မမြင်အထောက်အကူပြု လမ်းကြောင်းအတွင်းဘက်သို့ နောက်ဆုတ်ပေးကြပါရန်။\nလင်း- ယာမဒါဆန်၊ ဟိုဘက်နံရံမှာ ကပ်ထားတဲ့ဆိုင်းဘုတ်မှာ ဘာရေးထားတာလဲခင်ဗျာ။\nယာမဒါ- 「ပြေးလွှားစီးနင်းခြင်း မပြုကြပါရန်」 လို့ ရေးထားတာပါ။\nလင်း- ဘယ်လိုအဓိပ္ပာယ်လဲခင်ဗျာ။\nယာမဒါ- ရထားထွက်ခွာသံ မြည်နေချိန်မှာ အတင်းအကျပ် အပြေးအလွှား ရထားပေါ်တက်မစီးရဘူးဆိုတဲ့ အဓိပ္ပာယ်ပါ။ တံခါးညှပ်ပြီး ကြီးမားတဲ့ဒဏ်ရာရနိုင်တဲ့ အန္တရာယ်ရှိလို့ပါ။\nလင်း- ဟုတ်ကဲ့ပါ၊ တကယ်ကို အန္တရာယ်ရှိတာပဲနော်။ ဒါနဲ့ ဟိုဘက်တံခါးက 「သက်ဆိုင်သူများမှအပ မဝင်ရ」 ဆိုတာကကော ဘာအဓိပ္ပာယ်လဲခင်ဗျာ။\nယာမဒါ- ဘူတာဝန်ထမ်းနှင့် သက်ဆိုင်သူများမှအပ မည်သူမျှ အတွင်းသို့ အလွတ်သဘော လုံးဝမဝင်ရဘူးဆိုတဲ့ အဓိပ္ပာယ်ပါခင်ဗျာ။\nလင်း- ကောင်းကောင်းနားလည်ပါပြီ။ ဂျပန်ဘူတာတွေက ဆိုင်းဘုတ်တွေဟာ ဘေးကင်းလုံခြုံရေးအတွက် သိပ်ကိုအရေးကြီးတာပဲနော်။"
   },
   "questions": [
     {
@@ -1940,7 +2014,7 @@
       "choices": [
         "食べろ",
         "食べれ",
-        "食え",
+        "食べらせ",
         "食べるな"
       ],
       "answer": "食べろ",
@@ -1971,7 +2045,7 @@
       "prompt": "「する」の命令形はどれですか。",
       "choices": [
         "しろ",
-        "せよ",
+        "しれ",
         "すれ",
         "するな"
       ],
@@ -1979,7 +2053,7 @@
       "acceptedAnswers": [
         "しろ"
       ],
-      "explanation": "Group 3 verb する imperative is しろ (or archaic せよ).",
+      "explanation": "Group 3 verb する imperative is しろ.",
       "difficulty": 2,
       "linkedItemIds": [
         "n4.l03.g001"
@@ -2004,7 +2078,7 @@
       "choices": [
         "入るな",
         "入れ",
-        "入るなよ",
+        "入るだ",
         "入らない"
       ],
       "answer": "入るな",
@@ -2243,7 +2317,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「人々の安全を守り、事故を防ぐため」 ဖြစ်ပါသည်။ (The text says: これらの標識は、人々の安全を守り、事故を防ぐために設置されています.)",
+      "explanationMy": "အဖြေမှန်မှာ 「人々の安全を守り、事故を防ぐため」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"これらの標識は、人々の安全を守り、事故を防ぐために設置されています.\")",
       "choicesMy": [
         "人々の安全を守り、事故を防ぐため",
         "街をカラフルに飾るため",
@@ -2275,7 +2349,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「危険ですから中に入ってはいけないという意味」 ဖြစ်ပါသည်။ (The text explicitly states: これは「危険ですから、中に入ってはいけません」という意味です.)",
+      "explanationMy": "အဖြေမှန်မှာ 「危険ですから中に入ってはいけないという意味」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် အတိအလင်း ဖော်ပြထားသည်မှာ- \"これは「危険ですから、中に入ってはいけません」という意味です.\")",
       "choicesMy": [
         "危険ですから中に入ってはいけないという意味",
         "工事の仕事を手伝ってくださいという意味",
@@ -2307,7 +2381,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「黄色い線の内側に下がらなければならない」 ဖြစ်ပါသည်။ (The text states: 危ないですから、黄色い線の外側に出てはいけません (下がれ).)",
+      "explanationMy": "အဖြေမှန်မှာ 「黄色い線の内側に下がらなければならない」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"危ないですから、黄色い線の外側に出てはいけません (下がれ\").)",
       "choicesMy": [
         "黄色い線の内側に下がらなければならない",
         "黄色い線の外側に立たなければならない",
@@ -2339,7 +2413,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「一度必ず止まらなければならない」 ဖြစ်ပါသည်။ (The text says: この標識の場所で一度必ず止まらなければなりません.)",
+      "explanationMy": "အဖြေမှန်မှာ 「一度必ず止まらなければならない」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"この標識の場所で一度必ず止まらなければなりません.\")",
       "choicesMy": [
         "一度必ず止まらなければならない",
         "スピードを上げて通り過ぎる",
@@ -2467,7 +2541,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「ドアに挟まれて大怪我をする危険」 ဖြစ်ပါသည်။ (Yamada explains: ドアに挟まれて大怪我をする危険がありますからね.)",
+      "explanationMy": "အဖြေမှန်မှာ 「ドアに挟まれて大怪我をする危険」 ဖြစ်ပါသည်။ (ယာမဒါက ရှင်းပြသည်မှာ- \"ドアに挟まれて大怪我をする危険がありますからね.\")",
       "choicesMy": [
         "ドアに挟まれて大怪我をする危険",
         "切符を落としてしまう危険",
@@ -2531,7 +2605,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「日本の駅の標識は安全のためにとても大切だと納得した」 ဖြစ်ပါသည်။ (Lin says: よくわかりました。日本の駅の標識は安全のためにとても大切ですね.)",
+      "explanationMy": "အဖြေမှန်မှာ 「日本の駅の標識は安全のためにとても大切だと納得した」 ဖြစ်ပါသည်။ (လင်းက ပြောကြားသည်မှာ- \"よくわかりました。日本の駅の標識は安全のためにとても大切ですね.\")",
       "choicesMy": [
         "日本の駅の標識は安全のためにとても大切だと納得した",
         "看板が多すぎて邪魔だと不満を言った",
@@ -2549,6 +2623,6 @@
   },
   "titleMy": "N4 Lesson 3: Imperative & Prohibitive (命令形・禁止形: 読め・読むな) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 3: Imperative & Prohibitive (命令形・禁止形: 読め・読むな) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 3: Imperative & Prohibitive (命令形・禁止形: 読め・読むな) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "အမိန့်ပေးပုံစံ (命令形)၊ တားမြစ်ပုံစံ (禁止形) နှင့် ဆိုင်းဘုတ်/သတိပေးချက် ရှင်းလင်းပြသခြင်းဆိုင်ရာ သဒ္ဒါနှင့် ဝေါဟာရများ။",
   "descriptionMyanmar": "N4 Lesson 3: Imperative & Prohibitive (命令形・禁止形: 読め・読むな) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

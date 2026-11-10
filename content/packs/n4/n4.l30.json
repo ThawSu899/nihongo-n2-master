@@ -948,7 +948,7 @@
           "meaning": "truth; reality",
           "preview": false,
           "meaningMyanmar": "truth; reality",
-          "meaningMy": "truth; reality"
+          "meaningMy": "အမှန်တရား"
         }
       ],
       "exampleSentenceIds": [
@@ -996,7 +996,7 @@
           "meaning": "conference; talk",
           "preview": false,
           "meaningMyanmar": "conference; talk",
-          "meaningMy": "conference; talk"
+          "meaningMy": "ဆွေးနွေးပွဲ"
         }
       ],
       "exampleSentenceIds": [
@@ -1047,7 +1047,7 @@
           "meaning": "consecutive holidays",
           "preview": false,
           "meaningMyanmar": "consecutive holidays",
-          "meaningMy": "consecutive holidays"
+          "meaningMy": "ဆက်တိုက်ရုံးပိတ်ရက်"
         }
       ],
       "exampleSentenceIds": [
@@ -1097,7 +1097,7 @@
           "meaning": "coherent connection",
           "preview": false,
           "meaningMyanmar": "coherent connection",
-          "meaningMy": "coherent connection"
+          "meaningMy": "အကြောင်းအကျိုးဆက်စပ်မှု"
         }
       ],
       "exampleSentenceIds": [
@@ -1159,8 +1159,8 @@
       },
       "explanationMy": "စကားပြောရာတွင် အသုံးပြုသော ဆက်သွယ်ရေးစကားလုံးများ:\n- ところで: ယခုပြောနေသော အကြောင်းအရာမှ အခြားအကြောင်းအရာသစ်တစ်ခုသို့ စကားလမ်းကြောင်း ပြောင်းသည့်အခါ သုံးသည် (\"ဒါနဲ့ စကားမစပ်...\")။\n- それに: အကြောင်းပြချက် သို့မဟုတ် အချက်အလက်တစ်ခုကို ထပ်မံဖြည့်စွက်သည့်အခါ သုံးသည် (\"ဒါ့အပြင်...\")။\n- それで: ရှေ့ဖြစ်ရပ်ကြောင့် နောက်ဖြစ်ရပ် ဆက်လက်ဖြစ်ပေါ်လာပုံကို ဆက်စပ်ဖော်ပြသည် (\"ဒါကြောင့်မို့ / ပြီးတော့မှ...\")။ တစ်ဖက်လူ၏ စကားကို ဆက်ပြောရန် တိုက်တွန်းရာတွင်လည်း သုံးသည်။\n- 実は: အရေးကြီးသော သို့မဟုတ် အမှန်တကယ်ဖြစ်ပျက်နေသော အချက်အလက်ကို ဖွင့်ဟပြောဆိုသည့်အခါ သုံးသည် (\"တကယ်တော့...\")။",
       "meaningMyanmar": "စကားပြောရာတွင် အသုံးပြုသော ဆက်သွယ်ရေးစကားလုံးများ:\n- ところで: ယခုပြောနေသော အကြောင်းအရာမှ အခြားအကြောင်းအရာသစ်တစ်ခုသို့ စကားလမ်းကြောင်း ပြောင်းသည့်အခါ သုံးသည် (\"ဒါနဲ့ စကားမစပ်...\")။\n- それに: အကြောင်းပြချက် သို့မဟုတ် အချက်အလက်တစ်ခုကို ထပ်မံဖြည့်စွက်သည့်အခါ သုံးသည် (\"ဒါ့အပြင်...\")။\n- それで: ရှေ့ဖြစ်ရပ်ကြောင့် နောက်ဖြစ်ရပ် ဆက်လက်ဖြစ်ပေါ်လာပုံကို ဆက်စပ်ဖော်ပြသည် (\"ဒါကြောင့်မို့ / ပြီးတော့မှ...\")။ တစ်ဖက်လူ၏ စကားကို ဆက်ပြောရန် တိုက်တွန်းရာတွင်လည်း သုံးသည်။\n- 実は: အရေးကြီးသော သို့မဟုတ် အမှန်တကယ်ဖြစ်ပျက်နေသော အချက်အလက်ကို ဖွင့်ဟပြောဆိုသည့်အခါ သုံးသည် (\"တကယ်တော့...\")။",
-      "meaningMy": "စကားပြောရာတွင် အသုံးပြုသော ဆက်သွယ်ရေးစကားလုံးများ:\n- ところで: ယခုပြောနေသော အကြောင်းအရာမှ အခြားအကြောင်းအရာသစ်တစ်ခုသို့ စကားလမ်းကြောင်း ပြောင်းသည့်အခါ သုံးသည် (\"ဒါနဲ့ စကားမစပ်...\")။\n- それに: အကြောင်းပြချက် သို့မဟုတ် အချက်အလက်တစ်ခုကို ထပ်မံဖြည့်စွက်သည့်အခါ သုံးသည် (\"ဒါ့အပြင်...\")။\n- それで: ရှေ့ဖြစ်ရပ်ကြောင့် နောက်ဖြစ်ရပ် ဆက်လက်ဖြစ်ပေါ်လာပုံကို ဆက်စပ်ဖော်ပြသည် (\"ဒါကြောင့်မို့ / ပြီးတော့မှ...\")။ တစ်ဖက်လူ၏ စကားကို ဆက်ပြောရန် တိုက်တွန်းရာတွင်လည်း သုံးသည်။\n- 実は: အရေးကြီးသော သို့မဟုတ် အမှန်တကယ်ဖြစ်ပျက်နေသော အချက်အလက်ကို ဖွင့်ဟပြောဆိုသည့်အခါ သုံးသည် (\"တကယ်တော့...\")။",
-      "nuanceExplanationMy": "Conversational Transitions: ところで・それに・それで・実は ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "စကားပြောရာတွင် အသုံးပြုသော ဆက်သွယ်ရေးစကားလုံးများ:\n- ところで: ယခုပြောနေသော အကြောင်းအရာမှ အခြားအကြောင်းအရာသစ်တစ်ခုသို့ စကားလမ်းကြောင်း ပြောင်းသည့်အခါ သုံးသည် (\"ဒါနဲ့ စကားမစပ်...\")။",
+      "nuanceExplanationMy": "Conversational Transitions: ところで・それに・それで・実は ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l30.g002",
@@ -1197,8 +1197,8 @@
       },
       "explanationMy": "မိမိ ကြိုတင်တွေးတောထားသည့်အတိုင်း အမှန်တကယ် ဖြစ်လာသည့်အခါ (\"ထင်သည့်အတိုင်းပဲ / နောက်ဆုံးတော့လည်း\") သုံးသည်။ စကားပြောတွင် 「やっぱり」၊ တရားဝင်အရေးအသားတွင် 「やはり」ကို သုံးသည်။",
       "meaningMyanmar": "မိမိ ကြိုတင်တွေးတောထားသည့်အတိုင်း အမှန်တကယ် ဖြစ်လာသည့်အခါ (\"ထင်သည့်အတိုင်းပဲ / နောက်ဆုံးတော့လည်း\") သုံးသည်။ စကားပြောတွင် 「やっぱり」၊ တရားဝင်အရေးအသားတွင် 「やはり」ကို သုံးသည်။",
-      "meaningMy": "မိမိ ကြိုတင်တွေးတောထားသည့်အတိုင်း အမှန်တကယ် ဖြစ်လာသည့်အခါ (\"ထင်သည့်အတိုင်းပဲ / နောက်ဆုံးတော့လည်း\") သုံးသည်။ စကားပြောတွင် 「やっぱり」၊ တရားဝင်အရေးအသားတွင် 「やはり」ကို သုံးသည်။",
-      "nuanceExplanationMy": "やっぱり / やはり (Confirmation of intuition & expectation) ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "မိမိ ကြိုတင်တွေးတောထားသည့်အတိုင်း အမှန်တကယ် ဖြစ်လာသည့်အခါ (\"ထင်သည့်အတိုင်းပဲ / နောက်ဆုံးတော့လည်း\") သုံးသည်။",
+      "nuanceExplanationMy": "やっぱり / やはり (Confirmation of intuition & expectation) ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1573,7 +1573,7 @@
     "title": "日本語の会話を滑らかにするつなぎ言葉",
     "level": "N4",
     "text": "日本語を勉強し始めた頃は、単語や文法を一つずつ正確に組み立てて話すことで精一杯になりがちです。しかし、日常会話で日本人と自然に意思疎通を図るためには、文と文をつなぐ「接続表現（つなぎ言葉）」を上手に使いこなすことが大切です。\n\n例えば、相手の話をじっくり聞いた後で新しい話題に切り替えたい時は、「ところで」という表現が非常に役に立ちます。「ところで、来週の連休は何か予定がある？」のように使うことで、唐突な印象を与えずに自然に話題を移行できます。\n\nまた、相手に自分の意見を理由とともに伝える際は、「それに」を使って理由を付け加えると、説得力が格段に増します。「この店は料理が美味しい。それに、店員さんの接客も親切だ」と言えば、相手も納得しやすくなります。\n\nさらに、会話の中で自分の本音を切り出す時に「実は…」と一言前置きを置くと、相手は「何か大切な話があるのだな」と耳を傾けてくれます。やっぱり、会話の潤滑油となるつなぎ言葉を覚えることが、自然な日本語への一番の近道なのです。",
-    "kanaText": "にほんごをべんきょうしはじめたころは、たんごやぶんぽうをひとつずつせいかくにくみたててはなすことでせいいっぱいになりがちです。しかし、にちじょうかいわでにほんじんとしぜんにいしそつうをはかるためには、ぶんとぶんをつなぐ「せつぞくひょうげん（つなぎことば）」をじょうずにつかいこなすことがたいせつです。\n\nたとえば、あいてのはなしをじっくりきいたあとであたらしいわだいにきりかえたいときは、「ところで」というひょうげんがひじょうにやくにたちます。「ところで、らいしゅうのれんきゅうはなにかよていがある？」のようにつかうことで、とうとつないんしょうをあたえずにつぜんにわだいをいこうできます。\n\nまた、あいてにじぶんのいけんをりゆうとともにをつたえるさいは、「それに」をつかってりゆうをつ vintageえくわえると、せっとくりょくがかくだんにまします。「このみせはりょうりがおいしい。それに、てんいんさんのせっきゃくもしんせつだ」といえば、あいてもなっとくしやすくなります。\n\nさらに、かいわのなかでじぶんのほんねをきりだすときに「じつは…」とひとことまえおきをおくと、あいては「なにかたいせつなはなしがあるのだな」とみみをかたむけてくれます。やっぱり、かいわのじゅんかつゆとなるつなぎことばをおぼえることが、しぜんなにほんごへのいちばんのちかみちなのです。",
+    "kanaText": "にほんごをべんきょうしはじめたころは、たんごやぶんぽうをひとつずつせいかくにくみたててはなすことでせいいっぱいになりがちです。しかし、にちじょうかいわでにほんじんとしぜんにいしそつうをはかるためには、ぶんとぶんをつなぐ「せつぞくひょうげん（つなぎことば）」をじょうずにつかいこなすことがたいせつです。\n\nたとえば、あいてのはなしをじっくりきいたあとであたらしいわだいにきりかえたいときは、「ところで」というひょうげんがひじょうにやくにたちます。「ところで、らいしゅうのれんきゅうはなにかよていがある？」のようにつかうことで、とうとつないんしょうをあたえずにつぜんにわだいをいこうできます。\n\nまた、あいてにじぶんのいけんをりゆうとともにをつたえるさいは、「それに」をつかってりゆうをつけくわえると、せっとくりょくがかくだんにまします。「このみせはりょうりがおいしい。それに、てんいんさんのせっきゃくもしんせつだ」といえば、あいてもなっとくしやすくなります。\n\nさらに、かいわのなかでじぶんのほんねをきりだすときに「じつは…」とひとことまえおきをおくと、あいては「なにかたいせつなはなしがあるのだな」とみみをかたむけてくれます。やっぱり、かいわのじゅんかつゆとなるつなぎことばをおぼえることが、しぜんなにほんごへのいちばんのちかみちなのです。",
     "translation": "When you first begin studying Japanese, you tend to be fully occupied just constructing words and grammar accurately one by one. However, in order to communicate naturally with Japanese people in daily conversation, skillfully mastering connecting expressions (discourse markers) that link sentences is essential.\n\nFor example, when you want to switch to a new topic after listening thoroughly to the other person, the expression \"tokorode\" (by the way) is extremely useful. By using it like \"Tokorode, do you have any plans for next week's holidays?\", you can transition topics naturally without giving an abrupt impression.\n\nAlso, when conveying your opinion along with reasons, adding reasons using \"sore ni\" (moreover) greatly increases persuasiveness. Saying \"The food at this shop is delicious. Moreover, the staff's customer service is kind,\" makes it easy for the other person to be convinced.\n\nFurthermore, when broaching your true thoughts in a conversation, placing the preface \"Jitsu wa...\" (Actually...) makes the listener pay close attention, realizing \"There must be an important matter.\" After all, learning discourse markers that act as conversational lubricant is the best shortcut to natural Japanese.",
     "questionIds": [
       "n4.l30.q025",
@@ -1591,7 +1591,7 @@
     },
     "titleMy": "日本語の会話を滑らかにするつなぎ言葉 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "日本語の会話を滑らかにするつなぎ言葉 (ဖတ်ရှုခြင်း)",
-    "translationMy": "When you first begin studying Japanese, you tend to be fully occupied just constructing words and grammar accurately one by one. However, in order to communicate naturally with Japanese people in daily conversation, skillfully mastering connecting expressions (discourse markers) that link sentences is essential.\n\nFor example, when you want to switch to a new topic after listening thoroughly to the other person, the expression \"tokorode\" (by the way) is extremely useful. By using it like \"Tokorode, do you have any plans for next week's holidays?\", you can transition topics naturally without giving an abrupt impression.\n\nAlso, when conveying your opinion along with reasons, adding reasons using \"sore ni\" (moreover) greatly increases persuasiveness. Saying \"The food at this shop is delicious. Moreover, the staff's customer service is kind,\" makes it easy for the other person to be convinced.\n\nFurthermore, when broaching your true thoughts in a conversation, placing the preface \"Jitsu wa...\" (Actually...) makes the listener pay close attention, realizing \"There must be an important matter.\" After all, learning discourse markers that act as conversational lubricant is the best shortcut to natural Japanese."
+    "translationMy": "N4 Lesson 30: Conversational Fluency & Discourse Markers (会話の接続表現・つなぎ言葉: ところで・それに・それで・実は・やっぱり) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l30.l01",
@@ -1614,72 +1614,72 @@
         "ja": "ホアンさん、午前中の会議、お疲れ様でした。企画のプレゼン、とても好評でしたね！",
         "kana": "ホアンさん、ごぜんちゅうのかいぎ、おつかれさまでした。きかくのプレゼン、とてもこうひょうでしたね！",
         "en": "Hoang, good work on the morning meeting! Your presentation was very well received!",
-        "my": "Hoang, good work on the morning meeting! Your presentation was very well received!",
-        "translationMy": "Hoang, good work on the morning meeting! Your presentation was very well received!",
-        "myanmar": "Hoang, good work on the morning meeting! Your presentation was very well received!"
+        "my": "အလွန် အသိအမှတ်ပြု ချီးကျူးခံခဲ့ရတာပဲနော်!",
+        "translationMy": "အလွန် အသိအမှတ်ပြု ချီးကျူးခံခဲ့ရတာပဲနော်!",
+        "myanmar": "အလွန် အသိအမှတ်ပြု ချီးကျူးခံခဲ့ရတာပဲနော်!"
       },
       {
         "speaker": "ホアン",
         "ja": "ありがとうございます。先輩方に相談に乗っていただいたおかげです。",
         "kana": "ありがとうございます。せんぱいがたにそうだんにのっていただいたおかげです。",
         "en": "Thank you. It was thanks to you seniors listening and giving me advice.",
-        "my": "Thank you. It was thanks to you seniors listening and giving me advice.",
-        "translationMy": "Thank you. It was thanks to you seniors listening and giving me advice.",
-        "myanmar": "Thank you. It was thanks to you seniors listening and giving me advice."
+        "my": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။",
+        "translationMy": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။",
+        "myanmar": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။"
       },
       {
         "speaker": "渡辺",
         "ja": "ところで、ホアンさん、今週末の歓迎会には来られそう？",
         "kana": "ところで、ホアンさん、こんしゅうまつのかんげいかいにはこられそう？",
         "en": "By the way, Hoang, do you think you can come to this weekend’s welcome party?",
-        "my": "By the way, Hoang, do you think you can come to this weekend’s welcome party?",
-        "translationMy": "By the way, Hoang, do you think you can come to this weekend’s welcome party?",
-        "myanmar": "By the way, Hoang, do you think you can come to this weekend’s welcome party?"
+        "my": "ところで、ホアンさん、今週末の歓迎会には来られそう？ (အဓိပ္ပာယ်- By the way, Hoang, do you think you can come to this weekend’s welcome party?)",
+        "translationMy": "ところで、ホアンさん、今週末の歓迎会には来られそう？ (အဓိပ္ပာယ်- By the way, Hoang, do you think you can come to this weekend’s welcome party?)",
+        "myanmar": "ところで、ホアンさん、今週末の歓迎会には来られそう？ (အဓိပ္ပာယ်- By the way, Hoang, do you think you can come to this weekend’s welcome party?)"
       },
       {
         "speaker": "ホアン",
         "ja": "あ、実は、週末に母国の両親が日本へ遊びに来ることになっているんです。それで、成田空港まで車で迎えに行かなければならなくて…。",
         "kana": "あ、じつは、しゅうまつにぼこくのりょうしんがにほんへあそびにくることになっているんです。それで、なりたくうこうまでくるまでむかえにいかなければならなくて…。",
         "en": "Ah, actually, my parents from my home country are visiting Japan this weekend. And so, I have to go pick them up at Narita Airport by car...",
-        "my": "Ah, actually, my parents from my home country are visiting Japan this weekend. And so, I have to go pick them up at Narita Airport by car...",
-        "translationMy": "Ah, actually, my parents from my home country are visiting Japan this weekend. And so, I have to go pick them up at Narita Airport by car...",
-        "myanmar": "Ah, actually, my parents from my home country are visiting Japan this weekend. And so, I have to go pick them up at Narita Airport by car..."
+        "my": "あ、実は、週末に母国の両親が日本へ遊びに来ることになっているんです。それで、成田空港まで車で迎えに行かなければならなくて…。 (အဓိပ္ပာယ်- Ah, actually, my parents from my home country are visiting Japan this weekend. And so, I have to go pick them up at Narita Airport by car...)",
+        "translationMy": "あ、実は、週末に母国の両親が日本へ遊びに来ることになっているんです。それで、成田空港まで車で迎えに行かなければならなくて…。 (အဓိပ္ပာယ်- Ah, actually, my parents from my home country are visiting Japan this weekend. And so, I have to go pick them up at Narita Airport by car...)",
+        "myanmar": "あ、実は、週末に母国の両親が日本へ遊びに来ることになっているんです。それで、成田空港まで車で迎えに行かなければならなくて…。 (အဓိပ္ပာယ်- Ah, actually, my parents from my home country are visiting Japan this weekend. And so, I have to go pick them up at Narita Airport by car...)"
       },
       {
         "speaker": "渡辺",
         "ja": "そうだったんだ！ご両親が来日されるなら、そちらを優先しないとね。",
         "kana": "そうだったんだ！ごりょうしんがらいにちされるなら、そちらをゆうせんしないとね。",
         "en": "Is that so! If your parents are visiting Japan, you must prioritize that!",
-        "my": "Is that so! If your parents are visiting Japan, you must prioritize that!",
-        "translationMy": "Is that so! If your parents are visiting Japan, you must prioritize that!",
-        "myanmar": "Is that so! If your parents are visiting Japan, you must prioritize that!"
+        "my": "そうだったんだ！ご両親が来日されるなら、そちらを優先しないとね。 (အဓိပ္ပာယ်- Is that so! If your parents are visiting Japan, you must prioritize that!)",
+        "translationMy": "そうだったんだ！ご両親が来日されるなら、そちらを優先しないとね。 (အဓိပ္ပာယ်- Is that so! If your parents are visiting Japan, you must prioritize that!)",
+        "myanmar": "そうだったんだ！ご両親が来日されるなら、そちらを優先しないとね。 (အဓိပ္ပာယ်- Is that so! If your parents are visiting Japan, you must prioritize that!)"
       },
       {
         "speaker": "ホアン",
         "ja": "申し訳ありません。来週、両親と一緒に東京を案内する予定です。",
         "kana": "もうしわけありません。らいしゅう、りょうしんといっしょにとうきょうをあんないするよていです。",
         "en": "I am sorry. Next week, I plan to guide my parents around Tokyo.",
-        "my": "I am sorry. Next week, I plan to guide my parents around Tokyo.",
-        "translationMy": "I am sorry. Next week, I plan to guide my parents around Tokyo.",
-        "myanmar": "I am sorry. Next week, I plan to guide my parents around Tokyo."
+        "my": "申し訳ありません。来週、両親と一緒に東京を案内する予定です。 (အဓိပ္ပာယ်- I am sorry. Next week, I plan to guide my parents around Tokyo.)",
+        "translationMy": "申し訳ありません。来週、両親と一緒に東京を案内する予定です。 (အဓိပ္ပာယ်- I am sorry. Next week, I plan to guide my parents around Tokyo.)",
+        "myanmar": "申し訳ありません。来週、両親と一緒に東京を案内する予定です。 (အဓိပ္ပာယ်- I am sorry. Next week, I plan to guide my parents around Tokyo.)"
       },
       {
         "speaker": "渡辺",
         "ja": "いいね！秋の東京なら、浅草や上野公園の散策がやっぱり一番おすすめだよ。",
         "kana": "いいね！あきのとうきょうなら、あさくさやうえのこうえんのさんさくがやっぱりいちばんおすすめだよ。",
         "en": "Great! If it’s autumn in Tokyo, strolling around Asakusa and Ueno Park is after all the best recommendation.",
-        "my": "Great! If it’s autumn in Tokyo, strolling around Asakusa and Ueno Park is after all the best recommendation.",
-        "translationMy": "Great! If it’s autumn in Tokyo, strolling around Asakusa and Ueno Park is after all the best recommendation.",
-        "myanmar": "Great! If it’s autumn in Tokyo, strolling around Asakusa and Ueno Park is after all the best recommendation."
+        "my": "いいね！秋の東京なら、浅草や上野公園の散策がやっぱり一番おすすめだよ。 (အဓိပ္ပာယ်- Great! If it’s autumn in Tokyo, strolling around Asakusa and Ueno Park is after all the best recommendation.)",
+        "translationMy": "いいね！秋の東京なら、浅草や上野公園の散策がやっぱり一番おすすめだよ。 (အဓိပ္ပာယ်- Great! If it’s autumn in Tokyo, strolling around Asakusa and Ueno Park is after all the best recommendation.)",
+        "myanmar": "いいね！秋の東京なら、浅草や上野公園の散策がやっぱり一番おすすめだよ。 (အဓိပ္ပာယ်- Great! If it’s autumn in Tokyo, strolling around Asakusa and Ueno Park is after all the best recommendation.)"
       },
       {
         "speaker": "ホアン",
         "ja": "はい、ぜひ連れて行こうと思います！",
         "kana": "はい、ぜひつれていこうとおもいます！",
         "en": "Yes, I definitely intend to take them there!",
-        "my": "Yes, I definitely intend to take them there!",
-        "translationMy": "Yes, I definitely intend to take them there!",
-        "myanmar": "Yes, I definitely intend to take them there!"
+        "my": "はい、ぜひ連れて行こうと思います！ (အဓိပ္ပာယ်- Yes, I definitely intend to take them there!)",
+        "translationMy": "はい、ぜひ連れて行こうと思います！ (အဓိပ္ပာယ်- Yes, I definitely intend to take them there!)",
+        "myanmar": "はい、ぜひ連れて行こうと思います！ (အဓိပ္ပာယ်- Yes, I definitely intend to take them there!)"
       }
     ],
     "questionIds": [
@@ -1697,7 +1697,7 @@
     },
     "titleMy": "昼休みの同僚との雑談と相談 (နားထောင်ခြင်း)",
     "titleMyanmar": "昼休みの同僚との雑談と相談 (နားထောင်ခြင်း)",
-    "translationMy": "Watanabe: Hoang, good work on the morning meeting! Your project presentation was received very well!\nHoang: Thank you very much. It was thanks to you seniors counseling and giving me advice.\nWatanabe: By the way, Hoang, do you think you can come to this weekend's welcome party?\nHoang: Ah, actually, my parents from my home country are scheduled to visit Japan this weekend. And so, I have to go to Narita Airport by car to pick them up...\nWatanabe: Is that so! If your parents are visiting Japan, you definitely have to prioritize that!\nHoang: I am sorry. Next week, I plan to guide my parents around Tokyo.\nWatanabe: That's great! If it's autumn in Tokyo, strolling Asakusa and Ueno Park is after all the best recommendation.\nHoang: Yes, I definitely intend to take them there!"
+    "translationMy": "渡辺- အလွန် အသိအမှတ်ပြု ချီးကျူးခံခဲ့ရတာပဲနော်!\nホアン- ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။\n渡辺- ところで、ホアンさん、今週末の歓迎会には来られそう？ (အဓိပ္ပာယ်- By the way, Hoang, do you think you can come to this weekend’s welcome party?)\nホアン- あ、実は、週末に母国の両親が日本へ遊びに来ることになっているんです。それで、成田空港まで車で迎えに行かなければならなくて…。 (အဓိပ္ပာယ်- Ah, actually, my parents from my home country are visiting Japan this weekend. And so, I have to go pick them up at Narita Airport by car...)\n渡辺- そうだったんだ！ご両親が来日されるなら、そちらを優先しないとね。 (အဓိပ္ပာယ်- Is that so! If your parents are visiting Japan, you must prioritize that!)\nホアン- 申し訳ありません。来週、両親と一緒に東京を案内する予定です。 (အဓိပ္ပာယ်- I am sorry. Next week, I plan to guide my parents around Tokyo.)\n渡辺- いいね！秋の東京なら、浅草や上野公園の散策がやっぱり一番おすすめだよ。 (အဓိပ္ပာယ်- Great! If it’s autumn in Tokyo, strolling around Asakusa and Ueno Park is after all the best recommendation.)\nホアン- はい、ぜひ連れて行こうと思います！ (အဓိပ္ပာယ်- Yes, I definitely intend to take them there!)"
   },
   "questions": [
     {
@@ -1788,7 +1788,7 @@
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「それに」 ဖြစ်ပါသည်။ (それに means moreover / in addition.)",
+      "explanationMy": "အဖြေမှန်မှာ 「それに」 ဖြစ်ပါသည်။ (それに သည် moreover / in addition. ဟု အဓိပ္ပာယ်ရပါသည်)",
       "choicesMy": [
         "それに",
         "それで",
@@ -2671,6 +2671,6 @@
   },
   "titleMy": "N4 Lesson 30: Conversational Fluency & Discourse Markers (会話の接続表現・つなぎ言葉: ところで・それに・それで・実は・やっぱり) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 30: Conversational Fluency & Discourse Markers (会話の接続表現・つなぎ言葉: ところで・それに・それで・実は・やっぱり) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 30: Conversational Fluency & Discourse Markers (会話の接続表現・つなぎ言葉: ところで・それに・それで・実は・やっぱり) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "စကားပြောချောမွေ့စေသော စကားစပ်အသုံးအနှုန်းများ (談話標識: ところで・それに・実は) ဆိုင်ရာ လေ့ကျင့်ခန်းများ။",
   "descriptionMyanmar": "N4 Lesson 30: Conversational Fluency & Discourse Markers (会話の接続表現・つなぎ言葉: ところで・それに・それで・実は・やっぱり) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

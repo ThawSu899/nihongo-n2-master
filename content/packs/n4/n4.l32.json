@@ -955,7 +955,7 @@
           "meaning": "plan; idea; device",
           "preview": false,
           "meaningMyanmar": "plan; idea; device",
-          "meaningMy": "plan; idea; device"
+          "meaningMy": "စိတ်ကူးအကြံအစည်"
         }
       ],
       "exampleSentenceIds": [
@@ -1006,7 +1006,7 @@
           "meaning": "depiction; description",
           "preview": false,
           "meaningMyanmar": "depiction; description",
-          "meaningMy": "depiction; description"
+          "meaningMy": "ပုံဖော်တင်ပြခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1056,7 +1056,7 @@
           "meaning": "deep emotion",
           "preview": false,
           "meaningMyanmar": "deep emotion",
-          "meaningMy": "deep emotion"
+          "meaningMy": "စိတ်လှုပ်ရှားထိခိုက်ခြင်း"
         },
         {
           "word": "感謝",
@@ -1116,7 +1116,7 @@
           "meaning": "sense; sensation",
           "preview": false,
           "meaningMyanmar": "sense; sensation",
-          "meaningMy": "sense; sensation"
+          "meaningMy": "ခံစားမှုအာရုံ"
         }
       ],
       "exampleSentenceIds": [
@@ -1179,8 +1179,8 @@
       },
       "explanationMy": "ကြိယာကို နာမ်အဖြစ် ပြောင်းလဲရာတွင် အာရုံခံစားမှုကြိယာများ (မြင်ရသည်၊ ကြားရသည်၊ ခံစားရသည်) နှင့် လက်တွေ့မျက်မြင်ဖြစ်ရပ်များ၊ တိုက်ရိုက်လုပ်ဆောင်ချက်များ (ကူညီသည်၊ စောင့်သည်၊ တားဆီးသည်) နောက်တွင် 「〜の」ကို အသုံးပြုရမည်။ (ဥပမာ- ကလေးငိုနေသည်ကို ကြားရသည်၊ သူပစ္စည်းသယ်သည်ကို ကူညီခဲ့သည်)။",
       "meaningMyanmar": "ကြိယာကို နာမ်အဖြစ် ပြောင်းလဲရာတွင် အာရုံခံစားမှုကြိယာများ (မြင်ရသည်၊ ကြားရသည်၊ ခံစားရသည်) နှင့် လက်တွေ့မျက်မြင်ဖြစ်ရပ်များ၊ တိုက်ရိုက်လုပ်ဆောင်ချက်များ (ကူညီသည်၊ စောင့်သည်၊ တားဆီးသည်) နောက်တွင် 「〜の」ကို အသုံးပြုရမည်။ (ဥပမာ- ကလေးငိုနေသည်ကို ကြားရသည်၊ သူပစ္စည်းသယ်သည်ကို ကူညီခဲ့သည်)။",
-      "meaningMy": "ကြိယာကို နာမ်အဖြစ် ပြောင်းလဲရာတွင် အာရုံခံစားမှုကြိယာများ (မြင်ရသည်၊ ကြားရသည်၊ ခံစားရသည်) နှင့် လက်တွေ့မျက်မြင်ဖြစ်ရပ်များ၊ တိုက်ရိုက်လုပ်ဆောင်ချက်များ (ကူညီသည်၊ စောင့်သည်၊ တားဆီးသည်) နောက်တွင် 「〜の」ကို အသုံးပြုရမည်။ (ဥပမာ- ကလေးငိုနေသည်ကို ကြားရသည်၊ သူပစ္စည်းသယ်သည်ကို ကူညီခဲ့သည်)။",
-      "nuanceExplanationMy": "Nominalization: [Verb Plain form] + の ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ကြိယာကို နာမ်အဖြစ် ပြောင်းလဲရာတွင် အာရုံခံစားမှုကြိယာများ (မြင်ရသည်၊ ကြားရသည်၊ ခံစားရသည်) နှင့် လက်တွေ့မျက်မြင်ဖြစ်ရပ်များ၊ တိုက်ရိုက်လုပ်ဆောင်ချက်များ (ကူညီသည်၊ စောင့်သည်၊ တားဆီးသည်) နောက်တွင် 「〜の」ကို အသုံးပြုရမည်။",
+      "nuanceExplanationMy": "Nominalization: [Verb Plain form] + の ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l32.g002",
@@ -1218,8 +1218,8 @@
       },
       "explanationMy": "စိတ်ပိုင်းဆိုင်ရာ အတွေးအခေါ်များ၊ သဘောတရားများ၊ ပြောဆိုဆက်သွယ်မှုကြိယာများ (ပြောပြသည်၊ ကတိပေးသည်၊ တွေးတောသည်) နှင့် ဝါကျအဆုံးတွင် 「〜ことです」ဖြင့် အဓိပ္ပာယ်ဖွင့်ဆိုသည့်အခါ 「〜こと」ကို သုံးရမည်။ (ဥပမာ- ကျွန်တော့်ဝါသနာမှာ ပန်းချီဆွဲခြင်း ဖြစ်သည်)။ ထို့အပြင် 〜ことができる၊ 〜ことがある စသည့် သဒ္ဒါပုံသေများတွင်လည်း こと ကိုသာ သုံးရသည်။",
       "meaningMyanmar": "စိတ်ပိုင်းဆိုင်ရာ အတွေးအခေါ်များ၊ သဘောတရားများ၊ ပြောဆိုဆက်သွယ်မှုကြိယာများ (ပြောပြသည်၊ ကတိပေးသည်၊ တွေးတောသည်) နှင့် ဝါကျအဆုံးတွင် 「〜ことです」ဖြင့် အဓိပ္ပာယ်ဖွင့်ဆိုသည့်အခါ 「〜こと」ကို သုံးရမည်။ (ဥပမာ- ကျွန်တော့်ဝါသနာမှာ ပန်းချီဆွဲခြင်း ဖြစ်သည်)။ ထို့အပြင် 〜ことができる၊ 〜ことがある စသည့် သဒ္ဒါပုံသေများတွင်လည်း こと ကိုသာ သုံးရသည်။",
-      "meaningMy": "စိတ်ပိုင်းဆိုင်ရာ အတွေးအခေါ်များ၊ သဘောတရားများ၊ ပြောဆိုဆက်သွယ်မှုကြိယာများ (ပြောပြသည်၊ ကတိပေးသည်၊ တွေးတောသည်) နှင့် ဝါကျအဆုံးတွင် 「〜ことです」ဖြင့် အဓိပ္ပာယ်ဖွင့်ဆိုသည့်အခါ 「〜こと」ကို သုံးရမည်။ (ဥပမာ- ကျွန်တော့်ဝါသနာမှာ ပန်းချီဆွဲခြင်း ဖြစ်သည်)။ ထို့အပြင် 〜ことができる၊ 〜ことがある စသည့် သဒ္ဒါပုံသေများတွင်လည်း こと ကိုသာ သုံးရသည်။",
-      "nuanceExplanationMy": "Nominalization: [Verb Plain form] + こと ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "စိတ်ပိုင်းဆိုင်ရာ အတွေးအခေါ်များ၊ သဘောတရားများ၊ ပြောဆိုဆက်သွယ်မှုကြိယာများ (ပြောပြသည်၊ ကတိပေးသည်၊ တွေးတောသည်) နှင့် ဝါကျအဆုံးတွင် 「〜ことです」ဖြင့် အဓိပ္ပာယ်ဖွင့်ဆိုသည့်အခါ 「〜こと」ကို သုံးရမည်။",
+      "nuanceExplanationMy": "Nominalization: [Verb Plain form] + こと ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     }
   ],
   "sentences": [
@@ -1456,7 +1456,7 @@
       "id": "n4.l32.s008",
       "lessonId": "n4.l32",
       "ja": "古い本棚を整理している時に、昔撮った懐かしい家族写真を発見しました。",
-      "kana": "ふるいほんだなをせいりしているときに、むか撮ったなつかしいかぞくしゃしんをはっけんしました。",
+      "kana": "ふるいほんだなをせいりしているときに、むかしとったなつかしいかぞくしゃしんをはっけんしました。",
       "translation": {
         "en": "While tidying up the old bookshelf, I discovered nostalgic family photos taken long ago.",
         "my": "စာအုပ်စင်ဟောင်းကို သန့်ရှင်းရေးလုပ်နေစဉ် ယခင်က ရိုက်ကူးခဲ့သော လွမ်းမောဖွယ် မိသားစုဓာတ်ပုံများကို ရှာဖွေတွေ့ရှိခဲ့သည်။"
@@ -1571,7 +1571,7 @@
       "id": "n4.l32.s012",
       "lessonId": "n4.l32",
       "ja": "明日の講義が休講になることを、まだ知らない同級生たちに急いで伝えました。",
-      "kana": "あすのこうぎがきゅうこうになることを、まだしらないどうきゅうせいたちに急いでつたえました。",
+      "kana": "あすのこうぎがきゅうこうになることを、まだしらないどうきゅうせいたちにいそいでつたえました。",
       "translation": {
         "en": "I hurriedly conveyed to classmates who didn’t know yet that tomorrow’s lecture was canceled.",
         "my": "မနက်ဖြန် သင်ကြားပို့ချမှု ပျက်ကွက်မည်ဟူသော အကြောင်းအရာကို မသိရှိသေးသော အတန်းဖော်များထံ အမြန် လက်ဆင့်ကမ်း အကြောင်းကြားခဲ့သည်။"
@@ -1621,7 +1621,7 @@
     },
     "titleMy": "水彩画を描く楽しさと心のゆとり (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "水彩画を描く楽しさと心のゆとり (ဖတ်ရှုခြင်း)",
-    "translationMy": "International student Maria's hobby is visiting a nearby botanical garden on holidays and painting seasonal flowers and scenery in watercolors. For her, time spent painting pictures is an invaluable moment to forget the fatigue of daily studies and quietly calm her heart.\n\nWhen she first started painting, she couldn't easily depict accurately the distant mountains and trees swaying in the wind. However, by watching senior painters gently sketch models many times and practicing enthusiastically, she gradually became able to capture light and shadow.\n\n\"My dream is to compile the memories of living in Japan for one year into a single illustrated diary,\" Maria smiles. Through observing surrounding nature thoroughly, she says she has become able to directly feel the delicate beauty of Japan's four seasons."
+    "translationMy": "N4 Lesson 32: Nominalization: 〜の vs 〜こと (名詞化の使い分け: 見るの・知ること・趣味は〜こと) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l32.l01",
@@ -1644,63 +1644,63 @@
         "ja": "吉岡先輩、最近お弁当がとても豪華ですね！自炊を始めたんですか？",
         "kana": "よしおかせんぱい、さいきんおべんとうがとてもごうかですね！じすいをはじめたんですか？",
         "en": "Yoshioka-senpai, your bento lunch has been very deluxe lately! Did you start cooking for yourself?",
-        "my": "Yoshioka-senpai, your bento lunch has been very deluxe lately! Did you start cooking for yourself?",
-        "translationMy": "Yoshioka-senpai, your bento lunch has been very deluxe lately! Did you start cooking for yourself?",
-        "myanmar": "Yoshioka-senpai, your bento lunch has been very deluxe lately! Did you start cooking for yourself?"
+        "my": "吉岡先輩、最近お弁当がとても豪華ですね！自炊を始めたんですか？ (အဓိပ္ပာယ်- Yoshioka-senpai, your bento lunch has been very deluxe lately! Did you start cooking for yourself?)",
+        "translationMy": "吉岡先輩、最近お弁当がとても豪華ですね！自炊を始めたんですか？ (အဓိပ္ပာယ်- Yoshioka-senpai, your bento lunch has been very deluxe lately! Did you start cooking for yourself?)",
+        "myanmar": "吉岡先輩、最近お弁当がとても豪華ですね！自炊を始めたんですか？ (အဓိပ္ပာယ်- Yoshioka-senpai, your bento lunch has been very deluxe lately! Did you start cooking for yourself?)"
       },
       {
         "speaker": "吉岡",
         "ja": "うん。私の今の趣味は、週末に新しい和食のレシピに挑戦することなんだ。",
         "kana": "うん。わたしのいまのしゅみは、しゅうまつにあたらしいわしょくのレシピにちょうせんすることなんだ。",
         "en": "Yeah. My current hobby right now is challenging new Japanese cuisine recipes on weekends.",
-        "my": "Yeah. My current hobby right now is challenging new Japanese cuisine recipes on weekends.",
-        "translationMy": "Yeah. My current hobby right now is challenging new Japanese cuisine recipes on weekends.",
-        "myanmar": "Yeah. My current hobby right now is challenging new Japanese cuisine recipes on weekends."
+        "my": "うん。私の今の趣味は、週末に新しい和食のレシピに挑戦することなんだ。 (အဓိပ္ပာယ်- Yeah. My current hobby right now is challenging new Japanese cuisine recipes on weekends.)",
+        "translationMy": "うん。私の今の趣味は、週末に新しい和食のレシピに挑戦することなんだ。 (အဓိပ္ပာယ်- Yeah. My current hobby right now is challenging new Japanese cuisine recipes on weekends.)",
+        "myanmar": "うん。私の今の趣味は、週末に新しい和食のレシピに挑戦することなんだ。 (အဓိပ္ပာယ်- Yeah. My current hobby right now is challenging new Japanese cuisine recipes on weekends.)"
       },
       {
         "speaker": "高橋",
         "ja": "へえ、素敵ですね！料理を習うのは楽しいですか？",
         "kana": "へえ、すてきですね！りょうりをならうのはたのしいですか？",
         "en": "Wow, that’s great! Is learning cooking fun?",
-        "my": "Wow, that’s great! Is learning cooking fun?",
-        "translationMy": "Wow, that’s great! Is learning cooking fun?",
-        "myanmar": "Wow, that’s great! Is learning cooking fun?"
+        "my": "へえ、素敵ですね！料理を習うのは楽しいですか？ (အဓိပ္ပာယ်- Wow, that’s great! Is learning cooking fun?)",
+        "translationMy": "へえ、素敵ですね！料理を習うのは楽しいですか？ (အဓိပ္ပာယ်- Wow, that’s great! Is learning cooking fun?)",
+        "myanmar": "へえ、素敵ですね！料理を習うのは楽しいですか？ (အဓိပ္ပာယ်- Wow, that’s great! Is learning cooking fun?)"
       },
       {
         "speaker": "吉岡",
         "ja": "すごく楽しいよ。先生が包丁をリズミカルに動かして野菜を切るのを見ているだけでも勉強になるんだ。",
         "kana": "すごくたのしいよ。せんせいがほうちょうをリズミカルにうごかしてやさいをきるのをみているだけでもべんきょうになるんだ。",
         "en": "Very fun. Even just watching the teacher move the knife rhythmically and cut vegetables is educational.",
-        "my": "Very fun. Even just watching the teacher move the knife rhythmically and cut vegetables is educational.",
-        "translationMy": "Very fun. Even just watching the teacher move the knife rhythmically and cut vegetables is educational.",
-        "myanmar": "Very fun. Even just watching the teacher move the knife rhythmically and cut vegetables is educational."
+        "my": "すごく楽しいよ。先生が包丁をリズミカルに動かして野菜を切るのを見ているだけでも勉強になるんだ。 (အဓိပ္ပာယ်- Very fun. Even just watching the teacher move the knife rhythmically and cut vegetables is educational.)",
+        "translationMy": "すごく楽しいよ。先生が包丁をリズミカルに動かして野菜を切るのを見ているだけでも勉強になるんだ。 (အဓိပ္ပာယ်- Very fun. Even just watching the teacher move the knife rhythmically and cut vegetables is educational.)",
+        "myanmar": "すごく楽しいよ。先生が包丁をリズミカルに動かして野菜を切るのを見ているだけでも勉強になるんだ。 (အဓိပ္ပာယ်- Very fun. Even just watching the teacher move the knife rhythmically and cut vegetables is educational.)"
       },
       {
         "speaker": "高橋",
         "ja": "確かにプロの技を見るのは面白いですよね。",
         "kana": "たしかにプロのわざをみるのはおもしろいですよね。",
         "en": "Indeed, watching professional skills is fascinating.",
-        "my": "Indeed, watching professional skills is fascinating.",
-        "translationMy": "Indeed, watching professional skills is fascinating.",
-        "myanmar": "Indeed, watching professional skills is fascinating."
+        "my": "確かにプロの技を見るのは面白いですよね。 (အဓိပ္ပာယ်- Indeed, watching professional skills is fascinating.)",
+        "translationMy": "確かにプロの技を見るのは面白いですよね。 (အဓိပ္ပာယ်- Indeed, watching professional skills is fascinating.)",
+        "myanmar": "確かにプロの技を見るのは面白いですよね。 (အဓိပ္ပာယ်- Indeed, watching professional skills is fascinating.)"
       },
       {
         "speaker": "吉岡",
         "ja": "昨日、出汁の取り方を覚えたことを家族に伝えたら、今度作ってほしいって喜んでくれたよ。",
         "kana": "きのう、だしのとりかたをおぼえたことをかぞくにつたえたら、こんどつくってほしいってよろこんでくれたよ。",
         "en": "Yesterday when I conveyed to my family that I learned how to make dashi soup stock, they were delighted and said they want me to cook it next time.",
-        "my": "Yesterday when I conveyed to my family that I learned how to make dashi soup stock, they were delighted and said they want me to cook it next time.",
-        "translationMy": "Yesterday when I conveyed to my family that I learned how to make dashi soup stock, they were delighted and said they want me to cook it next time.",
-        "myanmar": "Yesterday when I conveyed to my family that I learned how to make dashi soup stock, they were delighted and said they want me to cook it next time."
+        "my": "ဝမ်းသာအားရ ကူညီပေးပါ့မယ်ခင်ဗျာ။",
+        "translationMy": "ဝမ်းသာအားရ ကူညီပေးပါ့မယ်ခင်ဗျာ။",
+        "myanmar": "ဝမ်းသာအားရ ကူညီပေးပါ့မယ်ခင်ဗျာ။"
       },
       {
         "speaker": "高橋",
         "ja": "美味しそうですね。今度先輩が料理を作るのを、私もぜひ食べてみたいです！",
         "kana": "おいしそうですね。こんどせんぱいがりょうりをつくるのを、わたしもぜひたべてみたいです！",
         "en": "That sounds delicious. Next time you cook dishes, I definitely want to try eating them too!",
-        "my": "That sounds delicious. Next time you cook dishes, I definitely want to try eating them too!",
-        "translationMy": "That sounds delicious. Next time you cook dishes, I definitely want to try eating them too!",
-        "myanmar": "That sounds delicious. Next time you cook dishes, I definitely want to try eating them too!"
+        "my": "美味しそうですね。今度先輩が料理を作るのを、私もぜひ食べてみたいです！ (အဓိပ္ပာယ်- That sounds delicious. Next time you cook dishes, I definitely want to try eating them too!)",
+        "translationMy": "美味しそうですね。今度先輩が料理を作るのを、私もぜひ食べてみたいです！ (အဓိပ္ပာယ်- That sounds delicious. Next time you cook dishes, I definitely want to try eating them too!)",
+        "myanmar": "美味しそうですね。今度先輩が料理を作るのを、私もぜひ食べてみたいです！ (အဓိပ္ပာယ်- That sounds delicious. Next time you cook dishes, I definitely want to try eating them too!)"
       }
     ],
     "questionIds": [
@@ -1718,7 +1718,7 @@
     },
     "titleMy": "週末の趣味と料理教室の話題 (နားထောင်ခြင်း)",
     "titleMyanmar": "週末の趣味と料理教室の話題 (နားထောင်ခြင်း)",
-    "translationMy": "Takahashi: Yoshioka-senpai, your boxed bento lunches have been very deluxe lately! Did you start cooking at home?\nYoshioka: Yeah. My current hobby is challenging new Japanese food recipes on weekends.\nTakahashi: Wow, that's wonderful! Is learning cooking fun?\nYoshioka: Very fun. Even just watching the teacher rhythmically move the kitchen knife and cut vegetables is educational.\nTakahashi: Truly, watching professional techniques is fascinating.\nYoshioka: Yesterday, when I conveyed to my family that I learned how to prepare dashi broth, they were delighted and asked me to cook it next time.\nTakahashi: Sounds delicious! Next time you make dishes, I definitely want to try eating them too!"
+    "translationMy": "高橋- 吉岡先輩、最近お弁当がとても豪華ですね！自炊を始めたんですか？ (အဓိပ္ပာယ်- Yoshioka-senpai, your bento lunch has been very deluxe lately! Did you start cooking for yourself?)\n吉岡- うん。私の今の趣味は、週末に新しい和食のレシピに挑戦することなんだ。 (အဓိပ္ပာယ်- Yeah. My current hobby right now is challenging new Japanese cuisine recipes on weekends.)\n高橋- へえ、素敵ですね！料理を習うのは楽しいですか？ (အဓိပ္ပာယ်- Wow, that’s great! Is learning cooking fun?)\n吉岡- すごく楽しいよ。先生が包丁をリズミカルに動かして野菜を切るのを見ているだけでも勉強になるんだ。 (အဓိပ္ပာယ်- Very fun. Even just watching the teacher move the knife rhythmically and cut vegetables is educational.)\n高橋- 確かにプロの技を見るのは面白いですよね。 (အဓိပ္ပာယ်- Indeed, watching professional skills is fascinating.)\n吉岡- ဝမ်းသာအားရ ကူညီပေးပါ့မယ်ခင်ဗျာ။\n高橋- 美味しそうですね。今度先輩が料理を作るのを、私もぜひ食べてみたいです！ (အဓိပ္ပာယ်- That sounds delicious. Next time you cook dishes, I definitely want to try eating them too!)"
   },
   "questions": [
     {
@@ -2692,6 +2692,6 @@
   },
   "titleMy": "N4 Lesson 32: Nominalization: 〜の vs 〜こと (名詞化の使い分け: 見るの・知ること・趣味は〜こと) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 32: Nominalization: 〜の vs 〜こと (名詞化の使い分け: 見るの・知ること・趣味は〜こと) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 32: Nominalization: 〜の vs 〜こと (名詞化の使い分け: 見るの・知ること・趣味は〜こと) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "နာမ်အဖြစ် ပြောင်းလဲအသုံးပြုခြင်း (名詞化の使い分け: 〜の vs 〜こと) ဆိုင်ရာ အဓိက သဒ္ဒါစည်းမျဉ်းများ။",
   "descriptionMyanmar": "N4 Lesson 32: Nominalization: 〜の vs 〜こと (名詞化の使い分け: 見るの・知ること・趣味は〜こと) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

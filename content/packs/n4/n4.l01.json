@@ -44,8 +44,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l01.v002",
@@ -76,8 +76,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "nakadaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l01.v003",
@@ -108,8 +108,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "odaka",
-      "dropIndex": 2
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l01.v004",
@@ -173,8 +173,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l01.v006",
@@ -203,8 +203,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l01.v007",
@@ -233,8 +233,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "nakadaka",
+      "dropIndex": 3
     },
     {
       "id": "n4.l01.v008",
@@ -353,8 +353,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "odaka",
+      "dropIndex": 3
     },
     {
       "id": "n4.l01.v012",
@@ -956,7 +956,7 @@
           "meaning": "loud voice",
           "preview": false,
           "meaningMyanmar": "loud voice",
-          "meaningMy": "loud voice"
+          "meaningMy": "ကျယ်လောင်သောအသံ"
         }
       ],
       "exampleSentenceIds": [
@@ -1090,7 +1090,7 @@
           "meaning": "color",
           "preview": false,
           "meaningMyanmar": "color",
-          "meaningMy": "color"
+          "meaningMy": "အရောင်"
         },
         {
           "word": "景色",
@@ -1134,11 +1134,11 @@
       "examples": [
         {
           "sentenceId": "n4.l01.s001",
-          "note": "Example 1"
+          "note": "Example 1 (直すことができます)"
         },
         {
           "sentenceId": "n4.l01.s002",
-          "note": "Example 2"
+          "note": "Example 2 (使えますよ)"
         }
       ],
       "similarGrammarIds": [],
@@ -1156,8 +1156,8 @@
       },
       "explanationMy": "လုပ်ဆောင်နိုင်စွမ်း သို့မဟုတ် အခြေအနေအရ လုပ်နိုင်ခြင်းကို ဖော်ပြသည်။ ပုံမှန်အားဖြင့် ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို အသုံးပြုသည်။ အုပ်စု(၁) သည် u အသံမှ e အသံပြောင်းပြီး る ပေါင်းသည်။ အုပ်စု(၂) သည် る ဖြုတ်ပြီး られる ပေါင်းသည်။ အုပ်စု(၃) တွင် する→できる နှင့် くる→こられる ဖြစ်သည်။",
       "meaningMyanmar": "လုပ်ဆောင်နိုင်စွမ်း သို့မဟုတ် အခြေအနေအရ လုပ်နိုင်ခြင်းကို ဖော်ပြသည်။ ပုံမှန်အားဖြင့် ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို အသုံးပြုသည်။ အုပ်စု(၁) သည် u အသံမှ e အသံပြောင်းပြီး る ပေါင်းသည်။ အုပ်စု(၂) သည် る ဖြုတ်ပြီး られる ပေါင်းသည်။ အုပ်စု(၃) တွင် する→できる နှင့် くる→こられる ဖြစ်သည်။",
-      "meaningMy": "လုပ်ဆောင်နိုင်စွမ်း သို့မဟုတ် အခြေအနေအရ လုပ်နိုင်ခြင်းကို ဖော်ပြသည်။ ပုံမှန်အားဖြင့် ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို အသုံးပြုသည်။ အုပ်စု(၁) သည် u အသံမှ e အသံပြောင်းပြီး る ပေါင်းသည်။ အုပ်စု(၂) သည် る ဖြုတ်ပြီး られる ပေါင်းသည်။ အုပ်စု(၃) တွင် する→できる နှင့် くる→こられる ဖြစ်သည်။",
-      "nuanceExplanationMy": "[Verb Potential Form] (が 話せる / が 読める) ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "လုပ်ဆောင်နိုင်စွမ်း သို့မဟုတ် အခြေအနေအရ ပြုလုပ်နိုင်ခြင်း (စွမ်းရည်ပြ ကြိယာပုံစံ)",
+      "nuanceExplanationMy": "[Verb Potential Form] (が 話せる / が 読める) ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- စကားပြောတွင် ら ကို ဖြုတ်၍ပြောလေ့ရှိသော်လည်း စာမေးပွဲတွင် られる ပုံစံကိုသာ မှန်ကန်စွာ သုံးရပါမည်။"
     },
     {
       "id": "n4.l01.g002",
@@ -1171,12 +1171,12 @@
       },
       "examples": [
         {
-          "sentenceId": "n4.l01.s001",
-          "note": "Example 1"
+          "sentenceId": "n4.l01.s003",
+          "note": "Example 1 (声が聞こえます)"
         },
         {
-          "sentenceId": "n4.l01.s002",
-          "note": "Example 2"
+          "sentenceId": "n4.l01.s005",
+          "note": "Example 2 (景色がはっきり見えます)"
         }
       ],
       "similarGrammarIds": [],
@@ -1194,8 +1194,8 @@
       },
       "explanationMy": "見える နှင့် 聞こえる သည် အားထုတ်မှုမပါဘဲ သဘာဝအလျောက် မျက်စိထဲမြင်ရခြင်း သို့မဟုတ် နားထဲကြားရခြင်းကို ဖော်ပြသည်။ 見られる နှင့် 聞ける မှာမူ အချိန်ရှိခြင်း သို့မဟုတ် ခွင့်ပြုချက်ရှိ၍ ရည်ရွယ်ချက်ရှိရှိ ကြည့်ရှုနိုင်ခြင်း သို့မဟုတ် နားထောင်နိုင်ခြင်းကို ဖော်ပြသည်။",
       "meaningMyanmar": "見える နှင့် 聞こえる သည် အားထုတ်မှုမပါဘဲ သဘာဝအလျောက် မျက်စိထဲမြင်ရခြင်း သို့မဟုတ် နားထဲကြားရခြင်းကို ဖော်ပြသည်။ 見られる နှင့် 聞ける မှာမူ အချိန်ရှိခြင်း သို့မဟုတ် ခွင့်ပြုချက်ရှိ၍ ရည်ရွယ်ချက်ရှိရှိ ကြည့်ရှုနိုင်ခြင်း သို့မဟုတ် နားထောင်နိုင်ခြင်းကို ဖော်ပြသည်။",
-      "meaningMy": "見える နှင့် 聞こえる သည် အားထုတ်မှုမပါဘဲ သဘာဝအလျောက် မျက်စိထဲမြင်ရခြင်း သို့မဟုတ် နားထဲကြားရခြင်းကို ဖော်ပြသည်။ 見られる နှင့် 聞ける မှာမူ အချိန်ရှိခြင်း သို့မဟုတ် ခွင့်ပြုချက်ရှိ၍ ရည်ရွယ်ချက်ရှိရှိ ကြည့်ရှုနိုင်ခြင်း သို့မဟုတ် နားထောင်နိုင်ခြင်းကို ဖော်ပြသည်။",
-      "nuanceExplanationMy": "〜が 見える / 〜が 聞こえる ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "သဘာဝအလျောက် အမြင်နှင့် အကြားအာရုံထဲသို့ ရောက်ရှိလာခြင်း (မြင်ရသည် / ကြားရသည်)",
+      "nuanceExplanationMy": "〜が 見える / 〜が 聞こえる ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     }
   ],
   "sentences": [
@@ -1299,7 +1299,7 @@
         "n4.l01.v003"
       ],
       "grammarIds": [
-        "n4.l01.g001"
+        "n4.l01.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1328,7 +1328,7 @@
         "n4.l01.v004"
       ],
       "grammarIds": [
-        "n4.l01.g001"
+        "n4.l01.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1358,7 +1358,7 @@
         "n4.l01.v007"
       ],
       "grammarIds": [
-        "n4.l01.g001"
+        "n4.l01.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1388,7 +1388,7 @@
         "n4.l01.v006"
       ],
       "grammarIds": [
-        "n4.l01.g001"
+        "n4.l01.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1418,7 +1418,7 @@
         "n4.l01.v008"
       ],
       "grammarIds": [
-        "n4.l01.g001"
+        "n4.l01.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1528,7 +1528,7 @@
     "title": "海が見える新しい町での暮らし (Life in a New Seaside Town)",
     "level": "N4",
     "text": "先月、海の近くの新しいマンションに引っ越しました。この町は自然が豊かで、とても静かな環境です。部屋のベランダに出ると、青い海と美しい景色がはっきり見えます。朝早く窓を開けると、心地よい波の音や鳥の声が聞こえて、毎日とても気持ちよく起きられます。\n\nまた、生活も思ったより便利です。先週、駅の近くに大きなスーパーが建ちました。そこでは新鮮な魚や野菜が安く買えますし、日用品や生活の道具も何でもそろいます。町の中には広い公園もあって、週末には住民が自由に散歩を楽しめます。\n\n以前住んでいた都会ではビルばかりで空が狭く感じられましたが、ここでは広い海と山が見渡せます。日本語学校の友達を部屋に招待して、この素晴らしい景色を見せてあげたいと思っています。",
-    "kanaText": "先月、海の近くの新しいマンションに引っ越しました。この町は自然が豊かで、とても静かな環境です。部屋のベランダに出ると、青い海と美しい景色がはっきり見えます。朝早く窓を開けると、心地よい波の音や鳥の声が聞こえて、毎日とても気持ちよく起きられます。\n\nまた、生活も思ったより便利です。先週、駅の近くに大きなスーパーが建ちました。そこでは新鮮な魚や野菜が安く買えますし、日用品や生活の道具も何でもそろいます。町の中には広い公園もあって、週末には住民が自由に散歩を楽しめます。\n\n以前住んでいた都会ではビルばかりで空が狭く感じられましたが、ここでは広い海と山が見渡せます。日本語学校の友達を部屋に招待して、この素晴らしい景色を見せてあげたいと思っています。",
+    "kanaText": "せんげつ、うみのちかくのあたらしいマンションにひっこしました。このまちはしぜんがゆたかで、とてもしずかなかんきょうです。へやのベランダにでると、あおいうみとうつくしいけしきがはっきりみえます。あさはやくまどをあけると、ここちよいなみのおとやとりのこえがきこえて、まいにちとてもきもちよくおきられます。\n\nまた、せいかつもおもったよりべんりです。せんしゅう、えきのちかくにおおきなスーパーがたちました。そこではしんせんなさかなややさいがやすくかえますし、にちようひんやせいかつのどうぐもなんでもそろいます。まちのなかにはひろいこうえんもあって、しゅうまつにはじゅうみんがじゆうにさんぽをたのしめます。\n\nいぜんすんでいたとかいではビルばかりでそらがせまくかんじられましたが、ここではひろいうみとやまがみわたせます。にほんごがっこうのともだちをへやにしょうたいして、このすばらしいけしきをみせてあげたいとおもっています。",
     "translation": "Last month, I moved into a new apartment near the sea. This town is rich in nature and has a very peaceful environment. When I step out onto the room balcony, the blue ocean and beautiful scenery can be seen clearly. Opening the window early in the morning, the pleasant sound of waves and birds' voices can be heard, allowing me to wake up feeling refreshed every day.\n\nDaily life is also more convenient than expected. Last week, a large supermarket was built near the station. Fresh fish and vegetables can be bought cheaply there, and everyday goods and tools are readily available. There is also a spacious park in town where residents can freely enjoy strolls on weekends.\n\nIn the city where I lived previously, there were only tall buildings and the sky felt narrow, but here one can look out over the wide sea and mountains. I would like to invite my Japanese language school friends over to show them this wonderful view.",
     "questionIds": [
       "n4.l01.q021",
@@ -1548,7 +1548,7 @@
     },
     "titleMy": "海が見える新しい町での暮らし (Life in a New Seaside Town) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "海が見える新しい町での暮らし (Life in a New Seaside Town) (ဖတ်ရှုခြင်း)",
-    "translationMy": "Last month, I moved into a new apartment near the sea. This town is rich in nature and has a very peaceful environment. When I step out onto the room balcony, the blue ocean and beautiful scenery can be seen clearly. Opening the window early in the morning, the pleasant sound of waves and birds' voices can be heard, allowing me to wake up feeling refreshed every day.\n\nDaily life is also more convenient than expected. Last week, a large supermarket was built near the station. Fresh fish and vegetables can be bought cheaply there, and everyday goods and tools are readily available. There is also a spacious park in town where residents can freely enjoy strolls on weekends.\n\nIn the city where I lived previously, there were only tall buildings and the sky felt narrow, but here one can look out over the wide sea and mountains. I would like to invite my Japanese language school friends over to show them this wonderful view."
+    "translationMy": "ပြီးခဲ့သည့်လက ပင်လယ်အနီးရှိ တိုက်ခန်းအသစ်သို့ ပြောင်းရွှေ့နေထိုင်ခဲ့ပါသည်။ ဤမြို့သည် သဘာဝပတ်ဝန်းကျင် သာယာလှပပြီး အလွန်အေးချမ်းတိတ်ဆိတ်သော နေရာဖြစ်ပါသည်။ အခန်းဝရန်တာသို့ ထွက်လိုက်ပါက အပြာရောင်ပင်လယ်ပြင်နှင့် လှပသောရှုခင်းကို ရှင်းလင်းစွာ မြင်တွေ့နိုင်ပါသည်။ နံနက်စောစော ပြတင်းပေါက်ကို ဖွင့်လိုက်ပါက သာယာငြိမ့်ညောင်းသော လှိုင်းသံနှင့် ငှက်ကလေးများ၏ တွန်ကျူးသံကို ကြားရပြီး နေ့စဉ် စိတ်လက်ပေါ့ပါးလန်းဆန်းစွာ နိုးထနိုင်ပါသည်။\n\nထို့အပြင် နေထိုင်မှုဘဝသည်လည်း ထင်ထားသည်ထက် ပိုမိုအဆင်ပြေပါသည်။ ပြီးခဲ့သည့်အပတ်က ဘူတာအနီးတွင် ကြီးမားသော စူပါမားကတ်တစ်ခု တည်ဆောက်ဖွင့်လှစ်ခဲ့ပါသည်။ ထိုနေရာတွင် လတ်ဆတ်သော ငါးနှင့် ဟင်းသီးဟင်းရွက်များကို ဈေးသက်သာစွာ ဝယ်ယူနိုင်သည့်အပြင် လူသုံးကုန်ပစ္စည်းများနှင့် နေ့စဉ်သုံး ကိရိယာတန်ဆာပလာ အစုံအလင်ကိုလည်း ရရှိနိုင်ပါသည်။ မြို့တွင်းတွင် ကျယ်ဝန်းသော ပန်းခြံလည်းရှိရာ သီတင်းပတ်ကုန်ရက်များ၌ မြို့ခံပြည်သူများ လွတ်လပ်စွာ လမ်းလျှောက်အပန်းဖြေနိုင်ကြပါသည်။\n\nယခင်နေထိုင်ခဲ့သော မြို့ပြကြီးတွင်မူ အထပ်မြင့်တိုက်တာများသာ ပြည့်နှက်နေသဖြင့် ကောင်းကင်ကြီး ကျဉ်းမြောင်းသည်ဟု ခံစားခဲ့ရသော်လည်း ဤနေရာတွင်မူ ကျယ်ပြောလှသော ပင်လယ်နှင့် တောင်တန်းကြီးများကို တစ်ပြိုင်နက် မြင်တွေ့နိုင်ပါသည်။ ဂျပန်စာသင်တန်းကျောင်းမှ သူငယ်ချင်းများကို အခန်းသို့ ဖိတ်ခေါ်ပြီး ဤခမ်းနားလှပသော ရှုခင်းကြီးကို ပြသလိုပါသည်ဟု စဉ်းစားထားပါသည်။"
   },
   "listening": {
     "id": "n4.l01.l01",
@@ -1560,12 +1560,103 @@
       "lang": "ja-JP"
     },
     "speakers": [
-      "A",
-      "B"
+      "受付",
+      "スミス"
     ],
     "transcript": "受付：はい、富士見ホテルでございます。\nスミス：すみません、来週の土曜日に一泊で予約したいんですが、部屋は空いていますか。\n受付：はい、禁煙のツインルームでしたら、まだご用意できますよ。\nスミス：その部屋から富士山は見えますか。海側の部屋でしょうか。\n受付：はい、天気がよければ、お部屋のベランダから富士山の雄大な景色がはっきり見えますよ。\nスミス：素晴らしいですね！それから、ホテルの中でWi-Fiは自由に使えますか。\n受付：はい、館内のどこでも無料で自由にご利用いただけます。\nスミス：わかりました。外国人の友達も一緒なんですが、英語が話せるスタッフはいらっしゃいますか。\n受付：はい、フロントには英語や中国語が話せるスタッフが24時間おりますので、ご安心ください。\nスミス：安心しました。それでは、その部屋で予約をお願いします。",
     "translation": "Front Desk: Hello, this is Fujimi Hotel.\nSmith: Excuse me, I would like to book a one-night stay for next Saturday. Do you have any rooms available?\nFront Desk: Yes, if a non-smoking twin room is suitable, we still have availability.\nSmith: Can Mt. Fuji be seen from that room? Is it on the ocean side?\nFront Desk: Yes, if the weather is good, the magnificent view of Mt. Fuji can be seen clearly from the balcony.\nSmith: Wonderful! Also, can we use Wi-Fi freely in the hotel?\nFront Desk: Yes, free Wi-Fi is available anywhere in the building.\nSmith: I see. My foreign friend is also accompanying me; is there staff who can speak English?\nFront Desk: Yes, we have staff at the front desk 24 hours a day who can speak English and Chinese, so please rest assured.\nSmith: That is reassuring. In that case, please reserve that room for me.",
-    "turns": [],
+    "turns": [
+      {
+        "speaker": "受付",
+        "ja": "はい、富士見ホテルでございます。",
+        "kana": "はい、ふじみホテルでございます。",
+        "en": "Hello, this is Fujimi Hotel.",
+        "my": "ဟုတ်ကဲ့ပါ၊ ဖူဂျီမိဟိုတယ်မှ ကြိုဆိုပါသည်ခင်ဗျာ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ၊ ဖူဂျီမိဟိုတယ်မှ ကြိုဆိုပါသည်ခင်ဗျာ။",
+        "translationMy": "ဟုတ်ကဲ့ပါ၊ ဖူဂျီမိဟိုတယ်မှ ကြိုဆိုပါသည်ခင်ဗျာ။"
+      },
+      {
+        "speaker": "スミス",
+        "ja": "すみません、来週の土曜日に一泊で予約したいんですが、部屋は空いていますか。",
+        "kana": "すみません、らいしゅうのどようびにいっぱくでよやくしたいんですが、へやはあいていますか。",
+        "en": "Excuse me, I would like to book a one-night stay for next Saturday. Are there any rooms available?",
+        "my": "အားနာပေမယ့် လာမယ့်စနေနေ့မှာ တစ်ညအိပ် ကြိုတင်ဘိုကင်တင်ချင်လို့ပါ၊ အခန်းလွတ်ရှိပါသလားခင်ဗျာ။",
+        "myanmar": "အားနာပေမယ့် လာမယ့်စနေနေ့မှာ တစ်ညအိပ် ကြိုတင်ဘိုကင်တင်ချင်လို့ပါ၊ အခန်းလွတ်ရှိပါသလားခင်ဗျာ။",
+        "translationMy": "အားနာပေမယ့် လာမယ့်စနေနေ့မှာ တစ်ညအိပ် ကြိုတင်ဘိုကင်တင်ချင်လို့ပါ၊ အခန်းလွတ်ရှိပါသလားခင်ဗျာ။"
+      },
+      {
+        "speaker": "受付",
+        "ja": "はい、禁煙のツインルームでしたら、まだご用意できますよ。",
+        "kana": "はい、きんえんのツインルームでしたら、まだごよういできますよ。",
+        "en": "Yes, if it is a non-smoking twin room, we can still prepare one for you.",
+        "my": "ဟုတ်ကဲ့ပါ၊ ဆေးလိပ်မသောက်ရ အိပ်ရာနှစ်လုံးတွဲအခန်း ဆိုရင်တော့ ပြင်ဆင်ပေးနိုင်ပါသေးတယ်ခင်ဗျာ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ၊ ဆေးလိပ်မသောက်ရ အိပ်ရာနှစ်လုံးတွဲအခန်း ဆိုရင်တော့ ပြင်ဆင်ပေးနိုင်ပါသေးတယ်ခင်ဗျာ။",
+        "translationMy": "ဟုတ်ကဲ့ပါ၊ ဆေးလိပ်မသောက်ရ အိပ်ရာနှစ်လုံးတွဲအခန်း ဆိုရင်တော့ ပြင်ဆင်ပေးနိုင်ပါသေးတယ်ခင်ဗျာ။"
+      },
+      {
+        "speaker": "スミス",
+        "ja": "その部屋から富士山は見えますか。海側の部屋でしょうか。",
+        "kana": "そのへやからふじさんはみえますか。うみがわのへやでしょうか。",
+        "en": "Can Mt. Fuji be seen from that room? Is it on the ocean side?",
+        "my": "အဲဒီအခန်းကနေ ဖူဂျီတောင်ကို မြင်ရပါသလားခင်ဗျာ။ ပင်လယ်ဘက်လှည့်အခန်း ဖြစ်ပါသလား။",
+        "myanmar": "အဲဒီအခန်းကနေ ဖူဂျီတောင်ကို မြင်ရပါသလားခင်ဗျာ။ ပင်လယ်ဘက်လှည့်အခန်း ဖြစ်ပါသလား။",
+        "translationMy": "အဲဒီအခန်းကနေ ဖူဂျီတောင်ကို မြင်ရပါသလားခင်ဗျာ။ ပင်လယ်ဘက်လှည့်အခန်း ဖြစ်ပါသလား။"
+      },
+      {
+        "speaker": "受付",
+        "ja": "はい、天気がよければ、お部屋のベランダから富士山の雄大な景色がはっきり見えますよ。",
+        "kana": "はい、てんきがよければ、おへやのベランダからふじさんのゆうだいなけしきがはっきりみえますよ。",
+        "en": "Yes, if the weather is good, you can clearly see the magnificent view of Mt. Fuji from your room balcony.",
+        "my": "ဟုတ်ကဲ့ပါ၊ ရာသီဥတုသာယာရင် အခန်းဝရန်တာကနေ ဖူဂျီတောင်ရဲ့ ခမ်းနားတဲ့ရှုခင်းကို ရှင်းရှင်းလင်းလင်း မြင်တွေ့နိုင်ပါတယ်ခင်ဗျာ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ၊ ရာသီဥတုသာယာရင် အခန်းဝရန်တာကနေ ဖူဂျီတောင်ရဲ့ ခမ်းနားတဲ့ရှုခင်းကို ရှင်းရှင်းလင်းလင်း မြင်တွေ့နိုင်ပါတယ်ခင်ဗျာ။",
+        "translationMy": "ဟုတ်ကဲ့ပါ၊ ရာသီဥတုသာယာရင် အခန်းဝရန်တာကနေ ဖူဂျီတောင်ရဲ့ ခမ်းနားတဲ့ရှုခင်းကို ရှင်းရှင်းလင်းလင်း မြင်တွေ့နိုင်ပါတယ်ခင်ဗျာ။"
+      },
+      {
+        "speaker": "スミス",
+        "ja": "素晴らしいですね！それから、ホテルの中でWi-Fiは自由に使えますか。",
+        "kana": "すばらしいですね！それから、ホテルのなかでワイファイはじゆうにつかえますか。",
+        "en": "That is wonderful! Also, can we use Wi-Fi freely in the hotel?",
+        "my": "သိပ်ကောင်းတာပေါ့ဗျာ။ ပြီးတော့ ဟိုတယ်အတွင်းမှာ Wi-Fi ကို လွတ်လပ်စွာ အသုံးပြုနိုင်ပါသလား။",
+        "myanmar": "သိပ်ကောင်းတာပေါ့ဗျာ။ ပြီးတော့ ဟိုတယ်အတွင်းမှာ Wi-Fi ကို လွတ်လပ်စွာ အသုံးပြုနိုင်ပါသလား။",
+        "translationMy": "သိပ်ကောင်းတာပေါ့ဗျာ။ ပြီးတော့ ဟိုတယ်အတွင်းမှာ Wi-Fi ကို လွတ်လပ်စွာ အသုံးပြုနိုင်ပါသလား။"
+      },
+      {
+        "speaker": "受付",
+        "ja": "はい、館内のどこでも無料で自由にご利用いただけます。",
+        "kana": "はい、かんないのどこでもむりょうでじゆうにごりよういただけます。",
+        "en": "Yes, free Wi-Fi is available anywhere in the building.",
+        "my": "ဟုတ်ကဲ့ပါ၊ ဟိုတယ်အဆောက်အအုံအတွင်း နေရာတိုင်းမှာ အခမဲ့ လွတ်လပ်စွာ အသုံးပြုနိုင်ပါတယ်ခင်ဗျာ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ၊ ဟိုတယ်အဆောက်အအုံအတွင်း နေရာတိုင်းမှာ အခမဲ့ လွတ်လပ်စွာ အသုံးပြုနိုင်ပါတယ်ခင်ဗျာ။",
+        "translationMy": "ဟုတ်ကဲ့ပါ၊ ဟိုတယ်အဆောက်အအုံအတွင်း နေရာတိုင်းမှာ အခမဲ့ လွတ်လပ်စွာ အသုံးပြုနိုင်ပါတယ်ခင်ဗျာ။"
+      },
+      {
+        "speaker": "スミス",
+        "ja": "わかりました。外国人の友達も一緒なんですが、英語が話せるスタッフはいらっしゃいますか。",
+        "kana": "わかりました。がいこくじんのともだちもいっしょなんですが、えいごがはなせるスタッフはいらっしゃいますか。",
+        "en": "Understood. A foreign friend is accompanying me; is there staff who can speak English?",
+        "my": "နားလည်ပါပြီ။ နိုင်ငံခြားသားသူငယ်ချင်းလည်း အတူတူပါလာမှာမို့ အင်္ဂလိပ်စကားပြောနိုင်တဲ့ ဝန်ထမ်းရှိပါသလားခင်ဗျာ။",
+        "myanmar": "နားလည်ပါပြီ။ နိုင်ငံခြားသားသူငယ်ချင်းလည်း အတူတူပါလာမှာမို့ အင်္ဂလိပ်စကားပြောနိုင်တဲ့ ဝန်ထမ်းရှိပါသလားခင်ဗျာ။",
+        "translationMy": "နားလည်ပါပြီ။ နိုင်ငံခြားသားသူငယ်ချင်းလည်း အတူတူပါလာမှာမို့ အင်္ဂလိပ်စကားပြောနိုင်တဲ့ ဝန်ထမ်းရှိပါသလားခင်ဗျာ။"
+      },
+      {
+        "speaker": "受付",
+        "ja": "はい、フロントには英語や中国語が話せるスタッフが24時間おりますので、ご安心ください。",
+        "kana": "はい、フロントにはえいごやちゅうごくごがはなせるスタッフがにじゅうよじかんおりますので、ごあんしんください。",
+        "en": "Yes, we have staff at the front desk 24 hours a day who can speak English and Chinese, so please rest assured.",
+        "my": "ဟုတ်ကဲ့ပါ၊ ဧည့်ကြိုကောင်တာမှာ အင်္ဂလိပ်စာနှင့် တရုတ်စာပြောနိုင်တဲ့ ဝန်ထမ်း ၂၄ နာရီရှိနေတာမို့ စိတ်ချလက်ချ ရှိပါခင်ဗျာ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ၊ ဧည့်ကြိုကောင်တာမှာ အင်္ဂလိပ်စာနှင့် တရုတ်စာပြောနိုင်တဲ့ ဝန်ထမ်း ၂၄ နာရီရှိနေတာမို့ စိတ်ချလက်ချ ရှိပါခင်ဗျာ။",
+        "translationMy": "ဟုတ်ကဲ့ပါ၊ ဧည့်ကြိုကောင်တာမှာ အင်္ဂလိပ်စာနှင့် တရုတ်စာပြောနိုင်တဲ့ ဝန်ထမ်း ၂၄ နာရီရှိနေတာမို့ စိတ်ချလက်ချ ရှိပါခင်ဗျာ။"
+      },
+      {
+        "speaker": "スミス",
+        "ja": "安心しました。それでは、その部屋で予約をお願いします。",
+        "kana": "あんしんしました。それでは、そのへやでよやくをおねがいします。",
+        "en": "That is reassuring. In that case, please reserve that room for me.",
+        "my": "စိတ်အေးသွားပါပြီ။ ဒါဆိုရင် အဲဒီအခန်းကိုပဲ ဘိုကင်တင်ပေးပါခင်ဗျာ။",
+        "myanmar": "စိတ်အေးသွားပါပြီ။ ဒါဆိုရင် အဲဒီအခန်းကိုပဲ ဘိုကင်တင်ပေးပါခင်ဗျာ။",
+        "translationMy": "စိတ်အေးသွားပါပြီ။ ဒါဆိုရင် အဲဒီအခန်းကိုပဲ ဘိုကင်တင်ပေးပါခင်ဗျာ။"
+      }
+    ],
     "questionIds": [
       "n4.l01.q026",
       "n4.l01.q027",
@@ -1583,7 +1674,7 @@
     },
     "titleMy": "ホテル予約と富士山の眺望 (Hotel Reservation and Mt. Fuji View) (နားထောင်ခြင်း)",
     "titleMyanmar": "ホテル予約と富士山の眺望 (Hotel Reservation and Mt. Fuji View) (နားထောင်ခြင်း)",
-    "translationMy": "Front Desk: Hello, this is Fujimi Hotel.\nSmith: Excuse me, I would like to book a one-night stay for next Saturday. Do you have any rooms available?\nFront Desk: Yes, if a non-smoking twin room is suitable, we still have availability.\nSmith: Can Mt. Fuji be seen from that room? Is it on the ocean side?\nFront Desk: Yes, if the weather is good, the magnificent view of Mt. Fuji can be seen clearly from the balcony.\nSmith: Wonderful! Also, can we use Wi-Fi freely in the hotel?\nFront Desk: Yes, free Wi-Fi is available anywhere in the building.\nSmith: I see. My foreign friend is also accompanying me; is there staff who can speak English?\nFront Desk: Yes, we have staff at the front desk 24 hours a day who can speak English and Chinese, so please rest assured.\nSmith: That is reassuring. In that case, please reserve that room for me."
+    "translationMy": "ဧည့်ကြို- ဟုတ်ကဲ့ပါ၊ ဖူဂျီမိဟိုတယ်မှ ကြိုဆိုပါသည်ခင်ဗျာ။\nစမစ်- အားနာပေမယ့် လာမယ့်စနေနေ့မှာ တစ်ညအိပ် ကြိုတင်ဘိုကင်တင်ချင်လို့ပါ၊ အခန်းလွတ်ရှိပါသလားခင်ဗျာ။\nဧည့်ကြို- ဟုတ်ကဲ့ပါ၊ ဆေးလိပ်မသောက်ရ အိပ်ရာနှစ်လုံးတွဲအခန်း (twin room) ဆိုရင်တော့ ပြင်ဆင်ပေးနိုင်ပါသေးတယ်ခင်ဗျာ။\nစမစ်- အဲဒီအခန်းကနေ ဖူဂျီတောင်ကို မြင်ရပါသလားခင်ဗျာ။ ပင်လယ်ဘက်လှည့်အခန်း ဖြစ်ပါသလား။\nဧည့်ကြို- ဟုတ်ကဲ့ပါ၊ ရာသီဥတုသာယာရင် အခန်းဝရန်တာကနေ ဖူဂျီတောင်ရဲ့ ခမ်းနားတဲ့ရှုခင်းကို ရှင်းရှင်းလင်းလင်း မြင်တွေ့နိုင်ပါတယ်ခင်ဗျာ။\nစမစ်- သိပ်ကောင်းတာပေါ့ဗျာ။ ပြီးတော့ ဟိုတယ်အတွင်းမှာ Wi-Fi ကို လွတ်လပ်စွာ အသုံးပြုနိုင်ပါသလား။\nဧည့်ကြို- ဟုတ်ကဲ့ပါ၊ ဟိုတယ်အဆောက်အအုံအတွင်း နေရာတိုင်းမှာ အခမဲ့ လွတ်လပ်စွာ အသုံးပြုနိုင်ပါတယ်ခင်ဗျာ။\nစမစ်- နားလည်ပါပြီ။ နိုင်ငံခြားသားသူငယ်ချင်းလည်း အတူတူပါလာမှာမို့ အင်္ဂလိပ်စကားပြောနိုင်တဲ့ ဝန်ထမ်းရှိပါသလားခင်ဗျာ။\nဧည့်ကြို- ဟုတ်ကဲ့ပါ၊ ဧည့်ကြိုကောင်တာမှာ အင်္ဂလိပ်စာနှင့် တရုတ်စာပြောနိုင်တဲ့ ဝန်ထမ်း ၂၄ နာရီရှိနေတာမို့ စိတ်ချလက်ချ ရှိပါခင်ဗျာ။\nစမစ်- စိတ်အေးသွားပါပြီ။ ဒါဆိုရင် အဲဒီအခန်းကိုပဲ ဘိုကင်တင်ပေးပါခင်ဗျာ။"
   },
   "questions": [
     {
@@ -1674,7 +1765,7 @@
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「はっきり」 ဖြစ်ပါသည်။ (はっきり means \"clearly / distinctly\".)",
+      "explanationMy": "အဖြေမှန်မှာ 「はっきり」 ဖြစ်ပါသည်။ (はっきり သည် \"clearly / distinctly\". ဟု အဓိပ္ပာယ်ရပါသည်)",
       "choicesMy": [
         "はっきり",
         "うっかり",
@@ -1706,7 +1797,7 @@
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「道具」 ဖြစ်ပါသည်။ (道具 (どうぐ) means tools or implements.)",
+      "explanationMy": "အဖြေမှန်မှာ 「道具」 ဖြစ်ပါသည်။ (道具 (どうぐ) သည် ကိရိယာ သို့မဟုတ် တန်ဆာပလာဟု အဓိပ္ပာယ်ရပါသည်။)",
       "choicesMy": [
         "道具",
         "案内",
@@ -1770,7 +1861,7 @@
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
-      "explanationMy": "自由に (じゆうに) ၏ အဓိပ္ပာယ်မှာ \"freely / at liberty\" ဖြစ်ပါသည်။",
+      "explanationMy": "自由に (じゆうに) ၏ အဓိပ္ပာယ်မှာ \"လွတ်လပ်စွာ / မိမိစိတ်ကြိုက်\" ဖြစ်ပါသည်။",
       "choicesMy": [
         "自由に",
         "親切に",
@@ -2283,7 +2374,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「青い海と美しい景色」 ဖြစ်ပါသည်။ (The text states: 部屋のベランダに出ると、青い海と美しい景色がはっきり見えます.)",
+      "explanationMy": "အဖြေမှန်မှာ 「青い海と美しい景色」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"部屋のベランダに出ると、青い海と美しい景色がはっきり見えます.\")",
       "choicesMy": [
         "青い海と美しい景色",
         "高いビルと狭い空",
@@ -2315,7 +2406,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「波の音や鳥の声」 ဖြစ်ပါသည်။ (The text says: 心地よい波の音や鳥の声が聞こえて、毎日とても気持ちよく起きられます.)",
+      "explanationMy": "အဖြေမှန်မှာ 「波の音や鳥の声」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"心地よい波の音や鳥の声が聞こえて、毎日とても気持ちよく起きられます.\")",
       "choicesMy": [
         "波の音や鳥の声",
         "電車の大きな音",
@@ -2347,7 +2438,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「大きなスーパー」 ဖြစ်ပါသည်။ (The text states: 先週、駅の近くに大きなスーパーが建ちました.)",
+      "explanationMy": "အဖြေမှန်မှာ 「大きなスーパー」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"先週、駅の近くに大きなスーパーが建ちました.\")",
       "choicesMy": [
         "大きなスーパー",
         "日本語学校",
@@ -2411,7 +2502,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「来週の土曜日」 ဖြစ်ပါသည်။ (Smith says: 来週の土曜日に一泊で予約したいんですが.)",
+      "explanationMy": "အဖြေမှန်မှာ 「来週の土曜日」 ဖြစ်ပါသည်။ (စမစ်က ပြောကြားသည်မှာ- \"来週の土曜日に一泊で予約したいんですが.\")",
       "choicesMy": [
         "来週の土曜日",
         "今週の日曜日",
@@ -2443,7 +2534,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「富士山の景色」 ဖြစ်ပါသည်။ (The staff replies: 天気がよければ、お部屋のベランダから富士山の雄大な景色がはっきり見えますよ.)",
+      "explanationMy": "အဖြေမှန်မှာ 「富士山の景色」 ဖြစ်ပါသည်။ (ဝန်ထမ်းက ဖြေကြားသည်မှာ- \"天気がよければ、お部屋のベランダから富士山の雄大な景色がはっきり見えますよ.\")",
       "choicesMy": [
         "富士山の景色",
         "東京タワー",
@@ -2475,7 +2566,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「館内のどこでも無料で自由に使える」 ဖြစ်ပါသည်။ (The receptionist says: 館内のどこでも無料で自由にご利用いただけます.)",
+      "explanationMy": "အဖြေမှန်မှာ 「館内のどこでも無料で自由に使える」 ဖြစ်ပါသည်။ (ဧည့်ကြိုက ပြောကြားသည်မှာ- \"館内のどこでも無料で自由にご利用いただけます.\")",
       "choicesMy": [
         "館内のどこでも無料で自由に使える",
         "ロビーでのみ有料で使える",
@@ -2557,6 +2648,6 @@
   },
   "titleMy": "N4 Lesson 1: Potential Form (可能形: 読める・話せる / 見える・聞こえる) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 1: Potential Form (可能形: 読める・話せる / 見える・聞こえる) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 1: Potential Form (可能形: 読める・話せる / 見える・聞こえる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "လုပ်ဆောင်နိုင်စွမ်း (စွမ်းရည်) နှင့် အခြေအနေအရ ဖြစ်ပေါ်လာသော အမြင်/အကြား (見える/聞こえる vs 見られる/聞ける) ဆိုင်ရာ အဓိက သဒ္ဒါနှင့် ဝေါဟာရများကို ကျွမ်းကျင်စွာ လေ့လာသင်ယူခြင်း။",
   "descriptionMyanmar": "N4 Lesson 1: Potential Form (可能形: 読める・話せる / 見える・聞こえる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

@@ -955,7 +955,7 @@
           "meaning": "destruction",
           "preview": false,
           "meaningMyanmar": "destruction",
-          "meaningMy": "destruction"
+          "meaningMy": "ဖျက်ဆီးခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1015,7 +1015,7 @@
           "meaning": "rate; ratio",
           "preview": false,
           "meaningMyanmar": "rate; ratio",
-          "meaningMy": "rate; ratio"
+          "meaningMy": "အချိုးအစား"
         }
       ],
       "exampleSentenceIds": [
@@ -1063,7 +1063,7 @@
           "meaning": "plural; multiple",
           "preview": false,
           "meaningMyanmar": "plural; multiple",
-          "meaningMy": "plural; multiple"
+          "meaningMy": "တစ်ခုထက်ပိုသော (အများကိန်း)"
         }
       ],
       "exampleSentenceIds": [
@@ -1178,7 +1178,7 @@
       "explanationMy": "ကြိယာ၊ နာမဝိသေသနများ၏ နောက်တွင်တွဲ၍ \"လွန်လွန်းသည်/လွန်ကဲသည်\" ဟူသော သင့်တင့်သောအဆင့်ထက် ကျော်လွန်နေမှုကို ဖော်ပြသည်။",
       "meaningMyanmar": "ကြိယာ၊ နာမဝိသေသနများ၏ နောက်တွင်တွဲ၍ \"လွန်လွန်းသည်/လွန်ကဲသည်\" ဟူသော သင့်တင့်သောအဆင့်ထက် ကျော်လွန်နေမှုကို ဖော်ပြသည်။",
       "meaningMy": "ကြိယာ၊ နာမဝိသေသနများ၏ နောက်တွင်တွဲ၍ \"လွန်လွန်းသည်/လွန်ကဲသည်\" ဟူသော သင့်တင့်သောအဆင့်ထက် ကျော်လွန်နေမှုကို ဖော်ပြသည်။",
-      "nuanceExplanationMy": "[Verb ます-stem / i-adj stem / na-adj stem] + すぎる ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "nuanceExplanationMy": "[Verb ます-stem / i-adj stem / na-adj stem] + すぎる ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l18.g002",
@@ -1215,8 +1215,8 @@
       },
       "explanationMy": "ကြိယာ ます ဖြုတ်ပြီး やすい တွဲပါက \"ပြုလုပ်ရလွယ်ကူသည်\" သို့မဟုတ် \"ဖြစ်လွယ်သည်\" ဖြစ်ပြီး၊ にくい တွဲပါက \"ပြုလုပ်ရခက်ခဲသည်\" သို့မဟုတ် \"ဖြစ်ခဲသည်\" ဟု အဓိပ္ပာယ်ရသည်။ နာမဝိသေသနကဲ့သို့ ပြောင်းလဲနိုင်သည်။",
       "meaningMyanmar": "ကြိယာ ます ဖြုတ်ပြီး やすい တွဲပါက \"ပြုလုပ်ရလွယ်ကူသည်\" သို့မဟုတ် \"ဖြစ်လွယ်သည်\" ဖြစ်ပြီး၊ にくい တွဲပါက \"ပြုလုပ်ရခက်ခဲသည်\" သို့မဟုတ် \"ဖြစ်ခဲသည်\" ဟု အဓိပ္ပာယ်ရသည်။ နာမဝိသေသနကဲ့သို့ ပြောင်းလဲနိုင်သည်။",
-      "meaningMy": "ကြိယာ ます ဖြုတ်ပြီး やすい တွဲပါက \"ပြုလုပ်ရလွယ်ကူသည်\" သို့မဟုတ် \"ဖြစ်လွယ်သည်\" ဖြစ်ပြီး၊ にくい တွဲပါက \"ပြုလုပ်ရခက်ခဲသည်\" သို့မဟုတ် \"ဖြစ်ခဲသည်\" ဟု အဓိပ္ပာယ်ရသည်။ နာမဝိသေသနကဲ့သို့ ပြောင်းလဲနိုင်သည်။",
-      "nuanceExplanationMy": "[Verb ます-stem] + やすい / にくい ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ကြိယာ ます ဖြုတ်ပြီး やすい တွဲပါက \"ပြုလုပ်ရလွယ်ကူသည်\" သို့မဟုတ် \"ဖြစ်လွယ်သည်\" ဖြစ်ပြီး၊ にくい တွဲပါက \"ပြုလုပ်ရခက်ခဲသည်\" သို့မဟုတ် \"ဖြစ်ခဲသည်\" ဟု အဓိပ္ပာယ်ရသည်။",
+      "nuanceExplanationMy": "[Verb ます-stem] + やすい / にくい ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     }
   ],
   "sentences": [
@@ -1625,7 +1625,7 @@
     },
     "titleMy": "ユニバーサルデザインと使いやすさの追求 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "ユニバーサルデザインと使いやすさの追求 (ဖတ်ရှုခြင်း)",
-    "translationMy": "In recent home appliances and daily goods, the concept of \"Universal Design\" is being widely adopted. This design philosophy aims to create products that are \"easy to use and hard to mistake\" for everyone, regardless of age, nationality, or physical disability.\n\nConventional home appliances had problems where functions increased too much, creating too many buttons, or manual text was too fine and hard to read. Especially for elderly people unfamiliar with operating machinery, settings were too complicated and difficult to master.\n\nHowever, modern microwave ovens and washing machines have simplified operation panels, adopting large, easy-to-see fonts and voice guidance. Furthermore, various safety enhancements are incorporated, such as using plastic materials that are hard to crack even if dropped, or attaching handles that are non-slip even with wet hands.\n\nWhen products become excessively convenient, they can paradoxically become harder to use. Products that are intuitive and easy to handle for anyone truly enrich people's lives."
+    "translationMy": "N4 Lesson 18: Excess & Ease (〜すぎる・〜やすい・〜にくい) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l18.l01",
@@ -1646,44 +1646,65 @@
       {
         "speaker": "店員",
         "ja": "いらっしゃいませ。洗濯機をお探しでしょうか。",
-        "kana": "いらっしゃいませ。洗濯機をお探しでしょうか。",
-        "en": ""
+        "kana": "いらっしゃいませ。せんたくきをおさがしですか。",
+        "en": "Welcome. Are you looking for a washing machine?",
+        "my": "ကြိုဆိုပါတယ်ခင်ဗျာ။ အဝတ်လျှော်စက် ရှာဖွေနေပါသလားခင်ဗျာ။",
+        "myanmar": "ကြိုဆိုပါတယ်ခင်ဗျာ။ အဝတ်လျှော်စက် ရှာဖွေနေပါသလားခင်ဗျာ။",
+        "translationMy": "ကြိုဆိုပါတယ်ခင်ဗျာ။ အဝတ်လျှော်စက် ရှာဖွေနေပါသလားခင်ဗျာ။"
       },
       {
         "speaker": "客",
         "ja": "はい。一人暮らしを始める娘のために探しているんです。あまり操作が複雑すぎないものがいいのですが。",
-        "kana": "はい。一人暮らしを始める娘のために探しているんです。あまり操作が複雑すぎないものがいいのですが。",
-        "en": ""
+        "kana": "はい。ひとりぐらしをはじめるむすめのためのものをさがしているんです。アパートのへやがそれほどひろくないので、できるだけコンパクトでつかいやすいものがいいんですが。",
+        "en": "Yes. I'm looking for one for my daughter who is starting to live alone. Something where the operation isn't too complicated would be good.",
+        "my": "ဟုတ်ကဲ့ပါ။ တစ်ယောက်တည်း စတင်နေထိုင်မယ့် သမီးလေးအတွက် ရှာဖွေနေတာပါ။ တိုက်ခန်းက သိပ်မကျယ်တာမို့ တတ်နိုင်သမျှ ကျစ်လျစ်ပြီး သုံးရလွယ်တာမျိုး လိုချင်လို့ပါ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ။ တစ်ယောက်တည်း စတင်နေထိုင်မယ့် သမီးလေးအတွက် ရှာဖွေနေတာပါ။ တိုက်ခန်းက သိပ်မကျယ်တာမို့ တတ်နိုင်သမျှ ကျစ်လျစ်ပြီး သုံးရလွယ်တာမျိုး လိုချင်လို့ပါ။",
+        "translationMy": "ဟုတ်ကဲ့ပါ။ တစ်ယောက်တည်း စတင်နေထိုင်မယ့် သမီးလေးအတွက် ရှာဖွေနေတာပါ။ တိုက်ခန်းက သိပ်မကျယ်တာမို့ တတ်နိုင်သမျှ ကျစ်လျစ်ပြီး သုံးရလွယ်တာမျိုး လိုချင်လို့ပါ။"
       },
       {
         "speaker": "店員",
         "ja": "でしたら、こちらのA社の製品がおすすめです。ボタンが大きくて表示が見やすいので、機械が苦手な方でも操作しやすいですよ。",
-        "kana": "でしたら、こちらのA社の製品がおすすめです。ボタンが大きくて表示が見やすいので、機械が苦手な方でも操作しやすいですよ。",
-        "en": ""
+        "kana": "それでしたら、こちらのエーしゃの最新モデルがいちばんのおすすめです。はばがごじゅうセンチとスリムなので、せまいばしょにもすっきりと設置しやすいですよ。",
+        "en": "In that case, this Company A product is recommended. The buttons are large and display is easy to see, so it's easy to operate even for those poor with machines.",
+        "my": "ဒါဆိုရင်တော့ ဒီ A ကုမ္ပဏီရဲ့ နောက်ဆုံးပေါ်မော်ဒယ်ကို အထူးဆုံး အကြံပြုလိုပါတယ်ခင်ဗျာ။ အကျယ် ၅၀ စင်တီမီတာသာရှိလို့ သေးငယ်ကျဉ်းကျပ်တဲ့ နေရာမှာလည်း သပ်ရပ်စွာ ထားရှိနိုင်ပါတယ်။",
+        "myanmar": "ဒါဆိုရင်တော့ ဒီ A ကုမ္ပဏီရဲ့ နောက်ဆုံးပေါ်မော်ဒယ်ကို အထူးဆုံး အကြံပြုလိုပါတယ်ခင်ဗျာ။ အကျယ် ၅၀ စင်တီမီတာသာရှိလို့ သေးငယ်ကျဉ်းကျပ်တဲ့ နေရာမှာလည်း သပ်ရပ်စွာ ထားရှိနိုင်ပါတယ်။",
+        "translationMy": "ဒါဆိုရင်တော့ ဒီ A ကုမ္ပဏီရဲ့ နောက်ဆုံးပေါ်မော်ဒယ်ကို အထူးဆုံး အကြံပြုလိုပါတယ်ခင်ဗျာ။ အကျယ် ၅၀ စင်တီမီတာသာရှိလို့ သေးငယ်ကျဉ်းကျပ်တဲ့ နေရာမှာလည်း သပ်ရပ်စွာ ထားရှိနိုင်ပါတယ်။"
       },
       {
         "speaker": "客",
         "ja": "あら、本当ですね。ボタンが三つしかなくてわかりやすいわ。隣のB社の洗濯機はどうですか？",
-        "kana": "あら、本当ですね。ボタンが三つしかなくてわかりやすいわ。隣のB社の洗濯機はどうですか？",
-        "en": ""
+        "kana": "まあ、すてきですね。そうさはふくざつではありませんか。むすめはきかいのそうさがにがてなので、かんたんに使えるものがいいのですが。",
+        "en": "Oh, indeed. There are only three buttons, making it easy to understand. How about Company B's washing machine next to it?",
+        "my": "အို၊ သိပ်ကောင်းတာပဲနော်။ အသုံးပြုရတာ မရှုပ်ထွေးဘူးလား။ သမီးလေးက စက်ပစ္စည်းကိုင်တွယ်ရတာ မကျွမ်းကျင်လို့ လွယ်လွယ်ကူကူ သုံးနိုင်တာမျိုး လိုချင်တာပါ။",
+        "myanmar": "အို၊ သိပ်ကောင်းတာပဲနော်။ အသုံးပြုရတာ မရှုပ်ထွေးဘူးလား။ သမီးလေးက စက်ပစ္စည်းကိုင်တွယ်ရတာ မကျွမ်းကျင်လို့ လွယ်လွယ်ကူကူ သုံးနိုင်တာမျိုး လိုချင်တာပါ။",
+        "translationMy": "အို၊ သိပ်ကောင်းတာပဲနော်။ အသုံးပြုရတာ မရှုပ်ထွေးဘူးလား။ သမီးလေးက စက်ပစ္စည်းကိုင်တွယ်ရတာ မကျွမ်းကျင်လို့ လွယ်လွယ်ကူကူ သုံးနိုင်တာမျိုး လိုချင်တာပါ။"
       },
       {
         "speaker": "店員",
         "ja": "B社の製品は多機能で人気ですが、設定項目が多すぎて少し使いにくいかもしれません。ただ、音が静かで夜遅くでも使いやすいという利点もあります。",
-        "kana": "B社の製品は多機能で人気ですが、設定項目が多すぎて少し使いにくいかもしれません。ただ、音が静かで夜遅くでも使いやすいという利点もあります。",
-        "en": ""
+        "kana": "ごあんしんください。ボタンひとつでぜんじどうでせんたくからすすぎ、だっすいまでおこなわれますから、だれでもかんたんにそうさできますよ。また、フィルターのおそうじもしやすいせっけいになっています。",
+        "en": "Company B's product is multifunctional and popular, but with too many setting options, it might be a bit hard to use. However, it runs quietly, offering the advantage of being easy to use even late at night.",
+        "my": "စိတ်ချလက်ချ ရှိပါခင်ဗျာ။ ခလုတ်တစ်ချက်နှိပ်ရုံနဲ့ အဝတ်လျှော်ခြင်း၊ ရေဆေးခြင်း၊ ရေညှစ်ခြင်းအထိ အလိုအလျောက် ဆောင်ရွက်ပေးတာမို့ ဘယ်သူမဆို လွယ်လွယ်ကူကူ အသုံးပြုနိုင်ပါတယ်။ ဖုန်စစ်ဇကာကိုလည်း သန့်ရှင်းရေးလုပ်ရ လွယ်ကူပါတယ်။",
+        "myanmar": "စိတ်ချလက်ချ ရှိပါခင်ဗျာ။ ခလုတ်တစ်ချက်နှိပ်ရုံနဲ့ အဝတ်လျှော်ခြင်း၊ ရေဆေးခြင်း၊ ရေညှစ်ခြင်းအထိ အလိုအလျောက် ဆောင်ရွက်ပေးတာမို့ ဘယ်သူမဆို လွယ်လွယ်ကူကူ အသုံးပြုနိုင်ပါတယ်။ ဖုန်စစ်ဇကာကိုလည်း သန့်ရှင်းရေးလုပ်ရ လွယ်ကူပါတယ်။",
+        "translationMy": "စိတ်ချလက်ချ ရှိပါခင်ဗျာ။ ခလုတ်တစ်ချက်နှိပ်ရုံနဲ့ အဝတ်လျှော်ခြင်း၊ ရေဆေးခြင်း၊ ရေညှစ်ခြင်းအထိ အလိုအလျောက် ဆောင်ရွက်ပေးတာမို့ ဘယ်သူမဆို လွယ်လွယ်ကူကူ အသုံးပြုနိုင်ပါတယ်။ ဖုန်စစ်ဇကာကိုလည်း သန့်ရှင်းရေးလုပ်ရ လွယ်ကူပါတယ်။"
       },
       {
         "speaker": "客",
         "ja": "娘はアパート暮らしだから音も気になりますが、まずは毎日の洗濯で使いやすいA社の方にします。壊れにくいと安心ですしね。",
-        "kana": "娘はアパート暮らしだから音も気になりますが、まずは毎日の洗濯で使いやすいA社の方にします。壊れにくいと安心ですしね。",
-        "en": ""
+        "kana": "よるにお洗濯することもおおいとおもうので、おともきになりますが、まずはまいにちのせんたくでつかいやすいエーしゃのほうにします。こわれにくいとあんしんですしね。",
+        "en": "Since my daughter lives in an apartment, noise is a concern, but I'll go with Company A which is easier to use for daily washing. Plus it's reassuring that it's hard to break.",
+        "my": "ညဘက် လျှော်တာ များမယ်ထင်လို့ အသံလည်း သတိထားမိပေမဲ့ နေ့စဉ်လျှော်ဖွပ်ရာမှာ သုံးရလွယ်တဲ့ A ကုမ္ပဏီမော်ဒယ်ကိုပဲ ရွေးချယ်လိုက်ပါ့မယ်။ ပျက်စီးခဲရင် စိတ်ချရတာပေါ့။",
+        "myanmar": "ညဘက် လျှော်တာ များမယ်ထင်လို့ အသံလည်း သတိထားမိပေမဲ့ နေ့စဉ်လျှော်ဖွပ်ရာမှာ သုံးရလွယ်တဲ့ A ကုမ္ပဏီမော်ဒယ်ကိုပဲ ရွေးချယ်လိုက်ပါ့မယ်။ ပျက်စီးခဲရင် စိတ်ချရတာပေါ့။",
+        "translationMy": "ညဘက် လျှော်တာ များမယ်ထင်လို့ အသံလည်း သတိထားမိပေမဲ့ နေ့စဉ်လျှော်ဖွပ်ရာမှာ သုံးရလွယ်တဲ့ A ကုမ္ပဏီမော်ဒယ်ကိုပဲ ရွေးချယ်လိုက်ပါ့မယ်။ ပျက်စီးခဲရင် စိတ်ချရတာပေါ့။"
       },
       {
         "speaker": "店員",
         "ja": "かしこまりました。ありがとうございます！",
         "kana": "かしこまりました。ありがとうございます！",
-        "en": ""
+        "en": "Certainly. Thank you very much!",
+        "my": "နားလည်ပါပြီခင်ဗျာ။ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ!",
+        "myanmar": "နားလည်ပါပြီခင်ဗျာ။ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ!",
+        "translationMy": "နားလည်ပါပြီခင်ဗျာ။ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ!"
       }
     ],
     "questionIds": [
@@ -1703,7 +1724,7 @@
     },
     "titleMy": "家電量販店での洗濯機選び (နားထောင်ခြင်း)",
     "titleMyanmar": "家電量販店での洗濯機選び (နားထောင်ခြင်း)",
-    "translationMy": "Clerk: Welcome. Are you looking for a washing machine?\nCustomer: Yes. I'm looking for one for my daughter who is starting to live alone. Something where the operation isn't too complicated would be good.\nClerk: In that case, this Company A product is recommended. The buttons are large and display is easy to see, so it's easy to operate even for those poor with machines.\nCustomer: Oh, indeed. There are only three buttons, making it easy to understand. How about Company B's washing machine next to it?\nClerk: Company B's product is multifunctional and popular, but with too many setting options, it might be a bit hard to use. However, it runs quietly, offering the advantage of being easy to use even late at night.\nCustomer: Since my daughter lives in an apartment, noise is a concern, but I'll go with Company A which is easier to use for daily washing. Plus it's reassuring that it's hard to break.\nClerk: Certainly. Thank you very much!"
+    "translationMy": "店員- ကြိုဆိုပါတယ်ခင်ဗျာ။ အဝတ်လျှော်စက် ရှာဖွေနေပါသလားခင်ဗျာ။\n客- ဟုတ်ကဲ့ပါ။ တစ်ယောက်တည်း စတင်နေထိုင်မယ့် သမီးလေးအတွက် ရှာဖွေနေတာပါ။ တိုက်ခန်းက သိပ်မကျယ်တာမို့ တတ်နိုင်သမျှ ကျစ်လျစ်ပြီး သုံးရလွယ်တာမျိုး လိုချင်လို့ပါ။\n店員- ဒါဆိုရင်တော့ ဒီ A ကုမ္ပဏီရဲ့ နောက်ဆုံးပေါ်မော်ဒယ်ကို အထူးဆုံး အကြံပြုလိုပါတယ်ခင်ဗျာ။ အကျယ် ၅၀ စင်တီမီတာသာရှိလို့ သေးငယ်ကျဉ်းကျပ်တဲ့ နေရာမှာလည်း သပ်ရပ်စွာ ထားရှိနိုင်ပါတယ်။\n客- အို၊ သိပ်ကောင်းတာပဲနော်။ အသုံးပြုရတာ မရှုပ်ထွေးဘူးလား။ သမီးလေးက စက်ပစ္စည်းကိုင်တွယ်ရတာ မကျွမ်းကျင်လို့ လွယ်လွယ်ကူကူ သုံးနိုင်တာမျိုး လိုချင်တာပါ။\n店員- စိတ်ချလက်ချ ရှိပါခင်ဗျာ။ ခလုတ်တစ်ချက်နှိပ်ရုံနဲ့ အဝတ်လျှော်ခြင်း၊ ရေဆေးခြင်း၊ ရေညှစ်ခြင်းအထိ အလိုအလျောက် ဆောင်ရွက်ပေးတာမို့ ဘယ်သူမဆို လွယ်လွယ်ကူကူ အသုံးပြုနိုင်ပါတယ်။ ဖုန်စစ်ဇကာကိုလည်း သန့်ရှင်းရေးလုပ်ရ လွယ်ကူပါတယ်။\n客- ညဘက် လျှော်တာ များမယ်ထင်လို့ အသံလည်း သတိထားမိပေမဲ့ နေ့စဉ်လျှော်ဖွပ်ရာမှာ သုံးရလွယ်တဲ့ A ကုမ္ပဏီမော်ဒယ်ကိုပဲ ရွေးချယ်လိုက်ပါ့မယ်။ ပျက်စီးခဲရင် စိတ်ချရတာပေါ့။\n店員- နားလည်ပါပြီခင်ဗျာ။ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ!"
   },
   "questions": [
     {
@@ -2530,7 +2551,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「一人暮らしを始める娘のため」 ဖြစ်ပါသည်။ (Customer says: 一人暮らしを始める娘のために探しているんです.)",
+      "explanationMy": "အဖြေမှန်မှာ 「一人暮らしを始める娘のため」 ဖြစ်ပါသည်။ (ဧည့်သည်က ပြောကြားသည်မှာ- \"一人暮らしを始める娘のために探しているんです.\")",
       "choicesMy": [
         "一人暮らしを始める娘のため",
         "実家の両親のため",
@@ -2626,7 +2647,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「毎日の洗濯で使いやすく、壊れにくいA社の洗濯機」 ဖြစ်ပါသည်။ (Customer says: まずは毎日の洗濯で使いやすいA社の方にします. 壊れにくいと安心ですしね.)",
+      "explanationMy": "အဖြေမှန်မှာ 「毎日の洗濯で使いやすく、壊れにくいA社の洗濯機」 ဖြစ်ပါသည်။ (ဧည့်သည်က ပြောကြားသည်မှာ- \"まずは毎日の洗濯で使いやすいA社の方にします. 壊れにくいと安心ですしね.\")",
       "choicesMy": [
         "毎日の洗濯で使いやすく、壊れにくいA社の洗濯機",
         "多機能で音が静かなB社の洗濯機",
@@ -2676,6 +2697,6 @@
   },
   "titleMy": "N4 Lesson 18: Excess & Ease (〜すぎる・〜やすい・〜にくい) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 18: Excess & Ease (〜すぎる・〜やすい・〜にくい) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 18: Excess & Ease (〜すぎる・〜やすい・〜にくい) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "လွန်ကဲမှုဖော်ပြခြင်း (〜すぎる) နှင့် ပြုလုပ်ရလွယ်ကူ/ခက်ခဲမှု (〜やすい・〜にくい) ဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 18: Excess & Ease (〜すぎる・〜やすい・〜にくい) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

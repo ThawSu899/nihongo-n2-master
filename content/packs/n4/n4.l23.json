@@ -949,7 +949,7 @@
           "meaning": "absorbed; infatuated",
           "preview": false,
           "meaningMyanmar": "absorbed; infatuated",
-          "meaningMy": "absorbed; infatuated"
+          "meaningMy": "စိတ်နစ်မြောနေခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1002,7 +1002,7 @@
           "meaning": "dance (noun)",
           "preview": false,
           "meaningMyanmar": "dance (noun)",
-          "meaningMy": "dance (noun)"
+          "meaningMy": "အက"
         },
         {
           "word": "日本舞踊",
@@ -1010,7 +1010,7 @@
           "meaning": "classical Japanese dance",
           "preview": false,
           "meaningMyanmar": "classical Japanese dance",
-          "meaningMy": "classical Japanese dance"
+          "meaningMy": "ရိုးရာဂျပန်အက"
         }
       ],
       "exampleSentenceIds": [
@@ -1068,7 +1068,7 @@
           "meaning": "similarity",
           "preview": false,
           "meaningMyanmar": "similarity",
-          "meaningMy": "similarity"
+          "meaningMy": "ဆင်တူခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1120,7 +1120,7 @@
           "meaning": "shape; form",
           "preview": false,
           "meaningMyanmar": "shape; form",
-          "meaningMy": "shape; form"
+          "meaningMy": "ပုံသဏ္ဌာန်"
         },
         {
           "word": "形式",
@@ -1128,7 +1128,7 @@
           "meaning": "format; ceremony",
           "preview": false,
           "meaningMyanmar": "format; ceremony",
-          "meaningMy": "format; ceremony"
+          "meaningMy": "ပုံစံ / အခမ်းအနား"
         }
       ],
       "exampleSentenceIds": [
@@ -1190,8 +1190,8 @@
       },
       "explanationMy": "စကားပြော (口語) တွင် အသုံးများသော「〜ようだ」၏ ပေါ့ပေါ့ပါးပါး စကားပြောပုံစံ ဖြစ်သည်။ နာမ်နှင့် na-adjective များတွင်「の」သို့မဟုတ်「な」မထည့်ဘဲ တိုက်ရိုက်ဆက်ရသည် (ဥပမာ- 子どもみたいだ)။",
       "meaningMyanmar": "စကားပြော (口語) တွင် အသုံးများသော「〜ようだ」၏ ပေါ့ပေါ့ပါးပါး စကားပြောပုံစံ ဖြစ်သည်။ နာမ်နှင့် na-adjective များတွင်「の」သို့မဟုတ်「な」မထည့်ဘဲ တိုက်ရိုက်ဆက်ရသည် (ဥပမာ- 子どもみたいだ)။",
-      "meaningMy": "စကားပြော (口語) တွင် အသုံးများသော「〜ようだ」၏ ပေါ့ပေါ့ပါးပါး စကားပြောပုံစံ ဖြစ်သည်။ နာမ်နှင့် na-adjective များတွင်「の」သို့မဟုတ်「な」မထည့်ဘဲ တိုက်ရိုက်ဆက်ရသည် (ဥပမာ- 子どもみたいだ)။",
-      "nuanceExplanationMy": "[Noun / Na-adj stem / Verb plain] + みたいだ (口語の推量) ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "စကားပြော (口語) တွင် အသုံးများသော「〜ようだ」၏ ပေါ့ပေါ့ပါးပါး စကားပြောပုံစံ ဖြစ်သည်။",
+      "nuanceExplanationMy": "[Noun / Na-adj stem / Verb plain] + みたいだ (口語の推量) ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l23.g002",
@@ -1228,8 +1228,8 @@
       },
       "explanationMy": "စကားပြောရာတွင် တင်စားနှိုင်းယှဉ်ရာ၌ သုံးသည်။ နာမ်ကို အထူးပြုလျှင်「〜みたいな」၊ ကြိယာ/နာမဝိသေသနကို အထူးပြုလျှင်「〜みたいに」ကို သုံးသည်။",
       "meaningMyanmar": "စကားပြောရာတွင် တင်စားနှိုင်းယှဉ်ရာ၌ သုံးသည်။ နာမ်ကို အထူးပြုလျှင်「〜みたいな」၊ ကြိယာ/နာမဝိသေသနကို အထူးပြုလျှင်「〜みたいに」ကို သုံးသည်။",
-      "meaningMy": "စကားပြောရာတွင် တင်စားနှိုင်းယှဉ်ရာ၌ သုံးသည်။ နာမ်ကို အထူးပြုလျှင်「〜みたいな」၊ ကြိယာ/နာမဝိသေသနကို အထူးပြုလျှင်「〜みたいに」ကို သုံးသည်။",
-      "nuanceExplanationMy": "〜みたいな [Noun] / 〜みたいに [Verb/Adj] (口語の比喩) ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "စကားပြောရာတွင် တင်စားနှိုင်းယှဉ်ရာ၌ သုံးသည်။",
+      "nuanceExplanationMy": "〜みたいな [Noun] / 〜みたいに [Verb/Adj] (口語の比喩) ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1617,7 +1617,7 @@
     "title": "秋の学園祭と学生たちの仮装劇",
     "level": "N4",
     "text": "先週の土曜日、私の通う日本語学校で秋の学園祭が開催されました。各クラスが工夫を凝らした模擬店や展示を披露する中、私たちのクラスは日本の昔話をテーマにした短い仮装劇を上演することにしました。\n\nクラスメートたちは手作りの衣装を身につけ、まるで本物の舞台俳優みたいに熱心に稽古を重ねてきました。主役を務めたキムさんは、普段は物静かで大人しい性格ですが、舞台の上では堂々と大きな声で演じていて、まるで別人のようでした。\n\n劇の途中で、鬼の役を担当した田中君がセリフを忘れてしまうハプニングがありました。しかし田中君は焦らず、「お腹が空いて言葉が出ないぞ！」とアドリブで返し、客席のみんなを大笑いさせました。観客からは「アドリブも台本の一部みたいで面白かった！」と大好評でした。\n\n練習中は意見が合わず衝突することもありましたが、終わってみるとまるで夢のような楽しい一日でした。みんなで一つの目標に向かって力を合わせる素晴らしさを実感した学園祭でした。",
-    "kanaText": "せんしゅうのどようび、わたしのかよう にほんごがっこうであきの がくえんさいがかいさいされました。かくクラスがくふうをこらしたもぎてんやてんじをひろうするなか、わたしたちのクラスはにほんのむかしばなしをテーマにしたみじかいかそうげきをじょうえんすることにしました。\n\nクラスメートたちはてづくりのいしょうを身につけ、まるでほんもののぶたいはいゆうみたいにねっしんにけいこをかさねてきました。しゅやくをつとめたキムさんは、ふだんはものしずかでおとなしいせいかくですが、ぶたいのうえではどうどうとおおきなこえでえんじていて、まるでべつじんのようでした。\n\nげきのとちゅうで、おにのやくをたんとうしたたなかくんがセリフをわすれてしまうハプニングがありました。しかし たなかくんはあせらず、「おなかがすいてことばがでないぞ！」とアドリブでかえし、きゃくせきのみんなをおおわらいさせました。かんきゃくからは「アドリブもだいほんのいちぶみたいでおもしろかった！」とだいこうひょうでした。\n\nれんしゅうちゅうはいけんがあわずしょうとつすることもありましたが、おわってみるとまるでゆめのようなたのしいいちにちでした。みんなでひとつのもくひょうにむかってちからをあわせるすばらしさをじっかんしたがくえんさいでした。",
+    "kanaText": "せんしゅうのどようび、わたしのかようにほんごがっこうであきのがくえんさいがかいさいされました。かくクラスがくふうをこらしたもぎてんやてんじをひろうするなか、わたしたちのクラスはにほんのむかしばなしをテーマにしたみじかいかそうげきをじょうえんすることにしました。\n\nクラスメートたちはてづくりのいしょうをみにつけ、まるでほんもののぶたいはいゆうみたいにねっしんにけいこをかさねてきました。しゅやくをつとめたキムさんは、ふだんはものしずかでおとなしいせいかくですが、ぶたいのうえではどうどうとおおきなこえでえんじていて、まるでべつじんのようでした。\n\nげきのとちゅうで、おにのやくをたんとうしたたなかくんがセリフをわすれてしまうハプニングがありました。しかし、たなかくんはあせらず、「おなかがすいてことばがでないぞ！」とアドリブでかえし、きゃくせきのみんなをおおわらいさせました。かんきゃくからは「アドリブもだいほんのいちぶみたいでおもしろかった！」とだいこうひょうでした。\n\nれんしゅうちゅうはいけんがあわずしょうとつすることもありましたが、おわってみるとまるでゆめのようなたのしいいちにちでした。みんなでひとつのもくひょうにむかってちからをあわせるすばらしさをじっかんしたがくえんさいでした。",
     "translation": "Last Saturday, the autumn school festival was held at the Japanese language school I attend. While each class showcased creative food stalls and exhibits, our class decided to stage a short costume play themed around traditional Japanese folklore.\n\nMy classmates donned handmade costumes and practiced enthusiastically just like genuine stage actors. Kim-san, who played the lead role, is usually quiet and gentle, but on stage he performed confidently with a loud voice, looking just like an entirely different person!\n\nDuring the play, an unexpected mishap occurred when Tanaka-kun, who played the ogre, forgot his lines. However, without panicking, Tanaka-kun improvised: \"I'm so hungry that words won't come out!\", making everyone in the audience burst into laughter. From the spectators, it received great praise: \"Even the improvisation felt like part of the script and was hilarious!\"\n\nAlthough there were times during rehearsals when opinions clashed, once it ended, it was a delightful day just like a dream. It was a school festival where I truly felt the wonder of joining forces toward a single goal.",
     "questionIds": [
       "n4.l23.q021",
@@ -1637,7 +1637,7 @@
     },
     "titleMy": "秋の学園祭と学生たちの仮装劇 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "秋の学園祭と学生たちの仮装劇 (ဖတ်ရှုခြင်း)",
-    "translationMy": "Last Saturday, the autumn school festival was held at the Japanese language school I attend. While each class showcased creative food stalls and exhibits, our class decided to stage a short costume play themed around traditional Japanese folklore.\n\nMy classmates donned handmade costumes and practiced enthusiastically just like genuine stage actors. Kim-san, who played the lead role, is usually quiet and gentle, but on stage he performed confidently with a loud voice, looking just like an entirely different person!\n\nDuring the play, an unexpected mishap occurred when Tanaka-kun, who played the ogre, forgot his lines. However, without panicking, Tanaka-kun improvised: \"I'm so hungry that words won't come out!\", making everyone in the audience burst into laughter. From the spectators, it received great praise: \"Even the improvisation felt like part of the script and was hilarious!\"\n\nAlthough there were times during rehearsals when opinions clashed, once it ended, it was a delightful day just like a dream. It was a school festival where I truly felt the wonder of joining forces toward a single goal."
+    "translationMy": "N4 Lesson 23: Colloquial Resemblance みたいだ (〜みたいだ・〜みたいに・〜みたいな) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l23.l01",
@@ -1658,44 +1658,65 @@
       {
         "speaker": "ユミ",
         "ja": "アンちゃん、この赤いワンピース、どう思う？",
-        "kana": "アンちゃん、この赤いワンピース、どう思う？",
-        "en": ""
+        "kana": "アンちゃん、このあかいワンピース、どうおもう？",
+        "en": "Ann, what do you think of this red one-piece dress?",
+        "my": "အန်းချမ်း၊ ဒီ ဂါဝန်နီလေးကို ဘယ်လိုမြင်လဲ?",
+        "myanmar": "အန်းချမ်း၊ ဒီ ဂါဝန်နီလေးကို ဘယ်လိုမြင်လဲ?",
+        "translationMy": "အန်းချမ်း၊ ဒီ ဂါဝန်နီလေးကို ဘယ်လိုမြင်လဲ?"
       },
       {
         "speaker": "アン",
         "ja": "わあ、すごく素敵！ユミちゃんに着てみてもらいたいな。",
-        "kana": "わあ、すごく素敵！ユミちゃんに着てみてもらいたいな。",
-        "en": ""
+        "kana": "わあ、すごくすてき！ユミちゃんにきてみてもらいたいな。",
+        "en": "Wow, it's so lovely! I really want you to try it on, Yumi!",
+        "my": "ဝါး၊ သိပ်လှတာပဲ! ယူမိချမ်း ဝတ်ဆင်ကြည့်တာကို မြင်ချင်လိုက်တာ။",
+        "myanmar": "ဝါး၊ သိပ်လှတာပဲ! ယူမိချမ်း ဝတ်ဆင်ကြည့်တာကို မြင်ချင်လိုက်တာ။",
+        "translationMy": "ဝါး၊ သိပ်လှတာပဲ! ယူမိချမ်း ဝတ်ဆင်ကြည့်တာကို မြင်ချင်လိုက်တာ။"
       },
       {
         "speaker": "ユミ",
         "ja": "本当？ちょっと派手すぎて、モデルさんみたいに見えないかな？",
-        "kana": "本当？ちょっと派手すぎて、モデルさんみたいに見えないかな？",
-        "en": ""
+        "kana": "ほんとう？ちょっとはですぎて、モデルさんみたいにみえないかな？",
+        "en": "Really? Isn't it a bit too flashy, looking like I'm trying to be a model?",
+        "my": "တကယ်လား? နည်းနည်း အရောင်တောက်လွန်းပြီး မော်ဒယ်လ်တစ်ယောက်လို ဖြစ်မနေဘူးလား?",
+        "myanmar": "တကယ်လား? နည်းနည်း အရောင်တောက်လွန်းပြီး မော်ဒယ်လ်တစ်ယောက်လို ဖြစ်မနေဘူးလား?",
+        "translationMy": "တကယ်လား? နည်းနည်း အရောင်တောက်လွန်းပြီး မော်ဒယ်လ်တစ်ယောက်လို ဖြစ်မနေဘူးလား?"
       },
       {
         "speaker": "アン",
         "ja": "ううん、全然そんなことないよ！ユミちゃんの明るい雰囲気にぴったり似合っているよ。まるで雑誌の写真みたい。",
-        "kana": "ううん、全然そんなことないよ！ユミちゃんの明るい雰囲気にぴったり似合っているよ。まるで雑誌の写真みたい。",
-        "en": ""
+        "kana": "ううん、ぜんぜんそんなことないよ！ユミちゃんのあかるいふんいきにぴったりにあっているよ。まるでざっしのしゃしんみたい。",
+        "en": "No, not at all! It matches your cheerful vibe perfectly. You look just like a photo in a fashion magazine!",
+        "my": "ဟင့်အင်း၊ လုံးဝ အဲဒီလို မဟုတ်ပါဘူး! ယူမိချမ်းရဲ့ တက်ကြွရွှင်လန်းတဲ့ အသွင်အပြင်နဲ့ ကွက်တိ လိုက်ဖက်နေပါတယ်။ မဂ္ဂဇင်းထဲက ဓာတ်ပုံလေးအတိုင်းပါပဲ။",
+        "myanmar": "ဟင့်အင်း၊ လုံးဝ အဲဒီလို မဟုတ်ပါဘူး! ယူမိချမ်းရဲ့ တက်ကြွရွှင်လန်းတဲ့ အသွင်အပြင်နဲ့ ကွက်တိ လိုက်ဖက်နေပါတယ်။ မဂ္ဂဇင်းထဲက ဓာတ်ပုံလေးအတိုင်းပါပဲ။",
+        "translationMy": "ဟင့်အင်း၊ လုံးဝ အဲဒီလို မဟုတ်ပါဘူး! ယူမိချမ်းရဲ့ တက်ကြွရွှင်လန်းတဲ့ အသွင်အပြင်နဲ့ ကွက်တိ လိုက်ဖက်နေပါတယ်။ မဂ္ဂဇင်းထဲက ဓာတ်ပုံလေးအတိုင်းပါပဲ။"
       },
       {
         "speaker": "ユミ",
         "ja": "そう言ってくれると嬉しいな。でも、お値段が少し高くて…",
-        "kana": "そう言ってくれると嬉しいな。でも、お値段が少し高くて…",
-        "en": ""
+        "kana": "そういってくれるとうれしいな。でも、おねだんがすこしたかくて…",
+        "en": "Hearing you say that makes me happy. But the price is a little high...",
+        "my": "အဲဒီလို ပြောပေးတာ ဝမ်းသာစရာပဲနော်။ ဒါပေမဲ့ ဈေးနှုန်းက နည်းနည်း များနေတယ်...",
+        "myanmar": "အဲဒီလို ပြောပေးတာ ဝမ်းသာစရာပဲနော်။ ဒါပေမဲ့ ဈေးနှုန်းက နည်းနည်း များနေတယ်...",
+        "translationMy": "အဲဒီလို ပြောပေးတာ ဝမ်းသာစရာပဲနော်။ ဒါပေမဲ့ ဈေးနှုန်းက နည်းနည်း များနေတယ်..."
       },
       {
         "speaker": "アン",
         "ja": "セール期間中だから、レジで二割引きになるみたいだよ。値札にシールが貼ってある！",
-        "kana": "セール期間中だから、レジで二割引きになるみたいだよ。値札にシールが貼ってある！",
-        "en": ""
+        "kana": "セールきかんちゅうだから、レジでにわりびきになるみたいだよ。ねふだにシールがはってある！",
+        "en": "Because it's the sale period, it seems it gets 20% off at the cash register! Look, there's a sticker on the price tag!",
+        "my": "အရောင်းမြှင့်တင်ရေးကာလမို့ ငွေရှင်းကောင်တာမှာ ၂၀ ရာခိုင်နှုန်း လျှော့ပေးမယ့်ပုံပဲနော်။ ဈေးနှုန်းကတ်ပြားမှာ စတစ်ကာ ကပ်ထားတယ်!",
+        "myanmar": "အရောင်းမြှင့်တင်ရေးကာလမို့ ငွေရှင်းကောင်တာမှာ ၂၀ ရာခိုင်နှုန်း လျှော့ပေးမယ့်ပုံပဲနော်။ ဈေးနှုန်းကတ်ပြားမှာ စတစ်ကာ ကပ်ထားတယ်!",
+        "translationMy": "အရောင်းမြှင့်တင်ရေးကာလမို့ ငွေရှင်းကောင်တာမှာ ၂၀ ရာခိုင်နှုန်း လျှော့ပေးမယ့်ပုံပဲနော်။ ဈေးနှုန်းကတ်ပြားမှာ စတစ်ကာ ကပ်ထားတယ်!"
       },
       {
         "speaker": "ユミ",
         "ja": "えっ、本当！？それなら予算内におさまりそう！これに決めるね！",
-        "kana": "えっ、本当！？それなら予算内におさまりそう！これに決めるね！",
-        "en": ""
+        "kana": "えっ、ほんとう！？それならよさんないにおさまりそう！これにきめるね！",
+        "en": "What, really!? If so, it looks like it fits right in my budget! I'll decide on this one!",
+        "my": "ဟယ်၊ တကယ်လား!? ဒါဆိုရင်တော့ လျာထားတဲ့ ဘတ်ဂျက်အတွင်း ဝင်ဆံ့သွားမှာပေါ့! ဒါလေးပဲ ယူဖို့ ဆုံးဖြတ်လိုက်မယ်နော်!",
+        "myanmar": "ဟယ်၊ တကယ်လား!? ဒါဆိုရင်တော့ လျာထားတဲ့ ဘတ်ဂျက်အတွင်း ဝင်ဆံ့သွားမှာပေါ့! ဒါလေးပဲ ယူဖို့ ဆုံးဖြတ်လိုက်မယ်နော်!",
+        "translationMy": "ဟယ်၊ တကယ်လား!? ဒါဆိုရင်တော့ လျာထားတဲ့ ဘတ်ဂျက်အတွင်း ဝင်ဆံ့သွားမှာပေါ့! ဒါလေးပဲ ယူဖို့ ဆုံးဖြတ်လိုက်မယ်နော်!"
       }
     ],
     "questionIds": [
@@ -1715,7 +1736,7 @@
     },
     "titleMy": "ショッピングモールでの洋服選び (နားထောင်ခြင်း)",
     "titleMyanmar": "ショッピングモールでの洋服選び (နားထောင်ခြင်း)",
-    "translationMy": "Yumi: Ann, what do you think of this red one-piece dress?\nAnn: Wow, it's so lovely! I really want you to try it on, Yumi!\nYumi: Really? Isn't it a bit too flashy, looking like I'm trying to be a model?\nAnn: No, not at all! It matches your cheerful vibe perfectly. You look just like a photo in a fashion magazine!\nYumi: Hearing you say that makes me happy. But the price is a little high...\nAnn: Because it's the sale period, it seems it gets 20% off at the cash register! Look, there's a sticker on the price tag!\nYumi: What, really!? If so, it looks like it fits right in my budget! I'll decide on this one!"
+    "translationMy": "ユミ- အန်းချမ်း၊ ဒီ ဂါဝန်နီလေးကို ဘယ်လိုမြင်လဲ?\nアン- ဝါး၊ သိပ်လှတာပဲ! ယူမိချမ်း ဝတ်ဆင်ကြည့်တာကို မြင်ချင်လိုက်တာ။\nユミ- တကယ်လား? နည်းနည်း အရောင်တောက်လွန်းပြီး မော်ဒယ်လ်တစ်ယောက်လို ဖြစ်မနေဘူးလား?\nアン- ဟင့်အင်း၊ လုံးဝ အဲဒီလို မဟုတ်ပါဘူး! ယူမိချမ်းရဲ့ တက်ကြွရွှင်လန်းတဲ့ အသွင်အပြင်နဲ့ ကွက်တိ လိုက်ဖက်နေပါတယ်။ မဂ္ဂဇင်းထဲက ဓာတ်ပုံလေးအတိုင်းပါပဲ။\nユミ- အဲဒီလို ပြောပေးတာ ဝမ်းသာစရာပဲနော်။ ဒါပေမဲ့ ဈေးနှုန်းက နည်းနည်း များနေတယ်...\nアン- အရောင်းမြှင့်တင်ရေးကာလမို့ ငွေရှင်းကောင်တာမှာ ၂၀ ရာခိုင်နှုန်း လျှော့ပေးမယ့်ပုံပဲနော်။ ဈေးနှုန်းကတ်ပြားမှာ စတစ်ကာ ကပ်ထားတယ်!\nユミ- ဟယ်၊ တကယ်လား!? ဒါဆိုရင်တော့ လျာထားတဲ့ ဘတ်ဂျက်အတွင်း ဝင်ဆံ့သွားမှာပေါ့! ဒါလေးပဲ ယူဖို့ ဆုံးဖြတ်လိုက်မယ်နော်!"
   },
   "questions": [
     {
@@ -1934,7 +1955,7 @@
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「おもちゃ」 ဖြစ်ပါသည်။ (おもちゃ means toy.)",
+      "explanationMy": "အဖြေမှန်မှာ 「おもちゃ」 ဖြစ်ပါသည်။ (おもちゃ သည် toy. ဟု အဓိပ္ပာယ်ရပါသည်)",
       "choicesMy": [
         "おもちゃ",
         "俳優",
@@ -2688,6 +2709,6 @@
   },
   "titleMy": "N4 Lesson 23: Colloquial Resemblance みたいだ (〜みたいだ・〜みたいに・〜みたいな) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 23: Colloquial Resemblance みたいだ (〜みたいだ・〜みたいに・〜みたいな) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 23: Colloquial Resemblance みたいだ (〜みたいだ・〜みたいに・〜みたいな) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "စကားပြောသုံး နှိုင်းယှဉ်ချက်နှင့် ဆင်တူယိုးမှား ဖော်ပြခြင်း (〜みたいだ: 比況・例示) ဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 23: Colloquial Resemblance みたいだ (〜みたいだ・〜みたいに・〜みたいな) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

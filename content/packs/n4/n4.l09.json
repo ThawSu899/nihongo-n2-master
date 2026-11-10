@@ -949,7 +949,7 @@
           "meaning": "dangerous",
           "preview": false,
           "meaningMyanmar": "dangerous",
-          "meaningMy": "dangerous"
+          "meaningMy": "အန္တရာယ်ရှိသော"
         }
       ],
       "exampleSentenceIds": [
@@ -996,7 +996,7 @@
           "meaning": "steep/rugged",
           "preview": false,
           "meaningMyanmar": "steep/rugged",
-          "meaningMy": "steep/rugged"
+          "meaningMy": "မတ်စောက်သော"
         }
       ],
       "exampleSentenceIds": [
@@ -1044,7 +1044,7 @@
           "meaning": "to knock down (tr)",
           "preview": false,
           "meaningMyanmar": "to knock down (tr)",
-          "meaningMy": "to knock down (tr)"
+          "meaningMy": "လှဲချသည် / ဖြိုဖျက်သည်"
         }
       ],
       "exampleSentenceIds": [
@@ -1090,7 +1090,7 @@
           "meaning": "one machine/vehicle",
           "preview": false,
           "meaningMyanmar": "one machine/vehicle",
-          "meaningMy": "one machine/vehicle"
+          "meaningMy": "တစ်စီး / တစ်လုံး (စက်ပစ္စည်း/ယာဉ်)"
         }
       ],
       "exampleSentenceIds": [
@@ -1125,11 +1125,11 @@
       },
       "examples": [
         {
-          "sentenceId": "n4.l09.s001",
+          "sentenceId": "n4.l09.s004",
           "note": "Example 1"
         },
         {
-          "sentenceId": "n4.l09.s002",
+          "sentenceId": "n4.l09.s005",
           "note": "Example 2"
         }
       ],
@@ -1148,8 +1148,8 @@
       },
       "explanationMy": "မျက်မြင်အသွင်အပြင်ကို ကြည့်ရှု၍ \"ပုံပေါ်သည် / ...တော့မလိုဖြစ်သည်\" ဟု ခန့်မှန်းပြောဆိုရာတွင် သုံးသည်။ ကြိယာတွင် masu-stem + そうです (雨が降りそうです = မိုးရွာတော့မလိုဖြစ်သည်)။ い-နာမဝိသေသနတွင် い ဖြုတ်၍ そうです (おいしそうです = အရသာရှိပုံပေါ်သည်၊ いい→よさそうです)။ な-နာမဝိသေသနတွင် な ဖြုတ်၍ そうです (元気そうです = ကျန်းမာတက်ကြွပုံပေါ်သည်)။",
       "meaningMyanmar": "မျက်မြင်အသွင်အပြင်ကို ကြည့်ရှု၍ \"ပုံပေါ်သည် / ...တော့မလိုဖြစ်သည်\" ဟု ခန့်မှန်းပြောဆိုရာတွင် သုံးသည်။ ကြိယာတွင် masu-stem + そうです (雨が降りそうです = မိုးရွာတော့မလိုဖြစ်သည်)။ い-နာမဝိသေသနတွင် い ဖြုတ်၍ そうです (おいしそうです = အရသာရှိပုံပေါ်သည်၊ いい→よさそうです)။ な-နာမဝိသေသနတွင် な ဖြုတ်၍ そうです (元気そうです = ကျန်းမာတက်ကြွပုံပေါ်သည်)။",
-      "meaningMy": "မျက်မြင်အသွင်အပြင်ကို ကြည့်ရှု၍ \"ပုံပေါ်သည် / ...တော့မလိုဖြစ်သည်\" ဟု ခန့်မှန်းပြောဆိုရာတွင် သုံးသည်။ ကြိယာတွင် masu-stem + そうです (雨が降りそうです = မိုးရွာတော့မလိုဖြစ်သည်)။ い-နာမဝိသေသနတွင် い ဖြုတ်၍ そうです (おいしそうです = အရသာရှိပုံပေါ်သည်၊ いい→よさそうです)။ な-နာမဝိသေသနတွင် な ဖြုတ်၍ そうです (元気そうです = ကျန်းမာတက်ကြွပုံပေါ်သည်)။",
-      "nuanceExplanationMy": "[Verb stem / Adj stem] そうです ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "မျက်မြင်အခြေအနေကို ကြည့်ရှု၍ မကြာမီ ဖြစ်ပေါ်လာတော့မည့် ပုံပန်းသဏ္ဌာန်ကို ခန့်မှန်းခြင်း (〜မည့်ပုံရပါသည်)",
+      "nuanceExplanationMy": "[Verb stem / Adj stem] そうです ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l09.g002",
@@ -1186,8 +1186,8 @@
       },
       "explanationMy": "အခြားသူ သို့မဟုတ် သတင်းမီဒီယာမှ ကြားသိရသော အချက်အလက်ကို ပြန်လည်ပြောဆိုရာတွင် သုံးသည် (\"...ဟု ကြားသိရသည်/သတဲ့\")။ 「〜によると」 (အရဆိုလျှင်) နှင့် တွဲဖက်သုံးလေ့ရှိသည်။ ဝါကျရိုးရိုးပုံစံ (Plain Form) နောက်တွင် တိုက်ရိုက်ကပ်သည် (雨が降るそうです၊ おいしいそうです၊ 元気だそうです၊ 雨だそうです)။",
       "meaningMyanmar": "အခြားသူ သို့မဟုတ် သတင်းမီဒီယာမှ ကြားသိရသော အချက်အလက်ကို ပြန်လည်ပြောဆိုရာတွင် သုံးသည် (\"...ဟု ကြားသိရသည်/သတဲ့\")။ 「〜によると」 (အရဆိုလျှင်) နှင့် တွဲဖက်သုံးလေ့ရှိသည်။ ဝါကျရိုးရိုးပုံစံ (Plain Form) နောက်တွင် တိုက်ရိုက်ကပ်သည် (雨が降るそうです၊ おいしいそうです၊ 元気だそうです၊ 雨だそうです)။",
-      "meaningMy": "အခြားသူ သို့မဟုတ် သတင်းမီဒီယာမှ ကြားသိရသော အချက်အလက်ကို ပြန်လည်ပြောဆိုရာတွင် သုံးသည် (\"...ဟု ကြားသိရသည်/သတဲ့\")။ 「〜によると」 (အရဆိုလျှင်) နှင့် တွဲဖက်သုံးလေ့ရှိသည်။ ဝါကျရိုးရိုးပုံစံ (Plain Form) နောက်တွင် တိုက်ရိုက်ကပ်သည် (雨が降るそうです၊ おいしいそうです၊ 元気だそうです၊ 雨だそうです)။",
-      "nuanceExplanationMy": "[Plain Form] そうです ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အခြားသူများ သို့မဟုတ် သတင်းမီဒီယာမှတစ်ဆင့် ကြားသိရသောအချက်ကို ပြန်လည်ဖော်ပြခြင်း (〜ဟု ကြားသိရပါသည်)",
+      "nuanceExplanationMy": "[Plain Form] そうです ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1291,7 +1291,7 @@
         "n4.l09.v003"
       ],
       "grammarIds": [
-        "n4.l09.g002"
+        "n4.l09.g001"
       ],
       "audio": {
         "kind": "tts",
@@ -1411,7 +1411,7 @@
         "n4.l09.v010"
       ],
       "grammarIds": [
-        "n4.l09.g002"
+        "n4.l09.g001"
       ],
       "audio": {
         "kind": "tts",
@@ -1522,7 +1522,7 @@
     "title": "台風15号接近に伴う注意情報 (Advisory Notice on Approaching Typhoon No. 15)",
     "level": "N4",
     "text": "気象庁の最新の天気予報によると、大型で非常に強い台風15号が今夜遅くに関東地方へ上陸するそうです。\n\n中心付近の最大風速は四十メートルを超えており、沿岸部では今にも波が堤防を越えそうになっています。街中では風にあおられて看板が外れそうになったり、古い木が倒れそうになったりしている場所があり、外出は極めて危険です。また、今夜半から明日の明け方にかけて一時間に八十ミリ以上の猛烈な大雨が降る見込みだそうです。\n\n鉄道各社によると、今夜八時以降はすべての路線で列車の運転を取りやめるそうです。会社や学校は早めに帰宅を呼びかけています。不要不急の外出を控え、ベランダの植木鉢やゴミ箱を部屋の中にしまって、安全な屋内で過ごしてください。",
-    "kanaText": "気象庁の最新の天気予報によると、大型で非常に強い台風15号が今夜遅くに関東地方へ上陸するそうです。\n\n中心付近の最大風速は四十メートルを超えており、沿岸部では今にも波が堤防を越えそうになっています。街中では風にあおられて看板が外れそうになったり、古い木が倒れそうになったりしている場所があり、外出は極めて危険です。また、今夜半から明日の明け方にかけて一時間に八十ミリ以上の猛烈な大雨が降る見込みだそうです。\n\n鉄道各社によると、今夜八時以降はすべての路線で列車の運転を取りやめるそうです。会社や学校は早めに帰宅を呼びかけています。不要不急の外出を控え、ベランダの植木鉢やゴミ箱を部屋の中にしまって、安全な屋内で過ごしてください。",
+    "kanaText": "きしょうちょうのさいしんのてんきよほうによると、おおがたでひじょうにつよいたいふうじゅうごごうがこんやおそくにかんとうちほうへじょうりくするそうです。\n\nちゅうしんふきんのさいだいふうそくはよんじゅうメートルをこえており、えんがんぶではいまにもなみがていぼうをこえそうになっています。まちなかではかぜにあおられてかんばんがはずれそうになったり、ふるいきがたおれそうになったりしているばしょがあり、がいしゅつはきわめてきけんです。また、こんやはんからあすのあけがたにかけていちじかんにはちじゅうミリいじょうのもうれつなおおあめがふるみこみだそうです。\n\nてつどうかくしゃによると、こんやはちじいこうはすべてのろせんでれっしゃのうんてんをとりやめるそうです。かいしゃやがっこうはやめにきたくをよびかけています。ふようふきゅうのがいしゅつをひかえ、ベランダのうえきばちやゴミばこをへやのなかにしまって、あんぜんなおくないですごしてください。",
     "translation": "According to the Meteorological Agency's latest weather forecast, I heard that a large and extremely powerful Typhoon No. 15 will make landfall in the Kanto region late tonight.\n\nMaximum wind speeds near the center exceed 40 meters per second, and along coastal areas, waves look as though they are about to spill over the embankments at any moment. In towns, there are locations where signs seem about to tear loose in the wind and old trees seem about to collapse, making going outside extremely dangerous. Furthermore, from midnight tonight into tomorrow dawn, torrential rain exceeding 80 millimeters per hour is expected to fall, according to reports.\n\nAccording to various railway companies, they heard that all train operations will be suspended on all lines after 8 PM tonight. Companies and schools are calling for early dismissals. Please refrain from non-essential outings, store balcony flowerpots and trash cans indoors, and stay safely inside.",
     "questionIds": [
       "n4.l09.q021",
@@ -1542,7 +1542,7 @@
     },
     "titleMy": "台風15号接近に伴う注意情報 (Advisory Notice on Approaching Typhoon No. 15) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "台風15号接近に伴う注意情報 (Advisory Notice on Approaching Typhoon No. 15) (ဖတ်ရှုခြင်း)",
-    "translationMy": "According to the Meteorological Agency's latest weather forecast, I heard that a large and extremely powerful Typhoon No. 15 will make landfall in the Kanto region late tonight.\n\nMaximum wind speeds near the center exceed 40 meters per second, and along coastal areas, waves look as though they are about to spill over the embankments at any moment. In towns, there are locations where signs seem about to tear loose in the wind and old trees seem about to collapse, making going outside extremely dangerous. Furthermore, from midnight tonight into tomorrow dawn, torrential rain exceeding 80 millimeters per hour is expected to fall, according to reports.\n\nAccording to various railway companies, they heard that all train operations will be suspended on all lines after 8 PM tonight. Companies and schools are calling for early dismissals. Please refrain from non-essential outings, store balcony flowerpots and trash cans indoors, and stay safely inside."
+    "translationMy": "မိုးလေဝသနှင့် ဇလဗေဒဦးစီးဌာန၏ နောက်ဆုံးရ မိုးလေဝသခန့်မှန်းချက်အရ အလွန်အင်အားပြင်းထန်သော တိုင်ဖွန်းမုန်တိုင်း အမှတ် ၁၅ သည် ယနေ့ညဉ့်နက်ပိုင်းတွင် ခန်တိုဒေသသို့ ဝင်ရောက်တိုက်ခတ်မည်ဟု သိရှိရပါသည်။\n\nမုန်တိုင်းဗဟိုအနီး အမြင့်ဆုံးလေတိုက်နှုန်းသည် တစ်စက္ကန့်လျှင် မီတာ ၄၀ ကျော်လွန်နေပြီး ကမ်းရိုးတန်းဒေသများတွင် လှိုင်းလုံးကြီးများသည် ရေကာတာများကို ကျော်တက်မည့် အခြေအနေ ဖြစ်ပေါ်နေပါသည်။ မြို့တွင်းတွင်လည်း လေပြင်းတိုက်ခတ်မှုကြောင့် ဆိုင်းဘုတ်များ ပြုတ်ကျလုနီးပါး ဖြစ်နေခြင်း၊ သစ်ပင်ဟောင်းကြီးများ လဲကျလုနီးပါး ဖြစ်နေသည့် နေရာများ ရှိနေသဖြင့် အပြင်ထွက်ခြင်းသည် အလွန်အန္တရာယ်များပါသည်။ ထို့အပြင် ယနေ့ညသန်းခေါင်မှ မနက်ဖြန် မိုးသောက်အချိန်အထိ တစ်နာရီလျှင် မိုးရေချိန် ၈၀ မီလီမီတာကျော် အလွန်ပြင်းထန်သော မိုးကြီးရွာသွန်းနိုင်သည်ဟု ခန့်မှန်းထားပါသည်။\n\nမီးရထားကုမ္ပဏီများ၏ ထုတ်ပြန်ချက်အရ ယနေ့ည ၈ နာရီနောက်ပိုင်းတွင် ရထားလိုင်းအားလုံး၌ ရထားပြေးဆွဲမှု ရပ်ဆိုင်းမည်ဟု သိရပါသည်။ ကုမ္ပဏီများနှင့် ကျောင်းများက ဝန်ထမ်းများနှင့် ကျောင်းသားများကို စောစောအိမ်ပြန်ကြရန် နှိုးဆော်ထားပါသည်။ အရေးမကြီးသော အပြင်ထွက်မှုများကို ရှောင်ကြဉ်ပြီး ဝရန်တာရှိ ပန်းအိုးများနှင့် အမှိုက်ပုံးများကို အိမ်ထဲသို့ သွင်းထားကာ ဘေးကင်းလုံခြုံသော အဆောက်အအုံအတွင်း၌သာ နေထိုင်ကြပါရန် တိုက်တွန်းထားပါသည်။"
   },
   "listening": {
     "id": "n4.l09.l01",
@@ -1554,12 +1554,85 @@
       "lang": "ja-JP"
     },
     "speakers": [
-      "A",
-      "B"
+      "アンナ",
+      "ケン"
     ],
     "transcript": "アンナ：ケンさん、この店、すごく混んでいますね。\nケン：ええ。雑誌の評判によると、この店の激辛味噌ラーメンが今とても話題になっているそうですよ。\nアンナ：激辛ですか！隣の人のスープ、真っ赤ですごく辛そうですね。\nケン：でも、すごくいい匂いがして美味しそうですよ。辛いのは苦手ですか。\nアンナ：少しなら大丈夫ですが、あまり辛すぎると食べられそうにありません。\nケン：それなら、辛さを控えめにしてもらえるそうですよ。辛さ「小」で注文してみたらどうですか。\nアンナ：あ、それなら良さそうですね！そうします。\nケン：じゃあ、私は辛さ「大」に挑戦してみようと思います。汗がたくさん出そうです！",
     "translation": "Anna: Ken, this shop is extremely crowded, isn't it?\nKen: Yes. According to magazine reviews, I heard this shop's super-spicy miso ramen is a huge topic of conversation right now.\nAnna: Super-spicy? The soup of the person next to us is bright red and looks extremely spicy!\nKen: But it smells wonderful and looks delicious. Are you bad with spicy food?\nAnna: A little is fine, but if it is too spicy, I don't think I could eat it.\nKen: In that case, I heard they can make it mildly spicy for you. Why not try ordering spiciness level \"Mild\"?\nAnna: Ah, that sounds good! I will do that.\nKen: Then I think I will challenge spiciness level \"Hot\". It looks like I will sweat a lot!",
-    "turns": [],
+    "turns": [
+      {
+        "speaker": "アンナ",
+        "ja": "ケンさん、この店、すごく混んでいますね。",
+        "kana": "ケンさん、このみせ、すごくこんでいますね。",
+        "en": "Ken, this shop is really crowded, isn’t it?",
+        "my": "ကန်ဆန်၊ ဒီဆိုင်က သိပ်လူကြပ်တာပဲနော်။",
+        "myanmar": "ကန်ဆန်၊ ဒီဆိုင်က သိပ်လူကြပ်တာပဲနော်။",
+        "translationMy": "ကန်ဆန်၊ ဒီဆိုင်က သိပ်လူကြပ်တာပဲနော်။"
+      },
+      {
+        "speaker": "ケン",
+        "ja": "ええ。雑誌の評判によると、この店の激辛味噌ラーメンが今とても話題になっているそうですよ。",
+        "kana": "ええ。ざっしのひょうばんによると、このみせのげきからみそラーメンがいまとてもわだいになっているそうですよ。",
+        "en": "Yes. According to magazine reviews, this shop’s super spicy miso ramen is quite the hot topic now.",
+        "my": "ဟုတ်တယ်နော်။ မဂ္ဂဇင်းရဲ့ သုံးသပ်ချက်တွေအရ ဒီဆိုင်ရဲ့ အလွန်အမင်းစပ်တဲ့ မီဆိုရာမင်က အခု အရမ်းနာမည်ကြီးနေတယ်တဲ့။",
+        "myanmar": "ဟုတ်တယ်နော်။ မဂ္ဂဇင်းရဲ့ သုံးသပ်ချက်တွေအရ ဒီဆိုင်ရဲ့ အလွန်အမင်းစပ်တဲ့ မီဆိုရာမင်က အခု အရမ်းနာမည်ကြီးနေတယ်တဲ့။",
+        "translationMy": "ဟုတ်တယ်နော်။ မဂ္ဂဇင်းရဲ့ သုံးသပ်ချက်တွေအရ ဒီဆိုင်ရဲ့ အလွန်အမင်းစပ်တဲ့ မီဆိုရာမင်က အခု အရမ်းနာမည်ကြီးနေတယ်တဲ့။"
+      },
+      {
+        "speaker": "アンナ",
+        "ja": "激辛ですか！隣の人のスープ、真っ赤ですごく辛そうですね。",
+        "kana": "げきからですか！となりのひとのスープ、まっかですごくからそうですね。",
+        "en": "Super spicy?! The person next to us has bright red soup that looks really spicy.",
+        "my": "အလွန်စပ်တာလား! ဘေးကလူရဲ့ ဟင်းရည်က နီရဲနေပြီး အရမ်းစပ်ပုံရတယ်နော်။",
+        "myanmar": "အလွန်စပ်တာလား! ဘေးကလူရဲ့ ဟင်းရည်က နီရဲနေပြီး အရမ်းစပ်ပုံရတယ်နော်။",
+        "translationMy": "အလွန်စပ်တာလား! ဘေးကလူရဲ့ ဟင်းရည်က နီရဲနေပြီး အရမ်းစပ်ပုံရတယ်နော်။"
+      },
+      {
+        "speaker": "ケン",
+        "ja": "でも、すごくいい匂いがして美味しそうですよ。辛いのは苦手ですか。",
+        "kana": "でも、すごいいいにおいがしておいしそうですよ。からいのはにがてですか。",
+        "en": "But it smells great and looks delicious. Are you not good with spicy food?",
+        "my": "ဒါပေမယ့် အနံ့အရမ်းမွှေးပြီး စားချင်စရာကောင်းတယ်နော်။ အစပ် မစားနိုင်ဘူးလား။",
+        "myanmar": "ဒါပေမယ့် အနံ့အရမ်းမွှေးပြီး စားချင်စရာကောင်းတယ်နော်။ အစပ် မစားနိုင်ဘူးလား။",
+        "translationMy": "ဒါပေမယ့် အနံ့အရမ်းမွှေးပြီး စားချင်စရာကောင်းတယ်နော်။ အစပ် မစားနိုင်ဘူးလား။"
+      },
+      {
+        "speaker": "アンナ",
+        "ja": "少しなら大丈夫ですが、あまり辛すぎると食べられそうにありません。",
+        "kana": "すこしならだいじょうぶですが、あまりからすぎるとたべられそうにありません。",
+        "en": "A little is fine, but if it is too spicy I don’t think I can eat it.",
+        "my": "နည်းနည်းဆိုရင် ရပေမယ့် အရမ်းစပ်လွန်းရင်တော့ စားနိုင်မှာ မဟုတ်ဘူး။",
+        "myanmar": "နည်းနည်းဆိုရင် ရပေမယ့် အရမ်းစပ်လွန်းရင်တော့ စားနိုင်မှာ မဟုတ်ဘူး။",
+        "translationMy": "နည်းနည်းဆိုရင် ရပေမယ့် အရမ်းစပ်လွန်းရင်တော့ စားနိုင်မှာ မဟုတ်ဘူး။"
+      },
+      {
+        "speaker": "ケン",
+        "ja": "それなら、辛さを控えめにしてもらえるそうですよ。辛さ「小」で注文してみたらどうですか。",
+        "kana": "それなら、からさをひかえめにしてもらえるそうですよ。からさ「しょう」でちゅうもんしてみたらどうですか。",
+        "en": "In that case, they can make it milder. How about ordering it with \"mild\" spiciness?",
+        "my": "ဒါဆိုရင် အစပ်လျှော့ခိုင်းလို့ရတယ်တဲ့။ အစပ်အဆင့် \"အသေး\" နဲ့ မှာကြည့်ပါလား။",
+        "myanmar": "ဒါဆိုရင် အစပ်လျှော့ခိုင်းလို့ရတယ်တဲ့။ အစပ်အဆင့် \"အသေး\" နဲ့ မှာကြည့်ပါလား။",
+        "translationMy": "ဒါဆိုရင် အစပ်လျှော့ခိုင်းလို့ရတယ်တဲ့။ အစပ်အဆင့် \"အသေး\" နဲ့ မှာကြည့်ပါလား။"
+      },
+      {
+        "speaker": "アンナ",
+        "ja": "あ、それなら良さそうですね！そうします。",
+        "kana": "あ、それならよさそうですね！そうします。",
+        "en": "Oh, that sounds good! I will do that.",
+        "my": "အာ၊ ဒါဆိုရင် အဆင်ပြေနိုင်တာပေါ့! အဲဒီလိုပဲ မှာလိုက်မယ်။",
+        "myanmar": "အာ၊ ဒါဆိုရင် အဆင်ပြေနိုင်တာပေါ့! အဲဒီလိုပဲ မှာလိုက်မယ်။",
+        "translationMy": "အာ၊ ဒါဆိုရင် အဆင်ပြေနိုင်တာပေါ့! အဲဒီလိုပဲ မှာလိုက်မယ်။"
+      },
+      {
+        "speaker": "ケン",
+        "ja": "じゃあ、私は辛さ「大」に挑戦してみようと思います。汗がたくさん出そうです！",
+        "kana": "じゃあ、わたしはからさ「だい」にちょうせんしてみようとおもいます。あせがたくさんでそうです！",
+        "en": "Then I think I will challenge myself with \"extra spicy.\" Looks like I will sweat a lot!",
+        "my": "ဒါဆိုရင် ကျွန်တော်က အစပ်အဆင့် \"အကြီး\" ကို စိန်ခေါ်ကြည့်မယ်။ ချွေးတွေ အများကြီး ထွက်တော့မယ်ထင်တယ်!",
+        "myanmar": "ဒါဆိုရင် ကျွန်တော်က အစပ်အဆင့် \"အကြီး\" ကို စိန်ခေါ်ကြည့်မယ်။ ချွေးတွေ အများကြီး ထွက်တော့မယ်ထင်တယ်!",
+        "translationMy": "ဒါဆိုရင် ကျွန်တော်က အစပ်အဆင့် \"အကြီး\" ကို စိန်ခေါ်ကြည့်မယ်။ ချွေးတွေ အများကြီး ထွက်တော့မယ်ထင်တယ်!"
+      }
+    ],
     "questionIds": [
       "n4.l09.q026",
       "n4.l09.q027",
@@ -1577,7 +1650,7 @@
     },
     "titleMy": "人気のラーメン店でのメニュー選び (Choosing Menu at a Popular Ramen Shop) (နားထောင်ခြင်း)",
     "titleMyanmar": "人気のラーメン店でのメニュー選び (Choosing Menu at a Popular Ramen Shop) (နားထောင်ခြင်း)",
-    "translationMy": "Anna: Ken, this shop is extremely crowded, isn't it?\nKen: Yes. According to magazine reviews, I heard this shop's super-spicy miso ramen is a huge topic of conversation right now.\nAnna: Super-spicy? The soup of the person next to us is bright red and looks extremely spicy!\nKen: But it smells wonderful and looks delicious. Are you bad with spicy food?\nAnna: A little is fine, but if it is too spicy, I don't think I could eat it.\nKen: In that case, I heard they can make it mildly spicy for you. Why not try ordering spiciness level \"Mild\"?\nAnna: Ah, that sounds good! I will do that.\nKen: Then I think I will challenge spiciness level \"Hot\". It looks like I will sweat a lot!"
+    "translationMy": "အန်နာ- ကန်ဆန်၊ ဒီဆိုင်က သိပ်လူကြပ်တာပဲနော်။\nကန်- ဟုတ်တယ်နော်။ မဂ္ဂဇင်းရဲ့ သုံးသပ်ချက်တွေအရ ဒီဆိုင်ရဲ့ အလွန်အမင်းစပ်တဲ့ မီဆိုရာမင်က အခု အရမ်းနာမည်ကြီးနေတယ်တဲ့။\nအန်နာ- အလွန်စပ်တာလား! ဘေးကလူရဲ့ ဟင်းရည်က နီရဲနေပြီး အရမ်းစပ်ပုံရတယ်နော်။\nကန်- ဒါပေမယ့် အနံ့အရမ်းမွှေးပြီး စားချင်စရာကောင်းတယ်နော်။ အစပ် မစားနိုင်ဘူးလား။\nအန်နာ- နည်းနည်းဆိုရင် ရပေမယ့် အရမ်းစပ်လွန်းရင်တော့ စားနိုင်မှာ မဟုတ်ဘူး။\nကန်- ဒါဆိုရင် အစပ်လျှော့ခိုင်းလို့ရတယ်တဲ့။ အစပ်အဆင့် \"အသေး\" နဲ့ မှာကြည့်ပါလား။\nအန်နာ- အာ၊ ဒါဆိုရင် အဆင်ပြေနိုင်တာပေါ့! အဲဒီလိုပဲ မှာလိုက်မယ်။\nကန်- ဒါဆိုရင် ကျွန်တော်က အစပ်အဆင့် \"အကြီး\" ကို စိန်ခေါ်ကြည့်မယ်။ ချွေးတွေ အများကြီး ထွက်တော့မယ်ထင်တယ်!"
   },
   "questions": [
     {
@@ -2244,7 +2317,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「今夜遅く」 ဖြစ်ပါသည်။ (The text states: 今夜遅くに関東地方へ上陸するそうです.)",
+      "explanationMy": "အဖြေမှန်မှာ 「今夜遅く」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"今夜遅くに関東地方へ上陸するそうです.\")",
       "choicesMy": [
         "今夜遅く",
         "明日の午後",
@@ -2276,7 +2349,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「風にあおられて看板が外れそうになったり、古い木が倒れそうになったりしている」 ဖြစ်ပါသည်။ (The text states: 看板が外れそうになったり、古い木が倒れそうになったりしている場所があり...)",
+      "explanationMy": "အဖြေမှန်မှာ 「風にあおられて看板が外れそうになったり、古い木が倒れそうになったりしている」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"看板が外れそうになったり、古い木が倒れそうになったりしている場所があり...\")",
       "choicesMy": [
         "風にあおられて看板が外れそうになったり、古い木が倒れそうになったりしている",
         "道路が水没して車が全部流されている",
@@ -2308,7 +2381,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「一時間に八十ミリ以上の猛烈な大雨が降る見込み」 ဖြစ်ပါသည်။ (The text says: 一時間に八十ミリ以上の猛烈な大雨が降る見込みだそうです.)",
+      "explanationMy": "အဖြေမှန်မှာ 「一時間に八十ミリ以上の猛烈な大雨が降る見込み」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"一時間に八十ミリ以上の猛烈な大雨が降る見込みだそうです.\")",
       "choicesMy": [
         "一時間に八十ミリ以上の猛烈な大雨が降る見込み",
         "ほとんど雨は降らない見込み",
@@ -2340,7 +2413,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「今夜八時以降はすべての路線で列車の運転を取りやめる」 ဖြစ်ပါသည်။ (The text states: 今夜八時以降はすべての路線で列車の運転を取りやめるそうです.)",
+      "explanationMy": "အဖြေမှန်မှာ 「今夜八時以降はすべての路線で列車の運転を取りやめる」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"今夜八時以降はすべての路線で列車の運転を取りやめるそうです.\")",
       "choicesMy": [
         "今夜八時以降はすべての路線で列車の運転を取りやめる",
         "終夜で特別列車を運行する",
@@ -2404,7 +2477,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「この店の激辛味噌ラーメンがとても話題になっている」 ဖြစ်ပါသည်။ (Ken says: この店の激辛味噌ラーメンが今とても話題になっているそうですよ.)",
+      "explanationMy": "အဖြေမှန်မှာ 「この店の激辛味噌ラーメンがとても話題になっている」 ဖြစ်ပါသည်။ (ကန်က ပြောကြားသည်မှာ- \"この店の激辛味噌ラーメンが今とても話題になっているそうですよ.\")",
       "choicesMy": [
         "この店の激辛味噌ラーメンがとても話題になっている",
         "ラーメンの値段が日本一高い",
@@ -2500,7 +2573,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「辛さ「大」」 ဖြစ်ပါသည်။ (Ken says: じゃあ、私は辛さ「大」に挑戦してみようと思います.)",
+      "explanationMy": "အဖြေမှန်မှာ 「辛さ「大」」 ဖြစ်ပါသည်။ (ကန်က ပြောကြားသည်မှာ- \"じゃあ、私は辛さ「大」に挑戦してみようと思います.\")",
       "choicesMy": [
         "辛さ「大」",
         "辛さ「小」",
@@ -2550,6 +2623,6 @@
   },
   "titleMy": "N4 Lesson 9: Hearsay そうだ vs Appearance そうだ (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 9: Hearsay そうだ vs Appearance そうだ (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 9: Hearsay そうだ vs Appearance そうだ အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "မျက်မြင်အခြေအနေအရ ဖြစ်ပေါ်လာနိုင်ခြေ (様態のそうだ) နှင့် ကြားသိရသော သတင်းအချက်အလက် (伝聞のそうだ) ဆိုင်ရာ နှိုင်းယှဉ်ချက်များ။",
   "descriptionMyanmar": "N4 Lesson 9: Hearsay そうだ vs Appearance そうだ အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

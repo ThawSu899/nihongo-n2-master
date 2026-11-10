@@ -947,7 +947,7 @@
           "meaning": "rudeness/excuse me",
           "preview": false,
           "meaningMyanmar": "rudeness/excuse me",
-          "meaningMy": "rudeness/excuse me"
+          "meaningMy": "ယဉ်ကျေးမှုမရှိခြင်း / ခွင့်လွှတ်ပါ"
         }
       ],
       "exampleSentenceIds": [
@@ -995,7 +995,7 @@
           "meaning": "national holiday",
           "preview": false,
           "meaningMyanmar": "national holiday",
-          "meaningMy": "national holiday"
+          "meaningMy": "အစိုးရရုံးပိတ်ရက်"
         }
       ],
       "exampleSentenceIds": [
@@ -1044,7 +1044,7 @@
           "meaning": "parents",
           "preview": false,
           "meaningMyanmar": "parents",
-          "meaningMy": "parents"
+          "meaningMy": "မိဘနှစ်ပါး"
         }
       ],
       "exampleSentenceIds": [
@@ -1128,11 +1128,11 @@
       },
       "examples": [
         {
-          "sentenceId": "n4.l10.s001",
+          "sentenceId": "n4.l10.s002",
           "note": "Example 1"
         },
         {
-          "sentenceId": "n4.l10.s002",
+          "sentenceId": "n4.l10.s007",
           "note": "Example 2"
         }
       ],
@@ -1151,8 +1151,8 @@
       },
       "explanationMy": "၁။ あげる: မိမိက အခြားသူအား ပေးသည် (田中さんに本をあげる)။\n၂။ くれる: အခြားသူက မိမိ (သို့မဟုတ် မိမိမိသားစုဝင်) အား ပေးသည် (田中さんが私に本をくれる)။\n၃။ もらう: မိမိက အခြားသူထံမှ လက်ခံရရှိသည် (田中さんに本をもらう)။",
       "meaningMyanmar": "၁။ あげる: မိမိက အခြားသူအား ပေးသည် (田中さんに本をあげる)။\n၂။ くれる: အခြားသူက မိမိ (သို့မဟုတ် မိမိမိသားစုဝင်) အား ပေးသည် (田中さんが私に本をくれる)။\n၃။ もらう: မိမိက အခြားသူထံမှ လက်ခံရရှိသည် (田中さんに本をもらう)။",
-      "meaningMy": "၁။ あげる: မိမိက အခြားသူအား ပေးသည် (田中さんに本をあげる)။\n၂။ くれる: အခြားသူက မိမိ (သို့မဟုတ် မိမိမိသားစုဝင်) အား ပေးသည် (田中さんが私に本をくれる)။\n၃။ もらう: မိမိက အခြားသူထံမှ လက်ခံရရှိသည် (田中さんに本をもらう)။",
-      "nuanceExplanationMy": "[A] は [B] に [物] を あげる / くれる / もらう ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အပြန်အလှန် ပေးကမ်းကူညီခြင်းနှင့် ကျေးဇူးတုံ့ပြန်မှုဆိုင်ရာ ဆက်ဆံရေးဖော်ပြချက်များ",
+      "nuanceExplanationMy": "[A] は [B] に [物] を あげる / くれる / もらう ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l10.g002",
@@ -1166,11 +1166,11 @@
       },
       "examples": [
         {
-          "sentenceId": "n4.l10.s001",
+          "sentenceId": "n4.l10.s003",
           "note": "Example 1"
         },
         {
-          "sentenceId": "n4.l10.s002",
+          "sentenceId": "n4.l10.s005",
           "note": "Example 2"
         }
       ],
@@ -1189,8 +1189,8 @@
       },
       "explanationMy": "အကူအညီနှင့် ကျေးဇူးပြုလုပ်ဆောင်ချက်များကို ဖော်ပြသည်:\n၁။ 〜てあげる: အခြားသူအတွက် လုပ်ပေးသည် (အထက်လူကြီးအား မသုံးရ)။\n၂။ 〜てくれる: အခြားသူက မိမိအတွက် ကြင်နာစွာ ကူညီလုပ်ပေးသည် (ကျေးဇူးတင်သောစိတ်ပါဝင်သည်)။\n၃။ 〜てもらう: အခြားသူထံမှ ကူညီမှု ရယူခံစားသည် (ဆရာထံ စာစီစာကုံး အမှားပြင်ခိုင်းသည်)။",
       "meaningMyanmar": "အကူအညီနှင့် ကျေးဇူးပြုလုပ်ဆောင်ချက်များကို ဖော်ပြသည်:\n၁။ 〜てあげる: အခြားသူအတွက် လုပ်ပေးသည် (အထက်လူကြီးအား မသုံးရ)။\n၂။ 〜てくれる: အခြားသူက မိမိအတွက် ကြင်နာစွာ ကူညီလုပ်ပေးသည် (ကျေးဇူးတင်သောစိတ်ပါဝင်သည်)။\n၃။ 〜てもらう: အခြားသူထံမှ ကူညီမှု ရယူခံစားသည် (ဆရာထံ စာစီစာကုံး အမှားပြင်ခိုင်းသည်)။",
-      "meaningMy": "အကူအညီနှင့် ကျေးဇူးပြုလုပ်ဆောင်ချက်များကို ဖော်ပြသည်:\n၁။ 〜てあげる: အခြားသူအတွက် လုပ်ပေးသည် (အထက်လူကြီးအား မသုံးရ)။\n၂။ 〜てくれる: အခြားသူက မိမိအတွက် ကြင်နာစွာ ကူညီလုပ်ပေးသည် (ကျေးဇူးတင်သောစိတ်ပါဝင်သည်)။\n၃။ 〜てもらう: အခြားသူထံမှ ကူညီမှု ရယူခံစားသည် (ဆရာထံ စာစီစာကုံး အမှားပြင်ခိုင်းသည်)။",
-      "nuanceExplanationMy": "[Verb-te] あげる / [Verb-te] くれる / [Verb-te] もらう ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အပြန်အလှန် ပေးကမ်းကူညီခြင်းနှင့် ကျေးဇူးတုံ့ပြန်မှုဆိုင်ရာ ဆက်ဆံရေးဖော်ပြချက်များ",
+      "nuanceExplanationMy": "[Verb-te] あげる / [Verb-te] くれる / [Verb-te] もらう ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1412,7 +1412,7 @@
         "n4.l10.v008"
       ],
       "grammarIds": [
-        "n4.l10.g002"
+        "n4.l10.g001"
       ],
       "audio": {
         "kind": "tts",
@@ -1441,7 +1441,7 @@
         "n4.l10.v010"
       ],
       "grammarIds": [
-        "n4.l10.g002"
+        "n4.l10.g001"
       ],
       "audio": {
         "kind": "tts",
@@ -1470,7 +1470,7 @@
         "n4.l10.v011"
       ],
       "grammarIds": [
-        "n4.l10.g002"
+        "n4.l10.g001"
       ],
       "audio": {
         "kind": "tts",
@@ -1499,7 +1499,7 @@
         "n4.l10.v012"
       ],
       "grammarIds": [
-        "n4.l10.g002"
+        "n4.l10.g001"
       ],
       "audio": {
         "kind": "tts",
@@ -1522,7 +1522,7 @@
     "title": "引っ越しでお世話になった人々への感謝 (Gratitude to the People Who Helped Me Move)",
     "level": "N4",
     "text": "先週の土曜日、私は大学の近くのアパートから新しい部屋へ引っ越しをしました。荷物が一人では運べないほど多かったのですが、日本語学校の同級生二人が朝早くから手伝いに来てくれました。彼らが重いダンボール箱や冷蔵庫を一緒に運んでくれたおかげで、昼過ぎには無事に荷物を部屋へ運び込むことができました。\n\nまた、隣の部屋に住んでいる大家さんもとても親切な方でした。「引っ越しおめでとう」と言って、近所で有名な和菓子屋のお菓子を私にくださいました。さらに、町のごみの分別方法やスーパーの特売日についても詳しく教えてもらいました。\n\nみんなが親切にしてくれたことが本当に嬉しくて、私は手伝ってくれた友人たちを近くの洋食店に招待して、お礼にご馳走を食べてもらいました。困ったときに助けてくれる仲間がいることのありがたさを実感した一日でした。",
-    "kanaText": "先週の土曜日、私は大学の近くのアパートから新しい部屋へ引っ越しをしました。荷物が一人では運べないほど多かったのですが、日本語学校の同級生二人が朝早くから手伝いに来てくれました。彼らが重いダンボール箱や冷蔵庫を一緒に運んでくれたおかげで、昼過ぎには無事に荷物を部屋へ運び込むことができました。\n\nまた、隣の部屋に住んでいる大家さんもとても親切な方でした。「引っ越しおめでとう」と言って、近所で有名な和菓子屋のお菓子を私にくださいました。さらに、町のごみの分別方法やスーパーの特売日についても詳しく教えてもらいました。\n\nみんなが親切にしてくれたことが本当に嬉しくて、私は手伝ってくれた友人たちを近くの洋食店に招待して、お礼にご馳走を食べてもらいました。困ったときに助けてくれる仲間がいることのありがたさを実感した一日でした。",
+    "kanaText": "せんしゅうのどようび、わたしはだいがくのちかくのアパートからあたらしいへやへひっこしをしました。にもつがひとりでははこべないほどおおかったのですが、にほんごがっこうのどうきゅうせいににんがあさはやくからてつだいにきてくれました。かれらがこもいダンボールばこやれいぞうこをいっしょにはこんでくれたおかげで、ひるすぎにはぶじにもつをへやへはこびこむことができました。\n\nまた、となりのへやにすんでいるおおやさんもとてもしんせつなかたでした。「ひっこしおめでとう」といって、きんじょでゆうめいなわがしやのおかしをわたしにくださいました。さらに、まちのごみのぶんべつほうほうやスーパーのとくばいびについてもくわしくおしえてもらいました。\n\nみんながしんせつにしてくれたことがほんとうにうれしくて、わたしはてつだってくれたゆうじんたちをちかくのようしょくてんにしょうたいして、おれいのごちそうをたべてもらいました。こまったときにたすけてくれるなかまがいることのありがたさをじっかんしたいちにちでした。",
     "translation": "Last Saturday, I moved from an apartment near the university to a new room. I had so much luggage that I couldn't carry it alone, but two classmates from my Japanese language school came to help early in the morning. Thanks to them helping me carry heavy cardboard boxes and the refrigerator, we were able to safely carry all luggage into the room by early afternoon.\n\nAlso, the landlord living next door was a very kind person. Saying \"Congratulations on your move,\" he gave me sweets from a famous local traditional Japanese confectionery shop. Furthermore, he kindly explained in detail about the town's trash separation methods and supermarket special sale days.\n\nI was so delighted by everyone's kindness that I invited the friends who helped to a nearby Western-style restaurant and treated them to a feast in gratitude. It was a day when I truly realized the blessing of having friends who help when in trouble.",
     "questionIds": [
       "n4.l10.q021",
@@ -1542,7 +1542,7 @@
     },
     "titleMy": "引っ越しでお世話になった人々への感謝 (Gratitude to the People Who Helped Me Move) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "引っ越しでお世話になった人々への感謝 (Gratitude to the People Who Helped Me Move) (ဖတ်ရှုခြင်း)",
-    "translationMy": "Last Saturday, I moved from an apartment near the university to a new room. I had so much luggage that I couldn't carry it alone, but two classmates from my Japanese language school came to help early in the morning. Thanks to them helping me carry heavy cardboard boxes and the refrigerator, we were able to safely carry all luggage into the room by early afternoon.\n\nAlso, the landlord living next door was a very kind person. Saying \"Congratulations on your move,\" he gave me sweets from a famous local traditional Japanese confectionery shop. Furthermore, he kindly explained in detail about the town's trash separation methods and supermarket special sale days.\n\nI was so delighted by everyone's kindness that I invited the friends who helped to a nearby Western-style restaurant and treated them to a feast in gratitude. It was a day when I truly realized the blessing of having friends who help when in trouble."
+    "translationMy": "ပြီးခဲ့သည့် သီတင်းပတ် စနေနေ့က ကျွန်တော်သည် တက္ကသိုလ်အနီးရှိ တိုက်ခန်းမှ အခန်းအသစ်သို့ အိမ်ပြောင်းရွှေ့ခဲ့ပါသည်။ ပစ္စည်းများမှာ တစ်ဦးတည်း မသယ်ဆောင်နိုင်လောက်အောင် များပြားလှသော်လည်း ဂျပန်စာသင်တန်းကျောင်းမှ အတန်းဖော်နှစ်ဦးသည် နံနက်စောစောကတည်းက လာရောက်ကူညီပေးခဲ့ကြပါသည်။ သူတို့သည် လေးလံသော စက္ကူဖာများနှင့် ရေခဲသေတ္တာကို အတူတကွ သယ်မပေးခဲ့ကြသဖြင့် နေ့လယ်ပိုင်းတွင် အခန်းတွင်းသို့ ပစ္စည်းအားလုံးကို ဘေးကင်းစွာ သယ်ဆောင်ပြီးစီးနိုင်ခဲ့ပါသည်။\n\nထို့အပြင် ဘေးခန်းတွင် နေထိုင်သော အိမ်ရှင်သည်လည်း အလွန်ကြင်နာတတ်သူ ဖြစ်ပါသည်။ 「အိမ်ပြောင်းရွှေ့ခြင်းအတွက် ဂုဏ်ယူပါသည်」 ဟု နှုတ်ခွန်းဆက်ပြီး ရပ်ကွက်အတွင်း နာမည်ကြီးသော ဂျပန်ရိုးရာမုန့်ဆိုင်မှ မုန့်များကို ကျွန်တော့်အား ပေးကမ်းခဲ့ပါသည်။ ထို့အပြင် မြို့နယ်၏ အမှိုက်ခွဲခြားစွန့်ပစ်နည်းများနှင့် စူပါမားကတ်၏ အထူးလျှော့ဈေးရောင်းချသည့် နေ့ရက်များကိုလည်း အသေးစိတ် ရှင်းပြပေးခဲ့ပါသည်။\n\nလူတိုင်းက ကြင်နာစွာ ဆက်ဆံပေးခဲ့ကြသည့်အတွက် အလွန်ဝမ်းသာကြည်နူးရပြီး ကျွန်တော့်အား ကူညီပေးခဲ့ကြသော သူငယ်ချင်းများကို အနီးရှိ အနောက်တိုင်းစားသောက်ဆိုင်သို့ ဖိတ်ခေါ်ကာ ကျေးဇူးတုံ့ပြန်သည့်အနေဖြင့် ဧည့်ခံကျွေးမွေးခဲ့ပါသည်။ အခက်အခဲကြုံတွေ့ချိန်တွင် ကူညီပေးမည့် မိတ်ဆွေကောင်းများ ရှိနေခြင်း၏ တန်ဖိုးကို လက်တွေ့သိရှိခံစားခဲ့ရသော နေ့တစ်နေ့ ဖြစ်ခဲ့ပါသည်။"
   },
   "listening": {
     "id": "n4.l10.l01",
@@ -1554,12 +1554,85 @@
       "lang": "ja-JP"
     },
     "speakers": [
-      "A",
-      "B"
+      "留学生",
+      "鈴木"
     ],
     "transcript": "留学生：鈴木先輩、先日はスピーチコンテストの原稿を直してくださって、本当にありがとうございました。\n鈴木：どういたしまして。コンテストの結果はどうだった？\n留学生：先輩に直していただいたおかげで、なんと努力賞をもらうことができました！\n鈴木：ええっ、本当！？すごいじゃない！おめでとう！一生懸命練習した甲斐があったね。\n留学生：はい！本番前にも先輩が発音を何度も聞いて直してくれたので、自信を持って発表できました。\n鈴木：そう言ってもらえると嬉しいよ。私も後輩の力になれて良かった。\n留学生：これ、母国のお土産の紅茶なんですが、お礼に受け取っていただけませんか。\n鈴木：わあ、いいの？ありがとう！美味しくいただくね。",
     "translation": "Student: Suzuki-senpai, thank you so much for kindly correcting my speech contest draft the other day.\nSuzuki: You're welcome. How was the contest result?\nStudent: Thanks to you correcting it for me, I actually won the Effort Award!\nSuzuki: What, really!? That's amazing! Congratulations! Your hard practice paid off.\nStudent: Yes! Before the actual performance, senpai also listened to my pronunciation many times and corrected it for me, so I was able to present with confidence.\nSuzuki: Hearing you say that makes me happy. I'm glad I could be of help to my junior.\nStudent: This is black tea from my home country; would you please accept it as a thank-you gift?\nSuzuki: Wow, are you sure? Thank you! I will enjoy it.",
-    "turns": [],
+    "turns": [
+      {
+        "speaker": "留学生",
+        "ja": "鈴木先輩、先日はスピーチコンテストの原稿を直してくださって、本当にありがとうございました。",
+        "kana": "すずきせんぱい、せんじつはスピーチコンテストのげんこうをなおしてくださって、ほんとうにありがとうございました。",
+        "en": "Suzuki-senpai, thank you so much for correcting my speech contest draft the other day.",
+        "my": "ဆူဇူကီးစီနီယာ၊ ပြီးခဲ့တဲ့ရက်က စကားပြောပြိုင်ပွဲ မူကြမ်းကို ပြင်ဆင်ပေးခဲ့တဲ့အတွက် တကယ်ပဲ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။",
+        "myanmar": "ဆူဇူကီးစီနီယာ၊ ပြီးခဲ့တဲ့ရက်က စကားပြောပြိုင်ပွဲ မူကြမ်းကို ပြင်ဆင်ပေးခဲ့တဲ့အတွက် တကယ်ပဲ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။",
+        "translationMy": "ဆူဇူကီးစီနီယာ၊ ပြီးခဲ့တဲ့ရက်က စကားပြောပြိုင်ပွဲ မူကြမ်းကို ပြင်ဆင်ပေးခဲ့တဲ့အတွက် တကယ်ပဲ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။"
+      },
+      {
+        "speaker": "鈴木",
+        "ja": "どういたしまして。コンテストの結果はどうだった？",
+        "kana": "どういたしまして。コンテストのけっかはどうだった？",
+        "en": "You’re welcome. How was the result of the contest?",
+        "my": "ရပါတယ်ကွာ။ ပြိုင်ပွဲရလဒ် ဘယ်လိုဖြစ်သွားလဲ။",
+        "myanmar": "ရပါတယ်ကွာ။ ပြိုင်ပွဲရလဒ် ဘယ်လိုဖြစ်သွားလဲ။",
+        "translationMy": "ရပါတယ်ကွာ။ ပြိုင်ပွဲရလဒ် ဘယ်လိုဖြစ်သွားလဲ။"
+      },
+      {
+        "speaker": "留学生",
+        "ja": "先輩に直していただいたおかげで、なんと努力賞をもらうことができました！",
+        "kana": "せんぱいになおしていただいたおかげで、なんとどりょくしょうをもらうことができました！",
+        "en": "Thanks to you correcting it for me, I actually won the Effort Award!",
+        "my": "စီနီယာ ပြင်ဆင်ပေးခဲ့တဲ့ ကျေးဇူးကြောင့် ကြိုးစားအားထုတ်မှုဆုကို ရရှိခဲ့ပါတယ်ခင်ဗျာ!",
+        "myanmar": "စီနီယာ ပြင်ဆင်ပေးခဲ့တဲ့ ကျေးဇူးကြောင့် ကြိုးစားအားထုတ်မှုဆုကို ရရှိခဲ့ပါတယ်ခင်ဗျာ!",
+        "translationMy": "စီနီယာ ပြင်ဆင်ပေးခဲ့တဲ့ ကျေးဇူးကြောင့် ကြိုးစားအားထုတ်မှုဆုကို ရရှိခဲ့ပါတယ်ခင်ဗျာ!"
+      },
+      {
+        "speaker": "鈴木",
+        "ja": "ええっ、本当！？すごいじゃない！おめでとう！一生懸命練習した甲斐があったね。",
+        "kana": "ええっ、ほんとう！？すごいじゃない！おめでとう！いっしょうけんめいれんしゅうしたかいがあったね。",
+        "en": "What, really?! That’s amazing! Congratulations! Your hard practice really paid off.",
+        "my": "ဟေ၊ တကယ်လား!? မိုက်တာပေါ့ကွာ! ဂုဏ်ယူပါတယ်! ကြိုးစားပြီး လေ့ကျင့်ခဲ့ရကျိုး နပ်တာပေါ့။",
+        "myanmar": "ဟေ၊ တကယ်လား!? မိုက်တာပေါ့ကွာ! ဂုဏ်ယူပါတယ်! ကြိုးစားပြီး လေ့ကျင့်ခဲ့ရကျိုး နပ်တာပေါ့။",
+        "translationMy": "ဟေ၊ တကယ်လား!? မိုက်တာပေါ့ကွာ! ဂုဏ်ယူပါတယ်! ကြိုးစားပြီး လေ့ကျင့်ခဲ့ရကျိုး နပ်တာပေါ့။"
+      },
+      {
+        "speaker": "留学生",
+        "ja": "はい！本番前にも先輩が発音を何度も聞いて直してくれたので、自信を持って発表できました。",
+        "kana": "はい！ほんばんまえにもせんぱいがはつおんをなんどもきいてなおしてくれたので、じしんをもってはっぴょうできました。",
+        "en": "Yes! Even before the real performance, you listened to my pronunciation many times and corrected it, so I was able to present with confidence.",
+        "my": "ဟုတ်ကဲ့ပါ! တကယ်တမ်း စင်ပေါ်မတက်ခင်မှာလည်း စီနီယာက အသံထွက်ကို အကြိမ်ကြိမ် နားထောင်ပြီး ပြင်ပေးခဲ့လို့ ယုံကြည်မှုအပြည့်နဲ့ တင်ပြနိုင်ခဲ့တာပါ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ! တကယ်တမ်း စင်ပေါ်မတက်ခင်မှာလည်း စီနီယာက အသံထွက်ကို အကြိမ်ကြိမ် နားထောင်ပြီး ပြင်ပေးခဲ့လို့ ယုံကြည်မှုအပြည့်နဲ့ တင်ပြနိုင်ခဲ့တာပါ။",
+        "translationMy": "ဟုတ်ကဲ့ပါ! တကယ်တမ်း စင်ပေါ်မတက်ခင်မှာလည်း စီနီယာက အသံထွက်ကို အကြိမ်ကြိမ် နားထောင်ပြီး ပြင်ပေးခဲ့လို့ ယုံကြည်မှုအပြည့်နဲ့ တင်ပြနိုင်ခဲ့တာပါ။"
+      },
+      {
+        "speaker": "鈴木",
+        "ja": "そう言ってもらえると嬉しいよ。私も後輩の力になれて良かった。",
+        "kana": "そういってもらえるとうれしいよ。わたしもこうはいのちからになれてよかった。",
+        "en": "I’m happy to hear that. I’m glad I could help a junior.",
+        "my": "အဲဒီလို ပြောပေးတာ ဝမ်းသာတယ်ကွာ။ ငါလည်း ညီလေးအတွက် အကူအညီဖြစ်စေခဲ့လို့ ကောင်းတာပေါ့။",
+        "myanmar": "အဲဒီလို ပြောပေးတာ ဝမ်းသာတယ်ကွာ။ ငါလည်း ညီလေးအတွက် အကူအညီဖြစ်စေခဲ့လို့ ကောင်းတာပေါ့။",
+        "translationMy": "အဲဒီလို ပြောပေးတာ ဝမ်းသာတယ်ကွာ။ ငါလည်း ညီလေးအတွက် အကူအညီဖြစ်စေခဲ့လို့ ကောင်းတာပေါ့။"
+      },
+      {
+        "speaker": "留学生",
+        "ja": "これ、母国のお土産の紅茶なんですが、お礼に受け取っていただけませんか。",
+        "kana": "これ、ぼこくのおみやげのこうちゃなんですが、おれいにうけとっていただけませんか。",
+        "en": "This is black tea souvenir from my home country; would you please accept it as a token of my thanks?",
+        "my": "ဒါက မိခင်နိုင်ငံက ယူလာတဲ့ လက်ဆောင်လက်ဖက်ခြောက်ပါခင်ဗျာ၊ ကျေးဇူးတုံ့ပြန်တဲ့အနေနဲ့ လက်ခံပေးပါလားခင်ဗျာ။",
+        "myanmar": "ဒါက မိခင်နိုင်ငံက ယူလာတဲ့ လက်ဆောင်လက်ဖက်ခြောက်ပါခင်ဗျာ၊ ကျေးဇူးတုံ့ပြန်တဲ့အနေနဲ့ လက်ခံပေးပါလားခင်ဗျာ။",
+        "translationMy": "ဒါက မိခင်နိုင်ငံက ယူလာတဲ့ လက်ဆောင်လက်ဖက်ခြောက်ပါခင်ဗျာ၊ ကျေးဇူးတုံ့ပြန်တဲ့အနေနဲ့ လက်ခံပေးပါလားခင်ဗျာ။"
+      },
+      {
+        "speaker": "鈴木",
+        "ja": "わあ、いいの？ありがとう！美味しくいただくね。",
+        "kana": "わあ、いいの？ありがとう！おいしくいただくね。",
+        "en": "Wow, really? Thank you! I will enjoy it.",
+        "my": "ဟာ၊ ရလား? ကျေးဇူးပဲနော်! အရသာရှိရှိ သောက်သုံးပါ့မယ်။",
+        "myanmar": "ဟာ၊ ရလား? ကျေးဇူးပဲနော်! အရသာရှိရှိ သောက်သုံးပါ့မယ်။",
+        "translationMy": "ဟာ၊ ရလား? ကျေးဇူးပဲနော်! အရသာရှိရှိ သောက်သုံးပါ့မယ်။"
+      }
+    ],
     "questionIds": [
       "n4.l10.q026",
       "n4.l10.q027",
@@ -1577,7 +1650,7 @@
     },
     "titleMy": "スピーチコンテストの作文添削とお礼 (Essay Correction and Thanks for Speech Contest) (နားထောင်ခြင်း)",
     "titleMyanmar": "スピーチコンテストの作文添削とお礼 (Essay Correction and Thanks for Speech Contest) (နားထောင်ခြင်း)",
-    "translationMy": "Student: Suzuki-senpai, thank you so much for kindly correcting my speech contest draft the other day.\nSuzuki: You're welcome. How was the contest result?\nStudent: Thanks to you correcting it for me, I actually won the Effort Award!\nSuzuki: What, really!? That's amazing! Congratulations! Your hard practice paid off.\nStudent: Yes! Before the actual performance, senpai also listened to my pronunciation many times and corrected it for me, so I was able to present with confidence.\nSuzuki: Hearing you say that makes me happy. I'm glad I could be of help to my junior.\nStudent: This is black tea from my home country; would you please accept it as a thank-you gift?\nSuzuki: Wow, are you sure? Thank you! I will enjoy it."
+    "translationMy": "နိုင်ငံခြားကျောင်းသား- ဆူဇူကီးစီနီယာ၊ ပြီးခဲ့တဲ့ရက်က စကားပြောပြိုင်ပွဲ မူကြမ်းကို ပြင်ဆင်ပေးခဲ့တဲ့အတွက် တကယ်ပဲ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။\nဆူဇူကီး- ရပါတယ်ကွာ။ ပြိုင်ပွဲရလဒ် ဘယ်လိုဖြစ်သွားလဲ။\nနိုင်ငံခြားကျောင်းသား- စီနီယာ ပြင်ဆင်ပေးခဲ့တဲ့ ကျေးဇူးကြောင့် ကြိုးစားအားထုတ်မှုဆုကို ရရှိခဲ့ပါတယ်ခင်ဗျာ!\nဆူဇူကီး- ဟေ၊ တကယ်လား!? မိုက်တာပေါ့ကွာ! ဂုဏ်ယူပါတယ်! ကြိုးစားပြီး လေ့ကျင့်ခဲ့ရကျိုး နပ်တာပေါ့။\nနိုင်ငံခြားကျောင်းသား- ဟုတ်ကဲ့ပါ! တကယ်တမ်း စင်ပေါ်မတက်ခင်မှာလည်း စီနီယာက အသံထွက်ကို အကြိမ်ကြိမ် နားထောင်ပြီး ပြင်ပေးခဲ့လို့ ယုံကြည်မှုအပြည့်နဲ့ တင်ပြနိုင်ခဲ့တာပါ။\nဆူဇူကီး- အဲဒီလို ပြောပေးတာ ဝမ်းသာတယ်ကွာ။ ငါလည်း ညီလေးအတွက် အကူအညီဖြစ်စေခဲ့လို့ ကောင်းတာပေါ့။\nနိုင်ငံခြားကျောင်းသား- ဒါက မိခင်နိုင်ငံက ယူလာတဲ့ လက်ဆောင်လက်ဖက်ခြောက်ပါခင်ဗျာ၊ ကျေးဇူးတုံ့ပြန်တဲ့အနေနဲ့ လက်ခံပေးပါလားခင်ဗျာ။\nဆူဇူကီး- ဟာ၊ ရလား? ကျေးဇူးပဲနော်! အရသာရှိရှိ သောက်သုံးပါ့မယ်။"
   },
   "questions": [
     {
@@ -2244,7 +2317,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「新しい部屋への引っ越し」 ဖြစ်ပါသည်။ (The text states: 先週の土曜日、私は大学の近くのアパートから新しい部屋へ引っ越しをしました.)",
+      "explanationMy": "အဖြေမှန်မှာ 「新しい部屋への引っ越し」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"先週の土曜日、私は大学の近くのアパートから新しい部屋へ引っ越しをしました.\")",
       "choicesMy": [
         "新しい部屋への引っ越し",
         "日本語能力試験の受験",
@@ -2276,7 +2349,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「日本語学校の同級生二人」 ဖြစ်ပါသည်။ (The text says: 日本語学校の同級生二人が朝早くから手伝いに来てくれました.)",
+      "explanationMy": "အဖြေမှန်မှာ 「日本語学校の同級生二人」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"日本語学校の同級生二人が朝早くから手伝いに来てくれました.\")",
       "choicesMy": [
         "日本語学校の同級生二人",
         "大学の教授",
@@ -2308,7 +2381,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「近所で有名な和菓子屋のお菓子」 ဖြစ်ပါသည်။ (The text states: 近所で有名な和菓子屋のお菓子を私にくださいました.)",
+      "explanationMy": "အဖြေမှန်မှာ 「近所で有名な和菓子屋のお菓子」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"近所で有名な和菓子屋のお菓子を私にくださいました.\")",
       "choicesMy": [
         "近所で有名な和菓子屋のお菓子",
         "新しいカレンダーと時計",
@@ -2340,7 +2413,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「ごみの分別方法やスーパーの特売日について詳しく教えてくれた」 ဖြစ်ပါသည်။ (The text states: 町のごみの分別方法やスーパーの特売日についても詳しく教えてもらいました.)",
+      "explanationMy": "အဖြေမှန်မှာ 「ごみの分別方法やスーパーの特売日について詳しく教えてくれた」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"町のごみの分別方法やスーパーの特売日についても詳しく教えてもらいました.\")",
       "choicesMy": [
         "ごみの分別方法やスーパーの特売日について詳しく教えてくれた",
         "重い冷蔵庫を一緒に運んでくれた",
@@ -2532,7 +2605,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「喜んで美味しくいただくと受け取った」 ဖြစ်ပါသည်။ (Suzuki says: わあ、いいの？ありがとう！美味しくいただくね.)",
+      "explanationMy": "အဖြေမှန်မှာ 「喜んで美味しくいただくと受け取った」 ဖြစ်ပါသည်။ (ဆူဇူကီးက ပြောကြားသည်မှာ- \"わあ、いいの？ありがとう！美味しくいただくね.\")",
       "choicesMy": [
         "喜んで美味しくいただくと受け取った",
         "高価すぎるから断った",
@@ -2550,6 +2623,6 @@
   },
   "titleMy": "N4 Lesson 10: Giving & Receiving (あげる・くれる・もらう) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 10: Giving & Receiving (あげる・くれる・もらう) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 10: Giving & Receiving (あげる・くれる・もらう) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "အပြန်အလှန် ပေးကမ်းကူညီမှုနှင့် ကျေးဇူးတုံ့ပြန်မှု (あげる・くれる・もらう နှင့် 〜てあげる・〜てくれる・〜てもらう) ဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 10: Giving & Receiving (あげる・くれる・もらう) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

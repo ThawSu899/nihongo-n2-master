@@ -996,7 +996,7 @@
           "meaning": "preview of lesson",
           "preview": false,
           "meaningMyanmar": "preview of lesson",
-          "meaningMy": "preview of lesson"
+          "meaningMy": "သင်ခန်းစာကြိုတင်လေ့လာခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1125,11 +1125,11 @@
       },
       "examples": [
         {
-          "sentenceId": "n4.l04.s001",
+          "sentenceId": "n4.l04.s004",
           "note": "Example 1"
         },
         {
-          "sentenceId": "n4.l04.s002",
+          "sentenceId": "n4.l04.s006",
           "note": "Example 2"
         }
       ],
@@ -1148,8 +1148,8 @@
       },
       "explanationMy": "နောက်ဆက်တွဲ ဖြစ်ပေါ်လာရန် လိုအပ်သော အခြေအနေ သို့မဟုတ် အကြောင်းတရားကို ဖော်ပြသည်။ အုပ်စု(၁) u အသံမှ eba သို့ပြောင်းသည် (書けば)။ အုပ်စု(၂) る ဖြုတ်၍ れば ပေါင်းသည် (食べれば)။ အုပ်စု(၃) する→すれば၊ くる→くれば ဖြစ်သည်။ い-နာမဝိသေသနတွင် い ဖြုတ်ပြီး ければ (安ければ၊ いい→よければ)။ な-နာမဝိသေသနနှင့် နာမ်တွင် なら/ならば ပေါင်းသည်။ ယေဘုယျဖြစ်ရပ် သို့မဟုတ် သဘာဝနိယာမ အခြေအနေများတွင် ပိုမိုသုံးသည်။",
       "meaningMyanmar": "နောက်ဆက်တွဲ ဖြစ်ပေါ်လာရန် လိုအပ်သော အခြေအနေ သို့မဟုတ် အကြောင်းတရားကို ဖော်ပြသည်။ အုပ်စု(၁) u အသံမှ eba သို့ပြောင်းသည် (書けば)။ အုပ်စု(၂) る ဖြုတ်၍ れば ပေါင်းသည် (食べれば)။ အုပ်စု(၃) する→すれば၊ くる→くれば ဖြစ်သည်။ い-နာမဝိသေသနတွင် い ဖြုတ်ပြီး ければ (安ければ၊ いい→よければ)။ な-နာမဝိသေသနနှင့် နာမ်တွင် なら/ならば ပေါင်းသည်။ ယေဘုယျဖြစ်ရပ် သို့မဟုတ် သဘာဝနိယာမ အခြေအနေများတွင် ပိုမိုသုံးသည်။",
-      "meaningMy": "နောက်ဆက်တွဲ ဖြစ်ပေါ်လာရန် လိုအပ်သော အခြေအနေ သို့မဟုတ် အကြောင်းတရားကို ဖော်ပြသည်။ အုပ်စု(၁) u အသံမှ eba သို့ပြောင်းသည် (書けば)။ အုပ်စု(၂) る ဖြုတ်၍ れば ပေါင်းသည် (食べれば)။ အုပ်စု(၃) する→すれば၊ くる→くれば ဖြစ်သည်။ い-နာမဝိသေသနတွင် い ဖြုတ်ပြီး ければ (安ければ၊ いい→よければ)။ な-နာမဝိသေသနနှင့် နာမ်တွင် なら/ならば ပေါင်းသည်။ ယေဘုယျဖြစ်ရပ် သို့မဟုတ် သဘာဝနိယာမ အခြေအနေများတွင် ပိုမိုသုံးသည်။",
-      "nuanceExplanationMy": "[Verb-ば] / [い-adj 〜ければ] / [な-adj/Noun なら(ば)] ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "သတ်မှတ်ထားသော အခြေအနေ သို့မဟုတ် အကြောင်းအကျိုးကို ဖော်ပြသည့် ပုံစံ (〜လျှင်)",
+      "nuanceExplanationMy": "[Verb-ば] / [い-adj 〜ければ] / [な-adj/Noun なら(ば)] ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l04.g002",
@@ -1167,7 +1167,7 @@
           "note": "Example 1"
         },
         {
-          "sentenceId": "n4.l04.s002",
+          "sentenceId": "n4.l04.s010",
           "note": "Example 2"
         }
       ],
@@ -1186,8 +1186,8 @@
       },
       "explanationMy": "အခြေအနေတစ်ခု ပိုမိုတိုးပွားလာသည်နှင့်အမျှ ရလဒ်မှာလည်း အချိုးကျ ပြောင်းလဲတိုးတက်လာခြင်းကို ဖော်ပြသည် (\"ပို၍...လေ ပို၍...လေ\")။ ကြိယာ သို့မဟုတ် နာမဝိသေသနကို ば-form ဖြင့်တစ်ကြိမ်၊ မူရင်းပုံစံ + ほど ဖြင့်တစ်ကြိမ် ဆက်တိုက်သုံးသည်။",
       "meaningMyanmar": "အခြေအနေတစ်ခု ပိုမိုတိုးပွားလာသည်နှင့်အမျှ ရလဒ်မှာလည်း အချိုးကျ ပြောင်းလဲတိုးတက်လာခြင်းကို ဖော်ပြသည် (\"ပို၍...လေ ပို၍...လေ\")။ ကြိယာ သို့မဟုတ် နာမဝိသေသနကို ば-form ဖြင့်တစ်ကြိမ်၊ မူရင်းပုံစံ + ほど ဖြင့်တစ်ကြိမ် ဆက်တိုက်သုံးသည်။",
-      "meaningMy": "အခြေအနေတစ်ခု ပိုမိုတိုးပွားလာသည်နှင့်အမျှ ရလဒ်မှာလည်း အချိုးကျ ပြောင်းလဲတိုးတက်လာခြင်းကို ဖော်ပြသည် (\"ပို၍...လေ ပို၍...လေ\")။ ကြိယာ သို့မဟုတ် နာမဝိသေသနကို ば-form ဖြင့်တစ်ကြိမ်၊ မူရင်းပုံစံ + ほど ဖြင့်တစ်ကြိမ် ဆက်တိုက်သုံးသည်။",
-      "nuanceExplanationMy": "[Verb-ば] [Verb-dict] ほど / [い-adj 〜ければ] [い-adj] ほど ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အခြေအနေတစ်ခု တိုးတက်လေလေ နောက်ဆက်တွဲ ရလဒ် ပိုမိုဖြစ်ပေါ်လေလေ ဖြစ်ခြင်း (လေလေ...လေလေ)",
+      "nuanceExplanationMy": "[Verb-ば] [Verb-dict] ほど / [い-adj 〜ければ] [い-adj] ほど ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1519,7 +1519,7 @@
     "title": "理想のアパート探しの条件 (Conditions for Finding an Ideal Apartment)",
     "level": "N4",
     "text": "日本で留学生や社会人がアパートを探すとき、何を重視すればよいでしょうか。多くの人は家賃、駅からの距離、部屋の広さなどを条件に挙げます。\n\n一般的に、駅から近ければ近いほど通勤や通学には便利ですが、その分家賃も高くなります。家賃が安ければ生活費を節約できますが、駅から歩いて二十分以上かかると、雨の日や夜遅い帰宅のときに大変です。\n\nまた、部屋は広ければ広いほど荷物をたくさん置けて快適ですが、冬は暖房が効きにくく、電気代も高くなりがちです。不動産屋に行ってよく相談すれば、自分の予算や生活スタイルに合った物件を提案してもらえます。焦って決めずに、いくつかの部屋を実際に見学して比べれば、後悔しない部屋探しができるはずです。",
-    "kanaText": "日本で留学生や社会人がアパートを探すとき、何を重視すればよいでしょうか。多くの人は家賃、駅からの距離、部屋の広さなどを条件に挙げます。\n\n一般的に、駅から近ければ近いほど通勤や通学には便利ですが、その分家賃も高くなります。家賃が安ければ生活費を節約できますが、駅から歩いて二十分以上かかると、雨の日や夜遅い帰宅のときに大変です。\n\nまた、部屋は広ければ広いほど荷物をたくさん置けて快適ですが、冬は暖房が効きにくく、電気代も高くなりがちです。不動産屋に行ってよく相談すれば、自分の予算や生活スタイルに合った物件を提案してもらえます。焦って決めずに、いくつかの部屋を実際に見学して比べれば、後悔しない部屋探しができるはずです。",
+    "kanaText": "にほんでりゅうがくせいやしゃかいじんがアパートをさがすとき、なにをじゅうしすればよいでしょうか。おおくのひとはやちん、えきからのきょり、へやのひろさなどをじょうけんにあげます。\n\nいっぱんてきに、えきからちかければちかいほどつうきんやつうがくにはべんりですが、そのぶんやちんもたかくなります。やちんがやすければせいかつひをせつやくできますが、えきからあるいてにじゅっぷんいじょうかかると、あめのひやよるおそいきたくのときにたいへんです。\n\nまた、へやはひろければひろいほどにもつをたくさんおけてかいてきですが、ふゆはだんぼうがききにくく、でんきだいもたかくなりがちです。ふどうさんやにいってよくそうだんすれば、じぶんのよさんやせいかつスタイルにあったぶっけんをていあんしてもらえます。あせってきめずに、いくつかのへやをじっさいにけんがくしてくらべれば、こうかいしないへやさがしができるはずです。",
     "translation": "When international students and working adults look for an apartment in Japan, what should they prioritize? Many people list conditions such as rent, distance from the station, and room size.\n\nGenerally, the closer it is to the station, the more convenient commuting to work or school becomes, but rent becomes higher accordingly. If rent is cheap, one can save on living expenses, but if it takes over 20 minutes to walk from the station, it is tough on rainy days or when returning late at night.\n\nAlso, the more spacious a room is, the more belongings one can place and the more comfortable it is, but heating takes longer in winter, and electricity bills tend to rise. If you go to a real estate agency and consult carefully, they will propose properties matching your budget and lifestyle. Rather than rushing, if you visit several rooms in person and compare them, you should be able to find a room without regrets.",
     "questionIds": [
       "n4.l04.q021",
@@ -1539,7 +1539,7 @@
     },
     "titleMy": "理想のアパート探しの条件 (Conditions for Finding an Ideal Apartment) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "理想のアパート探しの条件 (Conditions for Finding an Ideal Apartment) (ဖတ်ရှုခြင်း)",
-    "translationMy": "When international students and working adults look for an apartment in Japan, what should they prioritize? Many people list conditions such as rent, distance from the station, and room size.\n\nGenerally, the closer it is to the station, the more convenient commuting to work or school becomes, but rent becomes higher accordingly. If rent is cheap, one can save on living expenses, but if it takes over 20 minutes to walk from the station, it is tough on rainy days or when returning late at night.\n\nAlso, the more spacious a room is, the more belongings one can place and the more comfortable it is, but heating takes longer in winter, and electricity bills tend to rise. If you go to a real estate agency and consult carefully, they will propose properties matching your budget and lifestyle. Rather than rushing, if you visit several rooms in person and compare them, you should be able to find a room without regrets."
+    "translationMy": "ဂျပန်နိုင်ငံတွင် နိုင်ငံခြားပညာတော်သင်များနှင့် အလုပ်လုပ်ကိုင်သူများ တိုက်ခန်းရှာဖွေသည့်အခါ မည်သည့်အချက်ကို အလေးထားသင့်ပါသလဲ။ လူအများစုသည် အခန်းငှားခ၊ ဘူတာမှအကွာအဝေးနှင့် အခန်းအကျယ်အဝန်းတို့ကို အဓိကသတ်မှတ်ချက်များအဖြစ် ဖော်ပြကြပါသည်။\n\nယေဘုယျအားဖြင့် ဘူတာနှင့် နီးလေလေ ရုံးတက်ကျောင်းတက် သွားလာရ ပိုမိုအဆင်ပြေလေလေ ဖြစ်သော်လည်း ထိုပမာဏအတိုင်း အခန်းငှားခလည်း ကြီးမြင့်သွားတတ်ပါသည်။ အခန်းငှားခ သက်သာပါက နေထိုင်မှုစရိတ်ကို ချွေတာနိုင်သော်လည်း ဘူတာမှ မိနစ်နှစ်ဆယ်ကျော် လမ်းလျှောက်ရပါက မိုးရွာသောနေ့များနှင့် ညဉ့်နက်မှ အိမ်ပြန်ချိန်များတွင် အလွန်ပင်ပန်းရပါလိမ့်မည်။\n\nထို့အပြင် အခန်းကျယ်ဝန်းလေလေ ပစ္စည်းများစွာ ထားရှိနိုင်ပြီး သက်တောင့်သက်သာ ရှိလေလေ ဖြစ်သော်လည်း ဆောင်းရာသီတွင် အပူပေးစက် ထိရောက်မှုနည်းပါးကာ လျှပ်စစ်မီတာခလည်း မြင့်မားတတ်ပါသည်။ အိမ်ခြံမြေအကျိုးဆောင်ထံ သွားရောက်ဆွေးနွေးပါက မိမိ၏ ဘတ်ဂျက်နှင့် လူနေမှုဘဝပုံစံနှင့် ကိုက်ညီသော တိုက်ခန်းများကို အကြံပြုပေးပါလိမ့်မည်။ အလျင်စလို မဆုံးဖြတ်ဘဲ တိုက်ခန်းအချို့ကို ကိုယ်တိုင် သွားရောက်လေ့လာ နှိုင်းယှဉ်ပါက နောင်တမရမည့် အခန်းရှာဖွေမှုမျိုး ပြုလုပ်နိုင်မည် ဖြစ်ပါသည်။"
   },
   "listening": {
     "id": "n4.l04.l01",
@@ -1551,12 +1551,85 @@
       "lang": "ja-JP"
     },
     "speakers": [
-      "A",
-      "B"
+      "店員",
+      "客"
     ],
     "transcript": "店員：いらっしゃいませ。パソコンをお探しですか。\n客：はい。大学のレポート作成と動画編集に使いたいんですが、どれがいいでしょうか。\n店員：動画編集もなさるなら、性能が高ければ高いほど作業が快適になりますよ。こちらの最新モデルはいかがですか。\n客：性能は良さそうですが、少し値段が高いですね。安ければありがたいんですが。\n店員：それでしたら、型落ちのモデルはいかがでしょうか。これなら性能も十分ですし、値段も二万円ほど安くなりますよ。\n客：軽さについてはどうですか。大学に毎日持って行きたいんですが。\n店員：重さは一キロ程度ですから、軽くて持ち運びにとても便利です。実際に持ってみれば、軽さがよく分かりますよ。\n客：本当だ、軽いですね！これに決めようと思います。",
     "translation": "Clerk: Welcome. Are you looking for a personal computer?\nCustomer: Yes. I want to use it for writing university reports and video editing; which one would you recommend?\nClerk: If you do video editing too, the higher the performance, the smoother your work will be. How about this latest model?\nCustomer: The performance looks good, but the price is a bit high. If it were cheaper, I would appreciate it.\nClerk: In that case, how about last year's model? With this one, performance is plenty sufficient, and the price is about 20,000 yen cheaper.\nCustomer: What about the weight? I want to carry it to university every day.\nClerk: The weight is about one kilogram, so it is light and very convenient to carry. If you actually try holding it, you will easily see how light it is.\nCustomer: You're right, it really is light! I think I will decide on this one.",
-    "turns": [],
+    "turns": [
+      {
+        "speaker": "店員",
+        "ja": "いらっしゃいませ。パソコンをお探しですか。",
+        "kana": "いらっしゃいませ。パソコンをおさがしですか。",
+        "en": "Welcome. Are you looking for a computer?",
+        "my": "ကြိုဆိုပါတယ်ခင်ဗျာ။ ကွန်ပျူတာရှာဖွေနေပါသလား။",
+        "myanmar": "ကြိုဆိုပါတယ်ခင်ဗျာ။ ကွန်ပျူတာရှာဖွေနေပါသလား။",
+        "translationMy": "ကြိုဆိုပါတယ်ခင်ဗျာ။ ကွန်ပျူတာရှာဖွေနေပါသလား။"
+      },
+      {
+        "speaker": "客",
+        "ja": "はい。大学のレポート作成と動画編集に使いたいんですが、どれがいいでしょうか。",
+        "kana": "はい。だいがくのレポートさくせいとどうがへんしゅうにつかいたいんですが、どれがいいでしょうか。",
+        "en": "Yes. I want to use it for university reports and video editing; which one would be good?",
+        "my": "ဟုတ်ကဲ့ပါ။ တက္ကသိုလ်စာတမ်းရေးသားခြင်းနဲ့ ဗီဒီယိုတည်းဖြတ်ခြင်းအတွက် သုံးချင်လို့ပါ၊ ဘယ်ဟာကောင်းမလဲခင်ဗျာ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ။ တက္ကသိုလ်စာတမ်းရေးသားခြင်းနဲ့ ဗီဒီယိုတည်းဖြတ်ခြင်းအတွက် သုံးချင်လို့ပါ၊ ဘယ်ဟာကောင်းမလဲခင်ဗျာ။",
+        "translationMy": "ဟုတ်ကဲ့ပါ။ တက္ကသိုလ်စာတမ်းရေးသားခြင်းနဲ့ ဗီဒီယိုတည်းဖြတ်ခြင်းအတွက် သုံးချင်လို့ပါ၊ ဘယ်ဟာကောင်းမလဲခင်ဗျာ။"
+      },
+      {
+        "speaker": "店員",
+        "ja": "動画編集もなさるなら、性能が高ければ高いほど作業が快適になりますよ。こちらの最新モデルはいかがですか。",
+        "kana": "どうがへんしゅうもなさるなら、せいのうがたかければたかいほどさぎょうがかいてきになりますよ。こちらのさいしんモデルはいかがですか。",
+        "en": "If you also do video editing, the higher the performance, the smoother the work will be. How about this latest model?",
+        "my": "ဗီဒီယိုတည်းဖြတ်မှုလည်း လုပ်မယ်ဆိုရင် စွမ်းဆောင်ရည်မြင့်လေလေ အလုပ်လုပ်ရတာ ပိုချောမွေ့သက်တောင့်သက်သာရှိလေလေ ဖြစ်ပါလိမ့်မယ်ခင်ဗျာ။ ဒီနောက်ဆုံးပေါ်မော်ဒယ်ကို သဘောကျပါသလား။",
+        "myanmar": "ဗီဒီယိုတည်းဖြတ်မှုလည်း လုပ်မယ်ဆိုရင် စွမ်းဆောင်ရည်မြင့်လေလေ အလုပ်လုပ်ရတာ ပိုချောမွေ့သက်တောင့်သက်သာရှိလေလေ ဖြစ်ပါလိမ့်မယ်ခင်ဗျာ။ ဒီနောက်ဆုံးပေါ်မော်ဒယ်ကို သဘောကျပါသလား။",
+        "translationMy": "ဗီဒီယိုတည်းဖြတ်မှုလည်း လုပ်မယ်ဆိုရင် စွမ်းဆောင်ရည်မြင့်လေလေ အလုပ်လုပ်ရတာ ပိုချောမွေ့သက်တောင့်သက်သာရှိလေလေ ဖြစ်ပါလိမ့်မယ်ခင်ဗျာ။ ဒီနောက်ဆုံးပေါ်မော်ဒယ်ကို သဘောကျပါသလား။"
+      },
+      {
+        "speaker": "客",
+        "ja": "性能は良さそうですが、少し値段が高いですね。安ければありがたいんですが。",
+        "kana": "せいのうはよさそうですが、すこしねだんがたかいですね。やすければありがたいんですが。",
+        "en": "The specs seem good, but the price is a bit high. If it were cheaper, it would be great.",
+        "my": "စွမ်းဆောင်ရည်ကောင်းပုံရပေမယ့် ဈေးနည်းနည်းကြီးနေတယ်နော်။ ဈေးသက်သာရင် ပိုကောင်းမလို့ပါ။",
+        "myanmar": "စွမ်းဆောင်ရည်ကောင်းပုံရပေမယ့် ဈေးနည်းနည်းကြီးနေတယ်နော်။ ဈေးသက်သာရင် ပိုကောင်းမလို့ပါ။",
+        "translationMy": "စွမ်းဆောင်ရည်ကောင်းပုံရပေမယ့် ဈေးနည်းနည်းကြီးနေတယ်နော်။ ဈေးသက်သာရင် ပိုကောင်းမလို့ပါ။"
+      },
+      {
+        "speaker": "店員",
+        "ja": "それでしたら、型落ちのモデルはいかがでしょうか。これなら性能も十分ですし、値段も二万円ほど安くなりますよ。",
+        "kana": "それでしたら、かたおちのモデルはいかがでしょうか。これならせいのうもじゅうぶんですし、ねだんもにまんえんほどやすくなりますよ。",
+        "en": "In that case, how about last year’s model? Its performance is plenty, and the price is about 20,000 yen cheaper.",
+        "my": "ဒါဆိုရင်တော့ မနှစ်ကထွက်တဲ့မော်ဒယ်ကို ဘယ်လိုမြင်ပါသလဲ။ ဒါဆိုရင် စွမ်းဆောင်ရည်လည်း လုံလောက်ပြီး ဈေးနှုန်းလည်း ယန်းနှစ်သောင်းလောက် သက်သာပါလိမ့်မယ်။",
+        "myanmar": "ဒါဆိုရင်တော့ မနှစ်ကထွက်တဲ့မော်ဒယ်ကို ဘယ်လိုမြင်ပါသလဲ။ ဒါဆိုရင် စွမ်းဆောင်ရည်လည်း လုံလောက်ပြီး ဈေးနှုန်းလည်း ယန်းနှစ်သောင်းလောက် သက်သာပါလိမ့်မယ်။",
+        "translationMy": "ဒါဆိုရင်တော့ မနှစ်ကထွက်တဲ့မော်ဒယ်ကို ဘယ်လိုမြင်ပါသလဲ။ ဒါဆိုရင် စွမ်းဆောင်ရည်လည်း လုံလောက်ပြီး ဈေးနှုန်းလည်း ယန်းနှစ်သောင်းလောက် သက်သာပါလိမ့်မယ်။"
+      },
+      {
+        "speaker": "客",
+        "ja": "軽さについてはどうですか。大学に毎日持って行きたいんですが。",
+        "kana": "かるさについてはどうですか。だいがくにまいにちもっていきたいんですが。",
+        "en": "How about the weight? I want to carry it to university every day.",
+        "my": "ပေါ့ပါးမှုအပိုင်းကကော ဘယ်လိုလဲခင်ဗျာ။ တက္ကသိုလ်ကို နေ့တိုင်းသယ်သွားချင်လို့ပါ။",
+        "myanmar": "ပေါ့ပါးမှုအပိုင်းကကော ဘယ်လိုလဲခင်ဗျာ။ တက္ကသိုလ်ကို နေ့တိုင်းသယ်သွားချင်လို့ပါ။",
+        "translationMy": "ပေါ့ပါးမှုအပိုင်းကကော ဘယ်လိုလဲခင်ဗျာ။ တက္ကသိုလ်ကို နေ့တိုင်းသယ်သွားချင်လို့ပါ။"
+      },
+      {
+        "speaker": "店員",
+        "ja": "重さは一キロ程度ですから、軽くて持ち運びにとても便利です。実際に持ってみれば、軽さがよく分かりますよ。",
+        "kana": "おもさはいっきろていどですから、かるくてもちはこびにとてもべんりです。じっさいにもってみれば、かるさがよくわかりますよ。",
+        "en": "It weighs around one kilogram, so it is lightweight and very convenient to carry. If you hold it, you will notice how light it is.",
+        "my": "အလေးချိန်က တစ်ကီလိုဂရမ်ခန့်သာရှိတာမို့ ပေါ့ပါးပြီး သယ်ဆောင်ရတာ သိပ်အဆင်ပြေပါတယ်။ ကိုယ်တိုင်မကြည့်ရင် ပေါ့ပါးတာကို ချက်ချင်းသိနိုင်ပါတယ်ခင်ဗျာ။",
+        "myanmar": "အလေးချိန်က တစ်ကီလိုဂရမ်ခန့်သာရှိတာမို့ ပေါ့ပါးပြီး သယ်ဆောင်ရတာ သိပ်အဆင်ပြေပါတယ်။ ကိုယ်တိုင်မကြည့်ရင် ပေါ့ပါးတာကို ချက်ချင်းသိနိုင်ပါတယ်ခင်ဗျာ။",
+        "translationMy": "အလေးချိန်က တစ်ကီလိုဂရမ်ခန့်သာရှိတာမို့ ပေါ့ပါးပြီး သယ်ဆောင်ရတာ သိပ်အဆင်ပြေပါတယ်။ ကိုယ်တိုင်မကြည့်ရင် ပေါ့ပါးတာကို ချက်ချင်းသိနိုင်ပါတယ်ခင်ဗျာ။"
+      },
+      {
+        "speaker": "客",
+        "ja": "本当だ、軽いですね！これに決めようと思います。",
+        "kana": "ほんとうだ、かるいですね！これにきめようとおもいます。",
+        "en": "Indeed, it is really light! I think I will go with this one.",
+        "my": "တကယ်ပဲ ပေါ့တာပဲနော်။ ဒါလေးပဲ ယူဖို့ ဆုံးဖြတ်လိုက်ပါမယ်။",
+        "myanmar": "တကယ်ပဲ ပေါ့တာပဲနော်။ ဒါလေးပဲ ယူဖို့ ဆုံးဖြတ်လိုက်ပါမယ်။",
+        "translationMy": "တကယ်ပဲ ပေါ့တာပဲနော်။ ဒါလေးပဲ ယူဖို့ ဆုံးဖြတ်လိုက်ပါမယ်။"
+      }
+    ],
     "questionIds": [
       "n4.l04.q026",
       "n4.l04.q027",
@@ -1574,7 +1647,7 @@
     },
     "titleMy": "ノートパソコン選びの相談 (Consulting on Choosing a Laptop) (နားထောင်ခြင်း)",
     "titleMyanmar": "ノートパソコン選びの相談 (Consulting on Choosing a Laptop) (နားထောင်ခြင်း)",
-    "translationMy": "Clerk: Welcome. Are you looking for a personal computer?\nCustomer: Yes. I want to use it for writing university reports and video editing; which one would you recommend?\nClerk: If you do video editing too, the higher the performance, the smoother your work will be. How about this latest model?\nCustomer: The performance looks good, but the price is a bit high. If it were cheaper, I would appreciate it.\nClerk: In that case, how about last year's model? With this one, performance is plenty sufficient, and the price is about 20,000 yen cheaper.\nCustomer: What about the weight? I want to carry it to university every day.\nClerk: The weight is about one kilogram, so it is light and very convenient to carry. If you actually try holding it, you will easily see how light it is.\nCustomer: You're right, it really is light! I think I will decide on this one."
+    "translationMy": "အရောင်းဝန်ထမ်း- ကြိုဆိုပါတယ်ခင်ဗျာ။ ကွန်ပျူတာရှာဖွေနေပါသလား။\nဧည့်သည်- ဟုတ်ကဲ့ပါ။ တက္ကသိုလ်စာတမ်းရေးသားခြင်းနဲ့ ဗီဒီယိုတည်းဖြတ်ခြင်းအတွက် သုံးချင်လို့ပါ၊ ဘယ်ဟာကောင်းမလဲခင်ဗျာ။\nအရောင်းဝန်ထမ်း- ဗီဒီယိုတည်းဖြတ်မှုလည်း လုပ်မယ်ဆိုရင် စွမ်းဆောင်ရည်မြင့်လေလေ အလုပ်လုပ်ရတာ ပိုချောမွေ့သက်တောင့်သက်သာရှိလေလေ ဖြစ်ပါလိမ့်မယ်ခင်ဗျာ။ ဒီနောက်ဆုံးပေါ်မော်ဒယ်ကို သဘောကျပါသလား။\nဧည့်သည်- စွမ်းဆောင်ရည်ကောင်းပုံရပေမယ့် ဈေးနည်းနည်းကြီးနေတယ်နော်။ ဈေးသက်သာရင် ပိုကောင်းမလို့ပါ။\nအရောင်းဝန်ထမ်း- ဒါဆိုရင်တော့ မနှစ်ကထွက်တဲ့မော်ဒယ်ကို ဘယ်လိုမြင်ပါသလဲ။ ဒါဆိုရင် စွမ်းဆောင်ရည်လည်း လုံလောက်ပြီး ဈေးနှုန်းလည်း ယန်းနှစ်သောင်းလောက် သက်သာပါလိမ့်မယ်။\nဧည့်သည်- ပေါ့ပါးမှုအပိုင်းကကော ဘယ်လိုလဲခင်ဗျာ။ တက္ကသိုလ်ကို နေ့တိုင်းသယ်သွားချင်လို့ပါ။\nအရောင်းဝန်ထမ်း- အလေးချိန်က တစ်ကီလိုဂရမ်ခန့်သာရှိတာမို့ ပေါ့ပါးပြီး သယ်ဆောင်ရတာ သိပ်အဆင်ပြေပါတယ်။ ကိုယ်တိုင်မကြည့်ရင် ပေါ့ပါးတာကို ချက်ချင်းသိနိုင်ပါတယ်ခင်ဗျာ။\nဧည့်သည်- တကယ်ပဲ ပေါ့တာပဲနော်။ ဒါလေးပဲ ယူဖို့ ဆုံးဖြတ်လိုက်ပါမယ်။"
   },
   "questions": [
     {
@@ -2242,7 +2315,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「通勤には便利だが、家賃が高くなる」 ဖြစ်ပါသည်။ (The text states: 駅から近ければ近いほど通勤や通学には便利ですが、その分家賃も高くなります.)",
+      "explanationMy": "အဖြေမှန်မှာ 「通勤には便利だが、家賃が高くなる」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"駅から近ければ近いほど通勤や通学には便利ですが、その分家賃も高くなります.\")",
       "choicesMy": [
         "通勤には便利だが、家賃が高くなる",
         "家賃が安くなり、部屋が広くなる",
@@ -2274,7 +2347,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「雨の日や夜遅い帰宅のときに大変であること」 ဖြစ်ပါသည်။ (The text says: 駅から歩いて二十分以上かかると、雨の日や夜遅い帰宅のときに大変です.)",
+      "explanationMy": "အဖြေမှန်မှာ 「雨の日や夜遅い帰宅のときに大変であること」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"駅から歩いて二十分以上かかると、雨の日や夜遅い帰宅のときに大変です.\")",
       "choicesMy": [
         "雨の日や夜遅い帰宅のときに大変であること",
         "部屋が狭すぎること",
@@ -2306,7 +2379,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「冬は暖房が効きにくく、電気代が高くなりがちであること」 ဖြစ်ပါသည်။ (The text states: 冬は暖房が効きにくく、電気代も高くなりがちです.)",
+      "explanationMy": "အဖြေမှန်မှာ 「冬は暖房が効きにくく、電気代が高くなりがちであること」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"冬は暖房が効きにくく、電気代も高くなりがちです.\")",
       "choicesMy": [
         "冬は暖房が効きにくく、電気代が高くなりがちであること",
         "荷物を置く場所がないこと",
@@ -2338,7 +2411,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「予算や生活スタイルに合った物件を提案してもらえること」 ဖြစ်ပါသည်။ (The text says: 不動産屋に行ってよく相談すれば、自分の予算や生活スタイルに合った物件を提案してもらえます.)",
+      "explanationMy": "အဖြေမှန်မှာ 「予算や生活スタイルに合った物件を提案してもらえること」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"不動産屋に行ってよく相談すれば、自分の予算や生活スタイルに合った物件を提案してもらえます.\")",
       "choicesMy": [
         "予算や生活スタイルに合った物件を提案してもらえること",
         "無料で家具を全部もらえること",
@@ -2402,7 +2475,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「大学のレポート作成と動画編集」 ဖြစ်ပါသည်။ (Customer says: 大学のレポート作成と動画編集に使いたいんですが.)",
+      "explanationMy": "အဖြေမှန်မှာ 「大学のレポート作成と動画編集」 ဖြစ်ပါသည်။ (ဧည့်သည်က ပြောကြားသည်မှာ- \"大学のレポート作成と動画編集に使いたいんですが.\")",
       "choicesMy": [
         "大学のレポート作成と動画編集",
         "ゲームのプレイと音楽制作",
@@ -2548,6 +2621,6 @@
   },
   "titleMy": "N4 Lesson 4: Conditional ば-form (仮定形: 行けば・安ければ) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 4: Conditional ば-form (仮定形: 行けば・安ければ) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 4: Conditional ば-form (仮定形: 行けば・安ければ) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "အခြေအနေပြ သဒ္ဒါပုံစံ (〜ば) နှင့် အချိုးကျ တိုးတက်ပြောင်းလဲမှု (〜ば〜ほど) ဆိုင်ရာ သဒ္ဒါနှင့် အသုံးအနှုန်းများ။",
   "descriptionMyanmar": "N4 Lesson 4: Conditional ば-form (仮定形: 行けば・安ければ) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

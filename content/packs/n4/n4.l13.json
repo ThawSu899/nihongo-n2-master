@@ -960,7 +960,7 @@
           "meaning": "painful; hard",
           "preview": false,
           "meaningMyanmar": "painful; hard",
-          "meaningMy": "painful; hard"
+          "meaningMy": "ပင်ပန်းဆင်းရဲသော / ခက်ခဲသော"
         }
       ],
       "exampleSentenceIds": [
@@ -1060,7 +1060,7 @@
           "meaning": "ruler (measuring)",
           "preview": false,
           "meaningMyanmar": "ruler (measuring)",
-          "meaningMy": "ruler (measuring)"
+          "meaningMy": "ပေတံ"
         }
       ],
       "exampleSentenceIds": [
@@ -1108,7 +1108,7 @@
           "meaning": "general principle",
           "preview": false,
           "meaningMyanmar": "general principle",
-          "meaningMy": "general principle"
+          "meaningMy": "အခြေခံမူ"
         }
       ],
       "exampleSentenceIds": [
@@ -1170,8 +1170,8 @@
       },
       "explanationMy": "အခြားသူတစ်ဦး၏ ဖိအားပေးမှု သို့မဟုတ် တောင်းဆိုမှုကြောင့် မိမိမလုပ်ချင်သောအရာကို မလွှဲမရှောင်သာ ပြုလုပ်ရသည့်အခါ သုံးသော Causative-Passive (使役受け身) ဖြစ်သည်။",
       "meaningMyanmar": "အခြားသူတစ်ဦး၏ ဖိအားပေးမှု သို့မဟုတ် တောင်းဆိုမှုကြောင့် မိမိမလုပ်ချင်သောအရာကို မလွှဲမရှောင်သာ ပြုလုပ်ရသည့်အခါ သုံးသော Causative-Passive (使役受け身) ဖြစ်သည်။",
-      "meaningMy": "အခြားသူတစ်ဦး၏ ဖိအားပေးမှု သို့မဟုတ် တောင်းဆိုမှုကြောင့် မိမိမလုပ်ချင်သောအရာကို မလွှဲမရှောင်သာ ပြုလုပ်ရသည့်အခါ သုံးသော Causative-Passive (使役受け身) ဖြစ်သည်။",
-      "nuanceExplanationMy": "[Subject] は [Agent] に [Verb 使役受身形 (〜させられる / 〜される)] ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အခြားသူတစ်ဦးအား တစ်စုံတစ်ခုကို စေခိုင်းခြင်း သို့မဟုတ် ခွင့်ပြုပေးခြင်း (စေခိုင်းပုံစံ)",
+      "nuanceExplanationMy": "[Subject] は [Agent] に [Verb 使役受身形 (〜させられる / 〜される)] ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l13.g002",
@@ -1208,8 +1208,8 @@
       },
       "explanationMy": "ဖြစ်ရပ်တစ်ခု သို့မဟုတ် သတင်းတစ်ခုကြောင့် အလေးအနက် တွေးတောဆင်ခြင်မိစေခဲ့သည်ဟူသော အဓိပ္ပာယ် (ဥပမာ- 考えさせられた = တွေးတောစရာဖြစ်စေခဲ့သည်)။",
       "meaningMyanmar": "ဖြစ်ရပ်တစ်ခု သို့မဟုတ် သတင်းတစ်ခုကြောင့် အလေးအနက် တွေးတောဆင်ခြင်မိစေခဲ့သည်ဟူသော အဓိပ္ပာယ် (ဥပမာ- 考えさせられた = တွေးတောစရာဖြစ်စေခဲ့သည်)။",
-      "meaningMy": "ဖြစ်ရပ်တစ်ခု သို့မဟုတ် သတင်းတစ်ခုကြောင့် အလေးအနက် တွေးတောဆင်ခြင်မိစေခဲ့သည်ဟူသော အဓိပ္ပာယ် (ဥပမာ- 考えさせられた = တွေးတောစရာဖြစ်စေခဲ့သည်)။",
-      "nuanceExplanationMy": "[Event/Situation] で [Verb 使役受身形 (〜させられた / 考えさせられた)] ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အခြားသူတစ်ဦးအား တစ်စုံတစ်ခုကို စေခိုင်းခြင်း သို့မဟုတ် ခွင့်ပြုပေးခြင်း (စေခိုင်းပုံစံ)",
+      "nuanceExplanationMy": "[Event/Situation] で [Verb 使役受身形 (〜させられた / 考えさせられた)] ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1597,7 +1597,7 @@
     "title": "部活動の合宿と成長の思い出",
     "level": "N4",
     "text": "高校一年生の夏、私はサッカー部の夏期合宿に参加しました。普段の練習よりもはるかに厳しい合宿で、今でも忘れられない思い出がたくさんあります。\n\n合宿中は、毎朝五時半に叩き起こされ、朝食の前に全員で五キロの山道を走らされました。走るのが苦手だった私は足が痛くて何度も止まりそうになりましたが、先輩に大声で励まされ、なんとか走り切りました。さらに午後の練習の後には、グラウンドの草むしりやボール磨きなどの片付けを一年生全員で遅くまでさせられました。\n\n当時は「どうしてこんなに辛いことばかりさせられるのだろう」と不満に思っていました。しかし合宿を終えて学校に戻ったとき、自分の体力が以前よりずっと向上していることに気づきました。また、辛い練習を一緒に乗り越えた同級生たちとの絆も深まっていました。\n\nあのときは無理やりやらされていると感じていましたが、今振り返ると、自分の忍耐力を育ててくれた貴重な経験だったと感謝しています。",
-    "kanaText": "こうこういちねんせいのなつ、わたしはサッカーぶのかきがっしゅくにさんかしました。ふだんのれんしゅうよりもはるかにきびしいがっしゅくで、いまでもわすれられないおもいでがたくさんあります。\n\nがっしゅくちゅうは、まいあさごじはんにたたきおこされ、ちょうしょくのまえにぜんいんでごキロのやまみちをはしらされました。はしるのがにがてだったわたしはあしがいたくてなんどもとまりそうになりましたが、せんぱいにおおごえではげまされ、なんとかはしりきりました。さらにごごのれんしゅうのあとには、グラウンドのくさむしりやボールみがきなどのかたづけをいちねんせいぜんいんでおそくまでさせられました。\n\nとうじは「どうしてこんなにつらいことばかりさせられるのだろう」とふま内におもっていました。しかしがっしゅくをおえてがっこうにもどったとき、じぶんのたいりょくがいぜんよりずっとこうじょうしていることにきづきました。また、つらいれんしゅうをいっしょにのりこえたどうきゅうせいたちとのきずなもふかまっていました。\n\nあのときはむりやりやらされているとかんじていましたが、いまふりかえると、じぶんのにんたいりょくをそだててくれたきちょうなけいけんだったとかんしゃしています。",
+    "kanaText": "こうこういちねんせいのなつ、わたしはサッカーぶのかきがっしゅくにさんかしました。ふだんのれんしゅうよりもはるかにきびしいがっしゅくで、いまでもわすれられないおもいでがたくさんあります。\n\nがっしゅくちゅうは、まいあさごじはんにたたきおこされ、ちょうしょくのまえにぜんいんでごキロのやまみちをはしらされました。はしるのがにがてだったわたしはあしがいたくてなんどもとまりそうになりましたが、せんぱいにおおごえではげまされ、なんとかはしりきりました。さらにごごのれんしゅうのあとには、グラウンドのくさむしりやボールみがきなどのかたづけをいちねんせいぜんいんでおそくまでさせられました。\n\nとうじは「どうしてこんなにつらいことばかりさせられるのだろう」とふあんにとおもっていました。しかしがっしゅくをおえてがっこうにもどったとき、じぶんのたいりょくがいぜんよりずっとこうじょうしていることにきづきました。また、つらいれんしゅうをいっしょにのりこえたどうきゅうせいたちとのきずなもふかまっていました。\n\nあのときはむりやりやらされているとかんじていましたが、いまふりかえると、じぶんのにんたいりょくをそだててくれたきちょうなけいけんだったとかんしゃしています。",
     "translation": "In the summer of my first year in high school, I participated in the soccer club's summer training camp. It was far stricter than normal practices, leaving me with many unforgettable memories even today.\n\nDuring camp, we were woken abruptly at 5:30 every morning and made to run a 5-kilometer mountain road as a whole squad before breakfast. Being poor at running, my legs hurt and I felt like stopping many times, but cheered on loudly by seniors, I managed to finish running. Furthermore, after afternoon practice, all first-years were made to stay late weeding the athletic field and polishing soccer balls.\n\nAt that time, I felt dissatisfied, wondering: \"Why are we made to do only such painful chores?\" However, when camp ended and we returned to school, I noticed that my stamina had improved drastically compared to before. Furthermore, our bonds with classmates who overcame the hard training together had deepened.\n\nBack then I felt like I was being forced against my will, but looking back now, I appreciate it as a valuable experience that cultivated my endurance.",
     "questionIds": [
       "n4.l13.q021",
@@ -1617,7 +1617,7 @@
     },
     "titleMy": "部活動の合宿と成長の思い出 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "部活動の合宿と成長の思い出 (ဖတ်ရှုခြင်း)",
-    "translationMy": "In the summer of my first year in high school, I participated in the soccer club's summer training camp. It was far stricter than normal practices, leaving me with many unforgettable memories even today.\n\nDuring camp, we were woken abruptly at 5:30 every morning and made to run a 5-kilometer mountain road as a whole squad before breakfast. Being poor at running, my legs hurt and I felt like stopping many times, but cheered on loudly by seniors, I managed to finish running. Furthermore, after afternoon practice, all first-years were made to stay late weeding the athletic field and polishing soccer balls.\n\nAt that time, I felt dissatisfied, wondering: \"Why are we made to do only such painful chores?\" However, when camp ended and we returned to school, I noticed that my stamina had improved drastically compared to before. Furthermore, our bonds with classmates who overcame the hard training together had deepened.\n\nBack then I felt like I was being forced against my will, but looking back now, I appreciate it as a valuable experience that cultivated my endurance."
+    "translationMy": "N4 Lesson 13: Causative-Passive Form (使役受け身: 待たされる・行かされる) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l13.l01",
@@ -1638,56 +1638,83 @@
       {
         "speaker": "リン",
         "ja": "ケン君、昨日の映画はどうだった？面白かった？",
-        "kana": "ケン君、昨日の映画はどうだった？面白かった？",
-        "en": ""
+        "kana": "ケンくん、きのうのえいがはどうだった？おもしろかった？",
+        "en": "Ken, how was yesterday's movie? Was it interesting?",
+        "my": "ကန်မောင်၊ မနေ့က ရုပ်ရှင် ဘယ်လိုလဲ? စိတ်ဝင်စားဖို့ ကောင်းလား?",
+        "myanmar": "ကန်မောင်၊ မနေ့က ရုပ်ရှင် ဘယ်လိုလဲ? စိတ်ဝင်စားဖို့ ကောင်းလား?",
+        "translationMy": "ကန်မောင်၊ မနေ့က ရုပ်ရှင် ဘယ်လိုလဲ? စိတ်ဝင်စားဖို့ ကောင်းလား?"
       },
       {
         "speaker": "ケン",
         "ja": "映画自体はすごく良かったんだけど、行くまでが大変だったんだよ。",
-        "kana": "映画自体はすごく良かったんだけど、行くまでが大変だったんだよ。",
-        "en": ""
+        "kana": "えいがじたいはすごくよかったんだけど、いくまでがたいへんだったんだよ。",
+        "en": "The movie itself was great, but getting there was an ordeal!",
+        "my": "ရုပ်ရှင်ကိုယ်တိုင်ကတော့ အရမ်းကောင်းပါတယ်၊ ဒါပေမဲ့ သွားတဲ့အထိက တော်တော် ဒုက္ခရောက်ခဲ့ရတာ။",
+        "myanmar": "ရုပ်ရှင်ကိုယ်တိုင်ကတော့ အရမ်းကောင်းပါတယ်၊ ဒါပေမဲ့ သွားတဲ့အထိက တော်တော် ဒုက္ခရောက်ခဲ့ရတာ။",
+        "translationMy": "ရုပ်ရှင်ကိုယ်တိုင်ကတော့ အရမ်းကောင်းပါတယ်၊ ဒါပေမဲ့ သွားတဲ့အထိက တော်တော် ဒုက္ခရောက်ခဲ့ရတာ။"
       },
       {
         "speaker": "リン",
         "ja": "えっ、何かあったの？",
-        "kana": "えっ、何かあったの？",
-        "en": ""
+        "kana": "えっ、なにかあったの？",
+        "en": "What, did something happen?",
+        "my": "ဟယ်၊ ဘာဖြစ်လို့လဲ?",
+        "myanmar": "ဟယ်၊ ဘာဖြစ်လို့လဲ?",
+        "translationMy": "ဟယ်၊ ဘာဖြစ်လို့လဲ?"
       },
       {
         "speaker": "ケン",
         "ja": "待ち合わせの駅で、一緒に行った友達が寝坊して、雨の中一時間も待たされたんだ。",
-        "kana": "待ち合わせの駅で、一緒に行った友達が寝坊して、雨の中一時間も待たされたんだ。",
-        "en": ""
+        "kana": "まちあわせのえきで、いっしょにいったともだちがねぼうして、あめのなかいちじかんもまたされたんだ。",
+        "en": "At the station meeting point, the friend I went with overslept, and I was made to wait in the rain for a whole hour!",
+        "my": "ချိန်းထားတဲ့ဘူတာမှာ အတူသွားတဲ့သူငယ်ချင်းက အိပ်ရာထနောက်ကျလို့ မိုးထဲရေထဲမှာ တစ်နာရီတောင် စောင့်ဆိုင်းခဲ့ရတာ။",
+        "myanmar": "ချိန်းထားတဲ့ဘူတာမှာ အတူသွားတဲ့သူငယ်ချင်းက အိပ်ရာထနောက်ကျလို့ မိုးထဲရေထဲမှာ တစ်နာရီတောင် စောင့်ဆိုင်းခဲ့ရတာ။",
+        "translationMy": "ချိန်းထားတဲ့ဘူတာမှာ အတူသွားတဲ့သူငယ်ချင်းက အိပ်ရာထနောက်ကျလို့ မိုးထဲရေထဲမှာ တစ်နာရီတောင် စောင့်ဆိုင်းခဲ့ရတာ။"
       },
       {
         "speaker": "リン",
         "ja": "一時間も！？それは寒かったでしょう。",
-        "kana": "一時間も！？それは寒かったでしょう。",
-        "en": ""
+        "kana": "いちじかんも！？それはさむかったでしょう。",
+        "en": "A whole hour!? That must have been cold.",
+        "my": "တစ်နာရီတောင်လား!? အေးလိုက်မယ့်ဖြစ်ခြင်း။",
+        "myanmar": "တစ်နာရီတောင်လား!? အေးလိုက်မယ့်ဖြစ်ခြင်း။",
+        "translationMy": "တစ်နာရီတောင်လား!? အေးလိုက်မယ့်ဖြစ်ခြင်း။"
       },
       {
         "speaker": "ケン",
         "ja": "うん。しかもその友達、急いで家を出たから財布を忘れたと言って、チケット代まで私が払わされたんだよ。",
-        "kana": "うん。しかもその友達、急いで家を出たから財布を忘れたと言って、チケット代まで私が払わされたんだよ。",
-        "en": ""
+        "kana": "うん。しかもそのともだち、いそいでいえをでたからさいふをわすれたといって、チケットだいまでわたしがはらわされたんだよ。",
+        "en": "Yeah. And on top of that, that friend rushed out and forgot his wallet, so I was made to pay for his movie ticket too!",
+        "my": "ဟုတ်တယ်လေ။ အဲဒီအပြင် အဲဒီသူငယ်ချင်းက အိမ်ကနေ အလောတကြီးထွက်လာလို့ ပိုက်ဆံအိတ်ကျန်ခဲ့တယ်ဆိုပြီး လက်မှတ်ဖိုးပါ ငါ့ကို ပေးခိုင်းခဲ့တာ။",
+        "myanmar": "ဟုတ်တယ်လေ။ အဲဒီအပြင် အဲဒီသူငယ်ချင်းက အိမ်ကနေ အလောတကြီးထွက်လာလို့ ပိုက်ဆံအိတ်ကျန်ခဲ့တယ်ဆိုပြီး လက်မှတ်ဖိုးပါ ငါ့ကို ပေးခိုင်းခဲ့တာ။",
+        "translationMy": "ဟုတ်တယ်လေ။ အဲဒီအပြင် အဲဒီသူငယ်ချင်းက အိမ်ကနေ အလောတကြီးထွက်လာလို့ ပိုက်ဆံအိတ်ကျန်ခဲ့တယ်ဆိုပြီး လက်မှတ်ဖိုးပါ ငါ့ကို ပေးခိုင်းခဲ့တာ။"
       },
       {
         "speaker": "リン",
         "ja": "ええーっ、それはちょっと酷いね。あとでちゃんとお金を返してもらったの？",
-        "kana": "ええーっ、それはちょっと酷いね。あとでちゃんとお金を返してもらったの？",
-        "en": ""
+        "kana": "ええーっ、それはちょっとひどいね。あとでちゃんとおかねをかえしてもらったの？",
+        "en": "Ehhh! That is a bit harsh. Did he properly pay you back later?",
+        "my": "ဟယ်၊ အဲဒါတော့ နည်းနည်းဆိုးတာပေါ့။ နောက်မှ ပိုက်ဆံသေချာ ပြန်ပေးရဲ့လား?",
+        "myanmar": "ဟယ်၊ အဲဒါတော့ နည်းနည်းဆိုးတာပေါ့။ နောက်မှ ပိုက်ဆံသေချာ ပြန်ပေးရဲ့လား?",
+        "translationMy": "ဟယ်၊ အဲဒါတော့ နည်းနည်းဆိုးတာပေါ့။ နောက်မှ ပိုက်ဆံသေချာ ပြန်ပေးရဲ့လား?"
       },
       {
         "speaker": "ケン",
         "ja": "うん、映画の後に銀行でおろして返してくれて、お詫びに美味しいカフェのケーキをご馳走してくれたから、許してあげたよ。",
-        "kana": "うん、映画の後に銀行でおろして返してくれて、お詫びに美味しいカフェのケーキをご馳走してくれたから、許してあげたよ。",
-        "en": ""
+        "kana": "うん、えいがのあとにぎんこうでおろしてかえしてくれて、おわびにおいしいカフェのケーキをごちそうしてくれたから、ゆるしてあげたよ。",
+        "en": "Yes, after the movie he withdrew money from an ATM and returned it, and treated me to delicious cake at a cafe by way of apology, so I forgave him.",
+        "my": "အင်း၊ ရုပ်ရှင်ကြည့်ပြီးတော့ ဘဏ်ကနေ ထုတ်ပြီး ပြန်ပေးခဲ့တယ်၊ တောင်းပန်တဲ့အနေနဲ့ အရသာရှိတဲ့ ကော်ဖီဆိုင်က ကိတ်မုန့် ကျွေးခဲ့လို့ ခွင့်လွှတ်ပေးလိုက်ပါတယ်။",
+        "myanmar": "အင်း၊ ရုပ်ရှင်ကြည့်ပြီးတော့ ဘဏ်ကနေ ထုတ်ပြီး ပြန်ပေးခဲ့တယ်၊ တောင်းပန်တဲ့အနေနဲ့ အရသာရှိတဲ့ ကော်ဖီဆိုင်က ကိတ်မုန့် ကျွေးခဲ့လို့ ခွင့်လွှတ်ပေးလိုက်ပါတယ်။",
+        "translationMy": "အင်း၊ ရုပ်ရှင်ကြည့်ပြီးတော့ ဘဏ်ကနေ ထုတ်ပြီး ပြန်ပေးခဲ့တယ်၊ တောင်းပန်တဲ့အနေနဲ့ အရသာရှိတဲ့ ကော်ဖီဆိုင်က ကိတ်မုန့် ကျွေးခဲ့လို့ ခွင့်လွှတ်ပေးလိုက်ပါတယ်။"
       },
       {
         "speaker": "リン",
         "ja": "なら良かった！災難だったけど、最後は仲直りできたんだね。",
-        "kana": "なら良かった！災難だったけど、最後は仲直りできたんだね。",
-        "en": ""
+        "kana": "ならよかった！さいなんだったけど、さいごはなかなおりできたんだね。",
+        "en": "That's a relief! It was an ordeal, but you made up in the end.",
+        "my": "ဒါဆိုရင်တော့ တော်သေးတာပေါ့! ကံဆိုးမိုးမှောင်ကျခဲ့ပေမဲ့ နောက်ဆုံးတော့ ပြေလည်သွားတာပေါ့နော်။",
+        "myanmar": "ဒါဆိုရင်တော့ တော်သေးတာပေါ့! ကံဆိုးမိုးမှောင်ကျခဲ့ပေမဲ့ နောက်ဆုံးတော့ ပြေလည်သွားတာပေါ့နော်။",
+        "translationMy": "ဒါဆိုရင်တော့ တော်သေးတာပေါ့! ကံဆိုးမိုးမှောင်ကျခဲ့ပေမဲ့ နောက်ဆုံးတော့ ပြေလည်သွားတာပေါ့နော်။"
       }
     ],
     "questionIds": [
@@ -1707,7 +1734,7 @@
     },
     "titleMy": "休日のお出かけと待たされた理由 (နားထောင်ခြင်း)",
     "titleMyanmar": "休日のお出かけと待たされた理由 (နားထောင်ခြင်း)",
-    "translationMy": "Lin: Ken, how was yesterday's movie? Was it interesting?\nKen: The movie itself was great, but getting there was an ordeal!\nLin: What, did something happen?\nKen: At the station meeting point, the friend I went with overslept, and I was made to wait in the rain for a whole hour!\nLin: A whole hour!? That must have been cold.\nKen: Yeah. And on top of that, that friend rushed out and forgot his wallet, so I was made to pay for his movie ticket too!\nLin: Ehhh! That is a bit harsh. Did he properly pay you back later?\nKen: Yes, after the movie he withdrew money from an ATM and returned it, and treated me to delicious cake at a cafe by way of apology, so I forgave him.\nLin: That's a relief! It was an ordeal, but you made up in the end."
+    "translationMy": "リン- ကန်မောင်၊ မနေ့က ရုပ်ရှင် ဘယ်လိုလဲ? စိတ်ဝင်စားဖို့ ကောင်းလား?\nケン- ရုပ်ရှင်ကိုယ်တိုင်ကတော့ အရမ်းကောင်းပါတယ်၊ ဒါပေမဲ့ သွားတဲ့အထိက တော်တော် ဒုက္ခရောက်ခဲ့ရတာ။\nリン- ဟယ်၊ ဘာဖြစ်လို့လဲ?\nケン- ချိန်းထားတဲ့ဘူတာမှာ အတူသွားတဲ့သူငယ်ချင်းက အိပ်ရာထနောက်ကျလို့ မိုးထဲရေထဲမှာ တစ်နာရီတောင် စောင့်ဆိုင်းခဲ့ရတာ။\nリン- တစ်နာရီတောင်လား!? အေးလိုက်မယ့်ဖြစ်ခြင်း။\nケン- ဟုတ်တယ်လေ။ အဲဒီအပြင် အဲဒီသူငယ်ချင်းက အိမ်ကနေ အလောတကြီးထွက်လာလို့ ပိုက်ဆံအိတ်ကျန်ခဲ့တယ်ဆိုပြီး လက်မှတ်ဖိုးပါ ငါ့ကို ပေးခိုင်းခဲ့တာ။\nリン- ဟယ်၊ အဲဒါတော့ နည်းနည်းဆိုးတာပေါ့။ နောက်မှ ပိုက်ဆံသေချာ ပြန်ပေးရဲ့လား?\nケン- အင်း၊ ရုပ်ရှင်ကြည့်ပြီးတော့ ဘဏ်ကနေ ထုတ်ပြီး ပြန်ပေးခဲ့တယ်၊ တောင်းပန်တဲ့အနေနဲ့ အရသာရှိတဲ့ ကော်ဖီဆိုင်က ကိတ်မုန့် ကျွေးခဲ့လို့ ခွင့်လွှတ်ပေးလိုက်ပါတယ်။\nリン- ဒါဆိုရင်တော့ တော်သေးတာပေါ့! ကံဆိုးမိုးမှောင်ကျခဲ့ပေမဲ့ နောက်ဆုံးတော့ ပြေလည်သွားတာပေါ့နော်။"
   },
   "questions": [
     {
@@ -2374,7 +2401,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「朝食の前に五キロの山道を走らされた」 ဖြစ်ပါသည်။ (The passage says: 朝食の前に全員で五キロの山道を走らされました.)",
+      "explanationMy": "အဖြေမှန်မှာ 「朝食の前に五キロの山道を走らされた」 ဖြစ်ပါသည်။ (စာပိုဒ်က ဖော်ပြသည်မှာ- \"朝食の前に全員で五キロの山道を走らされました.\")",
       "choicesMy": [
         "朝食の前に五キロの山道を走らされた",
         "グラウンドの草むしりだけをさせられた",
@@ -2566,7 +2593,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「映画のチケット代を代わりに払わされた」 ဖြစ်ပါသည်။ (Ken says: 財布を忘れたと言って、チケット代まで私が払わされたんだよ.)",
+      "explanationMy": "အဖြေမှန်မှာ 「映画のチケット代を代わりに払わされた」 ဖြစ်ပါသည်။ (ကန်က ပြောကြားသည်မှာ- \"財布を忘れたと言って、チケット代まで私が払わされたんだよ.\")",
       "choicesMy": [
         "映画のチケット代を代わりに払わされた",
         "友達の家まで財布を取りに行かされた",
@@ -2598,7 +2625,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「銀行でお金をおろして返し、ケーキをご馳走した」 ဖြစ်ပါသည်။ (Ken says: 映画の後に銀行でおろして返してくれて、お詫びに美味しいカフェのケーキをご馳走してくれた...)",
+      "explanationMy": "အဖြေမှန်မှာ 「銀行でお金をおろして返し、ケーキをご馳走した」 ဖြစ်ပါသည်။ (ကန်က ပြောကြားသည်မှာ- \"映画の後に銀行でおろして返してくれて、お詫びに美味しいカフェのケーキをご馳走してくれた...\")",
       "choicesMy": [
         "銀行でお金をおろして返し、ケーキをご馳走した",
         "次の映画のチケットをプレゼントした",
@@ -2630,7 +2657,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「お詫びのケーキもあって許してあげた」 ဖြစ်ပါသည်။ (Ken says: お詫びに美味しいカフェのケーキをご馳走してくれたから、許してあげたよ.)",
+      "explanationMy": "အဖြေမှန်မှာ 「お詫びのケーキもあって許してあげた」 ဖြစ်ပါသည်။ (ကန်က ပြောကြားသည်မှာ- \"お詫びに美味しいカフェのケーキをご馳走してくれたから、許してあげたよ.\")",
       "choicesMy": [
         "お詫びのケーキもあって許してあげた",
         "怒って絶交した",
@@ -2680,6 +2707,6 @@
   },
   "titleMy": "N4 Lesson 13: Causative-Passive Form (使役受け身: 待たされる・行かされる) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 13: Causative-Passive Form (使役受け身: 待たされる・行かされる) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 13: Causative-Passive Form (使役受け身: 待たされる・行かされる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "အတင်းအကျပ် စေခိုင်းခံရခြင်း (使役受け身: 待たされる・走らされる) ဆိုင်ရာ စိတ်ခံစားမှုပြ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 13: Causative-Passive Form (使役受け身: 待たされる・行かされる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

@@ -951,7 +951,7 @@
           "meaning": "reward; prize",
           "preview": false,
           "meaningMyanmar": "reward; prize",
-          "meaningMy": "reward; prize"
+          "meaningMy": "ဆုလာဘ်"
         }
       ],
       "exampleSentenceIds": [
@@ -1002,7 +1002,7 @@
           "meaning": "railway crossing",
           "preview": false,
           "meaningMyanmar": "railway crossing",
-          "meaningMy": "railway crossing"
+          "meaningMy": "မီးရထားသံလမ်းဖြတ်လမ်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1053,7 +1053,7 @@
           "meaning": "trust; reliance",
           "preview": false,
           "meaningMyanmar": "trust; reliance",
-          "meaningMy": "trust; reliance"
+          "meaningMy": "ယုံကြည်ကိုးစားမှု"
         }
       ],
       "exampleSentenceIds": [
@@ -1103,7 +1103,7 @@
           "meaning": "robber; burglary",
           "preview": false,
           "meaningMyanmar": "robber; burglary",
-          "meaningMy": "robber; burglary"
+          "meaningMy": "ဓားပြ"
         }
       ],
       "exampleSentenceIds": [
@@ -1134,7 +1134,7 @@
       "lessonId": "n4.l11",
       "pattern": "[Person A] は [Person B] に [Verb 受身形 (〜られる)]",
       "meaning": "Direct passive (Person A is affected by Person B doing an action)",
-      "formation": "Group 1: u -> a + れる (書く -> 書かれる, 褒める -> 褒められる)\nGroup 2: ru -> られる (食べる -> 食べられる, 褒める -> 褒められる)\nGroup 3: 来る -> こられる, する -> される",
+      "formation": "Group 1: u -> a + れる (書く -> 書かれる, 叱る -> 叱られる)\nGroup 2: ru -> られる (食べる -> 食べられる, 褒める -> 褒められる)\nGroup 3: 来る -> こられる, する -> される",
       "explanation": {
         "en": "Used when the subject receives an action from someone else. The agent performing the action is marked with に. Often used when the recipient feels pleased, surprised, or troubled by the action.",
         "my": "ပြုလုပ်ခံရသော Passive Form ဖြစ်သည်။ ပြုလုပ်သူကို「に」ဖြင့် ပြပြီး ခံရသူကို「は/が」ဖြင့် ပြသည်။"
@@ -1165,8 +1165,8 @@
       },
       "explanationMy": "ပြုလုပ်ခံရသော Passive Form ဖြစ်သည်။ ပြုလုပ်သူကို「に」ဖြင့် ပြပြီး ခံရသူကို「は/が」ဖြင့် ပြသည်။",
       "meaningMyanmar": "ပြုလုပ်ခံရသော Passive Form ဖြစ်သည်။ ပြုလုပ်သူကို「に」ဖြင့် ပြပြီး ခံရသူကို「は/が」ဖြင့် ပြသည်။",
-      "meaningMy": "ပြုလုပ်ခံရသော Passive Form ဖြစ်သည်။ ပြုလုပ်သူကို「に」ဖြင့် ပြပြီး ခံရသူကို「は/が」ဖြင့် ပြသည်။",
-      "nuanceExplanationMy": "[Person A] は [Person B] に [Verb 受身形 (〜られる)] ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ပြုလုပ်ခံရသော Passive Form ဖြစ်သည်။",
+      "nuanceExplanationMy": "[Person A] は [Person B] に [Verb 受身形 (〜られる)] ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l11.g002",
@@ -1204,8 +1204,8 @@
       },
       "explanationMy": "စိတ်အနှောင့်အယှက်ဖြစ်ရသော Passive (迷惑の受け身)။ တစ်စုံတစ်ယောက်ကြောင့် မိမိ၏ ပစ္စည်း သို့မဟုတ် ခန္ဓာကိုယ် ထိခိုက်နစ်နာရသောအခါ သုံးသည်။",
       "meaningMyanmar": "စိတ်အနှောင့်အယှက်ဖြစ်ရသော Passive (迷惑の受け身)။ တစ်စုံတစ်ယောက်ကြောင့် မိမိ၏ ပစ္စည်း သို့မဟုတ် ခန္ဓာကိုယ် ထိခိုက်နစ်နာရသောအခါ သုံးသည်။",
-      "meaningMy": "စိတ်အနှောင့်အယှက်ဖြစ်ရသော Passive (迷惑の受け身)။ တစ်စုံတစ်ယောက်ကြောင့် မိမိ၏ ပစ္စည်း သို့မဟုတ် ခန္ဓာကိုယ် ထိခိုက်နစ်နာရသောအခါ သုံးသည်။",
-      "nuanceExplanationMy": "[Person A] は [Person B] に [Object] を [Verb 受身形 (〜られる)] (迷惑の受け身) ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အခြားသူ၏ ပြုမူဆောင်ရွက်မှုကြောင့် မိမိထံ သက်ရောက်မှုခံရခြင်း (အပြုခံရသည့် ပုံစံ)",
+      "nuanceExplanationMy": "[Person A] は [Person B] に [Object] を [Verb 受身形 (〜られる)] (迷惑の受け身) ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     }
   ],
   "sentences": [
@@ -1595,7 +1595,7 @@
     "title": "スピーチ大会と先生の言葉",
     "level": "N4",
     "text": "先週、留学生スピーチ大会が開かれました。私は三週間前から毎日一生懸命スピーチの練習を重ねてきました。\n\nしかし、本番の前日は緊張のあまり夜遅くまで眠れず、翌朝は寝坊してしまいました。急いで満員電車に飛び乗ったのですが、車内で隣の人に足を踏まれたり、カバンを強く押されたりして、会場に着く前からすっかり疲れてしまいました。\n\nそれでも、ステージに上がると、練習してきたことを思い出しながら大きな声で発表しました。発表が終わった後、日本語学校の担任の先生から「発音がとても自然で、気持ちがしっかり伝わったよ」と皆の前で褒められました。努力を認めてもらえて、本当に嬉しかったです。\n\nまた、クラスメートたちからも「一番感動したよ」と声をかけられ、一緒にお祝いの食事会に誘われました。朝は大変な思いをしましたが、最後まで諦めずに挑戦して本当に良かったと思います。",
-    "kanaText": "せんしゅう、りゅうがくせいスピーチたいかいがひらかれました。わたしはさんしゅうかんまえからまいにちいっしょうけんめいスピーチのれんしゅうをかさねてきました。\n\nしかし、ほんばんのぜんじつはきんちょうのあまりよるおそくまでねむれず、よくあさはねぼうしてしまいました。いそいでまんいんでんしゃにとびのったのですが、しゃないでとなりのひとにあしをふまれたり、カバンをつよくおされたりして、かいじょうにつくまえからすっかりつかれてしまいました。\n\nそれでも、ステージにあがると、れんしゅうしてきたことをおもい出しながらおおきなこえではっぴょうしました。はっぴょうがおわったあと、にほんごがっこうのたんにんのせんせいから「はつおんがとてもしぜんで、きもちがしっかりつたわったよ」とみなのまえでほめられました。どりょくをみとめてもらえて、ほんとうにうれしかったです。\n\nまた、クラスメートたちからも「いちばんかんどうしたよ」とこえをかけられ、いっしょにおいわいのしょくじかいにさそわれました。あさはたいへんなおもいをしましたが、さいごまであきらめずにちょうせんしてほんとうによかったとおもいます。",
+    "kanaText": "せんしゅう、りゅうがくせいスピーチたいかいがひらかれました。わたしはさんしゅうかんまえからまいにちいっしょうけんめいスピーチのれんしゅうをかさねてきました。\n\nしかし、ほんばんのぜんじつはきんちょうのあまりよるおそくまでねむれず、よくあさはねぼうしてしまいました。いそいでまんいんでんしゃにとびのったのですが、しゃないでとなりのひとにあしをふまれたり、カバンをつよくおされたりして、かいじょうにつくまえからすっかりつかれてしまいました。\n\nそれでも、ステージにあがると、れんしゅうしてきたことをおもいだしながらおおきなこえではっぴょうしました。はっぴょうがおわったあと、にほんごがっこうのたんにんのせんせいから「はつおんがとてもしぜんで、きもちがしっかりつたわったよ」とみなのまえでほめられました。どりょくをみとめてもらえて、ほんとうにうれしかったです。\n\nまた、クラスメートたちからも「いちばんかんどうしたよ」とこえをかけられ、いっしょにおいわいのしょくじかいにさそわれました。あさはたいへんなおもいをしましたが、さいごまであきらめずにちょうせんしてほんとうによかったとおもいます。",
     "translation": "Last week, an international student speech contest was held. I had been practicing my speech diligently every day for three weeks.\n\nHowever, the night before the actual event, I was so nervous that I could not sleep until late, and overslept the next morning. I hurriedly hopped onto a packed train, but on board my foot was stepped on by the person next to me and my bag was heavily shoved, exhausting me completely before even reaching the venue.\n\nNonetheless, once I stepped onto the stage, I remembered my practice and presented with a loud, confident voice. After the speech concluded, I was praised in front of everyone by my homeroom teacher: \"Your pronunciation was very natural, and your message came through clearly.\" I was truly delighted that my effort was recognized.\n\nFurthermore, my classmates spoke to me, saying \"Yours was the most moving,\" and invited me to a celebration dinner together. Although the morning was rough, I am truly glad I took on the challenge without giving up until the very end.",
     "questionIds": [
       "n4.l11.q021",
@@ -1615,7 +1615,7 @@
     },
     "titleMy": "スピーチ大会と先生の言葉 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "スピーチ大会と先生の言葉 (ဖတ်ရှုခြင်း)",
-    "translationMy": "Last week, an international student speech contest was held. I had been practicing my speech diligently every day for three weeks.\n\nHowever, the night before the actual event, I was so nervous that I could not sleep until late, and overslept the next morning. I hurriedly hopped onto a packed train, but on board my foot was stepped on by the person next to me and my bag was heavily shoved, exhausting me completely before even reaching the venue.\n\nNonetheless, once I stepped onto the stage, I remembered my practice and presented with a loud, confident voice. After the speech concluded, I was praised in front of everyone by my homeroom teacher: \"Your pronunciation was very natural, and your message came through clearly.\" I was truly delighted that my effort was recognized.\n\nFurthermore, my classmates spoke to me, saying \"Yours was the most moving,\" and invited me to a celebration dinner together. Although the morning was rough, I am truly glad I took on the challenge without giving up until the very end."
+    "translationMy": "N4 Lesson 11: Passive Form (受け身: 叱られる・褒められる) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l11.l01",
@@ -1637,43 +1637,64 @@
         "speaker": "店長",
         "ja": "キムさん、ちょっといいかな。",
         "kana": "キムさん、ちょっといいかな。",
-        "en": ""
+        "en": "Kim-san, do you have a moment?",
+        "my": "ကင်မ်ဆန်၊ ခဏလောက် အချိန်ရမလား။",
+        "myanmar": "ကင်မ်ဆန်၊ ခဏလောက် အချိန်ရမလား။",
+        "translationMy": "ကင်မ်ဆန်၊ ခဏလောက် အချိန်ရမလား။"
       },
       {
         "speaker": "キム",
         "ja": "はい、店長、何でしょうか。",
-        "kana": "はい、店長、何でしょうか。",
-        "en": ""
+        "kana": "はい、てんちょう、なんでしょうか。",
+        "en": "Yes, Manager, what is it?",
+        "my": "ဟုတ်ကဲ့ပါ မန်နေဂျာ၊ ဘာကိစ္စများရှိလို့ပါလဲခင်ဗျာ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ မန်နေဂျာ၊ ဘာကိစ္စများရှိလို့ပါလဲခင်ဗျာ။",
+        "translationMy": "ဟုတ်ကဲ့ပါ မန်နေဂျာ၊ ဘာကိစ္စများရှိလို့ပါလဲခင်ဗျာ။"
       },
       {
         "speaker": "店長",
         "ja": "さっきのお客さんから、キムさんの接客がとても丁寧で親切だったと、アンケートで褒められたよ。笑顔が素晴らしかったそうだ。",
-        "kana": "さっきのお客さんから、キムさんの接客がとても丁寧で親切だったと、アンケートで褒められたよ。笑顔が素晴らしかったそうだ。",
-        "en": ""
+        "kana": "さっきのおきゃくさんから、キムさんのせっきゃくがとてもていねいでしんせつだったと、アンケートでほめられたよ。えがおがすばらしかったそうだ。",
+        "en": "An earlier customer commended your customer service in a survey, saying it was extremely polite and kind. They said your smile was wonderful.",
+        "my": "စောစောက ဧည့်သည်တစ်ယောက်က ကင်မ်ဆန်ရဲ့ ဧည့်ဝတ်ကျေပွန်မှုဟာ သိပ်ကို ယဉ်ကျေးပြီး ကြင်နာတယ်ဆိုပြီး မေးခွန်းလွှာမှာ ချီးကျူးသွားတယ်ကွဲ့။ အပြုံးလေးကလည်း သိပ်ကောင်းတယ်တဲ့။",
+        "myanmar": "စောစောက ဧည့်သည်တစ်ယောက်က ကင်မ်ဆန်ရဲ့ ဧည့်ဝတ်ကျေပွန်မှုဟာ သိပ်ကို ယဉ်ကျေးပြီး ကြင်နာတယ်ဆိုပြီး မေးခွန်းလွှာမှာ ချီးကျူးသွားတယ်ကွဲ့။ အပြုံးလေးကလည်း သိပ်ကောင်းတယ်တဲ့။",
+        "translationMy": "စောစောက ဧည့်သည်တစ်ယောက်က ကင်မ်ဆန်ရဲ့ ဧည့်ဝတ်ကျေပွန်မှုဟာ သိပ်ကို ယဉ်ကျေးပြီး ကြင်နာတယ်ဆိုပြီး မေးခွန်းလွှာမှာ ချီးကျူးသွားတယ်ကွဲ့။ အပြုံးလေးကလည်း သိပ်ကောင်းတယ်တဲ့။"
       },
       {
         "speaker": "キム",
         "ja": "本当ですか！ありがとうございます。昨日、別のお客様からメニューの説明がわかりにくいと注意されたばかりだったので、少し心配だったんです。",
-        "kana": "本当ですか！ありがとうございます。昨日、別のお客様からメニューの説明がわかりにくいと注意されたばかりだったので、少し心配だったんです。",
-        "en": ""
+        "kana": "ほんとうですか！ありがとうございます。きのう、べつのおきゃくさまからメニューのせつめいがわかりにくいとちゅういされたばかりだったので、すこししんぱいだったんです。",
+        "en": "Really! Thank you very much. Yesterday another customer warned me that my menu explanation was hard to understand, so I was a little worried.",
+        "my": "တကယ်လားခင်ဗျာ! အထူးပဲ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ မနေ့က တခြားဧည့်သည်တစ်ယောက်ဆီကနေ မီနူးရှင်းပြတာ နားလည်ရခက်တယ်ဆိုပြီး သတိပေးခံခဲ့ရလို့ နည်းနည်း စိတ်ပူနေခဲ့တာပါ။",
+        "myanmar": "တကယ်လားခင်ဗျာ! အထူးပဲ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ မနေ့က တခြားဧည့်သည်တစ်ယောက်ဆီကနေ မီနူးရှင်းပြတာ နားလည်ရခက်တယ်ဆိုပြီး သတိပေးခံခဲ့ရလို့ နည်းနည်း စိတ်ပူနေခဲ့တာပါ။",
+        "translationMy": "တကယ်လားခင်ဗျာ! အထူးပဲ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ မနေ့က တခြားဧည့်သည်တစ်ယောက်ဆီကနေ မီနူးရှင်းပြတာ နားလည်ရခက်တယ်ဆိုပြီး သတိပေးခံခဲ့ရလို့ နည်းနည်း စိတ်ပူနေခဲ့တာပါ။"
       },
       {
         "speaker": "店長",
         "ja": "そうだったのか。でも誰でも失敗はあるよ。注意されたことを活かして、すぐ直せたのは立派だね。",
-        "kana": "そうだったのか。でも誰でも失敗はあるよ。注意されたことを活かして、すぐ直せたのは立派だね。",
-        "en": ""
+        "kana": "そうだったのか。でもだれでもしっぱいはあるよ。ちゅういされたことをいかして、すぐなおせたのはりっぱだね。",
+        "en": "Is that so? But everyone makes mistakes. It's commendable that you took the feedback to heart and fixed it right away.",
+        "my": "အဲဒီလို ဖြစ်ခဲ့တာလား။ ဒါပေမဲ့ ဘယ်သူမဆို အမှားတော့ ရှိတတ်တာပေါ့။ သတိပေးခံရတာကို သင်ခန်းစာယူပြီး ချက်ချင်း ပြုပြင်နိုင်ခဲ့တာ အင်မတန် ချီးကျူးစရာပါပဲ။",
+        "myanmar": "အဲဒီလို ဖြစ်ခဲ့တာလား။ ဒါပေမဲ့ ဘယ်သူမဆို အမှားတော့ ရှိတတ်တာပေါ့။ သတိပေးခံရတာကို သင်ခန်းစာယူပြီး ချက်ချင်း ပြုပြင်နိုင်ခဲ့တာ အင်မတန် ချီးကျူးစရာပါပဲ။",
+        "translationMy": "အဲဒီလို ဖြစ်ခဲ့တာလား။ ဒါပေမဲ့ ဘယ်သူမဆို အမှားတော့ ရှိတတ်တာပေါ့။ သတိပေးခံရတာကို သင်ခန်းစာယူပြီး ချက်ချင်း ပြုပြင်နိုင်ခဲ့တာ အင်မတန် ချီးကျူးစရာပါပဲ။"
       },
       {
         "speaker": "キム",
         "ja": "はい！実は明日、先輩スタッフの田中さんにもレジの新しい操作を教えてもらうことになっています。",
-        "kana": "はい！実は明日、先輩スタッフの田中さんにもレジの新しい操作を教えてもらうことになっています。",
-        "en": ""
+        "kana": "はい！じつはあした、せんぱいスタッフのたなかさんにもレジのあたらしいそうさをおしえてもらうことになっています。",
+        "en": "Yes! Actually tomorrow, senior staff member Tanaka-san is also going to teach me new register operations.",
+        "my": "ဟုတ်ကဲ့ပါ! တကယ်တော့ မနက်ဖြန် စီနီယာဝန်ထမ်း တာနာကာဆန်ဆီကနေ ငွေကိုင်စက် လုပ်ဆောင်ချက်အသစ်ကို သင်ကြားပြသပေးဖို့ ဖြစ်ထားပါတယ်ခင်ဗျာ။",
+        "myanmar": "ဟုတ်ကဲ့ပါ! တကယ်တော့ မနက်ဖြန် စီနီယာဝန်ထမ်း တာနာကာဆန်ဆီကနေ ငွေကိုင်စက် လုပ်ဆောင်ချက်အသစ်ကို သင်ကြားပြသပေးဖို့ ဖြစ်ထားပါတယ်ခင်ဗျာ။",
+        "translationMy": "ဟုတ်ကဲ့ပါ! တကယ်တော့ မနက်ဖြန် စီနီယာဝန်ထမ်း တာနာကာဆန်ဆီကနေ ငွေကိုင်စက် လုပ်ဆောင်ချက်အသစ်ကို သင်ကြားပြသပေးဖို့ ဖြစ်ထားပါတယ်ခင်ဗျာ။"
       },
       {
         "speaker": "店長",
         "ja": "頼もしいね。これからも頑張ってね。",
-        "kana": "頼もしいね。これからも頑張ってね。",
-        "en": ""
+        "kana": "たのもしいね。これからもがんばってね。",
+        "en": "That's reassuring. Keep up the good work!",
+        "my": "အားကိုးရတာပေါ့ကွယ်။ နောင်လည်း ဆက်လက် ကြိုးစားသွားပါဦးနော်။",
+        "myanmar": "အားကိုးရတာပေါ့ကွယ်။ နောင်လည်း ဆက်လက် ကြိုးစားသွားပါဦးနော်။",
+        "translationMy": "အားကိုးရတာပေါ့ကွယ်။ နောင်လည်း ဆက်လက် ကြိုးစားသွားပါဦးနော်။"
       }
     ],
     "questionIds": [
@@ -1693,7 +1714,7 @@
     },
     "titleMy": "アルバイト先での出来事 (နားထောင်ခြင်း)",
     "titleMyanmar": "アルバイト先での出来事 (နားထောင်ခြင်း)",
-    "translationMy": "Manager: Kim-san, do you have a moment?\nKim: Yes, Manager, what is it?\nManager: An earlier customer commended your customer service in a survey, saying it was extremely polite and kind. They said your smile was wonderful.\nKim: Really! Thank you very much. Yesterday another customer warned me that my menu explanation was hard to understand, so I was a little worried.\nManager: Is that so? But everyone makes mistakes. It's commendable that you took the feedback to heart and fixed it right away.\nKim: Yes! Actually tomorrow, senior staff member Tanaka-san is also going to teach me new register operations.\nManager: That's reassuring. Keep up the good work!"
+    "translationMy": "店長- ကင်မ်ဆန်၊ ခဏလောက် အချိန်ရမလား။\nキム- ဟုတ်ကဲ့ပါ မန်နေဂျာ၊ ဘာကိစ္စများရှိလို့ပါလဲခင်ဗျာ။\n店長- စောစောက ဧည့်သည်တစ်ယောက်က ကင်မ်ဆန်ရဲ့ ဧည့်ဝတ်ကျေပွန်မှုဟာ သိပ်ကို ယဉ်ကျေးပြီး ကြင်နာတယ်ဆိုပြီး မေးခွန်းလွှာမှာ ချီးကျူးသွားတယ်ကွဲ့။ အပြုံးလေးကလည်း သိပ်ကောင်းတယ်တဲ့။\nキム- တကယ်လားခင်ဗျာ! အထူးပဲ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။ မနေ့က တခြားဧည့်သည်တစ်ယောက်ဆီကနေ မီနူးရှင်းပြတာ နားလည်ရခက်တယ်ဆိုပြီး သတိပေးခံခဲ့ရလို့ နည်းနည်း စိတ်ပူနေခဲ့တာပါ။\n店長- အဲဒီလို ဖြစ်ခဲ့တာလား။ ဒါပေမဲ့ ဘယ်သူမဆို အမှားတော့ ရှိတတ်တာပေါ့။ သတိပေးခံရတာကို သင်ခန်းစာယူပြီး ချက်ချင်း ပြုပြင်နိုင်ခဲ့တာ အင်မတန် ချီးကျူးစရာပါပဲ။\nキム- ဟုတ်ကဲ့ပါ! တကယ်တော့ မနက်ဖြန် စီနီယာဝန်ထမ်း တာနာကာဆန်ဆီကနေ ငွေကိုင်စက် လုပ်ဆောင်ချက်အသစ်ကို သင်ကြားပြသပေးဖို့ ဖြစ်ထားပါတယ်ခင်ဗျာ။\n店長- အားကိုးရတာပေါ့ကွယ်။ နောင်လည်း ဆက်လက် ကြိုးစားသွားပါဦးနော်။"
   },
   "questions": [
     {
@@ -2360,7 +2381,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「緊張したから」 ဖြစ်ပါသည်။ (The passage states: 本番の前日は緊張のあまり夜遅くまで眠れず...)",
+      "explanationMy": "အဖြေမှန်မှာ 「緊張したから」 ဖြစ်ပါသည်။ (စာပိုဒ်က ဖော်ပြသည်မှာ- \"本番の前日は緊張のあまり夜遅くまで眠れず...\")",
       "choicesMy": [
         "緊張したから",
         "満員電車に乗っていたから",
@@ -2392,7 +2413,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「満員電車で足を踏まれたりカバンを押されたりしたから」 ဖြစ်ပါသည်။ (The text states: 車内で隣の人に足を踏まれたり、カバンを強く押されたりして、会場に着く前からすっかり疲れてしまいました.)",
+      "explanationMy": "အဖြေမှန်မှာ 「満員電車で足を踏まれたりカバンを押されたりしたから」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"車内で隣の人に足を踏まれたり、カバンを強く押されたりして、会場に着く前からすっかり疲れてしまいました.\")",
       "choicesMy": [
         "満員電車で足を踏まれたりカバンを押されたりしたから",
         "スピーチの原稿を電車に忘れてしまったから",
@@ -2424,7 +2445,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「「発音がとても自然で、気持ちがしっかり伝わったよ」」 ဖြစ်ပါသည်။ (The text states: 「発音がとても自然で、気持ちがしっかり伝わったよ」と皆の前で褒められました.)",
+      "explanationMy": "အဖြေမှန်မှာ 「「発音がとても自然で、気持ちがしっかり伝わったよ」」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"「発音がとても自然で、気持ちがしっかり伝わったよ」と皆の前で褒められました.\")",
       "choicesMy": [
         "「発音がとても自然で、気持ちがしっかり伝わったよ」",
         "「スピーチの時間が一番短くて分かりやすかった」",
@@ -2456,7 +2477,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「「一番感動した」と声をかけ、お祝いの食事会に誘った」 ဖြစ်ပါသည်။ (The text mentions: クラスメートたちからも「一番感動したよ」と声をかけられ、一緒にお祝いの食事会に誘われました.)",
+      "explanationMy": "အဖြေမှန်မှာ 「「一番感動した」と声をかけ、お祝いの食事会に誘った」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ရည်ညွှန်းဖော်ပြထားသည်မှာ- \"クラスメートたちからも「一番感動したよ」と声をかけられ、一緒にお祝いの食事会に誘われました.\")",
       "choicesMy": [
         "「一番感動した」と声をかけ、お祝いの食事会に誘った",
         "記念の写真を撮ってプレゼントした",
@@ -2552,7 +2573,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「別のお客さんからメニューの説明がわかりにくいと注意されたから」 ဖြစ်ပါသည်။ (Kim says: 昨日、別のお客様からメニューの説明がわかりにくいと注意されたばかりだったので、少し心配だったんです.)",
+      "explanationMy": "အဖြေမှန်မှာ 「別のお客さんからメニューの説明がわかりにくいと注意されたから」 ဖြစ်ပါသည်။ (ကင်မ်က ပြောကြားသည်မှာ- \"昨日、別のお客様からメニューの説明がわかりにくいと注意されたばかりだったので、少し心配だったんです.\")",
       "choicesMy": [
         "別のお客さんからメニューの説明がわかりにくいと注意されたから",
         "レジのお金を数え間違えて叱られたから",
@@ -2616,7 +2637,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「先輩の田中さんにレジの新しい操作を教えてもらう」 ဖြစ်ပါသည်။ (Kim says: 先輩スタッフの田中さんにもレジの新しい操作を教えてもらうことになっています.)",
+      "explanationMy": "အဖြေမှန်မှာ 「先輩の田中さんにレジの新しい操作を教えてもらう」 ဖြစ်ပါသည်။ (ကင်မ်က ပြောကြားသည်မှာ- \"先輩スタッフの田中さんにもレジの新しい操作を教えてもらうことになっています.\")",
       "choicesMy": [
         "先輩の田中さんにレジの新しい操作を教えてもらう",
         "店長に新しいメニューの調理法を教えてもらう",
@@ -2666,6 +2687,6 @@
   },
   "titleMy": "N4 Lesson 11: Passive Form (受け身: 叱られる・褒められる) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 11: Passive Form (受け身: 叱られる・褒められる) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 11: Passive Form (受け身: 叱られる・褒められる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "အပြုခံပုံစံ (受け身: ပုံမှန်အပြုခံ၊ နှောင့်ယှက်ခံရသောအပြုခံ နှင့် ပစ္စည်းအပြုခံ) ဆိုင်ရာ သဒ္ဒါနှင့် ဝေါဟာရများ။",
   "descriptionMyanmar": "N4 Lesson 11: Passive Form (受け身: 叱られる・褒められる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

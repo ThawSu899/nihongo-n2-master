@@ -996,7 +996,7 @@
           "meaning": "debt; loan",
           "preview": false,
           "meaningMyanmar": "debt; loan",
-          "meaningMy": "debt; loan"
+          "meaningMy": "ကြွေးမြီ"
         }
       ],
       "exampleSentenceIds": [
@@ -1044,7 +1044,7 @@
           "meaning": "benefactor",
           "preview": false,
           "meaningMyanmar": "benefactor",
-          "meaningMy": "benefactor"
+          "meaningMy": "ကျေးဇူးရှင်"
         }
       ],
       "exampleSentenceIds": [
@@ -1096,7 +1096,7 @@
           "meaning": "wisdom; wit",
           "preview": false,
           "meaningMyanmar": "wisdom; wit",
-          "meaningMy": "wisdom; wit"
+          "meaningMy": "ဉာဏ်ပညာ"
         }
       ],
       "exampleSentenceIds": [
@@ -1158,8 +1158,8 @@
       },
       "explanationMy": "တစ်ဖက်သားအတွက် အကျိုးပြုလုပ်ဆောင်ပေးခြင်း သို့မဟုတ် တစ်ဖက်လူက မိမိအတွက် ကူညီလုပ်ဆောင်ပေးခြင်း:\n- 〜てあげる: မိမိက တစ်ဖက်လူအတွက် စေတနာဖြင့် ကူညီလုပ်ဆောင်ပေးသည်။ (လူကြီးများအား မိမိကိုယ်တိုင် ပြောရာတွင် မောက်မာသော အသံမပေါက်စေရန် 「〜ましょうか」ကိုသာ သုံးရမည်)။\n- 〜てくれる: တစ်ဖက်လူက မိမိ (သို့မဟုတ် မိမိ၏ မိသားစု/အသိုက်အဝန်း) အတွက် စေတနာဖြင့် ကူညီပေးသည်။ ကူညီသူ၏ စေတနာအပေါ် ကျေးဇူးတင်မှုကို အဓိကထားသည်။",
       "meaningMyanmar": "တစ်ဖက်သားအတွက် အကျိုးပြုလုပ်ဆောင်ပေးခြင်း သို့မဟုတ် တစ်ဖက်လူက မိမိအတွက် ကူညီလုပ်ဆောင်ပေးခြင်း:\n- 〜てあげる: မိမိက တစ်ဖက်လူအတွက် စေတနာဖြင့် ကူညီလုပ်ဆောင်ပေးသည်။ (လူကြီးများအား မိမိကိုယ်တိုင် ပြောရာတွင် မောက်မာသော အသံမပေါက်စေရန် 「〜ましょうか」ကိုသာ သုံးရမည်)။\n- 〜てくれる: တစ်ဖက်လူက မိမိ (သို့မဟုတ် မိမိ၏ မိသားစု/အသိုက်အဝန်း) အတွက် စေတနာဖြင့် ကူညီပေးသည်။ ကူညီသူ၏ စေတနာအပေါ် ကျေးဇူးတင်မှုကို အဓိကထားသည်။",
-      "meaningMy": "တစ်ဖက်သားအတွက် အကျိုးပြုလုပ်ဆောင်ပေးခြင်း သို့မဟုတ် တစ်ဖက်လူက မိမိအတွက် ကူညီလုပ်ဆောင်ပေးခြင်း:\n- 〜てあげる: မိမိက တစ်ဖက်လူအတွက် စေတနာဖြင့် ကူညီလုပ်ဆောင်ပေးသည်။ (လူကြီးများအား မိမိကိုယ်တိုင် ပြောရာတွင် မောက်မာသော အသံမပေါက်စေရန် 「〜ましょうか」ကိုသာ သုံးရမည်)။\n- 〜てくれる: တစ်ဖက်လူက မိမိ (သို့မဟုတ် မိမိ၏ မိသားစု/အသိုက်အဝန်း) အတွက် စေတနာဖြင့် ကူညီပေးသည်။ ကူညီသူ၏ စေတနာအပေါ် ကျေးဇူးတင်မှုကို အဓိကထားသည်။",
-      "nuanceExplanationMy": "[Verb て-form] + あげる vs くれる ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အပြန်အလှန် ပေးကမ်းကူညီခြင်းနှင့် ကျေးဇူးတုံ့ပြန်မှုဆိုင်ရာ ဆက်ဆံရေးဖော်ပြချက်များ",
+      "nuanceExplanationMy": "[Verb て-form] + あげる vs くれる ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l33.g002",
@@ -1197,8 +1197,8 @@
       },
       "explanationMy": "မိမိ (လက်ခံသူ) သည် ပြုလုပ်သူထံမှ အကျိုးပြုလုပ်ဆောင်ချက်ကို ရရှိခြင်း (အကူအညီတောင်းခံ၍ဖြစ်စေ၊ စေတနာအရဖြစ်စေ ရယူခြင်း) ကို ဖော်ပြသည်။ ပြုလုပ်သူနောက်တွင် 「に」ကို သုံးသည်။ (ဥပမာ- ကျွန်တော်သည် ဆရာ့ထံမှ စာစီစာကုံးကို ပြင်ဆင်စစ်ဆေးပေးခြင်း ခံယူခဲ့သည်)။",
       "meaningMyanmar": "မိမိ (လက်ခံသူ) သည် ပြုလုပ်သူထံမှ အကျိုးပြုလုပ်ဆောင်ချက်ကို ရရှိခြင်း (အကူအညီတောင်းခံ၍ဖြစ်စေ၊ စေတနာအရဖြစ်စေ ရယူခြင်း) ကို ဖော်ပြသည်။ ပြုလုပ်သူနောက်တွင် 「に」ကို သုံးသည်။ (ဥပမာ- ကျွန်တော်သည် ဆရာ့ထံမှ စာစီစာကုံးကို ပြင်ဆင်စစ်ဆေးပေးခြင်း ခံယူခဲ့သည်)။",
-      "meaningMy": "မိမိ (လက်ခံသူ) သည် ပြုလုပ်သူထံမှ အကျိုးပြုလုပ်ဆောင်ချက်ကို ရရှိခြင်း (အကူအညီတောင်းခံ၍ဖြစ်စေ၊ စေတနာအရဖြစ်စေ ရယူခြင်း) ကို ဖော်ပြသည်။ ပြုလုပ်သူနောက်တွင် 「に」ကို သုံးသည်။ (ဥပမာ- ကျွန်တော်သည် ဆရာ့ထံမှ စာစီစာကုံးကို ပြင်ဆင်စစ်ဆေးပေးခြင်း ခံယူခဲ့သည်)။",
-      "nuanceExplanationMy": "[Verb て-form] + もらう ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အပြန်အလှန် ပေးကမ်းကူညီခြင်းနှင့် ကျေးဇူးတုံ့ပြန်မှုဆိုင်ရာ ဆက်ဆံရေးဖော်ပြချက်များ",
+      "nuanceExplanationMy": "[Verb て-form] + もらう ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     }
   ],
   "sentences": [
@@ -1604,7 +1604,7 @@
     },
     "titleMy": "日本での支え合いと恩返しの心 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "日本での支え合いと恩返しの心 (ဖတ်ရှုခြင်း)",
-    "translationMy": "During the first month after international student Son came to Japan, with different language and customs, every day was a continuous series of bewilderment. Even basic daily procedures, such as shopping at supermarkets or resident registration at city hall, could not be completed satisfactorily alone.\n\nAt such a time, an elderly married couple living next door in the same apartment kindly taught him daily living rules one by one. They taught him the correct garbage sorting methods, and when he was sick in bed with a cold, they cooked warm porridge and delivered it to him. Son sincerely appreciated this deep kindness and wished to return the favor someday.\n\nOne day, he spotted the grandfather next door struggling while trying to prune garden trees that had grown wildly. Son offered, \"Since you always take care of me, I want to help with the garden maintenance.\" When he helped carry heavy branches and sweep fallen leaves in the garden, the couple smiled warmly and were overjoyed.\n\n\"Through living in Japan, I deeply learned the preciousness of people helping each other and returning gratitude through action,\" Son reflects."
+    "translationMy": "N4 Lesson 33: Giving & Receiving Assistance (授受動詞・恩恵表現: 〜てあげる・〜てくれる・〜てもらう) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l33.l01",
@@ -1627,63 +1627,63 @@
         "ja": "井上先輩、昨日は引っ越しを手伝ってくださって、本当にありがとうございました！",
         "kana": "いのうえせんぱい、きのうはひっこしをてつだってくださって、ほんとうにありがとうございました！",
         "en": "Inoue-senpai, thank you so very much for helping me with moving yesterday!",
-        "my": "Inoue-senpai, thank you so very much for helping me with moving yesterday!",
-        "translationMy": "Inoue-senpai, thank you so very much for helping me with moving yesterday!",
-        "myanmar": "Inoue-senpai, thank you so very much for helping me with moving yesterday!"
+        "my": "井上先輩、昨日は引っ越しを手伝ってくださって、本当にありがとうございました！ (အဓိပ္ပာယ်- Inoue-senpai, thank you so very much for helping me with moving yesterday!)",
+        "translationMy": "井上先輩、昨日は引っ越しを手伝ってくださって、本当にありがとうございました！ (အဓိပ္ပာယ်- Inoue-senpai, thank you so very much for helping me with moving yesterday!)",
+        "myanmar": "井上先輩、昨日は引っ越しを手伝ってくださって、本当にありがとうございました！ (အဓိပ္ပာယ်- Inoue-senpai, thank you so very much for helping me with moving yesterday!)"
       },
       {
         "speaker": "井上",
         "ja": "いやいや、重い洗濯機や冷蔵庫を運ぶのは一人じゃ無理だからね。無事に片付いてよかったよ。",
         "kana": "いやいや、おもいせんたくきやりょうぞうこをはこぶのわひとりじゃむりだからね。ぶじにかたづいてよかったよ。",
         "en": "No, no, carrying a heavy washing machine and refrigerator is impossible for one person. I am glad it got settled safely.",
-        "my": "No, no, carrying a heavy washing machine and refrigerator is impossible for one person. I am glad it got settled safely.",
-        "translationMy": "No, no, carrying a heavy washing machine and refrigerator is impossible for one person. I am glad it got settled safely.",
-        "myanmar": "No, no, carrying a heavy washing machine and refrigerator is impossible for one person. I am glad it got settled safely."
+        "my": "いやいや、重い洗濯機や冷蔵庫を運ぶのは一人じゃ無理だからね。無事に片付いてよかったよ。 (အဓိပ္ပာယ်- No, no, carrying a heavy washing machine and refrigerator is impossible for one person. I am glad it got settled safely.)",
+        "translationMy": "いやいや、重い洗濯機や冷蔵庫を運ぶのは一人じゃ無理だからね。無事に片付いてよかったよ。 (အဓိပ္ပာယ်- No, no, carrying a heavy washing machine and refrigerator is impossible for one person. I am glad it got settled safely.)",
+        "myanmar": "いやいや、重い洗濯機や冷蔵庫を運ぶのは一人じゃ無理だからね。無事に片付いてよかったよ。 (အဓိပ္ပာယ်- No, no, carrying a heavy washing machine and refrigerator is impossible for one person. I am glad it got settled safely.)"
       },
       {
         "speaker": "パク",
         "ja": "先輩に車を出してもらったおかげで、引っ越し業者に頼まずに安く済みました。すごく助かりました。",
         "kana": "せんぱいにくるまをだしてもらったおかげで、ひっこしぎょうしゃにたのまずにやすくすみました。すごくたすかりました。",
         "en": "Thanks to having you provide your car, it finished cheaply without asking moving contractors. It helped me greatly.",
-        "my": "Thanks to having you provide your car, it finished cheaply without asking moving contractors. It helped me greatly.",
-        "translationMy": "Thanks to having you provide your car, it finished cheaply without asking moving contractors. It helped me greatly.",
-        "myanmar": "Thanks to having you provide your car, it finished cheaply without asking moving contractors. It helped me greatly."
+        "my": "先輩に車を出してもらったおかげで、引っ越し業者に頼まずに安く済みました。すごく助かりました。 (အဓိပ္ပာယ်- Thanks to having you provide your car, it finished cheaply without asking moving contractors. It helped me greatly.)",
+        "translationMy": "先輩に車を出してもらったおかげで、引っ越し業者に頼まずに安く済みました。すごく助かりました。 (အဓိပ္ပာယ်- Thanks to having you provide your car, it finished cheaply without asking moving contractors. It helped me greatly.)",
+        "myanmar": "先輩に車を出してもらったおかげで、引っ越し業者に頼まずに安く済みました。すごく助かりました。 (အဓိပ္ပာယ်- Thanks to having you provide your car, it finished cheaply without asking moving contractors. It helped me greatly.)"
       },
       {
         "speaker": "井上",
         "ja": "お互い様だよ。僕が去年引っ越した時も、サークルの後輩たちにたくさん手伝ってもらったからね。",
         "kana": "おたがいさまだよ。ぼくがきょねんひっこしたときも、サークルのこうはいたちにたくさんてつだってもらったからね。",
         "en": "We help each other out. When I moved last year, I also had club juniors help me a lot.",
-        "my": "We help each other out. When I moved last year, I also had club juniors help me a lot.",
-        "translationMy": "We help each other out. When I moved last year, I also had club juniors help me a lot.",
-        "myanmar": "We help each other out. When I moved last year, I also had club juniors help me a lot."
+        "my": "お互い様だよ。僕が去年引っ越した時も、サークルの後輩たちにたくさん手伝ってもらったからね。 (အဓိပ္ပာယ်- We help each other out. When I moved last year, I also had club juniors help me a lot.)",
+        "translationMy": "お互い様だよ。僕が去年引っ越した時も、サークルの後輩たちにたくさん手伝ってもらったからね。 (အဓိပ္ပာယ်- We help each other out. When I moved last year, I also had club juniors help me a lot.)",
+        "myanmar": "お互い様だよ。僕が去年引っ越した時も、サークルの後輩たちにたくさん手伝ってもらったからね。 (အဓိပ္ပာယ်- We help each other out. When I moved last year, I also had club juniors help me a lot.)"
       },
       {
         "speaker": "パク",
         "ja": "先輩、お礼に今夜美味しい韓国料理をご馳走させてください！私が腕を振るって作ってあげます。",
         "kana": "せんぱい、おれいにこんやおいしいかんこくりょうりをごちそうさせてください！わたしがうでをふるってつくってあげます。",
         "en": "Senpai, as a thank-you please let me treat you to delicious Korean food tonight! I will cook it for you with my best skills.",
-        "my": "Senpai, as a thank-you please let me treat you to delicious Korean food tonight! I will cook it for you with my best skills.",
-        "translationMy": "Senpai, as a thank-you please let me treat you to delicious Korean food tonight! I will cook it for you with my best skills.",
-        "myanmar": "Senpai, as a thank-you please let me treat you to delicious Korean food tonight! I will cook it for you with my best skills."
+        "my": "ကျေးဇူးတုံ့ပြန်တဲ့အနေနဲ့ ထမင်းကျွေးပါရစေ။",
+        "translationMy": "ကျေးဇူးတုံ့ပြန်တဲ့အနေနဲ့ ထမင်းကျွေးပါရစေ။",
+        "myanmar": "ကျေးဇူးတုံ့ပြန်တဲ့အနေနဲ့ ထမင်းကျွေးပါရစေ။"
       },
       {
         "speaker": "井上",
         "ja": "えっ、本当かい？パクさんの手作り本場チヂミ、ずっと食べてみたかったんだ。ご馳走になるよ！",
         "kana": "えっ、ほんとうかい？パクさんのてづくりほんばチヂミ、ずっとたべてみたかったんだ。ごちそうになるよ！",
         "en": "Oh, really? I have wanted to try your homemade authentic chijimi for a long time. I accept your treat!",
-        "my": "Oh, really? I have wanted to try your homemade authentic chijimi for a long time. I accept your treat!",
-        "translationMy": "Oh, really? I have wanted to try your homemade authentic chijimi for a long time. I accept your treat!",
-        "myanmar": "Oh, really? I have wanted to try your homemade authentic chijimi for a long time. I accept your treat!"
+        "my": "えっ、本当かい？パクさんの手作り本場チヂミ、ずっと食べてみたかったんだ。ご馳走になるよ！ (အဓိပ္ပာယ်- Oh, really? I have wanted to try your homemade authentic chijimi for a long time. I accept your treat!)",
+        "translationMy": "えっ、本当かい？パクさんの手作り本場チヂミ、ずっと食べてみたかったんだ。ご馳走になるよ！ (အဓိပ္ပာယ်- Oh, really? I have wanted to try your homemade authentic chijimi for a long time. I accept your treat!)",
+        "myanmar": "えっ、本当かい？パクさんの手作り本場チヂミ、ずっと食べてみたかったんだ。ご馳走になるよ！ (အဓိပ္ပာယ်- Oh, really? I have wanted to try your homemade authentic chijimi for a long time. I accept your treat!)"
       },
       {
         "speaker": "パク",
         "ja": "はい！腕によりをかけて作りますね！",
         "kana": "はい！うでによりをかけてつくりますね！",
         "en": "Yes! I will put everything into cooking it!",
-        "my": "Yes! I will put everything into cooking it!",
-        "translationMy": "Yes! I will put everything into cooking it!",
-        "myanmar": "Yes! I will put everything into cooking it!"
+        "my": "はい！腕によりをかけて作りますね！ (အဓိပ္ပာယ်- Yes! I will put everything into cooking it!)",
+        "translationMy": "はい！腕によりをかけて作りますね！ (အဓိပ္ပာယ်- Yes! I will put everything into cooking it!)",
+        "myanmar": "はい！腕によりをかけて作りますね！ (အဓိပ္ပာယ်- Yes! I will put everything into cooking it!)"
       }
     ],
     "questionIds": [
@@ -1701,7 +1701,7 @@
     },
     "titleMy": "引っ越しの手伝いと感謝の食事 (နားထောင်ခြင်း)",
     "titleMyanmar": "引っ越しの手伝いと感謝の食事 (နားထောင်ခြင်း)",
-    "translationMy": "Park: Inoue-senpai, thank you so very much for helping me with my moving yesterday!\nInoue: Not at all! Carrying heavy washing machines and refrigerators is impossible alone. I'm glad it got tidied up safely.\nPark: Thanks to having you drive your car, I managed cheaply without hiring moving contractors. It helped me immensely.\nInoue: We help each other out. When I moved last year, I also had club juniors help me a lot.\nPark: Senpai, as thanks, please let me treat you to delicious Korean food tonight! I will do my best and cook it for you.\nInoue: Oh, really? I had always wanted to try eating your homemade authentic chijimi pancake. I will gladly accept!\nPark: Yes! I will put my heart into making it!"
+    "translationMy": "パク- 井上先輩、昨日は引っ越しを手伝ってくださって、本当にありがとうございました！ (အဓိပ္ပာယ်- Inoue-senpai, thank you so very much for helping me with moving yesterday!)\n井上- いやいや、重い洗濯機や冷蔵庫を運ぶのは一人じゃ無理だからね。無事に片付いてよかったよ。 (အဓိပ္ပာယ်- No, no, carrying a heavy washing machine and refrigerator is impossible for one person. I am glad it got settled safely.)\nパク- 先輩に車を出してもらったおかげで、引っ越し業者に頼まずに安く済みました。すごく助かりました。 (အဓိပ္ပာယ်- Thanks to having you provide your car, it finished cheaply without asking moving contractors. It helped me greatly.)\n井上- お互い様だよ。僕が去年引っ越した時も、サークルの後輩たちにたくさん手伝ってもらったからね。 (အဓိပ္ပာယ်- We help each other out. When I moved last year, I also had club juniors help me a lot.)\nパク- ကျေးဇူးတုံ့ပြန်တဲ့အနေနဲ့ ထမင်းကျွေးပါရစေ။\n井上- えっ、本当かい？パクさんの手作り本場チヂミ、ずっと食べてみたかったんだ。ご馳走になるよ！ (အဓိပ္ပာယ်- Oh, really? I have wanted to try your homemade authentic chijimi for a long time. I accept your treat!)\nパク- はい！腕によりをかけて作りますね！ (အဓိပ္ပာယ်- Yes! I will put everything into cooking it!)"
   },
   "questions": [
     {
@@ -1792,7 +1792,7 @@
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「修理する」 ဖြစ်ပါသည်။ (修理する (しゅうりする) means to repair or fix.)",
+      "explanationMy": "အဖြေမှန်မှာ 「修理する」 ဖြစ်ပါသည်။ (修理する (しゅうりする) သည် ပြင်ဆင်သည်ဟု အဓိပ္ပာယ်ရပါသည်။)",
       "choicesMy": [
         "修理する",
         "倒す",
@@ -2676,6 +2676,6 @@
   },
   "titleMy": "N4 Lesson 33: Giving & Receiving Assistance (授受動詞・恩恵表現: 〜てあげる・〜てくれる・〜てもらう) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 33: Giving & Receiving Assistance (授受動詞・恩恵表現: 〜てあげる・〜てくれる・〜てもらう) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 33: Giving & Receiving Assistance (授受動詞・恩恵表現: 〜てあげる・〜てくれる・〜てもらう) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "ကူညီစောင့်ရှောက်မှု အပြန်အလှန် ပေးကမ်းခြင်း (授受動詞・恩恵表現: 〜てあげる・〜てくれる・〜てもらう) ဆိုင်ရာ အဆင့်မြင့် လေ့ကျင့်ခန်းများ။",
   "descriptionMyanmar": "N4 Lesson 33: Giving & Receiving Assistance (授受動詞・恩恵表現: 〜てあげる・〜てくれる・〜てもらう) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

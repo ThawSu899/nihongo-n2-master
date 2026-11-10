@@ -950,7 +950,7 @@
           "meaning": "inspection; test",
           "preview": false,
           "meaningMyanmar": "inspection; test",
-          "meaningMy": "inspection; test"
+          "meaningMy": "စစ်ဆေးခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1001,7 +1001,7 @@
           "meaning": "quest; pursuit",
           "preview": false,
           "meaningMyanmar": "quest; pursuit",
-          "meaningMy": "quest; pursuit"
+          "meaningMy": "ရှာဖွေစူးစမ်းခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1104,7 +1104,7 @@
           "meaning": "distant future",
           "preview": false,
           "meaningMyanmar": "distant future",
-          "meaningMy": "distant future"
+          "meaningMy": "အနာဂတ်"
         }
       ],
       "exampleSentenceIds": [
@@ -1166,8 +1166,8 @@
       },
       "explanationMy": "Yes/No မေးခွန်းကို ဝါကျကြီးတစ်ခုအတွင်းသို့ \"…လား မလားဆိုသည်ကို\" ဟု သွတ်သွင်းဖော်ပြသည့်အခါ သုံးသည်။ ဝါကျတွင်းရှိ ပြုလုပ်သူ (subject) နောက်တွင် 「は」မဟုတ်ဘဲ 「が」ကို သုံးရမည်။ နာမ်နှင့် na-adjective များတွင် 「だ」မထည့်ဘဲ တိုက်ရိုက်ဆက်ရသည်။",
       "meaningMyanmar": "Yes/No မေးခွန်းကို ဝါကျကြီးတစ်ခုအတွင်းသို့ \"…လား မလားဆိုသည်ကို\" ဟု သွတ်သွင်းဖော်ပြသည့်အခါ သုံးသည်။ ဝါကျတွင်းရှိ ပြုလုပ်သူ (subject) နောက်တွင် 「は」မဟုတ်ဘဲ 「が」ကို သုံးရမည်။ နာမ်နှင့် na-adjective များတွင် 「だ」မထည့်ဘဲ တိုက်ရိုက်ဆက်ရသည်။",
-      "meaningMy": "Yes/No မေးခွန်းကို ဝါကျကြီးတစ်ခုအတွင်းသို့ \"…လား မလားဆိုသည်ကို\" ဟု သွတ်သွင်းဖော်ပြသည့်အခါ သုံးသည်။ ဝါကျတွင်းရှိ ပြုလုပ်သူ (subject) နောက်တွင် 「は」မဟုတ်ဘဲ 「が」ကို သုံးရမည်။ နာမ်နှင့် na-adjective များတွင် 「だ」မထည့်ဘဲ တိုက်ရိုက်ဆက်ရသည်။",
-      "nuanceExplanationMy": "[Plain form / Noun / Na-adj stem (*no だ)] + かどうか ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "Yes/No မေးခွန်းကို ဝါကျကြီးတစ်ခုအတွင်းသို့ \"…လား မလားဆိုသည်ကို\" ဟု သွတ်သွင်းဖော်ပြသည့်အခါ သုံးသည်။",
+      "nuanceExplanationMy": "[Plain form / Noun / Na-adj stem (*no だ)] + かどうか ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l31.g002",
@@ -1205,8 +1205,8 @@
       },
       "explanationMy": "မေးခွန်းစကားလုံး (ဘယ်သူ၊ ဘာ၊ ဘယ်မှာ၊ ဘယ်အချိန် စသည်) ပါဝင်သော မေးခွန်းကို \"…ဆိုသည်ကို\" ဟု ဝါကျအတွင်း ထည့်သွင်းဖော်ပြသည်။ နာမ်နှင့် na-adjective များတွင် 「だ」မထည့်ဘဲ 「か」ကို တိုက်ရိုက်ဆက်ပြီး အတွင်းပိုင်း subject တွင် 「が」ကို သုံးသည်။",
       "meaningMyanmar": "မေးခွန်းစကားလုံး (ဘယ်သူ၊ ဘာ၊ ဘယ်မှာ၊ ဘယ်အချိန် စသည်) ပါဝင်သော မေးခွန်းကို \"…ဆိုသည်ကို\" ဟု ဝါကျအတွင်း ထည့်သွင်းဖော်ပြသည်။ နာမ်နှင့် na-adjective များတွင် 「だ」မထည့်ဘဲ 「か」ကို တိုက်ရိုက်ဆက်ပြီး အတွင်းပိုင်း subject တွင် 「が」ကို သုံးသည်။",
-      "meaningMy": "မေးခွန်းစကားလုံး (ဘယ်သူ၊ ဘာ၊ ဘယ်မှာ၊ ဘယ်အချိန် စသည်) ပါဝင်သော မေးခွန်းကို \"…ဆိုသည်ကို\" ဟု ဝါကျအတွင်း ထည့်သွင်းဖော်ပြသည်။ နာမ်နှင့် na-adjective များတွင် 「だ」မထည့်ဘဲ 「か」ကို တိုက်ရိုက်ဆက်ပြီး အတွင်းပိုင်း subject တွင် 「が」ကို သုံးသည်။",
-      "nuanceExplanationMy": "[Interrogative (何/誰/どこ/いつ/どう)] + [Plain form (*no だ)] + か ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "မေးခွန်းစကားလုံး (ဘယ်သူ၊ ဘာ၊ ဘယ်မှာ၊ ဘယ်အချိန် စသည်) ပါဝင်သော မေးခွန်းကို \"…ဆိုသည်ကို\" ဟု ဝါကျအတွင်း ထည့်သွင်းဖော်ပြသည်။",
+      "nuanceExplanationMy": "[Interrogative (何/誰/どこ/いつ/どう)] + [Plain form (*no だ)] + か ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     }
   ],
   "sentences": [
@@ -1610,7 +1610,7 @@
     },
     "titleMy": "海外旅行前の持ち物確認と準備 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "海外旅行前の持ち物確認と準備 (ဖတ်ရှုခြင်း)",
-    "translationMy": "When embarking on an overseas trip for the first time, anyone feels great anxiety alongside anticipation. So that you won't be troubled after arriving at the airport, it is important to carefully create a checklist one week before departure and confirm whether or not all necessary preparations are in order.\n\nFirst, you must verify whether or not your passport's expiration date has ample validity of 6 months or more remaining. Furthermore, you also need to check in advance on the embassy's official website whether or not a visa is required to enter the destination country.\n\nNext, information regarding money and communications—such as whether smartphones can be used locally or where currency exchange fees are cheapest—is also vital. Confirming beforehand with your credit card company whether or not your card is configured for overseas use brings peace of mind.\n\nNobody can predict what might happen at the travel destination. However, if you carefully verify one by one in advance what is necessary, you can greatly reduce the likelihood of encountering trouble."
+    "translationMy": "N4 Lesson 31: Indirect Questions & Embedded Interrogatives (複文・間接疑問: 〜かどうか・疑問詞〜か) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l31.l01",
@@ -1633,72 +1633,72 @@
         "ja": "ヤンさん、来月のゼミ合宿のことなんだけど、参加できるかどうか決まった？",
         "kana": "ヤンさん、らいげつのゼミがっしゅくのことなんだけど、さんかできるかどうかきまった？",
         "en": "Yang, about next month’s seminar camp, has it been decided whether or not you can participate?",
-        "my": "Yang, about next month’s seminar camp, has it been decided whether or not you can participate?",
-        "translationMy": "Yang, about next month’s seminar camp, has it been decided whether or not you can participate?",
-        "myanmar": "Yang, about next month’s seminar camp, has it been decided whether or not you can participate?"
+        "my": "ヤンさん、来月のゼミ合宿のことなんだけど、参加できるかどうか決まった？ (အဓိပ္ပာယ်- Yang, about next month’s seminar camp, has it been decided whether or not you can participate?)",
+        "translationMy": "ヤンさん、来月のゼミ合宿のことなんだけど、参加できるかどうか決まった？ (အဓိပ္ပာယ်- Yang, about next month’s seminar camp, has it been decided whether or not you can participate?)",
+        "myanmar": "ヤンさん、来月のゼミ合宿のことなんだけど、参加できるかどうか決まった？ (အဓိပ္ပာယ်- Yang, about next month’s seminar camp, has it been decided whether or not you can participate?)"
       },
       {
         "speaker": "ヤン",
         "ja": "実は、その週にアルバイトのシフトが入るかもしれなくて、まだ行けるかどうか未定なんです。",
         "kana": "じつは、そのしゅうにアルバイトのシフトがはいるかもしれなくて、まだいけるかどうかみていなんです。",
         "en": "Actually, a part-time job shift might be scheduled that week, so whether I can go or not is still undecided.",
-        "my": "Actually, a part-time job shift might be scheduled that week, so whether I can go or not is still undecided.",
-        "translationMy": "Actually, a part-time job shift might be scheduled that week, so whether I can go or not is still undecided.",
-        "myanmar": "Actually, a part-time job shift might be scheduled that week, so whether I can go or not is still undecided."
+        "my": "実は、その週にアルバイトのシフトが入るかもしれなくて、まだ行けるかどうか未定なんです。 (အဓိပ္ပာယ်- Actually, a part-time job shift might be scheduled that week, so whether I can go or not is still undecided.)",
+        "translationMy": "実は、その週にアルバイトのシフトが入るかもしれなくて、まだ行けるかどうか未定なんです。 (အဓိပ္ပာယ်- Actually, a part-time job shift might be scheduled that week, so whether I can go or not is still undecided.)",
+        "myanmar": "実は、その週にアルバイトのシフトが入るかもしれなくて、まだ行けるかどうか未定なんです。 (အဓိပ္ပာယ်- Actually, a part-time job shift might be scheduled that week, so whether I can go or not is still undecided.)"
       },
       {
         "speaker": "吉田",
         "ja": "そうか。旅館の予約人数を確定させたいから、いつ頃返事をもらえるか教えてもらえる？",
         "kana": "そうか。りょかんのよやくにんずうをかくていさせたいから、いつごろへんじをもらえるかおしえてもらえる？",
         "en": "I see. We want to finalize the inn reservation headcount, so could you tell me around when I can receive your reply?",
-        "my": "I see. We want to finalize the inn reservation headcount, so could you tell me around when I can receive your reply?",
-        "translationMy": "I see. We want to finalize the inn reservation headcount, so could you tell me around when I can receive your reply?",
-        "myanmar": "I see. We want to finalize the inn reservation headcount, so could you tell me around when I can receive your reply?"
+        "my": "そうか。旅館の予約人数を確定させたいから、いつ頃返事をもらえるか教えてもらえる？ (အဓိပ္ပာယ်- I see. We want to finalize the inn reservation headcount, so could you tell me around when I can receive your reply?)",
+        "translationMy": "そうか。旅館の予約人数を確定させたいから、いつ頃返事をもらえるか教えてもらえる？ (အဓိပ္ပာယ်- I see. We want to finalize the inn reservation headcount, so could you tell me around when I can receive your reply?)",
+        "myanmar": "そうか。旅館の予約人数を確定させたいから、いつ頃返事をもらえるか教えてもらえる？ (အဓိပ္ပာယ်- I see. We want to finalize the inn reservation headcount, so could you tell me around when I can receive your reply?)"
       },
       {
         "speaker": "ヤン",
         "ja": "店長に相談して、今週の木曜日の夕方までには行けるかどうか連絡します。",
         "kana": "てんちょうにそうだんして、こんしゅうのもくようびのゆうがたまでにはいけるかどうかれんらくします。",
         "en": "I will consult my shop manager and contact you whether or not I can go by Thursday evening this week.",
-        "my": "I will consult my shop manager and contact you whether or not I can go by Thursday evening this week.",
-        "translationMy": "I will consult my shop manager and contact you whether or not I can go by Thursday evening this week.",
-        "myanmar": "I will consult my shop manager and contact you whether or not I can go by Thursday evening this week."
+        "my": "店長に相談して、今週の木曜日の夕方までには行けるかどうか連絡します。 (အဓိပ္ပာယ်- I will consult my shop manager and contact you whether or not I can go by Thursday evening this week.)",
+        "translationMy": "店長に相談して、今週の木曜日の夕方までには行けるかどうか連絡します。 (အဓိပ္ပာယ်- I will consult my shop manager and contact you whether or not I can go by Thursday evening this week.)",
+        "myanmar": "店長に相談して、今週の木曜日の夕方までには行けるかどうか連絡します。 (အဓိပ္ပာယ်- I will consult my shop manager and contact you whether or not I can go by Thursday evening this week.)"
       },
       {
         "speaker": "吉田",
         "ja": "わかった。あと、合宿の費用が一人いくらかかるか知ってる？",
         "kana": "わかった。あと、がっしゅくのひようがひとりいくらかかるかしってる？",
         "en": "Understood. Also, do you know how much the camp fee costs per person?",
-        "my": "Understood. Also, do you know how much the camp fee costs per person?",
-        "translationMy": "Understood. Also, do you know how much the camp fee costs per person?",
-        "myanmar": "Understood. Also, do you know how much the camp fee costs per person?"
+        "my": "わかった。あと、合宿の費用が一人いくらかかるか知ってる？ (အဓိပ္ပာယ်- Understood. Also, do you know how much the camp fee costs per person?)",
+        "translationMy": "わかった。あと、合宿の費用が一人いくらかかるか知ってる？ (အဓိပ္ပာယ်- Understood. Also, do you know how much the camp fee costs per person?)",
+        "myanmar": "わかった。あと、合宿の費用が一人いくらかかるか知ってる？ (အဓိပ္ပာယ်- Understood. Also, do you know how much the camp fee costs per person?)"
       },
       {
         "speaker": "ヤン",
         "ja": "案内書に一万五千円と書いてありました。",
         "kana": "あんないしょにいちまんごせんえんとかいてありました。",
         "en": "It was written as 15,000 yen in the information brochure.",
-        "my": "It was written as 15,000 yen in the information brochure.",
-        "translationMy": "It was written as 15,000 yen in the information brochure.",
-        "myanmar": "It was written as 15,000 yen in the information brochure."
+        "my": "案内書に一万五千円と書いてありました。 (အဓိပ္ပာယ်- It was written as 15,000 yen in the information brochure.)",
+        "translationMy": "案内書に一万五千円と書いてありました。 (အဓိပ္ပာယ်- It was written as 15,000 yen in the information brochure.)",
+        "myanmar": "案内書に一万五千円と書いてありました。 (အဓိပ္ပာယ်- It was written as 15,000 yen in the information brochure.)"
       },
       {
         "speaker": "吉田",
         "ja": "うん。もし参加するなら、交通費がいくらかかるかも調べておいてね。",
         "kana": "うん。もしさんかするなら、こうつうひがいくらかかるかもしらべておいてね。",
         "en": "Yeah. If you participate, please look up how much transportation costs will be as well.",
-        "my": "Yeah. If you participate, please look up how much transportation costs will be as well.",
-        "translationMy": "Yeah. If you participate, please look up how much transportation costs will be as well.",
-        "myanmar": "Yeah. If you participate, please look up how much transportation costs will be as well."
+        "my": "うん。もし参加するなら、交通費がいくらかかるかも調べておいてね。 (အဓိပ္ပာယ်- Yeah. If you participate, please look up how much transportation costs will be as well.)",
+        "translationMy": "うん。もし参加するなら、交通費がいくらかかるかも調べておいてね。 (အဓိပ္ပာယ်- Yeah. If you participate, please look up how much transportation costs will be as well.)",
+        "myanmar": "うん。もし参加するなら、交通費がいくらかかるかも調べておいてね。 (အဓိပ္ပာယ်- Yeah. If you participate, please look up how much transportation costs will be as well.)"
       },
       {
         "speaker": "ヤン",
         "ja": "はい、確認してすぐ連絡します！",
         "kana": "はい、かくにんしてすぐれんらくします！",
         "en": "Yes, I will check and get in touch right away!",
-        "my": "Yes, I will check and get in touch right away!",
-        "translationMy": "Yes, I will check and get in touch right away!",
-        "myanmar": "Yes, I will check and get in touch right away!"
+        "my": "はい、確認してすぐ連絡します！ (အဓိပ္ပာယ်- Yes, I will check and get in touch right away!)",
+        "translationMy": "はい、確認してすぐ連絡します！ (အဓိပ္ပာယ်- Yes, I will check and get in touch right away!)",
+        "myanmar": "はい、確認してすぐ連絡します！ (အဓိပ္ပာယ်- Yes, I will check and get in touch right away!)"
       }
     ],
     "questionIds": [
@@ -1716,7 +1716,7 @@
     },
     "titleMy": "ゼミ合宿の参加確認と日程相談 (နားထောင်ခြင်း)",
     "titleMyanmar": "ゼミ合宿の参加確認と日程相談 (နားထောင်ခြင်း)",
-    "translationMy": "Yoshida: Yang, about next month's seminar training camp, have you decided whether or not you can participate?\nYang: Actually, a part-time job shift might come in that week, so whether I can go is still undecided.\nYoshida: I see. Because we want to finalize the inn's guest count, could you tell me when I can get your answer?\nYang: I will consult with my store manager and let you know whether I can go by Thursday evening this week.\nYoshida: Understood. Also, do you know how much the camp fee costs per person?\nYang: It said 15,000 yen on the guide sheet.\nYoshida: Right. If you participate, please also check how much transportation costs will be.\nYang: Yes, I will verify and contact you immediately!"
+    "translationMy": "吉田- ヤンさん、来月のゼミ合宿のことなんだけど、参加できるかどうか決まった？ (အဓိပ္ပာယ်- Yang, about next month’s seminar camp, has it been decided whether or not you can participate?)\nヤン- 実は、その週にアルバイトのシフトが入るかもしれなくて、まだ行けるかどうか未定なんです。 (အဓိပ္ပာယ်- Actually, a part-time job shift might be scheduled that week, so whether I can go or not is still undecided.)\n吉田- そうか。旅館の予約人数を確定させたいから、いつ頃返事をもらえるか教えてもらえる？ (အဓိပ္ပာယ်- I see. We want to finalize the inn reservation headcount, so could you tell me around when I can receive your reply?)\nヤン- 店長に相談して、今週の木曜日の夕方までには行けるかどうか連絡します。 (အဓိပ္ပာယ်- I will consult my shop manager and contact you whether or not I can go by Thursday evening this week.)\n吉田- わかった。あと、合宿の費用が一人いくらかかるか知ってる？ (အဓိပ္ပာယ်- Understood. Also, do you know how much the camp fee costs per person?)\nヤン- 案内書に一万五千円と書いてありました。 (အဓိပ္ပာယ်- It was written as 15,000 yen in the information brochure.)\n吉田- うん。もし参加するなら、交通費がいくらかかるかも調べておいてね。 (အဓိပ္ပာယ်- Yeah. If you participate, please look up how much transportation costs will be as well.)\nヤン- はい、確認してすぐ連絡します！ (အဓိပ္ပာယ်- Yes, I will check and get in touch right away!)"
   },
   "questions": [
     {
@@ -2691,6 +2691,6 @@
   },
   "titleMy": "N4 Lesson 31: Indirect Questions & Embedded Interrogatives (複文・間接疑問: 〜かどうか・疑問詞〜か) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 31: Indirect Questions & Embedded Interrogatives (複文・間接疑問: 〜かどうか・疑問詞〜か) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 31: Indirect Questions & Embedded Interrogatives (複文・間接疑問: 〜かどうか・疑問詞〜か) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "သွယ်ဝိုက်သော မေးခွန်းများ (間接疑問: 〜かどうか vs 疑問詞＋〜か) ဖွဲ့စည်းတည်ဆောက်ပုံဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 31: Indirect Questions & Embedded Interrogatives (複文・間接疑問: 〜かどうか・疑問詞〜か) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

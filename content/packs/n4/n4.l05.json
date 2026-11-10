@@ -949,7 +949,7 @@
           "meaning": "plan/schedule",
           "preview": false,
           "meaningMyanmar": "plan/schedule",
-          "meaningMy": "plan/schedule"
+          "meaningMy": "အစီအစဉ် / အချိန်ဇယား"
         }
       ],
       "exampleSentenceIds": [
@@ -1041,7 +1041,7 @@
           "meaning": "spectators/audience",
           "preview": false,
           "meaningMyanmar": "spectators/audience",
-          "meaningMy": "spectators/audience"
+          "meaningMy": "ပရိသတ် / ကြည့်ရှုသူ"
         }
       ],
       "exampleSentenceIds": [
@@ -1089,7 +1089,7 @@
           "meaning": "sunlight / Nikko",
           "preview": false,
           "meaningMyanmar": "sunlight / Nikko",
-          "meaningMy": "sunlight / Nikko"
+          "meaningMy": "နေရောင်ခြည်"
         }
       ],
       "exampleSentenceIds": [
@@ -1147,8 +1147,8 @@
       },
       "explanationMy": "တစ်ဖက်လူပြောသော စကား သို့မဟုတ် အခြေအနေတစ်ခုကို အခြေခံ၍ အကြံဉာဏ်ပေးခြင်း သို့မဟုတ် တောင်းဆိုခြင်း ပြုလုပ်ရာတွင် သုံးသည်။ 「〜たら」 နှင့်မတူဘဲ အချိန်ကာလအားဖြင့် အခြေအနေမတိုင်မီ ကြိုတင်လုပ်ဆောင်ရမည့် ကိစ္စများတွင်လည်း 「〜なら」 ကို သုံးနိုင်သည် (ဥပမာ- ဂျပန်သွားမယ်ဆိုရင် ကင်မရာကြိုဝယ်ထားသင့်တယ်)။",
       "meaningMyanmar": "တစ်ဖက်လူပြောသော စကား သို့မဟုတ် အခြေအနေတစ်ခုကို အခြေခံ၍ အကြံဉာဏ်ပေးခြင်း သို့မဟုတ် တောင်းဆိုခြင်း ပြုလုပ်ရာတွင် သုံးသည်။ 「〜たら」 နှင့်မတူဘဲ အချိန်ကာလအားဖြင့် အခြေအနေမတိုင်မီ ကြိုတင်လုပ်ဆောင်ရမည့် ကိစ္စများတွင်လည်း 「〜なら」 ကို သုံးနိုင်သည် (ဥပမာ- ဂျပန်သွားမယ်ဆိုရင် ကင်မရာကြိုဝယ်ထားသင့်တယ်)။",
-      "meaningMy": "တစ်ဖက်လူပြောသော စကား သို့မဟုတ် အခြေအနေတစ်ခုကို အခြေခံ၍ အကြံဉာဏ်ပေးခြင်း သို့မဟုတ် တောင်းဆိုခြင်း ပြုလုပ်ရာတွင် သုံးသည်။ 「〜たら」 နှင့်မတူဘဲ အချိန်ကာလအားဖြင့် အခြေအနေမတိုင်မီ ကြိုတင်လုပ်ဆောင်ရမည့် ကိစ္စများတွင်လည်း 「〜なら」 ကို သုံးနိုင်သည် (ဥပမာ- ဂျပန်သွားမယ်ဆိုရင် ကင်မရာကြိုဝယ်ထားသင့်တယ်)။",
-      "nuanceExplanationMy": "[Noun / Plain Form] なら、〜 ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ပြောဆိုသူ သို့မဟုတ် အခြားသူ၏ အကြောင်းအရာကို အခြေခံ၍ အကြံပြုပြောဆိုခြင်း (〜ဆိုလျှင်)",
+      "nuanceExplanationMy": "[Noun / Plain Form] なら、〜 ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l05.g002",
@@ -1162,11 +1162,11 @@
       },
       "examples": [
         {
-          "sentenceId": "n4.l05.s001",
+          "sentenceId": "n4.l05.s003",
           "note": "Example 1"
         },
         {
-          "sentenceId": "n4.l05.s002",
+          "sentenceId": "n4.l05.s004",
           "note": "Example 2"
         }
       ],
@@ -1185,8 +1185,8 @@
       },
       "explanationMy": "၁။ 〜と: သဘာဝအမှန်တရား (နွေဦးရောက်လျှင် ချယ်ရီပွင့်သည်) - တိုက်တွန်းချက်မသုံးရ။\n၂။ 〜たら: ပြီးစီးပြီးနောက် အချိန်စဉ် (ရောက်ရင် ဖုန်းဆက်ပါ) - တောင်းဆိုချက်သုံးနိုင်သည်။\n၃။ 〜ば: ယုတ္တိအခြေအနေ (ဈေးပေါရင် ဝယ်မယ်)။\n၄။ 〜なら: စကားလက်ခံ အကြံပြုချက် (ကျိုတိုဆိုရင် ကျည်ဆံရထား အဆင်ပြေတယ်)။",
       "meaningMyanmar": "၁။ 〜と: သဘာဝအမှန်တရား (နွေဦးရောက်လျှင် ချယ်ရီပွင့်သည်) - တိုက်တွန်းချက်မသုံးရ။\n၂။ 〜たら: ပြီးစီးပြီးနောက် အချိန်စဉ် (ရောက်ရင် ဖုန်းဆက်ပါ) - တောင်းဆိုချက်သုံးနိုင်သည်။\n၃။ 〜ば: ယုတ္တိအခြေအနေ (ဈေးပေါရင် ဝယ်မယ်)။\n၄။ 〜なら: စကားလက်ခံ အကြံပြုချက် (ကျိုတိုဆိုရင် ကျည်ဆံရထား အဆင်ပြေတယ်)။",
-      "meaningMy": "၁။ 〜と: သဘာဝအမှန်တရား (နွေဦးရောက်လျှင် ချယ်ရီပွင့်သည်) - တိုက်တွန်းချက်မသုံးရ။\n၂။ 〜たら: ပြီးစီးပြီးနောက် အချိန်စဉ် (ရောက်ရင် ဖုန်းဆက်ပါ) - တောင်းဆိုချက်သုံးနိုင်သည်။\n၃။ 〜ば: ယုတ္တိအခြေအနေ (ဈေးပေါရင် ဝယ်မယ်)။\n၄။ 〜なら: စကားလက်ခံ အကြံပြုချက် (ကျိုတိုဆိုရင် ကျည်ဆံရထား အဆင်ပြေတယ်)။",
-      "nuanceExplanationMy": "〜たら / 〜ば / 〜と / 〜なら ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "သတ်မှတ်ထားသော အခြေအနေ သို့မဟုတ် အကြောင်းအကျိုးကို ဖော်ပြသည့် ပုံစံ (〜လျှင်)",
+      "nuanceExplanationMy": "〜たら / 〜ば / 〜と / 〜なら ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1291,7 +1291,7 @@
         "n4.l05.v012"
       ],
       "grammarIds": [
-        "n4.l05.g001"
+        "n4.l05.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1320,7 +1320,7 @@
         "n4.l05.v005"
       ],
       "grammarIds": [
-        "n4.l05.g001"
+        "n4.l05.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1518,7 +1518,7 @@
     "title": "初めての温泉旅行アドバイス (Advice for Your First Hot Spring Trip)",
     "level": "N4",
     "text": "冬の日本を旅するなら、雪景色を眺めながら入る露天風呂は格別の体験です。多くの留学生や外国人観光客が「温泉に行ってみたいけれど、どこがいいか分からない」と相談に来ます。\n\n東京から近くて気軽に行ける場所を探しているなら、神奈川県の箱根温泉が一番おすすめです。新宿駅から特急ロマンスカーに乗れば、一時間半足らずで到着します。温泉街には歴史のある旅館が多く、おいしい日本料理や伝統的なおもてなしを堪能できます。\n\nもし泊まりがけでゆっくり温泉を楽しむなら、浴衣の着方や温泉の正しいマナーを事前に確認しておくと安心です。湯船に入る前に必ず体を洗うことや、湯船の中にタオルを入れないことなど、簡単なルールを守れば誰でも気持ちよく楽しめます。温泉旅行の計画なら、地元の観光協会のウェブサイトをチェックすることをおすすめします。",
-    "kanaText": "冬の日本を旅するなら、雪景色を眺めながら入る露天風呂は格別の体験です。多くの留学生や外国人観光客が「温泉に行ってみたいけれど、どこがいいか分からない」と相談に来ます。\n\n東京から近くて気軽に行ける場所を探しているなら、神奈川県の箱根温泉が一番おすすめです。新宿駅から特急ロマンスカーに乗れば、一時間半足らずで到着します。温泉街には歴史のある旅館が多く、おいしい日本料理や伝統的なおもてなしを堪能できます。\n\nもし泊まりがけでゆっくり温泉を楽しむなら、浴衣の着方や温泉の正しいマナーを事前に確認しておくと安心です。湯船に入る前に必ず体を洗うことや、湯船の中にタオルを入れないことなど、簡単なルールを守れば誰でも気持ちよく楽しめます。温泉旅行の計画なら、地元の観光協会のウェブサイトをチェックすることをおすすめします。",
+    "kanaText": "ふゆのにほんをたびするなら、ゆきげしきをながめながらはいるろてんぶろはかくべつのたいけんです。おおくのりゅうがくせいやがいこくじんかんこうきゃくが「おんせんにいってみたいけれど、どこがいいかわからない」とそうだんにきます。\n\nとうきょうからちかくてきがるにいけるばしょをさがしているなら、かながわけんのはこねおんせんがいちばんおすすめです。しんじゅくえきからとっきゅうロマンスカーにのれば、いちじかんはんたらずでとうちゃくします。おんせんがいにはれきしのあるりょかんがおおく、おいしいにほんりょうりやでんとうてきなおもてなしをたんのうできます。\n\nもしとまりがけでゆっくりおんせんをたのしむなら、ゆかたのきかたやおんせんのただしいマナーをじぜんにかくにんしておくとあんしんです。ゆぶねにはいるまえにかならずからだをあらうことや、おゆのなかにタオルをいれないことなどのルールをまもれば、だれでもきもちよくおんせんをまんきつできます。",
     "translation": "If you travel in winter Japan, taking an open-air bath while gazing at snowy scenery is an exceptional experience. Many international students and foreign tourists consult saying, \"I want to visit a hot spring, but I don't know where is good.\"\n\nIf you are searching for a place close to Tokyo that you can visit casually, Hakone Onsen in Kanagawa Prefecture is my top recommendation. If you take the Limited Express Romancecar from Shinjuku Station, you arrive in less than an hour and a half. The hot spring town has many historic inns where you can savor delicious Japanese cuisine and traditional hospitality.\n\nIf you are staying overnight to enjoy hot springs leisurely, checking how to wear yukata and proper onsen etiquette in advance will give you peace of mind. By following simple rules like washing your body before getting into the bathtub and not putting towels into the bathwater, anyone can enjoy themselves pleasantly. If it is planning an onsen trip, I recommend checking the local tourism association website.",
     "questionIds": [
       "n4.l05.q021",
@@ -1538,7 +1538,7 @@
     },
     "titleMy": "初めての温泉旅行アドバイス (Advice for Your First Hot Spring Trip) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "初めての温泉旅行アドバイス (Advice for Your First Hot Spring Trip) (ဖတ်ရှုခြင်း)",
-    "translationMy": "If you travel in winter Japan, taking an open-air bath while gazing at snowy scenery is an exceptional experience. Many international students and foreign tourists consult saying, \"I want to visit a hot spring, but I don't know where is good.\"\n\nIf you are searching for a place close to Tokyo that you can visit casually, Hakone Onsen in Kanagawa Prefecture is my top recommendation. If you take the Limited Express Romancecar from Shinjuku Station, you arrive in less than an hour and a half. The hot spring town has many historic inns where you can savor delicious Japanese cuisine and traditional hospitality.\n\nIf you are staying overnight to enjoy hot springs leisurely, checking how to wear yukata and proper onsen etiquette in advance will give you peace of mind. By following simple rules like washing your body before getting into the bathtub and not putting towels into the bathwater, anyone can enjoy themselves pleasantly. If it is planning an onsen trip, I recommend checking the local tourism association website."
+    "translationMy": "ဆောင်းရာသီ ဂျပန်နိုင်ငံသို့ ခရီးသွားမည်ဆိုပါက နှင်းရှုခင်းကို ငေးမောကြည့်ရှုရင်း စိမ်ရသော ပြင်ပရေပူစမ်း (露天風呂) သည် ထူးခြားကောင်းမွန်သော အတွေ့အကြုံတစ်ခု ဖြစ်ပါသည်။ နိုင်ငံခြားကျောင်းသားများနှင့် ကမ္ဘာလှည့်ခရီးသွား အများအပြားသည် 「ရေပူစမ်းသို့ သွားရောက်လိုသော်လည်း မည်သည့်နေရာ ကောင်းမည်မှန်း မသိပါ」 ဟု လာရောက်မေးမြန်းတတ်ကြပါသည်။\n\nတိုကျိုမှ နီးကပ်ပြီး လွယ်လွယ်ကူကူ သွားရောက်နိုင်သော နေရာကို ရှာဖွေနေပါက ခါနာဂါဝါခရိုင်ရှိ ဟာကိုနဲ ရေပူစမ်းသည် အသင့်တော်ဆုံး ဖြစ်ပါသည်။ ရှင်းဂျုကုဘူတာမှ အထူးအမြန်ရထား Romancecar ကို စီးနင်းပါက တစ်နာရီခွဲ မပြည့်မီ ရောက်ရှိနိုင်ပါသည်။ ရေပူစမ်းမြို့လေးတွင် သမိုင်းဝင် ရိုကန်ဟိုတယ်များစွာ ရှိပြီး အရသာရှိသော ဂျပန်အစားအစာများနှင့် ရိုးရာဧည့်ဝတ်ကျေပွန်မှုကို ပြည့်ပြည့်ဝဝ ခံစားနိုင်ပါသည်။\n\nအကယ်၍ ညအိပ်တည်းခိုပြီး ရေပူစမ်းကို အေးအေးဆေးဆေး ခံစားလိုပါက ယူခါတ ဝတ်ဆင်နည်းနှင့် ရေပူစမ်းစည်းကမ်းများကို ကြိုတင်လေ့လာထားပါက စိတ်အေးချမ်းသာ ရှိပါလိမ့်မည်။ ရေကန်ထဲသို့ မဆင်းမီ ခန္ဓာကိုယ်ကို သေချာစွာ ဆေးကြောသန့်စင်ရန်နှင့် ရေကန်ထဲသို့ မျက်နှာသုတ်ပဝါ မထည့်ရန် စသည့် စည်းကမ်းများကို လိုက်နာပါက မည်သူမဆို စိတ်လက်ချမ်းသာစွာ ရေပူစမ်းကို အပြည့်အဝ ခံစားနိုင်မည် ဖြစ်ပါသည်။"
   },
   "listening": {
     "id": "n4.l05.l01",
@@ -1550,12 +1550,85 @@
       "lang": "ja-JP"
     },
     "speakers": [
-      "A",
-      "B"
+      "旅行会社員",
+      "キム"
     ],
     "transcript": "旅行会社員：いらっしゃいませ。どのようなご旅行をお考えですか。\nキム：来月の連休に、友達と二人で二泊三日の旅行をしたいんですが。\n旅行会社員：温泉はいかがですか。冬の季節なら、群馬県の草津温泉がとても人気ですよ。\nキム：草津温泉ですか。東京からはどうやって行けばいいですか。\n旅行会社員：電車で行くなら、上野駅から特急草津号に乗って長野原草津口駅まで行き、そこからバスを利用するのが便利です。\nキム：移動時間はどのくらいかかりますか。\n旅行会社員：全部で三時間ほどですね。もし草津に行くなら、人気の旅館は早く満室になりますから、今週中に予約したほうがいいですよ。\nキム：わかりました。友達と相談して、今日中に予約の申し込みをします。",
     "translation": "Agent: Welcome. What kind of trip are you considering?\nKim: I want to take a 3-day, 2-night trip with a friend during next month's consecutive holidays.\nAgent: How about hot springs? If it is the winter season, Kusatsu Onsen in Gunma Prefecture is very popular.\nKim: Kusatsu Onsen? How should we go from Tokyo?\nAgent: If going by train, taking the Limited Express Kusatsu from Ueno Station to Naganohara-Kusatsuguchi Station and taking a bus from there is convenient.\nKim: How long does the travel take?\nAgent: In total, about three hours. If you are going to Kusatsu, popular inns fill up quickly, so you had better make reservations within this week.\nKim: Understood. I will discuss with my friend and submit the booking application today.",
-    "turns": [],
+    "turns": [
+      {
+        "speaker": "旅行会社員",
+        "ja": "いらっしゃいませ。どのようなご旅行をお考えですか。",
+        "kana": "いらっしゃいませ。どのようなごりょこうをおかんがえですか。",
+        "en": "Welcome. What kind of trip are you planning?",
+        "my": "ကြိုဆိုပါတယ်ခင်ဗျာ။ ဘယ်လိုခရီးမျိုး စဉ်းစားထားပါသလဲ။",
+        "myanmar": "ကြိုဆိုပါတယ်ခင်ဗျာ။ ဘယ်လိုခရီးမျိုး စဉ်းစားထားပါသလဲ။",
+        "translationMy": "ကြိုဆိုပါတယ်ခင်ဗျာ။ ဘယ်လိုခရီးမျိုး စဉ်းစားထားပါသလဲ။"
+      },
+      {
+        "speaker": "キム",
+        "ja": "来月の連休に、友達と二人で二泊三日の旅行をしたいんですが。",
+        "kana": "らいげつのれんきゅうに、ともだちとふたりでにはくみっかのりょこうをしたいんですが。",
+        "en": "I would like to take a 3-day, 2-night trip with a friend during next month’s holiday.",
+        "my": "လာမယ့်ရုံးပိတ်ရက်ရှည်မှာ သူငယ်ချင်းနဲ့အတူ နှစ်ညအိပ်သုံးရက် ခရီးသွားချင်လို့ပါ။",
+        "myanmar": "လာမယ့်ရုံးပိတ်ရက်ရှည်မှာ သူငယ်ချင်းနဲ့အတူ နှစ်ညအိပ်သုံးရက် ခရီးသွားချင်လို့ပါ။",
+        "translationMy": "လာမယ့်ရုံးပိတ်ရက်ရှည်မှာ သူငယ်ချင်းနဲ့အတူ နှစ်ညအိပ်သုံးရက် ခရီးသွားချင်လို့ပါ။"
+      },
+      {
+        "speaker": "旅行会社員",
+        "ja": "温泉はいかがですか。冬の季節なら、群馬県の草津温泉がとても人気ですよ。",
+        "kana": "おんせんは いかがですか。ふゆのきせつなら、ぐんまけんのくさつおんせんがとてもにんきですよ。",
+        "en": "How about a hot spring? In winter, Kusatsu Onsen in Gunma Prefecture is very popular.",
+        "my": "ရေပူစမ်းခရီးစဉ်ကို ဘယ်လိုမြင်ပါသလဲခင်ဗျာ။ ဆောင်းရာသီဆိုရင် ဂွန်မာခရိုင်ရဲ့ ခုဆာဆွတ်ရေပူစမ်းက အထူးလူကြိုက်များပါတယ်ခင်ဗျာ။",
+        "myanmar": "ရေပူစမ်းခရီးစဉ်ကို ဘယ်လိုမြင်ပါသလဲခင်ဗျာ။ ဆောင်းရာသီဆိုရင် ဂွန်မာခရိုင်ရဲ့ ခုဆာဆွတ်ရေပူစမ်းက အထူးလူကြိုက်များပါတယ်ခင်ဗျာ။",
+        "translationMy": "ရေပူစမ်းခရီးစဉ်ကို ဘယ်လိုမြင်ပါသလဲခင်ဗျာ။ ဆောင်းရာသီဆိုရင် ဂွန်မာခရိုင်ရဲ့ ခုဆာဆွတ်ရေပူစမ်းက အထူးလူကြိုက်များပါတယ်ခင်ဗျာ။"
+      },
+      {
+        "speaker": "キム",
+        "ja": "草津温泉ですか。東京からはどうやって行けばいいですか。",
+        "kana": "くさつおんせんですか。とうきょうからはどうやっていけばいいですか。",
+        "en": "Kusatsu Onsen? How should we get there from Tokyo?",
+        "my": "ခုဆာဆွတ်ရေပူစမ်းလား။ တိုကျိုကနေ ဘယ်လိုသွားရမလဲခင်ဗျာ။",
+        "myanmar": "ခုဆာဆွတ်ရေပူစမ်းလား။ တိုကျိုကနေ ဘယ်လိုသွားရမလဲခင်ဗျာ။",
+        "translationMy": "ခုဆာဆွတ်ရေပူစမ်းလား။ တိုကျိုကနေ ဘယ်လိုသွားရမလဲခင်ဗျာ။"
+      },
+      {
+        "speaker": "旅行会社員",
+        "ja": "電車で行くなら、上野駅から特急草津号に乗って長野原草津口駅まで行き、そこからバスを利用するのが便利です。",
+        "kana": "でんしゃでいくなら、うえのえきからとっきゅうくさつごうにのってながのはらくさつぐちえきまでいき、そこからバスをりようするのがべんりです。",
+        "en": "If going by train, taking the Limited Express Kusatsu from Ueno Station to Naganohara-Kusatsuguchi Station and taking a bus from there is convenient.",
+        "my": "ရထားနဲ့သွားမယ်ဆိုရင် အူအဲနိုဘူတာကနေ အမြန်ရထား ခုဆာဆွတ်ကို စီးပြီး နာဂါနိုဟာရ-ခုဆာဆွတ်ဂုချိ ဘူတာအထိ သွားကာ အဲဒီကနေ ဘတ်စ်ကားစီးရတာ အဆင်ပြေပါတယ်။",
+        "myanmar": "ရထားနဲ့သွားမယ်ဆိုရင် အူအဲနိုဘူတာကနေ အမြန်ရထား ခုဆာဆွတ်ကို စီးပြီး နာဂါနိုဟာရ-ခုဆာဆွတ်ဂုချိ ဘူတာအထိ သွားကာ အဲဒီကနေ ဘတ်စ်ကားစီးရတာ အဆင်ပြေပါတယ်။",
+        "translationMy": "ရထားနဲ့သွားမယ်ဆိုရင် အူအဲနိုဘူတာကနေ အမြန်ရထား ခုဆာဆွတ်ကို စီးပြီး နာဂါနိုဟာရ-ခုဆာဆွတ်ဂုချိ ဘူတာအထိ သွားကာ အဲဒီကနေ ဘတ်စ်ကားစီးရတာ အဆင်ပြေပါတယ်။"
+      },
+      {
+        "speaker": "キム",
+        "ja": "移動時間はどのくらいかかりますか。",
+        "kana": "いどうじかんはどのくらいかかりますか。",
+        "en": "How long does the travel take?",
+        "my": "ခရီးသွားချိန် ဘယ်လောက်ကြာပါသလဲ။",
+        "myanmar": "ခရီးသွားချိန် ဘယ်လောက်ကြာပါသလဲ။",
+        "translationMy": "ခရီးသွားချိန် ဘယ်လောက်ကြာပါသလဲ။"
+      },
+      {
+        "speaker": "旅行会社員",
+        "ja": "全部で三時間ほどですね。もし草津に行くなら、人気の旅館は早く満室になりますから、今週中に予約したほうがいいですよ。",
+        "kana": "ぜんぶでさんじかんほどですね。もしくさつにいくなら、にんきのりょかんははやくまんしつになりますから、こんしゅうちゅうによやくしたほうがいいですよ。",
+        "en": "About three hours in total. If you are going to Kusatsu, popular inns fill up quickly, so you had better book within this week.",
+        "my": "စုစုပေါင်း သုံးနာရီခန့် ကြာပါမယ်ခင်ဗျာ။ ခုဆာဆွတ်ကို သွားမယ်ဆိုရင် နာမည်ကြီးရိုကန်တွေက အမြန်လူပြည့်တတ်တာမို့ ဒီအပတ်အတွင်း ကြိုတင်ဘိုကင်လုပ်ထားတာ ပိုကောင်းပါလိမ့်မယ်။",
+        "myanmar": "စုစုပေါင်း သုံးနာရီခန့် ကြာပါမယ်ခင်ဗျာ။ ခုဆာဆွတ်ကို သွားမယ်ဆိုရင် နာမည်ကြီးရိုကန်တွေက အမြန်လူပြည့်တတ်တာမို့ ဒီအပတ်အတွင်း ကြိုတင်ဘိုကင်လုပ်ထားတာ ပိုကောင်းပါလိမ့်မယ်။",
+        "translationMy": "စုစုပေါင်း သုံးနာရီခန့် ကြာပါမယ်ခင်ဗျာ။ ခုဆာဆွတ်ကို သွားမယ်ဆိုရင် နာမည်ကြီးရိုကန်တွေက အမြန်လူပြည့်တတ်တာမို့ ဒီအပတ်အတွင်း ကြိုတင်ဘိုကင်လုပ်ထားတာ ပိုကောင်းပါလိမ့်မယ်။"
+      },
+      {
+        "speaker": "キム",
+        "ja": "わかりました。友達と相談して、今日中に予約の申し込みをします。",
+        "kana": "わかりました。ともだちとそうだんして、きょうじゅうによやくのもうしこみをします。",
+        "en": "Understood. I will consult with my friend and apply for the reservation today.",
+        "my": "နားလည်ပါပြီ။ သူငယ်ချင်းနဲ့ တိုင်ပင်ပြီး ဒီနေ့အတွင်း ဘိုကင်တင်လိုက်ပါမယ်။",
+        "myanmar": "နားလည်ပါပြီ။ သူငယ်ချင်းနဲ့ တိုင်ပင်ပြီး ဒီနေ့အတွင်း ဘိုကင်တင်လိုက်ပါမယ်။",
+        "translationMy": "နားလည်ပါပြီ။ သူငယ်ချင်းနဲ့ တိုင်ပင်ပြီး ဒီနေ့အတွင်း ဘိုကင်တင်လိုက်ပါမယ်။"
+      }
+    ],
     "questionIds": [
       "n4.l05.q026",
       "n4.l05.q027",
@@ -1573,7 +1646,7 @@
     },
     "titleMy": "旅行代理店での旅行相談 (Travel Consultation at Travel Agency) (နားထောင်ခြင်း)",
     "titleMyanmar": "旅行代理店での旅行相談 (Travel Consultation at Travel Agency) (နားထောင်ခြင်း)",
-    "translationMy": "Agent: Welcome. What kind of trip are you considering?\nKim: I want to take a 3-day, 2-night trip with a friend during next month's consecutive holidays.\nAgent: How about hot springs? If it is the winter season, Kusatsu Onsen in Gunma Prefecture is very popular.\nKim: Kusatsu Onsen? How should we go from Tokyo?\nAgent: If going by train, taking the Limited Express Kusatsu from Ueno Station to Naganohara-Kusatsuguchi Station and taking a bus from there is convenient.\nKim: How long does the travel take?\nAgent: In total, about three hours. If you are going to Kusatsu, popular inns fill up quickly, so you had better make reservations within this week.\nKim: Understood. I will discuss with my friend and submit the booking application today."
+    "translationMy": "ခရီးသွားကိုယ်စားလှယ်- ကြိုဆိုပါတယ်ခင်ဗျာ။ ဘယ်လိုခရီးမျိုး စဉ်းစားထားပါသလဲ။\nကင်မ်- လာမယ့်ရုံးပိတ်ရက်ရှည်မှာ သူငယ်ချင်းနဲ့အတူ နှစ်ညအိပ်သုံးရက် ခရီးသွားချင်လို့ပါ။\nခရီးသွားကိုယ်စားလှယ်- ရေပူစမ်းခရီးစဉ်ကို ဘယ်လိုမြင်ပါသလဲခင်ဗျာ။ ဆောင်းရာသီဆိုရင် ဂွန်မာခရိုင်ရဲ့ ခုဆာဆွတ်ရေပူစမ်းက အထူးလူကြိုက်များပါတယ်ခင်ဗျာ။\nကင်မ်- ခုဆာဆွတ်ရေပူစမ်းလား။ တိုကျိုကနေ ဘယ်လိုသွားရမလဲခင်ဗျာ။\nခရီးသွားကိုယ်စားလှယ်- ရထားနဲ့သွားမယ်ဆိုရင် အူအဲနိုဘူတာကနေ အမြန်ရထား ခုဆာဆွတ်ကို စီးပြီး နာဂါနိုဟာရ-ခုဆာဆွတ်ဂုချိ ဘူတာအထိ သွားကာ အဲဒီကနေ ဘတ်စ်ကားစီးရတာ အဆင်ပြေပါတယ်။\nကင်မ်- ခရီးသွားချိန် ဘယ်လောက်ကြာပါသလဲ။\nခရီးသွားကိုယ်စားလှယ်- စုစုပေါင်း သုံးနာရီခန့် ကြာပါမယ်ခင်ဗျာ။ ခုဆာဆွတ်ကို သွားမယ်ဆိုရင် နာမည်ကြီးရိုကန်တွေက အမြန်လူပြည့်တတ်တာမို့ ဒီအပတ်အတွင်း ကြိုတင်ဘိုကင်လုပ်ထားတာ ပိုကောင်းပါလိမ့်မယ်။\nကင်မ်- နားလည်ပါပြီ။ သူငယ်ချင်းနဲ့ တိုင်ပင်ပြီး ဒီနေ့အတွင်း ဘိုကင်တင်လိုက်ပါမယ်။"
   },
   "questions": [
     {
@@ -2241,7 +2314,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「神奈川県の箱根温泉」 ဖြစ်ပါသည်။ (The text says: 東京から近くて気軽に行ける場所を探しているなら、神奈川県の箱根温泉が一番おすすめです.)",
+      "explanationMy": "အဖြေမှန်မှာ 「神奈川県の箱根温泉」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"東京から近くて気軽に行ける場所を探しているなら、神奈川県の箱根温泉が一番おすすめです.\")",
       "choicesMy": [
         "神奈川県の箱根温泉",
         "群馬県の草津温泉",
@@ -2273,7 +2346,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「一時間半足らず」 ဖြစ်ပါသည်။ (The text states: 特急ロマンスカーに乗れば、一時間半足らずで到着します.)",
+      "explanationMy": "အဖြေမှန်မှာ 「一時間半足らず」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"特急ロマンスカーに乗れば、一時間半足らずで到着します.\")",
       "choicesMy": [
         "一時間半足らず",
         "三時間以上",
@@ -2305,7 +2378,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「体を洗うこと」 ဖြစ်ပါသည်။ (The text says: 湯船に入る前に必ず体を洗うこと.)",
+      "explanationMy": "အဖြေမှန်မှာ 「体を洗うこと」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"湯船に入る前に必ず体を洗うこと.\")",
       "choicesMy": [
         "体を洗うこと",
         "タオルを湯船に入れること",
@@ -2337,7 +2410,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「タオル」 ဖြစ်ပါသည်။ (The text states: 湯船の中にタオルを入れないこと.)",
+      "explanationMy": "အဖြေမှန်မှာ 「タオル」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"湯船の中にタオルを入れないこと.\")",
       "choicesMy": [
         "タオル",
         "自分自身の体",
@@ -2401,7 +2474,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「来月の連休に友達と二泊三日の旅行」 ဖြစ်ပါသည်။ (Kim says: 来月の連休に、友達と二人で二泊三日の旅行をしたいんですが.)",
+      "explanationMy": "အဖြေမှန်မှာ 「来月の連休に友達と二泊三日の旅行」 ဖြစ်ပါသည်။ (ကင်မ်က ပြောကြားသည်မှာ- \"来月の連休に、友達と二人で二泊三日の旅行をしたいんですが.\")",
       "choicesMy": [
         "来月の連休に友達と二泊三日の旅行",
         "今週末に一人で日帰り旅行",
@@ -2547,6 +2620,6 @@
   },
   "titleMy": "N4 Lesson 5: Conditional なら & Advice (〜なら・〜たら contrast) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 5: Conditional なら & Advice (〜なら・〜たら contrast) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 5: Conditional なら & Advice (〜なら・〜たら contrast) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "အကြံပြုချက်နှင့် အခြေအနေပြ ပုံစံ (〜なら) အပါအဝင် အခြေအနေပြ ပုံစံများ (〜たら、〜ば、〜と、〜なら) ၏ ကွဲပြားချက်များ။",
   "descriptionMyanmar": "N4 Lesson 5: Conditional なら & Advice (〜なら・〜たら contrast) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

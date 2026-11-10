@@ -951,7 +951,7 @@
           "meaning": "obstacle; impediment",
           "preview": false,
           "meaningMyanmar": "obstacle; impediment",
-          "meaningMy": "obstacle; impediment"
+          "meaningMy": "အတားအဆီး / ချို့ယွင်းချက်"
         }
       ],
       "exampleSentenceIds": [
@@ -1010,7 +1010,7 @@
           "meaning": "accurate; precise",
           "preview": false,
           "meaningMyanmar": "accurate; precise",
-          "meaningMy": "accurate; precise"
+          "meaningMy": "တိကျမှန်ကန်သော"
         }
       ],
       "exampleSentenceIds": [
@@ -1067,7 +1067,7 @@
           "meaning": "report; notification",
           "preview": false,
           "meaningMyanmar": "report; notification",
-          "meaningMy": "report; notification"
+          "meaningMy": "အကြောင်းကြားတင်ပြခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1115,7 +1115,7 @@
           "meaning": "attendance",
           "preview": false,
           "meaningMyanmar": "attendance",
-          "meaningMy": "attendance"
+          "meaningMy": "တက်ရောက်ခြင်း"
         },
         {
           "word": "空席",
@@ -1123,7 +1123,7 @@
           "meaning": "empty seat",
           "preview": false,
           "meaningMyanmar": "empty seat",
-          "meaningMy": "empty seat"
+          "meaningMy": "ထိုင်ခုံလွတ်"
         }
       ],
       "exampleSentenceIds": [
@@ -1185,8 +1185,8 @@
       },
       "explanationMy": "ဖြစ်ကောင်းဖြစ်နိုင်သည် / ဖြစ်ချင်ဖြစ်မည်ဟူသော မသေချာသည့် ဖြစ်နိုင်ခြေကို ဖော်ပြသည်။ နာမ်နှင့် na-adjective များတွင်「だ」မထည့်ဘဲ တိုက်ရိုက်ဆက်ရသည်။",
       "meaningMyanmar": "ဖြစ်ကောင်းဖြစ်နိုင်သည် / ဖြစ်ချင်ဖြစ်မည်ဟူသော မသေချာသည့် ဖြစ်နိုင်ခြေကို ဖော်ပြသည်။ နာမ်နှင့် na-adjective များတွင်「だ」မထည့်ဘဲ တိုက်ရိုက်ဆက်ရသည်။",
-      "meaningMy": "ဖြစ်ကောင်းဖြစ်နိုင်သည် / ဖြစ်ချင်ဖြစ်မည်ဟူသော မသေချာသည့် ဖြစ်နိုင်ခြေကို ဖော်ပြသည်။ နာမ်နှင့် na-adjective များတွင်「だ」မထည့်ဘဲ တိုက်ရိုက်ဆက်ရသည်။",
-      "nuanceExplanationMy": "[Plain form] + かもしれない ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ဖြစ်ကောင်းဖြစ်နိုင်သည် / ဖြစ်ချင်ဖြစ်မည်ဟူသော မသေချာသည့် ဖြစ်နိုင်ခြေကို ဖော်ပြသည်။",
+      "nuanceExplanationMy": "[Plain form] + かもしれない ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l16.g002",
@@ -1224,8 +1224,8 @@
       },
       "explanationMy": "ခိုင်လုံသော အကြောင်းပြချက် သို့မဟုတ် သတင်းအချက်အလက်ပေါ် အခြေခံ၍ \"သေချာပေါက် ဖြစ်သင့်သည်/ဖြစ်ရမည်\" ဟူသော ယုံကြည်စိတ်ချမှုကို ဖော်ပြသည်။ နာမ်တွင်「の」၊ na-adj တွင်「な」ထည့်ရသည်။",
       "meaningMyanmar": "ခိုင်လုံသော အကြောင်းပြချက် သို့မဟုတ် သတင်းအချက်အလက်ပေါ် အခြေခံ၍ \"သေချာပေါက် ဖြစ်သင့်သည်/ဖြစ်ရမည်\" ဟူသော ယုံကြည်စိတ်ချမှုကို ဖော်ပြသည်။ နာမ်တွင်「の」၊ na-adj တွင်「な」ထည့်ရသည်။",
-      "meaningMy": "ခိုင်လုံသော အကြောင်းပြချက် သို့မဟုတ် သတင်းအချက်အလက်ပေါ် အခြေခံ၍ \"သေချာပေါက် ဖြစ်သင့်သည်/ဖြစ်ရမည်\" ဟူသော ယုံကြည်စိတ်ချမှုကို ဖော်ပြသည်။ နာမ်တွင်「の」၊ na-adj တွင်「な」ထည့်ရသည်။",
-      "nuanceExplanationMy": "[Plain form] + はずだ / はずがない ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ခိုင်လုံသော အကြောင်းပြချက် သို့မဟုတ် သတင်းအချက်အလက်ပေါ် အခြေခံ၍ \"သေချာပေါက် ဖြစ်သင့်သည်/ဖြစ်ရမည်\" ဟူသော ယုံကြည်စိတ်ချမှုကို ဖော်ပြသည်။",
+      "nuanceExplanationMy": "[Plain form] + はずだ / はずがない ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1634,7 +1634,7 @@
     },
     "titleMy": "週末の旅行計画と台風の進路 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "週末の旅行計画と台風の進路 (ဖတ်ရှုခြင်း)",
-    "translationMy": "This weekend, four university friends and I have planned a 2-day, 1-night trip to a hot spring inn in Nagano Prefecture. We booked the inn a month ago, secured reserved seats on the limited express train, and looked forward to the trip as preparations progressed.\n\nHowever, watching last night's weather forecast, it was reported that a large typhoon formed over southern waters and could potentially approach the Kanto through Koshin regions over the weekend. If it continues on this course, we might be struck by heavy rain and gale winds on Saturday afternoon, and express trains might be suspended.\n\nWe hurriedly consulted via a group call. Our friend Nakamura said: \"The path might still change, so let's wait until tomorrow.\" On the other hand, Tanaka-san worried: \"Mountain roads carry landslide risks, so if we force ourselves to go, we might not be able to return home from the inn.\"\n\nChecking the railway company's website, it stated: \"Weekend train operation plans will be announced at 5:00 PM on Friday.\" Checking the forecast and latest updates, they should make a decision prioritizing safety above all. Although it was a trip we all anticipated, we agreed to act prudently without taking reckless risks."
+    "translationMy": "N4 Lesson 16: Conjecture & Expectation (〜かもしれない・〜はずだ) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l16.l01",
@@ -1655,38 +1655,56 @@
       {
         "speaker": "井上",
         "ja": "松田さん、今日の午後三時からの顧客プレゼンで使う製品サンプルはもう届いた？",
-        "kana": "松田さん、今日の午後三時からの顧客プレゼンで使う製品サンプルはもう届いた？",
-        "en": ""
+        "kana": "まつださん、きょうのごごさんじからのクライアントへのプレゼンでつかうせいひんサンプルはもうとどいていますか。",
+        "en": "Matsuda-san, has the product sample for today's 3:00 PM client presentation arrived yet?",
+        "my": "မဆုဒါဆန်၊ ဒီကနေ့ မွန်းလွဲ ၃ နာရီကစမယ့် ဖောက်သည်ထံ ပရီဆင်တေးရှင်းမှာ သုံးမယ့် ကုန်ပစ္စည်းနမူနာ ရောက်ရှိပြီလား။",
+        "myanmar": "မဆုဒါဆန်၊ ဒီကနေ့ မွန်းလွဲ ၃ နာရီကစမယ့် ဖောက်သည်ထံ ပရီဆင်တေးရှင်းမှာ သုံးမယ့် ကုန်ပစ္စည်းနမူနာ ရောက်ရှိပြီလား။",
+        "translationMy": "မဆုဒါဆန်၊ ဒီကနေ့ မွန်းလွဲ ၃ နာရီကစမယ့် ဖောက်သည်ထံ ပရီဆင်တေးရှင်းမှာ သုံးမယ့် ကုန်ပစ္စည်းနမူနာ ရောက်ရှိပြီလား။"
       },
       {
         "speaker": "松田",
         "ja": "それが、まだ届いていないんです。配送会社に電話で確かめたところ、朝九時に配達に出ているので、正午までには届くはずだと言っていました。",
-        "kana": "それが、まだ届いていないんです。配送会社に電話で確かめたところ、朝九時に配達に出ているので、正午までには届くはずだと言っていました。",
-        "en": ""
+        "kana": "ええ、さきほどはいそうぎょうしゃがとどけてくれました。すでにかいぎしつのつくえにならべてありますよ。",
+        "en": "The thing is, it hasn't arrived yet. When I called the delivery company to confirm, they said it went out for delivery at 9:00 AM, so it should arrive by noon.",
+        "my": "ဟုတ်ကဲ့၊ စောစောက ပို့ဆောင်ရေးလုပ်ငန်းက ပို့ပေးခဲ့ပါပြီ။ အစည်းအဝေးခန်း စားပွဲပေါ်မှာ အဆင်သင့် ခင်းကျင်းထားပြီးပါပြီ။",
+        "myanmar": "ဟုတ်ကဲ့၊ စောစောက ပို့ဆောင်ရေးလုပ်ငန်းက ပို့ပေးခဲ့ပါပြီ။ အစည်းအဝေးခန်း စားပွဲပေါ်မှာ အဆင်သင့် ခင်းကျင်းထားပြီးပါပြီ။",
+        "translationMy": "ဟုတ်ကဲ့၊ စောစောက ပို့ဆောင်ရေးလုပ်ငန်းက ပို့ပေးခဲ့ပါပြီ။ အစည်းအဝေးခန်း စားပွဲပေါ်မှာ အဆင်သင့် ခင်းကျင်းထားပြီးပါပြီ။"
       },
       {
         "speaker": "井上",
         "ja": "そうか。でも、今日は近隣の道路で水道工事があって、周辺が渋滞しているかもしれないよ。",
-        "kana": "そうか。でも、今日は近隣の道路で水道工事があって、周辺が渋滞しているかもしれないよ。",
-        "en": ""
+        "kana": "それはたすかりました。ところで、プレゼンのスライドしりょうのいんさつはすみましたか。",
+        "en": "I see. But there is water pipe construction on nearby streets today, so the surrounding area might be congested.",
+        "my": "တော်ပါသေးရဲ့။ ဒါနဲ့ ပရီဆင်တေးရှင်း ဆလိုက်စာရွက်စာတမ်းတွေ ပရင့်ထုတ်ပြီးပြီလား။",
+        "myanmar": "တော်ပါသေးရဲ့။ ဒါနဲ့ ပရီဆင်တေးရှင်း ဆလိုက်စာရွက်စာတမ်းတွေ ပရင့်ထုတ်ပြီးပြီလား။",
+        "translationMy": "တော်ပါသေးရဲ့။ ဒါနဲ့ ပရီဆင်တေးရှင်း ဆလိုက်စာရွက်စာတမ်းတွေ ပရင့်ထုတ်ပြီးပြီလား။"
       },
       {
         "speaker": "松田",
         "ja": "あっ、確かに朝から車が混み合っていましたね。遅れるかもしれません。",
-        "kana": "あっ、確かに朝から車が混み合っていましたね。遅れるかもしれません。",
-        "en": ""
+        "kana": "はい、さんかしゃじゅうにんぶんのしりょうをいんさつして、ホチキスでとめておきました。プロジェクターのせつぞくテストもかんりょうしています。",
+        "en": "Ah, traffic was indeed congested from morning. It might be delayed.",
+        "my": "ဟုတ်ကဲ့၊ တက်ရောက်သူ ၁၀ ဦးစာ စာရွက်စာတမ်းတွေကို ပရင့်ထုတ်ပြီး စက္ကူညှပ်နဲ့ တွဲထားပြီးပါပြီ။ ပရိုဂျက်တာ ချိတ်ဆက်စမ်းသပ်မှုလည်း ပြီးစီးပါပြီ။",
+        "myanmar": "ဟုတ်ကဲ့၊ တက်ရောက်သူ ၁၀ ဦးစာ စာရွက်စာတမ်းတွေကို ပရင့်ထုတ်ပြီး စက္ကူညှပ်နဲ့ တွဲထားပြီးပါပြီ။ ပရိုဂျက်တာ ချိတ်ဆက်စမ်းသပ်မှုလည်း ပြီးစီးပါပြီ။",
+        "translationMy": "ဟုတ်ကဲ့၊ တက်ရောက်သူ ၁၀ ဦးစာ စာရွက်စာတမ်းတွေကို ပရင့်ထုတ်ပြီး စက္ကူညှပ်နဲ့ တွဲထားပြီးပါပြီ။ ပရိုဂျက်တာ ချိတ်ဆက်စမ်းသပ်မှုလည်း ပြီးစီးပါပြီ။"
       },
       {
         "speaker": "井上",
         "ja": "もし一時までに届かなければ、以前のサンプルを使って説明することにしよう。",
-        "kana": "もし一時までに届かなければ、以前のサンプルを使って説明することにしよう。",
-        "en": ""
+        "kana": "かんぺきですね！これでじゅんびはばんぜんです。きょうのプレゼン、きっとうまくいきますよ。",
+        "en": "If it doesn't arrive by 1:00 PM, let's decide to explain using the previous sample.",
+        "my": "ပြီးပြည့်စုံတာပဲ! ဒါဆိုရင် ပြင်ဆင်မှု အားလုံး အဆင်သင့်ဖြစ်ပါပြီ။ ဒီနေ့ ပရီဆင်တေးရှင်း အဆင်ပြေမှာ သေချာပါတယ်။",
+        "myanmar": "ပြီးပြည့်စုံတာပဲ! ဒါဆိုရင် ပြင်ဆင်မှု အားလုံး အဆင်သင့်ဖြစ်ပါပြီ။ ဒီနေ့ ပရီဆင်တေးရှင်း အဆင်ပြေမှာ သေချာပါတယ်။",
+        "translationMy": "ပြီးပြည့်စုံတာပဲ! ဒါဆိုရင် ပြင်ဆင်မှု အားလုံး အဆင်သင့်ဖြစ်ပါပြီ။ ဒီနေ့ ပရီဆင်တေးရှင်း အဆင်ပြေမှာ သေချာပါတယ်။"
       },
       {
         "speaker": "松田",
         "ja": "はい。万が一に備えて、予備の資料と前回のサンプルを今すぐ準備しておきます。",
-        "kana": "はい。万が一に備えて、予備の資料と前回のサンプルを今すぐ準備しておきます。",
-        "en": ""
+        "kana": "はい！がんばりましょう！",
+        "en": "Understood. To prepare for emergencies, I will prepare the backup documents and previous sample right now.",
+        "my": "ဟုတ်ကဲ့ပါ! အတူတူ အကောင်းဆုံး ကြိုးစားကြတာပေါ့!",
+        "myanmar": "ဟုတ်ကဲ့ပါ! အတူတူ အကောင်းဆုံး ကြိုးစားကြတာပေါ့!",
+        "translationMy": "ဟုတ်ကဲ့ပါ! အတူတူ အကောင်းဆုံး ကြိုးစားကြတာပေါ့!"
       }
     ],
     "questionIds": [
@@ -1706,7 +1724,7 @@
     },
     "titleMy": "荷物の到着と午後の商談準備 (နားထောင်ခြင်း)",
     "titleMyanmar": "荷物の到着と午後の商談準備 (နားထောင်ခြင်း)",
-    "translationMy": "Inoue: Matsuda-san, has the product sample for today's 3:00 PM client presentation arrived yet?\nMatsuda: The thing is, it hasn't arrived yet. When I called the delivery company to confirm, they said it went out for delivery at 9:00 AM, so it should arrive by noon.\nInoue: I see. But there is water pipe construction on nearby streets today, so the surrounding area might be congested.\nMatsuda: Ah, traffic was indeed congested from morning. It might be delayed.\nInoue: If it doesn't arrive by 1:00 PM, let's decide to explain using the previous sample.\nMatsuda: Understood. To prepare for emergencies, I will prepare the backup documents and previous sample right now."
+    "translationMy": "井上- မဆုဒါဆန်၊ ဒီကနေ့ မွန်းလွဲ ၃ နာရီကစမယ့် ဖောက်သည်ထံ ပရီဆင်တေးရှင်းမှာ သုံးမယ့် ကုန်ပစ္စည်းနမူနာ ရောက်ရှိပြီလား။\n松田- ဟုတ်ကဲ့၊ စောစောက ပို့ဆောင်ရေးလုပ်ငန်းက ပို့ပေးခဲ့ပါပြီ။ အစည်းအဝေးခန်း စားပွဲပေါ်မှာ အဆင်သင့် ခင်းကျင်းထားပြီးပါပြီ။\n井上- တော်ပါသေးရဲ့။ ဒါနဲ့ ပရီဆင်တေးရှင်း ဆလိုက်စာရွက်စာတမ်းတွေ ပရင့်ထုတ်ပြီးပြီလား။\n松田- ဟုတ်ကဲ့၊ တက်ရောက်သူ ၁၀ ဦးစာ စာရွက်စာတမ်းတွေကို ပရင့်ထုတ်ပြီး စက္ကူညှပ်နဲ့ တွဲထားပြီးပါပြီ။ ပရိုဂျက်တာ ချိတ်ဆက်စမ်းသပ်မှုလည်း ပြီးစီးပါပြီ။\n井上- ပြီးပြည့်စုံတာပဲ! ဒါဆိုရင် ပြင်ဆင်မှု အားလုံး အဆင်သင့်ဖြစ်ပါပြီ။ ဒီနေ့ ပရီဆင်တေးရှင်း အဆင်ပြေမှာ သေချာပါတယ်။\n松田- ဟုတ်ကဲ့ပါ! အတူတူ အကောင်းဆုံး ကြိုးစားကြတာပေါ့!"
   },
   "questions": [
     {
@@ -2679,6 +2697,6 @@
   },
   "titleMy": "N4 Lesson 16: Conjecture & Expectation (〜かもしれない・〜はずだ) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 16: Conjecture & Expectation (〜かもしれない・〜はずだ) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 16: Conjecture & Expectation (〜かもしれない・〜はずだ) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "ဖြစ်နိုင်ခြေခန့်မှန်းချက် (〜かもしれない) နှင့် မျှော်လင့်ချက် (〜はずだ) ဆိုင်ရာ သဒ္ဒါနှင့် ဝေါဟာရများ။",
   "descriptionMyanmar": "N4 Lesson 16: Conjecture & Expectation (〜かもしれない・〜はずだ) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

@@ -997,7 +997,7 @@
           "meaning": "four seasons",
           "preview": false,
           "meaningMyanmar": "four seasons",
-          "meaningMy": "four seasons"
+          "meaningMy": "ဥတုလေးပါး (ရာသီလေးခု)"
         }
       ],
       "exampleSentenceIds": [
@@ -1039,7 +1039,7 @@
           "meaning": "saving; economizing",
           "preview": false,
           "meaningMyanmar": "saving; economizing",
-          "meaningMy": "saving; economizing"
+          "meaningMy": "ချွေတာခြင်း"
         },
         {
           "word": "季節",
@@ -1097,7 +1097,7 @@
           "meaning": "invitation; solicitation",
           "preview": false,
           "meaningMyanmar": "invitation; solicitation",
-          "meaningMy": "invitation; solicitation"
+          "meaningMy": "ဖိတ်ခေါ်စည်းရုံးခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1159,8 +1159,8 @@
       },
       "explanationMy": "စကားပြောဖော်ပြောဆိုသော အကြောင်းအရာ သို့မဟုတ် အခြေအနေတစ်ခုကို အခြေခံ၍ \"…ဆိုလျှင် / …နှင့်ပတ်သက်ပြီးဆိုလျှင်\" ဟု သတ်မှတ်ကာ အကြံဉာဏ်ပေးခြင်း၊ ထင်မြင်ချက်ပေးခြင်း သို့မဟုတ် တောင်းဆိုခြင်း ပြုလုပ်သည့်အခါ သုံးသည်။ 〜たら နှင့်မတူဘဲ ရှေ့ဖြစ်ရပ် မဖြစ်ပွားမီ ကြိုတင်လုပ်ဆောင်ရမည့်ကိစ္စတွင် 〜なら ကို သုံးနိုင်သည်။",
       "meaningMyanmar": "စကားပြောဖော်ပြောဆိုသော အကြောင်းအရာ သို့မဟုတ် အခြေအနေတစ်ခုကို အခြေခံ၍ \"…ဆိုလျှင် / …နှင့်ပတ်သက်ပြီးဆိုလျှင်\" ဟု သတ်မှတ်ကာ အကြံဉာဏ်ပေးခြင်း၊ ထင်မြင်ချက်ပေးခြင်း သို့မဟုတ် တောင်းဆိုခြင်း ပြုလုပ်သည့်အခါ သုံးသည်။ 〜たら နှင့်မတူဘဲ ရှေ့ဖြစ်ရပ် မဖြစ်ပွားမီ ကြိုတင်လုပ်ဆောင်ရမည့်ကိစ္စတွင် 〜なら ကို သုံးနိုင်သည်။",
-      "meaningMy": "စကားပြောဖော်ပြောဆိုသော အကြောင်းအရာ သို့မဟုတ် အခြေအနေတစ်ခုကို အခြေခံ၍ \"…ဆိုလျှင် / …နှင့်ပတ်သက်ပြီးဆိုလျှင်\" ဟု သတ်မှတ်ကာ အကြံဉာဏ်ပေးခြင်း၊ ထင်မြင်ချက်ပေးခြင်း သို့မဟုတ် တောင်းဆိုခြင်း ပြုလုပ်သည့်အခါ သုံးသည်။ 〜たら နှင့်မတူဘဲ ရှေ့ဖြစ်ရပ် မဖြစ်ပွားမီ ကြိုတင်လုပ်ဆောင်ရမည့်ကိစ္စတွင် 〜なら ကို သုံးနိုင်သည်။",
-      "nuanceExplanationMy": "[Noun / Plain form] + なら ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ပြောဆိုသူ သို့မဟုတ် အခြားသူ၏ အကြောင်းအရာကို အခြေခံ၍ အကြံပြုပြောဆိုခြင်း (〜ဆိုလျှင်)",
+      "nuanceExplanationMy": "[Noun / Plain form] + なら ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l25.g002",
@@ -1198,8 +1198,8 @@
       },
       "explanationMy": "ဂျပန်ဘာသာ အခြေအနေပြ (Conditionals) လေးမျိုး၏ ခြားနားချက်:\n၁။ 〜と: သဘာဝအလျောက် အလိုအလျောက် ဖြစ်ပေါ်သောအကျိုးရလဒ် (နောက်ဝါကျတွင် တိုက်တွန်းချက်၊ တောင်းဆိုချက် မသုံးရ)။\n၂။ 〜たら: ရှေ့အလုပ်ပြီးမှ နောက်အလုပ်ဆက်လုပ်သော အချိန်အစဉ်လိုက် (အချိန်မရွေးသုံးနိုင်သော နေ့စဉ်သုံး)။\n၃။ 〜ば: ယေဘုယျ သီအိုရီဆန်သော ယူဆချက် သို့မဟုတ် မရှိမဖြစ်လိုအပ်ချက်။\n၄။ 〜なら: တစ်ဖက်လူ၏ စကားကို အခြေခံပြီး အကြံပေးခြင်း၊ ညွှန်ပြခြင်း ပြုလုပ်သော အကြောင်းအရာပြ အခြေအနေ။",
       "meaningMyanmar": "ဂျပန်ဘာသာ အခြေအနေပြ (Conditionals) လေးမျိုး၏ ခြားနားချက်:\n၁။ 〜と: သဘာဝအလျောက် အလိုအလျောက် ဖြစ်ပေါ်သောအကျိုးရလဒ် (နောက်ဝါကျတွင် တိုက်တွန်းချက်၊ တောင်းဆိုချက် မသုံးရ)။\n၂။ 〜たら: ရှေ့အလုပ်ပြီးမှ နောက်အလုပ်ဆက်လုပ်သော အချိန်အစဉ်လိုက် (အချိန်မရွေးသုံးနိုင်သော နေ့စဉ်သုံး)။\n၃။ 〜ば: ယေဘုယျ သီအိုရီဆန်သော ယူဆချက် သို့မဟုတ် မရှိမဖြစ်လိုအပ်ချက်။\n၄။ 〜なら: တစ်ဖက်လူ၏ စကားကို အခြေခံပြီး အကြံပေးခြင်း၊ ညွှန်ပြခြင်း ပြုလုပ်သော အကြောင်းအရာပြ အခြေအနေ။",
-      "meaningMy": "ဂျပန်ဘာသာ အခြေအနေပြ (Conditionals) လေးမျိုး၏ ခြားနားချက်:\n၁။ 〜と: သဘာဝအလျောက် အလိုအလျောက် ဖြစ်ပေါ်သောအကျိုးရလဒ် (နောက်ဝါကျတွင် တိုက်တွန်းချက်၊ တောင်းဆိုချက် မသုံးရ)။\n၂။ 〜たら: ရှေ့အလုပ်ပြီးမှ နောက်အလုပ်ဆက်လုပ်သော အချိန်အစဉ်လိုက် (အချိန်မရွေးသုံးနိုင်သော နေ့စဉ်သုံး)။\n၃။ 〜ば: ယေဘုယျ သီအိုရီဆန်သော ယူဆချက် သို့မဟုတ် မရှိမဖြစ်လိုအပ်ချက်။\n၄။ 〜なら: တစ်ဖက်လူ၏ စကားကို အခြေခံပြီး အကြံပေးခြင်း၊ ညွှန်ပြခြင်း ပြုလုပ်သော အကြောင်းအရာပြ အခြေအနေ။",
-      "nuanceExplanationMy": "Conditional Comparison: 〜なら vs 〜たら vs 〜ば vs 〜と ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "သတ်မှတ်ထားသော အခြေအနေ သို့မဟုတ် အကြောင်းအကျိုးကို ဖော်ပြသည့် ပုံစံ (〜လျှင်)",
+      "nuanceExplanationMy": "Conditional Comparison: 〜なら vs 〜たら vs 〜ば vs 〜と ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     }
   ],
   "sentences": [
@@ -1265,7 +1265,7 @@
       "id": "n4.l25.s002",
       "lessonId": "n4.l25",
       "ja": "旅行の計画について何か新しい提案があるなら、遠慮なく教えてください。",
-      "kana": "りょこうのけいかくについてなにかあたらしいていあんがあるなら、えんりょなくて教えてください。",
+      "kana": "りょこうのけいかくについてなにかあたらしいていあんがあるなら、えんりょなくおしえてください。",
       "translation": {
         "en": "If you have any new proposal regarding the travel plan, please do not hesitate to tell us.",
         "my": "ခရီးသွားအစီအစဉ်နှင့် ပတ်သက်ပြီး အကြံပြုချက်အသစ်များ ရှိပါက အားမနာဘဲ ပြောပြပေးပါ။"
@@ -1604,7 +1604,7 @@
     },
     "titleMy": "週末旅行の行き先相談 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "週末旅行の行き先相談 (ဖတ်ရှုခြင်း)",
-    "translationMy": "If you are thinking of traveling somewhere in Japan for a two-day one-night trip during the autumn consecutive holidays, it is important to first decide what you want to enjoy most.\n\nIf you want to heal body and mind with delicious local cuisine and hot springs, Kusatsu Onsen in Gunma or Hakone Onsen in Kanagawa is recommended. Access from Tokyo is good, and if you stay at an inn with long history, you can forget daily fatigue and spend time leisurely.\n\nOn the other hand, if you want to fully enjoy nature unique to autumn and vivid autumn foliage scenery, Nikko in Tochigi or around the Fuji Five Lakes in Yamanashi is ideal. Walking along mountain paths, trees dyed red and yellow reflect in the lakes, creating breathtakingly beautiful views.\n\nHowever, since autumn sightseeing spots get extremely crowded, if the inn you wish to stay at has been decided, let's complete the reservation as early as possible."
+    "translationMy": "N4 Lesson 25: Conditional Topic & Advice (仮定・話題提示: 〜なら vs 〜たら・〜ば・〜と) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l25.l01",
@@ -1627,63 +1627,63 @@
         "ja": "松本先輩、来月の連休に京都へ行こうと思っているんですが、どこかいい場所はありますか？",
         "kana": "まつもとせんぱい、らいげつのれんきゅうにきょうとへいこうとおもっているんですが、どこかいいばしょはありますか？",
         "en": "Matsumoto-senpai, I am thinking of going to Kyoto during next month’s holiday, are there any good places?",
-        "my": "Matsumoto-senpai, I am thinking of going to Kyoto during next month’s holiday, are there any good places?",
-        "translationMy": "Matsumoto-senpai, I am thinking of going to Kyoto during next month’s holiday, are there any good places?",
-        "myanmar": "Matsumoto-senpai, I am thinking of going to Kyoto during next month’s holiday, are there any good places?"
+        "my": "松本先輩、来月の連休に京都へ行こうと思っているんですが、どこかいい場所はありますか？ (အဓိပ္ပာယ်- Matsumoto-senpai, I am thinking of going to Kyoto during next month’s holiday, are there any good places?)",
+        "translationMy": "松本先輩、来月の連休に京都へ行こうと思っているんですが、どこかいい場所はありますか？ (အဓိပ္ပာယ်- Matsumoto-senpai, I am thinking of going to Kyoto during next month’s holiday, are there any good places?)",
+        "myanmar": "松本先輩、来月の連休に京都へ行こうと思っているんですが、どこかいい場所はありますか？ (အဓိပ္ပာယ်- Matsumoto-senpai, I am thinking of going to Kyoto during next month’s holiday, are there any good places?)"
       },
       {
         "speaker": "松本",
         "ja": "京都か、いいね！紅葉を見たいなら、東福寺か嵐山が絶対おすすめだよ。",
         "kana": "きょうとか、いいね！こうようをみたいなら、とうふくじかあらしやまがぜったいおすすめだよ。",
         "en": "Kyoto, that’s great! If you want to see autumn foliage, Tofukuji or Arashiyama is definitely recommended.",
-        "my": "Kyoto, that’s great! If you want to see autumn foliage, Tofukuji or Arashiyama is definitely recommended.",
-        "translationMy": "Kyoto, that’s great! If you want to see autumn foliage, Tofukuji or Arashiyama is definitely recommended.",
-        "myanmar": "Kyoto, that’s great! If you want to see autumn foliage, Tofukuji or Arashiyama is definitely recommended."
+        "my": "京都か、いいね！紅葉を見たいなら、東福寺か嵐山が絶対おすすめだよ。 (အဓိပ္ပာယ်- Kyoto, that’s great! If you want to see autumn foliage, Tofukuji or Arashiyama is definitely recommended.)",
+        "translationMy": "京都か、いいね！紅葉を見たいなら、東福寺か嵐山が絶対おすすめだよ。 (အဓိပ္ပာယ်- Kyoto, that’s great! If you want to see autumn foliage, Tofukuji or Arashiyama is definitely recommended.)",
+        "myanmar": "京都か、いいね！紅葉を見たいなら、東福寺か嵐山が絶対おすすめだよ。 (အဓိပ္ပာယ်- Kyoto, that’s great! If you want to see autumn foliage, Tofukuji or Arashiyama is definitely recommended.)"
       },
       {
         "speaker": "キム",
         "ja": "嵐山ですか！写真で見たことがあります。行くなら、やっぱり朝早いほうがいいですか？",
         "kana": "あらしやまですか！しゃしんでみたことがあります。いくなら、やっぱりあさはやいほうがいいですか？",
         "en": "Arashiyama! I have seen it in photos. If I go, is early in the morning better after all?",
-        "my": "Arashiyama! I have seen it in photos. If I go, is early in the morning better after all?",
-        "translationMy": "Arashiyama! I have seen it in photos. If I go, is early in the morning better after all?",
-        "myanmar": "Arashiyama! I have seen it in photos. If I go, is early in the morning better after all?"
+        "my": "嵐山ですか！写真で見たことがあります。行くなら、やっぱり朝早いほうがいいですか？ (အဓိပ္ပာယ်- Arashiyama! I have seen it in photos. If I go, is early in the morning better after all?)",
+        "translationMy": "嵐山ですか！写真で見たことがあります。行くなら、やっぱり朝早いほうがいいですか？ (အဓိပ္ပာယ်- Arashiyama! I have seen it in photos. If I go, is early in the morning better after all?)",
+        "myanmar": "嵐山ですか！写真で見たことがあります。行くなら、やっぱり朝早いほうがいいですか？ (အဓိပ္ပာယ်- Arashiyama! I have seen it in photos. If I go, is early in the morning better after all?)"
       },
       {
         "speaker": "松本",
         "ja": "うん。十時を過ぎると観光客ですごく混むから、朝一番に行くなら、静かに散策できるよ。",
         "kana": "うん。じゅうじをすぎるとかんこうきゃくですごくこむから、あさいちばんにいくなら、しずかにさんさくできるよ。",
         "en": "Yeah. After 10:00 it gets very crowded with tourists, so if you go first thing in the morning, you can stroll quietly.",
-        "my": "Yeah. After 10:00 it gets very crowded with tourists, so if you go first thing in the morning, you can stroll quietly.",
-        "translationMy": "Yeah. After 10:00 it gets very crowded with tourists, so if you go first thing in the morning, you can stroll quietly.",
-        "myanmar": "Yeah. After 10:00 it gets very crowded with tourists, so if you go first thing in the morning, you can stroll quietly."
+        "my": "うん。十時を過ぎると観光客ですごく混むから、朝一番に行くなら、静かに散策できるよ。 (အဓိပ္ပာယ်- Yeah. After 10:00 it gets very crowded with tourists, so if you go first thing in the morning, you can stroll quietly.)",
+        "translationMy": "うん。十時を過ぎると観光客ですごく混むから、朝一番に行くなら、静かに散策できるよ。 (အဓိပ္ပာယ်- Yeah. After 10:00 it gets very crowded with tourists, so if you go first thing in the morning, you can stroll quietly.)",
+        "myanmar": "うん。十時を過ぎると観光客ですごく混むから、朝一番に行くなら、静かに散策できるよ。 (အဓိပ္ပာယ်- Yeah. After 10:00 it gets very crowded with tourists, so if you go first thing in the morning, you can stroll quietly.)"
       },
       {
         "speaker": "キム",
         "ja": "わかりました。宿の予約はどうすればいいでしょうか？",
         "kana": "わかりました。やどのよやくはどうすればいいでしょうか？",
         "en": "Understood. What should I do about lodging reservations?",
-        "my": "Understood. What should I do about lodging reservations?",
-        "translationMy": "Understood. What should I do about lodging reservations?",
-        "myanmar": "Understood. What should I do about lodging reservations?"
+        "my": "わかりました。宿の予約はどうすればいいでしょうか？ (အဓိပ္ပာယ်- Understood. What should I do about lodging reservations?)",
+        "translationMy": "わかりました。宿の予約はどうすればいいでしょうか？ (အဓိပ္ပာယ်- Understood. What should I do about lodging reservations?)",
+        "myanmar": "わかりました。宿の予約はどうすればいいでしょうか？ (အဓိပ္ပာယ်- Understood. What should I do about lodging reservations?)"
       },
       {
         "speaker": "松本",
         "ja": "人気のある旅館なら、すぐ満室になるから、今日中に予約サイトで探したほうがいいよ。",
         "kana": "にんきのあるりょかんなら、すぐまんしつになるから、きょうじゅうによやくサイトでさがしたほうがいいよ。",
         "en": "If it is a popular inn, it becomes fully booked immediately, so you should search on a booking site today.",
-        "my": "If it is a popular inn, it becomes fully booked immediately, so you should search on a booking site today.",
-        "translationMy": "If it is a popular inn, it becomes fully booked immediately, so you should search on a booking site today.",
-        "myanmar": "If it is a popular inn, it becomes fully booked immediately, so you should search on a booking site today."
+        "my": "人気のある旅館なら、すぐ満室になるから、今日中に予約サイトで探したほうがいいよ。 (အဓိပ္ပာယ်- If it is a popular inn, it becomes fully booked immediately, so you should search on a booking site today.)",
+        "translationMy": "人気のある旅館なら、すぐ満室になるから、今日中に予約サイトで探したほうがいいよ。 (အဓိပ္ပာယ်- If it is a popular inn, it becomes fully booked immediately, so you should search on a booking site today.)",
+        "myanmar": "人気のある旅館なら、すぐ満室になるから、今日中に予約サイトで探したほうがいいよ。 (အဓိပ္ပာယ်- If it is a popular inn, it becomes fully booked immediately, so you should search on a booking site today.)"
       },
       {
         "speaker": "キム",
         "ja": "ありがとうございます！さっそく今夜確認してみます。",
         "kana": "ありがとうございます！さっそくこんやかくにんしてみます。",
         "en": "Thank you! I will check right away tonight.",
-        "my": "Thank you! I will check right away tonight.",
-        "translationMy": "Thank you! I will check right away tonight.",
-        "myanmar": "Thank you! I will check right away tonight."
+        "my": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။",
+        "translationMy": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။",
+        "myanmar": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။"
       }
     ],
     "questionIds": [
@@ -1701,7 +1701,7 @@
     },
     "titleMy": "秋の京都旅行の相談 (နားထောင်ခြင်း)",
     "titleMyanmar": "秋の京都旅行の相談 (နားထောင်ခြင်း)",
-    "translationMy": "Kim: Matsumoto-senpai, I'm thinking of going to Kyoto during next month's holiday, are there any good spots?\nMatsumoto: Kyoto, that's great! If you want to see autumn leaves, Tofukuji or Arashiyama is definitely recommended.\nKim: Arashiyama! I've seen photos of it. If I'm going, is early morning better after all?\nMatsumoto: Yeah. If it passes 10:00, it gets very crowded with tourists, so if you go first thing in the morning, you can stroll quietly.\nKim: Understood. What should I do about inn reservations?\nMatsumoto: If it's a popular Japanese inn, rooms fill up quickly, so you'd better search on a booking site today.\nKim: Thank you very much! I'll check right away tonight."
+    "translationMy": "キム- 松本先輩、来月の連休に京都へ行こうと思っているんですが、どこかいい場所はありますか？ (အဓိပ္ပာယ်- Matsumoto-senpai, I am thinking of going to Kyoto during next month’s holiday, are there any good places?)\n松本- 京都か、いいね！紅葉を見たいなら、東福寺か嵐山が絶対おすすめだよ。 (အဓိပ္ပာယ်- Kyoto, that’s great! If you want to see autumn foliage, Tofukuji or Arashiyama is definitely recommended.)\nキム- 嵐山ですか！写真で見たことがあります。行くなら、やっぱり朝早いほうがいいですか？ (အဓိပ္ပာယ်- Arashiyama! I have seen it in photos. If I go, is early in the morning better after all?)\n松本- うん。十時を過ぎると観光客ですごく混むから、朝一番に行くなら、静かに散策できるよ。 (အဓိပ္ပာယ်- Yeah. After 10:00 it gets very crowded with tourists, so if you go first thing in the morning, you can stroll quietly.)\nキム- わかりました。宿の予約はどうすればいいでしょうか？ (အဓိပ္ပာယ်- Understood. What should I do about lodging reservations?)\n松本- 人気のある旅館なら、すぐ満室になるから、今日中に予約サイトで探したほうがいいよ。 (အဓိပ္ပာယ်- If it is a popular inn, it becomes fully booked immediately, so you should search on a booking site today.)\nキム- ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။"
   },
   "questions": [
     {
@@ -2499,7 +2499,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「草津温泉や箱根温泉」 ဖြစ်ပါသည်။ (The passage states: 美味しい郷土料理と温泉で心身を癒やしたいなら、群馬県の草津温泉や神奈川県の箱根温泉がおすすめです。)",
+      "explanationMy": "အဖြေမှန်မှာ 「草津温泉や箱根温泉」 ဖြစ်ပါသည်။ (စာပိုဒ်က ဖော်ပြသည်မှာ- \"美味しい郷土料理と温泉で心身を癒やしたいなら、群馬県の草津温泉や神奈川県の箱根温泉がおすすめです。\")",
       "choicesMy": [
         "草津温泉や箱根温泉",
         "日光や富士五湖",
@@ -2677,6 +2677,6 @@
   },
   "titleMy": "N4 Lesson 25: Conditional Topic & Advice (仮定・話題提示: 〜なら vs 〜たら・〜ば・〜と) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 25: Conditional Topic & Advice (仮定・話題提示: 〜なら vs 〜たら・〜ば・〜と) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 25: Conditional Topic & Advice (仮定・話題提示: 〜なら vs 〜たら・〜ば・〜と) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "အကြံပြုချက်နှင့် အကြောင်းအရာ စတင်မိတ်ဆက်ခြင်း (仮定・話題提示: 〜たら vs 〜なら) ဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 25: Conditional Topic & Advice (仮定・話題提示: 〜なら vs 〜たら・〜ば・〜と) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

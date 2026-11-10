@@ -949,7 +949,7 @@
           "meaning": "never; by no means",
           "preview": false,
           "meaningMyanmar": "never; by no means",
-          "meaningMy": "never; by no means"
+          "meaningMy": "ဘယ်သောအခါမှ (မ...)"
         },
         {
           "word": "決定",
@@ -1007,7 +1007,7 @@
           "meaning": "sound; healthy",
           "preview": false,
           "meaningMyanmar": "sound; healthy",
-          "meaningMy": "sound; healthy"
+          "meaningMy": "ကျန်းမာကြံ့ခိုင်သော"
         }
       ],
       "exampleSentenceIds": [
@@ -1055,7 +1055,7 @@
           "meaning": "health medical checkup",
           "preview": false,
           "meaningMyanmar": "health medical checkup",
-          "meaningMy": "health medical checkup"
+          "meaningMy": "ကျန်းမာရေးစစ်ဆေးမှု"
         }
       ],
       "exampleSentenceIds": [
@@ -1106,7 +1106,7 @@
           "meaning": "driving",
           "preview": false,
           "meaningMyanmar": "driving",
-          "meaningMy": "driving"
+          "meaningMy": "ယာဉ်မောင်းနှင်ခြင်း"
         },
         {
           "word": "自転車",
@@ -1176,7 +1176,7 @@
       "explanationMy": "မိမိကိုယ်တိုင်၏ သန္နိဋ္ဌာန်ဖြင့် ဆုံးဖြတ်ခြင်း (〜ことにする) နှင့် မိမိကိုယ်တိုင် ပြုလုပ်ရန် စည်းမျဉ်းထားရှိသော အလေ့အကျင့် (〜ことにしている) ကို ဖော်ပြသည်။",
       "meaningMyanmar": "မိမိကိုယ်တိုင်၏ သန္နိဋ္ဌာန်ဖြင့် ဆုံးဖြတ်ခြင်း (〜ことにする) နှင့် မိမိကိုယ်တိုင် ပြုလုပ်ရန် စည်းမျဉ်းထားရှိသော အလေ့အကျင့် (〜ことにしている) ကို ဖော်ပြသည်။",
       "meaningMy": "မိမိကိုယ်တိုင်၏ သန္နိဋ္ဌာန်ဖြင့် ဆုံးဖြတ်ခြင်း (〜ことにする) နှင့် မိမိကိုယ်တိုင် ပြုလုပ်ရန် စည်းမျဉ်းထားရှိသော အလေ့အကျင့် (〜ことにしている) ကို ဖော်ပြသည်။",
-      "nuanceExplanationMy": "[Verb Dictionary form / ない form] + ことにする / ことにしている ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "nuanceExplanationMy": "[Verb Dictionary form / ない form] + ことにする / ことにしている ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l17.g002",
@@ -1214,7 +1214,7 @@
       "explanationMy": "ကုမ္ပဏီ၊ အဖွဲ့အစည်း သို့မဟုတ် ပြင်ပအခြေအနေများကြောင့် ဆုံးဖြတ်ပြီးသားဖြစ်သွားခြင်း (〜ことになる) နှင့် လူမှုစည်းမျဉ်း သို့မဟုတ် ဥပဒေအရ သတ်မှတ်ထားသောအရာ (〜ことになっている) ကို ဖော်ပြသည်။",
       "meaningMyanmar": "ကုမ္ပဏီ၊ အဖွဲ့အစည်း သို့မဟုတ် ပြင်ပအခြေအနေများကြောင့် ဆုံးဖြတ်ပြီးသားဖြစ်သွားခြင်း (〜ことになる) နှင့် လူမှုစည်းမျဉ်း သို့မဟုတ် ဥပဒေအရ သတ်မှတ်ထားသောအရာ (〜ことになっている) ကို ဖော်ပြသည်။",
       "meaningMy": "ကုမ္ပဏီ၊ အဖွဲ့အစည်း သို့မဟုတ် ပြင်ပအခြေအနေများကြောင့် ဆုံးဖြတ်ပြီးသားဖြစ်သွားခြင်း (〜ことになる) နှင့် လူမှုစည်းမျဉ်း သို့မဟုတ် ဥပဒေအရ သတ်မှတ်ထားသောအရာ (〜ことになっている) ကို ဖော်ပြသည်။",
-      "nuanceExplanationMy": "[Verb Dictionary form / ない form] + ことになる / ことになっている ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "nuanceExplanationMy": "[Verb Dictionary form / ない form] + ことになる / ことになっている ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1396,7 +1396,7 @@
       "id": "n4.l17.s006",
       "lessonId": "n4.l17",
       "ja": "医者から注意されたので、今日からきっぱり禁煙することにしました。",
-      "kana": "いしゃからちゅういされたので、きょうからきっぱりきんえんすることにしました။",
+      "kana": "いしゃからちゅういされたので、きょうからきっぱりきんえんすることにしました。",
       "translation": {
         "en": "Because the doctor cautioned me, I decided to quit smoking completely starting today.",
         "my": "ဆရာဝန်က သတိပေးသောကြောင့် ယနေ့မှစ၍ ဆေးလိပ်ကို လုံးဝဖြတ်ရန် ဆုံးဖြတ်လိုက်သည်။"
@@ -1512,7 +1512,7 @@
       "id": "n4.l17.s010",
       "lessonId": "n4.l17",
       "ja": "ビザの延長許可が出たので、あと一年日本に滞在できることになりました。",
-      "kana": "ビザのえんちょうきょかが出たので、あといちねんにほんにたいざいできることになりました。",
+      "kana": "ビザのえんちょうきょかがでたので、あといちねんにほんにたいざいできることになりました。",
       "translation": {
         "en": "Since the visa extension permission was granted, it turned out that I can stay in Japan for one more year.",
         "my": "ဗီဇာသက်တမ်းတိုးခွင့် ရရှိခဲ့သောကြောင့် ဂျပန်နိုင်ငံတွင် နောက်ထပ်တစ်နှစ် ဆက်လက်နေထိုင်နိုင်မည် ဖြစ်သွားခဲ့သည်။"
@@ -1622,7 +1622,7 @@
     },
     "titleMy": "新天地での生活と健康への誓い (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "新天地での生活と健康への誓い (ဖတ်ရှုခြင်း)",
-    "translationMy": "Last month, receiving an official order from my company, it was decided that I will transfer to the Fukuoka branch starting in October. For me, having lived in Tokyo for five years since joining the company, leaving a familiar city is a bit lonely, but I view it positively as a great opportunity to take on new challenges in a fresh environment.\n\nUpon starting my new life in Fukuoka, I decided to fundamentally re-examine my lifestyle habits. Back when I was in Tokyo, when overtime continued, I tended to ruin my health by eating greasy midnight snacks late at night and lacking exercise.\n\nTherefore, in Fukuoka I decided to \"wake up at 6:00 every morning and run along the nearby coast for 30 minutes\" and \"cook my own vegetable-focused meals on weekday evenings.\" Furthermore, I make it a rule to use the company stairs without riding the elevator.\n\nAt the company, every Wednesday is designated as \"No Overtime Day,\" and everyone is scheduled to leave the office by 6:00 PM. Securing my personal time well, I intend to live fulfilling days balancing both work and health."
+    "translationMy": "N4 Lesson 17: Decisions & Plans (〜ことにする・〜ことになる) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l17.l01",
@@ -1643,44 +1643,65 @@
       {
         "speaker": "小川",
         "ja": "高橋さん、聞いたよ！来月から名古屋支社へ異動することになったんだって？",
-        "kana": "高橋さん、聞いたよ！来月から名古屋支社へ異動することになったんだって？",
-        "en": ""
+        "kana": "たかはしさん、ききましたよ！らいげつからなごやしてんへてんきんすることになったってほんとうですか。",
+        "en": "Takahashi-san, I heard! Is it true that it was decided you will transfer to the Nagoya branch from next month?",
+        "my": "တာကာဟာရှိဆန်၊ ကြားပြီးပြီနော်! လာမယ့်လကစပြီး နာဂိုယာရုံးခွဲကို ပြောင်းရွှေ့တာဝန်ကျတယ်ဆိုတာ တကယ်လား။",
+        "myanmar": "တာကာဟာရှိဆန်၊ ကြားပြီးပြီနော်! လာမယ့်လကစပြီး နာဂိုယာရုံးခွဲကို ပြောင်းရွှေ့တာဝန်ကျတယ်ဆိုတာ တကယ်လား။",
+        "translationMy": "တာကာဟာရှိဆန်၊ ကြားပြီးပြီနော်! လာမယ့်လကစပြီး နာဂိုယာရုံးခွဲကို ပြောင်းရွှေ့တာဝန်ကျတယ်ဆိုတာ တကယ်လား။"
       },
       {
         "speaker": "高橋",
         "ja": "ええ、そうなんです。急な辞令で驚きましたが、名古屋で新しいチームのリーダーを務めることになりました。",
-        "kana": "ええ、そうなんです。急な辞令で驚きましたが、名古屋で新しいチームのリーダーを務めることになりました。",
-        "en": ""
+        "kana": "ええ、せんしゅうのぶちょうめん談でつたえられました。とうきょうをはなれるのはさびしいですが、あたらしいプロジェクトをまかされることになったので、ちょうせんしてみることにしました。",
+        "en": "Yes, that's right. I was surprised by the sudden personnel order, but it turned out that I will serve as leader of a new team in Nagoya.",
+        "my": "ဟုတ်တယ်၊ ပြီးခဲ့တဲ့အပတ်က ဌာနမှူးနဲ့ တွေ့ဆုံဆွေးနွေးမှုမှာ အကြောင်းကြားခံခဲ့ရတာပါ။ တိုကျိုကနေ ခွဲခွာရမှာ စိတ်မကောင်းပေမဲ့ ပရောဂျက်အသစ်ကို တာဝန်ယူရမှာဖြစ်လို့ စိန်ခေါ်ကြည့်ဖို့ ဆုံးဖြတ်ခဲ့ပါတယ်။",
+        "myanmar": "ဟုတ်တယ်၊ ပြီးခဲ့တဲ့အပတ်က ဌာနမှူးနဲ့ တွေ့ဆုံဆွေးနွေးမှုမှာ အကြောင်းကြားခံခဲ့ရတာပါ။ တိုကျိုကနေ ခွဲခွာရမှာ စိတ်မကောင်းပေမဲ့ ပရောဂျက်အသစ်ကို တာဝန်ယူရမှာဖြစ်လို့ စိန်ခေါ်ကြည့်ဖို့ ဆုံးဖြတ်ခဲ့ပါတယ်။",
+        "translationMy": "ဟုတ်တယ်၊ ပြီးခဲ့တဲ့အပတ်က ဌာနမှူးနဲ့ တွေ့ဆုံဆွေးနွေးမှုမှာ အကြောင်းကြားခံခဲ့ရတာပါ။ တိုကျိုကနေ ခွဲခွာရမှာ စိတ်မကောင်းပေမဲ့ ပရောဂျက်အသစ်ကို တာဝန်ယူရမှာဖြစ်လို့ စိန်ခေါ်ကြည့်ဖို့ ဆုံးဖြတ်ခဲ့ပါတယ်။"
       },
       {
         "speaker": "小川",
         "ja": "すごいじゃない！おめでとう。名古屋での住まいはもう決めたの？",
-        "kana": "すごいじゃない！おめでとう。名古屋での住まいはもう決めたの？",
-        "en": ""
+        "kana": "そうですか。なごやでもたかはしさんのちからがきたいされているんですね。すむところはもうきまりましたか。",
+        "en": "That's great! Congratulations. Have you already decided on a place to live in Nagoya?",
+        "my": "ဟုတ်လား။ နာဂိုယာမှာလည်း တာကာဟာရှိဆန်ရဲ့ စွမ်းဆောင်ရည်ကို မျှော်လင့်နေကြတာပေါ့နော်။ နေထိုင်မယ့်နေရာ ရွေးချယ်ပြီးပြီလား။",
+        "myanmar": "ဟုတ်လား။ နာဂိုယာမှာလည်း တာကာဟာရှိဆန်ရဲ့ စွမ်းဆောင်ရည်ကို မျှော်လင့်နေကြတာပေါ့နော်။ နေထိုင်မယ့်နေရာ ရွေးချယ်ပြီးပြီလား။",
+        "translationMy": "ဟုတ်လား။ နာဂိုယာမှာလည်း တာကာဟာရှိဆန်ရဲ့ စွမ်းဆောင်ရည်ကို မျှော်လင့်နေကြတာပေါ့နော်။ နေထိုင်မယ့်နေရာ ရွေးချယ်ပြီးပြီလား။"
       },
       {
         "speaker": "高橋",
         "ja": "会社が指定した社宅に入ることにしました。駅から歩いて五分なので便利そうです。",
-        "kana": "会社が指定した社宅に入ることにしました。駅から歩いて五分なので便利そうです。",
-        "en": ""
+        "kana": "ええ、きのうふどうさんやとれんらくをとって、してんのちかくのアパートをけいやくすることにしました。らいしゅうひっこしのじゅんびをはじめるよていです。",
+        "en": "I decided to move into company housing designated by the firm. It's a 5-minute walk from the station, so it looks convenient.",
+        "my": "ဟုတ်ကဲ့၊ မနေ့က အိမ်ခြံမြေအကျိုးဆောင်နဲ့ ဆက်သွယ်ပြီး ရုံးခွဲအနီးက တိုက်ခန်းတစ်ခု စာချုပ်ချုပ်ဖို့ ဆုံးဖြတ်ခဲ့ပါတယ်။ လာမယ့်အပတ် အိမ်ပြောင်းဖို့ ပြင်ဆင်ပါတော့မယ်။",
+        "myanmar": "ဟုတ်ကဲ့၊ မနေ့က အိမ်ခြံမြေအကျိုးဆောင်နဲ့ ဆက်သွယ်ပြီး ရုံးခွဲအနီးက တိုက်ခန်းတစ်ခု စာချုပ်ချုပ်ဖို့ ဆုံးဖြတ်ခဲ့ပါတယ်။ လာမယ့်အပတ် အိမ်ပြောင်းဖို့ ပြင်ဆင်ပါတော့မယ်။",
+        "translationMy": "ဟုတ်ကဲ့၊ မနေ့က အိမ်ခြံမြေအကျိုးဆောင်နဲ့ ဆက်သွယ်ပြီး ရုံးခွဲအနီးက တိုက်ခန်းတစ်ခု စာချုပ်ချုပ်ဖို့ ဆုံးဖြတ်ခဲ့ပါတယ်။ လာမယ့်အပတ် အိမ်ပြောင်းဖို့ ပြင်ဆင်ပါတော့မယ်။"
       },
       {
         "speaker": "小川",
         "ja": "いいね。そういえば、名古屋支社は服装の規則が東京より自由で、毎日私服で勤務していいことになっているらしいよ。",
-        "kana": "いいね。そういえば、名古屋支社は服装の規則が東京より自由で、毎日私服で勤務していいことになっているらしいよ。",
-        "en": ""
+        "kana": "いそがしくなりそうですね。そうだ、こんしゅうのきんようびに、ゆうしでそうべつかいをひらくことにしたんですよ。",
+        "en": "Nice. Come to think of it, I hear the Nagoya branch has more relaxed clothing rules than Tokyo, and it is established that you can work in casual clothes every day.",
+        "my": "အလုပ်ရှုပ်တော့မှာပဲနော်။ ဒါနဲ့ ဒီအပတ် သောကြာနေ့မှာ ဆန္ဒရှိသူတွေစုပေါင်းပြီး နှုတ်ဆက်ပွဲ ကျင်းပဖို့ စီစဉ်ထားတယ်နော်။",
+        "myanmar": "အလုပ်ရှုပ်တော့မှာပဲနော်။ ဒါနဲ့ ဒီအပတ် သောကြာနေ့မှာ ဆန္ဒရှိသူတွေစုပေါင်းပြီး နှုတ်ဆက်ပွဲ ကျင်းပဖို့ စီစဉ်ထားတယ်နော်။",
+        "translationMy": "အလုပ်ရှုပ်တော့မှာပဲနော်။ ဒါနဲ့ ဒီအပတ် သောကြာနေ့မှာ ဆန္ဒရှိသူတွေစုပေါင်းပြီး နှုတ်ဆက်ပွဲ ကျင်းပဖို့ စီစဉ်ထားတယ်နော်။"
       },
       {
         "speaker": "高橋",
         "ja": "へえ、そうなんですか！スーツを着なくてもいいのは楽ですね。健康のために、名古屋では自転車通勤をすることにしようと思っています。",
-        "kana": "へえ、そうなんですか！スーツを着なくてもいいのは楽ですね。健康のために、名古屋では自転車通勤をすることにしようと思っています。",
-        "en": ""
+        "kana": "えっ、本当ですか！わざわざありがとうございます。",
+        "en": "Oh, really! Not having to wear a suit is so comfortable. For my health, I'm thinking of deciding to commute by bicycle in Nagoya.",
+        "my": "ဟာ၊ တကယ်လားခင်ဗျာ! အထူးတလည် စီစဉ်ပေးတာ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။",
+        "myanmar": "ဟာ၊ တကယ်လားခင်ဗျာ! အထူးတလည် စီစဉ်ပေးတာ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။",
+        "translationMy": "ဟာ၊ တကယ်လားခင်ဗျာ! အထူးတလည် စီစဉ်ပေးတာ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။"
       },
       {
         "speaker": "小川",
         "ja": "新天地での生活、楽しそうだね。応援しているよ！",
-        "kana": "新天地での生活、楽しそうだね。応援しているよ！",
-        "en": ""
+        "kana": "みんなたかはしさんを応援していますからね。たのしみにしていますよ！",
+        "en": "Life in your new place sounds fun. I'm cheering for you!",
+        "my": "အားလုံးက တာကာဟာရှိဆန်ကို အားပေးနေကြတာလေ။ မျှော်လင့်စောင့်စားနေပါတယ်နော်!",
+        "myanmar": "အားလုံးက တာကာဟာရှိဆန်ကို အားပေးနေကြတာလေ။ မျှော်လင့်စောင့်စားနေပါတယ်နော်!",
+        "translationMy": "အားလုံးက တာကာဟာရှိဆန်ကို အားပေးနေကြတာလေ။ မျှော်လင့်စောင့်စားနေပါတယ်နော်!"
       }
     ],
     "questionIds": [
@@ -1700,7 +1721,7 @@
     },
     "titleMy": "社内転勤と新しいオフィスの規則 (နားထောင်ခြင်း)",
     "titleMyanmar": "社内転勤と新しいオフィスの規則 (နားထောင်ခြင်း)",
-    "translationMy": "Ogawa: Takahashi-san, I heard! Is it true that it was decided you will transfer to the Nagoya branch from next month?\nTakahashi: Yes, that's right. I was surprised by the sudden personnel order, but it turned out that I will serve as leader of a new team in Nagoya.\nOgawa: That's great! Congratulations. Have you already decided on a place to live in Nagoya?\nTakahashi: I decided to move into company housing designated by the firm. It's a 5-minute walk from the station, so it looks convenient.\nOgawa: Nice. Come to think of it, I hear the Nagoya branch has more relaxed clothing rules than Tokyo, and it is established that you can work in casual clothes every day.\nTakahashi: Oh, really! Not having to wear a suit is so comfortable. For my health, I'm thinking of deciding to commute by bicycle in Nagoya.\nOgawa: Life in your new place sounds fun. I'm cheering for you!"
+    "translationMy": "小川- တာကာဟာရှိဆန်၊ ကြားပြီးပြီနော်! လာမယ့်လကစပြီး နာဂိုယာရုံးခွဲကို ပြောင်းရွှေ့တာဝန်ကျတယ်ဆိုတာ တကယ်လား။\n高橋- ဟုတ်တယ်၊ ပြီးခဲ့တဲ့အပတ်က ဌာနမှူးနဲ့ တွေ့ဆုံဆွေးနွေးမှုမှာ အကြောင်းကြားခံခဲ့ရတာပါ။ တိုကျိုကနေ ခွဲခွာရမှာ စိတ်မကောင်းပေမဲ့ ပရောဂျက်အသစ်ကို တာဝန်ယူရမှာဖြစ်လို့ စိန်ခေါ်ကြည့်ဖို့ ဆုံးဖြတ်ခဲ့ပါတယ်။\n小川- ဟုတ်လား။ နာဂိုယာမှာလည်း တာကာဟာရှိဆန်ရဲ့ စွမ်းဆောင်ရည်ကို မျှော်လင့်နေကြတာပေါ့နော်။ နေထိုင်မယ့်နေရာ ရွေးချယ်ပြီးပြီလား။\n高橋- ဟုတ်ကဲ့၊ မနေ့က အိမ်ခြံမြေအကျိုးဆောင်နဲ့ ဆက်သွယ်ပြီး ရုံးခွဲအနီးက တိုက်ခန်းတစ်ခု စာချုပ်ချုပ်ဖို့ ဆုံးဖြတ်ခဲ့ပါတယ်။ လာမယ့်အပတ် အိမ်ပြောင်းဖို့ ပြင်ဆင်ပါတော့မယ်။\n小川- အလုပ်ရှုပ်တော့မှာပဲနော်။ ဒါနဲ့ ဒီအပတ် သောကြာနေ့မှာ ဆန္ဒရှိသူတွေစုပေါင်းပြီး နှုတ်ဆက်ပွဲ ကျင်းပဖို့ စီစဉ်ထားတယ်နော်။\n高橋- ဟာ၊ တကယ်လားခင်ဗျာ! အထူးတလည် စီစဉ်ပေးတာ ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။\n小川- အားလုံးက တာကာဟာရှိဆန်ကို အားပေးနေကြတာလေ။ မျှော်လင့်စောင့်စားနေပါတယ်နော်!"
   },
   "questions": [
     {
@@ -2675,6 +2696,6 @@
   },
   "titleMy": "N4 Lesson 17: Decisions & Plans (〜ことにする・〜ことになる) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 17: Decisions & Plans (〜ことにする・〜ことになる) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 17: Decisions & Plans (〜ことにする・〜ことになる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "မိမိ၏ ဆုံးဖြတ်ချက် (〜ことにする) နှင့် အဖွဲ့အစည်း/ပြင်ပ အခြေအနေအရ သတ်မှတ်ပြီးဖြစ်ခြင်း (〜ことになる) ဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 17: Decisions & Plans (〜ことにする・〜ことになる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

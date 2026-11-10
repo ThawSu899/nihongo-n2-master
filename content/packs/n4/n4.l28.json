@@ -958,7 +958,7 @@
           "meaning": "visit; call",
           "preview": false,
           "meaningMyanmar": "visit; call",
-          "meaningMy": "visit; call"
+          "meaningMy": "သွားရောက်လည်ပတ်ခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1057,7 +1057,7 @@
           "meaning": "speech; address",
           "preview": false,
           "meaningMyanmar": "speech; address",
-          "meaningMy": "speech; address"
+          "meaningMy": "မိန့်ခွန်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1107,7 +1107,7 @@
           "meaning": "concert; ensemble",
           "preview": false,
           "meaningMyanmar": "concert; ensemble",
-          "meaningMy": "concert; ensemble"
+          "meaningMy": "တူရိယာတွဲဖက်တီးခတ်ခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1169,8 +1169,8 @@
       },
       "explanationMy": "အတိတ်ဘဝတစ်လျှောက်တွင် ထိုအရာကို တစ်ကြိမ်တစ်ခါမျှ ပြုလုပ်ဖူးခြင်း ရှိ/မရှိ (အတွေ့အကြုံ) ကို ဖော်ပြသည်။ ကြိယာ た形 နောက်တွင် 「ことがある / ことがない」ကို ဆက်သည်။ တစ်ကြိမ်မျှ မကြုံဖူးပါက 「一度も〜たことがない」ဟု သုံးသည်။",
       "meaningMyanmar": "အတိတ်ဘဝတစ်လျှောက်တွင် ထိုအရာကို တစ်ကြိမ်တစ်ခါမျှ ပြုလုပ်ဖူးခြင်း ရှိ/မရှိ (အတွေ့အကြုံ) ကို ဖော်ပြသည်။ ကြိယာ た形 နောက်တွင် 「ことがある / ことがない」ကို ဆက်သည်။ တစ်ကြိမ်မျှ မကြုံဖူးပါက 「一度も〜たことがない」ဟု သုံးသည်။",
-      "meaningMy": "အတိတ်ဘဝတစ်လျှောက်တွင် ထိုအရာကို တစ်ကြိမ်တစ်ခါမျှ ပြုလုပ်ဖူးခြင်း ရှိ/မရှိ (အတွေ့အကြုံ) ကို ဖော်ပြသည်။ ကြိယာ た形 နောက်တွင် 「ことがある / ことがない」ကို ဆက်သည်။ တစ်ကြိမ်မျှ မကြုံဖူးပါက 「一度も〜たことがない」ဟု သုံးသည်။",
-      "nuanceExplanationMy": "[Verb た-form] + ことがある / ことがない ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အတိတ်ဘဝတစ်လျှောက်တွင် ထိုအရာကို တစ်ကြိမ်တစ်ခါမျှ ပြုလုပ်ဖူးခြင်း ရှိ/မရှိ (အတွေ့အကြုံ) ကို ဖော်ပြသည်။",
+      "nuanceExplanationMy": "[Verb た-form] + ことがある / ことがない ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l28.g002",
@@ -1208,8 +1208,8 @@
       },
       "explanationMy": "လူတစ်ဦးတည်းက လုပ်ဆောင်ချက် နှစ်ခုကို တစ်ပြိုင်နက်တည်း လုပ်ဆောင်နေခြင်းကို ဖော်ပြသည်။ ပုံစံမှာ ကြိယာ ます形 အမြစ် နောက်တွင် 「ながら」ကို ဆက်ပြီး အဓိကလုပ်ဆောင်ချက် (Main Action) ကို နောက်ဝါကျတွင် ထားသည်။ (ဥပမာ- သီချင်းနားထောင်ရင်း စာကျက်သည် - စာကျက်ခြင်းက အဓိကဖြစ်သည်)။",
       "meaningMyanmar": "လူတစ်ဦးတည်းက လုပ်ဆောင်ချက် နှစ်ခုကို တစ်ပြိုင်နက်တည်း လုပ်ဆောင်နေခြင်းကို ဖော်ပြသည်။ ပုံစံမှာ ကြိယာ ます形 အမြစ် နောက်တွင် 「ながら」ကို ဆက်ပြီး အဓိကလုပ်ဆောင်ချက် (Main Action) ကို နောက်ဝါကျတွင် ထားသည်။ (ဥပမာ- သီချင်းနားထောင်ရင်း စာကျက်သည် - စာကျက်ခြင်းက အဓိကဖြစ်သည်)။",
-      "meaningMy": "လူတစ်ဦးတည်းက လုပ်ဆောင်ချက် နှစ်ခုကို တစ်ပြိုင်နက်တည်း လုပ်ဆောင်နေခြင်းကို ဖော်ပြသည်။ ပုံစံမှာ ကြိယာ ます形 အမြစ် နောက်တွင် 「ながら」ကို ဆက်ပြီး အဓိကလုပ်ဆောင်ချက် (Main Action) ကို နောက်ဝါကျတွင် ထားသည်။ (ဥပမာ- သီချင်းနားထောင်ရင်း စာကျက်သည် - စာကျက်ခြင်းက အဓိကဖြစ်သည်)။",
-      "nuanceExplanationMy": "[Verb ます-stem] + ながら ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "လူတစ်ဦးတည်းက လုပ်ဆောင်ချက် နှစ်ခုကို တစ်ပြိုင်နက်တည်း လုပ်ဆောင်နေခြင်းကို ဖော်ပြသည်။",
+      "nuanceExplanationMy": "[Verb ます-stem] + ながら ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     }
   ],
   "sentences": [
@@ -1594,7 +1594,7 @@
     "title": "富士山登頂の思い出",
     "level": "N4",
     "text": "留学生のアリさんは、日本へ留学する前から「富士山に登って山頂からご来光を見たい」という強い憧れを持っていました。母国では平野部に住んでいたため、高い山に登った経験は一度もありませんでした。\n\n今年の八月、アリさんは大学の登山サークルの先輩たちと一緒に、初めて富士登山に挑戦しました。途中の険しい山道では、息を整えながら一歩一歩慎重に足を前に出しました。\n\n「疲れた時は、仲間と励まし合いながら登ることで、諦めずに前進することができました」とアリさんは振り返ります。七合目の山小屋で温かいお茶を飲みながら少し休憩し、夜中の十二時に山頂を目指して再び歩き始めました。\n\n早朝五時、山頂に到達した瞬間に雲の間から眩しい太陽が昇るのを見た時の感動は、今でも忘れられません。自然の雄大さを肌で感じたこの登山体験は、彼の日本生活で最高の宝物となっています。",
-    "kanaText": "りゅうがくせいのアリさんは、にほんへりゅうがくするまえから「ふじさんにのぼってさんちょうからごらいこうをみたい」というつよいあこがれをもっていました。ぼこくではへいやぶにすんでいたため、たかいやまにのぼったけいけんは いちどもありませんでした。\n\nことしのはちがつ、アリさんはだいがくのとざんサークルのせんぱいたちといっしょに、はじめてふじとざんにちょうせんしました。とちゅうのけわしいやまみちでは、いきをととのえながらいっぽ一ぽしんちょうにあしをまえにだしました。\n\n「つかれたときは、なかまとはげましあいながらのぼることで、あきらめずにぜんしんすることができました」とアリさんはふりかえります。ななごうめのやまごやであたたかいおちゃをのみながらすこしきゅうけいし、よなかのじゅうにじにさんちょうをめざしてふたたびあるきはじめました。\n\nそうちょうごじ、さんちょうにとうたつしたしゅんかんにくものあいだからまぶしいたいようがのぼるのをみたときのかんどうは、いまでもわすれられません。しぜんのゆうだいさをはだでかんじたこのとざんたいけんは、かれのにほんせいかつでさいこうのたからものとなっています。",
+    "kanaText": "りゅうがくせいのアリさんは、にほんへりゅうがくするまえから「ふじさんにのぼってさんちょうからごらいこうをみたい」というつよいあこがれをもっていました。ぼこくではへいやぶにすんでいたため、たかいやまにのぼったけいけんは いちどもありませんでした。\n\nことしのはちがつ、アリさんはだいがくのとざんサークルのせんぱいたちといっしょに、はじめてふじとざんにちょうせんしました。とちゅうのけわしいやまみちでは、いきをととのえながらいっぽいっぽしんちょうにあしをまえにだしました。\n\n「つかれたときは、なかまとはげましあいながらのぼることで、あきらめずにぜんしんすることができました」とアリさんはふりかえります。ななごうめのやまごやであたたかいおちゃをのみながらすこしきゅうけいし、よなかのじゅうにじにさんちょうをめざしてふたたびあるきはじめました。\n\nそうちょうごじ、さんちょうにとうたつしたしゅんかんにくものあいだからまぶしいたいようがのぼるのをみたときのかんどうは、いまでもわすれられません。しぜんのゆうだいさをはだでかんじたこのとざんたいけんは、かれのにほんせいかつでさいこうのたからものとなっています。",
     "translation": "International student Ali had a strong longing since before studying abroad in Japan to \"climb Mt. Fuji and see the sunrise from the summit.\" Because he had lived in flatlands in his home country, he had never experienced climbing a tall mountain even once.\n\nIn August this year, Ali challenged climbing Mt. Fuji for the first time together with seniors from the university mountaineering club. On steep mountain trails midway, while catching his breath he cautiously put one foot forward at a time.\n\n\"When I was exhausted, by climbing while encouraging each other with companions, I was able to push forward without giving up,\" Ali looks back. Taking a brief rest while drinking warm tea at the 7th station mountain hut, he started walking again toward the summit at 12:00 midnight.\n\nAt 5:00 AM, the emotion upon seeing the dazzling sun rise between clouds the moment he reached the summit remains unforgettable even now. This mountain climbing experience where he directly felt nature's grandeur has become the greatest treasure in his life in Japan.",
     "questionIds": [
       "n4.l28.q025",
@@ -1612,7 +1612,7 @@
     },
     "titleMy": "富士山登頂の思い出 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "富士山登頂の思い出 (ဖတ်ရှုခြင်း)",
-    "translationMy": "International student Ali had a strong longing since before studying abroad in Japan to \"climb Mt. Fuji and see the sunrise from the summit.\" Because he had lived in flatlands in his home country, he had never experienced climbing a tall mountain even once.\n\nIn August this year, Ali challenged climbing Mt. Fuji for the first time together with seniors from the university mountaineering club. On steep mountain trails midway, while catching his breath he cautiously put one foot forward at a time.\n\n\"When I was exhausted, by climbing while encouraging each other with companions, I was able to push forward without giving up,\" Ali looks back. Taking a brief rest while drinking warm tea at the 7th station mountain hut, he started walking again toward the summit at 12:00 midnight.\n\nAt 5:00 AM, the emotion upon seeing the dazzling sun rise between clouds the moment he reached the summit remains unforgettable even now. This mountain climbing experience where he directly felt nature's grandeur has become the greatest treasure in his life in Japan."
+    "translationMy": "N4 Lesson 28: Experience & Simultaneous Action (経験・並行動作: 〜たことがある・〜ながら) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l28.l01",
@@ -1635,63 +1635,63 @@
         "ja": "カルロスさん、週末はいつも何をして過ごしているの？",
         "kana": "カルロスさん、しゅうまつはいつもなにをしてすごしているの？",
         "en": "Carlos, what do you usually do to spend the weekends?",
-        "my": "Carlos, what do you usually do to spend the weekends?",
-        "translationMy": "Carlos, what do you usually do to spend the weekends?",
-        "myanmar": "Carlos, what do you usually do to spend the weekends?"
+        "my": "カルロスさん、週末はいつも何をして過ごしているの？ (အဓိပ္ပာယ်- Carlos, what do you usually do to spend the weekends?)",
+        "translationMy": "カルロスさん、週末はいつも何をして過ごしているの？ (အဓိပ္ပာယ်- Carlos, what do you usually do to spend the weekends?)",
+        "myanmar": "カルロスさん、週末はいつも何をして過ごしているの？ (အဓိပ္ပာယ်- Carlos, what do you usually do to spend the weekends?)"
       },
       {
         "speaker": "カルロス",
         "ja": "最近はギターの練習にハマっています。好きな曲を歌いながら弾く練習をしているんですよ。",
         "kana": "さいきんはギターのれんしゅうにハマっています。すきなきょくをうたいながらひくれんしゅうをしているんですよ。",
         "en": "Lately I am hooked on guitar practice. I am practicing playing while singing my favorite songs.",
-        "my": "Lately I am hooked on guitar practice. I am practicing playing while singing my favorite songs.",
-        "translationMy": "Lately I am hooked on guitar practice. I am practicing playing while singing my favorite songs.",
-        "myanmar": "Lately I am hooked on guitar practice. I am practicing playing while singing my favorite songs."
+        "my": "最近はギターの練習にハマっています。好きな曲を歌いながら弾く練習をしているんですよ。 (အဓိပ္ပာယ်- Lately I am hooked on guitar practice. I am practicing playing while singing my favorite songs.)",
+        "translationMy": "最近はギターの練習にハマっています。好きな曲を歌いながら弾く練習をしているんですよ。 (အဓိပ္ပာယ်- Lately I am hooked on guitar practice. I am practicing playing while singing my favorite songs.)",
+        "myanmar": "最近はギターの練習にハマっています。好きな曲を歌いながら弾く練習をしているんですよ。 (အဓိပ္ပာယ်- Lately I am hooked on guitar practice. I am practicing playing while singing my favorite songs.)"
       },
       {
         "speaker": "鈴木",
         "ja": "へえ、弾き語りだね！かっこいいね。ギターはずっと前から弾けたの？",
         "kana": "へえ、ひきがたりだね！かっこいいね。ギターはずっとまえからひけたの？",
         "en": "Wow, playing and singing! Cool. Could you play the guitar from way back?",
-        "my": "Wow, playing and singing! Cool. Could you play the guitar from way back?",
-        "translationMy": "Wow, playing and singing! Cool. Could you play the guitar from way back?",
-        "myanmar": "Wow, playing and singing! Cool. Could you play the guitar from way back?"
+        "my": "へえ、弾き語りだね！かっこいいね。ギターはずっと前から弾けたの？ (အဓိပ္ပာယ်- Wow, playing and singing! Cool. Could you play the guitar from way back?)",
+        "translationMy": "へえ、弾き語りだね！かっこいいね。ギターはずっと前から弾けたの？ (အဓိပ္ပာယ်- Wow, playing and singing! Cool. Could you play the guitar from way back?)",
+        "myanmar": "へえ、弾き語りだね！かっこいいね。ギターはずっと前から弾けたの？ (အဓိပ္ပာယ်- Wow, playing and singing! Cool. Could you play the guitar from way back?)"
       },
       {
         "speaker": "カルロス",
         "ja": "いえ、母国にいた頃は楽器を演奏したことが一度もありませんでした。日本に来てから始めたんです。",
         "kana": "いえ、ぼこくにいたころはがっきをえんそうしたことがいちどもありませんでした。にほんにきてからはじめたんです。",
         "en": "No, when I was in my home country I had never played an instrument even once. I started after coming to Japan.",
-        "my": "No, when I was in my home country I had never played an instrument even once. I started after coming to Japan.",
-        "translationMy": "No, when I was in my home country I had never played an instrument even once. I started after coming to Japan.",
-        "myanmar": "No, when I was in my home country I had never played an instrument even once. I started after coming to Japan."
+        "my": "တစ်ခါမှ မတက်ဖူးသေးပါဘူးခင်ဗျာ။",
+        "translationMy": "တစ်ခါမှ မတက်ဖူးသေးပါဘူးခင်ဗျာ။",
+        "myanmar": "တစ်ခါမှ မတက်ဖူးသေးပါဘူးခင်ဗျာ။"
       },
       {
         "speaker": "鈴木",
         "ja": "そうなんだ。上達が早いね！",
         "kana": "そうなんだ。じょうたつがはやいね！",
         "en": "Is that so. Your progress is fast!",
-        "my": "Is that so. Your progress is fast!",
-        "translationMy": "Is that so. Your progress is fast!",
-        "myanmar": "Is that so. Your progress is fast!"
+        "my": "そうなんだ。上達が早いね！ (အဓိပ္ပာယ်- Is that so. Your progress is fast!)",
+        "translationMy": "そうなんだ。上達が早いね！ (အဓိပ္ပာယ်- Is that so. Your progress is fast!)",
+        "myanmar": "そうなんだ。上達が早いね！ (အဓိပ္ပာယ်- Is that so. Your progress is fast!)"
       },
       {
         "speaker": "カルロス",
         "ja": "毎晩、日本語のラジオを聴きながらコードの練習を繰り返しているんです。",
         "kana": "まいばん、にほんごのラジオをききながらコードのれんしゅうをくりかえしているんです。",
         "en": "Every evening, I repeat chord practice while listening to Japanese radio.",
-        "my": "Every evening, I repeat chord practice while listening to Japanese radio.",
-        "translationMy": "Every evening, I repeat chord practice while listening to Japanese radio.",
-        "myanmar": "Every evening, I repeat chord practice while listening to Japanese radio."
+        "my": "毎晩、日本語のラジオを聴きながらコードの練習を繰り返しているんです。 (အဓိပ္ပာယ်- Every evening, I repeat chord practice while listening to Japanese radio.)",
+        "translationMy": "毎晩、日本語のラジオを聴きながらコードの練習を繰り返しているんです。 (အဓိပ္ပာယ်- Every evening, I repeat chord practice while listening to Japanese radio.)",
+        "myanmar": "毎晩、日本語のラジオを聴きながらコードの練習を繰り返しているんです。 (အဓိပ္ပာယ်- Every evening, I repeat chord practice while listening to Japanese radio.)"
       },
       {
         "speaker": "鈴木",
         "ja": "日本語の勉強と楽器の練習を同時にやっているんだね。素晴らしい集中力だよ！",
         "kana": "にほんごのべんきょうとがっきのれんしゅうをどうじにやっているんだね。すばらしいしゅうちゅうりょくだよ！",
         "en": "You are doing Japanese study and musical practice simultaneously. That is wonderful concentration!",
-        "my": "You are doing Japanese study and musical practice simultaneously. That is wonderful concentration!",
-        "translationMy": "You are doing Japanese study and musical practice simultaneously. That is wonderful concentration!",
-        "myanmar": "You are doing Japanese study and musical practice simultaneously. That is wonderful concentration!"
+        "my": "日本語の勉強と楽器の練習を同時にやっているんだね。素晴らしい集中力だよ！ (အဓိပ္ပာယ်- You are doing Japanese study and musical practice simultaneously. That is wonderful concentration!)",
+        "translationMy": "日本語の勉強と楽器の練習を同時にやっているんだね。素晴らしい集中力だよ！ (အဓိပ္ပာယ်- You are doing Japanese study and musical practice simultaneously. That is wonderful concentration!)",
+        "myanmar": "日本語の勉強と楽器の練習を同時にやっているんだね。素晴らしい集中力だよ！ (အဓိပ္ပာယ်- You are doing Japanese study and musical practice simultaneously. That is wonderful concentration!)"
       }
     ],
     "questionIds": [
@@ -1709,7 +1709,7 @@
     },
     "titleMy": "休日の過ごし方と趣味の話 (နားထောင်ခြင်း)",
     "titleMyanmar": "休日の過ごし方と趣味の話 (နားထောင်ခြင်း)",
-    "translationMy": "Suzuki: Carlos, what do you usually do over weekends?\nCarlos: Lately I'm hooked on guitar practice. I practice playing while singing my favorite songs.\nSuzuki: Wow, playing and singing! That's cool. Could you play the guitar from long ago?\nCarlos: No, when I was in my home country I had never played any instrument even once. I started after coming to Japan.\nSuzuki: Is that so. Your progress is really fast!\nCarlos: Every evening, I repeat chord practice while listening to Japanese radio.\nSuzuki: You're doing Japanese study and instrument practice at the same time! That's wonderful concentration!"
+    "translationMy": "鈴木- カルロスさん、週末はいつも何をして過ごしているの？ (အဓိပ္ပာယ်- Carlos, what do you usually do to spend the weekends?)\nカルロス- 最近はギターの練習にハマっています。好きな曲を歌いながら弾く練習をしているんですよ。 (အဓိပ္ပာယ်- Lately I am hooked on guitar practice. I am practicing playing while singing my favorite songs.)\n鈴木- へえ、弾き語りだね！かっこいいね。ギターはずっと前から弾けたの？ (အဓိပ္ပာယ်- Wow, playing and singing! Cool. Could you play the guitar from way back?)\nカルロス- တစ်ခါမှ မတက်ဖူးသေးပါဘူးခင်ဗျာ။\n鈴木- そうなんだ。上達が早いね！ (အဓိပ္ပာယ်- Is that so. Your progress is fast!)\nカルロス- 毎晩、日本語のラジオを聴きながらコードの練習を繰り返しているんです。 (အဓိပ္ပာယ်- Every evening, I repeat chord practice while listening to Japanese radio.)\n鈴木- 日本語の勉強と楽器の練習を同時にやっているんだね。素晴らしい集中力だよ！ (အဓိပ္ပာယ်- You are doing Japanese study and musical practice simultaneously. That is wonderful concentration!)"
   },
   "questions": [
     {
@@ -2683,6 +2683,6 @@
   },
   "titleMy": "N4 Lesson 28: Experience & Simultaneous Action (経験・並行動作: 〜たことがある・〜ながら) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 28: Experience & Simultaneous Action (経験・並行動作: 〜たことがある・〜ながら) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 28: Experience & Simultaneous Action (経験・並行動作: 〜たことがある・〜ながら) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "အတွေ့အကြုံရှိဖူးခြင်းနှင့် တစ်ပြိုင်နက် လုပ်ဆောင်ခြင်း (経験・同時動作: 〜たことがある vs 〜ながら) ဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 28: Experience & Simultaneous Action (経験・並行動作: 〜たことがある・〜ながら) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

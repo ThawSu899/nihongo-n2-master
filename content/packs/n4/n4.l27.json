@@ -1052,7 +1052,7 @@
           "meaning": "splendid; fine",
           "preview": false,
           "meaningMyanmar": "splendid; fine",
-          "meaningMy": "splendid; fine"
+          "meaningMy": "ကောင်းမွန်သော / လုံလောက်သော"
         }
       ],
       "exampleSentenceIds": [
@@ -1104,7 +1104,7 @@
           "meaning": "economy",
           "preview": false,
           "meaningMyanmar": "economy",
-          "meaningMy": "economy"
+          "meaningMy": "စီးပွားရေး"
         }
       ],
       "exampleSentenceIds": [
@@ -1166,8 +1166,8 @@
       },
       "explanationMy": "ခွင့်ပြုချက်တောင်းခံခြင်း သို့မဟုတ် ခွင့်ပြုပေးခြင်း ပြုလုပ်ရာတွင် သုံးသည်။ ကြိယာ て形 နောက်တွင် 「もいいです / もかまいません」ကို ဆက်သည်။ စကားပြောတွင် 「〜てもいい？」ဟု အလွတ်သဘော သုံးနိုင်သည်။",
       "meaningMyanmar": "ခွင့်ပြုချက်တောင်းခံခြင်း သို့မဟုတ် ခွင့်ပြုပေးခြင်း ပြုလုပ်ရာတွင် သုံးသည်။ ကြိယာ て形 နောက်တွင် 「もいいです / もかまいません」ကို ဆက်သည်။ စကားပြောတွင် 「〜てもいい？」ဟု အလွတ်သဘော သုံးနိုင်သည်။",
-      "meaningMy": "ခွင့်ပြုချက်တောင်းခံခြင်း သို့မဟုတ် ခွင့်ပြုပေးခြင်း ပြုလုပ်ရာတွင် သုံးသည်။ ကြိယာ て形 နောက်တွင် 「もいいです / もかまいません」ကို ဆက်သည်။ စကားပြောတွင် 「〜てもいい？」ဟု အလွတ်သဘော သုံးနိုင်သည်။",
-      "nuanceExplanationMy": "[Verb て-form] + もいい / もかまわない ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ခွင့်ပြုချက်တောင်းခံခြင်း သို့မဟုတ် ခွင့်ပြုပေးခြင်း ပြုလုပ်ရာတွင် သုံးသည်။",
+      "nuanceExplanationMy": "[Verb て-form] + もいい / もかまわない ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l27.g002",
@@ -1205,8 +1205,8 @@
       },
       "explanationMy": "လုပ်ဆောင်ရန် မလိုအပ်ခြင်း (မလုပ်ဘဲနေလည်း ကိစ္စမရှိခြင်း) ကို ဖော်ပြသည်။ ကြိယာ ない形 မှ 「い」ကိုဖြုတ်ပြီး 「くてもいいです / くてもかまいません」ကို ဆက်သည်။ တားမြစ်ချက် (〜てはいけない) မဟုတ်ဘဲ ပြုလုပ်ရန် တာဝန်မရှိကြောင်း ညွှန်ပြခြင်း ဖြစ်သည်။",
       "meaningMyanmar": "လုပ်ဆောင်ရန် မလိုအပ်ခြင်း (မလုပ်ဘဲနေလည်း ကိစ္စမရှိခြင်း) ကို ဖော်ပြသည်။ ကြိယာ ない形 မှ 「い」ကိုဖြုတ်ပြီး 「くてもいいです / くてもかまいません」ကို ဆက်သည်။ တားမြစ်ချက် (〜てはいけない) မဟုတ်ဘဲ ပြုလုပ်ရန် တာဝန်မရှိကြောင်း ညွှန်ပြခြင်း ဖြစ်သည်။",
-      "meaningMy": "လုပ်ဆောင်ရန် မလိုအပ်ခြင်း (မလုပ်ဘဲနေလည်း ကိစ္စမရှိခြင်း) ကို ဖော်ပြသည်။ ကြိယာ ない形 မှ 「い」ကိုဖြုတ်ပြီး 「くてもいいです / くてもかまいません」ကို ဆက်သည်။ တားမြစ်ချက် (〜てはいけない) မဟုတ်ဘဲ ပြုလုပ်ရန် တာဝန်မရှိကြောင်း ညွှန်ပြခြင်း ဖြစ်သည်။",
-      "nuanceExplanationMy": "[Verb ない-form minus い] + くてもいい / くてもかまわない ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "လုပ်ဆောင်ရန် မလိုအပ်ခြင်း (မလုပ်ဘဲနေလည်း ကိစ္စမရှိခြင်း) ကို ဖော်ပြသည်။",
+      "nuanceExplanationMy": "[Verb ない-form minus い] + くてもいい / くてもかまわない ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1604,7 +1604,7 @@
     },
     "titleMy": "市立図書館の便利な利用案内 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "市立図書館の便利な利用案内 (ဖတ်ရှုခြင်း)",
-    "translationMy": "The Central Municipal Library provides various services so that citizens can comfortably devote themselves to reading and study.\n\nFirst, regarding study at the reading seats: In the reading spaces on the 1st and 2nd floors, you may freely bring in and use personal laptops or tablets. However, when watching videos you must wear earphones and must not make noise.\n\nRegarding book checkout: If you possess a library card, you can borrow up to ten books for two weeks at a time. If the book you want is checked out, you may reserve it for free from the terminal in the library or the official website.\n\nFurthermore, you do not have to come during opening hours just to return books. If you drop them into the 24-hour return box installed beside the main entrance, you can return books without having to line up at the counter. However, audiovisual materials like CDs and DVDs are fragile, so you must not put them into the drop box."
+    "translationMy": "N4 Lesson 27: Permission & Non-Necessity (許可・不必要: 〜てもいい・〜なくてもいい) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l27.l01",
@@ -1627,63 +1627,63 @@
         "ja": "小林先輩、明日の新入社員研修について質問してもよろしいでしょうか？",
         "kana": "こばやしせんぱい、あすのしんにゅうしゃいんけんしゅうについてしつもんしてもよろしいでしょうか？",
         "en": "Kobayashi-senpai, may I ask a question regarding tomorrow’s new employee training?",
-        "my": "Kobayashi-senpai, may I ask a question regarding tomorrow’s new employee training?",
-        "translationMy": "Kobayashi-senpai, may I ask a question regarding tomorrow’s new employee training?",
-        "myanmar": "Kobayashi-senpai, may I ask a question regarding tomorrow’s new employee training?"
+        "my": "小林先輩、明日の新入社員研修について質問してもよろしいでしょうか？ (အဓိပ္ပာယ်- Kobayashi-senpai, may I ask a question regarding tomorrow’s new employee training?)",
+        "translationMy": "小林先輩、明日の新入社員研修について質問してもよろしいでしょうか？ (အဓိပ္ပာယ်- Kobayashi-senpai, may I ask a question regarding tomorrow’s new employee training?)",
+        "myanmar": "小林先輩、明日の新入社員研修について質問してもよろしいでしょうか？ (အဓိပ္ပာယ်- Kobayashi-senpai, may I ask a question regarding tomorrow’s new employee training?)"
       },
       {
         "speaker": "小林",
         "ja": "うん、何でも聞いて。",
         "kana": "うん、なんでもきいて。",
         "en": "Sure, ask anything.",
-        "my": "Sure, ask anything.",
-        "translationMy": "Sure, ask anything.",
-        "myanmar": "Sure, ask anything."
+        "my": "うん、何でも聞いて。 (အဓိပ္ပာယ်- Sure, ask anything.)",
+        "translationMy": "うん、何でも聞いて。 (အဓိပ္ပာယ်- Sure, ask anything.)",
+        "myanmar": "うん、何でも聞いて。 (အဓိပ္ပာယ်- Sure, ask anything.)"
       },
       {
         "speaker": "中村",
         "ja": "研修の資料は、全員分印刷して会議室へ持参しなければなりませんか？",
         "kana": "けんしゅうのしりょうは、ぜんいんぶんいんさつしてかいぎしつへじさんしなければなりませんか？",
         "en": "Must I print the training handouts for everyone and bring them to the conference room?",
-        "my": "Must I print the training handouts for everyone and bring them to the conference room?",
-        "translationMy": "Must I print the training handouts for everyone and bring them to the conference room?",
-        "myanmar": "Must I print the training handouts for everyone and bring them to the conference room?"
+        "my": "研修の資料は、全員分印刷して会議室へ持参しなければなりませんか？ (အဓိပ္ပာယ်- Must I print the training handouts for everyone and bring them to the conference room?)",
+        "translationMy": "研修の資料は、全員分印刷して会議室へ持参しなければなりませんか？ (အဓိပ္ပာယ်- Must I print the training handouts for everyone and bring them to the conference room?)",
+        "myanmar": "研修の資料は、全員分印刷して会議室へ持参しなければなりませんか？ (အဓိပ္ပာယ်- Must I print the training handouts for everyone and bring them to the conference room?)"
       },
       {
         "speaker": "小林",
         "ja": "いや、明日はタブレットで共有サーバーの資料を見るから、印刷しなくてもいいよ。紙を節約することになっているんだ。",
         "kana": "いや、あしたはタブレットできょうゆうサーバーのしりょうをみるから、いんさつしなくてもいいよ。かみをせつやくすることになっているんだ。",
         "en": "No, tomorrow we will view materials on the shared server via tablets, so you do not have to print them. We are supposed to save paper.",
-        "my": "No, tomorrow we will view materials on the shared server via tablets, so you do not have to print them. We are supposed to save paper.",
-        "translationMy": "No, tomorrow we will view materials on the shared server via tablets, so you do not have to print them. We are supposed to save paper.",
-        "myanmar": "No, tomorrow we will view materials on the shared server via tablets, so you do not have to print them. We are supposed to save paper."
+        "my": "いや、明日はタブレットで共有サーバーの資料を見るから、印刷しなくてもいいよ。紙を節約することになっているんだ。 (အဓိပ္ပာယ်- No, tomorrow we will view materials on the shared server via tablets, so you do not have to print them. We are supposed to save paper.)",
+        "translationMy": "いや、明日はタブレットで共有サーバーの資料を見るから、印刷しなくてもいいよ。紙を節約することになっているんだ。 (အဓိပ္ပာယ်- No, tomorrow we will view materials on the shared server via tablets, so you do not have to print them. We are supposed to save paper.)",
+        "myanmar": "いや、明日はタブレットで共有サーバーの資料を見るから、印刷しなくてもいいよ。紙を節約することになっているんだ。 (အဓိပ္ပာယ်- No, tomorrow we will view materials on the shared server via tablets, so you do not have to print them. We are supposed to save paper.)"
       },
       {
         "speaker": "中村",
         "ja": "わかりました。それと、研修中に質問がある時はどうすればいいですか？",
         "kana": "わかりました。それと、けんしゅうちゅうにしつもんがあるときはどうすればいいですか？",
         "en": "Understood. Also, what should I do if I have questions during the training?",
-        "my": "Understood. Also, what should I do if I have questions during the training?",
-        "translationMy": "Understood. Also, what should I do if I have questions during the training?",
-        "myanmar": "Understood. Also, what should I do if I have questions during the training?"
+        "my": "わかりました。それと、研修中に質問がある時はどうすればいいですか？ (အဓိပ္ပာယ်- Understood. Also, what should I do if I have questions during the training?)",
+        "translationMy": "わかりました。それと、研修中に質問がある時はどうすればいいですか？ (အဓိပ္ပာယ်- Understood. Also, what should I do if I have questions during the training?)",
+        "myanmar": "わかりました。それと、研修中に質問がある時はどうすればいいですか？ (အဓိပ္ပာယ်- Understood. Also, what should I do if I have questions during the training?)"
       },
       {
         "speaker": "小林",
         "ja": "講師の先生が話している途中でも、手を挙げて自由に質問して構わないよ。むしろ積極的に発言したほうが喜ばれるよ。",
         "kana": "こうしのせんせいがはなしているとちゅうでも、てをあげてじゆうにしつもんしてかまわないよ。むしろせっきょくてきにはつげんしたほうがよろこばれるよ。",
         "en": "Even while the lecturer is speaking, you may raise your hand and ask freely without objection. Rather, being proactive is appreciated.",
-        "my": "Even while the lecturer is speaking, you may raise your hand and ask freely without objection. Rather, being proactive is appreciated.",
-        "translationMy": "Even while the lecturer is speaking, you may raise your hand and ask freely without objection. Rather, being proactive is appreciated.",
-        "myanmar": "Even while the lecturer is speaking, you may raise your hand and ask freely without objection. Rather, being proactive is appreciated."
+        "my": "講師の先生が話している途中でも、手を挙げて自由に質問して構わないよ。むしろ積極的に発言したほうが喜ばれるよ。 (အဓိပ္ပာယ်- Even while the lecturer is speaking, you may raise your hand and ask freely without objection. Rather, being proactive is appreciated.)",
+        "translationMy": "講師の先生が話している途中でも、手を挙げて自由に質問して構わないよ。むしろ積極的に発言したほうが喜ばれるよ。 (အဓိပ္ပာယ်- Even while the lecturer is speaking, you may raise your hand and ask freely without objection. Rather, being proactive is appreciated.)",
+        "myanmar": "講師の先生が話している途中でも、手を挙げて自由に質問して構わないよ。むしろ積極的に発言したほうが喜ばれるよ。 (အဓိပ္ပာယ်- Even while the lecturer is speaking, you may raise your hand and ask freely without objection. Rather, being proactive is appreciated.)"
       },
       {
         "speaker": "中村",
         "ja": "安心しました。メモ用のノートだけ持って参加します！",
         "kana": "あんしんしました。メモようのノートだけもってさんかします！",
         "en": "I am relieved. I will participate just bringing a notebook for memos!",
-        "my": "I am relieved. I will participate just bringing a notebook for memos!",
-        "translationMy": "I am relieved. I will participate just bringing a notebook for memos!",
-        "myanmar": "I am relieved. I will participate just bringing a notebook for memos!"
+        "my": "安心しました。メモ用のノートだけ持って参加します！ (အဓိပ္ပာယ်- I am relieved. I will participate just bringing a notebook for memos!)",
+        "translationMy": "安心しました。メモ用のノートだけ持って参加します！ (အဓိပ္ပာယ်- I am relieved. I will participate just bringing a notebook for memos!)",
+        "myanmar": "安心しました。メモ用のノートだけ持って参加します！ (အဓိပ္ပာယ်- I am relieved. I will participate just bringing a notebook for memos!)"
       }
     ],
     "questionIds": [
@@ -1701,7 +1701,7 @@
     },
     "titleMy": "社内研修会での確認 (နားထောင်ခြင်း)",
     "titleMyanmar": "社内研修会での確認 (နားထောင်ခြင်း)",
-    "translationMy": "Nakamura: Kobayashi-senpai, may I ask a question regarding tomorrow's new employee training?\nKobayashi: Sure, ask anything.\nNakamura: Must I print the training handouts for everyone and bring them to the conference room?\nKobayashi: No, tomorrow we will view the materials on the shared server via tablets, so you don't have to print them. We're supposed to save paper.\nNakamura: Understood. Also, what should I do if I have questions during training?\nKobayashi: Even midway through the lecturer's speech, you may raise your hand and ask freely. Rather, participating actively will be appreciated.\nNakamura: I am relieved. I will participate just bringing a notebook for memos!"
+    "translationMy": "中村- 小林先輩、明日の新入社員研修について質問してもよろしいでしょうか？ (အဓိပ္ပာယ်- Kobayashi-senpai, may I ask a question regarding tomorrow’s new employee training?)\n小林- うん、何でも聞いて。 (အဓိပ္ပာယ်- Sure, ask anything.)\n中村- 研修の資料は、全員分印刷して会議室へ持参しなければなりませんか？ (အဓိပ္ပာယ်- Must I print the training handouts for everyone and bring them to the conference room?)\n小林- いや、明日はタブレットで共有サーバーの資料を見るから、印刷しなくてもいいよ。紙を節約することになっているんだ。 (အဓိပ္ပာယ်- No, tomorrow we will view materials on the shared server via tablets, so you do not have to print them. We are supposed to save paper.)\n中村- わかりました。それと、研修中に質問がある時はどうすればいいですか？ (အဓိပ္ပာယ်- Understood. Also, what should I do if I have questions during the training?)\n小林- 講師の先生が話している途中でも、手を挙げて自由に質問して構わないよ。むしろ積極的に発言したほうが喜ばれるよ。 (အဓိပ္ပာယ်- Even while the lecturer is speaking, you may raise your hand and ask freely without objection. Rather, being proactive is appreciated.)\n中村- 安心しました。メモ用のノートだけ持って参加します！ (အဓိပ္ပာယ်- I am relieved. I will participate just bringing a notebook for memos!)"
   },
   "questions": [
     {
@@ -2563,7 +2563,7 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「CDやDVDなどの視聴覚資料」 ဖြစ်ပါသည်။ (Passage 4 explicitly warns: ただし、CDやDVDなどの視聴覚資料は壊れやすいため、ポストに入れてはいけません。)",
       "choicesMy": [
-        "CDやDVDなどの視聴覚資料",
+        "CDやDVDなどの視聴覚資料 ၏ အဓိပ္ပာယ်",
         "二週間以上借りた本",
         "ウェブサイトで予約した本",
         "十冊以上の本"
@@ -2675,6 +2675,6 @@
   },
   "titleMy": "N4 Lesson 27: Permission & Non-Necessity (許可・不必要: 〜てもいい・〜なくてもいい) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 27: Permission & Non-Necessity (許可・不必要: 〜てもいい・〜なくてもいい) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 27: Permission & Non-Necessity (許可・不必要: 〜てもいい・〜なくてもいい) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "ခွင့်ပြုချက်နှင့် မလုပ်ဆောင်လည်း ရနိုင်ခြင်း (許可・不必要: 〜てもいい vs 〜なくてもいい) ဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 27: Permission & Non-Necessity (許可・不必要: 〜てもいい・〜なくてもいい) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

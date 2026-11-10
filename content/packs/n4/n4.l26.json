@@ -997,7 +997,7 @@
           "meaning": "order; discipline",
           "preview": false,
           "meaningMyanmar": "order; discipline",
-          "meaningMy": "order; discipline"
+          "meaningMy": "စည်းကမ်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1096,7 +1096,7 @@
           "meaning": "to pay; to sweep",
           "preview": false,
           "meaningMyanmar": "to pay; to sweep",
-          "meaningMy": "to pay; to sweep"
+          "meaningMy": "ပေးချေသည်"
         }
       ],
       "exampleSentenceIds": [
@@ -1158,8 +1158,8 @@
       },
       "explanationMy": "မဖြစ်မနေ လုပ်ဆောင်ရမည့် တာဝန်၊ စည်းမျဉ်း သို့မဟုတ် လိုအပ်ချက်ကို ဖော်ပြသည်။ ပုံစံမှာ ကြိယာ ない形 မှ 「い」ကိုဖြုတ်ပြီး 「ければならない」ကို ဆက်သည်။ စကားပြောတွင် 「〜ないといけない」 သို့မဟုတ် အလွတ်သဘော「〜なきゃ / 〜なくちゃ」ကို အသုံးများသည်။",
       "meaningMyanmar": "မဖြစ်မနေ လုပ်ဆောင်ရမည့် တာဝန်၊ စည်းမျဉ်း သို့မဟုတ် လိုအပ်ချက်ကို ဖော်ပြသည်။ ပုံစံမှာ ကြိယာ ない形 မှ 「い」ကိုဖြုတ်ပြီး 「ければならない」ကို ဆက်သည်။ စကားပြောတွင် 「〜ないといけない」 သို့မဟုတ် အလွတ်သဘော「〜なきゃ / 〜なくちゃ」ကို အသုံးများသည်။",
-      "meaningMy": "မဖြစ်မနေ လုပ်ဆောင်ရမည့် တာဝန်၊ စည်းမျဉ်း သို့မဟုတ် လိုအပ်ချက်ကို ဖော်ပြသည်။ ပုံစံမှာ ကြိယာ ない形 မှ 「い」ကိုဖြုတ်ပြီး 「ければならない」ကို ဆက်သည်။ စကားပြောတွင် 「〜ないといけない」 သို့မဟုတ် အလွတ်သဘော「〜なきゃ / 〜なくちゃ」ကို အသုံးများသည်။",
-      "nuanceExplanationMy": "[Verb ない-form: 〜なければならない / 〜ないといけない] ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "သတ်မှတ်ထားသော အခြေအနေ သို့မဟုတ် အကြောင်းအကျိုးကို ဖော်ပြသည့် ပုံစံ (〜လျှင်)",
+      "nuanceExplanationMy": "[Verb ない-form: 〜なければならない / 〜ないといけない] ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l26.g002",
@@ -1197,8 +1197,8 @@
       },
       "explanationMy": "တင်းကျပ်သော တားမြစ်ချက် သို့မဟုတ် စည်းကမ်းသတ်မှတ်ချက်ကို ဖော်ပြသည်။ ကြိယာ て形 နောက်တွင် 「はいけない / はいけません」ကို ဆက်သည်။ စကားပြောတွင် 「〜ちゃだめ」 ဟု ပြောင်းသုံးနိုင်သည်။",
       "meaningMyanmar": "တင်းကျပ်သော တားမြစ်ချက် သို့မဟုတ် စည်းကမ်းသတ်မှတ်ချက်ကို ဖော်ပြသည်။ ကြိယာ て形 နောက်တွင် 「はいけない / はいけません」ကို ဆက်သည်။ စကားပြောတွင် 「〜ちゃだめ」 ဟု ပြောင်းသုံးနိုင်သည်။",
-      "meaningMy": "တင်းကျပ်သော တားမြစ်ချက် သို့မဟုတ် စည်းကမ်းသတ်မှတ်ချက်ကို ဖော်ပြသည်။ ကြိယာ て形 နောက်တွင် 「はいけない / はいけません」ကို ဆက်သည်။ စကားပြောတွင် 「〜ちゃだめ」 ဟု ပြောင်းသုံးနိုင်သည်။",
-      "nuanceExplanationMy": "[Verb て-form] + はいけない / はだめだ ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "တင်းကျပ်သော တားမြစ်ချက် သို့မဟုတ် စည်းကမ်းသတ်မှတ်ချက်ကို ဖော်ပြသည်။",
+      "nuanceExplanationMy": "[Verb て-form] + はいけない / はだめだ ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1294,7 +1294,7 @@
       "id": "n4.l26.s003",
       "lessonId": "n4.l26",
       "ja": "新しい住所に引っ越したら、十四日以内に市役所へ届け出なければなりません。",
-      "kana": "あたらしいじゅうしょにひっこしたら、じゅうよっかに市役所へとどけでなければなりません。",
+      "kana": "あたらしいじゅうしょにひっこしたら、じゅうよっかいないにしやくしょへとどけでなければなりません。",
       "translation": {
         "en": "If you move to a new address, you must register it at the city hall within 14 days.",
         "my": "လိပ်စာအသစ်သို့ ပြောင်းရွှေ့ပါက ၁၄ ရက်အတွင်း မြို့နယ်ခန်းမသို့ သွားရောက် အကြောင်းကြားရမည်။"
@@ -1600,7 +1600,7 @@
     },
     "titleMy": "学生寮の入寮オリエンテーション (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "学生寮の入寮オリエンテーション (ဖတ်ရှုခြင်း)",
-    "translationMy": "International students, welcome to the university dormitory. Because students from various countries live in this dormitory, everyone must obey the established rules so that all can live comfortably.\n\nFirst, regarding room key management: You must not lend your key to others or make duplicate copies. If you lose it, you must report it immediately to the dormitory management office.\n\nNext, about using shared spaces: After using the kitchen gas stove or microwave, you must always clean it up neatly. Also, you must not leave raw garbage out in the hallways. You have to separate garbage and take it out to the collection point on the designated mornings.\n\nFinally, rules regarding visitors: Even if they are friends or family members, you must not let them stay overnight. If they wish to stay overnight, you must reserve the university guest house in advance."
+    "translationMy": "N4 Lesson 26: Obligation & Prohibition (義務・規則: 〜なければならない・〜てはいけない) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l26.l01",
@@ -1623,72 +1623,72 @@
         "ja": "こんにちは。本日はどのようなお手続きでしょうか？",
         "kana": "こんにちは。ほんじつはどのようなおてつづきでしょうか？",
         "en": "Hello. What kind of procedure are you here for today?",
-        "my": "Hello. What kind of procedure are you here for today?",
-        "translationMy": "Hello. What kind of procedure are you here for today?",
-        "myanmar": "Hello. What kind of procedure are you here for today?"
+        "my": "こんにちは。本日はどのようなお手続きでしょうか？ (အဓိပ္ပာယ်- Hello. What kind of procedure are you here for today?)",
+        "translationMy": "こんにちは。本日はどのようなお手続きでしょうか？ (အဓိပ္ပာယ်- Hello. What kind of procedure are you here for today?)",
+        "myanmar": "こんにちは。本日はどのようなお手続きでしょうか？ (အဓိပ္ပာယ်- Hello. What kind of procedure are you here for today?)"
       },
       {
         "speaker": "スミス",
         "ja": "先週この市に引っ越してきたので、住所変更の手続きをしたいのですが。",
         "kana": "せんしゅうこのしにひっこしてきたので、じゅうしょへんこうのてつづきをしたいのですが。",
         "en": "I moved to this city last week, so I would like to do the change-of-address procedure.",
-        "my": "I moved to this city last week, so I would like to do the change-of-address procedure.",
-        "translationMy": "I moved to this city last week, so I would like to do the change-of-address procedure.",
-        "myanmar": "I moved to this city last week, so I would like to do the change-of-address procedure."
+        "my": "先週この市に引っ越してきたので、住所変更の手続きをしたいのですが。 (အဓိပ္ပာယ်- I moved to this city last week, so I would like to do the change-of-address procedure.)",
+        "translationMy": "先週この市に引っ越してきたので、住所変更の手続きをしたいのですが。 (အဓိပ္ပာယ်- I moved to this city last week, so I would like to do the change-of-address procedure.)",
+        "myanmar": "先週この市に引っ越してきたので、住所変更の手続きをしたいのですが。 (အဓိပ္ပာယ်- I moved to this city last week, so I would like to do the change-of-address procedure.)"
       },
       {
         "speaker": "職員",
         "ja": "かしこまりました。まず、こちらの転入届に必要事項をご記入いただけますか。",
         "kana": "かしこまりました。まず、こちらのてんにゅうとどけにひつようじこうをごきにゅういただけますか。",
         "en": "Certainly. First, could you fill out the required items on this move-in form?",
-        "my": "Certainly. First, could you fill out the required items on this move-in form?",
-        "translationMy": "Certainly. First, could you fill out the required items on this move-in form?",
-        "myanmar": "Certainly. First, could you fill out the required items on this move-in form?"
+        "my": "かしこまりました。まず、こちらの転入届に必要事項をご記入いただけますか。 (အဓိပ္ပာယ်- Certainly. First, could you fill out the required items on this move-in form?)",
+        "translationMy": "かしこまりました。まず、こちらの転入届に必要事項をご記入いただけますか。 (အဓိပ္ပာယ်- Certainly. First, could you fill out the required items on this move-in form?)",
+        "myanmar": "かしこまりました。まず、こちらの転入届に必要事項をご記入いただけますか。 (အဓိပ္ပာယ်- Certainly. First, could you fill out the required items on this move-in form?)"
       },
       {
         "speaker": "スミス",
         "ja": "はい、書きました。これだけでいいですか？",
         "kana": "はい、かきました。これだけでいいですか？",
         "en": "Yes, I wrote them. Is this all?",
-        "my": "Yes, I wrote them. Is this all?",
-        "translationMy": "Yes, I wrote them. Is this all?",
-        "myanmar": "Yes, I wrote them. Is this all?"
+        "my": "はい、書きました。これだけでいいですか？ (အဓိပ္ပာယ်- Yes, I wrote them. Is this all?)",
+        "translationMy": "はい、書きました。これだけでいいですか？ (အဓိပ္ပာယ်- Yes, I wrote them. Is this all?)",
+        "myanmar": "はい、書きました。これだけでいいですか？ (အဓိပ္ပာယ်- Yes, I wrote them. Is this all?)"
       },
       {
         "speaker": "職員",
         "ja": "本人確認が必要ですので、在留カードとパスポートなどの身分証明書を見せていただかなければなりません。",
         "kana": "ほんにんかくにんがひつようですので、ざいりゅうカードとパスポートなどのみぶんしょうめいしょをみせていただかなければなりません。",
         "en": "Identity verification is necessary, so you must show us your residence card and ID such as passport.",
-        "my": "Identity verification is necessary, so you must show us your residence card and ID such as passport.",
-        "translationMy": "Identity verification is necessary, so you must show us your residence card and ID such as passport.",
-        "myanmar": "Identity verification is necessary, so you must show us your residence card and ID such as passport."
+        "my": "本人確認が必要ですので、在留カードとパスポートなどの身分証明書を見せていただかなければなりません。 (အဓိပ္ပာယ်- Identity verification is necessary, so you must show us your residence card and ID such as passport.)",
+        "translationMy": "本人確認が必要ですので、在留カードとパスポートなどの身分証明書を見せていただかなければなりません。 (အဓိပ္ပာယ်- Identity verification is necessary, so you must show us your residence card and ID such as passport.)",
+        "myanmar": "本人確認が必要ですので、在留カードとパスポートなどの身分証明書を見せていただかなければなりません。 (အဓိပ္ပာယ်- Identity verification is necessary, so you must show us your residence card and ID such as passport.)"
       },
       {
         "speaker": "スミス",
         "ja": "はい、こちらです。",
         "kana": "はい、こちらです。",
         "en": "Yes, here they are.",
-        "my": "Yes, here they are.",
-        "translationMy": "Yes, here they are.",
-        "myanmar": "Yes, here they are."
+        "my": "はい、こちらです。 (အဓိပ္ပာယ်- Yes, here they are.)",
+        "translationMy": "はい、こちらです。 (အဓိပ္ပာယ်- Yes, here they are.)",
+        "myanmar": "はい、こちらです。 (အဓိပ္ပာယ်- Yes, here they are.)"
       },
       {
         "speaker": "職員",
         "ja": "確認いたしました。あと、国民健康保険への加入手続きも本日済ませないといけませんが、お時間はよろしいですか？",
         "kana": "かくにんいたしました。あと、こくみんけんこうほけんへのかにゅうてつづきもほんじつすませないといけませんが、おじかんはよろしいですか？",
         "en": "Confirmed. Also, you have to complete the National Health Insurance enrollment today, do you have time?",
-        "my": "Confirmed. Also, you have to complete the National Health Insurance enrollment today, do you have time?",
-        "translationMy": "Confirmed. Also, you have to complete the National Health Insurance enrollment today, do you have time?",
-        "myanmar": "Confirmed. Also, you have to complete the National Health Insurance enrollment today, do you have time?"
+        "my": "ကျန်းမာရေးအာမခံကတ်အတွက် လျှောက်ထားရပါမယ်။",
+        "translationMy": "ကျန်းမာရေးအာမခံကတ်အတွက် လျှောက်ထားရပါမယ်။",
+        "myanmar": "ကျန်းမာရေးအာမခံကတ်အတွက် လျှောက်ထားရပါမယ်။"
       },
       {
         "speaker": "スミス",
         "ja": "はい、大丈夫です。全部今日中に終わらせなければならないと聞いていましたから。",
         "kana": "はい、だいじょうぶです。ぜんぶきょうじゅうにおわらせなければならないときいていましたから。",
         "en": "Yes, I am fine. Because I had heard that I must finish everything within today.",
-        "my": "Yes, I am fine. Because I had heard that I must finish everything within today.",
-        "translationMy": "Yes, I am fine. Because I had heard that I must finish everything within today.",
-        "myanmar": "Yes, I am fine. Because I had heard that I must finish everything within today."
+        "my": "はい、大丈夫です。全部今日中に終わらせなければならないと聞いていましたから。 (အဓိပ္ပာယ်- Yes, I am fine. Because I had heard that I must finish everything within today.)",
+        "translationMy": "はい、大丈夫です。全部今日中に終わらせなければならないと聞いていましたから。 (အဓိပ္ပာယ်- Yes, I am fine. Because I had heard that I must finish everything within today.)",
+        "myanmar": "はい、大丈夫です。全部今日中に終わらせなければならないと聞いていましたから。 (အဓိပ္ပာယ်- Yes, I am fine. Because I had heard that I must finish everything within today.)"
       }
     ],
     "questionIds": [
@@ -1706,7 +1706,7 @@
     },
     "titleMy": "市役所での転入届手続き (နားထောင်ခြင်း)",
     "titleMyanmar": "市役所での転入届手続き (နားထောင်ခြင်း)",
-    "translationMy": "Staff: Hello. What kind of procedure are you here for today?\nSmith: I moved to this city last week, so I would like to do the change-of-address procedure.\nStaff: Certainly. First, could you fill out the required items on this move-in form?\nSmith: Yes, I wrote them. Is this all?\nStaff: We need identity verification, so you must show us your residence card and ID documents like your passport.\nSmith: Yes, here they are.\nStaff: I have confirmed them. Also, you have to complete the National Health Insurance enrollment procedure today as well, do you have time?\nSmith: Yes, I am fine. I heard that I must finish everything within today."
+    "translationMy": "職員- こんにちは。本日はどのようなお手続きでしょうか？ (အဓိပ္ပာယ်- Hello. What kind of procedure are you here for today?)\nスミス- 先週この市に引っ越してきたので、住所変更の手続きをしたいのですが。 (အဓိပ္ပာယ်- I moved to this city last week, so I would like to do the change-of-address procedure.)\n職員- かしこまりました。まず、こちらの転入届に必要事項をご記入いただけますか。 (အဓိပ္ပာယ်- Certainly. First, could you fill out the required items on this move-in form?)\nスミス- はい、書きました。これだけでいいですか？ (အဓိပ္ပာယ်- Yes, I wrote them. Is this all?)\n職員- 本人確認が必要ですので、在留カードとパスポートなどの身分証明書を見せていただかなければなりません。 (အဓိပ္ပာယ်- Identity verification is necessary, so you must show us your residence card and ID such as passport.)\nスミス- はい、こちらです。 (အဓိပ္ပာယ်- Yes, here they are.)\n職員- ကျန်းမာရေးအာမခံကတ်အတွက် လျှောက်ထားရပါမယ်။\nスミス- はい、大丈夫です。全部今日中に終わらせなければならないと聞いていましたから。 (အဓိပ္ပာယ်- Yes, I am fine. Because I had heard that I must finish everything within today.)"
   },
   "questions": [
     {
@@ -2597,7 +2597,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「住所変更の手続き（転入届）」 ဖြစ်ပါသည်။ (Smith says: 先週この市に引っ越してきたので、住所変更の手続きをしたいのですが。)",
+      "explanationMy": "အဖြေမှန်မှာ 「住所変更の手続き（転入届）」 ဖြစ်ပါသည်။ (စမစ်က ပြောကြားသည်မှာ- \"先週この市に引っ越してきたので、住所変更の手続きをしたいのですが。\")",
       "choicesMy": [
         "住所変更の手続き（転入届）",
         "アルバイトの許可証の申請",
@@ -2679,6 +2679,6 @@
   },
   "titleMy": "N4 Lesson 26: Obligation & Prohibition (義務・規則: 〜なければならない・〜てはいけない) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 26: Obligation & Prohibition (義務・規則: 〜なければならない・〜てはいけない) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 26: Obligation & Prohibition (義務・規則: 〜なければならない・〜てはいけない) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "တာဝန်ဝတ္တရားနှင့် မဖြစ်မနေ လုပ်ဆောင်ရမည့် စည်းမျဉ်းများ (義務・規則: 〜なければならない) ဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 26: Obligation & Prohibition (義務・規則: 〜なければならない・〜てはいけない) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

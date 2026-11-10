@@ -42,8 +42,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "nakadaka",
-      "dropIndex": 3
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l02.v002",
@@ -72,8 +72,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "odaka",
+      "dropIndex": 2
     },
     {
       "id": "n4.l02.v003",
@@ -318,8 +318,8 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "heiban",
-      "dropIndex": 0
+      "pitchPattern": "atamadaka",
+      "dropIndex": 1
     },
     {
       "id": "n4.l02.v011",
@@ -1044,7 +1044,7 @@
           "meaning": "economy",
           "preview": false,
           "meaningMyanmar": "economy",
-          "meaningMy": "economy"
+          "meaningMy": "စီးပွားရေး"
         }
       ],
       "exampleSentenceIds": [
@@ -1125,12 +1125,12 @@
       },
       "examples": [
         {
-          "sentenceId": "n4.l02.s001",
-          "note": "Example 1"
+          "sentenceId": "n4.l02.s002",
+          "note": "Example 1 (立てようと思っています)"
         },
         {
-          "sentenceId": "n4.l02.s002",
-          "note": "Example 2"
+          "sentenceId": "n4.l02.s004",
+          "note": "Example 2 (案内しようと考えています)"
         }
       ],
       "similarGrammarIds": [],
@@ -1148,8 +1148,8 @@
       },
       "explanationMy": "ပြောဆိုသူ၏ ရည်ရွယ်ချက် သို့မဟုတ် တိုက်တွန်းချက်ကို ဖော်ပြသည်။ ပေါ့ပေါ့ပါးပါး စကားပြောတွင် 〜ましょう နှင့် အဓိပ္ပာယ်တူသည်။ အုပ်စု(၁) သည် u မှ o သို့ပြောင်းပြီး う ပေါင်းသည်။ အုပ်စု(၂) သည် အမြစ်တွင် よう ပေါင်းသည်။ အုပ်စု(၃) တွင် する→しよう နှင့် くる→こよう ဖြစ်သည်။ 「〜と思っています」 ကို ပေါင်းစပ်လျှင် ယခင်ကတည်းက စဉ်းစားဆုံးဖြတ်ထားသော ရည်ရွယ်ချက်ကို ဖော်ပြသည်။",
       "meaningMyanmar": "ပြောဆိုသူ၏ ရည်ရွယ်ချက် သို့မဟုတ် တိုက်တွန်းချက်ကို ဖော်ပြသည်။ ပေါ့ပေါ့ပါးပါး စကားပြောတွင် 〜ましょう နှင့် အဓိပ္ပာယ်တူသည်။ အုပ်စု(၁) သည် u မှ o သို့ပြောင်းပြီး う ပေါင်းသည်။ အုပ်စု(၂) သည် အမြစ်တွင် よう ပေါင်းသည်။ အုပ်စု(၃) တွင် する→しよう နှင့် くる→こよう ဖြစ်သည်။ 「〜と思っています」 ကို ပေါင်းစပ်လျှင် ယခင်ကတည်းက စဉ်းစားဆုံးဖြတ်ထားသော ရည်ရွယ်ချက်ကို ဖော်ပြသည်။",
-      "meaningMy": "ပြောဆိုသူ၏ ရည်ရွယ်ချက် သို့မဟုတ် တိုက်တွန်းချက်ကို ဖော်ပြသည်။ ပေါ့ပေါ့ပါးပါး စကားပြောတွင် 〜ましょう နှင့် အဓိပ္ပာယ်တူသည်။ အုပ်စု(၁) သည် u မှ o သို့ပြောင်းပြီး う ပေါင်းသည်။ အုပ်စု(၂) သည် အမြစ်တွင် よう ပေါင်းသည်။ အုပ်စု(၃) တွင် する→しよう နှင့် くる→こよう ဖြစ်သည်။ 「〜と思っています」 ကို ပေါင်းစပ်လျှင် ယခင်ကတည်းက စဉ်းစားဆုံးဖြတ်ထားသော ရည်ရွယ်ချက်ကို ဖော်ပြသည်။",
-      "nuanceExplanationMy": "[Verb Volitional Form] と 思っています ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ကြိုတင်စဉ်းစားဆုံးဖြတ်ထားသော ကိုယ်ပိုင်ရည်ရွယ်ချက် (〜ရန် စဉ်းစားထားပါသည်)",
+      "nuanceExplanationMy": "[Verb Volitional Form] と 思っています ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l02.g002",
@@ -1163,12 +1163,12 @@
       },
       "examples": [
         {
-          "sentenceId": "n4.l02.s001",
-          "note": "Example 1"
+          "sentenceId": "n4.l02.s003",
+          "note": "Example 1 (留学するつもりです)"
         },
         {
-          "sentenceId": "n4.l02.s002",
-          "note": "Example 2"
+          "sentenceId": "n4.l02.s009",
+          "note": "Example 2 (研究する予定です)"
         }
       ],
       "similarGrammarIds": [],
@@ -1186,8 +1186,8 @@
       },
       "explanationMy": "「〜つもりです」 သည် မိမိ၏ ခိုင်မာသော ကိုယ်ပိုင်ရည်ရွယ်ချက်ကို ဖော်ပြသည်။ (ဥပမာ- ဂျပန်မှာ အလုပ်လုပ်ဖို့ ရည်ရွယ်ထားပါတယ်)။ 「〜予定です」 မှာမူ အဖွဲ့အစည်း သို့မဟုတ် ပြင်ပအစီအစဉ်အရ သတ်မှတ်ပြီးဖြစ်သော တရားဝင်အချိန်ဇယား/အစီအစဉ်ကို ဖော်ပြသည်။",
       "meaningMyanmar": "「〜つもりです」 သည် မိမိ၏ ခိုင်မာသော ကိုယ်ပိုင်ရည်ရွယ်ချက်ကို ဖော်ပြသည်။ (ဥပမာ- ဂျပန်မှာ အလုပ်လုပ်ဖို့ ရည်ရွယ်ထားပါတယ်)။ 「〜予定です」 မှာမူ အဖွဲ့အစည်း သို့မဟုတ် ပြင်ပအစီအစဉ်အရ သတ်မှတ်ပြီးဖြစ်သော တရားဝင်အချိန်ဇယား/အစီအစဉ်ကို ဖော်ပြသည်။",
-      "meaningMy": "「〜つもりです」 သည် မိမိ၏ ခိုင်မာသော ကိုယ်ပိုင်ရည်ရွယ်ချက်ကို ဖော်ပြသည်။ (ဥပမာ- ဂျပန်မှာ အလုပ်လုပ်ဖို့ ရည်ရွယ်ထားပါတယ်)။ 「〜予定です」 မှာမူ အဖွဲ့အစည်း သို့မဟုတ် ပြင်ပအစီအစဉ်အရ သတ်မှတ်ပြီးဖြစ်သော တရားဝင်အချိန်ဇယား/အစီအစဉ်ကို ဖော်ပြသည်။",
-      "nuanceExplanationMy": "[Verb Dict / Verb-nai] つもりです / [Verb Dict / Noun の] 予定です ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ခိုင်မာသော ကိုယ်ပိုင်ရည်ရွယ်ချက် (つもり) နှင့် တရားဝင်အစီအစဉ်/အချိန်ဇယား (予定)",
+      "nuanceExplanationMy": "[Verb Dict / Verb-nai] つもりです / [Verb Dict / Noun の] 予定です ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1291,7 +1291,7 @@
         "n4.l02.v004"
       ],
       "grammarIds": [
-        "n4.l02.g001"
+        "n4.l02.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1378,7 +1378,7 @@
         "n4.l02.v007"
       ],
       "grammarIds": [
-        "n4.l02.g001"
+        "n4.l02.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1407,7 +1407,7 @@
         "n4.l02.v008"
       ],
       "grammarIds": [
-        "n4.l02.g001"
+        "n4.l02.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1467,7 +1467,7 @@
         "n4.l02.v011"
       ],
       "grammarIds": [
-        "n4.l02.g001"
+        "n4.l02.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1496,7 +1496,7 @@
         "n4.l02.v012"
       ],
       "grammarIds": [
-        "n4.l02.g001"
+        "n4.l02.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1519,7 +1519,7 @@
     "title": "私の将来の夢と日本留学の計画 (My Future Dream and Study Abroad Plan)",
     "level": "N4",
     "text": "私は子供のころから日本の建築やデザインに強い関心を持っていました。高校生のときに日本の木造建築についての本を読んで、将来日本で本物の建築技術を学びたいという夢を持つようになりました。\n\nその夢を実現するために、大学を卒業したあと、日本の大学院へ留学しようと思っています。来年の四月に入学する予定なので、今は毎日四時間以上日本語を勉強しています。今年の十二月には日本語能力試験のN2を受けるつもりです。合格できれば、専門の研究について日本の先生方とよりスムーズに議論できるようになると思います。\n\nもちろん、外国で一人で暮らすことには不安もありますが、色々な困難を乗り越えて立派な経験にしたいです。将来は自分の国と日本をつなぐ建築家になろうと心に決めています。",
-    "kanaText": "私は子供のころから日本の建築やデザインに強い関心を持っていました。高校生のときに日本の木造建築についての本を読んで、将来日本で本物の建築技術を学びたいという夢を持つようになりました。\n\nその夢を実現するために、大学を卒業したあと、日本の大学院へ留学しようと思っています。来年の四月に入学する予定なので、今は毎日四時間以上日本語を勉強しています。今年の十二月には日本語能力試験のN2を受けるつもりです。合格できれば、専門の研究について日本の先生方とよりスムーズに議論できるようになると思います。\n\nもちろん、外国で一人で暮らすことには不安もありますが、色々な困難を乗り越えて立派な経験にしたいです。将来は自分の国と日本をつなぐ建築家になろうと心に決めています。",
+    "kanaText": "わたしはこどものころからにほんのけんちくやデザインにつよいかんしんをもっていました。こうこうせいのときににほんのもくぞうけんちくについてのほんをよんで、しょうらいにほんでほんもののけんちくぎじゅつをまなびたいというゆめをもつようになりました。\n\nそのゆめをじつげんするために、だいがくをそつぎょうしたあと、にほんのだいがくいんへりゅうがくしようとおもっています。らいねんのしがつににゅうがくするよていなので、いまはまいにちよじかんいにほんごをべんきょうしています。ことしのじゅうにがつにはにほんごのうりょくしけんのエヌにをうけるつもりです。ごうかくできれば、せんもんのけんきゅうについてにほんのせんせいがたとよりスムーズにぎろんできるようになるとおもいます。\n\nもちろん、がいこくでひとりでくらすことにはふあんもありますが、いろいろなこんなんをのりこえてりっぱなけいけんにしたいです。しょうらいはじぶんのくにとにほんをつなぐけんちくかになろうとこころにきめています。",
     "translation": "Since childhood, I have had a strong interest in Japanese architecture and design. When I was in high school, reading a book about traditional Japanese wooden architecture inspired my dream of learning authentic building techniques in Japan in the future.\n\nTo make that dream come true, after graduating from university, I am thinking of studying abroad at a Japanese graduate school. Since I am scheduled to enter next April, I am currently studying Japanese for more than four hours every day. In December of this year, I intend to take the JLPT N2. If I pass, I believe I will be able to discuss specialized research more smoothly with Japanese professors.\n\nOf course, living alone in a foreign country causes some anxiety, but I want to overcome various hardships and turn them into valuable experiences. I am firmly determined to become an architect who bridges my home country and Japan in the future.",
     "questionIds": [
       "n4.l02.q021",
@@ -1539,7 +1539,7 @@
     },
     "titleMy": "私の将来の夢と日本留学の計画 (My Future Dream and Study Abroad Plan) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "私の将来の夢と日本留学の計画 (My Future Dream and Study Abroad Plan) (ဖတ်ရှုခြင်း)",
-    "translationMy": "Since childhood, I have had a strong interest in Japanese architecture and design. When I was in high school, reading a book about traditional Japanese wooden architecture inspired my dream of learning authentic building techniques in Japan in the future.\n\nTo make that dream come true, after graduating from university, I am thinking of studying abroad at a Japanese graduate school. Since I am scheduled to enter next April, I am currently studying Japanese for more than four hours every day. In December of this year, I intend to take the JLPT N2. If I pass, I believe I will be able to discuss specialized research more smoothly with Japanese professors.\n\nOf course, living alone in a foreign country causes some anxiety, but I want to overcome various hardships and turn them into valuable experiences. I am firmly determined to become an architect who bridges my home country and Japan in the future."
+    "translationMy": "ကျွန်တော်သည် ငယ်စဉ်ကလေးဘဝကတည်းက ဂျပန်နိုင်ငံ၏ ဗိသုကာလက်ရာများနှင့် ဒီဇိုင်းများကို အလွန်စိတ်ဝင်စားခဲ့ပါသည်။ အထက်တန်းကျောင်းသားဘဝတွင် ဂျပန်နိုင်ငံ၏ သစ်သားဗိသုကာအကြောင်း စာအုပ်ကို ဖတ်ရှုခဲ့ပြီးနောက် အနာဂတ်တွင် ဂျပန်နိုင်ငံ၌ စစ်မှန်သော ဗိသုကာနည်းပညာများကို သင်ယူလိုသည့် အိပ်မက်တစ်ခု ရှိလာခဲ့ပါသည်။\n\nထိုအိပ်မက်ကို အကောင်အထည်ဖော်ရန်အတွက် တက္ကသိုလ်ဘွဲ့ရပြီးနောက် ဂျပန်နိုင်ငံရှိ မဟာဘွဲ့လွန်တက္ကသိုလ်သို့ ပညာတော်သင်သွားရောက်ရန် ရည်ရွယ်ထားပါသည်။ လာမည့်နှစ် ဧပြီလတွင် ကျောင်းစတင်တက်ရောက်ရန် အစီအစဉ်ရှိသောကြောင့် ယခုအခါ နေ့စဉ် လေးနာရီကျော် ဂျပန်စာကို လေ့လာနေပါသည်။ ယခုနှစ် ဒီဇင်ဘာလတွင် ဂျပန်စာအရည်အချင်းစစ်စာမေးပွဲ N2 အဆင့်ကို ဝင်ရောက်ဖြေဆိုရန် စဉ်းစားထားပါသည်။ အောင်မြင်ခဲ့ပါက အထူးပြုသုတေသနကိစ္စရပ်များနှင့် ပတ်သက်၍ ဂျပန်ပါမောက္ခဆရာများနှင့် ပိုမိုချောမွေ့စွာ ဆွေးနွေးနိုင်လိမ့်မည်ဟု ထင်မြင်မိပါသည်။\n\nနိုင်ငံရပ်ခြားတွင် တစ်ဦးတည်း သီးခြားနေထိုင်ရမည်ဖြစ်၍ စိုးရိမ်ပူပန်မှုများ ရှိသော်လည်း အခက်အခဲအမျိုးမျိုးကို ကျော်လွှားပြီး ကောင်းမွန်သောအတွေ့အကြုံတစ်ခု ဖြစ်စေချင်ပါသည်။ အနာဂတ်တွင် မိခင်နိုင်ငံနှင့် ဂျပန်နိုင်ငံကို ချိတ်ဆက်ပေးနိုင်သော ဗိသုကာပညာရှင်တစ်ဦး ဖြစ်လာစေရန် စိတ်ပိုင်းဖြတ်ထားပါသည်။"
   },
   "listening": {
     "id": "n4.l02.l01",
@@ -1551,12 +1551,85 @@
       "lang": "ja-JP"
     },
     "speakers": [
-      "A",
-      "B"
+      "佐藤",
+      "アウン"
     ],
     "transcript": "佐藤：アウンさん、もうすぐ大学も卒業ですね。卒業後はどうするつもりですか。\nアウン：はい、私は国へ帰らずに、日本のIT企業に就職しようと思っています。\n佐藤：へえ、素晴らしいですね！もう就職活動は始めているんですか。\nアウン：ええ、先月からインターンシップに参加しています。来週の金曜日に最終面接を受ける予定です。\n佐藤：そうなんですか。面接、うまくいくといいですね。\nアウン：ありがとうございます。将来は日本でシステムエンジニアとして十分な経験を積んで、いつか自分の会社を作ろうと考えています。\n佐藤：立派な計画ですね！応援していますよ。今週末は面接の準備で忙しいですか。\nアウン：はい、土曜日は日本語の先生に模擬面接を手伝ってもらう予定です。",
     "translation": "Sato: Aung, you are graduating from university soon, right? What do you intend to do after graduation?\nAung: Yes, without returning home, I am thinking of getting a job at an IT company in Japan.\nSato: Wow, that is wonderful! Have you already started job hunting?\nAung: Yes, I have been participating in an internship since last month. I am scheduled to have my final interview next Friday.\nSato: Is that so? I hope your interview goes well.\nAung: Thank you very much. In the future, I plan to gain sufficient experience as a system engineer in Japan and eventually start my own company.\nSato: That is an admirable plan! I am cheering for you. Are you busy preparing for the interview this weekend?\nAung: Yes, on Saturday I am scheduled to have my Japanese teacher help me with a mock interview.",
-    "turns": [],
+    "turns": [
+      {
+        "speaker": "佐藤",
+        "ja": "アウンさん、もうすぐ大学も卒業ですね。卒業後はどうするつもりですか。",
+        "kana": "アウンさん、もうすぐだいがくもそつぎょうですね。そつぎょうごはどうするつもりですか。",
+        "en": "Aung, you are graduating from university soon! What do you intend to do after graduation?",
+        "my": "အောင်ဆန်၊ မကြာခင် တက္ကသိုလ်ဘွဲ့ရတော့မယ်နော်။ ဘွဲ့ရပြီးရင် ဘာလုပ်ဖို့ ရည်ရွယ်ထားသလဲ။",
+        "myanmar": "အောင်ဆန်၊ မကြာခင် တက္ကသိုလ်ဘွဲ့ရတော့မယ်နော်။ ဘွဲ့ရပြီးရင် ဘာလုပ်ဖို့ ရည်ရွယ်ထားသလဲ။",
+        "translationMy": "အောင်ဆန်၊ မကြာခင် တက္ကသိုလ်ဘွဲ့ရတော့မယ်နော်။ ဘွဲ့ရပြီးရင် ဘာလုပ်ဖို့ ရည်ရွယ်ထားသလဲ။"
+      },
+      {
+        "speaker": "アウン",
+        "ja": "はい、私は国へ帰らずに、日本のIT企業に就職しようと思っています。",
+        "kana": "はい、わたしはくにへかえらずに、にほんのアイティーきぎょうにしゅうしょくしようとおもっています。",
+        "en": "Yes, I am thinking of finding employment at a Japanese IT company rather than returning home.",
+        "my": "ဟုတ်ကဲ့၊ ကျွန်တော် မိခင်နိုင်ငံကို မပြန်သေးဘဲ ဂျပန် IT ကုမ္ပဏီတစ်ခုမှာ အလုပ်ဝင်ဖို့ စဉ်းစားထားပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့၊ ကျွန်တော် မိခင်နိုင်ငံကို မပြန်သေးဘဲ ဂျပန် IT ကုမ္ပဏီတစ်ခုမှာ အလုပ်ဝင်ဖို့ စဉ်းစားထားပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့၊ ကျွန်တော် မိခင်နိုင်ငံကို မပြန်သေးဘဲ ဂျပန် IT ကုမ္ပဏီတစ်ခုမှာ အလုပ်ဝင်ဖို့ စဉ်းစားထားပါတယ်။"
+      },
+      {
+        "speaker": "佐藤",
+        "ja": "へえ、素晴らしいですね！もう就職活動は始めているんですか。",
+        "kana": "へえ、すばらしいですね！もうしゅうしょくかつどうははじめているんですか。",
+        "en": "Oh, that is wonderful! Have you already started job hunting?",
+        "my": "ဟယ်၊ သိပ်ကောင်းတာပေါ့။ အလုပ်ရှာဖွေရေးလုပ်ငန်းစဉ်တွေ စတင်နေပြီလား။",
+        "myanmar": "ဟယ်၊ သိပ်ကောင်းတာပေါ့။ အလုပ်ရှာဖွေရေးလုပ်ငန်းစဉ်တွေ စတင်နေပြီလား။",
+        "translationMy": "ဟယ်၊ သိပ်ကောင်းတာပေါ့။ အလုပ်ရှာဖွေရေးလုပ်ငန်းစဉ်တွေ စတင်နေပြီလား။"
+      },
+      {
+        "speaker": "アウン",
+        "ja": "ええ、先月からインターンシップに参加しています。来週の金曜日に最終面接を受ける予定です。",
+        "kana": "ええ、せんげつからインターンシップにさんかしています。らいしゅうのきんようびにさいしゅうめんせつをうけるよていです。",
+        "en": "Yes, I have been doing an internship since last month. I am scheduled for a final interview next Friday.",
+        "my": "ဟုတ်ကဲ့၊ ပြီးခဲ့တဲ့လကတည်းက အလုပ်သင်အစီအစဉ်မှာ ပါဝင်နေပါတယ်။ လာမယ့်သောကြာနေ့မှာ နောက်ဆုံးအဆင့် လူတွေ့စစ်ဆေးမှု ဝင်ရောက်ဖြေဆိုဖို့ အစီအစဉ်ရှိပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့၊ ပြီးခဲ့တဲ့လကတည်းက အလုပ်သင်အစီအစဉ်မှာ ပါဝင်နေပါတယ်။ လာမယ့်သောကြာနေ့မှာ နောက်ဆုံးအဆင့် လူတွေ့စစ်ဆေးမှု ဝင်ရောက်ဖြေဆိုဖို့ အစီအစဉ်ရှိပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့၊ ပြီးခဲ့တဲ့လကတည်းက အလုပ်သင်အစီအစဉ်မှာ ပါဝင်နေပါတယ်။ လာမယ့်သောကြာနေ့မှာ နောက်ဆုံးအဆင့် လူတွေ့စစ်ဆေးမှု ဝင်ရောက်ဖြေဆိုဖို့ အစီအစဉ်ရှိပါတယ်။"
+      },
+      {
+        "speaker": "佐藤",
+        "ja": "そうなんですか。面接、うまくいくといいですね。",
+        "kana": "そうなんですか。めんせつ、うまくいくといいですね。",
+        "en": "I see. I hope your interview goes smoothly!",
+        "my": "ဟုတ်လား။ အင်တာဗျူး အဆင်ပြေပါစေနော်။",
+        "myanmar": "ဟုတ်လား။ အင်တာဗျူး အဆင်ပြေပါစေနော်။",
+        "translationMy": "ဟုတ်လား။ အင်တာဗျူး အဆင်ပြေပါစေနော်။"
+      },
+      {
+        "speaker": "アウン",
+        "ja": "ありがとうございます。将来は日本でシステムエンジニアとして十分な経験を積んで、いつか自分の会社を作ろうと考えています。",
+        "kana": "ありがとうございます。しょうらいはにほんでシステムエンジニアとしてじゅうぶんなけいけんをつんで、いつかじぶんのかいしゃをつくろうとかんがえています。",
+        "en": "Thank you. In the future, I plan to gain plenty of experience as a system engineer in Japan and start my own company someday.",
+        "my": "ကျေးဇူးတင်ပါတယ်။ အနာဂတ်မှာ ဂျပန်နိုင်ငံမှာ စနစ်အင်ဂျင်နီယာတစ်ယောက်အဖြစ် လုံလောက်တဲ့အတွေ့အကြုံတွေဆည်းပူးပြီး တစ်နေ့နေ့မှာ ကိုယ်ပိုင်ကုမ္ပဏီထောင်ဖို့ စဉ်းစားထားပါတယ်။",
+        "myanmar": "ကျေးဇူးတင်ပါတယ်။ အနာဂတ်မှာ ဂျပန်နိုင်ငံမှာ စနစ်အင်ဂျင်နီယာတစ်ယောက်အဖြစ် လုံလောက်တဲ့အတွေ့အကြုံတွေဆည်းပူးပြီး တစ်နေ့နေ့မှာ ကိုယ်ပိုင်ကုမ္ပဏီထောင်ဖို့ စဉ်းစားထားပါတယ်။",
+        "translationMy": "ကျေးဇူးတင်ပါတယ်။ အနာဂတ်မှာ ဂျပန်နိုင်ငံမှာ စနစ်အင်ဂျင်နီယာတစ်ယောက်အဖြစ် လုံလောက်တဲ့အတွေ့အကြုံတွေဆည်းပူးပြီး တစ်နေ့နေ့မှာ ကိုယ်ပိုင်ကုမ္ပဏီထောင်ဖို့ စဉ်းစားထားပါတယ်။"
+      },
+      {
+        "speaker": "佐藤",
+        "ja": "立派な計画ですね！応援していますよ。今週末は面接の準備で忙しいですか。",
+        "kana": "りっぱなけいかくですね！おうえんしていますよ。こんしゅうまつはめんせつのじゅんびでいそがしいですか。",
+        "en": "That is an admirable plan! I am cheering for you. Are you busy preparing for the interview this weekend?",
+        "my": "အင်မတန်လေးစားစရာကောင်းတဲ့ အစီအစဉ်ပဲနော်။ အားပေးနေပါတယ်နော်။ ဒီသီတင်းပတ်ကုန် အင်တာဗျူးပြင်ဆင်စရာတွေနဲ့ အလုပ်များမလား။",
+        "myanmar": "အင်မတန်လေးစားစရာကောင်းတဲ့ အစီအစဉ်ပဲနော်။ အားပေးနေပါတယ်နော်။ ဒီသီတင်းပတ်ကုန် အင်တာဗျူးပြင်ဆင်စရာတွေနဲ့ အလုပ်များမလား။",
+        "translationMy": "အင်မတန်လေးစားစရာကောင်းတဲ့ အစီအစဉ်ပဲနော်။ အားပေးနေပါတယ်နော်။ ဒီသီတင်းပတ်ကုန် အင်တာဗျူးပြင်ဆင်စရာတွေနဲ့ အလုပ်များမလား။"
+      },
+      {
+        "speaker": "アウン",
+        "ja": "はい、土曜日は日本語の先生に模擬面接を手伝ってもらう予定です。",
+        "kana": "はい、どようびはにほんごのせんせいにもぎめんせつをてつだってもらうよていです。",
+        "en": "Yes, on Saturday I plan to have my Japanese teacher help me with a mock interview.",
+        "my": "ဟုတ်ကဲ့၊ စနေနေ့မှာ ဂျပန်စာဆရာမဆီကနေ အစမ်းအင်တာဗျူး ကူညီပြင်ဆင်ပေးဖို့ အစီအစဉ်ရှိပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့၊ စနေနေ့မှာ ဂျပန်စာဆရာမဆီကနေ အစမ်းအင်တာဗျူး ကူညီပြင်ဆင်ပေးဖို့ အစီအစဉ်ရှိပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့၊ စနေနေ့မှာ ဂျပန်စာဆရာမဆီကနေ အစမ်းအင်တာဗျူး ကူညီပြင်ဆင်ပေးဖို့ အစီအစဉ်ရှိပါတယ်။"
+      }
+    ],
     "questionIds": [
       "n4.l02.q026",
       "n4.l02.q027",
@@ -1574,7 +1647,7 @@
     },
     "titleMy": "卒業後の進路相談 (Discussing Post-Graduation Career Plans) (နားထောင်ခြင်း)",
     "titleMyanmar": "卒業後の進路相談 (Discussing Post-Graduation Career Plans) (နားထောင်ခြင်း)",
-    "translationMy": "Sato: Aung, you are graduating from university soon, right? What do you intend to do after graduation?\nAung: Yes, without returning home, I am thinking of getting a job at an IT company in Japan.\nSato: Wow, that is wonderful! Have you already started job hunting?\nAung: Yes, I have been participating in an internship since last month. I am scheduled to have my final interview next Friday.\nSato: Is that so? I hope your interview goes well.\nAung: Thank you very much. In the future, I plan to gain sufficient experience as a system engineer in Japan and eventually start my own company.\nSato: That is an admirable plan! I am cheering for you. Are you busy preparing for the interview this weekend?\nAung: Yes, on Saturday I am scheduled to have my Japanese teacher help me with a mock interview."
+    "translationMy": "ဆာတိုး- အောင်ဆန်၊ မကြာခင် တက္ကသိုလ်ဘွဲ့ရတော့မယ်နော်။ ဘွဲ့ရပြီးရင် ဘာလုပ်ဖို့ ရည်ရွယ်ထားသလဲ။\nအောင်- ဟုတ်ကဲ့၊ ကျွန်တော် မိခင်နိုင်ငံကို မပြန်သေးဘဲ ဂျပန် IT ကုမ္ပဏီတစ်ခုမှာ အလုပ်ဝင်ဖို့ စဉ်းစားထားပါတယ်။\nဆာတိုး- ဟယ်၊ သိပ်ကောင်းတာပေါ့။ အလုပ်ရှာဖွေရေးလုပ်ငန်းစဉ်တွေ စတင်နေပြီလား။\nအောင်- ဟုတ်ကဲ့၊ ပြီးခဲ့တဲ့လကတည်းက အလုပ်သင်အစီအစဉ်မှာ ပါဝင်နေပါတယ်။ လာမယ့်သောကြာနေ့မှာ နောက်ဆုံးအဆင့် လူတွေ့စစ်ဆေးမှု ဝင်ရောက်ဖြေဆိုဖို့ အစီအစဉ်ရှိပါတယ်။\nဆာတိုး- ဟုတ်လား။ အင်တာဗျူး အဆင်ပြေပါစေနော်။\nအောင်- ကျေးဇူးတင်ပါတယ်။ အနာဂတ်မှာ ဂျပန်နိုင်ငံမှာ စနစ်အင်ဂျင်နီယာတစ်ယောက်အဖြစ် လုံလောက်တဲ့အတွေ့အကြုံတွေဆည်းပူးပြီး တစ်နေ့နေ့မှာ ကိုယ်ပိုင်ကုမ္ပဏီထောင်ဖို့ စဉ်းစားထားပါတယ်။\nဆာတိုး- အင်မတန်လေးစားစရာကောင်းတဲ့ အစီအစဉ်ပဲနော်။ အားပေးနေပါတယ်နော်။ ဒီသီတင်းပတ်ကုန် အင်တာဗျူးပြင်ဆင်စရာတွေနဲ့ အလုပ်များမလား။\nအောင်- ဟုတ်ကဲ့၊ စနေနေ့မှာ ဂျပန်စာဆရာမဆီကနေ အစမ်းအင်တာဗျူး ကူညီပြင်ဆင်ပေးဖို့ အစီအစဉ်ရှိပါတယ်။"
   },
   "questions": [
     {
@@ -1940,7 +2013,7 @@
         "休もう",
         "休む",
         "休んだ",
-        "休まない"
+        "休まろ"
       ],
       "answer": "休もう",
       "acceptedAnswers": [
@@ -2242,7 +2315,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「日本の木造建築についての本」 ဖြစ်ပါသည်။ (The text states: 高校生のときに日本の木造建築についての本を読んで...)",
+      "explanationMy": "အဖြေမှန်မှာ 「日本の木造建築についての本」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"高校生のときに日本の木造建築についての本を読んで...\")",
       "choicesMy": [
         "日本の木造建築についての本",
         "日本の漫画やアニメ",
@@ -2274,7 +2347,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「日本の大学院へ留学する」 ဖြစ်ပါသည်။ (The text says: 大学を卒業したあと、日本の大学院へ留学しようと思っています.)",
+      "explanationMy": "အဖြေမှန်မှာ 「日本の大学院へ留学する」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"大学を卒業したあと、日本の大学院へ留学しようと思っています.\")",
       "choicesMy": [
         "日本の大学院へ留学する",
         "すぐに会社を立ち上げる",
@@ -2306,7 +2379,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「来年の四月」 ဖြစ်ပါသည်။ (The text states: 来年の四月に入学する予定なので...)",
+      "explanationMy": "အဖြေမှန်မှာ 「来年の四月」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"来年の四月に入学する予定なので...\")",
       "choicesMy": [
         "来年の四月",
         "今年の十二月",
@@ -2338,7 +2411,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「日本語能力試験のN2」 ဖြစ်ပါသည်။ (The text states: 今年の十二月には日本語能力試験のN2を受けるつもりです.)",
+      "explanationMy": "အဖြေမှန်မှာ 「日本語能力試験のN2」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"今年の十二月には日本語能力試験のN2を受けるつもりです.\")",
       "choicesMy": [
         "日本語能力試験のN2",
         "大学院の入学試験",
@@ -2434,7 +2507,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「来週の金曜日」 ဖြစ်ပါသည်။ (Aung says: 来週の金曜日に最終面接を受ける予定です.)",
+      "explanationMy": "အဖြေမှန်မှာ 「来週の金曜日」 ဖြစ်ပါသည်။ (အောင်က ပြောကြားသည်မှာ- \"来週の金曜日に最終面接を受ける予定です.\")",
       "choicesMy": [
         "来週の金曜日",
         "今週の土曜日",
@@ -2466,7 +2539,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「自分の会社を作ること」 ဖြစ်ပါသည်။ (Aung says: いつか自分の会社を作ろうと考えています.)",
+      "explanationMy": "အဖြေမှန်မှာ 「自分の会社を作ること」 ဖြစ်ပါသည်။ (အောင်က ပြောကြားသည်မှာ- \"いつか自分の会社を作ろうと考えています.\")",
       "choicesMy": [
         "自分の会社を作ること",
         "大学でプログラミングを教えること",
@@ -2548,6 +2621,6 @@
   },
   "titleMy": "N4 Lesson 2: Volitional Form (意向形: 行こう・食べよう / 〜つもり・〜予定) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 2: Volitional Form (意向形: 行こう・食べよう / 〜つもり・〜予定) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 2: Volitional Form (意向形: 行こう・食べよう / 〜つもり・〜予定) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "မိမိ၏ ရည်ရွယ်ချက်၊ သန္နိဋ္ဌာန်နှင့် အနာဂတ်အစီအစဉ်များ (意向形၊ 〜つもり၊ 〜予定) ကို တိကျစွာ ဖော်ပြပြောဆိုနိုင်စေရန် လေ့လာခြင်း။",
   "descriptionMyanmar": "N4 Lesson 2: Volitional Form (意向形: 行こう・食べよう / 〜つもり・〜予定) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

@@ -944,7 +944,7 @@
           "meaning": "inspection/check",
           "preview": false,
           "meaningMyanmar": "inspection/check",
-          "meaningMy": "inspection/check"
+          "meaningMy": "စစ်ဆေးခြင်း"
         },
         {
           "word": "交差点",
@@ -960,7 +960,7 @@
           "meaning": "perfect score",
           "preview": false,
           "meaningMyanmar": "perfect score",
-          "meaningMy": "perfect score"
+          "meaningMy": "အမှတ်ပြည့်"
         }
       ],
       "exampleSentenceIds": [
@@ -1021,7 +1021,7 @@
           "meaning": "direct",
           "preview": false,
           "meaningMyanmar": "direct",
-          "meaningMy": "direct"
+          "meaningMy": "တိုက်ရိုက်"
         }
       ],
       "exampleSentenceIds": [
@@ -1121,7 +1121,7 @@
           "meaning": "post office",
           "preview": false,
           "meaningMyanmar": "post office",
-          "meaningMy": "post office"
+          "meaningMy": "စာတိုက်"
         },
         {
           "word": "薬局",
@@ -1129,7 +1129,7 @@
           "meaning": "pharmacy",
           "preview": false,
           "meaningMyanmar": "pharmacy",
-          "meaningMy": "pharmacy"
+          "meaningMy": "ဆေးဆိုင်"
         }
       ],
       "exampleSentenceIds": [
@@ -1191,8 +1191,8 @@
       },
       "explanationMy": "ところ သည် လုပ်ဆောင်ချက်တစ်ခု၏ အချိန်ကာလ အဆင့်အပိုင်းအခြားကို တိကျစွာ ဖော်ပြသည်:\n၁။ 辞書形＋ところ: လုပ်ဆောင်ရန် စတင်တော့မည့်ဆဲဆဲ အချိန် (これから / ちょうど တို့နှင့် တွဲသုံးသည်)။\n၂။ ている＋ところ: လုပ်ငန်းစဉ် ဖြစ်ပွားနေဆဲ အလယ်အလတ်အခြေအနေ (今 / ちょうど တို့နှင့် တွဲသုံးသည်)။\n၃။ た形＋ところ: လွန်ခဲ့သော စက္ကန့်/မိနစ်ပိုင်းကမှ လက်ငင်းချက်ချင်း ပြီးစီးခဲ့သော အခြေအနေ (たった今 / さっき တို့နှင့် တွဲသုံးသည်)။\nအရေးကြီးသော ကန့်သတ်ချက်: 〜たところ သည် ပြီးခဲ့သည့်အပတ်၊ မနှစ်က စသည့် ဝေးကွာသော အတိတ်ကာလပြ စကားလုံးများနှင့် တွဲမသုံးနိုင်ပါ။",
       "meaningMyanmar": "ところ သည် လုပ်ဆောင်ချက်တစ်ခု၏ အချိန်ကာလ အဆင့်အပိုင်းအခြားကို တိကျစွာ ဖော်ပြသည်:\n၁။ 辞書形＋ところ: လုပ်ဆောင်ရန် စတင်တော့မည့်ဆဲဆဲ အချိန် (これから / ちょうど တို့နှင့် တွဲသုံးသည်)။\n၂။ ている＋ところ: လုပ်ငန်းစဉ် ဖြစ်ပွားနေဆဲ အလယ်အလတ်အခြေအနေ (今 / ちょうど တို့နှင့် တွဲသုံးသည်)။\n၃။ た形＋ところ: လွန်ခဲ့သော စက္ကန့်/မိနစ်ပိုင်းကမှ လက်ငင်းချက်ချင်း ပြီးစီးခဲ့သော အခြေအနေ (たった今 / さっき တို့နှင့် တွဲသုံးသည်)။\nအရေးကြီးသော ကန့်သတ်ချက်: 〜たところ သည် ပြီးခဲ့သည့်အပတ်၊ မနှစ်က စသည့် ဝေးကွာသော အတိတ်ကာလပြ စကားလုံးများနှင့် တွဲမသုံးနိုင်ပါ။",
-      "meaningMy": "ところ သည် လုပ်ဆောင်ချက်တစ်ခု၏ အချိန်ကာလ အဆင့်အပိုင်းအခြားကို တိကျစွာ ဖော်ပြသည်:\n၁။ 辞書形＋ところ: လုပ်ဆောင်ရန် စတင်တော့မည့်ဆဲဆဲ အချိန် (これから / ちょうど တို့နှင့် တွဲသုံးသည်)။\n၂။ ている＋ところ: လုပ်ငန်းစဉ် ဖြစ်ပွားနေဆဲ အလယ်အလတ်အခြေအနေ (今 / ちょうど တို့နှင့် တွဲသုံးသည်)။\n၃။ た形＋ところ: လွန်ခဲ့သော စက္ကန့်/မိနစ်ပိုင်းကမှ လက်ငင်းချက်ချင်း ပြီးစီးခဲ့သော အခြေအနေ (たった今 / さっき တို့နှင့် တွဲသုံးသည်)။\nအရေးကြီးသော ကန့်သတ်ချက်: 〜たところ သည် ပြီးခဲ့သည့်အပတ်၊ မနှစ်က စသည့် ဝေးကွာသော အတိတ်ကာလပြ စကားလုံးများနှင့် တွဲမသုံးနိုင်ပါ။",
-      "nuanceExplanationMy": "[Verb Dictionary / ている / た-form] + ところだ ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ところ သည် လုပ်ဆောင်ချက်တစ်ခု၏ အချိန်ကာလ အဆင့်အပိုင်းအခြားကို တိကျစွာ ဖော်ပြသည်:\n၁။",
+      "nuanceExplanationMy": "[Verb Dictionary / ている / た-form] + ところだ ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l35.g002",
@@ -1230,8 +1230,8 @@
       },
       "explanationMy": "〜たばかり သည် လုပ်ဆောင်ချက်ပြီးစီးခဲ့သည်မှာ မကြာသေးဟု ပြောဆိုသူ၏ စိတ်ခံစားမှုအရ လတ်ဆတ်နေဆဲဖြစ်ကြောင်း ဖော်ပြသည်:\n- 〜たところ ကဲ့သို့ စက္ကန့်/မိနစ်ပိုင်းအတွင်း ရုပ်ပိုင်းဆိုင်ရာ ပြီးစီးမှုအပေါ် ကန့်သတ်မထားဘဲ၊ 先週 (ပြီးခဲ့သည့်အပတ်)၊ 先月 (ပြီးခဲ့သည့်လ) စသည်တို့နှင့် တွဲသုံးနိုင်သည် (ပြောသူ၏ စိတ်ထဲတွင် လတ်ဆတ်ဆဲဟု ခံစားရပါက)။\n- နာမ်ကို အထူးပြုလိုသည့်အခါ [Verb た形 + ばかりの + Noun] ပုံစံဖြင့် သုံးသည် (ဥပမာ- 買ったばかりのスマートフォン = ဝယ်ထားပြီးစ စမတ်ဖုန်း)။",
       "meaningMyanmar": "〜たばかり သည် လုပ်ဆောင်ချက်ပြီးစီးခဲ့သည်မှာ မကြာသေးဟု ပြောဆိုသူ၏ စိတ်ခံစားမှုအရ လတ်ဆတ်နေဆဲဖြစ်ကြောင်း ဖော်ပြသည်:\n- 〜たところ ကဲ့သို့ စက္ကန့်/မိနစ်ပိုင်းအတွင်း ရုပ်ပိုင်းဆိုင်ရာ ပြီးစီးမှုအပေါ် ကန့်သတ်မထားဘဲ၊ 先週 (ပြီးခဲ့သည့်အပတ်)၊ 先月 (ပြီးခဲ့သည့်လ) စသည်တို့နှင့် တွဲသုံးနိုင်သည် (ပြောသူ၏ စိတ်ထဲတွင် လတ်ဆတ်ဆဲဟု ခံစားရပါက)။\n- နာမ်ကို အထူးပြုလိုသည့်အခါ [Verb た形 + ばかりの + Noun] ပုံစံဖြင့် သုံးသည် (ဥပမာ- 買ったばかりのスマートフォン = ဝယ်ထားပြီးစ စမတ်ဖုန်း)။",
-      "meaningMy": "〜たばかり သည် လုပ်ဆောင်ချက်ပြီးစီးခဲ့သည်မှာ မကြာသေးဟု ပြောဆိုသူ၏ စိတ်ခံစားမှုအရ လတ်ဆတ်နေဆဲဖြစ်ကြောင်း ဖော်ပြသည်:\n- 〜たところ ကဲ့သို့ စက္ကန့်/မိနစ်ပိုင်းအတွင်း ရုပ်ပိုင်းဆိုင်ရာ ပြီးစီးမှုအပေါ် ကန့်သတ်မထားဘဲ၊ 先週 (ပြီးခဲ့သည့်အပတ်)၊ 先月 (ပြီးခဲ့သည့်လ) စသည်တို့နှင့် တွဲသုံးနိုင်သည် (ပြောသူ၏ စိတ်ထဲတွင် လတ်ဆတ်ဆဲဟု ခံစားရပါက)။\n- နာမ်ကို အထူးပြုလိုသည့်အခါ [Verb た形 + ばかりの + Noun] ပုံစံဖြင့် သုံးသည် (ဥပမာ- 買ったばかりのスマートフォン = ဝယ်ထားပြီးစ စမတ်ဖုန်း)။",
-      "nuanceExplanationMy": "[Verb た-form] + ばかりだ / ばかりの + [Noun] ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "သတ်မှတ်ထားသော အခြေအနေ သို့မဟုတ် အကြောင်းအကျိုးကို ဖော်ပြသည့် ပုံစံ (〜လျှင်)",
+      "nuanceExplanationMy": "[Verb た-form] + ばかりだ / ばかりの + [Noun] ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1638,7 +1638,7 @@
     },
     "titleMy": "新入社員の研修報告 (New Employee Training Report) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "新入社員の研修報告 (New Employee Training Report) (ဖတ်ရှုခြင်း)",
-    "translationMy": "I am a new employee who only just joined this company last month. Having only recently graduated from university, there are still many things I do not understand about work workflows and business etiquette. Today, in preparation for an afternoon sales visit, I am right in the middle of preparing proposal materials together with my senior colleague. Literally moments ago, the printing of the handouts to deliver to the client finished, and we are about to start the final inspection now. Without letting our guard down right up until the moment before departure, I want to head out after getting our preparations completely in order. At first I felt nothing but anxiety, but while receiving help from kind seniors, I have reached the point where I am gradually getting accustomed to the work step by step."
+    "translationMy": "N4 Lesson 35: Temporal Stages & Psychological Aspect (時・局面の表現: 〜ところだ vs 〜たばかり) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l35.l01",
@@ -1661,54 +1661,54 @@
         "ja": "木村さん、頼んでいたプロジェクトの見積書、もうできた？",
         "kana": "きむらさん、たのんでいた ぷろじぇくとの みつもりしょ、もう できた？",
         "en": "Kimura-san, the project estimate sheet I requested, is it ready yet?",
-        "my": "Kimura-san, the project estimate sheet I requested, is it ready yet?",
-        "translationMy": "Kimura-san, the project estimate sheet I requested, is it ready yet?",
-        "myanmar": "Kimura-san, the project estimate sheet I requested, is it ready yet?"
+        "my": "木村さん、頼んでいたプロジェクトの見積書、もうできた？ (အဓိပ္ပာယ်- Kimura-san, the project estimate sheet I requested, is it ready yet?)",
+        "translationMy": "木村さん、頼んでいたプロジェクトの見積書、もうできた？ (အဓိပ္ပာယ်- Kimura-san, the project estimate sheet I requested, is it ready yet?)",
+        "myanmar": "木村さん、頼んでいたプロジェクトの見積書、もうできた？ (အဓိပ္ပာယ်- Kimura-san, the project estimate sheet I requested, is it ready yet?)"
       },
       {
         "speaker": "木村",
         "ja": "あ、課長。ちょうど計算が終わって、確認しているところです。",
         "kana": "あ、かちょう。ちょうど けいさんが おわって、かくにんしている ところです。",
         "en": "Ah, Manager. I have just finished the calculations, and I am right in the middle of verifying it.",
-        "my": "Ah, Manager. I have just finished the calculations, and I am right in the middle of verifying it.",
-        "translationMy": "Ah, Manager. I have just finished the calculations, and I am right in the middle of verifying it.",
-        "myanmar": "Ah, Manager. I have just finished the calculations, and I am right in the middle of verifying it."
+        "my": "あ、課長。ちょうど計算が終わって、確認しているところです。 (အဓိပ္ပာယ်- Ah, Manager. I have just finished the calculations, and I am right in the middle of verifying it.)",
+        "translationMy": "あ、課長。ちょうど計算が終わって、確認しているところです。 (အဓိပ္ပာယ်- Ah, Manager. I have just finished the calculations, and I am right in the middle of verifying it.)",
+        "myanmar": "あ、課長。ちょうど計算が終わって、確認しているところです。 (အဓိပ္ပာယ်- Ah, Manager. I have just finished the calculations, and I am right in the middle of verifying it.)"
       },
       {
         "speaker": "課長",
         "ja": "そうか。クライアントが急いでいるから、できたらすぐに見せてほしいんだ。",
         "kana": "そうか。くらいあんとが いそいでいるから、できたら すぐに みせて ほしいんだ。",
         "en": "I see. Because the client is in a rush, once it is done I would like you to show it to me right away.",
-        "my": "I see. Because the client is in a rush, once it is done I would like you to show it to me right away.",
-        "translationMy": "I see. Because the client is in a rush, once it is done I would like you to show it to me right away.",
-        "myanmar": "I see. Because the client is in a rush, once it is done I would like you to show it to me right away."
+        "my": "そうか。クライアントが急いでいるから、できたらすぐに見せてほしいんだ。 (အဓိပ္ပာယ်- I see. Because the client is in a rush, once it is done I would like you to show it to me right away.)",
+        "translationMy": "そうか。クライアントが急いでいるから、できたらすぐに見せてほしいんだ。 (အဓိပ္ပာယ်- I see. Because the client is in a rush, once it is done I would like you to show it to me right away.)",
+        "myanmar": "そうか。クライアントが急いでいるから、できたらすぐに見せてほしいんだ。 (အဓိပ္ပာယ်- I see. Because the client is in a rush, once it is done I would like you to show it to me right away.)"
       },
       {
         "speaker": "木村",
         "ja": "承知いたしました。たった今最後の数字を直したところですので、印刷して５分後にお持ちします。",
         "kana": "しょうち いたしました。たったいま さいごの すうじを なおした ところですので、いんさつして ごふんごに おもちします。",
         "en": "Understood. Moments ago I fixed the final figures, so I will print it out and bring it to you in 5 minutes.",
-        "my": "Understood. Moments ago I fixed the final figures, so I will print it out and bring it to you in 5 minutes.",
-        "translationMy": "Understood. Moments ago I fixed the final figures, so I will print it out and bring it to you in 5 minutes.",
-        "myanmar": "Understood. Moments ago I fixed the final figures, so I will print it out and bring it to you in 5 minutes."
+        "my": "承知いたしました。たった今最後の数字を直したところですので、印刷して５分後にお持ちします。 (အဓိပ္ပာယ်- Understood. Moments ago I fixed the final figures, so I will print it out and bring it to you in 5 minutes.)",
+        "translationMy": "承知いたしました。たった今最後の数字を直したところですので、印刷して５分後にお持ちします。 (အဓိပ္ပာယ်- Understood. Moments ago I fixed the final figures, so I will print it out and bring it to you in 5 minutes.)",
+        "myanmar": "承知いたしました。たった今最後の数字を直したところですので、印刷して５分後にお持ちします。 (အဓိပ္ပာယ်- Understood. Moments ago I fixed the final figures, so I will print it out and bring it to you in 5 minutes.)"
       },
       {
         "speaker": "課長",
         "ja": "ありがとう。あ、それから、先週納品したばかりの製品について、お客様からお礼のメールが届いていたよ。",
         "kana": "ありがとう。あ、それから、せんしゅう のうひんした ばかりの せいひんに ついて、おきゃくさまから おれいの めーるが とどいていたよ。",
         "en": "Thank you. Oh, and regarding the product that we only just delivered last week, a thank-you email arrived from the customer.",
-        "my": "Thank you. Oh, and regarding the product that we only just delivered last week, a thank-you email arrived from the customer.",
-        "translationMy": "Thank you. Oh, and regarding the product that we only just delivered last week, a thank-you email arrived from the customer.",
-        "myanmar": "Thank you. Oh, and regarding the product that we only just delivered last week, a thank-you email arrived from the customer."
+        "my": "ありがとう。あ、それから、先週納品したばかりの製品について、お客様からお礼のメールが届いていたよ。 (အဓိပ္ပာယ်- Thank you. Oh, and regarding the product that we only just delivered last week, a thank-you email arrived from the customer.)",
+        "translationMy": "ありがとう。あ、それから、先週納品したばかりの製品について、お客様からお礼のメールが届いていたよ。 (အဓိပ္ပာယ်- Thank you. Oh, and regarding the product that we only just delivered last week, a thank-you email arrived from the customer.)",
+        "myanmar": "ありがとう。あ、それから、先週納品したばかりの製品について、お客様からお礼のメールが届いていたよ。 (အဓိပ္ပာယ်- Thank you. Oh, and regarding the product that we only just delivered last week, a thank-you email arrived from the customer.)"
       },
       {
         "speaker": "木村",
         "ja": "本当ですか！先週送ったばかりなのに、さっそく喜んでいただけて安心しました。",
         "kana": "ほんとうですか！せんしゅう おくった ばかりなのに、さっそく よろこんで いただけて あんしんしました。",
         "en": "Really! Even though we only sent it just last week, I am relieved that they were pleased right away.",
-        "my": "Really! Even though we only sent it just last week, I am relieved that they were pleased right away.",
-        "translationMy": "Really! Even though we only sent it just last week, I am relieved that they were pleased right away.",
-        "myanmar": "Really! Even though we only sent it just last week, I am relieved that they were pleased right away."
+        "my": "ဝမ်းသာအားရ ကူညီပေးပါ့မယ်ခင်ဗျာ။",
+        "translationMy": "ဝမ်းသာအားရ ကူညီပေးပါ့မယ်ခင်ဗျာ။",
+        "myanmar": "ဝမ်းသာအားရ ကူညီပေးပါ့မယ်ခင်ဗျာ။"
       }
     ],
     "questionIds": [
@@ -1726,7 +1726,7 @@
     },
     "titleMy": "オフィスでの進捗確認 (Confirming Progress in the Office) (နားထောင်ခြင်း)",
     "titleMyanmar": "オフィスでの進捗確認 (Confirming Progress in the Office) (နားထောင်ခြင်း)",
-    "translationMy": "Manager: Kimura-san, the project estimate sheet I requested, is it ready yet?\nKimura: Ah, Manager. I have just finished the calculations, and I am right in the middle of verifying it.\nManager: I see. Because the client is in a rush, once it is done I would like you to show it to me right away.\nKimura: Understood. Moments ago I fixed the final figures, so I will print it out and bring it to you in 5 minutes.\nManager: Thank you. Oh, and regarding the product that we only just delivered last week, a thank-you email arrived from the customer.\nKimura: Really! Even though we only sent it just last week, I am relieved that they were pleased right away."
+    "translationMy": "課長- 木村さん、頼んでいたプロジェクトの見積書、もうできた？ (အဓိပ္ပာယ်- Kimura-san, the project estimate sheet I requested, is it ready yet?)\n木村- あ、課長。ちょうど計算が終わって、確認しているところです。 (အဓိပ္ပာယ်- Ah, Manager. I have just finished the calculations, and I am right in the middle of verifying it.)\n課長- そうか。クライアントが急いでいるから、できたらすぐに見せてほしいんだ。 (အဓိပ္ပာယ်- I see. Because the client is in a rush, once it is done I would like you to show it to me right away.)\n木村- 承知いたしました。たった今最後の数字を直したところですので、印刷して５分後にお持ちします。 (အဓိပ္ပာယ်- Understood. Moments ago I fixed the final figures, so I will print it out and bring it to you in 5 minutes.)\n課長- ありがとう。あ、それから、先週納品したばかりの製品について、お客様からお礼のメールが届いていたよ。 (အဓိပ္ပာယ်- Thank you. Oh, and regarding the product that we only just delivered last week, a thank-you email arrived from the customer.)\n木村- ဝမ်းသာအားရ ကူညီပေးပါ့မယ်ခင်ဗျာ။"
   },
   "questions": [
     {
@@ -2699,6 +2699,6 @@
   },
   "titleMy": "N4 Lesson 35: Temporal Stages & Psychological Aspect (時・局面の表現: 〜ところだ vs 〜たばかり) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 35: Temporal Stages & Psychological Aspect (時・局面の表現: 〜ところだ vs 〜たばかり) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 35: Temporal Stages & Psychological Aspect (時・局面の表現: 〜ところだ vs 〜たばかり) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "အချိန်ကာလ အဆင့်ဆင့်ပြောင်းလဲမှုနှင့် စိတ်ပိုင်းဆိုင်ရာ အခြေအနေများ (局面動詞・心理描写) ဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 35: Temporal Stages & Psychological Aspect (時・局面の表現: 〜ところだ vs 〜たばかり) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

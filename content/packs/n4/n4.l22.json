@@ -1001,7 +1001,7 @@
           "meaning": "judo",
           "preview": false,
           "meaningMyanmar": "judo",
-          "meaningMy": "judo"
+          "meaningMy": "ဂျူဒို"
         }
       ],
       "exampleSentenceIds": [
@@ -1044,7 +1044,7 @@
           "meaning": "soft (texture)",
           "preview": false,
           "meaningMyanmar": "soft (texture)",
-          "meaningMy": "soft (texture)"
+          "meaningMy": "နူးညံ့သော / ပျော့ပျောင်းသော"
         },
         {
           "word": "柔軟",
@@ -1102,7 +1102,7 @@
           "meaning": "rain cloud",
           "preview": false,
           "meaningMyanmar": "rain cloud",
-          "meaningMy": "rain cloud"
+          "meaningMy": "မိုးတိမ်"
         }
       ],
       "exampleSentenceIds": [
@@ -1165,8 +1165,8 @@
       },
       "explanationMy": "မိမိကိုယ်တိုင် မြင်တွေ့ကြားသိရသော သက်သေအထောက်အထား သို့မဟုတ် အာရုံခံစားမှုပေါ် အခြေခံ၍ \"ဖြစ်ပုံရသည်/ဖြစ်နေပုံပေါ်သည်\" ဟု သုံးသပ်ဆုံးဖြတ်ရာတွင် သုံးသည်။ နာမ်တွင်「の」၊ na-adjective တွင်「な」ထည့်ရသည်။",
       "meaningMyanmar": "မိမိကိုယ်တိုင် မြင်တွေ့ကြားသိရသော သက်သေအထောက်အထား သို့မဟုတ် အာရုံခံစားမှုပေါ် အခြေခံ၍ \"ဖြစ်ပုံရသည်/ဖြစ်နေပုံပေါ်သည်\" ဟု သုံးသပ်ဆုံးဖြတ်ရာတွင် သုံးသည်။ နာမ်တွင်「の」၊ na-adjective တွင်「な」ထည့်ရသည်။",
-      "meaningMy": "မိမိကိုယ်တိုင် မြင်တွေ့ကြားသိရသော သက်သေအထောက်အထား သို့မဟုတ် အာရုံခံစားမှုပေါ် အခြေခံ၍ \"ဖြစ်ပုံရသည်/ဖြစ်နေပုံပေါ်သည်\" ဟု သုံးသပ်ဆုံးဖြတ်ရာတွင် သုံးသည်။ နာမ်တွင်「の」၊ na-adjective တွင်「な」ထည့်ရသည်။",
-      "nuanceExplanationMy": "[Plain form / Nounの / Na-adjな] + ようだ (推量・状況判断) ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "မိမိကိုယ်တိုင် မြင်တွေ့ကြားသိရသော သက်သေအထောက်အထား သို့မဟုတ် အာရုံခံစားမှုပေါ် အခြေခံ၍ \"ဖြစ်ပုံရသည်/ဖြစ်နေပုံပေါ်သည်\" ဟု သုံးသပ်ဆုံးဖြတ်ရာတွင် သုံးသည်။",
+      "nuanceExplanationMy": "[Plain form / Nounの / Na-adjな] + ようだ (推量・状況判断) ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l22.g002",
@@ -1203,8 +1203,8 @@
       },
       "explanationMy": "「まるで (အမှန်ပင်/ကဲ့သို့ပင်)」နှင့် တွဲဖက်၍ တင်စားနှိုင်းယှဉ်သည့်အခါ (Simile) သုံးသည်။ နာမ်ကို အထူးပြုလျှင်「〜のような」၊ ကြိယာ/နာမဝိသေသနကို အထူးပြုလျှင်「〜のように」ကို သုံးသည်။",
       "meaningMyanmar": "「まるで (အမှန်ပင်/ကဲ့သို့ပင်)」နှင့် တွဲဖက်၍ တင်စားနှိုင်းယှဉ်သည့်အခါ (Simile) သုံးသည်။ နာမ်ကို အထူးပြုလျှင်「〜のような」၊ ကြိယာ/နာမဝိသေသနကို အထူးပြုလျှင်「〜のように」ကို သုံးသည်။",
-      "meaningMy": "「まるで (အမှန်ပင်/ကဲ့သို့ပင်)」နှင့် တွဲဖက်၍ တင်စားနှိုင်းယှဉ်သည့်အခါ (Simile) သုံးသည်။ နာမ်ကို အထူးပြုလျှင်「〜のような」၊ ကြိယာ/နာမဝိသေသနကို အထူးပြုလျှင်「〜のように」ကို သုံးသည်။",
-      "nuanceExplanationMy": "まるで + [Nounの / Plain form] + ような [Noun] / ように [Verb/Adj] (比喩・例示) ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "「まるで (အမှန်ပင်/ကဲ့သို့ပင်)」နှင့် တွဲဖက်၍ တင်စားနှိုင်းယှဉ်သည့်အခါ (Simile) သုံးသည်။",
+      "nuanceExplanationMy": "まるで + [Nounの / Plain form] + ような [Noun] / ように [Verb/Adj] (比喩・例示) ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1616,7 +1616,7 @@
     },
     "titleMy": "日本の食品サンプル技術と海外の反応 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "日本の食品サンプル技術と海外の反応 (ဖတ်ရှုခြင်း)",
-    "translationMy": "At the entrances of restaurants and coffee shops in Japan, one often sees realistic food models displayed inside glass showcases. Called \"food samples\" (shokuhin sanpuru), they are praised internationally as a unique Japanese craft culture.\n\nViewed from a distance, they look as if warm steam is rising or sizzling steak juices are dripping. Foreign tourists visiting Japan for the first time are amazed, exclaiming \"It looks just as though real dishes are laid out!\", and one can see them instinctively snapping photos with smartphones.\n\nAccording to artisans, when crafting food samples, they make meticulous efforts to faithfully reproduce the appetizing coloration and soft textures of real food. For example, the curling of cabbage leaves and the clear color of ramen soup are crafted through close observation of fine details.\n\nEven for foreigners who cannot read Japanese, instead of deciphering menu text, just looking at models resembling actual food reveals portions and ingredients at a glance. Food samples can be called a symbol of Japan's warm hospitality, welcoming guests just like a kind guide."
+    "translationMy": "N4 Lesson 22: Sensory & Visual Inference ようだ (〜ようだ・〜ような・〜ように) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l22.l01",
@@ -1637,38 +1637,56 @@
       {
         "speaker": "加藤",
         "ja": "森さん、企画部の高橋さんを見かけませんでしたか？二時からの打ち合わせの資料を渡したいのですが。",
-        "kana": "森さん、企画部の高橋さんを見かけませんでしたか？二時からの打ち合わせの資料を渡したいのですが。",
-        "en": ""
+        "kana": "もりさん、きかくぶのたかはしさんをみかけませんでしたか？にじからのうちあわせのしりょうをわたしたいのですが。",
+        "en": "Mori-san, have you seen Takahashi-san from Planning? I want to hand him the documents for the 2:00 meeting.",
+        "my": "မိုရီဆန်၊ စီမံကိန်းဌာနက တာကာဟာရှိဆန်ကို တွေ့မိသေးလားခင်ဗျာ? ၂ နာရီ တွေ့ဆုံဆွေးနွေးပွဲ စာရွက်စာတမ်းတွေ ပေးချင်လို့ပါ။",
+        "myanmar": "မိုရီဆန်၊ စီမံကိန်းဌာနက တာကာဟာရှိဆန်ကို တွေ့မိသေးလားခင်ဗျာ? ၂ နာရီ တွေ့ဆုံဆွေးနွေးပွဲ စာရွက်စာတမ်းတွေ ပေးချင်လို့ပါ။",
+        "translationMy": "မိုရီဆန်၊ စီမံကိန်းဌာနက တာကာဟာရှိဆန်ကို တွေ့မိသေးလားခင်ဗျာ? ၂ နာရီ တွေ့ဆုံဆွေးနွေးပွဲ စာရွက်စာတမ်းတွေ ပေးချင်လို့ပါ။"
       },
       {
         "speaker": "森",
         "ja": "さっき高橋さんの席の前を通りましたが、パソコンの電源が切れていて、上着もありませんでしたよ。",
-        "kana": "さっき高橋さんの席の前を通りましたが、パソコンの電源が切れていて、上着もありませんでしたよ。",
-        "en": ""
+        "kana": "さっきたかはしさんのせきのまえをとおりましたが、パソコンのでんげんがきれていて、うわぎもありませんでしたよ。",
+        "en": "I walked past Takahashi-san's desk a moment ago, but his PC was powered off and his jacket wasn't there.",
+        "my": "စောစောက တာကာဟာရှိဆန် ခုံရှေ့က ဖြတ်သွားခဲ့ပေမဲ့ ကွန်ပျူတာ ပိတ်ထားပြီး ကုတ်အင်္ကျီလည်း မရှိတော့ပါဘူးခင်ဗျာ။",
+        "myanmar": "စောစောက တာကာဟာရှိဆန် ခုံရှေ့က ဖြတ်သွားခဲ့ပေမဲ့ ကွန်ပျူတာ ပိတ်ထားပြီး ကုတ်အင်္ကျီလည်း မရှိတော့ပါဘူးခင်ဗျာ။",
+        "translationMy": "စောစောက တာကာဟာရှိဆန် ခုံရှေ့က ဖြတ်သွားခဲ့ပေမဲ့ ကွန်ပျူတာ ပိတ်ထားပြီး ကုတ်အင်္ကျီလည်း မရှိတော့ပါဘူးခင်ဗျာ။"
       },
       {
         "speaker": "加藤",
         "ja": "そうですか。外出しているようですね。",
-        "kana": "そうですか。外出しているようですね。",
-        "en": ""
+        "kana": "そうですか。がいしゅつしているようですね。",
+        "en": "I see. It seems he is out of the office.",
+        "my": "ဟုတ်လား။ အပြင်ထွက်သွားတဲ့ပုံ ရတယ်နော်။",
+        "myanmar": "ဟုတ်လား။ အပြင်ထွက်သွားတဲ့ပုံ ရတယ်နော်။",
+        "translationMy": "ဟုတ်လား။ အပြင်ထွက်သွားတဲ့ပုံ ရတယ်နော်။"
       },
       {
         "speaker": "森",
         "ja": "ええ、手帳が開いたままになっていて、「午後はA社へ訪問」と書いてあったような気がします。",
-        "kana": "ええ、手帳が開いたままになっていて、「午後はA社へ訪問」と書いてあったような気がします。",
-        "en": ""
+        "kana": "ええ、てちょうがあいたままになっていて、「ごごはエーしゃへほうもん」とかいてあったようなきがします。",
+        "en": "Yes, his appointment notebook was open, and I feel like it said \"Visiting Company A in the afternoon.\"",
+        "my": "ဟုတ်တယ်ခင်ဗျာ၊ မှတ်စုစာအုပ် ဖွင့်လျက်ကျန်ခဲ့ပြီး \"မွန်းလွဲပိုင်း A ကုမ္ပဏီသို့ သွားရောက်လည်ပတ်မည်\" လို့ ရေးထားသလို ထင်မိပါတယ်။",
+        "myanmar": "ဟုတ်တယ်ခင်ဗျာ၊ မှတ်စုစာအုပ် ဖွင့်လျက်ကျန်ခဲ့ပြီး \"မွန်းလွဲပိုင်း A ကုမ္ပဏီသို့ သွားရောက်လည်ပတ်မည်\" လို့ ရေးထားသလို ထင်မိပါတယ်။",
+        "translationMy": "ဟုတ်တယ်ခင်ဗျာ၊ မှတ်စုစာအုပ် ဖွင့်လျက်ကျန်ခဲ့ပြီး \"မွန်းလွဲပိုင်း A ကုမ္ပဏီသို့ သွားရောက်လည်ပတ်မည်\" လို့ ရေးထားသလို ထင်မိပါတယ်။"
       },
       {
         "speaker": "加藤",
         "ja": "なるほど、取引先へ直行したようですね。それでは、急ぎの用件ではないのでメールで資料を送っておくことにします。",
-        "kana": "なるほど、取引先へ直行したようですね。それでは、急ぎの用件ではないのでメールで資料を送っておくことにします。",
-        "en": ""
+        "kana": "なるほど、とりひきさきへちょっこうしたようですね。それでは、いそぎのようけんではないのでメールでしりょうをおくっておくことにします。",
+        "en": "Ah, it seems he headed straight to the client. In that case, since it's not urgent, I'll decide to send the documents by email.",
+        "my": "နားလည်ပါပြီ၊ ဖောက်သည်ဆီ တိုက်ရိုက်သွားရောက်တဲ့ပုံပဲနော်။ ဒါဆိုရင် အရေးတကြီး ကိစ္စမဟုတ်လို့ အီးမေးလ်ကနေ စာရွက်စာတမ်း ပို့ထားလိုက်ပါ့မယ်။",
+        "myanmar": "နားလည်ပါပြီ၊ ဖောက်သည်ဆီ တိုက်ရိုက်သွားရောက်တဲ့ပုံပဲနော်။ ဒါဆိုရင် အရေးတကြီး ကိစ္စမဟုတ်လို့ အီးမေးလ်ကနေ စာရွက်စာတမ်း ပို့ထားလိုက်ပါ့မယ်။",
+        "translationMy": "နားလည်ပါပြီ၊ ဖောက်သည်ဆီ တိုက်ရိုက်သွားရောက်တဲ့ပုံပဲနော်။ ဒါဆိုရင် အရေးတကြီး ကိစ္စမဟုတ်လို့ အီးမေးလ်ကနေ စာရွက်စာတမ်း ပို့ထားလိုက်ပါ့မယ်။"
       },
       {
         "speaker": "森",
         "ja": "それがいいですね。夕方には戻ってくるようですよ。",
-        "kana": "それがいいですね。夕方には戻ってくるようですよ。",
-        "en": ""
+        "kana": "それがいいですね。ゆうがたにはもどってくるようですよ。",
+        "en": "That sounds good. It seems he will be back in the evening.",
+        "my": "အဲဒါ ကောင်းပါတယ်ခင်ဗျာ။ ညနေပိုင်းမှာ ပြန်ရောက်လာမယ့်ပုံပါပဲ။",
+        "myanmar": "အဲဒါ ကောင်းပါတယ်ခင်ဗျာ။ ညနေပိုင်းမှာ ပြန်ရောက်လာမယ့်ပုံပါပဲ။",
+        "translationMy": "အဲဒါ ကောင်းပါတယ်ခင်ဗျာ။ ညနေပိုင်းမှာ ပြန်ရောက်လာမယ့်ပုံပါပဲ။"
       }
     ],
     "questionIds": [
@@ -1688,7 +1706,7 @@
     },
     "titleMy": "職場の会議室の様子と不在の理由 (နားထောင်ခြင်း)",
     "titleMyanmar": "職場の会議室の様子と不在の理由 (နားထောင်ခြင်း)",
-    "translationMy": "Kato: Mori-san, have you seen Takahashi-san from Planning? I want to hand him the documents for the 2:00 meeting.\nMori: I walked past Takahashi-san's desk a moment ago, but his PC was powered off and his jacket wasn't there.\nKato: I see. It seems he is out of the office.\nMori: Yes, his appointment notebook was open, and I feel like it said \"Visiting Company A in the afternoon.\"\nKato: Ah, it seems he headed straight to the client. In that case, since it's not urgent, I'll decide to send the documents by email.\nMori: That sounds good. It seems he will be back in the evening."
+    "translationMy": "加藤- မိုရီဆန်၊ စီမံကိန်းဌာနက တာကာဟာရှိဆန်ကို တွေ့မိသေးလားခင်ဗျာ? ၂ နာရီ တွေ့ဆုံဆွေးနွေးပွဲ စာရွက်စာတမ်းတွေ ပေးချင်လို့ပါ။\n森- စောစောက တာကာဟာရှိဆန် ခုံရှေ့က ဖြတ်သွားခဲ့ပေမဲ့ ကွန်ပျူတာ ပိတ်ထားပြီး ကုတ်အင်္ကျီလည်း မရှိတော့ပါဘူးခင်ဗျာ။\n加藤- ဟုတ်လား။ အပြင်ထွက်သွားတဲ့ပုံ ရတယ်နော်။\n森- ဟုတ်တယ်ခင်ဗျာ၊ မှတ်စုစာအုပ် ဖွင့်လျက်ကျန်ခဲ့ပြီး \"မွန်းလွဲပိုင်း A ကုမ္ပဏီသို့ သွားရောက်လည်ပတ်မည်\" လို့ ရေးထားသလို ထင်မိပါတယ်။\n加藤- နားလည်ပါပြီ၊ ဖောက်သည်ဆီ တိုက်ရိုက်သွားရောက်တဲ့ပုံပဲနော်။ ဒါဆိုရင် အရေးတကြီး ကိစ္စမဟုတ်လို့ အီးမေးလ်ကနေ စာရွက်စာတမ်း ပို့ထားလိုက်ပါ့မယ်။\n森- အဲဒါ ကောင်းပါတယ်ခင်ဗျာ။ ညနေပိုင်းမှာ ပြန်ရောက်လာမယ့်ပုံပါပဲ။"
   },
   "questions": [
     {
@@ -1843,7 +1861,7 @@
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「まるで」 ဖြစ်ပါသည်။ (まるで means just like / as if (paired with 〜ようだ/〜みたいだ).)",
+      "explanationMy": "အဖြေမှန်မှာ 「まるで」 ဖြစ်ပါသည်။ (まるで သည် just like / as if (paired with 〜ようだ/〜みたいだ ဟု အဓိပ္ပာယ်ရပါသည်).)",
       "choicesMy": [
         "まるで",
         "偶然",
@@ -2615,7 +2633,7 @@
       "choicesMy": [
         "急ぎではないのでメールで送っておくことにした",
         "高橋さんの机の上に置いておくことにした",
-        "A社まで追いかけて届けることにした",
+        "A社まで追いかけて届けることにした ၏ အဓိပ္ပာယ်",
         "森さんに預けることにした"
       ]
     },
@@ -2661,6 +2679,6 @@
   },
   "titleMy": "N4 Lesson 22: Sensory & Visual Inference ようだ (〜ようだ・〜ような・〜ように) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 22: Sensory & Visual Inference ようだ (〜ようだ・〜ような・〜ように) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 22: Sensory & Visual Inference ようだ (〜ようだ・〜ような・〜ように) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "မျက်မြင်အခြေအနေနှင့် အာရုံခံစားမှုအရ ယူဆဖော်ပြခြင်း (〜ようだ: 状況・五感判断) ဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 22: Sensory & Visual Inference ようだ (〜ようだ・〜ような・〜ように) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

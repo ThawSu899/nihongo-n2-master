@@ -948,7 +948,7 @@
           "meaning": "participation",
           "preview": false,
           "meaningMyanmar": "participation",
-          "meaningMy": "participation"
+          "meaningMy": "ပါဝင်ခြင်း"
         },
         {
           "word": "参考",
@@ -956,7 +956,7 @@
           "meaning": "reference",
           "preview": false,
           "meaningMyanmar": "reference",
-          "meaningMy": "reference"
+          "meaningMy": "ကိုးကားချက်"
         }
       ],
       "exampleSentenceIds": [
@@ -1007,7 +1007,7 @@
           "meaning": "shrine/temple visit",
           "preview": false,
           "meaningMyanmar": "shrine/temple visit",
-          "meaningMy": "shrine/temple visit"
+          "meaningMy": "ဘုရားကျောင်းသို့ သွားရောက်ဝတ်ပြုခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1049,7 +1049,7 @@
           "meaning": "consent; understanding",
           "preview": false,
           "meaningMyanmar": "consent; understanding",
-          "meaningMy": "consent; understanding"
+          "meaningMy": "သဘောတူလက်ခံခြင်း / သိရှိနားလည်ခြင်း"
         },
         {
           "word": "承認",
@@ -1099,7 +1099,7 @@
           "meaning": "consent; knowledge",
           "preview": false,
           "meaningMyanmar": "consent; knowledge",
-          "meaningMy": "consent; knowledge"
+          "meaningMy": "သဘောတူလက်ခံခြင်း / သိရှိနားလည်ခြင်း"
         },
         {
           "word": "知る",
@@ -1107,7 +1107,7 @@
           "meaning": "to know",
           "preview": false,
           "meaningMyanmar": "to know",
-          "meaningMy": "to know"
+          "meaningMy": "သိရှိသည်"
         },
         {
           "word": "知識",
@@ -1115,7 +1115,7 @@
           "meaning": "knowledge",
           "preview": false,
           "meaningMyanmar": "knowledge",
-          "meaningMy": "knowledge"
+          "meaningMy": "ဗဟုသုတ / အသိပညာ"
         }
       ],
       "exampleSentenceIds": [
@@ -1177,8 +1177,8 @@
       },
       "explanationMy": "စကားပြောသူ မိမိကိုယ်တိုင်၏ လုပ်ဆောင်ချက် သို့မဟုတ် မိမိအဖွဲ့အစည်း (ကုမ္ပဏီ၊ မိသားစု) ၏ လုပ်ဆောင်ချက်ကို နှိမ့်ချပြောဆိုခြင်းဖြင့် တစ်ဖက်သားကို လေးစားမှုပြသော နှိမ့်ချစကား (謙譲語) ဖြစ်သည်။",
       "meaningMyanmar": "စကားပြောသူ မိမိကိုယ်တိုင်၏ လုပ်ဆောင်ချက် သို့မဟုတ် မိမိအဖွဲ့အစည်း (ကုမ္ပဏီ၊ မိသားစု) ၏ လုပ်ဆောင်ချက်ကို နှိမ့်ချပြောဆိုခြင်းဖြင့် တစ်ဖက်သားကို လေးစားမှုပြသော နှိမ့်ချစကား (謙譲語) ဖြစ်သည်။",
-      "meaningMy": "စကားပြောသူ မိမိကိုယ်တိုင်၏ လုပ်ဆောင်ချက် သို့မဟုတ် မိမိအဖွဲ့အစည်း (ကုမ္ပဏီ၊ မိသားစု) ၏ လုပ်ဆောင်ချက်ကို နှိမ့်ချပြောဆိုခြင်းဖြင့် တစ်ဖက်သားကို လေးစားမှုပြသော နှိမ့်ချစကား (謙譲語) ဖြစ်သည်။",
-      "nuanceExplanationMy": "[Humble Verb: 参る・申す・いたす・拝見する・いただく・存じている] ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "မိမိနှင့် မိမိအဖွဲ့အစည်း၏ လုပ်ဆောင်ချက်ကို နှိမ့်ချပြောဆိုခြင်းဖြင့် တစ်ဖက်သားကို လေးစားမှုဖော်ပြခြင်း",
+      "nuanceExplanationMy": "[Humble Verb: 参る・申す・いたす・拝見する・いただく・存じている] ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l15.g002",
@@ -1216,8 +1216,8 @@
       },
       "explanationMy": "မိမိပြုလုပ်သော လုပ်ဆောင်ချက်သည် တစ်ဖက်လူအတွက် ရည်ရွယ်သည့်အခါ အသုံးပြုသော ပုံမှန်နှိမ့်ချစကားပုံစံ ဖြစ်သည်။ お + ကြိယာ ます ဖြုတ် + します/いたします သို့မဟုတ် ご + နာမ် + します/いたします ကို သုံးသည်။",
       "meaningMyanmar": "မိမိပြုလုပ်သော လုပ်ဆောင်ချက်သည် တစ်ဖက်လူအတွက် ရည်ရွယ်သည့်အခါ အသုံးပြုသော ပုံမှန်နှိမ့်ချစကားပုံစံ ဖြစ်သည်။ お + ကြိယာ ます ဖြုတ် + します/いたします သို့မဟုတ် ご + နာမ် + します/いたします ကို သုံးသည်။",
-      "meaningMy": "မိမိပြုလုပ်သော လုပ်ဆောင်ချက်သည် တစ်ဖက်လူအတွက် ရည်ရွယ်သည့်အခါ အသုံးပြုသော ပုံမှန်နှိမ့်ချစကားပုံစံ ဖြစ်သည်။ お + ကြိယာ ます ဖြုတ် + します/いたします သို့မဟုတ် ご + နာမ် + します/いたします ကို သုံးသည်။",
-      "nuanceExplanationMy": "お + [Verb ます-stem] + する / ご + [Noun] + する ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "မိမိပြုလုပ်သော လုပ်ဆောင်ချက်သည် တစ်ဖက်လူအတွက် ရည်ရွယ်သည့်အခါ အသုံးပြုသော ပုံမှန်နှိမ့်ချစကားပုံစံ ဖြစ်သည်။",
+      "nuanceExplanationMy": "お + [Verb ます-stem] + する / ご + [Noun] + する ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     }
   ],
   "sentences": [
@@ -1625,7 +1625,7 @@
     },
     "titleMy": "ビジネス電話と「ウチ・ソト」の敬語ルール (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "ビジネス電話と「ウチ・ソト」の敬語ルール (ဖတ်ရှုခြင်း)",
-    "translationMy": "In Japanese business etiquette, the easiest mistake to make is using keigo during telephone correspondence. In Japanese culture, there is a clear distinction between \"Uchi\" (one's own family or company members) and \"Soto\" (outsiders and customers).\n\nFor example, suppose a client calls and asks: \"Is Director Sato there?\" At this time, even though Sato is your superior within your company, when speaking to someone outside the company, you must treat him as an \"in-group person\" and use humble speech (kenjougo).\n\nTherefore, responding with respectful speech: \"Sato-bucho is not here (irasshaimasen)\" is a mistake. The correct response is to omit the title suffix \"bucho\" to refer to him simply as Sato, and answer: \"I am terribly sorry. Our director, Sato, has currently stepped away from his desk (seki o hazushite orimasu).\"\n\nIn this manner, lowering not only your own actions but also the actions of your in-group members depending on who the listener is represents the fundamental characteristic of humble keigo. Acquiring this distinction between inside and outside is the first step toward becoming a trusted professional."
+    "translationMy": "N4 Lesson 15: Humble Keigo (謙譲語: 参る・申す・いたす・お〜する) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l15.l01",
@@ -1646,50 +1646,74 @@
       {
         "speaker": "取引先アシスタント",
         "ja": "お電話ありがとうございます。大和産業でございます。",
-        "kana": "お電話ありがとうございます。大和産業でございます。",
-        "en": ""
+        "kana": "おでんわありがとうございます。やまとさんぎょうでございます。",
+        "en": "Thank you for calling. This is Yamato Industries.",
+        "my": "ဖုန်းခေါ်ဆိုမှုအတွက် ကျေးဇူးတင်ပါသည်ခင်ဗျာ။ ယာမာတိုစက်မှုလုပ်ငန်းမှ ဖြစ်ပါသည်ခင်ဗျာ။",
+        "myanmar": "ဖုန်းခေါ်ဆိုမှုအတွက် ကျေးဇူးတင်ပါသည်ခင်ဗျာ။ ယာမာတိုစက်မှုလုပ်ငန်းမှ ဖြစ်ပါသည်ခင်ဗျာ။",
+        "translationMy": "ဖုန်းခေါ်ဆိုမှုအတွက် ကျေးဇူးတင်ပါသည်ခင်ဗျာ။ ယာမာတိုစက်မှုလုပ်ငန်းမှ ဖြစ်ပါသည်ခင်ဗျာ။"
       },
       {
         "speaker": "営業の小林",
         "ja": "いつも大変お世話になっております。私、さくら商事営業部の小林と申します。",
-        "kana": "いつも大変お世話になっております。私、さくら商事営業部の小林と申します。",
-        "en": ""
+        "kana": "いつもたいへんおせわになっております。わたくし、さくらしょうじえいぎょうぶのこばやしともうします。",
+        "en": "We are always very grateful for your patronage. My name is Kobayashi from the Sales Department at Sakura Trading.",
+        "my": "အမြဲတမ်း အထူးပဲ ကျေးဇူးတင်ရှိပါသည်ခင်ဗျာ။ ကျွန်တော်ကတော့ ဆာကူရာ ကုန်သွယ်ရေး အရောင်းဌာနမှ ကိုဘာယာရှိ ဖြစ်ပါတယ်။",
+        "myanmar": "အမြဲတမ်း အထူးပဲ ကျေးဇူးတင်ရှိပါသည်ခင်ဗျာ။ ကျွန်တော်ကတော့ ဆာကူရာ ကုန်သွယ်ရေး အရောင်းဌာနမှ ကိုဘာယာရှိ ဖြစ်ပါတယ်။",
+        "translationMy": "အမြဲတမ်း အထူးပဲ ကျေးဇူးတင်ရှိပါသည်ခင်ဗျာ။ ကျွန်တော်ကတော့ ဆာကူရာ ကုန်သွယ်ရေး အရောင်းဌာနမှ ကိုဘာယာရှိ ဖြစ်ပါတယ်။"
       },
       {
         "speaker": "取引先アシスタント",
         "ja": "さくら商事の小林様ですね。いつもお世話になっております。",
-        "kana": "さくら商事の小林様ですね。いつもお世話になっております。",
-        "en": ""
+        "kana": "さくらしょうじのこばやしさまですね。いつもおせわになっております。",
+        "en": "Mr. Kobayashi of Sakura Trading, hello. Thank you for your continued partnership.",
+        "my": "ဆာကူရာ ကုန်သွယ်ရေးမှ ကိုဘာယာရှိဆန် ဖြစ်ပါသလားခင်ဗျာ။ အမြဲ အားကိုးကျေးဇူးတင်လျက်ပါခင်ဗျာ။",
+        "myanmar": "ဆာကူရာ ကုန်သွယ်ရေးမှ ကိုဘာယာရှိဆန် ဖြစ်ပါသလားခင်ဗျာ။ အမြဲ အားကိုးကျေးဇူးတင်လျက်ပါခင်ဗျာ။",
+        "translationMy": "ဆာကူရာ ကုန်သွယ်ရေးမှ ကိုဘာယာရှိဆန် ဖြစ်ပါသလားခင်ဗျာ။ အမြဲ အားကိုးကျေးဇူးတင်လျက်ပါခင်ဗျာ။"
       },
       {
         "speaker": "営業の小林",
         "ja": "恐れ入ります。営業企画の木村課長はいらっしゃいますでしょうか。",
-        "kana": "恐れ入ります。営業企画の木村課長はいらっしゃいますでしょうか。",
-        "en": ""
+        "kana": "おそれいります。えいぎょうきかくのきむらかちょうはいらっしゃいますでしょうか。",
+        "en": "Pardon me. Is Section Chief Kimura of Sales Planning available?",
+        "my": "အားနာပေမယ့် အရောင်းစီမံရေးဌာနမှူး ခိမုရဆန် ရှိပါသလားခင်ဗျာ။",
+        "myanmar": "အားနာပေမယ့် အရောင်းစီမံရေးဌာနမှူး ခိမုရဆန် ရှိပါသလားခင်ဗျာ။",
+        "translationMy": "အားနာပေမယ့် အရောင်းစီမံရေးဌာနမှူး ခိမုရဆန် ရှိပါသလားခင်ဗျာ။"
       },
       {
         "speaker": "取引先アシスタント",
         "ja": "申し訳ございません。木村はただいま他の会議に出ておりまして、三時半頃に戻る予定でございます。",
-        "kana": "申し訳ございません。木村はただいま他の会議に出ておりまして、三時半頃に戻る予定でございます。",
-        "en": ""
+        "kana": "もうしわけございません。きむらはただいまほかのかいぎにでておりまして、さんじはんごろにもどるよていでございます。",
+        "en": "I am very sorry. Kimura is currently attending another meeting and is scheduled to return around 3:30.",
+        "my": "တောင်းပန်ပါသည်ခင်ဗျာ။ ခိမုရဟာ လောလောဆယ် အခြားအစည်းအဝေးတစ်ခု တက်ရောက်နေပြီး ၃ နာရီခွဲခန့်မှာ ပြန်လည်ရောက်ရှိဖို့ အစီအစဉ်ရှိပါသည်ခင်ဗျာ။",
+        "myanmar": "တောင်းပန်ပါသည်ခင်ဗျာ။ ခိမုရဟာ လောလောဆယ် အခြားအစည်းအဝေးတစ်ခု တက်ရောက်နေပြီး ၃ နာရီခွဲခန့်မှာ ပြန်လည်ရောက်ရှိဖို့ အစီအစဉ်ရှိပါသည်ခင်ဗျာ။",
+        "translationMy": "တောင်းပန်ပါသည်ခင်ဗျာ။ ခိမုရဟာ လောလောဆယ် အခြားအစည်းအဝေးတစ်ခု တက်ရောက်နေပြီး ၃ နာရီခွဲခန့်မှာ ပြန်လည်ရောက်ရှိဖို့ အစီအစဉ်ရှိပါသည်ခင်ဗျာ။"
       },
       {
         "speaker": "営業の小林",
         "ja": "承知いたしました。では、三時半過ぎに私から改めてお電話を差し上げます。",
-        "kana": "承知いたしました。では、三時半過ぎに私から改めてお電話を差し上げます。",
-        "en": ""
+        "kana": "しょうちいたしました。では、さんじはんすぎにわたくしからあらためておでんわをさしあげます。",
+        "en": "Understood. In that case, I will call back again myself after 3:30.",
+        "my": "နားလည်ပါပြီခင်ဗျာ။ ဒါဆိုရင် ၃ နာရီခွဲကျော်မှာ ကျွန်တော့်ဘက်ကနေ တစ်ခေါက် ထပ်မံဖုန်းဆက်ပါ့မယ်။",
+        "myanmar": "နားလည်ပါပြီခင်ဗျာ။ ဒါဆိုရင် ၃ နာရီခွဲကျော်မှာ ကျွန်တော့်ဘက်ကနေ တစ်ခေါက် ထပ်မံဖုန်းဆက်ပါ့မယ်။",
+        "translationMy": "နားလည်ပါပြီခင်ဗျာ။ ဒါဆိုရင် ၃ နာရီခွဲကျော်မှာ ကျွန်တော့်ဘက်ကနေ တစ်ခေါက် ထပ်မံဖုန်းဆက်ပါ့မယ်။"
       },
       {
         "speaker": "取引先アシスタント",
         "ja": "かしこまりました。木村にその旨申し伝えておきます。",
-        "kana": "かしこまりました。木村にその旨申し伝えておきます。",
-        "en": ""
+        "kana": "かしこまりました。きむらにそのむねもうしつたえておきます。",
+        "en": "Certainly. I will convey that message to Kimura.",
+        "my": "ဟုတ်ကဲ့ပါခင်ဗျာ။ ခိမုရဆီကို ဒီအကြောင်းအရာ သေချာ အကြောင်းကြားထားပေးပါ့မယ်။",
+        "myanmar": "ဟုတ်ကဲ့ပါခင်ဗျာ။ ခိမုရဆီကို ဒီအကြောင်းအရာ သေချာ အကြောင်းကြားထားပေးပါ့မယ်။",
+        "translationMy": "ဟုတ်ကဲ့ပါခင်ဗျာ။ ခိမုရဆီကို ဒီအကြောင်းအရာ သေချာ အကြောင်းကြားထားပေးပါ့မယ်။"
       },
       {
         "speaker": "営業の小林",
         "ja": "よろしくお願い申し上げます。失礼いたします。",
-        "kana": "よろしくお願い申し上げます。失礼いたします。",
-        "en": ""
+        "kana": "よろしくおねがいもうしあげます。しつれいいたします。",
+        "en": "Thank you very much. Goodbye.",
+        "my": "ကူညီဆောင်ရွက်ပေးပါရန် မေတ္တာရပ်ခံပါသည်ခင်ဗျာ။ ခွင့်ပြုပါဦးခင်ဗျာ။",
+        "myanmar": "ကူညီဆောင်ရွက်ပေးပါရန် မေတ္တာရပ်ခံပါသည်ခင်ဗျာ။ ခွင့်ပြုပါဦးခင်ဗျာ။",
+        "translationMy": "ကူညီဆောင်ရွက်ပေးပါရန် မေတ္တာရပ်ခံပါသည်ခင်ဗျာ။ ခွင့်ပြုပါဦးခင်ဗျာ။"
       }
     ],
     "questionIds": [
@@ -1709,7 +1733,7 @@
     },
     "titleMy": "取引先への訪問アポイントと電話応対 (နားထောင်ခြင်း)",
     "titleMyanmar": "取引先への訪問アポイントと電話応対 (နားထောင်ခြင်း)",
-    "translationMy": "Client Assistant: Thank you for calling. This is Yamato Industries.\nKobayashi (Sales): We are always very grateful for your patronage. My name is Kobayashi from the Sales Department at Sakura Trading.\nClient Assistant: Mr. Kobayashi of Sakura Trading, hello. Thank you for your continued partnership.\nKobayashi (Sales): Pardon me. Is Section Chief Kimura of Sales Planning available?\nClient Assistant: I am very sorry. Kimura is currently attending another meeting and is scheduled to return around 3:30.\nKobayashi (Sales): Understood. In that case, I will call back again myself after 3:30.\nClient Assistant: Certainly. I will convey that message to Kimura.\nKobayashi (Sales): Thank you very much. Goodbye."
+    "translationMy": "取引先アシスタント- ဖုန်းခေါ်ဆိုမှုအတွက် ကျေးဇူးတင်ပါသည်ခင်ဗျာ။ ယာမာတိုစက်မှုလုပ်ငန်းမှ ဖြစ်ပါသည်ခင်ဗျာ။\n営業の小林- အမြဲတမ်း အထူးပဲ ကျေးဇူးတင်ရှိပါသည်ခင်ဗျာ။ ကျွန်တော်ကတော့ ဆာကူရာ ကုန်သွယ်ရေး အရောင်းဌာနမှ ကိုဘာယာရှိ ဖြစ်ပါတယ်။\n取引先アシスタント- ဆာကူရာ ကုန်သွယ်ရေးမှ ကိုဘာယာရှိဆန် ဖြစ်ပါသလားခင်ဗျာ။ အမြဲ အားကိုးကျေးဇူးတင်လျက်ပါခင်ဗျာ။\n営業の小林- အားနာပေမယ့် အရောင်းစီမံရေးဌာနမှူး ခိမုရဆန် ရှိပါသလားခင်ဗျာ။\n取引先アシスタント- တောင်းပန်ပါသည်ခင်ဗျာ။ ခိမုရဟာ လောလောဆယ် အခြားအစည်းအဝေးတစ်ခု တက်ရောက်နေပြီး ၃ နာရီခွဲခန့်မှာ ပြန်လည်ရောက်ရှိဖို့ အစီအစဉ်ရှိပါသည်ခင်ဗျာ။\n営業の小林- နားလည်ပါပြီခင်ဗျာ။ ဒါဆိုရင် ၃ နာရီခွဲကျော်မှာ ကျွန်တော့်ဘက်ကနေ တစ်ခေါက် ထပ်မံဖုန်းဆက်ပါ့မယ်။\n取引先アシスタント- ဟုတ်ကဲ့ပါခင်ဗျာ။ ခိမုရဆီကို ဒီအကြောင်းအရာ သေချာ အကြောင်းကြားထားပေးပါ့မယ်။\n営業の小林- ကူညီဆောင်ရွက်ပေးပါရန် မေတ္တာရပ်ခံပါသည်ခင်ဗျာ။ ခွင့်ပြုပါဦးခင်ဗျာ။"
   },
   "questions": [
     {
@@ -1960,7 +1984,7 @@
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「説明」 ဖြစ်ပါသည်။ (ご説明いたします means \"allow me to explain.\")",
+      "explanationMy": "အဖြေမှန်မှာ 「説明」 ဖြစ်ပါသည်။ (ご説明いたします သည် \"allow me to explain.\" ဟု အဓိပ္ပာယ်ရပါသည်)",
       "choicesMy": [
         "説明",
         "連絡",
@@ -2683,6 +2707,6 @@
   },
   "titleMy": "N4 Lesson 15: Humble Keigo (謙譲語: 参る・申す・いたす・お〜する) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 15: Humble Keigo (謙譲語: 参る・申す・いたす・お〜する) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 15: Humble Keigo (謙譲語: 参る・申す・いたす・お〜する) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "နှိမ့်ချသော စကားအသုံးအနှုန်း (謙譲語: お〜する、いたす、申す၊ 参る) ဆိုင်ရာ စီးပွားရေးလုပ်ငန်းသုံး သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 15: Humble Keigo (謙譲語: 参る・申す・いたす・お〜する) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

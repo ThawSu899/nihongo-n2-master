@@ -952,7 +952,7 @@
           "meaning": "to stand in line (intr)",
           "preview": false,
           "meaningMyanmar": "to stand in line (intr)",
-          "meaningMy": "to stand in line (intr)"
+          "meaningMy": "တန်းစီသည်"
         }
       ],
       "exampleSentenceIds": [
@@ -1000,7 +1000,7 @@
           "meaning": "plant/vegetation",
           "preview": false,
           "meaningMyanmar": "plant/vegetation",
-          "meaningMy": "plant/vegetation"
+          "meaningMy": "အပင်"
         }
       ],
       "exampleSentenceIds": [
@@ -1041,7 +1041,7 @@
           "meaning": "schedule/plan",
           "preview": false,
           "meaningMyanmar": "schedule/plan",
-          "meaningMy": "schedule/plan"
+          "meaningMy": "အစီအစဉ် / အချိန်ဇယား"
         },
         {
           "word": "定休日",
@@ -1049,7 +1049,7 @@
           "meaning": "regular day off",
           "preview": false,
           "meaningMyanmar": "regular day off",
-          "meaningMy": "regular day off"
+          "meaningMy": "ပုံမှန်ဆိုင်ပိတ်ရက်"
         }
       ],
       "exampleSentenceIds": [
@@ -1098,7 +1098,7 @@
           "meaning": "front/surface",
           "preview": false,
           "meaningMyanmar": "front/surface",
-          "meaningMy": "front/surface"
+          "meaningMy": "အရှေ့ဘက် / မျက်နှာပြင်"
         }
       ],
       "exampleSentenceIds": [
@@ -1156,8 +1156,8 @@
       },
       "explanationMy": "လူတစ်ဦးဦးက ရည်ရွယ်ချက်တစ်ခုခုဖြင့် လုပ်ဆောင်ထားပြီး ထိုအခြေအနေ ဆက်လက်ကျန်ရှိနေကြောင်း ဖော်ပြသည်။ ကံလိုကြိယာ (他動詞) ကို て-form ပြောင်းပြီး あります ပေါင်းစပ်သည်။ ကံပုဒ်တွင် ကို (を) မဟုတ်ဘဲ ဂ (が) တွဲသည် (ဥပမာ- 壁にカレンダーが掛けてあります = နံရံတွင် ပြက္ခဒိန် ချိတ်ဆွဲထားပါသည်)။",
       "meaningMyanmar": "လူတစ်ဦးဦးက ရည်ရွယ်ချက်တစ်ခုခုဖြင့် လုပ်ဆောင်ထားပြီး ထိုအခြေအနေ ဆက်လက်ကျန်ရှိနေကြောင်း ဖော်ပြသည်။ ကံလိုကြိယာ (他動詞) ကို て-form ပြောင်းပြီး あります ပေါင်းစပ်သည်။ ကံပုဒ်တွင် ကို (を) မဟုတ်ဘဲ ဂ (が) တွဲသည် (ဥပမာ- 壁にカレンダーが掛けてあります = နံရံတွင် ပြက္ခဒိန် ချိတ်ဆွဲထားပါသည်)။",
-      "meaningMy": "လူတစ်ဦးဦးက ရည်ရွယ်ချက်တစ်ခုခုဖြင့် လုပ်ဆောင်ထားပြီး ထိုအခြေအနေ ဆက်လက်ကျန်ရှိနေကြောင်း ဖော်ပြသည်။ ကံလိုကြိယာ (他動詞) ကို て-form ပြောင်းပြီး あります ပေါင်းစပ်သည်။ ကံပုဒ်တွင် ကို (を) မဟုတ်ဘဲ ဂ (が) တွဲသည် (ဥပမာ- 壁にカレンダーが掛けてあります = နံရံတွင် ပြက္ခဒိန် ချိတ်ဆွဲထားပါသည်)။",
-      "nuanceExplanationMy": "[Noun] が [Transitive Verb-te] あります ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "လူတစ်ဦးဦးက ရည်ရွယ်ချက်တစ်ခုခုဖြင့် လုပ်ဆောင်ထားပြီး ထိုအခြေအနေ ဆက်လက်ကျန်ရှိနေကြောင်း ဖော်ပြသည်။",
+      "nuanceExplanationMy": "[Noun] が [Transitive Verb-te] あります ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l07.g002",
@@ -1171,11 +1171,11 @@
       },
       "examples": [
         {
-          "sentenceId": "n4.l07.s001",
+          "sentenceId": "n4.l07.s006",
           "note": "Example 1"
         },
         {
-          "sentenceId": "n4.l07.s002",
+          "sentenceId": "n4.l07.s007",
           "note": "Example 2"
         }
       ],
@@ -1195,7 +1195,7 @@
       "explanationMy": "ပြင်ဆင်မှုများနှင့် ပတ်သက်၍ မေးမြန်းရာတွင် \"ကြိုတင်လုပ်ဆောင်ထားပြီးဖြစ်ပါသည်\" ဟု ဖြေဆိုရာတွင် အဓိကသုံးသည်။",
       "meaningMyanmar": "ပြင်ဆင်မှုများနှင့် ပတ်သက်၍ မေးမြန်းရာတွင် \"ကြိုတင်လုပ်ဆောင်ထားပြီးဖြစ်ပါသည်\" ဟု ဖြေဆိုရာတွင် အဓိကသုံးသည်။",
       "meaningMy": "ပြင်ဆင်မှုများနှင့် ပတ်သက်၍ မေးမြန်းရာတွင် \"ကြိုတင်လုပ်ဆောင်ထားပြီးဖြစ်ပါသည်\" ဟု ဖြေဆိုရာတွင် အဓိကသုံးသည်။",
-      "nuanceExplanationMy": "もう [Transitive Verb-te] あります ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "nuanceExplanationMy": "もう [Transitive Verb-te] あります ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1387,7 +1387,7 @@
         "n4.l07.v011"
       ],
       "grammarIds": [
-        "n4.l07.g001"
+        "n4.l07.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1416,7 +1416,7 @@
         "n4.l07.v007"
       ],
       "grammarIds": [
-        "n4.l07.g001"
+        "n4.l07.g002"
       ],
       "audio": {
         "kind": "tts",
@@ -1528,7 +1528,7 @@
     "title": "国際セミナー会場の準備完了報告 (International Seminar Hall Readiness Report)",
     "level": "N4",
     "text": "明日開催されるアジア国際交流セミナーに向けて、大会議室の準備がすべて完了しました。\n\nまず、演壇の正面には大きな横断幕が掲げてあり、参加者全員が見やすいようにプロジェクターのスクリーンも下ろしてあります。机の上には各国の代表者の名札と資料のファイルがきちんと並べてあります。また、会場の入り口付近には受付の案内板が立ててあり、全体の進行予定表が大きく貼ってあります。\n\n参加者の休憩時間のために、部屋の奥のテーブルには温かいお茶やコーヒーのカップが用意してあります。花瓶には季節の新鮮な花が美しく飾ってあり、心地よい雰囲気で会議を迎えられます。すべての機器のテストもすでに済ませてありますから、明日は時間通りに開会できる予定です。",
-    "kanaText": "明日開催されるアジア国際交流セミナーに向けて、大会議室の準備がすべて完了しました。\n\nまず、演壇の正面には大きな横断幕が掲げてあり、参加者全員が見やすいようにプロジェクターのスクリーンも下ろしてあります。机の上には各国の代表者の名札と資料のファイルがきちんと並べてあります。また、会場の入り口付近には受付の案内板が立ててあり、全体の進行予定表が大きく貼ってあります。\n\n参加者の休憩時間のために、部屋の奥のテーブルには温かいお茶やコーヒーのカップが用意してあります。花瓶には季節の新鮮な花が美しく飾ってあり、心地よい雰囲気で会議を迎えられます。すべての機器のテストもすでに済ませてありますから、明日は時間通りに開会できる予定です。",
+    "kanaText": "あすかいさいされるアジアこくさいこうりゅうセミナーにむけて、だいかいぎしつのじゅんびがすべてかんりょうしました。\n\nまず、えんだんのしょうめんにはおおきなおうだんまくがかかげてあり、さんかしゃぜんいんがみやすいようにプロジェクターのスクリーンもおろしてあります。つくえのうえにはかっこくのだいひょうしゃのなふだとしりょうのファイルがきりとならべてあります。また、かいじょうのいりぐちふきんにはうけつけのあんないばんがたててあり、ぜんたいのしんこうよていひょうがおおきくはってあります。\n\nさんかしゃのきゅうけいじかんのために、へやのおくのテーブルにはあたたかいおちゃやコーヒーのカップがよういしてあります。かびんにはきせつのしんせんなはながうつくしくかざってあり、ここちよいふんいきでかいぎをむかえられます。すべてのききのテストもすでにすませてありますから、あすはじかんどおりにかいかいできるよていです。",
     "translation": "Preparations in the large conference hall have all been completed for the Asia International Exchange Seminar being held tomorrow.\n\nFirst, a large banner is hung across the front of the podium, and the projector screen has been lowered so that all participants can view it easily. On the desks, nameplates of representatives from various countries and document files are neatly arranged. In addition, an information board for the reception desk is set up near the entrance, and the overall progression schedule sheet is posted largely.\n\nFor participants' break time, cups for hot tea and coffee are prepared on the table in the back of the room. In the flower vase, fresh seasonal flowers are beautifully decorated, welcoming the conference with a pleasant atmosphere. All equipment tests have already been completed as well, so the opening ceremony is scheduled to begin right on time tomorrow.",
     "questionIds": [
       "n4.l07.q021",
@@ -1548,7 +1548,7 @@
     },
     "titleMy": "国際セミナー会場の準備完了報告 (International Seminar Hall Readiness Report) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "国際セミナー会場の準備完了報告 (International Seminar Hall Readiness Report) (ဖတ်ရှုခြင်း)",
-    "translationMy": "Preparations in the large conference hall have all been completed for the Asia International Exchange Seminar being held tomorrow.\n\nFirst, a large banner is hung across the front of the podium, and the projector screen has been lowered so that all participants can view it easily. On the desks, nameplates of representatives from various countries and document files are neatly arranged. In addition, an information board for the reception desk is set up near the entrance, and the overall progression schedule sheet is posted largely.\n\nFor participants' break time, cups for hot tea and coffee are prepared on the table in the back of the room. In the flower vase, fresh seasonal flowers are beautifully decorated, welcoming the conference with a pleasant atmosphere. All equipment tests have already been completed as well, so the opening ceremony is scheduled to begin right on time tomorrow."
+    "translationMy": "မနက်ဖြန် ကျင်းပပြုလုပ်မည့် အာရှ နိုင်ငံတကာ ဖလှယ်ရေး ဆွေးနွေးပွဲအတွက် ညီလာခံခန်းမကြီး၏ ပြင်ဆင်မှုများ အားလုံး ပြီးစီးသွားခဲ့ပါပြီ။\n\nပထမဦးစွာ စင်မြင့်မျက်နှာစာတွင် ကြီးမားသော နဖူးစည်းစာတန်းကို ချိတ်ဆွဲထားပြီး တက်ရောက်သူအားလုံး ရှင်းလင်းစွာ မြင်တွေ့နိုင်စေရန် ပရိုဂျက်တာ စခရင်ကိုလည်း ချထားပြီး ဖြစ်ပါသည်။ စားပွဲများပေါ်တွင် နိုင်ငံအသီးသီးမှ ကိုယ်စားလှယ်များ၏ အမည်ကတ်ပြားများနှင့် စာရွက်စာတမ်းဖိုင်များကို သပ်ရပ်စွာ စီစဉ်ထားပြီး ဖြစ်ပါသည်။ ထို့အပြင် ခန်းမအဝင်ဝ အနီးတွင် ဧည့်ကြိုလမ်းညွှန်ဆိုင်းဘုတ်ကို ထောင်ထားပြီး ဆွေးနွေးပွဲတစ်ခုလုံး၏ အစီအစဉ်အချိန်ဇယားကို ကြီးမားစွာ ကပ်ထားပါသည်။\n\nတက်ရောက်သူများ ခေတ္တအနားယူချိန်အတွက် ခန်းမအတွင်းဘက် စားပွဲတွင် ရေနွေးကြမ်းနှင့် ကော်ဖီခွက်များကို အသင့်ပြင်ဆင်ထားပါသည်။ ပန်းအိုးများတွင် ရာသီပေါ် လတ်ဆတ်သော ပန်းများကို လှပစွာ ထိုးစိုက်ထားသဖြင့် သာယာကြည်နူးဖွယ် ကောင်းသော အငွေ့အသက်ဖြင့် အစည်းအဝေးကို ကြိုဆိုနိုင်မည် ဖြစ်ပါသည်။ စက်ပစ္စည်းအားလုံးကိုလည်း စမ်းသပ်စစ်ဆေးပြီးဖြစ်သဖြင့် မနက်ဖြန်တွင် အချိန်မီ စတင်ဖွင့်လှစ်နိုင်မည်ဟု စီစဉ်ထားပါသည်။"
   },
   "listening": {
     "id": "n4.l07.l01",
@@ -1560,12 +1560,85 @@
       "lang": "ja-JP"
     },
     "speakers": [
-      "A",
-      "B"
+      "木村",
+      "スミス"
     ],
     "transcript": "木村：スミスさん、今夜の新入生歓迎パーティーの準備はどうなっていますか。\nスミス：はい、大体終わりましたよ。看板はもう教室の黒板に貼ってあります。\n木村：そうですか。飲み物や食べ物は届きましたか。\nスミス：はい、ジュースやお茶は冷やすために、もう冷蔵庫に入れてあります。紙コップとお皿もテーブルの上に並べてありますよ。\n木村：素晴らしいですね。音楽はどうしますか。\nスミス：CDプレーヤーを準備して、スピーカーにつないでありますから、スイッチを押せばすぐ流れます。\n木村：ありがとう！名札は作ってありますか。\nスミス：はい、留学生の名札も全員分書いてありますから、受付に置いておきますね。",
     "translation": "Kimura: Smith, how are preparations coming along for the freshman welcome party tonight?\nSmith: Yes, they are almost finished. The banner sign is already posted on the classroom blackboard.\nKimura: I see. Have the food and drinks arrived?\nSmith: Yes, juice and tea are already placed in the refrigerator to chill. Paper cups and plates are also arranged on the table.\nKimura: Wonderful. What about the music?\nSmith: I prepared the CD player and it is connected to speakers, so it will play as soon as we press the switch.\nKimura: Thank you! Are the name tags made?\nSmith: Yes, name tags for all international students are written as well, so I will place them at the reception desk.",
-    "turns": [],
+    "turns": [
+      {
+        "speaker": "木村",
+        "ja": "スミスさん、今夜の新入生歓迎パーティーの準備はどうなっていますか。",
+        "kana": "スミスさん、こんやのしんにゅうせいかんげいパーティーのじゅんびはどうなっていますか。",
+        "en": "Smith-san, how are the preparations for tonight’s welcome party for new students coming along?",
+        "my": "စမစ်ဆန်၊ ဒီည ကျောင်းသားသစ်ကြိုဆိုပွဲပြင်ဆင်မှု ဘယ်လိုရှိပါသလဲ။",
+        "myanmar": "စမစ်ဆန်၊ ဒီည ကျောင်းသားသစ်ကြိုဆိုပွဲပြင်ဆင်မှု ဘယ်လိုရှိပါသလဲ။",
+        "translationMy": "စမစ်ဆန်၊ ဒီည ကျောင်းသားသစ်ကြိုဆိုပွဲပြင်ဆင်မှု ဘယ်လိုရှိပါသလဲ။"
+      },
+      {
+        "speaker": "スミス",
+        "ja": "はい、大体終わりましたよ。看板はもう教室の黒板に貼ってあります。",
+        "kana": "はい、だいたいおわりましたよ。かんばんはもうきょうしつのこくばんにはってあります。",
+        "en": "Yes, almost finished! The sign is already posted on the classroom blackboard.",
+        "my": "ဟုတ်ကဲ့၊ အားလုံးနီးပါး ပြီးစီးပါပြီခင်ဗျာ။ ဆိုင်းဘုတ်ကို စာသင်ခန်းကျောက်သင်ပုန်းမှာ ကပ်ထားပြီးပါပြီ။",
+        "myanmar": "ဟုတ်ကဲ့၊ အားလုံးနီးပါး ပြီးစီးပါပြီခင်ဗျာ။ ဆိုင်းဘုတ်ကို စာသင်ခန်းကျောက်သင်ပုန်းမှာ ကပ်ထားပြီးပါပြီ။",
+        "translationMy": "ဟုတ်ကဲ့၊ အားလုံးနီးပါး ပြီးစီးပါပြီခင်ဗျာ။ ဆိုင်းဘုတ်ကို စာသင်ခန်းကျောက်သင်ပုန်းမှာ ကပ်ထားပြီးပါပြီ။"
+      },
+      {
+        "speaker": "木村",
+        "ja": "そうですか。飲み物や食べ物は届きましたか。",
+        "kana": "そうですか。のみものやたべものはとどきましたか。",
+        "en": "I see. Have the food and drinks arrived?",
+        "my": "ဟုတ်လား။ အအေးနဲ့ စားစရာတွေ ရောက်ပြီလား။",
+        "myanmar": "ဟုတ်လား။ အအေးနဲ့ စားစရာတွေ ရောက်ပြီလား။",
+        "translationMy": "ဟုတ်လား။ အအေးနဲ့ စားစရာတွေ ရောက်ပြီလား။"
+      },
+      {
+        "speaker": "スミス",
+        "ja": "はい、ジュースやお茶は冷やすために、もう冷蔵庫に入れてあります。紙コップとお皿もテーブルの上に並べてありますよ。",
+        "kana": "はい、ジュースやおちゃはひやすために、もうれいぞうこにいれてあります。かみコップとおさらもテーブルのうえにならべてありますよ。",
+        "en": "Yes, juice and tea are already placed in the refrigerator to chill. Paper cups and plates are also arranged on the tables.",
+        "my": "ဟုတ်ကဲ့၊ ဖျော်ရည်နဲ့ ရေနွေးကြမ်းတွေကို အေးအောင် ရေခဲသေတ္တာထဲ ထည့်ထားပြီးပါပြီ။ စက္ကူခွက်နဲ့ ပန်းကန်တွေကိုလည်း စားပွဲပေါ်မှာ စီထားပြီးပါပြီ။",
+        "myanmar": "ဟုတ်ကဲ့၊ ဖျော်ရည်နဲ့ ရေနွေးကြမ်းတွေကို အေးအောင် ရေခဲသေတ္တာထဲ ထည့်ထားပြီးပါပြီ။ စက္ကူခွက်နဲ့ ပန်းကန်တွေကိုလည်း စားပွဲပေါ်မှာ စီထားပြီးပါပြီ။",
+        "translationMy": "ဟုတ်ကဲ့၊ ဖျော်ရည်နဲ့ ရေနွေးကြမ်းတွေကို အေးအောင် ရေခဲသေတ္တာထဲ ထည့်ထားပြီးပါပြီ။ စက္ကူခွက်နဲ့ ပန်းကန်တွေကိုလည်း စားပွဲပေါ်မှာ စီထားပြီးပါပြီ။"
+      },
+      {
+        "speaker": "木村",
+        "ja": "素晴らしいですね。音楽はどうしますか。",
+        "kana": "すばらしいですね。おんがくはどうしますか。",
+        "en": "Wonderful. What about the music?",
+        "my": "သိပ်တော်တာပေါ့။ သီချင်းကော ဘယ်လိုလုပ်မလဲ။",
+        "myanmar": "သိပ်တော်တာပေါ့။ သီချင်းကော ဘယ်လိုလုပ်မလဲ။",
+        "translationMy": "သိပ်တော်တာပေါ့။ သီချင်းကော ဘယ်လိုလုပ်မလဲ။"
+      },
+      {
+        "speaker": "スミス",
+        "ja": "CDプレーヤーを準備して、スピーカーにつないでありますから、スイッチを押せばすぐ流れます。",
+        "kana": "シーディープレーヤーをじゅんびして、スピーカーにつないでありますから、スイッチをおせばすぐながれます。",
+        "en": "I have prepared the CD player and connected it to the speakers, so pressing the switch will start playing music immediately.",
+        "my": "CD စက်ကို အသင့်ပြင်ပြီး စပီကာနဲ့ ချိတ်ဆက်ထားပြီးမို့ ခလုတ်နှိပ်လိုက်တာနဲ့ ချက်ချင်းဖွင့်လို့ရပါတယ်။",
+        "myanmar": "CD စက်ကို အသင့်ပြင်ပြီး စပီကာနဲ့ ချိတ်ဆက်ထားပြီးမို့ ခလုတ်နှိပ်လိုက်တာနဲ့ ချက်ချင်းဖွင့်လို့ရပါတယ်။",
+        "translationMy": "CD စက်ကို အသင့်ပြင်ပြီး စပီကာနဲ့ ချိတ်ဆက်ထားပြီးမို့ ခလုတ်နှိပ်လိုက်တာနဲ့ ချက်ချင်းဖွင့်လို့ရပါတယ်။"
+      },
+      {
+        "speaker": "木村",
+        "ja": "ありがとう！名札は作ってありますか。",
+        "kana": "ありがとう！なふだはつくってありますか。",
+        "en": "Thank you! Have the name tags been made?",
+        "my": "ကျေးဇူးတင်ပါတယ်နော်။ နာမည်ကတ်ပြားတွေ လုပ်ထားပြီးပြီလား။",
+        "myanmar": "ကျေးဇူးတင်ပါတယ်နော်။ နာမည်ကတ်ပြားတွေ လုပ်ထားပြီးပြီလား။",
+        "translationMy": "ကျေးဇူးတင်ပါတယ်နော်။ နာမည်ကတ်ပြားတွေ လုပ်ထားပြီးပြီလား။"
+      },
+      {
+        "speaker": "スミス",
+        "ja": "はい、留学生の名札も全員分書いてありますから、受付に置いておきますね。",
+        "kana": "はい、りゅうがくせいのなふだもぜんいんぶんかいてありますから、うけつけにおいておきますね。",
+        "en": "Yes, name tags for all the international students are written, so I will place them at the reception desk.",
+        "my": "ဟုတ်ကဲ့၊ နိုင်ငံခြားသားကျောင်းသားအားလုံးရဲ့ နာမည်ကတ်ပြားတွေကို ရေးထားပြီးမို့ ဧည့်ကြိုကောင်တာမှာ တင်ထားပေးပါ့မယ်ခင်ဗျာ။",
+        "myanmar": "ဟုတ်ကဲ့၊ နိုင်ငံခြားသားကျောင်းသားအားလုံးရဲ့ နာမည်ကတ်ပြားတွေကို ရေးထားပြီးမို့ ဧည့်ကြိုကောင်တာမှာ တင်ထားပေးပါ့မယ်ခင်ဗျာ။",
+        "translationMy": "ဟုတ်ကဲ့၊ နိုင်ငံခြားသားကျောင်းသားအားလုံးရဲ့ နာမည်ကတ်ပြားတွေကို ရေးထားပြီးမို့ ဧည့်ကြိုကောင်တာမှာ တင်ထားပေးပါ့မယ်ခင်ဗျာ။"
+      }
+    ],
     "questionIds": [
       "n4.l07.q026",
       "n4.l07.q027",
@@ -1583,7 +1656,7 @@
     },
     "titleMy": "歓迎パーティー前の準備確認 (Checking Preparations Before the Welcome Party) (နားထောင်ခြင်း)",
     "titleMyanmar": "歓迎パーティー前の準備確認 (Checking Preparations Before the Welcome Party) (နားထောင်ခြင်း)",
-    "translationMy": "Kimura: Smith, how are preparations coming along for the freshman welcome party tonight?\nSmith: Yes, they are almost finished. The banner sign is already posted on the classroom blackboard.\nKimura: I see. Have the food and drinks arrived?\nSmith: Yes, juice and tea are already placed in the refrigerator to chill. Paper cups and plates are also arranged on the table.\nKimura: Wonderful. What about the music?\nSmith: I prepared the CD player and it is connected to speakers, so it will play as soon as we press the switch.\nKimura: Thank you! Are the name tags made?\nSmith: Yes, name tags for all international students are written as well, so I will place them at the reception desk."
+    "translationMy": "ခိမုရ- စမစ်ဆန်၊ ဒီည ကျောင်းသားသစ်ကြိုဆိုပွဲပြင်ဆင်မှု ဘယ်လိုရှိပါသလဲ။\nစမစ်- ဟုတ်ကဲ့၊ အားလုံးနီးပါး ပြီးစီးပါပြီခင်ဗျာ။ ဆိုင်းဘုတ်ကို စာသင်ခန်းကျောက်သင်ပုန်းမှာ ကပ်ထားပြီးပါပြီ။\nခိမုရ- ဟုတ်လား။ အအေးနဲ့ စားစရာတွေ ရောက်ပြီလား။\nစမစ်- ဟုတ်ကဲ့၊ ဖျော်ရည်နဲ့ ရေနွေးကြမ်းတွေကို အေးအောင် ရေခဲသေတ္တာထဲ ထည့်ထားပြီးပါပြီ။ စက္ကူခွက်နဲ့ ပန်းကန်တွေကိုလည်း စားပွဲပေါ်မှာ စီထားပြီးပါပြီ။\nခိမုရ- သိပ်တော်တာပေါ့။ သီချင်းကော ဘယ်လိုလုပ်မလဲ။\nစမစ်- CD စက်ကို အသင့်ပြင်ပြီး စပီကာနဲ့ ချိတ်ဆက်ထားပြီးမို့ ခလုတ်နှိပ်လိုက်တာနဲ့ ချက်ချင်းဖွင့်လို့ရပါတယ်။\nခိမုရ- ကျေးဇူးတင်ပါတယ်နော်။ နာမည်ကတ်ပြားတွေ လုပ်ထားပြီးပြီလား။\nစမစ်- ဟုတ်ကဲ့၊ နိုင်ငံခြားသားကျောင်းသားအားလုံးရဲ့ နာမည်ကတ်ပြားတွေကို ရေးထားပြီးမို့ ဧည့်ကြိုကောင်တာမှာ တင်ထားပေးပါ့မယ်ခင်ဗျာ။"
   },
   "questions": [
     {
@@ -2251,7 +2324,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「アジア国際交流セミナー」 ဖြစ်ပါသည်။ (The text states: 明日開催されるアジア国際交流セミナーに向けて...)",
+      "explanationMy": "အဖြေမှန်မှာ 「アジア国際交流セミナー」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"明日開催されるアジア国際交流セミナーに向けて...\")",
       "choicesMy": [
         "アジア国際交流セミナー",
         "新入社員歓迎会",
@@ -2283,7 +2356,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「大きな横断幕」 ဖြစ်ပါသည်။ (The text says: 演壇の正面には大きな横断幕が掲げてあり...)",
+      "explanationMy": "အဖြေမှန်မှာ 「大きな横断幕」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"演壇の正面には大きな横断幕が掲げてあり...\")",
       "choicesMy": [
         "大きな横断幕",
         "時計",
@@ -2315,7 +2388,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「各国の代表者の名札と資料のファイル」 ဖြစ်ပါသည်။ (The text states: 机の上には各国の代表者の名札と資料のファイルがきちんと並べてあります.)",
+      "explanationMy": "အဖြေမှန်မှာ 「各国の代表者の名札と資料のファイル」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"机の上には各国の代表者の名札と資料のファイルがきちんと並べてあります.\")",
       "choicesMy": [
         "各国の代表者の名札と資料のファイル",
         "お弁当とお茶のペットボトル",
@@ -2347,7 +2420,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「温かいお茶やコーヒーのカップ」 ဖြစ်ပါသည်။ (The text states: 部屋の奥のテーブルには温かいお茶やコーヒーのカップが用意してあります.)",
+      "explanationMy": "အဖြေမှန်မှာ 「温かいお茶やコーヒーのカップ」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"部屋の奥のテーブルには温かいお茶やコーヒーのカップが用意してあります.\")",
       "choicesMy": [
         "温かいお茶やコーヒーのカップ",
         "冷たいビールとワイン",
@@ -2411,7 +2484,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「教室の黒板」 ဖြစ်ပါသည်။ (Smith says: 看板はもう教室の黒板に貼ってあります.)",
+      "explanationMy": "အဖြေမှန်မှာ 「教室の黒板」 ဖြစ်ပါသည်။ (စမစ်က ပြောကြားသည်မှာ- \"看板はもう教室の黒板に貼ってあります.\")",
       "choicesMy": [
         "教室の黒板",
         "教室のドア",
@@ -2475,7 +2548,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「紙コップとお皿」 ဖြစ်ပါသည်။ (Smith says: 紙コップとお皿もテーブルの上に並べてありますよ.)",
+      "explanationMy": "အဖြေမှန်မှာ 「紙コップとお皿」 ဖြစ်ပါသည်။ (စမစ်က ပြောကြားသည်မှာ- \"紙コップとお皿もテーブルの上に並べてありますよ.\")",
       "choicesMy": [
         "紙コップとお皿",
         "花瓶とお花",
@@ -2512,7 +2585,7 @@
         "スイッチを押せばすぐ流れる",
         "先生に電話すれば流れる",
         "パソコンを立ち上げれば流れる",
-        "CDを買いに行かなければならない"
+        "CDを買いに行かなければならない ၏ အဓိပ္ပာယ်"
       ]
     },
     {
@@ -2539,7 +2612,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「受付」 ဖြစ်ပါသည်။ (Smith says: 全員分書いてありますから、受付に置いておきますね.)",
+      "explanationMy": "အဖြေမှန်မှာ 「受付」 ဖြစ်ပါသည်။ (စမစ်က ပြောကြားသည်မှာ- \"全員分書いてありますから、受付に置いておきますね.\")",
       "choicesMy": [
         "受付",
         "黒板の前",
@@ -2557,6 +2630,6 @@
   },
   "titleMy": "N4 Lesson 7: State Continuance (〜てある vs 〜ている) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 7: State Continuance (〜てある vs 〜ている) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 7: State Continuance (〜てある vs 〜ている) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "ရည်ရွယ်ချက်ရှိရှိ ပြင်ဆင်ထားသော အခြေအနေ (〜てあります) နှင့် 〜ています တို့၏ အဓိက ကွဲပြားချက်များ။",
   "descriptionMyanmar": "N4 Lesson 7: State Continuance (〜てある vs 〜ている) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

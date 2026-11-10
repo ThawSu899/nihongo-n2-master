@@ -991,7 +991,7 @@
           "meaning": "marriage",
           "preview": false,
           "meaningMyanmar": "marriage",
-          "meaningMy": "marriage"
+          "meaningMy": "結婚 (အဓိပ္ပာယ်- marriage)"
         },
         {
           "word": "未婚",
@@ -1007,7 +1007,7 @@
           "meaning": "newlywed",
           "preview": false,
           "meaningMyanmar": "newlywed",
-          "meaningMy": "newlywed"
+          "meaningMy": "မင်္ဂလာဦး"
         }
       ],
       "exampleSentenceIds": [
@@ -1055,7 +1055,7 @@
           "meaning": "housewife",
           "preview": false,
           "meaningMyanmar": "housewife",
-          "meaningMy": "housewife"
+          "meaningMy": "အိမ်ရှင်မ"
         }
       ],
       "exampleSentenceIds": [
@@ -1103,7 +1103,7 @@
           "meaning": "even number",
           "preview": false,
           "meaningMyanmar": "even number",
-          "meaningMy": "even number"
+          "meaningMy": "စုံဂဏန်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1165,8 +1165,8 @@
       },
       "explanationMy": "အခြားသူများ၏ စကား၊ ကောလာဟလ သို့မဟုတ် သတင်းအချက်အလက်ပေါ် အခြေခံ၍ \"ကြားရသလောက်... ဖြစ်ပုံရသည်/ဖြစ်သည်ဟု သတင်းထွက်နေသည်\" ဟု သုံးသပ်ဖော်ပြသည့်အခါ သုံးသည်။ နာမ်နှင့် na-adjective များတွင်「だ」မထည့်ဘဲ တိုက်ရိုက်ဆက်ရသည်။",
       "meaningMyanmar": "အခြားသူများ၏ စကား၊ ကောလာဟလ သို့မဟုတ် သတင်းအချက်အလက်ပေါ် အခြေခံ၍ \"ကြားရသလောက်... ဖြစ်ပုံရသည်/ဖြစ်သည်ဟု သတင်းထွက်နေသည်\" ဟု သုံးသပ်ဖော်ပြသည့်အခါ သုံးသည်။ နာမ်နှင့် na-adjective များတွင်「だ」မထည့်ဘဲ တိုက်ရိုက်ဆက်ရသည်။",
-      "meaningMy": "အခြားသူများ၏ စကား၊ ကောလာဟလ သို့မဟုတ် သတင်းအချက်အလက်ပေါ် အခြေခံ၍ \"ကြားရသလောက်... ဖြစ်ပုံရသည်/ဖြစ်သည်ဟု သတင်းထွက်နေသည်\" ဟု သုံးသပ်ဖော်ပြသည့်အခါ သုံးသည်။ နာမ်နှင့် na-adjective များတွင်「だ」မထည့်ဘဲ တိုက်ရိုက်ဆက်ရသည်။",
-      "nuanceExplanationMy": "[Plain form / Noun / Na-adj stem] + らしい ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အခြားသူများ၏ စကား၊ ကောလာဟလ သို့မဟုတ် သတင်းအချက်အလက်ပေါ် အခြေခံ၍ \"ကြားရသလောက်... ဖြစ်ပုံရသည်/ဖြစ်သည်ဟု သတင်းထွက်နေသည်\" ဟု သုံးသပ်ဖော်ပြသည့်အခါ သုံးသည်။",
+      "nuanceExplanationMy": "[Plain form / Noun / Na-adj stem] + らしい ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l21.g002",
@@ -1204,7 +1204,7 @@
       "explanationMy": "နာမ်နောက်တွင် တွဲ၍ ထိုနာမ်၏ စစ်မှန်သော သရုပ်သကန် သို့မဟုတ် စံပြအရည်အသွေးများ ပေါ်လွင်နေကြောင်း (ဥပမာ- ယောက်ျားပီသသော၊ ကျောင်းသားပီသသော၊ နွေဦးရာသီပီသသော) ဖော်ပြသည်။",
       "meaningMyanmar": "နာမ်နောက်တွင် တွဲ၍ ထိုနာမ်၏ စစ်မှန်သော သရုပ်သကန် သို့မဟုတ် စံပြအရည်အသွေးများ ပေါ်လွင်နေကြောင်း (ဥပမာ- ယောက်ျားပီသသော၊ ကျောင်းသားပီသသော၊ နွေဦးရာသီပီသသော) ဖော်ပြသည်။",
       "meaningMy": "နာမ်နောက်တွင် တွဲ၍ ထိုနာမ်၏ စစ်မှန်သော သရုပ်သကန် သို့မဟုတ် စံပြအရည်အသွေးများ ပေါ်လွင်နေကြောင်း (ဥပမာ- ယောက်ျားပီသသော၊ ကျောင်းသားပီသသော၊ နွေဦးရာသီပီသသော) ဖော်ပြသည်။",
-      "nuanceExplanationMy": "[Noun] + らしい ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "nuanceExplanationMy": "[Noun] + らしい ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1613,7 +1613,7 @@
     },
     "titleMy": "町で話題の新しいベーカリー (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "町で話題の新しいベーカリー (ဖတ်ရှုခြင်း)",
-    "translationMy": "Recently, a rumor has been spreading through the shopping district in front of the station where I live. In the location that was an old stationery shop until a few months ago, a new handmade bakery is apparently opening next week.\n\nAccording to neighborhood talk, the owner-baker is apparently a skilled artisan who trained in France for many years. Freshly baked croissants and natural yeast baguettes in particular are said to be exquisite, already gaining popularity with orders coming in from surrounding cafes.\n\nYesterday evening when I walked past the shop, through the window glass I could see the interior renovations were mostly finished. With a calm wood-grain design, it radiated a warm atmosphere truly characteristic of a small European town bakery.\n\nOn opening day, specially made rusks will apparently be handed out to the first fifty customers. For me, who loves delicious bread, I can hardly wait for the opening. Next Saturday, I think I will wake up early and line up."
+    "translationMy": "N4 Lesson 21: Hearsay & Conjectural らしい (〜らしい: 噂・客観的根拠) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l21.l01",
@@ -1634,50 +1634,74 @@
       {
         "speaker": "高橋",
         "ja": "渡辺先輩、営業企画の山本先輩のこと、何か聞きましたか？",
-        "kana": "渡辺先輩、営業企画の山本先輩のこと、何か聞きましたか？",
-        "en": ""
+        "kana": "わたなべせんぱい、えいぎょうきかくのやまもとせんぱいのこと、なにかききましたか？",
+        "en": "Watanabe-senpai, have you heard anything about Yamamoto-senpai from Sales Planning?",
+        "my": "ဝါတာနာဘဲစီနီယာ၊ အရောင်းစီမံရေးက ယာမာမိုတိုစီနီယာအကြောင်း တစ်ခုခု ကြားမိလား?",
+        "myanmar": "ဝါတာနာဘဲစီနီယာ၊ အရောင်းစီမံရေးက ယာမာမိုတိုစီနီယာအကြောင်း တစ်ခုခု ကြားမိလား?",
+        "translationMy": "ဝါတာနာဘဲစီနီယာ၊ အရောင်းစီမံရေးက ယာမာမိုတိုစီနီယာအကြောင်း တစ်ခုခု ကြားမိလား?"
       },
       {
         "speaker": "渡辺",
         "ja": "えっ、山本さんのこと？何かあったの？",
-        "kana": "えっ、山本さんのこと？何かあったの？",
-        "en": ""
+        "kana": "えっ、やまもとさんのこと？なにかあったの？",
+        "en": "Eh, about Yamamoto-san? Did something happen?",
+        "my": "ဟင်၊ ယာမာမိုတိုဆန် အကြောင်းလား? ဘာဖြစ်လို့လဲ?",
+        "myanmar": "ဟင်၊ ယာမာမိုတိုဆန် အကြောင်းလား? ဘာဖြစ်လို့လဲ?",
+        "translationMy": "ဟင်၊ ယာမာမိုတိုဆန် အကြောင်းလား? ဘာဖြစ်လို့လဲ?"
       },
       {
         "speaker": "高橋",
         "ja": "社内の噂によると、山本先輩は今月末で退職して、自分でデザイン事務所を設立して独立するらしいですよ。",
-        "kana": "社内の噂によると、山本先輩は今月末で退職して、自分でデザイン事務所を設立して独立するらしいですよ。",
-        "en": ""
+        "kana": "しゃないのうわさによると、やまもとせんぱいはこんげつまつでたいしょくして、じぶんでデザインじむしょをせつりつしてどくりつするらしいですよ。",
+        "en": "According to company rumors, Yamamoto-senpai is apparently resigning at the end of this month to set up his own design studio and become independent!",
+        "my": "ကုမ္ပဏီတွင်း ကောလာဟလတွေအရ ယာမာမိုတိုစီနီယာဟာ ဒီလကုန်မှာ အလုပ်ထွက်ပြီး ကိုယ်ပိုင် ဒီဇိုင်းရုံးခန်း တည်ထောင်ကာ သီးခြားရပ်တည်တော့မယ်လို့ ကြားတယ်ဗျ။",
+        "myanmar": "ကုမ္ပဏီတွင်း ကောလာဟလတွေအရ ယာမာမိုတိုစီနီယာဟာ ဒီလကုန်မှာ အလုပ်ထွက်ပြီး ကိုယ်ပိုင် ဒီဇိုင်းရုံးခန်း တည်ထောင်ကာ သီးခြားရပ်တည်တော့မယ်လို့ ကြားတယ်ဗျ။",
+        "translationMy": "ကုမ္ပဏီတွင်း ကောလာဟလတွေအရ ယာမာမိုတိုစီနီယာဟာ ဒီလကုန်မှာ အလုပ်ထွက်ပြီး ကိုယ်ပိုင် ဒီဇိုင်းရုံးခန်း တည်ထောင်ကာ သီးခြားရပ်တည်တော့မယ်လို့ ကြားတယ်ဗျ။"
       },
       {
         "speaker": "渡辺",
         "ja": "へえ、本当かい！でも山本さんなら十分あり得る話だね。ずっと自分のブランドを持ちたいって言っていたし。",
-        "kana": "へえ、本当かい！でも山本さんなら十分あり得る話だね。ずっと自分のブランドを持ちたいって言っていたし。",
-        "en": ""
+        "kana": "へえ、ほんとかい！でもやまもとさんならじゅうぶんありえるはなしだね。ずっとじぶんのブランドをもちたいっていっていたし。",
+        "en": "Oh, really! But if it's Yamamoto-san, that makes complete sense. He always said he wanted to have his own brand.",
+        "my": "ဟယ်၊ တကယ်လား! ဒါပေမဲ့ ယာမာမိုတိုဆန်အတွက်တော့ အပြည့်အဝ ဖြစ်နိုင်တဲ့ကိစ္စပါပဲ။ အမြဲတမ်း ကိုယ်ပိုင် အမှတ်တံဆိပ်တစ်ခု ပိုင်ဆိုင်ချင်တယ်လို့ ပြောဖူးတယ်လေ။",
+        "myanmar": "ဟယ်၊ တကယ်လား! ဒါပေမဲ့ ယာမာမိုတိုဆန်အတွက်တော့ အပြည့်အဝ ဖြစ်နိုင်တဲ့ကိစ္စပါပဲ။ အမြဲတမ်း ကိုယ်ပိုင် အမှတ်တံဆိပ်တစ်ခု ပိုင်ဆိုင်ချင်တယ်လို့ ပြောဖူးတယ်လေ။",
+        "translationMy": "ဟယ်၊ တကယ်လား! ဒါပေမဲ့ ယာမာမိုတိုဆန်အတွက်တော့ အပြည့်အဝ ဖြစ်နိုင်တဲ့ကိစ္စပါပဲ။ အမြဲတမ်း ကိုယ်ပိုင် အမှတ်တံဆိပ်တစ်ခု ပိုင်ဆိုင်ချင်တယ်လို့ ပြောဖူးတယ်လေ။"
       },
       {
         "speaker": "高橋",
         "ja": "はい。いつも妥協せずに仕事に向き合う姿は、本当にプロフェッショナルらしかったですよね。",
-        "kana": "はい。いつも妥協せずに仕事に向き合う姿は、本当にプロフェッショナルらしかったですよね。",
-        "en": ""
+        "kana": "はい。いつもだきょうせずにしごとにむきあうすがたは、ほんとうにプロフェッショナルらしかったですよね。",
+        "en": "Yes. The way he faced his work without compromise was truly characteristic of a professional.",
+        "my": "ဟုတ်တယ်ဗျ။ ဘယ်တော့မှ အလျှော့မပေးဘဲ အလုပ်ကို ရင်ဆိုင်လုပ်ဆောင်တဲ့ ပုံစံဟာ တကယ့်ကို ပရော်ဖက်ရှင်နယ်ဆန်ခဲ့တာပဲနော်။",
+        "myanmar": "ဟုတ်တယ်ဗျ။ ဘယ်တော့မှ အလျှော့မပေးဘဲ အလုပ်ကို ရင်ဆိုင်လုပ်ဆောင်တဲ့ ပုံစံဟာ တကယ့်ကို ပရော်ဖက်ရှင်နယ်ဆန်ခဲ့တာပဲနော်။",
+        "translationMy": "ဟုတ်တယ်ဗျ။ ဘယ်တော့မှ အလျှော့မပေးဘဲ အလုပ်ကို ရင်ဆိုင်လုပ်ဆောင်တဲ့ ပုံစံဟာ တကယ့်ကို ပရော်ဖက်ရှင်နယ်ဆန်ခဲ့တာပဲနော်။"
       },
       {
         "speaker": "渡辺",
         "ja": "そうだね。新しい事務所は銀座の近くに構えるらしいよ。",
-        "kana": "そうだね。新しい事務所は銀座の近くに構えるらしいよ。",
-        "en": ""
+        "kana": "そうだね。あたらしいじむしょはぎんざのちかくにかまえるらしいよ。",
+        "en": "Indeed. I hear his new office will apparently be set up near Ginza.",
+        "my": "မှန်တယ်ကွဲ့။ ရုံးခန်းအသစ်ကို ဂင်ဇာနားမှာ ဖွင့်လှစ်မယ်လို့ ကြားတယ်။",
+        "myanmar": "မှန်တယ်ကွဲ့။ ရုံးခန်းအသစ်ကို ဂင်ဇာနားမှာ ဖွင့်လှစ်မယ်လို့ ကြားတယ်။",
+        "translationMy": "မှန်တယ်ကွဲ့။ ရုံးခန်းအသစ်ကို ဂင်ဇာနားမှာ ဖွင့်လှစ်မယ်လို့ ကြားတယ်။"
       },
       {
         "speaker": "高橋",
         "ja": "銀座ですか！素敵ですね。正式に発表されたら、みんなでお祝いを贈りたいですね。",
-        "kana": "銀座ですか！素敵ですね。正式に発表されたら、みんなでお祝いを贈りたいですね。",
-        "en": ""
+        "kana": "ぎんざですか！すてきですね。せいしきにはっぴょうされたら、みんなでおいわいをおくりたいですね。",
+        "en": "Near Ginza! That's wonderful. When it's officially announced, we should all send a celebration gift.",
+        "my": "ဂင်ဇာမှာလား! သိပ်မိုက်တာပဲနော်။ တရားဝင် ကြေညာပြီးရင် အားလုံးစုပေါင်းပြီး ဂုဏ်ပြုလက်ဆောင် ပေးချင်လိုက်တာ။",
+        "myanmar": "ဂင်ဇာမှာလား! သိပ်မိုက်တာပဲနော်။ တရားဝင် ကြေညာပြီးရင် အားလုံးစုပေါင်းပြီး ဂုဏ်ပြုလက်ဆောင် ပေးချင်လိုက်တာ။",
+        "translationMy": "ဂင်ဇာမှာလား! သိပ်မိုက်တာပဲနော်။ တရားဝင် ကြေညာပြီးရင် အားလုံးစုပေါင်းပြီး ဂုဏ်ပြုလက်ဆောင် ပေးချင်လိုက်တာ။"
       },
       {
         "speaker": "渡辺",
         "ja": "賛成！有志でお祝いの品を相談しよう。",
-        "kana": "賛成！有志でお祝いの品を相談しよう。",
-        "en": ""
+        "kana": "さんせい！ゆうしでおいわいのしなをそうだんしよう。",
+        "en": "Agreed! Let's consult together on a celebration gift with volunteers.",
+        "my": "သဘောတူတယ်! ဆန္ဒရှိသူတွေ စုပေါင်းပြီး ဂုဏ်ပြုပစ္စည်းကို တိုင်ပင်ကြတာပေါ့။",
+        "myanmar": "သဘောတူတယ်! ဆန္ဒရှိသူတွေ စုပေါင်းပြီး ဂုဏ်ပြုပစ္စည်းကို တိုင်ပင်ကြတာပေါ့။",
+        "translationMy": "သဘောတူတယ်! ဆန္ဒရှိသူတွေ စုပေါင်းပြီး ဂုဏ်ပြုပစ္စည်းကို တိုင်ပင်ကြတာပေါ့။"
       }
     ],
     "questionIds": [
@@ -1697,7 +1721,7 @@
     },
     "titleMy": "先輩の転職と独立の噂 (နားထောင်ခြင်း)",
     "titleMyanmar": "先輩の転職と独立の噂 (နားထောင်ခြင်း)",
-    "translationMy": "Takahashi: Watanabe-senpai, have you heard anything about Yamamoto-senpai from Sales Planning?\nWatanabe: Eh, about Yamamoto-san? Did something happen?\nTakahashi: According to company rumors, Yamamoto-senpai is apparently resigning at the end of this month to set up his own design studio and become independent!\nWatanabe: Oh, really! But if it's Yamamoto-san, that makes complete sense. He always said he wanted to have his own brand.\nTakahashi: Yes. The way he faced his work without compromise was truly characteristic of a professional.\nWatanabe: Indeed. I hear his new office will apparently be set up near Ginza.\nTakahashi: Near Ginza! That's wonderful. When it's officially announced, we should all send a celebration gift.\nWatanabe: Agreed! Let's consult together on a celebration gift with volunteers."
+    "translationMy": "高橋- ဝါတာနာဘဲစီနီယာ၊ အရောင်းစီမံရေးက ယာမာမိုတိုစီနီယာအကြောင်း တစ်ခုခု ကြားမိလား?\n渡辺- ဟင်၊ ယာမာမိုတိုဆန် အကြောင်းလား? ဘာဖြစ်လို့လဲ?\n高橋- ကုမ္ပဏီတွင်း ကောလာဟလတွေအရ ယာမာမိုတိုစီနီယာဟာ ဒီလကုန်မှာ အလုပ်ထွက်ပြီး ကိုယ်ပိုင် ဒီဇိုင်းရုံးခန်း တည်ထောင်ကာ သီးခြားရပ်တည်တော့မယ်လို့ ကြားတယ်ဗျ။\n渡辺- ဟယ်၊ တကယ်လား! ဒါပေမဲ့ ယာမာမိုတိုဆန်အတွက်တော့ အပြည့်အဝ ဖြစ်နိုင်တဲ့ကိစ္စပါပဲ။ အမြဲတမ်း ကိုယ်ပိုင် အမှတ်တံဆိပ်တစ်ခု ပိုင်ဆိုင်ချင်တယ်လို့ ပြောဖူးတယ်လေ။\n高橋- ဟုတ်တယ်ဗျ။ ဘယ်တော့မှ အလျှော့မပေးဘဲ အလုပ်ကို ရင်ဆိုင်လုပ်ဆောင်တဲ့ ပုံစံဟာ တကယ့်ကို ပရော်ဖက်ရှင်နယ်ဆန်ခဲ့တာပဲနော်။\n渡辺- မှန်တယ်ကွဲ့။ ရုံးခန်းအသစ်ကို ဂင်ဇာနားမှာ ဖွင့်လှစ်မယ်လို့ ကြားတယ်။\n高橋- ဂင်ဇာမှာလား! သိပ်မိုက်တာပဲနော်။ တရားဝင် ကြေညာပြီးရင် အားလုံးစုပေါင်းပြီး ဂုဏ်ပြုလက်ဆောင် ပေးချင်လိုက်တာ။\n渡辺- သဘောတူတယ်! ဆန္ဒရှိသူတွေ စုပေါင်းပြီး ဂုဏ်ပြုပစ္စည်းကို တိုင်ပင်ကြတာပေါ့။"
   },
   "questions": [
     {
@@ -2670,6 +2694,6 @@
   },
   "titleMy": "N4 Lesson 21: Hearsay & Conjectural らしい (〜らしい: 噂・客観的根拠) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 21: Hearsay & Conjectural らしい (〜らしい: 噂・客観的根拠) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 21: Hearsay & Conjectural らしい (〜らしい: 噂・客観的根拠) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "ကောလာဟလနှင့် သတင်းများမှတစ်ဆင့် ခန့်မှန်းဖော်ပြခြင်း (〜らしい: 噂・客観的根拠) ဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 21: Hearsay & Conjectural らしい (〜らしい: 噂・客観的根拠) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

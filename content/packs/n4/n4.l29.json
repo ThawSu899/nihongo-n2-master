@@ -1055,7 +1055,7 @@
           "meaning": "school reunion",
           "preview": false,
           "meaningMyanmar": "school reunion",
-          "meaningMy": "school reunion"
+          "meaningMy": "ကျောင်းသားဟောင်းတွေ့ဆုံပွဲ"
         }
       ],
       "exampleSentenceIds": [
@@ -1106,7 +1106,7 @@
           "meaning": "welcome and send-off",
           "preview": false,
           "meaningMyanmar": "welcome and send-off",
-          "meaningMy": "welcome and send-off"
+          "meaningMy": "ကြိုဆိုပို့ဆောင်ခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1168,8 +1168,8 @@
       },
       "explanationMy": "တောင်းဆိုမှုပြုလုပ်ရာတွင် အသုံးပြုသော ယဉ်ကျေးမှုအဆင့်ဆင့်:\n၁။ 〜てください: သာမန်ယဉ်ကျေးသော ညွှန်ကြားချက်/တောင်းဆိုချက် (မိမိထက် ရာထူးကြီးသူများထံ အကူအညီတောင်းရာတွင် မသုံးသင့်ပါ)။\n၂။ 〜てくれませんか: လုပ်ဖော်ကိုင်ဖက် သို့မဟုတ် ရွယ်တူများထံ ခင်မင်ရင်းနှီးစွာ အကူအညီတောင်းခြင်း။\n၃။ 〜ていただけませんか: ဆရာသမားများ၊ လူကြီးများ သို့မဟုတ် မရင်းနှီးသူများထံ အလွန်ယဉ်ကျေးသိုက်မြိုက်စွာ မေတ္တာရပ်ခံခြင်း။",
       "meaningMyanmar": "တောင်းဆိုမှုပြုလုပ်ရာတွင် အသုံးပြုသော ယဉ်ကျေးမှုအဆင့်ဆင့်:\n၁။ 〜てください: သာမန်ယဉ်ကျေးသော ညွှန်ကြားချက်/တောင်းဆိုချက် (မိမိထက် ရာထူးကြီးသူများထံ အကူအညီတောင်းရာတွင် မသုံးသင့်ပါ)။\n၂။ 〜てくれませんか: လုပ်ဖော်ကိုင်ဖက် သို့မဟုတ် ရွယ်တူများထံ ခင်မင်ရင်းနှီးစွာ အကူအညီတောင်းခြင်း။\n၃။ 〜ていただけませんか: ဆရာသမားများ၊ လူကြီးများ သို့မဟုတ် မရင်းနှီးသူများထံ အလွန်ယဉ်ကျေးသိုက်မြိုက်စွာ မေတ္တာရပ်ခံခြင်း။",
-      "meaningMy": "တောင်းဆိုမှုပြုလုပ်ရာတွင် အသုံးပြုသော ယဉ်ကျေးမှုအဆင့်ဆင့်:\n၁။ 〜てください: သာမန်ယဉ်ကျေးသော ညွှန်ကြားချက်/တောင်းဆိုချက် (မိမိထက် ရာထူးကြီးသူများထံ အကူအညီတောင်းရာတွင် မသုံးသင့်ပါ)။\n၂။ 〜てくれませんか: လုပ်ဖော်ကိုင်ဖက် သို့မဟုတ် ရွယ်တူများထံ ခင်မင်ရင်းနှီးစွာ အကူအညီတောင်းခြင်း။\n၃။ 〜ていただけませんか: ဆရာသမားများ၊ လူကြီးများ သို့မဟုတ် မရင်းနှီးသူများထံ အလွန်ယဉ်ကျေးသိုက်မြိုက်စွာ မေတ္တာရပ်ခံခြင်း။",
-      "nuanceExplanationMy": "Request Hierarchy: 〜てください vs 〜てくれませんか vs 〜ていただけませんか ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "တောင်းဆိုမှုပြုလုပ်ရာတွင် အသုံးပြုသော ယဉ်ကျေးမှုအဆင့်ဆင့်:\n၁။",
+      "nuanceExplanationMy": "Request Hierarchy: 〜てください vs 〜てくれませんか vs 〜ていただけませんか ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l29.g002",
@@ -1206,8 +1206,8 @@
       },
       "explanationMy": "တစ်စုံတစ်ခုကို မပြုလုပ်ရန် ယဉ်ကျေးစွာ မေတ္တာရပ်ခံသည့်အခါ သုံးသည်။ ကြိယာ ない形 နောက်တွင် 「でください」ကို ဆက်သည်။ (ဥပမာ- ဤနေရာတွင် ဆေးလိပ်မသောက်ပါနှင့်)။",
       "meaningMyanmar": "တစ်စုံတစ်ခုကို မပြုလုပ်ရန် ယဉ်ကျေးစွာ မေတ္တာရပ်ခံသည့်အခါ သုံးသည်။ ကြိယာ ない形 နောက်တွင် 「でください」ကို ဆက်သည်။ (ဥပမာ- ဤနေရာတွင် ဆေးလိပ်မသောက်ပါနှင့်)။",
-      "meaningMy": "တစ်စုံတစ်ခုကို မပြုလုပ်ရန် ယဉ်ကျေးစွာ မေတ္တာရပ်ခံသည့်အခါ သုံးသည်။ ကြိယာ ない形 နောက်တွင် 「でください」ကို ဆက်သည်။ (ဥပမာ- ဤနေရာတွင် ဆေးလိပ်မသောက်ပါနှင့်)။",
-      "nuanceExplanationMy": "[Verb ない-form] + でください (〜ないでください) ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "တစ်စုံတစ်ခုကို မပြုလုပ်ရန် ယဉ်ကျေးစွာ မေတ္တာရပ်ခံသည့်အခါ သုံးသည်။",
+      "nuanceExplanationMy": "[Verb ない-form] + でください (〜ないでください) ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1604,7 +1604,7 @@
     },
     "titleMy": "日本での上手なお願いの仕方 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "日本での上手なお願いの仕方 (ဖတ်ရှုခြင်း)",
-    "translationMy": "When asking someone for a favor in Japanese, it is extremely important to consider the relationship and seniority relative to the person and choose the appropriate expression.\n\nFor example, when asking close friends or colleagues for help, friendly request expressions such as \"Could you help me photocopy these documents?\" or \"Could you lend a hand for a moment?\" are preferred.\n\nHowever, when making a request to university professors, superiors at work, or seniors you meet for the first time, using \"〜te kudasai\" risks giving a slightly demanding and unilateral impression. When requesting superiors, it is proper social etiquette to use polite inquiring expressions that show concern for the person's schedule, such as \"I apologize for troubling you when you are busy, but would you kindly give me guidance?\" or \"Would you be able to write a recommendation letter for me?\"\n\nAdditionally, so that it does not burden the other person even if they decline the request, adding cushion words as a preface, like \"if it is possible\" or \"if your schedule permits,\" enables much smoother communication."
+    "translationMy": "N4 Lesson 29: Requests & Politeness Registers (依頼表現と敬意レベル: 〜てください・〜てくれませんか・〜ていただけませんか) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l29.l01",
@@ -1627,72 +1627,72 @@
         "ja": "森先生、今少しお時間をよろしいでしょうか？",
         "kana": "もりせんせい、いますこしおじかんをよろしいでしょうか？",
         "en": "Professor Mori, would you have a moment right now?",
-        "my": "Professor Mori, would you have a moment right now?",
-        "translationMy": "Professor Mori, would you have a moment right now?",
-        "myanmar": "Professor Mori, would you have a moment right now?"
+        "my": "森先生、今少しお時間をよろしいでしょうか？ (အဓိပ္ပာယ်- Professor Mori, would you have a moment right now?)",
+        "translationMy": "森先生、今少しお時間をよろしいでしょうか？ (အဓိပ္ပာယ်- Professor Mori, would you have a moment right now?)",
+        "myanmar": "森先生、今少しお時間をよろしいでしょうか？ (အဓိပ္ပာယ်- Professor Mori, would you have a moment right now?)"
       },
       {
         "speaker": "森教授",
         "ja": "ええ、リンさん、どうぞ。何か相談ですか？",
         "kana": "ええ、リンさん、どうぞ。なにかそうだんですか？",
         "en": "Yes, Lin, come in. Is it some consultation?",
-        "my": "Yes, Lin, come in. Is it some consultation?",
-        "translationMy": "Yes, Lin, come in. Is it some consultation?",
-        "myanmar": "Yes, Lin, come in. Is it some consultation?"
+        "my": "ええ、リンさん、どうぞ。何か相談ですか？ (အဓိပ္ပာယ်- Yes, Lin, come in. Is it some consultation?)",
+        "translationMy": "ええ、リンさん、どうぞ。何か相談ですか？ (အဓိပ္ပာယ်- Yes, Lin, come in. Is it some consultation?)",
+        "myanmar": "ええ、リンさん、どうぞ。何か相談ですか？ (အဓိပ္ပာယ်- Yes, Lin, come in. Is it some consultation?)"
       },
       {
         "speaker": "リン",
         "ja": "はい。実は大学院の奨学金を申請しようと考えておりまして、指導教員の推薦状が必要なんです。",
         "kana": "はい。じつはだいがくいんのしょうがくきんをしんせいしようとかんがえておりまして、しどうきょういんのすいせんじょうがひつようなんです。",
         "en": "Yes. Actually I am thinking of applying for a graduate scholarship, and I need a recommendation letter from my advisor.",
-        "my": "Yes. Actually I am thinking of applying for a graduate scholarship, and I need a recommendation letter from my advisor.",
-        "translationMy": "Yes. Actually I am thinking of applying for a graduate scholarship, and I need a recommendation letter from my advisor.",
-        "myanmar": "Yes. Actually I am thinking of applying for a graduate scholarship, and I need a recommendation letter from my advisor."
+        "my": "はい。実は大学院の奨学金を申請しようと考えておりまして、指導教員の推薦状が必要なんです。 (အဓိပ္ပာယ်- Yes. Actually I am thinking of applying for a graduate scholarship, and I need a recommendation letter from my advisor.)",
+        "translationMy": "はい。実は大学院の奨学金を申請しようと考えておりまして、指導教員の推薦状が必要なんです。 (အဓိပ္ပာယ်- Yes. Actually I am thinking of applying for a graduate scholarship, and I need a recommendation letter from my advisor.)",
+        "myanmar": "はい。実は大学院の奨学金を申請しようと考えておりまして、指導教員の推薦状が必要なんです。 (အဓိပ္ပာယ်- Yes. Actually I am thinking of applying for a graduate scholarship, and I need a recommendation letter from my advisor.)"
       },
       {
         "speaker": "森教授",
         "ja": "なるほど、奨学金ですね。期限はいつまでですか？",
         "kana": "なるほど、しょうがくきんですね。きげんはいつまでですか？",
         "en": "I see, a scholarship. When is the deadline?",
-        "my": "I see, a scholarship. When is the deadline?",
-        "translationMy": "I see, a scholarship. When is the deadline?",
-        "myanmar": "I see, a scholarship. When is the deadline?"
+        "my": "なるほど、奨学金ですね。期限はいつまでですか？ (အဓိပ္ပာယ်- I see, a scholarship. When is the deadline?)",
+        "translationMy": "なるほど、奨学金ですね。期限はいつまでですか？ (အဓိပ္ပာယ်- I see, a scholarship. When is the deadline?)",
+        "myanmar": "なるほど、奨学金ですね。期限はいつまでですか？ (အဓိပ္ပာယ်- I see, a scholarship. When is the deadline?)"
       },
       {
         "speaker": "リン",
         "ja": "来月の十五日です。先生、大変お忙しいところ恐縮ですが、推薦状を書いていただけないでしょうか？",
         "kana": "らいげつのじゅうごにちです。せんせい、たいへんおいそがしいところきょうしゅくですが、すいせんじょうをかいていただけないでしょうか？",
         "en": "The 15th of next month. Professor, I am terribly sorry when you are busy, but would you be so kind as to write a recommendation letter for me?",
-        "my": "The 15th of next month. Professor, I am terribly sorry when you are busy, but would you be so kind as to write a recommendation letter for me?",
-        "translationMy": "The 15th of next month. Professor, I am terribly sorry when you are busy, but would you be so kind as to write a recommendation letter for me?",
-        "myanmar": "The 15th of next month. Professor, I am terribly sorry when you are busy, but would you be so kind as to write a recommendation letter for me?"
+        "my": "来月の十五日です。先生、大変お忙しいところ恐縮ですが、推薦状を書いていただけないでしょうか？ (အဓိပ္ပာယ်- The 15th of next month. Professor, I am terribly sorry when you are busy, but would you be so kind as to write a recommendation letter for me?)",
+        "translationMy": "来月の十五日です。先生、大変お忙しいところ恐縮ですが、推薦状を書いていただけないでしょうか？ (အဓိပ္ပာယ်- The 15th of next month. Professor, I am terribly sorry when you are busy, but would you be so kind as to write a recommendation letter for me?)",
+        "myanmar": "来月の十五日です。先生、大変お忙しいところ恐縮ですが、推薦状を書いていただけないでしょうか？ (အဓိပ္ပာယ်- The 15th of next month. Professor, I am terribly sorry when you are busy, but would you be so kind as to write a recommendation letter for me?)"
       },
       {
         "speaker": "森教授",
         "ja": "もちろんいいですよ。リンさんはいつも熱心に研究に取り組んでいますからね。",
         "kana": "もちろんいいですよ。リンさんはいつもねっしんにけんきゅうにとりくんでいますからね。",
         "en": "Of course. Because you always work on research enthusiastically.",
-        "my": "Of course. Because you always work on research enthusiastically.",
-        "translationMy": "Of course. Because you always work on research enthusiastically.",
-        "myanmar": "Of course. Because you always work on research enthusiastically."
+        "my": "もちろんいいですよ。リンさんはいつも熱心に研究に取り組んでいますからね。 (အဓိပ္ပာယ်- Of course. Because you always work on research enthusiastically.)",
+        "translationMy": "もちろんいいですよ。リンさんはいつも熱心に研究に取り組んでいますからね。 (အဓိပ္ပာယ်- Of course. Because you always work on research enthusiastically.)",
+        "myanmar": "もちろんいいですよ。リンさんはいつも熱心に研究に取り組んでいますからね。 (အဓိပ္ပာယ်- Of course. Because you always work on research enthusiastically.)"
       },
       {
         "speaker": "リン",
         "ja": "本当にありがとうございます！とても助かります。",
         "kana": "ほんとうにありがとうございます！とてもたすかります。",
         "en": "Thank you very much! That helps me greatly.",
-        "my": "Thank you very much! That helps me greatly.",
-        "translationMy": "Thank you very much! That helps me greatly.",
-        "myanmar": "Thank you very much! That helps me greatly."
+        "my": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။",
+        "translationMy": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။",
+        "myanmar": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။"
       },
       {
         "speaker": "森教授",
         "ja": "では、志望理由書の下書きを来週の月曜日までにメールで送ってくださいね。",
         "kana": "では、しぼうりゆうしょのしたがきをらいしゅうのげつようびまでにメールでおくってくださいね。",
         "en": "Then, please send me the draft of your statement of purpose by email by next Monday.",
-        "my": "Then, please send me the draft of your statement of purpose by email by next Monday.",
-        "translationMy": "Then, please send me the draft of your statement of purpose by email by next Monday.",
-        "myanmar": "Then, please send me the draft of your statement of purpose by email by next Monday."
+        "my": "では、志望理由書の下書きを来週の月曜日までにメールで送ってくださいね。 (အဓိပ္ပာယ်- Then, please send me the draft of your statement of purpose by email by next Monday.)",
+        "translationMy": "では、志望理由書の下書きを来週の月曜日までにメールで送ってくださいね。 (အဓိပ္ပာယ်- Then, please send me the draft of your statement of purpose by email by next Monday.)",
+        "myanmar": "では、志望理由書の下書きを来週の月曜日までにメールで送ってくださいね。 (အဓိပ္ပာယ်- Then, please send me the draft of your statement of purpose by email by next Monday.)"
       }
     ],
     "questionIds": [
@@ -1710,7 +1710,7 @@
     },
     "titleMy": "教授への推薦状の依頼 (နားထောင်ခြင်း)",
     "titleMyanmar": "教授への推薦状の依頼 (နားထောင်ခြင်း)",
-    "translationMy": "Lin: Professor Mori, would you have a moment right now?\nProf. Mori: Yes, Lin, come in. Is it some consultation?\nLin: Yes. Actually, I am thinking of applying for a graduate school scholarship, and I need a letter of recommendation from my academic advisor.\nProf. Mori: I see, a scholarship. When is the deadline?\nLin: It is the 15th of next month. Professor, I am terribly sorry to trouble you when you are very busy, but would you kindly write a recommendation letter for me?\nProf. Mori: Of course, that's fine. Because you always tackle your research with great dedication.\nLin: Thank you so very much! That helps me immensely.\nProf. Mori: Then please send me the draft of your statement of purpose by email by next Monday."
+    "translationMy": "リン- 森先生、今少しお時間をよろしいでしょうか？ (အဓိပ္ပာယ်- Professor Mori, would you have a moment right now?)\n森教授- ええ、リンさん、どうぞ。何か相談ですか？ (အဓိပ္ပာယ်- Yes, Lin, come in. Is it some consultation?)\nリン- はい。実は大学院の奨学金を申請しようと考えておりまして、指導教員の推薦状が必要なんです。 (အဓိပ္ပာယ်- Yes. Actually I am thinking of applying for a graduate scholarship, and I need a recommendation letter from my advisor.)\n森教授- なるほど、奨学金ですね。期限はいつまでですか？ (အဓိပ္ပာယ်- I see, a scholarship. When is the deadline?)\nリン- 来月の十五日です。先生、大変お忙しいところ恐縮ですが、推薦状を書いていただけないでしょうか？ (အဓိပ္ပာယ်- The 15th of next month. Professor, I am terribly sorry when you are busy, but would you be so kind as to write a recommendation letter for me?)\n森教授- もちろんいいですよ。リンさんはいつも熱心に研究に取り組んでいますからね。 (အဓိပ္ပာယ်- Of course. Because you always work on research enthusiastically.)\nリン- ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။\n森教授- では、志望理由書の下書きを来週の月曜日までにメールで送ってくださいね。 (အဓိပ္ပာယ်- Then, please send me the draft of your statement of purpose by email by next Monday.)"
   },
   "questions": [
     {
@@ -2601,7 +2601,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「大学院の奨学金申請のための推薦状を書いてもらうこと」 ဖြစ်ပါသည်။ (Lin says: 大学院の奨学金を申請しようと考えておりまして、指導教員の推薦状が必要なんです... 推薦状を書いていただけないでしょうか？)",
+      "explanationMy": "အဖြေမှန်မှာ 「大学院の奨学金申請のための推薦状を書いてもらうこと」 ဖြစ်ပါသည်။ (လင်းက ပြောကြားသည်မှာ- \"大学院の奨学金を申請しようと考えておりまして、指導教員の推薦状が必要なんです... 推薦状を書いていただけないでしょうか？\")",
       "choicesMy": [
         "大学院の奨学金申請のための推薦状を書いてもらうこと",
         "来週の授業を欠席することの許可をもらうこと",
@@ -2683,6 +2683,6 @@
   },
   "titleMy": "N4 Lesson 29: Requests & Politeness Registers (依頼表現と敬意レベル: 〜てください・〜てくれませんか・〜ていただけませんか) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 29: Requests & Politeness Registers (依頼表現と敬意レベル: 〜てください・〜てくれませんか・〜ていただけませんか) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 29: Requests & Politeness Registers (依頼表現と敬意レベル: 〜てください・〜てくれませんか・〜ていただけませんか) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "မေတ္တာရပ်ခံ တောင်းဆိုချက်များနှင့် ယဉ်ကျေးမှုအဆင့်အတန်း (依頼表現: 〜てくれませんか vs 〜ていただけませんか) ဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 29: Requests & Politeness Registers (依頼表現と敬意レベル: 〜てください・〜てくれませんか・〜ていただけませんか) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

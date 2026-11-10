@@ -958,7 +958,7 @@
           "meaning": "marriage",
           "preview": false,
           "meaningMyanmar": "marriage",
-          "meaningMy": "marriage"
+          "meaningMy": "結婚 (အဓိပ္ပာယ်- marriage)"
         }
       ],
       "exampleSentenceIds": [
@@ -1006,7 +1006,7 @@
           "meaning": "thesis; essay",
           "preview": false,
           "meaningMyanmar": "thesis; essay",
-          "meaningMy": "thesis; essay"
+          "meaningMy": "論文 (အဓိပ္ပာယ်- thesis; essay)"
         },
         {
           "word": "討論",
@@ -1014,7 +1014,7 @@
           "meaning": "debate; discussion",
           "preview": false,
           "meaningMyanmar": "debate; discussion",
-          "meaningMy": "debate; discussion"
+          "meaningMy": "討論 (အဓိပ္ပာယ်- debate; discussion)"
         }
       ],
       "exampleSentenceIds": [
@@ -1062,7 +1062,7 @@
           "meaning": "stairs",
           "preview": false,
           "meaningMyanmar": "stairs",
-          "meaningMy": "stairs"
+          "meaningMy": "လှေကား"
         },
         {
           "word": "値段",
@@ -1128,7 +1128,7 @@
           "meaning": "to calm down",
           "preview": false,
           "meaningMyanmar": "to calm down",
-          "meaningMy": "to calm down"
+          "meaningMy": "စိတ်အေးအေးထားသည် / တည်ငြိမ်သည်"
         }
       ],
       "exampleSentenceIds": [
@@ -1190,8 +1190,8 @@
       },
       "explanationMy": "ဂျပန်စာဖတ်ရှုနားလည်မှု (読解) တွင် စကားစပ် (接続詞) နှင့် ညွှန်းပြစကားလုံး (指示語) များသည် အဓိက သော့ချက်ဖြစ်သည်။ အထူးသဖြင့်「しかし (သို့သော်)」နောက်တွင် စာရေးသူ၏ တကယ့်အဓိက သဘောထား ပါရှိလေ့ရှိပြီး、「これ・それ」သည် ရှေ့စာကြောင်းပါ အကြောင်းအရာကို ရည်ညွှန်းသည်။",
       "meaningMyanmar": "ဂျပန်စာဖတ်ရှုနားလည်မှု (読解) တွင် စကားစပ် (接続詞) နှင့် ညွှန်းပြစကားလုံး (指示語) များသည် အဓိက သော့ချက်ဖြစ်သည်။ အထူးသဖြင့်「しかし (သို့သော်)」နောက်တွင် စာရေးသူ၏ တကယ့်အဓိက သဘောထား ပါရှိလေ့ရှိပြီး、「これ・それ」သည် ရှေ့စာကြောင်းပါ အကြောင်းအရာကို ရည်ညွှန်းသည်။",
-      "meaningMy": "ဂျပန်စာဖတ်ရှုနားလည်မှု (読解) တွင် စကားစပ် (接続詞) နှင့် ညွှန်းပြစကားလုံး (指示語) များသည် အဓိက သော့ချက်ဖြစ်သည်။ အထူးသဖြင့်「しかし (သို့သော်)」နောက်တွင် စာရေးသူ၏ တကယ့်အဓိက သဘောထား ပါရှိလေ့ရှိပြီး、「これ・それ」သည် ရှေ့စာကြောင်းပါ အကြောင်းအရာကို ရည်ညွှန်းသည်။",
-      "nuanceExplanationMy": "[指示語・接続詞による文脈把握: しかし・そのため・それに・これ/それ] ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ဂျပန်စာဖတ်ရှုနားလည်မှု (読解) တွင် စကားစပ် (接続詞) နှင့် ညွှန်းပြစကားလုံး (指示語) များသည် အဓိက သော့ချက်ဖြစ်သည်။",
+      "nuanceExplanationMy": "[指示語・接続詞による文脈把握: しかし・そのため・それに・これ/それ] ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l20.g002",
@@ -1228,8 +1228,8 @@
       },
       "explanationMy": "စာရေးသူ၏ အဓိကယူဆချက် သို့မဟုတ် အကြံပြုချက်ကို ဖော်ပြရာတွင် သုံးသော ပုံစံများ ဖြစ်သည်။「〜のではないか (ဤသို့ဖြစ်သည် မဟုတ်ပါလော)」နှင့်「〜必要がある (ပြုလုပ်ရန် လိုအပ်သည်)」တို့ ဖြစ်သည်။",
       "meaningMyanmar": "စာရေးသူ၏ အဓိကယူဆချက် သို့မဟုတ် အကြံပြုချက်ကို ဖော်ပြရာတွင် သုံးသော ပုံစံများ ဖြစ်သည်။「〜のではないか (ဤသို့ဖြစ်သည် မဟုတ်ပါလော)」နှင့်「〜必要がある (ပြုလုပ်ရန် လိုအပ်သည်)」တို့ ဖြစ်သည်။",
-      "meaningMy": "စာရေးသူ၏ အဓိကယူဆချက် သို့မဟုတ် အကြံပြုချက်ကို ဖော်ပြရာတွင် သုံးသော ပုံစံများ ဖြစ်သည်။「〜のではないか (ဤသို့ဖြစ်သည် မဟုတ်ပါလော)」နှင့်「〜必要がある (ပြုလုပ်ရန် လိုအပ်သည်)」တို့ ဖြစ်သည်။",
-      "nuanceExplanationMy": "[Plain form] + のではないか / 〜必要がある ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "စာရေးသူ၏ အဓိကယူဆချက် သို့မဟုတ် အကြံပြုချက်ကို ဖော်ပြရာတွင် သုံးသော ပုံစံများ ဖြစ်သည်။",
+      "nuanceExplanationMy": "[Plain form] + のではないか / 〜必要がある ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     }
   ],
   "sentences": [
@@ -1644,7 +1644,7 @@
     },
     "titleMy": "電子書籍と紙の本の未来 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "電子書籍と紙の本の未来 (ဖတ်ရှုခြင်း)",
-    "translationMy": "In recent years, along with the spread of smartphones and dedicated e-readers, readers who use electronic books are rapidly increasing. E-books have many merits, such as being able to carry hundreds of books inside a single light device and freely altering font sizes.\n\nHowever, physical paper books will likely never disappear completely. In fact, according to a questionnaire survey of book lovers, people who answer \"I love the feeling of turning physical pages and the smell of books\" or \"Looking at books lined up on a bookshelf gives me peace of mind\" still constitute the majority. Moreover, opinions remain firmly rooted that paper books are easier to handle for grasping the overall structure and quickly flipping back to re-read previous pages.\n\nIn short, aren't e-books and paper books partners that should be used distinctively according to the situation, rather than enemies competing over superiority? For example, reading lightweight, convenient e-books on commuter trains or travels, while opening paper books when leisurely enjoying reading at home on weekends. Such a reading style should truly enrich our intellectual lives the most."
+    "translationMy": "N4 Lesson 20: N4 Reading Comprehension Strategies ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l20.l01",
@@ -1665,50 +1665,74 @@
       {
         "speaker": "講師",
         "ja": "マウンさん、最近の読解テストの調子はどうですか？",
-        "kana": "マウンさん、最近の読解テストの調子はどうですか？",
-        "en": ""
+        "kana": "マウンさん、さいきんのどっかいテストのちょうしはどうですか？",
+        "en": "Maung-san, how is your progress on reading comprehension tests lately?",
+        "my": "မောင်ဆန်၊ မကြာသေးမီက စာဖတ်နားလည်မှု စာမေးပွဲ အခြေအနေ ဘယ်လိုရှိပါသလဲ?",
+        "myanmar": "မောင်ဆန်၊ မကြာသေးမီက စာဖတ်နားလည်မှု စာမေးပွဲ အခြေအနေ ဘယ်လိုရှိပါသလဲ?",
+        "translationMy": "မောင်ဆန်၊ မကြာသေးမီက စာဖတ်နားလည်မှု စာမေးပွဲ အခြေအနေ ဘယ်လိုရှိပါသလဲ?"
       },
       {
         "speaker": "生徒",
         "ja": "先生、文章が長くなると、途中で筆者の意見がどこにあるのか分からなくなってしまいます。",
-        "kana": "先生、文章が長くなると、途中で筆者の意見がどこにあるのか分からなくなってしまいます。",
-        "en": ""
+        "kana": "せんせい、ぶんしょうがながくなると、とちゅうでひっしゃのいけんがどこにあるのかわからなくなってしまいます。",
+        "en": "Teacher, when passages get long, halfway through I lose track of where the author's opinion is!",
+        "my": "ဆရာ၊ စာပိုဒ်တွေ ရှည်လာရင် စာရေးသူရဲ့ အမြင်သဘောထား ဘယ်မှာရှိမှန်း မသိတော့ဘဲ လမ်းပျောက်သွားတတ်ပါတယ်ခင်ဗျာ။",
+        "myanmar": "ဆရာ၊ စာပိုဒ်တွေ ရှည်လာရင် စာရေးသူရဲ့ အမြင်သဘောထား ဘယ်မှာရှိမှန်း မသိတော့ဘဲ လမ်းပျောက်သွားတတ်ပါတယ်ခင်ဗျာ။",
+        "translationMy": "ဆရာ၊ စာပိုဒ်တွေ ရှည်လာရင် စာရေးသူရဲ့ အမြင်သဘောထား ဘယ်မှာရှိမှန်း မသိတော့ဘဲ လမ်းပျောက်သွားတတ်ပါတယ်ခင်ဗျာ။"
       },
       {
         "speaker": "講師",
         "ja": "なるほど。長文を読むときは、接続詞に注目するのが一番の近道ですよ。特に「しかし」や「だが」を見つけたら、必ずチェックしてください。",
-        "kana": "なるほど。長文を読むときは、接続詞に注目するのが一番の近道ですよ。特に「しかし」や「だが」を見つけたら、必ずチェックしてください。",
-        "en": ""
+        "kana": "なるほど。ちょうぶんをよむときは、せつぞくしにちゅうもくするのがいちばんのちかみちですよ。とくに「しかし」や「だが」をみつけたら、かならずチェックしてください。",
+        "en": "I see. When reading long passages, paying attention to conjunctions is the best shortcut. Especially when you spot \"shikashi\" or \"daga\" (however), always check it.",
+        "my": "ဟုတ်ပါပြီ။ စာပိုဒ်ရှည်တွေ ဖတ်တဲ့အခါ စကားစပ်တွေကို အာရုံစိုက်တာက အကောင်းဆုံး ဖြတ်လမ်းနည်းပါပဲ။ အထူးသဖြင့် \"သို့သော် (しかし)\" သို့မဟုတ် \"ဒါပေမဲ့ (だが)\" ကို တွေ့ရင် သေချာ မှတ်သားထားပါ။",
+        "myanmar": "ဟုတ်ပါပြီ။ စာပိုဒ်ရှည်တွေ ဖတ်တဲ့အခါ စကားစပ်တွေကို အာရုံစိုက်တာက အကောင်းဆုံး ဖြတ်လမ်းနည်းပါပဲ။ အထူးသဖြင့် \"သို့သော် (しかし)\" သို့မဟုတ် \"ဒါပေမဲ့ (だが)\" ကို တွေ့ရင် သေချာ မှတ်သားထားပါ။",
+        "translationMy": "ဟုတ်ပါပြီ။ စာပိုဒ်ရှည်တွေ ဖတ်တဲ့အခါ စကားစပ်တွေကို အာရုံစိုက်တာက အကောင်းဆုံး ဖြတ်လမ်းနည်းပါပဲ။ အထူးသဖြင့် \"သို့သော် (しかし)\" သို့မဟုတ် \"ဒါပေမဲ့ (だが)\" ကို တွေ့ရင် သေချာ မှတ်သားထားပါ။"
       },
       {
         "speaker": "生徒",
         "ja": "「しかし」の後に大切なことが書いてあるんですか？",
-        "kana": "「しかし」の後に大切なことが書いてあるんですか？",
-        "en": ""
+        "kana": "「しかし」のあとにたいせつなことがかいてあるんですか？",
+        "en": "Is the important thing written after \"shikashi\"?",
+        "my": "\"သို့သော်\" ရဲ့ နောက်မှာ အရေးကြီးတဲ့အချက် ရေးထားတာလားခင်ဗျာ?",
+        "myanmar": "\"သို့သော်\" ရဲ့ နောက်မှာ အရေးကြီးတဲ့အချက် ရေးထားတာလားခင်ဗျာ?",
+        "translationMy": "\"သို့သော်\" ရဲ့ နောက်မှာ အရေးကြီးတဲ့အချက် ရေးထားတာလားခင်ဗျာ?"
       },
       {
         "speaker": "講師",
         "ja": "その通りです！筆者はまず一般的な意見を書いてから、「しかし、私はそう思わない」と自分の本音を述べるパターンが多いんです。",
-        "kana": "その通りです！筆者はまず一般的な意見を書いてから、「しかし、私はそう思わない」と自分の本音を述べるパターンが多いんです。",
-        "en": ""
+        "kana": "そのとおりです！ひっしゃはまずいっぱんてきないけんをかいてから、「しかし、わたしはそうおもわない」とじぶんのほんねをのべるパターンがおおいんです。",
+        "en": "Exactly! Authors often write a common general opinion first, and then express their true viewpoint saying \"However, I don't think so.\"",
+        "my": "အတိအကျပါပဲ! စာရေးသူဟာ အစပိုင်းမှာ ယေဘုယျအမြင်ကို ရေးသားပြီးမှ \"သို့သော် ကျွန်တော်ကတော့ ထိုသို့ မထင်ပါ\" ဆိုပြီး မိမိရဲ့ ရင်တွင်းအမှန်ကို ဖော်ပြတဲ့ ပုံစံမျိုး များပါတယ်။",
+        "myanmar": "အတိအကျပါပဲ! စာရေးသူဟာ အစပိုင်းမှာ ယေဘုယျအမြင်ကို ရေးသားပြီးမှ \"သို့သော် ကျွန်တော်ကတော့ ထိုသို့ မထင်ပါ\" ဆိုပြီး မိမိရဲ့ ရင်တွင်းအမှန်ကို ဖော်ပြတဲ့ ပုံစံမျိုး များပါတယ်။",
+        "translationMy": "အတိအကျပါပဲ! စာရေးသူဟာ အစပိုင်းမှာ ယေဘုယျအမြင်ကို ရေးသားပြီးမှ \"သို့သော် ကျွန်တော်ကတော့ ထိုသို့ မထင်ပါ\" ဆိုပြီး မိမိရဲ့ ရင်တွင်းအမှန်ကို ဖော်ပြတဲ့ ပုံစံမျိုး များပါတယ်။"
       },
       {
         "speaker": "生徒",
         "ja": "ああっ！だから「しかし」の前後で意味が反対になるんですね。",
-        "kana": "ああっ！だから「しかし」の前後で意味が反対になるんですね。",
-        "en": ""
+        "kana": "ああっ！だから「しかし」のぜんごでいみがはんたいになるんですね。",
+        "en": "Ah! That's why the meaning flips before and after \"shikashi\"!",
+        "my": "အော်! ဒါကြောင့် \"သို့သော်\" ရဲ့ အရှေ့နဲ့ အနောက်မှာ အဓိပ္ပာယ် ဆန့်ကျင်ဘက် ဖြစ်သွားတာပေါ့နော်။",
+        "myanmar": "အော်! ဒါကြောင့် \"သို့သော်\" ရဲ့ အရှေ့နဲ့ အနောက်မှာ အဓိပ္ပာယ် ဆန့်ကျင်ဘက် ဖြစ်သွားတာပေါ့နော်။",
+        "translationMy": "အော်! ဒါကြောင့် \"သို့သော်\" ရဲ့ အရှေ့နဲ့ အနောက်မှာ အဓိပ္ပာယ် ဆန့်ကျင်ဘက် ဖြစ်သွားတာပေါ့နော်။"
       },
       {
         "speaker": "講師",
         "ja": "そうです。そして最後の段落の「〜のではないか」や「〜と思う」を探せば、筆者の結論がすぐに見つかりますよ。",
-        "kana": "そうです。そして最後の段落の「〜のではないか」や「〜と思う」を探せば、筆者の結論がすぐに見つかりますよ。",
-        "en": ""
+        "kana": "そうです。そしてさいごのだんらくの「〜のではないか」や「〜とおもう」をさがせば、ひっしゃのけつろんがすぐに見つかりますよ。",
+        "en": "That's right. And if you look for \"〜no dewa nai ka\" or \"〜to omou\" in the final paragraph, you will find the author's conclusion immediately.",
+        "my": "မှန်ပါတယ်။ ပြီးတော့ နောက်ဆုံးစာပိုဒ်မှာ \"မဟုတ်ပါလား (のではないか)\" သို့မဟုတ် \"ထင်ပါသည် (と思う)\" ကို ရှာဖွေရင် စာရေးသူရဲ့ ကောက်ချက်နိဂုံးကို ချက်ချင်း တွေ့ရှိနိုင်ပါတယ်။",
+        "myanmar": "မှန်ပါတယ်။ ပြီးတော့ နောက်ဆုံးစာပိုဒ်မှာ \"မဟုတ်ပါလား (のではないか)\" သို့မဟုတ် \"ထင်ပါသည် (と思う)\" ကို ရှာဖွေရင် စာရေးသူရဲ့ ကောက်ချက်နိဂုံးကို ချက်ချင်း တွေ့ရှိနိုင်ပါတယ်။",
+        "translationMy": "မှန်ပါတယ်။ ပြီးတော့ နောက်ဆုံးစာပိုဒ်မှာ \"မဟုတ်ပါလား (のではないか)\" သို့မဟုတ် \"ထင်ပါသည် (と思う)\" ကို ရှာဖွေရင် စာရေးသူရဲ့ ကောက်ချက်နိဂုံးကို ချက်ချင်း တွေ့ရှိနိုင်ပါတယ်။"
       },
       {
         "speaker": "生徒",
         "ja": "すごく分かりやすいです！次のテストで早速試してみます！",
-        "kana": "すごく分かりやすいです！次のテストで早速試してみます！",
-        "en": ""
+        "kana": "すごくわかりやすいです！つぎのテストでさっそくためしてみます！",
+        "en": "That's so easy to understand! I'll try it right away on the next test!",
+        "my": "နားလည်ရ သိပ်လွယ်ကူသွားပါပြီခင်ဗျာ! လာမယ့် စာမေးပွဲမှာ ချက်ချင်း စမ်းသပ်ကြည့်ပါ့မယ်ခင်ဗျာ!",
+        "myanmar": "နားလည်ရ သိပ်လွယ်ကူသွားပါပြီခင်ဗျာ! လာမယ့် စာမေးပွဲမှာ ချက်ချင်း စမ်းသပ်ကြည့်ပါ့မယ်ခင်ဗျာ!",
+        "translationMy": "နားလည်ရ သိပ်လွယ်ကူသွားပါပြီခင်ဗျာ! လာမယ့် စာမေးပွဲမှာ ချက်ချင်း စမ်းသပ်ကြည့်ပါ့မယ်ခင်ဗျာ!"
       }
     ],
     "questionIds": [
@@ -1728,7 +1752,7 @@
     },
     "titleMy": "日本語読解のコツと接続詞の役割 (နားထောင်ခြင်း)",
     "titleMyanmar": "日本語読解のコツと接続詞の役割 (နားထောင်ခြင်း)",
-    "translationMy": "Teacher: Maung-san, how is your progress on reading comprehension tests lately?\nStudent: Teacher, when passages get long, halfway through I lose track of where the author's opinion is!\nTeacher: I see. When reading long passages, paying attention to conjunctions is the best shortcut. Especially when you spot \"shikashi\" or \"daga\" (however), always check it.\nStudent: Is the important thing written after \"shikashi\"?\nTeacher: Exactly! Authors often write a common general opinion first, and then express their true viewpoint saying \"However, I don't think so.\"\nStudent: Ah! That's why the meaning flips before and after \"shikashi\"!\nTeacher: That's right. And if you look for \"〜no dewa nai ka\" or \"〜to omou\" in the final paragraph, you will find the author's conclusion immediately.\nStudent: That's so easy to understand! I'll try it right away on the next test!"
+    "translationMy": "講師- မောင်ဆန်၊ မကြာသေးမီက စာဖတ်နားလည်မှု စာမေးပွဲ အခြေအနေ ဘယ်လိုရှိပါသလဲ?\n生徒- ဆရာ၊ စာပိုဒ်တွေ ရှည်လာရင် စာရေးသူရဲ့ အမြင်သဘောထား ဘယ်မှာရှိမှန်း မသိတော့ဘဲ လမ်းပျောက်သွားတတ်ပါတယ်ခင်ဗျာ။\n講師- ဟုတ်ပါပြီ။ စာပိုဒ်ရှည်တွေ ဖတ်တဲ့အခါ စကားစပ်တွေကို အာရုံစိုက်တာက အကောင်းဆုံး ဖြတ်လမ်းနည်းပါပဲ။ အထူးသဖြင့် \"သို့သော် (しかし)\" သို့မဟုတ် \"ဒါပေမဲ့ (だが)\" ကို တွေ့ရင် သေချာ မှတ်သားထားပါ။\n生徒- \"သို့သော်\" ရဲ့ နောက်မှာ အရေးကြီးတဲ့အချက် ရေးထားတာလားခင်ဗျာ?\n講師- အတိအကျပါပဲ! စာရေးသူဟာ အစပိုင်းမှာ ယေဘုယျအမြင်ကို ရေးသားပြီးမှ \"သို့သော် ကျွန်တော်ကတော့ ထိုသို့ မထင်ပါ\" ဆိုပြီး မိမိရဲ့ ရင်တွင်းအမှန်ကို ဖော်ပြတဲ့ ပုံစံမျိုး များပါတယ်။\n生徒- အော်! ဒါကြောင့် \"သို့သော်\" ရဲ့ အရှေ့နဲ့ အနောက်မှာ အဓိပ္ပာယ် ဆန့်ကျင်ဘက် ဖြစ်သွားတာပေါ့နော်။\n講師- မှန်ပါတယ်။ ပြီးတော့ နောက်ဆုံးစာပိုဒ်မှာ \"မဟုတ်ပါလား (のではないか)\" သို့မဟုတ် \"ထင်ပါသည် (と思う)\" ကို ရှာဖွေရင် စာရေးသူရဲ့ ကောက်ချက်နိဂုံးကို ချက်ချင်း တွေ့ရှိနိုင်ပါတယ်။\n生徒- နားလည်ရ သိပ်လွယ်ကူသွားပါပြီခင်ဗျာ! လာမယ့် စာမေးပွဲမှာ ချက်ချင်း စမ်းသပ်ကြည့်ပါ့မယ်ခင်ဗျာ!"
   },
   "questions": [
     {
@@ -2701,6 +2725,6 @@
   },
   "titleMy": "N4 Lesson 20: N4 Reading Comprehension Strategies (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 20: N4 Reading Comprehension Strategies (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 20: N4 Reading Comprehension Strategies အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "N4 စာဖတ်စွမ်းရည် တိုးတက်စေရေး မဟာဗျူဟာများ၊ စကားစပ်များ (接続詞) နှင့် စာရေးသူ၏ သဘောထားကို ဖမ်းဆုပ်ခြင်းဆိုင်ရာ လေ့ကျင့်ခန်းများ။",
   "descriptionMyanmar": "N4 Lesson 20: N4 Reading Comprehension Strategies အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

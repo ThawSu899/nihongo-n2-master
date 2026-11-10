@@ -1005,7 +1005,7 @@
           "meaning": "hard worker",
           "preview": false,
           "meaningMyanmar": "hard worker",
-          "meaningMy": "hard worker"
+          "meaningMy": "ကြိုးစားအားထုတ်သူ"
         }
       ],
       "exampleSentenceIds": [
@@ -1167,8 +1167,8 @@
       },
       "explanationMy": "ရည်ရွယ်ချက်ရှိရှိ ဆန္ဒဖြင့် ပြုလုပ်သော အကြောင်းရင်း သို့မဟုတ် ပန်းတိုင်ကို ဖော်ပြသည်။ ために ရှေ့ရှိ ကြိယာသည် မိမိကိုယ်တိုင် ထိန်းချုပ်လုပ်ဆောင်နိုင်သော ကြိယာ (意志動詞) ဖြစ်ရမည်။ ထို့အပြင် ဝါကျနှစ်ခုလုံး၏ ပြုလုပ်သူ (subject) သည် တစ်ဦးတည်း ဖြစ်ရမည်။",
       "meaningMyanmar": "ရည်ရွယ်ချက်ရှိရှိ ဆန္ဒဖြင့် ပြုလုပ်သော အကြောင်းရင်း သို့မဟုတ် ပန်းတိုင်ကို ဖော်ပြသည်။ ために ရှေ့ရှိ ကြိယာသည် မိမိကိုယ်တိုင် ထိန်းချုပ်လုပ်ဆောင်နိုင်သော ကြိယာ (意志動詞) ဖြစ်ရမည်။ ထို့အပြင် ဝါကျနှစ်ခုလုံး၏ ပြုလုပ်သူ (subject) သည် တစ်ဦးတည်း ဖြစ်ရမည်။",
-      "meaningMy": "ရည်ရွယ်ချက်ရှိရှိ ဆန္ဒဖြင့် ပြုလုပ်သော အကြောင်းရင်း သို့မဟုတ် ပန်းတိုင်ကို ဖော်ပြသည်။ ために ရှေ့ရှိ ကြိယာသည် မိမိကိုယ်တိုင် ထိန်းချုပ်လုပ်ဆောင်နိုင်သော ကြိယာ (意志動詞) ဖြစ်ရမည်။ ထို့အပြင် ဝါကျနှစ်ခုလုံး၏ ပြုလုပ်သူ (subject) သည် တစ်ဦးတည်း ဖြစ်ရမည်။",
-      "nuanceExplanationMy": "[Verb (Dictionary form) / Noun + の] + ために ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ရည်ရွယ်ချက်ရှိရှိ ဆန္ဒဖြင့် ပြုလုပ်သော အကြောင်းရင်း သို့မဟုတ် ပန်းတိုင်ကို ဖော်ပြသည်။",
+      "nuanceExplanationMy": "[Verb (Dictionary form) / Noun + の] + ために ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ "
     },
     {
       "id": "n4.l24.g002",
@@ -1205,8 +1205,8 @@
       },
       "explanationMy": "ရည်မှန်းထားသော အခြေအနေတစ်ခု ရောက်ရှိနိုင်စေရန် သို့မဟုတ် မလိုလားအပ်သော အခြေအနေတစ်ခု မဖြစ်ပေါ်စေရန်အတွက် ရည်ရွယ်ချက်ကို ဖော်ပြသည်။ ように ရှေ့တွင် အလိုအလျောက်ဖြစ်သောကြိယာများ (無意志動詞)၊ စွမ်းဆောင်နိုင်မှုကြိယာ (可能動詞) သို့မဟုတ် အငြင်းသဘော (ない形) ကို အသုံးပြုရသည်။",
       "meaningMyanmar": "ရည်မှန်းထားသော အခြေအနေတစ်ခု ရောက်ရှိနိုင်စေရန် သို့မဟုတ် မလိုလားအပ်သော အခြေအနေတစ်ခု မဖြစ်ပေါ်စေရန်အတွက် ရည်ရွယ်ချက်ကို ဖော်ပြသည်။ ように ရှေ့တွင် အလိုအလျောက်ဖြစ်သောကြိယာများ (無意志動詞)၊ စွမ်းဆောင်နိုင်မှုကြိယာ (可能動詞) သို့မဟုတ် အငြင်းသဘော (ない形) ကို အသုံးပြုရသည်။",
-      "meaningMy": "ရည်မှန်းထားသော အခြေအနေတစ်ခု ရောက်ရှိနိုင်စေရန် သို့မဟုတ် မလိုလားအပ်သော အခြေအနေတစ်ခု မဖြစ်ပေါ်စေရန်အတွက် ရည်ရွယ်ချက်ကို ဖော်ပြသည်။ ように ရှေ့တွင် အလိုအလျောက်ဖြစ်သောကြိယာများ (無意志動詞)၊ စွမ်းဆောင်နိုင်မှုကြိယာ (可能動詞) သို့မဟုတ် အငြင်းသဘော (ない形) ကို အသုံးပြုရသည်။",
-      "nuanceExplanationMy": "[Verb (Potential / Non-volitional / Negative ない-form)] + ように ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "လုပ်ဆောင်နိုင်စွမ်း သို့မဟုတ် အခြေအနေအရ ပြုလုပ်နိုင်ခြင်း (စွမ်းရည်ပြ ကြိယာပုံစံ)",
+      "nuanceExplanationMy": "[Verb (Potential / Non-volitional / Negative ない-form)] + ように ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     }
   ],
   "sentences": [
@@ -1614,7 +1614,7 @@
     },
     "titleMy": "夢の実現に向けた学習ノート (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "夢の実現に向けた学習ノート (ဖတ်ရှုခြင်း)",
-    "translationMy": "International student Tun has a clear goal to get a job at a Japanese medical equipment manufacturer in the future. In order to fulfill that dream, he wakes up at 6:00 every morning to memorize vocabulary, and in the evening reviews notes summarizing specialized Japanese terminology.\n\nSo that he, being a foreigner, can accurately speak specialized terminology, Tun decided to practice pronunciation using his smartphone’s recording function. In addition, so that he won’t miss advice from his teachers or colleagues, he always keeps a notepad in his pocket.\n\n\"Reading books to deepen knowledge is of course important, but making effort to speak so that one's ideas are transmitted accurately to others is also indispensable,\" Tun says. So that he can reach his goal, he accumulates small efforts every single day."
+    "translationMy": "N4 Lesson 24: Purpose & Target (目的: 〜ために vs 〜ように) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l24.l01",
@@ -1637,54 +1637,54 @@
         "ja": "リーさん、来週のスピーチコンテストの原稿、よく書けていますね。",
         "kana": "リーさん、らいしゅうのスピーチコンテストのげんこう、よくかけていますね。",
         "en": "Lee, your manuscript for next week’s speech contest is written very well.",
-        "my": "Lee, your manuscript for next week’s speech contest is written very well.",
-        "translationMy": "Lee, your manuscript for next week’s speech contest is written very well.",
-        "myanmar": "Lee, your manuscript for next week’s speech contest is written very well."
+        "my": "မူကြမ်း သိပ်ကောင်းကောင်း ရေးထားတာပဲနော်။",
+        "translationMy": "မူကြမ်း သိပ်ကောင်းကောင်း ရေးထားတာပဲနော်။",
+        "myanmar": "မူကြမ်း သိပ်ကောင်းကောင်း ရေးထားတာပဲနော်။"
       },
       {
         "speaker": "リー",
         "ja": "ありがとうございます。聴衆のみなさんに私の思いが伝わるように、何度も直しました。",
         "kana": "ありがとうございます。ちょうしゅうのみなさんにわたしのおもいがつたわるように、なんどもなおしました。",
         "en": "Thank you. I revised it many times so that my thoughts would reach the audience.",
-        "my": "Thank you. I revised it many times so that my thoughts would reach the audience.",
-        "translationMy": "Thank you. I revised it many times so that my thoughts would reach the audience.",
-        "myanmar": "Thank you. I revised it many times so that my thoughts would reach the audience."
+        "my": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။",
+        "translationMy": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။",
+        "myanmar": "ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။"
       },
       {
         "speaker": "川口先生",
         "ja": "発音の強弱も大切ですよ。会場の一番後ろの人にもはっきり聞こえるように、少し顎を上げて話すといいですね。",
         "kana": "はつおんのきょうじゃくもたいせつですよ。かいじょうのいちばんうしろのひとにもはっきりきこえるように、すこしあごをあげてはなすといいですね。",
         "en": "Dynamics of pronunciation are also important. It would be good to lift your chin slightly so that people at the very back of the hall can hear clearly.",
-        "my": "Dynamics of pronunciation are also important. It would be good to lift your chin slightly so that people at the very back of the hall can hear clearly.",
-        "translationMy": "Dynamics of pronunciation are also important. It would be good to lift your chin slightly so that people at the very back of the hall can hear clearly.",
-        "myanmar": "Dynamics of pronunciation are also important. It would be good to lift your chin slightly so that people at the very back of the hall can hear clearly."
+        "my": "発音の強弱も大切ですよ。会場の一番後ろの人にもはっきり聞こえるように、少し顎を上げて話すといいですね。 (အဓိပ္ပာယ်- Dynamics of pronunciation are also important. It would be good to lift your chin slightly so that people at the very back of the hall can hear clearly.)",
+        "translationMy": "発音の強弱も大切ですよ。会場の一番後ろの人にもはっきり聞こえるように、少し顎を上げて話すといいですね。 (အဓိပ္ပာယ်- Dynamics of pronunciation are also important. It would be good to lift your chin slightly so that people at the very back of the hall can hear clearly.)",
+        "myanmar": "発音の強弱も大切ですよ。会場の一番後ろの人にもはっきり聞こえるように、少し顎を上げて話すといいですね。 (အဓိပ္ပာယ်- Dynamics of pronunciation are also important. It would be good to lift your chin slightly so that people at the very back of the hall can hear clearly.)"
       },
       {
         "speaker": "リー",
         "ja": "はい、先生。途中で詰まったり忘れたりしないように、自宅でも毎日鏡の前で声を出して練習しています。",
         "kana": "はい、せんせい。とちゅうでつまったりわすれたりしないように、じたくでもまいにちかがみのまえでこえをだしてれんしゅうしています。",
         "en": "Yes, teacher. I practice speaking out loud in front of the mirror every day at home so that I won’t get stuck or forget midway.",
-        "my": "Yes, teacher. I practice speaking out loud in front of the mirror every day at home so that I won’t get stuck or forget midway.",
-        "translationMy": "Yes, teacher. I practice speaking out loud in front of the mirror every day at home so that I won’t get stuck or forget midway.",
-        "myanmar": "Yes, teacher. I practice speaking out loud in front of the mirror every day at home so that I won’t get stuck or forget midway."
+        "my": "はい、先生。途中で詰まったり忘れたりしないように、自宅でも毎日鏡の前で声を出して練習しています。 (အဓိပ္ပာယ်- Yes, teacher. I practice speaking out loud in front of the mirror every day at home so that I won’t get stuck or forget midway.)",
+        "translationMy": "はい、先生。途中で詰まったり忘れたりしないように、自宅でも毎日鏡の前で声を出して練習しています。 (အဓိပ္ပာယ်- Yes, teacher. I practice speaking out loud in front of the mirror every day at home so that I won’t get stuck or forget midway.)",
+        "myanmar": "はい、先生。途中で詰まったり忘れたりしないように、自宅でも毎日鏡の前で声を出して練習しています。 (အဓိပ္ပာယ်- Yes, teacher. I practice speaking out loud in front of the mirror every day at home so that I won’t get stuck or forget midway.)"
       },
       {
         "speaker": "川口先生",
         "ja": "素晴らしい心がけです。コンテストで最優秀賞を取るために、あと三日しっかり練習を仕上げましょう。",
         "kana": "すばらしいこころがけです。コンテストでさいゆうしゅうしょうをとるために、あとみっかしっかりれんしゅうをしあげましょう。",
         "en": "That is a wonderful attitude. In order to win the first prize in the contest, let’s polish up your practice over the remaining three days.",
-        "my": "That is a wonderful attitude. In order to win the first prize in the contest, let’s polish up your practice over the remaining three days.",
-        "translationMy": "That is a wonderful attitude. In order to win the first prize in the contest, let’s polish up your practice over the remaining three days.",
-        "myanmar": "That is a wonderful attitude. In order to win the first prize in the contest, let’s polish up your practice over the remaining three days."
+        "my": "素晴らしい心がけです。コンテストで最優秀賞を取るために、あと三日しっかり練習を仕上げましょう。 (အဓိပ္ပာယ်- That is a wonderful attitude. In order to win the first prize in the contest, let’s polish up your practice over the remaining three days.)",
+        "translationMy": "素晴らしい心がけです。コンテストで最優秀賞を取るために、あと三日しっかり練習を仕上げましょう。 (အဓိပ္ပာယ်- That is a wonderful attitude. In order to win the first prize in the contest, let’s polish up your practice over the remaining three days.)",
+        "myanmar": "素晴らしい心がけです。コンテストで最優秀賞を取るために、あと三日しっかり練習を仕上げましょう。 (အဓိပ္ပာယ်- That is a wonderful attitude. In order to win the first prize in the contest, let’s polish up your practice over the remaining three days.)"
       },
       {
         "speaker": "リー",
         "ja": "はい！応援してくださる方々の期待に応えられるように、最後まで全力を尽くします。",
         "kana": "はい！おうえんしてくださるかたがたのきたいにこたえられるように、さいごまでぜんりょくをつくします。",
         "en": "Yes! I will do my absolute best until the end so that I can live up to the expectations of everyone supporting me.",
-        "my": "Yes! I will do my absolute best until the end so that I can live up to the expectations of everyone supporting me.",
-        "translationMy": "Yes! I will do my absolute best until the end so that I can live up to the expectations of everyone supporting me.",
-        "myanmar": "Yes! I will do my absolute best until the end so that I can live up to the expectations of everyone supporting me."
+        "my": "はい！応援してくださる方々の期待に応えられるように、最後まで全力を尽くします。 (အဓိပ္ပာယ်- Yes! I will do my absolute best until the end so that I can live up to the expectations of everyone supporting me.)",
+        "translationMy": "はい！応援してくださる方々の期待に応えられるように、最後まで全力を尽くします。 (အဓိပ္ပာယ်- Yes! I will do my absolute best until the end so that I can live up to the expectations of everyone supporting me.)",
+        "myanmar": "はい！応援してくださる方々の期待に応えられるように、最後まで全力を尽くします。 (အဓိပ္ပာယ်- Yes! I will do my absolute best until the end so that I can live up to the expectations of everyone supporting me.)"
       }
     ],
     "questionIds": [
@@ -1702,7 +1702,7 @@
     },
     "titleMy": "日本語スピーチコンテストの準備 (နားထောင်ခြင်း)",
     "titleMyanmar": "日本語スピーチコンテストの準備 (နားထောင်ခြင်း)",
-    "translationMy": "Teacher Kawaguchi: Lee, your manuscript for next week's speech contest is written very well.\nLee: Thank you. I revised it many times so that my feelings would reach the audience.\nTeacher Kawaguchi: Dynamics in pronunciation are important too. It would be good to lift your chin slightly so that people at the very back of the hall can hear clearly.\nLee: Yes, teacher. I practice speaking out loud in front of the mirror every day at home so that I won't get stuck or forget midway.\nTeacher Kawaguchi: That is a wonderful attitude. In order to take the first prize in the contest, let's polish up your practice well over the remaining three days.\nLee: Yes! I will do my best until the end so that I can live up to the expectations of everyone supporting me."
+    "translationMy": "川口先生- မူကြမ်း သိပ်ကောင်းကောင်း ရေးထားတာပဲနော်။\nリー- ကျေးဇူးတင်ပါတယ်ခင်ဗျာ။\n川口先生- 発音の強弱も大切ですよ。会場の一番後ろの人にもはっきり聞こえるように、少し顎を上げて話すといいですね。 (အဓိပ္ပာယ်- Dynamics of pronunciation are also important. It would be good to lift your chin slightly so that people at the very back of the hall can hear clearly.)\nリー- はい、先生。途中で詰まったり忘れたりしないように、自宅でも毎日鏡の前で声を出して練習しています。 (အဓိပ္ပာယ်- Yes, teacher. I practice speaking out loud in front of the mirror every day at home so that I won’t get stuck or forget midway.)\n川口先生- 素晴らしい心がけです。コンテストで最優秀賞を取るために、あと三日しっかり練習を仕上げましょう。 (အဓိပ္ပာယ်- That is a wonderful attitude. In order to win the first prize in the contest, let’s polish up your practice over the remaining three days.)\nリー- はい！応援してくださる方々の期待に応えられるように、最後まで全力を尽くします。 (အဓိပ္ပာယ်- Yes! I will do my absolute best until the end so that I can live up to the expectations of everyone supporting me.)"
   },
   "questions": [
     {
@@ -1761,7 +1761,7 @@
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「合格する」 ဖြစ်ပါသည်။ (合格する means to pass an examination.)",
+      "explanationMy": "အဖြေမှန်မှာ 「合格する」 ဖြစ်ပါသည်။ (合格する သည် to pass an examination. ဟု အဓိပ္ပာယ်ရပါသည်)",
       "choicesMy": [
         "合格する",
         "失敗する",
@@ -1889,7 +1889,7 @@
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「メモする」 ဖြစ်ပါသည်။ (メモする means to take a note / memo down.)",
+      "explanationMy": "အဖြေမှန်မှာ 「メモする」 ဖြစ်ပါသည်။ (メモする သည် to take a note / memo down. ဟု အဓိပ္ပာယ်ရပါသည်)",
       "choicesMy": [
         "メモする",
         "コピーする",
@@ -2676,6 +2676,6 @@
   },
   "titleMy": "N4 Lesson 24: Purpose & Target (目的: 〜ために vs 〜ように) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 24: Purpose & Target (目的: 〜ために vs 〜ように) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 24: Purpose & Target (目的: 〜ために vs 〜ように) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "ရည်ရွယ်ချက်ဖော်ပြခြင်း (目的: 〜ために vs 〜ように) ၏ အဓိပ္ပာယ်နှင့် သဒ္ဒါကွဲပြားချက်များ။",
   "descriptionMyanmar": "N4 Lesson 24: Purpose & Target (目的: 〜ために vs 〜ように) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

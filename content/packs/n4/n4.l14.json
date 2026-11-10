@@ -948,7 +948,7 @@
           "meaning": "summon; convening",
           "preview": false,
           "meaningMyanmar": "summon; convening",
-          "meaningMy": "summon; convening"
+          "meaningMy": "ဆင့်ခေါ်ခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1005,7 +1005,7 @@
           "meaning": "survival",
           "preview": false,
           "meaningMyanmar": "survival",
-          "meaningMy": "survival"
+          "meaningMy": "ရှင်သန်ကျန်ရစ်ခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1055,7 +1055,7 @@
           "meaning": "to invite; to beckon",
           "preview": false,
           "meaningMyanmar": "to invite; to beckon",
-          "meaningMy": "to invite; to beckon"
+          "meaningMy": "ဖိတ်ခေါ်သည်"
         }
       ],
       "exampleSentenceIds": [
@@ -1097,7 +1097,7 @@
           "meaning": "to wait",
           "preview": false,
           "meaningMyanmar": "to wait",
-          "meaningMy": "to wait"
+          "meaningMy": "စောင့်ဆိုင်းသည်"
         },
         {
           "word": "招待",
@@ -1113,7 +1113,7 @@
           "meaning": "waiting room",
           "preview": false,
           "meaningMyanmar": "waiting room",
-          "meaningMy": "waiting room"
+          "meaningMy": "ဧည့်ကြိုခန်း / စောင့်ဆိုင်းခန်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1175,8 +1175,8 @@
       },
       "explanationMy": "လူကြီးမိဘ၊ ဆရာ၊ အထက်လူကြီး သို့မဟုတ် ဖောက်သည်များ၏ လုပ်ဆောင်ချက်ကို ရိုသေလေးစားသောအားဖြင့် မြှင့်တင်သုံးနှုန်းသော အထူးရိုသေစကားလုံးများ (尊敬語) ဖြစ်သည်။ မိမိကိုယ်တိုင် ပြုလုပ်သော အပြုအမူအတွက် လုံးဝ အသုံးမပြုရပါ။",
       "meaningMyanmar": "လူကြီးမိဘ၊ ဆရာ၊ အထက်လူကြီး သို့မဟုတ် ဖောက်သည်များ၏ လုပ်ဆောင်ချက်ကို ရိုသေလေးစားသောအားဖြင့် မြှင့်တင်သုံးနှုန်းသော အထူးရိုသေစကားလုံးများ (尊敬語) ဖြစ်သည်။ မိမိကိုယ်တိုင် ပြုလုပ်သော အပြုအမူအတွက် လုံးဝ အသုံးမပြုရပါ။",
-      "meaningMy": "လူကြီးမိဘ၊ ဆရာ၊ အထက်လူကြီး သို့မဟုတ် ဖောက်သည်များ၏ လုပ်ဆောင်ချက်ကို ရိုသေလေးစားသောအားဖြင့် မြှင့်တင်သုံးနှုန်းသော အထူးရိုသေစကားလုံးများ (尊敬語) ဖြစ်သည်။ မိမိကိုယ်တိုင် ပြုလုပ်သော အပြုအမူအတွက် လုံးဝ အသုံးမပြုရပါ။",
-      "nuanceExplanationMy": "[Honorific Verb: いらっしゃる・召し上がる・おっしゃる・なさる・ご覧になる] ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "လူကြီးမိဘ၊ ဆရာ၊ အထက်လူကြီး သို့မဟုတ် ဖောက်သည်များ၏ လုပ်ဆောင်ချက်ကို ရိုသေလေးစားသောအားဖြင့် မြှင့်တင်သုံးနှုန်းသော အထူးရိုသေစကားလုံးများ (尊敬語) ဖြစ်သည်။",
+      "nuanceExplanationMy": "[Honorific Verb: いらっしゃる・召し上がる・おっしゃる・なさる・ご覧になる] ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l14.g002",
@@ -1214,8 +1214,8 @@
       },
       "explanationMy": "ပုံမှန်ကြိယာများကို ရိုသေစကားအဖြစ် ပြောင်းလဲသော အခြေခံပုံစံ ဖြစ်သည်။ ပုံမှန်ကြိယာများတွင် お + ကြိယာ ます ဖြုတ် + になる / ください ကို သုံးပြီး တရုတ်စကားလုံးကြိယာများတွင် ご + နာမ် + になる / ください ကို သုံးသည်။",
       "meaningMyanmar": "ပုံမှန်ကြိယာများကို ရိုသေစကားအဖြစ် ပြောင်းလဲသော အခြေခံပုံစံ ဖြစ်သည်။ ပုံမှန်ကြိယာများတွင် お + ကြိယာ ます ဖြုတ် + になる / ください ကို သုံးပြီး တရုတ်စကားလုံးကြိယာများတွင် ご + နာမ် + になる / ください ကို သုံးသည်။",
-      "meaningMy": "ပုံမှန်ကြိယာများကို ရိုသေစကားအဖြစ် ပြောင်းလဲသော အခြေခံပုံစံ ဖြစ်သည်။ ပုံမှန်ကြိယာများတွင် お + ကြိယာ ます ဖြုတ် + になる / ください ကို သုံးပြီး တရုတ်စကားလုံးကြိယာများတွင် ご + နာမ် + になる / ください ကို သုံးသည်။",
-      "nuanceExplanationMy": "お + [Verb ます-stem] + になる / お + [Verb ます-stem] + ください ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "ပုံမှန်ကြိယာများကို ရိုသေစကားအဖြစ် ပြောင်းလဲသော အခြေခံပုံစံ ဖြစ်သည်။",
+      "nuanceExplanationMy": "お + [Verb ます-stem] + になる / お + [Verb ます-stem] + ください ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     }
   ],
   "sentences": [
@@ -1623,7 +1623,7 @@
     },
     "titleMy": "日本企業におけるお客様の迎え方 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "日本企業におけるお客様の迎え方 (ဖတ်ရှုခြင်း)",
-    "translationMy": "In Japanese companies, when welcoming guests from outside the firm, great attention is paid to language choice and etiquette. In order to demonstrate respect to the counterparty, it is required to properly use \"keigo,\" particularly \"sonkeigo\" (respectful speech), which differs from daily casual conversations.\n\nWhen a guest arrives at the reception desk, staff greet them first with a smile: \"Welcome. We have been expecting you.\" Then, after confirming their name and purpose of visit, they courteously guide them: \"I will guide you to the reception room. Please proceed this way.\"\n\nAfter escorting them into the reception room, the guest is invited to sit in the seat of honor (\"kamiza\") on the sofa. When serving green tea, one says \"Please enjoy the tea.\" Furthermore, while waiting for the person in charge to arrive, to prevent the guest from becoming bored, it is also important to suggest: \"Would you please take a look at this new product document while waiting?\"\n\nUsing respectful language properly is not only a sign of respect toward the other party, but an essential business manner that elevates the company's credibility."
+    "translationMy": "N4 Lesson 14: Respectful Keigo (尊敬語: いらっしゃる・召し上がる・お〜になる) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l14.l01",
@@ -1644,44 +1644,65 @@
       {
         "speaker": "受付スタッフ",
         "ja": "いらっしゃいませ。ABC商事の受付でございます。",
-        "kana": "いらっしゃいませ。ABC商事の受付でございます。",
-        "en": ""
+        "kana": "いらっしゃいませ。エービーシーしょうじのうけつけでございます。",
+        "en": "Welcome. This is ABC Trading reception.",
+        "my": "ကြိုဆိုပါတယ်ခင်ဗျာ။ ABC ကုန်သွယ်ရေး ဧည့်ကြိုကောင်တာမှ ဖြစ်ပါတယ်ခင်ဗျာ။",
+        "myanmar": "ကြိုဆိုပါတယ်ခင်ဗျာ။ ABC ကုန်သွယ်ရေး ဧည့်ကြိုကောင်တာမှ ဖြစ်ပါတယ်ခင်ဗျာ။",
+        "translationMy": "ကြိုဆိုပါတယ်ခင်ဗျာ။ ABC ကုန်သွယ်ရေး ဧည့်ကြိုကောင်တာမှ ဖြစ်ပါတယ်ခင်ဗျာ။"
       },
       {
         "speaker": "中村部長",
         "ja": "こんにちは。私、東西物産の中村と申します。本日二時に高橋社長とお約束をいただいているのですが。",
-        "kana": "こんにちは。私、東西物産の中村と申します。本日二時に高橋社長とお約束をいただいているのですが。",
-        "en": ""
+        "kana": "こんにちは。わたくし、とうざいぶっさんのなかむらともうします。ほんじつにじにたかはししゃちょうとおやくそくをいただいているのですが。",
+        "en": "Good afternoon. My name is Nakamura from Tozai Corporation. I have an appointment with President Takahashi today at 2:00 PM.",
+        "my": "မင်္ဂလာပါခင်ဗျာ။ ကျွန်တော်ကတော့ တိုဇိုင်းဘုဆန်မှ နာခါမူရာ ဖြစ်ပါတယ်။ ဒီကနေ့ မွန်းလွဲ ၂ နာရီမှာ ဥက္ကဋ္ဌ တာကာဟာရှိနှင့် ချိန်းဆိုထားမှု ရှိလို့ပါခင်ဗျာ။",
+        "myanmar": "မင်္ဂလာပါခင်ဗျာ။ ကျွန်တော်ကတော့ တိုဇိုင်းဘုဆန်မှ နာခါမူရာ ဖြစ်ပါတယ်။ ဒီကနေ့ မွန်းလွဲ ၂ နာရီမှာ ဥက္ကဋ္ဌ တာကာဟာရှိနှင့် ချိန်းဆိုထားမှု ရှိလို့ပါခင်ဗျာ။",
+        "translationMy": "မင်္ဂလာပါခင်ဗျာ။ ကျွန်တော်ကတော့ တိုဇိုင်းဘုဆန်မှ နာခါမူရာ ဖြစ်ပါတယ်။ ဒီကနေ့ မွန်းလွဲ ၂ နာရီမှာ ဥက္ကဋ္ဌ တာကာဟာရှိနှင့် ချိန်းဆိုထားမှု ရှိလို့ပါခင်ဗျာ။"
       },
       {
         "speaker": "受付スタッフ",
         "ja": "中村部長様でいらっしゃいますね。お待ちしておりました。高橋はただいま来客対応中ですが、間もなく終わると伺っております。",
-        "kana": "中村部長様でいらっしゃいますね。お待ちしておりました。高橋はただいま来客対応中ですが、間もなく終わると伺っております。",
-        "en": ""
+        "kana": "なかむらぶちょうさまでいらっしゃいますね。おまちしておりました。たかはしはただいまらいきゃくたいおうちゅうですが、まもなくおわるとうかがっております。",
+        "en": "Director Nakamura, yes. We have been expecting you! President Takahashi is currently meeting with another guest, but I hear he will finish momentarily.",
+        "my": "ဌာနမှူး နာခါမူရာဆန် ဖြစ်ပါသလားခင်ဗျာ။ စောင့်ဆိုင်းနေပါသည်ခင်ဗျာ။ ဥက္ကဋ္ဌ တာကာဟာရှိဟာ အခုလောလောဆယ် ဧည့်သည်လက်ခံတွေ့ဆုံနေဆဲဖြစ်ပေမဲ့ မကြာခင် ပြီးဆုံးမယ်လို့ သိထားရပါတယ်။",
+        "myanmar": "ဌာနမှူး နာခါမူရာဆန် ဖြစ်ပါသလားခင်ဗျာ။ စောင့်ဆိုင်းနေပါသည်ခင်ဗျာ။ ဥက္ကဋ္ဌ တာကာဟာရှိဟာ အခုလောလောဆယ် ဧည့်သည်လက်ခံတွေ့ဆုံနေဆဲဖြစ်ပေမဲ့ မကြာခင် ပြီးဆုံးမယ်လို့ သိထားရပါတယ်။",
+        "translationMy": "ဌာနမှူး နာခါမူရာဆန် ဖြစ်ပါသလားခင်ဗျာ။ စောင့်ဆိုင်းနေပါသည်ခင်ဗျာ။ ဥက္ကဋ္ဌ တာကာဟာရှိဟာ အခုလောလောဆယ် ဧည့်သည်လက်ခံတွေ့ဆုံနေဆဲဖြစ်ပေမဲ့ မကြာခင် ပြီးဆုံးမယ်လို့ သိထားရပါတယ်။"
       },
       {
         "speaker": "中村部長",
         "ja": "わかりました。こちらで待たせていただきます。",
-        "kana": "わかりました。こちらで待たせていただきます。",
-        "en": ""
+        "kana": "わかりました。こちらでまたせていただきます。",
+        "en": "Understood. I will wait here.",
+        "my": "နားလည်ပါပြီ။ ဒီနေရာကနေ စောင့်ဆိုင်းပါ့မယ်။",
+        "myanmar": "နားလည်ပါပြီ။ ဒီနေရာကနေ စောင့်ဆိုင်းပါ့မယ်။",
+        "translationMy": "နားလည်ပါပြီ။ ဒီနေရာကနေ စောင့်ဆိုင်းပါ့မယ်။"
       },
       {
         "speaker": "受付スタッフ",
         "ja": "恐れ入ります。こちらの第一応接室にお入りになって、ソファーにお掛けになってお待ちください。お茶をお持ちいたします。",
-        "kana": "恐れ入ります。こちらの第一応接室にお入りになって、ソファーにお掛けになってお待ちください。お茶をお持ちいたします。",
-        "en": ""
+        "kana": "おそれいります。こちらのだいいちおうせつしつにおはいりになって、ソファーにおかけになっておまちください。おちゃをおもちいたします。",
+        "en": "Pardon me for the wait. Please step into Reception Room 1 here, take a seat on the sofa, and wait. I will bring tea.",
+        "my": "အားနာပါသည်ခင်ဗျာ။ ဤဘက်ရှိ ပထမဧည့်ခန်းမသို့ ကြွရောက်ပြီး ဆိုဖာပေါ်တွင် သက်တောင့်သက်သာ ထိုင်စောင့်ပေးပါခင်ဗျာ။ လက်ဖက်ရည် တည်ခင်းပေးပါ့မယ်။",
+        "myanmar": "အားနာပါသည်ခင်ဗျာ။ ဤဘက်ရှိ ပထမဧည့်ခန်းမသို့ ကြွရောက်ပြီး ဆိုဖာပေါ်တွင် သက်တောင့်သက်သာ ထိုင်စောင့်ပေးပါခင်ဗျာ။ လက်ဖက်ရည် တည်ခင်းပေးပါ့မယ်။",
+        "translationMy": "အားနာပါသည်ခင်ဗျာ။ ဤဘက်ရှိ ပထမဧည့်ခန်းမသို့ ကြွရောက်ပြီး ဆိုဖာပေါ်တွင် သက်တောင့်သက်သာ ထိုင်စောင့်ပေးပါခင်ဗျာ။ လက်ဖက်ရည် တည်ခင်းပေးပါ့မယ်။"
       },
       {
         "speaker": "中村部長",
         "ja": "ありがとうございます。",
         "kana": "ありがとうございます。",
-        "en": ""
+        "en": "Thank you very much.",
+        "my": "ကျေးဇူးတင်ပါတယ်။",
+        "myanmar": "ကျေးဇူးတင်ပါတယ်။",
+        "translationMy": "ကျေးဇူးတင်ပါတယ်။"
       },
       {
         "speaker": "受付スタッフ",
         "ja": "社長がお見えになりましたら、すぐにご案内いたします。",
-        "kana": "社長がお見えになりましたら、すぐにご案内いたします。",
-        "en": ""
+        "kana": "しゃちょうがおみえになりましたら、すぐにごあんないいたします。",
+        "en": "As soon as the President appears, I will direct him right in.",
+        "my": "ဥက္ကဋ္ဌ ကြွရောက်လာပါက ချက်ချင်း လမ်းညွှန်ပို့ဆောင်ပေးပါ့မယ်ခင်ဗျာ။",
+        "myanmar": "ဥက္ကဋ္ဌ ကြွရောက်လာပါက ချက်ချင်း လမ်းညွှန်ပို့ဆောင်ပေးပါ့မယ်ခင်ဗျာ။",
+        "translationMy": "ဥက္ကဋ္ဌ ကြွရောက်လာပါက ချက်ချင်း လမ်းညွှန်ပို့ဆောင်ပေးပါ့မယ်ခင်ဗျာ။"
       }
     ],
     "questionIds": [
@@ -1701,7 +1722,7 @@
     },
     "titleMy": "受付でのお出迎えと社長の予定 (နားထောင်ခြင်း)",
     "titleMyanmar": "受付でのお出迎えと社長の予定 (နားထောင်ခြင်း)",
-    "translationMy": "Reception Staff: Welcome. This is ABC Trading reception.\nDirector Nakamura: Good afternoon. My name is Nakamura from Tozai Corporation. I have an appointment with President Takahashi today at 2:00 PM.\nReception Staff: Director Nakamura, yes. We have been expecting you! President Takahashi is currently meeting with another guest, but I hear he will finish momentarily.\nDirector Nakamura: Understood. I will wait here.\nReception Staff: Pardon me for the wait. Please step into Reception Room 1 here, take a seat on the sofa, and wait. I will bring tea.\nDirector Nakamura: Thank you very much.\nReception Staff: As soon as the President appears, I will direct him right in."
+    "translationMy": "受付スタッフ- ကြိုဆိုပါတယ်ခင်ဗျာ။ ABC ကုန်သွယ်ရေး ဧည့်ကြိုကောင်တာမှ ဖြစ်ပါတယ်ခင်ဗျာ။\n中村部長- မင်္ဂလာပါခင်ဗျာ။ ကျွန်တော်ကတော့ တိုဇိုင်းဘုဆန်မှ နာခါမူရာ ဖြစ်ပါတယ်။ ဒီကနေ့ မွန်းလွဲ ၂ နာရီမှာ ဥက္ကဋ္ဌ တာကာဟာရှိနှင့် ချိန်းဆိုထားမှု ရှိလို့ပါခင်ဗျာ။\n受付スタッフ- ဌာနမှူး နာခါမူရာဆန် ဖြစ်ပါသလားခင်ဗျာ။ စောင့်ဆိုင်းနေပါသည်ခင်ဗျာ။ ဥက္ကဋ္ဌ တာကာဟာရှိဟာ အခုလောလောဆယ် ဧည့်သည်လက်ခံတွေ့ဆုံနေဆဲဖြစ်ပေမဲ့ မကြာခင် ပြီးဆုံးမယ်လို့ သိထားရပါတယ်။\n中村部長- နားလည်ပါပြီ။ ဒီနေရာကနေ စောင့်ဆိုင်းပါ့မယ်။\n受付スタッフ- အားနာပါသည်ခင်ဗျာ။ ဤဘက်ရှိ ပထမဧည့်ခန်းမသို့ ကြွရောက်ပြီး ဆိုဖာပေါ်တွင် သက်တောင့်သက်သာ ထိုင်စောင့်ပေးပါခင်ဗျာ။ လက်ဖက်ရည် တည်ခင်းပေးပါ့မယ်။\n中村部長- ကျေးဇူးတင်ပါတယ်။\n受付スタッフ- ဥက္ကဋ္ဌ ကြွရောက်လာပါက ချက်ချင်း လမ်းညွှန်ပို့ဆောင်ပေးပါ့မယ်ခင်ဗျာ။"
   },
   "questions": [
     {
@@ -2675,6 +2696,6 @@
   },
   "titleMy": "N4 Lesson 14: Respectful Keigo (尊敬語: いらっしゃる・召し上がる・お〜になる) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 14: Respectful Keigo (尊敬語: いらっしゃる・召し上がる・お〜になる) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 14: Respectful Keigo (尊敬語: いらっしゃる・召し上がる・お〜になる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "ရိုသေလေးစားသော စကားအသုံးအနှုန်း (尊敬語: お〜になる、〜なさる နှင့် အထူးကြိယာများ) ဆိုင်ရာ ယဉ်ကျေးမှု သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 14: Respectful Keigo (尊敬語: いらっしゃる・召し上がる・お〜になる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

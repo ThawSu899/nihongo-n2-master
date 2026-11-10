@@ -945,7 +945,7 @@
           "meaning": "birth; creation",
           "preview": false,
           "meaningMyanmar": "birth; creation",
-          "meaningMy": "birth; creation"
+          "meaningMy": "မွေးဖွားခြင်း"
         },
         {
           "word": "誕生日",
@@ -953,7 +953,7 @@
           "meaning": "birthday",
           "preview": false,
           "meaningMyanmar": "birthday",
-          "meaningMy": "birthday"
+          "meaningMy": "မွေးနေ့"
         }
       ],
       "exampleSentenceIds": [
@@ -1056,7 +1056,7 @@
           "meaning": "departure",
           "preview": false,
           "meaningMyanmar": "departure",
-          "meaningMy": "departure"
+          "meaningMy": "ထွက်ခွာခြင်း"
         },
         {
           "word": "発見",
@@ -1064,7 +1064,7 @@
           "meaning": "discovery",
           "preview": false,
           "meaningMyanmar": "discovery",
-          "meaningMy": "discovery"
+          "meaningMy": "ရှာဖွေတွေ့ရှိခြင်း"
         }
       ],
       "exampleSentenceIds": [
@@ -1108,7 +1108,7 @@
           "meaning": "expression",
           "preview": false,
           "meaningMyanmar": "expression",
-          "meaningMy": "expression"
+          "meaningMy": "ဖော်ပြချက်"
         },
         {
           "word": "現在",
@@ -1116,7 +1116,7 @@
           "meaning": "present; current",
           "preview": false,
           "meaningMyanmar": "present; current",
-          "meaningMy": "present; current"
+          "meaningMy": "လက်ရှိ / ပစ္စုပ္ပန်"
         }
       ],
       "exampleSentenceIds": [
@@ -1178,8 +1178,8 @@
       },
       "explanationMy": "သဘာဝအလျောက် အလိုအလျောက် အာရုံထဲသို့ ရောက်ရှိလာခြင်း (自然発生) နှင့် မိမိဆန္ဒအရ ပြုလုပ်နိုင်သော စွမ်းဆောင်ရည် (可能形) ၏ ခြားနားချက်:\n- 見える / 聞こえる: ဆန္ဒမပါဘဲ အလိုအလျောက် မျက်စိထဲသို့ မြင်နေရခြင်း၊ နားထဲသို့ ကြားနေရခြင်း (ဥပမာ- ပြတင်းပေါက်မှ ဖူဂျီတောင်ကို မြင်ရသည်၊ ငှက်သံ ကြားရသည်)။\n- 見られる / 聞ける: မိမိစိတ်ဆန္ဒဖြင့် အချိန်ပေး၍ ကြည့်ရှုနိုင်ခြင်း၊ နားဆင်ခွင့်ရရှိခြင်း (ဥပမာ- ရုပ်ရှင်ရုံသစ်တွင် ထိုရုပ်ရှင်ကို ကြည့်ရှုနိုင်သည်)။",
       "meaningMyanmar": "သဘာဝအလျောက် အလိုအလျောက် အာရုံထဲသို့ ရောက်ရှိလာခြင်း (自然発生) နှင့် မိမိဆန္ဒအရ ပြုလုပ်နိုင်သော စွမ်းဆောင်ရည် (可能形) ၏ ခြားနားချက်:\n- 見える / 聞こえる: ဆန္ဒမပါဘဲ အလိုအလျောက် မျက်စိထဲသို့ မြင်နေရခြင်း၊ နားထဲသို့ ကြားနေရခြင်း (ဥပမာ- ပြတင်းပေါက်မှ ဖူဂျီတောင်ကို မြင်ရသည်၊ ငှက်သံ ကြားရသည်)။\n- 見られる / 聞ける: မိမိစိတ်ဆန္ဒဖြင့် အချိန်ပေး၍ ကြည့်ရှုနိုင်ခြင်း၊ နားဆင်ခွင့်ရရှိခြင်း (ဥပမာ- ရုပ်ရှင်ရုံသစ်တွင် ထိုရုပ်ရှင်ကို ကြည့်ရှုနိုင်သည်)။",
-      "meaningMy": "သဘာဝအလျောက် အလိုအလျောက် အာရုံထဲသို့ ရောက်ရှိလာခြင်း (自然発生) နှင့် မိမိဆန္ဒအရ ပြုလုပ်နိုင်သော စွမ်းဆောင်ရည် (可能形) ၏ ခြားနားချက်:\n- 見える / 聞こえる: ဆန္ဒမပါဘဲ အလိုအလျောက် မျက်စိထဲသို့ မြင်နေရခြင်း၊ နားထဲသို့ ကြားနေရခြင်း (ဥပမာ- ပြတင်းပေါက်မှ ဖူဂျီတောင်ကို မြင်ရသည်၊ ငှက်သံ ကြားရသည်)။\n- 見られる / 聞ける: မိမိစိတ်ဆန္ဒဖြင့် အချိန်ပေး၍ ကြည့်ရှုနိုင်ခြင်း၊ နားဆင်ခွင့်ရရှိခြင်း (ဥပမာ- ရုပ်ရှင်ရုံသစ်တွင် ထိုရုပ်ရှင်ကို ကြည့်ရှုနိုင်သည်)။",
-      "nuanceExplanationMy": "Spontaneous Sensory Occurrence: 見える vs 見られる / 聞こえる vs 聞ける ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "သဘာဝအလျောက် အမြင်နှင့် အကြားအာရုံထဲသို့ ရောက်ရှိလာခြင်း (မြင်ရသည် / ကြားရသည်)",
+      "nuanceExplanationMy": "Spontaneous Sensory Occurrence: 見える vs 見られる / 聞こえる vs 聞ける ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l34.g002",
@@ -1216,8 +1216,8 @@
       },
       "explanationMy": "အလိုအလျောက် ဖြစ်ပေါ်ပြောင်းလဲသော ကံလိုကြိယာများ (自動詞) နှင့် ခံရဝါကျများ (受身文) ၏ ပေါင်းစပ်အသုံးပြုပုံ:\n- 決まる၊ 伝わる၊ 生まれる စသည့် အလိုအလျောက်ဖြစ် ကြိယာများသည် ပြုလုပ်သူကို အထူးမပြုဘဲ ဖြစ်ပေါ်လာသော အခြေအနေရလဒ်ကိုသာ အဓိကဖော်ပြသည်။\n- 受身形 (決められた၊ 伝えられた) သည် တစ်စုံတစ်ဦး၏ လုပ်ဆောင်မှုကြောင့် အရာဝတ္ထု သို့မဟုတ် လူပုဂ္ဂိုလ် ခံယူရပုံကို အဓိကထားသည်။",
       "meaningMyanmar": "အလိုအလျောက် ဖြစ်ပေါ်ပြောင်းလဲသော ကံလိုကြိယာများ (自動詞) နှင့် ခံရဝါကျများ (受身文) ၏ ပေါင်းစပ်အသုံးပြုပုံ:\n- 決まる၊ 伝わる၊ 生まれる စသည့် အလိုအလျောက်ဖြစ် ကြိယာများသည် ပြုလုပ်သူကို အထူးမပြုဘဲ ဖြစ်ပေါ်လာသော အခြေအနေရလဒ်ကိုသာ အဓိကဖော်ပြသည်။\n- 受身形 (決められた၊ 伝えられた) သည် တစ်စုံတစ်ဦး၏ လုပ်ဆောင်မှုကြောင့် အရာဝတ္ထု သို့မဟုတ် လူပုဂ္ဂိုလ် ခံယူရပုံကို အဓိကထားသည်။",
-      "meaningMy": "အလိုအလျောက် ဖြစ်ပေါ်ပြောင်းလဲသော ကံလိုကြိယာများ (自動詞) နှင့် ခံရဝါကျများ (受身文) ၏ ပေါင်းစပ်အသုံးပြုပုံ:\n- 決まる၊ 伝わる၊ 生まれる စသည့် အလိုအလျောက်ဖြစ် ကြိယာများသည် ပြုလုပ်သူကို အထူးမပြုဘဲ ဖြစ်ပေါ်လာသော အခြေအနေရလဒ်ကိုသာ အဓိကဖော်ပြသည်။\n- 受身形 (決められた၊ 伝えられた) သည် တစ်စုံတစ်ဦး၏ လုပ်ဆောင်မှုကြောင့် အရာဝတ္ထု သို့မဟုတ် လူပုဂ္ဂိုလ် ခံယူရပုံကို အဓိကထားသည်။",
-      "nuanceExplanationMy": "Spontaneous Intransitives vs Passive Voice (自然発生動詞と受身文の統合) ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အခြားသူ၏ ပြုမူဆောင်ရွက်မှုကြောင့် မိမိထံ သက်ရောက်မှုခံရခြင်း (အပြုခံရသည့် ပုံစံ)",
+      "nuanceExplanationMy": "Spontaneous Intransitives vs Passive Voice (自然発生動詞と受身文の統合) ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     }
   ],
   "sentences": [
@@ -1597,7 +1597,7 @@
     "title": "富士山を望む温泉宿の朝",
     "level": "N4",
     "text": "山梨県の河口湖畔にある温泉旅館に泊まった朝、私は普段よりも少し早く目が覚めました。障子を開けて窓の外を眺めると、朝霧の向こうに雄大で優美な富士山の姿がくっきりと見えました。\n\n都会の喧騒から離れたこの静かな湖畔では、湖面を渡る清らかな風の音や、森の鳥たちの澄んださえずりが心地よく聞こえてきます。澄み切った空気を胸いっぱいに吸い込むと、日頃の忙しい生活の中で溜まっていたストレスがすうっと消えていくのを感じました。\n\nこの地域には、昔から富士山を神聖な山として敬い、豊かな自然を守り続けてきた歴史と伝統が今もしっかりと伝わっています。旅館のスタッフによる温かいおもてなしの心にも、そうした先人たちから代々受け継がれてきた伝統の精神が生きています。\n\n朝食を美味しくいただいた後、私たちは次の目的地へ向けて爽やかな気持ちで旅館を出発しました。",
-    "kanaText": "やまなしけんのかわぐちこはんにあるおんせんりょかんにとまったあさ、わたしはふだんよりもすこしはやくめがさめました。しょうじをあけてまどのそとをながめると、あさぎりのむこうにゆうだいでゆうびなふじさんのすがたがくっきりとみえました。\n\nとかいのけんそうからはなれたこのしずかなこはんでは、こめんをわたるきよらかなぜのおとや、もりのとりたちのすんださえずりがここちよくきこえてきます。すみきったくうきをむねいっぱいすいこむと、ひごろのいそがしいせいかつのなかでたまっていたストレスがすうっときえていくのをかんじました。\n\nこのちいきには、むかしからふじさんをしんせいなやまとしてうやまい、ゆたか动作な自然をまもりつづけてきたれきしとでんとうがいまもしっかりとつたわっています。りょかんのスタッフによるあたたかいおもてなしのこころにも、そうしたせんじんたちからだいだいうけつがれてきたでんとうのせいしんがいきています。\n\nちょうしょくをおいしくいただいたあと、わたしたちはつぎのもくてきちへむけてさわやかなきもちでりょかんをしゅっぱつしました。",
+    "kanaText": "やまなしけんのかわぐちこはんにあるおんせんりょかんにとまったあさ、わたしはふだんよりもすこしはやくめがさめました。しょうじをあけてまどのそとをながめると、あさぎりのむこうにゆうだいでゆうびなふじさんのすがたがくっきりとみえました。\n\nとかいのけんそうからはなれたこのしずかなこはんでは、こめんをわたるきよらかなぜのおとや、もりのとりたちのすんださえずりがここちよくきこえてきます。すみきったくうきをむねいっぱいすいこむと、ひごろのいそがしいせいかつのなかでたまっていたストレスがすうっときえていくのをかんじました。\n\nこのちいきには、むかしからふじさんをしんせいなやまとしてうやまい、ゆたかなしぜんをまもりつづけてきたれきしとでんとうがいまもしっかりとつたわっています。りょかんのスタッフによるあたたかいおもてなしのこころにも、そうしたせんじんたちからだいだいうけつがれてきたでんとうのせいしんがいきています。\n\nちょうしょくをおいしくいただいたあと、わたしたちはつぎのもくてきちへむけてさわやかなきもちでりょかんをしゅっぱつしました。",
     "translation": "On the morning I stayed at a hot spring inn on the shore of Lake Kawaguchi in Yamanashi, I woke up slightly earlier than usual. Opening the sliding screen and gazing out the window, beyond the morning mist the majestic and elegant figure of Mt. Fuji was clearly visible.\n\nOn this quiet lakeshore separated from city hustle and bustle, the sound of crisp wind crossing the lake surface and clear chirping of forest birds could be heard comfortably. Inhaling the crystal-clear air deeply, I felt the stress accumulated in daily busy life smoothly fade away.\n\nIn this region, the history and tradition of revering Mt. Fuji as a sacred mountain and protecting rich nature have been firmly handed down since ancient times even now. In the warm hospitality of the inn staff, such traditional spirits inherited across generations from ancestors remain alive.\n\nAfter savoring a delicious breakfast, we departed the inn with refreshed spirits toward our next destination.",
     "questionIds": [
       "n4.l34.q025",
@@ -1615,7 +1615,7 @@
     },
     "titleMy": "富士山を望む温泉宿の朝 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "富士山を望む温泉宿の朝 (ဖတ်ရှုခြင်း)",
-    "translationMy": "On the morning I stayed at a hot spring inn on the shore of Lake Kawaguchi in Yamanashi, I woke up slightly earlier than usual. Opening the sliding screen and gazing out the window, beyond the morning mist the majestic and elegant figure of Mt. Fuji was clearly visible.\n\nOn this quiet lakeshore separated from city hustle and bustle, the sound of crisp wind crossing the lake surface and clear chirping of forest birds could be heard comfortably. Inhaling the crystal-clear air deeply, I felt the stress accumulated in daily busy life smoothly fade away.\n\nIn this region, the history and tradition of revering Mt. Fuji as a sacred mountain and protecting rich nature have been firmly handed down since ancient times even now. In the warm hospitality of the inn staff, such traditional spirits inherited across generations from ancestors remain alive.\n\nAfter savoring a delicious breakfast, we departed the inn with refreshed spirits toward our next destination."
+    "translationMy": "N4 Lesson 34: Passive & Potential Synthesis (受身・可能・自然発生の総合展開: 見える・聞こえる・生まれる・読まれる) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l34.l01",
@@ -1638,72 +1638,72 @@
         "ja": "チェンさん、こちらが南向きの明るいお部屋になります。",
         "kana": "チェンさん、こちらがみなみむきのあかるいおへやになります。",
         "en": "Chen, this is the south-facing bright room.",
-        "my": "Chen, this is the south-facing bright room.",
-        "translationMy": "Chen, this is the south-facing bright room.",
-        "myanmar": "Chen, this is the south-facing bright room."
+        "my": "チェンさん、こちらが南向きの明るいお部屋になります。 (အဓိပ္ပာယ်- Chen, this is the south-facing bright room.)",
+        "translationMy": "チェンさん、こちらが南向きの明るいお部屋になります。 (အဓိပ္ပာယ်- Chen, this is the south-facing bright room.)",
+        "myanmar": "チェンさん、こちらが南向きの明るいお部屋になります。 (အဓိပ္ပာယ်- Chen, this is the south-facing bright room.)"
       },
       {
         "speaker": "チェン",
         "ja": "わあ、日当たりが良くて広いですね！ベランダから緑の公園が見えますね。",
         "kana": "わあ、ひあたりがよくてひろいですね！ベランダからみどりのこうえんがみえますね。",
         "en": "Wow, great sunlight and spacious! The green park is visible from the veranda.",
-        "my": "Wow, great sunlight and spacious! The green park is visible from the veranda.",
-        "translationMy": "Wow, great sunlight and spacious! The green park is visible from the veranda.",
-        "myanmar": "Wow, great sunlight and spacious! The green park is visible from the veranda."
+        "my": "わあ、日当たりが良くて広いですね！ベランダから緑の公園が見えますね。 (အဓိပ္ပာယ်- Wow, great sunlight and spacious! The green park is visible from the veranda.)",
+        "translationMy": "わあ、日当たりが良くて広いですね！ベランダから緑の公園が見えますね。 (အဓိပ္ပာယ်- Wow, great sunlight and spacious! The green park is visible from the veranda.)",
+        "myanmar": "わあ、日当たりが良くて広いですね！ベランダから緑の公園が見えますね。 (အဓိပ္ပာယ်- Wow, great sunlight and spacious! The green park is visible from the veranda.)"
       },
       {
         "speaker": "松田",
         "ja": "はい。天気が良ければ、遠くにスカイツリーの先端も見えますよ。",
         "kana": "はい。てんきがよければ、とおくにスカイツリーのせんたんもみえますよ。",
         "en": "Yes. If the weather is good, the tip of the Skytree can be seen in the distance too.",
-        "my": "Yes. If the weather is good, the tip of the Skytree can be seen in the distance too.",
-        "translationMy": "Yes. If the weather is good, the tip of the Skytree can be seen in the distance too.",
-        "myanmar": "Yes. If the weather is good, the tip of the Skytree can be seen in the distance too."
+        "my": "はい。天気が良ければ、遠くにスカイツリーの先端も見えますよ。 (အဓိပ္ပာယ်- Yes. If the weather is good, the tip of the Skytree can be seen in the distance too.)",
+        "translationMy": "はい。天気が良ければ、遠くにスカイツリーの先端も見えますよ。 (အဓိပ္ပာယ်- Yes. If the weather is good, the tip of the Skytree can be seen in the distance too.)",
+        "myanmar": "はい。天気が良ければ、遠くにスカイツリーの先端も見えますよ。 (အဓိပ္ပာယ်- Yes. If the weather is good, the tip of the Skytree can be seen in the distance too.)"
       },
       {
         "speaker": "チェン",
         "ja": "静かで落ち着きますね。道路の車の騒音は聞こえませんか？",
         "kana": "しずかでおちつきますね。どうろのくるまのそうおんはきこえませんか？",
         "en": "It is quiet and calm. Is car noise from the road audible?",
-        "my": "It is quiet and calm. Is car noise from the road audible?",
-        "translationMy": "It is quiet and calm. Is car noise from the road audible?",
-        "myanmar": "It is quiet and calm. Is car noise from the road audible?"
+        "my": "静かで落ち着きますね。道路の車の騒音は聞こえませんか？ (အဓိပ္ပာယ်- It is quiet and calm. Is car noise from the road audible?)",
+        "translationMy": "静かで落ち着きますね。道路の車の騒音は聞こえませんか？ (အဓိပ္ပာယ်- It is quiet and calm. Is car noise from the road audible?)",
+        "myanmar": "静かで落ち着きますね。道路の車の騒音は聞こえませんか？ (အဓိပ္ပာယ်- It is quiet and calm. Is car noise from the road audible?)"
       },
       {
         "speaker": "松田",
         "ja": "二重窓になっていますから、外の音はほとんど聞こえません。夜もぐっすり眠れますよ。",
         "kana": "にじゅうまどになっていますから、そとのおとはほとんどきこえません。よるもぐっすりねむれますよ。",
         "en": "Because it has double-pane windows, outside sounds can hardly be heard at all. You can sleep soundly at night.",
-        "my": "Because it has double-pane windows, outside sounds can hardly be heard at all. You can sleep soundly at night.",
-        "translationMy": "Because it has double-pane windows, outside sounds can hardly be heard at all. You can sleep soundly at night.",
-        "myanmar": "Because it has double-pane windows, outside sounds can hardly be heard at all. You can sleep soundly at night."
+        "my": "二重窓になっていますから、外の音はほとんど聞こえません。夜もぐっすり眠れますよ。 (အဓိပ္ပာယ်- Because it has double-pane windows, outside sounds can hardly be heard at all. You can sleep soundly at night.)",
+        "translationMy": "二重窓になっていますから、外の音はほとんど聞こえません。夜もぐっすり眠れますよ。 (အဓိပ္ပာယ်- Because it has double-pane windows, outside sounds can hardly be heard at all. You can sleep soundly at night.)",
+        "myanmar": "二重窓になっていますから、外の音はほとんど聞こえません。夜もぐっすり眠れますよ。 (အဓိပ္ပာယ်- Because it has double-pane windows, outside sounds can hardly be heard at all. You can sleep soundly at night.)"
       },
       {
         "speaker": "チェン",
         "ja": "それは安心です。近くにスーパーや駅へのバス停はありますか？",
         "kana": "それはあんしんです。ちかくにスーパーやえきへのバスていはありますか？",
         "en": "That is reassuring. Are there supermarkets or bus stops for the station nearby?",
-        "my": "That is reassuring. Are there supermarkets or bus stops for the station nearby?",
-        "translationMy": "That is reassuring. Are there supermarkets or bus stops for the station nearby?",
-        "myanmar": "That is reassuring. Are there supermarkets or bus stops for the station nearby?"
+        "my": "それは安心です。近くにスーパーや駅へのバス停はありますか？ (အဓိပ္ပာယ်- That is reassuring. Are there supermarkets or bus stops for the station nearby?)",
+        "translationMy": "それは安心です。近くにスーパーや駅へのバス停はありますか？ (အဓိပ္ပာယ်- That is reassuring. Are there supermarkets or bus stops for the station nearby?)",
+        "myanmar": "それは安心です。近くにスーパーや駅へのバス停はありますか？ (အဓိပ္ပာယ်- That is reassuring. Are there supermarkets or bus stops for the station nearby?)"
       },
       {
         "speaker": "松田",
         "ja": "徒歩三分で駅前行きのバス停があり、十分おきに出発しています。",
         "kana": "とほさんぷんでえきまえいきのバスていがあり、じゅっぷんおきにしゅっぱつしています。",
         "en": "A 3-minute walk away there is a bus stop bound for the station, departing every 10 minutes.",
-        "my": "A 3-minute walk away there is a bus stop bound for the station, departing every 10 minutes.",
-        "translationMy": "A 3-minute walk away there is a bus stop bound for the station, departing every 10 minutes.",
-        "myanmar": "A 3-minute walk away there is a bus stop bound for the station, departing every 10 minutes."
+        "my": "徒歩三分で駅前行きのバス停があり、十分おきに出発しています。 (အဓိပ္ပာယ်- A 3-minute walk away there is a bus stop bound for the station, departing every 10 minutes.)",
+        "translationMy": "徒歩三分で駅前行きのバス停があり、十分おきに出発しています。 (အဓိပ္ပာယ်- A 3-minute walk away there is a bus stop bound for the station, departing every 10 minutes.)",
+        "myanmar": "徒歩三分で駅前行きのバス停があり、十分おきに出発しています。 (အဓိပ္ပာယ်- A 3-minute walk away there is a bus stop bound for the station, departing every 10 minutes.)"
       },
       {
         "speaker": "チェン",
         "ja": "素晴らしいですね！条件がすべて揃っているので、この部屋に決めたいと思います。",
         "kana": "すばらしいですね！じょうけんがすべてそろっているので、このへやにきめたいとおもいます。",
         "en": "Wonderful! All the conditions are in place, so I would like to decide on this room.",
-        "my": "Wonderful! All the conditions are in place, so I would like to decide on this room.",
-        "translationMy": "Wonderful! All the conditions are in place, so I would like to decide on this room.",
-        "myanmar": "Wonderful! All the conditions are in place, so I would like to decide on this room."
+        "my": "素晴らしいですね！条件がすべて揃っているので、この部屋に決めたいと思います。 (အဓိပ္ပာယ်- Wonderful! All the conditions are in place, so I would like to decide on this room.)",
+        "translationMy": "素晴らしいですね！条件がすべて揃っているので、この部屋に決めたいと思います。 (အဓိပ္ပာယ်- Wonderful! All the conditions are in place, so I would like to decide on this room.)",
+        "myanmar": "素晴らしいですね！条件がすべて揃っているので、この部屋に決めたいと思います。 (အဓိပ္ပာယ်- Wonderful! All the conditions are in place, so I would like to decide on this room.)"
       }
     ],
     "questionIds": [
@@ -1721,7 +1721,7 @@
     },
     "titleMy": "新しいアパートの内見と周辺環境 (နားထောင်ခြင်း)",
     "titleMyanmar": "新しいアパートの内見と周辺環境 (နားထောင်ခြင်း)",
-    "translationMy": "Matsuda: Chen, this is the south-facing bright room.\nChen: Wow, it gets great sunlight and is spacious! From the veranda, the green park is visible.\nMatsuda: Yes. If the weather is nice, the tip of the Skytree can be seen in the distance too.\nChen: It is quiet and calming. Can traffic noise from the road be heard?\nMatsuda: Because it has double-glazed windows, outside noises can hardly be heard at all. You can sleep soundly at night too.\nChen: That is reassuring. Are there supermarkets or bus stops to the station nearby?\nMatsuda: Within a 3-minute walk there is a bus stop bound for the station, departing every 10 minutes.\nChen: Fantastic! All conditions are met, so I think I want to decide on this room."
+    "translationMy": "松田- チェンさん、こちらが南向きの明るいお部屋になります。 (အဓိပ္ပာယ်- Chen, this is the south-facing bright room.)\nチェン- わあ、日当たりが良くて広いですね！ベランダから緑の公園が見えますね。 (အဓိပ္ပာယ်- Wow, great sunlight and spacious! The green park is visible from the veranda.)\n松田- はい。天気が良ければ、遠くにスカイツリーの先端も見えますよ。 (အဓိပ္ပာယ်- Yes. If the weather is good, the tip of the Skytree can be seen in the distance too.)\nチェン- 静かで落ち着きますね。道路の車の騒音は聞こえませんか？ (အဓိပ္ပာယ်- It is quiet and calm. Is car noise from the road audible?)\n松田- 二重窓になっていますから、外の音はほとんど聞こえません。夜もぐっすり眠れますよ。 (အဓိပ္ပာယ်- Because it has double-pane windows, outside sounds can hardly be heard at all. You can sleep soundly at night.)\nチェン- それは安心です。近くにスーパーや駅へのバス停はありますか？ (အဓိပ္ပာယ်- That is reassuring. Are there supermarkets or bus stops for the station nearby?)\n松田- 徒歩三分で駅前行きのバス停があり、十分おきに出発しています。 (အဓိပ္ပာယ်- A 3-minute walk away there is a bus stop bound for the station, departing every 10 minutes.)\nチェン- 素晴らしいですね！条件がすべて揃っているので、この部屋に決めたいと思います。 (အဓိပ္ပာယ်- Wonderful! All the conditions are in place, so I would like to decide on this room.)"
   },
   "questions": [
     {
@@ -1908,7 +1908,7 @@
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「聞こえる」 ဖြစ်ပါသည်။ (聞こえる means audible spontaneously without conscious effort.)",
+      "explanationMy": "အဖြေမှန်မှာ 「聞こえる」 ဖြစ်ပါသည်။ (聞こえる သည် audible spontaneously without conscious effort. ဟု အဓိပ္ပာယ်ရပါသည်)",
       "choicesMy": [
         "聞こえる",
         "聞ける",
@@ -1940,7 +1940,7 @@
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「見える」 ဖြစ်ပါသည်။ (見える means visible spontaneously.)",
+      "explanationMy": "အဖြေမှန်မှာ 「見える」 ဖြစ်ပါသည်။ (見える သည် visible spontaneously. ဟု အဓိပ္ပာယ်ရပါသည်)",
       "choicesMy": [
         "見える",
         "見られる",
@@ -2694,6 +2694,6 @@
   },
   "titleMy": "N4 Lesson 34: Passive & Potential Synthesis (受身・可能・自然発生の総合展開: 見える・聞こえる・生まれる・読まれる) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 34: Passive & Potential Synthesis (受身・可能・自然発生の総合展開: 見える・聞こえる・生まれる・読まれる) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 34: Passive & Potential Synthesis (受身・可能・自然発生の総合展開: 見える・聞こえる・生まれる・読まれる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "အပြုခံနှင့် စွမ်းရည်ပြ သဒ္ဒါများ ပေါင်းစပ်အသုံးပြုခြင်း (受身・可能の総合実践) ဆိုင်ရာ လေ့ကျင့်ခန်းများ။",
   "descriptionMyanmar": "N4 Lesson 34: Passive & Potential Synthesis (受身・可能・自然発生の総合展開: 見える・聞こえる・生まれる・読まれる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }

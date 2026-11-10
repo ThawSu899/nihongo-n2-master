@@ -951,7 +951,7 @@
           "meaning": "crying voice",
           "preview": false,
           "meaningMyanmar": "crying voice",
-          "meaningMy": "crying voice"
+          "meaningMy": "ငိုသံ"
         }
       ],
       "exampleSentenceIds": [
@@ -1002,7 +1002,7 @@
           "meaning": "smiling face",
           "preview": false,
           "meaningMyanmar": "smiling face",
-          "meaningMy": "smiling face"
+          "meaningMy": "ပြုံးရွှင်သောမျက်နှာ"
         }
       ],
       "exampleSentenceIds": [
@@ -1052,7 +1052,7 @@
           "meaning": "driving",
           "preview": false,
           "meaningMyanmar": "driving",
-          "meaningMy": "driving"
+          "meaningMy": "ယာဉ်မောင်းနှင်ခြင်း"
         },
         {
           "word": "運動",
@@ -1110,7 +1110,7 @@
           "meaning": "to blame; to reproach",
           "preview": false,
           "meaningMyanmar": "to blame; to reproach",
-          "meaningMy": "to blame; to reproach"
+          "meaningMy": "အပြစ်တင်သည်"
         }
       ],
       "exampleSentenceIds": [
@@ -1172,8 +1172,8 @@
       },
       "explanationMy": "ကံပုဒ် (Object) ပါရှိသော ကံလိုကြိယာများတွင် ပြုလုပ်ခိုင်းခံရသူကို「に」ဖြင့် ပြပြီး ကံပုဒ်ကို「を」ဖြင့် ပြသည်။",
       "meaningMyanmar": "ကံပုဒ် (Object) ပါရှိသော ကံလိုကြိယာများတွင် ပြုလုပ်ခိုင်းခံရသူကို「に」ဖြင့် ပြပြီး ကံပုဒ်ကို「を」ဖြင့် ပြသည်။",
-      "meaningMy": "ကံပုဒ် (Object) ပါရှိသော ကံလိုကြိယာများတွင် ပြုလုပ်ခိုင်းခံရသူကို「に」ဖြင့် ပြပြီး ကံပုဒ်ကို「を」ဖြင့် ပြသည်။",
-      "nuanceExplanationMy": "[Causer] は [Causee] に [Object] を [Verb 使役形 (〜せる/〜させる)] ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အခြားသူတစ်ဦးအား တစ်စုံတစ်ခုကို စေခိုင်းခြင်း သို့မဟုတ် ခွင့်ပြုပေးခြင်း (စေခိုင်းပုံစံ)",
+      "nuanceExplanationMy": "[Causer] は [Causee] に [Object] を [Verb 使役形 (〜せる/〜させる)] ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     },
     {
       "id": "n4.l12.g002",
@@ -1211,8 +1211,8 @@
       },
       "explanationMy": "ကံမလိုကြိယာများ (Intransitive verbs) တွင် ပြုလုပ်စေသူက ပြုလုပ်သူကို「を」ဖြင့် ပြသည်။ ဥပမာ- ကလေးကို ငိုစေသည် (子供を泣かせる)။",
       "meaningMyanmar": "ကံမလိုကြိယာများ (Intransitive verbs) တွင် ပြုလုပ်စေသူက ပြုလုပ်သူကို「を」ဖြင့် ပြသည်။ ဥပမာ- ကလေးကို ငိုစေသည် (子供を泣かせる)။",
-      "meaningMy": "ကံမလိုကြိယာများ (Intransitive verbs) တွင် ပြုလုပ်စေသူက ပြုလုပ်သူကို「を」ဖြင့် ပြသည်။ ဥပမာ- ကလေးကို ငိုစေသည် (子供を泣かせる)။",
-      "nuanceExplanationMy": "[Causer] は [Causee] を [Verb 使役形 (〜せる/〜させる)] ၏ သဒ္ဒါအသုံးအနှုန်းနှင့် သတိပြုရမည့် အချက်များ။"
+      "meaningMy": "အခြားသူတစ်ဦးအား တစ်စုံတစ်ခုကို စေခိုင်းခြင်း သို့မဟုတ် ခွင့်ပြုပေးခြင်း (စေခိုင်းပုံစံ)",
+      "nuanceExplanationMy": "[Causer] は [Causee] を [Verb 使役形 (〜せる/〜させる)] ပုံစံကို အသုံးပြုရာတွင် စကားပြောအဆင့်အတန်းနှင့် အခြေအနေကို သတိပြုရန် လိုအပ်ပါသည်။ သတိပြုရန်- ကံပုဒ်တွင် ကို (を) အစား ဂ (が) ကို မှန်ကန်စွာ အသုံးပြုရပါမည်။"
     }
   ],
   "sentences": [
@@ -1621,7 +1621,7 @@
     },
     "titleMy": "職場で若手を育てる指導法 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "職場で若手を育てる指導法 (ဖတ်ရှုခြင်း)",
-    "translationMy": "In my company, new employees join every spring. Senior employees in charge of mentoring make various adjustments so new recruits can quickly master their jobs.\n\nPreviously, seniors decided every task and dictated detailed procedures to freshmen, making them execute everything identically. However, that method failed to develop the rookies' ability to think and act independently.\n\nTherefore, starting this year, the mentoring policy was changed. After having them learn basic greetings and telephone etiquette, we had new employees think up plans for small projects freely. Of course, if they make a mistake, seniors take responsibility, and when stuck, they are told not to hesitate to ask questions.\n\nAs a result of letting them act on their own thoughts, the newcomers began working vigorously. At the recent internal presentation, the newcomers presented their ideas with confidence, surprising company executives. I truly realize that entrusting responsible tasks to young staff and letting them gain experience leads to the greatest growth."
+    "translationMy": "N4 Lesson 12: Causative Form (使役: 読ませる・食べさせる) ၏ စာဖတ်လေ့ကျင့်ခန်း မြန်မာပြန်ဆိုချက်။"
   },
   "listening": {
     "id": "n4.l12.l01",
@@ -1642,38 +1642,56 @@
       {
         "speaker": "課長",
         "ja": "佐藤さん、来週からの新入社員研修の準備はどう進んでいるかな。",
-        "kana": "佐藤さん、来週からの新入社員研修の準備はどう進んでいるかな。",
-        "en": ""
+        "kana": "さとうさん、らいしゅうからのしんにゅうしゃいんけんしゅうのじゅんびはどうすすんでいるかな。",
+        "en": "Sato-san, how is preparation for next week's new employee training progressing?",
+        "my": "ဆာတိုးဆန်၊ လာမယ့်အပတ်ကစမယ့် ဝန်ထမ်းသစ် လေ့ကျင့်ရေးပြင်ဆင်မှု ဘယ်လိုရှိနေပြီလဲ။",
+        "myanmar": "ဆာတိုးဆန်၊ လာမယ့်အပတ်ကစမယ့် ဝန်ထမ်းသစ် လေ့ကျင့်ရေးပြင်ဆင်မှု ဘယ်လိုရှိနေပြီလဲ။",
+        "translationMy": "ဆာတိုးဆန်၊ လာမယ့်အပတ်ကစမယ့် ဝန်ထမ်းသစ် လေ့ကျင့်ရေးပြင်ဆင်မှု ဘယ်လိုရှိနေပြီလဲ။"
       },
       {
         "speaker": "佐藤",
         "ja": "はい、課長。研修の基本スケジュールは完成しました。今年は講義を聞かせるだけでなく、新人に実際の模擬商談を体験させようと考えています。",
-        "kana": "はい、課長。研修の基本スケジュールは完成しました。今年は講義を聞かせるだけでなく、新人に実際の模擬商談を体験させようと考えています。",
-        "en": ""
+        "kana": "はい、かちょう。けんしゅうのきほんスケジュールはかんせいしました。ことしはこうぎをきかせるだけでなく、しんじんにじっさいのもぎしょうだんをたいけんさせようとかんがえています。",
+        "en": "Yes, Section Manager. The basic training schedule is complete. This year, rather than just having them listen to lectures, I am planning to have the newcomers experience actual simulated business negotiations.",
+        "my": "ဟုတ်ကဲ့ပါ ဌာနမှူး။ လေ့ကျင့်ရေး အခြေခံအချိန်ဇယား ပြီးစီးပါပြီခင်ဗျာ။ ဒီနှစ်မှာ သင်ကြားပို့ချချက် နားထောင်ခိုင်းရုံသာမက ဝန်ထမ်းသစ်တွေကို လက်တွေ့ အရောင်းအဝယ်ဆွေးနွေးမှု အစမ်းသဘော တွေ့ကြုံစေဖို့ စဉ်းစားထားပါတယ်။",
+        "myanmar": "ဟုတ်ကဲ့ပါ ဌာနမှူး။ လေ့ကျင့်ရေး အခြေခံအချိန်ဇယား ပြီးစီးပါပြီခင်ဗျာ။ ဒီနှစ်မှာ သင်ကြားပို့ချချက် နားထောင်ခိုင်းရုံသာမက ဝန်ထမ်းသစ်တွေကို လက်တွေ့ အရောင်းအဝယ်ဆွေးနွေးမှု အစမ်းသဘော တွေ့ကြုံစေဖို့ စဉ်းစားထားပါတယ်။",
+        "translationMy": "ဟုတ်ကဲ့ပါ ဌာနမှူး။ လေ့ကျင့်ရေး အခြေခံအချိန်ဇယား ပြီးစီးပါပြီခင်ဗျာ။ ဒီနှစ်မှာ သင်ကြားပို့ချချက် နားထောင်ခိုင်းရုံသာမက ဝန်ထမ်းသစ်တွေကို လက်တွေ့ အရောင်းအဝယ်ဆွေးနွေးမှု အစမ်းသဘော တွေ့ကြုံစေဖို့ စဉ်းစားထားပါတယ်။"
       },
       {
         "speaker": "課長",
         "ja": "それはいいね。座学だけより実践させた方が理解が深まるよ。",
-        "kana": "それはいいね。座学だけより実践させた方が理解が深まるよ。",
-        "en": ""
+        "kana": "それはいいね。ざがくだけよりじっせんさせたほうがりかいがふかまるよ。",
+        "en": "That's great. Letting them practice in reality deepens understanding much more than classroom lectures alone.",
+        "my": "သိပ်ကောင်းတာပေါ့။ စာတွေ့သက်သက်ထက် လက်တွေ့လုပ်ခိုင်းတာက နားလည်မှု ပိုမိုနက်ရှိုင်းစေတယ်လေ။",
+        "myanmar": "သိပ်ကောင်းတာပေါ့။ စာတွေ့သက်သက်ထက် လက်တွေ့လုပ်ခိုင်းတာက နားလည်မှု ပိုမိုနက်ရှိုင်းစေတယ်လေ။",
+        "translationMy": "သိပ်ကောင်းတာပေါ့။ စာတွေ့သက်သက်ထက် လက်တွေ့လုပ်ခိုင်းတာက နားလည်မှု ပိုမိုနက်ရှိုင်းစေတယ်လေ။"
       },
       {
         "speaker": "佐藤",
         "ja": "はい。ただ、最初から難しい交渉をさせると新人が自信をなくしてしまうかもしれないので、最初は簡単な挨拶と製品紹介から担当させます。",
-        "kana": "はい。ただ、最初から難しい交渉をさせると新人が自信をなくしてしまうかもしれないので、最初は簡単な挨拶と製品紹介から担当させます。",
-        "en": ""
+        "kana": "はい。ただ、さいしょからむずかしいこうしょうをさせるとしんじんがじしんをなくしてしまうかもしれないので、さいしょはかんたんなあいさつとせいひんしょうかいからたんとうさせます。",
+        "en": "Yes. However, if we make them handle difficult negotiations from the start, they might lose confidence, so I will have them take charge of simple greetings and product introductions first.",
+        "my": "ဟုတ်ကဲ့ပါ။ ဒါပေမဲ့ အစကတည်းက ခက်ခဲတဲ့ ညှိနှိုင်းမှုတွေ လုပ်ခိုင်းရင် ဝန်ထမ်းသစ်တွေ ယုံကြည်မှု ပျောက်ဆုံးသွားနိုင်တာမို့ အစပိုင်းမှာ လွယ်ကူတဲ့ နှုတ်ဆက်ခြင်းနဲ့ ထုတ်ကုန်မိတ်ဆက်ခြင်းတွေကို စတင်တာဝန်ယူစေပါမယ်။",
+        "myanmar": "ဟုတ်ကဲ့ပါ။ ဒါပေမဲ့ အစကတည်းက ခက်ခဲတဲ့ ညှိနှိုင်းမှုတွေ လုပ်ခိုင်းရင် ဝန်ထမ်းသစ်တွေ ယုံကြည်မှု ပျောက်ဆုံးသွားနိုင်တာမို့ အစပိုင်းမှာ လွယ်ကူတဲ့ နှုတ်ဆက်ခြင်းနဲ့ ထုတ်ကုန်မိတ်ဆက်ခြင်းတွေကို စတင်တာဝန်ယူစေပါမယ်။",
+        "translationMy": "ဟုတ်ကဲ့ပါ။ ဒါပေမဲ့ အစကတည်းက ခက်ခဲတဲ့ ညှိနှိုင်းမှုတွေ လုပ်ခိုင်းရင် ဝန်ထမ်းသစ်တွေ ယုံကြည်မှု ပျောက်ဆုံးသွားနိုင်တာမို့ အစပိုင်းမှာ လွယ်ကူတဲ့ နှုတ်ဆက်ခြင်းနဲ့ ထုတ်ကုန်မိတ်ဆက်ခြင်းတွေကို စတင်တာဝန်ယူစေပါမယ်။"
       },
       {
         "speaker": "課長",
         "ja": "うん、段階を踏んでやらせるのは賛成だ。失敗しても責めずに、なぜうまくいかなかったか自分で考えさせることが大切だよ。",
-        "kana": "うん、段階を踏んでやらせるのは賛成だ。失敗しても責めずに、なぜうまくいかなかったか自分で考えさせることが大切だよ。",
-        "en": ""
+        "kana": "うん、だんかいをふんでやらせるのはさんせいだ。しっぱいしてもせめずに、なぜうまくいかなかったかじぶんでかんがえさせることがたいせつだよ。",
+        "en": "Yes, I agree with having them do it in stages. Even if they fail, don't blame them; it's important to make them reflect on why things didn't go well.",
+        "my": "အင်း၊ အဆင့်ဆင့် လုပ်ဆောင်စေတာကို သဘောတူပါတယ်။ မအောင်မြင်ခဲ့ရင်တောင် အပြစ်မတင်ဘဲ ဘာကြောင့် အဆင်မပြေခဲ့တာလဲဆိုတာ ကိုယ်တိုင် စဉ်းစားခိုင်းဖို့ အရေးကြီးတယ်ကွဲ့။",
+        "myanmar": "အင်း၊ အဆင့်ဆင့် လုပ်ဆောင်စေတာကို သဘောတူပါတယ်။ မအောင်မြင်ခဲ့ရင်တောင် အပြစ်မတင်ဘဲ ဘာကြောင့် အဆင်မပြေခဲ့တာလဲဆိုတာ ကိုယ်တိုင် စဉ်းစားခိုင်းဖို့ အရေးကြီးတယ်ကွဲ့။",
+        "translationMy": "အင်း၊ အဆင့်ဆင့် လုပ်ဆောင်စေတာကို သဘောတူပါတယ်။ မအောင်မြင်ခဲ့ရင်တောင် အပြစ်မတင်ဘဲ ဘာကြောင့် အဆင်မပြေခဲ့တာလဲဆိုတာ ကိုယ်တိုင် စဉ်းစားခိုင်းဖို့ အရေးကြီးတယ်ကွဲ့။"
       },
       {
         "speaker": "佐藤",
         "ja": "承知いたしました。新人が遠慮なく質問できる雰囲気を作って研修を進めます。",
-        "kana": "承知いたしました。新人が遠慮なく質問できる雰囲気を作って研修を進めます。",
-        "en": ""
+        "kana": "しょうちいたしました。しんじんがえんりょなくしつもんできるふんいきをつくってけんしゅうをすすめます。",
+        "en": "Understood. I will foster an atmosphere where newcomers can ask questions without hesitation.",
+        "my": "နားလည်လက်ခံပါပြီခင်ဗျာ။ ဝန်ထမ်းသစ်တွေ အားမနာဘဲ မေးခွန်းမေးမြန်းနိုင်တဲ့ ပတ်ဝန်းကျင်ကောင်း ဖန်တီးပြီး လေ့ကျင့်ရေးကို ဆက်လက်လုပ်ဆောင်ပါ့မယ်။",
+        "myanmar": "နားလည်လက်ခံပါပြီခင်ဗျာ။ ဝန်ထမ်းသစ်တွေ အားမနာဘဲ မေးခွန်းမေးမြန်းနိုင်တဲ့ ပတ်ဝန်းကျင်ကောင်း ဖန်တီးပြီး လေ့ကျင့်ရေးကို ဆက်လက်လုပ်ဆောင်ပါ့မယ်။",
+        "translationMy": "နားလည်လက်ခံပါပြီခင်ဗျာ။ ဝန်ထမ်းသစ်တွေ အားမနာဘဲ မေးခွန်းမေးမြန်းနိုင်တဲ့ ပတ်ဝန်းကျင်ကောင်း ဖန်တီးပြီး လေ့ကျင့်ရေးကို ဆက်လက်လုပ်ဆောင်ပါ့မယ်။"
       }
     ],
     "questionIds": [
@@ -1693,7 +1711,7 @@
     },
     "titleMy": "新人研修の担当と任せ方 (နားထောင်ခြင်း)",
     "titleMyanmar": "新人研修の担当と任せ方 (နားထောင်ခြင်း)",
-    "translationMy": "Section Manager: Sato-san, how is preparation for next week's new employee training progressing?\nSato: Yes, Section Manager. The basic training schedule is complete. This year, rather than just having them listen to lectures, I am planning to have the newcomers experience actual simulated business negotiations.\nSection Manager: That's great. Letting them practice in reality deepens understanding much more than classroom lectures alone.\nSato: Yes. However, if we make them handle difficult negotiations from the start, they might lose confidence, so I will have them take charge of simple greetings and product introductions first.\nSection Manager: Yes, I agree with having them do it in stages. Even if they fail, don't blame them; it's important to make them reflect on why things didn't go well.\nSato: Understood. I will foster an atmosphere where newcomers can ask questions without hesitation."
+    "translationMy": "課長- ဆာတိုးဆန်၊ လာမယ့်အပတ်ကစမယ့် ဝန်ထမ်းသစ် လေ့ကျင့်ရေးပြင်ဆင်မှု ဘယ်လိုရှိနေပြီလဲ။\n佐藤- ဟုတ်ကဲ့ပါ ဌာနမှူး။ လေ့ကျင့်ရေး အခြေခံအချိန်ဇယား ပြီးစီးပါပြီခင်ဗျာ။ ဒီနှစ်မှာ သင်ကြားပို့ချချက် နားထောင်ခိုင်းရုံသာမက ဝန်ထမ်းသစ်တွေကို လက်တွေ့ အရောင်းအဝယ်ဆွေးနွေးမှု အစမ်းသဘော တွေ့ကြုံစေဖို့ စဉ်းစားထားပါတယ်။\n課長- သိပ်ကောင်းတာပေါ့။ စာတွေ့သက်သက်ထက် လက်တွေ့လုပ်ခိုင်းတာက နားလည်မှု ပိုမိုနက်ရှိုင်းစေတယ်လေ။\n佐藤- ဟုတ်ကဲ့ပါ။ ဒါပေမဲ့ အစကတည်းက ခက်ခဲတဲ့ ညှိနှိုင်းမှုတွေ လုပ်ခိုင်းရင် ဝန်ထမ်းသစ်တွေ ယုံကြည်မှု ပျောက်ဆုံးသွားနိုင်တာမို့ အစပိုင်းမှာ လွယ်ကူတဲ့ နှုတ်ဆက်ခြင်းနဲ့ ထုတ်ကုန်မိတ်ဆက်ခြင်းတွေကို စတင်တာဝန်ယူစေပါမယ်။\n課長- အင်း၊ အဆင့်ဆင့် လုပ်ဆောင်စေတာကို သဘောတူပါတယ်။ မအောင်မြင်ခဲ့ရင်တောင် အပြစ်မတင်ဘဲ ဘာကြောင့် အဆင်မပြေခဲ့တာလဲဆိုတာ ကိုယ်တိုင် စဉ်းစားခိုင်းဖို့ အရေးကြီးတယ်ကွဲ့။\n佐藤- နားလည်လက်ခံပါပြီခင်ဗျာ။ ဝန်ထမ်းသစ်တွေ အားမနာဘဲ မေးခွန်းမေးမြန်းနိုင်တဲ့ ပတ်ဝန်းကျင်ကောင်း ဖန်တီးပြီး လေ့ကျင့်ရေးကို ဆက်လက်လုပ်ဆောင်ပါ့မယ်။"
   },
   "questions": [
     {
@@ -2392,7 +2410,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「小さなプロジェクトの企画を自由に考えさせるようにした」 ဖြစ်ပါသည်။ (The text states: 小さなプロジェクトの企画を新入社員に自由に考えさせるようにしたのです.)",
+      "explanationMy": "အဖြေမှန်မှာ 「小さなプロジェクトの企画を自由に考えさせるようにした」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"小さなプロジェクトの企画を新入社員に自由に考えさせるようにしたのです.\")",
       "choicesMy": [
         "小さなプロジェクトの企画を自由に考えさせるようにした",
         "すべての業務を先輩が一人で行うようにした",
@@ -2456,7 +2474,7 @@
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「新人が堂々と自分のアイデアを発表したこと」 ဖြစ်ပါသည်။ (The text states: 新人が堂々とアイデアを発表し、役員たちを驚かせました.)",
+      "explanationMy": "အဖြေမှန်မှာ 「新人が堂々と自分のアイデアを発表したこと」 ဖြစ်ပါသည်။ (စာပိုဒ်တွင် ဖော်ပြထားသည်မှာ- \"新人が堂々とアイデアを発表し、役員たちを驚かせました.\")",
       "choicesMy": [
         "新人が堂々と自分のアイデアを発表したこと",
         "先輩社員が新人の代わりにスピーチをしたこと",
@@ -2520,7 +2538,7 @@
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「実際の模擬商談を体験させること」 ဖြစ်ပါသည်။ (Sato says: 今年は講義を聞かせるだけでなく、新人に実際の模擬商談を体験させようと考えています.)",
+      "explanationMy": "အဖြေမှန်မှာ 「実際の模擬商談を体験させること」 ဖြစ်ပါသည်။ (ဆာတိုးက ပြောကြားသည်မှာ- \"今年は講義を聞かせるだけでなく、新人に実際の模擬商談を体験させようと考えています.\")",
       "choicesMy": [
         "実際の模擬商談を体験させること",
         "長時間の筆記試験を受けさせること",
@@ -2666,6 +2684,6 @@
   },
   "titleMy": "N4 Lesson 12: Causative Form (使役: 読ませる・食べさせる) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 12: Causative Form (使役: 読ませる・食べさせる) (မြန်မာဘာသာပြန်)",
-  "descriptionMy": "N4 Lesson 12: Causative Form (使役: 読ませる・食べさせる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။",
+  "descriptionMy": "စေခိုင်းပုံစံ (使役: 読ませる・食べさせる) နှင့် ခွင့်ပြုချက်တောင်းခံခြင်းဆိုင်ရာ သဒ္ဒါများ။",
   "descriptionMyanmar": "N4 Lesson 12: Causative Form (使役: 読ませる・食べさせる) အတွက် အခြေခံနှင့် အဆင့်မြင့် ဂျပန်စာလေ့လာမှု သင်ခန်းစာ။"
 }
