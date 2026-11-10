@@ -41,6 +41,7 @@ import { KanaTrainerScreen } from './presentation/screens/KanaTrainerScreen';
 import { ShadowingScreen } from './presentation/screens/ShadowingScreen';
 import { QuarantineDrillScreen } from './presentation/screens/QuarantineDrillScreen';
 import { LevelBulkStudyScreen } from './presentation/screens/LevelBulkStudyScreen';
+import { MockExamScreen } from './presentation/screens/MockExamScreen';
 
 function getNextActiveLessonId(
   curriculum: CurriculumMapItem[],
@@ -81,6 +82,7 @@ export default function App() {
   const [dueSrsCount, setDueSrsCount] = useState<number>(0);
   const [srsCards, setSrsCards] = useState<SRSCard[]>([]);
   const [selectedBulkLevel, setSelectedBulkLevel] = useState<'N5' | 'N4' | 'N3' | 'N2'>('N5');
+  const [selectedMockExamLevel, setSelectedMockExamLevel] = useState<'N5' | 'N4' | 'N3' | 'N2'>('N5');
   const [todayStudiedMinutes, setTodayStudiedMinutes] = useState<number>(0);
   const [studyStreak, setStudyStreak] = useState<number>(0);
   const [trueRetentionRate, setTrueRetentionRate] = useState<number>(1.0);
@@ -521,6 +523,14 @@ export default function App() {
               <LevelBulkStudyScreen
                 initialLevel={selectedBulkLevel}
                 onBack={() => setCurrentView('home')}
+              />
+            )}
+
+            {currentView === 'mock-exam' && (
+              <MockExamScreen
+                initialLevel={selectedMockExamLevel}
+                onExit={() => setCurrentView('home')}
+                onTestActiveChange={setIsTestActive}
               />
             )}
           </motion.div>

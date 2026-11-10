@@ -35,6 +35,39 @@ export interface AINoteRecord {
   createdAt: string;
 }
 
+export interface ExamResultSectionScore {
+  correct: number;
+  total: number;
+  scaledScore: number;
+}
+
+export interface ExamAnswerRecord {
+  questionId: string;
+  selectedChoice: string | null;
+  correctAnswer: string;
+  isCorrect: boolean;
+  isFlagged: boolean;
+}
+
+export interface ExamResultRecord {
+  id: string;
+  level: 'N5' | 'N4' | 'N3' | 'N2';
+  completedAt: string;
+  durationSeconds: number;
+  totalQuestions: number;
+  correctQuestions: number;
+  scaledScore: number; // 0 - 180
+  passed: boolean;
+  passThreshold: number;
+  sections: {
+    vocabulary: ExamResultSectionScore;
+    grammar: ExamResultSectionScore;
+    reading: ExamResultSectionScore;
+  };
+  answers: ExamAnswerRecord[];
+  quarantinedCount: number;
+}
+
 export class NihongoMasterDB extends Dexie {
   study_events!: Table<StudyEvent, string>;
   srs_cards!: Table<SRSCard, string>;
@@ -50,11 +83,12 @@ export class NihongoMasterDB extends Dexie {
   ghost_cards!: Table<GhostCardRecord, string>;
   cram_drills!: Table<CramDrillRecord, string>;
   quarantined_cards!: Table<QuarantinedCard, string>;
+  exam_results!: Table<ExamResultRecord, string>;
 
   constructor() {
     super('NihongoN2MasterDB');
 
-    // Schema versioning: preserves existing tables and adds Kana, Assessments, Remediation, Ghost Cards, Cram Drills, Quarantined Cards
+    // Schema versioning: preserves existing tables and adds Kana, Assessments, Remediation, Ghost Cards, Cram Drills, Quarantined Cards, Exam Results
     this.version(1).stores({
       study_events: 'id, timestamp, type, lessonId',
       srs_cards: 'id, itemId, lessonId, facet, state, due, lapses, isLeech',
@@ -82,6 +116,10 @@ export class NihongoMasterDB extends Dexie {
 
     this.version(5).stores({
       quarantined_cards: 'id, itemType, jlptLevel, quarantineReason, isGraduated, quarantinedAt',
+    });
+
+    this.version(6).stores({
+      exam_results: 'id, level, completedAt, passed, scaledScore',
     });
   }
 
@@ -127,6 +165,20 @@ export class NihongoMasterDB extends Dexie {
     const card = QuarantineEngine.buildQuarantinedCard(input, existing);
     await this.upsertQuarantinedCard(card);
     return card;
+  }
+
+  async saveExamResult(result: ExamResultRecord): Promise<void> {
+    await this.exam_results.put(result);
+  }
+
+  async getExamResults(level?: 'N5' | 'N4' | 'N3' | 'N2'): Promise<ExamResultRecord[]> {
+    let results: ExamResultRecord[];
+    if (level) {
+      results = await this.exam_results.where('level').equals(level).toArray();
+    } else {
+      results = await this.exam_results.toArray();
+    }
+    return results.sort((a, b) => new Date(b.completedAt).getTime() - new Date(a.completedAt).getTime());
   }
 }
 

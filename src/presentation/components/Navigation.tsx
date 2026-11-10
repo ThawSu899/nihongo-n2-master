@@ -19,6 +19,7 @@ import {
   Mic,
   Flame,
   Library,
+  Award,
 } from 'lucide-react';
 import { UserProfile } from '../../domain/models/types';
 
@@ -73,6 +74,7 @@ export const Navigation: React.FC<NavigationProps> = ({
   // Group 2: Mastery, Analytics & System
   const secondaryNavItems = [
     { id: 'level-bulk-study', label: 'Level Decks (単語帳)', shortLabel: 'Decks', icon: Library },
+    { id: 'mock-exam', label: 'JLPT Mock Exam (模試)', shortLabel: 'Mock', icon: Award },
     { id: 'shadowing', label: 'Shadowing (発音)', shortLabel: 'Shadow', icon: Mic },
     { id: 'quarantine', label: 'Ghost Cards (鬼)', shortLabel: 'Quarantine', icon: Flame },
     { id: 'tests', label: 'Mock & Tests', shortLabel: 'Tests', icon: CheckSquare },

@@ -544,9 +544,9 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
       />
 
       {/* =========================================================================
-          SPECIALIZED MASTERY WORKBENCHES: Decks, Shadowing & Ghost Quarantine
+          SPECIALIZED MASTERY WORKBENCHES: Decks, Mock Exam, Shadowing & Quarantine
           ========================================================================= */}
-      <section aria-label="Specialized Mastery Workbenches" className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <section aria-label="Specialized Mastery Workbenches" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Level Decks (単語帳) */}
         <div
           onClick={() => onNavigate('level-bulk-study')}
@@ -567,6 +567,32 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
               </div>
               <p className="text-xs text-zinc-400 mt-0.5 font-sans">
                 Comprehensive N5–N2 bulk vocabulary decks with instant search and audio.
+              </p>
+            </div>
+          </div>
+          <ChevronRight className="w-4 h-4 text-zinc-500 group-hover:text-zinc-200 transition shrink-0" />
+        </div>
+
+        {/* JLPT Timed Mock Exam Simulator */}
+        <div
+          onClick={() => onNavigate('mock-exam')}
+          className="bg-zinc-900/70 border border-zinc-800/80 hover:border-emerald-500/50 rounded-2xl p-5 flex items-center justify-between gap-4 cursor-pointer transition shadow-lg backdrop-blur-xl group"
+        >
+          <div className="flex items-center space-x-3.5">
+            <div className="w-11 h-11 rounded-xl bg-emerald-950/80 border border-emerald-500/40 flex items-center justify-center text-emerald-400 shrink-0 group-hover:scale-105 transition-transform">
+              <Award className="w-5 h-5 text-emerald-400" />
+            </div>
+            <div>
+              <div className="flex items-center space-x-2">
+                <span className="text-sm font-bold text-zinc-100 group-hover:text-emerald-300 transition-colors">
+                  JLPT Mock Exam
+                </span>
+                <span className="px-2 py-0.5 rounded-full bg-emerald-950/80 text-emerald-300 text-[10px] font-mono border border-emerald-500/40">
+                  模擬試験
+                </span>
+              </div>
+              <p className="text-xs text-zinc-400 mt-0.5 font-sans">
+                Official N5–N2 timed simulations with 180-scale scoring and auto-quarantine.
               </p>
             </div>
           </div>
