@@ -1681,7 +1681,8 @@
         "မတော်တဆမှု",
         "သယ်ယူပို့ဆောင်ရေး / ယာဉ်အသွားအလာ",
         "ရာသီဥတု"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q002",
@@ -1713,7 +1714,8 @@
         "Circumstances are inconvenient / Unavailable",
         "Broken machine",
         "Expensive price"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q003",
@@ -1745,7 +1747,8 @@
         "စက်ချွတ်ယွင်းမှု / ပျက်စီးမှု",
         "Holiday",
         "Late arrival"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q004",
@@ -1777,7 +1780,8 @@
         "To be in time / on time",
         "ရပ်တန့်သည်",
         "အလျင်လိုသည် / အမြန်လုပ်သည်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q005",
@@ -1809,7 +1813,8 @@
         "Regrettable / Unfortunate",
         "Surprising",
         "လုံခြုံစိတ်ချရသော"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q006",
@@ -1841,7 +1846,8 @@
         "どこで",
         "いつ",
         "だれ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q007",
@@ -1873,7 +1879,8 @@
         "ジ",
         "ごと",
         "もの"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q008",
@@ -1905,7 +1912,8 @@
         "5",
         "6",
         "7"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q009",
@@ -1937,7 +1945,8 @@
         "テン",
         "シャ",
         "ジン"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q010",
@@ -1969,7 +1978,8 @@
         "シャ",
         "みち",
         "でん"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q011",
@@ -2001,7 +2011,8 @@
         "雨だので",
         "雨でのので",
         "雨ので"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q012",
@@ -2033,7 +2044,8 @@
         "暇だので",
         "暇ので",
         "暇でのので"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q013",
@@ -2065,7 +2077,8 @@
         "It means the opposite of because",
         "It is informal and cute",
         "It can only be used with food"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q014",
@@ -2097,7 +2110,8 @@
         "A future guess",
         "A grammatical error",
         "A polite command to leave"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q015",
@@ -2129,7 +2143,8 @@
         "のですか",
         "んですだ",
         "のですで"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q016",
@@ -2161,7 +2176,8 @@
         "学生んです",
         "学生だんです",
         "学生いんです"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q017",
@@ -2193,7 +2209,8 @@
         "ので only",
         "Neither is allowed",
         "Only と"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q018",
@@ -2225,7 +2242,8 @@
         "のに",
         "のと",
         "のへ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q019",
@@ -2257,7 +2275,8 @@
         "行かない",
         "行った",
         "行って"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q020",
@@ -2289,7 +2308,8 @@
         "しかし",
         "でも",
         "それから"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q021",
@@ -2321,7 +2341,8 @@
         "Traffic signal malfunction (信号機の故障)",
         "Driver absence",
         "Heavy snow"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q022",
@@ -2353,7 +2374,8 @@
         "Shinjuku and Shibuya",
         "Shinagawa and Yokohama",
         "Ikebukuro and Akihabara"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q023",
@@ -2385,7 +2407,8 @@
         "About 30 minutes",
         "About 60 minutes",
         "2 hours"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q024",
@@ -2417,7 +2440,8 @@
         "Only by mail after 3 days",
         "At the police box",
         "Inside the train from the driver"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q025",
@@ -2449,7 +2473,8 @@
         "Operations have resumed, but it is crowded",
         "Canceled for the entire day",
         "Only buses are running"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q026",
@@ -2481,7 +2506,8 @@
         "To report that his train stopped due to signal trouble and he will be late",
         "To invite Tanaka to lunch",
         "To say he is quitting"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q027",
@@ -2513,7 +2539,8 @@
         "No, there are no injured people (怪我人はいません)",
         "Only the driver was hurt",
         "Unclear"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q028",
@@ -2545,7 +2572,8 @@
         "The 9:00 AM morning assembly (朝礼)",
         "A flight to Osaka",
         "A party"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q029",
@@ -2577,7 +2605,8 @@
         "A delay certificate (遅延証明書)",
         "His passport",
         "Doctor note"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l29.q030",
@@ -2609,7 +2638,8 @@
         "About 15 minutes",
         "About 45 minutes",
         "2 hours"
-      ]
+      ],
+      "correctIndex": 0
     }
   ],
   "prov": {

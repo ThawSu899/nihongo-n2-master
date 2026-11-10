@@ -1649,7 +1649,8 @@
         "အဲဒီနေရာ",
         "ဟိုနေရာ",
         "ဘယ်နေရာ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q002",
@@ -1670,7 +1671,20 @@
       "generated": false,
       "promptMy": "\"There (near listener)\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"There (near listener)\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「そこ」 ဖြစ်ပါသည်။ (The Japanese word for \"There (near listener)\" is そこ (そこ).)"
+      "explanationMy": "အဖြေမှန်မှာ 「そこ」 ဖြစ်ပါသည်။ (The Japanese word for \"There (near listener)\" is そこ (そこ).)",
+      "choices": [
+        "そこ",
+        "ここ",
+        "あそこ",
+        "どこ"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "ဒီနေရာ",
+        "ဟိုနေရာ",
+        "ဘယ်နေရာ"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q003",
@@ -1702,7 +1716,8 @@
         "စာသင်ခန်း",
         "ဘယ်နေရာ",
         "ဟိုနေရာ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q004",
@@ -1723,7 +1738,20 @@
       "generated": false,
       "promptMy": "\"Where\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Where\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「どこ」 ဖြစ်ပါသည်။ (The Japanese word for \"Where\" is どこ (どこ).)"
+      "explanationMy": "အဖြေမှန်မှာ 「どこ」 ဖြစ်ပါသည်။ (The Japanese word for \"Where\" is どこ (どこ).)",
+      "choices": [
+        "どこ",
+        "ここ",
+        "そこ",
+        "あそこ"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "ဒီနေရာ",
+        "အဲဒီနေရာ",
+        "ဟိုနေရာ"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q005",
@@ -1755,7 +1783,8 @@
         "ရုံးခန်း",
         "ထမင်းစားခန်း",
         "စာသင်ခန်း"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q006",
@@ -1776,7 +1805,20 @@
       "generated": false,
       "promptMy": "\"Cafeteria / Dining hall\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Cafeteria / Dining hall\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「しょくどう」 ဖြစ်ပါသည်။ (The Japanese word for \"Cafeteria / Dining hall\" is 食堂 (しょくどう).)"
+      "explanationMy": "အဖြေမှန်မှာ 「しょくどう」 ဖြစ်ပါသည်။ (The Japanese word for \"Cafeteria / Dining hall\" is 食堂 (しょくどう).)",
+      "choices": [
+        "しょくどう",
+        "ここ",
+        "そこ",
+        "あそこ"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "ဒီနေရာ",
+        "အဲဒီနေရာ",
+        "ဟိုနေရာ"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q007",
@@ -1808,7 +1850,8 @@
         "ဧည့်ကြိုကောင်တာ",
         "ဧည့်ခန်းမဆောင်",
         "အိမ်သာ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q008",
@@ -1829,7 +1872,20 @@
       "generated": false,
       "promptMy": "\"Reception desk\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Reception desk\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「うけつけ」 ဖြစ်ပါသည်။ (The Japanese word for \"Reception desk\" is 受付 (うけつけ).)"
+      "explanationMy": "အဖြေမှန်မှာ 「うけつけ」 ဖြစ်ပါသည်။ (The Japanese word for \"Reception desk\" is 受付 (うけつけ).)",
+      "choices": [
+        "うけつけ",
+        "ここ",
+        "そこ",
+        "あそこ"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "ဒီနေရာ",
+        "အဲဒီနေရာ",
+        "ဟိုနေရာ"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q009",
@@ -1861,7 +1917,8 @@
         "ကျောင်း",
         "အိမ်သာ",
         "ဧည့်ခန်းမဆောင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q010",
@@ -1882,7 +1939,20 @@
       "generated": false,
       "promptMy": "\"Restroom / Toilet\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Restroom / Toilet\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「といれ」 ဖြစ်ပါသည်။ (The Japanese word for \"Restroom / Toilet\" is トイレ (といれ).)"
+      "explanationMy": "အဖြေမှန်မှာ 「といれ」 ဖြစ်ပါသည်။ (The Japanese word for \"Restroom / Toilet\" is トイレ (といれ).)",
+      "choices": [
+        "といれ",
+        "ここ",
+        "そこ",
+        "あそこ"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "ဒီနေရာ",
+        "အဲဒီနေရာ",
+        "ဟိုနေရာ"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q011",
@@ -1914,7 +1984,8 @@
         "ဒီနေရာ",
         "တက္ကသိုလ်",
         "ကျောင်း"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q012",
@@ -1935,7 +2006,20 @@
       "generated": false,
       "promptMy": "\"University\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"University\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「だいがく」 ဖြစ်ပါသည်။ (The Japanese word for \"University\" is 大学 (だいがく).)"
+      "explanationMy": "အဖြေမှန်မှာ 「だいがく」 ဖြစ်ပါသည်။ (The Japanese word for \"University\" is 大学 (だいがく).)",
+      "choices": [
+        "だいがく",
+        "ここ",
+        "そこ",
+        "あそこ"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "ဒီနေရာ",
+        "အဲဒီနေရာ",
+        "ဟိုနေရာ"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q013",
@@ -1967,7 +2051,8 @@
         "Study, learn",
         "School, exam",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q014",
@@ -1999,7 +2084,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q015",
@@ -2031,7 +2117,8 @@
         "Big, large",
         "School, exam",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q016",
@@ -2063,7 +2150,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q017",
@@ -2095,7 +2183,8 @@
         "Big, large",
         "Study, learn",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q018",
@@ -2127,7 +2216,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q019",
@@ -2159,7 +2249,8 @@
         "Big, large",
         "Study, learn",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q020",
@@ -2191,7 +2282,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q021",
@@ -2223,7 +2315,8 @@
         "二階",
         "三階",
         "地下一階"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q022",
@@ -2255,7 +2348,8 @@
         "一階",
         "二階",
         "三階"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q023",
@@ -2287,7 +2381,8 @@
         "受付とロビー",
         "図書館と食堂",
         "コンピュータ室のみ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q024",
@@ -2319,7 +2414,8 @@
         "一階にのみある",
         "地下一階だけ",
         "三階の奥"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q025",
@@ -2351,7 +2447,8 @@
         "二階",
         "一階",
         "屋上"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q026",
@@ -2383,7 +2480,8 @@
         "二階 (204号室)",
         "三階 (301号室)",
         "一階の受付横"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q027",
@@ -2415,7 +2513,8 @@
         "四階の研究室の中",
         "受付のすぐ後ろ",
         "地下一階"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q028",
@@ -2447,7 +2546,8 @@
         "田中先生",
         "清掃員",
         "別の学生"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q029",
@@ -2479,7 +2579,8 @@
         "ここ",
         "そこ",
         "どれ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l03.q030",
@@ -2511,7 +2612,8 @@
         "教科書の値段",
         "授業の開始時間",
         "電車の乗り場"
-      ]
+      ],
+      "correctIndex": 0
     }
   ],
   "prov": {

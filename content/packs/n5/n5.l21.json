@@ -1653,7 +1653,9 @@
       ],
       "explanation": "「秋」(あき) means autumn or fall. [「秋」(あき) သည် ဆောင်းဦးရာသီ ဖြစ်သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v001"
+      ],
       "generated": false,
       "promptMy": "「秋」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "questionMy": "「秋」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
@@ -1663,7 +1665,8 @@
         "နွေရာသီ",
         "ဆောင်းဦးရာသီ",
         "ဆောင်းရာသီ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q002",
@@ -1683,7 +1686,9 @@
       ],
       "explanation": "「冬」 is read as ふゆ (winter). [「冬」၏ အသံထွက်မှာ ふゆ (ဆောင်းရာသီ) ဖြစ်သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v002"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
@@ -1693,7 +1698,8 @@
         "なつ",
         "あき",
         "ふゆ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q003",
@@ -1713,7 +1719,9 @@
       ],
       "explanation": "「上手になります」 means to become skillful or improve. [「上手になります」 သည် တော်လာသည်/ကျွမ်းကျင်လာသည် ဟု အဓိပ္ပာယ်ရသည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v003"
+      ],
       "generated": false,
       "promptMy": "「上手になります」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "questionMy": "「上手になります」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
@@ -1723,7 +1731,8 @@
         "တော်လာသည် / ကျွမ်းကျင်လာသည်",
         "To become tired",
         "To become late"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q004",
@@ -1743,7 +1752,9 @@
       ],
       "explanation": "「散歩」(さんぽ) means walk or stroll. [လမ်းလျှောက်ခြင်းကို 「散歩」(さんぽ) ဟု ခေါ်သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v004"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
@@ -1753,7 +1764,8 @@
         "掃除 (そうじ)",
         "洗濯 (せんたく)",
         "料理 (りょうり)"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q005",
@@ -1773,17 +1785,20 @@
       ],
       "explanation": "「季節」(きせつ) means season. [「季節」(きせつ) သည် ရာသီ ဖြစ်သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v005"
+      ],
       "generated": false,
       "promptMy": "「季節」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "questionMy": "「季節」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "「季節」(きせつ) means season. [「季節」(きせつ) သည် ရာသီ ဖြစ်သည်။]",
       "choicesMy": [
         "ရာသီဥတု",
-        "ရာသီဥတု",
+        "ရာသီဥတု (2)",
         "Climate",
         "Temperature"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q006",
@@ -1803,7 +1818,9 @@
       ],
       "explanation": "For な-adjectives, use [Stem] + に + なります: 元気になります. [な-adjective တွင် 「〜になります」 တွဲစပ်သဖြင့် 「元気に」 ဖြစ်သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v006"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
@@ -1813,7 +1830,8 @@
         "元気く",
         "元気を",
         "元気で"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q007",
@@ -1833,7 +1851,9 @@
       ],
       "explanation": "The Onyomi for 「春」 is シュン (e.g. 青春 せいしゅん). [「春」၏ Onyomi မှာ シュン ဖြစ်သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v007"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
@@ -1843,7 +1863,8 @@
         "シュン",
         "カ",
         "シュウ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q008",
@@ -1863,7 +1884,9 @@
       ],
       "explanation": "「夏」(なつ) represents summer. [နွေရာသီကို ကိုယ်စားပြုသော ကန်ဂျီမှာ 「夏」 ဖြစ်သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v008"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
@@ -1873,7 +1896,8 @@
         "冬",
         "夏",
         "春"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q009",
@@ -1893,7 +1917,9 @@
       ],
       "explanation": "「冬」 has 5 strokes. [「冬」တွင် စုတ်ချက် ၅ ချက် ရှိသည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v009"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
@@ -1903,7 +1929,8 @@
         "5",
         "6",
         "7"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q010",
@@ -1923,7 +1950,9 @@
       ],
       "explanation": "The Kunyomi for 「秋」 is あき. [「秋」၏ Kunyomi မှာ あき ဖြစ်သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v010"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
@@ -1933,7 +1962,8 @@
         "ふゆ",
         "はる",
         "なつ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q011",
@@ -1953,7 +1983,9 @@
       ],
       "explanation": "For い-adjectives, drop -い and add -く: 寒くなります. [い-adjective ကို ပြောင်းလဲရာတွင် -い ကိုဖြုတ်ပြီး -く ဖြင့်တွဲသည်: 寒くなります.]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v011"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
@@ -1963,7 +1995,8 @@
         "寒いになります",
         "寒いでなります",
         "寒くなになります"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q012",
@@ -1983,7 +2016,9 @@
       ],
       "explanation": "For な-adjectives, add に before なります: 静かになります. [な-adjective တွင် 「に」 ထည့်ရသည်: 静かになります.]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v012"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
@@ -1993,7 +2028,8 @@
         "静かに なります",
         "静か なります",
         "静かで なります"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q013",
@@ -2013,7 +2049,9 @@
       ],
       "explanation": "The pattern uses verb past plain (た-form) + り: 読んだ → 読んだり. [ကြိယာ た-form တွင် り ပေါင်းစပ်သဖြင့် 読んだり ဖြစ်သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v013"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
@@ -2023,7 +2061,8 @@
         "読んだり",
         "読みたり",
         "読んだ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q014",
@@ -2043,7 +2082,9 @@
       ],
       "explanation": "Sentences using 〜たり〜たり must end with します (or past しました). [〜たり〜たり ဝါကျကို အမြဲတမ်း します သို့မဟုတ် しました ဖြင့် အဆုံးသတ်ရသည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v014"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
@@ -2053,7 +2094,8 @@
         "With です",
         "With します / しました",
         "With できます"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q015",
@@ -2073,7 +2115,9 @@
       ],
       "explanation": "Noun + に + なりました expresses becoming a noun: 先生になりました. [နာမ် + に + なりました သည် နာမ်အဖြစ်သို့ ပြောင်းလဲခြင်းကို ဖော်ပြသည်: 先生になりました.]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v015"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
@@ -2083,7 +2127,8 @@
         "先生くありました",
         "先生になりましたです",
         "先生でしたくなります"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q016",
@@ -2103,7 +2148,9 @@
       ],
       "explanation": "「いい」 conjugates irregularly from 「よい」: よくなります. [「いい」သည် よい မှပြောင်းလဲသဖြင့် よくなります ဖြစ်သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v016"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
@@ -2113,7 +2160,8 @@
         "よく なります",
         "いいに なります",
         "いよく なります"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q017",
@@ -2133,7 +2181,9 @@
       ],
       "explanation": "The past plain of 歌う is 歌った, so the tari-form is 歌ったり. [歌う ၏ た-form မှာ 歌った ဖြစ်သဖြင့် 歌ったり ဖြစ်သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v017"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
@@ -2143,7 +2193,8 @@
         "歌うたり",
         "歌いたり",
         "歌たり"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q018",
@@ -2163,7 +2214,9 @@
       ],
       "explanation": "It lists representative sample activities without implying they were done in strict chronological order. [လုပ်ဆောင်ချက်များစွာအနက် နမူနာအချို့ကို အစဉ်မလိုက်ဘဲ ဖော်ပြခြင်းဖြစ်သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v018"
+      ],
       "generated": false,
       "promptMy": "「〜たり〜たりします」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "questionMy": "「〜たり〜たりします」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
@@ -2173,7 +2226,8 @@
         "Non-exhaustive sample activities among various things done",
         "A continuous action happening right now",
         "A conditional if/then rule"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q019",
@@ -2193,7 +2247,9 @@
       ],
       "explanation": "暖かく + なりました: 暖かくなりました. [暖かく + なりました: 暖かくなりました (နွေးထွေးလာခဲ့သည်).]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v019"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
@@ -2203,7 +2259,8 @@
         "暖かいになりました。",
         "暖かくでした。",
         "暖かくなりでした。"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q020",
@@ -2223,7 +2280,9 @@
       ],
       "explanation": "にぎやか (な-adj) + に + なりました. [にぎやか (な-adj) နောက်တွင် 「に」 လိုက်ပါရမည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v020"
+      ],
       "generated": false,
       "promptMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
@@ -2233,7 +2292,8 @@
         "にぎやかで",
         "にぎやかいく",
         "にぎやかにく"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q021",
@@ -2253,7 +2313,9 @@
       ],
       "explanation": "The text states: 日本には春、夏、秋、冬の四つの季節があります (four seasons). [စာပိုဒ်တွင် လေးရာသီ (四つの季節) ရှိကြောင်း ဖော်ပြထားသည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v021"
+      ],
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
@@ -2263,7 +2325,8 @@
         "Three",
         "Four",
         "Six"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q022",
@@ -2283,7 +2346,9 @@
       ],
       "explanation": "The passage says: 九月の終わりになると、だんだん涼しくなります (gradually becomes cool). [စက်တင်ဘာလကုန်တွင် တဖြည်းဖြည်း အေးမြလာသည် (だんだん涼しくなります)။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v022"
+      ],
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
@@ -2293,7 +2358,8 @@
         "It gradually becomes cool",
         "It begins to snow heavily",
         "It becomes rainy every day"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q023",
@@ -2313,7 +2379,9 @@
       ],
       "explanation": "The passage notes: 散歩したり、おいしい果物を食べたりします. [လမ်းလျှောက်ခြင်းနှင့် အရသာရှိသော သစ်သီးများ စားသုံးခြင်း ပြုလုပ်ကြသည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v023"
+      ],
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
@@ -2323,7 +2391,8 @@
         "Take walks and eat delicious fruits",
         "Ski on the mountains",
         "Stay home all day"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q024",
@@ -2343,7 +2412,9 @@
       ],
       "explanation": "十二月になると、風が強くなって、本格的に寒くなります. [ဒီဇင်ဘာလတွင် လေပြင်းတိုက်ခတ်ပြီး အမှန်တကယ် အေးလာသည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v024"
+      ],
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
@@ -2353,7 +2424,8 @@
         "Leaves turn green",
         "The wind becomes strong and it gets cold",
         "Cherry blossoms bloom"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q025",
@@ -2373,7 +2445,9 @@
       ],
       "explanation": "The author states: 温泉へ行ったり、スキーを練習したりしたいです. [ရေပူစမ်းသွားခြင်းနှင့် စကိတ်စီးလေ့ကျင့်ခြင်းများ ပြုလုပ်လိုသည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v025"
+      ],
       "generated": false,
       "promptMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
@@ -2383,7 +2457,8 @@
         "Go to the beach",
         "Study in the library only",
         "Travel to an island in summer"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q026",
@@ -2403,7 +2478,9 @@
       ],
       "explanation": "Tanaka says: 最近朝晩はかなり寒くなりましたね. [မနက်နှင့် ညပိုင်းတွင် တော်တော်လေး အေးလာကြောင်း ပြောသည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v026"
+      ],
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
@@ -2413,7 +2490,8 @@
         "It has gotten quite cold in the mornings and evenings",
         "It is raining constantly",
         "It is very windy"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q027",
@@ -2433,7 +2511,9 @@
       ],
       "explanation": "Ken says: 夜は暖かいお茶を飲んだり、本を読んだりしています. [ညဘက်တွင် လက်ဖက်ရည်နွေးနွေးသောက်လိုက်၊ စာအုပ်ဖတ်လိုက် လုပ်နေသည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v027"
+      ],
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
@@ -2443,7 +2523,8 @@
         "Drinks warm tea and reads books",
         "Watches sports games on TV",
         "Sleeps early without dinner"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q028",
@@ -2463,7 +2544,9 @@
       ],
       "explanation": "Ken mentions: 部屋を掃除したり、冬の服を買いに行ったりします. [အခန်းသန့်ရှင်းရေးလုပ်လိုက်၊ ဆောင်းရာသီအဝတ်အစား သွားဝယ်လိုက် လုပ်မည်ဖြစ်သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v028"
+      ],
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
@@ -2473,7 +2556,8 @@
         "Clean his room and go buy winter clothes",
         "Climb a mountain with Tanaka",
         "Cook curry at home"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q029",
@@ -2493,7 +2577,9 @@
       ],
       "explanation": "Tanaka says: 紅葉の山を散歩したり、写真を撮ったりする予定です. [သစ်ရွက်ရောင်စုံတောင်တန်းများတွင် လမ်းလျှောက်ပြီး ဓာတ်ပုံရိုက်မည်ဖြစ်သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v029"
+      ],
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
@@ -2503,7 +2589,8 @@
         "Stay home and rest",
         "Walk in autumn foliage mountains and take photos",
         "Go to the movie theater"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l21.q030",
@@ -2523,7 +2610,9 @@
       ],
       "explanation": "Ken says: 「ええ、もう秋ですね」(Yes, it is already autumn). [ကင်က 「もう秋ですね」(ဆောင်းဦးရောက်ပြီနော်) ဟု ပြောဆိုခဲ့သည်။]",
       "difficulty": 1,
-      "linkedItemIds": [],
+      "linkedItemIds": [
+        "n5.l21.v030"
+      ],
       "generated": false,
       "promptMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
@@ -2533,7 +2622,8 @@
         "နွေရာသီ",
         "ဆောင်းဦးရာသီ",
         "ဆောင်းရာသီ"
-      ]
+      ],
+      "correctIndex": 0
     }
   ],
   "prov": {

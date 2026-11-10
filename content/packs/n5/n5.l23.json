@@ -1664,7 +1664,8 @@
         "ကုန်ဈေးနှုန်း",
         "Traffic rules",
         "Public security"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q002",
@@ -1697,7 +1698,8 @@
         "不便",
         "古い",
         "静か"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q003",
@@ -1729,7 +1731,8 @@
         "ကတိ / ချိန်းဆိုချက်",
         "အစည်းအဝေး",
         "မေးခွန်း / မေးမြန်းချက်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q004",
@@ -1761,7 +1764,8 @@
         "လုံခြုံစိတ်ချရသော",
         "Noisy",
         "မြင့်သော / ဈေးကြီးသော"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q005",
@@ -1793,7 +1797,8 @@
         "いつも",
         "あまり",
         "ぜんぜん"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q006",
@@ -1825,7 +1830,8 @@
         "တူညီသော",
         "Various",
         "အသစ်ဖြစ်သော"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q007",
@@ -1857,7 +1863,8 @@
         "かんが.える",
         "き.く",
         "はな.す"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q008",
@@ -1889,7 +1896,8 @@
         "日 (sun) + 月 (moon)",
         "木 (tree) + 目 (eye)",
         "言 (say) + 舌 (tongue)"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q009",
@@ -1921,7 +1929,8 @@
         "新",
         "思",
         "考"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q010",
@@ -1953,7 +1962,8 @@
         "5",
         "6",
         "7"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q011",
@@ -1985,7 +1995,8 @@
         "高いですと思います",
         "高くだと思います",
         "高いに思います"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q012",
@@ -2017,7 +2028,8 @@
         "便利と思います",
         "便利ですと思います",
         "便利くなと思います"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q013",
@@ -2049,7 +2061,8 @@
         "日本について何と思いますか",
         "日本についてどこ思いますか",
         "日本についていくら思いますか"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q014",
@@ -2081,7 +2094,8 @@
         "降ります",
         "降ったです",
         "降り"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q015",
@@ -2113,7 +2127,8 @@
         "田中さんは来ませんと思います",
         "田中さんは来ないですと思います",
         "田中さんは来るじゃないと思います"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q016",
@@ -2145,7 +2160,8 @@
         "にとって",
         "により",
         "に向けて"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q017",
@@ -2177,7 +2193,8 @@
         "学生である",
         "学生な",
         "学生でした"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q018",
@@ -2209,7 +2226,8 @@
         "同じな",
         "同じだ",
         "同じに"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q019",
@@ -2241,7 +2259,8 @@
         "安全じゃないですと思います",
         "安全だないと思います",
         "安全くありませんと思います"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q020",
@@ -2273,7 +2292,8 @@
         "Certain past fact",
         "Absolute prohibition",
         "Strong command"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q021",
@@ -2305,7 +2325,8 @@
         "Osaka",
         "Tokyo",
         "Yokohama"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q022",
@@ -2337,7 +2358,8 @@
         "Everyone owns a luxury car",
         "Buses are free",
         "There is no traffic"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q023",
@@ -2369,7 +2391,8 @@
         "It is not dangerous (safe)",
         "It is prohibited by police",
         "It is too dark"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q024",
@@ -2401,7 +2424,8 @@
         "Prices and apartment rent",
         "Water and electricity only",
         "Books and clothes"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q025",
@@ -2433,7 +2457,8 @@
         "It is a wonderful and comfortable town to live in",
         "He wants to leave immediately",
         "It has too many people"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q026",
@@ -2465,7 +2490,8 @@
         "They arrive right on time and are very convenient",
         "They are too expensive",
         "They are dirty"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q027",
@@ -2497,7 +2523,8 @@
         "No, never",
         "Only once on a highway",
         "She rents a car daily"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q028",
@@ -2529,7 +2556,8 @@
         "Cars break down easily",
         "Gasoline cannot be found",
         "The speed limit is too slow"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q029",
@@ -2561,7 +2589,8 @@
         "Yes, he has the same opinion",
         "He has no opinion",
         "He prefers buses"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l23.q030",
@@ -2593,7 +2622,8 @@
         "Taxis",
         "Trains",
         "Airplanes"
-      ]
+      ],
+      "correctIndex": 0
     }
   ],
   "prov": {

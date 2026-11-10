@@ -1664,7 +1664,8 @@
         "မိုး",
         "လေ",
         "တိမ်/မိုးတိမ်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q002",
@@ -1696,7 +1697,8 @@
         "Ice",
         "Fog",
         "Hail"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q003",
@@ -1728,7 +1730,8 @@
         "ရောက်ရှိသည်",
         "ပြန်လည်အပ်နှံသည်/ပြန်ပေးသည်",
         "To enter"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q004",
@@ -1760,7 +1763,8 @@
         "အကယ်၍",
         "Always",
         "တစ်ကြိမ်မှ (မ...)"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q005",
@@ -1792,7 +1796,8 @@
         "Sunny / Clear weather",
         "Stormy",
         "အအေးမိခြင်း / နှာစေးချောင်းဆိုး"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q006",
@@ -1824,7 +1829,8 @@
         "မေ့လျော့သည်",
         "ရောင်းသည်",
         "To lose"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q007",
@@ -1856,7 +1862,8 @@
         "ゆき",
         "かぜ",
         "はれ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q008",
@@ -1888,7 +1895,8 @@
         "雪",
         "雲",
         "風"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q009",
@@ -1920,7 +1928,8 @@
         "9",
         "10",
         "11"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q010",
@@ -1953,7 +1962,8 @@
         "日 (sun)",
         "木 (tree)",
         "水 (water)"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q011",
@@ -1985,7 +1995,8 @@
         "降るたら",
         "降りたら",
         "降った"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q012",
@@ -2017,7 +2028,8 @@
         "着く",
         "着きて",
         "着き"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q013",
@@ -2049,7 +2061,8 @@
         "雨が降ったら出かけます",
         "雨が降ると出かけます",
         "雨が降れば出かけます"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q014",
@@ -2081,7 +2094,8 @@
         "暇ならたら",
         "暇したら",
         "暇たら"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q015",
@@ -2113,7 +2127,8 @@
         "高いでも",
         "高くだっても",
         "高いてでも"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q016",
@@ -2145,7 +2160,8 @@
         "もし",
         "たぶん",
         "ぜひ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q017",
@@ -2177,7 +2193,8 @@
         "No, it is strictly forbidden like と",
         "Only when speaking to teachers",
         "Only in negative sentences"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q018",
@@ -2209,7 +2226,8 @@
         "り",
         "れ",
         "ろ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q019",
@@ -2241,7 +2259,8 @@
         "便利くても",
         "便利ならても",
         "便利でもに"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q020",
@@ -2273,7 +2292,8 @@
         "寒いだったら",
         "寒いたら",
         "寒くだったら"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q021",
@@ -2305,7 +2325,8 @@
         "Hakone (箱根)",
         "Nikko",
         "Shibuya"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q022",
@@ -2337,7 +2358,8 @@
         "Go to Hakone's art museums and indoor hot springs",
         "Climb the mountain in raincoats",
         "Sleep at school"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q023",
@@ -2369,7 +2391,8 @@
         "If a typhoon comes and causes heavy rain",
         "If the teacher is late",
         "If the bus breaks down"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q024",
@@ -2401,7 +2424,8 @@
         "Ride the ropeway to the mountain peak to see Mt. Fuji",
         "Visit a tea factory",
         "Walk back to Tokyo"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q025",
@@ -2433,7 +2457,8 @@
         "Friday evening",
         "Saturday afternoon",
         "Sunday night"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q026",
@@ -2465,7 +2490,8 @@
         "A takoyaki party at her house",
         "Watch movies at the theater",
         "Go to a sushi restaurant"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q027",
@@ -2497,7 +2523,8 @@
         "In a covered spot with a roof (屋根のある場所)",
         "Under an umbrella",
         "At school"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q028",
@@ -2529,7 +2556,8 @@
         "It will be fine / okay (大丈夫)",
         "The fire will go out",
         "They must cancel"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q029",
@@ -2561,7 +2589,8 @@
         "7:00 AM",
         "8:00 AM",
         "9:00 AM"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l27.q030",
@@ -2593,7 +2622,8 @@
         "On LINE",
         "By postcard",
         "In person"
-      ]
+      ],
+      "correctIndex": 0
     }
   ],
   "prov": {

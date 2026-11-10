@@ -1679,7 +1679,8 @@
         "အားလုံး",
         "A little",
         "Nothing"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q002",
@@ -1711,7 +1712,8 @@
         "復習 (ふくしゅう)",
         "練習 (れんしゅう)",
         "勉強 (べんきょう)"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q003",
@@ -1743,7 +1745,8 @@
         "စာမေးပွဲအောင်မြင်ခြင်း",
         "Taking an exam",
         "Cheating on a test"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q004",
@@ -1775,7 +1778,8 @@
         "အဓိပ္ပာယ်",
         "Taste",
         "မေးခွန်း / မေးမြန်းချက်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q005",
@@ -1807,7 +1811,8 @@
         "ကြည့်ရှုစစ်ဆေးခြင်း/ဖတ်ရှုလေ့လာခြင်း",
         "စကားပြောဆိုမှု",
         "Listening test"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q006",
@@ -1839,7 +1844,8 @@
         "နောင်အနာဂတ်တွင်လည်း",
         "Never again",
         "ရုတ်တရက်/မထင်မှတ်ဘဲ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q007",
@@ -1871,7 +1877,8 @@
         "すべ.て",
         "ハン",
         "ブ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q008",
@@ -1903,7 +1910,8 @@
         "10",
         "11",
         "12"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q009",
@@ -1936,7 +1944,8 @@
         "勤勉",
         "練習",
         "復習"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q010",
@@ -1968,7 +1977,8 @@
         "キョウ",
         "ゴウ",
         "こわ.い"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q011",
@@ -2000,7 +2010,8 @@
         "Te-form (て形)",
         "Ta-form (た形)",
         "Dictionary form (辞書形)"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q012",
@@ -2032,7 +2043,8 @@
         "Te-form (て形)",
         "Nai-form (ない形)",
         "Masu-stem"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q013",
@@ -2064,7 +2076,8 @@
         "Te-form (て形)",
         "Ta-form (た形)",
         "Nai-form (ない形)"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q014",
@@ -2096,7 +2109,8 @@
         "に",
         "へ",
         "を"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q015",
@@ -2128,7 +2142,8 @@
         "あります",
         "します",
         "でます"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q016",
@@ -2160,7 +2175,8 @@
         "を",
         "に",
         "で"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q017",
@@ -2192,7 +2208,8 @@
         "は",
         "を",
         "に"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q018",
@@ -2224,7 +2241,8 @@
         "から",
         "まで",
         "ほど"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q019",
@@ -2256,7 +2274,8 @@
         "Dictionary form",
         "Nai-form",
         "Ta-form"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q020",
@@ -2288,7 +2307,8 @@
         "まで",
         "に",
         "へ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q021",
@@ -2320,7 +2340,8 @@
         "Three months",
         "Half a year (半年)",
         "Two years"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q022",
@@ -2352,7 +2373,8 @@
         "Finding food in Tokyo",
         "Sleeping at night",
         "Speaking English"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q023",
@@ -2384,7 +2406,8 @@
         "20 lessons",
         "All 30 lessons (三十課まで全部)",
         "50 lessons"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q024",
@@ -2416,7 +2439,8 @@
         "JLPT N3",
         "JLPT N5",
         "University entrance exam"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q025",
@@ -2448,7 +2472,8 @@
         "Stop studying Japanese",
         "Challenge JLPT N4",
         "Work as a doctor"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q026",
@@ -2480,7 +2505,8 @@
         "Passed the N1 exam",
         "Graduated from university",
         "Found a job"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q027",
@@ -2512,7 +2538,8 @@
         "Write academic research papers",
         "Negotiate international business contracts",
         "Drive a bus in Tokyo"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q028",
@@ -2544,7 +2571,8 @@
         "Pronunciation and sports",
         "Math and science",
         "Cooking and cleaning"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q029",
@@ -2576,7 +2604,8 @@
         "He will surely pass (きっと合格するでしょう)",
         "It will be cancelled",
         "He shouldn't take it"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l30.q030",
@@ -2608,7 +2637,8 @@
         "Studying French",
         "Resting for a whole year",
         "Moving to another city"
-      ]
+      ],
+      "correctIndex": 0
     }
   ],
   "prov": {

@@ -1620,7 +1620,8 @@
         "တမြန်နေ့က",
         "ပြီးခဲ့သည့်အပတ်",
         "မနှစ်က"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q002",
@@ -1641,7 +1642,20 @@
       "generated": false,
       "promptMy": "\"Day before yesterday\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Day before yesterday\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「おととい」 ဖြစ်ပါသည်။ (The Japanese word for \"Day before yesterday\" is おととい (おととい).)"
+      "explanationMy": "အဖြေမှန်မှာ 「おととい」 ဖြစ်ပါသည်။ (The Japanese word for \"Day before yesterday\" is おととい (おととい).)",
+      "choices": [
+        "おととい",
+        "りょうしん",
+        "ごりょうしん",
+        "ちち"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "မိဘများ",
+        "မိဘနှစ်ပါး",
+        "အဖေ"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q003",
@@ -1673,7 +1687,8 @@
         "ပူသော",
         "မနှစ်က",
         "ပြီးခဲ့သည့်အပတ်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q004",
@@ -1694,7 +1709,20 @@
       "generated": false,
       "promptMy": "\"Last year\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Last year\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「きょねん」 ဖြစ်ပါသည်။ (The Japanese word for \"Last year\" is 去年 (きょねん).)"
+      "explanationMy": "အဖြေမှန်မှာ 「きょねん」 ဖြစ်ပါသည်။ (The Japanese word for \"Last year\" is 去年 (きょねん).)",
+      "choices": [
+        "きょねん",
+        "りょうしん",
+        "おととい",
+        "ごりょうしん"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "မိဘများ",
+        "တမြန်နေ့က",
+        "မိဘနှစ်ပါး"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q005",
@@ -1726,7 +1754,8 @@
         "အားလပ်သော",
         "အေးသော",
         "ပူသော"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q006",
@@ -1747,7 +1776,20 @@
       "generated": false,
       "promptMy": "\"Cold (weather)\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Cold (weather)\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「さむい」 ဖြစ်ပါသည်။ (The Japanese word for \"Cold (weather)\" is 寒い (さむい).)"
+      "explanationMy": "အဖြေမှန်မှာ 「さむい」 ဖြစ်ပါသည်။ (The Japanese word for \"Cold (weather)\" is 寒い (さむい).)",
+      "choices": [
+        "さむい",
+        "りょうしん",
+        "おととい",
+        "ごりょうしん"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "မိဘများ",
+        "တမြန်နေ့က",
+        "မိဘနှစ်ပါး"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q007",
@@ -1779,7 +1821,8 @@
         "မိုး",
         "နှင်း",
         "ရာသီဥတု"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q008",
@@ -1800,7 +1843,20 @@
       "generated": false,
       "promptMy": "\"Rain\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Rain\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「あめ」 ဖြစ်ပါသည်။ (The Japanese word for \"Rain\" is 雨 (あめ).)"
+      "explanationMy": "အဖြေမှန်မှာ 「あめ」 ဖြစ်ပါသည်။ (The Japanese word for \"Rain\" is 雨 (あめ).)",
+      "choices": [
+        "あめ",
+        "りょうしん",
+        "おととい",
+        "ごりょうしん"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "မိဘများ",
+        "တမြန်နေ့က",
+        "မိဘနှစ်ပါး"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q009",
@@ -1832,7 +1888,8 @@
         "ပွဲတော်",
         "ရာသီဥတု",
         "နှင်း"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q010",
@@ -1853,7 +1910,20 @@
       "generated": false,
       "promptMy": "\"Weather\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Weather\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「てんき」 ဖြစ်ပါသည်။ (The Japanese word for \"Weather\" is 天気 (てんき).)"
+      "explanationMy": "အဖြေမှန်မှာ 「てんき」 ဖြစ်ပါသည်။ (The Japanese word for \"Weather\" is 天気 (てんき).)",
+      "choices": [
+        "てんき",
+        "りょうしん",
+        "おととい",
+        "ごりょうしん"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "မိဘများ",
+        "တမြန်နေ့က",
+        "မိဘနှစ်ပါး"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q011",
@@ -1885,7 +1955,8 @@
         "မနေ့က",
         "Was enjoyable / fun",
         "ပွဲတော်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q012",
@@ -1906,7 +1977,20 @@
       "generated": false,
       "promptMy": "\"Enjoyable / Fun\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Enjoyable / Fun\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「たのしい」 ဖြစ်ပါသည်။ (The Japanese word for \"Enjoyable / Fun\" is 楽しい (たのしい).)"
+      "explanationMy": "အဖြေမှန်မှာ 「たのしい」 ဖြစ်ပါသည်။ (The Japanese word for \"Enjoyable / Fun\" is 楽しい (たのしい).)",
+      "choices": [
+        "たのしい",
+        "りょうしん",
+        "おととい",
+        "ごりょうしん"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "မိဘများ",
+        "တမြန်နေ့က",
+        "မိဘနှစ်ပါး"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q013",
@@ -1938,7 +2022,8 @@
         "Now, present",
         "Year, counter for years",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q014",
@@ -1970,7 +2055,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q015",
@@ -2002,7 +2088,8 @@
         "Previous, yesterday",
         "Year, counter for years",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q016",
@@ -2034,7 +2121,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q017",
@@ -2066,7 +2154,8 @@
         "Previous, yesterday",
         "Now, present",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q018",
@@ -2098,7 +2187,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q019",
@@ -2130,7 +2220,8 @@
         "Previous, yesterday",
         "Now, present",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q020",
@@ -2162,7 +2253,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q021",
@@ -2194,7 +2286,8 @@
         "日曜日だったから",
         "大雨だったから",
         "先生が出張だったから"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q022",
@@ -2226,7 +2319,8 @@
         "雪が降った",
         "晴れて暑くなった",
         "強風が吹いた"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q023",
@@ -2258,7 +2352,8 @@
         "つまらなかった",
         "難しかった",
         "怖かった"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q024",
@@ -2290,7 +2385,8 @@
         "ラーメン",
         "魚料理",
         "寿司"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q025",
@@ -2322,7 +2418,8 @@
         "空いていて静かだった",
         "まずかった",
         "高すぎた"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q026",
@@ -2354,7 +2451,8 @@
         "京都",
         "北海道",
         "沖縄"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q027",
@@ -2386,7 +2484,8 @@
         "紅葉がきれいだった",
         "雨で暗かった",
         "暖かかった"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q028",
@@ -2418,7 +2517,8 @@
         "あまり寒くなかった",
         "暖かかった",
         "涼しかった"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q029",
@@ -2450,7 +2550,8 @@
         "おいしい食事",
         "柔らかいベッド",
         "静かな部屋"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l12.q030",
@@ -2482,7 +2583,8 @@
         "疲れただけだった",
         "二度と行かない",
         "退屈だった"
-      ]
+      ],
+      "correctIndex": 0
     }
   ],
   "prov": {

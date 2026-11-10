@@ -1680,7 +1680,8 @@
         "လမ်းဆုံ / လမ်းခွ",
         "လမ်းထောင့်",
         "တံတား"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q002",
@@ -1712,7 +1713,8 @@
         "လမ်းထောင့်",
         "ယာဉ်ထိန်းမီးရောင်",
         "လမ်း"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q003",
@@ -1744,7 +1746,8 @@
         "ゆっくり",
         "だんだん",
         "たくさん"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q004",
@@ -1776,7 +1779,8 @@
         "To cross",
         "ရပ်တန့်သည်",
         "To enter"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q005",
@@ -1808,7 +1812,8 @@
         "Police box",
         "Post office",
         "ဆေးရုံ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q006",
@@ -1840,7 +1845,8 @@
         "တံတား",
         "လမ်း",
         "River"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q007",
@@ -1872,7 +1878,8 @@
         "ドウ",
         "まち",
         "えき"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q008",
@@ -1904,7 +1911,8 @@
         "道",
         "駅",
         "角"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q009",
@@ -1936,7 +1944,8 @@
         "ドウ",
         "チョウ",
         "カク"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q010",
@@ -1968,7 +1977,8 @@
         "7",
         "8",
         "9"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q011",
@@ -2000,7 +2010,8 @@
         "行ってと",
         "行ったと",
         "行きますと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q012",
@@ -2032,7 +2043,8 @@
         "暇のとき",
         "暇だとき",
         "暇とき"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q013",
@@ -2064,7 +2076,8 @@
         "子供なとき",
         "子供だとき",
         "子供とき"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q014",
@@ -2096,7 +2109,8 @@
         "A factual state like があります",
         "A visible consequence like 見えます",
         "A natural result"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q015",
@@ -2128,7 +2142,8 @@
         "I bought a camera AFTER arriving in Japan",
         "I never bought a camera",
         "I sold a camera in Japan"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q016",
@@ -2160,7 +2175,8 @@
         "I met a friend before boarding the flight to Japan",
         "I will not go to Japan",
         "I met a friend at my home country airport"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q017",
@@ -2192,7 +2208,8 @@
         "を",
         "で",
         "から"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q018",
@@ -2224,7 +2241,8 @@
         "渡って",
         "渡った",
         "渡り"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q019",
@@ -2256,7 +2274,8 @@
         "ときに",
         "と",
         "たら"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q020",
@@ -2288,7 +2307,8 @@
         "に",
         "で",
         "へ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q021",
@@ -2320,7 +2340,8 @@
         "East Exit (東口)",
         "North Exit",
         "South Exit"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q022",
@@ -2352,7 +2373,8 @@
         "About 15 minutes",
         "About 30 minutes",
         "1 hour"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q023",
@@ -2384,7 +2406,8 @@
         "ဘယ်ဘက်",
         "Turn around",
         "Go straight"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q024",
@@ -2416,7 +2439,8 @@
         "The second house on the immediate right",
         "The third house straight ahead",
         "The house opposite the station"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q025",
@@ -2448,7 +2472,8 @@
         "A big cherry tree",
         "A bicycle parking lot",
         "A large dog house"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q026",
@@ -2480,7 +2505,8 @@
         "Post office (郵便局)",
         "Station",
         "Bank"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q027",
@@ -2512,7 +2538,8 @@
         "The second traffic light (二つ目の信号)",
         "The third traffic light",
         "The fourth traffic light"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q028",
@@ -2544,7 +2571,8 @@
         "Inside the bank",
         "Right next to the large bank (隣)",
         "Behind the bank"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q029",
@@ -2576,7 +2604,8 @@
         "About 5 minutes",
         "About 10 minutes",
         "About 20 minutes"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l26.q030",
@@ -2608,7 +2637,8 @@
         "A police officer at the police box (警察官)",
         "A bus driver",
         "A friend"
-      ]
+      ],
+      "correctIndex": 0
     }
   ],
   "prov": {
