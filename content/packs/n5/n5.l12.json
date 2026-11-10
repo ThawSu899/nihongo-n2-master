@@ -984,7 +984,7 @@
           "reading": "こんしゅう",
           "meaning": "This week",
           "preview": false,
-          "meaningMyanmar": "This week",
+          "meaningMyanmar": "ဒီတစ်ပတ်",
           "meaningMy": "This week"
         },
         {
@@ -992,7 +992,7 @@
           "reading": "ことし",
           "meaning": "This year",
           "preview": true,
-          "meaningMyanmar": "This year",
+          "meaningMyanmar": "ဒီနှစ်",
           "meaningMy": "This year"
         }
       ],
@@ -1041,7 +1041,7 @@
           "reading": "いちねん",
           "meaning": "One year",
           "preview": true,
-          "meaningMyanmar": "One year",
+          "meaningMyanmar": "အဓိပ္ပာယ်: One year",
           "meaningMy": "One year"
         }
       ],
@@ -1515,7 +1515,7 @@
     },
     "titleMy": "Past Tense of Adjectives and Verbs - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "Past Tense of Adjectives and Verbs - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "Yesterday was a public holiday, so school was closed. In the morning, the weather was fine, but in the afternoon cold rain fell. I went to see a movie with a friend. The movie was very interesting. After that, we ate pizza at a restaurant. The restaurant was crowded, but the food was delicious. It was a very good day."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l12.l01",
@@ -1538,7 +1538,7 @@
         "ja": "カリナさん、先週の長野旅行はどうでしたか。",
         "kana": "かりなさん、せんしゅうのながのりょこうはどうでしたか。",
         "en": "Karina-san, how was your trip to Nagano last week?",
-        "my": "Karina-san, how was your trip to Nagano last week?",
+        "my": "松本: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Karina-san, how was your trip to Nagano last week?",
         "myanmar": "Karina-san, how was your trip to Nagano last week?"
       },
@@ -1547,7 +1547,7 @@
         "ja": "とても楽しかったです！雪がたくさん降って、白くてきれいでした。",
         "kana": "とてもたのしかったです！ゆきがたくさんふって、しろくてきれいでした。",
         "en": "It was very fun! A lot of snow fell, and it was white and beautiful.",
-        "my": "It was very fun! A lot of snow fell, and it was white and beautiful.",
+        "my": "カリナ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "It was very fun! A lot of snow fell, and it was white and beautiful.",
         "myanmar": "It was very fun! A lot of snow fell, and it was white and beautiful."
       },
@@ -1556,7 +1556,7 @@
         "ja": "寒くなかったですか。",
         "kana": "さむくなかったですか。",
         "en": "Wasn't it cold?",
-        "my": "Wasn't it cold?",
+        "my": "松本: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "Wasn't it cold?",
         "myanmar": "Wasn't it cold?"
       },
@@ -1565,7 +1565,7 @@
         "ja": "ええ、とても寒かったです。でも、ホテルの温泉が温かくて気持ちよかったです。",
         "kana": "ええ、とてもさむかったです。でも、ほてるのおんせんがあたたかくてきもちよかったです。",
         "en": "Yes, it was very cold! But the hotel's hot spring was warm and felt wonderful.",
-        "my": "Yes, it was very cold! But the hotel's hot spring was warm and felt wonderful.",
+        "my": "カリナ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "Yes, it was very cold! But the hotel's hot spring was warm and felt wonderful.",
         "myanmar": "Yes, it was very cold! But the hotel's hot spring was warm and felt wonderful."
       }
@@ -1587,7 +1587,7 @@
     },
     "titleMy": "Past Tense of Adjectives and Verbs - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "Past Tense of Adjectives and Verbs - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "Colleagues exchange thoughts on a weekend skiing trip to Nagano."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -1884,7 +1884,7 @@
       "questionMy": "「雪」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "「雪」 (ゆき) ၏ အဓိပ္ပာယ်မှာ \"နှင်း\" ဖြစ်ပါသည်။",
       "choicesMy": [
-        "Was enjoyable / fun",
+        "ရွေးချယ်စရာ (1)",
         "ပွဲတော်",
         "ရာသီဥတု",
         "နှင်း"
@@ -1953,7 +1953,7 @@
       "choicesMy": [
         "တမြန်နေ့က",
         "မနေ့က",
-        "Was enjoyable / fun",
+        "ရွေးချယ်စရာ (3)",
         "ပွဲတော်"
       ],
       "correctIndex": 0
@@ -2018,9 +2018,9 @@
       "questionMy": "「昨」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「昨」၏ အဓိပ္ပာယ်မှာ \"မနေ့က / အတိတ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: Previous, yesterday)",
       "choicesMy": [
-        "Previous, yesterday",
-        "Now, present",
-        "Year, counter for years",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2051,10 +2051,10 @@
       "questionMy": "「昨」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「昨」၏ အဓိပ္ပာယ်မှာ \"မနေ့က / အတိတ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: サク)",
       "choicesMy": [
-        "サク",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2084,9 +2084,9 @@
       "questionMy": "「今」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「今」၏ အဓိပ္ပာယ်မှာ \"ယခု / မျက်မှောက်\" ဖြစ်ပါသည်။ (အဖြေမှန်: Now, present)",
       "choicesMy": [
-        "Now, present",
-        "Previous, yesterday",
-        "Year, counter for years",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2117,10 +2117,10 @@
       "questionMy": "「今」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「今」၏ အဓိပ္ပာယ်မှာ \"ယခု / မျက်မှောက်\" ဖြစ်ပါသည်။ (အဖြေမှန်: いま)",
       "choicesMy": [
-        "いま",
-        "みず",
-        "ほん",
-        "ひと"
+        "အခု",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2150,9 +2150,9 @@
       "questionMy": "「年」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「年」၏ အဓိပ္ပာယ်မှာ \"နှစ် / ခုနှစ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: Year, counter for years)",
       "choicesMy": [
-        "Year, counter for years",
-        "Previous, yesterday",
-        "Now, present",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2183,10 +2183,10 @@
       "questionMy": "「年」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「年」၏ အဓိပ္ပာယ်မှာ \"နှစ် / ခုနှစ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: とし)",
       "choicesMy": [
-        "とし",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2217,8 +2217,8 @@
       "explanationMy": "ကန်ဂျီ「雨」၏ အဓိပ္ပာယ်မှာ \"မိုး\" ဖြစ်ပါသည်။ (အဖြေမှန်: Rain)",
       "choicesMy": [
         "မိုး",
-        "Previous, yesterday",
-        "Now, present",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2249,10 +2249,10 @@
       "questionMy": "「雨」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「雨」၏ အဓိပ္ပာယ်မှာ \"မိုး\" ဖြစ်ပါသည်။ (အဖြေမှန်: あめ)",
       "choicesMy": [
-        "あめ",
-        "みず",
-        "ほん",
-        "ひと"
+        "မိုး",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2282,10 +2282,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「祝日だったから」 ဖြစ်ပါသည်။ (「昨日は祝日でしたから、学校の休みでした」.)",
       "choicesMy": [
-        "祝日だったから",
-        "日曜日だったから",
-        "大雨だったから",
-        "先生が出張だったから"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2315,10 +2315,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「冷たい雨が降った」 ဖြစ်ပါသည်။ (「午後から冷たい雨が降りました」.)",
       "choicesMy": [
-        "冷たい雨が降った",
-        "雪が降った",
-        "晴れて暑くなった",
-        "強風が吹いた"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2348,10 +2348,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「とてもおもしろかった」 ဖြစ်ပါသည်။ (「映画はとてもおもしろかったです」.)",
       "choicesMy": [
-        "とてもおもしろかった",
-        "つまらなかった",
-        "難しかった",
-        "怖かった"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2381,10 +2381,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「ピザ」 ဖြစ်ပါသည်။ (「そのあとレストランでピザを食べました」.)",
       "choicesMy": [
-        "ピザ",
-        "ラーメン",
-        "魚料理",
-        "寿司"
+        "ရွေးချယ်စရာ (1)",
+        "ရာမင်ခေါက်ဆွဲ",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2414,10 +2414,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「混んでいたがおいしかった」 ဖြစ်ပါသည်။ (「店は混んでいましたが、料理はおいしかったです」.)",
       "choicesMy": [
-        "混んでいたがおいしかった",
-        "空いていて静かだった",
-        "まずかった",
-        "高すぎた"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2447,10 +2447,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「長野」 ဖြစ်ပါသည်။ (Matsumoto asks: 「先週の長野旅行はどうでしたか」.)",
       "choicesMy": [
-        "長野",
-        "京都",
-        "北海道",
-        "沖縄"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2480,10 +2480,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「雪がたくさん降って白くてきれいだった」 ဖြစ်ပါသည်။ (「雪がたくさん降って、白くてきれいでした」.)",
       "choicesMy": [
-        "雪がたくさん降って白くてきれいだった",
-        "紅葉がきれいだった",
-        "雨で暗かった",
-        "暖かかった"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2513,10 +2513,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「とても寒かった」 ဖြစ်ပါသည်။ (Karina responds: 「ええ、とても寒かったです」.)",
       "choicesMy": [
-        "とても寒かった",
-        "あまり寒くなかった",
-        "暖かかった",
-        "涼しかった"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2546,10 +2546,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「温かい温泉」 ဖြစ်ပါသည်။ (「ホテルの温泉が温かくて気持ちよかったです」.)",
       "choicesMy": [
-        "温かい温泉",
-        "おいしい食事",
-        "柔らかいベッド",
-        "静かな部屋"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2579,10 +2579,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「とても楽しかった」 ဖြစ်ပါသည်။ (Karina states enthusiastically: 「とても楽しかったです！」.)",
       "choicesMy": [
-        "とても楽しかった",
-        "疲れただけだった",
-        "二度と行かない",
-        "退屈だった"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

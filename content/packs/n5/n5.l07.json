@@ -993,7 +993,7 @@
           "reading": "おりがみ",
           "meaning": "Origami",
           "preview": true,
-          "meaningMyanmar": "Origami",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Origami",
           "meaningMy": "Origami"
         }
       ],
@@ -1042,7 +1042,7 @@
           "reading": "ゆうじん",
           "meaning": "Friend (formal)",
           "preview": true,
-          "meaningMyanmar": "Friend (formal)",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Friend (formal)",
           "meaningMy": "Friend (formal)"
         }
       ],
@@ -1084,7 +1084,7 @@
           "reading": "ちち",
           "meaning": "My father",
           "preview": false,
-          "meaningMyanmar": "My father",
+          "meaningMyanmar": "အဖေ",
           "meaningMy": "My father"
         },
         {
@@ -1092,7 +1092,7 @@
           "reading": "おとうさん",
           "meaning": "Father (polite)",
           "preview": true,
-          "meaningMyanmar": "Father (polite)",
+          "meaningMyanmar": "အဖေ (ရိုသေသော)",
           "meaningMy": "Father (polite)"
         }
       ],
@@ -1601,7 +1601,7 @@
     },
     "titleMy": "Giving and Receiving Tools (あげます・もらいます) - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "Giving and Receiving Tools (あげます・もらいます) - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "Yesterday was my 20th birthday. My friend Lin-san came over to my house. Lin-san gave me a beautiful pen. And I gave Lin-san tea and homemade cake. I also received presents from my father and mother. I sent a \"thank you\" message to my family using my smartphone. It was a very joyful day."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l07.l01",
@@ -1624,7 +1624,7 @@
         "ja": "マイクさん、来週は佐藤さんの送別会ですね。もうプレゼントを買いましたか。",
         "kana": "まいくさん、らいしゅうはさとうさんのそうべつかいですね。もうぷれぜんとをかいましたか。",
         "en": "Mike-san, next week is Sato-san's farewell party. Have you bought a present already?",
-        "my": "Mike-san, next week is Sato-san's farewell party. Have you bought a present already?",
+        "my": "小林: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Mike-san, next week is Sato-san's farewell party. Have you bought a present already?",
         "myanmar": "Mike-san, next week is Sato-san's farewell party. Have you bought a present already?"
       },
@@ -1633,7 +1633,7 @@
         "ja": "いいえ、まだです。何がいいでしょうか。",
         "kana": "いいえ、まだです。なにがいいでしょうか。",
         "en": "No, not yet. What would be good?",
-        "my": "No, not yet. What would be good?",
+        "my": "マイク: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "No, not yet. What would be good?",
         "myanmar": "No, not yet. What would be good?"
       },
@@ -1642,7 +1642,7 @@
         "ja": "佐藤さんは本が大好きですから、素敵なブックカバーをあげませんか。",
         "kana": "さとうさんはほんがだいすきですから、すてきなぶっくかばーをあげませんか。",
         "en": "Sato-san loves books, so why don't we give her a nice book cover?",
-        "my": "Sato-san loves books, so why don't we give her a nice book cover?",
+        "my": "小林: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "Sato-san loves books, so why don't we give her a nice book cover?",
         "myanmar": "Sato-san loves books, so why don't we give her a nice book cover?"
       },
@@ -1651,7 +1651,7 @@
         "ja": "それは素晴らしいアイデアですね！明日、デパートで買いましょう。",
         "kana": "それはすばらしいあいでぃあですね！あした、でぱーとでかいましょう。",
         "en": "That is a wonderful idea! Let's buy it at the department store tomorrow.",
-        "my": "That is a wonderful idea! Let's buy it at the department store tomorrow.",
+        "my": "マイク: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "That is a wonderful idea! Let's buy it at the department store tomorrow.",
         "myanmar": "That is a wonderful idea! Let's buy it at the department store tomorrow."
       }
@@ -1673,7 +1673,7 @@
     },
     "titleMy": "Giving and Receiving Tools (あげます・もらいます) - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "Giving and Receiving Tools (あげます・もらいます) - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "Two colleagues discuss what present to give Sato-san for her farewell party."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -2104,8 +2104,8 @@
       "questionMy": "「手」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「手」၏ အဓိပ္ပာယ်မှာ \"လက် / လက်ရေး / နည်းလမ်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Hand)",
       "choicesMy": [
-        "Hand",
-        "Paper",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
         "သူငယ်ချင်း",
         "သစ်ပင်"
       ],
@@ -2137,10 +2137,10 @@
       "questionMy": "「手」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「手」၏ အဓိပ္ပာယ်မှာ \"လက် / လက်ရေး / နည်းလမ်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: て)",
       "choicesMy": [
-        "て",
-        "みず",
-        "ほん",
-        "ひと"
+        "လက်",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2170,8 +2170,8 @@
       "questionMy": "「紙」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「紙」၏ အဓိပ္ပာယ်မှာ \"စက္ကူ\" ဖြစ်ပါသည်။ (အဖြေမှန်: Paper)",
       "choicesMy": [
-        "Paper",
-        "Hand",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
         "သူငယ်ချင်း",
         "သစ်ပင်"
       ],
@@ -2203,10 +2203,10 @@
       "questionMy": "「紙」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「紙」၏ အဓိပ္ပာယ်မှာ \"စက္ကူ\" ဖြစ်ပါသည်။ (အဖြေမှန်: かみ)",
       "choicesMy": [
-        "かみ",
-        "みず",
-        "ほん",
-        "ひと"
+        "စက္ကူ",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2237,8 +2237,8 @@
       "explanationMy": "ကန်ဂျီ「友」၏ အဓိပ္ပာယ်မှာ \"သူငယ်ချင်း / မိတ်ဆွေ\" ဖြစ်ပါသည်။ (အဖြေမှန်: Friend)",
       "choicesMy": [
         "သူငယ်ချင်း",
-        "Hand",
-        "Paper",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2269,10 +2269,10 @@
       "questionMy": "「友」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「友」၏ အဓိပ္ပာယ်မှာ \"သူငယ်ချင်း / မိတ်ဆွေ\" ဖြစ်ပါသည်။ (အဖြေမှန်: とも)",
       "choicesMy": [
-        "とも",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2302,9 +2302,9 @@
       "questionMy": "「父」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「父」၏ အဓိပ္ပာယ်မှာ \"ဖခင် / အဖေ\" ဖြစ်ပါသည်။ (အဖြေမှန်: Father)",
       "choicesMy": [
-        "Father",
-        "Hand",
-        "Paper",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2335,10 +2335,10 @@
       "questionMy": "「父」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「父」၏ အဓိပ္ပာယ်မှာ \"ဖခင် / အဖေ\" ဖြစ်ပါသည်။ (အဖြေမှန်: ちち)",
       "choicesMy": [
-        "ちち",
-        "みず",
-        "ほん",
-        "ひと"
+        "အဖေ",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2368,10 +2368,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「きれいなペン」 ဖြစ်ပါသည်။ (「リンさんは私にきれいなペンをくれました」.)",
       "choicesMy": [
-        "きれいなペン",
-        "手作りのケーキ",
-        "お茶",
-        "スマートフォン"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "လက်ဖက်ရည် / ရေနွေးကြမ်း",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2401,10 +2401,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「お茶と手作りのケーキ」 ဖြစ်ပါသည်။ (「私はリンさんにお茶と手作りのケーキをあげました」.)",
       "choicesMy": [
-        "お茶と手作りのケーキ",
-        "きれいなペン",
-        "花束",
-        "本"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "စာအုပ်"
       ],
       "correctIndex": 0
     },
@@ -2434,10 +2434,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「スマートフォンで」 ဖြစ်ပါသည်။ (「スマートフォンで家族に「ありがとう」のメッセージを送りました」.)",
       "choicesMy": [
-        "スマートフォンで",
-        "手紙で",
-        "電話で",
-        "直接会って"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2467,10 +2467,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「二十歳 (はたち)」 ဖြစ်ပါသည်။ (「昨日は私の二十歳の誕生日でした」.)",
       "choicesMy": [
-        "二十歳 (はたち)",
-        "十九歳",
-        "二十一歳",
-        "十八歳"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2500,10 +2500,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「とても嬉しい一日」 ဖြစ်ပါသည်။ (「とても嬉しい一日でした」.)",
       "choicesMy": [
-        "とても嬉しい一日",
-        "疲れた一日",
-        "悲しい一日",
-        "退屈な一日"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2533,10 +2533,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「素敵なブックカバー」 ဖြစ်ပါသည်။ (Kobayashi suggests giving a nice book cover (素敵なブックカバー).)",
       "choicesMy": [
-        "素敵なブックカバー",
-        "花束",
-        "時計",
-        "辞書"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "နာရီ",
+        "အဘိဓာန်"
       ],
       "correctIndex": 0
     },
@@ -2566,10 +2566,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「佐藤さんが本を大好きだから」 ဖြစ်ပါသည်။ (Kobayashi explains: 「佐藤さんは本が大好きですから」.)",
       "choicesMy": [
-        "佐藤さんが本を大好きだから",
-        "安かったから",
-        "佐藤さんから頼まれたから",
-        "店員に勧められたから"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2599,10 +2599,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「いいえ、明日デパートで買う」 ဖြစ်ပါသည်။ (Mike answers 「いいえ、まだです」 and they decide to buy it tomorrow.)",
       "choicesMy": [
-        "いいえ、明日デパートで買う",
-        "はい、もう買った",
-        "ネットで注文した",
-        "買わないことにした"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2632,10 +2632,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「佐藤さんの送別会」 ဖြစ်ပါသည်။ (「来週は佐藤さんの送別会ですね」.)",
       "choicesMy": [
-        "佐藤さんの送別会",
-        "マイクさんの誕生日",
-        "小林さんの歓迎会",
-        "会社の試験"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2665,10 +2665,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「デパート」 ဖြစ်ပါသည်။ (Mike suggests: 「明日、デパートで買いましょう」.)",
       "choicesMy": [
-        "デパート",
-        "駅の売店",
-        "本屋",
-        "コンビニ"
+        "ကုန်တိုက်ကြီး",
+        "ရွေးချယ်စရာ (2)",
+        "စာအုပ်ဆိုင်",
+        "ကွန်ဗီးနီးယန့်စတိုး"
       ],
       "correctIndex": 0
     }

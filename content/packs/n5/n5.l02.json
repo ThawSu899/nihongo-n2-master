@@ -944,7 +944,7 @@
           "reading": "にほん",
           "meaning": "Japan",
           "preview": true,
-          "meaningMyanmar": "Japan",
+          "meaningMyanmar": "နှစ်ချောင်း",
           "meaningMy": "Japan"
         }
       ],
@@ -987,7 +987,7 @@
           "reading": "にちようび",
           "meaning": "Sunday",
           "preview": false,
-          "meaningMyanmar": "Sunday",
+          "meaningMyanmar": "တနင်္ဂနွေနေ့",
           "meaningMy": "Sunday"
         },
         {
@@ -1045,7 +1045,7 @@
           "reading": "あのひと",
           "meaning": "That person",
           "preview": true,
-          "meaningMyanmar": "That person",
+          "meaningMyanmar": "အဓိပ္ပာယ်: That person",
           "meaningMy": "That person"
         }
       ],
@@ -1095,7 +1095,7 @@
           "reading": "めいし",
           "meaning": "Business card",
           "preview": true,
-          "meaningMyanmar": "Business card",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Business card",
           "meaningMy": "Business card"
         }
       ],
@@ -1463,7 +1463,7 @@
     },
     "titleMy": "This, That, and Over There (これ・それ・あれ) - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "This, That, and Over There (これ・それ・あれ) - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "This is a Japanese language classroom. There are books and dictionaries on the desks. This is my Japanese textbook. That is Sato-san's notebook. There is a black bag over there. Whose bag is that? That bag belongs to the teacher."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l02.l01",
@@ -1486,7 +1486,7 @@
         "ja": "すみません、それはあなたの傘ですか。",
         "kana": "すみません、それはあなたのかさですか。",
         "en": "Excuse me, is that umbrella yours?",
-        "my": "Excuse me, is that umbrella yours?",
+        "my": "A: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Excuse me, is that umbrella yours?",
         "myanmar": "Excuse me, is that umbrella yours?"
       },
@@ -1495,7 +1495,7 @@
         "ja": "いいえ、違います。私のはあれです。あの青い傘です。",
         "kana": "いいえ、ちがいます。わたしのはあれです。あのあおいかさです。",
         "en": "No, it isn't. Mine is that one over there. That blue umbrella.",
-        "my": "No, it isn't. Mine is that one over there. That blue umbrella.",
+        "my": "B: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "No, it isn't. Mine is that one over there. That blue umbrella.",
         "myanmar": "No, it isn't. Mine is that one over there. That blue umbrella."
       },
@@ -1504,7 +1504,7 @@
         "ja": "そうですか。では、この黒い傘は誰のですか。",
         "kana": "そうですか。では、このくろいかさはだれのですか。",
         "en": "I see. Then whose black umbrella is this?",
-        "my": "I see. Then whose black umbrella is this?",
+        "my": "A: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "I see. Then whose black umbrella is this?",
         "myanmar": "I see. Then whose black umbrella is this?"
       },
@@ -1513,7 +1513,7 @@
         "ja": "あ、それは田中さんのですよ。",
         "kana": "あ、それはたなかさんのですよ。",
         "en": "Ah, that belongs to Tanaka-san.",
-        "my": "Ah, that belongs to Tanaka-san.",
+        "my": "B: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "Ah, that belongs to Tanaka-san.",
         "myanmar": "Ah, that belongs to Tanaka-san."
       }
@@ -1535,7 +1535,7 @@
     },
     "titleMy": "This, That, and Over There (これ・それ・あれ) - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "This, That, and Over There (これ・それ・あれ) - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "A dialogue between two students finding an umbrella in the classroom."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -1966,8 +1966,8 @@
       "questionMy": "「本」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「本」၏ အဓိပ္ပာယ်မှာ \"စာအုပ် / မူလရင်းမြစ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: Book, origin)",
       "choicesMy": [
-        "Book, origin",
-        "Day, sun",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
         "လူ",
         "သစ်ပင်"
       ],
@@ -1999,10 +1999,10 @@
       "questionMy": "「本」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「本」၏ အဓိပ္ပာယ်မှာ \"စာအုပ် / မူလရင်းမြစ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: もと)",
       "choicesMy": [
-        "もと",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2032,8 +2032,8 @@
       "questionMy": "「日」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「日」၏ အဓိပ္ပာယ်မှာ \"နေ့ / နေမင်း / ဂျပန်\" ဖြစ်ပါသည်။ (အဖြေမှန်: Day, sun)",
       "choicesMy": [
-        "Day, sun",
-        "Book, origin",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
         "လူ",
         "သစ်ပင်"
       ],
@@ -2065,10 +2065,10 @@
       "questionMy": "「日」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「日」၏ အဓိပ္ပာယ်မှာ \"နေ့ / နေမင်း / ဂျပန်\" ဖြစ်ပါသည်။ (အဖြေမှန်: ひ)",
       "choicesMy": [
-        "ひ",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2099,8 +2099,8 @@
       "explanationMy": "ကန်ဂျီ「人」၏ အဓိပ္ပာယ်မှာ \"လူ / လူပုဂ္ဂိုလ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: Person)",
       "choicesMy": [
         "လူ",
-        "Book, origin",
-        "Day, sun",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2131,9 +2131,9 @@
       "questionMy": "「人」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「人」၏ အဓိပ္ပာယ်မှာ \"လူ / လူပုဂ္ဂိုလ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: ひと)",
       "choicesMy": [
-        "ひと",
-        "みず",
-        "ほん",
+        "လူ",
+        "ရေ",
+        "စာအုပ်",
         "ဒါ (ပြောသူအနီး)"
       ],
       "correctIndex": 0
@@ -2165,8 +2165,8 @@
       "explanationMy": "ကန်ဂျီ「名」၏ အဓိပ္ပာယ်မှာ \"အမည် / နာမည်\" ဖြစ်ပါသည်။ (အဖြေမှန်: Name)",
       "choicesMy": [
         "နာမည်",
-        "Book, origin",
-        "Day, sun",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2197,10 +2197,10 @@
       "questionMy": "「名」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「名」၏ အဓိပ္ပာယ်မှာ \"အမည် / နာမည်\" ဖြစ်ပါသည်။ (အဖြေမှန်: な)",
       "choicesMy": [
-        "な",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2230,10 +2230,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「本と辞書」 ဖြစ်ပါသည်။ (The text states 「机の上に本と辞書があります」 (There are books and dictionaries on the desk).)",
       "choicesMy": [
-        "本と辞書",
-        "傘と時計",
-        "新聞と雑誌",
-        "手帳とペン"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2263,10 +2263,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「私のです」 ဖြစ်ပါသည်။ (The text states 「これは私の日本語の教科書です」 (This is my Japanese textbook).)",
       "choicesMy": [
-        "私のです",
-        "佐藤さんのです",
-        "先生のです",
-        "田中さんのです"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2296,10 +2296,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「ノート」 ဖြစ်ပါသည်။ (The passage explicitly says 「それは佐藤さんのノートです」 (That is Sato-san's notebook).)",
       "choicesMy": [
-        "ノート",
-        "黒い鞄",
-        "辞書",
-        "傘"
+        "ဗလာစာအုပ်",
+        "ရွေးချယ်စရာ (2)",
+        "အဘိဓာန်",
+        "ထီး"
       ],
       "correctIndex": 0
     },
@@ -2329,10 +2329,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「先生の鞄」 ဖြစ်ပါသည်။ (The text concludes with 「あの鞄は先生のです」 (That bag belongs to the teacher).)",
       "choicesMy": [
-        "先生の鞄",
-        "佐藤さんの鞄",
-        "私の鞄",
-        "田中さんの鞄"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2362,10 +2362,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「日本語の教室」 ဖြစ်ပါသည်။ (The opening sentence declares 「ここは日本語の教室です」.)",
       "choicesMy": [
-        "日本語の教室",
-        "駅のホーム",
-        "図書室",
-        "会社の会議室"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2395,10 +2395,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「あの青い傘」 ဖြစ်ပါသည်။ (Person B states 「私のはあれです。あの青い傘です」 (Mine is that one over there. That blue umbrella).)",
       "choicesMy": [
-        "あの青い傘",
-        "この黒い傘",
-        "先生の傘",
-        "白い傘"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2428,10 +2428,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「田中さんの傘」 ဖြစ်ပါသည်။ (B confirms: 「あ、それは田中さんのですよ」 (Ah, that is Tanaka-san's).)",
       "choicesMy": [
-        "田中さんの傘",
-        "Bさんの傘",
-        "Aさんの傘",
-        "佐藤さんの傘"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2461,10 +2461,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「傘の持ち主」 ဖြစ်ပါသည်။ (They are discussing who owns the umbrellas in the room.)",
       "choicesMy": [
-        "傘の持ち主",
-        "辞書の値段",
-        "授業の時間",
-        "宿題の内容"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2494,10 +2494,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「いいえ、離れたところにあります (あれ)」 ဖြစ်ပါသည်။ (B uses 「あれ」 indicating distance away from both speakers.)",
       "choicesMy": [
-        "いいえ、離れたところにあります (あれ)",
-        "はい、手元にあります (これ)",
-        "はい、Aさんの近くにあります",
-        "分かりません"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2527,10 +2527,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「すみません、それはあなたの傘ですか。」 ဖြစ်ပါသည်။ (Turn 1 begins: 「すみません、それはあなたの傘ですか。」.)",
       "choicesMy": [
-        "すみません、それはあなたの傘ですか。",
-        "こんにちは、本をください。",
-        "これは誰の鞄ですか。",
-        "おはようございます。"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

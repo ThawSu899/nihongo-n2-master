@@ -999,7 +999,7 @@
           "reading": "ばいてん",
           "meaning": "Kiosk / Stand",
           "preview": true,
-          "meaningMyanmar": "Kiosk / Stand",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Kiosk / Stand",
           "meaningMy": "Kiosk / Stand"
         }
       ],
@@ -1051,7 +1051,7 @@
           "reading": "さくぶん",
           "meaning": "Essay / Composition",
           "preview": true,
-          "meaningMyanmar": "Essay / Composition",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Essay / Composition",
           "meaningMy": "Essay / Composition"
         }
       ],
@@ -1094,7 +1094,7 @@
           "reading": "たべもの",
           "meaning": "Food",
           "preview": false,
-          "meaningMyanmar": "Food",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Food",
           "meaningMy": "Food"
         },
         {
@@ -1560,7 +1560,7 @@
     },
     "titleMy": "思い出の写真アルバム (Memories Photo Album) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "思い出の写真アルバム (Memories Photo Album) (ဖတ်ရှုခြင်း)",
-    "translationMy": "On the desk in my room, there is an album of photographs that I took since coming to Japan. The first photograph is of me wearing the traditional kimono that I bought in Kyoto last year. It is very beautiful and I like it a lot. The second one is a photo of the chocolate cake that my friends made for my birthday last month. It had many strawberries on top and was really delicious. The third one is a photo taken together with Teacher Kimura, who always kindly teaches us at Japanese school. The blue sweater that the teacher is wearing was knitted by his wife, he told us. This album is a treasure that makes me remember the precious time I spent in Japan."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l25.l01",
@@ -1583,7 +1583,7 @@
         "ja": "ケンさん、あそこで眼鏡をかけている人は誰ですか。",
         "kana": "けんさん、あそこでめがねをかけているひとはだれですか。",
         "en": "Ken, who is that person wearing glasses over there?",
-        "my": "Ken, who is that person wearing glasses over there?",
+        "my": "アンナ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Ken, who is that person wearing glasses over there?",
         "myanmar": "Ken, who is that person wearing glasses over there?"
       },
@@ -1592,7 +1592,7 @@
         "ja": "ああ、あの窓の近くでジュースを飲んでいる人？あの人は先週アメリカから来た留学生のトムさんだよ。",
         "kana": "ああ、あのまどのちかくでじゅーすをのんでいるひと？あのひとはせんしゅうあめりかからきたりゅうがくせいのとむさんだよ。",
         "en": "Oh, the person drinking juice near the window? That person is Tom, an international student who came from America last week.",
-        "my": "Oh, the person drinking juice near the window? That person is Tom, an international student who came from America last week.",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Oh, the person drinking juice near the window? That person is Tom, an international student who came from America last week.",
         "myanmar": "Oh, the person drinking juice near the window? That person is Tom, an international student who came from America last week."
       },
@@ -1601,7 +1601,7 @@
         "ja": "そうなんですか。じゃあ、トムさんの隣で黒い帽子をかぶっている人は？",
         "kana": "そうなんですか。じゃあ、とむさんのとなりでくろいぼうしをかぶっているひとは？",
         "en": "Is that so? Then, who is the person wearing the black hat next to Tom?",
-        "my": "Is that so? Then, who is the person wearing the black hat next to Tom?",
+        "my": "アンナ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "Is that so? Then, who is the person wearing the black hat next to Tom?",
         "myanmar": "Is that so? Then, who is the person wearing the black hat next to Tom?"
       },
@@ -1610,7 +1610,7 @@
         "ja": "あの人は私のクラスメイトのさくらさんだよ。さくらさんが持っているケーキは、さくらさんが自分で作ったんだよ。",
         "kana": "あのひとはわたしのくらすめいとのさくらさんだよ。さくらさんがもっているけーきは、さくらさんがじぶんでつくったんだよ。",
         "en": "That is my classmate Sakura. The cake that Sakura is holding was made by Sakura herself.",
-        "my": "That is my classmate Sakura. The cake that Sakura is holding was made by Sakura herself.",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "That is my classmate Sakura. The cake that Sakura is holding was made by Sakura herself.",
         "myanmar": "That is my classmate Sakura. The cake that Sakura is holding was made by Sakura herself."
       },
@@ -1619,7 +1619,7 @@
         "ja": "すごいですね！私も後でお話してみたいです。",
         "kana": "すごいですね！わたしもあとでおはなしてみたいです。",
         "en": "That's amazing! I want to try talking to them later too.",
-        "my": "That's amazing! I want to try talking to them later too.",
+        "my": "アンナ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (5)",
         "translationMy": "That's amazing! I want to try talking to them later too.",
         "myanmar": "That's amazing! I want to try talking to them later too."
       }
@@ -1641,7 +1641,7 @@
     },
     "titleMy": "パーティーでの紹介 (Introductions at the Party) (နားထောင်ခြင်း)",
     "titleMyanmar": "パーティーでの紹介 (Introductions at the Party) (နားထောင်ခြင်း)",
-    "translationMy": "Anna: Ken, who is that person wearing glasses over there?\nKen: Oh, the person drinking juice near the window? That person is Tom, an international student who came from America last week.\nAnna: Is that so? Then, who is the person wearing the black hat next to Tom?\nKen: That is my classmate Sakura. The cake that Sakura is holding was made by Sakura herself.\nAnna: That's amazing! I want to try talking to them later too."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -1673,7 +1673,7 @@
         "ရောင်းသည်",
         "ဝယ်သည်",
         "ပြုလုပ်သည် / ဖန်တီးသည်",
-        "To wear"
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1703,10 +1703,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「着る (きる)」 ဖြစ်ပါသည်။ (「着る」(きる) is used for tops, coats, shirts, and dresses.)",
       "choicesMy": [
-        "着る (きる)",
-        "履く (はく)",
-        "かぶる",
-        "かける"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ဦးထုပ်ဆောင်းသည်",
+        "မျက်မှန်တပ်သည်"
       ],
       "correctIndex": 0
     },
@@ -1736,10 +1736,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「かける」 ဖြစ်ပါသည်။ (For glasses, Japanese uses 眼鏡をかける.)",
       "choicesMy": [
-        "かける",
-        "かぶる",
-        "着る",
-        "履く"
+        "မျက်မှန်တပ်သည်",
+        "ဦးထုပ်ဆောင်းသည်",
+        "ဝတ်ဆင်သည် (အင်္ကျီ)",
+        "ဖိနပ်စီးသည်"
       ],
       "correctIndex": 0
     },
@@ -1769,10 +1769,10 @@
       "questionMy": "「帽子」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「Hat / Cap」 ဖြစ်ပါသည်။ (「帽子」(ぼうし) means hat or cap.)",
       "choicesMy": [
-        "Shoes",
+        "ရွေးချယ်စရာ (1)",
         "ဦးထုပ်",
-        "Gloves",
-        "Socks"
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1838,7 +1838,7 @@
         "အချိန်",
         "နေရာ",
         "လူ",
-        "Thing"
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1868,10 +1868,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「買」၏ အဓိပ္ပာယ်မှာ \"ဝယ်ယူခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: バイ)",
       "choicesMy": [
-        "バイ",
-        "カイ",
-        "マイ",
-        "タイ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1901,10 +1901,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「売」၏ အဓိပ္ပာယ်မှာ \"ရောင်းချခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: 売)",
       "choicesMy": [
-        "買",
-        "売",
-        "作",
-        "物"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1934,10 +1934,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「作」၏ အဓိပ္ပာယ်မှာ \"ပြုလုပ်ခြင်း / ဖန်တီးခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: 7)",
       "choicesMy": [
-        "6",
-        "7",
-        "8",
-        "9"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1967,10 +1967,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「物」၏ အဓိပ္ပာယ်မှာ \"ပစ္စည်း / အရာဝတ္ထု\" ဖြစ်ပါသည်။ (အဖြေမှန်: もの)",
       "choicesMy": [
-        "もの",
-        "ブツ",
-        "モツ",
-        "ぶつ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2000,10 +2000,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နာမ်တစ်ခုကို ကြိယာဝါကျဖြင့် အထူးပြုရာတွင် 「ကြိယာ ရိုးရိုးပုံစံ (Plain form) + နာမ်」 ဖြစ်ပြီး နာမ်၏ အရှေ့တွင် ထားရသည်။ ဝါကျတွင်း ကတ္တားကို 「は」 အစား 「が」 ဖြင့် ပြရသည် (e.g. 母が作った料理 - အမေချက်ထားသော ဟင်းလျာ).",
       "choicesMy": [
-        "母が作った料理",
-        "母は作った料理",
-        "母を作った料理",
-        "母に作った料理"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2033,10 +2033,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နာမ်တစ်ခုကို ကြိယာဝါကျဖြင့် အထူးပြုရာတွင် 「ကြိယာ ရိုးရိုးပုံစံ (Plain form) + နာမ်」 ဖြစ်ပြီး နာမ်၏ အရှေ့တွင် ထားရသည်။ ဝါကျတွင်း ကတ္တားကို 「は」 အစား 「が」 ဖြင့် ပြရသည် (e.g. 母が作った料理 - အမေချက်ထားသော ဟင်းလျာ).",
       "choicesMy": [
-        "Always directly before the noun",
-        "Always after the noun",
-        "At the very end of the whole sentence",
-        "Between the noun and its particle"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2066,10 +2066,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နာမ်တစ်ခုကို ကြိယာဝါကျဖြင့် အထူးပြုရာတွင် 「ကြိယာ ရိုးရိုးပုံစံ (Plain form) + နာမ်」 ဖြစ်ပြီး နာမ်၏ အရှေ့တွင် ထားရသည်။ ဝါကျတွင်း ကတ္တားကို 「は」 အစား 「が」 ဖြင့် ပြရသည် (e.g. 母が作った料理 - အမေချက်ထားသော ဟင်းလျာ).",
       "choicesMy": [
-        "昨日買った本",
-        "昨日買いました本",
-        "昨日買うでした本",
-        "昨日買い本"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2100,10 +2100,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နာမ်တစ်ခုကို ကြိယာဝါကျဖြင့် အထူးပြုရာတွင် 「ကြိယာ ရိုးရိုးပုံစံ (Plain form) + နာမ်」 ဖြစ်ပြီး နာမ်၏ အရှေ့တွင် ထားရသည်။ ဝါကျတွင်း ကတ္တားကို 「は」 အစား 「が」 ဖြင့် ပြရသည် (e.g. 母が作った料理 - အမေချက်ထားသော ဟင်းလျာ).",
       "choicesMy": [
-        "いる",
-        "います",
-        "いて",
-        "いたです"
+        "ရွေးချယ်စရာ (1)",
+        "ရှိသည် (သက်ရှိ)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2133,10 +2133,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နာမ်တစ်ခုကို ကြိယာဝါကျဖြင့် အထူးပြုရာတွင် 「ကြိယာ ရိုးရိုးပုံစံ (Plain form) + နာမ်」 ဖြစ်ပြီး နာမ်၏ အရှေ့တွင် ထားရသည်။ ဝါကျတွင်း ကတ္တားကို 「は」 အစား 「が」 ဖြင့် ပြရသည် (e.g. 母が作った料理 - အမေချက်ထားသော ဟင်းလျာ).",
       "choicesMy": [
-        "Plain form (dictionary / ない / た)",
-        "Polite ます form",
-        "Imperative form",
-        "Volitional form only"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2166,10 +2166,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ပစ္စည်း သို့မဟုတ် လူတစ်ဦးကို အထူးပြုဝါကျဖြင့် ရှင်းလင်းဖော်ပြရာတွင် 「これは [Clause] Noun です」 (ဒါဟာ ...လုပ်ထားသော နာမ်ဖြစ်သည်) ဟု သုံးသည်။",
       "choicesMy": [
-        "これは京都で撮った写真です",
-        "これは京都で撮りました写真です",
-        "これは写真で京都で撮るです",
-        "これは撮った京都の写真ですだ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2199,10 +2199,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နာမ်တစ်ခုကို ကြိယာဝါကျဖြင့် အထူးပြုရာတွင် 「ကြိယာ ရိုးရိုးပုံစံ (Plain form) + နာမ်」 ဖြစ်ပြီး နာမ်၏ အရှေ့တွင် ထားရသည်။ ဝါကျတွင်း ကတ္တားကို 「は」 အစား 「が」 ဖြင့် ပြရသည် (e.g. 母が作った料理 - အမေချက်ထားသော ဟင်းလျာ).",
       "choicesMy": [
-        "作った",
-        "作りました",
-        "作るでした",
-        "作って"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2232,10 +2232,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နာမ်တစ်ခုကို ကြိယာဝါကျဖြင့် အထူးပြုရာတွင် 「ကြိယာ ရိုးရိုးပုံစံ (Plain form) + နာမ်」 ဖြစ်ပြီး နာမ်၏ အရှေ့တွင် ထားရသည်။ ဝါကျတွင်း ကတ္တားကို 「は」 အစား 「が」 ဖြင့် ပြရသည် (e.g. 母が作った料理 - အမေချက်ထားသော ဟင်းလျာ).",
       "choicesMy": [
-        "No, Japanese modifies nouns directly without relative pronouns",
-        "Yes, using particles who and which",
-        "Only when referring to animals",
-        "Only in negative sentences"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2265,10 +2265,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နာမ်တစ်ခုကို ကြိယာဝါကျဖြင့် အထူးပြုရာတွင် 「ကြိယာ ရိုးရိုးပုံစံ (Plain form) + နာမ်」 ဖြစ်ပြီး နာမ်၏ အရှေ့တွင် ထားရသည်။ ဝါကျတွင်း ကတ္တားကို 「は」 အစား 「が」 ဖြင့် ပြရသည် (e.g. 母が作った料理 - အမေချက်ထားသော ဟင်းလျာ).",
       "choicesMy": [
-        "友達と会った場所",
-        "友達と会いました場所",
-        "友達と会うでした場所",
-        "場所が友達と会った"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2298,10 +2298,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နာမ်တစ်ခုကို ကြိယာဝါကျဖြင့် အထူးပြုရာတွင် 「ကြိယာ ရိုးရိုးပုံစံ (Plain form) + နာမ်」 ဖြစ်ပြီး နာမ်၏ အရှေ့တွင် ထားရသည်။ ဝါကျတွင်း ကတ္တားကို 「は」 အစား 「が」 ဖြင့် ပြရသည် (e.g. 母が作った料理 - အမေချက်ထားသော ဟင်းလျာ).",
       "choicesMy": [
-        "本",
-        "本に",
-        "本で",
-        "本を"
+        "စာအုပ်",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2331,10 +2331,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「On the desk in the author's room」 ဖြစ်ပါသည်။ (The passage says: 私の部屋の机の上には、日本に来てから撮った写真のアルバムがあります.)",
       "choicesMy": [
-        "In a bookshelf at school",
-        "On the desk in the author's room",
-        "In a drawer in the living room",
-        "At the teacher's house"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2364,10 +2364,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「A traditional kimono bought in Kyoto last year」 ဖြစ်ပါသည်။ (The text states: 去年京都で買った伝統的な着物を着ている私です.)",
       "choicesMy": [
-        "A blue suit",
-        "A traditional kimono bought in Kyoto last year",
-        "A winter jacket",
-        "A school uniform"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2397,10 +2397,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「A chocolate cake made by friends for the author's birthday」 ဖြစ်ပါသည်။ (The text notes: 先月の誕生日に友達が作ってくれたチョコレートケーキの写真です.)",
       "choicesMy": [
-        "A chocolate cake made by friends for the author's birthday",
-        "A restaurant in Shinjuku",
-        "Mount Fuji in summer",
-        "A Kyoto shrine"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2430,10 +2430,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「His wife」 ဖြစ်ပါသည်။ (The text says: 奥さんが編んだものだと言っていました (knitted by his wife).)",
       "choicesMy": [
-        "The author",
-        "His wife",
-        "His daughter",
-        "A store in Tokyo"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2463,10 +2463,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「A treasure that recalls precious time spent in Japan」 ဖြစ်ပါသည်။ (The passage ends: 私が日本で過ごした大切な時間を思い出させてくれる宝物です.)",
       "choicesMy": [
-        "A textbook for homework",
-        "A treasure that recalls precious time spent in Japan",
-        "Something he wants to throw away",
-        "A gift for his parents"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2496,10 +2496,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Tom, an exchange student from America」 ဖြစ်ပါသည်။ (Ken explains: 先週アメリカから来た留学生のトムさんだよ.)",
       "choicesMy": [
-        "Ken",
-        "Tom, an exchange student from America",
-        "Teacher Kimura",
-        "Sakura"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2529,9 +2529,9 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「A black hat」 ဖြစ်ပါသည်။ (Anna asks about: トムさんの隣で黒い帽子をかぶっている人 (the person wearing the black hat next to Tom).)",
       "choicesMy": [
-        "A white scarf",
-        "A black hat",
-        "A blue cap",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "မျက်မှန်"
       ],
       "correctIndex": 0
@@ -2562,10 +2562,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Sakura herself」 ဖြစ်ပါသည်။ (Ken says: さくらさんが自分で作ったんだよ (Sakura made it herself).)",
       "choicesMy": [
-        "A bakery shop",
-        "Sakura herself",
-        "Tom",
-        "Anna"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2595,10 +2595,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「His classmate」 ဖြစ်ပါသည်။ (Ken says: あの人は私のクラスメイトのさくらさんだよ.)",
       "choicesMy": [
-        "His sister",
-        "His classmate",
-        "His teacher",
-        "His mother"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2628,10 +2628,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Try talking to them」 ဖြစ်ပါသည်။ (Anna says: 私も後でお話してみたいです (I want to try talking to them later too).)",
       "choicesMy": [
-        "Go home early",
-        "Try talking to them",
-        "Bake another cake",
-        "Buy glasses"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

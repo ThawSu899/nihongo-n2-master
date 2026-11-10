@@ -943,7 +943,7 @@
           "reading": "たちます",
           "meaning": "To stand",
           "preview": false,
-          "meaningMyanmar": "To stand",
+          "meaningMyanmar": "မတ်တပ်ရပ်သည်",
           "meaningMy": "To stand"
         },
         {
@@ -951,7 +951,7 @@
           "reading": "こくりつ",
           "meaning": "National",
           "preview": true,
-          "meaningMyanmar": "National",
+          "meaningMyanmar": "အဓိပ္ပာယ်: National",
           "meaningMy": "National"
         }
       ],
@@ -992,7 +992,7 @@
           "reading": "すわります",
           "meaning": "To sit",
           "preview": false,
-          "meaningMyanmar": "To sit",
+          "meaningMyanmar": "ထိုင်သည်",
           "meaningMy": "To sit"
         },
         {
@@ -1000,7 +1000,7 @@
           "reading": "ざせき",
           "meaning": "Seat",
           "preview": true,
-          "meaningMyanmar": "Seat",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Seat",
           "meaningMy": "Seat"
         }
       ],
@@ -1049,7 +1049,7 @@
           "reading": "つかいかた",
           "meaning": "How to use",
           "preview": true,
-          "meaningMyanmar": "How to use",
+          "meaningMyanmar": "အဓိပ္ပာယ်: How to use",
           "meaningMy": "How to use"
         }
       ],
@@ -1098,7 +1098,7 @@
           "reading": "きゅうこう",
           "meaning": "Express train",
           "preview": true,
-          "meaningMyanmar": "Express train",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Express train",
           "meaningMy": "Express train"
         }
       ],
@@ -1637,7 +1637,7 @@
     },
     "titleMy": "The Te-form: Requests and Continuous (てください・ています) - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "The Te-form: Requests and Continuous (てください・ています) - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "Heavy rain is falling outside. The wind is also blowing. The teacher entered the classroom. \"Everyone, please close the windows. Rain is coming in,\" said the teacher. The student Wang closed the window. After that, the teacher said, \"Because the lights are dim, please turn on the lights.\" The classroom became bright, and everyone started the Japanese lesson together."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l15.l01",
@@ -1660,7 +1660,7 @@
         "ja": "アンさん、この荷物は重いですね。ちょっと手伝ってください。",
         "kana": "あんさん、このにもつはおもいですね。ちょっとてつだってください。",
         "en": "Ann-san, this package is heavy. Please help me for a moment!",
-        "my": "Ann-san, this package is heavy. Please help me for a moment!",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Ann-san, this package is heavy. Please help me for a moment!",
         "myanmar": "Ann-san, this package is heavy. Please help me for a moment!"
       },
@@ -1669,7 +1669,7 @@
         "ja": "はい、いいですよ。どこへ運びましょうか。",
         "kana": "はい、いいですよ。どこへはこびましょうか。",
         "en": "Yes, sure! Where shall we carry it?",
-        "my": "Yes, sure! Where shall we carry it?",
+        "my": "アン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Yes, sure! Where shall we carry it?",
         "myanmar": "Yes, sure! Where shall we carry it?"
       },
@@ -1678,7 +1678,7 @@
         "ja": "あそこの机の上に置いてください。それから、ドアを開けておいてください。",
         "kana": "あそこのつくえのうえにおいてください。それから、どあをあけておいてください。",
         "en": "Please put it on top of that desk over there. And then, please leave the door open.",
-        "my": "Please put it on top of that desk over there. And then, please leave the door open.",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "Please put it on top of that desk over there. And then, please leave the door open.",
         "myanmar": "Please put it on top of that desk over there. And then, please leave the door open."
       },
@@ -1687,7 +1687,7 @@
         "ja": "分かりました。よいしょ...置きましたよ。ドアも開けました！",
         "kana": "わかりました。よいしょ...おきましたよ。どあもあけました！",
         "en": "Understood. Heave-ho... I placed it! I also opened the door.",
-        "my": "Understood. Heave-ho... I placed it! I also opened the door.",
+        "my": "アン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "Understood. Heave-ho... I placed it! I also opened the door.",
         "myanmar": "Understood. Heave-ho... I placed it! I also opened the door."
       }
@@ -1709,7 +1709,7 @@
     },
     "titleMy": "The Te-form: Requests and Continuous (てください・ています) - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "The Te-form: Requests and Continuous (てください・ています) - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "Two friends carry heavy boxes while moving furniture."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -2140,9 +2140,9 @@
       "questionMy": "「立」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「立」၏ အဓိပ္ပာယ်မှာ \"ရပ်ခြင်း / စတင်တည်ထောင်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Stand, rise)",
       "choicesMy": [
-        "Stand, rise",
-        "Sit, seat",
-        "Use, envoy",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2173,10 +2173,10 @@
       "questionMy": "「立」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「立」၏ အဓိပ္ပာယ်မှာ \"ရပ်ခြင်း / စတင်တည်ထောင်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: た.つ)",
       "choicesMy": [
-        "た.つ",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2206,9 +2206,9 @@
       "questionMy": "「座」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「座」၏ အဓိပ္ပာယ်မှာ \"ထိုင်ခြင်း / နေရာ\" ဖြစ်ပါသည်။ (အဖြေမှန်: Sit, seat)",
       "choicesMy": [
-        "Sit, seat",
-        "Stand, rise",
-        "Use, envoy",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2239,10 +2239,10 @@
       "questionMy": "「座」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「座」၏ အဓိပ္ပာယ်မှာ \"ထိုင်ခြင်း / နေရာ\" ဖြစ်ပါသည်။ (အဖြေမှန်: すわ.る)",
       "choicesMy": [
-        "すわ.る",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2272,9 +2272,9 @@
       "questionMy": "「使」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「使」၏ အဓိပ္ပာယ်မှာ \"အသုံးပြုခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Use, envoy)",
       "choicesMy": [
-        "Use, envoy",
-        "Stand, rise",
-        "Sit, seat",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2305,10 +2305,10 @@
       "questionMy": "「使」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「使」၏ အဓိပ္ပာယ်မှာ \"အသုံးပြုခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: つか.う)",
       "choicesMy": [
-        "つか.う",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2338,9 +2338,9 @@
       "questionMy": "「急」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「急」၏ အဓိပ္ပာယ်မှာ \"အရေးပေါ် / အလျင်လိုသော\" ဖြစ်ပါသည်။ (အဖြေမှန်: Hurry, urgent, steep)",
       "choicesMy": [
-        "Hurry, urgent, steep",
-        "Stand, rise",
-        "Sit, seat",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2371,10 +2371,10 @@
       "questionMy": "「急」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「急」၏ အဓိပ္ပာယ်မှာ \"အရေးပေါ် / အလျင်လိုသော\" ဖြစ်ပါသည်။ (အဖြေမှန်: いそ.ぐ)",
       "choicesMy": [
-        "いそ.ぐ",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2404,10 +2404,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「強い雨と風が吹いている」 ဖြစ်ပါသည်။ (「外は強い雨が降っています。風も吹いています」.)",
       "choicesMy": [
-        "強い雨と風が吹いている",
-        "晴れて暖かい",
-        "雪が降っている",
-        "穏やかな曇り"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2437,10 +2437,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「窓を閉めること」 ဖြစ်ပါသည်။ (「皆さん、窓を閉めてください」.)",
       "choicesMy": [
-        "窓を閉めること",
-        "電気をつけること",
-        "教科書を開くこと",
-        "宿題を出すこと"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2470,10 +2470,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「学生のワンさん」 ဖြစ်ပါသည်။ (「学生のワンさんが窓を閉めました」.)",
       "choicesMy": [
-        "学生のワンさん",
-        "先生",
-        "田中さん",
-        "誰も閉めなかった"
+        "ရွေးချယ်စရာ (1)",
+        "ဆရာ / ဆရာမ",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2503,10 +2503,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「部屋が暗かったから」 ဖြစ်ပါသည်။ (「電気が暗いですから、電気をつけてください」.)",
       "choicesMy": [
-        "部屋が暗かったから",
-        "夜になったから",
-        "暑かったから",
-        "先生が好きだから"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2536,10 +2536,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「日本語の授業」 ဖြစ်ပါသည်။ (「みんなで日本語の授業を始めました」.)",
       "choicesMy": [
-        "日本語の授業",
-        "テスト",
-        "お昼ご飯",
-        "掃除"
+        "ရွေးချယ်စရာ (1)",
+        "စာမေးပွဲ / စစ်ဆေးမှု",
+        "ရွေးချယ်စရာ (3)",
+        "သန့်ရှင်းရေး"
       ],
       "correctIndex": 0
     },
@@ -2569,10 +2569,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「荷物運びの手伝い」 ဖြစ်ပါသည်။ (Ken requests: 「この荷物は重いですね。ちょっと手伝ってください」.)",
       "choicesMy": [
-        "荷物運びの手伝い",
-        "掃除",
-        "買い出し",
-        "料理"
+        "ရွေးချယ်စရာ (1)",
+        "သန့်ရှင်းရေး",
+        "ရွေးချယ်စရာ (3)",
+        "ဟင်းချက်ခြင်း / အစားအစာ"
       ],
       "correctIndex": 0
     },
@@ -2602,10 +2602,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「机の上」 ဖြစ်ပါသည်။ (「あそこの机の上に置いてください」.)",
       "choicesMy": [
-        "机の上",
-        "床の上",
-        "棚の中",
-        "外の車"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2635,10 +2635,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「ドア」 ဖြစ်ပါသည်။ (「ドアも開けました！」.)",
       "choicesMy": [
-        "ドア",
-        "窓",
-        "箱",
-        "カーテン"
+        "တံခါး",
+        "ပြတင်းပေါက်",
+        "သေတ္တာ",
+        "လိုက်ကာ"
       ],
       "correctIndex": 0
     },
@@ -2668,10 +2668,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「重かった」 ဖြစ်ပါသည်။ (Ken notes: 「この荷物は重いですね」.)",
       "choicesMy": [
-        "重かった",
-        "軽かった",
-        "普通だった",
-        "空っぽだった"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2701,10 +2701,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「快く手伝った」 ဖြစ်ပါသည်။ (Ann agrees immediately: 「はい、いいですよ」.)",
       "choicesMy": [
-        "快く手伝った",
-        "断った",
-        "文句を言った",
-        "無視した"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

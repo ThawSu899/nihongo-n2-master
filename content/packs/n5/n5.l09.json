@@ -941,7 +941,7 @@
           "reading": "すき",
           "meaning": "Liked / Favorite",
           "preview": false,
-          "meaningMyanmar": "Liked / Favorite",
+          "meaningMyanmar": "ကြိုက်နှစ်သက်သော",
           "meaningMy": "Liked / Favorite"
         },
         {
@@ -949,7 +949,7 @@
           "reading": "だいすき",
           "meaning": "Love / Greatly liked",
           "preview": true,
-          "meaningMyanmar": "Love / Greatly liked",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Love / Greatly liked",
           "meaningMy": "Love / Greatly liked"
         }
       ],
@@ -999,7 +999,7 @@
           "reading": "つくえのうえ",
           "meaning": "On the desk",
           "preview": true,
-          "meaningMyanmar": "On the desk",
+          "meaningMyanmar": "အဓိပ္ပာယ်: On the desk",
           "meaningMy": "On the desk"
         }
       ],
@@ -1050,7 +1050,7 @@
           "reading": "きのした",
           "meaning": "Under the tree",
           "preview": true,
-          "meaningMyanmar": "Under the tree",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Under the tree",
           "meaningMy": "Under the tree"
         }
       ],
@@ -1091,7 +1091,7 @@
           "reading": "いちにちじゅう",
           "meaning": "All day long",
           "preview": false,
-          "meaningMyanmar": "All day long",
+          "meaningMyanmar": "အဓိပ္ပာယ်: All day long",
           "meaningMy": "All day long"
         },
         {
@@ -1099,7 +1099,7 @@
           "reading": "へやのなか",
           "meaning": "Inside the room",
           "preview": true,
-          "meaningMyanmar": "Inside the room",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Inside the room",
           "meaningMy": "Inside the room"
         }
       ],
@@ -1555,7 +1555,7 @@
     },
     "titleMy": "Preferences and Abilities (好き・上手) - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "Preferences and Abilities (好き・上手) - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "My hobbies are cooking and watching Japanese films. On days off, I often cook Japanese dishes myself. Because I love sushi and tempura, I make them while looking at recipe books. I also like singing, but because I am not very good at it, I sing alone in my room. I also love Japanese anime, so I listen to the dialogue every day to study."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l09.l01",
@@ -1578,7 +1578,7 @@
         "ja": "ワンさん、今日の放課後、カラオケへ行きませんか。",
         "kana": "わんさん、きょうのほうかご、からおけへいきませんか。",
         "en": "Wang-san, won't you go to karaoke after school today?",
-        "my": "Wang-san, won't you go to karaoke after school today?",
+        "my": "タナカ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Wang-san, won't you go to karaoke after school today?",
         "myanmar": "Wang-san, won't you go to karaoke after school today?"
       },
@@ -1587,7 +1587,7 @@
         "ja": "カラオケですか。うーん、私は歌があまり上手じゃありませんから...。",
         "kana": "からおけですか。うーん、わたしはうたがあまりじょうずじゃありませんから...。",
         "en": "Karaoke? Well, because I am not very good at singing...",
-        "my": "Karaoke? Well, because I am not very good at singing...",
+        "my": "ワン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Karaoke? Well, because I am not very good at singing...",
         "myanmar": "Karaoke? Well, because I am not very good at singing..."
       },
@@ -1596,7 +1596,7 @@
         "ja": "大丈夫ですよ！私も下手ですから。ただ音楽を聴いて楽しみましょう。",
         "kana": "だいじょうぶですよ！わたしもへたですから。ただおんがくをきいてたのしみましょう。",
         "en": "Don't worry! I'm poor at it too. Let's just enjoy listening to music.",
-        "my": "Don't worry! I'm poor at it too. Let's just enjoy listening to music.",
+        "my": "タナカ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "Don't worry! I'm poor at it too. Let's just enjoy listening to music.",
         "myanmar": "Don't worry! I'm poor at it too. Let's just enjoy listening to music."
       },
@@ -1605,7 +1605,7 @@
         "ja": "そうですか。日本の歌を聴くのは大好きですから、行きます！",
         "kana": "そうですか。にほんのうたをきくのはだいすきですから、いきます！",
         "en": "Really? I love listening to Japanese songs, so I will come along!",
-        "my": "Really? I love listening to Japanese songs, so I will come along!",
+        "my": "ワン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "Really? I love listening to Japanese songs, so I will come along!",
         "myanmar": "Really? I love listening to Japanese songs, so I will come along!"
       }
@@ -1627,7 +1627,7 @@
     },
     "titleMy": "Preferences and Abilities (好き・上手) - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "Preferences and Abilities (好き・上手) - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "Two classmates discuss singing and music preferences after school."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -2058,9 +2058,9 @@
       "questionMy": "「好」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「好」၏ အဓိပ္ပာယ်မှာ \"ကြိုက်နှစ်သက်သော\" ဖြစ်ပါသည်။ (အဖြေမှန်: Like, fond)",
       "choicesMy": [
-        "Like, fond",
-        "Above, up, superior",
-        "Below, down, inferior",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2091,10 +2091,10 @@
       "questionMy": "「好」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「好」၏ အဓိပ္ပာယ်မှာ \"ကြိုက်နှစ်သက်သော\" ဖြစ်ပါသည်။ (အဖြေမှန်: す.き)",
       "choicesMy": [
-        "す.き",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2124,9 +2124,9 @@
       "questionMy": "「上」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「上」၏ အဓိပ္ပာယ်မှာ \"အထက် / အပေါ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: Above, up, superior)",
       "choicesMy": [
-        "Above, up, superior",
-        "Like, fond",
-        "Below, down, inferior",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2157,10 +2157,10 @@
       "questionMy": "「上」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「上」၏ အဓိပ္ပာယ်မှာ \"အထက် / အပေါ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: うえ)",
       "choicesMy": [
-        "うえ",
-        "みず",
-        "ほん",
-        "ひと"
+        "အပေါ်",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2190,9 +2190,9 @@
       "questionMy": "「下」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「下」၏ အဓိပ္ပာယ်မှာ \"အောက် / အောက်ခြေ\" ဖြစ်ပါသည်။ (အဖြေမှန်: Below, down, inferior)",
       "choicesMy": [
-        "Below, down, inferior",
-        "Like, fond",
-        "Above, up, superior",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2223,10 +2223,10 @@
       "questionMy": "「下」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「下」၏ အဓိပ္ပာယ်မှာ \"အောက် / အောက်ခြေ\" ဖြစ်ပါသည်။ (အဖြေမှန်: した)",
       "choicesMy": [
-        "した",
-        "みず",
-        "ほん",
-        "ひと"
+        "အောက်",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2256,9 +2256,9 @@
       "questionMy": "「中」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「中」၏ အဓိပ္ပာယ်မှာ \"အတွင်း / အလယ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: Inside, middle)",
       "choicesMy": [
-        "Inside, middle",
-        "Like, fond",
-        "Above, up, superior",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2289,10 +2289,10 @@
       "questionMy": "「中」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「中」၏ အဓိပ္ပာယ်မှာ \"အတွင်း / အလယ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: なか)",
       "choicesMy": [
-        "なか",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2322,10 +2322,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「料理と日本映画の鑑賞」 ဖြစ်ပါသည်။ (「私の趣味は料理と日本の映画を見ることです」.)",
       "choicesMy": [
-        "料理と日本映画の鑑賞",
-        "スポーツと読書",
-        "写真と旅行",
-        "ゲームと絵を描くこと"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2355,10 +2355,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「寿司や天ぷら」 ဖြစ်ပါသည်။ (「寿司や天ぷらが大好きですから...」.)",
       "choicesMy": [
-        "寿司や天ぷら",
-        "カレーとラーメン",
-        "肉料理",
-        "フランス料理"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2388,10 +2388,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「あまり歌が上手ではないから」 ဖြစ်ပါသည်။ (「あまり上手ではありませんから、一人で部屋で歌います」.)",
       "choicesMy": [
-        "あまり歌が上手ではないから",
-        "友達がいないから",
-        "部屋が防音だから",
-        "夜遅いから"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2421,10 +2421,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「自分で日本料理を作る」 ဖြစ်ပါသည်။ (「休みの日はよく自分で日本の料理を作ります」.)",
       "choicesMy": [
-        "自分で日本料理を作る",
-        "映画館へ行く",
-        "外食する",
-        "一日中寝る"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2454,10 +2454,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「セリフを聞いて日本語を勉強する」 ဖြစ်ပါသည်။ (「毎日セリフを聞いて勉強します」.)",
       "choicesMy": [
-        "セリフを聞いて日本語を勉強する",
-        "絵を描く練習をする",
-        "友達と語り合う",
-        "声優を目指す"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2487,10 +2487,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「カラオケ」 ဖြစ်ပါသည်။ (Tanaka invites: 「今日の放課後、カラオケへ行きませんか」.)",
       "choicesMy": [
-        "カラオケ",
-        "映画館",
-        "喫茶店",
-        "コンサート"
+        "ရွေးချယ်စရာ (1)",
+        "ရုပ်ရှင်ရုံ",
+        "ကော်ဖီဆိုင်",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2520,10 +2520,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「歌があまり上手ではないから」 ဖြစ်ပါသည်။ (Wang admits: 「私は歌があまり上手じゃありませんから...」.)",
       "choicesMy": [
-        "歌があまり上手ではないから",
-        "お金がないから",
-        "宿題が多いから",
-        "用事があるから"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2553,10 +2553,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「自分も下手だから大丈夫」 ဖြစ်ပါသည်။ (Tanaka encourages: 「大丈夫ですよ！私も下手ですから」.)",
       "choicesMy": [
-        "自分も下手だから大丈夫",
-        "とても上手だから教える",
-        "歌手になりたい",
-        "プロ並みである"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2586,10 +2586,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「日本の歌を聴くのが大好きだから行く」 ဖြစ်ပါသည်။ (Wang concludes: 「日本の歌を聴くのは大好きですから、行きます！」.)",
       "choicesMy": [
-        "日本の歌を聴くのが大好きだから行く",
-        "断って帰宅した",
-        "図書館へ行った",
-        "来週行くことにした"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2619,10 +2619,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「今日の放課後」 ဖြစ်ပါသည်။ (「今日の放課後、カラオケへ行きませんか」.)",
       "choicesMy": [
-        "今日の放課後",
-        "今週末",
-        "明日の昼休み",
-        "日曜日"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "တနင်္ဂနွေနေ့"
       ],
       "correctIndex": 0
     }

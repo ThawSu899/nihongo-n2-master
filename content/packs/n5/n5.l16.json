@@ -941,7 +941,7 @@
           "reading": "すんでいます",
           "meaning": "Living in",
           "preview": false,
-          "meaningMyanmar": "Living in",
+          "meaningMyanmar": "နေထိုင်သည်",
           "meaningMy": "Living in"
         },
         {
@@ -949,7 +949,7 @@
           "reading": "じゅうしょ",
           "meaning": "Address",
           "preview": true,
-          "meaningMyanmar": "Address",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Address",
           "meaningMy": "Address"
         }
       ],
@@ -1039,7 +1039,7 @@
           "reading": "しります",
           "meaning": "To know",
           "preview": false,
-          "meaningMyanmar": "To know",
+          "meaningMyanmar": "အဓိပ္ပာယ်: To know",
           "meaningMy": "To know"
         },
         {
@@ -1047,7 +1047,7 @@
           "reading": "しりません",
           "meaning": "Do not know",
           "preview": true,
-          "meaningMyanmar": "Do not know",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Do not know",
           "meaningMy": "Do not know"
         }
       ],
@@ -1089,7 +1089,7 @@
           "reading": "つくります",
           "meaning": "To make / build",
           "preview": false,
-          "meaningMyanmar": "To make / build",
+          "meaningMyanmar": "ပြုလုပ်သည် / ဖန်တီးသည်",
           "meaningMy": "To make / build"
         },
         {
@@ -1097,7 +1097,7 @@
           "reading": "さくぶん",
           "meaning": "Essay",
           "preview": true,
-          "meaningMyanmar": "Essay",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Essay",
           "meaningMy": "Essay"
         }
       ],
@@ -1636,7 +1636,7 @@
     },
     "titleMy": "Permission and Prohibition (てもいい・てはいけません) - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "Permission and Prohibition (てもいい・てはいけません) - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "Yesterday, I went to a famous art museum in the city. At the reception desk, I received a catalogue. Inside the museum, there were many beautiful paintings and sculptures from around the world. However, one must observe the rules inside the building. You must not take photos with flash. You must not speak in loud voices. Appreciating the art quietly is very important."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l16.l01",
@@ -1659,7 +1659,7 @@
         "ja": "すみません、こちらの席でパソコンを使ってもいいですか。",
         "kana": "すみません、こちらのせきでぱそこんをつかってもいいですか。",
         "en": "Excuse me, may I use a laptop at this desk?",
-        "my": "Excuse me, may I use a laptop at this desk?",
+        "my": "学生: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Excuse me, may I use a laptop at this desk?",
         "myanmar": "Excuse me, may I use a laptop at this desk?"
       },
@@ -1668,7 +1668,7 @@
         "ja": "ええ、どうぞ。電源も自由に使ってください。",
         "kana": "ええ、どうぞ。でんげんもじゆうにつかってください。",
         "en": "Yes, please go ahead. Feel free to use the electrical power outlets too.",
-        "my": "Yes, please go ahead. Feel free to use the electrical power outlets too.",
+        "my": "司書: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Yes, please go ahead. Feel free to use the electrical power outlets too.",
         "myanmar": "Yes, please go ahead. Feel free to use the electrical power outlets too."
       },
@@ -1677,7 +1677,7 @@
         "ja": "ありがとうございます。あと、お茶を飲んでもいいですか。",
         "kana": "ありがとうございます。あと、おちゃをのんでもいいですか。",
         "en": "Thank you very much. Also, may I drink tea?",
-        "my": "Thank you very much. Also, may I drink tea?",
+        "my": "学生: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "Thank you very much. Also, may I drink tea?",
         "myanmar": "Thank you very much. Also, may I drink tea?"
       },
@@ -1686,7 +1686,7 @@
         "ja": "ペットボトルなど蓋がある飲み物は大丈夫ですが、食べ物は食べてはいけません。",
         "kana": "ぺっとぼとるなどふたがあるのみものはだいじょうぶですが、たべものはたべてはいけません。",
         "en": "Drinks with lids such as plastic bottles are fine, but you must not eat food.",
-        "my": "Drinks with lids such as plastic bottles are fine, but you must not eat food.",
+        "my": "司書: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "Drinks with lids such as plastic bottles are fine, but you must not eat food.",
         "myanmar": "Drinks with lids such as plastic bottles are fine, but you must not eat food."
       }
@@ -1708,7 +1708,7 @@
     },
     "titleMy": "Permission and Prohibition (てもいい・てはいけません) - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "Permission and Prohibition (てもいい・てはいけません) - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "A student asks a librarian for permission to use a laptop and drink water."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -2139,9 +2139,9 @@
       "questionMy": "「住」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「住」၏ အဓိပ္ပာယ်မှာ \"နေထိုင်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Dwell, live, reside)",
       "choicesMy": [
-        "Dwell, live, reside",
+        "ရွေးချယ်စရာ (1)",
         "ထားသည်",
-        "Know, wisdom",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2172,10 +2172,10 @@
       "questionMy": "「住」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「住」၏ အဓိပ္ပာယ်မှာ \"နေထိုင်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: す.む)",
       "choicesMy": [
-        "す.む",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2206,8 +2206,8 @@
       "explanationMy": "ကန်ဂျီ「所」၏ အဓိပ္ပာယ်မှာ \"နေရာ / အရပ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: Place)",
       "choicesMy": [
         "ထားသည်",
-        "Dwell, live, reside",
-        "Know, wisdom",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2238,10 +2238,10 @@
       "questionMy": "「所」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「所」၏ အဓိပ္ပာယ်မှာ \"နေရာ / အရပ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: ところ)",
       "choicesMy": [
-        "ところ",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2271,8 +2271,8 @@
       "questionMy": "「知」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「知」၏ အဓိပ္ပာယ်မှာ \"သိရှိခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Know, wisdom)",
       "choicesMy": [
-        "Know, wisdom",
-        "Dwell, live, reside",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
         "ထားသည်",
         "သစ်ပင်"
       ],
@@ -2304,10 +2304,10 @@
       "questionMy": "「知」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「知」၏ အဓိပ္ပာယ်မှာ \"သိရှိခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: し.る)",
       "choicesMy": [
-        "し.る",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2337,8 +2337,8 @@
       "questionMy": "「作」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「作」၏ အဓိပ္ပာယ်မှာ \"ပြုလုပ်ခြင်း / ဖန်တီးခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Make, produce)",
       "choicesMy": [
-        "Make, produce",
-        "Dwell, live, reside",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
         "ထားသည်",
         "သစ်ပင်"
       ],
@@ -2370,10 +2370,10 @@
       "questionMy": "「作」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「作」၏ အဓိပ္ပာယ်မှာ \"ပြုလုပ်ခြင်း / ဖန်တီးခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: つく.る)",
       "choicesMy": [
-        "つく.る",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2403,10 +2403,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「カタログ」 ဖြစ်ပါသည်။ (「美術館の受付でカタログをもらいました」.)",
       "choicesMy": [
-        "カタログ",
-        "絵葉書",
-        "チケット",
-        "傘"
+        "ကတ်တလောက်",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ထီး"
       ],
       "correctIndex": 0
     },
@@ -2436,10 +2436,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「フラッシュ撮影と大声での会話」 ဖြစ်ပါသည်။ (「フラッシュをつけて写真を撮ってはいけません。大きな声で話してはいけません」.)",
       "choicesMy": [
-        "フラッシュ撮影と大声での会話",
-        "メモを取ること",
-        "靴を履くこと",
-        "歩くこと"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2469,10 +2469,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「各国の美しい絵や彫刻」 ဖြစ်ပါသည်။ (「世界各国の美しい絵や彫刻がたくさんありました」.)",
       "choicesMy": [
-        "各国の美しい絵や彫刻",
-        "古い本",
-        "現代の車",
-        "服"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "အဝတ်အစား"
       ],
       "correctIndex": 0
     },
@@ -2502,10 +2502,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「静かに鑑賞すること」 ဖြစ်ပါသည်။ (「静かに鑑賞することはとても大切です」.)",
       "choicesMy": [
-        "静かに鑑賞すること",
-        "早く見終わること",
-        "写真を多く撮ること",
-        "先生と話すこと"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2535,10 +2535,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「昨日」 ဖြစ်ပါသည်။ (Opening word: 「昨日、市内の有名な美術館へ行きました」.)",
       "choicesMy": [
-        "昨日",
-        "先週",
-        "先月",
-        "今日"
+        "မနေ့က",
+        "ပြီးခဲ့သောအပတ်",
+        "ပြီးခဲ့သောလ",
+        "ဒီနေ့"
       ],
       "correctIndex": 0
     },
@@ -2568,10 +2568,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「はい、自由に使ってよい (電源も使用可)」 ဖြစ်ပါသည်။ (The librarian grants permission: 「ええ、どうぞ。電源も自由に使ってください」.)",
       "choicesMy": [
-        "はい、自由に使ってよい (電源も使用可)",
-        "いいえ、禁止されている",
-        "有料である",
-        "許可が必要"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2601,10 +2601,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「蓋があるペットボトルなどは飲んでもよい」 ဖြစ်ပါသည်။ (「ペットボトルなど蓋がある飲み物は大丈夫です」.)",
       "choicesMy": [
-        "蓋があるペットボトルなどは飲んでもよい",
-        "一切禁止",
-        "温かい飲み物のみ可",
-        "ジュースだけ禁止"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2634,10 +2634,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「食べ物を食べること」 ဖြစ်ပါသည်။ (「食べ物は食べてはいけません」 (You must not eat food).)",
       "choicesMy": [
-        "食べ物を食べること",
-        "パソコンを使うこと",
-        "本を読むこと",
-        "座ること"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2667,10 +2667,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「図書館」 ဖြစ်ပါသည်။ (The context is a library reading room with a librarian (司書).)",
       "choicesMy": [
-        "図書館",
-        "美術館",
-        "病院",
-        "教室"
+        "စာကြည့်တိုက်",
+        "အနုပညာပြတိုက်",
+        "ဆေးရုံ",
+        "စာသင်ခန်း"
       ],
       "correctIndex": 0
     },
@@ -2700,10 +2700,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「パソコンの使用許可」 ဖြစ်ပါသည်။ (「こちらの席でパソコンを使ってもいいですか」.)",
       "choicesMy": [
-        "パソコンの使用許可",
-        "本の返却",
-        "席の予約",
-        "Wi-Fiのパスワード"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

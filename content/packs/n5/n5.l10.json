@@ -951,7 +951,7 @@
           "reading": "おとこのこ",
           "meaning": "Boy",
           "preview": true,
-          "meaningMyanmar": "Boy",
+          "meaningMyanmar": "ယောက်ျားလေး",
           "meaningMy": "Boy"
         }
       ],
@@ -1002,7 +1002,7 @@
           "reading": "おんなのこ",
           "meaning": "Girl",
           "preview": true,
-          "meaningMyanmar": "Girl",
+          "meaningMyanmar": "မိန်းကလေး",
           "meaningMy": "Girl"
         }
       ],
@@ -1052,7 +1052,7 @@
           "reading": "おとこのこ",
           "meaning": "Boy",
           "preview": true,
-          "meaningMyanmar": "Boy",
+          "meaningMyanmar": "ယောက်ျားလေး",
           "meaningMy": "Boy"
         }
       ],
@@ -1095,7 +1095,7 @@
           "reading": "もくようび",
           "meaning": "Thursday",
           "preview": false,
-          "meaningMyanmar": "Thursday",
+          "meaningMyanmar": "ကြာသပတေးနေ့",
           "meaningMy": "Thursday"
         },
         {
@@ -1507,7 +1507,7 @@
     },
     "titleMy": "Existence and Location (います・あります) - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "Existence and Location (います・あります) - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "Because the weather was nice, I went for a walk in the town park. In the middle of the park, there is a large pond. Around the pond, there are tall trees and benches. On top of a bench, a cat is sleeping. Under a tree, a boy and a girl are playing with a dog. Near the bench, there is a man. He is reading a newspaper. It is a very peaceful park."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l10.l01",
@@ -1530,7 +1530,7 @@
         "ja": "マナさん、私の車の鍵を見ませんでしたか。どこにもありません。",
         "kana": "まなさん、わたしのくるまのかぎをみませんでしたか。どこにもありません。",
         "en": "Mana-san, have you seen my car keys? They are nowhere.",
-        "my": "Mana-san, have you seen my car keys? They are nowhere.",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Mana-san, have you seen my car keys? They are nowhere.",
         "myanmar": "Mana-san, have you seen my car keys? They are nowhere."
       },
@@ -1539,7 +1539,7 @@
         "ja": "机の上にはありませんか。",
         "kana": "つくえのうえにはありませんか。",
         "en": "Aren't they on the desk?",
-        "my": "Aren't they on the desk?",
+        "my": "マナ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Aren't they on the desk?",
         "myanmar": "Aren't they on the desk?"
       },
@@ -1548,7 +1548,7 @@
         "ja": "机の上には本とパソコンしかありません。",
         "kana": "つくえのうえにはほんとぱそこんしかありません。",
         "en": "On the desk there are only books and a computer.",
-        "my": "On the desk there are only books and a computer.",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "On the desk there are only books and a computer.",
         "myanmar": "On the desk there are only books and a computer."
       },
@@ -1557,7 +1557,7 @@
         "ja": "あ、テレビの後ろを見てください。ほら、棚の下に落ちていますよ！",
         "kana": "あ、てれびのうしろをみてください。ほら、たなのしたにおちていますよ！",
         "en": "Ah, look behind the TV. See, they have fallen under the shelf!",
-        "my": "Ah, look behind the TV. See, they have fallen under the shelf!",
+        "my": "マナ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "Ah, look behind the TV. See, they have fallen under the shelf!",
         "myanmar": "Ah, look behind the TV. See, they have fallen under the shelf!"
       },
@@ -1566,7 +1566,7 @@
         "ja": "あ、ありました！助かりました、ありがとうございます！",
         "kana": "あ、ありました！たすかりました、ありがとうございます！",
         "en": "Ah, here they are! You saved me, thank you very much!",
-        "my": "Ah, here they are! You saved me, thank you very much!",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (5)",
         "translationMy": "Ah, here they are! You saved me, thank you very much!",
         "myanmar": "Ah, here they are! You saved me, thank you very much!"
       }
@@ -1588,7 +1588,7 @@
     },
     "titleMy": "Existence and Location (います・あります) - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "Existence and Location (います・あります) - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "A roommate helps find car keys and a wallet inside an apartment."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -2019,8 +2019,8 @@
       "questionMy": "「男」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「男」၏ အဓိပ္ပာယ်မှာ \"အမျိုးသား / ယောက်ျား\" ဖြစ်ပါသည်။ (အဖြေမှန်: Male, man)",
       "choicesMy": [
-        "Male, man",
-        "Female, woman",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
         "ကလေး",
         "သစ်ပင်"
       ],
@@ -2052,10 +2052,10 @@
       "questionMy": "「男」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「男」၏ အဓိပ္ပာယ်မှာ \"အမျိုးသား / ယောက်ျား\" ဖြစ်ပါသည်။ (အဖြေမှန်: おとこ)",
       "choicesMy": [
-        "おとこ",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2085,8 +2085,8 @@
       "questionMy": "「女」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「女」၏ အဓိပ္ပာယ်မှာ \"အမျိုးသမီး / မိန်းမ\" ဖြစ်ပါသည်။ (အဖြေမှန်: Female, woman)",
       "choicesMy": [
-        "Female, woman",
-        "Male, man",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
         "ကလေး",
         "သစ်ပင်"
       ],
@@ -2118,10 +2118,10 @@
       "questionMy": "「女」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「女」၏ အဓိပ္ပာယ်မှာ \"အမျိုးသမီး / မိန်းမ\" ဖြစ်ပါသည်။ (အဖြေမှန်: おんな)",
       "choicesMy": [
-        "おんな",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2152,8 +2152,8 @@
       "explanationMy": "ကန်ဂျီ「子」၏ အဓိပ္ပာယ်မှာ \"ကလေး / သားသမီး\" ဖြစ်ပါသည်။ (အဖြေမှန်: Child)",
       "choicesMy": [
         "ကလေး",
-        "Male, man",
-        "Female, woman",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2184,10 +2184,10 @@
       "questionMy": "「子」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「子」၏ အဓိပ္ပာယ်မှာ \"ကလေး / သားသမီး\" ဖြစ်ပါသည်။ (အဖြေမှန်: こ)",
       "choicesMy": [
-        "こ",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2217,9 +2217,9 @@
       "questionMy": "「木」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「木」၏ အဓိပ္ပာယ်မှာ \"သစ်ပင် / သစ်သား\" ဖြစ်ပါသည်။ (အဖြေမှန်: Tree, wood)",
       "choicesMy": [
-        "Tree, wood",
-        "Male, man",
-        "Female, woman",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2250,10 +2250,10 @@
       "questionMy": "「木」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「木」၏ အဓိပ္ပာယ်မှာ \"သစ်ပင် / သစ်သား\" ဖြစ်ပါသည်။ (အဖြေမှန်: き)",
       "choicesMy": [
-        "き",
-        "みず",
-        "ほん",
-        "ひと"
+        "သစ်ပင်",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2283,10 +2283,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「大きな池」 ဖြစ်ပါသည်။ (「公園の真ん中に大きな池があります」.)",
       "choicesMy": [
-        "大きな池",
-        "高いビル",
-        "子供の遊具",
-        "噴水"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2316,10 +2316,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「寝ている猫」 ဖြစ်ပါသည်။ (「ベンチの上に猫が寝ています」.)",
       "choicesMy": [
-        "寝ている猫",
-        "遊んでいる犬",
-        "小鳥",
-        "本"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "စာအုပ်"
       ],
       "correctIndex": 0
     },
@@ -2349,10 +2349,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「男の子と女の子と犬」 ဖြစ်ပါသည်။ (「木の下で男の子と女の子が犬と遊んでいます」.)",
       "choicesMy": [
-        "男の子と女の子と犬",
-        "男の人と猫",
-        "先生と学生",
-        "犬だけ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2382,10 +2382,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「新聞を読んでいる」 ဖြစ်ပါသည်။ (「ベンチの近くに男の人がいます。新聞を読んでいます」.)",
       "choicesMy": [
-        "新聞を読んでいる",
-        "犬と走っている",
-        "寝ている",
-        "池を見ている"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2415,10 +2415,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「とても穏やかである」 ဖြစ်ပါသည်။ (「とても穏やかな公園です」.)",
       "choicesMy": [
-        "とても穏やかである",
-        "とても騒がしい",
-        "暗くて危険である",
-        "混んでいる"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2448,10 +2448,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「車の鍵」 ဖြစ်ပါသည်။ (Ken starts with: 「私の車の鍵を見ませんでしたか」.)",
       "choicesMy": [
-        "車の鍵",
-        "パソコン",
-        "財布",
-        "本"
+        "ရွေးချယ်စရာ (1)",
+        "ကွန်ပျူတာ",
+        "ပိုက်ဆံအိတ်",
+        "စာအုပ်"
       ],
       "correctIndex": 0
     },
@@ -2481,10 +2481,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「本とパソコン」 ဖြစ်ပါသည်။ (Ken replies: 「机の上には本とパソコンしかありません」.)",
       "choicesMy": [
-        "本とパソコン",
-        "鍵と時計",
-        "テレビ",
-        "猫"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "တီဗီ",
+        "ကြောင်"
       ],
       "correctIndex": 0
     },
@@ -2514,10 +2514,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「棚の下 (テレビの後ろ)」 ဖြစ်ပါသည်။ (Mana points out: 「テレビの後ろを見てください。ほら、棚の下に落ちていますよ！」.)",
       "choicesMy": [
-        "棚の下 (テレビの後ろ)",
-        "机の引き出しの中",
-        "鞄のポケット",
-        "ベッドの下"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2547,10 +2547,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「ありました！助かりました、ありがとうございます！」 ဖြစ်ပါသည်။ (Ken expresses relief and thanks Mana.)",
       "choicesMy": [
-        "ありました！助かりました、ありがとうございます！",
-        "違います、これじゃありません。",
-        "まだ見つかりません。",
-        "もう行きます。"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2580,10 +2580,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「ケンとマナ」 ဖြစ်ပါသည်။ (The dialogue is between Ken and Mana in their room.)",
       "choicesMy": [
-        "ケンとマナ",
-        "先生と学生",
-        "店員とお客",
-        "警察と運転手"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

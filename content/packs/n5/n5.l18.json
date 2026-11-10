@@ -947,7 +947,7 @@
           "reading": "たいりょく",
           "meaning": "Physical strength",
           "preview": true,
-          "meaningMyanmar": "Physical strength",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Physical strength",
           "meaningMy": "Physical strength"
         }
       ],
@@ -998,7 +998,7 @@
           "reading": "ずつう",
           "meaning": "Headache",
           "preview": true,
-          "meaningMyanmar": "Headache",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Headache",
           "meaningMy": "Headache"
         }
       ],
@@ -1040,7 +1040,7 @@
           "reading": "いたい",
           "meaning": "Painful / Sore",
           "preview": false,
-          "meaningMyanmar": "Painful / Sore",
+          "meaningMyanmar": "နာကျင်သော",
           "meaningMy": "Painful / Sore"
         },
         {
@@ -1048,7 +1048,7 @@
           "reading": "ずつう",
           "meaning": "Headache",
           "preview": true,
-          "meaningMyanmar": "Headache",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Headache",
           "meaningMy": "Headache"
         }
       ],
@@ -1097,7 +1097,7 @@
           "reading": "めぐすり",
           "meaning": "Eye drops",
           "preview": true,
-          "meaningMyanmar": "Eye drops",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Eye drops",
           "meaningMy": "Eye drops"
         }
       ],
@@ -1609,7 +1609,7 @@
     },
     "titleMy": "The Nai-form: Obligations (ないでください・なければなりません) - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "The Nai-form: Obligations (ないでください・なければなりません) - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "Since yesterday my head hurts, and I have a fever of 38 degrees. In the morning, I went to a nearby clinic. At the reception desk, I presented my health insurance card and wrote my symptoms on the medical questionnaire. The doctor said, \"It is a cold. Please do not take a bath for two days. You must eat warm porridge and take this medicine after every meal. And please do not go to work today; rest well.\" Following the doctor's words, I took my medicine and slept."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l18.l01",
@@ -1632,7 +1632,7 @@
         "ja": "山田さん、お薬の準備ができました。こちらへどうぞ。",
         "kana": "やまださん、おくすりのじゅんびができました。こちらへどうぞ。",
         "en": "Yamada-san, your medicine is ready. Please step over here.",
-        "my": "Yamada-san, your medicine is ready. Please step over here.",
+        "my": "薬剤師: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Yamada-san, your medicine is ready. Please step over here.",
         "myanmar": "Yamada-san, your medicine is ready. Please step over here."
       },
@@ -1641,7 +1641,7 @@
         "ja": "はい、よろしくお願いします。",
         "kana": "はい、よろしくおねがいします。",
         "en": "Yes, thank you.",
-        "my": "Yes, thank you.",
+        "my": "山田: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Yes, thank you.",
         "myanmar": "Yes, thank you."
       },
@@ -1650,7 +1650,7 @@
         "ja": "この白い薬は熱を下げる薬です。一日三回、毎食後必ず飲んでください。空腹の時には飲まないでください。",
         "kana": "このしろいくすりはねつをさげるくすりです。いちにちさんかい、まいしょくごかならずのんでください。くうふくのときにはのまないでください。",
         "en": "This white tablet lowers fever. Please be sure to take it three times a day after meals. Do not take it on an empty stomach.",
-        "my": "This white tablet lowers fever. Please be sure to take it three times a day after meals. Do not take it on an empty stomach.",
+        "my": "薬剤師: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "This white tablet lowers fever. Please be sure to take it three times a day after meals. Do not take it on an empty stomach.",
         "myanmar": "This white tablet lowers fever. Please be sure to take it three times a day after meals. Do not take it on an empty stomach."
       },
@@ -1659,7 +1659,7 @@
         "ja": "分かりました。眠くなりますか。",
         "kana": "わかりました。ねむくなりますか。",
         "en": "Understood. Does it make one sleepy?",
-        "my": "Understood. Does it make one sleepy?",
+        "my": "山田: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "Understood. Does it make one sleepy?",
         "myanmar": "Understood. Does it make one sleepy?"
       },
@@ -1668,7 +1668,7 @@
         "ja": "少し眠くなりますから、車の運転は絶対にしないでください。",
         "kana": "すこしねむくなりますから、くるまのうんてんはぜったいにしないでください。",
         "en": "It makes you a little sleepy, so you must absolutely not drive a car.",
-        "my": "It makes you a little sleepy, so you must absolutely not drive a car.",
+        "my": "薬剤師: အခြေခံစကားပြော လေ့ကျင့်ခန်း (5)",
         "translationMy": "It makes you a little sleepy, so you must absolutely not drive a car.",
         "myanmar": "It makes you a little sleepy, so you must absolutely not drive a car."
       }
@@ -1690,7 +1690,7 @@
     },
     "titleMy": "The Nai-form: Obligations (ないでください・なければなりません) - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "The Nai-form: Obligations (ないでください・なければなりません) - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "A pharmacist explains dosage instructions and precautions to a patient."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -2121,9 +2121,9 @@
       "questionMy": "「体」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「体」၏ အဓိပ္ပာယ်မှာ \"ခန္ဓာကိုယ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: Body, substance)",
       "choicesMy": [
-        "Body, substance",
-        "Head, top",
-        "Pain, hurt, ache",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2154,10 +2154,10 @@
       "questionMy": "「体」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「体」၏ အဓိပ္ပာယ်မှာ \"ခန္ဓာကိုယ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: からだ)",
       "choicesMy": [
-        "からだ",
-        "みず",
-        "ほん",
-        "ひと"
+        "ခန္ဓာကိုယ်",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2187,9 +2187,9 @@
       "questionMy": "「頭」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「頭」၏ အဓိပ္ပာယ်မှာ \"ဦးခေါင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Head, top)",
       "choicesMy": [
-        "Head, top",
-        "Body, substance",
-        "Pain, hurt, ache",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2220,10 +2220,10 @@
       "questionMy": "「頭」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「頭」၏ အဓိပ္ပာယ်မှာ \"ဦးခေါင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: あたま)",
       "choicesMy": [
-        "あたま",
-        "みず",
-        "ほん",
-        "ひと"
+        "ခေါင်း",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2253,9 +2253,9 @@
       "questionMy": "「痛」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「痛」၏ အဓိပ္ပာယ်မှာ \"နာကျင်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Pain, hurt, ache)",
       "choicesMy": [
-        "Pain, hurt, ache",
-        "Body, substance",
-        "Head, top",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2286,10 +2286,10 @@
       "questionMy": "「痛」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「痛」၏ အဓိပ္ပာယ်မှာ \"နာကျင်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: いた.い)",
       "choicesMy": [
-        "いた.い",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2319,9 +2319,9 @@
       "questionMy": "「薬」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「薬」၏ အဓိပ္ပာယ်မှာ \"ဆေး / ဆေးဝါး\" ဖြစ်ပါသည်။ (အဖြေမှန်: Medicine, chemical)",
       "choicesMy": [
-        "Medicine, chemical",
-        "Body, substance",
-        "Head, top",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2352,10 +2352,10 @@
       "questionMy": "「薬」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「薬」၏ အဓိပ္ပာယ်မှာ \"ဆေး / ဆေးဝါး\" ဖြစ်ပါသည်။ (အဖြေမှန်: くすり)",
       "choicesMy": [
-        "くすり",
-        "みず",
-        "ほん",
-        "ひと"
+        "ဆေး",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2385,10 +2385,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「頭痛と三十八度の高熱」 ဖြစ်ပါသည်။ (「昨日から頭が痛くて、熱が三十八度あります」.)",
       "choicesMy": [
-        "頭痛と三十八度の高熱",
-        "お腹の痛みと吐き気",
-        "足の怪我",
-        "咳だけ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2418,10 +2418,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「保険証」 ဖြစ်ပါသည်။ (「受付で保険証を出して...」.)",
       "choicesMy": [
-        "保険証",
-        "パスポート",
-        "クレジットカード",
-        "診察券だけ"
+        "ကျန်းမာရေးအာမခံကတ်",
+        "နိုင်ငံကူးလက်မှတ်",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2451,10 +2451,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「二日間お風呂に入ることと仕事に行くこと」 ဖြစ်ပါသည်။ (「二日間お風呂に入らないでください」「仕事に行かないで」.)",
       "choicesMy": [
-        "二日間お風呂に入ることと仕事に行くこと",
-        "水を飲むこと",
-        "寝ること",
-        "薬を飲むこと"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2484,10 +2484,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「毎食後」 ဖြစ်ပါသည်။ (「薬を毎食後飲まなければなりません」.)",
       "choicesMy": [
-        "毎食後",
-        "寝る前だけ",
-        "朝一番",
-        "熱がある時だけ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2517,10 +2517,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「薬を飲んで寝た」 ဖြစ်ပါသည်။ (「お医者さんの言った通りに薬を飲んで寝ました」.)",
       "choicesMy": [
-        "薬を飲んで寝た",
-        "仕事をした",
-        "外食に行った",
-        "お風呂に入った"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2550,10 +2550,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「熱を下げる薬 (解熱剤)」 ဖြစ်ပါသည်။ (「この白い薬は熱を下げる薬です」.)",
       "choicesMy": [
-        "熱を下げる薬 (解熱剤)",
-        "胃の薬",
-        "ビタミン剤",
-        "目薬"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2583,10 +2583,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「一日三回 (毎食後)」 ဖြစ်ပါသည်။ (「一日三回、毎食後必ず飲んでください」.)",
       "choicesMy": [
-        "一日三回 (毎食後)",
-        "一日一回",
-        "一日二回",
-        "四時間ごと"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2616,10 +2616,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「空腹の時」 ဖြစ်ပါသည်။ (「空腹の時には飲まないでください」.)",
       "choicesMy": [
-        "空腹の時",
-        "食後すぐ",
-        "寝る前",
-        "朝"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "မနက်"
       ],
       "correctIndex": 0
     },
@@ -2649,10 +2649,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「少し眠くなるため車の運転をしてはいけない」 ဖြစ်ပါသည်။ (「少し眠くなりますから、車の運転は絶対にしないでください」.)",
       "choicesMy": [
-        "少し眠くなるため車の運転をしてはいけない",
-        "喉が渇く",
-        "お腹が痛くなる",
-        "頭痛がする"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2682,10 +2682,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「薬局のカウンター」 ဖြစ်ပါသည်။ (The conversation is between a patient and a pharmacist (薬剤師).)",
       "choicesMy": [
-        "薬局のカウンター",
-        "病院の待合室",
-        "自宅の玄関",
-        "スーパーのレジ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

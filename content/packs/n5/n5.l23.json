@@ -944,7 +944,7 @@
           "reading": "おもいだす",
           "meaning": "To remember / recall",
           "preview": true,
-          "meaningMyanmar": "To remember / recall",
+          "meaningMyanmar": "အဓိပ္ပာယ်: To remember / recall",
           "meaningMy": "To remember / recall"
         }
       ],
@@ -986,7 +986,7 @@
           "reading": "かんがえる",
           "meaning": "To think / ponder",
           "preview": false,
-          "meaningMyanmar": "To think / ponder",
+          "meaningMyanmar": "စဉ်းစားသည်",
           "meaningMy": "To think / ponder"
         },
         {
@@ -994,7 +994,7 @@
           "reading": "かんがえ",
           "meaning": "Thought / Idea",
           "preview": true,
-          "meaningMyanmar": "Thought / Idea",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Thought / Idea",
           "meaningMy": "Thought / Idea"
         }
       ],
@@ -1088,7 +1088,7 @@
           "reading": "ふるい",
           "meaning": "Old (things)",
           "preview": false,
-          "meaningMyanmar": "Old (things)",
+          "meaningMyanmar": "ဟောင်းနွမ်းသော",
           "meaningMy": "Old (things)"
         },
         {
@@ -1096,7 +1096,7 @@
           "reading": "ふるほん",
           "meaning": "Used book",
           "preview": true,
-          "meaningMyanmar": "Used book",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Used book",
           "meaningMy": "Used book"
         }
       ],
@@ -1550,7 +1550,7 @@
     },
     "titleMy": "東京の生活についての意見 (Opinions on Tokyo Life) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "東京の生活についての意見 (Opinions on Tokyo Life) (ဖတ်ရှုခြင်း)",
-    "translationMy": "Since coming to Japan, I have been living in Tokyo the entire time. I am often asked: \"What do you think about life in Tokyo?\" I think Tokyo is a very convenient and safe town. There are many trains and subways, so you can go anywhere immediately. I think it is not dangerous even if you walk alone late at night. However, I think commodity prices and apartment rents are a bit expensive. Vegetables and fruit are also more expensive than in my country, so when cooking for myself, I look for times when the supermarket has discounts. Overall, I think Tokyo is a wonderful and comfortable city to live in."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l23.l01",
@@ -1573,7 +1573,7 @@
         "ja": "リサさん、日本の交通についてどう思いますか。",
         "kana": "りささん、にほんのこうつうについてどうおもいますか。",
         "en": "Lisa, what do you think about Japan's transportation?",
-        "my": "Lisa, what do you think about Japan's transportation?",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Lisa, what do you think about Japan's transportation?",
         "myanmar": "Lisa, what do you think about Japan's transportation?"
       },
@@ -1582,7 +1582,7 @@
         "ja": "電車が時間通りに来て、とても便利だと思います。",
         "kana": "でんしゃがじかんどおりにきて、とてもべんりだとおもいます。",
         "en": "Trains arrive right on time, so I think it is very convenient.",
-        "my": "Trains arrive right on time, so I think it is very convenient.",
+        "my": "リサ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Trains arrive right on time, so I think it is very convenient.",
         "myanmar": "Trains arrive right on time, so I think it is very convenient."
       },
@@ -1591,7 +1591,7 @@
         "ja": "車はどうですか。東京で運転したことがありますか。",
         "kana": "くるまはどうですか。とうきょうでうんてんしたことがありますか。",
         "en": "What about cars? Have you ever driven in Tokyo?",
-        "my": "What about cars? Have you ever driven in Tokyo?",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "What about cars? Have you ever driven in Tokyo?",
         "myanmar": "What about cars? Have you ever driven in Tokyo?"
       },
@@ -1600,7 +1600,7 @@
         "ja": "いいえ、東京は道が狭くて駐車場が高いですから、車は不便だと思います。",
         "kana": "いいえ、とうきょうはみちがせまくてちゅうしゃじょうがたかいですから、くるまはふべんだとおもいます。",
         "en": "No, roads are narrow and parking lots are expensive in Tokyo, so I think cars are inconvenient.",
-        "my": "No, roads are narrow and parking lots are expensive in Tokyo, so I think cars are inconvenient.",
+        "my": "リサ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "No, roads are narrow and parking lots are expensive in Tokyo, so I think cars are inconvenient.",
         "myanmar": "No, roads are narrow and parking lots are expensive in Tokyo, so I think cars are inconvenient."
       },
@@ -1609,7 +1609,7 @@
         "ja": "私も同じ意見です。電車を利用したほうがいいですね。",
         "kana": "わたしもおなじいけんです。でんしゃをりようしたほうがいいですね。",
         "en": "I have the same opinion. It is better to use trains.",
-        "my": "I have the same opinion. It is better to use trains.",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (5)",
         "translationMy": "I have the same opinion. It is better to use trains.",
         "myanmar": "I have the same opinion. It is better to use trains."
       }
@@ -1631,7 +1631,7 @@
     },
     "titleMy": "東京の交通についての会話 (Conversation on Tokyo Transport) (နားထောင်ခြင်း)",
     "titleMyanmar": "東京の交通についての会話 (Conversation on Tokyo Transport) (နားထောင်ခြင်း)",
-    "translationMy": "Ken: Lisa, what do you think about Japan's transportation?\nLisa: Trains arrive right on time, so I think it is very convenient.\nKen: What about cars? Have you ever driven in Tokyo?\nLisa: No, roads are narrow and parking lots are expensive in Tokyo, so I think cars are inconvenient.\nKen: I have the same opinion. It is better to use trains."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -1662,8 +1662,8 @@
       "choicesMy": [
         "ရာသီဥတု",
         "ကုန်ဈေးနှုန်း",
-        "Traffic rules",
-        "Public security"
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1694,10 +1694,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「不便」 ဖြစ်ပါသည်။ (The opposite of 便利 (convenient) is 不便 (inconvenient).)",
       "choicesMy": [
-        "安全",
-        "不便",
-        "古い",
-        "静か"
+        "လုံခြုံစိတ်ချရသော",
+        "အဆင်မပြေသော",
+        "ဟောင်းနွမ်းသော",
+        "တိတ်ဆိတ်သော"
       ],
       "correctIndex": 0
     },
@@ -1760,9 +1760,9 @@
       "questionMy": "「安全」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「Safe」 ဖြစ်ပါသည်။ (「安全」(あんぜん) means safe.)",
       "choicesMy": [
-        "Dangerous",
+        "ရွေးချယ်စရာ (1)",
         "လုံခြုံစိတ်ချရသော",
-        "Noisy",
+        "ရွေးချယ်စရာ (3)",
         "မြင့်သော / ဈေးကြီးသော"
       ],
       "correctIndex": 0
@@ -1793,10 +1793,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「たぶん」 ဖြစ်ပါသည်။ (「たぶん」 means probably or perhaps.)",
       "choicesMy": [
-        "たぶん",
-        "いつも",
-        "あまり",
-        "ぜんぜん"
+        "ဖြစ်နိုင်ခြေရှိသည် / ဖြစ်ကောင်းဖြစ်နိုင်သည်",
+        "အမြဲတမ်း",
+        "ရွေးချယ်စရာ (3)",
+        "လုံးဝ"
       ],
       "correctIndex": 0
     },
@@ -1826,9 +1826,9 @@
       "questionMy": "「同じ」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「Same」 ဖြစ်ပါသည်။ (「同じ」(おなじ) means same.)",
       "choicesMy": [
-        "Different",
+        "ရွေးချယ်စရာ (1)",
         "တူညီသော",
-        "Various",
+        "ရွေးချယ်စရာ (3)",
         "အသစ်ဖြစ်သော"
       ],
       "correctIndex": 0
@@ -1859,10 +1859,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「思」၏ အဓိပ္ပာယ်မှာ \"တွေးတောခြင်း / ထင်မြင်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: おも.う)",
       "choicesMy": [
-        "おも.う",
-        "かんが.える",
-        "き.く",
-        "はな.す"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1892,10 +1892,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「思」၏ အဓိပ္ပာယ်မှာ \"တွေးတောခြင်း / ထင်မြင်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: 田 (rice field) + 心 (heart))",
       "choicesMy": [
-        "田 (rice field) + 心 (heart)",
-        "日 (sun) + 月 (moon)",
-        "木 (tree) + 目 (eye)",
-        "言 (say) + 舌 (tongue)"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1925,10 +1925,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「新」၏ အဓိပ္ပာယ်မှာ \"အသစ်ဖြစ်သော\" ဖြစ်ပါသည်။ (အဖြေမှန်: 新)",
       "choicesMy": [
-        "古",
-        "新",
-        "思",
-        "考"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1958,10 +1958,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「古」၏ အဓိပ္ပာယ်မှာ \"ဟောင်းနွမ်းသော\" ဖြစ်ပါသည်။ (အဖြေမှန်: 5)",
       "choicesMy": [
-        "4",
-        "5",
-        "6",
-        "7"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1991,10 +1991,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "မိမိ၏ သဘောထား၊ ယူဆချက်နှင့် ခန့်မှန်းချက်များကို ဖော်ပြရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + と思います」 (...ဟု ထင်သည်/ယူဆသည်) ဟု သုံးသည်။ နာမ်နှင့် な-adjective တွင် 「だ」 ထည့်ရသည် (e.g. 暇だと思います).",
       "choicesMy": [
-        "高いと思います",
-        "高いですと思います",
-        "高くだと思います",
-        "高いに思います"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2024,10 +2024,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "မိမိ၏ သဘောထား၊ ယူဆချက်နှင့် ခန့်မှန်းချက်များကို ဖော်ပြရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + と思います」 (...ဟု ထင်သည်/ယူဆသည်) ဟု သုံးသည်။ နာမ်နှင့် な-adjective တွင် 「だ」 ထည့်ရသည် (e.g. 暇だと思います).",
       "choicesMy": [
-        "便利だと思います",
-        "便利と思います",
-        "便利ですと思います",
-        "便利くなと思います"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2057,10 +2057,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အကြောင်းအရာတစ်ခုအပေါ် အခြားသူ၏ သဘောထားကို မေးမြန်းရာတွင် 「နာမ် + について どう 思いますか」 (...နှင့်ပတ်သက်ပြီး ဘယ်လိုထင်လဲ) ဟု သုံးသည်။",
       "choicesMy": [
-        "日本についてどう思いますか",
-        "日本について何と思いますか",
-        "日本についてどこ思いますか",
-        "日本についていくら思いますか"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2090,10 +2090,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "မိမိ၏ သဘောထား၊ ယူဆချက်နှင့် ခန့်မှန်းချက်များကို ဖော်ပြရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + と思います」 (...ဟု ထင်သည်/ယူဆသည်) ဟု သုံးသည်။ နာမ်နှင့် な-adjective တွင် 「だ」 ထည့်ရသည် (e.g. 暇だと思います).",
       "choicesMy": [
-        "降る",
-        "降ります",
-        "降ったです",
-        "降り"
+        "ရွာသည် / ကျသည်",
+        "ဆင်းသည် (ရထား/ကား)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2123,10 +2123,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "မိမိ၏ သဘောထား၊ ယူဆချက်နှင့် ခန့်မှန်းချက်များကို ဖော်ပြရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + と思います」 (...ဟု ထင်သည်/ယူဆသည်) ဟု သုံးသည်။ နာမ်နှင့် な-adjective တွင် 「だ」 ထည့်ရသည် (e.g. 暇だと思います).",
       "choicesMy": [
-        "田中さんは来ないと思います",
-        "田中さんは来ませんと思います",
-        "田中さんは来ないですと思います",
-        "田中さんは来るじゃないと思います"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2156,10 +2156,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "「Noun + について」၏ အဓိပ္ပာယ်မှာ \"about / regarding Noun\" ဖြစ်ပါသည်။",
       "choicesMy": [
-        "について",
-        "にとって",
-        "により",
-        "に向けて"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2189,10 +2189,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "မိမိ၏ သဘောထား၊ ယူဆချက်နှင့် ခန့်မှန်းချက်များကို ဖော်ပြရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + と思います」 (...ဟု ထင်သည်/ယူဆသည်) ဟု သုံးသည်။ နာမ်နှင့် な-adjective တွင် 「だ」 ထည့်ရသည် (e.g. 暇だと思います).",
       "choicesMy": [
-        "学生だ",
-        "学生である",
-        "学生な",
-        "学生でした"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2222,10 +2222,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "မိမိ၏ သဘောထား၊ ယူဆချက်နှင့် ခန့်မှန်းချက်များကို ဖော်ပြရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + と思います」 (...ဟု ထင်သည်/ယူဆသည်) ဟု သုံးသည်။ နာမ်နှင့် な-adjective တွင် 「だ」 ထည့်ရသည် (e.g. 暇だと思います).",
       "choicesMy": [
-        "同じ",
-        "同じな",
-        "同じだ",
-        "同じに"
+        "တူညီသော",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2255,10 +2255,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "မိမိ၏ သဘောထား၊ ယူဆချက်နှင့် ခန့်မှန်းချက်များကို ဖော်ပြရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + と思います」 (...ဟု ထင်သည်/ယူဆသည်) ဟု သုံးသည်။ နာမ်နှင့် な-adjective တွင် 「だ」 ထည့်ရသည် (e.g. 暇だと思います).",
       "choicesMy": [
-        "安全じゃないと思います",
-        "安全じゃないですと思います",
-        "安全だないと思います",
-        "安全くありませんと思います"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2288,10 +2288,10 @@
       "questionMy": "「たぶん」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "မိမိ၏ သဘောထား၊ ယူဆချက်နှင့် ခန့်မှန်းချက်များကို ဖော်ပြရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + と思います」 (...ဟု ထင်သည်/ယူဆသည်) ဟု သုံးသည်။ နာမ်နှင့် な-adjective တွင် 「だ」 ထည့်ရသည် (e.g. 暇だと思います).",
       "choicesMy": [
-        "High degree of probability / guess",
-        "Certain past fact",
-        "Absolute prohibition",
-        "Strong command"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2321,10 +2321,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Tokyo」 ဖြစ်ပါသည်။ (The passage says: 私は日本に来てから、ずっと東京に住んでいます.)",
       "choicesMy": [
-        "Kyoto",
-        "Osaka",
-        "Tokyo",
-        "Yokohama"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2354,10 +2354,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「There are many trains and subways so one can go anywhere immediately」 ဖြစ်ပါသည်။ (The text notes: 電車や地下鉄がたくさんあって、どこへでもすぐに行くことができます.)",
       "choicesMy": [
-        "There are many trains and subways so one can go anywhere immediately",
-        "Everyone owns a luxury car",
-        "Buses are free",
-        "There is no traffic"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2387,10 +2387,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「It is not dangerous (safe)」 ဖြစ်ပါသည်။ (The text states: 夜遅く一人で歩いても危なくないと思います (not dangerous).)",
       "choicesMy": [
-        "It is very dangerous",
-        "It is not dangerous (safe)",
-        "It is prohibited by police",
-        "It is too dark"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2420,10 +2420,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Prices and apartment rent」 ဖြစ်ပါသည်။ (The author notes: 物価や家賃は少し高いと思います.)",
       "choicesMy": [
-        "Train tickets",
-        "Prices and apartment rent",
-        "Water and electricity only",
-        "Books and clothes"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2453,10 +2453,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「It is a wonderful and comfortable town to live in」 ဖြစ်ပါသည်။ (The text ends: 総合的に、東京は住みやすい素晴らしい町だと思います.)",
       "choicesMy": [
-        "It is an unlivable city",
-        "It is a wonderful and comfortable town to live in",
-        "He wants to leave immediately",
-        "It has too many people"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2486,10 +2486,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「They arrive right on time and are very convenient」 ဖြစ်ပါသည်။ (Lisa says: 電車が時間通りに来て、とても便利だと思います.)",
       "choicesMy": [
-        "They are always late",
-        "They arrive right on time and are very convenient",
-        "They are too expensive",
-        "They are dirty"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2519,10 +2519,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「No, never」 ဖြစ်ပါသည်။ (Lisa answers: 「いいえ」 when asked if she drove in Tokyo.)",
       "choicesMy": [
-        "Yes, every weekend",
-        "No, never",
-        "Only once on a highway",
-        "She rents a car daily"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2552,10 +2552,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Roads are narrow and parking lots are expensive」 ဖြစ်ပါသည်။ (Lisa says: 道が狭くて駐車場が高いですから、車は不便だと思います.)",
       "choicesMy": [
-        "Roads are narrow and parking lots are expensive",
-        "Cars break down easily",
-        "Gasoline cannot be found",
-        "The speed limit is too slow"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2585,10 +2585,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Yes, he has the same opinion」 ဖြစ်ပါသည်။ (Ken responds: 「私も同じ意見です」(I have the same opinion).)",
       "choicesMy": [
-        "No, he disagrees completely",
-        "Yes, he has the same opinion",
-        "He has no opinion",
-        "He prefers buses"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2618,10 +2618,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Trains」 ဖြစ်ပါသည်။ (Ken concludes: 電車を利用したほうがいいですね (It is better to use trains).)",
       "choicesMy": [
-        "Bicycles",
-        "Taxis",
-        "Trains",
-        "Airplanes"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

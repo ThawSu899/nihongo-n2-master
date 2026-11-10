@@ -943,7 +943,7 @@
           "reading": "たかい",
           "meaning": "Expensive / Tall",
           "preview": false,
-          "meaningMyanmar": "Expensive / Tall",
+          "meaningMyanmar": "မြင့်သော / ဈေးကြီးသော",
           "meaningMy": "Expensive / Tall"
         },
         {
@@ -951,7 +951,7 @@
           "reading": "こうこう",
           "meaning": "High school",
           "preview": true,
-          "meaningMyanmar": "High school",
+          "meaningMyanmar": "အဓိပ္ပာယ်: High school",
           "meaningMy": "High school"
         }
       ],
@@ -992,7 +992,7 @@
           "reading": "やすい",
           "meaning": "Cheap / Inexpensive",
           "preview": false,
-          "meaningMyanmar": "Cheap / Inexpensive",
+          "meaningMyanmar": "ဈေးချိုသော",
           "meaningMy": "Cheap / Inexpensive"
         },
         {
@@ -1091,7 +1091,7 @@
           "reading": "ふるい",
           "meaning": "Old",
           "preview": false,
-          "meaningMyanmar": "Old",
+          "meaningMyanmar": "ဟောင်းနွမ်းသော",
           "meaningMy": "Old"
         },
         {
@@ -1099,7 +1099,7 @@
           "reading": "ちゅうこ",
           "meaning": "Secondhand",
           "preview": true,
-          "meaningMyanmar": "Secondhand",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Secondhand",
           "meaningMy": "Secondhand"
         }
       ],
@@ -1581,7 +1581,7 @@
     },
     "titleMy": "Adjectives: Describing Things (い形容詞・な形容詞) - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "Adjectives: Describing Things (い形容詞・な形容詞) - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "Last week, I moved into a new apartment. The room is not very spacious, but it is very clean. Because it is near the station, commuting to school every day is very convenient. There is a quiet park next to the apartment. A supermarket is also nearby, so shopping is easy. The rent is a bit expensive, but it is a nice room."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l08.l01",
@@ -1604,7 +1604,7 @@
         "ja": "アリさん、先週の奈良旅行はどうでしたか。",
         "kana": "ありさん、せんしゅうのならりょこうはどうでしたか。",
         "en": "Ali-san, how was your trip to Nara last week?",
-        "my": "Ali-san, how was your trip to Nara last week?",
+        "my": "鈴木: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Ali-san, how was your trip to Nara last week?",
         "myanmar": "Ali-san, how was your trip to Nara last week?"
       },
@@ -1613,7 +1613,7 @@
         "ja": "とても楽しかったです！古いお寺がたくさんあって、静かな町でした。",
         "kana": "とてもたのしかったです！ふるいおてらがたくさんあって、しずかなまちでした。",
         "en": "It was very enjoyable! There were many old temples, and it was a quiet town.",
-        "my": "It was very enjoyable! There were many old temples, and it was a quiet town.",
+        "my": "アリ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "It was very enjoyable! There were many old temples, and it was a quiet town.",
         "myanmar": "It was very enjoyable! There were many old temples, and it was a quiet town."
       },
@@ -1622,7 +1622,7 @@
         "ja": "鹿には会いましたか。奈良の鹿は有名ですね。",
         "kana": "しかにはあいましたか。ならのしかはゆうめいですね。",
         "en": "Did you see the deer? The deer of Nara are famous, aren't they?",
-        "my": "Did you see the deer? The deer of Nara are famous, aren't they?",
+        "my": "鈴木: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "Did you see the deer? The deer of Nara are famous, aren't they?",
         "myanmar": "Did you see the deer? The deer of Nara are famous, aren't they?"
       },
@@ -1631,7 +1631,7 @@
         "ja": "はい、公園でたくさん見ました。とてもかわいかったです！",
         "kana": "はい、こうえんでたくさんみました。とてもかわいかったです！",
         "en": "Yes, I saw many in the park. They were very cute!",
-        "my": "Yes, I saw many in the park. They were very cute!",
+        "my": "アリ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "Yes, I saw many in the park. They were very cute!",
         "myanmar": "Yes, I saw many in the park. They were very cute!"
       }
@@ -1653,7 +1653,7 @@
     },
     "titleMy": "Adjectives: Describing Things (い形容詞・な形容詞) - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "Adjectives: Describing Things (い形容詞・な形容詞) - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "Two friends talk about a weekend sightseeing trip to Nara."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -2084,8 +2084,8 @@
       "questionMy": "「高」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「高」၏ အဓိပ္ပာယ်မှာ \"မြင့်သော / စျေးကြီးသော\" ဖြစ်ပါသည်။ (အဖြေမှန်: Tall, high, expensive)",
       "choicesMy": [
-        "Tall, high, expensive",
-        "Cheap, peaceful, safe",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
         "အသစ်ဖြစ်သော",
         "သစ်ပင်"
       ],
@@ -2117,10 +2117,10 @@
       "questionMy": "「高」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「高」၏ အဓိပ္ပာယ်မှာ \"မြင့်သော / စျေးကြီးသော\" ဖြစ်ပါသည်။ (အဖြေမှန်: たか.い)",
       "choicesMy": [
-        "たか.い",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2150,8 +2150,8 @@
       "questionMy": "「安」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「安」၏ အဓိပ္ပာယ်မှာ \"စျေးသက်သာသော / အေးချမ်းသော\" ဖြစ်ပါသည်။ (အဖြေမှန်: Cheap, peaceful, safe)",
       "choicesMy": [
-        "Cheap, peaceful, safe",
-        "Tall, high, expensive",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
         "အသစ်ဖြစ်သော",
         "သစ်ပင်"
       ],
@@ -2183,10 +2183,10 @@
       "questionMy": "「安」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「安」၏ အဓိပ္ပာယ်မှာ \"စျေးသက်သာသော / အေးချမ်းသော\" ဖြစ်ပါသည်။ (အဖြေမှန်: やす.い)",
       "choicesMy": [
-        "やす.い",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2217,8 +2217,8 @@
       "explanationMy": "ကန်ဂျီ「新」၏ အဓိပ္ပာယ်မှာ \"အသစ်ဖြစ်သော\" ဖြစ်ပါသည်။ (အဖြေမှန်: New)",
       "choicesMy": [
         "အသစ်ဖြစ်သော",
-        "Tall, high, expensive",
-        "Cheap, peaceful, safe",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2249,10 +2249,10 @@
       "questionMy": "「新」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「新」၏ အဓိပ္ပာယ်မှာ \"အသစ်ဖြစ်သော\" ဖြစ်ပါသည်။ (အဖြေမှန်: あたら.しい)",
       "choicesMy": [
-        "あたら.しい",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2282,9 +2282,9 @@
       "questionMy": "「古」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「古」၏ အဓိပ္ပာယ်မှာ \"ဟောင်းနွမ်းသော\" ဖြစ်ပါသည်။ (အဖြေမှန်: Old (for objects))",
       "choicesMy": [
-        "Old (for objects)",
-        "Tall, high, expensive",
-        "Cheap, peaceful, safe",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2315,10 +2315,10 @@
       "questionMy": "「古」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「古」၏ အဓိပ္ပာယ်မှာ \"ဟောင်းနွမ်းသော\" ဖြစ်ပါသည်။ (အဖြေမှန်: ふる.い)",
       "choicesMy": [
-        "ふる.い",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2348,10 +2348,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「あまり広くない」 ဖြစ်ပါသည်။ (「部屋はあまり広くないですが...」.)",
       "choicesMy": [
-        "あまり広くない",
-        "とても広い",
-        "狭すぎる",
-        "普通"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2381,10 +2381,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「駅の近くだから」 ဖြစ်ပါသည်။ (「駅の近くですから、毎日の通学がとても便利です」.)",
       "choicesMy": [
-        "駅の近くだから",
-        "学校の隣だから",
-        "バスがあるから",
-        "友達と一緒だから"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2414,10 +2414,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「静かな公園」 ဖြစ်ပါသည်။ (「アパートの隣に静かな公園があります」.)",
       "choicesMy": [
-        "静かな公園",
-        "大きなスーパー",
-        "学校",
-        "駅の改札"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ကျောင်း",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2447,10 +2447,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「少し高い」 ဖြစ်ပါသည်။ (「家賃は少し高いですが、いい部屋です」.)",
       "choicesMy": [
-        "少し高い",
-        "とても安い",
-        "無料である",
-        "高すぎる"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2480,10 +2480,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「スーパーが近くにあって楽」 ဖြစ်ပါသည်။ (「スーパーも近くにあって、買い物が楽です」.)",
       "choicesMy": [
-        "スーパーが近くにあって楽",
-        "遠くて不便",
-        "店が全くない",
-        "高い"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "မြင့်သော / ဈေးကြီးသော"
       ],
       "correctIndex": 0
     },
@@ -2513,10 +2513,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「奈良」 ဖြစ်ပါသည်။ (Suzuki asks: 「先週の奈良旅行はどうでしたか」.)",
       "choicesMy": [
-        "奈良",
-        "京都",
-        "東京",
-        "大阪"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2546,10 +2546,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「古いお寺がたくさんある静かな町」 ဖြစ်ပါသည်။ (Ali states: 「古いお寺がたくさんあって、静かな町でした」.)",
       "choicesMy": [
-        "古いお寺がたくさんある静かな町",
-        "近代的なにぎやかな町",
-        "物価がとても高い町",
-        "海に近い町"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2579,10 +2579,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「たくさんの鹿」 ဖြစ်ပါသည်။ (Ali says: 「はい、公園でたくさん見ました (鹿)」.)",
       "choicesMy": [
-        "たくさんの鹿",
-        "大きなお祭り",
-        "新しいお寺",
-        "桜の花"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2612,10 +2612,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「とてもかわいかった」 ဖြစ်ပါသည်။ (「とてもかわいかったです！」.)",
       "choicesMy": [
-        "とてもかわいかった",
-        "怖かった",
-        "うるさかった",
-        "大きかった"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2645,10 +2645,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「とても楽しかった」 ဖြစ်ပါသည်။ (Ali began with: 「とても楽しかったです！」.)",
       "choicesMy": [
-        "とても楽しかった",
-        "疲れた",
-        "退屈だった",
-        "寒かった"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

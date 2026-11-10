@@ -945,7 +945,7 @@
           "reading": "でんわ",
           "meaning": "Telephone",
           "preview": true,
-          "meaningMyanmar": "Telephone",
+          "meaningMyanmar": "တယ်လီဖုန်း",
           "meaningMy": "Telephone"
         }
       ],
@@ -986,7 +986,7 @@
           "reading": "にほんご",
           "meaning": "Japanese language",
           "preview": false,
-          "meaningMyanmar": "Japanese language",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Japanese language",
           "meaningMy": "Japanese language"
         },
         {
@@ -994,7 +994,7 @@
           "reading": "えいご",
           "meaning": "English language",
           "preview": true,
-          "meaningMyanmar": "English language",
+          "meaningMyanmar": "အဓိပ္ပာယ်: English language",
           "meaningMy": "English language"
         }
       ],
@@ -1043,7 +1043,7 @@
           "reading": "どくしょ",
           "meaning": "Reading books",
           "preview": true,
-          "meaningMyanmar": "Reading books",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Reading books",
           "meaningMy": "Reading books"
         }
       ],
@@ -1092,7 +1092,7 @@
           "reading": "もじ",
           "meaning": "Letter / Script",
           "preview": true,
-          "meaningMyanmar": "Letter / Script",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Letter / Script",
           "meaningMy": "Letter / Script"
         }
       ],
@@ -1596,7 +1596,7 @@
     },
     "titleMy": "Ability and Possibility (ことができます) - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "Ability and Possibility (ことができます) - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "I have loved music since childhood. I can play the piano and guitar skillfully. When I was a high school student, I was also able to sing songs in a band. Now, I can sing Japanese anime songs in Japanese. My hobby is reading Japanese books and manga. I cannot read difficult kanji yet, but using a dictionary, I can read little by little every day. I want to pass N2 by next year."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l19.l01",
@@ -1619,7 +1619,7 @@
         "ja": "すみません、チェックアウトの後で荷物を預けることができますか。",
         "kana": "すみません、ちぇっくあうとのあとでにもつをあずけることができますか。",
         "en": "Excuse me, is it possible to leave my luggage after checkout?",
-        "my": "Excuse me, is it possible to leave my luggage after checkout?",
+        "my": "宿泊客: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Excuse me, is it possible to leave my luggage after checkout?",
         "myanmar": "Excuse me, is it possible to leave my luggage after checkout?"
       },
@@ -1628,7 +1628,7 @@
         "ja": "はい、夕方六時までフロントで無料でお預かりすることができますよ。",
         "kana": "はい、ゆうがたろくじまでふろんとでむりょうでおあずかりすることができますよ。",
         "en": "Yes, we can hold it for you for free at the front desk until 6:00 PM.",
-        "my": "Yes, we can hold it for you for free at the front desk until 6:00 PM.",
+        "my": "フロント: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Yes, we can hold it for you for free at the front desk until 6:00 PM.",
         "myanmar": "Yes, we can hold it for you for free at the front desk until 6:00 PM."
       },
@@ -1637,7 +1637,7 @@
         "ja": "よかったです！支払いはクレジットカードを使うことができますか。",
         "kana": "よかったです！しはらいはくれじっとかーどをつかうことができますか。",
         "en": "That's great! Can I use a credit card for payment?",
-        "my": "That's great! Can I use a credit card for payment?",
+        "my": "宿泊客: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "That's great! Can I use a credit card for payment?",
         "myanmar": "That's great! Can I use a credit card for payment?"
       },
@@ -1646,7 +1646,7 @@
         "ja": "はい、各種クレジットカードや電子マネーをお使いいただけます。",
         "kana": "はい、かくしゅくれじっとかーどやでんしまねーをおつかいいただけます。",
         "en": "Yes, various credit cards and electronic money can be used.",
-        "my": "Yes, various credit cards and electronic money can be used.",
+        "my": "フロント: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "Yes, various credit cards and electronic money can be used.",
         "myanmar": "Yes, various credit cards and electronic money can be used."
       }
@@ -1668,7 +1668,7 @@
     },
     "titleMy": "Ability and Possibility (ことができます) - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "Ability and Possibility (ことができます) - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "A foreign guest asks the hotel receptionist about payment options and luggage storage."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -2099,9 +2099,9 @@
       "questionMy": "「話」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「話」၏ အဓိပ္ပာယ်မှာ \"စကားပြောခြင်း / ပုံပြင်\" ဖြစ်ပါသည်။ (အဖြေမှန်: Talk, speak, story)",
       "choicesMy": [
-        "Talk, speak, story",
-        "Word, language",
-        "Read",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2132,10 +2132,10 @@
       "questionMy": "「話」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「話」၏ အဓိပ္ပာယ်မှာ \"စကားပြောခြင်း / ပုံပြင်\" ဖြစ်ပါသည်။ (အဖြေမှန်: はな.す)",
       "choicesMy": [
-        "はな.す",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2165,9 +2165,9 @@
       "questionMy": "「語」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「語」၏ အဓိပ္ပာယ်မှာ \"ဘာသာစကား / စကားလုံး\" ဖြစ်ပါသည်။ (အဖြေမှန်: Word, language)",
       "choicesMy": [
-        "Word, language",
-        "Talk, speak, story",
-        "Read",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2198,10 +2198,10 @@
       "questionMy": "「語」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「語」၏ အဓိပ္ပာယ်မှာ \"ဘာသာစကား / စကားလုံး\" ဖြစ်ပါသည်။ (အဖြေမှန်: かた.る)",
       "choicesMy": [
-        "かた.る",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2231,9 +2231,9 @@
       "questionMy": "「読」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「読」၏ အဓိပ္ပာယ်မှာ \"ဖတ်ရှုခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Read)",
       "choicesMy": [
-        "Read",
-        "Talk, speak, story",
-        "Word, language",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2264,10 +2264,10 @@
       "questionMy": "「読」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「読」၏ အဓိပ္ပာယ်မှာ \"ဖတ်ရှုခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: よ.む)",
       "choicesMy": [
-        "よ.む",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2297,9 +2297,9 @@
       "questionMy": "「字」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「字」၏ အဓိပ္ပာယ်မှာ \"စာလုံး / အက္ခရာ\" ဖြစ်ပါသည်။ (အဖြေမှန်: Character, letter)",
       "choicesMy": [
-        "Character, letter",
-        "Talk, speak, story",
-        "Word, language",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2330,10 +2330,10 @@
       "questionMy": "「字」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「字」၏ အဓိပ္ပာယ်မှာ \"စာလုံး / အက္ခရာ\" ဖြစ်ပါသည်။ (အဖြေမှန်: あざ)",
       "choicesMy": [
-        "あざ",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2363,10 +2363,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「ピアノとギター」 ဖြစ်ပါသည်။ (「ピアノとギターを上手に弾くことができます」.)",
       "choicesMy": [
-        "ピアノとギター",
-        "バイオリンとフルート",
-        "ドラムだけ",
-        "何も弾けない"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2396,10 +2396,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「アニメの曲を日本語で歌うこと」 ဖြစ်ပါသည်။ (「今、日本のアニメの曲を日本語で歌うことができます」.)",
       "choicesMy": [
-        "アニメの曲を日本語で歌うこと",
-        "難しい論文を書くこと",
-        "流暢に演説すること",
-        "同時通訳"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2429,10 +2429,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「日本の本や漫画を読むこと」 ဖြစ်ပါသည်။ (「私の趣味は日本の本や漫画を読むことです」.)",
       "choicesMy": [
-        "日本の本や漫画を読むこと",
-        "切手を集めること",
-        "スポーツをすること",
-        "料理を作ること"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2462,10 +2462,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「辞書を使いながら読む」 ဖြစ်ပါသည်။ (「辞書を使いながら毎日少しずつ読むことができます」.)",
       "choicesMy": [
-        "辞書を使いながら読む",
-        "読まないで飛ばす",
-        "先生に全部聞く",
-        "諦める"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2495,10 +2495,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「来年までにN2に合格すること」 ဖြစ်ပါသည်။ (「来年までにN2に合格したいです」.)",
       "choicesMy": [
-        "来年までにN2に合格すること",
-        "プロのピアニストになること",
-        "帰国すること",
-        "漫画家になること"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2528,10 +2528,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「はい、夕方六時まで無料で預けることができる」 ဖြစ်ပါသည်။ (「夕方六時までフロントで無料でお預かりすることができますよ」.)",
       "choicesMy": [
-        "はい、夕方六時まで無料で預けることができる",
-        "いいえ、預かりサービスはない",
-        "有料なら預けられる",
-        "朝十時までのみ可"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2561,10 +2561,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「はい、各種カードや電子マネーが使える」 ဖြစ်ပါသည်။ (「はい、各種クレジットカードや電子マネーをお使いいただけます」.)",
       "choicesMy": [
-        "はい、各種カードや電子マネーが使える",
-        "現金のみ",
-        "日本円のみ",
-        "振込だけ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2594,10 +2594,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「夕方六時まで」 ဖြစ်ပါသည်။ (「夕方六時まで」 (Until 6:00 in the evening).)",
       "choicesMy": [
-        "夕方六時まで",
-        "夜八時まで",
-        "正午まで",
-        "翌朝まで"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2627,10 +2627,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「ホテルのフロント」 ဖြစ်ပါသည်။ (The conversation takes place at a hotel front desk.)",
       "choicesMy": [
-        "ホテルのフロント",
-        "駅の改札口",
-        "空港の搭乗口",
-        "デパートの案内所"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2660,10 +2660,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「荷物の預かりと支払い方法」 ဖြစ်ပါသည်။ (The guest asks about luggage storage and credit card payment capability.)",
       "choicesMy": [
-        "荷物の預かりと支払い方法",
-        "朝食の時間と部屋番号",
-        "Wi-Fiとタクシーの予約",
-        "大浴場の場所"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

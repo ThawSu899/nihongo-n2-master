@@ -942,7 +942,7 @@
           "reading": "すいどう",
           "meaning": "Water supply",
           "preview": true,
-          "meaningMyanmar": "Water supply",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Water supply",
           "meaningMy": "Water supply"
         }
       ],
@@ -984,7 +984,7 @@
           "reading": "まち",
           "meaning": "Town",
           "preview": false,
-          "meaningMyanmar": "Town",
+          "meaningMyanmar": "မြို့နယ်",
           "meaningMy": "Town"
         },
         {
@@ -992,7 +992,7 @@
           "reading": "したまち",
           "meaning": "Downtown",
           "preview": true,
-          "meaningMyanmar": "Downtown",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Downtown",
           "meaningMy": "Downtown"
         }
       ],
@@ -1032,7 +1032,7 @@
           "reading": "えき",
           "meaning": "Station",
           "preview": false,
-          "meaningMyanmar": "Station",
+          "meaningMyanmar": "ဘူတာရုံ",
           "meaningMy": "Station"
         },
         {
@@ -1040,7 +1040,7 @@
           "reading": "えきまえ",
           "meaning": "In front of station",
           "preview": true,
-          "meaningMyanmar": "In front of station",
+          "meaningMyanmar": "အဓိပ္ပာယ်: In front of station",
           "meaningMy": "In front of station"
         }
       ],
@@ -1091,7 +1091,7 @@
           "reading": "しかく",
           "meaning": "Square",
           "preview": true,
-          "meaningMyanmar": "Square",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Square",
           "meaningMy": "Square"
         }
       ],
@@ -1548,7 +1548,7 @@
     },
     "titleMy": "我が家への道案内 (Directions to My House) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "我が家への道案内 (Directions to My House) (ဖတ်ရှုခြင်း)",
-    "translationMy": "To the international students: We are eagerly looking forward to the homestay this Saturday. Here are the directions from the station to our house. When you exit the East Exit of Central Station, the bus stop will be right in front of you. Keeping the bus stop on your right, walk straight down the main street for about 5 minutes. When you cross the intersection with the first traffic light, you will see a convenience store with a blue sign. Please turn left at the corner of that convenience store. If you advance a little along the narrow street, there is a small river and a white bridge. Cross that bridge, and the second house on the immediate right is my house. The landmark is a large cherry tree in front of the entrance. When you get lost on the way, please call us anytime."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l26.l01",
@@ -1571,7 +1571,7 @@
         "ja": "すみません、この近くに郵便局はありますか。",
         "kana": "すみません、このちかくにゆうびんきょくはありますか。",
         "en": "Excuse me, is there a post office near here?",
-        "my": "Excuse me, is there a post office near here?",
+        "my": "旅行者: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Excuse me, is there a post office near here?",
         "myanmar": "Excuse me, is there a post office near here?"
       },
@@ -1580,7 +1580,7 @@
         "ja": "郵便局ですね。この交番を出て、前の大通りをまっすぐ進んでください。",
         "kana": "ゆうびんきょくですね。このこうばんをでて、まえのおおどおりをまっすぐすすんでください。",
         "en": "The post office, right. Exit this police box and go straight down the main avenue in front.",
-        "my": "The post office, right. Exit this police box and go straight down the main avenue in front.",
+        "my": "警察官: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "The post office, right. Exit this police box and go straight down the main avenue in front.",
         "myanmar": "The post office, right. Exit this police box and go straight down the main avenue in front."
       },
@@ -1589,7 +1589,7 @@
         "ja": "まっすぐですね。",
         "kana": "まっすぐですね。",
         "en": "Straight ahead, got it.",
-        "my": "Straight ahead, got it.",
+        "my": "旅行者: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "Straight ahead, got it.",
         "myanmar": "Straight ahead, got it."
       },
@@ -1598,7 +1598,7 @@
         "ja": "ええ、二つ目の信号を右に曲がると、大きな銀行があります。郵便局はその銀行の隣にありますよ。",
         "kana": "ええ、ふたつめのしんごうをみぎにまがると、おおきなぎんこうがあります。ゆうびんきょくはそのぎんこうのとなりにありますよ。",
         "en": "Yes, when you turn right at the second traffic light, there is a large bank. The post office is right next to that bank.",
-        "my": "Yes, when you turn right at the second traffic light, there is a large bank. The post office is right next to that bank.",
+        "my": "警察官: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "Yes, when you turn right at the second traffic light, there is a large bank. The post office is right next to that bank.",
         "myanmar": "Yes, when you turn right at the second traffic light, there is a large bank. The post office is right next to that bank."
       },
@@ -1607,7 +1607,7 @@
         "ja": "二つ目の信号を右ですね。歩いて何分くらいですか。",
         "kana": "ふたつめのしんごうをみぎですね。あるいてなんぷんくらいですか。",
         "en": "Right at the second traffic light. About how many minutes on foot?",
-        "my": "Right at the second traffic light. About how many minutes on foot?",
+        "my": "旅行者: အခြေခံစကားပြော လေ့ကျင့်ခန်း (5)",
         "translationMy": "Right at the second traffic light. About how many minutes on foot?",
         "myanmar": "Right at the second traffic light. About how many minutes on foot?"
       },
@@ -1616,7 +1616,7 @@
         "ja": "歩いて五分くらいですよ。",
         "kana": "あるいてごふんくらいですよ。",
         "en": "It's about 5 minutes on foot.",
-        "my": "It's about 5 minutes on foot.",
+        "my": "警察官: အခြေခံစကားပြော လေ့ကျင့်ခန်း (6)",
         "translationMy": "It's about 5 minutes on foot.",
         "myanmar": "It's about 5 minutes on foot."
       },
@@ -1625,7 +1625,7 @@
         "ja": "わかりました。どうもありがとうございました！",
         "kana": "わかりました。どうもありがとうございました！",
         "en": "Understood. Thank you very much!",
-        "my": "Understood. Thank you very much!",
+        "my": "旅行者: အခြေခံစကားပြော လေ့ကျင့်ခန်း (7)",
         "translationMy": "Understood. Thank you very much!",
         "myanmar": "Understood. Thank you very much!"
       }
@@ -1647,7 +1647,7 @@
     },
     "titleMy": "交番での道案内 (Asking for Directions at the Police Box) (နားထောင်ခြင်း)",
     "titleMyanmar": "交番での道案内 (Asking for Directions at the Police Box) (နားထောင်ခြင်း)",
-    "translationMy": "Traveler: Excuse me, is there a post office near here?\nPolice Officer: The post office, right. Exit this police box and go straight down the main avenue in front.\nTraveler: Straight ahead, got it.\nPolice Officer: Yes, when you turn right at the second traffic light, there is a large bank. The post office is right next to that bank.\nTraveler: Right at the second traffic light. About how many minutes on foot?\nPolice Officer: It's about 5 minutes on foot.\nTraveler: Understood. Thank you very much!"
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -1676,7 +1676,7 @@
       "questionMy": "「交差点」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「Intersection」 ဖြစ်ပါသည်။ (「交差点」(こうさてん) means intersection or crossroads.)",
       "choicesMy": [
-        "Station",
+        "ရွေးချယ်စရာ (1)",
         "လမ်းဆုံ / လမ်းခွ",
         "လမ်းထောင့်",
         "တံတား"
@@ -1742,10 +1742,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「まっすぐ」 ဖြစ်ပါသည်။ (「まっすぐ」 means straight ahead.)",
       "choicesMy": [
-        "まっすぐ",
-        "ゆっくり",
-        "だんだん",
-        "たくさん"
+        "တည့်တည့်",
+        "ဖြည်းဖြည်းချင်း",
+        "ရွေးချယ်စရာ (3)",
+        "အများကြီး"
       ],
       "correctIndex": 0
     },
@@ -1775,10 +1775,10 @@
       "questionMy": "「渡る」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「To cross」 ဖြစ်ပါသည်။ (「渡る」(わたる) means to cross (a bridge, road, etc.).)",
       "choicesMy": [
-        "To turn",
-        "To cross",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
         "ရပ်တန့်သည်",
-        "To enter"
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1809,8 +1809,8 @@
       "explanationMy": "အဖြေမှန်မှာ 「Traffic light」 ဖြစ်ပါသည်။ (「信号」(しんごう) means traffic light.)",
       "choicesMy": [
         "ယာဉ်ထိန်းမီးရောင်",
-        "Police box",
-        "Post office",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "ဆေးရုံ"
       ],
       "correctIndex": 0
@@ -1844,7 +1844,7 @@
         "တူ (ထမင်းစားတူ)",
         "တံတား",
         "လမ်း",
-        "River"
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1874,10 +1874,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「道」၏ အဓိပ္ပာယ်မှာ \"လမ်း / နည်းလမ်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: みち)",
       "choicesMy": [
-        "みち",
-        "ドウ",
-        "まち",
-        "えき"
+        "လမ်း",
+        "ရွေးချယ်စရာ (2)",
+        "မြို့နယ်",
+        "ဘူတာရုံ"
       ],
       "correctIndex": 0
     },
@@ -1907,10 +1907,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「町」၏ အဓိပ္ပာယ်မှာ \"မြို့ငယ် / ရပ်ကွက်\" ဖြစ်ပါသည်။ (အဖြေမှန်: 町)",
       "choicesMy": [
-        "町",
-        "道",
-        "駅",
-        "角"
+        "မြို့နယ်",
+        "လမ်း",
+        "ဘူတာရုံ",
+        "လမ်းထောင့်"
       ],
       "correctIndex": 0
     },
@@ -1940,10 +1940,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「駅」၏ အဓိပ္ပာယ်မှာ \"ဘူတာရုံ\" ဖြစ်ပါသည်။ (အဖြေမှန်: エキ)",
       "choicesMy": [
-        "エキ",
-        "ドウ",
-        "チョウ",
-        "カク"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1973,10 +1973,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「角」၏ အဓိပ္ပာယ်မှာ \"ထောင့် / ဂျို\" ဖြစ်ပါသည်။ (အဖြေမှန်: 7)",
       "choicesMy": [
-        "6",
-        "7",
-        "8",
-        "9"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2006,10 +2006,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "သဘာဝဖြစ်စဉ်များ သို့မဟုတ် လမ်းညွှန်ချက်များတွင် 「ကြိယာ Dictionary-form + と」 (...လျှင် ...ဖြစ်သည်) ဟု သုံးသည်။ ဤဝါကျတွင် နောက်ဝါကျ၌ အမိန့် သို့မဟုတ် တောင်းဆိုချက် မသုံးရပါ။",
       "choicesMy": [
-        "行くと",
-        "行ってと",
-        "行ったと",
-        "行きますと"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2039,10 +2039,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "တစ်ခုခုပြုလုပ်သောအခါ သို့မဟုတ် အခြေအနေတစ်ခုဖြစ်ပေါ်သောအခါ 「〜とき」 (...သောအခါ) ဟု သုံးသည်။ な-adjective တွင် 「な」 လိုက်ပြီး နာမ်တွင် 「の」 လိုက်ရသည် (e.g. 暇なとき, 子供のとき).",
       "choicesMy": [
-        "暇なとき",
-        "暇のとき",
-        "暇だとき",
-        "暇とき"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2072,10 +2072,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "တစ်ခုခုပြုလုပ်သောအခါ သို့မဟုတ် အခြေအနေတစ်ခုဖြစ်ပေါ်သောအခါ 「〜とき」 (...သောအခါ) ဟု သုံးသည်။ な-adjective တွင် 「な」 လိုက်ပြီး နာမ်တွင် 「の」 လိုက်ရသည် (e.g. 暇なとき, 子供のとき).",
       "choicesMy": [
-        "子供のとき",
-        "子供なとき",
-        "子供だとき",
-        "子供とき"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2105,10 +2105,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "သဘာဝဖြစ်စဉ်များ သို့မဟုတ် လမ်းညွှန်ချက်များတွင် 「ကြိယာ Dictionary-form + と」 (...လျှင် ...ဖြစ်သည်) ဟု သုံးသည်။ ဤဝါကျတွင် နောက်ဝါကျ၌ အမိန့် သို့မဟုတ် တောင်းဆိုချက် မသုံးရပါ။",
       "choicesMy": [
-        "A request like 〜てください",
-        "A factual state like があります",
-        "A visible consequence like 見えます",
-        "A natural result"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2138,10 +2138,10 @@
       "questionMy": "「日本へ行くとき、カメラを買いました」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "တစ်ခုခုပြုလုပ်သောအခါ သို့မဟုတ် အခြေအနေတစ်ခုဖြစ်ပေါ်သောအခါ 「〜とき」 (...သောအခါ) ဟု သုံးသည်။ な-adjective တွင် 「な」 လိုက်ပြီး နာမ်တွင် 「の」 လိုက်ရသည် (e.g. 暇なとき, 子供のとき).",
       "choicesMy": [
-        "I bought a camera BEFORE going to Japan",
-        "I bought a camera AFTER arriving in Japan",
-        "I never bought a camera",
-        "I sold a camera in Japan"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2171,10 +2171,10 @@
       "questionMy": "「日本へ行ったとき、友達に会いました」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "တစ်ခုခုပြုလုပ်သောအခါ သို့မဟုတ် အခြေအနေတစ်ခုဖြစ်ပေါ်သောအခါ 「〜とき」 (...သောအခါ) ဟု သုံးသည်။ な-adjective တွင် 「な」 လိုက်ပြီး နာမ်တွင် 「の」 လိုက်ရသည် (e.g. 暇なとき, 子供のとき).",
       "choicesMy": [
-        "When I had arrived in Japan, I met a friend",
-        "I met a friend before boarding the flight to Japan",
-        "I will not go to Japan",
-        "I met a friend at my home country airport"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2204,10 +2204,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "သဘာဝဖြစ်စဉ်များ သို့မဟုတ် လမ်းညွှန်ချက်များတွင် 「ကြိယာ Dictionary-form + と」 (...လျှင် ...ဖြစ်သည်) ဟု သုံးသည်။ ဤဝါကျတွင် နောက်ဝါကျ၌ အမိန့် သို့မဟုတ် တောင်းဆိုချက် မသုံးရပါ။",
       "choicesMy": [
-        "に",
-        "を",
-        "で",
-        "から"
+        "နှစ်",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "သောကြောင့် / ဖြစ်သည့်အတွက်"
       ],
       "correctIndex": 0
     },
@@ -2237,10 +2237,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "သဘာဝဖြစ်စဉ်များ သို့မဟုတ် လမ်းညွှန်ချက်များတွင် 「ကြိယာ Dictionary-form + と」 (...လျှင် ...ဖြစ်သည်) ဟု သုံးသည်။ ဤဝါကျတွင် နောက်ဝါကျ၌ အမိန့် သို့မဟုတ် တောင်းဆိုချက် မသုံးရပါ။",
       "choicesMy": [
-        "渡る",
-        "渡って",
-        "渡った",
-        "渡り"
+        "ဖြတ်ကူးသည်",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2270,10 +2270,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "တစ်ခုခုပြုလုပ်သောအခါ သို့မဟုတ် အခြေအနေတစ်ခုဖြစ်ပေါ်သောအခါ 「〜とき」 (...သောအခါ) ဟု သုံးသည်။ な-adjective တွင် 「な」 လိုက်ပြီး နာမ်တွင် 「の」 လိုက်ရသည် (e.g. 暇なとき, 子供のとき).",
       "choicesMy": [
-        "とき",
-        "ときに",
-        "と",
-        "たら"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2303,10 +2303,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "သဘာဝဖြစ်စဉ်များ သို့မဟုတ် လမ်းညွှန်ချက်များတွင် 「ကြိယာ Dictionary-form + と」 (...လျှင် ...ဖြစ်သည်) ဟု သုံးသည်။ ဤဝါကျတွင် နောက်ဝါကျ၌ အမိန့် သို့မဟုတ် တောင်းဆိုချက် မသုံးရပါ။",
       "choicesMy": [
-        "を",
-        "に",
-        "で",
-        "へ"
+        "ရွေးချယ်စရာ (1)",
+        "နှစ်",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2336,10 +2336,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「East Exit (東口)」 ဖြစ်ပါသည်။ (The guide says: 中央駅の東口を出ると (Exit the East Exit of Central Station).)",
       "choicesMy": [
-        "West Exit",
-        "East Exit (東口)",
-        "North Exit",
-        "South Exit"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2369,10 +2369,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「About 5 minutes」 ဖြစ်ပါသည်။ (The text notes: 大通りをまっすぐ五分ほど歩いてください (walk straight for about 5 minutes).)",
       "choicesMy": [
-        "About 5 minutes",
-        "About 15 minutes",
-        "About 30 minutes",
-        "1 hour"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2404,8 +2404,8 @@
       "choicesMy": [
         "ညာဘက်",
         "ဘယ်ဘက်",
-        "Turn around",
-        "Go straight"
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2435,10 +2435,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「The second house on the immediate right」 ဖြစ်ပါသည်။ (The text states: その橋を渡ってすぐ右の二軒目の家が私の家です (the second house on the immediate right).)",
       "choicesMy": [
-        "The first house on the left",
-        "The second house on the immediate right",
-        "The third house straight ahead",
-        "The house opposite the station"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2468,10 +2468,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「A big cherry tree」 ဖြစ်ပါသည်။ (The text ends: 玄関の前に大きな桜の木があるのが目印です.)",
       "choicesMy": [
-        "A red mailbox",
-        "A big cherry tree",
-        "A bicycle parking lot",
-        "A large dog house"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2501,10 +2501,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Post office (郵便局)」 ဖြစ်ပါသည်။ (The traveler asks: この近くに郵便局はありますか.)",
       "choicesMy": [
-        "Police box",
-        "Post office (郵便局)",
-        "Station",
-        "Bank"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2534,10 +2534,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「The second traffic light (二つ目の信号)」 ဖြစ်ပါသည်။ (The police officer says: 二つ目の信号を右に曲がると (turn right at the second traffic light).)",
       "choicesMy": [
-        "The first traffic light",
-        "The second traffic light (二つ目の信号)",
-        "The third traffic light",
-        "The fourth traffic light"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2567,10 +2567,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Right next to the large bank (隣)」 ဖြစ်ပါသည်။ (The police officer explains: 郵便局はその銀行の隣にありますよ.)",
       "choicesMy": [
-        "Opposite the bank",
-        "Inside the bank",
-        "Right next to the large bank (隣)",
-        "Behind the bank"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2600,10 +2600,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「About 5 minutes」 ဖြစ်ပါသည်။ (The police officer answers: 歩いて五分くらいですよ.)",
       "choicesMy": [
-        "About 2 minutes",
-        "About 5 minutes",
-        "About 10 minutes",
-        "About 20 minutes"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2633,10 +2633,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「A police officer at the police box (警察官)」 ဖြစ်ပါသည်။ (The conversation takes place at a police box with a 警察官.)",
       "choicesMy": [
-        "A station employee",
-        "A police officer at the police box (警察官)",
-        "A bus driver",
-        "A friend"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

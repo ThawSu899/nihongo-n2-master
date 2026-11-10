@@ -958,7 +958,7 @@
           "reading": "でんごん",
           "meaning": "Message",
           "preview": true,
-          "meaningMyanmar": "Message",
+          "meaningMyanmar": "နှုတ်မှာစကား / သတင်းစကား",
           "meaningMy": "Message"
         }
       ],
@@ -1000,7 +1000,7 @@
           "reading": "あう",
           "meaning": "To meet",
           "preview": false,
-          "meaningMyanmar": "To meet",
+          "meaningMyanmar": "တွေ့ဆုံသည်",
           "meaningMy": "To meet"
         },
         {
@@ -1008,7 +1008,7 @@
           "reading": "かいしゃ",
           "meaning": "Company",
           "preview": true,
-          "meaningMyanmar": "Company",
+          "meaningMyanmar": "ကုမ္ပဏီ",
           "meaningMy": "Company"
         }
       ],
@@ -1050,7 +1050,7 @@
           "reading": "かいしゃ",
           "meaning": "Company",
           "preview": false,
-          "meaningMyanmar": "Company",
+          "meaningMyanmar": "ကုမ္ပဏီ",
           "meaningMy": "Company"
         },
         {
@@ -1107,7 +1107,7 @@
           "reading": "てんいん",
           "meaning": "Store clerk",
           "preview": true,
-          "meaningMyanmar": "Store clerk",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Store clerk",
           "meaningMy": "Store clerk"
         }
       ],
@@ -1561,7 +1561,7 @@
     },
     "titleMy": "会社での伝言メモ (Office Message Memo) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "会社での伝言メモ (Office Message Memo) (ဖတ်ရှုခြင်း)",
-    "translationMy": "To Tanaka:\nAt 2:00 PM today, there was a phone call from Mr. Kimura of ABC Trading. Mr. Kimura said he wants to change the time of today's meeting scheduled for 4:00 PM. Because urgent business came up, Mr. Kimura said he would be about 30 minutes late for the 4:00 appointment time. The new meeting time is from 4:30 PM. The location remains the same in Conference Room 2. Mr. Kimura said, \"I will send a confirmation email later.\" If you have any questions, please ask me.\nFrom Yamada"
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l24.l01",
@@ -1584,7 +1584,7 @@
         "ja": "佐藤さん、明日のサッカーの試合について部長は何と言いましたか。",
         "kana": "さとうさん、あしたのさっかーのしあいについてぶちょうはなんといいましたか。",
         "en": "Sato, what did the manager say about tomorrow's soccer match?",
-        "my": "Sato, what did the manager say about tomorrow's soccer match?",
+        "my": "山田: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Sato, what did the manager say about tomorrow's soccer match?",
         "myanmar": "Sato, what did the manager say about tomorrow's soccer match?"
       },
@@ -1593,7 +1593,7 @@
         "ja": "部長は「明日は朝八時に学校のグラウンドに集合してください」と言いました。",
         "kana": "ぶちょうは「あしたはあさはちじにがっこうのぐらうんどにしゅうごうしてください」といいました。",
         "en": "The manager said, \"Please gather at the school sports ground at 8:00 AM tomorrow.\"",
-        "my": "The manager said, \"Please gather at the school sports ground at 8:00 AM tomorrow.\"",
+        "my": "佐藤: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "The manager said, \"Please gather at the school sports ground at 8:00 AM tomorrow.\"",
         "myanmar": "The manager said, \"Please gather at the school sports ground at 8:00 AM tomorrow.\""
       },
@@ -1602,7 +1602,7 @@
         "ja": "八時ですね。明日の天気はどうでしょうか。",
         "kana": "はちじですね。あしたのてんきはどうでしょうか。",
         "en": "8:00 AM, right. What will tomorrow's weather be like?",
-        "my": "8:00 AM, right. What will tomorrow's weather be like?",
+        "my": "山田: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "8:00 AM, right. What will tomorrow's weather be like?",
         "myanmar": "8:00 AM, right. What will tomorrow's weather be like?"
       },
@@ -1611,7 +1611,7 @@
         "ja": "天気予報によると、晴れるでしょう。暑くなると思いますよ。",
         "kana": "てんきよほうによると、はれるでしょう。あつくなるとおもいますよ。",
         "en": "According to the weather forecast, it will probably be sunny. I think it will get hot.",
-        "my": "According to the weather forecast, it will probably be sunny. I think it will get hot.",
+        "my": "佐藤: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "According to the weather forecast, it will probably be sunny. I think it will get hot.",
         "myanmar": "According to the weather forecast, it will probably be sunny. I think it will get hot."
       },
@@ -1620,7 +1620,7 @@
         "ja": "そうですか。明日の試合は絶対に勝つでしょう！頑張りましょう。",
         "kana": "そうですか。あしたのしあいはぜったいにかつでしょう！がんばりましょう。",
         "en": "I see. Our team will definitely win tomorrow's match! Let's do our best.",
-        "my": "I see. Our team will definitely win tomorrow's match! Let's do our best.",
+        "my": "山田: အခြေခံစကားပြော လေ့ကျင့်ခန်း (5)",
         "translationMy": "I see. Our team will definitely win tomorrow's match! Let's do our best.",
         "myanmar": "I see. Our team will definitely win tomorrow's match! Let's do our best."
       }
@@ -1642,7 +1642,7 @@
     },
     "titleMy": "明日のサッカーの試合 (Tomorrow's Soccer Match) (နားထောင်ခြင်း)",
     "titleMyanmar": "明日のサッカーの試合 (Tomorrow's Soccer Match) (နားထောင်ခြင်း)",
-    "translationMy": "Yamada: Sato, what did the manager say about tomorrow's soccer match?\nSato: The manager said, \"Please gather at the school sports ground at 8:00 AM tomorrow.\"\nYamada: 8:00 AM, right. What will tomorrow's weather be like?\nSato: According to the weather forecast, it will probably be sunny. I think it will get hot.\nYamada: I see. Our team will definitely win tomorrow's match! Let's do our best."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -1672,8 +1672,8 @@
       "explanationMy": "အဖြေမှန်မှာ 「Meeting / Conference」 ဖြစ်ပါသည်။ (「会議」(かいぎ) means meeting or conference.)",
       "choicesMy": [
         "အစည်းအဝေး",
-        "Company",
-        "Message",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "ကတိ / ချိန်းဆိုချက်"
       ],
       "correctIndex": 0
@@ -1705,7 +1705,7 @@
       "explanationMy": "အဖြေမှန်မှာ 「Verbal message」 ဖြစ်ပါသည်။ (「伝言」(でんごん) means verbal message.)",
       "choicesMy": [
         "နှုတ်မှာစကား / သတင်းစကား",
-        "Phone bill",
+        "ရွေးချယ်စရာ (2)",
         "စာ (ပေးစာ)",
         "သတင်းစာ"
       ],
@@ -1737,10 +1737,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「社長」 ဖြစ်ပါသည်။ (「社長」(しゃちょう) is company president.)",
       "choicesMy": [
-        "部長",
-        "社長",
-        "会社員",
-        "店員"
+        "ဌာနမှူး",
+        "ကုမ္ပဏီဥက္ကဋ္ဌ / သူဌေး",
+        "ကုမ္ပဏီဝန်ထမ်း",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1770,7 +1770,7 @@
       "questionMy": "「遅れる」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「To be late」 ဖြစ်ပါသည်။ (「遅れる」(おくれる) means to be late.)",
       "choicesMy": [
-        "To arrive early",
+        "ရွေးချယ်စရာ (1)",
         "နောက်ကျသည်",
         "အလျင်လိုသည် / အမြန်လုပ်သည်",
         "ရပ်တန့်သည်"
@@ -1803,7 +1803,7 @@
       "questionMy": "「勝つ」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「To win」 ဖြစ်ပါသည်။ (「勝つ」(かつ) means to win.)",
       "choicesMy": [
-        "To lose",
+        "ရွေးချယ်စရာ (1)",
         "အနိုင်ရသည်",
         "ပုံဆွဲသည်/သရုပ်ဖော်သည်",
         "ကစားသည် / အလည်သွားသည်"
@@ -1837,9 +1837,9 @@
       "explanationMy": "အဖြေမှန်မှာ 「Promise / Appointment」 ဖြစ်ပါသည်။ (「約束」(やくそく) means promise or appointment.)",
       "choicesMy": [
         "ကတိ / ချိန်းဆိုချက်",
-        "Excuse",
-        "Work",
-        "Holiday"
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1869,10 +1869,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「言」၏ အဓိပ္ပာယ်မှာ \"ပြောဆိုခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: い.う)",
       "choicesMy": [
-        "い.う",
-        "こと",
-        "ゲン",
-        "ゴン"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1902,10 +1902,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「社」၏ အဓိပ္ပာယ်မှာ \"ကုမ္ပဏီ / လူ့ဘောင်\" ဖြစ်ပါသည်။ (အဖြေမှန်: シャ)",
       "choicesMy": [
-        "シャ",
-        "やしろ",
-        "カイ",
-        "イン"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1935,10 +1935,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「員」၏ အဓိပ္ပာယ်မှာ \"ဝန်ထမ်း / အဖွဲ့ဝင်\" ဖြစ်ပါသည်။ (အဖြေမှန်: 員)",
       "choicesMy": [
-        "会",
-        "社",
-        "員",
-        "人"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -1968,10 +1968,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「会」၏ အဓိပ္ပာယ်မှာ \"တွေ့ဆုံခြင်း / အသင်းအဖွဲ့\" ဖြစ်ပါသည်။ (အဖြေမှန်: 6)",
       "choicesMy": [
-        "5",
-        "6",
-        "7",
-        "8"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2001,10 +2001,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ပြောဆိုခဲ့သောစကားများကို တိုက်ရိုက် သို့မဟုတ် သွယ်ဝိုက်၍ ပြန်လည်ဖော်ပြရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + と言いました」 (...ဟု ပြောခဲ့သည်) သုံးသည်။",
       "choicesMy": [
-        "来る",
-        "来ます",
-        "来て",
-        "来ない"
+        "လာသည်",
+        "လာသည် (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2034,10 +2034,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ပြောဆိုခဲ့သောစကားများကို တိုက်ရိုက် သို့မဟုတ် သွယ်ဝိုက်၍ ပြန်လည်ဖော်ပြရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + と言いました」 (...ဟု ပြောခဲ့သည်) သုံးသည်။",
       "choicesMy": [
-        "Enclose them in brackets 「...」 followed by と言いました",
-        "Drop all particles",
-        "Must always convert to plain past",
-        "Add でしょう at the beginning"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2067,10 +2067,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "လေသံမြင့်၍ ပြောလျှင် အခြားသူထံမှ ထောက်ခံချက်တောင်းခြင်း (...မဟုတ်လား) ဖြစ်ပြီး၊ လေသံနှိမ့်၍ ပြောလျှင် ယဉ်ကျေးသော ခန့်မှန်းချက် (...ဖြစ်လောက်မည်) ဖြစ်သည်။ နာမ်နှင့် な-adjective တွင် 「だ」 မပါဘဲ တွဲရသည် (e.g. 暇でしょう).",
       "choicesMy": [
-        "明日は晴れでしょう",
-        "明日は晴れだでしょう",
-        "明日は晴れででしょう",
-        "明日は晴れにでしょう"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2100,10 +2100,10 @@
       "questionMy": "「〜でしょう？」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "လေသံမြင့်၍ ပြောလျှင် အခြားသူထံမှ ထောက်ခံချက်တောင်းခြင်း (...မဟုတ်လား) ဖြစ်ပြီး၊ လေသံနှိမ့်၍ ပြောလျှင် ယဉ်ကျေးသော ခန့်မှန်းချက် (...ဖြစ်လောက်မည်) ဖြစ်သည်။ နာမ်နှင့် な-adjective တွင် 「だ」 မပါဘဲ တွဲရသည် (e.g. 暇でしょう).",
       "choicesMy": [
-        "Asking the listener for agreement (Right? Isn't it?)",
-        "Ordering someone to leave",
-        "Saying goodbye",
-        "Refusing a gift"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2133,10 +2133,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ပြောဆိုခဲ့သောစကားများကို တိုက်ရိုက် သို့မဟုတ် သွယ်ဝိုက်၍ ပြန်လည်ဖော်ပြရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + と言いました」 (...ဟု ပြောခဲ့သည်) သုံးသည်။",
       "choicesMy": [
-        "と",
-        "を",
-        "に",
-        "で"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "နှစ်",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2166,10 +2166,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ပြောဆိုခဲ့သောစကားများကို တိုက်ရိုက် သို့မဟုတ် သွယ်ဝိုက်၍ ပြန်လည်ဖော်ပြရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + と言いました」 (...ဟု ပြောခဲ့သည်) သုံးသည်။",
       "choicesMy": [
-        "新しい車を買ったと言いました",
-        "新しい車を買いましたと言いましただ",
-        "新しい車を買うと言いましたでした",
-        "新しい車を買わないと言いました"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2199,10 +2199,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "လေသံမြင့်၍ ပြောလျှင် အခြားသူထံမှ ထောက်ခံချက်တောင်းခြင်း (...မဟုတ်လား) ဖြစ်ပြီး၊ လေသံနှိမ့်၍ ပြောလျှင် ယဉ်ကျေးသော ခန့်မှန်းချက် (...ဖြစ်လောက်မည်) ဖြစ်သည်။ နာမ်နှင့် な-adjective တွင် 「だ」 မပါဘဲ တွဲရသည် (e.g. 暇でしょう).",
       "choicesMy": [
-        "昨日は寒かったでしょう？",
-        "昨日は寒いでしたでしょう？",
-        "昨日は寒くだったでしょう？",
-        "昨日は寒くてでしょう？"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2232,10 +2232,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "လေသံမြင့်၍ ပြောလျှင် အခြားသူထံမှ ထောက်ခံချက်တောင်းခြင်း (...မဟုတ်လား) ဖြစ်ပြီး၊ လေသံနှိမ့်၍ ပြောလျှင် ယဉ်ကျေးသော ခန့်မှန်းချက် (...ဖြစ်လောက်မည်) ဖြစ်သည်။ နာမ်နှင့် な-adjective တွင် 「だ」 မပါဘဲ တွဲရသည် (e.g. 暇でしょう).",
       "choicesMy": [
-        "だろう",
-        "でした",
-        "でしょ",
-        "である"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2265,10 +2265,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ပြောဆိုခဲ့သောစကားများကို တိုက်ရိုက် သို့မဟုတ် သွယ်ဝိုက်၍ ပြန်လည်ဖော်ပြရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + と言いました」 (...ဟု ပြောခဲ့သည်) သုံးသည်။",
       "choicesMy": [
-        "と",
-        "が",
-        "を",
-        "へ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2298,10 +2298,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "လေသံမြင့်၍ ပြောလျှင် အခြားသူထံမှ ထောက်ခံချက်တောင်းခြင်း (...မဟုတ်လား) ဖြစ်ပြီး၊ လေသံနှိမ့်၍ ပြောလျှင် ယဉ်ကျေးသော ခန့်မှန်းချက် (...ဖြစ်လောက်မည်) ဖြစ်သည်။ နာမ်နှင့် な-adjective တွင် 「だ」 မပါဘဲ တွဲရသည် (e.g. 暇でしょう).",
       "choicesMy": [
-        "だ after a noun",
-        "Plain dictionary verb",
-        "い-adjective dictionary form",
-        "Past plain verb"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2331,10 +2331,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Mr. Kimura of ABC Trading」 ဖြစ်ပါသည်။ (The memo states: ABC商事の木村様からお電話がありました.)",
       "choicesMy": [
-        "Yamada",
-        "Mr. Kimura of ABC Trading",
-        "Tanaka",
-        "The president"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2364,10 +2364,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Urgent business came up」 ဖြစ်ပါသည်။ (The text notes: 木村様は急な用事が入ったため.)",
       "choicesMy": [
-        "He missed the train",
-        "Urgent business came up",
-        "He had a fever",
-        "He lost the documents"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2397,10 +2397,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「4:30 PM」 ဖြစ်ပါသည်။ (The memo specifies: 新しい会議の時間は四時半からになりました.)",
       "choicesMy": [
-        "3:00 PM",
-        "4:00 PM",
-        "4:30 PM",
-        "5:00 PM"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2430,10 +2430,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「No, it is the same in Conference Room 2」 ဖြစ်ပါသည်။ (The memo says: 場所は第二会議室で同じです (the location is the same in Conference Room 2).)",
       "choicesMy": [
-        "Yes, changed to Room 1",
-        "No, it is the same in Conference Room 2",
-        "Changed to an outside cafe",
-        "Canceled"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2463,10 +2463,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Send a confirmation email」 ဖြစ်ပါသည်။ (The text says: 木村様は「後で確認のメールを送ります」と言っていました.)",
       "choicesMy": [
-        "Send a confirmation email",
-        "Call again",
-        "Visit the office in person",
-        "Cancel the contract"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2496,10 +2496,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「8:00 AM」 ဖြစ်ပါသည်။ (Sato reports: 部長は「明日は朝八時に学校のグラウンドに集合してください」と言いました.)",
       "choicesMy": [
-        "7:00 AM",
-        "8:00 AM",
-        "9:00 AM",
-        "10:00 AM"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2529,10 +2529,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「At the school sports ground」 ဖြစ်ပါသည်။ (The transcript specifies: 学校のグラウンド (school sports ground).)",
       "choicesMy": [
-        "In front of the station",
-        "At the school sports ground",
-        "In the gym",
-        "At the cafe"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2562,10 +2562,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Sunny and probably hot」 ဖြစ်ပါသည်။ (Sato says: 晴れるでしょう。暑くなると思いますよ.)",
       "choicesMy": [
-        "Rainy and cold",
-        "Sunny and probably hot",
-        "Snowy",
-        "Stormy"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2595,10 +2595,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Soccer」 ဖြစ်ပါသည်။ (Yamada asks: 明日のサッカーの試合について.)",
       "choicesMy": [
-        "Baseball",
+        "ရွေးချယ်စရာ (1)",
         "တင်းနစ်",
-        "Soccer",
-        "Basketball"
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2628,10 +2628,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「We will definitely win!」 ဖြစ်ပါသည်။ (Yamada says: 明日の試合は絶対に勝つでしょう！)",
       "choicesMy": [
-        "We will definitely win!",
-        "We will probably lose",
-        "Winning does not matter",
-        "The match is postponed"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

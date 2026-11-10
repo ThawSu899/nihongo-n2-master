@@ -943,7 +943,7 @@
           "reading": "たいじゅう",
           "meaning": "Body weight",
           "preview": true,
-          "meaningMyanmar": "Body weight",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Body weight",
           "meaningMy": "Body weight"
         }
       ],
@@ -995,7 +995,7 @@
           "reading": "ずつう",
           "meaning": "Headache",
           "preview": true,
-          "meaningMyanmar": "Headache",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Headache",
           "meaningMy": "Headache"
         }
       ],
@@ -1045,7 +1045,7 @@
           "reading": "やっきょく",
           "meaning": "Pharmacy",
           "preview": true,
-          "meaningMyanmar": "Pharmacy",
+          "meaningMyanmar": "ဆေးဆိုင်",
           "meaningMy": "Pharmacy"
         }
       ],
@@ -1096,7 +1096,7 @@
           "reading": "きゅうじつ",
           "meaning": "Holiday",
           "preview": true,
-          "meaningMyanmar": "Holiday",
+          "meaningMyanmar": "အားလပ်ရက်",
           "meaningMy": "Holiday"
         }
       ],
@@ -1551,7 +1551,7 @@
     },
     "titleMy": "先輩からの助言メール (Advice Email from a Senior Student) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "先輩からの助言メール (Advice Email from a Senior Student) (ဖတ်ရှုခြင်း)",
-    "translationMy": "To Lee:\nI heard that you took off from class today. I understand you have had a high fever since yesterday and your head and stomach hurt too. I understand you feel anxious because the exams are near, but right now taking care of your body is most important, more than studying. You had better not overstrain yourself to come to school. First, you had better go to a nearby internal medicine clinic and have a doctor examine you. Then, take the prescribed medicine properly, eat warm rice porridge, and get into bed early to sleep. You had better drink plenty of fluids. I will take class notes for you, so please do not worry about the exam. Please take good care of yourself.\nFrom Senior Ken"
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l28.l01",
@@ -1574,7 +1574,7 @@
         "ja": "ケンさん、さっきから咳が出て顔色が良くないですよ。大丈夫ですか。",
         "kana": "けんさん、さっきからせきがでてかおいろがよくないですよ。だいじょうぶですか。",
         "en": "Ken, you have been coughing and looking pale for a while now. Are you okay?",
-        "my": "Ken, you have been coughing and looking pale for a while now. Are you okay?",
+        "my": "佐藤: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Ken, you have been coughing and looking pale for a while now. Are you okay?",
         "myanmar": "Ken, you have been coughing and looking pale for a while now. Are you okay?"
       },
@@ -1583,7 +1583,7 @@
         "ja": "実は昨日から熱があって、頭も痛いんです。",
         "kana": "じつはきのうからねつがあって、あたまもいたいんです。",
         "en": "Actually, I've had a fever since yesterday and my head hurts too.",
-        "my": "Actually, I've had a fever since yesterday and my head hurts too.",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Actually, I've had a fever since yesterday and my head hurts too.",
         "myanmar": "Actually, I've had a fever since yesterday and my head hurts too."
       },
@@ -1592,7 +1592,7 @@
         "ja": "それは大変ですね！無理をして仕事を続けないほうがいいですよ。午後は早退して、病院へ行ったほうがいいと思います。",
         "kana": "それはたいへんですね！むりをしてしごとをつづけないほうがいいですよ。ごごはそうたいして、びょういんへいったほうがいいとおもいます。",
         "en": "That's terrible! You had better not push yourself to keep working. I think you should leave early this afternoon and go to a hospital.",
-        "my": "That's terrible! You had better not push yourself to keep working. I think you should leave early this afternoon and go to a hospital.",
+        "my": "佐藤: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "That's terrible! You had better not push yourself to keep working. I think you should leave early this afternoon and go to a hospital.",
         "myanmar": "That's terrible! You had better not push yourself to keep working. I think you should leave early this afternoon and go to a hospital."
       },
@@ -1601,7 +1601,7 @@
         "ja": "でも、今日の会議の資料がまだ終わっていないんです。",
         "kana": "でも、きょうのかいぎのしりょうがまだおわっていないんです。",
         "en": "But I haven't finished the materials for today's meeting yet.",
-        "my": "But I haven't finished the materials for today's meeting yet.",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "But I haven't finished the materials for today's meeting yet.",
         "myanmar": "But I haven't finished the materials for today's meeting yet."
       },
@@ -1610,7 +1610,7 @@
         "ja": "資料の作成は私が手伝いますから、心配しないでください。早く帰って休んだほうがいいですよ。",
         "kana": "しりょうのさくせいはわたしがてつだいますから、しんぱいしないでください。はやくかえってやすんだほうがいいですよ。",
         "en": "I will help with creating the materials, so please don't worry. You had better go home early and rest.",
-        "my": "I will help with creating the materials, so please don't worry. You had better go home early and rest.",
+        "my": "佐藤: အခြေခံစကားပြော လေ့ကျင့်ခန်း (5)",
         "translationMy": "I will help with creating the materials, so please don't worry. You had better go home early and rest.",
         "myanmar": "I will help with creating the materials, so please don't worry. You had better go home early and rest."
       },
@@ -1619,7 +1619,7 @@
         "ja": "佐藤さん、本当にありがとうございます。お言葉に甘えて、病院へ行くことにします。",
         "kana": "さとうさん、ほんとうにありがとうございます。おことばにあまえて、びょういんへいくことにします。",
         "en": "Sato, thank you so very much. Taking you up on your kindness, I will go to the hospital.",
-        "my": "Sato, thank you so very much. Taking you up on your kindness, I will go to the hospital.",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (6)",
         "translationMy": "Sato, thank you so very much. Taking you up on your kindness, I will go to the hospital.",
         "myanmar": "Sato, thank you so very much. Taking you up on your kindness, I will go to the hospital."
       }
@@ -1641,7 +1641,7 @@
     },
     "titleMy": "職場でのお見舞い (Caring for a Colleague at Work) (နားထောင်ခြင်း)",
     "titleMyanmar": "職場でのお見舞い (Caring for a Colleague at Work) (နားထောင်ခြင်း)",
-    "translationMy": "Sato: Ken, you have been coughing and looking pale for a while now. Are you okay?\nKen: Actually, I've had a fever since yesterday and my head hurts too.\nSato: That's terrible! You had better not push yourself to keep working. I think you should leave early this afternoon and go to a hospital.\nKen: But I haven't finished the materials for today's meeting yet.\nSato: I will help with creating the materials, so please don't worry. You had better go home early and rest.\nKen: Sato, thank you so very much. Taking you up on your kindness, I will go to the hospital."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -1670,10 +1670,10 @@
       "questionMy": "「熱」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「Fever / Temperature」 ဖြစ်ပါသည်။ (「熱」(ねつ) means fever or temperature.)",
       "choicesMy": [
-        "Cough",
-        "Fever / Temperature",
-        "Headache",
-        "Stomach ache"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1704,9 +1704,9 @@
       "explanationMy": "အဖြေမှန်မှာ 「Stomach / Belly」 ဖြစ်ပါသည်။ (「お腹」(おなか) means stomach or belly.)",
       "choicesMy": [
         "ဦးခေါင်း",
-        "Leg",
+        "ရွေးချယ်စရာ (2)",
         "ဗိုက်",
-        "Throat"
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1736,10 +1736,10 @@
       "questionMy": "「無理をする」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「To overstrain / overwork oneself」 ဖြစ်ပါသည်။ (「無理をする」(むりをする) means to push oneself beyond healthy limits.)",
       "choicesMy": [
-        "To rest at home",
-        "To overstrain / overwork oneself",
-        "To drink water",
-        "To exercise moderately"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1769,10 +1769,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「お大事に」 ဖြစ်ပါသည်။ (「お大事に」(おだいじに) is said to someone who is ill or injured.)",
       "choicesMy": [
-        "お大事に",
-        "いってらっしゃい",
-        "いただきます",
-        "ごちそうさま"
+        "ဂရုစိုက်ပါ / ကျန်းမာပါစေ",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1802,9 +1802,9 @@
       "questionMy": "「風邪をひく」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「To catch a cold」 ဖြစ်ပါသည်။ (「風邪をひく」 means to catch a cold.)",
       "choicesMy": [
-        "To blow wind",
-        "To catch a cold",
-        "To take medicine",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "အနားယူသည် / အနားပေးသည်"
       ],
       "correctIndex": 0
@@ -1835,10 +1835,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「薬 (くすり)」 ဖြစ်ပါသည်။ (「薬」(くすり) means medicine.)",
       "choicesMy": [
-        "お茶",
-        "水",
-        "薬 (くすり)",
-        "ご飯"
+        "လက်ဖက်ရည် / ရေနွေးကြမ်း",
+        "ရေ",
+        "ရွေးချယ်စရာ (3)",
+        "ထမင်း"
       ],
       "correctIndex": 0
     },
@@ -1868,10 +1868,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「体」၏ အဓိပ္ပာယ်မှာ \"ခန္ဓာကိုယ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: からだ)",
       "choicesMy": [
-        "からだ",
-        "タイ",
-        "あたま",
-        "て"
+        "ခန္ဓာကိုယ်",
+        "ရွေးချယ်စရာ (2)",
+        "ခေါင်း",
+        "လက်"
       ],
       "correctIndex": 0
     },
@@ -1901,10 +1901,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「頭」၏ အဓိပ္ပာယ်မှာ \"ဦးခေါင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: 頭)",
       "choicesMy": [
-        "体",
-        "頭",
-        "目",
-        "手"
+        "ခန္ဓာကိုယ်",
+        "ခေါင်း",
+        "မျက်လုံး",
+        "လက်"
       ],
       "correctIndex": 0
     },
@@ -1934,10 +1934,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「休」၏ အဓိပ္ပာယ်မှာ \"အနားယူခြင်း / ပိတ်ရက်\" ဖြစ်ပါသည်။ (အဖြေမှန်: 6)",
       "choicesMy": [
-        "5",
-        "6",
-        "7",
-        "8"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1967,10 +1967,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「薬」၏ အဓိပ္ပာယ်မှာ \"ဆေး / ဆေးဝါး\" ဖြစ်ပါသည်။ (အဖြေမှန်: ヤク)",
       "choicesMy": [
-        "ヤク",
-        "くすり",
-        "ラク",
-        "タイ"
+        "ရွေးချယ်စရာ (1)",
+        "ဆေး",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2000,10 +2000,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "တစ်ဖက်သားအား အကြံဉာဏ်ပေးရာတွင် 「ကြိယာ た-form + ほうがいいです」 (...လုပ်တာ ပိုကောင်းပါတယ်) နှင့် 「ကြိယာ ない-form + ほうがいいです」 (...မလုပ်တာ ပိုကောင်းပါတယ်) ဟု သုံးသည်။",
       "choicesMy": [
-        "病院へ行ったほうがいいです",
-        "病院へ行くほうがいいです",
-        "病院へ行かないほうがいいです",
-        "病院へ行ってほうがいいです"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2033,10 +2033,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "တစ်ဖက်သားအား အကြံဉာဏ်ပေးရာတွင် 「ကြိယာ た-form + ほうがいいです」 (...လုပ်တာ ပိုကောင်းပါတယ်) နှင့် 「ကြိယာ ない-form + ほうがいいです」 (...မလုပ်တာ ပိုကောင်းပါတယ်) ဟု သုံးသည်။",
       "choicesMy": [
-        "冷たい水を飲まないほうがいいです",
-        "冷たい水を飲まなかったほうがいいです",
-        "冷たい水を飲むないほうがいいです",
-        "冷たい水を飲まなくてほうがいいです"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2066,10 +2066,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "「〜ませんか」 သည် တစ်ဖက်သားကို ယဉ်ကျေးစွာ ဖိတ်ခေါ်ခြင်း (...မလုပ်ဘူးလား) ဖြစ်ပြီး၊ 「〜ましょう」 သည် တက်ကြွစွာ တိုက်တွန်းခြင်း သို့မဟုတ် ဖိတ်ခေါ်မှုကို လက်ခံခြင်း (...လုပ်ကြစို့) ဖြစ်သည်။",
       "choicesMy": [
-        "一緒にコーヒーを飲みませんか",
-        "一緒にコーヒーを飲みましょう",
-        "一緒にコーヒーを飲んだほうがいいです",
-        "一緒にコーヒーを飲むな"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2099,10 +2099,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "「〜ませんか」 သည် တစ်ဖက်သားကို ယဉ်ကျေးစွာ ဖိတ်ခေါ်ခြင်း (...မလုပ်ဘူးလား) ဖြစ်ပြီး၊ 「〜ましょう」 သည် တက်ကြွစွာ တိုက်တွန်းခြင်း သို့မဟုတ် ဖိတ်ခေါ်မှုကို လက်ခံခြင်း (...လုပ်ကြစို့) ဖြစ်သည်။",
       "choicesMy": [
-        "ええ、行きましょう！",
-        "ええ、行きませんか！",
-        "ええ、行ったほうがいいです！",
-        "ええ、行くでしょう！"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2132,10 +2132,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "တစ်ဖက်သားအား အကြံဉာဏ်ပေးရာတွင် 「ကြိယာ た-form + ほうがいいです」 (...လုပ်တာ ပိုကောင်းပါတယ်) နှင့် 「ကြိယာ ない-form + ほうがいいです」 (...မလုပ်တာ ပိုကောင်းပါတယ်) ဟု သုံးသည်။",
       "choicesMy": [
-        "寝た",
-        "寝る",
-        "寝て",
-        "寝ない"
+        "ရွေးချယ်စရာ (1)",
+        "အိပ်သည်",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2165,10 +2165,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "တစ်ဖက်သားအား အကြံဉာဏ်ပေးရာတွင် 「ကြိယာ た-form + ほうがいいです」 (...လုပ်တာ ပိုကောင်းပါတယ်) နှင့် 「ကြိယာ ない-form + ほうがいいです」 (...မလုပ်တာ ပိုကောင်းပါတယ်) ဟု သုံးသည်။",
       "choicesMy": [
-        "吸わない",
-        "吸った",
-        "吸わないで",
-        "吸わなかった"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2198,10 +2198,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "တစ်ဖက်သားအား အကြံဉာဏ်ပေးရာတွင် 「ကြိယာ た-form + ほうがいいです」 (...လုပ်တာ ပိုကောင်းပါတယ်) နှင့် 「ကြိယာ ない-form + ほうがいいです」 (...မလုပ်တာ ပိုကောင်းပါတယ်) ဟု သုံးသည်။",
       "choicesMy": [
-        "It presents the advice as an established, chosen course of action",
-        "It happened in the past",
-        "It is an order",
-        "It is required by polite nouns"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2231,10 +2231,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "「〜ませんか」 သည် တစ်ဖက်သားကို ယဉ်ကျေးစွာ ဖိတ်ခေါ်ခြင်း (...မလုပ်ဘူးလား) ဖြစ်ပြီး၊ 「〜ましょう」 သည် တက်ကြွစွာ တိုက်တွန်းခြင်း သို့မဟုတ် ဖိတ်ခေါ်မှုကို လက်ခံခြင်း (...လုပ်ကြစို့) ဖြစ်သည်။",
       "choicesMy": [
-        "休み",
-        "休んで",
-        "休んだ",
-        "休む"
+        "နားရက် / ပိတ်ရက်",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "အနားယူသည်"
       ],
       "correctIndex": 0
     },
@@ -2264,10 +2264,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "တစ်ဖက်သားအား အကြံဉာဏ်ပေးရာတွင် 「ကြိယာ た-form + ほうがいいです」 (...လုပ်တာ ပိုကောင်းပါတယ်) နှင့် 「ကြိယာ ない-form + ほうがいいです」 (...မလုပ်တာ ပိုကောင်းပါတယ်) ဟု သုံးသည်။",
       "choicesMy": [
-        "薬を飲んだほうがいいです",
-        "薬を飲むほうがいいです",
-        "薬を飲んでほうがいいです",
-        "薬を飲まないほうがいいです"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2297,10 +2297,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "「〜ませんか」 သည် တစ်ဖက်သားကို ယဉ်ကျေးစွာ ဖိတ်ခေါ်ခြင်း (...မလုပ်ဘူးလား) ဖြစ်ပြီး၊ 「〜ましょう」 သည် တက်ကြွစွာ တိုက်တွန်းခြင်း သို့မဟုတ် ဖိတ်ခေါ်မှုကို လက်ခံခြင်း (...လုပ်ကြစို့) ဖြစ်သည်။",
       "choicesMy": [
-        "と (e.g. 友達と一緒に)",
-        "を",
-        "で",
-        "に"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "နှစ်"
       ],
       "correctIndex": 0
     },
@@ -2330,10 +2330,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「He had a high fever and headache/stomachache」 ဖြစ်ပါသည်။ (Ken notes: 昨日から高い熱が出て、頭やお腹も痛いそうですね.)",
       "choicesMy": [
-        "He woke up late",
-        "He had a high fever and headache/stomachache",
-        "He traveled to Kyoto",
-        "He had a job interview"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2363,10 +2363,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Curing his body / recovering health」 ဖြစ်ပါသည်။ (Ken writes: 今は勉強より体を治すことが一番大切です (recovering health is most important).)",
       "choicesMy": [
-        "Studying for the exam",
-        "Curing his body / recovering health",
-        "Doing homework",
-        "Taking exams early"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2396,10 +2396,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Go to a nearby internal medicine clinic and see a doctor」 ဖြစ်ပါသည်။ (Ken advises: 近くの内科のクリニックへ行って、お医者さんに診てもらったほうがいいです.)",
       "choicesMy": [
-        "Buy medicine online",
-        "Go to a nearby internal medicine clinic and see a doctor",
-        "Wait for three days",
-        "Go for a run"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2429,9 +2429,9 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Warm rice porridge (おかゆ)」 ဖြစ်ပါသည်။ (Ken suggests: 温かいおかゆを食べて (eat warm porridge).)",
       "choicesMy": [
-        "Spicy ramen",
-        "Warm rice porridge (おかゆ)",
-        "Pizza",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "ဆာရှီမီ (ငါးစိမ်းလွှာ)"
       ],
       "correctIndex": 0
@@ -2462,10 +2462,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Take class notes for him」 ဖြစ်ပါသည်။ (Ken promises: 授業のノートは私が取っておきますから (I will take class notes for you).)",
       "choicesMy": [
-        "Take the test for him",
-        "Take class notes for him",
-        "Call the teacher to cancel school",
-        "Give him money"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2495,10 +2495,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Coughing, fever since yesterday, headache」 ဖြစ်ပါသည်။ (Sato notices coughing and Ken mentions: 昨日から熱があって、頭も痛いんです.)",
       "choicesMy": [
-        "Coughing, fever since yesterday, headache",
-        "Broken leg",
-        "Toothache",
-        "Back pain"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2528,10 +2528,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Leave early and go to a hospital」 ဖြစ်ပါသည်။ (Sato says: 午後は早退して、病院へ行ったほうがいいと思います.)",
       "choicesMy": [
-        "Work overtime",
-        "Leave early and go to a hospital",
-        "Attend all meetings",
-        "Drink coffee"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2561,10 +2561,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「The materials for today's meeting were not finished yet」 ဖြစ်ပါသည်။ (Ken says: 今日の会議の資料がまだ終わっていないんです.)",
       "choicesMy": [
-        "He didn't want to lose money",
-        "The materials for today's meeting were not finished yet",
-        "His boss was angry",
-        "He had no umbrella"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2594,10 +2594,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Sato will help create the materials」 ဖြစ်ပါသည်။ (Sato offers: 資料の作成は私が手伝いますから、心配しないでください.)",
       "choicesMy": [
-        "Sato will cancel the meeting",
-        "Sato will help create the materials",
-        "Sato will report him",
-        "Sato will leave too"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2627,10 +2627,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Accept Sato's offer and go to the hospital」 ဖြစ်ပါသည်။ (Ken concludes: お言葉に甘えて、病院へ行くことにします (Taking you up on your kindness, I will go to the hospital).)",
       "choicesMy": [
-        "Keep working all night",
-        "Accept Sato's offer and go to the hospital",
-        "Go to a karaoke box",
-        "Refuse Sato's help"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

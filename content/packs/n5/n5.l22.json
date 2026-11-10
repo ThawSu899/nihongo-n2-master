@@ -948,7 +948,7 @@
           "reading": "ゆうじん",
           "meaning": "Friend (formal)",
           "preview": true,
-          "meaningMyanmar": "Friend (formal)",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Friend (formal)",
           "meaningMy": "Friend (formal)"
         }
       ],
@@ -999,7 +999,7 @@
           "reading": "でんわ",
           "meaning": "Telephone",
           "preview": true,
-          "meaningMyanmar": "Telephone",
+          "meaningMyanmar": "တယ်လီဖုန်း",
           "meaningMy": "Telephone"
         }
       ],
@@ -1100,7 +1100,7 @@
           "reading": "どくしょ",
           "meaning": "Reading books",
           "preview": true,
-          "meaningMyanmar": "Reading books",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Reading books",
           "meaningMy": "Reading books"
         }
       ],
@@ -1553,7 +1553,7 @@
     },
     "titleMy": "土曜日の日記 (Saturday Diary in Plain Form) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "土曜日の日記 (Saturday Diary in Plain Form) (ဖတ်ရှုခြင်း)",
-    "translationMy": "Today is Saturday. I woke up at 9:00 AM and ate breakfast. Because the weather was very nice, I went to Shibuya with my friend Ken. While drinking coffee at a cafe in front of the station, we talked about many things, including Japanese studies and future dreams. After that, we went to a bookstore and bought interesting manga. In the evening, I made curry at home and ate it. It was delicious. Tomorrow is also a day off, so I plan to rest comfortably."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l22.l01",
@@ -1576,7 +1576,7 @@
         "ja": "マヤ、今週末何か予定ある？",
         "kana": "まや、こんしゅうまつなにかよていある？",
         "en": "Maya, do you have any plans this weekend?",
-        "my": "Maya, do you have any plans this weekend?",
+        "my": "ユウト: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Maya, do you have any plans this weekend?",
         "myanmar": "Maya, do you have any plans this weekend?"
       },
@@ -1585,7 +1585,7 @@
         "ja": "ううん、特にないよ。暇。",
         "kana": "ううん、とくにないよ。ひま。",
         "en": "Nah, nothing in particular. I'm free.",
-        "my": "Nah, nothing in particular. I'm free.",
+        "my": "マヤ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Nah, nothing in particular. I'm free.",
         "myanmar": "Nah, nothing in particular. I'm free."
       },
@@ -1594,7 +1594,7 @@
         "ja": "じゃあ、一緒に新宿で新しいアニメの映画見ない？",
         "kana": "じゃあ、いっしょにしんじゅくであたらしいあにめのえいがみない？",
         "en": "Well then, won't you watch the new anime movie together in Shinjuku?",
-        "my": "Well then, won't you watch the new anime movie together in Shinjuku?",
+        "my": "ユウト: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "Well then, won't you watch the new anime movie together in Shinjuku?",
         "myanmar": "Well then, won't you watch the new anime movie together in Shinjuku?"
       },
@@ -1603,7 +1603,7 @@
         "ja": "うん、見たい！何時から？",
         "kana": "うん、みたい！なんじから？",
         "en": "Yeah, I want to watch it! From what time?",
-        "my": "Yeah, I want to watch it! From what time?",
+        "my": "マヤ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "Yeah, I want to watch it! From what time?",
         "myanmar": "Yeah, I want to watch it! From what time?"
       },
@@ -1612,7 +1612,7 @@
         "ja": "午後の二時から。映画の後でおいしいラーメンでも食べよう。",
         "kana": "ごごのにじから。えいがのあとでおいしいらーめんでもたべよう。",
         "en": "From 2:00 PM. After the movie, let's eat something like delicious ramen.",
-        "my": "From 2:00 PM. After the movie, let's eat something like delicious ramen.",
+        "my": "ユウト: အခြေခံစကားပြော လေ့ကျင့်ခန်း (5)",
         "translationMy": "From 2:00 PM. After the movie, let's eat something like delicious ramen.",
         "myanmar": "From 2:00 PM. After the movie, let's eat something like delicious ramen."
       },
@@ -1621,7 +1621,7 @@
         "ja": "いいね、楽しみ！",
         "kana": "いいね、たのしみ！",
         "en": "Sounds great, looking forward to it!",
-        "my": "Sounds great, looking forward to it!",
+        "my": "マヤ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (6)",
         "translationMy": "Sounds great, looking forward to it!",
         "myanmar": "Sounds great, looking forward to it!"
       }
@@ -1643,7 +1643,7 @@
     },
     "titleMy": "今週末の映画 (Weekend Movie Chat) (နားထောင်ခြင်း)",
     "titleMyanmar": "今週末の映画 (Weekend Movie Chat) (နားထောင်ခြင်း)",
-    "translationMy": "Yuto: Maya, do you have any plans this weekend?\nMaya: Nah, nothing in particular. I'm free.\nYuto: Well then, won't you watch the new anime movie together in Shinjuku?\nMaya: Yeah, I want to watch it! From what time?\nYuto: From 2:00 PM. After the movie, let's eat something like delicious ramen.\nMaya: Sounds great, looking forward to it!"
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -1675,7 +1675,7 @@
         "ဆရာ / ဆရာမ",
         "သူငယ်ချင်း",
         "လုပ်ဖော်ကိုင်ဖက်",
-        "Family"
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1705,10 +1705,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「話す」 ဖြစ်ပါသည်။ (The plain dictionary form of 話します is 話す.)",
       "choicesMy": [
-        "話す",
-        "話した",
-        "話さない",
-        "話して"
+        "စကားပြောသည်",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1739,8 +1739,8 @@
       "explanationMy": "အဖြေမှန်မှာ 「Yeah / Yes」 ဖြစ်ပါသည်။ (「うん」 is the casual affirmative equivalent of はい.)",
       "choicesMy": [
         "ဟင့်အင်း (ရင်းနှီးစကား)",
-        "Yeah / Yes",
-        "Maybe",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "ခွင့်လွှတ်ပါ / တောင်းပန်ပါတယ်"
       ],
       "correctIndex": 0
@@ -1771,10 +1771,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「ううん」 ဖြစ်ပါသည်။ (「ううん」 is casual for no (negative response).)",
       "choicesMy": [
-        "うん",
-        "ううん",
-        "いいえ",
-        "だめ"
+        "အင်း / ဟုတ်တယ် (ရင်းနှီးစကား)",
+        "ဟင့်အင်း (ရင်းနှီးစကား)",
+        "မဟုတ်ပါ/မရှိပါ",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1804,10 +1804,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「くる」 ဖြစ်ပါသည်။ (「来ます」(きます) is an irregular Group 3 verb with dictionary form くる (来る).)",
       "choicesMy": [
-        "くる",
-        "こる",
-        "きます",
-        "きない"
+        "လာသည်",
+        "ရွေးချယ်စရာ (2)",
+        "လာသည် (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1837,10 +1837,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「する」 ဖြစ်ပါသည်။ (The dictionary form of します is する.)",
       "choicesMy": [
-        "する",
-        "さる",
-        "すない",
-        "した"
+        "လုပ်သည်",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "အောက်"
       ],
       "correctIndex": 0
     },
@@ -1870,10 +1870,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「友」၏ အဓိပ္ပာယ်မှာ \"သူငယ်ချင်း / မိတ်ဆွေ\" ဖြစ်ပါသည်။ (အဖြေမှန်: とも)",
       "choicesMy": [
-        "とも",
-        "ユウ",
-        "どち",
-        "たつ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "မတ်တပ်ရပ်သည်"
       ],
       "correctIndex": 0
     },
@@ -1903,10 +1903,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「聞」၏ အဓိပ္ပာယ်မှာ \"နားထောင်ခြင်း / ကြားခြင်း / မေးမြန်းခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: 聞)",
       "choicesMy": [
-        "話",
-        "聞",
-        "読",
-        "書"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1936,10 +1936,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「話」၏ အဓိပ္ပာယ်မှာ \"စကားပြောခြင်း / ပုံပြင်\" ဖြစ်ပါသည်။ (အဖြေမှန်: ワ)",
       "choicesMy": [
-        "ワ",
-        "はなし",
-        "デン",
-        "カイ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1969,10 +1969,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「読」၏ အဓိပ္ပာယ်မှာ \"ဖတ်ရှုခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: 14)",
       "choicesMy": [
-        "12",
-        "13",
-        "14",
-        "15"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2002,10 +2002,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ရင်းနှီးသော သူငယ်ချင်းများ၊ မိသားစုဝင်များနှင့် စကားပြောရာတွင် သုံးသော ရိုးရိုးပုံစံ (普通形) ဖြစ်သည်။ အမေးတွင် 「か」 ကို မသုံးဘဲ လေသံမြင့်၍ မေးလေ့ရှိသည်။",
       "choicesMy": [
-        "食べない",
-        "食べなかった",
-        "食べる",
-        "食べず"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "စားသည်",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2035,10 +2035,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ရင်းနှီးသော သူငယ်ချင်းများ၊ မိသားစုဝင်များနှင့် စကားပြောရာတွင် သုံးသော ရိုးရိုးပုံစံ (普通形) ဖြစ်သည်။ အမေးတွင် 「か」 ကို မသုံးဘဲ လေသံမြင့်၍ မေးလေ့ရှိသည်။",
       "choicesMy": [
-        "行かない",
-        "行けない",
-        "行くない",
-        "行かなかった"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2068,10 +2068,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အတိတ်ကာလ လုပ်ဆောင်ချက်များနှင့် အခြေအနေများကို ရင်းနှီးသောစကားဖြင့် ဖော်ပြရာတွင် 「た-form / なかった-form」 စသည်ဖြင့် သုံးသည်။",
       "choicesMy": [
-        "見た",
-        "見った",
-        "見だ",
-        "見て"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2101,10 +2101,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ရင်းနှီးသော သူငယ်ချင်းများ၊ မိသားစုဝင်များနှင့် စကားပြောရာတွင် သုံးသော ရိုးရိုးပုံစံ (普通形) ဖြစ်သည်။ အမေးတွင် 「か」 ကို မသုံးဘဲ လေသံမြင့်၍ မေးလေ့ရှိသည်။",
       "choicesMy": [
-        "暇だ",
-        "暇である",
-        "暇な",
-        "暇ですだ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2134,10 +2134,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အတိတ်ကာလ လုပ်ဆောင်ချက်များနှင့် အခြေအနေများကို ရင်းနှီးသောစကားဖြင့် ဖော်ပြရာတွင် 「た-form / なかった-form」 စသည်ဖြင့် သုံးသည်။",
       "choicesMy": [
-        "雨だった",
-        "雨でした",
-        "雨だ",
-        "雨じゃない"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2167,10 +2167,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အတိတ်ကာလ လုပ်ဆောင်ချက်များနှင့် အခြေအနေများကို ရင်းနှီးသောစကားဖြင့် ဖော်ပြရာတွင် 「た-form / なかった-form」 စသည်ဖြင့် သုံးသည်။",
       "choicesMy": [
-        "飲まなかった",
-        "飲まない",
-        "飲んだ",
-        "飲まなかったです"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2200,10 +2200,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ရင်းနှီးသော သူငယ်ချင်းများ၊ မိသားစုဝင်များနှင့် စကားပြောရာတွင် သုံးသော ရိုးရိုးပုံစံ (普通形) ဖြစ်သည်။ အမေးတွင် 「か」 ကို မသုံးဘဲ လေသံမြင့်၍ မေးလေ့ရှိသည်။",
       "choicesMy": [
-        "Drop か and use rising intonation (e.g. どこ行く？)",
-        "Always end with ですか",
-        "Add ます at the end",
-        "Use ではありませんか"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2233,10 +2233,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အတိတ်ကာလ လုပ်ဆောင်ချက်များနှင့် အခြေအနေများကို ရင်းနှီးသောစကားဖြင့် ဖော်ပြရာတွင် 「た-form / なかった-form」 စသည်ဖြင့် သုံးသည်။",
       "choicesMy": [
-        "高かった",
-        "高いだった",
-        "高くだった",
-        "高くて"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2266,10 +2266,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ရင်းနှီးသော သူငယ်ချင်းများ၊ မိသားစုဝင်များနှင့် စကားပြောရာတွင် သုံးသော ရိုးရိုးပုံစံ (普通形) ဖြစ်သည်။ အမေးတွင် 「か」 ကို မသုံးဘဲ လေသံမြင့်၍ မေးလေ့ရှိသည်။",
       "choicesMy": [
-        "よくない",
-        "いくない",
-        "いいじゃない",
-        "よくなかった"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2299,10 +2299,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ရင်းနှီးသော သူငယ်ချင်းများ၊ မိသားစုဝင်များနှင့် စကားပြောရာတွင် သုံးသော ရိုးရိုးပုံစံ (普通形) ဖြစ်သည်။ အမေးတွင် 「か」 ကို မသုံးဘဲ လေသံမြင့်၍ မေးလေ့ရှိသည်။",
       "choicesMy": [
-        "Teachers and bosses",
-        "Classmates",
-        "Younger siblings",
-        "Close friends"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2332,10 +2332,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Saturday」 ဖြစ်ပါသည်။ (The text begins: 今日は土曜日だ (Today is Saturday).)",
       "choicesMy": [
-        "Sunday",
-        "Saturday",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
         "တနင်္လာနေ့",
-        "Friday"
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2365,10 +2365,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Shibuya」 ဖြစ်ပါသည်။ (The author writes: 友達のケンと一緒に渋谷へ行った.)",
       "choicesMy": [
-        "Shinjuku",
-        "Shibuya",
-        "Kyoto",
-        "Yokohama"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2398,10 +2398,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Drank coffee and talked about Japanese studies and future dreams」 ဖြစ်ပါသည်။ (The text notes: コーヒーを飲みながら、日本語の勉強や将来の夢についていろいろ話した.)",
       "choicesMy": [
-        "Drank coffee and talked about Japanese studies and future dreams",
-        "Ate cake and studied math",
-        "Listened to loud music",
-        "Met the school teacher"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2431,10 +2431,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「An interesting manga」 ဖြစ်ပါသည်။ (The author states: 面白い漫画を買った.)",
       "choicesMy": [
-        "A dictionary",
-        "A novel",
-        "An interesting manga",
-        "Postcards"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2464,10 +2464,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Made curry and ate it」 ဖြစ်ပါသည်။ (The passage says: 家でカレーを作って食べた。美味しかった.)",
       "choicesMy": [
-        "Went out for sushi",
-        "Made curry and ate it",
-        "Did laundry all night",
-        "Watched TV till morning"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2497,10 +2497,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「No, she is free」 ဖြစ်ပါသည်။ (Maya answers: 「ううん、特にないよ。暇。」(Nah, nothing in particular. I'm free).)",
       "choicesMy": [
-        "Yes, studying for an exam",
-        "No, she is free",
-        "Yes, going to Kyoto",
-        "Yes, working part-time"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2530,10 +2530,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Watch a new anime movie in Shinjuku」 ဖြစ်ပါသည်။ (Yuto suggests: 一緒に新宿で新しいアニメの映画見ない？)",
       "choicesMy": [
-        "Watch a new anime movie in Shinjuku",
-        "Go shopping in Shibuya",
-        "Climb a mountain",
-        "Eat pizza at school"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2563,10 +2563,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「2:00 PM」 ဖြစ်ပါသည်။ (Yuto says: 午後の二時から (From 2:00 PM).)",
       "choicesMy": [
-        "10:00 AM",
-        "1:00 PM",
-        "2:00 PM",
-        "4:00 PM"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2596,10 +2596,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Eat delicious ramen」 ဖြစ်ပါသည်။ (Yuto says: 映画の後でおいしいラーメンでも食べよう.)",
       "choicesMy": [
-        "Go home immediately",
-        "Eat delicious ramen",
-        "Visit a cafe in Shibuya",
-        "Buy books"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2629,10 +2629,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Casual plain form among peers」 ဖြစ်ပါသည်။ (They use informal plain Japanese (ある？, 暇, 見ない？, うん, いいね).)",
       "choicesMy": [
-        "Formal business honorifics",
-        "Casual plain form among peers",
-        "Humble service speech",
-        "Classroom lecture"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

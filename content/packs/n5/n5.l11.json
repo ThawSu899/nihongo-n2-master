@@ -1045,7 +1045,7 @@
           "reading": "さんにん",
           "meaning": "Three people",
           "preview": true,
-          "meaningMyanmar": "Three people",
+          "meaningMyanmar": "သုံးယောက်",
           "meaningMy": "Three people"
         }
       ],
@@ -1086,7 +1086,7 @@
           "reading": "ひゃくえん",
           "meaning": "100 Yen",
           "preview": false,
-          "meaningMyanmar": "100 Yen",
+          "meaningMyanmar": "အဓိပ္ပာယ်: 100 Yen",
           "meaningMy": "100 Yen"
         },
         {
@@ -1094,7 +1094,7 @@
           "reading": "せんえん",
           "meaning": "1000 Yen",
           "preview": true,
-          "meaningMyanmar": "1000 Yen",
+          "meaningMyanmar": "အဓိပ္ပာယ်: 1000 Yen",
           "meaningMy": "1000 Yen"
         }
       ],
@@ -1541,7 +1541,7 @@
     },
     "titleMy": "Counting and Quantities (つ・人・本) - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "Counting and Quantities (つ・人・本) - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "Today, I went shopping at the supermarket in front of the station. At the fruit section, I bought three big apples and one bag of mandarin oranges. There were six oranges inside the bag. After that, I bought two loaves of bread and one carton of milk. In total it was 1,200 yen. It was cheap. The cashier was very kind."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l11.l01",
@@ -1564,7 +1564,7 @@
         "ja": "すみません、このはがきをアメリカへ送りたいです。いくらですか。",
         "kana": "すみません、このはがきをあめりかへおくりたいです。いくらですか。",
         "en": "Excuse me, I would like to send this postcard to America. How much is it?",
-        "my": "Excuse me, I would like to send this postcard to America. How much is it?",
+        "my": "客: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Excuse me, I would like to send this postcard to America. How much is it?",
         "myanmar": "Excuse me, I would like to send this postcard to America. How much is it?"
       },
@@ -1573,7 +1573,7 @@
         "ja": "エアメールですね。百円切手を二枚貼ってください。二百円です。",
         "kana": "えあめーるですね。ひゃくえんきってをにまいはってください。にひゃくえんです。",
         "en": "Airmail, right? Please attach two 100-yen stamps. That will be 200 yen.",
-        "my": "Airmail, right? Please attach two 100-yen stamps. That will be 200 yen.",
+        "my": "局員: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Airmail, right? Please attach two 100-yen stamps. That will be 200 yen.",
         "myanmar": "Airmail, right? Please attach two 100-yen stamps. That will be 200 yen."
       },
@@ -1582,7 +1582,7 @@
         "ja": "アメリカまでどのくらいかかりますか。",
         "kana": "あめりかまでどのくらいかかりますか。",
         "en": "About how long does it take to reach America?",
-        "my": "About how long does it take to reach America?",
+        "my": "客: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "About how long does it take to reach America?",
         "myanmar": "About how long does it take to reach America?"
       },
@@ -1591,7 +1591,7 @@
         "ja": "だいたい一週間から十日くらいかかりますよ。",
         "kana": "だいたいいっしゅうかんからとおかくらいかかりますよ。",
         "en": "It takes about one week to ten days.",
-        "my": "It takes about one week to ten days.",
+        "my": "局員: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "It takes about one week to ten days.",
         "myanmar": "It takes about one week to ten days."
       }
@@ -1613,7 +1613,7 @@
     },
     "titleMy": "Counting and Quantities (つ・人・本) - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "Counting and Quantities (つ・人・本) - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "A customer buys postcard stamps and inquires about airmail delivery times."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -2044,9 +2044,9 @@
       "questionMy": "「一」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「一」၏ အဓိပ္ပာယ်မှာ \"တစ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: One)",
       "choicesMy": [
-        "One",
-        "Two",
-        "Three",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2077,9 +2077,9 @@
       "questionMy": "「一」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「一」၏ အဓိပ္ပာယ်မှာ \"တစ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: ひと)",
       "choicesMy": [
-        "ひと",
-        "みず",
-        "ほん",
+        "လူ",
+        "ရေ",
+        "စာအုပ်",
         "နောက်တစ်ပတ်"
       ],
       "correctIndex": 0
@@ -2110,9 +2110,9 @@
       "questionMy": "「二」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「二」၏ အဓိပ္ပာယ်မှာ \"နှစ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: Two)",
       "choicesMy": [
-        "Two",
-        "One",
-        "Three",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2143,10 +2143,10 @@
       "questionMy": "「二」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「二」၏ အဓိပ္ပာယ်မှာ \"နှစ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: ふた)",
       "choicesMy": [
-        "ふた",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2176,9 +2176,9 @@
       "questionMy": "「三」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「三」၏ အဓိပ္ပာယ်မှာ \"သုံး\" ဖြစ်ပါသည်။ (အဖြေမှန်: Three)",
       "choicesMy": [
-        "Three",
-        "One",
-        "Two",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2209,10 +2209,10 @@
       "questionMy": "「三」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「三」၏ အဓိပ္ပာယ်မှာ \"သုံး\" ဖြစ်ပါသည်။ (အဖြေမှန်: み)",
       "choicesMy": [
-        "み",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2242,9 +2242,9 @@
       "questionMy": "「円」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「円」၏ အဓိပ္ပာယ်မှာ \"ယန်း / စက်ဝိုင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Yen, circle)",
       "choicesMy": [
-        "Yen, circle",
-        "One",
-        "Two",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2275,10 +2275,10 @@
       "questionMy": "「円」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「円」၏ အဓိပ္ပာယ်မှာ \"ယန်း / စက်ဝိုင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: まる.い)",
       "choicesMy": [
-        "まる.い",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2308,10 +2308,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「三つ」 ဖြစ်ပါသည်။ (「大きなりんごを三つ...買いました」.)",
       "choicesMy": [
-        "三つ",
-        "二つ",
-        "六つ",
-        "一つ"
+        "သုံးခု",
+        "နှစ်ခု",
+        "ခြောက်ခု",
+        "တစ်ခု"
       ],
       "correctIndex": 0
     },
@@ -2341,10 +2341,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「六つ」 ဖြစ်ပါသည်။ (「みかんは袋の中に六つ入っていました」.)",
       "choicesMy": [
-        "六つ",
-        "三つ",
-        "五つ",
-        "八つ"
+        "ခြောက်ခု",
+        "သုံးခု",
+        "ငါးခု",
+        "ရှစ်ခု"
       ],
       "correctIndex": 0
     },
@@ -2374,10 +2374,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「パン二つと牛乳一本」 ဖြစ်ပါသည်။ (「パンを二つと牛乳を一本買いました」.)",
       "choicesMy": [
-        "パン二つと牛乳一本",
-        "パン一つと牛乳二本",
-        "パン三つと牛乳一本",
-        "パンだけ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2407,10 +2407,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「千二百円」 ဖြစ်ပါသည်။ (「全部で千二百円でした」.)",
       "choicesMy": [
-        "千二百円",
-        "千五百円",
-        "千円",
-        "二千円"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2440,10 +2440,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「安くて親切だった」 ဖြစ်ပါသည်။ (「安かったです。レジの人はとても親切でした」.)",
       "choicesMy": [
-        "安くて親切だった",
-        "高くて混んでいた",
-        "店が狭かった",
-        "遠かった"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2473,10 +2473,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「アメリカへの絵はがき」 ဖြစ်ပါသည်။ (「このはがきをアメリカへ送りたいです」.)",
       "choicesMy": [
-        "アメリカへの絵はがき",
-        "重い荷物",
-        "手紙とプレゼント",
-        "本"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "စာအုပ်"
       ],
       "correctIndex": 0
     },
@@ -2506,10 +2506,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「二百円 (百円切手二枚)」 ဖြစ်ပါသည်။ (「百円切手を二枚貼ってください。二百円です」.)",
       "choicesMy": [
-        "二百円 (百円切手二枚)",
-        "百円 (一枚)",
-        "八十四円",
-        "五百円"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2539,10 +2539,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「一週間から十日くらい」 ဖြစ်ပါသည်။ (「だいたい一週間から十日くらいかかりますよ」.)",
       "choicesMy": [
-        "一週間から十日くらい",
-        "二日",
-        "三週間",
-        "一か月"
+        "ရွေးချယ်စရာ (1)",
+        "နှစ်ရက်နေ့",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2572,10 +2572,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「郵便局」 ဖြစ်ပါသည်။ (The conversation takes place at the post office with a postal clerk.)",
       "choicesMy": [
-        "郵便局",
-        "銀行",
-        "コンビニ",
-        "駅の窓口"
+        "စာတိုက်",
+        "ဘဏ်",
+        "ကွန်ဗီးနီးယန့်စတိုး",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2605,10 +2605,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「エアメール (航空便)」 ဖြစ်ပါသည်။ (The clerk confirms: 「エアメールですね」.)",
       "choicesMy": [
-        "エアメール (航空便)",
-        "船便",
-        "速達",
-        "書留"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

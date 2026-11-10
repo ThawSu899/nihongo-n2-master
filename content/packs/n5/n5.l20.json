@@ -990,7 +990,7 @@
           "reading": "とまります",
           "meaning": "To stay overnight",
           "preview": false,
-          "meaningMyanmar": "To stay overnight",
+          "meaningMyanmar": "တည်းခိုသည် (ဟိုတယ်)",
           "meaningMy": "To stay overnight"
         },
         {
@@ -998,7 +998,7 @@
           "reading": "いっぱく",
           "meaning": "One night stay",
           "preview": true,
-          "meaningMyanmar": "One night stay",
+          "meaningMyanmar": "အဓိပ္ပာယ်: One night stay",
           "meaningMy": "One night stay"
         }
       ],
@@ -1094,7 +1094,7 @@
           "reading": "せんたくき",
           "meaning": "Washing machine",
           "preview": true,
-          "meaningMyanmar": "Washing machine",
+          "meaningMyanmar": "အဝတ်လျှော်စက်",
           "meaningMy": "Washing machine"
         }
       ],
@@ -1547,7 +1547,7 @@
     },
     "titleMy": "Experience (たことがあります) - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "Experience (たことがあります) - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "Half a year has passed since I came to Japan. During these six months, I had various experiences. In spring, I went to Kyoto and saw cherry blossoms in full bloom. In summer, I climbed Mt. Fuji with friends. The sunrise viewed from the summit was deeply moving. On weekends, I usually do things like watching TV at home and practicing Japanese vocabulary. I have not seen Kabuki even once yet, so I want to go watch it next month."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l20.l01",
@@ -1570,7 +1570,7 @@
         "ja": "グエンさん、日本の着物を着たことがありますか。",
         "kana": "ぐえんさん、にほんのきものをきたことがありますか。",
         "en": "Nguyen-san, have you ever worn a Japanese kimono before?",
-        "my": "Nguyen-san, have you ever worn a Japanese kimono before?",
+        "my": "エミリー: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Nguyen-san, have you ever worn a Japanese kimono before?",
         "myanmar": "Nguyen-san, have you ever worn a Japanese kimono before?"
       },
@@ -1579,7 +1579,7 @@
         "ja": "はい、去年京都でお祭りの時に一度着たことがありますよ。",
         "kana": "はい、きょねんきょうとでおまつりのときにいちどきたことがありますよ。",
         "en": "Yes, I wore one once during a festival in Kyoto last year.",
-        "my": "Yes, I wore one once during a festival in Kyoto last year.",
+        "my": "グエン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Yes, I wore one once during a festival in Kyoto last year.",
         "myanmar": "Yes, I wore one once during a festival in Kyoto last year."
       },
@@ -1588,7 +1588,7 @@
         "ja": "いいですね！お茶の体験はどうですか。",
         "kana": "いいですね！おちゃのたいけんはどうですか。",
         "en": "How nice! How about a traditional tea ceremony experience?",
-        "my": "How nice! How about a traditional tea ceremony experience?",
+        "my": "エミリー: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "How nice! How about a traditional tea ceremony experience?",
         "myanmar": "How nice! How about a traditional tea ceremony experience?"
       },
@@ -1597,7 +1597,7 @@
         "ja": "お茶の体験は一度もありません。でも、来週体験教室へ行く予定です。エミリーさんは？",
         "kana": "おちゃのたいけんはいちどもありません。でも、らいしゅうたいけんきょうしつへいくよていです。えみりーさんは？",
         "en": "I have never experienced a tea ceremony. But I plan to go to a trial class next week. What about you, Emily-san?",
-        "my": "I have never experienced a tea ceremony. But I plan to go to a trial class next week. What about you, Emily-san?",
+        "my": "グエン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "I have never experienced a tea ceremony. But I plan to go to a trial class next week. What about you, Emily-san?",
         "myanmar": "I have never experienced a tea ceremony. But I plan to go to a trial class next week. What about you, Emily-san?"
       },
@@ -1606,7 +1606,7 @@
         "ja": "私も一度もありませんから、ぜひ一緒に行きたいです！",
         "kana": "わたしもいちどもありませんから、ぜひいっしょにいきたいです！",
         "en": "I haven't either, so I'd love to go together with you!",
-        "my": "I haven't either, so I'd love to go together with you!",
+        "my": "エミリー: အခြေခံစကားပြော လေ့ကျင့်ခန်း (5)",
         "translationMy": "I haven't either, so I'd love to go together with you!",
         "myanmar": "I haven't either, so I'd love to go together with you!"
       }
@@ -1628,7 +1628,7 @@
     },
     "titleMy": "Experience (たことがあります) - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "Experience (たことがあります) - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "Two foreign residents discuss their experiences wearing kimono and attending tea ceremonies."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -2059,9 +2059,9 @@
       "questionMy": "「登」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「登」၏ အဓိပ္ပာယ်မှာ \"တက်ခြင်း (တောင်တက်ခြင်း)\" ဖြစ်ပါသည်။ (အဖြေမှန်: Climb, ascend)",
       "choicesMy": [
-        "Climb, ascend",
-        "Stay overnight",
-        "Wash, cleanse",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2092,10 +2092,10 @@
       "questionMy": "「登」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「登」၏ အဓိပ္ပာယ်မှာ \"တက်ခြင်း (တောင်တက်ခြင်း)\" ဖြစ်ပါသည်။ (အဖြေမှန်: のぼ.る)",
       "choicesMy": [
-        "のぼ.る",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2125,9 +2125,9 @@
       "questionMy": "「泊」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「泊」၏ အဓိပ္ပာယ်မှာ \"တည်းခိုခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Stay overnight)",
       "choicesMy": [
-        "Stay overnight",
-        "Climb, ascend",
-        "Wash, cleanse",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2158,10 +2158,10 @@
       "questionMy": "「泊」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「泊」၏ အဓိပ္ပာယ်မှာ \"တည်းခိုခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: と.まる)",
       "choicesMy": [
-        "と.まる",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2191,9 +2191,9 @@
       "questionMy": "「洗」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「洗」၏ အဓိပ္ပာယ်မှာ \"ဆေးကြောခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Wash, cleanse)",
       "choicesMy": [
-        "Wash, cleanse",
-        "Climb, ascend",
-        "Stay overnight",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2224,10 +2224,10 @@
       "questionMy": "「洗」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「洗」၏ အဓိပ္ပာယ်မှာ \"ဆေးကြောခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: あら.う)",
       "choicesMy": [
-        "あら.う",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2257,9 +2257,9 @@
       "questionMy": "「濯」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「濯」၏ အဓိပ္ပာယ်မှာ \"လျှော်ဖွပ်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Rinse, laundry)",
       "choicesMy": [
-        "Rinse, laundry",
-        "Climb, ascend",
-        "Stay overnight",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2290,10 +2290,10 @@
       "questionMy": "「濯」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「濯」၏ အဓိပ္ပာယ်မှာ \"လျှော်ဖွပ်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: タク)",
       "choicesMy": [
-        "タク",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2323,10 +2323,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「半年」 ဖြစ်ပါသည်။ (「日本に来てから半年が過ぎました」.)",
       "choicesMy": [
-        "半年",
-        "一年",
-        "三か月",
-        "二年"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2356,10 +2356,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「友達と富士山に登った」 ဖြစ်ပါသည်။ (「夏には友達と富士山に登ったことがあります」.)",
       "choicesMy": [
-        "友達と富士山に登った",
-        "海で泳いだ",
-        "京都でお寺巡りをした",
-        "北海道へ行った"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2389,10 +2389,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「テレビを見たり単語を練習したりする」 ဖြစ်ပါသည်။ (「テレビを見たり、日本語の単語を練習したりします」.)",
       "choicesMy": [
-        "テレビを見たり単語を練習したりする",
-        "山登りや旅行に行く",
-        "アルバイトばかりする",
-        "友達と買い物に行く"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2422,10 +2422,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「歌舞伎を見ること」 ဖြစ်ပါသည်။ (「まだ歌舞伎を見たことがありませんから...」.)",
       "choicesMy": [
-        "歌舞伎を見ること",
-        "富士山に登ること",
-        "京都に行くこと",
-        "桜を見ること"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2455,10 +2455,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「日の出」 ဖြစ်ပါသည်။ (「山頂で見た日の出はとても感動的でした」.)",
       "choicesMy": [
-        "日の出",
-        "星空",
-        "雪",
-        "雲海だけ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "နှင်း",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2488,10 +2488,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「はい、去年京都のお祭りで一度着た」 ဖြစ်ပါသည်။ (「はい、去年京都でお祭りの時に一度着たことがありますよ」.)",
       "choicesMy": [
-        "はい、去年京都のお祭りで一度着た",
-        "いいえ、一度もない",
-        "毎日着ている",
-        "浴衣だけ着た"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2521,10 +2521,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「二人とも一度もない」 ဖြစ်ပါသည်။ (Nguyen says 「一度もありません」 and Emily says 「私も一度もありません」.)",
       "choicesMy": [
-        "二人とも一度もない",
-        "グエンさんだけある",
-        "エミリーさんだけある",
-        "二人とも何度も体験した"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2554,10 +2554,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「お茶の体験教室へ行く」 ဖြစ်ပါသည်။ (「来週体験教室へ行く予定です」.)",
       "choicesMy": [
-        "お茶の体験教室へ行く",
-        "京都へ旅行する",
-        "着物を買う",
-        "国へ帰る"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2587,10 +2587,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「ぜひ一緒に行きたい」 ဖြစ်ပါသည်။ (Emily enthusiastically says: 「ぜひ一緒に行きたいです！」.)",
       "choicesMy": [
-        "ぜひ一緒に行きたい",
-        "一人で行ってきて",
-        "来月にしよう",
-        "やめよう"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2620,10 +2620,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「京都」 ဖြစ်ပါသည်။ (「去年京都でお祭りの時に」.)",
       "choicesMy": [
-        "京都",
-        "東京",
-        "奈良",
-        "大阪"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

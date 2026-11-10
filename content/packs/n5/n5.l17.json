@@ -935,7 +935,7 @@
           "reading": "おきます",
           "meaning": "To wake up",
           "preview": false,
-          "meaningMyanmar": "To wake up",
+          "meaningMyanmar": "ထားသည်",
           "meaningMy": "To wake up"
         },
         {
@@ -943,7 +943,7 @@
           "reading": "はやおき",
           "meaning": "Early rising",
           "preview": true,
-          "meaningMyanmar": "Early rising",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Early rising",
           "meaningMy": "Early rising"
         }
       ],
@@ -985,7 +985,7 @@
           "reading": "ねます",
           "meaning": "To sleep",
           "preview": false,
-          "meaningMyanmar": "To sleep",
+          "meaningMyanmar": "အဓိပ္ပာယ်: To sleep",
           "meaningMy": "To sleep"
         },
         {
@@ -993,7 +993,7 @@
           "reading": "しんしつ",
           "meaning": "Bedroom",
           "preview": true,
-          "meaningMyanmar": "Bedroom",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Bedroom",
           "meaningMy": "Bedroom"
         }
       ],
@@ -1043,7 +1043,7 @@
           "reading": "ねんし",
           "meaning": "Beginning of year",
           "preview": true,
-          "meaningMyanmar": "Beginning of year",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Beginning of year",
           "meaningMy": "Beginning of year"
         }
       ],
@@ -1093,7 +1093,7 @@
           "reading": "さいしゅう",
           "meaning": "Final / Last",
           "preview": true,
-          "meaningMyanmar": "Final / Last",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Final / Last",
           "meaningMy": "Final / Last"
         }
       ],
@@ -1546,7 +1546,7 @@
     },
     "titleMy": "Connecting Actions (て、てから) - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "Connecting Actions (て、てから) - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "Every morning I wake up at 6:30. First, I wash my face and brush my teeth. After that, I go to the kitchen and drink warm tea. After eating breakfast at 7:00, I read the newspaper. At 8:00, I leave home and walk to the nearest station. After boarding the train and getting off at the school station, I buy a notebook at the convenience store. I live by this routine every morning."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l17.l01",
@@ -1569,7 +1569,7 @@
         "ja": "すみません、お金を下ろしたいんですが、どうすればいいですか。",
         "kana": "すみません、おかねをおろしたいんですが、どうすればいいですか。",
         "en": "Excuse me, I would like to withdraw money. What should I do?",
-        "my": "Excuse me, I would like to withdraw money. What should I do?",
+        "my": "客: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Excuse me, I would like to withdraw money. What should I do?",
         "myanmar": "Excuse me, I would like to withdraw money. What should I do?"
       },
@@ -1578,7 +1578,7 @@
         "ja": "まず、こちらの機械にキャッシュカードを入れてください。",
         "kana": "まず、こちらのきかいにきゃっしゅかーどをいれてください。",
         "en": "First, please insert your cash card into this machine.",
-        "my": "First, please insert your cash card into this machine.",
+        "my": "行員: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "First, please insert your cash card into this machine.",
         "myanmar": "First, please insert your cash card into this machine."
       },
@@ -1587,7 +1587,7 @@
         "ja": "入れました。次はどうしますか。",
         "kana": "いれました。つぎはどうしますか。",
         "en": "I inserted it. What do I do next?",
-        "my": "I inserted it. What do I do next?",
+        "my": "客: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "I inserted it. What do I do next?",
         "myanmar": "I inserted it. What do I do next?"
       },
@@ -1596,7 +1596,7 @@
         "ja": "暗証番号を押してから、引き出し金額のボタンを押してください。最後にお金とカードを受け取ってください。",
         "kana": "あんしょうばんごうをおしてから、ひきだしきんがくのぼたんをおしてください。さいごにおかねとかーどをうけとってください。",
         "en": "After entering your PIN, press the withdrawal amount button. Finally, take your cash and card.",
-        "my": "After entering your PIN, press the withdrawal amount button. Finally, take your cash and card.",
+        "my": "行員: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "After entering your PIN, press the withdrawal amount button. Finally, take your cash and card.",
         "myanmar": "After entering your PIN, press the withdrawal amount button. Finally, take your cash and card."
       }
@@ -1618,7 +1618,7 @@
     },
     "titleMy": "Connecting Actions (て、てから) - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "Connecting Actions (て、てから) - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "A customer asks a bank clerk for the correct sequence to withdraw cash from an ATM."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -2049,9 +2049,9 @@
       "questionMy": "「起」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「起」၏ အဓိပ္ပာယ်မှာ \"ထခြင်း / နိုးထခြင်း / ဖြစ်ပွားခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Rouse, wake up)",
       "choicesMy": [
-        "Rouse, wake up",
-        "Sleep, lie down",
-        "Begin, start",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2082,10 +2082,10 @@
       "questionMy": "「起」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「起」၏ အဓိပ္ပာယ်မှာ \"ထခြင်း / နိုးထခြင်း / ဖြစ်ပွားခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: お.きる)",
       "choicesMy": [
-        "お.きる",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2115,9 +2115,9 @@
       "questionMy": "「寝」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「寝」၏ အဓိပ္ပာယ်မှာ \"အိပ်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Sleep, lie down)",
       "choicesMy": [
-        "Sleep, lie down",
-        "Rouse, wake up",
-        "Begin, start",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2148,10 +2148,10 @@
       "questionMy": "「寝」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「寝」၏ အဓိပ္ပာယ်မှာ \"အိပ်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: ね.る)",
       "choicesMy": [
-        "ね.る",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2181,9 +2181,9 @@
       "questionMy": "「始」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「始」၏ အဓိပ္ပာယ်မှာ \"စတင်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Begin, start)",
       "choicesMy": [
-        "Begin, start",
-        "Rouse, wake up",
-        "Sleep, lie down",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2214,10 +2214,10 @@
       "questionMy": "「始」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「始」၏ အဓိပ္ပာယ်မှာ \"စတင်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: はじ.める)",
       "choicesMy": [
-        "はじ.める",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2247,9 +2247,9 @@
       "questionMy": "「終」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「終」၏ အဓိပ္ပာယ်မှာ \"ပြီးဆုံးခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: End, finish)",
       "choicesMy": [
-        "End, finish",
-        "Rouse, wake up",
-        "Sleep, lie down",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2280,10 +2280,10 @@
       "questionMy": "「終」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「終」၏ အဓိပ္ပာယ်မှာ \"ပြီးဆုံးခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: お.わる)",
       "choicesMy": [
-        "お.わる",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2313,10 +2313,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「顔を洗って歯を磨く」 ဖြစ်ပါသည်။ (「まず顔を洗って、歯を磨きます」.)",
       "choicesMy": [
-        "顔を洗って歯を磨く",
-        "朝ご飯を食べる",
-        "新聞を読む",
-        "お茶を飲む"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2346,10 +2346,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「朝ご飯を食べてから」 ဖြစ်ပါသည်။ (「七時に朝ご飯を食べてから、新聞を読みます」.)",
       "choicesMy": [
-        "朝ご飯を食べてから",
-        "起きる前",
-        "電車の中",
-        "学校に着いてから"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2379,10 +2379,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「八時」 ဖြစ်ပါသည်။ (「八時にうちを出て...」.)",
       "choicesMy": [
-        "八時",
-        "六時半",
-        "七時",
-        "七時半"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2412,10 +2412,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「学校の駅で電車を降りてから」 ဖြစ်ပါသည်။ (「学校の駅で降りてから、コンビニでノートを買います」.)",
       "choicesMy": [
-        "学校の駅で電車を降りてから",
-        "家を出る前",
-        "夜",
-        "昼休み"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ည",
+        "နေ့လယ်စာစားချိန်"
       ],
       "correctIndex": 0
     },
@@ -2445,10 +2445,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「ノート」 ဖြစ်ပါသည်။ (「コンビニでノートを買います」.)",
       "choicesMy": [
-        "ノート",
-        "パン",
-        "新聞",
-        "お弁当"
+        "ဗလာစာအုပ်",
+        "ပေါင်မုန့်",
+        "သတင်းစာ",
+        "ထမင်းဘူး"
       ],
       "correctIndex": 0
     },
@@ -2478,10 +2478,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「キャッシュカード」 ဖြစ်ပါသည်။ (「まず、こちらの機械にキャッシュカードを入れてください」.)",
       "choicesMy": [
-        "キャッシュカード",
-        "お金",
-        "通帳",
-        "身分証明書"
+        "ရွေးချယ်စရာ (1)",
+        "ပိုက်ဆံ",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2511,10 +2511,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「暗証番号を押す」 ဖြစ်ပါသည်။ (「暗証番号を押してから、引き出し金額のボタンを押してください」.)",
       "choicesMy": [
-        "暗証番号を押す",
-        "サインをする",
-        "電話をかける",
-        "カードを取り出す"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2544,10 +2544,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「お金とカードを受け取る」 ဖြစ်ပါသည်။ (「最後にお金とカードを受け取ってください」.)",
       "choicesMy": [
-        "お金とカードを受け取る",
-        "ボタンをもう一度押す",
-        "レシートだけ取る",
-        "行員を呼ぶ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2577,10 +2577,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「お金を下ろすこと」 ဖြစ်ပါသည်။ (Customer states: 「お金を下ろしたいんですが」.)",
       "choicesMy": [
-        "お金を下ろすこと",
-        "通帳の記帳",
-        "口座の開設",
-        "送金"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2610,10 +2610,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「銀行のATMコーナー」 ဖြစ်ပါသည်။ (The interaction involves a bank clerk (行員) and an ATM.)",
       "choicesMy": [
-        "銀行のATMコーナー",
-        "郵便局の窓口",
-        "コンビニのレジ",
-        "駅の切符売り場"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

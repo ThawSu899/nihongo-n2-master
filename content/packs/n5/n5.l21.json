@@ -946,7 +946,7 @@
           "reading": "あきさめ",
           "meaning": "Autumn rain",
           "preview": true,
-          "meaningMyanmar": "Autumn rain",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Autumn rain",
           "meaningMy": "Autumn rain"
         }
       ],
@@ -996,7 +996,7 @@
           "reading": "ふゆやすみ",
           "meaning": "Winter break",
           "preview": true,
-          "meaningMyanmar": "Winter break",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Winter break",
           "meaningMy": "Winter break"
         }
       ],
@@ -1046,7 +1046,7 @@
           "reading": "はるやすみ",
           "meaning": "Spring break",
           "preview": true,
-          "meaningMyanmar": "Spring break",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Spring break",
           "meaningMy": "Spring break"
         }
       ],
@@ -1098,7 +1098,7 @@
           "reading": "なつやすみ",
           "meaning": "Summer vacation",
           "preview": true,
-          "meaningMyanmar": "Summer vacation",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Summer vacation",
           "meaningMy": "Summer vacation"
         }
       ],
@@ -1551,7 +1551,7 @@
     },
     "titleMy": "四季の変わり目 (Changing Seasons in Japan) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "四季の変わり目 (Changing Seasons in Japan) (ဖတ်ရှုခြင်း)",
-    "translationMy": "Japan has four seasons: spring, summer, autumn, and winter. At the end of September, it gradually becomes cool. The leaves turn red and yellow and are very beautiful. In the autumn season of October and November, people do things like taking walks and eating delicious fruits. When December arrives, the wind becomes strong and it gets genuinely cold. During winter vacation, I want to do things like going to hot springs and practicing skiing."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l21.l01",
@@ -1574,7 +1574,7 @@
         "ja": "ケンさん、最近朝晩はかなり寒くなりましたね。",
         "kana": "けんさん、さいきんあさばんはかなりさむくなりましたね。",
         "en": "Ken, it has gotten quite cold in the mornings and evenings lately, hasn't it?",
-        "my": "Ken, it has gotten quite cold in the mornings and evenings lately, hasn't it?",
+        "my": "田中: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Ken, it has gotten quite cold in the mornings and evenings lately, hasn't it?",
         "myanmar": "Ken, it has gotten quite cold in the mornings and evenings lately, hasn't it?"
       },
@@ -1583,7 +1583,7 @@
         "ja": "ええ、もう秋ですね。夜は暖かいお茶を飲んだり、本を読んだりしています。",
         "kana": "ええ、もうあきですね。よるはあたたかいおちゃをのんだり、ほんをよんだりしています。",
         "en": "Yes, it is already autumn. At night I do things like drinking warm tea and reading books.",
-        "my": "Yes, it is already autumn. At night I do things like drinking warm tea and reading books.",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Yes, it is already autumn. At night I do things like drinking warm tea and reading books.",
         "myanmar": "Yes, it is already autumn. At night I do things like drinking warm tea and reading books."
       },
@@ -1592,7 +1592,7 @@
         "ja": "いいですね。今度の週末は何をしますか。",
         "kana": "いいですね。こんどのしゅうまつはなにをしますか。",
         "en": "That sounds nice. What are you doing this coming weekend?",
-        "my": "That sounds nice. What are you doing this coming weekend?",
+        "my": "田中: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "That sounds nice. What are you doing this coming weekend?",
         "myanmar": "That sounds nice. What are you doing this coming weekend?"
       },
@@ -1601,7 +1601,7 @@
         "ja": "部屋を掃除したり、冬の服を買いに行ったりします。田中さんは？",
         "kana": "へやをそうじしたり、ふゆのふくをかいにいったりします。たなかさんは？",
         "en": "I will do things like cleaning my room and going to buy winter clothes. How about you, Tanaka?",
-        "my": "I will do things like cleaning my room and going to buy winter clothes. How about you, Tanaka?",
+        "my": "ケン: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "I will do things like cleaning my room and going to buy winter clothes. How about you, Tanaka?",
         "myanmar": "I will do things like cleaning my room and going to buy winter clothes. How about you, Tanaka?"
       },
@@ -1610,7 +1610,7 @@
         "ja": "私は紅葉の山を散歩したり、写真を撮ったりする予定です。",
         "kana": "わたしはこうようのやまをさんぽしたり、しゃしんをとったりするよていです。",
         "en": "I plan to take walks in the autumn foliage mountains and take photos.",
-        "my": "I plan to take walks in the autumn foliage mountains and take photos.",
+        "my": "田中: အခြေခံစကားပြော လေ့ကျင့်ခန်း (5)",
         "translationMy": "I plan to take walks in the autumn foliage mountains and take photos.",
         "myanmar": "I plan to take walks in the autumn foliage mountains and take photos."
       }
@@ -1632,7 +1632,7 @@
     },
     "titleMy": "週末の予定と寒さ (Weekend Plans and Cold Weather) (နားထောင်ခြင်း)",
     "titleMyanmar": "週末の予定と寒さ (Weekend Plans and Cold Weather) (နားထောင်ခြင်း)",
-    "translationMy": "Tanaka: Ken, it has gotten quite cold in the mornings and evenings lately, hasn't it?\nKen: Yes, it is already autumn. At night I do things like drinking warm tea and reading books.\nTanaka: That sounds nice. What are you doing this coming weekend?\nKen: I will do things like cleaning my room and going to buy winter clothes. How about you, Tanaka?\nTanaka: I plan to take walks in the autumn foliage mountains and take photos."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -1694,10 +1694,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "「冬」 is read as ふゆ (winter). [「冬」၏ အသံထွက်မှာ ふゆ (ဆောင်းရာသီ) ဖြစ်သည်။]",
       "choicesMy": [
-        "はる",
-        "なつ",
-        "あき",
-        "ふゆ"
+        "နွေဦးရာသီ",
+        "နွေရာသီ",
+        "ဆောင်းဦးရာသီ",
+        "ဆောင်းရာသီ"
       ],
       "correctIndex": 0
     },
@@ -1727,10 +1727,10 @@
       "questionMy": "「上手になります」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "「上手になります」 means to become skillful or improve. [「上手になります」 သည် တော်လာသည်/ကျွမ်းကျင်လာသည် ဟု အဓိပ္ပာယ်ရသည်။]",
       "choicesMy": [
-        "To become bad",
+        "ရွေးချယ်စရာ (1)",
         "တော်လာသည် / ကျွမ်းကျင်လာသည်",
-        "To become tired",
-        "To become late"
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1760,10 +1760,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "「散歩」(さんぽ) means walk or stroll. [လမ်းလျှောက်ခြင်းကို 「散歩」(さんぽ) ဟု ခေါ်သည်။]",
       "choicesMy": [
-        "散歩 (さんぽ)",
-        "掃除 (そうじ)",
-        "洗濯 (せんたく)",
-        "料理 (りょうり)"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1795,8 +1795,8 @@
       "choicesMy": [
         "ရာသီဥတု",
         "ရာသီဥတု (2)",
-        "Climate",
-        "Temperature"
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1826,10 +1826,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "For な-adjectives, use [Stem] + に + なります: 元気になります. [な-adjective တွင် 「〜になります」 တွဲစပ်သဖြင့် 「元気に」 ဖြစ်သည်။]",
       "choicesMy": [
-        "元気に",
-        "元気く",
-        "元気を",
-        "元気で"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1859,10 +1859,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "The Onyomi for 「春」 is シュン (e.g. 青春 せいしゅん). [「春」၏ Onyomi မှာ シュン ဖြစ်သည်။]",
       "choicesMy": [
-        "トウ",
-        "シュン",
-        "カ",
-        "シュウ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1892,10 +1892,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "「夏」(なつ) represents summer. [နွေရာသီကို ကိုယ်စားပြုသော ကန်ဂျီမှာ 「夏」 ဖြစ်သည်။]",
       "choicesMy": [
-        "秋",
-        "冬",
-        "夏",
-        "春"
+        "ဆောင်းဦးရာသီ",
+        "ဆောင်းရာသီ",
+        "နွေရာသီ",
+        "နွေဦးရာသီ"
       ],
       "correctIndex": 0
     },
@@ -1925,10 +1925,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "「冬」 has 5 strokes. [「冬」တွင် စုတ်ချက် ၅ ချက် ရှိသည်။]",
       "choicesMy": [
-        "4",
-        "5",
-        "6",
-        "7"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1958,10 +1958,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "The Kunyomi for 「秋」 is あき. [「秋」၏ Kunyomi မှာ あき ဖြစ်သည်။]",
       "choicesMy": [
-        "あき",
-        "ふゆ",
-        "はる",
-        "なつ"
+        "ဆောင်းဦးရာသီ",
+        "ဆောင်းရာသီ",
+        "နွေဦးရာသီ",
+        "နွေရာသီ"
       ],
       "correctIndex": 0
     },
@@ -1991,10 +1991,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "For い-adjectives, drop -い and add -く: 寒くなります. [い-adjective ကို ပြောင်းလဲရာတွင် -い ကိုဖြုတ်ပြီး -く ဖြင့်တွဲသည်: 寒くなります.]",
       "choicesMy": [
-        "寒くなります",
-        "寒いになります",
-        "寒いでなります",
-        "寒くなになります"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2024,10 +2024,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "For な-adjectives, add に before なります: 静かになります. [な-adjective တွင် 「に」 ထည့်ရသည်: 静かになります.]",
       "choicesMy": [
-        "静かく なります",
-        "静かに なります",
-        "静か なります",
-        "静かで なります"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2057,10 +2057,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "The pattern uses verb past plain (た-form) + り: 読んだ → 読んだり. [ကြိယာ た-form တွင် り ပေါင်းစပ်သဖြင့် 読んだり ဖြစ်သည်။]",
       "choicesMy": [
-        "読むたり",
-        "読んだり",
-        "読みたり",
-        "読んだ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2090,10 +2090,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "Sentences using 〜たり〜たり must end with します (or past しました). [〜たり〜たり ဝါကျကို အမြဲတမ်း します သို့မဟုတ် しました ဖြင့် အဆုံးသတ်ရသည်။]",
       "choicesMy": [
-        "With あります",
-        "With です",
-        "With します / しました",
-        "With できます"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2123,10 +2123,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "Noun + に + なりました expresses becoming a noun: 先生になりました. [နာမ် + に + なりました သည် နာမ်အဖြစ်သို့ ပြောင်းလဲခြင်းကို ဖော်ပြသည်: 先生になりました.]",
       "choicesMy": [
-        "先生になりました",
-        "先生くありました",
-        "先生になりましたです",
-        "先生でしたくなります"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2156,10 +2156,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "「いい」 conjugates irregularly from 「よい」: よくなります. [「いい」သည် よい မှပြောင်းလဲသဖြင့် よくなります ဖြစ်သည်။]",
       "choicesMy": [
-        "いく なります",
-        "よく なります",
-        "いいに なります",
-        "いよく なります"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2189,10 +2189,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "The past plain of 歌う is 歌った, so the tari-form is 歌ったり. [歌う ၏ た-form မှာ 歌った ဖြစ်သဖြင့် 歌ったり ဖြစ်သည်။]",
       "choicesMy": [
-        "歌ったり",
-        "歌うたり",
-        "歌いたり",
-        "歌たり"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2222,10 +2222,10 @@
       "questionMy": "「〜たり〜たりします」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "It lists representative sample activities without implying they were done in strict chronological order. [လုပ်ဆောင်ချက်များစွာအနက် နမူနာအချို့ကို အစဉ်မလိုက်ဘဲ ဖော်ပြခြင်းဖြစ်သည်။]",
       "choicesMy": [
-        "A strict chronological step-by-step sequence",
-        "Non-exhaustive sample activities among various things done",
-        "A continuous action happening right now",
-        "A conditional if/then rule"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2255,10 +2255,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "暖かく + なりました: 暖かくなりました. [暖かく + なりました: 暖かくなりました (နွေးထွေးလာခဲ့သည်).]",
       "choicesMy": [
-        "暖かくなりました。",
-        "暖かいになりました。",
-        "暖かくでした。",
-        "暖かくなりでした。"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2288,10 +2288,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "にぎやか (な-adj) + に + なりました. [にぎやか (な-adj) နောက်တွင် 「に」 လိုက်ပါရမည်။]",
       "choicesMy": [
-        "にぎやかに",
-        "にぎやかで",
-        "にぎやかいく",
-        "にぎやかにく"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2321,10 +2321,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "The text states: 日本には春、夏、秋、冬の四つの季節があります (four seasons). [စာပိုဒ်တွင် လေးရာသီ (四つの季節) ရှိကြောင်း ဖော်ပြထားသည်။]",
       "choicesMy": [
-        "Two",
-        "Three",
-        "Four",
-        "Six"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2354,10 +2354,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "The passage says: 九月の終わりになると、だんだん涼しくなります (gradually becomes cool). [စက်တင်ဘာလကုန်တွင် တဖြည်းဖြည်း အေးမြလာသည် (だんだん涼しくなります)။]",
       "choicesMy": [
-        "It becomes hot",
-        "It gradually becomes cool",
-        "It begins to snow heavily",
-        "It becomes rainy every day"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2387,10 +2387,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "The passage notes: 散歩したり、おいしい果物を食べたりします. [လမ်းလျှောက်ခြင်းနှင့် အရသာရှိသော သစ်သီးများ စားသုံးခြင်း ပြုလုပ်ကြသည်။]",
       "choicesMy": [
-        "Swim in the sea",
-        "Take walks and eat delicious fruits",
-        "Ski on the mountains",
-        "Stay home all day"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2420,10 +2420,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "十二月になると、風が強くなって、本格的に寒くなります. [ဒီဇင်ဘာလတွင် လေပြင်းတိုက်ခတ်ပြီး အမှန်တကယ် အေးလာသည်။]",
       "choicesMy": [
-        "It gets warm",
-        "Leaves turn green",
-        "The wind becomes strong and it gets cold",
-        "Cherry blossoms bloom"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2453,10 +2453,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "The author states: 温泉へ行ったり、スキーを練習したりしたいです. [ရေပူစမ်းသွားခြင်းနှင့် စကိတ်စီးလေ့ကျင့်ခြင်းများ ပြုလုပ်လိုသည်။]",
       "choicesMy": [
-        "Go to a hot spring and practice skiing",
-        "Go to the beach",
-        "Study in the library only",
-        "Travel to an island in summer"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2486,10 +2486,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "Tanaka says: 最近朝晩はかなり寒くなりましたね. [မနက်နှင့် ညပိုင်းတွင် တော်တော်လေး အေးလာကြောင်း ပြောသည်။]",
       "choicesMy": [
-        "It became hot in the daytime",
-        "It has gotten quite cold in the mornings and evenings",
-        "It is raining constantly",
-        "It is very windy"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2519,10 +2519,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "Ken says: 夜は暖かいお茶を飲んだり、本を読んだりしています. [ညဘက်တွင် လက်ဖက်ရည်နွေးနွေးသောက်လိုက်၊ စာအုပ်ဖတ်လိုက် လုပ်နေသည်။]",
       "choicesMy": [
-        "Goes jogging in the park",
-        "Drinks warm tea and reads books",
-        "Watches sports games on TV",
-        "Sleeps early without dinner"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2552,10 +2552,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "Ken mentions: 部屋を掃除したり、冬の服を買いに行ったりします. [အခန်းသန့်ရှင်းရေးလုပ်လိုက်၊ ဆောင်းရာသီအဝတ်အစား သွားဝယ်လိုက် လုပ်မည်ဖြစ်သည်။]",
       "choicesMy": [
-        "Go to Kyoto",
-        "Clean his room and go buy winter clothes",
-        "Climb a mountain with Tanaka",
-        "Cook curry at home"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2585,10 +2585,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "Tanaka says: 紅葉の山を散歩したり、写真を撮ったりする予定です. [သစ်ရွက်ရောင်စုံတောင်တန်းများတွင် လမ်းလျှောက်ပြီး ဓာတ်ပုံရိုက်မည်ဖြစ်သည်။]",
       "choicesMy": [
-        "Study Japanese grammar",
-        "Stay home and rest",
-        "Walk in autumn foliage mountains and take photos",
-        "Go to the movie theater"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },

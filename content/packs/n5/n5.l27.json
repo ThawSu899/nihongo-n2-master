@@ -996,7 +996,7 @@
           "reading": "おおゆき",
           "meaning": "Heavy snow",
           "preview": true,
-          "meaningMyanmar": "Heavy snow",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Heavy snow",
           "meaningMy": "Heavy snow"
         }
       ],
@@ -1097,7 +1097,7 @@
           "reading": "はれる",
           "meaning": "To clear up",
           "preview": true,
-          "meaningMyanmar": "To clear up",
+          "meaningMyanmar": "အဓိပ္ပာယ်: To clear up",
           "meaningMy": "To clear up"
         }
       ],
@@ -1550,7 +1550,7 @@
     },
     "titleMy": "週末旅行の計画と天気 (Weekend Trip Plans and Weather) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "週末旅行の計画と天気 (Weekend Trip Plans and Weather) (ဖတ်ရှုခြင်း)",
-    "translationMy": "This coming Saturday, we are planning a trip to Hakone with everyone in the international student class. According to the weather forecast, Saturday's weather is cloudy with occasional rain. If it rains from morning, we will change our plans and go to Hakone's art museums and indoor hot springs. Even if it rains, if it's indoor facilities, we can spend an enjoyable time. However, if a typhoon comes and it becomes heavy rain, we will postpone the trip to next week. If Saturday is sunny, we plan to ride the ropeway to the mountain peak to see Mt. Fuji. We will check the final weather on Friday evening and contact everyone by email."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l27.l01",
@@ -1573,7 +1573,7 @@
         "ja": "エミさん、明日のバーベキューだけど、もし雨が降ったらどうする？",
         "kana": "えみさん、あしたのばーべきゅーだけど、もしあめがふったらどうする？",
         "en": "Emi, about tomorrow's barbecue, if it rains, what will we do?",
-        "my": "Emi, about tomorrow's barbecue, if it rains, what will we do?",
+        "my": "タケシ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Emi, about tomorrow's barbecue, if it rains, what will we do?",
         "myanmar": "Emi, about tomorrow's barbecue, if it rains, what will we do?"
       },
@@ -1582,7 +1582,7 @@
         "ja": "もし雨が降ったら、私の家でたこ焼きパーティーをしない？",
         "kana": "もしあめがふったら、わたしのいえでたこやきぱーてぃーをしない？",
         "en": "If it rains, won't you come over to my house for a takoyaki party?",
-        "my": "If it rains, won't you come over to my house for a takoyaki party?",
+        "my": "エミ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "If it rains, won't you come over to my house for a takoyaki party?",
         "myanmar": "If it rains, won't you come over to my house for a takoyaki party?"
       },
@@ -1591,7 +1591,7 @@
         "ja": "いいね！でも、小雨くらいだったら、屋根のある場所でバーベキューができるよ。",
         "kana": "いいね！でも、こさめくらいだったら、やねのあるばしょでばーべきゅーができるよ。",
         "en": "That sounds great! But if it's only light rain, we can barbecue in a covered spot.",
-        "my": "That sounds great! But if it's only light rain, we can barbecue in a covered spot.",
+        "my": "タケシ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "That sounds great! But if it's only light rain, we can barbecue in a covered spot.",
         "myanmar": "That sounds great! But if it's only light rain, we can barbecue in a covered spot."
       },
@@ -1600,7 +1600,7 @@
         "ja": "そうだね。風が強く吹いても、屋根があれば大丈夫だね。",
         "kana": "そうだね。かぜがつよくふいても、やねがあればだいじょうぶだね。",
         "en": "That's true. Even if strong winds blow, as long as there is a roof, we'll be fine.",
-        "my": "That's true. Even if strong winds blow, as long as there is a roof, we'll be fine.",
+        "my": "エミ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "That's true. Even if strong winds blow, as long as there is a roof, we'll be fine.",
         "myanmar": "That's true. Even if strong winds blow, as long as there is a roof, we'll be fine."
       },
@@ -1609,7 +1609,7 @@
         "ja": "うん。明日の朝七時に天気を見て、みんなにLINEで連絡するよ。",
         "kana": "うん。あしたのあさはちじにてんきをみて、みんなにらいんでれんらくするよ。",
         "en": "Yeah. I will check the weather tomorrow at 7:00 AM and message everyone on LINE.",
-        "my": "Yeah. I will check the weather tomorrow at 7:00 AM and message everyone on LINE.",
+        "my": "タケシ: အခြေခံစကားပြော လေ့ကျင့်ခန်း (5)",
         "translationMy": "Yeah. I will check the weather tomorrow at 7:00 AM and message everyone on LINE.",
         "myanmar": "Yeah. I will check the weather tomorrow at 7:00 AM and message everyone on LINE."
       }
@@ -1631,7 +1631,7 @@
     },
     "titleMy": "バーベキューの予定変更 (Barbecue Plan Contingency) (နားထောင်ခြင်း)",
     "titleMyanmar": "バーベキューの予定変更 (Barbecue Plan Contingency) (နားထောင်ခြင်း)",
-    "translationMy": "Takeshi: Emi, about tomorrow's barbecue, if it rains, what will we do?\nEmi: If it rains, won't you come over to my house for a takoyaki party?\nTakeshi: That sounds great! But if it's only light rain, we can barbecue in a covered spot.\nEmi: That's true. Even if strong winds blow, as long as there is a roof, we'll be fine.\nTakeshi: Yeah. I will check the weather tomorrow at 7:00 AM and message everyone on LINE."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -1694,9 +1694,9 @@
       "explanationMy": "အဖြေမှန်မှာ 「Snow」 ဖြစ်ပါသည်။ (「雪」(ゆき) means snow.)",
       "choicesMy": [
         "နှင်း",
-        "Ice",
-        "Fog",
-        "Hail"
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1729,7 +1729,7 @@
         "ထွက်ခွာသည်",
         "ရောက်ရှိသည်",
         "ပြန်လည်အပ်နှံသည်/ပြန်ပေးသည်",
-        "To enter"
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1761,7 +1761,7 @@
       "choicesMy": [
         "အမှန်ပင်/သေချာပေါက်",
         "အကယ်၍",
-        "Always",
+        "ရွေးချယ်စရာ (3)",
         "တစ်ကြိမ်မှ (မ...)"
       ],
       "correctIndex": 0
@@ -1792,9 +1792,9 @@
       "questionMy": "「晴れ」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「Sunny / Clear weather」 ဖြစ်ပါသည်။ (「晴れ」(はれ) means sunny or clear weather.)",
       "choicesMy": [
-        "Rainy",
-        "Sunny / Clear weather",
-        "Stormy",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "အအေးမိခြင်း / နှာစေးချောင်းဆိုး"
       ],
       "correctIndex": 0
@@ -1825,10 +1825,10 @@
       "questionMy": "「調べる」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「To examine / check」 ဖြစ်ပါသည်။ (「調べる」(しらべる) means to look up, examine, or investigate.)",
       "choicesMy": [
-        "To examine / check",
+        "ရွေးချယ်စရာ (1)",
         "မေ့လျော့သည်",
         "ရောင်းသည်",
-        "To lose"
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1858,10 +1858,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「雨」၏ အဓိပ္ပာယ်မှာ \"မိုး\" ဖြစ်ပါသည်။ (အဖြေမှန်: あめ)",
       "choicesMy": [
-        "あめ",
-        "ゆき",
-        "かぜ",
-        "はれ"
+        "မိုး",
+        "နှင်း",
+        "အအေးမိခြင်း / နှာစေးချောင်းဆိုး",
+        "သာယာသော ရာသီဥတု"
       ],
       "correctIndex": 0
     },
@@ -1891,10 +1891,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「雪」၏ အဓိပ္ပာယ်မှာ \"နှင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: 雪)",
       "choicesMy": [
-        "雨",
-        "雪",
-        "雲",
-        "風"
+        "မိုး",
+        "နှင်း",
+        "ရွေးချယ်စရာ (3)",
+        "လေ"
       ],
       "correctIndex": 0
     },
@@ -1924,10 +1924,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「風」၏ အဓိပ္ပာယ်မှာ \"လေ\" ဖြစ်ပါသည်။ (အဖြေမှန်: 9)",
       "choicesMy": [
-        "8",
-        "9",
-        "10",
-        "11"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1958,10 +1958,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「雨」၏ အဓိပ္ပာယ်မှာ \"မိုး\" ဖြစ်ပါသည်။ (အဖြေမှန်: 雨 (rain))",
       "choicesMy": [
-        "雨 (rain)",
-        "日 (sun)",
-        "木 (tree)",
-        "水 (water)"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1991,10 +1991,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ဂျပန်ဘာသာတွင် အသုံးအများဆုံး အခြေအနေပြဝါကျပုံစံ ဖြစ်သည်။ 「ကြိယာ た-form + ら」 (...လျှင် / ...ပြီးသောအခါ) ဟု သုံးပြီး နောက်ဝါကျတွင် တောင်းဆိုချက် (〜てください) သို့မဟုတ် ဖိတ်ခေါ်ချက်များ ထည့်သွင်းနိုင်သည်။",
       "choicesMy": [
-        "降ったら",
-        "降るたら",
-        "降りたら",
-        "降った"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2024,10 +2024,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ဂျပန်ဘာသာတွင် အသုံးအများဆုံး အခြေအနေပြဝါကျပုံစံ ဖြစ်သည်။ 「ကြိယာ た-form + ら」 (...လျှင် / ...ပြီးသောအခါ) ဟု သုံးပြီး နောက်ဝါကျတွင် တောင်းဆိုချက် (〜てください) သို့မဟုတ် ဖိတ်ခေါ်ချက်များ ထည့်သွင်းနိုင်သည်။",
       "choicesMy": [
-        "着いた",
-        "着く",
-        "着きて",
-        "着き"
+        "ရွေးချယ်စရာ (1)",
+        "ရောက်ရှိသည်",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2057,10 +2057,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ဆန့်ကျင်ဘက် အခြေအနေတစ်ခု ဖြစ်ပေါ်သော်လည်း ရလဒ်မပြောင်းလဲခြင်းကို 「ကြိယာ て-form + も」 (...သော်လည်း / ...စေကာမူ) ဟု သုံးသည်။ 「いくら (ဘယ်လောက်ပင်)」 နှင့် တွဲသုံးလေ့ရှိသည်။",
       "choicesMy": [
-        "雨が降っても出かけます",
-        "雨が降ったら出かけます",
-        "雨が降ると出かけます",
-        "雨が降れば出かけます"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2090,10 +2090,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ဂျပန်ဘာသာတွင် အသုံးအများဆုံး အခြေအနေပြဝါကျပုံစံ ဖြစ်သည်။ 「ကြိယာ た-form + ら」 (...လျှင် / ...ပြီးသောအခါ) ဟု သုံးပြီး နောက်ဝါကျတွင် တောင်းဆိုချက် (〜てください) သို့မဟုတ် ဖိတ်ခေါ်ချက်များ ထည့်သွင်းနိုင်သည်။",
       "choicesMy": [
-        "暇だったら",
-        "暇ならたら",
-        "暇したら",
-        "暇たら"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2123,10 +2123,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ဆန့်ကျင်ဘက် အခြေအနေတစ်ခု ဖြစ်ပေါ်သော်လည်း ရလဒ်မပြောင်းလဲခြင်းကို 「ကြိယာ て-form + も」 (...သော်လည်း / ...စေကာမူ) ဟု သုံးသည်။ 「いくら (ဘယ်လောက်ပင်)」 နှင့် တွဲသုံးလေ့ရှိသည်။",
       "choicesMy": [
-        "高くても",
-        "高いでも",
-        "高くだっても",
-        "高いてでも"
+        "ဈေးကြီးသော်လည်း",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2156,10 +2156,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "「いくら〜ても」၏ အဓိပ္ပာယ်မှာ \"no matter how much...\" ဖြစ်ပါသည်။",
       "choicesMy": [
-        "いくら",
-        "もし",
-        "たぶん",
-        "ぜひ"
+        "ဘယ်လောက်ပင် ...စေကာမူ",
+        "အကယ်၍",
+        "ဖြစ်နိုင်ခြေရှိသည် / ဖြစ်ကောင်းဖြစ်နိုင်သည်",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2189,10 +2189,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ဂျပန်ဘာသာတွင် အသုံးအများဆုံး အခြေအနေပြဝါကျပုံစံ ဖြစ်သည်။ 「ကြိယာ た-form + ら」 (...လျှင် / ...ပြီးသောအခါ) ဟု သုံးပြီး နောက်ဝါကျတွင် တောင်းဆိုချက် (〜てください) သို့မဟုတ် ဖိတ်ခေါ်ချက်များ ထည့်သွင်းနိုင်သည်။",
       "choicesMy": [
-        "Yes, 〜たら allows requests and invitations in the main clause",
-        "No, it is strictly forbidden like と",
-        "Only when speaking to teachers",
-        "Only in negative sentences"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2222,10 +2222,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ဂျပန်ဘာသာတွင် အသုံးအများဆုံး အခြေအနေပြဝါကျပုံစံ ဖြစ်သည်။ 「ကြိယာ た-form + ら」 (...လျှင် / ...ပြီးသောအခါ) ဟု သုံးပြီး နောက်ဝါကျတွင် တောင်းဆိုချက် (〜てください) သို့မဟုတ် ဖိတ်ခေါ်ချက်များ ထည့်သွင်းနိုင်သည်။",
       "choicesMy": [
-        "ら",
-        "り",
-        "れ",
-        "ろ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2255,10 +2255,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ဆန့်ကျင်ဘက် အခြေအနေတစ်ခု ဖြစ်ပေါ်သော်လည်း ရလဒ်မပြောင်းလဲခြင်းကို 「ကြိယာ て-form + も」 (...သော်လည်း / ...စေကာမူ) ဟု သုံးသည်။ 「いくら (ဘယ်လောက်ပင်)」 နှင့် တွဲသုံးလေ့ရှိသည်။",
       "choicesMy": [
-        "便利でも",
-        "便利くても",
-        "便利ならても",
-        "便利でもに"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2288,10 +2288,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ဂျပန်ဘာသာတွင် အသုံးအများဆုံး အခြေအနေပြဝါကျပုံစံ ဖြစ်သည်။ 「ကြိယာ た-form + ら」 (...လျှင် / ...ပြီးသောအခါ) ဟု သုံးပြီး နောက်ဝါကျတွင် တောင်းဆိုချက် (〜てください) သို့မဟုတ် ဖိတ်ခေါ်ချက်များ ထည့်သွင်းနိုင်သည်။",
       "choicesMy": [
-        "寒かったら",
-        "寒いだったら",
-        "寒いたら",
-        "寒くだったら"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2321,10 +2321,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Hakone (箱根)」 ဖြစ်ပါသည်။ (The passage says: 箱根へ旅行に行く計画を立てています.)",
       "choicesMy": [
-        "Kyoto",
-        "Hakone (箱根)",
-        "Nikko",
-        "Shibuya"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2354,10 +2354,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Go to Hakone's art museums and indoor hot springs」 ဖြစ်ပါသည်။ (The text notes: 箱根の美術館や屋内温泉へ行きます.)",
       "choicesMy": [
-        "Cancel immediately and go home",
-        "Go to Hakone's art museums and indoor hot springs",
-        "Climb the mountain in raincoats",
-        "Sleep at school"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2387,10 +2387,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「If a typhoon comes and causes heavy rain」 ဖြစ်ပါသည်။ (The text states: もしたいふうがきて大雨になったら、旅行は次の週に延期します.)",
       "choicesMy": [
-        "If it is slightly cloudy",
-        "If a typhoon comes and causes heavy rain",
-        "If the teacher is late",
-        "If the bus breaks down"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2420,10 +2420,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Ride the ropeway to the mountain peak to see Mt. Fuji」 ဖြစ်ပါသည်။ (The text says: 山の上までロープウェイに乗って富士山を見る予定です.)",
       "choicesMy": [
-        "Swim in Lake Ashi",
-        "Ride the ropeway to the mountain peak to see Mt. Fuji",
-        "Visit a tea factory",
-        "Walk back to Tokyo"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2453,10 +2453,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Friday evening」 ဖြစ်ပါသည်။ (The text ends: 金曜日の夕方に最終的な天気を調べて、全員にメールで連絡します.)",
       "choicesMy": [
-        "Thursday morning",
-        "Friday evening",
-        "Saturday afternoon",
-        "Sunday night"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2486,10 +2486,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「A takoyaki party at her house」 ဖြစ်ပါသည်။ (Emi says: 私の家でたこ焼きパーティーをしない？)",
       "choicesMy": [
-        "Go to karaoke",
-        "A takoyaki party at her house",
-        "Watch movies at the theater",
-        "Go to a sushi restaurant"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2519,10 +2519,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「In a covered spot with a roof (屋根のある場所)」 ဖြစ်ပါသည်။ (Takeshi notes: 屋根のある場所でバーベキューができるよ.)",
       "choicesMy": [
-        "Inside a tent",
-        "In a covered spot with a roof (屋根のある場所)",
-        "Under an umbrella",
-        "At school"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2552,10 +2552,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「It will be fine / okay (大丈夫)」 ဖြစ်ပါသည်။ (Emi remarks: 風が強く吹いても、屋根があれば大丈夫だね.)",
       "choicesMy": [
-        "It will be dangerous",
-        "It will be fine / okay (大丈夫)",
-        "The fire will go out",
-        "They must cancel"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2585,10 +2585,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「7:00 AM」 ဖြစ်ပါသည်။ (Takeshi says: 明日の朝七時に天気を見て、みんなにLINEで連絡するよ.)",
       "choicesMy": [
-        "6:00 AM",
-        "7:00 AM",
-        "8:00 AM",
-        "9:00 AM"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2618,10 +2618,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「On LINE」 ဖြစ်ပါသည်။ (Takeshi explicitly states: みんなにLINEで連絡するよ.)",
       "choicesMy": [
-        "By phone call",
-        "On LINE",
-        "By postcard",
-        "In person"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

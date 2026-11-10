@@ -939,7 +939,7 @@
           "reading": "ようじ",
           "meaning": "Business / Task",
           "preview": false,
-          "meaningMyanmar": "Business / Task",
+          "meaningMyanmar": "ကိစ္စ / အလုပ်",
           "meaningMy": "Business / Task"
         },
         {
@@ -992,7 +992,7 @@
           "reading": "ようじ",
           "meaning": "Business / Task",
           "preview": false,
-          "meaningMyanmar": "Business / Task",
+          "meaningMyanmar": "ကိစ္စ / အလုပ်",
           "meaningMy": "Business / Task"
         },
         {
@@ -1047,7 +1047,7 @@
           "reading": "でんわ",
           "meaning": "Telephone",
           "preview": true,
-          "meaningMyanmar": "Telephone",
+          "meaningMyanmar": "တယ်လီဖုန်း",
           "meaningMy": "Telephone"
         }
       ],
@@ -1549,7 +1549,7 @@
     },
     "titleMy": "電車の遅延とお知らせ (Train Delay and Notice) (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "電車の遅延とお知らせ (Train Delay and Notice) (ဖတ်ရှုခြင်း)",
-    "translationMy": "To our customers:\nAt around 8:15 AM today, a traffic signal malfunction occurred between Shinjuku Station and Shibuya Station on the Yamanote Line. In order to conduct safety checks, train operations across the entire line were temporarily suspended. Due to this impact, trains are experiencing a delay of about 30 minutes. We sincerely apologize for causing great inconvenience to everyone while you are in a rush. Customers who need a delay certificate, please ask a station employee at the ticket gates of each station. You can also print a delay certificate from our official smartphone website. Operations have resumed, but it is crowded, so please watch your step carefully.\nEast Japan Railway Company"
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l29.l01",
@@ -1572,7 +1572,7 @@
         "ja": "おはようございます。スミスです。田中課長はいらっしゃいますか。",
         "kana": "おはようございます。すみすです。たなかかちょうはいらっしゃいますか。",
         "en": "Good morning, this is Smith. Is Section Chief Tanaka there?",
-        "my": "Good morning, this is Smith. Is Section Chief Tanaka there?",
+        "my": "スミス: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Good morning, this is Smith. Is Section Chief Tanaka there?",
         "myanmar": "Good morning, this is Smith. Is Section Chief Tanaka there?"
       },
@@ -1581,7 +1581,7 @@
         "ja": "はい、田中です。スミスさん、どうしたんですか。",
         "kana": "はい、たなかです。すみすさん、どうしたんですか。",
         "en": "Yes, this is Tanaka. Smith, what happened?",
-        "my": "Yes, this is Tanaka. Smith, what happened?",
+        "my": "田中課長: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Yes, this is Tanaka. Smith, what happened?",
         "myanmar": "Yes, this is Tanaka. Smith, what happened?"
       },
@@ -1590,7 +1590,7 @@
         "ja": "すみません、今乗っている電車が信号の故障で止まってしまったんです。",
         "kana": "すみません、いまのっているでんしゃがしんごうのこしょうでとまってしまったんです。",
         "en": "I am sorry, the fact is that the train I am currently on has stopped due to a signal malfunction.",
-        "my": "I am sorry, the fact is that the train I am currently on has stopped due to a signal malfunction.",
+        "my": "スミス: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "I am sorry, the fact is that the train I am currently on has stopped due to a signal malfunction.",
         "myanmar": "I am sorry, the fact is that the train I am currently on has stopped due to a signal malfunction."
       },
@@ -1599,7 +1599,7 @@
         "ja": "そうなんですか。事故ではないんですね。",
         "kana": "そうなんですか。じこではないんですね。",
         "en": "Is that so? It wasn't an accident, then.",
-        "my": "Is that so? It wasn't an accident, then.",
+        "my": "田中課長: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "Is that so? It wasn't an accident, then.",
         "myanmar": "Is that so? It wasn't an accident, then."
       },
@@ -1608,7 +1608,7 @@
         "ja": "はい、怪我人はいません。運転はあと十五分くらいで再開するそうですが、九時の朝礼には間に合わないんです。",
         "kana": "はい、けがにんはいません。うんてんはあとじゅうごふんくらいでさいかいするそうですが、くじのちょうれいにはまにあわないんです。",
         "en": "Yes, there are no injured people. Operations are said to resume in about 15 minutes, but I won't make it in time for the 9:00 AM morning assembly.",
-        "my": "Yes, there are no injured people. Operations are said to resume in about 15 minutes, but I won't make it in time for the 9:00 AM morning assembly.",
+        "my": "スミス: အခြေခံစကားပြော လေ့ကျင့်ခန်း (5)",
         "translationMy": "Yes, there are no injured people. Operations are said to resume in about 15 minutes, but I won't make it in time for the 9:00 AM morning assembly.",
         "myanmar": "Yes, there are no injured people. Operations are said to resume in about 15 minutes, but I won't make it in time for the 9:00 AM morning assembly."
       },
@@ -1617,7 +1617,7 @@
         "ja": "わかりました。気をつけて来てください。遅延証明書をもらってきてくださいね。",
         "kana": "わかりました。きをつけてきてください。ちえんしょうめいしょをもらってきてくださいね。",
         "en": "Understood. Please come carefully. Be sure to pick up a delay certificate, okay?",
-        "my": "Understood. Please come carefully. Be sure to pick up a delay certificate, okay?",
+        "my": "田中課長: အခြေခံစကားပြော လေ့ကျင့်ခန်း (6)",
         "translationMy": "Understood. Please come carefully. Be sure to pick up a delay certificate, okay?",
         "myanmar": "Understood. Please come carefully. Be sure to pick up a delay certificate, okay?"
       },
@@ -1626,7 +1626,7 @@
         "ja": "承知いたしました。失礼いたします。",
         "kana": "しょうちいたしました。しつれいいたします。",
         "en": "Understood. Excuse me.",
-        "my": "Understood. Excuse me.",
+        "my": "スミス: အခြေခံစကားပြော လေ့ကျင့်ခန်း (7)",
         "translationMy": "Understood. Excuse me.",
         "myanmar": "Understood. Excuse me."
       }
@@ -1648,7 +1648,7 @@
     },
     "titleMy": "遅刻の電話連絡 (Calling In Late Due to Train Delay) (နားထောင်ခြင်း)",
     "titleMyanmar": "遅刻の電話連絡 (Calling In Late Due to Train Delay) (နားထောင်ခြင်း)",
-    "translationMy": "Smith: Good morning, this is Smith. Is Section Chief Tanaka there?\nChief Tanaka: Yes, this is Tanaka. Smith, what happened?\nSmith: I am sorry, the fact is that the train I am currently on has stopped due to a signal malfunction.\nChief Tanaka: Is that so? It wasn't an accident, then.\nSmith: Yes, there are no injured people. Operations are said to resume in about 15 minutes, but I won't make it in time for the 9:00 AM morning assembly.\nChief Tanaka: Understood. Please come carefully. Be sure to pick up a delay certificate, okay?\nSmith: Understood. Excuse me."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -1677,7 +1677,7 @@
       "questionMy": "「用事」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「Errand / Task / Business」 ဖြစ်ပါသည်။ (「用事」(ようじ) means business, errand, or tasks to attend to.)",
       "choicesMy": [
-        "Errand / Task / Business",
+        "ရွေးချယ်စရာ (1)",
         "မတော်တဆမှု",
         "သယ်ယူပို့ဆောင်ရေး / ယာဉ်အသွားအလာ",
         "ရာသီဥတု"
@@ -1710,10 +1710,10 @@
       "questionMy": "「都合が悪い」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「Circumstances are inconvenient / Unavailable」 ဖြစ်ပါသည်။ (「都合が悪い」 means circumstances are inconvenient or one is unavailable.)",
       "choicesMy": [
-        "Feeling sick",
-        "Circumstances are inconvenient / Unavailable",
-        "Broken machine",
-        "Expensive price"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1745,8 +1745,8 @@
       "choicesMy": [
         "မတော်တဆမှု",
         "စက်ချွတ်ယွင်းမှု / ပျက်စီးမှု",
-        "Holiday",
-        "Late arrival"
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1777,7 +1777,7 @@
       "explanationMy": "အဖြေမှန်မှာ 「To be in time / on time」 ဖြစ်ပါသည်။ (「間に合う」(まにあう) means to make it in time.)",
       "choicesMy": [
         "နောက်ကျသည်",
-        "To be in time / on time",
+        "ရွေးချယ်စရာ (2)",
         "ရပ်တန့်သည်",
         "အလျင်လိုသည် / အမြန်လုပ်သည်"
       ],
@@ -1809,9 +1809,9 @@
       "questionMy": "「残念」၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "အဖြေမှန်မှာ 「Regrettable / Unfortunate」 ဖြစ်ပါသည်။ (「残念」(ざんねん) means regrettable, a pity, or unfortunate.)",
       "choicesMy": [
-        "Joyful",
-        "Regrettable / Unfortunate",
-        "Surprising",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "လုံခြုံစိတ်ချရသော"
       ],
       "correctIndex": 0
@@ -1842,10 +1842,10 @@
       "questionMy": "မှန်ကန်သော ဝေါဟာရအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「どうして」 ဖြစ်ပါသည်။ (「どうして」 means why.)",
       "choicesMy": [
-        "どうして",
-        "どこで",
-        "いつ",
-        "だれ"
+        "ဘာကြောင့်လဲ",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ဘယ်သူ"
       ],
       "correctIndex": 0
     },
@@ -1875,10 +1875,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「事」၏ အဓိပ္ပာယ်မှာ \"ကိစ္စ / အလုပ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: こと)",
       "choicesMy": [
-        "こと",
-        "ジ",
-        "ごと",
-        "もの"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1908,10 +1908,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「用」၏ အဓိပ္ပာယ်မှာ \"အသုံးပြုခြင်း / ကိစ္စ\" ဖြစ်ပါသည်။ (အဖြေမှန်: 5)",
       "choicesMy": [
-        "4",
-        "5",
-        "6",
-        "7"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1941,10 +1941,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「電」၏ အဓိပ္ပာယ်မှာ \"လျှပ်စစ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: デン)",
       "choicesMy": [
-        "デン",
-        "テン",
-        "シャ",
-        "ジン"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -1974,10 +1974,10 @@
       "questionMy": "မှန်ကန်သော ကန်ဂျီအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ကန်ဂျီ「車」၏ အဓိပ္ပာယ်မှာ \"ကား / ယာဉ်\" ဖြစ်ပါသည်။ (အဖြေမှန်: くるま)",
       "choicesMy": [
-        "くるま",
-        "シャ",
-        "みち",
-        "でん"
+        "မော်တော်ကား",
+        "ရွေးချယ်စရာ (2)",
+        "လမ်း",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2007,10 +2007,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နှစ်ခုစလုံး အကြောင်းပြချက်ကို ဖော်ပြသည်။ 「から」 သည် ပြောသူ၏ ကိုယ်ပိုင်ထင်မြင်ချက်၊ ခံစားချက်ကို အဓိကထားပြီး၊ 「ので」 သည် လူမှုရေးအရ ယဉ်ကျေးသိမ်မွေ့သော သဘာဝအကြောင်းပြချက်အဖြစ် တင်ပြရာတွင် သုံးသည် (e.g. အလုပ်နောက်ကျခြင်း၊ တောင်းပန်ခြင်းစကားများတွင် 「ので」 သုံးသည်).",
       "choicesMy": [
-        "雨なので",
-        "雨だので",
-        "雨でのので",
-        "雨ので"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2040,10 +2040,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နှစ်ခုစလုံး အကြောင်းပြချက်ကို ဖော်ပြသည်။ 「から」 သည် ပြောသူ၏ ကိုယ်ပိုင်ထင်မြင်ချက်၊ ခံစားချက်ကို အဓိကထားပြီး၊ 「ので」 သည် လူမှုရေးအရ ယဉ်ကျေးသိမ်မွေ့သော သဘာဝအကြောင်းပြချက်အဖြစ် တင်ပြရာတွင် သုံးသည် (e.g. အလုပ်နောက်ကျခြင်း၊ တောင်းပန်ခြင်းစကားများတွင် 「ので」 သုံးသည်).",
       "choicesMy": [
-        "暇なので",
-        "暇だので",
-        "暇ので",
-        "暇でのので"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2073,10 +2073,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နှစ်ခုစလုံး အကြောင်းပြချက်ကို ဖော်ပြသည်။ 「から」 သည် ပြောသူ၏ ကိုယ်ပိုင်ထင်မြင်ချက်၊ ခံစားချက်ကို အဓိကထားပြီး၊ 「ので」 သည် လူမှုရေးအရ ယဉ်ကျေးသိမ်မွေ့သော သဘာဝအကြောင်းပြချက်အဖြစ် တင်ပြရာတွင် သုံးသည် (e.g. အလုပ်နောက်ကျခြင်း၊ တောင်းပန်ခြင်းစကားများတွင် 「ので」 သုံးသည်).",
       "choicesMy": [
-        "It sounds more objective, polite, and avoids sounding self-justifying",
-        "It means the opposite of because",
-        "It is informal and cute",
-        "It can only be used with food"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2106,10 +2106,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ဖြစ်ရပ်တစ်ခု၏ နောက်ကွယ်အကြောင်းအရင်းကို ရှင်းပြရာတွင် သို့မဟုတ် စုံစမ်းမေးမြန်းရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + んです」 (...မို့လို့ပါ) ဟု သုံးသည်။ နာမ်နှင့် な-adjective တွင် 「な」 လိုက်ရသည် (e.g. 病気なんです).",
       "choicesMy": [
-        "Curiosity asking for the underlying explanatory background",
-        "A future guess",
-        "A grammatical error",
-        "A polite command to leave"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2139,10 +2139,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ဖြစ်ရပ်တစ်ခု၏ နောက်ကွယ်အကြောင်းအရင်းကို ရှင်းပြရာတွင် သို့မဟုတ် စုံစမ်းမေးမြန်းရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + んです」 (...မို့လို့ပါ) ဟု သုံးသည်။ နာမ်နှင့် な-adjective တွင် 「な」 လိုက်ရသည် (e.g. 病気なんです).",
       "choicesMy": [
-        "んです",
-        "のですか",
-        "んですだ",
-        "のですで"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2172,10 +2172,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ဖြစ်ရပ်တစ်ခု၏ နောက်ကွယ်အကြောင်းအရင်းကို ရှင်းပြရာတွင် သို့မဟုတ် စုံစမ်းမေးမြန်းရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + んです」 (...မို့လို့ပါ) ဟု သုံးသည်။ နာမ်နှင့် な-adjective တွင် 「な」 လိုက်ရသည် (e.g. 病気なんです).",
       "choicesMy": [
-        "学生なんです",
-        "学生んです",
-        "学生だんです",
-        "学生いんです"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2205,10 +2205,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နှစ်ခုစလုံး အကြောင်းပြချက်ကို ဖော်ပြသည်။ 「から」 သည် ပြောသူ၏ ကိုယ်ပိုင်ထင်မြင်ချက်၊ ခံစားချက်ကို အဓိကထားပြီး၊ 「ので」 သည် လူမှုရေးအရ ယဉ်ကျေးသိမ်မွေ့သော သဘာဝအကြောင်းပြချက်အဖြစ် တင်ပြရာတွင် သုံးသည် (e.g. အလုပ်နောက်ကျခြင်း၊ တောင်းပန်ခြင်းစကားများတွင် 「ので」 သုံးသည်).",
       "choicesMy": [
-        "から (e.g. 寒いから閉めてください)",
-        "ので only",
-        "Neither is allowed",
-        "Only と"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2238,10 +2238,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နှစ်ခုစလုံး အကြောင်းပြချက်ကို ဖော်ပြသည်။ 「から」 သည် ပြောသူ၏ ကိုယ်ပိုင်ထင်မြင်ချက်၊ ခံစားချက်ကို အဓိကထားပြီး၊ 「ので」 သည် လူမှုရေးအရ ယဉ်ကျေးသိမ်မွေ့သော သဘာဝအကြောင်းပြချက်အဖြစ် တင်ပြရာတွင် သုံးသည် (e.g. အလုပ်နောက်ကျခြင်း၊ တောင်းပန်ခြင်းစကားများတွင် 「ので」 သုံးသည်).",
       "choicesMy": [
-        "ので",
-        "のに",
-        "のと",
-        "のへ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2271,10 +2271,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "ဖြစ်ရပ်တစ်ခု၏ နောက်ကွယ်အကြောင်းအရင်းကို ရှင်းပြရာတွင် သို့မဟုတ် စုံစမ်းမေးမြန်းရာတွင် 「ရိုးရိုးပုံစံ (Plain form) + んです」 (...မို့လို့ပါ) ဟု သုံးသည်။ နာမ်နှင့် な-adjective တွင် 「な」 လိုက်ရသည် (e.g. 病気なんです).",
       "choicesMy": [
-        "行く",
-        "行かない",
-        "行った",
-        "行って"
+        "သွားသည်",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2304,10 +2304,10 @@
       "questionMy": "မှန်ကန်သော သဒ္ဒါအဖြေကို ရွေးချယ်ပါ -",
       "explanationMy": "နှစ်ခုစလုံး အကြောင်းပြချက်ကို ဖော်ပြသည်။ 「から」 သည် ပြောသူ၏ ကိုယ်ပိုင်ထင်မြင်ချက်၊ ခံစားချက်ကို အဓိကထားပြီး၊ 「ので」 သည် လူမှုရေးအရ ယဉ်ကျေးသိမ်မွေ့သော သဘာဝအကြောင်းပြချက်အဖြစ် တင်ပြရာတွင် သုံးသည် (e.g. အလုပ်နောက်ကျခြင်း၊ တောင်းပန်ခြင်းစကားများတွင် 「ので」 သုံးသည်).",
       "choicesMy": [
-        "ですから",
-        "しかし",
-        "でも",
-        "それから"
+        "ဒါကြောင့်မို့ / ထို့ကြောင့်",
+        "သို့သော်",
+        "ဒါပေမဲ့",
+        "ပြီးနောက် / ထို့နောက်"
       ],
       "correctIndex": 0
     },
@@ -2338,9 +2338,9 @@
       "explanationMy": "အဖြေမှန်မှာ 「Traffic signal malfunction (信号機の故障)」 ဖြစ်ပါသည်။ (The notice states: 信号機の故障が発生しました (a signal malfunction occurred).)",
       "choicesMy": [
         "တိုင်ဖွန်းမုန်တိုင်း",
-        "Traffic signal malfunction (信号機の故障)",
-        "Driver absence",
-        "Heavy snow"
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2370,10 +2370,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Shinjuku and Shibuya」 ဖြစ်ပါသည်။ (The text specifies: 新宿駅と渋谷駅の間で (between Shinjuku and Shibuya).)",
       "choicesMy": [
-        "Tokyo and Ueno",
-        "Shinjuku and Shibuya",
-        "Shinagawa and Yokohama",
-        "Ikebukuro and Akihabara"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2403,10 +2403,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「About 30 minutes」 ဖြစ်ပါသည်။ (The text says: 約三十分の遅れが出ております (delay of about 30 minutes).)",
       "choicesMy": [
-        "About 10 minutes",
-        "About 30 minutes",
-        "About 60 minutes",
-        "2 hours"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2436,10 +2436,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「At each station ticket gate from staff, or print from the website」 ဖြစ်ပါသည်။ (The notice explains: 改札口で駅員にお申し出ください。また、スマートフォンの公式ホームページからも印刷することができます.)",
       "choicesMy": [
-        "At each station ticket gate from staff, or print from the website",
-        "Only by mail after 3 days",
-        "At the police box",
-        "Inside the train from the driver"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2469,10 +2469,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「Operations have resumed, but it is crowded」 ဖြစ်ပါသည်။ (The notice states: 運転は再開いたしましたが、混雑しております (operations resumed, but crowded).)",
       "choicesMy": [
-        "Still completely stopped",
-        "Operations have resumed, but it is crowded",
-        "Canceled for the entire day",
-        "Only buses are running"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2502,10 +2502,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「To report that his train stopped due to signal trouble and he will be late」 ဖြစ်ပါသည်။ (Smith calls to explain: 電車が信号の故障で止まってしまったんです.)",
       "choicesMy": [
-        "To ask for a raise",
-        "To report that his train stopped due to signal trouble and he will be late",
-        "To invite Tanaka to lunch",
-        "To say he is quitting"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2535,10 +2535,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「No, there are no injured people (怪我人はいません)」 ဖြစ်ပါသည်။ (Smith explicitly says: はい、怪我人はいません (No, there are no injured people).)",
       "choicesMy": [
-        "Yes, many people",
-        "No, there are no injured people (怪我人はいません)",
-        "Only the driver was hurt",
-        "Unclear"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2568,10 +2568,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「The 9:00 AM morning assembly (朝礼)」 ဖြစ်ပါသည်။ (Smith says: 九時の朝礼には間に合わないんです.)",
       "choicesMy": [
-        "Lunch with a client",
-        "The 9:00 AM morning assembly (朝礼)",
-        "A flight to Osaka",
-        "A party"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2601,10 +2601,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「A delay certificate (遅延証明書)」 ဖြစ်ပါသည်။ (Tanaka instructs: 遅延証明書をもらってきてくださいね.)",
       "choicesMy": [
-        "Train ticket",
-        "A delay certificate (遅延証明書)",
-        "His passport",
-        "Doctor note"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2634,10 +2634,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「About 15 minutes」 ဖြစ်ပါသည်။ (Smith says: 運転はあと十五分くらいで再開するそうですが (resume in about 15 minutes).)",
       "choicesMy": [
-        "About 5 minutes",
-        "About 15 minutes",
-        "About 45 minutes",
-        "2 hours"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

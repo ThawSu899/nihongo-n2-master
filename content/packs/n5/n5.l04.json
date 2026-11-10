@@ -993,7 +993,7 @@
           "reading": "ごふん",
           "meaning": "5 minutes",
           "preview": false,
-          "meaningMyanmar": "5 minutes",
+          "meaningMyanmar": "အဓိပ္ပာယ်: 5 minutes",
           "meaningMy": "5 minutes"
         },
         {
@@ -1001,7 +1001,7 @@
           "reading": "はんぶん",
           "meaning": "Half",
           "preview": true,
-          "meaningMyanmar": "Half",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Half",
           "meaningMy": "Half"
         }
       ],
@@ -1042,7 +1042,7 @@
           "reading": "くじはん",
           "meaning": "9:30",
           "preview": false,
-          "meaningMyanmar": "9:30",
+          "meaningMyanmar": "အဓိပ္ပာယ်: 9:30",
           "meaningMy": "9:30"
         },
         {
@@ -1050,7 +1050,7 @@
           "reading": "はんとし",
           "meaning": "Half a year",
           "preview": true,
-          "meaningMyanmar": "Half a year",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Half a year",
           "meaningMy": "Half a year"
         }
       ],
@@ -1100,7 +1100,7 @@
           "reading": "いちがつ",
           "meaning": "January",
           "preview": true,
-          "meaningMyanmar": "January",
+          "meaningMyanmar": "ဇန်နဝါရီလ",
           "meaningMy": "January"
         }
       ],
@@ -1495,7 +1495,7 @@
     },
     "titleMy": "Time, Dates, and Schedules (何時・何日) - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "Time, Dates, and Schedules (何時・何日) - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "I wake up at 6:00 every day. Breakfast is at 7:00. School starts at 9:00 AM. Classes run until 3:00 PM. I study every day from Monday through Friday. Saturday and Sunday are school days off. Every night, I review Japanese from 8:00 to 10:00."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l04.l01",
@@ -1518,7 +1518,7 @@
         "ja": "すみません、こちらの図書館は何時から何時までですか。",
         "kana": "すみません、こちらのとしょかんはなんじからなんじまでですか。",
         "en": "Excuse me, what are the library's hours from opening to closing?",
-        "my": "Excuse me, what are the library's hours from opening to closing?",
+        "my": "利用者: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Excuse me, what are the library's hours from opening to closing?",
         "myanmar": "Excuse me, what are the library's hours from opening to closing?"
       },
@@ -1527,7 +1527,7 @@
         "ja": "平日は午前九時から午後八時までです。",
         "kana": "へいじつはごぜんくじからごごはちじまでです。",
         "en": "On weekdays, it is open from 9:00 AM to 8:00 PM.",
-        "my": "On weekdays, it is open from 9:00 AM to 8:00 PM.",
+        "my": "職員: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "On weekdays, it is open from 9:00 AM to 8:00 PM.",
         "myanmar": "On weekdays, it is open from 9:00 AM to 8:00 PM."
       },
@@ -1536,7 +1536,7 @@
         "ja": "土曜日はどうですか。",
         "kana": "どようびはどうですか。",
         "en": "How about Saturdays?",
-        "my": "How about Saturdays?",
+        "my": "利用者: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "How about Saturdays?",
         "myanmar": "How about Saturdays?"
       },
@@ -1545,7 +1545,7 @@
         "ja": "土曜日は午前九時から午後五時までです。日曜日は休みです。",
         "kana": "どようびはごぜんくじからごごごじまでです。にちようびはやすみです。",
         "en": "On Saturdays, it is open from 9:00 AM to 5:00 PM. We are closed on Sundays.",
-        "my": "On Saturdays, it is open from 9:00 AM to 5:00 PM. We are closed on Sundays.",
+        "my": "職員: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "On Saturdays, it is open from 9:00 AM to 5:00 PM. We are closed on Sundays.",
         "myanmar": "On Saturdays, it is open from 9:00 AM to 5:00 PM. We are closed on Sundays."
       }
@@ -1567,7 +1567,7 @@
     },
     "titleMy": "Time, Dates, and Schedules (何時・何日) - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "Time, Dates, and Schedules (何時・何日) - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "A learner asks a librarian about the library's opening hours and weekend schedule."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -1998,9 +1998,9 @@
       "questionMy": "「時」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「時」၏ အဓိပ္ပာယ်မှာ \"အချိန် / နာရီ\" ဖြစ်ပါသည်။ (အဖြေမှန်: Time, hour)",
       "choicesMy": [
-        "Time, hour",
-        "Minute, divide",
-        "Half",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2031,10 +2031,10 @@
       "questionMy": "「時」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「時」၏ အဓိပ္ပာယ်မှာ \"အချိန် / နာရီ\" ဖြစ်ပါသည်။ (အဖြေမှန်: とき)",
       "choicesMy": [
-        "とき",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2064,9 +2064,9 @@
       "questionMy": "「分」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「分」၏ အဓိပ္ပာယ်မှာ \"မိနစ် / ခွဲခြမ်းစိတ်ဖြာခြင်း / နားလည်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Minute, divide)",
       "choicesMy": [
-        "Minute, divide",
-        "Time, hour",
-        "Half",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2097,10 +2097,10 @@
       "questionMy": "「分」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「分」၏ အဓိပ္ပာယ်မှာ \"မိနစ် / ခွဲခြမ်းစိတ်ဖြာခြင်း / နားလည်ခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: わ.ける)",
       "choicesMy": [
-        "わ.ける",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2130,9 +2130,9 @@
       "questionMy": "「半」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「半」၏ အဓိပ္ပာယ်မှာ \"တစ်ဝက် / ထက်ဝက်\" ဖြစ်ပါသည်။ (အဖြေမှန်: Half)",
       "choicesMy": [
-        "Half",
-        "Time, hour",
-        "Minute, divide",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2163,10 +2163,10 @@
       "questionMy": "「半」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「半」၏ အဓိပ္ပာယ်မှာ \"တစ်ဝက် / ထက်ဝက်\" ဖြစ်ပါသည်။ (အဖြေမှန်: なか.ば)",
       "choicesMy": [
-        "なか.ば",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2196,9 +2196,9 @@
       "questionMy": "「月」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「月」၏ အဓိပ္ပာယ်မှာ \"လ / လဆန်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Month, moon)",
       "choicesMy": [
-        "Month, moon",
-        "Time, hour",
-        "Minute, divide",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2229,10 +2229,10 @@
       "questionMy": "「月」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「月」၏ အဓိပ္ပာယ်မှာ \"လ / လဆန်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: つき)",
       "choicesMy": [
-        "つき",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2262,10 +2262,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「午前九時から午後三時まで」 ဖြစ်ပါသည်။ (「学校は午前九時から始まります。授業は午後三時までです」.)",
       "choicesMy": [
-        "午前九時から午後三時まで",
-        "午前八時から午後五時まで",
-        "午前七時から午後三時まで",
-        "午前十時から午後四時まで"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2295,10 +2295,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「土曜日と日曜日」 ဖြစ်ပါသည်။ (The passage explicitly says: 「土曜日と日曜日は学校の休みです」.)",
       "choicesMy": [
-        "土曜日と日曜日",
-        "月曜日と火曜日",
-        "日曜日だけ",
-        "水曜日と金曜日"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2328,10 +2328,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「二時間 (八時から十時まで)」 ဖြစ်ပါသည်။ (From 8:00 to 10:00 (八時から十時まで) equals 2 hours.)",
       "choicesMy": [
-        "二時間 (八時から十時まで)",
-        "一時間 (七時から八時まで)",
-        "三時間 (八時から十一時まで)",
-        "勉強しない"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2361,10 +2361,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「七時」 ဖြစ်ပါသည်။ (The text states: 「朝ご飯は七時です」.)",
       "choicesMy": [
-        "七時",
-        "六時",
-        "八時",
-        "九時"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2394,10 +2394,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「六時」 ဖြစ်ပါသည်။ (The opening says: 「私は毎日六時に起きます」.)",
       "choicesMy": [
-        "六時",
-        "五時半",
-        "七時",
-        "六時半"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2427,10 +2427,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「午後八時まで」 ဖြစ်ပါသည်။ (The librarian says: 「平日は午前九時から午後八時までです」.)",
       "choicesMy": [
-        "午後八時まで",
-        "午後五時まで",
-        "午後六時まで",
-        "午後九時まで"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2460,10 +2460,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「午後五時」 ဖြစ်ပါသည်။ (「土曜日は午前九時から午後五時までです」.)",
       "choicesMy": [
-        "午後五時",
-        "午後八時",
-        "午後三時",
-        "閉館している"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2493,10 +2493,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「日曜日」 ဖြစ်ပါသည်။ (The staff explicitly remarks: 「日曜日は休みです」.)",
       "choicesMy": [
-        "日曜日",
-        "月曜日",
-        "土曜日",
-        "祝日のみ"
+        "တနင်္ဂနွေနေ့",
+        "တနင်္လာနေ့",
+        "စနေနေ့",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2526,10 +2526,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「開館時間と休館日」 ဖြစ်ပါသည်။ (The visitor asks about the schedule and opening hours.)",
       "choicesMy": [
-        "開館時間と休館日",
-        "本の借り方",
-        "自習室の予約",
-        "パソコンの使い方"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2559,10 +2559,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「午前九時」 ဖြစ်ပါသည်။ (Saturday opens at 9:00 AM (午前九時).)",
       "choicesMy": [
-        "午前九時",
-        "午前十時",
-        "午後一時",
-        "午前八時半"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     }

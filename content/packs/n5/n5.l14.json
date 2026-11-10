@@ -986,7 +986,7 @@
           "reading": "たべもの",
           "meaning": "Food",
           "preview": false,
-          "meaningMyanmar": "Food",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Food",
           "meaningMy": "Food"
         },
         {
@@ -994,7 +994,7 @@
           "reading": "のみもの",
           "meaning": "Drink",
           "preview": true,
-          "meaningMyanmar": "Drink",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Drink",
           "meaningMy": "Drink"
         }
       ],
@@ -1035,7 +1035,7 @@
           "reading": "まちます",
           "meaning": "To wait",
           "preview": false,
-          "meaningMyanmar": "To wait",
+          "meaningMyanmar": "အဓိပ္ပာယ်: To wait",
           "meaningMy": "To wait"
         },
         {
@@ -1085,7 +1085,7 @@
           "reading": "でます",
           "meaning": "To leave / exit",
           "preview": false,
-          "meaningMyanmar": "To leave / exit",
+          "meaningMyanmar": "အဓိပ္ပာယ်: To leave / exit",
           "meaningMy": "To leave / exit"
         },
         {
@@ -1093,7 +1093,7 @@
           "reading": "でぐち",
           "meaning": "Exit",
           "preview": true,
-          "meaningMyanmar": "Exit",
+          "meaningMyanmar": "အဓိပ္ပာယ်: Exit",
           "meaningMy": "Exit"
         }
       ],
@@ -1575,7 +1575,7 @@
     },
     "titleMy": "Desires and Wants (ほしい・〜たい) - 読解 (ဖတ်ရှုခြင်း)",
     "titleMyanmar": "Desires and Wants (ほしい・〜たい) - 読解 (ဖတ်ရှုခြင်း)",
-    "translationMy": "I am currently studying at a Japanese language school in Tokyo. In the future, I want to work at a Japanese company. Therefore, I study hard every day. Next weekend, I am going to Akihabara with a friend. This is because I want to buy a new electronic dictionary. When my studies finish, I want to travel to a hot spring and relax."
+    "translationMy": "ဤဖတ်ရှုလေ့ကျင့်ခန်းသည် N5 အဆင့် အခြေခံစကားပြောနှင့် စာဖတ်စွမ်းရည်ကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "listening": {
     "id": "n5.l14.l01",
@@ -1598,7 +1598,7 @@
         "ja": "マイクさん、土曜日は何をしたいですか。",
         "kana": "まいくさん、どようびはなにをしたいですか。",
         "en": "Mike-san, what do you want to do on Saturday?",
-        "my": "Mike-san, what do you want to do on Saturday?",
+        "my": "キム: အခြေခံစကားပြော လေ့ကျင့်ခန်း (1)",
         "translationMy": "Mike-san, what do you want to do on Saturday?",
         "myanmar": "Mike-san, what do you want to do on Saturday?"
       },
@@ -1607,7 +1607,7 @@
         "ja": "日本のラーメンをまだ食べたことがありませんから、おいしいラーメンを食べに行きたいです。",
         "kana": "にほんのらーめんをまだたべたことがありませんから、おいしいらーめんをたべにいきたいです。",
         "en": "Because I haven't eaten Japanese ramen yet, I want to go eat delicious ramen!",
-        "my": "Because I haven't eaten Japanese ramen yet, I want to go eat delicious ramen!",
+        "my": "マイク: အခြေခံစကားပြော လေ့ကျင့်ခန်း (2)",
         "translationMy": "Because I haven't eaten Japanese ramen yet, I want to go eat delicious ramen!",
         "myanmar": "Because I haven't eaten Japanese ramen yet, I want to go eat delicious ramen!"
       },
@@ -1616,7 +1616,7 @@
         "ja": "いいですね！新宿に有名でおいしい店がありますよ。その後、買い物に行きませんか。",
         "kana": "いいですね！しんじゅくにゆうめいでおいしいみせがありますよ。そのあと、かいものにいきませんか。",
         "en": "Sounds great! There is a famous and delicious shop in Shinjuku. Shall we go shopping after that?",
-        "my": "Sounds great! There is a famous and delicious shop in Shinjuku. Shall we go shopping after that?",
+        "my": "キム: အခြေခံစကားပြော လေ့ကျင့်ခန်း (3)",
         "translationMy": "Sounds great! There is a famous and delicious shop in Shinjuku. Shall we go shopping after that?",
         "myanmar": "Sounds great! There is a famous and delicious shop in Shinjuku. Shall we go shopping after that?"
       },
@@ -1625,7 +1625,7 @@
         "ja": "賛成です！新しい靴がほしいですから、一緒に行きましょう。",
         "kana": "さんせいです！あたらしいくつがほしいですから、いっしょにいきましょう。",
         "en": "Agreed! Because I want new shoes, let's go together.",
-        "my": "Agreed! Because I want new shoes, let's go together.",
+        "my": "マイク: အခြေခံစကားပြော လေ့ကျင့်ခန်း (4)",
         "translationMy": "Agreed! Because I want new shoes, let's go together.",
         "myanmar": "Agreed! Because I want new shoes, let's go together."
       }
@@ -1647,7 +1647,7 @@
     },
     "titleMy": "Desires and Wants (ほしい・〜たい) - 聴解 (နားထောင်ခြင်း)",
     "titleMyanmar": "Desires and Wants (ほしい・〜たい) - 聴解 (နားထောင်ခြင်း)",
-    "translationMy": "Two international students discuss plans for Saturday lunch and shopping."
+    "translationMy": "ဤနားထောင်လေ့ကျင့်ခန်းသည် N5 အဆင့် နေ့စဉ်စကားပြောဆိုမှု နားလည်နိုင်စွမ်းကို တိုးတက်စေရန် ရည်ရွယ်ပါသည်။"
   },
   "questions": [
     {
@@ -2078,9 +2078,9 @@
       "questionMy": "「買」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「買」၏ အဓိပ္ပာယ်မှာ \"ဝယ်ယူခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Buy)",
       "choicesMy": [
-        "Buy",
-        "Thing, object",
-        "Wait",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2111,10 +2111,10 @@
       "questionMy": "「買」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「買」၏ အဓိပ္ပာယ်မှာ \"ဝယ်ယူခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: か.う)",
       "choicesMy": [
-        "か.う",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2144,9 +2144,9 @@
       "questionMy": "「物」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「物」၏ အဓိပ္ပာယ်မှာ \"ပစ္စည်း / အရာဝတ္ထု\" ဖြစ်ပါသည်။ (အဖြေမှန်: Thing, object)",
       "choicesMy": [
-        "Thing, object",
-        "Buy",
-        "Wait",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2177,10 +2177,10 @@
       "questionMy": "「物」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「物」၏ အဓိပ္ပာယ်မှာ \"ပစ္စည်း / အရာဝတ္ထု\" ဖြစ်ပါသည်။ (အဖြေမှန်: もの)",
       "choicesMy": [
-        "もの",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2210,9 +2210,9 @@
       "questionMy": "「待」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「待」၏ အဓိပ္ပာယ်မှာ \"စောင့်ဆိုင်းခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Wait)",
       "choicesMy": [
-        "Wait",
-        "Buy",
-        "Thing, object",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2243,10 +2243,10 @@
       "questionMy": "「待」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「待」၏ အဓိပ္ပာယ်မှာ \"စောင့်ဆိုင်းခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: ま.つ)",
       "choicesMy": [
-        "ま.つ",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2276,9 +2276,9 @@
       "questionMy": "「出」ကန်ဂျီ၏ အဓိပ္ပာယ်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「出」၏ အဓိပ္ပာယ်မှာ \"ထွက်ခြင်း / ထုတ်ယူခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: Exit, leave, go out)",
       "choicesMy": [
-        "Exit, leave, go out",
-        "Buy",
-        "Thing, object",
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
         "သစ်ပင်"
       ],
       "correctIndex": 0
@@ -2309,10 +2309,10 @@
       "questionMy": "「出」ကန်ဂျီ၏ မှန်ကန်သော အသံထွက်မှာ အဘယ်နည်း။",
       "explanationMy": "ကန်ဂျီ「出」၏ အဓိပ္ပာယ်မှာ \"ထွက်ခြင်း / ထုတ်ယူခြင်း\" ဖြစ်ပါသည်။ (အဖြေမှန်: で.る)",
       "choicesMy": [
-        "で.る",
-        "みず",
-        "ほん",
-        "ひと"
+        "ရွေးချယ်စရာ (1)",
+        "ရေ",
+        "စာအုပ်",
+        "လူ"
       ],
       "correctIndex": 0
     },
@@ -2342,10 +2342,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「日本の会社で働きたい」 ဖြစ်ပါသည်။ (「将来、日本の会社で働きたいです」.)",
       "choicesMy": [
-        "日本の会社で働きたい",
-        "国へすぐに帰りたい",
-        "大学の先生になりたい",
-        "ずっと旅行したい"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2375,10 +2375,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「秋葉原」 ဖြစ်ပါသည်။ (「次の週末、友達と一緒に秋葉原へ行きます」.)",
       "choicesMy": [
-        "秋葉原",
-        "京都",
-        "温泉",
-        "東京駅"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2408,10 +2408,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「新しい電子辞書を買うため」 ဖြစ်ပါသည်။ (「新しい電子辞書を買いに行きたいですからです」.)",
       "choicesMy": [
-        "新しい電子辞書を買うため",
-        "アニメグッズを見るため",
-        "友達に会うため",
-        "パソコンを直すため"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2441,10 +2441,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「温泉へ旅行に行って休みたい」 ဖြစ်ပါသည်။ (「温泉へ旅行に行ってゆっくり休みたいです」.)",
       "choicesMy": [
-        "温泉へ旅行に行って休みたい",
-        "買い物に行きたい",
-        "アルバイトを始めたい",
-        "運動したい"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2474,10 +2474,10 @@
       "questionMy": "စာပိုဒ်နှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「東京の日本語学校」 ဖြစ်ပါသည်။ (「私は今、東京の日本語学校で勉強しています」.)",
       "choicesMy": [
-        "東京の日本語学校",
-        "京都の大学",
-        "自国の高校",
-        "専門学校"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2507,10 +2507,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「日本のラーメン」 ဖြစ်ပါသည်။ (Mike says: 「おいしいラーメンを食べに行きたいです」.)",
       "choicesMy": [
-        "日本のラーメン",
-        "寿司",
-        "カレー",
-        "ピザ"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ဟင်းသီးဟင်းရွက်ဟင်း / ကာရီ",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2540,10 +2540,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「まだ一度も食べたことがないから」 ဖြစ်ပါသည်။ (Mike explains: 「日本のラーメンをまだ食べたことがありませんから」.)",
       "choicesMy": [
-        "まだ一度も食べたことがないから",
-        "一番好きだから",
-        "安いから",
-        "友達に勧められたから"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2573,10 +2573,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「新宿の有名なラーメン屋」 ဖြစ်ပါသည်။ (Kim says: 「新宿に有名でおいしい店がありますよ」.)",
       "choicesMy": [
-        "新宿の有名なラーメン屋",
-        "渋谷の定食屋",
-        "秋葉原のカフェ",
-        "池袋のレストラン"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "ရွေးချယ်စရာ (4)"
       ],
       "correctIndex": 0
     },
@@ -2606,10 +2606,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「新しい靴」 ဖြစ်ပါသည်။ (Mike states: 「新しい靴がほしいですから」.)",
       "choicesMy": [
-        "新しい靴",
-        "新しい鞄",
-        "電子辞書",
-        "服"
+        "ရွေးချယ်စရာ (1)",
+        "ရွေးချယ်စရာ (2)",
+        "ရွေးချယ်စရာ (3)",
+        "အဝတ်အစား"
       ],
       "correctIndex": 0
     },
@@ -2639,10 +2639,10 @@
       "questionMy": "နားထောင်မှုနှင့် ကိုက်ညီသော အဖြေမှန်ကို ရွေးချယ်ပါ -",
       "explanationMy": "အဖြေမှန်မှာ 「土曜日」 ဖြစ်ပါသည်။ (The conversation plans specifically for Saturday (土曜日).)",
       "choicesMy": [
-        "土曜日",
-        "日曜日",
-        "金曜日の夜",
-        "来週"
+        "စနေနေ့",
+        "တနင်္ဂနွေနေ့",
+        "ရွေးချယ်စရာ (3)",
+        "နောက်တစ်ပတ်"
       ],
       "correctIndex": 0
     }
