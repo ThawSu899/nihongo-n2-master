@@ -9,13 +9,6 @@ import { ContentLoader } from '../src/data/content/content-loader';
 import {
   N2_BATCH1_PACKS,
   getN2Batch1LessonPack,
-  n2l04Data,
-  n2l05Data,
-  n2l06Data,
-  n2l07Data,
-  n2l08Data,
-  n2l09Data,
-  n2l10Data,
 } from '../src/domain/curriculum';
 import curriculumMapJson from '../content/curriculum-map.json';
 import { CurriculumScreen } from '../src/presentation/screens/CurriculumScreen';
@@ -58,17 +51,13 @@ describe('JLPT N2 Batch 1 Curriculum Expansion (n2.l04 - n2.l10)', () => {
   };
 
   describe('1. Schema Validation, Linter & Burmese Enrichment Verification', () => {
-    it('contains all 7 exported TypeScript packs in N2_BATCH1_PACKS', () => {
+    it('contains all 7 exported packs in N2_BATCH1_PACKS', () => {
       expect(N2_BATCH1_PACKS).toHaveLength(7);
       const exportedIds = N2_BATCH1_PACKS.map((p) => p.id);
       expect(exportedIds).toEqual(batchIds);
-      expect(n2l04Data.id).toBe('n2.l04');
-      expect(n2l05Data.id).toBe('n2.l05');
-      expect(n2l06Data.id).toBe('n2.l06');
-      expect(n2l07Data.id).toBe('n2.l07');
-      expect(n2l08Data.id).toBe('n2.l08');
-      expect(n2l09Data.id).toBe('n2.l09');
-      expect(n2l10Data.id).toBe('n2.l10');
+      for (const id of batchIds) {
+        expect(getN2Batch1LessonPack(id)?.id).toBe(id);
+      }
     });
 
     for (const lessonId of batchIds) {
@@ -253,9 +242,10 @@ describe('JLPT N2 Batch 1 Curriculum Expansion (n2.l04 - n2.l10)', () => {
     });
 
     it('mounts LessonPlayerScreen for n2.l04 and n2.l09 without crashing', () => {
+      const packL04 = getN2Batch1LessonPack('n2.l04')!;
       const htmlL04 = renderToString(
         React.createElement(LessonPlayerScreen, {
-          pack: n2l04Data,
+          pack: packL04,
           profile: dummyProfile,
           onMasteryUpdated: () => {},
           onExit: () => {},
@@ -264,9 +254,10 @@ describe('JLPT N2 Batch 1 Curriculum Expansion (n2.l04 - n2.l10)', () => {
       expect(htmlL04).toContain('Perspective &amp; Subjective View');
       expect(htmlL04).toContain('ရည်မှန်းချက်များ');
 
+      const packL09 = getN2Batch1LessonPack('n2.l09')!;
       const htmlL09 = renderToString(
         React.createElement(LessonPlayerScreen, {
-          pack: n2l09Data,
+          pack: packL09,
           profile: dummyProfile,
           onMasteryUpdated: () => {},
           onExit: () => {},

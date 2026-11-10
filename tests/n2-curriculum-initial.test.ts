@@ -9,9 +9,6 @@ import { ContentLoader } from '../src/data/content/content-loader';
 import {
   N2_INITIAL_PACKS,
   getN2InitialLessonPack,
-  n2l01Data,
-  n2l02Data,
-  n2l03Data,
 } from '../src/domain/curriculum';
 import curriculumMapJson from '../content/curriculum-map.json';
 import { CurriculumScreen } from '../src/presentation/screens/CurriculumScreen';
@@ -46,13 +43,13 @@ describe('JLPT N2 Initial Lessons Unquarantine & Expansion (n2.l01 - n2.l03)', (
   };
 
   describe('1. Schema Validation, Linter & Burmese Enrichment Verification', () => {
-    it('contains all 3 exported TypeScript packs in N2_INITIAL_PACKS', () => {
+    it('contains all 3 exported packs in N2_INITIAL_PACKS', () => {
       expect(N2_INITIAL_PACKS).toHaveLength(3);
       const exportedIds = N2_INITIAL_PACKS.map((p) => p.id);
       expect(exportedIds).toEqual(initialIds);
-      expect(n2l01Data.id).toBe('n2.l01');
-      expect(n2l02Data.id).toBe('n2.l02');
-      expect(n2l03Data.id).toBe('n2.l03');
+      expect(getN2InitialLessonPack('n2.l01')?.id).toBe('n2.l01');
+      expect(getN2InitialLessonPack('n2.l02')?.id).toBe('n2.l02');
+      expect(getN2InitialLessonPack('n2.l03')?.id).toBe('n2.l03');
     });
 
     for (const lessonId of initialIds) {
@@ -228,9 +225,10 @@ describe('JLPT N2 Initial Lessons Unquarantine & Expansion (n2.l01 - n2.l03)', (
     });
 
     it('renders LessonPlayerScreen for n2.l01 without runtime errors', () => {
+      const pack = getN2InitialLessonPack('n2.l01')!;
       const html = renderToString(
         React.createElement(LessonPlayerScreen, {
-          pack: n2l01Data,
+          pack,
           profile: dummyProfile,
           onMasteryUpdated: () => {},
           onExit: () => {},
@@ -242,9 +240,10 @@ describe('JLPT N2 Initial Lessons Unquarantine & Expansion (n2.l01 - n2.l03)', (
     });
 
     it('renders LessonPlayerScreen for n2.l02 without runtime errors', () => {
+      const pack = getN2InitialLessonPack('n2.l02')!;
       const html = renderToString(
         React.createElement(LessonPlayerScreen, {
-          pack: n2l02Data,
+          pack,
           profile: dummyProfile,
           onMasteryUpdated: () => {},
           onExit: () => {},
@@ -256,9 +255,10 @@ describe('JLPT N2 Initial Lessons Unquarantine & Expansion (n2.l01 - n2.l03)', (
     });
 
     it('renders LessonPlayerScreen for n2.l03 without runtime errors', () => {
+      const pack = getN2InitialLessonPack('n2.l03')!;
       const html = renderToString(
         React.createElement(LessonPlayerScreen, {
-          pack: n2l03Data,
+          pack,
           profile: dummyProfile,
           onMasteryUpdated: () => {},
           onExit: () => {},
