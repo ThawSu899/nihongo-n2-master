@@ -1651,7 +1651,8 @@
         "အပြင်ထွက်သည်",
         "ထည့်သည်",
         "ထုတ်သည် / တင်ပြသည်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q002",
@@ -1672,7 +1673,20 @@
       "generated": false,
       "promptMy": "\"To go out\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"To go out\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「でかけます」 ဖြစ်ပါသည်။ (The Japanese word for \"To go out\" is 出かけます (でかけます).)"
+      "explanationMy": "အဖြေမှန်မှာ 「でかけます」 ဖြစ်ပါသည်။ (The Japanese word for \"To go out\" is 出かけます (でかけます).)",
+      "choices": [
+        "でかけます",
+        "あびます",
+        "いれます",
+        "だします"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "ရေချိုးသည် (ရှာဝါ)",
+        "ထည့်သည်",
+        "ထုတ်သည် / တင်ပြသည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q003",
@@ -1704,7 +1718,8 @@
         "ဆင်းသည် (ရထား/ကား)",
         "ထုတ်သည် / တင်ပြသည်",
         "ထည့်သည်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q004",
@@ -1725,7 +1740,20 @@
       "generated": false,
       "promptMy": "\"To take out / withdraw money / submit\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"To take out / withdraw money / submit\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「だします」 ဖြစ်ပါသည်။ (The Japanese word for \"To take out / withdraw money / submit\" is 出します (だします).)"
+      "explanationMy": "အဖြေမှန်မှာ 「だします」 ဖြစ်ပါသည်။ (The Japanese word for \"To take out / withdraw money / submit\" is 出します (だします).)",
+      "choices": [
+        "だします",
+        "あびます",
+        "でかけます",
+        "いれます"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "ရေချိုးသည် (ရှာဝါ)",
+        "အပြင်ထွက်သည်",
+        "ထည့်သည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q005",
@@ -1757,7 +1785,8 @@
         "ဆေးကြောသည်",
         "လွှဲပြောင်းစီးနင်းသည်",
         "ဆင်းသည် (ရထား/ကား)"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q006",
@@ -1778,7 +1807,20 @@
       "generated": false,
       "promptMy": "\"To transfer / change trains\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"To transfer / change trains\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「のりかえます」 ဖြစ်ပါသည်။ (The Japanese word for \"To transfer / change trains\" is 乗り換えます (のりかえます).)"
+      "explanationMy": "အဖြေမှန်မှာ 「のりかえます」 ဖြစ်ပါသည်။ (The Japanese word for \"To transfer / change trains\" is 乗り換えます (のりかえます).)",
+      "choices": [
+        "のりかえます",
+        "あびます",
+        "でかけます",
+        "いれます"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "ရေချိုးသည် (ရှာဝါ)",
+        "အပြင်ထွက်သည်",
+        "ထည့်သည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q007",
@@ -1810,7 +1852,8 @@
         "ရေချိုးခန်း (ရှာဝါ)",
         "ပိုက်ဆံ",
         "ပြီးနောက် / ထို့နောက်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q008",
@@ -1831,7 +1874,20 @@
       "generated": false,
       "promptMy": "\"Shower\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Shower\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「しゃわー」 ဖြစ်ပါသည်။ (The Japanese word for \"Shower\" is シャワー (しゃわー).)"
+      "explanationMy": "အဖြေမှန်မှာ 「しゃわー」 ဖြစ်ပါသည်။ (The Japanese word for \"Shower\" is シャワー (しゃわー).)",
+      "choices": [
+        "しゃわー",
+        "あびます",
+        "でかけます",
+        "いれます"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "ရေချိုးသည် (ရှာဝါ)",
+        "အပြင်ထွက်သည်",
+        "ထည့်သည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q009",
@@ -1863,7 +1919,8 @@
         "ပထမဦးစွာ",
         "ပြီးနောက် / ထို့နောက်",
         "ပိုက်ဆံ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q010",
@@ -1884,7 +1941,20 @@
       "generated": false,
       "promptMy": "\"And then / After that\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"And then / After that\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「それから」 ဖြစ်ပါသည်။ (The Japanese word for \"And then / After that\" is それから (それから).)"
+      "explanationMy": "အဖြေမှန်မှာ 「それから」 ဖြစ်ပါသည်။ (The Japanese word for \"And then / After that\" is それから (それから).)",
+      "choices": [
+        "それから",
+        "あびます",
+        "でかけます",
+        "いれます"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "ရေချိုးသည် (ရှာဝါ)",
+        "အပြင်ထွက်သည်",
+        "ထည့်သည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q011",
@@ -1916,7 +1986,8 @@
         "ရေချိုးသည် (ရှာဝါ)",
         "နောက်တစ်ခု",
         "ပထမဦးစွာ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q012",
@@ -1937,7 +2008,20 @@
       "generated": false,
       "promptMy": "\"Next\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Next\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「つぎ」 ဖြစ်ပါသည်။ (The Japanese word for \"Next\" is 次 (つぎ).)"
+      "explanationMy": "အဖြေမှန်မှာ 「つぎ」 ဖြစ်ပါသည်။ (The Japanese word for \"Next\" is 次 (つぎ).)",
+      "choices": [
+        "つぎ",
+        "あびます",
+        "でかけます",
+        "いれます"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "ရေချိုးသည် (ရှာဝါ)",
+        "အပြင်ထွက်သည်",
+        "ထည့်သည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q013",
@@ -1969,7 +2053,8 @@
         "Sleep, lie down",
         "Begin, start",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q014",
@@ -2001,7 +2086,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q015",
@@ -2033,7 +2119,8 @@
         "Rouse, wake up",
         "Begin, start",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q016",
@@ -2065,7 +2152,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q017",
@@ -2097,7 +2185,8 @@
         "Rouse, wake up",
         "Sleep, lie down",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q018",
@@ -2129,7 +2218,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q019",
@@ -2161,7 +2251,8 @@
         "Rouse, wake up",
         "Sleep, lie down",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q020",
@@ -2193,7 +2284,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q021",
@@ -2225,7 +2317,8 @@
         "朝ご飯を食べる",
         "新聞を読む",
         "お茶を飲む"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q022",
@@ -2257,7 +2350,8 @@
         "起きる前",
         "電車の中",
         "学校に着いてから"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q023",
@@ -2289,7 +2383,8 @@
         "六時半",
         "七時",
         "七時半"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q024",
@@ -2321,7 +2416,8 @@
         "家を出る前",
         "夜",
         "昼休み"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q025",
@@ -2353,7 +2449,8 @@
         "パン",
         "新聞",
         "お弁当"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q026",
@@ -2385,7 +2482,8 @@
         "お金",
         "通帳",
         "身分証明書"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q027",
@@ -2417,7 +2515,8 @@
         "サインをする",
         "電話をかける",
         "カードを取り出す"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q028",
@@ -2449,7 +2548,8 @@
         "ボタンをもう一度押す",
         "レシートだけ取る",
         "行員を呼ぶ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q029",
@@ -2481,7 +2581,8 @@
         "通帳の記帳",
         "口座の開設",
         "送金"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l17.q030",
@@ -2513,7 +2614,8 @@
         "郵便局の窓口",
         "コンビニのレジ",
         "駅の切符売り場"
-      ]
+      ],
+      "correctIndex": 0
     }
   ],
   "prov": {

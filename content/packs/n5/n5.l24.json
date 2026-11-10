@@ -656,7 +656,7 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "nakadaka",
+      "pitchPattern": "odaka",
       "dropIndex": 2
     },
     {
@@ -1541,7 +1541,7 @@
     "title": "会社での伝言メモ (Office Message Memo)",
     "level": "N5",
     "text": "田中さんへ：\n本日午後二時にABC商事の木村様からお電話がありました。木村様は、今日の午後四時からの会議の時間を変更したいと言いました。木村様は急な用事が入ったため、四時の約束の時間に三十分ほど遅れると言っていました。新しい会議の時間は四時半からになりました。場所は第二会議室で同じです。木村様は「後で確認のメールを送ります」と言っていました。何か質問があれば、私に聞いてください。\n山田より",
-    "kanaText": "たなかさんへ：\nほんじつごごにじにえーびーしーしょうじのきむらさまからおでんわがありました。きむらさまは、きょうのごごよじからのかいぎのじかんをへんこうしたいといいました。きむらさまはきゅうなようじがはいったため、よじのやくそくのじかんにさんじゅっぷんほどおくれるといっていました。あたらしいかいぎのじかんはよじはんからになりました。ばしょはだいにかいぎしつでおなじです。きむらさまは「あとでかくにんのめーるをおくります」といっていました。なにかしつもんがあれば、わたしにきいてください。\nやまだより",
+    "kanaText": "たなかさんへ\nほんじつごごにじにえーびーしーしょうじのきむらさまからおでんわがありました。きむらさまは、きょうのごごよじからのかいぎのじかんをへんこうしたいといいました。きむらさまはきゅうなようじがはいったため、よじのやくそくのじかんにさんじゅっぷんほどおくれるといっていました。あたらしいかいぎのじかんはよじはんからになりました。ばしょはだいにかいぎしつでおなじです。きむらさまは「あとでかくにんのめーるをおくります」といっていました。なにかしつもんがあれば、わたしにきいてください。\nやまだより",
     "translation": "To Tanaka:\nAt 2:00 PM today, there was a phone call from Mr. Kimura of ABC Trading. Mr. Kimura said he wants to change the time of today's meeting scheduled for 4:00 PM. Because urgent business came up, Mr. Kimura said he would be about 30 minutes late for the 4:00 appointment time. The new meeting time is from 4:30 PM. The location remains the same in Conference Room 2. Mr. Kimura said, \"I will send a confirmation email later.\" If you have any questions, please ask me.\nFrom Yamada",
     "questionIds": [
       "n5.l24.q021",
@@ -1675,7 +1675,8 @@
         "Company",
         "Message",
         "ကတိ / ချိန်းဆိုချက်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q002",
@@ -1707,7 +1708,8 @@
         "Phone bill",
         "စာ (ပေးစာ)",
         "သတင်းစာ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q003",
@@ -1739,7 +1741,8 @@
         "社長",
         "会社員",
         "店員"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q004",
@@ -1771,7 +1774,8 @@
         "နောက်ကျသည်",
         "အလျင်လိုသည် / အမြန်လုပ်သည်",
         "ရပ်တန့်သည်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q005",
@@ -1803,7 +1807,8 @@
         "အနိုင်ရသည်",
         "ပုံဆွဲသည်/သရုပ်ဖော်သည်",
         "ကစားသည် / အလည်သွားသည်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q006",
@@ -1835,7 +1840,8 @@
         "Excuse",
         "Work",
         "Holiday"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q007",
@@ -1867,7 +1873,8 @@
         "こと",
         "ゲン",
         "ゴン"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q008",
@@ -1899,7 +1906,8 @@
         "やしろ",
         "カイ",
         "イン"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q009",
@@ -1931,7 +1939,8 @@
         "社",
         "員",
         "人"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q010",
@@ -1963,7 +1972,8 @@
         "6",
         "7",
         "8"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q011",
@@ -1995,7 +2005,8 @@
         "来ます",
         "来て",
         "来ない"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q012",
@@ -2027,7 +2038,8 @@
         "Drop all particles",
         "Must always convert to plain past",
         "Add でしょう at the beginning"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q013",
@@ -2059,7 +2071,8 @@
         "明日は晴れだでしょう",
         "明日は晴れででしょう",
         "明日は晴れにでしょう"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q014",
@@ -2091,7 +2104,8 @@
         "Ordering someone to leave",
         "Saying goodbye",
         "Refusing a gift"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q015",
@@ -2123,7 +2137,8 @@
         "を",
         "に",
         "で"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q016",
@@ -2155,7 +2170,8 @@
         "新しい車を買いましたと言いましただ",
         "新しい車を買うと言いましたでした",
         "新しい車を買わないと言いました"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q017",
@@ -2187,7 +2203,8 @@
         "昨日は寒いでしたでしょう？",
         "昨日は寒くだったでしょう？",
         "昨日は寒くてでしょう？"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q018",
@@ -2219,7 +2236,8 @@
         "でした",
         "でしょ",
         "である"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q019",
@@ -2251,7 +2269,8 @@
         "が",
         "を",
         "へ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q020",
@@ -2283,7 +2302,8 @@
         "Plain dictionary verb",
         "い-adjective dictionary form",
         "Past plain verb"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q021",
@@ -2315,7 +2335,8 @@
         "Mr. Kimura of ABC Trading",
         "Tanaka",
         "The president"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q022",
@@ -2347,7 +2368,8 @@
         "Urgent business came up",
         "He had a fever",
         "He lost the documents"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q023",
@@ -2379,7 +2401,8 @@
         "4:00 PM",
         "4:30 PM",
         "5:00 PM"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q024",
@@ -2411,7 +2434,8 @@
         "No, it is the same in Conference Room 2",
         "Changed to an outside cafe",
         "Canceled"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q025",
@@ -2443,7 +2467,8 @@
         "Call again",
         "Visit the office in person",
         "Cancel the contract"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q026",
@@ -2475,7 +2500,8 @@
         "8:00 AM",
         "9:00 AM",
         "10:00 AM"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q027",
@@ -2507,7 +2533,8 @@
         "At the school sports ground",
         "In the gym",
         "At the cafe"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q028",
@@ -2539,7 +2566,8 @@
         "Sunny and probably hot",
         "Snowy",
         "Stormy"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q029",
@@ -2571,7 +2599,8 @@
         "တင်းနစ်",
         "Soccer",
         "Basketball"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l24.q030",
@@ -2603,7 +2632,8 @@
         "We will probably lose",
         "Winning does not matter",
         "The match is postponed"
-      ]
+      ],
+      "correctIndex": 0
     }
   ],
   "prov": {

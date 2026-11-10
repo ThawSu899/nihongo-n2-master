@@ -410,7 +410,7 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "nakadaka",
+      "pitchPattern": "odaka",
       "dropIndex": 2
     },
     {
@@ -470,7 +470,7 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "nakadaka",
+      "pitchPattern": "odaka",
       "dropIndex": 2
     },
     {
@@ -530,7 +530,7 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "nakadaka",
+      "pitchPattern": "odaka",
       "dropIndex": 2
     },
     {
@@ -650,7 +650,7 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "nakadaka",
+      "pitchPattern": "odaka",
       "dropIndex": 2
     },
     {
@@ -770,7 +770,7 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "nakadaka",
+      "pitchPattern": "odaka",
       "dropIndex": 2
     },
     {
@@ -1617,7 +1617,7 @@
     "title": "The Te-form: Requests and Continuous (てください・ています) - 読解",
     "level": "N5",
     "text": "外は強い雨が降っています。風も吹いています。先生が教室に入ってきました。「皆さん、窓を閉めてください。雨が入っていますよ。」と先生が言いました。学生のワンさんが窓を閉めました。それから先生は「電気が暗いですから、電気をつけてください」と言いました。教室が明るくなって、みんなで日本語の授業を始めました。",
-    "kanaText": "そとはつよいあめがふっています。かぜもふいています。せんせいがきょうしつにはいってきました。「みなさん、まどをしめてください。あめがはいっていますよ。」とせんせいがいいました。がくせいのわんさんがまどをしめました。それからせんせいは「でんきがくらいですから、でんきをつけてください」といいました。きょうしつがあかるくなって、みんなでにほんごのじゅぎょうを风はじめました。",
+    "kanaText": "そとはつよいあめがふっています。かぜもふいています。せんせいがきょうしつにはいってきました。「みなさん、まどをしめてください。あめがはいっていますよ。」とせんせいがいいました。がくせいのわんさんがまどをしめました。それからせんせいは「でんきがくらいですから、でんきをつけてください」といいました。きょうしつがあかるくなって、みんなでにほんごのじゅぎょうをはじめました。",
     "translation": "Heavy rain is falling outside. The wind is also blowing. The teacher entered the classroom. \"Everyone, please close the windows. Rain is coming in,\" said the teacher. The student Wang closed the window. After that, the teacher said, \"Because the lights are dim, please turn on the lights.\" The classroom became bright, and everyone started the Japanese lesson together.",
     "questionIds": [
       "n5.l15.q021",
@@ -1742,7 +1742,8 @@
         "ထိုင်သည်",
         "အသုံးပြုသည်",
         "အလျင်လိုသည် / အမြန်လုပ်သည်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q002",
@@ -1763,7 +1764,20 @@
       "generated": false,
       "promptMy": "\"To sit down\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"To sit down\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「すわります」 ဖြစ်ပါသည်။ (The Japanese word for \"To sit down\" is 座ります (すわります).)"
+      "explanationMy": "အဖြေမှန်မှာ 「すわります」 ဖြစ်ပါသည်။ (The Japanese word for \"To sit down\" is 座ります (すわります).)",
+      "choices": [
+        "すわります",
+        "たちます",
+        "つかいます",
+        "いそぎます"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "မတ်တပ်ရပ်သည်",
+        "အသုံးပြုသည်",
+        "အလျင်လိုသည် / အမြန်လုပ်သည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q003",
@@ -1795,7 +1809,8 @@
         "ဖွင့်သည်",
         "အလျင်လိုသည် / အမြန်လုပ်သည်",
         "အသုံးပြုသည်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q004",
@@ -1816,7 +1831,20 @@
       "generated": false,
       "promptMy": "\"To hurry\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"To hurry\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「いそぎます」 ဖြစ်ပါသည်။ (The Japanese word for \"To hurry\" is 急ぎます (いそぎます).)"
+      "explanationMy": "အဖြေမှန်မှာ 「いそぎます」 ဖြစ်ပါသည်။ (The Japanese word for \"To hurry\" is 急ぎます (いそぎます).)",
+      "choices": [
+        "いそぎます",
+        "たちます",
+        "すわります",
+        "つかいます"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "မတ်တပ်ရပ်သည်",
+        "ထိုင်သည်",
+        "အသုံးပြုသည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q005",
@@ -1848,7 +1876,8 @@
         "မီးဖွင့်သည် / စက်ဖွင့်သည်",
         "ပိတ်သည်",
         "ဖွင့်သည်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q006",
@@ -1869,7 +1898,20 @@
       "generated": false,
       "promptMy": "\"To close / shut\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"To close / shut\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「しめます」 ဖြစ်ပါသည်။ (The Japanese word for \"To close / shut\" is 閉めます (しめます).)"
+      "explanationMy": "အဖြေမှန်မှာ 「しめます」 ဖြစ်ပါသည်။ (The Japanese word for \"To close / shut\" is 閉めます (しめます).)",
+      "choices": [
+        "しめます",
+        "たちます",
+        "すわります",
+        "つかいます"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "မတ်တပ်ရပ်သည်",
+        "ထိုင်သည်",
+        "အသုံးပြုသည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q007",
@@ -1901,7 +1943,8 @@
         "မီးပိတ်သည် / ဖျက်သည်",
         "ကူညီသည်",
         "ခေါ်သည်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q008",
@@ -1922,7 +1965,20 @@
       "generated": false,
       "promptMy": "\"To turn off / extinguish\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"To turn off / extinguish\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「けします」 ဖြစ်ပါသည်။ (The Japanese word for \"To turn off / extinguish\" is 消します (けします).)"
+      "explanationMy": "အဖြေမှန်မှာ 「けします」 ဖြစ်ပါသည်။ (The Japanese word for \"To turn off / extinguish\" is 消します (けします).)",
+      "choices": [
+        "けします",
+        "たちます",
+        "すわります",
+        "つかいます"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "မတ်တပ်ရပ်သည်",
+        "ထိုင်သည်",
+        "အသုံးပြုသည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q009",
@@ -1954,7 +2010,8 @@
         "အဲကွန်း",
         "ခေါ်သည်",
         "ကူညီသည်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q010",
@@ -1975,7 +2032,20 @@
       "generated": false,
       "promptMy": "\"To call (taxi/person)\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"To call (taxi/person)\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「よびます」 ဖြစ်ပါသည်။ (The Japanese word for \"To call (taxi/person)\" is 呼びます (よびます).)"
+      "explanationMy": "အဖြေမှန်မှာ 「よびます」 ဖြစ်ပါသည်။ (The Japanese word for \"To call (taxi/person)\" is 呼びます (よびます).)",
+      "choices": [
+        "よびます",
+        "たちます",
+        "すわります",
+        "つかいます"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "မတ်တပ်ရပ်သည်",
+        "ထိုင်သည်",
+        "အသုံးပြုသည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q011",
@@ -2007,7 +2077,8 @@
         "မတ်တပ်ရပ်သည်",
         "ခဏလောက် / နည်းနည်း",
         "အဲကွန်း"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q012",
@@ -2028,7 +2099,20 @@
       "generated": false,
       "promptMy": "\"A little bit / Just a moment\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"A little bit / Just a moment\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「ちょっと」 ဖြစ်ပါသည်။ (The Japanese word for \"A little bit / Just a moment\" is ちょっと (ちょっと).)"
+      "explanationMy": "အဖြေမှန်မှာ 「ちょっと」 ဖြစ်ပါသည်။ (The Japanese word for \"A little bit / Just a moment\" is ちょっと (ちょっと).)",
+      "choices": [
+        "ちょっと",
+        "たちます",
+        "すわります",
+        "つかいます"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "မတ်တပ်ရပ်သည်",
+        "ထိုင်သည်",
+        "အသုံးပြုသည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q013",
@@ -2060,7 +2144,8 @@
         "Sit, seat",
         "Use, envoy",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q014",
@@ -2092,7 +2177,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q015",
@@ -2124,7 +2210,8 @@
         "Stand, rise",
         "Use, envoy",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q016",
@@ -2156,7 +2243,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q017",
@@ -2188,7 +2276,8 @@
         "Stand, rise",
         "Sit, seat",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q018",
@@ -2220,7 +2309,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q019",
@@ -2252,7 +2342,8 @@
         "Stand, rise",
         "Sit, seat",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q020",
@@ -2284,7 +2375,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q021",
@@ -2316,7 +2408,8 @@
         "晴れて暖かい",
         "雪が降っている",
         "穏やかな曇り"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q022",
@@ -2348,7 +2441,8 @@
         "電気をつけること",
         "教科書を開くこと",
         "宿題を出すこと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q023",
@@ -2380,7 +2474,8 @@
         "先生",
         "田中さん",
         "誰も閉めなかった"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q024",
@@ -2412,7 +2507,8 @@
         "夜になったから",
         "暑かったから",
         "先生が好きだから"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q025",
@@ -2444,7 +2540,8 @@
         "テスト",
         "お昼ご飯",
         "掃除"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q026",
@@ -2476,7 +2573,8 @@
         "掃除",
         "買い出し",
         "料理"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q027",
@@ -2508,7 +2606,8 @@
         "床の上",
         "棚の中",
         "外の車"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q028",
@@ -2540,7 +2639,8 @@
         "窓",
         "箱",
         "カーテン"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q029",
@@ -2572,7 +2672,8 @@
         "軽かった",
         "普通だった",
         "空っぽだった"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l15.q030",
@@ -2604,7 +2705,8 @@
         "断った",
         "文句を言った",
         "無視した"
-      ]
+      ],
+      "correctIndex": 0
     }
   ],
   "prov": {

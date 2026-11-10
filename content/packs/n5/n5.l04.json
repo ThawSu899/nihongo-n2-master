@@ -410,7 +410,7 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "nakadaka",
+      "pitchPattern": "odaka",
       "dropIndex": 3
     },
     {
@@ -470,7 +470,7 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "nakadaka",
+      "pitchPattern": "odaka",
       "dropIndex": 3
     },
     {
@@ -530,7 +530,7 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "nakadaka",
+      "pitchPattern": "odaka",
       "dropIndex": 3
     },
     {
@@ -680,7 +680,7 @@
         "updatedAt": "2026-11-10T00:00:00Z",
         "rev": 1
       },
-      "pitchPattern": "odaka",
+      "pitchPattern": "nakadaka",
       "dropIndex": 3
     },
     {
@@ -1600,7 +1600,8 @@
         "ဘယ်အချိန် / ဘယ်နှစ်နာရီ",
         "ဘယ်နှစ်မိနစ်",
         "ခွဲ (ကိုးနာရီခွဲ)"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q002",
@@ -1621,7 +1622,20 @@
       "generated": false,
       "promptMy": "\"What time\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"What time\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「なんじ」 ဖြစ်ပါသည်။ (The Japanese word for \"What time\" is 何時 (なんじ).)"
+      "explanationMy": "အဖြေမှန်မှာ 「なんじ」 ဖြစ်ပါသည်။ (The Japanese word for \"What time\" is 何時 (なんじ).)",
+      "choices": [
+        "なんじ",
+        "いま",
+        "なんぷん",
+        "はん"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "အခု",
+        "ဘယ်နှစ်မိနစ်",
+        "ခွဲ (ကိုးနာရီခွဲ)"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q003",
@@ -1653,7 +1667,8 @@
         "မနက်ပိုင်း (AM)",
         "ခွဲ (ကိုးနာရီခွဲ)",
         "ဘယ်နှစ်မိနစ်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q004",
@@ -1674,7 +1689,20 @@
       "generated": false,
       "promptMy": "\"Half (e.g. 9:30)\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Half (e.g. 9:30)\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「はん」 ဖြစ်ပါသည်။ (The Japanese word for \"Half (e.g. 9:30)\" is 半 (はん).)"
+      "explanationMy": "အဖြေမှန်မှာ 「はん」 ဖြစ်ပါသည်။ (The Japanese word for \"Half (e.g. 9:30)\" is 半 (はん).)",
+      "choices": [
+        "はん",
+        "いま",
+        "なんじ",
+        "なんぷん"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "အခု",
+        "ဘယ်အချိန် / ဘယ်နှစ်နာရီ",
+        "ဘယ်နှစ်မိနစ်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q005",
@@ -1706,7 +1734,8 @@
         "မနက်",
         "ညနေပိုင်း (PM)",
         "မနက်ပိုင်း (AM)"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q006",
@@ -1727,7 +1756,20 @@
       "generated": false,
       "promptMy": "\"P.M. / Afternoon\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"P.M. / Afternoon\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「ごご」 ဖြစ်ပါသည်။ (The Japanese word for \"P.M. / Afternoon\" is 午後 (ごご).)"
+      "explanationMy": "အဖြေမှန်မှာ 「ごご」 ဖြစ်ပါသည်။ (The Japanese word for \"P.M. / Afternoon\" is 午後 (ごご).)",
+      "choices": [
+        "ごご",
+        "いま",
+        "なんじ",
+        "なんぷん"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "အခု",
+        "ဘယ်အချိန် / ဘယ်နှစ်နာရီ",
+        "ဘယ်နှစ်မိနစ်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q007",
@@ -1759,7 +1801,8 @@
         "နေ့လယ်",
         "ညနေ / ည",
         "တနင်္လာနေ့"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q008",
@@ -1780,7 +1823,20 @@
       "generated": false,
       "promptMy": "\"Noon / Daytime\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Noon / Daytime\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「ひる」 ဖြစ်ပါသည်။ (The Japanese word for \"Noon / Daytime\" is 昼 (ひる).)"
+      "explanationMy": "အဖြေမှန်မှာ 「ひる」 ဖြစ်ပါသည်။ (The Japanese word for \"Noon / Daytime\" is 昼 (ひる).)",
+      "choices": [
+        "ひる",
+        "いま",
+        "なんじ",
+        "なんぷん"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "အခု",
+        "ဘယ်အချိန် / ဘယ်နှစ်နာရီ",
+        "ဘယ်နှစ်မိနစ်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q009",
@@ -1812,7 +1868,8 @@
         "နားရက် / ပိတ်ရက်",
         "တနင်္လာနေ့",
         "ညနေ / ည"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q010",
@@ -1833,7 +1890,20 @@
       "generated": false,
       "promptMy": "\"Monday\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Monday\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「げつようび」 ဖြစ်ပါသည်။ (The Japanese word for \"Monday\" is 月曜日 (げつようび).)"
+      "explanationMy": "အဖြေမှန်မှာ 「げつようび」 ဖြစ်ပါသည်။ (The Japanese word for \"Monday\" is 月曜日 (げつようび).)",
+      "choices": [
+        "げつようび",
+        "いま",
+        "なんじ",
+        "なんぷん"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "အခု",
+        "ဘယ်အချိန် / ဘယ်နှစ်နာရီ",
+        "ဘယ်နှစ်မိနစ်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q011",
@@ -1865,7 +1935,8 @@
         "အခု",
         "စာမေးပွဲ",
         "နားရက် / ပိတ်ရက်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q012",
@@ -1886,7 +1957,20 @@
       "generated": false,
       "promptMy": "\"Exam / Test\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Exam / Test\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「しけん」 ဖြစ်ပါသည်။ (The Japanese word for \"Exam / Test\" is 試験 (しけん).)"
+      "explanationMy": "အဖြေမှန်မှာ 「しけん」 ဖြစ်ပါသည်။ (The Japanese word for \"Exam / Test\" is 試験 (しけん).)",
+      "choices": [
+        "しけん",
+        "いま",
+        "なんじ",
+        "なんぷん"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "အခု",
+        "ဘယ်အချိန် / ဘယ်နှစ်နာရီ",
+        "ဘယ်နှစ်မိနစ်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q013",
@@ -1918,7 +2002,8 @@
         "Minute, divide",
         "Half",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q014",
@@ -1950,7 +2035,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q015",
@@ -1982,7 +2068,8 @@
         "Time, hour",
         "Half",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q016",
@@ -2014,7 +2101,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q017",
@@ -2046,7 +2134,8 @@
         "Time, hour",
         "Minute, divide",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q018",
@@ -2078,7 +2167,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q019",
@@ -2110,7 +2200,8 @@
         "Time, hour",
         "Minute, divide",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q020",
@@ -2142,7 +2233,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q021",
@@ -2174,7 +2266,8 @@
         "午前八時から午後五時まで",
         "午前七時から午後三時まで",
         "午前十時から午後四時まで"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q022",
@@ -2206,7 +2299,8 @@
         "月曜日と火曜日",
         "日曜日だけ",
         "水曜日と金曜日"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q023",
@@ -2238,7 +2332,8 @@
         "一時間 (七時から八時まで)",
         "三時間 (八時から十一時まで)",
         "勉強しない"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q024",
@@ -2270,7 +2365,8 @@
         "六時",
         "八時",
         "九時"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q025",
@@ -2302,7 +2398,8 @@
         "五時半",
         "七時",
         "六時半"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q026",
@@ -2334,7 +2431,8 @@
         "午後五時まで",
         "午後六時まで",
         "午後九時まで"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q027",
@@ -2366,7 +2464,8 @@
         "午後八時",
         "午後三時",
         "閉館している"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q028",
@@ -2398,7 +2497,8 @@
         "月曜日",
         "土曜日",
         "祝日のみ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q029",
@@ -2430,7 +2530,8 @@
         "本の借り方",
         "自習室の予約",
         "パソコンの使い方"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l04.q030",
@@ -2462,7 +2563,8 @@
         "午前十時",
         "午後一時",
         "午前八時半"
-      ]
+      ],
+      "correctIndex": 0
     }
   ],
   "prov": {

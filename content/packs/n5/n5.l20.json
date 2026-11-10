@@ -1568,7 +1568,7 @@
       {
         "speaker": "エミリー",
         "ja": "グエンさん、日本の着物を着たことがありますか。",
-        "kana": "えみりー：ぐえんさん、にほんのきものをきたことがありますか。",
+        "kana": "ぐえんさん、にほんのきものをきたことがありますか。",
         "en": "Nguyen-san, have you ever worn a Japanese kimono before?",
         "my": "Nguyen-san, have you ever worn a Japanese kimono before?",
         "translationMy": "Nguyen-san, have you ever worn a Japanese kimono before?",
@@ -1661,7 +1661,8 @@
         "တည်းခိုသည် (ဟိုတယ်)",
         "သန့်ရှင်းရေးလုပ်သည်",
         "အဝတ်လျှော်သည်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q002",
@@ -1682,7 +1683,20 @@
       "generated": false,
       "promptMy": "\"To stay (at hotel)\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"To stay (at hotel)\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「とまります」 ဖြစ်ပါသည်။ (The Japanese word for \"To stay (at hotel)\" is 泊まります (とまります).)"
+      "explanationMy": "အဖြေမှန်မှာ 「とまります」 ဖြစ်ပါသည်။ (The Japanese word for \"To stay (at hotel)\" is 泊まります (とまります).)",
+      "choices": [
+        "とまります",
+        "のぼります",
+        "そうじします",
+        "せんたくします"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "တက်သည် (တောင်)",
+        "သန့်ရှင်းရေးလုပ်သည်",
+        "အဝတ်လျှော်သည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q003",
@@ -1714,7 +1728,8 @@
         "လေ့ကျင့်သည်",
         "အဝတ်လျှော်သည်",
         "သန့်ရှင်းရေးလုပ်သည်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q004",
@@ -1735,7 +1750,20 @@
       "generated": false,
       "promptMy": "\"To do laundry\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"To do laundry\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「せんたくします」 ဖြစ်ပါသည်။ (The Japanese word for \"To do laundry\" is 洗濯します (せんたくします).)"
+      "explanationMy": "အဖြေမှန်မှာ 「せんたくします」 ဖြစ်ပါသည်။ (The Japanese word for \"To do laundry\" is 洗濯します (せんたくします).)",
+      "choices": [
+        "せんたくします",
+        "のぼります",
+        "とまります",
+        "そうじします"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "တက်သည် (တောင်)",
+        "တည်းခိုသည် (ဟိုတယ်)",
+        "သန့်ရှင်းရေးလုပ်သည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q005",
@@ -1767,7 +1795,8 @@
         "အိပ်ငိုက်သော",
         "ဖြစ်လာသည်",
         "လေ့ကျင့်သည်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q006",
@@ -1788,7 +1817,20 @@
       "generated": false,
       "promptMy": "\"To become\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"To become\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「なります」 ဖြစ်ပါသည်။ (The Japanese word for \"To become\" is なります (なります).)"
+      "explanationMy": "အဖြေမှန်မှာ 「なります」 ဖြစ်ပါသည်။ (The Japanese word for \"To become\" is なります (なります).)",
+      "choices": [
+        "なります",
+        "のぼります",
+        "とまります",
+        "そうじします"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "တက်သည် (တောင်)",
+        "တည်းခိုသည် (ဟိုတယ်)",
+        "သန့်ရှင်းရေးလုပ်သည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q007",
@@ -1820,7 +1862,8 @@
         "သန်မာသော",
         "အားနည်းသော",
         "ကျန်းမာရေးအခြေအနေ / အခြေအနေ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q008",
@@ -1841,7 +1884,20 @@
       "generated": false,
       "promptMy": "\"Strong\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Strong\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「つよい」 ဖြစ်ပါသည်။ (The Japanese word for \"Strong\" is 強い (つよい).)"
+      "explanationMy": "အဖြေမှန်မှာ 「つよい」 ဖြစ်ပါသည်။ (The Japanese word for \"Strong\" is 強い (つよい).)",
+      "choices": [
+        "つよい",
+        "のぼります",
+        "とまります",
+        "そうじします"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "တက်သည် (တောင်)",
+        "တည်းခိုသည် (ဟိုတယ်)",
+        "သန့်ရှင်းရေးလုပ်သည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q009",
@@ -1873,7 +1929,8 @@
         "တစ်ကြိမ်",
         "ကျန်းမာရေးအခြေအနေ / အခြေအနေ",
         "အားနည်းသော"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q010",
@@ -1894,7 +1951,20 @@
       "generated": false,
       "promptMy": "\"Condition / State of health\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Condition / State of health\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「ちょうし」 ဖြစ်ပါသည်။ (The Japanese word for \"Condition / State of health\" is 調子 (ちょうし).)"
+      "explanationMy": "အဖြေမှန်မှာ 「ちょうし」 ဖြစ်ပါသည်။ (The Japanese word for \"Condition / State of health\" is 調子 (ちょうし).)",
+      "choices": [
+        "ちょうし",
+        "のぼります",
+        "とまります",
+        "そうじします"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "တက်သည် (တောင်)",
+        "တည်းခိုသည် (ဟိုတယ်)",
+        "သန့်ရှင်းရေးလုပ်သည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q011",
@@ -1926,7 +1996,8 @@
         "တက်သည် (တောင်)",
         "တစ်ကြိမ်မှ (မ...)",
         "တစ်ကြိမ်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q012",
@@ -1947,7 +2018,20 @@
       "generated": false,
       "promptMy": "\"Never / Not even once (with neg)\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
       "questionMy": "\"Never / Not even once (with neg)\" ၏ အသံထွက်ကို ဟီရဂနဖြင့် ရိုက်ထည့်ပါ -",
-      "explanationMy": "အဖြေမှန်မှာ 「いちども」 ဖြစ်ပါသည်။ (The Japanese word for \"Never / Not even once (with neg)\" is 一度も (いちども).)"
+      "explanationMy": "အဖြေမှန်မှာ 「いちども」 ဖြစ်ပါသည်။ (The Japanese word for \"Never / Not even once (with neg)\" is 一度も (いちども).)",
+      "choices": [
+        "いちども",
+        "のぼります",
+        "とまります",
+        "そうじします"
+      ],
+      "choicesMy": [
+        "အဖြေမှန်",
+        "တက်သည် (တောင်)",
+        "တည်းခိုသည် (ဟိုတယ်)",
+        "သန့်ရှင်းရေးလုပ်သည်"
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q013",
@@ -1979,7 +2063,8 @@
         "Stay overnight",
         "Wash, cleanse",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q014",
@@ -2011,7 +2096,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q015",
@@ -2043,7 +2129,8 @@
         "Climb, ascend",
         "Wash, cleanse",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q016",
@@ -2075,7 +2162,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q017",
@@ -2107,7 +2195,8 @@
         "Climb, ascend",
         "Stay overnight",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q018",
@@ -2139,7 +2228,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q019",
@@ -2171,7 +2261,8 @@
         "Climb, ascend",
         "Stay overnight",
         "သစ်ပင်"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q020",
@@ -2203,7 +2294,8 @@
         "みず",
         "ほん",
         "ひと"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q021",
@@ -2235,7 +2327,8 @@
         "一年",
         "三か月",
         "二年"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q022",
@@ -2267,7 +2360,8 @@
         "海で泳いだ",
         "京都でお寺巡りをした",
         "北海道へ行った"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q023",
@@ -2299,7 +2393,8 @@
         "山登りや旅行に行く",
         "アルバイトばかりする",
         "友達と買い物に行く"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q024",
@@ -2331,7 +2426,8 @@
         "富士山に登ること",
         "京都に行くこと",
         "桜を見ること"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q025",
@@ -2363,7 +2459,8 @@
         "星空",
         "雪",
         "雲海だけ"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q026",
@@ -2395,7 +2492,8 @@
         "いいえ、一度もない",
         "毎日着ている",
         "浴衣だけ着た"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q027",
@@ -2427,7 +2525,8 @@
         "グエンさんだけある",
         "エミリーさんだけある",
         "二人とも何度も体験した"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q028",
@@ -2459,7 +2558,8 @@
         "京都へ旅行する",
         "着物を買う",
         "国へ帰る"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q029",
@@ -2491,7 +2591,8 @@
         "一人で行ってきて",
         "来月にしよう",
         "やめよう"
-      ]
+      ],
+      "correctIndex": 0
     },
     {
       "id": "n5.l20.q030",
@@ -2523,7 +2624,8 @@
         "東京",
         "奈良",
         "大阪"
-      ]
+      ],
+      "correctIndex": 0
     }
   ],
   "prov": {
