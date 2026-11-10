@@ -10,11 +10,6 @@ import {
   N2_BATCH5_PACKS,
   getN2Batch5LessonPack,
   ALL_N2_PACKS,
-  n2l41Data,
-  n2l45Data,
-  n2l50Data,
-  n2l55Data,
-  n2l60Data,
 } from '../src/domain/curriculum';
 import curriculumMapJson from '../content/curriculum-map.json';
 import { CurriculumScreen } from '../src/presentation/screens/CurriculumScreen';
@@ -49,16 +44,14 @@ describe('JLPT N2 Batch 5 Curriculum Expansion & Syllabus Completion (n2.l41 - n
   };
 
   describe('1. Schema Validation, Linter & Burmese Enrichment Verification', () => {
-    it('contains all 20 exported TypeScript packs in N2_BATCH5_PACKS and 60 in ALL_N2_PACKS', () => {
+    it('contains all 20 exported packs in N2_BATCH5_PACKS and 60 in ALL_N2_PACKS', () => {
       expect(N2_BATCH5_PACKS).toHaveLength(20);
       const exportedIds = N2_BATCH5_PACKS.map((p: LessonPack) => p.id);
       expect(exportedIds).toEqual(batchIds);
       expect(ALL_N2_PACKS).toHaveLength(60);
-      expect(n2l41Data.id).toBe('n2.l41');
-      expect(n2l45Data.id).toBe('n2.l45');
-      expect(n2l50Data.id).toBe('n2.l50');
-      expect(n2l55Data.id).toBe('n2.l55');
-      expect(n2l60Data.id).toBe('n2.l60');
+      for (const id of batchIds) {
+        expect(getN2Batch5LessonPack(id)?.id).toBe(id);
+      }
     });
 
     for (const lessonId of batchIds) {
@@ -229,9 +222,10 @@ describe('JLPT N2 Batch 5 Curriculum Expansion & Syllabus Completion (n2.l41 - n
     });
 
     it('renders LessonPlayerScreen for n2.l41 without runtime errors', () => {
+      const pack = getN2Batch5LessonPack('n2.l41')!;
       const html = renderToString(
         React.createElement(LessonPlayerScreen, {
-          pack: n2l41Data,
+          pack,
           profile: dummyProfile,
           onMasteryUpdated: () => {},
           onExit: () => {},
@@ -243,9 +237,10 @@ describe('JLPT N2 Batch 5 Curriculum Expansion & Syllabus Completion (n2.l41 - n
     });
 
     it('renders LessonPlayerScreen for final capstone n2.l60 without runtime errors', () => {
+      const pack = getN2Batch5LessonPack('n2.l60')!;
       const html = renderToString(
         React.createElement(LessonPlayerScreen, {
-          pack: n2l60Data,
+          pack,
           profile: dummyProfile,
           onMasteryUpdated: () => {},
           onExit: () => {},

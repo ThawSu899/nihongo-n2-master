@@ -9,16 +9,6 @@ import { ContentLoader } from '../src/data/content/content-loader';
 import {
   N2_BATCH3_PACKS,
   getN2Batch3LessonPack,
-  n2l21Data,
-  n2l22Data,
-  n2l23Data,
-  n2l24Data,
-  n2l25Data,
-  n2l26Data,
-  n2l27Data,
-  n2l28Data,
-  n2l29Data,
-  n2l30Data,
 } from '../src/domain/curriculum';
 import curriculumMapJson from '../content/curriculum-map.json';
 import { CurriculumScreen } from '../src/presentation/screens/CurriculumScreen';
@@ -64,20 +54,13 @@ describe('JLPT N2 Batch 3 Curriculum Expansion (n2.l21 - n2.l30)', () => {
   };
 
   describe('1. Schema Validation, Linter & Burmese Enrichment Verification', () => {
-    it('contains all 10 exported TypeScript packs in N2_BATCH3_PACKS', () => {
+    it('contains all 10 exported packs in N2_BATCH3_PACKS', () => {
       expect(N2_BATCH3_PACKS).toHaveLength(10);
       const exportedIds = N2_BATCH3_PACKS.map((p) => p.id);
       expect(exportedIds).toEqual(batchIds);
-      expect(n2l21Data.id).toBe('n2.l21');
-      expect(n2l22Data.id).toBe('n2.l22');
-      expect(n2l23Data.id).toBe('n2.l23');
-      expect(n2l24Data.id).toBe('n2.l24');
-      expect(n2l25Data.id).toBe('n2.l25');
-      expect(n2l26Data.id).toBe('n2.l26');
-      expect(n2l27Data.id).toBe('n2.l27');
-      expect(n2l28Data.id).toBe('n2.l28');
-      expect(n2l29Data.id).toBe('n2.l29');
-      expect(n2l30Data.id).toBe('n2.l30');
+      for (const id of batchIds) {
+        expect(getN2Batch3LessonPack(id)?.id).toBe(id);
+      }
     });
 
     for (const lessonId of batchIds) {
@@ -240,9 +223,10 @@ describe('JLPT N2 Batch 3 Curriculum Expansion (n2.l21 - n2.l30)', () => {
     });
 
     it('renders LessonPlayerScreen for n2.l21 without runtime errors', () => {
+      const pack = getN2Batch3LessonPack('n2.l21')!;
       const html = renderToString(
         React.createElement(LessonPlayerScreen, {
-          pack: n2l21Data,
+          pack,
           profile: dummyProfile,
           onMasteryUpdated: () => {},
           onExit: () => {},
@@ -254,9 +238,10 @@ describe('JLPT N2 Batch 3 Curriculum Expansion (n2.l21 - n2.l30)', () => {
     });
 
     it('renders LessonPlayerScreen for n2.l30 without runtime errors', () => {
+      const pack = getN2Batch3LessonPack('n2.l30')!;
       const html = renderToString(
         React.createElement(LessonPlayerScreen, {
-          pack: n2l30Data,
+          pack,
           profile: dummyProfile,
           onMasteryUpdated: () => {},
           onExit: () => {},
