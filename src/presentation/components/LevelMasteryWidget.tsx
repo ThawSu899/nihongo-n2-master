@@ -95,14 +95,14 @@ export const LevelMasteryWidget: React.FC<LevelMasteryWidgetProps> = ({ stats, o
             <div className="text-stone-900 font-bold">
               {`${totalCompletedLessons} `}<span className="text-zinc-500">/ 174</span>
             </div>
-            <div className="text-[10px] text-stone-500">{`Lessons (${overallLessonPercent}%)`}</div>
+            <div className="text-[10px] text-stone-600">{`Lessons (${overallLessonPercent}%)`}</div>
           </div>
           <div className="h-6 w-[1px] bg-stone-200" />
           <div>
             <div className="text-stone-900 font-bold">
               {`${totalMasteredVocab} `}<span className="text-zinc-500">/ 5,220</span>
             </div>
-            <div className="text-[10px] text-stone-500">{`Vocab (${overallVocabPercent}%)`}</div>
+            <div className="text-[10px] text-stone-600">{`Vocab (${overallVocabPercent}%)`}</div>
           </div>
         </div>
       </div>
@@ -146,7 +146,7 @@ export const LevelMasteryWidget: React.FC<LevelMasteryWidgetProps> = ({ stats, o
                 <div className="space-y-1.5 mb-3">
                   <div className="flex items-center justify-between text-xs">
                     <span className="text-stone-600 flex items-center gap-1.5">
-                      <BookOpen className="w-3.5 h-3.5 text-stone-500" /> သင်ခန်းစာ
+                      <BookOpen className="w-3.5 h-3.5 text-stone-600" /> သင်ခန်းစာ
                     </span>
                     <span className="font-mono text-stone-800 font-semibold">{`${lessonPercent}%`}</span>
                   </div>
@@ -162,7 +162,7 @@ export const LevelMasteryWidget: React.FC<LevelMasteryWidgetProps> = ({ stats, o
                 <div className="space-y-1.5 mb-3.5">
                   <div className="flex items-center justify-between text-xs">
                     <span className="text-stone-600 flex items-center gap-1.5">
-                      <CheckCircle2 className="w-3.5 h-3.5 text-stone-500" /> ဝေါဟာရ ကျွမ်းကျင်မှု
+                      <CheckCircle2 className="w-3.5 h-3.5 text-stone-600" /> ဝေါဟာရ ကျွမ်းကျင်မှု
                     </span>
                     <span className="font-mono text-stone-800 font-semibold">{`${vocabPercent}%`}</span>
                   </div>
@@ -172,14 +172,14 @@ export const LevelMasteryWidget: React.FC<LevelMasteryWidgetProps> = ({ stats, o
                       style={{ width: `${vocabPercent}%` }}
                     />
                   </div>
-                  <div className="text-[11px] text-stone-500 font-mono text-right">
+                  <div className="text-[11px] text-stone-600 font-mono text-right">
                     {`${cur.masteredVocab}/${cfg.totalVocab} Vocab`}
                   </div>
                 </div>
               </div>
 
               {/* Footer Action */}
-              <div className="flex items-center justify-between pt-2.5 border-t border-stone-200 text-xs text-stone-500 group-hover:text-stone-900 transition-colors">
+              <div className="flex items-center justify-between pt-2.5 border-t border-stone-200 text-xs text-stone-600 group-hover:text-stone-900 transition-colors">
                 <span className="font-burmese text-[11px] flex items-center gap-1">
                   <Sparkles className="w-3 h-3 text-amber-500" /> အသေးစိတ်လေ့လာရန်
                 </span>
