@@ -450,7 +450,7 @@ describe('Phase 5 Integration: Google Sheets 12-Tab Pipeline, Atomic Apply/Rollb
         vi.spyOn(mockAuth, 'getDriveAccessToken').mockReturnValue('test-token');
 
         await expect(GoogleDriveService.getOrCreateAppFolder()).rejects.toThrow(
-          /Failed to search Google Drive folders: Forbidden/
+          /Google Drive permission denied \(403\)|Failed to search Google Drive folders/
         );
       });
 

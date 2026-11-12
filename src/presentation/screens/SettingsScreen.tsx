@@ -433,9 +433,12 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
           message: `Successfully backed up study progress to Google Drive (${filename}).`,
         });
       } else {
+        const detail = driveAdapter.lastError;
         setDriveStatus({
           type: 'error',
-          message: 'Failed to backup to Google Drive. Please check your network connection.',
+          message: detail
+            ? `Failed to backup to Google Drive: ${detail}`
+            : 'Failed to backup to Google Drive. Please check your network connection or Google Drive permissions.',
         });
       }
     } catch (err: any) {
@@ -475,9 +478,12 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
       const backupJson = await driveAdapter.getBackup(latestBackup.id);
 
       if (!backupJson) {
+        const detail = driveAdapter.lastError;
         setDriveStatus({
           type: 'error',
-          message: `Could not retrieve backup file "${latestBackup.name}" from Google Drive.`,
+          message: detail
+            ? `Could not retrieve backup file from Google Drive: ${detail}`
+            : `Could not retrieve backup file "${latestBackup.name}" from Google Drive.`,
         });
         return;
       }

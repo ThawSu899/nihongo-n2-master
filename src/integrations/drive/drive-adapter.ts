@@ -66,6 +66,8 @@ export class GoogleDriveAdapter implements FileStore {
     'Japanese-N2-Master/Images',
   ];
 
+  public lastError: string | null = null;
+
   constructor(private accessToken?: string) {}
 
   /**
@@ -80,43 +82,58 @@ export class GoogleDriveAdapter implements FileStore {
   }
 
   async saveBackup(filename: string, content: string): Promise<boolean> {
+    this.lastError = null;
     if (typeof navigator !== 'undefined' && navigator.onLine === false) {
-      console.warn('[GoogleDriveAdapter] Offline detected. Cannot save backup to Google Drive.');
+      this.lastError = 'You appear to be offline. Saving backup requires an active internet connection.';
+      console.warn(`[GoogleDriveAdapter] Offline detected. ${this.lastError}`);
       return false;
     }
     if (!this.isConfigured()) {
-      throw new Error('Google Drive integration is not connected. Sign in with Google to enable Drive backups.');
+      this.lastError = 'Google Drive integration is not connected. Sign in with Google to enable Drive backups.';
+      throw new Error(this.lastError);
     }
     try {
       await GoogleDriveService.uploadBackup(content, filename, this.getEffectiveAccessToken() || undefined);
       return true;
     } catch (err: any) {
-      console.warn(`[GoogleDriveAdapter] saveBackup failed: ${err.message}`);
+      this.lastError = err?.message || String(err);
+      console.warn(`[GoogleDriveAdapter] saveBackup failed: ${this.lastError}`);
       return false;
     }
   }
 
   async getBackup(fileId: string): Promise<string | null> {
+    this.lastError = null;
     if (typeof navigator !== 'undefined' && navigator.onLine === false) {
-      console.warn('[GoogleDriveAdapter] Offline detected. Cannot get backup from Google Drive.');
+      this.lastError = 'You appear to be offline. Downloading backup requires an active internet connection.';
+      console.warn(`[GoogleDriveAdapter] Offline detected. ${this.lastError}`);
       return null;
     }
-    if (!this.isConfigured()) return null;
+    if (!this.isConfigured()) {
+      this.lastError = 'Google Drive integration is not connected. Sign in with Google to enable Drive restores.';
+      return null;
+    }
     try {
       return await GoogleDriveService.downloadBackup(fileId, this.getEffectiveAccessToken() || undefined);
     } catch (err: any) {
-      console.warn(`[GoogleDriveAdapter] getBackup failed: ${err.message}`);
+      this.lastError = err?.message || String(err);
+      console.warn(`[GoogleDriveAdapter] getBackup failed: ${this.lastError}`);
       return null;
     }
   }
 
   async deleteBackup(fileId: string): Promise<boolean> {
-    if (!this.isConfigured()) return false;
+    this.lastError = null;
+    if (!this.isConfigured()) {
+      this.lastError = 'Google Drive integration is not connected.';
+      return false;
+    }
     try {
       await GoogleDriveService.deleteBackup(fileId, this.getEffectiveAccessToken() || undefined);
       return true;
     } catch (err: any) {
-      console.warn(`[GoogleDriveAdapter] deleteBackup failed: ${err.message}`);
+      this.lastError = err?.message || String(err);
+      console.warn(`[GoogleDriveAdapter] deleteBackup failed: ${this.lastError}`);
       return false;
     }
   }

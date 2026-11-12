@@ -193,5 +193,55 @@ describe('Google Account & Drive Backup UI', () => {
       expect(result.success).toBe(true);
       expect(result.message).toBe('All tables restored');
     });
+
+    it('falls back to direct folder creation when folder search returns 403 under drive.file scope and caches folder ID', async () => {
+      setAccessToken('test-drive-token');
+      localStorage.removeItem('google_drive_app_folder_id');
+
+      const originalFetch = global.fetch;
+      try {
+        global.fetch = vi.fn().mockImplementation((url: string, opts?: any) => {
+          // 1. Folder search returns 403 Forbidden under drive.file scope
+          if (typeof url === 'string' && url.includes('/drive/v3/files?q=')) {
+            return Promise.resolve({
+              ok: false,
+              status: 403,
+              statusText: 'Forbidden',
+              json: async () => ({ error: { message: 'The user has not granted read access' } }),
+              text: async () => 'Forbidden',
+            });
+          }
+          // 2. Direct folder creation POST returns 200 with new folder ID
+          if (typeof url === 'string' && url.endsWith('/drive/v3/files') && opts?.method === 'POST') {
+            return Promise.resolve({
+              ok: true,
+              status: 200,
+              json: async () => ({ id: 'new-app-folder-id-456', name: 'Japanese-N2-Master' }),
+            });
+          }
+          return Promise.resolve({ ok: true, status: 200, json: async () => ({}) });
+        });
+
+        const folderId = await GoogleDriveService.getOrCreateAppFolder('test-drive-token');
+        expect(folderId).toBe('new-app-folder-id-456');
+        expect(localStorage.getItem('google_drive_app_folder_id')).toBe('new-app-folder-id-456');
+      } finally {
+        global.fetch = originalFetch;
+      }
+    });
+
+    it('stores descriptive lastError in GoogleDriveAdapter when saveBackup fails with 403', async () => {
+      setAccessToken('test-drive-token');
+      const adapter = new GoogleDriveAdapter();
+
+      vi.spyOn(GoogleDriveService, 'uploadBackup').mockRejectedValue(
+        new Error('Google Drive permission denied (403): Access forbidden under drive.file scope.')
+      );
+
+      const success = await adapter.saveBackup('test.json', '{}');
+      expect(success).toBe(false);
+      expect(adapter.lastError).toContain('Google Drive permission denied (403)');
+      expect(adapter.lastError).not.toContain('check your network connection');
+    });
   });
 });
