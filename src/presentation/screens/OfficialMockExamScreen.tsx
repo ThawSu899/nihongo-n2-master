@@ -40,6 +40,33 @@ import { ChoukaiAudioEngine, ChoukaiSpeed } from '../../domain/audio/choukai-aud
 import { QuestionSkill } from '../../domain/models/types';
 import { useScopedShortcuts } from '../context/GlobalShortcutContext';
 
+// Safe rendering helper for question prompts that might contain <u> or newlines
+function renderFormattedPrompt(prompt: string): React.ReactNode {
+  const lines = prompt.split('\n');
+  return lines.map((line, lineIdx) => {
+    // Parse <u>...</u> tags safely without dangerouslySetInnerHTML
+    const parts = line.split(/(<u>.*?<\/u>)/g);
+    const lineElements = parts.map((part, partIdx) => {
+      if (part.startsWith('<u>') && part.endsWith('</u>')) {
+        const text = part.slice(3, -4);
+        return (
+          <u key={partIdx} className="underline decoration-2 underline-offset-4">
+            {text}
+          </u>
+        );
+      }
+      return <React.Fragment key={partIdx}>{part}</React.Fragment>;
+    });
+
+    return (
+      <React.Fragment key={lineIdx}>
+        {lineIdx > 0 && <br />}
+        {lineElements}
+      </React.Fragment>
+    );
+  });
+}
+
 interface OfficialMockExamScreenProps {
   onExit: () => void;
   onLaunchRemediationDrill?: (missedQuestionIds: string[]) => void;
@@ -771,12 +798,9 @@ export const OfficialMockExamScreen: React.FC<OfficialMockExamScreenProps> = ({
               <div className="max-w-3xl mx-auto space-y-5">
                 <div className="bg-white border border-stone-200 rounded-2xl p-6 sm:p-8 space-y-5 shadow-sm">
                   {/* Prompt Text with HTML <u> formatting */}
-                  <div
-                    className="text-base sm:text-lg font-bold text-stone-900 font-japanese leading-relaxed"
-                    dangerouslySetInnerHTML={{
-                      __html: activeQuestionMeta.question.prompt.replace(/\n/g, '<br />'),
-                    }}
-                  />
+                  <div className="text-base sm:text-lg font-bold text-stone-900 font-japanese leading-relaxed">
+                    {renderFormattedPrompt(activeQuestionMeta.question.prompt)}
+                  </div>
 
                   {/* Scrambled parts for Mondai 8 (文の組み立て) */}
                   {activeQuestionMeta.starParts && (
