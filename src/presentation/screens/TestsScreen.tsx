@@ -29,6 +29,7 @@ import {
   AssessmentType,
   Question,
   QuestionSkill,
+  N2ReadinessMetric,
 } from '../../domain/models/types';
 import { AssessmentEngine } from '../../domain/assessment/assessment-engine';
 import { SystemClock } from '../../domain/common/clock';
@@ -111,7 +112,26 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
   // General assessment data
   const [assessmentHistory, setAssessmentHistory] = useState<AssessmentResult[]>([]);
-  const [readiness, setReadiness] = useState<any>(null);
+  const [readiness, setReadiness] = useState<N2ReadinessMetric | null>(() => {
+    return engine.calculateReadiness({
+      totalCurriculumLessons: 174,
+      masteredLessonsCount: 0,
+      retainedLessonsCount: 0,
+      srs30DayRetention: 0,
+      recentWeeklyTestAccuracies: [],
+      skillRollingAccuracies: {
+        vocab: masteryRecord?.scores.vocab || 0.85,
+        kanji: masteryRecord?.scores.kanji || 0.85,
+        grammar: masteryRecord?.scores.grammar || 0.85,
+        reading: masteryRecord?.scores.reading || 0.8,
+        listening: masteryRecord?.scores.listening || 0.8,
+      },
+      srsBacklogCount: 0,
+      srsDailyCap: profile.dailyReviewCap || 200,
+      levelTestPassed: false,
+      hasSrsData: false,
+    });
+  });
   const [weaknessReport, setWeaknessReport] = useState<WeaknessReport | null>(null);
   const [quarantineLeeches, setQuarantineLeeches] = useState<LeechItem[]>([]);
   const [rehabilitatingCardId, setRehabilitatingCardId] = useState<string | null>(null);
@@ -152,7 +172,8 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
     const dueCount = cards.filter((c) => new Date(c.due).getTime() <= Date.now()).length;
 
     const logs = await db.review_logs.toArray();
-    const srsRetention = calculateTrueRetention(logs, clock);
+    const hasSrsData = logs.length > 0;
+    const srsRetention = hasSrsData ? calculateTrueRetention(logs, clock) : 0;
 
     const weeklyAccuracies = history.filter((h) => h.type === 'weekly').map((h) => h.accuracy);
     const levelPassed = history.some((h) => h.type === 'level' && h.passed);
@@ -173,6 +194,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
       srsBacklogCount: dueCount,
       srsDailyCap: profile.dailyReviewCap || 200,
       levelTestPassed: levelPassed,
+      hasSrsData,
     });
 
     setReadiness(calculated);
@@ -181,6 +203,107 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
     const report = await WeaknessRemediator.analyzeWeaknesses();
     setWeaknessReport(report);
     setQuarantineLeeches(report.leeches);
+  };
+
+  const isBrandNewLearner = Boolean(
+    readiness &&
+    readiness.lessonMasteryPct === 0 &&
+    !readiness.hasSrsData &&
+    readiness.weeklyTestsAvgPct === 0 &&
+    !readiness.levelTestPassed
+  );
+
+  const getRecommendedNextStep = () => {
+    if (!readiness) return null;
+
+    const gate1Passed = readiness.lessonMasteryPct >= 90;
+    const gate2Passed = readiness.lessonRetentionPct >= 50;
+    const gate3Passed = Boolean(readiness.hasSrsData && readiness.srs30DayRetentionPct >= 85);
+    const gate4Passed = readiness.weeklyTestsAvgPct >= 75;
+    const gate5Passed = Boolean(readiness.levelTestPassed);
+
+    if (gate1Passed && gate2Passed && gate3Passed && gate4Passed && gate5Passed) {
+      return {
+        gateName: 'All 5 Gates Passed (သတ်မှတ်ချက် ၅ ချက်စလုံး ပြည့်မီပြီး)',
+        title: 'Ready for Official Mock Exam (တကယ့်စာမေးပွဲပုံစံ စတင်ဖြေဆိုနိုင်ပါပြီ)',
+        descriptionEn: 'You have satisfied all 5 curriculum, retention, and assessment benchmark gates. Test your endurance in a timed official mock simulation.',
+        descriptionMy: 'သတ်မှတ်ထားသော အရည်အချင်းစစ် အဆင့် ၅ ချက်စလုံးကို အောင်မြင်ပြီးဖြစ်ပါသည်။ တကယ့်စာမေးပွဲ အချိန်သတ်မှတ်ချက်အတိုင်း စတင်ဖြေဆိုပါ။',
+        actionLabel: 'Launch Full Mock Exam (本番模試)',
+        actionIcon: Play,
+        onClick: () => setIsMockExamActive(true),
+        badgeText: 'Official Qualification · အရည်အချင်းပြည့်မီ',
+      };
+    }
+
+    if (!gate1Passed) {
+      return {
+        gateName: 'Gate 1: Lesson Curriculum Mastery (သင်ရိုးပြီးမြောက်မှု)',
+        title: `Complete Current Lesson ${activeLesson.number} (${activeLesson.title})`,
+        descriptionEn: `Curriculum mastery is currently at ${readiness.lessonMasteryPct}% (target: 90%). Complete Lesson ${activeLesson.number} to advance syllabus coverage.`,
+        descriptionMy: `လက်ရှိ သင်ရိုးပြီးမြောက်မှုမှာ ${readiness.lessonMasteryPct}% ဖြစ်ပြီး သတ်မှတ်ချက် ၉၀% ပြည့်မီရန် သင်ခန်းစာ ${activeLesson.number} ကို ဆက်လက်လေ့လာပါ။`,
+        actionLabel: `Start Lesson ${activeLesson.number} Assessment`,
+        actionIcon: BookOpen,
+        onClick: () => onStartLessonTest(activeLesson.id),
+        badgeText: 'Highest Priority · အဓိကဦးစားပေး',
+      };
+    }
+
+    if (!gate3Passed) {
+      const isZero = !readiness.hasSrsData;
+      return {
+        gateName: 'Gate 3: SRS 30-Day True Retention (ရက် ၃၀ SRS မှတ်ဉာဏ်ထိန်းသိမ်းမှု)',
+        title: isZero
+          ? 'Start First SRS Flashcard Reviews (SRS ကတ်များ စတင်လေ့ကျင့်ပါ)'
+          : 'Reinforce SRS Retention & Clear Backlog (SRS မှတ်မိမှုနှုန်း မြှင့်တင်ပါ)',
+        descriptionEn: isZero
+          ? 'No SRS review data recorded yet. Practice flashcards in the Cram Lab to activate spaced repetition toward the 85% benchmark.'
+          : `Current 30-day retention is ${readiness.srs30DayRetentionPct}% (target: 85%). Clear due flashcards and eliminate leeches.`,
+        descriptionMy: isZero
+          ? 'SRS ပြန်လှန်လေ့ကျင့်မှု ဒေတာ မရှိသေးပါ။ ၈၅% ပြည့်မီရန် Cram Lab တွင် ဝေါဟာရနှင့် သဒ္ဒါကတ်များကို စတင်လေ့ကျင့်ပါ။'
+          : `လက်ရှိ ရက် ၃၀ မှတ်မိမှုနှုန်းမှာ ${readiness.srs30DayRetentionPct}% ဖြစ်ပြီး ၈၅% ပြည့်မီရန် မှတ်ဉာဏ်ကတ်များကို ပြန်လည်လေ့ကျင့်ပါ။`,
+        actionLabel: 'Open Grammar & Vocab Cram Lab',
+        actionIcon: Zap,
+        onClick: () => setActiveTab('cram'),
+        badgeText: 'SRS Memory Gate · မှတ်ဉာဏ်အဆင့်',
+      };
+    }
+
+    if (!gate2Passed) {
+      return {
+        gateName: 'Gate 2: Lesson Retention Rate (သင်ခန်းစာ မှတ်မိမှုနှုန်း)',
+        title: 'Strengthen Retained Lessons (သင်ခန်းစာများ ပြန်လည်စစ်ဆေးပါ)',
+        descriptionEn: `Lesson retention rate is at ${readiness.lessonRetentionPct}% (target: 50%). Re-test previously studied units to lock in long-term mastery.`,
+        descriptionMy: `သင်ခန်းစာ မှတ်မိမှုနှုန်းမှာ ${readiness.lessonRetentionPct}% ဖြစ်ပြီး သတ်မှတ်ချက် ၅၀% ပြည့်မီရန် ယခင်သင်ခန်းစာများကို ပြန်လည်ဖြေဆိုပါ။`,
+        actionLabel: `Take Lesson ${activeLesson.number} Assessment`,
+        actionIcon: RotateCcw,
+        onClick: () => onStartLessonTest(activeLesson.id),
+        badgeText: 'Retention Prerequisite · မှတ်မိမှုလိုအပ်ချက်',
+      };
+    }
+
+    if (!gate4Passed) {
+      return {
+        gateName: 'Gate 4: Weekly Tests Avg Score (အပတ်စဉ် စာမေးပွဲ ပျမ်းမျှရမှတ်)',
+        title: 'Take Multi-Skill Weekly Review Test (အပတ်စဉ် စာမေးပွဲ ဖြေဆိုပါ)',
+        descriptionEn: `Weekly tests average score is ${readiness.weeklyTestsAvgPct}% (target: 75%). Complete a comprehensive 45-minute multi-skill test to raise your benchmark.`,
+        descriptionMy: `အပတ်စဉ် စာမေးပွဲ ပျမ်းမျှရမှတ်မှာ ${readiness.weeklyTestsAvgPct}% ဖြစ်ပြီး သတ်မှတ်ချက် ၇၅% ပြည့်မီရန် ၄၅ မိနစ် စာမေးပွဲကို ဖြေဆိုပါ။`,
+        actionLabel: 'Start Weekly Review Test',
+        actionIcon: Clock,
+        onClick: () => startAssessment('weekly'),
+        badgeText: 'Audit Benchmark · အပတ်စဉ်စစ်ဆေးမှု',
+      };
+    }
+
+    return {
+      gateName: `Gate 5: JLPT ${profile.level} Level Readiness Test (${profile.level} အဆင့်စစ် စာမေးပွဲ)`,
+      title: `Pass Official ${profile.level} Level Evaluation (အဆင့်စစ် စာမေးပွဲ ဖြေဆိုပါ)`,
+      descriptionEn: `All syllabus and retention requirements met! Complete the official ${profile.level} evaluation test to unlock honban mock simulation readiness.`,
+      descriptionMy: `သင်ရိုးနှင့် မှတ်မိမှု လိုအပ်ချက်များ ပြည့်မီပါပြီ။ အဆင့်စစ် စာမေးပွဲ ဖြေဆိုအောင်မြင်ပါက အပြည့်အဝ အရည်အချင်းပြည့်မီပါမည်။`,
+      actionLabel: `Take ${profile.level} Level Evaluation Test`,
+      actionIcon: Award,
+      onClick: () => startAssessment('level'),
+      badgeText: 'Final Prerequisite · နောက်ဆုံးလိုအပ်ချက်',
+    };
   };
 
   // --- Formal Assessment Handlers ---
@@ -1378,10 +1501,150 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
             </div>
           )}
 
-          {/* JLPT N2 Learning Readiness Engine Gauge */}
+          {/* Brand-New Learner: Non-Destructive "Start Here" Onboarding Roadmap */}
+          {isBrandNewLearner && (
+            <div className="bg-gradient-to-br from-indigo-50/90 via-white to-stone-50 dark:from-zinc-900/90 dark:via-zinc-900 dark:to-zinc-800/80 border border-indigo-200/80 dark:border-indigo-950/60 rounded-3xl p-6 sm:p-7 space-y-4 shadow-sm">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div className="flex items-center space-x-3">
+                  <div className="w-9 h-9 rounded-xl bg-indigo-600 text-white flex items-center justify-center font-bold text-sm shadow-xs shrink-0">
+                    <Sparkles className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <h2 className="text-base sm:text-lg font-bold text-stone-900 dark:text-zinc-100 flex items-center gap-2">
+                      Start Here · စတင်လေ့လာရန် လမ်းညွှန်
+                      <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-400 border border-indigo-200 dark:border-indigo-800">
+                        New Learner Roadmap
+                      </span>
+                    </h2>
+                    <p className="text-xs text-stone-600 dark:text-zinc-400 mt-0.5 font-myanmar">
+                      JLPT {profile.level} အောင်မြင်ရန်အတွက် လိုက်နာရမည့် အခြေခံ အဆင့် ၃ ဆင့်
+                    </p>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => onStartLessonTest(activeLesson.id)}
+                  className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold rounded-xl shadow-xs transition active:scale-95 cursor-pointer shrink-0 flex items-center space-x-1.5"
+                >
+                  <Play className="w-3.5 h-3.5 fill-current" />
+                  <span>Start Step 1 (Lesson {activeLesson.number})</span>
+                </button>
+              </div>
+
+              {/* 3-Step Grid */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5 pt-1">
+                {/* Step 1 */}
+                <div className="p-4 rounded-2xl bg-white/90 dark:bg-zinc-800/70 border border-stone-200/80 dark:border-zinc-700/60 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="w-6 h-6 rounded-lg bg-indigo-100 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-400 font-bold font-mono text-xs flex items-center justify-center">
+                      1
+                    </span>
+                    <span className="text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-emerald-50 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-400 border border-emerald-200/60 dark:border-emerald-800/60">
+                      Current Step
+                    </span>
+                  </div>
+                  <h3 className="text-xs font-bold text-stone-900 dark:text-zinc-100">
+                    Step 1: First Lesson (ပထမဆုံး သင်ခန်းစာ)
+                  </h3>
+                  <p className="text-[11px] text-stone-600 dark:text-zinc-400 leading-relaxed">
+                    Study Lesson {activeLesson.number}: {activeLesson.title}. Complete vocabulary, kanji, and grammar stages, then pass the immediate lesson assessment.
+                  </p>
+                </div>
+
+                {/* Step 2 */}
+                <div className="p-4 rounded-2xl bg-white/90 dark:bg-zinc-800/70 border border-stone-200/80 dark:border-zinc-700/60 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="w-6 h-6 rounded-lg bg-stone-100 dark:bg-zinc-700 text-stone-700 dark:text-zinc-300 font-bold font-mono text-xs flex items-center justify-center">
+                      2
+                    </span>
+                    <span className="text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-stone-100 dark:bg-zinc-700 text-stone-600 dark:text-zinc-400">
+                      Next Up
+                    </span>
+                  </div>
+                  <h3 className="text-xs font-bold text-stone-900 dark:text-zinc-100">
+                    Step 2: First SRS Review (ပထမဆုံး SRS ကတ်လေ့ကျင့်မှု)
+                  </h3>
+                  <p className="text-[11px] text-stone-600 dark:text-zinc-400 leading-relaxed">
+                    Open the Cram Lab or Flashcard deck to review new cards. Spaced repetition solidifies long-term memory toward the 85% retention gate.
+                  </p>
+                </div>
+
+                {/* Step 3 */}
+                <div className="p-4 rounded-2xl bg-white/90 dark:bg-zinc-800/70 border border-stone-200/80 dark:border-zinc-700/60 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="w-6 h-6 rounded-lg bg-stone-100 dark:bg-zinc-700 text-stone-700 dark:text-zinc-300 font-bold font-mono text-xs flex items-center justify-center">
+                      3
+                    </span>
+                    <span className="text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-stone-100 dark:bg-zinc-700 text-stone-600 dark:text-zinc-400">
+                      Milestone
+                    </span>
+                  </div>
+                  <h3 className="text-xs font-bold text-stone-900 dark:text-zinc-100">
+                    Step 3: First Assessment (ပထမဆုံး အကဲဖြတ် စာမေးပွဲ)
+                  </h3>
+                  <p className="text-[11px] text-stone-600 dark:text-zinc-400 leading-relaxed">
+                    Take a Weekly Review Test or Chapter Audit to test reading, listening, vocabulary, and grammar under exam conditions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Recommended Next Step Action Panel */}
+          {readiness && (() => {
+            const recommendation = getRecommendedNextStep();
+            if (!recommendation) return null;
+            const ActionIcon = recommendation.actionIcon;
+
+            return (
+              <div className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-3xl p-6 sm:p-7 space-y-3.5 shadow-sm">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                  <div className="flex items-center space-x-2.5">
+                    <div className="w-8 h-8 rounded-xl bg-amber-50 dark:bg-amber-950/50 text-amber-600 dark:text-amber-400 border border-amber-200 dark:border-amber-800 flex items-center justify-center shrink-0">
+                      <Zap className="w-4 h-4" />
+                    </div>
+                    <div>
+                      <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400 block">
+                        Recommended Next Step · အကြံပြုထားသော နောက်တစ်ဆင့်
+                      </span>
+                      <h3 className="text-sm sm:text-base font-bold text-stone-900 dark:text-zinc-100">
+                        {recommendation.title}
+                      </h3>
+                    </div>
+                  </div>
+                  <span className="self-start sm:self-auto px-2.5 py-1 rounded-full text-[10px] font-mono font-semibold bg-stone-100 dark:bg-zinc-800 text-stone-700 dark:text-zinc-300 border border-stone-200 dark:border-zinc-700 shrink-0">
+                    {recommendation.badgeText}
+                  </span>
+                </div>
+
+                <div className="text-xs space-y-1 text-stone-600 dark:text-zinc-400">
+                  <p>{recommendation.descriptionEn}</p>
+                  <p className="font-myanmar text-[11px] text-stone-500 dark:text-zinc-500">
+                    {recommendation.descriptionMy}
+                  </p>
+                </div>
+
+                <div className="pt-1 flex flex-wrap items-center justify-between gap-3 border-t border-stone-100 dark:border-zinc-800">
+                  <span className="text-[11px] font-mono text-stone-500 dark:text-zinc-500">
+                    Target: <strong className="text-stone-700 dark:text-zinc-300">{recommendation.gateName}</strong>
+                  </span>
+                  <button
+                    type="button"
+                    onClick={recommendation.onClick}
+                    className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold rounded-xl shadow-xs transition active:scale-95 cursor-pointer flex items-center space-x-1.5"
+                  >
+                    <ActionIcon className="w-3.5 h-3.5" />
+                    <span>{recommendation.actionLabel}</span>
+                  </button>
+                </div>
+              </div>
+            );
+          })()}
+
+          {/* JLPT Learning Readiness Engine Gauge */}
           {readiness && (
-            <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-7 space-y-5 shadow-sm">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-200 pb-5">
+            <div className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-3xl p-6 sm:p-7 space-y-5 shadow-sm">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-200 dark:border-zinc-800 pb-5">
                 <div className="flex items-center space-x-4">
                   {/* Readiness HUD Percentage Ring */}
                   <div className="relative w-16 h-16 shrink-0 flex items-center justify-center">
@@ -1392,7 +1655,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                         r="25"
                         stroke="currentColor"
                         strokeWidth="4.5"
-                        className="text-stone-200"
+                        className="text-stone-200 dark:text-zinc-700"
                         fill="transparent"
                       />
                       <circle
@@ -1401,7 +1664,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                         r="25"
                         stroke="currentColor"
                         strokeWidth="4.5"
-                        className="text-emerald-600 transition-all duration-1000"
+                        className="text-emerald-600 dark:text-emerald-500 transition-all duration-1000"
                         fill="transparent"
                         strokeDasharray={2 * Math.PI * 25}
                         strokeDashoffset={2 * Math.PI * 25 * (1 - (readiness.overallReadinessPct || 0) / 100)}
@@ -1409,16 +1672,18 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                       />
                     </svg>
                     <div className="absolute inset-0 flex flex-col items-center justify-center font-mono">
-                      <span className="text-sm font-bold text-stone-900">{readiness.overallReadinessPct}%</span>
+                      <span className="text-sm font-bold text-stone-900 dark:text-zinc-100">
+                        {readiness.overallReadinessPct}%
+                      </span>
                     </div>
                   </div>
 
                   <div>
-                    <h2 className="text-lg font-bold text-stone-900 flex items-center space-x-2">
-                      <Award className="w-5 h-5 text-emerald-600" />
-                      <span>Conjunctive Readiness Engine</span>
+                    <h2 className="text-lg font-bold text-stone-900 dark:text-zinc-100 flex items-center space-x-2">
+                      <Award className="w-5 h-5 text-emerald-600 dark:text-emerald-500" />
+                      <span>JLPT {profile.level} Conjunctive Readiness Engine</span>
                     </h2>
-                    <p className="text-xs text-stone-600 mt-0.5">
+                    <p className="text-xs text-stone-600 dark:text-zinc-400 mt-0.5">
                       Overall composite requires meeting all 5 prerequisite retention &amp; score gates.
                     </p>
                   </div>
@@ -1428,10 +1693,10 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                   <span
                     className={`px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider font-mono border ${
                       readiness.status === 'ready'
-                        ? 'bg-emerald-50 text-emerald-700 border-emerald-200 shadow-2xs'
+                        ? 'bg-emerald-50 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-400 border-emerald-200 dark:border-emerald-800 shadow-2xs'
                         : readiness.status === 'approaching_readiness'
-                        ? 'bg-indigo-50 text-indigo-700 border-indigo-200 shadow-2xs'
-                        : 'bg-stone-100 text-stone-600 border-stone-200'
+                        ? 'bg-indigo-50 dark:bg-indigo-950/50 text-indigo-700 dark:text-indigo-400 border-indigo-200 dark:border-indigo-800 shadow-2xs'
+                        : 'bg-stone-100 dark:bg-zinc-800 text-stone-600 dark:text-zinc-400 border-stone-200 dark:border-zinc-700'
                     }`}
                   >
                     {readiness.status.replace('_', ' ')}
@@ -1439,64 +1704,156 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                 </div>
               </div>
 
-              {/* Readiness Breakdown Bars */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
-                <div className="space-y-1">
-                  <div className="flex justify-between text-stone-600">
-                    <span>Lesson Curriculum Mastery</span>
-                    <span className="font-mono text-stone-900">
+              {/* All 5 Prerequisite Readiness Gates (Itemized explicitly with Bilingual Labels, Target Thresholds, Visual Bars, and Pass/Pending Badges) */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-xs">
+                {/* Gate 1: Lesson Curriculum Mastery */}
+                <div className="p-3.5 rounded-2xl bg-stone-50 dark:bg-zinc-800/60 border border-stone-200 dark:border-zinc-800 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-semibold text-stone-900 dark:text-zinc-100">
+                      Lesson Curriculum Mastery (သင်ရိုးပြီးမြောက်မှု)
+                    </span>
+                    {readiness.lessonMasteryPct >= 90 ? (
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold font-mono bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800 flex items-center gap-1">
+                        <Check className="w-3 h-3" /> Pass (အောင်မြင်ပြီး)
+                      </span>
+                    ) : (
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold font-mono bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800 flex items-center gap-1">
+                        <Clock className="w-3 h-3" /> Pending (လိုအပ်နေသေးသည်)
+                      </span>
+                    )}
+                  </div>
+                  <div className="flex justify-between text-xs text-stone-600 dark:text-zinc-400 font-mono">
+                    <span>Progress / Target:</span>
+                    <span className="text-stone-900 dark:text-zinc-100 font-bold">
                       {readiness.lessonMasteryPct}% / 90%
                     </span>
                   </div>
-                  <div className="w-full bg-stone-100 border border-stone-200 rounded-full h-2">
+                  <div className="w-full bg-stone-200 dark:bg-zinc-700 rounded-full h-2 overflow-hidden">
                     <div
-                      className="bg-indigo-600 h-2 rounded-full transition-all"
+                      className="bg-indigo-600 dark:bg-indigo-500 h-2 rounded-full transition-all"
                       style={{ width: `${Math.min(100, readiness.lessonMasteryPct)}%` }}
                     />
                   </div>
                 </div>
 
-                <div className="space-y-1">
-                  <div className="flex justify-between text-stone-600">
-                    <span>Lesson Retention Rate</span>
-                    <span className="font-mono text-stone-900">
+                {/* Gate 2: Lesson Retention Rate */}
+                <div className="p-3.5 rounded-2xl bg-stone-50 dark:bg-zinc-800/60 border border-stone-200 dark:border-zinc-800 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-semibold text-stone-900 dark:text-zinc-100">
+                      Lesson Retention Rate (သင်ခန်းစာ မှတ်မိမှုနှုန်း)
+                    </span>
+                    {readiness.lessonRetentionPct >= 50 ? (
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold font-mono bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800 flex items-center gap-1">
+                        <Check className="w-3 h-3" /> Pass (အောင်မြင်ပြီး)
+                      </span>
+                    ) : (
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold font-mono bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800 flex items-center gap-1">
+                        <Clock className="w-3 h-3" /> Pending (လိုအပ်နေသေးသည်)
+                      </span>
+                    )}
+                  </div>
+                  <div className="flex justify-between text-xs text-stone-600 dark:text-zinc-400 font-mono">
+                    <span>Progress / Target:</span>
+                    <span className="text-stone-900 dark:text-zinc-100 font-bold">
                       {readiness.lessonRetentionPct}% / 50%
                     </span>
                   </div>
-                  <div className="w-full bg-stone-100 border border-stone-200 rounded-full h-2">
+                  <div className="w-full bg-stone-200 dark:bg-zinc-700 rounded-full h-2 overflow-hidden">
                     <div
-                      className="bg-indigo-600 h-2 rounded-full transition-all"
+                      className="bg-indigo-600 dark:bg-indigo-500 h-2 rounded-full transition-all"
                       style={{ width: `${Math.min(100, readiness.lessonRetentionPct)}%` }}
                     />
                   </div>
                 </div>
 
-                <div className="space-y-1">
-                  <div className="flex justify-between text-stone-600">
-                    <span>SRS 30-Day True Retention</span>
-                    <span className="font-mono text-stone-900">
-                      {readiness.srs30DayRetentionPct}% / 85%
+                {/* Gate 3: SRS 30-Day True Retention */}
+                <div className="p-3.5 rounded-2xl bg-stone-50 dark:bg-zinc-800/60 border border-stone-200 dark:border-zinc-800 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-semibold text-stone-900 dark:text-zinc-100">
+                      SRS 30-Day True Retention (ရက် ၃၀ SRS မှတ်ဉာဏ်ထိန်းသိမ်းမှု)
+                    </span>
+                    {readiness.hasSrsData && readiness.srs30DayRetentionPct >= 85 ? (
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold font-mono bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800 flex items-center gap-1">
+                        <Check className="w-3 h-3" /> Pass (အောင်မြင်ပြီး)
+                      </span>
+                    ) : (
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold font-mono bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800 flex items-center gap-1">
+                        <Clock className="w-3 h-3" /> Pending (လိုအပ်နေသေးသည်)
+                      </span>
+                    )}
+                  </div>
+                  <div className="flex justify-between text-xs text-stone-600 dark:text-zinc-400 font-mono">
+                    <span>Progress / Target:</span>
+                    <span className="text-stone-900 dark:text-zinc-100 font-bold">
+                      {readiness.hasSrsData ? `${readiness.srs30DayRetentionPct}% / 85%` : 'No data yet (ဒေတာမရှိသေးပါ)'}
                     </span>
                   </div>
-                  <div className="w-full bg-stone-100 border border-stone-200 rounded-full h-2">
+                  <div className="w-full bg-stone-200 dark:bg-zinc-700 rounded-full h-2 overflow-hidden">
                     <div
-                      className="bg-emerald-600 h-2 rounded-full transition-all"
-                      style={{ width: `${Math.min(100, readiness.srs30DayRetentionPct)}%` }}
+                      className="bg-emerald-600 dark:bg-emerald-500 h-2 rounded-full transition-all"
+                      style={{
+                        width: readiness.hasSrsData ? `${Math.min(100, readiness.srs30DayRetentionPct)}%` : '0%',
+                      }}
                     />
                   </div>
                 </div>
 
-                <div className="space-y-1">
-                  <div className="flex justify-between text-stone-600">
-                    <span>Weekly Tests Avg Score</span>
-                    <span className="font-mono text-stone-900">
-                      {readiness.weeklyTestsAvgPct}% / 75%
+                {/* Gate 4: Weekly Tests Avg Score */}
+                <div className="p-3.5 rounded-2xl bg-stone-50 dark:bg-zinc-800/60 border border-stone-200 dark:border-zinc-800 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-semibold text-stone-900 dark:text-zinc-100">
+                      Weekly Tests Avg Score (အပတ်စဉ် စာမေးပွဲ ပျမ်းမျှရမှတ်)
+                    </span>
+                    {readiness.weeklyTestsAvgPct >= 75 ? (
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold font-mono bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800 flex items-center gap-1">
+                        <Check className="w-3 h-3" /> Pass (အောင်မြင်ပြီး)
+                      </span>
+                    ) : (
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold font-mono bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800 flex items-center gap-1">
+                        <Clock className="w-3 h-3" /> Pending (လိုအပ်နေသေးသည်)
+                      </span>
+                    )}
+                  </div>
+                  <div className="flex justify-between text-xs text-stone-600 dark:text-zinc-400 font-mono">
+                    <span>Progress / Target:</span>
+                    <span className="text-stone-900 dark:text-zinc-100 font-bold">
+                      {readiness.weeklyTestsAvgPct > 0 ? `${readiness.weeklyTestsAvgPct}% / 75%` : 'No tests yet (0%) / 75%'}
                     </span>
                   </div>
-                  <div className="w-full bg-stone-100 border border-stone-200 rounded-full h-2">
+                  <div className="w-full bg-stone-200 dark:bg-zinc-700 rounded-full h-2 overflow-hidden">
                     <div
                       className="bg-amber-500 h-2 rounded-full transition-all"
                       style={{ width: `${Math.min(100, readiness.weeklyTestsAvgPct)}%` }}
+                    />
+                  </div>
+                </div>
+
+                {/* Gate 5: JLPT Level Readiness Test */}
+                <div className="p-3.5 rounded-2xl bg-stone-50 dark:bg-zinc-800/60 border border-stone-200 dark:border-zinc-800 space-y-2 sm:col-span-2">
+                  <div className="flex items-center justify-between">
+                    <span className="text-xs font-semibold text-stone-900 dark:text-zinc-100">
+                      JLPT {profile.level} Level Readiness Test ({profile.level} အဆင့်စစ် စာမေးပွဲ အောင်မြင်မှု)
+                    </span>
+                    {readiness.levelTestPassed ? (
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold font-mono bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-800 flex items-center gap-1">
+                        <Check className="w-3 h-3" /> Pass (အောင်မြင်ပြီး)
+                      </span>
+                    ) : (
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold font-mono bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-400 border border-amber-200 dark:border-amber-800 flex items-center gap-1">
+                        <Clock className="w-3 h-3" /> Pending (လိုအပ်နေသေးသည်)
+                      </span>
+                    )}
+                  </div>
+                  <div className="flex justify-between text-xs text-stone-600 dark:text-zinc-400 font-mono">
+                    <span>Progress / Target:</span>
+                    <span className="text-stone-900 dark:text-zinc-100 font-bold">
+                      {readiness.levelTestPassed ? 'Passed (အောင်မြင်ပြီး) · 100% / Pass' : 'Pending Examination (မဖြေရသေး/မအောင်သေး) · 0% / Pass'}
+                    </span>
+                  </div>
+                  <div className="w-full bg-stone-200 dark:bg-zinc-700 rounded-full h-2 overflow-hidden">
+                    <div
+                      className="bg-purple-600 dark:bg-purple-500 h-2 rounded-full transition-all"
+                      style={{ width: readiness.levelTestPassed ? '100%' : '0%' }}
                     />
                   </div>
                 </div>

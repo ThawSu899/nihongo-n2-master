@@ -184,10 +184,15 @@ export class AssessmentEngine {
     srsBacklogCount: number;
     srsDailyCap: number;
     levelTestPassed: boolean;
+    hasSrsData?: boolean;
   }): N2ReadinessMetric {
     const lessonMasteryPct = Math.round((params.masteredLessonsCount / Math.max(1, params.totalCurriculumLessons)) * 100);
     const lessonRetentionPct = Math.round((params.retainedLessonsCount / Math.max(1, params.totalCurriculumLessons)) * 100);
-    const srs30DayRetentionPct = Math.round(params.srs30DayRetention * 100);
+    const hasSrsData =
+      params.hasSrsData !== undefined
+        ? params.hasSrsData
+        : params.srs30DayRetention > 0;
+    const srs30DayRetentionPct = hasSrsData ? Math.round(params.srs30DayRetention * 100) : 0;
 
     const weeklyTestsAvgPct =
       params.recentWeeklyTestAccuracies.length > 0
@@ -203,7 +208,7 @@ export class AssessmentEngine {
     // Benchmark targets: lessonMastery: >= 90%, lessonRetention: >= 50%, srs30Day: >= 85%, weeklyTests: >= 75%, levelTest: pass
     const masteryScore = Math.min(100, (lessonMasteryPct / 90) * 100);
     const retentionScore = Math.min(100, (lessonRetentionPct / 50) * 100);
-    const srsScore = Math.min(100, (srs30DayRetentionPct / 85) * 100);
+    const srsScore = hasSrsData ? Math.min(100, (srs30DayRetentionPct / 85) * 100) : 0;
     const testScore = Math.min(100, (weeklyTestsAvgPct / 75) * 100);
     const levelScore = params.levelTestPassed ? 100 : 0;
 
@@ -223,6 +228,7 @@ export class AssessmentEngine {
     if (
       lessonMasteryPct >= 90 &&
       lessonRetentionPct >= 50 &&
+      hasSrsData &&
       srs30DayRetentionPct >= 85 &&
       weeklyTestsAvgPct >= 75 &&
       params.levelTestPassed &&
@@ -246,6 +252,7 @@ export class AssessmentEngine {
       overallReadinessPct,
       status,
       disclaimer: 'Learning readiness indicator — not a prediction of actual JLPT results.',
+      hasSrsData,
     };
   }
 }

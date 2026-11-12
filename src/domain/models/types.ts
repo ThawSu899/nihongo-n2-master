@@ -413,6 +413,7 @@ export interface N2ReadinessMetric {
   overallReadinessPct: number;
   status: 'not_ready' | 'progressing' | 'approaching_readiness' | 'ready';
   disclaimer: string;
+  hasSrsData?: boolean;
 }
 
 export type SRSRating = 'again' | 'hard' | 'good' | 'easy';
