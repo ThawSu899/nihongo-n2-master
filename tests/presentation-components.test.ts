@@ -20,6 +20,7 @@ import {
 import { Navigation } from '../src/presentation/components/Navigation';
 import { NuanceWarningBanner } from '../src/presentation/components/NuanceWarningBanner';
 import { PWAInstallBanner } from '../src/presentation/components/PWAInstallBanner';
+import { PWAUpdateBanner } from '../src/presentation/components/PWAUpdateBanner';
 import { ReminderBanner } from '../src/presentation/components/ReminderBanner';
 import { SkillRadarChart, SkillScoreData } from '../src/presentation/components/SkillRadarChart';
 import { TimerWidget } from '../src/presentation/components/TimerWidget';
@@ -253,6 +254,14 @@ describe('Presentation Components (12 Untested Components)', () => {
   describe('9. PWAInstallBanner', () => {
     it('renders PWAInstallBanner without crashing', () => {
       const html = renderToString(React.createElement(PWAInstallBanner));
+      expect(html).toBeDefined();
+    });
+  });
+
+  // 9b. PWAUpdateBanner
+  describe('9b. PWAUpdateBanner', () => {
+    it('renders PWAUpdateBanner safely without crashing', () => {
+      const html = renderToString(React.createElement(PWAUpdateBanner));
       expect(html).toBeDefined();
     });
   });

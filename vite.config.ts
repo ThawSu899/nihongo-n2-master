@@ -42,7 +42,7 @@ export default defineConfig(() => {
       tailwindcss(),
       copyCurriculumContentPlugin(),
       VitePWA({
-        registerType: 'autoUpdate',
+        registerType: 'prompt',
         injectRegister: 'script',
         manifest: false,
         includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'icon.svg', 'manifest.webmanifest'],
@@ -51,7 +51,7 @@ export default defineConfig(() => {
           maximumFileSizeToCacheInBytes: 15 * 1024 * 1024, // 15 MiB to cache all bundles and lesson packs
           cleanupOutdatedCaches: true,
           clientsClaim: true,
-          skipWaiting: true,
+          skipWaiting: false,
           navigateFallback: '/index.html',
           navigateFallbackDenylist: [/^\/api\//],
           runtimeCaching: [

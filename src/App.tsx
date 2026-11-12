@@ -27,6 +27,7 @@ import { StorageDiagnosticsModal } from './presentation/components/StorageDiagno
 import { CommandPaletteModal } from './presentation/components/CommandPaletteModal';
 import { KanjiDrawer } from './presentation/components/KanjiDrawer';
 import { PWAInstallBanner } from './presentation/components/PWAInstallBanner';
+import { PWAUpdateBanner } from './presentation/components/PWAUpdateBanner';
 import { N5ReferenceWorkbench } from './presentation/components/N5ReferenceWorkbench';
 import { KanjiDetail } from './domain/dictionary/kanji-catalog';
 import { useGlobalShortcuts, useScopedShortcuts } from './presentation/context/GlobalShortcutContext';
@@ -591,6 +592,9 @@ export default function App() {
 
       {/* Floating PWA Install Prompt Banner */}
       <PWAInstallBanner />
+
+      {/* Floating PWA Service Worker Update Banner */}
+      <PWAUpdateBanner />
     </div>
   );
 }

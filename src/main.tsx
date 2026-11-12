@@ -3,17 +3,14 @@ import App from './App.tsx';
 import './index.css';
 import { registerSW } from 'virtual:pwa-register';
 import { GlobalShortcutProvider } from './presentation/context/GlobalShortcutContext';
+import { pwaUpdateManager } from './services/pwa-update-manager';
 
-// Register PWA service worker with immediate cache-first activation and auto-update
+// Register PWA service worker with update lifecycle detection
 const updateSW = registerSW({
   immediate: true,
   onNeedRefresh() {
-    console.info('[PWA] New content detected; applying cache-first update...');
-    updateSW(true);
-    if (typeof window !== 'undefined' && !sessionStorage.getItem('pwa_refreshed_v174')) {
-      sessionStorage.setItem('pwa_refreshed_v174', 'true');
-      window.location.reload();
-    }
+    console.info('[PWA] New content detected; awaiting user reload confirmation.');
+    pwaUpdateManager.triggerUpdateAvailable();
   },
   onOfflineReady() {
     console.info('[PWA] Nihongo N2 Master is fully primed for offline execution.');
@@ -21,9 +18,7 @@ const updateSW = registerSW({
   onRegistered(r) {
     console.info('[PWA] Service Worker registered with scope:', r?.scope);
     if (r) {
-      setInterval(() => {
-        r.update().catch(() => {});
-      }, 15 * 60 * 1000);
+      pwaUpdateManager.attachRegistration(r);
     }
   },
   onRegisterError(error) {
@@ -31,16 +26,7 @@ const updateSW = registerSW({
   },
 });
 
-if (typeof navigator !== 'undefined' && 'serviceWorker' in navigator) {
-  let refreshing = false;
-  navigator.serviceWorker.addEventListener('controllerchange', () => {
-    if (!refreshing && !sessionStorage.getItem('pwa_controller_refreshed_v174')) {
-      refreshing = true;
-      sessionStorage.setItem('pwa_controller_refreshed_v174', 'true');
-      window.location.reload();
-    }
-  });
-}
+pwaUpdateManager.init(updateSW);
 
 createRoot(document.getElementById('root')!).render(
   <GlobalShortcutProvider>
