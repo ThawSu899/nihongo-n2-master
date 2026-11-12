@@ -411,9 +411,9 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
   }, [activePassage.questions, selectedAnswers, currentCpm, elapsedSeconds, minedCardIds]);
 
   return (
-    <div className={`flex flex-col h-full bg-white dark:bg-stone-950 text-stone-900 dark:text-zinc-100 ${embeddedMode ? 'rounded-2xl border border-stone-200 dark:border-stone-800/90 overflow-hidden' : ''}`}>
+    <div className={`flex flex-col h-full bg-white dark:bg-zinc-950 text-stone-900 dark:text-zinc-100 ${embeddedMode ? 'rounded-2xl border border-stone-200 dark:border-zinc-800 overflow-hidden' : ''}`}>
       {/* 1. WORKBENCH TOP COMMAND BAR */}
-      <header className="px-5 py-3 border-b border-stone-200 dark:border-stone-800/90 bg-stone-50/90 dark:bg-stone-900/95 flex flex-wrap items-center justify-between gap-3 shrink-0">
+      <header className="px-5 py-3 border-b border-stone-200 dark:border-zinc-800 bg-stone-50/90 dark:bg-zinc-900 flex flex-wrap items-center justify-between gap-3 shrink-0">
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-rose-500 animate-pulse" />
@@ -421,26 +421,26 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
               ဖတ်ရှုနားလည်မှု လေ့ကျင့်ခန်း (Dokkai Reader)
             </h1>
           </div>
-          <span className="text-xs text-stone-400 dark:text-stone-500 font-mono">·</span>
-          <span className="text-xs font-mono text-rose-700 dark:text-rose-300 font-medium bg-rose-50 dark:bg-rose-950/60 px-2 py-0.5 rounded border border-rose-200 dark:border-rose-900/40">
+          <span className="text-xs text-stone-400 dark:text-zinc-500 font-mono">·</span>
+          <span className="text-xs font-mono text-rose-700 dark:text-rose-300 font-medium bg-rose-50 dark:bg-rose-950/60 px-2 py-0.5 rounded border border-rose-200 dark:border-rose-900/60">
             {activePassage.formatLabel}
           </span>
-          <span className="text-xs text-stone-600 dark:text-stone-400 font-mono hidden sm:inline">
+          <span className="text-xs text-stone-600 dark:text-zinc-400 font-mono hidden sm:inline">
             JLPT {activePassage.level}
           </span>
         </div>
 
         {/* Passage Format Switcher (if multiple available) */}
         {availablePassages.length > 1 && (
-          <div className="flex items-center gap-1 bg-stone-100 dark:bg-stone-950/80 p-1 rounded-lg border border-stone-200 dark:border-stone-800 text-xs font-myanmar">
+          <div className="flex items-center gap-1 bg-stone-100 dark:bg-zinc-950 p-1 rounded-lg border border-stone-200 dark:border-zinc-800 text-xs font-myanmar">
             {availablePassages.map((p) => (
               <button
                 key={p.id}
                 onClick={() => setSelectedPassageId(p.id)}
                 className={`px-2.5 py-1 rounded font-medium transition cursor-pointer ${
                   selectedPassageId === p.id
-                    ? 'bg-white dark:bg-stone-800 text-stone-900 dark:text-zinc-100 shadow-xs border border-stone-200 dark:border-stone-700/60 font-semibold'
-                    : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                    ? 'bg-white dark:bg-zinc-800 text-stone-900 dark:text-zinc-100 shadow-xs border border-stone-200 dark:border-zinc-700 font-semibold'
+                    : 'text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100'
                 }`}
               >
                 {p.format === 'tanki' ? 'စာပိုဒ်တို (Tanki)' : p.format === 'chuki' ? 'စာပိုဒ်လတ် (Chuki)' : 'စာပိုဒ်ရှည် (Choubun)'}
@@ -457,8 +457,8 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
             title="ဖူရိဂါနာ ပြောင်းလဲရန်"
             className={`px-2.5 py-1 rounded text-xs flex items-center gap-1.5 transition border cursor-pointer ${
               showFurigana
-                ? 'bg-rose-50 dark:bg-rose-950/40 text-rose-700 dark:text-rose-300 border-rose-200 dark:border-rose-900/60 font-medium'
-                : 'bg-white dark:bg-stone-950 text-stone-600 dark:text-stone-400 border-stone-200 dark:border-stone-800 hover:text-stone-900 dark:hover:text-zinc-100'
+                ? 'bg-rose-50 dark:bg-rose-950/60 text-rose-700 dark:text-rose-300 border-rose-200 dark:border-rose-900/60 font-medium'
+                : 'bg-white dark:bg-zinc-900 text-stone-700 dark:text-zinc-300 border-stone-200 dark:border-zinc-800 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-50 dark:hover:bg-zinc-800'
             }`}
           >
             {showFurigana ? <Eye className="w-3.5 h-3.5" /> : <EyeOff className="w-3.5 h-3.5" />}
@@ -469,31 +469,31 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
           <button
             onClick={() => setFontFamily((f) => (f === 'mincho' ? 'gothic' : 'mincho'))}
             title="Switch Japanese Font (Mincho / Gothic)"
-            className="px-2.5 py-1 rounded text-xs flex items-center gap-1.5 bg-white dark:bg-stone-950 border border-stone-200 dark:border-stone-800 text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-zinc-100 transition cursor-pointer"
+            className="px-2.5 py-1 rounded text-xs flex items-center gap-1.5 bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 text-stone-700 dark:text-zinc-300 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-50 dark:hover:bg-zinc-800 transition cursor-pointer"
           >
-            <Type className="w-3.5 h-3.5 text-stone-500 dark:text-stone-400" />
+            <Type className="w-3.5 h-3.5 text-stone-500 dark:text-zinc-400" />
             <span>{fontFamily === 'mincho' ? '明朝体' : 'ゴシック'}</span>
           </button>
 
           {/* Font Size Selector */}
-          <div className="flex items-center bg-white dark:bg-stone-950 rounded border border-stone-200 dark:border-stone-800 text-xs text-stone-600 dark:text-stone-400">
+          <div className="flex items-center bg-white dark:bg-zinc-900 rounded border border-stone-200 dark:border-zinc-800 text-xs text-stone-600 dark:text-zinc-400">
             <button
               onClick={() => setFontSize('sm')}
-              className={`px-2 py-1 cursor-pointer ${fontSize === 'sm' ? 'text-stone-900 dark:text-zinc-100 font-bold bg-stone-100 dark:bg-stone-800' : 'hover:text-stone-900 dark:hover:text-zinc-100'}`}
+              className={`px-2 py-1 cursor-pointer transition ${fontSize === 'sm' ? 'text-stone-900 dark:text-zinc-100 font-bold bg-stone-100 dark:bg-zinc-800' : 'hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-50 dark:hover:bg-zinc-800/60'}`}
               title="Small Text"
             >
               A-
             </button>
             <button
               onClick={() => setFontSize('base')}
-              className={`px-2 py-1 cursor-pointer ${fontSize === 'base' ? 'text-stone-900 dark:text-zinc-100 font-bold bg-stone-100 dark:bg-stone-800' : 'hover:text-stone-900 dark:hover:text-zinc-100'}`}
+              className={`px-2 py-1 cursor-pointer transition ${fontSize === 'base' ? 'text-stone-900 dark:text-zinc-100 font-bold bg-stone-100 dark:bg-zinc-800' : 'hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-50 dark:hover:bg-zinc-800/60'}`}
               title="Regular Text"
             >
               A
             </button>
             <button
               onClick={() => setFontSize('lg')}
-              className={`px-2 py-1 cursor-pointer ${fontSize === 'lg' ? 'text-stone-900 dark:text-zinc-100 font-bold bg-stone-100 dark:bg-stone-800' : 'hover:text-stone-900 dark:hover:text-zinc-100'}`}
+              className={`px-2 py-1 cursor-pointer transition ${fontSize === 'lg' ? 'text-stone-900 dark:text-zinc-100 font-bold bg-stone-100 dark:bg-zinc-800' : 'hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-50 dark:hover:bg-zinc-800/60'}`}
               title="Large Text"
             >
               A+
@@ -503,7 +503,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
           {onExit && (
             <button
               onClick={onExit}
-              className="p-1.5 text-stone-500 hover:text-stone-800 dark:text-stone-400 dark:hover:text-zinc-100 rounded transition cursor-pointer"
+              className="p-1.5 text-stone-500 hover:text-stone-800 dark:text-zinc-400 dark:hover:text-zinc-100 rounded transition cursor-pointer"
               title="Exit Dokkai Workbench"
             >
               <X className="w-4 h-4" />
@@ -535,12 +535,12 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
         {/* ========================================================= */}
         {/* LEFT PANE: JAPANESE PASSAGE & ANNOTATION WORKBENCH         */}
         {/* ========================================================= */}
-        <div className="flex-1 flex flex-col border-b lg:border-b-0 lg:border-r border-stone-200 dark:border-stone-800/90 bg-white dark:bg-stone-950/60 overflow-hidden">
+        <div className="flex-1 flex flex-col border-b lg:border-b-0 lg:border-r border-stone-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 overflow-hidden">
           {/* Left Toolbar: Sentence Highlighter palette */}
-          <div className="px-5 py-2.5 bg-stone-50 dark:bg-stone-900/70 border-b border-stone-200 dark:border-stone-800/80 flex items-center justify-between gap-3 text-xs font-myanmar">
+          <div className="px-5 py-2.5 bg-stone-50 dark:bg-zinc-900 border-b border-stone-200 dark:border-zinc-800 flex items-center justify-between gap-3 text-xs font-myanmar">
             <div className="flex items-center gap-1.5 flex-wrap">
-              <span className="text-stone-600 dark:text-stone-400 font-medium mr-1 flex items-center gap-1">
-                <Highlighter className="w-3.5 h-3.5 text-stone-500" />
+              <span className="text-stone-700 dark:text-zinc-200 font-semibold mr-1 flex items-center gap-1">
+                <Highlighter className="w-3.5 h-3.5 text-rose-500 dark:text-rose-400" />
                 မီးမောင်းထိုးရန်:
               </span>
 
@@ -549,11 +549,11 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                 onClick={() => setActiveHighlightTool(activeHighlightTool === 'claim' ? null : 'claim')}
                 className={`px-2.5 py-1 rounded font-medium flex items-center gap-1.5 transition cursor-pointer ${
                   activeHighlightTool === 'claim'
-                    ? 'bg-rose-100 dark:bg-rose-500/20 text-rose-800 dark:text-rose-300 ring-1 ring-rose-400 dark:ring-rose-500/50 shadow-xs'
-                    : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-stone-800/50'
+                    ? 'bg-rose-100 dark:bg-rose-950/70 text-rose-800 dark:text-rose-200 ring-1 ring-rose-400 dark:ring-rose-500/70 font-semibold shadow-xs'
+                    : 'text-stone-700 dark:text-zinc-300 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800'
                 }`}
               >
-                <span className="w-2.5 h-2.5 rounded-full bg-rose-500" />
+                <span className="w-2.5 h-2.5 rounded-full bg-rose-500 ring-1 ring-rose-600/30 dark:ring-rose-400/40" />
                 <span>စာရေးသူ၏ သဘောထား (Claim)</span>
               </button>
 
@@ -562,11 +562,11 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                 onClick={() => setActiveHighlightTool(activeHighlightTool === 'evidence' ? null : 'evidence')}
                 className={`px-2.5 py-1 rounded font-medium flex items-center gap-1.5 transition cursor-pointer ${
                   activeHighlightTool === 'evidence'
-                    ? 'bg-sky-100 dark:bg-sky-500/20 text-sky-800 dark:text-sky-300 ring-1 ring-sky-400 dark:ring-sky-500/50 shadow-xs'
-                    : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-stone-800/50'
+                    ? 'bg-sky-100 dark:bg-sky-950/70 text-sky-800 dark:text-sky-200 ring-1 ring-sky-400 dark:ring-sky-500/70 font-semibold shadow-xs'
+                    : 'text-stone-700 dark:text-zinc-300 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800'
                 }`}
               >
-                <span className="w-2.5 h-2.5 rounded-full bg-sky-400" />
+                <span className="w-2.5 h-2.5 rounded-full bg-sky-400 ring-1 ring-sky-500/30 dark:ring-sky-300/40" />
                 <span>အထောက်အထား/အကြောင်းပြချက် (Evidence)</span>
               </button>
 
@@ -575,11 +575,11 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                 onClick={() => setActiveHighlightTool(activeHighlightTool === 'contrast' ? null : 'contrast')}
                 className={`px-2.5 py-1 rounded font-medium flex items-center gap-1.5 transition cursor-pointer ${
                   activeHighlightTool === 'contrast'
-                    ? 'bg-violet-100 dark:bg-violet-500/20 text-violet-800 dark:text-violet-300 ring-1 ring-violet-400 dark:ring-violet-500/50 shadow-xs'
-                    : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-stone-800/50'
+                    ? 'bg-violet-100 dark:bg-violet-950/70 text-violet-800 dark:text-violet-200 ring-1 ring-violet-400 dark:ring-violet-500/70 font-semibold shadow-xs'
+                    : 'text-stone-700 dark:text-zinc-300 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800'
                 }`}
               >
-                <span className="w-2.5 h-2.5 rounded-full bg-violet-400" />
+                <span className="w-2.5 h-2.5 rounded-full bg-violet-400 ring-1 ring-violet-500/30 dark:ring-violet-300/40" />
                 <span>ဆန့်ကျင်ဘက်/နှိုင်းယှဉ်ချက် (Contrast)</span>
               </button>
 
@@ -588,12 +588,12 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                 onClick={() => setActiveHighlightTool(activeHighlightTool === 'eraser' ? null : 'eraser')}
                 className={`px-2 py-1 rounded font-medium flex items-center gap-1 transition cursor-pointer ${
                   activeHighlightTool === 'eraser'
-                    ? 'bg-amber-100 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 ring-1 ring-amber-400 dark:ring-amber-500/50'
-                    : 'text-stone-500 dark:text-stone-400 hover:text-stone-800 dark:hover:text-zinc-100'
+                    ? 'bg-amber-100 dark:bg-amber-950/70 text-amber-800 dark:text-amber-200 ring-1 ring-amber-400 dark:ring-amber-500/70 font-semibold'
+                    : 'text-stone-700 dark:text-zinc-300 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800'
                 }`}
                 title="Click a sentence to erase its highlight"
               >
-                <Eraser className="w-3.5 h-3.5" />
+                <Eraser className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
                 <span>ဖျက်ဆေး (Eraser)</span>
               </button>
             </div>
@@ -602,7 +602,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
             {Object.keys(userSentenceHighlights).length > 0 && (
               <button
                 onClick={() => setUserSentenceHighlights({})}
-                className="text-[11px] text-stone-500 hover:text-stone-800 dark:hover:text-stone-300 transition cursor-pointer"
+                className="text-[11px] text-stone-500 hover:text-stone-800 dark:text-zinc-400 dark:hover:text-zinc-200 transition cursor-pointer"
               >
                 အားလုံးဖျက်မည် ({Object.keys(userSentenceHighlights).length})
               </button>
@@ -612,14 +612,14 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
           {/* Reading Passage Body */}
           <div className="flex-1 overflow-y-auto p-6 sm:p-8 space-y-6">
             {/* Passage Header Banner */}
-            <div className="border-b border-stone-200 dark:border-stone-800/80 pb-4">
-              <span className="text-xs font-mono text-stone-500 uppercase tracking-wider block mb-1">
+            <div className="border-b border-stone-200 dark:border-zinc-800 pb-4">
+              <span className="text-xs font-mono text-stone-500 dark:text-zinc-400 uppercase tracking-wider block mb-1">
                 {activePassage.formatLabel} · JLPT {activePassage.level}
               </span>
               <h2 className="text-lg sm:text-xl font-bold text-stone-900 dark:text-zinc-100 font-japanese leading-snug">
                 {activePassage.titleJa}
               </h2>
-              <p className="text-xs text-stone-600 dark:text-stone-400 mt-1">{activePassage.title}</p>
+              <p className="text-xs text-stone-600 dark:text-zinc-400 mt-1">{activePassage.title}</p>
             </div>
 
             {/* Paragraphs */}
@@ -633,7 +633,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
               {activePassage.paragraphs.map((paragraph) => (
                 <div key={paragraph.index} className="relative pl-7 group">
                   {/* Paragraph Number Indicator (¶ 1, ¶ 2) */}
-                  <span className="absolute left-0 top-1 text-xs font-mono text-stone-400 dark:text-stone-600 select-none group-hover:text-stone-600 dark:group-hover:text-stone-400 transition font-sans">
+                  <span className="absolute left-0 top-1 text-xs font-mono text-stone-400 dark:text-zinc-500 select-none group-hover:text-stone-600 dark:group-hover:text-zinc-300 transition font-sans">
                     ¶{paragraph.index}
                   </span>
 
@@ -665,7 +665,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                             sentenceRefs.current[sentence.id] = el;
                           }}
                           onClick={() => handleSentenceClick(sentence)}
-                          className={`inline transition cursor-pointer hover:bg-stone-100 dark:hover:bg-stone-800/40 rounded-sm relative ${highlightStyle}`}
+                          className={`inline transition cursor-pointer hover:bg-stone-100 dark:hover:bg-zinc-800/60 rounded-sm relative ${highlightStyle}`}
                           title={
                             activeHighlightTool
                               ? `Click to apply ${activeHighlightTool}`
@@ -698,7 +698,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
             </div>
 
             {/* Passage Footer & Instructions */}
-            <div className="pt-6 border-t border-stone-200 dark:border-stone-800/80 flex flex-wrap items-center justify-between text-xs text-stone-500 dark:text-stone-400 gap-2 font-myanmar">
+            <div className="pt-6 border-t border-stone-200 dark:border-zinc-800 flex flex-wrap items-center justify-between text-xs text-stone-500 dark:text-zinc-400 gap-2 font-myanmar">
               <div className="flex items-center gap-3 font-mono">
                 <span>စာလုံးရေ: {totalCharacters} လုံး</span>
                 <span>·</span>
@@ -706,7 +706,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                 <span>·</span>
                 <span>အဓိကဝေါဟာရ: {activePassage.glossary.length} လုံး</span>
               </div>
-              <div className="text-[11px] text-stone-600 dark:text-stone-400">
+              <div className="text-[11px] text-stone-600 dark:text-zinc-400">
                 💡 ဝေါဟာရကို နှိပ်၍ SRS ထဲသို့ ထည့်သွင်းနိုင်သည် • ခန်ဂျီကို ဖိထားခြင်း/နှစ်ချက်နှိပ်ခြင်းဖြင့် အသေးစိတ်ကြည့်နိုင်ပါသည်
               </div>
             </div>
@@ -716,12 +716,12 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
         {/* ========================================================= */}
         {/* RIGHT PANE: CPM SPEED METER & COMPREHENSION QUESTIONS     */}
         {/* ========================================================= */}
-        <div className="w-full lg:w-[480px] xl:w-[520px] flex flex-col bg-stone-50 dark:bg-stone-900/50 overflow-hidden shrink-0 font-myanmar">
+        <div className="w-full lg:w-[480px] xl:w-[520px] flex flex-col bg-stone-50 dark:bg-zinc-950 overflow-hidden shrink-0 font-myanmar">
           {/* Top Gauge: Timer & Characters Per Minute (CPM) */}
-          <div className="p-4 bg-white dark:bg-stone-900/90 border-b border-stone-200 dark:border-stone-800/90 space-y-3">
+          <div className="p-4 bg-white dark:bg-zinc-900 border-b border-stone-200 dark:border-zinc-800 space-y-3">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="flex items-center gap-1.5 bg-stone-100 dark:bg-stone-950 border border-stone-200 dark:border-stone-800 px-3 py-1.5 rounded-lg">
+                <div className="flex items-center gap-1.5 bg-stone-100 dark:bg-zinc-950 border border-stone-200 dark:border-zinc-800 px-3 py-1.5 rounded-lg">
                   <Clock className="w-3.5 h-3.5 text-rose-500 dark:text-rose-400" />
                   <span className="font-mono font-bold text-sm text-stone-900 dark:text-zinc-100">
                     {formatTimer(elapsedSeconds)}
@@ -730,12 +730,12 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
 
                 <div className="flex items-center gap-2">
                   <div className="flex flex-col">
-                    <span className="text-[10px] text-stone-500 font-mono uppercase">ဖတ်နှုန်း (CPM)</span>
+                    <span className="text-[10px] text-stone-500 dark:text-zinc-400 font-mono uppercase">ဖတ်နှုန်း (CPM)</span>
                     <div className="flex items-baseline gap-1.5">
                       <span className="font-mono font-bold text-base text-stone-900 dark:text-zinc-100">
                         {currentCpm}
                       </span>
-                      <span className="text-[10px] text-stone-600 dark:text-stone-400 font-mono">လုံး/မိနစ်</span>
+                      <span className="text-[10px] text-stone-600 dark:text-zinc-400 font-mono">လုံး/မိနစ်</span>
                     </div>
                   </div>
                 </div>
@@ -746,7 +746,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                 <span className={`text-xs font-semibold ${cpmAssessment.color}`}>
                   {cpmAssessment.label}
                 </span>
-                <span className="text-[10px] text-stone-500 block font-mono">
+                <span className="text-[10px] text-stone-500 dark:text-zinc-400 block font-mono">
                   စံနှုန်း: ~{activePassage.targetCpm} CPM
                 </span>
               </div>
@@ -754,7 +754,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
 
             {/* Questions Step Progress */}
             <div className="flex items-center justify-between gap-1 pt-1">
-              <span className="text-xs text-stone-600 dark:text-stone-400 font-mono">
+              <span className="text-xs text-stone-600 dark:text-zinc-400 font-mono">
                 မေးခွန်း {toBurmeseNumeral(currentQuestionIndex + 1)} / {toBurmeseNumeral(activePassage.questions.length)}
               </span>
               <div className="flex items-center gap-1.5">
@@ -772,12 +772,12 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                       }}
                       className={`w-6 h-6 rounded text-xs font-mono font-semibold transition cursor-pointer ${
                         currentQuestionIndex === idx
-                          ? 'ring-2 ring-rose-500 bg-stone-200 dark:bg-stone-800 text-stone-900 dark:text-zinc-100'
+                          ? 'ring-2 ring-rose-500 bg-stone-200 dark:bg-zinc-800 text-stone-900 dark:text-zinc-100'
                           : isSubmitted
                           ? isCorrect
                             ? 'bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-800'
                             : 'bg-rose-100 dark:bg-rose-950 text-rose-800 dark:text-rose-300 border border-rose-300 dark:border-rose-800'
-                          : 'bg-stone-100 dark:bg-stone-950 text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                          : 'bg-stone-100 dark:bg-zinc-950 text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100'
                       }`}
                     >
                       {toBurmeseNumeral(idx + 1)}
@@ -793,7 +793,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
             {!showSessionSummary && activeQuestion ? (
               <div className="space-y-5">
                 {/* Question Prompt */}
-                <div className="space-y-1.5 bg-white dark:bg-stone-950/80 border border-stone-200 dark:border-stone-800/80 rounded-xl p-4 shadow-xs">
+                <div className="space-y-1.5 bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-xl p-4 shadow-xs">
                   <div className="flex items-center justify-between">
                     <span className="text-[10px] font-mono text-rose-600 dark:text-rose-400 uppercase font-semibold">
                       မေးခွန်း {toBurmeseNumeral(currentQuestionIndex + 1)}
@@ -822,7 +822,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                     {(activeQuestion as any).promptMy || (activeQuestion as any).questionMy || activeQuestion.prompt}
                   </h3>
                   {activeQuestion.promptJa && activeQuestion.promptJa !== activeQuestion.prompt && (
-                    <p className="text-xs text-stone-600 dark:text-stone-400 font-japanese">{activeQuestion.promptJa}</p>
+                    <p className="text-xs text-stone-600 dark:text-zinc-400 font-japanese">{activeQuestion.promptJa}</p>
                   )}
                 </div>
 
@@ -834,17 +834,17 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                     const isCorrectAnswer = choice === activeQuestion.answer;
 
                     let choiceStyle =
-                      'bg-white dark:bg-stone-950 border-stone-200 dark:border-stone-800 text-stone-800 dark:text-zinc-200 hover:border-stone-300 dark:hover:border-stone-700 hover:bg-stone-50 dark:hover:bg-stone-900/40';
+                      'bg-white dark:bg-zinc-900 border-stone-200 dark:border-zinc-800 text-stone-800 dark:text-zinc-200 hover:border-stone-300 dark:hover:border-zinc-700 hover:bg-stone-50 dark:hover:bg-zinc-800/60';
 
                     if (isSelected && !isSubmitted) {
-                      choiceStyle = 'bg-rose-50/80 dark:bg-stone-800/90 border-rose-500/80 text-stone-900 dark:text-zinc-100 ring-1 ring-rose-500/50 shadow-xs';
+                      choiceStyle = 'bg-rose-50/80 dark:bg-zinc-800 border-rose-500/80 text-stone-900 dark:text-zinc-100 ring-1 ring-rose-500/50 shadow-xs';
                     } else if (isSubmitted) {
                       if (isCorrectAnswer) {
                         choiceStyle = 'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-500 dark:border-emerald-600/80 text-emerald-900 dark:text-emerald-200 font-medium ring-1 ring-emerald-500/50';
                       } else if (isSelected && !isCorrectAnswer) {
                         choiceStyle = 'bg-rose-50 dark:bg-rose-950/60 border-rose-500 dark:border-rose-600/80 text-rose-900 dark:text-rose-200';
                       } else {
-                        choiceStyle = 'bg-white/60 dark:bg-stone-950/60 border-stone-200/60 dark:border-stone-800/60 text-stone-400 opacity-60';
+                        choiceStyle = 'bg-white/60 dark:bg-zinc-900/60 border-stone-200/60 dark:border-zinc-800/60 text-stone-400 dark:text-zinc-500 opacity-60';
                       }
                     }
 
@@ -855,7 +855,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                         disabled={isSubmitted}
                         className={`w-full text-left p-3.5 rounded-xl border transition flex items-start gap-3 cursor-pointer ${choiceStyle}`}
                       >
-                        <span className="w-5 h-5 rounded bg-stone-100 dark:bg-stone-900 border border-stone-300 dark:border-stone-700 text-stone-700 dark:text-stone-300 text-xs font-mono font-bold flex items-center justify-center shrink-0 mt-0.5">
+                        <span className="w-5 h-5 rounded bg-stone-100 dark:bg-zinc-800 border border-stone-300 dark:border-zinc-700 text-stone-700 dark:text-zinc-300 text-xs font-mono font-bold flex items-center justify-center shrink-0 mt-0.5">
                           {cIdx + 1}
                         </span>
                         <span className="text-xs sm:text-sm font-japanese leading-relaxed flex-1">
@@ -909,17 +909,17 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                     </div>
 
                     {/* Explanation */}
-                    <div className="bg-stone-50 dark:bg-stone-950 border border-stone-200 dark:border-stone-800 rounded-xl p-4 space-y-2 text-xs">
+                    <div className="bg-stone-50 dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-xl p-4 space-y-2 text-xs">
                       <div className="flex items-center gap-1.5 text-stone-800 dark:text-zinc-200 font-semibold">
                         <HelpCircle className="w-3.5 h-3.5 text-rose-500 dark:text-rose-400" />
                         <span>အဖြေမှန် ရှင်းလင်းချက်</span>
                       </div>
-                      <p className="text-stone-700 dark:text-stone-300 font-japanese leading-relaxed">
+                      <p className="text-stone-700 dark:text-zinc-300 font-japanese leading-relaxed">
                         {(activeQuestion as any).explanationMy || activeQuestion.explanation}
                       </p>
 
                       {activeQuestion.strategyTip && (
-                        <div className="mt-2 pt-2 border-t border-stone-200 dark:border-stone-800/80 text-[11px] text-amber-800 dark:text-amber-300 font-japanese">
+                        <div className="mt-2 pt-2 border-t border-stone-200 dark:border-zinc-800 text-[11px] text-amber-800 dark:text-amber-300 font-japanese">
                           <span className="font-semibold text-amber-600 dark:text-amber-400">⚡ ဖြေဆိုနည်း: </span>
                           {activeQuestion.strategyTip === '設問で問われている主語と述語を特定し、該当箇所の前後の接続詞（しかし、だから等）に注意してください。'
                             ? 'မေးခွန်းရှိ ကတ္တရာနှင့် ကြိယာကို ရှာဖွေပြီး၊ ရှေ့နောက် စကားဆက်များကို သတိပြုပါ။'
@@ -931,9 +931,9 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                 )}
 
                 {/* Question Action Bottom Bar */}
-                <div className="pt-3 border-t border-stone-200 dark:border-stone-800 flex items-center justify-between gap-3">
-                  <div className="text-[11px] text-stone-500 font-mono">
-                    ကီးဘုတ်: <kbd className="bg-stone-100 dark:bg-stone-950 px-1 py-0.5 rounded border border-stone-200 dark:border-stone-800 text-stone-700 dark:text-stone-300">1-4</kbd> ရွေးချယ်ရန် / <kbd className="bg-stone-100 dark:bg-stone-950 px-1 py-0.5 rounded border border-stone-200 dark:border-stone-800 text-stone-700 dark:text-stone-300">Enter</kbd>
+                <div className="pt-3 border-t border-stone-200 dark:border-zinc-800 flex items-center justify-between gap-3">
+                  <div className="text-[11px] text-stone-500 dark:text-zinc-400 font-mono">
+                    ကီးဘုတ်: <kbd className="bg-stone-100 dark:bg-zinc-800 px-1 py-0.5 rounded border border-stone-200 dark:border-zinc-700 text-stone-700 dark:text-zinc-300">1-4</kbd> ရွေးချယ်ရန် / <kbd className="bg-stone-100 dark:bg-zinc-800 px-1 py-0.5 rounded border border-stone-200 dark:border-zinc-700 text-stone-700 dark:text-zinc-300">Enter</kbd>
                   </div>
 
                   {!submittedQuestions[activeQuestion.id] ? (
@@ -943,7 +943,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                       className={`px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2 transition cursor-pointer ${
                         selectedAnswers[activeQuestion.id]
                           ? 'bg-rose-600 hover:bg-rose-500 text-white shadow-lg shadow-rose-950/50'
-                          : 'bg-stone-200 dark:bg-stone-800 text-stone-400 dark:text-stone-500 cursor-not-allowed'
+                          : 'bg-stone-200 dark:bg-zinc-800 text-stone-400 dark:text-zinc-500 cursor-not-allowed'
                       }`}
                     >
                       <span>အဖြေစစ်ဆေးမည် (Submit)</span>
@@ -952,7 +952,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                   ) : (
                     <button
                       onClick={handleNextQuestion}
-                      className="px-4 py-2 rounded-xl text-xs font-semibold bg-stone-900 text-white hover:bg-stone-800 dark:bg-stone-100 dark:text-stone-950 dark:hover:bg-white transition flex items-center gap-2 shadow-xs cursor-pointer"
+                      className="px-4 py-2 rounded-xl text-xs font-semibold bg-stone-900 text-white hover:bg-stone-800 dark:bg-zinc-100 dark:text-zinc-950 dark:hover:bg-white transition flex items-center gap-2 shadow-xs cursor-pointer"
                     >
                       <span>
                         {currentQuestionIndex < activePassage.questions.length - 1
@@ -978,48 +978,48 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                   <h3 className="text-base font-bold text-stone-900 dark:text-zinc-100 font-japanese">
                     စာဖတ်စွမ်းရည် လေ့ကျင့်ခန်း ပြီးဆုံးပါပြီ
                   </h3>
-                  <p className="text-xs text-stone-600 dark:text-stone-400 font-japanese">
+                  <p className="text-xs text-stone-600 dark:text-zinc-400 font-japanese">
                     {activePassage.titleJa}
                   </p>
                 </div>
 
                 {/* Score Cards */}
                 <div className="grid grid-cols-2 gap-3">
-                  <div className="bg-white dark:bg-stone-950 border border-stone-200 dark:border-stone-800 rounded-xl p-3 text-center space-y-1 shadow-xs">
-                    <span className="text-[10px] text-stone-500 font-mono uppercase">မှန်ကန်မှုနှုန်း (Accuracy)</span>
+                  <div className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-xl p-3 text-center space-y-1 shadow-xs">
+                    <span className="text-[10px] text-stone-500 dark:text-zinc-400 font-mono uppercase">မှန်ကန်မှုနှုန်း (Accuracy)</span>
                     <div className="text-xl font-bold font-mono text-emerald-600 dark:text-emerald-400">
                       {summaryMetrics.accuracy}%
                     </div>
-                    <span className="text-[10px] text-stone-600 dark:text-stone-400">
+                    <span className="text-[10px] text-stone-600 dark:text-zinc-400">
                       {summaryMetrics.correctCount} / {summaryMetrics.totalQuestions} ပုစ္ဆာမှန်ကန်
                     </span>
                   </div>
 
-                  <div className="bg-white dark:bg-stone-950 border border-stone-200 dark:border-stone-800 rounded-xl p-3 text-center space-y-1 shadow-xs">
-                    <span className="text-[10px] text-stone-500 font-mono uppercase">ဖတ်နှုန်း (CPM)</span>
+                  <div className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-xl p-3 text-center space-y-1 shadow-xs">
+                    <span className="text-[10px] text-stone-500 dark:text-zinc-400 font-mono uppercase">ဖတ်နှုန်း (CPM)</span>
                     <div className="text-xl font-bold font-mono text-rose-600 dark:text-rose-400">
                       {summaryMetrics.cpm}
                     </div>
-                    <span className="text-[10px] text-stone-600 dark:text-stone-400">
+                    <span className="text-[10px] text-stone-600 dark:text-zinc-400">
                       ကြာချိန်: {formatTimer(summaryMetrics.elapsedSeconds)}
                     </span>
                   </div>
                 </div>
 
                 {/* Reading Stamina & Efficiency Assessment */}
-                <div className="bg-white dark:bg-stone-950/80 border border-stone-200 dark:border-stone-800 rounded-xl p-4 space-y-2 text-xs shadow-xs">
+                <div className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-xl p-4 space-y-2 text-xs shadow-xs">
                   <div className="flex items-center gap-1.5 text-stone-900 dark:text-zinc-200 font-semibold">
                     <TrendingUp className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
                     <span>JLPT စာဖတ်စွမ်းရည် သုံးသပ်ချက်</span>
                   </div>
-                  <p className="text-stone-700 dark:text-stone-300 font-myanmar leading-relaxed">
+                  <p className="text-stone-700 dark:text-zinc-300 font-myanmar leading-relaxed">
                     {summaryMetrics.accuracy >= 80 && summaryMetrics.cpm >= 250
                       ? 'အလွန်ကောင်းမွန်သော စာဖတ်နှုန်း ဖြစ်ပါသည်။ အမှန်တကယ် JLPT N2 စာမေးပွဲတွင်လည်း အချိန်လုံလောက်စွာဖြင့် တိကျမှန်ကန်စွာ ဖြေဆိုနိုင်မည့် စွမ်းရည်ရှိပါသည်။'
                       : summaryMetrics.accuracy >= 70
                       ? 'စာပိုဒ်ဖွဲ့စည်းပုံကို ကောင်းစွာ နားလည်နိုင်ပါသည်။ စကားဆက်များနှင့် စာရေးသူ၏ သဘောထားဖော်ပြချက်များကို သတိပြု၍ စာဖတ်နှုန်းကို တဖြည်းဖြည်း မြှင့်တင်သွားပါ။'
                       : 'မေးခွန်း၏ အထောက်အထားစာကြောင်းကို တိကျစွာ ရှာဖွေဖတ်ရှုသည့် လေ့ကျင့်မှုကို ပိုမိုလုပ်ဆောင်ပါ။ မှားယွင်းစေရန် ထောင်ထားသော အဖြေမှားများကို ချန်လှပ်ဖြေဆိုသည့် နည်းလမ်းကို အသုံးပြုပါ။'}
                   </p>
-                  <div className="pt-2 flex items-center justify-between text-[11px] text-stone-500 dark:text-stone-400 border-t border-stone-200 dark:border-stone-800">
+                  <div className="pt-2 flex items-center justify-between text-[11px] text-stone-500 dark:text-zinc-400 border-t border-stone-200 dark:border-zinc-800">
                     <span>SRS ထဲသို့ ထည့်သွင်းထားသော ဝေါဟာရ:</span>
                     <span className="font-mono font-bold text-amber-600 dark:text-amber-300">{minedCardIds.size} လုံး</span>
                   </div>
@@ -1057,7 +1057,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                       setElapsedSeconds(0);
                       setIsTimerRunning(true);
                     }}
-                    className="w-full py-2 rounded-xl bg-white dark:bg-stone-950 border border-stone-200 dark:border-stone-800 text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-zinc-100 text-xs font-semibold transition flex items-center justify-center gap-1.5 cursor-pointer shadow-xs"
+                    className="w-full py-2 rounded-xl bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 text-stone-700 dark:text-zinc-300 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-50 dark:hover:bg-zinc-800 text-xs font-semibold transition flex items-center justify-center gap-1.5 cursor-pointer shadow-xs"
                   >
                     <RotateCcw className="w-3.5 h-3.5" />
                     <span>နောက်တစ်ကြိမ် ပြန်ဖြေမည် (Retry Passage)</span>
@@ -1083,7 +1083,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 10 }}
               onClick={(e) => e.stopPropagation()}
-              className="w-full max-w-sm bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-700/80 rounded-2xl p-5 shadow-2xl text-stone-900 dark:text-zinc-100 space-y-4"
+              className="w-full max-w-sm bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-700 rounded-2xl p-5 shadow-2xl text-stone-900 dark:text-zinc-100 space-y-4"
             >
               {/* Header */}
               <div className="flex items-start justify-between">
@@ -1096,7 +1096,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                       【{minerPopover.item.reading}】
                     </span>
                   </div>
-                  <div className="flex items-center gap-2 mt-1 text-xs text-stone-500 dark:text-stone-400 font-mono">
+                  <div className="flex items-center gap-2 mt-1 text-xs text-stone-500 dark:text-zinc-400 font-mono">
                     <span>{minerPopover.item.pos || '語彙'}</span>
                     <span>·</span>
                     <span className="text-amber-600 dark:text-amber-400 font-bold">{minerPopover.item.level || activePassage.level}</span>
@@ -1104,30 +1104,30 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
                 </div>
                 <button
                   onClick={() => setMinerPopover(null)}
-                  className="p-1 text-stone-500 hover:text-stone-800 dark:text-stone-400 dark:hover:text-zinc-100 rounded transition cursor-pointer"
+                  className="p-1 text-stone-500 hover:text-stone-800 dark:text-zinc-400 dark:hover:text-zinc-100 rounded transition cursor-pointer"
                 >
                   <X className="w-4 h-4" />
                 </button>
               </div>
 
               {/* Definitions */}
-              <div className="space-y-1.5 bg-stone-50 dark:bg-stone-950/70 border border-stone-200 dark:border-stone-800 rounded-xl p-3 text-xs font-myanmar">
+              <div className="space-y-1.5 bg-stone-50 dark:bg-zinc-950 border border-stone-200 dark:border-zinc-800 rounded-xl p-3 text-xs font-myanmar">
                 <div>
-                  <span className="text-[10px] text-stone-500 font-mono block">မြန်မာ အဓိပ္ပာယ်</span>
+                  <span className="text-[10px] text-stone-500 dark:text-zinc-400 font-mono block">မြန်မာ အဓိပ္ပာယ်</span>
                   <p className="text-amber-700 dark:text-amber-300 font-medium text-sm">{minerPopover.item.meaningMy || minerPopover.item.meaningEn}</p>
                 </div>
                 {minerPopover.item.meaningEn && minerPopover.item.meaningMy && (
-                  <div className="pt-1.5 border-t border-stone-200 dark:border-stone-800/80">
-                    <span className="text-[10px] text-stone-500 font-mono block">English Definition</span>
-                    <p className="text-stone-600 dark:text-stone-400 font-sans">{minerPopover.item.meaningEn}</p>
+                  <div className="pt-1.5 border-t border-stone-200 dark:border-zinc-800">
+                    <span className="text-[10px] text-stone-500 dark:text-zinc-400 font-mono block">English Definition</span>
+                    <p className="text-stone-600 dark:text-zinc-400 font-sans">{minerPopover.item.meaningEn}</p>
                   </div>
                 )}
               </div>
 
               {/* Sentence Context */}
-              <div className="space-y-1 bg-stone-50 dark:bg-stone-950/50 border border-stone-200 dark:border-stone-800/60 rounded-xl p-3 text-xs font-myanmar">
-                <span className="text-[10px] text-stone-500 font-mono block">စာပိုဒ်ပါ အသုံးအနှုန်း နမူနာ (Context)</span>
-                <p className="text-stone-700 dark:text-stone-300 font-japanese leading-relaxed italic">
+              <div className="space-y-1 bg-stone-50 dark:bg-zinc-950 border border-stone-200 dark:border-zinc-800/80 rounded-xl p-3 text-xs font-myanmar">
+                <span className="text-[10px] text-stone-500 dark:text-zinc-400 font-mono block">စာပိုဒ်ပါ အသုံးအနှုန်း နမူနာ (Context)</span>
+                <p className="text-stone-700 dark:text-zinc-300 font-japanese leading-relaxed italic">
                   「{minerPopover.sentenceContext}」
                 </p>
               </div>
