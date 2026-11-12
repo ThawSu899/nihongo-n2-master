@@ -24,7 +24,21 @@ import {
   Trash2,
   AlertTriangle,
   Volume2,
+  Cloud,
+  CloudOff,
+  LogIn,
+  LogOut,
+  User,
 } from 'lucide-react';
+import {
+  signInWithGoogle,
+  signOutUser,
+  isGoogleConnected,
+  auth,
+  UserAuthProfile,
+} from '../../integrations/auth/firebase-auth';
+import { GoogleDriveAdapter } from '../../integrations/drive/drive-adapter';
+import { GoogleDriveService } from '../../integrations/drive/google-drive-service';
 import {
   checkJapaneseVoiceSupport,
   testJapaneseVoiceSpeech,
@@ -88,6 +102,36 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
   // Reset App / New Game state
   const [isResetModalOpen, setIsResetModalOpen] = useState<boolean>(false);
   const [isResetting, setIsResetting] = useState<boolean>(false);
+
+  // Google Account & Cloud Backup State
+  const [isGoogleAuthConnected, setIsGoogleAuthConnected] = useState<boolean>(() => isGoogleConnected());
+  const [googleUser, setGoogleUser] = useState<UserAuthProfile | null>(() => auth.currentUser);
+  const [googleAuthLoading, setGoogleAuthLoading] = useState<boolean>(false);
+  const [driveActionLoading, setDriveActionLoading] = useState<'backup' | 'restore' | null>(null);
+  const [driveStatus, setDriveStatus] = useState<{ type: 'success' | 'error' | null; message: string }>({
+    type: null,
+    message: '',
+  });
+  const [lastDriveBackupTime, setLastDriveBackupTime] = useState<string | null>(() => {
+    try {
+      if (typeof localStorage !== 'undefined') {
+        return localStorage.getItem('google_drive_last_backup_time');
+      }
+    } catch {}
+    return null;
+  });
+
+  useEffect(() => {
+    setIsGoogleAuthConnected(isGoogleConnected());
+    setGoogleUser(auth.currentUser);
+    const unsubscribe = auth.onAuthStateChanged((user) => {
+      setIsGoogleAuthConnected(isGoogleConnected());
+      setGoogleUser(user);
+    });
+    return () => {
+      unsubscribe();
+    };
+  }, []);
 
   // Audio Resiliency & TTS Diagnostic State
   const [ttsDiag, setTtsDiag] = useState<JapaneseVoiceDiagnostics | null>(null);
@@ -315,6 +359,152 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
       setBackupStatus({ type: 'error', message: `Pre-cache failed: ${err.message}` });
     } finally {
       setActionLoading(null);
+    }
+  };
+
+  const handleGoogleSignIn = async () => {
+    try {
+      setGoogleAuthLoading(true);
+      setDriveStatus({ type: null, message: '' });
+      await signInWithGoogle();
+      setIsGoogleAuthConnected(isGoogleConnected());
+      setGoogleUser(auth.currentUser);
+      setDriveStatus({
+        type: 'success',
+        message: 'Successfully signed in with Google. Cloud backup is now active.',
+      });
+    } catch (err: any) {
+      setDriveStatus({
+        type: 'error',
+        message: err?.message || 'Google sign-in failed.',
+      });
+    } finally {
+      setGoogleAuthLoading(false);
+    }
+  };
+
+  const handleGoogleSignOut = async () => {
+    try {
+      setGoogleAuthLoading(true);
+      setDriveStatus({ type: null, message: '' });
+      await signOutUser();
+      setIsGoogleAuthConnected(isGoogleConnected());
+      setGoogleUser(null);
+      setDriveStatus({
+        type: 'success',
+        message: 'Signed out of Google Account. Operating in offline-first mode with IndexedDB.',
+      });
+    } catch (err: any) {
+      setDriveStatus({
+        type: 'error',
+        message: err?.message || 'Google sign-out failed.',
+      });
+    } finally {
+      setGoogleAuthLoading(false);
+    }
+  };
+
+  const handleGoogleDriveBackup = async () => {
+    try {
+      setDriveActionLoading('backup');
+      setDriveStatus({ type: null, message: '' });
+
+      if (!isGoogleConnected()) {
+        setDriveStatus({
+          type: 'error',
+          message: 'Please sign in with Google first to backup to Google Drive.',
+        });
+        return;
+      }
+
+      const jsonContent = await BackupManager.exportToJson();
+      const driveAdapter = new GoogleDriveAdapter();
+      const filename = `nihongo_master_backup_${new Date().toISOString().substring(0, 10)}.json`;
+      const success = await driveAdapter.saveBackup(filename, jsonContent);
+
+      if (success) {
+        const now = new Date().toISOString();
+        if (typeof window !== 'undefined' && typeof localStorage !== 'undefined') {
+          localStorage.setItem('google_drive_last_backup_time', now);
+        }
+        setLastDriveBackupTime(now);
+        setDriveStatus({
+          type: 'success',
+          message: `Successfully backed up study progress to Google Drive (${filename}).`,
+        });
+      } else {
+        setDriveStatus({
+          type: 'error',
+          message: 'Failed to backup to Google Drive. Please check your network connection.',
+        });
+      }
+    } catch (err: any) {
+      setDriveStatus({
+        type: 'error',
+        message: err?.message || 'Failed to backup to Google Drive.',
+      });
+    } finally {
+      setDriveActionLoading(null);
+    }
+  };
+
+  const handleGoogleDriveRestore = async () => {
+    try {
+      setDriveActionLoading('restore');
+      setDriveStatus({ type: null, message: '' });
+
+      if (!isGoogleConnected()) {
+        setDriveStatus({
+          type: 'error',
+          message: 'Please sign in with Google first to restore from Google Drive.',
+        });
+        return;
+      }
+
+      const backups = await GoogleDriveService.listBackups();
+      if (!backups || backups.length === 0) {
+        setDriveStatus({
+          type: 'error',
+          message: 'No Nihongo N2 Master backups found in your Google Drive folder.',
+        });
+        return;
+      }
+
+      const latestBackup = backups[0];
+      const driveAdapter = new GoogleDriveAdapter();
+      const backupJson = await driveAdapter.getBackup(latestBackup.id);
+
+      if (!backupJson) {
+        setDriveStatus({
+          type: 'error',
+          message: `Could not retrieve backup file "${latestBackup.name}" from Google Drive.`,
+        });
+        return;
+      }
+
+      const restoreResult = await BackupManager.restoreFromJson(backupJson);
+      if (restoreResult.success) {
+        setDriveStatus({
+          type: 'success',
+          message: `Successfully restored study progress from Google Drive (${latestBackup.name}).`,
+        });
+        if (onDataRestored) {
+          onDataRestored();
+        }
+        fetchDiagnostics();
+      } else {
+        setDriveStatus({
+          type: 'error',
+          message: restoreResult.message || 'Failed to parse backup content from Google Drive.',
+        });
+      }
+    } catch (err: any) {
+      setDriveStatus({
+        type: 'error',
+        message: err?.message || 'Failed to restore from Google Drive.',
+      });
+    } finally {
+      setDriveActionLoading(null);
     }
   };
 
@@ -699,6 +889,138 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
               );
             })}
         </div>
+      </div>
+
+      {/* Google Account & Drive Cloud Backup Section */}
+      <div className="bg-white border border-stone-200 rounded-2xl p-5 space-y-4 shadow-sm">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <div className="flex items-center space-x-3">
+            <div
+              className={`w-9 h-9 rounded-xl flex items-center justify-center ${
+                isGoogleAuthConnected ? 'bg-indigo-50 text-indigo-600' : 'bg-stone-100 text-stone-500'
+              }`}
+            >
+              <Cloud className="w-5 h-5" />
+            </div>
+            <div>
+              <h2 className="text-base font-semibold text-stone-900 flex items-center gap-2">
+                Google Account &amp; Drive Backup
+                <span
+                  className={`text-[10px] font-mono px-2 py-0.5 rounded-full border ${
+                    isGoogleAuthConnected
+                      ? 'bg-emerald-50 text-emerald-800 border-emerald-200'
+                      : 'bg-stone-100 text-stone-600 border-stone-200'
+                  }`}
+                >
+                  {isGoogleAuthConnected ? 'Connected' : 'Offline / Local Only'}
+                </span>
+              </h2>
+              <p className="text-xs text-stone-500 font-myanmar">
+                Google Drive သို့ သင်ယူမှုမှတ်တမ်းများ Cloud Backup သိမ်းဆည်းခြင်းနှင့် ပြန်လည်ရယူခြင်း
+              </p>
+            </div>
+          </div>
+
+          <div>
+            {isGoogleAuthConnected ? (
+              <button
+                type="button"
+                onClick={handleGoogleSignOut}
+                disabled={googleAuthLoading || !!driveActionLoading}
+                className="flex items-center space-x-1.5 px-3.5 py-2 bg-white hover:bg-rose-50 text-rose-700 border border-rose-200 rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-xs disabled:opacity-50"
+              >
+                <LogOut className="w-3.5 h-3.5" />
+                <span>{googleAuthLoading ? 'Signing out...' : 'Sign out'}</span>
+              </button>
+            ) : (
+              <button
+                type="button"
+                onClick={handleGoogleSignIn}
+                disabled={googleAuthLoading || !!driveActionLoading}
+                className="flex items-center space-x-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-semibold transition cursor-pointer active:scale-95 shadow-xs disabled:opacity-50"
+              >
+                <LogIn className="w-3.5 h-3.5" />
+                <span>{googleAuthLoading ? 'Connecting...' : 'Sign in with Google'}</span>
+              </button>
+            )}
+          </div>
+        </div>
+
+        {/* User / Connection Details */}
+        <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
+          <div className="flex items-center space-x-2.5">
+            <User className={`w-4 h-4 ${isGoogleAuthConnected ? 'text-indigo-600' : 'text-stone-400'}`} />
+            <div>
+              <span className="font-semibold text-stone-800 block">
+                {isGoogleAuthConnected
+                  ? googleUser?.displayName || 'Google Connected User'
+                  : 'No Google Account Linked'}
+              </span>
+              <span className="text-[11px] text-stone-500">
+                {isGoogleAuthConnected
+                  ? 'Authenticated via Google Identity Services (Drive, Sheets & Calendar Scopes)'
+                  : 'Operating in 100% offline-first mode with IndexedDB local storage.'}
+              </span>
+            </div>
+          </div>
+
+          <div className="text-left sm:text-right shrink-0">
+            <span className="text-[11px] text-stone-500 block">Last Cloud Backup:</span>
+            <span className="font-mono font-medium text-stone-800 text-[11px]">
+              {lastDriveBackupTime ? new Date(lastDriveBackupTime).toLocaleString() : 'Never'}
+            </span>
+          </div>
+        </div>
+
+        {/* Drive Action Status Banner */}
+        {driveStatus.message && (
+          <div
+            className={`p-3 rounded-xl text-xs flex items-center space-x-2 ${
+              driveStatus.type === 'success'
+                ? 'bg-emerald-50 border border-emerald-200 text-emerald-800'
+                : 'bg-rose-50 border border-rose-200 text-rose-800'
+            }`}
+          >
+            {driveStatus.type === 'success' ? (
+              <CheckCircle className="w-4 h-4 shrink-0 text-emerald-600" />
+            ) : (
+              <AlertCircle className="w-4 h-4 shrink-0 text-rose-600" />
+            )}
+            <span>{driveStatus.message}</span>
+          </div>
+        )}
+
+        {/* Cloud Backup & Restore Buttons */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+          <button
+            type="button"
+            onClick={handleGoogleDriveBackup}
+            disabled={!isGoogleAuthConnected || !!driveActionLoading}
+            className="flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-xs disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            <Upload className={`w-3.5 h-3.5 ${driveActionLoading === 'backup' ? 'animate-bounce' : ''}`} />
+            <span>
+              {driveActionLoading === 'backup' ? 'Backing up to Drive...' : 'Backup to Google Drive'}
+            </span>
+          </button>
+
+          <button
+            type="button"
+            onClick={handleGoogleDriveRestore}
+            disabled={!isGoogleAuthConnected || !!driveActionLoading}
+            className="flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-white hover:bg-stone-50 text-stone-700 border border-stone-200 rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-xs disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            <Download className={`w-3.5 h-3.5 ${driveActionLoading === 'restore' ? 'animate-bounce' : ''}`} />
+            <span>
+              {driveActionLoading === 'restore' ? 'Restoring from Drive...' : 'Restore from Google Drive'}
+            </span>
+          </button>
+        </div>
+
+        <p className="text-[11px] text-stone-500">
+          Backups are encrypted in transit and saved to your personal Google Drive in the{' '}
+          <code className="bg-stone-100 px-1 py-0.5 rounded font-mono text-[10px]">Japanese-N2-Master</code> folder.
+        </p>
       </div>
 
       {/* PWA Offline Storage & Sync Diagnostics Section */}
