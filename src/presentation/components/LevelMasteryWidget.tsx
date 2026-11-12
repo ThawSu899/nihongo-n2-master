@@ -93,14 +93,14 @@ export const LevelMasteryWidget: React.FC<LevelMasteryWidgetProps> = ({ stats, o
         <div className="flex items-center gap-4 text-xs font-mono bg-stone-50 border border-stone-200 px-3.5 py-2 rounded-2xl shrink-0 self-start sm:self-auto">
           <div>
             <div className="text-stone-900 font-bold">
-              {`${totalCompletedLessons} `}<span className="text-zinc-500">/ 174</span>
+              {`${totalCompletedLessons} `}<span className="text-stone-500">/ 174</span>
             </div>
             <div className="text-[10px] text-stone-600">{`Lessons (${overallLessonPercent}%)`}</div>
           </div>
           <div className="h-6 w-[1px] bg-stone-200" />
           <div>
             <div className="text-stone-900 font-bold">
-              {`${totalMasteredVocab} `}<span className="text-zinc-500">/ 5,220</span>
+              {`${totalMasteredVocab} `}<span className="text-stone-500">/ 5,220</span>
             </div>
             <div className="text-[10px] text-stone-600">{`Vocab (${overallVocabPercent}%)`}</div>
           </div>

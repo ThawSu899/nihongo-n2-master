@@ -182,7 +182,7 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
                       />
                     )}
 
-                    {/* Circle Node: High = Indigo, Low = Zinc, Drop Nucleus = Rose */}
+                    {/* Circle Node: High = Indigo, Low = Stone, Drop Nucleus = Rose */}
                     <circle
                       cx={centerX}
                       cy={nodeY}

@@ -18,6 +18,7 @@ import { SystemClock } from './domain/common/clock';
 import { BackupManager } from './data/backup/backup-manager';
 import { useTimer } from './presentation/hooks/useTimer';
 import { ankiSyncService } from './services/anki-sync';
+import { initTheme } from './services/theme';
 
 import { Header } from './presentation/components/Header';
 import { Navigation } from './presentation/components/Navigation';
@@ -107,6 +108,11 @@ export default function App() {
   const [loading, setLoading] = useState<boolean>(true);
 
   const { registerModal, unregisterModal } = useGlobalShortcuts();
+
+  // Initialize and apply persisted theme mode (light/dark)
+  useEffect(() => {
+    initTheme();
+  }, []);
 
   // Modal active tracking
   useEffect(() => {
@@ -369,7 +375,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-stone-100 text-stone-900 flex flex-col md:flex-row font-sans selection:bg-indigo-500/20 selection:text-indigo-900">
+    <div className="min-h-screen bg-stone-100 text-stone-900 bg-pattern-asanoha flex flex-col md:flex-row font-sans selection:bg-indigo-500/20 selection:text-indigo-900">
       {/* Persistent Desktop Sidebar & Mobile Bottom Navigation */}
       <Navigation
         currentView={currentView}

@@ -946,44 +946,44 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
   if (viewState === 'setup') {
     return (
       <div className="space-y-6 max-w-5xl mx-auto">
-        {/* Obsidian Glass Hero Header */}
-        <div className="relative overflow-hidden rounded-3xl bg-zinc-900/80 backdrop-blur-xl border border-zinc-800/80 p-6 sm:p-8 shadow-2xl">
+        {/* Modern Academic Paper Hero Header */}
+        <div className="relative overflow-hidden rounded-3xl bg-white border border-stone-200 p-6 sm:p-8 shadow-sm">
           <div className="absolute top-0 right-0 transform translate-x-8 -translate-y-8 w-48 h-48 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 relative z-10">
             <div className="space-y-3 max-w-2xl">
               <div className="flex items-center space-x-2 flex-wrap gap-y-2">
-                <span className="px-3 py-1 rounded-full bg-amber-950/80 text-amber-300 border border-amber-500/40 font-mono text-[11px] font-bold tracking-wider uppercase flex items-center space-x-1.5 shadow-[0_0_12px_rgba(245,158,11,0.25)]">
-                  <Flame className="w-3.5 h-3.5 text-amber-400" />
+                <span className="px-3 py-1 rounded-full bg-amber-50 text-amber-800 border border-amber-200 font-mono text-[11px] font-bold tracking-wider uppercase flex items-center space-x-1.5 shadow-2xs">
+                  <Flame className="w-3.5 h-3.5 text-amber-600" />
                   <span>Grammar Cram Lab · သဒ္ဒါ အထူးလေ့ကျင့်ရေး</span>
                 </span>
-                <span className="px-2.5 py-1 rounded-full bg-zinc-950/80 text-zinc-300 border border-zinc-800 text-[10px] font-mono">
+                <span className="px-2.5 py-1 rounded-full bg-stone-100 text-stone-700 border border-stone-200 text-[10px] font-mono">
                   Unranked • No FSRS Penalty
                 </span>
                 {quarantinedGhostsCount > 0 && (
-                  <span className="px-2.5 py-1 rounded-full bg-rose-950/80 text-rose-300 border border-rose-500/40 text-[10px] font-mono flex items-center space-x-1">
-                    <Bug className="w-3 h-3 text-rose-400" />
+                  <span className="px-2.5 py-1 rounded-full bg-rose-50 text-rose-700 border border-rose-200 text-[10px] font-mono flex items-center space-x-1">
+                    <Bug className="w-3 h-3 text-rose-600" />
                     <span>{quarantinedGhostsCount} Ghosts in Quarantine</span>
                   </span>
                 )}
               </div>
 
               <div>
-                <h1 className="text-2xl sm:text-3xl font-extrabold text-zinc-100 tracking-tight font-japanese">
+                <h1 className="text-2xl sm:text-3xl font-extrabold text-stone-900 tracking-tight font-japanese">
                   Grammar Cram Lab (သဒ္ဒါ လေ့ကျင့်ရေးစခန်း)
                 </h1>
-                <p className="text-xs sm:text-sm text-zinc-300 mt-1.5 leading-relaxed font-myanmar">
+                <p className="text-xs sm:text-sm text-stone-600 mt-1.5 leading-relaxed font-myanmar">
                   ပုံမှန် SRS ပြက္ခဒိန်ကို မထိခိုက်စေဘဲ သင်လိုချင်သော သဒ္ဒါအုပ်စုများကို စိတ်ကြိုက် ရွေးချယ်လေ့ကျင့်နိုင်ပါသည်။ Cloze စာစီကွက်လပ်ဖြည့်နည်း သို့မဟုတ် ၄ ခုရွေး မေးခွန်းများဖြင့် သဒ္ဒါကွဲပြားချက်များကို အလွတ်သဘော ကျွမ်းကျင်အောင် လေ့ကျင့်ပါ။
                 </p>
               </div>
 
               {/* Mode Badges */}
-              <div className="flex items-center gap-2 pt-1 text-[11px] font-mono text-zinc-400">
-                <span className="px-2.5 py-1 rounded-xl bg-zinc-950/90 border border-zinc-800 flex items-center space-x-1.5">
-                  <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
+              <div className="flex items-center gap-2 pt-1 text-[11px] font-mono text-stone-500">
+                <span className="px-2.5 py-1 rounded-xl bg-stone-50 border border-stone-200 flex items-center space-x-1.5">
+                  <Sparkles className="w-3.5 h-3.5 text-indigo-600" />
                   <span>Nuance Interceptor Active</span>
                 </span>
-                <span className="px-2.5 py-1 rounded-xl bg-zinc-950/90 border border-zinc-800 flex items-center space-x-1.5">
-                  <Volume2 className="w-3.5 h-3.5 text-emerald-400" />
+                <span className="px-2.5 py-1 rounded-xl bg-stone-50 border border-stone-200 flex items-center space-x-1.5">
+                  <Volume2 className="w-3.5 h-3.5 text-emerald-600" />
                   <span>Native Audio Pronunciation</span>
                 </span>
               </div>
@@ -994,7 +994,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
               <div className="self-start sm:self-auto">
                 <button
                   onClick={onExit}
-                  className="px-4 py-2 rounded-xl bg-zinc-950/80 hover:bg-zinc-850 border border-zinc-800 text-zinc-300 text-xs font-medium transition cursor-pointer flex items-center space-x-2"
+                  className="px-4 py-2 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 text-stone-700 text-xs font-medium transition cursor-pointer flex items-center space-x-2 shadow-2xs"
                 >
                   <ArrowLeft className="w-4 h-4" />
                   <span>ပြန်ထွက်မည် (Back)</span>
@@ -1007,11 +1007,11 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
         {/* Section 1: Thematic Category Selection */}
         <div className="space-y-3">
           <div className="flex items-center justify-between">
-            <h2 className="text-sm font-bold font-mono uppercase tracking-wider text-zinc-300 flex items-center space-x-2">
-              <BookOpen className="w-4 h-4 text-amber-400" />
+            <h2 className="text-sm font-bold font-mono uppercase tracking-wider text-stone-800 flex items-center space-x-2">
+              <BookOpen className="w-4 h-4 text-amber-600" />
               <span>၁။ သဒ္ဒါ အုပ်စု ရွေးချယ်ပါ (Select Thematic Category)</span>
             </h2>
-            <span className="text-[11px] font-mono text-zinc-500">
+            <span className="text-[11px] font-mono text-stone-500">
               {CRAM_CATEGORIES.length} Categories Available
             </span>
           </div>
@@ -1024,15 +1024,15 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                   key={cat.key}
                   type="button"
                   onClick={() => setSelectedCategory(cat.key)}
-                  className={`p-4 rounded-2xl border text-left transition-all duration-200 cursor-pointer relative group flex flex-col justify-between ${
+                  className={`p-4 rounded-2xl border text-left transition-all duration-200 cursor-pointer relative group flex flex-col justify-between shadow-2xs ${
                     isSelected
-                      ? 'bg-zinc-900 border-amber-500/70 shadow-[0_0_24px_rgba(245,158,11,0.25)] ring-1 ring-amber-500/50'
-                      : 'bg-zinc-900/60 border-zinc-800/80 hover:bg-zinc-900/90 hover:border-zinc-700'
+                      ? 'bg-amber-50/70 border-amber-500 ring-1 ring-amber-400'
+                      : 'bg-white border-stone-200 hover:bg-stone-50 hover:border-stone-300'
                   }`}
                 >
                   <div className="space-y-2">
                     <div className="flex items-center justify-between">
-                      <div className="p-2 rounded-xl bg-zinc-950 border border-zinc-800 shrink-0">
+                      <div className="p-2 rounded-xl bg-stone-50 border border-stone-200 shrink-0">
                         {cat.icon}
                       </div>
                       <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full border ${cat.badgeClass}`}>
@@ -1041,15 +1041,15 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                     </div>
 
                     <div>
-                      <h3 className="text-sm font-bold text-zinc-100 group-hover:text-stone-100 transition">
+                      <h3 className="text-sm font-bold text-stone-900 group-hover:text-indigo-600 transition">
                         {cat.titleEn}
                       </h3>
-                      <p className="text-xs font-semibold text-amber-300 font-myanmar mt-0.5">
+                      <p className="text-xs font-semibold text-amber-700 font-myanmar mt-0.5">
                         {cat.titleMy}
                       </p>
                     </div>
 
-                    <p className="text-[11px] text-zinc-400 leading-relaxed font-myanmar">
+                    <p className="text-[11px] text-stone-600 leading-relaxed font-myanmar">
                       {cat.descriptionMy}
                     </p>
                   </div>
@@ -1059,7 +1059,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                     {cat.patterns.map((p, i) => (
                       <span
                         key={i}
-                        className="text-[10px] font-mono font-japanese px-2 py-0.5 rounded-md bg-zinc-950/80 border border-zinc-800/80 text-zinc-300"
+                        className="text-[10px] font-mono font-japanese px-2 py-0.5 rounded-md bg-stone-50 border border-stone-200 text-stone-700"
                       >
                         {p}
                       </span>
@@ -1074,10 +1074,10 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
         {/* Section 2: Drill Settings (Mode & Size) */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
           {/* Drill Size Selector */}
-          <div className="p-5 rounded-2xl bg-zinc-900/70 border border-zinc-800/80 space-y-3">
+          <div className="p-5 rounded-2xl bg-white border border-stone-200 space-y-3 shadow-2xs">
             <div className="flex items-center space-x-2">
-              <Clock className="w-4 h-4 text-indigo-400" />
-              <h3 className="text-xs font-bold font-mono uppercase tracking-wider text-zinc-200">
+              <Clock className="w-4 h-4 text-indigo-600" />
+              <h3 className="text-xs font-bold font-mono uppercase tracking-wider text-stone-800">
                 ၂။ မေးခွန်း အရေအတွက် (Drill Size)
               </h3>
             </div>
@@ -1087,14 +1087,14 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                   key={size}
                   type="button"
                   onClick={() => setDrillSize(size)}
-                  className={`p-3 rounded-xl border text-center transition cursor-pointer flex flex-col items-center justify-center ${
+                  className={`p-3 rounded-xl border text-center transition cursor-pointer flex flex-col items-center justify-center shadow-2xs ${
                     drillSize === size
-                      ? 'bg-indigo-950/90 border-indigo-500 text-indigo-100 shadow-[0_0_16px_rgba(99,102,241,0.3)] ring-1 ring-indigo-500/40'
-                      : 'bg-zinc-950/80 border-zinc-800 text-zinc-400 hover:text-zinc-200 hover:border-zinc-700'
+                      ? 'bg-indigo-50 border-indigo-500 text-indigo-900 ring-1 ring-indigo-400'
+                      : 'bg-white border-stone-200 text-stone-600 hover:text-stone-900 hover:border-stone-300'
                   }`}
                 >
                   <span className="text-lg font-bold font-mono">{size}</span>
-                  <span className="text-[10px] font-myanmar text-zinc-400 mt-0.5">
+                  <span className="text-[10px] font-myanmar text-stone-500 mt-0.5">
                     {size === 10 ? 'အမြန် (Quick)' : size === 15 ? 'စံနှုန်း (Standard)' : 'အပြည့် (Marathon)'}
                   </span>
                 </button>
@@ -1103,10 +1103,10 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
           </div>
 
           {/* Drill Mode Selector */}
-          <div className="p-5 rounded-2xl bg-zinc-900/70 border border-zinc-800/80 space-y-3">
+          <div className="p-5 rounded-2xl bg-white border border-stone-200 space-y-3 shadow-2xs">
             <div className="flex items-center space-x-2">
-              <Zap className="w-4 h-4 text-amber-400" />
-              <h3 className="text-xs font-bold font-mono uppercase tracking-wider text-zinc-200">
+              <Zap className="w-4 h-4 text-amber-600" />
+              <h3 className="text-xs font-bold font-mono uppercase tracking-wider text-stone-800">
                 ၃။ လေ့ကျင့်မှု ပုံစံ (Drill Mode)
               </h3>
             </div>
@@ -1114,22 +1114,22 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
               <button
                 type="button"
                 onClick={() => setDrillMode('cloze')}
-                className={`p-3 rounded-xl border text-left transition cursor-pointer flex flex-col justify-between ${
+                className={`p-3 rounded-xl border text-left transition cursor-pointer flex flex-col justify-between shadow-2xs ${
                   drillMode === 'cloze'
-                    ? 'bg-amber-950/90 border-amber-500 text-amber-100 shadow-[0_0_16px_rgba(245,158,11,0.3)] ring-1 ring-amber-500/40'
-                    : 'bg-zinc-950/80 border-zinc-800 text-zinc-400 hover:text-zinc-200 hover:border-zinc-700'
+                    ? 'bg-amber-50 border-amber-500 text-amber-900 ring-1 ring-amber-400'
+                    : 'bg-white border-stone-200 text-stone-600 hover:text-stone-900 hover:border-stone-300'
                 }`}
               >
                 <div>
                   <span className="text-xs font-bold flex items-center space-x-1.5">
-                    <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+                    <Sparkles className="w-3.5 h-3.5 text-amber-600" />
                     <span>Cloze Active Recall</span>
                   </span>
-                  <p className="text-[11px] text-amber-300 font-myanmar mt-1">
+                  <p className="text-[11px] text-amber-800 font-myanmar mt-1">
                     ကွက်လပ် ရိုက်ထည့်ခြင်း
                   </p>
                 </div>
-                <span className="text-[9px] font-mono text-zinc-400 mt-2 block">
+                <span className="text-[9px] font-mono text-stone-500 mt-2 block">
                   Hiragana Typing + Nuance Shield
                 </span>
               </button>
@@ -1137,22 +1137,22 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
               <button
                 type="button"
                 onClick={() => setDrillMode('multiple_choice')}
-                className={`p-3 rounded-xl border text-left transition cursor-pointer flex flex-col justify-between ${
+                className={`p-3 rounded-xl border text-left transition cursor-pointer flex flex-col justify-between shadow-2xs ${
                   drillMode === 'multiple_choice'
-                    ? 'bg-emerald-950/90 border-emerald-500 text-emerald-100 shadow-[0_0_16px_rgba(16,185,129,0.3)] ring-1 ring-emerald-500/40'
-                    : 'bg-zinc-950/80 border-zinc-800 text-zinc-400 hover:text-zinc-200 hover:border-zinc-700'
+                    ? 'bg-emerald-50 border-emerald-500 text-emerald-900 ring-1 ring-emerald-400'
+                    : 'bg-white border-stone-200 text-stone-600 hover:text-stone-900 hover:border-stone-300'
                 }`}
               >
                 <div>
                   <span className="text-xs font-bold flex items-center space-x-1.5">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
+                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
                     <span>Multiple Choice</span>
                   </span>
-                  <p className="text-[11px] text-emerald-300 font-myanmar mt-1">
+                  <p className="text-[11px] text-emerald-800 font-myanmar mt-1">
                     ၄ ခုရွေး မေးခွန်း
                   </p>
                 </div>
-                <span className="text-[9px] font-mono text-zinc-400 mt-2 block">
+                <span className="text-[9px] font-mono text-stone-500 mt-2 block">
                   Keys 1-4 • Rapid Sprint
                 </span>
               </button>
@@ -1165,7 +1165,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
           <button
             type="button"
             onClick={handleStartDrill}
-            className="w-full py-4 rounded-2xl bg-gradient-to-r from-amber-600 via-amber-500 to-rose-600 hover:from-amber-500 hover:to-rose-500 text-white font-bold text-sm shadow-[0_0_28px_rgba(245,158,11,0.35)] hover:shadow-[0_0_36px_rgba(245,158,11,0.55)] transition active:scale-[0.99] flex items-center justify-center space-x-2.5 cursor-pointer"
+            className="w-full py-4 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-sm shadow-sm transition active:scale-[0.99] flex items-center justify-center space-x-2.5 cursor-pointer"
           >
             <Play className="w-4 h-4 fill-current" />
             <span className="font-myanmar font-semibold text-base">
@@ -1189,11 +1189,11 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
     return (
       <div className="space-y-6 max-w-4xl mx-auto">
         {/* Top Header & Progress HUD */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-zinc-900/80 backdrop-blur-xl border border-zinc-800/80 rounded-2xl p-4 shadow-xl">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-white border border-stone-200 rounded-2xl p-4 shadow-sm">
           <div className="flex items-center space-x-3">
             <button
               onClick={() => setViewState('setup')}
-              className="p-1.5 rounded-lg bg-zinc-950 hover:bg-zinc-800 text-zinc-400 hover:text-stone-200 transition cursor-pointer"
+              className="p-1.5 rounded-lg bg-white hover:bg-stone-50 text-stone-600 hover:text-stone-900 border border-stone-200 transition cursor-pointer"
               title="Cancel drill"
             >
               <ArrowLeft className="w-4 h-4" />
@@ -1203,7 +1203,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                 <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-950/80 text-amber-300 border border-amber-500/40 uppercase font-bold">
                   {currentQ.category}
                 </span>
-                <span className="text-xs font-mono text-zinc-300">
+                <span className="text-xs font-mono text-stone-700">
                   Question {currentIndex + 1} of {sessionQuestions.length}
                 </span>
               </div>
@@ -1212,7 +1212,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
 
           <div className="flex items-center space-x-4">
             <div className="text-right">
-              <span className="text-[10px] font-mono text-zinc-400 uppercase block">Current Score</span>
+              <span className="text-[10px] font-mono text-stone-500 uppercase block">Current Score</span>
               <span className="text-xs font-mono font-bold text-emerald-400">
                 {currentCorrectCount} / {sessionAnswers.length} correct
               </span>
@@ -1223,7 +1223,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                 onClick={() =>
                   playSentenceAudio(currentQ.prefix + currentQ.target + currentQ.suffix)
                 }
-                className="p-2 rounded-xl bg-zinc-950 hover:bg-zinc-800 border border-zinc-800 text-indigo-300 hover:text-stone-200 transition cursor-pointer"
+                className="p-2 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 text-indigo-600 hover:text-indigo-700 transition cursor-pointer"
                 title="Play native Japanese pronunciation"
               >
                 <Volume2 className="w-4 h-4" />
@@ -1233,7 +1233,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
         </div>
 
         {/* Progress Bar */}
-        <div className="w-full bg-zinc-950 h-2 rounded-full overflow-hidden border border-zinc-800/80">
+        <div className="w-full bg-stone-200 h-2 rounded-full overflow-hidden border border-stone-300">
           <motion.div
             className="h-full bg-gradient-to-r from-amber-500 via-rose-500 to-indigo-500"
             initial={{ width: 0 }}
@@ -1248,21 +1248,21 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
           initial={{ opacity: 0, y: 12, scale: 0.99 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 0.2 }}
-          className={`relative overflow-hidden rounded-3xl bg-zinc-900/80 backdrop-blur-xl border ${
+          className={`relative overflow-hidden rounded-3xl bg-white border ${
             isEvaluated && isCurrentCorrect
               ? 'border-emerald-500/50 shadow-[0_0_30px_rgba(16,185,129,0.25)]'
               : isEvaluated && !isCurrentCorrect
               ? 'border-rose-500/50 shadow-[0_0_30px_rgba(244,63,94,0.25)]'
               : nuanceWarning
               ? 'border-amber-500/50 shadow-[0_0_24px_rgba(245,158,11,0.25)]'
-              : 'border-zinc-800/80 shadow-2xl'
+              : 'border-stone-200 shadow-sm'
           } p-6 sm:p-8 min-h-[360px] flex flex-col justify-between transition-all duration-300`}
         >
           {/* Micro Gradient Accent */}
           <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-amber-500 via-rose-500 to-indigo-500" />
 
           {/* Top Card Bar */}
-          <div className="flex items-center justify-between text-[11px] font-mono text-zinc-400">
+          <div className="flex items-center justify-between text-[11px] font-mono text-stone-500">
             <span className="flex items-center space-x-1.5">
               <Zap className="w-3.5 h-3.5 text-amber-400" />
               <span>{currentQ.formation}</span>
@@ -1270,7 +1270,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
             <button
               type="button"
               onClick={() => setShowHint(!showHint)}
-              className="flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-zinc-950 border border-zinc-800 text-zinc-400 hover:text-zinc-200 transition cursor-pointer"
+              className="flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-white border border-stone-200 text-stone-600 hover:text-stone-900 transition cursor-pointer"
             >
               <HelpCircle className="w-3.5 h-3.5 text-indigo-400" />
               <span className="font-myanmar text-[11px]">
@@ -1281,12 +1281,12 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
 
           {/* Japanese Sentence Centerpiece */}
           <div className="my-auto py-6 text-center space-y-6">
-            <div className="text-xl sm:text-2xl md:text-3xl font-bold font-japanese text-zinc-100 tracking-tight leading-relaxed">
+            <div className="text-xl sm:text-2xl md:text-3xl font-bold font-japanese text-stone-900 tracking-tight leading-relaxed">
               <span>{currentQ.prefix}</span>
 
               {drillMode === 'cloze' ? (
                 /* Cloze Interactive Input Slot */
-                <span className="inline-block mx-2.5 px-3 py-1 rounded-xl bg-zinc-950 border-2 border-indigo-500/70 text-indigo-200 font-mono shadow-inner min-w-[140px] align-middle ring-2 ring-indigo-500/20">
+                <span className="inline-block mx-2.5 px-3 py-1 rounded-xl bg-indigo-50 border-2 border-indigo-500 text-indigo-900 font-mono shadow-inner min-w-[140px] align-middle ring-2 ring-indigo-500/20">
                   {!isEvaluated ? (
                     <form onSubmit={handleClozeSubmit} className="inline">
                       <input
@@ -1295,7 +1295,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                         value={clozeInput}
                         onChange={handleClozeInputChange}
                         placeholder="〜"
-                        className="bg-transparent text-center font-japanese text-lg sm:text-xl font-bold text-amber-300 outline-none w-28 sm:w-36 placeholder-zinc-600"
+                        className="bg-transparent text-center font-japanese text-lg sm:text-xl font-bold text-amber-800 outline-none w-28 sm:w-36 placeholder-stone-400"
                         autoCapitalize="none"
                         autoComplete="off"
                         autoCorrect="off"
@@ -1314,7 +1314,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                 </span>
               ) : (
                 /* Multiple Choice Blank Highlight */
-                <span className="inline-block mx-2.5 px-4 py-1 rounded-xl bg-zinc-950/90 border-2 border-amber-500/60 text-amber-300 font-mono align-middle shadow-inner">
+                <span className="inline-block mx-2.5 px-4 py-1 rounded-xl bg-amber-50 border-2 border-amber-500/60 text-amber-900 font-mono align-middle shadow-inner">
                   {isEvaluated ? currentQ.target : '[ _____ ]'}
                 </span>
               )}
@@ -1324,10 +1324,10 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
 
             {/* Burmese Definition & Meaning */}
             <div className="space-y-1">
-              <p className="text-sm sm:text-base font-semibold text-zinc-200 font-myanmar">
+              <p className="text-sm sm:text-base font-semibold text-stone-900 font-myanmar">
                 &ldquo;{currentQ.meaningMy}&rdquo;
               </p>
-              <p className="text-xs text-zinc-400 font-sans italic">
+              <p className="text-xs text-stone-600 font-sans italic">
                 {currentQ.meaningEn}
               </p>
             </div>
@@ -1359,13 +1359,13 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: 'auto' }}
                   exit={{ opacity: 0, height: 0 }}
-                  className="bg-zinc-950/90 border border-zinc-800 rounded-2xl p-4 text-xs text-zinc-300 space-y-1 max-w-lg mx-auto shadow-inner text-left"
+                  className="bg-stone-50 border border-stone-200 rounded-2xl p-4 text-xs text-stone-700 space-y-1 max-w-lg mx-auto shadow-sm text-left"
                 >
                   <span className="font-mono text-[10px] uppercase text-indigo-400 font-bold block">
                     Grammar Formation &amp; Clue:
                   </span>
-                  <p className="font-mono text-zinc-200 font-semibold">{currentQ.formation}</p>
-                  <p className="text-amber-300 font-myanmar text-xs">{currentQ.hint}</p>
+                  <p className="font-mono text-stone-900 font-semibold">{currentQ.formation}</p>
+                  <p className="text-amber-700 font-myanmar text-xs">{currentQ.hint}</p>
                 </motion.div>
               )}
             </AnimatePresence>
@@ -1378,7 +1378,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                   const isCorrect = choice.trim() === currentQ.target.trim();
 
                   let style =
-                    'bg-zinc-950/80 border-zinc-800 text-zinc-200 hover:border-zinc-700 hover:bg-zinc-850';
+                    'bg-white border-stone-200 text-stone-800 hover:border-stone-300 hover:bg-stone-50';
 
                   if (isEvaluated) {
                     if (isCorrect) {
@@ -1386,7 +1386,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                     } else if (isSelected && !isCorrect) {
                       style = 'bg-rose-950/90 border-rose-500 text-rose-200 shadow-[0_0_16px_rgba(244,63,94,0.3)]';
                     } else {
-                      style = 'bg-zinc-950/40 border-zinc-900 text-zinc-600 opacity-50';
+                      style = 'bg-stone-100 border-stone-200 text-stone-400 opacity-50';
                     }
                   } else if (isSelected) {
                     style = 'bg-indigo-950/80 border-indigo-500 text-indigo-100 shadow-[0_0_16px_rgba(99,102,241,0.3)]';
@@ -1401,7 +1401,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                       className={`p-3.5 rounded-xl border text-left text-sm font-japanese font-semibold transition flex items-center justify-between cursor-pointer ${style}`}
                     >
                       <span className="flex items-center space-x-2.5">
-                        <span className="w-5 h-5 rounded-full bg-zinc-800 text-zinc-300 text-[10px] flex items-center justify-center font-mono shrink-0">
+                        <span className="w-5 h-5 rounded-full bg-stone-100 text-stone-600 border border-stone-200 text-[10px] flex items-center justify-center font-mono shrink-0">
                           {i + 1}
                         </span>
                         <span>{choice}</span>
@@ -1424,10 +1424,10 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
           </div>
 
           {/* Post-Answer Feedback & Next Action */}
-          <div className="pt-4 border-t border-zinc-800/80 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="pt-4 border-t border-stone-200 flex flex-col sm:flex-row items-center justify-between gap-3">
             {!isEvaluated ? (
               <>
-                <span className="text-[11px] text-zinc-500 font-mono font-myanmar">
+                <span className="text-[11px] text-stone-500 font-mono font-myanmar">
                   {drillMode === 'cloze'
                     ? 'ဟီရဂနဖြင့် ရိုက်ထည့်ပါ • Enter ခေါက်၍ အတည်ပြုပါ'
                     : 'ကီးဘုတ် 1-4 နှိပ်၍ လျင်မြန်စွာ ရွေးချယ်နိုင်သည်'}
@@ -1460,7 +1460,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                       </span>
                     )}
                   </div>
-                  <p className="text-xs text-zinc-300 font-myanmar">
+                  <p className="text-xs text-stone-600 font-myanmar">
                     {currentQ.explanationMy}
                   </p>
                 </div>
@@ -1498,7 +1498,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
   return (
     <div className="space-y-6 max-w-4xl mx-auto">
       {/* Completion Trophy Card with Radial Glass Glow */}
-      <div className="relative overflow-hidden rounded-3xl bg-zinc-900/80 backdrop-blur-xl border border-zinc-800/80 p-8 shadow-2xl text-center space-y-5">
+      <div className="relative overflow-hidden rounded-3xl bg-white border border-stone-200 p-8 shadow-sm text-center space-y-5">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
 
         <div
@@ -1516,13 +1516,13 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
         </div>
 
         <div className="space-y-1.5">
-          <span className="text-[11px] font-mono uppercase tracking-wider text-zinc-400">
+          <span className="text-[11px] font-mono uppercase tracking-wider text-stone-500">
             Unranked Sprint Completed • စိတ်ကြိုက် လေ့ကျင့်မှု ပြီးဆုံးပါပြီ
           </span>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-zinc-100 font-japanese">
+          <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-900 font-japanese">
             {isMastered ? 'Cram Sprint Cleared!' : 'Targeted Practice Completed'}
           </h2>
-          <p className="text-sm text-zinc-300 font-myanmar max-w-md mx-auto">
+          <p className="text-sm text-stone-600 font-myanmar max-w-md mx-auto">
             {isMastered
               ? 'ဂုဏ်ယူပါသည်! သဒ္ဒါအသုံးအနှုန်းများကို ကောင်းစွာ ကျွမ်းကျင်နေပါပြီ။'
               : 'ထပ်မံလေ့ကျင့်ရန် လိုအပ်ပါသည်။ အခက်အခဲရှိသော သဒ္ဒါများကို သေချာပြန်လည်ကြည့်ရှုပါ။'}
@@ -1531,23 +1531,23 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
 
         {/* 4-Stat Metric Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-2xl mx-auto pt-2">
-          <div className="p-3.5 rounded-2xl bg-zinc-950/80 border border-zinc-800 text-center">
-            <span className="text-[10px] font-mono text-zinc-400 uppercase block">Accuracy</span>
-            <span className="text-2xl font-extrabold font-mono text-zinc-100">{accuracyPct}%</span>
+          <div className="p-3.5 rounded-2xl bg-stone-50 border border-stone-200 text-center">
+            <span className="text-[10px] font-mono text-stone-500 uppercase block">Accuracy</span>
+            <span className="text-2xl font-extrabold font-mono text-stone-900">{accuracyPct}%</span>
           </div>
-          <div className="p-3.5 rounded-2xl bg-zinc-950/80 border border-zinc-800 text-center">
-            <span className="text-[10px] font-mono text-zinc-400 uppercase block">Score</span>
+          <div className="p-3.5 rounded-2xl bg-stone-50 border border-stone-200 text-center">
+            <span className="text-[10px] font-mono text-stone-500 uppercase block">Score</span>
             <span className="text-2xl font-extrabold font-mono text-emerald-400">
               {correctCount} / {totalQuestions}
             </span>
           </div>
-          <div className="p-3.5 rounded-2xl bg-zinc-950/80 border border-zinc-800 text-center">
-            <span className="text-[10px] font-mono text-zinc-400 uppercase block">Duration</span>
+          <div className="p-3.5 rounded-2xl bg-stone-50 border border-stone-200 text-center">
+            <span className="text-[10px] font-mono text-stone-500 uppercase block">Duration</span>
             <span className="text-2xl font-extrabold font-mono text-indigo-400">{elapsedSeconds}s</span>
           </div>
-          <div className="p-3.5 rounded-2xl bg-zinc-950/80 border border-zinc-800 text-center">
-            <span className="text-[10px] font-mono text-zinc-400 uppercase block">Drill Mode</span>
-            <span className="text-xs font-bold font-mono text-amber-300 mt-2 block uppercase">
+          <div className="p-3.5 rounded-2xl bg-stone-50 border border-stone-200 text-center">
+            <span className="text-[10px] font-mono text-stone-500 uppercase block">Drill Mode</span>
+            <span className="text-xs font-bold font-mono text-amber-600 mt-2 block uppercase">
               {drillMode === 'cloze' ? 'Cloze Recall' : '4-Choice'}
             </span>
           </div>
@@ -1566,7 +1566,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
           <button
             type="button"
             onClick={() => setViewState('setup')}
-            className="w-full sm:w-auto px-5 py-3 rounded-2xl bg-zinc-800 hover:bg-zinc-700 text-zinc-200 text-xs font-medium transition cursor-pointer"
+            className="w-full sm:w-auto px-5 py-3 rounded-2xl bg-white hover:bg-stone-50 text-stone-700 border border-stone-200 text-xs font-medium transition cursor-pointer"
           >
             <span className="font-myanmar">အမျိုးအစား အသစ်ရွေးမည် (Change Category)</span>
           </button>
@@ -1574,7 +1574,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
             <button
               type="button"
               onClick={onExit}
-              className="w-full sm:w-auto px-5 py-3 rounded-2xl bg-zinc-950 border border-zinc-800 hover:border-zinc-700 text-zinc-400 hover:text-zinc-200 text-xs font-medium transition cursor-pointer"
+              className="w-full sm:w-auto px-5 py-3 rounded-2xl bg-white border border-stone-200 hover:bg-stone-50 text-stone-600 hover:text-stone-900 text-xs font-medium transition cursor-pointer"
             >
               <span className="font-myanmar">စမ်းသပ်မှုများသို့ ပြန်သွားမည် (Back)</span>
             </button>
@@ -1584,7 +1584,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
 
       {/* Review Item Breakdown List */}
       <div className="space-y-3">
-        <h3 className="text-sm font-bold font-mono uppercase tracking-wider text-zinc-300 flex items-center space-x-2">
+        <h3 className="text-sm font-bold font-mono uppercase tracking-wider text-stone-800 flex items-center space-x-2">
           <BookOpen className="w-4 h-4 text-amber-400" />
           <span>မေးခွန်းများ ပြန်လည်စစ်ဆေးခြင်း (Question Review Breakdown)</span>
         </h3>
@@ -1595,8 +1595,8 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
               key={idx}
               className={`p-4 rounded-2xl border transition flex flex-col sm:flex-row sm:items-center justify-between gap-3 ${
                 ans.isCorrect
-                  ? 'bg-zinc-900/60 border-zinc-800/80 hover:border-emerald-500/40'
-                  : 'bg-rose-950/20 border-rose-900/40 hover:border-rose-500/40'
+                  ? 'bg-white border-stone-200 hover:border-emerald-500/40'
+                  : 'bg-rose-50/50 border-rose-200 hover:border-rose-300'
               }`}
             >
               <div className="space-y-1">
@@ -1610,33 +1610,33 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                   >
                     {ans.isCorrect ? <Check className="w-3 h-3" /> : <X className="w-3 h-3" />}
                   </span>
-                  <span className="font-mono text-xs font-bold text-amber-300 font-japanese">
+                  <span className="font-mono text-xs font-bold text-amber-700 font-japanese">
                     「{ans.question.grammarPattern}」
                   </span>
-                  <span className="text-[10px] font-mono text-zinc-500">
+                  <span className="text-[10px] font-mono text-stone-500">
                     Q{idx + 1}
                   </span>
                 </div>
-                <p className="text-sm font-japanese text-zinc-100">
+                <p className="text-sm font-japanese text-stone-900">
                   {ans.question.prefix}
                   <span
                     className={`font-bold underline decoration-2 mx-1 ${
-                      ans.isCorrect ? 'text-emerald-300' : 'text-rose-300'
+                      ans.isCorrect ? 'text-emerald-700' : 'text-rose-700'
                     }`}
                   >
                     {ans.question.target}
                   </span>
                   {ans.question.suffix}
                 </p>
-                <p className="text-xs text-zinc-400 font-myanmar">
+                <p className="text-xs text-stone-600 font-myanmar">
                   {ans.question.meaningMy}
                 </p>
               </div>
 
               {/* Native audio listener & entered value */}
               <div className="flex items-center space-x-3 shrink-0 self-end sm:self-auto">
-                <span className="text-[11px] font-mono text-zinc-400">
-                  Entered: <span className="text-zinc-200 font-japanese font-bold">{ans.entered}</span>
+                <span className="text-[11px] font-mono text-stone-600">
+                  Entered: <span className="text-stone-900 font-japanese font-bold">{ans.entered}</span>
                 </span>
                 {speechAvailable && (
                   <button
@@ -1646,7 +1646,7 @@ export const GrammarCramLab: React.FC<GrammarCramLabProps> = ({ profile, onExit 
                         ans.question.prefix + ans.question.target + ans.question.suffix
                       )
                     }
-                    className="p-1.5 rounded-lg bg-zinc-950 hover:bg-zinc-800 border border-zinc-800 text-zinc-400 hover:text-stone-200 transition cursor-pointer"
+                    className="p-1.5 rounded-lg bg-white hover:bg-stone-50 border border-stone-200 text-stone-600 hover:text-stone-900 transition cursor-pointer"
                     title="Pronounce Japanese sentence"
                   >
                     <Volume2 className="w-3.5 h-3.5" />

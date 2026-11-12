@@ -93,7 +93,7 @@ describe('Daily Target & Study Streak Widget Engine', () => {
       expect(html).toContain('7');
       expect(html).toContain('Days / ရက်ဆက်');
       expect(html).toContain('Active 🔥');
-      expect(html).toContain('Longest: <strong class="text-zinc-200">14d</strong>');
+      expect(html).toContain('Longest: <strong class="text-stone-700">14d</strong>');
 
       // Today's Target section
       expect(html).toContain('Today&#x27;s Target');

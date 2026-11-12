@@ -4,9 +4,6 @@ import { KanaEngine, KANA_DATASET } from '../src/domain/kana/kana-engine';
 import { RemediationEngine } from '../src/domain/remediation/remediation-engine';
 import { isWithinQuietHours } from '../src/domain/reminders/reminder-service';
 import { AssessmentEngine } from '../src/domain/assessment/assessment-engine';
-import { GoogleSheetsPipeline } from '../src/integrations/sheets/sheets-pipeline';
-import { GoogleDriveAdapter } from '../src/integrations/drive/drive-adapter';
-import { GoogleCalendarAdapter } from '../src/integrations/calendar/calendar-adapter';
 import { CurriculumAuditor } from '../src/domain/audit/curriculum-auditor';
 import n5l01Json from '../content/packs/n5/n5.l01.json';
 import { LessonPack, Question } from '../src/domain/models/types';
@@ -172,76 +169,6 @@ describe('M3: Assessment System & N2 Readiness', () => {
   });
 });
 
-describe('M4: Google Sheets Content Pipeline', () => {
-  it('parses, validates with Zod, and quarantines malformed spreadsheet rows', () => {
-    const tabsData: Record<string, Record<string, string>[]> = {
-      Vocabulary: [
-        { id: 'n5.l02.v001', ja: '水', kana: 'みず', en: 'Water', level: 'N5', difficulty: '1', importance: '5', pos: 'noun' },
-        { id: '', ja: '壊れた', kana: 'こわれた', en: 'Broken' }, // Missing ID: must be quarantined!
-      ],
-    };
-
-    const { stagedPack, report } = GoogleSheetsPipeline.parseAndStage(tabsData);
-    expect(report.totalRows).toBe(2);
-    expect(report.validRows).toBe(1);
-    expect(report.quarantinedRows).toBe(1);
-    expect(report.canApply).toBe(false); // Can't apply if rows quarantined
-    expect(report.rowReports.find((r) => r.status === 'quarantined')?.errors[0]).toContain('Missing required column: id');
-  });
-});
-
-describe('M4: Google Drive & Calendar Adapters', () => {
-  it('defines required folder structure and falls back to Web Speech TTS for missing audio', async () => {
-    const driveAdapter = new GoogleDriveAdapter();
-    expect(GoogleDriveAdapter.FOLDER_STRUCTURE).toContain('Japanese-N2-Master/Curriculum/N5');
-    expect(GoogleDriveAdapter.FOLDER_STRUCTURE).toContain('Japanese-N2-Master/Audio');
-
-    const audio = await driveAdapter.resolveAudio('missing_file.mp3');
-    expect(audio.kind).toBe('tts');
-    expect(audio.lang).toBe('ja-JP');
-  });
-
-  it('tags calendar events with private application metadata', () => {
-    const calendarAdapter = new GoogleCalendarAdapter();
-    const blocks = [{ id: 'block_vocab_srs', title: 'Vocab + SRS', startTime: '07:45', endTime: '08:45', plannedMinutes: 60, completedMinutes: 0, countsTowardGoal: true, status: 'pending' as const }];
-    const payloads = calendarAdapter.createEventPayloads(blocks, '2026-09-30');
-
-    expect(payloads.length).toBe(1);
-    expect(payloads[0].extendedProperties.private.app).toBe('nihongo_n2_master');
-    expect(payloads[0].extendedProperties.private.blockId).toBe('block_vocab_srs');
-  });
-
-  it('extracts spreadsheet ID from various URL formats and raw IDs', () => {
-    const rawId = '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms';
-    expect(GoogleSheetsPipeline.extractSpreadsheetId(rawId)).toBe(rawId);
-
-    const fullUrl = `https://docs.google.com/spreadsheets/d/${rawId}/edit#gid=0`;
-    expect(GoogleSheetsPipeline.extractSpreadsheetId(fullUrl)).toBe(rawId);
-
-    const shareUrl = `https://docs.google.com/spreadsheets/d/${rawId}/export?format=csv`;
-    expect(GoogleSheetsPipeline.extractSpreadsheetId(shareUrl)).toBe(rawId);
-  });
-
-  it('exports lesson pack to 12-tab CSV format with proper cell escaping', () => {
-    const testPack = n5l01Json as unknown as LessonPack;
-    const csvFiles = GoogleSheetsPipeline.exportLessonPackCsv(testPack);
-    expect(csvFiles['Meta.csv']).toBeDefined();
-    expect(csvFiles['Modules.csv']).toBeDefined();
-    expect(csvFiles['Lessons.csv']).toBeDefined();
-    expect(csvFiles['Vocabulary.csv']).toBeDefined();
-    expect(csvFiles['Kanji.csv']).toBeDefined();
-    expect(csvFiles['Grammar.csv']).toBeDefined();
-    expect(csvFiles['Sentences.csv']).toBeDefined();
-    expect(csvFiles['Reading.csv']).toBeDefined();
-    expect(csvFiles['Listening.csv']).toBeDefined();
-    expect(csvFiles['Questions.csv']).toBeDefined();
-    expect(csvFiles['Tests.csv']).toBeDefined();
-    expect(csvFiles['Audio.csv']).toBeDefined();
-    expect(csvFiles['Vocabulary.csv']).toContain('わたし');
-  });
-});
-
-
 describe('M5: Offline Architecture & Security Integrity', () => {
   it('ensures zero client-side API keys and confirms Gemini API endpoints are removed from server.ts', () => {
     // 1. Verify server.ts has no AI endpoints or Gemini imports
@@ -259,13 +186,13 @@ describe('M6 & M7: Curriculum Audit of All 174 Lessons', () => {
     const curriculumMap = JSON.parse(require('fs').readFileSync('./content/curriculum-map.json', 'utf-8'));
     expect(curriculumMap.length).toBe(174);
 
-    const auditReport = JSON.parse(require('fs').readFileSync('./curriculum-audit.json', 'utf-8'));
-    expect(auditReport.passed).toBe(true);
-    expect(auditReport.totalErrors).toBe(0);
-    expect(auditReport.publishedCount).toBe(174);
-    expect(auditReport.countsByLevel.N5.published).toBe(30);
-    expect(auditReport.countsByLevel.N4.published).toBe(36);
-    expect(auditReport.countsByLevel.N3.published).toBe(48);
-    expect(auditReport.countsByLevel.N2.published).toBe(60);
+    const auditMd = require('fs').readFileSync('./curriculum-audit.md', 'utf-8');
+    expect(auditMd).toContain('Status:** PASSED (0 blocking errors)');
+    expect(auditMd).toContain('Total Lessons Audited:** 174 (Published: 174');
+    expect(auditMd).toContain('- **N5:** 30 / 30 Published');
+    expect(auditMd).toContain('- **N4:** 36 / 36 Published');
+    expect(auditMd).toContain('- **N3:** 48 / 48 Published');
+    expect(auditMd).toContain('- **N2:** 60 / 60 Published');
+    expect(auditMd).toContain('Blocking Errors: **0**');
   });
 });

@@ -254,7 +254,7 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
           </div>
 
           <div className="pt-2 border-t border-stone-200 flex items-center justify-between text-[11px] text-stone-500 font-mono">
-            <span>Longest: <strong className="text-zinc-200">{`${effectiveLongest}d`}</strong></span>
+            <span>Longest: <strong className="text-stone-700">{`${effectiveLongest}d`}</strong></span>
             <span className="text-stone-400">04:00 AM Rollover</span>
           </div>
         </div>

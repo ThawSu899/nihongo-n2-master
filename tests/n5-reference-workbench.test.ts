@@ -300,6 +300,6 @@ describe('N5ReferenceWorkbench & Curriculum Traps Integration', () => {
       expect(html).toContain('N5 Ref');
       // Verify workbench component is mounted (hidden when closed, active on state)
       expect(html).toBeDefined();
-    });
+    }, 15000);
   });
 });

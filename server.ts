@@ -1,3 +1,8 @@
+/**
+ * Express Static & Vite Middleware Host Server.
+ * Serves the Nihongo N2 Master offline-first Single Page Application.
+ * Runs client-side with Dexie/IndexedDB — no server API routes or external AI dependencies.
+ */
 import express from 'express';
 import http from 'http';
 import path from 'path';

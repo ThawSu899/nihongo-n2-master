@@ -1,6 +1,7 @@
-import React from 'react';
-import { Clock, ShieldCheck, Flame, Database, Search } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Clock, ShieldCheck, Flame, Database, Search, Sun, Moon } from 'lucide-react';
 import { UserProfile } from '../../domain/models/types';
+import { getStoredTheme, applyTheme, ThemeMode } from '../../services/theme';
 
 interface HeaderProps {
   profile: UserProfile;
@@ -21,6 +22,30 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   const goalMinutes = profile.dailyTargetMinutes || 360;
   const progressPercent = Math.min(100, Math.round((todayMinutes / goalMinutes) * 100));
+
+  const [theme, setTheme] = useState<ThemeMode>(() => {
+    if (typeof window !== 'undefined') {
+      return document.documentElement.classList.contains('dark') ? 'dark' : getStoredTheme();
+    }
+    return 'light';
+  });
+
+  useEffect(() => {
+    const handleThemeChange = (e: Event) => {
+      const customEvent = e as CustomEvent<{ theme: ThemeMode }>;
+      if (customEvent.detail?.theme) {
+        setTheme(customEvent.detail.theme);
+      }
+    };
+    window.addEventListener('theme-change', handleThemeChange);
+    return () => window.removeEventListener('theme-change', handleThemeChange);
+  }, []);
+
+  const handleToggleTheme = () => {
+    const nextTheme: ThemeMode = theme === 'dark' ? 'light' : 'dark';
+    setTheme(nextTheme);
+    applyTheme(nextTheme);
+  };
 
   return (
     <header className="sticky top-0 z-20 bg-white/90 backdrop-blur-xl border-b border-stone-200 px-4 sm:px-6 py-2.5 transition-all">
@@ -117,6 +142,27 @@ export const Header: React.FC<HeaderProps> = ({
               <Database className="w-3.5 h-3.5 text-stone-500 md:hidden" />
             </button>
           )}
+
+          {/* Light / Dark Theme Switch Button */}
+          <button
+            type="button"
+            onClick={handleToggleTheme}
+            title={theme === 'dark' ? 'Switch to Light Theme (Modern Academic Paper)' : 'Switch to Dark Theme (Obsidian Glass)'}
+            aria-label={theme === 'dark' ? 'Switch to Light Theme' : 'Switch to Dark Theme'}
+            className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 hover:border-stone-300 text-xs text-stone-700 font-medium transition cursor-pointer active:scale-95 group shadow-2xs"
+          >
+            {theme === 'dark' ? (
+              <>
+                <Sun className="w-3.5 h-3.5 text-amber-400 group-hover:rotate-45 transition-transform" />
+                <span className="hidden sm:inline text-stone-600 group-hover:text-stone-900">Light</span>
+              </>
+            ) : (
+              <>
+                <Moon className="w-3.5 h-3.5 text-stone-500 group-hover:text-indigo-600 transition-colors" />
+                <span className="hidden sm:inline text-stone-600 group-hover:text-stone-900">Dark</span>
+              </>
+            )}
+          </button>
         </div>
       </div>
     </header>

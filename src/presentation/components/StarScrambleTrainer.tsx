@@ -183,69 +183,69 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
   return (
     <div className="max-w-3xl mx-auto space-y-6 pb-20 select-none">
       {/* Top Header */}
-      <div className="flex items-center justify-between text-xs text-zinc-400">
+      <div className="flex items-center justify-between text-xs text-stone-500">
         <div className="flex items-center space-x-2">
           {onExit && (
             <button
               onClick={onExit}
-              className="flex items-center space-x-1 py-1 px-2.5 rounded-lg bg-white border border-stone-200 text-stone-700 hover:text-stone-900 hover:bg-stone-50 transition cursor-pointer"
+              className="flex items-center space-x-1 py-1 px-2.5 rounded-lg bg-white border border-stone-200 text-stone-700 hover:text-stone-900 hover:bg-stone-50 transition cursor-pointer shadow-2xs"
             >
               <ArrowLeft className="w-3.5 h-3.5" />
               <span>Back</span>
             </button>
           )}
-          <span className="font-mono text-amber-400 font-bold uppercase tracking-wider flex items-center gap-1.5">
-            <Star className="w-4 h-4 fill-amber-400 text-amber-400" />
+          <span className="font-mono text-amber-600 font-bold uppercase tracking-wider flex items-center gap-1.5">
+            <Star className="w-4 h-4 fill-amber-500 text-amber-500" />
             <span>★ 文法・並べ替え (Sentence Scramble)</span>
           </span>
         </div>
 
         <div className="flex items-center space-x-2 font-mono text-xs font-myanmar">
-          <span className="text-zinc-200">
+          <span className="text-stone-700">
             မေးခွန်း {currentIndex + 1} / {STAR_SCRAMBLE_CATALOG.length}
           </span>
-          <span className="px-2 py-0.5 rounded-full bg-indigo-950/80 border border-indigo-500/40 text-indigo-300 text-[10px]">
+          <span className="px-2 py-0.5 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 text-[10px]">
             JLPT {currentPuzzle.level}
           </span>
         </div>
       </div>
 
       {/* Main Puzzle Card */}
-      <div className="bg-zinc-900/80 backdrop-blur-xl border border-zinc-800/80 rounded-3xl p-6 sm:p-8 space-y-8 shadow-2xl relative overflow-hidden font-myanmar">
+      <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 space-y-8 shadow-sm relative overflow-hidden font-myanmar">
         {/* Question Header & Title */}
-        <div className="space-y-1.5 border-b border-zinc-800/80 pb-4">
+        <div className="space-y-1.5 border-b border-stone-200 pb-4">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-mono text-zinc-400">
+            <span className="text-xs font-mono text-stone-500">
               မေးခွန်း: အောက်ပါဝါကျရှိ ★ နေရာတွင် ဝင်ရမည့် အသင့်တော်ဆုံးကို ရွေးချယ်ပါ။
             </span>
-            <span className="text-xs font-mono text-amber-400/90 font-semibold">
+            <span className="text-xs font-mono text-amber-600 font-semibold">
               အမှတ်ပေးမည့်နေရာ: ★ အကွက်
             </span>
           </div>
-          <h3 className="text-base font-bold text-zinc-200 font-japanese">
+          <h3 className="text-base font-bold text-stone-900 font-japanese">
             {currentPuzzle.title}
           </h3>
         </div>
 
         {/* The Sentence with 4 Blank Slots */}
-        <div className="bg-zinc-950/80 border border-zinc-800/90 rounded-2xl p-5 sm:p-6 shadow-inner space-y-4">
-          <div className="text-lg sm:text-xl md:text-2xl font-japanese leading-loose text-zinc-100 flex flex-wrap items-center gap-x-2 gap-y-3">
+        <div className="bg-stone-50 border border-stone-200 rounded-2xl p-5 sm:p-6 shadow-xs space-y-4">
+          <div className="text-lg sm:text-xl md:text-2xl font-japanese leading-loose text-stone-900 flex flex-wrap items-center gap-x-2 gap-y-3">
             {/* Sentence Prefix */}
-            <span className="text-zinc-300 font-medium">{currentPuzzle.prefix}</span>
+            <span className="text-stone-700 font-medium">{currentPuzzle.prefix}</span>
 
             {/* 4 Interactive Blank Slots */}
             {slots.map((optNum, slotIdx) => {
               const isStar = slotIdx === currentPuzzle.starSlotIndex;
               const token = getToken(optNum);
 
-              let slotBorder = 'border-dashed border-zinc-700 bg-zinc-900/60 text-zinc-500';
+              let slotBorder = 'border-dashed border-stone-300 bg-white text-stone-400';
               if (token) {
-                slotBorder = 'border-solid border-indigo-500/60 bg-indigo-950/40 text-indigo-200 shadow-md';
+                slotBorder = 'border-solid border-indigo-500 bg-indigo-50 text-indigo-900 shadow-xs';
               }
               if (isStar) {
                 slotBorder = token
-                  ? 'border-solid border-amber-400 bg-amber-950/50 text-amber-200 shadow-[0_0_20px_rgba(245,158,11,0.35)] ring-2 ring-amber-400/50'
-                  : 'border-dashed border-amber-500/70 bg-amber-950/20 text-amber-400 shadow-[0_0_12px_rgba(245,158,11,0.2)]';
+                  ? 'border-solid border-amber-500 bg-amber-50 text-amber-900 ring-2 ring-amber-400/40 shadow-xs'
+                  : 'border-dashed border-amber-400 bg-amber-50/50 text-amber-700';
               }
 
               // After evaluation
@@ -254,12 +254,12 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
                 const isThisSlotCorrect = optNum === correctOptionForThisSlot;
                 if (isStar) {
                   slotBorder = evaluation.isStarCorrect
-                    ? 'border-emerald-500 bg-emerald-950/60 text-emerald-200 shadow-[0_0_24px_rgba(16,185,129,0.4)]'
-                    : 'border-rose-500 bg-rose-950/60 text-rose-200 shadow-[0_0_24px_rgba(244,63,94,0.4)]';
+                    ? 'border-emerald-500 bg-emerald-50 text-emerald-800'
+                    : 'border-rose-500 bg-rose-50 text-rose-800';
                 } else if (isThisSlotCorrect) {
-                  slotBorder = 'border-emerald-500/50 bg-emerald-950/30 text-emerald-300';
+                  slotBorder = 'border-emerald-300 bg-emerald-50/70 text-emerald-700';
                 } else {
-                  slotBorder = 'border-rose-500/50 bg-rose-950/30 text-rose-300';
+                  slotBorder = 'border-rose-300 bg-rose-50/70 text-rose-700';
                 }
               }
 
@@ -276,7 +276,7 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
                   }
                 >
                   {isStar && (
-                    <span className="absolute -top-3 -right-2 w-6 h-6 rounded-full bg-amber-500 text-zinc-950 flex items-center justify-center shadow-md font-bold text-xs select-none">
+                    <span className="absolute -top-3 -right-2 w-6 h-6 rounded-full bg-amber-500 text-white flex items-center justify-center shadow-xs font-bold text-xs select-none">
                       ★
                     </span>
                   )}
@@ -296,16 +296,16 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
             })}
 
             {/* Sentence Suffix */}
-            <span className="text-zinc-300 font-medium">{currentPuzzle.suffix}</span>
+            <span className="text-stone-700 font-medium">{currentPuzzle.suffix}</span>
           </div>
         </div>
 
         {/* Available Phrase Tokens Tray */}
         <div className="space-y-3 font-myanmar">
-          <div className="flex items-center justify-between text-xs text-zinc-400 font-mono">
+          <div className="flex items-center justify-between text-xs text-stone-500 font-mono">
             <span>ရွေးချယ်ရန် စကားစုများ (Options):</span>
-            <span className="text-[11px] text-zinc-500">
-              ကီးဘုတ် <kbd className="text-zinc-300 font-bold">[1]</kbd> <kbd className="text-zinc-300 font-bold">[2]</kbd> <kbd className="text-zinc-300 font-bold">[3]</kbd> <kbd className="text-zinc-300 font-bold">[4]</kbd> သို့မဟုတ် ကလစ်နှိပ်၍ ရွေးချယ်နိုင်သည်
+            <span className="text-[11px] text-stone-500">
+              ကီးဘုတ် <kbd className="text-stone-700 font-bold">[1]</kbd> <kbd className="text-stone-700 font-bold">[2]</kbd> <kbd className="text-stone-700 font-bold">[3]</kbd> <kbd className="text-stone-700 font-bold">[4]</kbd> သို့မဟုတ် ကလစ်နှိပ်၍ ရွေးချယ်နိုင်သည်
             </span>
           </div>
 
@@ -317,13 +317,13 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
                   key={token.id}
                   onClick={() => handleAssignOption(token.optionNumber)}
                   disabled={isUsed || Boolean(evaluation)}
-                  className={`p-3.5 rounded-2xl border text-center transition cursor-pointer flex flex-col items-center justify-center space-y-1 relative ${
+                  className={`p-3.5 rounded-2xl border text-center transition cursor-pointer flex flex-col items-center justify-center space-y-1 relative shadow-2xs ${
                     isUsed
-                      ? 'opacity-30 bg-zinc-950 border-zinc-800 text-zinc-600 cursor-not-allowed'
-                      : 'bg-zinc-950/90 border-zinc-800/90 hover:border-indigo-500/60 hover:bg-zinc-900/90 text-zinc-100 shadow-sm hover:shadow-[0_0_16px_rgba(99,102,241,0.25)] active:scale-95'
+                      ? 'opacity-30 bg-stone-100 border-stone-200 text-stone-400 cursor-not-allowed'
+                      : 'bg-white border-stone-200 hover:border-indigo-400 hover:bg-indigo-50/30 text-stone-900 active:scale-95'
                   }`}
                 >
-                  <span className="w-5 h-5 rounded-full bg-zinc-900 border border-zinc-700 text-[10px] font-mono text-zinc-400 flex items-center justify-center">
+                  <span className="w-5 h-5 rounded-full bg-stone-100 border border-stone-300 text-[10px] font-mono text-stone-600 flex items-center justify-center">
                     {token.optionNumber}
                   </span>
                   <span className="text-sm sm:text-base font-bold font-japanese">
@@ -340,7 +340,7 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
           <button
             onClick={() => setSlots([null, null, null, null])}
             disabled={slots.every((s) => s === null) || Boolean(evaluation)}
-            className="flex items-center space-x-1.5 px-3 py-2 rounded-xl text-xs font-mono text-zinc-400 hover:text-zinc-200 disabled:opacity-30 transition cursor-pointer"
+            className="flex items-center space-x-1.5 px-3 py-2 rounded-xl text-xs font-mono text-stone-500 hover:text-stone-800 disabled:opacity-30 transition cursor-pointer"
           >
             <RotateCcw className="w-3.5 h-3.5" />
             <span>ပြန်စမည် (Reset)</span>
@@ -350,10 +350,10 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
             <button
               onClick={handleSubmit}
               disabled={!isAllFilled}
-              className={`px-6 py-3 rounded-2xl font-bold text-xs flex items-center space-x-2 transition cursor-pointer shadow-lg ${
+              className={`px-6 py-3 rounded-2xl font-bold text-xs flex items-center space-x-2 transition cursor-pointer shadow-xs ${
                 isAllFilled
-                  ? 'bg-gradient-to-r from-amber-500 via-amber-500 to-amber-600 text-zinc-950 shadow-[0_0_24px_rgba(245,158,11,0.35)] hover:shadow-[0_0_32px_rgba(245,158,11,0.55)] active:scale-95'
-                  : 'bg-zinc-800 text-zinc-500 border border-zinc-700/60 cursor-not-allowed'
+                  ? 'bg-amber-600 hover:bg-amber-700 text-white active:scale-95'
+                  : 'bg-stone-200 text-stone-400 border border-stone-200 cursor-not-allowed'
               }`}
             >
               <span>အဖြေစစ်ဆေးမည် (Submit)</span>
@@ -362,7 +362,7 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
           ) : (
             <button
               onClick={handleNextPuzzle}
-              className="px-6 py-3 rounded-2xl bg-gradient-to-r from-emerald-500 to-emerald-600 text-zinc-950 font-bold text-xs flex items-center space-x-2 shadow-[0_0_24px_rgba(16,185,129,0.4)] hover:shadow-[0_0_36px_rgba(16,185,129,0.6)] transition cursor-pointer active:scale-95"
+              className="px-6 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs flex items-center space-x-2 transition cursor-pointer active:scale-95 shadow-xs"
             >
               <span>
                 {currentIndex < STAR_SCRAMBLE_CATALOG.length - 1 ? 'နောက်မေးခွန်းသို့ (Next)' : 'ရလဒ်ကို ကြည့်မည် (View Results)'}
@@ -381,22 +381,22 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}
-              className="space-y-6 pt-6 border-t border-zinc-800/80 font-myanmar"
+              className="space-y-6 pt-6 border-t border-stone-200 font-myanmar"
             >
               {/* Outcome Status Banner */}
               <div
-                className={`p-5 rounded-2xl border flex items-start justify-between gap-4 shadow-xl ${
+                className={`p-5 rounded-2xl border flex items-start justify-between gap-4 shadow-sm ${
                   evaluation.isStarCorrect
-                    ? 'bg-emerald-950/70 border-emerald-500/60 shadow-[0_0_24px_rgba(16,185,129,0.25)]'
-                    : 'bg-rose-950/70 border-rose-500/60 shadow-[0_0_24px_rgba(244,63,94,0.25)]'
+                    ? 'bg-emerald-50 border-emerald-200 text-emerald-900'
+                    : 'bg-rose-50 border-rose-200 text-rose-900'
                 }`}
               >
                 <div className="flex items-start gap-3.5">
                   <div
-                    className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 shadow-md ${
+                    className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 shadow-2xs ${
                       evaluation.isStarCorrect
-                        ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
-                        : 'bg-rose-500/20 text-rose-400 border border-rose-500/40'
+                        ? 'bg-emerald-100 text-emerald-700 border border-emerald-200'
+                        : 'bg-rose-100 text-rose-700 border border-rose-200'
                     }`}
                   >
                     {evaluation.isStarCorrect ? (
@@ -410,23 +410,23 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
                     <div className="flex items-center gap-2">
                       <span
                         className={`text-sm font-bold ${
-                          evaluation.isStarCorrect ? 'text-emerald-200' : 'text-rose-200'
+                          evaluation.isStarCorrect ? 'text-emerald-800' : 'text-rose-800'
                         }`}
                       >
                         {evaluation.isStarCorrect ? '★ အဖြေမှန် (Correct) !' : '★ အဖြေမှား (Incorrect)'}
                       </span>
-                      <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-zinc-950 border border-zinc-800 text-zinc-300">
+                      <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-stone-100 border border-stone-200 text-stone-700">
                         ရမှတ်: {evaluation.score} မှတ်
                       </span>
                     </div>
 
-                    <p className="text-xs text-zinc-300 leading-relaxed">
+                    <p className="text-xs text-stone-600 leading-relaxed">
                       {evaluation.feedbackMessage}
                     </p>
 
-                    <div className="text-xs font-mono pt-1 text-zinc-400">
+                    <div className="text-xs font-mono pt-1 text-stone-500">
                       အဖြေမှန် စီစဉ်မှု (Correct Order):{' '}
-                      <strong className="text-zinc-100">
+                      <strong className="text-stone-900">
                         {currentPuzzle.correctTokenOrder.join(' → ')}
                       </strong>{' '}
                       (★ = {currentPuzzle.starOptionNumber})
@@ -436,34 +436,34 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
 
                 <button
                   onClick={() => handleSpeak(currentPuzzle.fullSentenceJa)}
-                  className="p-2.5 rounded-xl bg-white border border-stone-200 text-stone-700 hover:text-stone-900 hover:bg-stone-50 transition cursor-pointer"
+                  className="p-2.5 rounded-xl bg-white border border-stone-200 text-stone-700 hover:text-stone-900 hover:bg-stone-50 transition cursor-pointer shadow-2xs"
                   title="Speak complete sentence"
                 >
-                  <Volume2 className="w-4 h-4 text-indigo-400" />
+                  <Volume2 className="w-4 h-4 text-indigo-600" />
                 </button>
               </div>
 
               {/* Complete Correct Sentence Card */}
-              <div className="bg-zinc-950/90 border border-zinc-800 rounded-2xl p-5 space-y-2.5 shadow-md">
-                <span className="text-[10px] font-mono uppercase tracking-wider text-indigo-400 block">
+              <div className="bg-stone-50 border border-stone-200 rounded-2xl p-5 space-y-2.5 shadow-2xs">
+                <span className="text-[10px] font-mono uppercase tracking-wider text-indigo-700 block">
                   အဖြေမှန် ဝါကျ အပြည့်အစုံ
                 </span>
-                <p className="text-base sm:text-lg font-bold font-japanese text-zinc-100 leading-relaxed">
+                <p className="text-base sm:text-lg font-bold font-japanese text-stone-900 leading-relaxed">
                   {currentPuzzle.fullSentenceJa}
                 </p>
                 {currentPuzzle.fullSentenceMy ? (
                   <>
-                    <p className="text-xs text-amber-300/90 font-myanmar leading-relaxed">
+                    <p className="text-xs text-amber-800 font-myanmar leading-relaxed">
                       {currentPuzzle.fullSentenceMy}
                     </p>
                     {currentPuzzle.fullSentenceEn && (
-                      <p className="text-xs text-zinc-400 font-sans">
+                      <p className="text-xs text-stone-600 font-sans">
                         {currentPuzzle.fullSentenceEn}
                       </p>
                     )}
                   </>
                 ) : (
-                  <p className="text-xs text-zinc-300 font-medium">
+                  <p className="text-xs text-stone-600 font-medium">
                     {currentPuzzle.fullSentenceEn}
                   </p>
                 )}
@@ -471,8 +471,8 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
 
               {/* Grammatical Chain Linkage Diagram (接続チェーン解説) */}
               <div className="space-y-3">
-                <div className="flex items-center space-x-2 text-xs font-semibold text-zinc-300 font-mono">
-                  <Layers className="w-4 h-4 text-amber-400" />
+                <div className="flex items-center space-x-2 text-xs font-semibold text-stone-700 font-mono">
+                  <Layers className="w-4 h-4 text-amber-600" />
                   <span>သဒ္ဒါစကားဆက် ဆက်စပ်မှု ရှင်းလင်းချက် (Chain Logic)</span>
                 </div>
 
@@ -480,21 +480,21 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
                   {currentPuzzle.chainReasoning.map((link, idx) => (
                     <div
                       key={idx}
-                      className="p-3.5 rounded-xl bg-zinc-900/60 border border-zinc-800/80 space-y-1.5 hover:border-zinc-700 transition"
+                      className="p-3.5 rounded-xl bg-white border border-stone-200 space-y-1.5 hover:border-stone-300 transition shadow-2xs"
                     >
-                      <div className="flex items-center space-x-2 text-xs font-bold font-japanese text-zinc-200">
-                        <span className="px-1.5 py-0.5 rounded bg-zinc-800 font-mono text-[10px] text-zinc-400">
+                      <div className="flex items-center space-x-2 text-xs font-bold font-japanese text-stone-800">
+                        <span className="px-1.5 py-0.5 rounded bg-stone-100 font-mono text-[10px] text-stone-600">
                           အဆင့် {idx + 1}
                         </span>
-                        <span className="text-indigo-300">{link.fromText}</span>
-                        <ArrowRight className="w-3.5 h-3.5 text-zinc-500 shrink-0" />
-                        <span className="text-amber-300">{link.toText}</span>
+                        <span className="text-indigo-700">{link.fromText}</span>
+                        <ArrowRight className="w-3.5 h-3.5 text-stone-400 shrink-0" />
+                        <span className="text-amber-700">{link.toText}</span>
                       </div>
 
-                      <p className="text-xs text-zinc-300 font-japanese leading-relaxed">
+                      <p className="text-xs text-stone-800 font-japanese leading-relaxed">
                         {link.ruleJa}
                       </p>
-                      <p className="text-[11px] text-zinc-400">
+                      <p className="text-[11px] text-stone-500">
                         {link.ruleEn}
                       </p>
                     </div>
@@ -503,8 +503,8 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
               </div>
 
               {/* Detailed Breakdown */}
-              <div className="p-4 rounded-2xl bg-zinc-950/60 border border-zinc-800/80 text-xs text-zinc-400 space-y-1 leading-relaxed">
-                <span className="font-bold text-zinc-200 block font-mono">
+              <div className="p-4 rounded-2xl bg-stone-50 border border-stone-200 text-xs text-stone-600 space-y-1 leading-relaxed shadow-2xs">
+                <span className="font-bold text-stone-900 block font-mono">
                   💡 ဖြေဆိုနည်း အဓိကအချက် (Strategy Insight):
                 </span>
                 <p>{currentPuzzle.detailedExplanation}</p>

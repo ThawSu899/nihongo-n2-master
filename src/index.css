@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @layer utilities {
   .font-japanese {
     font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
@@ -8,24 +10,6 @@
   .font-burmese {
     font-family: "Noto Sans Myanmar", "Padauk", "Pyidaungsu", "Myanmar Text", sans-serif;
     line-height: 1.6;
-  }
-
-  /* Modern Academic Paper Surfaces (Stone & Paper Aesthetic) */
-  .bg-obsidian-surface {
-    background-color: #ffffff;
-    border: 1px solid #e7e5e4;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .bg-obsidian-card {
-    background-color: #ffffff;
-    border: 1px solid #e7e5e4;
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  .bg-obsidian-pill {
-    background-color: #f5f5f4;
-    border: 1px solid #e7e5e4;
   }
 
   /* Academic Accents & Subtle Highlight Utilities */
@@ -97,3 +81,120 @@ rt {
 .safe-area-pb {
   padding-bottom: max(1.25rem, env(safe-area-inset-bottom));
 }
+
+/* ==========================================================================
+   Dark Theme (Deep Obsidian Glass) Mode Overrides
+   Activated when `html` element has the `.dark` class.
+   Inverts stone palette & card backgrounds while leaving solid buttons intact.
+   ========================================================================== */
+html.dark {
+  color-scheme: dark;
+
+  /* Inverted Stone Palette: transforms all stone surfaces & text into obsidian palette */
+  --color-stone-50: #141417;
+  --color-stone-100: #09090b;
+  --color-stone-200: #27272a;
+  --color-stone-300: #3f3f46;
+  --color-stone-400: #71717a;
+  --color-stone-500: #a1a1aa;
+  --color-stone-600: #a8a29e;
+  --color-stone-700: #d6d3d1;
+  --color-stone-800: #f5f5f4;
+  --color-stone-900: #fafafa;
+  --color-stone-950: #09090b;
+}
+
+/* Dark theme card & paper backgrounds (retaining text-white on action buttons) */
+html.dark .bg-white {
+  background-color: #121215;
+}
+html.dark .bg-white\/90 {
+  background-color: rgba(18, 18, 21, 0.9);
+}
+html.dark .bg-white\/80 {
+  background-color: rgba(18, 18, 21, 0.8);
+}
+
+html.dark .hover\:bg-white:hover {
+  background-color: #1a1a1f;
+}
+html.dark .hover\:bg-stone-50:hover {
+  background-color: #1a1a1f;
+}
+html.dark .hover\:bg-stone-100:hover {
+  background-color: #242429;
+}
+html.dark .hover\:bg-stone-200:hover {
+  background-color: #27272a;
+}
+html.dark .hover\:text-stone-900:hover {
+  color: #ffffff;
+}
+html.dark .hover\:border-stone-300:hover {
+  border-color: #52525b;
+}
+
+/* Selection in dark mode */
+html.dark ::selection {
+  background-color: rgba(244, 63, 94, 0.3);
+  color: #fecdd3;
+}
+
+/* Japanese Traditional Patterns in dark mode */
+html.dark .bg-pattern-asanoha {
+  background-color: #09090b;
+  background-image: 
+    linear-gradient(30deg, #141419 12%, transparent 12.5%, transparent 87%, #141419 87.5%, #141419),
+    linear-gradient(150deg, #141419 12%, transparent 12.5%, transparent 87%, #141419 87.5%, #141419),
+    linear-gradient(30deg, #141419 12%, transparent 12.5%, transparent 87%, #141419 87.5%, #141419),
+    linear-gradient(150deg, #141419 12%, transparent 12.5%, transparent 87%, #141419 87.5%, #141419),
+    linear-gradient(60deg, #1a1a22 25%, transparent 25.5%, transparent 75%, #1a1a22 75%, #1a1a22),
+    linear-gradient(60deg, #1a1a22 25%, transparent 25.5%, transparent 75%, #1a1a22 75%, #1a1a22);
+  background-size: 32px 56px;
+  background-position: 0 0, 0 0, 16px 28px, 16px 28px, 0 0, 16px 28px;
+}
+
+html.dark .bg-pattern-seigaiha {
+  background-color: #09090b;
+  background-image: radial-gradient(circle at 100% 150%, #09090b 24%, #18181f 25%, #18181f 28%, #09090b 29%, #09090b 36%, #18181f 37%, #18181f 40%, #09090b 41%, #09090b 48%, #18181f 49%, #18181f 52%, #09090b 53%);
+  background-size: 28px 14px;
+}
+
+html.dark .bg-pattern-clover-mon {
+  background-color: #09090b;
+  background-image: radial-gradient(rgba(244, 63, 94, 0.08) 1px, transparent 1px),
+    radial-gradient(rgba(99, 102, 241, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: 0 0, 12px 12px;
+}
+
+/* Semantic badges & high-contrast indicators in dark mode */
+html.dark .bg-indigo-50 { background-color: rgba(49, 46, 129, 0.4); }
+html.dark .text-indigo-700 { color: #a5b4fc; }
+html.dark .border-indigo-200 { border-color: rgba(99, 102, 241, 0.35); }
+
+html.dark .bg-emerald-50 { background-color: rgba(6, 78, 59, 0.4); }
+html.dark .text-emerald-700 { color: #6ee7b7; }
+html.dark .text-emerald-800 { color: #a7f3d0; }
+html.dark .border-emerald-200 { border-color: rgba(16, 185, 129, 0.35); }
+
+html.dark .bg-rose-50 { background-color: rgba(136, 19, 55, 0.4); }
+html.dark .text-rose-700 { color: #fda4af; }
+html.dark .text-rose-800 { color: #fecdd3; }
+html.dark .border-rose-200 { border-color: rgba(244, 63, 94, 0.35); }
+
+html.dark .bg-amber-50 { background-color: rgba(120, 53, 15, 0.4); }
+html.dark .text-amber-700 { color: #fcd34d; }
+html.dark .text-amber-800 { color: #fde68a; }
+html.dark .border-amber-200 { border-color: rgba(245, 158, 11, 0.35); }
+
+html.dark .bg-purple-50 { background-color: rgba(88, 28, 135, 0.4); }
+html.dark .text-purple-700 { color: #d8b4fe; }
+html.dark .border-purple-200 { border-color: rgba(168, 85, 247, 0.35); }
+
+html.dark .bg-sky-50 { background-color: rgba(12, 74, 110, 0.4); }
+html.dark .text-sky-700 { color: #7dd3fc; }
+html.dark .border-sky-200 { border-color: rgba(14, 165, 233, 0.35); }
+
+html.dark rt { color: rgba(228, 228, 231, 0.7); }
+

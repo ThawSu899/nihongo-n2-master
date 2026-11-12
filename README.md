@@ -33,9 +33,9 @@
   - Smooth 3D card-flip animations powered by Framer Motion.
 - **Dual Support Languages**:
   - Full English and Burmese / Myanmar (`my`) translations and explanations for grammatical patterns and vocabulary.
-- **Privacy-First & Cloud-Sync Ready**:
-  - Fully functional offline via `localStorage` with exportable/importable JSON backups.
-  - Optional Google Sheets and Google Calendar schedule integration.
+- **Privacy-First & Offline-First Architecture**:
+  - Fully functional offline via Dexie / IndexedDB with exportable/importable JSON backups.
+  - Generates standard `.ics` calendar files for scheduled study reminders without requiring external cloud accounts.
 
 ---
 
@@ -46,8 +46,8 @@
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
 - **Animations & Micro-interactions**: [Framer Motion](https://www.framer.com/motion/)
 - **Icons**: [Lucide React](https://lucide.dev/)
-- **Backend / Proxy**: [Express](https://expressjs.com/) + `@google/genai` (for optional AI explanations)
-- **Testing**: [Vitest](https://vitest.dev/) (977 automated tests covering domain, assessment, curriculum sync, and flows)
+- **Host Server**: [Express](https://expressjs.com/) (lightweight hosting server for development and production SPA serving)
+- **Testing**: [Vitest](https://vitest.dev/) (946 automated tests covering domain, assessment, curriculum sync, and flows)
 - **Validation**: [Zod](https://zod.dev/) schemas enforcing curriculum data integrity
 
 ---
@@ -101,11 +101,10 @@ npm install
 ```
 
 ### 2. Environment Variables (Optional)
-If using server-side Gemini AI features for custom grammar explanations:
+The application runs 100% offline-first in the browser using Dexie / IndexedDB without requiring external API keys. You can optionally configure your server port in `.env`:
 ```bash
 cp .env.example .env
 ```
-Provide your `GEMINI_API_KEY` in `.env`. (The core learning app runs completely client-side without requiring an API key).
 
 ### 3. Running the Development Server
 ```bash
@@ -142,23 +141,13 @@ The repository includes `vercel.json` configured for SPA rewrites and asset cach
    - **Output Directory**: `dist`
 5. Click **Deploy**. Your app will be live with full URL rewrite support.
 
-### Option 2: Netlify
-The repository includes `netlify.toml` with redirect rules:
-1. Push your repository to **GitHub**.
-2. Sign in to [Netlify](https://www.netlify.com/) and click **"Add new site" → "Import an existing project"**.
-3. Select your GitHub repository.
-4. Netlify will automatically detect settings from `netlify.toml`:
-   - **Build command**: `npm run build`
-   - **Publish directory**: `dist`
-5. Click **Deploy site**.
-
-### Option 3: Full-Stack Node.js (with Express Server)
-If you want to host both the Vite SPA and the Express backend (`server.ts`) together on platforms like Render, Railway, Fly.io, or Google Cloud Run:
+### Option 2: Node.js Express Hosting Server
+If you want to host the pre-built SPA via the Node.js Express server (`server.ts`) on platforms like Render, Railway, Fly.io, or Google Cloud Run:
 ```bash
 # Build the client SPA
 npm run build
 
-# Start the full-stack server on port 3000
+# Start the production static server on port 3000
 npm start
 ```
 

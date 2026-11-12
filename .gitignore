@@ -1,6 +1,7 @@
 node_modules/
 build/
 dist/
+dev-dist/
 coverage/
 .DS_Store
 *.log
@@ -8,3 +9,16 @@ coverage/
 !.env.example
 
 .antigravity/
+
+# Repomix bundles & exports
+repomix*.xml
+repomix-*.xml
+repomix-output*.xml
+
+# Python cache & bytecode
+__pycache__/
+*.pyc
+
+# Scripts output baselines
+scripts/out/
+

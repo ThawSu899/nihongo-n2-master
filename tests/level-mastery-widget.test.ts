@@ -81,8 +81,8 @@ describe('LevelMasteryWidget Component', () => {
 
     expect(html).toContain('0/30 Lessons');
     expect(html).toContain('0/900 Vocab');
-    expect(html).toContain('0 <span class="text-zinc-500">/ 174</span>');
-    expect(html).toContain('0 <span class="text-zinc-500">/ 5,220</span>');
+    expect(html).toContain('0 <span class="text-stone-500">/ 174</span>');
+    expect(html).toContain('0 <span class="text-stone-500">/ 5,220</span>');
   });
 
   it('caps percentages at 100% when values exceed standard totals', () => {

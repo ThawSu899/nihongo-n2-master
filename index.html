@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nihongo N2 Master</title>
     <script>
+      // Early theme detection to prevent flash of unstyled content (FOUC)
+      (function() {
+        try {
+          var saved = localStorage.getItem('nihongo-theme');
+          if (saved === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script>
       // Suppress transient Vite WebSocket HMR errors in cloud proxy environments
       window.addEventListener('error', function(event) {
         if (event.message && (event.message.includes('WebSocket') || event.message.includes('ws://') || event.message.includes('wss://'))) {
