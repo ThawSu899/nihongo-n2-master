@@ -5,6 +5,7 @@ export interface KanjiCardItem {
   id: string;
   literal: string;
   jlptLevel: 'N5' | 'N4' | 'N3' | 'N2';
+  lessonId?: string;
   onyomi: string[];
   kunyomi: string[];
   meaningBurmese: string;
@@ -105,6 +106,7 @@ async function extractRawKanji(level: 'N5' | 'N4' | 'N3' | 'N2'): Promise<KanjiC
           id: k.id || `${level.toLowerCase()}-k-${k.char}`,
           literal: k.char,
           jlptLevel: level,
+          lessonId: pack.id,
           onyomi,
           kunyomi,
           meaningBurmese,

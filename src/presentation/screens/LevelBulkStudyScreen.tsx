@@ -34,9 +34,21 @@ import { KanjiDetailModal } from '../components/KanjiDetailModal';
 export type JLPTLevel = 'N5' | 'N4' | 'N3' | 'N2';
 export type StudyMode = 'list' | 'drill' | 'quiz';
 export type BulkTab = 'vocab' | 'kanji';
+export type KanjiViewMode = 'grid' | 'flashcard' | 'quiz';
+export type KanjiFilter = 'all' | 'unmastered' | 'mastered';
+export type KanjiSort = 'default' | 'strokes_asc' | 'strokes_desc';
 
 export interface QuizQuestion {
   vocab: Vocabulary;
+  correctAnswer: string;
+  options: string[];
+}
+
+export interface KanjiQuizQuestion {
+  kanji: KanjiCardItem;
+  type: 'kanji_to_reading' | 'kanji_to_meaning' | 'meaning_to_kanji';
+  prompt: string;
+  promptSub?: string;
   correctAnswer: string;
   options: string[];
 }
@@ -45,6 +57,7 @@ interface LevelBulkStudyScreenProps {
   onBack: () => void;
   className?: string;
   initialLevel?: JLPTLevel;
+  initialTab?: BulkTab;
 }
 
 const JLPT_LEVELS: JLPTLevel[] = ['N5', 'N4', 'N3', 'N2'];
@@ -57,6 +70,104 @@ function shuffleArray<T>(array: T[]): T[] {
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
   return arr;
+}
+
+export function formatKanjiReadings(k: KanjiCardItem): string {
+  const parts: string[] = [];
+  if (k.onyomi && k.onyomi.length > 0) {
+    parts.push(`音: ${k.onyomi.join('、')}`);
+  }
+  if (k.kunyomi && k.kunyomi.length > 0) {
+    parts.push(`訓: ${k.kunyomi.join('、')}`);
+  }
+  return parts.length > 0 ? parts.join(' | ') : '—';
+}
+
+export function generateKanjiQuizSession(
+  kanjiPool: KanjiCardItem[],
+  questionCount = 10
+): KanjiQuizQuestion[] {
+  if (!Array.isArray(kanjiPool) || kanjiPool.length === 0) return [];
+
+  const validPool = kanjiPool.filter(
+    (k) => k.literal && k.meaningBurmese && (k.onyomi.length > 0 || k.kunyomi.length > 0)
+  );
+  if (validPool.length === 0) return [];
+
+  const shuffledPool = shuffleArray(validPool);
+  const selected = shuffledPool.slice(0, Math.min(questionCount, shuffledPool.length));
+
+  const types: ('kanji_to_reading' | 'kanji_to_meaning' | 'meaning_to_kanji')[] = [
+    'kanji_to_reading',
+    'kanji_to_meaning',
+    'meaning_to_kanji',
+  ];
+
+  return selected.map((k, idx) => {
+    const qType = types[idx % types.length];
+
+    if (qType === 'kanji_to_reading') {
+      const correctAnswer = formatKanjiReadings(k);
+      const otherReadings = validPool
+        .filter((other) => other.literal !== k.literal)
+        .map((other) => formatKanjiReadings(other))
+        .filter((r) => r !== correctAnswer && r !== '—');
+      const uniqueDistractors = Array.from(new Set(otherReadings));
+      const distractors = shuffleArray(uniqueDistractors).slice(0, 3);
+      while (distractors.length < 3) {
+        distractors.push(`音: カン${distractors.length + 1}`);
+      }
+      const options = shuffleArray([correctAnswer, ...distractors]);
+      return {
+        kanji: k,
+        type: qType,
+        prompt: k.literal,
+        promptSub: 'မှန်ကန်သော အသံထွက် (Reading) ကို ရွေးချယ်ပါ',
+        correctAnswer,
+        options,
+      };
+    } else if (qType === 'kanji_to_meaning') {
+      const correctAnswer = k.meaningBurmese;
+      const otherMeanings = validPool
+        .filter((other) => other.literal !== k.literal && other.meaningBurmese !== correctAnswer)
+        .map((other) => other.meaningBurmese);
+      const uniqueDistractors = Array.from(new Set(otherMeanings));
+      const distractors = shuffleArray(uniqueDistractors).slice(0, 3);
+      while (distractors.length < 3) {
+        distractors.push(`အဓိပ္ပာယ် နမူနာ ${distractors.length + 1}`);
+      }
+      const options = shuffleArray([correctAnswer, ...distractors]);
+      return {
+        kanji: k,
+        type: qType,
+        prompt: k.literal,
+        promptSub: 'မှန်ကန်သော မြန်မာအဓိပ္ပာယ် (Meaning) ကို ရွေးချယ်ပါ',
+        correctAnswer,
+        options,
+      };
+    } else {
+      // meaning_to_kanji
+      const readings = formatKanjiReadings(k);
+      const correctAnswer = k.literal;
+      const otherLiterals = validPool
+        .filter((other) => other.literal !== k.literal)
+        .map((other) => other.literal);
+      const uniqueDistractors = Array.from(new Set(otherLiterals));
+      const distractors = shuffleArray(uniqueDistractors).slice(0, 3);
+      while (distractors.length < 3) {
+        distractors.push(String.fromCharCode(0x4e00 + distractors.length));
+      }
+      const options = shuffleArray([correctAnswer, ...distractors]);
+      return {
+        kanji: k,
+        type: qType,
+        prompt: k.meaningBurmese,
+        promptSub: `အသံထွက်: ${readings} • သက်ဆိုင်ရာ ခန်းဂျီးစာလုံးကို ရွေးပါ`,
+        correctAnswer,
+        options,
+      };
+    }
+  });
 }
 
 export function getBurmeseMeaning(v: Vocabulary): string {
@@ -98,6 +209,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
   onBack,
   className = '',
   initialLevel = 'N5',
+  initialTab = 'vocab',
 }) => {
   const [selectedLevel, setSelectedLevel] = useState<JLPTLevel>(initialLevel);
   const [studyMode, setStudyMode] = useState<StudyMode>('list');
@@ -121,11 +233,57 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
   const [isQuizCompleted, setIsQuizCompleted] = useState<boolean>(false);
 
   // Kanji Deck State
-  const [bulkTab, setBulkTab] = useState<BulkTab>('vocab');
+  const [bulkTab, setBulkTab] = useState<BulkTab>(initialTab);
   const [kanjiList, setKanjiList] = useState<KanjiCardItem[]>([]);
   const [kanjiLoading, setKanjiLoading] = useState<boolean>(true);
   const [selectedKanji, setSelectedKanji] = useState<KanjiCardItem | null>(null);
   const [kanjiSearchQuery, setKanjiSearchQuery] = useState<string>('');
+
+  // Kanji Modes, Filtering & Mastery State
+  const [kanjiViewMode, setKanjiViewMode] = useState<KanjiViewMode>('grid');
+  const [kanjiFilter, setKanjiFilter] = useState<KanjiFilter>('all');
+  const [selectedLessonFilter, setSelectedLessonFilter] = useState<string>('all');
+  const [kanjiSort, setKanjiSort] = useState<KanjiSort>('default');
+
+  const [masteredKanji, setMasteredKanji] = useState<Set<string>>(() => {
+    try {
+      const saved =
+        typeof window !== 'undefined'
+          ? localStorage.getItem(`nihongo_mastered_kanji_${initialLevel}`)
+          : null;
+      return saved ? new Set(JSON.parse(saved)) : new Set();
+    } catch {
+      return new Set();
+    }
+  });
+
+  // Keep in sync with selectedLevel
+  useEffect(() => {
+    try {
+      const saved =
+        typeof window !== 'undefined'
+          ? localStorage.getItem(`nihongo_mastered_kanji_${selectedLevel}`)
+          : null;
+      setMasteredKanji(saved ? new Set(JSON.parse(saved)) : new Set());
+    } catch {
+      setMasteredKanji(new Set());
+    }
+  }, [selectedLevel]);
+
+  // Flashcard Drill State for Kanji
+  const [kanjiDrillIndex, setKanjiDrillIndex] = useState<number>(0);
+  const [isKanjiRevealed, setIsKanjiRevealed] = useState<boolean>(false);
+  const [isKanjiShuffled, setIsKanjiShuffled] = useState<boolean>(false);
+  const [kanjiDrillDeck, setKanjiDrillDeck] = useState<KanjiCardItem[]>([]);
+
+  // Kanji Quiz State
+  const [kanjiQuizQuestions, setKanjiQuizQuestions] = useState<KanjiQuizQuestion[]>([]);
+  const [kanjiQuizCurrentIndex, setKanjiQuizCurrentIndex] = useState<number>(0);
+  const [kanjiQuizScore, setKanjiQuizScore] = useState<number>(0);
+  const [kanjiQuizSelectedOption, setKanjiQuizSelectedOption] = useState<string | null>(null);
+  const [isKanjiQuizSubmitted, setIsKanjiQuizSubmitted] = useState<boolean>(false);
+  const [isKanjiQuizCompleted, setIsKanjiQuizCompleted] = useState<boolean>(false);
+  const [missedKanjiList, setMissedKanjiList] = useState<KanjiCardItem[]>([]);
 
   // Quarantine Feedback Toast
   const [toastMessage, setToastMessage] = useState<{ id: number; text: string } | null>(null);
@@ -206,27 +364,212 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
     };
   }, [selectedLevel]);
 
-  // Search filtering for Kanji
+  // Available lessons from kanjiList
+  const availableLessons = useMemo(() => {
+    const set = new Set<string>();
+    for (const k of kanjiList) {
+      if (k.lessonId) set.add(k.lessonId);
+    }
+    return Array.from(set).sort();
+  }, [kanjiList]);
+
+  // Search, Filter & Sort for Kanji
   const filteredKanji = useMemo(() => {
+    let result = kanjiList;
+
+    // 1. Search filtering (supports Literal, Onyomi, Kunyomi, Burmese, English, and compound examples)
     const q = kanjiSearchQuery.trim().toLowerCase();
-    if (!q) return kanjiList;
+    if (q) {
+      result = result.filter((k) => {
+        const literal = (k.literal || '').toLowerCase();
+        const onyomi = (k.onyomi || []).join(' ').toLowerCase();
+        const kunyomi = (k.kunyomi || []).join(' ').toLowerCase();
+        const burmese = (k.meaningBurmese || '').toLowerCase();
+        const en = (k.meaningEn || '').toLowerCase();
+        const inExamples = (k.examples || []).some(
+          (ex) =>
+            ex.word.toLowerCase().includes(q) ||
+            ex.reading.toLowerCase().includes(q) ||
+            ex.meaningBurmese.toLowerCase().includes(q)
+        );
 
-    return kanjiList.filter((k) => {
-      const literal = (k.literal || '').toLowerCase();
-      const onyomi = (k.onyomi || []).join(' ').toLowerCase();
-      const kunyomi = (k.kunyomi || []).join(' ').toLowerCase();
-      const burmese = (k.meaningBurmese || '').toLowerCase();
-      const en = (k.meaningEn || '').toLowerCase();
+        return (
+          literal.includes(q) ||
+          onyomi.includes(q) ||
+          kunyomi.includes(q) ||
+          burmese.includes(q) ||
+          en.includes(q) ||
+          inExamples
+        );
+      });
+    }
 
-      return (
-        literal.includes(q) ||
-        onyomi.includes(q) ||
-        kunyomi.includes(q) ||
-        burmese.includes(q) ||
-        en.includes(q)
-      );
-    });
-  }, [kanjiList, kanjiSearchQuery]);
+    // 2. Mastery Filter
+    if (kanjiFilter === 'mastered') {
+      result = result.filter((k) => masteredKanji.has(k.literal));
+    } else if (kanjiFilter === 'unmastered') {
+      result = result.filter((k) => !masteredKanji.has(k.literal));
+    }
+
+    // 3. Lesson Filter
+    if (selectedLessonFilter !== 'all') {
+      result = result.filter((k) => k.lessonId === selectedLessonFilter);
+    }
+
+    // 4. Sort
+    if (kanjiSort === 'strokes_asc') {
+      result = [...result].sort((a, b) => a.strokeCount - b.strokeCount);
+    } else if (kanjiSort === 'strokes_desc') {
+      result = [...result].sort((a, b) => b.strokeCount - a.strokeCount);
+    }
+
+    return result;
+  }, [kanjiList, kanjiSearchQuery, kanjiFilter, selectedLessonFilter, kanjiSort, masteredKanji]);
+
+  // Mastery counts
+  const masteredCount = useMemo(
+    () => kanjiList.filter((k) => masteredKanji.has(k.literal)).length,
+    [kanjiList, masteredKanji]
+  );
+  const masteryPercent =
+    kanjiList.length > 0 ? Math.round((masteredCount / kanjiList.length) * 100) : 0;
+
+  // Toggle or mark Mastered kanji
+  const toggleMastery = useCallback(
+    (literal: string) => {
+      setMasteredKanji((prev) => {
+        const next = new Set(prev);
+        if (next.has(literal)) {
+          next.delete(literal);
+        } else {
+          next.add(literal);
+        }
+        try {
+          if (typeof window !== 'undefined') {
+            localStorage.setItem(
+              `nihongo_mastered_kanji_${selectedLevel}`,
+              JSON.stringify(Array.from(next))
+            );
+          }
+        } catch (err) {
+          console.error('Failed to save kanji mastery to localStorage', err);
+        }
+        return next;
+      });
+    },
+    [selectedLevel]
+  );
+
+  const markMastered = useCallback(
+    (literal: string) => {
+      setMasteredKanji((prev) => {
+        if (prev.has(literal)) return prev;
+        const next = new Set(prev);
+        next.add(literal);
+        try {
+          if (typeof window !== 'undefined') {
+            localStorage.setItem(
+              `nihongo_mastered_kanji_${selectedLevel}`,
+              JSON.stringify(Array.from(next))
+            );
+          }
+        } catch (err) {
+          console.error('Failed to save kanji mastery to localStorage', err);
+        }
+        return next;
+      });
+    },
+    [selectedLevel]
+  );
+
+  // Synchronize Kanji flashcard drill deck
+  useEffect(() => {
+    if (isKanjiShuffled) {
+      setKanjiDrillDeck(shuffleArray(filteredKanji));
+    } else {
+      setKanjiDrillDeck(filteredKanji);
+    }
+    setKanjiDrillIndex(0);
+    setIsKanjiRevealed(false);
+  }, [filteredKanji, isKanjiShuffled]);
+
+  // Flashcard keyboard navigation
+  useEffect(() => {
+    if (bulkTab !== 'kanji' || kanjiViewMode !== 'flashcard') return;
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+
+      if (e.code === 'Space') {
+        e.preventDefault();
+        setIsKanjiRevealed((prev) => !prev);
+      } else if (e.code === 'ArrowLeft') {
+        e.preventDefault();
+        setKanjiDrillIndex((prev) => Math.max(0, prev - 1));
+        setIsKanjiRevealed(false);
+      } else if (e.code === 'ArrowRight') {
+        e.preventDefault();
+        setKanjiDrillIndex((prev) => Math.min(kanjiDrillDeck.length - 1, prev + 1));
+        setIsKanjiRevealed(false);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [bulkTab, kanjiViewMode, kanjiDrillDeck.length]);
+
+  // Start new Kanji Quiz session helper
+  const startNewKanjiQuiz = useCallback((pool: KanjiCardItem[]) => {
+    const qs = generateKanjiQuizSession(pool, 10);
+    setKanjiQuizQuestions(qs);
+    setKanjiQuizCurrentIndex(0);
+    setKanjiQuizScore(0);
+    setKanjiQuizSelectedOption(null);
+    setIsKanjiQuizSubmitted(false);
+    setIsKanjiQuizCompleted(false);
+    setMissedKanjiList([]);
+  }, []);
+
+  const retryMissedKanji = useCallback(() => {
+    if (missedKanjiList.length === 0) return;
+    startNewKanjiQuiz(missedKanjiList);
+  }, [missedKanjiList, startNewKanjiQuiz]);
+
+  const handleSelectKanjiQuizOption = useCallback(
+    (option: string) => {
+      if (isKanjiQuizSubmitted || !kanjiQuizQuestions[kanjiQuizCurrentIndex]) return;
+
+      setKanjiQuizSelectedOption(option);
+      setIsKanjiQuizSubmitted(true);
+
+      const currentQ = kanjiQuizQuestions[kanjiQuizCurrentIndex];
+      const isCorrect = option === currentQ.correctAnswer;
+
+      if (isCorrect) {
+        setKanjiQuizScore((prev) => prev + 1);
+        markMastered(currentQ.kanji.literal);
+      } else {
+        setMissedKanjiList((prev) => {
+          if (prev.some((k) => k.literal === currentQ.kanji.literal)) return prev;
+          return [...prev, currentQ.kanji];
+        });
+      }
+    },
+    [isKanjiQuizSubmitted, kanjiQuizQuestions, kanjiQuizCurrentIndex, markMastered]
+  );
+
+  const handleNextKanjiQuizQuestion = useCallback(() => {
+    if (kanjiQuizCurrentIndex < kanjiQuizQuestions.length - 1) {
+      setKanjiQuizCurrentIndex((prev) => prev + 1);
+      setKanjiQuizSelectedOption(null);
+      setIsKanjiQuizSubmitted(false);
+    } else {
+      setIsKanjiQuizCompleted(true);
+    }
+  }, [kanjiQuizCurrentIndex, kanjiQuizQuestions.length]);
+
+  const currentKanjiDrill = kanjiDrillDeck[kanjiDrillIndex] || kanjiDrillDeck[0];
+  const currentKanjiQuizQ = kanjiQuizQuestions[kanjiQuizCurrentIndex];
 
   // Synchronize drill deck with filtered words
   useEffect(() => {
@@ -574,11 +917,54 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             </div>
           </div>
         ) : (
-          <div className="flex items-center gap-2.5">
-            <span className="px-3.5 py-1.5 rounded-xl bg-white border border-stone-200 text-xs font-mono text-stone-700 flex items-center gap-1.5 shadow-2xs">
+          <div className="flex items-center flex-wrap gap-2.5">
+            <span className="px-3.5 py-1.5 rounded-xl bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 text-xs font-mono text-stone-700 dark:text-zinc-300 flex items-center gap-1.5 shadow-2xs">
               <Sparkles className="w-3.5 h-3.5 text-amber-500" />
               <span>{`${selectedLevel} Kanji: ${kanjiList.length} 字`}</span>
             </span>
+
+            {/* Kanji 3-Mode Segmented Switcher */}
+            <div className="flex items-center space-x-1 p-1 bg-stone-200/80 dark:bg-zinc-950 border border-stone-300 dark:border-zinc-800 rounded-2xl shadow-2xs overflow-x-auto">
+              <button
+                type="button"
+                onClick={() => setKanjiViewMode('grid')}
+                className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
+                  kanjiViewMode === 'grid'
+                    ? 'bg-indigo-600 text-white font-semibold shadow-xs'
+                    : 'text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800'
+                }`}
+              >
+                <span>一覧 (Grid View)</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setKanjiViewMode('flashcard');
+                  setIsKanjiRevealed(false);
+                }}
+                className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
+                  kanjiViewMode === 'flashcard'
+                    ? 'bg-indigo-600 text-white font-semibold shadow-xs'
+                    : 'text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800'
+                }`}
+              >
+                <span>🎴 フラッシュカード (Flashcards)</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setKanjiViewMode('quiz');
+                  startNewKanjiQuiz(filteredKanji.length > 0 ? filteredKanji : kanjiList);
+                }}
+                className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
+                  kanjiViewMode === 'quiz'
+                    ? 'bg-indigo-600 text-white font-semibold shadow-xs'
+                    : 'text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800'
+                }`}
+              >
+                <span>⚡ クイズ (Kanji Quiz)</span>
+              </button>
+            </div>
           </div>
         )}
       </div>
@@ -658,7 +1044,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 ? `Search ${selectedLevel} words by Kanji (例: 行く), Kana (例: いく), English, or Burmese...`
                 : `Search ${selectedLevel} kanji by Character (例: 学), Onyomi (例: ガク), Kunyomi, or Burmese...`
             }
-            className="w-full bg-white border border-stone-300 focus:border-indigo-500 rounded-xl pl-10 pr-10 py-2.5 text-xs text-stone-900 placeholder-stone-400 focus:outline-none focus:ring-1 focus:ring-indigo-500/40 transition font-sans shadow-2xs"
+            className="w-full bg-white dark:bg-zinc-900 border border-stone-300 dark:border-zinc-700 focus:border-indigo-500 rounded-xl pl-10 pr-10 py-2.5 text-xs text-stone-900 dark:text-zinc-100 placeholder-stone-400 focus:outline-none focus:ring-1 focus:ring-indigo-500/40 transition font-sans shadow-2xs"
           />
           {(bulkTab === 'vocab' ? searchQuery : kanjiSearchQuery) && (
             <button
@@ -669,13 +1055,105 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   setKanjiSearchQuery('');
                 }
               }}
-              className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-stone-400 hover:text-stone-700 transition cursor-pointer"
+              className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-stone-400 hover:text-stone-700 dark:hover:text-zinc-200 transition cursor-pointer"
               title="Clear search"
             >
               <X className="w-4 h-4" />
             </button>
           )}
         </div>
+
+        {/* Kanji Deck Specific Controls: Mastery Progress Bar & Sort/Filter Controls */}
+        {bulkTab === 'kanji' && (
+          <div className="space-y-3 pt-1">
+            {/* 1. Mastery Progress Bar */}
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 bg-white dark:bg-zinc-900 p-3 rounded-2xl border border-stone-200 dark:border-zinc-800 shadow-2xs">
+              <div className="flex items-center gap-2">
+                <Trophy className="w-4 h-4 text-amber-500 shrink-0" />
+                <span className="text-xs font-semibold text-stone-800 dark:text-zinc-200 font-myanmar">
+                  Mastered (တတ်မြောက်ပြီး):
+                </span>
+                <span className="text-xs font-mono font-bold text-emerald-600 dark:text-emerald-400">
+                  {masteredCount} / {kanjiList.length} ({masteryPercent}%)
+                </span>
+              </div>
+              <div className="w-full sm:w-56 bg-stone-100 dark:bg-zinc-800 h-2.5 rounded-full overflow-hidden border border-stone-200 dark:border-zinc-700">
+                <div
+                  className="bg-emerald-500 h-full rounded-full transition-all duration-500"
+                  style={{ width: `${masteryPercent}%` }}
+                />
+              </div>
+            </div>
+
+            {/* 2. Sort & Filter Controls */}
+            <div className="flex flex-wrap items-center justify-between gap-2.5 text-xs">
+              {/* Filter Pills */}
+              <div className="flex items-center gap-1.5 bg-stone-100 dark:bg-zinc-950 p-1 rounded-xl border border-stone-200 dark:border-zinc-800 font-myanmar">
+                <button
+                  type="button"
+                  onClick={() => setKanjiFilter('all')}
+                  className={`px-3 py-1 rounded-lg font-medium transition cursor-pointer ${
+                    kanjiFilter === 'all'
+                      ? 'bg-white dark:bg-zinc-800 text-stone-900 dark:text-zinc-100 font-semibold shadow-2xs'
+                      : 'text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                  }`}
+                >
+                  All (အားလုံး)
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setKanjiFilter('unmastered')}
+                  className={`px-3 py-1 rounded-lg font-medium transition cursor-pointer ${
+                    kanjiFilter === 'unmastered'
+                      ? 'bg-white dark:bg-zinc-800 text-stone-900 dark:text-zinc-100 font-semibold shadow-2xs'
+                      : 'text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                  }`}
+                >
+                  Unmastered (လေ့လာဆဲ)
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setKanjiFilter('mastered')}
+                  className={`px-3 py-1 rounded-lg font-medium transition cursor-pointer ${
+                    kanjiFilter === 'mastered'
+                      ? 'bg-white dark:bg-zinc-800 text-stone-900 dark:text-zinc-100 font-semibold shadow-2xs'
+                      : 'text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                  }`}
+                >
+                  Mastered (တတ်မြောက်ပြီး)
+                </button>
+              </div>
+
+              {/* Lesson Dropdown & Sort Dropdown */}
+              <div className="flex items-center gap-2 flex-wrap font-sans">
+                {availableLessons.length > 0 && (
+                  <select
+                    value={selectedLessonFilter}
+                    onChange={(e) => setSelectedLessonFilter(e.target.value)}
+                    className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 text-stone-700 dark:text-zinc-300 rounded-xl px-2.5 py-1.5 text-xs focus:outline-none focus:ring-1 focus:ring-indigo-500 cursor-pointer shadow-2xs"
+                  >
+                    <option value="all">All Lessons (သင်ခန်းစာအားလုံး)</option>
+                    {availableLessons.map((lId) => (
+                      <option key={lId} value={lId}>
+                        {lId.toUpperCase()}
+                      </option>
+                    ))}
+                  </select>
+                )}
+
+                <select
+                  value={kanjiSort}
+                  onChange={(e) => setKanjiSort(e.target.value as KanjiSort)}
+                  className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 text-stone-700 dark:text-zinc-300 rounded-xl px-2.5 py-1.5 text-xs focus:outline-none focus:ring-1 focus:ring-indigo-500 cursor-pointer shadow-2xs"
+                >
+                  <option value="default">Default Order (မူလအစဉ်)</option>
+                  <option value="strokes_asc">Strokes: Low → High (ရေးချက် နည်း → များ)</option>
+                  <option value="strokes_desc">Strokes: High → Low (ရေးချက် များ → နည်း)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* =========================================================================
@@ -690,57 +1168,552 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             </p>
           </div>
         ) : filteredKanji.length === 0 ? (
-          <div className="bg-white border border-stone-200 rounded-3xl p-12 text-center space-y-3 shadow-sm">
+          <div className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-3xl p-12 text-center space-y-3 shadow-sm">
             <Sparkles className="w-8 h-8 text-stone-400 mx-auto" />
-            <h3 className="text-sm font-semibold text-stone-800">No matching kanji found</h3>
-            <p className="text-xs text-stone-500 max-w-md mx-auto">
+            <h3 className="text-sm font-semibold text-stone-800 dark:text-zinc-200 font-myanmar">ရှာဖွေတွေ့ရှိသော ခန်းဂျီး မရှိပါ (No matching kanji found)</h3>
+            <p className="text-xs text-stone-500 dark:text-zinc-400 max-w-md mx-auto">
               Try adjusting your search query or clear the filter to view all {selectedLevel} kanji characters.
             </p>
-            {kanjiSearchQuery && (
+            {(kanjiSearchQuery || kanjiFilter !== 'all' || selectedLessonFilter !== 'all') && (
               <button
                 type="button"
-                onClick={() => setKanjiSearchQuery('')}
-                className="px-4 py-2 rounded-xl bg-white hover:bg-stone-50 text-stone-700 border border-stone-300 text-xs font-medium transition cursor-pointer mt-2 shadow-2xs"
+                onClick={() => {
+                  setKanjiSearchQuery('');
+                  setKanjiFilter('all');
+                  setSelectedLessonFilter('all');
+                }}
+                className="px-4 py-2 rounded-xl bg-white dark:bg-zinc-800 hover:bg-stone-50 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-200 border border-stone-300 dark:border-zinc-700 text-xs font-medium transition cursor-pointer mt-2 shadow-2xs"
               >
-                Clear Search Query
+                Clear Filters & Search
               </button>
             )}
           </div>
+        ) : kanjiViewMode === 'flashcard' ? (
+          /* =========================================================================
+             KANJI MODE 2: FLASHCARD DRILL
+             ========================================================================= */
+          <div className="space-y-6 max-w-xl mx-auto">
+            {/* Flashcard Header Controls */}
+            <div className="flex items-center justify-between text-xs font-mono text-stone-600 dark:text-zinc-400 px-2">
+              <span className="flex items-center gap-1.5 font-bold">
+                <span>Card {kanjiDrillIndex + 1} of {kanjiDrillDeck.length}</span>
+              </span>
+              <div className="flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => setIsKanjiShuffled((prev) => !prev)}
+                  className={`p-2 rounded-xl transition cursor-pointer flex items-center gap-1 text-xs ${
+                    isKanjiShuffled
+                      ? 'bg-indigo-600 text-white font-semibold'
+                      : 'bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                  }`}
+                  title="Shuffle Cards"
+                >
+                  <Shuffle className="w-3.5 h-3.5" />
+                  <span className="hidden sm:inline">Shuffle</span>
+                </button>
+              </div>
+            </div>
+
+            {/* Flashcard Card Body */}
+            {currentKanjiDrill && (
+              <div
+                onClick={() => setIsKanjiRevealed((prev) => !prev)}
+                className="group relative min-h-[380px] bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-3xl p-6 sm:p-8 flex flex-col justify-between items-center text-center cursor-pointer shadow-lg hover:border-indigo-400 dark:hover:border-indigo-500 transition-all select-none"
+              >
+                {/* Top Badge Row */}
+                <div className="w-full flex items-center justify-between">
+                  <span className="text-xs font-mono text-stone-500 dark:text-zinc-400 bg-stone-100 dark:bg-zinc-800 px-2.5 py-1 rounded-full border border-stone-200 dark:border-zinc-700">
+                    {`画数: ${currentKanjiDrill.strokeCount}`}
+                  </span>
+                  <div className="flex items-center gap-1.5">
+                    {currentKanjiDrill.lessonId && (
+                      <span className="text-xs font-mono font-bold text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-200 dark:border-emerald-800">
+                        {currentKanjiDrill.lessonId.replace(/^n\d\./i, 'L').toUpperCase()}
+                      </span>
+                    )}
+                    <span className="text-xs font-mono font-bold text-indigo-700 dark:text-indigo-300 bg-indigo-50 dark:bg-indigo-950/60 px-2 py-0.5 rounded border border-indigo-200 dark:border-indigo-800">
+                      {currentKanjiDrill.jlptLevel}
+                    </span>
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        toggleMastery(currentKanjiDrill.literal);
+                      }}
+                      className={`p-1.5 rounded-lg transition cursor-pointer ${
+                        masteredKanji.has(currentKanjiDrill.literal)
+                          ? 'text-amber-500 hover:text-amber-600'
+                          : 'text-stone-300 dark:text-zinc-600 hover:text-amber-400'
+                      }`}
+                      title={masteredKanji.has(currentKanjiDrill.literal) ? 'တတ်မြောက်ပြီး (Mastered)' : 'လေ့လာဆဲ (Unmastered)'}
+                    >
+                      <CheckCircle2 className="w-5 h-5 fill-current" />
+                    </button>
+                  </div>
+                </div>
+
+                {/* Center Content */}
+                <div className="my-auto py-4 space-y-4 w-full">
+                  <div className="text-7xl sm:text-8xl font-japanese font-bold text-stone-900 dark:text-zinc-100 group-hover:scale-105 transition-transform">
+                    {currentKanjiDrill.literal}
+                  </div>
+
+                  {!isKanjiRevealed ? (
+                    <div className="flex items-center justify-center gap-1.5 text-xs text-stone-500 dark:text-zinc-400 pt-4 font-myanmar">
+                      <Eye className="w-4 h-4 text-indigo-500" />
+                      <span>နှိပ်၍ အဖြေနှင့် ရှင်းလင်းချက်ကြည့်ပါ (Click to Flip)</span>
+                    </div>
+                  ) : (
+                    <motion.div
+                      initial={{ opacity: 0, y: 10 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      className="space-y-3 w-full text-left bg-stone-50 dark:bg-zinc-950/60 p-4 rounded-2xl border border-stone-200 dark:border-zinc-800"
+                    >
+                      {/* Readings */}
+                      <div className="space-y-1">
+                        <div className="text-xs">
+                          <span className="font-mono font-semibold text-rose-600 dark:text-rose-400 mr-1.5">音 (Onyomi):</span>
+                          <span className="font-japanese text-stone-900 dark:text-zinc-100 font-bold">
+                            {currentKanjiDrill.onyomi.length > 0 ? currentKanjiDrill.onyomi.join('、') : '—'}
+                          </span>
+                        </div>
+                        <div className="text-xs">
+                          <span className="font-mono font-semibold text-sky-600 dark:text-sky-400 mr-1.5">訓 (Kunyomi):</span>
+                          <span className="font-japanese text-stone-900 dark:text-zinc-100 font-bold">
+                            {currentKanjiDrill.kunyomi.length > 0 ? currentKanjiDrill.kunyomi.join('、') : '—'}
+                          </span>
+                        </div>
+                      </div>
+
+                      {/* Meanings */}
+                      <div className="pt-2 border-t border-stone-200 dark:border-zinc-800">
+                        <div className="text-sm font-burmese font-bold text-stone-900 dark:text-zinc-100">
+                          {currentKanjiDrill.meaningBurmese}
+                        </div>
+                        <div className="text-xs font-sans text-stone-600 dark:text-zinc-400 mt-0.5">
+                          {currentKanjiDrill.meaningEn}
+                        </div>
+                      </div>
+
+                      {/* Compound Examples */}
+                      {currentKanjiDrill.examples && currentKanjiDrill.examples.length > 0 && (
+                        <div className="pt-2 border-t border-stone-200 dark:border-zinc-800 space-y-1.5">
+                          <span className="text-[10px] font-mono uppercase text-stone-500 dark:text-zinc-400 block font-myanmar">
+                            နမူနာ ဝေါဟာရများ (Compound Examples):
+                          </span>
+                          {currentKanjiDrill.examples.slice(0, 2).map((ex, exIdx) => (
+                            <div
+                              key={exIdx}
+                              className="flex items-center justify-between text-xs bg-white dark:bg-zinc-900 px-3 py-1.5 rounded-xl border border-stone-200 dark:border-zinc-800"
+                            >
+                              <div className="truncate">
+                                <span className="font-japanese font-bold text-stone-900 dark:text-zinc-100">{ex.word}</span>
+                                <span className="text-[11px] text-stone-500 dark:text-zinc-400 font-japanese ml-1.5">【{ex.reading}】</span>
+                                <span className="text-[11px] text-stone-700 dark:text-zinc-300 font-burmese ml-1.5">· {ex.meaningBurmese}</span>
+                              </div>
+                              <button
+                                type="button"
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  play(ex.word, undefined, undefined, ex.reading);
+                                }}
+                                className="p-1 text-stone-400 hover:text-indigo-600 dark:hover:text-indigo-400 shrink-0 cursor-pointer transition rounded"
+                                title={`TTS: ${ex.word}`}
+                              >
+                                <Volume2 className="w-3.5 h-3.5" />
+                              </button>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </motion.div>
+                  )}
+                </div>
+
+                {/* Bottom Action Footer */}
+                <div className="w-full pt-3 border-t border-stone-100 dark:border-zinc-800/80 flex items-center justify-between">
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setSelectedKanji(currentKanjiDrill);
+                    }}
+                    className="text-xs font-semibold text-indigo-600 dark:text-indigo-400 hover:underline flex items-center gap-1 cursor-pointer font-myanmar"
+                  >
+                    <BookOpen className="w-3.5 h-3.5" />
+                    <span>ရေးချက်ကြည့်ရန် (Stroke Visualizer)</span>
+                  </button>
+                  <span className="text-[11px] text-stone-400 dark:text-zinc-500 font-mono">
+                    Space / Click to Flip
+                  </span>
+                </div>
+              </div>
+            )}
+
+            {/* Navigation Controls */}
+            <div className="flex items-center justify-center gap-3">
+              <button
+                type="button"
+                onClick={() => {
+                  setKanjiDrillIndex((prev) => Math.max(0, prev - 1));
+                  setIsKanjiRevealed(false);
+                }}
+                disabled={kanjiDrillIndex === 0}
+                className="px-4 py-2 rounded-xl bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 text-stone-700 dark:text-zinc-300 hover:bg-stone-50 dark:hover:bg-zinc-800 disabled:opacity-40 disabled:cursor-not-allowed flex items-center gap-1.5 text-xs font-semibold transition cursor-pointer shadow-xs"
+              >
+                <ChevronLeft className="w-4 h-4" />
+                <span>Previous</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => setIsKanjiRevealed((prev) => !prev)}
+                className="px-4 py-2 rounded-xl bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200 dark:border-indigo-800 text-indigo-700 dark:text-indigo-300 hover:bg-indigo-100 dark:hover:bg-indigo-900/60 flex items-center gap-1.5 text-xs font-semibold transition cursor-pointer shadow-xs"
+              >
+                <RotateCcw className="w-4 h-4" />
+                <span>{isKanjiRevealed ? 'Hide Details' : 'Flip Card'}</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setKanjiDrillIndex((prev) => Math.min(kanjiDrillDeck.length - 1, prev + 1));
+                  setIsKanjiRevealed(false);
+                }}
+                disabled={kanjiDrillIndex >= kanjiDrillDeck.length - 1}
+                className="px-4 py-2 rounded-xl bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 text-stone-700 dark:text-zinc-300 hover:bg-stone-50 dark:hover:bg-zinc-800 disabled:opacity-40 disabled:cursor-not-allowed flex items-center gap-1.5 text-xs font-semibold transition cursor-pointer shadow-xs"
+              >
+                <span>Next</span>
+                <ChevronRight className="w-4 h-4" />
+              </button>
+            </div>
+          </div>
+        ) : kanjiViewMode === 'quiz' ? (
+          /* =========================================================================
+             KANJI MODE 3: INTERACTIVE KANJI QUIZ
+             ========================================================================= */
+          <div className="space-y-6 max-w-2xl mx-auto">
+            {isKanjiQuizCompleted ? (
+              /* Quiz Completion Summary Card */
+              <motion.div
+                initial={{ opacity: 0, scale: 0.95 }}
+                animate={{ opacity: 1, scale: 1 }}
+                className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-3xl p-6 sm:p-8 text-center space-y-6 shadow-md"
+              >
+                <div className="w-16 h-16 rounded-full bg-indigo-50 dark:bg-indigo-950/80 border border-indigo-200 dark:border-indigo-800 text-indigo-600 dark:text-indigo-400 flex items-center justify-center mx-auto shadow-sm">
+                  <Trophy className="w-8 h-8" />
+                </div>
+                <div className="space-y-2">
+                  <h3 className="text-xl font-bold text-stone-900 dark:text-zinc-100 font-myanmar">
+                    ခန်းဂျီး စစ်ဆေးမေးခွန်း ပြီးဆုံးပါပြီ!
+                  </h3>
+                  <p className="text-xs text-stone-600 dark:text-zinc-400">
+                    JLPT {selectedLevel} Kanji Deck Quiz Session
+                  </p>
+                </div>
+
+                <div className="bg-stone-50 dark:bg-zinc-950 p-6 rounded-2xl border border-stone-200 dark:border-zinc-800 space-y-2">
+                  <div className="text-4xl font-bold font-mono text-indigo-600 dark:text-indigo-400">
+                    {kanjiQuizScore} / {kanjiQuizQuestions.length}
+                  </div>
+                  <div className="text-xs font-medium text-stone-600 dark:text-zinc-400 font-myanmar">
+                    ရမှတ်: {Math.round((kanjiQuizScore / (kanjiQuizQuestions.length || 1)) * 100)}%
+                  </div>
+                  {kanjiQuizScore === kanjiQuizQuestions.length ? (
+                    <p className="text-xs text-emerald-600 dark:text-emerald-400 font-semibold font-myanmar pt-1">
+                      ဂုဏ်ယူပါသည်! ဖြေဆိုခဲ့သော ခန်းဂျီးအားလုံးကို မှန်ကန်စွာ ဖြေဆိုနိုင်ခဲ့ပါသည်။
+                    </p>
+                  ) : (
+                    <p className="text-xs text-stone-600 dark:text-zinc-400 font-myanmar pt-1">
+                      မှားယွင်းခဲ့သော ခန်းဂျီး {missedKanjiList.length} လုံး ရှိပါသည်။
+                    </p>
+                  )}
+                </div>
+
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2">
+                  {missedKanjiList.length > 0 && (
+                    <button
+                      type="button"
+                      onClick={retryMissedKanji}
+                      className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-amber-600 hover:bg-amber-500 text-white font-semibold text-xs transition cursor-pointer flex items-center justify-center gap-2 shadow-xs font-myanmar"
+                    >
+                      <RotateCcw className="w-4 h-4" />
+                      <span>မှားယွင်းခဲ့သော ခန်းဂျီးများ ပြန်လည်ဖြေဆိုမည် ({missedKanjiList.length} လုံး)</span>
+                    </button>
+                  )}
+                  <button
+                    type="button"
+                    onClick={() => startNewKanjiQuiz(filteredKanji.length > 0 ? filteredKanji : kanjiList)}
+                    className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-xs transition cursor-pointer flex items-center justify-center gap-2 shadow-xs font-myanmar"
+                  >
+                    <Zap className="w-4 h-4" />
+                    <span>မေးခွန်းအသစ် စတင်မည် (New Quiz)</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setKanjiViewMode('grid')}
+                    className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-stone-100 dark:bg-zinc-800 hover:bg-stone-200 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-200 text-xs font-medium transition cursor-pointer font-myanmar"
+                  >
+                    <span>ခန်းဂျီးစာရင်းသို့ ပြန်သွားမည်</span>
+                  </button>
+                </div>
+              </motion.div>
+            ) : currentKanjiQuizQ ? (
+              /* Active Quiz Question Card */
+              <div className="space-y-4">
+                {/* Progress Header */}
+                <div className="flex items-center justify-between text-xs font-mono text-stone-600 dark:text-zinc-400 px-1">
+                  <span>
+                    Question {kanjiQuizCurrentIndex + 1} of {kanjiQuizQuestions.length}
+                  </span>
+                  <div className="flex items-center gap-2">
+                    <span className="font-bold text-emerald-600 dark:text-emerald-400">
+                      Score: {kanjiQuizScore}
+                    </span>
+                  </div>
+                </div>
+
+                {/* Question Prompt Card */}
+                <div className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-3xl p-6 sm:p-8 text-center space-y-3 shadow-md">
+                  <div className="flex items-center justify-center gap-2">
+                    <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800 font-bold">
+                      {currentKanjiQuizQ.kanji.jlptLevel}
+                    </span>
+                    {currentKanjiQuizQ.kanji.lessonId && (
+                      <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 font-bold">
+                        {currentKanjiQuizQ.kanji.lessonId.replace(/^n\d\./i, 'L').toUpperCase()}
+                      </span>
+                    )}
+                    <span className="text-[10px] font-mono text-stone-500 dark:text-zinc-400 bg-stone-100 dark:bg-zinc-800 px-2 py-0.5 rounded-full border border-stone-200 dark:border-zinc-700">
+                      {`画数: ${currentKanjiQuizQ.kanji.strokeCount}`}
+                    </span>
+                  </div>
+
+                  <div className="py-2">
+                    {currentKanjiQuizQ.type === 'meaning_to_kanji' ? (
+                      <div className="space-y-1">
+                        <span className="text-2xl sm:text-3xl font-burmese font-bold text-stone-900 dark:text-zinc-100">
+                          {currentKanjiQuizQ.prompt}
+                        </span>
+                        {currentKanjiQuizQ.promptSub && (
+                          <p className="text-xs text-stone-500 dark:text-zinc-400 font-japanese">
+                            {currentKanjiQuizQ.promptSub}
+                          </p>
+                        )}
+                      </div>
+                    ) : (
+                      <div className="space-y-1">
+                        <span className="text-6xl sm:text-7xl font-japanese font-bold text-stone-900 dark:text-zinc-100 inline-block">
+                          {currentKanjiQuizQ.prompt}
+                        </span>
+                        {currentKanjiQuizQ.promptSub && (
+                          <p className="text-xs text-stone-500 dark:text-zinc-400 font-myanmar">
+                            {currentKanjiQuizQ.promptSub}
+                          </p>
+                        )}
+                      </div>
+                    )}
+                  </div>
+                </div>
+
+                {/* 4-Choice Options */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {currentKanjiQuizQ.options.map((option, optIdx) => {
+                    const isSelected = kanjiQuizSelectedOption === option;
+                    const isCorrect = option === currentKanjiQuizQ.correctAnswer;
+
+                    let btnClass =
+                      'bg-white dark:bg-zinc-900 border-stone-200 dark:border-zinc-800 text-stone-800 dark:text-zinc-200 hover:border-indigo-400 hover:bg-stone-50 dark:hover:bg-zinc-800/60';
+
+                    if (isKanjiQuizSubmitted) {
+                      if (isCorrect) {
+                        btnClass =
+                          'bg-emerald-50 dark:bg-emerald-950/60 border-emerald-500 dark:border-emerald-600 text-emerald-900 dark:text-emerald-200 font-semibold ring-1 ring-emerald-500/50';
+                      } else if (isSelected && !isCorrect) {
+                        btnClass =
+                          'bg-rose-50 dark:bg-rose-950/60 border-rose-500 dark:border-rose-600 text-rose-900 dark:text-rose-200';
+                      } else {
+                        btnClass =
+                          'bg-stone-50/50 dark:bg-zinc-900/40 border-stone-200 dark:border-zinc-800 text-stone-400 dark:text-zinc-500 opacity-60';
+                      }
+                    }
+
+                    return (
+                      <button
+                        key={optIdx}
+                        type="button"
+                        onClick={() => handleSelectKanjiQuizOption(option)}
+                        disabled={isKanjiQuizSubmitted}
+                        className={`p-4 rounded-2xl border text-left transition-all flex items-center justify-between gap-3 cursor-pointer shadow-2xs ${btnClass}`}
+                      >
+                        <div className="flex items-center gap-3">
+                          <span className="w-6 h-6 rounded-lg bg-stone-100 dark:bg-zinc-800 border border-stone-300 dark:border-zinc-700 text-stone-700 dark:text-zinc-300 text-xs font-mono font-bold flex items-center justify-center shrink-0">
+                            {optIdx + 1}
+                          </span>
+                          <span className={`text-sm ${currentKanjiQuizQ.type === 'meaning_to_kanji' ? 'text-2xl font-japanese font-bold' : 'font-japanese'}`}>
+                            {option}
+                          </span>
+                        </div>
+                        {isKanjiQuizSubmitted && isCorrect && (
+                          <CheckCircle2 className="w-5 h-5 text-emerald-600 dark:text-emerald-400 shrink-0" />
+                        )}
+                        {isKanjiQuizSubmitted && isSelected && !isCorrect && (
+                          <XCircle className="w-5 h-5 text-rose-600 dark:text-rose-400 shrink-0" />
+                        )}
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* Explanation & Next Step */}
+                {isKanjiQuizSubmitted && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    className="space-y-4 pt-2"
+                  >
+                    <div className="bg-stone-50 dark:bg-zinc-950 p-4 rounded-2xl border border-stone-200 dark:border-zinc-800 space-y-2 text-xs">
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-2">
+                          <span className="text-xl font-japanese font-bold text-stone-900 dark:text-zinc-100">
+                            {currentKanjiQuizQ.kanji.literal}
+                          </span>
+                          <span className="font-mono text-stone-500 dark:text-zinc-400">
+                            【{formatKanjiReadings(currentKanjiQuizQ.kanji)}】
+                          </span>
+                        </div>
+                        <span className="font-burmese font-bold text-stone-800 dark:text-zinc-200">
+                          {currentKanjiQuizQ.kanji.meaningBurmese}
+                        </span>
+                      </div>
+                      {currentKanjiQuizQ.kanji.examples && currentKanjiQuizQ.kanji.examples.length > 0 && (
+                        <div className="pt-2 border-t border-stone-200 dark:border-zinc-800 flex items-center gap-2 flex-wrap">
+                          <span className="text-stone-500 dark:text-zinc-400 font-myanmar">နမူနာ:</span>
+                          {currentKanjiQuizQ.kanji.examples.slice(0, 2).map((ex, exIdx) => (
+                            <span key={exIdx} className="bg-white dark:bg-zinc-900 px-2 py-0.5 rounded border border-stone-200 dark:border-zinc-800 font-japanese text-stone-800 dark:text-zinc-200">
+                              {ex.word} ({ex.reading}) - {ex.meaningBurmese}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+
+                    <div className="flex justify-end">
+                      <button
+                        type="button"
+                        onClick={handleNextKanjiQuizQuestion}
+                        className="px-6 py-2.5 rounded-xl bg-stone-900 text-white hover:bg-stone-800 dark:bg-zinc-100 dark:text-zinc-950 dark:hover:bg-white text-xs font-semibold flex items-center gap-2 shadow-xs transition cursor-pointer font-myanmar"
+                      >
+                        <span>
+                          {kanjiQuizCurrentIndex < kanjiQuizQuestions.length - 1
+                            ? 'နောက်မေးခွန်းသို့ (Next)'
+                            : 'ရလဒ်ကို ကြည့်မည် (View Results)'}
+                        </span>
+                        <ArrowRight className="w-4 h-4" />
+                      </button>
+                    </div>
+                  </motion.div>
+                )}
+              </div>
+            ) : null}
+          </div>
         ) : (
+          /* =========================================================================
+             KANJI MODE 1: ENHANCED GRID VIEW
+             ========================================================================= */
           <div className="space-y-4">
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3.5">
               {filteredKanji.map((k) => (
                 <div
                   key={k.id}
                   onClick={() => setSelectedKanji(k)}
-                  className="group relative overflow-hidden rounded-2xl bg-white border border-stone-200 hover:border-indigo-300 p-4 hover:bg-stone-50 transition-all duration-300 cursor-pointer hover:scale-[1.02] shadow-sm flex flex-col justify-between"
+                  className="group relative overflow-hidden rounded-2xl bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 hover:border-indigo-400 dark:hover:border-indigo-500 p-4 hover:bg-stone-50 dark:hover:bg-zinc-800/50 transition-all duration-300 cursor-pointer hover:scale-[1.01] shadow-sm flex flex-col justify-between"
                 >
-                  {/* Top: Stroke count badge & JLPT Level */}
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="text-[10px] font-mono text-stone-500 bg-stone-100 border border-stone-200 px-2 py-0.5 rounded-full">
+                  {/* Top: Stroke count badge & JLPT Level & Lesson badge & Mastered toggle */}
+                  <div className="flex items-center justify-between mb-2 gap-1 flex-wrap">
+                    <span className="text-[10px] font-mono text-stone-500 dark:text-zinc-400 bg-stone-100 dark:bg-zinc-800 border border-stone-200 dark:border-zinc-700 px-2 py-0.5 rounded-full">
                       {`画数: ${k.strokeCount}`}
                     </span>
-                    <span className="text-[10px] font-mono text-indigo-700 font-semibold">
-                      {k.jlptLevel}
-                    </span>
+                    <div className="flex items-center gap-1.5">
+                      {k.lessonId && (
+                        <span className="text-[10px] font-mono font-bold text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/60 px-1.5 py-0.5 rounded border border-emerald-200 dark:border-emerald-800">
+                          {k.lessonId.replace(/^n\d\./i, 'L').toUpperCase()}
+                        </span>
+                      )}
+                      <span className="text-[10px] font-mono text-indigo-700 dark:text-indigo-300 font-bold">
+                        {k.jlptLevel}
+                      </span>
+                      <button
+                        type="button"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          toggleMastery(k.literal);
+                        }}
+                        className={`p-1 rounded transition cursor-pointer ${
+                          masteredKanji.has(k.literal)
+                            ? 'text-amber-500 hover:text-amber-600'
+                            : 'text-stone-300 dark:text-zinc-600 hover:text-amber-400'
+                        }`}
+                        title={masteredKanji.has(k.literal) ? 'တတ်မြောက်ပြီး (Mastered)' : 'လေ့လာဆဲ (Unmastered)'}
+                      >
+                        <CheckCircle2 className="w-4 h-4 fill-current" />
+                      </button>
+                    </div>
                   </div>
 
                   {/* Center: Prominent Kanji character */}
                   <div className="my-2 text-center">
-                    <span className="text-4xl sm:text-5xl font-japanese font-bold text-stone-900 group-hover:text-indigo-600 group-hover:scale-110 transition-transform duration-300 inline-block">
+                    <span className="text-4xl sm:text-5xl font-japanese font-bold text-stone-900 dark:text-zinc-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 group-hover:scale-110 transition-transform duration-300 inline-block">
                       {k.literal}
                     </span>
                   </div>
 
                   {/* Bottom: On/Kun readings & Burmese meaning */}
-                  <div className="space-y-1 pt-2 border-t border-stone-200 text-center">
-                    <div className="text-[11px] text-indigo-700 font-japanese truncate">
-                      {k.onyomi[0] || k.kunyomi[0] || '—'}
+                  <div className="space-y-1 pt-2 border-t border-stone-200 dark:border-zinc-800 text-left">
+                    <div className="flex items-baseline gap-1 text-[11px] truncate">
+                      <span className="text-[10px] font-semibold text-rose-600 dark:text-rose-400 font-mono shrink-0">音:</span>
+                      <span className="font-japanese text-stone-800 dark:text-zinc-200 truncate">
+                        {k.onyomi && k.onyomi.length > 0 ? k.onyomi.join('、') : '—'}
+                      </span>
                     </div>
-                    <div className="font-burmese text-xs text-stone-700 font-medium line-clamp-1">
+                    <div className="flex items-baseline gap-1 text-[11px] truncate">
+                      <span className="text-[10px] font-semibold text-sky-600 dark:text-sky-400 font-mono shrink-0">訓:</span>
+                      <span className="font-japanese text-stone-800 dark:text-zinc-200 truncate">
+                        {k.kunyomi && k.kunyomi.length > 0 ? k.kunyomi.join('、') : '—'}
+                      </span>
+                    </div>
+                    <div className="font-burmese text-xs text-stone-700 dark:text-zinc-300 font-medium line-clamp-1 pt-0.5">
                       {k.meaningBurmese}
                     </div>
                   </div>
+
+                  {/* Top Compound Examples (1-2) with TTS */}
+                  {k.examples && k.examples.length > 0 && (
+                    <div className="mt-2 pt-2 border-t border-stone-100 dark:border-zinc-800 space-y-1 text-left">
+                      {k.examples.slice(0, 2).map((ex, exIdx) => (
+                        <div
+                          key={exIdx}
+                          className="flex items-center justify-between text-[11px] gap-1 group/ex bg-stone-50 dark:bg-zinc-800/50 rounded-lg px-2 py-1"
+                        >
+                          <div className="truncate">
+                            <span className="font-japanese font-bold text-stone-900 dark:text-zinc-100">{ex.word}</span>
+                            <span className="text-[10px] text-stone-500 dark:text-zinc-400 font-japanese ml-1">【{ex.reading}】</span>
+                            <span className="text-[10px] text-stone-600 dark:text-zinc-300 font-burmese ml-1">· {ex.meaningBurmese}</span>
+                          </div>
+                          <button
+                            type="button"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              play(ex.word, undefined, undefined, ex.reading);
+                            }}
+                            className="p-1 text-stone-400 hover:text-indigo-600 dark:hover:text-indigo-400 shrink-0 cursor-pointer transition rounded"
+                            title={`TTS: ${ex.word}`}
+                          >
+                            <Volume2 className="w-3 h-3" />
+                          </button>
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
