@@ -860,8 +860,8 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                     )}
                   </h2>
                 </div>
-                <div className="flex items-center space-x-1.5 bg-stone-50 px-2.5 py-1 rounded-xl border border-stone-200">
-                  <span className="text-xs text-stone-600 font-myanmar mr-1">အမြန်နှုန်း:</span>
+                <div className="flex items-center space-x-1.5 bg-stone-50 dark:bg-stone-900/60 px-2.5 py-1 rounded-xl border border-stone-200 dark:border-stone-800 shrink-0">
+                  <span className="text-xs text-stone-600 dark:text-stone-400 font-myanmar whitespace-nowrap mr-1">အမြန်နှုန်း:</span>
                   {[0.75, 1.0, 1.25, 1.5].map((spd) => (
                     <button
                       key={spd}
@@ -870,7 +870,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                       className={`px-2 py-0.5 rounded-lg text-xs font-mono transition cursor-pointer ${
                         playbackRate === spd
                           ? 'bg-indigo-600 text-white font-bold shadow-xs'
-                          : 'bg-white text-stone-600 hover:text-stone-900 hover:bg-stone-100 border border-stone-200'
+                          : 'bg-white dark:bg-stone-800 text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white hover:bg-stone-100 dark:hover:bg-stone-700 border border-stone-200 dark:border-stone-700'
                       }`}
                     >
                       {spd}x
@@ -881,9 +881,9 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
               {/* Sub-Batch Navigation Header / Tab Bar (Visible when total vocabulary > 15) */}
               {vocabChunks.length > 1 && (
-                <div className="sticky top-0 z-20 bg-white/95 backdrop-blur-xl border border-stone-200 rounded-2xl p-2.5 shadow-sm flex items-center justify-between gap-2 overflow-x-auto">
+                <div className="sticky top-0 z-20 bg-stone-100 dark:bg-zinc-900 backdrop-blur-xl border border-stone-200 dark:border-zinc-800 rounded-2xl p-2.5 shadow-sm flex items-center justify-between gap-2 overflow-x-auto">
                   <div className="flex items-center space-x-2 shrink-0">
-                    <span className="text-xs uppercase font-mono text-stone-500 font-semibold px-2">
+                    <span className="text-xs uppercase font-mono text-stone-500 dark:text-zinc-400 font-semibold px-2">
                       Batch:
                     </span>
                     {vocabChunks.map((chunk: VocabularyChunk, idx: number) => (
@@ -900,19 +900,19 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                         className={`px-3 py-1.5 rounded-xl text-xs font-mono font-medium transition cursor-pointer flex items-center gap-1.5 ${
                           activePartIndex === idx
                             ? 'bg-indigo-600 text-white font-bold shadow-xs border border-indigo-600'
-                            : 'bg-stone-50 text-stone-700 hover:text-stone-900 hover:bg-stone-100 border border-stone-200'
+                            : 'bg-white dark:bg-zinc-800 text-stone-700 dark:text-zinc-200 hover:text-stone-900 dark:hover:text-white hover:bg-stone-50 dark:hover:bg-zinc-700 border border-stone-200 dark:border-zinc-700'
                         }`}
                       >
                         <span>{formatPartBadge(chunk.partNumber, chunk.startIndex, chunk.endIndex)}</span>
                         <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
-                          activePartIndex === idx ? 'bg-indigo-700 text-white' : 'bg-stone-200 text-stone-600'
+                          activePartIndex === idx ? 'bg-indigo-700 text-white' : 'bg-stone-200 dark:bg-zinc-700 text-stone-600 dark:text-zinc-300'
                         }`}>
                           {chunk.itemCount}
                         </span>
                       </button>
                     ))}
                   </div>
-                  <span className="text-xs text-stone-500 font-mono hidden sm:inline shrink-0 pr-2">
+                  <span className="text-xs text-stone-500 dark:text-zinc-400 font-mono hidden sm:inline shrink-0 pr-2">
                     {pack.vocabularies.length} Total Words
                   </span>
                 </div>
@@ -936,10 +936,10 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                           kanji={v.ja}
                           kana={v.kana}
                           showRomaji={profile.showRomaji}
-                          className="text-4xl sm:text-5xl font-bold font-japanese"
+                          className="text-4xl sm:text-5xl font-bold font-japanese text-stone-900 dark:text-zinc-100"
                         />
                         {v.ja !== v.kana && (
-                          <span className="text-sm font-mono text-indigo-700 font-semibold tracking-wider select-none bg-indigo-50 px-3 py-0.5 rounded-full border border-indigo-200">
+                          <span className="text-sm font-mono text-indigo-700 dark:text-indigo-300 font-semibold tracking-wider select-none bg-indigo-50 dark:bg-indigo-950/50 px-3 py-0.5 rounded-full border border-indigo-200 dark:border-indigo-800">
                             【{v.kana}】
                           </span>
                         )}
@@ -1506,7 +1506,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                               disabled={Boolean(feedback)}
                               className={`p-3.5 rounded-2xl border text-left text-xs font-medium transition flex items-center justify-between cursor-pointer ${
                                 isSelected
-                                  ? 'bg-indigo-50 border-indigo-300 text-indigo-900 ring-1 ring-indigo-500 shadow-xs'
+                                  ? 'bg-indigo-50 border-indigo-300 text-indigo-900 dark:text-indigo-200 ring-1 ring-indigo-500 shadow-xs'
                                   : 'bg-stone-50 border-stone-200 text-stone-800 hover:bg-white hover:border-stone-300 shadow-xs'
                               }`}
                             >

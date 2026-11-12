@@ -21,21 +21,21 @@ export const FuriganaRuby: React.FC<FuriganaRubyProps> = ({
   if (furiganaMode === 'never' || kanji === kana) {
     return (
       <span className={`inline-flex flex-col items-center ${className}`}>
-        <span className="font-japanese text-stone-100">{kanji}</span>
-        {romaji && <span className="text-[10px] text-stone-400 font-mono select-none">{romaji}</span>}
+        <span className="font-japanese text-stone-900 dark:text-zinc-100">{kanji}</span>
+        {romaji && <span className="text-[10px] text-stone-500 dark:text-stone-400 font-mono select-none">{romaji}</span>}
       </span>
     );
   }
 
   return (
     <span className={`inline-flex flex-col items-center ${className}`}>
-      <ruby className="font-japanese text-stone-100">
+      <ruby className="font-japanese text-stone-900 dark:text-zinc-100">
         {kanji}
-        <rt className="text-[10px] text-rose-300 font-japanese select-none font-normal">
+        <rt className="text-[10px] text-rose-600 dark:text-rose-300 font-japanese select-none font-normal">
           {kana}
         </rt>
       </ruby>
-      {romaji && <span className="text-[10px] text-stone-400 font-mono select-none">{romaji}</span>}
+      {romaji && <span className="text-[10px] text-stone-500 dark:text-stone-400 font-mono select-none">{romaji}</span>}
     </span>
   );
 };

@@ -108,6 +108,9 @@ html.dark {
 html.dark .bg-white {
   background-color: #121215;
 }
+html.dark .bg-white\/95 {
+  background-color: rgba(18, 18, 21, 0.95);
+}
 html.dark .bg-white\/90 {
   background-color: rgba(18, 18, 21, 0.9);
 }
@@ -171,21 +174,25 @@ html.dark .bg-pattern-clover-mon {
 /* Semantic badges & high-contrast indicators in dark mode */
 html.dark .bg-indigo-50 { background-color: rgba(49, 46, 129, 0.4); }
 html.dark .text-indigo-700 { color: #a5b4fc; }
+html.dark .text-indigo-800, html.dark .text-indigo-900 { color: #c7d2fe; }
 html.dark .border-indigo-200 { border-color: rgba(99, 102, 241, 0.35); }
 
 html.dark .bg-emerald-50 { background-color: rgba(6, 78, 59, 0.4); }
 html.dark .text-emerald-700 { color: #6ee7b7; }
 html.dark .text-emerald-800 { color: #a7f3d0; }
+html.dark .text-emerald-900 { color: #d1fae5; }
 html.dark .border-emerald-200 { border-color: rgba(16, 185, 129, 0.35); }
 
 html.dark .bg-rose-50 { background-color: rgba(136, 19, 55, 0.4); }
 html.dark .text-rose-700 { color: #fda4af; }
 html.dark .text-rose-800 { color: #fecdd3; }
+html.dark .text-rose-900 { color: #ffe4e6; }
 html.dark .border-rose-200 { border-color: rgba(244, 63, 94, 0.35); }
 
 html.dark .bg-amber-50 { background-color: rgba(120, 53, 15, 0.4); }
 html.dark .text-amber-700 { color: #fcd34d; }
 html.dark .text-amber-800 { color: #fde68a; }
+html.dark .text-amber-900 { color: #fef3c7; }
 html.dark .border-amber-200 { border-color: rgba(245, 158, 11, 0.35); }
 
 html.dark .bg-purple-50 { background-color: rgba(88, 28, 135, 0.4); }
@@ -196,5 +203,57 @@ html.dark .bg-sky-50 { background-color: rgba(12, 74, 110, 0.4); }
 html.dark .text-sky-700 { color: #7dd3fc; }
 html.dark .border-sky-200 { border-color: rgba(14, 165, 233, 0.35); }
 
+html.dark .bg-cyan-50 { background-color: rgba(8, 145, 178, 0.35); }
+html.dark .text-cyan-700, html.dark .text-cyan-800 { color: #67e8f9; }
+html.dark .border-cyan-200, html.dark .border-cyan-300 { border-color: rgba(6, 182, 212, 0.35); }
+
+html.dark .bg-green-50 { background-color: rgba(6, 78, 59, 0.4); }
+html.dark .text-green-800 { color: #a7f3d0; }
+html.dark .text-green-900 { color: #d1fae5; }
+html.dark .border-green-200 { border-color: rgba(16, 185, 129, 0.35); }
+
+html.dark .bg-red-50 { background-color: rgba(136, 19, 55, 0.4); }
+html.dark .text-red-800 { color: #fecdd3; }
+html.dark .text-red-900 { color: #ffe4e6; }
+html.dark .border-red-200 { border-color: rgba(244, 63, 94, 0.35); }
+
 html.dark rt { color: rgba(228, 228, 231, 0.7); }
+
+/* ==========================================================================
+   Page & Sidebar Scrollbars (Light and Dark Mode)
+   ========================================================================== */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #d6d3d1 transparent;
+}
+
+html.dark * {
+  scrollbar-color: #3f3f46 transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d6d3d1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a29e;
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: #3f3f46;
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: #52525b;
+}
 

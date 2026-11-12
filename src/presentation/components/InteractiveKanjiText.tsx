@@ -82,7 +82,7 @@ export const InteractiveKanjiSpan: React.FC<InteractiveKanjiSpanProps> = ({
       onTouchCancel={handleTouchEnd}
       onDoubleClick={handleDoubleClick}
       onContextMenu={handleContextMenu}
-      className={`inline cursor-pointer transition-colors duration-150 hover:text-rose-300 hover:underline decoration-rose-400/50 decoration-1 underline-offset-2 ${className}`}
+      className={`inline cursor-pointer transition-colors duration-150 hover:text-rose-600 dark:hover:text-rose-300 hover:underline decoration-rose-400/50 decoration-1 underline-offset-2 ${className}`}
       title={`漢字: ${char} (長押し/ダブルクリック/右クリックで詳細)`}
     >
       {children || char}
