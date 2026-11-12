@@ -1,5 +1,6 @@
 import { AudioRef } from '../../domain/models/types';
 import { GoogleDriveService } from './google-drive-service';
+import { getDriveAccessToken } from '../auth/firebase-auth';
 
 export interface DriveFileItem {
   id: string;
@@ -67,8 +68,15 @@ export class GoogleDriveAdapter implements FileStore {
 
   constructor(private accessToken?: string) {}
 
+  /**
+   * Resolves effective access token, using explicit token if passed or falling back to in-memory OAuth token.
+   */
+  getEffectiveAccessToken(): string | null {
+    return this.accessToken || getDriveAccessToken();
+  }
+
   isConfigured(): boolean {
-    return Boolean(this.accessToken);
+    return Boolean(this.getEffectiveAccessToken());
   }
 
   async saveBackup(filename: string, content: string): Promise<boolean> {
@@ -80,7 +88,7 @@ export class GoogleDriveAdapter implements FileStore {
       throw new Error('Google Drive integration is not connected. Sign in with Google to enable Drive backups.');
     }
     try {
-      await GoogleDriveService.uploadBackup(content, filename, this.accessToken);
+      await GoogleDriveService.uploadBackup(content, filename, this.getEffectiveAccessToken() || undefined);
       return true;
     } catch (err: any) {
       console.warn(`[GoogleDriveAdapter] saveBackup failed: ${err.message}`);
@@ -95,7 +103,7 @@ export class GoogleDriveAdapter implements FileStore {
     }
     if (!this.isConfigured()) return null;
     try {
-      return await GoogleDriveService.downloadBackup(fileId, this.accessToken);
+      return await GoogleDriveService.downloadBackup(fileId, this.getEffectiveAccessToken() || undefined);
     } catch (err: any) {
       console.warn(`[GoogleDriveAdapter] getBackup failed: ${err.message}`);
       return null;
@@ -105,7 +113,7 @@ export class GoogleDriveAdapter implements FileStore {
   async deleteBackup(fileId: string): Promise<boolean> {
     if (!this.isConfigured()) return false;
     try {
-      await GoogleDriveService.deleteBackup(fileId, this.accessToken);
+      await GoogleDriveService.deleteBackup(fileId, this.getEffectiveAccessToken() || undefined);
       return true;
     } catch (err: any) {
       console.warn(`[GoogleDriveAdapter] deleteBackup failed: ${err.message}`);
@@ -116,7 +124,7 @@ export class GoogleDriveAdapter implements FileStore {
   async exportCurriculum(pack: any): Promise<boolean> {
     if (!this.isConfigured()) return false;
     try {
-      await GoogleDriveService.uploadCurriculumExport(pack, this.accessToken);
+      await GoogleDriveService.uploadCurriculumExport(pack, this.getEffectiveAccessToken() || undefined);
       return true;
     } catch (err: any) {
       console.warn(`[GoogleDriveAdapter] exportCurriculum failed: ${err.message}`);
