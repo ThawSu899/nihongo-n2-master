@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Clock, ShieldCheck, Flame, Database, Search, Sun, Moon } from 'lucide-react';
+import { Clock, ShieldCheck, Flame, Database, Search, Sun, Moon, Cloud, CloudOff } from 'lucide-react';
 import { UserProfile } from '../../domain/models/types';
 import { getStoredTheme, applyTheme, ThemeMode } from '../../services/theme';
+import { isGoogleConnected, auth } from '../../integrations/auth/firebase-auth';
 
 interface HeaderProps {
   profile: UserProfile;
