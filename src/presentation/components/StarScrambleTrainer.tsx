@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   Sparkles,
@@ -24,17 +24,24 @@ import {
   ScrambleToken,
 } from '../../domain/assessment/star-scramble-engine';
 import { db } from '../../data/db/dexie-db';
+import { ContentLoader } from '../../data/content/content-loader';
 import { useScopedShortcuts } from '../context/GlobalShortcutContext';
 
 interface StarScrambleTrainerProps {
   onExit?: () => void;
   onComplete?: (summary: { score: number; accuracy: number; totalPuzzles: number }) => void;
+  initialLevel?: 'N5' | 'N4' | 'N3' | 'N2';
+  customPuzzles?: StarScramblePuzzle[];
 }
 
 export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
   onExit,
   onComplete,
+  initialLevel = 'N2',
+  customPuzzles,
 }) => {
+  const [selectedLevel, setSelectedLevel] = useState<'All' | 'N5' | 'N4' | 'N3' | 'N2'>(initialLevel);
+  const [curriculumPuzzles, setCurriculumPuzzles] = useState<StarScramblePuzzle[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   // Current slot allocations: array of 4 (option numbers 1-4, or null)
   const [slots, setSlots] = useState<(number | null)[]>([null, null, null, null]);
@@ -42,8 +49,88 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
   const [historyScores, setHistoryScores] = useState<number[]>([]);
   const [showExplanation, setShowExplanation] = useState(false);
 
+  // Load example sentences from curriculum packs and generate interactive Star puzzles
+  useEffect(() => {
+    let isCancelled = false;
+    const generateFromCurriculum = async () => {
+      try {
+        const lvl = selectedLevel === 'All' ? 'N2' : selectedLevel;
+        const packs = await ContentLoader.getPacksForLevel(lvl);
+        const generated: StarScramblePuzzle[] = [];
+
+        for (const pack of packs) {
+          // 1. From grammar example sentences
+          if (Array.isArray(pack.grammars)) {
+            for (const g of pack.grammars) {
+              const sentenceObj = pack.sentences?.find((s) => g.examples?.some((e) => e.sentenceId === s.id));
+              const textJa = sentenceObj?.ja || g.clozeSentence;
+              if (textJa && textJa.length >= 10) {
+                const puzzle = StarScrambleEngine.createFromSentence(
+                  `star_${pack.id}_${g.id}`,
+                  `${g.pattern} - ${g.meaning}`,
+                  textJa,
+                  {
+                    fullSentenceMy: sentenceObj?.translation?.my || (sentenceObj as any)?.translationMy || g.meaningMy,
+                    fullSentenceEn: sentenceObj?.translation?.en || g.meaning,
+                    grammarFocus: g.pattern,
+                    detailedExplanationMy: g.explanationMy || g.explanation?.my,
+                    level: pack.level,
+                  }
+                );
+                if (puzzle) generated.push(puzzle);
+              }
+            }
+          }
+
+          // 2. From pack sentences
+          if (Array.isArray(pack.sentences)) {
+            for (const s of pack.sentences.slice(0, 3)) {
+              if (s.ja && s.ja.length >= 14 && generated.length < 35) {
+                const puzzle = StarScrambleEngine.createFromSentence(
+                  `star_${s.id}`,
+                  s.ja.slice(0, 18) + '...',
+                  s.ja,
+                  {
+                    fullSentenceMy: s.translation?.my || (s as any).translationMy,
+                    fullSentenceEn: s.translation?.en,
+                    level: pack.level,
+                  }
+                );
+                if (puzzle) generated.push(puzzle);
+              }
+            }
+          }
+        }
+
+        if (!isCancelled && generated.length > 0) {
+          setCurriculumPuzzles(generated);
+        }
+      } catch {
+        // fallback to catalog
+      }
+    };
+
+    generateFromCurriculum();
+    return () => {
+      isCancelled = true;
+    };
+  }, [selectedLevel]);
+
+  // Combined puzzle pool: custom -> curriculum -> fallback catalog
+  const activePuzzlePool = useMemo(() => {
+    if (customPuzzles && customPuzzles.length > 0) return customPuzzles;
+    if (curriculumPuzzles.length > 0) {
+      if (selectedLevel === 'All') return [...curriculumPuzzles, ...STAR_SCRAMBLE_CATALOG];
+      const filtered = curriculumPuzzles.filter((p) => p.level === selectedLevel);
+      return filtered.length > 0 ? filtered : [...curriculumPuzzles, ...STAR_SCRAMBLE_CATALOG];
+    }
+    if (selectedLevel === 'All') return STAR_SCRAMBLE_CATALOG;
+    const catFiltered = STAR_SCRAMBLE_CATALOG.filter((p) => p.level === selectedLevel);
+    return catFiltered.length > 0 ? catFiltered : STAR_SCRAMBLE_CATALOG;
+  }, [customPuzzles, curriculumPuzzles, selectedLevel]);
+
   const currentPuzzle: StarScramblePuzzle =
-    STAR_SCRAMBLE_CATALOG[currentIndex] || STAR_SCRAMBLE_CATALOG[0];
+    activePuzzlePool[currentIndex] || activePuzzlePool[0] || STAR_SCRAMBLE_CATALOG[0];
 
   // Placed option numbers set
   const placedOptions = new Set(slots.filter((n): n is number => n !== null));
@@ -146,17 +233,17 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
   });
 
   const handleNextPuzzle = () => {
-    if (currentIndex < STAR_SCRAMBLE_CATALOG.length - 1) {
+    if (currentIndex < activePuzzlePool.length - 1) {
       setCurrentIndex((prev) => prev + 1);
     } else {
       // Completed all puzzles
       const totalScore = historyScores.reduce((a, b) => a + b, 0);
-      const avg = Math.round(totalScore / STAR_SCRAMBLE_CATALOG.length);
+      const avg = Math.round(totalScore / (activePuzzlePool.length || 1));
       if (onComplete) {
         onComplete({
           score: avg,
           accuracy: avg,
-          totalPuzzles: STAR_SCRAMBLE_CATALOG.length,
+          totalPuzzles: activePuzzlePool.length,
         });
       }
     }
@@ -196,13 +283,34 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
           )}
           <span className="font-mono text-amber-600 font-bold uppercase tracking-wider flex items-center gap-1.5">
             <Star className="w-4 h-4 fill-amber-500 text-amber-500" />
-            <span>★ 文法・並べ替え (Sentence Scramble)</span>
+            <span>★ 문장 조립 / JLPT Star Grammar Puzzle (ကြယ်ပွင့် ဝါကျစီ လေ့ကျင့်ခန်း)</span>
           </span>
         </div>
 
         <div className="flex items-center space-x-2 font-mono text-xs font-myanmar">
+          {/* Level Switcher */}
+          <div className="flex items-center p-0.5 bg-stone-100 rounded-lg border border-stone-200 text-[10px]">
+            {(['All', 'N5', 'N4', 'N3', 'N2'] as const).map((lvl) => (
+              <button
+                key={lvl}
+                onClick={() => {
+                  setSelectedLevel(lvl);
+                  setCurrentIndex(0);
+                  resetPuzzleState();
+                }}
+                className={`px-2 py-0.5 rounded transition cursor-pointer font-bold ${
+                  selectedLevel === lvl
+                    ? 'bg-white text-indigo-700 shadow-2xs'
+                    : 'text-stone-500 hover:text-stone-800'
+                }`}
+              >
+                {lvl}
+              </button>
+            ))}
+          </div>
+
           <span className="text-stone-700">
-            မေးခွန်း {currentIndex + 1} / {STAR_SCRAMBLE_CATALOG.length}
+            မေးခွန်း {currentIndex + 1} / {activePuzzlePool.length}
           </span>
           <span className="px-2 py-0.5 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 text-[10px]">
             JLPT {currentPuzzle.level}
@@ -214,17 +322,19 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
       <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 space-y-8 shadow-sm relative overflow-hidden font-myanmar">
         {/* Question Header & Title */}
         <div className="space-y-1.5 border-b border-stone-200 pb-4">
-          <div className="flex items-center justify-between">
-            <span className="text-xs font-mono text-stone-500">
-              မေးခွန်း: အောက်ပါဝါကျရှိ ★ နေရာတွင် ဝင်ရမည့် အသင့်တော်ဆုံးကို ရွေးချယ်ပါ။
-            </span>
-            <span className="text-xs font-mono text-amber-600 font-semibold">
-              အမှတ်ပေးမည့်နေရာ: ★ အကွက်
+          <div className="flex items-center justify-between flex-wrap gap-2">
+            <h2 className="text-base font-bold text-stone-900 tracking-tight flex items-center gap-2">
+              <Star className="w-4 h-4 fill-amber-500 text-amber-500" />
+              <span>★ 문장 조립 / JLPT Star Grammar Puzzle (ကြယ်ပွင့် ဝါကျစီ လေ့ကျင့်ခန်း)</span>
+            </h2>
+            <span className="text-xs font-mono text-amber-700 bg-amber-50 px-2.5 py-0.5 rounded-full border border-amber-200 font-semibold">
+              အမှတ်ပေးမည့်နေရာ: 3rd Blank [★] Slot
             </span>
           </div>
-          <h3 className="text-base font-bold text-stone-900 font-japanese">
-            {currentPuzzle.title}
-          </h3>
+          <div className="flex items-center justify-between text-xs text-stone-600">
+            <span>မေးခွန်း: အောက်ပါဝါကျရှိ ★ နေရာတွင် ဝင်ရမည့် အသင့်တော်ဆုံးကို ရွေးချယ်ပါ။</span>
+            <span className="font-japanese font-semibold text-stone-800">{currentPuzzle.title}</span>
+          </div>
         </div>
 
         {/* The Sentence with 4 Blank Slots */}

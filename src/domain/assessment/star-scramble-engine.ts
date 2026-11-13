@@ -33,7 +33,7 @@ export interface StarScramblePuzzle {
   grammarFocus: string;
   chainReasoning: GrammaticalChainLink[];
   detailedExplanation: string;
-  level: 'N2';
+  level: 'N5' | 'N4' | 'N3' | 'N2';
 }
 
 export const STAR_SCRAMBLE_CATALOG: StarScramblePuzzle[] = [
@@ -328,4 +328,243 @@ export class StarScrambleEngine {
       feedbackMessage,
     };
   }
+
+  static createFromSentence(
+    id: string,
+    title: string,
+    sentenceJa: string,
+    meta: {
+      fullSentenceMy?: string;
+      fullSentenceEn?: string;
+      grammarFocus?: string;
+      detailedExplanationMy?: string;
+      level?: 'N5' | 'N4' | 'N3' | 'N2';
+    } = {}
+  ): StarScramblePuzzle | null {
+    return createPuzzleFromSentence(id, title, sentenceJa, meta);
+  }
+}
+
+/**
+ * Automatically splits a Japanese sentence into:
+ * prefix, 4 non-empty clickable segments, and suffix.
+ */
+export function splitSentenceIntoFourSegments(fullSentence: string): {
+  prefix: string;
+  segments: [string, string, string, string];
+  suffix: string;
+} | null {
+  const clean = fullSentence.trim();
+  if (clean.length < 8) return null;
+
+  // Potential grammatical particle / clause boundaries
+  const particles = [
+    '、',
+    'だけでなく',
+    'ばかりでなく',
+    'に限らず',
+    'において',
+    'に関して',
+    'によって',
+    'につれて',
+    'に従って',
+    'に際して',
+    'を通じて',
+    'を通して',
+    'を中心に',
+    'を契機に',
+    'にほかならない',
+    'にすぎない',
+    'わけがない',
+    'に違いない',
+    'おそれがある',
+    'ものがある',
+    'ことになっている',
+    'どころではない',
+    'わけではない',
+    'ので',
+    'から',
+    'のに',
+    'ても',
+    'たら',
+    'なら',
+    'は',
+    'が',
+    'を',
+    'に',
+    'で',
+    'へ',
+    'と',
+    'も',
+  ];
+
+  const splitPoints: number[] = [];
+  for (const p of particles) {
+    let idx = clean.indexOf(p);
+    while (idx !== -1) {
+      const endIdx = idx + p.length;
+      if (endIdx > 2 && endIdx < clean.length - 2 && !splitPoints.includes(endIdx)) {
+        splitPoints.push(endIdx);
+      }
+      idx = clean.indexOf(p, idx + 1);
+    }
+  }
+
+  splitPoints.sort((a, b) => a - b);
+
+  // Filter split points that are at least 2 characters apart
+  const filteredPoints: number[] = [];
+  for (const pt of splitPoints) {
+    if (filteredPoints.length === 0 || pt - filteredPoints[filteredPoints.length - 1] >= 2) {
+      filteredPoints.push(pt);
+    }
+  }
+
+  let prefix = '';
+  let suffix = '';
+  let segs: string[] = [];
+
+  if (filteredPoints.length >= 3) {
+    if (filteredPoints.length === 3) {
+      segs = [
+        clean.slice(0, filteredPoints[0]),
+        clean.slice(filteredPoints[0], filteredPoints[1]),
+        clean.slice(filteredPoints[1], filteredPoints[2]),
+        clean.slice(filteredPoints[2]),
+      ];
+    } else if (filteredPoints.length >= 5) {
+      prefix = clean.slice(0, filteredPoints[0]);
+      segs = [
+        clean.slice(filteredPoints[0], filteredPoints[1]),
+        clean.slice(filteredPoints[1], filteredPoints[2]),
+        clean.slice(filteredPoints[2], filteredPoints[3]),
+        clean.slice(filteredPoints[3], filteredPoints[4]),
+      ];
+      suffix = clean.slice(filteredPoints[4]);
+    } else {
+      segs = [
+        clean.slice(0, filteredPoints[0]),
+        clean.slice(filteredPoints[0], filteredPoints[1]),
+        clean.slice(filteredPoints[1], filteredPoints[2]),
+        clean.slice(filteredPoints[2]),
+      ];
+    }
+  }
+
+  // Fallback: If not enough natural boundaries or segments are invalid, split body into 4 equal segments
+  if (segs.length !== 4 || segs.some((s) => !s || s.trim().length === 0)) {
+    const endPunct = clean.endsWith('。') ? '。' : '';
+    const body = clean.endsWith('。') ? clean.slice(0, -1) : clean;
+    const len = body.length;
+    const chunk = Math.max(1, Math.floor(len / 4));
+    segs = [
+      body.slice(0, chunk),
+      body.slice(chunk, chunk * 2),
+      body.slice(chunk * 2, chunk * 3),
+      body.slice(chunk * 3),
+    ];
+    suffix = endPunct;
+  }
+
+  if (segs.length === 4 && segs.every((s) => s.trim().length > 0)) {
+    return {
+      prefix,
+      segments: [segs[0], segs[1], segs[2], segs[3]],
+      suffix,
+    };
+  }
+  return null;
+}
+
+/**
+ * Creates an authentic Star Scramble puzzle from an existing Japanese sentence.
+ * Automatically designates the 3rd slot (index 2) as the ★ target slot.
+ */
+export function createPuzzleFromSentence(
+  id: string,
+  title: string,
+  fullSentenceJa: string,
+  meta: {
+    fullSentenceMy?: string;
+    fullSentenceEn?: string;
+    grammarFocus?: string;
+    detailedExplanationMy?: string;
+    level?: 'N5' | 'N4' | 'N3' | 'N2';
+  } = {}
+): StarScramblePuzzle | null {
+  const split = splitSentenceIntoFourSegments(fullSentenceJa);
+  if (!split) return null;
+
+  const { prefix, segments, suffix } = split;
+  // Designate the 3rd slot as the ★ target slot (0-indexed: index 2)
+  const starSlotIndex = 2;
+  const starSegmentText = segments[starSlotIndex];
+
+  // Shuffled permutation for options (0, 1, 2, 3 -> e.g. 1, 3, 0, 2)
+  const orderIndices = [1, 3, 0, 2];
+  const tokens: ScrambleToken[] = orderIndices.map((origIdx, optIdx) => ({
+    id: `tok_${id}_${optIdx + 1}`,
+    optionNumber: optIdx + 1,
+    text: segments[origIdx],
+  }));
+
+  // Find option numbers corresponding to segments in correct grammatical order
+  const correctTokenOrder = segments.map((seg) => {
+    const tok = tokens.find((t) => t.text === seg);
+    return tok ? tok.optionNumber : 1;
+  });
+
+  const starOptionNumber = correctTokenOrder[starSlotIndex];
+  const level = meta.level || 'N2';
+  const grammarFocus = meta.grammarFocus || 'JLPT Grammar Syntax Connection';
+  const fullSentenceMy = meta.fullSentenceMy || '';
+  const fullSentenceEn = meta.fullSentenceEn || '';
+
+  const explanation =
+    meta.detailedExplanationMy ||
+    `★ အကွက် (တတိယနေရာ) တွင် ရွေးချယ်မှု (${starOptionNumber}) "${starSegmentText}" ဝင်ရောက်ရပါမည်။ သဒ္ဒါဆက်စပ်မှုအရ မှန်ကန်သော ဝါကျအစီအစဉ်မှာ [${correctTokenOrder.join(
+      ' → '
+    )}] ဖြစ်ပါသည်။ ${fullSentenceMy ? `မြန်မာပြန်: ${fullSentenceMy}` : ''}`;
+
+  const chainReasoning: GrammaticalChainLink[] = [
+    {
+      fromText: prefix || segments[0],
+      toText: segments[1],
+      ruleJa: '文脈接続: 語句と主語・修飾節の接続',
+      ruleEn: 'Semantic cohesion and noun/verb modification',
+      ruleMy: 'ဝါကျဆက်စပ်မှု: အဓိပ္ပာယ်စီးဆင်းမှုနှင့် သဒ္ဒါဆက်စပ်ပုံ',
+    },
+    {
+      fromText: segments[1],
+      toText: `${starSegmentText} (★)`,
+      ruleJa: '★対象接続: 文法パターンの接続',
+      ruleEn: 'Target star slot grammatical linkage',
+      ruleMy: '★ အကွက်ပစ်မှတ်: အဓိက သဒ္ဒါပုံစံ ချိတ်ဆက်မှု',
+    },
+    {
+      fromText: `${starSegmentText} (★)`,
+      toText: segments[3] + (suffix || ''),
+      ruleJa: '述語・文末呼応: 適切な文末接続',
+      ruleEn: 'Predicate and sentence-final agreement',
+      ruleMy: 'ဝါကျအဆုံးသတ်: ကြိယာအဆုံးနှင့် လျော်ကန်စွာ ပေါင်းစပ်ပုံ',
+    },
+  ];
+
+  return {
+    id,
+    title,
+    prefix,
+    suffix,
+    starSlotIndex,
+    tokens,
+    correctTokenOrder,
+    starOptionNumber,
+    fullSentenceJa,
+    fullSentenceEn,
+    fullSentenceMy,
+    grammarFocus,
+    chainReasoning,
+    detailedExplanation: explanation,
+    level,
+  };
 }

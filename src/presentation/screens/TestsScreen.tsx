@@ -583,7 +583,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
             { id: 'cram' as const, label: 'သဒ္ဒါ Cram Lab', icon: <Flame className="w-3.5 h-3.5 text-amber-500" /> },
             { id: 'dokkai' as const, label: 'Dokkai Workbench (読解)', icon: <BookOpen className="w-3.5 h-3.5" /> },
             { id: 'choukai' as const, label: 'Choukai Lab (聴解)', icon: <Headphones className="w-3.5 h-3.5" /> },
-            { id: 'scramble' as const, label: '★ Star Scramble Lab', icon: <Star className="w-3.5 h-3.5 text-amber-500 fill-amber-500/20" /> },
+            { id: 'scramble' as const, label: '★ 문장 조립 / JLPT Star Grammar Puzzle (ကြယ်ပွင့် ဝါကျစီ လေ့ကျင့်ခန်း)', icon: <Star className="w-3.5 h-3.5 text-amber-500 fill-amber-500/20" /> },
             { id: 'analytics' as const, label: 'Radar Analytics', icon: <BarChart3 className="w-3.5 h-3.5" /> },
             { id: 'quarantine' as const, label: `Leech Quarantine (${quarantineLeeches.length})`, icon: <Bug className="w-3.5 h-3.5 text-rose-500" /> },
           ].map((tab) => {
@@ -1376,7 +1376,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
               <div>
                 <div className="flex items-center space-x-2 flex-wrap">
                   <h3 className="text-sm sm:text-base font-bold text-stone-900 font-japanese">
-                    ★ Star Question Sentence Scramble Lab (★ 文法・並べ替え)
+                    ★ 문장 조립 / JLPT Star Grammar Puzzle (ကြယ်ပွင့် ဝါကျစီ လေ့ကျင့်ခန်း)
                   </h3>
                   <span className="px-2 py-0.5 rounded bg-amber-50 text-amber-800 border border-amber-200 font-mono text-[10px] font-bold">
                     配点対象 · 接続連鎖分析
@@ -1393,7 +1393,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
               className="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs transition active:scale-95 shadow-xs flex items-center justify-center space-x-1.5 shrink-0 cursor-pointer self-start md:self-center"
             >
               <Star className="w-3.5 h-3.5 fill-white" />
-              <span>Launch Star Scramble</span>
+              <span>★ စတင်လေ့ကျင့်မည် (Launch Star Puzzle)</span>
               <ChevronRight className="w-3.5 h-3.5 ml-0.5" />
             </button>
           </div>
@@ -1992,9 +1992,9 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                   </span>
                   <Star className="w-4 h-4 text-amber-500 fill-amber-500/20" />
                 </div>
-                <h3 className="text-sm font-bold text-stone-900">Star Scramble</h3>
+                <h3 className="text-sm font-bold text-stone-900">★ 문장 조립 / JLPT Star Grammar Puzzle</h3>
                 <p className="text-xs text-stone-600">
-                  JLPT sentence reordering with grammatical connection chains.
+                  ကြယ်ပွင့် ဝါကျစီ လေ့ကျင့်ခန်း • JLPT sentence reordering with grammatical connection chains.
                 </p>
               </div>
 
@@ -2003,7 +2003,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                 className="w-full py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold transition active:scale-95 cursor-pointer flex items-center justify-center space-x-1.5 shadow-xs"
               >
                 <Star className="w-3.5 h-3.5 fill-white" />
-                <span>Open Scramble</span>
+                <span>★ စတင်လေ့ကျင့်မည် (Star Puzzle)</span>
               </button>
             </div>
 

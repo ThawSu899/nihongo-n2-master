@@ -22,6 +22,7 @@ import {
   HelpCircle,
   Zap,
   AlertTriangle,
+  Star,
 } from 'lucide-react';
 import { Vocabulary } from '../../domain/models/types';
 import { ContentLoader } from '../../data/content/content-loader';
@@ -30,6 +31,7 @@ import { PitchAccentVisualizer } from '../components/PitchAccentVisualizer';
 import { useAudioPlayer } from '../hooks/useAudioPlayer';
 import { KanjiCardItem, extractKanjiForLevel } from '../../domain/curriculum/kanji-extractor';
 import { KanjiDetailModal } from '../components/KanjiDetailModal';
+import { StarScrambleTrainer } from '../components/StarScrambleTrainer';
 
 export type JLPTLevel = 'N5' | 'N4' | 'N3' | 'N2';
 export type StudyMode = 'list' | 'drill' | 'quiz';
@@ -244,6 +246,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
   const [kanjiFilter, setKanjiFilter] = useState<KanjiFilter>('all');
   const [selectedLessonFilter, setSelectedLessonFilter] = useState<string>('all');
   const [kanjiSort, setKanjiSort] = useState<KanjiSort>('default');
+  const [isStarScrambleOpen, setIsStarScrambleOpen] = useState<boolean>(false);
 
   const [masteredKanji, setMasteredKanji] = useState<Set<string>>(() => {
     try {
@@ -809,6 +812,17 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
   const currentDrillWord: Vocabulary | undefined = drillDeck[drillIndex];
   const currentQuizQ: QuizQuestion | undefined = quizQuestions[quizCurrentIndex];
 
+  if (isStarScrambleOpen) {
+    return (
+      <div className={`space-y-6 max-w-4xl mx-auto pb-24 ${className}`}>
+        <StarScrambleTrainer
+          initialLevel={selectedLevel}
+          onExit={() => setIsStarScrambleOpen(false)}
+        />
+      </div>
+    );
+  }
+
   return (
     <div className={`space-y-6 max-w-7xl mx-auto pb-16 ${className}`}>
       {/* Top Header & Breadcrumb */}
@@ -873,6 +887,17 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               <span>{`${selectedLevel} Deck: ${words.length} words`}</span>
             </span>
 
+            {/* Star Grammar Puzzle Launcher */}
+            <button
+              type="button"
+              onClick={() => setIsStarScrambleOpen(true)}
+              className="px-3 py-1.5 rounded-xl bg-amber-50 hover:bg-amber-100 border border-amber-300 text-amber-900 text-xs font-semibold transition cursor-pointer flex items-center space-x-1.5 shadow-2xs"
+              title="★ 문장 조립 / JLPT Star Grammar Puzzle (ကြယ်ပွင့် ဝါကျစီ လေ့ကျင့်ခန်း)"
+            >
+              <Star className="w-3.5 h-3.5 text-amber-500 fill-amber-500/30" />
+              <span>★ Star Puzzle (ဝါကျစီ)</span>
+            </button>
+
             {/* 3-Mode Segmented Switcher */}
             <div className="flex items-center space-x-1 p-1 bg-stone-200/80 border border-stone-300 rounded-2xl shadow-2xs overflow-x-auto">
               <button
@@ -922,6 +947,17 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               <Sparkles className="w-3.5 h-3.5 text-amber-500" />
               <span>{`${selectedLevel} Kanji: ${kanjiList.length} 字`}</span>
             </span>
+
+            {/* Star Grammar Puzzle Launcher */}
+            <button
+              type="button"
+              onClick={() => setIsStarScrambleOpen(true)}
+              className="px-3 py-1.5 rounded-xl bg-amber-50 hover:bg-amber-100 border border-amber-300 text-amber-900 text-xs font-semibold transition cursor-pointer flex items-center space-x-1.5 shadow-2xs"
+              title="★ 문장 조립 / JLPT Star Grammar Puzzle (ကြယ်ပွင့် ဝါကျစီ လေ့ကျင့်ခန်း)"
+            >
+              <Star className="w-3.5 h-3.5 text-amber-500 fill-amber-500/30" />
+              <span>★ Star Puzzle (ဝါကျစီ)</span>
+            </button>
 
             {/* Kanji 3-Mode Segmented Switcher */}
             <div className="flex items-center space-x-1 p-1 bg-stone-200/80 dark:bg-zinc-950 border border-stone-300 dark:border-zinc-800 rounded-2xl shadow-2xs overflow-x-auto">
