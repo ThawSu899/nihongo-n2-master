@@ -55,6 +55,7 @@ import {
 } from '../../data/sync/offline-sync-manager';
 import { StorageDiagnosticsModal } from '../components/StorageDiagnosticsModal';
 import { AnkiSyncManager } from '../components/AnkiSyncManager';
+import { PWAInstallGuideCard } from '../components/PWAInstallGuideCard';
 import {
   useGlobalShortcuts,
   SHORTCUT_REGISTRY,
@@ -309,10 +310,10 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
   const handleExportAnki = async () => {
     try {
       setActionLoading('anki');
-      const result = await AnkiExporter.downloadAnkiExport({ scope: ankiScope });
+      const result = await AnkiExporter.downloadStandard5ColTsv({ scope: ankiScope });
       setBackupStatus({
         type: 'success',
-        message: `Successfully exported ${result.count} cards to Anki TSV (${result.filename}).`,
+        message: `Successfully exported ${result.count} cards to Anki TSV (${result.filename}). Clean UTF-8 TSV ready for import.`,
       });
       fetchDiagnostics();
     } catch (err: any) {
@@ -1291,19 +1292,19 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
         <AnkiSyncManager className="mt-2" />
 
         {/* Anki Flashcard Deck Exporter Card */}
-        <div className="p-4 rounded-xl bg-stone-50 border border-stone-200 space-y-3 mt-2">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <div className="p-4 sm:p-5 rounded-2xl bg-stone-50 border border-stone-200 space-y-3 mt-2">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
               <div className="flex items-center space-x-2">
-                <span className="text-xs font-semibold text-stone-900">
-                  Export to Anki (.tsv)
+                <span className="text-sm font-bold text-stone-900 font-myanmar">
+                  📤 Export Weak Items / Level to Anki (.tsv)
                 </span>
-                <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 font-mono">
-                  Anki 2.1+ / AnkiMobile
+                <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 font-mono font-bold">
+                  Anki 2.1+ / AnkiDroid
                 </span>
               </div>
-              <p className="text-[11px] text-stone-600 mt-0.5">
-                Generate UTF-8 tab-separated values with Anki directives (#separator:tab, #html:true) and 8 structured note fields.
+              <p className="text-xs text-stone-600 mt-1 leading-relaxed">
+                Generate clean UTF-8 tab-separated values (<strong>Japanese_Kanji</strong>, <strong>Reading_Furigana</strong>, <strong>Burmese_Meaning</strong>, <strong>Example_Sentence</strong>, <strong>JLPT_Level_Tag</strong>) ready for 1-click import into Anki Desktop or AnkiDroid.
               </p>
             </div>
 
@@ -1311,109 +1312,105 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
             <button
               onClick={handleExportAnki}
               disabled={!!actionLoading}
-              className="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-semibold flex items-center justify-center space-x-1.5 transition active:scale-95 shadow-xs disabled:opacity-50 shrink-0 cursor-pointer"
+              className="px-4 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-semibold flex items-center justify-center space-x-1.5 transition active:scale-95 shadow-xs disabled:opacity-50 shrink-0 cursor-pointer"
             >
-              <Download className="w-3.5 h-3.5" />
-              <span>{actionLoading === 'anki' ? 'Exporting...' : 'Download Anki Deck'}</span>
+              <Download className="w-4 h-4" />
+              <span>{actionLoading === 'anki' ? 'Exporting...' : 'Download Anki (.tsv)'}</span>
             </button>
           </div>
 
           {/* Scope Selector Filter Pills */}
-          <div className="flex items-center gap-2 flex-wrap pt-1">
-            <span className="text-[10px] text-stone-500 font-mono uppercase tracking-wider">Export Scope:</span>
+          <div className="flex items-center gap-1.5 flex-wrap pt-1">
+            <span className="text-[10px] text-stone-500 font-mono uppercase tracking-wider font-semibold">
+              Deck Scope:
+            </span>
+            <button
+              type="button"
+              onClick={() => setAnkiScope('weak_items')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer font-medium ${
+                ankiScope === 'weak_items'
+                  ? 'bg-rose-600 text-white font-bold shadow-xs'
+                  : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 shadow-2xs'
+              }`}
+            >
+              🔥 Weak Items (အားနည်းချက်များ)
+            </button>
+            <button
+              type="button"
+              onClick={() => setAnkiScope('n2')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer font-medium ${
+                ankiScope === 'n2'
+                  ? 'bg-indigo-600 text-white font-bold shadow-xs'
+                  : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 shadow-2xs'
+              }`}
+            >
+              N2 Level
+            </button>
+            <button
+              type="button"
+              onClick={() => setAnkiScope('n3')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer font-medium ${
+                ankiScope === 'n3'
+                  ? 'bg-indigo-600 text-white font-bold shadow-xs'
+                  : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 shadow-2xs'
+              }`}
+            >
+              N3 Level
+            </button>
+            <button
+              type="button"
+              onClick={() => setAnkiScope('n4')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer font-medium ${
+                ankiScope === 'n4'
+                  ? 'bg-indigo-600 text-white font-bold shadow-xs'
+                  : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 shadow-2xs'
+              }`}
+            >
+              N4 Level
+            </button>
+            <button
+              type="button"
+              onClick={() => setAnkiScope('n5')}
+              className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer font-medium ${
+                ankiScope === 'n5'
+                  ? 'bg-indigo-600 text-white font-bold shadow-xs'
+                  : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 shadow-2xs'
+              }`}
+            >
+              N5 Level
+            </button>
             <button
               type="button"
               onClick={() => setAnkiScope('all')}
-              className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer ${
+              className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer font-medium ${
                 ankiScope === 'all'
-                  ? 'bg-indigo-600 text-white font-semibold shadow-xs'
-                  : 'bg-white hover:bg-stone-50 text-stone-700 border border-stone-200 shadow-xs'
+                  ? 'bg-indigo-600 text-white font-bold shadow-xs'
+                  : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 shadow-2xs'
               }`}
             >
-              All Cards ({diag?.tables.srsCards ?? 0})
+              All Saved ({diag?.tables.srsCards ?? 0})
             </button>
             <button
               type="button"
               onClick={() => setAnkiScope('mined')}
-              className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer ${
+              className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer font-medium ${
                 ankiScope === 'mined'
-                  ? 'bg-indigo-600 text-white font-semibold shadow-xs'
-                  : 'bg-white hover:bg-stone-50 text-stone-700 border border-stone-200 shadow-xs'
+                  ? 'bg-indigo-600 text-white font-bold shadow-xs'
+                  : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 shadow-2xs'
               }`}
             >
-              Mined Cards Only
-            </button>
-            <button
-              type="button"
-              onClick={() => setAnkiScope('leeches')}
-              className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer ${
-                ankiScope === 'leeches'
-                  ? 'bg-amber-600 text-white font-semibold shadow-xs'
-                  : 'bg-white hover:bg-stone-50 text-stone-700 border border-stone-200 shadow-xs'
-              }`}
-            >
-              Quarantined Leeches Only
+              Mined Only
             </button>
           </div>
         </div>
       </div>
 
-      {/* Android & Mobile PWA Installation Guide */}
-      <div className="bg-white border border-stone-200 rounded-2xl p-5 space-y-4 shadow-sm">
-        <div className="flex items-center justify-between">
-          <h2 className="text-base font-semibold text-stone-900 flex items-center">
-            <Smartphone className="w-4 h-4 mr-2 text-indigo-600" /> Android &amp; Mobile App Support
-          </h2>
-          <span className="text-[11px] text-emerald-700 font-medium flex items-center">
-            <CheckCircle className="w-3.5 h-3.5 mr-1" /> Standalone PWA Ready
-          </span>
-        </div>
-
-        <p className="text-xs text-stone-600 leading-relaxed">
-          Nihongo N2 Master is fully optimized for <strong>Android phones and tablets</strong>. You can run it directly in Chrome, Firefox, or Samsung Internet, or install it as a native home-screen app that works 100% offline.
-        </p>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-          <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 space-y-1.5">
-            <div className="text-xs font-semibold text-stone-900 flex items-center">
-              <span className="w-5 h-5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 flex items-center justify-center text-[11px] mr-2">1</span>
-              Option A: In-Browser Use
-            </div>
-            <p className="text-[11px] text-stone-600 leading-relaxed">
-              Open the app link in <strong>Chrome</strong> or any Android browser. All lessons, audio playback, and IndexedDB flashcards run locally without needing an account.
-            </p>
-          </div>
-
-          <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 space-y-1.5">
-            <div className="text-xs font-semibold text-stone-900 flex items-center">
-              <span className="w-5 h-5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 flex items-center justify-center text-[11px] mr-2">2</span>
-              Option B: Home Screen Install
-            </div>
-            <p className="text-[11px] text-stone-600 leading-relaxed">
-              Tap browser menu <strong className="text-stone-800">⋮</strong> (three dots) &rarr; select <strong className="text-stone-800">Install app</strong> or <strong className="text-stone-800">Add to Home screen</strong>. Launches full-screen like a native app.
-            </p>
-          </div>
-        </div>
-
-        {deferredPrompt && !isInstalled && (
-          <div className="pt-2 flex justify-end">
-            <button
-              onClick={handleInstallApp}
-              className="flex items-center space-x-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-semibold transition shadow-xs active:scale-95"
-            >
-              <Smartphone className="w-4 h-4" />
-              <span>Install to Android Home Screen</span>
-            </button>
-          </div>
-        )}
-
-        {isInstalled && (
-          <div className="p-3 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs flex items-center space-x-2">
-            <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0" />
-            <span>Currently running as an installed standalone app.</span>
-          </div>
-        )}
-      </div>
+      {/* 📲 PWA Installation & Share Guide Hub in Burmese */}
+      <PWAInstallGuideCard
+        isInstalled={isInstalled}
+        deferredPrompt={deferredPrompt}
+        onInstall={handleInstallApp}
+      />
 
       {/* Danger Zone: Reset App / New Game */}
       <div className="bg-white border border-rose-200 rounded-2xl p-5 space-y-4 shadow-sm">
