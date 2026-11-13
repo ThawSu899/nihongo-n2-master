@@ -82,7 +82,7 @@ export const ProgressScreen: React.FC<ProgressScreenProps> = ({
   const totalHours = Math.round((totalStudiedSec / 3600) * 10) / 10;
 
   return (
-    <div className="space-y-6 max-w-4xl mx-auto pb-24">
+    <div className="space-y-6 max-w-4xl mx-auto pb-28">
       {/* Header */}
       <div>
         <h1 className="text-2xl font-bold text-stone-900 tracking-tight">Progress &amp; Learning Analytics</h1>

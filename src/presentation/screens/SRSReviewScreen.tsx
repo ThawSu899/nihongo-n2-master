@@ -247,7 +247,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
     };
 
     return (
-      <div className="max-w-xl mx-auto space-y-5 pb-24 px-3 sm:px-0">
+      <div className="max-w-xl mx-auto space-y-5 pb-28 px-3 sm:px-0">
         <div className="flex items-center justify-between text-xs text-stone-600 font-myanmar">
           <button
             onClick={() => setActiveGhostDrill(null)}
@@ -285,7 +285,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
   // 2. Ghost Quarantine Hub Screen
   if (viewMode === 'ghosts') {
     return (
-      <div className="max-w-3xl mx-auto space-y-5 pb-24 px-3 sm:px-0 font-myanmar">
+      <div className="max-w-3xl mx-auto space-y-5 pb-28 px-3 sm:px-0 font-myanmar">
         <div className="flex items-center justify-between">
           <button
             onClick={() => setViewMode('review')}
@@ -408,7 +408,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
     clozeMode && (currentCard.itemType === 'grammar' || currentCard.facet === 'cloze');
 
   return (
-    <div className="max-w-xl mx-auto space-y-5 pb-24 px-3 sm:px-0">
+    <div className="max-w-xl mx-auto space-y-5 pb-28 px-3 sm:px-0">
       {/* Top Header & Progress */}
       <div className="space-y-3 font-myanmar">
         <div className="flex items-center justify-between text-xs text-stone-600 flex-wrap gap-2">

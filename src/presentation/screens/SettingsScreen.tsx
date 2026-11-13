@@ -529,7 +529,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
   };
 
   return (
-    <div className="space-y-6 max-w-4xl mx-auto pb-24">
+    <div className="space-y-6 max-w-4xl mx-auto pb-28">
       {/* Header */}
       <div>
         <h1 className="text-2xl font-bold text-stone-900 tracking-tight">System Settings</h1>

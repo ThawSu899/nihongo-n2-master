@@ -437,7 +437,7 @@ export default function App() {
         />
 
         {/* Main View Area with Bottom Dock Clearance on Mobile */}
-        <main className="flex-1 px-4 sm:px-6 lg:px-8 py-6 pb-24 md:pb-12 max-w-7xl w-full mx-auto">
+        <main className="flex-1 px-4 sm:px-6 lg:px-8 py-6 pb-28 md:pb-12 max-w-7xl w-full mx-auto">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentView}

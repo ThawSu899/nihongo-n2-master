@@ -269,7 +269,7 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
   const WeakestIcon = SKILL_ICONS[weaknessReport.weakestSkill] || AlertTriangle;
 
   return (
-    <div className="space-y-6 max-w-5xl mx-auto pb-24">
+    <div className="space-y-6 max-w-5xl mx-auto pb-28">
       {/* Toast Alert Message */}
       {actionMessage && (
         <div className="bg-emerald-50 border border-emerald-200 text-emerald-800 px-4 py-2.5 rounded-xl text-xs flex items-center justify-between shadow-xs animate-in fade-in duration-200">
