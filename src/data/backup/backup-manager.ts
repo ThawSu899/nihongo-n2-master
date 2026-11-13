@@ -22,6 +22,7 @@ export interface BackupData {
   cramDrills?: CramDrillRecord[] | any[];
   quarantined_cards?: any[];
   exam_results?: any[];
+  userNotes?: Record<string, any>;
   _storageTier?: string;
   _pointer?: boolean;
 }
@@ -50,6 +51,18 @@ export class BackupManager {
     const quarantinedCards = await db.quarantined_cards.toArray();
     const examResults = await db.exam_results.toArray();
 
+    let userNotes: Record<string, any> = {};
+    if (typeof localStorage !== 'undefined') {
+      try {
+        const rawNotes = localStorage.getItem('nihongo_user_notes_v1');
+        if (rawNotes) {
+          userNotes = JSON.parse(rawNotes);
+        }
+      } catch {
+        // ignore
+      }
+    }
+
     return {
       version: 2,
       exportedAt: new Date().toISOString(),
@@ -70,6 +83,7 @@ export class BackupManager {
       cramDrills: cramDrills,
       quarantined_cards: quarantinedCards,
       exam_results: examResults,
+      userNotes,
     };
   }
 
@@ -101,6 +115,7 @@ export class BackupManager {
       const compactBackup: BackupData = {
         ...fullBackup,
         lessonPacks: [], // Strips ~10-25MB of static curriculum content
+        userNotes: fullBackup.userNotes,
       };
 
       const compactJson = JSON.stringify(compactBackup);
@@ -120,6 +135,7 @@ export class BackupManager {
             studySessions: [],
             studyEvents: [],
             lessonPacks: [],
+            userNotes: fullBackup.userNotes,
             _storageTier: 'indexeddb_primary',
             _pointer: true,
           };
@@ -288,6 +304,15 @@ export class BackupManager {
           }
         }
       );
+
+      // Restore user notes & bookmarks to localStorage if present in backup
+      if (backup.userNotes && typeof localStorage !== 'undefined') {
+        try {
+          localStorage.setItem('nihongo_user_notes_v1', JSON.stringify(backup.userNotes));
+        } catch (noteErr) {
+          console.warn('[BackupManager] Failed to restore user notes to localStorage:', noteErr);
+        }
+      }
 
       return {
         success: true,

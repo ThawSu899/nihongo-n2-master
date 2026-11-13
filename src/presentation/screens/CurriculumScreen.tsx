@@ -9,10 +9,13 @@ import {
   Sparkles,
   RotateCcw,
   Layers,
+  Star,
+  FileText,
 } from 'lucide-react';
 import { ContentLoader } from '../../data/content/content-loader';
 import { db } from '../../data/db/dexie-db';
 import { CurriculumMapItem, MasteryRecord, SRSCard } from '../../domain/models/types';
+import { getUserNotes, UserNotesMap } from '../../domain/notes/lesson-notes';
 
 interface CurriculumScreenProps {
   onSelectLesson: (lessonId: string) => void;
@@ -74,6 +77,14 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
     }));
   }, []);
 
+  // Personal Notes & Bookmark Filtering
+  const [userNotes, setUserNotes] = useState<UserNotesMap>(() => getUserNotes());
+  const [notesFilter, setNotesFilter] = useState<'all' | 'bookmarked' | 'notes'>('all');
+
+  useEffect(() => {
+    setUserNotes(getUserNotes());
+  }, []);
+
   const filteredItems = allItems.filter((item) => {
     const matchesLevel = item.level === selectedLevel;
     const matchesSearch =
@@ -81,7 +92,13 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
       item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
       item.id.toLowerCase().includes(searchQuery.toLowerCase()) ||
       item.grammarTopics.some((t) => t.toLowerCase().includes(searchQuery.toLowerCase()));
-    return matchesLevel && matchesSearch;
+
+    const matchesNotesFilter =
+      notesFilter === 'all' ||
+      (notesFilter === 'bookmarked' && Boolean(userNotes[item.id]?.bookmarked)) ||
+      (notesFilter === 'notes' && Boolean(userNotes[item.id]?.notes?.trim()));
+
+    return matchesLevel && matchesSearch && matchesNotesFilter;
   });
 
   const levelCounts: Record<'N5' | 'N4' | 'N3' | 'N2', number> = {
@@ -96,6 +113,14 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
     () => allItems.filter((i) => i.level === selectedLevel),
     [allItems, selectedLevel]
   );
+
+  const bookmarkedCountInLevel = useMemo(() => {
+    return levelAllItems.filter((i) => Boolean(userNotes[i.id]?.bookmarked)).length;
+  }, [levelAllItems, userNotes]);
+
+  const notesCountInLevel = useMemo(() => {
+    return levelAllItems.filter((i) => Boolean(userNotes[i.id]?.notes?.trim())).length;
+  }, [levelAllItems, userNotes]);
   const levelPublishedItems = useMemo(
     () => levelAllItems.filter((i) => i.status === 'published'),
     [levelAllItems]
@@ -196,16 +221,58 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
         </div>
       </div>
 
-      {/* Search Input */}
-      <div className="relative">
-        <Search className="w-4 h-4 text-stone-400 absolute left-4 top-3.5" />
-        <input
-          type="text"
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-          placeholder={`Search in ${selectedLevel} lessons, topics, grammar...`}
-          className="w-full bg-white border border-stone-300 rounded-2xl pl-11 pr-4 py-3 text-xs text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-indigo-500 shadow-2xs font-japanese"
-        />
+      {/* Search & Filter Controls */}
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+        {/* Search Input */}
+        <div className="relative flex-1">
+          <Search className="w-4 h-4 text-stone-400 absolute left-4 top-3.5" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder={`Search in ${selectedLevel} lessons, topics, grammar...`}
+            className="w-full bg-white border border-stone-300 rounded-2xl pl-11 pr-4 py-3 text-xs text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-indigo-500 shadow-2xs font-japanese"
+          />
+        </div>
+
+        {/* Filterable '★ Bookmarked / Notes' Chips */}
+        <div className="flex items-center space-x-1.5 p-1 bg-stone-200/80 border border-stone-300 rounded-2xl shadow-2xs shrink-0 font-myanmar overflow-x-auto">
+          <button
+            type="button"
+            onClick={() => setNotesFilter('all')}
+            className={`px-3 py-2 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1 shrink-0 ${
+              notesFilter === 'all'
+                ? 'bg-indigo-600 text-white font-semibold shadow-xs'
+                : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
+            }`}
+          >
+            <span>အားလုံး (All)</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setNotesFilter('bookmarked')}
+            className={`px-3 py-2 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
+              notesFilter === 'bookmarked'
+                ? 'bg-amber-500 text-white font-semibold shadow-xs'
+                : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
+            }`}
+          >
+            <Star className={`w-3.5 h-3.5 ${notesFilter === 'bookmarked' ? 'fill-white' : 'text-amber-500'}`} />
+            <span>★ Bookmarked ({bookmarkedCountInLevel})</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setNotesFilter('notes')}
+            className={`px-3 py-2 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
+              notesFilter === 'notes'
+                ? 'bg-emerald-600 text-white font-semibold shadow-xs'
+                : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
+            }`}
+          >
+            <FileText className="w-3.5 h-3.5" />
+            <span>📝 Notes ({notesCountInLevel})</span>
+          </button>
+        </div>
       </div>
 
       {/* Lessons List Grid */}
@@ -280,9 +347,21 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
             >
               <div className="space-y-2.5">
                 <div className="flex items-center justify-between">
-                  <span className="text-[10px] font-mono text-stone-500 uppercase font-semibold">
-                    {item.id} • Lesson {item.number}
-                  </span>
+                  <div className="flex items-center space-x-1.5">
+                    <span className="text-[10px] font-mono text-stone-500 uppercase font-semibold">
+                      {item.id} • Lesson {item.number}
+                    </span>
+                    {userNotes[item.id]?.bookmarked && (
+                      <span className="text-amber-500 font-bold text-xs" title="Bookmarked lesson">
+                        ★
+                      </span>
+                    )}
+                    {userNotes[item.id]?.notes?.trim() && (
+                      <span className="text-[10px] text-indigo-700 bg-indigo-50 border border-indigo-200 px-1 rounded font-mono" title="Has personal notes">
+                        📝
+                      </span>
+                    )}
+                  </div>
                   <div className="flex items-center gap-1.5 flex-wrap justify-end">
                     {item.reviewStatus && (
                       <span className="text-[10px] px-2 py-0.5 rounded-full bg-stone-100 text-stone-700 border border-stone-200 font-medium">

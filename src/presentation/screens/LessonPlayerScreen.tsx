@@ -19,6 +19,8 @@ import {
   CheckCircle2,
   Clock,
   Flame,
+  Star,
+  FileText,
 } from 'lucide-react';
 import {
   LessonPack,
@@ -42,6 +44,11 @@ import {
   saveMaskState,
   cycleActiveRecallMask,
 } from '../components/ActiveRecallMaskingBar';
+import { LessonNotesDrawer } from '../components/LessonNotesDrawer';
+import {
+  getLessonNote,
+  toggleLessonBookmark,
+} from '../../domain/notes/lesson-notes';
 import { chunkVocabulary, formatPartBadge, VocabularyChunk } from '../../domain/curriculum/vocabulary-pagination';
 import { checkAnswer, deriveSRSRating } from '../../domain/assessment/answer-checker';
 import { AssessmentSession, ShuffledOption } from '../../domain/assessment/shuffler';
@@ -169,6 +176,21 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
   const [currentStage, setCurrentStage] = useState<number>(initialStage ?? 1);
   const [isReferenceOpen, setIsReferenceOpen] = useState<boolean>(false);
   const [referenceTab, setReferenceTab] = useState<'counters' | 'expressions' | 'mistakes'>('counters');
+
+  // Personal Notes Drawer & Bookmark State
+  const [isNotesDrawerOpen, setIsNotesDrawerOpen] = useState<boolean>(false);
+  const [isBookmarked, setIsBookmarked] = useState<boolean>(() => {
+    return Boolean(getLessonNote(pack.id).bookmarked);
+  });
+
+  useEffect(() => {
+    setIsBookmarked(Boolean(getLessonNote(pack.id).bookmarked));
+  }, [pack.id]);
+
+  const handleToggleBookmark = useCallback(() => {
+    const updated = toggleLessonBookmark(pack.id);
+    setIsBookmarked(Boolean(updated.bookmarked));
+  }, [pack.id]);
   const {
     play,
     play3xShadowingLoop,
@@ -856,8 +878,8 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
       },
     },
     priority: 10,
-    allowInInputs: true,
-    enabled: currentStage !== 8 && currentStage !== 10 && !isKanjiDrawerOpen,
+    allowInInputs: false,
+    enabled: currentStage !== 8 && currentStage !== 10 && !isKanjiDrawerOpen && !isNotesDrawerOpen,
   });
 
   const progressPct = ((currentStage - 1) / (STAGE_NAMES.length - 1)) * 100;
@@ -892,7 +914,33 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
             </span>
           </div>
 
-          <div className="flex items-center space-x-1 sm:space-x-2">
+          <div className="flex items-center space-x-1 sm:space-x-1.5">
+            {/* Star / Bookmark Toggle (★) */}
+            <motion.button
+              whileTap={{ scale: 0.92 }}
+              onClick={handleToggleBookmark}
+              className={`p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl border text-xs font-medium transition cursor-pointer flex items-center space-x-1 shadow-xs ${
+                isBookmarked
+                  ? 'bg-amber-50 border-amber-300 text-amber-600 shadow-2xs font-semibold'
+                  : 'bg-white hover:bg-stone-50 border-stone-200 text-stone-500 hover:text-stone-800'
+              }`}
+              title={isBookmarked ? 'Bookmarked lesson (★)' : 'Bookmark lesson (☆)'}
+            >
+              <Star className={`w-3.5 h-3.5 ${isBookmarked ? 'fill-amber-400 text-amber-500' : ''}`} />
+              <span className="hidden sm:inline font-mono">{isBookmarked ? '★ Saved' : '☆ Save'}</span>
+            </motion.button>
+
+            {/* Personal Notes Drawer Button */}
+            <motion.button
+              whileTap={{ scale: 0.95 }}
+              onClick={() => setIsNotesDrawerOpen(true)}
+              className="px-2 sm:px-2.5 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 border border-indigo-200 text-indigo-700 text-xs font-medium transition cursor-pointer flex items-center space-x-1 shadow-xs font-myanmar"
+              title="📝 ကိုယ်ပိုင်မှတ်စု (Personal Grammar & Vocab Notes)"
+            >
+              <FileText className="w-3.5 h-3.5 text-indigo-600" />
+              <span className="hidden sm:inline">📝 မှတ်စု</span>
+            </motion.button>
+
             <motion.button
               whileTap={{ scale: 0.95 }}
               onClick={() => {
@@ -2303,6 +2351,16 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
         isOpen={isReferenceOpen}
         onClose={() => setIsReferenceOpen(false)}
         initialTab={referenceTab}
+      />
+
+      {/* Personal Lesson Notes Drawer */}
+      <LessonNotesDrawer
+        isOpen={isNotesDrawerOpen}
+        onClose={() => setIsNotesDrawerOpen(false)}
+        lessonId={pack.id}
+        lessonTitle={pack.titleMyanmar || (pack as any).titleMy || pack.title}
+        isBookmarked={isBookmarked}
+        onToggleBookmark={handleToggleBookmark}
       />
     </div>
   );
