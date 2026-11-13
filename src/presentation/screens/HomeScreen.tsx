@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import {
   Play,
   Clock,
@@ -25,6 +25,8 @@ import {
   SRSCard,
 } from '../../domain/models/types';
 import { ContentLoader } from '../../data/content/content-loader';
+import { db } from '../../data/db/dexie-db';
+import { detectLeechCards } from '../../domain/srs/srs-scheduler';
 import { ReminderBanner } from '../components/ReminderBanner';
 import { LevelMasteryWidget } from '../components/LevelMasteryWidget';
 import { DailyTargetStreakWidget } from '../components/DailyTargetStreakWidget';
@@ -79,6 +81,39 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   const progressPercent = Math.min(100, Math.round((todayMinutes / goalMinutes) * 100));
   const effectiveStreak = streakDays ?? profile.studyStreakDays ?? 0;
   const effectiveRetention = trueRetention !== undefined ? trueRetention : 1.0;
+
+  // Real-time Leech & Weak items detection (lapses >= 2 or easeFactor <= 1.6)
+  const [leechCardsCount, setLeechCardsCount] = useState<number>(() => {
+    if (srsCards && srsCards.length > 0) {
+      return detectLeechCards(srsCards).length;
+    }
+    return 0;
+  });
+
+  useEffect(() => {
+    let isCancelled = false;
+    const fetchLeeches = async () => {
+      try {
+        const cards = await db.srs_cards.toArray();
+        if (!isCancelled) {
+          setLeechCardsCount(detectLeechCards(cards).length);
+        }
+      } catch {
+        // ignore background error
+      }
+    };
+    fetchLeeches();
+    return () => {
+      isCancelled = true;
+    };
+  }, [srsCards]);
+
+  const handleLaunchLeechDrill = () => {
+    if (typeof window !== 'undefined' && typeof sessionStorage !== 'undefined') {
+      sessionStorage.setItem('nihongo_srs_leech_mode', 'true');
+    }
+    onOpenSrs();
+  };
 
   const levelStats = useMemo(() => {
     const stats: Record<'N5' | 'N4' | 'N3' | 'N2', { completedLessons: number; masteredVocab: number }> = {
@@ -368,6 +403,46 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
             className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold transition flex items-center justify-center space-x-1.5 cursor-pointer shadow-xs shrink-0 active:scale-95"
           >
             <span>Review Now</span>
+            <ChevronRight className="w-4 h-4" />
+          </button>
+        </div>
+      )}
+
+      {/* =========================================================================
+          PRIORITY CALLOUT: Leech & Weak Items Drill Quick-Launch Badge
+          ========================================================================= */}
+      {leechCardsCount > 0 && (
+        <div
+          onClick={handleLaunchLeechDrill}
+          className="bg-white border border-rose-200 hover:border-rose-300 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4 cursor-pointer shadow-sm transition group"
+        >
+          <div className="flex items-center space-x-3.5">
+            <div className="w-10 h-10 rounded-xl bg-rose-50 border border-rose-200 flex items-center justify-center text-rose-600 shrink-0 group-hover:scale-105 transition-transform">
+              <Flame className="w-5 h-5 text-rose-600 fill-rose-500 animate-pulse" />
+            </div>
+            <div>
+              <div className="flex items-center space-x-2">
+                <span className="text-sm font-bold text-stone-900 group-hover:text-rose-800 transition-colors">
+                  🔥 Leech Drill Mode (အားနည်းချက် အထူးလေ့ကျင့်ခန်း)
+                </span>
+                <span className="px-2.5 py-0.5 rounded-full bg-rose-600 text-white text-[10px] font-mono font-bold">
+                  {leechCardsCount} Items
+                </span>
+              </div>
+              <p className="text-xs text-stone-600 mt-0.5 font-sans">
+                Leech &amp; Weak Items Detector (အမှားများသော ဝေါဟာရနှင့် သဒ္ဒါများ) • Isolate and master high-failure items without waiting for standard intervals (Lapses ≥ 2 or EF ≤ 1.6).
+              </p>
+            </div>
+          </div>
+
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              handleLaunchLeechDrill();
+            }}
+            className="px-5 py-2.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold transition flex items-center justify-center space-x-1.5 cursor-pointer shadow-xs shrink-0 active:scale-95"
+          >
+            <span>Drill Now (အထူးလေ့ကျင့်မည်)</span>
             <ChevronRight className="w-4 h-4" />
           </button>
         </div>

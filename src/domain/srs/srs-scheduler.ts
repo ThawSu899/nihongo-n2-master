@@ -32,6 +32,47 @@ export function getLadderBandLabel(intervalDays: number): string {
 }
 
 /**
+ * Retrieves or estimates a card's SM-2 ease factor (standard baseline: 2.50, floor: 1.30).
+ */
+export function getCardEaseFactor(card: SRSCard): number {
+  if (typeof card.easeFactor === 'number' && !isNaN(card.easeFactor)) {
+    return Math.round(card.easeFactor * 100) / 100;
+  }
+  const baseEase = 2.5;
+  const lapseDeduction = (card.lapses || 0) * 0.2;
+  const diffDeduction = card.difficulty ? (card.difficulty - 5) * 0.12 : 0;
+  const computed = Math.round((baseEase - lapseDeduction - diffDeduction) * 100) / 100;
+  return Math.max(1.3, Math.min(3.0, computed));
+}
+
+/**
+ * Leech & Weak Items Detector (အမှားများသော ဝေါဟာရနှင့် သဒ္ဒါများ)
+ * Identifies cards where lapses >= 2 or easeFactor <= 1.6
+ */
+export function isLeechCard(card: SRSCard): boolean {
+  const ease = getCardEaseFactor(card);
+  return card.lapses >= 2 || ease <= 1.6 || Boolean(card.isLeech);
+}
+
+/**
+ * Detects all leech & weak cards in a deck.
+ * Supports filtering by target level (e.g. N4, N2) or across all levels.
+ */
+export function detectLeechCards(
+  cards: SRSCard[],
+  targetLevel?: 'N5' | 'N4' | 'N3' | 'N2'
+): SRSCard[] {
+  return cards.filter((card) => {
+    if (!isLeechCard(card)) return false;
+    if (targetLevel) {
+      const cardLvl = card.lessonId.split('.')[0]?.toUpperCase();
+      return cardLvl === targetLevel;
+    }
+    return true;
+  });
+}
+
+/**
  * Deterministic Interval Ladder Scheduler (Fallback & Benchmark)
  */
 export class LadderScheduler implements SRSScheduler {
@@ -80,7 +121,17 @@ export class LadderScheduler implements SRSScheduler {
     }
 
     const nextDueMs = now.getTime() + nextIntervalDays * 24 * 60 * 60 * 1000;
-    const isLeech = newLapses >= 8;
+    const currentEase = getCardEaseFactor(card);
+    let newEase = currentEase;
+    if (rating === 'again') {
+      newEase = Math.max(1.3, currentEase - 0.2);
+    } else if (rating === 'hard') {
+      newEase = Math.max(1.3, currentEase - 0.15);
+    } else if (rating === 'easy') {
+      newEase = Math.min(3.0, currentEase + 0.15);
+    }
+    newEase = Math.round(newEase * 100) / 100;
+    const isLeech = newLapses >= 8 || newLapses >= 2 || newEase <= 1.6;
 
     const updatedCard: SRSCard = {
       ...card,
@@ -88,6 +139,7 @@ export class LadderScheduler implements SRSScheduler {
       repetition,
       lapses: newLapses,
       isLeech,
+      easeFactor: newEase,
       state,
       lastReviewed: nowIso,
       due: new Date(nextDueMs).toISOString(),
@@ -167,7 +219,17 @@ export class FSRSScheduler implements SRSScheduler {
     );
 
     const newLapses = rating === 'again' ? card.lapses + 1 : card.lapses;
-    const isLeech = newLapses >= 8;
+    const currentEase = getCardEaseFactor(card);
+    let newEase = currentEase;
+    if (rating === 'again') {
+      newEase = Math.max(1.3, currentEase - 0.2);
+    } else if (rating === 'hard') {
+      newEase = Math.max(1.3, currentEase - 0.15);
+    } else if (rating === 'easy') {
+      newEase = Math.min(3.0, currentEase + 0.15);
+    }
+    newEase = Math.round(newEase * 100) / 100;
+    const isLeech = newLapses >= 8 || newLapses >= 2 || newEase <= 1.6;
 
     const updatedCard: SRSCard = {
       ...card,
@@ -177,6 +239,7 @@ export class FSRSScheduler implements SRSScheduler {
       difficulty: Math.round(newFsrsCard.difficulty * 100) / 100,
       lapses: newLapses,
       isLeech,
+      easeFactor: newEase,
       state: rating === 'again' ? 'relearning' : 'review',
       due: newFsrsCard.due.toISOString(),
       lastReviewed: nowIso,

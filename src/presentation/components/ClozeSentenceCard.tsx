@@ -10,8 +10,10 @@ import {
   XCircle,
   Eye,
   RotateCcw,
+  Flame,
 } from 'lucide-react';
 import { SRSCard, SRSRating } from '../../domain/models/types';
+import { isLeechCard, getCardEaseFactor } from '../../domain/srs/srs-scheduler';
 import { NuanceInterceptor, NuanceCheckResult } from '../../domain/srs/nuance-interceptor';
 import { NuanceWarningBanner } from './NuanceWarningBanner';
 import { InteractiveKanjiText } from './InteractiveKanjiText';
@@ -128,7 +130,7 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
         <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-rose-500/40 via-indigo-500/40 to-emerald-500/40" />
 
         {/* Header Metadata */}
-        <div className="flex items-center justify-between text-[10px] font-mono">
+        <div className="flex items-center justify-between text-[10px] font-mono flex-wrap gap-2">
           <div className="flex items-center space-x-2">
             <span className="px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 font-bold uppercase tracking-wider">
               Cloze Active Recall
@@ -136,6 +138,15 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
             <span className="px-2 py-0.5 rounded-full bg-stone-100 border border-stone-200 text-stone-600">
               {card.facet || 'grammar'}
             </span>
+            {isLeechCard(card) && (
+              <span
+                className="flex items-center space-x-1 px-2.5 py-0.5 rounded-full bg-rose-50 border border-rose-300 text-rose-800 text-[10px] font-mono font-bold shadow-2xs"
+                title="Leech & Weak Item: lapses >= 2 or easeFactor <= 1.6"
+              >
+                <Flame className="w-2.5 h-2.5 text-rose-600 fill-rose-500 animate-pulse" />
+                <span>Leech Badge (Lapses: {card.lapses} · EF: {getCardEaseFactor(card).toFixed(2)})</span>
+              </span>
+            )}
           </div>
 
           <button

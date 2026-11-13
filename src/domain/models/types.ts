@@ -337,6 +337,7 @@ export interface SRSCard {
   difficulty: number;
   lapses: number;
   isLeech: boolean;
+  easeFactor?: number; // SM-2 ease factor (standard baseline: 2.50)
   due: string; // ISO UTC
   lastReviewed?: string; // ISO UTC
 }

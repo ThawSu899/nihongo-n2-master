@@ -22,6 +22,9 @@ import {
   getCardsDueToday,
   burySiblings,
   getLadderBandLabel,
+  detectLeechCards,
+  isLeechCard,
+  getCardEaseFactor,
 } from '../../domain/srs/srs-scheduler';
 import { SystemClock } from '../../domain/common/clock';
 import { useAudioPlayer } from '../hooks/useAudioPlayer';
@@ -37,6 +40,7 @@ import { useGlobalShortcuts, useScopedShortcuts } from '../context/GlobalShortcu
 interface SRSReviewScreenProps {
   onBack: () => void;
   onReviewsCompleted: () => void;
+  initialLeechDrill?: boolean;
 }
 
 const ITEM_TYPE_STYLES: Record<string, { label: string; badge: string }> = {
@@ -50,6 +54,7 @@ const ITEM_TYPE_STYLES: Record<string, { label: string; badge: string }> = {
 export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
   onBack,
   onReviewsCompleted,
+  initialLeechDrill = false,
 }) => {
   const [cards, setCards] = useState<SRSCard[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -60,6 +65,16 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
   const [selectedKanjiContext, setSelectedKanjiContext] = useState<string | undefined>(undefined);
   const [autoAdvanceSec, setAutoAdvanceSec] = useState<number>(0); // 0 = off, 4s, 7s
   const [timerRemaining, setTimerRemaining] = useState<number>(0);
+
+  // Leech Drill Mode: isolate and master high-failure N4/N2 items
+  const [isLeechDrillMode, setIsLeechDrillMode] = useState<boolean>(() => {
+    if (initialLeechDrill) return true;
+    if (typeof window !== 'undefined' && typeof sessionStorage !== 'undefined') {
+      return sessionStorage.getItem('nihongo_srs_leech_mode') === 'true';
+    }
+    return false;
+  });
+  const [leechCount, setLeechCount] = useState<number>(0);
 
   // Bunpro Replica Enhancements: Cloze Mode & Ghost Quarantine
   const [viewMode, setViewMode] = useState<'review' | 'ghosts'>('review');
@@ -125,12 +140,26 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
     }
   };
 
-  const loadDueCards = async () => {
+  const loadCards = async (leechDrill = isLeechDrillMode) => {
     setLoading(true);
     const allCards = await db.srs_cards.toArray();
-    const due = getCardsDueToday(allCards, clock, 4);
-    const buried = burySiblings(due);
-    setCards(buried);
+    const leeches = detectLeechCards(allCards);
+    setLeechCount(leeches.length);
+
+    if (leechDrill) {
+      // Leech Drill Mode: isolate high-failure items immediately without waiting for standard schedule intervals
+      const sortedLeeches = [...leeches].sort((a, b) => {
+        if (b.lapses !== a.lapses) return b.lapses - a.lapses;
+        return getCardEaseFactor(a) - getCardEaseFactor(b);
+      });
+      const buried = burySiblings(sortedLeeches);
+      setCards(buried);
+    } else {
+      const due = getCardsDueToday(allCards, clock, 4);
+      const buried = burySiblings(due);
+      setCards(buried);
+    }
+
     setCurrentIndex(0);
     setIsFlipped(false);
     setSelectedKanji(null);
@@ -138,8 +167,21 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
     setLoading(false);
   };
 
+  const toggleLeechDrillMode = () => {
+    const nextMode = !isLeechDrillMode;
+    setIsLeechDrillMode(nextMode);
+    if (typeof window !== 'undefined' && typeof sessionStorage !== 'undefined') {
+      if (nextMode) {
+        sessionStorage.setItem('nihongo_srs_leech_mode', 'true');
+      } else {
+        sessionStorage.removeItem('nihongo_srs_leech_mode');
+      }
+    }
+    loadCards(nextMode);
+  };
+
   useEffect(() => {
-    loadDueCards();
+    loadCards(isLeechDrillMode);
     refreshGhostCount();
   }, []);
 
@@ -172,7 +214,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
     } else {
       // Completed all cards in queue
       onReviewsCompleted();
-      loadDueCards();
+      loadCards(isLeechDrillMode);
     }
   };
 
@@ -303,7 +345,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
           onStartGhostReview={(ghost) => setActiveGhostDrill(ghost)}
           onRefreshParentQueue={() => {
             refreshGhostCount();
-            loadDueCards();
+            loadCards();
           }}
         />
 
@@ -351,11 +393,15 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
 
         <div className="space-y-2">
           <span className="text-[11px] font-mono uppercase tracking-widest text-emerald-700 font-semibold px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 inline-block">
-            လေ့ကျင့်မှု ပြီးမြောက်ပါပြီ
+            {isLeechDrillMode ? 'အားနည်းချက် အထူးလေ့ကျင့်ခန်း ပြီးပါပြီ' : 'လေ့ကျင့်မှု ပြီးမြောက်ပါပြီ'}
           </span>
-          <h2 className="text-2xl font-bold text-stone-900 tracking-tight">ဒီကနေ့အတွက် အားလုံးပြီးပါပြီ!</h2>
+          <h2 className="text-2xl font-bold text-stone-900 tracking-tight">
+            {isLeechDrillMode ? 'Leech Drill Complete! အားနည်းချက်များ အောင်မြင်ပါပြီ' : 'ဒီကနေ့အတွက် အားလုံးပြီးပါပြီ!'}
+          </h2>
           <p className="text-xs text-stone-600 leading-relaxed max-w-sm mx-auto">
-            မနက် ၄:၀၀ မတိုင်မီ ပြန်လည်လေ့ကျင့်ရန် ကျန်ရှိသော ကတ်များ မရှိတော့ပါ။ ခေတ္တအနားယူပါ သို့မဟုတ် သင်ခန်းစာများကို ဆက်လက်လေ့လာနိုင်ပါသည်။
+            {isLeechDrillMode
+              ? 'အမှားများသော ဝေါဟာရနှင့် သဒ္ဒါများကို သီးသန့်လေ့ကျင့်ပြီးပါပြီ။ အခြေခံမှတ်မိနှုန်း ပြန်လည်မြင့်တက်လာပါပြီ။'
+              : 'မနက် ၄:၀၀ မတိုင်မီ ပြန်လည်လေ့ကျင့်ရန် ကျန်ရှိသော ကတ်များ မရှိတော့ပါ။ ခေတ္တအနားယူပါ သို့မဟုတ် သင်ခန်းစာများကို ဆက်လက်လေ့လာနိုင်ပါသည်။'}
           </p>
         </div>
 
@@ -373,14 +419,39 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
           </div>
         )}
 
+        {/* Leech Drill Mode button if cards are available or to switch back */}
+        {isLeechDrillMode ? (
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+            onClick={toggleLeechDrillMode}
+            className="w-full py-3 rounded-2xl bg-white hover:bg-stone-50 border border-stone-300 text-stone-700 text-xs font-semibold tracking-wide transition shadow-2xs flex items-center justify-center space-x-2 cursor-pointer"
+          >
+            <RotateCcw className="w-4 h-4 text-indigo-600" />
+            <span>ပုံမှန် SRS စာရင်းသို့ ပြန်သွားမည်</span>
+          </motion.button>
+        ) : (
+          leechCount > 0 && (
+            <motion.button
+              whileHover={{ scale: 1.02 }}
+              whileTap={{ scale: 0.98 }}
+              onClick={toggleLeechDrillMode}
+              className="w-full py-3 rounded-2xl bg-rose-50 hover:bg-rose-100 border border-rose-300 text-rose-800 text-xs font-semibold tracking-wide transition shadow-xs flex items-center justify-center space-x-2 cursor-pointer"
+            >
+              <Flame className="w-4 h-4 text-rose-600 fill-rose-500" />
+              <span>🔥 Leech Drill Mode စတင်မည် ({leechCount} ခု)</span>
+            </motion.button>
+          )
+        )}
+
         {ghostCount > 0 && (
           <motion.button
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             onClick={() => setViewMode('ghosts')}
-            className="w-full py-3 rounded-2xl bg-rose-50 hover:bg-rose-100 border border-rose-200 text-rose-700 text-xs font-semibold tracking-wide transition shadow-xs flex items-center justify-center space-x-2 cursor-pointer"
+            className="w-full py-3 rounded-2xl bg-amber-50 hover:bg-amber-100 border border-amber-200 text-amber-800 text-xs font-semibold tracking-wide transition shadow-xs flex items-center justify-center space-x-2 cursor-pointer"
           >
-            <Flame className="w-4 h-4 text-rose-600" />
+            <Flame className="w-4 h-4 text-amber-600" />
             <span>သဒ္ဒါအားနည်းချက် ပြန်လေ့ကျင့်ရန် ({ghostCount} ခု)</span>
           </motion.button>
         )}
@@ -424,8 +495,15 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
             {/* View Mode Toggle: Queue vs Ghosts */}
             <div className="flex items-center bg-stone-200/80 border border-stone-300 rounded-full p-0.5 text-[10px] font-mono">
               <button
-                onClick={() => setViewMode('review')}
-                className="px-2.5 py-0.5 rounded-full transition cursor-pointer bg-indigo-600 text-white font-bold"
+                onClick={() => {
+                  if (isLeechDrillMode) toggleLeechDrillMode();
+                  setViewMode('review');
+                }}
+                className={`px-2.5 py-0.5 rounded-full transition cursor-pointer ${
+                  viewMode === 'review' && !isLeechDrillMode
+                    ? 'bg-indigo-600 text-white font-bold'
+                    : 'text-stone-600 hover:text-stone-900'
+                }`}
               >
                 SRS စာရင်း ({cards.length})
               </button>
@@ -437,6 +515,24 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                 <span>အားနည်းချက် ({ghostCount})</span>
               </button>
             </div>
+
+            {/* Dedicated Leech Drill Mode Toggle */}
+            <button
+              onClick={toggleLeechDrillMode}
+              className={`flex items-center space-x-1 px-2.5 py-0.5 rounded-full text-[10px] font-mono border transition cursor-pointer ${
+                isLeechDrillMode
+                  ? 'bg-rose-600 text-white border-rose-600 font-bold shadow-2xs ring-2 ring-rose-400/20'
+                  : 'bg-white hover:bg-rose-50 text-rose-700 border-rose-200 hover:border-rose-300'
+              }`}
+              title="Toggle Leech Drill Mode (အားနည်းချက် အထူးလေ့ကျင့်ခန်း): isolate high-failure items (lapses >= 2 or EF <= 1.6)"
+            >
+              <Flame
+                className={`w-3 h-3 ${
+                  isLeechDrillMode ? 'text-white fill-white' : 'text-rose-500 fill-rose-500 animate-pulse'
+                }`}
+              />
+              <span>🔥 Leech Drill Mode (အားနည်းချက် အထူးလေ့ကျင့်ခန်း){leechCount > 0 ? ` [${leechCount}]` : ''}</span>
+            </button>
 
             {/* Cloze Mode Toggle for Grammar Cards */}
             {(currentCard.itemType === 'grammar' || currentCard.facet === 'cloze') && (
@@ -550,16 +646,29 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                   : 'border-stone-200 hover:border-stone-300 shadow-sm'
               } rounded-3xl p-6 sm:p-8 min-h-[340px] flex flex-col justify-between text-center cursor-pointer transition-colors relative select-none`}
             >
-          {/* Card Meta Badges */}
-          <div className="flex justify-between items-center text-[10px] font-mono">
-            <span
-              className={`px-2.5 py-1 rounded-full border text-[10px] font-semibold uppercase tracking-wider ${typeStyle.badge}`}
-            >
-              {typeStyle.label}
-            </span>
-            <span className="px-2.5 py-1 rounded-full bg-stone-100 border border-stone-200 text-stone-600 uppercase tracking-wider">
-              {currentCard.facet}
-            </span>
+          {/* Card Meta Badges & Visual Leech Badge */}
+          <div className="flex justify-between items-center text-[10px] font-mono flex-wrap gap-2">
+            <div className="flex items-center space-x-2">
+              <span
+                className={`px-2.5 py-1 rounded-full border text-[10px] font-semibold uppercase tracking-wider ${typeStyle.badge}`}
+              >
+                {typeStyle.label}
+              </span>
+              <span className="px-2.5 py-1 rounded-full bg-stone-100 border border-stone-200 text-stone-600 uppercase tracking-wider">
+                {currentCard.facet}
+              </span>
+            </div>
+
+            {/* Visual Leech Badge showing lapse count and current ease factor */}
+            {isLeechCard(currentCard) && (
+              <span
+                className="flex items-center space-x-1.5 px-2.5 py-1 rounded-full bg-rose-50 border border-rose-300 text-rose-800 text-[10px] font-mono font-bold shadow-2xs"
+                title="Leech & Weak Item: lapses >= 2 or easeFactor <= 1.6"
+              >
+                <Flame className="w-3 h-3 text-rose-600 fill-rose-500 animate-pulse" />
+                <span>Leech Badge (Lapses: {currentCard.lapses} · EF: {getCardEaseFactor(currentCard).toFixed(2)})</span>
+              </span>
+            )}
           </div>
 
           {/* Card Body */}
