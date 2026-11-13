@@ -58,6 +58,7 @@ import { SystemClock } from '../../domain/common/clock';
 import { EventRepository } from '../../data/repositories/event-repository';
 import { db } from '../../data/db/dexie-db';
 import { DokkaiReaderWorkbench } from '../components/DokkaiReaderWorkbench';
+import { StageMinimap } from '../components/StageMinimap';
 import { ShadowingPracticeScreen } from '../components/ShadowingPracticeScreen';
 import { N5ReferenceWorkbench } from '../components/N5ReferenceWorkbench';
 import {
@@ -294,6 +295,21 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
     });
   }, []);
 
+  // 15-Stage Minimap Completion & Accuracies
+  const [completedStages, setCompletedStages] = useState<Set<number>>(() => new Set([1]));
+  const [stageAccuracies, setStageAccuracies] = useState<Record<number, number | undefined>>({});
+  const stageCorrectCount = useRef<Record<number, { correct: number; total: number }>>({});
+
+  useEffect(() => {
+    setCompletedStages((prev) => {
+      const next = new Set(prev);
+      for (let s = 1; s < currentStage; s++) {
+        next.add(s);
+      }
+      return next;
+    });
+  }, [currentStage]);
+
   const [blindRevealed, setBlindRevealed] = useState<boolean>(false);
 
   // Reset blind revealed status on stage, exercise, or vocab change
@@ -403,6 +419,8 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
   );
 
   const handleDokkaiComplete = useCallback(({ accuracy }: { accuracy: number }) => {
+    setStageAccuracies((prev) => ({ ...prev, 8: accuracy }));
+    setCompletedStages((prev) => new Set(prev).add(8));
     setTestScores((prev) => ({
       ...prev,
       reading: {
@@ -500,6 +518,16 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
       isCorrect,
       explanation: q.explanation,
     });
+
+    // Update real-time stage accuracy for StageMinimap
+    const stageStats = stageCorrectCount.current[currentStage] || { correct: 0, total: 0 };
+    stageStats.total += 1;
+    if (isCorrect) stageStats.correct += 1;
+    stageCorrectCount.current[currentStage] = stageStats;
+    setStageAccuracies((prev) => ({
+      ...prev,
+      [currentStage]: Math.round((stageStats.correct / stageStats.total) * 100),
+    }));
 
     if (currentStage === 9) {
       setHasAnsweredListening(true);
@@ -975,30 +1003,16 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
           </div>
         </div>
 
-        {/* 15 Stage Steps Grid */}
-        <div className="w-full bg-stone-100 p-1.5 rounded-2xl border border-stone-200">
-          <div className="grid grid-cols-15 gap-1 w-full">
-            {STAGE_NAMES.map((name, idx) => {
-              const stepNum = idx + 1;
-              const isCompleted = stepNum < currentStage;
-              const isCurrent = stepNum === currentStage;
-              return (
-                <button
-                  key={stepNum}
-                  onClick={() => setCurrentStage(stepNum)}
-                  className={`h-2.5 rounded-full transition-all focus:outline-none ${
-                    isCurrent
-                      ? 'bg-indigo-600 ring-2 ring-indigo-400/50 shadow-xs'
-                      : isCompleted
-                      ? 'bg-emerald-500/90'
-                      : 'bg-stone-200 hover:bg-stone-300'
-                  }`}
-                  title={`Stage ${stepNum}: ${name}`}
-                />
-              );
-            })}
-          </div>
-        </div>
+        {/* 15-Stage Interactive Minimap with Completion Ticks & Accuracies */}
+        <StageMinimap
+          currentStage={currentStage}
+          completedStages={completedStages}
+          stageAccuracies={stageAccuracies}
+          onJumpToStage={(s) => {
+            setCurrentStage(s);
+            setExerciseIndex(0);
+          }}
+        />
 
         {/* Audio Toolbar: Multi-Speed TTS & Blind Listening Mode */}
         <div className="pt-2 border-t border-stone-100 flex flex-wrap items-center justify-between gap-2 text-xs">

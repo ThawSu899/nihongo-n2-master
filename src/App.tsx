@@ -579,6 +579,7 @@ export default function App() {
         onFinish={finishBlock}
         onSkip={skipBlock}
         todayStudiedMinutes={todayStudiedMinutes}
+        onStartPomodoro={(duration = 25) => startBlock('block_pomodoro_sprint', duration)}
       />
 
       {/* Global PWA Offline Storage & Sync Diagnostics Modal */}
