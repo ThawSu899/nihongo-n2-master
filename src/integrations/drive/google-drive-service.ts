@@ -8,8 +8,54 @@ export interface DriveBackupFile {
   modifiedTime: string;
 }
 
+/**
+ * Extracts detailed, actionable Google API error information from response bodies.
+ * Distinguishes missing project API enablement (accessNotConfigured),
+ * missing scope permissions (insufficientPermissions), and expired credentials (401).
+ */
+export async function parseGoogleApiError(res: Response, defaultAction = 'Google Drive operation'): Promise<Error> {
+  let errJson: any = null;
+  let rawText = '';
+  try {
+    const text = await res.text();
+    rawText = text;
+    errJson = JSON.parse(text);
+  } catch {
+    // Non-JSON response body
+  }
+
+  const errObj = errJson?.error;
+  const status = res.status;
+  const apiMessage = errObj?.message || rawText || res.statusText || defaultAction;
+  const reason = errObj?.errors?.[0]?.reason || (status === 401 ? 'unauthorized' : undefined);
+
+  let explanation = '';
+  if (reason === 'accessNotConfigured' || /accessNotConfigured|API has not been used/i.test(apiMessage)) {
+    explanation = ' (Google Drive API is not enabled in your Google Cloud Project. Please enable it in the Google Cloud Console)';
+  } else if (
+    reason === 'insufficientPermissions' ||
+    /insufficientPermissions|insufficient scope|not granted.*access/i.test(apiMessage)
+  ) {
+    explanation = ' (Insufficient Drive permissions: token lacks drive.file scope. Please sign out and sign in with Google again to grant Drive access)';
+  } else if (status === 401 || /unauthorized|expired|invalid.*credential/i.test(apiMessage)) {
+    explanation = ' (Google authentication expired or invalid. Please sign out and sign in with Google again)';
+  } else if (reason) {
+    explanation = ` [reason: ${reason}]`;
+  }
+
+  if (status === 403) {
+    return new Error(`Google Drive permission denied (403): ${apiMessage}${explanation}`);
+  }
+  if (status === 401) {
+    return new Error(`Google authentication expired or invalid (401): ${apiMessage}${explanation}`);
+  }
+  return new Error(`${defaultAction} failed (${status}): ${apiMessage}${explanation}`);
+}
+
 export class GoogleDriveService {
   private static readonly API_BASE = 'https://www.googleapis.com';
+  public static readonly APP_FOLDER_NAME = 'Japanese-N2-Master';
+  public static readonly BACKUP_FILENAME = 'nihongo-n2-master-backup.json';
 
   /**
    * Helper to format human-readable error messages for network/offline and Google API issues
@@ -20,10 +66,10 @@ export class GoogleDriveService {
     }
     const msg = error?.message || String(error);
     if (/permission denied|forbidden|403/i.test(msg)) {
-      return new Error(`Google Drive permission denied (403): ${msg.replace(/^.*403:?\s*/i, '') || 'Access forbidden under drive.file scope.'}`);
+      return new Error(msg.startsWith('Google Drive permission denied') ? msg : `Google Drive permission denied (403): ${msg}`);
     }
     if (/unauthorized|expired|401/i.test(msg)) {
-      return new Error(`Google authentication expired or invalid (401). Please sign out and sign in with Google again.`);
+      return new Error(msg.startsWith('Google authentication expired') ? msg : `Google authentication expired or invalid (401). Please sign out and sign in with Google again.`);
     }
     if (/failed to fetch|network|load failed/i.test(msg)) {
       return new Error(`Network connection error. Could not connect to Google Drive while trying to ${actionDescription}. Please check your internet connection.`);
@@ -36,7 +82,7 @@ export class GoogleDriveService {
    * Works cleanly under the restricted 'drive.file' scope by caching the created folder ID
    * and avoiding failing on broad search queries that drive.file forbids.
    */
-  static async getOrCreateAppFolder(customToken?: string): Promise<string> {
+  static async ensureAppFolder(customToken?: string): Promise<string> {
     const token = customToken || getDriveAccessToken();
     if (!token) throw new Error('Not authenticated with Google Drive. Please sign in with Google first.');
 
@@ -63,7 +109,7 @@ export class GoogleDriveService {
             return folderData.id;
           }
         } else if (verifyRes.status === 401) {
-          throw new Error('Google authentication expired or invalid (401). Please sign in again.');
+          throw await parseGoogleApiError(verifyRes, 'Google authentication expired');
         } else if (verifyRes.status === 404) {
           // Folder was deleted remotely; clear cache and re-create
           if (typeof localStorage !== 'undefined') {
@@ -71,14 +117,14 @@ export class GoogleDriveService {
           }
         }
       } catch (verifyErr: any) {
-        if (/401/i.test(verifyErr?.message)) throw verifyErr;
+        if (/401|expired/i.test(verifyErr?.message)) throw verifyErr;
         // Ignore other verify errors and proceed to search/create
       }
     }
 
     try {
       // 2. Search for existing folder created by this app
-      const query = encodeURIComponent("name = 'Japanese-N2-Master' and mimeType = 'application/vnd.google-apps.folder' and trashed = false");
+      const query = encodeURIComponent(`name = '${this.APP_FOLDER_NAME}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false`);
       const searchRes = await fetch(
         `${this.API_BASE}/drive/v3/files?q=${query}&fields=files(id,name)`,
         {
@@ -100,7 +146,7 @@ export class GoogleDriveService {
       } else {
         // Under drive.file scope, searching for files not created by the app or unrestricted queries returns 403 Forbidden.
         // We gracefully proceed to direct creation rather than failing.
-        console.warn(`[GoogleDriveService] Folder search returned ${searchRes.status}; creating or accessing Japanese-N2-Master folder directly.`);
+        console.warn(`[GoogleDriveService] Folder search returned ${searchRes.status}; creating or accessing ${this.APP_FOLDER_NAME} folder directly.`);
       }
 
       // 3. Create folder directly if not found or search was restricted
@@ -111,27 +157,14 @@ export class GoogleDriveService {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          name: 'Japanese-N2-Master',
+          name: this.APP_FOLDER_NAME,
           mimeType: 'application/vnd.google-apps.folder',
           description: 'NIHONGO N2 MASTER Curriculum, Backups, and Audio Assets',
         }),
       });
 
       if (!createRes.ok) {
-        let errDetail = '';
-        try {
-          const errData = await createRes.json();
-          errDetail = errData.error?.message || '';
-        } catch {
-          errDetail = await createRes.text().catch(() => '');
-        }
-        if (createRes.status === 403) {
-          throw new Error(`Google Drive permission denied (403): ${errDetail || 'Cannot create folder under current Drive scope.'}`);
-        }
-        if (createRes.status === 401) {
-          throw new Error('Google authentication expired or invalid (401). Please sign in again.');
-        }
-        throw new Error(`Failed to create Google Drive folder (${createRes.status}): ${errDetail || createRes.statusText}`);
+        throw await parseGoogleApiError(createRes, 'Failed to create Google Drive folder');
       }
 
       const folder = await createRes.json();
@@ -145,16 +178,90 @@ export class GoogleDriveService {
   }
 
   /**
-   * Upload a learner progress backup JSON to Google Drive
+   * Alias for ensureAppFolder to preserve complete backward compatibility.
+   */
+  static async getOrCreateAppFolder(customToken?: string): Promise<string> {
+    return this.ensureAppFolder(customToken);
+  }
+
+  /**
+   * Helper to store local index of backups in localStorage.
+   */
+  private static recordLocalBackupFile(fileId: string, filename: string, contentLength: number): void {
+    if (typeof localStorage === 'undefined') return;
+    try {
+      const raw = localStorage.getItem('google_drive_backup_files');
+      const list: DriveBackupFile[] = raw ? JSON.parse(raw) : [];
+      const now = new Date().toISOString();
+      const newEntry: DriveBackupFile = {
+        id: fileId,
+        name: filename,
+        createdTime: now,
+        modifiedTime: now,
+        size: `${Math.round(contentLength / 1024)} KB`,
+      };
+      const updated = [newEntry, ...list.filter((f) => f.id !== fileId)];
+      localStorage.setItem('google_drive_backup_files', JSON.stringify(updated.slice(0, 20)));
+    } catch {
+      // Ignore storage errors
+    }
+  }
+
+  /**
+   * Upload a learner progress backup JSON to Google Drive.
+   * If a backup file was previously created and cached in localStorage, updates it in-place via PATCH
+   * to avoid generating duplicate files and bypassing restrictive drive.file searches.
    */
   static async uploadBackup(content: string, filename?: string, customToken?: string): Promise<{ id: string; name: string }> {
     const token = customToken || getDriveAccessToken();
     if (!token) throw new Error('Not authenticated with Google Drive. Please sign in with Google first.');
 
     try {
-      const folderId = await this.getOrCreateAppFolder(token);
-      const targetFilename = filename || `nihongo_master_backup_${new Date().toISOString().substring(0, 10)}.json`;
+      const folderId = await this.ensureAppFolder(token);
+      const targetFilename = filename || this.BACKUP_FILENAME;
 
+      // 1. Check if we have a cached backup file ID in localStorage
+      const cachedFileId =
+        typeof localStorage !== 'undefined'
+          ? localStorage.getItem('google_drive_backup_file_id')
+          : null;
+
+      if (cachedFileId) {
+        try {
+          const patchRes = await fetch(
+            `${this.API_BASE}/upload/drive/v3/files/${cachedFileId}?uploadType=media`,
+            {
+              method: 'PATCH',
+              headers: {
+                Authorization: `Bearer ${token}`,
+                'Content-Type': 'application/json',
+              },
+              body: content,
+            }
+          );
+
+          if (patchRes.ok) {
+            const updated = await patchRes.json();
+            const resultId = updated.id || cachedFileId;
+            this.recordLocalBackupFile(resultId, targetFilename, content.length);
+            return { id: resultId, name: targetFilename };
+          } else if (patchRes.status === 404) {
+            // File deleted in Google Drive; clear cache and fall through to create
+            if (typeof localStorage !== 'undefined') {
+              localStorage.removeItem('google_drive_backup_file_id');
+            }
+          } else if (patchRes.status === 401 || patchRes.status === 403) {
+            throw await parseGoogleApiError(patchRes, 'Failed to update backup file');
+          }
+        } catch (patchErr: any) {
+          if (/401|403|permission denied|expired/i.test(patchErr?.message)) {
+            throw patchErr;
+          }
+          // Other transient errors: proceed to fresh creation
+        }
+      }
+
+      // 2. Create new backup file via multipart upload
       const metadata = {
         name: targetFilename,
         mimeType: 'application/json',
@@ -188,40 +295,13 @@ export class GoogleDriveService {
       );
 
       if (!res.ok) {
-        let errText = '';
-        try {
-          const errJson = await res.json();
-          errText = errJson.error?.message || '';
-        } catch {
-          errText = await res.text().catch(() => '');
-        }
-        if (res.status === 403) {
-          throw new Error(`Google Drive permission denied (403): ${errText || 'Cannot upload backup file under current Drive scope.'}`);
-        }
-        if (res.status === 401) {
-          throw new Error('Google authentication expired or invalid (401). Please sign in again.');
-        }
-        throw new Error(`Google Drive upload failed (${res.status}): ${errText || res.statusText}`);
+        throw await parseGoogleApiError(res, 'Google Drive upload failed');
       }
 
       const uploaded = await res.json();
       if (typeof localStorage !== 'undefined' && uploaded?.id) {
-        try {
-          const raw = localStorage.getItem('google_drive_backup_files');
-          const list: DriveBackupFile[] = raw ? JSON.parse(raw) : [];
-          const now = new Date().toISOString();
-          const newEntry: DriveBackupFile = {
-            id: uploaded.id,
-            name: uploaded.name || targetFilename,
-            createdTime: now,
-            modifiedTime: now,
-            size: `${Math.round(content.length / 1024)} KB`,
-          };
-          const updated = [newEntry, ...list.filter((f) => f.id !== uploaded.id)];
-          localStorage.setItem('google_drive_backup_files', JSON.stringify(updated.slice(0, 20)));
-        } catch {
-          // Ignore
-        }
+        localStorage.setItem('google_drive_backup_file_id', uploaded.id);
+        this.recordLocalBackupFile(uploaded.id, uploaded.name || targetFilename, content.length);
       }
       return uploaded;
     } catch (err: any) {
@@ -237,7 +317,7 @@ export class GoogleDriveService {
     if (!token) return [];
 
     try {
-      const folderId = await this.getOrCreateAppFolder(token);
+      const folderId = await this.ensureAppFolder(token);
       const query = encodeURIComponent(`'${folderId}' in parents and mimeType = 'application/json' and trashed = false`);
       const res = await fetch(
         `${this.API_BASE}/drive/v3/files?q=${query}&fields=files(id,name,size,createdTime,modifiedTime)&orderBy=modifiedTime desc`,
@@ -259,6 +339,9 @@ export class GoogleDriveService {
         }));
         if (typeof localStorage !== 'undefined' && files.length > 0) {
           localStorage.setItem('google_drive_backup_files', JSON.stringify(files.slice(0, 20)));
+          if (!localStorage.getItem('google_drive_backup_file_id')) {
+            localStorage.setItem('google_drive_backup_file_id', files[0].id);
+          }
         }
         return files;
       } else {
@@ -287,13 +370,29 @@ export class GoogleDriveService {
   /**
    * Download a backup's JSON content from Google Drive
    */
-  static async downloadBackup(fileId: string, customToken?: string): Promise<string> {
+  static async downloadBackup(fileId?: string, customToken?: string): Promise<string> {
     const token = customToken || getDriveAccessToken();
     if (!token) throw new Error('Not authenticated with Google Drive. Please sign in with Google first.');
 
+    let targetFileId = fileId;
+    if (!targetFileId && typeof localStorage !== 'undefined') {
+      targetFileId = localStorage.getItem('google_drive_backup_file_id') || undefined;
+    }
+
+    if (!targetFileId) {
+      const backups = await this.listBackups(token);
+      if (backups && backups.length > 0) {
+        targetFileId = backups[0].id;
+      }
+    }
+
+    if (!targetFileId) {
+      throw new Error('No backup file found in Google Drive to restore.');
+    }
+
     try {
       const res = await fetch(
-        `${this.API_BASE}/drive/v3/files/${fileId}?alt=media`,
+        `${this.API_BASE}/drive/v3/files/${targetFileId}?alt=media`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -302,20 +401,7 @@ export class GoogleDriveService {
       );
 
       if (!res.ok) {
-        let errText = '';
-        try {
-          const errJson = await res.json();
-          errText = errJson.error?.message || '';
-        } catch {
-          errText = await res.text().catch(() => '');
-        }
-        if (res.status === 403) {
-          throw new Error(`Google Drive permission denied (403): ${errText || 'Cannot download backup file.'}`);
-        }
-        if (res.status === 401) {
-          throw new Error('Google authentication expired or invalid (401). Please sign in again.');
-        }
-        throw new Error(`Failed to download backup file from Drive (${res.status}): ${errText || res.statusText}`);
+        throw await parseGoogleApiError(res, 'Failed to download backup file from Drive');
       }
 
       return await res.text();
@@ -340,24 +426,14 @@ export class GoogleDriveService {
       });
 
       if (!res.ok && res.status !== 204 && res.status !== 404) {
-        let errText = '';
-        try {
-          const errJson = await res.json();
-          errText = errJson.error?.message || '';
-        } catch {
-          errText = await res.text().catch(() => '');
-        }
-        if (res.status === 403) {
-          throw new Error(`Google Drive permission denied (403): ${errText || 'Cannot delete backup file.'}`);
-        }
-        if (res.status === 401) {
-          throw new Error('Google authentication expired or invalid (401). Please sign in again.');
-        }
-        throw new Error(`Failed to delete backup from Drive (${res.status}): ${errText || res.statusText}`);
+        throw await parseGoogleApiError(res, 'Failed to delete backup from Drive');
       }
 
       if (typeof localStorage !== 'undefined') {
         try {
+          if (localStorage.getItem('google_drive_backup_file_id') === fileId) {
+            localStorage.removeItem('google_drive_backup_file_id');
+          }
           const raw = localStorage.getItem('google_drive_backup_files');
           if (raw) {
             const list: DriveBackupFile[] = JSON.parse(raw);
@@ -383,7 +459,7 @@ export class GoogleDriveService {
     if (!token) throw new Error('Not authenticated with Google Drive. Please sign in with Google first.');
 
     try {
-      const folderId = await this.getOrCreateAppFolder(token);
+      const folderId = await this.ensureAppFolder(token);
       const filename = `${pack.id}_curriculum_export_${new Date().toISOString().substring(0, 10)}.json`;
 
       const metadata = {
@@ -419,8 +495,7 @@ export class GoogleDriveService {
       );
 
       if (!res.ok) {
-        const errText = await res.text();
-        throw new Error(`Curriculum upload failed (${res.status}): ${errText}`);
+        throw await parseGoogleApiError(res, 'Curriculum upload failed');
       }
 
       return await res.json();
@@ -429,4 +504,3 @@ export class GoogleDriveService {
     }
   }
 }
-

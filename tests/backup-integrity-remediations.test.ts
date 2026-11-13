@@ -4,6 +4,7 @@ import { renderToString } from 'react-dom/server';
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { db, DEFAULT_USER_PROFILE } from '../src/data/db/dexie-db';
 import { BackupManager } from '../src/data/backup/backup-manager';
+import { SnapshotIndexedDBStore } from '../src/data/backup/snapshot-store';
 import { OfflineSyncManager } from '../src/data/sync/offline-sync-manager';
 import { StorageDiagnosticsModal } from '../src/presentation/components/StorageDiagnosticsModal';
 import {
@@ -37,8 +38,13 @@ describe('Option D: Database Backup Integrity & Remediation History Hub', () => 
 
   beforeEach(async () => {
     vi.restoreAllMocks();
+    mockLocalStorage.setItem.mockImplementation((key: string, val: string) => {
+      mockLocalStorage.store[key] = val;
+    });
+    mockLocalStorage.getItem.mockImplementation((key: string) => mockLocalStorage.store[key] || null);
     (globalThis as any).localStorage = mockLocalStorage;
     mockLocalStorage.clear();
+    await SnapshotIndexedDBStore.clear();
     for (const table of db.tables) {
       await table.clear();
     }
@@ -389,6 +395,151 @@ describe('Option D: Database Backup Integrity & Remediation History Hub', () => 
       const integrity = await BackupManager.checkIntegrityAndAutoRecover();
       expect(integrity.corrupted).toBe(false);
       expect(integrity.restored).toBe(false);
+    });
+  });
+
+  describe('4. Quota-Safe Dual-Tier Storage & QuotaExceededError Resilience', () => {
+    it('gracefully handles QuotaExceededError during saveLocalSnapshot without throwing uncaught exceptions', async () => {
+      await db.ghost_cards.add({
+        id: 'ghost_quota_01',
+        parentCardId: 'srs_q1',
+        grammarId: 'g_q1',
+        sentenceIndex: 0,
+        clozeSentence: '彼女は____走った。',
+        clozeTarget: '速く',
+        nuanceExplanationEn: 'Fast',
+        stage: 1,
+        due: new Date().toISOString(),
+        conquered: false,
+      });
+
+      // Simulate browser localStorage quota exhausted (DOMException code 22 / QuotaExceededError)
+      mockLocalStorage.setItem.mockImplementation((key: string) => {
+        if (key === 'nihongo_n2_local_snapshot') {
+          const quotaErr = new DOMException('Storage quota exceeded for origin', 'QuotaExceededError');
+          throw quotaErr;
+        }
+      });
+
+      // saveLocalSnapshot should never throw an uncaught exception
+      await expect(BackupManager.saveLocalSnapshot()).resolves.not.toThrow();
+
+      // Primary tier in IndexedDB must have the full uncompressed snapshot
+      const idbData = await SnapshotIndexedDBStore.getSnapshot();
+      expect(idbData).not.toBeNull();
+      expect(idbData?.ghost_cards).toHaveLength(1);
+      expect(idbData?.ghost_cards?.[0].id).toBe('ghost_quota_01');
+
+      // loadLocalSnapshot must transparently read from IndexedDB primary store
+      const loaded = await BackupManager.loadLocalSnapshot();
+      expect(loaded).not.toBeNull();
+      expect(loaded?.ghost_cards?.[0].id).toBe('ghost_quota_01');
+    });
+
+    it('checkIntegrityAndAutoRecover does NOT falsely report corruption when localStorage.setItem throws QuotaExceededError', async () => {
+      // Seed healthy database
+      await db.profile.put({ ...DEFAULT_USER_PROFILE, id: 'current_user' });
+      await db.mastery_records.put({
+        lessonId: 'n2.l01',
+        state: 'mastered',
+        lastTestedAt: new Date().toISOString(),
+        drillScores: {},
+        stageAttempts: {},
+      } as any);
+
+      // Simulate QuotaExceededError during rolling snapshot write
+      mockLocalStorage.setItem.mockImplementation((key: string) => {
+        if (key === 'nihongo_n2_local_snapshot') {
+          throw new DOMException('The quota has been exceeded.', 'QuotaExceededError');
+        }
+      });
+
+      const result = await BackupManager.checkIntegrityAndAutoRecover();
+
+      // Crucial: Must be healthy (not corrupted) because database read checks succeeded
+      expect(result.corrupted).toBe(false);
+      expect(result.restored).toBe(false);
+    });
+
+    it('auto-recovers from IndexedDB primary snapshot when database is corrupted and localStorage was quota-constrained', async () => {
+      // 1. Save valid snapshot while localStorage simulates QuotaExceededError
+      await db.profile.put({ ...DEFAULT_USER_PROFILE, id: 'current_user', name: 'RecoveryUser' });
+      await db.ghost_cards.add({
+        id: 'ghost_recover_99',
+        parentCardId: 'srs_99',
+        grammarId: 'g_99',
+        sentenceIndex: 0,
+        clozeSentence: 'test',
+        clozeTarget: 'test',
+        nuanceExplanationEn: 'test',
+        stage: 2,
+        due: new Date().toISOString(),
+        conquered: false,
+      });
+
+      mockLocalStorage.setItem.mockImplementation((key: string) => {
+        if (key === 'nihongo_n2_local_snapshot') {
+          throw new DOMException('QuotaExceededError', 'QuotaExceededError');
+        }
+      });
+
+      await BackupManager.saveLocalSnapshot();
+
+      // Verify IndexedDB has the full backup
+      const idbData = await SnapshotIndexedDBStore.getSnapshot();
+      expect(idbData?.ghost_cards).toHaveLength(1);
+
+      // 2. Wipe database and simulate database corruption during checkIntegrityAndAutoRecover
+      await db.ghost_cards.clear();
+      await db.profile.clear();
+
+      vi.spyOn(db.profile, 'toArray').mockRejectedValueOnce(new Error('IndexedDB disk read corruption'));
+
+      // 3. Run integrity check and auto-recovery
+      const recovery = await BackupManager.checkIntegrityAndAutoRecover();
+
+      expect(recovery.corrupted).toBe(true);
+      expect(recovery.restored).toBe(true);
+
+      // Verify records are restored in IndexedDB
+      const restoredGhost = await db.ghost_cards.get('ghost_recover_99');
+      expect(restoredGhost).toBeDefined();
+      expect(restoredGhost?.id).toBe('ghost_recover_99');
+
+      const restoredProfile = await db.profile.get('current_user');
+      expect(restoredProfile?.name).toBe('RecoveryUser');
+    });
+
+    it('strips redundant static lessonPacks in localStorage mirror to prevent payload bloat', async () => {
+      // Seed lesson packs in db.lesson_packs
+      await db.lesson_packs.bulkAdd([
+        {
+          id: 'n2.l01',
+          level: 'N2',
+          module: 'Core',
+          number: 1,
+          status: 'published',
+          title: 'Lesson 1',
+          vocabularies: [{ id: 'v1', ja: '単語' }],
+          grammars: [],
+          questions: [],
+          stages: [],
+        } as any,
+      ]);
+
+      await BackupManager.saveLocalSnapshot();
+
+      // Check localStorage mirror: lessonPacks must be stripped to prevent multi-megabyte payload bloat
+      const snapshotRaw = mockLocalStorage.store['nihongo_n2_local_snapshot'];
+      expect(snapshotRaw).toBeDefined();
+
+      const parsed = JSON.parse(snapshotRaw);
+      expect(parsed.lessonPacks).toEqual([]);
+
+      // But IndexedDB primary tier retains the full pack data
+      const idbData = await SnapshotIndexedDBStore.getSnapshot();
+      expect(idbData?.lessonPacks).toHaveLength(1);
+      expect(idbData?.lessonPacks?.[0].id).toBe('n2.l01');
     });
   });
 });

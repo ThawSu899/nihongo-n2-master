@@ -11,7 +11,7 @@ import {
   auth,
 } from '../src/integrations/auth/firebase-auth';
 import { GoogleDriveAdapter } from '../src/integrations/drive/drive-adapter';
-import { GoogleDriveService } from '../src/integrations/drive/google-drive-service';
+import { GoogleDriveService, parseGoogleApiError } from '../src/integrations/drive/google-drive-service';
 import { BackupManager } from '../src/data/backup/backup-manager';
 import { UserProfile } from '../src/domain/models/types';
 
@@ -242,6 +242,74 @@ describe('Google Account & Drive Backup UI', () => {
       expect(success).toBe(false);
       expect(adapter.lastError).toContain('Google Drive permission denied (403)');
       expect(adapter.lastError).not.toContain('check your network connection');
+    });
+
+    it('parseGoogleApiError extracts accessNotConfigured reason and guidance', async () => {
+      const mockRes = {
+        ok: false,
+        status: 403,
+        statusText: 'Forbidden',
+        text: async () =>
+          JSON.stringify({
+            error: {
+              code: 403,
+              message: 'Google Drive API has not been used in project 123 before or it is disabled.',
+              errors: [{ reason: 'accessNotConfigured', message: 'API not enabled' }],
+            },
+          }),
+      } as unknown as Response;
+
+      const parsed = await parseGoogleApiError(mockRes, 'Drive test');
+      expect(parsed.message).toContain('Google Drive permission denied (403)');
+      expect(parsed.message).toContain('Google Drive API is not enabled in your Google Cloud Project');
+    });
+
+    it('parseGoogleApiError extracts insufficientPermissions reason and re-consent guidance', async () => {
+      const mockRes = {
+        ok: false,
+        status: 403,
+        statusText: 'Forbidden',
+        text: async () =>
+          JSON.stringify({
+            error: {
+              code: 403,
+              message: 'The caller does not have permission',
+              errors: [{ reason: 'insufficientPermissions' }],
+            },
+          }),
+      } as unknown as Response;
+
+      const parsed = await parseGoogleApiError(mockRes, 'Drive test');
+      expect(parsed.message).toContain('Google Drive permission denied (403)');
+      expect(parsed.message).toContain('Insufficient Drive permissions: token lacks drive.file scope');
+    });
+
+    it('updates existing backup file via PATCH when google_drive_backup_file_id is cached', async () => {
+      setAccessToken('test-drive-token');
+      localStorage.setItem('google_drive_app_folder_id', 'folder-123');
+      localStorage.setItem('google_drive_backup_file_id', 'file-patch-456');
+
+      const originalFetch = global.fetch;
+      try {
+        let patchCalled = false;
+        global.fetch = vi.fn().mockImplementation((url: string, opts?: any) => {
+          if (typeof url === 'string' && url.includes('/files/file-patch-456') && opts?.method === 'PATCH') {
+            patchCalled = true;
+            return Promise.resolve({
+              ok: true,
+              status: 200,
+              json: async () => ({ id: 'file-patch-456', name: 'nihongo-n2-master-backup.json' }),
+            });
+          }
+          return Promise.resolve({ ok: true, status: 200, json: async () => ({}) });
+        });
+
+        const res = await GoogleDriveService.uploadBackup('{"updated": true}');
+        expect(patchCalled).toBe(true);
+        expect(res.id).toBe('file-patch-456');
+      } finally {
+        global.fetch = originalFetch;
+      }
     });
   });
 });

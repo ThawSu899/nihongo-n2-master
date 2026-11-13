@@ -434,11 +434,14 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
         });
       } else {
         const detail = driveAdapter.lastError;
+        const isOffline = typeof navigator !== 'undefined' && navigator.onLine === false;
         setDriveStatus({
           type: 'error',
-          message: detail
+          message: isOffline
+            ? 'Failed to backup to Google Drive. You appear to be offline. Please check your network connection.'
+            : detail
             ? `Failed to backup to Google Drive: ${detail}`
-            : 'Failed to backup to Google Drive. Please check your network connection or Google Drive permissions.',
+            : 'Failed to backup to Google Drive. Please verify your Google Drive permissions.',
         });
       }
     } catch (err: any) {
@@ -479,9 +482,12 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
 
       if (!backupJson) {
         const detail = driveAdapter.lastError;
+        const isOffline = typeof navigator !== 'undefined' && navigator.onLine === false;
         setDriveStatus({
           type: 'error',
-          message: detail
+          message: isOffline
+            ? 'Could not retrieve backup file from Google Drive. You appear to be offline. Please check your network connection.'
+            : detail
             ? `Could not retrieve backup file from Google Drive: ${detail}`
             : `Could not retrieve backup file "${latestBackup.name}" from Google Drive.`,
         });
@@ -981,18 +987,31 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
         {/* Drive Action Status Banner */}
         {driveStatus.message && (
           <div
-            className={`p-3 rounded-xl text-xs flex items-center space-x-2 ${
+            className={`p-3 rounded-xl text-xs flex flex-wrap items-center justify-between gap-2 ${
               driveStatus.type === 'success'
                 ? 'bg-emerald-50 border border-emerald-200 text-emerald-800'
                 : 'bg-rose-50 border border-rose-200 text-rose-800'
             }`}
           >
-            {driveStatus.type === 'success' ? (
-              <CheckCircle className="w-4 h-4 shrink-0 text-emerald-600" />
-            ) : (
-              <AlertCircle className="w-4 h-4 shrink-0 text-rose-600" />
-            )}
-            <span>{driveStatus.message}</span>
+            <div className="flex items-center space-x-2 min-w-0 flex-1">
+              {driveStatus.type === 'success' ? (
+                <CheckCircle className="w-4 h-4 shrink-0 text-emerald-600" />
+              ) : (
+                <AlertCircle className="w-4 h-4 shrink-0 text-rose-600" />
+              )}
+              <span className="break-words">{driveStatus.message}</span>
+            </div>
+            {driveStatus.type === 'error' &&
+              /permission|unauthorized|expired|insufficient|401|403|scope/i.test(driveStatus.message) && (
+                <button
+                  type="button"
+                  onClick={handleGoogleSignIn}
+                  disabled={googleAuthLoading}
+                  className="px-2.5 py-1 bg-rose-100 hover:bg-rose-200 text-rose-900 border border-rose-300 rounded-lg text-xs font-semibold shrink-0 cursor-pointer transition active:scale-95 disabled:opacity-50"
+                >
+                  Re-Authorize • ပြန်လည်ချိတ်ဆက်မည်
+                </button>
+              )}
           </div>
         )}
 

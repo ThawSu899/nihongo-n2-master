@@ -102,7 +102,7 @@ export class GoogleDriveAdapter implements FileStore {
     }
   }
 
-  async getBackup(fileId: string): Promise<string | null> {
+  async getBackup(fileId?: string): Promise<string | null> {
     this.lastError = null;
     if (typeof navigator !== 'undefined' && navigator.onLine === false) {
       this.lastError = 'You appear to be offline. Downloading backup requires an active internet connection.';

@@ -1,6 +1,7 @@
 import { LessonPack, CurriculumMapItem, LessonPackSchema, Vocabulary, Kanji } from '../../domain/models/types';
 import curriculumMapJson from '../../../content/curriculum-map.json';
 import { db } from '../db/dexie-db';
+import { SnapshotIndexedDBStore } from '../backup/snapshot-store';
 
 // Lazy-load packs dynamically across all levels without bloating initial bundle
 const packModules = import.meta.glob<LessonPack>('/content/packs/**/*.json');
@@ -98,6 +99,29 @@ export class ContentLoader {
         } catch {
           // ignore snapshot parse errors
         }
+      }
+
+      // Check and sanitize IndexedDB snapshot tier
+      try {
+        const idbSnapshot = await SnapshotIndexedDBStore.getSnapshot();
+        if (
+          idbSnapshot &&
+          Array.isArray(idbSnapshot.lessonPacks) &&
+          idbSnapshot.lessonPacks.length > 0
+        ) {
+          idbSnapshot.lessonPacks = idbSnapshot.lessonPacks.filter(
+            (p: any) =>
+              p.status === 'published' &&
+              Array.isArray(p.vocabularies) &&
+              p.vocabularies.length > 0 &&
+              Array.isArray(p.grammars) &&
+              p.grammars.length > 0 &&
+              !JSON.stringify(p).includes('X を Y します')
+          );
+          await SnapshotIndexedDBStore.saveSnapshot(idbSnapshot);
+        }
+      } catch {
+        // ignore
       }
     } catch (err) {
       console.warn('[CurriculumUpgrade] Error during IndexedDB inspection:', err);
