@@ -281,7 +281,7 @@ export default function App() {
 
   const currentMastery = focusedLesson ? masteryRecords[focusedLesson.id] : masteryRecords['n5.l01'];
 
-  const handleStartStudy = async (lessonId?: string) => {
+  const handleStartStudy = useCallback(async (lessonId?: string) => {
     const targetId = lessonId || profile?.currentLessonId || 'n5.l01';
     let targetPack = pack;
     if (!targetPack || targetPack.id !== targetId) {
@@ -303,16 +303,16 @@ export default function App() {
       startBlock('block_vocab_srs', 60);
     }
     setCurrentView('player');
-  };
+  }, [profile, pack, timerState.state, startBlock]);
 
-  const handleSelectLesson = async (lessonId: string) => {
+  const handleSelectLesson = useCallback(async (lessonId: string) => {
     let loaded = await ContentLoader.getLessonPack(lessonId);
     if (!loaded) {
       loaded = await ContentLoader.getLessonPack(lessonId, { forceRefresh: true });
     }
     if (loaded && loaded.status === 'published') {
       setPack(loaded);
-      if (profile) {
+      if (profile && profile.currentLessonId !== lessonId) {
         const updated = { ...profile, currentLessonId: lessonId };
         setProfile(updated);
         await db.profile.put({ ...updated, id: 'current_user' });
@@ -324,9 +324,28 @@ export default function App() {
     } else {
       console.error(`[App] Failed to load pack for ${lessonId}`);
     }
-  };
+  }, [profile, timerState.state, startBlock]);
 
-  const handleLessonCompleted = async (lessonId: string) => {
+  const handleMasteryUpdated = useCallback((rec: MasteryRecord) => {
+    setMasteryRecords((prev) => {
+      if (prev[rec.lessonId] === rec) return prev;
+      return { ...prev, [rec.lessonId]: rec };
+    });
+  }, []);
+
+  const handleExitPlayer = useCallback(() => {
+    setCurrentView('home');
+  }, []);
+
+  const handleBlockProgress = useCallback((mins: number) => {
+    setTodayStudiedMinutes((prev) => prev + mins);
+  }, []);
+
+  const handleTestActiveChange = useCallback((active: boolean) => {
+    setIsTestActive(active);
+  }, []);
+
+  const handleLessonCompleted = useCallback(async (lessonId: string) => {
     const curriculum = ContentLoader.getCurriculumMap();
     const currentIndex = curriculum.findIndex((m) => m.id === lessonId);
     let nextLessonId: string | null = null;
@@ -354,17 +373,32 @@ export default function App() {
       }
     }
 
-    if (nextLessonId && profile) {
-      const updated = { ...profile, currentLessonId: nextLessonId };
-      setProfile(updated);
-      await db.profile.put({ ...updated, id: 'current_user' });
+    if (nextLessonId) {
+      setProfile((prev) => {
+        if (!prev) return prev;
+        if (prev.currentLessonId === nextLessonId) return prev;
+        const updated = { ...prev, currentLessonId: nextLessonId };
+        db.profile.put({ ...updated, id: 'current_user' }).catch(console.error);
+        return updated;
+      });
       const nextPack = await ContentLoader.getLessonPack(nextLessonId);
       if (nextPack) {
-        setPack(nextPack);
+        setPack((prev) => (prev?.id === nextPack.id ? prev : nextPack));
       }
     }
     await refreshAppData();
-  };
+  }, [refreshAppData]);
+
+  const handleStartLessonTest = useCallback(async (lessonId?: string) => {
+    if (lessonId) {
+      await handleStartStudy(lessonId);
+    } else {
+      if (timerState.state === 'idle') {
+        startBlock('block_test', 60);
+      }
+      setCurrentView('player');
+    }
+  }, [handleStartStudy, timerState.state, startBlock]);
 
   if (loading || !profile || !pack) {
     return (
@@ -459,19 +493,17 @@ export default function App() {
                 pack={pack}
                 profile={profile}
                 masteryRecord={currentMastery}
-                onMasteryUpdated={(rec) => {
-                  setMasteryRecords((prev) => ({ ...prev, [rec.lessonId]: rec }));
-                }}
-                onExit={() => setCurrentView('home')}
+                onMasteryUpdated={handleMasteryUpdated}
+                onExit={handleExitPlayer}
                 onLessonCompleted={handleLessonCompleted}
-                onBlockProgress={(mins) => setTodayStudiedMinutes((p) => p + mins)}
-                onTestActiveChange={setIsTestActive}
+                onBlockProgress={handleBlockProgress}
+                onTestActiveChange={handleTestActiveChange}
               />
             )}
 
             {currentView === 'srs' && (
               <SRSReviewScreen
-                onBack={() => setCurrentView('home')}
+                onBack={handleExitPlayer}
                 onReviewsCompleted={refreshAppData}
               />
             )}
@@ -480,17 +512,8 @@ export default function App() {
               <TestsScreen
                 profile={profile}
                 masteryRecord={currentMastery}
-                onStartLessonTest={async (lessonId) => {
-                  if (lessonId) {
-                    await handleStartStudy(lessonId);
-                  } else {
-                    if (timerState.state === 'idle') {
-                      startBlock('block_test', 60);
-                    }
-                    setCurrentView('player');
-                  }
-                }}
-                onTestActiveChange={setIsTestActive}
+                onStartLessonTest={handleStartLessonTest}
+                onTestActiveChange={handleTestActiveChange}
               />
             )}
 

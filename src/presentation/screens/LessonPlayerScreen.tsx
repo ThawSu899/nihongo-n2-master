@@ -61,6 +61,7 @@ interface LessonPlayerScreenProps {
   onLessonCompleted?: (lessonId: string) => void | Promise<void>;
   onBlockProgress?: (minutes: number) => void;
   onTestActiveChange?: (active: boolean) => void;
+  initialStage?: number;
 }
 
 const STAGE_NAMES = [
@@ -152,8 +153,9 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
   onLessonCompleted,
   onBlockProgress,
   onTestActiveChange,
+  initialStage,
 }) => {
-  const [currentStage, setCurrentStage] = useState<number>(1);
+  const [currentStage, setCurrentStage] = useState<number>(initialStage ?? 1);
   const [isReferenceOpen, setIsReferenceOpen] = useState<boolean>(false);
   const [referenceTab, setReferenceTab] = useState<'counters' | 'expressions' | 'mistakes'>('counters');
   const {
@@ -174,19 +176,26 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
   const clock = useRef(new SystemClock()).current;
   const masteryEngine = useRef(new MasteryEngine(clock)).current;
 
+  const prevTestActiveRef = useRef<boolean>(false);
   useEffect(() => {
-    if (onTestActiveChange) {
-      onTestActiveChange(currentStage === 13);
+    const isTestStage = currentStage === 13;
+    if (onTestActiveChange && prevTestActiveRef.current !== isTestStage) {
+      prevTestActiveRef.current = isTestStage;
+      onTestActiveChange(isTestStage);
     }
     return () => {
-      if (onTestActiveChange) {
+      if (onTestActiveChange && prevTestActiveRef.current) {
+        prevTestActiveRef.current = false;
         onTestActiveChange(false);
       }
     };
   }, [currentStage, onTestActiveChange]);
 
+  const hasCompletedRef = useRef<Record<string, boolean>>({});
+
   useEffect(() => {
-    if (currentStage === 15 && onLessonCompleted) {
+    if (currentStage === 15 && onLessonCompleted && !hasCompletedRef.current[pack.id]) {
+      hasCompletedRef.current[pack.id] = true;
       onLessonCompleted(pack.id);
     }
   }, [currentStage, pack.id, onLessonCompleted]);
@@ -228,9 +237,34 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
     [pack.vocabularies]
   );
 
+  const dokkaiPassage = useMemo(
+    () => convertLessonReadingToDokkai(pack),
+    [pack]
+  );
+
+  const dokkaiAvailablePassages = useMemo(
+    () => [dokkaiPassage, ...CURATED_DOKKAI_CATALOG],
+    [dokkaiPassage]
+  );
+
+  const handleDokkaiComplete = useCallback(({ accuracy }: { accuracy: number }) => {
+    setTestScores((prev) => ({
+      ...prev,
+      reading: {
+        correct: prev.reading.correct + (accuracy >= 80 ? 4 : accuracy >= 60 ? 3 : 2),
+        total: prev.reading.total + 4,
+      },
+    }));
+    setCurrentStage(9);
+    setExerciseIndex(0);
+  }, []);
+
+  // Reset stage and vocab pagination when pack.id changes
   useEffect(() => {
+    setCurrentStage(1);
     setVocabIndex(0);
     setActivePartIndex(0);
+    setExerciseIndex(0);
   }, [pack.id]);
 
   // Reset exercise state when stage changes
@@ -610,7 +644,8 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
     } else if (currentStage === 14) {
       setCurrentStage(15);
     } else if (currentStage === 15) {
-      if (onLessonCompleted) {
+      if (onLessonCompleted && !hasCompletedRef.current[pack.id]) {
+        hasCompletedRef.current[pack.id] = true;
         onLessonCompleted(pack.id);
       }
       onExit();
@@ -700,13 +735,16 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
       <div className="bg-white border border-stone-200 rounded-3xl p-4 sm:p-5 shadow-sm space-y-3.5">
         <div className="flex items-center justify-between text-xs text-stone-500">
           <button
+            type="button"
+            data-testid="lesson-player-exit-btn"
             onClick={async () => {
-              if (currentStage === 15 && onLessonCompleted) {
+              if (currentStage === 15 && onLessonCompleted && !hasCompletedRef.current[pack.id]) {
+                hasCompletedRef.current[pack.id] = true;
                 await onLessonCompleted(pack.id);
               }
               onExit();
             }}
-            className="flex items-center space-x-1.5 text-stone-600 hover:text-stone-900 transition py-1 px-2.5 -ml-2 rounded-xl hover:bg-stone-100"
+            className="flex items-center space-x-1.5 text-stone-600 hover:text-stone-900 transition py-1 px-2.5 -ml-2 rounded-xl hover:bg-stone-100 cursor-pointer pointer-events-auto relative z-20"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
             <span className="font-medium">ထွက်မည် (Exit)</span>
@@ -1314,20 +1352,10 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
           {currentStage === 8 && (
             <div className="space-y-4">
               <DokkaiReaderWorkbench
-                passage={convertLessonReadingToDokkai(pack)}
-                availablePassages={[convertLessonReadingToDokkai(pack), ...CURATED_DOKKAI_CATALOG]}
+                passage={dokkaiPassage}
+                availablePassages={dokkaiAvailablePassages}
                 embeddedMode={true}
-                onComplete={({ accuracy }) => {
-                  setTestScores((prev) => ({
-                    ...prev,
-                    reading: {
-                      correct: prev.reading.correct + (accuracy >= 80 ? 4 : accuracy >= 60 ? 3 : 2),
-                      total: prev.reading.total + 4,
-                    },
-                  }));
-                  setCurrentStage(9);
-                  setExerciseIndex(0);
-                }}
+                onComplete={handleDokkaiComplete}
               />
               <div className="flex justify-between items-center px-1">
                 <button
@@ -1868,17 +1896,20 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                 </p>
               </div>
 
-              <div className="flex flex-col sm:flex-row justify-center gap-3 pt-2">
+              <div className="flex flex-col sm:flex-row justify-center gap-3 pt-2 relative z-20">
                 <motion.button
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
+                  type="button"
+                  data-testid="stage-15-return-btn"
                   onClick={async () => {
-                    if (onLessonCompleted) {
+                    if (onLessonCompleted && !hasCompletedRef.current[pack.id]) {
+                      hasCompletedRef.current[pack.id] = true;
                       await onLessonCompleted(pack.id);
                     }
                     onExit();
                   }}
-                  className="px-8 py-4 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-white font-semibold text-xs tracking-wide transition shadow-sm cursor-pointer"
+                  className="px-8 py-4 rounded-2xl bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-white font-semibold text-xs tracking-wide transition shadow-sm cursor-pointer pointer-events-auto"
                 >
                   ပြီးဆုံး၍ ပင်မစာမျက်နှာသို့ ပြန်သွားမည်
                 </motion.button>

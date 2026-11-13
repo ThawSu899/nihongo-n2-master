@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   CheckSquare,
@@ -137,13 +137,16 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
   const [rehabilitatingCardId, setRehabilitatingCardId] = useState<string | null>(null);
   const [statusNotification, setStatusNotification] = useState<string | null>(null);
 
+  const prevIsAnyActiveRef = useRef<boolean>(false);
   useEffect(() => {
     const isAnyActive = activeTestType !== null || activeDrill !== null;
-    if (onTestActiveChange) {
+    if (onTestActiveChange && prevIsAnyActiveRef.current !== isAnyActive) {
+      prevIsAnyActiveRef.current = isAnyActive;
       onTestActiveChange(isAnyActive);
     }
     return () => {
-      if (onTestActiveChange) {
+      if (onTestActiveChange && prevIsAnyActiveRef.current) {
+        prevIsAnyActiveRef.current = false;
         onTestActiveChange(false);
       }
     };
