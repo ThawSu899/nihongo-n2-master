@@ -4,6 +4,7 @@ import { db } from '../../data/db/dexie-db';
 import { BackupManager } from '../../data/backup/backup-manager';
 import { calculateTrueRetention } from '../../domain/srs/srs-scheduler';
 import { SystemClock } from '../../domain/common/clock';
+import { JLPTMissionControl } from '../components/JLPTMissionControl';
 
 interface ProgressScreenProps {
   profile?: any;
@@ -90,6 +91,9 @@ export const ProgressScreen: React.FC<ProgressScreenProps> = ({
           Metrics derived from your append-only local event log. Learner data is stored exclusively offline on your device.
         </p>
       </div>
+
+      {/* JLPT Mission Control Panel */}
+      <JLPTMissionControl profile={profile} onNavigate={onNavigate} />
 
       {/* Metrics Grid with Clean Paper Styling */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">

@@ -28,6 +28,7 @@ import { ContentLoader } from '../../data/content/content-loader';
 import { ReminderBanner } from '../components/ReminderBanner';
 import { LevelMasteryWidget } from '../components/LevelMasteryWidget';
 import { DailyTargetStreakWidget } from '../components/DailyTargetStreakWidget';
+import { JLPTMissionControl } from '../components/JLPTMissionControl';
 
 interface HomeScreenProps {
   profile: UserProfile;
@@ -371,6 +372,16 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           </button>
         </div>
       )}
+
+      {/* =========================================================================
+          JLPT MISSION CONTROL (Burn-Down & Velocity Engine)
+          ========================================================================= */}
+      <JLPTMissionControl
+        masteryRecords={masteryRecords}
+        profile={profile}
+        onNavigate={onNavigate}
+        onSelectLevel={onSelectLevel}
+      />
 
       {/* =========================================================================
           STREAMLINED BENTO METRICS GRID (Modern Academic Paper)
