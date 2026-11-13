@@ -5,6 +5,7 @@ import {
   selectOptimalJapaneseVoice,
   getPhoneticUtteranceText,
   VocabularyAudioItem,
+  AUDIO_SPEED_STORAGE_KEY,
 } from '../../domain/audio/tts-engine';
 
 export interface SpeakerAcoustics {
@@ -152,13 +153,46 @@ export function useAudioPlayer() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentPlayingText, setCurrentPlayingText] = useState<string | null>(null);
   const [activeSpeaker, setActiveSpeaker] = useState<string | null>(null);
-  const [playbackRate, setPlaybackRate] = useState(1.0);
+  const [playbackRate, setPlaybackRateState] = useState<number>(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        const saved = localStorage.getItem(AUDIO_SPEED_STORAGE_KEY);
+        if (saved) {
+          const val = parseFloat(saved);
+          if (!isNaN(val) && val >= 0.5 && val <= 2.0) {
+            return val;
+          }
+        }
+      } catch {
+        // Fallback to default
+      }
+    }
+    return 1.0;
+  });
+
+  const setPlaybackRate = useCallback((rate: number) => {
+    setPlaybackRateState(rate);
+    if (typeof window !== 'undefined') {
+      try {
+        localStorage.setItem(AUDIO_SPEED_STORAGE_KEY, String(rate));
+      } catch {
+        // Ignore storage error
+      }
+    }
+  }, []);
+
   const [hasJaVoice, setHasJaVoice] = useState(false);
   const [voiceName, setVoiceName] = useState<string>('');
   const [replayCount, setReplayCount] = useState<Record<string, number>>({});
   const [isShadowingLoop, setIsShadowingLoop] = useState<boolean>(false);
   const [shadowingTurnDelay, setShadowingTurnDelayState] = useState<number>(2000); // 1s - 3s (1000 - 3000ms)
   const [activeTurnIndex, setActiveTurnIndex] = useState<number>(-1);
+
+  // 3x vocal shadowing practice state
+  const [isShadowing3x, setIsShadowing3x] = useState<boolean>(false);
+  const [shadowing3xIteration, setShadowing3xIteration] = useState<number>(0);
+  const isShadowing3xRef = useRef<boolean>(false);
+  const shadowing3xTimeoutRef = useRef<any>(null);
 
   const audioElemRef = useRef<HTMLAudioElement | null>(null);
   const voicesRef = useRef<SpeechSynthesisVoice[]>([]);
@@ -234,11 +268,17 @@ export function useAudioPlayer() {
   );
 
   const speakTts = useCallback(
-    (text: string, speaker?: string, phoneticReading?: string) => {
+    (
+      text: string,
+      speaker?: string,
+      phoneticReading?: string,
+      onComplete?: () => void
+    ) => {
       if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
         setIsPlaying(false);
         setCurrentPlayingText(null);
         setActiveSpeaker(null);
+        onComplete?.();
         return;
       }
 
@@ -277,6 +317,7 @@ export function useAudioPlayer() {
           setIsPlaying(false);
           setCurrentPlayingText(null);
           setActiveSpeaker(null);
+          onComplete?.();
         };
 
         utterance.onerror = (e) => {
@@ -287,6 +328,7 @@ export function useAudioPlayer() {
           setIsPlaying(false);
           setCurrentPlayingText(null);
           setActiveSpeaker(null);
+          onComplete?.();
         };
 
         window.speechSynthesis.speak(utterance);
@@ -295,6 +337,7 @@ export function useAudioPlayer() {
         setIsPlaying(false);
         setCurrentPlayingText(null);
         setActiveSpeaker(null);
+        onComplete?.();
       }
     },
     [playbackRate, selectBestVoice]
@@ -391,7 +434,13 @@ export function useAudioPlayer() {
   );
 
   const play = useCallback(
-    (text: string, audioRef?: AudioRef, speaker?: string, phoneticReading?: string) => {
+    (
+      text: string,
+      audioRef?: AudioRef,
+      speaker?: string,
+      phoneticReading?: string,
+      onComplete?: () => void
+    ) => {
       if (typeof window === 'undefined') return;
 
       // Extract spoken Japanese text accurately if embedded in prompts or quotes
@@ -428,11 +477,12 @@ export function useAudioPlayer() {
             setIsPlaying(false);
             setCurrentPlayingText(null);
             setActiveSpeaker(null);
+            onComplete?.();
           };
 
           elem.onerror = () => {
             // Smoothly degrade to Japanese TTS on file missing / 404 / format error
-            speakTts(spokenText, speaker || audioRef.speaker, phoneticReading);
+            speakTts(spokenText, speaker || audioRef.speaker, phoneticReading, onComplete);
           };
 
           setIsPlaying(true);
@@ -441,12 +491,12 @@ export function useAudioPlayer() {
 
           elem.play().catch(() => {
             // Audio element play failed (e.g. autoplay policy or unreachable URL) -> degrade to TTS
-            speakTts(spokenText, speaker || audioRef.speaker, phoneticReading);
+            speakTts(spokenText, speaker || audioRef.speaker, phoneticReading, onComplete);
           });
           return;
         } catch {
           // Degradation path
-          speakTts(spokenText, speaker || audioRef.speaker, phoneticReading);
+          speakTts(spokenText, speaker || audioRef.speaker, phoneticReading, onComplete);
           return;
         }
       }
@@ -454,12 +504,12 @@ export function useAudioPlayer() {
       // If text looks like a multi-speaker dialogue transcript and has no specific audio file,
       // use multi-speaker dialogue playback with correct pitch switches!
       if (text.includes('\n') && (text.includes('：') || text.includes(':'))) {
-        playDialogue(text);
+        playDialogue(text, onComplete);
         return;
       }
 
       // Default or TTS kind - pass verified phonetic reading if provided
-      speakTts(spokenText, speaker || audioRef?.speaker, phoneticReading);
+      speakTts(spokenText, speaker || audioRef?.speaker, phoneticReading, onComplete);
     },
     [playbackRate, speakTts, playDialogue]
   );
@@ -492,6 +542,13 @@ export function useAudioPlayer() {
   }, []);
 
   const stop = useCallback(() => {
+    isShadowing3xRef.current = false;
+    setIsShadowing3x(false);
+    setShadowing3xIteration(0);
+    if (shadowing3xTimeoutRef.current) {
+      clearTimeout(shadowing3xTimeoutRef.current);
+      shadowing3xTimeoutRef.current = null;
+    }
     stopShadowingLoop();
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       window.speechSynthesis.cancel();
@@ -504,6 +561,58 @@ export function useAudioPlayer() {
     setCurrentPlayingText(null);
     setActiveSpeaker(null);
   }, [stopShadowingLoop]);
+
+  /**
+   * Replays a Japanese sentence or item 3 times with a 1.5-second pause between repetitions
+   * for vocal shadowing practice.
+   */
+  const play3xShadowingLoop = useCallback(
+    (
+      text: string,
+      audioRef?: AudioRef,
+      speaker?: string,
+      phoneticReading?: string,
+      onComplete?: () => void
+    ) => {
+      if (typeof window === 'undefined') return;
+
+      const spokenText = cleanJapanesePrompt(text);
+      if (!spokenText && !phoneticReading) return;
+
+      stop();
+      isShadowing3xRef.current = true;
+      setIsShadowing3x(true);
+      setShadowing3xIteration(1);
+
+      const runTurn = (iter: number) => {
+        if (!isShadowing3xRef.current) return;
+        setShadowing3xIteration(iter);
+
+        play(text, audioRef, speaker, phoneticReading, () => {
+          if (!isShadowing3xRef.current) return;
+          if (iter < 3) {
+            // 1.5-second pause between repetitions for vocal shadowing practice
+            shadowing3xTimeoutRef.current = setTimeout(() => {
+              if (!isShadowing3xRef.current) return;
+              runTurn(iter + 1);
+            }, 1500);
+          } else {
+            // Completed 3 repetitions
+            isShadowing3xRef.current = false;
+            setIsShadowing3x(false);
+            setShadowing3xIteration(0);
+            setIsPlaying(false);
+            setCurrentPlayingText(null);
+            setActiveSpeaker(null);
+            onComplete?.();
+          }
+        });
+      };
+
+      runTurn(1);
+    },
+    [play, stop]
+  );
 
   const startShadowingLoop = useCallback(
     (
@@ -609,6 +718,9 @@ export function useAudioPlayer() {
     play,
     playVocabulary,
     playDialogue,
+    play3xShadowingLoop,
+    isShadowing3x,
+    shadowing3xIteration,
     stop,
     isPlaying,
     currentPlayingText,

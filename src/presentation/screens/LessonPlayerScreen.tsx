@@ -31,6 +31,10 @@ import {
 import { FuriganaRuby } from '../components/FuriganaRuby';
 import { PitchAccentVisualizer } from '../components/PitchAccentVisualizer';
 import { useAudioPlayer, cleanJapanesePrompt, parseDialogueTranscript } from '../hooks/useAudioPlayer';
+import {
+  TTS_SPEED_PRESETS,
+  BLIND_LISTENING_STORAGE_KEY,
+} from '../../domain/audio/tts-engine';
 import { chunkVocabulary, formatPartBadge, VocabularyChunk } from '../../domain/curriculum/vocabulary-pagination';
 import { checkAnswer, deriveSRSRating } from '../../domain/assessment/answer-checker';
 import { AssessmentSession, ShuffledOption } from '../../domain/assessment/shuffler';
@@ -160,6 +164,9 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
   const [referenceTab, setReferenceTab] = useState<'counters' | 'expressions' | 'mistakes'>('counters');
   const {
     play,
+    play3xShadowingLoop,
+    isShadowing3x,
+    shadowing3xIteration,
     stop,
     isPlaying,
     currentPlayingText,
@@ -231,6 +238,48 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
   const [activePartIndex, setActivePartIndex] = useState(0);
   const vocabContainerRef = useRef<HTMLDivElement>(null);
   const [isKanjiDrawerOpen, setIsKanjiDrawerOpen] = useState(false);
+
+  // Blind Listening Mode preference (persisted to localStorage)
+  const [blindListeningMode, setBlindListeningMode] = useState<boolean>(() => {
+    if (typeof window !== 'undefined') {
+      try {
+        return localStorage.getItem(BLIND_LISTENING_STORAGE_KEY) === 'true';
+      } catch {
+        return false;
+      }
+    }
+    return false;
+  });
+
+  const toggleBlindListeningMode = useCallback(() => {
+    setBlindListeningMode((prev) => {
+      const next = !prev;
+      if (typeof window !== 'undefined') {
+        try {
+          localStorage.setItem(BLIND_LISTENING_STORAGE_KEY, String(next));
+        } catch {
+          // Ignore storage error
+        }
+      }
+      return next;
+    });
+  }, []);
+
+  const [blindRevealed, setBlindRevealed] = useState<boolean>(false);
+
+  // Reset blind revealed status on stage, exercise, or vocab change
+  useEffect(() => {
+    setBlindRevealed(false);
+  }, [currentStage, exerciseIndex, vocabIndex]);
+
+  // When audio finishes playing in blind mode, auto reveal text
+  const wasPlayingAudioRef = useRef<boolean>(false);
+  useEffect(() => {
+    if (wasPlayingAudioRef.current && !isPlaying && blindListeningMode) {
+      setBlindRevealed(true);
+    }
+    wasPlayingAudioRef.current = isPlaying;
+  }, [isPlaying, blindListeningMode]);
 
   const vocabChunks = useMemo(
     () => chunkVocabulary(pack.vocabularies, 15),
@@ -818,6 +867,49 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
             })}
           </div>
         </div>
+
+        {/* Audio Toolbar: Multi-Speed TTS & Blind Listening Mode */}
+        <div className="pt-2 border-t border-stone-100 flex flex-wrap items-center justify-between gap-2 text-xs">
+          {/* Blind Listening Mode Toggle */}
+          <motion.button
+            whileTap={{ scale: 0.96 }}
+            onClick={toggleBlindListeningMode}
+            className={`px-3 py-1.5 rounded-xl border font-medium flex items-center space-x-1.5 transition cursor-pointer font-myanmar ${
+              blindListeningMode
+                ? 'bg-purple-600 text-white border-purple-600 shadow-xs'
+                : 'bg-stone-50 hover:bg-stone-100 text-stone-700 border-stone-200'
+            }`}
+            title="Blind Listening Mode: Blurs/hides Japanese and Burmese text until audio completes or clicked"
+          >
+            <span>🎧</span>
+            <span>Blind Listening Mode (အသံအရင်နားထောင်မည်)</span>
+            {blindListeningMode && (
+              <span className="ml-1 text-[10px] bg-purple-800 text-white px-1.5 py-0.2 rounded-md font-sans">
+                ON
+              </span>
+            )}
+          </motion.button>
+
+          {/* Speed Presets */}
+          <div className="flex items-center space-x-1 bg-stone-50 px-2 py-1 rounded-xl border border-stone-200">
+            <span className="text-[10px] text-stone-500 font-mono mr-1">Speed:</span>
+            {TTS_SPEED_PRESETS.map((preset) => (
+              <button
+                key={preset.rate}
+                type="button"
+                onClick={() => setPlaybackRate(preset.rate)}
+                className={`px-2 py-0.5 rounded-lg text-[11px] transition cursor-pointer font-myanmar ${
+                  playbackRate === preset.rate
+                    ? 'bg-indigo-600 text-white font-bold shadow-2xs'
+                    : 'text-stone-600 hover:text-stone-900 hover:bg-stone-200'
+                }`}
+                title={preset.labelBurmese}
+              >
+                {preset.labelBurmese}
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
 
       {/* STAGE CONTAINER WITH ANIMATED TRANSITIONS */}
@@ -969,7 +1061,28 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                       transition={{ duration: 0.2 }}
                       className="bg-stone-50 border border-stone-200 rounded-3xl p-6 sm:p-8 text-center space-y-4"
                     >
-                      <div className="flex flex-col items-center justify-center py-2 space-y-1.5">
+                      {/* Blind Mode Reveal Trigger / Indicator */}
+                      {blindListeningMode && !blindRevealed && (
+                        <div className="flex justify-center">
+                          <button
+                            type="button"
+                            onClick={() => setBlindRevealed(true)}
+                            className="px-3.5 py-1.5 rounded-xl bg-purple-100 hover:bg-purple-200 text-purple-900 border border-purple-300 text-xs font-semibold flex items-center space-x-1.5 transition cursor-pointer shadow-xs font-myanmar"
+                          >
+                            <span>👁️</span>
+                            <span>စာသားဖွင့်ကြည့်မည် (Click to Reveal)</span>
+                          </button>
+                        </div>
+                      )}
+
+                      <div
+                        onClick={() => {
+                          if (blindListeningMode && !blindRevealed) setBlindRevealed(true);
+                        }}
+                        className={`flex flex-col items-center justify-center py-2 space-y-1.5 transition duration-300 ${
+                          blindListeningMode && !blindRevealed ? 'filter blur-md select-none cursor-pointer' : ''
+                        }`}
+                      >
                         <FuriganaRuby
                           kanji={v.ja}
                           kana={v.kana}
@@ -984,7 +1097,14 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                       </div>
 
                       {/* Visual Pitch Accent Stepped Contour Curve */}
-                      <div className="flex justify-center py-1">
+                      <div
+                        onClick={() => {
+                          if (blindListeningMode && !blindRevealed) setBlindRevealed(true);
+                        }}
+                        className={`flex justify-center py-1 transition duration-300 ${
+                          blindListeningMode && !blindRevealed ? 'filter blur-md select-none cursor-pointer' : ''
+                        }`}
+                      >
                         <PitchAccentVisualizer
                           text={v.kana || v.ja}
                           pattern={v.pitchPattern}
@@ -995,7 +1115,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                         />
                       </div>
 
-                      <div className="flex items-center justify-center space-x-3">
+                      <div className="flex flex-wrap items-center justify-center gap-2.5">
                         <motion.button
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
@@ -1019,6 +1139,33 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                             {getDisplayBadge('PLAY_AUDIO')}
                           </kbd>
                         </motion.button>
+
+                        {/* 🔁 3x Shadowing Loop Button */}
+                        <motion.button
+                          whileHover={{ scale: 1.05 }}
+                          whileTap={{ scale: 0.95 }}
+                          onClick={() => {
+                            if (isShadowing3x) {
+                              stop();
+                            } else {
+                              play3xShadowingLoop(v.ja, v.audio, undefined, v.kana);
+                            }
+                          }}
+                          className={`px-3 py-2.5 rounded-xl ${
+                            isShadowing3x && (currentPlayingText === v.ja || currentPlayingText === v.kana)
+                              ? 'bg-amber-600 text-white shadow-sm ring-2 ring-amber-500/40 animate-pulse'
+                              : 'bg-amber-50 hover:bg-amber-100 border border-amber-200 text-amber-900'
+                          } text-xs font-medium flex items-center space-x-1.5 transition shadow-xs cursor-pointer font-myanmar`}
+                          title="3x Shadowing Loop (1.5s pause between repetitions)"
+                        >
+                          <span>🔁</span>
+                          <span>
+                            {isShadowing3x && (currentPlayingText === v.ja || currentPlayingText === v.kana)
+                              ? `3x (${shadowing3xIteration}/3)`
+                              : '🔁 3x Shadowing Loop'}
+                          </span>
+                        </motion.button>
+
                         {(replayCount[v.ja] || replayCount[v.kana]) && (
                           <span className="text-[11px] text-stone-500 font-mono">
                             ဖွင့်ပြီး: {replayCount[v.ja] || replayCount[v.kana]} ကြိမ်
@@ -1026,7 +1173,14 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                         )}
                       </div>
 
-                      <div className="pt-3 border-t border-stone-200 space-y-1.5">
+                      <div
+                        onClick={() => {
+                          if (blindListeningMode && !blindRevealed) setBlindRevealed(true);
+                        }}
+                        className={`pt-3 border-t border-stone-200 space-y-1.5 transition duration-300 ${
+                          blindListeningMode && !blindRevealed ? 'filter blur-md select-none cursor-pointer' : ''
+                        }`}
+                      >
                         <p className="text-xl font-bold text-stone-900 font-myanmar">
                           {v.meaningMyanmar || v.my || v.meaningMy || v.en}
                         </p>
@@ -1293,6 +1447,23 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                 <h2 className="text-xl font-bold text-stone-900">ဝါကျတွင်း လက်တွေ့အသုံးများ</h2>
               </div>
 
+              {/* Blind Mode Notice in Stage 5 */}
+              {blindListeningMode && !blindRevealed && (
+                <div className="bg-purple-50 border border-purple-200 rounded-2xl p-3.5 flex items-center justify-between gap-2 shadow-xs">
+                  <div className="flex items-center space-x-2 text-xs text-purple-900 font-myanmar">
+                    <span>🎧</span>
+                    <span>Blind Listening Mode ဖွင့်ထားပါသည် — အသံအရင်နားထောင်ပြီးမှ စာသားကို ဖွင့်ကြည့်ပါ</span>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setBlindRevealed(true)}
+                    className="px-3 py-1.5 rounded-xl bg-purple-600 hover:bg-purple-700 text-white text-xs font-semibold shrink-0 cursor-pointer transition font-myanmar shadow-xs"
+                  >
+                    စာသားဖွင့်ကြည့်မည်
+                  </button>
+                </div>
+              )}
+
               <div className="space-y-3">
                 {pack.sentences.map((s) => (
                   <motion.div
@@ -1300,7 +1471,16 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                     whileHover={{ scale: 1.005 }}
                     className="bg-stone-50 border border-stone-200 hover:border-stone-300 rounded-2xl p-4 flex items-center justify-between gap-4 transition shadow-xs"
                   >
-                    <div className="space-y-1">
+                    <div
+                      onClick={() => {
+                        if (blindListeningMode && !blindRevealed) setBlindRevealed(true);
+                      }}
+                      className={`space-y-1 transition duration-300 ${
+                        blindListeningMode && !blindRevealed
+                          ? 'filter blur-md select-none cursor-pointer'
+                          : ''
+                      }`}
+                    >
                       <div className="text-base font-japanese font-medium text-stone-900">{s.ja}</div>
                       <div className="text-xs text-stone-700 font-myanmar">
                         {s.translation.my || s.translationMy || s.translation.en}
@@ -1310,25 +1490,54 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                       )}
                     </div>
 
-                    <motion.button
-                      whileHover={{ scale: 1.08 }}
-                      whileTap={{ scale: 0.94 }}
-                      onClick={() => {
-                        if (isPlaying && currentPlayingText === s.ja) {
-                          stop();
-                        } else {
-                          play(s.ja, s.audio);
-                        }
-                      }}
-                      className={`p-3 rounded-xl transition shrink-0 ${
-                        isPlaying && currentPlayingText === s.ja
-                          ? 'bg-indigo-600 text-white ring-2 ring-indigo-500/50 shadow-sm animate-pulse'
-                          : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200'
-                      }`}
-                      aria-label="Play sentence audio"
-                    >
-                      <Volume2 className="w-4 h-4" />
-                    </motion.button>
+                    <div className="flex items-center space-x-2 shrink-0">
+                      <motion.button
+                        whileHover={{ scale: 1.08 }}
+                        whileTap={{ scale: 0.94 }}
+                        onClick={() => {
+                          if (isPlaying && currentPlayingText === s.ja) {
+                            stop();
+                          } else {
+                            play(s.ja, s.audio);
+                          }
+                        }}
+                        className={`p-3 rounded-xl transition shrink-0 ${
+                          isPlaying && currentPlayingText === s.ja
+                            ? 'bg-indigo-600 text-white ring-2 ring-indigo-500/50 shadow-sm animate-pulse'
+                            : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200'
+                        }`}
+                        aria-label="Play sentence audio"
+                      >
+                        <Volume2 className="w-4 h-4" />
+                      </motion.button>
+
+                      {/* 🔁 3x Shadowing Loop Button */}
+                      <motion.button
+                        whileHover={{ scale: 1.05 }}
+                        whileTap={{ scale: 0.95 }}
+                        onClick={() => {
+                          if (isShadowing3x && currentPlayingText === s.ja) {
+                            stop();
+                          } else {
+                            play3xShadowingLoop(s.ja, s.audio);
+                          }
+                        }}
+                        className={`px-2.5 py-2.5 rounded-xl text-xs font-medium border flex items-center space-x-1 transition cursor-pointer font-myanmar ${
+                          isShadowing3x && currentPlayingText === s.ja
+                            ? 'bg-amber-600 text-white border-amber-600 shadow-xs animate-pulse'
+                            : 'bg-amber-50 hover:bg-amber-100 text-amber-900 border-amber-200'
+                        }`}
+                        aria-label="3x Shadowing Loop"
+                        title="Replay 3 times with 1.5s pause for vocal shadowing practice"
+                      >
+                        <span>🔁</span>
+                        <span className="text-[11px]">
+                          {isShadowing3x && currentPlayingText === s.ja
+                            ? `3x (${shadowing3xIteration}/3)`
+                            : '3x Loop'}
+                        </span>
+                      </motion.button>
+                    </div>
                   </motion.div>
                 ))}
               </div>
@@ -1413,33 +1622,60 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                   <span className="text-[10px] text-stone-500 uppercase font-mono block">
                     စကားပြောခန်း: {pack.listening.titleMy || pack.listening.title}
                   </span>
-                  <motion.button
-                    whileHover={{ scale: 1.03 }}
-                    whileTap={{ scale: 0.97 }}
-                    onClick={() => {
-                      if (isPlaying && currentPlayingText === pack.listening.transcript) {
-                        stop();
-                      } else {
-                        play(pack.listening.transcript, pack.listening.audio);
-                      }
-                    }}
-                    className={`px-6 py-3 rounded-2xl text-white text-xs font-semibold inline-flex items-center space-x-2 transition shadow-sm cursor-pointer ${
-                      isPlaying && currentPlayingText === pack.listening.transcript
-                        ? 'bg-indigo-600 ring-4 ring-indigo-500/30 animate-pulse'
-                        : 'bg-indigo-600 hover:bg-indigo-700'
-                    }`}
-                    title="စကားပြောအသံ ဖွင့်မည် [Space]"
-                  >
-                    <Headphones className="w-4 h-4" />
-                    <span>
-                      {isPlaying && currentPlayingText === pack.listening.transcript
-                        ? 'စကားပြောအသံ ဖွင့်နေသည်...'
-                        : 'စကားပြောအသံ ဖွင့်မည်'}
-                    </span>
-                    <kbd className="ml-1 text-[10px] px-1.5 py-0.5 rounded bg-black/20 border border-white/30 font-mono text-white">
-                      Space
-                    </kbd>
-                  </motion.button>
+                  <div className="flex flex-wrap items-center justify-center gap-2.5">
+                    <motion.button
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.97 }}
+                      onClick={() => {
+                        if (isPlaying && currentPlayingText === pack.listening.transcript) {
+                          stop();
+                        } else {
+                          play(pack.listening.transcript, pack.listening.audio);
+                        }
+                      }}
+                      className={`px-6 py-3 rounded-2xl text-white text-xs font-semibold inline-flex items-center space-x-2 transition shadow-sm cursor-pointer ${
+                        isPlaying && currentPlayingText === pack.listening.transcript
+                          ? 'bg-indigo-600 ring-4 ring-indigo-500/30 animate-pulse'
+                          : 'bg-indigo-600 hover:bg-indigo-700'
+                      }`}
+                      title="စကားပြောအသံ ဖွင့်မည် [Space]"
+                    >
+                      <Headphones className="w-4 h-4" />
+                      <span>
+                        {isPlaying && currentPlayingText === pack.listening.transcript
+                          ? 'စကားပြောအသံ ဖွင့်နေသည်...'
+                          : 'စကားပြောအသံ ဖွင့်မည်'}
+                      </span>
+                      <kbd className="ml-1 text-[10px] px-1.5 py-0.5 rounded bg-black/20 border border-white/30 font-mono text-white">
+                        Space
+                      </kbd>
+                    </motion.button>
+
+                    <motion.button
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.97 }}
+                      onClick={() => {
+                        if (isShadowing3x && currentPlayingText === pack.listening.transcript) {
+                          stop();
+                        } else {
+                          play3xShadowingLoop(pack.listening.transcript, pack.listening.audio);
+                        }
+                      }}
+                      className={`px-4 py-3 rounded-2xl text-xs font-semibold inline-flex items-center space-x-1.5 transition shadow-sm cursor-pointer border font-myanmar ${
+                        isShadowing3x && currentPlayingText === pack.listening.transcript
+                          ? 'bg-amber-600 text-white border-amber-600 ring-4 ring-amber-500/30 animate-pulse'
+                          : 'bg-amber-50 hover:bg-amber-100 text-amber-900 border-amber-200'
+                      }`}
+                      title="🔁 3x Shadowing Loop (1.5-second pause between repetitions)"
+                    >
+                      <span>🔁</span>
+                      <span>
+                        {isShadowing3x && currentPlayingText === pack.listening.transcript
+                          ? `3x Loop (${shadowing3xIteration}/3)`
+                          : '🔁 3x Shadowing Loop'}
+                      </span>
+                    </motion.button>
+                  </div>
                   {hasAnsweredListening && (
                     <motion.div
                       initial={{ opacity: 0, height: 0 }}

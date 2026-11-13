@@ -28,6 +28,7 @@ import {
 } from '../../domain/srs/srs-scheduler';
 import { SystemClock } from '../../domain/common/clock';
 import { useAudioPlayer } from '../hooks/useAudioPlayer';
+import { TTS_SPEED_PRESETS } from '../../domain/audio/tts-engine';
 import { EventRepository } from '../../data/repositories/event-repository';
 import { isKanjiChar, getOrDecomposeKanji, KanjiDetail } from '../../domain/dictionary/kanji-catalog';
 import { KanjiDrawer } from '../components/KanjiDrawer';
@@ -84,7 +85,17 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
 
   const clock = new SystemClock();
   const scheduler = new FSRSScheduler(clock);
-  const { play, stop, isPlaying, currentPlayingText, playbackRate, setPlaybackRate } = useAudioPlayer();
+  const {
+    play,
+    stop,
+    isPlaying,
+    currentPlayingText,
+    playbackRate,
+    setPlaybackRate,
+    play3xShadowingLoop,
+    isShadowing3x,
+    shadowing3xIteration,
+  } = useAudioPlayer();
 
   const isDrawerOpen = selectedKanji !== null;
 
@@ -772,26 +783,56 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                 <Volume2 className="w-4 h-4" />
               </motion.button>
 
-              {/* TTS Speed Controls (0.75x, 1.0x, 1.25x, 1.5x) */}
+              {/* TTS Speed Controls (0.75x နှေး, 1.0x ပုံမှန်, 1.2x မြန်) */}
               <div
                 onClick={(e) => e.stopPropagation()}
                 className="flex items-center space-x-1 bg-stone-100 px-2 py-1 rounded-xl border border-stone-200 text-xs font-mono"
               >
-                {[0.75, 1.0, 1.25, 1.5].map((spd) => (
+                {TTS_SPEED_PRESETS.map((preset) => (
                   <button
-                    key={spd}
+                    key={preset.rate}
                     type="button"
-                    onClick={() => setPlaybackRate(spd)}
-                    className={`px-1.5 py-0.5 rounded text-[11px] transition cursor-pointer ${
-                      playbackRate === spd
+                    onClick={() => setPlaybackRate(preset.rate)}
+                    className={`px-1.5 py-0.5 rounded text-[11px] transition cursor-pointer font-myanmar ${
+                      playbackRate === preset.rate
                         ? 'bg-indigo-600 text-white font-bold shadow-2xs'
                         : 'text-stone-600 hover:text-stone-900 hover:bg-stone-200'
                     }`}
+                    title={preset.labelBurmese}
                   >
-                    {spd}x
+                    {preset.labelBurmese}
                   </button>
                 ))}
               </div>
+
+              {/* 🔁 3x Shadowing Loop */}
+              <motion.button
+                whileHover={{ scale: 1.04 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  if (isShadowing3x) {
+                    stop();
+                  } else {
+                    play3xShadowingLoop(currentCard.prompt, currentCard.audio, undefined, currentCard.reading);
+                  }
+                }}
+                className={`px-2 py-1 rounded-xl text-xs font-medium border flex items-center space-x-1 transition cursor-pointer font-myanmar ${
+                  isShadowing3x &&
+                  (currentPlayingText === currentCard.prompt || currentPlayingText === currentCard.reading)
+                    ? 'bg-amber-600 text-white border-amber-600 shadow-xs animate-pulse'
+                    : 'bg-amber-50 hover:bg-amber-100 text-amber-900 border-amber-200'
+                }`}
+                title="Replay 3 times with 1.5s pause for vocal shadowing practice"
+              >
+                <span>🔁</span>
+                <span>
+                  {isShadowing3x &&
+                  (currentPlayingText === currentCard.prompt || currentPlayingText === currentCard.reading)
+                    ? `3x (${shadowing3xIteration}/3)`
+                    : '🔁 3x Shadowing Loop'}
+                </span>
+              </motion.button>
             </div>
           )}
         </motion.div>

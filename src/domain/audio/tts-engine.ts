@@ -3,6 +3,21 @@
  * Enforces reading accuracy, Neural voice ranking, and clean phonetic input.
  */
 
+export const AUDIO_SPEED_STORAGE_KEY = 'nihongo_audio_speed';
+export const BLIND_LISTENING_STORAGE_KEY = 'nihongo_blind_listening_mode';
+
+export interface TtsSpeedPreset {
+  rate: number;
+  label: string;
+  labelBurmese: string;
+}
+
+export const TTS_SPEED_PRESETS: readonly TtsSpeedPreset[] = [
+  { rate: 0.75, label: '0.75x', labelBurmese: '0.75x နှေး' },
+  { rate: 1.0, label: '1.0x', labelBurmese: '1.0x ပုံမှန်' },
+  { rate: 1.2, label: '1.2x', labelBurmese: '1.2x မြန်' },
+] as const;
+
 export interface VocabularyAudioItem {
   ja?: string;
   word?: string;
@@ -231,4 +246,69 @@ export function speakVocabulary(
     options.onError?.(err);
     return null;
   }
+}
+
+export interface Shadowing3xController {
+  cancel: () => void;
+  isCancelled: () => boolean;
+}
+
+/**
+ * Speaks a Japanese vocabulary item or sentence 3 times with a 1.5-second pause between repetitions
+ * for intensive vocal shadowing practice.
+ */
+export function play3xShadowingTts(
+  vocab: VocabularyAudioItem | string,
+  options: SpeakOptions = {},
+  onIteration?: (iteration: number) => void
+): Shadowing3xController {
+  let cancelled = false;
+  let timerId: any = null;
+
+  const controller: Shadowing3xController = {
+    cancel: () => {
+      cancelled = true;
+      if (timerId) clearTimeout(timerId);
+      const win =
+        typeof window !== 'undefined'
+          ? window
+          : typeof globalThis !== 'undefined'
+          ? (globalThis as any).window || (globalThis as any)
+          : null;
+      if (win?.speechSynthesis) {
+        win.speechSynthesis.cancel();
+      }
+    },
+    isCancelled: () => cancelled,
+  };
+
+  const playTurn = (iter: number) => {
+    if (cancelled) return;
+    onIteration?.(iter);
+
+    const vocabItem: VocabularyAudioItem =
+      typeof vocab === 'string' ? { ja: vocab } : vocab;
+
+    speakVocabulary(vocabItem, {
+      ...options,
+      onEnd: () => {
+        if (cancelled) return;
+        if (iter < 3) {
+          timerId = setTimeout(() => {
+            if (cancelled) return;
+            playTurn(iter + 1);
+          }, 1500);
+        } else {
+          options.onEnd?.();
+        }
+      },
+      onError: (err) => {
+        if (cancelled) return;
+        options.onError?.(err);
+      },
+    });
+  };
+
+  playTurn(1);
+  return controller;
 }
