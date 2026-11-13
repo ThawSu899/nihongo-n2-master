@@ -33,12 +33,12 @@ export function getStoredExamTarget(fallbackLevel?: string): JLPTExamTarget {
       ? (fallbackLevel as JLPTLevel)
       : DEFAULT_EXAM_LEVEL;
 
-  if (typeof window === 'undefined' || typeof localStorage === 'undefined') {
+  if (typeof globalThis.localStorage === 'undefined') {
     return { targetDate: DEFAULT_EXAM_DATE, targetLevel: validFallback };
   }
 
   try {
-    const raw = localStorage.getItem(EXAM_TARGET_STORAGE_KEY);
+    const raw = globalThis.localStorage.getItem(EXAM_TARGET_STORAGE_KEY);
     if (!raw) {
       return { targetDate: DEFAULT_EXAM_DATE, targetLevel: validFallback };
     }
@@ -58,10 +58,12 @@ export function getStoredExamTarget(fallbackLevel?: string): JLPTExamTarget {
 }
 
 export function saveStoredExamTarget(target: JLPTExamTarget): void {
-  if (typeof window === 'undefined' || typeof localStorage === 'undefined') return;
+  if (typeof globalThis.localStorage === 'undefined') return;
   try {
-    localStorage.setItem(EXAM_TARGET_STORAGE_KEY, JSON.stringify(target));
-    window.dispatchEvent(new CustomEvent('nihongo_exam_target_updated', { detail: target }));
+    globalThis.localStorage.setItem(EXAM_TARGET_STORAGE_KEY, JSON.stringify(target));
+    if (typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('nihongo_exam_target_updated', { detail: target }));
+    }
   } catch (err) {
     console.warn('Failed to save JLPT exam target to localStorage:', err);
   }

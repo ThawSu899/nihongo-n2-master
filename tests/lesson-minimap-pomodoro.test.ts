@@ -12,9 +12,29 @@ import {
 import { TimerWidget } from '../src/presentation/components/TimerWidget';
 import { StudyTimerState } from '../src/domain/models/types';
 
+const createMockLocalStorage = () => {
+  let store: Record<string, string> = {};
+  return {
+    getItem: (key: string) => store[key] ?? null,
+    setItem: (key: string, value: string) => {
+      store[key] = String(value);
+    },
+    removeItem: (key: string) => {
+      delete store[key];
+    },
+    clear: () => {
+      store = {};
+    },
+    key: (i: number) => Object.keys(store)[i] ?? null,
+    get length() {
+      return Object.keys(store).length;
+    },
+  };
+};
+
 describe('ADVANCED FEATURE 8/10: 15-Stage Minimap & Focus Mode', () => {
   beforeEach(() => {
-    localStorage.clear();
+    (globalThis as any).localStorage = createMockLocalStorage();
   });
 
   describe('PomodoroFocusEngine', () => {

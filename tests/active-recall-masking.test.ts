@@ -7,9 +7,29 @@ import {
   ACTIVE_RECALL_MASK_STORAGE_KEY,
 } from '../src/presentation/components/ActiveRecallMaskingBar';
 
+const createMockLocalStorage = () => {
+  let store: Record<string, string> = {};
+  return {
+    getItem: (key: string) => store[key] ?? null,
+    setItem: (key: string, value: string) => {
+      store[key] = String(value);
+    },
+    removeItem: (key: string) => {
+      delete store[key];
+    },
+    clear: () => {
+      store = {};
+    },
+    key: (i: number) => Object.keys(store)[i] ?? null,
+    get length() {
+      return Object.keys(store).length;
+    },
+  };
+};
+
 describe('Active Recall Masking Bar Engine', () => {
   beforeEach(() => {
-    localStorage.clear();
+    (globalThis as any).localStorage = createMockLocalStorage();
   });
 
   it('cycles smoothly through masking modes in the defined progression', () => {

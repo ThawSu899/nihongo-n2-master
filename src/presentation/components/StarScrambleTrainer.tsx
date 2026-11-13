@@ -284,6 +284,7 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
           <span className="font-mono text-amber-600 font-bold uppercase tracking-wider flex items-center gap-1.5">
             <Star className="w-4 h-4 fill-amber-500 text-amber-500" />
             <span>★ 문장 조립 / JLPT Star Grammar Puzzle (ကြယ်ပွင့် ဝါကျစီ လေ့ကျင့်ခန်း)</span>
+            <span className="sr-only">★ 文法・並べ替え (Sentence Scramble)</span>
           </span>
         </div>
 
@@ -398,7 +399,7 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
                     </span>
                   ) : (
                     <span className="font-mono text-xs opacity-50">
-                      [ {slotIdx + 1} ]
+                      {`[ ${slotIdx + 1} ]`}
                     </span>
                   )}
                 </button>

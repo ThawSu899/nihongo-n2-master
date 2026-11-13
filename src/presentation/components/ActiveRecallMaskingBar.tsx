@@ -11,11 +11,11 @@ export interface ActiveRecallMaskState {
 export const ACTIVE_RECALL_MASK_STORAGE_KEY = 'nihongo_active_recall_mask';
 
 export function loadSavedMaskState(): ActiveRecallMaskState {
-  if (typeof window === 'undefined') {
+  if (typeof globalThis.localStorage === 'undefined') {
     return { hideFurigana: false, hideBurmese: false, hideKanji: false };
   }
   try {
-    const raw = localStorage.getItem(ACTIVE_RECALL_MASK_STORAGE_KEY);
+    const raw = globalThis.localStorage.getItem(ACTIVE_RECALL_MASK_STORAGE_KEY);
     if (raw) {
       const parsed = JSON.parse(raw);
       return {
@@ -31,9 +31,9 @@ export function loadSavedMaskState(): ActiveRecallMaskState {
 }
 
 export function saveMaskState(state: ActiveRecallMaskState): void {
-  if (typeof window === 'undefined') return;
+  if (typeof globalThis.localStorage === 'undefined') return;
   try {
-    localStorage.setItem(ACTIVE_RECALL_MASK_STORAGE_KEY, JSON.stringify(state));
+    globalThis.localStorage.setItem(ACTIVE_RECALL_MASK_STORAGE_KEY, JSON.stringify(state));
   } catch {
     // ignore
   }

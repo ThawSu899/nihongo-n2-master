@@ -15,9 +15,9 @@ export interface UserLessonNote {
 export type UserNotesMap = Record<string, UserLessonNote>;
 
 export function getUserNotes(): UserNotesMap {
-  if (typeof window === 'undefined') return {};
+  if (typeof globalThis.localStorage === 'undefined') return {};
   try {
-    const raw = localStorage.getItem(USER_NOTES_STORAGE_KEY);
+    const raw = globalThis.localStorage.getItem(USER_NOTES_STORAGE_KEY);
     if (!raw) return {};
     const parsed = JSON.parse(raw);
     return typeof parsed === 'object' && parsed !== null ? parsed : {};
@@ -27,9 +27,9 @@ export function getUserNotes(): UserNotesMap {
 }
 
 export function saveUserNotes(notesMap: UserNotesMap): void {
-  if (typeof window === 'undefined') return;
+  if (typeof globalThis.localStorage === 'undefined') return;
   try {
-    localStorage.setItem(USER_NOTES_STORAGE_KEY, JSON.stringify(notesMap));
+    globalThis.localStorage.setItem(USER_NOTES_STORAGE_KEY, JSON.stringify(notesMap));
   } catch (err) {
     console.warn('[saveUserNotes] Failed to persist notes to localStorage:', err);
   }

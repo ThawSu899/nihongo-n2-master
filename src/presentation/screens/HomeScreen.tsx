@@ -426,7 +426,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
                   🔥 Leech Drill Mode (အားနည်းချက် အထူးလေ့ကျင့်ခန်း)
                 </span>
                 <span className="px-2.5 py-0.5 rounded-full bg-rose-600 text-white text-[10px] font-mono font-bold">
-                  {leechCardsCount} Items
+                  {`${leechCardsCount} Items`}
                 </span>
               </div>
               <p className="text-xs text-stone-600 mt-0.5 font-sans">

@@ -1297,7 +1297,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
             <div>
               <div className="flex items-center space-x-2">
                 <span className="text-sm font-bold text-stone-900 font-myanmar">
-                  📤 Export Weak Items / Level to Anki (.tsv)
+                  📤 Export to Anki (.tsv) — Weak Items / Level Deck
                 </span>
                 <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 font-mono font-bold">
                   Anki 2.1+ / AnkiDroid

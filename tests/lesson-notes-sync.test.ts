@@ -1,3 +1,4 @@
+import 'fake-indexeddb/auto';
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import {
   USER_NOTES_STORAGE_KEY,
@@ -13,9 +14,29 @@ import {
 import { BackupManager, BackupData } from '../src/data/backup/backup-manager';
 import { db } from '../src/data/db/dexie-db';
 
+const createMockLocalStorage = () => {
+  let store: Record<string, string> = {};
+  return {
+    getItem: (key: string) => store[key] ?? null,
+    setItem: (key: string, value: string) => {
+      store[key] = String(value);
+    },
+    removeItem: (key: string) => {
+      delete store[key];
+    },
+    clear: () => {
+      store = {};
+    },
+    key: (i: number) => Object.keys(store)[i] ?? null,
+    get length() {
+      return Object.keys(store).length;
+    },
+  };
+};
+
 describe('Personal Burmese Notes & Bookmark System', () => {
   beforeEach(() => {
-    localStorage.clear();
+    (globalThis as any).localStorage = createMockLocalStorage();
   });
 
   it('correctly uses the specified storage key', () => {

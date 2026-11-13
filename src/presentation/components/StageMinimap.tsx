@@ -68,7 +68,7 @@ export const StageMinimap: React.FC<StageMinimapProps> = ({
             </span>
             <span className="text-stone-400">•</span>
             <span className="text-[11px] font-mono font-bold text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded-full border border-indigo-200">
-              {completedCount}/15 ပြီးစီး
+              {`${completedCount}/15 ပြီးစီး`}
             </span>
           </div>
         </div>

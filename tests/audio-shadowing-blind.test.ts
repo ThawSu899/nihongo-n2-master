@@ -7,9 +7,29 @@ import {
   sanitizePhoneticText,
 } from '../src/domain/audio/tts-engine';
 
+const createMockLocalStorage = () => {
+  let store: Record<string, string> = {};
+  return {
+    getItem: (key: string) => store[key] ?? null,
+    setItem: (key: string, value: string) => {
+      store[key] = String(value);
+    },
+    removeItem: (key: string) => {
+      delete store[key];
+    },
+    clear: () => {
+      store = {};
+    },
+    key: (i: number) => Object.keys(store)[i] ?? null,
+    get length() {
+      return Object.keys(store).length;
+    },
+  };
+};
+
 describe('Audio Shadowing & Multi-speed TTS Engine', () => {
   beforeEach(() => {
-    localStorage.clear();
+    (globalThis as any).localStorage = createMockLocalStorage();
     vi.useFakeTimers();
   });
 
