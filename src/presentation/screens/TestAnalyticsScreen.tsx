@@ -38,6 +38,8 @@ import {
   LeechItem,
 } from '../../domain/assessment/weakness-remediator';
 import { SkillRadarChart, SkillScoreData } from '../components/SkillRadarChart';
+import { JLPTSectionalScoringCard } from '../components/JLPTSectionalScoringCard';
+import { JLPTLevel } from '../../domain/assessment/jlpt-scoring-engine';
 import { UserProfile, QuestionSkill, RemediationPlan, CramDrillRecord } from '../../domain/models/types';
 
 export interface TestAnalyticsScreenProps {
@@ -266,6 +268,14 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
     return l.itemType === quarantineFilter;
   });
 
+  const skillAccuracies = React.useMemo(() => {
+    const acc: Partial<Record<QuestionSkill, number>> = {};
+    data.skills.forEach((s) => {
+      acc[s.skill] = s.scorePct;
+    });
+    return acc;
+  }, [data.skills]);
+
   const WeakestIcon = SKILL_ICONS[weaknessReport.weakestSkill] || AlertTriangle;
 
   return (
@@ -391,6 +401,13 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
           </p>
         </div>
       </div>
+
+      {/* Official JLPT 180-Point Scaled Scoring & Sectional Cutoffs */}
+      <JLPTSectionalScoringCard
+        currentLevel={(profile.level as JLPTLevel) || 'N2'}
+        skillAccuracies={skillAccuracies}
+        onLaunchDrill={onLaunchDrill}
+      />
 
       {/* HIGHLIGHTED HERO CARD: Launch Weak-Point Drill Engine */}
       <div className="relative overflow-hidden rounded-2xl bg-white border border-stone-200 p-6 shadow-sm">

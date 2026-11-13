@@ -1222,6 +1222,13 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                   <span className="px-2.5 py-1 rounded-xl bg-amber-50 border border-amber-200 text-amber-800">
                     Pass: ≥ 90 Total &amp; ≥ 19/Section
                   </span>
+                  <button
+                    onClick={() => setActiveTab('analytics')}
+                    className="px-2.5 py-1 rounded-xl bg-indigo-50 border border-indigo-200 text-indigo-700 hover:bg-indigo-100 transition cursor-pointer flex items-center space-x-1"
+                  >
+                    <span>View Sectional Cutoffs (基準点)</span>
+                    <ChevronRight className="w-3 h-3" />
+                  </button>
                 </div>
 
                 {/* Latest Mock Exam Score banner if taken */}
