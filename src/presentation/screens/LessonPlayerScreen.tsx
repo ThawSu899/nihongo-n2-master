@@ -35,6 +35,13 @@ import {
   TTS_SPEED_PRESETS,
   BLIND_LISTENING_STORAGE_KEY,
 } from '../../domain/audio/tts-engine';
+import {
+  ActiveRecallMaskingBar,
+  ActiveRecallMaskState,
+  loadSavedMaskState,
+  saveMaskState,
+  cycleActiveRecallMask,
+} from '../components/ActiveRecallMaskingBar';
 import { chunkVocabulary, formatPartBadge, VocabularyChunk } from '../../domain/curriculum/vocabulary-pagination';
 import { checkAnswer, deriveSRSRating } from '../../domain/assessment/answer-checker';
 import { AssessmentSession, ShuffledOption } from '../../domain/assessment/shuffler';
@@ -280,6 +287,83 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
     }
     wasPlayingAudioRef.current = isPlaying;
   }, [isPlaying, blindListeningMode]);
+
+  // Multi-Layer Active Recall Masking State
+  const [maskState, setMaskState] = useState<ActiveRecallMaskState>(() => loadSavedMaskState());
+  const [revealedItems, setRevealedItems] = useState<
+    Record<string, { furigana?: boolean; burmese?: boolean; kanji?: boolean }>
+  >({});
+
+  const handleToggleFurigana = useCallback(() => {
+    setMaskState((prev) => {
+      const next = { ...prev, hideFurigana: !prev.hideFurigana };
+      saveMaskState(next);
+      return next;
+    });
+  }, []);
+
+  const handleToggleBurmese = useCallback(() => {
+    setMaskState((prev) => {
+      const next = { ...prev, hideBurmese: !prev.hideBurmese };
+      saveMaskState(next);
+      return next;
+    });
+  }, []);
+
+  const handleToggleKanji = useCallback(() => {
+    setMaskState((prev) => {
+      const next = { ...prev, hideKanji: !prev.hideKanji };
+      saveMaskState(next);
+      return next;
+    });
+  }, []);
+
+  const handleResetMasks = useCallback(() => {
+    const next = { hideFurigana: false, hideBurmese: false, hideKanji: false };
+    setMaskState(next);
+    saveMaskState(next);
+    setRevealedItems({});
+  }, []);
+
+  const handleCycleMask = useCallback(() => {
+    setMaskState((prev) => {
+      const next = cycleActiveRecallMask(prev);
+      saveMaskState(next);
+      return next;
+    });
+  }, []);
+
+  const toggleRevealItem = useCallback((id: string, field: 'furigana' | 'burmese' | 'kanji') => {
+    setRevealedItems((prev) => ({
+      ...prev,
+      [id]: {
+        ...prev[id],
+        [field]: !prev[id]?.[field],
+      },
+    }));
+  }, []);
+
+  // Keyboard shortcut: 'M' to cycle masking modes when not in input fields
+  useEffect(() => {
+    const handleMaskShortcut = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (
+        target &&
+        (target.tagName === 'INPUT' ||
+          target.tagName === 'TEXTAREA' ||
+          target.isContentEditable)
+      ) {
+        return;
+      }
+      if (e.key === 'm' || e.key === 'M') {
+        e.preventDefault();
+        handleCycleMask();
+      }
+    };
+
+    window.addEventListener('keydown', handleMaskShortcut);
+    return () => window.removeEventListener('keydown', handleMaskShortcut);
+  }, [handleCycleMask]);
 
   const vocabChunks = useMemo(
     () => chunkVocabulary(pack.vocabularies, 15),
@@ -912,6 +996,18 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
         </div>
       </div>
 
+      {/* Sticky Multi-Layer Active Recall Masking Bar */}
+      {[2, 3, 4, 5, 6, 7, 10, 12].includes(currentStage) && (
+        <ActiveRecallMaskingBar
+          maskState={maskState}
+          onToggleFurigana={handleToggleFurigana}
+          onToggleBurmese={handleToggleBurmese}
+          onToggleKanji={handleToggleKanji}
+          onResetAll={handleResetMasks}
+          sticky={true}
+        />
+      )}
+
       {/* STAGE CONTAINER WITH ANIMATED TRANSITIONS */}
       <AnimatePresence mode="wait">
         <motion.div
@@ -1078,19 +1174,38 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                       <div
                         onClick={() => {
                           if (blindListeningMode && !blindRevealed) setBlindRevealed(true);
+                          if (maskState.hideKanji) toggleRevealItem(v.id, 'kanji');
+                          if (maskState.hideFurigana) toggleRevealItem(v.id, 'furigana');
                         }}
                         className={`flex flex-col items-center justify-center py-2 space-y-1.5 transition duration-300 ${
-                          blindListeningMode && !blindRevealed ? 'filter blur-md select-none cursor-pointer' : ''
+                          (blindListeningMode && !blindRevealed) || (maskState.hideKanji && !revealedItems[v.id]?.kanji)
+                            ? 'filter blur-md select-none cursor-pointer'
+                            : ''
                         }`}
+                        title={maskState.hideKanji && !revealedItems[v.id]?.kanji ? 'Tap to reveal Kanji/word' : undefined}
                       >
                         <FuriganaRuby
                           kanji={v.ja}
                           kana={v.kana}
+                          furiganaMode={maskState.hideFurigana && !revealedItems[v.id]?.furigana ? 'never' : 'always'}
                           showRomaji={profile.showRomaji}
                           className="text-4xl sm:text-5xl font-bold font-japanese text-stone-900 dark:text-zinc-100"
                         />
                         {v.ja !== v.kana && (
-                          <span className="text-sm font-mono text-indigo-700 dark:text-indigo-300 font-semibold tracking-wider select-none bg-indigo-50 dark:bg-indigo-950/50 px-3 py-0.5 rounded-full border border-indigo-200 dark:border-indigo-800">
+                          <span
+                            onClick={(e) => {
+                              if (maskState.hideFurigana) {
+                                e.stopPropagation();
+                                toggleRevealItem(v.id, 'furigana');
+                              }
+                            }}
+                            className={`text-sm font-mono text-indigo-700 dark:text-indigo-300 font-semibold tracking-wider select-none bg-indigo-50 dark:bg-indigo-950/50 px-3 py-0.5 rounded-full border border-indigo-200 dark:border-indigo-800 transition duration-300 ${
+                              maskState.hideFurigana && !revealedItems[v.id]?.furigana
+                                ? 'filter blur-md select-none cursor-pointer'
+                                : ''
+                            }`}
+                            title={maskState.hideFurigana && !revealedItems[v.id]?.furigana ? 'Tap to reveal Furigana' : undefined}
+                          >
                             【{v.kana}】
                           </span>
                         )}
@@ -1176,10 +1291,14 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                       <div
                         onClick={() => {
                           if (blindListeningMode && !blindRevealed) setBlindRevealed(true);
+                          if (maskState.hideBurmese) toggleRevealItem(v.id, 'burmese');
                         }}
                         className={`pt-3 border-t border-stone-200 space-y-1.5 transition duration-300 ${
-                          blindListeningMode && !blindRevealed ? 'filter blur-md select-none cursor-pointer' : ''
+                          (blindListeningMode && !blindRevealed) || (maskState.hideBurmese && !revealedItems[v.id]?.burmese)
+                            ? 'filter blur-md select-none cursor-pointer'
+                            : ''
                         }`}
+                        title={maskState.hideBurmese && !revealedItems[v.id]?.burmese ? 'Tap to reveal Burmese meaning' : undefined}
                       >
                         <p className="text-xl font-bold text-stone-900 font-myanmar">
                           {v.meaningMyanmar || v.my || v.meaningMy || v.en}
@@ -1475,14 +1594,38 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                       onClick={() => {
                         if (blindListeningMode && !blindRevealed) setBlindRevealed(true);
                       }}
-                      className={`space-y-1 transition duration-300 ${
-                        blindListeningMode && !blindRevealed
-                          ? 'filter blur-md select-none cursor-pointer'
-                          : ''
-                      }`}
+                      className="space-y-1"
                     >
-                      <div className="text-base font-japanese font-medium text-stone-900">{s.ja}</div>
-                      <div className="text-xs text-stone-700 font-myanmar">
+                      <div
+                        onClick={(e) => {
+                          if (maskState.hideKanji) {
+                            e.stopPropagation();
+                            toggleRevealItem(s.id, 'kanji');
+                          }
+                        }}
+                        className={`text-base font-japanese font-medium text-stone-900 transition duration-300 ${
+                          (blindListeningMode && !blindRevealed) || (maskState.hideKanji && !revealedItems[s.id]?.kanji)
+                            ? 'filter blur-md select-none cursor-pointer'
+                            : ''
+                        }`}
+                        title={maskState.hideKanji && !revealedItems[s.id]?.kanji ? 'Tap to reveal sentence' : undefined}
+                      >
+                        {s.ja}
+                      </div>
+                      <div
+                        onClick={(e) => {
+                          if (maskState.hideBurmese) {
+                            e.stopPropagation();
+                            toggleRevealItem(s.id, 'burmese');
+                          }
+                        }}
+                        className={`text-xs text-stone-700 font-myanmar transition duration-300 ${
+                          (blindListeningMode && !blindRevealed) || (maskState.hideBurmese && !revealedItems[s.id]?.burmese)
+                            ? 'filter blur-md select-none cursor-pointer'
+                            : ''
+                        }`}
+                        title={maskState.hideBurmese && !revealedItems[s.id]?.burmese ? 'Tap to reveal Burmese' : undefined}
+                      >
                         {s.translation.my || s.translationMy || s.translation.en}
                       </div>
                       {s.translation.en && (s.translation.my || s.translationMy) && (

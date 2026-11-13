@@ -32,6 +32,13 @@ import { useAudioPlayer } from '../hooks/useAudioPlayer';
 import { KanjiCardItem, extractKanjiForLevel } from '../../domain/curriculum/kanji-extractor';
 import { KanjiDetailModal } from '../components/KanjiDetailModal';
 import { StarScrambleTrainer } from '../components/StarScrambleTrainer';
+import {
+  ActiveRecallMaskingBar,
+  ActiveRecallMaskState,
+  loadSavedMaskState,
+  saveMaskState,
+  cycleActiveRecallMask,
+} from '../components/ActiveRecallMaskingBar';
 
 export type JLPTLevel = 'N5' | 'N4' | 'N3' | 'N2';
 export type StudyMode = 'list' | 'drill' | 'quiz';
@@ -300,6 +307,83 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
   }, [toastMessage]);
 
   const { play, stop, isPlaying, currentPlayingText } = useAudioPlayer();
+
+  // Multi-Layer Active Recall Masking State
+  const [maskState, setMaskState] = useState<ActiveRecallMaskState>(() => loadSavedMaskState());
+  const [revealedItems, setRevealedItems] = useState<
+    Record<string, { furigana?: boolean; burmese?: boolean; kanji?: boolean }>
+  >({});
+
+  const handleToggleFurigana = useCallback(() => {
+    setMaskState((prev) => {
+      const next = { ...prev, hideFurigana: !prev.hideFurigana };
+      saveMaskState(next);
+      return next;
+    });
+  }, []);
+
+  const handleToggleBurmese = useCallback(() => {
+    setMaskState((prev) => {
+      const next = { ...prev, hideBurmese: !prev.hideBurmese };
+      saveMaskState(next);
+      return next;
+    });
+  }, []);
+
+  const handleToggleKanji = useCallback(() => {
+    setMaskState((prev) => {
+      const next = { ...prev, hideKanji: !prev.hideKanji };
+      saveMaskState(next);
+      return next;
+    });
+  }, []);
+
+  const handleResetMasks = useCallback(() => {
+    const next = { hideFurigana: false, hideBurmese: false, hideKanji: false };
+    setMaskState(next);
+    saveMaskState(next);
+    setRevealedItems({});
+  }, []);
+
+  const handleCycleMask = useCallback(() => {
+    setMaskState((prev) => {
+      const next = cycleActiveRecallMask(prev);
+      saveMaskState(next);
+      return next;
+    });
+  }, []);
+
+  const toggleRevealItem = useCallback((id: string, field: 'furigana' | 'burmese' | 'kanji') => {
+    setRevealedItems((prev) => ({
+      ...prev,
+      [id]: {
+        ...prev[id],
+        [field]: !prev[id]?.[field],
+      },
+    }));
+  }, []);
+
+  // Keyboard shortcut: 'M' to cycle masking modes when not in input fields
+  useEffect(() => {
+    const handleMaskShortcut = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (
+        target &&
+        (target.tagName === 'INPUT' ||
+          target.tagName === 'TEXTAREA' ||
+          target.isContentEditable)
+      ) {
+        return;
+      }
+      if (e.key === 'm' || e.key === 'M') {
+        e.preventDefault();
+        handleCycleMask();
+      }
+    };
+
+    window.addEventListener('keydown', handleMaskShortcut);
+    return () => window.removeEventListener('keydown', handleMaskShortcut);
+  }, [handleCycleMask]);
 
   // Load and aggregate vocabulary across all lesson packs for selectedLevel
   useEffect(() => {
@@ -1191,6 +1275,18 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
           </div>
         )}
       </div>
+
+      {/* Sticky Multi-Layer Active Recall Masking Bar */}
+      {bulkTab === 'vocab' && studyMode !== 'quiz' && (
+        <ActiveRecallMaskingBar
+          maskState={maskState}
+          onToggleFurigana={handleToggleFurigana}
+          onToggleBurmese={handleToggleBurmese}
+          onToggleKanji={handleToggleKanji}
+          onResetAll={handleResetMasks}
+          sticky={true}
+        />
+      )}
 
       {/* =========================================================================
           MAIN TAB 2: KANJI DECK VIEW
@@ -2181,11 +2277,37 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   <div className="space-y-5 py-4">
                     {/* Headword & Furigana Kana Reading */}
                     <div className="space-y-2">
-                      <h2 className="font-japanese text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">
+                      <h2
+                        onClick={(e) => {
+                          if (maskState.hideKanji) {
+                            e.stopPropagation();
+                            toggleRevealItem(currentDrillWord.id, 'kanji');
+                          }
+                        }}
+                        className={`font-japanese text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight transition duration-200 ${
+                          maskState.hideKanji && !revealedItems[currentDrillWord.id]?.kanji
+                            ? 'filter blur-md select-none cursor-pointer'
+                            : ''
+                        }`}
+                        title={maskState.hideKanji && !revealedItems[currentDrillWord.id]?.kanji ? 'Tap to reveal Kanji' : undefined}
+                      >
                         {currentDrillWord.ja}
                       </h2>
                       <div>
-                        <span className="text-indigo-700 font-japanese text-xl font-bold bg-indigo-50 px-4 py-1 rounded-full border border-indigo-200 inline-block shadow-inner">
+                        <span
+                          onClick={(e) => {
+                            if (maskState.hideFurigana) {
+                              e.stopPropagation();
+                              toggleRevealItem(currentDrillWord.id, 'furigana');
+                            }
+                          }}
+                          className={`text-indigo-700 font-japanese text-xl font-bold bg-indigo-50 px-4 py-1 rounded-full border border-indigo-200 inline-block shadow-inner transition duration-200 ${
+                            maskState.hideFurigana && !revealedItems[currentDrillWord.id]?.furigana
+                              ? 'filter blur-md select-none cursor-pointer hover:bg-indigo-100'
+                              : ''
+                          }`}
+                          title={maskState.hideFurigana && !revealedItems[currentDrillWord.id]?.furigana ? 'Tap to reveal Furigana' : undefined}
+                        >
                           【{currentDrillWord.kana}】
                         </span>
                       </div>
@@ -2231,7 +2353,20 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
 
                     {/* Burmese & English Meanings */}
                     <div className="pt-4 border-t border-stone-200 space-y-1.5">
-                      <p className="font-burmese text-emerald-700 text-xl font-bold leading-relaxed">
+                      <p
+                        onClick={(e) => {
+                          if (maskState.hideBurmese) {
+                            e.stopPropagation();
+                            toggleRevealItem(currentDrillWord.id, 'burmese');
+                          }
+                        }}
+                        className={`font-burmese text-emerald-700 text-xl font-bold leading-relaxed transition duration-200 ${
+                          maskState.hideBurmese && !revealedItems[currentDrillWord.id]?.burmese
+                            ? 'filter blur-md select-none cursor-pointer'
+                            : ''
+                        }`}
+                        title={maskState.hideBurmese && !revealedItems[currentDrillWord.id]?.burmese ? 'Tap to reveal Burmese' : undefined}
+                      >
                         {getBurmeseMeaning(currentDrillWord)}
                       </p>
                       {currentDrillWord.en && (
@@ -2330,10 +2465,36 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                     <div className="space-y-1">
                       {/* Large Headword & Kana Reading in Furigana Style */}
                       <div className="flex items-baseline space-x-2 flex-wrap">
-                        <span className="font-japanese text-xl text-stone-900 font-bold tracking-tight">
+                        <span
+                          onClick={(e) => {
+                            if (maskState.hideKanji) {
+                              e.stopPropagation();
+                              toggleRevealItem(v.id, 'kanji');
+                            }
+                          }}
+                          className={`font-japanese text-xl text-stone-900 font-bold tracking-tight transition duration-200 ${
+                            maskState.hideKanji && !revealedItems[v.id]?.kanji
+                              ? 'filter blur-md select-none cursor-pointer bg-stone-100 dark:bg-zinc-800 px-2 rounded hover:bg-stone-200'
+                              : ''
+                          }`}
+                          title={maskState.hideKanji && !revealedItems[v.id]?.kanji ? 'Tap to reveal Kanji' : undefined}
+                        >
                           {v.ja}
                         </span>
-                        <span className="text-indigo-700 font-japanese text-sm font-semibold">
+                        <span
+                          onClick={(e) => {
+                            if (maskState.hideFurigana) {
+                              e.stopPropagation();
+                              toggleRevealItem(v.id, 'furigana');
+                            }
+                          }}
+                          className={`text-indigo-700 dark:text-indigo-300 font-japanese text-sm font-semibold transition duration-200 ${
+                            maskState.hideFurigana && !revealedItems[v.id]?.furigana
+                              ? 'filter blur-md select-none cursor-pointer bg-indigo-50 dark:bg-indigo-950/60 px-2 rounded hover:bg-indigo-100'
+                              : ''
+                          }`}
+                          title={maskState.hideFurigana && !revealedItems[v.id]?.furigana ? 'Tap to reveal Furigana' : undefined}
+                        >
                           【{v.kana}】
                         </span>
                       </div>
@@ -2383,7 +2544,20 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   {/* Burmese & English Meanings */}
                   <div className="pt-2.5 border-t border-stone-200 space-y-1">
                     {burmeseMeaning && (
-                      <p className="font-burmese text-stone-800 text-sm font-medium leading-relaxed">
+                      <p
+                        onClick={(e) => {
+                          if (maskState.hideBurmese) {
+                            e.stopPropagation();
+                            toggleRevealItem(v.id, 'burmese');
+                          }
+                        }}
+                        className={`font-burmese text-stone-800 text-sm font-medium leading-relaxed transition duration-200 ${
+                          maskState.hideBurmese && !revealedItems[v.id]?.burmese
+                            ? 'filter blur-md select-none cursor-pointer bg-stone-100 dark:bg-zinc-800 px-2 rounded hover:bg-stone-200'
+                            : ''
+                        }`}
+                        title={maskState.hideBurmese && !revealedItems[v.id]?.burmese ? 'Tap to reveal Burmese' : undefined}
+                      >
                         {burmeseMeaning}
                       </p>
                     )}
