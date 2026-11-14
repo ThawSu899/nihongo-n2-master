@@ -436,8 +436,8 @@ export default function App() {
           onOpenSearch={() => setIsCommandPaletteOpen(true)}
         />
 
-        {/* Main View Area with Bottom Dock Clearance on Mobile */}
-        <main className="flex-1 px-4 sm:px-6 lg:px-8 py-6 pb-28 md:pb-12 max-w-7xl w-full mx-auto">
+        {/* Main View Area with Bottom Dock Clearance on Mobile & Desktop */}
+        <main className="flex-1 px-4 sm:px-6 lg:px-8 py-6 pb-28 md:pb-20 max-w-7xl w-full mx-auto">
         <AnimatePresence mode="wait">
           <motion.div
             key={currentView}

@@ -48,9 +48,9 @@ export const PWAUpdateBanner: React.FC<PWAUpdateBannerProps> = ({
         animate={{ opacity: 1, y: 0, scale: 1 }}
         exit={{ opacity: 0, y: -20, scale: 0.96 }}
         transition={{ duration: 0.25, ease: 'easeOut' }}
-        className="fixed top-4 left-3 right-3 sm:left-auto sm:right-6 sm:top-5 z-50 max-w-md mx-auto sm:mx-0 pointer-events-auto"
+        className="fixed top-4 left-3 right-3 sm:left-auto sm:right-6 sm:top-5 z-50 max-w-md mx-auto sm:mx-0 pointer-events-none"
       >
-        <div className="relative overflow-hidden rounded-2xl bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 shadow-xl p-4 text-stone-900 dark:text-zinc-100 group">
+        <div className="pointer-events-auto relative overflow-hidden rounded-2xl bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 shadow-xl p-4 text-stone-900 dark:text-zinc-100 group">
           {/* Subtle ambient accent hairline */}
           <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 opacity-90" />
 

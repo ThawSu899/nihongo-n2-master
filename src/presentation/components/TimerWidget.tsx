@@ -88,9 +88,9 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
   return (
     <aside
       aria-label="Active Study Timer"
-      className="fixed bottom-24 right-4 sm:bottom-6 sm:right-6 z-30 transition-all duration-200 select-none"
+      className="fixed bottom-24 right-4 sm:bottom-6 sm:right-6 z-30 transition-all duration-200 select-none pointer-events-none"
     >
-      <div className="bg-white border border-stone-200 rounded-2xl shadow-lg p-2.5 sm:p-3 text-stone-900 flex flex-col space-y-2 min-w-[220px] sm:min-w-[260px]">
+      <div className="pointer-events-auto bg-white border border-stone-200 rounded-2xl shadow-lg p-2.5 sm:p-3 text-stone-900 flex flex-col space-y-2 min-w-[220px] sm:min-w-[260px]">
         {/* Compact Island Header */}
         <div className="flex items-center justify-between space-x-3">
           {/* Circular SVG Progress Ring with Center Icon */}

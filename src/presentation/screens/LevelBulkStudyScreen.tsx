@@ -898,7 +898,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
 
   if (isStarScrambleOpen) {
     return (
-      <div className={`space-y-6 max-w-4xl mx-auto pb-24 ${className}`}>
+      <div className={`space-y-6 max-w-4xl mx-auto pb-28 ${className}`}>
         <StarScrambleTrainer
           initialLevel={selectedLevel}
           onExit={() => setIsStarScrambleOpen(false)}
@@ -908,7 +908,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
   }
 
   return (
-    <div className={`space-y-6 max-w-7xl mx-auto pb-16 ${className}`}>
+    <div className={`space-y-6 max-w-7xl mx-auto pb-28 ${className}`}>
       {/* Top Header & Breadcrumb */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-200 pb-4">
         <div className="flex items-center space-x-3">

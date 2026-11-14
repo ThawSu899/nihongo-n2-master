@@ -100,9 +100,9 @@ export const PWAInstallBanner: React.FC = () => {
         animate={{ opacity: 1, y: 0, scale: 1 }}
         exit={{ opacity: 0, y: 20, scale: 0.96 }}
         transition={{ duration: 0.28, ease: 'easeOut' }}
-        className="fixed bottom-20 sm:bottom-6 left-3 right-3 sm:left-auto sm:right-6 z-40 max-w-md mx-auto sm:mx-0 pointer-events-auto"
+        className="fixed bottom-20 sm:bottom-6 left-3 right-3 sm:left-auto sm:right-6 z-40 max-w-md mx-auto sm:mx-0 pointer-events-none"
       >
-        <div className="relative overflow-hidden rounded-2xl bg-white border border-stone-200 shadow-md p-3.5 sm:p-4 text-stone-900 group">
+        <div className="pointer-events-auto relative overflow-hidden rounded-2xl bg-white border border-stone-200 shadow-md p-3.5 sm:p-4 text-stone-900 group">
           {/* Subtle ambient accent hairline */}
           <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-rose-500 via-indigo-500 to-emerald-500 opacity-80" />
 
