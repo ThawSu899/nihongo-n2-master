@@ -1,13 +1,19 @@
 import { describe, it, expect } from 'vitest';
 import * as fs from 'fs';
 import * as path from 'path';
-import { LessonPack } from '../src/domain/models/types';
+import { LessonPack, Grammar } from '../src/domain/models/types';
 
 interface BrokenReferenceReport {
   packId: string;
   field: string;
   sourceId: string;
   targetId: string;
+}
+
+interface BrokenSimilarGrammarReport {
+  sourceLesson: string;
+  sourceGrammarId: string;
+  missingTargetId: string;
 }
 
 describe('Curriculum Cross-References & Referential Integrity Suite', () => {
@@ -31,18 +37,33 @@ describe('Curriculum Cross-References & Referential Integrity Suite', () => {
     return packs;
   }
 
-  describe('Part 1 Regression Tests: Seven Confirmed Broken References', () => {
-    it('1. verifies n5.l22.v012 exampleSentenceId links to n5.l22.s009 and target sentence exists', () => {
+  const allPacksWithMeta = loadAllPacks();
+
+  // Global index of all curriculum grammar items across all 174 lesson packs
+  const globalGrammarMap = new Map<string, { packId: string; grammar: Grammar }>();
+  for (const { pack } of allPacksWithMeta) {
+    for (const g of pack.grammars || []) {
+      globalGrammarMap.set(g.id, { packId: pack.id, grammar: g });
+    }
+  }
+
+  describe('Part 1 Regression Tests: Confirmed Broken References & Semantic Integrity', () => {
+    it('1. verifies n5.l22.v012 (ううん) exampleSentenceId links semantically to n5.l22.s010 and contains v012 in vocabIds', () => {
       const filePath = path.join(packsBaseDir, 'n5', 'n5.l22.json');
       const pack = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as LessonPack;
       const vocab = pack.vocabularies.find((v) => v.id === 'n5.l22.v012');
 
       expect(vocab, 'Vocabulary n5.l22.v012 must exist').toBeDefined();
-      expect(vocab?.exampleSentenceId).toBe('n5.l22.s009');
+      expect(vocab?.ja).toBe('ううん');
+      expect(vocab?.exampleSentenceId).toBe('n5.l22.s010');
       expect(vocab?.exampleSentenceId).not.toBe('n5.l22.s009_2');
+      expect(vocab?.exampleSentenceId).not.toBe('n5.l22.s009'); // s009 is "drinking cold water", unrelated to ううん
 
-      const targetSentence = pack.sentences.find((s) => s.id === 'n5.l22.s009');
-      expect(targetSentence, 'Sentence n5.l22.s009 must exist in pack sentences').toBeDefined();
+      const targetSentence = pack.sentences.find((s) => s.id === 'n5.l22.s010');
+      expect(targetSentence, 'Sentence n5.l22.s010 must exist in pack sentences').toBeDefined();
+      expect(targetSentence?.vocabIds, 'Target sentence s010 must reference n5.l22.v012 in vocabIds').toContain('n5.l22.v012');
+      expect(targetSentence?.ja, 'Target sentence s010 Japanese text must contain ううん').toContain('ううん');
+      expect(targetSentence?.translation?.en).toBe('"Did you already finish the homework?" "No, not yet."');
     });
 
     it('2-6. verifies n2.l06 listening questions q026 through q030 link to n2.l06.l01 (not n2.l06.l001)', () => {
@@ -76,8 +97,6 @@ describe('Curriculum Cross-References & Referential Integrity Suite', () => {
   });
 
   describe('Part 2 Global Verification: All 174 Lesson Packs Internal Cross-References', () => {
-    const allPacksWithMeta = loadAllPacks();
-
     it('verifies that all 174 lesson packs are loaded and validated', () => {
       expect(allPacksWithMeta).toHaveLength(174);
     });
@@ -150,6 +169,17 @@ describe('Curriculum Cross-References & Referential Integrity Suite', () => {
                 field: 'grammars.examples.sentenceId',
                 sourceId: grammar.id,
                 targetId: ex.sentenceId,
+              });
+            }
+          }
+          // Grammar -> Similar Grammars (similarGrammarIds: validated against global curriculum contract)
+          for (const simId of grammar.similarGrammarIds || []) {
+            if (!globalGrammarMap.has(simId)) {
+              brokenRefs.push({
+                packId: pack.id,
+                field: 'grammars.similarGrammarIds',
+                sourceId: grammar.id,
+                targetId: simId,
               });
             }
           }
@@ -233,6 +263,44 @@ describe('Curriculum Cross-References & Referential Integrity Suite', () => {
       }
 
       expect(brokenRefs).toEqual([]);
+    });
+
+    it('verifies all GrammarSchema.similarGrammarIds across all 174 packs resolve to authentic grammar items in the curriculum', () => {
+      expect(globalGrammarMap.size).toBe(427);
+
+      const brokenSimilarRefs: BrokenSimilarGrammarReport[] = [];
+      let totalSimilarChecked = 0;
+
+      for (const { pack } of allPacksWithMeta) {
+        for (const grammar of pack.grammars || []) {
+          for (const targetId of grammar.similarGrammarIds || []) {
+            totalSimilarChecked++;
+            if (!globalGrammarMap.has(targetId)) {
+              brokenSimilarRefs.push({
+                sourceLesson: pack.id,
+                sourceGrammarId: grammar.id,
+                missingTargetId: targetId,
+              });
+            }
+          }
+        }
+      }
+
+      expect(totalSimilarChecked).toBe(423);
+
+      if (brokenSimilarRefs.length > 0) {
+        const errorDetails = brokenSimilarRefs
+          .map(
+            (b) =>
+              `Lesson [${b.sourceLesson}] Source Grammar [${b.sourceGrammarId}] -> Missing Target Grammar [${b.missingTargetId}]`
+          )
+          .join('\n');
+        expect.fail(
+          `Found ${brokenSimilarRefs.length} broken similarGrammarIds reference(s):\n${errorDetails}`
+        );
+      }
+
+      expect(brokenSimilarRefs).toEqual([]);
     });
   });
 });
