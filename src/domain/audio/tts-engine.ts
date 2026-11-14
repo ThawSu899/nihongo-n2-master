@@ -1,6 +1,7 @@
 /**
  * Centralized Phonetic Text-to-Speech (TTS) Engine for Japanese Vocabulary
- * Enforces reading accuracy, Neural voice ranking, and clean phonetic input.
+ * Enforces reading accuracy, Neural voice ranking, clean phonetic input,
+ * and frozen SpeechSynthesis queue recovery for Chrome/Edge/Safari.
  */
 
 export const AUDIO_SPEED_STORAGE_KEY = 'nihongo_audio_speed';
@@ -35,6 +36,95 @@ export interface SpeakOptions {
   onStart?: () => void;
   onEnd?: () => void;
   onError?: (err: any) => void;
+}
+
+/**
+ * Extracts pure, speakable Japanese text from any mixed-language string,
+ * prompt, sentence, or vocabulary item:
+ * 1. Priority-extracts content inside Japanese quotation marks 「...」 or 『...』.
+ * 2. Strips ruby/furigana square brackets (e.g. 漢字[かんじ] -> 漢字) and
+ *    parenthetical readings (e.g. 漢字(かんじ) or 漢字（かんじ） -> 漢字).
+ * 3. Extracts contiguous Japanese characters:
+ *    Hiragana (\u3040-\u309F), Katakana (\u30A0-\u30FF),
+ *    Kanji (\u4E00-\u9FAF), prolonged mark (ー), iteration mark (々), and
+ *    Japanese punctuation (\u3000-\u303F).
+ * 4. Strips foreign scripts (Burmese, Latin) so TTS never attempts
+ *    to read foreign scripts with Japanese phonemes.
+ */
+export function extractPureJapaneseText(raw: string): string {
+  if (!raw) return '';
+  let text = String(raw).trim();
+
+  // 1. Priority-extract inside Japanese quotes 「...」 or 『...』 if they contain Japanese
+  const quoteMatches = Array.from(text.matchAll(/[「『]([^」』]+)[」』]/g));
+  if (quoteMatches.length > 0) {
+    const jaQuotes = quoteMatches
+      .map((m) => m[1])
+      .filter((inner) => /[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAFー々]/.test(inner));
+    if (jaQuotes.length > 0) {
+      text = jaQuotes.join(' ');
+    }
+  }
+
+  // 2. Strip ruby/furigana brackets:
+  // (a) Square brackets: 漢字[かんじ] -> 漢字
+  text = text.replace(/\[[^\]]*\]/g, '');
+  // (b) Parenthetical furigana following kanji: 漢字(かんじ) -> 漢字
+  text = text.replace(/([\u4E00-\u9FAF])\s*[\(（][\u3040-\u309F\u30A0-\u30FFー々]+[\)）]/g, '$1');
+  // (c) Any remaining parenthetical annotations: (な), (する), etc.
+  text = text.replace(/\([^)）]*\)/g, '');
+  text = text.replace(/（[^)）]*）/g, '');
+  text = text.replace(/[【】]/g, '');
+
+  // 3. Extract contiguous Japanese substrings
+  const japaneseSegments = text.match(/[\u3040-\u309F\u30A0-\u30FF\u4E00-\u9FAF\u3000-\u303Fー々]+/g);
+  if (japaneseSegments && japaneseSegments.length > 0) {
+    return japaneseSegments.join(' ').replace(/\s+/g, ' ').trim();
+  }
+
+  return '';
+}
+
+/**
+ * Extracts speakable Japanese from any assessment question, quiz prompt,
+ * choices, answer, or explanation across Stages 6–15.
+ */
+export function extractSpeakableJapaneseFromQuestion(q?: any): string {
+  if (!q) return '';
+
+  // 1. Try prompt first
+  const promptJa = extractPureJapaneseText(q.prompt || q.promptMy || q.questionMy || '');
+  if (promptJa) return promptJa;
+
+  // 2. Try choices (find first choice with Japanese)
+  if (Array.isArray(q.choices) && q.choices.length > 0) {
+    for (const choice of q.choices) {
+      const choiceJa = extractPureJapaneseText(choice);
+      if (choiceJa) return choiceJa;
+    }
+  }
+
+  // 3. Try answer
+  if (q.answer) {
+    const answerJa = extractPureJapaneseText(q.answer);
+    if (answerJa) return answerJa;
+  }
+
+  // 4. Try acceptedAnswers
+  if (Array.isArray(q.acceptedAnswers) && q.acceptedAnswers.length > 0) {
+    for (const ans of q.acceptedAnswers) {
+      const ansJa = extractPureJapaneseText(ans);
+      if (ansJa) return ansJa;
+    }
+  }
+
+  // 5. Try explanation
+  if (q.explanation || q.explanationMy) {
+    const expJa = extractPureJapaneseText(q.explanation || q.explanationMy || '');
+    if (expJa) return expJa;
+  }
+
+  return '';
 }
 
 /**
@@ -86,7 +176,7 @@ export function getPhoneticUtteranceText(
  */
 export function getVoicePriorityScore(voice: SpeechSynthesisVoice): number {
   const name = voice.name.toLowerCase();
-  const lang = (voice.lang || '').toLowerCase();
+  const lang = (voice.lang || '').toLowerCase().replace(/_/g, '-');
 
   // Non-Japanese voices get negative score
   if (!lang.startsWith('ja') && !lang.includes('jp') && !name.includes('japanese') && !name.includes('nihongo')) {
@@ -156,11 +246,11 @@ export function selectOptimalJapaneseVoice(
 }
 
 /**
- * Centralized, reliable TTS synthesizer for single-word vocabulary items.
- * Strictly guarantees verified Kana reading input and cancels overlapping audio cleanly.
+ * Speaks Japanese text directly via Web Speech API with Chrome/Edge unfreezing,
+ * automatic voice fallback, and strict ja-JP phonetic synthesis.
  */
-export function speakVocabulary(
-  vocab: VocabularyAudioItem,
+export function speakDirectJapanese(
+  text: string,
   options: SpeakOptions = {}
 ): SpeechSynthesisUtterance | null {
   const win =
@@ -179,18 +269,22 @@ export function speakVocabulary(
     return null;
   }
 
-  const phoneticText = getPhoneticUtteranceText(vocab);
-  if (!phoneticText) {
-    options.onError?.(new Error('Empty phonetic reading for vocabulary item'));
+  const cleanJa = extractPureJapaneseText(text) || sanitizePhoneticText(text);
+  if (!cleanJa.trim()) {
+    options.onError?.(new Error('No speakable Japanese text found in input'));
     return null;
   }
 
   try {
-    // 1. Cancel previous pending or active speech cleanly
+    // 1. Unfreeze Chrome / Edge frozen speech queue bug
     synth.cancel();
-
     if (synth.paused) {
       synth.resume();
+    }
+    try {
+      synth.resume();
+    } catch {
+      // ignore
     }
 
     const UtteranceConstructor =
@@ -200,11 +294,11 @@ export function speakVocabulary(
         : null);
 
     if (!UtteranceConstructor) {
-      options.onError?.(new Error('SpeechSynthesisUtterance unavailable in this environment'));
+      options.onError?.(new Error('SpeechSynthesisUtterance unavailable'));
       return null;
     }
 
-    const utterance = new UtteranceConstructor(phoneticText);
+    const utterance = new UtteranceConstructor(cleanJa);
     utterance.lang = 'ja-JP';
 
     const rate = options.rate ?? 1.0;
@@ -213,14 +307,28 @@ export function speakVocabulary(
     const pitch = options.pitch ?? 1.0;
     utterance.pitch = Math.max(0.5, Math.min(1.5, pitch));
 
-    // 2. Select optimal Japanese neural voice
-    const availableVoices = synth.getVoices ? synth.getVoices() : [];
-    const optimalVoice = selectOptimalJapaneseVoice(
+    // 2. Select best ja-JP voice with async fallback
+    let availableVoices = synth.getVoices ? synth.getVoices() : [];
+    let optimalVoice = selectOptimalJapaneseVoice(
       availableVoices,
       options.genderPreference || 'neutral'
     );
+
     if (optimalVoice) {
       utterance.voice = optimalVoice;
+    } else if (typeof synth.addEventListener === 'function') {
+      const onVoicesChanged = () => {
+        const updatedVoices = synth.getVoices();
+        const asyncVoice = selectOptimalJapaneseVoice(
+          updatedVoices,
+          options.genderPreference || 'neutral'
+        );
+        if (asyncVoice) {
+          utterance.voice = asyncVoice;
+        }
+        synth.removeEventListener('voiceschanged', onVoicesChanged);
+      };
+      synth.addEventListener('voiceschanged', onVoicesChanged);
     }
 
     utterance.onstart = () => {
@@ -242,10 +350,22 @@ export function speakVocabulary(
     synth.speak(utterance);
     return utterance;
   } catch (err) {
-    console.warn('[speakVocabulary] Error invoking speech synthesis:', err);
+    console.warn('[speakDirectJapanese] Error speaking:', err);
     options.onError?.(err);
     return null;
   }
+}
+
+/**
+ * Centralized, reliable TTS synthesizer for single-word vocabulary items.
+ * Strictly guarantees verified Kana reading input and cancels overlapping audio cleanly.
+ */
+export function speakVocabulary(
+  vocab: VocabularyAudioItem,
+  options: SpeakOptions = {}
+): SpeechSynthesisUtterance | null {
+  const phoneticText = getPhoneticUtteranceText(vocab);
+  return speakDirectJapanese(phoneticText, options);
 }
 
 export interface Shadowing3xController {
@@ -254,11 +374,11 @@ export interface Shadowing3xController {
 }
 
 /**
- * Speaks a Japanese vocabulary item or sentence 3 times with a 1.5-second pause between repetitions
- * for intensive vocal shadowing practice.
+ * Speaks Japanese text 3 times with a 1200ms pause between repetitions.
+ * Allows clean cancellation at any time.
  */
-export function play3xShadowingTts(
-  vocab: VocabularyAudioItem | string,
+export function play3xLoopTts(
+  text: string,
   options: SpeakOptions = {},
   onIteration?: (iteration: number) => void
 ): Shadowing3xController {
@@ -268,7 +388,10 @@ export function play3xShadowingTts(
   const controller: Shadowing3xController = {
     cancel: () => {
       cancelled = true;
-      if (timerId) clearTimeout(timerId);
+      if (timerId) {
+        clearTimeout(timerId);
+        timerId = null;
+      }
       const win =
         typeof window !== 'undefined'
           ? window
@@ -286,10 +409,7 @@ export function play3xShadowingTts(
     if (cancelled) return;
     onIteration?.(iter);
 
-    const vocabItem: VocabularyAudioItem =
-      typeof vocab === 'string' ? { ja: vocab } : vocab;
-
-    speakVocabulary(vocabItem, {
+    speakDirectJapanese(text, {
       ...options,
       onEnd: () => {
         if (cancelled) return;
@@ -297,7 +417,7 @@ export function play3xShadowingTts(
           timerId = setTimeout(() => {
             if (cancelled) return;
             playTurn(iter + 1);
-          }, 1500);
+          }, 1200);
         } else {
           options.onEnd?.();
         }
@@ -311,4 +431,17 @@ export function play3xShadowingTts(
 
   playTurn(1);
   return controller;
+}
+
+/**
+ * Speaks a Japanese vocabulary item or sentence 3 times with a 1.5-second pause between repetitions
+ * for intensive vocal shadowing practice.
+ */
+export function play3xShadowingTts(
+  vocab: VocabularyAudioItem | string,
+  options: SpeakOptions = {},
+  onIteration?: (iteration: number) => void
+): Shadowing3xController {
+  const text = typeof vocab === 'string' ? vocab : getPhoneticUtteranceText(vocab);
+  return play3xLoopTts(text, options, onIteration);
 }

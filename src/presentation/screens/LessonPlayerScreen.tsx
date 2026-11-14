@@ -36,6 +36,12 @@ import { useAudioPlayer, cleanJapanesePrompt, parseDialogueTranscript } from '..
 import {
   TTS_SPEED_PRESETS,
   BLIND_LISTENING_STORAGE_KEY,
+  AUDIO_SPEED_STORAGE_KEY,
+  speakDirectJapanese,
+  extractPureJapaneseText,
+  extractSpeakableJapaneseFromQuestion,
+  play3xLoopTts,
+  Shadowing3xController,
 } from '../../domain/audio/tts-engine';
 import {
   ActiveRecallMaskingBar,
@@ -269,7 +275,11 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
   const vocabContainerRef = useRef<HTMLDivElement>(null);
   const [isKanjiDrawerOpen, setIsKanjiDrawerOpen] = useState(false);
 
-  // Blind Listening Mode preference (persisted to localStorage)
+  // Blind Listening Mode preference & Active TTS Loop Controller
+  const [isSpeakingTts, setIsSpeakingTts] = useState<boolean>(false);
+  const [isLooping3x, setIsLooping3x] = useState<boolean>(false);
+  const loopControllerRef = useRef<Shadowing3xController | null>(null);
+
   const [blindListeningMode, setBlindListeningMode] = useState<boolean>(() => {
     if (typeof window !== 'undefined') {
       try {
@@ -280,20 +290,6 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
     }
     return false;
   });
-
-  const toggleBlindListeningMode = useCallback(() => {
-    setBlindListeningMode((prev) => {
-      const next = !prev;
-      if (typeof window !== 'undefined') {
-        try {
-          localStorage.setItem(BLIND_LISTENING_STORAGE_KEY, String(next));
-        } catch {
-          // Ignore storage error
-        }
-      }
-      return next;
-    });
-  }, []);
 
   // 15-Stage Minimap Completion & Accuracies
   const [completedStages, setCompletedStages] = useState<Set<number>>(() => new Set([1]));
@@ -488,6 +484,256 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
     }
     return null;
   };
+
+  // Smart Japanese Text Extractor Across All Stages 1–15
+  const getCurrentSpeakableJapanese = useCallback((): string => {
+    // Stage 1: Goals & Introduction
+    if (currentStage === 1) {
+      const fromTitle = extractPureJapaneseText(pack.title);
+      if (fromTitle) return fromTitle;
+      const firstGrammar = pack.grammars?.[0]?.pattern;
+      if (firstGrammar) return extractPureJapaneseText(firstGrammar);
+      const firstVocab = pack.vocabularies?.[0];
+      return firstVocab ? (firstVocab.kana || firstVocab.ja) : '日本語';
+    }
+
+    // Stage 2: Vocabulary
+    if (currentStage === 2) {
+      const v = pack.vocabularies[vocabIndex] || pack.vocabularies[0];
+      return v ? (v.kana || v.ja) : '';
+    }
+
+    // Stage 3: Kanji
+    if (currentStage === 3) {
+      const k = pack.kanjis?.[0];
+      if (k) {
+        const reading = k.onyomi?.[0] || k.kunyomi?.[0] || '';
+        return reading ? `${k.char}、${reading}` : k.char;
+      }
+      return '';
+    }
+
+    // Stage 4: Grammar
+    if (currentStage === 4) {
+      const g = pack.grammars?.[0];
+      if (g) {
+        if (g.examples?.[0]?.sentenceId) {
+          const sent = pack.sentences.find((s) => s.id === g.examples[0].sentenceId);
+          if (sent) return sent.kana || sent.ja;
+        }
+        return extractPureJapaneseText(g.pattern) || g.pattern;
+      }
+      return '';
+    }
+
+    // Stage 5: Example Sentences
+    if (currentStage === 5) {
+      const s = pack.sentences[exerciseIndex % Math.max(1, pack.sentences.length)] || pack.sentences[0];
+      return s ? (s.kana || s.ja) : '';
+    }
+
+    // Stages with questions: Guided Practice (6), Active Recall (7), Mastery Questions (11), Lesson Test (13)
+    if ([6, 7, 11, 13].includes(currentStage)) {
+      const q = getCurrentQuestion();
+      const extracted = extractSpeakableJapaneseFromQuestion(q);
+      if (extracted) return extracted;
+    }
+
+    // Stage 8: Reading Comprehension
+    if (currentStage === 8) {
+      const q = getCurrentQuestion();
+      const qText = extractSpeakableJapaneseFromQuestion(q);
+      if (qText) return qText;
+      return extractPureJapaneseText(dokkaiPassage?.fullText || pack.reading?.text || '') || pack.reading?.kanaText || '';
+    }
+
+    // Stage 9: Listening Comprehension
+    if (currentStage === 9) {
+      const q = getCurrentQuestion();
+      const qText = extractSpeakableJapaneseFromQuestion(q);
+      if (qText) return qText;
+      return pack.listening?.transcript || '';
+    }
+
+    // Stage 10: Shadowing
+    if (currentStage === 10) {
+      const s = pack.sentences?.[0];
+      return s ? (s.kana || s.ja) : pack.listening?.transcript || '';
+    }
+
+    // Stage 12: SRS Cards
+    if (currentStage === 12) {
+      const v = pack.vocabularies[0];
+      return v ? (v.kana || v.ja) : '';
+    }
+
+    // Stage 14: Remediation
+    if (currentStage === 14) {
+      if (testIncorrectQuestions.length > 0) {
+        const q = testIncorrectQuestions[0];
+        const extracted = extractPureJapaneseText(q.prompt || q.promptMy || q.questionMy || '') || extractPureJapaneseText(q.answer);
+        if (extracted) return extracted;
+      }
+      return extractPureJapaneseText(pack.title) || '復習しましょう';
+    }
+
+    // Stage 15: Progress Update
+    if (currentStage === 15) {
+      return extractPureJapaneseText(pack.title) || 'お疲れ様でした';
+    }
+
+    const fallbackQ = getCurrentQuestion();
+    return extractSpeakableJapaneseFromQuestion(fallbackQ) || pack.vocabularies?.[0]?.ja || '';
+  }, [currentStage, pack, vocabIndex, exerciseIndex, dokkaiPassage, testIncorrectQuestions]);
+
+  const speakCurrentSpeech = useCallback((textToSpeak?: string, targetRate?: number) => {
+    if (loopControllerRef.current) {
+      loopControllerRef.current.cancel();
+      loopControllerRef.current = null;
+      setIsLooping3x(false);
+    }
+
+    const text = textToSpeak || getCurrentSpeakableJapanese();
+    if (!text) return;
+
+    const rate = targetRate ?? playbackRate;
+    setIsSpeakingTts(true);
+
+    speakDirectJapanese(text, {
+      rate,
+      onStart: () => setIsSpeakingTts(true),
+      onEnd: () => {
+        setIsSpeakingTts(false);
+        if (blindListeningMode) {
+          setBlindRevealed(true);
+        }
+      },
+      onError: () => setIsSpeakingTts(false),
+    });
+  }, [getCurrentSpeakableJapanese, playbackRate, blindListeningMode]);
+
+  const handleToggle3xLoop = useCallback(() => {
+    if (isLooping3x) {
+      if (loopControllerRef.current) {
+        loopControllerRef.current.cancel();
+        loopControllerRef.current = null;
+      }
+      setIsLooping3x(false);
+      setIsSpeakingTts(false);
+      return;
+    }
+
+    const text = getCurrentSpeakableJapanese();
+    if (!text) return;
+
+    setIsLooping3x(true);
+    setIsSpeakingTts(true);
+
+    loopControllerRef.current = play3xLoopTts(
+      text,
+      {
+        rate: playbackRate,
+        onStart: () => setIsSpeakingTts(true),
+        onEnd: () => {
+          setIsLooping3x(false);
+          setIsSpeakingTts(false);
+          if (blindListeningMode) {
+            setBlindRevealed(true);
+          }
+        },
+        onError: () => {
+          setIsLooping3x(false);
+          setIsSpeakingTts(false);
+        },
+      }
+    );
+  }, [isLooping3x, getCurrentSpeakableJapanese, playbackRate, blindListeningMode]);
+
+  const handleSelectSpeed = useCallback((newRate: number) => {
+    setPlaybackRate(newRate);
+    if (typeof window !== 'undefined') {
+      try {
+        localStorage.setItem(AUDIO_SPEED_STORAGE_KEY, String(newRate));
+      } catch {
+        // ignore
+      }
+    }
+    const jaText = getCurrentSpeakableJapanese();
+    if (jaText) {
+      speakCurrentSpeech(jaText, newRate);
+    }
+  }, [setPlaybackRate, getCurrentSpeakableJapanese, speakCurrentSpeech]);
+
+  const toggleBlindListeningMode = useCallback(() => {
+    setBlindListeningMode((prev) => {
+      const next = !prev;
+      if (typeof window !== 'undefined') {
+        try {
+          localStorage.setItem(BLIND_LISTENING_STORAGE_KEY, String(next));
+        } catch {
+          // ignore
+        }
+      }
+      if (next) {
+        const jaText = getCurrentSpeakableJapanese();
+        if (jaText) {
+          speakCurrentSpeech(jaText, playbackRate);
+        }
+      }
+      return next;
+    });
+  }, [getCurrentSpeakableJapanese, playbackRate, speakCurrentSpeech]);
+
+  // When Blind Listening Mode is ON, automatically speak new Japanese text on stage or question index change
+  const prevNavRef = useRef({ stage: currentStage, ex: exerciseIndex, voc: vocabIndex });
+  useEffect(() => {
+    const prev = prevNavRef.current;
+    const changed = prev.stage !== currentStage || prev.ex !== exerciseIndex || prev.voc !== vocabIndex;
+    prevNavRef.current = { stage: currentStage, ex: exerciseIndex, voc: vocabIndex };
+
+    if (changed) {
+      if (loopControllerRef.current) {
+        loopControllerRef.current.cancel();
+        loopControllerRef.current = null;
+        setIsLooping3x(false);
+      }
+
+      if (blindListeningMode) {
+        const jaText = getCurrentSpeakableJapanese();
+        if (jaText) {
+          speakCurrentSpeech(jaText, playbackRate);
+        }
+      }
+    }
+  }, [currentStage, exerciseIndex, vocabIndex, blindListeningMode, getCurrentSpeakableJapanese, playbackRate, speakCurrentSpeech]);
+
+  // Keyboard shortcut: 'R' to immediately speak current stage's Japanese text
+  useEffect(() => {
+    const handleKeyR = (e: KeyboardEvent) => {
+      if (e.key === 'r' || e.key === 'R') {
+        const activeTag = (document.activeElement?.tagName || '').toLowerCase();
+        if (activeTag === 'input' || activeTag === 'textarea' || (document.activeElement as HTMLElement)?.isContentEditable) {
+          return;
+        }
+        e.preventDefault();
+        speakCurrentSpeech();
+      }
+    };
+    window.addEventListener('keydown', handleKeyR);
+    return () => window.removeEventListener('keydown', handleKeyR);
+  }, [speakCurrentSpeech]);
+
+  // Unmount cleanup to cancel active speech synthesis and loops
+  useEffect(() => {
+    return () => {
+      if (loopControllerRef.current) {
+        loopControllerRef.current.cancel();
+      }
+      if (typeof window !== 'undefined' && window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
+    };
+  }, []);
 
   const handleCheckAnswer = async () => {
     const q = getCurrentQuestion();
@@ -751,48 +997,8 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
   };
 
   const handlePlayAudio = useCallback(() => {
-    if (currentStage === 2) {
-      const v = pack.vocabularies[vocabIndex];
-      if (v) {
-        if (isPlaying && (currentPlayingText === v.ja || currentPlayingText === v.kana)) {
-          stop();
-        } else {
-          play(v.ja, v.audio, undefined, v.kana);
-        }
-      }
-    } else if (currentStage === 5) {
-      const s = pack.sentences[0];
-      if (s) {
-        if (isPlaying && currentPlayingText === s.ja) {
-          stop();
-        } else {
-          play(s.ja, s.audio);
-        }
-      }
-    } else if (currentStage === 9) {
-      if (isPlaying && currentPlayingText === pack.listening.transcript) {
-        stop();
-      } else {
-        play(pack.listening.transcript, pack.listening.audio);
-      }
-    } else if ([6, 7, 11, 13].includes(currentStage)) {
-      const q = getCurrentQuestion();
-      if (q) {
-        const hasJaInPrompt = /[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff]/.test(q.prompt);
-        const targetText = hasJaInPrompt
-          ? q.prompt
-          : (q.explanation && /[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff]/.test(q.explanation)
-              ? q.explanation
-              : (q.choices?.find((c) => /[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff]/.test(c)) || q.prompt));
-
-        if (isPlaying && currentPlayingText === targetText) {
-          stop();
-        } else {
-          play(targetText, q.audio);
-        }
-      }
-    }
-  }, [currentStage, pack, vocabIndex, isPlaying, currentPlayingText, play, stop, exerciseIndex]);
+    speakCurrentSpeech();
+  }, [speakCurrentSpeech]);
 
   const handleNextCard = useCallback(() => {
     if (currentStage === 1) {
@@ -1014,27 +1220,66 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
           }}
         />
 
-        {/* Audio Toolbar: Multi-Speed TTS & Blind Listening Mode */}
+        {/* Audio Toolbar: Multi-Speed TTS & Blind Listening Mode with Instant Controls */}
         <div className="pt-2 border-t border-stone-100 flex flex-wrap items-center justify-between gap-2 text-xs">
-          {/* Blind Listening Mode Toggle */}
-          <motion.button
-            whileTap={{ scale: 0.96 }}
-            onClick={toggleBlindListeningMode}
-            className={`px-3 py-1.5 rounded-xl border font-medium flex items-center space-x-1.5 transition cursor-pointer font-myanmar ${
-              blindListeningMode
-                ? 'bg-purple-600 text-white border-purple-600 shadow-xs'
-                : 'bg-stone-50 hover:bg-stone-100 text-stone-700 border-stone-200'
-            }`}
-            title="Blind Listening Mode: Blurs/hides Japanese and Burmese text until audio completes or clicked"
-          >
-            <span>🎧</span>
-            <span>Blind Listening Mode (အသံအရင်နားထောင်မည်)</span>
-            {blindListeningMode && (
-              <span className="ml-1 text-[10px] bg-purple-800 text-white px-1.5 py-0.2 rounded-md font-sans">
-                ON
-              </span>
-            )}
-          </motion.button>
+          {/* Action Controls & Mode Toggles */}
+          <div className="flex items-center flex-wrap gap-1.5">
+            {/* Blind Listening Mode Toggle */}
+            <motion.button
+              whileTap={{ scale: 0.96 }}
+              type="button"
+              onClick={toggleBlindListeningMode}
+              className={`px-3 py-1.5 rounded-xl border font-medium flex items-center space-x-1.5 transition cursor-pointer font-myanmar ${
+                blindListeningMode
+                  ? 'bg-purple-600 text-white border-purple-600 shadow-xs'
+                  : 'bg-stone-50 hover:bg-stone-100 text-stone-700 border-stone-200'
+              }`}
+              title="Blind Listening Mode: Blurs/hides Japanese and Burmese text until audio completes or clicked"
+            >
+              <span>🎧</span>
+              <span>Blind Listening Mode (အသံအရင်နားထောင်မည်)</span>
+              {blindListeningMode && (
+                <span className="ml-1 text-[10px] bg-purple-800 text-white px-1.5 py-0.2 rounded-md font-sans">
+                  ON
+                </span>
+              )}
+            </motion.button>
+
+            {/* Play Button: 🔊 အသံနားထောင်မည် (Play) (Shortcut: R) */}
+            <motion.button
+              whileTap={{ scale: 0.96 }}
+              type="button"
+              onClick={() => speakCurrentSpeech()}
+              className={`px-3 py-1.5 rounded-xl border font-medium flex items-center space-x-1.5 transition cursor-pointer font-myanmar ${
+                isSpeakingTts && !isLooping3x
+                  ? 'bg-indigo-600 text-white border-indigo-600 shadow-xs animate-pulse'
+                  : 'bg-stone-50 hover:bg-stone-100 text-stone-700 border-stone-200 hover:border-stone-300'
+              }`}
+              title="🔊 Play Japanese Audio for current stage (Keyboard shortcut: R)"
+            >
+              <span>🔊</span>
+              <span>အသံနားထောင်မည် (Play)</span>
+              <kbd className="hidden sm:inline-block ml-1 px-1.5 py-0.2 rounded bg-stone-200/80 dark:bg-stone-700 text-stone-700 dark:text-stone-200 font-mono text-[10px]">
+                R
+              </kbd>
+            </motion.button>
+
+            {/* 3x Loop Button: 🔁 3x Loop */}
+            <motion.button
+              whileTap={{ scale: 0.96 }}
+              type="button"
+              onClick={handleToggle3xLoop}
+              className={`px-3 py-1.5 rounded-xl border font-medium flex items-center space-x-1.5 transition cursor-pointer font-myanmar ${
+                isLooping3x
+                  ? 'bg-emerald-600 text-white border-emerald-600 shadow-xs animate-pulse'
+                  : 'bg-stone-50 hover:bg-stone-100 text-stone-700 border-stone-200 hover:border-stone-300'
+              }`}
+              title="🔁 3x Loop: Plays Japanese text 3 times with a 1200ms pause between repetitions"
+            >
+              <span className={isLooping3x ? 'animate-spin' : ''}>🔁</span>
+              <span>{isLooping3x ? '3x Looping...' : '3x Loop'}</span>
+            </motion.button>
+          </div>
 
           {/* Speed Presets */}
           <div className="flex items-center space-x-1 bg-stone-50 px-2 py-1 rounded-xl border border-stone-200">
@@ -1043,7 +1288,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
               <button
                 key={preset.rate}
                 type="button"
-                onClick={() => setPlaybackRate(preset.rate)}
+                onClick={() => handleSelectSpeed(preset.rate)}
                 className={`px-2 py-0.5 rounded-lg text-[11px] transition cursor-pointer font-myanmar ${
                   playbackRate === preset.rate
                     ? 'bg-indigo-600 text-white font-bold shadow-2xs'
