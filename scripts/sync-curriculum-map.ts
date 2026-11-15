@@ -55,6 +55,8 @@ export function syncCurriculumMap(curriculumMapPath = './content/curriculum-map.
           targetVocabCount: 0,
           status: 'planned',
           reviewStatus: 'ai-authored',
+          authoringOrigin: existingEntry?.authoringOrigin || 'unknown',
+          verificationStatus: existingEntry?.verificationStatus || 'unverified',
         };
         CurriculumMapItemSchema.parse(plannedItem);
         updatedItems.push(plannedItem);
@@ -81,6 +83,8 @@ export function syncCurriculumMap(curriculumMapPath = './content/curriculum-map.
           targetVocabCount: Array.isArray(rawContent.vocabularies) ? rawContent.vocabularies.length : 0,
           status: 'drafted',
           reviewStatus: 'ai-authored',
+          authoringOrigin: rawContent.prov?.authoringOrigin || existingEntry?.authoringOrigin || 'unknown',
+          verificationStatus: rawContent.prov?.verificationStatus || existingEntry?.verificationStatus || 'unverified',
         };
         CurriculumMapItemSchema.parse(draftedItem);
         updatedItems.push(draftedItem);
@@ -105,6 +109,8 @@ export function syncCurriculumMap(curriculumMapPath = './content/curriculum-map.
           targetVocabCount: pack.vocabularies.length,
           status: 'drafted',
           reviewStatus: 'ai-authored',
+          authoringOrigin: pack.prov.authoringOrigin,
+          verificationStatus: pack.prov.verificationStatus,
         };
         CurriculumMapItemSchema.parse(draftedItem);
         updatedItems.push(draftedItem);
@@ -135,6 +141,8 @@ export function syncCurriculumMap(curriculumMapPath = './content/curriculum-map.
         targetVocabCount: pack.vocabularies.length,
         status: status,
         reviewStatus: 'ai-authored',
+        authoringOrigin: pack.prov.authoringOrigin,
+        verificationStatus: pack.prov.verificationStatus,
       };
 
       CurriculumMapItemSchema.parse(item);

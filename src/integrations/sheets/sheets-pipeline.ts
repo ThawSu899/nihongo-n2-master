@@ -2,6 +2,9 @@ import { z } from 'zod';
 import {
   LessonPack,
   LessonPackSchema,
+  LessonPackProvenanceSchema,
+  AuthoringOriginSchema,
+  VerificationStatusSchema,
   VocabularySchema,
   KanjiSchema,
   GrammarSchema,
@@ -17,6 +20,9 @@ import {
   ReadingPassage,
   ListeningDialogue,
   Provenance,
+  LessonPackProvenance,
+  AuthoringOrigin,
+  VerificationStatus,
 } from '../../domain/models/types';
 import { isZawgyi } from '../../domain/linter/content-linter';
 import { db } from '../../data/db/dexie-db';
@@ -74,6 +80,20 @@ export interface StagedPackData extends Partial<LessonPack> {
   audio?: StagedAudio[];
 }
 
+export interface BuildProvenanceOptions {
+  fallbackIso?: string;
+}
+
+export interface ProvenanceAuditRecord {
+  tab: string;
+  rowNumber: number;
+  id?: string;
+  requestedStatus?: string;
+  effectiveStatus: VerificationStatus;
+  statusDowngraded: boolean;
+  downgradeReason?: string;
+}
+
 export interface SheetsValidationReport {
   timestamp: string;
   spreadsheetId?: string;
@@ -91,6 +111,7 @@ export interface SheetsValidationReport {
   packId?: string;
   schemaBlockers?: Record<string, string>;
   tabSummaries?: Record<string, { total: number; valid: number; quarantined: number; warnings: number }>;
+  provenanceAuditTrail?: ProvenanceAuditRecord[];
 }
 
 export interface SpreadsheetTemplateTab {
@@ -165,14 +186,328 @@ export class GoogleSheetsPipeline {
   ] as const;
 
   /**
+   * Evaluates untrusted row metadata against the Trusted Verification Policy:
+   * 1. Missing or explicit 'unverified' is accepted directly.
+   * 2. 'automated-structure-checked' requires certified automated pipeline execution; spreadsheet declarations alone are downgraded to 'unverified'.
+   * 3. 'editorial-reviewed' requires independently verifiable reviewer approval records from an approved workflow. Since no such workflow currently exists, spreadsheet cells, plain reviewer names, or caller-provided approval objects are downgraded to 'unverified'.
+   * 4. 'native-speaker-verified' requires independently verifiable native-speaker review records from an approved workflow. Since no such workflow currently exists, spreadsheet cells, plain reviewer names, or caller-provided approval objects are downgraded to 'unverified'.
+   * 5. Invalid status/origin values are rejected via Zod schemas.
+   */
+  static evaluateProvenance(
+    row: Record<string, string>,
+    options?: string | BuildProvenanceOptions
+  ): {
+    prov: LessonPackProvenance;
+    requestedVerificationStatus?: string;
+    effectiveVerificationStatus: VerificationStatus;
+    statusDowngraded: boolean;
+    downgradeReason?: string;
+  } {
+    const fallbackIso = typeof options === 'string' ? options : options?.fallbackIso || new Date().toISOString();
+
+    const rawOrigin = (row['authoringOrigin'] || row['AuthoringOrigin'] || '').trim();
+    const rawVerification = (row['verificationStatus'] || row['VerificationStatus'] || '').trim();
+    const rawStatus = (row['status'] || row['Status'] || '').trim();
+    const rawSource = (row['source'] || row['Source'] || 'Google Sheets Curriculum Sync').trim();
+    const rawLicense = (row['license'] || row['License'] || 'CC-BY-4.0').trim();
+    const rawUpdatedAt = (row['updatedAt'] || row['UpdatedAt'] || fallbackIso).trim();
+    const rawRev = row['rev'] || row['Rev'];
+    const rawReviewer = (row['reviewer'] || row['Reviewer'] || '').trim() || undefined;
+
+    // 1. Validate authoringOrigin (if provided); default to 'unknown'
+    let authoringOrigin: AuthoringOrigin = 'unknown';
+    if (rawOrigin !== '') {
+      try {
+        authoringOrigin = AuthoringOriginSchema.parse(rawOrigin);
+      } catch (err: any) {
+        throw new Error(`Invalid authoringOrigin '${rawOrigin}': expected one of 'human-authored', 'ai-assisted', 'ai-authored', 'unknown'`);
+      }
+    }
+
+    // 2. Validate legacy status (if provided); default to 'reviewed'
+    let status: 'draft' | 'reviewed' | 'native_verified' = 'reviewed';
+    if (rawStatus !== '') {
+      try {
+        status = z.enum(['draft', 'reviewed', 'native_verified']).parse(rawStatus);
+      } catch (err: any) {
+        throw new Error(`Invalid status '${rawStatus}': expected one of 'draft', 'reviewed', 'native_verified'`);
+      }
+    }
+
+    // 3. Evaluate verificationStatus under the Trusted Verification Policy
+    let effectiveVerificationStatus: VerificationStatus = 'unverified';
+    let statusDowngraded = false;
+    let downgradeReason: string | undefined;
+
+    if (rawVerification === '' || rawVerification === 'unverified') {
+      effectiveVerificationStatus = 'unverified';
+    } else {
+      // Must be a valid schema enum value; reject invalid metadata immediately with Zod/schema error
+      let parsedRequested: VerificationStatus;
+      try {
+        parsedRequested = VerificationStatusSchema.parse(rawVerification);
+      } catch (err: any) {
+        throw new Error(
+          `Invalid verificationStatus '${rawVerification}': expected one of 'unverified', 'automated-structure-checked', 'editorial-reviewed', 'native-speaker-verified'`
+        );
+      }
+
+      switch (parsedRequested) {
+        case 'automated-structure-checked':
+          effectiveVerificationStatus = 'unverified';
+          statusDowngraded = true;
+          downgradeReason =
+            'Spreadsheet cell declared "automated-structure-checked", but spreadsheet cells alone are untrusted external input. Automated QA status can only be certified by the application automated validation routine (certifyAutomatedStructure) after complete structural and referential verification of the assembled LessonPack.';
+          break;
+
+        case 'editorial-reviewed':
+          effectiveVerificationStatus = 'unverified';
+          statusDowngraded = true;
+          downgradeReason =
+            'Spreadsheet cell declared "editorial-reviewed", but no authenticated reviewer approval mechanism currently exists in the repository. Plain spreadsheet declarations, reviewer names, or caller-provided approval objects cannot establish editorial review.';
+          break;
+
+        case 'native-speaker-verified':
+          effectiveVerificationStatus = 'unverified';
+          statusDowngraded = true;
+          downgradeReason =
+            'Spreadsheet cell declared "native-speaker-verified", but no authenticated native-speaker verification mechanism currently exists in the repository. Plain spreadsheet declarations, reviewer names, or caller-provided approval objects cannot establish native speaker verification.';
+          break;
+
+        default:
+          effectiveVerificationStatus = 'unverified';
+          break;
+      }
+    }
+
+    const candidate: LessonPackProvenance = {
+      source: rawSource,
+      license: rawLicense,
+      status,
+      updatedAt: rawUpdatedAt,
+      rev: rawRev !== undefined && rawRev !== '' ? Number(rawRev) : 1,
+      authoringOrigin,
+      verificationStatus: effectiveVerificationStatus,
+      reviewer: rawReviewer,
+    };
+
+    const validated = LessonPackProvenanceSchema.parse(candidate);
+
+    return {
+      prov: validated,
+      requestedVerificationStatus: rawVerification || undefined,
+      effectiveVerificationStatus,
+      statusDowngraded,
+      downgradeReason,
+    };
+  }
+
+  /**
+   * Constructs and validates a LessonPackProvenance object from a row's metadata columns.
+   * Untrusted spreadsheet input claiming automated, editorial, or native verification is safely downgraded to 'unverified'.
+   */
+  static buildProvenance(
+    row: Record<string, string>,
+    options?: string | BuildProvenanceOptions
+  ): LessonPackProvenance {
+    return GoogleSheetsPipeline.evaluateProvenance(row, options).prov;
+  }
+
+  /**
+   * Certifies that a fully assembled lesson pack has undergone and passed
+   * the application's actual automated structural verification pipeline.
+   *
+   * NEVER grants this status based on spreadsheet cell declarations or caller booleans.
+   * Runs complete structural, ID format, allowed curriculum range, and cross-reference checks.
+   */
+  static certifyAutomatedStructure(pack: LessonPack): LessonPack {
+    // 1. Full schema validation
+    const validated = LessonPackSchema.parse(pack);
+
+    // 2. Validate lesson ID format and exact allowed curriculum lesson range
+    const match = validated.id.match(/^n([2-5])\.l(\d{2})$/);
+    if (!match) {
+      throw new Error(`Automated certification failed: Invalid lesson ID format '${validated.id}'. Expected 'n[2-5].lXX'`);
+    }
+
+    const levelNum = match[1];
+    const expectedLevel = ('N' + levelNum) as 'N5' | 'N4' | 'N3' | 'N2';
+    if (validated.level !== expectedLevel) {
+      throw new Error(
+        `Automated certification failed: Lesson ID level 'n${levelNum}' does not match pack level '${validated.level}'`
+      );
+    }
+
+    const lessonNum = parseInt(match[2], 10);
+    if (validated.number !== lessonNum) {
+      throw new Error(
+        `Automated certification failed: Pack number ${validated.number} does not match lesson ID number ${lessonNum}`
+      );
+    }
+
+    const maxLessonsByLevel: Record<'N5' | 'N4' | 'N3' | 'N2', number> = {
+      N5: 30,
+      N4: 36,
+      N3: 48,
+      N2: 60,
+    };
+    const maxAllowed = maxLessonsByLevel[expectedLevel];
+    if (lessonNum < 1 || lessonNum > maxAllowed) {
+      throw new Error(
+        `Automated certification failed: Lesson number ${lessonNum} is out of allowed range (1-${maxAllowed}) for ${expectedLevel}`
+      );
+    }
+
+    // 3. Assemble declared ID sets
+    const sentenceIds = new Set(validated.sentences.map((s) => s.id));
+    const vocabIds = new Set(validated.vocabularies.map((v) => v.id));
+    const kanjiIds = new Set(validated.kanjis.map((k) => k.id));
+    const grammarIds = new Set(validated.grammars.map((g) => g.id));
+    const questionIds = new Set(validated.questions.map((q) => q.id));
+    const readingIds = new Set(validated.reading ? [validated.reading.id] : []);
+    const listeningIds = new Set(validated.listening ? [validated.listening.id] : []);
+    const allDeclaredItemIds = new Set([
+      ...sentenceIds,
+      ...vocabIds,
+      ...kanjiIds,
+      ...grammarIds,
+      ...questionIds,
+      ...readingIds,
+      ...listeningIds,
+    ]);
+
+    // 4. Vocabulary cross-references (exampleSentenceId, kanjiIds)
+    for (const v of validated.vocabularies) {
+      if (v.exampleSentenceId && !sentenceIds.has(v.exampleSentenceId)) {
+        throw new Error(
+          `Automated certification failed: Vocabulary '${v.id}' references missing exampleSentenceId '${v.exampleSentenceId}'`
+        );
+      }
+      for (const kId of v.kanjiIds) {
+        if (!kanjiIds.has(kId)) {
+          throw new Error(
+            `Automated certification failed: Vocabulary '${v.id}' references missing kanjiId '${kId}'`
+          );
+        }
+      }
+    }
+
+    // 5. Kanji cross-references (exampleSentenceIds)
+    for (const k of validated.kanjis) {
+      for (const sId of k.exampleSentenceIds || []) {
+        if (!sentenceIds.has(sId)) {
+          throw new Error(
+            `Automated certification failed: Kanji '${k.id}' references missing exampleSentenceId '${sId}'`
+          );
+        }
+      }
+    }
+
+    // 6. Grammar cross-references (examples[].sentenceId)
+    for (const g of validated.grammars) {
+      for (const ex of g.examples || []) {
+        if (ex.sentenceId && !sentenceIds.has(ex.sentenceId)) {
+          throw new Error(
+            `Automated certification failed: Grammar '${g.id}' example references missing sentenceId '${ex.sentenceId}'`
+          );
+        }
+      }
+    }
+
+    // 7. Sentence cross-references (vocabIds, grammarIds)
+    for (const s of validated.sentences) {
+      for (const vId of s.vocabIds || []) {
+        if (!vocabIds.has(vId)) {
+          throw new Error(
+            `Automated certification failed: Sentence '${s.id}' references missing vocabId '${vId}'`
+          );
+        }
+      }
+      for (const gId of s.grammarIds || []) {
+        if (!grammarIds.has(gId)) {
+          throw new Error(
+            `Automated certification failed: Sentence '${s.id}' references missing grammarId '${gId}'`
+          );
+        }
+      }
+    }
+
+    // 8. Reading cross-references (reading.questionIds)
+    for (const q of validated.reading.questionIds) {
+      if (!questionIds.has(q)) {
+        throw new Error(
+          `Automated certification failed: Reading passage '${validated.reading.id}' references missing questionId '${q}'`
+        );
+      }
+    }
+
+    // 9. Listening cross-references (listening.questionIds)
+    for (const q of validated.listening.questionIds) {
+      if (!questionIds.has(q)) {
+        throw new Error(
+          `Automated certification failed: Listening dialogue '${validated.listening.id}' references missing questionId '${q}'`
+        );
+      }
+    }
+
+    // 10. Question cross-references (linkedItemIds)
+    for (const q of validated.questions) {
+      for (const itemId of q.linkedItemIds || []) {
+        if (!allDeclaredItemIds.has(itemId)) {
+          throw new Error(
+            `Automated certification failed: Question '${q.id}' references missing linkedItemId '${itemId}'`
+          );
+        }
+      }
+    }
+
+    // 11. Update provenance to automated-structure-checked across root and learning items
+    const certifiedProv: LessonPackProvenance = {
+      ...validated.prov,
+      verificationStatus: 'automated-structure-checked',
+    };
+
+    return {
+      ...validated,
+      prov: certifiedProv,
+      vocabularies: validated.vocabularies.map((v) => ({
+        ...v,
+        prov: { ...v.prov, verificationStatus: 'automated-structure-checked' },
+      })),
+      kanjis: validated.kanjis.map((k) => ({
+        ...k,
+        prov: { ...k.prov, verificationStatus: 'automated-structure-checked' },
+      })),
+      grammars: validated.grammars.map((g) => ({
+        ...g,
+        prov: { ...g.prov, verificationStatus: 'automated-structure-checked' },
+      })),
+      sentences: validated.sentences.map((s) => ({
+        ...s,
+        prov: { ...s.prov, verificationStatus: 'automated-structure-checked' },
+      })),
+      reading: {
+        ...validated.reading,
+        prov: { ...validated.reading.prov, verificationStatus: 'automated-structure-checked' },
+      },
+      listening: {
+        ...validated.listening,
+        prov: { ...validated.listening.prov, verificationStatus: 'automated-structure-checked' },
+      },
+    };
+  }
+
+  /**
    * Parses raw tabular spreadsheet rows into staged and validated records across all 12 tabs.
    * Quarantines invalid rows, checks referential integrity, detects duplicates, and generates diffs.
    */
   static parseAndStage(
     tabsData: Record<string, Array<Record<string, string>>>,
-    existingPack?: LessonPack
+    existingPack?: LessonPack,
+    options?: BuildProvenanceOptions
   ): { stagedPack: StagedPackData; report: SheetsValidationReport } {
     const rowReports: StagingRowReport[] = [];
+    const provenanceAuditTrail: ProvenanceAuditRecord[] = [];
     let validCount = 0;
     let quarantinedCount = 0;
     let warningsCount = 0;
@@ -198,19 +533,43 @@ export class GoogleSheetsPipeline {
       return true;
     }
 
-    // Default provenance
     const nowIso = new Date().toISOString();
-    function buildProvenance(row: Record<string, string>): Provenance {
-      return {
-        source: row['source'] || row['Source'] || 'Google Sheets Curriculum Sync',
-        license: row['license'] || row['License'] || 'CC-BY-4.0',
-        status: (['draft', 'reviewed', 'native_verified'].includes(row['status'] || row['Status'])
-          ? (row['status'] || row['Status'])
-          : 'reviewed') as any,
-        updatedAt: row['updatedAt'] || row['UpdatedAt'] || nowIso,
-        rev: Number(row['rev'] || row['Rev'] || 1),
-      };
-    }
+
+    const auditRowProvenance = (
+      tab: string,
+      rowNum: number,
+      id: string | undefined,
+      row: Record<string, string>,
+      warningsList: string[]
+    ): LessonPackProvenance => {
+      const audit = GoogleSheetsPipeline.evaluateProvenance(row, {
+        fallbackIso: nowIso,
+      });
+
+      if (audit.statusDowngraded && audit.downgradeReason) {
+        warningsCount += 1;
+        warningsList.push(audit.downgradeReason);
+        provenanceAuditTrail.push({
+          tab,
+          rowNumber: rowNum,
+          id,
+          requestedStatus: audit.requestedVerificationStatus,
+          effectiveStatus: audit.effectiveVerificationStatus,
+          statusDowngraded: true,
+          downgradeReason: audit.downgradeReason,
+        });
+      }
+
+      return audit.prov;
+    };
+
+    const buildProvenance = (
+      row: Record<string, string>,
+      tab = 'Row',
+      rowNum = 0,
+      id?: string,
+      warningsList: string[] = []
+    ): LessonPackProvenance => auditRowProvenance(tab, rowNum, id, row, warningsList);
 
     // 1. Parse Meta Tab
     const metaRows = tabsData['Meta'] || [];
@@ -235,26 +594,41 @@ export class GoogleSheetsPipeline {
       },
       'masteryThresholds'
     );
+
+    let stagedMetaProv: LessonPackProvenance | undefined;
+    const metaErrors: string[] = [];
+    const metaWarnings: string[] = [];
     if (thresholdsParsed.error) {
-      warningsCount++;
+      metaWarnings.push(thresholdsParsed.error);
+    }
+
+    try {
+      stagedMetaProv = auditRowProvenance('Meta', 2, packId, metaRow, metaWarnings);
+    } catch (err: any) {
+      metaErrors.push(`Invalid Meta provenance: ${err.message || 'Validation error'}`);
+    }
+
+    if (metaErrors.length > 0) {
+      quarantinedCount++;
       rowReports.push({
         tab: 'Meta',
         rowNumber: 2,
         id: packId,
-        status: 'warning',
-        errors: [],
-        warnings: [thresholdsParsed.error],
+        status: 'quarantined',
+        errors: metaErrors,
+        warnings: metaWarnings,
         raw: metaRow,
       });
     } else if (metaRows.length > 0) {
       validCount++;
+      if (thresholdsParsed.error) warningsCount++;
       rowReports.push({
         tab: 'Meta',
         rowNumber: 2,
         id: packId,
-        status: 'valid',
+        status: metaWarnings.length > 0 ? 'warning' : 'valid',
         errors: [],
-        warnings: [],
+        warnings: metaWarnings,
         raw: metaRow,
       });
     }
@@ -407,7 +781,9 @@ export class GoogleSheetsPipeline {
         return;
       }
 
+      const vocabWarnings: string[] = [];
       try {
+        const itemProv = auditRowProvenance('Vocabulary', rowNum, id, row, vocabWarnings);
         const item: Vocabulary = VocabularySchema.parse({
           id,
           lessonId: row['lessonId'] || packId,
@@ -422,11 +798,19 @@ export class GoogleSheetsPipeline {
           difficulty: Number(row['difficulty'] || row['Difficulty'] || 1),
           importance: Number(row['importance'] || row['Importance'] || 5),
           audio: audioParsed.data,
-          prov: buildProvenance(row),
+          prov: itemProv,
         });
         stagedVocab.push(item);
         validCount++;
-        rowReports.push({ tab: 'Vocabulary', rowNumber: rowNum, id, status: 'valid', errors: [], warnings: [], raw: row });
+        rowReports.push({
+          tab: 'Vocabulary',
+          rowNumber: rowNum,
+          id,
+          status: vocabWarnings.length > 0 ? 'warning' : 'valid',
+          errors: [],
+          warnings: vocabWarnings,
+          raw: row,
+        });
       } catch (err: any) {
         quarantinedCount++;
         rowReports.push({
@@ -435,7 +819,7 @@ export class GoogleSheetsPipeline {
           id,
           status: 'quarantined',
           errors: [err.message || 'Validation error'],
-          warnings: [],
+          warnings: vocabWarnings,
           raw: row,
         });
       }
@@ -467,7 +851,9 @@ export class GoogleSheetsPipeline {
         return;
       }
 
+      const kanjiWarnings: string[] = [];
       try {
+        const itemProv = auditRowProvenance('Kanji', rowNum, id, row, kanjiWarnings);
         const item: Kanji = KanjiSchema.parse({
           id,
           lessonId: row['lessonId'] || packId,
@@ -482,14 +868,22 @@ export class GoogleSheetsPipeline {
           difficulty: Number(row['difficulty'] || row['Difficulty'] || 1),
           level,
           audio: { kind: 'tts', lang: 'ja-JP' },
-          prov: buildProvenance(row),
+          prov: itemProv,
         });
         stagedKanji.push(item);
         validCount++;
-        rowReports.push({ tab: 'Kanji', rowNumber: rowNum, id, status: 'valid', errors: [], warnings: [], raw: row });
+        rowReports.push({
+          tab: 'Kanji',
+          rowNumber: rowNum,
+          id,
+          status: kanjiWarnings.length > 0 ? 'warning' : 'valid',
+          errors: [],
+          warnings: kanjiWarnings,
+          raw: row,
+        });
       } catch (err: any) {
         quarantinedCount++;
-        rowReports.push({ tab: 'Kanji', rowNumber: rowNum, id, status: 'quarantined', errors: [err.message], warnings: [], raw: row });
+        rowReports.push({ tab: 'Kanji', rowNumber: rowNum, id, status: 'quarantined', errors: [err.message], warnings: kanjiWarnings, raw: row });
       }
     });
 
@@ -522,7 +916,9 @@ export class GoogleSheetsPipeline {
         return;
       }
 
+      const grammarWarnings: string[] = [];
       try {
+        const itemProv = auditRowProvenance('Grammar', rowNum, id, row, grammarWarnings);
         const item: Grammar = GrammarSchema.parse({
           id,
           lessonId: row['lessonId'] || packId,
@@ -535,14 +931,22 @@ export class GoogleSheetsPipeline {
           commonMistakes: parsePipeArray(row['commonMistakes'] || row['CommonMistakes']),
           difficulty: Number(row['difficulty'] || row['Difficulty'] || 1),
           level,
-          prov: buildProvenance(row),
+          prov: itemProv,
         });
         stagedGrammar.push(item);
         validCount++;
-        rowReports.push({ tab: 'Grammar', rowNumber: rowNum, id, status: 'valid', errors: [], warnings: [], raw: row });
+        rowReports.push({
+          tab: 'Grammar',
+          rowNumber: rowNum,
+          id,
+          status: grammarWarnings.length > 0 ? 'warning' : 'valid',
+          errors: [],
+          warnings: grammarWarnings,
+          raw: row,
+        });
       } catch (err: any) {
         quarantinedCount++;
-        rowReports.push({ tab: 'Grammar', rowNumber: rowNum, id, status: 'quarantined', errors: [err.message], warnings: [], raw: row });
+        rowReports.push({ tab: 'Grammar', rowNumber: rowNum, id, status: 'quarantined', errors: [err.message], warnings: grammarWarnings, raw: row });
       }
     });
 
@@ -579,7 +983,9 @@ export class GoogleSheetsPipeline {
         return;
       }
 
+      const sentenceWarnings: string[] = [];
       try {
+        const itemProv = auditRowProvenance('Sentences', rowNum, id, row, sentenceWarnings);
         const item: Sentence = SentenceSchema.parse({
           id,
           lessonId: row['lessonId'] || packId,
@@ -589,14 +995,22 @@ export class GoogleSheetsPipeline {
           vocabIds: parsePipeArray(row['vocabIds'] || row['VocabIds']),
           grammarIds: parsePipeArray(row['grammarIds'] || row['GrammarIds']),
           audio: { kind: 'tts', lang: 'ja-JP' },
-          prov: buildProvenance(row),
+          prov: itemProv,
         });
         stagedSentences.push(item);
         validCount++;
-        rowReports.push({ tab: 'Sentences', rowNumber: rowNum, id, status: 'valid', errors: [], warnings: [], raw: row });
+        rowReports.push({
+          tab: 'Sentences',
+          rowNumber: rowNum,
+          id,
+          status: sentenceWarnings.length > 0 ? 'warning' : 'valid',
+          errors: [],
+          warnings: sentenceWarnings,
+          raw: row,
+        });
       } catch (err: any) {
         quarantinedCount++;
-        rowReports.push({ tab: 'Sentences', rowNumber: rowNum, id, status: 'quarantined', errors: [err.message], warnings: [], raw: row });
+        rowReports.push({ tab: 'Sentences', rowNumber: rowNum, id, status: 'quarantined', errors: [err.message], warnings: sentenceWarnings, raw: row });
       }
     });
 
@@ -617,8 +1031,10 @@ export class GoogleSheetsPipeline {
     };
     if (readingRows.length > 0) {
       const r = readingRows[0];
+      const readingWarnings: string[] = [];
       const glossaryParsed = parseJsonCell(r['glossary'] || r['Glossary'], [], 'glossary');
       try {
+        const itemProv = auditRowProvenance('Reading', 2, r['id'] || `${packId}.r01`, r, readingWarnings);
         stagedReading = ReadingPassageSchema.parse({
           id: r['id'] || `${packId}.r01`,
           lessonId: r['lessonId'] || packId,
@@ -630,12 +1046,21 @@ export class GoogleSheetsPipeline {
           questionIds: parsePipeArray(r['questionIds'] || r['QuestionIds']),
           difficulty: Number(r['difficulty'] || 1),
           glossary: glossaryParsed.data,
-          prov: buildProvenance(r),
+          prov: itemProv,
         });
         validCount++;
+        rowReports.push({
+          tab: 'Reading',
+          rowNumber: 2,
+          id: stagedReading.id,
+          status: readingWarnings.length > 0 ? 'warning' : 'valid',
+          errors: [],
+          warnings: readingWarnings,
+          raw: r,
+        });
       } catch (err: any) {
         quarantinedCount++;
-        rowReports.push({ tab: 'Reading', rowNumber: 2, id: stagedReading.id, status: 'quarantined', errors: [err.message], warnings: [], raw: r });
+        rowReports.push({ tab: 'Reading', rowNumber: 2, id: stagedReading.id, status: 'quarantined', errors: [err.message], warnings: readingWarnings, raw: r });
       }
     }
 
@@ -657,8 +1082,10 @@ export class GoogleSheetsPipeline {
     };
     if (listeningRows.length > 0) {
       const l = listeningRows[0];
+      const listeningWarnings: string[] = [];
       const turnsParsed = parseJsonCell(l['turns'] || l['Turns'], [], 'turns');
       try {
+        const itemProv = auditRowProvenance('Listening', 2, l['id'] || `${packId}.l01`, l, listeningWarnings);
         stagedListening = ListeningDialogueSchema.parse({
           id: l['id'] || `${packId}.l01`,
           lessonId: l['lessonId'] || packId,
@@ -671,12 +1098,21 @@ export class GoogleSheetsPipeline {
           turns: turnsParsed.data,
           questionIds: parsePipeArray(l['questionIds'] || l['QuestionIds']),
           difficulty: Number(l['difficulty'] || 1),
-          prov: buildProvenance(l),
+          prov: itemProv,
         });
         validCount++;
+        rowReports.push({
+          tab: 'Listening',
+          rowNumber: 2,
+          id: stagedListening.id,
+          status: listeningWarnings.length > 0 ? 'warning' : 'valid',
+          errors: [],
+          warnings: listeningWarnings,
+          raw: l,
+        });
       } catch (err: any) {
         quarantinedCount++;
-        rowReports.push({ tab: 'Listening', rowNumber: 2, id: stagedListening.id, status: 'quarantined', errors: [err.message], warnings: [], raw: l });
+        rowReports.push({ tab: 'Listening', rowNumber: 2, id: stagedListening.id, status: 'quarantined', errors: [err.message], warnings: listeningWarnings, raw: l });
       }
     }
 
@@ -974,6 +1410,7 @@ export class GoogleSheetsPipeline {
       canApply: quarantinedCount === 0 && validCount > 0,
       schemaBlockers,
       tabSummaries,
+      provenanceAuditTrail,
     };
 
     const stagedPack: Partial<LessonPack> & {
@@ -1001,7 +1438,15 @@ export class GoogleSheetsPipeline {
       lessons: stagedLessons,
       tests: stagedTests,
       audio: stagedAudio,
-      prov: buildProvenance(metaRow),
+      prov: stagedMetaProv || existingPack?.prov || {
+        source: 'Google Sheets Curriculum Sync',
+        license: 'CC-BY-4.0',
+        status: 'reviewed',
+        updatedAt: nowIso,
+        rev: 1,
+        authoringOrigin: 'unknown',
+        verificationStatus: 'unverified',
+      },
     };
 
     return { stagedPack, report };

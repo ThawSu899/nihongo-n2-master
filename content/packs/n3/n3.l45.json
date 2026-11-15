@@ -2158,6 +2158,8 @@
     "license": "CC-BY-4.0",
     "status": "native_verified",
     "updatedAt": "2026-11-06T10:00:00Z",
-    "rev": 2
+    "rev": 2,
+    "authoringOrigin": "unknown",
+    "verificationStatus": "automated-structure-checked"
   }
 }

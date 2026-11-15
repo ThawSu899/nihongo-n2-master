@@ -2635,7 +2635,9 @@
     "license": "CC-BY-4.0",
     "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
-    "rev": 2
+    "rev": 2,
+    "authoringOrigin": "unknown",
+    "verificationStatus": "automated-structure-checked"
   },
   "titleMy": "Daily Routine & Motion Verbs (行きます・来ます) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "Daily Routine & Motion Verbs (行きます・来ます) (မြန်မာဘာသာပြန်)",

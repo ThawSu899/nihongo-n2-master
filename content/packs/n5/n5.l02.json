@@ -2540,7 +2540,9 @@
     "license": "CC-BY-4.0",
     "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
-    "rev": 2
+    "rev": 2,
+    "authoringOrigin": "unknown",
+    "verificationStatus": "automated-structure-checked"
   },
   "titleMy": "This, That, and Over There (これ・それ・あれ) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "This, That, and Over There (これ・それ・あれ) (မြန်မာဘာသာပြန်)",

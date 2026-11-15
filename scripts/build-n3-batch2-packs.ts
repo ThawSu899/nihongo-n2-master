@@ -44,6 +44,8 @@ function buildPackFromSpec31to40(spec: any): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-06T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   }));
 
@@ -74,6 +76,8 @@ function buildPackFromSpec31to40(spec: any): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-06T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   }));
 
@@ -96,6 +100,8 @@ function buildPackFromSpec31to40(spec: any): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-06T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   }));
 
@@ -172,6 +178,8 @@ function buildPackFromSpec31to40(spec: any): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-06T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   };
 
@@ -202,6 +210,8 @@ function buildPackFromSpec31to40(spec: any): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-06T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   };
 
@@ -326,6 +336,8 @@ function buildPackFromSpec31to40(spec: any): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-06T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   };
 }
@@ -369,6 +381,8 @@ function buildPackFromSpec41to48(spec: any): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-06T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   }));
 
@@ -399,6 +413,8 @@ function buildPackFromSpec41to48(spec: any): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-06T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   }));
 
@@ -421,6 +437,8 @@ function buildPackFromSpec41to48(spec: any): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-06T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   }));
 
@@ -455,6 +473,8 @@ function buildPackFromSpec41to48(spec: any): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-06T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
     clozeSentence: g.examples && g.examples[0] ? g.examples[0].ja : undefined,
     clozeTarget: g.pattern,
@@ -487,6 +507,8 @@ function buildPackFromSpec41to48(spec: any): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-06T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   };
 
@@ -517,6 +539,8 @@ function buildPackFromSpec41to48(spec: any): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-06T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   };
 
@@ -578,6 +602,8 @@ function buildPackFromSpec41to48(spec: any): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-06T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   };
 }

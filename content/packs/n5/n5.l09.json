@@ -2632,7 +2632,9 @@
     "license": "CC-BY-4.0",
     "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
-    "rev": 2
+    "rev": 2,
+    "authoringOrigin": "unknown",
+    "verificationStatus": "automated-structure-checked"
   },
   "titleMy": "Preferences and Abilities (好き・上手) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "Preferences and Abilities (好き・上手) (မြန်မာဘာသာပြန်)",

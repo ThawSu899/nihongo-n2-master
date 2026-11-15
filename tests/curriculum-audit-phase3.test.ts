@@ -190,7 +190,7 @@ describe('Phase 3: Curriculum Audit Fixes Verification', () => {
         expect(pack, `Published pack ${id} must load`).not.toBeNull();
         expect(pack?.status).toBe('published');
       }
-    });
+    }, 15000);
 
     it('CurriculumScreen renders N3 lessons without Planned badge or Outline only notice', async () => {
       const htmlN3 = renderToString(

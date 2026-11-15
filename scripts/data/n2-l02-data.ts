@@ -22,6 +22,8 @@ export const n2l02Data: LessonPack = {
     status: "native_verified",
     updatedAt: "2026-10-15T10:00:00Z",
     rev: 2,
+    authoringOrigin: "unknown",
+    verificationStatus: "automated-structure-checked",
   },
   vocabularies: [
     {

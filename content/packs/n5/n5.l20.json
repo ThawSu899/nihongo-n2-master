@@ -2633,7 +2633,9 @@
     "license": "CC-BY-4.0",
     "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
-    "rev": 2
+    "rev": 2,
+    "authoringOrigin": "unknown",
+    "verificationStatus": "automated-structure-checked"
   },
   "titleMy": "Experience (たことがあります) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "Experience (たことがあります) (မြန်မာဘာသာပြန်)",
