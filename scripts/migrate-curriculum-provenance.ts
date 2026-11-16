@@ -188,6 +188,7 @@ export interface TransactionEntry {
   stagedPath: string;
   backupPath: string;
   applied: boolean;
+  attempted?: boolean;
 }
 
 export interface TransactionManifest {
@@ -249,6 +250,38 @@ export function runCurriculumProvenanceMigration(options?: MigrationOptions): Mi
   const rootDir = options?.rootDir ? path.resolve(options.rootDir) : path.resolve('.');
   const io = options?.fs || defaultFileSystem;
   const fault = options?.faultInjection;
+
+  const txDir = path.join(rootDir, '.migration-transaction');
+
+  // Safety Gate: Never silently delete or overwrite existing transaction artifacts.
+  // They may contain vital backups and recovery reports from a previous failed run.
+  if (io.existsSync(txDir)) {
+    let existingManifest: TransactionManifest | undefined;
+    let existingReport: any = undefined;
+    const manifestPath = path.join(txDir, 'manifest.json');
+    const reportPath = path.join(txDir, 'recovery-report.json');
+    try {
+      if (io.existsSync(manifestPath)) {
+        existingManifest = JSON.parse(io.readFileSync(manifestPath, 'utf-8'));
+      }
+      if (io.existsSync(reportPath)) {
+        existingReport = JSON.parse(io.readFileSync(reportPath, 'utf-8'));
+      }
+    } catch {
+      // ignore parse errors
+    }
+
+    throw new MigrationTransactionError(
+      `Unresolved migration transaction directory detected at ${txDir}. ` +
+        `Existing transaction artifacts may contain vital original backups or recovery reports from an earlier run. ` +
+        `Migration stopped safely to prevent unrecoverable data loss. ` +
+        `Please manually inspect, restore, or archive/remove ${txDir} before proceeding.`,
+      {
+        manifest: existingManifest,
+        recoveryReport: existingReport,
+      }
+    );
+  }
 
   const mapPath = path.join(rootDir, 'content', 'curriculum-map.json');
   if (!io.existsSync(mapPath)) {
@@ -441,18 +474,8 @@ export function runCurriculumProvenanceMigration(options?: MigrationOptions): Mi
   // =========================================================================
   const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
   const transactionId = `tx_${Date.now()}`;
-  const txDir = path.join(rootDir, '.migration-transaction');
   const stagedDir = path.join(txDir, 'staged');
   const backupsDir = path.join(txDir, 'backups');
-
-  // Clean any leftover directory from previous aborted runs
-  if (io.existsSync(txDir)) {
-    try {
-      io.rmSync(txDir, { recursive: true, force: true });
-    } catch {
-      // ignore
-    }
-  }
 
   io.mkdirSync(txDir, { recursive: true });
   io.mkdirSync(stagedDir, { recursive: true });
@@ -475,6 +498,7 @@ export function runCurriculumProvenanceMigration(options?: MigrationOptions): Mi
       stagedPath: path.join(stagedDir, 'curriculum-map.json'),
       backupPath: path.join(backupsDir, 'curriculum-map.json.bak'),
       applied: false,
+      attempted: false,
     });
   }
 
@@ -486,6 +510,7 @@ export function runCurriculumProvenanceMigration(options?: MigrationOptions): Mi
         stagedPath: path.join(stagedDir, `${pack.lessonId}.json`),
         backupPath: path.join(backupsDir, `${pack.lessonId}.json.bak`),
         applied: false,
+        attempted: false,
       });
     }
   }
@@ -546,10 +571,14 @@ export function runCurriculumProvenanceMigration(options?: MigrationOptions): Mi
   manifest.state = 'applying';
   saveManifest();
 
-  const rollback = (triggerError: any) => {
+  const rollback = (triggerError: any, failedEntry?: TransactionEntry | null) => {
     manifest.state = 'rolling_back';
     manifest.error = `Trigger error: ${triggerError.message || String(triggerError)}`;
-    saveManifest();
+    try {
+      saveManifest();
+    } catch {
+      // Non-fatal if manifest write fails while entering rollback; restoration of target files must proceed
+    }
 
     let rollbackFailure: any = null;
     const restoredCount = { success: 0, failed: 0 };
@@ -559,11 +588,18 @@ export function runCurriculumProvenanceMigration(options?: MigrationOptions): Mi
         throw new Error('Fault injected: Rollback failure simulated');
       }
 
+      // Restore every entry that was successfully applied OR was attempted/partially written when failure occurred
       for (const entry of manifest.entries) {
-        if (entry.applied) {
+        const needsRestoration =
+          entry.applied ||
+          entry.attempted ||
+          (failedEntry && entry.id === failedEntry.id);
+
+        if (needsRestoration) {
           try {
             io.copyFileSync(entry.backupPath, entry.targetPath);
             entry.applied = false;
+            entry.attempted = false;
             restoredCount.success++;
           } catch (rErr) {
             restoredCount.failed++;
@@ -610,17 +646,25 @@ export function runCurriculumProvenanceMigration(options?: MigrationOptions): Mi
     });
   };
 
+  let activeReplacingEntry: TransactionEntry | null = null;
   try {
     for (let i = 0; i < manifest.entries.length; i++) {
+      const entry = manifest.entries[i];
+      activeReplacingEntry = entry;
+      entry.attempted = true;
+      // Persist attempted-state to disk BEFORE calling copyFileSync
+      saveManifest();
+
       if (fault?.failDuringReplacementAt === i) {
         throw new Error(`Fault injected: File replacement failure at entry index ${i} (${manifest.entries[i].id})`);
       }
-      const entry = manifest.entries[i];
       io.copyFileSync(entry.stagedPath, entry.targetPath);
       entry.applied = true;
+      saveManifest();
+      activeReplacingEntry = null;
     }
   } catch (replaceErr: any) {
-    rollback(replaceErr);
+    rollback(replaceErr, activeReplacingEntry);
   }
 
   // 4. Post-Replacement Verification
@@ -639,6 +683,17 @@ export function runCurriculumProvenanceMigration(options?: MigrationOptions): Mi
     }
     for (const item of committedMap) {
       CurriculumMapItemSchema.parse(item);
+      const expected = getApprovedProvenance(item.id);
+      if (item.authoringOrigin !== expected.authoringOrigin) {
+        throw new Error(
+          `Post-replacement verification failed: authoringOrigin mismatch for curriculum map item ${item.id}. Expected: ${expected.authoringOrigin}, Found: ${item.authoringOrigin}`
+        );
+      }
+      if (item.verificationStatus !== expected.verificationStatus) {
+        throw new Error(
+          `Post-replacement verification failed: verificationStatus mismatch for curriculum map item ${item.id}. Expected: ${expected.verificationStatus}, Found: ${item.verificationStatus}`
+        );
+      }
     }
 
     // Read and verify all 174 packs on disk
@@ -648,7 +703,22 @@ export function runCurriculumProvenanceMigration(options?: MigrationOptions): Mi
       // Ensure deep equality against original learning content
       verifyLearningContentDeepEquality(pack.rawPack, committedPack, pack.lessonId);
       if (committedPack.prov.authoringOrigin !== pack.updatedPack.prov.authoringOrigin) {
-        throw new Error(`Authoring origin mismatch on committed pack ${pack.lessonId}`);
+        throw new Error(
+          `Post-replacement verification failed: authoringOrigin mismatch on committed pack ${pack.lessonId}. Expected: ${pack.updatedPack.prov.authoringOrigin}, Found: ${committedPack.prov.authoringOrigin}`
+        );
+      }
+      if (committedPack.prov.verificationStatus !== pack.updatedPack.prov.verificationStatus) {
+        throw new Error(
+          `Post-replacement verification failed: verificationStatus mismatch on committed pack ${pack.lessonId}. Expected: ${pack.updatedPack.prov.verificationStatus}, Found: ${committedPack.prov.verificationStatus}`
+        );
+      }
+      if (
+        (committedPack as any).authoringOrigin !== undefined ||
+        (committedPack as any).verificationStatus !== undefined
+      ) {
+        throw new Error(
+          `Post-replacement verification failed: Root-level duplicate provenance fields still present on committed pack ${pack.lessonId}`
+        );
       }
     }
   } catch (verifyErr: any) {

@@ -522,4 +522,67 @@ describe('IndexedDB Provenance Cache Upgrade & User Data Preservation', () => {
       loadSpy.mockRestore();
     }
   });
+
+  it('strictly ensures canonical replacement upgrades only target packs and does not overwrite or corrupt unrelated valid records', async () => {
+    // 1. Preload and seed an unrelated valid pack (n5.l02) that is already fully schema-valid
+    const canonicalN5L02 = await ContentLoader.loadCanonicalPack('n5.l02');
+    expect(canonicalN5L02).not.toBeNull();
+    const validPackN5L02 = {
+      ...canonicalN5L02!,
+      prov: {
+        ...canonicalN5L02!.prov,
+        updatedAt: '2026-11-15T12:00:00Z',
+        rev: 99,
+      },
+    };
+    await db.lesson_packs.put(validPackN5L02);
+
+    // 2. Seed target pack (n5.l01) with invalid provenance enum needing upgrade
+    const invalidPackN5L01 = {
+      id: 'n5.l01',
+      level: 'N5',
+      module: 'N5 Foundation 1',
+      number: 1,
+      title: 'Greetings & Self Introduction',
+      description: 'Master essential greetings',
+      status: 'published',
+      masteryThresholds: { vocab: 0.9, kanji: 0.85, grammar: 0.85, reading: 0.8, listening: 0.8, overall: 0.85 },
+      vocabularies: [{ id: 'n5.l01.v001', lessonId: 'n5.l01', ja: 'おはよう', kana: 'おはよう', en: 'morning', meaningMyanmar: 'မင်္ဂလာနံနက်ခင်း', pos: 'noun', exampleSentenceId: 'n5.l01.s001', kanjiIds: [], level: 'N5', difficulty: 1, importance: 5, audio: { kind: 'tts' } }],
+      kanjis: [{ id: 'n5.l01.k001', lessonId: 'n5.l01', char: '日', meaning: 'sun', meaningMyanmar: 'နေ', onyomi: ['ニチ'], kunyomi: ['ひ'], strokeCount: 4, radical: '日', examples: [] }],
+      grammars: [{ id: 'n5.l01.g001', lessonId: 'n5.l01', pattern: 'X は Y です', meaning: 'X is Y', meaningMyanmar: 'X သည် Y ဖြစ်သည်', structure: 'X wa Y desu', explanation: 'Topic marker', explanationMyanmar: 'ရှင်းလင်းချက်', exampleSentenceIds: ['n5.l01.s001'] }],
+      sentences: [{ id: 'n5.l01.s001', lessonId: 'n5.l01', ja: 'これは本です。', kana: 'これはほんです。', en: 'This is a book.', my: 'ဒါစာအုပ်ဖြစ်ပါတယ်။', vocabIds: ['n5.l01.v001'], grammarIds: ['n5.l01.g001'] }],
+      reading: { id: 'n5.l01.r01', lessonId: 'n5.l01', title: 'Reading', passage: 'Text', passageMyanmar: 'မြန်မာ', questions: [] },
+      listening: { id: 'n5.l01.l01', lessonId: 'n5.l01', title: 'Listening', audio: { kind: 'tts' }, dialogue: [] },
+      questions: [{ id: 'n5.l01.q01', lessonId: 'n5.l01', skill: 'vocab', type: 'multiple_choice', prompt: 'Select', choices: ['a', 'b'], answer: 'a', explanation: 'Exp', explanationMyanmar: 'Exp' }],
+      prov: {
+        source: 'Nihongo N2 Master Editorial Team',
+        license: 'CC-BY-4.0',
+        status: 'native_verified',
+        updatedAt: '2026-09-30T10:00:00Z',
+        rev: 1,
+        authoringOrigin: 'corrupted-origin-enum',
+        verificationStatus: 'corrupted-status-enum',
+      },
+    };
+    await db.lesson_packs.put(invalidPackN5L01 as any);
+
+    // 3. Run autoUpgradeStaleIndexedDB
+    const result = await ContentLoader.autoUpgradeStaleIndexedDB();
+    expect(result.upgraded).toBe(true);
+    expect(result.updatedPacksCount).toBe(1);
+    expect(result.purgedPacksCount).toBe(0);
+
+    // 4. Verify target pack n5.l01 was upgraded with canonical provenance
+    const upgradedN5L01 = await db.lesson_packs.get('n5.l01');
+    expect(upgradedN5L01).toBeDefined();
+    expect(upgradedN5L01?.prov.authoringOrigin).toBe('unknown');
+    expect(upgradedN5L01?.prov.verificationStatus).toBe('automated-structure-checked');
+
+    // 5. Verify unrelated valid pack n5.l02 was strictly preserved without any modification
+    const untouchedN5L02 = await db.lesson_packs.get('n5.l02');
+    expect(untouchedN5L02).toBeDefined();
+    expect(untouchedN5L02).toEqual(validPackN5L02);
+    expect(untouchedN5L02?.prov.updatedAt).toBe('2026-11-15T12:00:00Z');
+    expect(untouchedN5L02?.prov.rev).toBe(99);
+  });
 });

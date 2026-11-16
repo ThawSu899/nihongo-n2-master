@@ -371,8 +371,20 @@ describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', (
         }
       }
 
+      const directories = new Set<string>();
       const memFS: MigrationFileSystem = {
-        existsSync: (p: string) => files.has(p),
+        existsSync: (p: string) => {
+          if (files.has(p) || directories.has(p)) return true;
+          const prefixSep = p.endsWith(path.sep) ? p : p + path.sep;
+          const prefixFwd = p.endsWith('/') ? p : p + '/';
+          for (const k of files.keys()) {
+            if (k.startsWith(prefixSep) || k.startsWith(prefixFwd)) return true;
+          }
+          for (const d of directories) {
+            if (d.startsWith(prefixSep) || d.startsWith(prefixFwd)) return true;
+          }
+          return false;
+        },
         readFileSync: (p: string) => {
           const content = files.get(p);
           if (content === undefined) {
@@ -392,12 +404,20 @@ describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', (
           writes.push(dest);
           files.set(dest, content);
         },
-        mkdirSync: (_p: string) => {
-          // in-memory map handles paths directly
+        mkdirSync: (p: string) => {
+          directories.add(p);
         },
         rmSync: (p: string) => {
+          directories.delete(p);
+          const prefixSep = p.endsWith(path.sep) ? p : p + path.sep;
+          const prefixFwd = p.endsWith('/') ? p : p + '/';
+          for (const d of Array.from(directories)) {
+            if (d === p || d.startsWith(prefixSep) || d.startsWith(prefixFwd)) {
+              directories.delete(d);
+            }
+          }
           for (const k of Array.from(files.keys())) {
-            if (k.startsWith(p)) {
+            if (k === p || k.startsWith(prefixSep) || k.startsWith(prefixFwd)) {
               files.delete(k);
             }
           }
@@ -687,6 +707,294 @@ describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', (
       expect(result.verifiedCommitted).toBe(true);
       expect(writeCount).toBe(0);
       expect(copyCount).toBe(0);
+    }, 20000);
+
+    it('preserves existing recovery artifacts and refuses to overwrite unresolved transaction directory', () => {
+      const mem = createMemoryFS();
+      const txDir = path.join(mem.root, '.migration-transaction');
+      const manifestPath = path.join(txDir, 'manifest.json');
+      const reportPath = path.join(txDir, 'recovery-report.json');
+      const backupMapPath = path.join(txDir, 'backups', 'curriculum-map.json.bak');
+      const backupP01Path = path.join(txDir, 'backups', 'n5.l01.json.bak');
+
+      // Seed an unresolved previous transaction directory with artifacts
+      const fakeManifest = {
+        transactionId: 'tx_previous_failure',
+        timestamp: '2026-11-15T12:00:00Z',
+        state: 'failed' as const,
+        rootDir: mem.root,
+        txDir,
+        entries: [],
+        error: 'Critical failure from earlier run',
+      };
+      const fakeReport = {
+        transactionId: 'tx_previous_failure',
+        rollbackSuccessful: false,
+        triggerError: 'Simulated crash',
+      };
+      const originalBackupMap = '{"preserved_map_backup": true}';
+      const originalBackupP01 = '{"preserved_p01_backup": true}';
+
+      mem.files.set(manifestPath, JSON.stringify(fakeManifest, null, 2));
+      mem.files.set(reportPath, JSON.stringify(fakeReport, null, 2));
+      mem.files.set(backupMapPath, originalBackupMap);
+      mem.files.set(backupP01Path, originalBackupP01);
+
+      // Attempting to run migration must stop safely and refuse to overwrite (dry-run and active)
+      expect(() =>
+        runCurriculumProvenanceMigration({
+          dryRun: true,
+          fs: mem.fs,
+          rootDir: mem.root,
+        })
+      ).toThrow(/Unresolved migration transaction directory detected/);
+
+      let caughtError: any = null;
+      try {
+        runCurriculumProvenanceMigration({
+          dryRun: false,
+          fs: mem.fs,
+          rootDir: mem.root,
+        });
+      } catch (err: any) {
+        caughtError = err;
+      }
+
+      expect(caughtError).toBeInstanceOf(MigrationTransactionError);
+      expect(caughtError.message).toContain('Unresolved migration transaction directory detected');
+      expect(caughtError.manifest?.transactionId).toBe('tx_previous_failure');
+      expect(caughtError.recoveryReport?.rollbackSuccessful).toBe(false);
+
+      // Verify all recovery artifacts are 100% preserved and never overwritten
+      expect(mem.files.get(manifestPath)).toBe(JSON.stringify(fakeManifest, null, 2));
+      expect(mem.files.get(reportPath)).toBe(JSON.stringify(fakeReport, null, 2));
+      expect(mem.files.get(backupMapPath)).toBe(originalBackupMap);
+      expect(mem.files.get(backupP01Path)).toBe(originalBackupP01);
+    });
+
+    it('restores the original target file on partial replacement failure even when applied was never set', () => {
+      const mem = createMemoryFS();
+      const p02Path = path.join(mem.root, 'content', 'packs', 'n5', 'n5.l02.json');
+      const originalP02Content = mem.files.get(p02Path)!;
+      expect(originalP02Content).toBeDefined();
+
+      // Intercept copyFileSync during replacement of n5.l02:
+      // simulate a partial write (corrupt file state) followed by an I/O crash
+      const originalCopy = mem.fs.copyFileSync.bind(mem.fs);
+      let simulatedPartialCrashHappened = false;
+
+      const faultFs: MigrationFileSystem = {
+        ...mem.fs,
+        copyFileSync: (src: string, dest: string) => {
+          if (dest === p02Path && src.includes('staged')) {
+            simulatedPartialCrashHappened = true;
+            // Write partial / corrupted content to target before crashing
+            mem.files.set(dest, '{"corrupted_partial_write": true, "syntax_error":');
+            throw new Error('EIO: I/O error during copyFileSync stream write');
+          }
+          originalCopy(src, dest);
+        },
+      };
+
+      let caughtError: any = null;
+      try {
+        runCurriculumProvenanceMigration({
+          dryRun: false,
+          fs: faultFs,
+          rootDir: mem.root,
+        });
+      } catch (err: any) {
+        caughtError = err;
+      }
+
+      expect(simulatedPartialCrashHappened).toBe(true);
+      expect(caughtError).toBeInstanceOf(MigrationTransactionError);
+      expect(caughtError.manifest?.state).toBe('rolled_back');
+      expect(caughtError.recoveryReport?.rollbackSuccessful).toBe(true);
+
+      // Verify that n5.l02.json was restored from backup despite applied=false
+      const restoredP02 = mem.files.get(p02Path)!;
+      expect(restoredP02).not.toContain('corrupted_partial_write');
+      expect(restoredP02).toBe(originalP02Content);
+    });
+
+    it('preserves all recovery artifacts, backups and reports when rollback fails and blocks subsequent migration', () => {
+      const mem = createMemoryFS();
+      const txDir = path.join(mem.root, '.migration-transaction');
+      const manifestPath = path.join(txDir, 'manifest.json');
+      const reportPath = path.join(txDir, 'recovery-report.json');
+
+      let caughtError: any = null;
+      try {
+        runCurriculumProvenanceMigration({
+          dryRun: false,
+          fs: mem.fs,
+          rootDir: mem.root,
+          faultInjection: { failDuringReplacementAt: 1, failDuringRollback: true },
+        });
+      } catch (err: any) {
+        caughtError = err;
+      }
+
+      expect(caughtError).toBeInstanceOf(MigrationTransactionError);
+      expect(caughtError.manifest?.state).toBe('failed');
+      expect(caughtError.recoveryReport?.rollbackSuccessful).toBe(false);
+
+      // Verify all recovery artifacts are preserved on disk
+      expect(mem.files.has(manifestPath)).toBe(true);
+      expect(mem.files.has(reportPath)).toBe(true);
+      const manifestData = JSON.parse(mem.files.get(manifestPath)!);
+      expect(manifestData.state).toBe('failed');
+
+      // Verify backups directory still contains the backup files
+      const backupMapPath = path.join(txDir, 'backups', 'curriculum-map.json.bak');
+      expect(mem.files.has(backupMapPath)).toBe(true);
+
+      // Verify that any subsequent migration attempt refuses to run and does not overwrite txDir
+      expect(() =>
+        runCurriculumProvenanceMigration({
+          dryRun: false,
+          fs: mem.fs,
+          rootDir: mem.root,
+        })
+      ).toThrow(/Unresolved migration transaction directory detected/);
+    });
+
+    it('strictly verifies both authoringOrigin and verificationStatus across curriculum map and all packs during post-replacement verification', () => {
+      const mem = createMemoryFS();
+
+      // Intercept file write during replacement to simulate a corrupted verificationStatus on curriculum-map.json
+      const originalCopy = mem.fs.copyFileSync.bind(mem.fs);
+      const corruptFs: MigrationFileSystem = {
+        ...mem.fs,
+        copyFileSync: (src: string, dest: string) => {
+          originalCopy(src, dest);
+          if (dest === mem.mapPath && src.includes('staged')) {
+            // Corrupt verificationStatus on item n5.l01 in curriculum-map
+            const mapData = JSON.parse(mem.files.get(mem.mapPath)!);
+            mapData[0].verificationStatus = 'unverified';
+            mem.files.set(mem.mapPath, JSON.stringify(mapData, null, 2));
+          }
+        },
+      };
+
+      let caughtError: any = null;
+      try {
+        runCurriculumProvenanceMigration({
+          dryRun: false,
+          fs: corruptFs,
+          rootDir: mem.root,
+        });
+      } catch (err: any) {
+        caughtError = err;
+      }
+
+      expect(caughtError).toBeInstanceOf(MigrationTransactionError);
+      expect(caughtError.message).toContain('verificationStatus mismatch for curriculum map item n5.l01');
+      expect(caughtError.manifest?.state).toBe('rolled_back');
+    });
+
+    it('strictly verifies both authoringOrigin and verificationStatus on pack JSONs during post-replacement verification', () => {
+      const mem = createMemoryFS();
+      const p01Path = path.join(mem.root, 'content', 'packs', 'n5', 'n5.l01.json');
+
+      const originalCopy = mem.fs.copyFileSync.bind(mem.fs);
+      const corruptFs: MigrationFileSystem = {
+        ...mem.fs,
+        copyFileSync: (src: string, dest: string) => {
+          originalCopy(src, dest);
+          if (dest === p01Path && src.includes('staged')) {
+            // Corrupt authoringOrigin on n5.l01 pack JSON
+            const packData = JSON.parse(mem.files.get(p01Path)!);
+            packData.prov.authoringOrigin = 'ai-authored';
+            mem.files.set(p01Path, JSON.stringify(packData, null, 2));
+          }
+        },
+      };
+
+      let caughtError: any = null;
+      try {
+        runCurriculumProvenanceMigration({
+          dryRun: false,
+          fs: corruptFs,
+          rootDir: mem.root,
+        });
+      } catch (err: any) {
+        caughtError = err;
+      }
+
+      expect(caughtError).toBeInstanceOf(MigrationTransactionError);
+      expect(caughtError.message).toContain('authoringOrigin mismatch on committed pack n5.l01');
+      expect(caughtError.manifest?.state).toBe('rolled_back');
+    });
+
+    it('records attempted=true in persisted manifest before replacement copy begins', () => {
+      const mem = createMemoryFS();
+      const manifestPath = path.join(mem.root, '.migration-transaction', 'manifest.json');
+      let checkedAttemptedBeforeCopy = false;
+
+      const originalCopy = mem.fs.copyFileSync.bind(mem.fs);
+      const trackingFs: MigrationFileSystem = {
+        ...mem.fs,
+        copyFileSync: (src: string, dest: string) => {
+          if (src.includes('staged')) {
+            // Verify that manifest.json on disk ALREADY has attempted === true for this entry
+            expect(mem.files.has(manifestPath)).toBe(true);
+            const persistedManifest = JSON.parse(mem.files.get(manifestPath)!);
+            const activeEntry = persistedManifest.entries.find((e: any) => e.targetPath === dest);
+            expect(activeEntry).toBeDefined();
+            expect(activeEntry.attempted).toBe(true);
+            expect(activeEntry.applied).toBe(false); // Has not yet been applied!
+            checkedAttemptedBeforeCopy = true;
+          }
+          originalCopy(src, dest);
+        },
+      };
+
+      const result = runCurriculumProvenanceMigration({
+        dryRun: false,
+        fs: trackingFs,
+        rootDir: mem.root,
+      });
+
+      expect(checkedAttemptedBeforeCopy).toBe(true);
+      expect(result.verifiedCommitted).toBe(true);
+    });
+
+    it('restores or leaves target file intact if manifest persistence fails after setting attempted=true', () => {
+      const mem = createMemoryFS();
+      const originalMap = mem.files.get(mem.mapPath)!;
+      const manifestPath = path.join(mem.root, '.migration-transaction', 'manifest.json');
+
+      const originalWrite = mem.fs.writeFileSync.bind(mem.fs);
+      let failedDuringAttemptedManifestWrite = false;
+
+      const faultFs: MigrationFileSystem = {
+        ...mem.fs,
+        writeFileSync: (p: string, content: string, encoding: 'utf-8' = 'utf-8') => {
+          if (p === manifestPath && content.includes('"attempted": true')) {
+            failedDuringAttemptedManifestWrite = true;
+            throw new Error('EIO: Simulated disk failure while persisting attempted=true manifest');
+          }
+          originalWrite(p, content, encoding);
+        },
+      };
+
+      let caughtError: any = null;
+      try {
+        runCurriculumProvenanceMigration({
+          dryRun: false,
+          fs: faultFs,
+          rootDir: mem.root,
+        });
+      } catch (err: any) {
+        caughtError = err;
+      }
+
+      expect(failedDuringAttemptedManifestWrite).toBe(true);
+      expect(caughtError).toBeInstanceOf(MigrationTransactionError);
+      // Rollback must succeed and target file must remain intact / restored
+      expect(mem.files.get(mem.mapPath)).toBe(originalMap);
     });
   });
 });
