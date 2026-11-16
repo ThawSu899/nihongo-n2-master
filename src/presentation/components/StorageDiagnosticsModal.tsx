@@ -261,7 +261,7 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
       setActionLoading('queue');
       const res = await OfflineSyncManager.flushPendingQueue();
       setNotification({
-        type: 'success',
+        type: res.success ? 'success' : 'error',
         message: res.message,
       });
       await loadDiagnostics();

@@ -48,7 +48,24 @@ describe('Curriculum Cross-References & Referential Integrity Suite', () => {
   }
 
   describe('Part 1 Regression Tests: Confirmed Broken References & Semantic Integrity', () => {
-    it('1. verifies n5.l22.v012 (ううん) exampleSentenceId links semantically to n5.l22.s010 and contains v012 in vocabIds', () => {
+    it('1a. verifies n5.l22.v007 (飲む) exampleSentenceId links semantically to n5.l22.s009 and contains v007 in vocabIds', () => {
+      const filePath = path.join(packsBaseDir, 'n5', 'n5.l22.json');
+      const pack = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as LessonPack;
+      const vocab = pack.vocabularies.find((v) => v.id === 'n5.l22.v007');
+
+      expect(vocab, 'Vocabulary n5.l22.v007 must exist').toBeDefined();
+      expect(vocab?.ja).toBe('飲む');
+      expect(vocab?.exampleSentenceId).toBe('n5.l22.s009');
+      expect(vocab?.exampleSentenceId).not.toBe('n5.l22.s010'); // s010 is homework/nah dialogue, unrelated to drinking
+
+      const targetSentence = pack.sentences.find((s) => s.id === 'n5.l22.s009');
+      expect(targetSentence, 'Sentence n5.l22.s009 must exist in pack sentences').toBeDefined();
+      expect(targetSentence?.vocabIds, 'Target sentence s009 must reference n5.l22.v007 in vocabIds').toContain('n5.l22.v007');
+      expect(targetSentence?.ja, 'Target sentence s009 Japanese text must contain 飲んだ').toContain('飲んだ');
+      expect(targetSentence?.translation?.en).toBe('I drank a lot of cold water.');
+    });
+
+    it('1b. verifies n5.l22.v012 (ううん) exampleSentenceId links semantically to n5.l22.s010 and contains v012 in vocabIds', () => {
       const filePath = path.join(packsBaseDir, 'n5', 'n5.l22.json');
       const pack = JSON.parse(fs.readFileSync(filePath, 'utf-8')) as LessonPack;
       const vocab = pack.vocabularies.find((v) => v.id === 'n5.l22.v012');

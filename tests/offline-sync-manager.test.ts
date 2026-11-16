@@ -176,4 +176,39 @@ describe('OfflineSyncManager Data Protection Suite', () => {
       expect(remaining[0].retries).toBe(1);
     });
   });
+
+  describe('5. Consumer UI Contract Verification', () => {
+    it('provides truthful success: false status and message for UI notification routing when unpersisted actions exist', async () => {
+      OfflineSyncManager.enqueueAction('srs_review', { cardId: 'test-card' });
+
+      // Simulate UI calling flushPendingQueue without processor
+      const res = await OfflineSyncManager.flushPendingQueue();
+
+      // UI should use res.success to differentiate success from error notification
+      expect(res.success).toBe(false);
+      expect(res.processedCount).toBe(0);
+      expect(res.failedCount).toBe(1);
+      expect(res.message).toBe('No active persistence processor configured; safely retained 1 pending action(s) in queue.');
+
+      // Check notification mapping contract
+      const notificationType = res.success ? 'success' : 'error';
+      expect(notificationType).toBe('error');
+    });
+
+    it('provides truthful success: true status when queue is empty or fully processed', async () => {
+      const emptyRes = await OfflineSyncManager.flushPendingQueue();
+      expect(emptyRes.success).toBe(true);
+      const emptyNotificationType = emptyRes.success ? 'success' : 'error';
+      expect(emptyNotificationType).toBe('success');
+
+      OfflineSyncManager.enqueueAction('srs_review', { cardId: 'test-card-2' });
+      const successProcessor = vi.fn().mockResolvedValue(true);
+      const successRes = await OfflineSyncManager.flushPendingQueue(successProcessor);
+      expect(successRes.success).toBe(true);
+      expect(successRes.processedCount).toBe(1);
+      expect(successRes.failedCount).toBe(0);
+      const successNotificationType = successRes.success ? 'success' : 'error';
+      expect(successNotificationType).toBe('success');
+    });
+  });
 });
