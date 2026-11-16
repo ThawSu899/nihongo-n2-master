@@ -2,10 +2,12 @@ import 'fake-indexeddb/auto';
 import { describe, it, expect, beforeEach } from 'vitest';
 import { db } from '../src/data/db/dexie-db';
 import { EventRepository } from '../src/data/repositories/event-repository';
+import { StudyEvent } from '../src/domain/models/types';
 
 describe('EventRepository Data Layer', () => {
   beforeEach(async () => {
     await db.study_events.clear();
+    EventRepository.resetSequenceCounter();
   });
 
   it('records an event with auto-generated ID, ISO timestamp, and metadata', async () => {
@@ -53,5 +55,69 @@ describe('EventRepository Data Layer', () => {
     const all = await EventRepository.getAllEvents();
     expect(all).toHaveLength(3);
     expect(all.map((e) => e.id)).toEqual([e1.id, e2.id, e3.id]);
+  });
+
+  it('deterministically orders events sharing identical ISO timestamp strings using sequence', async () => {
+    const sharedTimestamp = '2026-03-30T10:00:00.000Z';
+    const e1 = await EventRepository.record(
+      'block_completed',
+      { blockId: 'b1' },
+      undefined,
+      undefined,
+      { timestamp: sharedTimestamp, sequence: 10 }
+    );
+    const e2 = await EventRepository.record(
+      'test_completed',
+      { testId: 't1' },
+      undefined,
+      undefined,
+      { timestamp: sharedTimestamp, sequence: 5 }
+    );
+    const e3 = await EventRepository.record(
+      'srs_reviewed',
+      { cardId: 'c1' },
+      undefined,
+      undefined,
+      { timestamp: sharedTimestamp, sequence: 20 }
+    );
+
+    const all = await EventRepository.getAllEvents();
+    expect(all.map((e) => e.id)).toEqual([e2.id, e1.id, e3.id]);
+  });
+
+  it('deterministically breaks ties using ID when timestamps and sequences are equal', async () => {
+    const sharedTimestamp = '2026-03-30T10:00:00.000Z';
+    const eA: StudyEvent = {
+      id: 'evt_fixed_aaa',
+      timestamp: sharedTimestamp,
+      sequence: 1,
+      type: 'block_completed',
+      data: {},
+    };
+    const eB: StudyEvent = {
+      id: 'evt_fixed_bbb',
+      timestamp: sharedTimestamp,
+      sequence: 1,
+      type: 'test_completed',
+      data: {},
+    };
+    await db.study_events.bulkAdd([eB, eA]);
+
+    const all = await EventRepository.getAllEvents();
+    expect(all.map((e) => e.id)).toEqual(['evt_fixed_aaa', 'evt_fixed_bbb']);
+  });
+
+  it('orders multiple rapid consecutive calls to record chronologically even within the same millisecond', async () => {
+    const events = await Promise.all([
+      EventRepository.record('block_completed', { idx: 1 }),
+      EventRepository.record('block_completed', { idx: 2 }),
+      EventRepository.record('block_completed', { idx: 3 }),
+      EventRepository.record('block_completed', { idx: 4 }),
+      EventRepository.record('block_completed', { idx: 5 }),
+    ]);
+
+    const all = await EventRepository.getAllEvents();
+    expect(all).toHaveLength(5);
+    expect(all.map((e) => e.id)).toEqual(events.map((e) => e.id));
   });
 });
