@@ -20,6 +20,7 @@ import {
   getAllExpectedLessonIds,
   runCurriculumProvenanceMigration,
   verifyLearningContentDeepEquality,
+  normalizeLineEndingsForComparison,
   MigrationFileSystem,
   MigrationTransactionError,
 } from '../scripts/migrate-curriculum-provenance';
@@ -334,9 +335,19 @@ describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', (
   });
 
   describe('Multi-File Transaction Safety, Staged Migration & Rollback Mechanics', () => {
-    function createMemoryFS(options?: { alreadyMigrated?: boolean }) {
+    function createMemoryFS(options?: { alreadyMigrated?: boolean; lineEndings?: 'lf' | 'crlf' }) {
       const files = new Map<string, string>();
       const writes: string[] = [];
+
+      const applyLineEnding = (content: string) => {
+        if (options?.lineEndings === 'crlf') {
+          return content.replace(/\r\n/g, '\n').replace(/\n/g, '\r\n');
+        }
+        if (options?.lineEndings === 'lf') {
+          return content.replace(/\r\n/g, '\n');
+        }
+        return content;
+      };
 
       // Seed with real curriculum-map.json
       const root = path.resolve('.');
@@ -348,9 +359,9 @@ describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', (
           const { authoringOrigin: _a, verificationStatus: _v, ...rest } = item;
           return rest;
         });
-        files.set(mapPath, JSON.stringify(legacyMap, null, 2) + '\n');
+        files.set(mapPath, applyLineEnding(JSON.stringify(legacyMap, null, 2) + '\n'));
       } else {
-        files.set(mapPath, fs.readFileSync(mapPath, 'utf-8'));
+        files.set(mapPath, applyLineEnding(fs.readFileSync(mapPath, 'utf-8')));
       }
 
       // Seed with all 174 real lesson pack files
@@ -365,9 +376,9 @@ describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', (
             ...rawPack,
             prov: legacyProv,
           };
-          files.set(p, JSON.stringify(legacyPack, null, 2) + '\n');
+          files.set(p, applyLineEnding(JSON.stringify(legacyPack, null, 2) + '\n'));
         } else {
-          files.set(p, fs.readFileSync(p, 'utf-8'));
+          files.set(p, applyLineEnding(fs.readFileSync(p, 'utf-8')));
         }
       }
 
@@ -707,6 +718,103 @@ describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', (
       expect(result.verifiedCommitted).toBe(true);
       expect(writeCount).toBe(0);
       expect(copyCount).toBe(0);
+    }, 20000);
+
+    it('already-migrated repository with LF line endings returns changedFilesCount: 0 without any filesystem writes', () => {
+      const mem = createMemoryFS({ alreadyMigrated: true, lineEndings: 'lf' });
+      let writeCount = 0;
+      let copyCount = 0;
+      const trackingFs: MigrationFileSystem = {
+        ...mem.fs,
+        writeFileSync: (p, c, enc) => {
+          writeCount++;
+          mem.fs.writeFileSync(p, c, enc);
+        },
+        copyFileSync: (src, dest) => {
+          copyCount++;
+          mem.fs.copyFileSync(src, dest);
+        },
+      };
+
+      const result = runCurriculumProvenanceMigration({
+        dryRun: false,
+        fs: trackingFs,
+        rootDir: mem.root,
+      });
+
+      expect(result.updatedMapCount).toBe(174);
+      expect(result.updatedPacksCount).toBe(174);
+      expect(result.changedMapCount).toBe(0);
+      expect(result.changedPacksCount).toBe(0);
+      expect(result.changedFilesCount).toBe(0);
+      expect(result.verifiedCommitted).toBe(true);
+      expect(writeCount).toBe(0);
+      expect(copyCount).toBe(0);
+    }, 20000);
+
+    it('already-migrated repository with CRLF line endings returns changedFilesCount: 0 without any filesystem writes', () => {
+      const mem = createMemoryFS({ alreadyMigrated: true, lineEndings: 'crlf' });
+      let writeCount = 0;
+      let copyCount = 0;
+      const trackingFs: MigrationFileSystem = {
+        ...mem.fs,
+        writeFileSync: (p, c, enc) => {
+          writeCount++;
+          mem.fs.writeFileSync(p, c, enc);
+        },
+        copyFileSync: (src, dest) => {
+          copyCount++;
+          mem.fs.copyFileSync(src, dest);
+        },
+      };
+
+      const result = runCurriculumProvenanceMigration({
+        dryRun: false,
+        fs: trackingFs,
+        rootDir: mem.root,
+      });
+
+      expect(result.updatedMapCount).toBe(174);
+      expect(result.updatedPacksCount).toBe(174);
+      expect(result.changedMapCount).toBe(0);
+      expect(result.changedPacksCount).toBe(0);
+      expect(result.changedFilesCount).toBe(0);
+      expect(result.verifiedCommitted).toBe(true);
+      expect(writeCount).toBe(0);
+      expect(copyCount).toBe(0);
+    }, 20000);
+
+    it('detects genuine metadata differences regardless of line endings', () => {
+      // 1. CRLF map with genuine metadata difference (e.g. outdated authoringOrigin on n5.l01)
+      const memCrlf = createMemoryFS({ alreadyMigrated: true, lineEndings: 'crlf' });
+      const mapRaw = JSON.parse(memCrlf.fs.readFileSync(memCrlf.mapPath, 'utf-8'));
+      mapRaw[0].authoringOrigin = 'ai-authored'; // Approved is 'unknown'
+      memCrlf.files.set(memCrlf.mapPath, JSON.stringify(mapRaw, null, 2).replace(/\n/g, '\r\n') + '\r\n');
+
+      const resultCrlf = runCurriculumProvenanceMigration({
+        dryRun: true,
+        fs: memCrlf.fs,
+        rootDir: memCrlf.root,
+      });
+      expect(resultCrlf.changedMapCount).toBe(1);
+      expect(resultCrlf.changedPacksCount).toBe(0);
+      expect(resultCrlf.changedFilesCount).toBe(1);
+
+      // 2. CRLF pack with genuine metadata difference (e.g. outdated prov.verificationStatus)
+      const memPack = createMemoryFS({ alreadyMigrated: true, lineEndings: 'crlf' });
+      const packPath = path.join(memPack.root, 'content', 'packs', 'n5', 'n5.l01.json');
+      const packRaw = JSON.parse(memPack.fs.readFileSync(packPath, 'utf-8'));
+      packRaw.prov.verificationStatus = 'unverified'; // Approved is 'automated-structure-checked'
+      memPack.files.set(packPath, JSON.stringify(packRaw, null, 2).replace(/\n/g, '\r\n') + '\r\n');
+
+      const resultPack = runCurriculumProvenanceMigration({
+        dryRun: true,
+        fs: memPack.fs,
+        rootDir: memPack.root,
+      });
+      expect(resultPack.changedMapCount).toBe(0);
+      expect(resultPack.changedPacksCount).toBe(1);
+      expect(resultPack.changedFilesCount).toBe(1);
     }, 20000);
 
     it('preserves existing recovery artifacts and refuses to overwrite unresolved transaction directory', () => {
