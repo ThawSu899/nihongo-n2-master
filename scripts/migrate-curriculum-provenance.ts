@@ -15,6 +15,10 @@ export const EXPECTED_LESSON_RANGES = {
   n2: { min: 1, max: 60, count: 60 },
 } as const;
 
+export function normalizeLineEndingsForComparison(text: string): string {
+  return text.replace(/\r\n/g, '\n').trim();
+}
+
 export function getAllExpectedLessonIds(): Set<string> {
   const ids = new Set<string>();
   for (let i = 1; i <= 30; i++) ids.add(`n5.l${String(i).padStart(2, '0')}`);
@@ -357,7 +361,8 @@ export function runCurriculumProvenanceMigration(options?: MigrationOptions): Mi
   });
 
   const updatedMapText = JSON.stringify(updatedMap, null, 2) + '\n';
-  const mapNeedsUpdate = rawMapText.trim() !== updatedMapText.trim();
+  const mapNeedsUpdate =
+    normalizeLineEndingsForComparison(rawMapText) !== normalizeLineEndingsForComparison(updatedMapText);
   const changedMapCount = mapNeedsUpdate ? 1 : 0;
 
   // Preflight 3: Stage and deep-validate all 174 lesson packs in memory
@@ -424,7 +429,8 @@ export function runCurriculumProvenanceMigration(options?: MigrationOptions): Mi
     LessonPackSchema.parse(updatedPack);
 
     const updatedPackText = JSON.stringify(updatedPack, null, 2) + '\n';
-    const packNeedsUpdate = rawPackText.trim() !== updatedPackText.trim();
+    const packNeedsUpdate =
+      normalizeLineEndingsForComparison(rawPackText) !== normalizeLineEndingsForComparison(updatedPackText);
     if (packNeedsUpdate) {
       changedPacksCount++;
     }
