@@ -2658,7 +2658,9 @@
     "license": "CC-BY-4.0",
     "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
-    "rev": 2
+    "rev": 2,
+    "authoringOrigin": "unknown",
+    "verificationStatus": "automated-structure-checked"
   },
   "titleMy": "Adjectives: Describing Things (い形容詞・な形容詞) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "Adjectives: Describing Things (い形容詞・な形容詞) (မြန်မာဘာသာပြန်)",

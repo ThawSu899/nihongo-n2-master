@@ -54,6 +54,22 @@ export function validateCurriculumMapParity(
     }
   }
 
+  // 6. Authoring origin parity
+  const packAuthoring = pack.prov.authoringOrigin;
+  if (mapItem.authoringOrigin !== packAuthoring) {
+    errors.push(
+      `Authoring origin mismatch for ${mapItem.id}: map=${mapItem.authoringOrigin}, pack=${packAuthoring}`
+    );
+  }
+
+  // 7. Verification status parity
+  const packVerification = pack.prov.verificationStatus;
+  if (mapItem.verificationStatus !== packVerification) {
+    errors.push(
+      `Verification status mismatch for ${mapItem.id}: map=${mapItem.verificationStatus}, pack=${packVerification}`
+    );
+  }
+
   return {
     valid: errors.length === 0,
     errors,
@@ -113,6 +129,8 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
         targetKanjiCount: validPack.kanjis.length,
         targetVocabCount: validPack.vocabularies.length,
         status: 'reviewed', // Broken status mismatch
+        authoringOrigin: 'unknown',
+        verificationStatus: 'automated-structure-checked',
       };
 
       const result = validateCurriculumMapParity(staleMapItem, validPack);
@@ -131,6 +149,8 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
         targetKanjiCount: 8, // Real is 3
         targetVocabCount: 25, // Real is 30
         status: 'published',
+        authoringOrigin: 'unknown',
+        verificationStatus: 'automated-structure-checked',
       };
 
       const result = validateCurriculumMapParity(mismatchedCountsItem, validPack);
@@ -154,6 +174,8 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
         targetKanjiCount: validPack.kanjis.length,
         targetVocabCount: validPack.vocabularies.length,
         status: 'published',
+        authoringOrigin: 'unknown',
+        verificationStatus: 'automated-structure-checked',
       };
 
       const result = validateCurriculumMapParity(placeholderGrammarItem, validPack);
@@ -177,6 +199,8 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
         targetKanjiCount: validPack.kanjis.length,
         targetVocabCount: validPack.vocabularies.length,
         status: 'published',
+        authoringOrigin: 'unknown',
+        verificationStatus: 'automated-structure-checked',
       };
 
       const result = validateCurriculumMapParity(outlinePublishedItem, validPack);
@@ -231,8 +255,9 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
       expect(html).toContain('Target Kanji: 4');
       expect(html).toContain('Target Vocab: 30');
 
-      // Check reviewStatus badge and status badge
-      expect(html).toContain('AI-Authored');
+      // Check authoring and verification badges
+      expect(html).toContain('Origin Unspecified');
+      expect(html).toContain('Automated QA Passed');
       expect(html).toContain('Published');
       expect(html).not.toContain('Outline only — content not yet available');
     });
@@ -274,6 +299,8 @@ describe('Curriculum Map & Lesson Pack Parity (Single Source of Truth)', () => {
       expect(htmlN3).toContain('Target Kanji: 4');
       expect(htmlN3).toContain('Target Vocab: 30');
       expect(htmlN3).toContain('Published');
+      expect(htmlN3).toContain('AI-Assisted');
+      expect(htmlN3).toContain('Editorial-Reviewed');
       expect(htmlN3).not.toContain('N3 Grammar Point');
 
       // Test N2 Curriculum View

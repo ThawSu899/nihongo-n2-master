@@ -2703,7 +2703,9 @@
     "license": "CC-BY-4.0",
     "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
-    "rev": 2
+    "rev": 2,
+    "authoringOrigin": "unknown",
+    "verificationStatus": "automated-structure-checked"
   },
   "titleMy": "N4 Lesson 15: Humble Keigo (謙譲語: 参る・申す・いたす・お〜する) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 15: Humble Keigo (謙譲語: 参る・申す・いたす・お〜する) (မြန်မာဘာသာပြန်)",

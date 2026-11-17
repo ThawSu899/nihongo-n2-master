@@ -502,6 +502,8 @@ describe('Dynamic Study Streak and 14-Day Rolling Analytics Suite', () => {
             targetKanjiCount: 3,
             targetVocabCount: 12,
             status: 'published',
+            authoringOrigin: 'unknown',
+            verificationStatus: 'automated-structure-checked',
           },
           streakDays: 5,
           trueRetention: 0.95,

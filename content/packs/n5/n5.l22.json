@@ -2642,7 +2642,9 @@
     "license": "CC-BY-4.0",
     "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
-    "rev": 2
+    "rev": 2,
+    "authoringOrigin": "unknown",
+    "verificationStatus": "automated-structure-checked"
   },
   "titleMy": "Informal Plain Form (普通形: 書く・書かない・書いた) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "Informal Plain Form (普通形: 書く・書かない・書いた) (မြန်မာဘာသာပြန်)",

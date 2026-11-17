@@ -9,6 +9,8 @@ export const prov = {
   status: 'reviewed' as const,
   updatedAt: '2026-10-01T00:00:00Z',
   rev: 2,
+  authoringOrigin: 'unknown' as const,
+  verificationStatus: 'automated-structure-checked' as const,
 };
 
 export interface RawQuestionInput {

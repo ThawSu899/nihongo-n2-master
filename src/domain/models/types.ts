@@ -1,13 +1,41 @@
 import { z } from 'zod';
 
+export const AuthoringOriginSchema = z.enum([
+  'human-authored',
+  'ai-assisted',
+  'ai-authored',
+  'unknown',
+]);
+export type AuthoringOrigin = z.infer<typeof AuthoringOriginSchema>;
+
+export const VerificationStatusSchema = z.enum([
+  'native-speaker-verified',
+  'editorial-reviewed',
+  'automated-structure-checked',
+  'unverified',
+]);
+export type VerificationStatus = z.infer<typeof VerificationStatusSchema>;
+
 export const ProvenanceSchema = z.object({
   source: z.string(),
   license: z.string(),
+  /**
+   * @deprecated Legacy status field. Use `verificationStatus` as the sole authoritative source.
+   */
   status: z.enum(['draft', 'reviewed', 'native_verified']),
   updatedAt: z.string(),
   rev: z.number().int().nonnegative(),
+  authoringOrigin: AuthoringOriginSchema.optional(),
+  verificationStatus: VerificationStatusSchema.optional(),
+  reviewer: z.string().optional(),
 });
 export type Provenance = z.infer<typeof ProvenanceSchema>;
+
+export const LessonPackProvenanceSchema = ProvenanceSchema.extend({
+  authoringOrigin: AuthoringOriginSchema,
+  verificationStatus: VerificationStatusSchema,
+});
+export type LessonPackProvenance = z.infer<typeof LessonPackProvenanceSchema>;
 
 export const AudioRefSchema = z.object({
   kind: z.enum(['file', 'tts', 'missing']),
@@ -260,7 +288,7 @@ export const LessonPackSchema = z.object({
   reading: ReadingPassageSchema,
   listening: ListeningDialogueSchema,
   questions: z.array(QuestionSchema),
-  prov: ProvenanceSchema,
+  prov: LessonPackProvenanceSchema,
 });
 export type LessonPack = z.infer<typeof LessonPackSchema>;
 
@@ -274,7 +302,12 @@ export const CurriculumMapItemSchema = z.object({
   targetKanjiCount: z.number(),
   targetVocabCount: z.number(),
   status: z.enum(['planned', 'drafted', 'reviewed', 'published']),
+  /**
+   * @deprecated Legacy reviewStatus field. Use `verificationStatus` and `authoringOrigin`.
+   */
   reviewStatus: z.enum(['ai-authored', 'human-reviewed']).optional(),
+  authoringOrigin: AuthoringOriginSchema,
+  verificationStatus: VerificationStatusSchema,
 });
 export type CurriculumMapItem = z.infer<typeof CurriculumMapItemSchema>;
 

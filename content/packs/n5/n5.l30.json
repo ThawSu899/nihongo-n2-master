@@ -2646,7 +2646,9 @@
     "license": "CC-BY-4.0",
     "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
-    "rev": 2
+    "rev": 2,
+    "authoringOrigin": "unknown",
+    "verificationStatus": "automated-structure-checked"
   },
   "titleMy": "N5 Comprehensive Review and Integration (総まとめ & Can-do) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N5 Comprehensive Review and Integration (総まとめ & Can-do) (မြန်မာဘာသာပြန်)",

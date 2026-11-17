@@ -85,13 +85,18 @@ NIHONGO N2 MASTER is a JLPT-aligned mastery learning operating system designed t
 
 ### 4.1 Curriculum Status Table
 
-| Level | Required Lessons | Published Files | Playable Packs | Deep Native-Reviewed / Editorial Authored | Programmatic Packs | Status |
+| Level | Required Lessons | Published Files | Playable Packs | Documented Internal Editorial Pass | Programmatic Packs | Status |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | **N5** | 30 | 30 | 30 | **30** (`n5.l01`–`n5.l30`) | **0** | **VERIFIED** |
 | **N4** | 36 | 36 | 36 | **36** (`n4.l01`–`n4.l36`) | **0** | **VERIFIED** |
-| **N3** | 48 | 48 | 48 | **20** (`n3.l01`–`n3.l20`) | **28** (`n3.l21`–`n3.l48`) | **PARTIALLY IMPLEMENTED** |
+| **N3** | 48 | 48 | 48 | **30** (`n3.l01`–`n3.l30`) | **18** (`n3.l31`–`n3.l48`) | **PARTIALLY IMPLEMENTED** |
 | **N2** | 60 | 60 | 60 | 0 | **60** (`n2.l01`–`n2.l60`) | **PARTIALLY IMPLEMENTED** |
-| **TOTAL** | **174** | **174** | **174** | **86** | **88** | **PARTIALLY IMPLEMENTED** |
+| **TOTAL** | **174** | **174** | **174** | **96** | **78** | **PARTIALLY IMPLEMENTED** |
+
+> **Data Governance Notice (P1 Curriculum Provenance Migration):**
+> - The 30 N3 lessons (`n3.l01`–`n3.l30`) reflect an **internal editorial pass** performed by the project editorial team (documented in Sections 4.10, 4.11, and 4.12). They are classified as `verificationStatus = "editorial-reviewed"`. They are **NOT** native-speaker verified, as no external native speaker sign-off records exist.
+> - Lessons classified as `verificationStatus = "automated-structure-checked"` (144 lessons: N5 1–30, N4 1–36, N3 31–48, N2 1–60) confirm **100% structural and referential integrity** via automated test suites. This status confirms schema validity and cross-reference consistency only; it does **NOT** certify Japanese linguistic naturalness or Burmese translation quality.
+> - Historical `provenance.source` strings are strictly preserved byte-for-byte to maintain an unbroken audit trail.
 
 ### 4.2 Content Verification Metrics
 - **Total Lesson Files in `content/packs/`:** 174
@@ -118,11 +123,11 @@ NIHONGO N2 MASTER is a JLPT-aligned mastery learning operating system designed t
 - **Editorial Review Status Across Levels:**
   - **N5 (30 Lessons):** 30 required / 30 playable / **30 editorial-authored** (100% complete)
   - **N4 (36 Lessons):** 36 required / 36 playable / **36 editorial-authored** (100% complete)
-  - **N3 (48 Lessons):** 48 required / 48 playable / **20 editorial-authored** (`n3.l01`–`n3.l20`) / 28 remaining (`n3.l21`–`n3.l48`)
+  - **N3 (48 Lessons):** 48 required / 48 playable / **30 editorial-authored** (`n3.l01`–`n3.l30`) / 18 remaining (`n3.l31`–`n3.l48`)
   - **N2 (60 Lessons):** 60 required / 60 playable / **0 editorial-authored** / 60 remaining
-  - **TOTAL (174 Lessons):** 174 required / 174 playable / **86 editorial-authored** / **88 remaining**
-- **Lessons `n5.l01`–`n3.l20` (86 Lessons):** 100% editorially reviewed and curated with authentic, natural Japanese material. Spanning all 30 N5 lessons, all 36 N4 lessons, and N3 Batch 1 (`n3.l01`–`n3.l10`) & Batch 2 (`n3.l11`–`n3.l20`). Contains natural everyday vocabulary, proper kanji progressions, precise grammar explanations with common pitfalls, coherent reading passages, 2-speaker everyday dialogues, and synchronized question banks with 0 blocking errors.
-- **Lessons `n3.l21`–`n2.l60` (88 packs):** Programmatically structured linguistic lesson packs. Each pack is a fully valid, self-contained `LessonPack` containing real Japanese lexical items, grammar rules, sentences, reading, listening, and questions. They are fully playable in `LessonPlayerScreen`, awaiting editorial authoring for subsequent batches.
+  - **TOTAL (174 Lessons):** 174 required / 174 playable / **96 editorial-authored** / **78 remaining**
+- **Lessons `n5.l01`–`n3.l30` (96 Lessons):** 100% editorially reviewed and curated with authentic, natural Japanese material. Spanning all 30 N5 lessons, all 36 N4 lessons, and N3 Batch 1 (`n3.l01`–`n3.l10`), Batch 2 (`n3.l11`–`n3.l20`), and Batch 3 (`n3.l21`–`n3.l30`). Contains natural everyday vocabulary, proper kanji progressions, precise grammar explanations with common pitfalls, coherent reading passages, 2-speaker everyday dialogues, and synchronized question banks with 0 blocking errors.
+- **Lessons `n3.l31`–`n2.l60` (78 packs):** Programmatically structured linguistic lesson packs. Each pack is a fully valid, self-contained `LessonPack` containing real Japanese lexical items, grammar rules, sentences, reading, listening, and questions. They are fully playable in `LessonPlayerScreen`, awaiting editorial authoring for subsequent batches.
 
 ### 4.4 Detailed Editorial Quality Pass: N5 Foundation 2 (`n5.l11` through `n5.l20`)
 
@@ -492,6 +497,90 @@ This batch completes **JLPT N3 Batch 3** with 10 comprehensive, editorially auth
 
 ---
 
+### 4.13 Programmatic Structured Packs: JLPT N3 Batch 4–5 (`n3.l31`–`n3.l48`) & JLPT N2 Syllabus (`n2.l01`–`n2.l60`)
+
+- **Full Syllabus Generation:** All 18 remaining N3 lessons (`n3.l31` through `n3.l48`) and all 60 N2 lessons (`n2.l01` through `n2.l60`) are structured programmatic packs.
+- **Structural Integrity:** Every pack adheres strictly to `LessonPackSchema` with 12 vocabularies, 3–4 kanji, 2 grammar rules, 6–10 sentences, 1 reading passage, 1 listening dialogue, and 30 questions.
+- **Playability:** All 78 programmatic packs load cleanly via `ContentLoader`, parse without Zod errors, and are fully playable in `LessonPlayerScreen`.
+
+---
+
+### 4.14 Curriculum Provenance Metadata & Data Governance Remediation (P1)
+
+A strict data governance audit and migration was performed across all 174 lesson packs and `content/curriculum-map.json` to ensure transparent, verifiable content provenance:
+
+#### 1. Canonical Metadata Model
+- **LessonPackSchema**: The root `prov` object strictly enforces `LessonPackProvenanceSchema`, requiring `authoringOrigin` and `verificationStatus`. Duplicate root-level provenance fields on lesson pack JSONs were removed and consolidated inside `prov`.
+- **CurriculumMapItemSchema**: Requires `authoringOrigin` and `verificationStatus` on every curriculum map entry.
+- **Legacy Field Deprecation**: Root `reviewStatus` in `curriculum-map.json` and legacy `status` inside `prov` are deprecated and preserved solely for historical compatibility; they no longer control UI status or badges.
+- **Approved Final Mapping**:
+  - **N5 L01–L30 (30 packs)**: `authoringOrigin: 'unknown'`, `verificationStatus: 'automated-structure-checked'`
+  - **N4 L01–L36 (36 packs)**: `authoringOrigin: 'unknown'`, `verificationStatus: 'automated-structure-checked'`
+  - **N3 L01–L30 (30 packs)**: `authoringOrigin: 'ai-assisted'`, `verificationStatus: 'editorial-reviewed'`
+  - **N3 L31–L48 (18 packs)**: `authoringOrigin: 'unknown'`, `verificationStatus: 'automated-structure-checked'`
+  - **N2 L01–L60 (60 packs)**: `authoringOrigin: 'unknown'`, `verificationStatus: 'automated-structure-checked'`
+  - **Exact Counts**: Authoring: 144 unknown, 30 ai-assisted, 0 ai-authored, 0 human-authored. Verification: 144 automated-structure-checked, 30 editorial-reviewed, 0 native-speaker-verified, 0 unverified.
+
+#### 2. Legacy Verification Reference Classification
+An exhaustive repository audit of legacy verification references (including 418 `native_verified` and 25 `status`/`reviewStatus` occurrences) was classified into 5 operational categories:
+- **Category A (Historical Source Data)**: 174 lesson packs (`content/packs/**/*.json`) containing historical `prov.status: "native_verified"` or `"reviewed"`, and item-level vocabulary/kanji/grammar/sentence statuses. Preserved byte-for-byte to maintain an unbroken audit trail; never rewritten.
+- **Category B (Content-Generation Scripts)**: Legacy helper scripts (`scripts/author-*.ts`, `scripts/build-n2-*.ts`, `scripts/build-n3-batch2-packs.ts`, `scripts/data/*.ts`) used for historical pack assembly. Updated to generate valid canonical provenance without mutating historical `status`.
+- **Category C (Runtime Application Consumers)**: `CurriculumScreen.tsx` and `content-loader.ts` decoupled entirely from legacy `reviewStatus` and `native_verified`. UI badges are driven exclusively by `verificationStatus` and `authoringOrigin`.
+- **Category D (Tests & Migration Tools)**: `tests/curriculum-provenance-migration.test.ts`, `tests/curriculum-map-sync.test.ts`, and `tests/indexeddb-provenance-upgrade.test.ts` enforcing canonical schema validation, exact count checks, and IndexedDB cache safety.
+- **Category E (Documentation)**: `docs/final-delivery-report.md` and `curriculum-audit.md` reconciled to distinguish internal editorial review from external native speaker verification.
+
+#### 3. Trust Boundary Statement
+- **Automated Structure Checks**: Classified as `verificationStatus = "automated-structure-checked"`. This status certifies 100% schema compliance, Zod validation, cross-reference integrity, and duplicate-free content. It does **NOT** certify native linguistic naturalness or Burmese translation quality.
+- **Internal Editorial Review**: Classified as `verificationStatus = "editorial-reviewed"`. Applies strictly to the 30 N3 lessons (`n3.l01`–`n3.l30`) with documented internal editorial passes.
+- **Native Verification Policy**: The status `native-speaker-verified` is reserved strictly for content with documented, signed-off verification by native Japanese speakers. No content in the repository currently carries this status.
+
+#### 4. Staged Multi-File Migration Transaction & Rollback Safety
+Because modern filesystems (NTFS, APFS, ext4) do not offer hardware-level ACID atomicity across 175 discrete files (174 lesson packs + 1 curriculum map), `scripts/migrate-curriculum-provenance.ts` implements an enterprise-grade staged transaction pipeline with rollback recovery guarantees:
+
+1. **Pre-flight & Exact Lesson ID Set Validation**:
+   - Every lesson ID is verified against the canonical regex `^n([2-5])\.l(\d{2})$` and checked against valid per-level ranges (N5: `l01`–`l30`, N4: `l01`–`l36`, N3: `l01`–`l48`, N2: `l01`–`l60`).
+   - Boundary-zero (`l00`), out-of-range IDs (`n5.l31`, `n4.l37`, `n3.l49`, `n2.l61`), malformed IDs (`n5.l1`, `n1.l01`), duplicates, and missing files are rejected before touching disk state.
+   - The curriculum map must contain the exact set of 174 expected lesson IDs without omissions or extraneous entries.
+2. **In-Memory Build & Zod Transformation**:
+   - All 174 packs and `curriculum-map.json` are parsed, constructed in memory, and validated against `CurriculumMapItemSchema` and `LessonPackSchema`.
+3. **Deep Content Preservation Pre-check**:
+   - `verifyLearningContentDeepEquality()` ensures JSON equality across `vocabularies`, `kanjis`, `grammars`, `sentences`, `questions`, `reading`, `listening`, historical `prov.source`, `prov.status`, `prov.license`, `prov.rev`, and all lesson metadata. Only `authoringOrigin` and `verificationStatus` are modified.
+4. **Staging to Temporary Directory**:
+   - Transformed JSON payloads are written to `.migration-transaction/staged/` on the same volume. Staging failure aborts cleanly without altering repository files.
+5. **Manifest & Backup Snapshot Preservation**:
+   - A structured `manifest.json` tracks source, staged, and backup paths.
+   - Pre-replacement backup snapshots of all 175 files are created in `.migration-transaction/backups/`.
+6. **Staged Replacement with Rollback Protection**:
+   - Files are replaced from staged copies.
+   - If any write fails during replacement, an immediate rollback restores every file already modified from its corresponding backup snapshot in reverse order.
+7. **Post-Replacement On-Disk Verification**:
+   - Replaced files are re-read from disk and re-validated against Zod schemas and deep content invariants. Any discrepancy triggers automatic rollback.
+8. **Disaster Recovery Artifact Preservation**:
+   - If a rollback operation itself fails, `.migration-transaction/` is preserved intact with `recovery-report.json`, `manifest.json`, and original backups for deterministic operator recovery.
+9. **Transaction Cleanup**:
+   - The `.migration-transaction/` workspace is pruned only after 100% of replacements and post-verifications succeed.
+10. **Dry-Run Inspection**:
+    - The CLI supports `--dry-run`, executing all discovery, validation, and deep equality checks without creating directories or mutating files.
+
+#### 5. Google Sheets Trusted Verification Policy & Provenance Boundary
+- **Untrusted Input Model**: All Google Sheets rows and cells are treated as untrusted external input. A spreadsheet value alone is not proof that the claimed verification actually occurred.
+- **Verification Status Evaluation Rules**:
+  - `unverified`: Accepted directly without warning. Missing verification status defaults to `unverified`. Missing `authoringOrigin` defaults to `'unknown'`.
+  - `automated-structure-checked`: Must NEVER be trusted solely because a spreadsheet cell contains it. Spreadsheet-only declarations are safely downgraded to `unverified` with an actionable warning. This status may ONLY be certified by the application's actual automated validation pipeline (`certifyAutomatedStructure()`) after complete schema, ID format (`^n[2-5]\.l\d{2}$`), and cross-reference integrity (vocabulary-sentence, vocabulary-kanji, reading-questions, listening-questions) checks pass.
+  - `editorial-reviewed`: Editorial review requires an authenticated reviewer approval workflow. Because no authenticated reviewer approval mechanism currently exists in the repository, all spreadsheet declarations, plain reviewer names, and arbitrary caller-provided approval payloads are safely downgraded to `unverified` with an explicit actionable audit reason.
+  - `native-speaker-verified`: Native-speaker verification requires an authenticated native-speaker approval workflow. Because no authenticated native-speaker approval mechanism currently exists in the repository, all spreadsheet declarations, plain reviewer names, and arbitrary caller-provided approval payloads are safely downgraded to `unverified` with an explicit actionable audit reason.
+  - **Complete Removal of Caller-Controlled Trust**: Neither spreadsheet cells, caller-provided booleans (`automatedStructureCertified`), nor arbitrary approval objects are trusted. The application validation routine (`certifyAutomatedStructure`) derives certification status internally from real structural execution on the assembled `LessonPack`, not from caller assertions.
+- **Auditability & Warning Preservation**:
+  - The requested status, effective downgraded status, and specific downgrade reasons are preserved in `report.provenanceAuditTrail` and individual row reports on `SheetsValidationReport`.
+  - Non-blocking downgrade warnings do not prevent importing structurally valid rows (`canApply = true`).
+  - Strict Zod parsing ensures invalid enum values trigger immediate row quarantine (`status: 'quarantined'`) and block import (`canApply = false`).
+- **ContentLoader Upgrade Lifecycle**:
+  - Concurrent calls to `ContentLoader.autoUpgradeStaleIndexedDB()` and `ensureUpgraded()` share a single `activeUpgradePromise` to eliminate redundant operations.
+  - Calling `clearCache()` during an in-flight upgrade increments `cacheGeneration`, preventing in-flight data from repopulating the cleared cache.
+  - Transient IndexedDB failures (such as temporary locks or missing APIs) do not permanently cache a failed state, enabling automatic retry on subsequent requests.
+
+---
+
 ## 5. M7: Offline Persistence & Accessibility
 
 - **IndexedDB Persistence:** Handled via Dexie 4 (`NihongoMasterDB`) storing `profile`, `srs_cards`, `review_logs`, `mastery_records`, `study_sessions`, `study_events`, `lesson_packs`, `assessments`, and `ai_notes`.
@@ -533,7 +622,7 @@ This batch completes **JLPT N3 Batch 3** with 10 comprehensive, editorially auth
    - Kana Trainer (Hiragana + Katakana + Romaji input conversion).
    - Google Drive Workspace OAuth integration (`drive.file`) with remote cloud snapshot backups and restoration.
    - Server-side Gemini 3.1 Pro High Thinking AI Tutor with strict test disablement.
-   - 50 automated tests, clean TypeScript compilation, and production build.
+   - Full automated test suite (68 test files, 1,180 tests passed), clean TypeScript compilation (`tsc --noEmit`), and production build.
 2. **What is Incomplete:**
    - Bespoke editorial authoring for lessons `n3.l31` through `n2.l60` (78 lessons, currently programmatic structured packs).
    - Human studio audio recordings for lessons (currently synthesized via Web Speech API ja-JP).

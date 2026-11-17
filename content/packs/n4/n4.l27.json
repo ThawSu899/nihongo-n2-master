@@ -2671,7 +2671,9 @@
     "license": "CC-BY-4.0",
     "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
-    "rev": 2
+    "rev": 2,
+    "authoringOrigin": "unknown",
+    "verificationStatus": "automated-structure-checked"
   },
   "titleMy": "N4 Lesson 27: Permission & Non-Necessity (許可・不必要: 〜てもいい・〜なくてもいい) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 27: Permission & Non-Necessity (許可・不必要: 〜てもいい・〜なくてもいい) (မြန်မာဘာသာပြန်)",

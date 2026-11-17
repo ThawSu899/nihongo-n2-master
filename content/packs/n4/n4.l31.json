@@ -2687,7 +2687,9 @@
     "license": "CC-BY-4.0",
     "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
-    "rev": 2
+    "rev": 2,
+    "authoringOrigin": "unknown",
+    "verificationStatus": "automated-structure-checked"
   },
   "titleMy": "N4 Lesson 31: Indirect Questions & Embedded Interrogatives (複文・間接疑問: 〜かどうか・疑問詞〜か) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 31: Indirect Questions & Embedded Interrogatives (複文・間接疑問: 〜かどうか・疑問詞〜か) (မြန်မာဘာသာပြန်)",

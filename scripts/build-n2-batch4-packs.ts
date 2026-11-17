@@ -41,6 +41,8 @@ function buildPackFromSpec(spec: LessonSpec): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-01T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   }));
 
@@ -71,6 +73,8 @@ function buildPackFromSpec(spec: LessonSpec): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-01T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   }));
 
@@ -93,6 +97,8 @@ function buildPackFromSpec(spec: LessonSpec): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-01T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   }));
 
@@ -169,6 +175,8 @@ function buildPackFromSpec(spec: LessonSpec): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-01T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   };
 
@@ -199,6 +207,8 @@ function buildPackFromSpec(spec: LessonSpec): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-01T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   };
 
@@ -328,6 +338,8 @@ function buildPackFromSpec(spec: LessonSpec): LessonPack {
       status: 'native_verified',
       updatedAt: '2026-11-01T10:00:00Z',
       rev: 2,
+      authoringOrigin: 'unknown',
+      verificationStatus: 'automated-structure-checked',
     },
   };
 }

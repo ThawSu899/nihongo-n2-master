@@ -8,6 +8,8 @@ const prov = {
   status: 'reviewed' as const,
   updatedAt: '2026-09-30T10:00:00Z',
   rev: 1,
+  authoringOrigin: 'unknown' as const,
+  verificationStatus: 'automated-structure-checked' as const,
 };
 
 const pack: LessonPack = {

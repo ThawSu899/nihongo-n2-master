@@ -14,8 +14,116 @@ import {
 } from 'lucide-react';
 import { ContentLoader } from '../../data/content/content-loader';
 import { db } from '../../data/db/dexie-db';
-import { CurriculumMapItem, MasteryRecord, SRSCard } from '../../domain/models/types';
+import {
+  CurriculumMapItem,
+  MasteryRecord,
+  SRSCard,
+  AuthoringOrigin,
+  VerificationStatus,
+} from '../../domain/models/types';
 import { getUserNotes, UserNotesMap } from '../../domain/notes/lesson-notes';
+
+export function getAuthoringOriginBadge(origin?: AuthoringOrigin) {
+  switch (origin) {
+    case 'human-authored':
+      return (
+        <span
+          className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 font-medium"
+          title="Human-authored content"
+        >
+          ✍️ Human-Authored
+        </span>
+      );
+    case 'ai-assisted':
+      return (
+        <span
+          className="text-[10px] px-2 py-0.5 rounded-full bg-sky-50 text-sky-800 border border-sky-200 font-medium"
+          title="AI-assisted editorial authoring"
+        >
+          🤝 AI-Assisted
+        </span>
+      );
+    case 'ai-authored':
+      return (
+        <span
+          className="text-[10px] px-2 py-0.5 rounded-full bg-stone-100 text-stone-700 border border-stone-200 font-medium"
+          title="Fully AI-generated content"
+        >
+          🤖 AI-Authored
+        </span>
+      );
+    case 'unknown':
+      return (
+        <span
+          className="text-[10px] px-2 py-0.5 rounded-full bg-stone-100 text-stone-600 border border-stone-200 font-medium"
+          title="Authoring origin unspecified in project records"
+        >
+          ❔ Origin Unspecified
+        </span>
+      );
+    default:
+      // Explicit safe fallback for undefined legacy values
+      return (
+        <span
+          className="text-[10px] px-2 py-0.5 rounded-full bg-stone-100 text-stone-600 border border-stone-200 font-medium"
+          title="Authoring origin unspecified in project records"
+        >
+          ❔ Origin Unspecified
+        </span>
+      );
+  }
+}
+
+export function getVerificationStatusBadge(status?: VerificationStatus) {
+  switch (status) {
+    case 'native-speaker-verified':
+      return (
+        <span
+          className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 font-medium"
+          title="Verified by native Japanese speaker"
+        >
+          ✅ Native-Verified
+        </span>
+      );
+    case 'editorial-reviewed':
+      return (
+        <span
+          className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-800 border border-indigo-200 font-medium"
+          title="Internal editorial pass documented; not native-speaker verified"
+        >
+          📝 Editorial-Reviewed
+        </span>
+      );
+    case 'automated-structure-checked':
+      return (
+        <span
+          className="text-[10px] px-2 py-0.5 rounded-full bg-amber-50 text-amber-800 border border-amber-200 font-medium"
+          title="Passed automated schema & reference integrity checks; not linguistically verified"
+        >
+          🧪 Automated QA Passed
+        </span>
+      );
+    case 'unverified':
+      return (
+        <span
+          className="text-[10px] px-2 py-0.5 rounded-full bg-rose-50 text-rose-800 border border-rose-200 font-medium"
+          title="Pending review"
+        >
+          ⏳ Pending Review
+        </span>
+      );
+    default:
+      // Explicit safe fallback for undefined legacy values — NEVER map unknown to QA passed
+      return (
+        <span
+          className="text-[10px] px-2 py-0.5 rounded-full bg-rose-50 text-rose-800 border border-rose-200 font-medium"
+          title="Pending review"
+        >
+          ⏳ Pending Review
+        </span>
+      );
+  }
+}
 
 interface CurriculumScreenProps {
   onSelectLesson: (lessonId: string) => void;
@@ -363,11 +471,8 @@ export const CurriculumScreen: React.FC<CurriculumScreenProps> = ({
                     )}
                   </div>
                   <div className="flex items-center gap-1.5 flex-wrap justify-end">
-                    {item.reviewStatus && (
-                      <span className="text-[10px] px-2 py-0.5 rounded-full bg-stone-100 text-stone-700 border border-stone-200 font-medium">
-                        {item.reviewStatus === 'human-reviewed' ? 'Human-Reviewed' : 'AI-Authored'}
-                      </span>
-                    )}
+                    {getAuthoringOriginBadge(item.authoringOrigin)}
+                    {getVerificationStatusBadge(item.verificationStatus)}
 
                     <span
                       className={`text-[10px] px-2 py-0.5 rounded-full font-semibold ${

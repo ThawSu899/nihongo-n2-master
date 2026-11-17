@@ -2692,7 +2692,9 @@
     "license": "CC-BY-4.0",
     "status": "native_verified",
     "updatedAt": "2026-10-01T00:00:00Z",
-    "rev": 2
+    "rev": 2,
+    "authoringOrigin": "unknown",
+    "verificationStatus": "automated-structure-checked"
   },
   "titleMy": "N4 Lesson 14: Respectful Keigo (尊敬語: いらっしゃる・召し上がる・お〜になる) (မြန်မာဘာသာပြန်)",
   "titleMyanmar": "N4 Lesson 14: Respectful Keigo (尊敬語: いらっしゃる・召し上がる・お〜になる) (မြန်မာဘာသာပြန်)",
