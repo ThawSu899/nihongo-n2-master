@@ -470,6 +470,7 @@ export interface StudyTimerState {
 export interface StudyEvent {
   id: string;
   timestamp: string; // ISO UTC
+  sequence?: number;
   type:
     | 'lesson_started'
     | 'stage_completed'

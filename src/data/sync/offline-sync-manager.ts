@@ -11,6 +11,15 @@ export interface OfflineSyncAction {
   retries: number;
 }
 
+export type SyncActionProcessor = (action: OfflineSyncAction) => Promise<boolean>;
+
+export interface FlushQueueResult {
+  processedCount: number;
+  failedCount: number;
+  message: string;
+  success: boolean;
+}
+
 export interface StorageQuotaInfo {
   usageBytes: number;
   quotaBytes: number;
@@ -138,23 +147,88 @@ export class OfflineSyncManager {
     localStorage.removeItem(QUEUE_STORAGE_KEY);
   }
 
+  private static registeredProcessor: SyncActionProcessor | null = null;
+
   /**
-   * Process / flush pending queue actions
+   * Register a persistent action processor for background or scheduled offline synchronization.
+   * If null or unregistered, flushPendingQueue will retain all actions rather than discarding them.
    */
-  static async flushPendingQueue(): Promise<{ processedCount: number; message: string }> {
+  static registerActionProcessor(processor: SyncActionProcessor | null): void {
+    this.registeredProcessor = processor;
+  }
+
+  /**
+   * Process / flush pending queue actions.
+   *
+   * SAFEGUARD: If no genuine persistence processor is registered or passed, all pending actions
+   * are safely retained in the queue and a truthful non-success status is returned.
+   * Actions are ONLY marked processed and cleared when a genuine processor verifies persistence.
+   */
+  static async flushPendingQueue(
+    processor?: SyncActionProcessor
+  ): Promise<FlushQueueResult> {
     const queue = this.getPendingQueue();
     if (queue.length === 0) {
-      return { processedCount: 0, message: 'Offline queue is already empty.' };
+      return {
+        processedCount: 0,
+        failedCount: 0,
+        success: true,
+        message: 'Offline queue is already empty.',
+      };
     }
 
-    const processed = queue.length;
-    // Clear queue after simulated reconciliation
-    this.clearPendingQueue();
-    localStorage.setItem(LAST_SYNC_KEY, new Date().toISOString());
+    const effectiveProcessor = processor || this.registeredProcessor;
+
+    // Truthful safeguard: If no persistence processor exists, retain all actions.
+    if (!effectiveProcessor) {
+      return {
+        processedCount: 0,
+        failedCount: queue.length,
+        success: false,
+        message: `No active persistence processor configured; safely retained ${queue.length} pending action(s) in queue.`,
+      };
+    }
+
+    const remainingQueue: OfflineSyncAction[] = [];
+    let processedCount = 0;
+    let failedCount = 0;
+
+    for (const action of queue) {
+      let isSuccess = false;
+      try {
+        isSuccess = await effectiveProcessor(action);
+      } catch (err) {
+        console.warn('Action persistence processing threw an exception', action.id, err);
+        isSuccess = false;
+      }
+
+      if (isSuccess) {
+        processedCount++;
+      } else {
+        action.retries = (action.retries || 0) + 1;
+        remainingQueue.push(action);
+        failedCount++;
+      }
+    }
+
+    this.savePendingQueue(remainingQueue);
+
+    if (processedCount > 0 && typeof localStorage !== 'undefined') {
+      try {
+        localStorage.setItem(LAST_SYNC_KEY, new Date().toISOString());
+      } catch (err) {
+        console.warn('Failed to update last sync time', err);
+      }
+    }
 
     return {
-      processedCount: processed,
-      message: `Successfully synchronized ${processed} pending offline action(s).`,
+      processedCount,
+      failedCount,
+      success: failedCount === 0,
+      message:
+        failedCount === 0
+          ? `Successfully processed and verified ${processedCount} pending offline action(s).`
+          : `Processed ${processedCount} action(s); ${failedCount} action(s) failed and retained in queue.`,
     };
   }
 

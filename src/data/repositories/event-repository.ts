@@ -1,16 +1,29 @@
 import { db } from '../db/dexie-db';
 import { StudyEvent } from '../../domain/models/types';
 
+export interface RecordEventOptions {
+  timestamp?: string;
+  sequence?: number;
+}
+
 export class EventRepository {
+  private static sequenceCounter = 0;
+
+  static resetSequenceCounter(): void {
+    this.sequenceCounter = 0;
+  }
+
   static async record(
     type: StudyEvent['type'],
     data: Record<string, any> = {},
     lessonId?: string,
-    stageNumber?: number
+    stageNumber?: number,
+    options?: RecordEventOptions
   ): Promise<StudyEvent> {
     const event: StudyEvent = {
       id: `evt_${Date.now()}_${Math.random().toString(36).substring(2, 8)}`,
-      timestamp: new Date().toISOString(),
+      timestamp: options?.timestamp || new Date().toISOString(),
+      sequence: options?.sequence !== undefined ? options.sequence : ++this.sequenceCounter,
       type,
       lessonId,
       stageNumber,
@@ -21,11 +34,28 @@ export class EventRepository {
     return event;
   }
 
+  static sortEventsChronologically(events: StudyEvent[]): StudyEvent[] {
+    return events.slice().sort((a, b) => {
+      const timeDiff = new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime();
+      if (timeDiff !== 0) {
+        return timeDiff;
+      }
+      const seqA = a.sequence ?? 0;
+      const seqB = b.sequence ?? 0;
+      if (seqA !== seqB) {
+        return seqA - seqB;
+      }
+      return a.id.localeCompare(b.id);
+    });
+  }
+
   static async getEventsForLesson(lessonId: string): Promise<StudyEvent[]> {
-    return db.study_events.where('lessonId').equals(lessonId).toArray();
+    const events = await db.study_events.where('lessonId').equals(lessonId).toArray();
+    return this.sortEventsChronologically(events);
   }
 
   static async getAllEvents(): Promise<StudyEvent[]> {
-    return db.study_events.orderBy('timestamp').toArray();
+    const events = await db.study_events.orderBy('timestamp').toArray();
+    return this.sortEventsChronologically(events);
   }
 }
