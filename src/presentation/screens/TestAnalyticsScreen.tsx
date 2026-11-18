@@ -242,6 +242,16 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
     setTimeout(() => setActionMessage(null), 3000);
   };
 
+  const skillAccuracies = React.useMemo(() => {
+    const acc: Partial<Record<QuestionSkill, number>> = {};
+    if (data?.skills) {
+      data.skills.forEach((s) => {
+        acc[s.skill] = s.scorePct;
+      });
+    }
+    return acc;
+  }, [data?.skills]);
+
   if (loading || !data || !weaknessReport) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[50vh] space-y-3">
@@ -267,14 +277,6 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
     if (quarantineFilter === 'all') return true;
     return l.itemType === quarantineFilter;
   });
-
-  const skillAccuracies = React.useMemo(() => {
-    const acc: Partial<Record<QuestionSkill, number>> = {};
-    data.skills.forEach((s) => {
-      acc[s.skill] = s.scorePct;
-    });
-    return acc;
-  }, [data.skills]);
 
   const WeakestIcon = SKILL_ICONS[weaknessReport.weakestSkill] || AlertTriangle;
 
