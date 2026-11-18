@@ -34,9 +34,9 @@
   - Stage 14: Dynamic Remediation Flow (Targeted Retry for Missed Items)
   - Stage 15: Mastery Completion & Ladder Promotion
 - **Adaptive Spaced Repetition (SRS)**:
-  - SM-2 / Leitner-hybrid algorithm with 8 ladder stages (*Apprentice I–IV, Guru I–II, Master, Enlightened, Burned*).
-  - Real-time rating options (*Again, Hard, Good, Easy*) with interval projection chips.
-  - Leech quarantine detection, review due date calculations, and streak retention tracking.
+  - Modern FSRS (Free Spaced Repetition Scheduler) algorithm via `ts-fsrs` (`^5.4.2`) with calibrated 90% target retention rate (`request_retention: 0.90`) and deterministic interval ladder fallback.
+  - Real-time rating options (*Again, Hard, Good, Easy*) with interval projection chips and keyboard shortcut support (`1`–`4`).
+  - Leech quarantine detection, review due date calculations (04:00 AM daily rollover boundary), and streak retention tracking.
   - Smooth 3D tactile card-flip animations powered by Framer Motion.
 - **Dual Support Languages**:
   - Comprehensive English and Burmese / Myanmar (`my`) translations, vocabulary breakdowns, and grammatical nuance notes.
@@ -67,7 +67,8 @@
 - **Animations & Micro-interactions**: [Framer Motion](https://www.framer.com/motion/) (`12.43.0`)
 - **Icons**: [Lucide React](https://lucide.dev/) (`0.546.0`)
 - **Host Server**: [Express](https://expressjs.com/) (`4.22.3`) (optional lightweight SPA server)
-- **Testing**: [Vitest](https://vitest.dev/) (`5.0.5`) — **1,057 automated tests across 53 test files (100% passing)**
+- **Spaced Repetition Engine**: [ts-fsrs](https://github.com/open-spaced-repetition/ts-fsrs) (`5.4.2`) — Modern Free Spaced Repetition Scheduler with 90% retention calibration
+- **Testing**: [Vitest](https://vitest.dev/) (`5.0.5`) — **1,202 automated tests across 68 test files (100% passing)**
 - **Validation**: [Zod](https://zod.dev/) (`4.6.7`) schemas enforcing strict curriculum integrity
 
 ---
@@ -135,7 +136,7 @@ Open your browser at `http://localhost:3000` (or `http://localhost:5173`).
 
 ### 4. Running Quality Verification & Tests
 ```bash
-# Run Vitest test suite (53 files, 1,057 tests)
+# Run Vitest test suite (68 files, 1,202 tests)
 npm test
 
 # Run TypeScript type check
