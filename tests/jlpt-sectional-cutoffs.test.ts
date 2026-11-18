@@ -133,4 +133,52 @@ describe('JLPTScoringEngine - Official Sectional Cutoffs & Domain Diagnostics', 
     expect(reportListeningWeak.weakestDomain.burmeseAdvice).toContain('နားထောင်မှု');
     expect(reportListeningWeak.weakestDomain.drillSkill).toBe('listening');
   });
+
+  describe('TestAnalyticsScreen Hook Invariance Regression Test (P0.2)', () => {
+    it('renders cleanly in loading state without Hook ordering violations', async () => {
+      const React = await import('react');
+      const { renderToString } = await import('react-dom/server');
+      const { TestAnalyticsScreen, createDefaultTestAnalyticsSummary, createDefaultWeaknessReport } = await import(
+        '../src/presentation/screens/TestAnalyticsScreen'
+      );
+      const { DEFAULT_USER_PROFILE } = await import('../src/data/db/dexie-db');
+
+      // 1. Initial loading render (data is null, early return active)
+      const loadingHtml = renderToString(
+        React.createElement(TestAnalyticsScreen, {
+          profile: DEFAULT_USER_PROFILE,
+        })
+      );
+      expect(loadingHtml).toContain('Aggregating test metrics');
+
+      // 2. Hydrated loaded render (data is present, full dashboard active)
+      const loadedHtml = renderToString(
+        React.createElement(TestAnalyticsScreen, {
+          profile: DEFAULT_USER_PROFILE,
+          initialData: createDefaultTestAnalyticsSummary(),
+          initialWeaknessReport: createDefaultWeaknessReport(),
+        })
+      );
+      expect(loadedHtml).toContain('Test Analytics &amp; Skill Radar');
+      expect(loadedHtml).toContain('Official JLPT Scaled Scoring Engine');
+    });
+
+    it('statically and dynamically verifies zero Hooks declared after early returns', async () => {
+      const fs = await import('fs');
+      const path = await import('path');
+      const filePath = path.resolve('src/presentation/screens/TestAnalyticsScreen.tsx');
+      const content = fs.readFileSync(filePath, 'utf8');
+
+      // Find the index of the first early return guard
+      const earlyReturnIndex = content.indexOf('if (loading || !data || !weaknessReport)');
+      expect(earlyReturnIndex).toBeGreaterThan(0);
+
+      // Extract the rest of the component body after the early return
+      const bodyAfterEarlyReturn = content.substring(earlyReturnIndex);
+
+      // Verify that no React Hook calls (useMemo, useState, useEffect, useCallback, useRef) exist after the early return
+      const hookMatch = bodyAfterEarlyReturn.match(/\b(React\.)?use(Memo|State|Effect|Callback|Ref|Context)\b/);
+      expect(hookMatch).toBeNull();
+    });
+  });
 });
