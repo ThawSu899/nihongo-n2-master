@@ -60,6 +60,33 @@ describe('JLPT N2 Batch 1 Curriculum Expansion (n2.l04 - n2.l10)', () => {
       }
     });
 
+    it('verifies all 21 N2 Batch 1 grammar IDs exist and have non-empty Burmese explanations', () => {
+      const targetGrammarIds = [
+        'n2.l04.g001', 'n2.l04.g002', 'n2.l04.g003',
+        'n2.l05.g001', 'n2.l05.g002', 'n2.l05.g003',
+        'n2.l06.g001', 'n2.l06.g002', 'n2.l06.g003',
+        'n2.l07.g001', 'n2.l07.g002', 'n2.l07.g003',
+        'n2.l08.g001', 'n2.l08.g002', 'n2.l08.g003',
+        'n2.l09.g001', 'n2.l09.g002', 'n2.l09.g003',
+        'n2.l10.g001', 'n2.l10.g002', 'n2.l10.g003',
+      ];
+      expect(targetGrammarIds).toHaveLength(21);
+
+      const allGrammars = N2_BATCH1_PACKS.flatMap((p) => p.grammars);
+      const grammarIdMap = new Map(allGrammars.map((g) => [g.id, g]));
+
+      for (const id of targetGrammarIds) {
+        const grammar = grammarIdMap.get(id);
+        expect(grammar, `Grammar point ${id} must exist`).toBeDefined();
+        expect(grammar!.meaningMy, `Grammar ${id} must have non-empty meaningMy`).toBeTruthy();
+        expect(typeof grammar!.meaningMy).toBe('string');
+        expect(grammar!.meaningMy!.trim().length).toBeGreaterThan(0);
+        expect(grammar!.pattern).toBeTruthy();
+        expect(grammar!.meaning).toBeTruthy();
+        expect(grammar!.explanation.my).toBeTruthy();
+      }
+    });
+
     for (const lessonId of batchIds) {
       describe(`Lesson ${lessonId} Content Completeness`, () => {
         const jsonPath = path.resolve(`./content/packs/n2/${lessonId}.json`);
@@ -105,6 +132,9 @@ describe('JLPT N2 Batch 1 Curriculum Expansion (n2.l04 - n2.l10)', () => {
           for (const grammar of pack.grammars) {
             expect(grammar.pattern).toBeTruthy();
             expect(grammar.meaning).toBeTruthy();
+            expect(grammar.meaningMy, `grammar.meaningMy must be non-empty for ${grammar.id}`).toBeTruthy();
+            expect(typeof grammar.meaningMy).toBe('string');
+            expect(grammar.meaningMy!.trim().length).toBeGreaterThan(0);
             expect(grammar.formation).toBeTruthy();
             expect(grammar.explanation.my).toBeTruthy();
             expect(grammar.examples.length).toBeGreaterThanOrEqual(1);

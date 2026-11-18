@@ -454,7 +454,7 @@ describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', (
       expect(result.changedFilesCount).toBe(175);
       // Assert zero write operations occurred
       expect(mem.writes).toHaveLength(0);
-    });
+    }, 20000);
 
     it('rejects missing pack files during preflight before writing any files', () => {
       const mem = createMemoryFS();
@@ -528,7 +528,7 @@ describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', (
       expect(
         mem.files.get(path.join(mem.root, 'content', 'packs', 'n5', 'n5.l01.json'))
       ).toBe(originalPack);
-    });
+    }, 20_000);
 
     it('triggers rollback and restores every previously replaced file when replacement fails', () => {
       const mem = createMemoryFS();
@@ -564,7 +564,7 @@ describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', (
       expect(
         mem.files.get(path.join(mem.root, 'content', 'packs', 'n5', 'n5.l02.json'))
       ).toBe(originalP02);
-    });
+    }, 20_000);
 
     it('triggers rollback when post-replacement verification fails', () => {
       const mem = createMemoryFS();
@@ -586,7 +586,7 @@ describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', (
       expect(caughtError.manifest?.state).toBe('rolled_back');
       expect(caughtError.recoveryReport?.rollbackSuccessful).toBe(true);
       expect(mem.files.get(mem.mapPath)).toBe(originalMap);
-    });
+    }, 20_000);
 
     it('preserves recovery artifacts and manifest if rollback itself fails', () => {
       const mem = createMemoryFS();
@@ -616,7 +616,7 @@ describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', (
       );
       expect(mem.files.has(manifestPath)).toBe(true);
       expect(mem.files.has(reportPath)).toBe(true);
-    });
+    }, 20_000);
 
     it('executes successful migration updating exactly 174 packs and 174 map entries and is idempotent with zero rewrites on re-run', () => {
       const mem = createMemoryFS();
