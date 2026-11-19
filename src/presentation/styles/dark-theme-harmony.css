@@ -1,0 +1,165 @@
+/* ==========================================================================
+   Dark Theme Harmony Stylesheet
+   Harmonizes deep obsidian dark mode styling across Dokkai, Choukai, and
+   N5 Reference Workbenches without altering existing component logic.
+   ========================================================================== */
+
+/* --- N5 Reference Workbench Modal & Sub-Components --- */
+html.dark [data-reference-workbench="root"] {
+  background-color: #121215 !important;
+  border-color: #27272a !important;
+  color: #f4f4f5 !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7) !important;
+}
+
+html.dark [data-reference-workbench="header"] {
+  background-color: #18181b !important;
+  border-color: #27272a !important;
+}
+
+html.dark [data-reference-workbench="header"] h2 {
+  color: #fafafa !important;
+}
+
+html.dark [data-reference-workbench="header"] p {
+  color: #a1a1aa !important;
+}
+
+html.dark [data-reference-workbench="tabs"] {
+  background-color: #141418 !important;
+  border-color: #27272a !important;
+}
+
+html.dark [data-reference-workbench="tabs"] button {
+  color: #a1a1aa !important;
+}
+
+html.dark [data-reference-workbench="tabs"] button:hover {
+  color: #fafafa !important;
+  background-color: #202025 !important;
+}
+
+html.dark [data-reference-workbench="tabs"] button[data-active="true"] {
+  background-color: #18181b !important;
+  color: #818cf8 !important;
+  border-bottom-color: #6366f1 !important;
+}
+
+html.dark [data-reference-workbench="content"] {
+  background-color: #121215 !important;
+  color: #f4f4f5 !important;
+}
+
+/* Reference Workbench Cards, Lists, Tables & Inputs */
+html.dark [data-reference-workbench="root"] .bg-white {
+  background-color: #18181b !important;
+  border-color: #27272a !important;
+  color: #f4f4f5 !important;
+}
+
+html.dark [data-reference-workbench="root"] .bg-stone-50 {
+  background-color: #141418 !important;
+  border-color: #27272a !important;
+  color: #f4f4f5 !important;
+}
+
+html.dark [data-reference-workbench="root"] .bg-stone-100 {
+  background-color: #202025 !important;
+  border-color: #2e2e35 !important;
+  color: #e4e4e7 !important;
+}
+
+html.dark [data-reference-workbench="root"] .text-stone-900 {
+  color: #fafafa !important;
+}
+
+html.dark [data-reference-workbench="root"] .text-stone-800 {
+  color: #f4f4f5 !important;
+}
+
+html.dark [data-reference-workbench="root"] .text-stone-700 {
+  color: #e4e4e7 !important;
+}
+
+html.dark [data-reference-workbench="root"] .text-stone-600 {
+  color: #a1a1aa !important;
+}
+
+html.dark [data-reference-workbench="root"] .text-stone-500 {
+  color: #71717a !important;
+}
+
+html.dark [data-reference-workbench="root"] .border-stone-200 {
+  border-color: #27272a !important;
+}
+
+html.dark [data-reference-workbench="root"] .border-stone-300 {
+  border-color: #3f3f46 !important;
+}
+
+html.dark [data-reference-workbench="root"] input,
+html.dark [data-reference-workbench="root"] select {
+  background-color: #18181b !important;
+  border-color: #3f3f46 !important;
+  color: #fafafa !important;
+}
+
+html.dark [data-reference-workbench="root"] input::placeholder {
+  color: #71717a !important;
+}
+
+/* --- Dokkai Reader Workbench Dark Harmonization --- */
+html.dark [data-component="dokkai-workbench"] .dokkai-passage-surface {
+  background-color: #121215 !important;
+  border-color: #27272a !important;
+  color: #f4f4f5 !important;
+}
+
+html.dark [data-component="dokkai-workbench"] .dokkai-vocab-popover {
+  background-color: #18181b !important;
+  border-color: #3f3f46 !important;
+  color: #fafafa !important;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.7) !important;
+}
+
+html.dark .dokkai-ruby-highlight rt {
+  color: #fb7185 !important;
+}
+
+/* --- Choukai Lab Workbench Dark Harmonization --- */
+html.dark [data-component="choukai-workbench"] .choukai-audio-dock {
+  background-color: #18181b !important;
+  border-color: #27272a !important;
+}
+
+html.dark [data-component="choukai-workbench"] .choukai-active-transcript-line {
+  background-color: rgba(244, 63, 94, 0.12) !important;
+  border-left-color: #f43f5e !important;
+}
+
+/* --- Global Dark Mode Scrollbars for Workbenches --- */
+html.dark [data-reference-workbench="root"] ::-webkit-scrollbar,
+html.dark [data-component="dokkai-workbench"] ::-webkit-scrollbar,
+html.dark [data-component="choukai-workbench"] ::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+html.dark [data-reference-workbench="root"] ::-webkit-scrollbar-track,
+html.dark [data-component="dokkai-workbench"] ::-webkit-scrollbar-track,
+html.dark [data-component="choukai-workbench"] ::-webkit-scrollbar-track {
+  background: #121215;
+}
+
+html.dark [data-reference-workbench="root"] ::-webkit-scrollbar-thumb,
+html.dark [data-component="dokkai-workbench"] ::-webkit-scrollbar-thumb,
+html.dark [data-component="choukai-workbench"] ::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 9999px;
+}
+
+html.dark [data-reference-workbench="root"] ::-webkit-scrollbar-thumb:hover,
+html.dark [data-component="dokkai-workbench"] ::-webkit-scrollbar-thumb:hover,
+html.dark [data-component="choukai-workbench"] ::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}

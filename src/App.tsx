@@ -256,7 +256,9 @@ export default function App() {
 
   useEffect(() => {
     refreshAppData();
-    ankiSyncService.startAutoSync();
+    if (ankiSyncService.config.autoSyncEnabled) {
+      ankiSyncService.startAutoSync();
+    }
     return () => {
       ankiSyncService.stopAutoSync();
     };

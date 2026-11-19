@@ -249,6 +249,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
 
   return (
     <div
+      data-component="choukai-workbench"
       className={`flex flex-col h-full bg-white dark:bg-stone-950 text-stone-900 dark:text-zinc-100 ${
         embeddedMode ? 'rounded-2xl border border-stone-200 dark:border-stone-800/90 overflow-hidden' : ''
       }`}

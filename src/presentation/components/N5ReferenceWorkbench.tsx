@@ -147,22 +147,23 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.95, y: 16 }}
           transition={{ duration: 0.22, ease: 'easeOut' }}
-          className="relative z-10 w-full max-w-5xl bg-white border border-stone-200 rounded-3xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]"
+          data-reference-workbench="root"
+          className="relative z-10 w-full max-w-5xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-3xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]"
         >
           {/* Top Header */}
-          <div className="px-6 py-4.5 border-b border-stone-200 flex items-center justify-between shrink-0 bg-stone-50">
+          <div data-reference-workbench="header" className="px-6 py-4.5 border-b border-stone-200 dark:border-stone-800 flex items-center justify-between shrink-0 bg-stone-50 dark:bg-stone-900/90">
             <div className="flex items-center space-x-3">
-              <div className="p-2 rounded-2xl bg-amber-50 border border-amber-200 text-amber-700">
+              <div className="p-2 rounded-2xl bg-amber-50 dark:bg-amber-950/60 border border-amber-200 dark:border-amber-800/80 text-amber-700 dark:text-amber-300">
                 <BookOpen className="w-5 h-5" />
               </div>
               <div>
-                <h2 className="text-base sm:text-lg font-bold text-stone-900 flex items-center gap-2">
+                <h2 className="text-base sm:text-lg font-bold text-stone-900 dark:text-stone-100 flex items-center gap-2">
                   <span>N5 Master Reference Workbench</span>
-                  <span className="text-[11px] font-mono font-semibold px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200">
+                  <span className="text-[11px] font-mono font-semibold px-2 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800/60">
                     JLPT N5
                   </span>
                 </h2>
-                <p className="text-xs text-stone-600 font-myanmar">
+                <p className="text-xs text-stone-600 dark:text-stone-400 font-myanmar">
                   အခြေခံ ရေတွက်ပုံများ၊ အသုံးများသော နှုတ်ဆက်စကားများနှင့် သတိပြုရန် အမှားများ
                 </p>
               </div>
@@ -171,7 +172,7 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
             {onClose && (
               <button
                 onClick={onClose}
-                className="p-2 rounded-xl text-stone-400 hover:text-stone-700 hover:bg-stone-100 transition cursor-pointer"
+                className="p-2 rounded-xl text-stone-400 hover:text-stone-700 dark:hover:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-800 transition cursor-pointer"
                 title="Close (Esc)"
               >
                 <X className="w-5 h-5" />
@@ -180,13 +181,14 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
           </div>
 
           {/* 3 Main Tabs Nav */}
-          <div className="px-6 pt-3 border-b border-stone-200 bg-stone-50/50 flex items-center space-x-2 shrink-0 overflow-x-auto">
+          <div data-reference-workbench="tabs" className="px-6 pt-3 border-b border-stone-200 dark:border-stone-800 bg-stone-50/50 dark:bg-stone-900/50 flex items-center space-x-2 shrink-0 overflow-x-auto">
             <button
               onClick={() => setActiveTab('counters')}
+              data-active={activeTab === 'counters'}
               className={`px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-semibold flex items-center space-x-2 transition cursor-pointer border-b-2 ${
                 activeTab === 'counters'
-                  ? 'border-indigo-600 text-indigo-700 bg-white shadow-2xs'
-                  : 'border-transparent text-stone-600 hover:text-stone-900 hover:bg-stone-100'
+                  ? 'border-indigo-600 text-indigo-700 dark:text-indigo-400 bg-white dark:bg-stone-900 shadow-2xs'
+                  : 'border-transparent text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-100 dark:hover:bg-stone-800'
               }`}
             >
               <Layers className="w-4 h-4 text-indigo-600" />
@@ -195,10 +197,11 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
 
             <button
               onClick={() => setActiveTab('expressions')}
+              data-active={activeTab === 'expressions'}
               className={`px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-semibold flex items-center space-x-2 transition cursor-pointer border-b-2 ${
                 activeTab === 'expressions'
-                  ? 'border-indigo-600 text-indigo-700 bg-white shadow-2xs'
-                  : 'border-transparent text-stone-600 hover:text-stone-900 hover:bg-stone-100'
+                  ? 'border-indigo-600 text-indigo-700 dark:text-indigo-400 bg-white dark:bg-stone-900 shadow-2xs'
+                  : 'border-transparent text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-100 dark:hover:bg-stone-800'
               }`}
             >
               <MessageSquare className="w-4 h-4 text-indigo-600" />
@@ -207,10 +210,11 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
 
             <button
               onClick={() => setActiveTab('mistakes')}
+              data-active={activeTab === 'mistakes'}
               className={`px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-semibold flex items-center space-x-2 transition cursor-pointer border-b-2 ${
                 activeTab === 'mistakes'
-                  ? 'border-amber-600 text-amber-800 bg-white shadow-2xs'
-                  : 'border-transparent text-stone-600 hover:text-stone-900 hover:bg-stone-100'
+                  ? 'border-amber-600 text-amber-800 dark:text-amber-400 bg-white dark:bg-stone-900 shadow-2xs'
+                  : 'border-transparent text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-100 hover:bg-stone-100 dark:hover:bg-stone-800'
               }`}
             >
               <AlertTriangle className="w-4 h-4 text-amber-600" />
@@ -219,7 +223,7 @@ export const N5ReferenceWorkbench: React.FC<N5ReferenceWorkbenchProps> = ({
           </div>
 
           {/* Tab Contents Container */}
-          <div className="flex-1 overflow-y-auto p-5 sm:p-6 space-y-6">
+          <div data-reference-workbench="content" className="flex-1 overflow-y-auto p-5 sm:p-6 space-y-6">
             {/* ========================================================================= */}
             {/* TAB 1: COUNTERS & DATES                                                   */}
             {/* ========================================================================= */}
