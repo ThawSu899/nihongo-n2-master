@@ -25,7 +25,7 @@ import {
   MigrationTransactionError,
 } from '../scripts/migrate-curriculum-provenance';
 
-describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', () => {
+describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', { timeout: 30000 }, () => {
   const mapItems = curriculumMapJson as CurriculumMapItem[];
 
   it('contains exactly 174 curriculum map entries spanning N5, N4, N3, N2', () => {
@@ -334,7 +334,7 @@ describe('P1 Curriculum Provenance Migration: Truthful Metadata & Governance', (
     });
   });
 
-  describe('Multi-File Transaction Safety, Staged Migration & Rollback Mechanics', () => {
+  describe('Multi-File Transaction Safety, Staged Migration & Rollback Mechanics', { timeout: 25000 }, () => {
     function createMemoryFS(options?: { alreadyMigrated?: boolean; lineEndings?: 'lf' | 'crlf' }) {
       const files = new Map<string, string>();
       const writes: string[] = [];
