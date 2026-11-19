@@ -29,6 +29,7 @@ import { KanjiDrawer } from './presentation/components/KanjiDrawer';
 import { PWAInstallBanner } from './presentation/components/PWAInstallBanner';
 import { PWAUpdateBanner } from './presentation/components/PWAUpdateBanner';
 import { N5ReferenceWorkbench } from './presentation/components/N5ReferenceWorkbench';
+import { ErrorBoundary } from './presentation/components/ErrorBoundary';
 import { KanjiDetail } from './domain/dictionary/kanji-catalog';
 import { useGlobalShortcuts, useScopedShortcuts } from './presentation/context/GlobalShortcutContext';
 
@@ -447,15 +448,16 @@ export default function App() {
 
         {/* Main View Area with Bottom Dock Clearance on Mobile & Desktop */}
         <main className="flex-1 px-4 sm:px-6 lg:px-8 py-6 pb-28 md:pb-20 max-w-7xl w-full mx-auto">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={currentView}
-            initial={{ opacity: 0, y: 8 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.18, ease: 'easeOut' }}
-            className="w-full"
-          >
+          <ErrorBoundary componentName="MainView" onReset={() => setCurrentView('home')}>
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={currentView}
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: -8 }}
+                transition={{ duration: 0.18, ease: 'easeOut' }}
+                className="w-full"
+              >
             {currentView === 'home' && (
               <HomeScreen
                 profile={profile}
@@ -574,6 +576,7 @@ export default function App() {
             )}
           </motion.div>
         </AnimatePresence>
+        </ErrorBoundary>
       </main>
       </div>
 
