@@ -45,6 +45,7 @@ describe('FSRS Algorithm & Learning-Data Integrity Suite (Phase D)', () => {
     easeFactor: 2.5,
     lapses: 0,
     state: 'new',
+    isLeech: false,
     due: baseDate.toISOString(),
     stability: 2,
     difficulty: 5,
