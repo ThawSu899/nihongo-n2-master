@@ -21,6 +21,7 @@ import {
   BookOpen,
   Headphones,
   Star,
+  Volume2,
 } from 'lucide-react';
 import {
   MasteryRecord,
@@ -56,6 +57,7 @@ import { StarScrambleTrainer } from '../components/StarScrambleTrainer';
 import { OfficialMockExamScreen } from './OfficialMockExamScreen';
 import { GhostQuarantineHub } from '../components/GhostQuarantineHub';
 import { GrammarCramLab } from '../components/GrammarCramLab';
+import { PitchContrastTrainer } from '../components/PitchContrastTrainer';
 
 export type TestsScreenTab =
   | 'tests'
@@ -64,7 +66,8 @@ export type TestsScreenTab =
   | 'quarantine'
   | 'dokkai'
   | 'choukai'
-  | 'scramble';
+  | 'scramble'
+  | 'pitch';
 
 interface TestsScreenProps {
   profile: UserProfile;
@@ -583,6 +586,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
             { id: 'cram' as const, label: 'သဒ္ဒါ Cram Lab', icon: <Flame className="w-3.5 h-3.5 text-amber-500" /> },
             { id: 'dokkai' as const, label: 'Dokkai Workbench (読解)', icon: <BookOpen className="w-3.5 h-3.5" /> },
             { id: 'choukai' as const, label: 'Choukai Lab (聴解)', icon: <Headphones className="w-3.5 h-3.5" /> },
+            { id: 'pitch' as const, label: 'Pitch Trainer (アクセント)', icon: <Volume2 className="w-3.5 h-3.5" /> },
             { id: 'scramble' as const, label: '★ 문장 조립 / JLPT Star Grammar Puzzle (ကြယ်ပွင့် ဝါကျစီ လေ့ကျင့်ခန်း)', icon: <Star className="w-3.5 h-3.5 text-amber-500 fill-amber-500/20" /> },
             { id: 'analytics' as const, label: 'Radar Analytics', icon: <BarChart3 className="w-3.5 h-3.5" /> },
             { id: 'quarantine' as const, label: `Leech Quarantine (${quarantineLeeches.length})`, icon: <Bug className="w-3.5 h-3.5 text-rose-500" /> },
@@ -975,6 +979,13 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
               setTimeout(() => setStatusNotification(null), 4000);
             }}
           />
+        </div>
+      )}
+
+      {/* TAB CONTENT: Pitch Accent Auditory Contrast Trainer (アクセント対比訓練) */}
+      {activeTab === 'pitch' && (
+        <div className="space-y-4">
+          <PitchContrastTrainer onClose={() => setActiveTab('tests')} />
         </div>
       )}
 

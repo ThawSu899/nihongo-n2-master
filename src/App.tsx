@@ -115,6 +115,13 @@ export default function App() {
     initTheme();
   }, []);
 
+  // Reset scroll to top on primary view or active pack change
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    }
+  }, [currentView, pack?.id]);
+
   // Modal active tracking
   useEffect(() => {
     if (isCommandPaletteOpen) {
