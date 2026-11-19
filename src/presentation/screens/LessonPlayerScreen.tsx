@@ -243,6 +243,13 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
     }
   }, [currentStage, pack.id, onLessonCompleted]);
 
+  // Reset scroll to top whenever lesson stage transitions
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    }
+  }, [currentStage]);
+
   // Active exercises state
   const [exerciseIndex, setExerciseIndex] = useState(0);
   const [userTypedInput, setUserTypedInput] = useState('');
