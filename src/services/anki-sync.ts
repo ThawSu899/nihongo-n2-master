@@ -89,7 +89,7 @@ export class AnkiSyncService {
     maxRetries: 3,
     initialRetryDelayMs: 1000,
     autoSyncIntervalMs: 60000,
-    autoSyncEnabled: true,
+    autoSyncEnabled: false, // Opt-in by default to prevent unwanted localhost:8765 polling
     timeoutMs: 3500,
   };
 
@@ -159,6 +159,8 @@ export class AnkiSyncService {
       const autoSync = localStorage.getItem(STORAGE_AUTOSYNC_KEY);
       if (autoSync !== null) {
         this.config.autoSyncEnabled = autoSync === 'true';
+      } else {
+        this.config.autoSyncEnabled = false;
       }
 
       const targetDeck = localStorage.getItem(STORAGE_TARGET_DECK_KEY);

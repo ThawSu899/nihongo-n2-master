@@ -51,8 +51,10 @@ export const AnkiSyncManager: React.FC<AnkiSyncManagerProps> = ({
       onStatusChange?.(conn);
     });
 
-    // Initial check on mount
-    ankiSyncService.checkConnection();
+    // Initial check on mount only if auto-sync is explicitly opted-in
+    if (ankiSyncService.config.autoSyncEnabled) {
+      ankiSyncService.checkConnection();
+    }
     ankiSyncService.refreshCounts();
 
     return () => {

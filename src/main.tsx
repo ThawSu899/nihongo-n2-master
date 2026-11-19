@@ -1,6 +1,7 @@
 import {createRoot} from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
+import './presentation/styles/dark-theme-harmony.css';
 import { registerSW } from 'virtual:pwa-register';
 import { GlobalShortcutProvider } from './presentation/context/GlobalShortcutContext';
 import { pwaUpdateManager } from './services/pwa-update-manager';

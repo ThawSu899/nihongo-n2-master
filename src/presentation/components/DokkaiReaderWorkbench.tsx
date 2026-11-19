@@ -411,7 +411,7 @@ export const DokkaiReaderWorkbench: React.FC<DokkaiReaderWorkbenchProps> = ({
   }, [activePassage.questions, selectedAnswers, currentCpm, elapsedSeconds, minedCardIds]);
 
   return (
-    <div className={`flex flex-col h-full bg-white dark:bg-zinc-950 text-stone-900 dark:text-zinc-100 ${embeddedMode ? 'rounded-2xl border border-stone-200 dark:border-zinc-800 overflow-hidden' : ''}`}>
+    <div data-component="dokkai-workbench" className={`flex flex-col h-full bg-white dark:bg-zinc-950 text-stone-900 dark:text-zinc-100 ${embeddedMode ? 'rounded-2xl border border-stone-200 dark:border-zinc-800 overflow-hidden' : ''}`}>
       {/* 1. WORKBENCH TOP COMMAND BAR */}
       <header className="px-5 py-3 border-b border-stone-200 dark:border-zinc-800 bg-stone-50/90 dark:bg-zinc-900 flex flex-wrap items-center justify-between gap-3 shrink-0">
         <div className="flex items-center gap-3">
