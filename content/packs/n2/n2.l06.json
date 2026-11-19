@@ -1635,7 +1635,8 @@
       "status": "native_verified",
       "updatedAt": "2026-10-19T12:00:00Z",
       "rev": 2
-    }
+    },
+    "translationMy": "မျက်မှောက်ခေတ် လူ့ဘောင်တွင် မသေချာမရေရာမှု အားလုံးကို ဖယ်ရှားပြီးမှ ဆုံးဖြတ်ချက် ချရန်မှာ မဖြစ်နိုင်သလောက် ခဲယဉ်းသည်။ သတင်းအချက်အလက် မပြည့်စုံသည့်တိုင် ပြတ်သားသော ဆုံးဖြတ်ချက်ကို ချမှတ်ရလေ့ရှိသည်။ အကယ်၍ ဈေးကွက်သည် မမျှော်လင့်ဘဲ ပြောင်းလဲသွားခဲ့မည်ဆိုပါက (としたら) မဟာဗျူဟာကို ချက်ချင်း ပြုပြင်နိုင်သည့် ပြောင်းလွယ်ပြင်လွယ်မှု မရှိပါက ဆက်လက်ရပ်တည်နိုင်မည် မဟုတ်ပါ။\n\nအတိတ်က အမှားများကို ပြန်လည်ပြင်ဆင်နိုင်မည်ဆိုပါက (ものなら) ဟူသော ဆန္ဒမျိုး ဖြစ်ပေါ်တတ်သည်မှာ သဘာဝပင် ဖြစ်သည်။ သို့သော် နောင်တရနေရုံဖြင့် အနာဂတ်ကို မတည်ဆောက်နိုင်ပါ။ ရှင်းလင်းသော အခြေခံစည်းကမ်းများကို အတူတကွ မသတ်မှတ်ဘဲနှင့်မူ (ないことには) မည်မျှ ကောင်းမွန်သော စီမံချက်ဖြစ်စေ ရှေ့ဆက်နိုင်မည် မဟုတ်ပါ။ မသေချာမှုများကို မကြောက်ဘဲ စနစ်တကျ ယူဆချက်များဖြင့် အနာဂတ်ကို တည်ဆောက်ခြင်းသည် ခေါင်းဆောင်ကောင်းတို့၏ မရှိမဖြစ် အရည်အချင်း ဖြစ်သည်။"
   },
   "listening": {
     "id": "n2.l06.l01",
@@ -1729,7 +1730,8 @@
       "linkedItemIds": [
         "n2.l06.v001"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "ယူဆချက် / ယာယီသတ်မှတ်ချက် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q002",
@@ -1749,7 +1751,8 @@
       "linkedItemIds": [
         "n2.l06.v002"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "အကယ်၍ / ဥပမာအားဖြင့် ဆိုရလျှင် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q003",
@@ -1769,7 +1772,8 @@
       "linkedItemIds": [
         "n2.l06.v003"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "ပြင်းပြသော ဆန္ဒ / တောင့်တမှု ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q004",
@@ -1789,7 +1793,8 @@
       "linkedItemIds": [
         "n2.l06.v004"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "မရှိမဖြစ် ရှေ့ပြေးယူဆချက် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q005",
@@ -1809,7 +1814,8 @@
       "linkedItemIds": [
         "n2.l06.v005"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "လက်တွေ့ဖြစ်မြောက်ခြင်း ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q006",
@@ -1829,7 +1835,8 @@
       "linkedItemIds": [
         "n2.l06.v006"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "သဘောတူညီချက် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q007",
@@ -1849,7 +1856,8 @@
       "linkedItemIds": [
         "n2.l06.v007"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "သဘောတူခွင့်ပြုချက် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q008",
@@ -1869,7 +1877,8 @@
       "linkedItemIds": [
         "n2.l06.v008"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "နောင်တရခြင်း ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q009",
@@ -1889,7 +1898,8 @@
       "linkedItemIds": [
         "n2.l06.v010"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "မဖြစ်နိုင်သော ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q010",
@@ -1909,7 +1919,8 @@
       "linkedItemIds": [
         "n2.l06.v009"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "ဖြစ်နိုင်သော / ဆောင်ရွက်နိုင်သော ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q011",
@@ -1929,7 +1940,8 @@
       "linkedItemIds": [
         "n2.l06.v011"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "မရှိမဖြစ် လိုအပ်သော ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q012",
@@ -1949,7 +1961,8 @@
       "linkedItemIds": [
         "n2.l06.v012"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "သတ်မှတ်ချက် / စည်းကမ်းချက် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q013",
@@ -1969,7 +1982,8 @@
       "linkedItemIds": [
         "n2.l06.k001"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "မှန်ကန်သော ခန်းဂျီးအသံထွက်မှာ「かてい」ဖြစ်ပါသည်။"
     },
     {
       "id": "n2.l06.q014",
@@ -1989,7 +2003,8 @@
       "linkedItemIds": [
         "n2.l06.k002"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "မှန်ကန်သော ခန်းဂျီးအသံထွက်မှာ「がんぼう」ဖြစ်ပါသည်။"
     },
     {
       "id": "n2.l06.q015",
@@ -2009,7 +2024,8 @@
       "linkedItemIds": [
         "n2.l06.k003"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "မှန်ကန်သော ခန်းဂျီးအသံထွက်မှာ「ぜんてい」ဖြစ်ပါသည်။"
     },
     {
       "id": "n2.l06.q016",
@@ -2029,7 +2045,8 @@
       "linkedItemIds": [
         "n2.l06.g001"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "အကယ်၍ ထိုသို့ဖြစ်ခဲ့လျှင် ဟူသော ယူဆချက်ကို ပြသည် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q017",
@@ -2049,7 +2066,8 @@
       "linkedItemIds": [
         "n2.l06.g002"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "မဖြစ်နိုင်သော ဆန္ဒကို ဖော်ပြသည့် ပုံစံဖြစ်သည်"
     },
     {
       "id": "n2.l06.q018",
@@ -2069,7 +2087,8 @@
       "linkedItemIds": [
         "n2.l06.g003"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "မလုပ်ဘဲနှင့် မဖြစ်နိုင်ဟူသော အဓိပ္ပာယ် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q019",
@@ -2089,7 +2108,8 @@
       "linkedItemIds": [
         "n2.l06.g003"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "သဘောတူညီချက် မရရှိပါက မဖြစ်နိုင် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q020",
@@ -2109,7 +2129,8 @@
       "linkedItemIds": [
         "n2.l06.g002"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "မှန်ကန်သော သဒ္ဒါပုံစံမှာ「③」ဖြစ်ပါသည်။"
     },
     {
       "id": "n2.l06.q021",
@@ -2129,7 +2150,8 @@
       "linkedItemIds": [
         "n2.l06.r001"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "မပြည့်စုံသည့်တိုင် ပြတ်သားစွာ ဆုံးဖြတ်ပြီး ယူဆချက်ကို စစ်ဆေးရန် လိုသည် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q022",
@@ -2149,7 +2171,8 @@
       "linkedItemIds": [
         "n2.l06.r001"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "အကယ်၍ ဈေးကွက်ပြောင်းလဲပါက မဟာဗျူဟာပြောင်းနိုင်သည့် ပြောင်းလွယ်ပြင်လွယ်မှု လိုကြောင်း ရှင်းပြခြင်း ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q023",
@@ -2169,7 +2192,8 @@
       "linkedItemIds": [
         "n2.l06.r001"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "လူသားသဘာဝ ဖြစ်သော်လည်း နောင်တရနေရုံဖြင့် အနာဂတ်မပွင့်နိုင် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q024",
@@ -2189,7 +2213,8 @@
       "linkedItemIds": [
         "n2.l06.r001"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "အခြေခံစည်းကမ်းကို နားလည်မထားဘဲ ရှေ့မဆက်နိုင် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q025",
@@ -2209,7 +2234,8 @@
       "linkedItemIds": [
         "n2.l06.r001"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "မသေချာမှုကို မကြောက်ဘဲ စနစ်တကျ ယူဆချက်များဖြင့် အနာဂတ်တည်ဆောက်ရမည် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q026",
@@ -2229,7 +2255,8 @@
       "linkedItemIds": [
         "n2.l06.l01"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "မူလအခြေအနေ ပြန်ပြင်ရန် တစ်ဝက်ခန့် ကြာမည်ကို စိုးရိမ်သည် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q027",
@@ -2249,7 +2276,8 @@
       "linkedItemIds": [
         "n2.l06.l01"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "စက်ရပ်ချိန်ကို ၃ နာရီအတွင်း လျှော့ချလိုသော ဆန္ဒ ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q028",
@@ -2269,7 +2297,8 @@
       "linkedItemIds": [
         "n2.l06.l01"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "ဖောက်သည် ဌာနခွဲအားလုံးထံမှ ကြိုတင်စစ်ဆေးမှု သဘောတူညီချက် ရယူရန် လိုသည် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q029",
@@ -2289,7 +2318,8 @@
       "linkedItemIds": [
         "n2.l06.l01"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "ဌာနခွဲအားလုံး၏ ခွင့်ပြုချက် မရဘဲနှင့် စတင်မလုပ်ဆောင်ရန် ညွှန်ကြားခဲ့သည် ဖြစ်သည်။"
     },
     {
       "id": "n2.l06.q030",
@@ -2309,7 +2339,8 @@
       "linkedItemIds": [
         "n2.l06.l01"
       ],
-      "generated": false
+      "generated": false,
+      "explanationMy": "ဘေးကင်းရေးနှင့် ဖောက်သည်သဘောတူညီချက်ကို နံပါတ်တစ် ဦးစားပေးအဖြစ် သဘောတူကြသည် ဖြစ်သည်။"
     }
   ],
   "prov": {
