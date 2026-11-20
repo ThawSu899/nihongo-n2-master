@@ -56,6 +56,9 @@ export class GoogleDriveService {
   private static readonly API_BASE = 'https://www.googleapis.com';
   public static readonly APP_FOLDER_NAME = 'Japanese-N2-Master';
   public static readonly BACKUP_FILENAME = 'nihongo-n2-master-backup.json';
+  public static readonly AUTO_BACKUP_FILENAME = 'nihongo-n2-master-auto-backup.json';
+  public static readonly BACKUP_FILE_ID_KEY = 'google_drive_backup_file_id';
+  public static readonly AUTO_BACKUP_FILE_ID_KEY = 'google_drive_auto_backup_file_id';
 
   /**
    * Helper to format human-readable error messages for network/offline and Google API issues
@@ -212,18 +215,31 @@ export class GoogleDriveService {
    * If a backup file was previously created and cached in localStorage, updates it in-place via PATCH
    * to avoid generating duplicate files and bypassing restrictive drive.file searches.
    */
-  static async uploadBackup(content: string, filename?: string, customToken?: string): Promise<{ id: string; name: string }> {
+  static async uploadBackup(
+    content: string,
+    filename?: string,
+    customToken?: string,
+    options?: {
+      cacheFileIdKey?: string;
+      description?: string;
+    }
+  ): Promise<{ id: string; name: string }> {
     const token = customToken || getDriveAccessToken();
     if (!token) throw new Error('Not authenticated with Google Drive. Please sign in with Google first.');
 
     try {
       const folderId = await this.ensureAppFolder(token);
       const targetFilename = filename || this.BACKUP_FILENAME;
+      const cacheKey =
+        options?.cacheFileIdKey ||
+        (targetFilename === this.AUTO_BACKUP_FILENAME
+          ? this.AUTO_BACKUP_FILE_ID_KEY
+          : this.BACKUP_FILE_ID_KEY);
 
       // 1. Check if we have a cached backup file ID in localStorage
       const cachedFileId =
         typeof localStorage !== 'undefined'
-          ? localStorage.getItem('google_drive_backup_file_id')
+          ? localStorage.getItem(cacheKey)
           : null;
 
       if (cachedFileId) {
@@ -248,7 +264,7 @@ export class GoogleDriveService {
           } else if (patchRes.status === 404) {
             // File deleted in Google Drive; clear cache and fall through to create
             if (typeof localStorage !== 'undefined') {
-              localStorage.removeItem('google_drive_backup_file_id');
+              localStorage.removeItem(cacheKey);
             }
           } else if (patchRes.status === 401 || patchRes.status === 403) {
             throw await parseGoogleApiError(patchRes, 'Failed to update backup file');
@@ -266,7 +282,11 @@ export class GoogleDriveService {
         name: targetFilename,
         mimeType: 'application/json',
         parents: [folderId],
-        description: 'Nihongo N2 Master Learning Progress Snapshot',
+        description:
+          options?.description ||
+          (targetFilename === this.AUTO_BACKUP_FILENAME
+            ? 'Nihongo N2 Master Automated 24-Hour Backup Snapshot'
+            : 'Nihongo N2 Master Learning Progress Snapshot'),
       };
 
       const boundary = '-------314159265358979323846';
@@ -300,13 +320,23 @@ export class GoogleDriveService {
 
       const uploaded = await res.json();
       if (typeof localStorage !== 'undefined' && uploaded?.id) {
-        localStorage.setItem('google_drive_backup_file_id', uploaded.id);
+        localStorage.setItem(cacheKey, uploaded.id);
         this.recordLocalBackupFile(uploaded.id, uploaded.name || targetFilename, content.length);
       }
       return uploaded;
     } catch (err: any) {
       throw this.formatError(err, 'upload backup to Google Drive');
     }
+  }
+
+  /**
+   * Upload an automated 24-hour learner progress backup to Google Drive using dedicated filename & cache key.
+   */
+  static async uploadAutoBackup(content: string, customToken?: string): Promise<{ id: string; name: string }> {
+    return this.uploadBackup(content, this.AUTO_BACKUP_FILENAME, customToken, {
+      cacheFileIdKey: this.AUTO_BACKUP_FILE_ID_KEY,
+      description: 'Nihongo N2 Master Automated 24-Hour Backup Snapshot',
+    });
   }
 
   /**

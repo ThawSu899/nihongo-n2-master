@@ -29,6 +29,7 @@ import {
   LogIn,
   LogOut,
   User,
+  Clock,
 } from 'lucide-react';
 import {
   signInWithGoogle,
@@ -39,6 +40,10 @@ import {
 } from '../../integrations/auth/firebase-auth';
 import { GoogleDriveAdapter } from '../../integrations/drive/drive-adapter';
 import { GoogleDriveService } from '../../integrations/drive/google-drive-service';
+import {
+  googleDriveAutoBackup,
+  AutoBackupStatus,
+} from '../../services/google-drive-auto-backup';
 import {
   checkJapaneseVoiceSupport,
   testJapaneseVoiceSpeech,
@@ -121,6 +126,26 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
     } catch {}
     return null;
   });
+
+  // Google Drive Automatic 24-Hour Backup Scheduler State
+  const [autoBackupStatus, setAutoBackupStatus] = useState<AutoBackupStatus>(() =>
+    googleDriveAutoBackup.getStatus()
+  );
+
+  useEffect(() => {
+    const unsub = googleDriveAutoBackup.onStatusChange(setAutoBackupStatus);
+    return () => {
+      unsub();
+    };
+  }, []);
+
+  const handleToggleAutoBackup = (enabled: boolean) => {
+    googleDriveAutoBackup.setEnabled(enabled);
+  };
+
+  const handleRunAutoBackupNow = async () => {
+    await googleDriveAutoBackup.triggerBackup();
+  };
 
   useEffect(() => {
     setIsGoogleAuthConnected(isGoogleConnected());
@@ -1015,6 +1040,129 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
               )}
           </div>
         )}
+
+        {/* Automatic Cloud Backup (24-Hour Schedule) Card */}
+        <div className="p-4 rounded-xl bg-stone-50 border border-stone-200 space-y-3">
+          <div className="flex items-center justify-between">
+            <div className="space-y-0.5">
+              <div className="flex items-center space-x-2">
+                <Clock className="w-4 h-4 text-indigo-600" />
+                <span className="text-xs font-semibold text-stone-800">
+                  Automatic Cloud Backup (24-Hour Schedule)
+                </span>
+                <span
+                  className={`text-[10px] font-mono px-2 py-0.5 rounded ${
+                    autoBackupStatus.enabled
+                      ? autoBackupStatus.state === 'backing_up'
+                        ? 'bg-indigo-100 text-indigo-800 border border-indigo-200 animate-pulse'
+                        : autoBackupStatus.state === 'auth_required'
+                        ? 'bg-rose-100 text-rose-800 border border-rose-200'
+                        : autoBackupStatus.state === 'offline'
+                        ? 'bg-amber-100 text-amber-800 border border-amber-200'
+                        : autoBackupStatus.state === 'error'
+                        ? 'bg-rose-100 text-rose-800 border border-rose-200'
+                        : 'bg-emerald-100 text-emerald-800 border border-emerald-200'
+                      : 'bg-stone-200 text-stone-600'
+                  }`}
+                >
+                  {!autoBackupStatus.enabled
+                    ? 'Disabled'
+                    : autoBackupStatus.state === 'backing_up'
+                    ? 'Backing up...'
+                    : autoBackupStatus.state === 'auth_required'
+                    ? 'Auth Required'
+                    : autoBackupStatus.state === 'offline'
+                    ? 'Paused (Offline)'
+                    : autoBackupStatus.state === 'error'
+                    ? 'Retry Pending'
+                    : 'Active (24h)'}
+                </span>
+              </div>
+              <p className="text-[11px] text-stone-600 font-myanmar">
+                ၂၄ နာရီတစ်ကြိမ် သင်ယူမှုမှတ်တမ်းများကို Google Drive သို့ အလိုအလျောက် သီးသန့် backup ပြုလုပ်ပေးပါမည်
+              </p>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => handleToggleAutoBackup(!autoBackupStatus.enabled)}
+              className={`w-11 h-6 flex items-center rounded-full p-1 transition duration-300 cursor-pointer ${
+                autoBackupStatus.enabled ? 'bg-indigo-600 justify-end' : 'bg-stone-300 justify-start'
+              }`}
+            >
+              <div className="bg-white w-4 h-4 rounded-full shadow-md" />
+            </button>
+          </div>
+
+          {/* Schedule & Backup Timing Details */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs pt-1">
+            <div className="p-2.5 rounded-lg bg-white border border-stone-200 space-y-1">
+              <span className="text-[11px] text-stone-500 block">Last Auto Backup:</span>
+              <span className="font-mono font-medium text-stone-800 text-[11px]">
+                {autoBackupStatus.lastSuccessfulBackup
+                  ? new Date(autoBackupStatus.lastSuccessfulBackup).toLocaleString()
+                  : 'Never (Pending initial run)'}
+              </span>
+            </div>
+
+            <div className="p-2.5 rounded-lg bg-white border border-stone-200 space-y-1">
+              <span className="text-[11px] text-stone-500 block">Next Scheduled Backup:</span>
+              <span className="font-mono font-medium text-stone-800 text-[11px]">
+                {!autoBackupStatus.enabled
+                  ? 'Disabled'
+                  : autoBackupStatus.nextScheduledBackup && !isNaN(Date.parse(autoBackupStatus.nextScheduledBackup))
+                  ? new Date(autoBackupStatus.nextScheduledBackup).toLocaleString()
+                  : autoBackupStatus.nextScheduledBackup || 'Every 24 Hours'}
+              </span>
+            </div>
+          </div>
+
+          {/* Auth Required Alert Banner */}
+          {autoBackupStatus.enabled && autoBackupStatus.state === 'auth_required' && (
+            <div className="p-3 rounded-xl bg-rose-50 border border-rose-200 text-xs text-rose-800 flex items-center justify-between gap-2">
+              <div className="flex items-center space-x-2">
+                <AlertCircle className="w-4 h-4 shrink-0 text-rose-600" />
+                <span>
+                  {autoBackupStatus.lastError ||
+                    'Google authorization required. Please connect or re-authorize to resume automatic backups.'}
+                </span>
+              </div>
+              <button
+                type="button"
+                onClick={handleGoogleSignIn}
+                disabled={googleAuthLoading}
+                className="px-2.5 py-1 bg-rose-100 hover:bg-rose-200 text-rose-900 border border-rose-300 rounded-lg text-xs font-semibold shrink-0 cursor-pointer transition active:scale-95 disabled:opacity-50"
+              >
+                Re-Authorize
+              </button>
+            </div>
+          )}
+
+          {/* Error Banner with Retry */}
+          {autoBackupStatus.enabled && autoBackupStatus.state === 'error' && autoBackupStatus.lastError && (
+            <div className="p-2.5 rounded-xl bg-amber-50 border border-amber-200 text-xs text-amber-800 flex items-center space-x-2">
+              <AlertCircle className="w-4 h-4 shrink-0 text-amber-600" />
+              <span className="break-words">
+                Backup issue: {autoBackupStatus.lastError}. Retrying automatically with backoff.
+              </span>
+            </div>
+          )}
+
+          {/* Manual Run Now Action for Auto Backup */}
+          {autoBackupStatus.enabled && isGoogleAuthConnected && autoBackupStatus.state !== 'auth_required' && (
+            <div className="flex justify-end pt-0.5">
+              <button
+                type="button"
+                onClick={handleRunAutoBackupNow}
+                disabled={autoBackupStatus.inProgress}
+                className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 text-xs font-medium transition cursor-pointer active:scale-95 disabled:opacity-50"
+              >
+                <RefreshCw className={`w-3.5 h-3.5 ${autoBackupStatus.inProgress ? 'animate-spin' : ''}`} />
+                <span>{autoBackupStatus.inProgress ? 'Backing up...' : 'Run Auto Backup Now'}</span>
+              </button>
+            </div>
+          )}
+        </div>
 
         {/* Cloud Backup & Restore Buttons */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">

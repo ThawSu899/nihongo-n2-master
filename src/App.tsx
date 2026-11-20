@@ -18,6 +18,7 @@ import { SystemClock } from './domain/common/clock';
 import { BackupManager } from './data/backup/backup-manager';
 import { useTimer } from './presentation/hooks/useTimer';
 import { ankiSyncService } from './services/anki-sync';
+import { googleDriveAutoBackup } from './services/google-drive-auto-backup';
 import { initTheme } from './services/theme';
 
 import { Header } from './presentation/components/Header';
@@ -260,8 +261,10 @@ export default function App() {
     if (ankiSyncService.config.autoSyncEnabled) {
       ankiSyncService.startAutoSync();
     }
+    googleDriveAutoBackup.init();
     return () => {
       ankiSyncService.stopAutoSync();
+      googleDriveAutoBackup.destroy();
     };
   }, [refreshAppData]);
 

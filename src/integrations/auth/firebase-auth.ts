@@ -58,6 +58,7 @@ export const WORKSPACE_SCOPES = [
 
 // In-memory token & scope state
 let inMemoryAccessToken: string | null = null;
+let tokenExpiresAt: number | null = null;
 let grantedScopes: string[] = [];
 let currentUser: UserAuthProfile | null = null;
 const authListeners = new Set<(user: UserAuthProfile | null) => void>();
@@ -167,7 +168,7 @@ export async function signInWithGoogle(customScopes?: string[]): Promise<string>
             return;
           }
 
-          setAccessToken(response.access_token);
+          setAccessToken(response.access_token, response.expires_in);
           if (response.scope) {
             grantedScopes = response.scope.split(' ').map((s) => s.trim()).filter(Boolean);
           } else {
@@ -202,6 +203,7 @@ export async function signInWithGoogle(customScopes?: string[]): Promise<string>
 export async function signOutUser(): Promise<void> {
   const currentToken = inMemoryAccessToken;
   inMemoryAccessToken = null;
+  tokenExpiresAt = null;
   grantedScopes = [];
   currentUser = null;
   notifyAuthChange();
@@ -232,11 +234,30 @@ export function getDriveAccessToken(): string | null {
 }
 
 /**
+ * Get the in-memory timestamp (ms) when the current access token expires
+ */
+export function getTokenExpiresAt(): number | null {
+  return tokenExpiresAt;
+}
+
+/**
+ * Checks whether the in-memory access token is missing or expired (with an optional safety buffer)
+ */
+export function isTokenExpired(bufferMs = 60000): boolean {
+  if (!inMemoryAccessToken) return true;
+  if (!tokenExpiresAt) return false;
+  return Date.now() >= tokenExpiresAt - bufferMs;
+}
+
+/**
  * Update in-memory token (e.g. for mock testing or restored state)
  */
-export function setAccessToken(token: string | null): void {
+export function setAccessToken(token: string | null, expiresInSeconds?: number): void {
   inMemoryAccessToken = token;
   if (token) {
+    tokenExpiresAt = expiresInSeconds
+      ? Date.now() + expiresInSeconds * 1000
+      : Date.now() + 3600 * 1000;
     if (!currentUser) {
       currentUser = {
         uid: 'stored_user',
@@ -246,14 +267,15 @@ export function setAccessToken(token: string | null): void {
       };
     }
   } else {
+    tokenExpiresAt = null;
     currentUser = null;
     grantedScopes = [];
   }
   notifyAuthChange();
 }
 
-export function setDriveAccessToken(token: string | null): void {
-  setAccessToken(token);
+export function setDriveAccessToken(token: string | null, expiresInSeconds?: number): void {
+  setAccessToken(token, expiresInSeconds);
 }
 
 /**

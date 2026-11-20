@@ -102,6 +102,27 @@ export class GoogleDriveAdapter implements FileStore {
     }
   }
 
+  async saveAutoBackup(content: string): Promise<boolean> {
+    this.lastError = null;
+    if (typeof navigator !== 'undefined' && navigator.onLine === false) {
+      this.lastError = 'You appear to be offline. Saving backup requires an active internet connection.';
+      console.warn(`[GoogleDriveAdapter] Offline detected. ${this.lastError}`);
+      return false;
+    }
+    if (!this.isConfigured()) {
+      this.lastError = 'Google Drive integration is not connected. Sign in with Google to enable Drive backups.';
+      throw new Error(this.lastError);
+    }
+    try {
+      await GoogleDriveService.uploadAutoBackup(content, this.getEffectiveAccessToken() || undefined);
+      return true;
+    } catch (err: any) {
+      this.lastError = err?.message || String(err);
+      console.warn(`[GoogleDriveAdapter] saveAutoBackup failed: ${this.lastError}`);
+      return false;
+    }
+  }
+
   async getBackup(fileId?: string): Promise<string | null> {
     this.lastError = null;
     if (typeof navigator !== 'undefined' && navigator.onLine === false) {
