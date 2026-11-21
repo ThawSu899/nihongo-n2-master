@@ -411,7 +411,7 @@ describe('Google Drive Automatic 24-Hour Backup Scheduler', () => {
 
     it('renders active status and next scheduled backup when enabled', () => {
       setAccessToken('mock_auth_token_for_ui', 3600);
-      const mockSuccessTime = '2026-11-20T08:00:00.000Z';
+      const mockSuccessTime = new Date(Date.now() - 3600 * 1000).toISOString();
       mockLocalStorage.setItem(AUTO_BACKUP_STORAGE_KEYS.LAST_SUCCESS, mockSuccessTime);
       service.setEnabled(true);
 

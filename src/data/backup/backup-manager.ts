@@ -22,6 +22,8 @@ export interface BackupData {
   cramDrills?: CramDrillRecord[] | any[];
   quarantined_cards?: any[];
   exam_results?: any[];
+  aiSessions?: any[];
+  aiMessages?: any[];
   userNotes?: Record<string, any>;
   _storageTier?: string;
   _pointer?: boolean;
@@ -50,6 +52,8 @@ export class BackupManager {
     const cramDrills = await db.cram_drills.toArray();
     const quarantinedCards = await db.quarantined_cards.toArray();
     const examResults = await db.exam_results.toArray();
+    const aiSessions = await db.ai_sessions.toArray();
+    const aiMessages = await db.ai_messages.toArray();
 
     let userNotes: Record<string, any> = {};
     if (typeof localStorage !== 'undefined') {
@@ -83,6 +87,8 @@ export class BackupManager {
       cramDrills: cramDrills,
       quarantined_cards: quarantinedCards,
       exam_results: examResults,
+      aiSessions,
+      aiMessages,
       userNotes,
     };
   }
@@ -221,6 +227,8 @@ export class BackupManager {
         assessments: backup.assessments?.length || 0,
         ghostCards: ghostCardsList.length,
         cramDrills: cramDrillsList.length,
+        aiSessions: backup.aiSessions?.length || 0,
+        aiMessages: backup.aiMessages?.length || 0,
       };
 
       await db.transaction(
@@ -241,6 +249,8 @@ export class BackupManager {
           db.cram_drills,
           db.quarantined_cards,
           db.exam_results,
+          db.ai_sessions,
+          db.ai_messages,
         ],
         async () => {
           if (backup.profile) {
@@ -301,6 +311,14 @@ export class BackupManager {
           if (backup.exam_results?.length) {
             await db.exam_results.clear();
             await db.exam_results.bulkAdd(backup.exam_results);
+          }
+          if (backup.aiSessions?.length) {
+            await db.ai_sessions.clear();
+            await db.ai_sessions.bulkAdd(backup.aiSessions);
+          }
+          if (backup.aiMessages?.length) {
+            await db.ai_messages.clear();
+            await db.ai_messages.bulkAdd(backup.aiMessages);
           }
         }
       );

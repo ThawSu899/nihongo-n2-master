@@ -46,6 +46,8 @@ import { ShadowingScreen } from './presentation/screens/ShadowingScreen';
 import { QuarantineDrillScreen } from './presentation/screens/QuarantineDrillScreen';
 import { LevelBulkStudyScreen } from './presentation/screens/LevelBulkStudyScreen';
 import { MockExamScreen } from './presentation/screens/MockExamScreen';
+import { AITutorScreen } from './presentation/screens/AITutorScreen';
+import { MyLearningDashboardScreen } from './presentation/screens/MyLearningDashboardScreen';
 
 function getNextActiveLessonId(
   curriculum: CurriculumMapItem[],
@@ -575,6 +577,24 @@ export default function App() {
                 initialLevel={selectedMockExamLevel}
                 onExit={() => setCurrentView('home')}
                 onTestActiveChange={setIsTestActive}
+              />
+            )}
+
+            {currentView === 'ai-tutor' && (
+              <AITutorScreen
+                profile={profile}
+                initialLessonId={profile?.currentLessonId}
+                onNavigate={setCurrentView}
+                onOpenLesson={handleStartStudy}
+              />
+            )}
+
+            {currentView === 'my-learning' && (
+              <MyLearningDashboardScreen
+                profile={profile}
+                dueSrsCount={dueSrsCount}
+                onNavigate={setCurrentView}
+                onOpenLesson={handleStartStudy}
               />
             )}
           </motion.div>

@@ -68,6 +68,26 @@ export interface ExamResultRecord {
   quarantinedCount: number;
 }
 
+export interface AIChatSession {
+  id: string;
+  title: string;
+  mode: 'ask' | 'grammar' | 'vocabulary' | 'kanji' | 'quiz' | 'correction' | 'learning';
+  level: 'N5' | 'N4' | 'N3' | 'N2';
+  lessonId?: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
+export interface AIChatMessage {
+  id: string;
+  sessionId: string;
+  role: 'user' | 'model';
+  content: string;
+  mode?: 'ask' | 'grammar' | 'vocabulary' | 'kanji' | 'quiz' | 'correction' | 'learning';
+  createdAt: string;
+  savedNoteId?: string;
+}
+
 export class NihongoMasterDB extends Dexie {
   study_events!: Table<StudyEvent, string>;
   srs_cards!: Table<SRSCard, string>;
@@ -84,11 +104,13 @@ export class NihongoMasterDB extends Dexie {
   cram_drills!: Table<CramDrillRecord, string>;
   quarantined_cards!: Table<QuarantinedCard, string>;
   exam_results!: Table<ExamResultRecord, string>;
+  ai_sessions!: Table<AIChatSession, string>;
+  ai_messages!: Table<AIChatMessage, string>;
 
   constructor() {
     super('NihongoN2MasterDB');
 
-    // Schema versioning: preserves existing tables and adds Kana, Assessments, Remediation, Ghost Cards, Cram Drills, Quarantined Cards, Exam Results
+    // Schema versioning: preserves existing tables and adds Kana, Assessments, Remediation, Ghost Cards, Cram Drills, Quarantined Cards, Exam Results, AI Tutor Chat Sessions
     this.version(1).stores({
       study_events: 'id, timestamp, type, lessonId',
       srs_cards: 'id, itemId, lessonId, facet, state, due, lapses, isLeech',
@@ -120,6 +142,11 @@ export class NihongoMasterDB extends Dexie {
 
     this.version(6).stores({
       exam_results: 'id, level, completedAt, passed, scaledScore',
+    });
+
+    this.version(7).stores({
+      ai_sessions: 'id, mode, level, lessonId, updatedAt',
+      ai_messages: 'id, sessionId, createdAt',
     });
   }
 
