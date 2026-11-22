@@ -295,6 +295,25 @@ describe('Gemini AI Japanese Tutor V1 Test Suite', () => {
       const parsed = AITutorRequestSchema.safeParse(payload);
       expect(parsed.success).toBe(false);
     });
+
+    it('automatically drops empty or whitespace-only conversation history entries', () => {
+      const payload = {
+        mode: 'ask',
+        level: 'N4',
+        userMessage: 'Help me',
+        conversationHistory: [
+          { role: 'user', content: '' },
+          { role: 'model', content: '   ' },
+          { role: 'user', content: 'Previous message' },
+        ],
+      };
+      const parsed = AITutorRequestSchema.safeParse(payload);
+      expect(parsed.success).toBe(true);
+      if (parsed.success) {
+        expect(parsed.data.conversationHistory?.length).toBe(1);
+        expect(parsed.data.conversationHistory?.[0].content).toBe('Previous message');
+      }
+    });
   });
 
   // ============================================================================
@@ -308,6 +327,7 @@ describe('Gemini AI Japanese Tutor V1 Test Suite', () => {
       expect(instruction).toContain('Burmese (မြန်မာဘာသာ)');
       expect(instruction).toContain('MODE: GRAMMAR TUTOR');
       expect(instruction).toContain('Teach instead of merely giving answers');
+      expect(instruction).toContain('CONCISENESS & BREVITY DIRECTIVE');
       expect(instruction).toContain('untrusted data');
     });
 

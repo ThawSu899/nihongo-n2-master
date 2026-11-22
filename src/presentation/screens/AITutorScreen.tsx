@@ -511,19 +511,29 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
     setIsStreaming(false);
     setIsLoading(false);
 
-    // Persist whatever was accumulated so far
+    // Persist whatever was accumulated so far, but ONLY if non-empty
     const finalContent = streamingTextRef.current.trim();
-    if (finalContent && activeSessionId) {
-      const msgId = `model_${Date.now()}`;
-      const msg: AIChatMessage = {
-        id: msgId,
-        sessionId: activeSessionId,
-        role: 'model',
-        content: finalContent,
-        mode,
-        createdAt: new Date().toISOString(),
-      };
-      db.ai_messages.put(msg).catch((e) => console.warn('Failed to save partial stream:', e));
+    if (finalContent) {
+      setMessages((prev) =>
+        prev.map((m) =>
+          m.isStreaming ? { ...m, isStreaming: false, content: finalContent } : m
+        )
+      );
+      if (activeSessionId) {
+        const msgId = `model_${Date.now()}`;
+        const msg: AIChatMessage = {
+          id: msgId,
+          sessionId: activeSessionId,
+          role: 'model',
+          content: finalContent,
+          mode,
+          createdAt: new Date().toISOString(),
+        };
+        db.ai_messages.put(msg).catch((e) => console.warn('Failed to save partial stream:', e));
+      }
+    } else {
+      // Do NOT save an empty assistant message to IndexedDB, remove empty placeholder from UI
+      setMessages((prev) => prev.filter((m) => !(m.isStreaming && !m.content.trim())));
     }
   };
 
@@ -601,13 +611,15 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
     setIsLoading(true);
     setIsStreaming(true);
 
-    // Prepare history
-    const recentHistory = newMessages
+    // Prepare history: drop any entry where content is missing or content.trim().length === 0
+    const filteredHistory = newMessages
       .filter((m) => !m.id.startsWith('welcome_'))
+      .slice(0, -1) // exclude current user message
+      .filter((m) => m && typeof m.content === 'string' && m.content.trim().length > 0)
       .slice(-8)
       .map((m) => ({
         role: m.role,
-        content: m.content,
+        content: m.content.trim(),
       }));
 
     // If user has consented to diagnostic sharing, build compact learner diagnostic digest
@@ -627,7 +639,7 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
       lessonId: selectedLessonId,
       language,
       userMessage: text,
-      conversationHistory: recentHistory.slice(0, -1),
+      conversationHistory: filteredHistory,
       lessonContext: compactContext,
       learnerContext: learnerContextPayload,
     };
@@ -669,37 +681,110 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
           onDone: async () => {
             setIsStreaming(false);
             setIsLoading(false);
-            setMessages((prev) =>
-              prev.map((m) => (m.id === modelMsgId ? { ...m, isStreaming: false } : m))
-            );
-
-            // Persist completed model response to Dexie
             const finalContent = streamingTextRef.current.trim();
             if (finalContent) {
-              const dbModelMsg: AIChatMessage = {
-                id: modelMsgId,
-                sessionId: currentSessionId,
-                role: 'model',
-                content: finalContent,
-                mode,
-                createdAt: new Date().toISOString(),
-              };
-              await db.ai_messages.put(dbModelMsg);
+              setMessages((prev) =>
+                prev.map((m) => (m.id === modelMsgId ? { ...m, isStreaming: false, content: finalContent } : m))
+              );
+
+              // Persist completed model response to Dexie
+              if (currentSessionId) {
+                const dbModelMsg: AIChatMessage = {
+                  id: modelMsgId,
+                  sessionId: currentSessionId,
+                  role: 'model',
+                  content: finalContent,
+                  mode,
+                  createdAt: new Date().toISOString(),
+                };
+                await db.ai_messages.put(dbModelMsg).catch((e) => console.warn('Failed to save message:', e));
+              }
+            } else {
+              // Do NOT save empty assistant message to IndexedDB, remove empty placeholder
+              setMessages((prev) => prev.filter((m) => m.id !== modelMsgId));
             }
           },
-          onError: (err: Error) => {
+          onError: async (err: Error) => {
             setIsStreaming(false);
             setIsLoading(false);
-            setErrorMessage(err.message || 'Stream connection failed.');
+            const partial = streamingTextRef.current.trim();
+            const isTimeout =
+              err.message?.includes('timed out') ||
+              err.message?.includes('timeout') ||
+              err.name === 'TimeoutError';
+
+            if (partial) {
+              // Keep and display the partial streamed text instead of showing only an error
+              setMessages((prev) =>
+                prev.map((m) =>
+                  m.id === modelMsgId ? { ...m, isStreaming: false, content: partial } : m
+                )
+              );
+              if (currentSessionId) {
+                const dbModelMsg: AIChatMessage = {
+                  id: modelMsgId,
+                  sessionId: currentSessionId,
+                  role: 'model',
+                  content: partial,
+                  mode,
+                  createdAt: new Date().toISOString(),
+                };
+                await db.ai_messages.put(dbModelMsg).catch((e) => console.warn('Failed to save partial stream:', e));
+              }
+              if (isTimeout) {
+                setErrorMessage(
+                  'တုံ့ပြန်ချိန်ကုန်ဆုံးသွားသဖြင့် လက်ခံရရှိထားသော အပိုင်းကို သိမ်းဆည်းပြသထားပါသည်။ (Request timed out. Partial answer preserved.)'
+                );
+              } else {
+                setErrorMessage(err.message || 'Stream connection failed.');
+              }
+            } else {
+              // Do NOT save empty assistant message to IndexedDB, remove empty placeholder
+              setMessages((prev) => prev.filter((m) => m.id !== modelMsgId));
+              setErrorMessage(err.message || 'Stream connection failed.');
+            }
           },
         },
         controller.signal
       );
     } catch (err: any) {
       if (!controller.signal.aborted) {
-        setErrorMessage(err?.message || 'Failed to connect to AI Tutor. Please try again.');
         setIsStreaming(false);
         setIsLoading(false);
+        const partial = streamingTextRef.current.trim();
+        const isTimeout =
+          err?.message?.includes('timed out') ||
+          err?.message?.includes('timeout') ||
+          err?.name === 'TimeoutError';
+
+        if (partial) {
+          setMessages((prev) =>
+            prev.map((m) =>
+              m.id === modelMsgId ? { ...m, isStreaming: false, content: partial } : m
+            )
+          );
+          if (currentSessionId) {
+            const dbModelMsg: AIChatMessage = {
+              id: modelMsgId,
+              sessionId: currentSessionId,
+              role: 'model',
+              content: partial,
+              mode,
+              createdAt: new Date().toISOString(),
+            };
+            await db.ai_messages.put(dbModelMsg).catch((e) => console.warn('Failed to save partial stream:', e));
+          }
+          if (isTimeout) {
+            setErrorMessage(
+              'တုံ့ပြန်ချိန်ကုန်ဆုံးသွားသဖြင့် လက်ခံရရှိထားသော အပိုင်းကို သိမ်းဆည်းပြသထားပါသည်။ (Request timed out. Partial answer preserved.)'
+            );
+          } else {
+            setErrorMessage(err?.message || 'Failed to connect to AI Tutor. Please try again.');
+          }
+        } else {
+          setMessages((prev) => prev.filter((m) => m.id !== modelMsgId));
+          setErrorMessage(err?.message || 'Failed to connect to AI Tutor. Please try again.');
+        }
       }
     } finally {
       activeAbortControllerRef.current = null;

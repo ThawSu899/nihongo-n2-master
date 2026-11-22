@@ -49,70 +49,96 @@ export async function streamAITutor(
     throw new Error('You appear to be offline. An active internet connection is required for AI Tutor.');
   }
 
-  const response = await fetch('/api/ai-tutor?stream=true', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Accept: 'text/event-stream',
-    },
-    body: JSON.stringify(request),
-    signal,
-  });
-
-  if (!response.ok) {
-    let errorDetail = `Server error (${response.status})`;
-    try {
-      const errJson = await response.json();
-      if (errJson?.error) {
-        errorDetail = errJson.error;
-      }
-    } catch {
-      // Non-JSON error body
-    }
-    const err = new Error(errorDetail);
-    callbacks.onError?.(err);
-    throw err;
+  // Pre-filter conversationHistory to drop empty or whitespace-only messages
+  let sanitizedRequest = request;
+  if (request.conversationHistory && Array.isArray(request.conversationHistory)) {
+    sanitizedRequest = {
+      ...request,
+      conversationHistory: request.conversationHistory.filter(
+        (m) => m && typeof m.content === 'string' && m.content.trim().length > 0
+      ),
+    };
   }
 
-  if (!response.body) {
-    const err = new Error('ReadableStream not supported or empty response body received.');
-    callbacks.onError?.(err);
-    throw err;
-  }
+  // Frontend fetch timeout: at least 55 seconds
+  const timeoutMs = 55000;
+  const internalController = new AbortController();
+  let isTimedOut = false;
+  const timeoutTimer = setTimeout(() => {
+    isTimedOut = true;
+    internalController.abort();
+  }, timeoutMs);
 
-  const reader = response.body.getReader();
-  const decoder = new TextDecoder('utf-8');
-  let buffer = '';
-
-  const processBlock = (block: string) => {
-    const parsed = parseSSEBlock(block);
-    if (!parsed) return;
-
-    try {
-      const payload = JSON.parse(parsed.data);
-      if (parsed.event === 'start') {
-        callbacks.onStart?.(payload);
-      } else if (parsed.event === 'chunk') {
-        if (payload?.text) {
-          callbacks.onChunk(payload.text);
-        }
-      } else if (parsed.event === 'done') {
-        callbacks.onDone?.(payload);
-      } else if (parsed.event === 'error') {
-        const error = new Error(payload?.error || 'Stream error');
-        callbacks.onError?.(error);
-      }
-    } catch {
-      // If data is raw text rather than JSON
-      if (parsed.event === 'chunk') {
-        callbacks.onChunk(parsed.data);
-      }
-    }
+  const onCallerAbort = () => {
+    clearTimeout(timeoutTimer);
+    internalController.abort();
   };
+  signal?.addEventListener('abort', onCallerAbort, { once: true });
 
   try {
+    const response = await fetch('/api/ai-tutor?stream=true', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        Accept: 'text/event-stream',
+      },
+      body: JSON.stringify(sanitizedRequest),
+      signal: internalController.signal,
+    });
+
+    if (!response.ok) {
+      let errorDetail = `Server error (${response.status})`;
+      try {
+        const errJson = await response.json();
+        if (errJson?.error) {
+          errorDetail = errJson.error;
+        }
+      } catch {
+        // Non-JSON error body
+      }
+      const err = new Error(errorDetail);
+      callbacks.onError?.(err);
+      throw err;
+    }
+
+    if (!response.body) {
+      const err = new Error('ReadableStream not supported or empty response body received.');
+      callbacks.onError?.(err);
+      throw err;
+    }
+
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder('utf-8');
+    let buffer = '';
+
+    const processBlock = (block: string) => {
+      const parsed = parseSSEBlock(block);
+      if (!parsed) return;
+
+      try {
+        const payload = JSON.parse(parsed.data);
+        if (parsed.event === 'start') {
+          callbacks.onStart?.(payload);
+        } else if (parsed.event === 'chunk') {
+          if (payload?.text) {
+            callbacks.onChunk(payload.text);
+          }
+        } else if (parsed.event === 'done') {
+          callbacks.onDone?.(payload);
+        } else if (parsed.event === 'error') {
+          const error = new Error(payload?.error || 'Stream error');
+          callbacks.onError?.(error);
+        }
+      } catch {
+        // If data is raw text rather than JSON
+        if (parsed.event === 'chunk') {
+          callbacks.onChunk(parsed.data);
+        }
+      }
+    };
+
     while (true) {
-      if (signal?.aborted) {
+      if (signal?.aborted || internalController.signal.aborted) {
         break;
       }
       const { done, value } = await reader.read();
@@ -135,12 +161,19 @@ export async function streamAITutor(
       processBlock(buffer);
     }
   } catch (err: any) {
-    if (signal?.aborted) {
+    if (signal?.aborted && !isTimedOut) {
       return;
     }
-    const error = err instanceof Error ? err : new Error(String(err));
-    callbacks.onError?.(error);
-    throw error;
+    const finalErr = isTimedOut
+      ? new Error('AI Tutor request timed out after 55 seconds. Please try again.')
+      : err instanceof Error
+      ? err
+      : new Error(String(err));
+    callbacks.onError?.(finalErr);
+    throw finalErr;
+  } finally {
+    clearTimeout(timeoutTimer);
+    signal?.removeEventListener('abort', onCallerAbort);
   }
 }
 
@@ -156,27 +189,66 @@ export async function askAITutor(
     throw new Error('You appear to be offline. An active internet connection is required for AI Tutor.');
   }
 
-  const response = await fetch('/api/ai-tutor', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(request),
-    signal,
-  });
+  // Pre-filter conversationHistory to drop empty or whitespace-only messages
+  let sanitizedRequest = request;
+  if (request.conversationHistory && Array.isArray(request.conversationHistory)) {
+    sanitizedRequest = {
+      ...request,
+      conversationHistory: request.conversationHistory.filter(
+        (m) => m && typeof m.content === 'string' && m.content.trim().length > 0
+      ),
+    };
+  }
 
-  let data: any;
+  // Frontend fetch timeout: at least 55 seconds
+  const timeoutMs = 55000;
+  const internalController = new AbortController();
+  let isTimedOut = false;
+  const timeoutTimer = setTimeout(() => {
+    isTimedOut = true;
+    internalController.abort();
+  }, timeoutMs);
+
+  const onCallerAbort = () => {
+    clearTimeout(timeoutTimer);
+    internalController.abort();
+  };
+  signal?.addEventListener('abort', onCallerAbort, { once: true });
+
   try {
-    data = await response.json();
-  } catch (err) {
-    throw new Error(`Failed to parse server response (${response.status} ${response.statusText})`);
-  }
+    const response = await fetch('/api/ai-tutor', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(sanitizedRequest),
+      signal: internalController.signal,
+    });
 
-  if (!response.ok || !data.success) {
-    throw new Error(data?.error || `Server error (${response.status})`);
-  }
+    let data: any;
+    try {
+      data = await response.json();
+    } catch {
+      throw new Error(`Failed to parse server response (${response.status} ${response.statusText})`);
+    }
 
-  return data as AITutorResponse;
+    if (!response.ok || !data.success) {
+      throw new Error(data?.error || `Server error (${response.status})`);
+    }
+
+    return data as AITutorResponse;
+  } catch (err: any) {
+    if (signal?.aborted && !isTimedOut) {
+      throw err;
+    }
+    if (isTimedOut) {
+      throw new Error('AI Tutor request timed out after 55 seconds. Please try again.');
+    }
+    throw err;
+  } finally {
+    clearTimeout(timeoutTimer);
+    signal?.removeEventListener('abort', onCallerAbort);
+  }
 }
 
 /**

@@ -839,4 +839,32 @@ describe('AI Tutor V2 — BackupManager Integration & Backward Compatibility', (
       }
     }
   });
+
+  it('filters empty and whitespace-only conversation history entries in api/ai-tutor handler', async () => {
+    const { default: handler } = await import('../api/ai-tutor.js');
+    const mockReq = {
+      method: 'POST',
+      body: {
+        mode: 'ask',
+        level: 'N5',
+        userMessage: 'test',
+        conversationHistory: [
+          { role: 'user', content: '' },
+          { role: 'model', content: '   ' },
+          { role: 'user', content: 'Valid message' },
+        ],
+      },
+      headers: {},
+    };
+    const mockRes = {
+      status: vi.fn().mockReturnThis(),
+      json: vi.fn().mockReturnThis(),
+      setHeader: vi.fn(),
+    };
+
+    await handler(mockReq, mockRes);
+    // After pre-filtering in handler, only the valid message remains
+    expect(mockReq.body.conversationHistory.length).toBe(1);
+    expect(mockReq.body.conversationHistory[0].content).toBe('Valid message');
+  });
 });
