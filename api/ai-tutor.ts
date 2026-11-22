@@ -1,4 +1,4 @@
-import { handleAITutorRequest } from '../server/gemini-tutor-service';
+import { handleAITutorRequest } from '../server/gemini-tutor-service.js';
 
 // Configure execution duration for Vercel Serverless Function (up to 60s for LLM streaming)
 export const maxDuration = 60;

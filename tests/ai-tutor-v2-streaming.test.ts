@@ -801,4 +801,42 @@ describe('AI Tutor V2 — BackupManager Integration & Backward Compatibility', (
     expect(sessions[0].id).toBe('idem_sess');
     expect(messages[0].id).toBe('idem_msg_1');
   });
+
+  it('imports Vercel serverless function api/ai-tutor.js and executes without ERR_MODULE_NOT_FOUND', async () => {
+    const { default: handler, maxDuration } = await import('../api/ai-tutor.js');
+    expect(typeof handler).toBe('function');
+    expect(maxDuration).toBe(60);
+
+    let statusCode = 0;
+    let jsonBody: any = null;
+    const mockReq = {
+      method: 'POST',
+      body: { mode: 'ask', level: 'N5', userMessage: 'test' },
+      headers: {},
+    };
+    const mockRes = {
+      status: (code: number) => {
+        statusCode = code;
+        return mockRes;
+      },
+      json: (data: any) => {
+        jsonBody = data;
+        return mockRes;
+      },
+      setHeader: () => {},
+    };
+
+    const prevKey = process.env.GEMINI_API_KEY;
+    try {
+      delete process.env.GEMINI_API_KEY;
+      await handler(mockReq, mockRes);
+      expect(statusCode).toBe(503);
+      expect(jsonBody.success).toBe(false);
+      expect(jsonBody.error).toContain('Gemini API key is not configured');
+    } finally {
+      if (prevKey !== undefined) {
+        process.env.GEMINI_API_KEY = prevKey;
+      }
+    }
+  });
 });
