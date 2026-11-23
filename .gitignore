@@ -22,3 +22,5 @@ __pycache__/
 # Scripts output baselines
 scripts/out/
 
+.vercel
+.env*

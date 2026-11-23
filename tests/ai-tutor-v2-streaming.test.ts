@@ -7,6 +7,10 @@ import {
 import {
   handleAITutorRequest,
   streamGeminiTutor,
+  callGeminiTutor,
+  calculateBackoffWithJitter,
+  isTransient503Error,
+  isTimeoutError,
   AITutorRequest,
   GenericHttpRequest,
   GenericHttpResponse,
@@ -15,6 +19,8 @@ import { db, AIChatSession, AIChatMessage } from '../src/data/db/dexie-db';
 import { BackupManager, BackupData } from '../src/data/backup/backup-manager';
 
 // Mock @google/genai for streaming
+let mock503RetryAttempt = 0;
+
 vi.mock('@google/genai', () => {
   return {
     GoogleGenAI: class MockGoogleGenAI {
@@ -23,11 +29,103 @@ vi.mock('@google/genai', () => {
         this.apiKey = config.apiKey;
       }
       models = {
-        generateContent: vi.fn().mockResolvedValue({
-          text: 'Non-streaming response',
-          usageMetadata: { promptTokenCount: 10, candidatesTokenCount: 20, totalTokenCount: 30 },
+        generateContent: vi.fn().mockImplementation(async (params?: any) => {
+          const lastContent = params?.contents?.[params.contents.length - 1];
+          const text = lastContent?.parts?.[0]?.text || '';
+          if (text.includes('TRIGGER_503_THEN_SUCCESS')) {
+            mock503RetryAttempt++;
+            if (mock503RetryAttempt === 1) {
+              const err = new Error('503 Service Unavailable: High load spike');
+              (err as any).status = 503;
+              throw err;
+            }
+            return {
+              text: 'Non-streaming recovered after retry!',
+              usageMetadata: { promptTokenCount: 10, candidatesTokenCount: 20, totalTokenCount: 30 },
+            };
+          }
+          if (text.includes('TRIGGER_504')) {
+            const err = new Error('504 DEADLINE_EXCEEDED');
+            (err as any).status = 504;
+            throw err;
+          }
+          if (text.includes('TRIGGER_401') || text.includes('TRIGGER_403')) {
+            const err = new Error('401 UNAUTHENTICATED: API_KEY_INVALID');
+            (err as any).status = 401;
+            throw err;
+          }
+          return {
+            text: 'Non-streaming response',
+            usageMetadata: { promptTokenCount: 10, candidatesTokenCount: 20, totalTokenCount: 30 },
+          };
         }),
-        generateContentStream: vi.fn().mockImplementation(async function* () {
+        generateContentStream: vi.fn().mockImplementation(async function* (params?: any) {
+          const lastContent = params?.contents?.[params.contents.length - 1];
+          const text = lastContent?.parts?.[0]?.text || '';
+          if (text.includes('TRIGGER_503_THEN_SUCCESS')) {
+            mock503RetryAttempt++;
+            if (mock503RetryAttempt === 1) {
+              const err = new Error('503 Service Unavailable: High load spike');
+              (err as any).status = 503;
+              throw err;
+            }
+            yield { text: 'Recovered after retry successfully!' };
+            return;
+          }
+          if (text.includes('TRIGGER_MID_STREAM_503')) {
+            yield { text: 'First chunk sent' };
+            const err = new Error('503 Service Unavailable: Dropped mid-stream');
+            (err as any).status = 503;
+            throw err;
+          }
+          if (text.includes('TRIGGER_504')) {
+            const err = new Error('504 DEADLINE_EXCEEDED: Upstream gateway timeout');
+            (err as any).status = 504;
+            throw err;
+          }
+          if (text.includes('TRIGGER_401')) {
+            const err = new Error('401 UNAUTHENTICATED: API_KEY_INVALID');
+            (err as any).status = 401;
+            throw err;
+          }
+          if (text.includes('TRIGGER_403')) {
+            const err = new Error('403 PERMISSION_DENIED: Method requires authentication');
+            (err as any).status = 403;
+            throw err;
+          }
+          if (text.includes('TRIGGER_429')) {
+            const err = new Error('429 RESOURCE_EXHAUSTED: Quota exceeded for model');
+            (err as any).status = 429;
+            throw err;
+          }
+          if (text.includes('TRIGGER_503')) {
+            const err = new Error('503 Service Unavailable: Backend overloaded');
+            (err as any).status = 503;
+            throw err;
+          }
+          if (text.includes('TRIGGER_INVALID_KEY')) {
+            throw new Error('API_KEY_INVALID: API key not valid. Please pass a valid API key.');
+          }
+          if (params?.model === 'unsupported-model' || text.includes('TRIGGER_INVALID_MODEL')) {
+            const err = new Error('models/unsupported-model is not found for API version v1beta');
+            (err as any).status = 404;
+            throw err;
+          }
+          if (text.includes('TRIGGER_EMPTY')) {
+            yield { text: '' };
+            return;
+          }
+          if (text.includes('TRIGGER_DELAY')) {
+            await new Promise((resolve) => setTimeout(resolve, 30));
+            yield { text: 'Delayed start' };
+            yield { text: ' content.' };
+            return;
+          }
+          if (text.includes('TRIGGER_TIMEOUT')) {
+            await new Promise((resolve) => setTimeout(resolve, 200));
+            yield { text: 'Too late' };
+            return;
+          }
           yield { text: 'こんにちは！' };
           yield { text: ' ဂျပန်စာလေ့လာကြရအောင်။' };
           yield {
@@ -36,6 +134,11 @@ vi.mock('@google/genai', () => {
           };
         }),
       };
+    },
+    ThinkingLevel: {
+      THINKING_LEVEL_UNSPECIFIED: 'THINKING_LEVEL_UNSPECIFIED',
+      LOW: 'LOW',
+      HIGH: 'HIGH',
     },
   };
 });
@@ -866,5 +969,309 @@ describe('AI Tutor V2 — BackupManager Integration & Backward Compatibility', (
     // After pre-filtering in handler, only the valid message remains
     expect(mockReq.body.conversationHistory.length).toBe(1);
     expect(mockReq.body.conversationHistory[0].content).toBe('Valid message');
+  });
+});
+
+describe('AI Tutor V2.2 — Latency, TTFT, Error Handling & Timeout Regression Suite', () => {
+  const validRequest: AITutorRequest = {
+    mode: 'ask',
+    level: 'N2',
+    userMessage: 'Test prompt',
+    language: 'my',
+  };
+
+  it('(1) records successful first-token delivery and timeToFirstTokenMs', async () => {
+    const chunks: string[] = [];
+    const result = await streamGeminiTutor({
+      request: validRequest,
+      apiKey: 'test-api-key',
+      onChunk: (chunk) => chunks.push(chunk),
+    });
+
+    expect(result.success).toBe(true);
+    expect(chunks.length).toBeGreaterThan(0);
+    expect(typeof result.timeToFirstTokenMs).toBe('number');
+    expect(result.timeToFirstTokenMs).toBeGreaterThanOrEqual(0);
+  });
+
+  it('(2) handles delayed Gemini response within timeout window', async () => {
+    const chunks: string[] = [];
+    const result = await streamGeminiTutor({
+      request: { ...validRequest, userMessage: 'TRIGGER_DELAY' },
+      apiKey: 'test-api-key',
+      onChunk: (chunk) => chunks.push(chunk),
+      timeoutMs: 1000,
+    });
+
+    expect(result.success).toBe(true);
+    expect(chunks.length).toBeGreaterThan(0);
+    expect(chunks.join('')).toContain('Delayed start content.');
+    expect(result.timeToFirstTokenMs).toBeGreaterThanOrEqual(25);
+  });
+
+  it('(3a) handles Gemini 429 rate limit response with user-friendly message', async () => {
+    const chunks: string[] = [];
+    const result = await streamGeminiTutor({
+      request: { ...validRequest, userMessage: 'TRIGGER_429' },
+      apiKey: 'test-api-key',
+      onChunk: (chunk) => chunks.push(chunk),
+    });
+
+    expect(result.success).toBe(false);
+    expect(result.error).toContain('rate limit or quota reached');
+    expect(chunks.length).toBe(0);
+  });
+
+  it('(3b) handles Gemini 503 service unavailable response with user-friendly message', async () => {
+    const chunks: string[] = [];
+    const result = await streamGeminiTutor({
+      request: { ...validRequest, userMessage: 'TRIGGER_503' },
+      apiKey: 'test-api-key',
+      onChunk: (chunk) => chunks.push(chunk),
+    });
+
+    expect(result.success).toBe(false);
+    expect(result.error).toContain('temporarily unavailable');
+    expect(chunks.length).toBe(0);
+  });
+
+  it('(4) handles invalid API key error gracefully', async () => {
+    const result = await streamGeminiTutor({
+      request: { ...validRequest, userMessage: 'TRIGGER_INVALID_KEY' },
+      apiKey: 'bad-key',
+      onChunk: () => {},
+    });
+
+    expect(result.success).toBe(false);
+    expect(result.error).toContain('Invalid Gemini API key');
+  });
+
+  it('(5) handles invalid or unsupported model gracefully', async () => {
+    const result = await streamGeminiTutor({
+      request: validRequest,
+      apiKey: 'test-api-key',
+      modelName: 'unsupported-model',
+      onChunk: () => {},
+    });
+
+    expect(result.success).toBe(false);
+    expect(result.error).toContain('is unavailable or not supported');
+  });
+
+  it('(6) handles empty response from Gemini', async () => {
+    const result = await streamGeminiTutor({
+      request: { ...validRequest, userMessage: 'TRIGGER_EMPTY' },
+      apiKey: 'test-api-key',
+      onChunk: () => {},
+    });
+
+    expect(result.success).toBe(false);
+    expect(result.error).toContain('Received an empty response from Gemini');
+  });
+
+  it('(7) handles client cancellation cleanly and stops streaming', async () => {
+    const controller = new AbortController();
+    const chunks: string[] = [];
+
+    // Abort before streaming begins
+    controller.abort();
+
+    const result = await streamGeminiTutor({
+      request: validRequest,
+      apiKey: 'test-api-key',
+      onChunk: (chunk) => chunks.push(chunk),
+      signal: controller.signal,
+    });
+
+    expect(result.success).toBe(false);
+    expect(result.error).toBe('Stream aborted by client.');
+    expect(chunks.length).toBe(0);
+  });
+
+  it('(8) handles server-side timeout when Gemini response exceeds timeoutMs', async () => {
+    const chunks: string[] = [];
+    const result = await streamGeminiTutor({
+      request: { ...validRequest, userMessage: 'TRIGGER_TIMEOUT' },
+      apiKey: 'test-api-key',
+      onChunk: (chunk) => chunks.push(chunk),
+      timeoutMs: 40,
+    });
+
+    expect(result.success).toBe(false);
+    expect(result.error).toContain('Gemini request timed out. Please try again.');
+    expect(chunks.length).toBe(0);
+  });
+
+  it('includes timeToFirstTokenMs in SSE event: done data during handleAITutorRequest', async () => {
+    const writtenEvents: string[] = [];
+    const mockReq: GenericHttpRequest = {
+      method: 'POST',
+      headers: { accept: 'text/event-stream' },
+      body: validRequest,
+    };
+    const mockRes: GenericHttpResponse = {
+      status: vi.fn().mockReturnThis(),
+      json: vi.fn().mockReturnThis(),
+      setHeader: vi.fn(),
+      write: (data: string | Uint8Array) => {
+        writtenEvents.push(typeof data === 'string' ? data : Buffer.from(data).toString());
+        return true;
+      },
+      flush: vi.fn(),
+      flushHeaders: vi.fn(),
+      end: vi.fn(),
+    };
+
+    const prevKey = process.env.GEMINI_API_KEY;
+    try {
+      process.env.GEMINI_API_KEY = 'test-key';
+      await handleAITutorRequest(mockReq, mockRes);
+
+      const doneEvent = writtenEvents.find((evt) => evt.startsWith('event: done'));
+      expect(doneEvent).toBeDefined();
+      const doneJson = JSON.parse(doneEvent!.replace(/^event: done\ndata: /, '').trim());
+      expect(doneJson.timeToFirstTokenMs).toBeDefined();
+      expect(typeof doneJson.timeToFirstTokenMs).toBe('number');
+    } finally {
+      if (prevKey !== undefined) {
+        process.env.GEMINI_API_KEY = prevKey;
+      } else {
+        delete process.env.GEMINI_API_KEY;
+      }
+    }
+  });
+
+  it('retries transient 503 error and successfully streams on second attempt', async () => {
+    const chunks: string[] = [];
+    const result = await streamGeminiTutor({
+      request: { ...validRequest, userMessage: 'TRIGGER_503_THEN_SUCCESS' },
+      apiKey: 'test-api-key',
+      onChunk: (chunk) => chunks.push(chunk),
+    });
+
+    expect(result.success).toBe(true);
+    expect(chunks.length).toBeGreaterThan(0);
+    expect(chunks.join('')).toContain('Recovered after retry successfully!');
+  });
+
+  it('retries transient 503 error in non-streaming callGeminiTutor and returns success', async () => {
+    const result = await callGeminiTutor({
+      request: { ...validRequest, userMessage: 'TRIGGER_503_THEN_SUCCESS' },
+      apiKey: 'test-api-key',
+    });
+
+    expect(result.success).toBe(true);
+    expect(result.message).toContain('Non-streaming recovered after retry!');
+  });
+
+  it('exhausts max 2 retries on persistent 503 and returns clean unavailable error', async () => {
+    const chunks: string[] = [];
+    const result = await streamGeminiTutor({
+      request: { ...validRequest, userMessage: 'TRIGGER_503' },
+      apiKey: 'test-api-key',
+      onChunk: (chunk) => chunks.push(chunk),
+      maxRetries: 2,
+    });
+
+    expect(result.success).toBe(false);
+    expect(result.error).toContain('temporarily unavailable');
+    expect(chunks.length).toBe(0);
+  });
+
+  it('handles 504 deadline exceeded separately without retrying', async () => {
+    const chunks: string[] = [];
+    const result = await streamGeminiTutor({
+      request: { ...validRequest, userMessage: 'TRIGGER_504' },
+      apiKey: 'test-api-key',
+      onChunk: (chunk) => chunks.push(chunk),
+    });
+
+    expect(result.success).toBe(false);
+    expect(result.error).toContain('request timed out');
+    expect(chunks.length).toBe(0);
+  });
+
+  it('does not retry 401/403 authentication errors', async () => {
+    const result401 = await streamGeminiTutor({
+      request: { ...validRequest, userMessage: 'TRIGGER_401' },
+      apiKey: 'bad-key',
+      onChunk: () => {},
+    });
+    expect(result401.success).toBe(false);
+    expect(result401.error).toContain('Invalid Gemini API key');
+
+    const result403 = await streamGeminiTutor({
+      request: { ...validRequest, userMessage: 'TRIGGER_403' },
+      apiKey: 'forbidden-key',
+      onChunk: () => {},
+    });
+    expect(result403.success).toBe(false);
+    expect(result403.error).toContain('Invalid Gemini API key');
+  });
+
+  it('does NOT retry when failure happens mid-stream after chunks were already emitted', async () => {
+    const chunks: string[] = [];
+    const result = await streamGeminiTutor({
+      request: { ...validRequest, userMessage: 'TRIGGER_MID_STREAM_503' },
+      apiKey: 'test-api-key',
+      onChunk: (chunk) => chunks.push(chunk),
+      maxRetries: 2,
+    });
+
+    // Chunks were emitted before failure, so retry was disallowed to prevent duplicate text
+    expect(result.success).toBe(false);
+    expect(result.error).toContain('temporarily unavailable');
+    expect(chunks.length).toBe(1);
+    expect(chunks[0]).toBe('First chunk sent');
+  });
+
+  it('aborts cleanly if signal is triggered during retry backoff wait', async () => {
+    const controller = new AbortController();
+    const chunks: string[] = [];
+
+    // Trigger abort after 10ms (during first 503 backoff sleep)
+    setTimeout(() => controller.abort(), 10);
+
+    const result = await streamGeminiTutor({
+      request: { ...validRequest, userMessage: 'TRIGGER_503' },
+      apiKey: 'test-api-key',
+      onChunk: (chunk) => chunks.push(chunk),
+      signal: controller.signal,
+    });
+
+    expect(result.success).toBe(false);
+    expect(result.error).toBe('Stream aborted by client.');
+  });
+
+  it('calculates bounded exponential backoff with jitter correctly', () => {
+    const delay0 = calculateBackoffWithJitter(0, 500, 2000);
+    expect(delay0).toBeGreaterThanOrEqual(500);
+    expect(delay0).toBeLessThanOrEqual(750);
+
+    const delay1 = calculateBackoffWithJitter(1, 500, 2000);
+    expect(delay1).toBeGreaterThanOrEqual(1000);
+    expect(delay1).toBeLessThanOrEqual(1500);
+
+    const delayMax = calculateBackoffWithJitter(10, 500, 2000);
+    expect(delayMax).toBeLessThanOrEqual(2000);
+  });
+
+  it('accurately identifies transient 503 vs non-retryable errors', () => {
+    expect(isTransient503Error({ status: 503 })).toBe(true);
+    expect(isTransient503Error(new Error('503 Service Unavailable: High load'))).toBe(true);
+    expect(isTransient503Error(new Error('This model is currently experiencing high demand.'))).toBe(true);
+
+    // Non-retryable
+    expect(isTransient503Error({ status: 504 })).toBe(false);
+    expect(isTransient503Error(new Error('504 DEADLINE_EXCEEDED'))).toBe(false);
+    expect(isTransient503Error({ status: 401 })).toBe(false);
+    expect(isTransient503Error({ status: 403 })).toBe(false);
+    expect(isTransient503Error({ status: 429 })).toBe(false);
+    expect(isTransient503Error({ status: 404 })).toBe(false);
+    expect(isTransient503Error({ status: 400 })).toBe(false);
+
+    expect(isTimeoutError({ status: 504 })).toBe(true);
+    expect(isTimeoutError(new Error('REQUEST_TIMEOUT'))).toBe(true);
+    expect(isTimeoutError({ status: 503 })).toBe(false);
   });
 });

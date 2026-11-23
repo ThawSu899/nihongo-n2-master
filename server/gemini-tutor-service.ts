@@ -1,4 +1,4 @@
-import { GoogleGenAI } from '@google/genai';
+import { GoogleGenAI, ThinkingLevel } from '@google/genai';
 import { z } from 'zod';
 
 // ==============================================================================
@@ -414,12 +414,110 @@ export interface StreamGeminiParams {
   timeoutMs?: number;
 }
 
+export interface StreamGeminiParams {
+  request: AITutorRequest;
+  apiKey?: string;
+  modelName?: string;
+  onChunk: (text: string) => void;
+  signal?: AbortSignal;
+  timeoutMs?: number;
+  maxRetries?: number;
+}
+
 export interface StreamGeminiResult {
   success: boolean;
   model?: string;
   mode?: TutorMode;
   totalTokens?: number;
+  timeToFirstTokenMs?: number;
   error?: string;
+}
+
+export interface CallGeminiParams {
+  request: AITutorRequest;
+  apiKey?: string;
+  modelName?: string;
+  timeoutMs?: number;
+  maxRetries?: number;
+}
+
+/**
+ * Calculates bounded exponential backoff delay with jitter.
+ * @param attempt 0-indexed retry attempt (0, 1)
+ * @param baseDelayMs Base delay in ms (default 500ms)
+ * @param maxDelayMs Maximum ceiling in ms (default 2000ms)
+ */
+export function calculateBackoffWithJitter(
+  attempt: number,
+  baseDelayMs = 500,
+  maxDelayMs = 2000
+): number {
+  const exponential = Math.min(maxDelayMs, baseDelayMs * Math.pow(2, attempt));
+  // Random jitter between 0 and 50% of exponential delay
+  const jitter = Math.floor(Math.random() * (exponential * 0.5));
+  return Math.min(maxDelayMs, exponential + jitter);
+}
+
+/**
+ * Checks if an error is a transient 503 / Service Unavailable error eligible for retry.
+ * Non-retryable: 504 / timeouts, 401/403/invalid keys, 429 quota, 404/models not found, 400 bad requests.
+ */
+export function isTransient503Error(err: any): boolean {
+  const status =
+    err?.status ||
+    err?.statusCode ||
+    (err?.response && typeof err.response.status === 'number' ? err.response.status : undefined);
+  const rawMsg = String(err?.message || err);
+
+  if (
+    status === 504 ||
+    rawMsg.includes('504') ||
+    rawMsg.includes('DEADLINE_EXCEEDED') ||
+    rawMsg.includes('REQUEST_TIMEOUT') ||
+    status === 401 ||
+    status === 403 ||
+    rawMsg.includes('API_KEY_INVALID') ||
+    rawMsg.includes('API key not valid') ||
+    rawMsg.includes('PERMISSION_DENIED') ||
+    status === 429 ||
+    rawMsg.includes('429') ||
+    rawMsg.includes('RESOURCE_EXHAUSTED') ||
+    rawMsg.includes('quota') ||
+    status === 404 ||
+    rawMsg.includes('models/') ||
+    rawMsg.includes('not found') ||
+    status === 400
+  ) {
+    return false;
+  }
+
+  return (
+    status === 503 ||
+    rawMsg.includes('503') ||
+    rawMsg.includes('UNAVAILABLE') ||
+    rawMsg.includes('high demand') ||
+    rawMsg.includes('Service Unavailable') ||
+    rawMsg.includes('overloaded')
+  );
+}
+
+/**
+ * Checks if an error is a 504 / timeout error.
+ */
+export function isTimeoutError(err: any): boolean {
+  const status =
+    err?.status ||
+    err?.statusCode ||
+    (err?.response && typeof err.response.status === 'number' ? err.response.status : undefined);
+  const rawMsg = String(err?.message || err);
+
+  return (
+    status === 504 ||
+    rawMsg.includes('504') ||
+    rawMsg.includes('DEADLINE_EXCEEDED') ||
+    rawMsg.includes('REQUEST_TIMEOUT') ||
+    rawMsg.includes('timed out')
+  );
 }
 
 export async function streamGeminiTutor({
@@ -428,7 +526,8 @@ export async function streamGeminiTutor({
   modelName = process.env.GEMINI_MODEL || 'gemini-3.8-flash',
   onChunk,
   signal,
-  timeoutMs = 60000,
+  timeoutMs = 50000,
+  maxRetries = 2,
 }: StreamGeminiParams): Promise<StreamGeminiResult> {
   if (!apiKey || typeof apiKey !== 'string' || apiKey.trim() === '') {
     return {
@@ -462,118 +561,213 @@ export async function streamGeminiTutor({
     parts: [{ text: request.userMessage }],
   });
 
-  try {
-    const ai = new GoogleGenAI({ apiKey: apiKey.trim() });
+  const startTime = Date.now();
+  let firstTokenTimeMs: number | undefined;
+  const maxAttempts = Math.max(1, maxRetries + 1);
+  let chunksEmitted = 0;
 
-    const timeoutPromise = new Promise<never>((_, reject) => {
-      const timer = setTimeout(() => reject(new Error('REQUEST_TIMEOUT')), timeoutMs);
-      signal?.addEventListener('abort', () => clearTimeout(timer), { once: true });
-    });
+  for (let attempt = 0; attempt < maxAttempts; attempt++) {
+    if (signal?.aborted) {
+      return {
+        success: false,
+        error: 'Stream aborted by client.',
+      };
+    }
 
-    const streamPromise = (async () => {
-      const responseStream = await ai.models.generateContentStream({
-        model: modelName,
-        contents,
-        config: {
-          systemInstruction,
-          maxOutputTokens: 800,
-          temperature: 0.7,
-        },
+    try {
+      const ai = new GoogleGenAI({
+        apiKey: apiKey.trim(),
+        httpOptions: { timeout: timeoutMs },
       });
 
-      let totalTokens: number | undefined;
-      let accumulatedText = '';
-      for await (const chunk of responseStream) {
-        if (signal?.aborted) {
-          break;
+      const timeoutPromise = new Promise<never>((_, reject) => {
+        const timer = setTimeout(() => reject(new Error('REQUEST_TIMEOUT')), timeoutMs);
+        signal?.addEventListener('abort', () => clearTimeout(timer), { once: true });
+      });
+
+      const streamPromise = (async () => {
+        const responseStream = await ai.models.generateContentStream({
+          model: modelName,
+          contents,
+          config: {
+            systemInstruction,
+            maxOutputTokens: 800,
+            temperature: 0.7,
+            thinkingConfig: {
+              thinkingLevel: ThinkingLevel.LOW,
+            },
+          },
+        });
+
+        let totalTokens: number | undefined;
+        let accumulatedText = '';
+        for await (const chunk of responseStream) {
+          if (signal?.aborted) {
+            break;
+          }
+          if (chunk.usageMetadata?.totalTokenCount) {
+            totalTokens = chunk.usageMetadata.totalTokenCount;
+          }
+          const text = chunk.text;
+          if (text) {
+            if (firstTokenTimeMs === undefined) {
+              firstTokenTimeMs = Date.now() - startTime;
+              console.info(
+                `[GeminiTutorService] First token received in ${firstTokenTimeMs}ms (mode: ${request.mode})`
+              );
+            }
+            accumulatedText += text;
+            chunksEmitted += 1;
+            onChunk(text);
+          }
         }
-        if (chunk.usageMetadata?.totalTokenCount) {
-          totalTokens = chunk.usageMetadata.totalTokenCount;
-        }
-        const text = chunk.text;
-        if (text) {
-          accumulatedText += text;
-          onChunk(text);
-        }
+
+        return { totalTokens, accumulatedText };
+      })();
+
+      const result = await Promise.race([streamPromise, timeoutPromise]);
+
+      if (signal?.aborted) {
+        return {
+          success: false,
+          error: 'Stream aborted by client.',
+        };
       }
 
-      return { totalTokens, accumulatedText };
-    })();
+      if (!result.accumulatedText || result.accumulatedText.trim() === '') {
+        return {
+          success: false,
+          error: 'Received an empty response from Gemini. Please rephrase your query and try again.',
+        };
+      }
 
-    const result = await Promise.race([streamPromise, timeoutPromise]);
+      return {
+        success: true,
+        model: modelName,
+        mode: request.mode,
+        totalTokens: result.totalTokens,
+        timeToFirstTokenMs: firstTokenTimeMs,
+      };
+    } catch (err: any) {
+      if (signal?.aborted) {
+        return {
+          success: false,
+          error: 'Stream aborted by client.',
+        };
+      }
 
-    if (signal?.aborted) {
-      return {
-        success: false,
-        error: 'Stream aborted by client.',
-      };
-    }
+      // Check if retryable: only if 503, no chunks were yet emitted to client, and attempts remain
+      if (chunksEmitted === 0 && attempt < maxAttempts - 1 && isTransient503Error(err)) {
+        const delayMs = calculateBackoffWithJitter(attempt);
+        console.warn(
+          `[GeminiTutorService] Transient 503 received (attempt ${attempt + 1}/${maxAttempts}). Retrying in ${delayMs}ms with jitter...`
+        );
+        await new Promise((resolve) => {
+          const timer = setTimeout(resolve, delayMs);
+          signal?.addEventListener(
+            'abort',
+            () => {
+              clearTimeout(timer);
+              resolve(undefined);
+            },
+            { once: true }
+          );
+        });
+        continue;
+      }
 
-    if (!result.accumulatedText || result.accumulatedText.trim() === '') {
-      return {
-        success: false,
-        error: 'Received an empty response from Gemini. Please rephrase your query and try again.',
-      };
-    }
+      const status =
+        err?.status ||
+        err?.statusCode ||
+        (err?.response && typeof err.response.status === 'number' ? err.response.status : undefined);
+      const rawErrMsg = String(err?.message || err);
+      // Sanitize API keys and sensitive tokens
+      const sanitizedErrMsg = rawErrMsg.replace(/key=[^&"\s]+/gi, 'key=REDACTED');
 
-    return {
-      success: true,
-      model: modelName,
-      mode: request.mode,
-      totalTokens: result.totalTokens,
-    };
-  } catch (err: any) {
-    if (signal?.aborted) {
-      return {
-        success: false,
-        error: 'Stream aborted by client.',
-      };
-    }
+      // Separate 504 / timeout handling
+      if (isTimeoutError(err)) {
+        console.warn(`[GeminiTutorService] Stream timed out after ${timeoutMs}ms`);
+        return {
+          success: false,
+          error: 'Gemini request timed out. Please try again.',
+        };
+      }
 
-    const errMsg = String(err?.message || err);
-    if (errMsg.includes('REQUEST_TIMEOUT')) {
-      return {
-        success: false,
-        error: 'Gemini request timed out. Please try again.',
-      };
-    }
-    if (
-      errMsg.includes('429') ||
-      errMsg.includes('RESOURCE_EXHAUSTED') ||
-      errMsg.includes('quota') ||
-      errMsg.includes('Rate limit')
-    ) {
-      return {
-        success: false,
-        error: 'Gemini API rate limit or quota reached. Please wait a moment and try again.',
-      };
-    }
-    if (errMsg.includes('API_KEY_INVALID') || errMsg.includes('API key not valid')) {
-      return {
-        success: false,
-        error: 'Invalid Gemini API key configured on server. Please check your GEMINI_API_KEY.',
-      };
-    }
-    if (errMsg.includes('models/') || errMsg.includes('not found') || errMsg.includes('unsupported model')) {
-      return {
-        success: false,
-        error: `Selected Gemini model "${modelName}" is unavailable or not supported.`,
-      };
-    }
+      // 503 handling (retries exhausted or chunks were already emitted)
+      if (isTransient503Error(err)) {
+        console.warn(
+          `[GeminiTutorService] Service unavailable (status ${status ?? 503}, attempts ${attempt + 1}/${maxAttempts}): ${sanitizedErrMsg}`
+        );
+        return {
+          success: false,
+          error: 'Gemini service is temporarily unavailable. Please try again shortly.',
+        };
+      }
 
-    console.error('[GeminiTutorService] Error during stream:', errMsg);
-    return {
-      success: false,
-      error: 'An unexpected error occurred while communicating with Gemini. Please try again.',
-    };
+      // Rate limit (429)
+      if (
+        status === 429 ||
+        rawErrMsg.includes('429') ||
+        rawErrMsg.includes('RESOURCE_EXHAUSTED') ||
+        rawErrMsg.includes('quota') ||
+        rawErrMsg.includes('Rate limit')
+      ) {
+        console.warn(`[GeminiTutorService] Rate limit encountered: ${sanitizedErrMsg}`);
+        return {
+          success: false,
+          error: 'Gemini API rate limit or quota reached. Please wait a moment and try again.',
+        };
+      }
+
+      // Authentication errors (401 / 403 / API_KEY_INVALID)
+      if (
+        status === 401 ||
+        status === 403 ||
+        rawErrMsg.includes('API_KEY_INVALID') ||
+        rawErrMsg.includes('API key not valid') ||
+        rawErrMsg.includes('PERMISSION_DENIED')
+      ) {
+        console.error('[GeminiTutorService] Invalid API key configured on server.');
+        return {
+          success: false,
+          error: 'Invalid Gemini API key configured on server. Please check your GEMINI_API_KEY.',
+        };
+      }
+
+      // Unsupported model (404)
+      if (
+        status === 404 ||
+        rawErrMsg.includes('models/') ||
+        rawErrMsg.includes('not found') ||
+        rawErrMsg.includes('unsupported model')
+      ) {
+        console.error(`[GeminiTutorService] Unsupported model requested: ${modelName}`);
+        return {
+          success: false,
+          error: `Selected Gemini model "${modelName}" is unavailable or not supported.`,
+        };
+      }
+
+      console.error(`[GeminiTutorService] Stream failed (status ${status ?? 'unknown'}): ${sanitizedErrMsg}`);
+      return {
+        success: false,
+        error: 'An unexpected error occurred while communicating with Gemini. Please try again.',
+      };
+    }
   }
+
+  return {
+    success: false,
+    error: 'Gemini service is temporarily unavailable. Please try again shortly.',
+  };
 }
 
 export async function callGeminiTutor({
   request,
   apiKey = process.env.GEMINI_API_KEY,
   modelName = process.env.GEMINI_MODEL || 'gemini-3.8-flash',
-  timeoutMs = 55000,
+  timeoutMs = 50000,
+  maxRetries = 2,
 }: CallGeminiParams): Promise<AITutorResponse> {
   if (!apiKey || typeof apiKey !== 'string' || apiKey.trim() === '') {
     return {
@@ -611,90 +805,150 @@ export async function callGeminiTutor({
     parts: [{ text: request.userMessage }],
   });
 
-  try {
-    const ai = new GoogleGenAI({ apiKey: apiKey.trim() });
+  const startTime = Date.now();
+  const maxAttempts = Math.max(1, maxRetries + 1);
 
-    // Set up request with timeout protection
-    const timeoutPromise = new Promise<never>((_, reject) =>
-      setTimeout(() => reject(new Error('REQUEST_TIMEOUT')), timeoutMs)
-    );
+  for (let attempt = 0; attempt < maxAttempts; attempt++) {
+    try {
+      const ai = new GoogleGenAI({
+        apiKey: apiKey.trim(),
+        httpOptions: { timeout: timeoutMs },
+      });
 
-    const generatePromise = ai.models.generateContent({
-      model: modelName,
-      contents,
-      config: {
-        systemInstruction,
-        maxOutputTokens: 800,
-        temperature: 0.7,
-      },
-    });
+      // Set up request with timeout protection
+      const timeoutPromise = new Promise<never>((_, reject) =>
+        setTimeout(() => reject(new Error('REQUEST_TIMEOUT')), timeoutMs)
+      );
 
-    const response = await Promise.race([generatePromise, timeoutPromise]);
+      const generatePromise = ai.models.generateContent({
+        model: modelName,
+        contents,
+        config: {
+          systemInstruction,
+          maxOutputTokens: 800,
+          temperature: 0.7,
+          thinkingConfig: {
+            thinkingLevel: ThinkingLevel.LOW,
+          },
+        },
+      });
 
-    const outputText = response?.text;
-    if (!outputText || outputText.trim() === '') {
+      const response = await Promise.race([generatePromise, timeoutPromise]);
+
+      const durationMs = Date.now() - startTime;
+      console.info(
+        `[GeminiTutorService] Non-streaming response completed in ${durationMs}ms (mode: ${request.mode})`
+      );
+
+      const outputText = response?.text;
+      if (!outputText || outputText.trim() === '') {
+        return {
+          success: false,
+          error: 'Received an empty response from Gemini. Please rephrase your query and try again.',
+        };
+      }
+
+      return {
+        success: true,
+        message: outputText.trim(),
+        model: modelName,
+        mode: request.mode,
+        usage: response.usageMetadata
+          ? {
+              promptTokens: response.usageMetadata.promptTokenCount,
+              candidatesTokens: response.usageMetadata.candidatesTokenCount,
+              totalTokens: response.usageMetadata.totalTokenCount,
+            }
+          : undefined,
+      };
+    } catch (err: any) {
+      if (attempt < maxAttempts - 1 && isTransient503Error(err)) {
+        const delayMs = calculateBackoffWithJitter(attempt);
+        console.warn(
+          `[GeminiTutorService] Transient 503 received in callGeminiTutor (attempt ${attempt + 1}/${maxAttempts}). Retrying in ${delayMs}ms with jitter...`
+        );
+        await new Promise((resolve) => setTimeout(resolve, delayMs));
+        continue;
+      }
+
+      const status =
+        err?.status ||
+        err?.statusCode ||
+        (err?.response && typeof err.response.status === 'number' ? err.response.status : undefined);
+      const rawErrMsg = String(err?.message || err);
+      const sanitizedErrMsg = rawErrMsg.replace(/key=[^&"\s]+/gi, 'key=REDACTED');
+
+      if (isTimeoutError(err)) {
+        console.warn(`[GeminiTutorService] Call timed out after ${timeoutMs}ms`);
+        return {
+          success: false,
+          error: 'Gemini request timed out. Please try again.',
+        };
+      }
+
+      if (isTransient503Error(err)) {
+        console.warn(
+          `[GeminiTutorService] Service unavailable (status ${status ?? 503}, attempts ${attempt + 1}/${maxAttempts}): ${sanitizedErrMsg}`
+        );
+        return {
+          success: false,
+          error: 'Gemini service is temporarily unavailable. Please try again shortly.',
+        };
+      }
+
+      if (
+        status === 429 ||
+        rawErrMsg.includes('429') ||
+        rawErrMsg.includes('RESOURCE_EXHAUSTED') ||
+        rawErrMsg.includes('quota') ||
+        rawErrMsg.includes('Rate limit')
+      ) {
+        console.warn(`[GeminiTutorService] Rate limit encountered: ${sanitizedErrMsg}`);
+        return {
+          success: false,
+          error: 'Gemini API rate limit or quota reached. Please wait a moment and try again.',
+        };
+      }
+
+      if (
+        status === 401 ||
+        status === 403 ||
+        rawErrMsg.includes('API_KEY_INVALID') ||
+        rawErrMsg.includes('API key not valid') ||
+        rawErrMsg.includes('PERMISSION_DENIED')
+      ) {
+        console.error('[GeminiTutorService] Invalid API key configured on server.');
+        return {
+          success: false,
+          error: 'Invalid Gemini API key configured on server. Please check your GEMINI_API_KEY.',
+        };
+      }
+
+      if (
+        status === 404 ||
+        rawErrMsg.includes('models/') ||
+        rawErrMsg.includes('not found') ||
+        rawErrMsg.includes('unsupported model')
+      ) {
+        console.error(`[GeminiTutorService] Unsupported model requested: ${modelName}`);
+        return {
+          success: false,
+          error: `Selected Gemini model "${modelName}" is unavailable or not supported.`,
+        };
+      }
+
+      console.error(`[GeminiTutorService] Call failed (status ${status ?? 'unknown'}): ${sanitizedErrMsg}`);
       return {
         success: false,
-        error: 'Received an empty response from Gemini. Please rephrase your query and try again.',
+        error: 'An unexpected error occurred while communicating with Gemini. Please try again.',
       };
     }
-
-    return {
-      success: true,
-      message: outputText.trim(),
-      model: modelName,
-      mode: request.mode,
-      usage: response.usageMetadata
-        ? {
-            promptTokens: response.usageMetadata.promptTokenCount,
-            candidatesTokens: response.usageMetadata.candidatesTokenCount,
-            totalTokens: response.usageMetadata.totalTokenCount,
-          }
-        : undefined,
-    };
-  } catch (err: any) {
-    const errMsg = String(err?.message || err);
-
-    if (errMsg.includes('REQUEST_TIMEOUT')) {
-      return {
-        success: false,
-        error: 'Gemini request timed out after 30 seconds. Please try again.',
-      };
-    }
-
-    if (
-      errMsg.includes('429') ||
-      errMsg.includes('RESOURCE_EXHAUSTED') ||
-      errMsg.includes('quota') ||
-      errMsg.includes('Rate limit')
-    ) {
-      return {
-        success: false,
-        error: 'Gemini API rate limit or quota reached. Please wait a moment and try again.',
-      };
-    }
-
-    if (errMsg.includes('API_KEY_INVALID') || errMsg.includes('API key not valid')) {
-      return {
-        success: false,
-        error: 'Invalid Gemini API key configured on server. Please check your GEMINI_API_KEY.',
-      };
-    }
-
-    if (errMsg.includes('models/') || errMsg.includes('not found') || errMsg.includes('unsupported model')) {
-      return {
-        success: false,
-        error: `Selected Gemini model "${modelName}" is unavailable or not supported.`,
-      };
-    }
-
-    // Generic sanitization to avoid leaking keys or internal traces
-    console.error('[GeminiTutorService] Internal error during execution:', errMsg);
-    return {
-      success: false,
-      error: 'An unexpected error occurred while communicating with Gemini. Please try again.',
-    };
   }
+
+  return {
+    success: false,
+    error: 'Gemini service is temporarily unavailable. Please try again shortly.',
+  };
 }
 
 // ==============================================================================
@@ -832,46 +1086,59 @@ export async function handleAITutorRequest(
     };
     req.on?.('close', onClose);
 
-    const streamResult = await streamGeminiTutor({
-      request: parseResult.data,
-      apiKey,
-      modelName,
-      onChunk: (chunkText) => {
-        if (!abortController.signal.aborted) {
-          res.write?.(`event: chunk\ndata: ${JSON.stringify({ text: chunkText })}\n\n`);
-          res.flush?.();
-        }
-      },
-      signal: abortController.signal,
-    });
+    try {
+      const streamResult = await streamGeminiTutor({
+        request: parseResult.data,
+        apiKey,
+        modelName,
+        onChunk: (chunkText) => {
+          if (!abortController.signal.aborted) {
+            res.write?.(`event: chunk\ndata: ${JSON.stringify({ text: chunkText })}\n\n`);
+            res.flush?.();
+          }
+        },
+        signal: abortController.signal,
+      });
 
-    if (abortController.signal.aborted) {
-      // Client disconnected prematurely; clean up response without writing further chunks
-      try {
-        res.end?.();
-      } catch {
-        // ignore
+      if (streamResult.success) {
+        isCompletedNormally = true;
       }
-      return;
-    }
 
-    if (!streamResult.success) {
-      res.write?.(
-        `event: error\ndata: ${JSON.stringify({ error: streamResult.error || 'Stream failed.' })}\n\n`
-      );
-      res.flush?.();
-    } else {
-      res.write?.(
-        `event: done\ndata: ${JSON.stringify({
-          totalTokens: streamResult.totalTokens,
-          mode: streamResult.mode,
-        })}\n\n`
-      );
-      res.flush?.();
+      if (abortController.signal.aborted) {
+        // Client disconnected prematurely; clean up response without writing further chunks
+        try {
+          res.end?.();
+        } catch {
+          // ignore
+        }
+        return;
+      }
+
+      if (!streamResult.success) {
+        res.write?.(
+          `event: error\ndata: ${JSON.stringify({ error: streamResult.error || 'Stream failed.' })}\n\n`
+        );
+        res.flush?.();
+      } else {
+        res.write?.(
+          `event: done\ndata: ${JSON.stringify({
+            totalTokens: streamResult.totalTokens,
+            mode: streamResult.mode,
+            timeToFirstTokenMs: streamResult.timeToFirstTokenMs,
+          })}\n\n`
+        );
+        res.flush?.();
+      }
+      isCompletedNormally = true;
+      res.end?.();
+      return;
+    } finally {
+      if (typeof (req as any).removeListener === 'function') {
+        (req as any).removeListener('close', onClose);
+      } else if (typeof (req as any).off === 'function') {
+        (req as any).off('close', onClose);
+      }
     }
-    isCompletedNormally = true;
-    res.end?.();
-    return;
   }
 
   // 5. Handle standard buffered JSON response

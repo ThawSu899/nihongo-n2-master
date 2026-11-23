@@ -53,6 +53,11 @@ vi.mock('@google/genai', () => {
 
   return {
     GoogleGenAI: MockGoogleGenAI,
+    ThinkingLevel: {
+      THINKING_LEVEL_UNSPECIFIED: 'THINKING_LEVEL_UNSPECIFIED',
+      LOW: 'LOW',
+      HIGH: 'HIGH',
+    },
   };
 });
 
