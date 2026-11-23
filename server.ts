@@ -7,13 +7,19 @@ import express from 'express';
 import http from 'http';
 import path from 'path';
 import dotenv from 'dotenv';
+import { handleAITutorRequest } from './server/gemini-tutor-service';
 
 dotenv.config();
 
 const app = express();
 const PORT = Number(process.env.PORT) || 3000;
 
-app.use(express.json());
+app.use(express.json({ limit: '1mb' }));
+
+// Gemini AI Japanese Tutor API endpoint (Development and Production Express)
+app.post('/api/ai-tutor', async (req, res) => {
+  await handleAITutorRequest(req, res);
+});
 
 // Mount Vite middleware in development, or serve dist in production
 async function startServer() {

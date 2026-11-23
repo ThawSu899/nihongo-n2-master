@@ -20,6 +20,8 @@ import {
   Flame,
   Library,
   Award,
+  Bot,
+  TrendingUp,
 } from 'lucide-react';
 import { UserProfile } from '../../domain/models/types';
 
@@ -73,6 +75,8 @@ export const Navigation: React.FC<NavigationProps> = ({
 
   // Group 2: Mastery, Analytics & System
   const secondaryNavItems = [
+    { id: 'ai-tutor', label: 'AI Japanese Tutor', shortLabel: 'AI Tutor', icon: Bot },
+    { id: 'my-learning', label: 'My Learning (AI 分析)', shortLabel: 'Advisor', icon: TrendingUp },
     { id: 'level-bulk-study', label: 'Level Decks (単語帳)', shortLabel: 'Decks', icon: Library },
     { id: 'mock-exam', label: 'JLPT Mock Exam (模試)', shortLabel: 'Mock', icon: Award },
     { id: 'shadowing', label: 'Shadowing (発音)', shortLabel: 'Shadow', icon: Mic },
