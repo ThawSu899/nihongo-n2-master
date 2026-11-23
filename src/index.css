@@ -2,6 +2,83 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-surface-foreground: var(--surface-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+
+  --color-sidebar-background: var(--sidebar-background);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-accent: var(--sidebar-accent);
+}
+
+:root {
+  /* Light Theme (Japanese Academic Paper) Design Tokens */
+  --background: #f5f5f4; /* Academic Paper Neutral */
+  --foreground: #1c1917; /* Stone 900 Deep Charcoal */
+  --surface: #ffffff;    /* Card Surface */
+  --surface-foreground: #1c1917;
+  --card: #ffffff;
+  --card-foreground: #1c1917;
+  --popover: #ffffff;
+  --popover-foreground: #1c1917;
+
+  --primary: #4f46e5;    /* Indigo 600 */
+  --primary-foreground: #ffffff;
+  --secondary: #e11d48;  /* Rose 600 (Japanese Crimson) */
+  --secondary-foreground: #ffffff;
+  --accent: #f43f5e;     /* Rose 500 */
+  --accent-foreground: #ffffff;
+
+  --muted: #f5f5f4;      /* Stone 100 */
+  --muted-foreground: #57534e; /* Stone 600 (> 7:1 contrast on white, > 5:1 on stone-100) */
+  --border: #e7e5e4;     /* Stone 200 */
+  --input: #e7e5e4;
+  --ring: #4f46e5;
+
+  --success: #059669;    /* Emerald 600 */
+  --success-foreground: #ffffff;
+  --warning: #d97706;    /* Amber 600 */
+  --warning-foreground: #ffffff;
+  --destructive: #e11d48;/* Rose 600 */
+  --destructive-foreground: #ffffff;
+  --info: #0284c7;       /* Sky 600 */
+  --info-foreground: #ffffff;
+
+  --sidebar-background: #fafaf9; /* Stone 50 */
+  --sidebar-foreground: #1c1917;
+  --sidebar-primary: #4f46e5;
+  --sidebar-accent: #f5f5f4;
+}
+
 @layer utilities {
   .font-japanese {
     font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
@@ -90,6 +167,43 @@ rt {
 html.dark {
   color-scheme: dark;
 
+  /* Dark Theme (Deep Obsidian Glass) Design Tokens */
+  --background: #09090b; /* Deep Obsidian 950 */
+  --foreground: #fafafa; /* Crisp White 50 */
+  --surface: #121215;    /* Obsidian Surface 900 */
+  --surface-foreground: #f4f4f5;
+  --card: #121215;
+  --card-foreground: #f4f4f5;
+  --popover: #18181b;
+  --popover-foreground: #fafafa;
+
+  --primary: #6366f1;    /* Indigo 500 */
+  --primary-foreground: #ffffff;
+  --secondary: #f43f5e;  /* Rose 500 (Japanese Crimson Dark) */
+  --secondary-foreground: #ffffff;
+  --accent: #fb7185;     /* Rose 400 */
+  --accent-foreground: #ffffff;
+
+  --muted: #1c1c22;
+  --muted-foreground: #a1a1aa; /* Zinc 400 (> 7:1 contrast on #09090b, > 6:1 on #121215) */
+  --border: #27272a;     /* Zinc 800 */
+  --input: #27272a;
+  --ring: #818cf8;
+
+  --success: #10b981;    /* Emerald 500 */
+  --success-foreground: #ffffff;
+  --warning: #f59e0b;    /* Amber 500 */
+  --warning-foreground: #09090b;
+  --destructive: #f43f5e;/* Rose 500 */
+  --destructive-foreground: #ffffff;
+  --info: #38bdf8;       /* Sky 400 */
+  --info-foreground: #09090b;
+
+  --sidebar-background: #0d0d10;
+  --sidebar-foreground: #f4f4f5;
+  --sidebar-primary: #818cf8;
+  --sidebar-accent: #18181b;
+
   /* Inverted Stone Palette: transforms all stone surfaces & text into obsidian palette */
   --color-stone-50: #141417;
   --color-stone-100: #09090b;
@@ -102,6 +216,19 @@ html.dark {
   --color-stone-800: #f5f5f4;
   --color-stone-900: #fafafa;
   --color-stone-950: #09090b;
+
+  /* Harmonized Zinc Palette: matches stone obsidian values to eliminate zinc/stone clash */
+  --color-zinc-50: #141417;
+  --color-zinc-100: #fafafa;
+  --color-zinc-200: #f4f4f5;
+  --color-zinc-300: #d4d4d8;
+  --color-zinc-400: #a1a1aa;
+  --color-zinc-500: #71717a;
+  --color-zinc-600: #52525b;
+  --color-zinc-700: #3f3f46;
+  --color-zinc-800: #27272a;
+  --color-zinc-900: #121215;
+  --color-zinc-950: #09090b;
 }
 
 /* Dark theme card & paper backgrounds (retaining text-white on action buttons) */
@@ -218,6 +345,71 @@ html.dark .text-red-900 { color: #ffe4e6; }
 html.dark .border-red-200 { border-color: rgba(244, 63, 94, 0.35); }
 
 html.dark rt { color: rgba(228, 228, 231, 0.7); }
+
+/* ==========================================================================
+   Dark Theme Zinc Palette Coherence
+   Ensures any zinc classes match the obsidian surfaces & borders seamlessly.
+   ========================================================================== */
+html.dark .bg-zinc-900 { background-color: #121215; }
+html.dark .bg-zinc-800 { background-color: #1a1a20; }
+html.dark .border-zinc-800 { border-color: #27272a; }
+html.dark .border-zinc-700 { border-color: #3f3f46; }
+html.dark .text-zinc-100 { color: #fafafa; }
+html.dark .text-zinc-200 { color: #f4f4f5; }
+html.dark .text-zinc-400 { color: #a1a1aa; }
+html.dark .text-zinc-500 { color: #71717a; }
+
+/* ==========================================================================
+   Interactive Component & Focus Accessibility Standards
+   ========================================================================== */
+:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  font-weight: 500;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.15s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-primary:hover {
+  filter: brightness(1.1);
+}
+.btn-primary:active {
+  transform: scale(0.98);
+}
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  color: var(--secondary-foreground);
+  font-weight: 500;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.15s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-secondary:hover {
+  filter: brightness(1.1);
+}
+.btn-secondary:active {
+  transform: scale(0.98);
+}
+.btn-secondary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
 
 /* ==========================================================================
    Page & Sidebar Scrollbars (Light and Dark Mode)
