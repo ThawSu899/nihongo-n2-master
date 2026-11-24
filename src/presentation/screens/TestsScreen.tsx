@@ -564,23 +564,23 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
       )}
 
       {/* Header & Tabs */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-stone-200 pb-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-4">
         <div>
           <div className="flex items-center space-x-2">
             <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold uppercase">
               {profile.level} Assessment Center
             </span>
           </div>
-          <h1 className="text-2xl font-bold text-stone-900 tracking-tight mt-1">
+          <h1 className="text-2xl font-bold text-foreground tracking-tight mt-1">
             Assessments, Radar &amp; Remediation
           </h1>
-          <p className="text-xs text-stone-600 mt-0.5">
+          <p className="text-xs text-muted-foreground mt-0.5">
             Blueprint-driven tests, conjunctive skill radar, and 1-click targeted weak-point drills.
           </p>
         </div>
 
         {/* 7-Way Segmented Navigation Tab Bar with Active Neon Pill Glides */}
-        <div className="flex items-center space-x-1 bg-stone-200/80 border border-stone-300 rounded-2xl p-1.5 self-start sm:self-auto flex-wrap gap-1 shadow-2xs relative">
+        <div className="flex items-center space-x-1 bg-muted/80 border border-border rounded-2xl p-1.5 self-start sm:self-auto flex-wrap gap-1 shadow-2xs relative">
           {[
             { id: 'tests' as const, label: 'Tests & Blueprints', icon: <CheckSquare className="w-3.5 h-3.5" /> },
             { id: 'cram' as const, label: 'သဒ္ဒါ Cram Lab', icon: <Flame className="w-3.5 h-3.5 text-amber-500" /> },
@@ -597,7 +597,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
                 className={`relative px-3.5 py-1.5 rounded-xl text-xs font-semibold transition-colors duration-200 cursor-pointer flex items-center space-x-1.5 ${
-                  isActive ? 'text-white' : 'text-stone-600 hover:text-stone-900'
+                  isActive ? 'text-white' : 'text-muted-foreground hover:text-foreground'
                 }`}
               >
                 {isActive && (
@@ -619,13 +619,13 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
       {/* ACTIVE WEAK-POINT / LEECH DRILL RUNNER MODAL */}
       {activeDrill && (
-        <div className="bg-white border border-stone-200 rounded-2xl p-6 space-y-5 shadow-sm relative overflow-hidden animate-in zoom-in-95 duration-200">
+        <div className="bg-card border border-border rounded-2xl p-6 space-y-5 shadow-sm relative overflow-hidden animate-in zoom-in-95 duration-200">
           <div className="absolute top-0 left-0 right-0 h-1 bg-indigo-600" />
 
           {!drillResult ? (
             <div className="space-y-4">
               {/* Drill Header */}
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-stone-200 text-xs">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-border text-xs">
                 <div className="flex items-center space-x-2">
                   <span className="px-2 py-0.5 rounded bg-indigo-50 text-indigo-700 border border-indigo-200 font-mono font-bold uppercase tracking-wider flex items-center space-x-1">
                     <Zap className="w-3 h-3 text-indigo-600" />
@@ -638,11 +638,11 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                   )}
                 </div>
 
-                <div className="flex items-center space-x-3 text-stone-500 font-mono">
+                <div className="flex items-center space-x-3 text-muted-foreground font-mono">
                   <span>Question {currentDrillIndex + 1} of {activeDrill.questions.length}</span>
                   <button
                     onClick={() => setActiveDrill(null)}
-                    className="text-stone-500 hover:text-stone-900 transition cursor-pointer"
+                    className="text-muted-foreground hover:text-foreground transition cursor-pointer"
                   >
                     Exit Drill
                   </button>
@@ -654,7 +654,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                 <div className="space-y-5">
                   <div className="space-y-2">
                     <div className="flex items-center justify-between">
-                      <span className="text-[11px] font-mono text-stone-500 uppercase">
+                      <span className="text-[11px] font-mono text-muted-foreground uppercase">
                         Skill Focus: {activeDrill.questions[currentDrillIndex].skill}
                       </span>
                       {activeDrill.questions[currentDrillIndex].hint && (
@@ -663,7 +663,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                         </span>
                       )}
                     </div>
-                    <h3 className="text-lg font-bold text-stone-900 font-japanese tracking-wide leading-relaxed">
+                    <h3 className="text-lg font-bold text-foreground font-japanese tracking-wide leading-relaxed">
                       {activeDrill.questions[currentDrillIndex].prompt}
                     </h3>
                   </div>
@@ -682,7 +682,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                         activeDrill.questions[currentDrillIndex].answer.trim().toLowerCase();
 
                       let btnStyle =
-                        'bg-white border-stone-200 text-stone-800 hover:border-stone-300 hover:bg-stone-50 shadow-xs';
+                        'bg-card border-border text-foreground hover:border-ring/60 hover:bg-muted/50 shadow-xs';
 
                       if (drillAnswerSubmitted) {
                         if (isCorrectAnswer) {
@@ -690,7 +690,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                         } else if (isSelected && !isCorrectAnswer) {
                           btnStyle = 'bg-red-50 border-red-300 text-red-800';
                         } else {
-                          btnStyle = 'bg-stone-50 border-stone-200 text-stone-400 opacity-60';
+                          btnStyle = 'bg-muted/50 border-border text-muted-foreground opacity-60';
                         }
                       } else if (isSelected) {
                         btnStyle = 'bg-indigo-50 border-indigo-300 text-indigo-900 ring-1 ring-indigo-500 shadow-xs';
@@ -704,7 +704,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                           className={`p-3.5 rounded-xl border text-left text-xs font-medium transition flex items-center justify-between cursor-pointer ${btnStyle}`}
                         >
                           <span className="flex items-center space-x-2.5">
-                            <span className="w-5 h-5 rounded-full bg-stone-100 text-stone-600 border border-stone-200 text-[10px] flex items-center justify-center font-mono shrink-0">
+                            <span className="w-5 h-5 rounded-full bg-muted text-muted-foreground border border-border text-[10px] flex items-center justify-center font-mono shrink-0">
                               {i + 1}
                             </span>
                             <span className="font-japanese text-sm">{choice}</span>
@@ -726,7 +726,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
                   {/* Immediate Feedback Box */}
                   {drillAnswerSubmitted && (
-                    <div className="p-4 rounded-xl bg-stone-50 border border-stone-200 space-y-2 animate-in fade-in duration-150">
+                    <div className="p-4 rounded-xl bg-muted/50 border border-border space-y-2 animate-in fade-in duration-150">
                       <div className="flex items-center space-x-2">
                         {drillSelectedChoice?.trim().toLowerCase() ===
                         activeDrill.questions[currentDrillIndex].answer.trim().toLowerCase() ? (
@@ -740,11 +740,11 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                             <span>အဖြေမှား (Incorrect)</span>
                           </div>
                         )}
-                        <span className="text-[10px] text-stone-600 font-mono">
+                        <span className="text-[10px] text-muted-foreground font-mono">
                           • အဖြေမှန်: {activeDrill.questions[currentDrillIndex].answer}
                         </span>
                       </div>
-                      <p className="text-xs text-stone-700">
+                      <p className="text-xs text-foreground">
                         {activeDrill.questions[currentDrillIndex].explanation}
                       </p>
                     </div>
@@ -752,7 +752,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
                   {/* Drill Bottom Actions */}
                   <div className="flex items-center justify-between pt-2">
-                    <span className="text-[11px] text-stone-500 font-mono">
+                    <span className="text-[11px] text-muted-foreground font-mono">
                       Keys 1-4 for quick selection
                     </span>
 
@@ -799,10 +799,10 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
               </div>
 
               <div className="space-y-1">
-                <h3 className="text-xl font-bold text-stone-900">
+                <h3 className="text-xl font-bold text-foreground">
                   {drillResult.score >= 80 ? 'Targeted Drill Cleared!' : 'Remediation Session Completed'}
                 </h3>
-                <p className="text-xs text-stone-600">
+                <p className="text-xs text-muted-foreground">
                   Target: {activeDrill.skillLabel} • Score: {drillResult.score}% (
                   {drillAnswers.filter((a) => a.isCorrect).length}/{drillAnswers.length} correct)
                 </p>
@@ -829,13 +829,13 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                 </button>
                 <button
                   onClick={() => startWeakPointDrill(activeDrill.focusSkill)}
-                  className="px-4 py-2.5 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-800 text-xs font-medium transition cursor-pointer border border-stone-200 shadow-xs"
+                  className="px-4 py-2.5 rounded-xl bg-muted hover:bg-muted/80 text-foreground text-xs font-medium transition cursor-pointer border border-border shadow-xs"
                 >
                   ထပ်မံလေ့ကျင့်မည် (Drill Again)
                 </button>
                 <button
                   onClick={() => setActiveDrill(null)}
-                  className="px-4 py-2.5 rounded-xl bg-white border border-stone-200 hover:bg-stone-50 text-stone-700 text-xs font-medium transition cursor-pointer shadow-xs"
+                  className="px-4 py-2.5 rounded-xl bg-card border border-border hover:bg-muted/50 text-foreground text-xs font-medium transition cursor-pointer shadow-xs"
                 >
                   ပိတ်မည် (Close)
                 </button>
@@ -1011,22 +1011,22 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
           {/* Bunpro-Inspired 4-Stage Leech Ghost Quarantine */}
           <GhostQuarantineHub />
 
-          <div className="bg-white border border-stone-200 rounded-2xl p-6 shadow-sm space-y-4">
+          <div className="bg-card border border-border rounded-2xl p-6 shadow-sm space-y-4">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
               <div className="space-y-1">
                 <div className="flex items-center space-x-2">
                   <span className="px-2 py-0.5 rounded bg-amber-50 text-amber-700 border border-amber-200 text-[10px] font-mono font-bold uppercase">
                     Quarantine Sandbox
                   </span>
-                  <span className="text-xs text-stone-600 font-mono">
+                  <span className="text-xs text-muted-foreground font-mono">
                     {quarantineLeeches.length} items flagged with persistent failure
                   </span>
                 </div>
-                <h2 className="text-xl font-bold text-stone-900 flex items-center space-x-2">
+                <h2 className="text-xl font-bold text-foreground flex items-center space-x-2">
                   <Bug className="w-5 h-5 text-amber-600" />
                   <span>Stubborn Item Quarantine &amp; Isolated Review</span>
                 </h2>
-                <p className="text-xs text-stone-600 max-w-2xl leading-relaxed">
+                <p className="text-xs text-muted-foreground max-w-2xl leading-relaxed">
                   When a flashcard accumulates high lapse counts (≥3-5 failures), it enters Leech Quarantine. This prevents interference loops from dragging down your regular daily SRS retention. Practice these items in targeted quarantine drills to restore fluency.
                 </p>
               </div>
@@ -1042,7 +1042,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                 </button>
                 <button
                   onClick={() => setActiveTab('cram')}
-                  className="px-4 py-3 rounded-xl bg-white border border-stone-300 hover:border-amber-400 text-amber-800 text-xs font-semibold shadow-xs transition active:scale-95 flex items-center justify-center space-x-2 cursor-pointer"
+                  className="px-4 py-3 rounded-xl bg-card border border-border hover:border-amber-400 text-amber-800 text-xs font-semibold shadow-xs transition active:scale-95 flex items-center justify-center space-x-2 cursor-pointer"
                 >
                   <Flame className="w-4 h-4 text-amber-500" />
                   <span className="font-myanmar">သဒ္ဒါ Cram Lab သို့</span>
@@ -1050,7 +1050,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                 {quarantineLeeches.length === 0 && (
                   <button
                     onClick={handleSeedQuarantine}
-                    className="px-4 py-2 rounded-xl bg-white border border-stone-200 hover:bg-stone-50 text-stone-700 text-xs transition cursor-pointer shadow-xs"
+                    className="px-4 py-2 rounded-xl bg-card border border-border hover:bg-muted/50 text-foreground text-xs transition cursor-pointer shadow-xs"
                   >
                     Simulate Diagnostic Leeches
                   </button>
@@ -1065,17 +1065,17 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
               {quarantineLeeches.map((leech) => (
                 <div
                   key={leech.cardId}
-                  className="bg-white border border-stone-200 hover:border-amber-400 rounded-xl p-4 space-y-3 transition group shadow-sm"
+                  className="bg-card border border-border hover:border-amber-400 rounded-xl p-4 space-y-3 transition group shadow-sm"
                 >
                   <div className="flex items-start justify-between">
                     <div>
                       <div className="flex items-center space-x-2">
-                        <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200 text-stone-600 uppercase">
+                        <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-muted border border-border text-muted-foreground uppercase">
                           {leech.itemType}
                         </span>
-                        <span className="text-[10px] font-mono text-stone-500">{leech.lessonId}</span>
+                        <span className="text-[10px] font-mono text-muted-foreground">{leech.lessonId}</span>
                       </div>
-                      <h4 className="text-xl font-bold font-japanese text-stone-900 tracking-wide mt-1">
+                      <h4 className="text-xl font-bold font-japanese text-foreground tracking-wide mt-1">
                         {leech.prompt}
                       </h4>
                       {leech.reading && leech.reading !== leech.prompt && (
@@ -1090,18 +1090,18 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                         <AlertCircle className="w-3 h-3 text-rose-600" />
                         <span>{leech.lapses} Lapses</span>
                       </span>
-                      <div className="text-[10px] font-mono text-stone-500">
+                      <div className="text-[10px] font-mono text-muted-foreground">
                         {leech.errorCount} failures / {leech.reviewCount || leech.lapses} reviews
                       </div>
                     </div>
                   </div>
 
-                  <div className="p-2.5 rounded-lg bg-stone-50 border border-stone-200 text-xs text-stone-800 space-y-1">
-                    <div className="text-stone-800">
+                  <div className="p-2.5 rounded-lg bg-muted/50 border border-border text-xs text-foreground space-y-1">
+                    <div className="text-foreground">
                       <strong>Meaning:</strong> {leech.meaning}
                     </div>
                     {leech.exampleSentence && (
-                      <div className="text-[11px] text-stone-600 font-japanese italic truncate">
+                      <div className="text-[11px] text-muted-foreground font-japanese italic truncate">
                         {leech.exampleSentence}
                       </div>
                     )}
@@ -1119,7 +1119,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                     <button
                       onClick={() => handleRehabilitateItem(leech.cardId)}
                       disabled={rehabilitatingCardId === leech.cardId}
-                      className="px-2.5 py-1 rounded bg-white hover:bg-emerald-50 border border-stone-200 hover:border-emerald-300 text-stone-700 hover:text-emerald-800 text-[11px] font-medium transition flex items-center space-x-1 disabled:opacity-50 cursor-pointer shadow-xs"
+                      className="px-2.5 py-1 rounded bg-card hover:bg-emerald-50 border border-border hover:border-emerald-300 text-foreground hover:text-emerald-800 text-[11px] font-medium transition flex items-center space-x-1 disabled:opacity-50 cursor-pointer shadow-xs"
                     >
                       {rehabilitatingCardId === leech.cardId ? (
                         <RotateCcw className="w-3 h-3 animate-spin" />
@@ -1133,17 +1133,17 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
               ))}
             </div>
           ) : (
-            <div className="text-center py-12 space-y-3 bg-stone-50 rounded-2xl border border-dashed border-stone-300">
+            <div className="text-center py-12 space-y-3 bg-muted/50 rounded-2xl border border-dashed border-border">
               <ShieldCheck className="w-12 h-12 text-emerald-600 mx-auto" />
               <div className="space-y-1">
-                <h3 className="text-base font-semibold text-stone-900">Quarantine Zone Clean</h3>
-                <p className="text-xs text-stone-600 max-w-sm mx-auto">
+                <h3 className="text-base font-semibold text-foreground">Quarantine Zone Clean</h3>
+                <p className="text-xs text-muted-foreground max-w-sm mx-auto">
                   No stubborn leech items currently detected with repetitive failure lapses.
                 </p>
               </div>
               <button
                 onClick={handleSeedQuarantine}
-                className="px-4 py-2 rounded-xl bg-white border border-stone-200 hover:bg-stone-50 text-stone-700 text-xs font-medium transition cursor-pointer shadow-xs"
+                className="px-4 py-2 rounded-xl bg-card border border-border hover:bg-muted/50 text-foreground text-xs font-medium transition cursor-pointer shadow-xs"
               >
                 Populate Diagnostic Leeches for Demonstration
               </button>
@@ -1156,14 +1156,14 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
       {activeTab === 'tests' && (
         <>
           {/* Prominent Official N2 Mock Simulation (本番模試) Hero Card with Obsidian Glass & Readiness Ring */}
-          <div className="relative overflow-hidden rounded-3xl bg-white border border-stone-200 hover:border-indigo-300 p-6 sm:p-8 shadow-sm transition duration-300 group">
+          <div className="relative overflow-hidden rounded-3xl bg-card border border-border hover:border-indigo-300 p-6 sm:p-8 shadow-sm transition duration-300 group">
             <div className="absolute top-0 right-0 transform translate-x-8 -translate-y-8 w-48 h-48 bg-indigo-50/50 rounded-full blur-3xl pointer-events-none group-hover:bg-indigo-100/50 transition-all duration-500" />
             <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 relative z-10">
               <div className="space-y-4 max-w-2xl">
                 <div className="flex items-center space-x-3 flex-wrap gap-y-2">
                   {/* Readiness HUD Circle Ring */}
                   {readiness && (
-                    <div className="flex items-center gap-2 px-2.5 py-1 rounded-xl bg-stone-100 border border-stone-200 shadow-2xs">
+                    <div className="flex items-center gap-2 px-2.5 py-1 rounded-xl bg-muted border border-border shadow-2xs">
                       <div className="relative w-8 h-8 shrink-0 flex items-center justify-center">
                         <svg className="w-8 h-8 transform -rotate-90">
                           <circle
@@ -1172,7 +1172,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                             r="12"
                             stroke="currentColor"
                             strokeWidth="2.5"
-                            className="text-stone-200"
+                            className="text-muted-foreground/40"
                             fill="transparent"
                           />
                           <circle
@@ -1188,11 +1188,11 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                             strokeLinecap="round"
                           />
                         </svg>
-                        <span className="absolute inset-0 flex items-center justify-center text-[9px] font-mono font-bold text-stone-900">
+                        <span className="absolute inset-0 flex items-center justify-center text-[9px] font-mono font-bold text-foreground">
                           {readiness.overallReadinessPct}%
                         </span>
                       </div>
-                      <span className="text-[10px] font-mono text-stone-600 uppercase tracking-wider">
+                      <span className="text-[10px] font-mono text-muted-foreground uppercase tracking-wider">
                         Readiness
                       </span>
                     </div>
@@ -1202,31 +1202,31 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                     <Award className="w-3.5 h-3.5 text-amber-500" />
                     <span>HONBAN SIMULATION · 本番模試</span>
                   </span>
-                  <span className="px-2.5 py-1 rounded-full bg-stone-100 text-stone-700 border border-stone-200 text-[10px] font-mono">
+                  <span className="px-2.5 py-1 rounded-full bg-muted text-foreground border border-border text-[10px] font-mono">
                     Official JLPT N2 Standard
                   </span>
                 </div>
 
                 <div>
-                  <h2 className="text-xl sm:text-2xl font-extrabold text-stone-900 tracking-tight font-japanese">
+                  <h2 className="text-xl sm:text-2xl font-extrabold text-foreground tracking-tight font-japanese">
                     Official JLPT N2 Mock Exam Simulator (本番シミュレーション)
                   </h2>
-                  <p className="text-xs sm:text-sm text-stone-600 mt-1.5 leading-relaxed">
+                  <p className="text-xs sm:text-sm text-muted-foreground mt-1.5 leading-relaxed">
                     Test your authentic exam stamina in strict dual sessions: <strong>Section 1 (105 min)</strong> Language Knowledge &amp; split-pane Dokkai reading passages, followed by <strong>Section 2 (50 min)</strong> non-stop Choukai listening tape track. Evaluated under official 180-point scaled algorithms with sectional 19/60 benchmark verification.
                   </p>
                 </div>
 
                 {/* Badges / Metrics Pills */}
-                <div className="flex items-center flex-wrap gap-2 text-[11px] font-mono text-stone-700 pt-1">
-                  <span className="px-2.5 py-1 rounded-xl bg-stone-50 border border-stone-200 flex items-center space-x-1.5">
+                <div className="flex items-center flex-wrap gap-2 text-[11px] font-mono text-foreground pt-1">
+                  <span className="px-2.5 py-1 rounded-xl bg-muted/50 border border-border flex items-center space-x-1.5">
                     <Clock className="w-3.5 h-3.5 text-indigo-600" />
                     <span>Sec 1: 105 Min (言語知識・読解)</span>
                   </span>
-                  <span className="px-2.5 py-1 rounded-xl bg-stone-50 border border-stone-200 flex items-center space-x-1.5">
+                  <span className="px-2.5 py-1 rounded-xl bg-muted/50 border border-border flex items-center space-x-1.5">
                     <Headphones className="w-3.5 h-3.5 text-indigo-600" />
                     <span>Sec 2: 50 Min (聴解)</span>
                   </span>
-                  <span className="px-2.5 py-1 rounded-xl bg-stone-50 border border-stone-200 flex items-center space-x-1.5">
+                  <span className="px-2.5 py-1 rounded-xl bg-muted/50 border border-border flex items-center space-x-1.5">
                     <Award className="w-3.5 h-3.5 text-amber-600" />
                     <span>180 Scaled Points (60 / 60 / 60)</span>
                   </span>
@@ -1249,9 +1249,9 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                   );
                   if (!latestMock) return null;
                   return (
-                    <div className="bg-stone-50 border border-stone-200 p-3 rounded-2xl text-xs flex items-center space-x-3 text-stone-700 shadow-2xs">
-                      <span className="text-[10px] uppercase font-mono text-stone-500">Latest Honban Record:</span>
-                      <span className="font-mono font-bold text-stone-900">
+                    <div className="bg-muted/50 border border-border p-3 rounded-2xl text-xs flex items-center space-x-3 text-foreground shadow-2xs">
+                      <span className="text-[10px] uppercase font-mono text-muted-foreground">Latest Honban Record:</span>
+                      <span className="font-mono font-bold text-foreground">
                         {Math.round(latestMock.score * 1.8)} / 180 点
                       </span>
                       <span
@@ -1263,7 +1263,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                       >
                         {latestMock.passed ? '合格 PASS' : '不合格 FAIL'}
                       </span>
-                      <span className="text-[10px] text-stone-500 font-mono">
+                      <span className="text-[10px] text-muted-foreground font-mono">
                         {new Date(latestMock.takenAt).toLocaleDateString()}
                       </span>
                     </div>
@@ -1284,7 +1284,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                   <span>Start Full Simulation (本番模試を開始)</span>
                   <ChevronRight className="w-4 h-4" />
                 </button>
-                <span className="text-[10px] text-stone-500 font-mono text-center mt-2">
+                <span className="text-[10px] text-muted-foreground font-mono text-center mt-2">
                   Strict exam rules • Official scoring
                 </span>
               </div>
@@ -1293,21 +1293,21 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
           {/* Quick Weak-Point Action Banner (Rose/Amber) */}
           {weaknessReport && (
-            <div className="bg-white border border-stone-200 rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-sm">
+            <div className="bg-card border border-border rounded-xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 shadow-sm">
               <div className="flex items-center space-x-3">
                 <div className="w-9 h-9 rounded-xl bg-indigo-50 border border-indigo-200 flex items-center justify-center shrink-0 text-indigo-600">
                   <Zap className="w-5 h-5 text-indigo-600" />
                 </div>
                 <div>
                   <div className="flex items-center space-x-2">
-                    <span className="text-xs font-bold text-stone-900">
+                    <span className="text-xs font-bold text-foreground">
                       Weak-Point Remediation Available: {weaknessReport.weakestSkillLabel}
                     </span>
                     <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-rose-50 text-rose-700 border border-rose-200">
                       {weaknessReport.weakestSkillScore}% vs {weaknessReport.targetThresholdPct}%
                     </span>
                   </div>
-                  <p className="text-[11px] text-stone-600 mt-0.5">
+                  <p className="text-[11px] text-muted-foreground mt-0.5">
                     Launch a 12-question custom practice session targeted at your lowest radar competency.
                   </p>
                 </div>
@@ -1324,21 +1324,21 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
           )}
 
           {/* Interactive Dokkai (Reading Comprehension) Workbench Spotlight Card */}
-          <div className="bg-white border border-stone-200 hover:border-indigo-300 rounded-xl p-4.5 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4 transition">
+          <div className="bg-card border border-border hover:border-indigo-300 rounded-xl p-4.5 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4 transition">
             <div className="flex items-start space-x-3.5">
               <div className="w-10 h-10 rounded-xl bg-indigo-50 border border-indigo-200 flex items-center justify-center shrink-0 text-indigo-600 shadow-xs">
                 <BookOpen className="w-5 h-5" />
               </div>
               <div>
                 <div className="flex items-center space-x-2 flex-wrap">
-                  <h3 className="text-sm sm:text-base font-bold text-stone-900 font-japanese">
+                  <h3 className="text-sm sm:text-base font-bold text-foreground font-japanese">
                     Interactive Dokkai (Reading Comprehension) Workbench
                   </h3>
                   <span className="px-2 py-0.5 rounded bg-indigo-50 text-indigo-700 border border-indigo-200 font-mono text-[10px] font-bold">
                     短文 · 中文 · 長文
                   </span>
                 </div>
-                <p className="text-xs text-stone-600 mt-1 max-w-2xl leading-relaxed">
+                <p className="text-xs text-muted-foreground mt-1 max-w-2xl leading-relaxed">
                   Train reading stamina with split-pane passages, toggleable Furigana, paragraph numbers (¶), sentence arguments highlighter (筆者の主張), real-time CPM speed metrics, answer evidence-linking, and 1-Click Vocab Mining to SRS.
                 </p>
               </div>
@@ -1355,21 +1355,21 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
           </div>
 
           {/* Interactive Choukai (Listening Comprehension) & Shadowing Studio Spotlight Card */}
-          <div className="bg-white border border-stone-200 hover:border-indigo-300 rounded-xl p-4.5 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4 transition">
+          <div className="bg-card border border-border hover:border-indigo-300 rounded-xl p-4.5 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4 transition">
             <div className="flex items-start space-x-3.5">
               <div className="w-10 h-10 rounded-xl bg-indigo-50 border border-indigo-200 flex items-center justify-center shrink-0 text-indigo-600 shadow-xs">
                 <Headphones className="w-5 h-5" />
               </div>
               <div>
                 <div className="flex items-center space-x-2 flex-wrap">
-                  <h3 className="text-sm sm:text-base font-bold text-stone-900 font-japanese">
+                  <h3 className="text-sm sm:text-base font-bold text-foreground font-japanese">
                     Choukai (Listening Comprehension) &amp; Shadowing Studio
                   </h3>
                   <span className="px-2 py-0.5 rounded bg-indigo-50 text-indigo-700 border border-indigo-200 font-mono text-[10px] font-bold">
                     課題理解 · ポイント理解 · 即時応答
                   </span>
                 </div>
-                <p className="text-xs text-stone-600 mt-1 max-w-2xl leading-relaxed">
+                <p className="text-xs text-muted-foreground mt-1 max-w-2xl leading-relaxed">
                   Train listening acuity with 3-stage visibility (Blind Exam, Script, Clue Breakdown), speaker pitch modulation, speed selection (0.75x–1.25x), sentence-by-sentence shadowing loops (AB-Repeat), and distractor trap breakdowns.
                 </p>
               </div>
@@ -1386,22 +1386,22 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
           </div>
 
           {/* Interactive Star Scramble Lab Spotlight Card */}
-          <div className="bg-white border border-stone-200 hover:border-amber-400 rounded-2xl p-4.5 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4 transition">
+          <div className="bg-card border border-border hover:border-amber-400 rounded-2xl p-4.5 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4 transition">
             <div className="flex items-start space-x-3.5">
               <div className="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center shrink-0 text-amber-600 shadow-2xs">
                 <Star className="w-5 h-5 fill-amber-500/20" />
               </div>
               <div>
                 <div className="flex items-center space-x-2 flex-wrap">
-                  <h3 className="text-sm sm:text-base font-bold text-stone-900 font-japanese">
+                  <h3 className="text-sm sm:text-base font-bold text-foreground font-japanese">
                     ★ 문장 조립 / JLPT Star Grammar Puzzle (ကြယ်ပွင့် ဝါကျစီ လေ့ကျင့်ခန်း)
                   </h3>
                   <span className="px-2 py-0.5 rounded bg-amber-50 text-amber-800 border border-amber-200 font-mono text-[10px] font-bold">
                     配点対象 · 接続連鎖分析
                   </span>
                 </div>
-                <p className="text-xs text-stone-600 mt-1 max-w-2xl leading-relaxed">
-                  Master the highest-weight grammar question on the JLPT with authentic 4-blank puzzle slots <code className="text-amber-800 font-mono">[ 1 ] [ 2 ] [ ★ ] [ 4 ]</code>, number shortcuts (1–4), instant grammatical connection diagrams (<span className="font-japanese text-stone-800">接続の理由</span>), and English &amp; Burmese translations.
+                <p className="text-xs text-muted-foreground mt-1 max-w-2xl leading-relaxed">
+                  Master the highest-weight grammar question on the JLPT with authentic 4-blank puzzle slots <code className="text-amber-800 font-mono">[ 1 ] [ 2 ] [ ★ ] [ 4 ]</code>, number shortcuts (1–4), instant grammatical connection diagrams (<span className="font-japanese text-foreground">接続の理由</span>), and English &amp; Burmese translations.
                 </p>
               </div>
             </div>
@@ -1420,7 +1420,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
           <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 flex items-start space-x-3 text-xs text-amber-800">
             <AlertCircle className="w-5 h-5 text-amber-600 shrink-0 mt-0.5" />
             <div>
-              <strong className="block text-stone-900">Learning Readiness Indicator Policy:</strong>
+              <strong className="block text-foreground">Learning Readiness Indicator Policy:</strong>
               <span>
                 This tool provides a <strong>learning readiness indicator — not a prediction of actual JLPT results</strong>. Official JLPT outcomes depend on examination room performance, official test scoring, and broader unscripted exposure.
               </span>
@@ -1429,10 +1429,10 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
           {/* Active Formal Assessment Test Modal/View */}
           {activeTestType && (
-            <div className="bg-white border border-stone-200 rounded-2xl p-6 space-y-4 shadow-sm">
+            <div className="bg-card border border-border rounded-2xl p-6 space-y-4 shadow-sm">
               {!testResult ? (
                 <div className="space-y-4">
-                  <div className="flex justify-between items-center text-xs text-stone-500 pb-2 border-b border-stone-200">
+                  <div className="flex justify-between items-center text-xs text-muted-foreground pb-2 border-b border-border">
                     <span className="font-semibold text-indigo-600 uppercase font-mono">
                       {activeTestType.toUpperCase()} ASSESSMENT
                     </span>
@@ -1441,7 +1441,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
                   {testQuestions[currentQIndex] && (
                     <div className="space-y-4">
-                      <h3 className="text-base font-semibold text-stone-900 font-japanese">
+                      <h3 className="text-base font-semibold text-foreground font-japanese">
                         {testQuestions[currentQIndex].prompt}
                       </h3>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
@@ -1449,10 +1449,10 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                           <button
                             key={opt.id}
                             onClick={() => handleSelectOption(opt)}
-                            className="p-3 rounded-xl border border-stone-200 bg-white hover:border-indigo-400 hover:bg-stone-50 text-stone-800 text-left text-xs font-medium transition flex items-center justify-between cursor-pointer shadow-xs"
+                            className="p-3 rounded-xl border border-border bg-card hover:border-indigo-400 hover:bg-muted/50 text-foreground text-left text-xs font-medium transition flex items-center justify-between cursor-pointer shadow-xs"
                           >
                             <span className="flex items-center">
-                              <span className="w-5 h-5 rounded-full bg-stone-100 text-stone-600 text-[10px] flex items-center justify-center mr-2 font-mono">
+                              <span className="w-5 h-5 rounded-full bg-muted text-muted-foreground text-[10px] flex items-center justify-center mr-2 font-mono">
                                 {i + 1}
                               </span>
                               <span className="font-japanese">{opt.text}</span>
@@ -1474,15 +1474,15 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                   >
                     {testResult.passed ? <Check className="w-8 h-8" /> : <X className="w-8 h-8" />}
                   </div>
-                  <h3 className="text-xl font-bold text-stone-900">
+                  <h3 className="text-xl font-bold text-foreground">
                     {testResult.passed ? 'Assessment Passed!' : 'Assessment Not Passed'}
                   </h3>
-                  <p className="text-xs text-stone-600">
+                  <p className="text-xs text-muted-foreground">
                     Score: {testResult.score}% • Duration: {Math.round(testResult.durationSeconds / 60)} min
                   </p>
 
                   {testResult.comparisonWithPrior && (
-                    <div className="text-xs text-stone-600 bg-stone-50 p-2.5 rounded-lg border border-stone-200 inline-block">
+                    <div className="text-xs text-muted-foreground bg-muted/50 p-2.5 rounded-lg border border-border inline-block">
                       Comparison vs prior:{' '}
                       {testResult.comparisonWithPrior.scoreDiff >= 0
                         ? `+${testResult.comparisonWithPrior.scoreDiff}%`
@@ -1493,17 +1493,17 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
                   {/* Review of incorrect answers */}
                   {answers.some((a) => !a.isCorrect) && (
-                    <div className="text-left mt-4 p-4 bg-stone-50 border border-stone-200 rounded-xl space-y-3 max-w-xl mx-auto">
+                    <div className="text-left mt-4 p-4 bg-muted/50 border border-border rounded-xl space-y-3 max-w-xl mx-auto">
                       <h4 className="text-xs font-semibold uppercase text-rose-700">Questions to Review</h4>
                       <div className="space-y-2.5 max-h-60 overflow-y-auto pr-1">
                         {answers
                           .filter((a) => !a.isCorrect)
                           .map((item, idx) => (
-                            <div key={idx} className="border-b border-stone-200 pb-2 last:border-0 text-xs space-y-1">
-                              <p className="text-stone-800 font-medium font-japanese">{item.question.prompt}</p>
+                            <div key={idx} className="border-b border-border pb-2 last:border-0 text-xs space-y-1">
+                              <p className="text-foreground font-medium font-japanese">{item.question.prompt}</p>
                               <p className="text-rose-700 text-[11px]">Correct Answer: {item.question.answer}</p>
                               {item.question.explanation && (
-                                <p className="text-stone-600 text-[10px]">{item.question.explanation}</p>
+                                <p className="text-muted-foreground text-[10px]">{item.question.explanation}</p>
                               )}
                             </div>
                           ))}
@@ -1513,7 +1513,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
                   <button
                     onClick={() => setActiveTestType(null)}
-                    className="px-6 py-2.5 rounded-xl bg-white border border-stone-200 hover:bg-stone-50 text-stone-700 text-xs font-semibold cursor-pointer shadow-xs"
+                    className="px-6 py-2.5 rounded-xl bg-card border border-border hover:bg-muted/50 text-foreground text-xs font-semibold cursor-pointer shadow-xs"
                   >
                     Close Assessment
                   </button>
@@ -1531,13 +1531,13 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                     <Sparkles className="w-5 h-5" />
                   </div>
                   <div>
-                    <h2 className="text-base sm:text-lg font-bold text-stone-900 dark:text-zinc-100 flex items-center gap-2">
+                    <h2 className="text-base sm:text-lg font-bold text-foreground flex items-center gap-2">
                       Start Here · စတင်လေ့လာရန် လမ်းညွှန်
                       <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-indigo-100 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-400 border border-indigo-200 dark:border-indigo-800">
                         New Learner Roadmap
                       </span>
                     </h2>
-                    <p className="text-xs text-stone-600 dark:text-zinc-400 mt-0.5 font-myanmar">
+                    <p className="text-xs text-muted-foreground mt-0.5 font-myanmar">
                       JLPT {profile.level} အောင်မြင်ရန်အတွက် လိုက်နာရမည့် အခြေခံ အဆင့် ၃ ဆင့်
                     </p>
                   </div>
@@ -1555,7 +1555,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
               {/* 3-Step Grid */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3.5 pt-1">
                 {/* Step 1 */}
-                <div className="p-4 rounded-2xl bg-white/90 dark:bg-zinc-800/70 border border-stone-200/80 dark:border-zinc-700/60 space-y-2">
+                <div className="p-4 rounded-2xl bg-card/90 border border-border/80 space-y-2">
                   <div className="flex items-center justify-between">
                     <span className="w-6 h-6 rounded-lg bg-indigo-100 dark:bg-indigo-950/70 text-indigo-700 dark:text-indigo-400 font-bold font-mono text-xs flex items-center justify-center">
                       1
@@ -1564,46 +1564,46 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                       Current Step
                     </span>
                   </div>
-                  <h3 className="text-xs font-bold text-stone-900 dark:text-zinc-100">
+                  <h3 className="text-xs font-bold text-foreground">
                     Step 1: First Lesson (ပထမဆုံး သင်ခန်းစာ)
                   </h3>
-                  <p className="text-[11px] text-stone-600 dark:text-zinc-400 leading-relaxed">
+                  <p className="text-[11px] text-muted-foreground leading-relaxed">
                     Study Lesson {activeLesson.number}: {activeLesson.title}. Complete vocabulary, kanji, and grammar stages, then pass the immediate lesson assessment.
                   </p>
                 </div>
 
                 {/* Step 2 */}
-                <div className="p-4 rounded-2xl bg-white/90 dark:bg-zinc-800/70 border border-stone-200/80 dark:border-zinc-700/60 space-y-2">
+                <div className="p-4 rounded-2xl bg-card/90 border border-border/80 space-y-2">
                   <div className="flex items-center justify-between">
-                    <span className="w-6 h-6 rounded-lg bg-stone-100 dark:bg-zinc-700 text-stone-700 dark:text-zinc-300 font-bold font-mono text-xs flex items-center justify-center">
+                    <span className="w-6 h-6 rounded-lg bg-muted text-foreground font-bold font-mono text-xs flex items-center justify-center">
                       2
                     </span>
-                    <span className="text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-stone-100 dark:bg-zinc-700 text-stone-600 dark:text-zinc-400">
+                    <span className="text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-muted text-muted-foreground">
                       Next Up
                     </span>
                   </div>
-                  <h3 className="text-xs font-bold text-stone-900 dark:text-zinc-100">
+                  <h3 className="text-xs font-bold text-foreground">
                     Step 2: First SRS Review (ပထမဆုံး SRS ကတ်လေ့ကျင့်မှု)
                   </h3>
-                  <p className="text-[11px] text-stone-600 dark:text-zinc-400 leading-relaxed">
+                  <p className="text-[11px] text-muted-foreground leading-relaxed">
                     Open the Cram Lab or Flashcard deck to review new cards. Spaced repetition solidifies long-term memory toward the 85% retention gate.
                   </p>
                 </div>
 
                 {/* Step 3 */}
-                <div className="p-4 rounded-2xl bg-white/90 dark:bg-zinc-800/70 border border-stone-200/80 dark:border-zinc-700/60 space-y-2">
+                <div className="p-4 rounded-2xl bg-card/90 border border-border/80 space-y-2">
                   <div className="flex items-center justify-between">
-                    <span className="w-6 h-6 rounded-lg bg-stone-100 dark:bg-zinc-700 text-stone-700 dark:text-zinc-300 font-bold font-mono text-xs flex items-center justify-center">
+                    <span className="w-6 h-6 rounded-lg bg-muted text-foreground font-bold font-mono text-xs flex items-center justify-center">
                       3
                     </span>
-                    <span className="text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-stone-100 dark:bg-zinc-700 text-stone-600 dark:text-zinc-400">
+                    <span className="text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-muted text-muted-foreground">
                       Milestone
                     </span>
                   </div>
-                  <h3 className="text-xs font-bold text-stone-900 dark:text-zinc-100">
+                  <h3 className="text-xs font-bold text-foreground">
                     Step 3: First Assessment (ပထမဆုံး အကဲဖြတ် စာမေးပွဲ)
                   </h3>
-                  <p className="text-[11px] text-stone-600 dark:text-zinc-400 leading-relaxed">
+                  <p className="text-[11px] text-muted-foreground leading-relaxed">
                     Take a Weekly Review Test or Chapter Audit to test reading, listening, vocabulary, and grammar under exam conditions.
                   </p>
                 </div>
@@ -1618,7 +1618,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
             const ActionIcon = recommendation.actionIcon;
 
             return (
-              <div className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-3xl p-6 sm:p-7 space-y-3.5 shadow-sm">
+              <div className="bg-card dark:bg-zinc-900 border border-border dark:border-zinc-800 rounded-3xl p-6 sm:p-7 space-y-3.5 shadow-sm">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                   <div className="flex items-center space-x-2.5">
                     <div className="w-8 h-8 rounded-xl bg-amber-50 dark:bg-amber-950/50 text-amber-600 dark:text-amber-400 border border-amber-200 dark:border-amber-800 flex items-center justify-center shrink-0">
@@ -1628,26 +1628,26 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                       <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-amber-700 dark:text-amber-400 block">
                         Recommended Next Step · အကြံပြုထားသော နောက်တစ်ဆင့်
                       </span>
-                      <h3 className="text-sm sm:text-base font-bold text-stone-900 dark:text-zinc-100">
+                      <h3 className="text-sm sm:text-base font-bold text-foreground dark:text-zinc-100">
                         {recommendation.title}
                       </h3>
                     </div>
                   </div>
-                  <span className="self-start sm:self-auto px-2.5 py-1 rounded-full text-[10px] font-mono font-semibold bg-stone-100 dark:bg-zinc-800 text-stone-700 dark:text-zinc-300 border border-stone-200 dark:border-zinc-700 shrink-0">
+                  <span className="self-start sm:self-auto px-2.5 py-1 rounded-full text-[10px] font-mono font-semibold bg-muted text-foreground border border-border shrink-0">
                     {recommendation.badgeText}
                   </span>
                 </div>
 
-                <div className="text-xs space-y-1 text-stone-600 dark:text-zinc-400">
+                <div className="text-xs space-y-1 text-muted-foreground">
                   <p>{recommendation.descriptionEn}</p>
-                  <p className="font-myanmar text-[11px] text-stone-500 dark:text-zinc-500">
+                  <p className="font-myanmar text-[11px] text-muted-foreground">
                     {recommendation.descriptionMy}
                   </p>
                 </div>
 
-                <div className="pt-1 flex flex-wrap items-center justify-between gap-3 border-t border-stone-100 dark:border-zinc-800">
-                  <span className="text-[11px] font-mono text-stone-500 dark:text-zinc-500">
-                    Target: <strong className="text-stone-700 dark:text-zinc-300">{recommendation.gateName}</strong>
+                <div className="pt-1 flex flex-wrap items-center justify-between gap-3 border-t border-border">
+                  <span className="text-[11px] font-mono text-muted-foreground">
+                    Target: <strong className="text-foreground">{recommendation.gateName}</strong>
                   </span>
                   <button
                     type="button"
@@ -1664,8 +1664,8 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
           {/* JLPT Learning Readiness Engine Gauge */}
           {readiness && (
-            <div className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-3xl p-6 sm:p-7 space-y-5 shadow-sm">
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-200 dark:border-zinc-800 pb-5">
+            <div className="bg-card border border-border rounded-3xl p-6 sm:p-7 space-y-5 shadow-sm">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-border pb-5">
                 <div className="flex items-center space-x-4">
                   {/* Readiness HUD Percentage Ring */}
                   <div className="relative w-16 h-16 shrink-0 flex items-center justify-center">
@@ -1676,7 +1676,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                         r="25"
                         stroke="currentColor"
                         strokeWidth="4.5"
-                        className="text-stone-200 dark:text-zinc-700"
+                        className="text-muted-foreground/40"
                         fill="transparent"
                       />
                       <circle
@@ -1693,18 +1693,18 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                       />
                     </svg>
                     <div className="absolute inset-0 flex flex-col items-center justify-center font-mono">
-                      <span className="text-sm font-bold text-stone-900 dark:text-zinc-100">
+                      <span className="text-sm font-bold text-foreground">
                         {readiness.overallReadinessPct}%
                       </span>
                     </div>
                   </div>
 
                   <div>
-                    <h2 className="text-lg font-bold text-stone-900 dark:text-zinc-100 flex items-center space-x-2">
+                    <h2 className="text-lg font-bold text-foreground flex items-center space-x-2">
                       <Award className="w-5 h-5 text-emerald-600 dark:text-emerald-500" />
                       <span>JLPT {profile.level} Conjunctive Readiness Engine</span>
                     </h2>
-                    <p className="text-xs text-stone-600 dark:text-zinc-400 mt-0.5">
+                    <p className="text-xs text-muted-foreground mt-0.5">
                       Overall composite requires meeting all 5 prerequisite retention &amp; score gates.
                     </p>
                   </div>
@@ -1717,7 +1717,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                         ? 'bg-emerald-50 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-400 border-emerald-200 dark:border-emerald-800 shadow-2xs'
                         : readiness.status === 'approaching_readiness'
                         ? 'bg-indigo-50 dark:bg-indigo-950/50 text-indigo-700 dark:text-indigo-400 border-indigo-200 dark:border-indigo-800 shadow-2xs'
-                        : 'bg-stone-100 dark:bg-zinc-800 text-stone-600 dark:text-zinc-400 border-stone-200 dark:border-zinc-700'
+                        : 'bg-muted text-muted-foreground border-border'
                     }`}
                   >
                     {readiness.status.replace('_', ' ')}
@@ -1728,9 +1728,9 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
               {/* All 5 Prerequisite Readiness Gates (Itemized explicitly with Bilingual Labels, Target Thresholds, Visual Bars, and Pass/Pending Badges) */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-xs">
                 {/* Gate 1: Lesson Curriculum Mastery */}
-                <div className="p-3.5 rounded-2xl bg-stone-50 dark:bg-zinc-800/60 border border-stone-200 dark:border-zinc-800 space-y-2">
+                <div className="p-3.5 rounded-2xl bg-muted/60 border border-border space-y-2">
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-semibold text-stone-900 dark:text-zinc-100">
+                    <span className="text-xs font-semibold text-foreground">
                       Lesson Curriculum Mastery (သင်ရိုးပြီးမြောက်မှု)
                     </span>
                     {readiness.lessonMasteryPct >= 90 ? (
@@ -1743,13 +1743,13 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                       </span>
                     )}
                   </div>
-                  <div className="flex justify-between text-xs text-stone-600 dark:text-zinc-400 font-mono">
+                  <div className="flex justify-between text-xs text-muted-foreground font-mono">
                     <span>Progress / Target:</span>
-                    <span className="text-stone-900 dark:text-zinc-100 font-bold">
+                    <span className="text-foreground font-bold">
                       {readiness.lessonMasteryPct}% / 90%
                     </span>
                   </div>
-                  <div className="w-full bg-stone-200 dark:bg-zinc-700 rounded-full h-2 overflow-hidden">
+                  <div className="w-full bg-muted rounded-full h-2 overflow-hidden">
                     <div
                       className="bg-indigo-600 dark:bg-indigo-500 h-2 rounded-full transition-all"
                       style={{ width: `${Math.min(100, readiness.lessonMasteryPct)}%` }}
@@ -1758,9 +1758,9 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                 </div>
 
                 {/* Gate 2: Lesson Retention Rate */}
-                <div className="p-3.5 rounded-2xl bg-stone-50 dark:bg-zinc-800/60 border border-stone-200 dark:border-zinc-800 space-y-2">
+                <div className="p-3.5 rounded-2xl bg-muted/60 border border-border space-y-2">
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-semibold text-stone-900 dark:text-zinc-100">
+                    <span className="text-xs font-semibold text-foreground">
                       Lesson Retention Rate (သင်ခန်းစာ မှတ်မိမှုနှုန်း)
                     </span>
                     {readiness.lessonRetentionPct >= 50 ? (
@@ -1773,13 +1773,13 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                       </span>
                     )}
                   </div>
-                  <div className="flex justify-between text-xs text-stone-600 dark:text-zinc-400 font-mono">
+                  <div className="flex justify-between text-xs text-muted-foreground font-mono">
                     <span>Progress / Target:</span>
-                    <span className="text-stone-900 dark:text-zinc-100 font-bold">
+                    <span className="text-foreground font-bold">
                       {readiness.lessonRetentionPct}% / 50%
                     </span>
                   </div>
-                  <div className="w-full bg-stone-200 dark:bg-zinc-700 rounded-full h-2 overflow-hidden">
+                  <div className="w-full bg-muted rounded-full h-2 overflow-hidden">
                     <div
                       className="bg-indigo-600 dark:bg-indigo-500 h-2 rounded-full transition-all"
                       style={{ width: `${Math.min(100, readiness.lessonRetentionPct)}%` }}
@@ -1788,9 +1788,9 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                 </div>
 
                 {/* Gate 3: SRS 30-Day True Retention */}
-                <div className="p-3.5 rounded-2xl bg-stone-50 dark:bg-zinc-800/60 border border-stone-200 dark:border-zinc-800 space-y-2">
+                <div className="p-3.5 rounded-2xl bg-muted/60 border border-border space-y-2">
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-semibold text-stone-900 dark:text-zinc-100">
+                    <span className="text-xs font-semibold text-foreground">
                       SRS 30-Day True Retention (ရက် ၃၀ SRS မှတ်ဉာဏ်ထိန်းသိမ်းမှု)
                     </span>
                     {readiness.hasSrsData && readiness.srs30DayRetentionPct >= 85 ? (
@@ -1803,13 +1803,13 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                       </span>
                     )}
                   </div>
-                  <div className="flex justify-between text-xs text-stone-600 dark:text-zinc-400 font-mono">
+                  <div className="flex justify-between text-xs text-muted-foreground font-mono">
                     <span>Progress / Target:</span>
-                    <span className="text-stone-900 dark:text-zinc-100 font-bold">
+                    <span className="text-foreground font-bold">
                       {readiness.hasSrsData ? `${readiness.srs30DayRetentionPct}% / 85%` : 'No data yet (ဒေတာမရှိသေးပါ)'}
                     </span>
                   </div>
-                  <div className="w-full bg-stone-200 dark:bg-zinc-700 rounded-full h-2 overflow-hidden">
+                  <div className="w-full bg-muted rounded-full h-2 overflow-hidden">
                     <div
                       className="bg-emerald-600 dark:bg-emerald-500 h-2 rounded-full transition-all"
                       style={{
@@ -1820,9 +1820,9 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                 </div>
 
                 {/* Gate 4: Weekly Tests Avg Score */}
-                <div className="p-3.5 rounded-2xl bg-stone-50 dark:bg-zinc-800/60 border border-stone-200 dark:border-zinc-800 space-y-2">
+                <div className="p-3.5 rounded-2xl bg-muted/60 border border-border space-y-2">
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-semibold text-stone-900 dark:text-zinc-100">
+                    <span className="text-xs font-semibold text-foreground">
                       Weekly Tests Avg Score (အပတ်စဉ် စာမေးပွဲ ပျမ်းမျှရမှတ်)
                     </span>
                     {readiness.weeklyTestsAvgPct >= 75 ? (
@@ -1835,13 +1835,13 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                       </span>
                     )}
                   </div>
-                  <div className="flex justify-between text-xs text-stone-600 dark:text-zinc-400 font-mono">
+                  <div className="flex justify-between text-xs text-muted-foreground font-mono">
                     <span>Progress / Target:</span>
-                    <span className="text-stone-900 dark:text-zinc-100 font-bold">
+                    <span className="text-foreground font-bold">
                       {readiness.weeklyTestsAvgPct > 0 ? `${readiness.weeklyTestsAvgPct}% / 75%` : 'No tests yet (0%) / 75%'}
                     </span>
                   </div>
-                  <div className="w-full bg-stone-200 dark:bg-zinc-700 rounded-full h-2 overflow-hidden">
+                  <div className="w-full bg-muted rounded-full h-2 overflow-hidden">
                     <div
                       className="bg-amber-500 h-2 rounded-full transition-all"
                       style={{ width: `${Math.min(100, readiness.weeklyTestsAvgPct)}%` }}
@@ -1850,9 +1850,9 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                 </div>
 
                 {/* Gate 5: JLPT Level Readiness Test */}
-                <div className="p-3.5 rounded-2xl bg-stone-50 dark:bg-zinc-800/60 border border-stone-200 dark:border-zinc-800 space-y-2 sm:col-span-2">
+                <div className="p-3.5 rounded-2xl bg-muted/60 border border-border space-y-2 sm:col-span-2">
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-semibold text-stone-900 dark:text-zinc-100">
+                    <span className="text-xs font-semibold text-foreground">
                       JLPT {profile.level} Level Readiness Test ({profile.level} အဆင့်စစ် စာမေးပွဲ အောင်မြင်မှု)
                     </span>
                     {readiness.levelTestPassed ? (
@@ -1865,13 +1865,13 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                       </span>
                     )}
                   </div>
-                  <div className="flex justify-between text-xs text-stone-600 dark:text-zinc-400 font-mono">
+                  <div className="flex justify-between text-xs text-muted-foreground font-mono">
                     <span>Progress / Target:</span>
-                    <span className="text-stone-900 dark:text-zinc-100 font-bold">
+                    <span className="text-foreground font-bold">
                       {readiness.levelTestPassed ? 'Passed (အောင်မြင်ပြီး) · 100% / Pass' : 'Pending Examination (မဖြေရသေး/မအောင်သေး) · 0% / Pass'}
                     </span>
                   </div>
-                  <div className="w-full bg-stone-200 dark:bg-zinc-700 rounded-full h-2 overflow-hidden">
+                  <div className="w-full bg-muted rounded-full h-2 overflow-hidden">
                     <div
                       className="bg-purple-600 dark:bg-purple-500 h-2 rounded-full transition-all"
                       style={{ width: readiness.levelTestPassed ? '100%' : '0%' }}
@@ -1885,7 +1885,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
           {/* Assessment Battery Cards with Obsidian Glass Styling */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-7 gap-3.5">
             {/* Dynamic Current Lesson Test Card */}
-            <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-4 flex flex-col justify-between hover:border-emerald-400 transition shadow-sm">
+            <div className="bg-card border border-border rounded-2xl p-4.5 space-y-4 flex flex-col justify-between hover:border-emerald-400 transition shadow-sm">
               <div className="space-y-2">
                 <div className="flex items-center justify-between">
                   <span className="px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 text-[10px] font-mono uppercase">
@@ -1893,8 +1893,8 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                   </span>
                   <BookOpen className="w-4 h-4 text-emerald-600" />
                 </div>
-                <h3 className="text-sm font-bold text-stone-900">Current Lesson Test</h3>
-                <p className="text-xs text-stone-600">
+                <h3 className="text-sm font-bold text-foreground">Current Lesson Test</h3>
+                <p className="text-xs text-muted-foreground">
                   Lesson {activeLesson.number}: {activeLesson.title}
                 </p>
               </div>
@@ -1908,30 +1908,30 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
             </div>
 
             {/* Weekly Test Card */}
-            <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-4 flex flex-col justify-between hover:border-stone-300 transition shadow-sm">
+            <div className="bg-card border border-border rounded-2xl p-4.5 space-y-4 flex flex-col justify-between hover:border-ring/60 transition shadow-sm">
               <div className="space-y-2">
                 <div className="flex items-center justify-between">
-                  <span className="px-2 py-0.5 rounded-full bg-stone-100 text-stone-700 border border-stone-200 text-[10px] font-mono uppercase">
+                  <span className="px-2 py-0.5 rounded-full bg-muted text-foreground border border-border text-[10px] font-mono uppercase">
                     Audit
                   </span>
-                  <Clock className="w-4 h-4 text-stone-400" />
+                  <Clock className="w-4 h-4 text-muted-foreground" />
                 </div>
-                <h3 className="text-sm font-bold text-stone-900">Weekly Review Test</h3>
-                <p className="text-xs text-stone-600">
+                <h3 className="text-sm font-bold text-foreground">Weekly Review Test</h3>
+                <p className="text-xs text-muted-foreground">
                   45 min • 33 questions covering all 5 skills across recent units.
                 </p>
               </div>
 
               <button
                 onClick={() => startAssessment('weekly')}
-                className="w-full py-2.5 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-300 text-xs font-semibold transition active:scale-95 cursor-pointer"
+                className="w-full py-2.5 rounded-xl bg-muted hover:bg-muted/80 text-foreground border border-border text-xs font-semibold transition active:scale-95 cursor-pointer"
               >
                 Start Weekly
               </button>
             </div>
 
             {/* Monthly Test Card */}
-            <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-4 flex flex-col justify-between hover:border-indigo-300 transition shadow-sm">
+            <div className="bg-card border border-border rounded-2xl p-4.5 space-y-4 flex flex-col justify-between hover:border-indigo-300 transition shadow-sm">
               <div className="space-y-2">
                 <div className="flex items-center justify-between">
                   <span className="px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 text-[10px] font-mono uppercase">
@@ -1939,22 +1939,22 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                   </span>
                   <Clock className="w-4 h-4 text-indigo-600" />
                 </div>
-                <h3 className="text-sm font-bold text-stone-900">Monthly Synthesis</h3>
-                <p className="text-xs text-stone-600">
+                <h3 className="text-sm font-bold text-foreground">Monthly Synthesis</h3>
+                <p className="text-xs text-muted-foreground">
                   75 min • 51 questions with mixed synthesis &amp; recall.
                 </p>
               </div>
 
               <button
                 onClick={() => startAssessment('monthly')}
-                className="w-full py-2.5 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-300 text-xs font-semibold transition active:scale-95 cursor-pointer"
+                className="w-full py-2.5 rounded-xl bg-muted hover:bg-muted/80 text-foreground border border-border text-xs font-semibold transition active:scale-95 cursor-pointer"
               >
                 Start Monthly
               </button>
             </div>
 
             {/* Dokkai Reading Stamina Benchmark Card */}
-            <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-4 flex flex-col justify-between hover:border-indigo-300 transition shadow-sm">
+            <div className="bg-card border border-border rounded-2xl p-4.5 space-y-4 flex flex-col justify-between hover:border-indigo-300 transition shadow-sm">
               <div className="space-y-2">
                 <div className="flex items-center justify-between">
                   <span className="px-2 py-0.5 rounded-full bg-rose-50 text-rose-700 border border-rose-200 text-[10px] font-mono uppercase">
@@ -1962,15 +1962,15 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                   </span>
                   <BookOpen className="w-4 h-4 text-rose-600" />
                 </div>
-                <h3 className="text-sm font-bold text-stone-900">Dokkai Lab</h3>
-                <p className="text-xs text-stone-600">
+                <h3 className="text-sm font-bold text-foreground">Dokkai Lab</h3>
+                <p className="text-xs text-muted-foreground">
                   55 min • Tanki, Chuki &amp; Choubun with live CPM speed gauge.
                 </p>
               </div>
 
               <button
                 onClick={() => setActiveTab('dokkai')}
-                className="w-full py-2.5 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-300 text-xs font-semibold transition active:scale-95 cursor-pointer flex items-center justify-center space-x-1.5"
+                className="w-full py-2.5 rounded-xl bg-muted hover:bg-muted/80 text-foreground border border-border text-xs font-semibold transition active:scale-95 cursor-pointer flex items-center justify-center space-x-1.5"
               >
                 <BookOpen className="w-3.5 h-3.5" />
                 <span>Open Reading</span>
@@ -1978,7 +1978,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
             </div>
 
             {/* Choukai Listening Studio Benchmark Card */}
-            <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-4 flex flex-col justify-between hover:border-indigo-300 transition shadow-sm">
+            <div className="bg-card border border-border rounded-2xl p-4.5 space-y-4 flex flex-col justify-between hover:border-indigo-300 transition shadow-sm">
               <div className="space-y-2">
                 <div className="flex items-center justify-between">
                   <span className="px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 text-[10px] font-mono uppercase">
@@ -1986,15 +1986,15 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                   </span>
                   <Headphones className="w-4 h-4 text-indigo-600" />
                 </div>
-                <h3 className="text-sm font-bold text-stone-900">Choukai Lab</h3>
-                <p className="text-xs text-stone-600">
+                <h3 className="text-sm font-bold text-foreground">Choukai Lab</h3>
+                <p className="text-xs text-muted-foreground">
                   Kadai, Point &amp; Sokuji scenarios with 3-stage visibility.
                 </p>
               </div>
 
               <button
                 onClick={() => setActiveTab('choukai')}
-                className="w-full py-2.5 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-300 text-xs font-semibold transition active:scale-95 cursor-pointer flex items-center justify-center space-x-1.5"
+                className="w-full py-2.5 rounded-xl bg-muted hover:bg-muted/80 text-foreground border border-border text-xs font-semibold transition active:scale-95 cursor-pointer flex items-center justify-center space-x-1.5"
               >
                 <Headphones className="w-3.5 h-3.5" />
                 <span>Open Listening</span>
@@ -2002,7 +2002,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
             </div>
 
             {/* Star Question Scramble Card */}
-            <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-4 flex flex-col justify-between hover:border-amber-400 transition shadow-sm">
+            <div className="bg-card border border-border rounded-2xl p-4.5 space-y-4 flex flex-col justify-between hover:border-amber-400 transition shadow-sm">
               <div className="space-y-2">
                 <div className="flex items-center justify-between">
                   <span className="px-2 py-0.5 rounded-full bg-amber-50 text-amber-800 border border-amber-200 text-[10px] font-mono uppercase">
@@ -2010,8 +2010,8 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                   </span>
                   <Star className="w-4 h-4 text-amber-500 fill-amber-500/20" />
                 </div>
-                <h3 className="text-sm font-bold text-stone-900">★ 문장 조립 / JLPT Star Grammar Puzzle</h3>
-                <p className="text-xs text-stone-600">
+                <h3 className="text-sm font-bold text-foreground">★ 문장 조립 / JLPT Star Grammar Puzzle</h3>
+                <p className="text-xs text-muted-foreground">
                   ကြယ်ပွင့် ဝါကျစီ လေ့ကျင့်ခန်း • JLPT sentence reordering with grammatical connection chains.
                 </p>
               </div>
@@ -2026,7 +2026,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
             </div>
 
             {/* Level Test (Test Out) Card */}
-            <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-4 flex flex-col justify-between hover:border-indigo-300 transition shadow-sm">
+            <div className="bg-card border border-border rounded-2xl p-4.5 space-y-4 flex flex-col justify-between hover:border-indigo-300 transition shadow-sm">
               <div className="space-y-2">
                 <div className="flex items-center justify-between">
                   <span className="px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 text-[10px] font-mono uppercase">
@@ -2034,8 +2034,8 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
                   </span>
                   <Clock className="w-4 h-4 text-indigo-600" />
                 </div>
-                <h3 className="text-sm font-bold text-stone-900">{profile.level} Level Test</h3>
-                <p className="text-xs text-stone-600">
+                <h3 className="text-sm font-bold text-foreground">{profile.level} Level Test</h3>
+                <p className="text-xs text-muted-foreground">
                   90 min • 70 questions • Full JLPT readiness verification.
                 </p>
               </div>

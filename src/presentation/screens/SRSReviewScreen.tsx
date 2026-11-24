@@ -301,10 +301,10 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
 
     return (
       <div className="max-w-xl mx-auto space-y-5 pb-28 px-3 sm:px-0">
-        <div className="flex items-center justify-between text-xs text-stone-600 font-myanmar">
+        <div className="flex items-center justify-between text-xs text-muted-foreground font-myanmar">
           <button
             onClick={() => setActiveGhostDrill(null)}
-            className="flex items-center space-x-1.5 text-stone-600 hover:text-stone-900 transition py-1 px-2 -ml-2 rounded-lg hover:bg-stone-200/60 cursor-pointer"
+            className="flex items-center space-x-1.5 text-muted-foreground hover:text-foreground transition py-1 px-2 -ml-2 rounded-lg hover:bg-muted cursor-pointer"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
             <span className="font-medium">လေ့ကျင့်ခန်းမှ ထွက်မည်</span>
@@ -342,7 +342,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
         <div className="flex items-center justify-between">
           <button
             onClick={() => setViewMode('review')}
-            className="flex items-center space-x-1.5 text-xs text-stone-600 hover:text-stone-900 transition py-1 px-2 -ml-2 rounded-lg hover:bg-stone-200/60 cursor-pointer"
+            className="flex items-center space-x-1.5 text-xs text-muted-foreground hover:text-foreground transition py-1 px-2 -ml-2 rounded-lg hover:bg-muted cursor-pointer"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
             <span className="font-medium">ပုံမှန် SRS စာရင်းသို့ ပြန်သွားမည်</span>
@@ -378,7 +378,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
           transition={{ duration: 1.2, repeat: Infinity, ease: 'linear' }}
           className="w-10 h-10 border-2 border-rose-500/30 border-t-rose-500 rounded-full"
         />
-        <p className="text-stone-400 text-xs font-medium tracking-wide">
+        <p className="text-muted-foreground text-xs font-medium tracking-wide">
           SRS မှတ်ဉာဏ်လေ့ကျင့်ရေး ကတ်များကို ဆွဲယူနေပါသည်...
         </p>
       </div>
@@ -391,7 +391,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.35, ease: 'easeOut' }}
-        className="max-w-md mx-auto text-center py-12 px-6 sm:px-8 space-y-6 bg-white border border-stone-200 rounded-3xl shadow-sm font-myanmar"
+        className="max-w-md mx-auto text-center py-12 px-6 sm:px-8 space-y-6 bg-card border border-border rounded-3xl shadow-sm font-myanmar"
       >
         <motion.div
           initial={{ scale: 0 }}
@@ -406,10 +406,10 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
           <span className="text-[11px] font-mono uppercase tracking-widest text-emerald-700 font-semibold px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 inline-block">
             {isLeechDrillMode ? 'အားနည်းချက် အထူးလေ့ကျင့်ခန်း ပြီးပါပြီ' : 'လေ့ကျင့်မှု ပြီးမြောက်ပါပြီ'}
           </span>
-          <h2 className="text-2xl font-bold text-stone-900 tracking-tight">
+          <h2 className="text-2xl font-bold text-foreground tracking-tight">
             {isLeechDrillMode ? 'Leech Drill Complete! အားနည်းချက်များ အောင်မြင်ပါပြီ' : 'ဒီကနေ့အတွက် အားလုံးပြီးပါပြီ!'}
           </h2>
-          <p className="text-xs text-stone-600 leading-relaxed max-w-sm mx-auto">
+          <p className="text-xs text-muted-foreground leading-relaxed max-w-sm mx-auto">
             {isLeechDrillMode
               ? 'အမှားများသော ဝေါဟာရနှင့် သဒ္ဒါများကို သီးသန့်လေ့ကျင့်ပြီးပါပြီ။ အခြေခံမှတ်မိနှုန်း ပြန်လည်မြင့်တက်လာပါပြီ။'
               : 'မနက် ၄:၀၀ မတိုင်မီ ပြန်လည်လေ့ကျင့်ရန် ကျန်ရှိသော ကတ်များ မရှိတော့ပါ။ ခေတ္တအနားယူပါ သို့မဟုတ် သင်ခန်းစာများကို ဆက်လက်လေ့လာနိုင်ပါသည်။'}
@@ -417,15 +417,15 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
         </div>
 
         {reviewedCount > 0 && (
-          <div className="bg-stone-50 border border-stone-200 rounded-2xl p-4 flex items-center justify-around text-center">
+          <div className="bg-muted/60 border border-border rounded-2xl p-4 flex items-center justify-around text-center">
             <div>
-              <span className="text-2xl font-bold text-indigo-600 font-mono">{reviewedCount}</span>
-              <p className="text-[10px] text-stone-500 uppercase tracking-wider mt-0.5">လေ့ကျင့်ပြီး</p>
+              <span className="text-2xl font-bold text-primary font-mono">{reviewedCount}</span>
+              <p className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">လေ့ကျင့်ပြီး</p>
             </div>
-            <div className="h-8 w-px bg-stone-200" />
+            <div className="h-8 w-px bg-border" />
             <div>
               <span className="text-2xl font-bold text-emerald-600 font-mono">100%</span>
-              <p className="text-[10px] text-stone-500 uppercase tracking-wider mt-0.5">ပြီးစီးမှု</p>
+              <p className="text-[10px] text-muted-foreground uppercase tracking-wider mt-0.5">ပြီးစီးမှု</p>
             </div>
           </div>
         )}
@@ -436,9 +436,9 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             onClick={toggleLeechDrillMode}
-            className="w-full py-3 rounded-2xl bg-white hover:bg-stone-50 border border-stone-300 text-stone-700 text-xs font-semibold tracking-wide transition shadow-2xs flex items-center justify-center space-x-2 cursor-pointer"
+            className="w-full py-3 rounded-2xl bg-card hover:bg-muted border border-border text-foreground text-xs font-semibold tracking-wide transition shadow-2xs flex items-center justify-center space-x-2 cursor-pointer"
           >
-            <RotateCcw className="w-4 h-4 text-indigo-600" />
+            <RotateCcw className="w-4 h-4 text-primary" />
             <span>ပုံမှန် SRS စာရင်းသို့ ပြန်သွားမည်</span>
           </motion.button>
         ) : (
@@ -483,7 +483,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
   const ladderBand = getLadderBandLabel(currentCard.intervalDays);
   const typeStyle = ITEM_TYPE_STYLES[currentCard.itemType] || {
     label: currentCard.itemType,
-    badge: 'bg-stone-800 text-stone-300 border-stone-700',
+    badge: 'bg-muted text-muted-foreground border-border',
   };
   const progressPct = ((currentIndex + 1) / cards.length) * 100;
   const isGrammarCloze =
@@ -493,10 +493,10 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
     <div className="max-w-xl mx-auto space-y-5 pb-28 px-3 sm:px-0">
       {/* Top Header & Progress */}
       <div className="space-y-3 font-myanmar">
-        <div className="flex items-center justify-between text-xs text-stone-600 flex-wrap gap-2">
+        <div className="flex items-center justify-between text-xs text-muted-foreground flex-wrap gap-2">
           <button
             onClick={onBack}
-            className="flex items-center space-x-1.5 text-stone-600 hover:text-stone-900 transition py-1 px-2 -ml-2 rounded-lg hover:bg-stone-200/60 cursor-pointer"
+            className="flex items-center space-x-1.5 text-muted-foreground hover:text-foreground transition py-1 px-2 -ml-2 rounded-lg hover:bg-muted cursor-pointer"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
             <span className="font-medium">ထွက်မည်</span>
@@ -504,7 +504,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
 
           <div className="flex items-center space-x-2 flex-wrap gap-y-1">
             {/* View Mode Toggle: Queue vs Ghosts */}
-            <div className="flex items-center bg-stone-200/80 border border-stone-300 rounded-full p-0.5 text-[10px] font-mono">
+            <div className="flex items-center bg-muted border border-border rounded-full p-0.5 text-[10px] font-mono">
               <button
                 onClick={() => {
                   if (isLeechDrillMode) toggleLeechDrillMode();
@@ -512,15 +512,15 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                 }}
                 className={`px-2.5 py-0.5 rounded-full transition cursor-pointer ${
                   viewMode === 'review' && !isLeechDrillMode
-                    ? 'bg-indigo-600 text-white font-bold'
-                    : 'text-stone-600 hover:text-stone-900'
+                    ? 'bg-primary text-primary-foreground font-bold'
+                    : 'text-muted-foreground hover:text-foreground'
                 }`}
               >
                 SRS စာရင်း ({cards.length})
               </button>
               <button
                 onClick={() => setViewMode('ghosts')}
-                className="px-2.5 py-0.5 rounded-full transition flex items-center space-x-1 cursor-pointer text-stone-600 hover:text-stone-900"
+                className="px-2.5 py-0.5 rounded-full transition flex items-center space-x-1 cursor-pointer text-muted-foreground hover:text-foreground"
               >
                 <Flame className="w-2.5 h-2.5 text-amber-500" />
                 <span>အားနည်းချက် ({ghostCount})</span>
@@ -533,7 +533,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
               className={`flex items-center space-x-1 px-2.5 py-0.5 rounded-full text-[10px] font-mono border transition cursor-pointer ${
                 isLeechDrillMode
                   ? 'bg-rose-600 text-white border-rose-600 font-bold shadow-2xs ring-2 ring-rose-400/20'
-                  : 'bg-white hover:bg-rose-50 text-rose-700 border-rose-200 hover:border-rose-300'
+                  : 'bg-card hover:bg-rose-50 text-rose-700 border-rose-200 hover:border-rose-300'
               }`}
               title="Toggle Leech Drill Mode (အားနည်းချက် အထူးလေ့ကျင့်ခန်း): isolate high-failure items (lapses >= 2 or EF <= 1.6)"
             >
@@ -551,8 +551,8 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                 onClick={() => setClozeMode(!clozeMode)}
                 className={`flex items-center space-x-1 px-2 py-0.5 rounded-full text-[10px] font-mono border transition cursor-pointer ${
                   clozeMode
-                    ? 'bg-indigo-600 text-white border-indigo-600 font-bold shadow-2xs'
-                    : 'bg-white text-stone-600 border-stone-300 hover:text-stone-900'
+                    ? 'bg-primary text-primary-foreground border-primary font-bold shadow-2xs'
+                    : 'bg-card text-muted-foreground border-border hover:text-foreground'
                 }`}
                 title="Toggle between Cloze Active Production and Flip Card"
               >
@@ -562,15 +562,15 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
             )}
 
             {/* Auto-Advance Mode Toggle with Drawer Pause Indicator */}
-            <div className="flex items-center space-x-1.5 bg-stone-200/80 border border-stone-300 rounded-full px-2.5 py-0.5 text-[10px] font-mono">
-              <Clock className="w-3 h-3 text-stone-500" />
+            <div className="flex items-center space-x-1.5 bg-muted border border-border rounded-full px-2.5 py-0.5 text-[10px] font-mono">
+              <Clock className="w-3 h-3 text-muted-foreground" />
               {autoAdvanceSec > 0 && isDrawerOpen ? (
                 <span className="text-amber-800 font-semibold animate-pulse flex items-center space-x-1">
                   <Pause className="w-2.5 h-2.5 inline" />
                   <span>ခေတ္တရပ်ထားသည်</span>
                 </span>
               ) : autoAdvanceSec > 0 ? (
-                <span className="text-emerald-700 font-semibold">
+                <span className="text-emerald-500 font-semibold">
                   {timerRemaining}s
                 </span>
               ) : null}
@@ -582,26 +582,26 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                     return 0;
                   });
                 }}
-                className="hover:text-stone-900 text-stone-600 underline decoration-stone-400 underline-offset-2 transition cursor-pointer"
+                className="hover:text-foreground text-muted-foreground underline decoration-border underline-offset-2 transition cursor-pointer"
                 title="Toggle Auto-advance pace (pauses automatically when KanjiDrawer is open)"
               >
                 Auto: {autoAdvanceSec === 0 ? 'ပိတ်' : `${autoAdvanceSec}s`}
               </button>
             </div>
 
-            <span className="font-mono text-indigo-700 font-semibold text-xs">
+            <span className="font-mono text-primary font-semibold text-xs">
               {currentIndex + 1} / {cards.length}
             </span>
-            <span className="px-2.5 py-0.5 rounded-full bg-stone-100 text-[10px] text-stone-600 border border-stone-200 font-mono">
+            <span className="px-2.5 py-0.5 rounded-full bg-muted text-[10px] text-muted-foreground border border-border font-mono">
               {ladderBand}
             </span>
           </div>
         </div>
 
         {/* Animated Progress Bar */}
-        <div className="w-full bg-stone-200 h-2 rounded-full overflow-hidden border border-stone-300">
+        <div className="w-full bg-muted h-2 rounded-full overflow-hidden border border-border">
           <motion.div
-            className="h-full bg-indigo-600 rounded-full"
+            className="h-full bg-primary rounded-full"
             initial={false}
             animate={{ width: `${progressPct}%` }}
             transition={{ duration: 0.35, ease: 'easeOut' }}
@@ -651,10 +651,10 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ duration: 0.25, ease: 'easeOut' }}
               onClick={() => !isFlipped && setIsFlipped(true)}
-              className={`bg-white border ${
+              className={`bg-card border ${
                 isFlipped
-                  ? 'border-indigo-400 ring-2 ring-indigo-500/10 shadow-md'
-                  : 'border-stone-200 hover:border-stone-300 shadow-sm'
+                  ? 'border-primary ring-2 ring-primary/10 shadow-md'
+                  : 'border-border hover:border-border/80 shadow-sm'
               } rounded-3xl p-6 sm:p-8 min-h-[340px] flex flex-col justify-between text-center cursor-pointer transition-colors relative select-none`}
             >
           {/* Card Meta Badges & Visual Leech Badge */}
@@ -665,7 +665,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
               >
                 {typeStyle.label}
               </span>
-              <span className="px-2.5 py-1 rounded-full bg-stone-100 border border-stone-200 text-stone-600 uppercase tracking-wider">
+              <span className="px-2.5 py-1 rounded-full bg-muted border border-border text-muted-foreground uppercase tracking-wider">
                 {currentCard.facet}
               </span>
             </div>
@@ -686,13 +686,13 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
           <div className="my-auto py-6 space-y-4">
             <motion.div
               layout
-              className="text-4xl sm:text-5xl md:text-6xl font-bold font-japanese text-stone-900 tracking-tight leading-normal"
+              className="text-4xl sm:text-5xl md:text-6xl font-bold font-japanese text-foreground tracking-tight leading-normal"
             >
               <InteractiveKanjiText
                 text={currentCard.prompt}
                 sentenceContext={currentCard.exampleSentence || currentCard.prompt}
                 onInspectKanji={handleInspectKanji}
-                kanjiClassName="hover:text-indigo-600"
+                kanjiClassName="hover:text-primary"
               />
             </motion.div>
 
@@ -705,32 +705,32 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.2 }}
-                  className="space-y-3 pt-4 border-t border-stone-200 font-myanmar"
+                  className="space-y-3 pt-4 border-t border-border font-myanmar"
                 >
                   {currentCard.reading && (
-                    <div className="text-xl sm:text-2xl text-indigo-700 font-japanese font-medium tracking-wide">
+                    <div className="text-xl sm:text-2xl text-primary font-japanese font-medium tracking-wide">
                       {currentCard.reading}
                     </div>
                   )}
 
-                  <div className="text-xl sm:text-2xl font-bold text-stone-900 tracking-tight">
+                  <div className="text-xl sm:text-2xl font-bold text-foreground tracking-tight">
                     {(currentCard as any).meaningMyanmar || currentCard.meaning}
                   </div>
 
                   {(currentCard as any).meaningMyanmar && currentCard.meaning && (currentCard as any).meaningMyanmar !== currentCard.meaning && (
-                    <div className="text-xs text-stone-600 font-sans">
+                    <div className="text-xs text-muted-foreground font-sans">
                       {currentCard.meaning}
                     </div>
                   )}
 
                   {currentCard.exampleSentence && (
-                    <div className="text-xs sm:text-sm text-stone-700 italic bg-stone-50 p-3.5 rounded-2xl border border-stone-200 max-w-md mx-auto leading-relaxed shadow-2xs">
+                    <div className="text-xs sm:text-sm text-foreground italic bg-muted/50 p-3.5 rounded-2xl border border-border max-w-md mx-auto leading-relaxed shadow-2xs">
                       &ldquo;
                       <InteractiveKanjiText
                         text={currentCard.exampleSentence}
                         sentenceContext={currentCard.exampleSentence}
                         onInspectKanji={handleInspectKanji}
-                        kanjiClassName="hover:text-indigo-600 not-italic"
+                        kanjiClassName="hover:text-primary not-italic"
                       />
                       &rdquo;
                     </div>
@@ -741,10 +741,10 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                   key="prompt-hint"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  className="pt-4 flex items-center justify-center space-x-1.5 text-xs text-stone-500 font-myanmar"
+                  className="pt-4 flex items-center justify-center space-x-1.5 text-xs text-muted-foreground font-myanmar"
                 >
-                  <Sparkles className="w-3.5 h-3.5 text-stone-400 animate-pulse" />
-                  <span>ကတ်ကို နှိပ်ပါ သို့မဟုတ် <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-300 text-[10px] text-stone-700 font-mono">{getDisplayBadge('FLIP_CARD')}</kbd> ကို နှိပ်ပါ</span>
+                  <Sparkles className="w-3.5 h-3.5 text-muted-foreground animate-pulse" />
+                  <span>ကတ်ကို နှိပ်ပါ သို့မဟုတ် <kbd className="px-1.5 py-0.5 rounded bg-muted border border-border text-[10px] text-foreground font-mono">{getDisplayBadge('FLIP_CARD')}</kbd> ကို နှိပ်ပါ</span>
                 </motion.div>
               )}
             </AnimatePresence>
@@ -770,9 +770,9 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                 className={`p-3 rounded-full ${
                   isPlaying &&
                   (currentPlayingText === currentCard.prompt || currentPlayingText === currentCard.reading)
-                    ? 'bg-indigo-600 text-white ring-4 ring-indigo-500/20 shadow-md animate-pulse'
-                    : 'bg-stone-100 hover:bg-stone-200 text-stone-700'
-                } border border-stone-300 transition-colors shadow-2xs cursor-pointer`}
+                    ? 'bg-primary text-primary-foreground ring-4 ring-primary/20 shadow-md animate-pulse'
+                    : 'bg-muted hover:bg-muted/80 text-foreground'
+                } border border-border transition-colors shadow-2xs cursor-pointer`}
                 title={
                   isPlaying &&
                   (currentPlayingText === currentCard.prompt || currentPlayingText === currentCard.reading)
@@ -786,7 +786,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
               {/* TTS Speed Controls (0.75x နှေး, 1.0x ပုံမှန်, 1.2x မြန်) */}
               <div
                 onClick={(e) => e.stopPropagation()}
-                className="flex items-center space-x-1 bg-stone-100 px-2 py-1 rounded-xl border border-stone-200 text-xs font-mono"
+                className="flex items-center space-x-1 bg-muted px-2 py-1 rounded-xl border border-border text-xs font-mono"
               >
                 {TTS_SPEED_PRESETS.map((preset) => (
                   <button
@@ -795,8 +795,8 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                     onClick={() => setPlaybackRate(preset.rate)}
                     className={`px-1.5 py-0.5 rounded text-[11px] transition cursor-pointer font-myanmar ${
                       playbackRate === preset.rate
-                        ? 'bg-indigo-600 text-white font-bold shadow-2xs'
-                        : 'text-stone-600 hover:text-stone-900 hover:bg-stone-200'
+                        ? 'bg-primary text-primary-foreground font-bold shadow-2xs'
+                        : 'text-muted-foreground hover:text-foreground hover:bg-card'
                     }`}
                     title={preset.labelBurmese}
                   >
@@ -910,7 +910,7 @@ export const SRSReviewScreen: React.FC<SRSReviewScreenProps> = ({
                 <span className="text-[10px] text-indigo-700 font-normal mt-1">1.3x+</span>
               </motion.button>
             </div>
-            <p className="text-[10px] text-center text-stone-500 font-mono">
+            <p className="text-[10px] text-center text-muted-foreground font-mono">
               ကီးဘုတ်ရှိ နံပါတ်ခလုတ် [{getDisplayBadge('SRS_AGAIN')}], [{getDisplayBadge('SRS_HARD')}], [{getDisplayBadge('SRS_GOOD')}], [{getDisplayBadge('SRS_EASY')}] များကို နှိပ်နိုင်ပါသည်
             </p>
           </motion.div>

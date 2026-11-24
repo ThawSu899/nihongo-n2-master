@@ -41,36 +41,36 @@ export const JLPTSectionalScoringCard: React.FC<JLPTSectionalScoringCardProps> =
   const levelOptions: JLPTLevel[] = ['N5', 'N4', 'N3', 'N2'];
 
   return (
-    <div className="bg-white border border-stone-200 rounded-2xl p-5 sm:p-6 shadow-sm space-y-6">
+    <div className="bg-card border border-border rounded-2xl p-5 sm:p-6 shadow-sm space-y-6">
       {/* Header and Level Selector */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-stone-100 pb-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-4">
         <div>
           <div className="flex items-center space-x-2">
             <span className="inline-flex items-center space-x-1 px-2.5 py-0.5 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 text-[11px] font-bold font-mono uppercase">
               <Award className="w-3.5 h-3.5" />
               <span>Official JLPT Scaled Scoring Engine</span>
             </span>
-            <span className="text-xs text-stone-400">•</span>
-            <span className="text-xs text-stone-500 font-medium">180-Point Scaled Simulation</span>
+            <span className="text-xs text-muted-foreground">•</span>
+            <span className="text-xs text-muted-foreground font-medium">180-Point Scaled Simulation</span>
           </div>
-          <h2 className="text-xl font-bold text-stone-900 tracking-tight mt-1">
+          <h2 className="text-xl font-bold text-foreground tracking-tight mt-1">
             JLPT အမှတ်ပေးစနစ်နှင့် ကဏ္ဍအလိုက် အနိမ့်ဆုံးသတ်မှတ်ချက် (基準点)
           </h2>
-          <p className="text-xs text-stone-600 mt-0.5">
+          <p className="text-xs text-muted-foreground mt-0.5">
             တရားဝင် JLPT စာမေးပွဲ အောင်မြင်ရန် စုစုပေါင်းရမှတ် ပြည့်မီရုံသာမက ကဏ္ဍတိုင်းတွင် အနိမ့်ဆုံးသတ်မှတ်ချက် (基準点) ကျော်လွန်ရပါမည်။
           </p>
         </div>
 
         {/* Level Switcher */}
-        <div className="flex items-center bg-stone-100 p-1 rounded-xl self-start sm:self-auto">
+        <div className="flex items-center bg-muted p-1 rounded-xl self-start sm:self-auto">
           {levelOptions.map((lvl) => (
             <button
               key={lvl}
               onClick={() => setSelectedLevel(lvl)}
               className={`px-3 py-1.5 rounded-lg text-xs font-bold font-mono transition-all cursor-pointer ${
                 selectedLevel === lvl
-                  ? 'bg-white text-indigo-700 shadow-xs'
-                  : 'text-stone-600 hover:text-stone-900'
+                  ? 'bg-card text-indigo-700 shadow-xs'
+                  : 'text-muted-foreground hover:text-foreground'
               }`}
             >
               {lvl}
@@ -104,20 +104,20 @@ export const JLPTSectionalScoringCard: React.FC<JLPTSectionalScoringCardProps> =
               >
                 {report.statusLabelJa}
               </span>
-              <span className="text-xs font-bold text-stone-800">{report.statusLabelMm}</span>
+              <span className="text-xs font-bold text-foreground">{report.statusLabelMm}</span>
             </div>
 
             <div className="flex items-baseline space-x-3">
-              <span className="text-4xl sm:text-5xl font-black font-mono tracking-tight text-stone-900">
+              <span className="text-4xl sm:text-5xl font-black font-mono tracking-tight text-foreground">
                 {report.totalScaledScore}
               </span>
-              <span className="text-sm font-mono text-stone-500">/ {report.totalMaxScore} 点</span>
-              <span className="text-xs font-mono font-medium text-stone-600 bg-white/80 px-2.5 py-1 rounded-lg border border-stone-200">
+              <span className="text-sm font-mono text-muted-foreground">/ {report.totalMaxScore} 点</span>
+              <span className="text-xs font-mono font-medium text-muted-foreground bg-card/80 px-2.5 py-1 rounded-lg border border-border">
                 Pass Mark (合格点): ≥ {report.totalPassScore} 点
               </span>
             </div>
 
-            <p className="text-xs text-stone-600 leading-relaxed max-w-xl">
+            <p className="text-xs text-muted-foreground leading-relaxed max-w-xl">
               {report.status === 'passed' && (
                 <span>
                   ဂုဏ်ယူပါသည်။ စုစုပေါင်းရမှတ် ({report.totalScaledScore}/{report.totalMaxScore}) ပြည့်မီသည့်အပြင် ကဏ္ဍအားလုံး၏ အနိမ့်ဆုံးသတ်မှတ်ချက် (基準点) ကို ကျော်လွန်အောင်မြင်ထားပါသည်။
@@ -137,14 +137,14 @@ export const JLPTSectionalScoringCard: React.FC<JLPTSectionalScoringCardProps> =
           </div>
 
           {/* Right: Dual condition checklists */}
-          <div className="bg-white/90 backdrop-blur-xs border border-stone-200/80 rounded-xl p-3.5 space-y-2.5 shrink-0 min-w-[240px]">
-            <div className="text-[11px] font-mono uppercase font-bold text-stone-500">
+          <div className="bg-card/90 backdrop-blur-xs border border-border/80 rounded-xl p-3.5 space-y-2.5 shrink-0 min-w-[240px]">
+            <div className="text-[11px] font-mono uppercase font-bold text-muted-foreground">
               Pass Criteria Verification (စစ်ဆေးချက်)
             </div>
 
             {/* Condition 1: Overall Score */}
             <div className="flex items-center justify-between text-xs">
-              <span className="text-stone-700">1. စုစုပေါင်းရမှတ် (≥ {report.totalPassScore} 点):</span>
+              <span className="text-foreground">1. စုစုပေါင်းရမှတ် (≥ {report.totalPassScore} 点):</span>
               <span className="flex items-center space-x-1 font-bold">
                 {report.passedOverall ? (
                   <>
@@ -162,7 +162,7 @@ export const JLPTSectionalScoringCard: React.FC<JLPTSectionalScoringCardProps> =
 
             {/* Condition 2: Sectional Minimum (基準点) */}
             <div className="flex items-center justify-between text-xs">
-              <span className="text-stone-700">2. ကဏ္ဍစုံ 基準点 ပြည့်မီမှု:</span>
+              <span className="text-foreground">2. ကဏ္ဍစုံ 基準点 ပြည့်မီမှု:</span>
               <span className="flex items-center space-x-1 font-bold">
                 {report.passedSectional ? (
                   <>
@@ -184,11 +184,11 @@ export const JLPTSectionalScoringCard: React.FC<JLPTSectionalScoringCardProps> =
       {/* Sectional Cutoffs Breakdown Grid */}
       <div className="space-y-3">
         <div className="flex items-center justify-between">
-          <h3 className="text-xs font-mono font-bold uppercase text-stone-700 tracking-wider flex items-center space-x-1.5">
+          <h3 className="text-xs font-mono font-bold uppercase text-foreground tracking-wider flex items-center space-x-1.5">
             <Target className="w-3.5 h-3.5 text-indigo-600" />
             <span>Official Sectional Minimum Cutoffs Breakdown (ကဏ္ဍအလိုက် 基準点)</span>
           </h3>
-          <span className="text-[11px] font-mono text-stone-500">
+          <span className="text-[11px] font-mono text-muted-foreground">
             {selectedLevel} Exam Structure
           </span>
         </div>
@@ -203,16 +203,16 @@ export const JLPTSectionalScoringCard: React.FC<JLPTSectionalScoringCardProps> =
               key={sec.id}
               className={`rounded-xl border p-4 space-y-3 transition relative overflow-hidden ${
                 sec.passed
-                  ? 'bg-stone-50/60 border-stone-200'
+                  ? 'bg-muted/50 border-border'
                   : 'bg-rose-50/40 border-rose-200'
               }`}
             >
               <div className="flex items-start justify-between gap-2">
                 <div>
-                  <div className="text-xs font-bold text-stone-900 leading-snug">
+                  <div className="text-xs font-bold text-foreground leading-snug">
                     {sec.nameJa}
                   </div>
-                  <div className="text-[11px] text-stone-500 font-medium mt-0.5">
+                  <div className="text-[11px] text-muted-foreground font-medium mt-0.5">
                     {sec.nameMm}
                   </div>
                 </div>
@@ -230,14 +230,14 @@ export const JLPTSectionalScoringCard: React.FC<JLPTSectionalScoringCardProps> =
               {/* Score Display */}
               <div className="flex items-baseline justify-between pt-1">
                 <div>
-                  <span className="text-2xl font-black font-mono text-stone-900">
+                  <span className="text-2xl font-black font-mono text-foreground">
                     {sec.scaledScore}
                   </span>
-                  <span className="text-xs font-mono text-stone-500"> / {sec.maxScore} 点</span>
+                  <span className="text-xs font-mono text-muted-foreground"> / {sec.maxScore} 点</span>
                 </div>
                 <div className="text-right">
-                  <span className="text-[10px] font-mono text-stone-500 block">基準点 Cutoff</span>
-                  <span className="text-xs font-mono font-bold text-stone-700">
+                  <span className="text-[10px] font-mono text-muted-foreground block">基準点 Cutoff</span>
+                  <span className="text-xs font-mono font-bold text-foreground">
                     ≥ {sec.cutoffScore} 点
                   </span>
                 </div>
@@ -245,7 +245,7 @@ export const JLPTSectionalScoringCard: React.FC<JLPTSectionalScoringCardProps> =
 
               {/* Progress bar with cutoff notch indicator */}
               <div className="space-y-1">
-                <div className="relative w-full bg-stone-200 rounded-full h-2 overflow-hidden">
+                <div className="relative w-full bg-muted rounded-full h-2 overflow-hidden">
                   <div
                     className={`h-full rounded-full transition-all duration-500 ${
                       sec.passed ? 'bg-indigo-600' : 'bg-rose-500'
@@ -259,7 +259,7 @@ export const JLPTSectionalScoringCard: React.FC<JLPTSectionalScoringCardProps> =
                     style={{ left: `${(sec.cutoffScore / sec.maxScore) * 100}%` }}
                   />
                 </div>
-                <div className="flex justify-between text-[10px] font-mono text-stone-400">
+                <div className="flex justify-between text-[10px] font-mono text-muted-foreground">
                   <span>0</span>
                   <span className="text-amber-700 font-bold">Cutoff {sec.cutoffScore}</span>
                   <span>{sec.maxScore}</span>
@@ -271,14 +271,14 @@ export const JLPTSectionalScoringCard: React.FC<JLPTSectionalScoringCardProps> =
       </div>
 
       {/* WEAKEST DOMAIN DIAGNOSTICS & BURMESE ACTIONABLE STUDY ADVICE */}
-      <div className="rounded-2xl border border-stone-200 bg-stone-50/70 p-5 space-y-4">
+      <div className="rounded-2xl border border-border bg-muted/50/70 p-5 space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
           <div className="flex items-center space-x-2">
             <span className="inline-flex items-center space-x-1.5 px-2.5 py-1 rounded-full bg-rose-100 text-rose-800 text-[11px] font-bold font-mono">
               <Flame className="w-3.5 h-3.5 text-rose-600 animate-pulse" />
               <span>အားနည်းချက် သုံးသပ်ချက် (Domain Diagnostics)</span>
             </span>
-            <span className="text-xs text-stone-600 font-medium">
+            <span className="text-xs text-muted-foreground font-medium">
               အနိမ့်ဆုံး စွမ်းဆောင်ရည်: <strong>{report.weakestDomain.titleJa}</strong> ({report.weakestDomain.titleMm})
             </span>
           </div>
@@ -298,11 +298,11 @@ export const JLPTSectionalScoringCard: React.FC<JLPTSectionalScoringCardProps> =
                 className={`p-3 rounded-xl border transition ${
                   isWeakest
                     ? 'bg-rose-50/80 border-rose-300 ring-1 ring-rose-200'
-                    : 'bg-white border-stone-200'
+                    : 'bg-card border-border'
                 }`}
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-stone-800">{dom.titleJa}</span>
+                  <span className="text-xs font-bold text-foreground">{dom.titleJa}</span>
                   <span
                     className={`text-xs font-mono font-bold ${
                       dom.accuracyPct >= 60 ? 'text-emerald-700' : 'text-rose-600'
@@ -311,21 +311,21 @@ export const JLPTSectionalScoringCard: React.FC<JLPTSectionalScoringCardProps> =
                     {dom.accuracyPct}%
                   </span>
                 </div>
-                <div className="text-[11px] text-stone-500 mt-0.5">{dom.titleMm}</div>
+                <div className="text-[11px] text-muted-foreground mt-0.5">{dom.titleMm}</div>
               </div>
             );
           })}
         </div>
 
         {/* Burmese Actionable Study Advice */}
-        <div className="bg-white border border-stone-200 rounded-xl p-4 space-y-3">
+        <div className="bg-card border border-border rounded-xl p-4 space-y-3">
           <div className="flex items-start space-x-2.5">
             <Sparkles className="w-4 h-4 text-indigo-600 shrink-0 mt-0.5" />
             <div className="space-y-1">
-              <h4 className="text-xs font-bold text-stone-900">
+              <h4 className="text-xs font-bold text-foreground">
                 တိုက်ရိုက်လေ့လာရန် လမ်းညွှန်ချက် (Study Action Plan):
               </h4>
-              <p className="text-xs text-stone-700 leading-relaxed">
+              <p className="text-xs text-foreground leading-relaxed">
                 {report.weakestDomain.burmeseAdvice}
               </p>
             </div>

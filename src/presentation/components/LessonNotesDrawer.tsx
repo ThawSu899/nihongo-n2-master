@@ -97,20 +97,20 @@ export const LessonNotesDrawer: React.FC<LessonNotesDrawerProps> = ({
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
             transition={{ type: 'spring', damping: 28, stiffness: 300 }}
-            className="fixed right-0 top-0 bottom-0 z-50 w-full sm:w-[460px] bg-white dark:bg-zinc-900 border-l border-stone-200 dark:border-zinc-800 shadow-2xl flex flex-col"
+            className="fixed right-0 top-0 bottom-0 z-50 w-full sm:w-[460px] bg-card border-l border-border shadow-2xl flex flex-col"
             role="dialog"
             aria-label="Personal Lesson Notes"
           >
             {/* Header */}
-            <div className="p-4 sm:p-5 border-b border-stone-200 dark:border-zinc-800 flex items-center justify-between gap-3 bg-stone-50 dark:bg-zinc-950">
+            <div className="p-4 sm:p-5 border-b border-border flex items-center justify-between gap-3 bg-muted/50">
               <div className="space-y-1 min-w-0">
                 <div className="flex items-center space-x-2">
                   <FileText className="w-4 h-4 text-indigo-600 dark:text-indigo-400 shrink-0" />
-                  <h3 className="text-sm font-bold text-stone-900 dark:text-zinc-100 font-myanmar truncate">
+                  <h3 className="text-sm font-bold text-foreground font-myanmar truncate">
                     📝 ကိုယ်ပိုင်မှတ်စု (Personal Notes)
                   </h3>
                 </div>
-                <p className="text-xs text-stone-500 dark:text-zinc-400 font-mono truncate">
+                <p className="text-xs text-muted-foreground font-mono truncate">
                   {lessonTitle || lessonId}
                 </p>
               </div>
@@ -123,7 +123,7 @@ export const LessonNotesDrawer: React.FC<LessonNotesDrawerProps> = ({
                   className={`p-2 rounded-xl transition cursor-pointer border ${
                     bookmarked
                       ? 'bg-amber-50 dark:bg-amber-950/60 border-amber-300 dark:border-amber-700 text-amber-500 shadow-2xs'
-                      : 'bg-white dark:bg-zinc-800 border-stone-200 dark:border-zinc-700 text-stone-400 hover:text-stone-700 dark:hover:text-zinc-200'
+                      : 'bg-card border-border text-muted-foreground hover:text-foreground hover:text-foreground'
                   }`}
                   title={bookmarked ? 'Remove Bookmark (★)' : 'Add Bookmark (★)'}
                 >
@@ -136,7 +136,7 @@ export const LessonNotesDrawer: React.FC<LessonNotesDrawerProps> = ({
                 <button
                   type="button"
                   onClick={onClose}
-                  className="p-2 rounded-xl bg-white dark:bg-zinc-800 hover:bg-stone-100 dark:hover:bg-zinc-700 border border-stone-200 dark:border-zinc-700 text-stone-600 dark:text-zinc-300 transition cursor-pointer"
+                  className="p-2 rounded-xl bg-card hover:bg-muted hover:bg-muted border border-border text-muted-foreground text-muted-foreground transition cursor-pointer"
                   title="Close notes drawer"
                 >
                   <X className="w-4 h-4" />
@@ -146,7 +146,7 @@ export const LessonNotesDrawer: React.FC<LessonNotesDrawerProps> = ({
 
             {/* Note Editor Body */}
             <div className="flex-1 p-4 sm:p-5 flex flex-col space-y-3 overflow-y-auto">
-              <div className="flex items-center justify-between text-xs text-stone-500 dark:text-zinc-400 font-myanmar">
+              <div className="flex items-center justify-between text-xs text-muted-foreground font-myanmar">
                 <span>သဒ္ဒါစည်းမျဉ်းများနှင့် ဝေါဟာရ မှတ်စုများ ရေးရန်:</span>
                 <span className="font-mono text-[11px]">{notes.length} စာလုံး</span>
               </div>
@@ -160,20 +160,20 @@ export const LessonNotesDrawer: React.FC<LessonNotesDrawerProps> = ({
                   e.stopPropagation();
                 }}
                 placeholder="ဤသင်ခန်းစာအတွက် ကိုယ်ပိုင်မှတ်စု၊ သဒ္ဒါအသုံးအနှုန်းများနှင့် အလွတ်ကျက် အကူအညီများကို စိတ်ကြိုက်ရေးသားပါ...&#10;&#10;ဥပမာ -&#10;• 〜てから နှင့် 〜たあとで ကွာခြားချက်&#10;• ခက်ခဲသော စာလုံး: 準備 (じゅんび)&#10;• ဆရာ့ရှင်းပြချက် မှတ်စု"
-                className="flex-1 w-full p-4 rounded-2xl bg-stone-50 dark:bg-zinc-950 border border-stone-200 dark:border-zinc-800 focus:border-indigo-500 dark:focus:border-indigo-500 focus:bg-white dark:focus:bg-zinc-900 text-xs sm:text-sm text-stone-900 dark:text-zinc-100 placeholder:text-stone-400 dark:placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 transition resize-none font-myanmar leading-relaxed shadow-inner"
+                className="flex-1 w-full p-4 rounded-2xl bg-muted/50 border border-border focus:border-indigo-500 dark:focus:border-indigo-500 focus:bg-card dark:focus:bg-card text-xs sm:text-sm text-foreground placeholder:text-muted-foreground  focus:outline-none focus:ring-2 focus:ring-indigo-500/20 transition resize-none font-myanmar leading-relaxed shadow-inner"
               />
             </div>
 
             {/* Footer Toolbar */}
-            <div className="p-3.5 sm:p-4 border-t border-stone-200 dark:border-zinc-800 bg-stone-50 dark:bg-zinc-950 flex items-center justify-between gap-3">
-              <div className="flex items-center space-x-1.5 text-xs text-stone-500 dark:text-zinc-400 font-myanmar">
+            <div className="p-3.5 sm:p-4 border-t border-border bg-muted/50 flex items-center justify-between gap-3">
+              <div className="flex items-center space-x-1.5 text-xs text-muted-foreground font-myanmar">
                 {saved ? (
                   <span className="text-emerald-600 dark:text-emerald-400 flex items-center gap-1 font-semibold">
                     <Check className="w-3.5 h-3.5" />
                     သိမ်းဆည်းပြီးပါပြီ
                   </span>
                 ) : (
-                  <span className="text-[11px] font-mono text-stone-400">
+                  <span className="text-[11px] font-mono text-muted-foreground">
                     Auto-saved to cloud sync
                   </span>
                 )}
@@ -184,7 +184,7 @@ export const LessonNotesDrawer: React.FC<LessonNotesDrawerProps> = ({
                   <button
                     type="button"
                     onClick={handleClear}
-                    className="px-3 py-1.5 rounded-xl bg-white dark:bg-zinc-800 hover:bg-rose-50 dark:hover:bg-rose-950/40 text-stone-600 dark:text-zinc-400 hover:text-rose-600 border border-stone-200 dark:border-zinc-700 hover:border-rose-300 text-xs font-medium transition cursor-pointer flex items-center space-x-1"
+                    className="px-3 py-1.5 rounded-xl bg-card hover:bg-rose-50 dark:hover:bg-rose-950/40 text-muted-foreground hover:text-rose-600 border border-border hover:border-rose-300 text-xs font-medium transition cursor-pointer flex items-center space-x-1"
                     title="Clear note text"
                   >
                     <Trash2 className="w-3.5 h-3.5" />

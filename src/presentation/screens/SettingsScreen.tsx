@@ -558,25 +558,25 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
     <div className="space-y-6 max-w-4xl mx-auto pb-28">
       {/* Header */}
       <div>
-        <h1 className="text-2xl font-bold text-stone-900 tracking-tight">System Settings</h1>
-        <p className="text-xs text-stone-600 mt-0.5">
+        <h1 className="text-2xl font-bold text-foreground tracking-tight">System Settings</h1>
+        <p className="text-xs text-muted-foreground mt-0.5">
           Configure learning parameters, study schedule goals, kana display policies, and offline storage.
         </p>
       </div>
 
       {/* Curriculum & Display Preferences */}
-      <div className="bg-white border border-stone-200 rounded-2xl p-5 space-y-4 shadow-sm">
-        <h2 className="text-base font-semibold text-stone-900 flex items-center">
+      <div className="bg-card border border-border rounded-2xl p-5 space-y-4 shadow-sm">
+        <h2 className="text-base font-semibold text-foreground flex items-center">
           <Globe className="w-4 h-4 mr-2 text-indigo-600" /> Language &amp; Kana Policy
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="space-y-1">
-            <label className="text-xs font-medium text-stone-700">Furigana Display Policy</label>
+            <label className="text-xs font-medium text-foreground">Furigana Display Policy</label>
             <select
               value={profile.furiganaMode}
               onChange={(e) => handleChange('furiganaMode', e.target.value)}
-              className="w-full bg-white border border-stone-300 rounded-xl px-3 py-2 text-xs text-stone-900 focus:outline-none focus:border-indigo-500 shadow-xs"
+              className="w-full bg-card border border-border rounded-xl px-3 py-2 text-xs text-foreground focus:outline-none focus:border-indigo-500 shadow-xs"
             >
               <option value="always">Always Show Furigana (Default N5)</option>
               <option value="unlearned">Only Unlearned / New Kanji</option>
@@ -585,11 +585,11 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
           </div>
 
           <div className="space-y-1">
-            <label className="text-xs font-medium text-stone-700">Explanation Language</label>
+            <label className="text-xs font-medium text-foreground">Explanation Language</label>
             <select
               value={profile.explanationLang}
               onChange={(e) => handleChange('explanationLang', e.target.value)}
-              className="w-full bg-white border border-stone-300 rounded-xl px-3 py-2 text-xs text-stone-900 focus:outline-none focus:border-indigo-500 shadow-xs"
+              className="w-full bg-card border border-border rounded-xl px-3 py-2 text-xs text-foreground focus:outline-none focus:border-indigo-500 shadow-xs"
             >
               <option value="en">English (Primary)</option>
               <option value="my">Myanmar / Burmese (Unicode)</option>
@@ -597,35 +597,35 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
             </select>
           </div>
 
-          <div className="sm:col-span-2 flex items-center justify-between p-3 rounded-xl bg-stone-50 border border-stone-200">
+          <div className="sm:col-span-2 flex items-center justify-between p-3 rounded-xl bg-muted/50 border border-border">
             <div>
-              <span className="text-xs font-semibold text-stone-800 block">Romaji Reading Assist</span>
-              <span className="text-[11px] text-stone-600">
+              <span className="text-xs font-semibold text-foreground block">Romaji Reading Assist</span>
+              <span className="text-[11px] text-muted-foreground">
                 Displays romanized spelling under furigana. Recommended for beginners on N5 Day 1.
               </span>
             </div>
             <button
               onClick={() => handleChange('showRomaji', !profile.showRomaji)}
               className={`w-11 h-6 flex items-center rounded-full p-1 transition duration-300 ${
-                profile.showRomaji ? 'bg-indigo-600 justify-end' : 'bg-stone-300 justify-start'
+                profile.showRomaji ? 'bg-indigo-600 justify-end' : 'bg-muted justify-start'
               }`}
             >
-              <div className="bg-white w-4 h-4 rounded-full shadow-md" />
+              <div className="bg-card w-4 h-4 rounded-full shadow-md" />
             </button>
           </div>
         </div>
       </div>
 
       {/* Speech & Japanese Audio Resiliency Section */}
-      <div className="bg-white border border-stone-200 rounded-2xl p-5 space-y-4 shadow-sm">
-        <h2 className="text-base font-semibold text-stone-900 flex items-center justify-between">
+      <div className="bg-card border border-border rounded-2xl p-5 space-y-4 shadow-sm">
+        <h2 className="text-base font-semibold text-foreground flex items-center justify-between">
           <span className="flex items-center">
             <Volume2 className="w-4 h-4 mr-2 text-indigo-600" /> Japanese Speech Synthesis (TTS) &amp; Voice Health
           </span>
-          <span className="text-xs text-stone-500 font-myanmar">အသံထွက် အခြေအနေ</span>
+          <span className="text-xs text-muted-foreground font-myanmar">အသံထွက် အခြေအနေ</span>
         </h2>
 
-        <div className="p-4 rounded-xl bg-stone-50 border border-stone-200 space-y-3">
+        <div className="p-4 rounded-xl bg-muted/50 border border-border space-y-3">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div className="space-y-1">
               <div className="flex items-center space-x-2">
@@ -636,13 +636,13 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
                       : 'bg-amber-500 shadow-xs'
                   }`}
                 />
-                <span className="text-xs font-bold text-stone-900 font-mono">
+                <span className="text-xs font-bold text-foreground font-mono">
                   {ttsDiag?.hasJaVoice
                     ? `Native Japanese Voice Detected: ${ttsDiag.defaultVoiceName || 'Default ja-JP'}`
                     : 'No Native Japanese Voice Found — Fallback Visual Phonetics Active'}
                 </span>
               </div>
-              <p className="text-[11px] text-stone-600 font-myanmar">
+              <p className="text-[11px] text-muted-foreground font-myanmar">
                 {ttsDiag?.hasJaVoice
                   ? `စက်အတွင်း ဂျပန်အသံထွက် (${ttsDiag.japaneseVoices.length} ခု) အဆင်သင့်ရှိပါသည်။ Shadowing နှင့် Listening များတွင် အလိုအလျောက် သုံးစွဲမည်။`
                   : 'စက်တွင် ဂျပန်အသံထွက် မရှိသေးပါသဖြင့် Romaji ဖတ်နည်းနှင့် Pitch Accent အသံအတက်အကျ မျဉ်းကွေးများဖြင့် အထောက်အကူပြုထားပါသည်။'}
@@ -660,7 +660,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
           </div>
 
           {ttsTestResult && (
-            <div className="text-xs font-myanmar p-2.5 rounded-lg bg-white border border-stone-200 text-stone-800">
+            <div className="text-xs font-myanmar p-2.5 rounded-lg bg-card border border-border text-foreground">
               {ttsTestResult}
             </div>
           )}
@@ -668,18 +668,18 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
       </div>
 
       {/* Daily Schedule & Rollover Settings */}
-      <div className="bg-white border border-stone-200 rounded-2xl p-5 space-y-4 shadow-sm">
-        <h2 className="text-base font-semibold text-stone-900 flex items-center">
+      <div className="bg-card border border-border rounded-2xl p-5 space-y-4 shadow-sm">
+        <h2 className="text-base font-semibold text-foreground flex items-center">
           <Calendar className="w-4 h-4 mr-2 text-indigo-600" /> Study Schedule &amp; SRS Rollover
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="space-y-1">
-            <label className="text-xs font-medium text-stone-700">Daily Study Target</label>
+            <label className="text-xs font-medium text-foreground">Daily Study Target</label>
             <select
               value={profile.dailyTargetMinutes}
               onChange={(e) => handleChange('dailyTargetMinutes', Number(e.target.value))}
-              className="w-full bg-white border border-stone-300 rounded-xl px-3 py-2 text-xs text-stone-900 focus:outline-none focus:border-indigo-500 shadow-xs"
+              className="w-full bg-card border border-border rounded-xl px-3 py-2 text-xs text-foreground focus:outline-none focus:border-indigo-500 shadow-xs"
             >
               <option value={360}>6 Hours (360 min) — Standard Full-Day Immersion</option>
               <option value={180}>3 Hours (180 min) — Accelerated Part-Time</option>
@@ -689,11 +689,11 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
           </div>
 
           <div className="space-y-1">
-            <label className="text-xs font-medium text-stone-700">Daily Rollover Hour</label>
+            <label className="text-xs font-medium text-foreground">Daily Rollover Hour</label>
             <select
               value={profile.dayRolloverHour}
               onChange={(e) => handleChange('dayRolloverHour', Number(e.target.value))}
-              className="w-full bg-white border border-stone-300 rounded-xl px-3 py-2 text-xs text-stone-900 focus:outline-none focus:border-indigo-500 shadow-xs"
+              className="w-full bg-card border border-border rounded-xl px-3 py-2 text-xs text-foreground focus:outline-none focus:border-indigo-500 shadow-xs"
             >
               <option value={4}>04:00 AM (Default — Night-owl friendly)</option>
               <option value={0}>00:00 Midnight</option>
@@ -704,16 +704,16 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
       </div>
 
       {/* Notification Preferences & Quiet Hours */}
-      <div className="bg-white border border-stone-200 rounded-2xl p-5 space-y-4 shadow-sm">
-        <h2 className="text-base font-semibold text-stone-900 flex items-center">
+      <div className="bg-card border border-border rounded-2xl p-5 space-y-4 shadow-sm">
+        <h2 className="text-base font-semibold text-foreground flex items-center">
           <Bell className="w-4 h-4 mr-2 text-indigo-600" /> Reminders &amp; Quiet Hours
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div className="flex items-center justify-between p-3 rounded-xl bg-stone-50 border border-stone-200">
+          <div className="flex items-center justify-between p-3 rounded-xl bg-muted/50 border border-border">
             <div>
-              <span className="text-xs font-semibold text-stone-800 block">In-App Sound &amp; Banners</span>
-              <span className="text-[11px] text-stone-600">Alerts when blocks finish or break starts</span>
+              <span className="text-xs font-semibold text-foreground block">In-App Sound &amp; Banners</span>
+              <span className="text-[11px] text-muted-foreground">Alerts when blocks finish or break starts</span>
             </div>
             <button
               onClick={() =>
@@ -723,17 +723,17 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
                 })
               }
               className={`w-11 h-6 flex items-center rounded-full p-1 transition duration-300 ${
-                profile.notificationSettings.inApp ? 'bg-indigo-600 justify-end' : 'bg-stone-300 justify-start'
+                profile.notificationSettings.inApp ? 'bg-indigo-600 justify-end' : 'bg-muted justify-start'
               }`}
             >
-              <div className="bg-white w-4 h-4 rounded-full shadow-md" />
+              <div className="bg-card w-4 h-4 rounded-full shadow-md" />
             </button>
           </div>
 
-          <div className="flex items-center justify-between p-3 rounded-xl bg-stone-50 border border-stone-200">
+          <div className="flex items-center justify-between p-3 rounded-xl bg-muted/50 border border-border">
             <div>
-              <span className="text-xs font-semibold text-stone-800 block">Browser Notifications</span>
-              <span className="text-[11px] text-stone-600">Best-effort notification API alerts</span>
+              <span className="text-xs font-semibold text-foreground block">Browser Notifications</span>
+              <span className="text-[11px] text-muted-foreground">Best-effort notification API alerts</span>
             </div>
             <button
               onClick={() =>
@@ -743,15 +743,15 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
                 })
               }
               className={`w-11 h-6 flex items-center rounded-full p-1 transition duration-300 ${
-                profile.notificationSettings.browser ? 'bg-indigo-600 justify-end' : 'bg-stone-300 justify-start'
+                profile.notificationSettings.browser ? 'bg-indigo-600 justify-end' : 'bg-muted justify-start'
               }`}
             >
-              <div className="bg-white w-4 h-4 rounded-full shadow-md" />
+              <div className="bg-card w-4 h-4 rounded-full shadow-md" />
             </button>
           </div>
 
           <div className="space-y-1">
-            <label className="text-xs font-medium text-stone-700">Quiet Hours Start</label>
+            <label className="text-xs font-medium text-foreground">Quiet Hours Start</label>
             <input
               type="time"
               value={profile.notificationSettings.quietHoursStart || '22:00'}
@@ -761,12 +761,12 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
                   quietHoursStart: e.target.value,
                 })
               }
-              className="w-full bg-white border border-stone-300 rounded-xl px-3 py-2 text-xs text-stone-900 focus:outline-none focus:border-indigo-500 shadow-xs"
+              className="w-full bg-card border border-border rounded-xl px-3 py-2 text-xs text-foreground focus:outline-none focus:border-indigo-500 shadow-xs"
             />
           </div>
 
           <div className="space-y-1">
-            <label className="text-xs font-medium text-stone-700">Quiet Hours End</label>
+            <label className="text-xs font-medium text-foreground">Quiet Hours End</label>
             <input
               type="time"
               value={profile.notificationSettings.quietHoursEnd || '07:00'}
@@ -776,22 +776,22 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
                   quietHoursEnd: e.target.value,
                 })
               }
-              className="w-full bg-white border border-stone-300 rounded-xl px-3 py-2 text-xs text-stone-900 focus:outline-none focus:border-indigo-500 shadow-xs"
+              className="w-full bg-card border border-border rounded-xl px-3 py-2 text-xs text-foreground focus:outline-none focus:border-indigo-500 shadow-xs"
             />
           </div>
         </div>
       </div>
 
       {/* Keyboard Shortcuts Customization Section */}
-      <div className="bg-white border border-stone-200 rounded-2xl p-5 space-y-4 shadow-sm">
+      <div className="bg-card border border-border rounded-2xl p-5 space-y-4 shadow-sm">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div className="flex items-center space-x-2.5">
             <Keyboard className="w-5 h-5 text-indigo-600 shrink-0" />
             <div>
-              <h2 className="text-base font-semibold text-stone-900">
+              <h2 className="text-base font-semibold text-foreground">
                 ကီးဘုတ် ဖြတ်လမ်းခလုတ်များ (Keyboard Shortcuts)
               </h2>
-              <p className="text-[11px] text-stone-600">
+              <p className="text-[11px] text-muted-foreground">
                 လေ့ကျင့်ခန်း၊ အသံဖွင့်ခြင်းနှင့် SRS ကတ်များအတွက် မိမိစိတ်ကြိုက် ကီးဘုတ်ခလုတ်များကို သတ်မှတ်နိုင်ပါသည်
               </p>
             </div>
@@ -804,9 +804,9 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
               setShortcutFeedbackMsg('မူလဖြတ်လမ်းခလုတ်များအတိုင်း အားလုံးပြန်လည်သတ်မှတ်ပြီးပါပြီ');
               setTimeout(() => setShortcutFeedbackMsg(null), 3500);
             }}
-            className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 text-stone-700 text-xs font-medium transition cursor-pointer self-start sm:self-auto shrink-0 shadow-xs"
+            className="flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-card hover:bg-muted border border-border text-foreground text-xs font-medium transition cursor-pointer self-start sm:self-auto shrink-0 shadow-xs"
           >
-            <RotateCcw className="w-3.5 h-3.5 text-stone-500" />
+            <RotateCcw className="w-3.5 h-3.5 text-muted-foreground" />
             <span>မူလအတိုင်း ပြန်ထားမည် (Reset Defaults)</span>
           </button>
         </div>
@@ -829,7 +829,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
             <button
               type="button"
               onClick={() => setRecordingAction(null)}
-              className="px-2.5 py-1 rounded-lg bg-white border border-stone-300 text-[11px] text-stone-700 hover:text-stone-900 cursor-pointer self-end sm:self-auto shadow-xs"
+              className="px-2.5 py-1 rounded-lg bg-card border border-border text-[11px] text-foreground hover:text-foreground cursor-pointer self-end sm:self-auto shadow-xs"
             >
               ပယ်ဖျက်ရန် (Esc)
             </button>
@@ -854,7 +854,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
               className={`px-2.5 py-1 rounded-lg whitespace-nowrap transition cursor-pointer text-xs ${
                 selectedShortcutCategory === cat.id
                   ? 'bg-indigo-600 text-white font-medium shadow-xs'
-                  : 'bg-stone-100 text-stone-600 hover:text-stone-900 border border-stone-200'
+                  : 'bg-muted text-muted-foreground hover:text-foreground border border-border'
               }`}
             >
               {cat.label}
@@ -876,15 +876,15 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
               return (
                 <div
                   key={s.id}
-                  className={`p-3 rounded-xl bg-stone-50 border ${
+                  className={`p-3 rounded-xl bg-muted/50 border ${
                     isRecording
                       ? 'border-indigo-500 ring-2 ring-indigo-500/20 bg-indigo-50/40'
-                      : 'border-stone-200 hover:border-stone-300'
+                      : 'border-border hover:border-border/80'
                   } transition flex items-center justify-between gap-3`}
                 >
                   <div className="min-w-0 flex-1">
                     <div className="flex items-center space-x-2">
-                      <span className="text-xs font-semibold text-stone-900 truncate">
+                      <span className="text-xs font-semibold text-foreground truncate">
                         {s.nameMy}
                       </span>
                       {isCustomized && (
@@ -893,7 +893,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
                         </span>
                       )}
                     </div>
-                    <div className="text-[10px] text-stone-500 truncate">
+                    <div className="text-[10px] text-muted-foreground truncate">
                       {s.nameEn} &bull; {s.descriptionMy}
                     </div>
                   </div>
@@ -905,7 +905,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
                       className={`min-w-[58px] px-2.5 py-1.5 rounded-lg font-mono text-xs font-semibold border transition cursor-pointer flex items-center justify-center ${
                         isRecording
                           ? 'bg-indigo-600 border-indigo-400 text-white shadow-xs'
-                          : 'bg-white hover:bg-stone-50 border-stone-200 text-stone-800 shadow-xs'
+                          : 'bg-card hover:bg-muted border-border text-foreground shadow-xs'
                       }`}
                       title="ကလစ်နှိပ်၍ ခလုတ်ပြောင်းလဲနိုင်ပါသည်"
                     >
@@ -916,7 +916,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
                       <button
                         type="button"
                         onClick={() => updateKeyBinding(s.id, s.defaultKeys)}
-                        className="p-1 rounded-md text-stone-400 hover:text-stone-700 hover:bg-stone-200 transition cursor-pointer"
+                        className="p-1 rounded-md text-muted-foreground hover:text-foreground hover:bg-muted transition cursor-pointer"
                         title="မူလခလုတ်အတိုင်း ပြန်ထားမည်"
                       >
                         <RotateCcw className="w-3 h-3" />
@@ -930,30 +930,30 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
       </div>
 
       {/* Google Account & Drive Cloud Backup Section */}
-      <div className="bg-white border border-stone-200 rounded-2xl p-5 space-y-4 shadow-sm">
+      <div className="bg-card border border-border rounded-2xl p-5 space-y-4 shadow-sm">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center space-x-3">
             <div
               className={`w-9 h-9 rounded-xl flex items-center justify-center ${
-                isGoogleAuthConnected ? 'bg-indigo-50 text-indigo-600' : 'bg-stone-100 text-stone-500'
+                isGoogleAuthConnected ? 'bg-indigo-50 text-indigo-600' : 'bg-muted text-muted-foreground'
               }`}
             >
               <Cloud className="w-5 h-5" />
             </div>
             <div>
-              <h2 className="text-base font-semibold text-stone-900 flex items-center gap-2">
+              <h2 className="text-base font-semibold text-foreground flex items-center gap-2">
                 Google Account &amp; Drive Backup
                 <span
                   className={`text-[10px] font-mono px-2 py-0.5 rounded-full border ${
                     isGoogleAuthConnected
                       ? 'bg-emerald-50 text-emerald-800 border-emerald-200'
-                      : 'bg-stone-100 text-stone-600 border-stone-200'
+                      : 'bg-muted text-muted-foreground border-border'
                   }`}
                 >
                   {isGoogleAuthConnected ? 'Connected' : 'Offline / Local Only'}
                 </span>
               </h2>
-              <p className="text-xs text-stone-500 font-myanmar">
+              <p className="text-xs text-muted-foreground font-myanmar">
                 Google Drive သို့ သင်ယူမှုမှတ်တမ်းများ Cloud Backup သိမ်းဆည်းခြင်းနှင့် ပြန်လည်ရယူခြင်း
               </p>
             </div>
@@ -965,7 +965,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
                 type="button"
                 onClick={handleGoogleSignOut}
                 disabled={googleAuthLoading || !!driveActionLoading}
-                className="flex items-center space-x-1.5 px-3.5 py-2 bg-white hover:bg-rose-50 text-rose-700 border border-rose-200 rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-xs disabled:opacity-50"
+                className="flex items-center space-x-1.5 px-3.5 py-2 bg-card hover:bg-rose-50 text-rose-700 border border-rose-200 rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-xs disabled:opacity-50"
               >
                 <LogOut className="w-3.5 h-3.5" />
                 <span>{googleAuthLoading ? 'Signing out...' : 'Sign out'}</span>
@@ -985,16 +985,16 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
         </div>
 
         {/* User / Connection Details */}
-        <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
+        <div className="p-3.5 rounded-xl bg-muted/50 border border-border flex flex-col sm:flex-row sm:items-center justify-between gap-3 text-xs">
           <div className="flex items-center space-x-2.5">
-            <User className={`w-4 h-4 ${isGoogleAuthConnected ? 'text-indigo-600' : 'text-stone-400'}`} />
+            <User className={`w-4 h-4 ${isGoogleAuthConnected ? 'text-indigo-600' : 'text-muted-foreground'}`} />
             <div>
-              <span className="font-semibold text-stone-800 block">
+              <span className="font-semibold text-foreground block">
                 {isGoogleAuthConnected
                   ? googleUser?.displayName || 'Google Connected User'
                   : 'No Google Account Linked'}
               </span>
-              <span className="text-[11px] text-stone-500">
+              <span className="text-[11px] text-muted-foreground">
                 {isGoogleAuthConnected
                   ? 'Authenticated via Google Identity Services (Drive, Sheets & Calendar Scopes)'
                   : 'Operating in 100% offline-first mode with IndexedDB local storage.'}
@@ -1003,8 +1003,8 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
           </div>
 
           <div className="text-left sm:text-right shrink-0">
-            <span className="text-[11px] text-stone-500 block">Last Cloud Backup:</span>
-            <span className="font-mono font-medium text-stone-800 text-[11px]">
+            <span className="text-[11px] text-muted-foreground block">Last Cloud Backup:</span>
+            <span className="font-mono font-medium text-foreground text-[11px]">
               {lastDriveBackupTime ? new Date(lastDriveBackupTime).toLocaleString() : 'Never'}
             </span>
           </div>
@@ -1042,12 +1042,12 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
         )}
 
         {/* Automatic Cloud Backup (24-Hour Schedule) Card */}
-        <div className="p-4 rounded-xl bg-stone-50 border border-stone-200 space-y-3">
+        <div className="p-4 rounded-xl bg-muted/50 border border-border space-y-3">
           <div className="flex items-center justify-between">
             <div className="space-y-0.5">
               <div className="flex items-center space-x-2">
                 <Clock className="w-4 h-4 text-indigo-600" />
-                <span className="text-xs font-semibold text-stone-800">
+                <span className="text-xs font-semibold text-foreground">
                   Automatic Cloud Backup (24-Hour Schedule)
                 </span>
                 <span
@@ -1062,7 +1062,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
                         : autoBackupStatus.state === 'error'
                         ? 'bg-rose-100 text-rose-800 border border-rose-200'
                         : 'bg-emerald-100 text-emerald-800 border border-emerald-200'
-                      : 'bg-stone-200 text-stone-600'
+                      : 'bg-muted text-muted-foreground'
                   }`}
                 >
                   {!autoBackupStatus.enabled
@@ -1078,7 +1078,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
                     : 'Active (24h)'}
                 </span>
               </div>
-              <p className="text-[11px] text-stone-600 font-myanmar">
+              <p className="text-[11px] text-muted-foreground font-myanmar">
                 ၂၄ နာရီတစ်ကြိမ် သင်ယူမှုမှတ်တမ်းများကို Google Drive သို့ အလိုအလျောက် သီးသန့် backup ပြုလုပ်ပေးပါမည်
               </p>
             </div>
@@ -1087,27 +1087,27 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
               type="button"
               onClick={() => handleToggleAutoBackup(!autoBackupStatus.enabled)}
               className={`w-11 h-6 flex items-center rounded-full p-1 transition duration-300 cursor-pointer ${
-                autoBackupStatus.enabled ? 'bg-indigo-600 justify-end' : 'bg-stone-300 justify-start'
+                autoBackupStatus.enabled ? 'bg-indigo-600 justify-end' : 'bg-muted justify-start'
               }`}
             >
-              <div className="bg-white w-4 h-4 rounded-full shadow-md" />
+              <div className="bg-card w-4 h-4 rounded-full shadow-md" />
             </button>
           </div>
 
           {/* Schedule & Backup Timing Details */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs pt-1">
-            <div className="p-2.5 rounded-lg bg-white border border-stone-200 space-y-1">
-              <span className="text-[11px] text-stone-500 block">Last Auto Backup:</span>
-              <span className="font-mono font-medium text-stone-800 text-[11px]">
+            <div className="p-2.5 rounded-lg bg-card border border-border space-y-1">
+              <span className="text-[11px] text-muted-foreground block">Last Auto Backup:</span>
+              <span className="font-mono font-medium text-foreground text-[11px]">
                 {autoBackupStatus.lastSuccessfulBackup
                   ? new Date(autoBackupStatus.lastSuccessfulBackup).toLocaleString()
                   : 'Never (Pending initial run)'}
               </span>
             </div>
 
-            <div className="p-2.5 rounded-lg bg-white border border-stone-200 space-y-1">
-              <span className="text-[11px] text-stone-500 block">Next Scheduled Backup:</span>
-              <span className="font-mono font-medium text-stone-800 text-[11px]">
+            <div className="p-2.5 rounded-lg bg-card border border-border space-y-1">
+              <span className="text-[11px] text-muted-foreground block">Next Scheduled Backup:</span>
+              <span className="font-mono font-medium text-foreground text-[11px]">
                 {!autoBackupStatus.enabled
                   ? 'Disabled'
                   : autoBackupStatus.nextScheduledBackup && !isNaN(Date.parse(autoBackupStatus.nextScheduledBackup))
@@ -1182,7 +1182,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
             type="button"
             onClick={handleGoogleDriveRestore}
             disabled={!isGoogleAuthConnected || !!driveActionLoading}
-            className="flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-white hover:bg-stone-50 text-stone-700 border border-stone-200 rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-xs disabled:opacity-50 disabled:cursor-not-allowed"
+            className="flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-card hover:bg-muted text-foreground border border-border rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-xs disabled:opacity-50 disabled:cursor-not-allowed"
           >
             <Download className={`w-3.5 h-3.5 ${driveActionLoading === 'restore' ? 'animate-bounce' : ''}`} />
             <span>
@@ -1191,25 +1191,25 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
           </button>
         </div>
 
-        <p className="text-[11px] text-stone-500">
+        <p className="text-[11px] text-muted-foreground">
           Backups are encrypted in transit and saved to your personal Google Drive in the{' '}
-          <code className="bg-stone-100 px-1 py-0.5 rounded font-mono text-[10px]">Japanese-N2-Master</code> folder.
+          <code className="bg-muted px-1 py-0.5 rounded font-mono text-[10px]">Japanese-N2-Master</code> folder.
         </p>
       </div>
 
       {/* PWA Offline Storage & Sync Diagnostics Section */}
-      <div className="bg-white border border-stone-200 rounded-2xl p-5 space-y-4 shadow-sm">
+      <div className="bg-card border border-border rounded-2xl p-5 space-y-4 shadow-sm">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center space-x-2">
             <Database className="w-4 h-4 text-emerald-600" />
-            <h2 className="text-base font-semibold text-stone-900">
+            <h2 className="text-base font-semibold text-foreground">
               PWA Offline Storage &amp; Sync Diagnostics
             </h2>
           </div>
           <div className="flex items-center space-x-2">
             <button
               onClick={handleOpenModal}
-              className="flex items-center space-x-1.5 px-2.5 py-1 rounded-lg bg-white hover:bg-stone-50 text-stone-700 text-xs font-medium border border-stone-200 transition cursor-pointer active:scale-95 shadow-xs"
+              className="flex items-center space-x-1.5 px-2.5 py-1 rounded-lg bg-card hover:bg-muted text-foreground text-xs font-medium border border-border transition cursor-pointer active:scale-95 shadow-xs"
             >
               <Activity className="w-3.5 h-3.5 text-indigo-600" />
               <span>Full Diagnostic Inspector</span>
@@ -1240,9 +1240,9 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
         {/* Clear Health Indicators */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           {/* 1. Local Storage Usage / Quota Status */}
-          <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 space-y-2">
+          <div className="p-3.5 rounded-xl bg-muted/50 border border-border space-y-2">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-semibold text-stone-700 flex items-center">
+              <span className="text-xs font-semibold text-foreground flex items-center">
                 <HardDrive className="w-3.5 h-3.5 mr-1.5 text-emerald-600" /> Storage Usage
               </span>
               <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-50 text-emerald-800 border border-emerald-200">
@@ -1251,29 +1251,29 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
             </div>
             <div>
               <div className="flex items-baseline space-x-1.5">
-                <span className="text-lg font-bold text-stone-900 font-mono">
+                <span className="text-lg font-bold text-foreground font-mono">
                   {diag?.storage.usageFormatted || '0 B'}
                 </span>
-                <span className="text-[11px] text-stone-500 font-mono">
+                <span className="text-[11px] text-muted-foreground font-mono">
                   / {diag?.storage.quotaFormatted || 'Quota'}
                 </span>
               </div>
-              <div className="w-full bg-stone-200 h-1.5 rounded-full overflow-hidden mt-1.5">
+              <div className="w-full bg-muted h-1.5 rounded-full overflow-hidden mt-1.5">
                 <div
                   className="h-full bg-emerald-500"
                   style={{ width: `${Math.max(2, diag?.storage.usagePercentage || 0)}%` }}
                 />
               </div>
-              <span className="text-[10px] text-stone-500 mt-1 block">
+              <span className="text-[10px] text-muted-foreground mt-1 block">
                 {diag?.storage.usagePercentage || 0}% of allocated disk quota
               </span>
             </div>
           </div>
 
           {/* 2. Total Cached Lesson Packs Count & Sync Status */}
-          <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 space-y-2">
+          <div className="p-3.5 rounded-xl bg-muted/50 border border-border space-y-2">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-semibold text-stone-700 flex items-center">
+              <span className="text-xs font-semibold text-foreground flex items-center">
                 <BookOpen className="w-3.5 h-3.5 mr-1.5 text-indigo-600" /> Cached Lesson Packs
               </span>
               <span
@@ -1288,20 +1288,20 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
             </div>
             <div>
               <div className="flex items-baseline space-x-1.5">
-                <span className="text-lg font-bold text-stone-900 font-mono">
+                <span className="text-lg font-bold text-foreground font-mono">
                   {diag?.cacheAndSync.cachedPacksCount ?? 0}
                 </span>
-                <span className="text-[11px] text-stone-500 font-mono">
+                <span className="text-[11px] text-muted-foreground font-mono">
                   / {diag?.cacheAndSync.totalPublishedPacks ?? 0} published
                 </span>
               </div>
-              <div className="w-full bg-stone-200 h-1.5 rounded-full overflow-hidden mt-1.5">
+              <div className="w-full bg-muted h-1.5 rounded-full overflow-hidden mt-1.5">
                 <div
                   className="h-full bg-indigo-600"
                   style={{ width: `${diag?.cacheAndSync.syncPercentage || 0}%` }}
                 />
               </div>
-              <div className="flex items-center justify-between text-[10px] text-stone-500 mt-1">
+              <div className="flex items-center justify-between text-[10px] text-muted-foreground mt-1">
                 <span>{diag?.cacheAndSync.syncPercentage || 0}% cached offline</span>
                 {diag?.cacheAndSync.syncStatus !== 'synced' && (
                   <button
@@ -1317,9 +1317,9 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
           </div>
 
           {/* 3. Pending Offline Actions Queue Count */}
-          <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 space-y-2">
+          <div className="p-3.5 rounded-xl bg-muted/50 border border-border space-y-2">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-semibold text-stone-700 flex items-center">
+              <span className="text-xs font-semibold text-foreground flex items-center">
                 <Zap className="w-3.5 h-3.5 mr-1.5 text-amber-600" /> Offline Action Queue
               </span>
               <span
@@ -1334,20 +1334,20 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
             </div>
             <div>
               <div className="flex items-baseline space-x-1.5">
-                <span className="text-lg font-bold text-stone-900 font-mono">
+                <span className="text-lg font-bold text-foreground font-mono">
                   {diag?.pendingQueue.count ?? 0}
                 </span>
-                <span className="text-[11px] text-stone-500">
+                <span className="text-[11px] text-muted-foreground">
                   pending operations
                 </span>
               </div>
-              <div className="w-full bg-stone-200 h-1.5 rounded-full overflow-hidden mt-1.5">
+              <div className="w-full bg-muted h-1.5 rounded-full overflow-hidden mt-1.5">
                 <div
                   className="h-full bg-amber-500"
                   style={{ width: `${(diag?.pendingQueue.count || 0) > 0 ? 100 : 0}%` }}
                 />
               </div>
-              <span className="text-[10px] text-stone-500 mt-1 block">
+              <span className="text-[10px] text-muted-foreground mt-1 block">
                 {(diag?.pendingQueue.count || 0) === 0
                   ? 'Local IndexedDB state up-to-date'
                   : 'Pending local synchronization'}
@@ -1357,39 +1357,39 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
         </div>
 
         {/* Live IndexedDB Record Inspection Snapshot */}
-        <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200">
+        <div className="p-3.5 rounded-xl bg-muted/50 border border-border">
           <div className="flex items-center justify-between mb-2">
-            <span className="text-xs font-semibold text-stone-700">
+            <span className="text-xs font-semibold text-foreground">
               IndexedDB (Dexie) Live Entity Breakdown
             </span>
-            <span className="text-[10px] text-stone-500 font-mono">
+            <span className="text-[10px] text-muted-foreground font-mono">
               Database: {diag?.dbStatus.name || 'NihongoN2MasterDB'}
             </span>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center">
-            <div className="p-2 rounded-lg bg-white border border-stone-200 shadow-xs">
+            <div className="p-2 rounded-lg bg-card border border-border shadow-xs">
               <span className="text-sm font-bold text-indigo-600 font-mono block">
                 {diag?.tables.srsCards ?? 0}
               </span>
-              <span className="text-[10px] text-stone-600">SRS Cards</span>
+              <span className="text-[10px] text-muted-foreground">SRS Cards</span>
             </div>
-            <div className="p-2 rounded-lg bg-white border border-stone-200 shadow-xs">
+            <div className="p-2 rounded-lg bg-card border border-border shadow-xs">
               <span className="text-sm font-bold text-emerald-600 font-mono block">
                 {diag?.tables.masteryRecords ?? 0}
               </span>
-              <span className="text-[10px] text-stone-600">Mastery Records</span>
+              <span className="text-[10px] text-muted-foreground">Mastery Records</span>
             </div>
-            <div className="p-2 rounded-lg bg-white border border-stone-200 shadow-xs">
-              <span className="text-sm font-bold text-stone-800 font-mono block">
+            <div className="p-2 rounded-lg bg-card border border-border shadow-xs">
+              <span className="text-sm font-bold text-foreground font-mono block">
                 {diag?.tables.kanaRecords ?? 0}
               </span>
-              <span className="text-[10px] text-stone-600">Kana Records</span>
+              <span className="text-[10px] text-muted-foreground">Kana Records</span>
             </div>
-            <div className="p-2 rounded-lg bg-white border border-stone-200 shadow-xs">
-              <span className="text-sm font-bold text-stone-800 font-mono block">
+            <div className="p-2 rounded-lg bg-card border border-border shadow-xs">
+              <span className="text-sm font-bold text-foreground font-mono block">
                 {diag?.tables.assessments ?? 0}
               </span>
-              <span className="text-[10px] text-stone-600">Readiness Tests</span>
+              <span className="text-[10px] text-muted-foreground">Readiness Tests</span>
             </div>
           </div>
         </div>
@@ -1418,9 +1418,9 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
             <button
               onClick={() => fileInputRef.current?.click()}
               disabled={!!actionLoading}
-              className="w-full flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-white hover:bg-stone-50 text-stone-700 border border-stone-200 rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-xs disabled:opacity-50"
+              className="w-full flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-card hover:bg-muted text-foreground border border-border rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-xs disabled:opacity-50"
             >
-              <Upload className="w-3.5 h-3.5 text-stone-500" />
+              <Upload className="w-3.5 h-3.5 text-muted-foreground" />
               <span>Import JSON Backup</span>
             </button>
           </div>
@@ -1429,7 +1429,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
           <button
             onClick={handleClearCacheAndResync}
             disabled={!!actionLoading}
-            className="flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-white hover:bg-stone-50 text-rose-700 border border-rose-200 rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-xs disabled:opacity-50"
+            className="flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-card hover:bg-muted text-rose-700 border border-rose-200 rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-xs disabled:opacity-50"
           >
             <RefreshCw className={`w-3.5 h-3.5 ${actionLoading === 'resync' ? 'animate-spin' : ''}`} />
             <span>Clear Cache &amp; Re-sync</span>
@@ -1440,18 +1440,18 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
         <AnkiSyncManager className="mt-2" />
 
         {/* Anki Flashcard Deck Exporter Card */}
-        <div className="p-4 sm:p-5 rounded-2xl bg-stone-50 border border-stone-200 space-y-3 mt-2">
+        <div className="p-4 sm:p-5 rounded-2xl bg-muted/50 border border-border space-y-3 mt-2">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
             <div>
               <div className="flex items-center space-x-2">
-                <span className="text-sm font-bold text-stone-900 font-myanmar">
+                <span className="text-sm font-bold text-foreground font-myanmar">
                   📤 Export to Anki (.tsv) — Weak Items / Level Deck
                 </span>
                 <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 font-mono font-bold">
                   Anki 2.1+ / AnkiDroid
                 </span>
               </div>
-              <p className="text-xs text-stone-600 mt-1 leading-relaxed">
+              <p className="text-xs text-muted-foreground mt-1 leading-relaxed">
                 Generate clean UTF-8 tab-separated values (<strong>Japanese_Kanji</strong>, <strong>Reading_Furigana</strong>, <strong>Burmese_Meaning</strong>, <strong>Example_Sentence</strong>, <strong>JLPT_Level_Tag</strong>) ready for 1-click import into Anki Desktop or AnkiDroid.
               </p>
             </div>
@@ -1469,7 +1469,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
 
           {/* Scope Selector Filter Pills */}
           <div className="flex items-center gap-1.5 flex-wrap pt-1">
-            <span className="text-[10px] text-stone-500 font-mono uppercase tracking-wider font-semibold">
+            <span className="text-[10px] text-muted-foreground font-mono uppercase tracking-wider font-semibold">
               Deck Scope:
             </span>
             <button
@@ -1478,7 +1478,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
               className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer font-medium ${
                 ankiScope === 'weak_items'
                   ? 'bg-rose-600 text-white font-bold shadow-xs'
-                  : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 shadow-2xs'
+                  : 'bg-card hover:bg-muted text-foreground border border-border shadow-2xs'
               }`}
             >
               🔥 Weak Items (အားနည်းချက်များ)
@@ -1489,7 +1489,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
               className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer font-medium ${
                 ankiScope === 'n2'
                   ? 'bg-indigo-600 text-white font-bold shadow-xs'
-                  : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 shadow-2xs'
+                  : 'bg-card hover:bg-muted text-foreground border border-border shadow-2xs'
               }`}
             >
               N2 Level
@@ -1500,7 +1500,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
               className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer font-medium ${
                 ankiScope === 'n3'
                   ? 'bg-indigo-600 text-white font-bold shadow-xs'
-                  : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 shadow-2xs'
+                  : 'bg-card hover:bg-muted text-foreground border border-border shadow-2xs'
               }`}
             >
               N3 Level
@@ -1511,7 +1511,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
               className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer font-medium ${
                 ankiScope === 'n4'
                   ? 'bg-indigo-600 text-white font-bold shadow-xs'
-                  : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 shadow-2xs'
+                  : 'bg-card hover:bg-muted text-foreground border border-border shadow-2xs'
               }`}
             >
               N4 Level
@@ -1522,7 +1522,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
               className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer font-medium ${
                 ankiScope === 'n5'
                   ? 'bg-indigo-600 text-white font-bold shadow-xs'
-                  : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 shadow-2xs'
+                  : 'bg-card hover:bg-muted text-foreground border border-border shadow-2xs'
               }`}
             >
               N5 Level
@@ -1533,7 +1533,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
               className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer font-medium ${
                 ankiScope === 'all'
                   ? 'bg-indigo-600 text-white font-bold shadow-xs'
-                  : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 shadow-2xs'
+                  : 'bg-card hover:bg-muted text-foreground border border-border shadow-2xs'
               }`}
             >
               All Saved ({diag?.tables.srsCards ?? 0})
@@ -1544,7 +1544,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
               className={`px-2.5 py-1 rounded-lg text-xs font-mono transition cursor-pointer font-medium ${
                 ankiScope === 'mined'
                   ? 'bg-indigo-600 text-white font-bold shadow-xs'
-                  : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 shadow-2xs'
+                  : 'bg-card hover:bg-muted text-foreground border border-border shadow-2xs'
               }`}
             >
               Mined Only
@@ -1561,14 +1561,14 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
       />
 
       {/* Danger Zone: Reset App / New Game */}
-      <div className="bg-white border border-rose-200 rounded-2xl p-5 space-y-4 shadow-sm">
+      <div className="bg-card border border-rose-200 rounded-2xl p-5 space-y-4 shadow-sm">
         <div className="flex items-center space-x-2.5">
           <AlertTriangle className="w-5 h-5 text-rose-600 shrink-0" />
           <div>
             <h2 className="text-base font-semibold text-rose-700">
               Danger Zone · အန္တရာယ်ဇုန် (Reset Application)
             </h2>
-            <p className="text-[11px] text-stone-600">
+            <p className="text-[11px] text-muted-foreground">
               လေ့ကျင့်ထားသော တိုးတက်မှုများ၊ စာမေးပွဲရလဒ်များနှင့် ဆက်တင်အားလုံးကို အပြီးတိုင် ဖျက်ပစ်ပြီး ပထမနေ့အတိုင်း အသစ်ပြန်စတင်ပါမည်
             </p>
           </div>
@@ -1576,10 +1576,10 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
 
         <div className="p-4 rounded-xl bg-rose-50/60 border border-rose-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div className="space-y-1">
-            <span className="text-xs font-bold text-stone-900 block">
+            <span className="text-xs font-bold text-foreground block">
               Reset App Progress (New Game)
             </span>
-            <p className="text-[11px] text-stone-600 max-w-xl leading-relaxed">
+            <p className="text-[11px] text-muted-foreground max-w-xl leading-relaxed">
               Permanently wipes all SRS review intervals, mastery records, grammar cram logs, customized keyboard shortcuts, and local storage. The app will immediately reload into a fresh, Day 1 state.
             </p>
           </div>
@@ -1597,14 +1597,14 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
 
       {/* Strict Confirmation Modal for Reset Application / New Game */}
       {isResetModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-stone-900/40 backdrop-blur-sm p-4 animate-fadeIn">
-          <div className="bg-white border border-stone-200 rounded-2xl max-w-lg w-full p-6 space-y-5 shadow-2xl relative">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-background/80 backdrop-blur-sm p-4 animate-fadeIn">
+          <div className="bg-card border border-border rounded-2xl max-w-lg w-full p-6 space-y-5 shadow-2xl relative">
             <div className="flex items-start space-x-3.5">
               <div className="w-10 h-10 rounded-full bg-rose-50 border border-rose-200 flex items-center justify-center shrink-0">
                 <AlertTriangle className="w-5 h-5 text-rose-600 animate-pulse" />
               </div>
               <div className="space-y-1">
-                <h3 className="text-base font-bold text-stone-900">
+                <h3 className="text-base font-bold text-foreground">
                   Are you sure you want to completely wipe all learning progress and start from zero?
                 </h3>
                 <p className="text-xs text-rose-700 font-medium">
@@ -1613,11 +1613,11 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
               </div>
             </div>
 
-            <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 space-y-2 text-xs text-stone-700">
-              <span className="text-[11px] font-semibold text-stone-600 block uppercase tracking-wider">
+            <div className="p-3.5 rounded-xl bg-muted/50 border border-border space-y-2 text-xs text-foreground">
+              <span className="text-[11px] font-semibold text-muted-foreground block uppercase tracking-wider">
                 အောက်ပါ အချက်အလက်များ အားလုံး အပြီးတိုင် ပျက်ပြယ်သွားပါမည်:
               </span>
-              <ul className="space-y-1.5 text-[11px] text-stone-600">
+              <ul className="space-y-1.5 text-[11px] text-muted-foreground">
                 <li className="flex items-center space-x-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-rose-500" />
                   <span>All SRS Flashcards &amp; Repetition Intervals (SRS ကတ်များ)</span>
@@ -1642,7 +1642,7 @@ export const SettingsScreen: React.FC<SettingsScreenProps> = ({
                 type="button"
                 disabled={isResetting}
                 onClick={() => setIsResetModalOpen(false)}
-                className="px-4 py-2 rounded-xl bg-white hover:bg-stone-50 text-stone-700 border border-stone-200 text-xs font-medium transition cursor-pointer shadow-xs disabled:opacity-50"
+                className="px-4 py-2 rounded-xl bg-card hover:bg-muted text-foreground border border-border text-xs font-medium transition cursor-pointer shadow-xs disabled:opacity-50"
               >
                 မဖျက်တော့ပါ (Cancel)
               </button>

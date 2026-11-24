@@ -256,7 +256,7 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
     return (
       <div className="flex flex-col items-center justify-center min-h-[50vh] space-y-3">
         <RotateCcw className="w-8 h-8 text-rose-500 animate-spin" />
-        <span className="text-xs text-stone-400 font-mono">Aggregating test metrics, radar scores &amp; leech logs...</span>
+        <span className="text-xs text-muted-foreground font-mono">Aggregating test metrics, radar scores &amp; leech logs...</span>
       </div>
     );
   }
@@ -305,13 +305,13 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
             <span className="text-[11px] font-mono px-2 py-0.5 rounded bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold uppercase">
               {profile.level} Assessment OS
             </span>
-            <span className="text-xs text-stone-400">•</span>
-            <span className="text-xs text-stone-600 font-medium">JLPT Skill Competency</span>
+            <span className="text-xs text-muted-foreground">•</span>
+            <span className="text-xs text-muted-foreground font-medium">JLPT Skill Competency</span>
           </div>
-          <h1 className="text-2xl font-bold text-stone-900 tracking-tight mt-1 flex items-center space-x-2">
+          <h1 className="text-2xl font-bold text-foreground tracking-tight mt-1 flex items-center space-x-2">
             <span>Test Analytics &amp; Skill Radar</span>
           </h1>
-          <p className="text-xs text-stone-600 mt-0.5">
+          <p className="text-xs text-muted-foreground mt-0.5">
             Holistic aggregation across Vocab, Kanji, Grammar, Reading, and Listening connected directly to targeted drills.
           </p>
         </div>
@@ -329,16 +329,16 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
           {onNavigateToTests && (
             <button
               onClick={onNavigateToTests}
-              className="px-3 py-2 rounded-xl bg-white border border-stone-200 hover:bg-stone-50 text-stone-700 text-xs font-medium transition flex items-center space-x-1.5 shadow-2xs cursor-pointer"
+              className="px-3 py-2 rounded-xl bg-card border border-border hover:bg-muted/50 text-foreground text-xs font-medium transition flex items-center space-x-1.5 shadow-2xs cursor-pointer"
             >
-              <Award className="w-4 h-4 text-stone-500" />
+              <Award className="w-4 h-4 text-muted-foreground" />
               <span>Tests &amp; Blueprints</span>
             </button>
           )}
           <button
             onClick={loadAnalytics}
             title="Refresh analytics data"
-            className="p-2 rounded-xl bg-white border border-stone-200 hover:bg-stone-50 text-stone-700 transition shadow-2xs cursor-pointer"
+            className="p-2 rounded-xl bg-card border border-border hover:bg-muted/50 text-foreground transition shadow-2xs cursor-pointer"
           >
             <RotateCcw className="w-4 h-4" />
           </button>
@@ -347,58 +347,58 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
 
       {/* Top 4 KPI Metrics Cards with Paper Styling */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3.5">
-        <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-1 relative overflow-hidden group shadow-sm">
+        <div className="bg-card border border-border rounded-2xl p-4.5 space-y-1 relative overflow-hidden group shadow-sm">
           <div className="absolute top-0 left-0 right-0 h-0.5 bg-rose-500" />
           <div className="flex items-center justify-between">
-            <span className="text-[10px] text-stone-600 uppercase font-semibold font-mono">Average Score</span>
+            <span className="text-[10px] text-muted-foreground uppercase font-semibold font-mono">Average Score</span>
             <TrendingUp className="w-3.5 h-3.5 text-rose-600" />
           </div>
-          <div className="text-2xl font-bold font-mono text-stone-900">
+          <div className="text-2xl font-bold font-mono text-foreground">
             {data.averageScorePct}%
           </div>
-          <p className="text-[10px] text-stone-500">
+          <p className="text-[10px] text-muted-foreground">
             {data.totalTests > 0 ? `Across ${data.totalTests} tests taken` : 'No formal tests logged yet'}
           </p>
         </div>
 
-        <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-1 relative overflow-hidden shadow-sm">
+        <div className="bg-card border border-border rounded-2xl p-4.5 space-y-1 relative overflow-hidden shadow-sm">
           <div className="absolute top-0 left-0 right-0 h-0.5 bg-emerald-500" />
           <div className="flex items-center justify-between">
-            <span className="text-[10px] text-stone-600 uppercase font-semibold font-mono">Pass / Fail Rate</span>
+            <span className="text-[10px] text-muted-foreground uppercase font-semibold font-mono">Pass / Fail Rate</span>
             <CheckCircle className="w-3.5 h-3.5 text-emerald-600" />
           </div>
           <div className="text-2xl font-bold font-mono text-emerald-700">
             {data.passRatePct}%
           </div>
-          <p className="text-[10px] text-stone-500">
+          <p className="text-[10px] text-muted-foreground">
             {data.passCount} passed • {data.failCount} failed
           </p>
         </div>
 
-        <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-1 relative overflow-hidden shadow-sm">
+        <div className="bg-card border border-border rounded-2xl p-4.5 space-y-1 relative overflow-hidden shadow-sm">
           <div className="absolute top-0 left-0 right-0 h-0.5 bg-indigo-500" />
           <div className="flex items-center justify-between">
-            <span className="text-[10px] text-stone-600 uppercase font-semibold font-mono">Total Tests</span>
+            <span className="text-[10px] text-muted-foreground uppercase font-semibold font-mono">Total Tests</span>
             <Award className="w-3.5 h-3.5 text-indigo-600" />
           </div>
           <div className="text-2xl font-bold font-mono text-indigo-700">
             {data.totalTests}
           </div>
-          <p className="text-[10px] text-stone-500">
+          <p className="text-[10px] text-muted-foreground">
             Weekly &amp; Level simulations
           </p>
         </div>
 
-        <div className="bg-white border border-stone-200 rounded-2xl p-4.5 space-y-1 relative overflow-hidden shadow-sm">
+        <div className="bg-card border border-border rounded-2xl p-4.5 space-y-1 relative overflow-hidden shadow-sm">
           <div className="absolute top-0 left-0 right-0 h-0.5 bg-amber-500" />
           <div className="flex items-center justify-between">
-            <span className="text-[10px] text-stone-600 uppercase font-semibold font-mono">Leech Quarantine</span>
+            <span className="text-[10px] text-muted-foreground uppercase font-semibold font-mono">Leech Quarantine</span>
             <Bug className="w-3.5 h-3.5 text-amber-600" />
           </div>
           <div className="text-2xl font-bold font-mono text-amber-800">
             {weaknessReport.totalLeechCount}
           </div>
-          <p className="text-[10px] text-stone-500">
+          <p className="text-[10px] text-muted-foreground">
             High-lapse stubborn items
           </p>
         </div>
@@ -412,7 +412,7 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
       />
 
       {/* HIGHLIGHTED HERO CARD: Launch Weak-Point Drill Engine */}
-      <div className="relative overflow-hidden rounded-2xl bg-white border border-stone-200 p-6 shadow-sm">
+      <div className="relative overflow-hidden rounded-2xl bg-card border border-border p-6 shadow-sm">
         <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="space-y-3 max-w-2xl">
             <div className="flex items-center space-x-2">
@@ -426,7 +426,7 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
             </div>
 
             <div className="flex items-baseline space-x-3">
-              <h2 className="text-xl sm:text-2xl font-bold text-stone-900 tracking-tight flex items-center space-x-2.5">
+              <h2 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight flex items-center space-x-2.5">
                 <WeakestIcon className="w-6 h-6 text-rose-600" />
                 <span>Bridge Your {weaknessReport.weakestSkillLabel} Gap</span>
               </h2>
@@ -435,20 +435,20 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
               </span>
             </div>
 
-            <p className="text-xs text-stone-600 leading-relaxed">
+            <p className="text-xs text-muted-foreground leading-relaxed">
               Your radar analysis identifies <strong>{weaknessReport.weakestSkillLabel}</strong> as the primary bottleneck holding back your conjunctive scoring score. Launch an immediate, targeted 12-question custom practice session with 1 click.
             </p>
 
             {/* Gap indicator gauge */}
             <div className="space-y-1.5 pt-1">
-              <div className="flex justify-between text-[11px] text-stone-600 font-mono">
+              <div className="flex justify-between text-[11px] text-muted-foreground font-mono">
                 <span>Current Mastery: {weaknessReport.weakestSkillScore}%</span>
                 <span className="text-amber-800 font-semibold">
                   Deficit: -{weaknessReport.deficitPct}% below threshold
                 </span>
                 <span>Target: {weaknessReport.targetThresholdPct}%</span>
               </div>
-              <div className="relative w-full bg-stone-100 rounded-full h-2.5 overflow-hidden border border-stone-200">
+              <div className="relative w-full bg-muted rounded-full h-2.5 overflow-hidden border border-border">
                 {/* Target marker */}
                 <div
                   className="absolute top-0 bottom-0 w-1 bg-amber-500 z-10"
@@ -483,9 +483,9 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
             ) : (
               <button
                 onClick={handleSeedLeeches}
-                className="px-4 py-2 rounded-xl bg-stone-50 border border-stone-200 hover:bg-stone-100 text-stone-600 hover:text-stone-900 text-[11px] font-medium transition flex items-center justify-center space-x-1.5 cursor-pointer"
+                className="px-4 py-2 rounded-xl bg-muted/50 border border-border hover:bg-muted text-muted-foreground hover:text-foreground text-[11px] font-medium transition flex items-center justify-center space-x-1.5 cursor-pointer"
               >
-                <ShieldCheck className="w-3.5 h-3.5 text-stone-500" />
+                <ShieldCheck className="w-3.5 h-3.5 text-muted-foreground" />
                 <span>Simulate Quarantine Items</span>
               </button>
             )}
@@ -496,26 +496,26 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
       {/* Main Analysis Section: Radar Chart & Skill Balance */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-5">
         {/* Left Column: Visual Radar Chart Card */}
-        <div className="lg:col-span-7 bg-white border border-stone-200 rounded-3xl p-6 sm:p-7 space-y-5 shadow-sm relative">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-stone-200 pb-4">
+        <div className="lg:col-span-7 bg-card border border-border rounded-3xl p-6 sm:p-7 space-y-5 shadow-sm relative">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-border pb-4">
             <div>
-              <h2 className="text-base font-bold text-stone-900 flex items-center space-x-2">
+              <h2 className="text-base font-bold text-foreground flex items-center space-x-2">
                 <Sparkles className="w-4 h-4 text-indigo-600" />
                 <span>JLPT Skill Competency Radar</span>
               </h2>
-              <p className="text-xs text-stone-600 mt-0.5">
+              <p className="text-xs text-muted-foreground mt-0.5">
                 Multi-axis visualization showing strengths and gaps across all 5 JLPT core areas.
               </p>
             </div>
 
             {/* Toggle between Radar and Bar view */}
-            <div className="flex items-center space-x-1 bg-stone-100 p-1 rounded-lg border border-stone-200">
+            <div className="flex items-center space-x-1 bg-muted p-1 rounded-lg border border-border">
               <button
                 onClick={() => setSelectedViewTab('radar')}
                 className={`px-2.5 py-1 text-xs rounded-md font-medium transition cursor-pointer ${
                   selectedViewTab === 'radar'
-                    ? 'bg-white text-indigo-700 font-semibold shadow-2xs'
-                    : 'text-stone-600 hover:text-stone-900'
+                    ? 'bg-card text-indigo-700 font-semibold shadow-2xs'
+                    : 'text-muted-foreground hover:text-foreground'
                 }`}
               >
                 Radar Pentagram
@@ -524,8 +524,8 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
                 onClick={() => setSelectedViewTab('bars')}
                 className={`px-2.5 py-1 text-xs rounded-md font-medium transition cursor-pointer ${
                   selectedViewTab === 'bars'
-                    ? 'bg-white text-indigo-700 font-semibold shadow-2xs'
-                    : 'text-stone-600 hover:text-stone-900'
+                    ? 'bg-card text-indigo-700 font-semibold shadow-2xs'
+                    : 'text-muted-foreground hover:text-foreground'
                 }`}
               >
                 Progress Bars
@@ -544,12 +544,12 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
                 const Icon = SKILL_ICONS[item.skill];
                 const isPassing = item.scorePct >= item.thresholdPct;
                 return (
-                  <div key={item.skill} className="space-y-1.5 bg-stone-50 p-3 rounded-xl border border-stone-200">
+                  <div key={item.skill} className="space-y-1.5 bg-muted/50 p-3 rounded-xl border border-border">
                     <div className="flex items-center justify-between text-xs">
                       <div className="flex items-center space-x-2">
-                        <Icon className="w-4 h-4 text-stone-500" />
-                        <span className="font-semibold text-stone-900">{item.label}</span>
-                        <span className="text-[10px] text-stone-500 font-mono">
+                        <Icon className="w-4 h-4 text-muted-foreground" />
+                        <span className="font-semibold text-foreground">{item.label}</span>
+                        <span className="text-[10px] text-muted-foreground font-mono">
                           ({item.correctCount}/{item.testedCount} items)
                         </span>
                       </div>
@@ -557,7 +557,7 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
                         <span className={`font-mono font-bold ${isPassing ? 'text-emerald-700' : 'text-rose-700'}`}>
                           {item.scorePct}%
                         </span>
-                        <span className="text-[10px] text-stone-500 font-mono">/ Req {item.thresholdPct}%</span>
+                        <span className="text-[10px] text-muted-foreground font-mono">/ Req {item.thresholdPct}%</span>
                         <span className={`text-[10px] px-1.5 py-0.5 rounded font-medium ${
                           isPassing ? 'bg-emerald-50 text-emerald-700 border border-emerald-200' : 'bg-rose-50 text-rose-700 border border-rose-200'
                         }`}>
@@ -566,7 +566,7 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
                       </div>
                     </div>
 
-                    <div className="relative w-full bg-stone-200 rounded-full h-3 overflow-hidden">
+                    <div className="relative w-full bg-muted rounded-full h-3 overflow-hidden">
                       {/* Target line indicator */}
                       <div
                         className="absolute top-0 bottom-0 w-0.5 bg-indigo-600 z-10"
@@ -591,31 +591,31 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
 
           {/* Quick Strength & Weakness Callouts */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
-            <div className="bg-stone-50 p-3 rounded-xl border border-stone-200 flex items-start space-x-3">
+            <div className="bg-muted/50 p-3 rounded-xl border border-border flex items-start space-x-3">
               <div className="w-7 h-7 rounded-lg bg-emerald-50 border border-emerald-200 flex items-center justify-center shrink-0 mt-0.5 text-emerald-700">
                 <ArrowUpRight className="w-4 h-4" />
               </div>
               <div>
-                <span className="text-[10px] text-stone-500 uppercase font-semibold block">Strongest Skill Area</span>
-                <span className="text-xs font-bold text-stone-900">
+                <span className="text-[10px] text-muted-foreground uppercase font-semibold block">Strongest Skill Area</span>
+                <span className="text-xs font-bold text-foreground">
                   {data.strongestSkill ? `${data.strongestSkill.label} (${data.strongestSkill.scorePct}%)` : 'Not determined yet'}
                 </span>
-                <p className="text-[10px] text-stone-600 mt-0.5">
+                <p className="text-[10px] text-muted-foreground mt-0.5">
                   Your primary anchor area for scoring efficiency.
                 </p>
               </div>
             </div>
 
-            <div className="bg-stone-50 p-3 rounded-xl border border-stone-200 flex items-start space-x-3">
+            <div className="bg-muted/50 p-3 rounded-xl border border-border flex items-start space-x-3">
               <div className="w-7 h-7 rounded-lg bg-rose-50 border border-rose-200 flex items-center justify-center shrink-0 mt-0.5 text-rose-700">
                 <ArrowDownRight className="w-4 h-4" />
               </div>
               <div>
-                <span className="text-[10px] text-stone-500 uppercase font-semibold block">Key Growth Opportunity</span>
+                <span className="text-[10px] text-muted-foreground uppercase font-semibold block">Key Growth Opportunity</span>
                 <span className="text-xs font-bold text-rose-700">
                   {data.weakestSkill ? `${data.weakestSkill.label} (${data.weakestSkill.scorePct}%)` : 'Not determined yet'}
                 </span>
-                <p className="text-[10px] text-stone-600 mt-0.5">
+                <p className="text-[10px] text-muted-foreground mt-0.5">
                   Conjunctive scoring requires this skill to clear the threshold.
                 </p>
               </div>
@@ -626,22 +626,22 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
         {/* Right Column: Historical Test Trends & Summary List */}
         <div className="lg:col-span-5 space-y-4">
           {/* Trend Bar Chart */}
-          <div className="bg-white border border-stone-200 rounded-2xl p-5 space-y-4 shadow-sm">
-            <div className="flex items-center justify-between border-b border-stone-200 pb-3">
+          <div className="bg-card border border-border rounded-2xl p-5 space-y-4 shadow-sm">
+            <div className="flex items-center justify-between border-b border-border pb-3">
               <div className="flex items-center space-x-2">
                 <TrendingUp className="w-4 h-4 text-indigo-600" />
-                <h3 className="text-sm font-bold text-stone-900">Score Improvement Trends</h3>
+                <h3 className="text-sm font-bold text-foreground">Score Improvement Trends</h3>
               </div>
-              <span className="text-[10px] font-mono text-stone-500">Latest 10 Attempts</span>
+              <span className="text-[10px] font-mono text-muted-foreground">Latest 10 Attempts</span>
             </div>
 
             {data.recentTrends.length > 0 ? (
               <div className="space-y-3">
-                <div className="h-36 flex items-end justify-between space-x-1.5 pt-4 pb-2 px-1 bg-stone-50 rounded-xl border border-stone-200">
+                <div className="h-36 flex items-end justify-between space-x-1.5 pt-4 pb-2 px-1 bg-muted/50 rounded-xl border border-border">
                   {data.recentTrends.map((attempt, idx) => (
                     <div key={attempt.id || idx} className="flex-1 flex flex-col items-center group relative h-full justify-end">
                       {/* Tooltip on hover */}
-                      <div className="opacity-0 group-hover:opacity-100 transition-opacity absolute -top-10 bg-white text-stone-900 border border-stone-200 px-2 py-0.5 rounded text-[10px] font-mono pointer-events-none whitespace-nowrap z-20 shadow-md">
+                      <div className="opacity-0 group-hover:opacity-100 transition-opacity absolute -top-10 bg-card text-foreground border border-border px-2 py-0.5 rounded text-[10px] font-mono pointer-events-none whitespace-nowrap z-20 shadow-md">
                         {attempt.type.toUpperCase()}: {attempt.score}% ({attempt.passed ? 'Pass' : 'Fail'})
                       </div>
 
@@ -654,27 +654,27 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
                         }`}
                         style={{ height: `${Math.max(8, attempt.score)}%` }}
                       />
-                      <span className="text-[9px] font-mono text-stone-500 mt-1 truncate max-w-[28px]">
+                      <span className="text-[9px] font-mono text-muted-foreground mt-1 truncate max-w-[28px]">
                         {attempt.formattedDate}
                       </span>
                     </div>
                   ))}
                 </div>
-                <div className="flex items-center justify-between text-[10px] text-stone-500 px-1 font-mono">
+                <div className="flex items-center justify-between text-[10px] text-muted-foreground px-1 font-mono">
                   <span>Earliest</span>
                   <span>Target: ≥80% Overall</span>
                   <span>Most Recent</span>
                 </div>
               </div>
             ) : (
-              <div className="text-center py-8 space-y-3 bg-stone-50 rounded-xl border border-dashed border-stone-300">
-                <Award className="w-8 h-8 text-stone-400 mx-auto" />
-                <p className="text-xs text-stone-600 max-w-xs mx-auto">
+              <div className="text-center py-8 space-y-3 bg-muted/50 rounded-xl border border-dashed border-border">
+                <Award className="w-8 h-8 text-muted-foreground mx-auto" />
+                <p className="text-xs text-muted-foreground max-w-xs mx-auto">
                   No assessment tests recorded yet. Complete your first weekly or level test to populate trend metrics.
                 </p>
                 <button
                   onClick={handleSeedDemoSample}
-                  className="px-3 py-1.5 rounded-lg bg-white border border-stone-300 hover:bg-stone-50 text-stone-700 text-xs font-medium transition cursor-pointer shadow-2xs"
+                  className="px-3 py-1.5 rounded-lg bg-card border border-border hover:bg-muted/50 text-foreground text-xs font-medium transition cursor-pointer shadow-2xs"
                 >
                   Generate Initial Baseline Sample
                 </button>
@@ -683,10 +683,10 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
           </div>
 
           {/* Recent Assessment Log List */}
-          <div className="bg-white border border-stone-200 rounded-2xl p-5 space-y-3 shadow-sm">
-            <h3 className="text-sm font-bold text-stone-900 flex items-center justify-between">
+          <div className="bg-card border border-border rounded-2xl p-5 space-y-3 shadow-sm">
+            <h3 className="text-sm font-bold text-foreground flex items-center justify-between">
               <span>Assessment History</span>
-              <span className="text-[10px] text-stone-500 font-normal">
+              <span className="text-[10px] text-muted-foreground font-normal">
                 {data.recentAssessmentList.length} recorded
               </span>
             </h3>
@@ -696,24 +696,24 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
                 {data.recentAssessmentList.map((test) => (
                   <div
                     key={test.id}
-                    className="p-2.5 rounded-xl bg-stone-50 border border-stone-200 flex items-center justify-between text-xs hover:border-stone-300 transition"
+                    className="p-2.5 rounded-xl bg-muted/50 border border-border flex items-center justify-between text-xs hover:border-border transition"
                   >
                     <div className="space-y-0.5">
                       <div className="flex items-center space-x-1.5">
-                        <span className="font-semibold text-stone-900 capitalize">
+                        <span className="font-semibold text-foreground capitalize">
                           {test.type} Test
                         </span>
-                        <span className="text-[10px] font-mono text-stone-500">
+                        <span className="text-[10px] font-mono text-muted-foreground">
                           {new Date(test.takenAt).toLocaleDateString()}
                         </span>
                       </div>
-                      <div className="text-[10px] text-stone-600">
+                      <div className="text-[10px] text-muted-foreground">
                         {test.correctQuestions}/{test.totalQuestions} items • {Math.round(test.durationSeconds / 60)} min
                       </div>
                     </div>
 
                     <div className="flex items-center space-x-2">
-                      <span className="text-sm font-mono font-bold text-stone-900">
+                      <span className="text-sm font-mono font-bold text-foreground">
                         {test.score}%
                       </span>
                       <span
@@ -734,7 +734,7 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
                 ))}
               </div>
             ) : (
-              <p className="text-xs text-stone-500 italic py-2">
+              <p className="text-xs text-muted-foreground italic py-2">
                 Assessments taken from the Tests screen will automatically register in this log.
               </p>
             )}
@@ -743,38 +743,38 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
       </div>
 
       {/* REMEDIATION HISTORY & WEAKNESS DRILLS HUB */}
-      <div className="bg-white border border-stone-200 rounded-2xl p-6 space-y-4 shadow-sm">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-stone-200 pb-4">
+      <div className="bg-card border border-border rounded-2xl p-6 space-y-4 shadow-sm">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-4">
           <div className="space-y-1">
             <div className="flex items-center space-x-2">
               <span className="px-2 py-0.5 rounded bg-rose-50 border border-rose-200 text-rose-700 text-[10px] font-mono font-bold uppercase tracking-wide flex items-center space-x-1">
                 <History className="w-3 h-3 text-rose-600" />
                 <span>Targeted Recovery Log</span>
               </span>
-              <span className="text-xs text-stone-400">•</span>
-              <span className="text-xs text-stone-500 font-mono">
+              <span className="text-xs text-muted-foreground">•</span>
+              <span className="text-xs text-muted-foreground font-mono">
                 {cramDrills.length + remediations.length} total sessions
               </span>
             </div>
-            <h3 className="text-lg font-bold text-stone-900 flex items-center space-x-2">
+            <h3 className="text-lg font-bold text-foreground flex items-center space-x-2">
               <span>Remediation History &amp; Weakness Drills (အားနည်းချက် ပြန်လည်လေ့ကျင့်မှု မှတ်တမ်းများ)</span>
             </h3>
-            <p className="text-xs text-stone-600">
+            <p className="text-xs text-muted-foreground">
               Audit past targeted drills and automated remediation plans to monitor retention recovery. Retake past drills anytime to solidify mastery.
             </p>
           </div>
 
           <div className="flex items-center space-x-2">
             {/* Filter tabs */}
-            <div className="flex items-center space-x-1 bg-stone-100 p-1 rounded-lg border border-stone-200">
+            <div className="flex items-center space-x-1 bg-muted p-1 rounded-lg border border-border">
               {(['all', 'cram', 'remediation'] as const).map((tab) => (
                 <button
                   key={tab}
                   onClick={() => setDrillHistoryFilter(tab)}
                   className={`px-2.5 py-1 text-xs rounded-md font-medium transition cursor-pointer capitalize ${
                     drillHistoryFilter === tab
-                      ? 'bg-white text-indigo-700 font-semibold shadow-2xs'
-                      : 'text-stone-600 hover:text-stone-900'
+                      ? 'bg-card text-indigo-700 font-semibold shadow-2xs'
+                      : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
                   {tab === 'all'
@@ -807,20 +807,20 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
 
           if (!hasRecords) {
             return (
-              <div className="text-center py-8 space-y-3 bg-stone-50 rounded-xl border border-dashed border-stone-300">
-                <RotateCcw className="w-8 h-8 text-stone-400 mx-auto" />
+              <div className="text-center py-8 space-y-3 bg-muted/50 rounded-xl border border-dashed border-border">
+                <RotateCcw className="w-8 h-8 text-muted-foreground mx-auto" />
                 <div className="space-y-1">
-                  <p className="text-xs text-stone-700 font-medium">
+                  <p className="text-xs text-foreground font-medium">
                     No past remediation or cram drill records found yet.
                   </p>
-                  <p className="text-[11px] text-stone-500 font-burmese">
+                  <p className="text-[11px] text-muted-foreground font-burmese">
                     ယခင် ပြန်လည်လေ့ကျင့်ထားသော မှတ်တမ်း မရှိသေးပါ။ အထူးလေ့ကျင့်ခန်း ပြီးမြောက်ပါက ဤနေရာတွင် မှတ်တမ်းတင်ပါမည်။
                   </p>
                 </div>
                 {onLaunchDrill && (
                   <button
                     onClick={() => onLaunchDrill('mixed_leeches')}
-                    className="px-3.5 py-1.5 rounded-lg bg-white hover:bg-stone-50 border border-stone-300 text-stone-700 text-xs font-medium transition cursor-pointer shadow-2xs"
+                    className="px-3.5 py-1.5 rounded-lg bg-card hover:bg-muted/50 border border-border text-foreground text-xs font-medium transition cursor-pointer shadow-2xs"
                   >
                     Launch Weakness Drill (အားနည်းချက် စတင်လေ့ကျင့်မည်)
                   </button>
@@ -840,28 +840,28 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
                   return (
                     <div
                       key={drill.id || `cram_${idx}`}
-                      className="p-3 rounded-xl bg-stone-50 border border-stone-200 hover:border-stone-300 flex flex-col sm:flex-row sm:items-center justify-between gap-3 transition"
+                      className="p-3 rounded-xl bg-muted/50 border border-border hover:border-border flex flex-col sm:flex-row sm:items-center justify-between gap-3 transition"
                     >
                       <div className="space-y-1">
                         <div className="flex items-center space-x-2">
                           <span className="px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-indigo-50 text-indigo-700 border border-indigo-200 uppercase">
                             Cram Drill
                           </span>
-                          <span className="text-xs font-bold text-stone-900">
+                          <span className="text-xs font-bold text-foreground">
                             {catInfo.name} ({catInfo.burmese})
                           </span>
-                          <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-white border border-stone-200 text-stone-600">
+                          <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-card border border-border text-muted-foreground">
                             {drill.level || 'N2'}
                           </span>
                         </div>
-                        <div className="flex items-center space-x-2 text-[11px] text-stone-500">
-                          <span className="font-burmese text-stone-700">{formatBurmeseDate(dateStr)}</span>
-                          <span className="text-stone-400 font-mono">({new Date(dateStr).toLocaleDateString()})</span>
+                        <div className="flex items-center space-x-2 text-[11px] text-muted-foreground">
+                          <span className="font-burmese text-foreground">{formatBurmeseDate(dateStr)}</span>
+                          <span className="text-muted-foreground font-mono">({new Date(dateStr).toLocaleDateString()})</span>
                           {drill.durationSeconds > 0 && (
                             <>
-                              <span className="text-stone-300">•</span>
-                              <span className="text-stone-500 font-mono flex items-center space-x-1">
-                                <Clock className="w-3 h-3 text-stone-400" />
+                              <span className="text-muted-foreground/40">•</span>
+                              <span className="text-muted-foreground font-mono flex items-center space-x-1">
+                                <Clock className="w-3 h-3 text-muted-foreground" />
                                 <span>{Math.round(drill.durationSeconds / 60) || 1} min</span>
                               </span>
                             </>
@@ -871,7 +871,7 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
 
                       <div className="flex items-center space-x-3 self-end sm:self-center">
                         <div className="text-right">
-                          <div className="text-xs font-mono font-bold text-stone-900">
+                          <div className="text-xs font-mono font-bold text-foreground">
                             {`${drill.correctAnswers} / ${drill.totalQuestions}`}
                           </div>
                           <span
@@ -888,7 +888,7 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
                         {onLaunchDrill && (
                           <button
                             onClick={() => onLaunchDrill(mapCategoryToSkill(drill.category))}
-                            className="px-3 py-1.5 rounded-lg bg-white hover:bg-stone-50 border border-stone-200 hover:border-indigo-300 text-stone-700 hover:text-indigo-700 text-xs font-medium transition flex items-center space-x-1.5 cursor-pointer shadow-2xs active:scale-95"
+                            className="px-3 py-1.5 rounded-lg bg-card hover:bg-muted/50 border border-border hover:border-indigo-300 text-foreground hover:text-indigo-700 text-xs font-medium transition flex items-center space-x-1.5 cursor-pointer shadow-2xs active:scale-95"
                           >
                             <RotateCcw className="w-3.5 h-3.5 text-indigo-600" />
                             <span>Retake Drill (ထပ်မံလေ့ကျင့်မည်)</span>
@@ -912,29 +912,29 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
                   return (
                     <div
                       key={rem.id || `rem_${idx}`}
-                      className="p-3 rounded-xl bg-stone-50 border border-stone-200 hover:border-stone-300 flex flex-col sm:flex-row sm:items-center justify-between gap-3 transition"
+                      className="p-3 rounded-xl bg-muted/50 border border-border hover:border-border flex flex-col sm:flex-row sm:items-center justify-between gap-3 transition"
                     >
                       <div className="space-y-1">
                         <div className="flex items-center space-x-2">
                           <span className="px-2 py-0.5 rounded text-[10px] font-mono font-semibold bg-amber-50 text-amber-800 border border-amber-200 uppercase">
                             Remediation Plan
                           </span>
-                          <span className="text-xs font-bold text-stone-900">
+                          <span className="text-xs font-bold text-foreground">
                             {catInfo.name} ({catInfo.burmese})
                           </span>
-                          <span className="text-[10px] font-mono text-stone-500">
+                          <span className="text-[10px] font-mono text-muted-foreground">
                             {rem.lessonId}
                           </span>
                         </div>
-                        <div className="flex items-center space-x-2 text-[11px] text-stone-500">
-                          <span className="font-burmese text-stone-700">{formatBurmeseDate(dateStr)}</span>
-                          <span className="text-stone-400 font-mono">({new Date(dateStr).toLocaleDateString()})</span>
+                        <div className="flex items-center space-x-2 text-[11px] text-muted-foreground">
+                          <span className="font-burmese text-foreground">{formatBurmeseDate(dateStr)}</span>
+                          <span className="text-muted-foreground font-mono">({new Date(dateStr).toLocaleDateString()})</span>
                         </div>
                       </div>
 
                       <div className="flex items-center space-x-3 self-end sm:self-center">
                         <div className="text-right">
-                          <div className="text-xs font-mono font-bold text-stone-900">
+                          <div className="text-xs font-mono font-bold text-foreground">
                             {`${correctCount} / ${exercisesCount || 1}`}
                           </div>
                           <span
@@ -951,7 +951,7 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
                         {onLaunchDrill && (
                           <button
                             onClick={() => onLaunchDrill(mapCategoryToSkill(targetCat))}
-                            className="px-3 py-1.5 rounded-lg bg-white hover:bg-stone-50 border border-stone-200 hover:border-indigo-300 text-stone-700 hover:text-indigo-700 text-xs font-medium transition flex items-center space-x-1.5 cursor-pointer shadow-2xs active:scale-95"
+                            className="px-3 py-1.5 rounded-lg bg-card hover:bg-muted/50 border border-border hover:border-indigo-300 text-foreground hover:text-indigo-700 text-xs font-medium transition flex items-center space-x-1.5 cursor-pointer shadow-2xs active:scale-95"
                           >
                             <RotateCcw className="w-3.5 h-3.5 text-indigo-600" />
                             <span>Retake Drill (ထပ်မံလေ့ကျင့်မည်)</span>
@@ -967,38 +967,38 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
       </div>
 
       {/* LEECH QUARANTINE SECTION: Stubborn Items & Error Counts */}
-      <div className="bg-white border border-stone-200 rounded-2xl p-6 space-y-4 shadow-sm">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-stone-200 pb-4">
+      <div className="bg-card border border-border rounded-2xl p-6 space-y-4 shadow-sm">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-4">
           <div className="space-y-1">
             <div className="flex items-center space-x-2">
               <span className="px-2 py-0.5 rounded bg-amber-50 border border-amber-200 text-amber-800 text-[10px] font-mono font-bold uppercase tracking-wide flex items-center space-x-1">
                 <Bug className="w-3 h-3 text-amber-600" />
                 <span>Active Isolation Zone</span>
               </span>
-              <span className="text-xs text-stone-400">•</span>
-              <span className="text-xs text-stone-500 font-mono">
+              <span className="text-xs text-muted-foreground">•</span>
+              <span className="text-xs text-muted-foreground font-mono">
                 {weaknessReport.totalLeechCount} quarantined items
               </span>
             </div>
-            <h3 className="text-lg font-bold text-stone-900 flex items-center space-x-2">
+            <h3 className="text-lg font-bold text-foreground flex items-center space-x-2">
               <span>Leech Quarantine &amp; Stubborn Items</span>
             </h3>
-            <p className="text-xs text-stone-600">
+            <p className="text-xs text-muted-foreground">
               Items with high lapse counts or persistent retrieval friction. Practice them in isolated sessions to break interference patterns.
             </p>
           </div>
 
           <div className="flex items-center space-x-2">
             {/* Filter buttons */}
-            <div className="flex items-center space-x-1 bg-stone-100 p-1 rounded-lg border border-stone-200">
+            <div className="flex items-center space-x-1 bg-muted p-1 rounded-lg border border-border">
               {(['all', 'vocab', 'kanji', 'grammar'] as const).map((cat) => (
                 <button
                   key={cat}
                   onClick={() => setQuarantineFilter(cat)}
                   className={`px-2.5 py-1 text-xs rounded-md font-medium transition cursor-pointer capitalize ${
                     quarantineFilter === cat
-                      ? 'bg-white text-amber-800 font-semibold shadow-2xs'
-                      : 'text-stone-600 hover:text-stone-900'
+                      ? 'bg-card text-amber-800 font-semibold shadow-2xs'
+                      : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
                   {cat}
@@ -1024,17 +1024,17 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
             {filteredLeeches.map((item) => (
               <div
                 key={item.cardId}
-                className="bg-stone-50 border border-stone-200 hover:border-amber-300 rounded-xl p-4 space-y-3 transition group"
+                className="bg-muted/50 border border-border hover:border-amber-300 rounded-xl p-4 space-y-3 transition group"
               >
                 <div className="flex items-start justify-between">
                   <div className="space-y-0.5">
                     <div className="flex items-center space-x-2">
-                      <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-white border border-stone-200 text-stone-600 uppercase">
+                      <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-card border border-border text-muted-foreground uppercase">
                         {item.itemType}
                       </span>
-                      <span className="text-[10px] font-mono text-stone-500">{item.lessonId}</span>
+                      <span className="text-[10px] font-mono text-muted-foreground">{item.lessonId}</span>
                     </div>
-                    <h4 className="text-lg font-bold font-japanese text-stone-900 tracking-wide mt-1">
+                    <h4 className="text-lg font-bold font-japanese text-foreground tracking-wide mt-1">
                       {item.prompt}
                     </h4>
                     {item.reading && item.reading !== item.prompt && (
@@ -1049,18 +1049,18 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
                       <AlertTriangle className="w-3 h-3 text-rose-600" />
                       <span>{item.lapses} Lapses</span>
                     </span>
-                    <div className="text-[10px] font-mono text-stone-500">
+                    <div className="text-[10px] font-mono text-muted-foreground">
                       {item.errorCount} fails / {item.reviewCount || item.lapses} reviews
                     </div>
                   </div>
                 </div>
 
-                <div className="p-2.5 rounded-lg bg-white border border-stone-200 text-xs text-stone-700 space-y-1">
-                  <div className="text-stone-600 text-[11px]">
+                <div className="p-2.5 rounded-lg bg-card border border-border text-xs text-foreground space-y-1">
+                  <div className="text-muted-foreground text-[11px]">
                     <strong>Meaning:</strong> {item.meaning}
                   </div>
                   {item.exampleSentence && (
-                    <div className="text-[11px] text-stone-600 font-japanese italic truncate">
+                    <div className="text-[11px] text-muted-foreground font-japanese italic truncate">
                       {item.exampleSentence}
                     </div>
                   )}
@@ -1079,7 +1079,7 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
                   <button
                     onClick={() => handleRehabilitate(item.cardId)}
                     disabled={rehabilitatingId === item.cardId}
-                    className="px-2.5 py-1 rounded bg-white hover:bg-stone-50 border border-stone-300 hover:border-emerald-500 text-stone-600 hover:text-emerald-700 text-[11px] font-medium transition flex items-center space-x-1 disabled:opacity-50 cursor-pointer shadow-2xs"
+                    className="px-2.5 py-1 rounded bg-card hover:bg-muted/50 border border-border hover:border-emerald-500 text-muted-foreground hover:text-emerald-700 text-[11px] font-medium transition flex items-center space-x-1 disabled:opacity-50 cursor-pointer shadow-2xs"
                   >
                     {rehabilitatingId === item.cardId ? (
                       <RotateCcw className="w-3 h-3 animate-spin" />
@@ -1093,17 +1093,17 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
             ))}
           </div>
         ) : (
-          <div className="text-center py-10 space-y-3 bg-stone-50 rounded-xl border border-dashed border-stone-300">
+          <div className="text-center py-10 space-y-3 bg-muted/50 rounded-xl border border-dashed border-border">
             <ShieldCheck className="w-10 h-10 text-emerald-600 mx-auto" />
             <div className="space-y-1">
-              <h4 className="text-sm font-semibold text-stone-900">Quarantine Zone Clear!</h4>
-              <p className="text-xs text-stone-600 max-w-sm mx-auto">
+              <h4 className="text-sm font-semibold text-foreground">Quarantine Zone Clear!</h4>
+              <p className="text-xs text-muted-foreground max-w-sm mx-auto">
                 No stubborn leech items currently detected with excessive failure lapses. As you review SRS cards, persistent errors will automatically isolate here.
               </p>
             </div>
             <button
               onClick={handleSeedLeeches}
-              className="px-3.5 py-1.5 rounded-lg bg-white hover:bg-stone-50 border border-stone-300 text-stone-700 text-xs font-medium transition cursor-pointer shadow-2xs"
+              className="px-3.5 py-1.5 rounded-lg bg-card hover:bg-muted/50 border border-border text-foreground text-xs font-medium transition cursor-pointer shadow-2xs"
             >
               Populate Diagnostic Leeches for Testing
             </button>
@@ -1112,11 +1112,11 @@ export const TestAnalyticsScreen: React.FC<TestAnalyticsScreenProps> = ({
       </div>
 
       {/* Conjunctive Scoring Explainer Banner */}
-      <div className="bg-stone-50 border border-stone-200 rounded-2xl p-4 flex items-start space-x-3 text-xs text-stone-700">
+      <div className="bg-muted/50 border border-border rounded-2xl p-4 flex items-start space-x-3 text-xs text-foreground">
         <Shield className="w-5 h-5 text-indigo-600 shrink-0 mt-0.5" />
         <div className="space-y-1">
-          <strong className="block text-stone-900">Conjunctive Scoring Rule:</strong>
-          <span className="text-stone-600">
+          <strong className="block text-foreground">Conjunctive Scoring Rule:</strong>
+          <span className="text-muted-foreground">
             In JLPT assessments, high performance in one skill (e.g., Vocabulary at 98%) does not compensate for a failing sub-score in another (e.g., Listening below 80%). The radar polygon highlights where balance is achieved across all 5 areas.
           </span>
         </div>

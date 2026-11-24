@@ -250,31 +250,31 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
   return (
     <div
       data-component="choukai-workbench"
-      className={`flex flex-col h-full bg-white dark:bg-stone-950 text-stone-900 dark:text-zinc-100 ${
-        embeddedMode ? 'rounded-2xl border border-stone-200 dark:border-stone-800/90 overflow-hidden' : ''
+      className={`flex flex-col h-full bg-card text-foreground ${
+        embeddedMode ? 'rounded-2xl border border-border/90 overflow-hidden' : ''
       }`}
     >
       {/* 1. TOP HEADER & SCENARIO SELECTOR */}
-      <header className="px-5 py-3 border-b border-stone-200 dark:border-stone-800/90 bg-stone-50/90 dark:bg-stone-900/95 flex flex-wrap items-center justify-between gap-3 shrink-0">
+      <header className="px-5 py-3 border-b border-border/90 bg-muted/50/90 bg-card/95 flex flex-wrap items-center justify-between gap-3 shrink-0">
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-rose-500 animate-pulse" />
-            <h1 className="text-sm font-semibold tracking-wide text-stone-900 dark:text-zinc-100 font-japanese flex items-center gap-1.5 font-myanmar">
+            <h1 className="text-sm font-semibold tracking-wide text-foreground font-japanese flex items-center gap-1.5 font-myanmar">
               <Headphones className="w-4 h-4 text-rose-500 dark:text-rose-400" />
               <span>နားထောင်စွမ်းရည် လေ့ကျင့်ခန်း (Choukai Lab)</span>
             </h1>
           </div>
-          <span className="text-xs text-stone-400 dark:text-stone-500 font-mono">·</span>
+          <span className="text-xs text-muted-foreground font-mono">·</span>
           <span className="text-xs font-mono text-rose-700 dark:text-rose-300 font-medium bg-rose-50 dark:bg-rose-950/60 px-2 py-0.5 rounded border border-rose-200 dark:border-rose-900/40">
             {scenario.typeLabel}
           </span>
-          <span className="text-xs text-stone-600 dark:text-stone-400 font-mono hidden sm:inline">
+          <span className="text-xs text-muted-foreground font-mono hidden sm:inline">
             JLPT {scenario.level}
           </span>
         </div>
 
         {/* Scenario Switcher Tabs */}
-        <div className="flex items-center gap-1 bg-stone-100 dark:bg-stone-950/80 p-1 rounded-lg border border-stone-200 dark:border-stone-800 text-xs font-myanmar">
+        <div className="flex items-center gap-1 bg-muted bg-surface/80 p-1 rounded-lg border border-border text-xs font-myanmar">
           {CHOUKAI_SCENARIOS.map((s) => (
             <button
               key={s.id}
@@ -282,7 +282,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
               className={`px-3 py-1 rounded font-medium transition cursor-pointer ${
                 selectedScenarioId === s.id
                   ? 'bg-rose-600 text-white shadow-xs'
-                  : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                  : 'text-muted-foreground hover:text-foreground'
               }`}
             >
               {s.type === 'kadai_rikai'
@@ -300,7 +300,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
               stop();
               onExit();
             }}
-            className="p-1.5 text-stone-500 hover:text-stone-800 dark:text-stone-400 dark:hover:text-zinc-100 rounded transition cursor-pointer"
+            className="p-1.5 text-muted-foreground hover:text-foreground text-muted-foreground hover:text-foreground rounded transition cursor-pointer"
             title="Exit Choukai Lab"
           >
             <X className="w-4 h-4" />
@@ -331,9 +331,9 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
         {/* ========================================================= */}
         {/* LEFT PANE: AUDIO STUDIO & 3-STAGE TRANSCRIPT VIEWER      */}
         {/* ========================================================= */}
-        <div className="flex-1 flex flex-col border-b lg:border-b-0 lg:border-r border-stone-200 dark:border-stone-800/90 bg-white dark:bg-stone-950/60 overflow-hidden">
+        <div className="flex-1 flex flex-col border-b lg:border-b-0 lg:border-r border-border/90 bg-card/60 overflow-hidden">
           {/* Audio Player Studio Bar */}
-          <div className="p-4 bg-stone-50 dark:bg-stone-900/80 border-b border-stone-200 dark:border-stone-800/80 space-y-3 shrink-0">
+          <div className="p-4 bg-muted/50/80 border-b border-border/80 space-y-3 shrink-0">
             {/* Top row: Play/Pause, Waveform & Shadowing Loop */}
             <div className="flex items-center justify-between gap-3 flex-wrap">
               <div className="flex items-center gap-3">
@@ -358,7 +358,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                 </button>
 
                 {/* Animated Waveform Display */}
-                <div className="flex items-center gap-1 h-8 px-3 py-1 bg-stone-100 dark:bg-stone-950 rounded-xl border border-stone-200 dark:border-stone-800">
+                <div className="flex items-center gap-1 h-8 px-3 py-1 bg-muted bg-surface rounded-xl border border-border">
                   {[0.4, 0.7, 1.0, 0.6, 0.9, 0.3, 0.8, 0.5, 0.95, 0.4].map((baseHeight, i) => {
                     const dynamicHeight = isPlaying
                       ? Math.max(0.15, Math.min(1.0, baseHeight * waveformAmplitude * 1.8))
@@ -367,7 +367,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                       <div
                         key={i}
                         className={`w-1 rounded-full transition-all duration-100 ${
-                          isPlaying ? 'bg-rose-500 dark:bg-rose-400' : 'bg-stone-300 dark:bg-stone-700'
+                          isPlaying ? 'bg-rose-500 dark:bg-rose-400' : 'bg-muted bg-muted'
                         }`}
                         style={{ height: `${Math.round(dynamicHeight * 24)}px` }}
                       />
@@ -377,10 +377,10 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
 
                 {/* Current Speaker / Status Pill */}
                 <div className="hidden sm:flex flex-col font-myanmar">
-                  <span className="text-[10px] text-stone-500 font-mono uppercase">
+                  <span className="text-[10px] text-muted-foreground font-mono uppercase">
                     စကားပြောသူ
                   </span>
-                  <span className="text-xs font-semibold text-stone-800 dark:text-zinc-200 font-japanese">
+                  <span className="text-xs font-semibold text-foreground font-japanese">
                     {scenario.dialogue[currentLineIndex]
                       ? scenario.speakers.find(
                           (s) => s.id === scenario.dialogue[currentLineIndex].speakerId
@@ -393,7 +393,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
               {/* Right tools: Speed selector & Shadowing Loop toggle */}
               <div className="flex items-center gap-2 flex-wrap">
                 {/* Speed Selection */}
-                <div className="flex items-center bg-stone-100 dark:bg-stone-950 p-1 rounded-lg border border-stone-200 dark:border-stone-800 text-xs font-mono">
+                <div className="flex items-center bg-muted bg-surface p-1 rounded-lg border border-border text-xs font-mono">
                   {([0.75, 1.0, 1.25, 1.5] as ChoukaiSpeed[]).map((spd) => (
                     <button
                       key={spd}
@@ -401,7 +401,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                       className={`px-2 py-0.5 rounded transition cursor-pointer ${
                         playbackRate === spd
                           ? 'bg-rose-600 text-white font-bold shadow-xs'
-                          : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                          : 'text-muted-foreground hover:text-foreground'
                       }`}
                     >
                       {spd}x
@@ -415,7 +415,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                   className={`px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition border font-myanmar cursor-pointer ${
                     isShadowingLoop
                       ? 'bg-amber-100 dark:bg-amber-950/60 text-amber-900 dark:text-amber-300 border-amber-300 dark:border-amber-600/70 ring-2 ring-amber-400/30'
-                      : 'bg-stone-100 dark:bg-stone-950 text-stone-700 dark:text-stone-400 border-stone-200 dark:border-stone-800 hover:text-stone-900 dark:hover:text-zinc-100'
+                      : 'bg-muted bg-surface text-foreground text-muted-foreground border-border hover:text-foreground'
                   }`}
                   title="စဉ်ဆက်မပြတ် လိုက်ဆိုလေ့ကျင့်ခြင်း"
                 >
@@ -434,7 +434,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                         onClick={() => setShadowingTurnDelay(delayMs)}
                         className={`px-1.5 py-0.5 rounded text-[11px] transition cursor-pointer ${
                           shadowingTurnDelay === delayMs
-                            ? 'bg-amber-500 text-stone-950 font-bold shadow-xs'
+                            ? 'bg-amber-500 text-amber-950 font-bold shadow-xs'
                             : 'text-amber-800 dark:text-amber-200/70 hover:text-amber-950 dark:hover:text-amber-100 hover:bg-amber-100 dark:hover:bg-amber-900/40'
                         }`}
                       >
@@ -447,7 +447,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
             </div>
 
             {/* Situation Context Banner */}
-            <div className="bg-stone-100/80 dark:bg-stone-950/80 border border-stone-200 dark:border-stone-800/80 rounded-xl px-3.5 py-2 text-xs text-stone-700 dark:text-stone-300 flex items-center gap-2 font-myanmar">
+            <div className="bg-muted/80 bg-surface/80 border border-border/80 rounded-xl px-3.5 py-2 text-xs text-foreground flex items-center gap-2 font-myanmar">
               <span className="text-[10px] font-mono text-rose-600 dark:text-rose-400 uppercase font-semibold shrink-0">
                 အခြေအနေ အကြောင်းအရာ:
               </span>
@@ -456,16 +456,16 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
           </div>
 
           {/* 3-Stage Visibility Segmented Control Bar */}
-          <div className="px-5 py-2 bg-stone-50 dark:bg-stone-900/60 border-b border-stone-200 dark:border-stone-800/70 flex items-center justify-between gap-3 text-xs font-myanmar">
-            <span className="text-stone-600 dark:text-stone-400 font-medium">စာသား ပြသမည့် ပုံစံ:</span>
-            <div className="flex items-center bg-stone-100 dark:bg-stone-950 p-1 rounded-xl border border-stone-200 dark:border-stone-800 text-xs">
+          <div className="px-5 py-2 bg-muted/50 border-b border-border/70 flex items-center justify-between gap-3 text-xs font-myanmar">
+            <span className="text-muted-foreground font-medium">စာသား ပြသမည့် ပုံစံ:</span>
+            <div className="flex items-center bg-muted bg-surface p-1 rounded-xl border border-border text-xs">
               {/* 1. Blind Exam Mode */}
               <button
                 onClick={() => setVisibilityMode('blind')}
                 className={`px-3 py-1 rounded-lg font-medium flex items-center gap-1.5 transition cursor-pointer ${
                   visibilityMode === 'blind'
                     ? 'bg-rose-100 dark:bg-rose-950/80 text-rose-800 dark:text-rose-300 border border-rose-300 dark:border-rose-800/60 shadow-xs'
-                    : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                    : 'text-muted-foreground hover:text-foreground'
                 }`}
                 title="အမှန်တကယ် စာမေးပွဲပုံစံ စာသားမပါဘဲ နားထောင်ရန်"
               >
@@ -478,8 +478,8 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                 onClick={() => setVisibilityMode('script')}
                 className={`px-3 py-1 rounded-lg font-medium flex items-center gap-1.5 transition cursor-pointer ${
                   visibilityMode === 'script'
-                    ? 'bg-white dark:bg-stone-800 text-stone-900 dark:text-zinc-100 shadow-xs border border-stone-300 dark:border-stone-700/60'
-                    : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                    ? 'bg-card text-foreground shadow-xs border border-border/60'
+                    : 'text-muted-foreground hover:text-foreground'
                 }`}
                 title="ဂျပန်စာသား အပြည့်အစုံ ကြည့်ရှုရန်"
               >
@@ -493,7 +493,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                 className={`px-3 py-1 rounded-lg font-medium flex items-center gap-1.5 transition cursor-pointer ${
                   visibilityMode === 'clue'
                     ? 'bg-emerald-100 dark:bg-emerald-950/80 text-emerald-800 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-800/60 shadow-xs'
-                    : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                    : 'text-muted-foreground hover:text-foreground'
                 }`}
                 title="အဖြေမှန်၏ အထောက်အထားစာကြောင်းကို ပြသရန်"
               >
@@ -507,15 +507,15 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
           <div className="flex-1 overflow-y-auto p-5 sm:p-6 relative">
             {/* 1. BLIND EXAM OVERLAY */}
             {visibilityMode === 'blind' && (
-              <div className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-white/90 dark:bg-stone-950/85 backdrop-blur-md p-6 text-center space-y-4 font-myanmar">
+              <div className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-card/90 bg-surface/85 backdrop-blur-md p-6 text-center space-y-4 font-myanmar">
                 <div className="w-16 h-16 rounded-2xl bg-rose-500/10 border border-rose-500/30 text-rose-500 dark:text-rose-400 flex items-center justify-center shadow-inner">
                   <Headphones className="w-8 h-8" />
                 </div>
                 <div className="space-y-1.5 max-w-md">
-                  <h3 className="text-base font-bold text-stone-900 dark:text-zinc-100">
+                  <h3 className="text-base font-bold text-foreground">
                     စစ်မှန်သော နားထောင်စစ်ဆေးမှု ပုံစံ
                   </h3>
-                  <p className="text-xs text-stone-600 dark:text-stone-400 leading-relaxed">
+                  <p className="text-xs text-muted-foreground leading-relaxed">
                     အမှန်တကယ် JLPT စာမေးပွဲပုံစံအတိုင်း စာသားကို မကြည့်ဘဲ နားထောင်လေ့ကျင့်ပါ။ ညာဘက်ရှိ မေးခွန်းကို ဖြေဆိုနိုင်သလို၊ အောက်ပါခလုတ်ဖြင့် စာသားကို ဖွင့်ကြည့်နိုင်ပါသည်။
                   </p>
                 </div>
@@ -531,9 +531,9 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                   </button>
                   <button
                     onClick={() => setVisibilityMode('script')}
-                    className="px-4 py-2 rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-stone-900 border border-stone-300 dark:border-stone-800 hover:border-stone-400 dark:hover:border-stone-700 text-stone-700 dark:text-stone-300 text-xs font-semibold flex items-center gap-1.5 cursor-pointer"
+                    className="px-4 py-2 rounded-xl bg-muted hover:bg-muted bg-card border border-border border-border hover:border-border dark:hover:border-border text-foreground text-xs font-semibold flex items-center gap-1.5 cursor-pointer"
                   >
-                    <Eye className="w-4 h-4 text-stone-500 dark:text-stone-400" />
+                    <Eye className="w-4 h-4 text-muted-foreground" />
                     <span>စာသားကြည့်မည် (Reveal)</span>
                   </button>
                 </div>
@@ -548,11 +548,11 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                 const isClue = line.isAnswerClue && visibilityMode === 'clue';
 
                 let cardStyle =
-                  'bg-stone-50 dark:bg-stone-900/60 border-stone-200 dark:border-stone-800/80 hover:border-stone-300 dark:hover:border-stone-750 text-stone-800 dark:text-stone-200';
+                  'bg-muted/50 border-border/80 hover:border-border dark:hover:border-border text-foreground';
 
                 if (isCurrentActive) {
                   cardStyle =
-                    'bg-rose-50/70 dark:bg-stone-850 border-rose-500/80 ring-2 ring-rose-500/30 text-stone-900 dark:text-zinc-100 shadow-md';
+                    'bg-rose-50/70 dark:bg-muted border-rose-500/80 ring-2 ring-rose-500/30 text-foreground shadow-md';
                 } else if (isClue) {
                   cardStyle =
                     'bg-emerald-50 dark:bg-emerald-950/40 border-emerald-500 dark:border-emerald-600/80 ring-2 ring-emerald-500/40 shadow-lg text-emerald-900 dark:text-emerald-100';
@@ -571,15 +571,15 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                       <div className="flex items-center gap-2">
                         <span
                           className={`w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-bold text-white shadow-xs ${
-                            speaker?.avatarBg || 'bg-stone-800'
+                            speaker?.avatarBg || 'bg-muted'
                           }`}
                         >
                           {speaker?.gender === 'female' ? 'မ' : speaker?.gender === 'male' ? 'ကျား' : 'ကြေညာ'}
                         </span>
-                        <span className="font-semibold text-stone-800 dark:text-zinc-200 font-japanese">
+                        <span className="font-semibold text-foreground font-japanese">
                           {speaker?.nameJa || 'စကားပြောသူ'}
                         </span>
-                        <span className="text-[10px] text-stone-500 font-mono">
+                        <span className="text-[10px] text-muted-foreground font-mono">
                           · {speaker?.role}
                         </span>
                       </div>
@@ -593,7 +593,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                         )}
                         <button
                           onClick={() => playSingleLine(idx)}
-                          className="px-2 py-1 rounded bg-white dark:bg-stone-950/80 hover:bg-stone-100 dark:hover:bg-stone-800 text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-zinc-100 text-[11px] font-mono flex items-center gap-1 transition border border-stone-200 dark:border-stone-800 cursor-pointer shadow-2xs"
+                          className="px-2 py-1 rounded bg-card/80 hover:bg-muted text-muted-foreground hover:text-foreground text-[11px] font-mono flex items-center gap-1 transition border border-border cursor-pointer shadow-2xs"
                           title="Play this sentence"
                         >
                           <Volume2 className="w-3 h-3 text-rose-500 dark:text-rose-400" />
@@ -603,7 +603,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                     </div>
 
                     {/* Japanese Text (with clickable vocabulary tokens & kanji inspector) */}
-                    <div className="text-sm sm:text-base font-japanese leading-relaxed text-stone-900 dark:text-zinc-100">
+                    <div className="text-sm sm:text-base font-japanese leading-relaxed text-foreground">
                       {renderLineWithTokens(
                         line.japanese,
                         scenario.keyVocabulary,
@@ -626,20 +626,20 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                     </div>
 
                     {/* English & Burmese Subtitles */}
-                    <div className="space-y-1 text-xs pt-1 border-t border-stone-200 dark:border-stone-800/60 font-myanmar">
+                    <div className="space-y-1 text-xs pt-1 border-t border-border/60 font-myanmar">
                       {line.burmese ? (
                         <>
                           <p className="text-amber-800 dark:text-amber-300/90 font-myanmar text-xs leading-relaxed">
                             {line.burmese}
                           </p>
                           {line.english && (
-                            <p className="text-stone-500 text-[11px] font-sans">
+                            <p className="text-muted-foreground text-[11px] font-sans">
                               {line.english}
                             </p>
                           )}
                         </>
                       ) : (
-                        <p className="text-stone-600 dark:text-stone-400 font-sans">{line.english}</p>
+                        <p className="text-muted-foreground font-sans">{line.english}</p>
                       )}
                     </div>
 
@@ -682,12 +682,12 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
         {/* ========================================================= */}
         {/* RIGHT PANE: QUESTION PANEL & DISTRACTOR TRAP ANALYSIS      */}
         {/* ========================================================= */}
-        <div className="w-full lg:w-[480px] xl:w-[520px] flex flex-col bg-stone-50/60 dark:bg-stone-900/50 overflow-hidden shrink-0 font-myanmar">
-          <div className="p-5 border-b border-stone-200 dark:border-stone-800/80 space-y-1 shrink-0">
+        <div className="w-full lg:w-[480px] xl:w-[520px] flex flex-col bg-muted/50 bg-card/50 overflow-hidden shrink-0 font-myanmar">
+          <div className="p-5 border-b border-border/80 space-y-1 shrink-0">
             <span className="text-[10px] font-mono text-rose-600 dark:text-rose-400 uppercase font-semibold">
               JLPT N2 မေးခွန်း
             </span>
-            <h2 className="text-base font-bold text-stone-900 dark:text-zinc-100 font-japanese leading-snug">
+            <h2 className="text-base font-bold text-foreground font-japanese leading-snug">
               <InteractiveKanjiText
                 text={scenario.questionPromptJa}
                 sentenceContext={scenario.questionPromptJa}
@@ -706,11 +706,11 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                 const isCorrect = cIdx === scenario.answerIndex;
 
                 let choiceStyle =
-                  'bg-white dark:bg-stone-950 border-stone-200 dark:border-stone-800 text-stone-800 dark:text-zinc-200 hover:border-stone-300 dark:hover:border-stone-700 hover:bg-stone-50 dark:hover:bg-stone-900/40';
+                  'bg-card border-border text-foreground hover:border-border dark:hover:border-border hover:bg-muted/50 dark:hover:bg-background/80';
 
                 if (isSelected && !isAnswerSubmitted) {
                   choiceStyle =
-                    'bg-rose-50/80 dark:bg-stone-850 border-rose-500/80 text-stone-900 dark:text-zinc-100 ring-1 ring-rose-500/50 shadow-xs';
+                    'bg-rose-50/80 dark:bg-muted border-rose-500/80 text-foreground ring-1 ring-rose-500/50 shadow-xs';
                 } else if (isAnswerSubmitted) {
                   if (isCorrect) {
                     choiceStyle =
@@ -718,7 +718,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                   } else if (isSelected && !isCorrect) {
                     choiceStyle = 'bg-rose-50 dark:bg-rose-950/60 border-rose-500 dark:border-rose-600/80 text-rose-900 dark:text-rose-200';
                   } else {
-                    choiceStyle = 'bg-white/60 dark:bg-stone-950/60 border-stone-200/60 dark:border-stone-800/60 text-stone-400 opacity-60';
+                    choiceStyle = 'bg-card/60 bg-surface/60 border-border/60 border-border/60 text-muted-foreground opacity-60';
                   }
                 }
 
@@ -733,7 +733,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                     disabled={isAnswerSubmitted}
                     className={`w-full text-left p-3.5 rounded-xl border transition flex items-start gap-3 cursor-pointer ${choiceStyle}`}
                   >
-                    <span className="w-5 h-5 rounded bg-stone-100 dark:bg-stone-900 border border-stone-300 dark:border-stone-700 text-stone-700 dark:text-stone-300 text-xs font-mono font-bold flex items-center justify-center shrink-0 mt-0.5">
+                    <span className="w-5 h-5 rounded bg-muted bg-card border border-border text-foreground text-xs font-mono font-bold flex items-center justify-center shrink-0 mt-0.5">
                       {cIdx + 1}
                     </span>
                     <span className="text-xs sm:text-sm font-japanese leading-relaxed flex-1">
@@ -758,8 +758,8 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
             {/* Submit Action Button */}
             {!isAnswerSubmitted ? (
               <div className="pt-2 flex items-center justify-between gap-3">
-                <span className="text-[11px] text-stone-500 font-mono">
-                  ကီးဘုတ်: <kbd className="bg-stone-100 dark:bg-stone-950 px-1 py-0.5 rounded border border-stone-200 dark:border-stone-800 text-stone-700 dark:text-stone-300">1-4</kbd> / <kbd className="bg-stone-100 dark:bg-stone-950 px-1 py-0.5 rounded border border-stone-200 dark:border-stone-800 text-stone-700 dark:text-stone-300">Enter</kbd>
+                <span className="text-[11px] text-muted-foreground font-mono">
+                  ကီးဘုတ်: <kbd className="bg-muted bg-surface px-1 py-0.5 rounded border border-border text-foreground">1-4</kbd> / <kbd className="bg-muted bg-surface px-1 py-0.5 rounded border border-border text-foreground">Enter</kbd>
                 </span>
                 <button
                   onClick={handleSubmitAnswer}
@@ -767,7 +767,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                   className={`px-5 py-2.5 rounded-xl text-xs font-semibold transition flex items-center gap-2 ${
                     selectedChoiceIndex !== null
                       ? 'bg-rose-600 hover:bg-rose-500 text-white shadow-lg shadow-rose-950/50 cursor-pointer'
-                      : 'bg-stone-200 dark:bg-stone-800 text-stone-400 dark:text-stone-500 cursor-not-allowed'
+                      : 'bg-muted bg-muted text-muted-foreground cursor-not-allowed'
                   }`}
                 >
                   <span>အဖြေစစ်ဆေးမည် (Submit)</span>
@@ -808,7 +808,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
 
                 {/* Full Distractor Trap Breakdown */}
                 <div className="space-y-2.5">
-                  <h4 className="text-xs font-bold text-stone-800 dark:text-stone-300 uppercase font-mono tracking-wider">
+                  <h4 className="text-xs font-bold text-foreground text-muted-foreground uppercase font-mono tracking-wider">
                     အဖြေမှားထောင်ချောက်များနှင့် အသေးစိတ်ရှင်းလင်းချက် (Distractor Trap Analysis):
                   </h4>
                   {scenario.distractorAnalyses.map((analysis, idx) => (
@@ -816,8 +816,8 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                       key={idx}
                       className={`p-3 rounded-xl border text-xs space-y-1.5 ${
                         analysis.isCorrect
-                          ? 'bg-emerald-50 dark:bg-emerald-950/30 border-emerald-200 dark:border-emerald-800/60 text-stone-800 dark:text-zinc-200'
-                          : 'bg-white dark:bg-stone-950 border border-stone-200 dark:border-stone-800/80 text-stone-700 dark:text-stone-300'
+                          ? 'bg-emerald-50 dark:bg-emerald-950/30 border-emerald-200 dark:border-emerald-800/60 text-foreground'
+                          : 'bg-card border border-border/80 text-foreground'
                       }`}
                     >
                       <div className="flex items-center justify-between">
@@ -836,20 +836,20 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                             {analysis.explanationMy}
                           </p>
                           {analysis.explanationEn && (
-                            <p className="text-stone-600 dark:text-stone-400 text-[11px] pt-1 border-t border-stone-200 dark:border-stone-800/60 font-sans">
+                            <p className="text-muted-foreground text-[11px] pt-1 border-t border-border/60 font-sans">
                               {analysis.explanationEn}
                             </p>
                           )}
                         </>
                       ) : (
-                        <p className="text-stone-600 dark:text-stone-400 leading-relaxed font-sans">{analysis.explanationEn}</p>
+                        <p className="text-muted-foreground leading-relaxed font-sans">{analysis.explanationEn}</p>
                       )}
                     </div>
                   ))}
                 </div>
 
                 {/* Strategy Tip Box */}
-                <div className="p-3.5 bg-white dark:bg-stone-950 border border-stone-200 dark:border-stone-800 rounded-xl space-y-1.5 text-xs">
+                <div className="p-3.5 bg-card border border-border rounded-xl space-y-1.5 text-xs">
                   <span className="font-bold text-amber-600 dark:text-amber-400 flex items-center gap-1">
                     <Sparkles className="w-3.5 h-3.5" />
                     <span>⚡ JLPT နားထောင်စွမ်းရည် ဖြေဆိုနည်း:</span>
@@ -858,7 +858,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                     {(scenario as any).strategyTipMy || scenario.strategyTipEn}
                   </p>
                   {scenario.strategyTipJa && (
-                    <p className="text-stone-600 dark:text-stone-400 font-japanese text-[11px] pt-1 border-t border-stone-200 dark:border-stone-800/60">
+                    <p className="text-muted-foreground font-japanese text-[11px] pt-1 border-t border-border/60">
                       {scenario.strategyTipJa}
                     </p>
                   )}
@@ -873,7 +873,7 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
                       setVisibilityMode('blind');
                       play(0);
                     }}
-                    className="px-3.5 py-2 rounded-xl bg-white dark:bg-stone-950 border border-stone-200 dark:border-stone-800 text-stone-700 dark:text-stone-300 hover:text-stone-900 dark:hover:text-zinc-100 text-xs font-semibold flex items-center gap-1.5 transition cursor-pointer shadow-2xs"
+                    className="px-3.5 py-2 rounded-xl bg-card border border-border text-foreground hover:text-foreground text-xs font-semibold flex items-center gap-1.5 transition cursor-pointer shadow-2xs"
                   >
                     <RotateCcw className="w-3.5 h-3.5" />
                     <span>နောက်တစ်ကြိမ် ပြန်ဖြေမည် (Retry)</span>
@@ -913,48 +913,48 @@ export const ChoukaiWorkbench: React.FC<ChoukaiWorkbenchProps> = ({
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 10 }}
               onClick={(e) => e.stopPropagation()}
-              className="w-full max-w-sm bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-700/80 rounded-2xl p-5 shadow-2xl text-stone-900 dark:text-zinc-100 space-y-4"
+              className="w-full max-w-sm bg-card border border-border/80 rounded-2xl p-5 shadow-2xl text-foreground space-y-4"
             >
               <div className="flex items-start justify-between">
                 <div>
                   <div className="flex items-baseline gap-2">
-                    <span className="text-2xl font-bold font-japanese text-stone-900 dark:text-zinc-100">
+                    <span className="text-2xl font-bold font-japanese text-foreground">
                       {minerPopover.vocab.term}
                     </span>
                     <span className="text-sm font-japanese text-rose-600 dark:text-rose-300 font-medium">
                       【{minerPopover.vocab.reading}】
                     </span>
                   </div>
-                  <span className="text-xs text-stone-500 dark:text-stone-400 font-mono">{minerPopover.vocab.pos}</span>
+                  <span className="text-xs text-muted-foreground font-mono">{minerPopover.vocab.pos}</span>
                 </div>
                 <button
                   onClick={() => setMinerPopover(null)}
-                  className="p-1 text-stone-500 hover:text-stone-800 dark:text-stone-400 dark:hover:text-zinc-100 rounded transition cursor-pointer"
+                  className="p-1 text-muted-foreground hover:text-foreground text-muted-foreground hover:text-foreground rounded transition cursor-pointer"
                 >
                   <X className="w-4 h-4" />
                 </button>
               </div>
 
               {/* Definitions */}
-              <div className="space-y-1.5 bg-stone-50 dark:bg-stone-950/70 border border-stone-200 dark:border-stone-800 rounded-xl p-3 text-xs font-myanmar">
+              <div className="space-y-1.5 bg-muted/50/70 border border-border rounded-xl p-3 text-xs font-myanmar">
                 <div>
-                  <span className="text-[10px] text-stone-500 font-mono block">မြန်မာ အဓိပ္ပာယ်</span>
+                  <span className="text-[10px] text-muted-foreground font-mono block">မြန်မာ အဓိပ္ပာယ်</span>
                   <p className="text-amber-800 dark:text-amber-300 font-medium text-sm">{minerPopover.vocab.meaningMy || minerPopover.vocab.meaningEn}</p>
                 </div>
                 {minerPopover.vocab.meaningEn && minerPopover.vocab.meaningMy && (
-                  <div className="pt-1.5 border-t border-stone-200 dark:border-stone-800/80">
-                    <span className="text-[10px] text-stone-500 font-mono block">English Meaning</span>
-                    <p className="text-stone-600 dark:text-stone-400 font-sans">{minerPopover.vocab.meaningEn}</p>
+                  <div className="pt-1.5 border-t border-border/80">
+                    <span className="text-[10px] text-muted-foreground font-mono block">English Meaning</span>
+                    <p className="text-muted-foreground font-sans">{minerPopover.vocab.meaningEn}</p>
                   </div>
                 )}
               </div>
 
               {/* Spoken Line Context */}
-              <div className="space-y-1 bg-stone-50 dark:bg-stone-950/50 border border-stone-200 dark:border-stone-800/60 rounded-xl p-3 text-xs font-myanmar">
-                <span className="text-[10px] text-stone-500 font-mono block">
+              <div className="space-y-1 bg-muted/50/50 border border-border/60 rounded-xl p-3 text-xs font-myanmar">
+                <span className="text-[10px] text-muted-foreground font-mono block">
                   စကားပြော အသုံးအနှုန်း နမူနာ (Context)
                 </span>
-                <p className="text-stone-700 dark:text-stone-300 font-japanese leading-relaxed italic">
+                <p className="text-foreground font-japanese leading-relaxed italic">
                   「{minerPopover.lineContext}」
                 </p>
               </div>

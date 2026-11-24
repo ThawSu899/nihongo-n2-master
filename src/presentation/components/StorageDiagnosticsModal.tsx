@@ -276,27 +276,27 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-stone-900/40 backdrop-blur-sm overflow-y-auto">
-      <div className="relative w-full max-w-2xl bg-white border border-stone-200 rounded-2xl shadow-2xl overflow-hidden my-auto animate-in fade-in zoom-in-95 duration-150">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-background/80 backdrop-blur-sm overflow-y-auto">
+      <div className="relative w-full max-w-2xl bg-card border border-border rounded-2xl shadow-2xl overflow-hidden my-auto animate-in fade-in zoom-in-95 duration-150">
         {/* Subtle decorative top bar */}
         <div className="h-1 bg-gradient-to-r from-emerald-500 via-indigo-500 to-amber-500" />
 
         {/* Modal Header */}
-        <div className="flex items-center justify-between p-4 sm:p-5 border-b border-stone-200 bg-stone-50">
+        <div className="flex items-center justify-between p-4 sm:p-5 border-b border-border bg-muted/50">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 rounded-xl bg-white border border-stone-200 flex items-center justify-center text-emerald-600 shadow-2xs">
+            <div className="w-10 h-10 rounded-xl bg-card border border-border flex items-center justify-center text-emerald-600 shadow-2xs">
               <Database className="w-5 h-5" />
             </div>
             <div>
               <div className="flex items-center space-x-2">
-                <h2 className="text-base sm:text-lg font-bold text-stone-900 tracking-tight">
+                <h2 className="text-base sm:text-lg font-bold text-foreground tracking-tight">
                   PWA Offline Storage &amp; Sync Diagnostics
                 </h2>
                 <span className="text-[10px] px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 font-mono font-medium">
                   IndexedDB Dexie v{diag?.dbStatus.version || 2}
                 </span>
               </div>
-              <p className="text-xs text-stone-600 mt-0.5">
+              <p className="text-xs text-muted-foreground mt-0.5">
                 Real-time inspection of local storage quota, cached lesson packs, SRS database, and sync queues.
               </p>
             </div>
@@ -307,13 +307,13 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
               onClick={loadDiagnostics}
               disabled={loading || !!actionLoading}
               title="Refresh Diagnostics"
-              className="p-2 text-stone-400 hover:text-stone-700 hover:bg-stone-100 rounded-lg transition active:scale-95 cursor-pointer disabled:opacity-50"
+              className="p-2 text-muted-foreground hover:text-foreground hover:bg-muted rounded-lg transition active:scale-95 cursor-pointer disabled:opacity-50"
             >
               <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin text-indigo-600' : ''}`} />
             </button>
             <button
               onClick={onClose}
-              className="p-2 text-stone-400 hover:text-stone-700 hover:bg-stone-100 rounded-lg transition active:scale-95 cursor-pointer"
+              className="p-2 text-muted-foreground hover:text-foreground hover:bg-muted rounded-lg transition active:scale-95 cursor-pointer"
             >
               <X className="w-5 h-5" />
             </button>
@@ -330,7 +330,7 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
                   ? 'bg-emerald-50 border border-emerald-200 text-emerald-800'
                   : notification.type === 'error'
                   ? 'bg-rose-50 border border-rose-200 text-rose-800'
-                  : 'bg-stone-100 border border-stone-200 text-stone-700'
+                  : 'bg-muted border border-border text-foreground'
               }`}
             >
               <div className="flex items-center space-x-2">
@@ -339,13 +339,13 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
                 ) : notification.type === 'error' ? (
                   <AlertCircle className="w-4 h-4 text-rose-600 shrink-0" />
                 ) : (
-                  <Activity className="w-4 h-4 text-stone-500 shrink-0" />
+                  <Activity className="w-4 h-4 text-muted-foreground shrink-0" />
                 )}
                 <span>{notification.message}</span>
               </div>
               <button
                 onClick={() => setNotification(null)}
-                className="text-stone-400 hover:text-stone-700 ml-2"
+                className="text-muted-foreground hover:text-foreground ml-2"
               >
                 &times;
               </button>
@@ -354,20 +354,20 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
 
           {/* Sync Progress Indicator */}
           {syncProgress && (
-            <div className="p-3 rounded-xl bg-stone-50 border border-stone-200 space-y-2">
-              <div className="flex items-center justify-between text-xs text-stone-700">
+            <div className="p-3 rounded-xl bg-muted/50 border border-border space-y-2">
+              <div className="flex items-center justify-between text-xs text-foreground">
                 <span className="flex items-center space-x-1.5">
                   <RefreshCw className="w-3.5 h-3.5 animate-spin text-indigo-600" />
                   <span>{syncProgress.text}</span>
                 </span>
                 {syncProgress.total > 0 && (
-                  <span className="font-mono text-stone-500">
+                  <span className="font-mono text-muted-foreground">
                     {syncProgress.current} / {syncProgress.total}
                   </span>
                 )}
               </div>
               {syncProgress.total > 0 && (
-                <div className="w-full bg-stone-200 h-1.5 rounded-full overflow-hidden">
+                <div className="w-full bg-muted h-1.5 rounded-full overflow-hidden">
                   <div
                     className="h-full bg-indigo-600 transition-all duration-200"
                     style={{
@@ -382,16 +382,16 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
           {/* Key Health Indicators Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
             {/* 1. Storage Usage & Quota */}
-            <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 space-y-2">
+            <div className="p-3.5 rounded-xl bg-muted/50 border border-border space-y-2">
               <div className="flex items-center justify-between">
-                <span className="text-[11px] font-semibold text-stone-700 flex items-center">
+                <span className="text-[11px] font-semibold text-foreground flex items-center">
                   <HardDrive className="w-3.5 h-3.5 mr-1.5 text-emerald-600" /> Storage Quota
                 </span>
                 <span
                   className={`text-[10px] px-2 py-0.5 rounded font-mono font-medium ${
                     diag?.storage.isPersisted
                       ? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
-                      : 'bg-stone-100 text-stone-600 border border-stone-200'
+                      : 'bg-muted text-muted-foreground border border-border'
                   }`}
                 >
                   {diag?.storage.isPersisted ? 'Persisted' : 'Best-effort'}
@@ -399,20 +399,20 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
               </div>
               <div>
                 <div className="flex items-baseline space-x-1.5">
-                  <span className="text-lg font-bold text-stone-900 font-mono">
+                  <span className="text-lg font-bold text-foreground font-mono">
                     {diag?.storage.usageFormatted || '0 B'}
                   </span>
-                  <span className="text-[11px] text-stone-500 font-mono">
+                  <span className="text-[11px] text-muted-foreground font-mono">
                     / {diag?.storage.quotaFormatted || 'Unknown'}
                   </span>
                 </div>
-                <div className="w-full bg-stone-200 h-1.5 rounded-full overflow-hidden mt-1.5">
+                <div className="w-full bg-muted h-1.5 rounded-full overflow-hidden mt-1.5">
                   <div
                     className="h-full bg-indigo-600"
                     style={{ width: `${Math.max(2, Math.min(100, diag?.storage.usagePercentage || 0))}%` }}
                   />
                 </div>
-                <div className="flex items-center justify-between text-[10px] text-stone-500 mt-1">
+                <div className="flex items-center justify-between text-[10px] text-muted-foreground mt-1">
                   <span>{diag?.storage.usagePercentage || 0}% used</span>
                   {!diag?.storage.isPersisted && diag?.storage.persistenceSupported && (
                     <button
@@ -428,9 +428,9 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
             </div>
 
             {/* 2. Total Cached Lesson Packs & Sync Status */}
-            <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 space-y-2">
+            <div className="p-3.5 rounded-xl bg-muted/50 border border-border space-y-2">
               <div className="flex items-center justify-between">
-                <span className="text-[11px] font-semibold text-stone-700 flex items-center">
+                <span className="text-[11px] font-semibold text-foreground flex items-center">
                   <BookOpen className="w-3.5 h-3.5 mr-1.5 text-indigo-600" /> Cached Lesson Packs
                 </span>
                 <span
@@ -447,20 +447,20 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
               </div>
               <div>
                 <div className="flex items-baseline space-x-1.5">
-                  <span className="text-lg font-bold text-stone-900 font-mono">
+                  <span className="text-lg font-bold text-foreground font-mono">
                     {diag?.cacheAndSync.cachedPacksCount ?? 0}
                   </span>
-                  <span className="text-[11px] text-stone-500 font-mono">
+                  <span className="text-[11px] text-muted-foreground font-mono">
                     / {diag?.cacheAndSync.totalPublishedPacks ?? 0} published
                   </span>
                 </div>
-                <div className="w-full bg-stone-200 h-1.5 rounded-full overflow-hidden mt-1.5">
+                <div className="w-full bg-muted h-1.5 rounded-full overflow-hidden mt-1.5">
                   <div
                     className="h-full bg-indigo-600"
                     style={{ width: `${diag?.cacheAndSync.syncPercentage || 0}%` }}
                   />
                 </div>
-                <div className="flex items-center justify-between text-[10px] text-stone-500 mt-1">
+                <div className="flex items-center justify-between text-[10px] text-muted-foreground mt-1">
                   <span>
                     {diag?.cacheAndSync.syncStatus === 'synced'
                       ? 'All packs offline ready'
@@ -480,9 +480,9 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
             </div>
 
             {/* 3. Pending Offline Actions Queue */}
-            <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 space-y-2">
+            <div className="p-3.5 rounded-xl bg-muted/50 border border-border space-y-2">
               <div className="flex items-center justify-between">
-                <span className="text-[11px] font-semibold text-stone-700 flex items-center">
+                <span className="text-[11px] font-semibold text-foreground flex items-center">
                   <Zap className="w-3.5 h-3.5 mr-1.5 text-amber-600" /> Pending Offline Queue
                 </span>
                 <span
@@ -497,17 +497,17 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
               </div>
               <div>
                 <div className="flex items-baseline space-x-1.5">
-                  <span className="text-lg font-bold text-stone-900 font-mono">
+                  <span className="text-lg font-bold text-foreground font-mono">
                     {diag?.pendingQueue.count ?? 0}
                   </span>
-                  <span className="text-[11px] text-stone-500">
+                  <span className="text-[11px] text-muted-foreground">
                     pending operations
                   </span>
                 </div>
-                <p className="text-[10px] text-stone-500 mt-1 line-clamp-1">
+                <p className="text-[10px] text-muted-foreground mt-1 line-clamp-1">
                   {diag?.cacheAndSync.isOnline ? 'Online · Live Sync Active' : 'Offline · Storing to Local Queue'}
                 </p>
-                <div className="flex items-center justify-between text-[10px] text-stone-500 mt-1">
+                <div className="flex items-center justify-between text-[10px] text-muted-foreground mt-1">
                   <span>
                     {(diag?.pendingQueue.count || 0) > 0 ? 'Awaiting cloud flush' : 'Zero lag'}
                   </span>
@@ -526,13 +526,13 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
           </div>
 
           {/* System Environment & Network Status Banner */}
-          <div className="flex flex-wrap items-center justify-between p-3 rounded-xl bg-stone-50 border border-stone-200 text-xs text-stone-600 gap-2">
+          <div className="flex flex-wrap items-center justify-between p-3 rounded-xl bg-muted/50 border border-border text-xs text-muted-foreground gap-2">
             <div className="flex items-center space-x-3">
               <span className="flex items-center space-x-1.5">
                 {diag?.cacheAndSync.isOnline ? (
                   <>
                     <Wifi className="w-3.5 h-3.5 text-emerald-600" />
-                    <span className="text-stone-800 font-medium">Network: Online</span>
+                    <span className="text-foreground font-medium">Network: Online</span>
                   </>
                 ) : (
                   <>
@@ -541,136 +541,136 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
                   </>
                 )}
               </span>
-              <span className="text-stone-300">|</span>
+              <span className="text-muted-foreground/40">|</span>
               <span className="flex items-center space-x-1.5">
                 {diag?.cacheAndSync.serviceWorkerActive ? (
                   <>
                     <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-                    <span className="text-stone-800 font-medium">PWA Service Worker: Active</span>
+                    <span className="text-foreground font-medium">PWA Service Worker: Active</span>
                   </>
                 ) : (
                   <>
-                    <ShieldAlert className="w-3.5 h-3.5 text-stone-500" />
-                    <span className="text-stone-600">PWA Service Worker: Registered</span>
+                    <ShieldAlert className="w-3.5 h-3.5 text-muted-foreground" />
+                    <span className="text-muted-foreground">PWA Service Worker: Registered</span>
                   </>
                 )}
               </span>
             </div>
 
-            <div className="flex items-center space-x-2 font-mono text-[11px] text-stone-500">
+            <div className="flex items-center space-x-2 font-mono text-[11px] text-muted-foreground">
               <span>Database: {diag?.dbStatus.name}</span>
             </div>
           </div>
 
           {/* IndexedDB Database Tables Inspection Grid */}
           <div className="space-y-2">
-            <h3 className="text-xs font-semibold text-stone-700 uppercase tracking-wider flex items-center">
+            <h3 className="text-xs font-semibold text-foreground uppercase tracking-wider flex items-center">
               <Archive className="w-3.5 h-3.5 mr-1.5 text-indigo-600" /> IndexedDB Table Inspection (Live Row Counts)
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-5 gap-2">
-              <div className="p-2.5 rounded-xl bg-stone-50 border border-stone-200">
-                <span className="text-[10px] text-stone-500 uppercase block font-semibold">SRS Flashcards</span>
-                <span className="text-base font-bold text-stone-900 font-mono">
+              <div className="p-2.5 rounded-xl bg-muted/50 border border-border">
+                <span className="text-[10px] text-muted-foreground uppercase block font-semibold">SRS Flashcards</span>
+                <span className="text-base font-bold text-foreground font-mono">
                   {diag?.tables.srsCards ?? 0}
                 </span>
-                <span className="text-[10px] text-stone-500 block">FSRS Interval Items</span>
+                <span className="text-[10px] text-muted-foreground block">FSRS Interval Items</span>
               </div>
-              <div className="p-2.5 rounded-xl bg-stone-50 border border-stone-200">
-                <span className="text-[10px] text-stone-500 uppercase block font-semibold">Mastery Records</span>
-                <span className="text-base font-bold text-stone-900 font-mono">
+              <div className="p-2.5 rounded-xl bg-muted/50 border border-border">
+                <span className="text-[10px] text-muted-foreground uppercase block font-semibold">Mastery Records</span>
+                <span className="text-base font-bold text-foreground font-mono">
                   {diag?.tables.masteryRecords ?? 0}
                 </span>
-                <span className="text-[10px] text-stone-500 block">Lesson Progress States</span>
+                <span className="text-[10px] text-muted-foreground block">Lesson Progress States</span>
               </div>
-              <div className="p-2.5 rounded-xl bg-stone-50 border border-stone-200">
-                <span className="text-[10px] text-stone-500 uppercase block font-semibold">Kana Records</span>
-                <span className="text-base font-bold text-stone-900 font-mono">
+              <div className="p-2.5 rounded-xl bg-muted/50 border border-border">
+                <span className="text-[10px] text-muted-foreground uppercase block font-semibold">Kana Records</span>
+                <span className="text-base font-bold text-foreground font-mono">
                   {diag?.tables.kanaRecords ?? 0}
                 </span>
-                <span className="text-[10px] text-stone-500 block">Hiragana / Katakana</span>
+                <span className="text-[10px] text-muted-foreground block">Hiragana / Katakana</span>
               </div>
-              <div className="p-2.5 rounded-xl bg-stone-50 border border-stone-200">
-                <span className="text-[10px] text-stone-500 uppercase block font-semibold">Review Logs</span>
-                <span className="text-base font-bold text-stone-900 font-mono">
+              <div className="p-2.5 rounded-xl bg-muted/50 border border-border">
+                <span className="text-[10px] text-muted-foreground uppercase block font-semibold">Review Logs</span>
+                <span className="text-base font-bold text-foreground font-mono">
                   {diag?.tables.reviewLogs ?? 0}
                 </span>
-                <span className="text-[10px] text-stone-500 block">Audit Trails</span>
+                <span className="text-[10px] text-muted-foreground block">Audit Trails</span>
               </div>
-              <div className="p-2.5 rounded-xl bg-stone-50 border border-stone-200">
-                <span className="text-[10px] text-stone-500 uppercase block font-semibold">Study Sessions</span>
-                <span className="text-base font-bold text-stone-900 font-mono">
+              <div className="p-2.5 rounded-xl bg-muted/50 border border-border">
+                <span className="text-[10px] text-muted-foreground uppercase block font-semibold">Study Sessions</span>
+                <span className="text-base font-bold text-foreground font-mono">
                   {diag?.tables.studySessions ?? 0}
                 </span>
-                <span className="text-[10px] text-stone-500 block">Completed Blocks</span>
+                <span className="text-[10px] text-muted-foreground block">Completed Blocks</span>
               </div>
-              <div className="p-2.5 rounded-xl bg-stone-50 border border-stone-200">
-                <span className="text-[10px] text-stone-500 uppercase block font-semibold">Study Events</span>
-                <span className="text-base font-bold text-stone-900 font-mono">
+              <div className="p-2.5 rounded-xl bg-muted/50 border border-border">
+                <span className="text-[10px] text-muted-foreground uppercase block font-semibold">Study Events</span>
+                <span className="text-base font-bold text-foreground font-mono">
                   {diag?.tables.studyEvents ?? 0}
                 </span>
-                <span className="text-[10px] text-stone-500 block">Telemetry Log</span>
+                <span className="text-[10px] text-muted-foreground block">Telemetry Log</span>
               </div>
-              <div className="p-2.5 rounded-xl bg-stone-50 border border-stone-200">
-                <span className="text-[10px] text-stone-500 uppercase block font-semibold">Mock Assessments</span>
-                <span className="text-base font-bold text-stone-900 font-mono">
+              <div className="p-2.5 rounded-xl bg-muted/50 border border-border">
+                <span className="text-[10px] text-muted-foreground uppercase block font-semibold">Mock Assessments</span>
+                <span className="text-base font-bold text-foreground font-mono">
                   {diag?.tables.assessments ?? 0}
                 </span>
-                <span className="text-[10px] text-stone-500 block">JLPT Readiness Tests</span>
+                <span className="text-[10px] text-muted-foreground block">JLPT Readiness Tests</span>
               </div>
-              <div className="p-2.5 rounded-xl bg-stone-50 border border-stone-200">
-                <span className="text-[10px] text-stone-500 uppercase block font-semibold">Cached Packs</span>
-                <span className="text-base font-bold text-stone-900 font-mono">
+              <div className="p-2.5 rounded-xl bg-muted/50 border border-border">
+                <span className="text-[10px] text-muted-foreground uppercase block font-semibold">Cached Packs</span>
+                <span className="text-base font-bold text-foreground font-mono">
                   {diag?.tables.cachedPacks ?? 0}
                 </span>
-                <span className="text-[10px] text-stone-500 block">Offline Content Packs</span>
+                <span className="text-[10px] text-muted-foreground block">Offline Content Packs</span>
               </div>
-              <div className="p-2.5 rounded-xl bg-stone-50 border border-stone-200">
-                <span className="text-[10px] text-stone-500 uppercase block font-semibold">Ghost Cards</span>
-                <span className="text-base font-bold text-stone-900 font-mono">
+              <div className="p-2.5 rounded-xl bg-muted/50 border border-border">
+                <span className="text-[10px] text-muted-foreground uppercase block font-semibold">Ghost Cards</span>
+                <span className="text-base font-bold text-foreground font-mono">
                   {diag?.tables.ghostCards ?? 0}
                 </span>
-                <span className="text-[10px] text-stone-500 block">Leech Remediation</span>
+                <span className="text-[10px] text-muted-foreground block">Leech Remediation</span>
               </div>
-              <div className="p-2.5 rounded-xl bg-stone-50 border border-stone-200">
-                <span className="text-[10px] text-stone-500 uppercase block font-semibold">Cram Drills</span>
-                <span className="text-base font-bold text-stone-900 font-mono">
+              <div className="p-2.5 rounded-xl bg-muted/50 border border-border">
+                <span className="text-[10px] text-muted-foreground uppercase block font-semibold">Cram Drills</span>
+                <span className="text-base font-bold text-foreground font-mono">
                   {diag?.tables.cramDrills ?? 0}
                 </span>
-                <span className="text-[10px] text-stone-500 block">Targeted Practice</span>
+                <span className="text-[10px] text-muted-foreground block">Targeted Practice</span>
               </div>
             </div>
           </div>
 
           {/* User Profile Inspection */}
-          <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 space-y-2">
+          <div className="p-3.5 rounded-xl bg-muted/50 border border-border space-y-2">
             <div className="flex items-center justify-between">
-              <span className="text-xs font-semibold text-stone-700 flex items-center">
+              <span className="text-xs font-semibold text-foreground flex items-center">
                 <UserCheck className="w-3.5 h-3.5 mr-1.5 text-indigo-600" /> User Profile State Inspection
               </span>
-              <span className="text-[10px] px-2 py-0.5 rounded bg-white border border-stone-200 text-stone-700 font-mono">
+              <span className="text-[10px] px-2 py-0.5 rounded bg-card border border-border text-foreground font-mono">
                 ID: current_user
               </span>
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
               <div>
-                <span className="text-[10px] text-stone-500 block">Learner Name</span>
-                <span className="font-semibold text-stone-900">{diag?.userProfile.name}</span>
+                <span className="text-[10px] text-muted-foreground block">Learner Name</span>
+                <span className="font-semibold text-foreground">{diag?.userProfile.name}</span>
               </div>
               <div>
-                <span className="text-[10px] text-stone-500 block">Target Level / Current Focus</span>
-                <span className="font-semibold text-stone-900 font-mono">
+                <span className="text-[10px] text-muted-foreground block">Target Level / Current Focus</span>
+                <span className="font-semibold text-foreground font-mono">
                   {diag?.userProfile.level} · {diag?.userProfile.currentLessonId}
                 </span>
               </div>
               <div>
-                <span className="text-[10px] text-stone-500 block">Daily Goal / Rollover</span>
-                <span className="font-semibold text-stone-900 font-mono">
+                <span className="text-[10px] text-muted-foreground block">Daily Goal / Rollover</span>
+                <span className="font-semibold text-foreground font-mono">
                   {diag?.userProfile.dailyTargetMinutes} min ({(diag?.userProfile.dailyTargetMinutes || 0) / 60}h)
                 </span>
               </div>
               <div>
-                <span className="text-[10px] text-stone-500 block">Target Retention</span>
-                <span className="font-semibold text-stone-900 font-mono">
+                <span className="text-[10px] text-muted-foreground block">Target Retention</span>
+                <span className="font-semibold text-foreground font-mono">
                   {Math.round((diag?.userProfile.targetRetention || 0.9) * 100)}%
                 </span>
               </div>
@@ -678,8 +678,8 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
           </div>
 
           {/* Action Operations Section */}
-          <div className="pt-2 border-t border-stone-200 space-y-2.5">
-            <h3 className="text-xs font-semibold text-stone-700 uppercase tracking-wider flex items-center">
+          <div className="pt-2 border-t border-border space-y-2.5">
+            <h3 className="text-xs font-semibold text-foreground uppercase tracking-wider flex items-center">
               <Sparkles className="w-3.5 h-3.5 mr-1.5 text-indigo-600" /> Database &amp; Storage Maintenance Operations
             </h3>
 
@@ -706,9 +706,9 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
                 <button
                   onClick={() => fileInputRef.current?.click()}
                   disabled={!!actionLoading}
-                  className="w-full flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-white hover:bg-stone-50 text-stone-700 border border-stone-300 rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-2xs disabled:opacity-50"
+                  className="w-full flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-card hover:bg-muted/50 text-foreground border border-border rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 shadow-2xs disabled:opacity-50"
                 >
-                  <Upload className="w-4 h-4 text-stone-500" />
+                  <Upload className="w-4 h-4 text-muted-foreground" />
                   <span>Import JSON Backup</span>
                 </button>
               </div>
@@ -717,7 +717,7 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
               <button
                 onClick={handleClearCacheAndResync}
                 disabled={!!actionLoading}
-                className="flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-white hover:bg-rose-50 hover:border-rose-300 hover:text-rose-700 text-stone-700 border border-stone-300 rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 disabled:opacity-50"
+                className="flex items-center justify-center space-x-2 px-3.5 py-2.5 bg-card hover:bg-rose-50 hover:border-rose-300 hover:text-rose-700 text-foreground border border-border rounded-xl text-xs font-medium transition cursor-pointer active:scale-95 disabled:opacity-50"
               >
                 <RefreshCw className={`w-4 h-4 ${actionLoading === 'resync' ? 'animate-spin text-indigo-600' : 'text-indigo-600'}`} />
                 <span>Clear Cache &amp; Re-sync</span>
@@ -728,18 +728,18 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
             <AnkiSyncManager className="mt-2.5" />
 
             {/* Anki Flashcard Deck Exporter Section */}
-            <div className="p-3.5 rounded-xl bg-stone-50 border border-stone-200 space-y-2.5 mt-2">
+            <div className="p-3.5 rounded-xl bg-muted/50 border border-border space-y-2.5 mt-2">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                 <div>
                   <div className="flex items-center space-x-2">
-                    <span className="text-xs font-semibold text-stone-900">
+                    <span className="text-xs font-semibold text-foreground">
                       Export to Anki (.tsv)
                     </span>
                     <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 font-mono">
                       8-Field Note Directives
                     </span>
                   </div>
-                  <p className="text-[11px] text-stone-600 mt-0.5">
+                  <p className="text-[11px] text-muted-foreground mt-0.5">
                     TSV format ready for direct import into Anki Desktop and AnkiMobile with full tags and formatting.
                   </p>
                 </div>
@@ -756,14 +756,14 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
 
               {/* Scope filter pills */}
               <div className="flex items-center gap-1.5 flex-wrap pt-0.5">
-                <span className="text-[10px] text-stone-500 font-mono uppercase">Scope:</span>
+                <span className="text-[10px] text-muted-foreground font-mono uppercase">Scope:</span>
                 <button
                   type="button"
                   onClick={() => setAnkiScope('all')}
                   className={`px-2 py-0.5 rounded-lg text-xs font-mono transition cursor-pointer ${
                     ankiScope === 'all'
                       ? 'bg-indigo-600 text-white font-semibold shadow-xs'
-                      : 'bg-white hover:bg-stone-100 text-stone-600 border border-stone-200'
+                      : 'bg-card hover:bg-muted text-muted-foreground border border-border'
                   }`}
                 >
                   All Cards ({diag?.tables.srsCards ?? 0})
@@ -774,7 +774,7 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
                   className={`px-2 py-0.5 rounded-lg text-xs font-mono transition cursor-pointer ${
                     ankiScope === 'mined'
                       ? 'bg-indigo-600 text-white font-semibold shadow-xs'
-                      : 'bg-white hover:bg-stone-100 text-stone-600 border border-stone-200'
+                      : 'bg-card hover:bg-muted text-muted-foreground border border-border'
                   }`}
                 >
                   Mined Cards Only
@@ -785,7 +785,7 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
                   className={`px-2 py-0.5 rounded-lg text-xs font-mono transition cursor-pointer ${
                     ankiScope === 'leeches'
                       ? 'bg-amber-600 text-white font-semibold shadow-xs'
-                      : 'bg-white hover:bg-stone-100 text-stone-600 border border-stone-200'
+                      : 'bg-card hover:bg-muted text-muted-foreground border border-border'
                   }`}
                 >
                   Quarantined Leeches Only
@@ -796,13 +796,13 @@ export const StorageDiagnosticsModal: React.FC<StorageDiagnosticsModalProps> = (
         </div>
 
         {/* Modal Footer */}
-        <div className="p-4 border-t border-stone-200 bg-stone-50 flex items-center justify-between text-xs text-stone-500">
-          <span className="text-[11px] text-stone-500">
+        <div className="p-4 border-t border-border bg-muted/50 flex items-center justify-between text-xs text-muted-foreground">
+          <span className="text-[11px] text-muted-foreground">
             Last Checked: {diag ? new Date(diag.timestamp).toLocaleTimeString() : 'Just now'}
           </span>
           <button
             onClick={onClose}
-            className="px-4 py-1.5 bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-300 rounded-lg text-xs font-medium transition cursor-pointer active:scale-95"
+            className="px-4 py-1.5 bg-muted hover:bg-muted text-foreground border border-border rounded-lg text-xs font-medium transition cursor-pointer active:scale-95"
           >
             Done
           </button>

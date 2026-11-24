@@ -1128,8 +1128,8 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
   return (
     <div className="max-w-4xl mx-auto space-y-6 pb-28 px-3 sm:px-4">
       {/* Stage Progress Bar & Navigation Header */}
-      <div className="bg-white border border-stone-200 rounded-3xl p-4 sm:p-5 shadow-sm space-y-3.5">
-        <div className="flex items-center justify-between text-xs text-stone-500">
+      <div className="bg-card border border-border rounded-3xl p-4 sm:p-5 shadow-sm space-y-3.5">
+        <div className="flex items-center justify-between text-xs text-muted-foreground">
           <button
             type="button"
             data-testid="lesson-player-exit-btn"
@@ -1140,7 +1140,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
               }
               onExit();
             }}
-            className="flex items-center space-x-1.5 text-stone-600 hover:text-stone-900 transition py-1 px-2.5 -ml-2 rounded-xl hover:bg-stone-100 cursor-pointer pointer-events-auto relative z-20"
+            className="flex items-center space-x-1.5 text-muted-foreground hover:text-foreground transition py-1 px-2.5 -ml-2 rounded-xl hover:bg-muted cursor-pointer pointer-events-auto relative z-20"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
             <span className="font-medium">ထွက်မည် (Exit)</span>
@@ -1150,7 +1150,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
             <span className="font-semibold text-indigo-600 font-mono text-xs sm:text-sm">
               အဆင့် {currentStage}/၁၅:
             </span>
-            <span className="text-stone-900 font-medium text-xs sm:text-sm truncate max-w-[180px] sm:max-w-none">
+            <span className="text-foreground font-medium text-xs sm:text-sm truncate max-w-[180px] sm:max-w-none">
               {STAGE_NAMES[currentStage - 1]}
             </span>
           </div>
@@ -1163,7 +1163,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
               className={`p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl border text-xs font-medium transition cursor-pointer flex items-center space-x-1 shadow-xs ${
                 isBookmarked
                   ? 'bg-amber-50 border-amber-300 text-amber-600 shadow-2xs font-semibold'
-                  : 'bg-white hover:bg-stone-50 border-stone-200 text-stone-500 hover:text-stone-800'
+                  : 'bg-card hover:bg-muted border-border text-muted-foreground hover:text-foreground'
               }`}
               title={isBookmarked ? 'Bookmarked lesson (★)' : 'Bookmark lesson (☆)'}
             >
@@ -1199,7 +1199,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
               whileTap={{ scale: 0.9 }}
               onClick={() => setCurrentStage((p) => Math.max(1, p - 1))}
               disabled={currentStage === 1}
-              className="p-1.5 rounded-lg bg-white hover:bg-stone-50 border border-stone-200 disabled:opacity-30 text-stone-700 transition cursor-pointer shadow-xs"
+              className="p-1.5 rounded-lg bg-card hover:bg-muted border border-border disabled:opacity-30 text-foreground transition cursor-pointer shadow-xs"
               title="Previous stage"
             >
               <ChevronLeft className="w-4 h-4" />
@@ -1208,7 +1208,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
               whileTap={{ scale: 0.9 }}
               onClick={() => setCurrentStage((p) => Math.min(15, p + 1))}
               disabled={currentStage === 15}
-              className="p-1.5 rounded-lg bg-white hover:bg-stone-50 border border-stone-200 disabled:opacity-30 text-stone-700 transition cursor-pointer shadow-xs"
+              className="p-1.5 rounded-lg bg-card hover:bg-muted border border-border disabled:opacity-30 text-foreground transition cursor-pointer shadow-xs"
               title="Next stage"
             >
               <ChevronRight className="w-4 h-4" />
@@ -1228,7 +1228,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
         />
 
         {/* Audio Toolbar: Multi-Speed TTS & Blind Listening Mode with Instant Controls */}
-        <div className="pt-2 border-t border-stone-100 flex flex-wrap items-center justify-between gap-2 text-xs">
+        <div className="pt-2 border-t border-border flex flex-wrap items-center justify-between gap-2 text-xs">
           {/* Action Controls & Mode Toggles */}
           <div className="flex items-center flex-wrap gap-1.5">
             {/* Blind Listening Mode Toggle */}
@@ -1239,7 +1239,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
               className={`px-3 py-1.5 rounded-xl border font-medium flex items-center space-x-1.5 transition cursor-pointer font-myanmar ${
                 blindListeningMode
                   ? 'bg-purple-600 text-white border-purple-600 shadow-xs'
-                  : 'bg-stone-50 hover:bg-stone-100 text-stone-700 border-stone-200'
+                  : 'bg-muted/50 hover:bg-muted text-foreground border-border'
               }`}
               title="Blind Listening Mode: Blurs/hides Japanese and Burmese text until audio completes or clicked"
             >
@@ -1260,13 +1260,13 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
               className={`px-3 py-1.5 rounded-xl border font-medium flex items-center space-x-1.5 transition cursor-pointer font-myanmar ${
                 isSpeakingTts && !isLooping3x
                   ? 'bg-indigo-600 text-white border-indigo-600 shadow-xs animate-pulse'
-                  : 'bg-stone-50 hover:bg-stone-100 text-stone-700 border-stone-200 hover:border-stone-300'
+                  : 'bg-muted/50 hover:bg-muted text-foreground border-border hover:border-border/80'
               }`}
               title="🔊 Play Japanese Audio for current stage (Keyboard shortcut: R)"
             >
               <span>🔊</span>
               <span>အသံနားထောင်မည် (Play)</span>
-              <kbd className="hidden sm:inline-block ml-1 px-1.5 py-0.2 rounded bg-stone-200/80 dark:bg-stone-700 text-stone-700 dark:text-stone-200 font-mono text-[10px]">
+              <kbd className="hidden sm:inline-block ml-1 px-1.5 py-0.2 rounded bg-muted text-foreground font-mono text-[10px]">
                 R
               </kbd>
             </motion.button>
@@ -1279,7 +1279,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
               className={`px-3 py-1.5 rounded-xl border font-medium flex items-center space-x-1.5 transition cursor-pointer font-myanmar ${
                 isLooping3x
                   ? 'bg-emerald-600 text-white border-emerald-600 shadow-xs animate-pulse'
-                  : 'bg-stone-50 hover:bg-stone-100 text-stone-700 border-stone-200 hover:border-stone-300'
+                  : 'bg-muted/50 hover:bg-muted text-foreground border-border hover:border-border/80'
               }`}
               title="🔁 3x Loop: Plays Japanese text 3 times with a 1200ms pause between repetitions"
             >
@@ -1289,8 +1289,8 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
           </div>
 
           {/* Speed Presets */}
-          <div className="flex items-center space-x-1 bg-stone-50 px-2 py-1 rounded-xl border border-stone-200">
-            <span className="text-[10px] text-stone-500 font-mono mr-1">Speed:</span>
+          <div className="flex items-center space-x-1 bg-muted/50 px-2 py-1 rounded-xl border border-border">
+            <span className="text-[10px] text-muted-foreground font-mono mr-1">Speed:</span>
             {TTS_SPEED_PRESETS.map((preset) => (
               <button
                 key={preset.rate}
@@ -1299,7 +1299,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                 className={`px-2 py-0.5 rounded-lg text-[11px] transition cursor-pointer font-myanmar ${
                   playbackRate === preset.rate
                     ? 'bg-indigo-600 text-white font-bold shadow-2xs'
-                    : 'text-stone-600 hover:text-stone-900 hover:bg-stone-200'
+                    : 'text-muted-foreground hover:text-foreground hover:bg-muted'
                 }`}
                 title={preset.labelBurmese}
               >
@@ -1333,22 +1333,22 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
         >
           {/* STAGE 1: INTRODUCTION & CAN-DO GOALS */}
           {currentStage === 1 && (
-            <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
+            <div className="bg-card border border-border rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
               <div className="space-y-2">
                 <span className="text-xs uppercase font-mono tracking-wider text-indigo-700 font-semibold px-2.5 py-1 rounded-full bg-indigo-50 border border-indigo-200 inline-block">
                   အဆင့် ၁ • ရည်မှန်းချက်များ (Can-Do Goals)
                 </span>
-                <h2 className="text-2xl sm:text-3xl font-bold text-stone-900 tracking-tight">
+                <h2 className="text-2xl sm:text-3xl font-bold text-foreground tracking-tight">
                   {pack.titleMyanmar || (pack as any).titleMy || pack.title}
                 </h2>
-                <p className="text-sm text-stone-600 leading-relaxed font-myanmar">{pack.descriptionMy || pack.description}</p>
+                <p className="text-sm text-muted-foreground leading-relaxed font-myanmar">{pack.descriptionMy || pack.description}</p>
               </div>
 
-              <div className="bg-stone-50 border border-stone-200 rounded-2xl p-5 space-y-3.5">
-                <h3 className="text-sm font-semibold text-stone-800 flex items-center">
+              <div className="bg-muted/50 border border-border rounded-2xl p-5 space-y-3.5">
+                <h3 className="text-sm font-semibold text-foreground flex items-center">
                   <Award className="w-4 h-4 mr-2 text-indigo-600" /> သင်ခန်းစာ ရည်မှန်းချက်များ
                 </h3>
-                <ul className="space-y-2.5 text-xs text-stone-700">
+                <ul className="space-y-2.5 text-xs text-foreground">
                   <li className="flex items-start space-x-2.5">
                     <Check className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
                     <span>အဓိက ဝေါဟာရများနှင့် လက်တွေ့အသုံးအနှုန်းများကို ကျွမ်းကျင်စွာ တတ်မြောက်စေရန်။</span>
@@ -1385,23 +1385,23 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
           {/* STAGE 2: VOCABULARY */}
           {currentStage === 2 && (
-            <div ref={vocabContainerRef} className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
+            <div ref={vocabContainerRef} className="bg-card border border-border rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
               <div className="flex items-center justify-between flex-wrap gap-2">
                 <div>
                   <span className="text-xs uppercase font-mono tracking-wider text-indigo-700 font-semibold">
                     အဆင့် ၂ • အဓိက ဝေါဟာရများ (Vocabulary)
                   </span>
-                  <h2 className="text-xl font-bold text-stone-900 font-mono">
+                  <h2 className="text-xl font-bold text-foreground font-mono">
                     ဝေါဟာရ {vocabIndex + 1} / {pack.vocabularies.length}
                     {vocabChunks.length > 1 && (
-                      <span className="text-xs font-normal text-stone-500 ml-2">
+                      <span className="text-xs font-normal text-muted-foreground ml-2">
                         (Part {activePartIndex + 1} of {vocabChunks.length})
                       </span>
                     )}
                   </h2>
                 </div>
-                <div className="flex items-center space-x-1.5 bg-stone-50 dark:bg-stone-900/60 px-2.5 py-1 rounded-xl border border-stone-200 dark:border-stone-800 shrink-0">
-                  <span className="text-xs text-stone-600 dark:text-stone-400 font-myanmar whitespace-nowrap mr-1">အမြန်နှုန်း:</span>
+                <div className="flex items-center space-x-1.5 bg-muted px-2.5 py-1 rounded-xl border border-border  shrink-0">
+                  <span className="text-xs text-muted-foreground font-myanmar whitespace-nowrap mr-1">အမြန်နှုန်း:</span>
                   {[0.75, 1.0, 1.25, 1.5].map((spd) => (
                     <button
                       key={spd}
@@ -1410,7 +1410,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                       className={`px-2 py-0.5 rounded-lg text-xs font-mono transition cursor-pointer ${
                         playbackRate === spd
                           ? 'bg-indigo-600 text-white font-bold shadow-xs'
-                          : 'bg-white dark:bg-stone-800 text-stone-600 dark:text-stone-300 hover:text-stone-900 dark:hover:text-white hover:bg-stone-100 dark:hover:bg-stone-700 border border-stone-200 dark:border-stone-700'
+                          : 'bg-card text-muted-foreground hover:text-foreground hover:bg-muted border border-border'
                       }`}
                     >
                       {spd}x
@@ -1421,9 +1421,9 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
               {/* Sub-Batch Navigation Header / Tab Bar (Visible when total vocabulary > 15) */}
               {vocabChunks.length > 1 && (
-                <div className="sticky top-0 z-20 bg-stone-100 dark:bg-zinc-900 backdrop-blur-xl border border-stone-200 dark:border-zinc-800 rounded-2xl p-2.5 shadow-sm flex items-center justify-between gap-2 overflow-x-auto">
+                <div className="sticky top-0 z-20 bg-muted backdrop-blur-xl border border-border  rounded-2xl p-2.5 shadow-sm flex items-center justify-between gap-2 overflow-x-auto">
                   <div className="flex items-center space-x-2 shrink-0">
-                    <span className="text-xs uppercase font-mono text-stone-500 dark:text-zinc-400 font-semibold px-2">
+                    <span className="text-xs uppercase font-mono text-muted-foreground font-semibold px-2">
                       Batch:
                     </span>
                     {vocabChunks.map((chunk: VocabularyChunk, idx: number) => (
@@ -1440,19 +1440,19 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                         className={`px-3 py-1.5 rounded-xl text-xs font-mono font-medium transition cursor-pointer flex items-center gap-1.5 ${
                           activePartIndex === idx
                             ? 'bg-indigo-600 text-white font-bold shadow-xs border border-indigo-600'
-                            : 'bg-white dark:bg-zinc-800 text-stone-700 dark:text-zinc-200 hover:text-stone-900 dark:hover:text-white hover:bg-stone-50 dark:hover:bg-zinc-700 border border-stone-200 dark:border-zinc-700'
+                            : 'bg-card text-foreground hover:text-foreground hover:bg-muted border border-border'
                         }`}
                       >
                         <span>{formatPartBadge(chunk.partNumber, chunk.startIndex, chunk.endIndex)}</span>
                         <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
-                          activePartIndex === idx ? 'bg-indigo-700 text-white' : 'bg-stone-200 dark:bg-zinc-700 text-stone-600 dark:text-zinc-300'
+                          activePartIndex === idx ? 'bg-indigo-700 text-white' : 'bg-muted text-muted-foreground'
                         }`}>
                           {chunk.itemCount}
                         </span>
                       </button>
                     ))}
                   </div>
-                  <span className="text-xs text-stone-500 dark:text-zinc-400 font-mono hidden sm:inline shrink-0 pr-2">
+                  <span className="text-xs text-muted-foreground font-mono hidden sm:inline shrink-0 pr-2">
                     {pack.vocabularies.length} Total Words
                   </span>
                 </div>
@@ -1469,7 +1469,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                       animate={{ opacity: 1, x: 0 }}
                       exit={{ opacity: 0, x: -20 }}
                       transition={{ duration: 0.2 }}
-                      className="bg-stone-50 border border-stone-200 rounded-3xl p-6 sm:p-8 text-center space-y-4"
+                      className="bg-muted/50 border border-border rounded-3xl p-6 sm:p-8 text-center space-y-4"
                     >
                       {/* Blind Mode Reveal Trigger / Indicator */}
                       {blindListeningMode && !blindRevealed && (
@@ -1503,7 +1503,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                           kana={v.kana}
                           furiganaMode={maskState.hideFurigana && !revealedItems[v.id]?.furigana ? 'never' : 'always'}
                           showRomaji={profile.showRomaji}
-                          className="text-4xl sm:text-5xl font-bold font-japanese text-stone-900 dark:text-zinc-100"
+                          className="text-4xl sm:text-5xl font-bold font-japanese text-foreground"
                         />
                         {v.ja !== v.kana && (
                           <span
@@ -1564,7 +1564,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                         >
                           <Volume2 className="w-4 h-4" />
                           <span>{isPlaying && (currentPlayingText === v.ja || currentPlayingText === v.kana) ? 'ဖွင့်နေသည်...' : 'နားထောင်မည်'}</span>
-                          <kbd className="ml-1 text-[10px] px-1.5 py-0.5 rounded bg-white border border-indigo-300 font-mono text-indigo-800">
+                          <kbd className="ml-1 text-[10px] px-1.5 py-0.5 rounded bg-card border border-indigo-300 font-mono text-indigo-800">
                             {getDisplayBadge('PLAY_AUDIO')}
                           </kbd>
                         </motion.button>
@@ -1596,7 +1596,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                         </motion.button>
 
                         {(replayCount[v.ja] || replayCount[v.kana]) && (
-                          <span className="text-[11px] text-stone-500 font-mono">
+                          <span className="text-[11px] text-muted-foreground font-mono">
                             ဖွင့်ပြီး: {replayCount[v.ja] || replayCount[v.kana]} ကြိမ်
                           </span>
                         )}
@@ -1607,20 +1607,20 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                           if (blindListeningMode && !blindRevealed) setBlindRevealed(true);
                           if (maskState.hideBurmese) toggleRevealItem(v.id, 'burmese');
                         }}
-                        className={`pt-3 border-t border-stone-200 space-y-1.5 transition duration-300 ${
+                        className={`pt-3 border-t border-border space-y-1.5 transition duration-300 ${
                           (blindListeningMode && !blindRevealed) || (maskState.hideBurmese && !revealedItems[v.id]?.burmese)
                             ? 'filter blur-md select-none cursor-pointer'
                             : ''
                         }`}
                         title={maskState.hideBurmese && !revealedItems[v.id]?.burmese ? 'Tap to reveal Burmese meaning' : undefined}
                       >
-                        <p className="text-xl font-bold text-stone-900 font-myanmar">
+                        <p className="text-xl font-bold text-foreground font-myanmar">
                           {v.meaningMyanmar || v.my || v.meaningMy || v.en}
                         </p>
                         {v.en && (v.meaningMyanmar || v.my) && (
-                          <p className="text-xs text-stone-600">{v.en}</p>
+                          <p className="text-xs text-muted-foreground">{v.en}</p>
                         )}
-                        <span className="inline-block text-[10px] text-stone-500 uppercase tracking-wider font-mono">
+                        <span className="inline-block text-[10px] text-muted-foreground uppercase tracking-wider font-mono">
                           စကားပြောအပိုင်း: {v.pos}
                         </span>
                       </div>
@@ -1640,10 +1640,10 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                     setActivePartIndex(Math.floor(prev / 15));
                   }}
                   disabled={vocabIndex === 0}
-                  className="px-4 py-2.5 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 disabled:opacity-30 text-stone-700 text-xs font-medium transition cursor-pointer flex items-center gap-1.5 shadow-xs"
+                  className="px-4 py-2.5 rounded-xl bg-card hover:bg-muted border border-border disabled:opacity-30 text-foreground text-xs font-medium transition cursor-pointer flex items-center gap-1.5 shadow-xs"
                   title="ရှေ့ဝေါဟာရ [←]"
                 >
-                  <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200 font-mono text-stone-600">
+                  <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-muted border border-border font-mono text-muted-foreground">
                     {getDisplayBadge('PREV_ITEM')}
                   </kbd>
                   <span>ရှေ့ဝေါဟာရ</span>
@@ -1685,13 +1685,13 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
           {/* STAGE 3: KANJI IN CONTEXT */}
           {currentStage === 3 && (
-            <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
+            <div className="bg-card border border-border rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
               <div className="space-y-1">
                 <span className="text-xs uppercase font-mono tracking-wider text-indigo-700 font-semibold">
                   အဆင့် ၃ • အကြောင်းအရာနှင့် ကန်ဂျီ (Kanji)
                 </span>
-                <h2 className="text-xl font-bold text-stone-900">အခြေခံ ကန်ဂျီစာလုံးများ</h2>
-                <p className="text-xs text-stone-600">
+                <h2 className="text-xl font-bold text-foreground">အခြေခံ ကန်ဂျီစာလုံးများ</h2>
+                <p className="text-xs text-muted-foreground">
                   ကန်ဂျီကို သီးသန့်မဟုတ်ဘဲ စကားလုံးတွဲများနှင့် အတူတကွ လက်တွေ့လေ့လာပါမည်။
                 </p>
               </div>
@@ -1701,40 +1701,40 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                   <motion.div
                     key={k.id}
                     whileHover={{ y: -3 }}
-                    className="bg-stone-50 border border-stone-200 hover:border-stone-300 rounded-2xl p-5 space-y-3.5 transition shadow-xs"
+                    className="bg-muted/50 border border-border hover:border-border/80 rounded-2xl p-5 space-y-3.5 transition shadow-xs"
                   >
                     <div className="text-center">
                       <div className="text-5xl font-bold font-japanese text-indigo-600 mb-1">
                         {k.char}
                       </div>
-                      <div className="text-sm font-semibold text-stone-900 font-myanmar">
+                      <div className="text-sm font-semibold text-foreground font-myanmar">
                         {k.meaningMyanmar || k.meaningMy || k.meaning}
                       </div>
-                      <div className="text-[11px] text-stone-500 font-mono">ဆွဲချက်: {k.strokes} ချက်</div>
+                      <div className="text-[11px] text-muted-foreground font-mono">ဆွဲချက်: {k.strokes} ချက်</div>
                     </div>
 
-                    <div className="border-t border-stone-200 pt-2.5 text-xs space-y-1">
+                    <div className="border-t border-border pt-2.5 text-xs space-y-1">
                       <div>
-                        <span className="text-stone-500">အွန်းယောမိ (Onyomi): </span>
-                        <span className="font-japanese text-stone-800">{k.onyomi.join(', ')}</span>
+                        <span className="text-muted-foreground">အွန်းယောမိ (Onyomi): </span>
+                        <span className="font-japanese text-foreground">{k.onyomi.join(', ')}</span>
                       </div>
                       <div>
-                        <span className="text-stone-500">ကွန်းယောမိ (Kunyomi): </span>
-                        <span className="font-japanese text-stone-800">{k.kunyomi.join(', ')}</span>
+                        <span className="text-muted-foreground">ကွန်းယောမိ (Kunyomi): </span>
+                        <span className="font-japanese text-foreground">{k.kunyomi.join(', ')}</span>
                       </div>
                     </div>
 
-                    <div className="border-t border-stone-200 pt-2.5 space-y-1.5">
-                      <span className="text-[10px] text-stone-500 uppercase font-semibold">
+                    <div className="border-t border-border pt-2.5 space-y-1.5">
+                      <span className="text-[10px] text-muted-foreground uppercase font-semibold">
                         စကားလုံးတွဲ အသုံးအနှုန်းများ:
                       </span>
                       {k.exampleVocab.map((ev, i) => (
                         <div
                           key={i}
-                          className="text-xs flex justify-between items-baseline bg-white px-2.5 py-1.5 rounded-lg border border-stone-200"
+                          className="text-xs flex justify-between items-baseline bg-card px-2.5 py-1.5 rounded-lg border border-border"
                         >
-                          <span className="font-japanese text-stone-900 font-medium">{ev.word}</span>
-                          <span className="text-stone-600 text-[11px] font-myanmar">
+                          <span className="font-japanese text-foreground font-medium">{ev.word}</span>
+                          <span className="text-muted-foreground text-[11px] font-myanmar">
                             {ev.meaningMyanmar || ev.meaningMy || ev.meaning}
                           </span>
                         </div>
@@ -1761,33 +1761,33 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
           {/* STAGE 4: GRAMMAR */}
           {currentStage === 4 && (
-            <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
+            <div className="bg-card border border-border rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
               <div className="space-y-1">
                 <span className="text-xs uppercase font-mono tracking-wider text-indigo-700 font-semibold">
                   အဆင့် ၄ • သဒ္ဒါပုံစံများ (Grammar)
                 </span>
-                <h2 className="text-xl font-bold text-stone-900">အဓိက သဒ္ဒါပုံစံများ</h2>
+                <h2 className="text-xl font-bold text-foreground">အဓိက သဒ္ဒါပုံစံများ</h2>
               </div>
 
               <div className="space-y-4">
                 {pack.grammars.map((g) => (
                   <div
                     key={g.id}
-                    className="bg-stone-50 border border-stone-200 rounded-2xl p-5 space-y-3.5"
+                    className="bg-muted/50 border border-border rounded-2xl p-5 space-y-3.5"
                   >
                     <div className="flex items-center justify-between">
                       <h3 className="text-lg font-bold font-japanese text-indigo-700">{g.pattern}</h3>
-                      <span className="text-xs text-stone-600 font-myanmar">
+                      <span className="text-xs text-muted-foreground font-myanmar">
                         {g.meaningMyanmar || g.meaningMy || g.meaning}
                       </span>
                     </div>
 
-                    <div className="bg-white p-3 rounded-xl border border-stone-200 text-xs font-mono text-stone-800">
-                      <span className="text-stone-500">ဝါကျတည်ဆောက်ပုံ: </span>
+                    <div className="bg-card p-3 rounded-xl border border-border text-xs font-mono text-foreground">
+                      <span className="text-muted-foreground">ဝါကျတည်ဆောက်ပုံ: </span>
                       {g.formation}
                     </div>
 
-                    <p className="text-xs text-stone-700 font-myanmar leading-relaxed">
+                    <p className="text-xs text-foreground font-myanmar leading-relaxed">
                       {g.explanation.my || g.explanationMy || g.explanation.en}
                     </p>
                     {g.nuanceExplanationMy && (
@@ -1833,7 +1833,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
                     <div className="space-y-3">
                       {matchingTraps.slice(0, 2).map((m) => (
-                        <div key={m.id} className="bg-white border border-amber-200 rounded-xl p-3.5 space-y-2">
+                        <div key={m.id} className="bg-card border border-amber-200 rounded-xl p-3.5 space-y-2">
                           <div className="flex flex-wrap items-center gap-2">
                             <span className="text-xs font-bold font-japanese text-rose-700 bg-rose-50 px-2 py-0.5 rounded border border-rose-200 line-through">
                               {m.incorrect}
@@ -1842,10 +1842,10 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                               {m.correct}
                             </span>
                           </div>
-                          <p className="text-xs text-stone-800 font-myanmar leading-relaxed">
+                          <p className="text-xs text-foreground font-myanmar leading-relaxed">
                             {m.warningBurmese}
                           </p>
-                          <p className="text-[11px] text-stone-600 font-myanmar leading-relaxed">
+                          <p className="text-[11px] text-muted-foreground font-myanmar leading-relaxed">
                             {m.detailedExplanationMy}
                           </p>
                         </div>
@@ -1872,12 +1872,12 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
           {/* STAGE 5: EXAMPLE SENTENCES */}
           {currentStage === 5 && (
-            <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
+            <div className="bg-card border border-border rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
               <div className="space-y-1">
                 <span className="text-xs uppercase font-mono tracking-wider text-indigo-700 font-semibold">
                   အဆင့် ၅ • နမူနာဝါကျများ (Sentences)
                 </span>
-                <h2 className="text-xl font-bold text-stone-900">ဝါကျတွင်း လက်တွေ့အသုံးများ</h2>
+                <h2 className="text-xl font-bold text-foreground">ဝါကျတွင်း လက်တွေ့အသုံးများ</h2>
               </div>
 
               {/* Blind Mode Notice in Stage 5 */}
@@ -1902,7 +1902,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                   <motion.div
                     key={s.id}
                     whileHover={{ scale: 1.005 }}
-                    className="bg-stone-50 border border-stone-200 hover:border-stone-300 rounded-2xl p-4 flex items-center justify-between gap-4 transition shadow-xs"
+                    className="bg-muted/50 border border-border hover:border-border/80 rounded-2xl p-4 flex items-center justify-between gap-4 transition shadow-xs"
                   >
                     <div
                       onClick={() => {
@@ -1917,7 +1917,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                             toggleRevealItem(s.id, 'kanji');
                           }
                         }}
-                        className={`text-base font-japanese font-medium text-stone-900 transition duration-300 ${
+                        className={`text-base font-japanese font-medium text-foreground transition duration-300 ${
                           (blindListeningMode && !blindRevealed) || (maskState.hideKanji && !revealedItems[s.id]?.kanji)
                             ? 'filter blur-md select-none cursor-pointer'
                             : ''
@@ -1933,7 +1933,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                             toggleRevealItem(s.id, 'burmese');
                           }
                         }}
-                        className={`text-xs text-stone-700 font-myanmar transition duration-300 ${
+                        className={`text-xs text-foreground font-myanmar transition duration-300 ${
                           (blindListeningMode && !blindRevealed) || (maskState.hideBurmese && !revealedItems[s.id]?.burmese)
                             ? 'filter blur-md select-none cursor-pointer'
                             : ''
@@ -1943,7 +1943,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                         {s.translation.my || s.translationMy || s.translation.en}
                       </div>
                       {s.translation.en && (s.translation.my || s.translationMy) && (
-                        <div className="text-[11px] text-stone-500">{s.translation.en}</div>
+                        <div className="text-[11px] text-muted-foreground">{s.translation.en}</div>
                       )}
                     </div>
 
@@ -1961,7 +1961,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                         className={`p-3 rounded-xl transition shrink-0 ${
                           isPlaying && currentPlayingText === s.ja
                             ? 'bg-indigo-600 text-white ring-2 ring-indigo-500/50 shadow-sm animate-pulse'
-                            : 'bg-white hover:bg-stone-100 text-stone-700 border border-stone-200'
+                            : 'bg-card hover:bg-muted text-foreground border border-border'
                         }`}
                         aria-label="Play sentence audio"
                       >
@@ -2029,7 +2029,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                     setCurrentStage(7);
                     setExerciseIndex(0);
                   }}
-                  className="px-4 py-2 rounded-xl bg-white border border-stone-200 text-stone-600 hover:text-stone-900 hover:bg-stone-50 text-xs font-semibold flex items-center gap-1.5 transition cursor-pointer shadow-xs"
+                  className="px-4 py-2 rounded-xl bg-card border border-border text-muted-foreground hover:text-foreground hover:bg-muted text-xs font-semibold flex items-center gap-1.5 transition cursor-pointer shadow-xs"
                 >
                   <ArrowLeft className="w-4 h-4" />
                   <span>အဆင့် ၇: အလွတ်ပြန်လည်မှတ်မိခြင်း (Active Recall)</span>
@@ -2051,9 +2051,9 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
           {/* STAGES 6, 7, 9, 11, 13: EXERCISE RUNNER */}
           {[6, 7, 9, 11, 13].includes(currentStage) && (
-            <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
+            <div className="bg-card border border-border rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm">
               {/* Header */}
-              <div className="flex items-center justify-between border-b border-stone-200 pb-4">
+              <div className="flex items-center justify-between border-b border-border pb-4">
                 <div>
                   <span className="text-xs uppercase font-mono tracking-wider text-indigo-700 font-semibold block">
                     {currentStage === 6 && 'အဆင့် ၆ • လမ်းညွှန် လေ့ကျင့်ခန်း (Guided Practice)'}
@@ -2062,7 +2062,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                     {currentStage === 11 && 'အဆင့် ၁၁ • ကျွမ်းကျင်မှု စစ်ဆေးမေးခွန်းများ (Mastery Questions)'}
                     {currentStage === 13 && 'အဆင့် ၁၃ • တရားဝင် သင်ခန်းစာ စာမေးပွဲ (Mastery Test • အချိန်ကန့်သတ်)'}
                   </span>
-                  <h2 className="text-base font-bold text-stone-900 mt-0.5">
+                  <h2 className="text-base font-bold text-foreground mt-0.5">
                     မေးခွန်း {exerciseIndex + 1}
                   </h2>
                 </div>
@@ -2075,8 +2075,8 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
               {/* Listening audio control if Stage 9 */}
               {currentStage === 9 && (
-                <div className="bg-stone-50 border border-stone-200 rounded-2xl p-5 text-center space-y-3 mb-4">
-                  <span className="text-[10px] text-stone-500 uppercase font-mono block">
+                <div className="bg-muted/50 border border-border rounded-2xl p-5 text-center space-y-3 mb-4">
+                  <span className="text-[10px] text-muted-foreground uppercase font-mono block">
                     စကားပြောခန်း: {pack.listening.titleMy || pack.listening.title}
                   </span>
                   <div className="flex flex-wrap items-center justify-center gap-2.5">
@@ -2137,9 +2137,9 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                     <motion.div
                       initial={{ opacity: 0, height: 0 }}
                       animate={{ opacity: 1, height: 'auto' }}
-                      className="mt-4 pt-3 border-t border-stone-200 text-left text-xs font-japanese text-stone-800 whitespace-pre-line bg-white p-4 rounded-xl border border-stone-200 shadow-xs"
+                      className="mt-4 pt-3 border-t border-border text-left text-xs font-japanese text-foreground whitespace-pre-line bg-card p-4 rounded-xl border border-border shadow-xs"
                     >
-                      <span className="text-[10px] text-stone-500 uppercase font-mono block mb-1 font-sans">
+                      <span className="text-[10px] text-muted-foreground uppercase font-mono block mb-1 font-sans">
                         စကားပြောစာသား (ဖွင့်ပြထားသည်):
                       </span>
                       {pack.listening.transcript}
@@ -2154,7 +2154,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                 if (!q) {
                   return (
                     <div className="text-center py-8 space-y-3">
-                      <p className="text-stone-500 text-xs">အဆင့်ပြီးဆုံးပါပြီ — နောက်ထပ်မေးခွန်း မရှိတော့ပါ။</p>
+                      <p className="text-muted-foreground text-xs">အဆင့်ပြီးဆုံးပါပြီ — နောက်ထပ်မေးခွန်း မရှိတော့ပါ။</p>
                       <motion.button
                         whileHover={{ scale: 1.02 }}
                         whileTap={{ scale: 0.98 }}
@@ -2169,13 +2169,13 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
                 return (
                   <div className="space-y-4">
-                    <div className="text-base font-semibold text-stone-900 flex items-start justify-between">
+                    <div className="text-base font-semibold text-foreground flex items-start justify-between">
                       <div className="space-y-1">
                         <span className="leading-snug font-myanmar block">
                           {q.promptMy || q.questionMy || q.prompt}
                         </span>
                         {q.promptMy && q.prompt !== q.promptMy && (
-                          <span className="text-xs text-stone-500 font-japanese block">
+                          <span className="text-xs text-muted-foreground font-japanese block">
                             {q.prompt}
                           </span>
                         )}
@@ -2201,12 +2201,12 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                           className={`p-2 rounded-xl transition ml-3 shrink-0 cursor-pointer flex items-center gap-1.5 ${
                             isPlaying && (currentPlayingText === q.prompt || (q.explanation && currentPlayingText === q.explanation))
                               ? 'bg-indigo-600 text-white ring-2 ring-indigo-500/50 shadow-sm animate-pulse'
-                              : 'bg-white hover:bg-stone-100 border border-stone-200 text-stone-700 shadow-xs'
+                              : 'bg-card hover:bg-muted border border-border text-foreground shadow-xs'
                           }`}
                           title="Play question audio [Space]"
                         >
                           <Volume2 className="w-4 h-4" />
-                          <kbd className="text-[10px] px-1 rounded bg-stone-100 border border-stone-200 font-mono text-stone-600">
+                          <kbd className="text-[10px] px-1 rounded bg-muted border border-border font-mono text-muted-foreground">
                             {getDisplayBadge('PLAY_AUDIO')}
                           </kbd>
                         </motion.button>
@@ -2228,11 +2228,11 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                               className={`p-3.5 rounded-2xl border text-left text-xs font-medium transition flex items-center justify-between cursor-pointer ${
                                 isSelected
                                   ? 'bg-indigo-50 border-indigo-300 text-indigo-900 dark:text-indigo-200 ring-1 ring-indigo-500 shadow-xs'
-                                  : 'bg-stone-50 border-stone-200 text-stone-800 hover:bg-white hover:border-stone-300 shadow-xs'
+                                  : 'bg-muted/50 border-border text-foreground hover:bg-card hover:border-border/80 shadow-xs'
                               }`}
                             >
                               <span className="flex items-center">
-                                <kbd className="w-5 h-5 rounded-md bg-white border border-stone-200 text-stone-600 text-[10px] flex items-center justify-center mr-2.5 font-mono shadow-xs">
+                                <kbd className="w-5 h-5 rounded-md bg-card border border-border text-muted-foreground text-[10px] flex items-center justify-center mr-2.5 font-mono shadow-xs">
                                   {i + 1}
                                 </kbd>
                                 <span className="font-japanese text-sm">{opt.text}</span>
@@ -2251,9 +2251,9 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                           placeholder="ဂျပန်ဘာသာဖြင့် ရိုက်ထည့်ပါ (Romaji ရိုက်လျှင် Kana သို့ ပြောင်းလဲပေးပါမည်)..."
                           disabled={Boolean(feedback)}
                           autoFocus
-                          className="w-full bg-stone-50 border border-stone-300 rounded-2xl px-4 py-3.5 text-sm text-stone-900 font-japanese focus:outline-none focus:border-indigo-500 shadow-xs"
+                          className="w-full bg-muted/50 border border-border rounded-2xl px-4 py-3.5 text-sm text-foreground font-japanese focus:outline-none focus:border-indigo-500 shadow-xs"
                         />
-                        <span className="text-[10px] text-stone-500 block font-myanmar">
+                        <span className="text-[10px] text-muted-foreground block font-myanmar">
                           အကြံပြုချက်: Romaji တိုက်ရိုက်ရိုက်နိုင်ပါသည် (ဥပမာ &quot;watashi&quot; -&gt; &quot;わたし&quot;)။
                         </span>
                       </div>
@@ -2263,7 +2263,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                     {currentStage === 6 && !usedHint && !feedback && (
                       <button
                         onClick={() => setUsedHint(true)}
-                        className="text-xs text-stone-600 hover:text-stone-900 flex items-center space-x-1.5 transition cursor-pointer font-myanmar"
+                        className="text-xs text-muted-foreground hover:text-foreground flex items-center space-x-1.5 transition cursor-pointer font-myanmar"
                       >
                         <HelpCircle className="w-3.5 h-3.5" />
                         <span>အရိပ်အမြွက် ကြည့်မည် (အမှတ်လျော့နိုင်ပါသည်)</span>
@@ -2333,10 +2333,10 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                               <ArrowRight className="w-3 h-3" />
                             </button>
                           </div>
-                          <div className="text-stone-800 font-medium">
+                          <div className="text-foreground font-medium">
                             {matchingTrap.warningBurmese}
                           </div>
-                          <p className="text-[11px] text-stone-600 leading-relaxed">
+                          <p className="text-[11px] text-muted-foreground leading-relaxed">
                             {matchingTrap.detailedExplanationMy}
                           </p>
                         </div>
@@ -2363,10 +2363,10 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                           whileHover={{ scale: 1.01 }}
                           whileTap={{ scale: 0.98 }}
                           onClick={handleNextQuestion}
-                          className="w-full py-3.5 rounded-2xl bg-white hover:bg-stone-50 border border-stone-200 text-stone-800 font-semibold text-xs tracking-wide transition shadow-xs cursor-pointer font-myanmar flex items-center justify-center gap-2"
+                          className="w-full py-3.5 rounded-2xl bg-card hover:bg-muted border border-border text-foreground font-semibold text-xs tracking-wide transition shadow-xs cursor-pointer font-myanmar flex items-center justify-center gap-2"
                         >
                           <span>နောက်မေးခွန်းသို့ (Next) →</span>
-                          <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200 font-mono text-stone-600">
+                          <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-muted border border-border font-mono text-muted-foreground">
                             {getDisplayBadge('NEXT_ITEM')}
                           </kbd>
                         </motion.button>
@@ -2400,7 +2400,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
           {/* STAGE 12: SRS CARD CREATION */}
           {currentStage === 12 && (
-            <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 space-y-6 text-center shadow-sm font-myanmar">
+            <div className="bg-card border border-border rounded-3xl p-6 sm:p-8 space-y-6 text-center shadow-sm font-myanmar">
               <motion.div
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
@@ -2414,10 +2414,10 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                 <span className="text-xs uppercase font-mono tracking-wider text-indigo-700 font-semibold px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200 inline-block">
                   အဆင့် ၁၂ • SRS စနစ်သို့ ထည့်သွင်းခြင်း
                 </span>
-                <h2 className="text-2xl font-bold text-stone-900 tracking-tight">
+                <h2 className="text-2xl font-bold text-foreground tracking-tight">
                   SRS ကတ်များ ထုတ်ယူခြင်း
                 </h2>
-                <p className="text-xs text-stone-600 max-w-md mx-auto leading-relaxed">
+                <p className="text-xs text-muted-foreground max-w-md mx-auto leading-relaxed">
                   ရေရှည်မှတ်မိစေရန်အတွက် ဝေါဟာရနှင့် ခန်ဂျီတစ်ခုချင်းစီကို မှတ်မိစစ်ဆေးခြင်း၊ ရိုက်ထည့်ဖြေဆိုခြင်း နှင့် အသံထွက်ဖတ်ရှုခြင်း SRS ကတ်များအဖြစ် အလိုအလျောက် ခွဲခြမ်းထည့်သွင်းပေးမည် ဖြစ်ပါသည်။
                 </p>
               </div>
@@ -2439,7 +2439,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
           {/* STAGE 14: REMEDIATION / OUTCOME */}
           {currentStage === 14 && (
-            <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm font-myanmar">
+            <div className="bg-card border border-border rounded-3xl p-6 sm:p-8 space-y-6 shadow-sm font-myanmar">
               <div className="text-center space-y-2">
                 <motion.div
                   initial={{ scale: 0 }}
@@ -2454,19 +2454,19 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                   <Award className="w-10 h-10" />
                 </motion.div>
 
-                <h2 className="text-2xl font-bold text-stone-900 tracking-tight">
+                <h2 className="text-2xl font-bold text-foreground tracking-tight">
                   {lastTestResult?.passed
                     ? `${pack.titleMyanmar || pack.title} အောင်မြင်ပါပြီ!`
                     : 'စာမေးပွဲ ပြီးဆုံးပါပြီ — အားနည်းချက်များကို ပြန်လည်လေ့လာပါ'}
                 </h2>
-                <p className="text-xs text-stone-600 max-w-md mx-auto leading-relaxed">
+                <p className="text-xs text-muted-foreground max-w-md mx-auto leading-relaxed">
                   {lastTestResult?.summary}
                 </p>
               </div>
 
               {/* Score breakdown across all 5 skills */}
-              <div className="bg-stone-50 border border-stone-200 rounded-2xl p-5 space-y-2.5">
-                <span className="text-xs uppercase font-semibold text-stone-500 block mb-2 font-mono">
+              <div className="bg-muted/50 border border-border rounded-2xl p-5 space-y-2.5">
+                <span className="text-xs uppercase font-semibold text-muted-foreground block mb-2 font-mono">
                   ဘာသာရပ်စွမ်းရည် ၅ မျိုး ရလဒ်ခွဲခြမ်းစိတ်ဖြာချက်
                 </span>
                 {(['vocab', 'kanji', 'grammar', 'reading', 'listening'] as QuestionSkill[]).map((skill) => {
@@ -2486,11 +2486,11 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                   return (
                     <div
                       key={skill}
-                      className="flex items-center justify-between text-xs py-2 border-b border-stone-200 last:border-0"
+                      className="flex items-center justify-between text-xs py-2 border-b border-border last:border-0"
                     >
-                      <span className="text-stone-800 font-medium">{skillLabelMap[skill]}</span>
+                      <span className="text-foreground font-medium">{skillLabelMap[skill]}</span>
                       <div className="flex items-center space-x-3">
-                        <span className="text-stone-600 font-mono text-xs">
+                        <span className="text-muted-foreground font-mono text-xs">
                           {data.correct}/{data.total} ({pct}%)
                         </span>
                         <span
@@ -2508,7 +2508,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
               {/* Review of incorrect test questions */}
               {testIncorrectQuestions.length > 0 && (
-                <div className="bg-stone-50 border border-stone-200 rounded-2xl p-5 space-y-3 text-left">
+                <div className="bg-muted/50 border border-border rounded-2xl p-5 space-y-3 text-left">
                   <span className="text-xs uppercase font-semibold text-rose-700 block font-mono">
                     ပြန်လည်သုံးသပ်ရမည့် မေးခွန်းများ ({testIncorrectQuestions.length})
                   </span>
@@ -2516,12 +2516,12 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                     {testIncorrectQuestions.map((q, idx) => (
                       <div
                         key={idx}
-                        className="border-b border-stone-200 pb-2.5 last:border-0 text-xs space-y-1"
+                        className="border-b border-border pb-2.5 last:border-0 text-xs space-y-1"
                       >
-                        <p className="text-stone-800 font-medium font-japanese">{q.promptMy || q.questionMy || q.prompt}</p>
+                        <p className="text-foreground font-medium font-japanese">{q.promptMy || q.questionMy || q.prompt}</p>
                         <p className="text-rose-700 text-[11px]">အဖြေမှန်: {q.answer}</p>
                         {(q.explanationMy || q.explanation) && (
-                          <p className="text-stone-600 text-[10px] leading-relaxed">{q.explanationMy || q.explanation}</p>
+                          <p className="text-muted-foreground text-[10px] leading-relaxed">{q.explanationMy || q.explanation}</p>
                         )}
                       </div>
                     ))}
@@ -2567,7 +2567,7 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
 
           {/* STAGE 15: PROGRESS UPDATE */}
           {currentStage === 15 && (
-            <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 text-center space-y-6 shadow-sm font-myanmar">
+            <div className="bg-card border border-border rounded-3xl p-6 sm:p-8 text-center space-y-6 shadow-sm font-myanmar">
               <motion.div
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
@@ -2581,10 +2581,10 @@ export const LessonPlayerScreen: React.FC<LessonPlayerScreenProps> = ({
                 <span className="text-xs uppercase font-mono tracking-wider text-indigo-700 font-semibold px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200 inline-block">
                   အဆင့် ၁၅ • သင်ယူမှု တိုးတက်မှု သိမ်းဆည်းခြင်း
                 </span>
-                <h2 className="text-2xl sm:text-3xl font-bold text-stone-900 tracking-tight">
+                <h2 className="text-2xl sm:text-3xl font-bold text-foreground tracking-tight">
                   အဆင့် ၁၅ ဆင့်စလုံး ပြီးမြောက်ပါပြီ
                 </h2>
-                <p className="text-xs text-stone-600 max-w-md mx-auto leading-relaxed">
+                <p className="text-xs text-muted-foreground max-w-md mx-auto leading-relaxed">
                   သင်၏ စာမေးပွဲမှတ်တမ်း၊ SRS ကတ်များနှင့် သင်ယူမှု အချက်အလက်များကို IndexedDB တွင် အောင်မြင်စွာ သိမ်းဆည်းပြီးပါပြီ။
                 </p>
               </div>

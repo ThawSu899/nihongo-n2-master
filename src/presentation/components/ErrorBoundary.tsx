@@ -55,23 +55,23 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
       }
 
       return (
-        <div className="min-h-[320px] flex items-center justify-center p-6 bg-stone-50 dark:bg-stone-900/60 rounded-3xl border border-stone-200 dark:border-stone-800 my-4 text-center select-none shadow-sm">
+        <div className="min-h-[320px] flex items-center justify-center p-6 bg-muted/50 rounded-3xl border border-border my-4 text-center select-none shadow-sm">
           <div className="max-w-md space-y-4">
             <div className="w-14 h-14 mx-auto rounded-2xl bg-rose-50 dark:bg-rose-950/60 border border-rose-200 dark:border-rose-900/60 text-rose-600 dark:text-rose-400 flex items-center justify-center shadow-xs">
               <AlertTriangle className="w-7 h-7" />
             </div>
 
             <div>
-              <h3 className="text-lg font-bold text-stone-900 dark:text-stone-100">
+              <h3 className="text-lg font-bold text-foreground">
                 အမှားတစ်ခု ဖြစ်ပေါ်ခဲ့သည် (Error Encountered)
               </h3>
-              <p className="text-xs text-stone-600 dark:text-stone-400 mt-1 font-myanmar leading-relaxed">
+              <p className="text-xs text-muted-foreground mt-1 font-myanmar leading-relaxed">
                 စနစ်တွင် မမျှော်လင့်ထားသော ပြဿနာတစ်ခု ကြုံတွေ့ခဲ့ရပါသည်။ အောက်ပါ ခလုတ်ကို နှိပ်၍ ပြန်လည်ကြိုးစားနိုင်ပါသည်။
               </p>
             </div>
 
             {this.state.error && (
-              <div className="p-3 bg-stone-100 dark:bg-stone-800 rounded-xl border border-stone-200 dark:border-stone-700/60 text-left text-xs font-mono text-stone-700 dark:text-stone-300 max-h-28 overflow-y-auto">
+              <div className="p-3 bg-muted rounded-xl border border-border/60 text-left text-xs font-mono text-foreground max-h-28 overflow-y-auto">
                 <span className="font-semibold text-rose-600 dark:text-rose-400">
                   {this.state.error.name}:{' '}
                 </span>
@@ -92,7 +92,7 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
               <button
                 type="button"
                 onClick={this.handleReload}
-                className="px-4 py-2 rounded-xl bg-stone-200 hover:bg-stone-300 dark:bg-stone-800 dark:hover:bg-stone-700 text-stone-800 dark:text-stone-200 font-medium text-xs flex items-center gap-2 transition cursor-pointer"
+                className="px-4 py-2 rounded-xl bg-muted hover:bg-muted bg-muted hover:bg-muted text-foreground font-medium text-xs flex items-center gap-2 transition cursor-pointer"
               >
                 <Home className="w-3.5 h-3.5" />
                 <span>Reload Page</span>

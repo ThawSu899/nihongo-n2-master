@@ -33,7 +33,7 @@ jobs:
         run: npx tsc --noEmit
 
       - name: Run Vitest Test Suite
-        run: npx vitest run --test-timeout=15000
+        run: npx vitest run --maxWorkers=4 --test-timeout=15000
 
       - name: Build Production Application
         run: npm run build

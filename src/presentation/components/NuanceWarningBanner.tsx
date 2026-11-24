@@ -53,19 +53,19 @@ export const NuanceWarningBanner: React.FC<NuanceWarningBannerProps> = ({
           </span>
         </div>
 
-        <p className="text-xs text-stone-800 font-japanese leading-relaxed">
-          <span className="line-through text-stone-400 mr-1.5 font-mono">{enteredSynonym}</span>
+        <p className="text-xs text-foreground font-japanese leading-relaxed">
+          <span className="line-through text-muted-foreground mr-1.5 font-mono">{enteredSynonym}</span>
           <span className="text-amber-800 font-bold">{nuanceMessageMy || nuanceMessage}</span>
         </p>
 
         {nuanceMessageMy && nuanceMessage && (
-          <p className="text-[11px] text-stone-600 leading-normal font-sans">
+          <p className="text-[11px] text-muted-foreground leading-normal font-sans">
             {nuanceMessage}
           </p>
         )}
 
         {conjugationNote && (
-          <div className="pt-0.5 text-[10px] text-stone-600 font-mono">
+          <div className="pt-0.5 text-[10px] text-muted-foreground font-mono">
             <span>接続: {conjugationNote}</span>
           </div>
         )}

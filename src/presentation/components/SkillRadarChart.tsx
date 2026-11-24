@@ -242,12 +242,12 @@ export const SkillRadarChart: React.FC<SkillRadarChartProps> = ({
       <div className="flex items-center space-x-5 mt-4 text-[11px] font-medium">
         <div className="flex items-center space-x-1.5">
           <span className="w-3 h-3 rounded-full bg-rose-500/30 border border-rose-500 inline-block" />
-          <span className="text-stone-300">Your Current Mastery</span>
+          <span className="text-muted-foreground/40">Your Current Mastery</span>
         </div>
         {showComparisonTarget && (
           <div className="flex items-center space-x-1.5">
             <span className="w-3 h-0.5 border-t border-dashed border-indigo-400 inline-block" />
-            <span className="text-stone-400">Target JLPT Threshold</span>
+            <span className="text-muted-foreground">Target JLPT Threshold</span>
           </div>
         )}
       </div>

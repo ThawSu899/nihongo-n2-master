@@ -270,12 +270,12 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
   return (
     <div className="max-w-3xl mx-auto space-y-6 pb-20 select-none">
       {/* Top Header */}
-      <div className="flex items-center justify-between text-xs text-stone-500">
+      <div className="flex items-center justify-between text-xs text-muted-foreground">
         <div className="flex items-center space-x-2">
           {onExit && (
             <button
               onClick={onExit}
-              className="flex items-center space-x-1 py-1 px-2.5 rounded-lg bg-white border border-stone-200 text-stone-700 hover:text-stone-900 hover:bg-stone-50 transition cursor-pointer shadow-2xs"
+              className="flex items-center space-x-1 py-1 px-2.5 rounded-lg bg-card border border-border text-foreground hover:text-foreground hover:bg-muted/50 transition cursor-pointer shadow-2xs"
             >
               <ArrowLeft className="w-3.5 h-3.5" />
               <span>Back</span>
@@ -290,7 +290,7 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
 
         <div className="flex items-center space-x-2 font-mono text-xs font-myanmar">
           {/* Level Switcher */}
-          <div className="flex items-center p-0.5 bg-stone-100 rounded-lg border border-stone-200 text-[10px]">
+          <div className="flex items-center p-0.5 bg-muted rounded-lg border border-border text-[10px]">
             {(['All', 'N5', 'N4', 'N3', 'N2'] as const).map((lvl) => (
               <button
                 key={lvl}
@@ -301,8 +301,8 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
                 }}
                 className={`px-2 py-0.5 rounded transition cursor-pointer font-bold ${
                   selectedLevel === lvl
-                    ? 'bg-white text-indigo-700 shadow-2xs'
-                    : 'text-stone-500 hover:text-stone-800'
+                    ? 'bg-card text-indigo-700 shadow-2xs'
+                    : 'text-muted-foreground hover:text-foreground'
                 }`}
               >
                 {lvl}
@@ -310,7 +310,7 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
             ))}
           </div>
 
-          <span className="text-stone-700">
+          <span className="text-foreground">
             မေးခွန်း {currentIndex + 1} / {activePuzzlePool.length}
           </span>
           <span className="px-2 py-0.5 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 text-[10px]">
@@ -320,11 +320,11 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
       </div>
 
       {/* Main Puzzle Card */}
-      <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 space-y-8 shadow-sm relative overflow-hidden font-myanmar">
+      <div className="bg-card border border-border rounded-3xl p-6 sm:p-8 space-y-8 shadow-sm relative overflow-hidden font-myanmar">
         {/* Question Header & Title */}
-        <div className="space-y-1.5 border-b border-stone-200 pb-4">
+        <div className="space-y-1.5 border-b border-border pb-4">
           <div className="flex items-center justify-between flex-wrap gap-2">
-            <h2 className="text-base font-bold text-stone-900 tracking-tight flex items-center gap-2">
+            <h2 className="text-base font-bold text-foreground tracking-tight flex items-center gap-2">
               <Star className="w-4 h-4 fill-amber-500 text-amber-500" />
               <span>★ 문장 조립 / JLPT Star Grammar Puzzle (ကြယ်ပွင့် ဝါကျစီ လေ့ကျင့်ခန်း)</span>
             </h2>
@@ -332,24 +332,24 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
               အမှတ်ပေးမည့်နေရာ: 3rd Blank [★] Slot
             </span>
           </div>
-          <div className="flex items-center justify-between text-xs text-stone-600">
+          <div className="flex items-center justify-between text-xs text-muted-foreground">
             <span>မေးခွန်း: အောက်ပါဝါကျရှိ ★ နေရာတွင် ဝင်ရမည့် အသင့်တော်ဆုံးကို ရွေးချယ်ပါ။</span>
-            <span className="font-japanese font-semibold text-stone-800">{currentPuzzle.title}</span>
+            <span className="font-japanese font-semibold text-foreground">{currentPuzzle.title}</span>
           </div>
         </div>
 
         {/* The Sentence with 4 Blank Slots */}
-        <div className="bg-stone-50 border border-stone-200 rounded-2xl p-5 sm:p-6 shadow-xs space-y-4">
-          <div className="text-lg sm:text-xl md:text-2xl font-japanese leading-loose text-stone-900 flex flex-wrap items-center gap-x-2 gap-y-3">
+        <div className="bg-muted/50 border border-border rounded-2xl p-5 sm:p-6 shadow-xs space-y-4">
+          <div className="text-lg sm:text-xl md:text-2xl font-japanese leading-loose text-foreground flex flex-wrap items-center gap-x-2 gap-y-3">
             {/* Sentence Prefix */}
-            <span className="text-stone-700 font-medium">{currentPuzzle.prefix}</span>
+            <span className="text-foreground font-medium">{currentPuzzle.prefix}</span>
 
             {/* 4 Interactive Blank Slots */}
             {slots.map((optNum, slotIdx) => {
               const isStar = slotIdx === currentPuzzle.starSlotIndex;
               const token = getToken(optNum);
 
-              let slotBorder = 'border-dashed border-stone-300 bg-white text-stone-400';
+              let slotBorder = 'border-dashed border-border bg-card text-muted-foreground';
               if (token) {
                 slotBorder = 'border-solid border-indigo-500 bg-indigo-50 text-indigo-900 shadow-xs';
               }
@@ -407,16 +407,16 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
             })}
 
             {/* Sentence Suffix */}
-            <span className="text-stone-700 font-medium">{currentPuzzle.suffix}</span>
+            <span className="text-foreground font-medium">{currentPuzzle.suffix}</span>
           </div>
         </div>
 
         {/* Available Phrase Tokens Tray */}
         <div className="space-y-3 font-myanmar">
-          <div className="flex items-center justify-between text-xs text-stone-500 font-mono">
+          <div className="flex items-center justify-between text-xs text-muted-foreground font-mono">
             <span>ရွေးချယ်ရန် စကားစုများ (Options):</span>
-            <span className="text-[11px] text-stone-500">
-              ကီးဘုတ် <kbd className="text-stone-700 font-bold">[1]</kbd> <kbd className="text-stone-700 font-bold">[2]</kbd> <kbd className="text-stone-700 font-bold">[3]</kbd> <kbd className="text-stone-700 font-bold">[4]</kbd> သို့မဟုတ် ကလစ်နှိပ်၍ ရွေးချယ်နိုင်သည်
+            <span className="text-[11px] text-muted-foreground">
+              ကီးဘုတ် <kbd className="text-foreground font-bold">[1]</kbd> <kbd className="text-foreground font-bold">[2]</kbd> <kbd className="text-foreground font-bold">[3]</kbd> <kbd className="text-foreground font-bold">[4]</kbd> သို့မဟုတ် ကလစ်နှိပ်၍ ရွေးချယ်နိုင်သည်
             </span>
           </div>
 
@@ -430,11 +430,11 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
                   disabled={isUsed || Boolean(evaluation)}
                   className={`p-3.5 rounded-2xl border text-center transition cursor-pointer flex flex-col items-center justify-center space-y-1 relative shadow-2xs ${
                     isUsed
-                      ? 'opacity-30 bg-stone-100 border-stone-200 text-stone-400 cursor-not-allowed'
-                      : 'bg-white border-stone-200 hover:border-indigo-400 hover:bg-indigo-50/30 text-stone-900 active:scale-95'
+                      ? 'opacity-30 bg-muted border-border text-muted-foreground cursor-not-allowed'
+                      : 'bg-card border-border hover:border-indigo-400 hover:bg-indigo-50/30 text-foreground active:scale-95'
                   }`}
                 >
-                  <span className="w-5 h-5 rounded-full bg-stone-100 border border-stone-300 text-[10px] font-mono text-stone-600 flex items-center justify-center">
+                  <span className="w-5 h-5 rounded-full bg-muted border border-border text-[10px] font-mono text-muted-foreground flex items-center justify-center">
                     {token.optionNumber}
                   </span>
                   <span className="text-sm sm:text-base font-bold font-japanese">
@@ -451,7 +451,7 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
           <button
             onClick={() => setSlots([null, null, null, null])}
             disabled={slots.every((s) => s === null) || Boolean(evaluation)}
-            className="flex items-center space-x-1.5 px-3 py-2 rounded-xl text-xs font-mono text-stone-500 hover:text-stone-800 disabled:opacity-30 transition cursor-pointer"
+            className="flex items-center space-x-1.5 px-3 py-2 rounded-xl text-xs font-mono text-muted-foreground hover:text-foreground disabled:opacity-30 transition cursor-pointer"
           >
             <RotateCcw className="w-3.5 h-3.5" />
             <span>ပြန်စမည် (Reset)</span>
@@ -464,7 +464,7 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
               className={`px-6 py-3 rounded-2xl font-bold text-xs flex items-center space-x-2 transition cursor-pointer shadow-xs ${
                 isAllFilled
                   ? 'bg-amber-600 hover:bg-amber-700 text-white active:scale-95'
-                  : 'bg-stone-200 text-stone-400 border border-stone-200 cursor-not-allowed'
+                  : 'bg-muted text-muted-foreground border border-border cursor-not-allowed'
               }`}
             >
               <span>အဖြေစစ်ဆေးမည် (Submit)</span>
@@ -492,7 +492,7 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}
-              className="space-y-6 pt-6 border-t border-stone-200 font-myanmar"
+              className="space-y-6 pt-6 border-t border-border font-myanmar"
             >
               {/* Outcome Status Banner */}
               <div
@@ -526,18 +526,18 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
                       >
                         {evaluation.isStarCorrect ? '★ အဖြေမှန် (Correct) !' : '★ အဖြေမှား (Incorrect)'}
                       </span>
-                      <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-stone-100 border border-stone-200 text-stone-700">
+                      <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-muted border border-border text-foreground">
                         ရမှတ်: {evaluation.score} မှတ်
                       </span>
                     </div>
 
-                    <p className="text-xs text-stone-600 leading-relaxed">
+                    <p className="text-xs text-muted-foreground leading-relaxed">
                       {evaluation.feedbackMessage}
                     </p>
 
-                    <div className="text-xs font-mono pt-1 text-stone-500">
+                    <div className="text-xs font-mono pt-1 text-muted-foreground">
                       အဖြေမှန် စီစဉ်မှု (Correct Order):{' '}
-                      <strong className="text-stone-900">
+                      <strong className="text-foreground">
                         {currentPuzzle.correctTokenOrder.join(' → ')}
                       </strong>{' '}
                       (★ = {currentPuzzle.starOptionNumber})
@@ -547,7 +547,7 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
 
                 <button
                   onClick={() => handleSpeak(currentPuzzle.fullSentenceJa)}
-                  className="p-2.5 rounded-xl bg-white border border-stone-200 text-stone-700 hover:text-stone-900 hover:bg-stone-50 transition cursor-pointer shadow-2xs"
+                  className="p-2.5 rounded-xl bg-card border border-border text-foreground hover:text-foreground hover:bg-muted/50 transition cursor-pointer shadow-2xs"
                   title="Speak complete sentence"
                 >
                   <Volume2 className="w-4 h-4 text-indigo-600" />
@@ -555,11 +555,11 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
               </div>
 
               {/* Complete Correct Sentence Card */}
-              <div className="bg-stone-50 border border-stone-200 rounded-2xl p-5 space-y-2.5 shadow-2xs">
+              <div className="bg-muted/50 border border-border rounded-2xl p-5 space-y-2.5 shadow-2xs">
                 <span className="text-[10px] font-mono uppercase tracking-wider text-indigo-700 block">
                   အဖြေမှန် ဝါကျ အပြည့်အစုံ
                 </span>
-                <p className="text-base sm:text-lg font-bold font-japanese text-stone-900 leading-relaxed">
+                <p className="text-base sm:text-lg font-bold font-japanese text-foreground leading-relaxed">
                   {currentPuzzle.fullSentenceJa}
                 </p>
                 {currentPuzzle.fullSentenceMy ? (
@@ -568,13 +568,13 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
                       {currentPuzzle.fullSentenceMy}
                     </p>
                     {currentPuzzle.fullSentenceEn && (
-                      <p className="text-xs text-stone-600 font-sans">
+                      <p className="text-xs text-muted-foreground font-sans">
                         {currentPuzzle.fullSentenceEn}
                       </p>
                     )}
                   </>
                 ) : (
-                  <p className="text-xs text-stone-600 font-medium">
+                  <p className="text-xs text-muted-foreground font-medium">
                     {currentPuzzle.fullSentenceEn}
                   </p>
                 )}
@@ -582,7 +582,7 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
 
               {/* Grammatical Chain Linkage Diagram (接続チェーン解説) */}
               <div className="space-y-3">
-                <div className="flex items-center space-x-2 text-xs font-semibold text-stone-700 font-mono">
+                <div className="flex items-center space-x-2 text-xs font-semibold text-foreground font-mono">
                   <Layers className="w-4 h-4 text-amber-600" />
                   <span>သဒ္ဒါစကားဆက် ဆက်စပ်မှု ရှင်းလင်းချက် (Chain Logic)</span>
                 </div>
@@ -591,21 +591,21 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
                   {currentPuzzle.chainReasoning.map((link, idx) => (
                     <div
                       key={idx}
-                      className="p-3.5 rounded-xl bg-white border border-stone-200 space-y-1.5 hover:border-stone-300 transition shadow-2xs"
+                      className="p-3.5 rounded-xl bg-card border border-border space-y-1.5 hover:border-border transition shadow-2xs"
                     >
-                      <div className="flex items-center space-x-2 text-xs font-bold font-japanese text-stone-800">
-                        <span className="px-1.5 py-0.5 rounded bg-stone-100 font-mono text-[10px] text-stone-600">
+                      <div className="flex items-center space-x-2 text-xs font-bold font-japanese text-foreground">
+                        <span className="px-1.5 py-0.5 rounded bg-muted font-mono text-[10px] text-muted-foreground">
                           အဆင့် {idx + 1}
                         </span>
                         <span className="text-indigo-700">{link.fromText}</span>
-                        <ArrowRight className="w-3.5 h-3.5 text-stone-400 shrink-0" />
+                        <ArrowRight className="w-3.5 h-3.5 text-muted-foreground shrink-0" />
                         <span className="text-amber-700">{link.toText}</span>
                       </div>
 
-                      <p className="text-xs text-stone-800 font-japanese leading-relaxed">
+                      <p className="text-xs text-foreground font-japanese leading-relaxed">
                         {link.ruleJa}
                       </p>
-                      <p className="text-[11px] text-stone-500">
+                      <p className="text-[11px] text-muted-foreground">
                         {link.ruleEn}
                       </p>
                     </div>
@@ -614,8 +614,8 @@ export const StarScrambleTrainer: React.FC<StarScrambleTrainerProps> = ({
               </div>
 
               {/* Detailed Breakdown */}
-              <div className="p-4 rounded-2xl bg-stone-50 border border-stone-200 text-xs text-stone-600 space-y-1 leading-relaxed shadow-2xs">
-                <span className="font-bold text-stone-900 block font-mono">
+              <div className="p-4 rounded-2xl bg-muted/50 border border-border text-xs text-muted-foreground space-y-1 leading-relaxed shadow-2xs">
+                <span className="font-bold text-foreground block font-mono">
                   💡 ဖြေဆိုနည်း အဓိကအချက် (Strategy Insight):
                 </span>
                 <p>{currentPuzzle.detailedExplanation}</p>

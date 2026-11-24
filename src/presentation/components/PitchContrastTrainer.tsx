@@ -293,19 +293,19 @@ export const PitchContrastTrainer: React.FC<PitchContrastTrainerProps> = ({
   };
 
   return (
-    <div className={`bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 p-6 shadow-sm ${className}`}>
+    <div className={`bg-card rounded-2xl border border-border p-6 shadow-sm ${className}`}>
       {/* Header */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-5 border-b border-stone-200 dark:border-stone-800">
+      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-5 border-b border-border">
         <div>
           <div className="flex items-center gap-2">
             <span className="p-1.5 rounded-lg bg-indigo-50 dark:bg-indigo-950/60 text-indigo-600 dark:text-indigo-400">
               <Sparkles className="w-5 h-5" />
             </span>
-            <h2 className="text-xl font-bold text-stone-900 dark:text-stone-100">
+            <h2 className="text-xl font-bold text-foreground">
               Pitch Accent Contrast Trainer (アクセント対比訓練)
             </h2>
           </div>
-          <p className="text-sm text-stone-600 dark:text-stone-400 mt-1">
+          <p className="text-sm text-muted-foreground mt-1">
             Auditory minimal pair distinction across Tokyo Standard Accent patterns (NHK日本語発音アクセント新辞典準拠)
           </p>
         </div>
@@ -324,7 +324,7 @@ export const PitchContrastTrainer: React.FC<PitchContrastTrainerProps> = ({
             className={`px-3.5 py-1.5 text-sm font-medium rounded-lg transition-colors flex items-center gap-1.5 ${
               quizMode
                 ? 'bg-amber-100 text-amber-800 dark:bg-amber-950/70 dark:text-amber-300'
-                : 'bg-stone-100 hover:bg-stone-200 dark:bg-stone-800 dark:hover:bg-stone-700 text-stone-700 dark:text-stone-300'
+                : 'bg-muted hover:bg-muted bg-muted hover:bg-muted text-foreground'
             }`}
           >
             <RefreshCw className="w-3.5 h-3.5" />
@@ -335,7 +335,7 @@ export const PitchContrastTrainer: React.FC<PitchContrastTrainerProps> = ({
             <button
               type="button"
               onClick={onClose}
-              className="px-3 py-1.5 text-sm rounded-lg border border-stone-300 dark:border-stone-700 text-stone-600 dark:text-stone-400 hover:bg-stone-100 dark:hover:bg-stone-800"
+              className="px-3 py-1.5 text-sm rounded-lg border border-border text-muted-foreground hover:bg-muted"
             >
               Close
             </button>
@@ -365,7 +365,7 @@ export const PitchContrastTrainer: React.FC<PitchContrastTrainerProps> = ({
             className={`px-3 py-1.5 rounded-lg text-sm font-medium whitespace-nowrap transition-all ${
               selectedPairIndex === idx
                 ? 'bg-indigo-600 text-white shadow-sm'
-                : 'bg-stone-100 hover:bg-stone-200 dark:bg-stone-800 dark:hover:bg-stone-700 text-stone-700 dark:text-stone-300'
+                : 'bg-muted hover:bg-muted bg-muted hover:bg-muted text-foreground'
             }`}
           >
             {pair.title.split(' ')[0]}
@@ -374,11 +374,11 @@ export const PitchContrastTrainer: React.FC<PitchContrastTrainerProps> = ({
       </div>
 
       {/* Pair Explanation */}
-      <div className="mt-4 p-3.5 bg-stone-50 dark:bg-stone-800/50 rounded-xl border border-stone-200 dark:border-stone-800">
-        <h3 className="text-sm font-semibold text-stone-900 dark:text-stone-100">
+      <div className="mt-4 p-3.5 bg-muted/50 bg-muted/50 rounded-xl border border-border">
+        <h3 className="text-sm font-semibold text-foreground">
           {currentPair.title}
         </h3>
-        <p className="text-xs text-stone-600 dark:text-stone-400 mt-1 leading-relaxed">
+        <p className="text-xs text-muted-foreground mt-1 leading-relaxed">
           {currentPair.note}
         </p>
       </div>
@@ -439,16 +439,16 @@ export const PitchContrastTrainer: React.FC<PitchContrastTrainerProps> = ({
               className={`p-5 rounded-2xl border transition-all ${
                 isSelectedInQuiz
                   ? 'border-indigo-500 bg-indigo-50/40 dark:bg-indigo-950/20'
-                  : 'border-stone-200 dark:border-stone-800 bg-white dark:bg-stone-800/40'
+                  : 'border-border bg-card/40'
               }`}
             >
               {/* Word Top Header */}
               <div className="flex items-start justify-between">
                 <div>
-                  <div className="text-2xl font-black text-stone-900 dark:text-stone-50">
+                  <div className="text-2xl font-black text-foreground text-foreground">
                     {word.kanji}
                   </div>
-                  <div className="text-sm font-medium text-stone-500 dark:text-stone-400 mt-0.5">
+                  <div className="text-sm font-medium text-muted-foreground mt-0.5">
                     {word.reading}
                   </div>
                 </div>
@@ -456,7 +456,7 @@ export const PitchContrastTrainer: React.FC<PitchContrastTrainerProps> = ({
                 <button
                   type="button"
                   onClick={() => playWordAudio(word)}
-                  className="p-2 rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-stone-700 dark:hover:bg-stone-600 text-stone-700 dark:text-stone-200 transition"
+                  className="p-2 rounded-xl bg-muted hover:bg-muted hover:bg-muted/80 text-foreground text-foreground transition"
                   title={`Play ${word.kanji}`}
                 >
                   <Volume2 className="w-4 h-4" />
@@ -464,7 +464,7 @@ export const PitchContrastTrainer: React.FC<PitchContrastTrainerProps> = ({
               </div>
 
               {/* Pitch Visualizer */}
-              <div className="mt-4 pt-3 border-t border-stone-100 dark:border-stone-700/60">
+              <div className="mt-4 pt-3 border-t border-border border-border/60">
                 <PitchAccentVisualizer
                   text={word.reading}
                   pattern={word.pattern}
@@ -476,17 +476,17 @@ export const PitchContrastTrainer: React.FC<PitchContrastTrainerProps> = ({
 
               {/* Meanings */}
               <div className="mt-4 space-y-1 text-sm">
-                <div className="text-stone-800 dark:text-stone-200 font-medium">
+                <div className="text-foreground font-medium">
                   {word.meaningEn}
                 </div>
-                <div className="text-stone-600 dark:text-stone-400 text-xs">
+                <div className="text-muted-foreground text-xs">
                   {word.meaningMy}
                 </div>
               </div>
 
               {/* Example sentence */}
               {word.exampleSentence && (
-                <div className="mt-3 p-2 bg-stone-50 dark:bg-stone-800 rounded-lg text-xs text-stone-600 dark:text-stone-400 italic">
+                <div className="mt-3 p-2 bg-muted/50 bg-muted rounded-lg text-xs text-muted-foreground italic">
                   {word.exampleSentence}
                 </div>
               )}
@@ -514,7 +514,7 @@ export const PitchContrastTrainer: React.FC<PitchContrastTrainerProps> = ({
             type="button"
             disabled={isPlayingSeq}
             onClick={() => playContrastSequence(currentPair.words)}
-            className="px-4 py-2 rounded-xl bg-stone-900 hover:bg-stone-800 text-white dark:bg-stone-100 dark:text-stone-900 dark:hover:bg-stone-200 font-medium text-sm flex items-center gap-2 transition disabled:opacity-50"
+            className="px-4 py-2 rounded-xl bg-primary hover:bg-primary/90 text-primary-foreground dark:hover:bg-muted font-medium text-sm flex items-center gap-2 transition disabled:opacity-50"
           >
             <Play className="w-4 h-4 fill-current" />
             {isPlayingSeq ? 'Playing Contrast...' : 'Play Auditory Contrast (Back-to-Back)'}

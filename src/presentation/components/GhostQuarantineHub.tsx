@@ -89,7 +89,7 @@ export const GhostQuarantineHub: React.FC<GhostQuarantineHubProps> = ({
     return (
       <div className="py-12 flex flex-col items-center justify-center space-y-3">
         <div className="w-8 h-8 border-2 border-rose-500/30 border-t-rose-500 rounded-full animate-spin" />
-        <span className="text-xs text-stone-500 font-mono">Loading Ghost Quarantine...</span>
+        <span className="text-xs text-muted-foreground font-mono">Loading Ghost Quarantine...</span>
       </div>
     );
   }
@@ -97,7 +97,7 @@ export const GhostQuarantineHub: React.FC<GhostQuarantineHubProps> = ({
   return (
     <div className="w-full space-y-6">
       {/* Quarantine Header Banner */}
-      <div className="relative overflow-hidden rounded-3xl bg-white border border-stone-200 p-6 shadow-sm">
+      <div className="relative overflow-hidden rounded-3xl bg-card border border-border p-6 shadow-sm">
         <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-rose-500 via-amber-500 to-rose-500 opacity-60" />
 
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
@@ -107,12 +107,12 @@ export const GhostQuarantineHub: React.FC<GhostQuarantineHubProps> = ({
             </div>
             <div>
               <div className="flex items-center space-x-2">
-                <h3 className="text-lg font-bold text-stone-900 tracking-tight">Ghost Review Quarantine</h3>
+                <h3 className="text-lg font-bold text-foreground tracking-tight">Ghost Review Quarantine</h3>
                 <span className="px-2 py-0.5 rounded-full bg-rose-50 border border-rose-200 text-[10px] font-mono text-rose-700 font-bold uppercase">
                   Leech Isolation
                 </span>
               </div>
-              <p className="text-xs text-stone-600 mt-1 max-w-xl leading-relaxed">
+              <p className="text-xs text-muted-foreground mt-1 max-w-xl leading-relaxed">
                 Persistent leeches (&ge; 3 lapses) isolated into an accelerated 4-stage micro-schedule (4h &rarr; 8h &rarr; 24h &rarr; 48h) with rotated context sentences.
               </p>
             </div>
@@ -120,17 +120,17 @@ export const GhostQuarantineHub: React.FC<GhostQuarantineHubProps> = ({
 
           {/* Quick Counter Pills */}
           <div className="flex items-center space-x-3 shrink-0">
-            <div className="px-4 py-2.5 rounded-2xl bg-stone-50 border border-stone-200 text-center shadow-xs">
+            <div className="px-4 py-2.5 rounded-2xl bg-muted/50 border border-border text-center shadow-xs">
               <span className="block text-xl font-bold font-mono text-rose-600 leading-none">
                 {ghosts.length}
               </span>
-              <span className="text-[10px] uppercase font-mono text-stone-500 tracking-wider">Active</span>
+              <span className="text-[10px] uppercase font-mono text-muted-foreground tracking-wider">Active</span>
             </div>
-            <div className="px-4 py-2.5 rounded-2xl bg-stone-50 border border-stone-200 text-center shadow-xs">
+            <div className="px-4 py-2.5 rounded-2xl bg-muted/50 border border-border text-center shadow-xs">
               <span className="block text-xl font-bold font-mono text-emerald-600 leading-none">
                 {conqueredCount}
               </span>
-              <span className="text-[10px] uppercase font-mono text-stone-500 tracking-wider">Conquered</span>
+              <span className="text-[10px] uppercase font-mono text-muted-foreground tracking-wider">Conquered</span>
             </div>
           </div>
         </div>
@@ -156,13 +156,13 @@ export const GhostQuarantineHub: React.FC<GhostQuarantineHubProps> = ({
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className="rounded-3xl bg-stone-50 border border-stone-200 p-8 text-center space-y-3"
+          className="rounded-3xl bg-muted/50 border border-border p-8 text-center space-y-3"
         >
           <div className="w-12 h-12 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-600 flex items-center justify-center mx-auto shadow-inner">
             <ShieldCheck className="w-6 h-6" />
           </div>
-          <h4 className="text-base font-semibold text-stone-900">Quarantine Clean</h4>
-          <p className="text-xs text-stone-600 max-w-md mx-auto leading-relaxed">
+          <h4 className="text-base font-semibold text-foreground">Quarantine Clean</h4>
+          <p className="text-xs text-muted-foreground max-w-md mx-auto leading-relaxed">
             No active ghost cards in quarantine. Difficult cards that accumulate 3 or more lapses will automatically spawn here for targeted micro-reviews.
           </p>
         </motion.div>
@@ -175,10 +175,10 @@ export const GhostQuarantineHub: React.FC<GhostQuarantineHubProps> = ({
                 key={ghost.id}
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
-                className={`relative overflow-hidden rounded-2xl bg-white border ${
+                className={`relative overflow-hidden rounded-2xl bg-card border ${
                   dueInfo.isReady
                     ? 'border-rose-400 shadow-sm'
-                    : 'border-stone-200 shadow-sm'
+                    : 'border-border shadow-sm'
                 } p-4 sm:p-5 transition hover:border-rose-300`}
               >
                 <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
@@ -188,7 +188,7 @@ export const GhostQuarantineHub: React.FC<GhostQuarantineHubProps> = ({
                       <span className="px-2.5 py-1 rounded-lg bg-rose-50 border border-rose-200 text-rose-700 font-japanese font-bold text-xs tracking-wide">
                         {ghost.clozeTarget}
                       </span>
-                      <span className="text-[10px] font-mono text-stone-500 uppercase">
+                      <span className="text-[10px] font-mono text-muted-foreground uppercase">
                         Grammar: {ghost.grammarId}
                       </span>
                       {dueInfo.isReady ? (
@@ -197,20 +197,20 @@ export const GhostQuarantineHub: React.FC<GhostQuarantineHubProps> = ({
                           <span>Ready Now</span>
                         </span>
                       ) : (
-                        <span className="px-2 py-0.5 rounded-full bg-stone-100 border border-stone-200 text-stone-600 text-[10px] font-mono flex items-center space-x-1">
-                          <Clock className="w-3 h-3 text-stone-500" />
+                        <span className="px-2 py-0.5 rounded-full bg-muted border border-border text-muted-foreground text-[10px] font-mono flex items-center space-x-1">
+                          <Clock className="w-3 h-3 text-muted-foreground" />
                           <span>{dueInfo.text}</span>
                         </span>
                       )}
                     </div>
 
                     {/* Cloze Sentence Context */}
-                    <div className="font-japanese text-base font-semibold text-stone-900 tracking-wide leading-relaxed">
+                    <div className="font-japanese text-base font-semibold text-foreground tracking-wide leading-relaxed">
                       {ghost.clozeSentence}
                     </div>
 
                     {/* Nuance Explanations */}
-                    <p className="text-xs text-stone-600 font-medium leading-relaxed">
+                    <p className="text-xs text-muted-foreground font-medium leading-relaxed">
                       {ghost.nuanceExplanationEn}
                     </p>
                     {ghost.nuanceExplanationMy && (
@@ -236,7 +236,7 @@ export const GhostQuarantineHub: React.FC<GhostQuarantineHubProps> = ({
                                 ? 'bg-emerald-50 border-emerald-200 text-emerald-700'
                                 : isCurrent
                                 ? 'bg-rose-50 border-rose-300 text-rose-700 ring-2 ring-rose-200 shadow-2xs'
-                                : 'bg-stone-100 border-stone-200 text-stone-400'
+                                : 'bg-muted border-border text-muted-foreground'
                             }`}
                             title={`Stage ${s}: +${intervalHours}h`}
                           >
@@ -263,7 +263,7 @@ export const GhostQuarantineHub: React.FC<GhostQuarantineHubProps> = ({
 
                       <button
                         onClick={(e) => handleExorcise(ghost.id, e)}
-                        className="px-2.5 py-1.5 rounded-xl bg-white hover:bg-emerald-50 text-stone-600 hover:text-emerald-700 border border-stone-200 hover:border-emerald-300 text-xs font-mono transition cursor-pointer flex items-center space-x-1 shadow-2xs"
+                        className="px-2.5 py-1.5 rounded-xl bg-card hover:bg-emerald-50 text-muted-foreground hover:text-emerald-700 border border-border hover:border-emerald-300 text-xs font-mono transition cursor-pointer flex items-center space-x-1 shadow-2xs"
                         title="Force Conquer Ghost"
                       >
                         <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
@@ -272,7 +272,7 @@ export const GhostQuarantineHub: React.FC<GhostQuarantineHubProps> = ({
 
                       <button
                         onClick={(e) => handleDelete(ghost.id, e)}
-                        className="p-1.5 rounded-xl bg-white hover:bg-stone-100 text-stone-500 hover:text-stone-700 border border-stone-200 transition cursor-pointer shadow-2xs"
+                        className="p-1.5 rounded-xl bg-card hover:bg-muted text-muted-foreground hover:text-foreground border border-border transition cursor-pointer shadow-2xs"
                         title="Dismiss Ghost"
                       >
                         <Trash2 className="w-3.5 h-3.5" />

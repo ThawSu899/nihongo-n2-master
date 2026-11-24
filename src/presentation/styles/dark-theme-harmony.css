@@ -50,64 +50,6 @@ html.dark [data-reference-workbench="content"] {
   color: #f4f4f5 !important;
 }
 
-/* Reference Workbench Cards, Lists, Tables & Inputs */
-html.dark [data-reference-workbench="root"] .bg-white {
-  background-color: #18181b !important;
-  border-color: #27272a !important;
-  color: #f4f4f5 !important;
-}
-
-html.dark [data-reference-workbench="root"] .bg-stone-50 {
-  background-color: #141418 !important;
-  border-color: #27272a !important;
-  color: #f4f4f5 !important;
-}
-
-html.dark [data-reference-workbench="root"] .bg-stone-100 {
-  background-color: #202025 !important;
-  border-color: #2e2e35 !important;
-  color: #e4e4e7 !important;
-}
-
-html.dark [data-reference-workbench="root"] .text-stone-900 {
-  color: #fafafa !important;
-}
-
-html.dark [data-reference-workbench="root"] .text-stone-800 {
-  color: #f4f4f5 !important;
-}
-
-html.dark [data-reference-workbench="root"] .text-stone-700 {
-  color: #e4e4e7 !important;
-}
-
-html.dark [data-reference-workbench="root"] .text-stone-600 {
-  color: #a1a1aa !important;
-}
-
-html.dark [data-reference-workbench="root"] .text-stone-500 {
-  color: #71717a !important;
-}
-
-html.dark [data-reference-workbench="root"] .border-stone-200 {
-  border-color: #27272a !important;
-}
-
-html.dark [data-reference-workbench="root"] .border-stone-300 {
-  border-color: #3f3f46 !important;
-}
-
-html.dark [data-reference-workbench="root"] input,
-html.dark [data-reference-workbench="root"] select {
-  background-color: #18181b !important;
-  border-color: #3f3f46 !important;
-  color: #fafafa !important;
-}
-
-html.dark [data-reference-workbench="root"] input::placeholder {
-  color: #71717a !important;
-}
-
 /* --- Dokkai Reader Workbench Dark Harmonization --- */
 html.dark [data-component="dokkai-workbench"] .dokkai-passage-surface {
   background-color: #121215 !important;

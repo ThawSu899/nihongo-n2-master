@@ -102,7 +102,7 @@ export const PWAInstallBanner: React.FC = () => {
         transition={{ duration: 0.28, ease: 'easeOut' }}
         className="fixed bottom-20 sm:bottom-6 left-3 right-3 sm:left-auto sm:right-6 z-40 max-w-md mx-auto sm:mx-0 pointer-events-none"
       >
-        <div className="pointer-events-auto relative overflow-hidden rounded-2xl bg-white border border-stone-200 shadow-md p-3.5 sm:p-4 text-stone-900 group">
+        <div className="pointer-events-auto relative overflow-hidden rounded-2xl bg-card border border-border shadow-md p-3.5 sm:p-4 text-foreground group">
           {/* Subtle ambient accent hairline */}
           <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-rose-500 via-indigo-500 to-emerald-500 opacity-80" />
 
@@ -113,23 +113,23 @@ export const PWAInstallBanner: React.FC = () => {
               </div>
               <div>
                 <p className="text-xs font-semibold text-emerald-800">Nihongo N2 Master Installed!</p>
-                <p className="text-[11px] text-stone-600">Launch from your home screen anytime offline.</p>
+                <p className="text-[11px] text-muted-foreground">Launch from your home screen anytime offline.</p>
               </div>
             </div>
           ) : showIOSGuide ? (
             <div className="space-y-2.5">
               <div className="flex items-center justify-between">
-                <span className="text-xs font-semibold text-stone-900 flex items-center gap-1.5">
+                <span className="text-xs font-semibold text-foreground flex items-center gap-1.5">
                   <Smartphone className="w-3.5 h-3.5 text-indigo-600" /> Install on iOS Safari
                 </span>
                 <button
                   onClick={() => setShowIOSGuide(false)}
-                  className="text-stone-400 hover:text-stone-700 p-1"
+                  className="text-muted-foreground hover:text-foreground p-1"
                 >
                   <X className="w-3.5 h-3.5" />
                 </button>
               </div>
-              <div className="text-[11px] text-stone-700 space-y-1.5 bg-stone-50 p-2.5 rounded-xl border border-stone-200">
+              <div className="text-[11px] text-foreground space-y-1.5 bg-muted/50 p-2.5 rounded-xl border border-border">
                 <p className="flex items-center gap-1.5">
                   1. Tap the <Share className="w-3.5 h-3.5 text-indigo-600 inline" /> <strong>Share</strong> button in Safari toolbar.
                 </p>
@@ -139,7 +139,7 @@ export const PWAInstallBanner: React.FC = () => {
               </div>
               <button
                 onClick={handleDismiss}
-                className="w-full py-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-800 text-xs font-medium transition cursor-pointer"
+                className="w-full py-1.5 rounded-lg bg-muted hover:bg-muted text-foreground text-xs font-medium transition cursor-pointer"
               >
                 Got It
               </button>
@@ -154,14 +154,14 @@ export const PWAInstallBanner: React.FC = () => {
 
                 <div className="min-w-0 space-y-0.5">
                   <div className="flex items-center gap-1.5">
-                    <span className="font-bold text-xs text-stone-900 truncate font-sans">
+                    <span className="font-bold text-xs text-foreground truncate font-sans">
                       Install Nihongo N2 Master
                     </span>
                     <span className="px-1.5 py-0.2 rounded-full bg-emerald-50 border border-emerald-200 text-[9px] font-mono text-emerald-700 font-semibold">
                       Offline PWA
                     </span>
                   </div>
-                  <p className="text-[11px] text-stone-600 truncate">
+                  <p className="text-[11px] text-muted-foreground truncate">
                     Fast cold boots &amp; zero-latency IndexedDB study.
                   </p>
                 </div>
@@ -178,7 +178,7 @@ export const PWAInstallBanner: React.FC = () => {
 
                 <button
                   onClick={handleDismiss}
-                  className="p-1.5 rounded-lg text-stone-400 hover:text-stone-700 hover:bg-stone-100 transition cursor-pointer"
+                  className="p-1.5 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition cursor-pointer"
                   title="Dismiss"
                 >
                   <X className="w-3.5 h-3.5" />
