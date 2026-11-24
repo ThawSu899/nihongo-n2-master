@@ -64,9 +64,9 @@ export const PWAInstallGuideCard: React.FC<PWAInstallGuideCardProps> = ({
   };
 
   return (
-    <div className="bg-white border border-stone-200 rounded-2xl p-5 sm:p-6 space-y-5 shadow-sm">
+    <div className="bg-card border border-border rounded-2xl p-5 sm:p-6 space-y-5 shadow-sm">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-stone-100 pb-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-4">
         <div>
           <div className="flex items-center space-x-2">
             <span className="p-1 rounded-lg bg-indigo-50 border border-indigo-200 text-indigo-700">
@@ -75,15 +75,15 @@ export const PWAInstallGuideCard: React.FC<PWAInstallGuideCardProps> = ({
             <span className="text-xs font-mono font-bold text-indigo-700 uppercase">
               PWA Install &amp; Share Hub
             </span>
-            <span className="text-stone-300">•</span>
+            <span className="text-muted-foreground/40">•</span>
             <span className="text-[11px] text-emerald-700 font-semibold bg-emerald-50 px-2 py-0.5 rounded-full border border-emerald-200">
               100% Offline Ready
             </span>
           </div>
-          <h2 className="text-lg sm:text-xl font-bold text-stone-900 tracking-tight mt-1 font-myanmar">
+          <h2 className="text-lg sm:text-xl font-bold text-foreground tracking-tight mt-1 font-myanmar">
             📲 ဖုန်းနှင့် ကွန်ပျူတာတွင် App သွင်းနည်း (PWA Setup Guide)
           </h2>
-          <p className="text-xs text-stone-600 mt-0.5 font-myanmar">
+          <p className="text-xs text-muted-foreground mt-0.5 font-myanmar">
             App Store သို့မဟုတ် Play Store သွားစရာမလိုဘဲ ဖုန်းနှင့် ကွန်ပျူတာပေါ်တွင် တိုက်ရိုက် Native App အဖြစ် သွင်းယူအသုံးပြုနိုင်ပါသည်။
           </p>
         </div>
@@ -98,9 +98,9 @@ export const PWAInstallGuideCard: React.FC<PWAInstallGuideCardProps> = ({
       </div>
 
       {/* 1-Click Live App Link Copy Bar */}
-      <div className="bg-stone-50 border border-stone-200 rounded-xl p-3 sm:p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+      <div className="bg-muted/50 border border-border rounded-xl p-3 sm:p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div className="space-y-1 min-w-0">
-          <div className="text-[11px] font-mono text-stone-500 uppercase tracking-wider font-semibold">
+          <div className="text-[11px] font-mono text-muted-foreground uppercase tracking-wider font-semibold">
             Official Live Production URL (တရားဝင် လင့်ခ်):
           </div>
           <div className="font-mono text-xs sm:text-sm font-bold text-indigo-700 truncate select-all">
@@ -115,11 +115,11 @@ export const PWAInstallGuideCard: React.FC<PWAInstallGuideCardProps> = ({
             className={`px-3.5 py-2 rounded-xl text-xs font-semibold transition active:scale-95 flex items-center space-x-1.5 cursor-pointer shadow-xs ${
               copied
                 ? 'bg-emerald-600 text-white'
-                : 'bg-white hover:bg-stone-100 text-stone-800 border border-stone-200'
+                : 'bg-card hover:bg-muted text-foreground border border-border'
             }`}
             title="Copy Live App Link"
           >
-            {copied ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5 text-stone-500" />}
+            {copied ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5 text-muted-foreground" />}
             <span className="font-myanmar text-[11px]">
               {copied ? '✓ Link Copied! (ကူးယူပြီးပါပြီ)' : 'Copy Live App Link'}
             </span>
@@ -128,7 +128,7 @@ export const PWAInstallGuideCard: React.FC<PWAInstallGuideCardProps> = ({
           {/* Share Button */}
           <button
             onClick={handleNativeShare}
-            className="p-2 rounded-xl bg-white hover:bg-stone-100 text-stone-700 border border-stone-200 transition cursor-pointer shadow-xs"
+            className="p-2 rounded-xl bg-card hover:bg-muted text-foreground border border-border transition cursor-pointer shadow-xs"
             title="Share app with friends"
           >
             <Share2 className="w-4 h-4" />
@@ -138,13 +138,13 @@ export const PWAInstallGuideCard: React.FC<PWAInstallGuideCardProps> = ({
 
       {/* Platform Switcher Tabs */}
       <div className="space-y-3">
-        <div className="flex items-center space-x-1 bg-stone-100 p-1 rounded-xl">
+        <div className="flex items-center space-x-1 bg-muted p-1 rounded-xl">
           <button
             onClick={() => setActivePlatform('android')}
             className={`flex-1 py-1.5 px-2 rounded-lg text-xs font-bold transition-all flex items-center justify-center space-x-1.5 cursor-pointer ${
               activePlatform === 'android'
-                ? 'bg-white text-indigo-700 shadow-xs'
-                : 'text-stone-600 hover:text-stone-900'
+                ? 'bg-card text-indigo-700 shadow-xs'
+                : 'text-muted-foreground hover:text-foreground'
             }`}
           >
             <Smartphone className="w-3.5 h-3.5" />
@@ -155,8 +155,8 @@ export const PWAInstallGuideCard: React.FC<PWAInstallGuideCardProps> = ({
             onClick={() => setActivePlatform('ios')}
             className={`flex-1 py-1.5 px-2 rounded-lg text-xs font-bold transition-all flex items-center justify-center space-x-1.5 cursor-pointer ${
               activePlatform === 'ios'
-                ? 'bg-white text-indigo-700 shadow-xs'
-                : 'text-stone-600 hover:text-stone-900'
+                ? 'bg-card text-indigo-700 shadow-xs'
+                : 'text-muted-foreground hover:text-foreground'
             }`}
           >
             <Apple className="w-3.5 h-3.5" />
@@ -167,8 +167,8 @@ export const PWAInstallGuideCard: React.FC<PWAInstallGuideCardProps> = ({
             onClick={() => setActivePlatform('desktop')}
             className={`flex-1 py-1.5 px-2 rounded-lg text-xs font-bold transition-all flex items-center justify-center space-x-1.5 cursor-pointer ${
               activePlatform === 'desktop'
-                ? 'bg-white text-indigo-700 shadow-xs'
-                : 'text-stone-600 hover:text-stone-900'
+                ? 'bg-card text-indigo-700 shadow-xs'
+                : 'text-muted-foreground hover:text-foreground'
             }`}
           >
             <Laptop className="w-3.5 h-3.5" />
@@ -177,13 +177,13 @@ export const PWAInstallGuideCard: React.FC<PWAInstallGuideCardProps> = ({
         </div>
 
         {/* Step-by-Step Instructions in Burmese */}
-        <div className="bg-stone-50/70 border border-stone-200 rounded-xl p-4 sm:p-5">
+        <div className="bg-muted/50/70 border border-border rounded-xl p-4 sm:p-5">
           {activePlatform === 'android' && (
             <div className="space-y-3 animate-in fade-in duration-150">
-              <h3 className="text-xs font-bold text-stone-900 flex items-center space-x-1.5 font-myanmar">
+              <h3 className="text-xs font-bold text-foreground flex items-center space-x-1.5 font-myanmar">
                 <span>🤖 Android ဖုန်းများတွင် သွင်းနည်း (Samsung, Xiaomi, Vivo, Oppo စသည်)</span>
               </h3>
-              <ol className="space-y-2.5 text-xs text-stone-700 font-myanmar leading-relaxed">
+              <ol className="space-y-2.5 text-xs text-foreground font-myanmar leading-relaxed">
                 <li className="flex items-start space-x-2">
                   <span className="w-5 h-5 rounded-full bg-indigo-100 text-indigo-800 text-[10px] font-mono font-bold flex items-center justify-center shrink-0 mt-0.5">
                     ၁
@@ -222,10 +222,10 @@ export const PWAInstallGuideCard: React.FC<PWAInstallGuideCardProps> = ({
 
           {activePlatform === 'ios' && (
             <div className="space-y-3 animate-in fade-in duration-150">
-              <h3 className="text-xs font-bold text-stone-900 flex items-center space-x-1.5 font-myanmar">
+              <h3 className="text-xs font-bold text-foreground flex items-center space-x-1.5 font-myanmar">
                 <span>🍏 iPhone &amp; iPad များတွင် သွင်းနည်း (iOS Safari)</span>
               </h3>
-              <ol className="space-y-2.5 text-xs text-stone-700 font-myanmar leading-relaxed">
+              <ol className="space-y-2.5 text-xs text-foreground font-myanmar leading-relaxed">
                 <li className="flex items-start space-x-2">
                   <span className="w-5 h-5 rounded-full bg-indigo-100 text-indigo-800 text-[10px] font-mono font-bold flex items-center justify-center shrink-0 mt-0.5">
                     ၁
@@ -264,10 +264,10 @@ export const PWAInstallGuideCard: React.FC<PWAInstallGuideCardProps> = ({
 
           {activePlatform === 'desktop' && (
             <div className="space-y-3 animate-in fade-in duration-150">
-              <h3 className="text-xs font-bold text-stone-900 flex items-center space-x-1.5 font-myanmar">
+              <h3 className="text-xs font-bold text-foreground flex items-center space-x-1.5 font-myanmar">
                 <span>💻 Windows PC &amp; Mac ကွန်ပျူတာများတွင် သွင်းနည်း (Edge / Chrome)</span>
               </h3>
-              <ol className="space-y-2.5 text-xs text-stone-700 font-myanmar leading-relaxed">
+              <ol className="space-y-2.5 text-xs text-foreground font-myanmar leading-relaxed">
                 <li className="flex items-start space-x-2">
                   <span className="w-5 h-5 rounded-full bg-indigo-100 text-indigo-800 text-[10px] font-mono font-bold flex items-center justify-center shrink-0 mt-0.5">
                     ၁

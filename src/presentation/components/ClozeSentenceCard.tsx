@@ -116,14 +116,14 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
         initial={{ opacity: 0, y: 12, scale: 0.98 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
         transition={{ duration: 0.25, ease: 'easeOut' }}
-        className={`relative overflow-hidden rounded-3xl bg-white border ${
+        className={`relative overflow-hidden rounded-3xl bg-card border ${
           isEvaluated && isCorrect
             ? 'border-emerald-500/50 shadow-sm'
             : isEvaluated && !isCorrect
             ? 'border-rose-500/50 shadow-sm'
             : nuanceWarning
             ? 'border-amber-500/50 shadow-sm'
-            : 'border-stone-200 shadow-sm'
+            : 'border-border shadow-sm'
         } p-6 sm:p-8 min-h-[350px] flex flex-col justify-between text-center transition-all duration-300 relative`}
       >
         {/* Subtle Ambient Micro-Hairline */}
@@ -135,7 +135,7 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
             <span className="px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 font-bold uppercase tracking-wider">
               Cloze Active Recall
             </span>
-            <span className="px-2 py-0.5 rounded-full bg-stone-100 border border-stone-200 text-stone-600">
+            <span className="px-2 py-0.5 rounded-full bg-muted border border-border text-muted-foreground">
               {card.facet || 'grammar'}
             </span>
             {isLeechCard(card) && (
@@ -152,7 +152,7 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
           <button
             type="button"
             onClick={() => setShowHint(!showHint)}
-            className="flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-stone-50 hover:bg-stone-100 border border-stone-200 text-stone-600 hover:text-stone-900 transition cursor-pointer"
+            className="flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-muted/50 hover:bg-muted border border-border text-muted-foreground hover:text-foreground transition cursor-pointer"
           >
             <HelpCircle className="w-3.5 h-3.5 text-indigo-600" />
             <span>{showHint ? 'Hide Hint' : 'Nuance Hint'}</span>
@@ -161,7 +161,7 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
 
         {/* Center Prompt: Japanese Sentence with Cloze Blank */}
         <div className="my-auto py-6 space-y-5">
-          <div className="text-xl sm:text-2xl md:text-3xl font-bold font-japanese text-stone-900 tracking-tight leading-relaxed">
+          <div className="text-xl sm:text-2xl md:text-3xl font-bold font-japanese text-foreground tracking-tight leading-relaxed">
             {onInspectKanji ? (
               <InteractiveKanjiText
                 text={prefix}
@@ -173,7 +173,7 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
             )}
 
             {/* Glowing Cloze Slot */}
-            <span className="inline-block mx-2 px-3.5 py-1 rounded-xl bg-stone-50 border-2 border-indigo-500 text-indigo-900 font-mono shadow-xs min-w-[130px] ring-2 ring-indigo-500/10 align-middle">
+            <span className="inline-block mx-2 px-3.5 py-1 rounded-xl bg-muted/50 border-2 border-indigo-500 text-indigo-900 font-mono shadow-xs min-w-[130px] ring-2 ring-indigo-500/10 align-middle">
               {isEvaluated ? (
                 <span className={isCorrect ? 'text-emerald-700 font-bold' : 'text-rose-700 font-bold'}>
                   {targetPattern}
@@ -203,7 +203,7 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
                 value={inputVal}
                 onChange={handleInputChange}
                 placeholder="文法パターンをひらがなで入力..."
-                className="w-full bg-white border border-stone-300 focus:border-indigo-600 rounded-2xl px-4 py-3 text-center text-lg font-japanese text-stone-900 placeholder:text-stone-400 focus:outline-none focus:ring-4 focus:ring-indigo-500/10 transition-all font-semibold shadow-xs"
+                className="w-full bg-card border border-border focus:border-indigo-600 rounded-2xl px-4 py-3 text-center text-lg font-japanese text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-4 focus:ring-indigo-500/10 transition-all font-semibold shadow-xs"
                 autoComplete="off"
                 autoCapitalize="off"
                 spellCheck="false"
@@ -230,7 +230,7 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
                 </div>
               )}
 
-              <div className="text-sm sm:text-base font-semibold text-stone-800 font-myanmar">
+              <div className="text-sm sm:text-base font-semibold text-foreground font-myanmar">
                 {meaningMyanmar || englishTranslation || card.meaning}
               </div>
             </div>
@@ -263,14 +263,14 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: 'auto' }}
                 exit={{ opacity: 0, height: 0 }}
-                className="bg-stone-50 border border-stone-200 rounded-2xl p-3.5 text-xs text-stone-700 space-y-1.5 max-w-md mx-auto shadow-xs"
+                className="bg-muted/50 border border-border rounded-2xl p-3.5 text-xs text-foreground space-y-1.5 max-w-md mx-auto shadow-xs"
               >
                 <span className="font-mono text-[10px] uppercase text-indigo-600 font-bold block">
                   Grammar Nuance Clue:
                 </span>
-                <p className="text-stone-600 italic font-myanmar">&ldquo;{meaningMyanmar || englishTranslation}&rdquo;</p>
+                <p className="text-muted-foreground italic font-myanmar">&ldquo;{meaningMyanmar || englishTranslation}&rdquo;</p>
                 {card.facet && (
-                  <p className="text-[11px] text-stone-500 font-mono">Facet: {card.facet}</p>
+                  <p className="text-[11px] text-muted-foreground font-mono">Facet: {card.facet}</p>
                 )}
               </motion.div>
             )}
@@ -278,25 +278,25 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
         </div>
 
         {/* Card Footer Controls */}
-        <div className="flex items-center justify-between text-[11px] font-mono text-stone-500 pt-3 border-t border-stone-200 flex-wrap gap-2">
+        <div className="flex items-center justify-between text-[11px] font-mono text-muted-foreground pt-3 border-t border-border flex-wrap gap-2">
           {!isEvaluated ? (
             <>
               <div className="flex items-center space-x-2 flex-wrap">
-                <span className="font-myanmar text-stone-600">ဟီရဂနဖြင့် ရိုက်ထည့်ပါ • Enter ခေါက်၍ အတည်ပြုပါ</span>
-                <span className="text-stone-400 hidden sm:inline">&bull;</span>
-                <span className="font-myanmar text-stone-500 hidden sm:inline">Space Bar နှိပ်၍ Flashcard သို့ ပြောင်းနိုင်သည်</span>
+                <span className="font-myanmar text-muted-foreground">ဟီရဂနဖြင့် ရိုက်ထည့်ပါ • Enter ခေါက်၍ အတည်ပြုပါ</span>
+                <span className="text-muted-foreground hidden sm:inline">&bull;</span>
+                <span className="font-myanmar text-muted-foreground hidden sm:inline">Space Bar နှိပ်၍ Flashcard သို့ ပြောင်းနိုင်သည်</span>
               </div>
               <button
                 type="button"
                 onClick={handleReveal}
-                className="flex items-center space-x-1 text-stone-600 hover:text-rose-600 transition cursor-pointer shrink-0"
+                className="flex items-center space-x-1 text-muted-foreground hover:text-rose-600 transition cursor-pointer shrink-0"
               >
                 <Eye className="w-3.5 h-3.5" />
                 <span>Give Up / Reveal</span>
               </button>
             </>
           ) : (
-            <span className="text-stone-600 text-center w-full">
+            <span className="text-muted-foreground text-center w-full">
               Rate your recall difficulty below to advance the FSRS schedule
             </span>
           )}
@@ -320,7 +320,7 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
             >
               <span className="flex items-center space-x-1">
                 <span>Again</span>
-                <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-white border border-rose-200 text-rose-700 font-mono font-normal">
+                <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-card border border-rose-200 text-rose-700 font-mono font-normal">
                   1
                 </span>
               </span>
@@ -335,7 +335,7 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
             >
               <span className="flex items-center space-x-1">
                 <span>Hard</span>
-                <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-white border border-amber-200 text-amber-700 font-mono font-normal">
+                <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-card border border-amber-200 text-amber-700 font-mono font-normal">
                   2
                 </span>
               </span>
@@ -350,7 +350,7 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
             >
               <span className="flex items-center space-x-1">
                 <span>Good</span>
-                <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-white border border-emerald-200 text-emerald-700 font-mono font-normal">
+                <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-card border border-emerald-200 text-emerald-700 font-mono font-normal">
                   3
                 </span>
               </span>
@@ -365,14 +365,14 @@ export const ClozeSentenceCard: React.FC<ClozeSentenceCardProps> = ({
             >
               <span className="flex items-center space-x-1">
                 <span>Easy</span>
-                <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-white border border-indigo-200 text-indigo-700 font-mono font-normal">
+                <span className="text-[10px] px-1.5 py-0.2 rounded-md bg-card border border-indigo-200 text-indigo-700 font-mono font-normal">
                   4
                 </span>
               </span>
               <span className="text-[10px] text-indigo-600 font-normal mt-1">&gt; 3.0x</span>
             </motion.button>
           </div>
-          <p className="text-[10px] text-center text-stone-500 font-mono">
+          <p className="text-[10px] text-center text-muted-foreground font-mono">
             Press numeric keys [1], [2], [3], [4] on your keyboard
           </p>
         </motion.div>

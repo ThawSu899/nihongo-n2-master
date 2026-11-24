@@ -257,19 +257,19 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
     const levels: JLPTLevel[] = ['N5', 'N4', 'N3', 'N2'];
 
     return (
-      <div className="min-h-screen bg-stone-100 text-stone-900 p-4 sm:p-8 max-w-5xl mx-auto space-y-8 animate-fade-in">
+      <div className="min-h-screen bg-muted text-foreground p-4 sm:p-8 max-w-5xl mx-auto space-y-8 animate-fade-in">
         {/* Header Hero */}
-        <div className="relative overflow-hidden rounded-3xl bg-white border border-stone-200 p-6 sm:p-10 shadow-sm">
+        <div className="relative overflow-hidden rounded-3xl bg-card border border-border p-6 sm:p-10 shadow-sm">
           <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
             <div className="space-y-3 max-w-xl">
               <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200 text-indigo-700 text-xs font-semibold">
                 <Award className="w-3.5 h-3.5" />
                 <span>JLPT Official-Style Simulator</span>
               </div>
-              <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-stone-900">
+              <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-foreground">
                 JLPT ပုံစံတူ စာမေးပွဲ (Mock Exam)
               </h1>
-              <p className="text-xs sm:text-sm text-stone-600 leading-relaxed font-burmese">
+              <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed font-burmese">
                 တရားဝင် JLPT အချိန်ကန့်သတ်ချက်များ၊ ကဏ္ဍအလိုက် အမှတ်ပေးစည်းမျဉ်းများနှင့် ၁၈၀ မှတ်
                 Scaled Scoring စနစ်ဖြင့် သင့်အရည်အချင်းကို အချိန်နှင့်တပြေးညီ တိုင်းတာပါ။
               </p>
@@ -277,7 +277,7 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
 
             <button
               onClick={onExit}
-              className="self-start md:self-auto px-4 py-2 rounded-xl bg-white hover:bg-stone-50 text-stone-700 text-xs font-medium border border-stone-300 transition cursor-pointer shadow-xs"
+              className="self-start md:self-auto px-4 py-2 rounded-xl bg-card hover:bg-muted/50 text-foreground text-xs font-medium border border-border transition cursor-pointer shadow-xs"
             >
               ← ပင်မစာမျက်နှာသို့ (Home)
             </button>
@@ -286,8 +286,8 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
 
         {/* Level Selector Tabs */}
         <div className="space-y-4">
-          <h2 className="text-xs font-bold text-stone-900 uppercase tracking-wider flex items-center space-x-2">
-            <Layers className="w-4 h-4 text-stone-500" />
+          <h2 className="text-xs font-bold text-foreground uppercase tracking-wider flex items-center space-x-2">
+            <Layers className="w-4 h-4 text-muted-foreground" />
             <span>JLPT အဆင့် ရွေးချယ်ပါ (Select Target Level)</span>
           </h2>
 
@@ -299,23 +299,23 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
                 <button
                   key={lvl}
                   onClick={() => setSelectedLevel(lvl)}
-                  className={`p-4 rounded-2xl border text-left transition cursor-pointer flex flex-col justify-between bg-white ${
+                  className={`p-4 rounded-2xl border text-left transition cursor-pointer flex flex-col justify-between bg-card ${
                     active
                       ? 'border-indigo-600 ring-2 ring-indigo-500/20 shadow-sm'
-                      : 'border-stone-200 hover:border-stone-300 text-stone-600 hover:text-stone-900 shadow-xs'
+                      : 'border-border hover:border-border text-muted-foreground hover:text-foreground shadow-xs'
                   }`}
                 >
                   <div className="flex items-center justify-between">
                     <span
                       className={`text-2xl font-black font-mono ${
-                        active ? 'text-indigo-600' : 'text-stone-900'
+                        active ? 'text-indigo-600' : 'text-foreground'
                       }`}
                     >
                       {lvl}
                     </span>
                     {active && <CheckCircle2 className="w-4 h-4 text-indigo-600" />}
                   </div>
-                  <div className="mt-3 text-[11px] space-y-0.5 text-stone-600">
+                  <div className="mt-3 text-[11px] space-y-0.5 text-muted-foreground">
                     <div>⏱️ {lvlConfig.durationMinutes} mins</div>
                     <div>📝 {lvlConfig.totalQuestions} questions</div>
                     <div className="text-emerald-700 font-mono font-medium">
@@ -329,13 +329,13 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
         </div>
 
         {/* Selected Level Exam Specification Card */}
-        <div className="relative overflow-hidden rounded-3xl bg-white border border-stone-200 p-6 sm:p-8 shadow-sm space-y-6">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-stone-200">
+        <div className="relative overflow-hidden rounded-3xl bg-card border border-border p-6 sm:p-8 shadow-sm space-y-6">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 border-b border-border">
             <div>
-              <h3 className="text-lg sm:text-xl font-bold text-stone-900 flex items-center space-x-2">
+              <h3 className="text-lg sm:text-xl font-bold text-foreground flex items-center space-x-2">
                 <span>{config.titleBurmese}</span>
               </h3>
-              <p className="text-xs text-stone-600 mt-1">{config.descriptionBurmese}</p>
+              <p className="text-xs text-muted-foreground mt-1">{config.descriptionBurmese}</p>
             </div>
 
             <button
@@ -357,32 +357,32 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
 
           {/* 3 Section Breakdown Badges */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs">
-            <div className="p-4 rounded-2xl bg-stone-50 border border-stone-200 shadow-xs">
-              <div className="text-stone-700 font-medium">ကဏ္ဍ ၁: 文字・語彙</div>
+            <div className="p-4 rounded-2xl bg-muted/50 border border-border shadow-xs">
+              <div className="text-foreground font-medium">ကဏ္ဍ ၁: 文字・語彙</div>
               <div className="text-lg font-bold text-emerald-700 font-mono mt-1">
                 {config.sectionDistribution.vocabulary} မေးခွန်း
               </div>
-              <div className="text-[11px] text-stone-500 mt-0.5">
+              <div className="text-[11px] text-muted-foreground mt-0.5">
                 ဝေါဟာရ၊ ခန်ဂျီအသံထွက်နှင့် အဓိပ္ပာယ်
               </div>
             </div>
 
-            <div className="p-4 rounded-2xl bg-stone-50 border border-stone-200 shadow-xs">
-              <div className="text-stone-700 font-medium">ကဏ္ဍ ၂: 文法</div>
+            <div className="p-4 rounded-2xl bg-muted/50 border border-border shadow-xs">
+              <div className="text-foreground font-medium">ကဏ္ဍ ၂: 文法</div>
               <div className="text-lg font-bold text-sky-700 font-mono mt-1">
                 {config.sectionDistribution.grammar} မေးခွန်း
               </div>
-              <div className="text-[11px] text-stone-500 mt-0.5">
+              <div className="text-[11px] text-muted-foreground mt-0.5">
                 သဒ္ဒါပုံစံ၊ ဝါကျဖွဲ့စည်းပုံနှင့် ကွက်လပ်ဖြည့်
               </div>
             </div>
 
-            <div className="p-4 rounded-2xl bg-stone-50 border border-stone-200 shadow-xs">
-              <div className="text-stone-700 font-medium">ကဏ္ဍ ၃: 読解</div>
+            <div className="p-4 rounded-2xl bg-muted/50 border border-border shadow-xs">
+              <div className="text-foreground font-medium">ကဏ္ဍ ၃: 読解</div>
               <div className="text-lg font-bold text-amber-700 font-mono mt-1">
                 {config.sectionDistribution.reading} မေးခွန်း
               </div>
-              <div className="text-[11px] text-stone-500 mt-0.5">
+              <div className="text-[11px] text-muted-foreground mt-0.5">
                 သတင်းစကား၊ အီးမေးလ်နှင့် စာပိုဒ်တိုဖတ်ရှုနားလည်မှု
               </div>
             </div>
@@ -392,8 +392,8 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
         {/* Past Exam History */}
         {examHistory.length > 0 && (
           <div className="space-y-4">
-            <h3 className="text-xs font-bold text-stone-900 uppercase tracking-wider flex items-center space-x-2">
-              <Clock className="w-4 h-4 text-stone-500" />
+            <h3 className="text-xs font-bold text-foreground uppercase tracking-wider flex items-center space-x-2">
+              <Clock className="w-4 h-4 text-muted-foreground" />
               <span>ယခင်ဖြေဆိုခဲ့သော ရလဒ်များ ({selectedLevel} Exam History)</span>
             </h3>
 
@@ -401,7 +401,7 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
               {examHistory.slice(0, 4).map((hist) => (
                 <div
                   key={hist.id}
-                  className="p-4 rounded-2xl bg-white border border-stone-200 shadow-xs flex items-center justify-between text-xs"
+                  className="p-4 rounded-2xl bg-card border border-border shadow-xs flex items-center justify-between text-xs"
                 >
                   <div className="space-y-1">
                     <div className="flex items-center space-x-2">
@@ -414,16 +414,16 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
                       >
                         {hist.passed ? '✓ PASS' : '✗ FAIL'}
                       </span>
-                      <span className="font-mono font-bold text-stone-900 text-sm">
+                      <span className="font-mono font-bold text-foreground text-sm">
                         {hist.scaledScore} / 180
                       </span>
                     </div>
-                    <div className="text-[10px] text-stone-500 font-mono">
+                    <div className="text-[10px] text-muted-foreground font-mono">
                       {new Date(hist.completedAt).toLocaleString()}
                     </div>
                   </div>
 
-                  <div className="text-right text-[11px] text-stone-600 font-mono">
+                  <div className="text-right text-[11px] text-muted-foreground font-mono">
                     <div>
                       မှန်: {hist.correctQuestions} / {hist.totalQuestions}
                     </div>
@@ -450,18 +450,18 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
     const isDangerTime = secondsRemaining <= 60; // < 1 min
 
     return (
-      <div className="min-h-screen bg-stone-100 text-stone-900 flex flex-col pb-16">
+      <div className="min-h-screen bg-muted text-foreground flex flex-col pb-16">
         {/* Sticky Top Bar */}
-        <header className="sticky top-0 z-40 bg-white/90 backdrop-blur-xl border-b border-stone-200 px-4 py-3 shadow-xs">
+        <header className="sticky top-0 z-40 bg-card/90 backdrop-blur-xl border-b border-border px-4 py-3 shadow-xs">
           <div className="max-w-4xl mx-auto flex items-center justify-between gap-3">
             {/* Left: Exam tag + Progress */}
             <div className="flex items-center space-x-3">
               <span className="px-2.5 py-1 rounded-lg bg-indigo-50 border border-indigo-200 text-xs font-mono font-bold text-indigo-700">
                 {selectedLevel} Mock
               </span>
-              <div className="text-xs font-mono font-medium text-stone-800">
+              <div className="text-xs font-mono font-medium text-foreground">
                 {currentIndex + 1}{' '}
-                <span className="text-stone-400 font-normal">/ {questions.length}</span>
+                <span className="text-muted-foreground font-normal">/ {questions.length}</span>
               </div>
             </div>
 
@@ -472,7 +472,7 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
                   ? 'bg-rose-50 border-rose-300 text-rose-700 animate-pulse shadow-xs'
                   : isWarningTime
                   ? 'bg-amber-50 border-amber-300 text-amber-800'
-                  : 'bg-stone-50 border-stone-200 text-stone-800'
+                  : 'bg-muted/50 border-border text-foreground'
               }`}
             >
               <Clock className="w-3.5 h-3.5" />
@@ -483,12 +483,12 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
             <div className="flex items-center space-x-2">
               <button
                 onClick={() => setIsMatrixOpen(!isMatrixOpen)}
-                className="px-3 py-1.5 rounded-xl bg-white hover:bg-stone-50 text-stone-700 text-xs font-medium border border-stone-300 flex items-center space-x-1.5 transition cursor-pointer shadow-xs"
+                className="px-3 py-1.5 rounded-xl bg-card hover:bg-muted/50 text-foreground text-xs font-medium border border-border flex items-center space-x-1.5 transition cursor-pointer shadow-xs"
                 title="မေးခွန်းများ စာရင်း"
               >
-                <ListOrdered className="w-3.5 h-3.5 text-stone-500" />
+                <ListOrdered className="w-3.5 h-3.5 text-muted-foreground" />
                 <span className="hidden sm:inline">မေးခွန်းများ</span>
-                <span className="text-[10px] font-mono px-1.5 py-0.2 rounded-full bg-stone-100 text-stone-600">
+                <span className="text-[10px] font-mono px-1.5 py-0.2 rounded-full bg-muted text-muted-foreground">
                   {answeredCount}/{questions.length}
                 </span>
               </button>
@@ -506,11 +506,11 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
         {/* Main Exam Content Container */}
         <main className="flex-1 max-w-3xl w-full mx-auto p-4 sm:p-6 space-y-6">
           {/* Section Indicator Bar */}
-          <div className="flex items-center justify-between text-xs text-stone-600 border-b border-stone-200 pb-3">
+          <div className="flex items-center justify-between text-xs text-muted-foreground border-b border-border pb-3">
             <div className="flex items-center space-x-2">
               <span className="w-2 h-2 rounded-full bg-indigo-600 animate-pulse" />
-              <span className="font-bold text-stone-900">{currentQ.sectionTitleJa}</span>
-              <span className="text-stone-500 font-burmese">({currentQ.sectionTitleMy})</span>
+              <span className="font-bold text-foreground">{currentQ.sectionTitleJa}</span>
+              <span className="text-muted-foreground font-burmese">({currentQ.sectionTitleMy})</span>
             </div>
 
             <button
@@ -518,7 +518,7 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
               className={`flex items-center space-x-1.5 px-2.5 py-1 rounded-lg border text-[11px] font-medium transition cursor-pointer ${
                 currentAnswer?.isFlagged
                   ? 'bg-amber-50 border-amber-300 text-amber-800'
-                  : 'bg-white border-stone-300 text-stone-600 hover:text-stone-900 shadow-xs'
+                  : 'bg-card border-border text-muted-foreground hover:text-foreground shadow-xs'
               }`}
             >
               <Flag
@@ -527,21 +527,21 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
                 }`}
               />
               <span>{currentAnswer?.isFlagged ? 'အလံပြထားသည်' : 'အလံပြရန်'}</span>
-              <kbd className="hidden sm:inline text-[9px] bg-stone-100 px-1 py-0.2 rounded text-stone-500">
+              <kbd className="hidden sm:inline text-[9px] bg-muted px-1 py-0.2 rounded text-muted-foreground">
                 F
               </kbd>
             </button>
           </div>
 
           {/* Question Card */}
-          <div className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 shadow-sm space-y-6">
+          <div className="bg-card border border-border rounded-3xl p-6 sm:p-8 shadow-sm space-y-6">
             {/* Prompt */}
             <div className="space-y-2">
-              <div className="text-lg sm:text-2xl font-bold text-stone-900 tracking-wide leading-relaxed whitespace-pre-wrap">
+              <div className="text-lg sm:text-2xl font-bold text-foreground tracking-wide leading-relaxed whitespace-pre-wrap">
                 {currentQ.prompt}
               </div>
               {currentQ.promptMy && (
-                <div className="text-xs sm:text-sm text-stone-600 font-burmese leading-relaxed">
+                <div className="text-xs sm:text-sm text-muted-foreground font-burmese leading-relaxed">
                   {currentQ.promptMy}
                 </div>
               )}
@@ -559,8 +559,8 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
                     onClick={() => handleSelectChoice(currentQ.id, choice)}
                     className={`group relative flex items-center justify-between p-4 rounded-2xl border text-left transition-all cursor-pointer ${
                       isSelected
-                        ? 'bg-indigo-50 border-indigo-600 ring-2 ring-indigo-500/20 shadow-sm text-stone-900'
-                        : 'bg-stone-50/70 hover:bg-white border-stone-200 hover:border-stone-300 text-stone-800 shadow-xs'
+                        ? 'bg-indigo-50 border-indigo-600 ring-2 ring-indigo-500/20 shadow-sm text-foreground'
+                        : 'bg-muted/50/70 hover:bg-card border-border hover:border-border text-foreground shadow-xs'
                     }`}
                   >
                     <div className="flex items-center space-x-3.5">
@@ -568,14 +568,14 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
                         className={`w-7 h-7 rounded-xl flex items-center justify-center text-xs font-mono font-bold border transition ${
                           isSelected
                             ? 'bg-indigo-600 text-white border-indigo-600'
-                            : 'bg-white border-stone-300 text-stone-600 group-hover:border-stone-400'
+                            : 'bg-card border-border text-muted-foreground group-hover:border-border'
                         }`}
                       >
                         {hotkeyNumber}
                       </span>
                       <span
                         className={`text-sm sm:text-base font-medium ${
-                          isSelected ? 'text-stone-900 font-bold' : 'text-stone-800'
+                          isSelected ? 'text-foreground font-bold' : 'text-foreground'
                         }`}
                       >
                         {choice}
@@ -586,7 +586,7 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
                       className={`w-5 h-5 rounded-full border flex items-center justify-center transition ${
                         isSelected
                           ? 'border-indigo-600 bg-indigo-600 text-white'
-                          : 'border-stone-300 bg-white'
+                          : 'border-border bg-card'
                       }`}
                     >
                       {isSelected && <Check className="w-3.5 h-3.5 stroke-[3]" />}
@@ -602,7 +602,7 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
             <button
               onClick={() => setCurrentIndex((p) => Math.max(0, p - 1))}
               disabled={currentIndex === 0}
-              className="py-3 px-5 rounded-2xl bg-white hover:bg-stone-50 disabled:opacity-40 text-stone-700 border border-stone-300 text-xs font-bold flex items-center space-x-2 transition cursor-pointer shadow-xs"
+              className="py-3 px-5 rounded-2xl bg-card hover:bg-muted/50 disabled:opacity-40 text-foreground border border-border text-xs font-bold flex items-center space-x-2 transition cursor-pointer shadow-xs"
             >
               <ArrowLeft className="w-4 h-4" />
               <span>ယခင် (Previous)</span>
@@ -630,15 +630,15 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
 
         {/* Question Matrix Drawer / Modal */}
         {isMatrixOpen && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-900/40 backdrop-blur-sm animate-fade-in">
-            <div className="relative w-full max-w-xl bg-white border border-stone-200 rounded-3xl p-6 shadow-xl max-h-[85vh] flex flex-col text-stone-900">
-              <div className="flex items-center justify-between pb-4 border-b border-stone-200">
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-background/80 backdrop-blur-sm animate-fade-in">
+            <div className="relative w-full max-w-xl bg-card border border-border rounded-3xl p-6 shadow-xl max-h-[85vh] flex flex-col text-foreground">
+              <div className="flex items-center justify-between pb-4 border-b border-border">
                 <div className="space-y-0.5">
-                  <h3 className="text-base font-bold text-stone-900 flex items-center space-x-2">
+                  <h3 className="text-base font-bold text-foreground flex items-center space-x-2">
                     <ListOrdered className="w-4 h-4 text-indigo-600" />
                     <span>မေးခွန်းများ စာရင်း (Question Navigator)</span>
                   </h3>
-                  <div className="text-xs text-stone-600">
+                  <div className="text-xs text-muted-foreground">
                     ဖြေဆိုပြီး: <strong className="text-emerald-700">{answeredCount}</strong> /{' '}
                     {questions.length} | အလံပြထား: <strong className="text-amber-700">{flaggedCount}</strong>
                   </div>
@@ -646,7 +646,7 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
 
                 <button
                   onClick={() => setIsMatrixOpen(false)}
-                  className="p-2 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-600 hover:text-stone-900 transition cursor-pointer"
+                  className="p-2 rounded-xl bg-muted hover:bg-muted text-muted-foreground hover:text-foreground transition cursor-pointer"
                 >
                   <X className="w-4 h-4" />
                 </button>
@@ -661,7 +661,7 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
                     const isFlagged = ans?.isFlagged;
                     const isCurrent = idx === currentIndex;
 
-                    let bgClass = 'bg-stone-50 border-stone-200 text-stone-600';
+                    let bgClass = 'bg-muted/50 border-border text-muted-foreground';
                     if (isFlagged) {
                       bgClass = 'bg-amber-50 border-amber-300 text-amber-800 font-bold';
                     } else if (isAnswered) {
@@ -689,7 +689,7 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
                 </div>
               </div>
 
-              <div className="pt-3 border-t border-stone-200 flex items-center justify-between text-[11px] text-stone-600">
+              <div className="pt-3 border-t border-border flex items-center justify-between text-[11px] text-muted-foreground">
                 <div className="flex items-center space-x-3">
                   <span className="flex items-center space-x-1">
                     <span className="w-2.5 h-2.5 rounded-full bg-emerald-500" />
@@ -700,13 +700,13 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
                     <span>အလံပြ</span>
                   </span>
                   <span className="flex items-center space-x-1">
-                    <span className="w-2.5 h-2.5 rounded-full bg-stone-300" />
+                    <span className="w-2.5 h-2.5 rounded-full bg-muted" />
                     <span>မဖြေရသေး</span>
                   </span>
                 </div>
                 <button
                   onClick={() => setIsMatrixOpen(false)}
-                  className="px-4 py-1.5 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-800 font-bold border border-stone-300 cursor-pointer"
+                  className="px-4 py-1.5 rounded-xl bg-muted hover:bg-muted text-foreground font-bold border border-border cursor-pointer"
                 >
                   ပိတ်မည်
                 </button>
@@ -717,22 +717,22 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
 
         {/* Submit Confirmation Modal */}
         {showSubmitConfirm && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-900/40 backdrop-blur-sm animate-fade-in">
-            <div className="relative w-full max-w-md bg-white border border-stone-200 rounded-3xl p-6 shadow-xl space-y-4 text-stone-900">
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-background/80 backdrop-blur-sm animate-fade-in">
+            <div className="relative w-full max-w-md bg-card border border-border rounded-3xl p-6 shadow-xl space-y-4 text-foreground">
               <div className="text-center space-y-2">
                 <div className="w-12 h-12 rounded-2xl bg-amber-50 border border-amber-200 flex items-center justify-center mx-auto text-amber-600">
                   <AlertCircle className="w-6 h-6" />
                 </div>
-                <h3 className="text-lg font-bold text-stone-900">အဖြေလွှာ တင်သွင်းမည်လား။</h3>
-                <p className="text-xs text-stone-600 font-burmese leading-relaxed">
+                <h3 className="text-lg font-bold text-foreground">အဖြေလွှာ တင်သွင်းမည်လား။</h3>
+                <p className="text-xs text-muted-foreground font-burmese leading-relaxed">
                   အဖြေလွှာတင်ပြီးပါက အမှတ်များကို တွက်ချက်ကာ အမှားများကို FSRS Quarantine သို့
                   ပေးပို့သွားမည် ဖြစ်ပါသည်။
                 </p>
               </div>
 
               {/* Status metrics pill */}
-              <div className="bg-stone-50 border border-stone-200 rounded-2xl p-3.5 space-y-1.5 text-xs font-mono">
-                <div className="flex justify-between text-stone-600">
+              <div className="bg-muted/50 border border-border rounded-2xl p-3.5 space-y-1.5 text-xs font-mono">
+                <div className="flex justify-between text-muted-foreground">
                   <span>ဖြေဆိုပြီး မေးခွန်း:</span>
                   <span className="font-bold text-emerald-700">
                     {answeredCount} / {questions.length}
@@ -750,16 +750,16 @@ export const MockExamScreen: React.FC<MockExamScreenProps> = ({
                     <span className="font-bold">{flaggedCount}</span>
                   </div>
                 )}
-                <div className="flex justify-between text-stone-600 pt-1 border-t border-stone-200">
+                <div className="flex justify-between text-muted-foreground pt-1 border-t border-border">
                   <span>ကျန်ရှိချိန်:</span>
-                  <span className="font-bold text-stone-900">{formatTime(secondsRemaining)}</span>
+                  <span className="font-bold text-foreground">{formatTime(secondsRemaining)}</span>
                 </div>
               </div>
 
               <div className="flex gap-2.5 pt-2">
                 <button
                   onClick={() => setShowSubmitConfirm(false)}
-                  className="flex-1 py-2.5 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-700 text-xs font-bold border border-stone-300 transition cursor-pointer"
+                  className="flex-1 py-2.5 rounded-xl bg-muted hover:bg-muted text-foreground text-xs font-bold border border-border transition cursor-pointer"
                 >
                   ဆက်လက်ဖြေဆိုမည်
                 </button>

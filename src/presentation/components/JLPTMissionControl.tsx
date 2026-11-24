@@ -257,26 +257,26 @@ export const JLPTMissionControl: React.FC<JLPTMissionControlProps> = ({
   return (
     <section
       aria-label="JLPT Mission Control"
-      className={`bg-white border border-stone-200 hover:border-indigo-200/80 rounded-3xl p-6 sm:p-7 shadow-sm transition-all duration-300 relative overflow-hidden ${className}`}
+      className={`bg-card border border-border hover:border-indigo-200/80 rounded-3xl p-6 sm:p-7 shadow-sm transition-all duration-300 relative overflow-hidden ${className}`}
     >
       {/* Background Accent Pill */}
       <div className="absolute -top-12 -right-12 w-48 h-48 bg-indigo-50/50 rounded-full blur-2xl pointer-events-none" />
 
       {/* Header & Controls */}
-      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-b border-stone-200 pb-5 relative z-10">
+      <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 border-b border-border pb-5 relative z-10">
         <div className="space-y-1">
           <div className="flex items-center space-x-2">
             <span className="p-1.5 rounded-xl bg-indigo-50 border border-indigo-200 text-indigo-700">
               <Compass className="w-5 h-5 text-indigo-600" />
             </span>
-            <h2 className="text-lg font-bold text-stone-900 tracking-tight flex items-center gap-2">
+            <h2 className="text-lg font-bold text-foreground tracking-tight flex items-center gap-2">
               <span>JLPT Mission Control</span>
-              <span className="text-xs font-normal text-stone-500 hidden sm:inline font-sans">
+              <span className="text-xs font-normal text-muted-foreground hidden sm:inline font-sans">
                 (Predictive Burn-Down &amp; Velocity Planner)
               </span>
             </h2>
           </div>
-          <p className="text-xs text-stone-600 font-sans">
+          <p className="text-xs text-muted-foreground font-sans">
             JLPT စာမေးပွဲ အထူးကွပ်ကဲရေးစင်တာ • Real-time curriculum burn-down and study pacing
           </p>
         </div>
@@ -287,7 +287,7 @@ export const JLPTMissionControl: React.FC<JLPTMissionControlProps> = ({
           <div
             role="group"
             aria-label="Target JLPT Level"
-            className="flex items-center p-1 bg-stone-100 rounded-xl border border-stone-200 text-xs font-mono font-semibold"
+            className="flex items-center p-1 bg-muted rounded-xl border border-border text-xs font-mono font-semibold"
           >
             {TARGET_LEVELS.map((lvl) => {
               const isSelected = examTarget.targetLevel === lvl;
@@ -297,8 +297,8 @@ export const JLPTMissionControl: React.FC<JLPTMissionControlProps> = ({
                   onClick={() => handleLevelChange(lvl)}
                   className={`px-3 py-1 rounded-lg transition-all cursor-pointer ${
                     isSelected
-                      ? 'bg-white text-indigo-700 shadow-xs font-bold border border-stone-200'
-                      : 'text-stone-600 hover:text-stone-900'
+                      ? 'bg-card text-indigo-700 shadow-xs font-bold border border-border'
+                      : 'text-muted-foreground hover:text-foreground'
                   }`}
                   aria-pressed={isSelected}
                   title={`Target JLPT ${lvl}`}
@@ -310,19 +310,19 @@ export const JLPTMissionControl: React.FC<JLPTMissionControlProps> = ({
           </div>
 
           {/* Target Exam Date Input */}
-          <div className="flex items-center space-x-1.5 bg-stone-50 border border-stone-200 rounded-xl px-2.5 py-1">
-            <Calendar className="w-3.5 h-3.5 text-stone-500" />
+          <div className="flex items-center space-x-1.5 bg-muted/50 border border-border rounded-xl px-2.5 py-1">
+            <Calendar className="w-3.5 h-3.5 text-muted-foreground" />
             <input
               type="date"
               value={examTarget.targetDate}
               onChange={handleDateChange}
               aria-label="Target JLPT Exam Date"
-              className="text-xs font-mono text-stone-800 bg-transparent border-0 focus:outline-hidden focus:ring-0 cursor-pointer"
+              className="text-xs font-mono text-foreground bg-transparent border-0 focus:outline-hidden focus:ring-0 cursor-pointer"
             />
             {examTarget.targetDate !== DEFAULT_EXAM_DATE && (
               <button
                 onClick={handleResetDefaultDate}
-                className="p-1 text-stone-400 hover:text-indigo-600 rounded transition cursor-pointer"
+                className="p-1 text-muted-foreground hover:text-indigo-600 rounded transition cursor-pointer"
                 title="Reset to December 6, 2026"
                 aria-label="Reset target date to default"
               >
@@ -336,59 +336,59 @@ export const JLPTMissionControl: React.FC<JLPTMissionControlProps> = ({
       {/* Main Burn-Down & Velocity Metrics Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-5 relative z-10">
         {/* Metric 1: Countdown to Exam */}
-        <div className="bg-stone-50/70 border border-stone-200 rounded-2xl p-4.5 space-y-1.5 hover:bg-stone-50 hover:border-stone-300 transition">
-          <div className="flex items-center justify-between text-xs text-stone-600">
-            <span className="flex items-center font-medium font-sans text-stone-700">
+        <div className="bg-muted/50/70 border border-border rounded-2xl p-4.5 space-y-1.5 hover:bg-muted/50 hover:border-border transition">
+          <div className="flex items-center justify-between text-xs text-muted-foreground">
+            <span className="flex items-center font-medium font-sans text-foreground">
               <Calendar className="w-3.5 h-3.5 mr-1.5 text-indigo-600" /> Days Remaining
             </span>
-            <span className="text-[10px] font-mono text-stone-500">ကျန်ရှိရက်</span>
+            <span className="text-[10px] font-mono text-muted-foreground">ကျန်ရှိရက်</span>
           </div>
           <div className="flex items-baseline space-x-1.5">
-            <span className="text-2xl font-bold font-mono text-stone-900 tracking-tight">
+            <span className="text-2xl font-bold font-mono text-foreground tracking-tight">
               {daysRemaining}
             </span>
-            <span className="text-xs text-stone-600">days / ရက်</span>
+            <span className="text-xs text-muted-foreground">days / ရက်</span>
           </div>
-          <p className="text-[11px] text-stone-600 truncate">
+          <p className="text-[11px] text-muted-foreground truncate">
             Target: <span className="font-mono font-medium">{examTarget.targetDate}</span> (
             {examTarget.targetLevel})
           </p>
         </div>
 
         {/* Metric 2: Required Daily Velocity */}
-        <div className="bg-stone-50/70 border border-stone-200 rounded-2xl p-4.5 space-y-1.5 hover:bg-stone-50 hover:border-stone-300 transition">
-          <div className="flex items-center justify-between text-xs text-stone-600">
-            <span className="flex items-center font-medium font-sans text-stone-700">
+        <div className="bg-muted/50/70 border border-border rounded-2xl p-4.5 space-y-1.5 hover:bg-muted/50 hover:border-border transition">
+          <div className="flex items-center justify-between text-xs text-muted-foreground">
+            <span className="flex items-center font-medium font-sans text-foreground">
               <TrendingUp className="w-3.5 h-3.5 mr-1.5 text-indigo-600" /> Daily Velocity
             </span>
-            <span className="text-[10px] font-mono text-stone-500">သတ်မှတ်နှုန်း</span>
+            <span className="text-[10px] font-mono text-muted-foreground">သတ်မှတ်နှုန်း</span>
           </div>
           <div className="flex items-baseline space-x-1.5">
-            <span className="text-2xl font-bold font-mono text-stone-900 tracking-tight">
+            <span className="text-2xl font-bold font-mono text-foreground tracking-tight">
               {requiredDailyVelocity.toFixed(2)}
             </span>
-            <span className="text-xs text-stone-600">lessons / day</span>
+            <span className="text-xs text-muted-foreground">lessons / day</span>
           </div>
-          <p className="text-[11px] text-stone-600 truncate">
+          <p className="text-[11px] text-muted-foreground truncate">
             {remainingLessons} uncompleted lessons remaining
           </p>
         </div>
 
         {/* Metric 3: Estimated Daily Study Minutes */}
-        <div className="bg-stone-50/70 border border-stone-200 rounded-2xl p-4.5 space-y-1.5 hover:bg-stone-50 hover:border-stone-300 transition">
-          <div className="flex items-center justify-between text-xs text-stone-600">
-            <span className="flex items-center font-medium font-sans text-stone-700">
+        <div className="bg-muted/50/70 border border-border rounded-2xl p-4.5 space-y-1.5 hover:bg-muted/50 hover:border-border transition">
+          <div className="flex items-center justify-between text-xs text-muted-foreground">
+            <span className="flex items-center font-medium font-sans text-foreground">
               <Clock className="w-3.5 h-3.5 mr-1.5 text-indigo-600" /> Est. Daily Study
             </span>
-            <span className="text-[10px] font-mono text-stone-500">နေ့စဉ်လေ့လာချိန်</span>
+            <span className="text-[10px] font-mono text-muted-foreground">နေ့စဉ်လေ့လာချိန်</span>
           </div>
           <div className="flex items-baseline space-x-1.5">
-            <span className="text-2xl font-bold font-mono text-stone-900 tracking-tight">
+            <span className="text-2xl font-bold font-mono text-foreground tracking-tight">
               {estimatedDailyStudyMinutes}
             </span>
-            <span className="text-xs text-stone-600">min / day</span>
+            <span className="text-xs text-muted-foreground">min / day</span>
           </div>
-          <p className="text-[11px] text-stone-600 truncate">
+          <p className="text-[11px] text-muted-foreground truncate">
             {estimatedDailyStudyMinutes >= 60
               ? `~${(estimatedDailyStudyMinutes / 60).toFixed(1)} hrs daily investment`
               : 'Sustainable pacing for exam mastery'}
@@ -446,19 +446,19 @@ export const JLPTMissionControl: React.FC<JLPTMissionControlProps> = ({
       </div>
 
       {/* Visual Burn-Down Progress Bar */}
-      <div className="mt-5 pt-4 border-t border-stone-100 space-y-2 relative z-10">
+      <div className="mt-5 pt-4 border-t border-border space-y-2 relative z-10">
         <div className="flex items-center justify-between text-xs">
           <div className="flex items-center space-x-2">
-            <span className="font-semibold text-stone-800 font-sans">
+            <span className="font-semibold text-foreground font-sans">
               JLPT {examTarget.targetLevel} Curriculum Mastery
             </span>
-            <span className="text-stone-400">·</span>
-            <span className="text-stone-600 font-mono text-[11px]">
+            <span className="text-muted-foreground">·</span>
+            <span className="text-muted-foreground font-mono text-[11px]">
               {completedLessonsCount} of {totalLessonsInLevel} lessons completed
             </span>
           </div>
           <div className="flex items-center space-x-2">
-            <span className="text-stone-500 font-mono text-[11px]">
+            <span className="text-muted-foreground font-mono text-[11px]">
               {remainingLessons} to burn down
             </span>
             <span
@@ -478,7 +478,7 @@ export const JLPTMissionControl: React.FC<JLPTMissionControlProps> = ({
           aria-valuemin={0}
           aria-valuemax={100}
           aria-label={`JLPT ${examTarget.targetLevel} progress: ${progressPercent}%`}
-          className="w-full bg-stone-100 rounded-full h-3 overflow-hidden p-0.5 border border-stone-200"
+          className="w-full bg-muted rounded-full h-3 overflow-hidden p-0.5 border border-border"
         >
           <div
             className={`h-full rounded-full transition-all duration-500 ease-out ${

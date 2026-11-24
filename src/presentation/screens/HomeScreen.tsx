@@ -178,7 +178,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
       case 'learning':
         return 'bg-amber-50 text-amber-800 border-amber-300 shadow-xs';
       default:
-        return 'bg-stone-100 text-stone-700 border-stone-200';
+        return 'bg-muted text-card-foreground border-border';
     }
   };
 
@@ -220,11 +220,11 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           ? activeLesson.grammarTopics.join(' · ')
           : 'Core Patterns'}
         . Target:{' '}
-        <span className="text-stone-800 font-mono font-medium">
+        <span className="text-foreground font-mono font-medium">
           {activeLesson.targetVocabCount} vocabulary
         </span>{' '}
         and{' '}
-        <span className="text-stone-800 font-mono font-medium">
+        <span className="text-foreground font-mono font-medium">
           {activeLesson.targetKanjiCount} kanji
         </span>
         .
@@ -240,13 +240,13 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   return (
     <div className="space-y-6 max-w-6xl mx-auto pb-28">
       {/* Top Welcome & Progression Bar */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-stone-200 pb-3">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-3">
         <div>
-          <h2 className="text-base sm:text-lg font-bold text-stone-900 flex items-center gap-2">
+          <h2 className="text-base sm:text-lg font-bold text-foreground flex items-center gap-2">
             <span>Welcome back, {profile.name || 'Learner'}</span>
-            <span className="text-sm font-normal text-stone-400 hidden sm:inline">👋</span>
+            <span className="text-sm font-normal text-muted-foreground hidden sm:inline">👋</span>
           </h2>
-          <p className="text-xs text-stone-600 mt-0.5 font-sans">
+          <p className="text-xs text-muted-foreground mt-0.5 font-sans">
             JLPT {activeLesson.level} Track • {Math.round(progressPercent)}% of today&apos;s 6-hour goal achieved
           </p>
         </div>
@@ -258,7 +258,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
               <span>{effectiveStreak}d Streak</span>
             </span>
           )}
-          <span className="px-3 py-1 rounded-full bg-stone-100 border border-stone-200 text-xs font-mono text-stone-700">
+          <span className="px-3 py-1 rounded-full bg-muted border border-border text-xs font-mono text-muted-foreground">
             {todayMinutes}m / {goalMinutes}m
           </span>
         </div>
@@ -272,10 +272,10 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           ========================================================================= */}
       <section
         aria-label="Continue Learning Hero Section"
-        className="bg-white border border-stone-200 hover:border-stone-300 rounded-3xl p-6 sm:p-8 shadow-sm relative overflow-hidden transition-all duration-300"
+        className="bg-card border border-border hover:border-border rounded-3xl p-6 sm:p-8 shadow-sm relative overflow-hidden transition-all duration-300 text-card-foreground"
       >
         {/* Subtle decorative Kanji watermark in stroke style */}
-        <div className="absolute right-6 top-1/2 -translate-y-1/2 text-9xl font-japanese font-bold text-stone-200/50 select-none pointer-events-none">
+        <div className="absolute right-6 top-1/2 -translate-y-1/2 text-9xl font-japanese font-bold text-muted-foreground/15 select-none pointer-events-none">
           道
         </div>
 
@@ -283,11 +283,11 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           <div className="space-y-3.5 max-w-2xl">
             {/* Meta Tags: Focus, Lesson Position, Mastery, Streak */}
             <div className="flex items-center space-x-2 text-xs flex-wrap gap-y-1.5">
-              <span className="font-semibold uppercase tracking-wider text-indigo-700 font-mono text-[11px] bg-indigo-50 px-2.5 py-0.5 rounded-full border border-indigo-200">
+              <span className="font-semibold uppercase tracking-wider text-indigo-700 dark:text-indigo-400 font-mono text-[11px] bg-indigo-50 dark:bg-indigo-950/40 px-2.5 py-0.5 rounded-full border border-indigo-200 dark:border-indigo-800">
                 Current Focus
               </span>
-              <span className="text-stone-400">·</span>
-              <span className="text-stone-600 font-mono text-[11px]">
+              <span className="text-muted-foreground/40">·</span>
+              <span className="text-muted-foreground font-mono text-[11px]">
                 {activeLesson.level} Day {activeLesson.number} • Lesson {activeLesson.number} of {totalInLevel}
               </span>
               <span
@@ -307,29 +307,29 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
 
             {/* Lesson Title */}
             <div>
-              <h1 className="text-2xl sm:text-3xl font-extrabold text-stone-900 tracking-tight flex items-baseline gap-2 flex-wrap">
+              <h1 className="text-2xl sm:text-3xl font-extrabold text-foreground tracking-tight flex items-baseline gap-2 flex-wrap">
                 <span>{mainTitle}</span>
                 {jaTitle && (
-                  <span className="text-stone-600 font-japanese text-sm sm:text-base font-normal">
+                  <span className="text-muted-foreground font-japanese text-sm sm:text-base font-normal">
                     {jaTitle}
                   </span>
                 )}
               </h1>
-              <p className="text-xs sm:text-sm text-stone-600 leading-relaxed mt-2">
+              <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed mt-2">
                 {descriptionNode}
               </p>
             </div>
 
             {/* Competency Badges */}
             <div className="flex items-center gap-2 flex-wrap text-xs pt-1">
-              <span className="px-2.5 py-1 rounded-lg bg-stone-50 border border-stone-200 text-stone-700 font-mono text-[11px]">
+              <span className="px-2.5 py-1 rounded-lg bg-muted/60 border border-border text-foreground font-mono text-[11px]">
                 🎯 {activeLesson.targetVocabCount} Vocabulary
               </span>
-              <span className="px-2.5 py-1 rounded-lg bg-stone-50 border border-stone-200 text-stone-700 font-mono text-[11px]">
+              <span className="px-2.5 py-1 rounded-lg bg-muted/60 border border-border text-foreground font-mono text-[11px]">
                 ✍️ {activeLesson.targetKanjiCount} Kanji
               </span>
               {activeLesson.grammarTopics?.length > 0 && (
-                <span className="px-2.5 py-1 rounded-lg bg-stone-50 border border-stone-200 text-stone-700 font-mono text-[11px]">
+                <span className="px-2.5 py-1 rounded-lg bg-muted/60 border border-border text-foreground font-mono text-[11px]">
                   📖 {activeLesson.grammarTopics.length} Patterns
                 </span>
               )}
@@ -349,14 +349,14 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
             <div className="flex items-center gap-2">
               <button
                 onClick={() => onNavigate('curriculum')}
-                className="flex-1 px-4 py-2.5 rounded-xl bg-white hover:bg-stone-50 text-stone-700 text-xs font-medium transition border border-stone-300 hover:border-stone-400 text-center cursor-pointer active:scale-95 shadow-xs"
+                className="flex-1 px-4 py-2.5 rounded-xl bg-card hover:bg-muted text-card-foreground text-xs font-medium transition border border-border text-center cursor-pointer active:scale-95 shadow-xs"
               >
                 Curriculum Map
               </button>
               {onOpenReference && (
                 <button
                   onClick={() => onOpenReference('counters')}
-                  className="px-3 py-2.5 rounded-xl bg-white hover:bg-stone-50 text-stone-700 text-xs font-medium transition border border-stone-300 hover:border-stone-400 flex items-center justify-center space-x-1.5 shadow-xs cursor-pointer active:scale-95"
+                  className="px-3 py-2.5 rounded-xl bg-card hover:bg-muted text-card-foreground text-xs font-medium transition border border-border flex items-center justify-center space-x-1.5 shadow-xs cursor-pointer active:scale-95"
                   title="Open N5 Counters & Expressions Reference Workbench"
                 >
                   <BookOpen className="w-3.5 h-3.5 text-indigo-600" />
@@ -374,22 +374,22 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
       {dueSrsCount > 0 && (
         <div
           onClick={onOpenSrs}
-          className="bg-white border border-stone-200 hover:border-indigo-300 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4 cursor-pointer shadow-sm transition group"
+          className="bg-card border border-border hover:border-indigo-300 dark:hover:border-indigo-800 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4 cursor-pointer shadow-sm transition group text-card-foreground"
         >
           <div className="flex items-center space-x-3.5">
-            <div className="w-10 h-10 rounded-xl bg-indigo-50 border border-indigo-200 flex items-center justify-center text-indigo-600 shrink-0">
-              <Zap className="w-5 h-5 text-indigo-600" />
+            <div className="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-indigo-950/40 border border-indigo-200 dark:border-indigo-800 flex items-center justify-center text-indigo-600 dark:text-indigo-400 shrink-0">
+              <Zap className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
             </div>
             <div>
               <div className="flex items-center space-x-2">
-                <span className="text-sm font-bold text-stone-900">
+                <span className="text-sm font-bold text-foreground">
                   {dueSrsCount} Cards Due for FSRS Review
                 </span>
                 <span className="px-2 py-0.5 rounded-full bg-indigo-600 text-white text-[10px] font-mono font-bold">
                   Due Now
                 </span>
               </div>
-              <p className="text-xs text-stone-600 mt-0.5">
+              <p className="text-xs text-muted-foreground mt-0.5">
                 Cards due before 04:00 AM rollover. Regular SRS review ensures 90% target retention.
               </p>
             </div>
@@ -414,22 +414,22 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
       {leechCardsCount > 0 && (
         <div
           onClick={handleLaunchLeechDrill}
-          className="bg-white border border-rose-200 hover:border-rose-300 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4 cursor-pointer shadow-sm transition group"
+          className="bg-card border border-rose-200 dark:border-rose-900/40 hover:border-rose-300 dark:hover:border-rose-800 rounded-2xl p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4 cursor-pointer shadow-sm transition group text-card-foreground"
         >
           <div className="flex items-center space-x-3.5">
-            <div className="w-10 h-10 rounded-xl bg-rose-50 border border-rose-200 flex items-center justify-center text-rose-600 shrink-0 group-hover:scale-105 transition-transform">
+            <div className="w-10 h-10 rounded-xl bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-900/50 flex items-center justify-center text-rose-600 shrink-0 group-hover:scale-105 transition-transform">
               <Flame className="w-5 h-5 text-rose-600 fill-rose-500 animate-pulse" />
             </div>
             <div>
               <div className="flex items-center space-x-2">
-                <span className="text-sm font-bold text-stone-900 group-hover:text-rose-800 transition-colors">
+                <span className="text-sm font-bold text-foreground group-hover:text-rose-600 dark:group-hover:text-rose-400 transition-colors">
                   🔥 Leech Drill Mode (အားနည်းချက် အထူးလေ့ကျင့်ခန်း)
                 </span>
                 <span className="px-2.5 py-0.5 rounded-full bg-rose-600 text-white text-[10px] font-mono font-bold">
                   {`${leechCardsCount} Items`}
                 </span>
               </div>
-              <p className="text-xs text-stone-600 mt-0.5 font-sans">
+              <p className="text-xs text-muted-foreground mt-0.5 font-sans">
                 Leech &amp; Weak Items Detector (အမှားများသော ဝေါဟာရနှင့် သဒ္ဒါများ) • Isolate and master high-failure items without waiting for standard intervals (Lapses ≥ 2 or EF ≤ 1.6).
               </p>
             </div>
@@ -463,29 +463,29 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           ========================================================================= */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
         {/* Metric 1: Daily Target (6h) */}
-        <div className="bg-white border border-stone-200 hover:border-stone-300 rounded-2xl p-5 space-y-3 transition shadow-sm flex flex-col justify-between">
+        <div className="bg-card border border-border hover:border-border rounded-2xl p-5 space-y-3 transition shadow-sm flex flex-col justify-between text-card-foreground">
           <div className="space-y-2">
-            <div className="flex items-center justify-between text-stone-600 text-xs">
-              <span className="flex items-center font-medium text-stone-800">
-                <Clock className="w-4 h-4 mr-1.5 text-indigo-600" /> Daily Target (6h)
+            <div className="flex items-center justify-between text-muted-foreground text-xs">
+              <span className="flex items-center font-medium text-foreground">
+                <Clock className="w-4 h-4 mr-1.5 text-indigo-600 dark:text-indigo-400" /> Daily Target (6h)
               </span>
-              <span className="font-mono text-indigo-600 font-bold">{progressPercent}%</span>
+              <span className="font-mono text-indigo-600 dark:text-indigo-400 font-bold">{progressPercent}%</span>
             </div>
             <div className="flex items-baseline space-x-1.5">
-              <span className="text-2xl font-bold text-stone-900 font-mono tracking-tight">
+              <span className="text-2xl font-bold text-foreground font-mono tracking-tight">
                 {todayMinutes}
               </span>
-              <span className="text-xs text-stone-600">/ {goalMinutes} min</span>
+              <span className="text-xs text-muted-foreground">/ {goalMinutes} min</span>
             </div>
           </div>
           <div className="space-y-1.5">
-            <div className="w-full bg-stone-100 rounded-full h-1.5 overflow-hidden">
+            <div className="w-full bg-muted rounded-full h-1.5 overflow-hidden">
               <div
                 className="bg-indigo-600 h-1.5 rounded-full transition-all duration-300"
                 style={{ width: `${progressPercent}%` }}
               />
             </div>
-            <p className="text-[10px] text-stone-600 font-sans truncate">
+            <p className="text-[10px] text-muted-foreground font-sans truncate">
               {todayMinutes >= goalMinutes
                 ? '🎉 နေ့စဉ် ရည်မှန်းချက် ပြည့်မီပါပြီ!'
                 : 'နေ့စဉ် ၆ နာရီ လေ့လာရေး ပန်းတိုင်'}
@@ -496,23 +496,23 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
         {/* Metric 2: Reviews Due Today */}
         <div
           onClick={onOpenSrs}
-          className="bg-white border border-stone-200 hover:border-indigo-300 rounded-2xl p-5 space-y-3 cursor-pointer transition shadow-sm group flex flex-col justify-between"
+          className="bg-card border border-border hover:border-indigo-300 dark:hover:border-indigo-800 rounded-2xl p-5 space-y-3 cursor-pointer transition shadow-sm group flex flex-col justify-between text-card-foreground"
         >
           <div className="space-y-2">
-            <div className="flex items-center justify-between text-stone-600 text-xs">
-              <span className="flex items-center font-medium text-indigo-700">
-                <Layers className="w-4 h-4 mr-1.5 text-indigo-600" /> Reviews Due Today
+            <div className="flex items-center justify-between text-muted-foreground text-xs">
+              <span className="flex items-center font-medium text-indigo-700 dark:text-indigo-400">
+                <Layers className="w-4 h-4 mr-1.5 text-indigo-600 dark:text-indigo-400" /> Reviews Due Today
               </span>
-              <ChevronRight className="w-4 h-4 text-stone-400 group-hover:text-stone-600 transition" />
+              <ChevronRight className="w-4 h-4 text-muted-foreground/60 group-hover:text-foreground transition" />
             </div>
             <div className="flex items-baseline space-x-1.5">
-              <span className="text-2xl font-bold text-stone-900 font-mono tracking-tight">
+              <span className="text-2xl font-bold text-foreground font-mono tracking-tight">
                 {dueSrsCount}
               </span>
-              <span className="text-xs text-stone-600">cards</span>
+              <span className="text-xs text-muted-foreground">cards</span>
             </div>
           </div>
-          <p className="text-[11px] text-stone-600 font-sans leading-tight">
+          <p className="text-[11px] text-muted-foreground font-sans leading-tight">
             {dueSrsCount > 0
               ? 'Cards due before 04:00 AM rollover'
               : 'All caught up! No reviews pending.'}
@@ -520,26 +520,26 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
         </div>
 
         {/* Metric 3: Active Study Streak */}
-        <div className="bg-white border border-stone-200 hover:border-stone-300 rounded-2xl p-5 space-y-3 transition shadow-sm flex flex-col justify-between">
+        <div className="bg-card border border-border hover:border-border rounded-2xl p-5 space-y-3 transition shadow-sm flex flex-col justify-between text-card-foreground">
           <div className="space-y-2">
-            <div className="flex items-center justify-between text-stone-600 text-xs">
-              <span className="flex items-center font-medium text-amber-700">
-                <Flame className="w-4 h-4 mr-1.5 text-amber-600" /> Study Streak
+            <div className="flex items-center justify-between text-muted-foreground text-xs">
+              <span className="flex items-center font-medium text-amber-700 dark:text-amber-400">
+                <Flame className="w-4 h-4 mr-1.5 text-amber-600 dark:text-amber-400" /> Study Streak
               </span>
-              <span className="font-mono text-[10px] text-amber-800 font-bold uppercase bg-amber-50 px-2 py-0.5 rounded-full border border-amber-200">
+              <span className="font-mono text-[10px] text-amber-800 dark:text-amber-300 font-bold uppercase bg-amber-50 dark:bg-amber-950/40 px-2 py-0.5 rounded-full border border-amber-200 dark:border-amber-800">
                 {effectiveStreak > 0 ? 'Active 🔥' : 'Start'}
               </span>
             </div>
             <div className="flex items-baseline space-x-1.5">
-              <span className="text-2xl font-bold text-stone-900 font-mono tracking-tight">
+              <span className="text-2xl font-bold text-foreground font-mono tracking-tight">
                 {effectiveStreak}
               </span>
-              <span className="text-xs text-amber-800 font-medium font-sans">
+              <span className="text-xs text-amber-800 dark:text-amber-400 font-medium font-sans">
                 {`${effectiveStreak === 1 ? 'Day' : 'Days'} / ရက်ဆက်`}
               </span>
             </div>
           </div>
-          <p className="text-[11px] text-stone-600 font-sans leading-tight">
+          <p className="text-[11px] text-muted-foreground font-sans leading-tight">
             {effectiveStreak > 0
               ? `${effectiveStreak} ရက် ဆက်တိုက်လေ့လာထားသည်`
               : 'ယနေ့ စတင်လေ့လာပါ (04:00 AM Rollover)'}
@@ -549,30 +549,30 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
         {/* Metric 4: 30-Day True Retention */}
         <div
           onClick={onOpenSrs}
-          className="bg-white border border-stone-200 hover:border-cyan-300 rounded-2xl p-5 space-y-3 cursor-pointer transition shadow-sm group flex flex-col justify-between"
+          className="bg-card border border-border hover:border-cyan-300 dark:hover:border-cyan-800 rounded-2xl p-5 space-y-3 cursor-pointer transition shadow-sm group flex flex-col justify-between text-card-foreground"
         >
           <div className="space-y-2">
-            <div className="flex items-center justify-between text-stone-600 text-xs">
-              <span className="flex items-center font-medium text-cyan-800">
-                <ShieldCheck className="w-4 h-4 mr-1.5 text-cyan-600" /> True Retention
+            <div className="flex items-center justify-between text-muted-foreground text-xs">
+              <span className="flex items-center font-medium text-cyan-800 dark:text-cyan-400">
+                <ShieldCheck className="w-4 h-4 mr-1.5 text-cyan-600 dark:text-cyan-400" /> True Retention
               </span>
-              <ChevronRight className="w-4 h-4 text-stone-400 group-hover:text-stone-600 transition" />
+              <ChevronRight className="w-4 h-4 text-muted-foreground/60 group-hover:text-foreground transition" />
             </div>
             <div className="flex items-baseline space-x-1.5">
-              <span className="text-2xl font-bold text-stone-900 font-mono tracking-tight text-cyan-900">
+              <span className="text-2xl font-bold text-foreground font-mono tracking-tight text-cyan-900 dark:text-cyan-300">
                 {Math.round(effectiveRetention * 100)}%
               </span>
-              <span className="text-xs text-stone-600">/ 90% target</span>
+              <span className="text-xs text-muted-foreground">/ 90% target</span>
             </div>
           </div>
           <div className="space-y-1.5">
-            <div className="w-full bg-stone-100 rounded-full h-1.5 overflow-hidden">
+            <div className="w-full bg-muted rounded-full h-1.5 overflow-hidden">
               <div
                 className="bg-cyan-600 h-1.5 rounded-full transition-all duration-300"
                 style={{ width: `${Math.min(100, Math.round(effectiveRetention * 100))}%` }}
               />
             </div>
-            <p className="text-[10px] text-stone-600 font-sans truncate">
+            <p className="text-[10px] text-muted-foreground font-sans truncate">
               FSRS ရေရှည်မှတ်မိနှုန်း • ၃၀ ရက် ပျမ်းမျှ
             </p>
           </div>
@@ -581,23 +581,23 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
         {/* Metric 5: Mastery Evidence & Tests */}
         <div
           onClick={onOpenTests}
-          className="bg-white border border-stone-200 hover:border-emerald-300 rounded-2xl p-5 space-y-3 cursor-pointer transition shadow-sm group flex flex-col justify-between"
+          className="bg-card border border-border hover:border-emerald-300 dark:hover:border-emerald-800 rounded-2xl p-5 space-y-3 cursor-pointer transition shadow-sm group flex flex-col justify-between text-card-foreground"
         >
           <div className="space-y-2">
-            <div className="flex items-center justify-between text-stone-600 text-xs">
-              <span className="flex items-center font-medium text-emerald-800">
-                <Award className="w-4 h-4 mr-1.5 text-emerald-600" /> Mastery Evidence
+            <div className="flex items-center justify-between text-muted-foreground text-xs">
+              <span className="flex items-center font-medium text-emerald-800 dark:text-emerald-400">
+                <Award className="w-4 h-4 mr-1.5 text-emerald-600 dark:text-emerald-400" /> Mastery Evidence
               </span>
-              <span className="text-[10px] text-stone-600 uppercase font-mono">{masteryState}</span>
+              <span className="text-[10px] text-muted-foreground uppercase font-mono">{masteryState}</span>
             </div>
             <div className="flex items-baseline space-x-1.5">
-              <span className="text-2xl font-bold text-stone-900 font-mono tracking-tight">
+              <span className="text-2xl font-bold text-foreground font-mono tracking-tight">
                 {masteryRecord ? `${Math.round((masteryRecord.scores?.overall || 0) * 100)}%` : '0%'}
               </span>
-              <span className="text-xs text-stone-600">/ 85% target</span>
+              <span className="text-xs text-muted-foreground">/ 85% target</span>
             </div>
           </div>
-          <p className="text-[11px] text-stone-600 font-sans leading-tight">
+          <p className="text-[11px] text-muted-foreground font-sans leading-tight">
             {masteryRecord?.passedThresholds
               ? 'Conjunctive thresholds satisfied'
               : 'Requires test evidence across 5 skills'}
@@ -636,105 +636,105 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
         {/* Level Decks (単語帳) */}
         <div
           onClick={() => onNavigate('level-bulk-study')}
-          className="bg-white border border-stone-200 hover:border-amber-300 rounded-2xl p-5 flex items-center justify-between gap-4 cursor-pointer transition shadow-sm group"
+          className="bg-card border border-border hover:border-amber-300 dark:hover:border-amber-800 rounded-2xl p-5 flex items-center justify-between gap-4 cursor-pointer transition shadow-sm group text-card-foreground"
         >
           <div className="flex items-center space-x-3.5">
-            <div className="w-11 h-11 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-700 shrink-0 group-hover:scale-105 transition-transform">
-              <Library className="w-5 h-5 text-amber-600" />
+            <div className="w-11 h-11 rounded-xl bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-800 flex items-center justify-center text-amber-700 dark:text-amber-400 shrink-0 group-hover:scale-105 transition-transform">
+              <Library className="w-5 h-5 text-amber-600 dark:text-amber-400" />
             </div>
             <div>
               <div className="flex items-center space-x-2">
-                <span className="text-sm font-bold text-stone-900 group-hover:text-amber-800 transition-colors">
+                <span className="text-sm font-bold text-foreground group-hover:text-amber-800 dark:group-hover:text-amber-300 transition-colors">
                   Level Decks
                 </span>
-                <span className="px-2 py-0.5 rounded-full bg-amber-50 text-amber-800 text-[10px] font-mono border border-amber-200">
+                <span className="px-2 py-0.5 rounded-full bg-amber-50 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 text-[10px] font-mono border border-amber-200 dark:border-amber-800">
                   単語帳
                 </span>
               </div>
-              <p className="text-xs text-stone-600 mt-0.5 font-sans">
+              <p className="text-xs text-muted-foreground mt-0.5 font-sans">
                 Comprehensive N5–N2 bulk vocabulary decks with instant search and audio.
               </p>
             </div>
           </div>
-          <ChevronRight className="w-4 h-4 text-stone-400 group-hover:text-stone-700 transition shrink-0" />
+          <ChevronRight className="w-4 h-4 text-muted-foreground/60 group-hover:text-foreground transition shrink-0" />
         </div>
 
         {/* JLPT Timed Mock Exam Simulator */}
         <div
           onClick={() => onNavigate('mock-exam')}
-          className="bg-white border border-stone-200 hover:border-emerald-300 rounded-2xl p-5 flex items-center justify-between gap-4 cursor-pointer transition shadow-sm group"
+          className="bg-card border border-border hover:border-emerald-300 dark:hover:border-emerald-800 rounded-2xl p-5 flex items-center justify-between gap-4 cursor-pointer transition shadow-sm group text-card-foreground"
         >
           <div className="flex items-center space-x-3.5">
-            <div className="w-11 h-11 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center justify-center text-emerald-700 shrink-0 group-hover:scale-105 transition-transform">
-              <Award className="w-5 h-5 text-emerald-600" />
+            <div className="w-11 h-11 rounded-xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800 flex items-center justify-center text-emerald-700 dark:text-emerald-400 shrink-0 group-hover:scale-105 transition-transform">
+              <Award className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />
             </div>
             <div>
               <div className="flex items-center space-x-2">
-                <span className="text-sm font-bold text-stone-900 group-hover:text-emerald-800 transition-colors">
+                <span className="text-sm font-bold text-foreground group-hover:text-emerald-800 dark:group-hover:text-emerald-300 transition-colors">
                   JLPT Mock Exam
                 </span>
-                <span className="px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-800 text-[10px] font-mono border border-emerald-200">
+                <span className="px-2 py-0.5 rounded-full bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-300 text-[10px] font-mono border border-emerald-200 dark:border-emerald-800">
                   模擬試験
                 </span>
               </div>
-              <p className="text-xs text-stone-600 mt-0.5 font-sans">
+              <p className="text-xs text-muted-foreground mt-0.5 font-sans">
                 Official N5–N2 timed simulations with 180-scale scoring and auto-quarantine.
               </p>
             </div>
           </div>
-          <ChevronRight className="w-4 h-4 text-stone-400 group-hover:text-stone-700 transition shrink-0" />
+          <ChevronRight className="w-4 h-4 text-muted-foreground/60 group-hover:text-foreground transition shrink-0" />
         </div>
 
         {/* Shadowing Practice Workbench */}
         <div
           onClick={() => onNavigate('shadowing')}
-          className="bg-white border border-stone-200 hover:border-cyan-300 rounded-2xl p-5 flex items-center justify-between gap-4 cursor-pointer transition shadow-sm group"
+          className="bg-card border border-border hover:border-cyan-300 dark:hover:border-cyan-800 rounded-2xl p-5 flex items-center justify-between gap-4 cursor-pointer transition shadow-sm group text-card-foreground"
         >
           <div className="flex items-center space-x-3.5">
-            <div className="w-11 h-11 rounded-xl bg-cyan-50 border border-cyan-200 flex items-center justify-center text-cyan-700 shrink-0 group-hover:scale-105 transition-transform">
-              <Mic className="w-5 h-5 text-cyan-600" />
+            <div className="w-11 h-11 rounded-xl bg-cyan-50 dark:bg-cyan-950/40 border border-cyan-200 dark:border-cyan-800 flex items-center justify-center text-cyan-700 dark:text-cyan-400 shrink-0 group-hover:scale-105 transition-transform">
+              <Mic className="w-5 h-5 text-cyan-600 dark:text-cyan-400" />
             </div>
             <div>
               <div className="flex items-center space-x-2">
-                <span className="text-sm font-bold text-stone-900 group-hover:text-cyan-800 transition-colors">
+                <span className="text-sm font-bold text-foreground group-hover:text-cyan-800 dark:group-hover:text-cyan-300 transition-colors">
                   Shadowing Audio Workbench
                 </span>
-                <span className="px-2 py-0.5 rounded-full bg-cyan-50 text-cyan-800 text-[10px] font-mono border border-cyan-200">
+                <span className="px-2 py-0.5 rounded-full bg-cyan-50 dark:bg-cyan-950/40 text-cyan-800 dark:text-cyan-300 text-[10px] font-mono border border-cyan-200 dark:border-cyan-800">
                   発音練習
                 </span>
               </div>
-              <p className="text-xs text-stone-600 mt-0.5 font-sans">
+              <p className="text-xs text-muted-foreground mt-0.5 font-sans">
                 Native Japanese TTS looping, pitch accent visualization, and speaker dialogue pacing.
               </p>
             </div>
           </div>
-          <ChevronRight className="w-4 h-4 text-stone-400 group-hover:text-stone-700 transition shrink-0" />
+          <ChevronRight className="w-4 h-4 text-muted-foreground/60 group-hover:text-foreground transition shrink-0" />
         </div>
 
         {/* Ghost Cards Quarantine */}
         <div
           onClick={() => onNavigate('quarantine')}
-          className="bg-white border border-stone-200 hover:border-rose-300 rounded-2xl p-5 flex items-center justify-between gap-4 cursor-pointer transition shadow-sm group"
+          className="bg-card border border-border hover:border-rose-300 dark:hover:border-rose-800 rounded-2xl p-5 flex items-center justify-between gap-4 cursor-pointer transition shadow-sm group text-card-foreground"
         >
           <div className="flex items-center space-x-3.5">
-            <div className="w-11 h-11 rounded-xl bg-rose-50 border border-rose-200 flex items-center justify-center text-rose-700 shrink-0 group-hover:scale-105 transition-transform">
-              <Flame className="w-5 h-5 text-rose-600" />
+            <div className="w-11 h-11 rounded-xl bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-900/50 flex items-center justify-center text-rose-700 dark:text-rose-400 shrink-0 group-hover:scale-105 transition-transform">
+              <Flame className="w-5 h-5 text-rose-600 dark:text-rose-400" />
             </div>
             <div>
               <div className="flex items-center space-x-2">
-                <span className="text-sm font-bold text-stone-900 group-hover:text-rose-800 transition-colors">
+                <span className="text-sm font-bold text-foreground group-hover:text-rose-800 dark:group-hover:text-rose-300 transition-colors">
                   Ghost Card Quarantine
                 </span>
-                <span className="px-2 py-0.5 rounded-full bg-rose-50 text-rose-800 text-[10px] font-mono border border-rose-200">
+                <span className="px-2 py-0.5 rounded-full bg-rose-50 dark:bg-rose-950/40 text-rose-800 dark:text-rose-300 text-[10px] font-mono border border-rose-200 dark:border-rose-900/50">
                   鬼カード
                 </span>
               </div>
-              <p className="text-xs text-stone-600 mt-0.5 font-sans">
+              <p className="text-xs text-muted-foreground mt-0.5 font-sans">
                 High-lapse leeches quarantined with 3-in-a-row recovery drills and stability boosts.
               </p>
             </div>
           </div>
-          <ChevronRight className="w-4 h-4 text-stone-400 group-hover:text-stone-700 transition shrink-0" />
+          <ChevronRight className="w-4 h-4 text-muted-foreground/60 group-hover:text-foreground transition shrink-0" />
         </div>
       </section>
 
@@ -742,29 +742,29 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
       {Boolean(dailyPlan.weakSkills?.[0]) && (
         <div
           onClick={onOpenTests}
-          className="bg-white border border-stone-200 hover:border-violet-300 rounded-2xl p-4 flex items-center justify-between gap-3 cursor-pointer transition shadow-sm"
+          className="bg-card border border-border hover:border-violet-300 dark:hover:border-violet-800 rounded-2xl p-4 flex items-center justify-between gap-3 cursor-pointer transition shadow-sm text-card-foreground"
         >
           <div className="flex items-center space-x-3">
-            <TrendingUp className="w-4 h-4 text-violet-600 shrink-0" />
+            <TrendingUp className="w-4 h-4 text-violet-600 dark:text-violet-400 shrink-0" />
             <div className="text-xs">
-              <span className="font-semibold text-stone-900">
+              <span className="font-semibold text-foreground">
                 Adaptive Shift Active: Bolstering {dailyPlan.weakSkills?.[0]} (+15 min)
               </span>
-              <p className="text-[11px] text-stone-600 mt-0.5">
+              <p className="text-[11px] text-muted-foreground mt-0.5">
                 The scheduler dynamically allocated extra time to reinforce lower accuracy areas.
               </p>
             </div>
           </div>
-          <ChevronRight className="w-4 h-4 text-stone-400 shrink-0" />
+          <ChevronRight className="w-4 h-4 text-muted-foreground/60 shrink-0" />
         </div>
       )}
 
       {/* Scheduler Explanation Notice */}
       {Boolean(dailyPlan.explanations && dailyPlan.explanations.length > 0) && (
-        <div className="bg-stone-50 border border-stone-200 rounded-2xl p-4 text-xs text-stone-600 flex items-start space-x-3 shadow-xs">
+        <div className="bg-muted/60 border border-border rounded-2xl p-4 text-xs text-muted-foreground flex items-start space-x-3 shadow-xs">
           <AlertTriangle className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
           <div className="space-y-1">
-            <span className="text-stone-900 font-semibold block">Explainable Adaptation Policy:</span>
+            <span className="text-foreground font-semibold block">Explainable Adaptation Policy:</span>
             {dailyPlan.explanations.map((exp, idx) => (
               <p key={idx} className="leading-relaxed">
                 {exp}
@@ -779,14 +779,14 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
           ========================================================================= */}
       <section
         aria-label="Today's 6-Hour Study Plan"
-        className="bg-white border border-stone-200 rounded-3xl p-6 space-y-4 shadow-sm"
+        className="bg-card border border-border rounded-3xl p-6 space-y-4 shadow-sm text-card-foreground"
       >
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-stone-200 pb-3">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-border pb-3">
           <div className="flex items-center space-x-2.5">
             <Calendar className="w-4 h-4 text-indigo-600" />
-            <h2 className="text-base font-bold text-stone-900">Today&apos;s 6-Hour Study Plan</h2>
+            <h2 className="text-base font-bold text-foreground">Today&apos;s 6-Hour Study Plan</h2>
           </div>
-          <span className="text-xs text-stone-600 font-mono">6 blocks • 360 min total goal</span>
+          <span className="text-xs text-muted-foreground font-mono">6 blocks • 360 min total goal</span>
         </div>
 
         <div className="space-y-2.5">
@@ -795,41 +795,41 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
               key={block.id}
               className={`p-3.5 sm:p-4 rounded-2xl border flex flex-col sm:flex-row sm:items-center justify-between gap-3 transition ${
                 block.status === 'completed'
-                  ? 'bg-stone-50 border-stone-200 text-stone-500'
+                  ? 'bg-muted/40 border-border text-muted-foreground'
                   : block.countsTowardGoal
-                  ? 'bg-stone-50/70 border-stone-200 text-stone-800 hover:border-stone-300 hover:bg-white'
-                  : 'bg-stone-50/40 border-stone-100 text-stone-600'
+                  ? 'bg-card border-border text-card-foreground hover:bg-muted/50'
+                  : 'bg-muted/20 border-border/50 text-muted-foreground'
               }`}
             >
               <div className="flex items-center space-x-3.5">
-                <span className="text-xs font-mono text-stone-600 shrink-0 min-w-[90px]">
+                <span className="text-xs font-mono text-muted-foreground shrink-0 min-w-[90px]">
                   {block.startTime} – {block.endTime}
                 </span>
                 <div>
-                  <div className="text-xs font-semibold text-stone-900 flex items-center space-x-1.5">
+                  <div className="text-xs font-semibold text-foreground flex items-center space-x-1.5">
                     <span>{block.title}</span>
                     {!block.countsTowardGoal && (
-                      <span className="text-[10px] text-stone-600 bg-stone-100 px-1.5 py-0.2 rounded font-mono">
+                      <span className="text-[10px] text-muted-foreground bg-muted px-1.5 py-0.2 rounded font-mono">
                         admin
                       </span>
                     )}
                   </div>
                   {block.reason && (
-                    <p className="text-[11px] text-stone-600 mt-0.5">{block.reason}</p>
+                    <p className="text-[11px] text-muted-foreground mt-0.5">{block.reason}</p>
                   )}
                 </div>
               </div>
 
               <div className="flex items-center space-x-3 self-end sm:self-auto shrink-0">
-                <span className="text-xs font-mono text-stone-600">{block.plannedMinutes} min</span>
+                <span className="text-xs font-mono text-muted-foreground">{block.plannedMinutes} min</span>
                 {block.status === 'completed' ? (
-                  <span className="text-xs text-emerald-700 flex items-center font-medium font-mono px-2.5 py-1 rounded-lg bg-emerald-50 border border-emerald-200">
+                  <span className="text-xs text-emerald-700 dark:text-emerald-400 flex items-center font-medium font-mono px-2.5 py-1 rounded-lg bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800">
                     <CheckCircle className="w-3.5 h-3.5 mr-1" /> Done
                   </span>
                 ) : (
                   <button
                     onClick={() => onStartStudy(activeLesson.id)}
-                    className="text-xs px-3.5 py-1.5 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-800 font-semibold transition cursor-pointer active:scale-95 border border-stone-300"
+                    className="text-xs px-3.5 py-1.5 rounded-xl bg-muted hover:bg-muted/80 text-foreground font-semibold transition cursor-pointer active:scale-95 border border-border"
                   >
                     Start
                   </button>

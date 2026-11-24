@@ -50,7 +50,7 @@ export const PWAUpdateBanner: React.FC<PWAUpdateBannerProps> = ({
         transition={{ duration: 0.25, ease: 'easeOut' }}
         className="fixed top-4 left-3 right-3 sm:left-auto sm:right-6 sm:top-5 z-50 max-w-md mx-auto sm:mx-0 pointer-events-none"
       >
-        <div className="pointer-events-auto relative overflow-hidden rounded-2xl bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 shadow-xl p-4 text-stone-900 dark:text-zinc-100 group">
+        <div className="pointer-events-auto relative overflow-hidden rounded-2xl bg-card border border-border shadow-xl p-4 text-foreground group">
           {/* Subtle ambient accent hairline */}
           <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 opacity-90" />
 
@@ -60,10 +60,10 @@ export const PWAUpdateBanner: React.FC<PWAUpdateBannerProps> = ({
             </div>
 
             <div className="flex-1 min-w-0 pr-6">
-              <h3 className="text-xs sm:text-sm font-bold text-stone-900 dark:text-zinc-100 leading-tight">
+              <h3 className="text-xs sm:text-sm font-bold text-foreground leading-tight">
                 Update Available • ဗားရှင်းအသစ် ရရှိနေပါပြီ
               </h3>
-              <p className="text-[11px] sm:text-xs text-stone-600 dark:text-zinc-400 mt-1 leading-normal">
+              <p className="text-[11px] sm:text-xs text-muted-foreground mt-1 leading-normal">
                 A new version of Nihongo Master is ready. Reload to apply the latest fixes.
               </p>
 
@@ -83,7 +83,7 @@ export const PWAUpdateBanner: React.FC<PWAUpdateBannerProps> = ({
                   type="button"
                   data-testid="pwa-update-dismiss-btn"
                   onClick={handleDismiss}
-                  className="px-3 py-1.5 rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-300 font-medium text-xs transition-colors cursor-pointer"
+                  className="px-3 py-1.5 rounded-xl bg-muted hover:bg-muted/80 text-foreground font-medium text-xs transition-colors cursor-pointer border border-border shadow-xs"
                 >
                   Later • နောက်မှ
                 </button>
@@ -94,7 +94,7 @@ export const PWAUpdateBanner: React.FC<PWAUpdateBannerProps> = ({
               type="button"
               onClick={handleDismiss}
               aria-label="Dismiss update notification"
-              className="absolute top-3.5 right-3.5 p-1 rounded-lg text-stone-400 hover:text-stone-700 dark:text-zinc-500 dark:hover:text-zinc-200 hover:bg-stone-100 dark:hover:bg-zinc-800 transition-colors cursor-pointer"
+              className="absolute top-3.5 right-3.5 p-1 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted transition-colors cursor-pointer"
             >
               <X className="w-4 h-4" />
             </button>

@@ -103,10 +103,10 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
           </span>
 
           {!compact && (
-            <div className="flex items-center space-x-1.5 text-[11px] text-stone-600 font-myanmar">
+            <div className="flex items-center space-x-1.5 text-[11px] text-muted-foreground font-myanmar">
               <span>{explanationMy}</span>
-              <span className="text-stone-400 font-mono hidden sm:inline">•</span>
-              <span className="text-stone-500 font-mono hidden sm:inline text-[10px]">
+              <span className="text-muted-foreground font-mono hidden sm:inline">•</span>
+              <span className="text-muted-foreground font-mono hidden sm:inline text-[10px]">
                 {meaningEn}
               </span>
             </div>
@@ -118,7 +118,7 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
       {showContour && (
         <div className="overflow-x-auto max-w-full pb-1">
           <div
-            className={`inline-block rounded-2xl border border-stone-200 bg-stone-50 shadow-xs ${
+            className={`inline-block rounded-2xl border border-border bg-muted/50 shadow-xs ${
               compact ? 'p-2' : 'p-3'
             }`}
           >
@@ -249,12 +249,12 @@ export const PitchAccentVisualizer: React.FC<PitchAccentVisualizerProps> = ({
                           ? 'text-red-700 font-bold'
                           : m.level === 'H'
                           ? 'text-indigo-700'
-                          : 'text-stone-700'
+                          : 'text-foreground'
                       }`}
                     >
                       {m.mora}
                     </span>
-                    <rt className="text-[9px] font-mono text-stone-500 select-none">
+                    <rt className="text-[9px] font-mono text-muted-foreground select-none">
                       {m.isDropNucleus ? '▼' : ''}
                     </rt>
                   </ruby>

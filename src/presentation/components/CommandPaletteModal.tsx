@@ -176,7 +176,7 @@ export const CommandPaletteModal: React.FC<CommandPaletteModalProps> = ({
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           onClick={onClose}
-          className="fixed inset-0 bg-stone-900/40 backdrop-blur-sm cursor-pointer"
+          className="fixed inset-0 bg-background/80 backdrop-blur-sm cursor-pointer"
         />
 
         {/* Modal Window */}
@@ -185,28 +185,28 @@ export const CommandPaletteModal: React.FC<CommandPaletteModalProps> = ({
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.96, y: -16 }}
           transition={{ duration: 0.2, ease: 'easeOut' }}
-          className="relative z-10 w-full max-w-2xl bg-white border border-stone-200 rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[80vh]"
+          className="relative z-10 w-full max-w-2xl bg-card border border-border rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[80vh]"
         >
           {/* Search Header */}
-          <div className="p-4 border-b border-stone-200 flex items-center gap-3 bg-stone-50/60">
-            <Search className="w-5 h-5 text-stone-500 shrink-0" />
+          <div className="p-4 border-b border-border flex items-center gap-3 bg-muted/50">
+            <Search className="w-5 h-5 text-muted-foreground shrink-0" />
             <input
               ref={inputRef}
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Search Kanji, Vocabulary, N2 Grammar, or Leeches (e.g. 契, 把握, 契機, わけには)..."
-              className="flex-1 bg-transparent text-sm sm:text-base text-stone-900 placeholder:text-stone-400 focus:outline-none font-japanese"
+              className="flex-1 bg-transparent text-sm sm:text-base text-foreground placeholder:text-muted-foreground focus:outline-none font-japanese"
             />
             {query && (
               <button
                 onClick={() => setQuery('')}
-                className="text-stone-400 hover:text-stone-600 p-1 rounded"
+                className="text-muted-foreground hover:text-muted-foreground p-1 rounded"
               >
                 <X className="w-4 h-4" />
               </button>
             )}
-            <kbd className="hidden sm:inline-block px-2 py-0.5 rounded bg-stone-100 border border-stone-200 text-[10px] text-stone-500 font-mono">
+            <kbd className="hidden sm:inline-block px-2 py-0.5 rounded bg-muted border border-border text-[10px] text-muted-foreground font-mono">
               ESC
             </kbd>
           </div>
@@ -222,15 +222,15 @@ export const CommandPaletteModal: React.FC<CommandPaletteModalProps> = ({
           {/* Results List */}
           <div ref={resultsContainerRef} className="flex-1 overflow-y-auto p-2 sm:p-3 space-y-1">
             {loading && (
-              <div className="py-8 text-center text-xs text-stone-500 font-mono">
+              <div className="py-8 text-center text-xs text-muted-foreground font-mono">
                 Searching curriculum database...
               </div>
             )}
 
             {!loading && query.trim() && results.length === 0 && (
               <div className="py-12 text-center space-y-2">
-                <p className="text-sm text-stone-700">No results found for &ldquo;{query}&rdquo;</p>
-                <p className="text-xs text-stone-500">
+                <p className="text-sm text-foreground">No results found for &ldquo;{query}&rdquo;</p>
+                <p className="text-xs text-muted-foreground">
                   Try searching by Kanji character, English meaning, or Japanese reading.
                 </p>
               </div>
@@ -239,17 +239,17 @@ export const CommandPaletteModal: React.FC<CommandPaletteModalProps> = ({
             {!query.trim() && (
               <div className="py-10 px-6 text-center space-y-3">
                 <div className="flex justify-center gap-3">
-                  <span className="px-2.5 py-1 rounded-lg bg-stone-100 border border-stone-200 text-xs text-stone-600 font-mono">
+                  <span className="px-2.5 py-1 rounded-lg bg-muted border border-border text-xs text-muted-foreground font-mono">
                     漢字 · Kanji
                   </span>
-                  <span className="px-2.5 py-1 rounded-lg bg-stone-100 border border-stone-200 text-xs text-stone-600 font-mono">
+                  <span className="px-2.5 py-1 rounded-lg bg-muted border border-border text-xs text-muted-foreground font-mono">
                     語彙 · Vocabulary
                   </span>
-                  <span className="px-2.5 py-1 rounded-lg bg-stone-100 border border-stone-200 text-xs text-stone-600 font-mono">
+                  <span className="px-2.5 py-1 rounded-lg bg-muted border border-border text-xs text-muted-foreground font-mono">
                     文法 · N2 Grammar
                   </span>
                 </div>
-                <p className="text-xs text-stone-500 max-w-sm mx-auto leading-relaxed">
+                <p className="text-xs text-muted-foreground max-w-sm mx-auto leading-relaxed">
                   Type any keyword to query all JLPT N2 curriculum items, official dokkai glossary terms, and your active SRS flashcard deck instantly.
                 </p>
               </div>
@@ -259,7 +259,7 @@ export const CommandPaletteModal: React.FC<CommandPaletteModalProps> = ({
               const isSelected = selectedIndex === index;
               const isMined = minedSet.has(item.id);
 
-              let badgeColor = 'bg-stone-100 text-stone-700 border-stone-200';
+              let badgeColor = 'bg-muted text-foreground border-border';
               if (item.category === 'kanji') {
                 badgeColor = 'bg-rose-50 text-rose-700 border-rose-200';
               } else if (item.category === 'grammar') {
@@ -284,20 +284,20 @@ export const CommandPaletteModal: React.FC<CommandPaletteModalProps> = ({
                   className={`p-3 rounded-xl border transition cursor-pointer flex items-center justify-between gap-3 ${
                     isSelected
                       ? 'bg-indigo-50/80 border-indigo-300 shadow-2xs'
-                      : 'bg-white border-stone-200 hover:bg-stone-50'
+                      : 'bg-card border-border hover:bg-muted/50'
                   }`}
                 >
                   <div className="flex items-center gap-3.5 min-w-0">
                     {/* Leading Badge / Char */}
-                    <div className="w-10 h-10 rounded-xl bg-stone-100 border border-stone-200 flex items-center justify-center shrink-0 shadow-2xs">
-                      <span className="text-lg font-bold font-japanese text-stone-900">
+                    <div className="w-10 h-10 rounded-xl bg-muted border border-border flex items-center justify-center shrink-0 shadow-2xs">
+                      <span className="text-lg font-bold font-japanese text-foreground">
                         {item.title.slice(0, 2)}
                       </span>
                     </div>
 
                     <div className="space-y-0.5 min-w-0">
                       <div className="flex items-center gap-2">
-                        <span className="font-bold text-sm text-stone-900 font-japanese truncate">
+                        <span className="font-bold text-sm text-foreground font-japanese truncate">
                           {item.title}
                         </span>
                         {item.reading && (
@@ -312,7 +312,7 @@ export const CommandPaletteModal: React.FC<CommandPaletteModalProps> = ({
                         </span>
                       </div>
 
-                      <p className="text-xs text-stone-600 truncate">{item.meaningEn}</p>
+                      <p className="text-xs text-muted-foreground truncate">{item.meaningEn}</p>
                       {item.meaningMy && (
                         <p className="text-[11px] text-amber-800 font-myanmar truncate">
                           {item.meaningMy}
@@ -325,7 +325,7 @@ export const CommandPaletteModal: React.FC<CommandPaletteModalProps> = ({
                   <div className="flex items-center gap-2 shrink-0">
                     <button
                       onClick={(e) => handleSpeak(item.title, e)}
-                      className="p-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-600 hover:text-stone-900 transition"
+                      className="p-1.5 rounded-lg bg-muted hover:bg-muted text-muted-foreground hover:text-foreground transition"
                       title="Pronounce"
                     >
                       <Volume2 className="w-3.5 h-3.5" />
@@ -373,7 +373,7 @@ export const CommandPaletteModal: React.FC<CommandPaletteModalProps> = ({
                       className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center gap-1 transition ${
                         isMined
                           ? 'bg-emerald-50 text-emerald-800 border border-emerald-300'
-                          : 'bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-300'
+                          : 'bg-muted hover:bg-muted text-foreground border border-border'
                       }`}
                       title="Add to active SRS queue"
                     >
@@ -396,11 +396,11 @@ export const CommandPaletteModal: React.FC<CommandPaletteModalProps> = ({
           </div>
 
           {/* Modal Footer Hotkeys */}
-          <div className="p-3 bg-stone-50 border-t border-stone-200 flex items-center justify-between text-[11px] text-stone-500 font-mono">
+          <div className="p-3 bg-muted/50 border-t border-border flex items-center justify-between text-[11px] text-muted-foreground font-mono">
             <div className="flex items-center gap-3">
-              <span>Navigate: <kbd className="text-stone-700 font-semibold">↑</kbd> <kbd className="text-stone-700 font-semibold">↓</kbd></span>
-              <span>Select: <kbd className="text-stone-700 font-semibold">↵</kbd></span>
-              <span>Close: <kbd className="text-stone-700 font-semibold">ESC</kbd></span>
+              <span>Navigate: <kbd className="text-foreground font-semibold">↑</kbd> <kbd className="text-foreground font-semibold">↓</kbd></span>
+              <span>Select: <kbd className="text-foreground font-semibold">↵</kbd></span>
+              <span>Close: <kbd className="text-foreground font-semibold">ESC</kbd></span>
             </div>
             <div>
               <span>JLPT N2 Command Palette</span>

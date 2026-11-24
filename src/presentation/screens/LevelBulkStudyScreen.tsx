@@ -910,11 +910,11 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
   return (
     <div className={`space-y-6 max-w-7xl mx-auto pb-28 ${className}`}>
       {/* Top Header & Breadcrumb */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-200 pb-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-border pb-4">
         <div className="flex items-center space-x-3">
           <button
             onClick={onBack}
-            className="p-2.5 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 text-stone-600 hover:text-stone-900 transition cursor-pointer shadow-2xs"
+            className="p-2.5 rounded-xl bg-card hover:bg-muted/50 border border-border text-muted-foreground hover:text-foreground transition cursor-pointer shadow-2xs"
             title="Back to Dashboard"
           >
             <ArrowLeft className="w-5 h-5" />
@@ -925,11 +925,11 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 <BookOpen className="w-3.5 h-3.5 text-indigo-600" />
                 <span>Level Decks (単語帳)</span>
               </span>
-              <span className="text-xs font-mono text-stone-500">
+              <span className="text-xs font-mono text-muted-foreground">
                 {`JLPT ${selectedLevel} Bulk Study`}
               </span>
             </div>
-            <h1 className="text-xl sm:text-2xl font-bold text-stone-900 tracking-tight mt-0.5">
+            <h1 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight mt-0.5">
               {bulkTab === 'vocab'
                 ? `${selectedLevel} Comprehensive Vocabulary Deck`
                 : `${selectedLevel} Kanji Deck & Stroke Visualizer`}
@@ -938,14 +938,14 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
         </div>
 
         {/* Primary Segmented Mode Selector: Vocabulary vs Kanji */}
-        <div className="flex items-center p-1 bg-stone-200/80 border border-stone-300 rounded-2xl shadow-2xs">
+        <div className="flex items-center p-1 bg-muted/80 border border-border rounded-2xl shadow-2xs">
           <button
             type="button"
             onClick={() => setBulkTab('vocab')}
             className={`px-3.5 py-1.5 rounded-xl text-xs font-burmese font-semibold transition cursor-pointer flex items-center space-x-1.5 ${
               bulkTab === 'vocab'
                 ? 'bg-indigo-600 text-white shadow-xs'
-                : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
+                : 'text-muted-foreground hover:text-foreground hover:bg-muted'
             }`}
           >
             <span>📖 ဝေါဟာရ (Vocabulary)</span>
@@ -956,7 +956,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             className={`px-3.5 py-1.5 rounded-xl text-xs font-burmese font-semibold transition cursor-pointer flex items-center space-x-1.5 ${
               bulkTab === 'kanji'
                 ? 'bg-indigo-600 text-white shadow-xs'
-                : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
+                : 'text-muted-foreground hover:text-foreground hover:bg-muted'
             }`}
           >
             <span>🈁 ခန်းဂျီး (Kanji Deck)</span>
@@ -966,7 +966,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
         {/* Header Right: Total Count Badge & Segmented 3-Mode Switcher */}
         {bulkTab === 'vocab' ? (
           <div className="flex items-center flex-wrap gap-2.5">
-            <span className="px-3 py-1.5 rounded-xl bg-white border border-stone-200 text-xs font-mono text-stone-700 flex items-center gap-1.5 shadow-2xs">
+            <span className="px-3 py-1.5 rounded-xl bg-card border border-border text-xs font-mono text-foreground flex items-center gap-1.5 shadow-2xs">
               <Layers className="w-3.5 h-3.5 text-indigo-600" />
               <span>{`${selectedLevel} Deck: ${words.length} words`}</span>
             </span>
@@ -983,14 +983,14 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             </button>
 
             {/* 3-Mode Segmented Switcher */}
-            <div className="flex items-center space-x-1 p-1 bg-stone-200/80 border border-stone-300 rounded-2xl shadow-2xs overflow-x-auto">
+            <div className="flex items-center space-x-1 p-1 bg-muted/80 border border-border rounded-2xl shadow-2xs overflow-x-auto">
               <button
                 type="button"
                 onClick={() => setStudyMode('list')}
                 className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
                   studyMode === 'list'
                     ? 'bg-indigo-600 text-white font-semibold shadow-xs'
-                    : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
+                    : 'text-muted-foreground hover:text-foreground hover:bg-muted'
                 }`}
               >
                 <span>📜 စာရင်းကြည့် (List View)</span>
@@ -1004,7 +1004,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
                   studyMode === 'drill'
                     ? 'bg-indigo-600 text-white font-semibold shadow-xs'
-                    : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
+                    : 'text-muted-foreground hover:text-foreground hover:bg-muted'
                 }`}
               >
                 <span>🎴 Flashcard လေ့ကျင့်ရန် (Drill Mode)</span>
@@ -1018,7 +1018,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
                   studyMode === 'quiz'
                     ? 'bg-indigo-600 text-white font-semibold shadow-xs'
-                    : 'text-stone-600 hover:text-stone-900 hover:bg-stone-100'
+                    : 'text-muted-foreground hover:text-foreground hover:bg-muted'
                 }`}
               >
                 <span>⚡ အမြန်စစ်ဆေးမေးခွန်း (Quiz Mode)</span>
@@ -1027,7 +1027,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
           </div>
         ) : (
           <div className="flex items-center flex-wrap gap-2.5">
-            <span className="px-3.5 py-1.5 rounded-xl bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 text-xs font-mono text-stone-700 dark:text-zinc-300 flex items-center gap-1.5 shadow-2xs">
+            <span className="px-3.5 py-1.5 rounded-xl bg-card border border-border text-xs font-mono text-foreground flex items-center gap-1.5 shadow-2xs">
               <Sparkles className="w-3.5 h-3.5 text-amber-500" />
               <span>{`${selectedLevel} Kanji: ${kanjiList.length} 字`}</span>
             </span>
@@ -1044,14 +1044,14 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             </button>
 
             {/* Kanji 3-Mode Segmented Switcher */}
-            <div className="flex items-center space-x-1 p-1 bg-stone-200/80 dark:bg-zinc-950 border border-stone-300 dark:border-zinc-800 rounded-2xl shadow-2xs overflow-x-auto">
+            <div className="flex items-center space-x-1 p-1 bg-muted/80 bg-surface border border-border border-border rounded-2xl shadow-2xs overflow-x-auto">
               <button
                 type="button"
                 onClick={() => setKanjiViewMode('grid')}
                 className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
                   kanjiViewMode === 'grid'
                     ? 'bg-indigo-600 text-white font-semibold shadow-xs'
-                    : 'text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800'
+                    : 'text-muted-foreground hover:text-foreground hover:bg-muted'
                 }`}
               >
                 <span>一覧 (Grid View)</span>
@@ -1065,7 +1065,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
                   kanjiViewMode === 'flashcard'
                     ? 'bg-indigo-600 text-white font-semibold shadow-xs'
-                    : 'text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800'
+                    : 'text-muted-foreground hover:text-foreground hover:bg-muted'
                 }`}
               >
                 <span>🎴 フラッシュカード (Flashcards)</span>
@@ -1079,7 +1079,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 className={`px-3 py-1.5 rounded-xl text-xs font-medium transition cursor-pointer flex items-center space-x-1.5 shrink-0 ${
                   kanjiViewMode === 'quiz'
                     ? 'bg-indigo-600 text-white font-semibold shadow-xs'
-                    : 'text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800'
+                    : 'text-muted-foreground hover:text-foreground hover:bg-muted'
                 }`}
               >
                 <span>⚡ クイズ (Kanji Quiz)</span>
@@ -1090,7 +1090,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
       </div>
 
       {/* Header Controls: Level Selector & Sticky Search Bar (Visible across all tabs) */}
-      <div className="sticky top-0 z-30 bg-stone-100/95 backdrop-blur-2xl border-y border-stone-200 py-3.5 px-1 space-y-3 shadow-xs">
+      <div className="sticky top-0 z-30 bg-muted/95 backdrop-blur-2xl border-y border-border py-3.5 px-1 space-y-3 shadow-xs">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           {/* Level Selector Pills */}
           <div className="flex items-center space-x-2 overflow-x-auto pb-1 sm:pb-0">
@@ -1108,39 +1108,39 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   className={`px-4 py-2 rounded-xl text-xs font-mono font-bold transition-all cursor-pointer flex items-center space-x-1.5 ${
                     active
                       ? 'bg-indigo-600 text-white shadow-xs border border-indigo-600 scale-105'
-                      : 'bg-white hover:bg-stone-50 text-stone-600 hover:text-stone-900 border border-stone-200'
+                      : 'bg-card hover:bg-muted/50 text-muted-foreground hover:text-foreground border border-border'
                   }`}
                 >
                   <span>{`JLPT ${lvl}`}</span>
-                  {active && <span className="w-1.5 h-1.5 rounded-full bg-white shadow-xs" />}
+                  {active && <span className="w-1.5 h-1.5 rounded-full bg-card shadow-xs" />}
                 </button>
               );
             })}
           </div>
 
           {/* Results Summary Counter */}
-          <div className="text-xs font-mono text-stone-600 shrink-0">
+          <div className="text-xs font-mono text-muted-foreground shrink-0">
             {bulkTab === 'vocab' ? (
               studyMode === 'quiz' ? (
                 <span>
-                  Active Quiz: <strong className="text-stone-900">{quizQuestions.length}</strong> questions sampled from {words.length} words
+                  Active Quiz: <strong className="text-foreground">{quizQuestions.length}</strong> questions sampled from {words.length} words
                 </span>
               ) : searchQuery.trim() ? (
                 <span>
-                  Matching: <strong className="text-stone-900">{filteredWords.length}</strong> / {words.length} words
+                  Matching: <strong className="text-foreground">{filteredWords.length}</strong> / {words.length} words
                 </span>
               ) : (
                 <span>
-                  Showing: <strong className="text-stone-900">{Math.min(displayCount, words.length)}</strong> of {words.length} words
+                  Showing: <strong className="text-foreground">{Math.min(displayCount, words.length)}</strong> of {words.length} words
                 </span>
               )
             ) : kanjiSearchQuery.trim() ? (
               <span>
-                Matching: <strong className="text-stone-900">{filteredKanji.length}</strong> / {kanjiList.length} kanji
+                Matching: <strong className="text-foreground">{filteredKanji.length}</strong> / {kanjiList.length} kanji
               </span>
             ) : (
               <span>
-                Total: <strong className="text-stone-900">{kanjiList.length}</strong> kanji characters
+                Total: <strong className="text-foreground">{kanjiList.length}</strong> kanji characters
               </span>
             )}
           </div>
@@ -1148,7 +1148,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
 
         {/* Search Bar with Instant Clear */}
         <div className="relative">
-          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-stone-400" />
+          <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
           <input
             type="text"
             value={bulkTab === 'vocab' ? searchQuery : kanjiSearchQuery}
@@ -1164,7 +1164,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 ? `Search ${selectedLevel} words by Kanji (例: 行く), Kana (例: いく), English, or Burmese...`
                 : `Search ${selectedLevel} kanji by Character (例: 学), Onyomi (例: ガク), Kunyomi, or Burmese...`
             }
-            className="w-full bg-white dark:bg-zinc-900 border border-stone-300 dark:border-zinc-700 focus:border-indigo-500 rounded-xl pl-10 pr-10 py-2.5 text-xs text-stone-900 dark:text-zinc-100 placeholder-stone-400 focus:outline-none focus:ring-1 focus:ring-indigo-500/40 transition font-sans shadow-2xs"
+            className="w-full bg-card border border-border focus:border-indigo-500 rounded-xl pl-10 pr-10 py-2.5 text-xs text-foreground placeholder-stone-400 focus:outline-none focus:ring-1 focus:ring-indigo-500/40 transition font-sans shadow-2xs"
           />
           {(bulkTab === 'vocab' ? searchQuery : kanjiSearchQuery) && (
             <button
@@ -1175,7 +1175,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   setKanjiSearchQuery('');
                 }
               }}
-              className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-stone-400 hover:text-stone-700 dark:hover:text-zinc-200 transition cursor-pointer"
+              className="absolute right-3 top-1/2 -translate-y-1/2 p-1 text-muted-foreground hover:text-foreground hover:text-foreground transition cursor-pointer"
               title="Clear search"
             >
               <X className="w-4 h-4" />
@@ -1187,17 +1187,17 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
         {bulkTab === 'kanji' && (
           <div className="space-y-3 pt-1">
             {/* 1. Mastery Progress Bar */}
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 bg-white dark:bg-zinc-900 p-3 rounded-2xl border border-stone-200 dark:border-zinc-800 shadow-2xs">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 bg-card p-3 rounded-2xl border border-border shadow-2xs">
               <div className="flex items-center gap-2">
                 <Trophy className="w-4 h-4 text-amber-500 shrink-0" />
-                <span className="text-xs font-semibold text-stone-800 dark:text-zinc-200 font-myanmar">
+                <span className="text-xs font-semibold text-foreground font-myanmar">
                   Mastered (တတ်မြောက်ပြီး):
                 </span>
                 <span className="text-xs font-mono font-bold text-emerald-600 dark:text-emerald-400">
                   {masteredCount} / {kanjiList.length} ({masteryPercent}%)
                 </span>
               </div>
-              <div className="w-full sm:w-56 bg-stone-100 dark:bg-zinc-800 h-2.5 rounded-full overflow-hidden border border-stone-200 dark:border-zinc-700">
+              <div className="w-full sm:w-56 bg-muted h-2.5 rounded-full overflow-hidden border border-border">
                 <div
                   className="bg-emerald-500 h-full rounded-full transition-all duration-500"
                   style={{ width: `${masteryPercent}%` }}
@@ -1208,14 +1208,14 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             {/* 2. Sort & Filter Controls */}
             <div className="flex flex-wrap items-center justify-between gap-2.5 text-xs">
               {/* Filter Pills */}
-              <div className="flex items-center gap-1.5 bg-stone-100 dark:bg-zinc-950 p-1 rounded-xl border border-stone-200 dark:border-zinc-800 font-myanmar">
+              <div className="flex items-center gap-1.5 bg-muted bg-surface p-1 rounded-xl border border-border font-myanmar">
                 <button
                   type="button"
                   onClick={() => setKanjiFilter('all')}
                   className={`px-3 py-1 rounded-lg font-medium transition cursor-pointer ${
                     kanjiFilter === 'all'
-                      ? 'bg-white dark:bg-zinc-800 text-stone-900 dark:text-zinc-100 font-semibold shadow-2xs'
-                      : 'text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                      ? 'bg-card text-foreground font-semibold shadow-2xs'
+                      : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
                   All (အားလုံး)
@@ -1225,8 +1225,8 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   onClick={() => setKanjiFilter('unmastered')}
                   className={`px-3 py-1 rounded-lg font-medium transition cursor-pointer ${
                     kanjiFilter === 'unmastered'
-                      ? 'bg-white dark:bg-zinc-800 text-stone-900 dark:text-zinc-100 font-semibold shadow-2xs'
-                      : 'text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                      ? 'bg-card text-foreground font-semibold shadow-2xs'
+                      : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
                   Unmastered (လေ့လာဆဲ)
@@ -1236,8 +1236,8 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   onClick={() => setKanjiFilter('mastered')}
                   className={`px-3 py-1 rounded-lg font-medium transition cursor-pointer ${
                     kanjiFilter === 'mastered'
-                      ? 'bg-white dark:bg-zinc-800 text-stone-900 dark:text-zinc-100 font-semibold shadow-2xs'
-                      : 'text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                      ? 'bg-card text-foreground font-semibold shadow-2xs'
+                      : 'text-muted-foreground hover:text-foreground'
                   }`}
                 >
                   Mastered (တတ်မြောက်ပြီး)
@@ -1250,7 +1250,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   <select
                     value={selectedLessonFilter}
                     onChange={(e) => setSelectedLessonFilter(e.target.value)}
-                    className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 text-stone-700 dark:text-zinc-300 rounded-xl px-2.5 py-1.5 text-xs focus:outline-none focus:ring-1 focus:ring-indigo-500 cursor-pointer shadow-2xs"
+                    className="bg-card border border-border text-foreground rounded-xl px-2.5 py-1.5 text-xs focus:outline-none focus:ring-1 focus:ring-indigo-500 cursor-pointer shadow-2xs"
                   >
                     <option value="all">All Lessons (သင်ခန်းစာအားလုံး)</option>
                     {availableLessons.map((lId) => (
@@ -1264,7 +1264,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 <select
                   value={kanjiSort}
                   onChange={(e) => setKanjiSort(e.target.value as KanjiSort)}
-                  className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 text-stone-700 dark:text-zinc-300 rounded-xl px-2.5 py-1.5 text-xs focus:outline-none focus:ring-1 focus:ring-indigo-500 cursor-pointer shadow-2xs"
+                  className="bg-card border border-border text-foreground rounded-xl px-2.5 py-1.5 text-xs focus:outline-none focus:ring-1 focus:ring-indigo-500 cursor-pointer shadow-2xs"
                 >
                   <option value="default">Default Order (မူလအစဉ်)</option>
                   <option value="strokes_asc">Strokes: Low → High (ရေးချက် နည်း → များ)</option>
@@ -1295,15 +1295,15 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
         kanjiLoading ? (
           <div className="p-16 text-center space-y-3">
             <div className="w-8 h-8 mx-auto border-2 border-indigo-600 border-t-transparent rounded-full animate-spin" />
-            <p className="text-xs text-stone-500 font-mono">
+            <p className="text-xs text-muted-foreground font-mono">
               {`Loading JLPT ${selectedLevel} Kanji Deck...`}
             </p>
           </div>
         ) : filteredKanji.length === 0 ? (
-          <div className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-3xl p-12 text-center space-y-3 shadow-sm">
-            <Sparkles className="w-8 h-8 text-stone-400 mx-auto" />
-            <h3 className="text-sm font-semibold text-stone-800 dark:text-zinc-200 font-myanmar">ရှာဖွေတွေ့ရှိသော ခန်းဂျီး မရှိပါ (No matching kanji found)</h3>
-            <p className="text-xs text-stone-500 dark:text-zinc-400 max-w-md mx-auto">
+          <div className="bg-card border border-border rounded-3xl p-12 text-center space-y-3 shadow-sm">
+            <Sparkles className="w-8 h-8 text-muted-foreground mx-auto" />
+            <h3 className="text-sm font-semibold text-foreground font-myanmar">ရှာဖွေတွေ့ရှိသော ခန်းဂျီး မရှိပါ (No matching kanji found)</h3>
+            <p className="text-xs text-muted-foreground max-w-md mx-auto">
               Try adjusting your search query or clear the filter to view all {selectedLevel} kanji characters.
             </p>
             {(kanjiSearchQuery || kanjiFilter !== 'all' || selectedLessonFilter !== 'all') && (
@@ -1314,7 +1314,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   setKanjiFilter('all');
                   setSelectedLessonFilter('all');
                 }}
-                className="px-4 py-2 rounded-xl bg-white dark:bg-zinc-800 hover:bg-stone-50 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-200 border border-stone-300 dark:border-zinc-700 text-xs font-medium transition cursor-pointer mt-2 shadow-2xs"
+                className="px-4 py-2 rounded-xl bg-card hover:bg-muted/50 hover:bg-muted text-foreground text-foreground border border-border text-xs font-medium transition cursor-pointer mt-2 shadow-2xs"
               >
                 Clear Filters & Search
               </button>
@@ -1326,7 +1326,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
              ========================================================================= */
           <div className="space-y-6 max-w-xl mx-auto">
             {/* Flashcard Header Controls */}
-            <div className="flex items-center justify-between text-xs font-mono text-stone-600 dark:text-zinc-400 px-2">
+            <div className="flex items-center justify-between text-xs font-mono text-muted-foreground px-2">
               <span className="flex items-center gap-1.5 font-bold">
                 <span>Card {kanjiDrillIndex + 1} of {kanjiDrillDeck.length}</span>
               </span>
@@ -1337,7 +1337,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   className={`p-2 rounded-xl transition cursor-pointer flex items-center gap-1 text-xs ${
                     isKanjiShuffled
                       ? 'bg-indigo-600 text-white font-semibold'
-                      : 'bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100'
+                      : 'bg-card border border-border text-muted-foreground hover:text-foreground'
                   }`}
                   title="Shuffle Cards"
                 >
@@ -1351,11 +1351,11 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             {currentKanjiDrill && (
               <div
                 onClick={() => setIsKanjiRevealed((prev) => !prev)}
-                className="group relative min-h-[380px] bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-3xl p-6 sm:p-8 flex flex-col justify-between items-center text-center cursor-pointer shadow-lg hover:border-indigo-400 dark:hover:border-indigo-500 transition-all select-none"
+                className="group relative min-h-[380px] bg-card border border-border rounded-3xl p-6 sm:p-8 flex flex-col justify-between items-center text-center cursor-pointer shadow-lg hover:border-indigo-400 dark:hover:border-indigo-500 transition-all select-none"
               >
                 {/* Top Badge Row */}
                 <div className="w-full flex items-center justify-between">
-                  <span className="text-xs font-mono text-stone-500 dark:text-zinc-400 bg-stone-100 dark:bg-zinc-800 px-2.5 py-1 rounded-full border border-stone-200 dark:border-zinc-700">
+                  <span className="text-xs font-mono text-muted-foreground bg-muted px-2.5 py-1 rounded-full border border-border">
                     {`画数: ${currentKanjiDrill.strokeCount}`}
                   </span>
                   <div className="flex items-center gap-1.5">
@@ -1376,7 +1376,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       className={`p-1.5 rounded-lg transition cursor-pointer ${
                         masteredKanji.has(currentKanjiDrill.literal)
                           ? 'text-amber-500 hover:text-amber-600'
-                          : 'text-stone-300 dark:text-zinc-600 hover:text-amber-400'
+                          : 'text-muted-foreground/40 hover:text-amber-400'
                       }`}
                       title={masteredKanji.has(currentKanjiDrill.literal) ? 'တတ်မြောက်ပြီး (Mastered)' : 'လေ့လာဆဲ (Unmastered)'}
                     >
@@ -1387,12 +1387,12 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
 
                 {/* Center Content */}
                 <div className="my-auto py-4 space-y-4 w-full">
-                  <div className="text-7xl sm:text-8xl font-japanese font-bold text-stone-900 dark:text-zinc-100 group-hover:scale-105 transition-transform">
+                  <div className="text-7xl sm:text-8xl font-japanese font-bold text-foreground group-hover:scale-105 transition-transform">
                     {currentKanjiDrill.literal}
                   </div>
 
                   {!isKanjiRevealed ? (
-                    <div className="flex items-center justify-center gap-1.5 text-xs text-stone-500 dark:text-zinc-400 pt-4 font-myanmar">
+                    <div className="flex items-center justify-center gap-1.5 text-xs text-muted-foreground pt-4 font-myanmar">
                       <Eye className="w-4 h-4 text-indigo-500" />
                       <span>နှိပ်၍ အဖြေနှင့် ရှင်းလင်းချက်ကြည့်ပါ (Click to Flip)</span>
                     </div>
@@ -1400,49 +1400,49 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                     <motion.div
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
-                      className="space-y-3 w-full text-left bg-stone-50 dark:bg-zinc-950/60 p-4 rounded-2xl border border-stone-200 dark:border-zinc-800"
+                      className="space-y-3 w-full text-left bg-muted/50/60 p-4 rounded-2xl border border-border"
                     >
                       {/* Readings */}
                       <div className="space-y-1">
                         <div className="text-xs">
                           <span className="font-mono font-semibold text-rose-600 dark:text-rose-400 mr-1.5">音 (Onyomi):</span>
-                          <span className="font-japanese text-stone-900 dark:text-zinc-100 font-bold">
+                          <span className="font-japanese text-foreground font-bold">
                             {currentKanjiDrill.onyomi.length > 0 ? currentKanjiDrill.onyomi.join('、') : '—'}
                           </span>
                         </div>
                         <div className="text-xs">
                           <span className="font-mono font-semibold text-sky-600 dark:text-sky-400 mr-1.5">訓 (Kunyomi):</span>
-                          <span className="font-japanese text-stone-900 dark:text-zinc-100 font-bold">
+                          <span className="font-japanese text-foreground font-bold">
                             {currentKanjiDrill.kunyomi.length > 0 ? currentKanjiDrill.kunyomi.join('、') : '—'}
                           </span>
                         </div>
                       </div>
 
                       {/* Meanings */}
-                      <div className="pt-2 border-t border-stone-200 dark:border-zinc-800">
-                        <div className="text-sm font-burmese font-bold text-stone-900 dark:text-zinc-100">
+                      <div className="pt-2 border-t border-border">
+                        <div className="text-sm font-burmese font-bold text-foreground">
                           {currentKanjiDrill.meaningBurmese}
                         </div>
-                        <div className="text-xs font-sans text-stone-600 dark:text-zinc-400 mt-0.5">
+                        <div className="text-xs font-sans text-muted-foreground mt-0.5">
                           {currentKanjiDrill.meaningEn}
                         </div>
                       </div>
 
                       {/* Compound Examples */}
                       {currentKanjiDrill.examples && currentKanjiDrill.examples.length > 0 && (
-                        <div className="pt-2 border-t border-stone-200 dark:border-zinc-800 space-y-1.5">
-                          <span className="text-[10px] font-mono uppercase text-stone-500 dark:text-zinc-400 block font-myanmar">
+                        <div className="pt-2 border-t border-border space-y-1.5">
+                          <span className="text-[10px] font-mono uppercase text-muted-foreground block font-myanmar">
                             နမူနာ ဝေါဟာရများ (Compound Examples):
                           </span>
                           {currentKanjiDrill.examples.slice(0, 2).map((ex, exIdx) => (
                             <div
                               key={exIdx}
-                              className="flex items-center justify-between text-xs bg-white dark:bg-zinc-900 px-3 py-1.5 rounded-xl border border-stone-200 dark:border-zinc-800"
+                              className="flex items-center justify-between text-xs bg-card px-3 py-1.5 rounded-xl border border-border"
                             >
                               <div className="truncate">
-                                <span className="font-japanese font-bold text-stone-900 dark:text-zinc-100">{ex.word}</span>
-                                <span className="text-[11px] text-stone-500 dark:text-zinc-400 font-japanese ml-1.5">【{ex.reading}】</span>
-                                <span className="text-[11px] text-stone-700 dark:text-zinc-300 font-burmese ml-1.5">· {ex.meaningBurmese}</span>
+                                <span className="font-japanese font-bold text-foreground">{ex.word}</span>
+                                <span className="text-[11px] text-muted-foreground font-japanese ml-1.5">【{ex.reading}】</span>
+                                <span className="text-[11px] text-foreground font-burmese ml-1.5">· {ex.meaningBurmese}</span>
                               </div>
                               <button
                                 type="button"
@@ -1450,7 +1450,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                                   e.stopPropagation();
                                   play(ex.word, undefined, undefined, ex.reading);
                                 }}
-                                className="p-1 text-stone-400 hover:text-indigo-600 dark:hover:text-indigo-400 shrink-0 cursor-pointer transition rounded"
+                                className="p-1 text-muted-foreground hover:text-indigo-600 dark:hover:text-indigo-400 shrink-0 cursor-pointer transition rounded"
                                 title={`TTS: ${ex.word}`}
                               >
                                 <Volume2 className="w-3.5 h-3.5" />
@@ -1464,7 +1464,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 </div>
 
                 {/* Bottom Action Footer */}
-                <div className="w-full pt-3 border-t border-stone-100 dark:border-zinc-800/80 flex items-center justify-between">
+                <div className="w-full pt-3 border-t border-border border-border/80 flex items-center justify-between">
                   <button
                     type="button"
                     onClick={(e) => {
@@ -1476,7 +1476,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                     <BookOpen className="w-3.5 h-3.5" />
                     <span>ရေးချက်ကြည့်ရန် (Stroke Visualizer)</span>
                   </button>
-                  <span className="text-[11px] text-stone-400 dark:text-zinc-500 font-mono">
+                  <span className="text-[11px] text-muted-foreground font-mono">
                     Space / Click to Flip
                   </span>
                 </div>
@@ -1492,7 +1492,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   setIsKanjiRevealed(false);
                 }}
                 disabled={kanjiDrillIndex === 0}
-                className="px-4 py-2 rounded-xl bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 text-stone-700 dark:text-zinc-300 hover:bg-stone-50 dark:hover:bg-zinc-800 disabled:opacity-40 disabled:cursor-not-allowed flex items-center gap-1.5 text-xs font-semibold transition cursor-pointer shadow-xs"
+                className="px-4 py-2 rounded-xl bg-card border border-border text-foreground hover:bg-muted disabled:opacity-40 disabled:cursor-not-allowed flex items-center gap-1.5 text-xs font-semibold transition cursor-pointer shadow-xs"
               >
                 <ChevronLeft className="w-4 h-4" />
                 <span>Previous</span>
@@ -1512,7 +1512,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   setIsKanjiRevealed(false);
                 }}
                 disabled={kanjiDrillIndex >= kanjiDrillDeck.length - 1}
-                className="px-4 py-2 rounded-xl bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 text-stone-700 dark:text-zinc-300 hover:bg-stone-50 dark:hover:bg-zinc-800 disabled:opacity-40 disabled:cursor-not-allowed flex items-center gap-1.5 text-xs font-semibold transition cursor-pointer shadow-xs"
+                className="px-4 py-2 rounded-xl bg-card border border-border text-foreground hover:bg-muted disabled:opacity-40 disabled:cursor-not-allowed flex items-center gap-1.5 text-xs font-semibold transition cursor-pointer shadow-xs"
               >
                 <span>Next</span>
                 <ChevronRight className="w-4 h-4" />
@@ -1529,25 +1529,25 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
-                className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-3xl p-6 sm:p-8 text-center space-y-6 shadow-md"
+                className="bg-card border border-border rounded-3xl p-6 sm:p-8 text-center space-y-6 shadow-md"
               >
                 <div className="w-16 h-16 rounded-full bg-indigo-50 dark:bg-indigo-950/80 border border-indigo-200 dark:border-indigo-800 text-indigo-600 dark:text-indigo-400 flex items-center justify-center mx-auto shadow-sm">
                   <Trophy className="w-8 h-8" />
                 </div>
                 <div className="space-y-2">
-                  <h3 className="text-xl font-bold text-stone-900 dark:text-zinc-100 font-myanmar">
+                  <h3 className="text-xl font-bold text-foreground font-myanmar">
                     ခန်းဂျီး စစ်ဆေးမေးခွန်း ပြီးဆုံးပါပြီ!
                   </h3>
-                  <p className="text-xs text-stone-600 dark:text-zinc-400">
+                  <p className="text-xs text-muted-foreground">
                     JLPT {selectedLevel} Kanji Deck Quiz Session
                   </p>
                 </div>
 
-                <div className="bg-stone-50 dark:bg-zinc-950 p-6 rounded-2xl border border-stone-200 dark:border-zinc-800 space-y-2">
+                <div className="bg-muted/50 p-6 rounded-2xl border border-border space-y-2">
                   <div className="text-4xl font-bold font-mono text-indigo-600 dark:text-indigo-400">
                     {kanjiQuizScore} / {kanjiQuizQuestions.length}
                   </div>
-                  <div className="text-xs font-medium text-stone-600 dark:text-zinc-400 font-myanmar">
+                  <div className="text-xs font-medium text-muted-foreground font-myanmar">
                     ရမှတ်: {Math.round((kanjiQuizScore / (kanjiQuizQuestions.length || 1)) * 100)}%
                   </div>
                   {kanjiQuizScore === kanjiQuizQuestions.length ? (
@@ -1555,7 +1555,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       ဂုဏ်ယူပါသည်! ဖြေဆိုခဲ့သော ခန်းဂျီးအားလုံးကို မှန်ကန်စွာ ဖြေဆိုနိုင်ခဲ့ပါသည်။
                     </p>
                   ) : (
-                    <p className="text-xs text-stone-600 dark:text-zinc-400 font-myanmar pt-1">
+                    <p className="text-xs text-muted-foreground font-myanmar pt-1">
                       မှားယွင်းခဲ့သော ခန်းဂျီး {missedKanjiList.length} လုံး ရှိပါသည်။
                     </p>
                   )}
@@ -1583,7 +1583,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   <button
                     type="button"
                     onClick={() => setKanjiViewMode('grid')}
-                    className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-stone-100 dark:bg-zinc-800 hover:bg-stone-200 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-200 text-xs font-medium transition cursor-pointer font-myanmar"
+                    className="w-full sm:w-auto px-5 py-2.5 rounded-xl bg-muted hover:bg-muted text-foreground text-foreground text-xs font-medium transition cursor-pointer font-myanmar"
                   >
                     <span>ခန်းဂျီးစာရင်းသို့ ပြန်သွားမည်</span>
                   </button>
@@ -1593,7 +1593,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               /* Active Quiz Question Card */
               <div className="space-y-4">
                 {/* Progress Header */}
-                <div className="flex items-center justify-between text-xs font-mono text-stone-600 dark:text-zinc-400 px-1">
+                <div className="flex items-center justify-between text-xs font-mono text-muted-foreground px-1">
                   <span>
                     Question {kanjiQuizCurrentIndex + 1} of {kanjiQuizQuestions.length}
                   </span>
@@ -1605,7 +1605,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 </div>
 
                 {/* Question Prompt Card */}
-                <div className="bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-3xl p-6 sm:p-8 text-center space-y-3 shadow-md">
+                <div className="bg-card border border-border rounded-3xl p-6 sm:p-8 text-center space-y-3 shadow-md">
                   <div className="flex items-center justify-center gap-2">
                     <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950/60 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800 font-bold">
                       {currentKanjiQuizQ.kanji.jlptLevel}
@@ -1615,7 +1615,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                         {currentKanjiQuizQ.kanji.lessonId.replace(/^n\d\./i, 'L').toUpperCase()}
                       </span>
                     )}
-                    <span className="text-[10px] font-mono text-stone-500 dark:text-zinc-400 bg-stone-100 dark:bg-zinc-800 px-2 py-0.5 rounded-full border border-stone-200 dark:border-zinc-700">
+                    <span className="text-[10px] font-mono text-muted-foreground bg-muted px-2 py-0.5 rounded-full border border-border">
                       {`画数: ${currentKanjiQuizQ.kanji.strokeCount}`}
                     </span>
                   </div>
@@ -1623,22 +1623,22 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   <div className="py-2">
                     {currentKanjiQuizQ.type === 'meaning_to_kanji' ? (
                       <div className="space-y-1">
-                        <span className="text-2xl sm:text-3xl font-burmese font-bold text-stone-900 dark:text-zinc-100">
+                        <span className="text-2xl sm:text-3xl font-burmese font-bold text-foreground">
                           {currentKanjiQuizQ.prompt}
                         </span>
                         {currentKanjiQuizQ.promptSub && (
-                          <p className="text-xs text-stone-500 dark:text-zinc-400 font-japanese">
+                          <p className="text-xs text-muted-foreground font-japanese">
                             {currentKanjiQuizQ.promptSub}
                           </p>
                         )}
                       </div>
                     ) : (
                       <div className="space-y-1">
-                        <span className="text-6xl sm:text-7xl font-japanese font-bold text-stone-900 dark:text-zinc-100 inline-block">
+                        <span className="text-6xl sm:text-7xl font-japanese font-bold text-foreground inline-block">
                           {currentKanjiQuizQ.prompt}
                         </span>
                         {currentKanjiQuizQ.promptSub && (
-                          <p className="text-xs text-stone-500 dark:text-zinc-400 font-myanmar">
+                          <p className="text-xs text-muted-foreground font-myanmar">
                             {currentKanjiQuizQ.promptSub}
                           </p>
                         )}
@@ -1654,7 +1654,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                     const isCorrect = option === currentKanjiQuizQ.correctAnswer;
 
                     let btnClass =
-                      'bg-white dark:bg-zinc-900 border-stone-200 dark:border-zinc-800 text-stone-800 dark:text-zinc-200 hover:border-indigo-400 hover:bg-stone-50 dark:hover:bg-zinc-800/60';
+                      'bg-card border-border text-foreground hover:border-indigo-400 hover:bg-muted/60';
 
                     if (isKanjiQuizSubmitted) {
                       if (isCorrect) {
@@ -1665,7 +1665,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                           'bg-rose-50 dark:bg-rose-950/60 border-rose-500 dark:border-rose-600 text-rose-900 dark:text-rose-200';
                       } else {
                         btnClass =
-                          'bg-stone-50/50 dark:bg-zinc-900/40 border-stone-200 dark:border-zinc-800 text-stone-400 dark:text-zinc-500 opacity-60';
+                          'bg-muted/50/50 bg-card/40 border-border text-muted-foreground opacity-60';
                       }
                     }
 
@@ -1678,7 +1678,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                         className={`p-4 rounded-2xl border text-left transition-all flex items-center justify-between gap-3 cursor-pointer shadow-2xs ${btnClass}`}
                       >
                         <div className="flex items-center gap-3">
-                          <span className="w-6 h-6 rounded-lg bg-stone-100 dark:bg-zinc-800 border border-stone-300 dark:border-zinc-700 text-stone-700 dark:text-zinc-300 text-xs font-mono font-bold flex items-center justify-center shrink-0">
+                          <span className="w-6 h-6 rounded-lg bg-muted border border-border text-foreground text-xs font-mono font-bold flex items-center justify-center shrink-0">
                             {optIdx + 1}
                           </span>
                           <span className={`text-sm ${currentKanjiQuizQ.type === 'meaning_to_kanji' ? 'text-2xl font-japanese font-bold' : 'font-japanese'}`}>
@@ -1703,25 +1703,25 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                     animate={{ opacity: 1, y: 0 }}
                     className="space-y-4 pt-2"
                   >
-                    <div className="bg-stone-50 dark:bg-zinc-950 p-4 rounded-2xl border border-stone-200 dark:border-zinc-800 space-y-2 text-xs">
+                    <div className="bg-muted/50 p-4 rounded-2xl border border-border space-y-2 text-xs">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-2">
-                          <span className="text-xl font-japanese font-bold text-stone-900 dark:text-zinc-100">
+                          <span className="text-xl font-japanese font-bold text-foreground">
                             {currentKanjiQuizQ.kanji.literal}
                           </span>
-                          <span className="font-mono text-stone-500 dark:text-zinc-400">
+                          <span className="font-mono text-muted-foreground">
                             【{formatKanjiReadings(currentKanjiQuizQ.kanji)}】
                           </span>
                         </div>
-                        <span className="font-burmese font-bold text-stone-800 dark:text-zinc-200">
+                        <span className="font-burmese font-bold text-foreground">
                           {currentKanjiQuizQ.kanji.meaningBurmese}
                         </span>
                       </div>
                       {currentKanjiQuizQ.kanji.examples && currentKanjiQuizQ.kanji.examples.length > 0 && (
-                        <div className="pt-2 border-t border-stone-200 dark:border-zinc-800 flex items-center gap-2 flex-wrap">
-                          <span className="text-stone-500 dark:text-zinc-400 font-myanmar">နမူနာ:</span>
+                        <div className="pt-2 border-t border-border flex items-center gap-2 flex-wrap">
+                          <span className="text-muted-foreground font-myanmar">နမူနာ:</span>
                           {currentKanjiQuizQ.kanji.examples.slice(0, 2).map((ex, exIdx) => (
-                            <span key={exIdx} className="bg-white dark:bg-zinc-900 px-2 py-0.5 rounded border border-stone-200 dark:border-zinc-800 font-japanese text-stone-800 dark:text-zinc-200">
+                            <span key={exIdx} className="bg-card px-2 py-0.5 rounded border border-border font-japanese text-foreground">
                               {ex.word} ({ex.reading}) - {ex.meaningBurmese}
                             </span>
                           ))}
@@ -1733,7 +1733,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       <button
                         type="button"
                         onClick={handleNextKanjiQuizQuestion}
-                        className="px-6 py-2.5 rounded-xl bg-stone-900 text-white hover:bg-stone-800 dark:bg-zinc-100 dark:text-zinc-950 dark:hover:bg-white text-xs font-semibold flex items-center gap-2 shadow-xs transition cursor-pointer font-myanmar"
+                        className="px-6 py-2.5 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 dark:hover:bg-card text-xs font-semibold flex items-center gap-2 shadow-xs transition cursor-pointer font-myanmar"
                       >
                         <span>
                           {kanjiQuizCurrentIndex < kanjiQuizQuestions.length - 1
@@ -1758,11 +1758,11 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 <div
                   key={k.id}
                   onClick={() => setSelectedKanji(k)}
-                  className="group relative overflow-hidden rounded-2xl bg-white dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 hover:border-indigo-400 dark:hover:border-indigo-500 p-4 hover:bg-stone-50 dark:hover:bg-zinc-800/50 transition-all duration-300 cursor-pointer hover:scale-[1.01] shadow-sm flex flex-col justify-between"
+                  className="group relative overflow-hidden rounded-2xl bg-card border border-border hover:border-indigo-400 dark:hover:border-indigo-500 p-4 hover:bg-muted/50 transition-all duration-300 cursor-pointer hover:scale-[1.01] shadow-sm flex flex-col justify-between"
                 >
                   {/* Top: Stroke count badge & JLPT Level & Lesson badge & Mastered toggle */}
                   <div className="flex items-center justify-between mb-2 gap-1 flex-wrap">
-                    <span className="text-[10px] font-mono text-stone-500 dark:text-zinc-400 bg-stone-100 dark:bg-zinc-800 border border-stone-200 dark:border-zinc-700 px-2 py-0.5 rounded-full">
+                    <span className="text-[10px] font-mono text-muted-foreground bg-muted border border-border px-2 py-0.5 rounded-full">
                       {`画数: ${k.strokeCount}`}
                     </span>
                     <div className="flex items-center gap-1.5">
@@ -1783,7 +1783,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                         className={`p-1 rounded transition cursor-pointer ${
                           masteredKanji.has(k.literal)
                             ? 'text-amber-500 hover:text-amber-600'
-                            : 'text-stone-300 dark:text-zinc-600 hover:text-amber-400'
+                            : 'text-muted-foreground/40 hover:text-amber-400'
                         }`}
                         title={masteredKanji.has(k.literal) ? 'တတ်မြောက်ပြီး (Mastered)' : 'လေ့လာဆဲ (Unmastered)'}
                       >
@@ -1794,42 +1794,42 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
 
                   {/* Center: Prominent Kanji character */}
                   <div className="my-2 text-center">
-                    <span className="text-4xl sm:text-5xl font-japanese font-bold text-stone-900 dark:text-zinc-100 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 group-hover:scale-110 transition-transform duration-300 inline-block">
+                    <span className="text-4xl sm:text-5xl font-japanese font-bold text-foreground group-hover:text-indigo-600 dark:group-hover:text-indigo-400 group-hover:scale-110 transition-transform duration-300 inline-block">
                       {k.literal}
                     </span>
                   </div>
 
                   {/* Bottom: On/Kun readings & Burmese meaning */}
-                  <div className="space-y-1 pt-2 border-t border-stone-200 dark:border-zinc-800 text-left">
+                  <div className="space-y-1 pt-2 border-t border-border text-left">
                     <div className="flex items-baseline gap-1 text-[11px] truncate">
                       <span className="text-[10px] font-semibold text-rose-600 dark:text-rose-400 font-mono shrink-0">音:</span>
-                      <span className="font-japanese text-stone-800 dark:text-zinc-200 truncate">
+                      <span className="font-japanese text-foreground truncate">
                         {k.onyomi && k.onyomi.length > 0 ? k.onyomi.join('、') : '—'}
                       </span>
                     </div>
                     <div className="flex items-baseline gap-1 text-[11px] truncate">
                       <span className="text-[10px] font-semibold text-sky-600 dark:text-sky-400 font-mono shrink-0">訓:</span>
-                      <span className="font-japanese text-stone-800 dark:text-zinc-200 truncate">
+                      <span className="font-japanese text-foreground truncate">
                         {k.kunyomi && k.kunyomi.length > 0 ? k.kunyomi.join('、') : '—'}
                       </span>
                     </div>
-                    <div className="font-burmese text-xs text-stone-700 dark:text-zinc-300 font-medium line-clamp-1 pt-0.5">
+                    <div className="font-burmese text-xs text-foreground font-medium line-clamp-1 pt-0.5">
                       {k.meaningBurmese}
                     </div>
                   </div>
 
                   {/* Top Compound Examples (1-2) with TTS */}
                   {k.examples && k.examples.length > 0 && (
-                    <div className="mt-2 pt-2 border-t border-stone-100 dark:border-zinc-800 space-y-1 text-left">
+                    <div className="mt-2 pt-2 border-t border-border border-border space-y-1 text-left">
                       {k.examples.slice(0, 2).map((ex, exIdx) => (
                         <div
                           key={exIdx}
-                          className="flex items-center justify-between text-[11px] gap-1 group/ex bg-stone-50 dark:bg-zinc-800/50 rounded-lg px-2 py-1"
+                          className="flex items-center justify-between text-[11px] gap-1 group/ex bg-muted/50 bg-muted/50 rounded-lg px-2 py-1"
                         >
                           <div className="truncate">
-                            <span className="font-japanese font-bold text-stone-900 dark:text-zinc-100">{ex.word}</span>
-                            <span className="text-[10px] text-stone-500 dark:text-zinc-400 font-japanese ml-1">【{ex.reading}】</span>
-                            <span className="text-[10px] text-stone-600 dark:text-zinc-300 font-burmese ml-1">· {ex.meaningBurmese}</span>
+                            <span className="font-japanese font-bold text-foreground">{ex.word}</span>
+                            <span className="text-[10px] text-muted-foreground font-japanese ml-1">【{ex.reading}】</span>
+                            <span className="text-[10px] text-muted-foreground font-burmese ml-1">· {ex.meaningBurmese}</span>
                           </div>
                           <button
                             type="button"
@@ -1837,7 +1837,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                               e.stopPropagation();
                               play(ex.word, undefined, undefined, ex.reading);
                             }}
-                            className="p-1 text-stone-400 hover:text-indigo-600 dark:hover:text-indigo-400 shrink-0 cursor-pointer transition rounded"
+                            className="p-1 text-muted-foreground hover:text-indigo-600 dark:hover:text-indigo-400 shrink-0 cursor-pointer transition rounded"
                             title={`TTS: ${ex.word}`}
                           >
                             <Volume2 className="w-3 h-3" />
@@ -1854,21 +1854,21 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
       ) : loading ? (
         <div className="p-16 text-center space-y-3">
           <div className="w-8 h-8 mx-auto border-2 border-indigo-600 border-t-transparent rounded-full animate-spin" />
-          <p className="text-xs text-stone-500 font-mono">
+          <p className="text-xs text-muted-foreground font-mono">
             {`Loading JLPT ${selectedLevel} comprehensive vocabulary deck...`}
           </p>
         </div>
       ) : filteredWords.length === 0 ? (
-        <div className="bg-white border border-stone-200 rounded-3xl p-12 text-center space-y-3 shadow-sm">
-          <Sparkles className="w-8 h-8 text-stone-400 mx-auto" />
-          <h3 className="text-sm font-semibold text-stone-800">No matching vocabulary found</h3>
-          <p className="text-xs text-stone-500 max-w-md mx-auto">
+        <div className="bg-card border border-border rounded-3xl p-12 text-center space-y-3 shadow-sm">
+          <Sparkles className="w-8 h-8 text-muted-foreground mx-auto" />
+          <h3 className="text-sm font-semibold text-foreground">No matching vocabulary found</h3>
+          <p className="text-xs text-muted-foreground max-w-md mx-auto">
             Try adjusting your search query or clear the filter to view all {selectedLevel} words.
           </p>
           {searchQuery && (
             <button
               onClick={() => setSearchQuery('')}
-              className="px-4 py-2 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 text-stone-700 text-xs font-medium transition cursor-pointer mt-2 shadow-xs"
+              className="px-4 py-2 rounded-xl bg-card hover:bg-muted/50 border border-border text-foreground text-xs font-medium transition cursor-pointer mt-2 shadow-xs"
             >
               Clear Search Query
             </button>
@@ -1885,7 +1885,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.25 }}
-              className="bg-white border border-stone-200 rounded-3xl p-8 sm:p-12 text-center space-y-6 shadow-sm relative overflow-hidden"
+              className="bg-card border border-border rounded-3xl p-8 sm:p-12 text-center space-y-6 shadow-sm relative overflow-hidden"
             >
               <div className="w-16 h-16 rounded-2xl bg-amber-50 border border-amber-200 flex items-center justify-center mx-auto text-amber-600 shadow-xs">
                 <Trophy className="w-8 h-8 text-amber-600" />
@@ -1895,10 +1895,10 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 <span className="text-xs font-mono uppercase tracking-wider text-amber-700 font-semibold bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
                   JLPT {selectedLevel} Quiz Completed
                 </span>
-                <h2 className="text-2xl sm:text-3xl font-extrabold text-stone-900 tracking-tight font-myanmar pt-1">
+                <h2 className="text-2xl sm:text-3xl font-extrabold text-foreground tracking-tight font-myanmar pt-1">
                   စစ်ဆေးမှု ပြီးဆုံးပါပြီ!
                 </h2>
-                <p className="text-xs text-stone-600 font-sans">
+                <p className="text-xs text-muted-foreground font-sans">
                   {quizScore >= 8
                     ? 'ဂုဏ်ယူပါတယ်! ထူးချွန်စွာ အောင်မြင်ပါသည် 🌟'
                     : quizScore >= 5
@@ -1909,14 +1909,14 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
 
               {/* Score Metric Cards */}
               <div className="grid grid-cols-2 gap-3 max-w-sm mx-auto">
-                <div className="bg-stone-50 border border-stone-200 rounded-2xl p-4">
-                  <span className="text-xs text-stone-600 font-sans block">Score / ရမှတ်</span>
-                  <span className="text-2xl font-bold font-mono text-stone-900">
+                <div className="bg-muted/50 border border-border rounded-2xl p-4">
+                  <span className="text-xs text-muted-foreground font-sans block">Score / ရမှတ်</span>
+                  <span className="text-2xl font-bold font-mono text-foreground">
                     {quizScore} / {quizQuestions.length}
                   </span>
                 </div>
-                <div className="bg-stone-50 border border-stone-200 rounded-2xl p-4">
-                  <span className="text-xs text-stone-600 font-sans block">Accuracy / တိကျမှု</span>
+                <div className="bg-muted/50 border border-border rounded-2xl p-4">
+                  <span className="text-xs text-muted-foreground font-sans block">Accuracy / တိကျမှု</span>
                   <span className="text-2xl font-bold font-mono text-emerald-600">
                     {quizQuestions.length > 0 ? Math.round((quizScore / quizQuestions.length) * 100) : 0}%
                   </span>
@@ -1936,7 +1936,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 <button
                   type="button"
                   onClick={() => setStudyMode('list')}
-                  className="w-full sm:w-auto px-5 py-3 rounded-2xl bg-white hover:bg-stone-50 text-stone-700 font-semibold text-xs border border-stone-200 transition cursor-pointer shadow-xs"
+                  className="w-full sm:w-auto px-5 py-3 rounded-2xl bg-card hover:bg-muted/50 text-foreground font-semibold text-xs border border-border transition cursor-pointer shadow-xs"
                 >
                   📜 စာရင်းကြည့်မည် (List View)
                 </button>
@@ -1946,7 +1946,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                     setStudyMode('drill');
                     setIsRevealed(false);
                   }}
-                  className="w-full sm:w-auto px-5 py-3 rounded-2xl bg-white hover:bg-stone-50 text-stone-700 font-semibold text-xs border border-stone-200 transition cursor-pointer shadow-xs"
+                  className="w-full sm:w-auto px-5 py-3 rounded-2xl bg-card hover:bg-muted/50 text-foreground font-semibold text-xs border border-border transition cursor-pointer shadow-xs"
                 >
                   🎴 Flashcard လေ့ကျင့်မည်
                 </button>
@@ -1956,19 +1956,19 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             /* ACTIVE QUIZ QUESTION VIEW */
             <div className="space-y-4">
               {/* Quiz Progress & Score Header */}
-              <div className="bg-white border border-stone-200 rounded-2xl p-4 space-y-2 shadow-sm">
+              <div className="bg-card border border-border rounded-2xl p-4 space-y-2 shadow-sm">
                 <div className="flex items-center justify-between text-xs font-mono">
-                  <span className="text-stone-700 font-semibold flex items-center gap-1.5">
+                  <span className="text-foreground font-semibold flex items-center gap-1.5">
                     <Zap className="w-3.5 h-3.5 text-indigo-600" />
                     <span>Question {quizCurrentIndex + 1} / {quizQuestions.length}</span>
                   </span>
-                  <span className="text-stone-600">
+                  <span className="text-muted-foreground">
                     Score: <strong className="text-emerald-600 font-bold">{quizScore}</strong> / {quizCurrentIndex + (isQuizSubmitted ? 1 : 0)}
                   </span>
                 </div>
 
                 {/* Progress Bar */}
-                <div className="w-full bg-stone-200 rounded-full h-1.5 overflow-hidden">
+                <div className="w-full bg-muted rounded-full h-1.5 overflow-hidden">
                   <div
                     className="bg-indigo-600 h-1.5 rounded-full transition-all duration-300"
                     style={{
@@ -1984,20 +1984,20 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 initial={{ opacity: 0, y: 8 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.2 }}
-                className="bg-white border border-stone-200 rounded-3xl p-6 sm:p-8 text-center space-y-4 shadow-sm relative"
+                className="bg-card border border-border rounded-3xl p-6 sm:p-8 text-center space-y-4 shadow-sm relative"
               >
                 <div className="flex items-center justify-between">
                   <span className="px-2.5 py-0.5 rounded-full bg-indigo-50 text-indigo-700 font-mono text-[11px] font-bold border border-indigo-200">
                     JLPT {selectedLevel}
                   </span>
-                  <span className="text-[11px] font-mono text-stone-500 uppercase px-2 py-0.5 rounded bg-stone-100 border border-stone-200">
+                  <span className="text-[11px] font-mono text-muted-foreground uppercase px-2 py-0.5 rounded bg-muted border border-border">
                     {currentQuizQ.vocab.pos || 'vocabulary'}
                   </span>
                 </div>
 
                 {/* Question Prompt Headword */}
                 <div className="py-2 space-y-2">
-                  <h2 className="font-japanese text-4xl sm:text-5xl font-extrabold text-stone-900 tracking-tight">
+                  <h2 className="font-japanese text-4xl sm:text-5xl font-extrabold text-foreground tracking-tight">
                     {currentQuizQ.vocab.ja}
                   </h2>
 
@@ -2040,12 +2040,12 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       (currentPlayingText === currentQuizQ.vocab.ja ||
                         currentPlayingText === currentQuizQ.vocab.kana)
                         ? 'bg-indigo-600 text-white shadow-sm animate-pulse'
-                        : 'bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-200'
+                        : 'bg-muted hover:bg-muted text-foreground border border-border'
                     }`}
                   >
                     <Volume2 className="w-4 h-4" />
                     <span>Pronounce</span>
-                    <kbd className="text-[10px] px-1.5 py-0.2 rounded bg-stone-200 border border-stone-300 font-mono text-stone-600">
+                    <kbd className="text-[10px] px-1.5 py-0.2 rounded bg-muted border border-border font-mono text-muted-foreground">
                       R
                     </kbd>
                   </button>
@@ -2059,7 +2059,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   const isCorrect = option === currentQuizQ.correctAnswer;
 
                   let optionStyle =
-                    'bg-white hover:bg-stone-50 hover:border-stone-300 border-stone-200 text-stone-800 cursor-pointer shadow-xs';
+                    'bg-card hover:bg-muted/50 hover:border-border border-border text-foreground cursor-pointer shadow-xs';
 
                   if (isQuizSubmitted) {
                     if (isCorrect) {
@@ -2069,7 +2069,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       optionStyle =
                         'bg-rose-50 border-rose-300 text-rose-900 shadow-xs';
                     } else {
-                      optionStyle = 'bg-stone-50 border-stone-200 text-stone-400 opacity-60';
+                      optionStyle = 'bg-muted/50 border-border text-muted-foreground opacity-60';
                     }
                   }
 
@@ -2082,7 +2082,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       className={`p-4 rounded-2xl border transition text-left flex items-center justify-between gap-2.5 ${optionStyle}`}
                     >
                       <div className="flex items-center space-x-3 min-w-0">
-                        <span className="w-6 h-6 rounded-lg bg-stone-100 border border-stone-200 flex items-center justify-center font-mono text-xs text-stone-600 shrink-0">
+                        <span className="w-6 h-6 rounded-lg bg-muted border border-border flex items-center justify-center font-mono text-xs text-muted-foreground shrink-0">
                           {String.fromCharCode(65 + optIdx)}
                         </span>
                         <p className="font-burmese text-sm sm:text-base font-medium truncate">
@@ -2155,8 +2155,8 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               )}
 
               {/* Keyboard Shortcuts Hint */}
-              <div className="text-center text-[11px] font-mono text-stone-500 pt-1">
-                Shortcuts: <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">1</kbd>–<kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">4</kbd> Pick Option • <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">Space</kbd> / <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">Enter</kbd> Next Question • <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">R</kbd> Pronounce
+              <div className="text-center text-[11px] font-mono text-muted-foreground pt-1">
+                Shortcuts: <kbd className="px-1.5 py-0.5 rounded bg-muted border border-border">1</kbd>–<kbd className="px-1.5 py-0.5 rounded bg-muted border border-border">4</kbd> Pick Option • <kbd className="px-1.5 py-0.5 rounded bg-muted border border-border">Space</kbd> / <kbd className="px-1.5 py-0.5 rounded bg-muted border border-border">Enter</kbd> Next Question • <kbd className="px-1.5 py-0.5 rounded bg-muted border border-border">R</kbd> Pronounce
               </div>
             </div>
           ) : null}
@@ -2167,9 +2167,9 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
            ========================================================================= */
         <div className="space-y-6 max-w-2xl mx-auto">
           {/* Progress Header & Shuffle Toolbar */}
-          <div className="bg-white border border-stone-200 rounded-2xl p-4 space-y-2.5 shadow-sm">
+          <div className="bg-card border border-border rounded-2xl p-4 space-y-2.5 shadow-sm">
             <div className="flex items-center justify-between text-xs">
-              <span className="font-mono text-stone-700 font-semibold flex items-center gap-1.5">
+              <span className="font-mono text-foreground font-semibold flex items-center gap-1.5">
                 <span>Card {drillIndex + 1} / {drillDeck.length}</span>
                 {isShuffled && (
                   <span className="px-2 py-0.5 rounded-full bg-amber-50 text-amber-700 text-[10px] font-mono border border-amber-200">
@@ -2184,7 +2184,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   className={`px-3 py-1.5 rounded-xl text-xs font-mono transition cursor-pointer flex items-center space-x-1.5 ${
                     isShuffled
                       ? 'bg-amber-600 text-white font-bold shadow-xs'
-                      : 'bg-white hover:bg-stone-50 text-stone-700 border border-stone-200 shadow-xs'
+                      : 'bg-card hover:bg-muted/50 text-foreground border border-border shadow-xs'
                   }`}
                   title="Randomize card sequence"
                 >
@@ -2197,7 +2197,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                     setDrillIndex(0);
                     setIsRevealed(false);
                   }}
-                  className="p-1.5 rounded-xl bg-white hover:bg-stone-50 text-stone-500 hover:text-stone-800 border border-stone-200 cursor-pointer shadow-xs"
+                  className="p-1.5 rounded-xl bg-card hover:bg-muted/50 text-muted-foreground hover:text-foreground border border-border cursor-pointer shadow-xs"
                   title="Reset to first card"
                 >
                   <RotateCcw className="w-4 h-4" />
@@ -2206,7 +2206,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             </div>
 
             {/* Smooth Progress Bar */}
-            <div className="w-full bg-stone-200 rounded-full h-1.5 overflow-hidden">
+            <div className="w-full bg-muted rounded-full h-1.5 overflow-hidden">
               <div
                 className="bg-indigo-600 h-1.5 rounded-full transition-all duration-300"
                 style={{
@@ -2226,7 +2226,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 exit={{ opacity: 0, scale: 0.96 }}
                 transition={{ duration: 0.2 }}
                 onClick={() => setIsRevealed((prev) => !prev)}
-                className="bg-white border border-stone-200 hover:border-stone-300 rounded-3xl p-8 sm:p-12 text-center space-y-6 shadow-sm relative overflow-hidden cursor-pointer select-none group min-h-[360px] flex flex-col justify-between"
+                className="bg-card border border-border hover:border-border rounded-3xl p-8 sm:p-12 text-center space-y-6 shadow-sm relative overflow-hidden cursor-pointer select-none group min-h-[360px] flex flex-col justify-between"
               >
                 {/* Top Card Meta Badges */}
                 <div className="flex items-center justify-between">
@@ -2235,12 +2235,12 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       JLPT {selectedLevel}
                     </span>
                     {currentDrillWord.lessonId && (
-                      <span className="px-2 py-0.5 rounded-full bg-stone-100 text-stone-600 font-mono text-[10px] border border-stone-200 uppercase">
+                      <span className="px-2 py-0.5 rounded-full bg-muted text-muted-foreground font-mono text-[10px] border border-border uppercase">
                         {currentDrillWord.lessonId}
                       </span>
                     )}
                   </div>
-                  <span className="text-[11px] font-mono text-stone-500 uppercase px-2 py-0.5 rounded bg-stone-100 border border-stone-200">
+                  <span className="text-[11px] font-mono text-muted-foreground uppercase px-2 py-0.5 rounded bg-muted border border-border">
                     {currentDrillWord.pos || 'vocabulary'}
                   </span>
                 </div>
@@ -2249,10 +2249,10 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 {!isRevealed ? (
                   /* FRONT SIDE */
                   <div className="space-y-4 py-8">
-                    <h2 className="font-japanese text-5xl sm:text-6xl font-extrabold text-stone-900 tracking-tight">
+                    <h2 className="font-japanese text-5xl sm:text-6xl font-extrabold text-foreground tracking-tight">
                       {currentDrillWord.ja}
                     </h2>
-                    <p className="text-xs text-stone-600 font-sans">
+                    <p className="text-xs text-muted-foreground font-sans">
                       💡 နှိပ်၍ အဖြေကြည့်ပါ (Click or press Space to reveal answer)
                     </p>
                     <div className="pt-2">
@@ -2284,7 +2284,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                             toggleRevealItem(currentDrillWord.id, 'kanji');
                           }
                         }}
-                        className={`font-japanese text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight transition duration-200 ${
+                        className={`font-japanese text-3xl sm:text-4xl font-extrabold text-foreground tracking-tight transition duration-200 ${
                           maskState.hideKanji && !revealedItems[currentDrillWord.id]?.kanji
                             ? 'filter blur-md select-none cursor-pointer'
                             : ''
@@ -2340,19 +2340,19 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                           (currentPlayingText === currentDrillWord.ja ||
                             currentPlayingText === currentDrillWord.kana)
                             ? 'bg-indigo-600 text-white shadow-sm animate-pulse'
-                            : 'bg-stone-100 hover:bg-stone-200 text-stone-700 border border-stone-200'
+                            : 'bg-muted hover:bg-muted text-foreground border border-border'
                         }`}
                       >
                         <Volume2 className="w-4 h-4" />
                         <span>Replay Audio</span>
-                        <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-stone-200 border border-stone-300 font-mono text-stone-600">
+                        <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-muted border border-border font-mono text-muted-foreground">
                           R
                         </kbd>
                       </button>
                     </div>
 
                     {/* Burmese & English Meanings */}
-                    <div className="pt-4 border-t border-stone-200 space-y-1.5">
+                    <div className="pt-4 border-t border-border space-y-1.5">
                       <p
                         onClick={(e) => {
                           if (maskState.hideBurmese) {
@@ -2370,7 +2370,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                         {getBurmeseMeaning(currentDrillWord)}
                       </p>
                       {currentDrillWord.en && (
-                        <p className="text-stone-600 text-xs sm:text-sm font-sans leading-normal">
+                        <p className="text-muted-foreground text-xs sm:text-sm font-sans leading-normal">
                           {currentDrillWord.en}
                         </p>
                       )}
@@ -2379,7 +2379,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                 )}
 
                 {/* Bottom Card Footer Hint */}
-                <div className="text-[11px] font-mono text-stone-500 pt-2 border-t border-stone-200 flex items-center justify-between">
+                <div className="text-[11px] font-mono text-muted-foreground pt-2 border-t border-border flex items-center justify-between">
                   <span>{isRevealed ? 'Answer revealed' : 'Card hidden'}</span>
                   <span>Click card to {isRevealed ? 'hide' : 'flip'}</span>
                 </div>
@@ -2393,11 +2393,11 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               type="button"
               onClick={handlePrevDrill}
               disabled={drillIndex === 0}
-              className="px-4 py-3 rounded-2xl bg-white hover:bg-stone-50 disabled:opacity-30 text-stone-700 text-xs font-semibold border border-stone-200 transition cursor-pointer flex items-center space-x-2 shadow-xs"
+              className="px-4 py-3 rounded-2xl bg-card hover:bg-muted/50 disabled:opacity-30 text-foreground text-xs font-semibold border border-border transition cursor-pointer flex items-center space-x-2 shadow-xs"
             >
               <ChevronLeft className="w-4 h-4" />
               <span>Previous (ရှေ့သို့)</span>
-              <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200 font-mono text-stone-500 hidden sm:inline">
+              <kbd className="text-[10px] px-1.5 py-0.5 rounded bg-muted border border-border font-mono text-muted-foreground hidden sm:inline">
                 ←
               </kbd>
             </button>
@@ -2405,7 +2405,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             <button
               type="button"
               onClick={() => setIsRevealed((prev) => !prev)}
-              className="px-4 py-3 rounded-2xl bg-white hover:bg-stone-50 text-stone-700 text-xs font-medium border border-stone-200 transition cursor-pointer flex items-center space-x-1.5 shadow-xs"
+              className="px-4 py-3 rounded-2xl bg-card hover:bg-muted/50 text-foreground text-xs font-medium border border-border transition cursor-pointer flex items-center space-x-1.5 shadow-xs"
             >
               {isRevealed ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
               <span>{isRevealed ? 'Hide (ဝှက်မည်)' : 'Flip (လှန်မည်)'}</span>
@@ -2440,8 +2440,8 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
           </div>
 
           {/* Keyboard Legend */}
-          <div className="text-center text-[11px] font-mono text-stone-500 pt-2">
-            Shortcuts: <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">Space</kbd> Flip / Reveal • <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">←</kbd> / <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">→</kbd> Prev / Next • <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">H</kbd> Hard / Lap • <kbd className="px-1.5 py-0.5 rounded bg-stone-100 border border-stone-200">R</kbd> Pronounce
+          <div className="text-center text-[11px] font-mono text-muted-foreground pt-2">
+            Shortcuts: <kbd className="px-1.5 py-0.5 rounded bg-muted border border-border">Space</kbd> Flip / Reveal • <kbd className="px-1.5 py-0.5 rounded bg-muted border border-border">←</kbd> / <kbd className="px-1.5 py-0.5 rounded bg-muted border border-border">→</kbd> Prev / Next • <kbd className="px-1.5 py-0.5 rounded bg-muted border border-border">H</kbd> Hard / Lap • <kbd className="px-1.5 py-0.5 rounded bg-muted border border-border">R</kbd> Pronounce
           </div>
         </div>
       ) : (
@@ -2458,7 +2458,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               return (
                 <div
                   key={v.id}
-                  className="bg-white border border-stone-200 hover:border-indigo-300 rounded-2xl p-5 transition shadow-sm flex flex-col justify-between space-y-3.5 group relative overflow-hidden"
+                  className="bg-card border border-border hover:border-indigo-300 rounded-2xl p-5 transition shadow-sm flex flex-col justify-between space-y-3.5 group relative overflow-hidden"
                 >
                   {/* Top Row: Headword & Audio Button */}
                   <div className="flex items-start justify-between gap-3">
@@ -2472,9 +2472,9 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                               toggleRevealItem(v.id, 'kanji');
                             }
                           }}
-                          className={`font-japanese text-xl text-stone-900 font-bold tracking-tight transition duration-200 ${
+                          className={`font-japanese text-xl text-foreground font-bold tracking-tight transition duration-200 ${
                             maskState.hideKanji && !revealedItems[v.id]?.kanji
-                              ? 'filter blur-md select-none cursor-pointer bg-stone-100 dark:bg-zinc-800 px-2 rounded hover:bg-stone-200'
+                              ? 'filter blur-md select-none cursor-pointer bg-muted px-2 rounded hover:bg-muted'
                               : ''
                           }`}
                           title={maskState.hideKanji && !revealedItems[v.id]?.kanji ? 'Tap to reveal Kanji' : undefined}
@@ -2500,12 +2500,12 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       </div>
 
                       {/* Part of Speech & Lesson badge */}
-                      <div className="flex items-center space-x-1.5 text-[10px] font-mono text-stone-500 pt-0.5">
-                        <span className="px-1.5 py-0.2 rounded bg-stone-100 border border-stone-200 text-stone-600">
+                      <div className="flex items-center space-x-1.5 text-[10px] font-mono text-muted-foreground pt-0.5">
+                        <span className="px-1.5 py-0.2 rounded bg-muted border border-border text-muted-foreground">
                           {v.pos || 'vocab'}
                         </span>
                         {v.lessonId && (
-                          <span className="px-1.5 py-0.2 rounded bg-stone-100 border border-stone-200 text-stone-600 uppercase">
+                          <span className="px-1.5 py-0.2 rounded bg-muted border border-border text-muted-foreground uppercase">
                             {v.lessonId}
                           </span>
                         )}
@@ -2519,7 +2519,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       className={`p-2.5 rounded-xl transition cursor-pointer flex items-center justify-center shrink-0 ${
                         isItemPlaying
                           ? 'bg-indigo-600 text-white shadow-sm animate-pulse'
-                          : 'bg-stone-100 hover:bg-stone-200 text-stone-600 hover:text-stone-900 border border-stone-200'
+                          : 'bg-muted hover:bg-muted text-muted-foreground hover:text-foreground border border-border'
                       }`}
                       title="Listen to Japanese pronunciation"
                     >
@@ -2542,7 +2542,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                   )}
 
                   {/* Burmese & English Meanings */}
-                  <div className="pt-2.5 border-t border-stone-200 space-y-1">
+                  <div className="pt-2.5 border-t border-border space-y-1">
                     {burmeseMeaning && (
                       <p
                         onClick={(e) => {
@@ -2551,9 +2551,9 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                             toggleRevealItem(v.id, 'burmese');
                           }
                         }}
-                        className={`font-burmese text-stone-800 text-sm font-medium leading-relaxed transition duration-200 ${
+                        className={`font-burmese text-foreground text-sm font-medium leading-relaxed transition duration-200 ${
                           maskState.hideBurmese && !revealedItems[v.id]?.burmese
-                            ? 'filter blur-md select-none cursor-pointer bg-stone-100 dark:bg-zinc-800 px-2 rounded hover:bg-stone-200'
+                            ? 'filter blur-md select-none cursor-pointer bg-muted px-2 rounded hover:bg-muted'
                             : ''
                         }`}
                         title={maskState.hideBurmese && !revealedItems[v.id]?.burmese ? 'Tap to reveal Burmese' : undefined}
@@ -2562,7 +2562,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
                       </p>
                     )}
                     {v.en && (
-                      <p className="text-stone-600 text-xs leading-normal">
+                      <p className="text-muted-foreground text-xs leading-normal">
                         {v.en}
                       </p>
                     )}
@@ -2578,7 +2578,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
               <button
                 type="button"
                 onClick={handleLoadMore}
-                className="px-6 py-3 rounded-2xl bg-white hover:bg-stone-50 border border-stone-200 hover:border-stone-300 text-xs font-semibold text-stone-700 hover:text-stone-900 transition shadow-sm cursor-pointer inline-flex items-center space-x-2"
+                className="px-6 py-3 rounded-2xl bg-card hover:bg-muted/50 border border-border hover:border-border text-xs font-semibold text-foreground hover:text-foreground transition shadow-sm cursor-pointer inline-flex items-center space-x-2"
               >
                 <span>Show More ({filteredWords.length - displayCount} remaining)</span>
                 <ChevronDown className="w-4 h-4" />
@@ -2604,7 +2604,7 @@ export const LevelBulkStudyScreen: React.FC<LevelBulkStudyScreenProps> = ({
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 16, scale: 0.95 }}
             transition={{ duration: 0.2 }}
-            className="fixed bottom-6 right-6 z-50 max-w-sm px-4 py-3 rounded-2xl bg-white/95 backdrop-blur-xl border border-rose-200 shadow-xl text-rose-800 text-xs font-medium flex items-center space-x-2.5 shadow-stone-400/20"
+            className="fixed bottom-6 right-6 z-50 max-w-sm px-4 py-3 rounded-2xl bg-card/95 backdrop-blur-xl border border-rose-200 shadow-xl text-rose-800 text-xs font-medium flex items-center space-x-2.5 shadow-stone-400/20"
           >
             <span className="text-base">👻</span>
             <span className="font-burmese leading-relaxed">{toastMessage.text}</span>

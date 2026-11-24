@@ -860,14 +860,14 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
   }, [sessions, sessionSearchQuery]);
 
   return (
-    <div className="flex flex-col h-[calc(100vh-140px)] md:h-[calc(100vh-120px)] max-w-7xl mx-auto w-full bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-2xl shadow-sm overflow-hidden">
+    <div className="flex flex-col h-[calc(100vh-140px)] md:h-[calc(100vh-120px)] max-w-7xl mx-auto w-full bg-card border border-border rounded-2xl shadow-sm overflow-hidden">
       {/* 1. Header Toolbar */}
-      <div className="p-3.5 sm:p-4 bg-stone-50 dark:bg-stone-950/60 border-b border-stone-200 dark:border-stone-800 flex flex-wrap items-center justify-between gap-3">
+      <div className="p-3.5 sm:p-4 bg-surface/80 border-b border-border flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center space-x-3">
           <button
             type="button"
             onClick={() => setIsSidebarOpen((prev) => !prev)}
-            className="p-1.5 rounded-lg border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 text-stone-600 dark:text-stone-300 hover:text-indigo-600 hover:border-indigo-300 transition cursor-pointer shadow-xs"
+            className="p-1.5 rounded-lg border border-border bg-card text-muted-foreground hover:text-primary hover:border-primary/40 transition cursor-pointer shadow-xs"
             title={isSidebarOpen ? 'Hide Chat History' : 'Show Chat History'}
           >
             {isSidebarOpen ? (
@@ -877,22 +877,22 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
             )}
           </button>
 
-          <div className="w-9 h-9 rounded-xl bg-indigo-600 text-white flex items-center justify-center shadow-xs">
+          <div className="w-9 h-9 rounded-xl bg-primary text-primary-foreground flex items-center justify-center shadow-xs">
             <Sparkles className="w-5 h-5" />
           </div>
           <div>
             <div className="flex items-center space-x-2">
-              <h1 className="text-sm sm:text-base font-bold text-stone-900 dark:text-stone-100 flex items-center gap-1.5">
+              <h1 className="text-sm sm:text-base font-bold text-foreground flex items-center gap-1.5">
                 <span>AI Japanese Tutor</span>
-                <span className="text-xs font-normal text-stone-500 dark:text-stone-400 font-myanmar">
+                <span className="text-xs font-normal text-muted-foreground font-myanmar">
                   (AI 先生)
                 </span>
               </h1>
-              <span className="text-[10px] font-mono font-medium px-2 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950/80 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">
+              <span className="text-[10px] font-mono font-medium px-2 py-0.5 rounded-full bg-primary/10 text-primary border border-primary/20">
                 Gemini 3.8 Flash Streaming
               </span>
             </div>
-            <p className="text-[11px] text-stone-500 dark:text-stone-400 font-myanmar">
+            <p className="text-[11px] text-muted-foreground font-myanmar">
               JLPT N5–N2 သင်ရိုးညွှန်းတမ်း အထောက်အကူပြု မြန်မာဘာသာ ရှင်းလင်းချက် AI သင်ကြားသူ
             </p>
           </div>
@@ -901,15 +901,15 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
         {/* Global Controls: Level, Lesson, Language, Clear */}
         <div className="flex flex-wrap items-center gap-2">
           {/* Level Switcher */}
-          <div className="flex items-center rounded-lg bg-stone-200/80 dark:bg-stone-800 p-0.5">
+          <div className="flex items-center rounded-lg bg-muted p-0.5">
             {(['N5', 'N4', 'N3', 'N2'] as JLPTLevel[]).map((lvl) => (
               <button
                 key={lvl}
                 onClick={() => setLevel(lvl)}
                 className={`px-2.5 py-1 text-xs font-bold rounded-md transition cursor-pointer ${
                   level === lvl
-                    ? 'bg-white dark:bg-stone-900 text-indigo-600 dark:text-indigo-400 shadow-xs'
-                    : 'text-stone-600 dark:text-stone-400 hover:text-stone-900 dark:hover:text-stone-200'
+                    ? 'bg-card text-primary shadow-xs'
+                    : 'text-muted-foreground hover:text-foreground'
                 }`}
               >
                 {lvl}
@@ -921,7 +921,7 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
           <select
             value={selectedLessonId}
             onChange={(e) => setSelectedLessonId(e.target.value)}
-            className="text-xs bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-700 rounded-lg px-2.5 py-1.5 text-stone-800 dark:text-stone-200 focus:outline-none focus:border-indigo-500 shadow-xs max-w-[160px] sm:max-w-[200px] truncate"
+            className="text-xs bg-card border border-border rounded-lg px-2.5 py-1.5 text-foreground focus:outline-none focus:border-primary shadow-xs max-w-[160px] sm:max-w-[200px] truncate"
           >
             {lessonsForSelectedLevel.map((l) => (
               <option key={l.id} value={l.id}>
@@ -934,10 +934,10 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
           <button
             type="button"
             onClick={() => setLanguage((prev) => (prev === 'my' ? 'en' : 'my'))}
-            className="px-2.5 py-1.5 rounded-lg border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 text-xs font-semibold text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800 transition cursor-pointer flex items-center space-x-1 shadow-xs"
+            className="px-2.5 py-1.5 rounded-lg border border-border bg-card text-xs font-semibold text-foreground hover:bg-muted transition cursor-pointer flex items-center space-x-1 shadow-xs"
             title="ရှင်းလင်းချက်ဘာသာစကား ပြောင်းလဲမည် (Language Toggle)"
           >
-            <Languages className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400" />
+            <Languages className="w-3.5 h-3.5 text-primary" />
             <span>{language === 'my' ? 'မြန်မာ' : 'English'}</span>
           </button>
 
@@ -945,7 +945,7 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
           <button
             type="button"
             onClick={handleClearChat}
-            className="p-1.5 rounded-lg border border-stone-200 dark:border-stone-700 bg-white dark:bg-stone-900 text-stone-500 hover:text-rose-600 dark:hover:text-rose-400 transition cursor-pointer shadow-xs"
+            className="p-1.5 rounded-lg border border-border bg-card text-muted-foreground hover:text-destructive transition cursor-pointer shadow-xs"
             title="စကားပြောဆိုမှု ရှင်းလင်းမည် (Clear Current Chat)"
           >
             <RotateCcw className="w-4 h-4" />
@@ -957,13 +957,13 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
       <div className="flex-1 flex overflow-hidden relative">
         {/* Session Sidebar */}
         {isSidebarOpen && (
-          <aside className="w-72 sm:w-80 border-r border-stone-200 dark:border-stone-800 bg-stone-50/70 dark:bg-stone-950/40 flex flex-col shrink-0">
+          <aside className="w-72 sm:w-80 border-r border-border bg-surface/60 flex flex-col shrink-0">
             {/* New Chat Button */}
-            <div className="p-3 border-b border-stone-200 dark:border-stone-800 flex items-center gap-2">
+            <div className="p-3 border-b border-border flex items-center gap-2">
               <button
                 type="button"
                 onClick={() => handleCreateNewSession()}
-                className="flex-1 flex items-center justify-center space-x-2 px-3 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-semibold shadow-xs transition cursor-pointer active:scale-95"
+                className="flex-1 flex items-center justify-center space-x-2 px-3 py-2 bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl text-xs font-semibold shadow-xs transition cursor-pointer active:scale-95"
               >
                 <Plus className="w-4 h-4" />
                 <span>စကားပြောဆိုမှုအသစ် (+ New)</span>
@@ -971,15 +971,15 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
             </div>
 
             {/* Session Search Input */}
-            <div className="px-3 py-2 border-b border-stone-200 dark:border-stone-800">
+            <div className="px-3 py-2 border-b border-border">
               <div className="relative">
-                <Search className="w-3.5 h-3.5 absolute left-2.5 top-2.5 text-stone-400" />
+                <Search className="w-3.5 h-3.5 absolute left-2.5 top-2.5 text-muted-foreground" />
                 <input
                   type="text"
                   value={sessionSearchQuery}
                   onChange={(e) => setSessionSearchQuery(e.target.value)}
                   placeholder="စကားပြောဆိုမှု ရှာဖွေမည်..."
-                  className="w-full pl-8 pr-2.5 py-1.5 text-xs bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-700 rounded-lg text-stone-800 dark:text-stone-200 focus:outline-none focus:border-indigo-500"
+                  className="w-full pl-8 pr-2.5 py-1.5 text-xs bg-card border border-border rounded-lg text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary"
                 />
               </div>
             </div>
@@ -987,7 +987,7 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
             {/* Scrollable Session List */}
             <div className="flex-1 overflow-y-auto p-2 space-y-1">
               {filteredSessions.length === 0 ? (
-                <div className="p-4 text-center text-xs text-stone-400 font-myanmar">
+                <div className="p-4 text-center text-xs text-muted-foreground font-myanmar">
                   စကားပြောဆိုမှု မတွေ့ရှိပါ
                 </div>
               ) : (
@@ -1001,12 +1001,12 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
                       onClick={() => !isEditing && handleSelectSession(session)}
                       className={`group relative flex items-center justify-between p-2.5 rounded-xl text-xs transition cursor-pointer ${
                         isActive
-                          ? 'bg-indigo-50 dark:bg-indigo-950/60 text-indigo-900 dark:text-indigo-200 border border-indigo-200/80 dark:border-indigo-800 font-medium shadow-2xs'
-                          : 'text-stone-700 dark:text-stone-300 hover:bg-stone-100 dark:hover:bg-stone-800/80 border border-transparent'
+                          ? 'bg-primary/10 text-primary border border-primary/20 font-medium shadow-2xs'
+                          : 'text-foreground hover:bg-muted border border-transparent'
                       }`}
                     >
                       <div className="flex items-start space-x-2 min-w-0 flex-1">
-                        <MessageSquare className="w-3.5 h-3.5 shrink-0 mt-0.5 text-stone-400 group-hover:text-indigo-500" />
+                        <MessageSquare className="w-3.5 h-3.5 shrink-0 mt-0.5 text-muted-foreground group-hover:text-primary" />
                         <div className="min-w-0 flex-1">
                           {isEditing ? (
                             <div className="flex items-center space-x-1" onClick={(e) => e.stopPropagation()}>
@@ -1019,19 +1019,19 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
                                   if (e.key === 'Escape') setEditingSessionId(null);
                                 }}
                                 autoFocus
-                                className="w-full text-xs bg-white dark:bg-stone-900 border border-indigo-500 rounded px-1.5 py-0.5"
+                                className="w-full text-xs bg-card border border-primary text-foreground rounded px-1.5 py-0.5"
                               />
                               <button
                                 type="button"
                                 onClick={() => handleSaveRename(session.id)}
-                                className="p-1 hover:text-emerald-600"
+                                className="p-1 hover:text-emerald-500"
                               >
                                 <Check className="w-3 h-3" />
                               </button>
                               <button
                                 type="button"
                                 onClick={() => setEditingSessionId(null)}
-                                className="p-1 hover:text-stone-500"
+                                className="p-1 hover:text-muted-foreground"
                               >
                                 <X className="w-3 h-3" />
                               </button>
@@ -1039,7 +1039,7 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
                           ) : (
                             <>
                               <p className="truncate leading-snug">{session.title}</p>
-                              <div className="flex items-center space-x-1.5 text-[10px] text-stone-400 dark:text-stone-500 mt-0.5">
+                              <div className="flex items-center space-x-1.5 text-[10px] text-muted-foreground mt-0.5">
                                 <span className="uppercase font-mono font-semibold">
                                   {session.level}
                                 </span>
@@ -1057,7 +1057,7 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
                           <button
                             type="button"
                             onClick={(e) => handleStartRename(session, e)}
-                            className="p-1 rounded hover:bg-stone-200 dark:hover:bg-stone-700 text-stone-500 hover:text-stone-800"
+                            className="p-1 rounded hover:bg-muted text-muted-foreground hover:text-foreground"
                             title="Rename"
                           >
                             <Edit2 className="w-3 h-3" />
@@ -1065,7 +1065,7 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
                           <button
                             type="button"
                             onClick={(e) => handleDeleteSession(session.id, e)}
-                            className="p-1 rounded hover:bg-rose-100 dark:hover:bg-rose-950/60 text-stone-500 hover:text-rose-600"
+                            className="p-1 rounded hover:bg-destructive/15 text-muted-foreground hover:text-destructive"
                             title="Delete"
                           >
                             <Trash2 className="w-3 h-3" />
@@ -1081,9 +1081,9 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
         )}
 
         {/* Chat Main Area */}
-        <div className="flex-1 flex flex-col min-w-0 bg-white dark:bg-stone-900">
+        <div className="flex-1 flex flex-col min-w-0 bg-card">
           {/* 2. Mode Selector Bar */}
-          <div className="px-3 sm:px-4 py-2 bg-white dark:bg-stone-900 border-b border-stone-200 dark:border-stone-800 flex items-center gap-1.5 overflow-x-auto no-scrollbar">
+          <div className="px-3 sm:px-4 py-2 bg-card border-b border-border flex items-center gap-1.5 overflow-x-auto no-scrollbar">
             {MODE_DEFINITIONS.map((m) => {
               const Icon = m.icon;
               const isActive = mode === m.id;
@@ -1098,8 +1098,8 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
                   }}
                   className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap transition cursor-pointer shrink-0 ${
                     isActive
-                      ? 'bg-indigo-600 text-white font-semibold shadow-xs'
-                      : 'bg-stone-100 dark:bg-stone-800/80 text-stone-600 dark:text-stone-400 hover:bg-stone-200/70 dark:hover:bg-stone-700 hover:text-stone-900 dark:hover:text-stone-100'
+                      ? 'bg-primary text-primary-foreground font-semibold shadow-xs'
+                      : 'bg-muted text-muted-foreground hover:bg-muted/80 hover:text-foreground'
                   }`}
                 >
                   <Icon className="w-3.5 h-3.5" />
@@ -1111,15 +1111,15 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
           </div>
 
           {/* 3. Active Context Notice Banner */}
-          <div className="px-3 sm:px-4 py-1.5 bg-indigo-50/70 dark:bg-indigo-950/40 border-b border-indigo-100 dark:border-indigo-900/50 flex flex-wrap items-center justify-between text-[11px] text-indigo-950 dark:text-indigo-200">
+          <div className="px-3 sm:px-4 py-1.5 bg-primary/5 border-b border-border flex flex-wrap items-center justify-between text-[11px] text-foreground">
             <div className="flex items-center space-x-2 truncate">
-              <BookOpen className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400 shrink-0" />
+              <BookOpen className="w-3.5 h-3.5 text-primary shrink-0" />
               <span className="font-semibold">{level} {selectedLessonId.toUpperCase()}:</span>
               <span className="truncate">
                 {lessonPack?.title ? `${lessonPack.title}` : 'Loading lesson pack...'}
               </span>
               {lessonPack && (
-                <span className="text-stone-500 dark:text-stone-400 text-[10px] hidden sm:inline">
+                <span className="text-muted-foreground text-[10px] hidden sm:inline">
                   ({lessonPack.grammars?.length || 0} Grammar, {lessonPack.vocabularies?.length || 0} Vocab, {lessonPack.kanjis?.length || 0} Kanji)
                 </span>
               )}
@@ -1131,7 +1131,7 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
                   type="checkbox"
                   checked={attachContext}
                   onChange={(e) => setAttachContext(e.target.checked)}
-                  className="rounded text-indigo-600 focus:ring-0 w-3.5 h-3.5 cursor-pointer"
+                  className="rounded text-primary focus:ring-0 w-3.5 h-3.5 cursor-pointer"
                 />
                 <span className="text-[10px] font-medium">Attach Lesson Context</span>
               </label>
@@ -1139,7 +1139,7 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
               {onOpenLesson && lessonPack && (
                 <button
                   onClick={() => onOpenLesson(selectedLessonId)}
-                  className="text-[10px] text-indigo-700 dark:text-indigo-300 hover:underline font-semibold cursor-pointer"
+                  className="text-[10px] text-primary hover:underline font-semibold cursor-pointer"
                 >
                   Open Lesson &rarr;
                 </button>
@@ -1149,8 +1149,8 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
 
           {/* 4. Offline Warning Banner */}
           {isOffline && (
-            <div className="p-2.5 bg-amber-50 dark:bg-amber-950/60 border-b border-amber-200 dark:border-amber-900 text-amber-800 dark:text-amber-200 text-xs flex items-center space-x-2">
-              <WifiOff className="w-4 h-4 shrink-0 text-amber-600 dark:text-amber-400" />
+            <div className="p-2.5 bg-warning/10 border-b border-warning/30 text-foreground text-xs flex items-center space-x-2">
+              <WifiOff className="w-4 h-4 shrink-0 text-warning" />
               <span className="font-myanmar">
                 အင်တာနက်လိုင်း မရှိပါ (Offline)။ AI Tutor အသုံးပြုရန် အင်တာနက်ချိတ်ဆက်မှု လိုအပ်ပါသည်။
               </span>
@@ -1158,7 +1158,7 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
           )}
 
           {/* 5. Chat Messages Scroll Area */}
-          <div className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-4 bg-stone-50/50 dark:bg-stone-900/40">
+          <div className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-4 bg-background/50">
             {messages.map((message, idx) => {
               const isUser = message.role === 'user';
               const prevMessage = idx > 0 ? messages[idx - 1] : undefined;
@@ -1178,8 +1178,8 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
                     <div
                       className={`w-7 h-7 rounded-lg flex items-center justify-center shrink-0 mt-0.5 shadow-xs ${
                         isUser
-                          ? 'bg-indigo-600 text-white'
-                          : 'bg-white dark:bg-stone-800 text-indigo-600 dark:text-indigo-400 border border-stone-200 dark:border-stone-700'
+                          ? 'bg-primary text-primary-foreground'
+                          : 'bg-card text-primary border border-border'
                       }`}
                     >
                       {isUser ? <HelpCircle className="w-4 h-4" /> : <Sparkles className="w-4 h-4" />}
@@ -1189,21 +1189,21 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
                     <div
                       className={`p-3.5 sm:p-4 rounded-2xl text-xs sm:text-sm leading-relaxed shadow-xs transition-all ${
                         isUser
-                          ? 'bg-indigo-600 text-white rounded-tr-xs'
-                          : 'bg-white dark:bg-stone-800 text-stone-800 dark:text-stone-100 border border-stone-200 dark:border-stone-700/80 rounded-tl-xs'
+                          ? 'bg-primary text-primary-foreground rounded-tr-xs'
+                          : 'bg-card text-card-foreground border border-border rounded-tl-xs'
                       }`}
                     >
                       {/* Message body with Markdown line breaks */}
-                      <div className="whitespace-pre-wrap font-sans break-words selection:bg-indigo-500/30">
+                      <div className="whitespace-pre-wrap font-sans break-words selection:bg-primary/20">
                         {message.content}
                         {message.isStreaming && (
-                          <span className="inline-block w-1.5 h-3.5 ml-1 bg-indigo-600 dark:bg-indigo-400 animate-pulse align-middle" />
+                          <span className="inline-block w-1.5 h-3.5 ml-1 bg-primary animate-pulse align-middle" />
                         )}
                       </div>
 
                       {/* Model Message Utility Footer */}
                       {!isUser && !message.isStreaming && message.content && (
-                        <div className="mt-3 pt-2 border-t border-stone-100 dark:border-stone-700/60 flex flex-wrap items-center justify-between gap-2 text-[10px] text-stone-500 dark:text-stone-400">
+                        <div className="mt-3 pt-2 border-t border-border flex flex-wrap items-center justify-between gap-2 text-[10px] text-muted-foreground">
                           <span className="font-mono">{message.timestamp}</span>
 
                           <div className="flex items-center space-x-2">
@@ -1211,13 +1211,13 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
                             <button
                               type="button"
                               onClick={() => handleCopy(message.id, message.content)}
-                              className="flex items-center space-x-1 hover:text-stone-800 dark:hover:text-stone-200 cursor-pointer transition"
+                              className="flex items-center space-x-1 hover:text-foreground cursor-pointer transition"
                               title="Copy text"
                             >
                               {copiedId === message.id ? (
                                 <>
                                   <Check className="w-3 h-3 text-emerald-500" />
-                                  <span className="text-emerald-600 font-medium">Copied!</span>
+                                  <span className="text-emerald-500 font-medium">Copied!</span>
                                 </>
                               ) : (
                                 <>
@@ -1234,8 +1234,8 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
                               disabled={isSaved}
                               className={`flex items-center space-x-1 cursor-pointer transition ${
                                 isSaved
-                                  ? 'text-emerald-600 dark:text-emerald-400 font-semibold cursor-default'
-                                  : 'hover:text-indigo-600 dark:hover:text-indigo-400'
+                                  ? 'text-emerald-500 font-semibold cursor-default'
+                                  : 'hover:text-primary'
                               }`}
                               title="Save this explanation to your local AI Notes"
                             >
@@ -1263,11 +1263,11 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
             {/* Loading Spinner Indicator (Before first stream token arrives) */}
             {isLoading && (
               <div className="flex items-start space-x-2.5 max-w-[85%]">
-                <div className="w-7 h-7 rounded-lg bg-white dark:bg-stone-800 text-indigo-600 dark:text-indigo-400 border border-stone-200 dark:border-stone-700 flex items-center justify-center shrink-0 shadow-xs animate-pulse">
+                <div className="w-7 h-7 rounded-lg bg-card text-primary border border-border flex items-center justify-center shrink-0 shadow-xs animate-pulse">
                   <Sparkles className="w-4 h-4" />
                 </div>
-                <div className="p-3.5 rounded-2xl rounded-tl-xs bg-white dark:bg-stone-800 border border-stone-200 dark:border-stone-700 shadow-xs flex items-center space-x-2 text-xs text-stone-600 dark:text-stone-300">
-                  <div className="w-3.5 h-3.5 border-2 border-indigo-600 border-t-transparent rounded-full animate-spin" />
+                <div className="p-3.5 rounded-2xl rounded-tl-xs bg-card border border-border shadow-xs flex items-center space-x-2 text-xs text-foreground">
+                  <div className="w-3.5 h-3.5 border-2 border-primary border-t-transparent rounded-full animate-spin" />
                   <span className="font-myanmar">AI 先生 ချိတ်ဆက်စဉ်းစားနေပါသည်...</span>
                 </div>
               </div>
@@ -1275,15 +1275,15 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
 
             {/* Error Alert Banner */}
             {errorMessage && (
-              <div className="p-3 bg-rose-50 dark:bg-rose-950/60 border border-rose-200 dark:border-rose-900 text-rose-800 dark:text-rose-200 rounded-xl text-xs flex items-center justify-between gap-2 shadow-xs">
+              <div className="p-3 bg-destructive/10 border border-destructive/30 text-destructive-foreground rounded-xl text-xs flex items-center justify-between gap-2 shadow-xs">
                 <div className="flex items-center space-x-2 min-w-0">
-                  <AlertCircle className="w-4 h-4 shrink-0 text-rose-600 dark:text-rose-400" />
-                  <span className="break-words">{errorMessage}</span>
+                  <AlertCircle className="w-4 h-4 shrink-0 text-destructive" />
+                  <span className="break-words text-foreground">{errorMessage}</span>
                 </div>
                 <button
                   onClick={() => handleSendMessage()}
                   disabled={isLoading || isStreaming || isOffline}
-                  className="px-2.5 py-1 bg-rose-100 dark:bg-rose-900 text-rose-900 dark:text-rose-100 rounded-lg text-xs font-semibold hover:bg-rose-200 shrink-0 cursor-pointer transition active:scale-95"
+                  className="px-2.5 py-1 bg-destructive/20 text-foreground rounded-lg text-xs font-semibold hover:bg-destructive/30 shrink-0 cursor-pointer transition active:scale-95"
                 >
                   Try Again
                 </button>
@@ -1294,9 +1294,9 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
           </div>
 
           {/* 6. Prompt Suggestion Chips */}
-          <div className="p-2 sm:px-4 bg-white dark:bg-stone-900 border-t border-stone-200 dark:border-stone-800">
+          <div className="p-2 sm:px-4 bg-card border-t border-border">
             <div className="flex items-center space-x-1.5 overflow-x-auto no-scrollbar py-0.5">
-              <span className="text-[10px] uppercase font-mono text-stone-400 dark:text-stone-500 shrink-0 font-semibold">
+              <span className="text-[10px] uppercase font-mono text-muted-foreground shrink-0 font-semibold">
                 Suggested:
               </span>
               {suggestionChips.map((chip, idx) => (
@@ -1305,7 +1305,7 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
                   type="button"
                   onClick={() => handleSendMessage(chip)}
                   disabled={isLoading || isStreaming || isOffline}
-                  className="px-2.5 py-1 rounded-lg bg-stone-100 dark:bg-stone-800 hover:bg-indigo-50 dark:hover:bg-indigo-950/60 hover:text-indigo-600 dark:hover:text-indigo-400 border border-stone-200 dark:border-stone-700 text-stone-700 dark:text-stone-300 text-xs whitespace-nowrap transition cursor-pointer shrink-0 disabled:opacity-50"
+                  className="px-2.5 py-1 rounded-lg bg-muted hover:bg-primary/10 hover:text-primary border border-border text-foreground text-xs whitespace-nowrap transition cursor-pointer shrink-0 disabled:opacity-50"
                 >
                   {chip}
                 </button>
@@ -1314,15 +1314,15 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
           </div>
 
           {/* 7. Input Form Area with Stop Generation Button */}
-          <div className="p-3 sm:p-4 bg-stone-50 dark:bg-stone-950/80 border-t border-stone-200 dark:border-stone-800">
+          <div className="p-3 sm:p-4 bg-surface/80 border-t border-border">
             {isStreaming && (
               <div className="mb-2 flex justify-center">
                 <button
                   type="button"
                   onClick={handleStopGeneration}
-                  className="flex items-center space-x-1.5 px-3 py-1 bg-stone-200 dark:bg-stone-800 hover:bg-rose-100 dark:hover:bg-rose-950/80 hover:text-rose-600 text-stone-700 dark:text-stone-300 rounded-full text-xs font-semibold shadow-xs transition cursor-pointer"
+                  className="flex items-center space-x-1.5 px-3 py-1 bg-muted hover:bg-destructive/10 hover:text-destructive text-foreground rounded-full text-xs font-semibold shadow-xs transition cursor-pointer"
                 >
-                  <Square className="w-3 h-3 fill-current text-rose-500" />
+                  <Square className="w-3 h-3 fill-current text-destructive" />
                   <span>ထုတ်ယူမှု ရပ်တန့်မည် (Stop Generation)</span>
                 </button>
               </div>
@@ -1358,9 +1358,9 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
                       : `${level} သင်ခန်းစာ သို့မဟုတ် ဂျပန်စာအကြောင်း မေးမြန်းပါ... (Shift+Enter for newline)`
                   }
                   maxLength={1000}
-                  className="w-full bg-white dark:bg-stone-900 border border-stone-300 dark:border-stone-700 rounded-xl px-3 py-2 text-xs sm:text-sm text-stone-900 dark:text-stone-100 placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition resize-none disabled:opacity-60 shadow-xs"
+                  className="w-full bg-card border border-border rounded-xl px-3 py-2 text-xs sm:text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition resize-none disabled:opacity-60 shadow-xs"
                 />
-                <div className="absolute bottom-2 right-2 text-[10px] font-mono text-stone-400">
+                <div className="absolute bottom-2 right-2 text-[10px] font-mono text-muted-foreground">
                   {input.length}/1000
                 </div>
               </div>
@@ -1368,7 +1368,7 @@ export const AITutorScreen: React.FC<AITutorScreenProps> = ({
               <button
                 type="submit"
                 disabled={!input.trim() || isLoading || isStreaming || isOffline}
-                className="px-4 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs sm:text-sm font-semibold transition cursor-pointer active:scale-95 shadow-xs disabled:opacity-50 flex items-center justify-center space-x-1.5 shrink-0 h-[46px]"
+                className="px-4 py-2.5 bg-primary hover:bg-primary/90 text-primary-foreground rounded-xl text-xs sm:text-sm font-semibold transition cursor-pointer active:scale-95 shadow-xs disabled:opacity-50 flex items-center justify-center space-x-1.5 shrink-0 h-[46px]"
               >
                 <Send className="w-4 h-4" />
                 <span className="hidden sm:inline">Send</span>

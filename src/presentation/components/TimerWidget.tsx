@@ -90,7 +90,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
       aria-label="Active Study Timer"
       className="fixed bottom-24 right-4 sm:bottom-6 sm:right-6 z-30 transition-all duration-200 select-none pointer-events-none"
     >
-      <div className="pointer-events-auto bg-white border border-stone-200 rounded-2xl shadow-lg p-2.5 sm:p-3 text-stone-900 flex flex-col space-y-2 min-w-[220px] sm:min-w-[260px]">
+      <div className="pointer-events-auto bg-card border border-border rounded-2xl shadow-lg p-2.5 sm:p-3 text-card-foreground flex flex-col space-y-2 min-w-[220px] sm:min-w-[260px]">
         {/* Compact Island Header */}
         <div className="flex items-center justify-between space-x-3">
           {/* Circular SVG Progress Ring with Center Icon */}
@@ -101,7 +101,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
                 cx="20"
                 cy="20"
                 r={radius}
-                className="stroke-stone-200"
+                className="stroke-muted"
                 strokeWidth="3"
                 fill="transparent"
               />
@@ -123,7 +123,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
             {/* Play/Pause Micro-Action Icon in Center */}
             <button
               onClick={isRunning ? onPause : onResume}
-              className="absolute inset-0 m-auto w-6 h-6 rounded-full flex items-center justify-center text-stone-700 hover:text-stone-900 transition cursor-pointer"
+              className="absolute inset-0 m-auto w-6 h-6 rounded-full flex items-center justify-center text-muted-foreground hover:text-foreground transition cursor-pointer"
               title={isRunning ? 'Pause Timer' : 'Resume Timer'}
             >
               {isRunning ? (
@@ -137,7 +137,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
           {/* Time & Block Title */}
           <div className="flex-1 min-w-0">
             <div className="flex items-center space-x-1.5">
-              <span className="text-xs font-bold text-stone-900 font-mono tracking-wider tabular-nums">
+              <span className="text-xs font-bold text-foreground font-mono tracking-wider tabular-nums">
                 {formatTime(remainingSec)}
               </span>
               {isPomodoroSprint && (
@@ -152,7 +152,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
                 </span>
               )}
             </div>
-            <div className="text-[11px] text-stone-600 truncate font-medium flex items-center space-x-1">
+            <div className="text-[11px] text-muted-foreground truncate font-medium flex items-center space-x-1">
               <span>{blockTitle}</span>
               {todayStreak > 0 && (
                 <span className="text-[10px] text-amber-600 font-mono font-bold">
@@ -165,7 +165,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
           {/* Expand / Minimize Toggle */}
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="p-1 rounded-lg hover:bg-stone-100 text-stone-400 hover:text-stone-700 transition cursor-pointer"
+            className="p-1 rounded-lg hover:bg-muted text-muted-foreground hover:text-foreground transition cursor-pointer"
             title={isExpanded ? 'Collapse' : 'Expand Details'}
           >
             {isExpanded ? <ChevronDown className="w-4 h-4" /> : <ChevronUp className="w-4 h-4" />}
@@ -174,7 +174,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
 
         {/* Expandable Details Pane */}
         {isExpanded && (
-          <div className="pt-2 border-t border-stone-200 space-y-2 text-xs animate-in fade-in duration-150">
+          <div className="pt-2 border-t border-border space-y-2 text-xs animate-in fade-in duration-150">
             {/* Pomodoro Focus Sprint Milestone Celebration in Burmese */}
             <div className="bg-rose-50/70 border border-rose-200 rounded-xl p-2 space-y-1">
               <div className="flex items-center justify-between text-[11px]">
@@ -182,7 +182,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
                   <Flame className="w-3.5 h-3.5 text-rose-600" />
                   <span>၂၅ မိနစ် Pomodoro Sprint</span>
                 </span>
-                <span className="text-[10px] font-mono font-bold px-1.5 py-0.2 rounded bg-white text-rose-700 border border-rose-200">
+                <span className="text-[10px] font-mono font-bold px-1.5 py-0.2 rounded bg-card text-rose-700 dark:text-rose-400 border border-rose-200 dark:border-rose-900/50">
                   {todayStreak} Sessions
                 </span>
               </div>
@@ -191,7 +191,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
               </p>
             </div>
 
-            <div className="flex justify-between text-stone-500 text-[11px] font-mono">
+            <div className="flex justify-between text-muted-foreground text-[11px] font-mono">
               <span>Elapsed: {formatTime(elapsedSec)}</span>
               <span>Target: {timerState.targetMinutes}m</span>
             </div>
@@ -208,7 +208,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
 
               <button
                 onClick={onSkip}
-                className="py-1.5 px-2.5 rounded-lg bg-stone-100 hover:bg-stone-200 border border-stone-200 text-stone-700 text-[11px] font-medium flex items-center justify-center transition cursor-pointer active:scale-95"
+                className="py-1.5 px-2.5 rounded-lg bg-muted hover:bg-muted/80 border border-border text-foreground text-[11px] font-medium flex items-center justify-center transition cursor-pointer active:scale-95"
                 title="Skip Block"
               >
                 <SkipForward className="w-3.5 h-3.5" />
@@ -225,7 +225,7 @@ export const TimerWidget: React.FC<TimerWidgetProps> = ({
               </button>
             )}
 
-            <div className="text-[10px] text-stone-500 text-center font-mono">
+            <div className="text-[10px] text-muted-foreground text-center font-mono">
               Today's Session Total: {todayStudiedMinutes}m
             </div>
           </div>

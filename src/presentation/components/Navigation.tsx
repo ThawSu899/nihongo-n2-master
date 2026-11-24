@@ -128,8 +128,8 @@ export const Navigation: React.FC<NavigationProps> = ({
         onClick={() => onNavigate(item.id)}
         className={`w-full group relative flex items-center justify-between px-3.5 py-2.5 rounded-xl text-xs font-medium transition-all duration-150 cursor-pointer ${
           active
-            ? 'text-indigo-700 font-semibold bg-indigo-50 border border-indigo-200 shadow-xs'
-            : 'text-stone-600 hover:text-stone-900 hover:bg-stone-200/50'
+            ? 'text-indigo-700 dark:text-indigo-300 font-semibold bg-indigo-50 dark:bg-indigo-950/40 border border-indigo-200 dark:border-indigo-800 shadow-xs'
+            : 'text-muted-foreground hover:text-foreground hover:bg-muted'
         }`}
       >
         <div className="flex items-center space-x-3">
@@ -138,10 +138,10 @@ export const Navigation: React.FC<NavigationProps> = ({
               active
                 ? item.isAction
                   ? 'bg-indigo-600 text-white shadow-xs'
-                  : 'bg-indigo-100 text-indigo-700'
+                  : 'bg-indigo-100 dark:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300'
                 : item.isAction
-                ? 'bg-indigo-50 text-indigo-600 group-hover:bg-indigo-100'
-                : 'bg-stone-200/70 text-stone-500 group-hover:text-stone-700'
+                ? 'bg-indigo-50 dark:bg-indigo-950/40 text-indigo-600 dark:text-indigo-400 group-hover:bg-indigo-100 dark:group-hover:bg-indigo-900/50'
+                : 'bg-muted text-muted-foreground group-hover:text-foreground'
             }`}
           >
             <Icon className="w-4 h-4" />
@@ -179,7 +179,7 @@ export const Navigation: React.FC<NavigationProps> = ({
       {/* =========================================================================
           1. PERSISTENT DESKTOP SIDEBAR (md:flex)
           ========================================================================= */}
-      <aside className="hidden md:flex flex-col justify-between w-64 shrink-0 h-screen sticky top-0 bg-stone-100 border-r border-stone-200 p-4 z-30 select-none">
+      <aside className="hidden md:flex flex-col justify-between w-64 shrink-0 h-screen sticky top-0 bg-sidebar-background border-r border-border text-sidebar-foreground p-4 z-30 select-none">
         <div className="space-y-5 overflow-y-auto pr-1">
           {/* Brand Emblem & Level Header */}
           <div
@@ -192,14 +192,14 @@ export const Navigation: React.FC<NavigationProps> = ({
             </div>
             <div className="min-w-0">
               <div className="flex items-center space-x-2">
-                <span className="font-bold text-sm text-stone-900 tracking-tight font-sans truncate">
+                <span className="font-bold text-sm text-foreground tracking-tight font-sans truncate">
                   NIHONGO N2
                 </span>
-                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-indigo-50 text-indigo-700 font-mono font-bold border border-indigo-200 shrink-0">
+                <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-indigo-50 dark:bg-indigo-950/40 text-indigo-700 dark:text-indigo-300 font-mono font-bold border border-indigo-200 dark:border-indigo-800 shrink-0">
                   {profile?.level || 'N2'}
                 </span>
               </div>
-              <span className="text-[10px] text-stone-500 font-sans block truncate">
+              <span className="text-[10px] text-muted-foreground font-sans block truncate">
                 JLPT OS • 174 Lessons
               </span>
             </div>
@@ -209,13 +209,13 @@ export const Navigation: React.FC<NavigationProps> = ({
           {onOpenSearch && (
             <button
               onClick={onOpenSearch}
-              className="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 hover:border-stone-300 text-xs text-stone-600 hover:text-stone-900 transition group cursor-pointer shadow-2xs"
+              className="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-card hover:bg-muted border border-border text-xs text-muted-foreground hover:text-foreground transition group cursor-pointer shadow-2xs"
             >
               <div className="flex items-center space-x-2">
-                <Search className="w-3.5 h-3.5 text-stone-500 group-hover:text-indigo-600 transition-colors" />
+                <Search className="w-3.5 h-3.5 text-muted-foreground group-hover:text-indigo-600 transition-colors" />
                 <span>Search curriculum...</span>
               </div>
-              <kbd className="px-1.5 py-0.2 rounded bg-stone-100 border border-stone-200 text-[10px] font-mono text-stone-500">
+              <kbd className="px-1.5 py-0.2 rounded bg-muted border border-border text-[10px] font-mono text-muted-foreground">
                 ⌘K
               </kbd>
             </button>
@@ -225,15 +225,15 @@ export const Navigation: React.FC<NavigationProps> = ({
           <nav className="space-y-4">
             {/* Core Learning Group */}
             <div className="space-y-1">
-              <span className="text-[10px] uppercase font-mono font-semibold tracking-wider text-stone-500 px-3.5 py-1 block">
+              <span className="text-[10px] uppercase font-mono font-semibold tracking-wider text-muted-foreground px-3.5 py-1 block">
                 Daily Study
               </span>
               {coreNavItems.map(renderDesktopNavItem)}
             </div>
 
             {/* Assessment & Analytics Group */}
-            <div className="space-y-1 pt-2 border-t border-stone-200">
-              <span className="text-[10px] uppercase font-mono font-semibold tracking-wider text-stone-500 px-3.5 py-1 block">
+            <div className="space-y-1 pt-2 border-t border-border">
+              <span className="text-[10px] uppercase font-mono font-semibold tracking-wider text-muted-foreground px-3.5 py-1 block">
                 Mastery &amp; Tools
               </span>
               {secondaryNavItems.map(renderDesktopNavItem)}
@@ -242,22 +242,22 @@ export const Navigation: React.FC<NavigationProps> = ({
         </div>
 
         {/* Bottom Sidebar Utility: Daily Target Meter & Storage Status */}
-        <div className="space-y-3 pt-3 border-t border-stone-200">
+        <div className="space-y-3 pt-3 border-t border-border">
           {/* Daily Study Progress Widget */}
-          <div className="bg-white p-3 rounded-2xl border border-stone-200 shadow-xs space-y-2">
+          <div className="bg-card p-3 rounded-2xl border border-border shadow-xs space-y-2">
             <div className="flex items-center justify-between text-xs">
-              <span className="text-stone-700 font-medium flex items-center gap-1.5">
+              <span className="text-foreground font-medium flex items-center gap-1.5">
                 <Clock className="w-3.5 h-3.5 text-indigo-600" /> Daily Target
               </span>
-              <span className="font-mono text-indigo-700 font-bold text-[11px]">{progressPercent}%</span>
+              <span className="font-mono text-indigo-700 dark:text-indigo-400 font-bold text-[11px]">{progressPercent}%</span>
             </div>
-            <div className="w-full bg-stone-200 rounded-full h-1.5 overflow-hidden">
+            <div className="w-full bg-muted rounded-full h-1.5 overflow-hidden">
               <div
                 className="bg-indigo-600 h-1.5 rounded-full transition-all duration-300"
                 style={{ width: `${progressPercent}%` }}
               />
             </div>
-            <div className="flex justify-between text-[10px] text-stone-500 font-mono">
+            <div className="flex justify-between text-[10px] text-muted-foreground font-mono">
               <span>{todayMinutes}m studied</span>
               <span>{goalMinutes}m goal</span>
             </div>
@@ -265,17 +265,17 @@ export const Navigation: React.FC<NavigationProps> = ({
 
           {/* Storage & Sync Status Indicator */}
           <div className="flex items-center justify-between px-1 text-[11px]">
-            <div className="flex items-center space-x-1.5 text-emerald-700 font-medium">
+            <div className="flex items-center space-x-1.5 text-emerald-700 dark:text-emerald-400 font-medium">
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500 shadow-[0_0_6px_#10b981]"></span>
               </span>
-              <span className="text-[10px] text-stone-600">Offline DB Primed</span>
+              <span className="text-[10px] text-muted-foreground">Offline DB Primed</span>
             </div>
             {onOpenDiagnostics && (
               <button
                 onClick={onOpenDiagnostics}
-                className="text-stone-500 hover:text-stone-700 transition p-1.5 hover:bg-stone-200/60 rounded-lg cursor-pointer"
+                className="text-muted-foreground hover:text-foreground transition p-1.5 hover:bg-muted rounded-lg cursor-pointer"
                 title="Open Storage & Sync Diagnostics"
               >
                 <Database className="w-3.5 h-3.5" />
@@ -288,7 +288,7 @@ export const Navigation: React.FC<NavigationProps> = ({
       {/* =========================================================================
           2. MOBILE DOCKED BOTTOM NAVIGATION (md:hidden)
           ========================================================================= */}
-      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-xl border-t border-stone-200 px-2 py-1.5 safe-area-bottom flex items-center justify-around select-none shadow-lg">
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-surface/95 backdrop-blur-xl border-t border-border px-2 py-1.5 safe-area-bottom flex items-center justify-around select-none shadow-lg text-foreground">
         {mobileBottomTabs.map((item) => {
           const Icon = item.icon;
           const active = currentView === item.id;
@@ -311,7 +311,7 @@ export const Navigation: React.FC<NavigationProps> = ({
               key={item.id}
               onClick={() => handleMobileSelect(item.id)}
               className={`relative flex flex-col items-center justify-center py-1 px-2.5 rounded-xl text-[10px] font-medium transition cursor-pointer min-w-[56px] min-h-[44px] ${
-                active ? 'text-indigo-700 font-semibold' : 'text-stone-600 hover:text-stone-900'
+                active ? 'text-indigo-700 dark:text-indigo-300 font-semibold' : 'text-muted-foreground hover:text-foreground'
               }`}
             >
               <div className="relative">
@@ -339,8 +339,8 @@ export const Navigation: React.FC<NavigationProps> = ({
           onClick={() => setIsMobileMenuOpen(true)}
           className={`flex flex-col items-center justify-center py-1 px-2.5 rounded-xl text-[10px] font-medium transition cursor-pointer min-w-[56px] min-h-[44px] ${
             ['progress', 'kana', 'settings', 'shadowing', 'quarantine', 'level-bulk-study'].includes(currentView)
-              ? 'text-indigo-700 font-semibold'
-              : 'text-stone-600 hover:text-stone-900'
+              ? 'text-indigo-700 dark:text-indigo-300 font-semibold'
+              : 'text-muted-foreground hover:text-foreground'
           }`}
           aria-label="More navigation options"
         >
@@ -365,7 +365,7 @@ export const Navigation: React.FC<NavigationProps> = ({
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setIsMobileMenuOpen(false)}
-              className="absolute inset-0 bg-stone-900/40 backdrop-blur-sm"
+              className="absolute inset-0 bg-black/50 backdrop-blur-sm"
             />
 
             <motion.div
@@ -373,19 +373,19 @@ export const Navigation: React.FC<NavigationProps> = ({
               animate={{ y: 0 }}
               exit={{ y: '100%' }}
               transition={{ type: 'spring', damping: 28, stiffness: 320 }}
-              className="relative z-10 bg-white border-t border-stone-200 rounded-t-3xl p-5 space-y-4 max-h-[85vh] overflow-y-auto pb-10 shadow-2xl"
+              className="relative z-10 bg-popover text-popover-foreground border-t border-border rounded-t-3xl p-5 space-y-4 max-h-[85vh] overflow-y-auto pb-10 shadow-2xl"
             >
               {/* Drawer Header */}
-              <div className="flex items-center justify-between border-b border-stone-200 pb-3">
+              <div className="flex items-center justify-between border-b border-border pb-3">
                 <div className="flex items-center space-x-2">
                   <div className="w-6 h-6 rounded-lg bg-indigo-600 flex items-center justify-center text-white font-bold text-xs">
                     日
                   </div>
-                  <span className="text-sm font-bold text-stone-900">Quick Navigation &amp; Tools</span>
+                  <span className="text-sm font-bold text-foreground">Quick Navigation &amp; Tools</span>
                 </div>
                 <button
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="p-1 rounded-lg text-stone-400 hover:text-stone-700 hover:bg-stone-100 cursor-pointer"
+                  className="p-1 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted cursor-pointer"
                 >
                   <X className="w-5 h-5" />
                 </button>
@@ -397,14 +397,14 @@ export const Navigation: React.FC<NavigationProps> = ({
                   onClick={() => handleMobileSelect('level-bulk-study')}
                   className={`p-3.5 rounded-2xl border flex flex-col items-start space-y-2 transition cursor-pointer text-left ${
                     currentView === 'level-bulk-study'
-                      ? 'bg-indigo-50 border-indigo-300 text-stone-900 shadow-xs'
-                      : 'bg-stone-50 border-stone-200 text-stone-700 hover:border-stone-300 hover:bg-stone-100'
+                      ? 'bg-indigo-50 dark:bg-indigo-950/40 border-indigo-300 dark:border-indigo-800 text-foreground shadow-xs'
+                      : 'bg-card border-border text-card-foreground hover:bg-muted'
                   }`}
                 >
                   <Library className="w-5 h-5 text-indigo-600" />
                   <div>
-                    <span className="text-xs font-semibold block text-stone-900">Level Decks (単語帳)</span>
-                    <span className="text-[10px] text-stone-500">N5–N2 bulk vocabulary</span>
+                    <span className="text-xs font-semibold block text-foreground">Level Decks (単語帳)</span>
+                    <span className="text-[10px] text-muted-foreground">N5–N2 bulk vocabulary</span>
                   </div>
                 </button>
 
@@ -412,14 +412,14 @@ export const Navigation: React.FC<NavigationProps> = ({
                   onClick={() => handleMobileSelect('shadowing')}
                   className={`p-3.5 rounded-2xl border flex flex-col items-start space-y-2 transition cursor-pointer text-left ${
                     currentView === 'shadowing'
-                      ? 'bg-indigo-50 border-indigo-300 text-stone-900 shadow-xs'
-                      : 'bg-stone-50 border-stone-200 text-stone-700 hover:border-stone-300 hover:bg-stone-100'
+                      ? 'bg-indigo-50 dark:bg-indigo-950/40 border-indigo-300 dark:border-indigo-800 text-foreground shadow-xs'
+                      : 'bg-card border-border text-card-foreground hover:bg-muted'
                   }`}
                 >
                   <Mic className="w-5 h-5 text-sky-600" />
                   <div>
-                    <span className="text-xs font-semibold block text-stone-900">Shadowing (発音)</span>
-                    <span className="text-[10px] text-stone-500">Audio pitch &amp; speech</span>
+                    <span className="text-xs font-semibold block text-foreground">Shadowing (発音)</span>
+                    <span className="text-[10px] text-muted-foreground">Audio pitch &amp; speech</span>
                   </div>
                 </button>
 
@@ -427,14 +427,14 @@ export const Navigation: React.FC<NavigationProps> = ({
                   onClick={() => handleMobileSelect('quarantine')}
                   className={`p-3.5 rounded-2xl border flex flex-col items-start space-y-2 transition cursor-pointer text-left ${
                     currentView === 'quarantine'
-                      ? 'bg-indigo-50 border-indigo-300 text-stone-900 shadow-xs'
-                      : 'bg-stone-50 border-stone-200 text-stone-700 hover:border-stone-300 hover:bg-stone-100'
+                      ? 'bg-indigo-50 dark:bg-indigo-950/40 border-indigo-300 dark:border-indigo-800 text-foreground shadow-xs'
+                      : 'bg-card border-border text-card-foreground hover:bg-muted'
                   }`}
                 >
                   <Flame className="w-5 h-5 text-amber-600" />
                   <div>
-                    <span className="text-xs font-semibold block text-stone-900">Ghost Cards (鬼)</span>
-                    <span className="text-[10px] text-stone-500">Leech recovery drills</span>
+                    <span className="text-xs font-semibold block text-foreground">Ghost Cards (鬼)</span>
+                    <span className="text-[10px] text-muted-foreground">Leech recovery drills</span>
                   </div>
                 </button>
 
@@ -442,14 +442,14 @@ export const Navigation: React.FC<NavigationProps> = ({
                   onClick={() => handleMobileSelect('progress')}
                   className={`p-3.5 rounded-2xl border flex flex-col items-start space-y-2 transition cursor-pointer text-left ${
                     currentView === 'progress'
-                      ? 'bg-indigo-50 border-indigo-300 text-stone-900 shadow-xs'
-                      : 'bg-stone-50 border-stone-200 text-stone-700 hover:border-stone-300 hover:bg-stone-100'
+                      ? 'bg-indigo-50 dark:bg-indigo-950/40 border-indigo-300 dark:border-indigo-800 text-foreground shadow-xs'
+                      : 'bg-card border-border text-card-foreground hover:bg-muted'
                   }`}
                 >
                   <BarChart2 className="w-5 h-5 text-indigo-600" />
                   <div>
-                    <span className="text-xs font-semibold block text-stone-900">Progress &amp; Radar</span>
-                    <span className="text-[10px] text-stone-500">Skill mastery analytics</span>
+                    <span className="text-xs font-semibold block text-foreground">Progress &amp; Radar</span>
+                    <span className="text-[10px] text-muted-foreground">Skill mastery analytics</span>
                   </div>
                 </button>
 
@@ -457,14 +457,14 @@ export const Navigation: React.FC<NavigationProps> = ({
                   onClick={() => handleMobileSelect('kana')}
                   className={`p-3.5 rounded-2xl border flex flex-col items-start space-y-2 transition cursor-pointer text-left ${
                     currentView === 'kana'
-                      ? 'bg-indigo-50 border-indigo-300 text-stone-900 shadow-xs'
-                      : 'bg-stone-50 border-stone-200 text-stone-700 hover:border-stone-300 hover:bg-stone-100'
+                      ? 'bg-indigo-50 dark:bg-indigo-950/40 border-indigo-300 dark:border-indigo-800 text-foreground shadow-xs'
+                      : 'bg-card border-border text-card-foreground hover:bg-muted'
                   }`}
                 >
                   <Sparkles className="w-5 h-5 text-amber-600" />
                   <div>
-                    <span className="text-xs font-semibold block text-stone-900">Kana Trainer</span>
-                    <span className="text-[10px] text-stone-500">Hiragana &amp; Katakana</span>
+                    <span className="text-xs font-semibold block text-foreground">Kana Trainer</span>
+                    <span className="text-[10px] text-muted-foreground">Hiragana &amp; Katakana</span>
                   </div>
                 </button>
 
@@ -472,14 +472,14 @@ export const Navigation: React.FC<NavigationProps> = ({
                   onClick={() => handleMobileSelect('settings')}
                   className={`p-3.5 rounded-2xl border flex flex-col items-start space-y-2 transition cursor-pointer text-left ${
                     currentView === 'settings'
-                      ? 'bg-indigo-50 border-indigo-300 text-stone-900 shadow-xs'
-                      : 'bg-stone-50 border-stone-200 text-stone-700 hover:border-stone-300 hover:bg-stone-100'
+                      ? 'bg-indigo-50 dark:bg-indigo-950/40 border-indigo-300 dark:border-indigo-800 text-foreground shadow-xs'
+                      : 'bg-card border-border text-card-foreground hover:bg-muted'
                   }`}
                 >
-                  <Settings className="w-5 h-5 text-stone-600" />
+                  <Settings className="w-5 h-5 text-muted-foreground" />
                   <div>
-                    <span className="text-xs font-semibold block text-stone-900">Settings</span>
-                    <span className="text-[10px] text-stone-500">Anki, audio &amp; profile</span>
+                    <span className="text-xs font-semibold block text-foreground">Settings</span>
+                    <span className="text-[10px] text-muted-foreground">Anki, audio &amp; profile</span>
                   </div>
                 </button>
 
@@ -489,12 +489,12 @@ export const Navigation: React.FC<NavigationProps> = ({
                       setIsMobileMenuOpen(false);
                       onOpenDiagnostics();
                     }}
-                    className="p-3.5 rounded-2xl border bg-stone-50 border-stone-200 text-stone-700 hover:border-stone-300 hover:bg-stone-100 flex flex-col items-start space-y-2 transition cursor-pointer text-left"
+                    className="p-3.5 rounded-2xl border bg-card border-border text-card-foreground hover:bg-muted flex flex-col items-start space-y-2 transition cursor-pointer text-left"
                   >
                     <Database className="w-5 h-5 text-emerald-600" />
                     <div>
-                      <span className="text-xs font-semibold block text-stone-900">Storage &amp; Sync</span>
-                      <span className="text-[10px] text-stone-500">Offline DB diagnostics</span>
+                      <span className="text-xs font-semibold block text-foreground">Storage &amp; Sync</span>
+                      <span className="text-[10px] text-muted-foreground">Offline DB diagnostics</span>
                     </div>
                   </button>
                 )}
@@ -507,13 +507,13 @@ export const Navigation: React.FC<NavigationProps> = ({
                     setIsMobileMenuOpen(false);
                     onOpenSearch();
                   }}
-                  className="w-full py-3 px-4 rounded-xl bg-stone-50 hover:bg-stone-100 border border-stone-200 flex items-center justify-between text-xs text-stone-700 hover:text-stone-900 transition cursor-pointer"
+                  className="w-full py-3 px-4 rounded-xl bg-card hover:bg-muted border border-border flex items-center justify-between text-xs text-card-foreground transition cursor-pointer"
                 >
                   <div className="flex items-center space-x-2">
                     <Search className="w-4 h-4 text-indigo-600" />
                     <span>Quick Search Curriculum...</span>
                   </div>
-                  <ChevronRight className="w-4 h-4 text-stone-400" />
+                  <ChevronRight className="w-4 h-4 text-muted-foreground" />
                 </button>
               )}
             </motion.div>

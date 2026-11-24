@@ -55,7 +55,7 @@ export const StageMinimap: React.FC<StageMinimapProps> = ({
   ).length;
 
   return (
-    <div className="w-full bg-stone-50 border border-stone-200 rounded-2xl p-2.5 sm:p-3 shadow-2xs space-y-2">
+    <div className="w-full bg-muted/50 border border-border rounded-2xl p-2.5 sm:p-3 shadow-2xs space-y-2">
       {/* Header and Toggle Pill Bar */}
       <div className="flex items-center justify-between text-xs">
         <div className="flex items-center space-x-2">
@@ -63,10 +63,10 @@ export const StageMinimap: React.FC<StageMinimapProps> = ({
             <MapPin className="w-3.5 h-3.5" />
           </span>
           <div className="flex items-center space-x-1.5 font-medium">
-            <span className="font-bold text-stone-900 font-myanmar">
+            <span className="font-bold text-foreground font-myanmar">
               Stage Minimap (အဆင့် ၁ မှ ၁၅ အမြန်သွားရန်)
             </span>
-            <span className="text-stone-400">•</span>
+            <span className="text-muted-foreground">•</span>
             <span className="text-[11px] font-mono font-bold text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded-full border border-indigo-200">
               {`${completedCount}/15 ပြီးစီး`}
             </span>
@@ -86,7 +86,7 @@ export const StageMinimap: React.FC<StageMinimapProps> = ({
 
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="flex items-center space-x-1 px-2.5 py-1 rounded-xl bg-white hover:bg-stone-100 border border-stone-200 text-stone-700 transition cursor-pointer text-xs font-medium shadow-2xs"
+            className="flex items-center space-x-1 px-2.5 py-1 rounded-xl bg-card hover:bg-muted border border-border text-foreground transition cursor-pointer text-xs font-medium shadow-2xs"
             title={isExpanded ? 'Collapse Stage Minimap' : 'Expand Stage Minimap'}
           >
             <span className="font-myanmar text-[11px] hidden xs:inline">
@@ -115,7 +115,7 @@ export const StageMinimap: React.FC<StageMinimapProps> = ({
                   ? accuracy !== undefined && accuracy < 60
                     ? 'bg-rose-400'
                     : 'bg-emerald-500'
-                  : 'bg-stone-200 hover:bg-stone-300'
+                  : 'bg-muted hover:bg-muted'
               }`}
               title={`Stage ${def.stage}: ${def.shortNameMm} (${def.shortNameEn})${
                 accuracy !== undefined ? ` • Accuracy: ${accuracy}%` : ''
@@ -127,7 +127,7 @@ export const StageMinimap: React.FC<StageMinimapProps> = ({
 
       {/* Expanded Interactive 15-Stage Minimap Grid */}
       {isExpanded && (
-        <div className="pt-2 border-t border-stone-200/80 space-y-2.5 animate-in fade-in duration-150">
+        <div className="pt-2 border-t border-border/80 space-y-2.5 animate-in fade-in duration-150">
           <div className="grid grid-cols-3 sm:grid-cols-5 gap-2">
             {STAGE_MINIMAP_DEFINITIONS.map((def) => {
               const isDone = completedStages.has(def.stage) || def.stage < currentStage;
@@ -142,8 +142,8 @@ export const StageMinimap: React.FC<StageMinimapProps> = ({
                     isCurrent
                       ? 'bg-indigo-50 border-indigo-300 ring-1 ring-indigo-400/40 shadow-xs'
                       : isDone
-                      ? 'bg-white hover:bg-emerald-50/50 border-stone-200 hover:border-emerald-300'
-                      : 'bg-white/80 hover:bg-stone-100 border-stone-200 opacity-80 hover:opacity-100'
+                      ? 'bg-card hover:bg-emerald-50/50 border-border hover:border-emerald-300'
+                      : 'bg-card/80 hover:bg-muted border-border opacity-80 hover:opacity-100'
                   }`}
                 >
                   {/* Top: Stage number and completion tick */}
@@ -154,7 +154,7 @@ export const StageMinimap: React.FC<StageMinimapProps> = ({
                           ? 'bg-indigo-600 text-white'
                           : isDone
                           ? 'bg-emerald-100 text-emerald-800'
-                          : 'bg-stone-100 text-stone-600'
+                          : 'bg-muted text-muted-foreground'
                       }`}
                     >
                       {def.stage}
@@ -170,18 +170,18 @@ export const StageMinimap: React.FC<StageMinimapProps> = ({
 
                   {/* Middle: Short Name in Burmese & English */}
                   <div className="mt-1">
-                    <div className="text-xs font-bold text-stone-900 truncate font-myanmar">
+                    <div className="text-xs font-bold text-foreground truncate font-myanmar">
                       {def.shortNameMm}
                     </div>
-                    <div className="text-[10px] text-stone-500 font-mono truncate">
+                    <div className="text-[10px] text-muted-foreground font-mono truncate">
                       {def.shortNameEn}
                     </div>
                   </div>
 
                   {/* Bottom: Accuracy badge if quiz stage */}
                   {accuracy !== undefined ? (
-                    <div className="mt-1 pt-1 border-t border-stone-100 flex items-center justify-between text-[10px] font-mono font-bold">
-                      <span className="text-stone-400">Acc:</span>
+                    <div className="mt-1 pt-1 border-t border-border flex items-center justify-between text-[10px] font-mono font-bold">
+                      <span className="text-muted-foreground">Acc:</span>
                       <span
                         className={
                           accuracy >= 80
@@ -195,11 +195,11 @@ export const StageMinimap: React.FC<StageMinimapProps> = ({
                       </span>
                     </div>
                   ) : def.hasQuiz && !isDone ? (
-                    <div className="mt-1 pt-1 border-t border-stone-100 text-[9px] font-mono text-stone-400">
+                    <div className="mt-1 pt-1 border-t border-border text-[9px] font-mono text-muted-foreground">
                       Quiz Pending
                     </div>
                   ) : isDone ? (
-                    <div className="mt-1 pt-1 border-t border-stone-100 text-[9px] font-mono text-emerald-700 font-semibold">
+                    <div className="mt-1 pt-1 border-t border-border text-[9px] font-mono text-emerald-700 font-semibold">
                       ✓ Done
                     </div>
                   ) : null}
@@ -209,14 +209,14 @@ export const StageMinimap: React.FC<StageMinimapProps> = ({
           </div>
 
           {/* Quick jump navigation footer */}
-          <div className="flex items-center justify-between text-[11px] text-stone-500 pt-1">
+          <div className="flex items-center justify-between text-[11px] text-muted-foreground pt-1">
             <span className="font-myanmar">
               💡 အဆင့်ခလုတ်ကို နှိပ်၍ သက်ဆိုင်ရာ သင်ခန်းစာအပိုင်းသို့ ချက်ချင်း သွားရောက်နိုင်ပါသည်။
             </span>
             <div className="flex items-center space-x-2 shrink-0">
               <button
                 onClick={() => onJumpToStage(1)}
-                className="px-2 py-0.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-700 font-mono transition cursor-pointer"
+                className="px-2 py-0.5 rounded-lg bg-muted hover:bg-muted text-foreground font-mono transition cursor-pointer"
               >
                 ⏮ St 1
               </button>

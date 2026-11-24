@@ -234,22 +234,22 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
-          <button onClick={onBack} className="text-xs text-stone-500 hover:text-stone-800 transition mb-1 block">
+          <button onClick={onBack} className="text-xs text-muted-foreground hover:text-foreground transition mb-1 block">
             ← Back to Dashboard
           </button>
-          <h1 className="text-2xl font-bold text-stone-900 tracking-tight">Kana Mastery Trainer</h1>
-          <p className="text-xs text-stone-600 mt-0.5">
+          <h1 className="text-2xl font-bold text-foreground tracking-tight">Kana Mastery Trainer</h1>
+          <p className="text-xs text-muted-foreground mt-0.5">
             Gojūon, Dakuten, Handakuten, and Yōon combinations for Hiragana and Katakana.
           </p>
         </div>
 
         {/* Script & Mode Switchers */}
         <div className="flex items-center space-x-2">
-          <div className="bg-stone-100 border border-stone-200 rounded-xl p-1 flex">
+          <div className="bg-muted border border-border rounded-xl p-1 flex">
             <button
               onClick={() => handleSwitchScript('hiragana')}
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${
-                selectedScript === 'hiragana' ? 'bg-indigo-600 text-white shadow-xs' : 'text-stone-600 hover:text-stone-900'
+                selectedScript === 'hiragana' ? 'bg-indigo-600 text-white shadow-xs' : 'text-muted-foreground hover:text-foreground'
               }`}
             >
               Hiragana (ひらがな)
@@ -257,7 +257,7 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
             <button
               onClick={() => handleSwitchScript('katakana')}
               className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition ${
-                selectedScript === 'katakana' ? 'bg-indigo-600 text-white shadow-xs' : 'text-stone-600 hover:text-stone-900'
+                selectedScript === 'katakana' ? 'bg-indigo-600 text-white shadow-xs' : 'text-muted-foreground hover:text-foreground'
               }`}
             >
               Katakana (カタカナ)
@@ -267,7 +267,7 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
       </div>
 
       {/* Progress & Category Filter */}
-      <div className="bg-white border border-stone-200 rounded-2xl p-4 flex flex-wrap items-center justify-between gap-3 shadow-sm">
+      <div className="bg-card border border-border rounded-2xl p-4 flex flex-wrap items-center justify-between gap-3 shadow-sm">
         <div className="flex flex-wrap gap-1.5">
           {(['basic', 'dakuten', 'combo', 'all'] as const).map((cat) => (
             <button
@@ -276,7 +276,7 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
               className={`px-3 py-1.5 rounded-lg text-xs font-medium transition capitalize ${
                 selectedCategory === cat
                   ? 'bg-indigo-50 text-indigo-700 border border-indigo-200 font-semibold shadow-xs'
-                  : 'text-stone-600 hover:text-stone-900 hover:bg-stone-50 border border-transparent'
+                  : 'text-muted-foreground hover:text-foreground hover:bg-muted/50 border border-transparent'
               }`}
             >
               {cat === 'basic' ? 'Basic Gojūon (46)' : cat === 'dakuten' ? 'Dakuten / Handakuten' : cat === 'combo' ? 'Combos (Yōon)' : 'All Characters'}
@@ -291,11 +291,11 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
             className={`px-2.5 py-1.5 rounded-lg text-xs font-medium border flex items-center space-x-1.5 transition ${
               autoAdvance
                 ? 'bg-amber-50 border-amber-200 text-amber-800 shadow-xs'
-                : 'bg-stone-100 border-stone-200 text-stone-600 hover:text-stone-900'
+                : 'bg-muted border-border text-muted-foreground hover:text-foreground'
             }`}
             title="Auto-advance immediately to the next character after answering"
           >
-            <Zap className={`w-3.5 h-3.5 ${autoAdvance ? 'text-amber-600' : 'text-stone-500'}`} />
+            <Zap className={`w-3.5 h-3.5 ${autoAdvance ? 'text-amber-600' : 'text-muted-foreground'}`} />
             <span>Auto Advance {autoAdvance ? 'ON' : 'OFF'}</span>
           </button>
 
@@ -317,8 +317,8 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
 
       {/* Mode 1: Interactive Practice Card */}
       {mode === 'practice' && currentKana && (
-        <div className="bg-white border border-stone-200 rounded-2xl p-8 max-w-xl mx-auto text-center space-y-6 shadow-sm relative">
-          <div className="flex justify-between items-center text-xs text-stone-500 font-mono">
+        <div className="bg-card border border-border rounded-2xl p-8 max-w-xl mx-auto text-center space-y-6 shadow-sm relative">
+          <div className="flex justify-between items-center text-xs text-muted-foreground font-mono">
             <span>Character {currentIndex + 1} of {filteredKana.length}</span>
             <div className="flex items-center space-x-2">
               <span className="capitalize">{currentKana.category}</span>
@@ -332,7 +332,7 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
           </div>
 
           <div className="py-6 space-y-3">
-            <div className="text-7xl font-bold font-japanese text-stone-900">{currentKana.char}</div>
+            <div className="text-7xl font-bold font-japanese text-foreground">{currentKana.char}</div>
 
             <div className="flex justify-center">
               <button
@@ -346,7 +346,7 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
                 className={`p-2.5 rounded-full transition ${
                   isPlaying && currentPlayingText === currentKana.char
                     ? 'bg-indigo-600 text-white ring-4 ring-indigo-500/20 animate-pulse shadow-sm'
-                    : 'bg-stone-100 hover:bg-stone-200 text-stone-700'
+                    : 'bg-muted hover:bg-muted text-foreground'
                 }`}
                 title={isPlaying && currentPlayingText === currentKana.char ? 'Stop audio' : 'Play pronunciation'}
               >
@@ -361,7 +361,7 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
               const isSelected = selectedOption === opt;
               const isCorrectAnswer = currentKana.romaji.includes(opt);
 
-              let buttonStyle = 'bg-white border-stone-200 text-stone-800 hover:bg-stone-50 hover:border-stone-300 shadow-xs';
+              let buttonStyle = 'bg-card border-border text-foreground hover:bg-muted/50 hover:border-border shadow-xs';
               if (feedback) {
                 if (isSelected && feedback.isCorrect) {
                   buttonStyle = 'bg-emerald-50 border-emerald-300 text-emerald-900 font-bold shadow-xs';
@@ -371,7 +371,7 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
                   // Show which choice was correct when learner got it wrong
                   buttonStyle = 'bg-emerald-50 border-emerald-200 text-emerald-800';
                 } else {
-                  buttonStyle = 'bg-stone-50 border-stone-200 text-stone-400 opacity-60';
+                  buttonStyle = 'bg-muted/50 border-border text-muted-foreground opacity-60';
                 }
               }
 
@@ -388,7 +388,7 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
                   className={`py-3.5 px-4 rounded-xl border text-sm font-semibold transition flex items-center justify-between cursor-pointer active:scale-98 ${buttonStyle}`}
                 >
                   <span className="flex items-center">
-                    <span className="w-5 h-5 rounded-full bg-stone-100 text-stone-600 text-[10px] flex items-center justify-center mr-2 font-mono border border-stone-200">
+                    <span className="w-5 h-5 rounded-full bg-muted text-muted-foreground text-[10px] flex items-center justify-center mr-2 font-mono border border-border">
                       {i + 1}
                     </span>
                     <span>{opt}</span>
@@ -425,7 +425,7 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
               }}
               placeholder="Or type romaji / character and press Enter..."
               disabled={Boolean(feedback)}
-              className="w-full bg-white border border-stone-300 rounded-xl px-4 py-2.5 text-xs text-stone-900 text-center focus:outline-none focus:border-indigo-500 placeholder:text-stone-400 shadow-xs"
+              className="w-full bg-card border border-border rounded-xl px-4 py-2.5 text-xs text-foreground text-center focus:outline-none focus:border-indigo-500 placeholder:text-muted-foreground shadow-xs"
             />
           </div>
 
@@ -444,7 +444,7 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
                   {feedback.isCorrect ? 'အဖြေမှန် (Correct!)' : `အဖြေမှန်: ${feedback.answer}`}
                 </span>
                 {autoAdvance && (
-                  <span className="text-[10px] text-stone-500 font-mono">
+                  <span className="text-[10px] text-muted-foreground font-mono">
                     (advancing...)
                   </span>
                 )}
@@ -462,8 +462,8 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
 
       {/* Mode 2: Full Kana Grid Chart */}
       {mode === 'chart' && (
-        <div className="bg-white border border-stone-200 rounded-2xl p-6 shadow-sm">
-          <h2 className="text-base font-semibold text-stone-900 mb-4 capitalize">
+        <div className="bg-card border border-border rounded-2xl p-6 shadow-sm">
+          <h2 className="text-base font-semibold text-foreground mb-4 capitalize">
             {selectedScript} Grid Table ({filteredKana.length} characters)
           </h2>
           <div className="grid grid-cols-5 sm:grid-cols-8 md:grid-cols-10 gap-2.5">
@@ -485,11 +485,11 @@ export const KanaTrainerScreen: React.FC<KanaTrainerScreenProps> = ({ onBack }) 
                       ? 'bg-indigo-600 border-indigo-500 text-white ring-2 ring-indigo-400/50 scale-105'
                       : isMastered
                       ? 'bg-emerald-50 border-emerald-200 text-emerald-800'
-                      : 'bg-stone-50 border-stone-200 text-stone-900 hover:bg-stone-100 hover:border-stone-300'
+                      : 'bg-muted/50 border-border text-foreground hover:bg-muted hover:border-border'
                   }`}
                 >
                   <div className="text-xl font-bold font-japanese">{k.char}</div>
-                  <div className="text-[10px] text-stone-500 font-mono">{k.romaji[0]}</div>
+                  <div className="text-[10px] text-muted-foreground font-mono">{k.romaji[0]}</div>
                 </div>
               );
             })}

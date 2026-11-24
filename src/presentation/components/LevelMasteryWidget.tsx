@@ -68,41 +68,41 @@ export const LevelMasteryWidget: React.FC<LevelMasteryWidgetProps> = ({ stats, o
   return (
     <section
       aria-label="JLPT Level Progress & Mastery"
-      className="w-full bg-white border border-stone-200 rounded-3xl p-5 sm:p-6 shadow-sm space-y-5"
+      className="w-full bg-card border border-border rounded-3xl p-5 sm:p-6 shadow-sm space-y-5"
     >
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-200 pb-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-border pb-4">
         <div className="flex items-center gap-3">
-          <div className="p-2.5 rounded-2xl bg-indigo-50 border border-indigo-200 text-indigo-600 shrink-0">
+          <div className="p-2.5 rounded-2xl bg-indigo-50 dark:bg-indigo-950/50 border border-indigo-200 dark:border-indigo-800/60 text-indigo-600 dark:text-indigo-400 shrink-0">
             <Award className="w-5 h-5" />
           </div>
           <div>
-            <h3 className="text-stone-900 font-bold text-base sm:text-lg flex items-center gap-2">
+            <h3 className="text-foreground font-bold text-base sm:text-lg flex items-center gap-2">
               JLPT Level Progress &amp; Mastery
-              <span className="text-xs font-mono font-medium text-stone-600 bg-stone-100 px-2 py-0.5 rounded-full border border-stone-200">
+              <span className="text-xs font-mono font-medium text-muted-foreground bg-muted px-2 py-0.5 rounded-full border border-border">
                 N5–N2
               </span>
             </h3>
-            <p className="text-stone-600 text-xs font-burmese mt-0.5">
+            <p className="text-muted-foreground text-xs font-burmese mt-0.5">
               အဆင့်အလိုက် သင်ခန်းစာများနှင့် ဝေါဟာရ ကျွမ်းကျင်မှု တိုးတက်မှု အခြေအနေ
             </p>
           </div>
         </div>
 
         {/* Global Curriculum Progress Indicators */}
-        <div className="flex items-center gap-4 text-xs font-mono bg-stone-50 border border-stone-200 px-3.5 py-2 rounded-2xl shrink-0 self-start sm:self-auto">
+        <div className="flex items-center gap-4 text-xs font-mono bg-muted/50 border border-border px-3.5 py-2 rounded-2xl shrink-0 self-start sm:self-auto">
           <div>
-            <div className="text-stone-900 font-bold">
-              {`${totalCompletedLessons} `}<span className="text-stone-500">/ 174</span>
+            <div className="text-foreground font-bold">
+              {`${totalCompletedLessons} `}<span className="text-muted-foreground">/ 174</span>
             </div>
-            <div className="text-[10px] text-stone-600">{`Lessons (${overallLessonPercent}%)`}</div>
+            <div className="text-[10px] text-muted-foreground">{`Lessons (${overallLessonPercent}%)`}</div>
           </div>
-          <div className="h-6 w-[1px] bg-stone-200" />
+          <div className="h-6 w-[1px] bg-border" />
           <div>
-            <div className="text-stone-900 font-bold">
-              {`${totalMasteredVocab} `}<span className="text-stone-500">/ 5,220</span>
+            <div className="text-foreground font-bold">
+              {`${totalMasteredVocab} `}<span className="text-muted-foreground">/ 5,220</span>
             </div>
-            <div className="text-[10px] text-stone-600">{`Vocab (${overallVocabPercent}%)`}</div>
+            <div className="text-[10px] text-muted-foreground">{`Vocab (${overallVocabPercent}%)`}</div>
           </div>
         </div>
       </div>
@@ -125,7 +125,7 @@ export const LevelMasteryWidget: React.FC<LevelMasteryWidgetProps> = ({ stats, o
             <div
               key={lvl}
               onClick={() => onSelectLevel(lvl)}
-              className="group relative overflow-hidden rounded-2xl bg-stone-50/70 border border-stone-200 hover:border-indigo-300 p-4.5 hover:bg-white transition-all duration-300 cursor-pointer hover:scale-[1.02] shadow-xs hover:shadow-sm flex flex-col justify-between"
+              className="group relative overflow-hidden rounded-2xl bg-muted/50 border border-border hover:border-indigo-400 dark:hover:border-indigo-500 p-4.5 hover:bg-card transition-all duration-300 cursor-pointer hover:scale-[1.02] shadow-xs hover:shadow-sm flex flex-col justify-between"
             >
               <div>
                 {/* Level Title & Badge */}
@@ -145,12 +145,12 @@ export const LevelMasteryWidget: React.FC<LevelMasteryWidgetProps> = ({ stats, o
                 {/* Progress Bar: Lessons */}
                 <div className="space-y-1.5 mb-3">
                   <div className="flex items-center justify-between text-xs">
-                    <span className="text-stone-600 flex items-center gap-1.5">
-                      <BookOpen className="w-3.5 h-3.5 text-stone-600" /> သင်ခန်းစာ
+                    <span className="text-muted-foreground flex items-center gap-1.5">
+                      <BookOpen className="w-3.5 h-3.5 text-muted-foreground" /> သင်ခန်းစာ
                     </span>
-                    <span className="font-mono text-stone-800 font-semibold">{`${lessonPercent}%`}</span>
+                    <span className="font-mono text-foreground font-semibold">{`${lessonPercent}%`}</span>
                   </div>
-                  <div className="w-full bg-stone-200 rounded-full h-1.5 overflow-hidden">
+                  <div className="w-full bg-muted rounded-full h-1.5 overflow-hidden">
                     <div
                       className={`h-full rounded-full bg-gradient-to-r ${cfg.accent} transition-all duration-500`}
                       style={{ width: `${lessonPercent}%` }}
@@ -161,25 +161,25 @@ export const LevelMasteryWidget: React.FC<LevelMasteryWidgetProps> = ({ stats, o
                 {/* Progress Bar: Vocabularies */}
                 <div className="space-y-1.5 mb-3.5">
                   <div className="flex items-center justify-between text-xs">
-                    <span className="text-stone-600 flex items-center gap-1.5">
-                      <CheckCircle2 className="w-3.5 h-3.5 text-stone-600" /> ဝေါဟာရ ကျွမ်းကျင်မှု
+                    <span className="text-muted-foreground flex items-center gap-1.5">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-muted-foreground" /> ဝေါဟာရ ကျွမ်းကျင်မှု
                     </span>
-                    <span className="font-mono text-stone-800 font-semibold">{`${vocabPercent}%`}</span>
+                    <span className="font-mono text-foreground font-semibold">{`${vocabPercent}%`}</span>
                   </div>
-                  <div className="w-full bg-stone-200 rounded-full h-1.5 overflow-hidden">
+                  <div className="w-full bg-muted rounded-full h-1.5 overflow-hidden">
                     <div
                       className={`h-full rounded-full bg-gradient-to-r ${cfg.accent} transition-all duration-500`}
                       style={{ width: `${vocabPercent}%` }}
                     />
                   </div>
-                  <div className="text-[11px] text-stone-600 font-mono text-right">
+                  <div className="text-[11px] text-muted-foreground font-mono text-right">
                     {`${cur.masteredVocab}/${cfg.totalVocab} Vocab`}
                   </div>
                 </div>
               </div>
 
               {/* Footer Action */}
-              <div className="flex items-center justify-between pt-2.5 border-t border-stone-200 text-xs text-stone-600 group-hover:text-stone-900 transition-colors">
+              <div className="flex items-center justify-between pt-2.5 border-t border-border text-xs text-muted-foreground group-hover:text-foreground transition-colors">
                 <span className="font-burmese text-[11px] flex items-center gap-1">
                   <Sparkles className="w-3 h-3 text-amber-500" /> အသေးစိတ်လေ့လာရန်
                 </span>

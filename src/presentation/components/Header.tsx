@@ -59,7 +59,7 @@ export const Header: React.FC<HeaderProps> = ({
   };
 
   return (
-    <header className="sticky top-0 z-20 bg-white/90 backdrop-blur-xl border-b border-stone-200 px-4 sm:px-6 py-2.5 transition-all">
+    <header className="sticky top-0 z-20 bg-surface/90 backdrop-blur-xl border-b border-border px-4 sm:px-6 py-2.5 transition-all text-foreground">
       {/* Top ambient micro-gradient hairline */}
       <div className="absolute top-0 left-0 right-0 h-[1.5px] bg-gradient-to-r from-indigo-500/40 via-amber-500/30 to-emerald-500/40" />
 
@@ -75,7 +75,7 @@ export const Header: React.FC<HeaderProps> = ({
               日
             </div>
             <div className="flex items-center space-x-1.5">
-              <span className="font-bold text-xs text-stone-900 tracking-tight font-sans">
+              <span className="font-bold text-xs text-foreground tracking-tight font-sans">
                 NIHONGO N2
               </span>
               <span className="text-[9px] px-1.5 py-0.2 rounded-full bg-indigo-50 text-indigo-700 font-mono font-bold border border-indigo-200">
@@ -86,29 +86,29 @@ export const Header: React.FC<HeaderProps> = ({
 
           {/* Desktop Breadcrumb Status */}
           <div className="hidden md:flex items-center space-x-2 text-xs">
-            <span className="text-stone-500 font-medium font-sans">Learner:</span>
-            <span className="font-semibold text-stone-900">{profile.name || 'Learner'}</span>
-            <span className="text-stone-300">·</span>
+            <span className="text-muted-foreground font-medium font-sans">Learner:</span>
+            <span className="font-semibold text-foreground">{profile.name || 'Learner'}</span>
+            <span className="text-muted-foreground/40">·</span>
             <span className="text-[10px] px-2 py-0.5 rounded-full bg-indigo-50 text-indigo-700 font-mono font-bold border border-indigo-200">
               {profile.level} Track
             </span>
-            <span className="text-stone-300">·</span>
-            <span className="text-emerald-700 flex items-center text-[11px] font-medium">
-              <ShieldCheck className="w-3 h-3 mr-1 inline text-emerald-600" /> Offline DB Synced
+            <span className="text-muted-foreground/40">·</span>
+            <span className="text-emerald-700 dark:text-emerald-400 flex items-center text-[11px] font-medium">
+              <ShieldCheck className="w-3 h-3 mr-1 inline text-emerald-600 dark:text-emerald-400" /> Offline DB Synced
             </span>
-            <span className="text-stone-300">·</span>
+            <span className="text-muted-foreground/40">·</span>
             <span
               className={`flex items-center text-[11px] font-medium ${
-                isGoogleAuthConnected ? 'text-indigo-700' : 'text-stone-500'
+                isGoogleAuthConnected ? 'text-indigo-700 dark:text-indigo-400' : 'text-muted-foreground'
               }`}
             >
               {isGoogleAuthConnected ? (
                 <>
-                  <Cloud className="w-3 h-3 mr-1 inline text-indigo-600" /> Google Connected
+                  <Cloud className="w-3 h-3 mr-1 inline text-indigo-600 dark:text-indigo-400" /> Google Connected
                 </>
               ) : (
                 <>
-                  <CloudOff className="w-3 h-3 mr-1 inline text-stone-400" /> Google Offline
+                  <CloudOff className="w-3 h-3 mr-1 inline text-muted-foreground" /> Google Offline
                 </>
               )}
             </span>
@@ -116,17 +116,17 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
 
         {/* Center: Daily Progress Meter */}
-        <div className="hidden sm:flex items-center space-x-3 bg-stone-100 px-3.5 py-1.5 rounded-full border border-stone-200 shadow-2xs">
+        <div className="hidden sm:flex items-center space-x-3 bg-muted px-3.5 py-1.5 rounded-full border border-border shadow-2xs">
           <Clock className="w-3.5 h-3.5 text-indigo-600 shrink-0" />
-          <div className="w-24 bg-stone-200 rounded-full h-1.5 overflow-hidden ring-1 ring-stone-300/60">
+          <div className="w-24 bg-border rounded-full h-1.5 overflow-hidden ring-1 ring-border">
             <div
               className="bg-indigo-600 h-1.5 rounded-full transition-all duration-300"
               style={{ width: `${progressPercent}%` }}
             />
           </div>
-          <span className="text-xs text-stone-700 font-medium font-mono tabular-nums">
+          <span className="text-xs text-foreground font-medium font-mono tabular-nums">
             {todayMinutes}m / {goalMinutes}m{' '}
-            <span className="text-stone-500 font-normal hidden lg:inline">
+            <span className="text-muted-foreground font-normal hidden lg:inline">
               ({(todayMinutes / 60).toFixed(1)}h / 6h)
             </span>
           </span>
@@ -138,11 +138,11 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               onClick={onOpenSearch}
               title="Global Quick Search (Ctrl+K or /)"
-              className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 hover:border-stone-300 text-xs text-stone-700 font-medium transition cursor-pointer active:scale-95 group shadow-2xs"
+              className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-card hover:bg-muted border border-border hover:border-border text-xs text-card-foreground font-medium transition cursor-pointer active:scale-95 group shadow-2xs"
             >
-              <Search className="w-3.5 h-3.5 text-stone-500 group-hover:text-indigo-600 transition-colors" />
-              <span className="hidden sm:inline text-stone-600 group-hover:text-stone-900">Search</span>
-              <kbd className="hidden sm:inline px-1.5 py-0.2 rounded bg-stone-100 border border-stone-200 text-[10px] text-stone-500 font-mono">
+              <Search className="w-3.5 h-3.5 text-muted-foreground group-hover:text-indigo-600 transition-colors" />
+              <span className="hidden sm:inline text-muted-foreground group-hover:text-foreground">Search</span>
+              <kbd className="hidden sm:inline px-1.5 py-0.2 rounded bg-muted border border-border text-[10px] text-muted-foreground font-mono">
                 /
               </kbd>
             </button>
@@ -159,14 +159,14 @@ export const Header: React.FC<HeaderProps> = ({
             <button
               onClick={onOpenDiagnostics}
               title="Inspect PWA Offline Storage & Dexie Sync Diagnostics"
-              className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 hover:border-stone-300 text-xs text-stone-700 font-medium transition cursor-pointer active:scale-95 group shadow-2xs"
+              className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-card hover:bg-muted border border-border hover:border-border text-xs text-card-foreground font-medium transition cursor-pointer active:scale-95 group shadow-2xs"
             >
               <span className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500 shadow-[0_0_8px_#10b981]"></span>
               </span>
-              <span className="group-hover:text-stone-900 hidden md:inline">Storage</span>
-              <Database className="w-3.5 h-3.5 text-stone-500 md:hidden" />
+              <span className="group-hover:text-foreground hidden md:inline">Storage</span>
+              <Database className="w-3.5 h-3.5 text-muted-foreground md:hidden" />
             </button>
           )}
 
@@ -180,7 +180,7 @@ export const Header: React.FC<HeaderProps> = ({
                 : 'Google Account Disconnected (Local Offline Only) - Click to connect in Settings'
             }
             aria-label="Google Account Connection Status"
-            className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 hover:border-stone-300 text-xs text-stone-700 font-medium transition cursor-pointer active:scale-95 group shadow-2xs"
+            className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-card hover:bg-muted border border-border hover:border-border text-xs text-card-foreground font-medium transition cursor-pointer active:scale-95 group shadow-2xs"
           >
             <span className="relative flex h-2 w-2">
               {isGoogleAuthConnected && (
@@ -188,12 +188,12 @@ export const Header: React.FC<HeaderProps> = ({
               )}
               <span
                 className={`relative inline-flex rounded-full h-2 w-2 ${
-                  isGoogleAuthConnected ? 'bg-indigo-600 shadow-[0_0_8px_#4f46e5]' : 'bg-stone-300'
+                  isGoogleAuthConnected ? 'bg-indigo-600 shadow-[0_0_8px_#4f46e5]' : 'bg-muted-foreground/40'
                 }`}
               ></span>
             </span>
-            <Cloud className={`w-3.5 h-3.5 ${isGoogleAuthConnected ? 'text-indigo-600' : 'text-stone-400'}`} />
-            <span className="hidden lg:inline text-[11px] text-stone-600 group-hover:text-stone-900">
+            <Cloud className={`w-3.5 h-3.5 ${isGoogleAuthConnected ? 'text-indigo-600' : 'text-muted-foreground'}`} />
+            <span className="hidden lg:inline text-[11px] text-muted-foreground group-hover:text-foreground">
               {isGoogleAuthConnected ? 'Google Sync' : 'Offline'}
             </span>
           </button>
@@ -204,17 +204,17 @@ export const Header: React.FC<HeaderProps> = ({
             onClick={handleToggleTheme}
             title={theme === 'dark' ? 'Switch to Light Theme (Modern Academic Paper)' : 'Switch to Dark Theme (Obsidian Glass)'}
             aria-label={theme === 'dark' ? 'Switch to Light Theme' : 'Switch to Dark Theme'}
-            className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-white hover:bg-stone-50 border border-stone-200 hover:border-stone-300 text-xs text-stone-700 font-medium transition cursor-pointer active:scale-95 group shadow-2xs"
+            className="flex items-center space-x-1.5 px-2.5 py-1.5 rounded-xl bg-card hover:bg-muted border border-border hover:border-border text-xs text-card-foreground font-medium transition cursor-pointer active:scale-95 group shadow-2xs"
           >
             {theme === 'dark' ? (
               <>
                 <Sun className="w-3.5 h-3.5 text-amber-400 group-hover:rotate-45 transition-transform" />
-                <span className="hidden sm:inline text-stone-600 group-hover:text-stone-900">Light</span>
+                <span className="hidden sm:inline text-muted-foreground group-hover:text-foreground">Light</span>
               </>
             ) : (
               <>
-                <Moon className="w-3.5 h-3.5 text-stone-500 group-hover:text-indigo-600 transition-colors" />
-                <span className="hidden sm:inline text-stone-600 group-hover:text-stone-900">Dark</span>
+                <Moon className="w-3.5 h-3.5 text-muted-foreground group-hover:text-indigo-600 transition-colors" />
+                <span className="hidden sm:inline text-muted-foreground group-hover:text-foreground">Dark</span>
               </>
             )}
           </button>

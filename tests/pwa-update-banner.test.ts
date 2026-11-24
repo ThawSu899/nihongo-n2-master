@@ -67,11 +67,11 @@ describe('PWA Service Worker Update Notification & Lifecycle Suite', () => {
       expect(html).toContain('data-testid="pwa-update-dismiss-btn"');
       expect(html).toContain('Later • နောက်မှ');
 
-      // High-contrast Light/Dark theme classes
-      expect(html).toContain('bg-white dark:bg-zinc-900');
-      expect(html).toContain('text-stone-900 dark:text-zinc-100');
-      expect(html).toContain('text-stone-600 dark:text-zinc-400');
-      expect(html).toContain('border-stone-200 dark:border-zinc-800');
+      // High-contrast Light/Dark semantic tokens
+      expect(html).toContain('bg-card');
+      expect(html).toContain('text-foreground');
+      expect(html).toContain('text-muted-foreground');
+      expect(html).toContain('border-border');
     });
 
     it('renders top floating container preventing overlap with bottom-floating PWAInstallBanner', () => {

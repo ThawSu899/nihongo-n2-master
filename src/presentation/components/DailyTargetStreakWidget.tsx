@@ -184,25 +184,25 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
   return (
     <section
       aria-label="Daily Target and Study Streak Dashboard"
-      className={`w-full bg-white border border-stone-200 rounded-3xl p-5 sm:p-6 shadow-sm space-y-5 ${className}`}
+      className={`w-full bg-card border border-border rounded-3xl p-5 sm:p-6 shadow-sm space-y-5 ${className}`}
     >
       {/* Header Bar */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-stone-200 pb-4">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-border pb-4">
         <div className="flex items-center gap-3">
-          <div className="p-2.5 rounded-2xl bg-amber-50 border border-amber-200 text-amber-600 shrink-0 shadow-xs">
+          <div className="p-2.5 rounded-2xl bg-amber-50 dark:bg-amber-950/50 border border-amber-200 dark:border-amber-800 text-amber-600 dark:text-amber-400 shrink-0 shadow-xs">
             <Flame className="w-5 h-5 text-amber-500 animate-pulse" />
           </div>
           <div>
-            <h3 className="text-stone-900 font-bold text-base sm:text-lg flex items-center gap-2">
+            <h3 className="text-foreground font-bold text-base sm:text-lg flex items-center gap-2">
               <span>Daily Target &amp; Study Streak</span>
               {isProtected && (
-                <span className="text-[10px] font-mono font-medium text-cyan-700 bg-cyan-50 border border-cyan-200 px-2 py-0.5 rounded-full flex items-center gap-1 shadow-xs">
-                  <Snowflake className="w-3 h-3 text-cyan-600" />
+                <span className="text-[10px] font-mono font-medium text-cyan-700 dark:text-cyan-400 bg-cyan-50 dark:bg-cyan-950/50 border border-cyan-200 dark:border-cyan-800 px-2 py-0.5 rounded-full flex items-center gap-1 shadow-xs">
+                  <Snowflake className="w-3 h-3 text-cyan-600 dark:text-cyan-400" />
                   <span>Protected</span>
                 </span>
               )}
             </h3>
-            <p className="text-stone-600 text-xs font-burmese mt-0.5">
+            <p className="text-muted-foreground text-xs font-burmese mt-0.5">
               နေ့စဉ် လေ့လာရေး ပန်းတိုင်နှင့် ရက်ဆက် လေ့လာမှု အလေ့အကျင့်
             </p>
           </div>
@@ -210,8 +210,8 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
 
         {/* Quick Goal Selector */}
         <div className="flex items-center gap-2 self-start sm:self-auto">
-          <span className="text-[11px] font-mono text-stone-500 uppercase">Goal:</span>
-          <div className="flex items-center gap-1 p-1 bg-stone-50 border border-stone-200 rounded-xl">
+          <span className="text-[11px] font-mono text-muted-foreground uppercase">Goal:</span>
+          <div className="flex items-center gap-1 p-1 bg-muted/50 border border-border rounded-xl">
             {TARGET_PRESETS.map((t) => (
               <button
                 key={t}
@@ -220,7 +220,7 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
                 className={`px-2.5 py-1 rounded-lg text-xs font-mono font-bold transition cursor-pointer ${
                   target === t
                     ? 'bg-indigo-600 text-white shadow-xs'
-                    : 'text-stone-600 hover:text-stone-900 hover:bg-stone-200/60'
+                    : 'text-muted-foreground hover:text-foreground hover:bg-muted/60'
                 }`}
                 title={`Set daily target to ${t} words`}
               >
@@ -234,57 +234,57 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
       {/* 3-Column Bento Grid */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {/* Card 1: Consecutive Study Streak & Flame */}
-        <div className="bg-stone-50/70 border border-amber-200/80 hover:border-amber-300 rounded-2xl p-4.5 space-y-3 transition shadow-xs flex flex-col justify-between">
+        <div className="bg-muted/50 border border-amber-200/80 dark:border-amber-800/80 hover:border-amber-300 dark:hover:border-amber-700 rounded-2xl p-4.5 space-y-3 transition shadow-xs flex flex-col justify-between">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-mono font-semibold uppercase tracking-wider text-amber-700 flex items-center gap-1.5">
-              <Flame className="w-4 h-4 text-amber-600" /> Study Streak
+            <span className="text-xs font-mono font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400 flex items-center gap-1.5">
+              <Flame className="w-4 h-4 text-amber-600 dark:text-amber-400" /> Study Streak
             </span>
-            <span className="text-[10px] font-mono text-amber-800 bg-amber-100 border border-amber-200 px-2 py-0.5 rounded-full">
+            <span className="text-[10px] font-mono text-amber-800 dark:text-amber-300 bg-amber-100 dark:bg-amber-950/50 border border-amber-200 dark:border-amber-800 px-2 py-0.5 rounded-full">
               {effectiveStreak > 0 ? 'Active 🔥' : 'Start Today'}
             </span>
           </div>
 
           <div className="flex items-baseline gap-2">
-            <span className="text-4xl font-black font-mono text-amber-700 tracking-tight">
+            <span className="text-4xl font-black font-mono text-amber-700 dark:text-amber-400 tracking-tight">
               {effectiveStreak}
             </span>
-            <span className="text-xs text-amber-700/80 font-medium font-sans">
+            <span className="text-xs text-amber-700/80 dark:text-amber-400/80 font-medium font-sans">
               {`${effectiveStreak === 1 ? 'Day' : 'Days'} / ရက်ဆက်`}
             </span>
           </div>
 
-          <div className="pt-2 border-t border-stone-200 flex items-center justify-between text-[11px] text-stone-500 font-mono">
-            <span>Longest: <strong className="text-stone-700">{`${effectiveLongest}d`}</strong></span>
-            <span className="text-stone-400">04:00 AM Rollover</span>
+          <div className="pt-2 border-t border-border flex items-center justify-between text-[11px] text-muted-foreground font-mono">
+            <span>Longest: <strong className="text-foreground">{`${effectiveLongest}d`}</strong></span>
+            <span className="text-muted-foreground">04:00 AM Rollover</span>
           </div>
         </div>
 
         {/* Card 2: Today's Target Circular & Linear Progress */}
-        <div className="bg-stone-50/70 border border-stone-200 hover:border-stone-300 rounded-2xl p-4.5 transition shadow-xs flex items-center justify-between gap-4">
+        <div className="bg-muted/50 border border-border hover:border-ring/60 rounded-2xl p-4.5 transition shadow-xs flex items-center justify-between gap-4">
           <div className="space-y-2 flex-1">
             <div className="flex items-center justify-between text-xs">
-              <span className="font-mono text-stone-600 flex items-center gap-1.5">
-                <Trophy className="w-3.5 h-3.5 text-indigo-600" /> Today&apos;s Target
+              <span className="font-mono text-muted-foreground flex items-center gap-1.5">
+                <Trophy className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400" /> Today&apos;s Target
               </span>
-              <span className="font-mono font-bold text-indigo-600">{percent}%</span>
+              <span className="font-mono font-bold text-indigo-600 dark:text-indigo-400">{percent}%</span>
             </div>
 
             <div className="flex items-baseline gap-1.5">
-              <span className="text-2xl font-bold font-mono text-stone-900">
+              <span className="text-2xl font-bold font-mono text-foreground">
                 {effectiveCompleted}
               </span>
-              <span className="text-xs font-mono text-stone-500">{`/ ${target} words`}</span>
+              <span className="text-xs font-mono text-muted-foreground">{`/ ${target} words`}</span>
             </div>
 
             {/* Linear Progress Bar */}
-            <div className="w-full bg-stone-200 rounded-full h-1.5 overflow-hidden">
+            <div className="w-full bg-muted rounded-full h-1.5 overflow-hidden">
               <div
                 className="h-full rounded-full bg-gradient-to-r from-indigo-600 to-indigo-500 transition-all duration-700 ease-out"
                 style={{ width: `${percent}%` }}
               />
             </div>
 
-            <p className="text-[10px] font-burmese text-stone-600 truncate">
+            <p className="text-[10px] font-burmese text-muted-foreground truncate">
               {isGoalAchieved
                 ? '🎉 ယနေ့ ပန်းတိုင် ပြည့်မီပါပြီ!'
                 : `ပန်းတိုင်ရောက်ရန် ${Math.max(0, target - effectiveCompleted)} လိုပါသည်`}
@@ -299,7 +299,7 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
                 cx="45"
                 cy="45"
                 r={radius}
-                className="stroke-stone-200 fill-none"
+                className="stroke-border fill-none"
                 strokeWidth="6"
               />
               {/* Progress Ring */}
@@ -315,19 +315,19 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
               />
             </svg>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-              <span className="text-xs font-mono font-bold text-stone-900">{percent}%</span>
+              <span className="text-xs font-mono font-bold text-foreground">{percent}%</span>
               {isGoalAchieved && <CheckCircle2 className="w-3 h-3 text-emerald-600" />}
             </div>
           </div>
         </div>
 
         {/* Card 3: 7-Day Weekly Habit Matrix */}
-        <div className="bg-stone-50/70 border border-stone-200 hover:border-stone-300 rounded-2xl p-4.5 space-y-3 transition shadow-xs flex flex-col justify-between">
+        <div className="bg-muted/50 border border-border hover:border-ring/60 rounded-2xl p-4.5 space-y-3 transition shadow-xs flex flex-col justify-between">
           <div className="flex items-center justify-between">
-            <span className="text-xs font-mono font-semibold uppercase tracking-wider text-stone-900 flex items-center gap-1.5">
+            <span className="text-xs font-mono font-semibold uppercase tracking-wider text-foreground flex items-center gap-1.5">
               <Calendar className="w-4 h-4 text-emerald-600" /> 7-Day Habit Tracker
             </span>
-            <span className="text-[10px] font-mono text-stone-500">
+            <span className="text-[10px] font-mono text-muted-foreground">
               {`${displayWeekly.filter((w) => w.completed).length}/7 days`}
             </span>
           </div>
@@ -340,10 +340,10 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
                   <div
                     className={`w-8 h-8 rounded-xl flex items-center justify-center text-xs font-mono font-bold transition shadow-xs ${
                       item.completed
-                        ? 'bg-emerald-50 border border-emerald-300 text-emerald-700 shadow-xs'
+                        ? 'bg-emerald-50 dark:bg-emerald-950/50 border border-emerald-300 dark:border-emerald-800 text-emerald-700 dark:text-emerald-400 shadow-xs'
                         : item.isToday
-                        ? 'bg-amber-50 border border-amber-300 text-amber-700 animate-pulse'
-                        : 'bg-stone-100 border border-stone-200 text-stone-400'
+                        ? 'bg-amber-50 dark:bg-amber-950/50 border border-amber-300 dark:border-amber-800 text-amber-700 dark:text-amber-400 animate-pulse'
+                        : 'bg-muted border border-border text-muted-foreground'
                     }`}
                     title={`${item.day} (${item.date}): ${
                       item.completed ? 'Study session completed' : 'No study'
@@ -357,7 +357,7 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
                   </div>
                   <span
                     className={`text-[9px] font-mono ${
-                      item.isToday ? 'text-amber-600 font-bold' : 'text-stone-500'
+                      item.isToday ? 'text-amber-600 font-bold' : 'text-muted-foreground'
                     }`}
                   >
                     {item.day.slice(0, 3)}
@@ -368,7 +368,7 @@ export const DailyTargetStreakWidget: React.FC<DailyTargetStreakWidgetProps> = (
           </div>
 
           {/* Footer Action */}
-          <div className="pt-2 border-t border-stone-200 flex items-center justify-between text-[11px] text-stone-500">
+          <div className="pt-2 border-t border-border flex items-center justify-between text-[11px] text-muted-foreground">
             <span className="font-burmese text-[10px] truncate">၇ ရက်တာ လေ့လာမှုမှတ်တမ်း</span>
             {onStartStudy && (
               <button

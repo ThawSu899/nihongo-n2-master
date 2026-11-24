@@ -217,9 +217,9 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
   const currentExercise = exercises[currentExIdx];
 
   return (
-    <div className="max-w-6xl mx-auto w-full p-4 sm:p-6 space-y-6 pb-28 text-stone-900 dark:text-stone-100">
+    <div className="max-w-6xl mx-auto w-full p-4 sm:p-6 space-y-6 pb-28 text-foreground">
       {/* 1. Header Toolbar */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 p-4 sm:p-5 rounded-2xl shadow-xs">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-card border border-border p-4 sm:p-5 rounded-2xl shadow-xs">
         <div className="flex items-center space-x-3">
           <div className="w-10 h-10 rounded-xl bg-indigo-600 text-white flex items-center justify-center shadow-xs">
             <TrendingUp className="w-5 h-5" />
@@ -227,11 +227,11 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
           <div>
             <h1 className="text-base sm:text-lg font-bold flex items-center gap-2">
               <span>My Learning Dashboard</span>
-              <span className="text-xs font-normal text-stone-500 font-myanmar">
+              <span className="text-xs font-normal text-muted-foreground font-myanmar">
                 (AI ကိုယ်ပိုင် လေ့လာမှု ဆန်းစစ်ချက်)
               </span>
             </h1>
-            <p className="text-xs text-stone-500 font-myanmar">
+            <p className="text-xs text-muted-foreground font-myanmar">
               လက်ရှိ လေ့လာမှုမှတ်တမ်းများနှင့် အားနည်းချက်များကို အခြေခံ၍ သီးသန့် အကြံပြုချက်များ
             </p>
           </div>
@@ -239,15 +239,15 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
 
         {/* Level Switcher & Consent */}
         <div className="flex flex-wrap items-center gap-2.5">
-          <div className="flex items-center rounded-lg bg-stone-100 dark:bg-stone-800 p-0.5">
+          <div className="flex items-center rounded-lg bg-muted p-0.5">
             {(['N5', 'N4', 'N3', 'N2'] as const).map((lvl) => (
               <button
                 key={lvl}
                 onClick={() => setLevel(lvl)}
                 className={`px-3 py-1 text-xs font-bold rounded-md transition cursor-pointer ${
                   level === lvl
-                    ? 'bg-white dark:bg-stone-900 text-indigo-600 dark:text-indigo-400 shadow-xs'
-                    : 'text-stone-600 dark:text-stone-400 hover:text-stone-900'
+                    ? 'bg-card text-indigo-600 dark:text-indigo-400 shadow-xs'
+                    : 'text-muted-foreground hover:text-foreground'
                 }`}
               >
                 {lvl}
@@ -261,7 +261,7 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
             className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-xl text-xs font-medium border transition cursor-pointer ${
               hasConsent
                 ? 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-300 border-emerald-200'
-                : 'bg-stone-100 dark:bg-stone-800 text-stone-600 border-stone-200'
+                : 'bg-muted text-muted-foreground border-border'
             }`}
             title="Toggle sending compact learning context to AI"
           >
@@ -272,7 +272,7 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
               </>
             ) : (
               <>
-                <ShieldOff className="w-3.5 h-3.5 text-stone-400" />
+                <ShieldOff className="w-3.5 h-3.5 text-muted-foreground" />
                 <span>AI Personalization: OFF</span>
               </>
             )}
@@ -281,7 +281,7 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
       </div>
 
       {isLoading ? (
-        <div className="p-12 text-center text-sm text-stone-500 flex items-center justify-center space-x-2">
+        <div className="p-12 text-center text-sm text-muted-foreground flex items-center justify-center space-x-2">
           <div className="w-4 h-4 border-2 border-indigo-600 border-t-transparent rounded-full animate-spin" />
           <span>ဆန်းစစ်ချက်များကို တွက်ချက်နေပါသည်...</span>
         </div>
@@ -289,48 +289,48 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
         <>
           {/* 2. Overview Metrics Cards */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
-            <div className="p-4 rounded-xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-xs">
-              <span className="text-xs text-stone-500 font-medium block">Total Items Analyzed</span>
+            <div className="p-4 rounded-xl bg-card border border-border shadow-xs">
+              <span className="text-xs text-muted-foreground font-medium block">Total Items Analyzed</span>
               <span className="text-2xl font-bold font-mono text-indigo-600 dark:text-indigo-400 mt-1 block">
                 {diagnostic.totalItemsTracked}
               </span>
-              <span className="text-[10px] text-stone-400 font-myanmar">ကတ်များနှင့် စစ်ဆေးချက်များ</span>
+              <span className="text-[10px] text-muted-foreground font-myanmar">ကတ်များနှင့် စစ်ဆေးချက်များ</span>
             </div>
 
-            <div className="p-4 rounded-xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-xs">
-              <span className="text-xs text-stone-500 font-medium block">Confirmed Weaknesses</span>
+            <div className="p-4 rounded-xl bg-card border border-border shadow-xs">
+              <span className="text-xs text-muted-foreground font-medium block">Confirmed Weaknesses</span>
               <span className="text-2xl font-bold font-mono text-rose-600 mt-1 block">
                 {diagnostic.confirmedWeaknesses.length}
               </span>
-              <span className="text-[10px] text-stone-400 font-myanmar">အမှန်တကယ် အားနည်းချက်</span>
+              <span className="text-[10px] text-muted-foreground font-myanmar">အမှန်တကယ် အားနည်းချက်</span>
             </div>
 
-            <div className="p-4 rounded-xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-xs">
-              <span className="text-xs text-stone-500 font-medium block">Strong Skills</span>
+            <div className="p-4 rounded-xl bg-card border border-border shadow-xs">
+              <span className="text-xs text-muted-foreground font-medium block">Strong Skills</span>
               <span className="text-2xl font-bold font-mono text-emerald-600 mt-1 block">
                 {diagnostic.strongSkills.length}
               </span>
-              <span className="text-[10px] text-stone-400 font-myanmar">ကျွမ်းကျင်သော ကဏ္ဍများ</span>
+              <span className="text-[10px] text-muted-foreground font-myanmar">ကျွမ်းကျင်သော ကဏ္ဍများ</span>
             </div>
 
-            <div className="p-4 rounded-xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 shadow-xs">
-              <span className="text-xs text-stone-500 font-medium block">Needs More Practice</span>
+            <div className="p-4 rounded-xl bg-card border border-border shadow-xs">
+              <span className="text-xs text-muted-foreground font-medium block">Needs More Practice</span>
               <span className="text-2xl font-bold font-mono text-amber-600 mt-1 block">
                 {diagnostic.insufficientDataSkills.length}
               </span>
-              <span className="text-[10px] text-stone-400 font-myanmar">အချက်အလက် မလုံလောက်သေး</span>
+              <span className="text-[10px] text-muted-foreground font-myanmar">အချက်အလက် မလုံလောက်သေး</span>
             </div>
           </div>
 
           {/* 3. Skill Diagnosis Details */}
-          <div className="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-2xl p-5 shadow-xs space-y-4">
+          <div className="bg-card border border-border rounded-2xl p-5 shadow-xs space-y-4">
             <div className="flex items-center justify-between">
               <div>
                 <h2 className="text-sm font-bold flex items-center gap-1.5">
                   <AlertTriangle className="w-4 h-4 text-amber-500" />
                   <span>Skill-by-Skill Weakness Diagnosis</span>
                 </h2>
-                <p className="text-[11px] text-stone-500 font-myanmar">
+                <p className="text-[11px] text-muted-foreground font-myanmar">
                   ကဏ္ဍတစ်ခုချင်းစီ၏ တိကျသော စစ်ဆေးတွေ့ရှိချက်များ
                 </p>
               </div>
@@ -358,7 +358,7 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
                 return (
                   <div
                     key={idx}
-                    className="p-3.5 rounded-xl border border-stone-200 dark:border-stone-800 bg-stone-50/50 dark:bg-stone-950/40 space-y-2"
+                    className="p-3.5 rounded-xl border border-border bg-muted/40 space-y-2"
                   >
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-2">
@@ -366,7 +366,7 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
                           {finding.skill}
                         </span>
                         {finding.accuracy !== null && (
-                          <span className="text-xs font-mono font-semibold text-stone-600 dark:text-stone-300">
+                          <span className="text-xs font-mono font-semibold text-muted-foreground">
                             ({Math.round(finding.accuracy * 100)}%)
                           </span>
                         )}
@@ -378,14 +378,14 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
                             ? 'bg-rose-50 text-rose-700 border-rose-200'
                             : isPossible
                             ? 'bg-amber-50 text-amber-700 border-amber-200'
-                            : 'bg-stone-100 text-stone-600 border-stone-300'
+                            : 'bg-muted text-muted-foreground border-border'
                         }`}
                       >
                         {finding.classification}
                       </span>
                     </div>
 
-                    <p className="text-xs text-stone-600 dark:text-stone-300 leading-snug">
+                    <p className="text-xs text-muted-foreground leading-snug">
                       {finding.evidence}
                     </p>
 
@@ -400,14 +400,14 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
 
           {/* 4. Personalized Daily Study Plan */}
           {studyPlan && (
-            <div className="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-2xl p-5 shadow-xs space-y-4">
+            <div className="bg-card border border-border rounded-2xl p-5 shadow-xs space-y-4">
               <div className="flex items-center justify-between">
                 <div>
                   <h2 className="text-sm font-bold flex items-center gap-1.5">
                     <Calendar className="w-4 h-4 text-indigo-600" />
                     <span>Personal Daily Study Plan</span>
                   </h2>
-                  <p className="text-[11px] text-stone-500 font-myanmar">
+                  <p className="text-[11px] text-muted-foreground font-myanmar">
                     ယနေ့အတွက် အချိန်နှင့် အားနည်းချက်ကို ညှိနှိုင်းထားသော လေ့လာမှု အစီအစဉ်
                   </p>
                 </div>
@@ -415,7 +415,7 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
                 <button
                   type="button"
                   onClick={handleRegeneratePlan}
-                  className="flex items-center space-x-1 text-xs text-stone-500 hover:text-indigo-600 transition cursor-pointer"
+                  className="flex items-center space-x-1 text-xs text-muted-foreground hover:text-indigo-600 transition cursor-pointer"
                   title="Recalculate plan"
                 >
                   <RotateCcw className="w-3.5 h-3.5" />
@@ -425,7 +425,7 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
 
               {/* Progress Bar */}
               <div className="space-y-1">
-                <div className="flex justify-between text-xs text-stone-600 font-mono">
+                <div className="flex justify-between text-xs text-muted-foreground font-mono">
                   <span>
                     Completed: {studyPlan.completedMinutes} / {studyPlan.totalPlannedMinutes} mins
                   </span>
@@ -433,7 +433,7 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
                     {Math.round((studyPlan.completedMinutes / Math.max(1, studyPlan.totalPlannedMinutes)) * 100)}%
                   </span>
                 </div>
-                <div className="w-full bg-stone-100 dark:bg-stone-800 h-2 rounded-full overflow-hidden">
+                <div className="w-full bg-muted h-2 rounded-full overflow-hidden">
                   <div
                     className="bg-indigo-600 h-full transition-all duration-300"
                     style={{
@@ -452,8 +452,8 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
                       act.completed
                         ? 'bg-emerald-50/60 dark:bg-emerald-950/20 border-emerald-200 opacity-80'
                         : act.skipped
-                        ? 'bg-stone-100/50 border-stone-200 opacity-50 line-through'
-                        : 'bg-stone-50/50 dark:bg-stone-950/30 border-stone-200 dark:border-stone-800'
+                        ? 'bg-muted/50 border-border opacity-50 line-through'
+                        : 'bg-muted/40 border-border'
                     }`}
                   >
                     <div className="flex items-center space-x-3 min-w-0 flex-1">
@@ -466,11 +466,11 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
                       <div className="min-w-0 flex-1">
                         <div className="flex items-center space-x-2">
                           <p className="text-xs font-semibold truncate">{act.title}</p>
-                          <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-stone-200 dark:bg-stone-800 text-stone-600">
+                          <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-muted text-muted-foreground">
                             {act.estimatedMinutes}m
                           </span>
                         </div>
-                        <p className="text-[11px] text-stone-500 font-myanmar truncate">
+                        <p className="text-[11px] text-muted-foreground font-myanmar truncate">
                           {act.titleMy}
                         </p>
                       </div>
@@ -480,7 +480,7 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
                       <button
                         type="button"
                         onClick={() => handleSkipActivity(act.id)}
-                        className="text-[10px] text-stone-400 hover:text-stone-600 px-2 py-1 cursor-pointer"
+                        className="text-[10px] text-muted-foreground hover:text-muted-foreground px-2 py-1 cursor-pointer"
                       >
                         Skip
                       </button>
@@ -492,13 +492,13 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
           )}
 
           {/* 5. Smart Lesson Recommendations */}
-          <div className="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-2xl p-5 shadow-xs space-y-4">
+          <div className="bg-card border border-border rounded-2xl p-5 shadow-xs space-y-4">
             <div>
               <h2 className="text-sm font-bold flex items-center gap-1.5">
                 <BookOpen className="w-4 h-4 text-indigo-600" />
                 <span>Smart Lesson Recommendations</span>
               </h2>
-              <p className="text-[11px] text-stone-500 font-myanmar">
+              <p className="text-[11px] text-muted-foreground font-myanmar">
                 သင်၏ အားနည်းချက်များကို ဦးတည်၍ ဆက်လက်လေ့လာသင့်သော သင်ခန်းစာများ
               </p>
             </div>
@@ -507,7 +507,7 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
               {recommendations.map((rec) => (
                 <div
                   key={rec.lessonId}
-                  className="p-3.5 rounded-xl border border-stone-200 dark:border-stone-800 bg-stone-50/50 dark:bg-stone-950/40 flex flex-col justify-between space-y-2"
+                  className="p-3.5 rounded-xl border border-border bg-muted/40 flex flex-col justify-between space-y-2"
                 >
                   <div>
                     <div className="flex items-center justify-between">
@@ -525,7 +525,7 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
                       </span>
                     </div>
                     <p className="text-xs font-semibold mt-1">{rec.title}</p>
-                    <p className="text-[11px] text-stone-500 font-myanmar mt-0.5">
+                    <p className="text-[11px] text-muted-foreground font-myanmar mt-0.5">
                       {rec.reason.my}
                     </p>
                   </div>
@@ -544,14 +544,14 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
           </div>
 
           {/* 6. AI Reports & Diagnosis Persistence */}
-          <div className="bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 rounded-2xl p-5 shadow-xs space-y-4">
+          <div className="bg-card border border-border rounded-2xl p-5 shadow-xs space-y-4">
             <div className="flex items-center justify-between">
               <div>
                 <h2 className="text-sm font-bold flex items-center gap-1.5">
                   <FileText className="w-4 h-4 text-indigo-600" />
                   <span>Saved AI Learning Reports</span>
                 </h2>
-                <p className="text-[11px] text-stone-500 font-myanmar">
+                <p className="text-[11px] text-muted-foreground font-myanmar">
                   မှတ်တမ်းတင်ထားသော ဆန်းစစ်ချက် အစီရင်ခံစာများ
                 </p>
               </div>
@@ -559,14 +559,14 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
               <button
                 type="button"
                 onClick={handleSaveReport}
-                className="px-3 py-1.5 rounded-xl bg-stone-100 dark:bg-stone-800 hover:bg-indigo-50 hover:text-indigo-600 text-xs font-semibold transition cursor-pointer"
+                className="px-3 py-1.5 rounded-xl bg-muted hover:bg-indigo-50 hover:text-indigo-600 text-xs font-semibold transition cursor-pointer"
               >
                 + Save Current Diagnosis
               </button>
             </div>
 
             {reports.length === 0 ? (
-              <div className="p-6 text-center text-xs text-stone-400 font-myanmar">
+              <div className="p-6 text-center text-xs text-muted-foreground font-myanmar">
                 သိမ်းဆည်းထားသော အစီရင်ခံစာ မရှိသေးပါ
               </div>
             ) : (
@@ -574,18 +574,18 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
                 {reports.map((rep) => (
                   <div
                     key={rep.id}
-                    className="p-3 rounded-xl border border-stone-200 dark:border-stone-800 flex items-center justify-between text-xs"
+                    className="p-3 rounded-xl border border-border flex items-center justify-between text-xs"
                   >
                     <div>
                       <p className="font-semibold">{rep.title}</p>
-                      <p className="text-[10px] text-stone-400 font-mono mt-0.5">
+                      <p className="text-[10px] text-muted-foreground font-mono mt-0.5">
                         {new Date(rep.createdAt).toLocaleString()}
                       </p>
                     </div>
                     <button
                       type="button"
                       onClick={() => handleDeleteReport(rep.id)}
-                      className="p-1 hover:text-rose-600 transition cursor-pointer text-stone-400"
+                      className="p-1 hover:text-rose-600 transition cursor-pointer text-muted-foreground"
                       title="Delete Report"
                     >
                       <Trash2 className="w-3.5 h-3.5" />
@@ -601,8 +601,8 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
       {/* Targeted Exercise Modal */}
       {isExerciseModalOpen && currentExercise && (
         <div className="fixed inset-0 bg-black/50 backdrop-blur-xs flex items-center justify-center p-4 z-50">
-          <div className="bg-white dark:bg-stone-900 rounded-2xl border border-stone-200 dark:border-stone-800 max-w-lg w-full p-5 space-y-4 shadow-xl">
-            <div className="flex items-center justify-between border-b border-stone-200 dark:border-stone-800 pb-3">
+          <div className="bg-card rounded-2xl border border-border max-w-lg w-full p-5 space-y-4 shadow-xl">
+            <div className="flex items-center justify-between border-b border-border pb-3">
               <div>
                 <span className="text-[10px] uppercase font-mono font-bold text-indigo-600 block">
                   Question {currentExIdx + 1} of {exercises.length}
@@ -612,13 +612,13 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
               <button
                 type="button"
                 onClick={() => setIsExerciseModalOpen(false)}
-                className="text-stone-400 hover:text-stone-600 text-xs cursor-pointer"
+                className="text-muted-foreground hover:text-muted-foreground text-xs cursor-pointer"
               >
                 Close ✕
               </button>
             </div>
 
-            <div className="p-3 bg-stone-50 dark:bg-stone-950 rounded-xl text-xs sm:text-sm whitespace-pre-wrap leading-relaxed font-sans">
+            <div className="p-3 bg-muted/50 rounded-xl text-xs sm:text-sm whitespace-pre-wrap leading-relaxed font-sans">
               {currentExercise.question}
             </div>
 
@@ -638,8 +638,8 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
                         ? 'bg-emerald-50 border-emerald-300 text-emerald-900 font-bold'
                         : selectedAnswer === choice
                         ? 'bg-rose-50 border-rose-300 text-rose-900'
-                        : 'border-stone-200 opacity-60'
-                      : 'border-stone-200 dark:border-stone-700 hover:bg-indigo-50 dark:hover:bg-indigo-950/40'
+                        : 'border-border opacity-60'
+                      : 'border-border hover:bg-indigo-50 dark:hover:bg-indigo-950/40'
                   }`}
                 >
                   {choice}
@@ -659,7 +659,7 @@ export const MyLearningDashboardScreen: React.FC<MyLearningDashboardProps> = ({
                 <span className="font-bold text-indigo-900 dark:text-indigo-200 block">
                   {selectedAnswer === currentExercise.answer ? '✓ Correct!' : '✗ Incorrect'}
                 </span>
-                <p className="text-stone-700 dark:text-stone-300">
+                <p className="text-foreground">
                   {currentExercise.explanationMy || currentExercise.explanation}
                 </p>
               </div>

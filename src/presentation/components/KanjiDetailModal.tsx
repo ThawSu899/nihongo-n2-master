@@ -155,7 +155,7 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
 
   return (
     <AnimatePresence>
-      <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-5 bg-stone-900/40 backdrop-blur-sm">
+      <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-5 bg-background/80 backdrop-blur-sm">
         {/* Backdrop click to close */}
         <div
           className="absolute inset-0 cursor-pointer"
@@ -172,15 +172,15 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
           animate={{ opacity: 1, scale: 1, y: 0 }}
           exit={{ opacity: 0, scale: 0.94, y: 16 }}
           transition={{ duration: 0.22, ease: 'easeOut' }}
-          className="relative z-10 w-full max-w-2xl bg-white border border-stone-200 rounded-3xl p-5 sm:p-7 shadow-2xl max-h-[92vh] overflow-y-auto space-y-6"
+          className="relative z-10 w-full max-w-2xl bg-card border border-border rounded-3xl p-5 sm:p-7 shadow-2xl max-h-[92vh] overflow-y-auto space-y-6"
         >
           {/* Header Bar */}
-          <div className="flex items-center justify-between border-b border-stone-200 pb-4">
+          <div className="flex items-center justify-between border-b border-border pb-4">
             <div className="flex items-center gap-2.5 flex-wrap">
               <span className="text-xs font-mono font-bold uppercase tracking-wider text-indigo-700 bg-indigo-50 border border-indigo-200 px-2.5 py-0.5 rounded-full">
                 {`JLPT ${kanji.jlptLevel}`}
               </span>
-              <span className="text-xs font-mono text-stone-600 bg-stone-100 border border-stone-200 px-2.5 py-0.5 rounded-full">
+              <span className="text-xs font-mono text-muted-foreground bg-muted border border-border px-2.5 py-0.5 rounded-full">
                 {`総画数: ${kanji.strokeCount} 画`}
               </span>
               {kanji.radicals && kanji.radicals.length > 0 && (
@@ -192,7 +192,7 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
 
             <button
               onClick={onClose}
-              className="p-2 rounded-xl text-stone-400 hover:text-stone-700 hover:bg-stone-100 transition cursor-pointer"
+              className="p-2 rounded-xl text-muted-foreground hover:text-foreground hover:bg-muted transition cursor-pointer"
               title="Close (Esc)"
               aria-label="Close dialog"
             >
@@ -204,10 +204,10 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 items-center">
             {/* Left: Traditional Calligraphy Box & Drawing Canvas */}
             <div className="flex flex-col items-center">
-              <div className="relative w-44 h-44 rounded-2xl bg-stone-50 border-2 border-stone-200 shadow-inner flex items-center justify-center overflow-hidden">
+              <div className="relative w-44 h-44 rounded-2xl bg-muted/50 border-2 border-border shadow-inner flex items-center justify-center overflow-hidden">
                 {/* 4-Quadrant Calligraphy Crosslines */}
                 <svg
-                  className="absolute inset-0 w-full h-full pointer-events-none select-none text-stone-300"
+                  className="absolute inset-0 w-full h-full pointer-events-none select-none text-muted-foreground/20"
                   viewBox="0 0 100 100"
                 >
                   <line
@@ -247,7 +247,7 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
                     initial={{ opacity: 0.8, scale: 0.98 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.2 }}
-                    className="text-7xl font-japanese font-bold text-stone-900 drop-shadow-sm select-none"
+                    className="text-7xl font-japanese font-bold text-foreground drop-shadow-sm select-none"
                   >
                     {kanji.literal}
                   </motion.span>
@@ -256,7 +256,7 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
                 {/* Interactive Drawing Canvas */}
                 {isDrawingMode && (
                   <>
-                    <span className="text-7xl font-japanese font-bold text-stone-300 select-none pointer-events-none absolute">
+                    <span className="text-7xl font-japanese font-bold text-muted-foreground/20 select-none pointer-events-none absolute">
                       {kanji.literal}
                     </span>
                     <canvas
@@ -284,7 +284,7 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
                   className={`px-3 py-1.5 rounded-xl border text-xs font-burmese font-medium flex items-center gap-1.5 transition cursor-pointer ${
                     isDrawingMode
                       ? 'bg-indigo-50 border-indigo-300 text-indigo-700'
-                      : 'bg-stone-100 border-stone-200 text-stone-700 hover:bg-stone-200'
+                      : 'bg-muted border-border text-foreground hover:bg-muted'
                   }`}
                 >
                   {isDrawingMode ? (
@@ -304,7 +304,7 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
                   <button
                     type="button"
                     onClick={handleClearCanvas}
-                    className="p-1.5 rounded-xl bg-stone-100 border border-stone-200 text-stone-600 hover:text-stone-900 hover:bg-stone-200 transition cursor-pointer"
+                    className="p-1.5 rounded-xl bg-muted border border-border text-muted-foreground hover:text-foreground hover:bg-muted transition cursor-pointer"
                     title="Clear Canvas"
                   >
                     <RotateCcw className="w-4 h-4" />
@@ -317,16 +317,16 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
             <div className="space-y-3">
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  <h3 className="text-2xl font-black text-stone-900 flex items-center gap-2 font-japanese">
+                  <h3 className="text-2xl font-black text-foreground flex items-center gap-2 font-japanese">
                     <span>{kanji.literal}</span>
-                    <span className="text-sm font-normal text-stone-500 font-mono">
+                    <span className="text-sm font-normal text-muted-foreground font-mono">
                       {`(${kanji.strokeCount}画)`}
                     </span>
                   </h3>
                   <div className="font-burmese text-emerald-700 text-lg font-bold leading-snug mt-1">
                     {kanji.meaningBurmese}
                   </div>
-                  <div className="text-stone-600 text-xs sm:text-sm mt-0.5">
+                  <div className="text-muted-foreground text-xs sm:text-sm mt-0.5">
                     {kanji.meaningEn}
                   </div>
                 </div>
@@ -338,7 +338,7 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
                   className={`p-3 rounded-2xl border transition active:scale-95 cursor-pointer shadow-xs ${
                     activeAudioReading === kanji.literal
                       ? 'bg-indigo-600 border-indigo-600 text-white shadow-xs'
-                      : 'bg-stone-100 border-stone-200 text-stone-700 hover:text-stone-900 hover:bg-stone-200'
+                      : 'bg-muted border-border text-foreground hover:text-foreground hover:bg-muted'
                   }`}
                   title="Pronounce Japanese Character"
                   aria-label={`Pronounce ${kanji.literal}`}
@@ -348,16 +348,16 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
               </div>
 
               {/* Stroke Order Stepper & Auto-Play */}
-              <div className="p-3 rounded-2xl bg-stone-50 border border-stone-200 space-y-2">
+              <div className="p-3 rounded-2xl bg-muted/50 border border-border space-y-2">
                 <div className="flex items-center justify-between text-xs">
-                  <span className="text-stone-600 flex items-center gap-1.5 font-mono text-[11px]">
+                  <span className="text-muted-foreground flex items-center gap-1.5 font-mono text-[11px]">
                     <Sparkles className="w-3.5 h-3.5 text-amber-600" />
                     <span>{`Stroke Step: ${activeStrokeStep} / ${kanji.strokeCount}`}</span>
                   </span>
                   <button
                     type="button"
                     onClick={() => setIsPlayingStrokes((prev) => !prev)}
-                    className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-stone-200 text-[11px] font-mono text-stone-700 hover:bg-stone-100 cursor-pointer"
+                    className="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-card border border-border text-[11px] font-mono text-foreground hover:bg-muted cursor-pointer"
                   >
                     {isPlayingStrokes ? (
                       <>
@@ -386,7 +386,7 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
                       className={`w-6 h-6 rounded-lg text-[10px] font-mono font-bold flex items-center justify-center transition cursor-pointer ${
                         activeStrokeStep === step
                           ? 'bg-indigo-600 text-white shadow-xs'
-                          : 'bg-white text-stone-600 hover:bg-stone-100 border border-stone-200'
+                          : 'bg-card text-muted-foreground hover:bg-muted border border-border'
                       }`}
                     >
                       {step}
@@ -398,15 +398,15 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
           </div>
 
           {/* Readings Section (Onyomi & Kunyomi) */}
-          <div className="space-y-3 pt-1 border-t border-stone-200">
-            <h4 className="text-xs font-mono uppercase tracking-wider text-stone-600 flex items-center gap-1.5">
+          <div className="space-y-3 pt-1 border-t border-border">
+            <h4 className="text-xs font-mono uppercase tracking-wider text-muted-foreground flex items-center gap-1.5">
               <BookOpen className="w-3.5 h-3.5 text-indigo-600" />
               <span>Readings (読み方)</span>
             </h4>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {/* Onyomi (音読み - Katakana) */}
-              <div className="p-3.5 rounded-2xl bg-stone-50 border border-stone-200 space-y-1.5">
+              <div className="p-3.5 rounded-2xl bg-muted/50 border border-border space-y-1.5">
                 <span className="text-[11px] font-mono text-indigo-700 uppercase font-semibold block">
                   音読み (Onyomi)
                 </span>
@@ -424,13 +424,13 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
                       </button>
                     ))
                   ) : (
-                    <span className="text-xs text-stone-400 font-mono">—</span>
+                    <span className="text-xs text-muted-foreground font-mono">—</span>
                   )}
                 </div>
               </div>
 
               {/* Kunyomi (訓読み - Hiragana) */}
-              <div className="p-3.5 rounded-2xl bg-stone-50 border border-stone-200 space-y-1.5">
+              <div className="p-3.5 rounded-2xl bg-muted/50 border border-border space-y-1.5">
                 <span className="text-[11px] font-mono text-teal-800 uppercase font-semibold block">
                   訓読み (Kunyomi)
                 </span>
@@ -448,7 +448,7 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
                       </button>
                     ))
                   ) : (
-                    <span className="text-xs text-stone-400 font-mono">—</span>
+                    <span className="text-xs text-muted-foreground font-mono">—</span>
                   )}
                 </div>
               </div>
@@ -457,8 +457,8 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
 
           {/* Compound Vocabulary Examples */}
           {kanji.examples && kanji.examples.length > 0 && (
-            <div className="space-y-3 pt-1 border-t border-stone-200">
-              <h4 className="text-xs font-mono uppercase tracking-wider text-stone-600 flex items-center gap-1.5">
+            <div className="space-y-3 pt-1 border-t border-border">
+              <h4 className="text-xs font-mono uppercase tracking-wider text-muted-foreground flex items-center gap-1.5">
                 <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
                 <span>Compound Vocabulary Examples (熟語)</span>
               </h4>
@@ -467,14 +467,14 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
                 {kanji.examples.map((ex, idx) => (
                   <div
                     key={`${ex.word}-${idx}`}
-                    className="p-3 rounded-2xl bg-stone-50 border border-stone-200 hover:border-stone-300 transition flex items-center justify-between gap-3"
+                    className="p-3 rounded-2xl bg-muted/50 border border-border hover:border-border transition flex items-center justify-between gap-3"
                   >
                     <div className="space-y-0.5">
                       <div className="flex items-baseline gap-2">
-                        <span className="font-japanese font-bold text-stone-900 text-sm">
+                        <span className="font-japanese font-bold text-foreground text-sm">
                           {ex.word}
                         </span>
-                        <span className="text-xs text-stone-500 font-mono font-normal">
+                        <span className="text-xs text-muted-foreground font-mono font-normal">
                           {`[${ex.reading}]`}
                         </span>
                       </div>
@@ -486,7 +486,7 @@ export const KanjiDetailModal: React.FC<KanjiDetailModalProps> = ({
                     <button
                       type="button"
                       onClick={() => handleSpeak(ex.word, ex.reading)}
-                      className="p-1.5 rounded-lg text-stone-500 hover:text-stone-800 hover:bg-stone-200/60 transition cursor-pointer shrink-0"
+                      className="p-1.5 rounded-lg text-muted-foreground hover:text-foreground hover:bg-muted/60 transition cursor-pointer shrink-0"
                       title="Pronounce word"
                       aria-label={`Pronounce ${ex.word}`}
                     >

@@ -86,9 +86,9 @@ export const ActiveRecallMaskingBar: React.FC<ActiveRecallMaskingBarProps> = ({
     <div
       className={`${
         sticky
-          ? 'sticky top-0 z-20 backdrop-blur-md bg-white/95 dark:bg-zinc-900/95'
-          : 'bg-white dark:bg-zinc-900'
-      } border-y sm:border border-stone-200 dark:border-zinc-800 sm:rounded-2xl p-2.5 sm:p-3 shadow-xs transition-colors ${className}`}
+          ? 'sticky top-0 z-20 backdrop-blur-md bg-card/95 bg-card/95'
+          : 'bg-card'
+      } border-y sm:border border-border sm:rounded-2xl p-2.5 sm:p-3 shadow-xs transition-colors ${className}`}
       role="region"
       aria-label="Active Recall Masking Bar"
     >
@@ -97,10 +97,10 @@ export const ActiveRecallMaskingBar: React.FC<ActiveRecallMaskingBarProps> = ({
         <div className="flex items-center space-x-2">
           <span className="text-base select-none">🧠</span>
           <div className="flex items-center space-x-1.5">
-            <span className="text-xs font-bold text-stone-800 dark:text-zinc-100 font-myanmar">
+            <span className="text-xs font-bold text-foreground text-foreground font-myanmar">
               Active Recall Masking
             </span>
-            <span className="text-[11px] text-stone-500 dark:text-zinc-400 font-myanmar hidden md:inline">
+            <span className="text-[11px] text-muted-foreground font-myanmar hidden md:inline">
               (အလွတ်ပြန်လည်မှတ်မိခြင်း အကူ)
             </span>
           </div>
@@ -122,14 +122,14 @@ export const ActiveRecallMaskingBar: React.FC<ActiveRecallMaskingBarProps> = ({
             className={`px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-medium border flex items-center space-x-1.5 transition cursor-pointer font-myanmar ${
               maskState.hideFurigana
                 ? 'bg-rose-600 text-white border-rose-600 shadow-2xs font-semibold'
-                : 'bg-stone-50 hover:bg-stone-100 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-300 border-stone-200 dark:border-zinc-700'
+                : 'bg-muted/50 hover:bg-muted hover:bg-muted text-foreground border-border'
             }`}
             title="Hide Furigana (ဖူရီဂါနာ ဖျောက်) — Forces Kanji reading recall"
           >
             {maskState.hideFurigana ? (
               <EyeOff className="w-3.5 h-3.5" />
             ) : (
-              <Eye className="w-3.5 h-3.5 text-stone-400" />
+              <Eye className="w-3.5 h-3.5 text-muted-foreground" />
             )}
             <span>Hide Furigana (ဖူရီဂါနာ ဖျောက်)</span>
           </motion.button>
@@ -142,14 +142,14 @@ export const ActiveRecallMaskingBar: React.FC<ActiveRecallMaskingBarProps> = ({
             className={`px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-medium border flex items-center space-x-1.5 transition cursor-pointer font-myanmar ${
               maskState.hideBurmese
                 ? 'bg-emerald-600 text-white border-emerald-600 shadow-2xs font-semibold'
-                : 'bg-stone-50 hover:bg-stone-100 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-300 border-stone-200 dark:border-zinc-700'
+                : 'bg-muted/50 hover:bg-muted hover:bg-muted text-foreground border-border'
             }`}
             title="Hide Burmese (မြန်မာအဓိပ္ပာယ် ဖျောက်) — Forces meaning recall; tap blurred text to reveal"
           >
             {maskState.hideBurmese ? (
               <EyeOff className="w-3.5 h-3.5" />
             ) : (
-              <Eye className="w-3.5 h-3.5 text-stone-400" />
+              <Eye className="w-3.5 h-3.5 text-muted-foreground" />
             )}
             <span>Hide Burmese (မြန်မာအဓိပ္ပာယ် ဖျောက်)</span>
           </motion.button>
@@ -162,14 +162,14 @@ export const ActiveRecallMaskingBar: React.FC<ActiveRecallMaskingBarProps> = ({
             className={`px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-medium border flex items-center space-x-1.5 transition cursor-pointer font-myanmar ${
               maskState.hideKanji
                 ? 'bg-indigo-600 text-white border-indigo-600 shadow-2xs font-semibold'
-                : 'bg-stone-50 hover:bg-stone-100 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-300 border-stone-200 dark:border-zinc-700'
+                : 'bg-muted/50 hover:bg-muted hover:bg-muted text-foreground border-border'
             }`}
             title="Hide Kanji/Vocab (ဂျပန်စာလုံး ဖျောက်) — Reverse recall from Burmese to Japanese production"
           >
             {maskState.hideKanji ? (
               <EyeOff className="w-3.5 h-3.5" />
             ) : (
-              <Eye className="w-3.5 h-3.5 text-stone-400" />
+              <Eye className="w-3.5 h-3.5 text-muted-foreground" />
             )}
             <span>Hide Kanji/Vocab (ဂျပန်စာလုံး ဖျောက်)</span>
           </motion.button>
@@ -180,7 +180,7 @@ export const ActiveRecallMaskingBar: React.FC<ActiveRecallMaskingBarProps> = ({
               whileTap={{ scale: 0.92 }}
               type="button"
               onClick={onResetAll}
-              className="p-1.5 rounded-xl bg-stone-100 hover:bg-stone-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-stone-600 dark:text-zinc-300 border border-stone-200 dark:border-zinc-700 transition cursor-pointer"
+              className="p-1.5 rounded-xl bg-muted hover:bg-muted bg-muted hover:bg-muted text-muted-foreground text-muted-foreground border border-border transition cursor-pointer"
               title="အကုန်ပြန်ဖွင့်မည် (Reset all masks)"
             >
               <RotateCcw className="w-3.5 h-3.5" />
@@ -188,9 +188,9 @@ export const ActiveRecallMaskingBar: React.FC<ActiveRecallMaskingBarProps> = ({
           )}
 
           {/* Shortcut Legend */}
-          <div className="hidden lg:flex items-center space-x-1 pl-1 text-[11px] font-mono text-stone-500 dark:text-zinc-400">
+          <div className="hidden lg:flex items-center space-x-1 pl-1 text-[11px] font-mono text-muted-foreground">
             <span>Cycle:</span>
-            <kbd className="px-1.5 py-0.5 rounded bg-stone-100 dark:bg-zinc-800 border border-stone-300 dark:border-zinc-700 font-bold text-stone-700 dark:text-zinc-200">
+            <kbd className="px-1.5 py-0.5 rounded bg-muted border border-border font-bold text-foreground text-foreground">
               M
             </kbd>
           </div>
