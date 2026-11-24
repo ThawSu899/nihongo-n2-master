@@ -3,7 +3,7 @@
 
 **Date:** 2026-11-25
 **Project Root:** `C:\Users\hp\antigravity\Nihongo-N2-Master`
-**Feature Branch:** `feat/ai-tutor-v3-release`
+**Feature Branch:** `fix/global-dark-mode-contrast`
 **Base Commit:** `e59ebed`
 **Author:** Antigravity AI Senior Engineer
 **Deliverable Path:** `docs/ui-audit/GLOBAL_DARK_MODE_FIX_REPORT.md`
