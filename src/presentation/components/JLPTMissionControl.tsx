@@ -14,6 +14,10 @@ import {
 import { MasteryRecord, UserProfile } from '../../domain/models/types';
 import { ContentLoader } from '../../data/content/content-loader';
 import { db } from '../../data/db/dexie-db';
+import {
+  calculateMissionControlReadiness,
+  MissionControlReadinessResult,
+} from '../../domain/analytics/mission-control-calculator';
 
 export type JLPTLevel = 'N5' | 'N4' | 'N3' | 'N2';
 
@@ -199,20 +203,20 @@ export const JLPTMissionControl: React.FC<JLPTMissionControlProps> = ({
     }
   }, [examTarget.targetDate]);
 
-  // Required daily velocity: (Remaining uncompleted lessons in target level) / max(1, daysRemaining)
-  const requiredDailyVelocity = remainingLessons / Math.max(1, daysRemaining);
+  // Pure calculation of JLPT Mission Control Readiness and Required Daily Velocity
+  const readinessResult: MissionControlReadinessResult = useMemo(() => {
+    return calculateMissionControlReadiness({
+      remainingLessons,
+      daysRemaining,
+      targetMinutesPerLesson: 60,
+      configuredDailyTargetMinutes: profile?.dailyTargetMinutes || 360,
+    });
+  }, [remainingLessons, daysRemaining, profile?.dailyTargetMinutes]);
 
-  // Estimated daily study minutes (60 minutes per lesson pacing)
-  const estimatedDailyStudyMinutes = Math.round(requiredDailyVelocity * 60);
-
-  // Readiness status indicator in Burmese & English
-  // On Track: remaining is 0 or pace is sustainable (<= 1.0 lesson/day)
-  const isOnTrack =
-    remainingLessons === 0 || (daysRemaining > 0 && requiredDailyVelocity <= 1.0);
-
-  const readinessStatusEn = isOnTrack ? 'On Track' : 'Accelerate';
-  const readinessStatusMy = isOnTrack ? 'အချိန်မီနေသည်' : 'အရှိန်မြှင့်ရန်လိုသည်';
-  const readinessTextCombined = `${readinessStatusEn} / ${readinessStatusMy}`;
+  const requiredDailyVelocity = readinessResult.requiredDailyVelocity;
+  const estimatedDailyStudyMinutes = readinessResult.estimatedDailyStudyMinutes;
+  const isOnTrack = readinessResult.isOnTrack;
+  const readinessTextCombined = readinessResult.readinessTextCombined;
 
   // Progress percentage
   const progressPercent = Math.min(
@@ -388,10 +392,10 @@ export const JLPTMissionControl: React.FC<JLPTMissionControlProps> = ({
             </span>
             <span className="text-xs text-muted-foreground">min / day</span>
           </div>
-          <p className="text-[11px] text-muted-foreground truncate">
+          <p className="text-[11px] text-muted-foreground truncate" title={`Target goal: ${readinessResult.configuredDailyTargetMinutes}m immersion`}>
             {estimatedDailyStudyMinutes >= 60
-              ? `~${(estimatedDailyStudyMinutes / 60).toFixed(1)} hrs daily investment`
-              : 'Sustainable pacing for exam mastery'}
+              ? `~${(estimatedDailyStudyMinutes / 60).toFixed(1)}h required pace (Target: ${readinessResult.configuredDailyTargetMinutes}m)`
+              : `Required pace: ~${estimatedDailyStudyMinutes}m/d (Target: ${readinessResult.configuredDailyTargetMinutes}m)`}
           </p>
         </div>
 
@@ -399,48 +403,47 @@ export const JLPTMissionControl: React.FC<JLPTMissionControlProps> = ({
         <div
           className={`border rounded-2xl p-4.5 space-y-1.5 transition ${
             isOnTrack
-              ? 'bg-emerald-50/60 border-emerald-200 hover:border-emerald-300'
-              : 'bg-amber-50/60 border-amber-200 hover:border-amber-300'
+              ? 'bg-emerald-50/60 border-emerald-200 hover:border-emerald-300 dark:bg-emerald-950/20 dark:border-emerald-800'
+              : 'bg-amber-50/60 border-amber-200 hover:border-amber-300 dark:bg-amber-950/20 dark:border-amber-800'
           }`}
         >
           <div className="flex items-center justify-between text-xs">
             <span
               className={`flex items-center font-semibold font-sans ${
-                isOnTrack ? 'text-emerald-800' : 'text-amber-800'
+                isOnTrack ? 'text-emerald-800 dark:text-emerald-300' : 'text-amber-800 dark:text-amber-300'
               }`}
             >
               {isOnTrack ? (
-                <CheckCircle2 className="w-3.5 h-3.5 mr-1.5 text-emerald-600" />
+                <CheckCircle2 className="w-3.5 h-3.5 mr-1.5 text-emerald-600 dark:text-emerald-400" />
               ) : (
-                <AlertTriangle className="w-3.5 h-3.5 mr-1.5 text-amber-600" />
+                <AlertTriangle className="w-3.5 h-3.5 mr-1.5 text-amber-600 dark:text-amber-400" />
               )}
               Readiness Status
             </span>
             <span
               className={`text-[10px] uppercase font-bold font-mono px-2 py-0.5 rounded-full border ${
                 isOnTrack
-                  ? 'bg-emerald-100 text-emerald-800 border-emerald-300'
-                  : 'bg-amber-100 text-amber-800 border-amber-300'
+                  ? 'bg-emerald-100 text-emerald-800 border-emerald-300 dark:bg-emerald-900/60 dark:text-emerald-200 dark:border-emerald-700'
+                  : 'bg-amber-100 text-amber-800 border-amber-300 dark:bg-amber-900/60 dark:text-amber-200 dark:border-amber-700'
               }`}
             >
-              {isOnTrack ? 'PASSING' : 'BOOST'}
+              {readinessResult.status}
             </span>
           </div>
           <div
             className={`text-base font-bold font-sans tracking-tight ${
-              isOnTrack ? 'text-emerald-900' : 'text-amber-900'
+              isOnTrack ? 'text-emerald-900 dark:text-emerald-200' : 'text-amber-900 dark:text-amber-200'
             }`}
           >
             {readinessTextCombined}
           </div>
           <p
-            className={`text-[11px] truncate ${
-              isOnTrack ? 'text-emerald-700' : 'text-amber-700'
+            className={`text-[11px] leading-tight ${
+              isOnTrack ? 'text-emerald-700 dark:text-emerald-300' : 'text-amber-700 dark:text-amber-300'
             }`}
+            title={readinessResult.explanationMy}
           >
-            {isOnTrack
-              ? 'Pacing is aligned with target exam date'
-              : 'Increase daily sessions to stay on schedule'}
+            {readinessResult.explanationEn}
           </p>
         </div>
       </div>

@@ -91,7 +91,7 @@ export default function App() {
   const [selectedMockExamLevel, setSelectedMockExamLevel] = useState<'N5' | 'N4' | 'N3' | 'N2'>('N5');
   const [todayStudiedMinutes, setTodayStudiedMinutes] = useState<number>(0);
   const [studyStreak, setStudyStreak] = useState<number>(0);
-  const [trueRetentionRate, setTrueRetentionRate] = useState<number>(1.0);
+  const [trueRetentionRate, setTrueRetentionRate] = useState<number | null>(null);
   const [rollingMetrics, setRollingMetrics] = useState<Rolling14DayMetrics>({
     rollingAccuracy14d: {
       vocab: { correct: 0, total: 0 },
@@ -283,6 +283,7 @@ export default function App() {
         recentDaysMissed: rollingMetrics.recentDaysMissed,
         rollingAccuracy14d: rollingMetrics.rollingAccuracy14d,
         skillThresholds: { vocab: 0.9, kanji: 0.85, grammar: 0.85, reading: 0.8, listening: 0.8 },
+        workHours: profile?.workHours,
       },
       clock
     );

@@ -19,7 +19,7 @@ export const ProgressScreen: React.FC<ProgressScreenProps> = ({
   const [totalStudiedSec, setTotalStudiedSec] = useState(0);
   const [masteredCount, setMasteredCount] = useState(0);
   const [totalCards, setTotalCards] = useState(0);
-  const [trueRetention, setTrueRetention] = useState(1.0);
+  const [trueRetention, setTrueRetention] = useState<number | null>(null);
   const [backupStatus, setBackupStatus] = useState<string | null>(null);
 
   const clock = new SystemClock();
@@ -117,8 +117,12 @@ export const ProgressScreen: React.FC<ProgressScreenProps> = ({
 
         <div className="bg-card border border-border rounded-2xl p-4.5 space-y-1.5 shadow-sm hover:border-border/80 transition">
           <span className="text-[10px] text-emerald-500 uppercase font-semibold font-mono">30-Day True Retention</span>
-          <div className="text-2xl font-bold font-mono text-emerald-500">{Math.round(trueRetention * 100)}%</div>
-          <p className="text-[10px] text-muted-foreground">Target: ≥ 90% (FSRS)</p>
+          <div className="text-2xl font-bold font-mono text-emerald-500">
+            {trueRetention !== null ? `${Math.round(trueRetention * 100)}%` : 'N/A'}
+          </div>
+          <p className="text-[10px] text-muted-foreground">
+            {trueRetention !== null ? 'Target: ≥ 90% (FSRS)' : 'No valid review history (N/A)'}
+          </p>
         </div>
       </div>
 
