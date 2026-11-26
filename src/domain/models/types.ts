@@ -468,6 +468,8 @@ export interface ReviewLogEntry {
   newIntervalDays: number;
 }
 
+export type StudyBlockCategory = 'focused_study' | 'admin' | 'break' | 'work';
+
 export interface StudyBlock {
   id: string;
   title: string;
@@ -479,16 +481,22 @@ export interface StudyBlock {
   countsTowardGoal: boolean;
   status: 'pending' | 'active' | 'completed' | 'skipped';
   reason?: string;
+  category?: StudyBlockCategory;
 }
 
 export interface DailyPlan {
   date: string; // YYYY-MM-DD
-  targetMinutes: number; // default 360 = 6 hours
+  targetMinutes: number; // default 360 = 6 hours of focused study
   blocks: StudyBlock[];
   explanations: string[];
   isRecoveryDay: boolean;
   weakSkills: QuestionSkill[];
   strongSkills: QuestionSkill[];
+  focusedMinutes?: number; // total focused study minutes (e.g. 360)
+  adminMinutes?: number;   // total admin/setup minutes (e.g. 30)
+  breakMinutes?: number;   // total break minutes
+  totalElapsedMinutes?: number; // total planned day duration
+  scheduleMode?: 'standard' | 'around_work';
 }
 
 export interface StudyTimerState {
@@ -538,6 +546,11 @@ export interface UserProfile {
     calendarPopup: boolean;
     quietHoursStart: string; // 22:00
     quietHoursEnd: string;   // 07:00
+  };
+  workHours?: {
+    enabled: boolean;
+    start: string; // e.g. '09:00'
+    end: string;   // e.g. '18:00'
   };
 }
 

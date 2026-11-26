@@ -311,9 +311,12 @@ export function burySiblings(cards: SRSCard[]): SRSCard[] {
 
 /**
  * True retention metric: percentage of non-Again ratings on cards with prior interval >= 1 day
- * over rolling 30 days
+ * over rolling 30 days.
+ * Returns null when no valid review history exists, so callers can render 'N/A' cleanly.
  */
-export function calculateTrueRetention(logs: ReviewLogEntry[], clock: Clock): number {
+export function calculateTrueRetention(logs: ReviewLogEntry[], clock: Clock): number | null {
+  if (!logs || logs.length === 0) return null;
+
   const thirtyDaysAgoMs = clock.nowMs() - 30 * 24 * 60 * 60 * 1000;
 
   const matureReviews = logs.filter(
@@ -322,7 +325,7 @@ export function calculateTrueRetention(logs: ReviewLogEntry[], clock: Clock): nu
       log.priorIntervalDays >= 1
   );
 
-  if (matureReviews.length === 0) return 1.0; // default 100% until mature data arrives
+  if (matureReviews.length === 0) return null; // No valid mature review history exists
 
   const successful = matureReviews.filter((log) => log.rating !== 'again').length;
   return Math.round((successful / matureReviews.length) * 1000) / 1000;

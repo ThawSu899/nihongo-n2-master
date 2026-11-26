@@ -179,7 +179,7 @@ export const TestsScreen: React.FC<TestsScreenProps> = ({
 
     const logs = await db.review_logs.toArray();
     const hasSrsData = logs.length > 0;
-    const srsRetention = hasSrsData ? calculateTrueRetention(logs, clock) : 0;
+    const srsRetention = hasSrsData ? (calculateTrueRetention(logs, clock) ?? 0) : 0;
 
     const weeklyAccuracies = history.filter((h) => h.type === 'weekly').map((h) => h.accuracy);
     const levelPassed = history.some((h) => h.type === 'level' && h.passed);

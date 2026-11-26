@@ -52,7 +52,7 @@ interface HomeScreenProps {
   streakDays?: number;
   longestStreak?: number;
   todayCompletedWords?: number;
-  trueRetention?: number;
+  trueRetention?: number | null;
 }
 
 export const HomeScreen: React.FC<HomeScreenProps> = ({
@@ -80,7 +80,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
   const goalMinutes = profile.dailyTargetMinutes || 360;
   const progressPercent = Math.min(100, Math.round((todayMinutes / goalMinutes) * 100));
   const effectiveStreak = streakDays ?? profile.studyStreakDays ?? 0;
-  const effectiveRetention = trueRetention !== undefined ? trueRetention : 1.0;
+  const effectiveRetention = trueRetention !== undefined ? trueRetention : null;
 
   // Real-time Leech & Weak items detection (lapses >= 2 or easeFactor <= 1.6)
   const [leechCardsCount, setLeechCardsCount] = useState<number>(() => {
@@ -559,8 +559,8 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
               <ChevronRight className="w-4 h-4 text-muted-foreground/60 group-hover:text-foreground transition" />
             </div>
             <div className="flex items-baseline space-x-1.5">
-              <span className="text-2xl font-bold text-foreground font-mono tracking-tight text-cyan-900 dark:text-cyan-300">
-                {Math.round(effectiveRetention * 100)}%
+              <span className="text-2xl font-bold font-mono tracking-tight text-cyan-900 dark:text-cyan-300">
+                {effectiveRetention !== null ? `${Math.round(effectiveRetention * 100)}%` : 'N/A'}
               </span>
               <span className="text-xs text-muted-foreground">/ 90% target</span>
             </div>
@@ -569,11 +569,13 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
             <div className="w-full bg-muted rounded-full h-1.5 overflow-hidden">
               <div
                 className="bg-cyan-600 h-1.5 rounded-full transition-all duration-300"
-                style={{ width: `${Math.min(100, Math.round(effectiveRetention * 100))}%` }}
+                style={{ width: `${effectiveRetention !== null ? Math.min(100, Math.round(effectiveRetention * 100)) : 0}%` }}
               />
             </div>
             <p className="text-[10px] text-muted-foreground font-sans truncate">
-              FSRS ရေရှည်မှတ်မိနှုန်း • ၃၀ ရက် ပျမ်းမျှ
+              {effectiveRetention !== null
+                ? 'FSRS ရေရှည်မှတ်မိနှုန်း • ၃၀ ရက် ပျမ်းမျှ'
+                : 'No valid review history (N/A) • မှတ်တမ်းမရှိသေးပါ'}
             </p>
           </div>
         </div>
@@ -786,57 +788,95 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
             <Calendar className="w-4 h-4 text-indigo-600" />
             <h2 className="text-base font-bold text-foreground">Today&apos;s 6-Hour Study Plan</h2>
           </div>
-          <span className="text-xs text-muted-foreground font-mono">6 blocks • 360 min total goal</span>
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="px-2.5 py-0.5 rounded-full bg-indigo-50 dark:bg-indigo-950/40 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800 text-xs font-mono font-medium">
+              🎯 {dailyPlan.focusedMinutes ?? 360}m Focused Study
+            </span>
+            <span className="px-2.5 py-0.5 rounded-full bg-muted text-muted-foreground border border-border text-xs font-mono">
+              ⚙️ {dailyPlan.adminMinutes ?? 30}m Setup &amp; Wrap-up
+            </span>
+            <span className="px-2.5 py-0.5 rounded-full bg-muted/60 text-muted-foreground border border-border text-xs font-mono">
+              {dailyPlan.scheduleMode === 'around_work' ? '🏢 Configured Around Work' : '⏱️ Standard Immersion'}
+            </span>
+          </div>
         </div>
 
         <div className="space-y-2.5">
-          {dailyPlan.blocks.map((block) => (
-            <div
-              key={block.id}
-              className={`p-3.5 sm:p-4 rounded-2xl border flex flex-col sm:flex-row sm:items-center justify-between gap-3 transition ${
-                block.status === 'completed'
-                  ? 'bg-muted/40 border-border text-muted-foreground'
-                  : block.countsTowardGoal
-                  ? 'bg-card border-border text-card-foreground hover:bg-muted/50'
-                  : 'bg-muted/20 border-border/50 text-muted-foreground'
-              }`}
-            >
-              <div className="flex items-center space-x-3.5">
-                <span className="text-xs font-mono text-muted-foreground shrink-0 min-w-[90px]">
-                  {block.startTime} – {block.endTime}
-                </span>
-                <div>
-                  <div className="text-xs font-semibold text-foreground flex items-center space-x-1.5">
-                    <span>{block.title}</span>
-                    {!block.countsTowardGoal && (
-                      <span className="text-[10px] text-muted-foreground bg-muted px-1.5 py-0.2 rounded font-mono">
-                        admin
-                      </span>
+          {dailyPlan.blocks.map((block) => {
+            const isWork = block.category === 'work';
+            const isAdmin = block.category === 'admin';
+            const isBreak = block.category === 'break';
+            const isFocused = block.category === 'focused_study' || block.countsTowardGoal;
+
+            return (
+              <div
+                key={block.id}
+                className={`p-3.5 sm:p-4 rounded-2xl border flex flex-col sm:flex-row sm:items-center justify-between gap-3 transition ${
+                  isWork
+                    ? 'bg-amber-50/40 dark:bg-amber-950/10 border-amber-200/80 dark:border-amber-900/40 text-amber-900 dark:text-amber-200'
+                    : block.status === 'completed'
+                    ? 'bg-muted/40 border-border text-muted-foreground'
+                    : isFocused
+                    ? 'bg-card border-border text-card-foreground hover:bg-muted/50'
+                    : 'bg-muted/20 border-border/50 text-muted-foreground'
+                }`}
+              >
+                <div className="flex items-center space-x-3.5">
+                  <span className="text-xs font-mono text-muted-foreground shrink-0 min-w-[90px]">
+                    {block.startTime} – {block.endTime}
+                  </span>
+                  <div>
+                    <div className="text-xs font-semibold text-foreground flex items-center space-x-1.5 flex-wrap gap-1">
+                      <span>{block.title}</span>
+                      {isFocused && (
+                        <span className="text-[10px] text-indigo-700 dark:text-indigo-300 bg-indigo-50 dark:bg-indigo-950/60 px-1.5 py-0.2 rounded font-mono border border-indigo-200 dark:border-indigo-800">
+                          focused study
+                        </span>
+                      )}
+                      {isAdmin && (
+                        <span className="text-[10px] text-muted-foreground bg-muted px-1.5 py-0.2 rounded font-mono border border-border">
+                          admin
+                        </span>
+                      )}
+                      {isWork && (
+                        <span className="text-[10px] text-amber-700 dark:text-amber-300 bg-amber-100 dark:bg-amber-900/60 px-1.5 py-0.2 rounded font-mono border border-amber-300 dark:border-amber-700">
+                          protected work hours
+                        </span>
+                      )}
+                      {isBreak && (
+                        <span className="text-[10px] text-emerald-700 dark:text-emerald-300 bg-emerald-50 dark:bg-emerald-950/60 px-1.5 py-0.2 rounded font-mono border border-emerald-200 dark:border-emerald-800">
+                          break
+                        </span>
+                      )}
+                    </div>
+                    {block.reason && (
+                      <p className="text-[11px] text-muted-foreground mt-0.5">{block.reason}</p>
                     )}
                   </div>
-                  {block.reason && (
-                    <p className="text-[11px] text-muted-foreground mt-0.5">{block.reason}</p>
+                </div>
+
+                <div className="flex items-center space-x-3 self-end sm:self-auto shrink-0">
+                  <span className="text-xs font-mono text-muted-foreground">{block.plannedMinutes} min</span>
+                  {isWork ? (
+                    <span className="text-xs font-mono text-amber-700 dark:text-amber-300 px-2 py-0.5 rounded bg-amber-100 dark:bg-amber-900/40">
+                      Work Protected
+                    </span>
+                  ) : block.status === 'completed' ? (
+                    <span className="text-xs text-emerald-700 dark:text-emerald-400 flex items-center font-medium font-mono px-2.5 py-1 rounded-lg bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800">
+                      <CheckCircle className="w-3.5 h-3.5 mr-1" /> Done
+                    </span>
+                  ) : (
+                    <button
+                      onClick={() => onStartStudy(activeLesson.id)}
+                      className="text-xs px-3.5 py-1.5 rounded-xl bg-muted hover:bg-muted/80 text-foreground font-semibold transition cursor-pointer active:scale-95 border border-border"
+                    >
+                      Start
+                    </button>
                   )}
                 </div>
               </div>
-
-              <div className="flex items-center space-x-3 self-end sm:self-auto shrink-0">
-                <span className="text-xs font-mono text-muted-foreground">{block.plannedMinutes} min</span>
-                {block.status === 'completed' ? (
-                  <span className="text-xs text-emerald-700 dark:text-emerald-400 flex items-center font-medium font-mono px-2.5 py-1 rounded-lg bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800">
-                    <CheckCircle className="w-3.5 h-3.5 mr-1" /> Done
-                  </span>
-                ) : (
-                  <button
-                    onClick={() => onStartStudy(activeLesson.id)}
-                    className="text-xs px-3.5 py-1.5 rounded-xl bg-muted hover:bg-muted/80 text-foreground font-semibold transition cursor-pointer active:scale-95 border border-border"
-                  >
-                    Start
-                  </button>
-                )}
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </section>
     </div>
